@@ -638,16 +638,23 @@ test.describe("the seat's keep-clear 1440x900 (GOLD1-R2)", () => {
     const r = await page.evaluate(() => {
       const a = (window as W).__neural
       a.setPaused(true)
-      const S = a.nodes[a.focusIdx], vw = 146.55   // the seat's orb about 30 px across its half-width at 1440
-      a.cam = { ...a.cam, cx: S.x, cy: S.y, vw, lvw: Math.log(vw) }
+      const S = a.nodes[a.focusIdx], vw = 146.55, W0 = a.W / vw   // the seat's orb about 30 px across its half-width at 1440
+      // the seat placed where the walk's band (350 px to its left, 60 px over and under) and its own name's room (230 px to its
+      // right) are clear of every control's box (the frame's own `_nameBlocks`: a move's name is written under none of them)
+      const NB = a._nameBlocks(), free = (l: number, t: number, r: number, b: number) => l >= NB.l + 8 && r <= NB.r - 8 && t >= 8 && b <= NB.b - 8
+        && !NB.blocks.some((q: W) => l < q.r + 8 && r > q.l - 8 && t < q.b + 8 && b > q.t - 8)
+      let spot: W = null
+      for (let y = 120; y <= a.H - 120 && !spot; y += 20) for (let x = NB.l + 370; x <= NB.r - 250 && !spot; x += 20) if (free(x - 350, y - 60, x + 230, y + 60)) spot = { x, y }
+      if (!spot) { a.setPaused(false); return { spot: null, l: NB.l, blocks: NB.blocks.map((q: W) => [q.l, q.t, q.r, q.b].map(Math.round)) } }
+      a.cam = { ...a.cam, cx: S.x - (spot.x - a.W / 2) / W0, cy: a._LY(S) - (spot.y - a.H / 2) / W0, vw, lvw: Math.log(vw) }
       a._nm = {}; a.draw()
       const scale = a.W / a.cam.vw, dpr = a.dpr || 1, lw = Math.max(1, 1.5 / dpr), gap = dpr < 1.5 ? 0.5 / dpr : 0
       const sx = a.W / 2 + (S.x - a.cam.cx) * scale, sy = a.H / 2 + (a._LY(S) - a.cam.cy) * scale, R = a._nodeHalfW(S, scale, a._nodeK, a._lodK, true)
       const reach = R * 1.28 + 1 + lw + gap, bare = R + lw + gap
       const pn = (a._lastNameBoxes || []).find((b: W) => b.w === "position")
       const named = new Set((a._lastNameBoxes || []).filter((b: W) => b.w === "move").map((b: W) => b.i))
-      const Di = a.optionIdxs.find((i: number) => named.has(i))
-      const out: W = { R, reach, bare, dpr, pos: pn ? (pn.r <= sx ? "left" : pn.l >= sx ? "right" : "over") : "none", D: Di == null ? null : a.graphName(a.nodes[Di]), frames: 0, written: 0, tight: 0, inside: [] as string[] }
+      const Di = a.optionIdxs.find((i: number) => named.has(i)) ?? a.optionIdxs[0]
+      const out: W = { spot, seat: [sx, sy].map(Math.round), R, reach, bare, dpr, pos: pn ? (pn.r <= sx ? "left" : pn.l >= sx ? "right" : "over") : "none", D: Di == null ? null : a.graphName(a.nodes[Di]), frames: 0, written: 0, tight: 0, inside: [] as string[] }
       if (Di == null) { a.setPaused(false); return out }
       const D = a.nodes[Di], P = D.pi >= 0 ? a.nodes[D.pi] : null, x0 = D.x, y0 = D.y, px0 = P ? P.x : 0, py0 = P ? P.y : 0
       const RD = a._nodeHalfW(D, scale, a._nodeK, a._lodK, true)
@@ -669,7 +676,8 @@ test.describe("the seat's keep-clear 1440x900 (GOLD1-R2)", () => {
       return out
     })
     console.log(`[known-move-seal] the seat's keep-clear: ${JSON.stringify(r)}`)
-    expect(r.D, "a dealt move is named in the frame (the walk has a subject)").not.toBeNull()
+    expect(r.spot, `a stretch of the map clear of every control holds the seat and the walk (${JSON.stringify(r.blocks)})`).not.toBeNull()
+    expect(r.D, "a dealt move to walk (the walk has a subject)").not.toBeNull()
     expect(r.pos, "the position's own name is not on the seat's left (the walk meets the seat, not its name)").not.toBe("left")
     expect(r.tight, `${r.D}'s name comes within 3 px of the seat's reach on the seat's side (the reach is what holds it: the check has a case)`).toBeGreaterThan(0)
     expect(r.inside, "no move's name within the seat's focus mark (1.28 r), its rim and its outside line").toEqual([])
