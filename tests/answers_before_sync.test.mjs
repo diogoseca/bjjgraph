@@ -33,6 +33,12 @@
 //   J13 a stored row a replay superseded does not yield                    → "two tabs: the tab that did not answer…"
 //   J15 a journal of another version read as empty (and written over)      → "a journal of a version this build does not know…"
 //   J16 ids restarted at 1, not from the clock                             → "a journal of a version this build does not know…"
+// NEXT2-R2 (the second look; OLD2, the reviewed head 052d58745's own code, is red at both of its cases):
+//   J17 the replay's row always taken (D1's rule removed)                  → "two offline devices, only right answers…"
+//   J19 the taken guest rows never written                                 → "a second guest join keeps…", "after any number of
+//                                                                              guest joins an answer still rewrites…"
+//   J20 D1's rule without its narrowing (later-due even when nothing was   → "a later right answer replayed onto another
+//       set aside: this copy's own answer on the old row wins)                device's miss keeps the miss…"
 // NOT KILLED, and why: J7 (the guest high-water `g` ignored) and J14 ("one more answer on top" counted as holding an entry,
 // the relaxation NEXT2-R1 removed) leave every row as it is. Under the day rule a guest entry already taken in is older
 // than, or of the same day as, the account's row, and a same-day replay changes nothing; an answer on top of an entry is
@@ -188,7 +194,7 @@ test("P3 a guest's first right answer joins an account that holds the card matur
   assert.deepEqual(C.blob.srs.d[H1], want);
   assert.equal(journal(mem, A).e.length, 0, "taken in, then delivered by the account's push");
   assert.ok(journal(mem, A).g > 0, "the account remembers the guest answers it has taken in");
-  assert.deepEqual(Object.keys(journal(mem, A).t).length, 2, "and the guest rows it took, card by card");
+  assert.equal(Object.keys(JSON.parse(mem.getItem(ngProgressLocalKey(A, "taken"))).t).length, 2, "and the guest rows it took, card by card, under their own key");
   assert.equal(journal(mem, GUEST).e.length, 0, "the guest's entries leave its journal once the account's cloud holds what they rebuilt");
   const guestCopy = JSON.parse(mem.getItem(ngProgressLocalKey(GUEST))).blob;
   assert.deepEqual(guestCopy.srs.d[H1], [D + 1, 1, D], "the guest's copy stays as it was (signing out still plays it)");
@@ -462,3 +468,53 @@ test("the journal is bounded: an answer never rewrites more than about 20 KB", (
   assert.equal(journal(mem, A).e.length, NG_PROGRESS_JOURNAL_CAP);
   assert.ok(raw.length <= 21000, `${raw.length} characters at the bound`);
 })));
+
+// ── NEXT2-R2: the second look at PR #418 (its findings D1 and D3, as cases) ────────────────────────────────────────────
+
+test("two offline devices, only right answers, the other device syncs first: no step is lost (D1, short and long)", () => fakeTimers(async ({ flush }) => {
+  for (const [name, c0, yDays, xDay] of [["short", [D + 1, 1, D], [D + 1, D + 4], D + 4], ["long", [D, 60, D - 60], [D, D + 90], D + 90]]) {
+    const C = cloud(blob({ srs: { d: { [H1]: c0 } }, stage: { d: { [H1]: 3 } } })), memX = memory(), memY = memory();
+    let X, Y;
+    await withDay(c0[2], async () => { X = (await account(memX, C, flush)).a; Y = (await account(memY, C, flush)).a; });   // both synced
+    C.pullFails = true; C.mode = "fail";   // then both offline: no pull, no push
+    for (const d of yDays) await withDay(d, async () => { answer(Y, Q1, true); await flush(); await settle(); });
+    await withDay(xDay, async () => { answer(X, Q1, true); await flush(); await settle(); });
+    // one copy that saw every answer in time order: Y's two, then X's of the same day as Y's second
+    const ideal = write(write(write(c0, true, yDays[0]), true, yDays[1]), true, xDay);
+    C.pullFails = false; C.mode = "ok";
+    await withDay(xDay, async () => { for (const dev of [X, Y, X, Y]) await pull(dev, flush); });
+    assert.deepEqual(C.blob.srs.d[H1], ideal, `${name}: the card keeps the step Y's right answers earned`);
+    assert.deepEqual([X.srs.d[H1], Y.srs.d[H1]], [ideal, ideal], `${name}: both devices hold it`);
+  }
+}));
+
+test("after any number of guest joins an answer still rewrites no more than about 20 KB (D3)", () => withDay(D, () => fakeTimers(async ({ flush }) => {
+  const mem = memory(), C = cloud(blob({})), deck = "Submissions/Rear Naked Choke from Back Control|Attacker";
+  let a;
+  for (let round = 0; round < 3; round++) {   // a guest answers 180 new cards, then signs in: three times
+    const h = harness(mem, C); await h.boot(); const g = h.get();
+    for (let i = 0; i < 180; i++) g._gradeKnowledge(deck, { q: `round ${round} question ${i}` }, true, "recall");
+    g._flushSave(); await flush(); await settle();
+    a = h.signIn("A"); await pull(a, flush);
+  }
+  assert.ok(Object.keys(JSON.parse(mem.getItem(ngProgressLocalKey(A, "taken"))).t).length >= 500, "the taken rows are kept, under their own key");
+  C.pullFails = true;
+  answer(a, Q1, true); await settle();
+  const raw = mem.getItem(ngProgressLocalKey(A, "pending"));
+  assert.ok(raw.length <= 21000, `one answer rewrites ${raw.length} characters`);
+})));
+
+test("a later right answer replayed onto another device's miss keeps the miss: nothing set aside, the replay stands (D1's rule, narrowed)", () => fakeTimers(async ({ flush }) => {
+  // Z answers right and then misses on day D, offline; X, offline on the old 60-day row, answers right on day D+1. Z syncs
+  // first. X's one answer is later than Z's miss, so it is replayed onto it: the miss counts, and X's answer climbs from one
+  // day. Preferring the later-due merge row here (X's answer on the old row) would hide the card for 74 days.
+  const C = cloud(blob({ srs: { d: { [H1]: MATURE } }, stage: { d: { [H1]: 3 } } })), memX = memory(), memZ = memory();
+  let X, Z;
+  await withDay(D - 1, async () => { X = (await account(memX, C, flush)).a; Z = (await account(memZ, C, flush)).a; });
+  C.pullFails = true; C.mode = "fail";
+  await withDay(D, async () => { answer(Z, Q1, true); answer(Z, Q1, false); await flush(); await settle(); });
+  await withDay(D + 1, async () => { answer(X, Q1, true); await flush(); await settle(); });
+  C.pullFails = false; C.mode = "ok";
+  await withDay(D + 1, async () => { for (const dev of [Z, X, Z, X]) await pull(dev, flush); });
+  assert.deepEqual(C.blob.srs.d[H1], write([D + 1, 1, D], true, D + 1), "Z's miss, then X's right answer: three days");
+}));
