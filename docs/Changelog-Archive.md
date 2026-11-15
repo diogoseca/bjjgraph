@@ -18300,3 +18300,67 @@ stored row rewritten, two devices converging and both heals only later all held.
   first-hand core 384,492 (+3,197 on 381,295, this PR's +381, of 6,000); deferred raw 522,091, its ceiling moved to
   exactly that in its own commit under U170 a (b729ef8c4; dev's own use 521,758). Stored progress: no new field, no key,
   no row rewritten.
+
+## v1.280.1 — An answer given before a copy has seen the card's row no longer costs the card its schedule (NEXT2 Job 1, 2026-11-14)
+
+**The loss** (proven before the change on dev 689f03b9f's own pull, join and save): a first right answer writes
+`[d+1, 1, d]`, the same row a miss writes. Given before a device's first pull, offline, by a guest who then signs in, or
+in a tab that never saw another tab's row, it met the other copy in a merge that keeps the later answer (the heal needs a
+true interval above 1), so a 60-day card became one day and was pushed to every device; the rating read the card about
+0.95 → 0.81 the next day, and it took 5 on-time answers over about 55 days to climb back. Nothing stored tells that answer
+from a miss (the stage, the day log and a moves row cannot settle it), so the merge alone could not be fixed.
+
+**Ruled (NEXT2-GO):** design (i), the replay, in all three places, one PR; rows written before the release keep the
+merge's rule.
+
+**What changed.** Each owner keeps, on this browser only, the answers it has not yet seen delivered: a journal under
+`ngProgressLocalKey(owner, "pending")` (local, never synced, never in the blob or the practice key), entries `[id, field,
+bucket, item, ok, day, after]` appended at the three writers (`_gradeKnowledge`, `_schedule`, `_gradeMove`) and persisted
+at once. Where this copy meets another copy's rows, the journal's cards are not merged but rebuilt: the other copy's row
+with this copy's answers applied again by the schedule writer, in order (`ngProgressReplay`, progress-owner.src.js; the
+writer is passed in as `_scheduleWrite`, since that group file cannot import knowledge-profile, whose bytes the study
+engine pins):
+- at a pull (`replayCloud`, after `_mergeProgressBlobs`, before the level beat and the guest join);
+- at the guest join (`joinGuest`): the guest's entries the account has not taken in (above the account journal's `g`)
+  rebuilt on the account's rows, then handed to the account's journal, so its push delivers them;
+- at another tab's save (`mergeExternal`): only the entries THIS tab appended since it last wrote; the other tab's copy
+  holding an entry does not deliver it (it is not the cloud).
+
+An entry is DELIVERED, and leaves the journal, when a copy the cloud accepted (a push that returned true and ran alone in
+its tab) or holds (a pulled blob) has, for its card, the row that entry or a later entry of the same card left, or that
+row with ONE more answer on top. The second clause was found while building: a push that landed but was answered false,
+then a right answer on top of it by another device, made the miss count twice under plain equality; a device that never
+saw the entry can match it only by resetting the same day, which changes nothing. Capped at 2,000 entries (about a month
+offline at 60 answers a day).
+
+**Proof.** `tests/answers_before_sync.test.mjs`, 15 tests, every answer through the app's writer and every sync through
+its pull, push, save and join, against a fake cloud that HOLDS rows (it can fail a push, or store it and answer false):
+Part A's four cases fixed (P1 to P4, cards and hidden moves); a miss counts before the first pull, offline, and against a
+later right answer elsewhere (filed on that answer); both directions of clearing (a failed push keeps the entry, a landed
+push answered false is not applied twice, an answer given during a push stays, an app closed before its push delivers at
+the next session, another tab's older push landing last loses nothing); a guest copy joining twice applies only its new
+answers; two devices converge in both orders; one owner's answers never reach another owner; the cap; nothing written on
+a passive boot; an older client (dev's captured pull) receives ordinary rows. Mutants, each alone, each red at its named
+test: J1 the pull does not replay; J2 a miss skipped; J3 a held entry applied again; J4 entries cleared at the pull
+whatever the cloud holds; J5 the tab merge does not replay; J6 the join does not replay; J7 the guest high-water
+ignored; J8 the cap ignored; J9 a push's delivery taken without its rows.
+
+**Not covered.** Answers given before v1.280.1 (no journal: a guest's old one-day rows can still shorten an account's card
+at its first join); an older client's own answers; a push answered false and then two or more answers on top elsewhere;
+two tabs appending in the same instant; another device that pulled before this device's push and then pushes its own
+older-based copy over it (the cloud push is a whole-blob upsert; a conditional push would close it).
+
+**Landing.** On 9d2a4b10e under the build lock (23:40 to 00:11): the 36 journey files that read a schedule row, the
+rating or the sync (auth-owner, guest-join, account-menu, srs-due, the belts, rating-reader, the Practice files,
+payload-first-hand) 386 passed; e2e:gen 103/103 by its ledger; units red at ONE test, `reader_mangle`: the replay's result
+named its held entries `held`, a property the reader's build mangles; renamed `inCopy` (f8aa1f632, no behaviour moved).
+On f8aa1f632 (00:17 to 00:32): units 1,704/1,704; the sync and Practice journeys (account-menu, auth-owner,
+auth-redirect-back, guest-join, srs-due, practice-page, practice-order, payload-first-hand) 86 passed; the app rows
+re-seeded (be46bf19e); the payload gate OK; ci:validate 25/25.
+
+**Bytes**, my share on dev v1.279.0's own build (689f03b9f's app, gzip 9): `neural.js` +4,535 raw, +1,743 gzip (the
+journal and the replay, in progress-owner.src.js and the app's writers; nothing deferred moved). With this PR: eager gzip
+366,790 (+4,903 on the 361,887 baseline, this PR's +1,743, of a 5,000 cap); first-hand core 386,233 (+4,938 on 381,295,
+this PR's +1,741, of 6,000); deferred raw 522,091 (unchanged). It fits alone; beside #417 the eager sum needs the
+orchestrator's checkpoint of the baselines. Stored progress in the cloud: nothing added, nothing rewritten (the journal is
+local).
