@@ -95,14 +95,21 @@ const NG_CHALLENGE_FEEDBACK_METHODS = {
     // the position's own name and its seat star are not written under paint (POSNAME, `_hides`), so they come back with the
     // first frame drawn after it goes: the frame loop's next one in the app (16 ms), but a journey's clock draws only when
     // pumped, so a press on the ✕ and a look for the star met the frame drawn under the card (lists-picker.spec.ts's phone
-    // test; dev drew the star under the card and kept it). One frame drawn here, the moment the card goes.
+    // test; dev drew the star under the card and kept it). One frame drawn by each close (the ✕, View Collection, the card's
+    // own timer), AFTER that close's own work (GOLD1-R3): drawn inside `dismiss`, it ran before View Collection opened the
+    // Path, and a frame that threw there stopped the handler (challenges-ui.spec.ts, "a Mat Coin acknowledgement": the card
+    // closed before the frame clock's first tick, `now` undefined, so the arrival glow's age read NaN and its gradient
+    // threw). No frame before that first tick: nothing was drawn under the card yet, and the first frame draws the map.
+    // `holdChallengeReward` draws none: the move's own frames follow.
+    const redraw = () => {
+      if (this.ctx && this.nodes && Number.isFinite(this.now) && typeof this.draw === "function") this.draw();
+    };
     const dismiss = (this._challengeRewardDismiss = () => {
       clearTimeout(this._challengeRewardTimer);
       if (this._challengeRewardEl) this._challengeRewardEl.remove();
       this._challengeRewardEl = null;
       this._challengeRewardActive = null;
       this.showNextChallengeReward();
-      if (this.ctx && this.nodes && typeof this.draw === "function") this.draw();
     });
     el
       .querySelector("[data-reward-collection]")
@@ -110,9 +117,16 @@ const NG_CHALLENGE_FEEDBACK_METHODS = {
         dismiss();
         this._scrollRewardsShelf = true; // open + scroll the shelf inside Challenges
         this.openLearningView("challenges");
+        redraw();
       });
-    el.querySelector("[data-reward-close]").addEventListener("click", dismiss);
-    this._challengeRewardTimer = setTimeout(dismiss, 4800);
+    el.querySelector("[data-reward-close]").addEventListener("click", () => {
+      dismiss();
+      redraw();
+    });
+    this._challengeRewardTimer = setTimeout(() => {
+      dismiss();
+      redraw();
+    }, 4800);
   },
 };
 
