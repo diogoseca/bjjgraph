@@ -18366,3 +18366,41 @@ journal and the replay, in progress-owner.src.js and the app's writers; nothing 
 this PR's +1,741, of 6,000); deferred raw 522,091 (unchanged). It fits alone; beside #417 the eager sum needs the
 orchestrator's checkpoint of the baselines. Stored progress in the cloud: nothing added, nothing rewritten (the journal is
 local).
+
+**NEXT2-R1** (the independent read of PR #418 at c05f399bc: MERGE AFTER 1, 2, 3; 7,200 two-device and 28,800
+three-device scenarios against a fake cloud that holds rows). The single-copy cases, clearing under every attack but one,
+owners, a passive boot, the older client and #416's guarantees held. Fixed in one push:
+- **Finding 1, a regression against dev, ruled: an entry is replayed only when it was made on or after the other copy's
+  row's `last`,** at the pull, the guest join and the tab save. The first push replayed every guest entry at an account's
+  first join, so a guest's miss of 100 days before reset a card the account had answered since. Now an older entry meets
+  the other row by the merge's rule, as on dev: a miss made after the other copy's last answer counts; a miss made before
+  it is superseded by that later answer. At a pull such entries leave the journal.
+- **Findings 2, 3 and 7, one fault: a stale one-day row came back.** Two rules at the tab merge: a row the tab has not
+  touched since it last read or wrote the stored copy yields to the stored row; a stored row a replay in this tab replaced
+  yields to the rebuilt row (both two-tab variants: the second tab opening after the answer, and open before it). At the
+  guest join the account keeps its own row of a card while the guest's row is the one it took in (`t`, by card). An entry
+  is delivered only on the exact row it left; the "one more answer on top" relaxation is gone, and a push that landed but
+  was answered false stays right through the day rule.
+- **Finding 6:** a journal of a version this build does not know is never written over (nothing is journaled for that
+  owner until it can be read); ids come from the clock, so a replaced journal never restarts below an account's `g`.
+- **Finding 8:** bounded at 180 entries, about 20 KB with long deck keys (the first push's 2,000 were up to 160 KB rewritten
+  on every answer); a guest entry an account took in leaves the guest's journal once that account's cloud holds it.
+- **Findings 4 and 5, not fixed here, re-measured on this head with the reader's scripts:** runs with a miss where the
+  card ends further out than the right answers after the last miss could take it: 697 of 13,104 two-device (dev 1,260;
+  the first push 92), 9,798 of 168,912 three-device (dev 13,661; the first push 2,056); the first push's lower figures came
+  from letting an older miss override a newer answer, which the ruling removed. The final row depends on the order of
+  syncs in 1,102 of 7,200 two-device scenarios (15.3%; the first push 1,172, dev 260: 224 one day against three, 318 due
+  days within 2 days, 560 intervals more than 20% apart) and 4,231 of 28,800 three-device ones (14.7%; dev 984); two
+  devices are on one row after two rounds, 20 three-device runs need a third.
+- **Proof:** the reader's cases are tests (21 in all), red on c05f399bc's own code and green now. Mutants J10 (the day
+  test removed), J11 (the taken rows ignored), J12 and J13 (either tab rule removed), J15 (another version read as empty),
+  J16 (ids restarted at 1), and J2 against a new case (offline, a miss then a right answer: the miss stands), each red at
+  its named test; J7 (the guest high-water ignored) and J14 (the relaxation put back) leave every row as it is under the
+  day rule, recorded as non-kills in the test's header.
+- **Landing (R1)** on 290b3dc06 under the build lock (02:35 to 02:57): units 1,710/1,710; the sync and Practice
+  journeys (account-menu, auth-owner, auth-redirect-back, guest-join, srs-due, practice-page, practice-order,
+  payload-first-hand) 86 passed; the app rows re-seeded (899f6a505); ci:validate 25/25. The payload gate is red on the SUM
+  alone: eager gzip 367,516, +5,629 on the 361,887 baseline over the 5,000 per-change cap, dev's own +3,160 and this PR's
+  +2,469 (`neural.js` +6,448 raw; R1 added +726 gzip to the first push's +1,743), awaiting the orchestrator's checkpoint
+  of the baselines after #417. First-hand core 386,957 (+5,662 on 381,295, of 6,000; this PR's +2,465). Nothing deferred
+  moved.
