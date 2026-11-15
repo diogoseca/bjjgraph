@@ -97,6 +97,10 @@ import { journey } from "../dsl"
  *                                                              move's name within the seat's focus mark (1.28 r), its rim
  *                                                              and its outside line" (the fixture "the seat's keep-clear",
  *                                                              on 4af42aeb0)
+ *   GOLD1-R4 (the map reader's second look), on 605a2d744:
+ *   R4a the marks on the names' lit set again (a face-down    red 2 at "..., due looked at: no mark on its orb (no outside
+ *       card looked at lights its orb)                         line, no inside gold), as no seal on its card" (the mouse at
+ *                                                              1440, a tap at 390)
  * NOT COVERED here: the hover words' TOOLTIP itself (a browser tooltip cannot be read; its `title` is asserted, and the
  * pointer meets the seal); the light/dark poster frames (the pictures, tests/artifacts/_seal_shoot.mjs; the spec checks
  * the seal is lit or dark INSIDE, whatever the poster); a known escape's or threat's seal (the units: escape; the same

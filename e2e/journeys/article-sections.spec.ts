@@ -370,6 +370,10 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
 
 // Measure this frame's published label strings/baselines with their actual font,
 // and both drawn seats through LY. Never use the camera target or stored n.y.
+// GOLD1-R4 (the map reader's D5), mutants on 605a2d744: P1, the position's name exempt from the rule, red at "1152px: the
+// position's name goes where the rule says" (written on its usual side where the article paints over it); R1a, the box rule
+// again, a NON-KILL here (every reading frame has the article's paint on both sides and every at-rest frame a clear usual
+// side, so the two rules agree in these frames): map-names.spec.ts's see-through fixture and lists-picker.spec.ts hold it.
 // v1.280.0 (POSNAME): the position's own name is never written under a control, so with the article across the node it is
 // not written that frame; `needLabel` false lets the reading frame have none (`labels` empty, `named` false)
 const tocCanvasGeometry = (page: Page, needLabel = true) => page.evaluate((needLabel) => {

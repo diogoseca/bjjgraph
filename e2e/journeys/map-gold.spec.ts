@@ -53,6 +53,12 @@ import { journey } from "../dsl"
  *       1.2 CSS px at every ratio)                           in every state, at every size" (dpr 2 and 390 green)
  *   R2a2 the dpr-1 line at 1 CSS px (not 1.5 device px)     red at "1440 dpr 1: the outside line is gold when and only when
  *                                                            there is a Yes" (the diamond's faces at partial cover)
+ *   GOLD1-R4 (the map reader's second look), on 605a2d744:
+ *   R4b the dpr-1 rules below 1.5 again (dpr 1.5 on the      red at "1440 dpr 1.5: the border band is the orb's own colour
+ *       dpr-2 rules)                                         in every state, at every size"
+ *   nofit1 (the reader's) no inside at all below dpr 2       red at "1440 dpr 1: the inside is gold when and only when the
+ *   halffit1 (the reader's) the inside never above half      questions are answered and the size allows it" and at dpr 1.5
+ *                                                            (both: the judge had no size rule below dpr 2, D3)
  * NOT COVERED here: overlapping marked orbs (the owner's pictures show them, tests/artifacts/_outline_shoot.mjs --overlap); the seat's outside line
  * on its focus mark; the colour of a real orb at a size the camera search did not reach.
  */
