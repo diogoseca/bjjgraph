@@ -18350,13 +18350,15 @@ at its first join); an older client's own answers; a push answered false and the
 two tabs appending in the same instant; another device that pulled before this device's push and then pushes its own
 older-based copy over it (the cloud push is a whole-blob upsert; a conditional push would close it).
 
-**Landing.** On 9d2a4b10e under the build lock (23:40 to 00:11): the 36 journey files that read a schedule row, the
-rating or the sync (auth-owner, guest-join, account-menu, srs-due, the belts, rating-reader, the Practice files,
-payload-first-hand) 386 passed; e2e:gen 103/103 by its ledger; units red at ONE test, `reader_mangle`: the replay's result
-named its held entries `held`, a property the reader's build mangles; renamed `inCopy` (f8aa1f632, no behaviour moved).
-On f8aa1f632 (00:17 to 00:32): units 1,704/1,704; the sync and Practice journeys (account-menu, auth-owner,
-auth-redirect-back, guest-join, srs-due, practice-page, practice-order, payload-first-hand) 86 passed; the app rows
-re-seeded (be46bf19e); the payload gate OK; ci:validate 25/25.
+**Landing.** On ea053a593 under the build lock (23:40 to 00:11; run as 9d2a4b10e, before three comment lines of this
+unpushed branch were reworded, which no bundle carries): the 36 journey files that read a schedule row, the rating or the
+sync (auth-owner, guest-join, account-menu, srs-due, the belts, rating-reader, the Practice files, payload-first-hand) 386
+passed; e2e:gen 103/103 by its ledger; units red at ONE test, `reader_mangle`: the replay's result named its held entries
+`held`, a property the reader's build mangles; renamed `inCopy` (d8b85708b, no behaviour moved). On d8b85708b (00:17 to
+00:32, run as f8aa1f632, the same): units 1,704/1,704; the sync and Practice journeys (account-menu, auth-owner,
+auth-redirect-back, guest-join, srs-due, practice-page, practice-order, payload-first-hand) 86 passed; the payload gate
+OK; ci:validate 25/25. The app rows re-seeded on the final tree (eb92b969c), every bundle byte-identical to the one
+those runs used.
 
 **Bytes**, my share on dev v1.279.0's own build (689f03b9f's app, gzip 9): `neural.js` +4,535 raw, +1,743 gzip (the
 journal and the replay, in progress-owner.src.js and the app's writers; nothing deferred moved). With this PR: eager gzip
