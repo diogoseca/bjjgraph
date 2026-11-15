@@ -187,7 +187,7 @@ const ngProgressSameRow = (a, b) => Array.isArray(a) && Array.isArray(b) && a.le
 // For each card the entries touch and `other` holds: the entries up to the last one whose `after` equals other's row are
 // HELD by other; the rest are applied again to other's row with `write` (the schedule writer; a moves row carries its
 // answer and its tail as `_gradeMove` writes it), and the card's row in `target` becomes the result. Returns {blob, held:
-// the held ids, rebuilt: id -> the row it now leaves}. A card `other` has no row of is left as `target` has it. Inputs
+// the held ids (`inCopy`: never `held`, a name the reader's build mangles), rebuilt: id -> the row it now leaves}. A card `other` has no row of is left as `target` has it. Inputs
 // untouched. The caller decides what "held" means: delivered when `other` is the cloud's, nothing more for another tab's.
 export function ngProgressReplay(target, other, entries, write, today) {
   const out = ngProgressClone(target), held = [], rebuilt = new Map(), byCard = new Map();
@@ -218,11 +218,11 @@ export function ngProgressReplay(target, other, entries, write, today) {
     if (!ngProgressObject(Object.prototype.hasOwnProperty.call(out[name], bucket) ? out[name][bucket] : null)) ngProgressPut(out[name], bucket, {});
     ngProgressPut(out[name][bucket], item, row);
   }
-  return { blob: out, held, rebuilt };
+  return { blob: out, inCopy: held, rebuilt };
 }
 // the journal after a replay: held entries gone when `drop`, rebuilt entries carrying the row they now leave
 export function ngProgressJournalAfter(journal, replay, drop) {
-  const gone = new Set(drop ? replay.held : []);
+  const gone = new Set(drop ? replay.inCopy : []);
   const e = journal.e.filter(x => !gone.has(x[0])).map(x => replay.rebuilt.has(x[0]) ? x.slice(0, 6).concat([replay.rebuilt.get(x[0])]) : x);
   return { ...journal, e };
 }
@@ -859,7 +859,7 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       const owner = inst._progressOwner, j = readJournal(owner);
       if (!j.e.length) return next;
       const r = ngProgressReplay(next, cloud, j.e, R.write, R.today);
-      if (r.held.length || r.rebuilt.size) writeJournal(owner, ngProgressJournalAfter(j, r, true));
+      if (r.inCopy.length || r.rebuilt.size) writeJournal(owner, ngProgressJournalAfter(j, r, true));
       ngProgressValidateBlob(r.blob);
       return r.blob;
     },
@@ -870,10 +870,10 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       const owner = inst._progressOwner, j = readJournal(owner);
       if (!j.e.length) return 0;
       const r = ngProgressReplay(snap, snap, j.e, R.write, R.today);
-      if (!r.held.length) return 0;
-      const gone = new Set(r.held);
+      if (!r.inCopy.length) return 0;
+      const gone = new Set(r.inCopy);
       writeJournal(owner, { ...j, e: j.e.filter(e => !gone.has(e[0])) });
-      return r.held.length;
+      return r.inCopy.length;
     },
     cloudSnapshot(inst) {
       if (!host.current(inst)) throw new Error("Stale progress owner");
@@ -951,7 +951,7 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       const saved = preservingStore.write(inst._progressOwner, combined);
       if (saved.status !== "saved") { inst._progressStorageError = saved.reason; return saved; }   // nothing marked
       if (taken) {
-        const { aj, fresh, r } = taken, held = new Set(r.held);
+        const { aj, fresh, r } = taken, held = new Set(r.inCopy);
         for (const e of fresh) if (!held.has(e[0])) aj.e.push([aj.n++].concat(e.slice(1, 6), [r.rebuilt.get(e[0]) || e[6]]));
         if (aj.e.length > NG_PROGRESS_JOURNAL_CAP) aj.e = aj.e.slice(aj.e.length - NG_PROGRESS_JOURNAL_CAP);
         aj.g = Math.max(aj.g, ...fresh.map(e => e[0]));
