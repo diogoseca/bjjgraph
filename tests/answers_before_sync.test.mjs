@@ -9,21 +9,34 @@
 // on the other copy's rows by the writer. Every answer here is given through the app's own writer and every sync runs
 // through the app's own pull, push, save and join, against a FAKE CLOUD THAT HOLDS ROWS.
 //
-// INVARIANTS: a right answer never makes a card due sooner than the other copy had it; a miss counts wherever it was made;
-// an entry leaves the journal only when a copy the cloud accepted or holds has its row (never cleared too early, never
-// applied twice); two devices converge in both orders; one owner's answers never reach another owner's rows except
-// through the guest join, once; an older client receives ordinary rows; nothing is written on a passive boot.
+// INVARIANTS: a right answer never makes a card due sooner than the other copy had it; only an answer made on or after the
+// other copy's last answer is replayed (NEXT2-R1): a miss made after it counts, a miss made before it is superseded by
+// that later answer, as on dev, and an older answer never overrides a newer one; a stale one-day row never comes back
+// (another tab's memory, the guest's copy at a second join); an entry leaves the journal only when a copy the cloud
+// accepted or holds has exactly its row (never cleared too early, never applied twice); two devices converge in both
+// orders; one owner's answers never reach another owner's rows except through the guest join, once; an older client
+// receives ordinary rows; nothing is written on a passive boot; the journal never holds more than about 20 KB.
 //
-// MUTANTS (v1.280.1), each applied alone to a clean tree and run against this file; each turned the NAMED test red:
+// MUTANTS (v1.280.1, and again at NEXT2-R1), each applied alone to a clean tree and run against this file; each turned the
+// NAMED test red (and OLD, the reviewed head c05f399bc's own progress-owner and app, is red at every case of the read):
 //   J1 the pull does not replay (`replayCloud` returns the merge)          → "P1 a new device…", "P2 an offline device…"
-//   J2 the replay skips a miss                                             → "a miss counts wherever it was made…"
-//   J3 an entry held by the other copy is applied again (no held check)    → "a push that landed but answered false…"
+//   J2 the replay skips a miss                                             → "offline, a miss and then a right answer…"
+//   J3 an entry the other copy holds is applied again (no in-copy check)  → "a push that fails keeps the entry…", "P1…"
 //   J4 entries cleared at the pull whatever the cloud holds               → "a push that fails keeps the entry…"
 //   J5 the tab merge does not replay                                       → "P4 a second tab…"
 //   J6 the guest join does not replay                                      → "P3 a guest's first right answer…"
-//   J7 the guest high-water `g` ignored                                    → "a guest copy that joins twice…"
-//   J8 the cap ignored                                                     → "the journal is capped…"
+//   J8 the bound ignored                                                   → "the journal is capped…", "the journal is bounded…"
 //   J9 a push's delivery taken without its rows (every entry cleared)      → "an answer given while a push is in flight…"
+//   J10 an entry replayed though older than the other row's last (NEXT2-R1) → "an old guest miss never resets…"
+//   J11 the taken guest rows ignored at a second join                      → "a second guest join keeps the account's row…"
+//   J12 a row this tab did not touch does not yield to the stored row      → "two tabs: the tab that did not answer…"
+//   J13 a stored row a replay superseded does not yield                    → "two tabs: the tab that did not answer…"
+//   J15 a journal of another version read as empty (and written over)      → "a journal of a version this build does not know…"
+//   J16 ids restarted at 1, not from the clock                             → "a journal of a version this build does not know…"
+// NOT KILLED, and why: J7 (the guest high-water `g` ignored) and J14 ("one more answer on top" counted as holding an entry,
+// the relaxation NEXT2-R1 removed) leave every row as it is. Under the day rule a guest entry already taken in is older
+// than, or of the same day as, the account's row, and a same-day replay changes nothing; an answer on top of an entry is
+// later than it, so the entry is superseded rather than held. `g` stays as the cheaper guard; J14's form stays removed.
 //
 // Run: node --test tests/answers_before_sync.test.mjs
 import { test } from "node:test";
@@ -110,7 +123,7 @@ test("P1 a new device answers before its first pull lands: the card is rebuilt o
   assert.equal(journal(mem, A).e.length, 0, "delivered: the push that carried them cleared them");
 })));
 
-test("a miss counts wherever it was made: before the first pull, offline, and against a later right answer elsewhere", () => fakeTimers(async ({ flush }) => {
+test("a miss made on or after the other copy's last answer counts; one made before it is superseded by that answer, as on dev", () => fakeTimers(async ({ flush }) => {
   const mem = memory(), C = cloud(blob({ srs: { d: { [H1]: MATURE, [H2]: MATURE } } }));
   let a;
   await withDay(D, async () => {
@@ -123,9 +136,24 @@ test("a miss counts wherever it was made: before the first pull, offline, and ag
   await withDay(D + 2, async () => {   // the pull lands two days later
     C.pullFails = false;
     assert.equal(await pull(a, flush), true);
-    assert.deepEqual(a.srs.d[H1], [D + 1, 1, D], "back to one day");
-    assert.deepEqual(a.srs.d[H2], [D + 2, 1, D + 1], "filed on the other copy's later answer, never lost to it");
-    assert.deepEqual(C.blob.srs.d[H2], [D + 2, 1, D + 1]);
+    assert.deepEqual(a.srs.d[H1], [D + 1, 1, D], "made after the cloud's last answer: back to one day");
+    assert.deepEqual(a.srs.d[H2], write(MATURE, true, D + 1), "made before the other device's later answer: superseded by it");
+    assert.deepEqual(C.blob.srs.d[H2], write(MATURE, true, D + 1));
+    assert.equal(journal(mem, A).e.length, 0, "the miss reached the cloud; the superseded one left the journal at the pull");
+  });
+}));
+
+test("offline, a miss and then a right answer: the miss stands, the right answer climbs from one day (the heal no longer erases it)", () => fakeTimers(async ({ flush }) => {
+  const mem = memory(), C = cloud(blob({ srs: { d: { [H1]: MATURE } } }));
+  let a;
+  await withDay(D, async () => { C.pullFails = true; a = (await account(mem, C, flush)).a; answer(a, Q1, false); await settle(); });
+  await withDay(D + 1, async () => { answer(a, Q1, true); await settle(); });
+  await withDay(D + 2, async () => {
+    C.pullFails = false;
+    assert.equal(await pull(a, flush), true);
+    // merged by the rule alone, the later right answer [D+4, 3, D+1] would heal to the cloud's 60 days and erase the miss
+    assert.deepEqual(a.srs.d[H1], write([D + 1, 1, D], true, D + 1), "rebuilt: the miss, then one rung from one day");
+    assert.deepEqual(C.blob.srs.d[H1], write([D + 1, 1, D], true, D + 1));
   });
 }));
 
@@ -159,8 +187,11 @@ test("P3 a guest's first right answer joins an account that holds the card matur
   assert.deepEqual(a.moves["1/top"].m, want.concat(1));
   assert.deepEqual(C.blob.srs.d[H1], want);
   assert.equal(journal(mem, A).e.length, 0, "taken in, then delivered by the account's push");
-  assert.equal(journal(mem, A).g, journal(mem, GUEST).e.at(-1)[0], "the account remembers the guest answers it has taken in");
-  assert.equal(journal(mem, GUEST).e.length, 2, "the guest's copy and journal stay as they were (signing out still plays them)");
+  assert.ok(journal(mem, A).g > 0, "the account remembers the guest answers it has taken in");
+  assert.deepEqual(Object.keys(journal(mem, A).t).length, 2, "and the guest rows it took, card by card");
+  assert.equal(journal(mem, GUEST).e.length, 0, "the guest's entries leave its journal once the account's cloud holds what they rebuilt");
+  const guestCopy = JSON.parse(mem.getItem(ngProgressLocalKey(GUEST))).blob;
+  assert.deepEqual(guestCopy.srs.d[H1], [D + 1, 1, D], "the guest's copy stays as it was (signing out still plays it)");
 })));
 
 test("a guest copy that joins twice (the guest played again) applies only its new answers", () => withDay(D, () => fakeTimers(async ({ flush }) => {
@@ -204,34 +235,35 @@ test("a push that fails keeps the entry: the next pull applies it once, on what 
     assert.deepEqual(C.blob.srs.d[H1], MATURE, "the cloud never got the miss");
     assert.equal(journal(mem, A).e.length, 1, "so the miss stays in the journal");
   });
-  C.blob.srs.d[H1] = write(MATURE, true, D + 1);   // another device answers the card right the next day
+  // a device offline since the day before syncs its own right answer of the card, given on day D-1
+  C.blob.srs.d[H1] = write(MATURE, true, D - 1);
   await withDay(D + 2, async () => {
     C.mode = "ok";
     assert.equal(await pull(a, flush), true);
-    assert.deepEqual(C.blob.srs.d[H1], [D + 2, 1, D + 1], "the miss, once, on the row the cloud then held");
+    assert.deepEqual(C.blob.srs.d[H1], [D + 1, 1, D], "the miss, once, on the row the cloud then held (its last answer was earlier)");
     assert.equal(journal(mem, A).e.length, 0);
   });
 }));
 
 test("an answer given while a push is in flight stays until a copy holds it", () => fakeTimers(async ({ flush, kick, drop }) => {
-  const mem = memory(), C = cloud(blob({ srs: { d: { [H1]: MATURE, [H2]: MATURE } } }));
+  const mem = memory(), C = cloud(blob({ srs: { d: { [H1]: MATURE } } }));
   let a, open;
   await withDay(D, async () => {
     a = (await account(mem, C, flush)).a;
     const push = C.push; let gate; C.push = async (b) => { await new Promise((r) => { gate = r; }); return push(b); };
     answer(a, Q1, true); kick(); await settle();   // its push starts, and waits at the server
     open = gate;
-    answer(a, Q2, false);                            // given while that push is in flight: not in the copy it carries
+    answer(a, Q2, true);                             // given while that push is in flight: Q2 is not in the copy it carries
     C.push = push; open(); await settle(); await settle();
     assert.deepEqual(C.blob.srs.d[H1], write(MATURE, true, D), "the first push landed");
-    assert.deepEqual(C.blob.srs.d[H2], MATURE, "without the second answer");
+    assert.equal(C.blob.srs.d[H2], undefined, "without the second answer");
     drop();                                          // and the second answer's own push never runs (the tab closed)
   });
-  // the push of the second answer is lost (say the tab closed); another device answers Q2 right the next day
-  C.blob.srs.d[H2] = write(MATURE, true, D + 1);
+  // another device, which has held Q2 at 60 days, syncs it after that push
+  C.blob.srs.d[H2] = MATURE.slice();
   await withDay(D + 1, async () => {
     assert.equal(await pull(a, flush), true);
-    assert.deepEqual(a.srs.d[H2], [D + 2, 1, D + 1], "the miss given during the push still counts");
+    assert.deepEqual(a.srs.d[H2], write(MATURE, true, D), "the answer given during the push is rebuilt on the other device's row, never lost to a one-day row");
   });
 }));
 
@@ -336,4 +368,97 @@ test("nothing is written on a passive boot, and an older client receives ordinar
   devSrsMerge.call(dev, { srs: copy(pushed.srs) });
   assert.ok(dev.srs.d[H1][0] >= MATURE[0]);
   assert.deepEqual(dev.srs.d[H1], pushed.srs.d[H1]);
+})));
+
+// ── NEXT2-R1: the independent read of PR #418 (its findings 1, 2, 3, 6, 8, as cases) ──────────────────────────────────
+
+test("an old guest miss never resets a card an account has answered since (finding 1, a regression against dev)", () => fakeTimers(async ({ flush }) => {
+  const mem = memory();
+  await withDay(D - 100, async () => {   // a guest misses Q1, a hundred days ago
+    const h = harness(mem, cloud(null)); await h.boot(); const g = h.get();
+    answer(g, Q1, false); g._flushSave(); await flush();
+  });
+  // account B answered Q1 right thirty days ago, at 60 days, and signs in on this browser
+  const CB = cloud(blob({ srs: { d: { [H1]: MATURE } }, stage: { d: { [H1]: 3 } } }));
+  await withDay(D, async () => {
+    const h = harness(mem, CB); await h.boot(); const b = h.signIn("B"); await pull(b, flush);
+    assert.deepEqual(b.srs.d[H1], MATURE, "B's later answer stands: the older miss meets it by the merge's rule, as on dev");
+    assert.deepEqual(CB.blob.srs.d[H1], MATURE);
+  });
+}));
+
+test("a second guest join keeps the account's row of a card it took in (finding 3), the same day and later", () => fakeTimers(async ({ flush }) => {
+  for (const later of [0, 3]) {
+    const mem = memory(), C = cloud(blob({ srs: { d: { [H1]: MATURE, [H2]: MATURE } }, stage: { d: { [H1]: 3 } } }));
+    let first;
+    await withDay(D, async () => {
+      const h = harness(mem, C); await h.boot(); const g = h.get();
+      answer(g, Q1, true); g._flushSave(); await flush();            // the guest answers Q1 right, then signs in
+      const a = h.signIn("A"); await pull(a, flush);
+      first = copy(C.blob.srs.d[H1]);
+      assert.deepEqual(first, write(MATURE, true, D));
+    });
+    await withDay(D + later, async () => {
+      const h2 = harness(mem, C); await h2.boot(); const g2 = h2.get();   // signed out, the guest plays Q2
+      answer(g2, Q2, true); g2._flushSave(); await flush();
+      const a = h2.signIn("A"); await pull(a, flush);                     // and signs in again
+      assert.deepEqual(a.srs.d[H1], first, `D+${later}: the guest's old one-day row of Q1 does not come back`);
+      assert.deepEqual(C.blob.srs.d[H1], first);
+      assert.deepEqual(a.srs.d[H2], write(MATURE, true, D + later), "its new answer is taken in");
+    });
+  }
+}));
+
+test("two tabs: the tab that did not answer pulls first, and the one-day row never comes back (finding 2, both variants)", () => withDay(D, () => fakeTimers(async ({ flush }) => {
+  for (const variant of ["tab 2 opens after the answer", "tab 2 open before the answer"]) {
+    const mem = memory(), C = cloud(blob({ srs: { d: { [H1]: MATURE } }, stage: { d: { [H1]: 3 } } }));
+    C.pullFails = true;
+    let t2;
+    const t1 = (await account(mem, C, flush)).a;                       // tab 1: its pull has not landed
+    if (variant.includes("before")) t2 = (await account(mem, C, flush)).a;
+    answer(t1, Q1, true); await flush(); await settle();                // tab 1 answers the mature card right
+    C.pullFails = false;
+    if (!t2) t2 = (await account(mem, C, flush)).a; else await pull(t2, flush);   // tab 2's pull lands first
+    const want = write(MATURE, true, D);
+    assert.deepEqual(C.blob.srs.d[H1], want, `${variant}: tab 2 rebuilt it on the cloud's row`);
+    answer(t1, Q2, true); await flush(); await settle();                // tab 1 answers another card: its save meets tab 2's copy
+    await pull(t1, flush); await pull(t2, flush);
+    assert.deepEqual(C.blob.srs.d[H1], want, `${variant}: the cloud keeps it`);
+    assert.deepEqual([t1.srs.d[H1], t2.srs.d[H1]], [want, want], `${variant}: both tabs hold it`);
+  }
+})));
+
+test("a journal of a version this build does not know is never written over; a damaged guest journal never reuses an id", () => withDay(D, () => fakeTimers(async ({ flush }) => {
+  const mem = memory(), C = cloud(blob({ srs: { d: { [H1]: MATURE, [H2]: MATURE } } }));
+  const later = JSON.stringify({ v: 2, entries: ["a later build's"] });
+  mem.setItem(ngProgressLocalKey(A, "pending"), later);
+  C.pullFails = true;
+  const { a } = await account(mem, C, flush);
+  answer(a, Q1, true); await settle();
+  assert.equal(mem.getItem(ngProgressLocalKey(A, "pending")), later, "left alone: nothing journaled for this owner");
+  C.pullFails = false; await pull(a, flush);
+  assert.equal(mem.getItem(ngProgressLocalKey(A, "pending")), later, "and nothing replayed or rewritten at the pull");
+  // the guest's journal: an account took in a guest answer (its high-water `g`); the guest journal is then damaged
+  const mem2 = memory(), C2 = cloud(blob({ srs: { d: { [H1]: MATURE, [H2]: MATURE } } }));
+  const h = harness(mem2, C2); await h.boot(); const g = h.get();
+  answer(g, Q1, true); g._flushSave(); await flush();
+  let b = h.signIn("A"); await pull(b, flush);
+  const high = journal(mem2, A).g;
+  mem2.setItem(ngProgressLocalKey(GUEST, "pending"), "{damaged");
+  const h2 = harness(mem2, C2); await h2.boot(); const g2 = h2.get();
+  answer(g2, Q2, true); g2._flushSave(); await flush();
+  assert.ok(journal(mem2, GUEST).e[0][0] > high, "the replaced journal's first id is above every id already taken");
+  b = h2.signIn("A"); await pull(b, flush);
+  assert.deepEqual(b.srs.d[H2], write(MATURE, true, D), "so the account takes the guest's new answer in");
+})));
+
+test("the journal is bounded: an answer never rewrites more than about 20 KB", () => withDay(D, () => fakeTimers(async ({ flush }) => {
+  const mem = memory(), C = cloud(blob({ srs: { d: { [H1]: MATURE } } }));
+  C.pullFails = true;
+  const { a } = await account(mem, C, flush);
+  const deck = "Submissions/Rear Naked Choke from Back Control|Attacker";   // a long deck key, as the wire has them
+  a._journal(Array.from({ length: NG_PROGRESS_JOURNAL_CAP + 50 }, (_, i) => [0, deck, ngKnowledgeQuestionHash("q" + i), 1, D, [D + 241, 120, D]]));
+  const raw = mem.getItem(ngProgressLocalKey(A, "pending"));
+  assert.equal(journal(mem, A).e.length, NG_PROGRESS_JOURNAL_CAP);
+  assert.ok(raw.length <= 21000, `${raw.length} characters at the bound`);
 })));
