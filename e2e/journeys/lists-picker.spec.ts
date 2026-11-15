@@ -571,6 +571,10 @@ test.describe("in the 390px drawer", () => {
 
     // Capture now belongs to the graph seat. Dismiss the independently earned reward first:
     // on a phone its temporary View Collection button can cover the upper seat label.
+    // v1.280.0 (GOLD1-R1): the reward card is OPAQUE over the seat here, so the position's name and
+    // its star are not written under it (`_hides`); the card's close draws the map at once, which is
+    // what brings the star back before the look below (challenge-feedback.src.js). Mutant R1c (the
+    // close without that draw) is red at this test: the star is not found.
     const rewardClose = page.locator("[data-reward-close]");
     if (await rewardClose.isVisible()) await rewardClose.click();
     const optAdd = page.locator('[data-list-add="Positions/Mount"][data-list-surface="seat"]');

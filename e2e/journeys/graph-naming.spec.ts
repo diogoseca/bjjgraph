@@ -951,10 +951,15 @@ test("a qualified focus keeps a compact subtitle stack when zooming out", async 
     a.now = 10
     a.startTime = 0
     a.cam.cx = n.x
-    a.cam.cy = (n.y + partner.y) / 2
+    // v1.280.0 (POSNAME): the position's own name is never written under a control, and the reader's article is one. This
+    // test once put the pair at the screen's middle, under the open article; it now sits in the free band above the
+    // article's head (at 45% of the band), where the app's own camera puts a reader's seat, so its label is one a player reads
+    const midY = (n.y + partner.y) / 2, cv = a.canvas.getBoundingClientRect()
+    const band = a._reader && a._reader.head ? a._reader.head.getBoundingClientRect().top - cv.top : a.H
     const drawAt = (scale: number) => {
       a.cam.vw = a.W / scale
       a.cam.lvw = Math.log(a.cam.vw)
+      a.cam.cy = midY - (band * 0.45 - a.H / 2) / scale
       a.draw()
       const label = a._lastPairLabel || a._lastRichLabel
       const inkAt = (y: number, above: number, below: number) => {

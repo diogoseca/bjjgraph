@@ -53,6 +53,10 @@ test("the question corner keeps its close button and count; capture belongs to t
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
+  // v1.280.0 (POSNAME): the position's own name, and the seat star beside its role, are never written under a control. The
+  // landing can mint White Foundations, whose opaque phone card (rgba 18,22,37 at 0.98) covers the node band here: the
+  // star used to be drawn under it, unseen; dismissed first, as article-sections.spec.ts dismisses it
+  if (await page.locator("[data-reward-close]").isVisible()) await j.clickByMouse("[data-reward-close]");
   await seedFilm(page);
   await page.waitForTimeout(300);
   await j.openQuestion(); // U47 d: the deck count shows on the card, once the question is taken up
@@ -77,6 +81,10 @@ test("the question corner keeps its close button and count; capture belongs to t
   expect(m.countBelow).toBe(true);
   expect(m.hit).toBe(true);
   expect(m.stars).toBe(0);
+  // v1.280.0 (POSNAME): the seat's name, and its star, are placed frame by frame and never under a control; the frame this
+  // test last pumped was drawn while the reader still scrolled the card over the node band (probed: nothing covers it now,
+  // and one fresh frame places the name and its star). A player's app draws every frame; the harness draws when pumped
+  await j.advance(34);
   await expect(page.locator('[data-seat-star][data-list-add="Positions/Mount"]')).toHaveCount(1);
   await expect(page.locator('[data-seat-star][data-list-add="Positions/Mount"]')).toBeVisible();
 });

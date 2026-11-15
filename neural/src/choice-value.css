@@ -98,7 +98,7 @@
 .ng-choice-card[data-hide] .ng-choice-watch:hover { transform:scale(1.14); box-shadow:0 0 0 4px rgba(179,198,234,.22); }
 .ng-choice-card[data-hide] .ng-choice-watch:active { transform:scale(.94); }
 /* THE SEAL (v1.272.0, the owner's pick a: "A small filled seal: you answered Yes here. A hollow one: its flashcards are
-   learned"; `_sealCard`). It replaces the thin/thick gold outline (U116, U122 a), which read as the selected card: the
+   learned"; `_sealCard`; its kinds since v1.280.0 below). It replaces the thin/thick gold outline (U116, U122 a), which read as the selected card: the
    card keeps its ordinary border. Sized and placed in the card's own unit, its 9px side padding (the title's and the
    numbers'): 2 units across, 1 unit in from the right edge, 1 unit below the 44px title band, so it sits in the film's
    top corner, clear of the title (0-44), the play circle (65-109 across), the grade strip (86/96 down) and the numbers
@@ -107,10 +107,16 @@
    tick on dark. The shape differs, not only the colour. pointer-events: its words show on hover (`title`). */
 .ng-choice-seal { position:absolute; top:53px; right:9px; width:18px; height:18px; box-sizing:border-box; border-radius:50%; pointer-events:auto; box-shadow:0 0 0 1.5px rgba(8,10,16,.85), 0 1px 3px rgba(0,0,0,.6); }
 .ng-choice-seal::after { content:""; position:absolute; left:6px; top:3.5px; width:3.5px; height:7.5px; border:solid; border-width:0 2px 2px 0; transform:rotate(40deg); }
-[data-seal=known] > .ng-choice-seal { background:repeating-radial-gradient(circle,rgba(255,244,210,.13) 0 .6px,transparent .6px 1.6px), radial-gradient(circle at 34% 28%,#fff0c4,#efcb75 34%,#c8973a 76%,#8e6220); }
-[data-seal=known] > .ng-choice-seal::after { border-color:#2a1c05; }
-[data-seal=learned] > .ng-choice-seal { background:rgba(8,10,16,.85); box-shadow:inset 0 0 0 1.5px #e8c46a, 0 0 0 1.5px rgba(8,10,16,.85), 0 1px 3px rgba(0,0,0,.6); }
-[data-seal=learned] > .ng-choice-seal::after { border-color:#e8c46a; }
+/* v1.280.0 (GOLD1, ruled): the seal tells the map's story (NG_MAP_MARKS): a RING = recalled here (a Yes: the map's line
+   outside the orb); a DISC = its questions answered (the map's gold inside); BOTH = the disc inside the ring, a dark gap
+   between, the tick smaller on the disc. Until v1.278.1 the disc meant a Yes and the ring flashcards learned; no seal had
+   reached production. */
+[data-seal=recalled] > .ng-choice-seal { background:rgba(8,10,16,.85); box-shadow:inset 0 0 0 1.5px #e8c46a, 0 0 0 1.5px rgba(8,10,16,.85), 0 1px 3px rgba(0,0,0,.6); }
+[data-seal=recalled] > .ng-choice-seal::after { border-color:#e8c46a; }
+[data-seal=answered] > .ng-choice-seal { background:repeating-radial-gradient(circle,rgba(255,244,210,.13) 0 .6px,transparent .6px 1.6px), radial-gradient(circle at 34% 28%,#fff0c4,#efcb75 34%,#c8973a 76%,#8e6220); }
+[data-seal=answered] > .ng-choice-seal::after { border-color:#2a1c05; }
+[data-seal=both] > .ng-choice-seal { background:radial-gradient(circle at 50% 50%, #f3d488 0, #e2b55a 3.6px, #b48332 5.4px, rgba(8,10,16,.85) 5.6px); box-shadow:inset 0 0 0 1.5px #e8c46a, 0 0 0 1.5px rgba(8,10,16,.85), 0 1px 3px rgba(0,0,0,.6); }
+[data-seal=both] > .ng-choice-seal::after { border-color:#2a1c05; left:6.6px; top:5px; width:2.8px; height:6px; border-width:0 1.6px 1.6px 0; }
 /* the strip takes no press (review R3): its text and background pass the press to the card; only its buttons answer */
 .ng-choice-grade { pointer-events:none; position:absolute; left:0; right:0; top:96px; height:34px; display:none; align-items:center; gap:6px; padding:0 6px 0 9px; box-sizing:border-box; background:rgba(10,13,22,.9); font-size:10.5px; color:#dbe2f0; }
 .ng-choice-card[data-asking] .ng-choice-grade { display:flex; }

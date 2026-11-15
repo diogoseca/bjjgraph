@@ -58,6 +58,17 @@ import { journey } from "../dsl"
  *                       now "the dot does not grow" (x0.8 to x1.25): the map's mark has ONE state; a deck learned on
  *                       top of a known move changes nothing there (its flashcards show through "Turn what you know gold")
  * The dot's place, its publication and its mutants are pinned by known-move-seal.spec.ts ("the map ...").
+ *
+ * AND THE DOT BECAME TWO MARKS, AND THE SEAL FOUR STATES (v1.280.0, GOLD1; the owner's U183 a: "Gold outlines on the map:
+ * yes, build it as drawn"). A Yes draws a gold line OUTSIDE the orb; the move's own deck all learned ("its questions are
+ * answered") fills it gold INSIDE, its own colour kept as a border. The card's seal reads the same two facts: a ring
+ * (recalled), a disc (answered), the disc inside the ring (both). Each claim says what it claimed before:
+ *   the card after a Yes      was the filled seal ("known")      now the ring ("recalled")
+ *   the card, the deck learned was still "known" (the row rules) now "both": the disc reads the map's own test
+ *   level 1 on the map        was "the seal's dot drawn at the known orb"   now "the outside line drawn at the known orb"
+ *   level 2 on the map        was "the dot does not grow" (x0.8 to x1.25)  now "the inside fills it" (x3 or more): the
+ *                             control frame empties BOTH sets (`_movesGold` and `_answered`), so it subtracts both marks
+ * The marks' ink is pinned by map-gold.spec.ts; their place and gates by known-move-seal.spec.ts ("the map ...").
  */
 
 type W = any
@@ -164,20 +175,26 @@ const mapGold = (page: Page, knownId: string, unknownId: string, alsoKnown: stri
     return { px: ctx.getImageData(0, 0, c.width, c.height).data, w: c.width }
   }
   const real = snap(), again = snap()
-  a._movesGold = () => new Map()
+  // v1.280.0: the control empties both marks' sets (was `_movesGold` alone, when the map had one mark)
+  a._movesGold = () => new Map(); a._answered = () => false
   let control
-  try { control = snap() } finally { delete a._movesGold }
+  try { control = snap() } finally { delete a._movesGold; delete a._answered }
   // the frame's own transform (share-camera.spec.ts): centre + (world - camera) x W / vw, in device pixels
   const dpr = a.dpr || 1, at = (n: W) => ({ x: (a.W / 2 + (n.x - a.cam.cx) * scale) * dpr, y: (a.H / 2 + (a._LY(n) - a.cam.cy) * scale) * dpr })
   const pk = at(K), pu = at(U), po = O.map(at), R = 40 * dpr
-  let near = 0, nearU = 0, nearO = 0, elsewhere = 0, repeat = 0
+  let near = 0, nearU = 0, nearO = 0, elsewhere = 0, repeat = 0, goldPx = 0
   const sum = [0, 0, 0]
   for (let i = 0; i < real.px.length; i += 4) {
     if (real.px[i] !== again.px[i] || real.px[i + 1] !== again.px[i + 1] || real.px[i + 2] !== again.px[i + 2]) repeat++
     const d = Math.abs(real.px[i] - control!.px[i]) + Math.abs(real.px[i + 1] - control!.px[i + 1]) + Math.abs(real.px[i + 2] - control!.px[i + 2])
     if (d < 24) continue
     const p = i / 4, x = p % real.w, y = (p / real.w) | 0
-    if (Math.hypot(x - pk.x, y - pk.y) < R) { near++; sum[0] += real.px[i]; sum[1] += real.px[i + 1]; sum[2] += real.px[i + 2] }
+    if (Math.hypot(x - pk.x, y - pk.y) < R) {
+      near++; sum[0] += real.px[i]; sum[1] += real.px[i + 1]; sum[2] += real.px[i + 2]
+      // a changed pixel that is itself gold (v1.280.0): the inside's own border band changes pixels too, in the orb's colour
+      const [r, g, b] = [real.px[i], real.px[i + 1], real.px[i + 2]]
+      if (r > g && g >= b && r > b && 60 * (g - b) / (r - b) >= 25 && 60 * (g - b) / (r - b) <= 55 && (r - b) / r > 0.35) goldPx++
+    }
     else if (Math.hypot(x - pu.x, y - pu.y) < R) nearU++
     else if (po.some((q: W) => Math.hypot(x - q.x, y - q.y) < R)) nearO++
     else elsewhere++
@@ -188,7 +205,7 @@ const mapGold = (page: Page, knownId: string, unknownId: string, alsoKnown: stri
   // the same build). Its HUE is what stays: gold (240,192,90) is 41°, and the blend measured 38.7° and 38.8°
   const mean = sum.map((v) => Math.round(v / Math.max(1, near))), [r, g, b] = mean
   const hue = r > g && g >= b && r > b ? 60 * (g - b) / (r - b) : -1, sat = r > 0 ? (r - b) / r : 0
-  return { near, mean, hue: Math.round(hue), gold: hue >= 25 && hue <= 55 && sat > 0.35, nearU, nearO, elsewhere, repeat, apart: Math.hypot(pk.x - pu.x, pk.y - pu.y) / dpr }
+  return { near, goldPx, mean, hue: Math.round(hue), gold: hue >= 25 && hue <= 55 && sat > 0.35, nearU, nearO, elsewhere, repeat, apart: Math.hypot(pk.x - pu.x, pk.y - pu.y) / dpr }
 }, { knownId, unknownId, alsoKnown })
 
 test("a Yes adds 15 to that card's Works % and sends the worker a new profile; a No takes it back; gold and the line follow", async ({ page }) => {
@@ -218,8 +235,8 @@ test("a Yes adds 15 to that card's Works % and sends the worker a new profile; a
   expect(r1.permanent[y0.key], "the worker's profile carries the move's +0.15").toBe(0.15)
   expect(r1.sent, "the worker was sent the NEW profile").toBe(r1.profile)
   expect(r1.sent, "...which is not the one it held before").not.toBe(r0.sent)
-  // v1.272.0: was "thin gold on the card" ("")
-  expect(y1.seal, "the filled seal on the card").toBe("known")
+  // v1.272.0: was "thin gold on the card" (""); v1.280.0: was the filled seal ("known"), now the ring
+  expect(y1.seal, "the ring on the card: recalled").toBe("recalled")
   expect((await line(page, j)).known, "the line counts the Yes").toBe(line0.known + 1)
 
   // a Yes on the seat's best move: the seat's Win % rides on it, so it rises (a direction; both draws rigged). If it
@@ -282,13 +299,15 @@ test("the card's seal and the map's gold: known, then the flashcards learned too
   })
   // polled: the card eases out of its hover (a box-shadow transition) after the pointer leaves
   // v1.272.0: was "level 1 on the card: the 1px gold border and a .5px ring" ({ attr: "", border: "1px rgba(232, 196, 106, 0.9)", ring: "0.5" })
-  await expect.poll(() => ring(page), { message: "known on the card: the filled seal, on the ordinary border" }).toEqual({ seal: "known", disc: true, border: "ordinary" })
+  // v1.280.0: was "known on the card: the filled seal" ({ seal: "known" })
+  await expect.poll(() => ring(page), { message: "recalled on the card: the ring, on the ordinary border" }).toEqual({ seal: "recalled", disc: true, border: "ordinary" })
   // the seeded known move (DUE) is gold on the map too: its own window, so nothing else may change
   const m1 = await mapGold(page, ids.y, ids.u, [DUE])
   expect(m1.repeat, "the frame is deterministic (control)").toBe(0)
   expect(m1.apart, "the two orbs are far enough apart to tell apart").toBeGreaterThan(90)
-  // v1.272.0: was "level 1 on the map: an outline drawn on the known orb"
-  expect(m1.near, "on the map: the seal's dot drawn at the known orb").toBeGreaterThan(20)
+  // v1.272.0: was "level 1 on the map: an outline drawn on the known orb"; v1.280.0: was "the seal's dot drawn at the
+  // known orb", now the outside line again (1 px, outside the silhouette)
+  expect(m1.near, "on the map: the outside line drawn at the known orb").toBeGreaterThan(20)
   expect(m1.gold, `...in gold (its mean colour rgb(${m1.mean}), hue ${m1.hue}°)`).toBe(true)
   expect([m1.nearU, m1.elsewhere], "...and nothing on the unknown orb at the same zoom, nor anywhere but the known orbs").toEqual([0, 0])
 
@@ -301,16 +320,22 @@ test("the card's seal and the map's gold: known, then the flashcards learned too
     a._publishKnowledge("test:deck-learned")
   }, ids.key)
   expect(await page.evaluate((key) => (window as W).__neural.deckMastery(key), ids.key), "the deck reads learned").toBe(1)
+  expect(await page.evaluate((id) => { const a = (window as W).__neural; return a._answered(a.nodes.find((n: W) => n.id === id && n.role !== "defender")) }, ids.y), "...and the map's test reads it answered (its own half's deck)").toBe(true)
   // v1.272.0: was "level 2 on the card, without a reload: the border and a 2px ring, twice level 1's 1.5px"
-  // ({ attr: "2", ... ring: "2" }); the seal has two kinds, and a Yes with its flashcards learned is still "known"
-  await expect.poll(() => ring(page), { message: "the deck learned too: still the filled seal, still the ordinary border (the row rules)" }).toEqual({ seal: "known", disc: true, border: "ordinary" })
+  // ({ attr: "2", ... ring: "2" }); v1.280.0: was "still the filled seal" ({ seal: "known" }), now the disc in the ring
+  await expect.poll(() => ring(page), { message: "the deck learned too: the disc inside the ring (both), still the ordinary border (the row rules)" }).toEqual({ seal: "both", disc: true, border: "ordinary" })
   const m2 = await mapGold(page, ids.y, ids.u, [DUE])
   expect([m2.nearU, m2.elsewhere], "the deck learned too: still nothing elsewhere").toEqual([0, 0])
-  expect(m2.gold, `...in gold (rgb(${m2.mean}), hue ${m2.hue}°)`).toBe(true)
-  console.log(`[moves-mastery] map dot: known ${m1.near} px rgb(${m1.mean}), the deck learned too ${m2.near} px rgb(${m2.mean})`)
+  // v1.280.0: was "in gold" by the mean colour of every changed pixel; the inside's border band (the orb's own colour, laid
+  // over its fill) changes pixels too and dilutes that mean (rgb(161,141,105), saturation 0.348 against 0.35, on the first
+  // build of the inset), so the claim is read on the pixels that are themselves gold: the inside adds them
+  console.log(`[moves-mastery] map marks: recalled ${m1.near} px rgb(${m1.mean}) ${m1.goldPx} gold, the deck learned too ${m2.near} px rgb(${m2.mean}) ${m2.goldPx} gold`)
+  expect(m2.goldPx, `...in gold: the inside adds gold pixels (${m1.goldPx} -> ${m2.goldPx})`).toBeGreaterThan(m1.goldPx * 1.5)
   const ratio = m2.near / m1.near
-  // v1.272.0: was ratio 1.6 to 2.6, "the map's outline about doubles" (U122 a's level 2); the dot has one state
-  expect(ratio > 0.8 && ratio < 1.25, `the map's dot does not grow when the deck is learned too: ${m1.near} -> ${m2.near} px (x${ratio.toFixed(2)})`).toBe(true)
+  // v1.272.0: was ratio 1.6 to 2.6, "the map's outline about doubles" (U122 a's level 2); v1.280.0: was x0.8 to x1.25,
+  // "the dot does not grow"; now the inside gold fills the orb within its border on top of the 1 px line (x2.27 measured on
+  // the first build at this zoom: the orb is small at scale 3, so the fill is about the line's own area again)
+  expect(ratio, `the inside fills the orb when the deck is learned too: ${m1.near} -> ${m2.near} px (x${ratio.toFixed(2)})`).toBeGreaterThan(1.6)
 })
 
 test("a seat known in part, below the cap: every card's Win % prints, and the worker reads the card's own figure", async ({ page }) => {
@@ -360,8 +385,8 @@ test.describe("touch", () => {
     const r1 = await read(page), y1 = by(r1, "y")
     expect(y1.works - y0.works, `${y0.id}: +15 on its painted Works %`).toBe(15)
     expect([r1.permanent[y0.key], r1.sent === r1.profile, r1.sent !== r0.sent], "the worker's new profile carries it").toEqual([0.15, true, true])
-    // v1.272.0: was "thin gold" ("")
-    expect(y1.seal, "the filled seal").toBe("known")
+    // v1.272.0: was "thin gold" (""); v1.280.0: was the filled seal ("known")
+    expect(y1.seal, "the ring: recalled").toBe("recalled")
     expect(await page.evaluate(() => !!(window as W).__neural._execution), "a tap on Yes plays nothing").toBe(false)
     const l = await line(page, j)
     expect(l, "the line counts it").toEqual({ known: 2, total: PAIRS_GI })

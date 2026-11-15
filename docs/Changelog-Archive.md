@@ -18300,3 +18300,226 @@ stored row rewritten, two devices converging and both heals only later all held.
   first-hand core 384,492 (+3,197 on 381,295, this PR's +381, of 6,000); deferred raw 522,091, its ceiling moved to
   exactly that in its own commit under U170 a (b729ef8c4; dev's own use 521,758). Stored progress: no new field, no key,
   no row rewritten.
+
+## v1.280.0 — The map's gold becomes outlines; the seal tells the same story; the gold switch leaves Settings; the position's own name obeys the control rule (GOLD1, U183 a, 2026-11-14)
+
+**The owner's rule (U183 a, "build it as drawn").** A move you recalled here (a Yes) wears a gold line OUTSIDE its orb; a
+move whose questions are answered (its own half's deck all learned) wears gold INSIDE, its own colour kept as a border.
+Independent. The claim every proof hits: the orb's own colour is visible in every state at every size (the old outline and
+the "Turn what you know gold" recolour both lost it). Design "e": outside gold 240,192,90 at 0.95, 1 px from the
+silhouette out, round joins; inside drawn in full from rs 3.2 px, none at 2.4 or less, linear between; border
+clamp(0.32 rs, 1.2, 2.2) px. Never on a defender twin; the seat wears its line outside the focus mark's rim, no inside mark.
+
+**Built (`NG_MAP_MARKS`, `draw()`), after every orb's fill, with no clip in the ordinary frame.** Inside: each orb's border
+band (the shape minus the shape inset by the border, even-odd) in its own colour over its own fill at 0.87 (0.95 of the
+colour with the fill), then the gold of every inset shape, one fill per alpha (`_insetPath`: `shapePath` scaled about the
+incentre, so each side moves in by exactly d: circle r - d; diamond r - 1.1985 d; triangle r - 1.3438 d, centre 0.3061 d
+lower). Outside: each shape's outset path (`_outsetPath`: each side moved out by half the line, an arc about each corner),
+stroked the line's width, one stroke per alpha; it never lies on its own orb, so no clip; one even-odd clip (the view's box
+and every outside-marked shape) only when two marked shapes come within reach, so a line never shows inside one neighbour.
+The seat's line is the band 1 to 2 px out by the same path (the rim covers the first pixel). Three first builds, each
+caught: part A's reversed shapes, non-zero, for overlaps (wrong: the winding is -1 inside two shapes); the inside's border
+stroked over a full gold fill, both at the fade's alpha (at rs 2.8 the gold showed through the band, 160,137,117 on a
+103,92,103 orb: map-gold.spec.ts); and the outside stroked on the edge under a clip per overlapping shape (a clip over the
+whole view each: +0.4 / +0.5 ms on a held frame at 390, every dealt orb marked, against the dot's +0.1). Where two
+inside-marked orbs overlap, the later one's band and gold lie over the neighbour's part (the owner's pictures). At
+mitosis the partner half is drawn at alpha kLOD and the marks' gate is 0.55: below kLOD 0.55 only the rep half wears
+marks. The names' keep-clear around every dealt orb is the silhouette plus the line (1 px), not the dot's reach.
+
+**The seal (`_sealCard`).** ring = recalled, disc = answered (it reads `_answered`, the map's own test; the card's face keeps
+`_deckLearned`), both = the disc in the ring, a dark gap between, the tick kept (no smear at dpr 2 or 3). Words: "You recalled this move here" · "Its
+questions are answered" · "Recalled here, and its questions answered".
+
+**The switch.** "Turn what you know gold" left Settings; `masteryGold` stays stored, synced and readable, read for no paint
+(a settings key can never be deleted). Every canvas surface is its own colour again. The palette module keeps three
+pigments and the overview's site mix, bit-identical to dev's Off paint (2,862 halves, 1,431 sites, a one-off unit). The
+publish's "map-paint" rebuild went too (the cache no longer reads knowledge). Partial progress is gone from the map; it
+remains on the landing card's count, the history rows, the Path's crowns and Practice's rows.
+
+**POSNAME, as narrowed by GOLD1-R1 (ruled).** The position's own name (`richLabel` big, `pairGroup` focused), and its seat
+star with it, is refused only under paint that hides it (`_hides` with `part`: any element touching the name's box that
+paints by #414's rule; no part of its ink under a card) or cut by the screen; its usual side, else the mirror, else not
+written that frame (the star is then removed, never a live or an invisible target); it still claims first. The first
+build refused it under ANY control's box, as a move's name is: PR 417's shard 3 went red at lists-picker.spec.ts's phone
+test. Probed there (the boxes the last drawn frame was handed, at true size on dev and this head): the one box over the
+seat was the White Foundations card, OPAQUE (rgba 18,22,37 .98), which refuses under either rule; dev drew the name and
+star under it, unseen, and kept the star; the journey closed the card with a click and its clock drew no frame after.
+So the card's close now draws the map at once, and a frame drawn again at the same instant repeats the last frame's call
+on the camera (it read as at rest, and the card closing itself mid-drag ended names' waits: map-names' drag test).
+Five journeys assumed the name always drawn and are restated, each with its "was" (the reward card dismissed in
+announcer-coherence and seat-star, as article-sections did; landcard-chrome draws one frame at rest; article-sections
+reads the reading frame's centre on the orbs; graph-naming puts the pair in the free band above the open article); each
+original, run under the narrowed rule, is still refused by PAINT there (the reward card, the landing card, the article's
+sections, the row's cards), so none goes back. The survey
+again (tests/artifacts/_map_names_survey.mjs --landed, 1,000 cases, every row at dpr 1; dev 689f03b9f's bundle, the
+pushed head 8c33d5efd's, this head's): position names 680, 680, 680, no case differing either way, the added row (390x844,
+each seat just landed, the question taken up, two lists seeded) 40 of 40 on all three; it cannot hold shard 3's frame,
+because the survey closes any reward card before every row, so lists-picker.spec.ts holds it (R1c red there). The four
+faults 0 in all 25 rows on all three.
+
+**GOLD1-R2 (the map reader of PR 417, ruled).** (1) At a device pixel ratio of 1 the one claim failed: the border band was
+one or two device pixels with gold bleeding into it from both sides (the reader's harness: 182 of 4,464 cases between rs
+2.6 and 5.0 with no pixel on the edge's normal showing the orb's own colour; by map-gold's own judge 55 band and 24 line
+failures). Below dpr 1.5 the border is never under 2 device pixels (`max(borderMin, 2 / dpr)`), the outside line starts
+half a device pixel beyond the silhouette and is 1.5 device pixels wide (`max(line, 1.5 / dpr)`: at 1 px a diamond's
+45-degree faces read faint), and the inside is drawn only where its gold has a device pixel of room inside the border, in
+full at two (`fit`, from each shape's inradius: circle 1, diamond 0.8344, triangle 0.7442 r), so at dpr 1 it starts at rs
+3.0 / 3.6 / 4.0 and is full at 4.0 / 4.8 / 5.4 (circle / diamond / triangle); dpr 2 keeps 2.4 / 3.2 and is unchanged.
+The keep-clear takes the same gap and line. map-gold.spec.ts gains 1440 at dpr 1 (the band sampled at its middle where
+3/4 px in is its last device pixel; the line as the goldest of three points across it; the inside judged on the frame's
+published `inK`). (2) With moves hidden the map marked what the card hides: a face-down card's orb now wears no mark
+(`_hmDownSet`, one set a frame for the marks and every label), and turned up the first frame shows its marks with its seal.
+This also closes dev's older leak (its dot showed on a face-down card's orb). (3) A name may cross a mark on an orb that is
+not dealt: not changed, measured (below). (4) The seat's keep-clear is its focus mark (1.28 r), the rim and the line, not
+the bare silhouette; no camera of the app's brings a name within 20 px of the seat, so a fixture in known-move-seal.spec.ts
+walks a dealt orb up to the seat from its left (each frame planned afresh) and gives the claim its case. (5) The stale
+words in known-moves-shown.spec.ts. Measured on
+this head with the reader's harness (the real `draw()` on a real canvas): the band loses the orb's own colour in 0 of
+4,464 cases at dpr 1 (8c33d5efd: 182) and 0 at dpr 2; in the pixel the silhouette's edge crosses, where the orb covers
+half or more of it, the line puts gold in 0 of 151 cases at dpr 1 (8c33d5efd: 31; dpr 2, unchanged, 18 of 161), and
+otherwise only in pixels mostly outside the orb (483 of 1,337); map-gold's judge as now written fails 0 times at dpr 1 and
+2. The reader's ORIGINAL judge reads band 4, line 32, inside 28 at dpr 1 on this head (8c33d5efd: 55, 24, 0), each a
+sample the ruling moved or a reading that is not gold: the line read at the edge + 0.5 px, where at dpr 1 it now starts
+(its half-covered first pixel, 109,90,65 on the circle); the inside expected full from rs 3.2, where at dpr 1 it starts
+at 3.0 to 4.0; the red specimen's band at rs 8, 3/4 px in, a deeper red than the bare orb (200,70,73 against 137,56,67,
+the same pixels on 8c33d5efd). Moves hidden: no mark on the two face-down orbs (8c33d5efd: both marked). Names, 8c33d5efd
+-> this head, the survey at dpr 1: moves 2,062 -> 2,039 (28 gained, 51 lost; the 1440 rows 1,220 -> 1,217, the 390 rows
+842 -> 822, which overstates a phone: its canvas runs at dpr 2, where the gap is 0 and the line 1 px as before, and only
+the seat's reach changes); the reader's sweep (Standing, Mount, Side Control, Back Control and Half Guard top, x0.7 to x3
+with pans, 625 frames) puts no move name within 21.9 px of the seat's focus mark (dev 22.5). Finding 3 (`--marks-all`:
+every move recalled and every deck learned, 960 cases): this head writes 640 position and 1,936 move names, 1,014 move
+names and 482 position names crossing a mark; keeping every marked orb in view clear as a dealt orb is would write 1,150
+move names (802 lost, 26 gained: -40%) with no move name crossing a mark, the position's 482 unchanged (its name claims
+first and keeps clear of no orb, as on dev). Not changed here: ruled for after this PR, on this number.
+
+**GOLD1-R3 (PR 417's shard 1 on b60778421).** challenges-ui.spec.ts's "a Mat Coin acknowledgement links to its permanent
+rewards-shelf entry" went red: View Collection no longer opened the Path. Reproduced with that journey and the frame
+instrumented: R1's one frame drawn inside the reward card's `dismiss` THREW (`createRadialGradient`: a non-finite value),
+and the handler stopped before `openLearningView("challenges")`. The journey boots and mints the coin without pumping a
+frame, so the frame clock had never ticked: `this.now` undefined, every node's `lit` -99, the arrival glow's age NaN, and
+`NaN > 1.9` is false, so the glow was not skipped and its radius was NaN. No frame of the app's own draws there: `_tick`
+sets `now` before it draws, and the rAF loop catches a frame's error ("frame error"); R1's was the one `draw()` outside
+the frame tick. One pumped frame later the same direct draw is clean. Fixed by ORDER, not by a catch: each close (the ✕,
+View Collection, the card's own timer) draws one frame last, after its own work, and none before the clock's first tick
+(nothing has been drawn under the card yet, and the first frame draws the map); `holdChallengeReward` draws none (the
+move's own frames follow). The survey owed to the file: every spec touching what challenge-feedback.src.js renders or
+exposes (`grep -rlnE` over e2e/journeys, e2e/gen and tests for the reward card's markers, words and methods): 37 files, 24
+journey files and 1 gen spec among them, 13 journey files beyond the 53; the rest units and tools. Mutants on 00f2a2aa8: R3m, the draw back inside `dismiss` before
+the handler's work, red at "View Collection opens Path"; R1c, the ✕ without its draw, red at lists-picker.spec.ts's phone
+test (the star not found); R3g, the clock's precondition removed, a NON-KILL (the frame then throws AFTER the handler's
+work, so the Path opens and nothing asserts the page error).
+
+**GOLD1-R4 (the map reader's second look at b60778421, ruled).** D1: with moves hidden, a face-down card LOOKED AT (a mouse
+on it, a tap, a move staged from the map: `_peek`, `_hmLit`) kept no seal, yet its orb got both marks back, because the
+marks asked the names' lit set. Now the marks ask the card's face alone (`_hmDownSet(true)`: `data-hide`, turned up to be
+asked or not), as its seal does; its name still shows, as the card being asked does. known-move-seal.spec.ts: the mouse on
+due and on learnedDue at 1440, a tap on each at 390, each face down, turned up, lit and sealless, with no mark on its orb;
+the 390 test then shows both marks with moves shown (the orbs were in view). D2, accepted for this PR as on dev, not built:
+after a drag, the narrowed rule writes the position's name under a see-through control's WORDS and its star under that
+control's live buttons (the reader's 2,178 dragged frames: the text crosses the name in 62, the star's centre lies under
+another control's live element in 60; none at the app's own 18 landings). D3: map-gold's judge had no size rule for the
+inside below dpr 2; it now holds the inside FULL from where its gold has two device pixels of room inside the border (dpr
+1: 4.0 / 4.8 / 5.4; dpr 1.5: 3.2 / 3.2 / 3.6), on the frame's own rs. D4: at dpr 1.5 the dpr-2 rules left five diamonds of
+4,464 with no pixel of their own colour (a warm tint, 0.13 to 0.15 gold); the dpr-1 rules now hold below 2 (`gap` at
+`mdpr < 2`), and map-gold runs at 1.5 too. Measured with the reader's harness on this source: `band2` loses the orb's own colour in 0 of 4,464 at 1.5 (5 before)
+and at 1.75 (0 before); at dpr 2 every count is b60778421's (lost 0, one own pixel only 177, gold in the edge pixel 1,117);
+the reader's own judge (`spec2`) reads 0 at 1.5 (2 before) and 4 at 1.75, the same four pixels as before the change (the
+triangle at rs 2.8, in and both, 3/4 px in, 77,113,183 against 51,91,171: a lighter blue, not gold). D5: article-sections kept its centre claim only `if (reading.named)`, which
+passed a name refused with nothing painting over it; the frame now publishes the two boxes the position's name tried and
+where it went (`_lastPosCand`), and the spec judges them by the narrowed rule (inside the map, under no control that paints
+over the box padded 3 px) and asserts the name goes where the rule says. In every reading frame of that test the article paints over both sides, so the rule and the frame agree the name is
+not written; at rest above the article it is written on its usual side, and the rule agrees. D6: (i) at dpr 2 the diamond at rs 3.4, between the spec's sizes, is tinted 3/4 px inside its edge in the in and both states
+(151,140,126 against the bare 95,96,111; since the first push); its band keeps a pixel of its own colour (`band2` 0 at dpr
+2); added to the spec's sizes it would read red at the band's claim, so it is named in Not covered instead;(ii) the reward card's close
+inside `startExecution` (`holdChallengeReward`) draws no frame since R3, so nothing is drawn mid-execution. Mutants on 605a2d744 (seconds): R4a, the marks on the names'
+lit set again (32), red at the two looked-at tests ("due looked at: no mark on its orb", 1440 and 390); R4b, the dpr-1 rules
+below 1.5 again (95), red at "1440 dpr 1.5: the border band is the orb's own colour"; the reader's nofit1 (98) and halffit1
+(101), red at "the inside is gold when and only when the questions are answered and the size allows it" at dpr 1 and 1.5; P1
+again (200), red at article-sections' "1152px: the position's name goes where the rule says" and at map-names twice; R1a
+again (217), red at map-names' see-through fixture, a non-kill in article-sections (its frames give both rules one answer);
+R3m (69) and R1c (66) red as on 00f2a2aa8; R3g (60) a non-kill.
+
+**Proof.** map-gold.spec.ts reads the ink: a circle, diamond and triangle in their own paint and in the app's blue, red and
+grey (set through `_mapColor` for the one orb: no markable orb is that red, no markable triangle grey), each drawn alone at
+rs 2.0, 2.8, 3.2, 5 and 8 (camera searched on the published rs), four states, 390 and 1440: the band is the orb's own
+colour in every state; the outside is gold iff a Yes; the inside iff answered and from 3.2 (warmer at 2.8); at 2.4 or
+less the centre is the own colour. known-move-seal.spec.ts: the marks on the right orbs, none on a twin whose deck is
+learned, none inside the seat whose deck is learned, centred at LY, no move name within reach, every changed pixel within
+a mark's reach (circle 1, diamond 1.18, triangle 1.58 rs, plus 3 px). map-names.spec.ts: the R+1 crossing, `nameGap`, and
+a POSNAME test (1440 Standing, wheeled out three times, dragged until the seat's orb is under the row). The seal's kinds
+are restated in known-move-seal, moves-mastery, hidden-moves and known-moves-shown; the switch's six journeys and ten
+units each kept, restated or retired with what they claimed before (mastery-gold.spec.ts, tests/mastery_gold.test.mjs).
+Mutants, each one replacement in app.src.jsx, rebuilt, the named files in full (seconds): G1 the outside line on an
+answered orb without a Yes (133) red at "no outside line on any node the moves record does not know" and "the outside line
+is gold when and only when there is a Yes"; G2 the inside on a recalled orb not answered (103) and G5 the inside only with
+a Yes too (85) red at the inside claims of both files; G3 the inside from rs 1.4 (70) red at "at rs 2.4 px or less the
+centre is the orb's own colour"; G4 the gold over the whole shape (111), G10 the first build's inside exactly (118) and G11
+the line centred on the edge (108) red at "the border band is the orb's own colour in every state, at every size"; G6c
+the twin gate and `_answered` reading a defender's deck (43) red at "no mark on a defender twin" (G6, the gate alone, a
+non-kill: both sets already leave a twin out); G7 the seat in the gate (23) red at "1440: no inside mark on the seat"; G8
+the keep-clear at the dot's reach (164) red at "names use the room the dot's reach took"; G9 the bare silhouette (140)
+red at "no move's name across another dealt orb or its outside line"; P1 POSNAME exempt (153) red at "the position's own
+name is under no control"; U1 the publish's paint rebuild back red at unit 10. Dev's own bundle: map-gold and
+known-move-seal red 8 of 8. G2, G3, G5 to G9 and P1 ran on the build before the outset line (their code is unchanged). GOLD1-R1/R2,
+on the committed head 2bf3d2c80 (seconds): R2a the dpr-1 border minimum removed (70) red at "1440 dpr 1: the border band is
+the orb's own colour in every state, at every size" (dpr 2 and 390 green); R2a2 the dpr-1 line at 1 px (72) red at "1440
+dpr 1: the outside line is gold when and only when there is a Yes"; R2b the marks' face-down check removed (23) red at
+known-move-seal's hidden-moves test ("due: face down, so no mark on its orb"); R2c the seat's keep-clear at its bare
+silhouette (173) a NON-KILL against every camera of the app's (known-move-seal's frames, map-names), so a fixture gives the
+claim its case (known-move-seal's "the seat's keep-clear": the seat placed where the frame's control boxes leave the map
+clear, one dealt orb and its partner walked in from its left a pixel a frame, each frame planned afresh), and R2c is red
+there (185) at "no move's name within the seat's focus mark (1.28 r), its rim and its outside line"; R1a
+the position's name refused under any control's box again (175) red at map-names' fixture "a see-through control over it:
+the position's own name is written where it was" (lists-picker's phone test green under it: its card is opaque, refused
+either way); P1 again on the narrowed rule (159) red at "the position's own name is under no control" and "painted over
+its usual side: written on its mirror"; R1c the reward card's close without its draw (29) red at lists-picker.spec.ts's
+phone test (the star not found).
+
+**Measured** (tests/artifacts/_map_names_frametime.mjs, 4x CPU throttle, Standing top, 36 dealt orbs; `--ab marks`, paired
+frames, the median of B - A, every dealt orb marked both ways against none, ms, 390 held / drag, 1440 held / drag): dev's
+dot +0.1 / 0.0, +0.1 / +0.1 and +0.1 / +0.1, +0.2 / +0.1; the first build +0.5 / +0.1, +0.4 / +0.3; built +0.1 / 0.0,
++0.1 / +0.1 (a first run's 390 held read +1.2 under load, its bare frame at 9.0 ms against 5.0 to 5.8 in every other).
+v1.278.1's figures from the same script: `--ab hides` (the live check against the old box rule, held / drag): blocks +0.1 / +0.4 at 390, +0.6 / +0.6 at
+1440; paired +0.2 / +0.1, +0.4 / +0.4 (box and style reads equal in both modes; a busier box than #414's).
+Run: `node tests/artifacts/_map_names_frametime.mjs --ab marks [--app <dev's neural/dist>]` and `--ab hides [--method
+blocks]`, a built tree served at :8196. Names (tests/artifacts/_map_names_survey.mjs, 960 cases, dev 3e39b0aa6's bundle ->
+this): moves 1,907 -> 1,962 (98 gained, 45 lost), the four faults 0 both sides in all 24 rows; every dealt move marked: positions 640 -> 640, moves 1,962 -> 1,960, the faults 0.
+
+**Bytes.** On the merged head (dev v1.279.0 in): eager gzip 366,113, +4,226 of 5,000 on 361,887; first-hand core 385,566,
++4,271 of 6,000 on 381,295; 11 boot requests. My share alone, against dev 689f03b9f's own bundle on the same tree: neural.js +2,774 raw (719,994 against 717,220); eager gzip +1,067 (366,113 against 365,046); first-hand core +1,075 (385,566 against 384,491); deferred raw -774 (521,317 against 522,091).
+The palette module shrinks 1,412 -> 892 B. No baseline or ceiling moved but the archive's (+50,000, its own commit).
+After GOLD1-R1/R2 (on 2bf3d2c80): eager gzip 366,396, +4,509 of 5,000 on 361,887 (491 of room; R1 and R2 +283);
+first-hand core 385,859, +4,564 of 6,000 (R1 and R2 +293); 11 boot requests. Against dev 689f03b9f's own bundle on the
+same tree: neural.js +3,447 raw (720,667 against 717,220); eager gzip +1,350; first-hand core +1,368; deferred raw -774.
+The archive's +50,000 is dev's own since v1.279.0 (PR 416 took the same raise), so against dev this PR moves no ceiling.
+
+**Runs** (the build lock, the merged head): units 1,669 of 1,669; the 46 journeys that read map names, seals, Settings or
+the palette, 518 passed, 24 red, all accounted for (16 restated: the seal's old kinds, the seat's name assumed drawn; 8
+legal-pages on this worktree's stale built privacy page, which predates its controller line); the restated files and
+three more label readers 113 of 114, then landcard-chrome restated (a frame drawn at rest) 6 of 6 over three repeats; e2e:gen's 12 on the same
+markers 12 of 12; npm run ci:validate 25 of 25. After merging dev v1.279.0 (PR 416): the five files that read the marks
+and the names 40 of 40, the app rows re-seeded, npm run ci:validate 25 of 25 on the pushed head. GOLD1-R1/R2, on the
+committed head 2bf3d2c80: units 1,689 of 1,689; the 53 journey files (the 46, every file the R1 grep found for the seat's
+star and the position's label, map-gold at its three ratios) in two runs, 51 then 2 (a missing separator in the list ran
+51 the first time; the same list ran R1's 47a771ec2 check, so those two files had not run there either): 589 passed, 1
+skipped, 8 red (legal-pages, the stale built privacy page, as above), then those two
+(choice-value, weak-spots-acceptance) 23 of 23 on 4af42aeb0; e2e:gen's 12 of 12; the seat's
+keep-clear fixture on 4af42aeb0, alone and then known-move-seal in full twice, 8 of 8 each
+(the walking name written in 254 of 257 frames, 3 of them within 3 px outside the seat's reach, none inside); pushed as
+b60778421 (the app rows re-seeded, npm run ci:validate 25 of 25). GOLD1-R3, on 00f2a2aa8: units 1,689 of 1,689; the 66 journey files (the 53 and the 13
+that touch the reward card), all 66 run (diffed against the list): 794 passed, 1 skipped, 8 red (legal-pages, as above);
+e2e:gen's 13 (the 12 and the reward one) 13 of 13; eager gzip +4,524 of 5,000, first-hand core +4,578 of 6,000;
+GOLD1-R4, on 605a2d744: units 1,689 of 1,689; the 66 journey files, all run: 796 passed, 1 skipped, 8 red (legal-pages);
+e2e:gen 13 of 13; eager gzip 366,576, +4,689 of 5,000 on 361,887 (311 of room; R3 and R4 +463); first-hand core 386,035,
++4,740 of 6,000; against dev 689f03b9f's own bundle: neural.js +3,871 raw (721,091), eager gzip +1,530, first-hand core
++1,544, deferred raw -774; then, after this
+entry, the app rows re-seeded and npm run ci:validate.
+
+**Not covered.** Overlapping marked orbs and the seat's line are in the pictures, not asserted; a real phone (the canvas
+caps at dpr 2; read in headless Chromium); an ancestor's opacity above a control (v1.278.1, unchanged); G6 (the gate's
+twin check alone) is a non-kill by design: both sets already leave a twin out. GOLD1-R1/R2: a name may cross a mark on an
+orb that is not dealt (finding 3, measured above, ruled for after this PR); the position's own name is not written where both its sides are under paint that hides
+it (under an open article crossing the seat, under the White Foundations card on a phone). GOLD1-R3/R4: the position's name
+under a see-through control's words and its star under that control's live buttons after a drag (D2, accepted as on dev;
+the reader's counts above), the star rule a follow-up; ratios other than 1, 1.5 and 2 read by the harness only (1.25,
+1.75); the diamond at rs 3.4 at dpr 2 (D6); R3g a non-kill.
