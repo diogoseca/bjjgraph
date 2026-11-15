@@ -18404,3 +18404,34 @@ owners, a passive boot, the older client and #416's guarantees held. Fixed in on
   +2,469 (`neural.js` +6,448 raw; R1 added +726 gzip to the first push's +1,743), awaiting the orchestrator's checkpoint
   of the baselines after #417. First-hand core 386,957 (+5,662 on 381,295, of 6,000; this PR's +2,465). Nothing deferred
   moved.
+
+**NEXT2-R2** (the reader's second look at 052d58745: MERGE AFTER D1 to D4; the regression gone, the two-tab and
+second-join cases on the right row in every variant tried, clearing safe under every attack).
+- **D1, a case worse than dev (in the first push too):** two offline devices, only right answers; Y on time twice (60 →
+  90 → 180), X once on the day of Y's second answer, X syncs first: 90 days where dev keeps 180. Y's earlier entry was
+  set aside by the day rule and its later one replayed onto X's same-day row, where it earns nothing, replacing the
+  merge's healed row. RULED: when every entry left to replay is right, the card takes the later-due of the replay's row
+  and the merge's. BUILT NARROWER, and said to the orchestrator: only when some of this copy's earlier answers on the card
+  were set aside by the day rule (D1's cause). The plain rule also preferred the merge's row where nothing was set aside,
+  where that row is this copy's answer on the old row, and so erased another device's miss in 88 of 168,912 three-device
+  runs that dev and R1 kept; narrowed, 16 (indistinguishable from D1's short case by the rows alone; in Not covered).
+  The reader's search on this head: due sooner and farther from the in-time-order result than dev, 0 of 27,000 two-device
+  and 0 of 324,000 three-device runs (it had found 12 and 108); the miss-direction count 6,428 three-device against
+  R1's 6,356 (the plain rule 6,936).
+- **D3:** the guest rows an account took in moved to their own local key (`taken`, written only at a join), so an answer
+  rewrites under 21 KB after three joins of 180 cards (it was about 48 KB).
+- **D2 and D4, in Not covered:** the merge's heal can still erase a miss dev counts (48 of 27,000 two-device runs, 240 of
+  324,000 three-device; the other way, 597 two-device), and a tab whose save is still in its 400 ms delay while another
+  tab pulls and delivers brings the one-day row back, as on dev.
+- **Re-measured:** misses lost 766 of 13,104 two-device runs (dev 1,260), 10,368 of 168,912 three-device (dev 13,661);
+  order-dependent final rows 14.1% two-device (dev 3.6%), 14.3% three-device (dev 3.4%).
+- **Proof:** D1's two cases and D3's as tests, red on 052d58745's code; a case for the narrowing (another device's miss,
+  then this device's later right answer: three days); mutants J17 (D1's rule removed), J19 (the taken rows never
+  written), J20 (D1's rule without its narrowing), each red at its named test.
+- **Landing (R2)** on 4f194f4ca under the build lock (03:25 to 03:47): units 1,713/1,713; every journey that exercises
+  the progress host (15 files: account-menu, auth-owner, auth-redirect-back, guest-join, srs-due, practice-page,
+  practice-order, payload-first-hand, challenges-engine, known-moves-shown, legacy-gone, hidden-moves, reading-ready-payload,
+  known-move-seal, option-edge) 146 passed; e2e:gen 103/103 by its ledger (its one such spec among them); the app rows
+  re-seeded (38ed34b73); ci:validate 25/25. Bytes, my share on dev's own build: `neural.js` +6,931 raw, +2,627 gzip (R2
+  +158 on R1's +2,469); the payload gate red on the SUM alone (eager gzip 367,674, +5,787 on the 361,887 baseline, dev's
+  own +3,160), awaiting the orchestrator's checkpoint after #417; first-hand core 387,117 (+5,822 of 6,000; mine +2,625).
