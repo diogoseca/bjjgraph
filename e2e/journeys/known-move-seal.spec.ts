@@ -92,6 +92,11 @@ import { journey } from "../dsl"
  *   GOLD1-R2 (the map reader of PR 417), on the committed head 2bf3d2c80:
  *   R2b the marks' face-down check removed                     red 1 at "due: face down, so no mark on its orb (no outside
  *                                                              line, no inside gold) and no seal on its card"
+ *   R2c the seat's keep-clear at its bare silhouette           NON-KILL at mapClaims' seat check (no camera of the app's
+ *                                                              brings a name within 20 px of the seat); red 1 at "no
+ *                                                              move's name within the seat's focus mark (1.28 r), its rim
+ *                                                              and its outside line" (the fixture "the seat's keep-clear",
+ *                                                              on 4af42aeb0)
  * NOT COVERED here: the hover words' TOOLTIP itself (a browser tooltip cannot be read; its `title` is asserted, and the
  * pointer meets the seal); the light/dark poster frames (the pictures, tests/artifacts/_seal_shoot.mjs; the spec checks
  * the seal is lit or dark INSIDE, whatever the poster); a known escape's or threat's seal (the units: escape; the same
