@@ -588,40 +588,88 @@ async function mapClaims(page: Page, where: string) {
 // card does; dev's dot showed on a recalled move come due). Due (a Yes come due) and learnedDue (every card learned, one due)
 // are face down with moves hidden, and would be marked: the check has cases. Turned up (moves shown), the marks come in the
 // next drawn frame, with the seals.
+/** One paused frame of the map with moves hidden (GOLD1-R2, R4): the camera on the seeded orbs (or, with `only`, centred on
+ *  that card's orb close enough that both marks have room: rs 8 or more, past every ratio's size rule), and for each seeded
+ *  card its face (`data-hide`), whether it is turned up to be asked (`data-revealed`) and its orb in the names' lit set
+ *  (`_hmLit`), its seal, the two sets the marks read, its orb's rs, and the marks the frame PUBLISHED for its orb. */
+const hiddenFrame = (page: Page, only?: string) => page.evaluate(([ids, only]) => {
+  const a = (window as W).__neural
+  a.setPaused(true)
+  const seeded = a._optionCards.filter((c: W) => !c.opt.threat && Object.values(ids).includes(c.opt.node.id)).map((c: W) => c.opt.idx)
+  const t = a._fitView(seeded, { minW: 0 })
+  a.cam = { ...a.cam, cx: t.cx, cy: t.cy, vw: t.vw, lvw: Math.log(t.vw) }
+  if (only) {
+    const n = a.nodes[a._optionCards.find((c: W) => c.card.getAttribute("data-ks") === only).opt.idx]
+    for (let vw = a.cam.vw, k = 0; k < 40 && a._nodeHalfW(n, a.W / vw, a._nodeK, a._lodK, true) < 8; k++) vw *= 0.8, a.cam = { ...a.cam, cx: n.x, cy: a._LY(n), vw, lvw: Math.log(vw) }, a.draw()
+    a.cam = { ...a.cam, cx: n.x, cy: a._LY(n) }
+  }
+  a.draw()
+  const marks = (a._lastMapMarks || []).map((m: W) => ({ ...m }))
+  const out: W = {}
+  for (const c of a._optionCards) {
+    const k = c.card.getAttribute("data-ks"); if (!k) continue
+    const n = c.opt.node, m = marks.find((x: W) => x.idx === c.opt.idx)
+    out[k] = { down: c.card.hasAttribute("data-hide"), revealed: c.card.hasAttribute("data-revealed"), lit: !!(a._hmLit && a._hmLit.has(c.opt.idx)), seal: c.card.getAttribute("data-seal"),
+      recalled: a._movesGold().has(c.opt.idx), answered: a._answered(n), out: !!(m && m.out), inK: m ? m.inK : 0, rs: +a._nodeHalfW(n, a.W / a.cam.vw, a._nodeK, a._lodK, true).toFixed(1) }
+  }
+  a.setPaused(false)
+  return out
+}, [ID, only ?? null] as const)
+
+/** LOOKED AT, NOT ANSWERED (GOLD1-R4, the map reader's D1): a face-down card turned up to be asked (a mouse on it, a tap on
+ *  it: `_peek`, data-revealed, its orb in the names' lit set) still wears no seal, so its orb wears no mark. `look` puts the
+ *  pointer or the finger on the card; each of due (recalled) and learnedDue (answered) in turn. Was (b60778421): the marks
+ *  read the names' lit set, so the looked-at card's orb lit gold while its card was asking. */
+async function lookedAt(page: Page, where: string, look: (q: { x: number, y: number }) => Promise<void>, close = false) {
+  for (const k of ["due", "learnedDue"]) {
+    await into(page, card(k))
+    await look(await pointOn(page, card(k)))
+    const f = await hiddenFrame(page, close ? k : undefined)
+    console.log(`[known-move-seal] ${where}, ${k} looked at: ${JSON.stringify(f[k])}`)
+    expect([f[k].down, f[k].revealed, f[k].lit, f[k].seal], `${where}, ${k} looked at: face down, turned up to be asked, its orb in the names' lit set, no seal`).toEqual([true, true, true, null])
+    expect([k, f[k].out, f[k].inK], `${where}, ${k} looked at: no mark on its orb (no outside line, no inside gold), as no seal on its card`).toEqual([k, false, 0])
+  }
+}
+
 test.describe("the map with moves hidden 1440x900 (GOLD1-R2)", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
 
-  test("moves hidden: no mark on the orb of a face-down card, though its move is recalled or its questions answered; turned up, its marks come with its seal", async ({ page }) => {
+  test("moves hidden: no mark on the orb of a face-down card, though its move is recalled or its questions answered, nor when it is looked at; turned up, its marks come with its seal", async ({ page }) => {
     test.setTimeout(240_000)
     await seat(page, true)
-    const frame = () => page.evaluate((ids) => {
-      const a = (window as W).__neural
-      a.setPaused(true)
-      const seeded = a._optionCards.filter((c: W) => !c.opt.threat && Object.values(ids).includes(c.opt.node.id)).map((c: W) => c.opt.idx)
-      const t = a._fitView(seeded, { minW: 0 })
-      a.cam = { ...a.cam, cx: t.cx, cy: t.cy, vw: t.vw, lvw: Math.log(t.vw) }
-      a.draw()
-      const marks = (a._lastMapMarks || []).map((m: W) => ({ ...m }))
-      const out: W = {}
-      for (const c of a._optionCards) {
-        const k = c.card.getAttribute("data-ks"); if (!k) continue
-        const n = c.opt.node, m = marks.find((x: W) => x.idx === c.opt.idx)
-        out[k] = { down: c.card.hasAttribute("data-hide"), seal: c.card.getAttribute("data-seal"), recalled: a._movesGold().has(c.opt.idx), answered: a._answered(n), out: !!(m && m.out), inK: m ? m.inK : 0 }
-      }
-      a.setPaused(false)
-      return out
-    }, ID)
+    const frame = () => hiddenFrame(page)
     const hid = await frame()
     console.log(`[known-move-seal] moves hidden: ${JSON.stringify(hid)}`)
     expect([hid.due.down, hid.due.recalled], "due: face down, and its move recalled (it would wear the outside line)").toEqual([true, true])
     expect([hid.learnedDue.down, hid.learnedDue.answered], "learnedDue: face down, and its questions answered (it would wear the inside)").toEqual([true, true])
     for (const [k, c] of Object.entries(hid) as Array<[string, W]>) if (c.down) expect([k, c.out, c.inK], `${k}: face down, so no mark on its orb (no outside line, no inside gold) and no seal on its card (${c.seal})`).toEqual([k, false, 0])
+    // looked at by the mouse (GOLD1-R4, D1): the pointer on the card turns it up to be asked, and it keeps no seal
+    await lookedAt(page, "1440, the mouse on it", (q) => page.mouse.move(q.x, q.y))
+    await page.mouse.move(2, 2)
     // turned up: moves shown
     await page.evaluate(() => (window as W).__neural.set("hideMoves", false))
     const up = await frame()
     console.log(`[known-move-seal] turned up: ${JSON.stringify(up)}`)
     expect([up.due.down, up.due.seal, up.due.out], "due, turned up: the ring on its card and the outside line on its orb").toEqual([false, "recalled", true])
     expect([up.learnedDue.down, up.learnedDue.seal, up.learnedDue.inK > 0], "learnedDue, turned up: the disc on its card and the inside on its orb").toEqual([false, "answered", true])
+  })
+})
+
+test.describe("the map with moves hidden 390x631, by touch (GOLD1-R4)", () => {
+  test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } })
+
+  test("moves hidden, a tap on a face-down card turns it up to be asked: no seal, and no mark on its orb; turned up by the setting, the marks come", async ({ page }) => {
+    test.setTimeout(240_000)
+    await seat(page, true)
+    const hid = await hiddenFrame(page)
+    expect([hid.due.down, hid.due.recalled, hid.learnedDue.down, hid.learnedDue.answered], "390: due (recalled) and learnedDue (answered) face down (the check has cases)").toEqual([true, true, true, true])
+    // each looked-at orb framed alone and close (rs 8 or more: on a 390 phone the fitted hand leaves a triangle under the
+    // inside's size rule, so the inside could not have shown there and the check would read nothing)
+    await lookedAt(page, "390, tapped", (q) => page.touchscreen.tap(q.x, q.y), true)
+    // the control: the same cameras with moves shown put both marks on those orbs, so the frames above could have shown them
+    await page.evaluate(() => (window as W).__neural.set("hideMoves", false))
+    const upDue = await hiddenFrame(page, "due"), upLearned = await hiddenFrame(page, "learnedDue")
+    expect([upDue.due.out, upLearned.learnedDue.inK > 0, upDue.due.rs >= 8, upLearned.learnedDue.rs >= 8], `390, moves shown: the outside line on due's orb, the inside on learnedDue's, each framed at rs 8 or more (${upDue.due.rs}, ${upLearned.learnedDue.rs})`).toEqual([true, true, true, true])
   })
 })
 

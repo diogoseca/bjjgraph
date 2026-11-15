@@ -7,11 +7,12 @@ import { journey } from "../dsl"
  * all learned) wears gold INSIDE, with the orb's own colour kept as a border inside the edge, drawn in full from an `rs` of
  * 3.2 px, not at all at 2.4 px or less (NG_MAP_MARKS, app.src.jsx). THE ONE CLAIM the design exists for: THE ORB'S OWN
  * COLOUR IS VISIBLE IN EVERY STATE AT EVERY SIZE (the old outline and the "Turn what you know gold" recolour both lost it).
- * AT A DEVICE PIXEL RATIO BELOW 1.5 (GOLD1-R2, the map reader of PR 417: a desktop at 100% that is not high-density) the
- * border is never under 2 device pixels, the outside line starts half a device pixel beyond the silhouette and is 1.5 device
- * pixels wide, and the inside is drawn only where its gold has a device pixel of room inside the border (full at two): at
- * dpr 1 it starts at rs 3.0 / 3.6 / 4.0 and is full at 4.0 / 4.8 / 5.4 (circle / diamond / triangle). Three viewports:
- * 1440 at dpr 2, 390 at dpr 3 (the canvas caps at 2) and 1440 at dpr 1.
+ * AT A DEVICE PIXEL RATIO BELOW 2 (GOLD1-R2 at dpr 1, the map reader of PR 417: a desktop at 100% that is not high-density;
+ * GOLD1-R4 below 2, its D4: at 1.5, a laptop at 150%, the dpr-2 rules left a few diamonds a warm tint) the border is never
+ * under 2 device pixels, the outside line starts half a device pixel beyond the silhouette and is 1.5 device pixels wide
+ * (at least 1 CSS px), and the inside is drawn only where its gold has a device pixel of room inside the border (full at
+ * two): at dpr 1 it starts at rs 3.0 / 3.6 / 4.0 and is full at 4.0 / 4.8 / 5.4 (circle / diamond / triangle); at 1.5 it is
+ * full at 3.2 / 3.2 / 3.6. Four viewports: 1440 at dpr 2, 390 at dpr 3 (the canvas caps at 2), 1440 at dpr 1 and at 1.5.
  *
  * WHAT IS READ: the pixels `draw()` paints (an offscreen copy of the real frame, the live context swapped for the shot), never
  * the rule recomputed (CLAUDE.md 6.3). THE SPECIMENS: one orb of each shape, a circle (a position), a diamond (a transition)
@@ -106,9 +107,9 @@ const shoot = (page: Page) => page.evaluate(([RS, STATES]) => {
           if (got.rs > rsT) lo = mid; else hi = mid
         }
         if (!got) { out.push({ ...sp, col: undefined, rsT, err: "no mark published" }); continue }
-        // the border as the frame draws it (v1.280.0, GOLD1-R2): never under 2 device pixels; where a device pixel is a whole CSS
-        // pixel the line starts half a device pixel out and is 1.5 wide
-        const rs = got.rs, bw = Math.max(Math.max(1.2, 2 / dpr), Math.min(2.2, 0.32 * rs)), gap = dpr < 1.5 ? 0.5 / dpr : 0
+        // the border as the frame draws it (v1.280.0, GOLD1-R2): never under 2 device pixels; below dpr 2 (GOLD1-R4) the line
+        // starts half a device pixel out and is 1.5 device pixels wide (at least 1 CSS px)
+        const rs = got.rs, bw = Math.max(Math.max(1.2, 2 / dpr), Math.min(2.2, 0.32 * rs)), gap = dpr < 2 ? 0.5 / dpr : 0
         // along the edge's normal: a circle's side, a diamond's face at 45 degrees (h = 1.18 r, the face at h / sqrt 2),
         // a triangle's base (h = 1.35 r, the base at 0.72 h)
         const [ux, uy, f] = sp.shape === "circle" ? [1, 0, 1] : sp.shape === "diamond" ? [Math.SQRT1_2, Math.SQRT1_2, 1.18 * Math.SQRT1_2] : [0, 1, 0.972]
@@ -132,6 +133,11 @@ const shoot = (page: Page) => page.evaluate(([RS, STATES]) => {
   }
   return { specimens: specimens.map((s) => ({ ...s, col: undefined })), out, dpr }
 }, [RS, STATES] as const)
+
+// where the inside is FULL below dpr 2: the smallest rs whose gold has two device pixels of room inside the border, from each
+// shape's inradius (circle 1, diamond 0.8344, triangle 0.7442 rs) and the border (`max(2 / dpr, min(2.2, 0.32 rs))`), and not
+// below the design's 3.2. dpr 1: 4.0 / 4.8 / 5.4 (as ruled); dpr 1.5: 3.2 / 3.2 (3.196) / 3.6 (3.583)
+const FULL = { "1": { circle: 4.0, diamond: 4.8, triangle: 5.4 }, "1.5": { circle: 3.2, diamond: 3.2, triangle: 3.6 } }
 
 const chroma = (p: number[]) => { const s = p[0] + p[1] + p[2] || 1; return [p[0] / s, p[1] / s, p[2] / s] }
 const near = (p: number[], q: number[]) => { const a = chroma(p), b = chroma(q); return Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]) < 0.07 }
@@ -170,6 +176,14 @@ function judge(r: W, where: string) {
       if (!answered && inK > 0) inside.push(`${id} ${st}: an inside published without its questions answered`)
       // at dpr 2 the size rule is the design's own: full from rs 3.2 (unchanged by GOLD1-R2)
       if (r.dpr >= 2 && answered && o.rsT >= 3.2 && inK < 0.999) inside.push(`${id} ${st}: at dpr 2 the inside is full from rs 3.2 (inK ${inK})`)
+      // below dpr 2 (GOLD1-R4, the map reader's D3: the judge had no size rule there, so no inside at all, or one never above
+      // half, read green): answered, and the frame's own rs at or above where the gold has two device pixels of room inside
+      // the border (and 3.2), the inside is FULL
+      if (r.dpr < 2) {
+        const full = (FULL as W)[String(r.dpr)]?.[o.shape]
+        if (full == null) inside.push(`${id}: no size rule for dpr ${r.dpr}`)
+        else if (answered && o.rs >= full && inK < 0.999) inside.push(`${id} ${st}: at dpr ${r.dpr} the inside is full from rs ${full} (rs ${o.rs}, inK ${inK})`)
+      }
     }
   }
   expect(band, `${where}: the border band is the orb's own colour in every state, at every size`).toEqual([])
@@ -178,8 +192,9 @@ function judge(r: W, where: string) {
   expect(small, `${where}: at rs 2.4 px or less the centre is the orb's own colour`).toEqual([])
 }
 
-// dpr 1 (GOLD1-R2, the map reader of PR 417): a plain desktop screen at 100% draws the canvas at one device pixel per CSS pixel
-for (const vp of [{ width: 1440, height: 900, touch: false, dpr: 2 }, { width: 390, height: 631, touch: true, dpr: 3 }, { width: 1440, height: 900, touch: false, dpr: 1 }]) {
+// dpr 1 (GOLD1-R2, the map reader of PR 417): a plain desktop screen at 100% draws the canvas at one device pixel per CSS pixel;
+// dpr 1.5 (GOLD1-R4, its D4): a laptop at 150%
+for (const vp of [{ width: 1440, height: 900, touch: false, dpr: 2 }, { width: 390, height: 631, touch: true, dpr: 3 }, { width: 1440, height: 900, touch: false, dpr: 1 }, { width: 1440, height: 900, touch: false, dpr: 1.5 }]) {
   test.describe(`the map's gold ${vp.width}x${vp.height} dpr ${vp.dpr}`, () => {
     test.use({ viewport: { width: vp.width, height: vp.height }, hasTouch: vp.touch, isMobile: vp.touch, deviceScaleFactor: vp.dpr })
 

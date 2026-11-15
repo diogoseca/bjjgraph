@@ -2988,9 +2988,12 @@ class Component extends DCLogic {
   // showed on the orb of a face-down card, so the map said what its card withholds; dev's dot did the first). A card left
   // face up because its move is known (v1.266.0, `_applyHide`) is face up here too: the map asks the card, never the rule
   // again (§6.5, one question in one place), so the row and the map cannot disagree. Asked once per drawn frame (`draw()`).
-  _hmDownSet() {
+  // `face` (GOLD1-R4, the map reader's D1): THE MARKS ask the card's FACE alone, as its seal does (`_sealCard`: `data-hide`,
+  // turned up to be asked or not). A face-down card LOOKED AT (a hover, a tap, a move staged from the map: `_hmLit`) keeps no
+  // seal, so its orb keeps no mark; its NAME shows, as the card being asked does, so the labels keep the lit set.
+  _hmDownSet(face) {
     if (!(this.optionIdxs && this.optionIdxs.length && this._hideMoves())) return null;
-    const down = new Set(), lit = new Set(this._hmLit || []);
+    const down = new Set(), lit = new Set(face ? [] : this._hmLit || []);
     for (const oc of this._optionCards || []) if (oc.card && !oc.card.hasAttribute("data-hide")) { lit.add(oc.opt.idx); if (oc.opt.res != null) lit.add(oc.opt.res); }
     for (const i of this.optionIdxs) if (!lit.has(i)) { down.add(i); const q = this.nodes[i]; if (q && q.pi >= 0) down.add(q.pi); }
     return down;
@@ -22014,7 +22017,7 @@ class Component extends DCLogic {
     // coincident pair — nothing pops, and no crossfade is needed.
     const cullPad = 60 / scale, cxv = this.cam.cx, cyv = this.cam.cy, halfVW = this.cam.vw / 2, halfVH = (H / scale) / 2;
     // the map's gold (NG_MAP_MARKS), collected per drawn orb and drawn after the loop, batched: `insG` inside, `outG` outside
-    const spec = this._hasGround ? [] : null, gold = this._movesGold(), insG = [], outG = [], MK = NG_MAP_MARKS, hmDownF = this._hmDownSet();
+    const spec = this._hasGround ? [] : null, gold = this._movesGold(), insG = [], outG = [], MK = NG_MAP_MARKS, hmDownF = this._hmDownSet(), hmFaceF = this._hmDownSet(true);
     // AT A DEVICE PIXEL RATIO OF 1 (GOLD1-R2, the map reader of PR 417: a plain desktop screen at 100%), a 1.2 px border is one
     // device pixel and the gold tints it from both sides, so an orb with both marks read as a gold coin with a brown rim (182
     // of 4,464 cases between rs 2.6 and 5 had no pixel on the edge's normal in the orb's own colour). So: the border is never
@@ -22022,8 +22025,9 @@ class Component extends DCLogic {
     // silhouette (`gap`), so its edge never tints the orb's own edge pixel, and is 1.5 wide (`lw`: 1 px on a 45-degree face
     // never covers a whole pixel, and on the smallest diamonds it read 76,65,57, not gold); and there the inside is drawn only
     // where its gold has at least one device pixel of room inside the border (`fit`), reaching full at two. At dpr 2 all
-    // four are as before.
-    const mdpr = this.dpr || 1, gap = mdpr < 1.5 ? 0.5 / mdpr : 0, bwMin = Math.max(MK.borderMin, 2 / mdpr), lw = Math.max(MK.line, 1.5 / mdpr);
+    // four are as before. BELOW 2, not only at 1 (GOLD1-R4, the map reader's D4: at 1.5, a laptop at 150%, the dpr-2 rules left
+    // five diamonds of 4,464 with no pixel of their own colour, a warm tint at 0.13 to 0.15 gold); 1.25, 1.5 and 1.75 take them.
+    const mdpr = this.dpr || 1, gap = mdpr < 2 ? 0.5 / mdpr : 0, bwMin = Math.max(MK.borderMin, 2 / mdpr), lw = Math.max(MK.line, 1.5 / mdpr);
     this._lastMapMarks = [];
     for (const n of this.nodes) {
       // RULESET CULL, first and hardest: a state this ruleset cannot produce is not dimmed, it is
@@ -22045,7 +22049,7 @@ class Component extends DCLogic {
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, ny, rD); ctx.fill();
       // THE MAP'S GOLD (v1.280.0): which orbs wear it is the dot's old gate (a member, never the defender twin, drawn at more
       // than 0.55 of its alpha); the seat wears its outside line on its mark below, and no inside mark
-      if (aK > 0.55 && n.role !== "defender" && n.idx !== drawFocus && !(hmDownF && hmDownF.has(n.idx))) {
+      if (aK > 0.55 && n.role !== "defender" && n.idx !== drawFocus && !(hmFaceF && hmFaceF.has(n.idx))) {
         const out = gold.has(n.idx), rs = rD * scale, bw = Math.max(bwMin, Math.min(MK.borderMax, MK.borderK * rs));
         // the gold's room inside the border, from the shape's incentre (`_insetPath`): circle 1, diamond 0.8344, triangle 0.7442 r
         const fit = gap ? Math.max(0, Math.min(1, ((n.ty === "positions" ? 1 : n.ty === "submissions" ? 0.7442 : 0.8344) * rs - bw) * mdpr - 1)) : 1;
@@ -22287,7 +22291,14 @@ class Component extends DCLogic {
       const clearP = (l, r, t, b) => l >= NB.l + 4 && r <= W - 4 && t >= 4 && b <= H - 4
         && !claims.some((q) => l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3)
         && !NB.blocks.some((q) => l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3 && this._hides(q, { l: l - 3, r: r + 3, t: t - 3, b: b + 3 }, "name", true));
-      const place = (x0, w, t, b, x1) => clearP(x0, x0 + w, t, b) ? x0 : clearP(x1 - w, x1, t, b) ? x1 - w : null;
+      // PUBLISHED (GOLD1-R4, the map reader's D5): the two boxes the position's name tried THIS frame and where it went
+      // (`_lastPosCand`: usual, mirror, the 3 px pad `_hides` is asked with, the claims before it, `at`), so a spec can hold the placement to the rule
+      // the frame states, whether or not the name was written
+      const place = (x0, w, t, b, x1) => {
+        const pu = clearP(x0, x0 + w, t, b), pm = !pu && clearP(x1 - w, x1, t, b);
+        this._lastPosCand = { usual: { l: x0, r: x0 + w, t, b }, mirror: { l: x1 - w, r: x1, t, b }, pad: 3, claims: claims.length, at: pu ? "usual" : pm ? "mirror" : null };
+        return pu ? x0 : pm ? x1 - w : null;
+      };
       // Rich labels own the graph's naming structure: role + short headline + optional qualifier.
       // Callers cannot pass a pre-composed name; that is how the merge-scale fallback used to put
       // "from Mount" back into the headline while the split pair rendered it as a subtitle.
@@ -22305,7 +22316,9 @@ class Component extends DCLogic {
           const lift0 = qual ? this.NG_LABEL_LEAD / 2 : 0, t0 = sy - 7 - lift0 - 11, b0 = sy + 11 - lift0 + (qual ? this.NG_LABEL_LEAD : 0) + 4;
           const wBlock = (room) => Math.max(wid("700 11px " + dfam0 + ", sans-serif", role.toUpperCase()) + 15 + starPx / 2, Math.min(room, wid("700 " + rNamePx0 + "px " + dfam0 + ", sans-serif", main)), Math.min(room, wid("600 11.5px " + dfam0 + ", sans-serif", qual)));
           const x1 = sx - halfW(n) - 11, wR = wBlock(Math.max(60, W - ox - 12)), wL = wBlock(Math.max(60, x1 - 12));
-          ox = clearP(ox, ox + wR, t0, b0) ? ox : clearP(x1 - wL, x1, t0, b0) ? x1 - wL : null;
+          const pu = clearP(ox, ox + wR, t0, b0), pm = !pu && clearP(x1 - wL, x1, t0, b0);
+          this._lastPosCand = { idx, usual: { l: ox, r: ox + wR, t: t0, b: b0 }, mirror: { l: x1 - wL, r: x1, t: t0, b: b0 }, pad: 3, claims: claims.length, at: pu ? "usual" : pm ? "mirror" : null };
+          ox = pu ? ox : pm ? x1 - wL : null;
           if (ox == null) return;
         }
         const maxW = Math.max(60, ox > sx ? W - ox - 12 : sx - halfW(n) - 11 - ox);
@@ -22493,6 +22506,7 @@ class Component extends DCLogic {
       // what a merge-scale assertion needs; a sticky value would report the last time it drew.
       this._lastPairLabel = null;
       this._lastRichLabel = null;
+      this._lastPosCand = null;
       // the live hover, resolved once — both the focus group and the roaming one read it
       const heldStar = this._seatStarButtons && [...this._seatStarButtons.values()].find((b) =>
         b === this._pickAnchor || b.matches(":hover, :focus-visible"));
