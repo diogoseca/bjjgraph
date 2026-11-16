@@ -451,6 +451,11 @@ for (const v of VIEWS) test.describe(v.name + ", the clock held during the round
 // intersect? There must be none." An ordinary opening's heading keeps its old place UNDER the board (z 7 is the round's end's
 // alone), so where it crosses the article the article covers it. Stepped frame by frame (the harness clock, 50 ms) through a
 // seated opening (`rigStart` + `startRoll`, as the reader seated it) and through the restart's opening after a round's end.
+// THE RESIDUE, AS ON DEV (v1.280.4, no change): the reader's measure on v1.280.3 (every 100 ms, 390x631, 390x844, 1440x900,
+// "both visible" = the heading on top or nothing painting above it) found the heading showing through for a few frames of an
+// ordinary opening: 3 at 390x631 through the reader's "Loading the complete article…" placeholder (it paints nothing behind
+// its text) and 1 at 1440 under the film card while it fades in; dev showed 3 of the same class. An opening keeps dev's
+// stacking, so these transitional frames are dev's; this test reads the article's text only, so it does not count them.
 for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { width: 1440, height: 900 }]) test.describe(`${vp.width}x${vp.height}, an opening`, () => {
   test.use({ viewport: vp, hasTouch: vp.width < 600 })
   test("the heading is never drawn over the article's text, in a seated opening or the restart's", async ({ page }) => {
