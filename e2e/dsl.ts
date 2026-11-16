@@ -1202,12 +1202,13 @@ export class Journey {
   }
 
   /** D-318 retires Read. Research/economy fixtures use an approved video via the
-   * real dossier fetch and a real play-circle click, then close without playback. */
+   * real dossier fetch and a real play-circle click, then close it by its ✕. VID1: the
+   * press opens the theater and the video plays at once (WAS: closed without playback). */
   async watchChoice(technique: string) {
     const { openChoiceVideo } = await import("./fixtures/video-cards");
     await openChoiceVideo(this.page, technique);
-    await this.clickByMouse("[data-watch-close]", "Close the video viewer");
-    await expect(this.page.locator("[data-choice-viewer]")).toHaveCount(0);
+    await this.clickByMouse(".ng-video-theater .ngClipX", "Close the video");
+    await expect(this.page.locator(".ng-video-theater")).toHaveCount(0);
     return this;
   }
 

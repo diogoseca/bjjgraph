@@ -182,23 +182,25 @@ test("victory cascade ≤1.5s on win; defeat drain on loss; ladder survives relo
   expect(rank2).toBe(rank1 - 1)
 })
 
+// VID1 (owner, 15 Nov: "it should start automatically, not wait for me to press play a second time"): the press on the
+// play circle IS the explicit playback, so the +4 lands from the player's own "playing" report on that press, as the
+// current node's theater has done since VIDEO1. WAS (v1.230.0 to v1.280.0): "opening the viewer awards nothing", +4 only
+// after a press inside the player; on the VID1 build that line failed with 49 for 45. Unchanged: once per technique,
+// a poster awards nothing, a second playback does not stack.
 test("film-study first look: +4% on explicit playback once per technique, never stacking", async ({ page }) => {
   await page.setViewportSize({ width: 1366, height: 768 })
   const j = await bootVideoCards(page)
   const before = await j.displayedOdds(NAME)
+  expect((await j.beats()).filter((b: any) => b.beat === "film_first_look"), "a poster awards nothing").toEqual([])
   await j.clickByMouse(`${CARD} [data-choice-watch]`, "Watch the move")
   await expect(page.locator('[data-test-player]')).toHaveCount(1)
-  expect(await j.displayedOdds(NAME), "opening the viewer awards nothing").toBe(before)
+  // The fixture player reports playing a turn of the event loop after it is ready: read the reward by poll.
+  await expect.poll(async () => (await j.displayedOdds(NAME)) - before, "the press that plays it earns +4").toBe(4)
+  await j.expectBeat("film_first_look")
   const play = page.frameLocator('[data-test-player]').locator('button')
   await expect(play).toBeVisible()
   const hit = await play.boundingBox()
   expect(hit).not.toBeNull()
-  await page.mouse.click(hit!.x + hit!.width / 2, hit!.y + hit!.height / 2)
-  // STALE TIMING (v1.230.0, feat/video-cards; red on that branch's own build, H132): the fixture player's play is a
-  // postMessage from its frame, so the reward lands after a turn of the event loop. Read it by poll, as
-  // video-cards.spec does, and judge the second play only once the player has seen it.
-  await expect.poll(async () => (await j.displayedOdds(NAME)) - before, "explicit playback earns +4").toBe(4)
-  await j.expectBeat("film_first_look")
   await page.mouse.click(hit!.x + hit!.width / 2, hit!.y + hit!.height / 2)
   await expect.poll(() => page.evaluate(() => (window as any).__players.at(-1).play), "premise: the second play reached the player").toBe(2)
   expect((await j.displayedOdds(NAME)) - before, "a second playback does not stack").toBe(4)

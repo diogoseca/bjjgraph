@@ -489,7 +489,7 @@
    "L": "first-roll-day1",
    "F": "film-study",
    "B": "error-fallback",
-   "invariant": "A real Watch control opens without autoplay; explicit playback emits short_watched. The production error callback renders a safe native YouTube link without committing, and closing the failed viewer removes its player.",
+   "invariant": "A real Watch control opens the theater and plays at once (VID1, owner 2026-11-15; was: opens without autoplay); the player's own playing report emits short_watched once. The production error callback renders a safe native YouTube link without committing, and closing the failed viewer removes its player.",
    "origin": "core",
    "status": "accepted",
    "evidence": {

@@ -136,7 +136,7 @@ test("film with a question pending: Watch declines it free, +4 mints, the film n
   // ── and the streak RESUMES: Close returns from the focused provider iframe;
   //    answering the SAME question right afterwards climbs to DOUBLE. Modal Escape
   //    without provider focus is covered separately by video-cards/keyboard. ──
-  await j.clickByMouse("[data-watch-close]", "Close the playing video")
+  await j.clickByMouse(".ng-video-theater .ngClipX", "Close the playing video")
   expect(await page.evaluate(() => !!(window as any).__neural._choiceWatch), "Close dismissed Watch").toBe(false)
   expect((await state(page)).mcSurface, "the landing question owns the keyboard again (`_handBackMc`)").toBe("land")
   await answer(page)
