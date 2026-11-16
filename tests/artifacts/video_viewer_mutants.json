@@ -1,5 +1,5 @@
 {
- "note": "VID1: every press that opens a video plays it in the theater. Run by tests/artifacts/video_viewer_mutants.mjs under the shared build lock: each row's anchors must occur exactly once; the mutant is built into source/public, its named test must FAIL with the named assertion in its failure and its control must PASS; the exact source bytes are restored (sha256) and the bundle rebuilt. Results: docs/Changelog-Archive.md (VID1).",
+ "note": "VID1: every press that opens a video plays it in the theater. Run by tests/artifacts/video_viewer_mutants.mjs under the shared build lock: each row's anchors must occur exactly once; the mutant is built by npm run dev:neural:app (whose regenerate:mdp re-pins the MDP manifest to the mutant's app.src.jsx) into source/public, its named test must FAIL with the named assertion in its failure and its control must PASS; the exact source bytes are restored (sha256) and the bundle rebuilt. Measured 16 Nov 2026 (head ab71d940e): 10 of 10 killed, each control green. Results: docs/Changelog-Archive.md (VID1).",
  "spec": "journeys/video-viewer\\.spec",
  "mutants": [
   {

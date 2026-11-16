@@ -25,9 +25,10 @@ import { bootVideoCards, CARD, installPlayerStub } from "../fixtures/video-cards
  *  own state. A refusing browser is that stub answering playVideo with onAutoplayBlocked, the player's own report
  *  (`__refuseSound`); no real iPhone or Safari runs here. Posters are aborted (each img is hidden by its onerror).
  *
- *  Mutants (tests/artifacts/video_viewer_mutants.json, each against a green baseline of this file):
- *  no-autoplay, esc-ignored, dim-not-closing, second-x, dim-reaches-map, old-modal-from-move, muted-start-lost,
- *  pause-not-restored. Results in docs/Changelog-Archive.md (VID1).
+ *  Mutants (tests/artifacts/video_viewer_mutants.json, each against a green baseline of this file): no-autoplay-request,
+ *  no-play-on-ready, esc-ignored, dim-not-closing, second-x, dim-removed, not-modal, old-modal-from-move,
+ *  muted-start-lost, pause-not-restored. Measured 16 Nov 2026 (head ab71d940e): all ten red at their named test with
+ *  their named assertion, each control green; no survivors. Results in docs/Changelog-Archive.md (VID1).
  */
 
 const THEATER = ".ng-video-theater"
