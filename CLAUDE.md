@@ -442,7 +442,7 @@ Follow `templates/Systems.json` and `docs/Content.md`: independent source-ground
 no filler quotas, unsupported mechanics, mastery timelines or invented review credentials.
 Preserve graph membership; related cards are references, not a proficiency test. No reader
 homework or `start_here`. Course-first layout renders overview once and Sources last; verified
-previews mount immediately, muted, with visible controls. Alternatives resolve exact System names to local pages.
+previews mount immediately and play muted, with visible controls. Alternatives resolve exact System names to local pages.
 
 - Products use verified canonical `course_url`; never commit tracking queries or placeholders.
   Only `link_status: live` renders; `link_checked` records actual listing verification.
