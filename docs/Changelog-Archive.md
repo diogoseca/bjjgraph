@@ -19091,3 +19091,50 @@ pinned the old rule, and every other file ran green as it is under Auto.
   - D3: the pin off → practice-order "the same three answers, in the same order" (2 of 2);
   - D4: the guard off → answer-mode "no reveal, no grade".
   The served bundle was byte-identical after the run.
+
+**The re-read (PR #423 at 731327536, SET1-R2) and the owner's answer to U194 (SET1-R3, 16 Nov): MERGE AFTER 1 fix, made; D1 (a); 1.282.0.**
+- **One gate for every way of revealing.** In the study view, while a card's options were still loading, the footer drew
+  Reveal answer, and its click set `revealed` itself. That went round `drillReveal`'s guard, and led to a recall Got it
+  with no option picked.
+  - The button now calls `drillReveal`, as the keys and the swipe do.
+  - While the options load, no reveal control is drawn: a disabled "Loading answers…", as the inline decks show.
+  - A failed load leaves the pool as warm as it will get (`_warmMcPool` never rejects), on every surface. The card deals
+    from the decks that landed, or asks front and back when that makes no answers.
+  - The survey: 22 writers of `revealed` (23 before). 16 only hide an answer. The 6 that show one each pass a gate:
+    `drillReveal`; the inline decks' `recognition()`; an answer's own callback; the recall block, built only for a
+    front-and-back card; and two clocks that reveal as a miss.
+  - Named, not changed: the defence drill's cold-pool escape hatch (dev's).
+- **The window, measured:** 141 of 21,269 cards (both rulesets) need another deck's answers. For the rest, the warm
+  resolves a microtask after the card is drawn. The journeys hold, then fail, the real chunk of one such card
+  (`Backstep from Leg Weave|Defender`), by mouse and by touch.
+- **D1, the owner's answer: (a), Multiple choice means it everywhere**, Last rolls' and the Path's decks included.
+  - The line under it now says plainly: a card is never asked from memory, so the from-memory goals wait until the
+    choice changes.
+  - (b), built as the interim at SET1-R2 (those decks front and back under a stored `mc`), was dropped before the push.
+    Its numbers stay here for the record: 326 front-and-back cards kept on the reader's record; eager +44 B raw /
+    +18 B gzip, deferred +65 B.
+  - (a) costs deferred +109 B (the line) and eager 0 B raw.
+- **Renumbered 1.283.0 → 1.282.0** (lands before the video viewer): 92 labels in 40 files. The knowledge law's comment
+  carried one, so its pin moved (c1c3f8a5… → 4c17e32a…) with nothing computed changed.
+- **Runs:**
+  - **With (b) in** (lock 20:01 to 20:23):
+    - 25 journey files that read what changed: 314/316. The 2 reds were (b)'s own new journey at its premise: the
+      harness marks the White objectives done at boot.
+    - The 12 generated specs that read it: 12/12.
+    - The payload is clean once a stale worker core, which nothing named, was removed under the lock.
+  - **With (a)** (lock 21:38 to 21:48):
+    - bundle and MDP; the 14 app rows re-seeded;
+    - payload OK: eager 1,447,350 B raw / 370,427 B gzip, deferred 520,751 of 522,091 B;
+    - the 7 journey files the swap moves: 84/84, the fix's four journeys and (a)'s two among them; then (a)'s journey
+      ×5 at each size, 10/10;
+    - gen/spa-nav-single-instance-law: 1/1;
+    - the neutral control's one red: (a)'s journey pressed the Flashcards tab while Settings was still fading in, and
+      `press` refuses opacity under 0.5. The journey now waits until a control is fully shown.
+- **Mutants**, each red at its named assertion, after a neutral control:
+  - the old footer → "no reveal control while they load";
+  - Reveal drawn while loading → the same;
+  - a card with no options left with nothing to press → "a failed load asks front and back, with its Reveal";
+  - (b) put back → "multiple choice in Last rolls under a stored Multiple choice".
+
+  The button alone setting `revealed` itself, with the loading footer kept, survives and is equivalent: Reveal is drawn
+  only where `drillReveal` lets a reveal through.
