@@ -18671,3 +18671,100 @@ d5806a833 under the build lock: units 1,713/1,713; 26 journey files (the 15 that
 728,171 B; four game bundles carry the app source's gameplay hash, so their sha moves at the same size). Against the
 baselines checkpointed at dev v1.280.0 (PAY4): eager gzip 369,196, +2,620 of 5,000; first-hand core +2,640 of 6,000
 (the gate here reads +2,656, because this worktree's page `/` is 16 B heavier than CI's).
+
+## v1.286.0 — The Practice order builds moves: priced by the rating's own game, at their position; the app does not ask yet (STAGE4 S0, 2026-11-16)
+
+**Ruled (STAGE4-GO, the orchestrator, 16 Nov):** build S0 as the plan's Part 4 says (`reports/mapasks.md`): the order
+that Practice asks in takes the moves the rating already prices, so the map can ask them (S1); nothing a player sees
+changes. The five rulings of that brief that touch S0: a "Did not" on a known move lowers the number (the source wins, the
+rating reads a No as a miss); a move shown for the first time writes the "not known yet" row, which must add no field and
+read as a move never answered.
+
+**What changed.** `ngPracticeItems` (practice-queue.src.js) takes two more inputs, `moves` (the moves record) and
+`moveSeats` ({"<site ordinal>/<role>": "<Family>|Top" | "<Family>|Bottom"}, the position each of the game's seats is asked
+at). Only with `moveSeats` does it build moves: every move the rating's game deals (`ngRatingUniverse`'s `seats`, the
+dealt hand of each seat in this ruleset), priced at the game's own figure (seat weight × share / 100, read, never
+recomputed), its row the record's row for that seat and move, `id` "m:<seat>:<move>". A null cell is counted
+(`movesOutside`) and never priced; a seat with no position named is counted (`movesUnseated`) and never asked loose;
+rows no dealt, seated move took (escapes, the other ruleset's seats, a move this build no longer deals there) are counted
+(`movesUnmatched`). A record of move rows alone is a session, not "empty". The law (`ngPracticeVisits`) now counts a move
+row without its answer at [3] as a bad row, as the rating does. `ngPracticeOrder` lists each visit's asked moves
+(`visits[i].moves`) and all of them in order (`moves`, `counts.askedMoves`); the deck rows stay the cards'. The planner
+(gameplan.src.js) passes them through (`plan.moves`, `plan.movesToday`), keeps the order for the moves record, its seat
+map and its revision too (`_gradeMove` edits the record in place), and, only with moves asked, counts a move answered
+today 1 toward the day's goal, as a card. Without `moveSeats`, every output is today's, field for field (pinned).
+
+**What the app does.** Nothing new: `planSummary` hands no `moveSeats`, so today's Practice page is byte for byte the same
+plan. S1 adds the app's own seat map (`_practiceSeats`' walk, by site ordinal), the moves record and `_movesRev` to the
+plan's input, the eager "today" count (`practiceToday`) by the same rule as `ngGameplanMovesToday`, and the map that asks.
+
+**Found while building.** With moves in and no deck loaded (no live set in hand), a move takes a guard place where a card
+cannot: a card of a deck not loaded is not known to be answerable (`sure: false`, ANKI1-R1), a dealt move always is. This
+is the law as ruled; S1's guard sentence reads `counts.short` as today.
+
+**Measured on the real wire** (this tree's emit, the rating fixture's record): gi deals 1,350 moves at 242 seats, 18 of
+them null cells; no-gi 1,206 at 218, none null. With a position named for every seat, the move items sum to the game's
+`moveTotal` (gi 0.314336, no-gi 0.306407) within 1e-9; no seat is unnamed; the fixture's five move rows meet three dealt
+moves, its escape and its undealt move are counted.
+
+**Mutants** (each applied alone to a clean tree by `/home/user/tmp-pw/mapasks/s0mut/run.py`, which restores and
+hash-checks each file after; baseline 55 of 55 green across tests/practice_queue.test.mjs and tests/practice_page.test.mjs,
+55 of 55 again after the last), every one red on a named test:
+
+| mutant | red on |
+|---|---|
+| S0-1 moves after cards at a position | "S0: a dealt move is priced by the game itself…", the S0 replay; and Part 1's "moves first at a position", Part 2 |
+| S0-2 a move's right read by a card's rule (`r[1] > 1`) | "S0: a move's worth is what a right answer adds to the rating…", the S0 replay; and "forgetting counts", Part 2 |
+| S0-3 escapes (rows no dealt move took) asked at 0 | "S0: a dealt move is priced…", "S0: on the real wire…" |
+| S0-4 the role half of the seat dropped | "S0: a dealt move is priced…" |
+| S0-5 a move row without its answer priced | "S0: a move row without its answer is counted as a bad row…" |
+| S0-6 the memo key without the moves record's revision | "S0: the order is kept for its inputs, and the moves record's revision…" |
+| S0-7 a move at a seat no position is named for asked loose | "S0: a dealt move is priced…" |
+| S0-8 moves answered today not counted toward the goal | "S0: \"Did not\" brings a move back tomorrow…" |
+| S0-9 a null cell priced at 0 | "S0: a dealt move is priced…", "S0: on the real wire…" |
+| S0-10 the cards-only shape changed (every visit lists moves) | "S0: without a move seat map the order is today's…" |
+| S0-11 a record of moves alone read as empty | "S0: a move's worth is…", "S0 (ruling 5): the row a first look writes…" |
+| S0-12 an escape's answer today not counted (the reader's A) | "S0: every move answer today counts toward the goal…" |
+| S0-13 the worth plan's overrun without the moves (its B) | the same |
+| S0-14 the worth bind's overrun without the moves (its finding 2) | the same |
+| S0-15 today's order's overrun without today's moves | the same |
+| S0-16 the memo key without the moves record (its C) | "S0: the order is built again for a new moves record or a new seat map…" |
+| S0-17 the memo key without the seat map (its D) | the same |
+| S0-18 a stored null counted unmatched (its nit) | "S0: a move row without its answer is counted as a bad row…" |
+| S0-19 today's order's bind drops the moves from its overrun (the re-check's B3) | "S0: every move answer today counts toward the goal…" |
+| S0-20 the moves-today count takes a row with no interval (its N2) | the same |
+| S0-21 "moves asked" read from any truthy seat map (its N3) | the same |
+
+The 18 were run again together after the reader's fixes, against tests/practice_queue.test.mjs, practice_page,
+gameplan and gameplan_runtime (98 of 98 green before the first and after the last).
+
+**The independent read** (an Opus reader on 58a46d515, given the claims to break, not the conclusions). Claim 1 held: its
+differential of origin/dev against the PR on the real wire, both rulesets, 34 records each (the fixtures and 30 random,
+moves-only ones included), goals 0, 3, 20 and 57, with a moves record but no seat map: 612 comparisons, 0 differences. It
+found: (1) the bundle grew (gameplan.js 21,284 -> 22,707 B in its own bundling) while the ceiling and the fingerprint had
+not moved yet (they move in their own commits below); (2) the worth bind recomputed `overrun` from the cards alone, and
+today's order (the game not ready) did not count today's move answers; (3) four mutants surviving the file (an escape's
+answer, `overrun`'s move terms, the memo without the record itself, the memo without the seat map). Fixed in S0-R1, with
+three nits (a stored null, the moves-today row check, the "moves asked" test). **The re-check** (the same reader on 65b31f3cd): every code finding closed; claim 1's differential again with the binds
+added, 884 comparisons, 0 differences; 11 of its 14 mutants red, the three that survived (today's order's bind, the
+no-interval row, a seat map that is not an object) pinned in S0-R2. Its questions went to the orchestrator as
+S1's: ruling 5's first-look row makes a looked-at move owed tomorrow at full worth, which the frozen simulation days never
+held (re-simulate before S1); the guard's sentence names "cards"; a threat is asked at the opponent's seat.
+
+**Not covered.** The app's move seat map (S1 adds it; the tests build it by the walk `_practiceSeats` makes, as input
+only). The simulation's "seen" move (met in a roll, never scheduled) has no row in the app: the S0 replay hands it in as a
+stored value that is not a row; on the app's own record such a move is new, so for a player who rolls, the app's order and
+the simulation's can differ on those moves.
+
+**Bytes** (this tree's own build, `npm run dev:neural:app` under the build lock, 06:32 to 06:33 on 16 Nov; then
+`python3 scripts/check_payload_budget.py`): gameplan.js 21,284 -> 22,855 B (+1,571); no other bundle moves for S0
+(practice-queue.src.js and gameplan.src.js are bundled into gameplan.js only). Deferred total 522,888 B, the ceiling moved
+to it in its own commit (dev v1.280.2's own use 521,317; 27,112 B of the owner's 550,000 remain). Eager gzip 369,197 B,
++2,621 B on the PAY4 baseline, all of it dev's own (#418's journal in neural.js); this PR adds none.
+
+**Runs** (all local, times from `date`, WET): the units of every file S0 touches (practice_queue, practice_page,
+gameplan, gameplan_runtime, rating, moves_record, moves_account_safety: 157 of 157 at the first commit); the mutant runs
+(11, then 18 together, then the re-check's 3); `npm run ci:validate` 05:11 to 05:20 (25 replayed, 25 passed: the three
+action steps are not replayed); the bundle and the payload check under the lock. The full suites run on the PR
+(e2e-full). The build fingerprint's app rows are re-seeded in their own commit (`validate:build-shape:app`, under the
+lock), and again, with the ceiling, after dev is merged in once the schedule seat's LIN1 has landed.
