@@ -390,7 +390,8 @@ test("the picker never stops the clock, and never sits over the option hand past
   expect(before.paused, "premise: the roll is running").toBe(false);
 
   await optAdd.click();
-  await expect(page.locator("[data-list-picker]")).toBeVisible();
+  await j.advance(1000); // drawn frames before the read (v1.280.5, STAR3: the next frame used to close it)
+  await expect(page.locator("[data-list-picker]"), "still open a second of frames after the press").toBeVisible();
   expect(
     await page.evaluate(() => (window as any).__neural.paused),
     "capture NEVER stops the clock — canon, and the reason the picker is chrome not a screen",

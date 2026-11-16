@@ -53,7 +53,8 @@ async function atMount(page: Page, j: ReturnType<typeof journey>) {
 async function saveMount(page: Page, j: ReturnType<typeof journey>, list: string) {
   await page.evaluate((name) => (window as W).__neural.newList(name), list)
   await j.clickByMouse(SEAT, "the seat star")
-  await expect(page.locator("[data-list-picker]")).toBeVisible()
+  await j.advance(1000)   // drawn frames before the read (v1.280.5, STAR3: the next frame used to close it)
+  await expect(page.locator("[data-list-picker]"), "still open a second of frames after the press").toBeVisible()
   await j.clickByMouse("[data-list-pick]", "the list " + list)
   await expect(page.locator(SEAT)).toHaveAttribute("data-list-saved", "true")
   await page.evaluate(() => (window as W).__neural._flushSave())
