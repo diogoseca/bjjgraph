@@ -9,6 +9,9 @@ import { journey } from "../dsl"
 // v1.229.0: suppressing Mount's star after panel close fails the final visibility
 // assertion even while Kimura's legitimate hover star remains. The scoped journey
 // passed five repetitions on both viewports; its save/remove assertions stay intact.
+// v1.280.3 (STAR1): the star withheld while the drawer is open again (`deckShown` back in `_syncSeatStars`, v1.182.0's rule)
+// is red at "desktop seat star › gold means saved…" (the restated drawer step) and at the three "the drawer open" tests below
+// ("the seat's star is beside it"); on dev's own bundle (87d1e17ee) the same four are red.
 for (const mobile of [false, true]) {
   test.describe(mobile ? "phone seat star" : "desktop seat star", () => {
     test.use({ viewport: mobile ? { width: 390, height: 844 } : { width: 1440, height: 900 }, hasTouch: mobile })

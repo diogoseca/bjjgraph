@@ -16,6 +16,8 @@ import { installNeuralAuthSDK, signInNeuralAuthSDK, waitNeuralAuthOwner } from "
  * so the one backend is modelled by copying the account's row from the browser that wrote it into the next one before that one
  * reads (`cloudOf` -> `seedCloud`). Nothing else is copied; each context's local storage is its own, as two browsers' are.
  * Every save is a player's: the seat's star pressed by mouse, the list picked in its menu by mouse.
+ * NO MUTANT: the must-nots are what the app already does (no fault was found). The same-account case is the positive control
+ * that keeps them from passing on an empty backend: it fails unless A's row really reached browser Y.
  */
 
 type W = any

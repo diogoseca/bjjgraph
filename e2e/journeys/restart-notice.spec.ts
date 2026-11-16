@@ -281,5 +281,20 @@ for (const v of VIEWS) test.describe(v.name, () => {
   })
 })
 
-// RED-PROOF (v1.280.3, each one replacement in app.src.jsx or xdc-template.html, rebuilt, this file run in full): filled in
-// by the seat after its mutants ran; see the archive's v1.280.3 entry.
+// RED-PROOF (v1.280.3, each one replacement in app.src.jsx or xdc-template.html, rebuilt, the named tests run, the source
+// restored and rebuilt after):
+//  M2a  `clearTimers` keeps `endZoom` (the wide framing kept): red at all four "a node pressed while ... is framed close"
+//       (the radius 2.9 px against 13.1 at the press, 1440, the verdict; 0.8 px at 390)
+//  M2b  `clearTimers` keeps the verdict: red at both "a background tap while the verdict is up" ("the verdict is gone"); a
+//       node press hides the verdict itself (`rollFromPosition`), so only the tap can kill it
+//  M2c  `clearTimers` keeps the countdown line: red at both "a node pressed while the countdown is up" ("no countdown line")
+//  M3a  `endRound` leaves the board in place: red at both "the round's notice is its own" ("the article is put away", +300 ms)
+//  M3b  faint does not hide the reader: red at the same, at the same line
+//  M3f  faint hides the reader but not its index: red at "1440x900 mouse › the round's notice is its own" ("no sampled point
+//       of the index's box is the index's")
+//  M3c  the centre without its z 7: red at both "reduced motion" (1440: the heading under the article's section titles; 390:
+//       "You finished it" under the seat's star, z 3)
+//  M3d  no release under reduced motion: red at both "reduced motion" ("back when the new roll starts")
+//  NON-KILL, named: M3e, the announcer without its z 7. While the board is away nothing ambient reaches its top band, so no
+//  test here sees it; the z is kept for the ladder's rule (the notice is never under anything ambient).
+// On dev's own bundle (v1.280.0, 87d1e17ee): all ten tests red, each for the reason its claim names.
