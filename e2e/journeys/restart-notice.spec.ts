@@ -88,6 +88,17 @@ const articleOf = (page: Page) => page.evaluate(() => {
   }
   return { vis: getComputedStyle(art).visibility, owned, box: rr > l && b > t ? [l, t, rr, b].map(Math.round) : null, scroll: sec ? Math.round(sec.scrollTop) : null, index }
 })
+/** How many of the round-end centre's text lines meet the article's on-screen box while the article shows (0: clear of it). */
+const verdictOverArticle = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural, art = a._reader?.articleEl as HTMLElement | undefined, box = a.evCenterRef.current as HTMLElement
+  if (!art?.isConnected || getComputedStyle(art).visibility !== "visible" || box.style.opacity === "0") return { lines: 0, meets: 0 }
+  const ar = art.getBoundingClientRect(); let lines = 0, meets = 0
+  for (const el of [a.evcKickerRef.current, a.evcTextRef.current, a.evcSubRef.current] as HTMLElement[]) {
+    const rg = document.createRange(); rg.selectNodeContents(el)
+    for (const r of rg.getClientRects()) { if (r.width < 2 || r.height < 2) continue; lines++; if (r.left < ar.right && r.right > ar.left && r.top < ar.bottom && r.bottom > ar.top) meets++ }
+  }
+  return { lines, meets }
+})
 const state = (page: Page) => page.evaluate(() => {
   const a = (window as W).__neural
   return { paused: !!a.paused, rolls: a._rollsBegun || 0, landed: (a.optionIdxs || []).length > 0 && a._arriveGlideUntil == null,
@@ -278,6 +289,82 @@ for (const v of VIEWS) test.describe(v.name, () => {
     const n = await noticeOnTop(page)
     expect(n.texts.join(" "), "the next roll's heading is up").toMatch(/Restarting the roll/)
     expect(n.under, "every sampled point of the heading is its own, over the article").toEqual([])
+  })
+})
+
+// STAR1-Q1 (ruled 16 Nov): "the article is never hidden unless something is on its way that will bring it back". The board
+// is away only while the round's end has a live timer (its timers stop only with the clock, `pauseTimers`); a pause during the
+// hold gives it back at once, with the verdict docked in the map's band above the reader, clear of the article.
+for (const v of VIEWS) test.describe(v.name + ", the clock held during the round's end", () => {
+  test.use({ viewport: v.viewport, hasTouch: v.touch })
+  const press = async (page: Page, j: J, sel: string, what: string) => {
+    if (!v.touch) { await j.clickByMouse(sel, what); return }
+    const b = await j.boxOf(sel, what); await page.touchscreen.tap(b.x + b.width / 2, b.y + b.height / 2)
+  }
+
+  test("the drawer opened while the verdict is up gives the article back at once, the verdict clear of it; closed, the board goes until the new roll", async ({ page }) => {
+    const j = journey(page)
+    await landed(page, j)
+    const t0 = await endRound(page)
+    await at(j, page, t0, 700)
+    expect((await articleOf(page)).vis, "the round's end: the article put away").toBe("hidden")
+    await press(page, j, ".ng-logo", "open the drawer")
+    await j.advance(300); await page.evaluate(() => document.body.getBoundingClientRect().top)
+    const s1 = await state(page)
+    expect(s1.paused, "the drawer holds the clock (the pane law)").toBe(true)
+    expect(s1.verdict, "the verdict is still up").toBe(true)
+    expect((await articleOf(page)).vis, "nothing is on its way: the article is back").toBe("visible")
+    expect(s1.board, "the board's styling is over").toBe(null)
+    await j.advance(3000); await page.evaluate(() => document.body.getBoundingClientRect().top)
+    expect((await state(page)).rolls, "no roll restarts while the clock is held").toBe(1)
+    if (!v.touch) {   // at 1440 the map stays beside the drawer: the verdict is over it and clear of the article
+      expect((await noticeOnTop(page)).under, "the verdict's points are its own").toEqual([])
+      const o = await verdictOverArticle(page)
+      expect(o.lines, "the verdict has lines on screen").toBeGreaterThan(0)
+      expect(o.meets, "no line of the verdict meets the article").toBe(0)
+    }
+    await press(page, j, ".ng-explorer-close", "close the drawer")
+    await j.advance(300); await page.evaluate(() => document.body.getBoundingClientRect().top)
+    expect((await state(page)).paused, "closing the drawer gives the clock back").toBe(false)
+    expect((await articleOf(page)).vis, "the timer runs again: the board is away").toBe("hidden")
+    expect((await noticeOnTop(page)).under, "the verdict's points are its own").toEqual([])
+    await expect.poll(async () => { await j.advance(500); const s = await state(page); return s.landed && s.rolls >= 2 }, { timeout: 30000, message: "the new roll lands" }).toBe(true)
+    await expect.poll(async () => { await j.advance(200); return (await articleOf(page)).vis }, { message: "the article is back with the new roll" }).toBe("visible")
+  })
+
+  test("a round ended with the clock held (the seam, as on a board staged by a URL): the article stays, the verdict above it in the map's band", async ({ page }) => {
+    const j = journey(page)
+    await landed(page, j)
+    // Not reachable by a player's press (a fresh visitor's first press releases the clock, measured on all five page types):
+    // the seam is held to the rule anyway, since the ruling is about the state, not about how it is reached
+    await page.evaluate(() => { const a = (window as W).__neural; a.setPaused(true); a.endRound("win", "Armbar") })
+    for (const ms of [100, 1500, 5000]) {
+      await j.advance(ms === 100 ? 100 : ms - 100); await page.evaluate(() => document.body.getBoundingClientRect().top)
+      const s = await state(page), art = await articleOf(page), o = await verdictOverArticle(page)
+      expect(s.verdict, `+${ms} ms: the verdict is up`).toBe(true)
+      expect(art.vis, `+${ms} ms: nothing is on its way, so the article stays`).toBe("visible")
+      expect(s.board, `+${ms} ms: the board is not put away`).toBe(null)
+      expect((await noticeOnTop(page)).under, `+${ms} ms: the verdict's points are its own`).toEqual([])
+      expect(o.lines, `+${ms} ms: the verdict has lines on screen`).toBeGreaterThan(0)
+      expect(o.meets, `+${ms} ms: no line of the verdict meets the article`).toBe(0)
+    }
+  })
+
+  test("an earned patch on screen through the hold covers no part of the notice, and the article comes back with the new roll", async ({ page }) => {
+    const j = journey(page)
+    await j.boot("/")
+    await j.land("Mount Top")
+    await expect(page.locator(READY)).toBeVisible({ timeout: 15000 })
+    await j.advance(600); await j.readerLayoutSettled(); await j.advance(100)
+    // the harness pre-completes the White track, so this landing mints a patch (seat-star.spec.ts says so too): kept up here
+    await expect(page.locator("[data-reward]"), "an earned patch is on screen").toBeVisible()
+    const t0 = await endRound(page)
+    for (const ms of [300, 1500, 3000]) {
+      await at(j, page, t0, ms)
+      expect((await noticeOnTop(page)).under, `+${ms} ms: the notice's points are its own`).toEqual([])
+    }
+    await expect.poll(async () => { await j.advance(500); const s = await state(page); return s.landed && s.rolls >= 2 }, { timeout: 30000, message: "the new roll lands" }).toBe(true)
+    await expect.poll(async () => { await j.advance(200); return (await articleOf(page)).vis }, { message: "the article is back with the new roll" }).toBe("visible")
   })
 })
 

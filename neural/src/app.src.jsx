@@ -868,6 +868,7 @@ class Component extends DCLogic {
 
     this.paused = p;
     if (p) this.pauseTimers(); else this.resumeTimers();
+    if (this.endZoom) this._endBoard(!p);   // the round's end: the board away only while its timer runs (`_endBoard`)
     // The option countdown bars need nothing here since v1.114.1: they are no longer CSS
     // animations but a width written by `_tickDecision`, which is `gdt`-driven — so a paused
     // clock freezes them by construction, and a refund moves them, which an animation could not.
@@ -13922,6 +13923,22 @@ class Component extends DCLogic {
     if (box) box.style.opacity = "1";
   }
   hideCenter() { const box = this.evCenterRef.current; if (box) box.style.opacity = "0"; }
+  // THE ARTICLE IS NEVER HIDDEN UNLESS SOMETHING ON ITS WAY WILL BRING IT BACK (v1.280.3, STAR1-Q1, ruled). The round's end puts
+  // the board away (the reader, its index and controls: the opening's faint board) only while its timer runs, the one that
+  // ends in a new roll and the rise that brings the board back. Its timers are wall-clock and stop only with the clock
+  // (`after`, `pauseTimers`), so every pause during the hold (the drawer by the pane law, the choice viewer, a replay) comes
+  // through `setPaused` here: the board comes back at once and the verdict goes into the map's free band above the reader
+  // (`_frameArrivalHeading`, scaled to fit), clear of the article; the clock running again puts it away and the verdict back in
+  // the centre. Measured before the ruling: as a fresh visitor arriving by URL (a position, a transition and a submission
+  // page, attacker and defender, 1440 and 390), the press that starts play releases the clock, so every round ended with it
+  // running; a pause DURING the hold (the drawer) left the article hidden until the drawer closed.
+  _endBoard(away) {
+    const wrap = this.wrapRef?.current, box = this.evCenterRef?.current; if (!wrap) return;
+    if (away) {
+      wrap.dataset.ngOpen = "faint"; this._openStamp("0", "0px"); this._openO = 0; this._openY = 0;
+      if (box) { box.style.top = box.style.bottom = "0px"; box.firstElementChild.style.transform = ""; }
+    } else { this._openBoardEnd(true); this._frameArrivalHeading(); }
+  }
   /** Beat 2 of the staged arrival: the name and the role fade into the already-showing centre
    *  block. Inline opacity + transition, both reset by the next showCenter (see above). */
   _frameArrivalHeading(rise) {
@@ -14043,9 +14060,8 @@ class Component extends DCLogic {
     // through the opening's own board (faint, at 0; faint also hides the reader, NG_CAM_OPEN_CSS): the restart's breath out
     // takes it over where it stands (`_openHandOff`, `o0`) and the new roll's board comes back with its rise; whatever
     // clears the timers first gives it back (`_retireCamOpen`), and so does the restart under reduced motion (`startRoll`).
-    // Pinned by e2e/journeys/restart-notice.spec.ts.
-    const wrap = this.wrapRef?.current;
-    if (wrap) { wrap.dataset.ngOpen = "faint"; this._openStamp("0", "0px"); this._openO = 0; this._openY = 0; }
+    // ONLY WHILE ITS TIMER RUNS (`_endBoard`, from `setPaused` as well). Pinned by e2e/journeys/restart-notice.spec.ts.
+    this._endBoard(!this.paused);
     // "New roll in 3s… 2s… 1s…" rides the verdict's tail. Plain setEvent on purpose: the
     // announcer is ONE slot and any later writer wins (§6.5) — a capstone banner or a share
     // arrival simply overwrites a tick, and the next tick concedes the same way.
@@ -20801,7 +20817,8 @@ class Component extends DCLogic {
     if (this._camHoldTarget) Object.assign(this._camHoldTarget, this._paneCameraTarget(this._camHoldTarget));
     const el = this.now - this.startTime;
     const directed = opening && !opening.cancelled && !this._reducedMotion();
-    if (this._arriveGlideUntil != null && !this._arriveWide && !this._camOpenManual && !directed) this._frameArrivalHeading();
+    // ...and a round's end held by a pause, its verdict in the band above the reader as the reader re-lays out (`_endBoard`)
+    if (this._arriveGlideUntil != null && !this._arriveWide && !this._camOpenManual && !directed || this.endZoom && this.paused) this._frameArrivalHeading();
     // a lease taken before there was a clock starts counting now (see holdCamera)
     if (this._camHoldUntil === -1) this._camHoldUntil = this.now + (this._camHoldSecs || this.camHoldSec);
     // ...and so does a calm reading catch's window (D-332 D2-S1), on the first frame with a clock
