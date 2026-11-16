@@ -19000,7 +19000,8 @@ earned nothing until a press inside the player. Once per technique, never for a 
 start, muted at once, for the move and the current node at both sizes; a running game running again after a close. Changed: video-cards, concepts-surface,
 film-overlay-play, reading-media-placement, stakes-impact, guidance-defense, escape-clips, submission-card-odds,
 coldstart-backfill, gen ready-film-not-neglect and three gen specs' selectors, the DSL's watchChoice, the fixture's
-openChoiceVideo, ledger row core-023. Every changed or removed assertion carries, beside it, what it claimed and what
+openChoiceVideo, ledger row core-023, and two units of tests/roll_execution.test.mjs (an open theater owns input;
+closing the move's theater gives back only its pause and focus, and nothing for a hand that ended). Every changed or removed assertion carries, beside it, what it claimed and what
 the old one did on this build (the PR lists them in one table). Mutant manifests: video_viewer_mutants.json (new),
 video_cards_mutants.py (autoplay, close_tabstop retargeted), video_theater_mutants.json (autoplay-request-disabled
 retargeted; four rows retired: no press reaches a player inside the reader's host).
@@ -19010,13 +19011,16 @@ retargeted; four rows retired: no press reaches a player inside the reader's hos
 esc-ignored (drawer), dim-not-closing (reader), second-x (current node, ✕), dim-removed and not-modal (move, dim),
 old-modal-from-move (move, ✕), muted-start-lost (current node at 390x631: the player stayed unstarted, -1, for 5s, as
 before VID1), pause-not-restored (the running game). video_cards_mutants.py's autoplay, close_tabstop and
-viewer_focus_wrap red with their controls green.
+viewer_focus_wrap red with their controls green. The two units: four in-place mutants (activate-ignores-theater,
+quiet-close-restores, close-keeps-pause, player-not-destroyed) red at their messages. neural_app_mutants' watch-backfill-lost
+was keyed on `_choiceWatch`, a field VID1 deleted, so it mutated nothing; on `_filmTheater` it is red at its claim.
 
 **Runs (local, under the build lock; the full suites run on the PR).** Run 7 (16 Nov 18:37, head c845f0379, dev v1.281.2 merged): 24 journey files,
 322 of 322 (the 23 the touched files render and v1.280.3's restart-notice); 11 gen files, 12 of 12. Its two faults were
 the harness's (ab71d940e): video-cards' Watch pressed the ✕ mid-zoom once, and the viewer mutant runner's bare build was
 refused by the MDP pin. Run 8 (19:55, head ab71d940e): video-cards 24 of 24, both mutant sets, the app rows re-checked
-from a clean bundle (no row moved), the payload gate green. `npm run ci:validate` ran on the final head (the PR gives its result).
+from a clean bundle (no row moved), the payload gate green. `npm run ci:validate` on 1b18e313e: 25 of 25 replayed steps green, units 1,752 of 1,752 (its
+first run, on 721937544, found the two stale units above: my survey had covered e2e/ but not this unit file).
 
 **Bytes.** Against dev v1.281.2's own bundle (f6c2bcd3b, built from its export with its own app.src.jsx pinned):
 eager gzip −648 B (neural.js −550, neural.css −98), eager raw −2,698 B; deferred +3 B gzip, −3 B raw. The payload gate:
