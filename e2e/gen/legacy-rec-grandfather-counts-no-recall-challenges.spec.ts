@@ -87,7 +87,7 @@ test("grandfathered v1 rec boots blue.recall-five at 0/5; five live card-proofs 
   // ── open the lesson drill through the real UI: explorer → white track → L0 row ──
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await page.evaluate(() => (window as any).__neural.openPane("explore")) // the drawer on its list: a lesson study over Master the game (the corridor's home since v1.284.0) would open as a session row
   const row = page.locator(`[data-lesson="${L0}"]`).first()
   await expect(row, "the first white lesson row renders in the challenges view").toBeVisible()
   await page.evaluate((dk) => {

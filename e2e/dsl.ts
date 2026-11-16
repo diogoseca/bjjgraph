@@ -984,7 +984,12 @@ export class Journey {
    * the drawer's foot, so a shut drawer is opened first, by its icon, the way a player does it.
    */
   async openAccountMenu(what = "the badge") {
-    if (!(await this.page.locator(".ngAcctChip").isVisible())) await this.clickByMouse(".ng-logo", "the drawer icon");
+    if (!(await this.page.locator(".ngAcctChip").isVisible())) {
+      // shut: the drawer icon; shown on a view without the badge (Master the game, which holds the corridor since v1.284.0, a
+      // deck): the brand, the way back to the list, since the drawer icon sits under it then
+      if (await this.page.evaluate(() => !!(window as W).__neural.deckShown)) await this.clickByMouse(".ng-drawer-brand", "back to the drawer's list");
+      else await this.clickByMouse(".ng-logo", "the drawer icon");
+    }
     await this.clickByMouse(".ngAcctChip", what);
   }
 

@@ -759,7 +759,12 @@ const NG_CHALLENGE_UI_METHODS = {
     const shelf = document.createElement("details");
     shelf.className = "ng-rewards-shelf";
     shelf.setAttribute("data-rewards-shelf", "1");
-    if (this._scrollRewardsShelf) shelf.open = true;
+    // THE SHELF STAYS AS THE PLAYER LEFT IT ACROSS A REPAINT (v1.284.0, SET1 slice B). Its one home is Master the game's
+    // corridor now, which repaints whenever the plan lands or evidence moves, and the Path's view rarely did: View
+    // Collection (O1) opened it, and the plan's landing a moment later closed it again. Its state rides on the session,
+    // and only a closed-to-open change is a visit (`neural_collection_opened`), so a repaint of an open shelf sends nothing.
+    const s = this._session;
+    if (this._scrollRewardsShelf || (s && s.shelfOpen)) shelf.open = true;
     const summary = document.createElement("summary");
     summary.innerHTML =
       "<small>REWARDS</small><b>" +
@@ -768,7 +773,9 @@ const NG_CHALLENGE_UI_METHODS = {
       "</b><em>Patches mark milestones. Mat Coins are just for laughs. They do not buy anything.</em>";
     shelf.appendChild(summary);
     shelf.addEventListener("toggle", () => {
-      if (shelf.open) {
+      const was = !!(s && s.shelfOpen);
+      if (s) s.shelfOpen = shelf.open;
+      if (shelf.open && !was) {
         this.track("neural_collection_opened", { patches: patches, coins: coins });
       }
     });

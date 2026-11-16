@@ -281,7 +281,9 @@ test.describe("Challenge curriculum", () => {
     expect(await page.evaluate(() => !!(window as any).__neural._pathDim)).toBe(
       false,
     );
-    await expect(page.locator(".ng-track-card")).toHaveCount(0);
+    // v1.284.0: the corridor is Master the game's, whose page is hidden (not torn down) when the brand leads home, so the claim
+    // is about what is ON SCREEN
+    await expect(page.locator(".ng-track-card:visible")).toHaveCount(0);
     await expect(page.locator(".ng-explorer-search")).toBeVisible();
   });
 
@@ -429,7 +431,7 @@ test.describe("Challenge curriculum", () => {
         { name: "Base", blurb: "Stay heavy through your hips." },
         { name: "Frames" },
       ];
-      app.renderExplorer();
+      app._practiceCorridor(); // Master the game's corridor repaints (the Path's renderExplorer until v1.284.0)
     });
     const group = page.locator("[data-principles='white']");
     await expect(group).toBeVisible();

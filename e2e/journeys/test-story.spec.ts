@@ -151,8 +151,10 @@ test("content capstone story: evidence → roll → tap → acknowledgement → 
     await page.evaluate((dk: string) => !!document.querySelector(`[data-mini-deck="${dk}"], [data-mini-deck-state]`), blueLesson.deckKey),
     "the inline Q&A opened",
   ).toBe(true);
+  // v1.284.0: the corridor is Master the game's, itself a session (so `_paneStudyActive()` reads true there); a takeover is
+  // a deck, a checkpoint or the study view, and Master the game stays on screen
   expect(
-    await page.evaluate(() => (window as any).__neural._paneStudyActive()),
+    await page.evaluate(() => { const a = (window as any).__neural; return !!(a.deck || a._checkpoint || a._studyOpen) || !a._practiceInDrawer(); }),
     "and the pane was not taken over",
   ).toBe(false);
 });

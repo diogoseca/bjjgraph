@@ -36,6 +36,9 @@ test("White Challenge study story: lesson → MC → recall → checkpoint → e
   // ── the front door: Challenges is the default learning view ──
   await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Master the game"); // the Path's until v1.284.0
+  // back to the list: a lesson study opened over Master the game would be one of its session rows, not the study surface
+  // this story walks (the Path held no session, so it opened straight from there until v1.284.0)
+  await j.clickByMouse(".ng-drawer-brand", "back to the drawer's list");
   const firstLesson = UNIT1.lessons[0];
 
   // ── open lesson 1: camera flies, the unit becomes the study session ──
