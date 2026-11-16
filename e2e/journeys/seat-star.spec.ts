@@ -246,3 +246,75 @@ for (const width of [1440, 1280, 1024]) {
     })
   })
 }
+
+// A PRESS ON THE STAR OPENS THE LIST MENU, AND IT STAYS OPEN (v1.280.4, STAR2, ruled: "a picker that is open keeps what it is
+// anchored to"). From v1.280.0 to v1.280.3 a fresh visitor's press opened the menu and the NEXT drawn frame closed it: the
+// menu's own paint refused the name it was opened from (#417's rule), the star went with its name, and `_syncSeatStars` closed
+// the menu anchored to it. This file's older test stayed green because the harness draws a frame only on `j.advance`, and it
+// picked from the menu with no frame in between; here frames run (`j.advance`) between the press and every check. A fresh
+// visitor's URL arrival (the clock held), the star pressed by mouse at 1440 and by touch at 390x631.
+// Red-proof: MS1 (the star removed under its open menu, `_syncSeatStars`) and MS2 (the menu's paint counted against the name
+// it was opened from again: the regression) are red at "still open two seconds after the press".
+for (const v of [{ name: "1440x900 mouse", vp: { width: 1440, height: 900 }, touch: false }, { name: "390x631 touch", vp: { width: 390, height: 631 }, touch: true }]) {
+  test.describe(`${v.name}, a fresh visitor`, () => {
+    test.use({ viewport: v.vp, hasTouch: v.touch })
+    test("a press on the seat's star opens the list menu and it stays open; a list made there; Esc and a press outside close it", async ({ page }) => {
+      const j = journey(page)
+      await j.boot("/Positions/Mount/Top")
+      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
+      await j.advance(6500); await j.readerLayoutSettled(); await j.advance(100)
+      if (await page.locator("[data-reward-close]").isVisible()) { await j.clickByMouse("[data-reward-close]", "dismiss the earned patch"); await j.advance(600) }
+      expect(await page.evaluate(() => (window as any).__neural.paused), "a URL arrival holds the clock").toBe(true)
+      const seat = await page.evaluate(() => (window as any).__neural.focusIdx)
+      const sel = `[data-seat-star="${seat}"]`
+      const star = page.locator(sel)
+      await expect(star).toHaveCount(1)
+      await expect(star).toHaveAttribute("data-list-saved", "false")
+      const press = async (s: string, what: string) => {
+        if (!v.touch) { await j.clickByMouse(s, what); return }
+        const b = await j.boxOf(s, what)
+        await page.touchscreen.tap(b.x + b.width / 2, b.y + b.height / 2)
+      }
+      const frames = async (ms: number) => { for (let t = 0; t < ms; t += 250) { await j.advance(250); await page.evaluate(() => document.body.getBoundingClientRect().top) } }
+      // the press, then two seconds of drawn frames: the menu is open, anchored, and its star is still there
+      await press(sel, "the seat's star")
+      await frames(2000)
+      await expect(page.locator("[data-list-picker]"), "still open two seconds after the press").toBeVisible()
+      await expect(star, "its star is still there").toHaveCount(1)
+      await expect(star).toHaveAttribute("aria-expanded", "true")
+      // a fresh visitor has no list: the menu's create row makes one and files the position there
+      await press("[data-list-pick-create]", "Create the list")
+      await frames(500)
+      await expect(page.locator("[data-list-picker]"), "creating closes the menu").toHaveCount(0)
+      await expect(star, "the star is gold: saved").toHaveAttribute("data-list-saved", "true")
+      // Esc closes it
+      await press(sel, "the seat's star again")
+      await frames(1000)
+      await expect(page.locator("[data-list-picker]"), "open again").toBeVisible()
+      await page.keyboard.press("Escape")
+      await frames(250)
+      await expect(page.locator("[data-list-picker]"), "Esc closes it").toHaveCount(0)
+      // a press outside closes it: bare map, owned by the canvas, no orb there
+      await press(sel, "the seat's star once more")
+      await frames(1000)
+      await expect(page.locator("[data-list-picker]"), "open again").toBeVisible()
+      const out = await page.evaluate(() => {
+        const a = (window as any).__neural, was = a._hover, pk = document.querySelector("[data-list-picker]")!.getBoundingClientRect()
+        try {
+          for (let fy = 0.15; fy <= 0.6; fy += 0.05) for (let fx = 0.1; fx <= 0.9; fx += 0.05) {
+            const x = innerWidth * fx, y = innerHeight * fy
+            if (x > pk.left - 10 && x < pk.right + 10 && y > pk.top - 10 && y < pk.bottom + 10) continue
+            if (document.elementFromPoint(x, y) !== a.canvas) continue
+            a._hover = null; a._updateHover({ type: "pointerup", clientX: x, clientY: y })
+            if (!a._hover || a._hover.idx < 0) return { x, y }
+          }
+        } finally { a._hover = was }
+        return null
+      })
+      expect(out, "a bare point of the map outside the menu").not.toBeNull()
+      if (v.touch) await page.touchscreen.tap(out!.x, out!.y); else await page.mouse.click(out!.x, out!.y)
+      await frames(250)
+      await expect(page.locator("[data-list-picker]"), "a press outside closes it").toHaveCount(0)
+    })
+  })
+}
