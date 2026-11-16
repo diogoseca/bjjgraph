@@ -18689,7 +18689,7 @@ baselines checkpointed at dev v1.280.0 (PAY4): eager gzip 369,196, +2,620 of 5,0
 
 **Not covered.** The reader's D2 on #417, as on dev: after a drag the seat's name can sit under a see-through control's words and its star under that control's live element (60 of 2,178 dragged frames in its sweep, none at the app's own landings). During the round's end the map's own name for the seat can sit under the verdict's text (the canvas, under the notice: it was hidden by the article before), and the map's key shows while the reader is put away (`_mapAlone`). While a pause holds the round's end, its countdown line stays on its last second.
 
-## v1.283.0 — Answer mode is one switch for every card: Auto by default, a card right twice front and back for good; Recall mode and "Show flashcards on pages" leave Settings (SET1, the owner, 2026-11-15; rulings R1/R2/R3, 2026-11-16)
+## v1.283.0 — Answer mode is one switch for every card: Auto by default, a card right twice front and back for good; Recall mode, "Show flashcards on pages" and Focus leave Settings (SET1, the owner, 2026-11-15; rulings R1/R2, 2026-11-16; U190 c, 2026-11-16)
 
 **The owner's words (15 Nov).** "it's time to remove the Path section from the sidebar + reform the user settings … the
 antifragile vs gameplan i'd like to keep as well as the [Daily goal, Answer mode] but btw by default we use the Auto, not
@@ -18707,7 +18707,8 @@ the Auto rule); B (the Path row out) and C (a cards view) wait for his answers.
 - "Never chose" and "chose Classic" are distinguishable: `set` is the only writer of a settings key and writes on every
   press, nothing bulk-writes defaults, so an absent `mcMode` is a player who pressed nothing.
 - "Show flashcards on pages" (`quizOnPages`) and Focus (`focus`) are read by nothing; Focus never had a reader
-  (`git log -S"antifragile"`: the Settings row only, since Phase 0.2). R3: Focus stays as it is; what it should do is U190.
+  (`git log -S"antifragile"`: the Settings row only, since Phase 0.2). R3 kept it as it was and asked the owner (U190); he
+  answered c, "Take the row off the screen" (16 Nov), and it left in this same slice.
 
 **Rulings (the orchestrator, 16 Nov, SET1-GO).**
 - R1 (a), the floor: once a card reaches stage 2 no answer takes it below 2; a miss still resets its schedule; 3 -> 2 and
@@ -18734,7 +18735,10 @@ the Auto rule); B (the Path row out) and C (a cards view) wait for his answers.
   only in `mechanicsHash`, the manifest only in `provenance.{lawHashes.knowledge, modelHash, sourceHash}` and the variants'
   refs.
 - Settings → Flashcards: Daily goal, Answer mode ("How a card asks you, in Practice and in a roll." Auto / Front Back
-  cards / Multiple choice, one line under the chosen one), Focus (byte-identical). Two rows gone with their keys kept.
+  cards / Multiple choice, one line under the chosen one). Three rows gone with their keys kept: Recall mode (in play),
+  Show flashcards on pages, and Focus (U190 c; `focus` never had a reader, so every player keeps the one order there was).
+  The round-trip unit carries all four retired facts (`recallInPlay`, `quizOnPages`, `focus`, `recallCarry`), value and
+  stamp. Mutant: the Focus row put back turns tests/settings_presentation.test.mjs red at "Focus is gone".
 - The black-belt patch row says only how the patch is earned.
 
 **Tests.** e2e/journeys/answer-mode.spec.ts (new); landcard-modes 5c, everything-opens 3 and 4, recall-badge, landing-card

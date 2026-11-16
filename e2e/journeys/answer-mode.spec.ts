@@ -8,8 +8,8 @@ import { journey } from "../dsl"
  * Pressed as a player does: a real mouse at 1440x900 and a touch tap at 390x631, each at a measured point that
  * `elementFromPoint` confirms is the control (a scroll first where a player would scroll).
  *   1. Nothing stored is Auto, by the reader's default and never by a write: Settings shows Answer mode with Auto first and
- *      chosen, the words say where it applies, the two rows that left are gone, and storage still has no `mcMode` after a
- *      save. A press writes the choice.
+ *      chosen, the words say where it applies, the three rows that left are gone (Focus with them, U190 c), and storage
+ *      still has no `mcMode` after a save. A press writes the choice.
  *   2. Practice asks a new card as multiple choice; a card right twice (stage 2) asks front and back; a miss there keeps it
  *      at 2 (the floor) and resets its schedule, and the card is never multiple choice again.
  *   3. Last rolls' inline deck asks the answer mode too (Auto: a new card as multiple choice, on its own surface), and an
@@ -96,6 +96,9 @@ for (const touch of [false, true]) {
       await expect(page.locator("[data-recall-mode]"), "Recall mode (in play) left Settings").toHaveCount(0)
       await expect(page.locator(".ng-modal"), "and so did Show flashcards on pages").not.toContainText("Show flashcards on pages")
       await expect(page.locator(".ng-modal")).not.toContainText("Recall mode")
+      // U190 c (the owner, 16 Nov: "Take the row off the screen"): Focus left too; the tab is Daily goal and Answer mode
+      await expect(page.locator(".ng-modal"), "the tab's first row is drawn").toContainText("Daily goal")
+      await expect(page.locator(".ng-modal"), "Focus left Settings").not.toContainText(/Focus|Antifragile|Converge|Shore up weaknesses/)
       expect(await stored(page), "storage has no mcMode: Auto is the reader's default, never a write").toEqual({ memory: null, disk: null, saved: true })
       await press(page, "[data-answer-mode] button:nth-of-type(2)", "Front Back cards", touch)
       await expect.poll(() => page.locator("[data-answer-mode] button").evaluateAll((bs) => bs.map((b) => getComputedStyle(b).backgroundColor === "rgba(74, 108, 255, 0.26)")),

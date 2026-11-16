@@ -622,12 +622,13 @@ test("the carry's fact holds by code: only `true` counts, a local copy never bea
   assert.deepEqual([carried(z), z._recallCarry], [true, true], "OPEN-M21: a device that stamped before its pull carries the blue only the cloud held, and writes it down");
 });
 
-// v1.283.0 (rulings R2, SET1-GO): THREE KEYS LEAVE THE SCREEN AND STAY IN STORAGE. "Recall mode (in play)" (`recallInPlay`)
-// and "Show flashcards on pages" (`quizOnPages`) left Settings, and the carried-belt fact (`recallCarry`) decides nothing; a
+// v1.283.0 (rulings R2, SET1-GO; U190 c): THREE ROWS LEAVE THE SCREEN AND THEIR KEYS STAY IN STORAGE. "Recall mode (in play)"
+// (`recallInPlay`), "Show flashcards on pages" (`quizOnPages`) and Focus (`focus`, the owner 16 Nov: "Take the row off the
+// screen") left Settings, and the carried-belt fact (`recallCarry`) decides nothing; a
 // settings key can never be deleted (CLAUDE.md 6.6: the per-key merge has no tombstone, so a pruned key comes back from the
 // first device that still holds it), so each must come through load, save and both directions of the merge exactly as it
 // was stored, value and stamp. And the new default writes nothing: a blob with no `mcMode` saves with no `mcMode`.
-// Mutants: a load or a save that drops one of the three (as a "cleanup" would), a merge that skips a key the app no longer
+// Mutants: a load or a save that drops one of the four (as a "cleanup" would), a merge that skips a key the app no longer
 // reads, and a boot that writes the default `mcMode` each turn a named assertion here red.
 test("the retired keys round-trip untouched through load, save and merge; a missing mcMode stays missing", async () => {
   async function pull(a, cloud) {
@@ -640,14 +641,14 @@ test("the retired keys round-trip untouched through load, save and merge; a miss
     settings: { recallInPlay: false, quizOnPages: false, focus: "converge" },
     settingsAt: { recallInPlay: 1111, quizOnPages: 2222, focus: 3333 },
     belts: { won: {}, gf: 5, held: { id: "blue", t: 1000 } } };
-  const kept = (a) => [a.settings.recallInPlay, a.settings.quizOnPages, a.settings.focus, a._settingsAt.recallInPlay, a._settingsAt.quizOnPages, a._recallCarry === true];
-  const want = [false, false, "converge", 1111, 2222, true];
+  const kept = (a) => [a.settings.recallInPlay, a.settings.quizOnPages, a.settings.focus, a._settingsAt.recallInPlay, a._settingsAt.quizOnPages, a._settingsAt.focus, a._recallCarry === true];
+  const want = [false, false, "converge", 1111, 2222, 3333, true];
   const a = boot({ blob: JSON.parse(JSON.stringify(stored)) });
-  assert.deepEqual(kept(a), want, "load keeps all three, value and stamp");
+  assert.deepEqual(kept(a), want, "load keeps all four, value and stamp");
   assert.equal("mcMode" in a.settings, false, "and writes no mcMode: Auto is the reader's default");
   const out = a._progressBlob();
-  assert.deepEqual([out.settings.recallInPlay, out.settings.quizOnPages, out.settings.focus, out.settingsAt.recallInPlay, out.settingsAt.quizOnPages, out.recallCarry],
-    want, "save keeps all three");
+  assert.deepEqual([out.settings.recallInPlay, out.settings.quizOnPages, out.settings.focus, out.settingsAt.recallInPlay, out.settingsAt.quizOnPages, out.settingsAt.focus, out.recallCarry],
+    want, "save keeps all four");
   assert.equal("mcMode" in out.settings, false, "a save writes no mcMode");
   const fresh = await pull(boot(), out);
   assert.deepEqual(kept(fresh), want, "a device that never had them gets them from the cloud");

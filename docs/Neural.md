@@ -138,7 +138,8 @@ Last rolls' inline decks (surface `inline`) and a roll's landing question. Auto:
 stage 2, then front and back for good (`ngKnowledgeApplyGrade`'s floor: no answer takes a card below 2 once there).
 Checkpoints and the defence drill stay multiple choice. The old "Recall mode (in play)" switch (`recallInPlay`, U163 c)
 and the carried-belt fact (`recallCarry`) are kept, merged and read by nothing; "Show flashcards on pages"
-(`quizOnPages`) left Settings, read by nothing as before. `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
+(`quizOnPages`) and Focus (`focus`, U190 c) left Settings, read by nothing as before. Settings → Flashcards is Daily goal
+and Answer mode. `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
 
 **Technique navigation** keeps the chosen node's camera (`camFocus`), URL (`_syncUrl`),
 focus, flare and card; the roll's seat remains its origin position. `_stagedTech = {idx, side}`

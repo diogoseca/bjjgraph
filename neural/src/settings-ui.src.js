@@ -117,12 +117,10 @@ renderSettings() {
       // `recallCarry` fact are kept, stored, synced and merged as before, and read by nothing (CLAUDE.md 6.6: a settings key
       // can never be deleted). It was a switch anyone turned on from v1.270.0 (U163 c), the black-belt toggle before that.
       // (the dead "Study order" setting row was deleted in v1.105.0 — `studyOrder` was written but read nowhere; due-first is now BEHAVIOUR, not a preference)
-      // focus. UNCHANGED in v1.283.0 (ruling R3): nothing in the app reads `focus`, and never has (the row came with the app,
-      // Phase 0.2); what it should do is the owner's question U190. Same words, same key, same no effect until he answers.
-      body.appendChild(this.settingRow("Focus", "Shore up weaknesses, or sharpen strengths",
-        [["Antifragile", "antifragile"], ["Converge", "converge"]], "focus", "antifragile",
-        { antifragile: '<b style="color:#cbd4e6;">Antifragile</b> &mdash; a solid, well-rounded game. Surfaces cards from the spots you\u2019re weakest, so you have no holes to be exploited.',
-          converge: '<b style="color:#cbd4e6;">Converge</b> &mdash; competition focus. Builds the most effective gameplan from your strongest modifiers, steering rolls toward the states you finish from.' }));
+      // "FOCUS" (Antifragile / Converge) LEFT SETTINGS in v1.283.0 (the owner, 16 Nov, U190 c: "Take the row off the
+      // screen"): nothing in the app ever read `focus` (the row came with the app, Phase 0.2; `git log -S"antifragile"`
+      // finds the row only), so every player already had one order, and still does. The key `focus` stays stored, synced
+      // and merged, read by nothing (CLAUDE.md 6.6: a settings key can never be deleted).
       // "SHOW FLASHCARDS ON PAGES" LEFT SETTINGS in v1.283.0: it switched nothing (its own row was the only reader of
       // `quizOnPages`; the quiz pill went with the old front-end, tests/artifacts/sidebar_capabilities.md row 115). The key
       // stays stored, synced and readable, read by nothing (CLAUDE.md 6.6).
