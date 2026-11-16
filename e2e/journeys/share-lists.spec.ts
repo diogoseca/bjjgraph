@@ -228,6 +228,7 @@ test("a coach collects today's class into a list from the surfaces they are alre
   ).toBe(true);
   expect(await reachable(), "...and nothing covers it once the flight settles").toBe(true);
   await j.clickByMouse(`[data-list-add="${picks[1].id}"][data-list-surface="seat"]`, "the opened technique's seat star");
+  await j.advance(1000); // drawn frames before the read (v1.281.1, STAR3: the next frame used to close it)
   // ...and the second asks too, with the one list on offer
   await expect(page.locator("[data-list-picker]"), "the star asks again").toBeVisible();
   await page.locator("[data-list-pick]").first().click();
@@ -1072,3 +1073,49 @@ test("the + works at 390px inside the drawer", async ({ page }) => {
   await expect(page.locator("[data-lists-head]")).toContainText(/Your lists\s*\(1\)/);
   await expect(page.locator("[data-list-row]")).toHaveCount(1);
 });
+
+// A RECEIVED CLASS'S ROWS (v1.281.1, STAR3; nobody had pressed their star). A student arrives on the WhatsApp link, reaches
+// the class's rows ("Shared with you", `[data-shared-list]`: the drawer opens on its own at 1440, the share cue's open half
+// opens it on a phone), presses a received technique's star by real input, and the list menu opens and is still open after
+// two seconds of DRAWN frames (the harness draws only on `j.advance`); its create row files the technique: the star turns gold.
+for (const v of [{ name: "1440x900 mouse", vp: { width: 1440, height: 900 }, touch: false }, { name: "390x631 touch", vp: { width: 390, height: 631 }, touch: true }]) {
+  test.describe(`${v.name}, a received class`, () => {
+    test.use({ viewport: v.vp, hasTouch: v.touch });
+    test("a received technique's star opens the list menu and it stays open; Create files it", async ({ page }) => {
+      const j = journey(page);
+      await j.boot("/");
+      await j.land("Mount Top");
+      const picks = await pickClassNodes(page, 3);
+      const code = await page.evaluate((ids: string[]) => {
+        const a = (window as any).__neural;
+        const lid = a.newList();
+        for (const id of ids) a.addToList(id, lid);
+        return a.listShareCode(lid);
+      }, picks.map((p) => p.id));
+      await serveShellWithoutFunction(page);
+      await j.boot(`/l/${code}`);
+      const press = async (sel: string, what: string) => {
+        if (!v.touch) { await j.clickByMouse(sel, what); return; }
+        const b = await j.boxOf(sel, what);
+        await page.touchscreen.tap(b.x + b.width / 2, b.y + b.height / 2);
+      };
+      if (!(await page.locator("[data-shared-list]").isVisible())) {
+        await press("[data-share-open]", "the share cue's open half");
+        await j.advance(300);
+      }
+      await expect(page.locator("[data-shared-list]"), "the received class's rows").toBeVisible();
+      const star = page.locator('[data-shared-list] [data-list-add][data-list-surface="shared"]').first();
+      await expect(star, "a received technique carries a star").toBeVisible();
+      const id = await star.getAttribute("data-list-add");
+      await star.evaluate((e) => e.setAttribute("data-probe-star", "1"));
+      await expect(star).toHaveAttribute("data-list-saved", "false");
+      await press("[data-probe-star]", "a received technique's star");
+      for (let t = 0; t < 2000; t += 250) { await j.advance(250); await page.evaluate(() => document.body.getBoundingClientRect().top); }
+      await expect(page.locator("[data-list-picker]"), "still open two seconds after the press").toBeVisible();
+      await press("[data-list-pick-create]", "Create the list");
+      await j.advance(500);
+      await expect(page.locator("[data-list-picker]"), "creating closes the menu").toHaveCount(0);
+      await expect(page.locator(`[data-shared-list] [data-list-add="${id}"][data-list-surface="shared"]`), "the received technique's star is gold: saved").toHaveAttribute("data-list-saved", "true");
+    });
+  });
+}
