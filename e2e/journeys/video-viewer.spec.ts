@@ -41,6 +41,9 @@ const OPEN: Record<Surface, string> = {
 const QUIET = { v: 2, settings: { landCard: false, landHand: false, landFeedback: false }, settingsAt: {} }
 const BASE = JSON.parse(readFileSync(resolve(__dirname, "../../source/quartz/static/neural/concepts.json"), "utf8"))
   .concepts.find((c: any) => c.id === "Principles/Base")
+// The reader's clip is Frames' first published clip, a vertical Short in the source: the theater fits it at 9:16
+// (video-theater.spec pins that portrait fit), so its expected box is read from the content, never from the dialog.
+const FRAMES_FIRST = JSON.parse(readFileSync(resolve(__dirname, "../../content/Principles/Frames.json"), "utf8")).clips[0]
 const DRAWER_CLIPS = [
   { id: "abcdefghijk", title: "Balance in one minute", by: "Fixture instructor", start: 3 },
   { id: "bcdefghijkl", title: "Recover your base", by: "Fixture instructor" },
@@ -117,13 +120,13 @@ async function opened(page: Page) {
       modal: d.matches(":modal"), dialogs: document.querySelectorAll(sel).length, old: document.querySelectorAll("[data-choice-viewer], .ng-choice-viewer").length,
       box: box.toJSON(), host: host.toJSON(), vw: innerWidth, vh: innerHeight, band: d.querySelectorAll("header, strong, h1, h2, h3").length,
       x: xr.toJSON(), xHit: xHit === x || x.contains(xHit), closes: closes.length,
-      player: players.at(-1) && { autoplay: players.at(-1).vars.autoplay, state: players.at(-1).state, play: players.at(-1).play, mute: players.at(-1).mute },
+      player: players.at(-1) && { id: players.at(-1).id, autoplay: players.at(-1).vars.autoplay, state: players.at(-1).state, play: players.at(-1).play, mute: players.at(-1).mute },
       label: d.getAttribute("aria-label"),
     }
   }, THEATER)
 }
 
-function expectTheater(o: Awaited<ReturnType<typeof opened>>, where: string) {
+function expectTheater(o: Awaited<ReturnType<typeof opened>>, where: string, vertical = false) {
   expect(o.modal, where + ": the video is a modal over everything").toBe(true)
   expect(o.dialogs, where + ": one viewer").toBe(1)
   expect(o.old, where + ": the move's old modal is gone").toBe(0)
@@ -133,10 +136,11 @@ function expectTheater(o: Awaited<ReturnType<typeof opened>>, where: string) {
   expect(o.band, where + ": no title band above or below the video").toBe(0)
   for (const k of ["x", "y", "width", "height"] as const)
     expect(Math.abs((o.host as any)[k] - (o.box as any)[k]), where + ": the video fills its box, no band " + k).toBeLessThan(.5)
-  // Width first, capped at 95% of the height, at the clip's own 16:9 (video-theater.spec pins the zoom and the portrait).
-  const w = Math.min(.95 * o.vw, .95 * o.vh * 16 / 9)
+  // Width first, capped at 95% of the height, at the clip's own shape: 16:9, or 9:16 for a vertical clip (video-theater.spec
+  // pins the zoom and the portrait).
+  const ratio = vertical ? 9 / 16 : 16 / 9, w = Math.min(.95 * o.vw, .95 * o.vh * ratio)
   expect(o.box.width, where + ": as wide as the screen allows").toBeCloseTo(w, 0)
-  expect(o.box.height, where + ": at the video's own shape").toBeCloseTo(w * 9 / 16, 0)
+  expect(o.box.height, where + ": at the video's own shape").toBeCloseTo(w / ratio, 0)
   // A real hit target: the ✕ owns its centre, is 44px, sits at the video's top-right corner and inside the screen.
   expect(o.xHit, where + ": the ✕ is a real hit target (elementFromPoint)").toBe(true)
   expect([o.x.width, o.x.height], where + ": the ✕ is 44px").toEqual([44, 44])
@@ -173,7 +177,8 @@ for (const [width, height, touch] of [[1440, 900, false], [390, 631, true]] as c
           const before = await scene(page)
           await press(page, touch, OPEN[surface], `the ${surface} video's play control`)
           const o = await opened(page)
-          expectTheater(o, surface)
+          if (surface === "reader") expect(o.player?.id, "the reader's press opened Frames' first clip").toBe(FRAMES_FIRST.id)
+          expectTheater(o, surface, surface === "reader" && FRAMES_FIRST.vertical === true)
           if (surface === "move") expect(o.label, "the theater names the move").toBe("Watch Consolidate Mount")
           expect(await players(page), "one player, playing").toEqual([{ play: 1, destroy: 0, mute: 0 }])
           await expect(page.locator(THEATER + " .ngClipX"), "focus enters the theater on its ✕").toBeFocused()

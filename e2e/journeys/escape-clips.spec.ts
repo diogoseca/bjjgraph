@@ -108,6 +108,9 @@ for (const [role, title] of [["Defender", "own cards"], ["Attacker", "opponent t
         const p = (window as any).__players.at(-1)
         return p && { id: p.id, start: p.vars.start, autoplay: p.vars.autoplay }
       })).toEqual({ id: clip.id, start: clip.start, autoplay: 1 })
+      // The theater zooms in over 360ms; a ✕ measured mid-zoom is pressed where it no longer is (on the video, which
+      // takes it), so the press waits for the zoom to finish, as openChoiceVideo's does (e2e/fixtures/video-cards.ts).
+      await page.locator(".ng-video-theater").evaluate(async d => { await Promise.all(d.getAnimations().map(a => a.finished)) })
       await j.clickByMouse(".ng-video-theater .ngClipX", "Close the escape video")
       await expect(page.locator(".ng-video-theater")).toHaveCount(0)
       await expect(choice.locator("[data-choice-watch]")).toBeFocused()

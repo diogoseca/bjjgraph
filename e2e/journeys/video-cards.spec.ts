@@ -225,9 +225,13 @@ test("keyboard can leave cross-origin playback and close the modal without reach
   await expect(close).toBeFocused()
   // ...and the wrap (moved from the modal to the theater): Shift+Tab on the first stop goes back to the player, never to
   // the page. The wrap can focus the iframe, not a control inside another origin's document (asserting the provider's Play
-  // here failed on the VID1 build: "inactive"); the next Shift+Tab leaves the player for Close again.
+  // here failed on the VID1 build: "inactive"). From the frame, Shift+Tab walks the provider's own controls from its
+  // last (this fixture has one, Play; asserting Close here failed on the VID1 build: "inactive"), and the next leaves the
+  // player for Close again.
   await page.keyboard.press("Shift+Tab")
   await expect(player, "the wrap lands on the player").toBeFocused()
+  await page.keyboard.press("Shift+Tab")
+  await expect(play, "inside the player, from its last control").toBeFocused()
   await page.keyboard.press("Shift+Tab")
   await expect(close).toBeFocused()
   expect(await state(page)).toEqual(before)
