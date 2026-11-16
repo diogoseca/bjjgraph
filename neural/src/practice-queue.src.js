@@ -108,7 +108,7 @@ export function ngPracticeVisits({ items = [], day, goal = 20, guard = NG_PQ_GUA
     if (r[2] >= day) { counts.today++; continue; }    // answered today: it already counted
     if (r[0] > day) { counts.later++; continue; }     // not due yet
     const right = it.kind === "move" ? r[3] === 1 : r[1] > 1 || (ngPqNum(it.stage) && it.stage > 0);
-    worth.set(it.id, it.w * (1 - ngRatingRecall(r, right, day)));
+    worth.set(it.id, it.w * (1 - ngRatingRecall(r, right, day, it.kind === "move" ? 4 : 3)));
     counts.owed++; owedList.push(it);
     (owed.get(k) || owed.set(k, []).get(k)).push(it);
   }

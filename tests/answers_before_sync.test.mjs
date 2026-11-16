@@ -123,7 +123,9 @@ test("P1 a new device answers before its first pull lands: the card is rebuilt o
   const want = write(MATURE, true, D);
   assert.deepEqual(a.srs.d[H1], want, "the writer on the cloud's row: never sooner than the cloud had it, its credit earned");
   assert.ok(want[0] > MATURE[0]);
-  assert.deepEqual(a.moves["1/top"].m, want.concat(1), "the hidden move the same, its Yes kept");
+  // the moves row through the same writer, its Yes at [3] and the schedule's pair after it (v1.281.0)
+  assert.deepEqual(a.moves["1/top"].m, write(MATURE.concat(1), true, D, 4), "the hidden move the same, its Yes kept");
+  assert.equal(a.moves["1/top"].m[3], 1);
   assert.equal(a.stage.d[H1], 3, "the stage is a MAX, as before");
   assert.deepEqual(C.blob.srs.d[H1], want, "and that is what the cloud holds");
   assert.equal(journal(mem, A).e.length, 0, "delivered: the push that carried them cleared them");
@@ -182,6 +184,43 @@ test("P2 an offline device: rebuilt on the newer cloud row two days later, from 
   });
 }));
 
+// v1.281.0 (LIN1): the app's own moves writer on a row between steps keeps the answer at [3], where `_moveMastered` reads the
+// Yes, and the schedule's pair after it, exactly as the writer builds it for a moves row
+test("the app's moves writer on a card between steps: the Yes at [3], the pair after it", () => withDay(D, () => fakeTimers(async ({ flush }) => {
+  const mem = memory(), C = cloud(blob({}));
+  const { a } = await account(mem, C, flush); await flush();
+  const prior = [D + 20, 30, D - 10, 1];   // a 30-day card answered 10 days ago: answered today it is early, so between steps
+  a.moves = { "1/top": { m: prior.slice() } };
+  answerMove(a, "1/top", "m", true); await settle();
+  const row = a.moves["1/top"].m;
+  assert.deepEqual(row, [D + 40, 30, D, 1, 30, D - 10], "40 days, the pair [30, its last full step's day] after the Yes");
+  assert.deepEqual(row, write(prior, true, D, 4));
+  assert.equal(row[3], 1, "the Yes where _moveMastered reads it");
+  assert.equal(a._moveMastered({}), true);
+  answerMove(a, "1/top", "m", false); await settle();
+  assert.deepEqual(a.moves["1/top"].m, [D + 1, 1, D, 0], "a No: 1 day, no pair");
+})));
+
+// v1.281.0 (LIN1): the other copy's row sits between steps (its pair at the end). The replay reads that pair, so the card
+// is rebuilt by the writer exactly as one copy holding both answers would have it, and the entry is delivered on that row
+test("P1 on a card between steps: the cloud's pair is read by the replay, and the entry is delivered on the exact row", () => withDay(D, () => fakeTimers(async ({ flush }) => {
+  const BETWEEN = write([D - 10, 30, D - 40], true, D - 30);   // a 30-day card answered early, 10 days in: 40 days, a pair
+  assert.equal(BETWEEN.length, 5);
+  const mem = memory(), C = cloud(blob({ srs: { d: { [H1]: BETWEEN } }, moves: { "1/top": { m: BETWEEN.slice(0, 3).concat(1, BETWEEN.slice(3)) } } }));
+  C.pullFails = true;
+  const { a } = await account(mem, C, flush); await flush();
+  answer(a, Q1, true); answerMove(a, "1/top", "m", true); await settle();
+  C.pullFails = false;
+  assert.equal(await pull(a, flush), true);
+  const want = write(BETWEEN, true, D);
+  assert.notDeepEqual(want, write(BETWEEN.slice(0, 3), true, D), "the pair changes the answer: a fixture that can fail");
+  assert.deepEqual(a.srs.d[H1], want, "the writer on the cloud's row, its pair read");
+  assert.deepEqual(a.moves["1/top"].m, write(BETWEEN.slice(0, 3).concat(1, BETWEEN.slice(3)), true, D, 4), "and the move's, its pair at [4]");
+  assert.deepEqual(C.blob.srs.d[H1], want, "the cloud holds it");
+  await pull(a, flush);
+  assert.equal(journal(mem, A).e.length, 0, "both entries delivered on their exact rows");
+})));
+
 test("P3 a guest's first right answer joins an account that holds the card mature: rebuilt, then the account delivers it", () => withDay(D, () => fakeTimers(async ({ flush }) => {
   const mem = memory(), C = cloud(blob({ srs: { d: { [H1]: MATURE } }, moves: { "1/top": { m: MATURE.concat(1) } }, prep: { d: 5 } }));
   const h = harness(mem, C); await h.boot(); const g = h.get();
@@ -190,7 +229,7 @@ test("P3 a guest's first right answer joins an account that holds the card matur
   const a = h.signIn("A"); await pull(a, flush);
   const want = write(MATURE, true, D);
   assert.deepEqual(a.srs.d[H1], want, "the account's card: the guest's answer applied to it");
-  assert.deepEqual(a.moves["1/top"].m, want.concat(1));
+  assert.deepEqual(a.moves["1/top"].m, write(MATURE.concat(1), true, D, 4));
   assert.deepEqual(C.blob.srs.d[H1], want);
   assert.equal(journal(mem, A).e.length, 0, "taken in, then delivered by the account's push");
   assert.ok(journal(mem, A).g > 0, "the account remembers the guest answers it has taken in");
@@ -368,12 +407,15 @@ test("nothing is written on a passive boot, and an older client receives ordinar
   await pull(a, flush);
   const pushed = C.blob;
   assert.ok(!JSON.stringify(pushed).includes("pending"), "the journal never rides the blob");
-  assert.ok(Object.values(pushed.srs.d).every((r) => r.length === 3), "ordinary rows");
-  // dev's own pull (captured) of what was pushed, against its copy of the mature row: an ordinary merge, never sooner
+  // ordinary rows: the three cells every client reads, then (v1.281.0) the schedule's pair while a card is between steps
+  assert.ok(Object.values(pushed.srs.d).every((r) => (r.length === 3 || r.length === 5) && r.every((x) => Number.isFinite(x) && x >= 0)), "ordinary rows");
+  assert.equal(pushed.srs.d[H1].length, 5, "this answer came early: the card sits between steps");
+  // dev's own pull (captured) of what was pushed, against its copy of the mature row: an ordinary merge, never sooner; it
+  // keeps the three cells and drops the pair, so the row reads as anchored at its last there
   const dev = { srs: { d: { [H1]: MATURE.slice() } }, _epochDay: () => D };
   devSrsMerge.call(dev, { srs: copy(pushed.srs) });
   assert.ok(dev.srs.d[H1][0] >= MATURE[0]);
-  assert.deepEqual(dev.srs.d[H1], pushed.srs.d[H1]);
+  assert.deepEqual(dev.srs.d[H1], pushed.srs.d[H1].slice(0, 3));
 })));
 
 // ── NEXT2-R1: the independent read of PR #418 (its findings 1, 2, 3, 6, 8, as cases) ──────────────────────────────────
