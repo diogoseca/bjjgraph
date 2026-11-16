@@ -196,7 +196,7 @@ function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity
   //     moved (docs/Changelog-Archive.md, v1.281.0).
   // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
   // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
-  const expected={adapter:'b9ebcf843218a48d7b8cc196460428da945fbd64d9360016a6f31c70d3ef4ef0',knowledge:'869a9c6e6ace470190d1c9676d8fa74fb7978e161065054718730fd2d607e6b0',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
+  const expected={adapter:'b9ebcf843218a48d7b8cc196460428da945fbd64d9360016a6f31c70d3ef4ef0',knowledge:'51ee6a6f39be02f2f7665e19597371fd1040e1b229435b66e200425d5f39d46b',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
   if(Object.entries(expected).some(([key,hash])=>lawHashes?.[key]!==hash))ngMdpExposureFail('unsupported-exposure-label-law');
   if(metadata?.coverage?.status!=='COMPLETE'||metadata.ruleset!==request.ruleset||profile?.status!=='ready'||profile.fingerprint!==request.profileHash||typeof knowledge.ngKnowledgeOverride!=='function')ngMdpExposureFail('incomplete-exposure-adapter-context');
   const contractHash=M.ngMdpContractHash(request),metadataHash=M.ngMdpDigest(metadata);

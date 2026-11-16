@@ -189,9 +189,19 @@ test("nothing is rounded (v1.281.3): an on-time answer lands exactly on its step
   }
   assert.ok(onTime > 1000, `${onTime} on-time and late answers`);
   assert.deepEqual(W([120, 120, 0], true, 120), [362, 120, 120, 180 + 185 / 3, 120], "one step from 120 days: 241.666…, not rounded");
+  // the same in the moves layout (the pair at [4]): every row of POP_MOVES answered on its due and past it
+  let movesOnTime = 0;
+  for (const r of POP_MOVES) for (const d of [r[0], r[0] + 9]) {
+    const n = W(r, true, d, 4), want = K.ngKnowledgeStep(K.ngKnowledgeInterval(r, 4));
+    if (K.ngKnowledgeDueDay(d + want) < r[0]) continue;
+    assert.equal(K.ngKnowledgeInterval(n, 4), want, `${r} on ${d} (moves): ${n}`);
+    movesOnTime++;
+  }
+  assert.ok(movesOnTime > 300, `${movesOnTime} on-time and late answers, moves layout`);
   // EARLY: the pair a right answer stores before the due is a rung pair (its A on the ladder), unless no day was waited (the
-  // row kept as it was)
+  // row kept as it was), in both layouts
   for (const r of POP) if (r.length >= 5 && r[4] !== r[2]) assert.ok(L.includes(r[3]), `${r}: an early answer's pair stands on a rung`);
+  for (const r of POP_MOVES) if (r.length >= 6 && r[5] !== r[2]) assert.ok(L.includes(r[4]), `${r}: an early answer's pair stands on a rung (moves)`);
   // a second right answer the same day rewrites nothing, whatever pair the row holds (v1.281.0's off-rung pairs included)
   for (const r of POP) if (r[0] > r[2]) assert.deepEqual(W(r, true, r[2]), r, `${r} answered again on its own last day`);
   assert.deepEqual(W([181, 60, 86, 72, 56], true, 86), [181, 60, 86, 72, 56], "a v1.281.0 pair off the rungs (72 days from day 56), kept");

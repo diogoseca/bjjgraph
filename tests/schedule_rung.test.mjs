@@ -48,9 +48,11 @@
 //   G8  the srs heal rounded to 4 decimals again                → "the srs merge…" (1)
 //   G9  the moves heal rounded to 4 decimals again              → "the moves merge…", moves_record's R5 (2)
 //   G10 a late answer steps from its line's value, not from the interval it reads → 26
-// NOT KILLED, said so here so nobody reads this file as covering it: G7, the one-step cap on an early answer removed. On rung
-// lines the line is one step up exactly at the exact due, so before the due an early answer never reaches the cap: the
-// mutant is equivalent, and the cap stays as a guard against float dust only.
+// G7, the one-step cap on an early answer removed, SURVIVED the first run, and was first written down here as equivalent. It is
+// not: a direct comparison of the writer with and without it (1,280 rows, hostile ones among them, 247,008 answers) found the
+// cap deciding two shapes, both at or past the top: an early answer that walks onto the top rung (what is stored), and a row
+// past the top with a fractional due answered with no day waited (the due, by under a day). Below the top an early answer
+// never reaches it. Both shapes are now pinned in "the rung pair…" (G7 red there).
 //
 // Run: node --test tests/schedule_rung.test.mjs
 import { test } from "node:test";
@@ -82,6 +84,16 @@ test("the rung pair: a card between rungs stands on the line of the rung below i
   assert.deepEqual(W([75, 60, 0], true, 75), [75 + 135, 120, 75], "on its due: exactly one step, 135 days, anchored at its day");
   // the two lines agree at the due: one step from 75 is 135 either way
   assert.equal(lin1.write([75, 60, 0], true, 75)[0], 75 + 135);
+  // THE ONE-STEP CAP binds only at and past the top (11,968,512 days, where a step is the top): (1) an early answer that walks
+  // onto the top rung takes the top, stored at its own day with no pair; (2) a row past the top with a fractional due (no
+  // writer makes one: the pull truncates a cloud row's due), answered with no day waited, is capped to the top and kept as it
+  // was by the never-sooner guard. Below the top an early answer never reaches the cap
+  const top = L[L.length - 1], sec = L[L.length - 2];
+  const half = W([10000 + sec, 120, 10000], true, 10000 + sec / 2), d = 10000 + sec + 10;
+  assert.deepEqual(half, [10000 + 2 * sec, 120, 10000 + sec / 2, sec, 10000], "premise: half-way up the second-to-top rung's line");
+  assert.deepEqual(W(half, true, d), [d + top, 120, d], "onto the top: the top, at its own day");
+  const past = [10000 + top + 0.4, 120, 10000];
+  assert.deepEqual([W(past, true, 10000), W(past, true, 9970)], [past, past], "past the top, no day waited: kept as it was");
 });
 
 test("an early right answer never leaves a card due sooner than without it: the reader's searches replayed, 0 of 1,113,790 and 0 of 509,533", () => {
@@ -151,8 +163,12 @@ test("an early right answer never leaves a card due sooner than without it: the 
   assert.deepEqual([n2, bad2], [509533, 0], "the reader's two-answer search replayed: never sooner");
   // the case v1.281.0 lost (LIN1-R3): a 30-day card answered on days 12, 56 and 86, and the same with one more on day 19. Under
   // v1.281.0: 181 and 174. Now the card with the extra answer is never behind
-  const without = rows([30, 30, 0], [12, 56, 86]).at(-1), withE = rows([30, 30, 0], [12, 19, 56, 86]).at(-1);
-  assert.deepEqual([lin1.write(lin1.write(lin1.write([30, 30, 0], true, 12), true, 56), true, 86)[0], without[0], withE[0]], [181, 173, 174]);
+  const without = rows([30, 30, 0], [12, 56, 86]), withE = rows([30, 30, 0], [12, 19, 56, 86]);
+  assert.equal(lin1.write(lin1.write(lin1.write([30, 30, 0], true, 12), true, 56), true, 86)[0], 181, "v1.281.0: 181, and 174 with day 19");
+  // day 56 is late (one step from 42 to 72, at its own day), day 86 early: 72 stands on the 60-day rung's line, 24 days in
+  assert.deepEqual(without, [[54, 30, 12, 30, 0], [128, 60, 56], [173, 60, 86, 60, 32]]);
+  // with day 19, day 56 is early and walks the card's first line (60 days from day 30)
+  assert.deepEqual(withE, [[54, 30, 12, 30, 0], [68, 30, 19, 30, 0], [129, 60, 56, 60, 30], [174, 60, 86, 60, 30]]);
   // and v1.281.0's worst (a 75-day row, 39 days sooner with one more answer on +21)
   const far = [15, 106, 173, 516, 1049, 2113].map((d) => T + d), start = [T + 75, 60, T];
   assert.ok(rows(start, [far[0], T + 21, ...far.slice(1)]).at(-1)[0] >= rows(start, far).at(-1)[0]);
@@ -228,6 +244,15 @@ test("ahead of answering on time by at most 3 whole days, never in exact days: t
     }
   }
   assert.deepEqual([tried, aheadB], [40536, 0], "early, on time, then early: never ahead");
+  // v1.281.0's worst (b) sequence: a 30-day card answered on days 13, 56 (its due), 66 and 90 came due on 190 against the
+  // on-time path's 180 and stayed about a tenth ahead for good. On the rung's line it comes due on 180, and stays level
+  let rb = [100030, 30, 100000];
+  const bRows = [13, 56, 66, 90].map((x) => (rb = W(rb, true, 100000 + x)));
+  assert.deepEqual(bRows, [[100056, 30, 100013, 30, 100000], [100129, 60, 100056], [100144, 60, 100066, 60, 100030], [100180, 60, 100090]]);
+  let ot = W(W([100030, 30, 100000], true, 100030), true, 100090);
+  const lead = [[rb[0] - 100000, ot[0] - 100000]];
+  for (let k = 0; k < 4; k++) { rb = W(rb, true, rb[0]); ot = W(ot, true, ot[0]); lead.push([rb[0] - 100000, ot[0] - 100000]); }
+  assert.deepEqual(lead, [[180, 180], [360, 360], [725, 725], [1455, 1455], [2916, 2916]], "no lead, for good");
   console.log(`ahead of on time: (a) ${ahead} of ${prefixes} by at most ${days} whole days, ${aheadExact} in exact days; (b) ${aheadB} of ${tried}`);
 });
 

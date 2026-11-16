@@ -351,8 +351,8 @@ export function ngKnowledgeSharedDecks(manifest, question, key) {
 //     two agree (one step).
 //   · THE STEP IS TAKEN WHEN THE DAYS REACH IT, and an answer takes AT MOST ONE STEP from where the previous answer left it.
 //     Early, the card walks rung after rung (each rung crossed moves the pair on: A ← the next rung, t0 ← t0 + A) and takes
-//     the line there; on those lines the line is one step up exactly at the exact due, so an early answer never reaches the cap
-//     (`ngKnowledgeEarly`'s cap guards float dust only). AN ANSWER ON OR AFTER THE DUE takes exactly one step from the
+//     the line there; on those lines the line is one step up exactly at the exact due, so below the top an early answer never
+//     reaches the cap (`ngKnowledgeEarly`'s cap binds only at and past the top, where a step is the top). AN ANSWER ON OR AFTER THE DUE takes exactly one step from the
 //     interval it reads (day 29 → 59 days; on that due, 89; a day before it, 88.5). LATE EARNS ONE STEP AND NO MORE: the
 //     formula's negative "days left" would pay a late bonus (10 days late: 70, not 60); it was measured out at v1.279.0
 //     (ANKI1: with a backlog the bonus cost 7 to 15 points of true recall) and stays out. Dropping the days past the step
@@ -423,7 +423,8 @@ function ngKnowledgeOnRung(ivl, day) {
 }
 // an early answer on day `last` from the rung pair (A, t0) of a card at interval `ivl`: walk the rungs to the step `last` is
 // in (each rung crossed moves the pair on: t0 + A, the next rung), then take that rung's line, never more than one step
-// from `ivl` (the cap: on rung lines an early answer never reaches it, so it guards only float dust)
+// from `ivl` (the cap: below the top an early answer never reaches it; it binds when the walk lands on the top rung, and on
+// a row past the top, whose step is the top: pinned in tests/schedule_rung.test.mjs)
 function ngKnowledgeEarly(A, t0, ivl, last) {
   const top = NG_KNOWLEDGE_LADDER[NG_KNOWLEDGE_LADDER.length - 1];
   while (last - t0 >= A && A < top) { t0 += A; A = ngKnowledgeStep(A); }
