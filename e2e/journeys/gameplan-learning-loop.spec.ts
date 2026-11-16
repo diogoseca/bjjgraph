@@ -399,7 +399,7 @@ test("D1: a new player with no comparison still gets a plan, dealt from the weak
   const got = await page.evaluate(() => {
     const a = (window as any).__neural, s = a._session;
     return { status: s.plan.status, comparison: s.plan.comparison, fresh: s.plan.fresh.map((r: any) => r.key),
-      rankings: (window as any).__rankInputs as string[][], cell: document.querySelector('[data-explore-stats] [data-b="due"]')?.getAttribute("data-new") };
+      rankings: (window as any).__rankInputs as string[][] };
   });
   expect(got.status).toBe("weak-spots");
   expect(got.fresh.length, "a new player is dealt new techniques").toBeGreaterThan(0);
@@ -409,7 +409,9 @@ test("D1: a new player with no comparison still gets a plan, dealt from the weak
   const at = got.fresh.map((k: string) => ranking!.indexOf(k));
   expect(at.every((i) => i >= 0), "every dealt key comes from the weak-spots ranking").toBe(true);
   expect(at.every((i, n) => !n || i > at[n - 1]), "in the ranking's order").toBe(true);
-  expect(got.cell, "the Explore cell counts the same plan").toBe(String(got.fresh.length));
+  // the cell is painted by `_refreshGameplanUI`'s zero-delay timer (`_paintTrain`), so it is waited on, not read once
+  // (FLAKE1: green as a one-shot read even under a 60 ms repaint delay, the plan landing before the press; nothing promises it)
+  await expect(page.locator('[data-explore-stats] [data-b="due"]'), "the Explore cell counts the same plan").toHaveAttribute("data-new", String(got.fresh.length));
   await expect(page.locator(`[data-gameplan-reason="${got.fresh[0]}"]`), "one plain sentence from the ranking's tier")
     .toHaveText(/^(One of the biggest leaks in your game right now\.|A loose spot in your game, worth tightening\.|Worth polishing once the bigger leaks are closed\.|You.+\.)$/);
 });
