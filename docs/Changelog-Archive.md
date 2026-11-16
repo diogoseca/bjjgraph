@@ -19021,6 +19021,8 @@ the harness's (ab71d940e): video-cards' Watch pressed the ✕ mid-zoom once, and
 refused by the MDP pin. Run 8 (19:55, head ab71d940e): video-cards 24 of 24, both mutant sets, the app rows re-checked
 from a clean bundle (no row moved), the payload gate green. `npm run ci:validate` on 1b18e313e: 25 of 25 replayed steps green, units 1,752 of 1,752 (its
 first run, on 721937544, found the two stale units above: my survey had covered e2e/ but not this unit file).
+**VID1-CI.** The PR's first e2e-full shards all failed at collection: the viewer journey read the generated, gitignored
+source/quartz/static/neural/concepts.json at module load (now the served copy first, lazily); `npm run ci:validate` replays ci-validate.yml, not the e2e-full job, whose tree has no generated payload outside source/public.
 
 **Bytes.** Against dev v1.281.2's own bundle (f6c2bcd3b, built from its export with its own app.src.jsx pinned):
 eager gzip −648 B (neural.js −550, neural.css −98), eager raw −2,698 B; deferred +3 B gzip, −3 B raw. The payload gate:
