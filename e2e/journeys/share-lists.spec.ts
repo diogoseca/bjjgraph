@@ -228,7 +228,7 @@ test("a coach collects today's class into a list from the surfaces they are alre
   ).toBe(true);
   expect(await reachable(), "...and nothing covers it once the flight settles").toBe(true);
   await j.clickByMouse(`[data-list-add="${picks[1].id}"][data-list-surface="seat"]`, "the opened technique's seat star");
-  await j.advance(1000); // drawn frames before the read (v1.280.5, STAR3: the next frame used to close it)
+  await j.advance(1000); // drawn frames before the read (v1.281.1, STAR3: the next frame used to close it)
   // ...and the second asks too, with the one list on offer
   await expect(page.locator("[data-list-picker]"), "the star asks again").toBeVisible();
   await page.locator("[data-list-pick]").first().click();
@@ -1074,7 +1074,7 @@ test("the + works at 390px inside the drawer", async ({ page }) => {
   await expect(page.locator("[data-list-row]")).toHaveCount(1);
 });
 
-// A RECEIVED CLASS'S ROWS (v1.280.5, STAR3; nobody had pressed their star). A student arrives on the WhatsApp link, reaches
+// A RECEIVED CLASS'S ROWS (v1.281.1, STAR3; nobody had pressed their star). A student arrives on the WhatsApp link, reaches
 // the class's rows ("Shared with you", `[data-shared-list]`: the drawer opens on its own at 1440, the share cue's open half
 // opens it on a phone), presses a received technique's star by real input, and the list menu opens and is still open after
 // two seconds of DRAWN frames (the harness draws only on `j.advance`); its create row files the technique: the star turns gold.

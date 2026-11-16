@@ -90,9 +90,9 @@ test("a run that never navigated, never played, or checked too few head resource
   assert.equal(r.offenders.length, 3)
 })
 
-// ── THE YOUTUBE PLAYER'S PERMISSIONS-POLICY LINE (v1.280.5, 2026-11-16, run 43870539526) ─────────────
+// ── THE YOUTUBE PLAYER'S PERMISSIONS-POLICY LINE (v1.281.1, 2026-11-16, run 43870539526) ─────────────
 // The exception is the conjunction of a LOCATION (a script under https://www.youtube.com/s/player/) and a TEXT prefix
-// ("Permissions policy violation:"), on every origin. MUTANTS, each red by the test named (v1.280.5): the location
+// ("Permissions policy violation:"), on every origin. MUTANTS, each red by the test named (v1.281.1): the location
 // test dropped (any such text discounted) -> "...the same text from OUR origin is an offender"; the text test dropped
 // (anything the player logs discounted) -> "...any other error from the player is an offender"; the origin compared by
 // substring (`at.includes("youtube.com/s/player/")`) -> "...a lookalike host is an offender"; the exception applied

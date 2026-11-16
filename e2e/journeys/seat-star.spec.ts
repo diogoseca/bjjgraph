@@ -90,7 +90,7 @@ for (const mobile of [false, true]) {
       const sel = `[data-seat-star="${seat}"][data-list-add="Positions/Mount/Bottom"]`
       const star = page.locator(sel)
       await expect(star).toHaveCount(1)
-      // v1.280.5 (STAR3): a second of DRAWN frames after every press, before anything reads the menu: the harness draws only on
+      // v1.281.1 (STAR3): a second of DRAWN frames after every press, before anything reads the menu: the harness draws only on
       // `j.advance`, and a menu the next frame closes (v1.280.0 to v1.280.3) read as open with no frame in between
       const activate = async () => {
         if (mobile) {
@@ -324,7 +324,7 @@ for (const v of [{ name: "1440x900 mouse", vp: { width: 1440, height: 900 }, tou
   })
 }
 
-// STAR3 (v1.280.5, the reader of #422): D1, the pointer's pair. A hovered pair's group carries a star too (`pairGroup(_hovNode, …)`,
+// STAR3 (v1.281.1, the reader of #422): D1, the pointer's pair. A hovered pair's group carries a star too (`pairGroup(_hovNode, …)`,
 // placed by `side()`); a press on it opens the menu anchored to that star. RULED: only the label whose OWN star opened the menu
 // does not count the menu (`own` in `clear`). So that group keeps its side and its star stays where it was pressed; while a menu
 // is open the pointer's group is pinned to the menu's anchor (`heldStar`), so an orb hovered meanwhile gets no label at all.

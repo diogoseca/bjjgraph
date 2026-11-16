@@ -12990,7 +12990,8 @@ class Component extends DCLogic {
   }
   // THE SCHEDULE'S WRITER as the progress host replays an undelivered answer with it (v1.280.2, `ngProgressReplay`: the host
   // file cannot import knowledge-profile, whose bytes the study engine pins)
-  _scheduleWrite(prior, ok, day) { return ngKnowledgeScheduleRow(prior, ok, day); }
+  // (`at`: where the row keeps the schedule's pair, 3 on an srs row, 4 on a moves row, v1.281.0)
+  _scheduleWrite(prior, ok, day, at) { return ngKnowledgeScheduleRow(prior, ok, day, at); }
   // the rows an answer wrote, [[field (0 srs, 1 moves), bucket, item, ok, day, row], …], kept until a copy the cloud holds
   // has them; a host without the journal (a test rail) records nothing
   _journal(rows) {
@@ -15336,8 +15337,10 @@ class Component extends DCLogic {
   _gradeMove(opt, ok, card) {
     const k = this._moveKey(opt); if (!k) return;
     const m = (this.moves = this.moves || {}), row = (m[k[0]] = m[k[0]] || {});
-    const prior = row[k[1]], day = this._epochDay();   // cells a later build added after the fourth ride along (review R5)
-    row[k[1]] = ngKnowledgeScheduleRow(prior, ok, day).concat(ok ? 1 : 0, prior && prior.length > 4 ? prior.slice(4) : []);
+    // the writer builds the whole row: the answer at [3], the schedule's pair at [4] (v1.281.0), and the cells a later
+    // build added after the pair riding along (review R5)
+    const prior = row[k[1]], day = this._epochDay();
+    row[k[1]] = ngKnowledgeScheduleRow(prior, ok, day, 4);
     this._journal([[1, k[0], k[1], ok ? 1 : 0, day, row[k[1]]]]);   // v1.280.2: the owner's undelivered answers
     this._sealCard(card, this._moveState(opt));
     // the record changed in place: a new revision for the moves index (its identity did not move), then republish:
@@ -21271,7 +21274,7 @@ class Component extends DCLogic {
     if (!el.clientWidth || !el.clientHeight) return;   // mid-mount: never seed a 0-size viewport
     const phone = this.isMobile();
     this.W = el.clientWidth; this.H = el.clientHeight;
-    // A LIST MENU DOES NOT OUTLIVE A CHANGE OF FORM FACTOR (v1.280.5, STAR3; the reader of #422, N2, as on dev): it is placed
+    // A LIST MENU DOES NOT OUTLIVE A CHANGE OF FORM FACTOR (v1.281.1, STAR3; the reader of #422, N2, as on dev): it is placed
     // once, at its open (`_placeListPicker`), against a layout a crossing of the phone's breakpoint replaces, and left open
     // across a resize from 1440 to 390 it stood at its desktop box, off the phone's screen. It closes, as when the seat changes.
     if (this._pickEl && phone !== this.isMobile()) this.closeListPicker();
@@ -22368,7 +22371,7 @@ class Component extends DCLogic {
       const star = (s) => { seatStars.push(s); claims.push({ l: s.x - starPx / 2, r: s.x + starPx / 2, t: s.y - starPx / 2, b: s.y + starPx / 2, g: gid, w: "star", i: s.idx }); };
       // the pointer's label: written from x0 (right of its orb) unless that box is not clear and the mirror ending at x1 is
       const NB = this._nameBlocks(), wid = (f, s) => s ? (ctx.font = f, ctx.measureText(s).width) : 0;
-      // `own` (v1.280.5, STAR3, the reader of #422's D1, ruled): only the group whose OWN star opened the list menu does not count
+      // `own` (v1.281.1, STAR3, the reader of #422's D1, ruled): only the group whose OWN star opened the list menu does not count
       // the menu (STAR2's `pick`); every other pointer label keeps clear of it, as move names do
       const clear = (l, r, t, b, own) => l >= NB.l + 4 && r <= W - 4 && t >= 4 && b <= H - 4 && !claims.concat(NB.blocks).some((q) => !(q.pick && own) && l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3);
       const side = (x0, w, t, b, x1, own) => clear(x0, x0 + w, t, b, own) || !clear(x1 - w, x1, t, b, own) ? x0 : x1 - w;
