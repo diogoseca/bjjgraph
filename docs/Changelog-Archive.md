@@ -18933,3 +18933,33 @@ Run on v1.280.3's bundle (1cebb070b's, swapped into source/public under the lock
 Not covered: a resize that does not cross the breakpoint (1440 to 1024) leaves the menu where it was while its star moves away (on screen; older than this work; a phone keyboard opening is a resize and the menu holds a text field, so the menu is not closed on every resize). The gate's production branch of `classify` runs only in the unit file: `deploy.yaml` runs the gate against the `*.pages.dev` address (as before).
 Runs on 9e7bf76b4 (WET): N1 15:44–15:47 the three hovered-pair and resize tests 15 of 15, live43 6 of 6; N2 15:47–15:48 MS2b and MP each 5 of 5 red; N3 15:49–15:57 the app rows re-seeded on the clean head (`neural.js` +357 B against dev's, +170 B of it `seatPick`), the payload gate (deferred 521,918 B, dev's figure, once this worktree's stale pre-merge worker-core generation was removed from its gitignored `source/quartz/static/neural/app/`, from which `dev:neural:app` had copied it back), the gate's unit file 28 of 28, nine journey files (the four changed and the five that touch the seat's star or the name pass) 88 of 88; N4 15:57–16:06 `npm run ci:validate` 25 of 25.
 **STAR3-R2, the reader's re-read at 96ebabbe5 (MERGE; 117 crafted cases 0 wrong, 12 named mutants red):** three loosenings of the new matcher survived the unit file though the shipped code is exact: F3 any file ending in `base.js` under `/s/player/`, F4 the feature found anywhere after the prefix, F5 the feature name without " is not allowed". One case each (a `base.js` one folder deeper and `xbase.js`; "picture-in-picture, compute-pressure is not allowed"; `compute-pressure-ext`): each mutant red at its own named case, a control green, 31 cases. Units only; no app or script change.
+
+## v1.281.2 — practice-order's dot at the goal is polled, not read once (FLAKE1, 2026-11-16)
+
+**The red.** The push run of v1.281.0 (e2e-full 43893945814, shard 3/4) failed 1 of 407 tests:
+`practice-order.spec.ts:340` at touch 390x631, "the dot: out at the goal, with cards still owed", expected false, received
+true (:397). Its mouse twin passed, and the PR run on the same tree (43885597144) was green. The page at the failure already
+said "Daily goal: 20 of 20 today" and "Session complete".
+
+**The mechanism, proven by a cross.** The dot is painted only by `_paintBadge`, which after an answer runs from
+`_refreshGameplanUI`'s zero-delay timer, one task after the answer is stored. The test polled the count to 20 and then read the
+dot once. With that timer delayed 0 → 60 ms:
+- the test as it was went red 10 of 10, at :397 at both sizes;
+- with the read polled it went green 10 of 10.
+
+As it was, on dev's code, it went red 0 of 30 runs locally (touch 390x631).
+
+**The fix, tests only.**
+- The read at the goal is an `expect.poll` with a 2 s ceiling. The claim is that the dot goes out at the goal, not that it does
+  so in the answer's task.
+- The app is unchanged. A repaint one task later is not visible to a player, and the timer coalesces a burst of refreshes into
+  one paint.
+
+**The claim still gated.**
+- The dot kept lit at the goal while cards are owed: red at the polled read at both sizes, and at sidebar's "the goal met".
+- The dot lit with nothing owed: red at sidebar's "nothing owed: no dot".
+
+**The same read hunted.** Every read of a value that timer paints was surveyed in the 14 practice, schedule and belt journeys.
+`gameplan-learning-loop`'s one-shot read of the Explore cell's `data-new` became an auto-waiting assertion: it was green even
+under the delay, but nothing promised the order. Under the 60 ms delay all 119 of their tests, and sidebar's dot test, are
+green.
