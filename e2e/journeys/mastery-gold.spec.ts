@@ -287,7 +287,7 @@ test("a real landing-card grade that completes the deck turns the map's test on 
   await j.clickByMouse(".ng-modal .x", "close Settings"); await j.clickByMouse(".ng-explorer-close","close the drawer"); // v1.242.0: Settings opens from the drawer's badge
   const before=await page.evaluate(async () => {
     const a=(window as any).__neural,n=a.nodes[a.currentPos],key=a._mapPaint[n.idx].key;
-    await a.hydrateDeck(key); a.set("recallInPlay",true);
+    await a.hydrateDeck(key); // (its `set("recallInPlay",true)` went in v1.283.0: Auto asks a stage-2 card front and back, the premise)
     const cards=a._cardsOf(a.flashcards.decks[key]), q=cards[0].q;
     // A due stage-2 card is eligible for the real recall landing surface. Its
     // successful grade can still increase deckMastery, unlike a stage-3 fixture.

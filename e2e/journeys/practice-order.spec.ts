@@ -1,10 +1,14 @@
 import { expect, test, type Page } from "@playwright/test"
 import { resolve } from "node:path"
 import { journey } from "../dsl"
-// v1.283.0 (rulings R2, SET1-GO): written when nothing stored meant Classic recall in the sidebar; since then nothing
-// stored is Auto (a new card asks multiple choice), so every journey here states the mode it was written under,
-// Front Back cards, through the DSL (`journey(page, CLASSIC)`), and keeps every assertion.
+// v1.283.0 (rulings R2, SET1-GO; the reader of #423, D3): written when nothing stored meant Classic recall in the sidebar;
+// since then nothing stored is Auto (a new card asks multiple choice). A test whose claim is about what a player with nothing
+// stored meets runs on the DEFAULT (`boot(…, DEFAULT)`): "the planner's first position comes first … nothing is stored" and
+// the guard's two ("the guard holds when the live set lands after the tap"), where the card on screen, its three answers
+// included, must not change. The others keep Front Back cards (`CLASSIC`, through the DSL), the mode they were written under:
+// their claims are the order, the goal and the end card, and they answer by Reveal and Got it, a mechanism, not the claim.
 const CLASSIC = { answerMode: "classic" } as const
+const DEFAULT = {} as const
 
 /** WHAT IS WORTH MOST (v1.278.0, the owner, 13 Nov 2026, U171 a): "what comes up most in rolls and what you are closest to
  * forgetting, position by position … at most 6 per position; every answer counts 1 toward 20 … the 'N due' count leaves the
@@ -86,9 +90,9 @@ async function press(page: Page, selector: string, what: string, touch: boolean)
   else await page.mouse.click(at.x, at.y)
 }
 
-async function boot(page: Page, day: number, initialState?: Record<string, unknown>, extra: Record<string, unknown> = {}) {
+async function boot(page: Page, day: number, initialState?: Record<string, unknown>, extra: Record<string, unknown> = {}, mode: { answerMode?: "classic" } = CLASSIC) {
   await page.addInitScript((d) => { (window as W).__NG_EPOCH_DAY__ = d }, day)
-  const j = journey(page, CLASSIC)
+  const j = journey(page, mode)
   await j.boot("/", { ...(initialState ? { initialState } : {}), ...extra })
   await expect.poll(() => page.evaluate(() => {
     const a = (window as W).__neural
@@ -136,7 +140,7 @@ for (const touch of [true, false]) {
     test(`the planner's first position comes first, the session is the plan's queue, and nothing is stored (${touch ? "touch" : "mouse"})`, async ({ page }) => {
       const { orderFixture } = await import("../../tests/_practice_order_fixture.mjs")
       const fx = orderFixture(SERVED)
-      await boot(page, fx.day, fx.blob)
+      await boot(page, fx.day, fx.blob, {}, DEFAULT)
       await press(page, ".ng-logo", "open the drawer", touch)
       // the row: today's count, no due
       const row = '[data-explore-stats] [data-b="due"]'
@@ -449,7 +453,7 @@ for (const touch of [true, false]) {
       // the DSL's delay layer holds the live files (`flashcards/live-<i>.json?live=<fingerprint>`; a plain pattern is a URL
       // substring, and a starred one is anchored at the end, which the query would defeat) until `releasePayload`
       const LIVE = "flashcards/live-"
-      const j = await boot(page, fx.day, fx.blob, { payloads: { [LIVE]: { never: true } } })
+      const j = await boot(page, fx.day, fx.blob, { payloads: { [LIVE]: { never: true } } }, DEFAULT)
       const held = () => j.payloadTimeline().filter((e) => e.url.includes(LIVE))
       await press(page, ".ng-logo", "open the drawer", touch)
       await expect.poll(() => held().length, { message: "the drawer asks for the live files, and the harness holds them" }).toBeGreaterThan(0)
@@ -461,6 +465,7 @@ for (const touch of [true, false]) {
         return { live: a._ratingLiveNow()?.status, guarded: p.guarded, asked: oldest.filter((q) => p.dueQuestions.includes(q)).length, due: p.dueQuestions.length,
           keys: s.keys.slice(), idx: s.idx, rows: JSON.stringify(p.due.concat(p.fresh).map((r: W) => [r.key, r.questions])), owed: p.counts.law.owed,
           openRow: s.keys[s.idx], card: document.querySelector('[data-session-row][aria-expanded="true"] + div [data-mini-q]')?.textContent || null,
+          opts: [...document.querySelectorAll('[data-session-row][aria-expanded="true"] + div [data-practice-mc-opt]')].map((b) => (b as HTMLElement).innerText.replace(/\s+/g, " ").trim()),
           dom: [...document.querySelectorAll("[data-session] [data-session-row]")].map((r) => r.getAttribute("data-session-row")),
           why: document.querySelector("[data-gameplan-summary] details > p")?.textContent || "",
           events: [...(window as W).posthog].filter((c: W) => c[0] === "capture" && c[1] === "neural_practice_unguarded").map((c: W) => c[2]) }
@@ -470,12 +475,14 @@ for (const touch of [true, false]) {
       expect(before.why, "and the explanation does not claim the guard").not.toContain("The three cards due longest")
       expect(before.dom, "the page mounts the plan's rows").toEqual(before.keys)
       const open = '[data-session-row][aria-expanded="true"] + div'
-      await expect(page.locator(open + " [data-mini-reveal]:visible"), "the open card is up").toHaveCount(1, { timeout: 10_000 })
+      // nothing stored: Auto, and this player's open card asks multiple choice (the reader of #423 saw it so at both sizes)
+      await expect(page.locator(open + " [data-practice-mc-opt]"), "the open card is up, asking multiple choice").toHaveCount(3, { timeout: 10_000 })
       // where the player is reading (untouched: the queue's fold opened and scrolled to, which is not a touch of the plan)
       const foldTop = () => page.evaluate(() => Math.round(document.querySelector("[data-practice-details]")!.getBoundingClientRect().top))
       if (!touched) await press(page, "[data-practice-details] > summary", "Practice details & session queue", touch)
-      const readingAt = await foldTop(), readingCard = (await read()).card
-      if (touched) await press(page, open + " [data-mini-reveal]", "Reveal", touch)
+      const reading = await read(), readingAt = await foldTop(), readingCard = reading.card
+      // the touch: an answer picked (on a multiple-choice card a pick is the touch; Reveal was, under Front Back cards)
+      if (touched) await press(page, open + ' [data-practice-mc-opt="0"]', "answer A", touch)
       expect(held().every((e) => e.releasedAtMs == null), "still held at the tap and after it").toBe(true)
       j.releasePayload(LIVE)
       await expect.poll(() => page.evaluate(() => !!(window as W).__neural._session?.guardSettled), { timeout: 30_000, message: "the set lands and the session settles" }).toBe(true)
@@ -489,6 +496,9 @@ for (const touch of [true, false]) {
         // THE CARD ON SCREEN NEVER CHANGES under an untouched player (R409-R1): the same open row, the same question
         expect(readingCard, "premise: a card is on screen").not.toBeNull()
         expect([after.openRow, after.card], "the open row and the card the player reads").toEqual([before.openRow, readingCard])
+        // …ITS ANSWERS INCLUDED (D3, the reader of #423): the three the player was reading, in the same places
+        expect(reading.opts.length, "premise: three answers on screen").toBe(3)
+        expect(after.opts, "the same three answers, in the same order").toEqual(reading.opts)
         await expect(page.locator("[data-practice-section]"), "under the same heading").toHaveText(heading || "")
         expect(after.why, "and now the explanation says so").toContain("The three cards due longest come every day")
         expect(after.events, "taken again: no event").toEqual([])

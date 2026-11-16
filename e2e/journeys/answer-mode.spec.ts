@@ -16,6 +16,9 @@ import { journey } from "../dsl"
  *      answer there is a grade.
  *   4. A stored Front Back cards asks a new card front and back in Practice and in a roll; a stored Multiple choice keeps a
  *      card right twice multiple choice in Practice and in a roll; and the old Recall mode switch, stored Off, decides nothing.
+ *   5. (the reader of #423) "Never again" is per question: a question right twice in one deck asks front and back from every
+ *      deck that shares it (D2); in the full-pane study view Space and ⏎ never reveal or grade a multiple-choice card (D4);
+ *      a list's drill asks the answer mode too, and a press there is a grade (D5).
  * CONTROL: dev v1.280.1 (fb498b389), where the default was Classic recall and Recall mode decided a roll: 1 fails at "Auto
  * is the chosen one", 2 at "a new card asks multiple choice", 3 at "the inline deck asks multiple choice", 4 at "the old
  * switch decides nothing".
@@ -201,3 +204,94 @@ test("a roll: a stored Front Back cards asks even a new card front and back; a s
   await j.landQuestion()
   expect(await shape(), "the old switch decides nothing: Auto asks a card right twice front and back").toEqual({ mc: 0, recall: true })
 })
+
+// D2 (the reader of #423): "never again" is per QUESTION. The grade writes a card's stage to the deck it was asked from; a
+// question several decks share, right twice in one of them, must ask front and back from the others too (Auto reads the
+// highest stage the question holds in any of its decks, `_cardStageShared`, as the rating does). Read on the full-pane study
+// view of the OTHER deck, before (multiple choice: the premise) and after the question is proven in the first.
+// Mutant: `_cardAsksMc` reading the asking deck's stage only → red at "front and back in the deck that shares it".
+test("a question right twice in one deck asks front and back in every deck that shares it", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/")
+  await page.waitForFunction(() => !!(window as W).__neural._sharedQ, null, { timeout: 30_000 })
+  const sh = await page.evaluate(async () => {
+    const a = (window as W).__neural
+    for (const [qh, keys] of a._sharedQ) {
+      const [A, B] = keys
+      await a.hydrateDecks([A, B])
+      const cA = a._cardsOf(a.flashcards.decks[A]) || [], cB = a._cardsOf(a.flashcards.decks[B]) || []
+      const card = cB.find((c: W) => a.qhash(c.q) === qh)
+      if (card && cA.some((c: W) => a.qhash(c.q) === qh) && a.mcDistractors(card, B, a.MC_DISTRACTORS, "probe")) return { A, B, qh, q: card.q }
+    }
+    return null
+  })
+  expect(sh, "premise: a shared question both of whose decks can ask it as multiple choice").not.toBeNull()
+  const show = () => page.evaluate(({ B, qh }) => {
+    const a = (window as W).__neural
+    a.openStudy(B)
+    a.deckIdx = Math.max(0, a.deck.findIndex((c: W) => a.qhash(c.q) === qh)); a.revealed = false; a.renderDrill()
+    return a.qhash(a.deck[a.deckIdx].q) === qh
+  }, sh!)
+  expect(await show(), "premise: the study view shows the shared question").toBe(true)
+  await expect(page.locator(".ng-drill [data-mc-opt]"), "premise: unproven, the other deck asks it as multiple choice").toHaveCount(3, { timeout: 20_000 })
+  // right twice in the first deck only: the stage is written there (the grade's own bucket)
+  await page.evaluate(({ A, q }) => (window as W).__neural._bumpStage(A, q, 2, 2), sh!)
+  expect(await page.evaluate(({ A, B, q }) => { const a = (window as W).__neural; return [a.cardStage(A, q), a.cardStage(B, q)] }, sh!), "premise: the stage lives in the first deck").toEqual([2, 0])
+  await page.evaluate(() => (window as W).__neural.closeStudy?.())
+  expect(await show()).toBe(true)
+  await expect(page.locator(".ng-drill [data-reveal]"), "front and back in the deck that shares it").toBeVisible({ timeout: 20_000 })
+  await expect(page.locator(".ng-drill [data-mc-opt]"), "and no options").toHaveCount(0)
+})
+
+// D4 (the reader of #423): in the full-pane study view a card that asks multiple choice is answered by picking. Space (and ⏎)
+// reach `drillReveal` from the key handler; two Space presses graded the card "Got it" as a recall answer with no option
+// picked, minting recall credit, under the default. Read by the real keyboard, with no control focused.
+// Mutant: `drillReveal` without its multiple-choice guard → red at "no grade".
+test("the study view: Space on a multiple-choice card reveals nothing and grades nothing", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+  const key = await page.evaluate(() => { const a = (window as W).__neural; return a.deckKeyFor(a.nodes[a.currentPos]).key })
+  await j.hydrate([key])
+  await page.evaluate((k) => (window as W).__neural.openStudy(k), key)
+  await expect(page.locator(".ng-drill [data-mc-opt]"), "nothing stored: Auto, a new card asks multiple choice").toHaveCount(3, { timeout: 20_000 })
+  const read = () => page.evaluate(() => { const a = (window as W).__neural, c = a.deck[a.deckIdx]
+    return { stage: a.cardStage(a._deckInfo.key, c.q), attempts: Object.keys(a._knowledgeAttempts || {}).length, revealed: !!a.revealed, done: a.practiceToday().done } })
+  const before = await read()
+  await page.evaluate(() => { const e = document.activeElement as HTMLElement | null; if (e && e.blur) e.blur() })   // Space goes to the app's key handler
+  await page.keyboard.press("Space")
+  await page.keyboard.press("Space")
+  await page.keyboard.press("Enter")
+  expect(await read(), "no reveal, no grade: the card waits for a pick").toEqual(before)
+  await expect(page.locator(".ng-drill [data-mc-opt]"), "and its options are still there").toHaveCount(3)
+})
+
+// D5 (the reader of #423): every session that lays its cards out as inline decks asks the answer mode too (R2, "everywhere a
+// card is asked"): a list's drill and a received class's (`openListSession`), a System's drill and the bucket sessions. On
+// the default a new card there asks multiple choice, on the session's surface, and a press is a grade. Until v1.283.0 these
+// were front and back whatever the mode. The list drill is pinned here, by mouse and by touch.
+for (const touch of [false, true]) {
+  test.describe(touch ? "touch 390x631, a list drill" : "mouse 1440x900, a list drill", () => {
+    test.use(touch ? { hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } } : { viewport: { width: 1440, height: 900 } })
+    test(`a list's drill asks a new card as multiple choice, and a press grades it (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      const j = journey(page)
+      await j.boot("/")
+      await j.land("Mount Top")
+      const id = await page.evaluate(async () => {
+        const a = (window as W).__neural
+        const id = a.newList("Answer mode drill")
+        const picks = a.nodes.filter((n: W) => { const k = a.deckKeyFor(n).key; return k && a.flashcards.decks[k] && a.flashcards.decks[k].n >= 3 && a.rsAllowsIdx(n.idx) }).slice(0, 3)
+        for (const n of picks) a.addToList(n.id, id)
+        return id
+      })
+      await page.evaluate((lid) => (window as W).__neural.openListSession(lid), id)   // a list's drill, through its seam
+      const open = '[data-session-row][aria-expanded="true"] + div'
+      await expect(page.locator(open + " [data-practice-mc-opt]"), "nothing stored: Auto, the drill's new card asks multiple choice").toHaveCount(3, { timeout: 20_000 })
+      expect(await page.evaluate(() => !!(window as W).__neural._session?.practice), "premise: a list session, not Practice").toBe(false)
+      await expect(page.locator(open + " [data-mini-reveal]"), "Reveal waits for an answer").toBeDisabled()
+      const t = await page.evaluate(() => { const a = (window as W).__neural; return { key: a._mc.key, qh: a._mc.qhash } })
+      await press(page, open + ' [data-practice-mc-opt="0"]', "answer A", touch)
+      await expect.poll(() => page.evaluate(({ key, qh }) => { const a = (window as W).__neural; return !!(a.srs[key] && a.srs[key][qh]) }, t), { message: "the press is a grade" }).toBe(true)
+    })
+  })
+}

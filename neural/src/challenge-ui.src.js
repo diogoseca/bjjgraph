@@ -124,7 +124,8 @@ const NG_CHALLENGE_UI_METHODS = {
     rw.className = "ng-challenge-capstone";
     rw.setAttribute("data-recall-reward", earned ? "earned" : "unearned");
     rw.innerHTML =
-      "<small>BLACK-BELT PATCH</small><b>Recall Mode</b><p>" +
+      // the patch's own name (NG_BADGE_DEFINITIONS, "Black Belt" since v1.283.0; "Recall Mode" before, after a switch that left)
+      "<small>BLACK-BELT PATCH</small><b>" + ngChallengeHTML((NG_BADGE_DEFINITIONS.find((d) => d.id === "recall-in-play") || {}).name) + "</b><p>" +
       (earned ? "Earned." : "Reach black belt to earn it.") + "</p>";
     return rw;
   },

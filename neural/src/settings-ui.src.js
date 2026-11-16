@@ -106,7 +106,7 @@ renderSettings() {
         const mode = this.settingRow("Answer mode", "How a card asks you, in Practice and in a roll.",
           [["Auto", "auto"], ["Front Back cards", "classic"], ["Multiple choice", "mc"]], "mcMode", this._answerMode(),
           { auto: '<b style="color:#cbd4e6;">Auto</b> &mdash; multiple choice until you get a card right twice, then front and back from then on.',
-            classic: '<b style="color:#cbd4e6;">Front Back cards</b> &mdash; the question, then the answer; you say if you got it.',
+            classic: '<b style="color:#cbd4e6;">Front Back cards</b> &mdash; the question, then the answer; you say if you got it. Checkpoints and the defence drill stay multiple choice.',
             mc: '<b style="color:#cbd4e6;">Multiple choice</b> &mdash; always three answers to pick from.' });
         mode.setAttribute("data-answer-mode", "1");
         body.appendChild(mode);
