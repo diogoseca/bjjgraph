@@ -18662,3 +18662,12 @@ second-join cases on the right row in every variant tried, clearing safe under e
   re-seeded (38ed34b73); ci:validate 25/25. Bytes, my share on dev's own build: `neural.js` +6,931 raw, +2,627 gzip (R2
   +158 on R1's +2,469); the payload gate red on the SUM alone (eager gzip 367,674, +5,787 on the 361,887 baseline, dev's
   own +3,160), awaiting the orchestrator's checkpoint after #417; first-hand core 387,117 (+5,822 of 6,000; mine +2,625).
+
+**LAND418** (merged with dev v1.280.1, fb498b389, by merge; renumbered 1.280.1 → 1.280.2, as PAY4 took 1.280.1). This
+PR's 879 code lines (`app.src.jsx`, `progress-owner.src.js`, the test file) are those the reader read at 82ab6706e,
+line for line, but for the 21 that name the version. The archive ceiling rose by 50,000 under D-316. Landing on
+d5806a833 under the build lock: units 1,713/1,713; 26 journey files (the 15 that exercise the progress host and the 14
+#417 changed) 278 passed; `e2e:gen` 103/103; `ci:validate` 25/25; app rows re-seeded (88c628ca7: `neural.js` 721,181 →
+728,171 B; four game bundles carry the app source's gameplay hash, so their sha moves at the same size). Against the
+baselines checkpointed at dev v1.280.0 (PAY4): eager gzip 369,196, +2,620 of 5,000; first-hand core +2,640 of 6,000
+(the gate here reads +2,656, because this worktree's page `/` is 16 B heavier than CI's).
