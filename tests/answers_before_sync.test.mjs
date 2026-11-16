@@ -1,8 +1,8 @@
-// ANSWERS GIVEN BEFORE A COPY HAS SEEN THE CARD'S ROW (v1.280.1, NEXT2, ruled NEXT2-GO) — the journal and the replay in
+// ANSWERS GIVEN BEFORE A COPY HAS SEEN THE CARD'S ROW (v1.280.2, NEXT2, ruled NEXT2-GO) — the journal and the replay in
 // neural/src/progress-owner.src.js (`ngProgressReplay`, the host's `journal`, `replayCloud`, `delivered`, the tab merge and
 // the guest join) and the app's writers that feed it (`_gradeKnowledge`, `_schedule`, `_gradeMove`).
 //
-// Until v1.280.1 a first right answer ([d+1, 1, d], the same row a miss writes) given before a device's first pull, offline,
+// Until v1.280.2 a first right answer ([d+1, 1, d], the same row a miss writes) given before a device's first pull, offline,
 // by a guest before signing in, or in a tab that never saw another tab's row, met the other copy in a merge that keeps the
 // later answer, and a mature schedule became one day (proven in four places on v1.279.0). Now each owner keeps the
 // answers this browser has not yet seen delivered, and where its copy meets another copy's rows those cards are rebuilt
@@ -17,7 +17,7 @@
 // orders; one owner's answers never reach another owner's rows except through the guest join, once; an older client
 // receives ordinary rows; nothing is written on a passive boot; the journal never holds more than about 20 KB.
 //
-// MUTANTS (v1.280.1, and again at NEXT2-R1), each applied alone to a clean tree and run against this file; each turned the
+// MUTANTS (v1.280.2, and again at NEXT2-R1), each applied alone to a clean tree and run against this file; each turned the
 // NAMED test red (and OLD, the reviewed head c05f399bc's own progress-owner and app, is red at every case of the read):
 //   J1 the pull does not replay (`replayCloud` returns the merge)          → "P1 a new device…", "P2 an offline device…"
 //   J2 the replay skips a miss                                             → "offline, a miss and then a right answer…"
@@ -357,7 +357,7 @@ test("the journal is capped: beyond it the oldest answers meet other copies by t
   assert.ok(!j.e.some((e) => e[3] === H1), "the oldest went");
   C.pullFails = false;
   assert.equal(await pull(a, flush), true);
-  assert.deepEqual(a.srs.d[H1], [D + 1, 1, D], "that card met the cloud by the merge's rule, as before v1.280.1");
+  assert.deepEqual(a.srs.d[H1], [D + 1, 1, D], "that card met the cloud by the merge's rule, as before v1.280.2");
 })));
 
 test("nothing is written on a passive boot, and an older client receives ordinary rows", () => withDay(D, () => fakeTimers(async ({ flush }) => {

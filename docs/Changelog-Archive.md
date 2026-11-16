@@ -18572,7 +18572,7 @@ test: J1 the pull does not replay; J2 a miss skipped; J3 a held entry applied ag
 whatever the cloud holds; J5 the tab merge does not replay; J6 the join does not replay; J7 the guest high-water
 ignored; J8 the cap ignored; J9 a push's delivery taken without its rows.
 
-**Not covered.** Answers given before v1.280.1 (no journal: a guest's old one-day rows can still shorten an account's card
+**Not covered.** Answers given before v1.280.2 (no journal: a guest's old one-day rows can still shorten an account's card
 at its first join); an older client's own answers; a push answered false and then two or more answers on top elsewhere;
 two tabs appending in the same instant; another device that pulled before this device's push and then pushes its own
 older-based copy over it (the cloud push is a whole-blob upsert; a conditional push would close it).

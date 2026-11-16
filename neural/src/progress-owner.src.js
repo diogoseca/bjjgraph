@@ -123,7 +123,7 @@ export function ngProgressMergeMoves(local, cloud, today) {
   }
   return out;
 }
-// THE ANSWERS A COPY HAS NOT YET DELIVERED (v1.280.1, NEXT2, ruled NEXT2-GO and NEXT2-R1). A schedule row written WITHOUT
+// THE ANSWERS A COPY HAS NOT YET DELIVERED (v1.280.2, NEXT2, ruled NEXT2-GO and NEXT2-R1). A schedule row written WITHOUT
 // having seen another copy's row of the same card used to meet it in a merge that keeps "the later answer": a first right
 // answer ([d+1, 1, d]: the same row a miss writes) given before a device's first pull, offline, by a guest before signing
 // in, or in a second tab that never saw the first tab's row, replaced a mature schedule with one day, and nothing stored
@@ -134,7 +134,7 @@ export function ngProgressMergeMoves(local, cloud, today) {
 //   · ONLY A NEWER ANSWER (NEXT2-R1, the reader's finding 1): an entry is replayed only when it was made ON OR AFTER the
 //     other copy's row's `last`. The journal protects a newer answer from being flattened into a blind one-day row; it
 //     never lets an older answer override a newer one. An entry older than the other row's last answer meets it by the
-//     merge's own rule, as before v1.280.1: a miss made after the other copy's last answer counts; a miss made before it is
+//     merge's own rule, as before v1.280.2: a miss made after the other copy's last answer counts; a miss made before it is
 //     superseded by that later answer, as on dev (once a guest's miss of months ago reset every account's mature card at
 //     its first join). At a pull such an entry leaves the journal: the cloud's later answer superseded it for good.
 //   · STORED under `ngProgressLocalKey(owner, "pending")`: local, never synced, never in the blob or the practice key, one
@@ -156,9 +156,9 @@ export function ngProgressMergeMoves(local, cloud, today) {
 //     which then meets it by the merge's rule, never twice. A guest entry an account took in leaves the GUEST journal when
 //     that account's cloud holds what it rebuilt. A card the other copy has no row of is not rebuilt.
 //   · BOUNDED at NG_PROGRESS_JOURNAL_CAP entries, so no answer rewrites more than about 20 KB: beyond it the oldest go, and
-//     their cards meet other copies by the merge's rule, as before v1.280.1 (180 entries of about 110 bytes with a long deck
+//     their cards meet other copies by the merge's rule, as before v1.280.2 (180 entries of about 110 bytes with a long deck
 //     key: about three days offline at 60 answers a day, nine at Practice's 20).
-// NOT COVERED: answers given before v1.280.1 (no journal: a guest's old 1-day rows can still shorten an account's card at
+// NOT COVERED: answers given before v1.280.2 (no journal: a guest's old 1-day rows can still shorten an account's card at
 // its first join); an older client's answers; two tabs appending in the same instant (one entry can be lost: that answer
 // meets other copies by the merge's rule); another DEVICE that pulled before this device's push and then pushes its own
 // older-based copy over it (the cloud push is a whole-blob upsert: until a conditional push exists, this device's next
@@ -306,7 +306,7 @@ export function ngProgressJournalAfter(journal, replay, drop) {
 // badges/coins/explored/tut union, challenges MAX progress, lists add-wins). Units, `belts.won` records, `dayLog.w` and
 // fields from later builds keep the account's value where it has one: the account's value AFTER the first pull, i.e.
 // the cloud's too, because the join runs only then (the second reader: "holds only against the local copy" was true of
-// the first build). `srs` keeps the pull's rule, except for the cards the guest answered since v1.280.1: those are rebuilt
+// the first build). `srs` keeps the pull's rule, except for the cards the guest answered since v1.280.2: those are rebuilt
 // on the account's rows from the guest's journal (`joinGuest`, `ngProgressReplay`), so a guest's first right answer no
 // longer turns the account's mature card into one day, and a guest's miss still brings it back. The rating reads the
 // schedule's interval since v1.279.0, so a shortened row cost a player rating. tests/guest_join_safety.test.mjs,
@@ -518,8 +518,8 @@ function ngProgressSameOwner(a, b) { return ngProgressOwnerId(a) === ngProgressO
 export function ngProgressLocalKey(owner, field = "progress") {
   // `guest` (v1.262.0): on an account, the hash of the guest copy it last took (or found nothing in) on this device
   // `device` (v1.262.11): this browser's code for the owner's roll-ledger partition (host `flowDevice`, below)
-  // `pending` (v1.280.1): the owner's answers this browser has not yet seen delivered (`ngProgressReplay`, host `journal`)
-  // `taken` (v1.280.1): on an account, the guest rows it took in at a join, by card (`ngProgressTakenParse`)
+  // `pending` (v1.280.2): the owner's answers this browser has not yet seen delivered (`ngProgressReplay`, host `journal`)
+  // `taken` (v1.280.2): on an account, the guest rows it took in at a join, by card (`ngProgressTakenParse`)
   if (!["progress", "ladder", "firstroll", "coached", "guest", "device", "pending", "taken"].includes(field)) throw new TypeError("Unknown account-owned local field");
   return NG_PROGRESS_OWNER_PREFIX + ngProgressOwnerId(owner) + ":" + field;
 }
@@ -708,7 +708,7 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
   };
   const guestMerge = (live, guestBlob) => ngProgressGuestMerge(semanticMerge, live, guestBlob, app && app.NG_FLOW_DEVICES);
   const guestKey = blob => ngProgressHash(ngProgressCloudKey(ngProgressGuestPart(blob)));
-  // THE JOURNAL (v1.280.1, `ngProgressReplay`): the owner's answers this browser has not yet seen delivered. A damaged
+  // THE JOURNAL (v1.280.2, `ngProgressReplay`): the owner's answers this browser has not yet seen delivered. A damaged
   // journal reads as a new one (the merge's rule, as before, for what it held); an unreadable store, or a journal of a
   // version this build does not know, reads as null: nothing is replayed, journaled or written for that owner (NEXT2-R1).
   const journalKey = owner => ngProgressLocalKey(owner, "pending");
@@ -743,7 +743,7 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
         }
       }
     }
-    // v1.280.1, NEXT2-R1 (the reader's finding 2), two rules for the schedule rows, then the replay:
+    // v1.280.2, NEXT2-R1 (the reader's finding 2), two rules for the schedule rows, then the replay:
     //   · a row THIS tab has not touched since it last read or wrote the stored copy yields to the stored row: another tab
     //     wrote it since, from a merge that saw this tab's row, so a stale one-day row held in this tab's memory never comes
     //     back over a row another tab's replay rebuilt;
@@ -914,7 +914,7 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       storeCode(inst, code);
       return code;
     },
-    // ── v1.280.1 (NEXT2): the owner's undelivered answers (`ngProgressReplay`) ──
+    // ── v1.280.2 (NEXT2): the owner's undelivered answers (`ngProgressReplay`) ──
     // `rows`: [[field, bucket, item, ok, day, after], …] as the app's writers leave them. Appended in order, persisted at
     // once (an app closed before its next save keeps the answer), capped; this tab remembers its own ids for the tab merge.
     journal(inst, rows) {
@@ -1030,7 +1030,7 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       let live, combined, adds, taken = null;
       try {
         live = inst._progressBlob(); combined = guestMerge(live, found.blob);
-        // v1.280.1: the guest's answers the account has not taken in yet (ids above the account journal's `g`) meet the
+        // v1.280.2: the guest's answers the account has not taken in yet (ids above the account journal's `g`) meet the
         // account's rows rebuilt on them, never merged: a guest's first right answer no longer turns the account's mature
         // card into one day. Only answers made on or after the account row's last answer (NEXT2-R1, finding 1: a guest's
         // miss of months ago no longer resets an account's card it has answered since). They then become the account's own
