@@ -136,7 +136,9 @@ type PageState = {
 type NavEvent = { url: string; type: string; userInitiated: boolean; source: string | null; stack: string; allowed: string | null };
 
 export class Journey {
-  constructor(private page: Page) {}
+  /** `opts.answerMode`: the answer mode a FILE of journeys was written under (v1.283.0, see `answerMode` below), written
+   *  after every boot that reaches a ready app, the way the Settings row writes it. */
+  constructor(private page: Page, private opts: { answerMode?: "auto" | "classic" | "mc" } = {}) {}
   private get st(): PageState {
     const p = this.page as any;
     return (p.__ngState =
@@ -535,6 +537,7 @@ export class Journey {
       for (const [tag, values] of Object.entries(opts.seedRolls))
         await this.rig(tag, values);
     }
+    if (this.opts.answerMode) await this.answerMode(this.opts.answerMode);
     return this;
   }
 
@@ -1391,4 +1394,4 @@ export class Journey {
   navigations(): NavEvent[] { return this.st.navs.slice(); }
 }
 
-export const journey = (page: Page) => new Journey(page);
+export const journey = (page: Page, opts: { answerMode?: "auto" | "classic" | "mc" } = {}) => new Journey(page, opts);

@@ -14,15 +14,16 @@ import { journey } from "../dsl"
  *      at 2 (the floor) and resets its schedule, and the card is never multiple choice again.
  *   3. Last rolls' inline deck asks the answer mode too (Auto: a new card as multiple choice, on its own surface), and an
  *      answer there is a grade.
- *   4. A stored Front Back cards asks front and back in a roll, even a new card; a stored Multiple choice keeps a card right
- *      twice multiple choice in a roll; and the old Recall mode switch, stored Off, decides nothing.
+ *   4. A stored Front Back cards asks a new card front and back in Practice and in a roll; a stored Multiple choice keeps a
+ *      card right twice multiple choice in Practice and in a roll; and the old Recall mode switch, stored Off, decides nothing.
  * CONTROL: dev v1.280.1 (fb498b389), where the default was Classic recall and Recall mode decided a roll: 1 fails at "Auto
  * is the chosen one", 2 at "a new card asks multiple choice", 3 at "the inline deck asks multiple choice", 4 at "the old
  * switch decides nothing".
  * MUTANTS (each alone, rebuilt into the served bundle; the table in docs/Changelog-Archive.md, v1.283.0): default back to
  * "classic" (1, 2, 3); a write of `mcMode` at boot (1, "storage has no mcMode"); no floor, or the floor at stage 1 (2,
  * "never multiple choice again"); the landing reads `recallInPlay` again (4, "the old switch"); a stored "mc" ignored in a
- * roll (4); Last rolls' decks ignoring the mode (3); `mcActive` ignoring a stored "classic" (4, Practice).
+ * roll (4); Last rolls' decks ignoring the mode (3); `mcActive` ignoring a stored "classic" (4, "Practice: a stored Front Back
+ * cards…"); Auto's line moved from 2 to 3 (2). Run against this file by /home/user/tmp-pw/drawer/mutants.py (not a gate).
  * The harness serves `{}` for dossiers: no claim here reads a film or an article section.
  */
 
@@ -30,7 +31,11 @@ type W = any
 const ACTIVE = "rgba(74, 108, 255, 0.26)"   // `segBtn`'s chosen background (everything-opens.spec.ts reads the same)
 
 async function press(page: Page, selector: string, what: string, touch: boolean) {
-  await page.locator(selector).first().scrollIntoViewIfNeeded()
+  // the drawer's list re-renders in place as payloads land (the first run met "Element is not attached" here): re-query
+  for (let i = 0; ; i++) {
+    try { await page.locator(selector).first().scrollIntoViewIfNeeded({ timeout: 3_000 }); break }
+    catch (e) { if (i >= 4) throw e; await page.waitForTimeout(250) }
+  }
   const at = await page.evaluate((sel) => {
     const el = document.querySelector(sel) as HTMLElement | null
     if (!el) return { ok: false, why: "no element matches", x: 0, y: 0 }

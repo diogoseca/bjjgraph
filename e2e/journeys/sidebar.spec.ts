@@ -177,6 +177,7 @@ test("the drawer draws over the map and the legend, and the legend never moves",
 test("the badge shows today's cards and rolls before it is opened, a real grade moves it, and the rolls survive a reload", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
+  await j.answerMode("classic")   // v1.283.0: written under Classic recall; Reveal and Got it below are its front and back
   await page.evaluate(async () => {
     const a = (window as W).__neural, day = a._epochDay()
     a.setPaused(true)

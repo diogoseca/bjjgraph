@@ -1,10 +1,14 @@
 import { expect, test } from "@playwright/test";
 import { journey } from "../dsl";
+// v1.283.0 (rulings R2, SET1-GO): written when nothing stored meant Classic recall in the sidebar; since then nothing
+// stored is Auto (a new card asks multiple choice), so every journey here states the mode it was written under,
+// Front Back cards, through the DSL (`journey(page, CLASSIC)`), and keeps every assertion.
+const CLASSIC = { answerMode: "classic" } as const
 
 // Real mounted pane and grading. Recommendation fixtures test the consumer only:
 // they are NOT production MDP or corpus evidence. No gameplay random branch used.
 async function setup(page: any, recommendations = true, runtime = true, beforeOpen?: () => Promise<void>) {
-  const j = journey(page);
+  const j = journey(page, CLASSIC);
   await j.boot("/");
   if (beforeOpen) await beforeOpen();
   const fixture = await page.evaluate(async ({ recommendations, runtime }: { recommendations: boolean, runtime: boolean }) => {
@@ -88,7 +92,7 @@ async function answerAll(page: any, touch: boolean, again = false) {
     // a row whose every card is answered is left to the queue's own walk (520 ms): a press aimed at it in that window meets
     // a deck that is closing (measured: the walk hid the Reveal between the measure and the press, 2 of 3 runs)
     if (await page.evaluate(() => { const a = (window as any).__neural, s = a._session; return a._sessionRowDone(s, s.keys[s.idx]); })) { await page.waitForTimeout(400); continue; }
-    await journey(page).scrollSettled('[data-session-row][aria-expanded="true"] + div');
+    await journey(page, CLASSIC).scrollSettled('[data-session-row][aria-expanded="true"] + div');
     if (await shown("[data-mini-graded]")) await hit(page, open(".mn"), touch);
     else if (await shown(grade)) { await hit(page, open(grade), touch); again = false; }
     else if (!(await shown("[data-mini-a]")) && await shown("[data-mini-reveal]")) await hit(page, open("[data-mini-reveal]"), touch);

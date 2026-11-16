@@ -1,6 +1,10 @@
 import { expect, test, type Page } from "@playwright/test"
 import { resolve } from "node:path"
 import { journey } from "../dsl"
+// v1.283.0 (rulings R2, SET1-GO): written when nothing stored meant Classic recall in the sidebar; since then nothing
+// stored is Auto (a new card asks multiple choice), so every journey here states the mode it was written under,
+// Front Back cards, through the DSL (`journey(page, CLASSIC)`), and keeps every assertion.
+const CLASSIC = { answerMode: "classic" } as const
 
 /** WHAT IS WORTH MOST (v1.278.0, the owner, 13 Nov 2026, U171 a): "what comes up most in rolls and what you are closest to
  * forgetting, position by position … at most 6 per position; every answer counts 1 toward 20 … the 'N due' count leaves the
@@ -84,7 +88,7 @@ async function press(page: Page, selector: string, what: string, touch: boolean)
 
 async function boot(page: Page, day: number, initialState?: Record<string, unknown>, extra: Record<string, unknown> = {}) {
   await page.addInitScript((d) => { (window as W).__NG_EPOCH_DAY__ = d }, day)
-  const j = journey(page)
+  const j = journey(page, CLASSIC)
   await j.boot("/", { ...(initialState ? { initialState } : {}), ...extra })
   await expect.poll(() => page.evaluate(() => {
     const a = (window as W).__neural

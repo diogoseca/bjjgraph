@@ -92,6 +92,11 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   ).toBe(false);
   // "Study this state" is the pane's Last rolls tab (v1.175.0 — the corner count opens nothing);
   // the same rail pane-history.spec.ts drives.
+  // v1.283.0 (rulings R2, SET1-GO): written when nothing stored meant Classic recall in the sidebar. Since then a newcomer's
+  // Last rolls deck asks a new card as multiple choice (Auto; answer-mode.spec.ts "Last rolls"), so this story states the
+  // mode it was written under for the steps below, Front Back cards, and keeps every assertion ("never options in here"
+  // is that mode's claim). The roll above stays on the default: Auto asks a new card multiple choice there, as before.
+  await j.answerMode("classic");
   await page.locator(".ng-logo").click();
   await page.locator('[data-view="history"]').click();
   expect(

@@ -3,6 +3,10 @@
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { curriculumMid, CURRICULUM } from "./personas"
+// v1.283.0 (rulings R2, SET1-GO): written when nothing stored meant Classic recall in the sidebar; since then nothing
+// stored is Auto (a new card asks multiple choice), so every journey here states the mode it was written under,
+// Front Back cards, through the DSL (`journey(page, CLASSIC)`), and keeps every assertion.
+const CLASSIC = { answerMode: "classic" } as const
 
 /** Sidebar study and Challenges share the same prep ledger. Three real recall grades
  * complete one lesson, award exactly three distinct-card pumps and one lesson_done,
@@ -29,7 +33,7 @@ test("three study grades complete a not-yet-studied unit's lesson — unit stays
   expect(TARGET_IDX, "that unit sits past curriculumMid's seeded units (U0 done, U1 half) → untouched prep").toBeGreaterThanOrEqual(2)
   expect(LESSON_KEYS.length, "the target unit defines lessons").toBeGreaterThan(0)
 
-  const j = journey(page)
+  const j = journey(page, CLASSIC)
   await j.boot("/", { initialState: curriculumMid() })
   await j.land("Mount Top")
 

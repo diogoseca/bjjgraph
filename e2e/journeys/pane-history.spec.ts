@@ -1,5 +1,9 @@
 import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
+// v1.283.0 (rulings R2, SET1-GO): written when nothing stored meant Classic recall in the sidebar; since then nothing
+// stored is Auto (a new card asks multiple choice), so every journey here states the mode it was written under,
+// Front Back cards, through the DSL (`journey(page, CLASSIC)`), and keeps every assertion.
+const CLASSIC = { answerMode: "classic" } as const
 
 /**
  * THE PANE IS A HISTORY YOU CAN WALK, IN Q&A.
@@ -32,7 +36,7 @@ const openCurrentDeck = async (page: Page) => {
 }
 
 test("the pane lists every state the roll has visited, in order", async ({ page }) => {
-  const j = journey(page)
+  const j = journey(page, CLASSIC)
   await j.boot("/")
   await j.land("Mount Top")
   await openPane(page)
@@ -70,7 +74,7 @@ test("the pane lists every state the roll has visited, in order", async ({ page 
 // (rulings R2; Auto asks a new card as multiple choice: answer-mode.spec.ts "Last rolls"), so this journey states the mode
 // it was written under, Front Back cards, and keeps every assertion.
 test("a history row under Front Back cards reads question → reveal → answer, never multiple choice", async ({ page }) => {
-  const j = journey(page)
+  const j = journey(page, CLASSIC)
   await j.boot("/")
   await j.answerMode("classic")
   await j.land("Mount Top")
@@ -91,7 +95,7 @@ test("a history row under Front Back cards reads question → reveal → answer,
 })
 
 test("revealing in the pane is SEEN, not credit", async ({ page }) => {
-  const j = journey(page)
+  const j = journey(page, CLASSIC)
   await j.boot("/")
   await j.land("Mount Top")
 
@@ -113,7 +117,7 @@ test("revealing in the pane is SEEN, not credit", async ({ page }) => {
 })
 
 test("the history survives the round ending", async ({ page }) => {
-  const j = journey(page)
+  const j = journey(page, CLASSIC)
   await j.boot("/")
   await j.land("Mount Top")
   await openCurrentDeck(page)
@@ -128,7 +132,7 @@ test("the history survives the round ending", async ({ page }) => {
 test("Last rolls carries the roll rows — and explains itself when nothing rolled yet", async ({
   page,
 }) => {
-  const j = journey(page)
+  const j = journey(page, CLASSIC)
   await j.boot("/")
 
   // BEFORE any roll this session: the tab must explain the void, not render a bare body.
@@ -163,7 +167,7 @@ test("Last rolls carries the roll rows — and explains itself when nothing roll
  * rides `startRoll`, which is a timer. Opening it is the reader's job, at the end.
  */
 test("a short roll archives both the opening position and the submission it finishes", async ({ page }) => {
-  const j = journey(page)
+  const j = journey(page, CLASSIC)
   await j.boot("/")
   await j.land("Mount Top")
 
@@ -239,7 +243,7 @@ test("a short roll archives both the opening position and the submission it fini
 test("free roam files the roll it ends, and Last rolls repaints without waiting for a landing", async ({
   page,
 }) => {
-  const j = journey(page)
+  const j = journey(page, CLASSIC)
   await j.boot("/")
   await j.land("Mount Top")
 
@@ -279,7 +283,7 @@ test("free roam files the roll it ends, and Last rolls repaints without waiting 
 // Preserve the one-state archive regression guard: submission entry from a position now
 // visits two states, but a roll opened directly in a submission can still finish in one.
 test("a direct submission finish archives its one-state roll", async ({ page }) => {
-  const j = journey(page)
+  const j = journey(page, CLASSIC)
   const title = "Triangle Choke from Triangle Control"
   const key = title + "|Attacker"
   await j.boot("/Submissions/Triangle-Choke/from-Triangle-Control/Attacker")
