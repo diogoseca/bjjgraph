@@ -334,8 +334,8 @@ export function ngKnowledgeSharedDecks(manifest, question, key) {
 //     amount, and a run of early answers INSIDE ONE STEP earns exactly what one answer at its end earns. His numbers, pinned
 //     in tests/schedule_ladder.test.mjs: a 30-day card answered 1 day before its due comes due 59 days on, 29 days before it
 //     31, on time 60.
-//   · ONE EARLY ANSWER, THEN THE NEXT ON ITS OLD DUE OR ITS OWN NEW DUE, NEVER COSTS THE CARD ANYTHING: it is never behind a
-//     card answered only on its due day (the property the owner is asked to prefer, U192; the level rule parked at LIN1-R2
+//   · FROM A CARD ON A RUNG, ONE EARLY ANSWER, THEN THE NEXT ON ITS OLD DUE OR ITS OWN NEW DUE, NEVER COSTS THE CARD ANYTHING:
+//     it is never behind a card answered only on its due day (the property the owner is asked to prefer, U192; the level rule parked at LIN1-R2
 //     broke it: 15 then 30 days gave 55, not 60). Only that much holds. OVER LONGER RUNS ONE MORE EARLY ANSWER CAN COST DAYS
 //     (LIN1-R3, the reader's N1; ruled, the rule stays): it can turn a later answer from late (one step from where the card
 //     is, a fresh line, here steeper) into early (the card's old line's value, here lower). A 30-day card answered on days
