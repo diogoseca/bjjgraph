@@ -19,6 +19,9 @@
  *   --ab marks  v1.280.0: no orb marked (A) against every dealt orb marked both ways (B: `_movesGold` all, `_answered`
  *               all, and `_movesLearned` all for a bundle that still draws the dot). Run with --app on dev's bundle for
  *               the dot, and on the build for the outlines
+ *   --ab seatstar  v1.280.3 (STAR1): the drawer open (`setDeckOpen(true)`, so meaningful at 1440: a phone's drawer covers the
+ *               map and writes no name), the seat's star withheld as on v1.280.0 (A: `_syncSeatStars` handed no anchor) against
+ *               the star kept beside the name (B: the real `_syncSeatStars`). Reports how many stars mode B mounted
  * --method blocks  60 frames a mode, alternated, 6 times; each mode's median and p95 (how v1.278.1's figures were taken)
  * --method paired  the modes alternate EVERY frame, 1,200 pairs; each mode's median and the median of the pairs'
  *                  differences, B minus the A drawn just before it, so a slow drift of a shared machine cancels inside each
@@ -26,6 +29,8 @@
  *
  *   node tests/artifacts/_map_names_frametime.mjs --ab hides --method blocks [--base URL] [--app DIR] [--rate 4]
  *   node tests/artifacts/_map_names_frametime.mjs --ab marks [--method paired] [--base URL] [--app DIR] [--rate 4]
+ * --vps WxH,...  the viewports (default 390x844,1440x900; a width under 700 is a phone at dpr 3). v1.280.3 (STAR1-R1) times the
+ *                star's sync with the drawer open at 1024x768,1280x800,1440x900
  */
 import { chromium } from "playwright"
 import fs from "node:fs"
@@ -34,16 +39,20 @@ import path from "node:path"
 const args = process.argv.slice(2), opt = (k, d) => { const i = args.indexOf("--" + k); return i >= 0 ? args[i + 1] : d }
 const BASE = opt("base", "http://localhost:8196"), APP = opt("app", null), RATE = +opt("rate", 4)
 const AB = opt("ab", null), METHOD = opt("method", "paired")
-if (AB && !["hides", "marks"].includes(AB)) throw Error("--ab hides|marks")
+const VPS = opt("vps", "390x844,1440x900").split(",").map((v) => { const [w, h] = v.split("x").map(Number); return { w, h } })
+if (AB && !["hides", "marks", "seatstar"].includes(AB)) throw Error("--ab hides|marks|seatstar")
 if (!["paired", "blocks"].includes(METHOD)) throw Error("--method paired|blocks")
 const APP_FILES = APP ? new Set(fs.readdirSync(APP)) : null
 /** In the page: A against B (see the header). Every override is on the instance and is deleted at the end. */
 function abFrames({ ab, method }) {
-  const a = window.__neural, c0 = { cx: a.cam.cx, cy: a.cam.cy, vw: a.cam.vw }
+  const a = window.__neural
+  if (ab === "seatstar") { a.setDeckOpen(true); a.advance(1500) }
+  const c0 = { cx: a.cam.cx, cy: a.cam.cy, vw: a.cam.vw }
   const stat = (xs) => { const s = [...xs].sort((p, q) => p - q); return { median: +s[s.length >> 1].toFixed(3), p95: +s[Math.floor(s.length * 0.95)].toFixed(3), n: s.length } }
   const scale = () => a.W / a.cam.vw, dealt = [...new Set(a.optionIdxs)], marked = new Set(dealt)
   const mode = (b) => {
     if (ab === "hides") { if (b) a._hides = () => true; else delete a._hides; return }
+    if (ab === "seatstar") { if (b) delete a._syncSeatStars; else a._syncSeatStars = () => Object.getPrototypeOf(a)._syncSeatStars.call(a, []); return }
     a._movesGold = b ? () => new Map(dealt.map((i) => [i, 1])) : () => new Map()
     a._movesLearned = b ? () => new Set(dealt) : () => new Set()
     a._answered = b ? (n) => marked.has(n.idx) : () => false
@@ -73,6 +82,7 @@ function abFrames({ ab, method }) {
       }
       res[kind] = { A: stat(A), B: stat(B), ...(D.length ? { diff: stat(D) } : {}) }
     }
+    if (ab === "seatstar") { mode(true); frame("held", 0, 0); res.starsB = document.querySelectorAll("[data-seat-star]").length; res.deck = !!a.deckShown }
     if (ab === "hides") {
       // the reads of one drawn frame, untimed: box reads and style reads, held and dragging, each mode
       const cnt = { b: 0, s: 0 }, gb = Element.prototype.getBoundingClientRect, gs = window.getComputedStyle
@@ -90,7 +100,8 @@ function abFrames({ ab, method }) {
       } finally { Element.prototype.getBoundingClientRect = gb; window.getComputedStyle = gs }
     }
   } finally {
-    for (const k of ["_hides", "_movesGold", "_movesLearned", "_answered"]) if (Object.prototype.hasOwnProperty.call(a, k)) delete a[k]
+    for (const k of ["_hides", "_movesGold", "_movesLearned", "_answered", "_syncSeatStars"]) if (Object.prototype.hasOwnProperty.call(a, k)) delete a[k]
+    if (ab === "seatstar") a.setDeckOpen(false)
     Object.assign(a.cam, c0, { lvw: Math.log(c0.vw) }); a.draw()
   }
   return res
@@ -98,7 +109,7 @@ function abFrames({ ab, method }) {
 
 const browser = await chromium.launch()
 const out = {}
-for (const vp of [{ w: 390, h: 844 }, { w: 1440, h: 900 }]) {
+for (const vp of VPS) {
   const mobile = vp.w < 700
   const ctx = await browser.newContext({ viewport: { width: vp.w, height: vp.h }, isMobile: mobile, hasTouch: mobile, deviceScaleFactor: mobile ? 3 : 1 })
   const page = await ctx.newPage()
