@@ -787,7 +787,7 @@ test("S0: a move's worth is what a right answer adds to the rating, read from it
   // (read as a MOVES row: its schedule pair at [4], after the answer at [3], v1.281.0's `at`)
   const gain = (st, mv) => {
     const after = structuredClone(moves), r = after[st][mv];
-    after[st][mv] = ngKnowledgeScheduleRow(r, true, D).concat(1);
+    after[st][mv] = ngKnowledgeScheduleRow(r, true, D, 4);
     return (ngRatingShare(U, { moves: after }, D).share - ngRatingShare(U, { moves }, D).share) * U.total;
   };
   const price = (st, mv) => U.seats.get(st).get(mv);
@@ -797,7 +797,7 @@ test("S0: a move's worth is what a right answer adds to the rating, read from it
 });
 
 test("S0: \"Did not\" brings a move back tomorrow; a move answered today counts 1 toward the goal", () => {
-  const U = mGame(), noRow = ngKnowledgeScheduleRow(null, false, D).concat(0);
+  const U = mGame(), noRow = ngKnowledgeScheduleRow(null, false, D, 4);
   const moves = { "1/top": { 8: noRow } };
   const at = (day) => ngPracticeOrder({ day, goal: 20, srs: mSrs(), stage: {}, decks: mDecks(), game: U, seats: M_SEATS, moves, moveSeats: M_MOVESEATS });
   assert.ok(!at(D).law.asked.includes("m:1/top:8"), "answered today: not asked again today");
@@ -813,8 +813,9 @@ test("S0: \"Did not\" brings a move back tomorrow; a move answered today counts 
 
 test("S0 (ruling 5): the row a first look writes adds no field, and the rating reads it as a move never answered", () => {
   // the owner's ruling 5 (STAGE4-GO): a move shown for the first time writes the "not known yet" row, in the shape "Did not"
-  // writes. That is `_gradeMove`'s own row for a move with no prior row: the schedule's first cell and the answer 0, no more.
-  const U = mGame(), look = ngKnowledgeScheduleRow(null, false, D).concat(0);
+  // writes. That is `_gradeMove`'s own row for a move with no prior row, built by the same writer call (v1.281.0: the
+  // writer builds the whole moves row, `at` 4): the schedule's first cell and the answer 0, no more.
+  const U = mGame(), look = ngKnowledgeScheduleRow(null, false, D, 4);
   assert.deepEqual(look, [D + 1, 1, D, 0], "four cells: due tomorrow, interval 1, answered today, not known");
   const base = { srs: mSrs(), stage: {}, moves: { "1/top": { 7: [...ago(5, 3), 1] } } };
   const looked = structuredClone(base); looked.moves["1/top"][8] = look;
@@ -848,7 +849,7 @@ test("S0: the order is kept for its inputs, and the moves record's revision is o
   const build = (movesRev) => G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 1, decks, srs,
     worth: { game: U, seats: M_SEATS, stage, moves, moveSeats: M_MOVESEATS, movesRev } });
   assert.deepEqual(build(1).moves.map((m) => [m.id, m.owed]), [["m:1/top:8", false]], "the new move worth most, the round's one");
-  moves["1/top"][8] = ngKnowledgeScheduleRow(null, true, D).concat(1);
+  moves["1/top"][8] = ngKnowledgeScheduleRow(null, true, D, 4);
   assert.deepEqual(build(1).moves.map((m) => m.id), ["m:1/top:8"], "the same revision: the order kept (the app bumps it)");
   // built again: "8" is answered today; the next position by its next new move and card is A|Bottom (2 × 0.75 + 0.75) over
   // A|Top (0.4 × 0.75 + 0.75), so the round's one is the bottom's "7"
@@ -904,7 +905,7 @@ test("S0: the order is built again for a new moves record or a new seat map, wha
     worth: { game: U, seats: M_SEATS, stage, moves, moveSeats, movesRev: 1 } });
   const first = { "1/top": {} };
   assert.deepEqual(build(first, M_MOVESEATS).moves.map((m) => m.id), ["m:1/top:8"]);
-  const pulled = { "1/top": { 8: ngKnowledgeScheduleRow(null, true, D).concat(1) } };
+  const pulled = { "1/top": { 8: ngKnowledgeScheduleRow(null, true, D, 4) } };
   assert.deepEqual(build(pulled, M_MOVESEATS).moves.map((m) => m.id), ["m:1/bottom:7"], "a pulled record, the same revision: built again");
   assert.deepEqual(build(pulled, { "1/top": "A|Top" }).moves.map((m) => m.id), ["m:1/top:7"], "a new seat map: built again (A|Bottom no longer named)");
 });
