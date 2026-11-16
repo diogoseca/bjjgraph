@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test"
-import { readFileSync } from "node:fs"
+import { existsSync, readFileSync } from "node:fs"
 import { resolve } from "node:path"
 import { journey } from "../dsl"
 import { bootVideoCards, CARD, installPlayerStub } from "../fixtures/video-cards"
@@ -40,8 +40,20 @@ const OPEN: Record<Surface, string> = {
   drawer: '[data-concept-film] .ng-clip[data-i="0"] [data-film-play]',
 }
 const QUIET = { v: 2, settings: { landCard: false, landHand: false, landFeedback: false }, settingsAt: {} }
-const BASE = JSON.parse(readFileSync(resolve(__dirname, "../../source/quartz/static/neural/concepts.json"), "utf8"))
-  .concepts.find((c: any) => c.id === "Principles/Base")
+// Principles/Base, read from the SERVED payload first (a CI shard has only the built site, under source/public), then
+// the emitted one (a worktree whose build has not copied it across), as concepts-surface.spec.ts reads it; and only when
+// a drawer test asks. VID1-CI: the first version read only source/quartz/static/neural/concepts.json, at module load:
+// generated and gitignored, absent from every e2e-full shard, so the throw failed collection and every shard ran nothing.
+let BASE_CONCEPT: any = null
+function base() {
+  if (BASE_CONCEPT) return BASE_CONCEPT
+  const file = ["../../source/public/static/neural/concepts.json", "../../source/quartz/static/neural/concepts.json"]
+    .map(rel => resolve(__dirname, rel)).find(path => existsSync(path))
+  if (!file) throw Error("concepts.json is in neither source/public nor source/quartz: build or emit the neural payload")
+  BASE_CONCEPT = JSON.parse(readFileSync(file, "utf8")).concepts.find((c: any) => c.id === "Principles/Base")
+  if (!BASE_CONCEPT) throw Error("Principles/Base is not in concepts.json")
+  return BASE_CONCEPT
+}
 // The reader's clip is Frames' first published clip, a vertical Short in the source: the theater fits it at 9:16
 // (video-theater.spec pins that portrait fit), so its expected box is read from the content, never from the dialog.
 const FRAMES_FIRST = JSON.parse(readFileSync(resolve(__dirname, "../../content/Principles/Frames.json"), "utf8")).clips[0]
@@ -63,11 +75,11 @@ async function boot(page: Page, surface: Surface) {
     await j.boot("/", { keepTutorial: true, beforeNavigate: async p => { await p.addInitScript(installPlayerStub, false) } })
     // The DSL serves `{}` for every dossier chunk; this journey is about a Principle's clips, so it serves that body.
     await page.route("**/static/neural/content/*.json", route => route.fulfill({ json: {
-      [BASE.key]: { overview: "Adjust your supports as pressure changes.", clips: DRAWER_CLIPS } } }))
+      [base().key]: { overview: "Adjust your supports as pressure changes.", clips: DRAWER_CLIPS } } }))
     await page.evaluate(() => (window as any).__neural._ensureConcepts())
     await expect.poll(() => page.evaluate(() => ((window as any).__neural.concepts || []).length)).toBeGreaterThan(0)
-    await page.evaluate(id => (window as any).__neural.openConcept(id), BASE.id)
-    await expect(page.locator(`[data-concept-film="${BASE.id}"] .ng-clip`)).toHaveCount(2)
+    await page.evaluate(id => (window as any).__neural.openConcept(id), base().id)
+    await expect(page.locator(`[data-concept-film="${base().id}"] .ng-clip`)).toHaveCount(2)
   }
   const open = page.locator(OPEN[surface])
   await expect(open).toBeVisible()
