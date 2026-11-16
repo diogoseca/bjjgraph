@@ -306,7 +306,8 @@ clip, Resume). A press loads YouTube, asking it to play; on `onAutoplayBlocked` 
 muted (YouTube's unmute shows) and fires `video_autoplay_muted`. `_openFilmTheater` portals only the player rectangle into a modal `<dialog>`; the card keeps
 its place. The rectangle zooms from there over 360ms, or appears at once under reduced motion, to 95% of
 the viewport's width, capped at 95% of its height, over a 60% black backdrop. Close, the dim and Escape
-destroy the player and return focus to Play; Escape inside the iframe stays the provider's. The modal
+destroy the player and return focus to Play; Escape inside the iframe stays the provider's. The player takes no press
+until the zoom settles, so a quick second press cannot take Escape from the theater (VID1-R1). The modal
 and `_graphInputOn` keep input off the map, and reward notices wait for it (D-326). A blocked script
 shows the YouTube link and fires `video_load_failed`; a later Play retries. No video enters a
 question or plays in place (VID1: "show the video only on top of everything, and dim the rest").

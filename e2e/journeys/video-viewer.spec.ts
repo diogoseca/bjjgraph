@@ -28,7 +28,9 @@ import { bootVideoCards, CARD, installPlayerStub } from "../fixtures/video-cards
  *  Mutants (tests/artifacts/video_viewer_mutants.json, each against a green baseline of this file): no-autoplay-request,
  *  no-play-on-ready, esc-ignored, dim-not-closing, second-x, dim-removed, not-modal, old-modal-from-move,
  *  muted-start-lost, pause-not-restored. Measured 16 Nov 2026 (head ab71d940e): all ten red at their named test with
- *  their named assertion, each control green; no survivors. Results in docs/Changelog-Archive.md (VID1).
+ *  their named assertion, each control green; no survivors. VID1-R1 (the reader of #427) adds close-always-unpauses (its
+ *  R2: every close un-pauses), dim-press-falls-through (its R1: a dim press also clicks what is under it) and
+ *  zoom-guard-removed (a player that takes a press during its zoom). Results in docs/Changelog-Archive.md (VID1).
  */
 
 const THEATER = ".ng-video-theater"
@@ -179,6 +181,25 @@ const dimPoint = (page: Page) => page.evaluate(sel => {
 
 const players = (page: Page) => page.evaluate(() => (window as any).__players.map((p: any) => ({ play: p.play, destroy: p.destroy, mute: p.mute })))
 
+/** One of the three ways out, by real input: Esc, the ✕ (mouse or touch at its measured centre), or the dim (at a point
+ *  the dialog owns, over a control where one lies outside the video). */
+async function closeBy(page: Page, touch: boolean, exit: "Esc" | "✕" | "dim") {
+  if (exit === "Esc") await page.keyboard.press("Escape")
+  else if (exit === "✕") await press(page, touch, THEATER + " .ngClipX", "the theater's ✕")
+  else {
+    const p = await dimPoint(page)
+    expect(p.dialog, `the dim owns the press over ${p.over}: nothing under it takes it`).toBe(true)
+    if (touch) await page.touchscreen.tap(p.x, p.y); else await page.mouse.click(p.x, p.y)
+  }
+}
+
+/** A control's measured centre, refused unless the control (or a child) owns that point. */
+const centre = (page: Page, selector: string) => page.evaluate(sel => {
+  const el = document.querySelector(sel)!, r = el.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2
+  const top = document.elementFromPoint(x, y)
+  return { x, y, ok: !!top && (top === el || el.contains(top)) }
+}, selector)
+
 for (const [width, height, touch] of [[1440, 900, false], [390, 631, true]] as const) {
   test.describe(`${width}x${height} ${touch ? "touch" : "mouse"}`, () => {
     test.use({ viewport: { width, height }, hasTouch: touch, isMobile: touch })
@@ -228,12 +249,69 @@ for (const [width, height, touch] of [[1440, 900, false], [390, 631, true]] as c
         await expect(page.locator(THEATER)).toHaveCount(0)
       })
     }
+
+    // VID1-R1 (the reader of #427, fix 1): every test above starts from a RUNNING game, so the pause was proven given back
+    // one way only; the reader's mutant R2 (every close un-pauses, close-always-unpauses in the manifest) turned nothing
+    // red. These start PAUSED: a close must leave a paused game paused, read again 2s of game time later.
+    for (const surface of ["move", "current"] as Surface[]) {
+      for (const exit of ["Esc", "✕", "dim"] as const) {
+        test(`VID1 ${surface}: a game paused before the press stays paused after ${exit} closes it (${width}x${height})`, async ({ page }) => {
+          const j = await boot(page, surface)
+          await page.evaluate(() => (window as any).__neural.setPaused(true))
+          const before = await scene(page)
+          expect(before.paused, "premise: the game is paused").toBe(true)
+          await press(page, touch, OPEN[surface], `the ${surface} video's play control`)
+          await opened(page)
+          await closeBy(page, touch, exit)
+          await expect(page.locator(THEATER), exit + " closes the video").toHaveCount(0)
+          await j.advance(2000)
+          expect((await scene(page)).paused, `a game paused before the press is still paused after ${exit}`).toBe(true)
+          expect(await scene(page), exit + " leaves everything as it was").toEqual(before)
+        })
+      }
+    }
+
+    // VID1-R1 (fix 2a): a quick double press on a play control put its second press inside the player while it zoomed
+    // in; focus went into the provider's frame and Esc no longer closed the video (the reader: 2 of 2, a double click at
+    // 1440x900 and two taps 90ms apart at 390x631). The player takes no press until the zoom has settled: one video,
+    // played once, focus on the ✕, and Esc closes it. After the zoom a press on the player is the player's (with YouTube,
+    // pause or seek); Esc then stays in its frame, which is said in docs/Neural.md, and the ✕ still closes it.
+    for (const surface of ["move", "current"] as Surface[]) {
+      test(`VID1 ${surface}: a double press opens one video and Esc still closes it; after the zoom the player takes a press (${width}x${height})`, async ({ page }) => {
+        await boot(page, surface)
+        const c = await centre(page, OPEN[surface])
+        expect(c.ok, `the ${surface} video's play control owns its centre`).toBe(true)
+        if (touch) { await page.touchscreen.tap(c.x, c.y); await page.waitForTimeout(90); await page.touchscreen.tap(c.x, c.y) }
+        else await page.mouse.dblclick(c.x, c.y)
+        await expect(page.locator(THEATER + " iframe")).toHaveCount(1)
+        await page.locator(THEATER).evaluate(async d => { await Promise.all(d.getAnimations().map(a => a.finished)) })
+        await expect.poll(() => page.evaluate(() => (window as any).__players[0]?.play)).toBeGreaterThan(0)
+        expect(await page.evaluate(() => ({
+          theaters: document.querySelectorAll(".ng-video-theater").length,
+          players: (window as any).__players.map((p: any) => ({ play: p.play, destroy: p.destroy })),
+          onX: !!document.activeElement?.matches(".ng-video-theater .ngClipX"),
+        })), "a double press: one video, played once, focus still on the ✕").toEqual({ theaters: 1, players: [{ play: 1, destroy: 0 }], onX: true })
+        await page.keyboard.press("Escape")
+        await expect(page.locator(THEATER), "Esc closes it").toHaveCount(0)
+        // After the zoom: the player owns its own point, and a press there reaches it (the stub's own Play: play 2).
+        await press(page, touch, OPEN[surface], `the ${surface} video's play control`)
+        await opened(page)
+        const p = await centre(page, THEATER + " iframe")
+        expect(p.ok, "after the zoom the player owns its own point").toBe(true)
+        if (touch) await page.touchscreen.tap(p.x, p.y); else await page.mouse.click(p.x, p.y)
+        await expect.poll(() => page.evaluate(() => (window as any).__players.at(-1).play), { message: "after the zoom a press on the player is the player's" }).toBe(2)
+        await press(page, touch, THEATER + " .ngClipX", "the theater's ✕")
+        await expect(page.locator(THEATER), "the ✕ closes it after a press inside the player").toHaveCount(0)
+      })
+    }
   })
 }
 
-// The hand stays exactly as it was: a press on the dim over a move card neither commits nor opens it, and closing gives
-// back a RUNNING game (the modal restored `wasPaused`; VID1 keeps that, and the current card's theater now does too).
-test("VID1 a running game is running again after the move's video closes; the dim over a card commits nothing", async ({ page }) => {
+// A RUNNING game runs again when the move's video closes by the dim (the modal restored `wasPaused`; VID1 keeps that, and
+// the current card's theater now does too). VID1-R1: this test was titled "the dim over a card commits nothing" and, at
+// 1440x900, pressed at (4,4) on the map (every card there lies under the video); the press over another move's card is
+// the 390x631 test below.
+test("VID1 a running game is running again after the move's video closes by the dim (1440x900)", async ({ page }) => {
   const j = await boot(page, "move")
   await page.evaluate(() => (window as any).__neural.setPaused(false))
   const before = await scene(page)
@@ -241,11 +319,54 @@ test("VID1 a running game is running again after the move's video closes; the di
   await j.clickByMouse(OPEN.move, "Watch the move")
   await opened(page)
   expect(await page.evaluate(() => (window as any).__neural.paused), "watching pauses the game").toBe(true)
-  const card = await page.locator(`${CARD} .ng-choice-title-button`).boundingBox()
-  const box = await page.locator(THEATER).boundingBox()
-  const over = card!.y + card!.height / 2 > box!.y + box!.height ? { x: card!.x + card!.width / 2, y: card!.y + card!.height / 2 } : { x: 4, y: 4 }
-  expect(await page.evaluate(({ x, y }) => document.elementFromPoint(x, y)?.matches(".ng-video-theater"), over), "the dim owns the point over the card").toBe(true)
-  await page.mouse.click(over.x, over.y)
+  await closeBy(page, false, "dim")
   await expect(page.locator(THEATER)).toHaveCount(0)
   expect(await scene(page), "nothing committed, and the game runs again").toEqual(before)
+})
+
+// VID1-R1 (the reader of #427, fix 3): the dim over ANOTHER MOVE'S CARD, pressed for real. 390x631 is the size where a
+// card lies outside the video (the reader: S-Mount Transition at (12,484), the video's bottom at 420); at 1440x900,
+// 1024x768, 1024x600 and 390x844 every card lies under it. The point is measured: before the video opens, a point where
+// that card owns `elementFromPoint`; after, the same point outside the video, owned by the dialog. No such point fails
+// the test (it would have no subject). The reader's mutant R1 (a dim press that also clicks what is under it,
+// dim-press-falls-through in the manifest) is red here.
+test.describe("390x631 touch: the dim over another move's card", () => {
+  test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })
+  test("VID1 the dim over another move's card commits nothing and opens nothing (390x631)", async ({ page }) => {
+    await boot(page, "move")
+    await page.evaluate(() => (window as any).__neural.setPaused(false))
+    const spots = await page.evaluate(sel => {
+      const own = document.querySelector(sel)!.closest("[data-tech]"), out: { x: number; y: number; tech: string }[] = []
+      for (const card of document.querySelectorAll<HTMLElement>("[data-tech]")) {
+        if (card === own) continue
+        const r = card.getBoundingClientRect()
+        for (const fx of [.2, .5, .8]) for (const fy of [.2, .5, .8]) {
+          const x = r.left + fx * r.width, y = r.top + fy * r.height
+          if (x > 1 && y > 1 && x < innerWidth - 1 && y < innerHeight - 1 && document.elementFromPoint(x, y)?.closest("[data-tech]") === card)
+            out.push({ x, y, tech: card.dataset.tech! })
+        }
+      }
+      return out
+    }, OPEN.move)
+    const before = await scene(page)
+    expect(before.paused, "premise: the game runs").toBe(false)
+    await press(page, true, OPEN.move, "the move's play circle")
+    await opened(page)
+    const spot = await page.evaluate(({ sel, spots }) => {
+      const d = document.querySelector(sel)!, b = d.getBoundingClientRect()
+      return spots.find(s => {
+        const card = document.querySelector(`[data-tech="${CSS.escape(s.tech)}"]`)!.getBoundingClientRect()
+        const outside = s.x < b.left - 2 || s.x > b.right + 2 || s.y < b.top - 2 || s.y > b.bottom + 2
+        const still = s.x > card.left && s.x < card.right && s.y > card.top && s.y < card.bottom
+        return outside && still && document.elementFromPoint(s.x, s.y) === d
+      }) || null
+    }, { sel: THEATER, spots })
+    expect(spot, "another move's card lies under the dim, outside the video, at a point the dim owns").not.toBeNull()
+    await page.touchscreen.tap(spot!.x, spot!.y)
+    await expect(page.locator(THEATER), "the dim closes the video").toHaveCount(0)
+    const after = await scene(page)
+    expect({ commits: after.commits - before.commits, videos: (await players(page)).length },
+      `the dim over ${spot!.tech}: nothing committed, no second video`).toEqual({ commits: 0, videos: 1 })
+    expect(after, "nothing committed, and the game runs again").toEqual(before)
+  })
 })

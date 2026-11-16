@@ -126,6 +126,46 @@
    "test": "a running game is running again",
    "assertion": "nothing committed, and the game runs again",
    "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
+  },
+  {
+   "name": "close-always-unpauses",
+   "edits": [
+    [
+     "label: \"Watch \" + target.node.t, onClose: () => this.setPaused(wasPaused === true) });",
+     "label: \"Watch \" + target.node.t, onClose: () => this.setPaused(false) });"
+    ],
+    [
+     "restore = () => this.setPaused(was === true); }",
+     "restore = () => this.setPaused(false); }"
+    ]
+   ],
+   "test": "a game paused before the press stays paused after Esc closes it \\(1440x900\\)",
+   "assertion": "a game paused before the press is still paused after Esc",
+   "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
+  },
+  {
+   "name": "dim-press-falls-through",
+   "edits": [
+    [
+     "dialog.onclick = e => { if (e.target === dialog) this.collapseClip(card); };",
+     "dialog.onclick = e => { if (e.target === dialog) { this.collapseClip(card); document.elementFromPoint(e.clientX, e.clientY)?.click(); } };"
+    ]
+   ],
+   "test": "VID1 the dim over another move's card commits nothing and opens nothing \\(390x631\\)",
+   "assertion": "nothing committed, no second video",
+   "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
+  },
+  {
+   "name": "zoom-guard-removed",
+   "edits": [
+    [
+     "    dialog.append(guard);\n",
+     ""
+    ]
+   ],
+   "test": "VID1 move: a double press opens one video and Esc still closes it; after the zoom the player takes a press",
+   "assertion": "a double press: one video, played once, focus still on the ✕",
+   "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
   }
  ]
 }

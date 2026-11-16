@@ -2735,10 +2735,21 @@ class Component extends DCLogic {
     });
     dialog.showModal(); close.focus({ preventScroll: true });
     const to = dialog.getBoundingClientRect();
-    if (!this._reducedMotion()) dialog.animate([
+    if (this._reducedMotion()) return;
+    // THE PLAYER TAKES NO PRESS UNTIL ITS ZOOM HAS SETTLED (VID1-R1, the reader of #427: a quick double press on a play
+    // circle put its second press inside the player while it zoomed in; focus went into the provider's frame and Esc,
+    // which the owner asked for ("pressing esc should close the video"), no longer closed it). For the 360ms a bare layer
+    // over the player, under the ✕, owns every press over the frame: nothing reaches the player, nothing closes the
+    // theater (its target is not the dialog), and focus stays on the ✕. A press inside the player after the zoom is the
+    // player's, and Esc then stays in its frame until focus leaves it; the ✕ and the dim still close it (docs/Neural.md).
+    const guard = document.createElement("div");
+    guard.style.cssText = "position:absolute;inset:0;z-index:3;";
+    guard.addEventListener("mousedown", e => e.preventDefault()); // keeps focus on the ✕, out of the player's frame
+    dialog.append(guard);
+    dialog.animate([
       { transform: `translate(${from.x + from.width / 2 - to.x - to.width / 2}px,${from.y + from.height / 2 - to.y - to.height / 2}px) scale(${from.width / to.width},${from.height / to.height})` },
       { transform: "none" },
-    ], { duration: 360, easing: "cubic-bezier(.2,.7,.2,1)" });
+    ], { duration: 360, easing: "cubic-bezier(.2,.7,.2,1)" }).finished.then(() => guard.remove(), () => guard.remove());
   }
   collapseClip(card) {
     if (!card) return;
