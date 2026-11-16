@@ -183,9 +183,9 @@ export async function installReader(app) {
   for (const name of ["expandClip", "collapseClip"]) {
     const original = app[name];
     app[name] = function (...args) {
-      // D-353: a play is the player's own input and settles a pinned landing, as grading does. A
-      // current technique's player now opens in the theater and only a reference clip opens in place,
-      // but the landing still settles. No sync here: moving a film that just started could pause it.
+      // D-353: a play is the player's own input and settles a pinned landing, as grading does. Every
+      // clip opens in the theater since VID1 (until v1.280.0 a reference clip opened in place), and the
+      // landing still settles. No sync here: moving a film that just started could pause it.
       if (name === "expandClip") this._readerPin = null;
       const result = original.apply(this, args); reader.layout(); return result;
     };
