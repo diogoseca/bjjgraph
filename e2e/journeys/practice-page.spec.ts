@@ -1,5 +1,9 @@
 import { expect, test } from "@playwright/test";
 import { journey } from "../dsl";
+// v1.282.0 (rulings R2, SET1-GO): written when nothing stored meant Classic recall in the sidebar; since then nothing
+// stored is Auto (a new card asks multiple choice), so every journey here states the mode it was written under,
+// Front Back cards, through the DSL (`journey(page, CLASSIC)`), and keeps every assertion.
+const CLASSIC = { answerMode: "classic" } as const
 
 /** P1-A..F. The production page and renderer, entered with measured pointer/touch
  * or native Tab/Enter. No locator click can scroll the first answer into view.
@@ -75,7 +79,7 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }
   // Every case runs in e2e-full's core shards on each PR and each merge to dev; tests/artifacts/deploy_gate.json.
   for (const cold of [false, true]) test(`P1-A: ${viewport.width}×${viewport.height} ${cold ? "cold review" : "warm new"} opens on an operable question${viewport.width === 390 && viewport.height === 844 && !cold ? " @curated" : ""}`, async ({ page }) => {
     await page.setViewportSize(viewport);
-    const j = journey(page); await j.boot("/");
+    const j = journey(page, CLASSIC); await j.boot("/");
     await page.waitForFunction(() => !!(window as any).__neural.curriculum);
     let held = 0, release!: () => void;
     const gate = new Promise<void>(r => { release = r; });
@@ -105,7 +109,7 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }
 // stands as it was: Practice's corridor starts at the belt you wear, earlier belts are one press away, and a hidden lesson
 // takes no input.
 test("U163 c: every belt section is open; earlier work is revealable; a later belt can be selected and unfolded", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1, 0, "blue"); await door(page, j);
   await expect(page.locator('[data-belt="white"]')).toHaveCount(0);
@@ -133,7 +137,7 @@ test("U163 c: every belt section is open; earlier work is revealable; a later be
 });
 
 test("P1-C: explicit new practice reaches 21 before the due queue is cleared", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   await seed(page, 2, 20); await door(page, j);
@@ -163,7 +167,7 @@ test("P1-C: explicit new practice reaches 21 before the due queue is cleared", a
 });
 
 test("P1-D: a late planner preserves a revealed answer and in-flight press, then appends new work", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   let held = 0, release!: () => void;
   const gate = new Promise<void>(r => { release = r; });
@@ -192,7 +196,7 @@ test("P1-D: a late planner preserves a revealed answer and in-flight press, then
 
 for (const paused of [false, true]) test(`P1-E: card arrows, Space, swipe and close preserve pause ownership (${paused})`, async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 631 });
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 0);
   await page.evaluate((p) => (window as any).__neural.setPaused(p), paused);
@@ -220,7 +224,7 @@ for (const paused of [false, true]) test(`P1-E: card arrows, Space, swipe and cl
 });
 
 test("P1-E: detached card registry entries never receive input", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1); await door(page, j);
   await expect(page.locator('[data-mini-q]:visible'), "P1-A: first question opens").toHaveCount(1);
@@ -237,7 +241,7 @@ test("P1-E: detached card registry entries never receive input", async ({ page }
 });
 
 test("P1-D: both real cold indexes preserve the Practice answer and keyboard focus", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 2);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
@@ -265,7 +269,7 @@ test("P1-D: both real cold indexes preserve the Practice answer and keyboard foc
 
 for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { width: 1440, height: 900 }]) test(`P1-A/D: recognition at ${viewport.width}×${viewport.height} keeps options, selected answer and focus through the late planner`, async ({ page }) => {
   await page.setViewportSize(viewport);
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 0);
   await j.rig("practice-mc-pick", Array(100).fill(.31)); await j.rig("practice-mc-shuffle", Array(100).fill(.56));
@@ -304,7 +308,7 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }
 });
 
 test("P1-F: Practice retains comparison, rewards, Path and one deliberate visit event", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1);
   await page.evaluate(async () => {
@@ -334,7 +338,7 @@ test("P1-F: Practice retains comparison, rewards, Path and one deliberate visit 
 });
 
 test("P1-F: a Practice unit still starts its evidence-gated checkpoint", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1);
   const unit = await page.evaluate(() => {
@@ -382,7 +386,7 @@ async function openCard(page: any, j: any, deck: string, qh: string) {
 }
 
 test("P1-E: an unpoolable recognition card falls back to keyboard recall", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 0);
   await j.rig("practice-mc-pick", Array(100).fill(.31)); await j.rig("practice-mc-shuffle", Array(100).fill(.56));
@@ -420,7 +424,7 @@ test("P1-E: an unpoolable recognition card falls back to keyboard recall", async
 });
 
 test("P1-E: Back restores the origin URL, title, selection and drawer focus", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
@@ -440,7 +444,7 @@ test("P1-E: Back restores the origin URL, title, selection and drawer focus", as
 
 test("P1-A: long authored answers and enlarged text scroll to an operable grade", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 631 });
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 0);
   const length = await page.evaluate(async () => {
@@ -478,7 +482,7 @@ test("P1-A: long authored answers and enlarged text scroll to an operable grade"
 });
 
 test("P1-E: Back restores keyboard focus to Path's maintenance opener", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
@@ -509,7 +513,7 @@ async function pressLesson(page: any, j: any, key: string) {
 }
 
 test("P1-F: a lesson finished in Practice opens its checkpoint without leaving the page", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   await seed(page, 0);
@@ -529,7 +533,7 @@ test("P1-F: a lesson finished in Practice opens its checkpoint without leaving t
 });
 
 test("P1-E: the open card's title row never blanks the card", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   await seed(page, 2); await door(page, j);
@@ -542,7 +546,7 @@ test("P1-E: the open card's title row never blanks the card", async ({ page }) =
 
 for (const viewport of [{ width: 390, height: 631 }, { width: 1440, height: 900 }]) test(`P1-C: finishing at ${viewport.width}×${viewport.height} puts the end card and Keep practising on screen`, async ({ page }) => {
   await page.setViewportSize(viewport);
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   // Until v1.278.0: 20 answered today and one owed card, so grading that card finished the session. With the goal met,
@@ -579,7 +583,7 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 1440, height: 900 
 });
 
 test("P1-F: one owed card, one stripe and an unplanned visit read as plain counts", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   let release!: () => void;
   const gate = new Promise<void>(r => { release = r; });
@@ -611,7 +615,7 @@ test("P1-F: one owed card, one stripe and an unplanned visit read as plain count
 });
 
 test("P1-E: an answered recognition card offers Next card to the mouse", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   await seed(page, 0);
@@ -638,7 +642,7 @@ test("P1-E: an answered recognition card offers Next card to the mouse", async (
 });
 
 test("P1-F: with no planner a corridor lesson still opens, and the fallback says so", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.route("**/app/gameplan.js*", route => route.abort());
   await seed(page, 1);
@@ -651,7 +655,7 @@ test("P1-F: with no planner a corridor lesson still opens, and the fallback says
 });
 
 test("P1-F: the graph follows the queue beside the page, and rings it", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await j.land("Mount Top");   // a landed board: on a bare boot, advance() starts the roll that retires the session
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());

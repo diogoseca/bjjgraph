@@ -160,7 +160,9 @@ test("renderer and either observer can throw without losing a grade, save or the
   for (const correct of [true, false]) for (const failing of ["renderTabSubtitles", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]) {
     const warnings = [], a = gradeHost(reportingComponent(warnings));
     const calls = [], fault = new Error(failing); let broken = true, saves = 0;
-    a.stage = { "A|Top": { [a.qhash("q")]: 2 } }; a.rec = { "A|Top": 0 };
+    // seeded at 3 (2 until v1.282.0): the stage is how this test sees that the grade landed, and since the floor at 2 (R1) a
+    // miss at 2 leaves 2, which a lost grade would leave too; from 3 both answers move it (4, or 2)
+    a.stage = { "A|Top": { [a.qhash("q")]: 3 } }; a.rec = { "A|Top": 0 };
     a._saveProgress = () => { saves++; a.persisted = evidenceOf(a); };
     for (const name of ["renderTabSubtitles", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]) {
       a[name] = () => {
@@ -172,7 +174,7 @@ test("renderer and either observer can throw without losing a grade, save or the
     const result = a.gradeRecall("A|Top", { q: "q" }, correct, "throw:1");
     assert.equal(result.status, "applied"); assert.equal(saves, 1);
     assert.deepEqual(a.persisted, evidenceOf(a));
-    assert.equal(a.stage["A|Top"][a.qhash("q")], correct ? 3 : 1);
+    assert.equal(a.stage["A|Top"][a.qhash("q")], correct ? 4 : 2);
     assert.deepEqual(a.srs["B|Bottom"][a.qhash("q")], [101, 1, 100]);
     await Promise.resolve();
     assert.deepEqual(calls, ["renderTabSubtitles", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]);
@@ -393,20 +395,66 @@ test("all MC surfaces preserve prior grade arithmetic; valid repeats and trap/no
     for (const [name, fn] of Object.entries(old)) b[name] = fn;
     b._bumpStageVer = () => {};
     a.isTest = b.isTest = () => true;
+    // THE FLOOR AT 2 (v1.282.0, R1) IS THE ONE DEPARTURE FROM THE CAPTURED WRITER, and this sequence meets it: the trap
+    // (pick 1) at step 6 finds the card at 2, which the captured writer sends to 1 and the floor keeps at 2. So the stage
+    // is compared as "the captured writer's, raised to 2 once it has reached 2"; every other field is compared as before.
+    let reached2 = false, departed = 0;
     for (const pick of [2, 1, 0, 0, 0, 1, 0, 2, 0]) {
       const truth = { correct: 0, tiers: ["correct", "trap", "wrong"], surface, qhash: a.qhash("q") };
       a._mcAnswer(pick, { q: "q" }, "A|Top", wrap(), {}, null, { ...truth });
       b._mcAnswer(pick, { q: "q" }, "A|Top", wrap(), {}, null, { ...truth });
-      for (const field of ["prep", "stage", "rec", "_sharp", "_days"]) {
+      for (const field of ["prep", "rec", "_sharp", "_days"]) {
         assert.deepEqual(a[field], b[field], `${surface}/${pick}/${field}`); checked++;
       }
+      const qh = a.qhash("q"), old = (b.stage["A|Top"] || {})[qh] || 0;
+      if (old >= 2) reached2 = true;
+      const want = reached2 ? Math.max(2, old) : old;
+      if (want !== old) departed++;
+      assert.deepEqual(a.stage, old || want ? { "A|Top": { [qh]: want } } : b.stage, `${surface}/${pick}/stage`); checked++;
       // srs: the captured writer's decks, every row a day after the one day these answers fall on (v1.279.0: a same-day
       // repeat earns nothing; until then the srs equalled the captured writer's, a rung a right answer)
       const day = a._epochDay();
       assert.deepEqual(a.srs, Object.fromEntries(Object.entries(b.srs).map(([dk, rows]) => [dk, Object.fromEntries(Object.keys(rows).map((q) => [q, [day + 1, 1, day]]))])), `${surface}/${pick}/srs`); checked++;
     }
+    assert.ok(departed > 0, `${surface}: the sequence reaches the floor's one departure, else this compares nothing new`);
   }
   console.log(`captured prior MC evidence comparisons: ${checked}`);
+});
+
+// THE FLOOR AT 2 (v1.282.0, ruling R1; the owner: "after a player dominates MC for a card he is shown FC cards, and never
+// again the multiple choice"). The rule as an independent table, start stage x answer -> stage, for EVERY writer of the stage
+// that can lower one: the grade (`ngKnowledgeApplyGrade`) and the journeys' seam `_bumpStage` (no app caller). Counted with
+// `| wc -l` in the PR: the writers of `stage` are the grade, the evidence adoption, the load, the per-card MAX merge, the
+// merged-map assignment, `_bumpStage` and the stale-card prune; only the first and `_bumpStage` can lower a live card.
+// Mutants: the floor at stage 1 (`cur >= 1 ? 1 : 0`) and no floor each turn this red.
+test("the floor at 2: no answer takes a card below 2 once there; 3 -> 2 and 4 -> 3 on a miss as before; the miss still resets the schedule", () => {
+  const q = { q: "q" }, h = K.ngKnowledgeQuestionHash(q.q), manifest = { decks: {} };
+  const kinds = {
+    "recall wrong": { mode: "recall", correct: false },
+    "mc trap": { mode: "mc", correct: false, tier: "trap" },
+    "mc near": { mode: "mc", correct: false, tier: "near" },
+    "expiry": { mode: "expiry", correct: false },
+    "recall right": { mode: "recall", correct: true },
+    "mc right": { mode: "mc", correct: true, tier: "correct" },
+  };
+  const want = {   // start stage 0..4
+    "recall wrong": [0, 0, 2, 2, 3], "mc trap": [0, 0, 2, 2, 3], "mc near": [0, 1, 2, 3, 4], "expiry": [0, 1, 2, 3, 4],
+    "recall right": [1, 2, 3, 4, 4], "mc right": [1, 2, 2, 3, 4],
+  };
+  let n = 0;
+  for (const [kind, ev] of Object.entries(kinds)) for (let s0 = 0; s0 <= 4; s0++) {
+    const e0 = K.ngKnowledgeBuildEvidence({ stage: s0 ? { a: { [h]: s0 } } : {}, srs: { a: { [h]: [100, 7, 93] } } });
+    const r = K.ngKnowledgeApplyGrade(e0, { key: "a", card: q, attemptId: kind + s0, ...ev }, manifest, 100);
+    assert.equal((r.evidence.stage.a || {})[h] || 0, want[kind][s0], kind + " from stage " + s0); n++;
+    if (!r.effects.correct) { assert.deepEqual(r.evidence.srs.a[h], [101, 1, 100], kind + " from " + s0 + ": the miss still resets the schedule"); n++; }
+  }
+  // the journeys' seam keeps the same floor
+  const g = gradeHost();
+  for (const [s0, s1] of [[1, 0], [2, 2], [3, 2], [4, 3]]) {
+    g.stage = { "A|Top": { [g.qhash("q")]: s0 } };
+    assert.equal(g._bumpStage("A|Top", "q", -1), s1, "_bumpStage -1 from " + s0); n++;
+  }
+  assert.equal(n, 30 + 20 + 4, "every cell was asked");
 });
 
 test("transient event projection equals real landing answer and both expiry branches", () => {

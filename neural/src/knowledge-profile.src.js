@@ -533,7 +533,13 @@ export function ngKnowledgeApplyGrade(evidence, event, manifest, day) {
   if (ok || event.mode === "recall" || event.tier === "trap") {
     const stages = ngKnowledgeBucket(next.stage, key);
     const cap = event.mode === "mc" && ok ? 2 : 4;
-    stage = ok ? Math.max(cur, Math.min(cap, cur + 1)) : Math.max(0, Math.min(cap, cur - 1));
+    // THE FLOOR AT 2 (v1.282.0, ruling R1, owner 15 Nov: "after a player dominates MC for a card he is shown FC cards, and
+    // never again the multiple choice"). Stage 2 is what Auto calls mastered as multiple choice (`_cardAsksMc`, app), and a
+    // miss there used to send the card back to 1, i.e. back to multiple choice. Now no answer takes a card below 2 once it
+    // got there; a miss still costs its schedule (rung 0, due tomorrow, below) and still costs a stage above 2 (3 -> 2,
+    // 4 -> 3, as before). Side effect, told to the owner: a card missed at 2 keeps 2/3 of its mastery (min(stage,3)/3)
+    // where it dropped to 1/3. Nothing stored is added; the per-card MAX merge already never lowers it.
+    stage = ok ? Math.max(cur, Math.min(cap, cur + 1)) : Math.max(cur >= 2 ? 2 : 0, Math.min(cap, cur - 1));
     ngKnowledgePut(stages, qh, stage);
   }
   for (const dk of decks) {
