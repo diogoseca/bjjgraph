@@ -384,12 +384,19 @@ for (const v of VIEWS) test.describe(v.name + ", the clock held during the round
     await expect.poll(async () => { await j.advance(200); return (await articleOf(page)).vis }, { message: "the article is back with the new roll" }).toBe("visible")
   })
 
-  test("a round ended with the clock held (the seam, as on a board staged by a URL): the article stays, the verdict above it in the map's band", async ({ page }) => {
+  test("a round ended with the clock held (the seam, on a board staged by a URL): the article stays, the verdict above it in the map's band", async ({ page }) => {
     const j = journey(page)
-    await landed(page, j)
-    // Not reachable by a player's press (a fresh visitor's first press releases the clock, measured on all five page types):
-    // the seam is held to the rule anyway, since the ruling is about the state, not about how it is reached
-    await page.evaluate(() => { const a = (window as W).__neural; a.setPaused(true); a.endRound("win", "Armbar") })
+    // A URL arrival: the board staged with the clock held, the article under the hand. The round is ended there through its seam:
+    // not reachable by a player's press (a fresh visitor's first press releases the clock, measured on all five page types),
+    // but the ruling is about the state. The hand goes with the round's end and the article jumps up into the middle of the
+    // screen (1440: 654 -> 432; 390x631: 768 -> 296), where a centred verdict would cross it: the dock (`_endBoard`, every
+    // frame while held) is what keeps it clear
+    await j.boot("/Positions/Mount/Top")
+    await expect(page.locator(READY)).toBeVisible({ timeout: 15000 })
+    await j.advance(6500); await j.readerLayoutSettled(); await j.advance(100)
+    if (await page.locator("[data-reward-close]").isVisible()) { await j.clickByMouse("[data-reward-close]", "dismiss the earned patch"); await j.advance(300) }
+    expect(await page.evaluate(() => (window as W).__neural.paused), "the staged board holds the clock").toBe(true)
+    await page.evaluate(() => (window as W).__neural.endRound("win", "Armbar"))
     for (const ms of [100, 1500, 5000]) {
       await j.advance(ms === 100 ? 100 : ms - 100); await page.evaluate(() => document.body.getBoundingClientRect().top)
       const s = await state(page), art = await articleOf(page), o = await verdictOverArticle(page)
