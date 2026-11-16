@@ -91,12 +91,14 @@ test("a run that never navigated, never played, or checked too few head resource
 })
 
 // ── THE YOUTUBE PLAYER'S PERMISSIONS-POLICY LINE (v1.281.1, 2026-11-16, run 43870539526) ─────────────
-// The exception is the conjunction of a LOCATION (a script under https://www.youtube.com/s/player/) and a TEXT prefix
-// ("Permissions policy violation:"), on every origin. MUTANTS, each red by the test named (v1.281.1): the location
-// test dropped (any such text discounted) -> "...the same text from OUR origin is an offender"; the text test dropped
-// (anything the player logs discounted) -> "...any other error from the player is an offender"; the origin compared by
-// substring (`at.includes("youtube.com/s/player/")`) -> "...a lookalike host is an offender"; the exception applied
-// off production only -> "...discounted on production too"; report() not printing it -> "...counted and printed".
+// The exception is the conjunction of a LOCATION (the player's own base.js: /s/player/<build>/<variant>.vflset/<locale>/base.js
+// on https://www.youtube.com) and a TEXT naming a RULED feature ("Permissions policy violation: compute-pressure is not allowed"),
+// on every origin. Narrowed by the reader of #424 (STAR3-R1): a feature we grant (picture-in-picture, in our `allow` and header)
+// and the widget API's location (it runs in OUR document) are offenders. MUTANTS (v1.281.1), each red by a case named below,
+// a neutral control green; the table is in the PR: the reader's R1 location by substring, R2 text dropped, R3 the exception
+// returning before the offender list is built, R4 a player line clearing earlier offenders, R5 path dropped, R6 host by
+// endsWith("youtube.com"), R7 host only (http and any port), R8 text by includes, R9 not printed, R10 off production only;
+// F1 any feature (the first version's text test), F2 any file under /s/player/ (its path test).
 const YT_LINE = { text: "Permissions policy violation: compute-pressure is not allowed in this document.", at: "https://www.youtube.com/s/player/fad7e4e9/player_embed.vflset/en_US/base.js" }
 
 test("the YouTube player's Permissions-Policy line is discounted, on production too, and nothing is hidden by it", () => {
@@ -106,6 +108,45 @@ test("the YouTube player's Permissions-Policy line is discounted, on production 
     assert.equal(r.playerPolicy.length, 1, `${origin}: ...and it is COUNTED`)
     assert.equal(r.discounted.length, 0, `${origin}: ...as the player's, not as Cloudflare's`)
   }
+})
+
+test("the YouTube exception: a feature WE grant, at the player's own base.js, is an offender (a header regression of ours)", () => {
+  for (const origin of ["https://abc123.bjjgraph.pages.dev", `https://${ANALYTICS_SITE_HOST}`]) {
+    const r = classify(clean(origin, { console: [{ text: "Permissions policy violation: picture-in-picture is not allowed in this document.", at: "https://www.youtube.com/s/player/fad7e4e9/player_embed.vflset/pt_PT/base.js" }] }))
+    assert.equal(r.offenders.length, 1, `${origin}: picture-in-picture is ours to grant`)
+    assert.equal(r.playerPolicy.length, 0)
+  }
+  // ...while the ruled feature from another build and locale of the same file is still the player's
+  const other = classify(clean("https://bjjgraph.org", { console: [{ text: YT_LINE.text, at: "https://www.youtube.com/s/player/0b1c2d3e/player_embed.vflset/pt_PT/base.js" }] }))
+  assert.deepEqual(other.offenders, [])
+  assert.equal(other.playerPolicy.length, 1)
+})
+
+test("the YouTube exception: the ruled line from the widget API script (it runs in OUR document) is an offender", () => {
+  const r = classify(clean("https://bjjgraph.org", { console: [{ text: YT_LINE.text, at: "https://www.youtube.com/s/player/fad7e4e9/www-widgetapi.vflset/www-widgetapi.js" }] }))
+  assert.equal(r.offenders.length, 1)
+  assert.equal(r.playerPolicy.length, 0)
+})
+
+const YT_PATH = "/s/player/fad7e4e9/player_embed.vflset/en_US/base.js"
+const offendsNotDiscounted = (cases, why) => {
+  for (const c of cases) {
+    const r = classify(clean("https://abc123.bjjgraph.pages.dev", { console: [c] }))
+    assert.equal(r.offenders.length, 1, `${why}: "${c.text.slice(0, 40)}" @ ${c.at}`)
+    assert.equal(r.playerPolicy.length, 0)
+  }
+}
+
+test("the YouTube exception (R6): a host that only ENDS in youtube.com is an offender", () => {
+  offendsNotDiscounted([{ text: YT_LINE.text, at: `https://notyoutube.com${YT_PATH}` }, { text: YT_LINE.text, at: `https://www.notyoutube.com${YT_PATH}` }], "not YouTube's host")
+})
+
+test("the YouTube exception (R7): YouTube's host over http, or on another port, is an offender", () => {
+  offendsNotDiscounted([{ text: YT_LINE.text, at: `http://www.youtube.com${YT_PATH}` }, { text: YT_LINE.text, at: `https://www.youtube.com:8443${YT_PATH}` }], "not YouTube's origin")
+})
+
+test("the YouTube exception (R8): the ruled text anywhere but at the START of the line is an offender", () => {
+  offendsNotDiscounted([{ text: `Uncaught Error: ${YT_LINE.text}`, at: YT_LINE.at }], "not the player's own line")
 })
 
 test("the YouTube exception: the same text from OUR origin is an offender", () => {
@@ -140,7 +181,7 @@ test("the YouTube exception is counted and printed with its reason, and says so 
   const res = report(log, {})
   assert.equal(res.code, 0)
   const out = res.out.join("\n")
-  assert.match(out, /discounted 2 console error\(s\) from YouTube's own player script \(a third party's line, not ours\)/)
+  assert.match(out, /discounted 2 console error\(s\) from YouTube's own player script \(a third party's line, not ours\): a ruled Permissions-Policy feature \(compute-pressure\)/)
   assert.ok(out.includes(YT_LINE.at), "each discounted line is printed with its location")
   assert.match(report(clean("https://bjjgraph.org"), {}).out.join("\n"), /the YouTube player Permissions-Policy exception matched nothing/)
   // and an offender beside it still fails the run

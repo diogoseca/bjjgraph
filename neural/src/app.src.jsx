@@ -22383,9 +22383,14 @@ class Component extends DCLogic {
       // cards, a letter between two cards): no part of its ink is under a card (`_hides` with `part`, the box padded 3 px).
       // The first build refused it under ANY control's box, as a move's name is, and so on a 390 phone landed at Mount the
       // seat star (the phone's way to save the position to a list) was gone (PR 417's shard 3, lists-picker.spec.ts).
+      // ...and the list menu is not counted against it only when the menu's star is the SEAT's own (`seatPick`, v1.281.1, STAR3-R1,
+      // the reader of #424, ruled as `clear`'s `own`): a hovered pair's star carries `data-seat-star` too, and a menu opened from it
+      // left the seat's name written under the menu (by real mouse at 1440, 4 of 5 pages, since #422). Compared as strings: an
+      // anchor without the attribute gives null, and Number(null) is node 0.
+      const pickStar = this._pickAnchor?.getAttribute("data-seat-star"), seatPick = pickStar != null && (pickStar === String(drawFocus) || pickStar === String(this.nodes[drawFocus]?.pi));
       const clearP = (l, r, t, b) => l >= NB.l + 4 && r <= W - 4 && t >= 4 && b <= H - 4
         && !claims.some((q) => l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3)
-        && !NB.blocks.some((q) => !q.pick && l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3 && this._hides(q, { l: l - 3, r: r + 3, t: t - 3, b: b + 3 }, "name", true));
+        && !NB.blocks.some((q) => !(q.pick && seatPick) && l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3 && this._hides(q, { l: l - 3, r: r + 3, t: t - 3, b: b + 3 }, "name", true));
       // PUBLISHED (GOLD1-R4, the map reader's D5): the two boxes the position's name tried THIS frame and where it went
       // (`_lastPosCand`: usual, mirror, the 3 px pad `_hides` is asked with, the claims before it, `at`), so a spec can hold the placement to the rule
       // the frame states, whether or not the name was written

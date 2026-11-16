@@ -330,8 +330,14 @@ for (const v of [{ name: "1440x900 mouse", vp: { width: 1440, height: 900 }, tou
 // is open the pointer's group is pinned to the menu's anchor (`heldStar`), so an orb hovered meanwhile gets no label at all.
 // And N2: a menu left open across a resize from desktop to phone stood at its desktop box, off the phone's screen; it closes.
 // Desktop only: a touch has no hover (a tap stages the node, which then carries the SEAT's star, held by the tests above).
-// Red-proof: MS2b (`clear` counts the menu for its own group again: the group flips to its mirror, measured 467,126 -> 311,126)
-// red at "its star stays where it was pressed"; MH (the held star no longer pins the pointer's group) red at "no label for an
+// STAR3-R1 (the reader of #424, ruled): `clearP` takes the same test (`seatPick`): a hovered pair's star carries
+// `data-seat-star` too, and its menu left the SEAT's name written under it (4 of 5 pages by real mouse, since #422). And each
+// test picks its pair by the property it needs, read at the press before any frame (`premise`), and its star well inside
+// the hover's 0.5 s life: the first version read after 500 ms of frames, so the pair it pressed varied by run and MS2b was
+// green 4 of 4 in the reader's hands.
+// Red-proof: MS2b (`clear` counts the menu for its own group again: the group flips to its mirror) red at "its star stays
+// where it was pressed"; MP (`clearP` ignores the menu for any seat star, v1.281.0's code) red at "the seat's name is not
+// written under"; MH (the held star no longer pins the pointer's group) red at "no label for an
 // orb hovered while the menu is open"; MR (no close on the breakpoint) red at "the menu closes at the crossing". Named
 // NON-KILL: MS2c (`own` ignored, every pointer group exempt) is green, and equivalent while the pin holds: with a menu open
 // no other group is drawn for `clear` to place.
@@ -366,22 +372,59 @@ test.describe("1440x900, a hovered pair's star and a resize", () => {
     return out.sort((u, v) => u.d - v.d).slice(0, 8)
   })
 
-  test("a hovered pair's star: its menu opens and stays, its star where it was pressed; an orb hovered meanwhile gets no label", async ({ page }) => {
-    const j = await arrive(page)
-    let hit: any = null
-    for (const o of await pairOrbs(page)) {
-      await page.mouse.move(o.x, o.y); await settle(j, page, 500)   // the hover ramp: a star under alpha 0.15 is not mounted
-      if (await page.locator(`[data-seat-star="${o.idx}"]`).count()) { hit = o; break }
+  /** Hover an orb and wait, in drawn frames, for its group's star; read well inside the hover's 0.5 s life (`draw()`:
+   *  `now - _hover.t < 0.5`), so whether a star "mounts" never depends on the frame timing (STAR3-R1, the reader of #424). */
+  const hoverStar = async (j: ReturnType<typeof journey>, page: any, o: any) => {
+    await page.mouse.move(o.x, o.y)
+    for (let t = 0; t < 400; t += 50) { await j.advance(50); if (await page.locator(`[data-seat-star="${o.idx}"]`).count()) return true }
+    return false
+  }
+  /** Read at the press, BEFORE any frame is drawn on the open menu: the menu's box against the boxes the last frame drew
+   *  (`_lastNameBoxes`): does it touch the pressed group's own label (the `clear` margin, 3 px)? does it hide the seat's name
+   *  (the app's own `_hides`, the box padded 3 px, as `clearP` asks it)? */
+  const premise = (page: any, idx: number) => page.evaluate((idx: number) => {
+    const a = (window as any).__neural, m = a._pickEl; if (!m) return null
+    const cv = a.canvas.getBoundingClientRect(), r = m.getBoundingClientRect()
+    const menu = { l: r.left - cv.left, r: r.right - cv.left, t: r.top - cv.top, b: r.bottom - cv.top }
+    const near = (p: any, q: any) => p.l < q.r + 3 && p.r > q.l - 3 && p.t < q.b + 3 && p.b > q.t - 3
+    const q = a._nameBlocks().blocks.find((b: any) => b.el === m), boxes = a._lastNameBoxes || []
+    const own = boxes.filter((b: any) => b.w === "hover" && b.i === idx), pos = boxes.filter((b: any) => b.w === "position")
+    return {
+      menu: [menu.l, menu.t, menu.r, menu.b].map(Math.round), counted: !!q,
+      touchesOwn: own.some((p: any) => near(p, menu)),
+      hidesSeat: !!q && pos.some((p: any) => near(p, q) && a._hides(q, { l: p.l - 3, r: p.r + 3, t: p.t - 3, b: p.b + 3 }, "name", true)),
     }
-    expect(hit, "a hovered pair whose group carries a star").not.toBeNull()
-    const sel = `[data-seat-star="${hit.idx}"]`
-    const at0 = await j.boxOf(sel, "the hovered pair's star")
-    await j.clickByMouse(sel, "the hovered pair's star")
+  }, idx)
+  /** The seat's name boxes this frame drew that the open menu hides, by the app's own `_hides`. */
+  const seatNameUnderMenu = (page: any) => page.evaluate(() => {
+    const a = (window as any).__neural, m = a._pickEl, q = m && a._nameBlocks().blocks.find((b: any) => b.el === m); if (!q) return -1
+    return (a._lastNameBoxes || []).filter((p: any) => p.w === "position" && p.l < q.r + 3 && p.r > q.l - 3 && p.t < q.b + 3 && p.b > q.t - 3
+      && a._hides(q, { l: p.l - 3, r: p.r + 3, t: p.t - 3, b: p.b + 3 }, "name", true)).length
+  })
+  /** Press orbs' stars, nearest first, until one's menu meets `want` at the press; close the others (Esc, then the focus off
+   *  the star, which would otherwise hold the pointer's label). Fails naming every pair tried when none qualifies. */
+  const pressPairWhere = async (j: ReturnType<typeof journey>, page: any, want: (p: any) => boolean, why: string) => {
+    const tried: string[] = []
+    for (const o of await pairOrbs(page)) {
+      if (await page.locator("[data-list-picker]").count()) { await page.keyboard.press("Escape"); await page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur()); await settle(j, page, 500) }
+      if (!(await hoverStar(j, page, o))) { tried.push(`${o.t}: no star`); continue }
+      const sel = `[data-seat-star="${o.idx}"]`, at0 = await j.boxOf(sel, "the hovered pair's star")
+      await j.clickByMouse(sel, "the hovered pair's star")
+      const p = await premise(page, o.idx)
+      tried.push(`${o.t}: ${JSON.stringify(p)}`)
+      if (p && want(p)) return { o, sel, at0, p }
+    }
+    throw new Error(`no hovered pair whose menu ${why} (tried: ${tried.join(" · ")})`)
+  }
+
+  test("a hovered pair's star whose menu touches its own label: the menu stays, its star where it was pressed; an orb hovered meanwhile gets no label", async ({ page }) => {
+    const j = await arrive(page)
+    const { o: hit, sel, at0 } = await pressPairWhere(j, page, (p) => p.touchesOwn && !p.hidesSeat, "touches its own label and leaves the seat's name alone")
     await settle(j, page, 2000)
     await expect(page.locator("[data-list-picker]"), "still open two seconds after the press").toBeVisible()
     await expect(page.locator(sel), "its star is still there").toHaveCount(1)
     const at1 = await j.boxOf(sel, "the hovered pair's star")
-    expect(Math.hypot(at1.x - at0.x, at1.y - at0.y), `its star stays where it was pressed (${Math.round(at0.x)},${Math.round(at0.y)} -> ${Math.round(at1.x)},${Math.round(at1.y)})`).toBeLessThan(3)
+    expect(Math.hypot(at1.x - at0.x, at1.y - at0.y), `its star stays where it was pressed (${hit.t}: ${Math.round(at0.x)},${Math.round(at0.y)} -> ${Math.round(at1.x)},${Math.round(at1.y)})`).toBeLessThan(3)
     // the pointer over another orb, the menu open: no label is drawn for that orb
     const other = (await pairOrbs(page)).find((o: any) => o.idx !== hit.idx && Math.hypot(o.x - hit.x, o.y - hit.y) > 40)
     expect(other, "another orb to hover").toBeTruthy()
@@ -389,6 +432,15 @@ test.describe("1440x900, a hovered pair's star and a resize", () => {
     const hovers = await page.evaluate(() => ((window as any).__neural._lastNameBoxes || []).filter((b: any) => b.w === "hover").map((b: any) => b.i))
     expect(hovers.filter((i: number) => i === other.idx), "no label for an orb hovered while the menu is open").toEqual([])
     await expect(page.locator("[data-list-picker]"), "hovering elsewhere leaves the menu open").toBeVisible()
+  })
+
+  test("a hovered pair's menu over the SEAT's name: the seat's name is not written under it, and the menu stays", async ({ page }) => {
+    const j = await arrive(page)
+    const { o: hit, sel } = await pressPairWhere(j, page, (p) => p.hidesSeat, "hides the seat's name")
+    await settle(j, page, 2000)
+    await expect(page.locator("[data-list-picker]"), "the pair's menu is still open two seconds after the press").toBeVisible()
+    await expect(page.locator(sel), "its star (the menu's anchor) is still there").toHaveCount(1)
+    expect(await seatNameUnderMenu(page), `the seat's name is not written under ${hit.t}'s menu (the app's own _hides)`).toBe(0)
   })
 
   test("a menu open on the seat's star closes when the window crosses to a phone", async ({ page }) => {

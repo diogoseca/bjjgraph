@@ -38,10 +38,16 @@
 // from the orchestrator's machine, the player loading each time, so the line comes with whichever player build YouTube
 // serves, not with our code, and it will come back on dev and production deploys as YouTube rolls a player out. RULED:
 // we do not grant the embed a feature to silence a log (no `compute-pressure` in any `allow` attribute, nor in the
-// Permissions-Policy header). Discounted: a console error whose LOCATION is a script under https://www.youtube.com/s/player/
-// AND whose text starts with "Permissions policy violation:" (both, `ytPlayerPolicy`); counted and printed with this reason.
-// Not discounted: the same text from any other location (ours included), any other error from the player, a CSP violation,
-// a failed request of ours.
+// Permissions-Policy header). Discounted (`ytPlayerPolicy`, both conditions): the LOCATION is the player's own base.js
+// (https://www.youtube.com/s/player/<build>/<variant>.vflset/<locale>/base.js) AND the text names a RULED feature,
+// "Permissions policy violation: <feature> is not allowed" (`YT_PLAYER_DENIED_FEATURES`, one entry per ruling, never a
+// pattern); counted and printed with this reason. NARROWED by the reader of #424 (STAR3-R1, ruled): the first version took
+// ANY feature, and the reader removed picture-in-picture from OUR header and the player logged "Permissions policy violation:
+// picture-in-picture is not allowed in this document." from its base.js, twice, and the gate passed. We write the embed's
+// `allow` (autoplay, encrypted-media, picture-in-picture, fullscreen) and the Permissions-Policy header: a regression of ours
+// that denies the player a feature must fail here. Nor the widget API (/s/player/<build>/www-widgetapi.vflset/...): it runs
+// in OUR document, under our own header. Not discounted either: the same text from any other location (ours included), any
+// other error from the player, a CSP violation, a failed request of ours.
 //
 // A blocker extension (the owner's Brave Shields: ERR_BLOCKED_BY_CLIENT for PostHog's recorder) is
 // not present in CI's Chromium, so that line cannot appear here by construction. It is not a defect
@@ -59,10 +65,16 @@ import { pathToFileURL } from "node:url"
 export const ANALYTICS_SITE_HOST = "bjjgraph.org"
 const RUM = "https://cloudflareinsights.com/cdn-cgi/rum"
 export const YT_PLAYER_ORIGIN = "https://www.youtube.com"
-export const YT_PLAYER_PATH = "/s/player/"
-export const PERMISSIONS_POLICY_PREFIX = "Permissions policy violation:"
+// The player's own script, the file the line fired from: /s/player/fad7e4e9/player_embed.vflset/en_US/base.js.
+export const YT_PLAYER_BASE = /^\/s\/player\/[A-Za-z0-9_-]+\/[A-Za-z0-9_-]+\.vflset\/[A-Za-z0-9_-]+\/base\.js$/
+// RULED, ONE ENTRY PER RULING, each with its reason. Never a feature WE grant the embed (its `allow`) or set in our header.
+export const YT_PLAYER_DENIED_FEATURES = [
+  // compute-pressure (16 Nov 2026, run 43870539526): YouTube's player asks for it inside its cross-origin embed; we grant it
+  // nowhere, and ruled we will not, to silence a log
+  "compute-pressure",
+]
 
-/** Exception 2 (header): YouTube's own player script logging a feature its embed is not granted. Pure. */
+/** Exception 2 (header): YouTube's own player script logging a ruled feature its embed is not granted. Pure. */
 export function ytPlayerPolicy(c) {
   let at
   try {
@@ -70,7 +82,9 @@ export function ytPlayerPolicy(c) {
   } catch {
     return false
   }
-  return at.origin === YT_PLAYER_ORIGIN && at.pathname.startsWith(YT_PLAYER_PATH) && String(c.text).startsWith(PERMISSIONS_POLICY_PREFIX)
+  if (at.origin !== YT_PLAYER_ORIGIN || !YT_PLAYER_BASE.test(at.pathname)) return false
+  const text = String(c.text)
+  return YT_PLAYER_DENIED_FEATURES.some((f) => text.startsWith(`Permissions policy violation: ${f} is not allowed`))
 }
 export const DEEP_PROBE_PATH = "/Positions/Side-Control/Bottom"
 
@@ -233,7 +247,7 @@ export function report(log, env = process.env) {
     out.push(`[deployed-console] discounted ${discounted.length} console error(s): Cloudflare Web Analytics answers CORS only on ${ANALYTICS_SITE_HOST}, and this is ${new URL(log.origin).hostname}:\n  ${discounted.join("\n  ")}`)
   else if (offProduction) out.push("[deployed-console] the off-production RUM exception matched nothing")
   if (playerPolicy.length)
-    out.push(`[deployed-console] discounted ${playerPolicy.length} console error(s) from YouTube's own player script (a third party's line, not ours): a Permissions-Policy feature its cross-origin embed is not granted, and we grant none to silence a log:\n  ${playerPolicy.join("\n  ")}`)
+    out.push(`[deployed-console] discounted ${playerPolicy.length} console error(s) from YouTube's own player script (a third party's line, not ours): a ruled Permissions-Policy feature (${YT_PLAYER_DENIED_FEATURES.join(", ")}) its cross-origin embed is not granted, and we grant none to silence a log:\n  ${playerPolicy.join("\n  ")}`)
   else out.push("[deployed-console] the YouTube player Permissions-Policy exception matched nothing")
   if (offenders.length) err.push(`[deployed-console] FAIL — ${offenders.length} offender(s):\n  ${offenders.join("\n  ")}`)
   else out.push("[deployed-console] OK — clean console, no CSP violation, no broken same-origin URL")
