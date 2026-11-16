@@ -18527,3 +18527,147 @@ the reader's counts above), the star rule a follow-up; ratios other than 1, 1.5 
 ## v1.280.1 — Both payload baselines are checkpointed at dev v1.280.0's own level (PAY4, 2026-11-16)
 
 Each cap was reading dev's drift since v1.276.0 (PR #409, #414, #415, #416 and #417): eager +4,689 B of 5,000, first-hand core +4,724 B of 6,000; PR #418 would have gone red on it. The orchestrator's call under the owner's Q7 rule (D-327), as PAY2 and PAY3. Dev's bytes, proved: a clean export of 87d1e17ee built by its own `regenerate:neural`; 14 app rows sha-equal to dev's fingerprint; all 5,056 `static/neural` files identical to the tree served, swapped in under the lock and restored; `/` from CI's build of the same tree (the page served here was an older content build). Eager 366,576 B and core 386,019 B, equal to CI's build of the same tree. Accepted by the script before the bump (stamped `v1.280.0 (87d1e17ee)`); only the baseline fields move, no target, action line or cap. After it both gates read +0. The full record is in the policy's `baseline_reason`.
+
+## v1.280.2 — An answer given before a copy has seen the card's row no longer costs the card its schedule (NEXT2 Job 1, 2026-11-14)
+
+**The loss** (proven before the change on dev 689f03b9f's own pull, join and save): a first right answer writes
+`[d+1, 1, d]`, the same row a miss writes. Given before a device's first pull, offline, by a guest who then signs in, or
+in a tab that never saw another tab's row, it met the other copy in a merge that keeps the later answer (the heal needs a
+true interval above 1), so a 60-day card became one day and was pushed to every device; the rating read the card about
+0.95 → 0.81 the next day, and it took 5 on-time answers over about 55 days to climb back. Nothing stored tells that answer
+from a miss (the stage, the day log and a moves row cannot settle it), so the merge alone could not be fixed.
+
+**Ruled (NEXT2-GO):** design (i), the replay, in all three places, one PR; rows written before the release keep the
+merge's rule.
+
+**What changed.** Each owner keeps, on this browser only, the answers it has not yet seen delivered: a journal under
+`ngProgressLocalKey(owner, "pending")` (local, never synced, never in the blob or the practice key), entries `[id, field,
+bucket, item, ok, day, after]` appended at the three writers (`_gradeKnowledge`, `_schedule`, `_gradeMove`) and persisted
+at once. Where this copy meets another copy's rows, the journal's cards are not merged but rebuilt: the other copy's row
+with this copy's answers applied again by the schedule writer, in order (`ngProgressReplay`, progress-owner.src.js; the
+writer is passed in as `_scheduleWrite`, since that group file cannot import knowledge-profile, whose bytes the study
+engine pins):
+- at a pull (`replayCloud`, after `_mergeProgressBlobs`, before the level beat and the guest join);
+- at the guest join (`joinGuest`): the guest's entries the account has not taken in (above the account journal's `g`)
+  rebuilt on the account's rows, then handed to the account's journal, so its push delivers them;
+- at another tab's save (`mergeExternal`): only the entries THIS tab appended since it last wrote; the other tab's copy
+  holding an entry does not deliver it (it is not the cloud).
+
+An entry is DELIVERED, and leaves the journal, when a copy the cloud accepted (a push that returned true and ran alone in
+its tab) or holds (a pulled blob) has, for its card, the row that entry or a later entry of the same card left, or that
+row with ONE more answer on top. The second clause was found while building: a push that landed but was answered false,
+then a right answer on top of it by another device, made the miss count twice under plain equality; a device that never
+saw the entry can match it only by resetting the same day, which changes nothing. Capped at 2,000 entries (about a month
+offline at 60 answers a day).
+
+**Proof.** `tests/answers_before_sync.test.mjs`, 15 tests, every answer through the app's writer and every sync through
+its pull, push, save and join, against a fake cloud that HOLDS rows (it can fail a push, or store it and answer false):
+Part A's four cases fixed (P1 to P4, cards and hidden moves); a miss counts before the first pull, offline, and against a
+later right answer elsewhere (filed on that answer); both directions of clearing (a failed push keeps the entry, a landed
+push answered false is not applied twice, an answer given during a push stays, an app closed before its push delivers at
+the next session, another tab's older push landing last loses nothing); a guest copy joining twice applies only its new
+answers; two devices converge in both orders; one owner's answers never reach another owner; the cap; nothing written on
+a passive boot; an older client (dev's captured pull) receives ordinary rows. Mutants, each alone, each red at its named
+test: J1 the pull does not replay; J2 a miss skipped; J3 a held entry applied again; J4 entries cleared at the pull
+whatever the cloud holds; J5 the tab merge does not replay; J6 the join does not replay; J7 the guest high-water
+ignored; J8 the cap ignored; J9 a push's delivery taken without its rows.
+
+**Not covered.** Answers given before v1.280.2 (no journal: a guest's old one-day rows can still shorten an account's card
+at its first join); an older client's own answers; a push answered false and then two or more answers on top elsewhere;
+two tabs appending in the same instant; another device that pulled before this device's push and then pushes its own
+older-based copy over it (the cloud push is a whole-blob upsert; a conditional push would close it).
+
+**Landing.** On ea053a593 under the build lock (23:40 to 00:11; run as 9d2a4b10e, before three comment lines of this
+unpushed branch were reworded, which no bundle carries): the 36 journey files that read a schedule row, the rating or the
+sync (auth-owner, guest-join, account-menu, srs-due, the belts, rating-reader, the Practice files, payload-first-hand) 386
+passed; e2e:gen 103/103 by its ledger; units red at ONE test, `reader_mangle`: the replay's result named its held entries
+`held`, a property the reader's build mangles; renamed `inCopy` (d8b85708b, no behaviour moved). On d8b85708b (00:17 to
+00:32, run as f8aa1f632, the same): units 1,704/1,704; the sync and Practice journeys (account-menu, auth-owner,
+auth-redirect-back, guest-join, srs-due, practice-page, practice-order, payload-first-hand) 86 passed; the payload gate
+OK; ci:validate 25/25. The app rows re-seeded on the final tree (eb92b969c), every bundle byte-identical to the one
+those runs used.
+
+**Bytes**, my share on dev v1.279.0's own build (689f03b9f's app, gzip 9): `neural.js` +4,535 raw, +1,743 gzip (the
+journal and the replay, in progress-owner.src.js and the app's writers; nothing deferred moved). With this PR: eager gzip
+366,790 (+4,903 on the 361,887 baseline, this PR's +1,743, of a 5,000 cap); first-hand core 386,233 (+4,938 on 381,295,
+this PR's +1,741, of 6,000); deferred raw 522,091 (unchanged). It fits alone; beside #417 the eager sum needs the
+orchestrator's checkpoint of the baselines. Stored progress in the cloud: nothing added, nothing rewritten (the journal is
+local).
+
+**NEXT2-R1** (the independent read of PR #418 at c05f399bc: MERGE AFTER 1, 2, 3; 7,200 two-device and 28,800
+three-device scenarios against a fake cloud that holds rows). The single-copy cases, clearing under every attack but one,
+owners, a passive boot, the older client and #416's guarantees held. Fixed in one push:
+- **Finding 1, a regression against dev, ruled: an entry is replayed only when it was made on or after the other copy's
+  row's `last`,** at the pull, the guest join and the tab save. The first push replayed every guest entry at an account's
+  first join, so a guest's miss of 100 days before reset a card the account had answered since. Now an older entry meets
+  the other row by the merge's rule, as on dev: a miss made after the other copy's last answer counts; a miss made before
+  it is superseded by that later answer. At a pull such entries leave the journal.
+- **Findings 2, 3 and 7, one fault: a stale one-day row came back.** Two rules at the tab merge: a row the tab has not
+  touched since it last read or wrote the stored copy yields to the stored row; a stored row a replay in this tab replaced
+  yields to the rebuilt row (both two-tab variants: the second tab opening after the answer, and open before it). At the
+  guest join the account keeps its own row of a card while the guest's row is the one it took in (`t`, by card). An entry
+  is delivered only on the exact row it left; the "one more answer on top" relaxation is gone, and a push that landed but
+  was answered false stays right through the day rule.
+- **Finding 6:** a journal of a version this build does not know is never written over (nothing is journaled for that
+  owner until it can be read); ids come from the clock, so a replaced journal never restarts below an account's `g`.
+- **Finding 8:** bounded at 180 entries, about 20 KB with long deck keys (the first push's 2,000 were up to 160 KB rewritten
+  on every answer); a guest entry an account took in leaves the guest's journal once that account's cloud holds it.
+- **Findings 4 and 5, not fixed here, re-measured on this head with the reader's scripts:** runs with a miss where the
+  card ends further out than the right answers after the last miss could take it: 697 of 13,104 two-device (dev 1,260;
+  the first push 92), 9,798 of 168,912 three-device (dev 13,661; the first push 2,056); the first push's lower figures came
+  from letting an older miss override a newer answer, which the ruling removed. The final row depends on the order of
+  syncs in 1,102 of 7,200 two-device scenarios (15.3%; the first push 1,172, dev 260: 224 one day against three, 318 due
+  days within 2 days, 560 intervals more than 20% apart) and 4,231 of 28,800 three-device ones (14.7%; dev 984); two
+  devices are on one row after two rounds, 20 three-device runs need a third.
+- **Proof:** the reader's cases are tests (21 in all), red on c05f399bc's own code and green now. Mutants J10 (the day
+  test removed), J11 (the taken rows ignored), J12 and J13 (either tab rule removed), J15 (another version read as empty),
+  J16 (ids restarted at 1), and J2 against a new case (offline, a miss then a right answer: the miss stands), each red at
+  its named test; J7 (the guest high-water ignored) and J14 (the relaxation put back) leave every row as it is under the
+  day rule, recorded as non-kills in the test's header.
+- **Landing (R1)** on 290b3dc06 under the build lock (02:35 to 02:57): units 1,710/1,710; the sync and Practice
+  journeys (account-menu, auth-owner, auth-redirect-back, guest-join, srs-due, practice-page, practice-order,
+  payload-first-hand) 86 passed; the app rows re-seeded (899f6a505); ci:validate 25/25. The payload gate is red on the SUM
+  alone: eager gzip 367,516, +5,629 on the 361,887 baseline over the 5,000 per-change cap, dev's own +3,160 and this PR's
+  +2,469 (`neural.js` +6,448 raw; R1 added +726 gzip to the first push's +1,743), awaiting the orchestrator's checkpoint
+  of the baselines after #417. First-hand core 386,957 (+5,662 on 381,295, of 6,000; this PR's +2,465). Nothing deferred
+  moved.
+
+**NEXT2-R2** (the reader's second look at 052d58745: MERGE AFTER D1 to D4; the regression gone, the two-tab and
+second-join cases on the right row in every variant tried, clearing safe under every attack).
+- **D1, a case worse than dev (in the first push too):** two offline devices, only right answers; Y on time twice (60 →
+  90 → 180), X once on the day of Y's second answer, X syncs first: 90 days where dev keeps 180. Y's earlier entry was
+  set aside by the day rule and its later one replayed onto X's same-day row, where it earns nothing, replacing the
+  merge's healed row. RULED: when every entry left to replay is right, the card takes the later-due of the replay's row
+  and the merge's. BUILT NARROWER, and said to the orchestrator: only when some of this copy's earlier answers on the card
+  were set aside by the day rule (D1's cause). The plain rule also preferred the merge's row where nothing was set aside,
+  where that row is this copy's answer on the old row, and so erased another device's miss in 88 of 168,912 three-device
+  runs that dev and R1 kept; narrowed, 16 (indistinguishable from D1's short case by the rows alone; in Not covered).
+  The reader's search on this head: due sooner and farther from the in-time-order result than dev, 0 of 27,000 two-device
+  and 0 of 324,000 three-device runs (it had found 12 and 108); the miss-direction count 6,428 three-device against
+  R1's 6,356 (the plain rule 6,936).
+- **D3:** the guest rows an account took in moved to their own local key (`taken`, written only at a join), so an answer
+  rewrites under 21 KB after three joins of 180 cards (it was about 48 KB).
+- **D2 and D4, in Not covered:** the merge's heal can still erase a miss dev counts (48 of 27,000 two-device runs, 240 of
+  324,000 three-device; the other way, 597 two-device), and a tab whose save is still in its 400 ms delay while another
+  tab pulls and delivers brings the one-day row back, as on dev.
+- **Re-measured:** misses lost 766 of 13,104 two-device runs (dev 1,260), 10,368 of 168,912 three-device (dev 13,661);
+  order-dependent final rows 14.1% two-device (dev 3.6%), 14.3% three-device (dev 3.4%).
+- **Proof:** D1's two cases and D3's as tests, red on 052d58745's code; a case for the narrowing (another device's miss,
+  then this device's later right answer: three days); mutants J17 (D1's rule removed), J19 (the taken rows never
+  written), J20 (D1's rule without its narrowing), each red at its named test.
+- **Landing (R2)** on 4f194f4ca under the build lock (03:25 to 03:47): units 1,713/1,713; every journey that exercises
+  the progress host (15 files: account-menu, auth-owner, auth-redirect-back, guest-join, srs-due, practice-page,
+  practice-order, payload-first-hand, challenges-engine, known-moves-shown, legacy-gone, hidden-moves, reading-ready-payload,
+  known-move-seal, option-edge) 146 passed; e2e:gen 103/103 by its ledger (its one such spec among them); the app rows
+  re-seeded (38ed34b73); ci:validate 25/25. Bytes, my share on dev's own build: `neural.js` +6,931 raw, +2,627 gzip (R2
+  +158 on R1's +2,469); the payload gate red on the SUM alone (eager gzip 367,674, +5,787 on the 361,887 baseline, dev's
+  own +3,160), awaiting the orchestrator's checkpoint after #417; first-hand core 387,117 (+5,822 of 6,000; mine +2,625).
+
+**LAND418** (merged with dev v1.280.1, fb498b389, by merge; renumbered 1.280.1 → 1.280.2, as PAY4 took 1.280.1). This
+PR's 879 code lines (`app.src.jsx`, `progress-owner.src.js`, the test file) are those the reader read at 82ab6706e,
+line for line, but for the 21 that name the version. The archive ceiling rose by 50,000 under D-316. Landing on
+d5806a833 under the build lock: units 1,713/1,713; 26 journey files (the 15 that exercise the progress host and the 14
+#417 changed) 278 passed; `e2e:gen` 103/103; `ci:validate` 25/25; app rows re-seeded (88c628ca7: `neural.js` 721,181 →
+728,171 B; four game bundles carry the app source's gameplay hash, so their sha moves at the same size). Against the
+baselines checkpointed at dev v1.280.0 (PAY4): eager gzip 369,196, +2,620 of 5,000; first-hand core +2,640 of 6,000
+(the gate here reads +2,656, because this worktree's page `/` is 16 B heavier than CI's).
