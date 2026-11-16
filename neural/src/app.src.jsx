@@ -4569,7 +4569,7 @@ class Component extends DCLogic {
       this.belts = Object.assign({ won: {} }, p.belts || {});
       this.belts.won = Object.assign({}, (p.belts || {}).won || {});
       // when the open rule (U163 c) first ran for this account, and the carry-over's fact; absent on older blobs
-      // (`_syncBelt`, `_recallCarried`)
+      // (`_syncBelt`, `_recallCarryLive`)
       this._openAt = ngOpenAt(p.openAt);
       this._recallCarry = p.recallCarry === true;
       this.tut = { done: Object.assign({}, (p.tut || {}).done || {}) };
@@ -5256,12 +5256,16 @@ class Component extends DCLogic {
     this.prep = this.prep || {};
     const wrap = document.createElement("div");
     if (isCurrent) wrap.className = "ngCurExpire";
-    wrap.setAttribute("data-mini-deck", key); // shared inline card; Practice honors the answer-mode setting
+    wrap.setAttribute("data-mini-deck", key); // shared inline card; every one honours the answer mode (v1.283.0, `_answerMode`)
     // a card laid out again in place (Practice's plan taken again, `_practiceGuard`) does not fade in a second time
     wrap.style.cssText = "padding:0 8px 12px 26px;" + (this._noCardIn ? "" : "animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;");
     const navBtn = (cls, d) => '<button class="' + cls + '" style="flex:none;width:42px;height:36px;cursor:pointer;border:1px solid rgba(150,170,210,.2);border-radius:9px;background:rgba(255,255,255,.03);color:#aab4c8;display:flex;align-items:center;justify-content:center;transition:background .12s,color .12s;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="' + d + '"></path></svg></button>';
     let recallFallback;
-    const recognition = () => this._session?.practice && cards[st.idx] !== recallFallback && this.mcActive(key, cards[st.idx]) && !graded(cards[st.idx]);
+    // THE ANSWER MODE ON EVERY INLINE DECK (v1.283.0, R2: everywhere a card is asked). Until then only a Practice session asked
+    // multiple choice here; Last rolls' decks (no session) now do too, on their own surface "inline" (own option handle
+    // `data-inline-mc-opt`, own rng tags, own answer guard in `_mcBlock`), so nothing rigged for Practice moves.
+    const surf = this._session ? "practice" : "inline";
+    const recognition = () => cards[st.idx] !== recallFallback && this.mcActive(key, cards[st.idx]) && !graded(cards[st.idx]);
     const doPrev = () => { st.idx = (st.idx - 1 + total) % total; st.revealed = false; render(); };
     const doNext = () => { st.idx = (st.idx + 1) % total; st.revealed = false; render(); };
     const doReveal = () => {
@@ -5308,7 +5312,7 @@ class Component extends DCLogic {
       gradeMini(true);
     };
     const render = () => {
-      if (this._mc?.surface === "practice") { this._mc.spent = true; this._mc = null; }
+      if (this._mc?.surface === surf) { this._mc.spent = true; this._mc = null; }
       const card = cards[st.idx] || {};
       const tabs = cards.map((c, i) => {
         const active = i === st.idx, done = ansSet.has(identity(c));
@@ -5352,7 +5356,7 @@ class Component extends DCLogic {
         mr.disabled = true; mr.textContent = "Choose an answer";
         if (!this.mcPoolWarm(key, card)) {
           mr.textContent = "Loading answers…";
-          this._warmMcPool(card, key, "practice").then(() => this._afterPress(() => {
+          this._warmMcPool(card, key, surf).then(() => this._afterPress(() => {
             if (wrap.isConnected && cards[st.idx] === card && recognition()) render();
           }));
         } else {
@@ -5361,7 +5365,7 @@ class Component extends DCLogic {
             mr.disabled = false; mr.textContent = "Next card"; mr.onclick = doNext;
             if (onGrade) onGrade();
             this._refreshGameplanUI();
-          }, "practice");
+          }, surf);
           if (choices) wrap.insertBefore(choices, mr.parentElement);
           else { recallFallback = card; render(); }
         }
@@ -8266,7 +8270,7 @@ class Component extends DCLogic {
   // Challenges evidence into it, persisting the high-water mark, and the one-time grandfather.
   // READERS — every one of them, so a new reader is added here or not at all: the Challenges tab
   // belt (`renderTabSubtitles`), the Recall Mode patch at black (`_noteBlackBelt`), the carry-over of timed recall
-  // (`_recallCarried`, which reads the HELD belt and decides nothing new) and the
+  // (`_recallCarryLive`, which reads the HELD belt and, since v1.283.0, only stamps the kept fact) and the
   // training-day email's belt line (`dayLog e.b`, read by workers/digest). Game Knowledge —
   // `gameScore()` — decides none of them any more; its bands are read once, by the grandfather.
   _beltCleared(belt) {
@@ -8491,7 +8495,7 @@ class Component extends DCLogic {
     // into the switch: the only writer of `recallInPlay` is the player's press, so no carry can beat a choice, in any
     // order, on any device. (PR #404's first version wrote `recallInPlay: true` stamped at this device's `openAt`; a device
     // that ran this before its pull then beat another device's later Off and pushed it back: the read of PR #404, finding
-    // 1, OPEN2.) It rides the next save, as the stamp above does. See `_recallCarried`.
+    // 1, OPEN2.) It rides the next save, as the stamp above does. See `_recallCarryLive`; since v1.283.0 the fact is kept and read by nothing.
     if (!this._recallCarry && this._openAt > 0 && this._recallCarryLive()) this._recallCarry = true;
     // THE HELD LEVEL RISES TO THE PATH'S (v1.276.0, ruled STAGE2-GO 1), read now, AFTER any belt raised above: so a
     // stripe the Path gives today is held, and neither a ruleset flip nor a curriculum edit lowers what the drawer row
@@ -12993,9 +12997,11 @@ class Component extends DCLogic {
     // on a right answer, and gradeRecall's `wasProven` guard then re-minted `rec` for the same
     // card. Latent while the landing only asked stage<2 cards; due-first selection asks any
     // stage, so maintenance answers would have fired it constantly.
+    // NO APP CALLER since the grade moved to `ngKnowledgeApplyGrade`; the journeys seed and demote stages through it. It
+    // keeps the grade's floor at 2 (v1.283.0, R1) so no writer of the stage can take a card back to multiple choice.
     const cur = s[qh] || 0;
     const lim = cap == null ? 4 : cap;
-    s[qh] = d > 0 ? Math.max(cur, Math.min(lim, cur + d)) : Math.max(0, Math.min(lim, cur + d));
+    s[qh] = d > 0 ? Math.max(cur, Math.min(lim, cur + d)) : Math.max(cur >= 2 ? 2 : 0, Math.min(lim, cur + d));
     this._bumpStageVer();
     this._saveProgress();
     return s[qh];
@@ -13143,16 +13149,22 @@ class Component extends DCLogic {
     }
     return { options: opts, correctIdx: opts.findIndex((o) => o.tier === "correct") };
   }
-  // MC is the IN-PLAY format (the landing card asks it under a clock); the side pane is the
-  // study surface and reads back as classic Q&A unless the user opts in. Hence the default flip
-  // auto -> classic: nobody meets multiple choice in the sidebar by accident.
-  mcActive(key, card) {
-    if (this._checkpoint) return true;                        // the quiz is always MC
-    const mode = this.get("mcMode", "classic");
-    if (mode === "classic") return false;
-    if (mode === "mc") return true;
-    return this.cardStage(key, card.q) < 2;                   // auto: MC until graduated
-  }
+  // ── ANSWER MODE: ONE SWITCH, ONE MEANING, EVERYWHERE A CARD IS ASKED (v1.283.0, owner 15 Nov; rulings R1/R2, SET1-GO) ──
+  // Owner: "by default we use the Auto, not Classic (which should be called Front Back cards, or the Multiple Choice).
+  // after a player dominates MC for a card he is shown FC crds, and never again the multiple choice". `mcMode` keeps its
+  // three stored values, labelled in Settings as Auto ("auto"), Front Back cards ("classic") and Multiple choice ("mc").
+  // NOTHING STORED IS AUTO, BY THE READER'S DEFAULT, NEVER BY A WRITE: a player who pressed nothing has no `mcMode`, and
+  // nothing here writes one (until v1.283.0 the default was "classic", so a stored "classic" is a press, `set` being the
+  // only writer). One reader for every surface: Practice's cards and the full-pane study view (`mcActive`), the inline decks
+  // of Last rolls (`_miniDeck`), and a roll's landing question (`_mountLandQ`, the page cache, the warm gate). Checkpoints
+  // (a test) and the defence drill stay multiple choice. Auto: multiple choice until the card is at stage 2 (two right
+  // answers), then front and back for good: `ngKnowledgeApplyGrade`'s floor keeps a card at 2 once it got there.
+  // RETIRED BY CEASING TO READ (CLAUDE.md 6.6): `recallInPlay` (the "Recall mode (in play)" switch, U163 c) and the
+  // account's `recallCarry` fact are kept, stored, synced and merged exactly as before, and decide nothing: Auto's rule IS
+  // what Recall mode On did in a roll, and the screen must say what plays (R2: no hidden switch deciding rolls).
+  _answerMode() { const v = this.get("mcMode", null); return v === "classic" || v === "mc" ? v : "auto"; }
+  _cardAsksMc(key, card) { const m = this._answerMode(); return m === "mc" || (m === "auto" && this.cardStage(key, card.q) < 2); }
+  mcActive(key, card) { return !!this._checkpoint || this._cardAsksMc(key, card); }   // the quiz is always MC
   get MC_KEYS() { return ["A", "B", "C", "D", "E"]; }
   // the shared MC renderer. Truth (correct index, tier map) lives ONLY in this closure +
   // this._mc — never in a DOM attribute (cheat vector). Never calls setBeacon (one-beacon law).
@@ -13232,7 +13244,7 @@ class Component extends DCLogic {
     // the flag-derived truth (never the pixels), so the refusal flips back the instant the sheet
     // closes, with no transition to race. Not a decline and not a grade: the question is untouched
     // and still pays when the player comes back to it.
-    const answer = (i) => { if (truth.surface === "practice" && (!this._sessionInline() || !wrap.isConnected || wrap.offsetParent === null)) return; if (wrap.inert || (["land", "panic"].includes(truth.surface) && this._landHidden(true))) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
+    const answer = (i) => { if ((truth.surface === "practice" ? !this._sessionInline() : truth.surface === "inline" && (this._session || !this.deckShown || this.deck || this._checkpoint)) || (/^(practice|inline)$/.test(truth.surface) && (!wrap.isConnected || wrap.offsetParent === null))) return; if (wrap.inert || (["land", "panic"].includes(truth.surface) && this._landHidden(true))) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
     truth.answer = answer;                                    // the A/B/C keyboard seam
     mc.options.forEach((o, i) => {
       const b = document.createElement("button");
@@ -15422,23 +15434,19 @@ class Component extends DCLogic {
    * Glyph-only when nothing is authored yet; `total` reads the manifest `n` until the chunk lands,
    * so an unhydrated deck reports the user's real progress instead of "no cards".
    */
-  // ── TIMED RECALL IN A ROLL IS A SWITCH (U163 c, owner, 13 Nov: "the belt only shows; timed recall and Recall Mode become
-  // settings anyone can turn on"). With it on, a stage-2+ card asks as timed recall in play; off, recognition-first MC.
-  // Until v1.270.0 the worn belt switched it on from blue (v1.133.0 "recall comes with rank", the worn belt since v1.211.0)
-  // and the black-belt patch flipped the setting on as it minted; neither does any more. No belt switches it on.
-  // e2e/journeys/everything-opens.spec.ts and tests/belt_worn.test.mjs ("timed recall: the switch decides…") pin it.
-  // The switch the player stored, whenever they stored one (Off means Off, OPEN1 finding 2); else the carry-over.
-  _recallInPlayNow() {
-    const v = this.get("recallInPlay", null);
-    return v != null ? v === true : this._recallCarried();
-  }
+  // ── TIMED RECALL IN A ROLL WAS A SWITCH (U163 c, v1.270.0 to v1.282): `recallInPlay`, else the carry-over below, decided
+  // whether a stage-2+ card asked as timed recall in a roll. SINCE v1.283.0 THE ANSWER MODE DECIDES IT (`_answerMode`,
+  // beside `mcActive`; rulings R2/SET1-GO): Auto asks exactly what Recall mode On asked. `_recallInPlayNow`, the switch's
+  // reader, is deleted; the key `recallInPlay` is kept (a settings key can never be deleted, CLAUDE.md 6.6) and read by
+  // nothing. The carry-over's FACT is still stamped and merged as before (`recallCarry`, an added top-level `true`, OR
+  // across devices), so it stays true to what an older client reads; it decides nothing here.
   // THE CARRY-OVER: a player whose roll questions were timed recall because of their belt keeps them, until they choose.
   // Carried = the account's fact `recallCarry` (set once by `_syncBelt`, merged as OR, never cleared: a promotion under the
   // rule re-stamps `belts.held` and cannot take it back), or, before that fact is written, the live reading below: the belt
   // held (`belts.held`, MAX across devices, its stamp the moment it was first earned) is blue or above AND was earned no
   // later than the moment the open rule first ran for this account (`openAt`; none yet means the rule has not run, so
-  // anything held predates it). A belt earned after `openAt` switches nothing on. Settings shows this as the switch's value
-  // until the player presses one (`get("recallInPlay", _recallInPlayNow())`), and nothing here ever writes the switch.
+  // anything held predates it). A belt earned after `openAt` switches nothing on. (Until v1.283.0 Settings showed this as
+  // the switch's value until the player pressed one; nothing here ever wrote the switch, and nothing reads it now.)
   // CLOCKS: both stamps come from device clocks, compared as they are, except that a held stamp in this device's future is
   // clamped to its now (the srs merge clamps `last` the same way). What that holds: a belt already in this device's copy
   // when it first runs the rule is carried, however far behind its clock (tests/belt_worn.test.mjs, the clock test). What
@@ -15453,7 +15461,7 @@ class Component extends DCLogic {
   // old device between a guest's stamp and the account's, seen by no new client before the guest join, is judged against
   // the earlier stamp and not carried; a blue re-stamped purple on an old client, on an account whose only new-code device
   // ran first offline without that blue, is not carried (the fact was never set).
-  _recallCarried() { return this._recallCarry === true || this._recallCarryLive(); }
+  // (`_recallCarried`, the fact's reading for the switch, went with `_recallInPlayNow` in v1.283.0: its one reader.)
   _recallCarryLive() {
     const h = this.belts && this.belts.held, at = this._openAt || 0;
     if (!h || ngBeltRank(h.id) < 1) return false;
@@ -15671,7 +15679,7 @@ class Component extends DCLogic {
     // The shared face does not change the defensive drill's v1.135.0 MC rule,
     // RNG stream or knowledge ledger. "panic" remains its grading/telemetry ID.
     const defense = mode === "defense", surface = defense ? "panic" : "land";
-    const landRecall = !defense && !!(this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
+    const landRecall = !defense && !this._cardAsksMc(key, card);   // the answer mode (`_answerMode`); defence stays MC
     const qh = this.qhash(card.q);
     const rec = { key: key, card: card, mode: mode || "land", answered: false };
     const qw = document.createElement("div");
@@ -16116,7 +16124,7 @@ class Component extends DCLogic {
       mount(cached.el);
       return true;
     }
-    const recallable = this._landMode !== "defense" && !!(this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
+    const recallable = this._landMode !== "defense" && !this._cardAsksMc(key, card);
     if (!recallable && !this.mcPoolWarm(key, card)) {
       // cold distractor pool: warm it through _landWarmP (replace-not-clear, so landSettled()
       // still means settled), and only mount if the player has not paged again meanwhile
@@ -16213,13 +16221,12 @@ class Component extends DCLogic {
     //   · cards absent            -> hydrate this deck
     //   · cards here, MC in play  -> warm the distractor pool first, so the options are not a
     //                                function of which neighbour chunks happened to arrive
-    // THE IN-PLAY FORMAT (v1.105.1). MC by design, whatever mcMode says (that setting governs
-    // the sidebar) — EXCEPT with Recall Mode on: `recallInPlay` (a switch anyone turns on since U163 c,
-    // v1.270.0; `_recallInPlayNow` carries over a belt that had it) renders a stage-2+ card as the classic
-    // reveal/self-grade block instead. Per-card, exactly as the owner specified: "after the
-    // player gets the multiple choice right, the second time we show the card... Q and A, and we
-    // hide the answer." A stage-0/1 card stays MC even with the badge on — recognition first.
-    const landRecall = !defense && !!(card && this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
+    // THE IN-PLAY FORMAT is the answer mode's (v1.283.0, `_answerMode`, beside `mcActive`): Auto asks a stage-0/1 card as
+    // multiple choice and a stage-2+ card as the reveal/self-grade block, which is what Recall mode On did here from
+    // v1.105.1 to v1.282 (owner, then: "after the player gets the multiple choice right, the second time we show the
+    // card... Q and A, and we hide the answer"); Front Back cards asks every card front and back, Multiple choice none.
+    // `recallInPlay` and the carried belt no longer decide it (R2: one switch, and the screen says which).
+    const landRecall = !defense && !!card && !this._cardAsksMc(key, card);
     let warm = null, warmKind = null;
     if (wantQ && !card && !this._deckResident(key)) { warm = () => this.hydrateDeck(key); warmKind = "deck"; }
     // the warm gate is FORMAT-AWARE: a recall block needs no distractor pool, and holding its

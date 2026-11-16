@@ -66,9 +66,13 @@ test("the pane lists every state the roll has visited, in order", async ({ page 
   )
 })
 
-test("a history row reads question → reveal → answer, never multiple choice", async ({ page }) => {
+// v1.283.0: written when a history row was always front and back. Since then every inline deck asks the answer mode
+// (rulings R2; Auto asks a new card as multiple choice: answer-mode.spec.ts "Last rolls"), so this journey states the mode
+// it was written under, Front Back cards, and keeps every assertion.
+test("a history row under Front Back cards reads question → reveal → answer, never multiple choice", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
+  await j.answerMode("classic")
   await j.land("Mount Top")
   await openCurrentDeck(page)
 

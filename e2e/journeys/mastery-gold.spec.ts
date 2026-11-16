@@ -56,13 +56,14 @@ test.beforeAll(async ({ request }) => {
   }
 });
 // v1.280.0: was "open Settings and scroll to the switch's row" (the row, its text, a settled scroll); the row is gone. The
-// tab it lived in is asserted RENDERED first (its own recall row, `data-recall-mode`), so the absence is a claim about the
-// tab, not about a panel that never drew (CLAUDE.md 6.4)
+// tab it lived in is asserted RENDERED first (its own Answer mode row, `data-answer-mode`; until v1.283.0 its recall row and
+// the "Show flashcards on pages" words, both gone since), so the absence is a claim about the tab, not about a panel that
+// never drew (CLAUDE.md 6.4)
 async function openSettings(page: Page, j: ReturnType<typeof journey>) {
   await j.openAccountMenu();
   await j.clickByMouse("[data-menu-settings]", "Settings");
-  await expect(page.locator(".ng-modal [data-recall-mode]")).toHaveCount(1);
-  await expect(page.locator(".ng-modal")).toContainText("Show flashcards on pages");
+  await expect(page.locator(".ng-modal [data-answer-mode]")).toHaveCount(1);
+  await expect(page.locator(".ng-modal")).toContainText("Focus");
   await expect(page.locator("[data-mastery-gold]"), "the switch's row is gone").toHaveCount(0);
   await expect(page.locator(".ng-modal"), "...and its words with it").not.toContainText("Turn what you know gold");
 }

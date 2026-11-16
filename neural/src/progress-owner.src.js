@@ -151,7 +151,7 @@ export function ngProgressMergeMoves(local, cloud, today) {
 // the cloud's too, because the join runs only then (the second reader: "holds only against the local copy" was true of
 // the first build). `srs` keeps the pull's rule: a guest's later miss can bring a card back sooner; no figure reads the
 // schedule's interval, and today's count is a union. tests/guest_join_safety.test.mjs.
-// THE OPEN RULE'S TWO VALUES (v1.270.0, U163 c; the app's `_syncBelt`, `_recallCarried`). `openAt`, when the open rule
+// THE OPEN RULE'S TWO VALUES (v1.270.0, U163 c; the app's `_syncBelt`, `_recallCarryLive`; read by nothing since v1.283.0). `openAt`, when the open rule
 // first ran for an owner, is left out of the guest PART, so it is neither in the copy's hash nor in the practice key (a
 // bare landing writes one: tests/guest_join_safety.test.mjs 20). It joins the MERGE all the same (`ngProgressGuestMerge`
 // puts it back on the part it merges): the EARLIER of the two stamps, so a guest's belt earned under the guest's own rule

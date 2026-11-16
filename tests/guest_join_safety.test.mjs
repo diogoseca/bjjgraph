@@ -638,7 +638,10 @@ test("21. at a join, the earlier open-rule stamp joins, and a guest's carried be
 // does), and what the player gets
 const BELT_CUR = () => ({ belts: ["white", "blue", "purple", "brown", "black"].map((id) => ({ id, name: id, units: [{ id: "u1", lessons: [{ nodeId: "T/" + id, deckKey: id + "-a|Attacker" }], checkpoint: { cards: 2, pass: 2 } }] })), weights: {} });
 const beltSync = (a) => { a.curriculum = BELT_CUR(); a.flashcards = { decks: clone(DECKS), manifest: true }; a._syncBelt("curriculum"); return a; };
-const plays = (a) => ({ play: a._recallInPlayNow(), fact: a._recallCarry === true });
+// `play` is the carry-over's reading (the fact, or before it is written the live reading from the held belt and `openAt`).
+// Until v1.283.0 it read `_recallInPlayNow()`, which with no stored switch (none here) was exactly this; since then the
+// answer mode decides a roll's format and the carry is a kept fact read by nothing in the app, so these tests pin the fact.
+const plays = (a) => ({ play: a._recallCarry === true || a._recallCarryLive(), fact: a._recallCarry === true });
 
 test("R1. a guest who EARNED blue under the guest's own rule gets no timed recall at sign-in (an account that never ran the rule)", async () => {
   const guest = { v: 2, prep: { "Mount|Top": 3 }, openAt: 1000, belts: { won: {}, gf: 5, held: { id: "blue", t: 2000 } } };

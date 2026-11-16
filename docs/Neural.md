@@ -131,10 +131,14 @@ the screen or is inert behind the pane or video viewer (`_recallLive`). An open 
 shortcuts; exposed landing controls still accept pointers. Grading releases the key. Space goes to a study surface and a
 focused mini-row first.
 
-**Recall Mode is a switch** (U163 c, v1.270.0): with `recallInPlay` on (`_recallInPlayNow`) a stage-2+
-card asks as timed recall Q/A in play; off, recognition-first MC. It prices only a question asked
-against a running CLOCK. No belt turns it on; a belt held before the open rule ran keeps it until the player
-chooses (`_recallCarried`, `openAt`, the fact `recallCarry`; never written into the switch). `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
+**Answer mode is one switch for every card** (v1.283.0, rulings R1/R2): Settings → Flashcards offers Auto (the
+default for a player who pressed nothing, by the reader's default, never a write), Front Back cards (stored `classic`)
+and Multiple choice (`mc`), and `_answerMode` / `_cardAsksMc` decide the format in Practice, the full-pane study view,
+Last rolls' inline decks (surface `inline`) and a roll's landing question. Auto: multiple choice until a card reaches
+stage 2, then front and back for good (`ngKnowledgeApplyGrade`'s floor: no answer takes a card below 2 once there).
+Checkpoints and the defence drill stay multiple choice. The old "Recall mode (in play)" switch (`recallInPlay`, U163 c)
+and the carried-belt fact (`recallCarry`) are kept, merged and read by nothing; "Show flashcards on pages"
+(`quizOnPages`) left Settings, read by nothing as before. `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
 
 **Technique navigation** keeps the chosen node's camera (`camFocus`), URL (`_syncUrl`),
 focus, flare and card; the roll's seat remains its origin position. `_stagedTech = {idx, side}`
@@ -882,7 +886,7 @@ you wear the belt AFTER the last belt, in an unbroken run from white, whose unit
 (live lessons done + checkpoint); clearing black leaves you black, four stripes. Stripes are the
 worn belt's proven units, 0–4; the capstone stays an optional patch. Readers, all of them: the tab
 belt, the Recall Mode patch at black, the email's "Next belt" line (`dayLog[day].b`, read
-by `workers/digest`) and, through `belts.held`, timed recall's carry-over (`_recallCarried`).
+by `workers/digest`) and, through `belts.held`, the kept carry-over fact (`_recallCarryLive`; read by nothing since v1.283.0).
 It opens nothing (U163 c).
 
 **It never falls.** `belts.held` (v2 blob) is a high-water mark that `_syncBelt` raises at every

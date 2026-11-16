@@ -13,9 +13,12 @@ import { journey } from "../dsl"
  *   2. gets a card from a family outside White's lessons in Practice (a later belt's, or one in no belt's lessons): the
  *      session's new decks come from every family. Until v1.270.0 they
  *      came only from the worn belt's families.
- *   3. turns Recall Mode on in Settings. Until v1.270.0 the row was a locked teaser until black.
- * And 4: a blue belt held before the open rule keeps timed recall (the carry-over), Settings shows it On, and Off sticks
- * across a reload. The carry's rules in full, and the merge, are unit-tested (tests/belt_worn.test.mjs).
+ *   3. chooses its answer mode in Settings, no row locked. Until v1.270.0 the Recall Mode row was a locked teaser until
+ *      black; from v1.270.0 to v1.282 a switch anyone turned on; since v1.283.0 it is gone (the answer mode's Auto does its
+ *      job, rulings R2, SET1-GO; answer-mode.spec.ts).
+ * And 4: a blue belt held before the open rule keeps the carry-over as the account's fact, which since v1.283.0 decides
+ * nothing and has no switch on screen; nothing stored changes across a reload. The carry's rules in full, and the merge,
+ * are unit-tested (tests/belt_worn.test.mjs).
  *
  * CONTROL: dev's own bundle (v1.266.0, 5f2510f71) fails all 7 tests at their first open-rule assertion: "the Black section
  * has a fold toggle" (both), "a new deck from a family outside White's lessons" (both), "the Recall Mode row is a switch"
@@ -28,7 +31,9 @@ import { journey } from "../dsl"
  * the carry writing the switch again -> "the carried blue keeps timed recall as the account's fact…". The other mutants are
  * killed in tests/belt_worn.test.mjs and tests/gameplan_runtime.test.mjs.
  * NOT COVERED here: the capstone of a later belt (it needs every unit of that belt proven; tests/belt_worn.test.mjs starts
- * one on a blue belt) and a roll's question asking as timed recall (landcard-modes.spec.ts, "with Recall Mode on…").
+ * one on a blue belt) and a roll's question asking front and back (landcard-modes.spec.ts 5c, answer-mode.spec.ts).
+ * v1.283.0: tests 3 and 4 were rewritten to the answer mode (their old subject, the Recall Mode switch, left Settings);
+ * OPEN-M8 (the Settings lock back) has no row left to lock, and OPEN-M4/M9 are killed in tests/belt_worn.test.mjs.
  */
 
 type W = any
@@ -124,40 +129,42 @@ for (const touch of [false, true]) {
       expect(await worn(page)).toBe("white")
     })
 
-    test(`a white belt turns Recall Mode on in Settings (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+    // 3, since v1.283.0: the Recall Mode switch left Settings (its job is the answer mode's Auto, R2); what stays true of U163 c
+    // is that no belt locks a Flashcards row, so a white belt chooses its answer mode like anyone (answer-mode.spec.ts owns
+    // the row's words and default)
+    test(`a white belt chooses its answer mode in Settings, with no locked row (${touch ? "touch" : "mouse"})`, async ({ page }) => {
       await boot(page)
       await press(page, ".ng-logo", "open the drawer", touch)
       await press(page, ".ngAcctChip", "the badge", touch)
       await press(page, "[data-menu-settings]", "Settings", touch)
       await press(page, '[data-settings-tab="flashcards"]', "the Flashcards tab", touch)
-      await expect(page.locator("[data-recall-mode]"), "the Recall Mode row is a switch").toHaveCount(1)
+      await expect(page.locator("[data-answer-mode]"), "the Answer mode row").toHaveCount(1)
       await expect(page.locator("[data-recall-locked]")).toHaveCount(0)
-      expect(await page.evaluate(() => (window as W).__neural._recallInPlayNow()), "a white belt starts with it off").toBe(false)
-      await press(page, "[data-recall-mode] button", "On", touch)
-      expect(await page.evaluate(() => { const a = (window as W).__neural; return [a.settings.recallInPlay, a._recallInPlayNow()] }), "on").toEqual([true, true])
-      const shown = await page.locator("[data-recall-mode] button").first().evaluate((b) => getComputedStyle(b).backgroundColor)
-      expect(shown, "the switch shows On").toBe("rgba(74, 108, 255, 0.26)")
+      await expect(page.locator("[data-recall-mode]"), "no Recall Mode row since v1.283.0").toHaveCount(0)
+      await press(page, "[data-answer-mode] button:nth-of-type(3)", "Multiple choice", touch)
+      expect(await page.evaluate(() => (window as W).__neural.settings.mcMode), "a white belt's press is stored").toBe("mc")
+      const shown = await page.locator("[data-answer-mode] button").nth(2).evaluate((b) => getComputedStyle(b).backgroundColor)
+      expect(shown, "Multiple choice shows chosen").toBe("rgba(74, 108, 255, 0.26)")
     })
   })
 }
 
-test("a blue belt held before the open rule keeps timed recall: Settings shows it On, and Off sticks across a reload", async ({ page }) => {
+// 4, since v1.283.0: the carry-over is kept as the account's fact and decides nothing (the answer mode decides a roll's
+// format, R2); Settings has no switch to show it, and nothing stored changes across a reload. The carry's rules and merge
+// stay unit-tested (tests/belt_worn.test.mjs, `carried`).
+test("a blue belt held before the open rule: the carry is kept as the account's fact, decides nothing, and nothing stored changes across a reload", async ({ page }) => {
   // blue, first earned at t=1000 by an older version of the app: this account has never run the open rule (no `openAt`)
   const j = await boot(page, { v: 2, belts: { won: {}, gf: 5, held: { id: "blue", t: 1000 } } })
   expect(await worn(page)).toBe("blue")
-  // OPEN2: the carry is the account's fact (`recallCarry`) and never writes the switch; until then this line asserted the
-  // switch written at the rule's start (`at: _settingsAt.recallInPlay === _openAt`), the stamp that let a stale device's
-  // carry beat another device's Off (the read of PR #404, finding 1)
-  const carried = await page.evaluate(() => { const a = (window as W).__neural; return { on: a._recallInPlayNow(), stored: a.settings.recallInPlay ?? null, fact: a._recallCarry === true, stamped: a._openAt > 1000 } })
-  expect(carried, "the carried blue keeps timed recall as the account's fact, and no switch is written").toEqual({ on: true, stored: null, fact: true, stamped: true })
+  const read = () => page.evaluate(() => { const a = (window as W).__neural; return { stored: a.settings.recallInPlay ?? null, mode: a.settings.mcMode ?? null, fact: a._recallCarry === true, stamped: a._openAt > 1000 } })
+  expect(await read(), "the carried blue is the account's fact; no switch and no mode are written").toEqual({ stored: null, mode: null, fact: true, stamped: true })
   await page.evaluate(() => (window as W).__neural.openSettings("flashcards"))
-  await expect(page.locator("[data-recall-mode]"), "the carried blue's Settings row is a switch").toHaveCount(1)
-  const on = page.locator("[data-recall-mode] button").first(), off = page.locator("[data-recall-mode] button").nth(1)
-  expect(await on.evaluate((b) => getComputedStyle(b).backgroundColor), "the carried blue shows On").toBe("rgba(74, 108, 255, 0.26)")
-  await j.clickByMouse("[data-recall-mode] button:nth-of-type(2)", "Off")
-  expect(await off.evaluate((b) => getComputedStyle(b).backgroundColor), "Off is what shows").toBe("rgba(74, 108, 255, 0.26)")
+  await expect(page.locator("[data-answer-mode]"), "Settings shows the answer mode").toHaveCount(1)
+  await expect(page.locator("[data-recall-mode]"), "and no switch for the carry").toHaveCount(0)
+  expect(await page.locator("[data-answer-mode] button").first().evaluate((b) => getComputedStyle(b).backgroundColor), "Auto, like everyone who chose nothing").toBe("rgba(74, 108, 255, 0.26)")
   await page.evaluate(() => (window as W).__neural._flushSave())
   await j.boot("/", { preserveStorage: true })
   await expect.poll(() => page.evaluate(() => { const a = (window as W).__neural; return !!(a.curriculum && a.belts && a.belts.gf) })).toBe(true)
-  expect(await page.evaluate(() => { const a = (window as W).__neural; return [a.wornBelt().id, a.settings.recallInPlay, a._recallInPlayNow()] }), "after a reload: still blue, still off").toEqual(["blue", false, false])
+  expect(await worn(page), "after a reload: still blue").toBe("blue")
+  expect(await read(), "and still nothing written for the switch or the mode, the fact kept").toEqual({ stored: null, mode: null, fact: true, stamped: true })
 })

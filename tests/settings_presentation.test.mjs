@@ -291,3 +291,31 @@ test("flipped: with NG_DIGEST_LIVE true, Settings are v1.259.1's to the letter",
   assert.equal(await guest.app.openSettings("notifications"), true); assert.deepEqual(tabIds(guest.card), FIVE);
   assert.equal(guest.card.querySelector("[data-notif-signedout]").textContent, V1259_GUEST);
 });
+
+// v1.283.0 (owner 15 Nov; rulings R2/R3, SET1-GO): THE FLASHCARDS TAB, REFORMED. Daily goal, Answer mode, Focus, in that order;
+// Answer mode reads Auto / Front Back cards / Multiple choice with its words saying where it applies, and Auto is what a
+// player who pressed nothing sees, without anything being written; "Recall mode (in play)" and "Show flashcards on pages"
+// are gone; Focus is byte-for-byte what it was (R3: the owner's question U190). A press writes the choice.
+// Mutants: the default back to Classic recall (Auto not chosen), a row still drawn, a write at render (mcMode present),
+// and the old label each turn an assertion here red. Layout, hit-testing and the press by mouse and touch:
+// e2e/journeys/answer-mode.spec.ts.
+test("the Flashcards tab: Daily goal, Answer mode (Auto chosen for nothing stored, no write), Focus; the two retired rows gone", async () => {
+  const {app,card}=fixture();
+  assert.equal(await app.openSettings("flashcards"),true);
+  const text = card.textContent;
+  const at = (s) => { const i = text.indexOf(s); assert.ok(i >= 0, "drawn: " + s); return i; };
+  assert.ok(at("Daily goal") < at("Answer mode") && at("Answer mode") < at("Focus"), "in that order");
+  assert.ok(text.includes("How a card asks you, in Practice and in a roll."), "the words say where it applies");
+  assert.ok(!/HERE|study surface|Classic recall/.test(text), "no old words, no old label");
+  const row = card.querySelector("[data-answer-mode]"); assert.ok(row, "the row is marked");
+  assert.deepEqual(row.querySelectorAll("button").map((b) => b.textContent), ["Auto", "Front Back cards", "Multiple choice"]);
+  const chosen = row.querySelectorAll("button").map((b) => /rgba\(74,108,255,\.26\)/.test(b.style.cssText.replace(/\s/g, "")));
+  assert.deepEqual(chosen, [true, false, false], "Auto is chosen for a player who pressed nothing");
+  assert.ok(text.includes("multiple choice until you get a card right twice, then front and back from then on"), "Auto's line");
+  assert.equal(card.querySelector("[data-recall-mode]"), null, "Recall mode (in play) is gone");
+  assert.ok(!text.includes("Recall mode") && !text.includes("Show flashcards on pages"), "and both retired rows' words");
+  assert.ok(text.includes("Shore up weaknesses, or sharpen strengths") && text.includes("Antifragile") && text.includes("Converge"), "Focus as it was");
+  assert.equal("mcMode" in app.settings, false, "rendering wrote nothing");
+  clickText(card, "Multiple choice"); assert.equal(app.get("mcMode"), "mc", "a press writes the choice");
+  clickText(card, "Front Back cards"); assert.equal(app.get("mcMode"), "classic", "Front Back cards is the stored classic");
+});
