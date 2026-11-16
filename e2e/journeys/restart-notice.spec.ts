@@ -412,6 +412,18 @@ for (const v of VIEWS) test.describe(v.name + ", the clock held during the round
       expect((await noticeOnTop(page)).under, `+${ms} ms: the verdict's points are its own`).toEqual([])
       expect(o.lines, `+${ms} ms: the verdict has lines on screen`).toBeGreaterThan(0)
       expect(o.meets, `+${ms} ms${k === 3 ? " (resized)" : ""}: no line of the verdict meets the article`).toBe(0)
+      // ...and it sits where the ruling put it: every line inside the map's free band above the reader, as the frame publishes
+      // that band (`_viewRect()`, the camera's own), this frame and after the resize (M3i: docked once; M3j: not docked)
+      const inBand = await page.evaluate(() => {
+        const a = (window as W).__neural, band = a._viewRect(), out = { lines: 0, outside: [] as string[] }
+        for (const el of [a.evcKickerRef.current, a.evcTextRef.current, a.evcSubRef.current] as HTMLElement[]) {
+          const rg = document.createRange(); rg.selectNodeContents(el)
+          for (const r of rg.getClientRects()) { if (r.width < 2 || r.height < 2) continue; out.lines++; if (r.top < band.top - 1 || r.bottom > band.bottom + 1) out.outside.push(`${Math.round(r.top)}-${Math.round(r.bottom)} outside ${Math.round(band.top)}-${Math.round(band.bottom)}`) }
+        }
+        return out
+      })
+      expect(inBand.lines, `+${ms} ms: the verdict's lines`).toBeGreaterThan(0)
+      expect(inBand.outside, `+${ms} ms${k === 3 ? " (resized)" : ""}: every line of the verdict in the map's band above the reader`).toEqual([])
     }
     const artTop1 = await page.evaluate(() => Math.round((window as W).__neural._reader.articleEl.getBoundingClientRect().top))
     expect(artTop1, `the case occurred: the article moved up when the hand went (${artTop0} -> ${artTop1} px)`).toBeLessThan(artTop0)
