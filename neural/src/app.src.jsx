@@ -4481,6 +4481,9 @@ class Component extends DCLogic {
    */
   _scrollFocusedDeck(scroller, deckEl) {
     requestAnimationFrame(() => {
+      // View Collection's scroll to the rewards shelf holds the page until the player moves it (v1.284.0, `renderRewardsShelf`):
+      // Master the game opening its first card must not scroll the player back up past the shelf they asked to see
+      if (this._session?.shelfScroll) return;
       const list = scroller || this.drillListRef.current; if (!list) return;
       let deck = deckEl || (this._openMini && this._openMini.el);
       if (!deck || !deck.isConnected || deck.style.display === "none") {

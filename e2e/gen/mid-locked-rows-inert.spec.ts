@@ -190,8 +190,10 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
     await page.evaluate((dk) => !!document.querySelector(`[data-mini-deck="${dk}"], [data-mini-deck-state]`), CONTROL_LESSON),
     "control A: done lesson opened its inline Q&A",
   ).toBe(true)
+  // a takeover is a deck, a checkpoint or the study view; Master the game, which holds the corridor since v1.284.0, is itself a
+  // session and stays on screen
   expect(
-    await page.evaluate(() => (window as any).__neural._paneStudyActive()),
+    await page.evaluate(() => { const a = (window as any).__neural; return !!(a.deck || a._checkpoint || a._studyOpen) || !a._practiceInDrawer() }),
     "control A: and never took the pane over",
   ).toBe(false)
 
