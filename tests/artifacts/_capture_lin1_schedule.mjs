@@ -1,10 +1,10 @@
-// THE v1.281.0 CLIENT, CAPTURED (v1.281.2, LIN2): the schedule an open tab or an installed copy of v1.281.0 still runs (the
+// THE v1.281.0 CLIENT, CAPTURED (v1.281.3, LIN2): the schedule an open tab or an installed copy of v1.281.0 still runs (the
 // owner's formula with one straight line from the card's own interval, anchors off the rungs). Writes
 // tests/artifacts/schedule_lin1_client.json: the exact source text, cut out of git's own copy of each file at the named
 // revision (never re-typed), with each file's sha256: knowledge-profile's ladder and its whole schedule block (the due day,
 // the step, the line, the pair's reader, the writer and the srs pull merge, which the app's pull calls), progress-owner's
 // reader copies and its moves merge, and the app's `_gradeMove` row line. tests/schedule_rung.test.mjs runs it against the
-// rows v1.281.2 writes, and v1.281.2 against the rows it wrote. The clients before it are tests/artifacts/
+// rows v1.281.3 writes, and v1.281.3 against the rows it wrote. The clients before it are tests/artifacts/
 // schedule_prev_client.json (v1.279.0 to v1.280.2) and schedule_old_client.json (v1.278.2). Run once from the repo root:
 //   node tests/artifacts/_capture_lin1_schedule.mjs [rev]
 // Not a test: `node --test tests/*.test.mjs` does not collect it.

@@ -230,7 +230,7 @@ test("SRS differential closes over the captured original ladder; changed-constan
   // original ladder IS the cell's seven rungs, and on rows the app writes (due = last + interval) the two still agree on a
   // first answer, a miss, and a right answer on time from 1 to 30 days; they differ exactly where the ruling says (60 -> 90
   // where the original gave 120; 120 -> 241.6667 where it held 120 (v1.281.0, LIN1: one step along the straight line,
-  // carried exactly in the pair, not rounded since v1.281.2, due on its first whole day, 242; the log rule gave 241); a 2-day row, off its ladder,
+  // carried exactly in the pair, not rounded since v1.281.3, due on its first whole day, 242; the log rule gave 241); a 2-day row, off its ladder,
   // where the original sent a right answer to 1 day: 5 days, between 3 and 7); and every cell the new writer stores is one
   // the original reads.
   assert.equal(prior.declarations.NG_SRS_IVLS, "const NG_SRS_IVLS = [1, 3, 7, 14, 30, 60, 120];");

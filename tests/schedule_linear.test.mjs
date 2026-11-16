@@ -10,7 +10,7 @@
 // only if it reproduces the row's due day. The ladder's own cases (his numbers, the cell, daily runs, older clients' rungs)
 // are tests/schedule_ladder.test.mjs.
 //
-// SINCE v1.281.2 (LIN2) THE LINE IS THE RUNG'S: a card between rungs climbs the line of the rung below it, the pair an early
+// SINCE v1.281.3 (LIN2) THE LINE IS THE RUNG'S: a card between rungs climbs the line of the rung below it, the pair an early
 // answer stores is a rung pair, and nothing is rounded (tests/schedule_rung.test.mjs, its claims and the v1.281.0 client).
 // Every test here still holds on it, with three of v1.281.0's own bounds removed below (said where).
 //
@@ -169,7 +169,7 @@ test("a run of early answers inside one step earns exactly what one answer at it
   assert.ok(runs > 2500, `${runs} runs`);
 });
 
-test("nothing is rounded (v1.281.2): an on-time answer lands exactly on its step, an early one stores a rung pair, moved only when a rung is crossed", () => {
+test("nothing is rounded (v1.281.3): an on-time answer lands exactly on its step, an early one stores a rung pair, moved only when a rung is crossed", () => {
   // a 14-day card (ratio 15/7, not whole) answered on every one of its 13 early days: the rung pair stays [14, 0], every
   // interval exact to 1e-9
   let row = [14, 14, 0];
@@ -286,7 +286,7 @@ test("a fast clock's moves row: the merge clamps its last below its pair's day, 
 });
 
 // THE BOUNDS OF v1.281.0 (LIN1-R2's "ahead of on time" (a) and (b), LIN1-R3's "one more early answer can cost days") pinned
-// that rule's straight line from a card's own interval. v1.281.2 (LIN2) puts every card on its rung's line, where neither
+// that rule's straight line from a card's own interval. v1.281.3 (LIN2) puts every card on its rung's line, where neither
 // holds any more: their successors, "ahead of answering on time by at most 3 whole days, never in exact days" and "an early
 // right answer never leaves a card due sooner than without it", are tests/schedule_rung.test.mjs, replayed over the same
 // searches. Removed here on purpose, not lost.
@@ -332,7 +332,7 @@ test("the srs merge: the winner's pair rides only while it checks; the heal is a
   // (1) the cloud's pair rides with it
   assert.deepEqual(K.ngKnowledgeMergeRow([31, 1, 1], [88, 30, 29, 30, 0], 100), [88, 30, 29, 30, 0]);
   // (2) the heal: a fresh first answer (3 days) beats the row it heals from (between steps, 19.714… days): that interval as
-  // read, not rounded (v1.281.2), at the winner's last, with a pair because it is not whole; a whole one carries none
+  // read, not rounded (v1.281.3), at the winner's last, with a pair because it is not whole; a whole one carries none
   const between = W([14, 14, 0], true, 5);
   assert.deepEqual(K.ngKnowledgeMergeRow([13, 3, 10], between, 100), [30, 14, 10, 14 + (5 * 16) / 14, 10]);
   assert.deepEqual(K.ngKnowledgeMergeRow([13, 3, 10], [60, 30, 5], 100), [65, 30, 10]);

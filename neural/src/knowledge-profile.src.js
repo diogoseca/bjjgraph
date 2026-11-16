@@ -323,13 +323,13 @@ export function ngKnowledgeSharedDecks(manifest, question, key) {
   }
   return list.length > 1 ? list : [];
 }
-// THE SCHEDULE (v1.281.2, LIN2: the owner's own formula, U188, on the ladder's own lines; v1.281.0, LIN1, carried the credit
+// THE SCHEDULE (v1.281.3, LIN2: the owner's own formula, U188, on the ladder's own lines; v1.281.0, LIN1, carried the credit
 // exactly; the ladder and the rest as ruled at v1.279.0, SRS-GO).
 // A row is [due, cell, last day] (a move's adds its answer at [3]), plus THE PAIR [A, t0] right after (srs [3], moves [4])
 // while the row's exact interval is not its own whole one: either a RUNG PAIR, the rung A the card's line starts from and t0
 // the day the card stood on it (an early answer stores this), or a step anchored at its own day, [the exact interval, last]
 // (an on-time or late answer between rungs stores this, as v1.281.0 did). A row written by any older client has no pair and
-// reads as anchored at its own last, so nothing stored is rewritten. NOTHING IS ROUNDED (v1.281.2): the numbers stored are the
+// reads as anchored at its own last, so nothing stored is rewritten. NOTHING IS ROUNDED (v1.281.3): the numbers stored are the
 // numbers computed, a JSON number reads back as itself, and every due is the rule's in exact arithmetic (pinned in fractions).
 //   · THE RULE, as a player could read it: A CARD CLIMBS ITS STEP AT A STEADY PACE: EACH DAY YOU WAITED BEFORE ANSWERING RIGHT
 //     EARNS THE SAME SHARE OF THE STEP, WHENEVER YOU ANSWER. The owner's formula (15 Nov 2026: next = (interval − days left) ×
@@ -411,7 +411,7 @@ export function ngKnowledgeAnchor(row, at = 3) {
   const ivl = ngKnowledgeOwnInterval(row);
   return { A: ivl, t0: last, ivl, pair: false };
 }
-// THE CARD'S LINE IS ITS RUNG'S (v1.281.2, LIN2): a card at interval `ivl` on day `day` stands on the line of the rung
+// THE CARD'S LINE IS ITS RUNG'S (v1.281.3, LIN2): a card at interval `ivl` on day `day` stands on the line of the rung
 // below it, r ≤ ivl < next, (ivl − r) × r ÷ (next − r) days into r's step. Returned as the rung pair {A: r, t0: the day the
 // card stood on r}; a card on a rung, or at the top, is its own pair. Nothing is rounded: t0 is the number computed.
 function ngKnowledgeOnRung(ivl, day) {
@@ -441,7 +441,7 @@ function ngKnowledgeRungState(prior, at) {
 export function ngKnowledgeInterval(row, at = 3) { return ngKnowledgeAnchor(row, at).ivl; }
 // the new exact interval (in days, counted from the answer's day) a RIGHT answer on `day` earns on `prior`
 export function ngKnowledgeNextInterval(prior, day, at = 3) { return ngKnowledgeNext(prior, Math.max(day, prior[2]), at).ivl; }
-// A RIGHT ANSWER on `last` (never before the row's last): the new state {A, t0, ivl}. Nothing is rounded (v1.281.2): what is
+// A RIGHT ANSWER on `last` (never before the row's last): the new state {A, t0, ivl}. Nothing is rounded (v1.281.3): what is
 // computed here is what the stored pair reproduces, a JSON number reading back as itself. ON TIME OR LATE the card takes
 // exactly one step from the interval it reads, anchored at its own day as v1.281.0 stored it; EARLY it climbs its rung's line
 // and the rung pair is stored. An early answer with no day waited (on the row's own last day, or a clock set back) leaves the
@@ -496,7 +496,7 @@ export function ngKnowledgeMergeRow(local, cloud, today) {
   if (tw > 1 && to > tw) {
     if (o[2] === w[2]) w = o.slice(0, 3).concat(ngKnowledgeAnchor(o).pair ? o.slice(3, 5) : []);
     else {
-      const A = to;   // the beaten interval as read, not rounded (v1.281.2)
+      const A = to;   // the beaten interval as read, not rounded (v1.281.3)
       w = [ngKnowledgeDueDay(w[2] + A), o[1], w[2]];
       if (!Number.isInteger(A)) w.push(A, w[2]);
     }

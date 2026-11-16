@@ -1,4 +1,4 @@
-// THE CARD'S LINE IS ITS RUNG'S (v1.281.2, LIN2, ruled after the independent reader's read of PR #421) — neural/src/
+// THE CARD'S LINE IS ITS RUNG'S (v1.281.3, LIN2, ruled after the independent reader's read of PR #421) — neural/src/
 // knowledge-profile.src.js (`ngKnowledgeOnRung`, `ngKnowledgeRungState`, `ngKnowledgeNext`, `ngKnowledgeEarly`).
 //
 // THE RULE, in one sentence a player could read: a card climbs its step at a steady pace: each day you waited before
@@ -30,7 +30,7 @@
 // THE v1.281.0 CLIENT is captured from git (never re-typed) in tests/artifacts/schedule_lin1_client.json
 // (tests/artifacts/_capture_lin1_schedule.mjs).
 //
-// MUTANTS (v1.281.2), each applied alone to a copy of the tree and run against the ten schedule unit files (this one,
+// MUTANTS (v1.281.3), each applied alone to a copy of the tree and run against the ten schedule unit files (this one,
 // schedule_linear, schedule_ladder, knowledge_profile, moves_record, moves_account_safety, answers_before_sync,
 // progress_owner.integration, rating, practice_queue); each turned the NAMED tests red (the counts leave out one red the copy
 // shows in its control too, the progress host's "build owner pinning", which needs files the copy does not hold):
@@ -306,8 +306,8 @@ test("a day later never earns less, and no cliff, on rows of every client", () =
   console.log(`a day later: ${checked} answers on ${pop.length} rows of four clients; no cliff in ${states} states`);
 });
 
-test("the rows v1.281.0 wrote are never made due sooner: answered by v1.281.2 on every day, and through mixed-writer histories and the merges", () => {
-  // (1) v1.281.0's own rows (anchors off the rungs among them), each answered right by v1.281.2 on every day from its last to two
+test("the rows v1.281.0 wrote are never made due sooner: answered by v1.281.3 on every day, and through mixed-writer histories and the merges", () => {
+  // (1) v1.281.0's own rows (anchors off the rungs among them), each answered right by v1.281.3 on every day from its last to two
   // intervals past its due: never sooner than the row; and both read the same interval
   const rnd = lcg(41), built = [];
   for (const I of [1, 3, 7, 14, 20, 30, 42, 60, 75, 90, 120, 180, 241, 365]) for (let q = 0; q < 25; q++) {
@@ -322,7 +322,7 @@ test("the rows v1.281.0 wrote are never made due sooner: answered by v1.281.2 on
   }
   assert.ok(answers > 20000, `${answers} answers on v1.281.0's rows`);
   // (2) mixed writers (the reader's a_mixed2, written fresh): one card on one to three devices, each answering with its own client
-  // (v1.281.2, v1.281.0, v1.280.2, v1.278.2) and pulling the cloud's row through its own merge; v1.281.2's right answers are
+  // (v1.281.3, v1.281.0, v1.280.2, v1.278.2) and pulling the cloud's row through its own merge; v1.281.3's right answers are
   // never sooner than the row before them, and its merges never below both rows they merge
   const clients = { now: { write: W, merge: K.ngKnowledgeMergeRow }, lin1: { write: lin1.write, merge: lin1.merge }, prev: { write: prev.write, merge: prev.merge }, old: { write: oldWrite, merge: null } };
   const names = Object.keys(clients), r2 = lcg(3);
@@ -344,8 +344,8 @@ test("the rows v1.281.0 wrote are never made due sooner: answered by v1.281.2 on
     }
   }
   assert.ok(stat.right > 20000 && stat.merges > 15000, JSON.stringify(stat));
-  assert.deepEqual([stat.sooner, stat.belowBoth], [0, 0], "v1.281.2 on mixed histories: never sooner, no merge below both");
-  // (3) the moves merge, v1.281.2's against v1.281.0's rows and back: the merged due never below both
+  assert.deepEqual([stat.sooner, stat.belowBoth], [0, 0], "v1.281.3 on mixed histories: never sooner, no merge below both");
+  // (3) the moves merge, v1.281.3's against v1.281.0's rows and back: the merged due never below both
   let mm = 0, mbad = 0;
   const mv = (r) => r.slice(0, 3).concat(1, r.slice(3));
   for (let i = 0; i + 1 < built.length; i += 2) for (const [a, b] of [[built[i], W(built[i + 1], true, built[i + 1][0])], [W(built[i], true, built[i][2] + 1), built[i + 1]]]) {
