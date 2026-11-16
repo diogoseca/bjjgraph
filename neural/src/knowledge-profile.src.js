@@ -470,13 +470,17 @@ export function ngKnowledgeScheduleRow(prior, ok, day, at = 3) {
   const { A, t0, ivl } = ngKnowledgeNext(prior, last, at);
   const due = ngKnowledgeDueDay(last + ivl);
   if (due < prior[0]) return ngKnowledgeRowOut(prior[0], prior[0] - last, last, null, ok, prior, at);   // never sooner
-  // A PAIR DAY BELOW 0 IS NEVER STORED (v1.281.3, LIN2-R1, the reader of PR #426's finding 1): every client's blob validator
-  // takes only numbers at or above 0, so a rung pair dated before epoch day 0 (a card whose rung outlasts the days since 1970:
-  // a clock before about 1975 after a pull's clamp, or a damaged row) would make the whole blob invalid. Such a row is written
-  // WITHOUT its pair: every reader then reads its interval from due and last (at most a day longer, never shorter), and its next
-  // early answer puts it on its rung's line at that interval, as for any older client's row. At epoch day d it touches only a
-  // card on a rung r above d, interval above r + d (at d = 20,400: above 43,776 days, about 120 years)
-  return ngKnowledgeRowOut(due, ivl, last, (t0 === last && Number.isInteger(A)) || t0 < 0 ? null : [A, t0], ok, prior, at);
+  // A PAIR DAY BELOW 0 IS NEVER STORED (v1.281.3, LIN2-R1 and R2, the reader of PR #426): every client's blob validator takes
+  // only numbers at or above 0, so a rung pair dated before epoch day 0 (a card whose rung outlasts the days since 1970: a
+  // clock before about 1975 after a pull's clamp, or a damaged row) would make the whole blob invalid. Such a row stores its
+  // EXACT INTERVAL DATED ON ITS OWN LAST DAY instead, [ivl, last] (no pair when ivl is whole), the form an on-time answer
+  // stores: every reader reads it exactly, it holds no negative number, and the next early answer puts the card on its rung's
+  // line from there, so nothing is lost or gained over any run of answers (LIN2-R1 dropped the pair, a day longer at most per
+  // answer, and that added up: a 731-day card answered daily from epoch day 0 came due 364 days late). At epoch day d it
+  // touches only a card on a rung r above d whose interval is above r + d × (next − r) ÷ r: from 60 + d ÷ 2 on the 60-day
+  // rung; at d = 20,400, where every rung above d doubles, above 43,776 days (about 120 years)
+  const pair = t0 < 0 ? (Number.isInteger(ivl) ? null : [ivl, last]) : t0 === last && Number.isInteger(A) ? null : [A, t0];
+  return ngKnowledgeRowOut(due, ivl, last, pair, ok, prior, at);
 }
 // THE PULL'S MERGE OF ONE srs ROW (v1.105.0 in `_mergeProgressFields`; here since v1.279.0 so it is pinned as a unit).
 // Per card the LATER review wins (the freshest grade knows the memory best); ties are the common case (`last` is a day),

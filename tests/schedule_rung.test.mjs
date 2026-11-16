@@ -28,7 +28,8 @@
 //   · a day later never earns less, and no cliff, on rows of every client;
 //   · the rows v1.281.0 wrote are never made due sooner, through mixed-writer histories and the merges;
 //   · every row the writer emits passes the blob validator, this client's and the older clients' (v1.280.4, production
-//     v1.252.0, captured in tests/artifacts/progress_validators.json): a pair day below 0 is never stored (LIN2-R1).
+//     v1.252.0, captured in tests/artifacts/progress_validators.json): a pair day below 0 is never stored (LIN2-R1); such a row
+//     stores its exact interval dated on its own day, so every claim above holds on it too, from epoch day 0 (LIN2-R2).
 // His formula on every rung, never sooner and the rest stay in tests/schedule_linear.test.mjs and tests/schedule_ladder.test.mjs.
 //
 // THE v1.281.0 CLIENT is captured from git (never re-typed) in tests/artifacts/schedule_lin1_client.json
@@ -57,8 +58,11 @@
 // on rows a client writes; it decides the stored bytes when an early answer walks onto the top rung, and the due (by under a
 // day) on one damaged shape, a row past the top with a fractional due answered with no day waited. Both are now pinned in "the
 // rung pair…" (G7 red there).
-//   N   the pair day kept below 0 (LIN2-R1's fallback removed) → "every row the writer emits passes the blob validator…", "the
-//       rows written without their pair…", "the reader's wrong clock…" (3)
+//   N   the pair day kept below 0 (the fallback removed) → "every row the writer emits passes the blob validator…", "the rows
+//       whose rung pair would be dated before 1970…", "the reader's wrong clock…"
+//   N1  the fallback dropping the pair, as LIN2-R1 first built it → "answered every day from epoch day 0…", "the rows whose rung
+//       pair would be dated before 1970…" and "every row the writer emits…" (both read exactly), "the reader's wrong clock…" (the
+//       71-day card at day 20)
 //
 // Run: node --test tests/schedule_rung.test.mjs
 import { test } from "node:test";
@@ -181,7 +185,8 @@ test("an early right answer never leaves a card due sooner than without it: the 
   assert.deepEqual(withE, [[D + 54, 30, D + 12, 30, D], [D + 68, 30, D + 19, 30, D], [D + 129, 60, D + 56, 60, D + 30], [D + 174, 60, D + 86, 60, D + 30]]);
   // and v1.281.0's worst (a 75-day row, 39 days sooner with one more answer on +21)
   const far = [15, 106, 173, 516, 1049, 2113].map((d) => T + d), start = [T + 75, 60, T];
-  assert.ok(rows(start, [far[0], T + 21, ...far.slice(1)]).at(-1)[0] >= rows(start, far).at(-1)[0]);
+  assert.deepEqual(rows(start, far).at(-1), [13936, 120, 12113, 1822.1916666666668, 12113], "without it: due 13936 (v1.281.0: 14046)");
+  assert.deepEqual(rows(start, [far[0], T + 21, ...far.slice(1)]).at(-1), [14005, 120, 12113, 1891.1833333333334, 12113], "with it: 14005, later (v1.281.0: 14007, 39 days sooner)");
 });
 
 test("from rows v1.281.0 wrote (anchors off the rungs): one early answer, then the next on its old due, its own new due or any later day, is never behind", () => {
@@ -240,6 +245,12 @@ test("ahead of answering on time only by whole days, never in exact days: at mos
   // line: the on-time path answers on whole due days, a fraction of a day after its exact due each time, and restarts there
   assert.deepEqual(worst.r, [11013, 120, 10508, 365, 10368.75]);
   assert.deepEqual([worst.next.day, worst.next.row[0]], [10508, 11010]);
+  // v1.281.0's worst in the same search: a 20-day row answered early on +9, +32, +38, +81, +92 and +134 was due 10 days after
+  // the on-time path's next answer ([10268, 120, 10134, 84.3409, 10081] against 10258); on the rung's line, 2 days, whole days only
+  let w0 = [10020, 14, 10000];
+  for (const x of [9, 32, 38, 81, 92, 134]) w0 = W(w0, true, 10000 + x);
+  assert.deepEqual(w0, [10260, 120, 10134, 90, 10098.75]);
+  assert.equal(onTimePath([10020, 14, 10000], 40, false).find((p) => p.day >= 10134).row[0], 10258);
   // (b) the reader's targeted search: early, on its due (+0, 1, 2 or 5), then early near the next due
   let tried = 0, aheadB = 0;
   for (let i = 0; i < 13; i++) {
@@ -420,7 +431,7 @@ const valid = (validate, blob) => { try { validate(blob); return true; } catch {
 
 test("every row the writer emits passes the blob validator: this client's, v1.280.4's and production's (LIN2-R1)", () => {
   const rnd = lcg(19), top = L[L.length - 1];
-  let emitted = 0, readLonger = 0, realDayLonger = 0;
+  let emitted = 0, dated = 0, realDayDated = 0;
   for (const T of [0, 3, 40, 1000, 10000, 20400]) for (const I of [1, 3, 7, 14, 20, 30, 42, 60, 75, 120, 241, 365, 1461, 2922, 5844, 20000, 1e5, top - 1, top, 2 * top]) {
     const starts = [[T + I, cell(I), T], [T + I + 0.4, cell(I), T], [T + Math.ceil(I / 3), cell(I), T], [T + I, 120, T], [T + I, 1, T]];
     if (I >= 2) starts.push(lin1.write([T + I, cell(I), T], true, T + Math.floor(I / 2)));   // a v1.281.0 row, its pair off the rungs
@@ -431,29 +442,38 @@ test("every row the writer emits passes the blob validator: this client's, v1.28
         const iv = Math.max(1, r[0] - r[2]), d = r[2] + [0, 1, Math.floor(iv / 3), Math.floor(iv) - 1, Math.floor(iv), Math.floor(iv) + 9][Math.floor(rnd() * 6)];
         const ok = rnd() > 0.08, n = W(r, ok, d, at);
         for (const [name, validate] of Object.entries(validators)) assert.ok(valid(validate, blobOf(n, at)), `${name}'s validator rejects ${JSON.stringify(n)} (${at > 3 ? "moves" : "srs"}), from ${JSON.stringify(r)} on ${d}`);
-        // the rows the fallback touched read a whole-day interval above the exact one; at today's epoch day only past 43,776 days
-        if (ok && K.ngKnowledgeInterval(n, at) > K.ngKnowledgeNextInterval(r, d, at) + 1e-9 && n[0] > r[0]) { readLonger++; if (T === 20400 && K.ngKnowledgeInterval(n, at) < 43776) realDayLonger++; }
+        // the rows the fallback touched: an early answer storing its exact interval dated on its own day (a pair off the rungs at
+        // its last), read exactly; at today's epoch day only past 43,776 days
+        const pa = at > 3 ? 4 : 3;
+        if (ok && d > r[2] && d < r[0] && n.length > pa + 1 && n[pa + 1] === n[2] && !L.includes(n[pa]) && n[0] > r[0]) {
+          dated++;
+          assert.equal(K.ngKnowledgeInterval(n, at), K.ngKnowledgeNextInterval(r, d, at), `${JSON.stringify(n)}: read exactly`);
+          if (T === 20400 && K.ngKnowledgeInterval(n, at) < 43776) realDayDated++;
+        }
         r = n; emitted++;
       }
     }
   }
-  assert.ok(emitted > 15000 && readLonger > 50, `${emitted} rows emitted, ${readLonger} read a day longer`);
-  assert.equal(realDayLonger, 0, "at epoch day 20,400 no card under 43,776 days loses its pair");
-  console.log(`validators: ${emitted} emitted rows, all valid under this client, v1.280.4 and production; ${readLonger} written without their pair`);
+  assert.ok(emitted > 15000 && dated > 50, `${emitted} rows emitted, ${dated} dated on their own day`);
+  assert.equal(realDayDated, 0, "at epoch day 20,400 no card under 43,776 days falls back");
+  console.log(`validators: ${emitted} emitted rows, all valid under this client, v1.280.4 and production; ${dated} early answers stored their exact interval at their own day`);
 });
 
-test("the rows written without their pair keep every claim: never sooner, a day later never earns less, one more early answer never costs (LIN2-R1)", () => {
+test("the rows whose rung pair would be dated before 1970 store their exact interval at their own day, and keep every claim (LIN2-R2)", () => {
   // the cards it touches: on a rung above the epoch day, at small days (a wrong clock, a pull's clamp). Counted where it shows,
-  // on rungs whose line climbs a fraction of a day a day (14, 60, 180, 730), where the whole-day interval read is above the exact one
+  // a pair off the rungs dated on the answer's own day (whole intervals store no pair, and read as exactly); every interval read
+  // is the exact one, and never sooner, a day later never earns less, one more early answer never costs
   let answers = 0, extra = 0, touched = 0;
   for (const T of [0, 3, 40, 400]) for (const I of [20, 75, 200, 1000, 2000, 5844, 20000, 1e5]) {
     const s = [T + I, cell(I), T];
     for (const first of [T + 1, T + Math.floor(I / 3), T + I - 1]) {
       const r = W(s, true, first);
-      if (r.length === 3 && K.ngKnowledgeInterval(r) > K.ngKnowledgeNextInterval(s, first) + 1e-9) touched++;
+      if (r.length === 5 && r[4] === r[2] && !L.includes(r[3])) touched++;
+      assert.equal(K.ngKnowledgeInterval(r), K.ngKnowledgeNextInterval(s, first), `${JSON.stringify(r)}: the exact interval`);
       let prevDue = -Infinity, prevIvl = -Infinity;
       for (let d = r[2]; d <= r[0] + 30; d += Math.max(1, Math.floor((r[0] - r[2]) / 200))) {
         const n = W(r, true, d), iv = K.ngKnowledgeInterval(n);
+        assert.equal(iv, K.ngKnowledgeNextInterval(r, d), `${r} on ${d}: read exactly`);
         assert.ok(n[0] >= r[0], `${r} on ${d}: due ${n[0]}, sooner`);
         assert.ok(n[0] >= prevDue && iv >= prevIvl - 1e-9, `${r} on ${d}: a day later earns less`);
         prevDue = n[0]; prevIvl = iv; answers++;
@@ -464,7 +484,21 @@ test("the rows written without their pair keep every claim: never sooner, a day 
     }
   }
   assert.ok(touched >= 15 && answers > 5000 && extra > 4000, `${touched} rows touched, ${answers} answers, ${extra} with one more`);
-  console.log(`pairless rows: ${touched} touched, ${answers} answers never sooner and never less a day later, ${extra} with one more early answer never behind`);
+  console.log(`rows dated on their own day: ${touched} touched, ${answers} answers read exactly, never sooner and never less a day later, ${extra} with one more early answer never behind`);
+});
+
+test("answered every day from epoch day 0 (a clock in 1970): every run ends where one on-time answer does (LIN2-R2)", () => {
+  // the reader of PR #426's re-read: with LIN2-R1's fallback (the pair dropped, a day longer at most per answer) 953 of 2,921
+  // daily runs from day 0 ended on another due day, a 731-day card 364 days late. Dated on its own day, the exact interval
+  // goes on exactly: the same due day, cell and last day, and interval to 1e-9, for every interval from 1 to 2,921 days
+  let off = 0;
+  for (let I = 1; I <= 2921; I++) {
+    let row = [I, cell(I), 0];
+    const onTime = W(row, true, I);
+    for (let d = 1; d <= I; d++) row = W(row, true, d);
+    if (row[0] !== onTime[0] || row[1] !== onTime[1] || row[2] !== onTime[2] || Math.abs(K.ngKnowledgeInterval(row) - K.ngKnowledgeInterval(onTime)) > 1e-9) off++;
+  }
+  assert.equal(off, 0, "daily runs from epoch day 0 that do not end where one on-time answer does");
 });
 
 test("the reader's wrong clock: pull, clamp, answer, validate, save (LIN2-R1)", () => {
@@ -472,8 +506,12 @@ test("the reader's wrong clock: pull, clamp, answer, validate, save (LIN2-R1)", 
   const pulled = K.ngKnowledgeMergeRow(undefined, [20430, 30, 20400], 3);
   assert.deepEqual(pulled, [20430, 30, 3]);
   const a = W(pulled, true, 4), b = W(a, true, 5);
-  // its rung pair would be dated before 1970 (20,427 days stands 8,740 days up the 11,688-day rung: day 4 − 8,740): no pair
+  // its rung pair would be dated before 1970 (20,427 days stands 8,740 days up the 11,688-day rung: day 4 − 8,740), and its
+  // interval is whole: no pair, and due − last is exactly the interval
   assert.deepEqual([a, b], [[20432, 120, 4], [20434, 120, 5]]);
+  // where the interval is not whole, it is stored at its own day: a 71-day card at epoch day 20 (on the 60-day rung, 22 days up)
+  // answered on day 21 has 71.5 days, dated on day 21
+  assert.deepEqual(W([91, 60, 20], true, 21), [93, 60, 21, 71.5, 21]);
   const m = W(W(pulled.concat(1), true, 4, 4), true, 5, 4);
   assert.deepEqual(m, [20434, 120, 5, 1]);
   const blob = { v: 2, srs: { d: { q: b } }, moves: { s: { m } } };
