@@ -330,9 +330,14 @@ for (const v of [{ name: "1440x900 mouse", vp: { width: 1440, height: 900 }, tou
 // is open the pointer's group is pinned to the menu's anchor (`heldStar`), so an orb hovered meanwhile gets no label at all.
 // And N2: a menu left open across a resize from desktop to phone stood at its desktop box, off the phone's screen; it closes.
 // Desktop only: a touch has no hover (a tap stages the node, which then carries the SEAT's star, held by the tests above).
-// Red-proof: MS2b (`clear` counts the menu for its own group again: the group flips to its mirror) red at "its star stays where
-// it was pressed"; MH (the held star no longer pins the pointer's group) red at "no label for an orb hovered while the menu is
-// open"; MR (no close on the breakpoint) red at "the menu closes when the window crosses to a phone".
+// Red-proof: MS2b (`clear` counts the menu for its own group again: the group flips to its mirror, measured 467,126 -> 311,126)
+// red at "its star stays where it was pressed"; MH (the held star no longer pins the pointer's group) red at "no label for an
+// orb hovered while the menu is open"; MR (no close on the breakpoint) red at "the menu closes at the crossing". Named
+// NON-KILL: MS2c (`own` ignored, every pointer group exempt) is green, and equivalent while the pin holds: with a menu open
+// no other group is drawn for `clear` to place.
+// WHY THE RESIZE IS READ BEFORE ANY FRAME. Without the close, the first frame drawn at 390 decides by a race: if it places no
+// name (traced: `pos` null, no anchors), the star goes and `_syncSeatStars` closes its menu; if it places the name, the menu
+// stays at its desktop box, off the phone (traced [631,63,903,175], the reader's N2). A read after frames was green under MR.
 test.describe("1440x900, a hovered pair's star and a resize", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
   const settle = async (j: ReturnType<typeof journey>, page: any, ms: number) => { for (let t = 0; t < ms; t += 250) { await j.advance(250); await page.evaluate(() => document.body.getBoundingClientRect().top) } }
@@ -393,7 +398,10 @@ test.describe("1440x900, a hovered pair's star and a resize", () => {
     await settle(j, page, 1000)
     await expect(page.locator("[data-list-picker]"), "open at 1440").toBeVisible()
     await page.setViewportSize({ width: 390, height: 844 })
+    // the app has taken the resize (`resize()` sets W) and, in test mode, drawn no frame since: the crossing alone decides
+    await expect.poll(() => page.evaluate(() => (window as any).__neural.W), { message: "the app took the resize" }).toBe(390)
+    await expect(page.locator("[data-list-picker]"), "the menu closes at the crossing, before any frame is drawn").toHaveCount(0)
     await settle(j, page, 750)
-    await expect(page.locator("[data-list-picker]"), "the menu closes when the window crosses to a phone").toHaveCount(0)
+    await expect(page.locator("[data-list-picker]"), "...and stays closed through the frames after it").toHaveCount(0)
   })
 })
