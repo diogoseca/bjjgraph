@@ -17,7 +17,7 @@ import { bootVideoCards as boot, CARD } from "../fixtures/video-cards"
  *  play-and-close equals the offset a FRESH card gives (1.63px right, its own optical offset, 0 vertical).
  *  Presses are the player's own: `j.clickByMouse` and a touch tap at a measured, reachable centre.
  *
- *  VID1 (v1.282.0): a move's play circle opens the same theater, so the move viewer's own poster (and the inner ✕ that
+ *  VID1 (v1.283.0): a move's play circle opens the same theater, so the move viewer's own poster (and the inner ✕ that
  *  closed only its player) is gone. Its two tests now hold the move card's own play circle: after the move's video closes
  *  it is exactly where it was, its ▶ centred as on a fresh card, by mouse and by touch.
  *

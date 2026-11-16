@@ -27,7 +27,7 @@ import { journey } from "../dsl"
  * The historical Inspect-row mutant retired with that shell in v1.230.0. The
  * replacement assertion reads the actual card's accessible Works explanation.
  * Harness note: dossier chunks are served as `{}`; this journey makes no video claim.
- * VID1 (v1.282.0): the press that opens a move's video plays it, and the player's "playing" report earns the
+ * VID1 (v1.283.0): the press that opens a move's video plays it, and the player's "playing" report earns the
  * once-per-technique film first look (+4), so watching NAMED[0] moves its own Works. "Works == Finish" now compares the
  * Works the card prints at the pick, read after the watch. WAS: the Works read before the watch (opening the modal
  * earned nothing then); on the VID1 build that assertion failed, 59 for 55.
