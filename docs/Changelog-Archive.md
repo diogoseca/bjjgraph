@@ -18964,7 +18964,7 @@ As it was, on dev's code, it went red 0 of 30 runs locally (touch 390x631).
 under the delay, but nothing promised the order. Under the 60 ms delay all 119 of their tests, and sidebar's dot test, are
 green.
 
-## v1.283.0 — Answer mode is one switch for every card: Auto by default, a card right twice front and back for good; Recall mode, "Show flashcards on pages" and Focus leave Settings (SET1, the owner, 2026-11-15; rulings R1/R2, 2026-11-16; U190 c, 2026-11-16)
+## v1.282.0 — Answer mode is one switch for every card: Auto by default, a card right twice front and back for good; Recall mode, "Show flashcards on pages" and Focus leave Settings (SET1, the owner, 2026-11-15; rulings R1/R2, 2026-11-16; U190 c, 2026-11-16)
 
 **The owner's words (15 Nov).** "it's time to remove the Path section from the sidebar + reform the user settings … the
 antifragile vs gameplan i'd like to keep as well as the [Daily goal, Answer mode] but btw by default we use the Auto, not

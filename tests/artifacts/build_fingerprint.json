@@ -7,7 +7,7 @@
    "inputs": {
     "tree": "b010bb2fae61801c3f1ba28b8007f3ee0a1b26ad"
    },
-   "package_version": "1.283.0",
+   "package_version": "1.282.0",
    "rows_from": "neural/dist",
    "schema": "app-assets-rebuild-v2"
   },

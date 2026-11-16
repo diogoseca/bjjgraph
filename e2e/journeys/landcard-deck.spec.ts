@@ -26,8 +26,8 @@ async function setup(page: Page, recall = false) {
       for (const c of cards) a._bumpStage(key, c.q, 2, 2)
       a._cardDue = () => true
       // Until v1.270.0 the entry here was a BLUE belt (`a.belts.held = { id: "blue", t: Date.now() }`), which switched timed recall
-      // on; from U163 c ("everything opens", 13 Nov) to v1.283.0 it was the Recall Mode switch (`a.set("recallInPlay", true)`).
-      // Since v1.283.0 nothing switches: Auto (the default) asks a card right twice front and back, so there is no entry to set.
+      // on; from U163 c ("everything opens", 13 Nov) to v1.282.0 it was the Recall Mode switch (`a.set("recallInPlay", true)`).
+      // Since v1.282.0 nothing switches: Auto (the default) asks a card right twice front and back, so there is no entry to set.
       a._landQ = null
       a.renderLandCard(a.nodes[a.currentPos], "land", null)
     }

@@ -160,7 +160,7 @@ test("renderer and either observer can throw without losing a grade, save or the
   for (const correct of [true, false]) for (const failing of ["renderTabSubtitles", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]) {
     const warnings = [], a = gradeHost(reportingComponent(warnings));
     const calls = [], fault = new Error(failing); let broken = true, saves = 0;
-    // seeded at 3 (2 until v1.283.0): the stage is how this test sees that the grade landed, and since the floor at 2 (R1) a
+    // seeded at 3 (2 until v1.282.0): the stage is how this test sees that the grade landed, and since the floor at 2 (R1) a
     // miss at 2 leaves 2, which a lost grade would leave too; from 3 both answers move it (4, or 2)
     a.stage = { "A|Top": { [a.qhash("q")]: 3 } }; a.rec = { "A|Top": 0 };
     a._saveProgress = () => { saves++; a.persisted = evidenceOf(a); };
@@ -395,7 +395,7 @@ test("all MC surfaces preserve prior grade arithmetic; valid repeats and trap/no
     for (const [name, fn] of Object.entries(old)) b[name] = fn;
     b._bumpStageVer = () => {};
     a.isTest = b.isTest = () => true;
-    // THE FLOOR AT 2 (v1.283.0, R1) IS THE ONE DEPARTURE FROM THE CAPTURED WRITER, and this sequence meets it: the trap
+    // THE FLOOR AT 2 (v1.282.0, R1) IS THE ONE DEPARTURE FROM THE CAPTURED WRITER, and this sequence meets it: the trap
     // (pick 1) at step 6 finds the card at 2, which the captured writer sends to 1 and the floor keeps at 2. So the stage
     // is compared as "the captured writer's, raised to 2 once it has reached 2"; every other field is compared as before.
     let reached2 = false, departed = 0;
@@ -421,7 +421,7 @@ test("all MC surfaces preserve prior grade arithmetic; valid repeats and trap/no
   console.log(`captured prior MC evidence comparisons: ${checked}`);
 });
 
-// THE FLOOR AT 2 (v1.283.0, ruling R1; the owner: "after a player dominates MC for a card he is shown FC cards, and never
+// THE FLOOR AT 2 (v1.282.0, ruling R1; the owner: "after a player dominates MC for a card he is shown FC cards, and never
 // again the multiple choice"). The rule as an independent table, start stage x answer -> stage, for EVERY writer of the stage
 // that can lower one: the grade (`ngKnowledgeApplyGrade`) and the journeys' seam `_bumpStage` (no app caller). Counted with
 // `| wc -l` in the PR: the writers of `stage` are the grade, the evidence adoption, the load, the per-card MAX merge, the

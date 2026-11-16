@@ -56,7 +56,7 @@ test.beforeAll(async ({ request }) => {
   }
 });
 // v1.280.0: was "open Settings and scroll to the switch's row" (the row, its text, a settled scroll); the row is gone. The
-// tab it lived in is asserted RENDERED first (its own Answer mode row, `data-answer-mode`, and its Daily goal; until v1.283.0
+// tab it lived in is asserted RENDERED first (its own Answer mode row, `data-answer-mode`, and its Daily goal; until v1.282.0
 // its recall row, the "Show flashcards on pages" words and Focus, all gone since), so the absence is a claim about the tab,
 // not about a panel that never drew (CLAUDE.md 6.4)
 async function openSettings(page: Page, j: ReturnType<typeof journey>) {
@@ -287,7 +287,7 @@ test("a real landing-card grade that completes the deck turns the map's test on 
   await j.clickByMouse(".ng-modal .x", "close Settings"); await j.clickByMouse(".ng-explorer-close","close the drawer"); // v1.242.0: Settings opens from the drawer's badge
   const before=await page.evaluate(async () => {
     const a=(window as any).__neural,n=a.nodes[a.currentPos],key=a._mapPaint[n.idx].key;
-    await a.hydrateDeck(key); // (its `set("recallInPlay",true)` went in v1.283.0: Auto asks a stage-2 card front and back, the premise)
+    await a.hydrateDeck(key); // (its `set("recallInPlay",true)` went in v1.282.0: Auto asks a stage-2 card front and back, the premise)
     const cards=a._cardsOf(a.flashcards.decks[key]), q=cards[0].q;
     // A due stage-2 card is eligible for the real recall landing surface. Its
     // successful grade can still increase deckMastery, unlike a stage-3 fixture.

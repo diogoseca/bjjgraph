@@ -104,7 +104,7 @@ test("fresh, cached and backfilled landing pages preserve the pane's answer keys
 test("a recall page mounted under the pane receives Space when the pane closes", async ({ page }) => {
   const j = await setup(page)
   await page.evaluate(() => {
-    // (a `set("recallInPlay", true)` stood here: since v1.283.0 the switch decides nothing, and Auto asks a card right twice
+    // (a `set("recallInPlay", true)` stood here: since v1.282.0 the switch decides nothing, and Auto asks a card right twice
     // front and back, which is this test's premise)
     const a = (window as any).__neural, key = a._landQ.key
     const card = a._landDeckCards(key)[1]

@@ -136,7 +136,7 @@ type PageState = {
 type NavEvent = { url: string; type: string; userInitiated: boolean; source: string | null; stack: string; allowed: string | null };
 
 export class Journey {
-  /** `opts.answerMode`: the answer mode a FILE of journeys was written under (v1.283.0, see `answerMode` below), written
+  /** `opts.answerMode`: the answer mode a FILE of journeys was written under (v1.282.0, see `answerMode` below), written
    *  after every boot that reaches a ready app, the way the Settings row writes it. */
   constructor(private page: Page, private opts: { answerMode?: "auto" | "classic" | "mc" } = {}) {}
   private get st(): PageState {
@@ -810,7 +810,7 @@ export class Journey {
     return this;
   }
 
-  /** THE ANSWER MODE A JOURNEY WAS WRITTEN UNDER (v1.283.0). Nothing stored is Auto since then (multiple choice until a
+  /** THE ANSWER MODE A JOURNEY WAS WRITTEN UNDER (v1.282.0). Nothing stored is Auto since then (multiple choice until a
    *  card is at stage 2, front and back from there, in Practice, Last rolls and a roll's question); until then it was
    *  "classic" (front and back in the sidebar, multiple choice in a roll). A journey whose subject is NOT the format but
    *  whose steps press Reveal / Got it, or answer a roll's question as multiple choice on a proven card, states the mode it

@@ -502,7 +502,7 @@ export function ngKnowledgeApplyGrade(evidence, event, manifest, day) {
   if (ok || event.mode === "recall" || event.tier === "trap") {
     const stages = ngKnowledgeBucket(next.stage, key);
     const cap = event.mode === "mc" && ok ? 2 : 4;
-    // THE FLOOR AT 2 (v1.283.0, ruling R1, owner 15 Nov: "after a player dominates MC for a card he is shown FC cards, and
+    // THE FLOOR AT 2 (v1.282.0, ruling R1, owner 15 Nov: "after a player dominates MC for a card he is shown FC cards, and
     // never again the multiple choice"). Stage 2 is what Auto calls mastered as multiple choice (`_cardAsksMc`, app), and a
     // miss there used to send the card back to 1, i.e. back to multiple choice. Now no answer takes a card below 2 once it
     // got there; a miss still costs its schedule (rung 0, due tomorrow, below) and still costs a stage above 2 (3 -> 2,

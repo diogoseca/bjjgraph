@@ -92,7 +92,7 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   ).toBe(false);
   // "Study this state" is the pane's Last rolls tab (v1.175.0 — the corner count opens nothing);
   // the same rail pane-history.spec.ts drives.
-  // v1.283.0 (rulings R2, SET1-GO; the reader of #423, D3): a newcomer has nothing stored, so this story runs on the default
+  // v1.282.0 (rulings R2, SET1-GO; the reader of #423, D3): a newcomer has nothing stored, so this story runs on the default
   // throughout. Written when that meant Classic recall in the sidebar ("question, then the answer"); under Auto, Last rolls'
   // deck asks a newcomer's new card as multiple choice, on its own surface (answer-mode.spec.ts "Last rolls").
   await page.locator(".ng-logo").click();

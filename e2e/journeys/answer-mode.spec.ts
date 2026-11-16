@@ -1,7 +1,7 @@
 import { expect, test, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
-/** ANSWER MODE: ONE SWITCH, ONE MEANING, EVERYWHERE A CARD IS ASKED (v1.283.0, the owner 15 Nov; rulings R1/R2, SET1-GO).
+/** ANSWER MODE: ONE SWITCH, ONE MEANING, EVERYWHERE A CARD IS ASKED (v1.282.0, the owner 15 Nov; rulings R1/R2, SET1-GO).
  * Owner: "by default we use the Auto, not Classic (which should be called Front Back cards, or the Multiple Choice). after
  * a player dominates MC for a card he is shown FC crds, and never again the multiple choice".
  *
@@ -26,7 +26,7 @@ import { journey } from "../dsl"
  * is the chosen one", 2 at "a new card asks multiple choice", 3 at "the inline deck asks multiple choice", 4 at "the old
  * switch decides nothing".
  * MUTANTS (each alone, rebuilt into the served bundle against a manifest copy carrying its pin; run 16 Nov by the seat's
- * scratch mutants2.py, not a gate; the table in docs/Changelog-Archive.md, v1.283.0). Two neutral controls first, one in
+ * scratch mutants2.py, not a gate; the table in docs/Changelog-Archive.md, v1.282.0). Two neutral controls first, one in
  * app.src.jsx and one in knowledge-profile.src.js: every killer below stayed green. Killed here: default back to
  * "classic" (1, 2); a write of `mcMode` at boot (1, at "storage has no mcMode"); no floor in the grade (2); the landing
  * reads `recallInPlay` again (4, "the old switch"); a stored "mc" ignored in a roll (4); Last rolls' decks ignoring the
@@ -271,7 +271,7 @@ test("the study view: Space on a multiple-choice card reveals nothing and grades
 
 // D5 (the reader of #423): every session that lays its cards out as inline decks asks the answer mode too (R2, "everywhere a
 // card is asked"): a list's drill and a received class's (`openListSession`), a System's drill and the bucket sessions. On
-// the default a new card there asks multiple choice, on the session's surface, and a press is a grade. Until v1.283.0 these
+// the default a new card there asks multiple choice, on the session's surface, and a press is a grade. Until v1.282.0 these
 // were front and back whatever the mode. The list drill is pinned here, by mouse and by touch.
 for (const touch of [false, true]) {
   test.describe(touch ? "touch 390x631, a list drill" : "mouse 1440x900, a list drill", () => {

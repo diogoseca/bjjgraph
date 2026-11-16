@@ -178,7 +178,7 @@ function measure(blob, frame, cur = CUR) {
     score: gs.score,
     kBelt: gs.belt,                        // null = below the white band
     kStripes: gs.stripes,
-    // `_recallInPlayNow` was deleted in v1.283.0 (the switch it read decides nothing); the carry's fact is what it read for a belt
+    // `_recallInPlayNow` was deleted in v1.282.0 (the switch it read decides nothing); the carry's fact is what it read for a belt
     recallCarry: a._recallCarry === true || a._recallCarryLive(),
     frontier: a._frontierBeltId(),
     tab,

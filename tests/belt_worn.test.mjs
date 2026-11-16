@@ -18,7 +18,7 @@
 //   M3  the `belts.held` MAX line removed from _mergeProgressFields  → stale device merge
 //   M4  the merge keeps LOCAL `held` (local wins)                    → stale device merge
 //   M5  _frontierBeltId drives the tab again                         → finished player wears black
-//   M6  the carry-over reads the Game Knowledge band again           → readers follow the worn belt (until v1.283.0 the
+//   M6  the carry-over reads the Game Knowledge band again           → readers follow the worn belt (until v1.282.0 the
 //       switch's reader `_recallInPlayNow`, deleted with the switch; the carry's fact is read here as `carried`)
 //   M7  _noteBlackBelt reads gameScore().belt === "black" again      → readers follow the worn belt
 //   M8  the email line written from gameScore().belt                 → readers follow the worn belt
@@ -37,7 +37,7 @@
 //       clamp of a future held stamp (M13) — each named at the assertion it turns red (the tests at the end of this
 //       file). M5 (the carry overwrites a stored value) has no code left to mutate since OPEN2: the carry writes no value.
 // NON-KILL, recorded so nobody reads this file as covering it: Settings renders through settings-ui.src.js and a DOM, so it
-// is gated in e2e, not here. The "Recall mode (in play)" row was a lock until v1.270.0, a switch for everyone until v1.283.0,
+// is gated in e2e, not here. The "Recall mode (in play)" row was a lock until v1.270.0, a switch for everyone until v1.282.0,
 // and is gone since (its key kept): e2e/journeys/answer-mode.spec.ts pins the Answer mode row that replaced its job.
 //
 // Run: node --test tests/belt_worn.test.mjs
@@ -153,8 +153,8 @@ function tab(a) {
   return out;
 }
 
-// THE CARRY-OVER'S FACT, as the app keeps it since v1.283.0: stamped (`_syncBelt`) and merged (OR) exactly as before, and
-// read by nothing in the app (the answer mode decides a roll's format). Until v1.283.0 these assertions read
+// THE CARRY-OVER'S FACT, as the app keeps it since v1.282.0: stamped (`_syncBelt`) and merged (OR) exactly as before, and
+// read by nothing in the app (the answer mode decides a roll's format). Until v1.282.0 these assertions read
 // `_recallInPlayNow()`, whose carry branch was exactly this; its other branch, a stored `recallInPlay`, is asserted kept
 // and deciding nothing in "timed recall: the answer mode decides ...".
 const carried = (a) => a._recallCarry === true || a._recallCarryLive();
@@ -437,7 +437,7 @@ test("U163 c: every section, lesson, checkpoint and capstone is open, whatever b
 });
 
 // TIMED RECALL IN A ROLL WAS A SWITCH (U163 c, v1.270.0 to v1.282): no belt switched it on, the patch at black included.
-// SINCE v1.283.0 THE ANSWER MODE DECIDES (the app's `_answerMode` / `_cardAsksMc`, rulings R1/R2): Auto, the default for
+// SINCE v1.282.0 THE ANSWER MODE DECIDES (the app's `_answerMode` / `_cardAsksMc`, rulings R1/R2): Auto, the default for
 // nothing stored, asks multiple choice until a card reaches stage 2 and front and back from there, in Practice and in a
 // roll; Front Back cards ("classic") asks every card front and back; Multiple choice ("mc") none. The old switch
 // `recallInPlay` is KEPT (stored, stamped, synced: a settings key can never be deleted, CLAUDE.md 6.6) and decides nothing.
@@ -501,14 +501,14 @@ test("the carry-over: a belt held before the open rule keeps timed recall as the
   // turning it off sticks, and a press is the switch's only writer
   a.set("recallInPlay", false);
   a._syncBelt("test");
-  assert.equal(a.settings.recallInPlay, false, "off stays off (kept; since v1.283.0 it decides nothing)");
+  assert.equal(a.settings.recallInPlay, false, "off stays off (kept; since v1.282.0 it decides nothing)");
   assert.equal(carried(a), true, "and the fact is never cleared");
   // a stored value is the player's own and decides, either way (a black-patch holder who had turned it off, or on)
   for (const v of [false, true]) {
     const h = boot({ blob: { settings: { recallInPlay: v }, settingsAt: { recallInPlay: 500 }, belts: { won: {}, gf: 5, held: { id: "black", t: 1000 } } } });
     assert.equal(h.settings.recallInPlay, v, "the stored " + v + " is kept");
     assert.equal(h._settingsAt.recallInPlay, 500, "and its stamp");
-    assert.equal(carried(h), true, "the stored " + v + " beside a carried black: both kept, neither decides (v1.283.0)");
+    assert.equal(carried(h), true, "the stored " + v + " beside a carried black: both kept, neither decides (v1.282.0)");
   }
   // a stored On on a belt with no carry is never lowered
   const on = boot({ blob: { settings: { recallInPlay: true }, settingsAt: { recallInPlay: 500 }, belts: { won: {}, gf: 5, held: { id: "white", t: 1000 } } } });
@@ -622,7 +622,7 @@ test("the carry's fact holds by code: only `true` counts, a local copy never bea
   assert.deepEqual([carried(z), z._recallCarry], [true, true], "OPEN-M21: a device that stamped before its pull carries the blue only the cloud held, and writes it down");
 });
 
-// v1.283.0 (rulings R2, SET1-GO; U190 c): THREE ROWS LEAVE THE SCREEN AND THEIR KEYS STAY IN STORAGE. "Recall mode (in play)"
+// v1.282.0 (rulings R2, SET1-GO; U190 c): THREE ROWS LEAVE THE SCREEN AND THEIR KEYS STAY IN STORAGE. "Recall mode (in play)"
 // (`recallInPlay`), "Show flashcards on pages" (`quizOnPages`) and Focus (`focus`, the owner 16 Nov: "Take the row off the
 // screen") left Settings, and the carried-belt fact (`recallCarry`) decides nothing; a
 // settings key can never be deleted (CLAUDE.md 6.6: the per-key merge has no tombstone, so a pruned key comes back from the

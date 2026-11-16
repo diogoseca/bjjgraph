@@ -97,7 +97,7 @@ renderSettings() {
       inp.style.cssText = "width:74px;font-family:inherit;font-size:14px;font-weight:600;color:#eef1f6;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.25);border-radius:9px;padding:9px 11px;text-align:center;";
       inp.addEventListener("change", () => { this.set("dailyGoal", this.practiceGoal(parseInt(inp.value))); inp.value = this.practiceGoal(); });
       g.appendChild(inp); body.appendChild(g);
-      // ANSWER MODE (v1.283.0, owner 15 Nov; rulings R2, SET1-GO): ONE SWITCH, ONE MEANING, everywhere a card is asked (the
+      // ANSWER MODE (v1.282.0, owner 15 Nov; rulings R2, SET1-GO): ONE SWITCH, ONE MEANING, everywhere a card is asked (the
       // app's `_answerMode`, beside `mcActive`). Auto first and the default for a player who pressed nothing: the reader's
       // default, never a write (nothing here or in the app writes `mcMode` unless the player presses a choice). "Classic
       // recall" is renamed "Front Back cards" (owner); the stored values do not change (auto / classic / mc). The words say
@@ -117,16 +117,16 @@ renderSettings() {
         body.appendChild(mode);
       }
       // (the training-day email row moved to the Notifications tab in v1.150.0)
-      // "RECALL MODE (IN PLAY)" LEFT SETTINGS in v1.283.0 (R2): its job is Auto's (a card right twice asks front and back
+      // "RECALL MODE (IN PLAY)" LEFT SETTINGS in v1.282.0 (R2): its job is Auto's (a card right twice asks front and back
       // in a roll), and a switch on no screen must not decide what plays. Its key `recallInPlay` and the account's
       // `recallCarry` fact are kept, stored, synced and merged as before, and read by nothing (CLAUDE.md 6.6: a settings key
       // can never be deleted). It was a switch anyone turned on from v1.270.0 (U163 c), the black-belt toggle before that.
       // (the dead "Study order" setting row was deleted in v1.105.0 — `studyOrder` was written but read nowhere; due-first is now BEHAVIOUR, not a preference)
-      // "FOCUS" (Antifragile / Converge) LEFT SETTINGS in v1.283.0 (the owner, 16 Nov, U190 c: "Take the row off the
+      // "FOCUS" (Antifragile / Converge) LEFT SETTINGS in v1.282.0 (the owner, 16 Nov, U190 c: "Take the row off the
       // screen"): nothing in the app ever read `focus` (the row came with the app, Phase 0.2; `git log -S"antifragile"`
       // finds the row only), so every player already had one order, and still does. The key `focus` stays stored, synced
       // and merged, read by nothing (CLAUDE.md 6.6: a settings key can never be deleted).
-      // "SHOW FLASHCARDS ON PAGES" LEFT SETTINGS in v1.283.0: it switched nothing (its own row was the only reader of
+      // "SHOW FLASHCARDS ON PAGES" LEFT SETTINGS in v1.282.0: it switched nothing (its own row was the only reader of
       // `quizOnPages`; the quiz pill went with the old front-end, tests/artifacts/sidebar_capabilities.md row 115). The key
       // stays stored, synced and readable, read by nothing (CLAUDE.md 6.6).
       // "Turn what you know gold" (`masteryGold`) left Settings in v1.280.0 (GOLD1, ruled): the map's gold is the outlines,

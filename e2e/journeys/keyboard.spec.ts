@@ -223,7 +223,7 @@ test("the Challenges corridor pages, flips and grades its inline deck from the k
 }) => {
   const j = journey(page)
   await j.boot("/")
-  // v1.283.0: written for front-and-back inline decks (Space flips, ⏎ grades); since then every inline deck asks the answer
+  // v1.282.0: written for front-and-back inline decks (Space flips, ⏎ grades); since then every inline deck asks the answer
   // mode and Auto asks a new card as multiple choice, so the journey states the mode it was written under
   await j.answerMode("classic")
   await j.hydrateAll() // residency is not the subject: a cold row renders the placeholder deck

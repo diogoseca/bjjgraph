@@ -116,7 +116,7 @@ const NG_CHALLENGE_UI_METHODS = {
   // THE BLACK BELT ADVERTISES ITS REWARD UP FRONT (v1.105.1, owner: "we can see it in the
   // challenges"). Same idiom as the capstone's "Earns a patch": a visible row on the Black
   // section. It reads "earned" once the badge exists — the mint happens in the reward loop. Since U163 c (v1.270.0) the
-  // patch is a patch and nothing more. Until v1.283.0 the row also said where the Recall Mode switch was ("turn it on in
+  // patch is a patch and nothing more. Until v1.282.0 the row also said where the Recall Mode switch was ("turn it on in
   // Settings → Flashcards"); that switch left Settings (Auto does its job, R2), so the row says only how the patch is earned.
   _recallRewardRow() {
     const earned = !!(this.badges && this.badges["recall-in-play"]);
@@ -124,7 +124,7 @@ const NG_CHALLENGE_UI_METHODS = {
     rw.className = "ng-challenge-capstone";
     rw.setAttribute("data-recall-reward", earned ? "earned" : "unearned");
     rw.innerHTML =
-      // the patch's own name (NG_BADGE_DEFINITIONS, "Black Belt" since v1.283.0; "Recall Mode" before, after a switch that left)
+      // the patch's own name (NG_BADGE_DEFINITIONS, "Black Belt" since v1.282.0; "Recall Mode" before, after a switch that left)
       "<small>BLACK-BELT PATCH</small><b>" + ngChallengeHTML((NG_BADGE_DEFINITIONS.find((d) => d.id === "recall-in-play") || {}).name) + "</b><p>" +
       (earned ? "Earned." : "Reach black belt to earn it.") + "</p>";
     return rw;

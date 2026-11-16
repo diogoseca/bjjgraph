@@ -347,7 +347,7 @@ export function ngProgressJournalAfter(journal, replay, drop) {
 // longer turns the account's mature card into one day, and a guest's miss still brings it back. The rating reads the
 // schedule's interval since v1.279.0, so a shortened row cost a player rating. tests/guest_join_safety.test.mjs,
 // tests/answers_before_sync.test.mjs.
-// THE OPEN RULE'S TWO VALUES (v1.270.0, U163 c; the app's `_syncBelt`, `_recallCarryLive`; read by nothing since v1.283.0). `openAt`, when the open rule
+// THE OPEN RULE'S TWO VALUES (v1.270.0, U163 c; the app's `_syncBelt`, `_recallCarryLive`; read by nothing since v1.282.0). `openAt`, when the open rule
 // first ran for an owner, is left out of the guest PART, so it is neither in the copy's hash nor in the practice key (a
 // bare landing writes one: tests/guest_join_safety.test.mjs 20). It joins the MERGE all the same (`ngProgressGuestMerge`
 // puts it back on the part it merges): the EARLIER of the two stamps, so a guest's belt earned under the guest's own rule

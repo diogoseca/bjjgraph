@@ -1,7 +1,7 @@
 import { expect, test, type Page } from "@playwright/test"
 import { resolve } from "node:path"
 import { journey } from "../dsl"
-// v1.283.0 (rulings R2, SET1-GO; the reader of #423, D3): written when nothing stored meant Classic recall in the sidebar;
+// v1.282.0 (rulings R2, SET1-GO; the reader of #423, D3): written when nothing stored meant Classic recall in the sidebar;
 // since then nothing stored is Auto (a new card asks multiple choice). A test whose claim is about what a player with nothing
 // stored meets runs on the DEFAULT (`boot(…, DEFAULT)`): "the planner's first position comes first … nothing is stored" and
 // the guard's two ("the guard holds when the live set lands after the tap"), where the card on screen, its three answers
