@@ -18743,9 +18743,9 @@ the Auto rule); B (the Path row out) and C (a cards view) wait for his answers.
 
 **Tests.** e2e/journeys/answer-mode.spec.ts (new); landcard-modes 5c, everything-opens 3 and 4, recall-badge, landing-card
 and mastery-gold's rendered marker rewritten to the rule (each pinned the old one, and says why in place); the mode stated
-through the DSL (`journey(page, { answerMode })`, `j.answerMode`) in the ten journeys written under the old default
+through the DSL (`journey(page, { answerMode })`, `j.answerMode`) in the eleven journeys written under the old default
 (practice-page, practice-drawer, practice-mix, practice-order, gameplan-learning-loop, pane-history, gen/mid-jit-grades
-file-wide; sidebar, keyboard, newcomer-story per test); units: the floor table (54 cells), the MC differential's
+and weak-spots-acceptance file-wide; sidebar, keyboard, newcomer-story per test); units: the floor table (54 cells), the MC differential's
 one named departure, the retired keys' round trip, the Flashcards tab, belt_worn's switch and carry assertions moved onto
 the fact (`carried`).
 
@@ -18770,6 +18770,7 @@ killer stayed green.
 | **a stored `mc` ignored in a roll** | answer-mode "the old switch decides nothing" RED; landcard-modes 5c RED |
 | **the floor applied from stage 1** (a stage-1 miss kept at 1) | knowledge_profile RED |
 | **a write of `mcMode` at boot** (`set("mcMode","auto")` after `_loadProgress`) | answer-mode "nothing stored is Auto" 2/2 RED, at "storage has no mcMode: Auto is the reader's default, never a write"; belt_worn and settings_presentation green (the units never run the constructor) |
+| **Focus put back on the screen** (U190 c; the row re-added in `settings-ui.src.js`) | settings_presentation RED at "Focus is gone, its words with it"; answer-mode "nothing stored is Auto" 2/2 RED at "Focus left Settings" (run 12:20, after the clean rebuild the served bundle was byte-identical) |
 
 **After the run:**
 - The clean bundle was rebuilt. The served `neural.js` is byte-identical to the one before the run (sha 5f5514e8…).
@@ -18787,5 +18788,6 @@ worker core beside the seat's own in its build folders; CI builds fresh.
 
 **The survey** (the lock, 06:33-07:15): every spec file that renders what a touched file renders (a grep of all of
 `e2e/` and `tests/` per touched file), 61 journey files and 36 generated: 663 of 663 green, 0 flaky, ledger PASS. Part A's
-"up to 27" leaning specs was a grep's upper bound; ten files needed a mode stated (the DSL), five were rewritten because
-they pinned the old rule, and every other file ran green as it is under Auto.
+"up to 27" leaning specs was a grep's upper bound; eleven files needed a mode stated (the DSL; weak-spots-acceptance, the
+eleventh, surfaced in a second, wider pass over every spec that opens a card surface), five were rewritten because they
+pinned the old rule, and every other file ran green as it is under Auto.

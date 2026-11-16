@@ -25,7 +25,7 @@ import { journey } from "../dsl"
  * "classic" (1, 2); a write of `mcMode` at boot (1, at "storage has no mcMode"); no floor in the grade (2); the landing
  * reads `recallInPlay` again (4, "the old switch"); a stored "mc" ignored in a roll (4); Last rolls' decks ignoring the
  * mode (3); `mcActive` ignoring a stored "classic" (4, "Practice: a stored Front Back cards…"); Auto's line moved from 2
- * to 3 (2, 4). NOT run against this file: the floor at 1, the floor from stage 1, and no floor in `_bumpStage`; those
+ * to 3 (2, 4); the Focus row put back (1, at "Focus left Settings"). NOT run against this file: the floor at 1, the floor from stage 1, and no floor in `_bumpStage`; those
  * are killed by tests/knowledge_profile.test.mjs's floor table. A boot write is killed HERE only: the units never run the
  * constructor (belt_worn and settings_presentation stayed green under it).
  * The harness serves `{}` for dossiers: no claim here reads a film or an article section.
