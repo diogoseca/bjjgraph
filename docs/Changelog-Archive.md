@@ -19012,13 +19012,15 @@ loops and written fresh:
 - **An early right answer never leaves a card due sooner than without it:** 0 of 1,113,790 comparisons (the long search) and
   0 of 509,533 two-answer insertions. From 165 rows v1.281.0 wrote off the rungs, one early answer then the next on any day is
   never behind (13,015 pairs). The 30-day case gives 173 and 174, never behind.
-- **Ahead of answering on time by at most 3 whole days, never in exact days:**
+- **Ahead of answering on time only by whole days, never in exact days** (first written as "at most 3 whole days", a bound
+  only for the search below; corrected at LIN2-R1):
   - early-only: 839 of 566,832 prefixes, by at most 3 days; 0 against the on-time path answered at its exact dues;
   - early, on time, then early: 0 of 40,536.
 
   The on-time path answers on whole due days, a fraction of a day after its exact due, and restarts there; early answers ride
-  the line exactly. The worst is a 20-day row answered early eight times, which ends 3 days after the on-time path on the same
-  365 rung.
+  the line exactly. The worst in that search is a 20-day row answered early eight times, which ends 3 days after the on-time
+  path on the same 365 rung. The whole-day lead adds up, about a day per on-time answer compared, as a card ages: the reader of
+  PR #426 found 5 within five years and 12 near the top, 0 in exact days throughout.
 - **A day later never earns less, and no cliff:** 497,099 answers on 1,652 rows written by four clients; 0 cliffs in 1,577
   states.
 - **The rows v1.281.0 wrote are never made due sooner:**
@@ -19054,8 +19056,11 @@ agree: one step. The top-rung card of 120 days answered the next day gets 121 da
 - G4, no day waited still moves the card: red at the same-day check, "never sooner" and "a clock set back" (3).
 - G5, the rung above: 14 red. G6, the walk a hundredth of a day late: 13. G10, a late answer from its line's value: 26.
 - G8 and G9, either heal rounded to 4 decimals again: the srs merge test (1); the moves merge test and R5 (2).
-- **G7, the one-step cap removed, is equivalent and recorded as a non-kill.** On rung lines an early answer never reaches the
-  cap, which stays as a guard against float dust.
+- **G7, the one-step cap removed, first recorded as equivalent, which was wrong.** The seat's own check against the real writer
+  (1,280 rows, 247,008 answers), and the fresh reader's (406,764 hostile rows), agree: it is equivalent in every due on rows a
+  client writes. It decides the stored bytes when an early answer walks onto the top rung, and the due, by under a day, on one
+  damaged shape (a row past the top with a fractional due, answered with no day waited). Both shapes are pinned since
+  LIN2-R1, and G7 is red there.
 
 The counts leave out one red the copy shows in its control too: the progress host's "build owner pinning", which needs files
 the copy lacks.
@@ -19088,3 +19093,45 @@ Against the baselines checkpointed at dev v1.280.0 (PAY4):
 - deferred raw 521,918 B of its 522,091 ceiling, unchanged.
 
 No gate or baseline moved. The archive's ceiling rose by exactly 50,000 under D-316, in its own commit (007f8a8d0).
+
+**The fresh reader, and LIN2-R1 (16 Nov).** The reader read a2efd246b, MERGE AFTER 2 fixes. It owed the rule nothing and wrote
+its own generators and exact-fraction judges.
+- **What held:**
+  - a right answer is never due sooner, in 34.9 M answers on 38,172 states from every client;
+  - one more early answer never costs: 0 of 13.5 M with one extra, 0 of 101.8 M with two;
+  - the owner's numbers are exact;
+  - the unrounded storage is exact: the JSON round trip on 1.3 M rows, and 0 of 26.7 M dues against its BigInt mirror;
+  - sync with all four clients: 0 below both, 0 order-dependent, 0 rewritten by a second pull.
+- **Fix 1, new in this PR:** a rung pair's day could fall below 0, and every client's blob validator takes only numbers at or
+  above 0, so the whole blob would be refused.
+  - The reader's path: a clock at epoch day 3 pulls `[20430,30,20400]`, the clamp makes it `[20430,30,3]`, and an answer on
+    day 4 wrote `[20432,120,4,11688,-8736]`. That device would then save nothing more.
+  - Ruled and built: such a row is written without its pair and reads its whole-day interval, at most a day longer and never
+    shorter. At epoch day d this touches only a card on a rung above d whose interval exceeds that rung plus d: at 20,400,
+    above 43,776 days. It touched 0 of 82,800 random answers at each of days 1,000, 10,000 and 20,400.
+  - New tests:
+    - every row the writer emits (16,950, epoch days 0 to 20,400, hostile shapes, both layouts) passes this client's
+      validator and v1.280.4's and production's, captured from git in `tests/artifacts/progress_validators.json`;
+    - the pairless rows keep never-sooner, a-day-later and one-more-early-answer (18 rows, 17,628 answers);
+    - the wrong-clock path runs as a unit: pull, clamp, answer, validate, save.
+  - A mutant keeping the negative day is red at all three.
+  - The pinned rows moved to a real epoch day (20,400). The day-0 fixtures had made two negative pair days look normal.
+  - Not covered, an older and separate fault: any invalid row stops every later save, because `_saveProgress` persists and
+    pushes only on "saved" and the store refuses the whole blob.
+- **Fix 2, the wording:** see "only by whole days" above, with the reader's 5-day case pinned. A 14-day card answered early
+  on each of the on-time path's days is due on 21984, against that path's 21979, two years in.
+- **Also in this push, prepared before the verdict:**
+  - the cap's two shapes;
+  - three successors made as strong as what they replaced: the moves layout in "nothing is rounded", v1.281.0's (b)
+    sequence now level with the on-time path for good, and the 30-day N1 case row by row;
+  - the corrected comments.
+- **LIN2-R1's landing** under the build lock, 19:10 to 19:55, on eeb516678:
+  - units 1,759/1,759;
+  - 53 journey files, 604 passed;
+  - `e2e:gen` 103/103;
+  - `ci:validate` 25/25;
+  - the app rows re-seeded: `neural.js` 731,899 → 731,904 B (+5, for the fallback; +207 on dev v1.281.2's own rows in all);
+  - the study engine label-neutral (63 shard parts byte-identical; each variant differs only in `mechanicsHash`);
+  - eager gzip 370,356, +3,780 of 5,000; first-hand core 389,866, +3,847 of 6,000; deferred 521,918 of 522,091, unchanged.
+
+  No gate or baseline moved.
