@@ -18770,7 +18770,8 @@ answering on time is a measured bound, pinned.
     to 10 later; it is never sooner than the row and never beyond one on-time answer.
   - **D3:** the pin of the three copies gains the self-check's boundary rows (an exact due within 1e-6 above a whole day;
     last − t0 = A; a pair past the 20th rung; t0 after last with a line that reaches its due) and a named fast-clock test.
-  - **A new table: an early answer never costs the card anything.** On 11 rungs, every day of each step: answered early and
+  - **A new table: one early answer, then the next on its old due or its own new due, never costs the card anything**
+    (its first title, "an early answer never costs the card anything", scoped at LIN1-R3, below). On 11 rungs, every day of each step: answered early and
     then on the day its first due fell, a card ties one answered only then; answered on its own new due, it is 3 to 6 days
     ahead. 0 of 5,851 cases behind.
   - **`ngDueIn`:** years to one decimal under ten years, a trailing .0 dropped (1.5 years for 548 days: the reader's D4 found
@@ -18779,6 +18780,36 @@ answering on time is a measured bound, pinned.
 - **His question (U193):** "which one follows my formula of new_n_days_gap = (n_days_gap - n_days_left) * 2 + n_days_left,
   or something very close to this?" The built rule does. Day 15 on a 30-day card: (30 − 15) × 2 + 15 = 45. Day 30, with a
   45-day gap and 30 days left: (45 − 30) × 2 + 30 = 60, and the rule gives 60.
+
+**The reader's delta read, and LIN1-R3 (16 Nov).** The reader read 61c3e645d..66ed0c262: D1, D2 and D3 fixed, MERGE AFTER 1
+fix.
+- **N1:** "an early answer never costs the card anything" held only in the table's case. Over longer runs, one more early
+  right answer can leave a card due sooner. It can turn a later answer from late (one step from where the card is, a fresh
+  line, here steeper) into early (the card's old line's value, here lower).
+  - A 30-day card answered on days 12, 56 and 86 is due on day 181. With one more answer on day 19 it is due on day 174.
+  - In the reader's search: 430,381 extra early answers on 12,246 histories give 1,123,024 comparisons. 4,196 are sooner,
+    534 of them from a rung start, by at most 39 days and 9.9% of the interval. My own script gives the same figures.
+  - Narrower still: right after the extra answer, 1,078 are sooner. All of them come from rows that already carry an early
+    answer; the worst is 9 days, 190 against 199, at the old due. So the scoped sentence names only the table's case, from a
+    card on a rung.
+- **Ruled at LIN1-R3:** the rule stays. It is the owner's formula, and his U193 question confirmed it.
+  - The claim is scoped in the code's header, `docs/Neural.md`, the PR body and the test's title.
+  - The cost is pinned as a bound by a test that replays the reader's search, with the 30-day case and the worst as
+    fixtures.
+  - `docs/Neural.md` now says "prefixes" for the 1,150 of 566,832.
+- **A candidate that removes N1, measured and not built.** The anchor would be stored on a rung: a card between rungs,
+  r < x < next, sits (x − r) × r ÷ (next − r) days into r's step. A late or on-time answer then keeps the interval it earns
+  but grows on r's own line. In code it is one helper and three lines in the writer, and the reader copies are unchanged.
+  - On the reader's scripts: N1 0 of 1,113,790 (and 0 of 97,818, 0 of 509,533); D1 (a) 839 of 566,832 at most 3 days
+    (built 1,150 and 10); D1 (b) 0 of 40,536 (built 63); `b_cadence` B3 46 by 1 day (built 53 by 5) and B4 2,387 by 3
+    (built 4,239 by 10).
+  - `c_core` (349,408,091 answers): 0 due sooner, no cliff, his formula 0 wrong, 0 dues falling a day later. The interval's
+    fourth decimal falls short of one step by at most 0.0001 (2,827,079 answers) and falls by as much a day later (2,085),
+    an artifact of storing the rung anchor's day to 4 decimals, with the due day never off.
+  - The cost: on 522,354 random answers it moves 29% of dues against the built rule. They are sooner in 78,712, by up to 478
+    days at the ladder's top, and later in 76,058, by up to 161. Against dev's writer it is sooner in 3,960, by up to 18
+    days; the built rule is sooner than dev in 12,628, by up to 36.
+  - A small code change with a wide effect, so it was reported and not built in this PR.
 
 **Proof.**
 - `tests/schedule_linear.test.mjs` (new, 12): his formula on every rung and every day of its step; the days past a step and
@@ -18843,5 +18874,34 @@ answering on time is a measured bound, pinned.
   - eager gzip 370,126, +3,550 of 5,000 (+200 since LIN1's 369,926, all from dev v1.280.3);
   - first-hand core 389,623 here, +3,604 of 6,000;
   - deferred raw 521,918 B of its 522,091 ceiling, unchanged.
+
+  No gate, baseline or ceiling moved.
+- **LIN1-R3's mutants** (4, each making one more early answer cost more, each alone on a scratch copy against
+  `tests/schedule_linear.test.mjs`): all red at the new bound test.
+  - the step between rungs 5% steeper (9 red);
+  - a walked card's line at 0.9 of the next step's ratio (6 red);
+  - a late answer's step 1% longer (6 red);
+  - a late answer one step from its line's value on the answer's day, rather than from the interval it holds (7 red).
+- **LIN1-R3's landing** under the build lock on 58f6d9264 (dev ed701b3b5, v1.280.4, PR #422, merged in; this branch's own
+  lines unchanged, sha 557dfa4f8f29ff1f of 1,409 before and after), 12:55 to 13:42:
+  - units 1,740/1,740;
+  - 53 journey files, 601 passed (R2's 50, plus `article-sections`, `restart-notice` and `seat-star` for #422's lines);
+  - `e2e:gen` 103/103;
+  - `ci:validate` 25/25;
+  - the app rows re-seeded (deaa71cf5): on dev v1.280.4's own rows, `neural.js` 728,952 → 731,340 B and `gameplan.js`
+    21,284 → 21,885 B, the same +2,388 and +601;
+  - the study engine label-neutral: all 63 shard parts byte-identical, each variant differing only in `mechanicsHash`.
+  - the reader's re-run list after the merge:
+    - against 6e67cfe05, the merge changes none of the PR's own files, and its `app.src.jsx` lines are exactly dev's #422
+      diff;
+    - `f_passive` (the merged head against dev ed701b3b5) writes the same keys at the same points, with no journal key, and
+      only the two `Date.now` stamps differ after two passive pulls;
+    - `app_pull`: 0 srs and 0 moves rows differ from dev's pull of 588 + 40 dev-written cards, and the four app merges are
+      the same.
+
+  Against the baselines checkpointed at dev v1.280.0 (PAY4):
+  - eager gzip 370,156, +3,580 of 5,000;
+  - first-hand core 389,653 here, +3,634 of 6,000;
+  - deferred raw 521,918 B of its 522,091 ceiling.
 
   No gate, baseline or ceiling moved.
