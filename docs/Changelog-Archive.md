@@ -19350,3 +19350,25 @@ pinned the old rule, and every other file ran green as it is under Auto.
 
   The button alone setting `revealed` itself, with the loading footer kept, survives and is equivalent: Reveal is drawn
   only where `drillReveal` lets a reveal through.
+
+## v1.282.1 — endgame-spa-nav-sheds-chip's census sets aside the skip a late flashcard manifest causes (FLAKE2, 2026-11-16)
+
+**The red.** My LIN2-R2 landing on b83c8659b ran `e2e:gen` 102 of 103. `endgame-spa-nav-sheds-chip.spec.ts:94` found two
+`land_q_skipped` beats in life 2 of a soft navigation, before the question. The test passed 5 of 5 alone, and CI was green.
+
+**The mechanism, proven by a cross.** A soft navigation boots a new instance, which fetches the flashcard manifest again.
+When the remounted landing renders before the manifest arrives, the app records the skip at once, by its documented design
+("A missing MANIFEST stays an immediate skip"). The backfill then asks the question when the deck lands. The spec pinned life
+2's beats exactly, so it counted that skip; its claim is "no residue of an earlier life".
+
+| the test | nothing held | the manifest held 1.5 s in the navigation | every flashcard request held |
+|---|---|---|---|
+| as it was | 30 of 30 green | red 5 of 5 | red 5 of 5 |
+| corrected | 10 of 10 (the file itself 5 of 5) | green 5 of 5 | green 5 of 5 |
+
+**The claim still gated.**
+- A beat of an earlier life carried into the next: red at the census.
+- The in-flight skip recorded under another reason: red at the new skip check.
+
+`spa-nav-single-instance-law.spec.ts` had met the same class before (D-332 D2-S2) and set those skips aside in the same way.
+Tests only; the ledger row stays accepted. The app's second skip, the backfill repeating it, is v1.282.2.
