@@ -844,12 +844,11 @@ Positions share one third of score mass, like attacking and defending technique 
 
 **Nothing about the score decays.** `deckMastery` moves only on answers — the score cannot drop
 because time passed (a failed card can lower it; it can never lower a belt, below). Retention-vs-pressure is the schedule's (`ngKnowledgeScheduleRow`: his ladder, 1 day to 8 years and
-doubling; an early right answer earns its days waited on a straight line, his formula, a late one a step, a miss 1 day): *what you are
-shown*, never what a deck is *worth*. From a card on a rung, one early answer, then the next on the card's old due or its
-own new due, never leaves it behind one answered only when due. Over longer runs one more early answer can, by a measured bound: at most 39
-days (4,196 of 1,123,024 comparisons; days 12, 56 and 86 on a 30-day card give due day 181, adding day 19 gives 174). A card
-can also end a little ahead of answering on time: at most 10 days, 8% to 11% of the interval (1,150 of 566,832 prefixes of
-early runs, 63 of 40,536 mixed sequences), and a mixed run stays about a tenth ahead (`tests/schedule_linear.test.mjs`).
+doubling; a late right answer earns a step, a miss 1 day): *what you are shown*, never what a deck is *worth*. A card
+climbs its step at a steady pace: each day you waited before answering right earns the same share of the step, whenever
+you answer (his formula, at the ratio of the step the card is in). So an early right answer never leaves a card due sooner
+than without it. A card can end ahead of answering on time only by whole days, never in exact days: at most 3 in the
+reader's early-only search, adding about a day per on-time answer as a card ages (`tests/schedule_rung.test.mjs`).
 
 **Practice is one session** (v1.278.0, U171 a). Its card comes first, the belt corridor below.
 It asks what is due first, position by position, worth most first (`practice-queue.src.js`), at most 6 a visit;

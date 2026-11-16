@@ -151,7 +151,7 @@ export function ngProgressMergeMoves(local, cloud, today) {
         const rest = w.length > 6 ? w.slice(6) : [], none = rest.length ? [0, 0] : [];
         if (o[2] === w[2]) w = o.slice(0, 3).concat(w[3], ngProgressSchedPair(o) ? o.slice(4, 6) : none, rest);
         else {
-          const A = Number.isInteger(to) ? to : Math.round(to * 1e4) / 1e4;
+          const A = to;   // the beaten interval as read, not rounded (v1.281.3, as `ngKnowledgeMergeRow`)
           w = [Math.ceil(w[2] + A - 1e-6), o[1], w[2], w[3]].concat(Number.isInteger(A) ? none : [A, w[2]], rest);
         }
       }
