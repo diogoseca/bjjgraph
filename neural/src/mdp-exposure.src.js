@@ -187,14 +187,21 @@ function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity
   //     day before the row's last on its last (a clock set back), and the header's claims about daily answers and the pull's
   //     clamp say what is true. Label-neutral for the same reason: no knowledge law the worker or this adapter binds changed.
   //     Measured again against dev v1.278.2's own regeneration (docs/Changelog-Archive.md, v1.279.0, SRS-R1).
-  //   - ANSWER MODE (v1.283.0, ruling R1), the KNOWLEDGE pin again (from 9ef88c…): `ngKnowledgeApplyGrade`'s stage floor at 2
+  //   - LIN1 (v1.281.0), the KNOWLEDGE pin (from 9ef88c…): the schedule's credit for an early right answer is the owner's
+  //     own formula, linear in the days waited since the card's last full step, carried exactly in a pair at the row's end
+  //     (`ngKnowledgeScheduleRow`, `ngKnowledgeAnchor`, `ngKnowledgeStep`, `ngKnowledgeLinear`, `ngKnowledgeDueDay`) and read
+  //     by the pull's srs merge (`ngKnowledgeMergeRow`). Label-neutral for SRS-GO's reason: none of the eight knowledge laws
+  //     the worker binds nor the adapter's override changed, and no study read names a schedule row. Measured: regenerated
+  //     before and after, every MDP shard part byte-identical; only provenance hashes and the variants' mechanicsHash
+  //     moved (docs/Changelog-Archive.md, v1.281.0).
+  //   - ANSWER MODE (v1.283.0, ruling R1), the KNOWLEDGE pin again (from LIN1's ab2997…, after merging it; first written against 9ef88c…): `ngKnowledgeApplyGrade`'s stage floor at 2
   //     (no answer takes a card below 2 once there; 3 -> 2 and 4 -> 3 unchanged). Label-neutral: the grade is the app's alone
   //     (its only caller is app.src.jsx; the worker binds none of the grade's code, game-bundles.mjs `knowledgeNames`), so no
-  //     knowledge law the worker or this adapter binds changed. Measured: regenerated with dev v1.280.1's file and with this
-  //     one, every MDP shard part byte-identical (docs/Changelog-Archive.md, v1.283.0).
+  //     knowledge law the worker or this adapter binds changed. Measured: regenerated with dev's file and with this one, every MDP
+  //     shard part byte-identical (again on the merge with v1.281.0) (docs/Changelog-Archive.md, v1.283.0).
   // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
   // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
-  const expected={adapter:'b9ebcf843218a48d7b8cc196460428da945fbd64d9360016a6f31c70d3ef4ef0',knowledge:'f5ccab890ca941292be9c9bd1836cd5f66215e2011e949824ed89ddbe61ad674',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
+  const expected={adapter:'b9ebcf843218a48d7b8cc196460428da945fbd64d9360016a6f31c70d3ef4ef0',knowledge:'c1c3f8a524a175c946f67a0e29099bc9ed5314bff9307bc3b947ef1b09f111a0',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
   if(Object.entries(expected).some(([key,hash])=>lawHashes?.[key]!==hash))ngMdpExposureFail('unsupported-exposure-label-law');
   if(metadata?.coverage?.status!=='COMPLETE'||metadata.ruleset!==request.ruleset||profile?.status!=='ready'||profile.fingerprint!==request.profileHash||typeof knowledge.ngKnowledgeOverride!=='function')ngMdpExposureFail('incomplete-exposure-adapter-context');
   const contractHash=M.ngMdpContractHash(request),metadataHash=M.ngMdpDigest(metadata);
