@@ -290,9 +290,6 @@ const NG_PRACTICE_GOAL = 20;
 // 14 spec lines select on, and `neural_practice_opened` an event id), and identifiers keep "practice".
 const NG_PRACTICE_NAME = "Master the game";
 const NG_PRACTICE_START = "Start today's session";
-// the Path band's chip where NG_PRACTICE_START and the line beside it do not both fit uncut (R409 item 4; the band's aria
-// keeps the full words at every width): challenge-ui.src.js, one scope with this file in the bundle
-const NG_PRACTICE_START_SHORT = "Start";
 // The drawer row's belt colours (v1.276.0): the drawn belt's (its blue is the design's #2c5299), deeper than the Path's
 // UI tints (NG_CHALLENGE_TRACK_COLORS), under the same woven texture (helmet.html `.ng-belt`). Black wears a red bar.
 const NG_BELT_ROW_COLORS = Object.freeze({ white: "#e6e2d6", blue: "#2c5299", purple: "#673c98", brown: "#77492b", black: "#1d1d22" });
@@ -372,14 +369,15 @@ const NG_RESIDENCY_MAX_HOLD_MS = 2000;
 // runs ~4x slower.
 const NG_READER_FIRST_LAYOUT_MS = 3000;
 // THE PANE'S VIEWS — `setViewMode` validates against this set. Since v1.242.0 (owner A5/E1) they are no
-// longer tabs: "explore" is the drawer's home list, and Path (`challenges`) and Last rolls
-// (`history`) open from its rows, the brand leading back ("‹ Path"). The view ids never migrated.
-const NG_PANE_TABS = ["explore", "challenges", "history"];
+// longer tabs: "explore" is the drawer's home list, and Last rolls (`history`) opens from its row, the brand leading
+// back ("‹ Last rolls"). THE PATH (`challenges`) LEFT THE DRAWER in v1.284.0 (owner 15 Nov: "it's time to remove the Path
+// section from the sidebar"; SET1 slice B): its corridor's one home is Master the game, and a request for the retired
+// view, or its older alias `collection`, opens it there (`openCorridor`). The view ids never migrated.
+const NG_PANE_TABS = ["explore", "history"];
 // The drawer's glyphs (owner board E1 / T-b): stroked 24px paths, drawn by `ngIcon`.
 const NG_IC = {
   explore: '<circle cx="12" cy="12" r="8.5"/><path d="M15.4 8.6l-2.1 4.7-4.7 2.1 2.1-4.7z"/>',
   practice: '<rect x="4.5" y="5" width="15" height="14.5" rx="2.5"/><path d="M4.5 9.5h15M9 3v3.5M15 3v3.5M9.5 14.2l1.8 1.8 3.4-3.6"/>',
-  path: '<path d="M8 4h8v4a4 4 0 01-8 0zM5 5h3v3a3 3 0 01-3-3zM19 5h-3v3a3 3 0 003-3zM12 12v4m-4 4h8"/>',
 };
 function ngIcon(d) { return '<svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + d + '</svg>'; }
 const NG_DRAWER_LOGO = '<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24"><path d="M6.5 16.5l5-9 6 7" stroke="#9ea3ff" stroke-width="1.8" fill="none" stroke-linecap="round"/><circle cx="6.5" cy="16.5" r="2.6" fill="#9ea3ff"/><path d="M11.5 4.6l2.6 2.9-2.6 2.9-2.6-2.9z" fill="#d5d9ea"/><path d="M17.5 11.9l3 5.1h-6z" fill="#e8c070"/></svg>';
@@ -589,10 +587,6 @@ class Component extends DCLogic {
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; }
     if (this._onPageHide) window.removeEventListener("pagehide", this._onPageHide);
     if (this._onVisHide) document.removeEventListener("visibilitychange", this._onVisHide);
-    if (this._onChallengeConnectivity) {
-      window.removeEventListener("online", this._onChallengeConnectivity);
-      window.removeEventListener("offline", this._onChallengeConnectivity);
-    }
     if (this._raf) cancelAnimationFrame(this._raf);
     if (this._ro) this._ro.disconnect();
     if (this._onChoiceFonts) document.fonts.removeEventListener("loadingdone", this._onChoiceFonts);
@@ -1103,18 +1097,6 @@ class Component extends DCLogic {
         else if (e.key === "ArrowRight") this.drillNext();
         else if (e.key === "ArrowDown") { if (!this.drillTechNav(1)) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); } }
         else if (e.key === "ArrowUp") { if (!this.drillTechNav(-1)) { if (this.revealed) this.drillGrade(false); else this.drillReveal(); } }
-      } else if (!typing && this._challengeInline() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
-        // THE CORRIDOR'S TWO AXES (v1.175.0, owner: "keys navigation especially for the
-        // flashcards in the challenges … up arrow down arrow left right space enter"). Identical
-        // in shape to the History-home and inline-session branches above, on the same `_miniReg`
-        // handles: ←/→ page the open lesson deck's cards, ↑/↓ walk the ladder's lesson rows,
-        // opening each one as it arrives (`challengeLessonNav`, challenge-ui.src.js).
-        // ORDER: BELOW the drill branch, so a checkpoint quiz or a lesson study — both
-        // `_paneStudyActive`, which `_challengeInline` excludes — keeps the keys it already had;
-        // ABOVE the landing card's ←/→, for the reason that branch states about itself.
-        e.preventDefault();
-        if (e.key === "ArrowUp" || e.key === "ArrowDown") this.challengeLessonNav(e.key === "ArrowDown" ? 1 : -1);
-        else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (e.key === "Enter" && !typing) {
         // ── ⏎ COMMITS THE CARD IN FRONT OF YOU (v1.175.0) ─────────────────────────────────────
         // Space FLIPS a card, ⏎ says "got it" and walks on (`doEnter` in `_miniDeck` owns the
@@ -1328,18 +1310,7 @@ class Component extends DCLogic {
     this.settings = this.settings || {};
     this._loadProgress(); // restore prep / daily history / settings (guest persistence)
     this._renderLayerDock(); // a layer put away last visit shows its dock glyph from the first frame
-    this._onChallengeConnectivity = () => {
-      const explorer = this.explorerRef.current;
-      if (
-        this._viewMode === "challenges" &&
-        explorer &&
-        explorer.style.display === "flex"
-      ) {
-        this.renderExplorer();
-      }
-    };
-    window.addEventListener("online", this._onChallengeConnectivity);
-    window.addEventListener("offline", this._onChallengeConnectivity);
+    // (the Path's repaint on going online or offline left with the Path, v1.284.0)
     // THE AFFILIATE FUNNEL'S ONE EVENT, RE-EMITTED (v1.106.7). `affiliateTracking.inline.ts` —
     // the only `affiliate_clickout` delegate — died with the legacy front-end in v1.80.0, and
     // v1.83.0 restored the ATTRIBUTES but not the listener, so the documented funnel (CLAUDE.md
@@ -3249,9 +3220,9 @@ class Component extends DCLogic {
     // each dealt card's seal and face, from one read (`_paintCard`): a Yes seals a card and turns it up, a No or a new
     // day's due date takes the seal off and turns it down (v1.266.0, the seal v1.272.0)
     this._knowledgeEffect("moves-card", () => this._paintHand());
-    // the belt BEFORE the tab repaints, so the tab never paints a belt that is not yet persisted
+    // the belt synced and persisted before the observers below (the Path row's tail, `renderTabSubtitles`, painted here
+    // until it left with the Path in v1.284.0)
     this._knowledgeEffect("belt-sync", () => this._syncBelt(reason));
-    if (this.renderTabSubtitles) this._knowledgeEffect("renderTabSubtitles", () => this.renderTabSubtitles());
     // A landing answer also changes combo/qMod in its synchronous onDone callback.
     // Notify once after that whole turn, never launch a solve on half a grade.
     // `onlyHydration`: every publish coalesced into this notice was a deck landing (FGHYD1). One
@@ -3681,9 +3652,6 @@ class Component extends DCLogic {
       // THE BELT ROW READS ON OPEN (v1.276.0): the rating's live check is asked here, never on the boot path, and a check
       // that landed is never fetched again (`_askBeltRow`, `ratingCheck`)
       this._askBeltRow();
-      // arrival positioning (v1.98.1): opening the pane onto Challenges lands the corridor
-      // where the person is — renderChallenges consumes this once, instantly
-      if (this._viewMode === "challenges") this._challengeScrollPending = true;
       if (!this.paused) { this.setPaused(true); this._paneAutoPaused = true; this.fx("pane_paused", {}); }
       const active = document.activeElement;
       this._explorerReturnFocus = active && active !== document.body ? active : null;
@@ -3827,7 +3795,7 @@ class Component extends DCLogic {
       this.focusIdx = origin.node;
       this._writeUrl(origin.path, {}, true, origin.title);
       this.explorerListRef.current.scrollTop = origin.scroll;
-      const focus = origin.focus?.isConnected ? origin.focus : this.explorerListRef.current?.querySelector('[data-maintenance], [data-b="due"], [data-track]');
+      const focus = origin.focus?.isConnected ? origin.focus : this.explorerListRef.current?.querySelector('[data-b="due"], [data-track]');
       focus?.focus({ preventScroll: true });
     }
   }
@@ -4524,12 +4492,9 @@ class Component extends DCLogic {
       const dr = deck.getBoundingClientRect();
       const top = Math.min(dr.top, row ? row.getBoundingClientRect().top : dr.top);
       const lr = list.getBoundingClientRect();
-      // A STICKY header inside the scroller owns the top of the scrollport and must be subtracted,
-      // MEASURED off the element and never as a CSS constant (§6.1, `_dockLandCard`): the corridor
-      // carries the maintenance band, which is one wrapping line from being taller than it looks.
-      // Absent on the History/session lists, where this query finds nothing and the inset is 0.
-      const band = list.querySelector("[data-maintenance]");
-      const pad = 12 + (band ? band.getBoundingClientRect().height : 0);
+      // (the Path's sticky maintenance band was subtracted here; it left with the Path in v1.284.0, and no list this
+      // scrolls carries a sticky header now)
+      const pad = 12;
       const room = lr.height - pad - 12;
       if (dr.bottom - top > room || top < lr.top + pad) list.scrollTop += top - (lr.top + pad);
       else if (dr.bottom > lr.bottom - 12) list.scrollTop += dr.bottom - (lr.bottom - 12);
@@ -6452,6 +6417,17 @@ class Component extends DCLogic {
    * (and a spec pinned one of them byte-for-byte). One seam, per \u00a76.5, before a third door exists.
    * The empty case degrades to the browse modal rather than opening an empty session.
    */
+  // THE PATH'S DOORS LAND IN MASTER THE GAME (v1.284.0, owner 15 Nov: "it's time to remove the Path section from the
+  // sidebar"; SET1 slice B). The Path's corridor (belts, units, lessons, checkpoints, capstones, objectives, the rewards
+  // shelf) was already drawn in Master the game by the same renderer (`_practiceCorridor`), so every door that opened the
+  // Path opens it there. Already open: the corridor repaints in place, which is where View Collection's shelf flag is read
+  // (`renderRewardsShelf`). A deck or a checkpoint over it, or another study surface: that is left first, as the Path's
+  // door did (`openPane` → `_exitStudyTo`).
+  openCorridor() {
+    if (this.deckShown && this._practiceInDrawer()) { this._practiceCorridor(); return; }
+    if (this._paneStudyActive()) this._exitStudyTo("explore");
+    this.openPlanSession("due");
+  }
   openDueSession() {
     if (!this.dueCount()) { this.openFlashBrowser("due", "Due Today"); return; }
     this.openPlanSession("due");   // v1.138.0: one surface, anchored on Maintenance
@@ -6797,26 +6773,15 @@ class Component extends DCLogic {
    */
   _sessionInline() { return !!(this.deckShown && this._session && !this.deck && !this._checkpoint); }
   /**
-   * Is the CHALLENGES CORRIDOR the thing on screen — the third inline-deck surface, and the one
-   * the owner found keyless (v1.175.0)? Same shape as `_sessionInline`: read the screen, never a
-   * flag. `_paneStudyActive()` excludes the takeovers the corridor launches (a lesson study, a
-   * checkpoint quiz, a capstone) — those are `isDrillOpen()`'s, and its branch already has them.
-   */
-  _challengeInline() { return !!(this.deckShown && this._viewMode === "challenges" && !this._paneStudyActive()); }
-  /**
    * THE FOCUSED INLINE DECK — SCOPED TO THE SURFACE THAT IS ACTUALLY SHOWING (v1.175.0).
    *
-   * `_focusRow` + `_miniReg` are ONE registry shared by three surfaces (roll history `c<n>`,
-   * inline session `s<i>`, challenge corridor `lesson:<deckKey>`), and nothing clears the row
+   * `_focusRow` + `_miniReg` are ONE registry shared by the inline-deck surfaces (roll history `c<n>`,
+   * inline session `s<i>`; the Path's corridor `lesson:<deckKey>` left with the Path, v1.284.0), and nothing clears the row
    * handle when you change tabs. So a rid left behind by one surface stays resolvable from
    * another: without this, ←/→ on Challenges would page a deck sitting on the History tab, and
    * ⏎ would GRADE a card nobody is looking at — credit for an answer never given (§6.6).
    *
-   * The corridor answers through `_lessonRows`, which is rebuilt with the rows it indexes, and
-   * through `offsetParent` — the CSS's own answer to "can the player see this row". That is what
-   * makes a FOLDED belt give the keyboard back: a fold is `display:none` on `.ng-belt-body` and
-   * leaves every row in the DOM, so the deck is still open and still registered, just invisible.
-   * Unfolding hands the keys straight back, because nothing was thrown away to achieve it.
+   * The session answers through `offsetParent`, the CSS's own answer to "can the player see this deck".
    *
    * One resolver, five callers (the three arrow branches, Space, ⏎) — the alternative was a
    * fourth copy of `_focusRow && _miniReg && _miniReg[this._focusRow]`, which is where §6.5 says
@@ -6826,13 +6791,6 @@ class Component extends DCLogic {
     const rid = this._focusRow;
     const reg = rid && this._miniReg ? this._miniReg[rid] : null;
     if (!reg) return null;
-    const lesson = typeof rid === "string" && rid.indexOf("lesson:") === 0;
-    if (this._challengeInline()) {
-      if (!lesson) return null;
-      const row = (this._lessonRows || []).find((entry) => entry.rid === rid);
-      return row && row.row && row.row.offsetParent !== null ? reg : null;
-    }
-    if (lesson) return null; // and a corridor row is not drivable from another tab either
     if (this._sessionInline()) return this._openMini?.rid === rid && this._openMini.el.isConnected && this._openMini.el.offsetParent !== null ? reg : null;
     if (this.deckShown && this._viewMode === "history" && this._drillView === "home") return reg;
     return null;
@@ -6940,7 +6898,7 @@ class Component extends DCLogic {
       if (v && pos !== s.visitShown) {
         s.visitShown = pos;
         const at = document.createElement("p"); at.setAttribute("data-practice-visit", pos);
-        at.textContent = pos === "more" ? "More new cards" : pos === "lesson" ? "From the Path" : pos + 1 + " \u00b7 " + (v.seat ? v.seat.replace("|", " \u00b7 ") : "Other cards"); s.queue.appendChild(at);
+        at.textContent = pos === "more" ? "More new cards" : pos === "lesson" ? "Belt lessons" : pos + 1 + " \u00b7 " + (v.seat ? v.seat.replace("|", " \u00b7 ") : "Other cards"); s.queue.appendChild(at);
       }
       const jump = document.createElement("button"); jump.type = "button";
       jump.textContent = key.replace("|", " · ");
@@ -7823,15 +7781,6 @@ class Component extends DCLogic {
     if (cta) cta.style.display = this.user || offline ? "none" : "";
     this._paintBadge();
     if (this._acctMenuOpen) this.renderAccountMenu(); // …and the menu's auth rows, if it's up
-    const explorer = this.explorerRef.current;
-    if (
-      this._viewMode === "challenges" &&
-      explorer &&
-      explorer.style.display === "flex" &&
-      !this._renderingChallengeView
-    ) {
-      this.renderExplorer();
-    }
   }
   /** Settings' training-day line names the address inside the analytics mark (NG_NO_CAPTURE). The markup is built HERE, in the
    *  eager app, because the deferred Settings presentation sits at its byte ceiling (#378 left it 2 B of room, and the span cost
@@ -8068,16 +8017,14 @@ class Component extends DCLogic {
     if (!stored) {
       try { stored = localStorage.getItem("bjj_view_mode"); } catch (e) {}
     }
-    // History replaced the Collection tab (v1.76.0) — stored `collection` (and legacy `path`)
-    // land on challenges; `tree` stays explore. Nothing stored lands on the drawer's list (v1.242.0).
-    const migrated =
-      !stored || stored === "tree" || stored === "explore"
-        ? "explore"
-        : stored === "history"
-          ? "history"
-          : "challenges";
+    // History replaced the Collection tab (v1.76.0); `tree` stays explore; nothing stored lands on the drawer's list
+    // (v1.242.0). THE PATH LEFT THE DRAWER (O2, v1.284.0, SET1 slice B): a stored `challenges` (and the older `collection`
+    // and `path`) lands on the drawer's list too, and that value is NOT written back. Both keys stay as the player left
+    // them, written from then on only by the player's own navigation (`setViewMode`); a settings key is never rewritten
+    // to retire a value (CLAUDE.md 6.6), and a boot that writes is not a fixpoint (holder-passive-boot-blob-fixpoint).
+    const migrated = stored === "history" ? "history" : "explore";
     this._viewMode = migrated;
-    if (stored && currentView !== migrated) {
+    if (stored && currentView !== migrated && !/^(challenges|collection|path)$/.test(stored)) {
       this.set("challengeView", migrated);
     }
     this.styleViewToggle();
@@ -8100,14 +8047,16 @@ class Component extends DCLogic {
     });
   }
   setViewMode(m) {
-    if (m === "collection") m = "challenges"; // retired tab — its content lives in Challenges now
+    // THE PATH AND ITS OLDER ALIAS (v1.284.0, SET1 slice B; O3): the view left the drawer, and a request for it lands
+    // where its corridor lives, Master the game (`openCorridor`): View Collection (O1, through `openLearningView`), and
+    // anything still asking for it by name
+    if (m === "challenges" || m === "collection") { this.openCorridor(); return; }
     if (NG_PANE_TABS.indexOf(m) < 0) return;
     if (this._viewMode === m) return;
     // a focus set belongs to the tab that lit it: leaving Explore drops the highlight, so the
     // Challenges tab's curriculum fog is never fighting a stale System selection for the graph
     this.clearFocus();
     this._viewMode = m;
-    if (m === "challenges") this._challengeScrollPending = true; // arrival positioning on tab open (v1.98.1)
     // a TAB SWITCH starts the incoming body at its top — without this, Explore inherits
     // the corridor's deep arrival scroll and its Lists head renders buried under the nav
     // (in-tab re-renders never come through here, so browsing/search scroll is untouched)
@@ -8151,10 +8100,11 @@ class Component extends DCLogic {
 
   // ═══ THE DRAWER (owner A5 / E1 / T-b, U45–U56, v1.242.0) ═══════════════════════════════════
   // One list replaces the three tabs, in the owner's order: Search, Explore (an expandable list of six
-  // categories), Train (Practice, then Path — nothing under them), your lists, Last rolls, and the badge
-  // at the foot. It overlays the map, the legend included; nothing moves when it opens. The VIEW model is
-  // unchanged, so every seam that opens a view (setViewMode, openPane(view), the URL arrivals) still
-  // lands: "explore" IS the home list, and Path / Last rolls open as views whose way back is the brand.
+  // categories), Train (Master the game and the belt you wear; the Path row under them left in v1.284.0, owner 15 Nov,
+  // SET1 slice B), your lists, Last rolls, and the badge at the foot. It overlays the map, the legend included; nothing
+  // moves when it opens. The VIEW model is unchanged, so every seam that opens a view (setViewMode, openPane(view), the
+  // URL arrivals) still lands: "explore" IS the home list, Last rolls opens as a view whose way back is the brand, and a
+  // request for the Path opens Master the game (`openCorridor`).
   styleViewToggle() { if (!this.viewToggleRef?.current) return; this._paintDrawerHead(); this._syncExploreTools(); }
   drawerHome() {
     if (this.deckShown) this._askBeltRow();   // back to the list: the row reads again (`_askBeltRow`)
@@ -8165,7 +8115,7 @@ class Component extends DCLogic {
   }
   _paintDrawerHead() {
     const b = this.viewToggleRef?.current; if (!b) return;
-    const sub = this._practiceInDrawer() ? NG_PRACTICE_NAME : !this._paneStudyActive() && { challenges: "Path", history: "Last rolls" }[this._viewMode];
+    const sub = this._practiceInDrawer() ? NG_PRACTICE_NAME : !this._paneStudyActive() && this._viewMode === "history" && "Last rolls";
     const html = sub ? "\u2039 " + sub : NG_DRAWER_LOGO + "BJJGraph";
     if (b._ngHead !== html) { b._ngHead = html; b.innerHTML = html; }
     b.setAttribute("aria-label", sub ? "Back to the sidebar" : "BJJGraph: the top of the sidebar");
@@ -8180,7 +8130,7 @@ class Component extends DCLogic {
     return b;
   }
   /**
-   * PRACTICE AND PATH (owner U56 e, U60 b): two rows, without a Train header. Practice is the
+   * PRACTICE (owner U56 e, U60 b): one row, without a Train header (the Path row beside it left in v1.284.0). Practice is the
    * mixed session (openPlanSession: reviews + new gap cards); its row carries today's goal and what is
    * owed. It keeps the stat row's handles (`data-explore-stats`, `data-b="due"`) because it IS that
    * row's due cell, grown up; "N new" and "Mastered" moved (into Practice, and onto the badge).
@@ -8200,14 +8150,13 @@ class Component extends DCLogic {
       // THE BELT YOU WEAR (v1.276.0): under the row, beside it in the list and not inside it, so the row's hit target and
       // what a tap opens are unchanged. The Path's own woven bar went (ruled, STAGE2-GO 3: one belt in the drawer).
       const rank = document.createElement("div"); rank.className = "ng-dr-rank"; rank.setAttribute("data-belt-row", "1");
-      const path = this._drawerRow(ngIcon(NG_IC.path), "Path", '<small data-tab-sub="challenges"></small>', () => this.setViewMode("challenges"));
-      path.setAttribute("data-view", "challenges");
-      box.append(pr, rank, path);
+      // THE PATH ROW LEFT HERE (v1.284.0, owner 15 Nov: "it's time to remove the Path section from the sidebar"; SET1
+      // slice B, his four small losses accepted 16 Nov): its corridor lives in Master the game, the row above
+      box.append(pr, rank);
     }
     list.appendChild(box);
     this._paintTrain(box);
     this._paintBeltRow(box);
-    this.renderTabSubtitles();
   }
   // PAINTED IN PLACE (FGD13's rule for the stat row this replaces): `_refreshGameplanUI` lands whenever
   // a payload or a grade does, and a rebuild between a press and its release would swallow the click.
@@ -8296,8 +8245,8 @@ class Component extends DCLogic {
   // ── THE BELT YOU WEAR (v1.211.0, owner ruling 2026-09-30) ── The rule, the stripes and the
   // cross-device merge live in neural/src/belt.src.js; this is the app's half: reading the
   // Challenges evidence into it, persisting the high-water mark, and the one-time grandfather.
-  // READERS — every one of them, so a new reader is added here or not at all: the Challenges tab
-  // belt (`renderTabSubtitles`), the Recall Mode patch at black (`_noteBlackBelt`), the carry-over of timed recall
+  // READERS — every one of them, so a new reader is added here or not at all (the Path row's tail, `renderTabSubtitles`,
+  // left with the Path in v1.284.0): the Recall Mode patch at black (`_noteBlackBelt`), the carry-over of timed recall
   // (`_recallCarryLive`, which reads the HELD belt and, since v1.283.0, only stamps the kept fact) and the
   // training-day email's belt line (`dayLog e.b`, read by workers/digest). Game Knowledge —
   // `gameScore()` — decides none of them any more; its bands are read once, by the grandfather.
@@ -8533,10 +8482,7 @@ class Component extends DCLogic {
     const lifted = this._raiseLevel(this._pathLevel());
     // the drawer opened before the game was in: it asks once more now that an input landed (`_askBeltRow`)
     if (this._beltAskLater && this.deckShown) { this._beltAskLater = false; this._askBeltRow(); }
-    if (dirty) {
-      this._saveProgress();
-      if (this.renderTabSubtitles) this.renderTabSubtitles();
-    }
+    if (dirty) this._saveProgress();
     if (lifted) this._paintBeltRow();
     this._noteBlackBelt();
   }
@@ -9051,20 +8997,17 @@ class Component extends DCLogic {
     // defensive: legacy callers (setGiMode, selectChallengeTrack) call this
     // directly — route the History tab to its own renderer instead of the explorer list
     if (this._viewMode === "history") {
-      if (this.renderTabSubtitles) this.renderTabSubtitles();
       if (this.deckShown && !this._paneStudyActive()) this.renderDrillHome();
       return;
     }
     const list = this.explorerListRef.current; if (!list) return;
-    // A cold index rebuild detaches even the cached Practice/Path block. Retain a keyboard user's
+    // A cold index rebuild detaches even the cached Practice block. Retain a keyboard user's
     // chosen row across that synchronous rebuild; the next Enter must still activate that row.
     const trainFocus = this._trainBox?.contains(document.activeElement) ? document.activeElement : null;
-    // corridor re-renders (evidence beats, pin/select/fold clicks) must not yank the
-    // scroll while the user reads (the History-body gate precedent) — keep it unless an
-    // arrival reposition is pending (v1.98.1)
+    // a System page's re-render keeps its scroll (the Path's corridor kept its own here too until v1.284.0)
     const keepSystem = this._viewMode === "explore" && !this._exQ && this._systemId &&
       this._systemMedia && this._systemMedia.key === this._systemId && this._systemMedia.el.parentNode === list;
-    const keepScroll = keepSystem || (this._viewMode === "challenges" && !this._challengeScrollPending) ? list.scrollTop : null;
+    const keepScroll = keepSystem ? list.scrollTop : null;
     // v1.192.1 (merge): the System media guard (v1.190.0) and the concept teardown +
     // disclosure snapshot (v1.192.0) were written against the same base preamble and
     // conflicted textually, not in intent. Both run. ORDER IS LOAD-BEARING: the snapshot
@@ -9094,13 +9037,7 @@ class Component extends DCLogic {
     if (keepSystem) {
       for (const child of [...list.children]) if (child !== this._systemMedia.el) child.remove();
     } else { this._stopSystemPreview(); list.innerHTML = ""; }
-    if (this.renderTabSubtitles) this.renderTabSubtitles();
     this._syncExploreTools();
-    if (this._viewMode === "challenges") {
-      this.renderChallenges(list);
-      if (keepScroll != null) list.scrollTop = keepScroll;
-      return;
-    }
     const data = this.buildExplorer();
     // v1.99.3: `g` (the section-open set, which pre-opened Systems + Submissions) is gone —
     // section folds live in the persisted `exploreOpenSections` settings map, all-collapsed
@@ -17978,15 +17915,6 @@ class Component extends DCLogic {
       this.renderTutorial();
     }
     if (this.renderChallengeCue) this.renderChallengeCue();
-    if (
-      this.deckShown &&
-      !this._paneTransition &&
-      !this._renderingChallengeView &&
-      !this._paneStudyActive() &&
-      this._viewMode === "challenges"
-    ) {
-      this.renderExplorer();
-    }
   }
   tutDoneCount() { const d = (this.tut && this.tut.done) || {}; let n = 0; for (const s of this.TUTORIAL) if (d[s.id]) n++; return n; }
   tutCurrent() { const d = (this.tut && this.tut.done) || {}; for (const s of this.TUTORIAL) if (!d[s.id]) return s; return null; }

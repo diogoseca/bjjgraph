@@ -692,22 +692,28 @@ drawn inside a node at any zoom; zoom changes how many nodes you can see, never 
 One pane, anchored left, 360px: **the drawer** (v1.242.0, owner A5 / E1 / T-b), opened by one
 drawer icon with no label (an amber dot while reviews are owed). It is ONE list, in the owner's
 order: Search, **Explore** (an expandable list: Positions, Transitions, Submissions, Systems,
-Principles, Learning — the category folds below), **Practice**, then **Path** (U60 b: no Train
-header), **Your lists**, **Last rolls**, and the **badge** at the foot, which shows today ("Today: 12
+Principles, Learning — the category folds below), **Master the game** (U60 b: no Train header; the **Path** row under it
+left in v1.284.0, owner 15 Nov, SET1 slice B), **Your lists**, **Last rolls**, and the **badge** at the foot, which shows today ("Today: 12
 of 20 cards · 2 rolls"; the day's rolls persist as `rollDays`) before it is opened and opens a short menu (Settings,
-Feedback, sign in/out; Terms · Privacy · GitHub small). Practice opens the mixed
-session (§8), Path the Challenges corridor and Last rolls the roll history, each in the drawer; the brand
-("‹ Practice", "‹ Path") leads back. The view ids stay `explore` · `challenges` · `history`. A lit page fades the rest of the
+Feedback, sign in/out; Terms · Privacy · GitHub small). Master the game opens the mixed
+session (§8) with the belt corridor under it (belts, units, lessons, checkpoints, capstones, objectives, the rewards
+shelf), and Last rolls the roll history, each in the drawer; the brand ("‹ Master the game", "‹ Last rolls") leads back.
+The view ids stay `explore` · `history`; a request for the retired `challenges` view (or `collection`) opens Master the
+game (`openCorridor`), and a stored `challenges` lands on the list without being written back. Four small things went
+with the Path, accepted by the owner: the row's "N of M units" words, a lesson tap staging a roll (a lesson opens its
+cards in the session; the orb and its Explore row still stage one), the sticky "N of 20 today" band (the Master the game
+row is that door), and the `neural_challenges_viewed` series. A lit page fades the rest of the
 map to 20%, easing on the wall clock. The icon stays reachable during a catch (U16 b, U66 a);
 opening the drawer pauses the roll through the same pane law.
 
 Desktop opening, "/" and the search icon by it (`openSearchPane`, phones too) focus Search. Cold index arrivals
-preserve Practice/Path focus; closing returns focus to the opener (`challenges-ui.spec.ts`).
+preserve Practice focus; closing returns focus to the opener (`challenges-ui.spec.ts`).
 
-Path emits `challenges_opened` and `neural_challenges_viewed` once per open drawer, on its first
-visible visit. The list, saved preference and hidden ruleset renders neither emit nor consume that visit.
-Revisiting within the same open drawer stays silent; closing permits the next deliberate visit
-(`path-visit-telemetry.spec.ts`, fresh and saved preferences).
+Master the game's corridor emits `challenges_opened` once per open drawer, on its first visible draw: the White
+objective "Open Challenges" completes on it (until v1.284.0 only the Path's visit fired it, and the White Foundations
+patch needs all 20 White objectives). A render behind a closed drawer or under a deck neither emits nor consumes that
+visit; closing permits the next one. `neural_challenges_viewed` ended with the Path (v1.284.0);
+`neural_practice_opened` carries on (`path-retired.spec.ts`).
 
 U61 c leaves About out. U67 a provides one **Feedback** form: one text box, optional
 **Technique request**, and checked **about: <current page>** context. General feedback emits
