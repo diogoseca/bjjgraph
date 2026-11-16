@@ -331,9 +331,20 @@ export function ngKnowledgeSharedDecks(manifest, question, key) {
 //   · THE OWNER'S FORMULA (15 Nov 2026): next = (interval − days left) × ratio + days left, ratio = next step ÷ this step.
 //     RULED: the credit is LINEAR in the days waited. While a card is between steps its interval is A + w × (B − A) ÷ A,
 //     w = days since its last full step (t0), B = the next step from A (`ngKnowledgeStep`). Every day waited adds the same
-//     amount, and a run of early answers earns exactly what one answer at its end earns, so "from the previous answer"
-//     and "anchored" are one rule. His numbers, pinned in tests/schedule_ladder.test.mjs: a 30-day card answered 1 day
-//     before its due comes due 59 days on, 29 days before it 31, on time 60.
+//     amount, and a run of early answers INSIDE ONE STEP earns exactly what one answer at its end earns. His numbers, pinned
+//     in tests/schedule_ladder.test.mjs: a 30-day card answered 1 day before its due comes due 59 days on, 29 days before it
+//     31, on time 60.
+//   · AN EARLY ANSWER NEVER COSTS THE CARD ANYTHING: answered early and then on the day its due fell, or on its own new due,
+//     a card is never behind one answered only on its due day (the property the owner is asked to prefer, U192; the level
+//     rule parked at LIN1-R2 broke it: 15 then 30 days gave 55, not 60). Pinned in tests/schedule_linear.test.mjs.
+//   · AHEAD OF ANSWERING ON TIME: A MEASURED BOUND, NOT A PROMISE (LIN1-R2, ruled after the independent reader's D1). A card
+//     can end after the due the on-time path's next answer would give it, two ways: (a) a run of early answers across steps
+//     (the days past a step count at the next step's ratio from exact days, where the on-time path answers on whole ones),
+//     at most 10 days, 8.1% of the interval, in 1,150 of 566,832 prefixes of the reader's search; (b) early, on time, then
+//     early (the straight line between rungs grows a card that took early credit faster than the rung below it), at most 10
+//     days, 11%, in 63 of 40,536 sequences, and about a tenth ahead for good. Both pinned there, worst sequences included. A
+//     cap at the on-time path from the card's anchor was tried and not built: the anchor moves on with the card, so it left
+//     432 of the (a) prefixes and all 63 of (b).
 //   · THE STEP IS TAKEN WHEN THE DAYS REACH IT, and an answer takes AT MOST ONE STEP from where the previous answer left
 //     it. On the path the card reaches B at t0 + A, and the days past it count at the next step's ratio from there (the
 //     anchor moves on: A ← B, t0 ← t0 + A). The cap binds exactly on and after the due: I days after an answer at interval

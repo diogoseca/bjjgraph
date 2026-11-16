@@ -846,7 +846,9 @@ Positions share one third of score mass, like attacking and defending technique 
 **Nothing about the score decays.** `deckMastery` moves only on answers — the score cannot drop
 because time passed (a failed card can lower it; it can never lower a belt, below). Retention-vs-pressure is the schedule's (`ngKnowledgeScheduleRow`: his ladder, 1 day to 8 years and
 doubling; an early right answer earns its days waited on a straight line, his formula, a late one a step, a miss 1 day): *what you are
-shown*, never what a deck is *worth*.
+shown*, never what a deck is *worth*. An early answer never costs a card days: it is never behind one answered only when due.
+It can end a little ahead of answering on time, by a measured bound: at most 10 days, 8% to 11% of the interval (1,150 of
+566,832 early runs, 63 of 40,536 mixed ones), and a mixed run stays about a tenth ahead (`tests/schedule_linear.test.mjs`).
 
 **Practice is one session** (v1.278.0, U171 a). Its card comes first, the belt corridor below.
 It asks what is due first, position by position, worth most first (`practice-queue.src.js`), at most 6 a visit;

@@ -39,6 +39,20 @@
 //   M19, M20 the moves and srs merges' tie without the exact due: on one day with one cell the heal always takes the longer
 //       exact interval whichever row wins the tie, and a rung-0 row (no heal) has an exact interval of exactly 1, so the tie
 //       never decides a row the due day would not. Kept, as ruled (the three merge rules), and harmless.
+// LIN1-R2 (the reader's three fixes), each mutant applied alone to a copy of the tree and run against the same unit files
+// plus moves_account_safety; each turned the NAMED test red:
+//   H1  rating's ladder, rung 90 as 91                 → "the three readers of the exact interval agree…"
+//   H2  progress-owner's copy without the 1e-6 tolerance, and H2r the same in rating's → the same (the boundary rows)
+//   H3  rating's `last − t0 < A` as `<=`, and H3p the same in progress-owner's       → the same
+//   H4  progress-owner's ladder cut at 20 rungs, and H4r the same in rating's         → the same
+//   H5  rating's step between rungs as x × next ÷ this → the same
+//   H6  progress-owner's `t0 <= last` dropped, and H6r the same in rating's → "a fast clock's moves row: the merge clamps its
+//       last below its pair's day, and all three readers read it as its own", and the three readers' test
+//   B1  the cliff correction undone (the days past the step dropped) → "the days past a step count at the next step's ratio…"
+//       and "ahead of on time, (a)…" (its worst sequence's row)
+//   B2  the one-step cap on an early answer removed     → "ahead of on time, (a)…" and "(b)…"
+//   B3  a fresh anchor at every early answer (his formula from the previous answer at the anchor's step ratio) → "an early
+//       answer never costs the card anything…", (a), (b) and 12 more
 //
 // Run: node --test tests/schedule_linear.test.mjs
 import { test } from "node:test";
@@ -184,6 +198,18 @@ test("the pair checks itself: a stale, damaged or clamped pair is read as the ro
   assert.deepEqual(K.ngKnowledgeAnchor(kept), own(kept), "the clamped row reads as its own");
 });
 
+// THE SELF-CHECK'S BOUNDARY ROWS (LIN1-R2, the reader's D3: its mutants H2, H3, H4 and H6 survived the pin without them)
+//   · an exact due within 1e-6 above a whole day: that day (H2, a copy without the 1e-6 tolerance, reads the row's own 30)
+//   · last − t0 = A exactly: not this step, the row's own 120 (H3, `<` as `<=`, reads the line's 60)
+//   · a pair past the ladder's 20th rung (800,000.5 days, 7 in: 800,007.5): the module's ladder (H4, a copy's ladder cut at 20
+//     rungs, reads the row's own 800,008)
+//   · t0 after last, whose line still reproduces the due: the row's own 9 (H6, `t0 <= last` dropped, reads 8.2857); the row a
+//     fast clock's moves row becomes when the merge clamps its last is the named test below
+//   · a pair on its own last (30 days) and one 29 days into its step (the line: 59): the plain cases beside them
+const FAR = 800000.5, FARL = 5000, FAR_IVL = K.ngKnowledgeLinear(FAR, 7);
+const BOUNDARY = [[1030, 30, 1000, 30.0000005, 1000], [1060, 120, 1000, 30, 970], [K.ngKnowledgeDueDay(FARL + FAR_IVL), 120, FARL, FAR, FARL - 7],
+  [1009, 7, 1000, 14, 1005], [1030, 30, 1000, 30, 1000], [1059, 30, 1000, 30, 971]];
+
 test("the three readers of the exact interval agree on every row the writers make", () => {
   let n = 0;
   for (const r of POP) {
@@ -194,10 +220,17 @@ test("the three readers of the exact interval agree on every row the writers mak
     const k = K.ngKnowledgeInterval(m, 4);
     assert.equal(ngProgressSchedInterval(m, 4), k, `${m}`); assert.equal(R.ngRatingSchedInterval(m, 4), k, `${m}`); n++;
   }
-  // and on damaged pairs and older clients' rows
-  for (const r of [[88, 30, 29, 30, 40], [119, 60, 50, 30, 0], [2, 14, 1], [430.4, 30, 400], [50, 0, 20]]) {
-    assert.equal(ngProgressSchedInterval(r, 3), K.ngKnowledgeInterval(r)); assert.equal(R.ngRatingSchedInterval(r, 3), K.ngKnowledgeInterval(r)); n++;
+  // and on damaged pairs, older clients' rows and THE SELF-CHECK'S BOUNDARY ROWS (LIN1-R2, the reader's D3: each row is one
+  // where a single condition decides, so a copy that drops or bends it reads another interval than the module)
+  for (const r of [[88, 30, 29, 30, 40], [119, 60, 50, 30, 0], [2, 14, 1], [430.4, 30, 400], [50, 0, 20], ...BOUNDARY]) {
+    assert.equal(ngProgressSchedInterval(r, 3), K.ngKnowledgeInterval(r), `${r}: progress-owner's copy`);
+    assert.equal(R.ngRatingSchedInterval(r, 3), K.ngKnowledgeInterval(r), `${r}: rating's copy`);
+    assert.equal(ngProgressSchedInterval(moves(r), 4), K.ngKnowledgeInterval(moves(r), 4), `${r}: progress-owner's copy, moves layout`);
+    assert.equal(R.ngRatingSchedInterval(moves(r), 4), K.ngKnowledgeInterval(moves(r), 4), `${r}: rating's copy, moves layout`);
+    n++;
   }
+  // each boundary row is read as its rule says, so the pin cannot pass on three copies that agree on a wrong reading
+  assert.deepEqual(BOUNDARY.map((r) => K.ngKnowledgeInterval(r)), [30.0000005, 120, 800007.5, 9, 30, 59]);
   // the copies' ladders are the module's
   for (let x = 1; x <= 30000; x += 7) assert.equal(R.ngRatingSchedInterval([0, 1, 0, x, -1], 3) === K.ngKnowledgeInterval([0, 1, 0, x, -1]), true);
   assert.ok(n > 2000, `${n} rows`);
@@ -207,6 +240,111 @@ test("the three readers of the exact interval agree on every row the writers mak
   const half = W([14, 14, 0], true, 1);   // 15.1429 days, due on day 17
   assert.ok(Math.abs(R.ngRatingRecall(half, true, 17) - Math.pow(R.NG_RATING_FADE, 16 / (14 + 16 / 14))) < 1e-12);
   assert.equal(R.ngRatingRecall(moves(half), true, 17, 4), R.ngRatingRecall(half, true, 17), "a moves row reads its pair at [4]");
+});
+
+test("a fast clock's moves row: the merge clamps its last below its pair's day, and all three readers read it as its own", () => {
+  // a device whose clock runs 30 days fast answers a 14-day card early (5 days in) and writes a pair whose day is its own last;
+  // a device on the right day pulls it, and the moves merge clamps `last` to today, below that day (t0 > last)
+  const today = 2000, fast = W([today + 30 + 9, 14, today + 30 - 5, 1], true, today + 30, 4);
+  assert.equal(fast.length, 6, "a pair rides");
+  const clamped = ngProgressMergeMoves({ s: { m: fast } }, {}, today).s.m;
+  assert.equal(clamped[2], today);
+  assert.ok(clamped[5] > clamped[2], `${clamped}: its pair's day is after its last`);
+  const own = clamped[0] - clamped[2];
+  for (const [name, read] of [["the module", K.ngKnowledgeInterval(clamped, 4)], ["progress-owner's copy", ngProgressSchedInterval(clamped, 4)], ["rating's copy", R.ngRatingSchedInterval(clamped, 4)]])
+    assert.equal(read, own, `${name} reads the clamped row as its own`);
+  // there the pair's line no longer reaches the due either (the clamp moves last + its interval by a day or more), so a copy
+  // without `t0 <= last` would still read the row's own: the row that tells them apart is one whose line DOES reach its due
+  // with its day after its last (the boundary row above): all three read its own 9 days, where the line says 8.2857
+  const after = [1009, 7, 1000, 1, 14, 1005];
+  for (const read of [K.ngKnowledgeInterval(after, 4), ngProgressSchedInterval(after, 4), R.ngRatingSchedInterval(after, 4)]) assert.equal(read, 9);
+  assert.ok(Math.abs(K.ngKnowledgeLinear(14, -5) - 8.2857) < 1e-4 && K.ngKnowledgeDueDay(1000 + K.ngKnowledgeLinear(14, -5)) === 1009, "the line reproduces its due");
+});
+
+// AHEAD OF ANSWERING ON TIME: A MEASURED BOUND, NOT A PROMISE (LIN1-R2, the reader's D1, ruled: the cliff correction stays). An
+// early answer can leave a card ahead of where answering on time would have it, in two ways; both are pinned here as bounds,
+// with the reader's own searches replayed exactly (its seeds and loops) and its worst sequences as fixtures
+const onTimePath = (row, n) => { const p = []; let r = row; for (let k = 0; k < n; k++) { const d = r[0]; r = W(r, true, d); p.push({ day: d, row: r }); } return p; };
+test("ahead of on time, (a) runs of early answers only: 1,150 of 566,832 prefixes, at most 10 days and 8.1% of the interval", () => {
+  let s21 = 21; const rnd = () => (s21 = (s21 * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff;
+  const starts = [];
+  for (let i = 0; i < 13; i++) starts.push([10000 + L[i], K.ngKnowledgeCell(L[i]), 10000]);
+  for (const iv of [2, 5, 10, 20, 42, 45, 59, 75, 89, 100, 120, 150, 241, 300, 500, 1000, 2000]) starts.push([10000 + iv, K.ngKnowledgeCell(iv), 10000]);
+  let prefixes = 0, ahead = 0, days = 0, share = 0;
+  for (const st of starts) {
+    const P = onTimePath(st, 40);
+    for (let q = 0; q < 3000; q++) {
+      let r = st;
+      for (let i = 0, n = 2 + Math.floor(rnd() * 10); i < n; i++) {
+        const room = r[0] - r[2] - 1; if (room < 1) break;
+        const d = r[2] + 1 + Math.floor(rnd() ** (rnd() < 0.5 ? 0.3 : 2) * room);
+        r = W(r, true, d); prefixes++;
+        const k = P.findIndex((p) => p.day >= d); if (k < 0) continue;
+        const by = r[0] - P[k].row[0];
+        if (by > 0) { ahead++; days = Math.max(days, by); share = Math.max(share, by / (P[k].row[0] - P[k].day)); }
+      }
+    }
+  }
+  assert.equal(prefixes, 566832, "the reader's search, replayed");
+  assert.ok(ahead <= 1150 && days <= 10 && share <= 0.0807, `${ahead} prefixes ahead, by at most ${days} days, ${share} of the interval`);
+  // the worst: a 20-day card answered early six times ends 10 days after the on-time path's next answer (124 days on: 8.1%)
+  let r = [10020, 14, 10000];
+  for (const d of [9, 32, 38, 81, 92, 134]) r = W(r, true, 10000 + d);
+  assert.deepEqual(r, [10268, 120, 10134, 84.3409, 10081]);
+  assert.deepEqual(onTimePath([10020, 14, 10000], 40).find((p) => p.day >= 10134), { day: 10134, row: [10258, 120, 10134, 123.75, 10134] });
+});
+
+test("ahead of on time, (b) early, on time, then early: 63 of 40,536, at most 10 days (11%), and about a tenth ahead for good", () => {
+  let tried = 0, ahead = 0, days = 0, share = 0;
+  for (let i = 0; i < 13; i++) {
+    const A = L[i], t = 100000, start = [t + A, K.ngKnowledgeCell(A), t], P = onTimePath(start, 12);
+    for (let f = 1; f < A; f += Math.max(1, Math.floor(A / 60))) for (const lateBy of [0, 1, 2, 5]) for (const g of [0.1, 0.3, 0.5, 0.7, 0.9, 0.97]) for (const tail of [1, 2, 3]) {
+      let r = W(start, true, t + f); const ds = [t + f];
+      const d2 = r[0] + lateBy; r = W(r, true, d2); ds.push(d2);
+      for (let k = 1; k <= tail; k++) { const iv = r[0] - r[2], d = r[2] + Math.max(1, Math.floor((iv * g * k) / tail)); if (d >= r[0]) break; r = W(r, true, d); ds.push(d); }
+      tried++;
+      const k = P.findIndex((p) => p.day >= ds[ds.length - 1]); if (k < 0) continue;
+      const by = r[0] - P[k].row[0];
+      if (by > 0) { ahead++; days = Math.max(days, by); share = Math.max(share, by / (P[k].row[0] - P[k].day)); }
+    }
+  }
+  assert.equal(tried, 40536, "the reader's search, replayed");
+  assert.ok(ahead <= 63 && days <= 10 && share <= 0.1112, `${ahead} sequences ahead, by at most ${days} days, ${share} of the interval`);
+  // the worst: a 30-day card answered on days 13, 56 (its due), 66 and 90 comes due on day 190, where the on-time path (30,
+  // 90) comes due on 180: the straight line between rungs (one step from 73 is 129, a third of 90 to 180) grows a card that
+  // took early credit faster than the rung below it. Answered on time from there, it stays about a tenth ahead
+  let r = [100030, 30, 100000];
+  const rows = [];
+  for (const d of [13, 56, 66, 90]) { r = W(r, true, 100000 + d); rows.push(r); }
+  assert.deepEqual(rows, [[100056, 30, 100013, 30, 100000], [100129, 60, 100056], [100147, 60, 100066, 73, 100056], [100190, 60, 100090, 73, 100056]]);
+  let ot = W(W([100030, 30, 100000], true, 100030), true, 100090);
+  const lead = [[r[0] - 100000, ot[0] - 100000]];
+  for (let k = 0; k < 4; k++) { r = W(r, true, r[0]); ot = W(ot, true, ot[0]); lead.push([r[0] - 100000, ot[0] - 100000]); }
+  assert.deepEqual(lead, [[190, 180], [389, 360], [791, 725], [1595, 1455], [3204, 2916]]);
+});
+
+test("an early answer never costs the card anything: answered early, then on its old due or its own, it is never behind (LIN1-R2)", () => {
+  // the property the owner is asked to prefer (U192). For every rung, a card answered once early on every day of its step, then
+  // (i) again on the day its first due fell (the day a player who never answered early answers it) or (ii) on its own new due,
+  // ends no sooner than the card answered only on its due day. [rung, that card's due, the least (i) − it, the least (ii) − it]
+  const TABLE = [[3, 10, 0, 6], [7, 21, 0, 5], [14, 44, 0, 6], [30, 90, 0, 3], [60, 150, 0, 4], [90, 270, 0, 5], [180, 545, 0, 6],
+    [365, 1095, 0, 5], [730, 2191, 0, 6], [1461, 4383, 0, 4], [2922, 8766, 0, 4]];
+  const got = [];
+  for (let i = 1; i < 12; i++) {
+    const A = L[i], s0 = [A, K.ngKnowledgeCell(A), 0], only = W(s0, true, A);
+    let least1 = Infinity, least2 = Infinity;
+    for (let w = 1; w < A; w++) {
+      const early = W(s0, true, w);
+      least1 = Math.min(least1, W(early, true, A)[0] - only[0]);
+      least2 = Math.min(least2, W(early, true, early[0])[0] - only[0]);
+    }
+    got.push([A, only[0], least1, least2]);
+  }
+  assert.deepEqual(got, TABLE);
+  // the reader's case against the level rule: a 30-day card answered on day 15 and on day 30 gets 60 days, as answering only
+  // on day 30 does (the level rule gave 55)
+  assert.deepEqual(W(W([30, 30, 0], true, 15), true, 30), [90, 60, 30]);
+  assert.deepEqual(W([30, 30, 0], true, 30), [90, 60, 30]);
 });
 
 test("the rating and the Practice order choose a shared question's row by the earlier EXACT due, in either order", () => {
@@ -299,8 +437,12 @@ test("an older client: its merges keep the due day of a row with a pair, and its
   assert.ok(checked > 2000, `${checked}`);
 });
 
-test("an older client's moves writer leaves a pair behind its own new due: when it still checks, it never lets a card come due sooner or beyond one on-time answer", () => {
-  let older = 0, passed = 0, answers = 0;
+// THE STALE PAIR, said plainly (LIN1-R2, the reader's D2): an older moves writer keeps the cells after the fourth, so the pair
+// rides behind its own new due. Where it still passes its check (0.01% to 0.21% of such answers in the reader's runs), the next
+// due is never sooner than the row and never beyond one on-time answer; against the same row read as its own it moves the due
+// SOONER, against the player, by up to 13 days, and later by up to 10 (the reader's figures; this file's own population below)
+test("an older client's moves writer leaves a pair behind its own new due: never sooner than the row, never beyond one on-time answer, up to 13 days against the player", () => {
+  let older = 0, passed = 0, answers = 0, against = 0, favour = 0, mostAgainst = 0, mostFavour = 0;
   for (const [name, c] of Object.entries(clients)) for (const r of POP_MOVES.filter((m) => m.length >= 6)) {
     for (const d of [r[2], r[2] + 1, r[0] - 1, r[0], r[0] + 20]) for (const ok of [true, false]) {
       if (d < r[2]) continue;
@@ -309,16 +451,18 @@ test("an older client's moves writer leaves a pair behind its own new due: when 
       if (a.t0 === o[2] && a.A === K.ngKnowledgeInterval(stripped, 4)) continue;
       passed++;
       const onTime = W(stripped, true, o[0], 4)[0];
-      for (let t = o[2]; t <= o[0] + 5; t++) {
-        const n = W(o, true, t, 4)[0];
+      for (let t = o[2]; t <= o[0] + 30; t++) {
+        const n = W(o, true, t, 4)[0], asOwn = W(stripped, true, t, 4)[0];
         assert.ok(n >= o[0], `${name}: ${o} answered on ${t}: ${n} is sooner`);
         if (t <= o[0]) assert.ok(n <= onTime, `${name}: ${o} answered on ${t}: ${n} beyond one on-time answer, ${onTime}`);
+        if (n < asOwn) { against++; mostAgainst = Math.max(mostAgainst, asOwn - n); } else if (n > asOwn) { favour++; mostFavour = Math.max(mostFavour, n - asOwn); }
         answers++;
       }
     }
   }
   assert.ok(older > 5000 && passed > 0 && answers > 1000, `${older} older answers, ${passed} stale pairs still checking, ${answers} next answers`);
-  console.log(`older moves answers ${older}, stale pairs that still check ${passed}, next answers on them ${answers}: none sooner, none beyond`);
+  assert.ok(mostAgainst <= 13 && mostFavour <= 10, `against the player by up to ${mostAgainst} days, in its favour by up to ${mostFavour}`);
+  console.log(`older moves answers ${older}, stale pairs that still check ${passed}, next answers on them ${answers}: none sooner than the row, none beyond one on-time answer; against the row read as its own, sooner (against the player) in ${against} by up to ${mostAgainst} days, later in ${favour} by up to ${mostFavour}`);
 });
 
 test("the replay and the base row carry the pair: an entry replayed between steps is delivered on its exact row", async () => {
