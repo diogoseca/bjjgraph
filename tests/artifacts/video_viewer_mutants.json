@@ -46,7 +46,7 @@
    "name": "dim-not-closing",
    "edits": [
     [
-     "dialog.onclick = e => { if (e.target === dialog) this.collapseClip(card); };",
+     "dialog.onclick = e => { if (e.target === dialog && !zooming) this.collapseClip(card); };",
      "dialog.onclick = e => {};"
     ]
    ],
@@ -147,8 +147,8 @@
    "name": "dim-press-falls-through",
    "edits": [
     [
-     "dialog.onclick = e => { if (e.target === dialog) this.collapseClip(card); };",
-     "dialog.onclick = e => { if (e.target === dialog) { this.collapseClip(card); document.elementFromPoint(e.clientX, e.clientY)?.click(); } };"
+     "dialog.onclick = e => { if (e.target === dialog && !zooming) this.collapseClip(card); };",
+     "dialog.onclick = e => { if (e.target === dialog && !zooming) { this.collapseClip(card); document.elementFromPoint(e.clientX, e.clientY)?.click(); } };"
     ]
    ],
    "test": "VID1 the dim over another move's card commits nothing and opens nothing \\(390x631\\)",
@@ -165,6 +165,18 @@
    ],
    "test": "VID1 move: a double press opens one video and Esc still closes it; after the zoom the player takes a press",
    "assertion": "a double press: one video, played once, focus still on the ✕",
+   "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
+  },
+  {
+   "name": "dim-closes-mid-zoom",
+   "edits": [
+    [
+     "dialog.onclick = e => { if (e.target === dialog && !zooming) this.collapseClip(card); };",
+     "dialog.onclick = e => { if (e.target === dialog) this.collapseClip(card); };"
+    ]
+   ],
+   "test": "VID1 current: a double press opens one video and Esc still closes it; after the zoom the player takes a press \\(390x631\\)",
+   "assertion": "the double press leaves the video open",
    "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
   }
  ]

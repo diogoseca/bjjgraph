@@ -273,8 +273,9 @@ for (const [width, height, touch] of [[1440, 900, false], [390, 631, true]] as c
 
     // VID1-R1 (fix 2a): a quick double press on a play control put its second press inside the player while it zoomed
     // in; focus went into the provider's frame and Esc no longer closed the video (the reader: 2 of 2, a double click at
-    // 1440x900 and two taps 90ms apart at 390x631). The player takes no press until the zoom has settled: one video,
-    // played once, focus on the ✕, and Esc closes it. After the zoom a press on the player is the player's (with YouTube,
+    // 1440x900 and two taps 90ms apart at 390x631). The player takes no press until the zoom has settled, and the dim
+    // closes nothing until then (at 390x631 the current node's frame zooms off the tap's point, and the second tap fell on
+    // the dim and shut the video it had opened): one video, played once, focus on the ✕, and Esc closes it. After the zoom a press on the player is the player's (with YouTube,
     // pause or seek); Esc then stays in its frame, which is said in docs/Neural.md, and the ✕ still closes it.
     for (const surface of ["move", "current"] as Surface[]) {
       test(`VID1 ${surface}: a double press opens one video and Esc still closes it; after the zoom the player takes a press (${width}x${height})`, async ({ page }) => {
@@ -283,7 +284,7 @@ for (const [width, height, touch] of [[1440, 900, false], [390, 631, true]] as c
         expect(c.ok, `the ${surface} video's play control owns its centre`).toBe(true)
         if (touch) { await page.touchscreen.tap(c.x, c.y); await page.waitForTimeout(90); await page.touchscreen.tap(c.x, c.y) }
         else await page.mouse.dblclick(c.x, c.y)
-        await expect(page.locator(THEATER + " iframe")).toHaveCount(1)
+        await expect(page.locator(THEATER + " iframe"), "the double press leaves the video open").toHaveCount(1)
         await page.locator(THEATER).evaluate(async d => { await Promise.all(d.getAnimations().map(a => a.finished)) })
         await expect.poll(() => page.evaluate(() => (window as any).__players[0]?.play)).toBeGreaterThan(0)
         expect(await page.evaluate(() => ({

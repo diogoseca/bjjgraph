@@ -2723,8 +2723,9 @@ class Component extends DCLogic {
     this._filmTheater = { dialog, card, source, onClose, move: !!own, quiet: false };
     this.holdChallengeReward?.(); // after the line above: the hold's own dismiss must not re-show it
     this._cancelGraphInput?.(); this._readStop();
+    let zooming = !this._reducedMotion(); // VID1-R1: no press closes it by the dim while it zooms (the guard, below)
     dialog.oncancel = e => { e.preventDefault(); this.collapseClip(card); };
-    dialog.onclick = e => { if (e.target === dialog) this.collapseClip(card); };
+    dialog.onclick = e => { if (e.target === dialog && !zooming) this.collapseClip(card); };
     // Moved here from the move's retired modal (v1.231.0's wrap, VID1): the provider's keys do not bubble here, so this
     // sees only the parent's ✕, and Shift+Tab from it goes into the player instead of out of the dialog.
     dialog.addEventListener("keydown", e => {
@@ -2740,16 +2741,19 @@ class Component extends DCLogic {
     // circle put its second press inside the player while it zoomed in; focus went into the provider's frame and Esc,
     // which the owner asked for ("pressing esc should close the video"), no longer closed it). For the 360ms a bare layer
     // over the player, under the ✕, owns every press over the frame: nothing reaches the player, nothing closes the
-    // theater (its target is not the dialog), and focus stays on the ✕. A press inside the player after the zoom is the
-    // player's, and Esc then stays in its frame until focus leaves it; the ✕ and the dim still close it (docs/Neural.md).
+    // theater (its target is not the dialog), and focus stays on the ✕. And the dim closes nothing until then: at 390x631
+    // the current node's frame zooms off the point of a double tap, whose second tap then fell on the dim and shut the
+    // video it had just opened. The ✕ and Esc work throughout. A press inside the player after the zoom is the player's,
+    // and Esc then stays in its frame until focus leaves it; the ✕ and the dim still close it (docs/Neural.md).
     const guard = document.createElement("div");
     guard.style.cssText = "position:absolute;inset:0;z-index:3;";
     guard.addEventListener("mousedown", e => e.preventDefault()); // keeps focus on the ✕, out of the player's frame
     dialog.append(guard);
+    const settled = () => { zooming = false; guard.remove(); };
     dialog.animate([
       { transform: `translate(${from.x + from.width / 2 - to.x - to.width / 2}px,${from.y + from.height / 2 - to.y - to.height / 2}px) scale(${from.width / to.width},${from.height / to.height})` },
       { transform: "none" },
-    ], { duration: 360, easing: "cubic-bezier(.2,.7,.2,1)" }).finished.then(() => guard.remove(), () => guard.remove());
+    ], { duration: 360, easing: "cubic-bezier(.2,.7,.2,1)" }).finished.then(settled, settled);
   }
   collapseClip(card) {
     if (!card) return;
