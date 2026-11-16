@@ -47,10 +47,12 @@ test("own activation commits once; threats, viewers, hidden hands and checkpoint
   const pick = opt => { committed.push(opt); a.startExecution(opt); };
   a.activateOption({ threat: true }, pick, card);
   assert.equal(committed.length, 0);
-  a._choiceWatch = {};
+  // VID1 (v1.283.0): any open video is the theater, and it owns input (WAS `_choiceWatch`, the move's own modal; on the
+  // VID1 build the old line failed, "viewer owns input", 1 for 0: the field is no longer read).
+  a._filmTheater = {};
   a.activateOption(own, pick, card);
   assert.equal(committed.length, 0, "viewer owns input");
-  a._choiceWatch = null;
+  a._filmTheater = null;
   a._rollHand = { mounted: false };
   a.activateOption(own, pick, card);
   assert.equal(committed.length, 0, "an unmounted forecast hand cannot commit");
@@ -306,17 +308,29 @@ test("the actual canvas sweep uses the lifted orb and freezes its needle during 
 });
 
 // v1.230.0: the Watch dialog replaces Inspect; borrowing pause keeps the same contract.
-test("closing Watch returns only the pause it took and restores its source focus", () => {
-  for (const wasPaused of [false, true]) {
-    const a = app(); let closed = 0, removed = 0, focused = 0;
+// VID1 (v1.283.0): the move's video is the theater (`_filmTheater`, `move: true`), closed by collapseClip, which gives
+// back the opener's own `onClose` and destroys the player. WAS: `_choiceWatch = { wasPaused, dialog, source }`, which
+// `_closeChoiceWatch` read itself; on the VID1 build that old test failed, `paused` true for false (the field is no longer
+// read). `onClose` below is _openChoiceWatch's own closure, `() => this.setPaused(wasPaused === true)`, written out
+// because this unit has no DOM to open one; video-viewer.spec pins the pause end to end (its pause-not-restored mutant).
+// Added: a hand that ended (`_closeChoiceWatch(false)`, clearOptions) gives back no pause and takes no focus.
+// Mutants (VID1, 16 Nov, on app.src.jsx in place, restored by sha256): activate-ignores-theater is red at the test above
+// ("viewer owns input"); quiet-close-restores, close-keeps-pause and player-not-destroyed are red here, each at its own
+// message; each control (the other test) green.
+test("closing Watch returns only the pause it took and restores its source focus; a hand that ended gives back nothing", () => {
+  for (const restore of [true, false]) for (const wasPaused of [false, true]) {
+    const a = app(); let closed = 0, removed = 0, focused = 0, destroyed = 0;
     a.paused = true;
-    a._choiceWatch = { wasPaused,
-      dialog: { close() { closed++; }, remove() { removed++; } },
+    a.pauseTimers = a.resumeTimers = () => {}; // no clock in this unit
+    a.showNextChallengeReward = () => {};
+    const card = { querySelector: () => null, _player: { destroy() { destroyed++; } } };
+    a._filmTheater = { card, move: true, quiet: false, onClose: () => a.setPaused(wasPaused === true),
+      dialog: { getAnimations: () => [], close() { closed++; }, remove() { removed++; } },
       source: { isConnected: true, focus() { focused++; } } };
-    a._closeChoiceWatch();
-    assert.equal(a.paused, wasPaused);
-    assert.equal(a._choiceWatch, null);
-    assert.deepEqual([closed, removed, focused], [1, 1, 1]);
+    a._closeChoiceWatch(restore);
+    assert.equal(a.paused, restore ? wasPaused : true, restore ? "the pause it took, given back" : "a hand that ended: no pause given back");
+    assert.equal(a._filmTheater, null);
+    assert.deepEqual([closed, removed, focused, destroyed], [1, 1, restore ? 1 : 0, 1], "closed, removed, focus back only when restored, player destroyed");
   }
 });
 
