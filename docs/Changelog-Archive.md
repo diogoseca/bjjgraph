@@ -19106,13 +19106,14 @@ its own generators and exact-fraction judges.
   above 0, so the whole blob would be refused.
   - The reader's path: a clock at epoch day 3 pulls `[20430,30,20400]`, the clamp makes it `[20430,30,3]`, and an answer on
     day 4 wrote `[20432,120,4,11688,-8736]`. That device would then save nothing more.
-  - Ruled and built: such a row is written without its pair and reads its whole-day interval, at most a day longer and never
-    shorter. At epoch day d this touches only a card on a rung above d whose interval exceeds that rung plus d: at 20,400,
-    above 43,776 days. It touched 0 of 82,800 random answers at each of days 1,000, 10,000 and 20,400.
+  - Ruled and built first: such a row is written without its pair and reads its whole-day interval, at most a day longer and
+    never shorter. That form was replaced at LIN2-R2 (below), because the day adds up. At epoch day d this touches only a card
+    on a rung r above d whose interval exceeds r + d × (next − r) ÷ r: at 20,400, where every such rung doubles, above 43,776
+    days. It touched 0 of 82,800 random answers at each of days 1,000, 10,000 and 20,400.
   - New tests:
     - every row the writer emits (16,950, epoch days 0 to 20,400, hostile shapes, both layouts) passes this client's
       validator and v1.280.4's and production's, captured from git in `tests/artifacts/progress_validators.json`;
-    - the pairless rows keep never-sooner, a-day-later and one-more-early-answer (18 rows, 17,628 answers);
+    - the pairless rows keep never-sooner, a-day-later and one-more-early-answer, answer by answer (18 rows, 17,628 answers);
     - the wrong-clock path runs as a unit: pull, clamp, answer, validate, save.
   - A mutant keeping the negative day is red at all three.
   - The pinned rows moved to a real epoch day (20,400). The day-0 fixtures had made two negative pair days look normal.
@@ -19133,5 +19134,44 @@ its own generators and exact-fraction judges.
   - the app rows re-seeded: `neural.js` 731,899 → 731,904 B (+5, for the fallback; +207 on dev v1.281.2's own rows in all);
   - the study engine label-neutral (63 shard parts byte-identical; each variant differs only in `mechanicsHash`);
   - eager gzip 370,356, +3,780 of 5,000; first-hand core 389,866, +3,847 of 6,000; deferred 521,918 of 522,091, unchanged.
+
+  No gate or baseline moved.
+
+**The reader's re-read at 4ca9ffe7d, and LIN2-R2 (16 Nov).** MERGE AFTER 1 fix.
+- **What held:**
+  - 17,068,508 written rows through four real validators: 0 failures from valid inputs; the captured validators byte for
+    byte;
+  - sync over 200,000 three-device histories: 0 below both, 0 order-dependent, 0 changed by a second pull;
+  - the same zeros as before on this head, at epoch days 20,400, 40 and 3.
+- **The one fix:** the pairless fallback was right on each answer, but it compounded on a wrong-clock device. From epoch day
+  0, 953 of 2,921 cards answered daily for one interval ended on another due day than one on-time answer gives. The worst was
+  364 days later (a 731-day card: 2,558 against 2,194), and 957 runs were ahead in exact days; at day 20,400, 0.
+- **Ruled (the reader's own fix):** when the pair's day would be below 0, store `[ivl, last]`, the exact interval dated on the
+  row's own last day (no pair when it is whole), the form an on-time answer stores. Every reader reads it exactly, and no
+  number in it is below 0.
+  - Built: 0 of 2,921 daily runs from epoch day 0 off one on-time answer, now a test.
+  - The early-only search at epoch days 0, 3 and 40: 0 of 566,832 prefixes ahead in exact days.
+  - The three sentences that were false in that regime are true again as written: the code header's "0 in exact days
+    throughout", `docs/Neural.md`'s "never in exact days", and the 1970 rows test, retitled "…store their exact interval at
+    their own day", whose assertions read every interval exactly.
+  - A 71-day card at epoch day 20 answered on day 21 stores `[93, 60, 21, 71.5, 21]`.
+- **Mutants:** N (the fallback removed) is red at 3 named tests. N1 (the pair dropped, LIN2-R1's form) is red at 4, the day-0
+  daily-run test among them.
+- **The reader's two minor gaps, pinned:**
+  - v1.281.0's 75-day worst by value: 13936 without the extra answer and 14005 with it, where v1.281.0 gave 14046 and 14007;
+  - its old worst early-only sequence on the new rule: `[10260, 120, 10134, 90, 10098.75]`, 2 whole days after the on-time
+    path's 10258 (v1.281.0: 10 days).
+- **The comment's threshold is exact now:** r + d × (next − r) ÷ r, from 60 + d/2 on the 60-day rung.
+- **LIN2-R2's landing** under the build lock, 20:33 to 21:28, on b83c8659b:
+  - units 1,760/1,760;
+  - 53 journey files, 604 passed;
+  - `ci:validate` 25/25;
+  - `e2e:gen`: 102 of 103. The one red was `endgame-spa-nav-sheds-chip` (two `land_q_skipped` beats in a soft navigation's
+    second life). It passed 5 of 5 re-run alone on the same bundle (21:38). It reads no schedule: its skip reasons are a deck
+    still loading, a setting or a proven deck, and this delta acts only where a rung outlasts the epoch day. So it is an
+    intermittent red, not this change's; reported, not fixed here;
+  - the app rows re-seeded: `neural.js` 731,904 → 731,952 B (+48; +255 on dev v1.281.2's own rows in all);
+  - the study engine label-neutral (63 shard parts byte-identical);
+  - eager gzip 370,370, +3,794 of 5,000; first-hand core 389,879, +3,860 of 6,000; deferred 521,918 of 522,091, unchanged.
 
   No gate or baseline moved.
