@@ -212,23 +212,22 @@ only if it has `front: true` in the move's own role. Otherwise the media region 
 Escape choices never borrow destination footage.
 
 The 176px card commits once anywhere except its centered 44px **play circle**, which opens
-the theater (below) without committing; it plays at once (VID1, owner: "not wait for me to press
-play a second time"). D-318 removes the Choose/Read footer. Digits
+the theater without committing and plays at once (VID1: "not wait for me to press play
+a second time"). D-318 removes the Choose/Read footer. Digits
 1–9 sit inside the title's category shape: diamond transition, triangle submission, circle
 position. Current-node cards use the shape without a digit. Move / Works / Submit / Escape %
 and Win % keep their meaning. Plain digits commit; dragging and shifted digits do nothing.
 Hidden hands, text entry, reading, a viewer and the visible quiz retain keyboard priority.
 Threat cards can offer eligible playback but cannot execute.
 
-Opening it marks the hand touched, declines its question and pauses it without
+Opening a video marks the hand touched, declines its question and pauses it without
 reordering. Closing restores focus and pause state. Close directly precedes the player:
-Shift+Tab leaves the cross-origin iframe for Close, whereas Escape inside it cannot reach
-the parent. Tab stays within the dialog.
+Shift+Tab leaves the cross-origin iframe for Close. Tab stays within the dialog.
 
 The owner dropped the Inspect/JIT drill on 2026-10-15 (question 6), including its RNG tags,
 warm-up latch and styles. Landing, node, history and Challenges decks retain `_mcAnswer`,
-`gradeRecall` and `refreshOptionOdds`. A poster awards no credit; the player's own "playing"
-report (the opening press, since VID1) earns the once-per-technique film-look modifier. Legacy `sheet_opened` evidence and saved
+`gradeRecall` and `refreshOptionOdds`. Playback (since VID1, the opening press) earns the
+once-per-technique film-look modifier. Legacy `sheet_opened` evidence and saved
 challenge keys remain, with new action copy. Cards retain Suggested / Recommended, pending
 and stale states.
 
@@ -297,22 +296,20 @@ intrinsic image dimensions from overflowing the frame. The shared player fills i
 without an iframe border. Single-video and multi-video cards use the same image rule.
 
 Sections owns the normal game slot, `[data-reader-media-slot]` and the one `place(target)` move.
-Videos owns contents and playback. Native `moveBefore` preserves the player; the append fallback
-pauses through `pauseLandFilm()` and treats the old player handle as stale until a fresh Play.
-Collapse pauses and hides the section without destroying its host. Reopening never autoplays.
+Videos owns contents; the theater plays them (VID1).
+Collapse hides the section without destroying its host. Reopening never autoplays.
 Only closing a clip or changing node/role destroys it. `reading-media-placement.spec.ts` pins the
 shared ownership contract; `video-cards.spec.ts` pins the contents and real input.
 
-**The theater** (VIDEO1). Every press that opens a video (the current card, a move's play circle, a
-reference page's or a Principle's clip, Resume) loads YouTube on that click and asks it to play. On the
-player's own `onAutoplayBlocked` (iPhone Safari) it plays muted with YouTube's unmute control and fires
-`video_autoplay_muted` (before VID1: YouTube's Play). `_openFilmTheater` portals only the player rectangle into a modal `<dialog>`; the card keeps
+**The theater** (VIDEO1; since VID1 every video: the current card's, a move's, a reference or Principle
+clip, Resume). A press loads YouTube, asking it to play; on `onAutoplayBlocked` it plays
+muted (YouTube's unmute shows) and fires `video_autoplay_muted`. `_openFilmTheater` portals only the player rectangle into a modal `<dialog>`; the card keeps
 its place. The rectangle zooms from there over 360ms, or appears at once under reduced motion, to 95% of
 the viewport's width, capped at 95% of its height, over a 60% black backdrop. Close, the dim and Escape
 destroy the player and return focus to Play; Escape inside the iframe stays the provider's. The modal
 and `_graphInputOn` keep input off the map, and reward notices wait for it (D-326). A blocked script
-shows the YouTube link and fires `video_load_failed`; a later Play retries. No video enters a question.
-VID1 ended in-place play (owner: "show the video only on top of everything, and dim the rest").
+shows the YouTube link and fires `video_load_failed`; a later Play retries. No video enters a
+question or plays in place (VID1: "show the video only on top of everything, and dim the rest").
 
 ### The commit hands the camera to the roll (v1.135.1)
 
