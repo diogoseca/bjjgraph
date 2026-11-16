@@ -131,6 +131,16 @@ const ngPracticeRoom = (left, due) => Math.max(0, Math.min(left, Math.max(left -
 
 // the presenter's sentence for withheld material, verbatim (gameplan-study-presenter.src.js TEXT.limited)
 const NG_GAMEPLAN_LIMITED = "Some compared material isn't in today's new cards; its effect is not counted in this plan.";
+// MOVES ANSWERED TODAY (Stage 4 S0, v1.286.0): only when the caller asks for moves (`worth.moveSeats`), every answer counts 1
+// toward the day's goal, a move's as a card's: a row of the `moves` record written today (an escape's too: an answer is an
+// answer). The eager count (`practiceToday`, gameplan-debt.src.js) still counts cards only; S1 adds moves there, by this rule.
+function ngGameplanMovesToday(moves, day) {
+  let n = 0;
+  for (const rows of Object.values(moves || {})) {
+    for (const r of Object.values(rows || {})) if (Array.isArray(r) && r.length >= 4 && r.slice(0, 4).every(Number.isFinite) && r[2] === day) n++;
+  }
+  return n;
+}
 // Deck descriptors: {count, questions:[hash], exact, allowed, headroom, oddsFull?}.
 // A manifest supplies shared hashes + stored SRS hashes before hydration. The
 // remainder is counted as pending, never treated as already reviewed.
@@ -148,13 +158,14 @@ export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, de
     const kept = ngGameplanWeakSpots(fallback, decks).rows.filter((r) => decks[r.key].oddsFull && !ranked.has(r.key));
     if (kept.length) ranking = { ...ranking, rows: ranking.rows.concat(kept) };
   }
-  const budget = Math.max(0, Math.floor(Number.isFinite(target) ? target : 20)), left = budget - reviewed.length;
+  const movesToday = worth && worth.moveSeats ? ngGameplanMovesToday(worth.moves, day) : 0;
+  const budget = Math.max(0, Math.floor(Number.isFinite(target) ? target : 20)), left = budget - reviewed.length - movesToday;
   // WHAT IS WORTH MOST (U171 a, v1.278.0): the day's rows come from practice-queue.src.js when the app hands it the game:
   // what is due first, worth most first, and a new card only when nothing is due (the owner's Anki rule, ANKI1).
   // Anything else (no game, no seat map, a record with no answer) is today's order below, and the plan says why.
   // a goal, never a cap: with nothing left of today's goal, Practice deals another round of the goal's size, by worth
   const order = worth ? ngGameplanOrder({ day, goal: left > 0 ? left : budget, srs, decks, revision, ...worth }) : null;
-  if (order && order.status === "ok") return ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, reviewed, ranking, comparison, order });
+  if (order && order.status === "ok") return ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, reviewed, ranking, comparison, order, movesToday });
   // the owner's Anki rule holds here too (ANKI1-R1, the reader's finding 3): when the worth order was asked for and the game
   // is not ready yet (no weights, no hands, no seat map), today's order serves, and a session mounted on it keeps it. Its
   // room for new cards is what the due cards leave of the goal, never ngPracticeRoom's fifth of it, and its new decks come
@@ -227,7 +238,9 @@ export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, de
 let ngGameplanOrderAt = null;
 function ngGameplanOrder(input) {
   const exact = Object.values(input.decks).reduce((n, d) => n + (d.exact ? 1 : 0), 0);
-  const key = [input.srs, input.stage, input.game, input.seats, input.day, input.goal, input.revision, exact, input.live];
+  // S0: the moves record is edited IN PLACE by its writer (`_gradeMove`), like `srs` by `_schedule`, so its revision is a key
+  const key = [input.srs, input.stage, input.game, input.seats, input.day, input.goal, input.revision, exact, input.live,
+    input.moves, input.moveSeats, input.movesRev];
   const c = ngGameplanOrderAt;
   if (c && c.key.every((v, i) => v === key[i])) return c.order;
   const order = ngPracticeOrder(input);
@@ -238,7 +251,7 @@ function ngGameplanOrder(input) {
 // THE WORTH PLAN (U171 a): the law's rows in the shape the page plays. A row that holds an owed card is a review row (its
 // `owed` lists those cards; any new card of the same deck rides along), a row of new cards only is a new row. "Keep practising
 // · more new cards" keeps today's ranking (the comparison, else the weak spots), whole decks, as it always has.
-function ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, reviewed, ranking, comparison, order }) {
+function ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, reviewed, ranking, comparison, order, movesToday = 0 }) {
   const card = (n) => n + (n === 1 ? " card" : " cards");
   const rows = order.rows.map((r) => ({ ...r, kind: r.owed.length ? "due" : "new",
     reason: !r.owed.length ? "New cards, picked for how often this comes up in your rolls." : r.count > r.owed.length
@@ -266,7 +279,10 @@ function ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, r
     reviewed, due, fresh, more, blocked: debt.blocked, dueQuestions, status: ranking.status, comparison,
     assumptions: ranking.assumptions, newFrom: "worth", order: "worth", orderStatus: "ok",
     visits: order.visits, counts: order.counts, guarded, missing: ranking.missing, room: newCards, newCards, dueCards: dueQuestions.length,
-    total, overrun: Math.max(0, reviewed.length + total - budget),
+    total, overrun: Math.max(0, reviewed.length + total + movesToday + (order.moves ? order.moves.length : 0) - budget),
+    // S0: the asked moves pass through as the order listed them (each visit's `moves` too), with today's move answers. The
+    // card figures above stay the cards' (`total`, `dueCards`, `newCards`); only `overrun` counts the moves, and only when asked
+    ...(order.moves ? { moves: order.moves, movesToday } : {}),
     // ANKI1-R1: "at most 6" is a visit's, not the page's (a position comes round again while its cards are due, the
     // reader's finding 4); "nothing is due" is this ruleset's game (a card in a deck it hides waits in "Everything owed",
     // finding 1); and "Keep practising" deals the next round, "More new cards" adds whole techniques (finding 5)
