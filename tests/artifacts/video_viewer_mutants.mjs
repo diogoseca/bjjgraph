@@ -1,11 +1,15 @@
 // VID1 source mutants for e2e/journeys/video-viewer.spec.ts (manifest: tests/artifacts/video_viewer_mutants.json).
 //   source /home/user/bjj-orchestrator/quartz/acquire-build-lock.sh <seat> "<job>" && \
 //     TMPDIR=<roomy dir> node tests/artifacts/video_viewer_mutants.mjs <evidence dir> [only-regex]
-// For each row: every anchor must occur exactly once (a stale anchor THROWS, CLAUDE.md §6.4); the mutant is built and
-// copied into source/public; the named test must FAIL with the named assertion in its failure text, and the control
+// For each row: every anchor must occur exactly once (a stale anchor THROWS, CLAUDE.md §6.4); the mutant is built by
+// `npm run dev:neural:app` (its regenerate:mdp re-pins the MDP manifest to the mutant's own app.src.jsx hash: a bare
+// build.mjs refuses any edited app.src.jsx, "graph/gameplay changed after metadata emission") and copied into
+// source/public; the named test must FAIL with the named assertion in its failure text, and the control
 // must PASS, in one Playwright run on the core config's own port. The exact source bytes are restored and verified
-// (sha256) after every row, and the clean bundle is rebuilt at the end. A zero-test run is a setup error, not a kill.
-import { readFileSync, writeFileSync, mkdirSync, copyFileSync, readdirSync } from 'node:fs'
+// (sha256) after every row, and the clean bundle is rebuilt at the end; a chunk only a mutant emitted (its hashed
+// game-worker-core) is then removed from both served trees, or the payload gate counts it as deferred weight.
+// A zero-test run is a setup error, not a kill.
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, rmSync } from 'node:fs'
 import { resolve, join } from 'node:path'
 import { createHash } from 'node:crypto'
 import { spawnSync } from 'node:child_process'
@@ -24,12 +28,17 @@ const hashes = Object.fromEntries(files.map(f => [f, sha(original[f])]))
 function restore() {
   for (const f of files) { writeFileSync(join(root, f), original[f]); if (sha(readFileSync(join(root, f))) !== hashes[f]) throw Error('restore failed: ' + f) }
 }
+const APP_DIRS = ['source/quartz/static/neural/app', 'source/public/static/neural/app']
 function build(label) {
-  const r = spawnSync('node', ['neural/build/build.mjs'], { cwd: root, encoding: 'utf8' })
+  const r = spawnSync('npm', ['run', 'dev:neural:app'], { cwd: root, encoding: 'utf8' })
   writeFileSync(join(out, label + '-build.log'), r.stdout + r.stderr)
   if (r.status !== 0) throw Error('build failed: ' + label)
-  for (const dir of ['source/quartz/static/neural/app', 'source/public/static/neural/app'])
-    for (const f of readdirSync(join(root, 'neural/dist'))) copyFileSync(join(root, 'neural/dist', f), join(root, dir, f))
+}
+function prune() {
+  const keep = new Set(readdirSync(join(root, 'neural/dist')))
+  for (const dir of APP_DIRS) for (const f of readdirSync(join(root, dir))) if (!keep.has(f)) {
+    rmSync(join(root, dir, f)); console.log('pruned ' + dir + '/' + f)
+  }
 }
 function flat(suites, acc = []) {
   for (const s of suites || []) {
@@ -73,7 +82,7 @@ try {
     console.log(`${m.name}: ${killed ? 'KILLED' : 'SURVIVED'} at ${red.length} test(s); control ${control ? 'green' : 'NOT GREEN'}`)
   }
 } finally {
-  restore(); build('restored')
+  restore(); build('restored'); prune()
   writeFileSync(join(out, 'results.json'), JSON.stringify(results, null, 1) + '\n')
 }
 const bad = results.filter(r => !r.killed || !r.control)

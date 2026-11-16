@@ -105,7 +105,10 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     expect(playerInsets.every(inset => Math.abs(inset) < .5), "playback fills the frame without clipping an iframe border").toBe(true)
     await page.keyboard.press("1"); await page.keyboard.press("Shift+Digit1"); await page.keyboard.press("x"); await page.keyboard.press("a")
     expect(await state(page)).toEqual(before)
-    // The theater's one ✕ (WAS: the modal's own `[data-watch-close]`, one of its two).
+    // The theater's one ✕ (WAS: the modal's own `[data-watch-close]`, one of its two), pressed once the 360ms zoom has
+    // finished, as openChoiceVideo's is: a ✕ measured mid-zoom is pressed where it no longer is, on the video, and the
+    // theater stays open (seen once, in the viewer_focus_wrap mutant run, whose mutant cannot touch a mouse press).
+    await page.locator(".ng-video-theater").evaluate(async d => { await Promise.all(d.getAnimations().map(a => a.finished)) })
     await j.clickByMouse(".ng-video-theater .ngClipX", "Close the video")
     await expect(watch).toBeFocused()
     expect(await page.evaluate(() => (window as any).__players[0].destroy)).toBe(1)
