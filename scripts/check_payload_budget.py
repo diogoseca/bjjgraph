@@ -257,7 +257,10 @@ NEURAL_TARGET = {
     # v1.279.0 SRS-R1 (the independent read's fixes): 522_091, +79 B more in gameplan.js (21_205 -> 21_284: it bundles
     # rating.src.js, whose read of a row is now its true interval and whose shared-question row choice, ngRatingNewerRow,
     # the Practice order now shares); dev's own use is 521_758; 27_909 B of 550_000 remain.
-    "deferred_raw_bytes": 522_091,
+    # v1.286.0 (STAGE4 S0, the Practice order builds moves, on dev v1.280.2): 522_888, +1_571 B in gameplan.js (21_284 ->
+    # 22_855: practice-queue.src.js builds the moves the rating prices, and the plan passes them through; the app asks
+    # for none yet); dev's own use is 521_317; 27_112 B of 550_000 remain.
+    "deferred_raw_bytes": 522_888,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
