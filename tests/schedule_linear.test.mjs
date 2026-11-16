@@ -170,12 +170,13 @@ test("a run of early answers inside one step earns exactly what one answer at it
 });
 
 test("nothing is rounded (v1.281.3): an on-time answer lands exactly on its step, an early one stores a rung pair, moved only when a rung is crossed", () => {
-  // a 14-day card (ratio 15/7, not whole) answered on every one of its 13 early days: the rung pair stays [14, 0], every
-  // interval exact to 1e-9
-  let row = [14, 14, 0];
+  // a 14-day card (ratio 15/7, not whole) answered on every one of its 13 early days: the rung pair stays [14, D], every
+  // interval exact to 1e-9 (at a real epoch day, D = 20,400: LIN2-R1)
+  const D = 20400;
+  let row = [D + 14, 14, D];
   for (let d = 1; d < 14; d++) {
-    row = W(row, true, d);
-    assert.deepEqual(row.slice(3), [14, 0], `day ${d}: the card still stands on the 14-day rung's line`);
+    row = W(row, true, D + d);
+    assert.deepEqual(row.slice(3), [14, D], `day ${d}: the card still stands on the 14-day rung's line`);
     assert.ok(Math.abs(K.ngKnowledgeInterval(row) - (14 + (d * 16) / 14)) < 1e-9, `day ${d}`);
   }
   // ON TIME OR LATE: exactly one step from the interval read (the number computed, not rounded), anchored at the answer's day
@@ -188,7 +189,7 @@ test("nothing is rounded (v1.281.3): an on-time answer lands exactly on its step
     onTime++;
   }
   assert.ok(onTime > 1000, `${onTime} on-time and late answers`);
-  assert.deepEqual(W([120, 120, 0], true, 120), [362, 120, 120, 180 + 185 / 3, 120], "one step from 120 days: 241.666…, not rounded");
+  assert.deepEqual(W([D + 120, 120, D], true, D + 120), [D + 362, 120, D + 120, 180 + 185 / 3, D + 120], "one step from 120 days: 241.666…, not rounded");
   // the same in the moves layout (the pair at [4]): every row of POP_MOVES answered on its due and past it
   let movesOnTime = 0;
   for (const r of POP_MOVES) for (const d of [r[0], r[0] + 9]) {
@@ -204,7 +205,7 @@ test("nothing is rounded (v1.281.3): an on-time answer lands exactly on its step
   for (const r of POP_MOVES) if (r.length >= 6 && r[5] !== r[2]) assert.ok(L.includes(r[4]), `${r}: an early answer's pair stands on a rung (moves)`);
   // a second right answer the same day rewrites nothing, whatever pair the row holds (v1.281.0's off-rung pairs included)
   for (const r of POP) if (r[0] > r[2]) assert.deepEqual(W(r, true, r[2]), r, `${r} answered again on its own last day`);
-  assert.deepEqual(W([181, 60, 86, 72, 56], true, 86), [181, 60, 86, 72, 56], "a v1.281.0 pair off the rungs (72 days from day 56), kept");
+  assert.deepEqual(W([D + 181, 60, D + 86, 72, D + 56], true, D + 86), [D + 181, 60, D + 86, 72, D + 56], "a v1.281.0 pair off the rungs (72 days from its day 56), kept");
   // a row the writer makes never carries a pair that says nothing (anchored at its last on a whole interval)
   for (const r of POP) if (r.length >= 5) assert.ok(r[4] !== r[2] || !Number.isInteger(r[3]), `${r}: a redundant pair`);
 });

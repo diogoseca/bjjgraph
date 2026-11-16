@@ -20,11 +20,15 @@
 // THE CLAIMS PINNED HERE, each over the reader's own searches replayed (its seeds, starts and loops, written fresh here):
 //   · an early right answer never leaves a card due sooner than without it (LIN1-R3's N1 is gone: 0 of 1,113,790, 0 of
 //     509,533), and from rows v1.281.0 wrote, off the rungs, one early answer then the next on any day is never behind;
-//   · ahead of answering on time by at most 3 WHOLE days, never in exact days (LIN1-R2's D1: (a) 839 of 566,832 prefixes, at
-//     most 3 days, each riding its rung's line exactly; (b) 0 of 40,536);
+//   · ahead of answering on time ONLY BY WHOLE DAYS, never in exact days: the on-time path answers on whole due days and
+//     restarts there (LIN1-R2's D1: (a) at most 3 days in the reader's early-only search, 839 of 566,832 prefixes; (b) 0 of
+//     40,536). Not a general bound: it adds up by about a day per on-time answer as a card ages (the reader of PR #426's
+//     5-day case, two years in, pinned beside it);
 //   · every due the writer sets is the rule's in exact fractions;
 //   · a day later never earns less, and no cliff, on rows of every client;
-//   · the rows v1.281.0 wrote are never made due sooner, through mixed-writer histories and the merges.
+//   · the rows v1.281.0 wrote are never made due sooner, through mixed-writer histories and the merges;
+//   · every row the writer emits passes the blob validator, this client's and the older clients' (v1.280.4, production
+//     v1.252.0, captured in tests/artifacts/progress_validators.json): a pair day below 0 is never stored (LIN2-R1).
 // His formula on every rung, never sooner and the rest stay in tests/schedule_linear.test.mjs and tests/schedule_ladder.test.mjs.
 //
 // THE v1.281.0 CLIENT is captured from git (never re-typed) in tests/artifacts/schedule_lin1_client.json
@@ -48,18 +52,20 @@
 //   G8  the srs heal rounded to 4 decimals again                → "the srs merge…" (1)
 //   G9  the moves heal rounded to 4 decimals again              → "the moves merge…", moves_record's R5 (2)
 //   G10 a late answer steps from its line's value, not from the interval it reads → 26
-// G7, the one-step cap on an early answer removed, SURVIVED the first run, and was first written down here as equivalent. It is
-// not: a direct comparison of the writer with and without it (1,280 rows, hostile ones among them, 247,008 answers) found the
-// cap deciding two shapes, both at or past the top: an early answer that walks onto the top rung (what is stored), and a row
-// past the top with a fractional due answered with no day waited (the due, by under a day). Below the top an early answer
-// never reaches it. Both shapes are now pinned in "the rung pair…" (G7 red there).
+// G7, the one-step cap on an early answer removed, SURVIVED the first run, and was first written down here as equivalent. What
+// the seat (1,280 rows, 247,008 answers) and the reader of PR #426 (406,764 hostile rows) found: it is equivalent in every due
+// on rows a client writes; it decides the stored bytes when an early answer walks onto the top rung, and the due (by under a
+// day) on one damaged shape, a row past the top with a fractional due answered with no day waited. Both are now pinned in "the
+// rung pair…" (G7 red there).
+//   N   the pair day kept below 0 (LIN2-R1's fallback removed) → "every row the writer emits passes the blob validator…", "the
+//       rows written without their pair…", "the reader's wrong clock…" (3)
 //
 // Run: node --test tests/schedule_rung.test.mjs
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import * as K from "../neural/src/knowledge-profile.src.js";
-import { ngProgressMergeMoves } from "../neural/src/progress-owner.src.js";
+import { ngProgressMergeMoves, ngProgressValidateBlob, ngProgressCreateStore, ngProgressOwner } from "../neural/src/progress-owner.src.js";
 
 const W = K.ngKnowledgeScheduleRow, L = K.NG_KNOWLEDGE_LADDER, cell = K.ngKnowledgeCell;
 const json = (p) => JSON.parse(readFileSync(new URL(p, import.meta.url), "utf8"));
@@ -68,32 +74,35 @@ const lin1 = new Function(LIN1.knowledge.ladder + "\n" + LIN1.knowledge.schedule
 const lin1MergeMoves = new Function(LIN1.owner.mergeMoves + "\nreturn ngProgressMergeMoves;")();
 const prev = new Function(PREV.knowledge.ladder + "\n" + PREV.knowledge.schedule + "\nreturn { write: ngKnowledgeScheduleRow, merge: ngKnowledgeMergeRow };")();
 const oldWrite = new Function(OLD.knowledge.intervals + "\n" + OLD.knowledge.scheduleRow + "\nreturn ngKnowledgeScheduleRow;")();
+const VALIDATORS = json("./artifacts/progress_validators.json").clients;
+const validators = { now: ngProgressValidateBlob, ...Object.fromEntries(Object.entries(VALIDATORS).map(([k, v]) => [k, new Function(v.validator + "\nreturn ngProgressValidateBlob;")()])) };
 const rows = (row, days) => days.map((d) => (row = W(row, true, d)));
 const exactDue = (r) => r[2] + K.ngKnowledgeInterval(r);
 const lcg = (s) => () => (s = (s * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff;
 
 test("the rung pair: a card between rungs stands on the line of the rung below it, at the interval it reads", () => {
+  const D = 20400;   // a real epoch day (16 Nov 2025): every pinned row is one a device could hold
   // a 42-day card (between 30 and 60) is 12 days into the 30-day rung's step, and climbs it a day a day
-  assert.deepEqual(W([42, 30, 0], true, 1), [44, 30, 1, 30, -12], "43 days from day 1");
-  assert.deepEqual(W([42, 30, 0], true, 17), [76, 30, 17, 30, -12], "59 days: a day short of the 60 rung");
-  assert.deepEqual(W([42, 30, 0], true, 18), [78, 60, 18], "on the 60 rung: 60 days, the pair says nothing more");
-  assert.deepEqual(W([42, 30, 0], true, 28), [93, 60, 28, 60, 18], "10 days into the 60 rung, half a day a day: 65");
+  assert.deepEqual(W([D + 42, 30, D], true, D + 1), [D + 44, 30, D + 1, 30, D - 12], "43 days from its next day");
+  assert.deepEqual(W([D + 42, 30, D], true, D + 17), [D + 76, 30, D + 17, 30, D - 12], "59 days: a day short of the 60 rung");
+  assert.deepEqual(W([D + 42, 30, D], true, D + 18), [D + 78, 60, D + 18], "on the 60 rung: 60 days, the pair says nothing more");
+  assert.deepEqual(W([D + 42, 30, D], true, D + 28), [D + 93, 60, D + 28, 60, D + 18], "10 days into the 60 rung, half a day a day: 65");
   // a 75-day card (between 60 and 90): 30 days into the 60-day step, which climbs half a day a day, then the 90 rung a day a day
-  assert.deepEqual(W([75, 60, 0], true, 28), [28 + 89, 60, 28, 60, -30], "day 28: 89 days (v1.281.0's line from 75 gave 98)");
-  assert.deepEqual(W([75, 60, 0], true, 74), [74 + 134, 120, 74, 90, 30], "a day before its due: 134 days");
-  assert.deepEqual(W([75, 60, 0], true, 75), [75 + 135, 120, 75], "on its due: exactly one step, 135 days, anchored at its day");
+  assert.deepEqual(W([D + 75, 60, D], true, D + 28), [D + 28 + 89, 60, D + 28, 60, D - 30], "day 28: 89 days (v1.281.0's line from 75 gave 98)");
+  assert.deepEqual(W([D + 75, 60, D], true, D + 74), [D + 74 + 134, 120, D + 74, 90, D + 30], "a day before its due: 134 days");
+  assert.deepEqual(W([D + 75, 60, D], true, D + 75), [D + 75 + 135, 120, D + 75], "on its due: exactly one step, 135 days, anchored at its day");
   // the two lines agree at the due: one step from 75 is 135 either way
-  assert.equal(lin1.write([75, 60, 0], true, 75)[0], 75 + 135);
+  assert.equal(lin1.write([D + 75, 60, D], true, D + 75)[0], D + 75 + 135);
   // THE ONE-STEP CAP binds only at and past the top (11,968,512 days, where a step is the top): (1) an early answer that walks
   // onto the top rung takes the top, stored at its own day with no pair; (2) a row past the top with a fractional due (no
   // writer makes one: the pull truncates a cloud row's due), answered with no day waited, is capped to the top and kept as it
   // was by the never-sooner guard. Below the top an early answer never reaches the cap
   const top = L[L.length - 1], sec = L[L.length - 2];
-  const half = W([10000 + sec, 120, 10000], true, 10000 + sec / 2), d = 10000 + sec + 10;
-  assert.deepEqual(half, [10000 + 2 * sec, 120, 10000 + sec / 2, sec, 10000], "premise: half-way up the second-to-top rung's line");
+  const half = W([D + sec, 120, D], true, D + sec / 2), d = D + sec + 10;
+  assert.deepEqual(half, [D + 2 * sec, 120, D + sec / 2, sec, D], "premise: half-way up the second-to-top rung's line");
   assert.deepEqual(W(half, true, d), [d + top, 120, d], "onto the top: the top, at its own day");
-  const past = [10000 + top + 0.4, 120, 10000];
-  assert.deepEqual([W(past, true, 10000), W(past, true, 9970)], [past, past], "past the top, no day waited: kept as it was");
+  const past = [D + top + 0.4, 120, D];
+  assert.deepEqual([W(past, true, D), W(past, true, D - 30)], [past, past], "past the top, no day waited: kept as it was");
 });
 
 test("an early right answer never leaves a card due sooner than without it: the reader's searches replayed, 0 of 1,113,790 and 0 of 509,533", () => {
@@ -163,12 +172,13 @@ test("an early right answer never leaves a card due sooner than without it: the 
   assert.deepEqual([n2, bad2], [509533, 0], "the reader's two-answer search replayed: never sooner");
   // the case v1.281.0 lost (LIN1-R3): a 30-day card answered on days 12, 56 and 86, and the same with one more on day 19. Under
   // v1.281.0: 181 and 174. Now the card with the extra answer is never behind
-  const without = rows([30, 30, 0], [12, 56, 86]), withE = rows([30, 30, 0], [12, 19, 56, 86]);
-  assert.equal(lin1.write(lin1.write(lin1.write([30, 30, 0], true, 12), true, 56), true, 86)[0], 181, "v1.281.0: 181, and 174 with day 19");
+  const D = 20400, on = (xs) => xs.map((x) => D + x);
+  const without = rows([D + 30, 30, D], on([12, 56, 86])), withE = rows([D + 30, 30, D], on([12, 19, 56, 86]));
+  assert.equal(lin1.write(lin1.write(lin1.write([D + 30, 30, D], true, D + 12), true, D + 56), true, D + 86)[0], D + 181, "v1.281.0: 181, and 174 with day 19");
   // day 56 is late (one step from 42 to 72, at its own day), day 86 early: 72 stands on the 60-day rung's line, 24 days in
-  assert.deepEqual(without, [[54, 30, 12, 30, 0], [128, 60, 56], [173, 60, 86, 60, 32]]);
+  assert.deepEqual(without, [[D + 54, 30, D + 12, 30, D], [D + 128, 60, D + 56], [D + 173, 60, D + 86, 60, D + 32]]);
   // with day 19, day 56 is early and walks the card's first line (60 days from day 30)
-  assert.deepEqual(withE, [[54, 30, 12, 30, 0], [68, 30, 19, 30, 0], [129, 60, 56, 60, 30], [174, 60, 86, 60, 30]]);
+  assert.deepEqual(withE, [[D + 54, 30, D + 12, 30, D], [D + 68, 30, D + 19, 30, D], [D + 129, 60, D + 56, 60, D + 30], [D + 174, 60, D + 86, 60, D + 30]]);
   // and v1.281.0's worst (a 75-day row, 39 days sooner with one more answer on +21)
   const far = [15, 106, 173, 516, 1049, 2113].map((d) => T + d), start = [T + 75, 60, T];
   assert.ok(rows(start, [far[0], T + 21, ...far.slice(1)]).at(-1)[0] >= rows(start, far).at(-1)[0]);
@@ -200,7 +210,7 @@ test("from rows v1.281.0 wrote (anchors off the rungs): one early answer, then t
   console.log(`v1.281.0 rows off the rungs: ${from.length}; one early answer then the next: ${pairs} pairs, ${behind} behind`);
 });
 
-test("ahead of answering on time by at most 3 whole days, never in exact days: the reader's searches replayed, 839 of 566,832 and 0 of 40,536", () => {
+test("ahead of answering on time only by whole days, never in exact days: at most 3 in the reader's early-only search (839 of 566,832), 0 of 40,536 in its targeted one, 5 by two years", () => {
   const onTimePath = (row, n, exact) => { const p = []; let r = row; for (let k = 0; k < n; k++) { const d = exact ? exactDue(r) : r[0]; r = W(r, true, d); p.push({ day: d, row: r }); } return p; };
   // (a) the reader's early-only search: runs of answers each before the row's due, against the on-time path from the
   // run's start answered on its whole due days, and against the same path answered at its EXACT dues
@@ -246,13 +256,27 @@ test("ahead of answering on time by at most 3 whole days, never in exact days: t
   assert.deepEqual([tried, aheadB], [40536, 0], "early, on time, then early: never ahead");
   // v1.281.0's worst (b) sequence: a 30-day card answered on days 13, 56 (its due), 66 and 90 came due on 190 against the
   // on-time path's 180 and stayed about a tenth ahead for good. On the rung's line it comes due on 180, and stays level
-  let rb = [100030, 30, 100000];
-  const bRows = [13, 56, 66, 90].map((x) => (rb = W(rb, true, 100000 + x)));
-  assert.deepEqual(bRows, [[100056, 30, 100013, 30, 100000], [100129, 60, 100056], [100144, 60, 100066, 60, 100030], [100180, 60, 100090]]);
-  let ot = W(W([100030, 30, 100000], true, 100030), true, 100090);
-  const lead = [[rb[0] - 100000, ot[0] - 100000]];
-  for (let k = 0; k < 4; k++) { rb = W(rb, true, rb[0]); ot = W(ot, true, ot[0]); lead.push([rb[0] - 100000, ot[0] - 100000]); }
+  const D = 20400;
+  let rb = [D + 30, 30, D];
+  const bRows = [13, 56, 66, 90].map((x) => (rb = W(rb, true, D + x)));
+  assert.deepEqual(bRows, [[D + 56, 30, D + 13, 30, D], [D + 129, 60, D + 56], [D + 144, 60, D + 66, 60, D + 30], [D + 180, 60, D + 90]]);
+  let ot = W(W([D + 30, 30, D], true, D + 30), true, D + 90);
+  const lead = [[rb[0] - D, ot[0] - D]];
+  for (let k = 0; k < 4; k++) { rb = W(rb, true, rb[0]); ot = W(ot, true, ot[0]); lead.push([rb[0] - D, ot[0] - D]); }
   assert.deepEqual(lead, [[180, 180], [360, 360], [725, 725], [1455, 1455], [2916, 2916]], "no lead, for good");
+  // NOT A GENERAL 3-DAY BOUND (the reader of PR #426, finding 2): the whole-day lead adds up, about a day per on-time answer
+  // compared, as a card ages (its generator: up to 3 in a card's first 2 years, 5 by five years, 6 by ten, 12 near the top).
+  // Its case: a 14-day card answered one day in, answered early on each of the on-time path's own answer days and on its own
+  // due less one between them, is due on 21984; the on-time path, answering on 21196 too, on 21979: 5 days, 796 days in. In
+  // exact days it is not ahead: its exact due (21983.08) is before the exact on-time path's next answer
+  const c5 = [20417, 14, 20401, 14, 20400];
+  let r5 = c5;
+  for (const x of [20416, 20417, 20449, 20450, 20512, 20513, 20610, 20804, 21196]) r5 = W(r5, true, x);
+  assert.deepEqual(r5, [21984, 120, 21196, 730, 21139]);
+  const P5 = onTimePath(c5, 8, false), X5 = onTimePath(c5, 8, true);
+  assert.deepEqual(P5.map((p) => p.day), [20417, 20450, 20513, 20610, 20804, 21196, 21979, 23545], "the on-time path answers on 21196 too");
+  assert.equal(P5.find((p) => p.day >= 21196).row[0], 21979, "and is due 5 days before the early run");
+  assert.ok(exactDue(r5) <= exactDue(X5.find((p) => p.day >= 21196).row) + 1e-6, "never ahead in exact days");
   console.log(`ahead of on time: (a) ${ahead} of ${prefixes} by at most ${days} whole days, ${aheadExact} in exact days; (b) ${aheadB} of ${tried}`);
 });
 
@@ -383,4 +407,79 @@ test("the rows v1.281.0 wrote are never made due sooner: answered by v1.281.3 on
   assert.ok(mm > 1000, `${mm} moves merges`);
   assert.equal(mbad, 0, "the moves merge: never below both rows");
   console.log(`v1.281.0 rows: ${built.length}, ${answers} answers on them; mixed: ${JSON.stringify(stat)}; moves merges ${mm}, ${mbad} below both`);
+});
+
+// A PAIR DAY BELOW 0 IS NEVER STORED (LIN2-R1, the reader of PR #426's finding 1): every client's blob validator takes only
+// numbers at or above 0. A rung pair's day lies before the card's last answer, by up to its rung's interval, so on a small
+// epoch day (a clock before about 1975 after a pull's clamp, a damaged row) it could fall below 0 and make the whole blob
+// invalid: that device would then save nothing more. Such a row is written without its pair, and reads its interval from due
+// and last (at most a day longer, never shorter)
+const memory = () => { const m = new Map(); return { getItem: (k) => (m.has(k) ? m.get(k) : null), setItem: (k, v) => m.set(k, String(v)), removeItem: (k) => m.delete(k) }; };
+const blobOf = (row, at) => (at > 3 ? { v: 2, moves: { s: { m: row } } } : { v: 2, srs: { d: { q: row } } });
+const valid = (validate, blob) => { try { validate(blob); return true; } catch { return false; } };
+
+test("every row the writer emits passes the blob validator: this client's, v1.280.4's and production's (LIN2-R1)", () => {
+  const rnd = lcg(19), top = L[L.length - 1];
+  let emitted = 0, readLonger = 0, realDayLonger = 0;
+  for (const T of [0, 3, 40, 1000, 10000, 20400]) for (const I of [1, 3, 7, 14, 20, 30, 42, 60, 75, 120, 241, 365, 1461, 2922, 5844, 20000, 1e5, top - 1, top, 2 * top]) {
+    const starts = [[T + I, cell(I), T], [T + I + 0.4, cell(I), T], [T + Math.ceil(I / 3), cell(I), T], [T + I, 120, T], [T + I, 1, T]];
+    if (I >= 2) starts.push(lin1.write([T + I, cell(I), T], true, T + Math.floor(I / 2)));   // a v1.281.0 row, its pair off the rungs
+    for (const A of [I, 1.3 * I, L.find((x) => x >= I) || top]) for (const back of [0, 1, Math.floor(I / 2), I + 5]) if (T - back >= 0) starts.push([T + I, cell(I), T, A, T - back]);   // odd pairs
+    for (const s0 of starts) for (const at of [3, 4]) {
+      let r = at > 3 ? s0.slice(0, 3).concat(1, s0.slice(3)) : s0;
+      for (let k = 0; k < 5; k++) {
+        const iv = Math.max(1, r[0] - r[2]), d = r[2] + [0, 1, Math.floor(iv / 3), Math.floor(iv) - 1, Math.floor(iv), Math.floor(iv) + 9][Math.floor(rnd() * 6)];
+        const ok = rnd() > 0.08, n = W(r, ok, d, at);
+        for (const [name, validate] of Object.entries(validators)) assert.ok(valid(validate, blobOf(n, at)), `${name}'s validator rejects ${JSON.stringify(n)} (${at > 3 ? "moves" : "srs"}), from ${JSON.stringify(r)} on ${d}`);
+        // the rows the fallback touched read a whole-day interval above the exact one; at today's epoch day only past 43,776 days
+        if (ok && K.ngKnowledgeInterval(n, at) > K.ngKnowledgeNextInterval(r, d, at) + 1e-9 && n[0] > r[0]) { readLonger++; if (T === 20400 && K.ngKnowledgeInterval(n, at) < 43776) realDayLonger++; }
+        r = n; emitted++;
+      }
+    }
+  }
+  assert.ok(emitted > 15000 && readLonger > 50, `${emitted} rows emitted, ${readLonger} read a day longer`);
+  assert.equal(realDayLonger, 0, "at epoch day 20,400 no card under 43,776 days loses its pair");
+  console.log(`validators: ${emitted} emitted rows, all valid under this client, v1.280.4 and production; ${readLonger} written without their pair`);
+});
+
+test("the rows written without their pair keep every claim: never sooner, a day later never earns less, one more early answer never costs (LIN2-R1)", () => {
+  // the cards it touches: on a rung above the epoch day, at small days (a wrong clock, a pull's clamp). Counted where it shows,
+  // on rungs whose line climbs a fraction of a day a day (14, 60, 180, 730), where the whole-day interval read is above the exact one
+  let answers = 0, extra = 0, touched = 0;
+  for (const T of [0, 3, 40, 400]) for (const I of [20, 75, 200, 1000, 2000, 5844, 20000, 1e5]) {
+    const s = [T + I, cell(I), T];
+    for (const first of [T + 1, T + Math.floor(I / 3), T + I - 1]) {
+      const r = W(s, true, first);
+      if (r.length === 3 && K.ngKnowledgeInterval(r) > K.ngKnowledgeNextInterval(s, first) + 1e-9) touched++;
+      let prevDue = -Infinity, prevIvl = -Infinity;
+      for (let d = r[2]; d <= r[0] + 30; d += Math.max(1, Math.floor((r[0] - r[2]) / 200))) {
+        const n = W(r, true, d), iv = K.ngKnowledgeInterval(n);
+        assert.ok(n[0] >= r[0], `${r} on ${d}: due ${n[0]}, sooner`);
+        assert.ok(n[0] >= prevDue && iv >= prevIvl - 1e-9, `${r} on ${d}: a day later earns less`);
+        prevDue = n[0]; prevIvl = iv; answers++;
+        // one more early answer on the way, then this one: never behind
+        const e = r[2] + Math.max(1, Math.floor((d - r[2]) / 2));
+        if (e < d && e < r[0]) { assert.ok(W(W(r, true, e), true, d)[0] >= n[0], `${r}: one more early answer on ${e} costs by ${d}`); extra++; }
+      }
+    }
+  }
+  assert.ok(touched >= 15 && answers > 5000 && extra > 4000, `${touched} rows touched, ${answers} answers, ${extra} with one more`);
+  console.log(`pairless rows: ${touched} touched, ${answers} answers never sooner and never less a day later, ${extra} with one more early answer never behind`);
+});
+
+test("the reader's wrong clock: pull, clamp, answer, validate, save (LIN2-R1)", () => {
+  // a device whose clock reads epoch day 3 (4 Jan 1970) pulls the cloud's row: the pull's clamp makes it a card of 20,427 days
+  const pulled = K.ngKnowledgeMergeRow(undefined, [20430, 30, 20400], 3);
+  assert.deepEqual(pulled, [20430, 30, 3]);
+  const a = W(pulled, true, 4), b = W(a, true, 5);
+  // its rung pair would be dated before 1970 (20,427 days stands 8,740 days up the 11,688-day rung: day 4 − 8,740): no pair
+  assert.deepEqual([a, b], [[20432, 120, 4], [20434, 120, 5]]);
+  const m = W(W(pulled.concat(1), true, 4, 4), true, 5, 4);
+  assert.deepEqual(m, [20434, 120, 5, 1]);
+  const blob = { v: 2, srs: { d: { q: b } }, moves: { s: { m } } };
+  for (const [name, validate] of Object.entries(validators)) assert.ok(valid(validate, blob), `${name}'s validator`);
+  // and it saves: the store takes it (v1.281.3 at a2efd246b wrote [20432,120,4,11688,-8736], which the same store refuses)
+  const store = ngProgressCreateStore(memory()), owner = ngProgressOwner();
+  assert.equal(store.write(owner, blob).status, "saved");
+  assert.deepEqual(store.write(owner, { v: 2, srs: { d: { q: [20432, 120, 4, 11688, -8736] } } }), { status: "unavailable", reason: "unsupported-progress" });
 });

@@ -848,8 +848,8 @@ because time passed (a failed card can lower it; it can never lower a belt, belo
 doubling; a late right answer earns a step, a miss 1 day): *what you are shown*, never what a deck is *worth*. A card
 climbs its step at a steady pace: each day you waited before answering right earns the same share of the step, whenever
 you answer (his formula, at the ratio of the step the card is in). So an early right answer never leaves a card due sooner
-than without it, and a card ends ahead of answering on time by at most 3 whole days, never in exact days
-(`tests/schedule_rung.test.mjs`, over the reader's searches).
+than without it. A card can end ahead of answering on time only by whole days, never in exact days: at most 3 in the
+reader's early-only search, adding about a day per on-time answer as a card ages (`tests/schedule_rung.test.mjs`).
 
 **Practice is one session** (v1.278.0, U171 a). Its card comes first, the belt corridor below.
 It asks what is due first, position by position, worth most first (`practice-queue.src.js`), at most 6 a visit;

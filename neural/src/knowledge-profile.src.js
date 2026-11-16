@@ -342,10 +342,12 @@ export function ngKnowledgeSharedDecks(manifest, question, key) {
 //   · v1.281.0 drew ONE straight line from a card's own interval, A + w × (step(A) − A) ÷ A; the two differ only where it stored
 //     an anchor off the rungs. Its rows read as they did (the same interval), and go on from there on their rung's line.
 //   · WHAT THAT BUYS, pinned over the reader's own searches in tests/schedule_rung.test.mjs: AN EARLY RIGHT ANSWER NEVER LEAVES A
-//     CARD DUE SOONER THAN WITHOUT IT (v1.281.0 lost up to 39 days in 4,196 of 1,123,024 comparisons: now 0), and a card ends
-//     ahead of answering on time BY AT MOST 3 WHOLE DAYS, NEVER IN EXACT DAYS (839 of 566,832 early-only prefixes, against
-//     v1.281.0's 1,150 by up to 10; early, on time, then early: 0 of 40,536, against 63): the on-time path answers on whole
-//     due days, a fraction of a day after its exact due, and restarts there, while early answers ride the line exactly. ITS
+//     CARD DUE SOONER THAN WITHOUT IT (v1.281.0 lost up to 39 days in 4,196 of 1,123,024 comparisons: now 0), and a card can end
+//     ahead of answering on time ONLY BY WHOLE DAYS, NEVER IN EXACT DAYS: the on-time path answers on whole due days, a fraction
+//     of a day after its exact due, and restarts there, while early answers ride the line exactly. In the reader's early-only
+//     search that is at most 3 days (839 of 566,832 prefixes, against v1.281.0's 1,150 by up to 10; early, on time, then early:
+//     0 of 40,536, against 63); it adds up, about a day per on-time answer compared, as a card ages (the reader of PR #426: 5
+//     within five years, 12 near the top of the ladder), and is 0 in exact days throughout. ITS
 //     ONE TRADE-OFF: a card between rungs earns less early credit in the first part of its wait and more later (a 75-day card
 //     answered on day 28: 89 days, where v1.281.0's line gave 98; a 42-day card on day 18: 60, against 55); at the due the
 //     two agree (one step).
@@ -468,7 +470,13 @@ export function ngKnowledgeScheduleRow(prior, ok, day, at = 3) {
   const { A, t0, ivl } = ngKnowledgeNext(prior, last, at);
   const due = ngKnowledgeDueDay(last + ivl);
   if (due < prior[0]) return ngKnowledgeRowOut(prior[0], prior[0] - last, last, null, ok, prior, at);   // never sooner
-  return ngKnowledgeRowOut(due, ivl, last, t0 === last && Number.isInteger(A) ? null : [A, t0], ok, prior, at);
+  // A PAIR DAY BELOW 0 IS NEVER STORED (v1.281.3, LIN2-R1, the reader of PR #426's finding 1): every client's blob validator
+  // takes only numbers at or above 0, so a rung pair dated before epoch day 0 (a card whose rung outlasts the days since 1970:
+  // a clock before about 1975 after a pull's clamp, or a damaged row) would make the whole blob invalid. Such a row is written
+  // WITHOUT its pair: every reader then reads its interval from due and last (at most a day longer, never shorter), and its next
+  // early answer puts it on its rung's line at that interval, as for any older client's row. At epoch day d it touches only a
+  // card on a rung r above d, interval above r + d (at d = 20,400: above 43,776 days, about 120 years)
+  return ngKnowledgeRowOut(due, ivl, last, (t0 === last && Number.isInteger(A)) || t0 < 0 ? null : [A, t0], ok, prior, at);
 }
 // THE PULL'S MERGE OF ONE srs ROW (v1.105.0 in `_mergeProgressFields`; here since v1.279.0 so it is pinned as a unit).
 // Per card the LATER review wins (the freshest grade knows the memory best); ties are the common case (`last` is a day),
