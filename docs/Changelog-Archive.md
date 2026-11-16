@@ -18963,3 +18963,215 @@ As it was, on dev's code, it went red 0 of 30 runs locally (touch 390x631).
 `gameplan-learning-loop`'s one-shot read of the Explore cell's `data-new` became an auto-waiting assertion: it was green even
 under the delay, but nothing promised the order. Under the 60 ms delay all 119 of their tests, and sidebar's dot test, are
 green.
+
+## v1.281.3 — A card climbs its step at a steady pace: the line is the rung's, so an early right answer never costs a card days (LIN2, 2026-11-16)
+
+**Why.** v1.281.0 (LIN1) drew one straight line from a card's own interval, A + w × (step(A) − A) ÷ A. The independent reader
+of PR #421 found two costs of that line, and both were pinned as bounds there.
+- **N1:** one more early right answer could leave a card due sooner, by up to 39 days, in 4,196 of 1,123,024 comparisons of
+  its search. A 30-day card answered on days 12, 56 and 86 was due on day 181; with one more answer on day 19, on day 174.
+- **D1:** a card could end ahead of answering on time. Early-only runs: 1,150 of 566,832 prefixes, up to 10 days. Early, on
+  time, then early: 63 of 40,536, about a tenth ahead for good.
+
+At LIN1-R3 the seat measured a candidate, rung anchors, and did not build it. The reader then wrote it independently
+("Candidate 2") and ran its bar: it holds everything, and an early answer never costs.
+
+**Ruled (LIN2):** build it as its own PR. It is the owner's formula with the ratio of the STEP THE CARD IS IN, at every
+answer. That is what makes his formula add up after an early answer too. His own check (U193): a 30-day card, day 15 gives
+45; then day 30, with a 45-day gap and 30 days left, gives 60.
+
+**The rule, in one sentence a player could read:** a card climbs its step at a steady pace: each day you waited before
+answering right earns the same share of the step, whenever you answer.
+- A card between rungs, r < x < next, stands on r's line, (x − r) × r ÷ (next − r) days into r's step, and climbs it at
+  (next − r) ÷ r days a day, rung after rung.
+- On time or late it takes exactly one step from the interval it reads.
+- As a level: a real number climbing 1 ÷ (its rung's interval) a day, at most one level per answer.
+- It differs from v1.281.0 only where v1.281.0 stored an anchor off the rungs. On rung lines the two are the same rule.
+
+**What is stored.** No format change: a rung pair is a pair, and the readers' three copies are unchanged.
+- An on-time or late answer stores its step anchored at its own day, `[step, day]`, as v1.281.0 did.
+- An early answer stores the RUNG pair `[rung, the day the card stood on it]`.
+- A row whose pair is not a rung pair is put on its rung's line at the interval it reads, at its last answer. That covers an
+  older client's row, a step between rungs and v1.281.0's off-rung anchors.
+- An early answer with no day waited keeps the row exactly as stored, so a second answer the same day rewrites nothing.
+
+**Nothing is rounded.** The numbers stored are the numbers computed; a JSON number reads back as itself. The representation
+was chosen by measurement, over 105,316 random answers against the rule written apart from the writer:
+- the anchor day to 4 decimals, nearest (the reader's Candidate 2): 186 dues a day later than the rule;
+- the anchor day rounded up: 85 later, all from the on-time step's own 4 decimals;
+- everything rounded down: 2 a day sooner after long histories, because each on-time step roughly doubles an earlier error;
+- a rung pair stored at every answer: 13 later, but 35,233 on-time answers off their step by up to 0.0001;
+- 9 decimals: exact, but 305 near-whole values from rounding 2/3;
+- no rounding: 0 later, 0 sooner, and every on-time answer exactly on its step. Rows average 28.2 characters, against 26.2.
+
+The 1e-6 tolerance of `ngKnowledgeDueDay` reads float dust right. The test proves it in fractions: 0 of 37,616 dues differ
+from the rule computed in exact BigInt arithmetic, 12 of them computed within 1e-6 of a whole day.
+
+**What it buys**, pinned in `tests/schedule_rung.test.mjs` over the reader's own searches, replayed with their seeds, starts and
+loops and written fresh:
+- **An early right answer never leaves a card due sooner than without it:** 0 of 1,113,790 comparisons (the long search) and
+  0 of 509,533 two-answer insertions. From 165 rows v1.281.0 wrote off the rungs, one early answer then the next on any day is
+  never behind (13,015 pairs). The 30-day case gives 173 and 174, never behind.
+- **Ahead of answering on time only by whole days, never in exact days** (first written as "at most 3 whole days", a bound
+  only for the search below; corrected at LIN2-R1):
+  - early-only: 839 of 566,832 prefixes, by at most 3 days; 0 against the on-time path answered at its exact dues;
+  - early, on time, then early: 0 of 40,536.
+
+  The on-time path answers on whole due days, a fraction of a day after its exact due, and restarts there; early answers ride
+  the line exactly. The worst in that search is a 20-day row answered early eight times, which ends 3 days after the on-time
+  path on the same 365 rung. The whole-day lead adds up, about a day per on-time answer compared, as a card ages: the reader of
+  PR #426 found 5 within five years and 12 near the top, 0 in exact days throughout.
+- **A day later never earns less, and no cliff:** 497,099 answers on 1,652 rows written by four clients; 0 cliffs in 1,577
+  states.
+- **The rows v1.281.0 wrote are never made due sooner:**
+  - 110,929 answers by v1.281.3 on 1,059 of its rows, which read the same interval;
+  - mixed histories of four clients over up to three devices: 54,720 right answers by v1.281.3, 0 sooner; 39,115 of its
+    merges, 0 below both rows;
+  - 2,116 moves merges, 0 below both.
+
+  v1.281.0 is captured from git in `tests/artifacts/schedule_lin1_client.json` (`tests/artifacts/_capture_lin1_schedule.mjs`).
+
+**Its one trade-off.** A card between rungs earns less early credit in the first part of its wait and more later. A 75-day card
+answered on day 28 gets 89 days, where v1.281.0's line gave 98; a 42-day card on day 18 gets 60, against 55. At the due the two
+agree: one step. The top-rung card of 120 days answered the next day gets 121 days (due 122), against 121.01 (due 123).
+
+**Tests moved with the rule.**
+- `tests/schedule_linear.test.mjs` loses v1.281.0's three bounds, (a), (b) and N1; their successors are in
+  `tests/schedule_rung.test.mjs`, and the file says so where they were. Its rounding test becomes "nothing is rounded":
+  - an on-time answer lands exactly on its step, anchored at its own day;
+  - an early pair stands on a rung;
+  - a same-day answer rewrites nothing.
+- The fixtures that carried 4 decimals now carry the computed numbers, written as the arithmetic: 241.67 is 180 + 185 ÷ 3; the
+  heal's 19.714… is 14 + 80 ÷ 14.
+- `answers_before_sync`'s P1 moves to a 14-day card. A whole exact interval now reads the same rung line from its own due,
+  so only a pair off a whole day changes the answer.
+
+**Mutants** (10, each alone on a scratch copy against the ten schedule unit files; each red at named tests):
+- G1, no rung state (every card on v1.281.0's line): red at the N1 claim, the ahead bound, exact fractions, the rung pair, the
+  v1.281.0 rows, and 3 more (8).
+- G2, an on-time step rounded to 4 decimals: red at exact fractions, "nothing is rounded", a day later, N1 and the ahead bound,
+  and 4 more (9).
+- G3, the rung pair's day to 4 decimals, nearest (the reader's Candidate 2 representation): red at exact fractions, the ahead
+  bound's exact days, and the daily runs (3).
+- G4, no day waited still moves the card: red at the same-day check, "never sooner" and "a clock set back" (3).
+- G5, the rung above: 14 red. G6, the walk a hundredth of a day late: 13. G10, a late answer from its line's value: 26.
+- G8 and G9, either heal rounded to 4 decimals again: the srs merge test (1); the moves merge test and R5 (2).
+- **G7, the one-step cap removed, first recorded as equivalent, which was wrong.** The seat's own check against the real writer
+  (1,280 rows, 247,008 answers), and the fresh reader's (406,764 hostile rows), agree: it is equivalent in every due on rows a
+  client writes. It decides the stored bytes when an early answer walks onto the top rung, and the due, by under a day, on one
+  damaged shape (a row past the top with a fractional due, answered with no day waited). Both shapes are pinned since
+  LIN2-R1, and G7 is red there.
+
+The counts leave out one red the copy shows in its control too: the progress host's "build owner pinning", which needs files
+the copy lacks.
+
+The reader's own scripts on this code reproduce its Candidate 2 bar:
+- its early-only search 839, at most 3; its targeted search 0; its extra-answer, one-answer and two-answer searches all 0;
+- its cadence search (B3) 46, at most 1; its any-state search 456 / 81;
+- its near-whole check: 0 dues within 1e-6 above a whole day;
+- its core bar, 406,325,129 answers: 0 sooner, 0 falling a day later, no cliff, his formula 0 wrong. Its "not exactly one step"
+  counts only its 4-decimal check.
+
+**FLAKE1 below it.** This PR sits on #425 (v1.281.2, FLAKE1: practice-order's dot at the goal polled), which it merged before
+renumbering to 1.281.3.
+
+**Landing** under the build lock, 17:12 to 18:08, on 007f8a8d0. Its tree is that of 23be35d03, which merged dev f6c2bcd3b
+(v1.281.2, #425) with no file change.
+- units 1,756/1,756;
+- 53 journey files, 604 passed (every spec that reads schedule rows, the rating, the Practice order, the pull or the study engine,
+  plus the progress-host journeys and those of #422 and #425's files);
+- `e2e:gen` 103/103;
+- `ci:validate` 25/25;
+- the app rows re-seeded (ec1c2da0d): on dev v1.281.2's own rows, `neural.js` 731,697 → 731,899 B (+202, the rung line), and
+  `gameplan.js` unchanged (the rating's reader copy is untouched);
+- the study engine label-neutral: all 63 shard parts byte-identical against v1.281.0's, each variant differing only in
+  `mechanicsHash`.
+
+Against the baselines checkpointed at dev v1.280.0 (PAY4):
+- eager gzip 370,355, +3,779 of 5,000;
+- first-hand core 389,865 here, +3,846 of 6,000;
+- deferred raw 521,918 B of its 522,091 ceiling, unchanged.
+
+No gate or baseline moved. The archive's ceiling rose by exactly 50,000 under D-316, in its own commit (007f8a8d0).
+
+**The fresh reader, and LIN2-R1 (16 Nov).** The reader read a2efd246b, MERGE AFTER 2 fixes. It owed the rule nothing and wrote
+its own generators and exact-fraction judges.
+- **What held:**
+  - a right answer is never due sooner, in 34.9 M answers on 38,172 states from every client;
+  - one more early answer never costs: 0 of 13.5 M with one extra, 0 of 101.8 M with two;
+  - the owner's numbers are exact;
+  - the unrounded storage is exact: the JSON round trip on 1.3 M rows, and 0 of 26.7 M dues against its BigInt mirror;
+  - sync with all four clients: 0 below both, 0 order-dependent, 0 rewritten by a second pull.
+- **Fix 1, new in this PR:** a rung pair's day could fall below 0, and every client's blob validator takes only numbers at or
+  above 0, so the whole blob would be refused.
+  - The reader's path: a clock at epoch day 3 pulls `[20430,30,20400]`, the clamp makes it `[20430,30,3]`, and an answer on
+    day 4 wrote `[20432,120,4,11688,-8736]`. That device would then save nothing more.
+  - Ruled and built first: such a row is written without its pair and reads its whole-day interval, at most a day longer and
+    never shorter. That form was replaced at LIN2-R2 (below), because the day adds up. At epoch day d this touches only a card
+    on a rung r above d whose interval exceeds r + d × (next − r) ÷ r: at 20,400, where every such rung doubles, above 43,776
+    days. It touched 0 of 82,800 random answers at each of days 1,000, 10,000 and 20,400.
+  - New tests:
+    - every row the writer emits (16,950, epoch days 0 to 20,400, hostile shapes, both layouts) passes this client's
+      validator and v1.280.4's and production's, captured from git in `tests/artifacts/progress_validators.json`;
+    - the pairless rows keep never-sooner, a-day-later and one-more-early-answer, answer by answer (18 rows, 17,628 answers);
+    - the wrong-clock path runs as a unit: pull, clamp, answer, validate, save.
+  - A mutant keeping the negative day is red at all three.
+  - The pinned rows moved to a real epoch day (20,400). The day-0 fixtures had made two negative pair days look normal.
+  - Not covered, an older and separate fault: any invalid row stops every later save, because `_saveProgress` persists and
+    pushes only on "saved" and the store refuses the whole blob.
+- **Fix 2, the wording:** see "only by whole days" above, with the reader's 5-day case pinned. A 14-day card answered early
+  on each of the on-time path's days is due on 21984, against that path's 21979, two years in.
+- **Also in this push, prepared before the verdict:**
+  - the cap's two shapes;
+  - three successors made as strong as what they replaced: the moves layout in "nothing is rounded", v1.281.0's (b)
+    sequence now level with the on-time path for good, and the 30-day N1 case row by row;
+  - the corrected comments.
+- **LIN2-R1's landing** under the build lock, 19:10 to 19:55, on eeb516678:
+  - units 1,759/1,759;
+  - 53 journey files, 604 passed;
+  - `e2e:gen` 103/103;
+  - `ci:validate` 25/25;
+  - the app rows re-seeded: `neural.js` 731,899 → 731,904 B (+5, for the fallback; +207 on dev v1.281.2's own rows in all);
+  - the study engine label-neutral (63 shard parts byte-identical; each variant differs only in `mechanicsHash`);
+  - eager gzip 370,356, +3,780 of 5,000; first-hand core 389,866, +3,847 of 6,000; deferred 521,918 of 522,091, unchanged.
+
+  No gate or baseline moved.
+
+**The reader's re-read at 4ca9ffe7d, and LIN2-R2 (16 Nov).** MERGE AFTER 1 fix.
+- **What held:**
+  - 17,068,508 written rows through four real validators: 0 failures from valid inputs; the captured validators byte for
+    byte;
+  - sync over 200,000 three-device histories: 0 below both, 0 order-dependent, 0 changed by a second pull;
+  - the same zeros as before on this head, at epoch days 20,400, 40 and 3.
+- **The one fix:** the pairless fallback was right on each answer, but it compounded on a wrong-clock device. From epoch day
+  0, 953 of 2,921 cards answered daily for one interval ended on another due day than one on-time answer gives. The worst was
+  364 days later (a 731-day card: 2,558 against 2,194), and 957 runs were ahead in exact days; at day 20,400, 0.
+- **Ruled (the reader's own fix):** when the pair's day would be below 0, store `[ivl, last]`, the exact interval dated on the
+  row's own last day (no pair when it is whole), the form an on-time answer stores. Every reader reads it exactly, and no
+  number in it is below 0.
+  - Built: 0 of 2,921 daily runs from epoch day 0 off one on-time answer, now a test.
+  - The early-only search at epoch days 0, 3 and 40: 0 of 566,832 prefixes ahead in exact days.
+  - The three sentences that were false in that regime are true again as written: the code header's "0 in exact days
+    throughout", `docs/Neural.md`'s "never in exact days", and the 1970 rows test, retitled "…store their exact interval at
+    their own day", whose assertions read every interval exactly.
+  - A 71-day card at epoch day 20 answered on day 21 stores `[93, 60, 21, 71.5, 21]`.
+- **Mutants:** N (the fallback removed) is red at 3 named tests. N1 (the pair dropped, LIN2-R1's form) is red at 4, the day-0
+  daily-run test among them.
+- **The reader's two minor gaps, pinned:**
+  - v1.281.0's 75-day worst by value: 13936 without the extra answer and 14005 with it, where v1.281.0 gave 14046 and 14007;
+  - its old worst early-only sequence on the new rule: `[10260, 120, 10134, 90, 10098.75]`, 2 whole days after the on-time
+    path's 10258 (v1.281.0: 10 days).
+- **The comment's threshold is exact now:** r + d × (next − r) ÷ r, from 60 + d/2 on the 60-day rung.
+- **LIN2-R2's landing** under the build lock, 20:33 to 21:28, on b83c8659b:
+  - units 1,760/1,760;
+  - 53 journey files, 604 passed;
+  - `ci:validate` 25/25;
+  - `e2e:gen`: 102 of 103. The one red was `endgame-spa-nav-sheds-chip` (two `land_q_skipped` beats in a soft navigation's
+    second life). It passed 5 of 5 re-run alone on the same bundle (21:38). It reads no schedule: its skip reasons are a deck
+    still loading, a setting or a proven deck, and this delta acts only where a rung outlasts the epoch day. So it is an
+    intermittent red, not this change's; reported, not fixed here;
+  - the app rows re-seeded: `neural.js` 731,904 → 731,952 B (+48; +255 on dev v1.281.2's own rows in all);
+  - the study engine label-neutral (63 shard parts byte-identical);
+  - eager gzip 370,370, +3,794 of 5,000; first-hand core 389,879, +3,860 of 6,000; deferred 521,918 of 522,091, unchanged.
+
+  No gate or baseline moved.
