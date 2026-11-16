@@ -379,3 +379,79 @@ for (const touch of [false, true]) {
     })
   })
 }
+
+// D1 (U194), THE OWNER'S ANSWER (16 Nov, SET1-R3): (a), Multiple choice means it everywhere. A stored Multiple choice is
+// honoured on every surface, Last rolls' and the Path's decks included, so a card is never asked from memory, and the goals
+// that need one proven from memory ("Prove a card from memory", the four "Recall-prove …") wait until the choice changes. The
+// line under the option says both. Here every card of the deck stands at 2, what right picks can reach. Settings shows the
+// line; Last rolls asks the card as multiple choice; a right pick leaves it at 2 and the goal waiting; Auto, chosen in Settings,
+// asks the next card front and back there, and one Got it proves it.
+// keepTutorial: the harness otherwise marks the 20 White objectives done at boot, this one among them; the coach card is hidden
+// (its own hide does that) without completing anything.
+// Mutant: (b)'s exception put back (`_miniDeck`'s recognition skipping the inline surface under a stored `mc`) → red at
+// "multiple choice in Last rolls under a stored Multiple choice".
+const MC_LINE = "always three answers to pick from. A card is never asked from memory, so the goals that need one proven from memory wait until you change this."
+for (const touch of [false, true]) {
+  test.describe(touch ? "touch 390x631, a stored Multiple choice" : "mouse 1440x900, a stored Multiple choice", () => {
+    test.use(touch ? { hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } } : { viewport: { width: 1440, height: 900 } })
+    test(`a stored Multiple choice asks multiple choice in Last rolls too; the from-memory goals wait, and Auto gets them back (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      const j = journey(page)
+      await j.boot("/", { keepTutorial: true, initialState: { v: 2, settings: { mcMode: "mc" }, settingsAt: { mcMode: 5 } } })
+      await page.evaluate(() => { const a = (window as W).__neural; a.tutHidden = true; a.renderTutorial() })
+      await j.land("Mount Top")
+      const key = await page.evaluate(async () => {
+        const a = (window as W).__neural, key = a.deckKeyFor(a.nodes[a.currentPos]).key
+        await a.hydrateDeck(key)
+        for (const c of a._cardsOf(a.flashcards.decks[key]) || []) a._bumpStage(key, c.q, 2, 2)
+        return key
+      })
+      const goal = () => page.evaluate(() => (window as W).__neural.challengeProgress("white.recall").done)
+      expect(await goal(), "premise: not yet proven from memory").toBe(false)
+      // the account menu and Settings fade in, and `press` refuses a control under effective opacity 0.5 (the neutral
+      // control met it once in two): wait until the control is fully shown, then press it where it is
+      const shown = (sel: string) => expect.poll(() => page.evaluate((s) => {
+        let a = 1; for (let n = document.querySelector(s) as HTMLElement | null; n; n = n.parentElement) a *= Number(getComputedStyle(n).opacity)
+        return a
+      }, sel), { message: sel + " is fully shown" }).toBeGreaterThan(0.99)
+      const settings = async () => {
+        await press(page, ".ngAcctChip", "the badge", touch)
+        await shown("[data-menu-settings]")
+        await press(page, "[data-menu-settings]", "Settings", touch)
+        await shown('[data-settings-tab="flashcards"]')
+        await press(page, '[data-settings-tab="flashcards"]', "the Flashcards tab", touch)
+      }
+      // the line under the chosen option
+      await press(page, ".ng-logo", "open the drawer", touch)
+      await settings()
+      const row = page.locator("[data-answer-mode]")
+      await expect(row, "the line says a card is never asked from memory and the goals wait").toContainText(MC_LINE)
+      await shown(".ng-modal .x")
+      await press(page, ".ng-modal .x", "close Settings", touch)
+      // Last rolls: multiple choice, and a right pick proves nothing from memory
+      await press(page, '[data-view="history"]', "Last rolls", touch)
+      await press(page, "[data-hist-current]", "this roll's row", touch)
+      const deck = page.locator(`[data-mini-deck="${key}"]`)
+      await expect(deck.locator("[data-inline-mc-opt]"), "multiple choice in Last rolls under a stored Multiple choice").toHaveCount(3, { timeout: 20_000 })
+      await expect(deck.locator("[data-mini-reveal]"), "and nothing to reveal").toBeDisabled()
+      const live = await page.evaluate(() => { const a = (window as W).__neural, m = a._mc; return m && m.surface === "inline" ? { key: m.key, qh: m.qhash, right: m.correct } : null })
+      expect(live && live.key, "premise: the open card is this deck's, on the inline surface").toBe(key)
+      await press(page, `[data-mini-deck="${key}"] [data-inline-mc-opt="${live!.right}"]`, "the right answer", touch)
+      await expect.poll(() => page.evaluate(({ key, qh }) => { const a = (window as W).__neural; return !!(a.srs[key] && a.srs[key][qh]) }, live!),
+        { message: "the pick is a grade" }).toBe(true)
+      expect(await page.evaluate(({ key, qh }) => (window as W).__neural.stage[key][qh], live!), "a right pick leaves the card at 2").toBe(2)
+      expect(await goal(), "the from-memory goal waits").toBe(false)
+      // how a player gets it back: choose Auto; the next card of the deck, at 2, asks front and back
+      await settings()
+      await shown("[data-answer-mode] button:nth-of-type(1)")
+      await press(page, "[data-answer-mode] button:nth-of-type(1)", "Auto", touch)
+      expect(await page.evaluate(() => (window as W).__neural.get("mcMode")), "the choice is stored").toBe("auto")
+      await press(page, ".ng-modal .x", "close Settings", touch)
+      await press(page, `[data-mini-deck="${key}"] .mn`, "the next card", touch)
+      await expect(deck.locator("[data-inline-mc-opt]"), "Auto asks a card right twice front and back").toHaveCount(0)
+      await expect(deck.locator("[data-mini-reveal]")).toBeEnabled()
+      await press(page, `[data-mini-deck="${key}"] [data-mini-reveal]`, "Reveal", touch)
+      await press(page, `[data-mini-deck="${key}"] [data-mini-got]`, "Got it", touch)
+      await expect.poll(goal, { message: "\"Prove a card from memory\" is reached" }).toBe(true)
+    })
+  })
+}

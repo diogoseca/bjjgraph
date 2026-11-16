@@ -107,7 +107,12 @@ renderSettings() {
           [["Auto", "auto"], ["Front Back cards", "classic"], ["Multiple choice", "mc"]], "mcMode", this._answerMode(),
           { auto: '<b style="color:#cbd4e6;">Auto</b> &mdash; multiple choice until you get a card right twice, then front and back from then on.',
             classic: '<b style="color:#cbd4e6;">Front Back cards</b> &mdash; the question, then the answer; you say if you got it. Checkpoints and the defence drill stay multiple choice.',
-            mc: '<b style="color:#cbd4e6;">Multiple choice</b> &mdash; always three answers to pick from.' });
+            // D1 (a), THE OWNER'S ANSWER TO U194 (16 Nov, SET1-R3): Multiple choice means it everywhere, Last rolls' and the
+            // Path's decks included. A right pick stops at stage 2, so a card is never asked from memory and the goals that
+            // need one proven from memory ("Prove a card from memory", the four "Recall-prove …") wait until the choice
+            // changes; the line says both, plainly. Pinned by answer-mode's "a stored Multiple choice asks multiple choice in
+            // Last rolls too".
+            mc: '<b style="color:#cbd4e6;">Multiple choice</b> &mdash; always three answers to pick from. A card is never asked from memory, so the goals that need one proven from memory wait until you change this.' });
         mode.setAttribute("data-answer-mode", "1");
         body.appendChild(mode);
       }
