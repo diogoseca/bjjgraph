@@ -80,6 +80,15 @@
 //   S0-10 the cards-only shape changed (every visit lists moves)             → "S0: without a move seat map the order is today's…"
 //   S0-11 a record of moves alone read as empty                              → "S0: a move's worth is what a right answer adds…",
 //                                                                             "S0 (ruling 5): the row a first look writes…"
+// S0-R1 (the independent read of 58a46d515: its finding 2, its surviving mutants A-D and a nit; all 18 run again together,
+// against this file, practice_page, gameplan and gameplan_runtime, 98 of 98 green before and after):
+//   S0-12 an escape's answer today not counted toward the goal (its A)       → "S0: every move answer today counts toward the goal…"
+//   S0-13 the worth plan's overrun without the moves (its B)                  → the same
+//   S0-14 the worth bind's overrun without the moves (its finding 2)          → the same
+//   S0-15 today's order's overrun without today's moves                       → the same
+//   S0-16 the memo key without the moves record (its C: a pull replaces it)   → "S0: the order is built again for a new moves record…"
+//   S0-17 the memo key without the seat map (its D)                           → the same
+//   S0-18 a stored null counted unmatched (its nit)                           → "S0: a move row without its answer is counted…"
 //
 // NOT COVERED here:
 //   · A RETIRED QUESTION READS AS A LIVE ONE, as in the rating (tests/rating.test.mjs): a deck's new count while its cards
@@ -821,6 +830,9 @@ test("S0: a move row without its answer is counted as a bad row, never priced, n
   assert.equal(o.law.counts.badRow, 1);
   assert.ok(!o.law.asked.includes("m:1/top:8"), "neither owed nor new");
   assert.equal(ngRatingShare(U, { moves }, D).counts.badRow, 1, "the rating counts it the same way");
+  // a stored null (no merge leaves one; a raw local blob could) is no row: the move is new, and it met its move
+  const n = ngPracticeItems({ day: D, srs: mSrs(), stage: {}, decks: mDecks(), game: U, seats: M_SEATS, moves: { "1/top": { 7: null } }, moveSeats: M_MOVESEATS });
+  assert.deepEqual([n.items.find((it) => it.id === "m:1/top:7").row, n.counts.moveRows, n.counts.movesUnmatched], [null, 1, 0]);
 });
 
 test("S0: the order is kept for its inputs, and the moves record's revision is one of them", () => {
@@ -836,6 +848,43 @@ test("S0: the order is kept for its inputs, and the moves record's revision is o
   // built again: "8" is answered today; the next position by its next new move and card is A|Bottom (2 × 0.75 + 0.75) over
   // A|Top (0.4 × 0.75 + 0.75), so the round's one is the bottom's "7"
   assert.deepEqual(build(2).moves.map((m) => m.id), ["m:1/bottom:7"], "a new revision: built again, the move answered today gone");
+});
+
+test("S0: every move answer today counts toward the goal, an escape's too, and the overrun keeps them when a deck's cards land", () => {
+  // the independent read of S0 (findings 2 and 3 A/B, its own record): one card and two move answers today (one an escape,
+  // which the order never asks but which is an answer), a goal of 3: the goal is met, so Practice deals a round of 3, and
+  // the plan runs over by 1 + 3 + 2 − 3 = 3 whatever is asked. Binding the deck's cards when they land (`ngGameplanBind`)
+  // must keep that: it recomputed `overrun` from the cards alone
+  const U = ngRatingUniverse({ decks: { "A|Top": { n: 4 } }, weights: { "A|Top": 4 }, seats: { "1/top": { w: 4, hand: { 7: 10, 8: 90 } } } });
+  const srs = { "A|Top": { c1: [D + 1, 1, D] } }, moves = { "1/top": { e9: [D + 1, 1, D, 0], 7: [D + 1, 1, D, 1] } };
+  const worth = { game: U, seats: { "A|Top": "A|Top" }, stage: {}, moves, moveSeats: { "1/top": "A|Top" }, movesRev: 1 };
+  const plan = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 3, decks: { "A|Top": { count: 4, questions: [], exact: false, allowed: true, headroom: 0.15 } }, srs, worth });
+  assert.equal(plan.order, "worth", plan.orderStatus);
+  assert.equal(plan.movesToday, 2, "the escape's answer counts");
+  assert.equal(plan.reviewed.length + plan.movesToday, 3, "the goal is met");
+  assert.equal(plan.overrun, 3);
+  const bound = G.ngGameplanBind(plan, { "A|Top": { count: 4, questions: ["c1", "c2", "c3", "c4"], exact: true, allowed: true, headroom: 0.15 } }, srs);
+  assert.notStrictEqual(bound, plan, "premise: the cards landed and bound");
+  assert.deepEqual([bound.movesToday, bound.overrun, (bound.moves || []).length], [2, 3, (plan.moves || []).length], "the bind keeps the moves' part");
+  // today's order (the game not ready: no position named for any deck) counts them too, and says so
+  const fb = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 4,
+    decks: { "A|Top": { count: 8, questions: ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"], exact: true, allowed: true, headroom: 0.15 } },
+    srs: { "A|Top": { c1: [D - 1, 3, D - 4], c2: [D - 1, 3, D - 4] } },
+    worth: { ...worth, seats: {}, moves: { "1/top": { 8: [D + 1, 1, D, 0], e1: [D + 1, 1, D, 0], 7: [D + 1, 1, D, 1] } } } });
+  assert.deepEqual([fb.order, fb.orderStatus, fb.movesToday, fb.room, fb.overrun], ["oldest", "no-seats", 3, 0, 1], "2 due + 3 moves today, against 4");
+});
+
+test("S0: the order is built again for a new moves record or a new seat map, whatever the revision", () => {
+  // the independent read of S0 (finding 3 C/D): a pull REPLACES `this.moves` without bumping `_movesRev`, so the record's
+  // identity is a key of its own; and the seat map is one (S1's map is built per game)
+  const U = mGame(), decks = mDecks(), srs = { "A|Top": { c1: [D + 1, 1, D] } }, stage = {};
+  const build = (moves, moveSeats) => G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 1, decks, srs,
+    worth: { game: U, seats: M_SEATS, stage, moves, moveSeats, movesRev: 1 } });
+  const first = { "1/top": {} };
+  assert.deepEqual(build(first, M_MOVESEATS).moves.map((m) => m.id), ["m:1/top:8"]);
+  const pulled = { "1/top": { 8: ngKnowledgeScheduleRow(null, true, D).concat(1) } };
+  assert.deepEqual(build(pulled, M_MOVESEATS).moves.map((m) => m.id), ["m:1/bottom:7"], "a pulled record, the same revision: built again");
+  assert.deepEqual(build(pulled, { "1/top": "A|Top" }).moves.map((m) => m.id), ["m:1/top:7"], "a new seat map: built again (A|Bottom no longer named)");
 });
 
 // Built from the record, the order asks what the simulation asks: the frozen days of Part 2, turned into the app's own shapes

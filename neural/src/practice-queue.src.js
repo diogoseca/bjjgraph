@@ -190,7 +190,8 @@ export function ngPracticeVisits({ items = [], day, goal = 20, guard = NG_PQ_GUA
  *              name (the "…-Control" seats `_practiceSeats` skips) is a place the map cannot stand at: its moves are
  *              counted (`movesUnseated`), never asked loose.
  * Each dealt move is one item {id: "m:<seat>:<move>", kind: "move", seat, w: the game's own price, row, key, move}; a stored
- * row that is not a row is handed to the law as it is (a bad row, counted there), never read as new. Counted, positive,
+ * value that is not a row is handed to the law as it is (a bad row, counted there), never read as new; a stored null is
+ * no row (new), as the pull's merge would leave it, and met its move (not `movesUnmatched`). Counted, positive,
  * so a join that matched nothing cannot pass for a player who knows no move: `moves` (dealt moves read), `movesOutside` (a
  * null cell: not dealt there in this ruleset), `movesUnseated`, `moveRows` (rows stored) and `movesUnmatched` (rows no
  * dealt, seated move took: escapes, the other ruleset's seats, a move this build no longer deals there).
@@ -288,8 +289,8 @@ export function ngPracticeItems({ day, srs, stage, decks, game, seats, live, mov
         counts.moves++;
         if (!ngPqNum(v)) { counts.movesOutside++; continue; }    // §3: a null cell is "not dealt here", never a price
         if (seat == null) { counts.movesUnseated++; continue; }  // no place on the map to ask it: never asked loose
-        const r = rows && own(rows, mv) ? rows[mv] : null;
-        if (r != null) met.add(st + ":" + mv);
+        const has = !!rows && own(rows, mv), r = has ? rows[mv] : null;   // a stored null met its move: read as no row (new)
+        if (has) met.add(st + ":" + mv);
         items.push({ id: "m:" + st + ":" + mv, kind: "move", seat, w: v, row: r, key: st, move: mv });
       }
     }

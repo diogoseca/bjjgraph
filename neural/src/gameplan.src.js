@@ -137,10 +137,14 @@ const NG_GAMEPLAN_LIMITED = "Some compared material isn't in today's new cards; 
 function ngGameplanMovesToday(moves, day) {
   let n = 0;
   for (const rows of Object.values(moves || {})) {
-    for (const r of Object.values(rows || {})) if (Array.isArray(r) && r.length >= 4 && r.slice(0, 4).every(Number.isFinite) && r[2] === day) n++;
+    for (const r of Object.values(rows || {})) if (Array.isArray(r) && r.length >= 4 && r.slice(0, 4).every(Number.isFinite) && r[1] > 0 && r[2] === day) n++;
   }
   return n;
 }
+// what the moves add to a plan's overrun once asked (S0): today's move answers and the moves the order asked; 0 for a
+// plan built without moves, so every cards-only figure is today's. Every place that recomputes `overrun` adds it (the
+// independent read of S0, its finding 2: the binds dropped it)
+const ngGameplanMoveTerms = (p) => (p.movesToday || 0) + (p.moves ? p.moves.length : 0);
 // Deck descriptors: {count, questions:[hash], exact, allowed, headroom, oddsFull?}.
 // A manifest supplies shared hashes + stored SRS hashes before hydration. The
 // remainder is counted as pending, never treated as already reviewed.
@@ -158,7 +162,8 @@ export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, de
     const kept = ngGameplanWeakSpots(fallback, decks).rows.filter((r) => decks[r.key].oddsFull && !ranked.has(r.key));
     if (kept.length) ranking = { ...ranking, rows: ranking.rows.concat(kept) };
   }
-  const movesToday = worth && worth.moveSeats ? ngGameplanMovesToday(worth.moves, day) : 0;
+  const movesAsked = !!(worth && worth.moveSeats != null && typeof worth.moveSeats === "object");   // the builder's own test
+  const movesToday = movesAsked ? ngGameplanMovesToday(worth.moves, day) : 0;
   const budget = Math.max(0, Math.floor(Number.isFinite(target) ? target : 20)), left = budget - reviewed.length - movesToday;
   // WHAT IS WORTH MOST (U171 a, v1.278.0): the day's rows come from practice-queue.src.js when the app hands it the game:
   // what is due first, worth most first, and a new card only when nothing is due (the owner's Anki rule, ANKI1).
@@ -225,7 +230,9 @@ export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, de
     reviewed, due: debt.rows, fresh, more, blocked: debt.blocked,
     dueQuestions: debt.questions, status: ranking.status, comparison, assumptions, newFrom, order: "oldest", orderStatus: order ? order.status : "off",
     missing: ranking.missing, room, newCards: spent, dueCards: debt.count,
-    total: debt.count + spent, overrun: Math.max(0, reviewed.length + debt.count + spent - budget),
+    total: debt.count + spent, overrun: Math.max(0, reviewed.length + debt.count + spent + movesToday - budget),
+    // S0: today's order (the game not ready) asks cards only, but with moves asked their answers today count toward the goal
+    ...(movesAsked ? { movesToday } : {}),
   });
 }
 
@@ -279,7 +286,7 @@ function ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, r
     reviewed, due, fresh, more, blocked: debt.blocked, dueQuestions, status: ranking.status, comparison,
     assumptions: ranking.assumptions, newFrom: "worth", order: "worth", orderStatus: "ok",
     visits: order.visits, counts: order.counts, guarded, missing: ranking.missing, room: newCards, newCards, dueCards: dueQuestions.length,
-    total, overrun: Math.max(0, reviewed.length + total + movesToday + (order.moves ? order.moves.length : 0) - budget),
+    total, overrun: Math.max(0, reviewed.length + total + ngGameplanMoveTerms({ movesToday, moves: order.moves }) - budget),
     // S0: the asked moves pass through as the order listed them (each visit's `moves` too), with today's move answers. The
     // card figures above stay the cards' (`total`, `dueCards`, `newCards`); only `overrun` counts the moves, and only when asked
     ...(order.moves ? { moves: order.moves, movesToday } : {}),
@@ -339,7 +346,7 @@ export function ngGameplanBind(plan, decks, srs) {
   if (fresh.every((r, i) => r === plan.fresh[i])) return plan;
   const newCards = fresh.reduce((n, r) => n + r.count, 0);
   return ngGameplanFreeze({ ...plan, fresh, newCards, total: plan.dueCards + newCards,
-    overrun: Math.max(0, plan.reviewed.length + plan.dueCards + newCards - plan.target) });
+    overrun: Math.max(0, plan.reviewed.length + plan.dueCards + newCards + ngGameplanMoveTerms(plan) - plan.target) });
 }
 
 // A worth row's placeholders become the deck's first cards with no row, once its cards land: never a card answered before,
@@ -357,7 +364,7 @@ function ngGameplanBindWorth(plan, decks, srs) {
   const due = plan.due.map(bind), fresh = plan.fresh.map(bind);
   if (due.every((r, i) => r === plan.due[i]) && fresh.every((r, i) => r === plan.fresh[i])) return plan;
   const newCards = due.concat(fresh).reduce((n, r) => n + r.count - (r.owed ? r.owed.length : 0), 0), total = plan.dueCards + newCards;
-  return ngGameplanFreeze({ ...plan, due, fresh, newCards, total, overrun: Math.max(0, plan.reviewed.length + total - plan.target) });
+  return ngGameplanFreeze({ ...plan, due, fresh, newCards, total, overrun: Math.max(0, plan.reviewed.length + total + ngGameplanMoveTerms(plan) - plan.target) });
 }
 
 export function ngGameplanProgress(plan, { srs = {}, day, decks = {} }) {
