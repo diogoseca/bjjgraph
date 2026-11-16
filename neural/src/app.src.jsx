@@ -3292,6 +3292,9 @@ class Component extends DCLogic {
     this.prep = next.prep; this.stage = next.stage; this.rec = next.rec; this.srs = next.srs;
     this._sharp = next.sharp; this._days = next.days; this.cardDone = new Set(next.creditedQuestions);
     this._knowledgeAttempts = next.attempts; this.cardsToday = this._days[this._dayKey()] || 0;
+    // v1.280.2: the rows this answer wrote join the owner's undelivered answers (progress-owner.src.js, `ngProgressReplay`)
+    const at = next.attempts && next.attempts[id];
+    if (at) this._journal(result.changedDecks.map((dk) => [0, dk, at.qh, result.effects.correct ? 1 : 0, at.day, (this.srs[dk] || {})[at.qh]]));
     this._publishKnowledge("grade:" + mode, next.revision);
     if (result.effects.recallProven) this._knowledgeEffect("recall_proven", () => this.fx("recall_proven", { deckKey: key }));
     if (correct) {
@@ -7708,7 +7711,10 @@ class Component extends DCLogic {
       // v1.255.2: what the cloud holds now, for _pushCloud's "nothing changed" test. An empty account holds nothing to match.
       const seen = empty ? null : { userId, key: ngProgressCloudKey(cloud) };
       if (!empty) {
-        const next = this._mergeProgressBlobs(this._progressBlob(), cloud);
+        // v1.280.2: the cards this copy answered and has not yet delivered are rebuilt on the cloud's rows, never merged
+        // (a first right answer given before this pull no longer turns a mature card into one day): `ngProgressReplay`
+        const merged = this._mergeProgressBlobs(this._progressBlob(), cloud), host = this._progressHost;
+        const next = host && typeof host.replayCloud === "function" ? host.replayCloud(this, merged, cloud) : merged;
         if (!current()) return false;
         this._hydrateProgressBlob(next);
         this._applyLayers();
@@ -7768,7 +7774,12 @@ class Component extends DCLogic {
         try { ok = await A.pushNeural(snap, userId); } finally { this._pushesInFlight--; this._pushEvents++; }
         if (!ok && current()) {
           this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "push-failed";
-        } else if (ok && current()) this._cloudSeen = solo && seq === this._pushSeq ? { userId, key } : null;
+        } else if (ok && current()) {
+          this._cloudSeen = solo && seq === this._pushSeq ? { userId, key } : null;
+          // v1.280.2: what that copy holds is delivered: those answers leave the journal (`ngProgressReplay`). Only a push
+          // that ran alone: two in flight can land in either order, and the rows are then proven at the next pull instead.
+          if (this._cloudSeen && typeof this._progressHost.delivered === "function") this._progressHost.delivered(this, snap);
+        }
       } catch (e) {
         if (current()) { this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "push-failed"; }
       }
@@ -12937,11 +12948,11 @@ class Component extends DCLogic {
    * the harness's drill rail writes prep directly and must keep an empty srs.
    */
   _schedule(key, q, ok) {
-    const today = this._epochDay();
+    const today = this._epochDay(), qh = this.qhash(q), written = [];
     const write = (dk) => {
       const m = (this.srs[dk] = this.srs[dk] || {});
-      const qh = this.qhash(q);
       m[qh] = ngKnowledgeScheduleRow(m[qh], ok, today);
+      written.push([0, dk, qh, ok ? 1 : 0, today, m[qh]]);
     };
     write(key);
     // NB _sharedDecksFor returns null when unshared, and the list INCLUDES the origin deck —
@@ -12949,8 +12960,18 @@ class Component extends DCLogic {
     // two rungs (1→3 on a first answer), which the srs-due spec caught on its first run.
     const shared = this._sharedDecksFor(q, key);
     if (shared) for (const k of shared) { if (k !== key) write(k); }
+    this._journal(written);   // v1.280.2: the owner's undelivered answers
     this._publishKnowledge("schedule");
     this._saveProgress();
+  }
+  // THE SCHEDULE'S WRITER as the progress host replays an undelivered answer with it (v1.280.2, `ngProgressReplay`: the host
+  // file cannot import knowledge-profile, whose bytes the study engine pins)
+  _scheduleWrite(prior, ok, day) { return ngKnowledgeScheduleRow(prior, ok, day); }
+  // the rows an answer wrote, [[field (0 srs, 1 moves), bucket, item, ok, day, row], …], kept until a copy the cloud holds
+  // has them; a host without the journal (a test rail) records nothing
+  _journal(rows) {
+    const h = this._progressHost;
+    if (h && typeof h.journal === "function" && rows && rows.length) h.journal(this, rows);
   }
   /** Cards past due and NOT yet reviewed today — `last < today` is what lets a failed card leave
    *  the pool until tomorrow. Returns [{key, qh}]; `dueCount()` dedupes by qhash (one FACT due
@@ -15261,8 +15282,9 @@ class Component extends DCLogic {
   _gradeMove(opt, ok, card) {
     const k = this._moveKey(opt); if (!k) return;
     const m = (this.moves = this.moves || {}), row = (m[k[0]] = m[k[0]] || {});
-    const prior = row[k[1]];   // cells a later build added after the fourth ride along (review R5)
-    row[k[1]] = ngKnowledgeScheduleRow(prior, ok, this._epochDay()).concat(ok ? 1 : 0, prior && prior.length > 4 ? prior.slice(4) : []);
+    const prior = row[k[1]], day = this._epochDay();   // cells a later build added after the fourth ride along (review R5)
+    row[k[1]] = ngKnowledgeScheduleRow(prior, ok, day).concat(ok ? 1 : 0, prior && prior.length > 4 ? prior.slice(4) : []);
+    this._journal([[1, k[0], k[1], ok ? 1 : 0, day, row[k[1]]]]);   // v1.280.2: the owner's undelivered answers
     this._sealCard(card, this._moveState(opt));
     // the record changed in place: a new revision for the moves index (its identity did not move), then republish:
     // the odds, the worker's profile, the map's gold and the account line all read it (a Yes adds, a No takes back)
