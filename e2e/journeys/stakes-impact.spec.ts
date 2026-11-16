@@ -199,6 +199,9 @@ test("film-study first look: +4% on explicit playback once per technique, never 
   await j.expectBeat("film_first_look")
   const play = page.frameLocator('[data-test-player]').locator('button')
   await expect(play).toBeVisible()
+  // VID1-R1: the player takes no press until the theater's 360ms zoom has settled, so the second play waits for it
+  // (WAS: pressed at once; on the VID1-R1 build that line's premise failed, the second play 1 for 2: the guard owned it).
+  await page.locator(".ng-video-theater").evaluate(async d => { await Promise.all(d.getAnimations().map(a => a.finished)) })
   const hit = await play.boundingBox()
   expect(hit).not.toBeNull()
   await page.mouse.click(hit!.x + hit!.width / 2, hit!.y + hit!.height / 2)

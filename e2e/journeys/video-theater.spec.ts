@@ -205,7 +205,10 @@ test("VIDEO1 map gets no pointer wheel or keyboard input during playback", async
   // A drag has to start on the dim to mean anything: over the video it belongs to the cross-origin
   // iframe and the app never hears it. Releasing on the dim is a click on the dialog, so this drag
   // also ends the theater. It pans nothing because the modal and _graphInputOn each stop it, so
-  // removing either one alone leaves this green; each has its own control above.
+  // removing either one alone leaves this green; each has its own control above. VID1-R1: the dim closes nothing while
+  // the theater zooms (a double press's second press must not shut what the first opened), so the drag waits for the
+  // zoom (WAS: dragged at once; on the VID1-R1 build that line left the theater open, 1 for 0).
+  await page.locator(THEATER).evaluate(async d => { await Promise.all(d.getAnimations().map(a => a.finished)) })
   await page.mouse.move(5, 5); await page.mouse.down(); await page.mouse.move(60, 40, { steps: 8 }); await page.mouse.up()
   await expect(page.locator(THEATER)).toHaveCount(0)
   expect(await state(), "VIDEO1 a drag on the dim cannot reach the map").toEqual(before)

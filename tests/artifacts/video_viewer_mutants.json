@@ -178,6 +178,18 @@
    "test": "VID1 current: a double press opens one video and Esc still closes it; after the zoom the player takes a press \\(390x631\\)",
    "assertion": "the double press leaves the video open",
    "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
+  },
+  {
+   "name": "dim-press-takes-focus-mid-zoom",
+   "edits": [
+    [
+     "    dialog.addEventListener(\"mousedown\", e => { if (zooming) e.preventDefault(); });\n",
+     ""
+    ]
+   ],
+   "test": "VID1 current: a double press opens one video and Esc still closes it; after the zoom the player takes a press \\(390x631\\)",
+   "assertion": "a double press: one video, played once, focus still on the ✕",
+   "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
   }
  ]
 }
