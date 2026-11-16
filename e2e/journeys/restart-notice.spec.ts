@@ -397,16 +397,24 @@ for (const v of VIEWS) test.describe(v.name + ", the clock held during the round
     if (await page.locator("[data-reward-close]").isVisible()) { await j.clickByMouse("[data-reward-close]", "dismiss the earned patch"); await j.advance(300) }
     expect(await page.evaluate(() => (window as W).__neural.paused), "the staged board holds the clock").toBe(true)
     await page.evaluate(() => (window as W).__neural.endRound("win", "Armbar"))
-    for (const ms of [100, 1500, 5000]) {
-      await j.advance(ms === 100 ? 100 : ms - 100); await page.evaluate(() => document.body.getBoundingClientRect().top)
+    const artTop0 = await page.evaluate(() => Math.round((window as W).__neural._reader.articleEl.getBoundingClientRect().top))
+    let ms = 0
+    for (const [k, step] of [[0, 100], [1, 1400], [2, 3500], [3, 100]] as const) {
+      // the reader re-lays out on its own frame: settled, as a player's screen is; then (k 3) a window resized while held, a
+      // real input that moves the band again, so the verdict must follow it (`_frameArrivalHeading` every frame while held)
+      if (k === 3) await page.setViewportSize({ width: page.viewportSize()!.width, height: page.viewportSize()!.height - 140 })
+      await j.advance(step); await j.readerLayoutSettled(); await j.advance(50); ms += step + 50
+      await page.evaluate(() => document.body.getBoundingClientRect().top)
       const s = await state(page), art = await articleOf(page), o = await verdictOverArticle(page)
       expect(s.verdict, `+${ms} ms: the verdict is up`).toBe(true)
       expect(art.vis, `+${ms} ms: nothing is on its way, so the article stays`).toBe("visible")
       expect(s.board, `+${ms} ms: the board is not put away`).toBe(null)
       expect((await noticeOnTop(page)).under, `+${ms} ms: the verdict's points are its own`).toEqual([])
       expect(o.lines, `+${ms} ms: the verdict has lines on screen`).toBeGreaterThan(0)
-      expect(o.meets, `+${ms} ms: no line of the verdict meets the article`).toBe(0)
+      expect(o.meets, `+${ms} ms${k === 3 ? " (resized)" : ""}: no line of the verdict meets the article`).toBe(0)
     }
+    const artTop1 = await page.evaluate(() => Math.round((window as W).__neural._reader.articleEl.getBoundingClientRect().top))
+    expect(artTop1, `the case occurred: the article moved up when the hand went (${artTop0} -> ${artTop1} px)`).toBeLessThan(artTop0)
   })
 
   test("an earned patch on screen through the hold covers no part of the notice, and the article comes back with the new roll", async ({ page }) => {
