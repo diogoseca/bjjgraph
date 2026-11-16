@@ -8910,6 +8910,9 @@ class Component extends DCLogic {
     // until the next curriculum load) and an excluded node is not drawn at all, so its fog
     // membership is moot; `_keyNode` and `_qkDecks` are keyed by deck key and card text, not by
     // node set; `_scoreW`/`_scoreCache` are already per-frame.
+    // the corridor's one home since v1.284.0 is Master the game: a flip with it open repaints it there (a gi-only lesson goes, its
+    // evidence stays), as the Path view's list repaint below did for the Path
+    if (this._session?.practice && this._sessionInline()) this._practiceCorridor();
     const list = this.explorerListRef.current;
     if (list && list.style.display !== "none") this.renderExplorer();
   }
@@ -17915,6 +17918,12 @@ class Component extends DCLogic {
       this.renderTutorial();
     }
     if (this.renderChallengeCue) this.renderChallengeCue();
+    // THE CORRIDOR REPAINTS ON NEW EVIDENCE, where it lives (v1.284.0, SET1 slice B): the Path view did this here (a checkpoint
+    // cleared, an objective's count, a crown); since the Path left the drawer the corridor is Master the game's, so it is that
+    // view's corridor that repaints, after any press in flight (`_afterPress`, FGD13: a repaint between a press and its release
+    // swallows the click)
+    if (this.deckShown && !this._renderingChallengeView && this._session?.practice && this._sessionInline())
+      this._afterPress(() => { if (this._session?.practice && this._sessionInline()) this._practiceCorridor(); });
   }
   tutDoneCount() { const d = (this.tut && this.tut.done) || {}; let n = 0; for (const s of this.TUTORIAL) if (d[s.id]) n++; return n; }
   tutCurrent() { const d = (this.tut && this.tut.done) || {}; for (const s of this.TUTORIAL) if (!d[s.id]) return s; return null; }

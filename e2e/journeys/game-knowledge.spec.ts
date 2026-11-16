@@ -196,7 +196,7 @@ test.describe("Game Knowledge", () => {
       for (const card of app._cardsOf(app.flashcards.decks[key]) || []) {
         app._bumpStage(key, card.q, 3, 3);
       }
-      app.renderExplorer();
+      app._practiceCorridor(); // Master the game's corridor repaints (the Path's renderExplorer until v1.284.0)
     }, deckKey);
     await expect(
       page

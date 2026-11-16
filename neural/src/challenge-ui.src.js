@@ -808,10 +808,18 @@ const NG_CHALLENGE_UI_METHODS = {
       }
       shelf.appendChild(coinSection);
     }
+    // VIEW COLLECTION'S SCROLL OUTLIVES A REPAINT TOO (v1.284.0): Master the game lays its page out again when the plan lands,
+    // which put the shelf View Collection had scrolled to back below the fold. The request rides on the session until the
+    // player moves the page themselves (a wheel, a touch, a press, a key), and each repaint until then scrolls to the shelf.
     if (this._scrollRewardsShelf) {
       this._scrollRewardsShelf = false;
-      requestAnimationFrame(() => { try { shelf.scrollIntoView({ block: "start" }); } catch (e) {} });
+      if (s) {
+        s.shelfScroll = true;
+        const host = this.drillListRef && this.drillListRef.current;
+        if (host) for (const t of ["wheel", "touchstart", "pointerdown", "keydown"]) host.addEventListener(t, () => { s.shelfScroll = false; }, { once: true, passive: true });
+      } else requestAnimationFrame(() => { try { shelf.scrollIntoView({ block: "start" }); } catch (e) {} });
     }
+    if (s && s.shelfScroll) requestAnimationFrame(() => { try { if (shelf.isConnected && s.shelfScroll) shelf.scrollIntoView({ block: "start" }); } catch (e) {} });
     return shelf;
   },
 };

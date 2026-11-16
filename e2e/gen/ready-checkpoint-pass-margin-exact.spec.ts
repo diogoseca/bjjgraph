@@ -134,7 +134,9 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   await answerQuiz(page, j, CP.pass - 1)
 
   const b1 = (await j.beats()) as any[]
-  const n1 = b1.map((b) => b.beat)
+  // v1.284.0: the corridor is Master the game's, whose own open card shows multiple choice on the practice surface under Auto (an
+  // mc_shown of ITS surface, outside the quiz); a quiz card is presented on the deck surface, so the census leaves that one out
+  const n1 = b1.filter((b: any) => !(b.beat === "mc_shown" && b.surface === "practice")).map((b) => b.beat)
   expect(n1.filter((n) => n === "mc_shown").length, "sitting 1 presented every card").toBe(CP.cards)
   expect(n1.filter((n) => n === "mc_correct").length, "sitting 1 landed exactly pass-1 correct").toBe(CP.pass - 1)
   expect(n1.filter((n) => n === "mc_wrong").length, "sitting 1 missed the rest").toBe(CP.cards - (CP.pass - 1))
@@ -185,7 +187,7 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   await answerQuiz(page, j, CP.pass)
 
   const b2 = (await j.beats()) as any[]
-  const n2 = b2.map((b) => b.beat)
+  const n2 = b2.filter((b: any) => !(b.beat === "mc_shown" && b.surface === "practice")).map((b) => b.beat)
   expect(n2.filter((n) => n === "mc_shown").length, "both sittings presented every card").toBe(2 * CP.cards)
   expect(
     n2.filter((n) => n === "mc_correct").length,

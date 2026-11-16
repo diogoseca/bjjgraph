@@ -160,7 +160,9 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
 
   // ── beat shape of the bombed sitting: all wrong, one fail, zero pass-side beats ──
   const b1 = (await j.beats()) as any[]
-  const n1 = b1.map((b) => b.beat)
+  // v1.284.0: the corridor is Master the game's, whose own open card shows multiple choice on the practice surface under Auto (an
+  // mc_shown of ITS surface, outside the quiz); a quiz card is presented on the deck surface, so the census leaves that one out
+  const n1 = b1.filter((b: any) => !(b.beat === "mc_shown" && b.surface === "practice")).map((b) => b.beat)
   expect(n1.filter((n) => n === "mc_shown").length, "every quiz card presented").toBe(CP.cards)
   expect(n1.filter((n) => n === "mc_wrong").length, "every quiz card answered wrong").toBe(CP.cards)
   expect(n1.filter((n) => n === "mc_correct").length, "no accidental correct answer").toBe(0)

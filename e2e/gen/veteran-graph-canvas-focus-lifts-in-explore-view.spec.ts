@@ -31,8 +31,9 @@ test("veteran: Challenge graph focus clears in Explore and restores on return", 
   await page.locator('[data-view="explore"]').click()
   const explore = await page.evaluate(readFocus)
   expect(explore).toMatchObject({ view: "explore", focused: false })
-  expect(await page.locator(".ng-track-card").count()).toBe(0)
-  expect(await page.locator(".ng-challenge-group").count()).toBe(0)
+  // Master the game's page is hidden, not torn down, when the brand leads home: what is ON SCREEN is the claim
+  expect(await page.locator(".ng-track-card:visible").count()).toBe(0)
+  expect(await page.locator(".ng-challenge-group:visible").count()).toBe(0)
 
   await j.openCorridor()
   const back = await page.evaluate(readFocus)

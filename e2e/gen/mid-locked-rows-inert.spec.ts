@@ -108,7 +108,8 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
         posKey: a._posKey ?? null,
         camCx: a.camTarget.cx,
         camCy: a.camTarget.cy,
-        session: !!a._session,
+        // a STUDY session the probes could start (Master the game's own session holds the corridor since v1.284.0, and is not one)
+        session: !!(a._session && !a._session.practice),
         checkpoint: !!a._checkpoint,
         beltTest: !!a._beltTest,
         beats: (a.beats || []).length,
