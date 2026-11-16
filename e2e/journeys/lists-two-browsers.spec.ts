@@ -109,3 +109,41 @@ test("a starred position: synced to the same account in another browser, never t
     for (const s of [X, Y, Z]) await s.ctx.close()
   }
 })
+
+// A SHARED COMPUTER (STAR1-R1, the reader's I7): the test above never holds A's data in a browser before another owner looks
+// there. Here one browser, owners in turn: A signs in and stars Mount; A signs out through the account menu; the guest looks;
+// B signs in (the backend holds A's row); then A again, the positive control (the star reads saved: A's lists were kept).
+// Red-proof: `ngProgressLocalKey` returning one slot for every owner (the reader's mf2, `progress-owner.src.js`) is red here.
+test("a shared computer: A's star is not the guest's after A signs out, nor B's when B signs in; A's again when A returns", async ({ browser }) => {
+  test.setTimeout(240_000)
+  const X = await browserAt(browser)
+  try {
+    await signInNeuralAuthSDK(X.page, A)
+    await atMount(X.page, X.j)
+    await saveMount(X.page, X.j, "A practice")
+    await expect.poll(async () => (await fixture(X.page)).writes.filter((r: W) => r.user_id === A && Object.values(r.neural.lists || {}).some((l: W) => l.name === "A practice")).length,
+      { message: "A's row in the backend carries the star" }).toBeGreaterThan(0)
+    // A signs out, as a player does: the account menu's sign-out
+    await X.j.openAccountMenu()
+    await X.j.clickByMouse("[data-menu-logout]", "sign out")
+    await waitNeuralAuthOwner(X.page, null)
+    await atMount(X.page, X.j)
+    await expect(X.page.locator(SEAT), "the guest after A signed out: not saved").toHaveAttribute("data-list-saved", "false")
+    expect(await listNames(X.page), "the guest: none of A's lists").not.toContain("A practice")
+    // B signs in at the same browser; the backend holds A's row
+    expect(await X.page.evaluate((id) => (window as W).__authOwnerFixture.cloudOf(id) != null, A), "the backend holds A's row").toBe(true)
+    await signInNeuralAuthSDK(X.page, B)
+    await atMount(X.page, X.j)
+    await expect(X.page.locator(SEAT), "B at A's browser: not saved").toHaveAttribute("data-list-saved", "false")
+    expect(await listNames(X.page), "B: none of A's lists").not.toContain("A practice")
+    await X.j.advance(2000)
+    for (const r of (await fixture(X.page)).writes) if (r.user_id === B) expect(Object.values(r.neural.lists || {}).map((l: W) => l.name), "no write of B's carries A's list").not.toContain("A practice")
+    // A returns: the positive control
+    await X.page.evaluate(() => (window as W).__authOwnerFixture.emit("SIGNED_OUT", null))
+    await waitNeuralAuthOwner(X.page, null)
+    await signInNeuralAuthSDK(X.page, A)
+    await atMount(X.page, X.j)
+    await expect(X.page.locator(SEAT), "A again: saved").toHaveAttribute("data-list-saved", "true")
+    expect(X.errors, "page errors").toEqual([])
+  } finally { await X.ctx.close() }
+})

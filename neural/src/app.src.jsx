@@ -13915,7 +13915,11 @@ class Component extends DCLogic {
     // the text/sub in with inline opacity, and `_centerHandoff` stretches the box's fade to the
     // hand-off length; if a verdict or capstone writes next while either is mid-flight, it must
     // get the stock instant text and .55s box fade back, not the arrival's leftovers.
-    if (box) { box.style.transitionDuration = ""; box.style.top = "0px"; box.style.bottom = "0px"; box.firstElementChild.style.transform = ""; }
+    // ...and its LAYER (v1.280.3, STAR1-R1): over everything ambient (z 7 in the wrap) only while the round's end is up, whose
+    // notice must never be under anything (the board is away then, or the verdict docked clear of it: `_endBoard`); every other
+    // write (an opening's heading) keeps its old place UNDER the board, as before: at z 7 an ordinary opening's heading crossed
+    // the article's own text at 390 ("Flattened Half Guard" over "Also known as"), where the article used to cover it
+    if (box) { box.style.transitionDuration = ""; box.style.top = "0px"; box.style.bottom = "0px"; box.firstElementChild.style.transform = ""; box.style.zIndex = this.endZoom ? "7" : ""; }
     for (const el of [t, s]) if (el) { el.style.transition = ""; el.style.opacity = ""; }
     if (k) { k.textContent = kicker; k.style.color = col; }
     if (t) { t.textContent = text; t.style.color = tone === "good" ? "#cfe6ff" : tone === "bad" ? "#ffd6d6" : "#eef1f6"; t.style.fontSize = small ? "clamp(26px,3.2vw,38px)" : "clamp(40px,6vw,68px)"; }
@@ -14049,9 +14053,9 @@ class Component extends DCLogic {
     };
     const m = map[kind] || map.reset;
     if (this.evRef.current) this.evRef.current.style.opacity = "0";
+    this.endZoom = true;   // before the verdict is written: `showCenter` lifts the round's end's notice over everything ambient
     this.showCenter(m.k, m.big, name || "", m.tone);
     this.endCenter = { x: this.nodes[this.currentPos].x, y: this.nodes[this.currentPos].y };
-    this.endZoom = true;
     // THE BOARD STEPS ASIDE FOR THE NOTICE (v1.280.3, STAR1). The owner, 15 Nov: "the restarting is often hidden behind the
     // article sections (which should be hidden when restarting happens!)". `clearOptions` above takes the hand, the reader
     // re-lays out with the article jumped up by its height (1440x900: its top 654 -> 432; 390x631: 768 -> 296), and the

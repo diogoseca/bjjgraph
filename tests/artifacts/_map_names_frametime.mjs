@@ -29,6 +29,8 @@
  *
  *   node tests/artifacts/_map_names_frametime.mjs --ab hides --method blocks [--base URL] [--app DIR] [--rate 4]
  *   node tests/artifacts/_map_names_frametime.mjs --ab marks [--method paired] [--base URL] [--app DIR] [--rate 4]
+ * --vps WxH,...  the viewports (default 390x844,1440x900; a width under 700 is a phone at dpr 3). v1.280.3 (STAR1-R1) times the
+ *                star's sync with the drawer open at 1024x768,1280x800,1440x900
  */
 import { chromium } from "playwright"
 import fs from "node:fs"
@@ -37,6 +39,7 @@ import path from "node:path"
 const args = process.argv.slice(2), opt = (k, d) => { const i = args.indexOf("--" + k); return i >= 0 ? args[i + 1] : d }
 const BASE = opt("base", "http://localhost:8196"), APP = opt("app", null), RATE = +opt("rate", 4)
 const AB = opt("ab", null), METHOD = opt("method", "paired")
+const VPS = opt("vps", "390x844,1440x900").split(",").map((v) => { const [w, h] = v.split("x").map(Number); return { w, h } })
 if (AB && !["hides", "marks", "seatstar"].includes(AB)) throw Error("--ab hides|marks|seatstar")
 if (!["paired", "blocks"].includes(METHOD)) throw Error("--method paired|blocks")
 const APP_FILES = APP ? new Set(fs.readdirSync(APP)) : null
@@ -106,7 +109,7 @@ function abFrames({ ab, method }) {
 
 const browser = await chromium.launch()
 const out = {}
-for (const vp of [{ w: 390, h: 844 }, { w: 1440, h: 900 }]) {
+for (const vp of VPS) {
   const mobile = vp.w < 700
   const ctx = await browser.newContext({ viewport: { width: vp.w, height: vp.h }, isMobile: mobile, hasTouch: mobile, deviceScaleFactor: mobile ? 3 : 1 })
   const page = await ctx.newPage()

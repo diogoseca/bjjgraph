@@ -94,8 +94,8 @@
        nothing a player needed. The question clock never pauses (that is the test); restart is
        free roam (background click twice) + click any node. -->
 
-  <!-- event toast (top of play area). z 7 with the round-end verdict below (v1.280.3, STAR1): the notice is never under
-       the reader or a card (5) or the hand (4); the drawer (8) and the logo (9) stay above it -->
+  <!-- event toast (top of play area). z 7 (v1.280.3, STAR1): never under the reader or a card (5) or the hand (4); the drawer
+       (8) and the logo (9) stay above it. The round-end centre below takes z 7 only while the round's end is up (`showCenter`) -->
   <div ref="{{ evRef }}" class="ng-evtoast" style="position:absolute;z-index:7;top:30px;left:50%;transform:translateX(-50%);pointer-events:none;opacity:0;transition:opacity .45s ease;text-align:center;width:min(540px,64vw);">
     <div ref="{{ evKickerRef }}" style="font-size:10.5px;letter-spacing:.34em;text-transform:uppercase;font-weight:700;color:#7b97aa;margin-bottom:7px;">&nbsp;</div>
     <!-- 18px here is a FIRST-FRAME GUESS ONLY: `_applyTypeScale` (app.src.jsx) overwrites it from
@@ -165,7 +165,7 @@
   </div>
 
   <!-- round-end verdict (center) -->
-  <div ref="{{ evCenterRef }}" style="position:absolute;z-index:7;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;pointer-events:none;opacity:0;transition:opacity .55s ease;text-align:center;padding:0 24px;">
+  <div ref="{{ evCenterRef }}" style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;pointer-events:none;opacity:0;transition:opacity .55s ease;text-align:center;padding:0 24px;">
     <div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0;">
     <div ref="{{ evcKickerRef }}" style="font-size:13px;letter-spacing:.42em;text-transform:uppercase;font-weight:700;color:#8ba0c0;margin-bottom:14px;">&nbsp;</div>
     <div ref="{{ evcTextRef }}" style="font-size:clamp(40px,6vw,68px);font-weight:700;color:#eef1f6;letter-spacing:-.02em;line-height:1;text-shadow:0 4px 30px rgba(0,0,0,.6);">&nbsp;</div>

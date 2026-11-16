@@ -88,6 +88,40 @@ const articleOf = (page: Page) => page.evaluate(() => {
   }
   return { vis: getComputedStyle(art).visibility, owned, box: rr > l && b > t ? [l, t, rr, b].map(Math.round) : null, scroll: sec ? Math.round(sec.scrollTop) : null, index }
 })
+/** STAR1-R1 (I5, ruled): an opening's heading is never drawn OVER the article's text. Every intersection of a heading line with
+ *  a line of the article's text is sampled at its centre with the heading's host made hit-testable for the read: the topmost
+ *  element there must be the article's (the heading under the board, as before v1.280.3), never the heading's. */
+const headingOverArticle = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural, box = a.evCenterRef.current as HTMLElement, art = a._reader?.articleEl as HTMLElement | undefined
+  const out = { inter: 0, bad: [] as string[] }
+  if (!art?.isConnected || box.style.opacity === "0" || getComputedStyle(art).visibility !== "visible") return out
+  const heads: DOMRect[] = []
+  for (const el of [a.evcKickerRef.current, a.evcTextRef.current, a.evcSubRef.current] as HTMLElement[]) {
+    if (!(el.textContent || "").trim() || el.style.opacity === "0") continue
+    const rg = document.createRange(); rg.selectNodeContents(el); heads.push(...[...rg.getClientRects()].filter((r) => r.width > 2 && r.height > 2))
+  }
+  if (!heads.length) return out
+  const all = [box, ...box.querySelectorAll<HTMLElement>("*")], was = all.map((e) => e.style.pointerEvents)
+  all.forEach((e) => { e.style.pointerEvents = "auto" })
+  try {
+    const tw = document.createTreeWalker(art, NodeFilter.SHOW_TEXT)
+    for (let n = tw.nextNode(); n; n = tw.nextNode()) {
+      if (!(n.textContent || "").trim()) continue
+      const rg = document.createRange(); rg.selectNodeContents(n)
+      for (const r of rg.getClientRects()) {
+        if (r.width < 2 || r.bottom < 0 || r.top > innerHeight) continue
+        for (const h of heads) {
+          const l = Math.max(r.left, h.left), rr = Math.min(r.right, h.right), t = Math.max(r.top, h.top), b = Math.min(r.bottom, h.bottom)
+          if (rr - l < 1 || b - t < 1) continue
+          out.inter++
+          const top = document.elementFromPoint((l + rr) / 2, (t + b) / 2)
+          if (top && box.contains(top)) out.bad.push(`"${(top.textContent || "").trim().slice(0, 24)}" over "${(n.textContent || "").trim().slice(0, 24)}" at ${Math.round((l + rr) / 2)},${Math.round((t + b) / 2)}`)
+        }
+      }
+    }
+  } finally { all.forEach((e, i) => { e.style.pointerEvents = was[i] }) }
+  return out
+})
 /** How many of the round-end centre's text lines meet the article's on-screen box while the article shows (0: clear of it). */
 const verdictOverArticle = (page: Page) => page.evaluate(() => {
   const a = (window as W).__neural, art = a._reader?.articleEl as HTMLElement | undefined, box = a.evCenterRef.current as HTMLElement
@@ -210,15 +244,23 @@ for (const v of VIEWS) test.describe(v.name, () => {
     }
     expect(reached).toBe(HOLD.length)
     expect((await state(page)).rolls, "the new roll started on time").toBeGreaterThanOrEqual(2)
-    // into the new roll's opening words: the new position's name in the centre, never under the board rising with it
-    let named = 0
-    for (let k = 0; k < 12; k++) {
-      await j.advance(250); await page.evaluate(() => document.body.getBoundingClientRect().top)
-      const n = await noticeOnTop(page)
-      expect(n.under, `the new roll's opening words (+${k * 250} ms after the samples): the notice's own`).toEqual([])
-      if (n.checked) named++
+    // into the new roll's opening (STAR1-R1): its heading keeps its place under the board, so it is never over the article's
+    // text (I5); and the article is fully back, at its scroll position, by the end of the rise and within 3 s of the start (I2)
+    const op = await page.evaluate(() => { const o = (window as W).__neural._camOpen; return o ? { pick: o.pick * 1000, land: o.land * 1000 } : null })
+    expect(op, "the new roll opens on the restart's opening").not.toBeNull()
+    let named = 0, backAt: number | null = null
+    for (let k = 0; k < 40; k++) {
+      await j.advance(100); await page.evaluate(() => document.body.getBoundingClientRect().top)
+      const h = await headingOverArticle(page)
+      expect(h.bad, `the new roll's opening (+${k * 100 + 100} ms after the samples): no heading line over the article's text`).toEqual([])
+      if ((await noticeOnTop(page)).checked) named++
+      if (backAt == null && (await state(page)).board == null && (await articleOf(page)).vis === "visible") backAt = await sim(page)
     }
     expect(named, "the new roll's opening words were on screen at some sample").toBeGreaterThan(0)
+    expect(backAt, "the article was fully back within the samples").not.toBeNull()
+    expect(backAt! - op!.pick, `fully back ${Math.round(backAt! - op!.pick)} ms after the new roll started: within 3 s`).toBeLessThanOrEqual(3000)
+    expect(backAt! - op!.pick, `...and by the end of the rise (${Math.round(op!.land - op!.pick)} ms)`).toBeLessThanOrEqual(op!.land - op!.pick + 100)
+    expect((await articleOf(page)).scroll, "back at the scroll position it had when the round ended").toBe(before.scroll)
     // the new roll lands: the reader is shown again, where it was
     await expect.poll(async () => { await j.advance(500); return (await state(page)).landed }, { timeout: 30000, message: "the new roll lands" }).toBe(true)
     await expect.poll(async () => { await j.advance(200); return (await articleOf(page)).vis }, { timeout: 15000, message: "the article is shown again" }).toBe("visible")
@@ -284,11 +326,15 @@ for (const v of VIEWS) test.describe(v.name, () => {
       expect((await noticeOnTop(page)).under, `${what}: the notice's own`).toEqual([])
       expect((await articleOf(page)).vis, `${what}: the article put away`).toBe("hidden")
     }
-    await at(j, page, t0, 7700)
-    await expect.poll(async () => (await articleOf(page)).vis, { message: "back when the new roll starts" }).toBe("visible")
+    await at(j, page, t0, 7450)   // the new roll starts at 7.4 s (the hold's 6.6 and 0.8)
+    expect((await state(page)).rolls, "the new roll has started").toBeGreaterThanOrEqual(2)
+    expect((await articleOf(page)).vis, "back at the start (I2, reduced motion)").toBe("visible")
     const n = await noticeOnTop(page)
     expect(n.texts.join(" "), "the next roll's heading is up").toMatch(/Restarting the roll/)
-    expect(n.under, "every sampled point of the heading is its own, over the article").toEqual([])
+    for (let k = 0; k < 20; k++) {   // its heading keeps its place under the board: never over the article's text (I5)
+      expect((await headingOverArticle(page)).bad, `+${7450 + k * 100} ms: no heading line over the article's text`).toEqual([])
+      await j.advance(100); await page.evaluate(() => document.body.getBoundingClientRect().top)
+    }
   })
 })
 
@@ -365,6 +411,35 @@ for (const v of VIEWS) test.describe(v.name + ", the clock held during the round
     }
     await expect.poll(async () => { await j.advance(500); const s = await state(page); return s.landed && s.rolls >= 2 }, { timeout: 30000, message: "the new roll lands" }).toBe(true)
     await expect.poll(async () => { await j.advance(200); return (await articleOf(page)).vis }, { message: "the article is back with the new roll" }).toBe("visible")
+  })
+})
+
+// STAR1-R1 (I5, ruled): "is there any frame where the heading's text and readable article text are both visible and
+// intersect? There must be none." An ordinary opening's heading keeps its old place UNDER the board (z 7 is the round's end's
+// alone), so where it crosses the article the article covers it. Stepped frame by frame (the harness clock, 50 ms) through a
+// seated opening (`rigStart` + `startRoll`, as the reader seated it) and through the restart's opening after a round's end.
+for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { width: 1440, height: 900 }]) test.describe(`${vp.width}x${vp.height}, an opening`, () => {
+  test.use({ viewport: vp, hasTouch: vp.width < 600 })
+  test("the heading is never drawn over the article's text, in a seated opening or the restart's", async ({ page }) => {
+    const j = journey(page)
+    await landed(page, j)
+    let inter = 0, frames = 0
+    const sweep = async (what: string, ms: number) => {
+      for (let t = 0; t <= ms; t += 50) {
+        await page.evaluate(() => document.body.getBoundingClientRect().top)
+        const h = await headingOverArticle(page)
+        inter += h.inter; frames++
+        expect(h.bad, `${what} +${t} ms: no heading line over the article's text`).toEqual([])
+        await j.advance(50)
+      }
+    }
+    await page.evaluate(() => { const a = (window as W).__neural; a.rigStart(a.nodes.findIndex((n: W) => n.ty === "positions" && n.t === "Side Control Top")); a.startRoll() })
+    await sweep("a seated opening", 7000)
+    const t0 = await endRound(page)
+    await at(j, page, t0, 7400)
+    await sweep("the restart's opening", 7000)
+    expect(frames, "frames stepped").toBeGreaterThan(250)
+    console.log(`[${vp.width}x${vp.height}] heading-and-article-text intersections over ${frames} frames: ${inter} (each with the article on top)`)
   })
 })
 
