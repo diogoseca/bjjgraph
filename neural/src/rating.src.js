@@ -252,12 +252,13 @@ export function ngRatingRow(worn, reading) {
  *   row   [due, interval, last day, …] as `ngKnowledgeScheduleRow` writes it (a moves row adds the answer at [3])
  *   right whether the last answer stands as right (see the header for the interval-1 reading)
  *   day   today's epoch day
- * null for a malformed row (the caller counts it).
+ *   at    where the row keeps the schedule's pair: 3 on a card row, 4 on a moves row (v1.281.0)
+ * null for a malformed row (the caller counts it). The interval read is the EXACT one (`ngRatingSchedInterval`).
  */
-export function ngRatingRecall(row, right, day) {
+export function ngRatingRecall(row, right, day, at = 3) {
   if (!Array.isArray(row) || row.length < 3 || !ngRatingNum(row[1]) || !ngRatingNum(row[2]) || row[1] <= 0 || !ngRatingNum(day)) return null;
   if (!right) return 0;
-  const t = row[0] - row[2], ivl = ngRatingNum(t) && t > row[1] ? t : row[1], since = Math.max(0, day - row[2]);
+  const ivl = ngRatingSchedInterval(row, at), since = Math.max(0, day - row[2]);
   return Math.pow(NG_RATING_FADE, since / ivl) * (ivl > 1 ? 1 : NG_RATING_UNSURE);
 }
 
@@ -270,7 +271,31 @@ export function ngRatingRecall(row, right, day) {
  * the later one and never asked what the badge counted. Read here by the rating and by the Practice order alike.
  */
 export function ngRatingNewerRow(r, row) {
-  return !row || r[2] > row[2] || (r[2] === row[2] && (r[1] < row[1] || (r[1] === row[1] && r[0] < row[0])));
+  if (!row || r[2] > row[2]) return true;
+  if (r[2] !== row[2] || r[1] !== row[1]) return r[2] === row[2] && r[1] < row[1];
+  const a = ngRatingSchedInterval(r, 3), b = ngRatingSchedInterval(row, 3);   // the earlier EXACT due (v1.281.0)
+  return a !== b ? a < b : r[0] < row[0];
+}
+// THE SCHEDULE'S EXACT INTERVAL (v1.281.0, LIN1), a copy of knowledge-profile's `ngKnowledgeInterval`: this file is shared
+// by the app, the planner and the unit suite and cannot import it. The ladder, one step on along the straight line between
+// rungs, and the pair at `at` read only when it reproduces the row's due day; otherwise max(cell, due − last), as before.
+// tests/schedule_linear.test.mjs pins it equal to the original over every row shape the writer makes.
+const NG_RATING_SCHED_LADDER = (() => { const L = [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922]; while (L.length < 24) L.push(L[L.length - 1] * 2); return L; })();
+function ngRatingSchedStep(ivl) {
+  const L = NG_RATING_SCHED_LADDER, n = L.length - 1, x = Math.max(L[0], ivl);
+  for (let i = 0; i < n; i++) {
+    if (x < L[i + 1]) return i + 1 >= n ? L[n] : x === L[i] ? L[i + 1] : L[i + 1] + ((x - L[i]) * (L[i + 2] - L[i + 1])) / (L[i + 1] - L[i]);
+  }
+  return L[n];
+}
+export function ngRatingSchedInterval(row, at) {
+  const last = row[2], A = row[at], t0 = row[at + 1];
+  if (Number.isFinite(A) && A >= 1 && Number.isFinite(t0) && t0 <= last && last - t0 < A) {
+    const ivl = A + ((last - t0) * (ngRatingSchedStep(A) - A)) / A;
+    if (Math.ceil(last + ivl - 1e-6) === row[0]) return ivl;
+  }
+  const t = row[0] - row[2], c = ngRatingNum(row[1]) && row[1] >= 1 ? row[1] : 1;
+  return ngRatingNum(t) ? Math.max(c, t) : c;
 }
 
 /**
@@ -536,7 +561,7 @@ export function ngRatingShare(universe, record, day, live) {
       const v = hand.get(mv);
       if (v == null) { counts.outside++; continue; }   // not dealt at this seat here, an escape, or a null cell
       counts.weighted++;
-      got += v * ngRatingRecall(r, r[3] === 1, day);
+      got += v * ngRatingRecall(r, r[3] === 1, day, 4);
     }
   }
   // NOT FINAL while any card row is unchecked: no number at all, so nothing can appear and then move by itself

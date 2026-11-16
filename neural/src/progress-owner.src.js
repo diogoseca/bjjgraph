@@ -89,6 +89,33 @@ export function ngProgressValidateBlob(value) {
   return value;
 }
 
+// THE SCHEDULE'S EXACT INTERVAL (v1.281.0, LIN1), a copy of knowledge-profile's `ngKnowledgeInterval` (that file's bytes
+// are pinned by the study engine's law hashes, and a group file cannot import): the ladder, one step on along the straight
+// line between rungs, and the pair at `at` read only when it reproduces the row's due day. tests/schedule_linear.test.mjs
+// pins it equal to the original over every row shape the writer makes.
+const NG_PROGRESS_SCHED_LADDER = (() => { const L = [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922]; while (L.length < 24) L.push(L[L.length - 1] * 2); return L; })();
+function ngProgressSchedStep(ivl) {
+  const L = NG_PROGRESS_SCHED_LADDER, n = L.length - 1, x = Math.max(L[0], ivl);
+  for (let i = 0; i < n; i++) {
+    if (x < L[i + 1]) return i + 1 >= n ? L[n] : x === L[i] ? L[i + 1] : L[i + 1] + ((x - L[i]) * (L[i + 2] - L[i + 1])) / (L[i + 1] - L[i]);
+  }
+  return L[n];
+}
+// the pair's exact interval when it checks itself against the row, else null
+function ngProgressSchedPair(row, at = 4) {
+  const last = row[2], A = row[at], t0 = row[at + 1];
+  if (Number.isFinite(A) && A >= 1 && Number.isFinite(t0) && t0 <= last && last - t0 < A) {
+    const ivl = A + ((last - t0) * (ngProgressSchedStep(A) - A)) / A;
+    if (Math.ceil(last + ivl - 1e-6) === row[0]) return ivl;
+  }
+  return null;
+}
+export function ngProgressSchedInterval(row, at) {
+  const p = ngProgressSchedPair(row, at);
+  if (p !== null) return p;
+  const t = row[0] - row[2], c = Number.isFinite(row[1]) && row[1] >= 1 ? row[1] : 1;
+  return Number.isFinite(t) ? Math.max(c, t) : c;
+}
 // THE `moves` MERGE (v1.255.0): moves[state][move] = [due, ivl, last, ok, ...tail], two devices' copies, cell by cell.
 // A TOTAL ORDER, so merge(a, b) equals merge(b, a) and two devices always converge (review R1: the first draft let a
 // full tie keep whichever copy was LOCAL, so a phone's No and a laptop's first Yes on the same day each kept their own
@@ -102,9 +129,10 @@ export function ngProgressValidateBlob(value) {
 export function ngProgressMergeMoves(local, cloud, today) {
   const valid = r => Array.isArray(r) && r.length >= 4 && r.slice(0, 4).every(x => typeof x === "number" && Number.isFinite(x));
   const norm = r => [r[0] | 0, r[1] | 0, Math.min(today, r[2] | 0), r[3] ? 1 : 0].concat(r.slice(4));
-  const tail = r => JSON.stringify(r.slice(4));
+  const tail = r => JSON.stringify(r.slice(4)), ed = r => r[2] + ngProgressSchedInterval(r, 4);
   const first = (a, b) => a[2] !== b[2] ? (a[2] > b[2] ? a : b) : a[1] !== b[1] ? (a[1] < b[1] ? a : b)
-    : a[3] !== b[3] ? (a[3] < b[3] ? a : b) : a[0] !== b[0] ? (a[0] < b[0] ? a : b) : tail(a) <= tail(b) ? a : b;
+    : a[3] !== b[3] ? (a[3] < b[3] ? a : b) : ed(a) !== ed(b) ? (ed(a) < ed(b) ? a : b)
+    : a[0] !== b[0] ? (a[0] < b[0] ? a : b) : tail(a) <= tail(b) ? a : b;
   const out = {};
   for (const side of [local, cloud]) for (const s in side || {}) {
     const l = (out[s] = out[s] || {});
@@ -114,10 +142,19 @@ export function ngProgressMergeMoves(local, cloud, today) {
       if (!m) { l[mv] = c; continue; }
       let w = first(m, c);
       const o = w === m ? c : m;
-      // the heal by TRUE intervals, `due − last` (v1.279.0: `ngKnowledgeInterval`'s reading, which this group file
-      // cannot import; tests/knowledge_profile.test.mjs pins the two equal), the beaten row's own cell kept
-      const tw = Math.max(w[1] >= 1 ? w[1] : 1, w[0] - w[2]), to = Math.max(o[1] >= 1 ? o[1] : 1, o[0] - o[2]);
-      if (tw > 1 && to > tw) w = [w[2] + to, o[1], w[2], w[3]].concat(w.slice(4));
+      // the heal by EXACT intervals (v1.281.0; `ngKnowledgeInterval`'s reading, which this group file cannot import:
+      // tests/schedule_linear.test.mjs pins the two equal), the beaten row's own cell kept: a beaten row of the winner's own
+      // day as it is, its pair with it (a second pull then writes nothing); one from an earlier day as a fresh anchor at the
+      // winner's last, a pair only when that interval is not whole; the winner's answer and its cells after the pair ride
+      const tw = ngProgressSchedInterval(w, 4), to = ngProgressSchedInterval(o, 4);
+      if (tw > 1 && to > tw) {
+        const rest = w.length > 6 ? w.slice(6) : [], none = rest.length ? [0, 0] : [];
+        if (o[2] === w[2]) w = o.slice(0, 3).concat(w[3], ngProgressSchedPair(o) ? o.slice(4, 6) : none, rest);
+        else {
+          const A = Number.isInteger(to) ? to : Math.round(to * 1e4) / 1e4;
+          w = [Math.ceil(w[2] + A - 1e-6), o[1], w[2], w[3]].concat(Number.isInteger(A) ? none : [A, w[2]], rest);
+        }
+      }
       l[mv] = w;
     }
   }
@@ -211,7 +248,7 @@ function ngProgressJournalRow(blob, field, bucket, item, today) {
   const r = ngProgressObject(b) && Object.prototype.hasOwnProperty.call(b, item) ? b[item] : null;
   if (!Array.isArray(r) || r.length < (field ? 4 : 3) || !r.slice(0, field ? 4 : 3).every(x => typeof x === "number" && Number.isFinite(x))) return null;
   const head = [r[0] | 0, r[1] | 0, Math.min(today, r[2] | 0)];
-  return field ? head.concat(r[3] ? 1 : 0, r.slice(4)) : head;
+  return field ? head.concat(r[3] ? 1 : 0, r.slice(4)) : head.concat(r.slice(3));   // the schedule's pair rides (v1.281.0)
 }
 // a card's row as a blob holds it, untouched (null when it has none)
 function ngProgressJournalRaw(blob, field, bucket, item) {
@@ -252,8 +289,7 @@ export function ngProgressReplay(target, other, entries, write, today) {
     for (let i = at + 1; i < list.length; i++) {
       const e = list[i];
       if (e[5] < base[2]) { older.push(e[0]); setAside = true; continue; }
-      const head = write(row.slice(0, 3), e[4] === 1, e[5]);
-      row = field ? head.concat(e[4], row.length > 4 ? row.slice(4) : []) : head;
+      row = write(row, e[4] === 1, e[5], field ? 4 : 3);   // the whole row, its pair read and written by the writer (v1.281.0)
       rebuilt.set(e[0], row); before.push(e[6]); last = e[0];
       if (e[4] !== 1) allRight = false;
       any = true;
@@ -725,7 +761,7 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
   // the stored copy, written by another tab, may still present); a stored row among them yields to this tab's rebuilt row
   const superseded = new Map();
   const replayer = inst => inst && typeof inst._scheduleWrite === "function" && typeof inst._epochDay === "function"
-    ? { write: (p, ok, d) => inst._scheduleWrite(p, ok, d), today: inst._epochDay() } : null;
+    ? { write: (p, ok, d, at) => inst._scheduleWrite(p, ok, d, at), today: inst._epochDay() } : null;   // `at`: the pair's place (v1.281.0)
   const mergeExternal = (owner, live, saved, commit = false) => {
     const raw = observed.get(ngProgressOwnerId(owner));
     if (!saved.blob || raw === saved.raw) return live;
