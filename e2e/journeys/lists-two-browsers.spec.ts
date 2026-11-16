@@ -113,7 +113,11 @@ test("a starred position: synced to the same account in another browser, never t
 // A SHARED COMPUTER (STAR1-R1, the reader's I7): the test above never holds A's data in a browser before another owner looks
 // there. Here one browser, owners in turn: A signs in and stars Mount; A signs out through the account menu; the guest looks;
 // B signs in (the backend holds A's row); then A again, the positive control (the star reads saved: A's lists were kept).
-// Red-proof: `ngProgressLocalKey` returning one slot for every owner (the reader's mf2, `progress-owner.src.js`) is red here.
+// Red-proof (v1.280.4): MF3, an account's save also writing its lists into the guest's slot through a valid owner record
+// (`progress-owner.src.js`, the store's `write`), keeps every sign-in working and is red AT the first must-not, "the guest
+// after A signed out: not saved". CORRECTED: v1.280.3 named MF2 here (`ngProgressLocalKey` one slot for every owner); MF2
+// is red too, but at the first sign-in (the account never becomes the owner, `waitNeuralAuthOwner`), before any must-not is
+// checked, so it proves the slots are per owner and nothing about the must-nots (the reader of #420, N2).
 test("a shared computer: A's star is not the guest's after A signs out, nor B's when B signs in; A's again when A returns", async ({ browser }) => {
   test.setTimeout(240_000)
   const X = await browserAt(browser)
