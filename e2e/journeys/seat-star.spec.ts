@@ -20,6 +20,10 @@ for (const mobile of [false, true]) {
       // time cannot finish that fetch: wait for the rendered article before pumping.
       await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
       await j.advance(6500)
+      // v1.280.0 (POSNAME): the position's own name, and the star beside its role, are never written under a control. The
+      // reading arrival can mint White Foundations, whose phone card covers the node band (the name used to be drawn under
+      // it, unreadable): dismissed here, as article-sections.spec.ts dismisses it
+      if (await page.locator("[data-reward-close]").isVisible()) await j.clickByMouse("[data-reward-close]")
       const nodes = await page.evaluate(() => {
         const a = (window as any).__neural
         return ["positions", "transitions", "submissions"].flatMap((ty) => {
@@ -67,6 +71,8 @@ for (const mobile of [false, true]) {
       await page.waitForTimeout(350) // the deferred article and card CSS use wall time
       await page.evaluate(() => document.body.getBoundingClientRect().top)
       await j.advance(2500) // finish the camera's continuous approach to the settled band
+      // v1.280.0 (POSNAME): the White Foundations card covers the node band on a phone; dismissed as above
+      if (await page.locator("[data-reward-close]").isVisible()) { await j.clickByMouse("[data-reward-close]"); await j.advance(600) }
       await page.evaluate(() => (window as any).__neural.newList())
       await expect(page.locator("[data-seat-star]")).toHaveCount(1)
       // STALE SPEC (sections-claude, 2026-10-19): after the pane closes, the pointer rests

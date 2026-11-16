@@ -310,6 +310,10 @@ test.describe("Challenges UI", () => {
     const reward = page.locator(".ng-challenge-reward[data-reward='coin']");
     await expect(reward).toContainText("MAT COIN MINTED");
     await expect(reward).toContainText("Houdini");
+    // v1.280.0 (GOLD1-R3): the card's close draws the map AFTER View Collection's own work, and never before the frame clock's
+    // first tick (this journey closes it there: a frame drawn inside `dismiss` threw and stopped the handler, and the Path did
+    // not open). Mutant R3m (that draw back inside `dismiss`) is red here; R3g (the clock precondition removed) is a non-kill:
+    // the frame then throws after the handler's work, and nothing here reads the page error.
     await reward.locator("[data-reward-collection]").click();
     await expect(page.locator(".ng-drawer-brand"), "View Collection opens Path").toHaveText("\u2039 Path");
     await expect(page.locator("[data-rewards-shelf]")).toHaveAttribute("open", "");

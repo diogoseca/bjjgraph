@@ -370,16 +370,22 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
 
 // Measure this frame's published label strings/baselines with their actual font,
 // and both drawn seats through LY. Never use the camera target or stored n.y.
-const tocCanvasGeometry = (page: Page) => page.evaluate(() => {
+// GOLD1-R4 (the map reader's D5), mutants on 605a2d744: P1, the position's name exempt from the rule, red at "1152px: the
+// position's name goes where the rule says" (written on its usual side where the article paints over it); R1a, the box rule
+// again, a NON-KILL here (every reading frame has the article's paint on both sides and every at-rest frame a clear usual
+// side, so the two rules agree in these frames): map-names.spec.ts's see-through fixture and lists-picker.spec.ts hold it.
+// v1.280.0 (POSNAME): the position's own name is never written under a control, so with the article across the node it is
+// not written that frame; `needLabel` false lets the reading frame have none (`labels` empty, `named` false)
+const tocCanvasGeometry = (page: Page, needLabel = true) => page.evaluate((needLabel) => {
   const a = (window as any).__neural, n = a.nodes[a.focusIdx], scale = a.W / a.cam.vw
   const pair = a._lastPairLabel, rich = a._lastRichLabel
   const group = pair && pair.focused && [n.idx, n.pi].includes(pair.idx) ? pair : null
-  const label = group || rich
-  if (!label || !group && (!rich.big || rich.idx !== n.idx)) throw Error('The current node must have a drawn label')
+  const label = group || (rich && rich.big && rich.idx === n.idx ? rich : null)
+  if (!label && needLabel) throw Error('The current node must have a drawn label')
   const ctx = document.createElement('canvas').getContext('2d')!, fam = a._displayFam || "'Space Grotesk'"
-  const rows = group ? [[group.main, group.nameY, group.namePx, 700], [group.qual, group.qualY, 11.5, 600], [group.sub, group.subY, 12, 700]]
+  const rows = !label ? [] : group ? [[group.main, group.nameY, group.namePx, 700], [group.qual, group.qualY, 11.5, 600], [group.sub, group.subY, 12, 700]]
     : [[rich.name, rich.nameY, rich.namePx, 700], [rich.qual, rich.qualY, 11.5, 600], [rich.kicker.toUpperCase(), rich.roleY, 11, 700]]
-  const labels = rows.filter(([text]) => text).map(([text, y, size, weight]) => {
+  const labels = !label ? [] : rows.filter(([text]) => text).map(([text, y, size, weight]) => {
     ctx.font = `${weight} ${size}px ${fam}, sans-serif`
     const m = ctx.measureText(text as string)
     return { left: label.ox - m.actualBoundingBoxLeft, right: label.ox + m.actualBoundingBoxRight,
@@ -396,11 +402,21 @@ const tocCanvasGeometry = (page: Page) => page.evaluate(() => {
   const toc = { left: t.left, right: t.right, top: t.top, bottom: t.bottom }
   const intersections = [...labels, ...orbs].filter(r => r.left < toc.right && r.right > toc.left && r.top < toc.bottom && r.bottom > toc.top)
   const bounds = [...labels, ...orbs], mid = a.pairMid(n)
-  return { toc, labels, orbs, intersections, map: a._graphInputOn(), reading: !!a._reader.interacting,
-    center: (Math.min(...bounds.map(r => r.left)) + Math.max(...bounds.map(r => r.right))) / 2,
+  // THE RULE, as the frame states it (GOLD1-R4, the map reader's D5): the two boxes the position's name tried this frame
+  // (`_lastPosCand`) judged by the narrowed rule: inside the map (4 px in) and under no control that PAINTS over the box padded
+  // 3 px (`_nameBlocks`, `_hides` with `part`); its usual side, else the mirror, else not written. Whether the frame names
+  // the seat is then determinate, not a branch the spec skips
+  const c = a._lastPosCand, NB = a._nameBlocks()
+  const ok = (b: any) => { const o = { l: b.l - c.pad, r: b.r + c.pad, t: b.t - c.pad, b: b.b + c.pad }
+    return b.l >= NB.l + 4 && b.r <= a.W - 4 && b.t >= 4 && b.b <= a.H - 4
+      && !NB.blocks.some((q: any) => o.l < q.r && o.r > q.l && o.t < q.b && o.b > q.t && a._hides(q, o, 'name', true)) }
+  const rule = !c ? null : { at: c.at, claims: c.claims, ruleAt: ok(c.usual) ? 'usual' : ok(c.mirror) ? 'mirror' : null }
+  return { toc, labels, orbs, intersections, map: a._graphInputOn(), reading: !!a._reader.interacting, rule,
+    center: (Math.min(...bounds.map(r => r.left)) + Math.max(...bounds.map(r => r.right))) / 2, named: !!label,
+    orbCenter: (Math.min(...orbs.map(r => r.left)) + Math.max(...orbs.map(r => r.right))) / 2,
     point: { x: a.W / 2 + (mid.x - a.cam.cx) * scale, y: a.H / 2 + (mid.y - a.cam.cy) * scale },
     firstTop: a._reader.head.getBoundingClientRect().top }
-})
+}, needLabel)
 
 // STALE CONTRACT: D-318 U4a replaces the free-gutter correction with centred
 // arrival and native occlusion. Restoring that correction must fail this claim.
@@ -432,9 +448,20 @@ test('current node stays centred while the native article crosses it at every wi
       await page.locator('[data-section-type=overview]').scrollIntoViewIfNeeded()
     }
     await j.advance(3000); await page.evaluate(() => document.body.offsetHeight); await j.advance(3000)
-    const reading = await tocCanvasGeometry(page)
+    const reading = await tocCanvasGeometry(page, false)
     expect(reading).toMatchObject({ map: true, reading: true })
-    expect(Math.abs(reading.center - board.center)).toBeLessThan(1)
+    // v1.280.0 (POSNAME): was "the composition (labels and orbs) keeps its centre"; with the article across the node the
+    // seat's name is not written where paint hides both its sides, so the orbs keep their centre, and a name written keeps it
+    // too. GOLD1-R4 (the map reader's D5): whether it is written is DETERMINATE, the narrowed rule's answer for this frame
+    // (was `if (reading.named)`, which passed a name refused with nothing painting over it: PR 417's shard-3 fault)
+    expect(board.named, width + 'px: at rest above the article the seat is named').toBe(true)
+    expect([board.rule && board.rule.at, board.rule && board.rule.claims], width + 'px: at rest, the position\'s name goes where the rule says (' + JSON.stringify(board.rule) + ')').toEqual([board.rule && board.rule.ruleAt, 0])
+    expect(reading.rule, width + 'px: the reading frame tried to place the position\'s name (its two boxes are published)').not.toBeNull()
+    expect(reading.rule.claims, width + 'px: the position\'s name claims first (nothing claimed before it)').toBe(0)
+    expect([reading.rule.at, reading.named], width + 'px: the position\'s name goes where the rule says (' + JSON.stringify(reading.rule) + ')').toEqual([reading.rule.ruleAt, reading.rule.ruleAt != null])
+    expect(Math.abs(reading.orbCenter - board.orbCenter)).toBeLessThan(1)
+    if (reading.named) expect(Math.abs(reading.center - board.center)).toBeLessThan(1)
+    console.log(`[article-sections] ${width}px reading frame: the position's name ${reading.rule.at || 'not written'} (the rule: ${reading.rule.ruleAt || 'not written'})`)
     expect(Math.abs(reading.point.y - board.point.y)).toBeLessThan(1)
     // NOT CLICKABLE THERE (DASH-R4, review finding 9d): the node seen through a row's gutter is dead to the mouse. The
     // gutter is the reader's grid, so a press there is reading: it pauses the game and, with a mouse, declines an

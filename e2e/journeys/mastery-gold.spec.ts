@@ -25,6 +25,26 @@ import { journey } from "../dsl";
  * historical Off path, including prior-Bottom replay while the live seat is Top.
  * Focus-only and rest-only cache-gate mutants both fail the rendered Off assertion,
  * for default Off and a deferred import completing after Off (2026-10-16).
+ *
+ * THE SWITCH LEFT SETTINGS (v1.280.0, GOLD1; the owner's U183 a: the map's gold became the outlines, NG_MAP_MARKS, so
+ * "Turn what you know gold" went). The key `masteryGold` stays stored, synced and readable (a settings key can never be
+ * deleted, CLAUDE.md 6.6) and nothing reads it for paint; the palette module keeps only the overview's site mix, which
+ * paints exactly as it did with the switch Off. The marks themselves are pinned by map-gold.spec.ts and
+ * known-move-seal.spec.ts. Each test says what it claimed before:
+ *   rendered Off ...               KEPT for the default frame; RESTATED "On then Off by mouse" as "the stored key On (a
+ *                                  player who had the switch On)": the frame is still the historical Off frame, pixel for pixel
+ *   overview mixes both halves ... KEPT as it was
+ *   the switch's row (1440, 390)   RESTATED. Was "mastery gold mouse toggle, own-half paint, Off restoration and reload": On
+ *                                  by mouse turned the seat's learned half gold, Off restored it, a reload kept On. Now: the
+ *                                  row is gone from the tab it lived in (by mouse, against that tab's own recall row); with
+ *                                  the deck learned and the stored key On, the half is the orb's own colour, across a reload;
+ *                                  and a held frame looks up no mastery (was "draw looks up none at all": the map's test
+ *                                  `_answered` now reads it, once per knowledge revision, then from its memo)
+ *   a real landing-card grade      RESTATED. Was "the grade retints the seat's half toward gold". Now: the grade that
+ *                                  completes the deck turns the map's test on without a reload, and the paint stays its own
+ *   a delayed import               RESTATED. Was "On, then Off while the module is held". Now "the stored key On while the
+ *                                  module is held": the late import still paints only the base site mix
+ * The unit file's ten (tests/mastery_gold.test.mjs) carry their own notes.
  */
 const moduleURL = /\/static\/neural\/app\/mastery-gold\.js(?:\?|$)/;
 test.beforeAll(async ({ request }) => {
@@ -35,27 +55,24 @@ test.beforeAll(async ({ request }) => {
     expect(hash(await r.body()), "served own fresh " + name).toBe(hash(readFileSync("neural/dist/" + name)));
   }
 });
+// v1.280.0: was "open Settings and scroll to the switch's row" (the row, its text, a settled scroll); the row is gone. The
+// tab it lived in is asserted RENDERED first (its own recall row, `data-recall-mode`), so the absence is a claim about the
+// tab, not about a panel that never drew (CLAUDE.md 6.4)
 async function openSettings(page: Page, j: ReturnType<typeof journey>) {
   await j.openAccountMenu();
   await j.clickByMouse("[data-menu-settings]", "Settings");
-  await expect(page.locator("[data-mastery-gold]")).toHaveCount(1);
-  await expect(page.locator("[data-mastery-gold]")).toContainText("Turn what you know gold");
-  const panel = await page.locator("#ng-stab-panel").boundingBox();
-  expect(panel).not.toBeNull();
-  await page.mouse.move(panel!.x + panel!.width / 2, panel!.y + panel!.height / 2);
-  await page.mouse.wheel(0, 800);
-  await page.waitForTimeout(150);
-  // FLAKE1 (v1.270.1): the fixed wait alone let a press measure the row before the scroll had moved it (1 in 247; 10 of 10
-  // with the wait at 0). Every press below waits for the row to hold still.
-  await j.scrollSettled("[data-mastery-gold]");
+  await expect(page.locator(".ng-modal [data-recall-mode]")).toHaveCount(1);
+  await expect(page.locator(".ng-modal")).toContainText("Show flashcards on pages");
+  await expect(page.locator("[data-mastery-gold]"), "the switch's row is gone").toHaveCount(0);
+  await expect(page.locator(".ng-modal"), "...and its words with it").not.toContainText("Turn what you know gold");
 }
-const choose = (j: ReturnType<typeof journey>, on: boolean) =>
-  j.clickByMouse(`[data-mastery-gold] button:nth-child(${on ? 1 : 2})`, on ? "mastery gold On" : "mastery gold Off");
+// a player who had the switch On: the key as the row used to write it
+const storeOn = (page: Page) => page.evaluate(() => { const a = (window as any).__neural; a.set("masteryGold", true); return a.get("masteryGold", false); });
 async function ready(page: Page) {
   await expect.poll(() => page.evaluate(() => !!(window as any).__neural._mapPaint)).toBe(true);
 }
 
-async function renderedOff(page: Page, info: TestInfo, phase: string) {
+async function renderedOff(page: Page, info: TestInfo, phase: string, stored = false) {
   const rows = await page.evaluate(phase => {
     const a=(window as any).__neural, liveCtx=a.ctx, cache=a._mapPaint;
     a.setPaused(true);
@@ -109,7 +126,8 @@ async function renderedOff(page: Page, info: TestInfo, phase: string) {
   await info.attach(`rendered-${phase}.json`,{body:JSON.stringify(rows,null,2),contentType:"application/json"});
   expect(rows).toHaveLength(4);
   expect(rows.every(r=>r.repeatDifferent===0&&r.referencePerspectiveFill&&r.pixelBytes>0),"uncached Off repeat control").toBe(true);
-  expect(rows.every(r=>r.lod===1&&r.halfIdentity&&!r.on&&r.cache),"split Off preconditions").toBe(true);
+  // v1.280.0: `on` is the stored key, never read for paint (was "!r.on": Off was the only state this frame could be in)
+  expect(rows.every(r=>r.lod===1&&r.halfIdentity&&r.on===stored&&r.cache),"split Off preconditions").toBe(true);
   expect(rows.filter(r=>r.fixture==="replay-previous-bottom").every(r=>r.perspectiveDiffers&&r.playerRole==="top"),"replay differs from the live player perspective").toBe(true);
   expect(rows.filter(r=>r.different>0||!r.perspectiveFill),"rendered Off focus and resting glow preserve historical pixels").toEqual([]);
 }
@@ -117,9 +135,9 @@ async function renderedOff(page: Page, info: TestInfo, phase: string) {
 test("rendered Off focus and resting glow preserve the player perspective", async ({page},info) => {
   const j=journey(page); await j.boot("/"); await j.land("Mount Top"); await ready(page);
   await renderedOff(page,info,"default-off");
-  await openSettings(page,j); await choose(j,true); await choose(j,false);
-  await j.clickByMouse(".ng-modal .x","close Settings"); await j.clickByMouse(".ng-explorer-close","close the drawer"); // v1.242.0: Settings opens from the drawer's badge
-  await renderedOff(page,info,"on-then-off");
+  // v1.280.0: was "On then Off by mouse" (the row is gone); now the stored key On, as the row left it for a player
+  expect(await storeOn(page)).toBe(true);
+  await renderedOff(page,info,"stored-on",true);
 });
 
 test("overview mixes both halves without ever opening Settings", async ({ page }) => {
@@ -192,7 +210,8 @@ test("overview mixes both halves without ever opening Settings", async ({ page }
 });
 
 for (const width of [1440, 390]) {
-  test(`mastery gold mouse toggle, own-half paint, Off restoration and reload at ${width}px`, async ({ page }) => {
+  // v1.280.0: was "mastery gold mouse toggle, own-half paint, Off restoration and reload at ${width}px" (see the header)
+  test(`the switch is gone from Settings; a learned deck keeps its own colour with the stored key On, across a reload, at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 });
     const j = journey(page), requests: string[] = [];
     page.on("request", r => { if (moduleURL.test(r.url())) requests.push(r.url()); });
@@ -200,8 +219,9 @@ for (const width of [1440, 390]) {
     await ready(page);
     expect(requests).toHaveLength(1);
     expect(await page.evaluate(() => (window as any).__neural.get("masteryGold",false))).toBe(false);
-    await openSettings(page,j); await choose(j,true); await ready(page);
-    expect(requests.length).toBe(1);
+    await openSettings(page,j);
+    expect(await storeOn(page)).toBe(true);
+    expect(requests.length, "the stored key imports nothing more").toBe(1);
     await j.clickByMouse(".ng-modal .x", "close Settings"); await j.clickByMouse(".ng-explorer-close","close the drawer"); // v1.242.0: Settings opens from the drawer's badge
     const result = await page.evaluate(async () => {
       const a=(window as any).__neural, n=a.nodes[a.currentPos], p=a.nodes[n.pi];
@@ -213,32 +233,37 @@ for (const width of [1440, 390]) {
       // their original sources. No colour-space or position math is copied here.
       const calls: any[] = [], paint=a._mapColor;
       a._mapColor=function(node: any,lower: boolean) { const c=paint.call(this,node,lower); calls.push({idx:node.idx,lower:!!lower,col:c}); return c; };
-      const mastery=a.deckMastery; a.deckMastery=()=>{throw Error("mastery lookup in draw");};
-      try { a.draw(); } finally { a._mapColor=paint; a.deckMastery=mastery; }
-      return {idx:n.idx,partner:p.idx,key,other:a._mapPaint[p.idx].key,m:a._mapPaint[n.idx].mastery,
-        otherM:a._mapPaint[p.idx].mastery,half:a._mapColor(n),base:n.col,baseU:p.colU,
-        otherHalf:a._mapColor(p,true),lod:a._lodK,calls};
+      try { a.draw(); } finally { a._mapColor=paint; }
+      // v1.280.0: the map's test (`_answered`) read the new knowledge in that frame; a HELD frame reads it from the memo
+      const mastery=a.deckMastery; let lookups=0; a.deckMastery=function(this: any, ...args: any[]){lookups++;return mastery.apply(this,args);};
+      try { a.draw(); } finally { a.deckMastery=mastery; }
+      return {idx:n.idx,partner:p.idx,key,other:a._mapPaint[p.idx].key,m:a.deckMastery(key),answered:a._answered(n),
+        half:a._mapColor(n),base:n.col,baseU:p.colU,otherHalf:a._mapColor(p,true),lod:a._lodK,calls,lookups};
     });
     expect(result.key).toBe("Mount|Top"); expect(result.other).toBe("Mount|Bottom");
-    expect(result.m).toBe(1); expect(result.otherM).toBe(0);
-    expect(result.half).toEqual({r:240,g:192,b:90}); expect(result.otherHalf).toEqual(result.baseU);
+    expect([result.m, result.answered], "the seat's deck is learned and the map's test reads it").toEqual([1, true]);
+    // v1.280.0: was { r: 240, g: 192, b: 90 } (the gold palette, with the switch On); now the orb's own colour
+    expect(result.half, "the learned half keeps its own colour, the stored key On").toEqual(result.base);
+    expect(result.otherHalf).toEqual(result.baseU);
     expect(result.lod).toBe(1);
     expect(result.calls.filter(c=>c.idx===result.idx&&c.lower).map(c=>c.col)).toContainEqual(result.half);
-    expect(result.calls.filter(c=>c.idx===result.idx&&!c.lower).map(c=>c.col)).toContainEqual(result.half);
-    await openSettings(page,j); await choose(j,false);
-    expect(await page.evaluate(() => {
-      const a=(window as any).__neural; return a.nodes.every((n: any)=>a._mapColor(n)===n.col&&a._mapColor(n,true)===(n.colU||n.col));
-    })).toBe(true);
-    await choose(j,true); await ready(page);
+    // v1.280.0: RETIRED "the seat's half paint is read for the focus too" (the non-lower call): that was the gold-On focus
+    // branch; the focus paints the player's perspective colour (`myColor`) whatever the stored key, pinned pixel for pixel by
+    // "rendered Off focus ..." above with the key On
+    // v1.280.0: was "draw looks up no mastery" (a throwing stub); now a HELD frame looks up none (the memo's claim)
+    expect(result.lookups, "a held frame looks up no mastery").toBe(0);
     await j.boot("/",{preserveStorage:true}); await j.land("Mount Top"); await ready(page);
     expect(await page.evaluate(() => {
-      const a=(window as any).__neural, e=a._mapPaint.find((e: any)=>e.key==="Mount|Top");
-      return {on:a.get("masteryGold",false),m:e.mastery,half:e.halfPaint};
-    })).toEqual({on:true,m:1,half:{r:240,g:192,b:90}});
+      const a=(window as any).__neural, n=a.nodes[a.currentPos];
+      return {on:a.get("masteryGold",false),m:a.deckMastery("Mount|Top"),own:a.nodes.every((n: any)=>a._mapColor(n)===n.col&&a._mapColor(n,true)===(n.colU||n.col)),half:a._mapPaint[n.idx].halfPaint===n.col};
+    }), "after a reload: the key still stored and readable, the deck still learned, every half its own colour")
+      // v1.280.0: was { on: true, m: 1, half: { r: 240, g: 192, b: 90 } }
+      .toEqual({on:true,m:1,own:true,half:true});
   });
 }
 
-test("a real landing-card grade updates map paint without reload", async ({ page }) => {
+// v1.280.0: was "a real landing-card grade updates map paint without reload" (the half retinted toward gold)
+test("a real landing-card grade that completes the deck turns the map's test on without reload; the paint stays its own", async ({ page }) => {
   const j=journey(page);
   await j.boot("/",{beforeNavigate:async()=>{
     await page.addInitScript(()=>{
@@ -254,7 +279,7 @@ test("a real landing-card grade updates map paint without reload", async ({ page
     });
   }});
   await j.land("Mount Top");
-  await openSettings(page,j); await choose(j,true);
+  await openSettings(page,j); // v1.280.0: was "and choose On"; the warm never needed the switch
   expect(await page.evaluate(()=>(window as any).__neural._mapPaint)).toBeNull();
   await page.evaluate(()=>(window as any).__releaseGoldIdle());
   await ready(page); // Must converge while Settings stays open, before closing it.
@@ -265,32 +290,38 @@ test("a real landing-card grade updates map paint without reload", async ({ page
     const cards=a._cardsOf(a.flashcards.decks[key]), q=cards[0].q;
     // A due stage-2 card is eligible for the real recall landing surface. Its
     // successful grade can still increase deckMastery, unlike a stage-3 fixture.
-    a.stage[key]={[a.qhash(q)]:2};
+    // v1.280.0: every OTHER card at stage 3 (was: none), so this one grade completes the deck: the map's test is all or nothing
+    a.stage[key]={...Object.fromEntries(cards.slice(1).map((c:any)=>[a.qhash(c.q),3])),[a.qhash(q)]:2};
     const today=a._epochDay(); a.srs[key]={[a.qhash(q)]:[today-1,3,today-4]};
     a._publishKnowledge("grade-fixture"); a._landQ=null; a.renderLandCard(n,"land",null);
-    return {idx:n.idx,key,m:a.deckMastery(key),paint:a._mapPaint[n.idx].halfPaint};
+    a.draw();
+    return {idx:n.idx,key,m:a.deckMastery(key),answered:a._answered(n),paint:a._mapPaint[n.idx].halfPaint,col:n.col};
   });
+  expect([before.m < 1, before.answered], "one card short: the deck is not learned, the map's test is off").toEqual([true, false]);
   await j.openQuestion(); // U47 d: the remounted card asks again; Answer for Points precedes recall's Show answer.
   await expect(page.locator("[data-land-reveal]")).toBeVisible();
   await j.clickByMouse("[data-land-reveal]","Show answer");
   await j.clickByMouse("[data-land-got]","Got it");
   const after=await page.evaluate(({idx,key}) => {
     const a=(window as any).__neural; a.draw();
-    return {answered:a._landQ?.answered,m:a.deckMastery(key),cached:a._mapPaint[idx].mastery,paint:a._mapPaint[idx].halfPaint};
+    return {answered:a._landQ?.answered,m:a.deckMastery(key),test:a._answered(a.nodes[idx]),paint:a._mapPaint[idx].halfPaint,col:a.nodes[idx].col};
   },before);
-  expect(after.answered).toBe(true); expect(after.m).toBeGreaterThan(before.m);
-  expect(after.cached).toBe(after.m); expect(after.paint).not.toEqual(before.paint);
+  expect(after.answered).toBe(true); expect(after.m).toBe(1);
+  // v1.280.0: was "the cached mastery follows and the paint changes" (cached === m, paint !== before)
+  expect(after.test, "the map's test turns on without a reload").toBe(true);
+  expect([before.paint, after.paint], "the paint is the orb's own colour before and after").toEqual([before.col, after.col]);
 });
 
-test("a delayed gold import after Off paints only the base site mix", async ({ page },info) => {
+// v1.280.0: was "a delayed gold import after Off paints only the base site mix" (On, then Off, while the module was held)
+test("a delayed palette import with the stored key On paints only the base site mix", async ({ page },info) => {
   const j=journey(page); let release!:()=>void;
   const gate=new Promise<void>(r=>{release=r;});
   await j.boot("/",{beforeNavigate:async()=>{await page.route(moduleURL,async r=>{await gate;await r.continue();});}});
   await j.land("Mount Top");
   try {
-    await openSettings(page,j); await choose(j,true);
+    await openSettings(page,j);
     await expect.poll(()=>page.evaluate(()=>!!(window as any).__neural._goldLoading)).toBe(true);
-    await choose(j,false); release();
+    expect(await storeOn(page)).toBe(true); release();
     await page.evaluate(()=>(window as any).__neural._goldLoading);
     await ready(page);
     expect(await page.evaluate(()=>{
@@ -298,6 +329,6 @@ test("a delayed gold import after Off paints only the base site mix", async ({ p
       return a.nodes.every((n:any)=>a._mapPaint[n.idx].halfPaint===n.col&&a._mapPaint[n.idx].lowerPaint===(n.colU||n.col));
     })).toBe(true);
     await j.clickByMouse(".ng-modal .x","close Settings"); await j.clickByMouse(".ng-explorer-close","close the drawer"); // v1.242.0: Settings opens from the drawer's badge
-    await renderedOff(page,info,"late-import-off");
+    await renderedOff(page,info,"late-import-stored-on",true);
   } finally {release();}
 });
