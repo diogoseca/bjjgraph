@@ -111,8 +111,8 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
       .locator(`.ng-challenge-group:has([data-checkpoint="${uk}"])`)
       .first()
       .evaluate((el) => ((el as HTMLDetailsElement).open = true))
-  // Drawer (U51 e / U56 e): select Path explicitly; opening alone shows the home list.
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
+  // Drawer (U51 e / U56 e): open the corridor explicitly; opening the drawer alone shows the home list.
+  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK1}"]`).first().textContent(),
@@ -228,7 +228,7 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
       .locator(`.ng-challenge-group:has([data-checkpoint="${uk}"])`)
       .first()
       .evaluate((el) => ((el as HTMLDetailsElement).open = true))
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
+  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK2}"]`).first().textContent(),

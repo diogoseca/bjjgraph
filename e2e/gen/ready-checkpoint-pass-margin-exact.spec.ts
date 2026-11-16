@@ -106,8 +106,8 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
       .evaluate((el) => ((el as HTMLDetailsElement).open = true))
   }
   await rigSitting(j, 100)
-  // Drawer (U51 e / U56 e): select Path explicitly; opening alone shows the home list.
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
+  // Drawer (U51 e / U56 e): open the corridor explicitly; opening the drawer alone shows the home list.
+  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK}"]`).first().textContent(),
@@ -169,7 +169,7 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
 
   // ── SITTING 2: retake at EXACTLY the pass line — wrong answer present, still passes ──
   await rigSitting(j, 200) // rig APPENDS — fresh depth so the retake never drains to Math.random
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
+  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK}"]`).first().textContent(),
@@ -221,7 +221,7 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   expect(afterPass.ckptOpen, "quiz resolved and cleared — no dangling state").toBe(false)
 
   // ── the challenges view shows it: the button flips to cleared at exactly the pass line ──
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
+  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK}"]`).first().textContent(),

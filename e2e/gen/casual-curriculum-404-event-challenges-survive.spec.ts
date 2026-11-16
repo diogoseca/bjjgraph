@@ -163,12 +163,7 @@ test("curriculum 404: white.commit counts a live commit and survives reload whil
   expect(after.lessonIndexKeys, "lesson index still empty on the reload boot").toBe(0)
 
   // ── the Challenges browse surface stays usable and names the outage ──
-  await page.evaluate(() => {
-    const a = (window as any).__neural
-    a.setViewMode("challenges")
-    a.openExplorer()
-    a.showExplorerList()
-  })
+  await j.openCorridor({ curriculum: false }) // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator(".ng-belt-section")).toHaveCount(5)
   await expect(page.locator(".ng-challenge-curriculum").first()).toContainText(
     "Curriculum is unavailable right now",

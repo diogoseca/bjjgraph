@@ -12,8 +12,7 @@ test("cleared capstones are inert while all content tracks remain browseable", a
   const before = await page.evaluate(() => JSON.parse(JSON.stringify((window as any).__neural.belts.won)))
 
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await expect(page.locator('[data-view="challenges"]')).toBeVisible()
-  await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
+  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   for (const track of TRACKS) {
     await page.locator(`.ng-track-card[data-track="${track.id}"]`).click()
     const button = page.locator(`[data-capstone="${track.id}"] button`)

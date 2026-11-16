@@ -713,7 +713,7 @@ Master the game's corridor emits `challenges_opened` once per open drawer, on it
 objective "Open Challenges" completes on it (until v1.284.0 only the Path's visit fired it, and the White Foundations
 patch needs all 20 White objectives). A render behind a closed drawer or under a deck neither emits nor consumes that
 visit; closing permits the next one. `neural_challenges_viewed` ended with the Path (v1.284.0);
-`neural_practice_opened` carries on (`path-retired.spec.ts`).
+`neural_practice_opened` carries on (`path-visit-telemetry.spec.ts`).
 
 U61 c leaves About out. U67 a provides one **Feedback** form: one text box, optional
 **Technique request**, and checked **about: <current page>** context. General feedback emits

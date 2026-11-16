@@ -270,16 +270,16 @@
     },
     {
       "file": "path-visit-telemetry.spec.ts",
-      "title": "Path telemetry: fresh preference counts only visible visits @curated",
+      "title": "Master the game's corridor telemetry: fresh Path preference counts only visible visits @curated",
       "tier": "D",
-      "reason": "the real PostHog queue on a keyed build: the keyed-only red of 4 Nov",
+      "reason": "the real PostHog queue on a keyed build: the keyed-only red of 4 Nov (the corridor's beat since v1.284.0)",
       "ci_s": 1.5
     },
     {
       "file": "path-visit-telemetry.spec.ts",
-      "title": "Path telemetry: saved preference counts only visible visits @curated",
+      "title": "Master the game's corridor telemetry: saved Path preference counts only visible visits @curated",
       "tier": "D",
-      "reason": "the real PostHog queue on a keyed build: the keyed-only red of 4 Nov",
+      "reason": "the real PostHog queue on a keyed build: the keyed-only red of 4 Nov (the corridor's beat since v1.284.0)",
       "ci_s": 1.4
     },
     {
@@ -368,7 +368,7 @@
     },
     {
       "file": "sidebar.spec.ts",
-      "title": "the drawer lists Search, Explore, Practice, Path, your lists and Last rolls, in that order @curated",
+      "title": "the drawer lists Search, Explore, Practice, your lists and Last rolls, in that order, and no Path row @curated",
       "tier": "S",
       "reason": "smoke, the drawer lists its views in order",
       "ci_s": 0.893
@@ -417,9 +417,9 @@
     },
     {
       "file": "sidebar.spec.ts",
-      "title": "@curated Practice, Path and Last rolls open their views, and the brand leads back",
+      "title": "@curated Practice and Last rolls open their views, and the brand leads back",
       "tier": "S",
-      "reason": "smoke, Practice, Path and Last rolls open their views from the drawer, and the brand leads back",
+      "reason": "smoke, Practice and Last rolls open their views from the drawer, and the brand leads back (the Path row left in v1.284.0)",
       "ci_s": null
     },
     {

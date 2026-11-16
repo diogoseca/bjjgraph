@@ -108,7 +108,7 @@ test("blue u1 checkpoint pool is pure: every pick from u1's own decks, zero whit
   //    curriculum, v1.74), and start the quiz from the REAL checkpoint button ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
-  await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
+  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await page.locator(`.ng-track-card[data-track="${BLUE.id}"]`).click()
   expect(
     await page.locator(`[data-checkpoint="${U1_KEY}"]`).first().isDisabled(),

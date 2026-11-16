@@ -71,21 +71,21 @@ test("curriculum-mid: unselected blue lesson's node sits INSIDE the fog set; mem
   await j.boot("/", { initialState: curriculumMid() })
   await j.land("Mount Top") // built-in rigs (ai-skill/role/max-moves) cover every draw; path render draws none
 
-  // open the explorer — curriculum loaded → CHALLENGES is the default face;
   // challenges_opened fires synchronously inside renderChallenges
-  // v1.242.0: the drawer opens on its list; its Path row is the Challenges corridor
+  // v1.242.0: the drawer opens on its list. v1.284.0: the Path row left it; the corridor is Master the game's, opened by
+  // its row (the DSL's one door), and its draw arms the fog as the Path's did (P19)
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
-  await page.locator('[data-view="challenges"]').click()
+  await j.openCorridor({ allBelts: false })
   await j.expectBeat("challenges_opened")
 
   // ── preconditions: fog is ARMED (this is the state in which membership decides dimming) ──
   const pre = await page.evaluate(() => {
     const a = (window as any).__neural
-    return { viewMode: a._viewMode, pathDim: !!a._pathDim, setSize: a._curriculumIdxSet ? a._curriculumIdxSet.size : 0 }
+    return { practice: !!a._practiceInDrawer(), pathDim: !!a._pathDim, setSize: a._curriculumIdxSet ? a._curriculumIdxSet.size : 0 }
   })
-  expect(pre.viewMode, "explorer opens on the challenges view").toBe("challenges")
-  expect(pre.pathDim, "the challenges view arms the canvas fog gate").toBe(true)
+  expect(pre.practice, "the drawer is on Master the game, with its corridor").toBe(true)
+  expect(pre.pathDim, "the corridor's draw arms the canvas fog gate").toBe(true)
   expect(pre.setSize, "fog set is substantial").toBeGreaterThan(50)
 
   // ── selection evidence: blue is genuinely UNSELECTED (and thus unrendered) for this persona ──

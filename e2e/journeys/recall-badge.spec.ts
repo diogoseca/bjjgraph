@@ -196,7 +196,7 @@ test("with the badge on, a proven card lands as pure recall — and stays MC bel
 test("U163 c: the Black section shows the patch, unearned and earned, and points at no Settings switch", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"));
+  await j.openCorridor({ allBelts: false }); // v1.284.0: the Path left the drawer; its corridor is Master the game's
   await page.waitForTimeout(500);
 
   await page.locator('[data-belt-toggle="black"]').scrollIntoViewIfNeeded();
@@ -213,7 +213,7 @@ test("U163 c: the Black section shows the patch, unearned and earned, and points
     const a = (window as any).__neural;
     a.badges = a.badges || {};
     a.badges["recall-in-play"] = { t: Date.now() };
-    a.openPane("challenges");
+    a._practiceCorridor(); // Master the game's corridor repaints in place (the Path re-opened here until v1.284.0)
   });
   await page.waitForTimeout(400);
   await expect(page.locator('[data-recall-reward="earned"]')).toHaveCount(1);

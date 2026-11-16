@@ -988,6 +988,40 @@ export class Journey {
     await this.clickByMouse(".ngAcctChip", what);
   }
 
+  /**
+   * THE CORRIDOR'S ONE DOOR (v1.284.0, SET1 slice B). The Path row left the drawer (owner, 15 Nov), and its corridor (belts,
+   * units, lessons, checkpoints, capstones, objectives, the rewards shelf) is reached through Master the game, by its row,
+   * the way a player opens it: the drawer icon if the drawer is shut, then the row. Returns once the corridor is drawn and
+   * the curriculum is in (a corridor drawn before it carries no belts). Already on Master the game: nothing is pressed.
+   * Journeys that opened the Path by `openPane("challenges")` / `setViewMode("challenges")` / its row come through here.
+   * `allBelts` (the default): Master the game's corridor starts at the belt you wear, with the earlier ones one press away
+   * ("Show earlier belts", pressed here by mouse), where the Path drew all five; the earlier belts then sit BELOW the worn
+   * one's. A journey about Master the game's own first screen passes `{ allBelts: false }`; one whose curriculum never
+   * arrives (a 404) passes `{ curriculum: false }` (the corridor still draws, and names the outage).
+   */
+  async openCorridor(opts: { allBelts?: boolean; curriculum?: boolean; what?: string } = {}) {
+    const what = opts.what || "Master the game"
+    if (opts.curriculum !== false) await this.page.waitForFunction(() => !!(window as W).__neural?.curriculum, null, { timeout: 30_000 })
+    const onIt = await this.page.evaluate(() => { const a = (window as W).__neural; return !!(a.deckShown && a._practiceInDrawer()) })
+    if (!onIt) {
+      if (!(await this.page.locator('[data-explore-stats] [data-b="due"]').isVisible())) {
+        // shut: the drawer icon; shown on something else (Last rolls, a deck, a checkpoint): the brand, the way back to the list
+        if (await this.page.evaluate(() => !!(window as W).__neural.deckShown)) await this.clickByMouse(".ng-drawer-brand", "back to the drawer's list")
+        else await this.clickByMouse(".ng-logo", "the drawer icon")
+      }
+      await this.page.locator('[data-explore-stats] [data-b="due"]').scrollIntoViewIfNeeded()
+      await this.clickByMouse('[data-explore-stats] [data-b="due"]', what)
+    }
+    await expect(this.page.locator("[data-practice-page] .ng-corridor"), "the corridor is drawn in Master the game").toHaveCount(1, { timeout: 30_000 })
+    const earlier = this.page.locator('[data-earlier-belts][aria-expanded="false"]')
+    if (opts.allBelts !== false && await earlier.count()) {
+      await earlier.scrollIntoViewIfNeeded()
+      await this.clickByMouse('[data-earlier-belts][aria-expanded="false"]', "Show earlier belts")
+      await expect(this.page.locator('[data-earlier-belts][aria-expanded="true"]')).toHaveCount(1)
+    }
+    return this
+  }
+
   /** U104 (v1.252.0): at 1440x900 an opened question can end below the reader's scrollport, so its last answer needs a scroll
    *  (U90's ruling: "half of all cards need a scroll for their last answer"). A journey that presses a drawn answer brings it up
    *  the way a player does, a wheel over the question, which is game input and never reading intent, then presses it by mouse. */

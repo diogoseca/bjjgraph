@@ -2,12 +2,7 @@ import { expect, test } from "@playwright/test";
 import { journey } from "../dsl";
 
 async function openChallenges(page: any) {
-  await page.evaluate(() => {
-    const app = (window as any).__neural;
-    app.setViewMode("challenges");
-    app.openExplorer();
-    app.showExplorerList();
-  });
+  await journey(page).openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator(".ng-drawer-head")).toBeVisible();
 }
 

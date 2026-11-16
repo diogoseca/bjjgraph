@@ -88,24 +88,20 @@ async function openPractice(page: Page, j: any) {
 }
 
 for (const vp of [{ width: 390, height: 844 }, { width: 768, height: 1024 }, { width: 1440, height: 900 }]) {
-  test(`PD1: ${vp.width}×${vp.height} Practice opens inside the drawer, at the width Path and the list have`, async ({ page }) => {
+  // v1.284.0 (SET1 slice B): the Path view, which this compared too, left the drawer; Practice is held to the list's width
+  test(`PD1: ${vp.width}×${vp.height} Practice opens inside the drawer, at the width the list has`, async ({ page }) => {
     await page.setViewportSize(vp);
     const j = journey(page, CLASSIC); await j.boot("/");
     await page.waitForFunction(() => !!(window as any).__neural.curriculum);
     await seed(page, 2);
     await j.clickByMouse(".ng-logo", "open the drawer");
     const home = await drawer(page);
-    await j.clickByMouse('[data-explore-stats] [data-view="challenges"]', "Path");
-    await expect(page.locator(".ng-drawer-brand")).toHaveText("‹ Path");
-    const path = await drawer(page);
-    await j.clickByMouse(".ng-drawer-brand", "‹ Path, home");
     await openPractice(page, j);
-    await expect(page.locator(".ng-drawer-brand"), "the brand names the view, as it names Path").toHaveText("‹ Master the game");   // before: "‹ Practice" (v1.276.0, owner U169 c)
+    await expect(page.locator(".ng-drawer-brand"), "the brand names the view, as it names Last rolls").toHaveText("‹ Master the game");   // before: "‹ Practice" (v1.276.0, owner U169 c)
     const practice = await drawer(page);
     await page.keyboard.press("ArrowDown"); // the next technique: the drawer does not move as the session pages
     await expect.poll(() => page.evaluate(() => (window as any).__neural._session.idx)).toBe(1);
     const paged = await drawer(page);
-    expect(path, "Path is a view in the drawer at its width").toEqual(home);
     expect(practice, "PD1: Practice opens in the drawer at its width").toEqual(home);
     expect(paged, "PD1: and keeps it as the session pages").toEqual(home);
     expect(practice.left, "docked at the left edge").toBe(0);

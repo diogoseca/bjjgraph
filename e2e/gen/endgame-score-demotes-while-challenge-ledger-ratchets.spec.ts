@@ -181,13 +181,8 @@ test("demoting recalled decks drops score and crowns while master-three, its rat
   for (let i = 0; i < DECKS.length; i++)
     expect(pre.mastery[i], `${DECKS[i]} reads exact deckMastery 1`).toBe(1)
 
-  // real UI into the crown surface: challenges view → explorer list → white track
-  await page.evaluate(() => {
-    const a = (window as any).__neural
-    a.setViewMode("challenges")
-    a.openExplorer()
-    a.showExplorerList()
-  })
+  // real UI into the crown surface: Master the game's corridor → white track
+  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   const whiteTrack = page.locator("[data-track='white']")
   await expect(whiteTrack, "the white track card renders in the challenges list").toBeVisible()
   await whiteTrack.click()

@@ -116,7 +116,9 @@ function gradeHost(Class = Component) {
     _epochDay: () => 100, _dayKey: () => "day", get: (_k, d) => d,
     _saveProgress() { this.saved = JSON.stringify({ prep: this.prep, srs: this.srs }); },
     _maybeLessonDone() {}, noteCardAnswered() {}, refreshOptionOdds() {}, track() {}, fx() {},
-    renderTabSubtitles() { this.seenAtPublish = structuredClone(this.prep); } });
+    // the publication's renderer, read for what it saw: the Moves card's paint (`_paintHand`, the "moves-card" effect); the
+    // Path row's tail (`renderTabSubtitles`) played this part until it left with the Path in v1.284.0
+    _paintHand() { this.seenAtPublish = structuredClone(this.prep); } });
   a._sharedQ = new Map([[a.qhash("q"), ["A|Top", "B|Bottom"]]]);
   return a;
 }
@@ -157,17 +159,18 @@ function evidenceOf(a) {
 }
 test("renderer and either observer can throw without losing a grade, save or the other observer", async () => {
   let checked = 0;
-  for (const correct of [true, false]) for (const failing of ["renderTabSubtitles", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]) {
+  // the renderer is the Moves card's paint (`_paintHand`) since v1.284.0, when `renderTabSubtitles` left with the Path row
+  for (const correct of [true, false]) for (const failing of ["_paintHand", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]) {
     const warnings = [], a = gradeHost(reportingComponent(warnings));
     const calls = [], fault = new Error(failing); let broken = true, saves = 0;
     // seeded at 3 (2 until v1.283.0): the stage is how this test sees that the grade landed, and since the floor at 2 (R1) a
     // miss at 2 leaves 2, which a lost grade would leave too; from 3 both answers move it (4, or 2)
     a.stage = { "A|Top": { [a.qhash("q")]: 3 } }; a.rec = { "A|Top": 0 };
     a._saveProgress = () => { saves++; a.persisted = evidenceOf(a); };
-    for (const name of ["renderTabSubtitles", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]) {
+    for (const name of ["_paintHand", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]) {
       a[name] = () => {
         calls.push(name);
-        if (name !== "renderTabSubtitles") assert.deepEqual(a.persisted, evidenceOf(a), "save precedes observers");
+        if (name !== "_paintHand") assert.deepEqual(a.persisted, evidenceOf(a), "save precedes observers");
         if (broken && name === failing) throw fault;
       };
     }
@@ -177,9 +180,11 @@ test("renderer and either observer can throw without losing a grade, save or the
     assert.equal(a.stage["A|Top"][a.qhash("q")], correct ? 4 : 2);
     assert.deepEqual(a.srs["B|Bottom"][a.qhash("q")], [101, 1, 100]);
     await Promise.resolve();
-    assert.deepEqual(calls, ["renderTabSubtitles", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]);
+    assert.deepEqual(calls, ["_paintHand", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]);
     assert.equal(warnings.length, 1); assert.equal(warnings[0][1], fault);
-    assert.match(warnings[0][0], new RegExp(failing + " failed"));
+    // the warning names an effect by its label: the Moves card's paint runs as "moves-card" (the Path row's tail, until
+    // v1.284.0, was labelled by its own method name)
+    assert.match(warnings[0][0], new RegExp((failing === "_paintHand" ? "moves-card" : failing) + " failed"));
     const revision = a._knowledgeRevision;
     assert.equal(a.gradeRecall("A|Top", { q: "q" }, correct, "throw:1").status, "duplicate");
     assert.equal(a._knowledgeRevision, revision); assert.equal(saves, 1);

@@ -58,13 +58,11 @@ test("corrupt legacy progress stays untouched while guest Challenges opens five 
   });
 
   await j.land("Mount Top");
-  // v1.242.0: the drawer opens on its list; its Path row is the Challenges corridor
+  // v1.242.0: the drawer opens on its list. v1.284.0: the Path row left it; the corridor is Master the game's, opened by its
+  // row (the DSL's one door), and Master the game is what is on screen
   await page.evaluate(() => (window as any).__neural.toggleExplorer());
-  await expect(page.locator('[data-view="challenges"]')).toBeVisible();
-  await page.locator('[data-view="challenges"]').click();
-  expect(await page.evaluate(() => (window as any).__neural._viewMode)).toBe(
-    "challenges",
-  );
+  await j.openCorridor();
+  expect(await page.evaluate(() => (window as any).__neural._practiceInDrawer())).toBe(true);
   // v1.162.0: the tab's head paragraph is gone; the corridor itself is the render proof
   expect(await page.locator(".ng-challenge-ladder").count()).toBe(1);
   expect(await page.locator(".ng-belt-section").count()).toBe(TRACKS.length);

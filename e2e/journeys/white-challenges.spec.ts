@@ -114,7 +114,7 @@ test.describe("White Challenges", () => {
   }) => {
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
+    await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
 
     await expect(page.locator("[data-track='white']")).toHaveAttribute(
       "aria-pressed",
