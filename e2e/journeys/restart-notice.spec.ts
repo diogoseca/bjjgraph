@@ -7,7 +7,7 @@ import { journey } from "../dsl"
  *   "when i click a node in the graph, it seems like it always zooms me out instead of zooming me in and panning - this is a
  *    regression - it used to be working well. ah nvm it is working well, maybe it stops working well after restarting.."
  *
- * WHAT WAS WRONG, measured on v1.280.0 by real mouse and touch (the seat's report, `reports/mapfix.md`):
+ * WHAT WAS WRONG, measured on v1.280.0 by real mouse and touch (the archive's v1.280.3 entry):
  *  - `endRound` takes the hand (`clearOptions`) and the reader re-lays out with the article jumped up by its height (1440x900:
  *    its top 654 -> 432; 390x631: 768 -> 296), straight over the centre: 1 of 5 points of "You finished it" showing at 1440,
  *    0 of 5 at 390, and the same for the next roll's "Restarting the roll". A wheel or a swipe over that article paused the
