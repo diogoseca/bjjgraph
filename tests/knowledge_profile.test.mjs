@@ -163,7 +163,7 @@ test("renderer and either observer can throw without losing a grade, save or the
   for (const correct of [true, false]) for (const failing of ["_paintHand", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]) {
     const warnings = [], a = gradeHost(reportingComponent(warnings));
     const calls = [], fault = new Error(failing); let broken = true, saves = 0;
-    // seeded at 3 (2 until v1.283.0): the stage is how this test sees that the grade landed, and since the floor at 2 (R1) a
+    // seeded at 3 (2 until v1.282.0): the stage is how this test sees that the grade landed, and since the floor at 2 (R1) a
     // miss at 2 leaves 2, which a lost grade would leave too; from 3 both answers move it (4, or 2)
     a.stage = { "A|Top": { [a.qhash("q")]: 3 } }; a.rec = { "A|Top": 0 };
     a._saveProgress = () => { saves++; a.persisted = evidenceOf(a); };
@@ -237,7 +237,7 @@ test("SRS differential closes over the captured original ladder; changed-constan
   // original ladder IS the cell's seven rungs, and on rows the app writes (due = last + interval) the two still agree on a
   // first answer, a miss, and a right answer on time from 1 to 30 days; they differ exactly where the ruling says (60 -> 90
   // where the original gave 120; 120 -> 241.6667 where it held 120 (v1.281.0, LIN1: one step along the straight line,
-  // carried exactly in the pair, due on its first whole day, 242; the log rule gave 241); a 2-day row, off its ladder,
+  // carried exactly in the pair, not rounded since v1.281.3, due on its first whole day, 242; the log rule gave 241); a 2-day row, off its ladder,
   // where the original sent a right answer to 1 day: 5 days, between 3 and 7); and every cell the new writer stores is one
   // the original reads.
   assert.equal(prior.declarations.NG_SRS_IVLS, "const NG_SRS_IVLS = [1, 3, 7, 14, 30, 60, 120];");
@@ -253,7 +253,7 @@ test("SRS differential closes over the captured original ladder; changed-constan
       const row = interval == null ? undefined : [90 + interval, interval, 90], day = row ? row[0] : 100;
       const was = orig(row, correct, day), now = schedule(row, correct, day);
       if (!correct || interval == null || interval <= 30 && interval !== 2) assert.deepEqual(now, was, `captured SRS ladder: ${row} ${correct}`);
-      else assert.deepEqual(now, { 60: [day + 90, 60, day], 120: [day + 242, 120, day, 241.6667, day], 2: [day + 5, 3, day] }[interval], `the owner's ladder: ${row}`);
+      else assert.deepEqual(now, { 60: [day + 90, 60, day], 120: [day + 242, 120, day, 180 + 185 / 3, day], 2: [day + 5, 3, day] }[interval], `the owner's ladder: ${row}`);
       // the original reads every cell the new writer stores: its right answer climbs from there, never to 1 day
       assert.ok(orig(now, true, day + 1)[1] > 1, `the original on ${now}`);
       checked++;
@@ -400,7 +400,7 @@ test("all MC surfaces preserve prior grade arithmetic; valid repeats and trap/no
     for (const [name, fn] of Object.entries(old)) b[name] = fn;
     b._bumpStageVer = () => {};
     a.isTest = b.isTest = () => true;
-    // THE FLOOR AT 2 (v1.283.0, R1) IS THE ONE DEPARTURE FROM THE CAPTURED WRITER, and this sequence meets it: the trap
+    // THE FLOOR AT 2 (v1.282.0, R1) IS THE ONE DEPARTURE FROM THE CAPTURED WRITER, and this sequence meets it: the trap
     // (pick 1) at step 6 finds the card at 2, which the captured writer sends to 1 and the floor keeps at 2. So the stage
     // is compared as "the captured writer's, raised to 2 once it has reached 2"; every other field is compared as before.
     let reached2 = false, departed = 0;
@@ -426,7 +426,7 @@ test("all MC surfaces preserve prior grade arithmetic; valid repeats and trap/no
   console.log(`captured prior MC evidence comparisons: ${checked}`);
 });
 
-// THE FLOOR AT 2 (v1.283.0, ruling R1; the owner: "after a player dominates MC for a card he is shown FC cards, and never
+// THE FLOOR AT 2 (v1.282.0, ruling R1; the owner: "after a player dominates MC for a card he is shown FC cards, and never
 // again the multiple choice"). The rule as an independent table, start stage x answer -> stage, for EVERY writer of the stage
 // that can lower one: the grade (`ngKnowledgeApplyGrade`) and the journeys' seam `_bumpStage` (no app caller). Counted with
 // `| wc -l` in the PR: the writers of `stage` are the grade, the evidence adoption, the load, the per-card MAX merge, the

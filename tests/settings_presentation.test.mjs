@@ -292,7 +292,7 @@ test("flipped: with NG_DIGEST_LIVE true, Settings are v1.259.1's to the letter",
   assert.equal(guest.card.querySelector("[data-notif-signedout]").textContent, V1259_GUEST);
 });
 
-// v1.283.0 (owner 15 Nov; rulings R2, SET1-GO; U190 c, 16 Nov): THE FLASHCARDS TAB, REFORMED. Daily goal, then Answer mode;
+// v1.282.0 (owner 15 Nov; rulings R2, SET1-GO; U190 c, 16 Nov): THE FLASHCARDS TAB, REFORMED. Daily goal, then Answer mode;
 // Answer mode reads Auto / Front Back cards / Multiple choice with its words saying where it applies, and Auto is what a
 // player who pressed nothing sees, without anything being written; "Recall mode (in play)" and "Show flashcards on pages"
 // are gone, and so is Focus (the owner, U190 c: "Take the row off the screen"; `focus` was read by nothing). A press writes

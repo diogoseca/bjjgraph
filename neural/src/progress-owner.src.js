@@ -151,7 +151,7 @@ export function ngProgressMergeMoves(local, cloud, today) {
         const rest = w.length > 6 ? w.slice(6) : [], none = rest.length ? [0, 0] : [];
         if (o[2] === w[2]) w = o.slice(0, 3).concat(w[3], ngProgressSchedPair(o) ? o.slice(4, 6) : none, rest);
         else {
-          const A = Number.isInteger(to) ? to : Math.round(to * 1e4) / 1e4;
+          const A = to;   // the beaten interval as read, not rounded (v1.281.3, as `ngKnowledgeMergeRow`)
           w = [Math.ceil(w[2] + A - 1e-6), o[1], w[2], w[3]].concat(Number.isInteger(A) ? none : [A, w[2]], rest);
         }
       }
@@ -347,7 +347,7 @@ export function ngProgressJournalAfter(journal, replay, drop) {
 // longer turns the account's mature card into one day, and a guest's miss still brings it back. The rating reads the
 // schedule's interval since v1.279.0, so a shortened row cost a player rating. tests/guest_join_safety.test.mjs,
 // tests/answers_before_sync.test.mjs.
-// THE OPEN RULE'S TWO VALUES (v1.270.0, U163 c; the app's `_syncBelt`, `_recallCarryLive`; read by nothing since v1.283.0). `openAt`, when the open rule
+// THE OPEN RULE'S TWO VALUES (v1.270.0, U163 c; the app's `_syncBelt`, `_recallCarryLive`; read by nothing since v1.282.0). `openAt`, when the open rule
 // first ran for an owner, is left out of the guest PART, so it is neither in the copy's hash nor in the practice key (a
 // bare landing writes one: tests/guest_join_safety.test.mjs 20). It joins the MERGE all the same (`ngProgressGuestMerge`
 // puts it back on the part it merges): the EARLIER of the two stamps, so a guest's belt earned under the guest's own rule

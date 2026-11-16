@@ -1,6 +1,6 @@
 import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
-// v1.283.0 (rulings R2, SET1-GO): written when nothing stored meant Classic recall in the sidebar; since then nothing
+// v1.282.0 (rulings R2, SET1-GO): written when nothing stored meant Classic recall in the sidebar; since then nothing
 // stored is Auto (a new card asks multiple choice), so every journey here states the mode it was written under,
 // Front Back cards, through the DSL (`journey(page, CLASSIC)`), and keeps every assertion.
 const CLASSIC = { answerMode: "classic" } as const
@@ -70,7 +70,7 @@ test("the pane lists every state the roll has visited, in order", async ({ page 
   )
 })
 
-// v1.283.0: written when a history row was always front and back. Since then every inline deck asks the answer mode
+// v1.282.0: written when a history row was always front and back. Since then every inline deck asks the answer mode
 // (rulings R2; Auto asks a new card as multiple choice: answer-mode.spec.ts "Last rolls"), so this journey states the mode
 // it was written under, Front Back cards, and keeps every assertion.
 test("a history row under Front Back cards reads question → reveal → answer, never multiple choice", async ({ page }) => {

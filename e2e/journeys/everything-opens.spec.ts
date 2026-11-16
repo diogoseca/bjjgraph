@@ -14,9 +14,9 @@ import { journey } from "../dsl"
  *      session's new decks come from every family. Until v1.270.0 they
  *      came only from the worn belt's families.
  *   3. chooses its answer mode in Settings, no row locked. Until v1.270.0 the Recall Mode row was a locked teaser until
- *      black; from v1.270.0 to v1.282 a switch anyone turned on; since v1.283.0 it is gone (the answer mode's Auto does its
+ *      black; from v1.270.0 to v1.282 a switch anyone turned on; since v1.282.0 it is gone (the answer mode's Auto does its
  *      job, rulings R2, SET1-GO; answer-mode.spec.ts).
- * And 4: a blue belt held before the open rule keeps the carry-over as the account's fact, which since v1.283.0 decides
+ * And 4: a blue belt held before the open rule keeps the carry-over as the account's fact, which since v1.282.0 decides
  * nothing and has no switch on screen; nothing stored changes across a reload. The carry's rules in full, and the merge,
  * are unit-tested (tests/belt_worn.test.mjs).
  *
@@ -32,7 +32,7 @@ import { journey } from "../dsl"
  * killed in tests/belt_worn.test.mjs and tests/gameplan_runtime.test.mjs.
  * NOT COVERED here: the capstone of a later belt (it needs every unit of that belt proven; tests/belt_worn.test.mjs starts
  * one on a blue belt) and a roll's question asking front and back (landcard-modes.spec.ts 5c, answer-mode.spec.ts).
- * v1.283.0: tests 3 and 4 were rewritten to the answer mode (their old subject, the Recall Mode switch, left Settings);
+ * v1.282.0: tests 3 and 4 were rewritten to the answer mode (their old subject, the Recall Mode switch, left Settings);
  * OPEN-M8 (the Settings lock back) has no row left to lock, and OPEN-M4/M9 are killed in tests/belt_worn.test.mjs.
  */
 
@@ -131,7 +131,7 @@ for (const touch of [false, true]) {
       expect(await worn(page)).toBe("white")
     })
 
-    // 3, since v1.283.0: the Recall Mode switch left Settings (its job is the answer mode's Auto, R2); what stays true of U163 c
+    // 3, since v1.282.0: the Recall Mode switch left Settings (its job is the answer mode's Auto, R2); what stays true of U163 c
     // is that no belt locks a Flashcards row, so a white belt chooses its answer mode like anyone (answer-mode.spec.ts owns
     // the row's words and default)
     test(`a white belt chooses its answer mode in Settings, with no locked row (${touch ? "touch" : "mouse"})`, async ({ page }) => {
@@ -142,7 +142,7 @@ for (const touch of [false, true]) {
       await press(page, '[data-settings-tab="flashcards"]', "the Flashcards tab", touch)
       await expect(page.locator("[data-answer-mode]"), "the Answer mode row").toHaveCount(1)
       await expect(page.locator("[data-recall-locked]")).toHaveCount(0)
-      await expect(page.locator("[data-recall-mode]"), "no Recall Mode row since v1.283.0").toHaveCount(0)
+      await expect(page.locator("[data-recall-mode]"), "no Recall Mode row since v1.282.0").toHaveCount(0)
       await press(page, "[data-answer-mode] button:nth-of-type(3)", "Multiple choice", touch)
       expect(await page.evaluate(() => (window as W).__neural.settings.mcMode), "a white belt's press is stored").toBe("mc")
       const shown = await page.locator("[data-answer-mode] button").nth(2).evaluate((b) => getComputedStyle(b).backgroundColor)
@@ -151,7 +151,7 @@ for (const touch of [false, true]) {
   })
 }
 
-// 4, since v1.283.0: the carry-over is kept as the account's fact and decides nothing (the answer mode decides a roll's
+// 4, since v1.282.0: the carry-over is kept as the account's fact and decides nothing (the answer mode decides a roll's
 // format, R2); Settings has no switch to show it, and nothing stored changes across a reload. The carry's rules and merge
 // stay unit-tested (tests/belt_worn.test.mjs, `carried`).
 test("a blue belt held before the open rule: the carry is kept as the account's fact, decides nothing, and nothing stored changes across a reload", async ({ page }) => {

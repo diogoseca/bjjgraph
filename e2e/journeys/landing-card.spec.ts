@@ -129,7 +129,7 @@ test("a proven deck asks nothing — the landing keeps only its remaining contro
   await expect(page.locator("[data-landcard] [data-land-count]"), "the corner count remains without a question").toHaveCount(1)
 })
 
-// v1.283.0 (rulings R2, SET1-GO): until then this pinned the shipped default "classic" (the sidebar read back as recall, a
+// v1.282.0 (rulings R2, SET1-GO): until then this pinned the shipped default "classic" (the sidebar read back as recall, a
 // roll asked multiple choice). Since then nothing stored is Auto, one rule for every card: a new card asks multiple choice
 // in a roll AND in the sidebar, and the default is the reader's, never a write.
 test("nothing stored is Auto: a new card asks multiple choice in the roll and in the sidebar alike, and nothing is written", async ({

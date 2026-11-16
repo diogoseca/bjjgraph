@@ -506,9 +506,9 @@ test("the owner's Americana page asks MULTIPLE CHOICE — recognition first, alw
   expect(s.recall, "no stage-0 recall — flashcards are the earned graduation").toBe(false)
 })
 
-// ── 5c. a card right twice asks front and back in a roll (the answer mode, v1.283.0) ──────────────────────────────────
+// ── 5c. a card right twice asks front and back in a roll (the answer mode, v1.282.0) ──────────────────────────────────
 // Until v1.270.0 a blue belt switched timed recall on ("recall comes with rank", v1.133.0); from v1.270.0 to v1.282 it was
-// Recall mode's switch alone (U163 c). Since v1.283.0 (rulings R2, SET1-GO) the ANSWER MODE decides, one switch for every
+// Recall mode's switch alone (U163 c). Since v1.282.0 (rulings R2, SET1-GO) the ANSWER MODE decides, one switch for every
 // card: Auto, the default for nothing stored, asks a card right twice (stage 2) front and back in a roll, which is what
 // Recall mode On did here; a belt still decides nothing; Multiple choice keeps it multiple choice. The stored-value cases
 // (Front Back cards on a new card, the old switch stored Off) are answer-mode.spec.ts's.
