@@ -24,7 +24,7 @@ type W = Window & { __neural: any }
  * That second rule is DERIVED (`wrap.isConnected`), never latched — the branch this came from
  * latched it and would have toggled a card the player could no longer see.
  *
- * Rails: __neural._recall · .settings.recallInPlay · .stage
+ * Rails: __neural._recall · .stage (`.settings.recallInPlay` was a rail until v1.283.0, when the switch stopped deciding)
  * Surface: [data-land-recall] / [data-land-reveal] / [data-land-hide] / [data-land-answer]
  *
  * Mutants:
@@ -62,7 +62,8 @@ async function landOnRecall(j: ReturnType<typeof journey>, page: Page) {
     a.stage[key] = { [a.qhash(cards[0].q)]: 3 }
     const today = a._epochDay()
     a.srs[key] = { [a.qhash(cards[0].q)]: [today - 1, 3, today - 4] }
-    a.settings.recallInPlay = true
+    // (`a.settings.recallInPlay = true` stood here until v1.283.0; the switch decides nothing, and Auto asks this stage-3 card
+    // front and back by itself)
     a._landQ = null
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })

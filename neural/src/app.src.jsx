@@ -12886,7 +12886,20 @@ class Component extends DCLogic {
     const idx = this.nodeForKey(key); if (idx >= 0) this.locateNode(idx);
     this.studyFromSession(key); return true;
   }
-  drillReveal() { if (this.deck && !this.revealed && this.deckIdx < this.deck.length) { this.revealed = true; this.renderDrill(); } }
+  drillReveal() {
+    if (!this.deck || this.revealed || this.deckIdx >= this.deck.length) return;
+    // A CARD THAT ASKS MULTIPLE CHOICE IS ANSWERED BY PICKING, NEVER BY A REVEAL (D4, the reader of #423; v1.283.0). Space
+    // and ⏎ reach this from the key handler; under Auto (the new default) a new card in the full-pane study view asks multiple
+    // choice, and two Space presses graded it "Got it" as a recall answer with no option picked, minting recall credit. As the
+    // inline decks' `doReveal` refuses it: while the card's options are on screen (or on their way), there is nothing to
+    // reveal. A card whose options cannot be built (`_mcBlock` returned none) asks front and back, and reveals as before.
+    const card = this.deck[this.deckIdx], key = this._deckInfo && this._deckInfo.key;
+    if (key && card && this.flashcards && this.mcActive(key, card)) {
+      if (!this.mcPoolWarm(key, card)) return;
+      if (this._mc && this._mc.surface === "deck" && this._mc.key === key && this._mc.qhash === this.qhash(card.q)) return;
+    }
+    this.revealed = true; this.renderDrill();
+  }
   // ═══ P2: MC flashcards graduating to recall (owner's fusion rule) ═══
   qhash(q) { // FNV-1a over the question text — the per-card stage key
     let h = 0x811c9dc5;
@@ -13148,7 +13161,17 @@ class Component extends DCLogic {
   // account's `recallCarry` fact are kept, stored, synced and merged exactly as before, and decide nothing: Auto's rule IS
   // what Recall mode On did in a roll, and the screen must say what plays (R2: no hidden switch deciding rolls).
   _answerMode() { const v = this.get("mcMode", null); return v === "classic" || v === "mc" ? v : "auto"; }
-  _cardAsksMc(key, card) { const m = this._answerMode(); return m === "mc" || (m === "auto" && this.cardStage(key, card.q) < 2); }
+  _cardAsksMc(key, card) { const m = this._answerMode(); return m === "mc" || (m === "auto" && this._cardStageShared(key, card.q) < 2); }
+  // "NEVER AGAIN" IS PER QUESTION, NOT PER DECK (D2, the reader of #423; v1.283.0). The grade writes a card's stage to the
+  // deck it was asked from (`ngKnowledgeBucket`), its schedule to every deck sharing the question; so a shared question right
+  // twice in one deck read stage 0 from its other decks and asked multiple choice again there (397 questions in 919 deck
+  // slots). Auto reads the highest stage the question holds in any of its decks, as the rating does (rating.src.js), through
+  // the same index the grade files shared credit by (`_sharedDecksFor`).
+  _cardStageShared(key, q) {
+    let st = this.cardStage(key, q);
+    for (const k of this._sharedDecksFor(q, key) || []) if (k !== key) st = Math.max(st, this.cardStage(k, q));
+    return st;
+  }
   mcActive(key, card) { return !!this._checkpoint || this._cardAsksMc(key, card); }   // the quiz is always MC
   get MC_KEYS() { return ["A", "B", "C", "D", "E"]; }
   // the shared MC renderer. Truth (correct index, tier map) lives ONLY in this closure +
@@ -13173,11 +13196,23 @@ class Component extends DCLogic {
     // The rule is "every surface EXCEPT the sidebar deck draws on its own tag", stated once.
     // It was a 3-way chain that had to grow a branch per surface, and the JIT was the fourth —
     // a surface that forgot its branch silently drew on the bare mc-* stream (§6.5).
-    const mc = this.mcDistractors(card, key, this.MC_DISTRACTORS, surface && surface !== "deck" ? surface : null);
+    // THE OPEN CARD KEEPS ITS DEAL ACROSS A RE-RENDER (D3, the reader of #423; v1.283.0). A session laid out again under a
+    // player who touched nothing (#415's re-plan when the live set lands, a plan or corridor repaint) re-mounts its open card,
+    // and `mcDistractors` deals and shuffles afresh on every call: under Auto, where a new card asks multiple choice, the
+    // three answers the player was reading moved under them (9 of 10 runs). The card on screen does not change, its answers
+    // and their order included. So an inline surface's deal is kept for the same card (surface, deck, question) until it is
+    // answered (`knowledgeAttempt`) or another card is dealt there; `spent` cannot end it, since every repaint of `_miniDeck`
+    // spends the block it replaces, the same card's included. A kept deal draws nothing from the rng.
+    const inlineSurf = surface === "practice" || surface === "inline";
+    const pinId = inlineSurf ? surface + "|" + key + "|" + this.qhash(card.q) : null;
+    const pin = this._mcPin;
+    const mc = pinId && pin && pin.id === pinId && !pin.truth.knowledgeAttempt ? pin.mc
+      : this.mcDistractors(card, key, this.MC_DISTRACTORS, surface && surface !== "deck" ? surface : null);
     // a surface that cannot build options must not disarm another surface's live block
     if (!mc) { if (!this._mc || this._mc.surface === (surface || "deck")) this._mc = null; return null; }
     const qh = this.qhash(card.q);
     const truth = { key: key, qhash: qh, correct: mc.correctIdx, tiers: mc.options.map((o) => o.tier), n: mc.options.length, surface: surface || "deck" };
+    if (pinId) this._mcPin = { id: pinId, mc: mc, truth: truth };
     // Exposed landing controls may page while the pane studies another card. Their own
     // closures still answer mouse clicks; the pane keeps the shared keyboard slot.
     if ((truth.surface !== "land" && truth.surface !== "panic") || !this.deckShown) this._mc = truth;

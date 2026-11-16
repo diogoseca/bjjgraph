@@ -18797,3 +18797,28 @@ worker core beside the seat's own in its build folders; CI builds fresh.
 "up to 27" leaning specs was a grep's upper bound; eleven files needed a mode stated (the DSL; weak-spots-acceptance, the
 eleventh, surfaced in a second, wider pass over every spec that opens a card surface), five were rewritten because they
 pinned the old rule, and every other file ran green as it is under Auto.
+
+**The independent read (PR #423, SET1-R1, 16 Nov): MERGE AFTER 3 fixes, all made.**
+- **D2: "never again" per question.** The grade writes a card's stage to the deck it was asked from only, so a shared
+  question right twice in one deck asked multiple choice again from the others (397 questions in 919 deck slots). Auto now
+  reads the highest stage the question holds in any of its decks (`_cardStageShared`, the grade's shared-question index),
+  as the rating does.
+- **D3: the open card keeps its deal.** #415's re-plan re-mounted the open card, and `mcDistractors` redealt on every
+  call: the three answers moved under a player who touched nothing, in 9 of 10 runs. `_mcPin` keeps an inline surface's
+  deal for the same card until it is answered. `spent` cannot end it, because every `_miniDeck` repaint spends the block
+  it replaces. practice-order's guard and its first test run on the default.
+- **D4: the study view refuses a reveal while the card's options are on screen or on their way.** Two Space presses had
+  graded an unpicked multiple-choice card as recalled.
+- **D5:** list, class, System and bucket drills are in the day-one table, and a list drill under Auto is pinned.
+- **D6:** the black-belt patch is named Black Belt (id `recall-in-play` unchanged). The line under Front Back cards says
+  checkpoints and the defence drill stay multiple choice.
+- **D7:** the probe is fixed, and five dead `recallInPlay` sets are removed.
+- **D1 went to the owner:** under a stored Multiple choice, a right pick stops at 2, so the recall goals are unreachable.
+  - (a) Multiple choice means it everywhere, and its line says so: eager gzip −2 B (noise), deferred +106 B raw.
+  - (b) Last rolls stay front and back under it, as before: eager +44 B raw / +18 B gzip, deferred +49 B raw.
+  - Both are prepared as one commit each, neither built in.
+- **Run:** 22 journey files, 204/204. Mutants, each red at its named assertion:
+  - D2: `_cardAsksMc` reading the asking deck only → answer-mode "front and back in the deck that shares it";
+  - D3: the pin off → practice-order "the same three answers, in the same order" (2 of 2);
+  - D4: the guard off → answer-mode "no reveal, no grade".
+  The served bundle was byte-identical after the run.
