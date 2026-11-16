@@ -845,7 +845,7 @@ Positions share one third of score mass, like attacking and defending technique 
 
 **Nothing about the score decays.** `deckMastery` moves only on answers — the score cannot drop
 because time passed (a failed card can lower it; it can never lower a belt, below). Retention-vs-pressure is the schedule's (`ngKnowledgeScheduleRow`: his ladder, 1 day to 8 years and
-doubling; an early right answer earns the share of a rung passed, a late one a rung, a miss 1 day): *what you are
+doubling; an early right answer earns its days waited on a straight line, his formula, a late one a step, a miss 1 day): *what you are
 shown*, never what a deck is *worth*.
 
 **Practice is one session** (v1.278.0, U171 a). Its card comes first, the belt corridor below.
@@ -896,7 +896,7 @@ resident; the mark survives a merge only when both sides carry it, so a pre-v1.2
 progress is grandfathered again. Gated by `tests/belt_worn.test.mjs`, `belt-worn.spec.ts`.
 
 **Spaced repetition.** `srs = {deckKey: {qhash: [due, ivl, last]}}` in the v2 blob, local epoch-day
-ints. One writer, `_schedule(key, q, ok)`, fed by both grade chokes. Success climbs the interval
+ints, plus `[A, t0]` while a card sits between steps. One writer, `_schedule(key, q, ok)`, fed by both grade chokes. Success climbs the interval
 ladder; any failure resets to 1 day. **Due-ness decides what you are SHOWN; mastery stays
 stage-based and moves only on answers** — the score cannot drop because time passed.
 

@@ -12966,7 +12966,8 @@ class Component extends DCLogic {
   }
   // THE SCHEDULE'S WRITER as the progress host replays an undelivered answer with it (v1.280.2, `ngProgressReplay`: the host
   // file cannot import knowledge-profile, whose bytes the study engine pins)
-  _scheduleWrite(prior, ok, day) { return ngKnowledgeScheduleRow(prior, ok, day); }
+  // (`at`: where the row keeps the schedule's pair, 3 on an srs row, 4 on a moves row, v1.281.0)
+  _scheduleWrite(prior, ok, day, at) { return ngKnowledgeScheduleRow(prior, ok, day, at); }
   // the rows an answer wrote, [[field (0 srs, 1 moves), bucket, item, ok, day, row], …], kept until a copy the cloud holds
   // has them; a host without the journal (a test rail) records nothing
   _journal(rows) {
@@ -15282,8 +15283,10 @@ class Component extends DCLogic {
   _gradeMove(opt, ok, card) {
     const k = this._moveKey(opt); if (!k) return;
     const m = (this.moves = this.moves || {}), row = (m[k[0]] = m[k[0]] || {});
-    const prior = row[k[1]], day = this._epochDay();   // cells a later build added after the fourth ride along (review R5)
-    row[k[1]] = ngKnowledgeScheduleRow(prior, ok, day).concat(ok ? 1 : 0, prior && prior.length > 4 ? prior.slice(4) : []);
+    // the writer builds the whole row: the answer at [3], the schedule's pair at [4] (v1.281.0), and the cells a later
+    // build added after the pair riding along (review R5)
+    const prior = row[k[1]], day = this._epochDay();
+    row[k[1]] = ngKnowledgeScheduleRow(prior, ok, day, 4);
     this._journal([[1, k[0], k[1], ok ? 1 : 0, day, row[k[1]]]]);   // v1.280.2: the owner's undelivered answers
     this._sealCard(card, this._moveState(opt));
     // the record changed in place: a new revision for the moves index (its identity did not move), then republish:
