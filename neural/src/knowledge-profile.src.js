@@ -323,97 +323,166 @@ export function ngKnowledgeSharedDecks(manifest, question, key) {
   }
   return list.length > 1 ? list : [];
 }
-// THE SCHEDULE (v1.279.0, ruled SRS-GO). A row stays [due, interval, last day] (a move's adds its answer and any tail):
-// NOTHING NEW IS STORED and no stored row is rewritten.
-//   · THE TRUE INTERVAL is `due − last`, never less than the cell (`ngKnowledgeInterval`). Every writer until v1.279.0
-//     wrote due = last + interval, so an existing row reads as its own rung; a row built otherwise (a hand-built one in a
-//     spec) never reads below its own rung. The pull's clamp (last ≤ today, `ngKnowledgeMergeRow`) CAN lengthen it, by as
-//     many days as the other device's clock ran ahead: a cloud row from a clock 30 days ahead, [1060, 30, 1030], is kept
-//     on day 1000 as [1060, 30, 1000], 60 days where it was 30, and its next on-time step reads from 60 (SRS-R1, the
-//     reader's finding 4). Bounded by the wrong clock; no one-line fix (the row cannot say which clock was wrong).
-//   · THE CELL (`row[1]`) is written as the largest rung of NG_KNOWLEDGE_INTERVALS at or below the true interval
-//     (`ngKnowledgeCell`), so it is what an older client can read: its right answer climbs ITS ladder from the cell (a
-//     full rung, capped at 120 days, until a new client answers again) and never goes back to 1 day, and its due counts
-//     read `due`, exact. Writing the true interval there instead would send every between-rungs card to 1 day on an older
-//     client's right answer (its `indexOf` misses).
+// THE SCHEDULE (v1.281.0, LIN1: the owner's own formula, U188; the ladder and the rest as ruled at v1.279.0, SRS-GO).
+// A row is [due, cell, last day] (a move's adds its answer at [3]), plus THE PAIR [A, t0] right after (srs [3], moves [4])
+// while a card sits between two steps: A, the interval its last full step set (4 decimals at most, rounded once per
+// step, never per answer), and t0, that step's day. A row written by any older client has no pair and reads as anchored
+// at its own last, so nothing stored is rewritten.
+//   · THE OWNER'S FORMULA (15 Nov 2026): next = (interval − days left) × ratio + days left, ratio = next step ÷ this step.
+//     RULED: the credit is LINEAR in the days waited. While a card is between steps its interval is A + w × (B − A) ÷ A,
+//     w = days since its last full step (t0), B = the next step from A (`ngKnowledgeStep`). Every day waited adds the same
+//     amount, and a run of early answers INSIDE ONE STEP earns exactly what one answer at its end earns. His numbers, pinned
+//     in tests/schedule_ladder.test.mjs: a 30-day card answered 1 day before its due comes due 59 days on, 29 days before it
+//     31, on time 60.
+//   · FROM A CARD ON A RUNG, ONE EARLY ANSWER, THEN THE NEXT ON ITS OLD DUE OR ITS OWN NEW DUE, NEVER COSTS THE CARD ANYTHING:
+//     it is never behind a card answered only on its due day (the property the owner is asked to prefer, U192; the level rule parked at LIN1-R2
+//     broke it: 15 then 30 days gave 55, not 60). Only that much holds. OVER LONGER RUNS ONE MORE EARLY ANSWER CAN COST DAYS
+//     (LIN1-R3, the reader's N1; ruled, the rule stays): it can turn a later answer from late (one step from where the card
+//     is, a fresh line, here steeper) into early (the card's old line's value, here lower). A 30-day card answered on days
+//     12, 56 and 86 is due day 181; with one more on day 19, 174. A measured bound: 4,196 of 1,123,024 comparisons of the
+//     reader's search, at most 39 days and 9.9% of the interval. Both pinned in tests/schedule_linear.test.mjs.
+//   · AHEAD OF ANSWERING ON TIME: A MEASURED BOUND, NOT A PROMISE (LIN1-R2, ruled after the independent reader's D1). A card
+//     can end after the due the on-time path's next answer would give it, two ways: (a) a run of early answers across steps
+//     (the days past a step count at the next step's ratio from exact days, where the on-time path answers on whole ones),
+//     at most 10 days, 8.1% of the interval, in 1,150 of 566,832 prefixes of the reader's search; (b) early, on time, then
+//     early (the straight line between rungs grows a card that took early credit faster than the rung below it), at most 10
+//     days, 11%, in 63 of 40,536 sequences, and about a tenth ahead for good. Both pinned there, worst sequences included. A
+//     cap at the on-time path from the card's anchor was tried and not built: the anchor moves on with the card, so it left
+//     432 of the (a) prefixes and all 63 of (b).
+//   · THE STEP IS TAKEN WHEN THE DAYS REACH IT, and an answer takes AT MOST ONE STEP from where the previous answer left
+//     it. On the path the card reaches B at t0 + A, and the days past it count at the next step's ratio from there (the
+//     anchor moves on: A ← B, t0 ← t0 + A). The cap binds exactly on and after the due: I days after an answer at interval
+//     I the path is one step on, so an answer ON OR AFTER THE DUE takes one step from the card's current interval (day
+//     29 → 59 days; on that due, 89; a day before it, 88.5). LATE EARNS ONE STEP AND NO MORE: the formula's negative
+//     "days left" would pay a late bonus (10 days late: 70, not 60); it was measured out at v1.279.0 (ANKI1: with a
+//     backlog the bonus cost 7 to 15 points of true recall) and stays out. Dropping the days past the step instead (the
+//     first draft) made an answer a day before the due earn almost nothing on a card between steps (on day 87 above: 60
+//     days where the due day gives 89; measured, under half the due day's credit in 72% of such states).
+//   · BETWEEN TWO RUNGS a card sits on the straight line between them (`ngKnowledgeStep`: one step from 120 days, half-way
+//     placed between 90 and 180, is 241.6667). From a rung every interval is exact (A and B whole; the numerator is
+//     multiplied first). A step from between rungs is not whole, hence the 4 decimals in A.
+//   · THE DUE stays a whole day, the first at or after the exact due (`ngKnowledgeDueDay`), so every reader of `due`, every
+//     older client's due count and the "answered today" tests are unchanged. The exact interval is recomputed from the
+//     pair at each answer, so nothing rounds per answer.
+//   · THE PAIR CHECKS ITSELF (`ngKnowledgeAnchor`): it is read only if t0 ≤ last, last − t0 < A, and it reproduces the
+//     row's due day. Otherwise the row reads as its own: anchored at its last, interval max(cell, due − last). That covers
+//     a clamped pull (a fast clock), an older client's merge (it drops the pair), and an older moves writer that kept a
+//     stale pair behind its own new due (v1.255.0 to v1.280.2).
+//   · THE CELL (`row[1]`) is the largest rung of NG_KNOWLEDGE_INTERVALS at or below the exact interval
+//     (`ngKnowledgeCell`), what an older client reads: its right answer climbs ITS ladder from the cell (a full rung,
+//     capped at 120 days) and never goes back to 1 day.
 //   · A MISS, or a first answer: 1 day (the owner: "otherwise goes back to 1 day until it progresses").
-//   · A RIGHT ANSWER moves the card up the ladder by the fraction of its interval that has passed (the research's rule
-//     (b), proportional): p = days since the last answer / the true interval, the new place = the place + min(p, 1), and
-//     due = today + the interval there (rounded to a day). The owner's example, pinned in tests/knowledge_profile.test.mjs:
-//     a card at 30 days answered right the next day comes due on day 31.7 of the old count (30 × 2^(1/30) from day 1);
-//     answered on day 29, day 87.6 (30 × 2^(29/30)); on time, day 90. So an answer right after the last one "hardly moves
-//     the ball", and one just before the due date earns nearly the whole step. It cannot be farmed: an early answer never
-//     earns more than an on-time one, whatever the cadence (0 of the 2,922 daily runs, pinned). WHAT DAILY ANSWERS DO
-//     (SRS-R1, the reader's finding 3, ruled (a)): answered every day a card advances in every band EXCEPT 60 to 89 days,
-//     where a day earns 0.41 of a day (90/60 is the smallest rung ratio, 1.5) and whole-day storage drops it, so the card
-//     holds its interval until it is answered two or more days apart or on time. Kept: rounding up instead would overshoot
-//     a full rung by 30 days in that band (daily answers ending due later than one on-time answer).
-//   · A LATE RIGHT ANSWER EARNS ONE RUNG, as on time: NO late bonus, measured, do not "fix" it. Anki and FSRS give one, and
-//     the research recommended a capped one. But while rolls feed a backlog a card is late because of the pile, not
-//     because the player held it; a bonus lengthens its interval, the order's worth reads the longer interval as "held",
-//     and it waits longer still. Measured (ANKI1, the Practice simulation's own memory model, 5 players, two years): with
-//     a backlog the bonus cost 7 to 15 points of true recall and raised the rating, which reads the same cell, by 10 to 18;
-//     with no backlog it changed nothing. The orchestrator ruled it out on that measurement (SRS-GO).
-//   · A right answer NEVER makes a card due sooner: the place only rises, and `Math.max` with the old due holds it even
-//     against a clock set back.
-//   · THE WRITER NEVER MOVES `last` BACKWARD (SRS-R1, the reader's finding 4): an answer on a day before the row's last
-//     (a clock set back, a timezone crossed) is filed on the row's last. Filed on today, a right answer kept the due day and
-//     moved `last` back, so the true interval grew for nothing ([430, 30, 400] answered on day 390 read 40 days, and on its
-//     due day earned 71 where on time from 30 is 60). Now it leaves the row as it was; a miss there comes due the day after.
-export function ngKnowledgeInterval(row) {
-  const t = row[0] - row[2], c = Number.isFinite(row[1]) && row[1] >= 1 ? row[1] : 1;
-  return Number.isFinite(t) ? Math.max(c, t) : c;
-}
+//   · A right answer NEVER makes a card due sooner: the exact due only rises (`Math.max` with the old due day guards it),
+//     and THE WRITER NEVER MOVES `last` BACKWARD (SRS-R1, finding 4): an answer on a day before the row's last (a clock
+//     set back) is filed on that last, so w is never negative.
+//   · The pull's clamp (last ≤ today, `ngKnowledgeMergeRow`) can lengthen a fast clock's row by as many days as that clock
+//     ran ahead (SRS-R1, finding 4), never shorten it; its pair then fails its check and the row reads as its own.
+const NG_KNOWLEDGE_EPS = 1e-6;
+export function ngKnowledgeDueDay(x) { return Math.ceil(x - NG_KNOWLEDGE_EPS); }
+function ngKnowledgeRound4(x) { return Number.isInteger(x) ? x : Math.round(x * 1e4) / 1e4; }
 export function ngKnowledgeCell(ivl) {
   let c = NG_KNOWLEDGE_INTERVALS[0];
   for (const r of NG_KNOWLEDGE_INTERVALS) if (r <= ivl) c = r;
   return c;
 }
-function ngKnowledgeAt(x) {
-  const L = NG_KNOWLEDGE_LADDER, i = Math.min(L.length - 1, Math.max(0, Math.floor(x)));
-  return i >= L.length - 1 ? L[i] : L[i] * Math.pow(L[i + 1] / L[i], x - i);
+// one step on from `ivl`: a rung's next rung, or the same place on the next stretch of the straight line; the top holds
+export function ngKnowledgeStep(ivl) {
+  const L = NG_KNOWLEDGE_LADDER, n = L.length - 1, x = Math.max(L[0], ivl);
+  for (let i = 0; i < n; i++) {
+    if (x < L[i + 1]) return i + 1 >= n ? L[n] : x === L[i] ? L[i + 1] : L[i + 1] + ((x - L[i]) * (L[i + 2] - L[i + 1])) / (L[i + 1] - L[i]);
+  }
+  return L[n];
 }
-function ngKnowledgePlace(ivl) {
-  const L = NG_KNOWLEDGE_LADDER;
-  if (!(ivl > L[0])) return 0;
-  for (let i = 0; i < L.length - 1; i++) if (ivl < L[i + 1]) return i + Math.log(ivl / L[i]) / Math.log(L[i + 1] / L[i]);
-  return L.length - 1;
-}
+// the interval w days into the step from A (0 ≤ w < A), linear: A + w × (B − A) ÷ A
+export function ngKnowledgeLinear(A, w) { return A + (w * (ngKnowledgeStep(A) - A)) / A; }
 function ngKnowledgeRowOk(r) { return Array.isArray(r) && r.length >= 3 && Number.isFinite(r[0]) && Number.isFinite(r[1]) && Number.isFinite(r[2]); }
-// the new interval (in days, not rounded, counted from `day`) a RIGHT answer earns on `prior`
-export function ngKnowledgeNextInterval(prior, day) {
-  const cur = ngKnowledgeInterval(prior), p = Math.max(0, day - prior[2]) / cur;
-  return ngKnowledgeAt(ngKnowledgePlace(cur) + Math.min(1, p));
+function ngKnowledgeOwnInterval(row) {
+  const t = row[0] - row[2], c = Number.isFinite(row[1]) && row[1] >= 1 ? row[1] : 1;
+  return Number.isFinite(t) ? Math.max(c, t) : c;
 }
-export function ngKnowledgeScheduleRow(prior, ok, day) {
-  if (!ngKnowledgeRowOk(prior)) return [day + 1, NG_KNOWLEDGE_INTERVALS[0], day];
+// THE ROW'S EXACT STATE {A, t0, ivl}: from its pair at `at` (3 on an srs row, 4 on a moves row) when the pair checks
+// itself against the row, otherwise anchored at its own last with its own interval
+export function ngKnowledgeAnchor(row, at = 3) {
+  const last = row[2], A = row[at], t0 = row[at + 1];
+  if (Number.isFinite(A) && A >= 1 && Number.isFinite(t0) && t0 <= last && last - t0 < A) {
+    const ivl = ngKnowledgeLinear(A, last - t0);
+    if (ngKnowledgeDueDay(last + ivl) === row[0]) return { A, t0, ivl, pair: true };
+  }
+  const ivl = ngKnowledgeOwnInterval(row);
+  return { A: ivl, t0: last, ivl, pair: false };
+}
+// an early answer on day `last` from the anchor (A, t0) of a card at interval `ivl`: walk the path to the step `last` is in
+// (each step crossed moves the anchor on, 4 decimals, rounded once per step), then take the straight line there, never more
+// than one step from `ivl` (the cap; before the due only rounding can reach it)
+function ngKnowledgeEarly(A, t0, ivl, last) {
+  const top = NG_KNOWLEDGE_LADDER[NG_KNOWLEDGE_LADDER.length - 1];
+  while (last - t0 >= A && A < top) { t0 = ngKnowledgeRound4(t0 + A); A = ngKnowledgeRound4(ngKnowledgeStep(A)); }
+  const at = ngKnowledgeLinear(A, last - t0), cap = ngKnowledgeRound4(ngKnowledgeStep(ivl));
+  return at >= cap ? { A: cap, t0: last, ivl: cap } : { A, t0, ivl: at };
+}
+// the exact interval a row holds, `due − last` before any rounding (the rating and the Practice order read it too)
+export function ngKnowledgeInterval(row, at = 3) { return ngKnowledgeAnchor(row, at).ivl; }
+// the new exact interval (in days, counted from the answer's day) a RIGHT answer on `day` earns on `prior`
+export function ngKnowledgeNextInterval(prior, day, at = 3) {
+  const s = ngKnowledgeAnchor(prior, at), last = Math.max(day, prior[2]);
+  if (last >= prior[0]) return ngKnowledgeRound4(ngKnowledgeStep(s.ivl));     // on time or late: one step from where it is
+  return ngKnowledgeEarly(ngKnowledgeRound4(s.A), s.t0, s.ivl, last).ivl;
+}
+// a row as stored: [due, cell, last] (+ a move's answer), then the pair or, when cells a later build added follow, [0, 0]
+function ngKnowledgeRowOut(due, ivl, last, pair, ok, prior, at) {
+  const row = [due, ngKnowledgeCell(ivl), last];
+  if (at > 3) row.push(ok ? 1 : 0);
+  const rest = Array.isArray(prior) && prior.length > at + 2 ? prior.slice(at + 2) : [];
+  if (pair) row.push(pair[0], pair[1]); else if (rest.length) row.push(0, 0);
+  return rest.length ? row.concat(rest) : row;
+}
+// THE WRITER: one answer on `prior`; `at` 3 for an srs row, 4 for a moves row (which then carries `ok` at [3])
+export function ngKnowledgeScheduleRow(prior, ok, day, at = 3) {
+  if (!ngKnowledgeRowOk(prior)) return ngKnowledgeRowOut(day + 1, NG_KNOWLEDGE_INTERVALS[0], day, null, ok, prior, at);
   const last = Math.max(day, prior[2]);   // never backward (a clock set back): see the header
-  if (!ok) return [last + 1, NG_KNOWLEDGE_INTERVALS[0], last];
-  const due = Math.max(prior[0], last + Math.max(1, Math.round(ngKnowledgeNextInterval(prior, last))));
-  return [due, ngKnowledgeCell(due - last), last];
+  if (!ok) return ngKnowledgeRowOut(last + 1, NG_KNOWLEDGE_INTERVALS[0], last, null, ok, prior, at);
+  // the anchor as the pair would store it (4 decimals: a row's own interval off a whole day is a damaged due), so what is
+  // computed here is exactly what the stored pair reproduces
+  const s = ngKnowledgeAnchor(prior, at);
+  let A, t0, ivl;
+  if (last >= prior[0]) { A = ngKnowledgeRound4(ngKnowledgeStep(s.ivl)); t0 = last; ivl = A; }
+  else ({ A, t0, ivl } = ngKnowledgeEarly(ngKnowledgeRound4(s.A), s.t0, s.ivl, last));
+  const due = ngKnowledgeDueDay(last + ivl);
+  if (due < prior[0]) return ngKnowledgeRowOut(prior[0], prior[0] - last, last, null, ok, prior, at);   // never sooner
+  return ngKnowledgeRowOut(due, ivl, last, t0 === last && Number.isInteger(A) ? null : [A, t0], ok, prior, at);
 }
 // THE PULL'S MERGE OF ONE srs ROW (v1.105.0 in `_mergeProgressFields`; here since v1.279.0 so it is pinned as a unit).
 // Per card the LATER review wins (the freshest grade knows the memory best); ties are the common case (`last` is a day),
-// so the tie rule IS the rule: the SMALLER cell, then (v1.279.0) the EARLIER due. The cell is floored, so two rows of one
-// day can tie on it with different due dates; until v1.279.0 such a tie kept the LOCAL row, and two devices could each
-// keep their own. Smaller cell then earlier due is "the smaller true interval" on one day: showing a card early is cheap,
-// hiding a forgotten one is not. A winner past rung 0 keeps the LONGER interval it beat (the heal of the grade-before-
-// pull race), read as TRUE intervals (`due − last`) since v1.279.0, written `[winner's last + the beaten interval, the
-// beaten cell, winner's last]`. The incoming `last` is clamped to today so a fast clock cannot win forever; what the clamp
-// can still do is lengthen that row's true interval by as many days as the fast clock ran ahead (the schedule's header,
-// SRS-R1 finding 4), never shorten it. `local` may be undefined (a card only the cloud holds). Returns the row to keep;
-// inputs untouched.
+// so the tie rule IS the rule: the SMALLER cell, then the EARLIER EXACT DUE (v1.281.0; the due day before it), then the
+// earlier due day, then the pair read as text, so a full tie keeps the same row whichever side holds it. Smaller cell
+// then earlier due is "the smaller true interval" on one day: showing a card early is cheap, hiding a forgotten one is
+// not. A winner past rung 0 keeps the LONGER interval it beat (the heal of the grade-before-pull race), read as EXACT
+// intervals: a beaten row of the winner's own day is taken as it is, its pair with it (so a second pull finds the same row
+// and writes nothing); one from an earlier day is written as a fresh anchor at the winner's last: [its first whole day,
+// the beaten cell, winner's last], with a pair only when that interval is not whole. The cloud row's pair rides with it (read only if it checks itself). The
+// incoming `last` is clamped to today so a fast clock cannot win forever (its pair then fails its check); `local` may be
+// undefined (a card only the cloud holds). Returns the row to keep; inputs untouched.
 export function ngKnowledgeMergeRow(local, cloud, today) {
   const cc = [cloud[0] | 0, cloud[1] | 0, Math.min(today, cloud[2] | 0)];
+  if (Number.isFinite(cloud[3]) && Number.isFinite(cloud[4])) cc.push(cloud[3], cloud[4]);
   if (!local) return cc;
-  const m = local;
-  let w, o;
-  if (cc[2] !== m[2]) { w = cc[2] > m[2] ? cc : m; }
-  else if (cc[1] !== m[1]) { w = cc[1] < m[1] ? cc : m; }
-  else { w = cc[0] < m[0] ? cc : m; }
-  o = w === cc ? m : cc;
+  const m = local, ed = (r) => r[2] + ngKnowledgeInterval(r);
+  let w;
+  if (cc[2] !== m[2]) w = cc[2] > m[2] ? cc : m;
+  else if (cc[1] !== m[1]) w = cc[1] < m[1] ? cc : m;
+  else if (ed(cc) !== ed(m)) w = ed(cc) < ed(m) ? cc : m;
+  else if (cc[0] !== m[0]) w = cc[0] < m[0] ? cc : m;
+  else w = JSON.stringify(cc.slice(3)) <= JSON.stringify(m.slice(3)) ? cc : m;
+  const o = w === cc ? m : cc;
   const tw = ngKnowledgeInterval(w), to = ngKnowledgeInterval(o);
-  if (tw > 1 && to > tw) w = [w[2] + to, o[1], w[2]];
+  if (tw > 1 && to > tw) {
+    if (o[2] === w[2]) w = o.slice(0, 3).concat(ngKnowledgeAnchor(o).pair ? o.slice(3, 5) : []);
+    else {
+      const A = ngKnowledgeRound4(to);
+      w = [ngKnowledgeDueDay(w[2] + A), o[1], w[2]];
+      if (!Number.isInteger(A)) w.push(A, w[2]);
+    }
+  }
   return w;
 }
 export function ngKnowledgeApplyGrade(evidence, event, manifest, day) {
