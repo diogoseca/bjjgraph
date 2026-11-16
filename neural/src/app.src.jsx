@@ -235,9 +235,10 @@ const NG_CAM_OPEN_CSS = "@property --ng-open-o{syntax:'<number>';inherits:false;
   + "[data-ng-open=faint] .ng-reader :is([data-reader-media],[data-reader-game-media]){visibility:hidden!important}"
   // ...and the section's own controls (article links, tools, section labels) take no tap or focus while faint
   + "[data-ng-open=faint] .ng-reader :is(a,button,input,select,textarea,summary,[tabindex]:not([tabindex='-1'])){visibility:hidden!important}"
-  // ...and the reader itself: at faint its article is under 10% and an opacity-0 article still takes the wheel, which pauses
-  // the game as reading (v1.280.3, STAR1: a round's end board held so under its verdict); hidden, the map takes it
-  + "[data-ng-open=faint] .ng-reader{visibility:hidden}"
+  // ...and the reader itself with its index (the wrap's own child, z 6, outside the reader): at faint the article is under 10%,
+  // the index was not faded at all, and either still takes the wheel, which pauses the game as reading (v1.280.3, STAR1: a
+  // round's end board held so under its verdict); hidden, the map takes it
+  + "[data-ng-open=faint] :is(.ng-reader,.ng-reader-toc){visibility:hidden}"
   + "[data-ng-open=release] :is(.ng-reader," + NG_CAM_OPEN_ROWS + "){transition:opacity .2s ease,translate .2s ease}";
 // Below this the board's rows and shelf are HIDDEN, not merely transparent: an opacity-0 row still takes a
 // tap and focus (CLAUDE.md 6.1; review m3 measured a tap on the first card at effective opacity 0.066). The

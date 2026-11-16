@@ -72,16 +72,21 @@ const noticeOnTop = (page: Page) => page.evaluate(() => {
 })
 
 /** The article as the screen has it: computed visibility, how many sampled points of its on-screen box are its own, and where
- *  the reader stands (its scroll position). */
+ *  the reader stands (its scroll position); and its index (the wrap's own child, outside the reader: on screen from about
+ *  1,350 px of free width), the same way. */
 const articleOf = (page: Page) => page.evaluate(() => {
   const a = (window as W).__neural, art = a._reader?.articleEl as HTMLElement | undefined, sec = a._readerEl as HTMLElement | undefined
-  if (!art?.isConnected) return { vis: "none", owned: 0, box: null as null | number[], scroll: null as null | number }
+  const toc = a._readerTocEl as HTMLElement | null, tr = toc?.isConnected && !toc.hidden && getComputedStyle(toc).display !== "none" ? toc.getBoundingClientRect() : null
+  let tocOwned = 0
+  if (tr && tr.width > 0 && tr.height > 0) for (const fy of [0.1, 0.3, 0.5, 0.7]) { const e = document.elementFromPoint(tr.left + tr.width * 0.3, tr.top + Math.min(tr.height, innerHeight - tr.top) * fy); if (e && toc!.contains(e)) tocOwned++ }
+  const index = { vis: toc ? getComputedStyle(toc).visibility : "none", owned: tocOwned, box: tr && tr.width > 0 ? [tr.left, tr.top, tr.right, Math.min(tr.bottom, innerHeight)].map(Math.round) : null }
+  if (!art?.isConnected) return { vis: "none", owned: 0, box: null as null | number[], scroll: null as null | number, index }
   const r = art.getBoundingClientRect(), l = Math.max(0, r.left), t = Math.max(0, r.top), rr = Math.min(innerWidth, r.right), b = Math.min(innerHeight, r.bottom)
   let owned = 0
   if (rr > l && b > t) for (const fx of [0.2, 0.5, 0.8]) for (const fy of [0.2, 0.5, 0.8]) {
     const e = document.elementFromPoint(l + (rr - l) * fx, t + (b - t) * fy); if (e && art.contains(e)) owned++
   }
-  return { vis: getComputedStyle(art).visibility, owned, box: rr > l && b > t ? [l, t, rr, b].map(Math.round) : null, scroll: sec ? Math.round(sec.scrollTop) : null }
+  return { vis: getComputedStyle(art).visibility, owned, box: rr > l && b > t ? [l, t, rr, b].map(Math.round) : null, scroll: sec ? Math.round(sec.scrollTop) : null, index }
 })
 const state = (page: Page) => page.evaluate(() => {
   const a = (window as W).__neural
@@ -165,6 +170,7 @@ for (const v of VIEWS) test.describe(v.name, () => {
     const j = journey(page)
     await landed(page, j)
     const before = await articleOf(page)
+    if (!v.touch) expect(before.index.owned, "the index is on screen before the round ends (1440)").toBeGreaterThan(0)
     const t0 = await endRound(page)
     let reached = 0
     for (const [ms, what] of HOLD) {
@@ -175,12 +181,19 @@ for (const v of VIEWS) test.describe(v.name, () => {
       const art = await articleOf(page)
       expect(art.vis, `${what} (+${ms} ms): the article is put away, not faded`).toBe("hidden")
       expect(art.owned, `${what} (+${ms} ms): no sampled point of the article's box is the article's`).toBe(0)
+      expect(art.index.owned, `${what} (+${ms} ms): no sampled point of the index's box is the index's`).toBe(0)
       if (ms === 3900 && art.box) {
         // where the article was: a wheel (mouse) or a swipe (touch) reaches the map, never the reader, so the clock runs on
         const x = (art.box[0] + art.box[2]) / 2, y = (art.box[1] + art.box[3]) / 2
         if (v.touch) await swipe(page, x, Math.min(y + 75, v.viewport.height - 10))
         else { await page.mouse.move(x, y); await page.mouse.wheel(0, 240) }
         expect((await state(page)).paused, `a ${v.touch ? "swipe" : "wheel"} during the countdown does not pause the game`).toBe(false)
+        if (!v.touch && before.index.box) {
+          // ...and where the index was (it listens for the wheel itself, and reading pauses the game)
+          await page.mouse.move((before.index.box[0] + before.index.box[2]) / 2, before.index.box[1] + 40)
+          await page.mouse.wheel(0, 120)
+          expect((await state(page)).paused, "a wheel where the index was does not pause the game").toBe(false)
+        }
       }
       reached++
     }
