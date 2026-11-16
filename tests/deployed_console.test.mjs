@@ -98,7 +98,9 @@ test("a run that never navigated, never played, or checked too few head resource
 // a neutral control green; the table is in the PR: the reader's R1 location by substring, R2 text dropped, R3 the exception
 // returning before the offender list is built, R4 a player line clearing earlier offenders, R5 path dropped, R6 host by
 // endsWith("youtube.com"), R7 host only (http and any port), R8 text by includes, R9 not printed, R10 off production only;
-// F1 any feature (the first version's text test), F2 any file under /s/player/ (its path test).
+// F1 any feature (the first version's text test), F2 any file under /s/player/ (its path test); and the reader's re-read
+// (STAR3-R2): F3 any file ending in base.js under /s/player/, F4 the feature found anywhere after the prefix, F5 the feature
+// name without " is not allowed", each red at its own case.
 const YT_LINE = { text: "Permissions policy violation: compute-pressure is not allowed in this document.", at: "https://www.youtube.com/s/player/fad7e4e9/player_embed.vflset/en_US/base.js" }
 
 test("the YouTube player's Permissions-Policy line is discounted, on production too, and nothing is hidden by it", () => {
@@ -147,6 +149,21 @@ test("the YouTube exception (R7): YouTube's host over http, or on another port, 
 
 test("the YouTube exception (R8): the ruled text anywhere but at the START of the line is an offender", () => {
   offendsNotDiscounted([{ text: `Uncaught Error: ${YT_LINE.text}`, at: YT_LINE.at }], "not the player's own line")
+})
+
+test("the YouTube exception (F3): a base.js one folder deeper, or a file that only ends in base.js, is an offender", () => {
+  offendsNotDiscounted([
+    { text: YT_LINE.text, at: "https://www.youtube.com/s/player/fad7e4e9/player_embed.vflset/en_US/x/base.js" },
+    { text: YT_LINE.text, at: "https://www.youtube.com/s/player/fad7e4e9/player_embed.vflset/en_US/xbase.js" },
+  ], "not the player's own base.js")
+})
+
+test("the YouTube exception (F4): the ruled feature named after ANOTHER feature is an offender", () => {
+  offendsNotDiscounted([{ text: "Permissions policy violation: picture-in-picture, compute-pressure is not allowed in this document.", at: YT_LINE.at }], "the line names another feature first")
+})
+
+test("the YouTube exception (F5): a feature whose name only BEGINS with the ruled one is an offender", () => {
+  offendsNotDiscounted([{ text: "Permissions policy violation: compute-pressure-ext is not allowed in this document.", at: YT_LINE.at }], "not the ruled feature")
 })
 
 test("the YouTube exception: the same text from OUR origin is an offender", () => {
