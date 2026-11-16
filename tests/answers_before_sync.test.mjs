@@ -204,7 +204,9 @@ test("the app's moves writer on a card between steps: the Yes at [3], the pair a
 // v1.281.0 (LIN1): the other copy's row sits between steps (its pair at the end). The replay reads that pair, so the card
 // is rebuilt by the writer exactly as one copy holding both answers would have it, and the entry is delivered on that row
 test("P1 on a card between steps: the cloud's pair is read by the replay, and the entry is delivered on the exact row", () => withDay(D, () => fakeTimers(async ({ flush }) => {
-  const BETWEEN = write([D - 10, 30, D - 40], true, D - 30);   // a 30-day card answered early, 10 days in: 40 days, a pair
+  // a 14-day card answered early, 5 days in: 19.714… days, a pair (v1.281.3: a card whose exact interval is whole, as a 30-day
+  // card's 40 days 10 days in, reads the same rung line from its own due, so only a pair off a whole day changes the answer)
+  const BETWEEN = write([D - 4, 14, D - 18], true, D - 13);
   assert.equal(BETWEEN.length, 5);
   const mem = memory(), C = cloud(blob({ srs: { d: { [H1]: BETWEEN } }, moves: { "1/top": { m: BETWEEN.slice(0, 3).concat(1, BETWEEN.slice(3)) } } }));
   C.pullFails = true;

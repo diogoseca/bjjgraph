@@ -10,6 +10,10 @@
 // only if it reproduces the row's due day. The ladder's own cases (his numbers, the cell, daily runs, older clients' rungs)
 // are tests/schedule_ladder.test.mjs.
 //
+// SINCE v1.281.3 (LIN2) THE LINE IS THE RUNG'S: a card between rungs climbs the line of the rung below it, the pair an early
+// answer stores is a rung pair, and nothing is rounded (tests/schedule_rung.test.mjs, its claims and the v1.281.0 client).
+// Every test here still holds on it, with three of v1.281.0's own bounds removed below (said where).
+//
 // THE OLDER CLIENTS, captured from git (never re-typed): dev v1.278.2 (production's text) in tests/artifacts/
 // schedule_old_client.json and v1.280.2 (the log-scale credit) in tests/artifacts/schedule_prev_client.json.
 //
@@ -165,19 +169,43 @@ test("a run of early answers inside one step earns exactly what one answer at it
   assert.ok(runs > 2500, `${runs} runs`);
 });
 
-test("nothing rounds per answer: the pair is recomputed, and A and t0 change only when a step is taken", () => {
-  // a 14-day card (ratio 15/7, not whole) answered on every one of its 13 early days: every interval exact to 1e-9
-  let row = [14, 14, 0];
+test("nothing is rounded (v1.281.3): an on-time answer lands exactly on its step, an early one stores a rung pair, moved only when a rung is crossed", () => {
+  // a 14-day card (ratio 15/7, not whole) answered on every one of its 13 early days: the rung pair stays [14, D], every
+  // interval exact to 1e-9 (at a real epoch day, D = 20,400: LIN2-R1)
+  const D = 20400;
+  let row = [D + 14, 14, D];
   for (let d = 1; d < 14; d++) {
-    row = W(row, true, d);
-    assert.deepEqual(row.slice(3), [14, 0], `day ${d}: the anchor is still the last full step`);
+    row = W(row, true, D + d);
+    assert.deepEqual(row.slice(3), [14, D], `day ${d}: the card still stands on the 14-day rung's line`);
     assert.ok(Math.abs(K.ngKnowledgeInterval(row) - (14 + (d * 16) / 14)) < 1e-9, `day ${d}`);
   }
-  // off the rungs the step is not whole: 4 decimals at most, in A and t0 alike
-  for (const r of POP.concat(POP_MOVES.map((m) => m.slice(0, 3).concat(m.slice(4))))) if (r.length >= 5) for (const x of r.slice(3, 5)) {
-    assert.ok(Math.abs(x * 1e4 - Math.round(x * 1e4)) < 1e-6, `${r}: ${x} carries at most 4 decimals`);
+  // ON TIME OR LATE: exactly one step from the interval read (the number computed, not rounded), anchored at the answer's day
+  let onTime = 0;
+  for (const r of POP) for (const d of [r[0], r[0] + 9]) {
+    const n = W(r, true, d), want = K.ngKnowledgeStep(K.ngKnowledgeInterval(r));
+    if (K.ngKnowledgeDueDay(d + want) < r[0]) continue;   // the never-sooner guard's own rows
+    assert.equal(K.ngKnowledgeInterval(n), want, `${r} on ${d}: ${n}`);
+    assert.equal(n.length === 5 ? n[4] : d, d, `${r} on ${d}: anchored at its own day`);
+    onTime++;
   }
-  assert.deepEqual(W([120, 120, 0], true, 120), [362, 120, 120, 241.6667, 120]);
+  assert.ok(onTime > 1000, `${onTime} on-time and late answers`);
+  assert.deepEqual(W([D + 120, 120, D], true, D + 120), [D + 362, 120, D + 120, 180 + 185 / 3, D + 120], "one step from 120 days: 241.666…, not rounded");
+  // the same in the moves layout (the pair at [4]): every row of POP_MOVES answered on its due and past it
+  let movesOnTime = 0;
+  for (const r of POP_MOVES) for (const d of [r[0], r[0] + 9]) {
+    const n = W(r, true, d, 4), want = K.ngKnowledgeStep(K.ngKnowledgeInterval(r, 4));
+    if (K.ngKnowledgeDueDay(d + want) < r[0]) continue;
+    assert.equal(K.ngKnowledgeInterval(n, 4), want, `${r} on ${d} (moves): ${n}`);
+    movesOnTime++;
+  }
+  assert.ok(movesOnTime > 300, `${movesOnTime} on-time and late answers, moves layout`);
+  // EARLY: the pair a right answer stores before the due is a rung pair (its A on the ladder), unless no day was waited (the
+  // row kept as it was), in both layouts
+  for (const r of POP) if (r.length >= 5 && r[4] !== r[2]) assert.ok(L.includes(r[3]), `${r}: an early answer's pair stands on a rung`);
+  for (const r of POP_MOVES) if (r.length >= 6 && r[5] !== r[2]) assert.ok(L.includes(r[4]), `${r}: an early answer's pair stands on a rung (moves)`);
+  // a second right answer the same day rewrites nothing, whatever pair the row holds (v1.281.0's off-rung pairs included)
+  for (const r of POP) if (r[0] > r[2]) assert.deepEqual(W(r, true, r[2]), r, `${r} answered again on its own last day`);
+  assert.deepEqual(W([D + 181, 60, D + 86, 72, D + 56], true, D + 86), [D + 181, 60, D + 86, 72, D + 56], "a v1.281.0 pair off the rungs (72 days from its day 56), kept");
   // a row the writer makes never carries a pair that says nothing (anchored at its last on a whole interval)
   for (const r of POP) if (r.length >= 5) assert.ok(r[4] !== r[2] || !Number.isInteger(r[3]), `${r}: a redundant pair`);
 });
@@ -268,68 +296,11 @@ test("a fast clock's moves row: the merge clamps its last below its pair's day, 
   assert.ok(Math.abs(K.ngKnowledgeLinear(14, -5) - 8.2857) < 1e-4 && K.ngKnowledgeDueDay(1000 + K.ngKnowledgeLinear(14, -5)) === 1009, "the line reproduces its due");
 });
 
-// AHEAD OF ANSWERING ON TIME: A MEASURED BOUND, NOT A PROMISE (LIN1-R2, the reader's D1, ruled: the cliff correction stays). An
-// early answer can leave a card ahead of where answering on time would have it, in two ways; both are pinned here as bounds,
-// with the reader's own searches replayed exactly (its seeds and loops) and its worst sequences as fixtures
-const onTimePath = (row, n) => { const p = []; let r = row; for (let k = 0; k < n; k++) { const d = r[0]; r = W(r, true, d); p.push({ day: d, row: r }); } return p; };
-test("ahead of on time, (a) runs of early answers only: 1,150 of 566,832 prefixes, at most 10 days and 8.1% of the interval", () => {
-  let s21 = 21; const rnd = () => (s21 = (s21 * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff;
-  const starts = [];
-  for (let i = 0; i < 13; i++) starts.push([10000 + L[i], K.ngKnowledgeCell(L[i]), 10000]);
-  for (const iv of [2, 5, 10, 20, 42, 45, 59, 75, 89, 100, 120, 150, 241, 300, 500, 1000, 2000]) starts.push([10000 + iv, K.ngKnowledgeCell(iv), 10000]);
-  let prefixes = 0, ahead = 0, days = 0, share = 0;
-  for (const st of starts) {
-    const P = onTimePath(st, 40);
-    for (let q = 0; q < 3000; q++) {
-      let r = st;
-      for (let i = 0, n = 2 + Math.floor(rnd() * 10); i < n; i++) {
-        const room = r[0] - r[2] - 1; if (room < 1) break;
-        const d = r[2] + 1 + Math.floor(rnd() ** (rnd() < 0.5 ? 0.3 : 2) * room);
-        r = W(r, true, d); prefixes++;
-        const k = P.findIndex((p) => p.day >= d); if (k < 0) continue;
-        const by = r[0] - P[k].row[0];
-        if (by > 0) { ahead++; days = Math.max(days, by); share = Math.max(share, by / (P[k].row[0] - P[k].day)); }
-      }
-    }
-  }
-  assert.equal(prefixes, 566832, "the reader's search, replayed");
-  assert.ok(ahead <= 1150 && days <= 10 && share <= 0.0807, `${ahead} prefixes ahead, by at most ${days} days, ${share} of the interval`);
-  // the worst: a 20-day card answered early six times ends 10 days after the on-time path's next answer (124 days on: 8.1%)
-  let r = [10020, 14, 10000];
-  for (const d of [9, 32, 38, 81, 92, 134]) r = W(r, true, 10000 + d);
-  assert.deepEqual(r, [10268, 120, 10134, 84.3409, 10081]);
-  assert.deepEqual(onTimePath([10020, 14, 10000], 40).find((p) => p.day >= 10134), { day: 10134, row: [10258, 120, 10134, 123.75, 10134] });
-});
-
-test("ahead of on time, (b) early, on time, then early: 63 of 40,536, at most 10 days (11%), and about a tenth ahead for good", () => {
-  let tried = 0, ahead = 0, days = 0, share = 0;
-  for (let i = 0; i < 13; i++) {
-    const A = L[i], t = 100000, start = [t + A, K.ngKnowledgeCell(A), t], P = onTimePath(start, 12);
-    for (let f = 1; f < A; f += Math.max(1, Math.floor(A / 60))) for (const lateBy of [0, 1, 2, 5]) for (const g of [0.1, 0.3, 0.5, 0.7, 0.9, 0.97]) for (const tail of [1, 2, 3]) {
-      let r = W(start, true, t + f); const ds = [t + f];
-      const d2 = r[0] + lateBy; r = W(r, true, d2); ds.push(d2);
-      for (let k = 1; k <= tail; k++) { const iv = r[0] - r[2], d = r[2] + Math.max(1, Math.floor((iv * g * k) / tail)); if (d >= r[0]) break; r = W(r, true, d); ds.push(d); }
-      tried++;
-      const k = P.findIndex((p) => p.day >= ds[ds.length - 1]); if (k < 0) continue;
-      const by = r[0] - P[k].row[0];
-      if (by > 0) { ahead++; days = Math.max(days, by); share = Math.max(share, by / (P[k].row[0] - P[k].day)); }
-    }
-  }
-  assert.equal(tried, 40536, "the reader's search, replayed");
-  assert.ok(ahead <= 63 && days <= 10 && share <= 0.1112, `${ahead} sequences ahead, by at most ${days} days, ${share} of the interval`);
-  // the worst: a 30-day card answered on days 13, 56 (its due), 66 and 90 comes due on day 190, where the on-time path (30,
-  // 90) comes due on 180: the straight line between rungs (one step from 73 is 129, a third of 90 to 180) grows a card that
-  // took early credit faster than the rung below it. Answered on time from there, it stays about a tenth ahead
-  let r = [100030, 30, 100000];
-  const rows = [];
-  for (const d of [13, 56, 66, 90]) { r = W(r, true, 100000 + d); rows.push(r); }
-  assert.deepEqual(rows, [[100056, 30, 100013, 30, 100000], [100129, 60, 100056], [100147, 60, 100066, 73, 100056], [100190, 60, 100090, 73, 100056]]);
-  let ot = W(W([100030, 30, 100000], true, 100030), true, 100090);
-  const lead = [[r[0] - 100000, ot[0] - 100000]];
-  for (let k = 0; k < 4; k++) { r = W(r, true, r[0]); ot = W(ot, true, ot[0]); lead.push([r[0] - 100000, ot[0] - 100000]); }
-  assert.deepEqual(lead, [[190, 180], [389, 360], [791, 725], [1595, 1455], [3204, 2916]]);
-});
-
+// THE BOUNDS OF v1.281.0 (LIN1-R2's "ahead of on time" (a) and (b), LIN1-R3's "one more early answer can cost days") pinned
+// that rule's straight line from a card's own interval. v1.281.3 (LIN2) puts every card on its rung's line, where neither
+// holds any more: their successors, "ahead of answering on time by at most 3 whole days, never in exact days" and "an early
+// right answer never leaves a card due sooner than without it", are tests/schedule_rung.test.mjs, replayed over the same
+// searches. Removed here on purpose, not lost.
 test("one early answer, then the next on its old due or its own new due, never costs the card anything (LIN1-R2, scoped at LIN1-R3)", () => {
   // the property the owner is asked to prefer (U192), and only this much of it holds (LIN1-R3: over longer runs an extra
   // early answer can cost days, the next test). For every rung, a card answered once early on every day of its step, then
@@ -355,73 +326,6 @@ test("one early answer, then the next on its old due or its own new due, never c
   assert.deepEqual(W([30, 30, 0], true, 30), [90, 60, 30]);
 });
 
-// OVER LONGER RUNS AN EXTRA EARLY ANSWER CAN COST DAYS: A MEASURED BOUND (LIN1-R3, the reader's N1, ruled: the rule stays, the
-// claim is scoped). One more early right answer can turn a later answer from late (one full step from where the card is, a
-// fresh line, here steeper) into early (the card's old line's value, here lower). The reader's search is replayed exactly (its
-// seeds, starts and loops): base histories of right answers, each with ONE more right answer added in a gap, early when given,
-// compared after every later answer of the base
-test("over longer runs one more early answer can leave a card due sooner: 4,196 of 1,123,024, at most 39 days (LIN1-R3)", () => {
-  const T = 10000, starts = [];
-  for (let i = 0; i < 12; i++) starts.push({ kind: "rung", row: [T + L[i], K.ngKnowledgeCell(L[i]), T] });
-  for (const iv of [2, 5, 10, 20, 42, 45, 59, 75, 89, 100, 120, 150, 241, 300, 500, 1000, 2000]) starts.push({ kind: "dev", row: [T + iv, K.ngKnowledgeCell(iv), T] });
-  starts.push({ kind: "head", row: W([T + 120, 120, T], true, T + 120) });
-  for (let i = 2; i < 11; i++) starts.push({ kind: "mid", row: W([T + L[i], K.ngKnowledgeCell(L[i]), T], true, T + Math.floor(L[i] * 0.4)) });
-  let s77 = 77; const rnd = () => (s77 = (s77 * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff;
-  const rows = (row, days) => days.map((d) => (row = W(row, true, d)));
-  let inserted = 0, compared = 0, sooner = 0, onRung = 0, days = 0, share = 0;
-  const search = (st, ds) => {
-    const base = rows(st.row, ds), from = [st.row[2], ...ds];
-    for (let g = 0; g < ds.length; g++) {
-      const lo = from[g], hi = ds[g], prior = g ? base[g - 1] : st.row, span = hi - lo - 1;
-      if (span < 1) continue;
-      for (let t = 0, n = Math.min(span, 12); t < n; t++) {
-        const e = lo + 1 + Math.floor(((t + rnd()) / n) * span);
-        if (!(e > lo && e < hi && e < prior[0])) continue;   // early: before the due of the row it answers
-        inserted++;
-        const ext = rows(st.row, [...ds.slice(0, g), e, ...ds.slice(g)]);
-        for (let k = g; k < ds.length; k++) {
-          compared++;
-          const by = base[k][0] - ext[k + 1][0];
-          if (by > 0) { sooner++; if (st.kind === "rung") onRung++; days = Math.max(days, by); share = Math.max(share, by / (base[k][0] - ds[k])); }
-        }
-      }
-    }
-  };
-  for (const st of starts) {
-    const I = K.ngKnowledgeInterval(st.row);
-    { const d = []; let r = st.row; for (let i = 0; i < 4; i++) { d.push(r[0]); r = W(r, true, r[0]); } for (let n = 1; n <= 4; n++) search(st, d.slice(0, n)); }
-    for (const fr of [[0.2], [0.5], [0.9], [0.3, 0.6], [0.5, 0.95], [0.2, 0.5, 0.8]]) {
-      const d = []; let r = st.row;
-      for (const f of fr) { const day = r[2] + Math.max(1, Math.floor((r[0] - r[2]) * f)); if (day >= r[0]) break; d.push(day); r = W(r, true, day); }
-      for (let i = 0; i < 2; i++) { d.push(r[0]); r = W(r, true, r[0]); }
-      search(st, d);
-    }
-    for (const gap of [0.3, 0.45, 0.7]) {
-      const step = Math.max(1, Math.floor(I * gap)), d = [];
-      for (let x = st.row[2] + step; x <= st.row[2] + Math.min(2.2 * I, 60 * step); x += step) d.push(x);
-      if (d.length) search(st, d);
-    }
-    { const d = []; let r = st.row; for (const f of [1.3, 0.5, 1.0, 2.0]) { const day = r[2] + Math.max(1, Math.floor((r[0] - r[2]) * f)); d.push(day); r = W(r, true, day); } search(st, d); }
-    for (let q = 0; q < 300; q++) {
-      const d = []; let r = st.row;
-      for (let i = 0, n = 1 + Math.floor(rnd() * 6); i < n; i++) { const day = r[2] + Math.max(1, Math.floor((r[0] - r[2]) * (0.05 + rnd() * 1.45))); d.push(day); r = W(r, true, day); }
-      search(st, d);
-    }
-  }
-  assert.deepEqual([inserted, compared], [430381, 1123024], "the reader's search, replayed");
-  assert.ok(sooner <= 4196 && onRung <= 534 && days <= 39 && share <= 0.099, `${sooner} comparisons sooner (${onRung} from a rung), by at most ${days} days, ${share} of the interval`);
-  // the case for the owner: a 30-day card answered on days 12, 56 and 86 comes due day 181. One more right answer on day 19
-  // moves its due from 54 to 68, so day 56 is early and walks the card's first line (60 days from day 30, 0.5 a day) instead of
-  // taking one step from 42 to 72 (a fresh line from day 56, 0.75 a day): due day 174, 7 days sooner
-  const run = (ds) => rows([30, 30, 0], ds);
-  assert.deepEqual(run([12, 56, 86]), [[54, 30, 12, 30, 0], [128, 60, 56], [181, 60, 86, 72, 56]]);
-  assert.deepEqual(run([12, 19, 56, 86]), [[54, 30, 12, 30, 0], [68, 30, 19, 30, 0], [129, 60, 56, 60, 30], [174, 60, 86, 60, 30]]);
-  // the worst: a 75-day row answered on +15, +106, +173, +516, +1,049 and +2,113, and with one more on +21: 39 days sooner
-  const far = [15, 106, 173, 516, 1049, 2113].map((d) => T + d), start = [T + 75, 60, T];
-  assert.deepEqual(rows(start, far).at(-1), [14046, 120, 12113, 1932.9674, 12113]);
-  assert.deepEqual(rows(start, [far[0], T + 21, ...far.slice(1)]).at(-1), [14007, 120, 12113, 1893.8887, 12113]);
-});
-
 test("the rating and the Practice order choose a shared question's row by the earlier EXACT due, in either order", () => {
   // one day, one cell, one due day: 60.5 days against 61; the due count owes both on day 1061, the rating reads the earlier
   const a = [1061, 60, 1000, 60, 999], b = [1061, 60, 1000];
@@ -438,10 +342,10 @@ test("the rating and the Practice order choose a shared question's row by the ea
 test("the srs merge: the winner's pair rides only while it checks; the heal is a fresh anchor; ties read the exact due", () => {
   // (1) the cloud's pair rides with it
   assert.deepEqual(K.ngKnowledgeMergeRow([31, 1, 1], [88, 30, 29, 30, 0], 100), [88, 30, 29, 30, 0]);
-  // (2) the heal: a fresh first answer (3 days) beats the row it heals from (between steps, 19.7143 days): that interval, at
-  // the winner's last, with a pair because it is not whole; a whole one carries none
+  // (2) the heal: a fresh first answer (3 days) beats the row it heals from (between steps, 19.714… days): that interval as
+  // read, not rounded (v1.281.3), at the winner's last, with a pair because it is not whole; a whole one carries none
   const between = W([14, 14, 0], true, 5);
-  assert.deepEqual(K.ngKnowledgeMergeRow([13, 3, 10], between, 100), [30, 14, 10, 19.7143, 10]);
+  assert.deepEqual(K.ngKnowledgeMergeRow([13, 3, 10], between, 100), [30, 14, 10, 14 + (5 * 16) / 14, 10]);
   assert.deepEqual(K.ngKnowledgeMergeRow([13, 3, 10], [60, 30, 5], 100), [65, 30, 10]);
   // (3) one day, one cell, one due day, two exact dues (60.5 and 61): the earlier exact due wins the tie and heals to the
   // longer interval it beat, 61, whole, so no pair; the same in both orders
@@ -491,7 +395,7 @@ test("the moves merge: the same three rules, the answer and the later build's ce
   // a same-day heal takes the beaten row as it is, the winner's answer kept
   assert.deepEqual(ngProgressMergeMoves({ s: { m: [1003, 3, 1000, 1] } }, { s: { m: [1008, 7, 1000, 1, 7, 999] } }, 1400).s.m, [1008, 7, 1000, 1, 7, 999]);
   // the heal to an exact interval that is not whole, the winner's Yes kept
-  assert.deepEqual(ngProgressMergeMoves({ s: { m: [13, 3, 10, 1] } }, { s: { m: moves(W([14, 14, 0], true, 5)) } }, 100).s.m, [30, 14, 10, 1, 19.7143, 10]);
+  assert.deepEqual(ngProgressMergeMoves({ s: { m: [13, 3, 10, 1] } }, { s: { m: moves(W([14, 14, 0], true, 5)) } }, 100).s.m, [30, 14, 10, 1, 14 + (5 * 16) / 14, 10]);
 });
 
 test("an older client: its merges keep the due day of a row with a pair, and its writers never send it to 1 day", () => {
