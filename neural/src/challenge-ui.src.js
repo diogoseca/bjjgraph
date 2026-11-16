@@ -236,8 +236,15 @@ const NG_CHALLENGE_UI_METHODS = {
     if (view !== "challenges") this.openExplorer(); // openPane renders the active view's body (and hides any in-pane dossier)
   },
 
-  challengeAction(definition, trackId) {
-    if (!this.beltUnlocked(trackId)) return;
+  // WHAT AN OBJECTIVE'S ACTION OPENS (v1.284.0, SET1 slice B). One resolver, read by the row (is there anything to press?) and
+  // by the press: a function that does the action, or null when there is nothing to open. A study / checkpoint / capstone
+  // action opens the ready checkpoint, the capstone, or a live lesson of its belt; with no live lesson at all (the
+  // curriculum not here yet or failed to load, or none of the belt's lessons in this ruleset) it has nothing to open, so its
+  // row draws no button, and the corridor's repaint when the curriculum lands brings it back. Until v1.284.0 that case
+  // called `openHomeToLatest`, deleted with the History tab's study home in v1.174.0 and defined nowhere since: the press
+  // threw a TypeError and nothing happened (found by another seat, 16 Nov). Any other action closes the drawer onto the
+  // map, as before. Pinned by challenges-ui's "an objective with nothing to open draws no button".
+  _challengeActionTarget(definition, trackId) {
     const action = String((definition && definition.action) || "").toLowerCase();
     const belt =
       this.curriculum &&
@@ -258,31 +265,25 @@ const NG_CHALLENGE_UI_METHODS = {
         const live = unit.lessons.filter((lesson) => this._lessonLive(lesson));
         return live.length && live.every((lesson) => this.lessonDone(lesson.deckKey));
       });
-      if (readyUnit) {
-        this.startCheckpoint(belt.id, readyUnit);
-        return;
-      }
+      if (readyUnit) return () => this.startCheckpoint(belt.id, readyUnit);
     }
     if (action.includes("capstone") && belt) {
-      if (belt.units.every((unit) => this.unitComplete(belt.id, unit))) {
-        this.startBeltTest(belt.id);
-        return;
-      }
+      if (belt.units.every((unit) => this.unitComplete(belt.id, unit))) return () => this.startBeltTest(belt.id);
     }
     if (
       action.includes("study") ||
       action.includes("checkpoint") ||
       action.includes("capstone")
     ) {
-      if (nextLesson) {
-        this.openLessonStudy(nextLesson.lesson, nextLesson.unit, nextLesson.belt);
-      } else {
-        this.closeExplorerIfOpen();
-        this.openHomeToLatest();
-      }
-      return;
+      return nextLesson ? () => this.openLessonStudy(nextLesson.lesson, nextLesson.unit, nextLesson.belt) : null;
     }
-    this.closeExplorerIfOpen();
+    return () => this.closeExplorerIfOpen();
+  },
+
+  challengeAction(definition, trackId) {
+    if (!this.beltUnlocked(trackId)) return;
+    const go = this._challengeActionTarget(definition, trackId);
+    if (go) go();
   },
 
   challengeObjectiveElement(definition, trackId) {
@@ -311,14 +312,14 @@ const NG_CHALLENGE_UI_METHODS = {
       (entry.done
         ? "Complete"
         : entry.progress + " of " + definition.target) +
-      '</small><button type="button" class="ng-challenge-action">' +
-      ngChallengeHTML(definition.action) +
-      "</button></div>";
-    article
-      .querySelector(".ng-challenge-action")
-      .addEventListener("click", () =>
-        this.challengeAction(definition, trackId),
-      );
+      "</small>" +
+      // the button only where its action can open something (`_challengeActionTarget`); a locked belt's row keeps it, as before
+      (!this.beltUnlocked(trackId) || this._challengeActionTarget(definition, trackId)
+        ? '<button type="button" class="ng-challenge-action">' + ngChallengeHTML(definition.action) + "</button>"
+        : "") +
+      "</div>";
+    const button = article.querySelector(".ng-challenge-action");
+    if (button) button.addEventListener("click", () => this.challengeAction(definition, trackId));
     return article;
   },
 

@@ -625,3 +625,45 @@ test.describe("Challenges UI", () => {
     await expect(page.locator(".ng-tut")).toHaveCount(0);
   });
 });
+
+// THE OBJECTIVE ROW'S BUTTON OPENS SOMETHING, OR IS NOT DRAWN (v1.284.0, SET1 slice B). A study / checkpoint / capstone action
+// whose belt has no live lesson (here: no curriculum, a 404) used to call `openHomeToLatest`, a method deleted in v1.174.0
+// and defined nowhere since: the press threw a TypeError and nothing happened (found by another seat, 16 Nov).
+// `_challengeActionTarget` now resolves the action once, for the row and for the press, and such a row draws no button; the
+// corridor's repaint when the curriculum lands brings it back. The control: with the curriculum, the same row's button opens
+// the belt's next lesson in Master the game.
+// Mutant: the old branch back (the button drawn, the press calling `openHomeToLatest`) → red at "no button on a row with
+// nothing to open".
+test.describe("an objective's action", () => {
+  test("with nothing to open (a curriculum 404), the row draws no button and nothing throws", async ({ page }) => {
+    const errors: string[] = [];
+    page.on("pageerror", (e) => errors.push(e.message));
+    const j = journey(page);
+    await j.boot("/", { noCurriculum: true });
+    await j.openCorridor({ curriculum: false });
+    const row = page.locator('[data-challenge-id="white.recall"]');
+    await expect(row, "premise: the White objective \"Prove a card from memory\" is drawn without a curriculum").toHaveCount(1);
+    expect(await page.evaluate(() => (window as any).__neural.curriculum), "premise: no curriculum").toBeNull();
+    await expect(row.locator(".ng-challenge-action"), "no button on a row with nothing to open").toHaveCount(0);
+    // the rows whose action needs no lesson keep theirs ("Start a roll here" closes the drawer onto the map)
+    expect(await page.locator(".ng-challenge-row .ng-challenge-action").count(), "the other rows keep their buttons").toBeGreaterThan(0);
+    expect(errors, "no pageerror").toEqual([]);
+  });
+
+  test("with the curriculum, Study the technique opens the belt's next lesson", async ({ page }) => {
+    const errors: string[] = [];
+    page.on("pageerror", (e) => errors.push(e.message));
+    const j = journey(page);
+    await j.boot("/");
+    await j.openCorridor();
+    const sel = '[data-challenge-id="white.recall"] .ng-challenge-action';
+    await expect(page.locator(sel), "the row's button is drawn when it can open a lesson").toHaveCount(1);
+    const next = await page.evaluate(() => (window as any).__neural.challengeFrontier("white")?.lesson?.deckKey ?? null);
+    expect(next, "premise: the White belt has a next lesson").toBeTruthy();
+    await page.locator(sel).scrollIntoViewIfNeeded();
+    await j.readerLayoutSettled();
+    await j.clickByMouse(sel, "Study the technique");
+    await expect(page.locator(`[data-mini-deck="${next}"]`).first(), "the next lesson's deck opens in Master the game").toBeVisible({ timeout: 20_000 });
+    expect(errors, "no pageerror").toEqual([]);
+  });
+});
