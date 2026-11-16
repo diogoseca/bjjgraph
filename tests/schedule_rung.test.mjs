@@ -85,7 +85,7 @@ test("the rung pair: a card between rungs stands on the line of the rung below i
 });
 
 test("an early right answer never leaves a card due sooner than without it: the reader's searches replayed, 0 of 1,113,790 and 0 of 509,533", () => {
-  // (1) the reader's long search (e_never_costs): base histories of right answers, each with ONE more right answer added in a
+  // (1) the reader's long extra-answer search: base histories of right answers, each with ONE more right answer added in a
   // gap, early when given, compared after every later answer of the base
   const T = 10000, starts = [];
   for (let i = 0; i < 12; i++) starts.push({ kind: "rung", row: [T + L[i], cell(L[i]), T] });
@@ -130,7 +130,7 @@ test("an early right answer never leaves a card due sooner than without it: the 
     }
   }
   assert.deepEqual([inserted, compared, sooner], [427680, 1113790, 0], "the reader's search replayed: never sooner");
-  // (2) the reader's exhaustive two-answer search (e_minimal2): two base answers b1 < b2, one extra early answer before b1 or
+  // (2) the reader's exhaustive two-answer search: two base answers b1 < b2, one extra early answer before b1 or
   // between them, over a grid of days from rung starts and dev rows
   let n2 = 0, bad2 = 0;
   for (const s of [...L.slice(0, 10).map((x) => [x, cell(x), 0]), ...[5, 20, 42, 75, 100, 120, 241, 500, 2000].map((x) => [x, cell(x), 0])]) {
@@ -186,7 +186,7 @@ test("from rows v1.281.0 wrote (anchors off the rungs): one early answer, then t
 
 test("ahead of answering on time by at most 3 whole days, never in exact days: the reader's searches replayed, 839 of 566,832 and 0 of 40,536", () => {
   const onTimePath = (row, n, exact) => { const p = []; let r = row; for (let k = 0; k < n; k++) { const d = exact ? exactDue(r) : r[0]; r = W(r, true, d); p.push({ day: d, row: r }); } return p; };
-  // (a) the reader's early-only search (b_early): runs of answers each before the row's due, against the on-time path from the
+  // (a) the reader's early-only search: runs of answers each before the row's due, against the on-time path from the
   // run's start answered on its whole due days, and against the same path answered at its EXACT dues
   const rnd = lcg(21), starts = [];
   for (let i = 0; i < 13; i++) starts.push([10000 + L[i], cell(L[i]), 10000]);
@@ -214,7 +214,7 @@ test("ahead of answering on time by at most 3 whole days, never in exact days: t
   // line: the on-time path answers on whole due days, a fraction of a day after its exact due each time, and restarts there
   assert.deepEqual(worst.r, [11013, 120, 10508, 365, 10368.75]);
   assert.deepEqual([worst.next.day, worst.next.row[0]], [10508, 11010]);
-  // (b) the reader's targeted search (b_targeted): early, on its due (+0, 1, 2 or 5), then early near the next due
+  // (b) the reader's targeted search: early, on its due (+0, 1, 2 or 5), then early near the next due
   let tried = 0, aheadB = 0;
   for (let i = 0; i < 13; i++) {
     const A = L[i], t = 100000, start = [t + A, cell(A), t], P = onTimePath(start, 12, false);
@@ -321,7 +321,7 @@ test("the rows v1.281.0 wrote are never made due sooner: answered by v1.281.3 on
     for (let d = r[2]; d <= r[0] + 2 * I; d += Math.max(1, Math.floor(I / 40))) { assert.ok(W(r, true, d)[0] >= r[0], `${r} answered on ${d}`); answers++; }
   }
   assert.ok(answers > 20000, `${answers} answers on v1.281.0's rows`);
-  // (2) mixed writers (the reader's a_mixed2, written fresh): one card on one to three devices, each answering with its own client
+  // (2) mixed writers (the reader's mixed-writer search, written fresh): one card on one to three devices, each answering with its own client
   // (v1.281.3, v1.281.0, v1.280.2, v1.278.2) and pulling the cloud's row through its own merge; v1.281.3's right answers are
   // never sooner than the row before them, and its merges never below both rows they merge
   const clients = { now: { write: W, merge: K.ngKnowledgeMergeRow }, lin1: { write: lin1.write, merge: lin1.merge }, prev: { write: prev.write, merge: prev.merge }, old: { write: oldWrite, merge: null } };
