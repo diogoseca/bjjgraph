@@ -784,14 +784,15 @@ test("S0: a move's worth is what a right answer adds to the rating, read from it
   assert.equal(o.status, "ok", "a record of moves alone is a session");
   assert.deepEqual(o.moves.map((m) => m.id), ["m:2/top:20", "m:1/top:10"], "the bigger gain first");
   // and the gain IS the rating's: what the rating rises by when the move is answered right today = its price × (1 − recall)
+  // (read as a MOVES row: its schedule pair at [4], after the answer at [3], v1.281.0's `at`)
   const gain = (st, mv) => {
     const after = structuredClone(moves), r = after[st][mv];
     after[st][mv] = ngKnowledgeScheduleRow(r, true, D).concat(1);
     return (ngRatingShare(U, { moves: after }, D).share - ngRatingShare(U, { moves }, D).share) * U.total;
   };
   const price = (st, mv) => U.seats.get(st).get(mv);
-  assert.ok(Math.abs(gain("1/top", "10") - price("1/top", "10") * (1 - ngRatingRecall(moves["1/top"][10], true, D))) < 1e-12);
-  assert.ok(Math.abs(gain("2/top", "20") - price("2/top", "20") * (1 - ngRatingRecall(moves["2/top"][20], false, D))) < 1e-12);
+  assert.ok(Math.abs(gain("1/top", "10") - price("1/top", "10") * (1 - ngRatingRecall(moves["1/top"][10], true, D, 4))) < 1e-12);
+  assert.ok(Math.abs(gain("2/top", "20") - price("2/top", "20") * (1 - ngRatingRecall(moves["2/top"][20], false, D, 4))) < 1e-12);
   assert.ok(gain("2/top", "20") > gain("1/top", "10"), "Y's gain is the larger");
 });
 
