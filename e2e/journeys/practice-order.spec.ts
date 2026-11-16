@@ -400,9 +400,15 @@ for (const touch of [true, false]) {
         await press(page, open + " [data-mini-got]", "Got it", touch)
         if (i === 0) {
           await expect.poll(async () => (await state()).done, { message: "the goal's last answer counts" }).toBe(20)
-          const at = await state()
-          expect(at.owed, "premise: cards still owed at the goal").toBeGreaterThan(0)
-          expect(at.shown, "the dot: out at the goal, with cards still owed").toBe(false)
+          expect((await state()).owed, "premise: cards still owed at the goal").toBeGreaterThan(0)
+          // THE CLAIM: the dot goes out at the goal, owed cards or not; not "in the same task as the answer". The answer is
+          // stored at once (the count above), the dot is repainted by `_refreshGameplanUI`'s zero-delay timer one task later
+          // (`_paintBadge`), so it is POLLED here, with a short ceiling. FLAKE1: read once straight after the count, it saw the
+          // dot still lit on CI's push run of v1.281.0 (1 red; 0 in 30 local runs at 390x631); with that repaint delayed 0 to 60
+          // ms the one-shot read was red 10 of 10 (both sizes, here) and this poll green 10 of 10. Mutants of the claim: the dot
+          // kept lit at the goal while cards are owed is red here (both sizes) and at sidebar's "the goal met: no dot"; lit with
+          // nothing owed, red at sidebar's "nothing owed: no dot"
+          await expect.poll(async () => (await state()).shown, { timeout: 2_000, message: "the dot: out at the goal, with cards still owed" }).toBe(false)
         }
         await page.waitForTimeout(700)
       }
