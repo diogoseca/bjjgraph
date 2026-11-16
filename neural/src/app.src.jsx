@@ -21619,7 +21619,13 @@ class Component extends DCLogic {
       if (el === this.canvas || el === this._readerEl || el === wrap || el.hidden || el.hasAttribute("data-seat-star")) continue;
       const r = el.getBoundingClientRect(), cs = getComputedStyle(el);
       const o = +(el.style.opacity || cs.opacity);
-      if (r.width > 0 && r.height > 0 && cs.display !== "none" && cs.visibility !== "hidden" && o >= 0.05) blocks.push({ l: r.left - cv.left, r: r.right - cv.left, t: r.top - cv.top, b: r.bottom - cv.top, el, o, cv });
+      // A PICKER KEEPS WHAT IT IS ANCHORED TO (v1.280.4, STAR2, ruled): the list menu opened from a seat's star is tagged `pick`, and
+      // the two placements whose label carries that star (the position's own, `clearP`; the pointer's, `clear`) do not count it.
+      // Since v1.280.0 (#417) the menu's own paint refused the name it was opened from: the star went with its name the next frame
+      // and `_syncSeatStars` closed the menu with the star (a press opened it, the next frame shut it; v1.279.0 kept it open).
+      // Every other name still keeps clear of the menu, and a star whose label goes for any other reason (the seat changing,
+      // other paint) is still removed with its menu, so a menu is never left open over a position that is no longer the seat.
+      if (r.width > 0 && r.height > 0 && cs.display !== "none" && cs.visibility !== "hidden" && o >= 0.05) blocks.push({ l: r.left - cv.left, r: r.right - cv.left, t: r.top - cv.top, b: r.bottom - cv.top, el, o, cv, pick: el === this._pickEl && !!this._pickAnchor?.hasAttribute("data-seat-star") });
     }
     return { blocks, l: this._paneLayout().left, r: this.W, b: this.H, v: blocks.map((b) => [b.l, b.t, b.r, b.b].map(Math.round)).join(";") };
   }
@@ -22360,7 +22366,7 @@ class Component extends DCLogic {
       const star = (s) => { seatStars.push(s); claims.push({ l: s.x - starPx / 2, r: s.x + starPx / 2, t: s.y - starPx / 2, b: s.y + starPx / 2, g: gid, w: "star", i: s.idx }); };
       // the pointer's label: written from x0 (right of its orb) unless that box is not clear and the mirror ending at x1 is
       const NB = this._nameBlocks(), wid = (f, s) => s ? (ctx.font = f, ctx.measureText(s).width) : 0;
-      const clear = (l, r, t, b) => l >= NB.l + 4 && r <= W - 4 && t >= 4 && b <= H - 4 && !claims.concat(NB.blocks).some((q) => l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3);
+      const clear = (l, r, t, b) => l >= NB.l + 4 && r <= W - 4 && t >= 4 && b <= H - 4 && !claims.concat(NB.blocks).some((q) => !q.pick && l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3);
       const side = (x0, w, t, b, x1) => clear(x0, x0 + w, t, b) || !clear(x1 - w, x1, t, b) ? x0 : x1 - w;
       // THE POSITION'S OWN NAME (v1.280.0, POSNAME; narrowed by GOLD1-R1, ruled: "refused ONLY where it would be under paint
       // that hides it (the rule `_hides` already knows, from #414) or cut by the screen. A control's box that paints nothing
@@ -22372,7 +22378,7 @@ class Component extends DCLogic {
       // seat star (the phone's way to save the position to a list) was gone (PR 417's shard 3, lists-picker.spec.ts).
       const clearP = (l, r, t, b) => l >= NB.l + 4 && r <= W - 4 && t >= 4 && b <= H - 4
         && !claims.some((q) => l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3)
-        && !NB.blocks.some((q) => l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3 && this._hides(q, { l: l - 3, r: r + 3, t: t - 3, b: b + 3 }, "name", true));
+        && !NB.blocks.some((q) => !q.pick && l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3 && this._hides(q, { l: l - 3, r: r + 3, t: t - 3, b: b + 3 }, "name", true));
       // PUBLISHED (GOLD1-R4, the map reader's D5): the two boxes the position's name tried THIS frame and where it went
       // (`_lastPosCand`: usual, mirror, the 3 px pad `_hides` is asked with, the claims before it, `at`), so a spec can hold the placement to the rule
       // the frame states, whether or not the name was written
