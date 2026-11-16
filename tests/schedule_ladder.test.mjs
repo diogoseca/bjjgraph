@@ -115,7 +115,7 @@ test("a late right answer earns one rung, no bonus", () => {
   assert.deepEqual(K.ngKnowledgeScheduleRow([7, 7, 0], true, 400), [414, 14, 400]);
 });
 
-test("the ladder: his rungs, a miss back to 1 day, and the 120-day card's next step is 241.6667 days on time", () => {
+test("the ladder: his rungs, a miss back to 1 day, and the 120-day card's next step is 241.67 days on time", () => {
   assert.deepEqual(K.NG_KNOWLEDGE_LADDER.slice(0, 14), [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922, 5844, 11688]);
   // on time, rung after rung, from a first right answer
   let row = K.ngKnowledgeScheduleRow(null, true, 0), steps = [row[0] - row[2]];
@@ -124,12 +124,16 @@ test("the ladder: his rungs, a miss back to 1 day, and the 120-day card's next s
   // a miss, early or late, at any rung: 1 day
   for (const r of [[3, 3, 0], [120, 120, 0], [361, 120, 120]]) for (const d of [r[2], r[0], r[0] + 50]) assert.deepEqual(K.ngKnowledgeScheduleRow(r, false, d), [d + 1, 1, d]);
   // a card at today's top rung (120 days, a third of the way from 90 to 180 on his ladder): one step on is a third of the way
-  // from 180 to 365, 241.6667 days, carried in the pair and due on its first whole day; then 486.6667
-  const top = [120, 120, 0];
-  assert.deepEqual(K.ngKnowledgeScheduleRow(top, true, 120), [362, 120, 120, 241.6667, 120]);
-  assert.deepEqual(K.ngKnowledgeScheduleRow([362, 120, 120, 241.6667, 120], true, 362), [849, 120, 362, 486.6667, 362]);
-  // and early, the next day: it hardly moves (121.01 days from day 1: due on day 123)
-  assert.deepEqual(K.ngKnowledgeScheduleRow(top, true, 1), [123, 120, 1, 120, 0]);
+  // from 180 to 365, 241.67 days (180 + 185 ÷ 3, carried as computed since v1.281.3), in the pair and due on its first whole
+  // day; then 486.67 (365 + 365 ÷ 3)
+  // (at a real epoch day, D = 20,400, so every pinned row is one a device could hold: LIN2-R1)
+  const D = 20400, top = [D + 120, 120, D], step = 180 + 185 / 3;
+  assert.deepEqual(K.ngKnowledgeScheduleRow(top, true, D + 120), [D + 362, 120, D + 120, step, D + 120]);
+  assert.deepEqual(K.ngKnowledgeScheduleRow([D + 362, 120, D + 120, step, D + 120], true, D + 362), [D + 849, 120, D + 362, K.ngKnowledgeStep(step), D + 362]);
+  assert.ok(Math.abs(K.ngKnowledgeStep(step) - (365 + 365 / 3)) < 1e-9);
+  // and early, the next day: it hardly moves. Since v1.281.3 it stands on the 90-day rung's line, 30 days in (a day a day):
+  // 121 days from its next day (v1.281.0's line from 120 itself gave 121.01, a day more)
+  assert.deepEqual(K.ngKnowledgeScheduleRow(top, true, D + 1), [D + 122, 120, D + 1, 90, D - 30]);
 });
 
 test("the cell is always a rung of the seven, the largest at or below the true interval", () => {
@@ -152,8 +156,9 @@ test("a right answer never makes a card due sooner", () => {
     assert.ok(row[0] >= prior[0], `${prior} answered right on day ${day}: due ${row[0]}, was ${prior[0]}`);
     checked++;
   }
-  // between rungs: a 42-day card (cell 30) answered the next day comes due on day 44 (42.71 days from day 1), never by its cell
-  assert.deepEqual(K.ngKnowledgeScheduleRow([42, 30, 0], true, 1), [44, 30, 1, 42, 0]);
+  // between rungs: a 42-day card (cell 30) answered the next day comes due on day 44, never by its cell. Since v1.281.3 it
+  // stands on the 30-day rung's line, 12 days in, a day a day: 43 days from day 1 (v1.281.0's line from 42 gave 42.71)
+  assert.deepEqual(K.ngKnowledgeScheduleRow([20442, 30, 20400], true, 20401), [20444, 30, 20401, 30, 20388]);   // at a real epoch day (LIN2-R1)
   // a clock set back (SRS-R1, the reader's finding 5): every row, answered right 1, 30 and 400 days before its last answer
   for (const { row } of newRows()) for (const back of [1, 30, 400]) {
     const w = K.ngKnowledgeScheduleRow(row, true, row[2] - back);
@@ -167,7 +172,7 @@ test("a right answer never makes a card due sooner", () => {
   const hair = 430 + 5e-7;
   assert.deepEqual(K.ngKnowledgeScheduleRow([hair, 30, 400], true, 400), [hair, 30, 400]);
   assert.deepEqual(K.ngKnowledgeScheduleRow([hair, 30, 400], true, 390), [hair, 30, 400]);
-  assert.deepEqual(K.ngKnowledgeScheduleRow([430.4, 30, 400], true, 400), [431, 30, 400, 30.4, 400]);
+  assert.deepEqual(K.ngKnowledgeScheduleRow([430.4, 30, 400], true, 400), [431, 30, 400, 430.4 - 400, 400]);   // carried as computed (v1.281.3)
   assert.ok(checked > 500, `${checked} right answers`);
 });
 
@@ -195,15 +200,20 @@ test("a clock set back never lengthens an interval: the writer never moves `last
 test("answered every day: exactly one on-time answer, in every band, and no band holds its interval (LIN1)", () => {
   // THE CLAIM: an early answer never earns more than an on-time one, and with linear credit a run of early answers earns
   // exactly what one answer at its end earns. Every interval from 1 to 2,922 days, answered right every day for one interval,
-  // ends on exactly one on-time answer's row
+  // ends where exactly one on-time answer does: the same due day, the same interval (to float dust, 1e-9). Since v1.281.3 the
+  // two rows may say it two ways: the run's last answer is early, so it stores the rung pair it climbed; the on-time answer
+  // stores its step anchored at its own day
+  // (from a real epoch day, D = 20,400: a card's rung pair is dated up to its rung's interval before its last answer, and from
+  // day 0 a card of 42 days or more would have been written without it, LIN2-R1)
   let off = 0;
+  const D = 20400;
   for (let I = 1; I <= 2922; I++) {
-    let row = [I, K.ngKnowledgeCell(I), 0];
-    const onTime = K.ngKnowledgeScheduleRow(row, true, I);
-    for (let d = 1; d <= I; d++) row = K.ngKnowledgeScheduleRow(row, true, d);
-    if (JSON.stringify(row) !== JSON.stringify(onTime)) off++;
+    let row = [D + I, K.ngKnowledgeCell(I), D];
+    const onTime = K.ngKnowledgeScheduleRow(row, true, D + I);
+    for (let d = 1; d <= I; d++) row = K.ngKnowledgeScheduleRow(row, true, D + d);
+    if (row[0] !== onTime[0] || row[1] !== onTime[1] || row[2] !== onTime[2] || Math.abs(K.ngKnowledgeInterval(row) - K.ngKnowledgeInterval(onTime)) > 1e-9) off++;
   }
-  assert.equal(off, 0, "daily runs that do not end on one on-time answer's row");
+  assert.equal(off, 0, "daily runs that do not end where one on-time answer does");
   // THE BAND v1.279.0 left standing: a 60-day card answered every day now moves half a day a day (90/60: the step adds 30
   // days over 60), never sooner, and takes the step to 90 on day 60
   let r = [60, 60, 0];
@@ -228,7 +238,7 @@ test("answered every day: exactly one on-time answer, in every band, and no band
 test("a right answer never goes back to 1 day", () => {
   for (const { prior, ok, row } of newRows()) if (ok) assert.ok(row[0] - row[2] >= Math.min(3, K.ngKnowledgeInterval(prior)), `${prior} → ${row}`);
   // off today's ladder (between rungs and past 120): a right answer climbs from where the card is
-  assert.deepEqual(K.ngKnowledgeScheduleRow([95, 60, 0], true, 95), [95 + 191, 120, 95, 190.2778, 95]);
+  assert.deepEqual(K.ngKnowledgeScheduleRow([20495, 60, 20400], true, 20495), [20495 + 191, 120, 20495, 180 + (5 * 185) / 90, 20495]);   // a real epoch day (LIN2-R1)
   assert.ok(K.ngKnowledgeScheduleRow([500, 120, 0], true, 500)[0] - 500 > 500);
 });
 
