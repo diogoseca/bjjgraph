@@ -51,8 +51,15 @@
 //   B1  the cliff correction undone (the days past the step dropped) → "the days past a step count at the next step's ratio…"
 //       and "ahead of on time, (a)…" (its worst sequence's row)
 //   B2  the one-step cap on an early answer removed     → "ahead of on time, (a)…" and "(b)…"
-//   B3  a fresh anchor at every early answer (his formula from the previous answer at the anchor's step ratio) → "an early
-//       answer never costs the card anything…", (a), (b) and 12 more
+//   B3  a fresh anchor at every early answer (his formula from the previous answer at the anchor's step ratio) → "one early
+//       answer, then the next on its old due or its own new due, never costs the card anything…", (a), (b) and 12 more
+// LIN1-R3 (the reader's N1: over longer runs one more early answer can cost days; ruled, the rule stays and the claim is
+// scoped, pinned as a bound), each mutant applied alone to a copy of the tree and run against this file; each turned "over
+// longer runs one more early answer can leave a card due sooner…" red:
+//   N1a the step between rungs 5% steeper                     (and 8 more, the scoped table among them)
+//   N1b a walked card's line at 0.9 of the next step's ratio   (and 5 more)
+//   N1c a late answer's step 1% longer                         (and 5 more, the scoped table among them)
+//   N1d a late answer one step from its line's value on the answer's day, not from the interval it holds (and 6 more, the table)
 //
 // Run: node --test tests/schedule_linear.test.mjs
 import { test } from "node:test";
@@ -323,8 +330,9 @@ test("ahead of on time, (b) early, on time, then early: 63 of 40,536, at most 10
   assert.deepEqual(lead, [[190, 180], [389, 360], [791, 725], [1595, 1455], [3204, 2916]]);
 });
 
-test("an early answer never costs the card anything: answered early, then on its old due or its own, it is never behind (LIN1-R2)", () => {
-  // the property the owner is asked to prefer (U192). For every rung, a card answered once early on every day of its step, then
+test("one early answer, then the next on its old due or its own new due, never costs the card anything (LIN1-R2, scoped at LIN1-R3)", () => {
+  // the property the owner is asked to prefer (U192), and only this much of it holds (LIN1-R3: over longer runs an extra
+  // early answer can cost days, the next test). For every rung, a card answered once early on every day of its step, then
   // (i) again on the day its first due fell (the day a player who never answered early answers it) or (ii) on its own new due,
   // ends no sooner than the card answered only on its due day. [rung, that card's due, the least (i) − it, the least (ii) − it]
   const TABLE = [[3, 10, 0, 6], [7, 21, 0, 5], [14, 44, 0, 6], [30, 90, 0, 3], [60, 150, 0, 4], [90, 270, 0, 5], [180, 545, 0, 6],
@@ -345,6 +353,73 @@ test("an early answer never costs the card anything: answered early, then on its
   // on day 30 does (the level rule gave 55)
   assert.deepEqual(W(W([30, 30, 0], true, 15), true, 30), [90, 60, 30]);
   assert.deepEqual(W([30, 30, 0], true, 30), [90, 60, 30]);
+});
+
+// OVER LONGER RUNS AN EXTRA EARLY ANSWER CAN COST DAYS: A MEASURED BOUND (LIN1-R3, the reader's N1, ruled: the rule stays, the
+// claim is scoped). One more early right answer can turn a later answer from late (one full step from where the card is, a
+// fresh line, here steeper) into early (the card's old line's value, here lower). The reader's search is replayed exactly (its
+// seeds, starts and loops): base histories of right answers, each with ONE more right answer added in a gap, early when given,
+// compared after every later answer of the base
+test("over longer runs one more early answer can leave a card due sooner: 4,196 of 1,123,024, at most 39 days (LIN1-R3)", () => {
+  const T = 10000, starts = [];
+  for (let i = 0; i < 12; i++) starts.push({ kind: "rung", row: [T + L[i], K.ngKnowledgeCell(L[i]), T] });
+  for (const iv of [2, 5, 10, 20, 42, 45, 59, 75, 89, 100, 120, 150, 241, 300, 500, 1000, 2000]) starts.push({ kind: "dev", row: [T + iv, K.ngKnowledgeCell(iv), T] });
+  starts.push({ kind: "head", row: W([T + 120, 120, T], true, T + 120) });
+  for (let i = 2; i < 11; i++) starts.push({ kind: "mid", row: W([T + L[i], K.ngKnowledgeCell(L[i]), T], true, T + Math.floor(L[i] * 0.4)) });
+  let s77 = 77; const rnd = () => (s77 = (s77 * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff;
+  const rows = (row, days) => days.map((d) => (row = W(row, true, d)));
+  let inserted = 0, compared = 0, sooner = 0, onRung = 0, days = 0, share = 0;
+  const search = (st, ds) => {
+    const base = rows(st.row, ds), from = [st.row[2], ...ds];
+    for (let g = 0; g < ds.length; g++) {
+      const lo = from[g], hi = ds[g], prior = g ? base[g - 1] : st.row, span = hi - lo - 1;
+      if (span < 1) continue;
+      for (let t = 0, n = Math.min(span, 12); t < n; t++) {
+        const e = lo + 1 + Math.floor(((t + rnd()) / n) * span);
+        if (!(e > lo && e < hi && e < prior[0])) continue;   // early: before the due of the row it answers
+        inserted++;
+        const ext = rows(st.row, [...ds.slice(0, g), e, ...ds.slice(g)]);
+        for (let k = g; k < ds.length; k++) {
+          compared++;
+          const by = base[k][0] - ext[k + 1][0];
+          if (by > 0) { sooner++; if (st.kind === "rung") onRung++; days = Math.max(days, by); share = Math.max(share, by / (base[k][0] - ds[k])); }
+        }
+      }
+    }
+  };
+  for (const st of starts) {
+    const I = K.ngKnowledgeInterval(st.row);
+    { const d = []; let r = st.row; for (let i = 0; i < 4; i++) { d.push(r[0]); r = W(r, true, r[0]); } for (let n = 1; n <= 4; n++) search(st, d.slice(0, n)); }
+    for (const fr of [[0.2], [0.5], [0.9], [0.3, 0.6], [0.5, 0.95], [0.2, 0.5, 0.8]]) {
+      const d = []; let r = st.row;
+      for (const f of fr) { const day = r[2] + Math.max(1, Math.floor((r[0] - r[2]) * f)); if (day >= r[0]) break; d.push(day); r = W(r, true, day); }
+      for (let i = 0; i < 2; i++) { d.push(r[0]); r = W(r, true, r[0]); }
+      search(st, d);
+    }
+    for (const gap of [0.3, 0.45, 0.7]) {
+      const step = Math.max(1, Math.floor(I * gap)), d = [];
+      for (let x = st.row[2] + step; x <= st.row[2] + Math.min(2.2 * I, 60 * step); x += step) d.push(x);
+      if (d.length) search(st, d);
+    }
+    { const d = []; let r = st.row; for (const f of [1.3, 0.5, 1.0, 2.0]) { const day = r[2] + Math.max(1, Math.floor((r[0] - r[2]) * f)); d.push(day); r = W(r, true, day); } search(st, d); }
+    for (let q = 0; q < 300; q++) {
+      const d = []; let r = st.row;
+      for (let i = 0, n = 1 + Math.floor(rnd() * 6); i < n; i++) { const day = r[2] + Math.max(1, Math.floor((r[0] - r[2]) * (0.05 + rnd() * 1.45))); d.push(day); r = W(r, true, day); }
+      search(st, d);
+    }
+  }
+  assert.deepEqual([inserted, compared], [430381, 1123024], "the reader's search, replayed");
+  assert.ok(sooner <= 4196 && onRung <= 534 && days <= 39 && share <= 0.099, `${sooner} comparisons sooner (${onRung} from a rung), by at most ${days} days, ${share} of the interval`);
+  // the case for the owner: a 30-day card answered on days 12, 56 and 86 comes due day 181. One more right answer on day 19
+  // moves its due from 54 to 68, so day 56 is early and walks the card's first line (60 days from day 30, 0.5 a day) instead of
+  // taking one step from 42 to 72 (a fresh line from day 56, 0.75 a day): due day 174, 7 days sooner
+  const run = (ds) => rows([30, 30, 0], ds);
+  assert.deepEqual(run([12, 56, 86]), [[54, 30, 12, 30, 0], [128, 60, 56], [181, 60, 86, 72, 56]]);
+  assert.deepEqual(run([12, 19, 56, 86]), [[54, 30, 12, 30, 0], [68, 30, 19, 30, 0], [129, 60, 56, 60, 30], [174, 60, 86, 60, 30]]);
+  // the worst: a 75-day row answered on +15, +106, +173, +516, +1,049 and +2,113, and with one more on +21: 39 days sooner
+  const far = [15, 106, 173, 516, 1049, 2113].map((d) => T + d), start = [T + 75, 60, T];
+  assert.deepEqual(rows(start, far).at(-1), [14046, 120, 12113, 1932.9674, 12113]);
+  assert.deepEqual(rows(start, [far[0], T + 21, ...far.slice(1)]).at(-1), [14007, 120, 12113, 1893.8887, 12113]);
 });
 
 test("the rating and the Practice order choose a shared question's row by the earlier EXACT due, in either order", () => {

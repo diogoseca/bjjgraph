@@ -334,9 +334,13 @@ export function ngKnowledgeSharedDecks(manifest, question, key) {
 //     amount, and a run of early answers INSIDE ONE STEP earns exactly what one answer at its end earns. His numbers, pinned
 //     in tests/schedule_ladder.test.mjs: a 30-day card answered 1 day before its due comes due 59 days on, 29 days before it
 //     31, on time 60.
-//   · AN EARLY ANSWER NEVER COSTS THE CARD ANYTHING: answered early and then on the day its due fell, or on its own new due,
-//     a card is never behind one answered only on its due day (the property the owner is asked to prefer, U192; the level
-//     rule parked at LIN1-R2 broke it: 15 then 30 days gave 55, not 60). Pinned in tests/schedule_linear.test.mjs.
+//   · ONE EARLY ANSWER, THEN THE NEXT ON ITS OLD DUE OR ITS OWN NEW DUE, NEVER COSTS THE CARD ANYTHING: it is never behind a
+//     card answered only on its due day (the property the owner is asked to prefer, U192; the level rule parked at LIN1-R2
+//     broke it: 15 then 30 days gave 55, not 60). Only that much holds. OVER LONGER RUNS ONE MORE EARLY ANSWER CAN COST DAYS
+//     (LIN1-R3, the reader's N1; ruled, the rule stays): it can turn a later answer from late (one step from where the card
+//     is, a fresh line, here steeper) into early (the card's old line's value, here lower). A 30-day card answered on days
+//     12, 56 and 86 is due day 181; with one more on day 19, 174. A measured bound: 4,196 of 1,123,024 comparisons of the
+//     reader's search, at most 39 days and 9.9% of the interval. Both pinned in tests/schedule_linear.test.mjs.
 //   · AHEAD OF ANSWERING ON TIME: A MEASURED BOUND, NOT A PROMISE (LIN1-R2, ruled after the independent reader's D1). A card
 //     can end after the due the on-time path's next answer would give it, two ways: (a) a run of early answers across steps
 //     (the days past a step count at the next step's ratio from exact days, where the on-time path answers on whole ones),
