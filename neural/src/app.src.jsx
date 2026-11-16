@@ -235,6 +235,9 @@ const NG_CAM_OPEN_CSS = "@property --ng-open-o{syntax:'<number>';inherits:false;
   + "[data-ng-open=faint] .ng-reader :is([data-reader-media],[data-reader-game-media]){visibility:hidden!important}"
   // ...and the section's own controls (article links, tools, section labels) take no tap or focus while faint
   + "[data-ng-open=faint] .ng-reader :is(a,button,input,select,textarea,summary,[tabindex]:not([tabindex='-1'])){visibility:hidden!important}"
+  // ...and the reader itself: at faint its article is under 10% and an opacity-0 article still takes the wheel, which pauses
+  // the game as reading (v1.280.3, STAR1: a round's end board held so under its verdict); hidden, the map takes it
+  + "[data-ng-open=faint] .ng-reader{visibility:hidden}"
   + "[data-ng-open=release] :is(.ng-reader," + NG_CAM_OPEN_ROWS + "){transition:opacity .2s ease,translate .2s ease}";
 // Below this the board's rows and shelf are HIDDEN, not merely transparent: an opacity-0 row still takes a
 // tap and focus (CLAUDE.md 6.1; review m3 measured a tap on the first card at effective opacity 0.066). The
@@ -607,7 +610,18 @@ class Component extends DCLogic {
   }
 
   // ---------- timers (pause-aware) ----------
-  clearTimers() { (this._timers || []).forEach((t) => { if (t.id) clearTimeout(t.id); }); this._timers = []; this._retireCamOpen(); this._camOpenManual = false; }
+  // THE ROUND'S END LIVES EXACTLY AS LONG AS THE TIMER THAT ENDS IT (v1.280.3, STAR1). `endRound` sets `endZoom` (the wide end
+  // framing), the verdict and the "New roll in Ns…" countdown, and only its own restart timer lifted them; a node clicked in
+  // that hold (`rollFromPosition`, also free roam and a reference page) clears the timers, so `endZoom` stayed true and
+  // `updateCamera` aimed every later frame at the end framing. The owner, 15 Nov: "when i click a node in the graph, it seems
+  // like it always zooms me out instead of zooming me in and panning ... maybe it stops working well after restarting".
+  // Measured by real mouse at 1440: x1.52 and x1.41 wider, the clicked orb 3 px, the camera stuck wide and the countdown line
+  // still up with no roll coming; the same on v1.279.0 and v1.273.1 (an old fault, not #410's or #417's). So whatever clears
+  // the timer ends the hold too: its LIFTERS are this line and the timer's own. Pinned by e2e/journeys/restart-notice.spec.ts.
+  clearTimers() {
+    (this._timers || []).forEach((t) => { if (t.id) clearTimeout(t.id); }); this._timers = []; this._retireCamOpen(); this._camOpenManual = false;
+    if (this.endZoom) { this.endZoom = false; this.hideCenter(); if (this.evRef.current) this.evRef.current.style.opacity = "0"; }
+  }
   /** Cancel ONE timer handed back by `after()` — the replay steps its own film and must be able to
    *  stop it without `clearTimers()`, which would also disarm the paused roll waiting underneath. */
   _cancelTimer(it) {
@@ -3708,7 +3722,8 @@ class Component extends DCLogic {
     }
     const panel = this.drillRef.current;
     if (panel) { panel.style.display = open ? "flex" : "none"; panel.style.pointerEvents = open ? "auto" : "none"; }
-    if (open) this._syncSeatStars([]); // graph controls must not float over the learning pane
+    // a phone's drawer takes the screen: its star goes with the names (`covered` in draw()); a desktop's keeps it (`_syncSeatStars`)
+    if (open && this.isMobile()) this._syncSeatStars([]);
     // the drill pill is DELETED (v1.99.0) — the share cue is a standalone conditional
     // control; every apply re-renders it (it hides while the pane owns its corner)
     this._renderShareCue();
@@ -10024,6 +10039,13 @@ class Component extends DCLogic {
    * Lists still hold whole sites: use the shared writer/readers so either seat keeps its
    * existing share ordinal and both seats honestly show the same saved state.
    */
+  // THE STAR GOES WHERE THE POSITION'S NAME GOES (v1.280.3, STAR1). The owner, 15 Nov: "i'm missing a star outline icon next to
+  // bottom / top or wtv node role we're in", and "it's also strange that the favorite star now appears in another browser". It
+  // was his DRAWER: from v1.182.0 every star was skipped while it was open ("graph controls must not float over the learning
+  // pane"), while a desktop's map, beside the drawer, still wrote "TOP / Mount" (measured per frame at 1440, drawer open: 51
+  // frames named, 0 with a star; his other browser had it shut). Since v1.275.0 the name is never written under the drawer (it
+  // paints: `_nameBlocks`, `_hides`), so its star, anchored to the drawn role line, cannot float over it either; a phone's drawer
+  // covers the map and writes no name at all (`covered` in draw()), so it has no star. Pinned by e2e/journeys/seat-star.spec.ts.
   _syncSeatStars(anchors) {
     const buttons = this._seatStarButtons || (this._seatStarButtons = new Map());
     const rect = this.canvas ? this.canvas.getBoundingClientRect() : { left: 0, top: 0 };
@@ -10031,7 +10053,7 @@ class Component extends DCLogic {
     const visible = new Set();
     this._seatStarAnchors = [];
     for (const a of anchors) {
-      if (this.deckShown || this.pulse || a.alpha < 0.15 || a.x < size / 2 || a.x > this.W - size / 2 ||
+      if (this.pulse || a.alpha < 0.15 || a.x < size / 2 || a.x > this.W - size / 2 ||
           a.y < size / 2 || a.y > this.H - size / 2) continue;
       const node = this.nodes[a.idx]; if (!node) continue;
       visible.add(a.idx);
@@ -13991,6 +14013,17 @@ class Component extends DCLogic {
     this.showCenter(m.k, m.big, name || "", m.tone);
     this.endCenter = { x: this.nodes[this.currentPos].x, y: this.nodes[this.currentPos].y };
     this.endZoom = true;
+    // THE BOARD STEPS ASIDE FOR THE NOTICE (v1.280.3, STAR1). The owner, 15 Nov: "the restarting is often hidden behind the
+    // article sections (which should be hidden when restarting happens!)". `clearOptions` above takes the hand, the reader
+    // re-lays out with the article jumped up by its height (1440x900: its top 654 -> 432; 390x631: 768 -> 296), and the
+    // verdict, then the next roll's "Restarting the roll", sat under its section cards (1 of 5 points of "You finished it"
+    // showing at 1440, 0 of 5 at 390); a wheel over that article PAUSED the clock (reading), holding both there. Put away
+    // through the opening's own board (faint, at 0; faint also hides the reader, NG_CAM_OPEN_CSS): the restart's breath out
+    // takes it over where it stands (`_openHandOff`, `o0`) and the new roll's board comes back with its rise; whatever
+    // clears the timers first gives it back (`_retireCamOpen`), and so does the restart under reduced motion (`startRoll`).
+    // Pinned by e2e/journeys/restart-notice.spec.ts.
+    const wrap = this.wrapRef?.current;
+    if (wrap) { wrap.dataset.ngOpen = "faint"; this._openStamp("0", "0px"); this._openO = 0; this._openY = 0; }
     // "New roll in 3s… 2s… 1s…" rides the verdict's tail. Plain setEvent on purpose: the
     // announcer is ONE slot and any later writer wins (§6.5) — a capstone banner or a share
     // arrival simply overwrites a tick, and the next tick concedes the same way.
@@ -18801,7 +18834,8 @@ class Component extends DCLogic {
       opening && !opening.cancelled ? this.posFamily(this.nodes[this.currentPos].t) : "",
       opening && !opening.cancelled ? this.roleLabel() : "", "muted", true);
     if (opening?.cancelled) this.hideCenter();
-    if (this._openHandOff && !opening?.restart) this._openBoardEnd(true);   // nobody took the board over: release it
+    // nobody took the board over: release it (a reduced-motion restart has no breath out to take a round's end board over)
+    if (this._openHandOff && (!opening?.restart || this._reducedMotion())) this._openBoardEnd(true);
     this._openHandOff = false;
     this.focusIdx = -1; this.pulse = null;
     this.camFocus = this.pairMid(this.nodes[this.currentPos]);
@@ -20643,9 +20677,6 @@ class Component extends DCLogic {
       o = op.rise ?? 0; y = op.riseDy || 0;
       if (op.art) { op.art.style.translate = op.artPrev || ""; op.art = null; }   // the new board has laid out
     }
-    if (!document.getElementById("ng-open-css")) {
-      const st = document.createElement("style"); st.id = "ng-open-css"; st.textContent = NG_CAM_OPEN_CSS; document.head.appendChild(st);
-    }
     this._openStamp(String(Math.round(o * 1e4) / 1e4), y.toFixed(2) + "px");
     // the wrap's state attributes are written only when they change: each write is a style invalidation
     const was = wrap.dataset.ngOpen, state = o < NG_CAM_OPEN_FAINT ? "faint" : "board";
@@ -20665,6 +20696,10 @@ class Component extends DCLogic {
    *  wrap (the state record), the reader section, its shelf and the three rows. A row mounted between frames reads
    *  the initial values (shown) until the next frame stamps it; `_openUnstamp` takes every stamp off at the end. */
   _openStamp(ov, yv) {
+    // the board's stylesheet, installed by the first stamp (the opening's, or a round's end putting the board away)
+    if (!document.getElementById("ng-open-css")) {
+      const st = document.createElement("style"); st.id = "ng-open-css"; st.textContent = NG_CAM_OPEN_CSS; document.head.appendChild(st);
+    }
     const S = this._openStamped || (this._openStamped = new Set());
     for (const el of [this.wrapRef?.current, this._readerEl || this._reader?.root, this._layerDockEl, this._landFilmEl, this._landEl, this.optionsRef?.current]) {
       if (!el || !el.style) continue;
