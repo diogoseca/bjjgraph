@@ -235,6 +235,10 @@ const NG_CAM_OPEN_CSS = "@property --ng-open-o{syntax:'<number>';inherits:false;
   + "[data-ng-open=faint] .ng-reader :is([data-reader-media],[data-reader-game-media]){visibility:hidden!important}"
   // ...and the section's own controls (article links, tools, section labels) take no tap or focus while faint
   + "[data-ng-open=faint] .ng-reader :is(a,button,input,select,textarea,summary,[tabindex]:not([tabindex='-1'])){visibility:hidden!important}"
+  // ...and the reader itself with its index (the wrap's own child, z 6, outside the reader): at faint the article is under 10%,
+  // the index was not faded at all, and either still takes the wheel, which pauses the game as reading (v1.280.3, STAR1: a
+  // round's end board held so under its verdict); hidden, the map takes it
+  + "[data-ng-open=faint] :is(.ng-reader,.ng-reader-toc){visibility:hidden}"
   + "[data-ng-open=release] :is(.ng-reader," + NG_CAM_OPEN_ROWS + "){transition:opacity .2s ease,translate .2s ease}";
 // Below this the board's rows and shelf are HIDDEN, not merely transparent: an opacity-0 row still takes a
 // tap and focus (CLAUDE.md 6.1; review m3 measured a tap on the first card at effective opacity 0.066). The
@@ -607,7 +611,18 @@ class Component extends DCLogic {
   }
 
   // ---------- timers (pause-aware) ----------
-  clearTimers() { (this._timers || []).forEach((t) => { if (t.id) clearTimeout(t.id); }); this._timers = []; this._retireCamOpen(); this._camOpenManual = false; }
+  // THE ROUND'S END LIVES EXACTLY AS LONG AS THE TIMER THAT ENDS IT (v1.280.3, STAR1). `endRound` sets `endZoom` (the wide end
+  // framing), the verdict and the "New roll in Ns…" countdown, and only its own restart timer lifted them; a node clicked in
+  // that hold (`rollFromPosition`, also free roam and a reference page) clears the timers, so `endZoom` stayed true and
+  // `updateCamera` aimed every later frame at the end framing. The owner, 15 Nov: "when i click a node in the graph, it seems
+  // like it always zooms me out instead of zooming me in and panning ... maybe it stops working well after restarting".
+  // Measured by real mouse at 1440: x1.52 and x1.41 wider, the clicked orb 3 px, the camera stuck wide and the countdown line
+  // still up with no roll coming; the same on v1.279.0 and v1.273.1 (an old fault, not #410's or #417's). So whatever clears
+  // the timer ends the hold too: its LIFTERS are this line and the timer's own. Pinned by e2e/journeys/restart-notice.spec.ts.
+  clearTimers() {
+    (this._timers || []).forEach((t) => { if (t.id) clearTimeout(t.id); }); this._timers = []; this._retireCamOpen(); this._camOpenManual = false;
+    if (this.endZoom) { this.endZoom = false; this.hideCenter(); if (this.evRef.current) this.evRef.current.style.opacity = "0"; }
+  }
   /** Cancel ONE timer handed back by `after()` — the replay steps its own film and must be able to
    *  stop it without `clearTimers()`, which would also disarm the paused roll waiting underneath. */
   _cancelTimer(it) {
@@ -853,6 +868,7 @@ class Component extends DCLogic {
 
     this.paused = p;
     if (p) this.pauseTimers(); else this.resumeTimers();
+    if (this.endZoom) this._endBoard(!p);   // the round's end: the board away only while its timer runs (`_endBoard`)
     // The option countdown bars need nothing here since v1.114.1: they are no longer CSS
     // animations but a width written by `_tickDecision`, which is `gdt`-driven — so a paused
     // clock freezes them by construction, and a refund moves them, which an animation could not.
@@ -3711,7 +3727,8 @@ class Component extends DCLogic {
     }
     const panel = this.drillRef.current;
     if (panel) { panel.style.display = open ? "flex" : "none"; panel.style.pointerEvents = open ? "auto" : "none"; }
-    if (open) this._syncSeatStars([]); // graph controls must not float over the learning pane
+    // a phone's drawer takes the screen: its star goes with the names (`covered` in draw()); a desktop's keeps it (`_syncSeatStars`)
+    if (open && this.isMobile()) this._syncSeatStars([]);
     // the drill pill is DELETED (v1.99.0) — the share cue is a standalone conditional
     // control; every apply re-renders it (it hides while the pane owns its corner)
     this._renderShareCue();
@@ -10039,6 +10056,13 @@ class Component extends DCLogic {
    * Lists still hold whole sites: use the shared writer/readers so either seat keeps its
    * existing share ordinal and both seats honestly show the same saved state.
    */
+  // THE STAR GOES WHERE THE POSITION'S NAME GOES (v1.280.3, STAR1). The owner, 15 Nov: "i'm missing a star outline icon next to
+  // bottom / top or wtv node role we're in", and "it's also strange that the favorite star now appears in another browser". It
+  // was his DRAWER: from v1.182.0 every star was skipped while it was open ("graph controls must not float over the learning
+  // pane"), while a desktop's map, beside the drawer, still wrote "TOP / Mount" (measured per frame at 1440, drawer open: 51
+  // frames named, 0 with a star; his other browser had it shut). Since v1.275.0 the name is never written under the drawer (it
+  // paints: `_nameBlocks`, `_hides`), so its star, anchored to the drawn role line, cannot float over it either; a phone's drawer
+  // covers the map and writes no name at all (`covered` in draw()), so it has no star. Pinned by e2e/journeys/seat-star.spec.ts.
   _syncSeatStars(anchors) {
     const buttons = this._seatStarButtons || (this._seatStarButtons = new Map());
     const rect = this.canvas ? this.canvas.getBoundingClientRect() : { left: 0, top: 0 };
@@ -10046,7 +10070,7 @@ class Component extends DCLogic {
     const visible = new Set();
     this._seatStarAnchors = [];
     for (const a of anchors) {
-      if (this.deckShown || this.pulse || a.alpha < 0.15 || a.x < size / 2 || a.x > this.W - size / 2 ||
+      if (this.pulse || a.alpha < 0.15 || a.x < size / 2 || a.x > this.W - size / 2 ||
           a.y < size / 2 || a.y > this.H - size / 2) continue;
       const node = this.nodes[a.idx]; if (!node) continue;
       visible.add(a.idx);
@@ -13903,7 +13927,11 @@ class Component extends DCLogic {
     // the text/sub in with inline opacity, and `_centerHandoff` stretches the box's fade to the
     // hand-off length; if a verdict or capstone writes next while either is mid-flight, it must
     // get the stock instant text and .55s box fade back, not the arrival's leftovers.
-    if (box) { box.style.transitionDuration = ""; box.style.top = "0px"; box.style.bottom = "0px"; box.firstElementChild.style.transform = ""; }
+    // ...and its LAYER (v1.280.3, STAR1-R1): over everything ambient (z 7 in the wrap) only while the round's end is up, whose
+    // notice must never be under anything (the board is away then, or the verdict docked clear of it: `_endBoard`); every other
+    // write (an opening's heading) keeps its old place UNDER the board, as before: at z 7 an ordinary opening's heading crossed
+    // the article's own text at 390 ("Flattened Half Guard" over "Also known as"), where the article used to cover it
+    if (box) { box.style.transitionDuration = ""; box.style.top = "0px"; box.style.bottom = "0px"; box.firstElementChild.style.transform = ""; box.style.zIndex = this.endZoom ? "7" : ""; }
     for (const el of [t, s]) if (el) { el.style.transition = ""; el.style.opacity = ""; }
     if (k) { k.textContent = kicker; k.style.color = col; }
     if (t) { t.textContent = text; t.style.color = tone === "good" ? "#cfe6ff" : tone === "bad" ? "#ffd6d6" : "#eef1f6"; t.style.fontSize = small ? "clamp(26px,3.2vw,38px)" : "clamp(40px,6vw,68px)"; }
@@ -13911,6 +13939,22 @@ class Component extends DCLogic {
     if (box) box.style.opacity = "1";
   }
   hideCenter() { const box = this.evCenterRef.current; if (box) box.style.opacity = "0"; }
+  // THE ARTICLE IS NEVER HIDDEN UNLESS SOMETHING ON ITS WAY WILL BRING IT BACK (v1.280.3, STAR1-Q1, ruled). The round's end puts
+  // the board away (the reader, its index and controls: the opening's faint board) only while its timer runs, the one that
+  // ends in a new roll and the rise that brings the board back. Its timers are wall-clock and stop only with the clock
+  // (`after`, `pauseTimers`), so every pause during the hold (the drawer by the pane law, the choice viewer, a replay) comes
+  // through `setPaused` here: the board comes back at once and the verdict goes into the map's free band above the reader
+  // (`_frameArrivalHeading`, scaled to fit), clear of the article; the clock running again puts it away and the verdict back in
+  // the centre. Measured before the ruling: as a fresh visitor arriving by URL (a position, a transition and a submission
+  // page, attacker and defender, 1440 and 390), the press that starts play releases the clock, so every round ended with it
+  // running; a pause DURING the hold (the drawer) left the article hidden until the drawer closed.
+  _endBoard(away) {
+    const wrap = this.wrapRef?.current, box = this.evCenterRef?.current; if (!wrap) return;
+    if (away) {
+      wrap.dataset.ngOpen = "faint"; this._openStamp("0", "0px"); this._openO = 0; this._openY = 0;
+      if (box) { box.style.top = box.style.bottom = "0px"; box.firstElementChild.style.transform = ""; }
+    } else { this._openBoardEnd(true); this._frameArrivalHeading(); }
+  }
   /** Beat 2 of the staged arrival: the name and the role fade into the already-showing centre
    *  block. Inline opacity + transition, both reset by the next showCenter (see above). */
   _frameArrivalHeading(rise) {
@@ -14021,9 +14065,19 @@ class Component extends DCLogic {
     };
     const m = map[kind] || map.reset;
     if (this.evRef.current) this.evRef.current.style.opacity = "0";
+    this.endZoom = true;   // before the verdict is written: `showCenter` lifts the round's end's notice over everything ambient
     this.showCenter(m.k, m.big, name || "", m.tone);
     this.endCenter = { x: this.nodes[this.currentPos].x, y: this.nodes[this.currentPos].y };
-    this.endZoom = true;
+    // THE BOARD STEPS ASIDE FOR THE NOTICE (v1.280.3, STAR1). The owner, 15 Nov: "the restarting is often hidden behind the
+    // article sections (which should be hidden when restarting happens!)". `clearOptions` above takes the hand, the reader
+    // re-lays out with the article jumped up by its height (1440x900: its top 654 -> 432; 390x631: 768 -> 296), and the
+    // verdict, then the next roll's "Restarting the roll", sat under its section cards (1 of 5 points of "You finished it"
+    // showing at 1440, 0 of 5 at 390); a wheel over that article PAUSED the clock (reading), holding both there. Put away
+    // through the opening's own board (faint, at 0; faint also hides the reader, NG_CAM_OPEN_CSS): the restart's breath out
+    // takes it over where it stands (`_openHandOff`, `o0`) and the new roll's board comes back with its rise; whatever
+    // clears the timers first gives it back (`_retireCamOpen`), and so does the restart under reduced motion (`startRoll`).
+    // ONLY WHILE ITS TIMER RUNS (`_endBoard`, from `setPaused` as well). Pinned by e2e/journeys/restart-notice.spec.ts.
+    this._endBoard(!this.paused);
     // "New roll in 3s… 2s… 1s…" rides the verdict's tail. Plain setEvent on purpose: the
     // announcer is ONE slot and any later writer wins (§6.5) — a capstone banner or a share
     // arrival simply overwrites a tick, and the next tick concedes the same way.
@@ -18830,7 +18884,8 @@ class Component extends DCLogic {
       opening && !opening.cancelled ? this.posFamily(this.nodes[this.currentPos].t) : "",
       opening && !opening.cancelled ? this.roleLabel() : "", "muted", true);
     if (opening?.cancelled) this.hideCenter();
-    if (this._openHandOff && !opening?.restart) this._openBoardEnd(true);   // nobody took the board over: release it
+    // nobody took the board over: release it (a reduced-motion restart has no breath out to take a round's end board over)
+    if (this._openHandOff && (!opening?.restart || this._reducedMotion())) this._openBoardEnd(true);
     this._openHandOff = false;
     this.focusIdx = -1; this.pulse = null;
     this.camFocus = this.pairMid(this.nodes[this.currentPos]);
@@ -20672,9 +20727,6 @@ class Component extends DCLogic {
       o = op.rise ?? 0; y = op.riseDy || 0;
       if (op.art) { op.art.style.translate = op.artPrev || ""; op.art = null; }   // the new board has laid out
     }
-    if (!document.getElementById("ng-open-css")) {
-      const st = document.createElement("style"); st.id = "ng-open-css"; st.textContent = NG_CAM_OPEN_CSS; document.head.appendChild(st);
-    }
     this._openStamp(String(Math.round(o * 1e4) / 1e4), y.toFixed(2) + "px");
     // the wrap's state attributes are written only when they change: each write is a style invalidation
     const was = wrap.dataset.ngOpen, state = o < NG_CAM_OPEN_FAINT ? "faint" : "board";
@@ -20694,6 +20746,10 @@ class Component extends DCLogic {
    *  wrap (the state record), the reader section, its shelf and the three rows. A row mounted between frames reads
    *  the initial values (shown) until the next frame stamps it; `_openUnstamp` takes every stamp off at the end. */
   _openStamp(ov, yv) {
+    // the board's stylesheet, installed by the first stamp (the opening's, or a round's end putting the board away)
+    if (!document.getElementById("ng-open-css")) {
+      const st = document.createElement("style"); st.id = "ng-open-css"; st.textContent = NG_CAM_OPEN_CSS; document.head.appendChild(st);
+    }
     const S = this._openStamped || (this._openStamped = new Set());
     for (const el of [this.wrapRef?.current, this._readerEl || this._reader?.root, this._layerDockEl, this._landFilmEl, this._landEl, this.optionsRef?.current]) {
       if (!el || !el.style) continue;
@@ -20772,7 +20828,8 @@ class Component extends DCLogic {
     if (this._camHoldTarget) Object.assign(this._camHoldTarget, this._paneCameraTarget(this._camHoldTarget));
     const el = this.now - this.startTime;
     const directed = opening && !opening.cancelled && !this._reducedMotion();
-    if (this._arriveGlideUntil != null && !this._arriveWide && !this._camOpenManual && !directed) this._frameArrivalHeading();
+    // ...and a round's end held by a pause, its verdict in the band above the reader as the reader re-lays out (`_endBoard`)
+    if (this._arriveGlideUntil != null && !this._arriveWide && !this._camOpenManual && !directed || this.endZoom && this.paused) this._frameArrivalHeading();
     // a lease taken before there was a clock starts counting now (see holdCamera)
     if (this._camHoldUntil === -1) this._camHoldUntil = this.now + (this._camHoldSecs || this.camHoldSec);
     // ...and so does a calm reading catch's window (D-332 D2-S1), on the first frame with a clock
