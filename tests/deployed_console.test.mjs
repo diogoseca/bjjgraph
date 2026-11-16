@@ -90,6 +90,121 @@ test("a run that never navigated, never played, or checked too few head resource
   assert.equal(r.offenders.length, 3)
 })
 
+// ── THE YOUTUBE PLAYER'S PERMISSIONS-POLICY LINE (v1.281.1, 2026-11-16, run 43870539526) ─────────────
+// The exception is the conjunction of a LOCATION (the player's own base.js: /s/player/<build>/<variant>.vflset/<locale>/base.js
+// on https://www.youtube.com) and a TEXT naming a RULED feature ("Permissions policy violation: compute-pressure is not allowed"),
+// on every origin. Narrowed by the reader of #424 (STAR3-R1): a feature we grant (picture-in-picture, in our `allow` and header)
+// and the widget API's location (it runs in OUR document) are offenders. MUTANTS (v1.281.1), each red by a case named below,
+// a neutral control green; the table is in the PR: the reader's R1 location by substring, R2 text dropped, R3 the exception
+// returning before the offender list is built, R4 a player line clearing earlier offenders, R5 path dropped, R6 host by
+// endsWith("youtube.com"), R7 host only (http and any port), R8 text by includes, R9 not printed, R10 off production only;
+// F1 any feature (the first version's text test), F2 any file under /s/player/ (its path test); and the reader's re-read
+// (STAR3-R2): F3 any file ending in base.js under /s/player/, F4 the feature found anywhere after the prefix, F5 the feature
+// name without " is not allowed", each red at its own case.
+const YT_LINE = { text: "Permissions policy violation: compute-pressure is not allowed in this document.", at: "https://www.youtube.com/s/player/fad7e4e9/player_embed.vflset/en_US/base.js" }
+
+test("the YouTube player's Permissions-Policy line is discounted, on production too, and nothing is hidden by it", () => {
+  for (const origin of ["https://abc123.bjjgraph.pages.dev", `https://${ANALYTICS_SITE_HOST}`]) {
+    const r = classify(clean(origin, { console: [YT_LINE] }))
+    assert.deepEqual(r.offenders, [], `${origin}: the player's line is not an offender`)
+    assert.equal(r.playerPolicy.length, 1, `${origin}: ...and it is COUNTED`)
+    assert.equal(r.discounted.length, 0, `${origin}: ...as the player's, not as Cloudflare's`)
+  }
+})
+
+test("the YouTube exception: a feature WE grant, at the player's own base.js, is an offender (a header regression of ours)", () => {
+  for (const origin of ["https://abc123.bjjgraph.pages.dev", `https://${ANALYTICS_SITE_HOST}`]) {
+    const r = classify(clean(origin, { console: [{ text: "Permissions policy violation: picture-in-picture is not allowed in this document.", at: "https://www.youtube.com/s/player/fad7e4e9/player_embed.vflset/pt_PT/base.js" }] }))
+    assert.equal(r.offenders.length, 1, `${origin}: picture-in-picture is ours to grant`)
+    assert.equal(r.playerPolicy.length, 0)
+  }
+  // ...while the ruled feature from another build and locale of the same file is still the player's
+  const other = classify(clean("https://bjjgraph.org", { console: [{ text: YT_LINE.text, at: "https://www.youtube.com/s/player/0b1c2d3e/player_embed.vflset/pt_PT/base.js" }] }))
+  assert.deepEqual(other.offenders, [])
+  assert.equal(other.playerPolicy.length, 1)
+})
+
+test("the YouTube exception: the ruled line from the widget API script (it runs in OUR document) is an offender", () => {
+  const r = classify(clean("https://bjjgraph.org", { console: [{ text: YT_LINE.text, at: "https://www.youtube.com/s/player/fad7e4e9/www-widgetapi.vflset/www-widgetapi.js" }] }))
+  assert.equal(r.offenders.length, 1)
+  assert.equal(r.playerPolicy.length, 0)
+})
+
+const YT_PATH = "/s/player/fad7e4e9/player_embed.vflset/en_US/base.js"
+const offendsNotDiscounted = (cases, why) => {
+  for (const c of cases) {
+    const r = classify(clean("https://abc123.bjjgraph.pages.dev", { console: [c] }))
+    assert.equal(r.offenders.length, 1, `${why}: "${c.text.slice(0, 40)}" @ ${c.at}`)
+    assert.equal(r.playerPolicy.length, 0)
+  }
+}
+
+test("the YouTube exception (R6): a host that only ENDS in youtube.com is an offender", () => {
+  offendsNotDiscounted([{ text: YT_LINE.text, at: `https://notyoutube.com${YT_PATH}` }, { text: YT_LINE.text, at: `https://www.notyoutube.com${YT_PATH}` }], "not YouTube's host")
+})
+
+test("the YouTube exception (R7): YouTube's host over http, or on another port, is an offender", () => {
+  offendsNotDiscounted([{ text: YT_LINE.text, at: `http://www.youtube.com${YT_PATH}` }, { text: YT_LINE.text, at: `https://www.youtube.com:8443${YT_PATH}` }], "not YouTube's origin")
+})
+
+test("the YouTube exception (R8): the ruled text anywhere but at the START of the line is an offender", () => {
+  offendsNotDiscounted([{ text: `Uncaught Error: ${YT_LINE.text}`, at: YT_LINE.at }], "not the player's own line")
+})
+
+test("the YouTube exception (F3): a base.js one folder deeper, or a file that only ends in base.js, is an offender", () => {
+  offendsNotDiscounted([
+    { text: YT_LINE.text, at: "https://www.youtube.com/s/player/fad7e4e9/player_embed.vflset/en_US/x/base.js" },
+    { text: YT_LINE.text, at: "https://www.youtube.com/s/player/fad7e4e9/player_embed.vflset/en_US/xbase.js" },
+  ], "not the player's own base.js")
+})
+
+test("the YouTube exception (F4): the ruled feature named after ANOTHER feature is an offender", () => {
+  offendsNotDiscounted([{ text: "Permissions policy violation: picture-in-picture, compute-pressure is not allowed in this document.", at: YT_LINE.at }], "the line names another feature first")
+})
+
+test("the YouTube exception (F5): a feature whose name only BEGINS with the ruled one is an offender", () => {
+  offendsNotDiscounted([{ text: "Permissions policy violation: compute-pressure-ext is not allowed in this document.", at: YT_LINE.at }], "not the ruled feature")
+})
+
+test("the YouTube exception: the same text from OUR origin is an offender", () => {
+  const origin = `https://${ANALYTICS_SITE_HOST}`
+  for (const at of [`${origin}/static/neural/app/neural.js`, `${origin}/`, ""]) {
+    const r = classify(clean(origin, { console: [{ text: YT_LINE.text, at }] }))
+    assert.equal(r.offenders.length, 1, `the text alone is not the exception (at "${at}")`)
+    assert.equal(r.playerPolicy.length, 0)
+  }
+})
+
+test("the YouTube exception: any other error from the player is an offender, and so is a lookalike host", () => {
+  const origin = "https://abc123.bjjgraph.pages.dev"
+  const others = [
+    { text: "Uncaught TypeError: Cannot read properties of undefined (reading 'x')", at: YT_LINE.at },
+    { text: "Failed to load resource: the server responded with a status of 403 ()", at: YT_LINE.at },
+    { text: YT_LINE.text, at: "https://www.youtube.com/embed/abcdefghijk" },
+    { text: YT_LINE.text, at: "https://www.youtube.com.evil.test/s/player/fad7e4e9/base.js" },
+    { text: YT_LINE.text, at: "https://evil.test/www.youtube.com/s/player/fad7e4e9/base.js" },
+  ]
+  const r = classify(clean(origin, { console: others }))
+  assert.equal(r.offenders.length, others.length, r.offenders.join("\n"))
+  assert.equal(r.playerPolicy.length, 0)
+  // and a CSP violation from the player is not a console line at all: still an offender
+  const csp = classify(clean(origin, { violations: [{ dir: "frame-src", blocked: "https://www.youtube.com/embed/x", src: YT_LINE.at }], console: [YT_LINE] }))
+  assert.equal(csp.offenders.length, 1)
+  assert.match(csp.offenders[0], /^CSP frame-src/)
+})
+
+test("the YouTube exception is counted and printed with its reason, and says so when it matched nothing", () => {
+  const log = clean("https://bjjgraph.org", { console: [YT_LINE, YT_LINE] })
+  const res = report(log, {})
+  assert.equal(res.code, 0)
+  const out = res.out.join("\n")
+  assert.match(out, /discounted 2 console error\(s\) from YouTube's own player script \(a third party's line, not ours\): a ruled Permissions-Policy feature \(compute-pressure\)/)
+  assert.ok(out.includes(YT_LINE.at), "each discounted line is printed with its location")
+  assert.match(report(clean("https://bjjgraph.org"), {}).out.join("\n"), /the YouTube player Permissions-Policy exception matched nothing/)
+  // and an offender beside it still fails the run
+  assert.equal(report(clean("https://bjjgraph.org", { console: [YT_LINE, { text: "TypeError: x", at: "https://bjjgraph.org/x.js" }] }), {}).code, 1)
+})
+
 // ── REDACTION (CONSOLE5, 2026-10-05) ───────────────────────────────────────────────────────────
 // The first green deploy printed the PostHog proxy's hostname into a public Actions log. A FAKE host
 // stands in for it here, never the real one. MUTANTS, each red by the test named: report() returns
