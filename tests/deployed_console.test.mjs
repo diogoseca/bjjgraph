@@ -90,6 +90,63 @@ test("a run that never navigated, never played, or checked too few head resource
   assert.equal(r.offenders.length, 3)
 })
 
+// ── THE YOUTUBE PLAYER'S PERMISSIONS-POLICY LINE (v1.280.5, 2026-11-16, run 43870539526) ─────────────
+// The exception is the conjunction of a LOCATION (a script under https://www.youtube.com/s/player/) and a TEXT prefix
+// ("Permissions policy violation:"), on every origin. MUTANTS, each red by the test named (v1.280.5): the location
+// test dropped (any such text discounted) -> "...the same text from OUR origin is an offender"; the text test dropped
+// (anything the player logs discounted) -> "...any other error from the player is an offender"; the origin compared by
+// substring (`at.includes("youtube.com/s/player/")`) -> "...a lookalike host is an offender"; the exception applied
+// off production only -> "...discounted on production too"; report() not printing it -> "...counted and printed".
+const YT_LINE = { text: "Permissions policy violation: compute-pressure is not allowed in this document.", at: "https://www.youtube.com/s/player/fad7e4e9/player_embed.vflset/en_US/base.js" }
+
+test("the YouTube player's Permissions-Policy line is discounted, on production too, and nothing is hidden by it", () => {
+  for (const origin of ["https://abc123.bjjgraph.pages.dev", `https://${ANALYTICS_SITE_HOST}`]) {
+    const r = classify(clean(origin, { console: [YT_LINE] }))
+    assert.deepEqual(r.offenders, [], `${origin}: the player's line is not an offender`)
+    assert.equal(r.playerPolicy.length, 1, `${origin}: ...and it is COUNTED`)
+    assert.equal(r.discounted.length, 0, `${origin}: ...as the player's, not as Cloudflare's`)
+  }
+})
+
+test("the YouTube exception: the same text from OUR origin is an offender", () => {
+  const origin = `https://${ANALYTICS_SITE_HOST}`
+  for (const at of [`${origin}/static/neural/app/neural.js`, `${origin}/`, ""]) {
+    const r = classify(clean(origin, { console: [{ text: YT_LINE.text, at }] }))
+    assert.equal(r.offenders.length, 1, `the text alone is not the exception (at "${at}")`)
+    assert.equal(r.playerPolicy.length, 0)
+  }
+})
+
+test("the YouTube exception: any other error from the player is an offender, and so is a lookalike host", () => {
+  const origin = "https://abc123.bjjgraph.pages.dev"
+  const others = [
+    { text: "Uncaught TypeError: Cannot read properties of undefined (reading 'x')", at: YT_LINE.at },
+    { text: "Failed to load resource: the server responded with a status of 403 ()", at: YT_LINE.at },
+    { text: YT_LINE.text, at: "https://www.youtube.com/embed/abcdefghijk" },
+    { text: YT_LINE.text, at: "https://www.youtube.com.evil.test/s/player/fad7e4e9/base.js" },
+    { text: YT_LINE.text, at: "https://evil.test/www.youtube.com/s/player/fad7e4e9/base.js" },
+  ]
+  const r = classify(clean(origin, { console: others }))
+  assert.equal(r.offenders.length, others.length, r.offenders.join("\n"))
+  assert.equal(r.playerPolicy.length, 0)
+  // and a CSP violation from the player is not a console line at all: still an offender
+  const csp = classify(clean(origin, { violations: [{ dir: "frame-src", blocked: "https://www.youtube.com/embed/x", src: YT_LINE.at }], console: [YT_LINE] }))
+  assert.equal(csp.offenders.length, 1)
+  assert.match(csp.offenders[0], /^CSP frame-src/)
+})
+
+test("the YouTube exception is counted and printed with its reason, and says so when it matched nothing", () => {
+  const log = clean("https://bjjgraph.org", { console: [YT_LINE, YT_LINE] })
+  const res = report(log, {})
+  assert.equal(res.code, 0)
+  const out = res.out.join("\n")
+  assert.match(out, /discounted 2 console error\(s\) from YouTube's own player script \(a third party's line, not ours\)/)
+  assert.ok(out.includes(YT_LINE.at), "each discounted line is printed with its location")
+  assert.match(report(clean("https://bjjgraph.org"), {}).out.join("\n"), /the YouTube player Permissions-Policy exception matched nothing/)
+  // and an offender beside it still fails the run
+  assert.equal(report(clean("https://bjjgraph.org", { console: [YT_LINE, { text: "TypeError: x", at: "https://bjjgraph.org/x.js" }] }), {}).code, 1)
+})
+
 // ── REDACTION (CONSOLE5, 2026-10-05) ───────────────────────────────────────────────────────────
 // The first green deploy printed the PostHog proxy's hostname into a public Actions log. A FAKE host
 // stands in for it here, never the real one. MUTANTS, each red by the test named: report() returns

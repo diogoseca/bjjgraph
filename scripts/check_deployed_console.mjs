@@ -22,12 +22,26 @@
 //      resources are also fetched at the address the app actually reached;
 //   4. console errors in the page.
 //
-// ONE NAMED EXCEPTION, and it can only apply off production. Cloudflare Web Analytics posts to
+// TWO NAMED EXCEPTIONS, each as narrow as its evidence; nothing else is discounted.
+//
+// 1. Cloudflare's, and it can only apply off production. Cloudflare Web Analytics posts to
 // cloudflareinsights.com/cdn-cgi/rum, which answers CORS only for the analytics site's own host,
 // bjjgraph.org. Measured 2026-10-05: on dev.bjjgraph.pages.dev that post fails with a CORS console
 // error; on bjjgraph.org it succeeds. A `*.pages.dev` deploy URL therefore always logs it, whatever
 // this repo does (the beacon is a dashboard setting). Off production those errors are discounted,
 // COUNTED and printed; on production nothing is discounted.
+//
+// 2. YouTube's player, on EVERY origin (16 Nov 2026, the push-run of PR #422 on ed701b3b5: run 43870539526, attempt 1,
+// deploy-preview). Its only offender was `Permissions policy violation: compute-pressure is not allowed in this document.
+// @ https://www.youtube.com/s/player/fad7e4e9/player_embed.vflset/en_US/base.js`: YouTube's own player script, inside its
+// cross-origin embed, asking for a browser feature that frame is not granted. The same build passed this script 3 of 3
+// from the orchestrator's machine, the player loading each time, so the line comes with whichever player build YouTube
+// serves, not with our code, and it will come back on dev and production deploys as YouTube rolls a player out. RULED:
+// we do not grant the embed a feature to silence a log (no `compute-pressure` in any `allow` attribute, nor in the
+// Permissions-Policy header). Discounted: a console error whose LOCATION is a script under https://www.youtube.com/s/player/
+// AND whose text starts with "Permissions policy violation:" (both, `ytPlayerPolicy`); counted and printed with this reason.
+// Not discounted: the same text from any other location (ours included), any other error from the player, a CSP violation,
+// a failed request of ours.
 //
 // A blocker extension (the owner's Brave Shields: ERR_BLOCKED_BY_CLIENT for PostHog's recorder) is
 // not present in CI's Chromium, so that line cannot appear here by construction. It is not a defect
@@ -44,6 +58,20 @@ import { pathToFileURL } from "node:url"
 
 export const ANALYTICS_SITE_HOST = "bjjgraph.org"
 const RUM = "https://cloudflareinsights.com/cdn-cgi/rum"
+export const YT_PLAYER_ORIGIN = "https://www.youtube.com"
+export const YT_PLAYER_PATH = "/s/player/"
+export const PERMISSIONS_POLICY_PREFIX = "Permissions policy violation:"
+
+/** Exception 2 (header): YouTube's own player script logging a feature its embed is not granted. Pure. */
+export function ytPlayerPolicy(c) {
+  let at
+  try {
+    at = new URL(c.at)
+  } catch {
+    return false
+  }
+  return at.origin === YT_PLAYER_ORIGIN && at.pathname.startsWith(YT_PLAYER_PATH) && String(c.text).startsWith(PERMISSIONS_POLICY_PREFIX)
+}
 export const DEEP_PROBE_PATH = "/Positions/Side-Control/Bottom"
 
 /** Pure: everything the browser saw -> offenders, discounted exceptions, coverage. */
@@ -51,6 +79,7 @@ export function classify(log) {
   const origin = new URL(log.origin)
   const offenders = []
   const discounted = []
+  const playerPolicy = []
   const sameOrigin = (u) => {
     try {
       return new URL(u).origin === origin.origin
@@ -70,13 +99,14 @@ export function classify(log) {
   for (const c of log.console ?? []) {
     const rum = c.at === RUM || (c.text.includes(RUM) && /CORS|Access-Control-Allow-Origin/.test(c.text))
     if (offProduction && rum) discounted.push(`${c.text.slice(0, 120)} @ ${c.at}`)
+    else if (ytPlayerPolicy(c)) playerPolicy.push(`${c.text.slice(0, 160)} @ ${c.at}`)
     else offenders.push(`console error: ${c.text.slice(0, 300)}${c.at ? ` @ ${c.at}` : ""}`)
   }
   for (const e of log.pageErrors ?? []) offenders.push(`uncaught page error: ${e}`)
   if (!log.navigated) offenders.push(`the app never moved the address bar (still ${log.finalPath ?? "?"}): the client-side navigation was not exercised`)
   if (!log.played) offenders.push(`no move was played (${log.playError ?? "no hand dealt"}): the roll was not exercised`)
   if (!(log.headChecked >= 4)) offenders.push(`only ${log.headChecked ?? 0} same-origin head resources were checked; expected >= 4`)
-  return { offenders, discounted, offProduction }
+  return { offenders, discounted, playerPolicy, offProduction }
 }
 
 async function run(originArg) {
@@ -192,7 +222,7 @@ export function redactor(host) {
  *  redactor here, and `main` prints nothing it did not get from this function. */
 export function report(log, env = process.env) {
   const r = redactor(proxyHost(env))
-  const { offenders, discounted, offProduction } = classify(log)
+  const { offenders, discounted, playerPolicy, offProduction } = classify(log)
   const out = [
     `[deployed-console] ${log.origin}: ${log.responses.length} responses from ${log.hosts.length} hosts ` +
       `(${log.hosts.join(" ")}); navigated to ${log.finalPath}; move played: ${!!log.played}; ` +
@@ -202,6 +232,9 @@ export function report(log, env = process.env) {
   if (discounted.length)
     out.push(`[deployed-console] discounted ${discounted.length} console error(s): Cloudflare Web Analytics answers CORS only on ${ANALYTICS_SITE_HOST}, and this is ${new URL(log.origin).hostname}:\n  ${discounted.join("\n  ")}`)
   else if (offProduction) out.push("[deployed-console] the off-production RUM exception matched nothing")
+  if (playerPolicy.length)
+    out.push(`[deployed-console] discounted ${playerPolicy.length} console error(s) from YouTube's own player script (a third party's line, not ours): a Permissions-Policy feature its cross-origin embed is not granted, and we grant none to silence a log:\n  ${playerPolicy.join("\n  ")}`)
+  else out.push("[deployed-console] the YouTube player Permissions-Policy exception matched nothing")
   if (offenders.length) err.push(`[deployed-console] FAIL — ${offenders.length} offender(s):\n  ${offenders.join("\n  ")}`)
   else out.push("[deployed-console] OK — clean console, no CSP violation, no broken same-origin URL")
   return { out: out.map(r), err: err.map(r), code: offenders.length ? 1 : 0 }
