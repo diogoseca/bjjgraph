@@ -68,7 +68,7 @@ async function boot(page: Page, surface: Surface) {
   const open = page.locator(OPEN[surface])
   await expect(open).toBeVisible()
   await open.scrollIntoViewIfNeeded()
-  await j.readerLayoutSettled()
+  if (surface !== "drawer") await j.readerLayoutSettled() // the drawer's boot has no reader page to wait for
   await page.mouse.move(1, 1)
   return j
 }
@@ -79,7 +79,7 @@ const scene = (page: Page) => page.evaluate(() => {
   const a = (window as any).__neural
   return {
     paused: !!a.paused, current: a.currentPos ?? null, landing: a._landIdx ?? null, hand: a._choiceHandId ?? null,
-    moves: a.moveCount, commits: a.beats.filter((b: any) => b.beat === "commit").length, played: !!a._played,
+    moves: a.moveCount, commits: (a.beats || []).filter((b: any) => b.beat === "commit").length, played: !!a._played,
     row: Math.round(a.optionsRef.current?.scrollLeft || 0), reader: Math.round(a._reader?.root?.scrollTop || 0),
     drawer: { open: !!a.deckShown, view: a._viewMode ?? null, concept: a._conceptId ?? null,
       scroll: Math.round(a.explorerListRef.current?.scrollTop || 0) },
@@ -205,7 +205,7 @@ for (const [width, height, touch] of [[1440, 900, false], [390, 631, true]] as c
         await expect(page.locator(THEATER + " iframe")).toHaveCount(1)
         await expect.poll(() => page.evaluate(() => (window as any).__players.at(-1).state), { message: "the refused start still plays, muted" }).toBe(1)
         expect(await players(page), "muted once, then played").toEqual([{ play: 1, destroy: 0, mute: 1 }])
-        expect(await page.evaluate(() => (window as any).__neural.beats.filter((b: any) => b.beat === "video_autoplay_muted").length), "the muted start says it fired").toBe(1)
+        expect(await page.evaluate(() => ((window as any).__neural.beats || []).filter((b: any) => b.beat === "video_autoplay_muted").length), "the muted start says it fired").toBe(1)
         await page.keyboard.press("Escape")
         await expect(page.locator(THEATER)).toHaveCount(0)
       })

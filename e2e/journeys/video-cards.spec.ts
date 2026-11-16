@@ -91,7 +91,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     // VID1 (owner, 15 Nov: "it should start automatically, not wait for me to press play a second time ... use the same
     // mechanism the video card for the current node uses"): the play circle opens the theater and the video plays.
     // WAS (v1.231.0 to v1.280.0): `[data-choice-viewer]` visible, `vars.autoplay` 0 and `play` 0 (the move's modal waited
-    // for the player's own Play). Run against the VID1 build first, that assertion failed on autoplay 1, play 1.
+    // for the player's own Play). Run against the VID1 build with only its selectors moved, it failed with autoplay 1, play 1.
     await expect(page.locator(".ng-video-theater")).toBeVisible()
     await expect.poll(() => page.evaluate(() => (window as any).__players.length)).toBe(1)
     await expect.poll(() => page.evaluate(() => (window as any).__players[0].play)).toBe(1)

@@ -123,6 +123,9 @@ export async function openChoiceVideo(page: Page, technique: string, id = "aaaaa
   await journey(page).clickByMouse(`[data-tech="${technique}"] [data-choice-watch]`, "Watch " + technique)
   // VID1: the play circle opens the current node's theater (WAS, to v1.280.0: the move's own modal, [data-choice-viewer]).
   await expect(page.locator(".ng-video-theater [data-test-player]")).toHaveCount(1)
+  // The theater zooms in over 360ms. A press measured mid-zoom lands where the ✕ no longer is (on the video, which takes
+  // it), so callers that close it next would leave it open: every press below is sampled at rest (video-theater.spec).
+  await page.locator(".ng-video-theater").evaluate(async d => { await Promise.all(d.getAnimations().map(a => a.finished)) })
 }
 
 /** A real click in the hermetic player. VID1: the press that opened the theater already asked it to play (and the
