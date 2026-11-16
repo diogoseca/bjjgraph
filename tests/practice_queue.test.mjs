@@ -89,6 +89,10 @@
 //   S0-16 the memo key without the moves record (its C: a pull replaces it)   → "S0: the order is built again for a new moves record…"
 //   S0-17 the memo key without the seat map (its D)                           → the same
 //   S0-18 a stored null counted unmatched (its nit)                           → "S0: a move row without its answer is counted…"
+// S0-R2 (the reader's re-check of 65b31f3cd: 11 of its 14 mutants red; these three survived, now pinned in the same test):
+//   S0-19 today's order's bind drops the moves from its overrun (its B3)     → "S0: every move answer today counts toward the goal…"
+//   S0-20 the moves-today count takes a row with no interval (its N2)         → the same
+//   S0-21 "moves asked" read from any truthy seat map (its N3)                → the same
 //
 // NOT COVERED here:
 //   · A RETIRED QUESTION READS AS A LIVE ONE, as in the rating (tests/rating.test.mjs): a deck's new count while its cards
@@ -872,6 +876,23 @@ test("S0: every move answer today counts toward the goal, an escape's too, and t
     srs: { "A|Top": { c1: [D - 1, 3, D - 4], c2: [D - 1, 3, D - 4] } },
     worth: { ...worth, seats: {}, moves: { "1/top": { 8: [D + 1, 1, D, 0], e1: [D + 1, 1, D, 0], 7: [D + 1, 1, D, 1] } } } });
   assert.deepEqual([fb.order, fb.orderStatus, fb.movesToday, fb.room, fb.overrun], ["oldest", "no-seats", 3, 0, 1], "2 due + 3 moves today, against 4");
+  // and today's order keeps them when a new deck's cards land and bind (the reader's re-check, its B3 and its record): one
+  // card due, a weak-spots deck not loaded, two move answers today against a goal of 4
+  const U2 = ngRatingUniverse({ decks: { "A|Top": { n: 4 }, "B|Top": { n: 4 } }, weights: { "A|Top": 4, "B|Top": 4 }, seats: { "1/top": { w: 4, hand: { 7: 10, 8: 90 } } } });
+  const d0 = { "A|Top": { count: 4, questions: ["c1"], exact: false, allowed: true, headroom: 0.15 }, "B|Top": { count: 4, questions: [], exact: false, allowed: true, headroom: 0.15 } };
+  const s0 = { "A|Top": { c1: [D - 1, 3, D - 4] } };
+  const old = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 4, decks: d0, srs: s0, fallback: { rows: [{ key: "B|Top", reason: "weak" }], assumptions: [] },
+    worth: { game: U2, seats: {}, stage: {}, moves: { "1/top": { e9: [D + 1, 1, D, 0], 7: [D + 1, 1, D, 1] } }, moveSeats: { "1/top": "A|Top" }, movesRev: 1 } });
+  assert.deepEqual([old.order, old.movesToday, old.overrun], ["oldest", 2, 3]);
+  const oldBound = G.ngGameplanBind(old, { ...d0, "B|Top": { count: 4, questions: ["b1", "b2", "b3", "b4"], exact: true, allowed: true, headroom: 0.15 } }, s0);
+  assert.notStrictEqual(oldBound, old, "premise: the weak-spots deck bound");
+  assert.deepEqual([oldBound.movesToday, oldBound.overrun], [2, 3], "the bind keeps today's moves in the overrun");
+  // a move row with no interval is not an answer the writer makes: not counted (the law and the rating read it as a bad row);
+  // and a seat map that is not an object asks for no moves, as the builder reads it
+  const odd = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 3, decks: d0, srs: s0, worth: { game: U2, seats: {}, stage: {}, moves: { "1/top": { 7: [D, 0, D, 1] } }, moveSeats: { "1/top": "A|Top" } } });
+  assert.equal(odd.movesToday, 0);
+  const notMap = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 3, decks: d0, srs: s0, worth: { game: U2, seats: {}, stage: {}, moves: { "1/top": { 7: [D + 1, 1, D, 1] } }, moveSeats: true } });
+  assert.ok(!("movesToday" in notMap), "no moves asked");
 });
 
 test("S0: the order is built again for a new moves record or a new seat map, whatever the revision", () => {
