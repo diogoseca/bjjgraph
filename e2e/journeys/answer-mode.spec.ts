@@ -19,6 +19,9 @@ import { journey } from "../dsl"
  *   5. (the reader of #423) "Never again" is per question: a question right twice in one deck asks front and back from every
  *      deck that shares it (D2); in the full-pane study view Space and ⏎ never reveal or grade a multiple-choice card (D4);
  *      a list's drill asks the answer mode too, and a press there is a grade (D5).
+ *   6. (the reader's re-read, SET1-R2) One gate for every way of revealing: in the study view, while a card's options are on
+ *      their way there is no reveal control; when they land it is multiple choice; when their load fails it asks front and
+ *      back and can be answered (the options' request held, or failed, at the route).
  * CONTROL: dev v1.280.1 (fb498b389), where the default was Classic recall and Recall mode decided a roll: 1 fails at "Auto
  * is the chosen one", 2 at "a new card asks multiple choice", 3 at "the inline deck asks multiple choice", 4 at "the old
  * switch decides nothing".
@@ -292,6 +295,87 @@ for (const touch of [false, true]) {
       const t = await page.evaluate(() => { const a = (window as W).__neural; return { key: a._mc.key, qh: a._mc.qhash } })
       await press(page, open + ' [data-practice-mc-opt="0"]', "answer A", touch)
       await expect.poll(() => page.evaluate(({ key, qh }) => { const a = (window as W).__neural; return !!(a.srs[key] && a.srs[key][qh]) }, t), { message: "the press is a grade" }).toBe(true)
+    })
+  })
+}
+
+// SET1-R2 (the reader's re-read of #423, finding 4): ONE GATE FOR EVERY WAY OF REVEALING. In the full-pane study view a card
+// whose multiple-choice options were still on their way drew "Reveal answer", whose click set `revealed` itself, round
+// `drillReveal`'s guard, and led to a recall "Got it" with no option picked. Now, while the options load, there is no reveal
+// control at all (a disabled "Loading answers…", as the inline decks show); when they land the card is multiple choice; when
+// their load FAILS the card asks front and back and can be answered.
+// THE REQUEST IS REAL, held (or failed) at the route. Every card carries its own authored wrong answers, so for most cards the
+// options need no other deck and are ready a microtask after the card is drawn: nothing to hold. 141 of 21,269 cards
+// (both rulesets, measured on this wire) need another deck's answers; COLD_DECK holds such cards, and the journey finds one
+// with the app's own dry pass (`mcDistractors` under `_mcNeed`, as `_warmMcPool` runs it), then holds exactly the chunks
+// that pass asked for. If content moves the deck off that list, the premise fails by name.
+// Mutants: the old footer (Reveal drawn while loading, setting `revealed` itself) → red at "no reveal control while they
+// load"; a failed load left loading → red at "a failed load asks front and back".
+const COLD_DECK = "Backstep from Leg Weave|Defender"
+for (const touch of [false, true]) {
+  test.describe(touch ? "touch 390x631, options on their way" : "mouse 1440x900, options on their way", () => {
+    test.use(touch ? { hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } } : { viewport: { width: 1440, height: 900 } })
+    for (const fail of [false, true]) test(`the study view while a card's options load: nothing to reveal, then ${fail ? "a failed load asks front and back" : "multiple choice when they land"} (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      const j = journey(page)
+      await j.boot("/")
+      await j.hydrate([COLD_DECK])
+      // the card, and the chunks its options ask for, by the app's own dry pass (rolled back: no draw is spent)
+      const cold = await page.evaluate((key) => {
+        const a = (window as W).__neural
+        for (const c of a._cardsOf(a.flashcards.decks[key]) || []) {
+          a._mcNeed = []; a._rngBegin()
+          try { a.mcDistractors(c, key, a.MC_DISTRACTORS, null) } catch (e) { /* the pass aborts at the first cold deck */ } finally { a._rngRollback() }
+          const need = a._mcNeed; a._mcNeed = null
+          if (need.length) return { qh: a.qhash(c.q), files: need.map((k: string) => a.qhash(k) + ".json") }
+        }
+        return null
+      }, COLD_DECK)
+      expect(cold, `premise: ${COLD_DECK} has a card whose options need another deck`).not.toBeNull()
+      let release!: () => void
+      const gate = new Promise<void>((r) => { release = r })
+      const held: string[] = []
+      await page.route("**/flashcards/*.json", async (route) => {
+        if (!cold!.files.some((f) => route.request().url().endsWith("/" + f))) return route.fallback()
+        held.push(route.request().url())
+        if (fail) return route.abort()
+        await gate
+        return route.fallback()
+      })
+      const read = () => page.evaluate(() => { const a = (window as W).__neural, c = a.deck && a.deck[a.deckIdx]
+        return { attempts: Object.keys(a._knowledgeAttempts || {}).length, revealed: !!a.revealed, stage: c ? a.cardStage(a._deckInfo.key, c.q) : null } })
+      expect(await page.evaluate(({ key, qh }) => { const a = (window as W).__neural; a.openStudy(key); return a.presentCard(qh) }, { key: COLD_DECK, qh: cold!.qh }),
+        "premise: the study view presents that card").toBe(true)
+      const foot = page.locator(".ng-drill")
+      await expect.poll(() => held.length, { message: "premise: the options' request was made (and is held, or failed)" }).toBeGreaterThan(0)
+      if (!fail) {
+        expect(await page.evaluate(() => { const a = (window as W).__neural, c = a.deck[a.deckIdx]; return a.mcActive(a._deckInfo.key, c) && !a.mcPoolWarm(a._deckInfo.key, c) }),
+          "premise: a new card asking multiple choice, its options on their way").toBe(true)
+        await expect(foot.locator("[data-mc-loading], [data-reveal]"), "premise: the card's footer is drawn").toHaveCount(1)
+        await expect(foot.locator("[data-reveal]"), "no reveal control while they load").toHaveCount(0)
+        await expect(foot.locator("[data-mc-loading]"), "the footer says the answers are loading").toBeVisible()
+        await expect(foot.locator("[data-mc-loading]")).toBeDisabled()
+        const before = await read()
+        await press(page, ".ng-drill [data-mc-loading]", "the loading footer", touch)
+        await page.evaluate(() => { const e = document.activeElement as HTMLElement | null; if (e && e.blur) e.blur() })
+        for (const k of ["Space", "Space", "Enter", "ArrowDown"]) await page.keyboard.press(k)
+        expect(await read(), "and nothing a press or a key does reveals or grades it").toEqual(before)
+        release()
+        await expect(foot.locator("[data-mc-opt]"), "when the options land the card is multiple choice").toHaveCount(3, { timeout: 20_000 })
+        await expect(foot.locator("[data-reveal]"), "still nothing to reveal").toHaveCount(0)
+        await expect(foot.locator("[data-mc-loading]")).toHaveCount(0)
+      } else {
+        await expect(foot.locator("[data-reveal]"), "a failed load asks front and back, with its Reveal").toBeVisible({ timeout: 20_000 })
+        await expect(foot.locator("[data-mc-opt]"), "and no options").toHaveCount(0)
+        await expect(foot.locator("[data-mc-loading]")).toHaveCount(0)
+        const before = await read()
+        await press(page, ".ng-drill [data-reveal]", "Reveal answer", touch)
+        await expect.poll(async () => (await read()).revealed, { message: "the reveal goes through the one gate" }).toBe(true)
+        const got = page.locator(".ng-drill button", { hasText: "Got it" })
+        await expect(got).toBeVisible()
+        await got.evaluate((b) => b.setAttribute("data-test-got", "1"))
+        await press(page, '.ng-drill [data-test-got="1"]', "Got it", touch)
+        await expect.poll(async () => (await read()).attempts, { message: "and it can be answered: a front-and-back grade" }).toBe(before.attempts + 1)
+      }
     })
   })
 }

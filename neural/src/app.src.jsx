@@ -13691,7 +13691,16 @@ class Component extends DCLogic {
 
     // MC stage: fresh cards answer as seeded multiple-choice, graduating to recall at stage 2
     this._mc = null;
-    if (!this.revealed && this.flashcards && this.mcActive(info.key, card) && !this.mcPoolWarm(info.key, card)) {
+    // ONE GATE FOR EVERY WAY OF REVEALING (SET1-R2, the reader's re-read of #423, finding 4; v1.282.0). While a multiple-choice
+    // card's options are on their way, NO reveal control is drawn: the footer shows what the inline decks show while they
+    // load, a disabled "Loading answers…" (until v1.282.0 it drew "Reveal answer", whose click set `revealed` itself, round
+    // `drillReveal`'s guard, and led to a recall "Got it" with no option picked). When the options land the card is multiple
+    // choice. A FAILED load ends here too: `_warmMcPool` never rejects (hydrateDeck catches every failed fetch and resolves
+    // null) and leaves the pool as warm as it will get, so the card deals from the decks that did land or, when that cannot
+    // make the answers (`_mcBlock` returns none), asks front and back with its Reveal, the same rule as every other surface:
+    // a card is never left with nothing to press.
+    const mcLoading = !this.revealed && this.flashcards && this.mcActive(info.key, card) && !this.mcPoolWarm(info.key, card);
+    if (mcLoading) {
       // The distractor pool is not resident yet (manifest boot). Fetch it and re-render this
       // same card, rather than dealing options from whatever happens to have arrived — that
       // would make the option set a function of network timing. Falling back to classic reveal
@@ -13725,10 +13734,14 @@ class Component extends DCLogic {
     const foot = this.drillFootRef.current; if (foot) {
       foot.style.display = "flex"; foot.innerHTML = "";
       const acts = document.createElement("div"); acts.style.cssText = "display:flex;gap:8px;";
-      if (!this.revealed) {
+      if (!this.revealed && mcLoading) {
+        const wait = this.drillBtn("Loading answers\u2026", true);
+        wait.disabled = true; wait.style.cursor = "default"; wait.style.opacity = ".7"; wait.setAttribute("data-mc-loading", "1");
+        acts.appendChild(wait);
+      } else if (!this.revealed) {
         const show = this.drillBtn("Reveal answer", true);
         show.setAttribute("data-reveal", "1");
-        show.addEventListener("click", () => { this.revealed = true; this.renderDrill(); });
+        show.addEventListener("click", () => this.drillReveal());   // the one gate, as the keys and the swipe
         acts.appendChild(show);
       } else {
         const again = this.drillBtn("Review again", false);
