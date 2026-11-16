@@ -493,3 +493,12 @@ for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { wi
 //  NON-KILL, named: M3e, the announcer without its z 7. While the board is away nothing ambient reaches its top band, so no
 //  test here sees it; the z is kept for the ladder's rule (the notice is never under anything ambient).
 // On dev's own bundle (v1.280.0, 87d1e17ee): all ten tests red, each for the reason its claim names.
+// STAR1-Q1 and STAR1-R1 (each one replacement, rebuilt, the named tests):
+//  M3g  `setPaused` no longer gives the board back during a hold: red at "the drawer opened while the verdict is up…"
+//  M3h  `endRound` puts the board away even with the clock held: red at "a round ended with the clock held…"
+//  M3i  the verdict docked once, not every frame while held: red at 390x631's "a round ended with the clock held…" after the
+//       window is resized ("every line of the verdict in the map's band": 44-146 px against a band of 72-136)
+//  M3c2 the centre's z never lifted: red here (the verdict under the seat's star); M3k the centre lifted in openings too: red at
+//       the "an opening" tests (a heading line over the article's text) and at reduced motion
+//  NON-KILL, named: M3j, no dock at `_endBoard`: the per-frame dock in `updateCamera` docks the verdict on the next frame, so
+//  removing the one-off call changes nothing a frame can show (a redundant line, kept so the verdict is placed before a frame).
