@@ -18523,3 +18523,7 @@ it (under an open article crossing the seat, under the White Foundations card on
 under a see-through control's words and its star under that control's live buttons after a drag (D2, accepted as on dev;
 the reader's counts above), the star rule a follow-up; ratios other than 1, 1.5 and 2 read by the harness only (1.25,
 1.75); the diamond at rs 3.4 at dpr 2 (D6); R3g a non-kill.
+
+## v1.280.1 — Both payload baselines are checkpointed at dev v1.280.0's own level (PAY4, 2026-11-16)
+
+Each cap was reading dev's drift since v1.276.0 (PR #409, #414, #415, #416 and #417): eager +4,689 B of 5,000, first-hand core +4,724 B of 6,000; PR #418 would have gone red on it. The orchestrator's call under the owner's Q7 rule (D-327), as PAY2 and PAY3. Dev's bytes, proved: a clean export of 87d1e17ee built by its own `regenerate:neural`; 14 app rows sha-equal to dev's fingerprint; all 5,056 `static/neural` files identical to the tree served, swapped in under the lock and restored; `/` from CI's build of the same tree (the page served here was an older content build). Eager 366,576 B and core 386,019 B, equal to CI's build of the same tree. Accepted by the script before the bump (stamped `v1.280.0 (87d1e17ee)`); only the baseline fields move, no target, action line or cap. After it both gates read +0. The full record is in the policy's `baseline_reason`.
