@@ -163,6 +163,19 @@ test("cold start: the harness can hold a payload back, and the app plays its fir
   // D-336: on screen, not only in the DOM. D-318's reader gate (af3aac311) hides a card it has not
   // published; here the reader is not late, so the card must be visible once the question docks.
   await expect(page.locator("[data-landcard]"), "the card the visitor is STILL looking at is visible").toBeVisible();
+  // ONE LANDING, ONE DROP-OFF (v1.282.2, FLAKE2): the landing that rendered before the manifest recorded its skip once; the
+  // manifest's arrival re-renders the same landing as a backfill, which until v1.282.2 recorded the skip AGAIN (one landing,
+  // two `question_skipped` in the funnel) before its deck was even requested. Exactly one skip for the shown question's deck,
+  // before it, then the backfilled question
+  const oneSkip = await page.evaluate(() => {
+    const bs = (window as any).__neural.beats as any[], shown = bs.filter((b) => b.beat === "land_q_shown").pop()
+    return { shown: shown ? { deckKey: shown.deckKey, backfill: shown.backfill } : null,
+      skips: bs.filter((b) => b.beat === "land_q_skipped" && shown && b.deckKey === shown.deckKey).map((b) => ({ reason: b.reason, backfill: b.backfill })),
+      order: bs.filter((b) => b.beat === "land_q_skipped" || b.beat === "land_q_shown").map((b) => b.beat) }
+  });
+  expect(oneSkip.shown, "the question docked as a backfill").toMatchObject({ backfill: true });
+  expect(oneSkip.skips, "exactly one skip for that landing, from its own render, not from the backfill").toEqual([{ reason: "decks_in_flight", backfill: false }]);
+  expect(oneSkip.order.slice(-2), "the skip, then the question").toEqual(["land_q_skipped", "land_q_shown"]);
 
   // the timeline is the evidence: requested near sim-zero, served ~25 simulated seconds later
   const tl = j.payloadTimeline().filter((p) => /flashcards\/_index\.json/.test(p.url));

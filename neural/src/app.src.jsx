@@ -16415,10 +16415,14 @@ class Component extends DCLogic {
       // resolution: dock → land_q_shown; failure or landing over → the skip, then (see the warm
       // .then and _flushLandSkipDebt). A missing MANIFEST stays an immediate skip: nothing is
       // even requestable, and the funnel must name that silence while it lasts.
+      // A BACKFILL NEVER REPEATS THE SKIP BEAT (v1.282.2, FLAKE2; the card layer's rule above): a landing whose manifest
+      // arrived late recorded its skip when it rendered, and `onFlashcardsReady` → `_landBackfill` re-renders the SAME landing
+      // (`_landLate`), still before its deck is requested; recording the skip again counted one landing as two drop-offs in the
+      // funnel (`question_skipped`). One landing is one drop-off; the question that then docks is the backfill's own beat
       if (warmKind === "pool") { /* pending, never skipped — mc_pool_cold names the wait */ }
       else if (reason === "decks_in_flight" && this.flashcards && this._deckWaits && this._deckWaits[key])
         this._landSkipDebt = { key: key, mode: mode };
-      else this._landQSkip(key, reason, mode);
+      else if (!this._landLate) this._landQSkip(key, reason, mode);
     }
 
     el.toggleAttribute("data-land-ask", !!this._landAsk && !!this._landQ);
