@@ -98,8 +98,9 @@ test("R5: a longer row from a later build keeps its tail through the merge and t
   assert.deepEqual(merge({ [S]: { [M]: later } }, {})[S][M], later, "a local row alone is kept whole");
   const fresh = [T + 3, 3, T, 1, 0, 0, 7], mature = [T + 20, 30, T - 10, 1, 0, 0, 9];
   assert.deepEqual(merge({ [S]: { [M]: fresh } }, { [S]: { [M]: mature } })[S][M], [T + 30, 30, T, 1, 0, 0, 7], "the healed winner keeps ITS tail");
-  // a beaten row between steps (14 days, 5 days in: 19.7143) heals the winner to that exact interval: the pair at [4]
+  // a beaten row between steps (14 days, 5 days in: 19.714…) heals the winner to that exact interval, as read and not rounded
+  // (v1.281.2): the pair at [4]
   const between = [T + 15, 14, T - 5, 1, 14, T - 10, 9];
-  assert.deepEqual(merge({ [S]: { [M]: fresh } }, { [S]: { [M]: between } })[S][M], [T + 20, 14, T, 1, 19.7143, T, 7], "the heal's pair, the winner's tail after it");
+  assert.deepEqual(merge({ [S]: { [M]: fresh } }, { [S]: { [M]: between } })[S][M], [T + 20, 14, T, 1, 14 + (5 * 16) / 14, T, 7], "the heal's pair, the winner's tail after it");
   assert.doesNotThrow(() => ngProgressValidateBlob({ v: 2, moves: { [S]: { [M]: [T + 3, 3, T, 1, 42] } } }));
 });

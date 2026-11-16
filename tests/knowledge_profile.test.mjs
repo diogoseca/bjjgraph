@@ -230,7 +230,7 @@ test("SRS differential closes over the captured original ladder; changed-constan
   // original ladder IS the cell's seven rungs, and on rows the app writes (due = last + interval) the two still agree on a
   // first answer, a miss, and a right answer on time from 1 to 30 days; they differ exactly where the ruling says (60 -> 90
   // where the original gave 120; 120 -> 241.6667 where it held 120 (v1.281.0, LIN1: one step along the straight line,
-  // carried exactly in the pair, due on its first whole day, 242; the log rule gave 241); a 2-day row, off its ladder,
+  // carried exactly in the pair, not rounded since v1.281.2, due on its first whole day, 242; the log rule gave 241); a 2-day row, off its ladder,
   // where the original sent a right answer to 1 day: 5 days, between 3 and 7); and every cell the new writer stores is one
   // the original reads.
   assert.equal(prior.declarations.NG_SRS_IVLS, "const NG_SRS_IVLS = [1, 3, 7, 14, 30, 60, 120];");
@@ -246,7 +246,7 @@ test("SRS differential closes over the captured original ladder; changed-constan
       const row = interval == null ? undefined : [90 + interval, interval, 90], day = row ? row[0] : 100;
       const was = orig(row, correct, day), now = schedule(row, correct, day);
       if (!correct || interval == null || interval <= 30 && interval !== 2) assert.deepEqual(now, was, `captured SRS ladder: ${row} ${correct}`);
-      else assert.deepEqual(now, { 60: [day + 90, 60, day], 120: [day + 242, 120, day, 241.6667, day], 2: [day + 5, 3, day] }[interval], `the owner's ladder: ${row}`);
+      else assert.deepEqual(now, { 60: [day + 90, 60, day], 120: [day + 242, 120, day, 180 + 185 / 3, day], 2: [day + 5, 3, day] }[interval], `the owner's ladder: ${row}`);
       // the original reads every cell the new writer stores: its right answer climbs from there, never to 1 day
       assert.ok(orig(now, true, day + 1)[1] > 1, `the original on ${now}`);
       checked++;
