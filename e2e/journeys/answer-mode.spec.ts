@@ -19,11 +19,15 @@ import { journey } from "../dsl"
  * CONTROL: dev v1.280.1 (fb498b389), where the default was Classic recall and Recall mode decided a roll: 1 fails at "Auto
  * is the chosen one", 2 at "a new card asks multiple choice", 3 at "the inline deck asks multiple choice", 4 at "the old
  * switch decides nothing".
- * MUTANTS (each alone, rebuilt into the served bundle; the table in docs/Changelog-Archive.md, v1.283.0): default back to
- * "classic" (1, 2, 3); a write of `mcMode` at boot (1, "storage has no mcMode"); no floor, or the floor at stage 1 (2,
- * "never multiple choice again"); the landing reads `recallInPlay` again (4, "the old switch"); a stored "mc" ignored in a
- * roll (4); Last rolls' decks ignoring the mode (3); `mcActive` ignoring a stored "classic" (4, "Practice: a stored Front Back
- * cards…"); Auto's line moved from 2 to 3 (2). Run against this file by /home/user/tmp-pw/drawer/mutants.py (not a gate).
+ * MUTANTS (each alone, rebuilt into the served bundle against a manifest copy carrying its pin; run 16 Nov by the seat's
+ * scratch mutants2.py, not a gate; the table in docs/Changelog-Archive.md, v1.283.0). Two neutral controls first, one in
+ * app.src.jsx and one in knowledge-profile.src.js: every killer below stayed green. Killed here: default back to
+ * "classic" (1, 2); a write of `mcMode` at boot (1, at "storage has no mcMode"); no floor in the grade (2); the landing
+ * reads `recallInPlay` again (4, "the old switch"); a stored "mc" ignored in a roll (4); Last rolls' decks ignoring the
+ * mode (3); `mcActive` ignoring a stored "classic" (4, "Practice: a stored Front Back cards…"); Auto's line moved from 2
+ * to 3 (2, 4). NOT run against this file: the floor at 1, the floor from stage 1, and no floor in `_bumpStage`; those
+ * are killed by tests/knowledge_profile.test.mjs's floor table. A boot write is killed HERE only: the units never run the
+ * constructor (belt_worn and settings_presentation stayed green under it).
  * The harness serves `{}` for dossiers: no claim here reads a film or an article section.
  */
 

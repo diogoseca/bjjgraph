@@ -18671,3 +18671,100 @@ d5806a833 under the build lock: units 1,713/1,713; 26 journey files (the 15 that
 728,171 B; four game bundles carry the app source's gameplay hash, so their sha moves at the same size). Against the
 baselines checkpointed at dev v1.280.0 (PAY4): eager gzip 369,196, +2,620 of 5,000; first-hand core +2,640 of 6,000
 (the gate here reads +2,656, because this worktree's page `/` is 16 B heavier than CI's).
+
+## v1.283.0 — Answer mode is one switch for every card: Auto by default, a card right twice front and back for good; Recall mode and "Show flashcards on pages" leave Settings (SET1, the owner, 2026-11-15; rulings R1/R2/R3, 2026-11-16)
+
+**The owner's words (15 Nov).** "it's time to remove the Path section from the sidebar + reform the user settings … the
+antifragile vs gameplan i'd like to keep as well as the [Daily goal, Answer mode] but btw by default we use the Auto, not
+Classic (which should be called Front Back cards, or the Multiple Choice). after a player dominates MC for a card he is
+shown FC crds, and never again the multiple choice, makes sense?" This entry is slice A of three (the Settings reform and
+the Auto rule); B (the Path row out) and C (a cards view) wait for his answers.
+
+**What Part A found from source (16 Nov, seat drawer).**
+- `mcMode` had one reader, `mcActive` (Practice's cards and the full-pane study view), default `"classic"`; Last rolls' and
+  the Path's inline decks never asked multiple choice (recognition needed a Practice session); a roll's question was always
+  multiple choice unless `recallInPlay` (or a carried pre-rule belt) said otherwise, then front and back from stage 2.
+- Auto could UN-PROVE a card: `ngKnowledgeApplyGrade` sent a stage-2 card to 1 on a wrong front/back answer or a trap pick,
+  i.e. back to multiple choice. On a synthetic deck (326 real White-belt cards, three synthetic players, the app's own
+  grade) a proven card fell back 8, 58 and 243 times (light, mid, heavy). The script: the seat's scratch `sim_auto.mjs`.
+- "Never chose" and "chose Classic" are distinguishable: `set` is the only writer of a settings key and writes on every
+  press, nothing bulk-writes defaults, so an absent `mcMode` is a player who pressed nothing.
+- "Show flashcards on pages" (`quizOnPages`) and Focus (`focus`) are read by nothing; Focus never had a reader
+  (`git log -S"antifragile"`: the Settings row only, since Phase 0.2). R3: Focus stays as it is; what it should do is U190.
+
+**Rulings (the orchestrator, 16 Nov, SET1-GO).**
+- R1 (a), the floor: once a card reaches stage 2 no answer takes it below 2; a miss still resets its schedule; 3 -> 2 and
+  4 -> 3 unchanged; no stored key added. Side effect told to the owner: a card missed at 2 keeps 2/3 of its mastery where
+  it dropped to 1/3.
+- R2 (a), one switch, one meaning, everywhere: Auto (nothing stored) asks multiple choice until stage 2 and front and back
+  from there, in Practice, the study view, Last rolls' inline decks and a roll's question; a stored `classic` is Front Back
+  cards everywhere; a stored `mc` is multiple choice everywhere; checkpoints and the defence drill stay multiple choice;
+  `recallInPlay` and `recallCarry` kept and read by nothing. (b), letting a stored Recall-mode press keep deciding rolls,
+  was rejected: the screen would show Auto while the rolls obeyed a switch no screen shows.
+
+**What shipped.**
+- `_answerMode` / `_cardAsksMc` (app.src.jsx, beside `mcActive`): the one reader; `mcActive`, the landing card's three
+  sites (`_mountLandQ`, the page cache, the warm gate) and every inline deck read it. `_recallInPlayNow` and
+  `_recallCarried` are deleted (their only reader was the switch); the carry's fact is still stamped and merged.
+- Inline decks without a session ask on their own surface, `inline` (option handle `data-inline-mc-opt`, rng tags
+  `inline-mc-*`, its own answer guard), because the Practice surface's guard refused an answer outside a session.
+- The floor in `ngKnowledgeApplyGrade` and in the journeys' seam `_bumpStage`. The writers of `stage`, counted with
+  `| wc -l` first: the grade, the evidence adoption, the load, the per-card MAX merge, the merged-map assignment,
+  `_bumpStage`, the stale-card prune; only the grade and `_bumpStage` can lower a live card.
+- The knowledge law's pin moved (mdp-exposure.src.js, 9ef88c… -> f5ccab…). Label-neutral: the worker binds eight
+  knowledge laws, none of them the grade (game-bundles.mjs `knowledgeNames`). Measured: `regenerate:mdp` run with dev
+  v1.280.2's `knowledge-profile.src.js` and with this one; every model-data file byte-identical, the two variants differing
+  only in `mechanicsHash`, the manifest only in `provenance.{lawHashes.knowledge, modelHash, sourceHash}` and the variants'
+  refs.
+- Settings → Flashcards: Daily goal, Answer mode ("How a card asks you, in Practice and in a roll." Auto / Front Back
+  cards / Multiple choice, one line under the chosen one), Focus (byte-identical). Two rows gone with their keys kept.
+- The black-belt patch row says only how the patch is earned.
+
+**Tests.** e2e/journeys/answer-mode.spec.ts (new); landcard-modes 5c, everything-opens 3 and 4, recall-badge, landing-card
+and mastery-gold's rendered marker rewritten to the rule (each pinned the old one, and says why in place); the mode stated
+through the DSL (`journey(page, { answerMode })`, `j.answerMode`) in the ten journeys written under the old default
+(practice-page, practice-drawer, practice-mix, practice-order, gameplan-learning-loop, pane-history, gen/mid-jit-grades
+file-wide; sidebar, keyboard, newcomer-story per test); units: the floor table (54 cells), the MC differential's
+one named departure, the retired keys' round trip, the Flashcards tab, belt_worn's switch and carry assertions moved onto
+the fact (`carried`).
+
+**Mutants** (16 Nov 08:47 to 08:53, under the lock; the seat's scratch `mutants2.py`, not a gate). Each was applied alone
+and the file restored byte-for-byte (sha checked). A journey mutant's bundle was built against a copy of the MDP manifest
+carrying the mutated file's hash: the build refuses an `app.src.jsx` or a law file that differs from the manifest's pin.
+The real manifest was put back after every build. Both neutral controls ran first through the same build, and every
+killer stayed green.
+
+| mutant | killers, measured |
+|---|---|
+| C0, a no-op in `_answerMode` (control) | belt_worn, settings_presentation, knowledge_profile green; answer-mode 8/8 green; landcard-modes 5c green |
+| C1, a no-op in the grade's floor (control) | knowledge_profile green; answer-mode "a miss never sends it back" 2/2 green |
+| default back to `classic` | settings_presentation RED; belt_worn RED; answer-mode "nothing stored is Auto" 2/2 RED and "a miss never sends it back" 2/2 RED |
+| no floor in the grade | knowledge_profile RED; answer-mode "a miss never sends it back" 2/2 RED |
+| no floor in `_bumpStage` | knowledge_profile RED |
+| the floor at 1, not 2 | knowledge_profile RED |
+| the landing reads `recallInPlay` again | answer-mode "the old switch decides nothing" RED; landcard-modes 5c RED |
+| Last rolls' decks ignore the mode | answer-mode "Last rolls" 2/2 RED |
+| `mcActive` ignores a stored `classic` | answer-mode "Practice: a stored Front Back cards…" RED |
+| Auto's line at 3, not 2 | belt_worn RED; answer-mode "a miss never sends it back" 2/2 RED and "the old switch decides nothing" RED |
+| **a stored `mc` ignored in a roll** | answer-mode "the old switch decides nothing" RED; landcard-modes 5c RED |
+| **the floor applied from stage 1** (a stage-1 miss kept at 1) | knowledge_profile RED |
+| **a write of `mcMode` at boot** (`set("mcMode","auto")` after `_loadProgress`) | answer-mode "nothing stored is Auto" 2/2 RED, at "storage has no mcMode: Auto is the reader's default, never a write"; belt_worn and settings_presentation green (the units never run the constructor) |
+
+**After the run:**
+- The clean bundle was rebuilt. The served `neural.js` is byte-identical to the one before the run (sha 5f5514e8…).
+- The 2 worker cores and the patched manifests' immutable copies that the mutant builds added were removed from
+  dist, the static app, the public app and both mdp folders.
+- The unit killers are green on the clean tree.
+
+A failure message was kept for the boot write only (the runner kept the last run's artifacts). Every other mutant
+changes one predicate, and its red is that predicate's test. The runner now keeps each red's first error line.
+
+**Bytes** (the seat's build of b82e34e3f, against dev v1.280.2's own landing figures): eager gzip 369,140 B (dev 369,196,
+-56); `neural.js` raw 727,876 B (-295); deferred raw 520,519 B of the 522,091 B ceiling. Last rolls' multiple choice alone:
++154 B raw, under the 400 B gzip line SET1-GO set. A first reading of 590,891 B deferred was a stale copy of dev's game
+worker core beside the seat's own in its build folders; CI builds fresh.
+
+**The survey** (the lock, 06:33-07:15): every spec file that renders what a touched file renders (a grep of all of
+`e2e/` and `tests/` per touched file), 61 journey files and 36 generated: 663 of 663 green, 0 flaky, ledger PASS. Part A's
+"up to 27" leaning specs was a grep's upper bound; ten files needed a mode stated (the DSL), five were rewritten because
+they pinned the old rule, and every other file ran green as it is under Auto.
