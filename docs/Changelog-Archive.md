@@ -19556,7 +19556,7 @@ the PR (e2e-full, green on de56390ba).
 **Mutants:**
 - Each ruling's mutant is red at its named assertion in corridor-reach or the telemetry spec, after a green control.
 - B2 and B5 had no gate at first, and are now pinned.
-- My "no non-kills" for PATH-R1 was wrong: the four lifters removed together stayed green until PATH-R2. PATH_R2_RESULT
+- My "no non-kills" for PATH-R1 was wrong: the four lifters removed together stayed green until PATH-R2. PATH-R2's lifter mutants: all four, wheel, pointerdown and keydown red; touchstart alone green, the one non-kill (a Chromium drag also fires pointerdown).
 
 Runs, bytes and the full rulings are in the PR body. corridor-reach.spec.ts names its non-kill and one known limit (a
 shelf press in the instant the plan lands).
