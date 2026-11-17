@@ -66,8 +66,8 @@ description: "Master the cross collar choke from knee on belly. Learn grip seque
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Cross Collar Choke Knee On Belly ft. Evan Cutts",
-      "description": "Cross Collar Choke from Knee on Belly film study: Cross Collar Choke Knee On Belly ft. Evan Cutts.",
+      "name": "Cross Collar Choke Knee On Belly",
+      "description": "Cross Collar Choke from Knee on Belly film study: Cross Collar Choke Knee On Belly.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bnHem44kqeA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bnHem44kqeA",
       "url": "https://www.youtube.com/watch?v=bnHem44kqeA",
@@ -149,7 +149,7 @@ The key strategic consideration is grip sequencing. The first grip must be deep 
 
 ![](https://www.youtube.com/watch?v=bnHem44kqeA)
 
-<p class="clip-credit"><strong>Cross Collar Choke Knee On Belly ft. Evan Cutts</strong> · 2:36 · <a href="https://www.youtube.com/watch?v=bnHem44kqeA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Collar Choke Knee On Belly</strong> · 2:36 · <a href="https://www.youtube.com/watch?v=bnHem44kqeA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

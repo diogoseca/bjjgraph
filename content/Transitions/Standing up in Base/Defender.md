@@ -170,8 +170,8 @@ description: "How to prevent and counter the technical standup from turtle top i
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman",
-      "description": "Standing up in Base (Defender) film study: Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman.",
+      "name": "Dealing With An Opponent Trying to Stand Up From Turtle Position",
+      "description": "Standing up in Base (Defender) film study: Dealing With An Opponent Trying to Stand Up From Turtle Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7QBW031Crmg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7QBW031Crmg",
       "url": "https://www.youtube.com/watch?v=7QBW031Crmg",
@@ -213,7 +213,7 @@ As the top player in turtle, your primary objective when opponent attempts a tec
 
 ![](https://www.youtube.com/watch?v=7QBW031Crmg)
 
-<p class="clip-credit"><strong>Dealing With An Opponent Trying to Stand Up From Turtle Position - Matt Inman</strong> · 6:55 · <a href="https://www.youtube.com/watch?v=7QBW031Crmg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Dealing With An Opponent Trying to Stand Up From Turtle Position</strong> · 6:55 · <a href="https://www.youtube.com/watch?v=7QBW031Crmg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

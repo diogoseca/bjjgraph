@@ -161,22 +161,20 @@ description: "Arm Extraction and Pass (defender): Establish the first high leg a
       "@type": "VideoObject",
       "position": 1,
       "name": "Sitting turtle to running man defense",
-      "description": "Arm Extraction and Pass (Defender) film study: Sitting turtle to running man defense, taught by Priit Mihkelson.",
+      "description": "Arm Extraction and Pass (Defender) film study: Sitting turtle to running man defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zgvlMKLWxAI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zgvlMKLWxAI",
       "url": "https://www.youtube.com/watch?v=zgvlMKLWxAI",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
       "duration": "PT224S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Turtle neck defensive posture",
-      "description": "Arm Extraction and Pass (Defender) film study: Turtle neck defensive posture, taught by Priit Mihkelson.",
+      "description": "Arm Extraction and Pass (Defender) film study: Turtle neck defensive posture.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wjcPhUmFRhM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wjcPhUmFRhM",
       "url": "https://www.youtube.com/watch?v=wjcPhUmFRhM",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
       "duration": "PT169S"
     }
   ]
@@ -215,7 +213,7 @@ If the high clinch opens, use a short hip escape while a forearm holds the shoul
 
 ![](https://www.youtube.com/watch?v=zgvlMKLWxAI)
 
-<p class="clip-credit"><strong>Sitting turtle to running man defense</strong> — taught by Priit Mihkelson · 3:44 · <a href="https://www.youtube.com/watch?v=zgvlMKLWxAI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sitting turtle to running man defense</strong> · 3:44 · <a href="https://www.youtube.com/watch?v=zgvlMKLWxAI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -223,7 +221,7 @@ If the high clinch opens, use a short hip escape while a forearm holds the shoul
 
 ![](https://www.youtube.com/watch?v=wjcPhUmFRhM)
 
-<p class="clip-credit"><strong>Turtle neck defensive posture</strong> — taught by Priit Mihkelson · 2:49 · <a href="https://www.youtube.com/watch?v=wjcPhUmFRhM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle neck defensive posture</strong> · 2:49 · <a href="https://www.youtube.com/watch?v=wjcPhUmFRhM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

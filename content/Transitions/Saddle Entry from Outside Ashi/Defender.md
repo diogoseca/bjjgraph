@@ -160,8 +160,8 @@ description: "Defend against the Saddle Entry counter-entanglement from Outside 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "3 Ways To Escape The Saddle - Drew Weatherhead Brazilian Jiu Jitsu",
-      "description": "Saddle Entry from Outside Ashi (Defender) film study: 3 Ways To Escape The Saddle - Drew Weatherhead Brazilian Jiu Jitsu.",
+      "name": "3 Ways To Escape The Saddle - Brazilian Jiu Jitsu",
+      "description": "Saddle Entry from Outside Ashi (Defender) film study: 3 Ways To Escape The Saddle - Brazilian Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Cu3cDBeOxsg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Cu3cDBeOxsg",
       "url": "https://www.youtube.com/watch?v=Cu3cDBeOxsg",
@@ -195,7 +195,7 @@ As the defender against the Saddle Entry from Outside Ashi, you are the practiti
 
 ![](https://www.youtube.com/watch?v=Cu3cDBeOxsg)
 
-<p class="clip-credit"><strong>3 Ways To Escape The Saddle - Drew Weatherhead Brazilian Jiu Jitsu</strong> · 5:53 · <a href="https://www.youtube.com/watch?v=Cu3cDBeOxsg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Ways To Escape The Saddle - Brazilian Jiu Jitsu</strong> · 5:53 · <a href="https://www.youtube.com/watch?v=Cu3cDBeOxsg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

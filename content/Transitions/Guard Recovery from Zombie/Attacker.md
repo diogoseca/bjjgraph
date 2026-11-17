@@ -181,33 +181,30 @@ description: "Guard Recovery from Zombie (attacker): The bottom player has broke
       "@type": "VideoObject",
       "position": 1,
       "name": "Prison Guard breakdown from lockdown",
-      "description": "Guard Recovery from Zombie (Attacker) film study: Prison Guard breakdown from lockdown, taught by Eddie Bravo.",
+      "description": "Guard Recovery from Zombie (Attacker) film study: Prison Guard breakdown from lockdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
       "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Quarter guard concepts and recovery",
-      "description": "Guard Recovery from Zombie (Attacker) film study: Quarter guard concepts and recovery, taught by Eddie Bravo.",
+      "description": "Guard Recovery from Zombie (Attacker) film study: Quarter guard concepts and recovery.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fTBl0AclzH4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fTBl0AclzH4",
       "url": "https://www.youtube.com/watch?v=fTBl0AclzH4",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Getting to guard and butterfly from lockdown",
-      "description": "Guard Recovery from Zombie (Attacker) film study: Getting to guard and butterfly from lockdown, taught by BJJ Level UP.",
+      "description": "Guard Recovery from Zombie (Attacker) film study: Getting to guard and butterfly from lockdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/o9sXXKqd4sc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/o9sXXKqd4sc",
       "url": "https://www.youtube.com/watch?v=o9sXXKqd4sc",
-      "creator": { "@type": "Person", "name": "BJJ Level UP" },
       "duration": "PT157S"
     }
   ]
@@ -248,7 +245,7 @@ Treat the failed pummel as a guard retention problem: keep the forearm between t
 
 ![](https://www.youtube.com/watch?v=gFYyMkaMz34)
 
-<p class="clip-credit"><strong>Prison Guard breakdown from lockdown</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Prison Guard breakdown from lockdown</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -256,7 +253,7 @@ Treat the failed pummel as a guard retention problem: keep the forearm between t
 
 ![](https://www.youtube.com/watch?v=fTBl0AclzH4)
 
-<p class="clip-credit"><strong>Quarter guard concepts and recovery</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=fTBl0AclzH4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Quarter guard concepts and recovery</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=fTBl0AclzH4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -264,7 +261,7 @@ Treat the failed pummel as a guard retention problem: keep the forearm between t
 
 ![](https://www.youtube.com/watch?v=o9sXXKqd4sc)
 
-<p class="clip-credit"><strong>Getting to guard and butterfly from lockdown</strong> — taught by BJJ Level UP · 2:37 · <a href="https://www.youtube.com/watch?v=o9sXXKqd4sc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Getting to guard and butterfly from lockdown</strong> · 2:37 · <a href="https://www.youtube.com/watch?v=o9sXXKqd4sc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

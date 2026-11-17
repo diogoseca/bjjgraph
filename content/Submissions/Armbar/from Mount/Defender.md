@@ -160,8 +160,8 @@ description: "How to defend against Armbar from Mount in BJJ. Recognition, escap
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rodrigo Comprido shows the BEST Armbar Escape on the Mount",
-      "description": "Armbar from Mount (Defender) film study: Rodrigo Comprido shows the BEST Armbar Escape on the Mount.",
+      "name": "The BEST Armbar Escape on the Mount",
+      "description": "Armbar from Mount (Defender) film study: The BEST Armbar Escape on the Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MnJ00En9COI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MnJ00En9COI",
       "url": "https://www.youtube.com/watch?v=MnJ00En9COI",
@@ -230,7 +230,7 @@ Defensive hierarchy follows a strict sequence: prevent arm isolation first, disr
 
 ![](https://www.youtube.com/watch?v=MnJ00En9COI)
 
-<p class="clip-credit"><strong>Rodrigo Comprido shows the BEST Armbar Escape on the Mount</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=MnJ00En9COI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The BEST Armbar Escape on the Mount</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=MnJ00En9COI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

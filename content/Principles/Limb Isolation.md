@@ -154,21 +154,19 @@ description: "Separate a limb from its supports and block its return to create p
       "@type": "VideoObject",
       "position": 1,
       "name": "Isolating the arm for triangle and armbar attacks",
-      "description": "Limb Isolation film study: Isolating the arm for triangle and armbar attacks, taught by Andre Galvao.",
+      "description": "Limb Isolation film study: Isolating the arm for triangle and armbar attacks.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iMrrpT7rLaQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/iMrrpT7rLaQ",
-      "url": "https://www.youtube.com/watch?v=iMrrpT7rLaQ",
-      "creator": { "@type": "Person", "name": "Andre Galvao" }
+      "url": "https://www.youtube.com/watch?v=iMrrpT7rLaQ"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Mount fundamentals and arm isolation",
-      "description": "Limb Isolation film study: Mount fundamentals and arm isolation, taught by Tren Long.",
+      "description": "Limb Isolation film study: Mount fundamentals and arm isolation.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WBX03jm1qFA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WBX03jm1qFA",
       "url": "https://www.youtube.com/watch?v=WBX03jm1qFA",
-      "creator": { "@type": "Person", "name": "Tren Long" },
       "duration": "PT278S"
     }
   ]
@@ -198,7 +196,7 @@ Control the shoulder or hip as well as the wrist or ankle. Place a barrier on th
 
 ![](https://www.youtube.com/watch?v=iMrrpT7rLaQ)
 
-<p class="clip-credit"><strong>Isolating the arm for triangle and armbar attacks</strong> — taught by Andre Galvao · <a href="https://www.youtube.com/watch?v=iMrrpT7rLaQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Isolating the arm for triangle and armbar attacks</strong> · <a href="https://www.youtube.com/watch?v=iMrrpT7rLaQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -206,7 +204,7 @@ Control the shoulder or hip as well as the wrist or ankle. Place a barrier on th
 
 ![](https://www.youtube.com/watch?v=WBX03jm1qFA)
 
-<p class="clip-credit"><strong>Mount fundamentals and arm isolation</strong> — taught by Tren Long · 4:38 · <a href="https://www.youtube.com/watch?v=WBX03jm1qFA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mount fundamentals and arm isolation</strong> · 4:38 · <a href="https://www.youtube.com/watch?v=WBX03jm1qFA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

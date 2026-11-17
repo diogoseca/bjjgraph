@@ -152,8 +152,8 @@ description: "Complete defensive guide for the Backstep Pass from Reverse X-Guar
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Imanari Roll to Counter Backstep from Reverse X | Grappler Alex Fialho",
-      "description": "Backstep Pass from Reverse X-Guard (Defender) film study: Imanari Roll to Counter Backstep from Reverse X | Grappler Alex Fialho.",
+      "name": "Imanari Roll to Counter Backstep from Reverse X",
+      "description": "Backstep Pass from Reverse X-Guard (Defender) film study: Imanari Roll to Counter Backstep from Reverse X.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UYSDyiPraRQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UYSDyiPraRQ",
       "url": "https://www.youtube.com/watch?v=UYSDyiPraRQ",
@@ -197,7 +197,7 @@ Defending the Backstep Pass from Reverse X-Guard requires early recognition of t
 
 ![](https://www.youtube.com/watch?v=UYSDyiPraRQ)
 
-<p class="clip-credit"><strong>Imanari Roll to Counter Backstep from Reverse X | Grappler Alex Fialho</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=UYSDyiPraRQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Imanari Roll to Counter Backstep from Reverse X</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=UYSDyiPraRQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

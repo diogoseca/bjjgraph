@@ -46,8 +46,8 @@ description: "Master the Double Sleeve to Spider Guard transition in BJJ. Comple
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia Spider Guard Grip Break",
-      "description": "Double Sleeve to Spider Guard film study: Marcelo Garcia Spider Guard Grip Break.",
+      "name": "Spider Guard Grip Break",
+      "description": "Double Sleeve to Spider Guard film study: Spider Guard Grip Break.",
       "thumbnailUrl": "https://i.ytimg.com/vi/QLFDlCZqHlU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/QLFDlCZqHlU",
       "url": "https://www.youtube.com/watch?v=QLFDlCZqHlU",
@@ -107,7 +107,7 @@ The key challenge lies in maintaining control during the transition itself. The 
 
 ![](https://www.youtube.com/watch?v=QLFDlCZqHlU)
 
-<p class="clip-credit"><strong>Marcelo Garcia Spider Guard Grip Break</strong> · 0:10 · <a href="https://www.youtube.com/watch?v=QLFDlCZqHlU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Spider Guard Grip Break</strong> · 0:10 · <a href="https://www.youtube.com/watch?v=QLFDlCZqHlU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

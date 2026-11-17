@@ -154,33 +154,30 @@ description: "Chest compression uses bodyweight around the torso to limit moveme
       "@type": "VideoObject",
       "position": 1,
       "name": "Chest compression demonstrated",
-      "description": "Chest Compression film study: Chest compression demonstrated, taught by Josh Barnett.",
+      "description": "Chest Compression film study: Chest compression demonstrated.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kqPP3Of4aUo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kqPP3Of4aUo",
       "url": "https://www.youtube.com/watch?v=kqPP3Of4aUo",
-      "creator": { "@type": "Person", "name": "Josh Barnett" },
       "duration": "PT58S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Chest compression, the Bas Rutten",
-      "description": "Chest Compression film study: Chest compression, the Bas Rutten, taught by Chosen Few BJJ.",
+      "name": "Chest compression",
+      "description": "Chest Compression film study: Chest compression.",
       "thumbnailUrl": "https://i.ytimg.com/vi/puYruhLh2sQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/puYruhLh2sQ",
       "url": "https://www.youtube.com/watch?v=puYruhLh2sQ",
-      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
       "duration": "PT206S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Timing the breathing cycle to add chest pressure",
-      "description": "Chest Compression film study: Timing the breathing cycle to add chest pressure, taught by Wim Deputter.",
+      "description": "Chest Compression film study: Timing the breathing cycle to add chest pressure.",
       "thumbnailUrl": "https://i.ytimg.com/vi/14cakPb1he0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/14cakPb1he0",
       "url": "https://www.youtube.com/watch?v=14cakPb1he0",
-      "creator": { "@type": "Person", "name": "Wim Deputter" },
       "duration": "PT395S"
     }
   ]
@@ -210,7 +207,7 @@ Weight placement matters more than squeezing harder. In training, use partner fe
 
 ![](https://www.youtube.com/watch?v=kqPP3Of4aUo)
 
-<p class="clip-credit"><strong>Chest compression demonstrated</strong> — taught by Josh Barnett · 0:58 · <a href="https://www.youtube.com/watch?v=kqPP3Of4aUo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Chest compression demonstrated</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=kqPP3Of4aUo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +215,7 @@ Weight placement matters more than squeezing harder. In training, use partner fe
 
 ![](https://www.youtube.com/watch?v=puYruhLh2sQ)
 
-<p class="clip-credit"><strong>Chest compression, the Bas Rutten</strong> — taught by Chosen Few BJJ · 3:26 · <a href="https://www.youtube.com/watch?v=puYruhLh2sQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Chest compression</strong> · 3:26 · <a href="https://www.youtube.com/watch?v=puYruhLh2sQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,7 +223,7 @@ Weight placement matters more than squeezing harder. In training, use partner fe
 
 ![](https://www.youtube.com/watch?v=14cakPb1he0)
 
-<p class="clip-credit"><strong>Timing the breathing cycle to add chest pressure</strong> — taught by Wim Deputter · 6:35 · <a href="https://www.youtube.com/watch?v=14cakPb1he0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Timing the breathing cycle to add chest pressure</strong> · 6:35 · <a href="https://www.youtube.com/watch?v=14cakPb1he0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -160,11 +160,10 @@ description: "Defend Rubber Guard from top with systematic escape protocols. Lea
       "@type": "VideoObject",
       "position": 1,
       "name": "Simple (but risky) rubber guard escape",
-      "description": "Rubber Guard (Top) film study: Simple (but risky) rubber guard escape, taught by BJJ4Breakfast.",
+      "description": "Rubber Guard (Top) film study: Simple (but risky) rubber guard escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
       "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT131S"
     }
   ]
@@ -193,7 +192,7 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 ![](https://www.youtube.com/watch?v=AvivOVuYcCk)
 
-<p class="clip-credit"><strong>Simple (but risky) rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple (but risky) rubber guard escape</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

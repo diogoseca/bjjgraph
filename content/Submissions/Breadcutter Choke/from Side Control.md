@@ -66,8 +66,8 @@ description: "Master the Breadcutter Choke from Side Control. Learn gi collar gr
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Nino Schembri Side Control Breadcutter Choke to Far Side Armbar",
-      "description": "Breadcutter Choke from Side Control film study: Nino Schembri Side Control Breadcutter Choke to Far Side Armbar.",
+      "name": "Side Control Breadcutter Choke to Far Side Armbar",
+      "description": "Breadcutter Choke from Side Control film study: Side Control Breadcutter Choke to Far Side Armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3SNZDysizY0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3SNZDysizY0",
       "url": "https://www.youtube.com/watch?v=3SNZDysizY0",
@@ -76,8 +76,8 @@ description: "Master the Breadcutter Choke from Side Control. Learn gi collar gr
     {
       "@type": "VideoObject",
       "position": 4,
-      "name": "The Timeless Bread Cutter Choke! (Roger Gracie Style) - Andy Hagans",
-      "description": "Breadcutter Choke from Side Control film study: The Timeless Bread Cutter Choke! (Roger Gracie Style) - Andy Hagans.",
+      "name": "The Timeless Bread Cutter Choke!",
+      "description": "Breadcutter Choke from Side Control film study: The Timeless Bread Cutter Choke!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xab75xOnHqk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xab75xOnHqk",
       "url": "https://www.youtube.com/watch?v=xab75xOnHqk",
@@ -159,7 +159,7 @@ This choke is particularly effective because opponents under side control typica
 
 ![](https://www.youtube.com/watch?v=3SNZDysizY0)
 
-<p class="clip-credit"><strong>Nino Schembri Side Control Breadcutter Choke to Far Side Armbar</strong> · 0:46 · <a href="https://www.youtube.com/watch?v=3SNZDysizY0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control Breadcutter Choke to Far Side Armbar</strong> · 0:46 · <a href="https://www.youtube.com/watch?v=3SNZDysizY0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -167,7 +167,7 @@ This choke is particularly effective because opponents under side control typica
 
 ![](https://www.youtube.com/watch?v=xab75xOnHqk)
 
-<p class="clip-credit"><strong>The Timeless Bread Cutter Choke! (Roger Gracie Style) - Andy Hagans</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=xab75xOnHqk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Timeless Bread Cutter Choke!</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=xab75xOnHqk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

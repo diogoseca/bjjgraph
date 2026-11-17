@@ -154,32 +154,29 @@ description: "Guard passing clears the opponent’s grips, legs, and hip movemen
       "@type": "VideoObject",
       "position": 1,
       "name": "Setting up your guard passing",
-      "description": "Guard Passing film study: Setting up your guard passing, taught by Rory Van Vliet.",
+      "description": "Guard Passing film study: Setting up your guard passing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_UTf3WChDNE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_UTf3WChDNE",
-      "url": "https://www.youtube.com/watch?v=_UTf3WChDNE",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=_UTf3WChDNE"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "The no-gi guard passing system explained",
-      "description": "Guard Passing film study: The no-gi guard passing system explained, taught by Gordon Ryan.",
+      "description": "Guard Passing film study: The no-gi guard passing system explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OdscGUlottI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OdscGUlottI",
       "url": "https://www.youtube.com/watch?v=OdscGUlottI",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT761S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Gordon Ryan explains his guard passing system",
-      "description": "Guard Passing film study: Gordon Ryan explains his guard passing system, taught by Gordon Ryan.",
+      "name": "Guard passing system",
+      "description": "Guard Passing film study: Guard passing system.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RvgT17Xri5g/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RvgT17Xri5g",
       "url": "https://www.youtube.com/watch?v=RvgT17Xri5g",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT374S"
     }
   ]
@@ -209,7 +206,7 @@ Choose a route that fits the guard in front of you. Clear its main controls, pas
 
 ![](https://www.youtube.com/watch?v=_UTf3WChDNE)
 
-<p class="clip-credit"><strong>Setting up your guard passing</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=_UTf3WChDNE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Setting up your guard passing</strong> · <a href="https://www.youtube.com/watch?v=_UTf3WChDNE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,7 +214,7 @@ Choose a route that fits the guard in front of you. Clear its main controls, pas
 
 ![](https://www.youtube.com/watch?v=OdscGUlottI)
 
-<p class="clip-credit"><strong>The no-gi guard passing system explained</strong> — taught by Gordon Ryan · 12:41 · <a href="https://www.youtube.com/watch?v=OdscGUlottI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The no-gi guard passing system explained</strong> · 12:41 · <a href="https://www.youtube.com/watch?v=OdscGUlottI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +222,7 @@ Choose a route that fits the guard in front of you. Clear its main controls, pas
 
 ![](https://www.youtube.com/watch?v=RvgT17Xri5g)
 
-<p class="clip-credit"><strong>Gordon Ryan explains his guard passing system</strong> — taught by Gordon Ryan · 6:14 · <a href="https://www.youtube.com/watch?v=RvgT17Xri5g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard passing system</strong> · 6:14 · <a href="https://www.youtube.com/watch?v=RvgT17Xri5g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

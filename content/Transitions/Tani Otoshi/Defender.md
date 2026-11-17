@@ -161,8 +161,8 @@ description: "How to defend against Tani Otoshi in BJJ. Recognition cues, defens
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Funakubo\u0027s Counter to Direct-Attack Tani-Otoshi",
-      "description": "Tani Otoshi (Defender) film study: Funakubo\u0027s Counter to Direct-Attack Tani-Otoshi.",
+      "name": "Counter to Direct-Attack Tani-Otoshi",
+      "description": "Tani Otoshi (Defender) film study: Counter to Direct-Attack Tani-Otoshi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6G3ornKcN7I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6G3ornKcN7I",
       "url": "https://www.youtube.com/watch?v=6G3ornKcN7I",
@@ -199,7 +199,7 @@ Defending Tani Otoshi requires early recognition and immediate reaction, because
 
 ![](https://www.youtube.com/watch?v=6G3ornKcN7I)
 
-<p class="clip-credit"><strong>Funakubo&#39;s Counter to Direct-Attack Tani-Otoshi</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=6G3ornKcN7I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Counter to Direct-Attack Tani-Otoshi</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=6G3ornKcN7I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

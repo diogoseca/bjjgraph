@@ -161,33 +161,30 @@ description: "Buggy Choke to Front Headlock (defender): Use safe shoulder and hi
       "@type": "VideoObject",
       "position": 1,
       "name": "Front Headlock Defense - Farside Peek Out",
-      "description": "Buggy Choke to Front Headlock (Defender) film study: Front Headlock Defense - Farside Peek Out, taught by Procel BJJ.",
+      "description": "Buggy Choke to Front Headlock (Defender) film study: Front Headlock Defense - Farside Peek Out.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lV4cgzaVhb8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lV4cgzaVhb8",
       "url": "https://www.youtube.com/watch?v=lV4cgzaVhb8",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
       "duration": "PT64S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Sucker Drag Defense Against The Front Headlock",
-      "description": "Buggy Choke to Front Headlock (Defender) film study: Sucker Drag Defense Against The Front Headlock, taught by Procel BJJ.",
+      "description": "Buggy Choke to Front Headlock (Defender) film study: Sucker Drag Defense Against The Front Headlock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/c8N4F3EgOZk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/c8N4F3EgOZk",
       "url": "https://www.youtube.com/watch?v=c8N4F3EgOZk",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
       "duration": "PT71S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Front head and arm escape - duck under to turtle",
-      "description": "Buggy Choke to Front Headlock (Defender) film study: Front head and arm escape - duck under to turtle, taught by United Fighter.",
+      "description": "Buggy Choke to Front Headlock (Defender) film study: Front head and arm escape - duck under to turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ynXB4QKxzOs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ynXB4QKxzOs",
       "url": "https://www.youtube.com/watch?v=ynXB4QKxzOs",
-      "creator": { "@type": "Person", "name": "United Fighter" },
       "duration": "PT58S"
     }
   ]
@@ -226,7 +223,7 @@ The original Buggy entry works beneath side-control chest pressure. While its lo
 
 ![](https://www.youtube.com/watch?v=lV4cgzaVhb8)
 
-<p class="clip-credit"><strong>Front Headlock Defense - Farside Peek Out</strong> — taught by Procel BJJ · 1:04 · <a href="https://www.youtube.com/watch?v=lV4cgzaVhb8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front Headlock Defense - Farside Peek Out</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=lV4cgzaVhb8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,7 +231,7 @@ The original Buggy entry works beneath side-control chest pressure. While its lo
 
 ![](https://www.youtube.com/watch?v=c8N4F3EgOZk)
 
-<p class="clip-credit"><strong>Sucker Drag Defense Against The Front Headlock</strong> — taught by Procel BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=c8N4F3EgOZk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sucker Drag Defense Against The Front Headlock</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=c8N4F3EgOZk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -242,7 +239,7 @@ The original Buggy entry works beneath side-control chest pressure. While its lo
 
 ![](https://www.youtube.com/watch?v=ynXB4QKxzOs)
 
-<p class="clip-credit"><strong>Front head and arm escape - duck under to turtle</strong> — taught by United Fighter · 0:58 · <a href="https://www.youtube.com/watch?v=ynXB4QKxzOs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front head and arm escape - duck under to turtle</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=ynXB4QKxzOs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

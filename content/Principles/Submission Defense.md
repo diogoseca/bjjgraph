@@ -154,32 +154,29 @@ description: "Recognize submission setups early, protect the controls they need,
       "@type": "VideoObject",
       "position": 1,
       "name": "Five tips for defending the guillotine",
-      "description": "Submission Defense film study: Five tips for defending the guillotine, taught by Jordan Preisinger.",
+      "description": "Submission Defense film study: Five tips for defending the guillotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fRgtPEBn9IA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fRgtPEBn9IA",
-      "url": "https://www.youtube.com/watch?v=fRgtPEBn9IA",
-      "creator": { "@type": "Person", "name": "Jordan Preisinger" }
+      "url": "https://www.youtube.com/watch?v=fRgtPEBn9IA"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "The first five escapes you need to know",
-      "description": "Submission Defense film study: The first five escapes you need to know, taught by Knight Jiu-Jitsu.",
+      "description": "Submission Defense film study: The first five escapes you need to know.",
       "thumbnailUrl": "https://i.ytimg.com/vi/775gXyYzB08/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/775gXyYzB08",
       "url": "https://www.youtube.com/watch?v=775gXyYzB08",
-      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
       "duration": "PT521S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Favorite armbar escape",
-      "description": "Submission Defense film study: Favorite armbar escape, taught by Matt Arroyo.",
+      "description": "Submission Defense film study: Favorite armbar escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
       "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
       "duration": "PT92S"
     }
   ]
@@ -209,7 +206,7 @@ Read the grip, angle, and limb isolation before the finish develops. Practice ea
 
 ![](https://www.youtube.com/watch?v=fRgtPEBn9IA)
 
-<p class="clip-credit"><strong>Five tips for defending the guillotine</strong> — taught by Jordan Preisinger · <a href="https://www.youtube.com/watch?v=fRgtPEBn9IA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Five tips for defending the guillotine</strong> · <a href="https://www.youtube.com/watch?v=fRgtPEBn9IA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,7 +214,7 @@ Read the grip, angle, and limb isolation before the finish develops. Practice ea
 
 ![](https://www.youtube.com/watch?v=775gXyYzB08)
 
-<p class="clip-credit"><strong>The first five escapes you need to know</strong> — taught by Knight Jiu-Jitsu · 8:41 · <a href="https://www.youtube.com/watch?v=775gXyYzB08" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The first five escapes you need to know</strong> · 8:41 · <a href="https://www.youtube.com/watch?v=775gXyYzB08" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +222,7 @@ Read the grip, angle, and limb isolation before the finish develops. Practice ea
 
 ![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
 
-<p class="clip-credit"><strong>Favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Favorite armbar escape</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

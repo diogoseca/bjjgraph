@@ -186,8 +186,8 @@ description: "Learn to execute the cross collar choke from 3-4 mount. Detailed g
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Palm up Palm up CROSS CHOKE BJJ | Helio Gracie Variation",
-      "description": "Cross Collar Choke from 3-4 Mount (Attacker) film study: Palm up Palm up CROSS CHOKE BJJ | Helio Gracie Variation.",
+      "name": "Palm up Palm up CROSS CHOKE BJJ | Variation",
+      "description": "Cross Collar Choke from 3-4 Mount (Attacker) film study: Palm up Palm up CROSS CHOKE BJJ | Variation.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DrAxA8KUxbo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DrAxA8KUxbo",
       "url": "https://www.youtube.com/watch?v=DrAxA8KUxbo",
@@ -222,7 +222,7 @@ Attacking with the cross collar choke from 3-4 mount requires systematic grip in
 
 ![](https://www.youtube.com/watch?v=DrAxA8KUxbo)
 
-<p class="clip-credit"><strong>Palm up Palm up CROSS CHOKE BJJ | Helio Gracie Variation</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=DrAxA8KUxbo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Palm up Palm up CROSS CHOKE BJJ | Variation</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=DrAxA8KUxbo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

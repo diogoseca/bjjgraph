@@ -56,8 +56,8 @@ description: "Master the toe hold from Ashi Garami leg entanglement. Complete gu
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)",
-      "description": "Toe Hold from Ashi Garami film study: Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu).",
+      "name": "Crossover Toe Hold (Brazilian Jiu Jitsu)",
+      "description": "Toe Hold from Ashi Garami film study: Crossover Toe Hold (Brazilian Jiu Jitsu).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
       "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
@@ -141,7 +141,7 @@ Competition-level application demands patience and precise timing. The toe hold 
 
 ![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
 
-<p class="clip-credit"><strong>Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crossover Toe Hold (Brazilian Jiu Jitsu)</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

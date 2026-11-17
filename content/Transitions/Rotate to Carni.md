@@ -47,22 +47,20 @@ description: "Rotating to Carni seeks a leg-assisted shoulder clamp after cleari
       "@type": "VideoObject",
       "position": 1,
       "name": "Basic entries and rotations into rubber guard",
-      "description": "Rotate to Carni film study: Basic entries and rotations into rubber guard, taught by BJJ4Breakfast.",
+      "description": "Rotate to Carni film study: Basic entries and rotations into rubber guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WliTCjEDA-8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WliTCjEDA-8",
       "url": "https://www.youtube.com/watch?v=WliTCjEDA-8",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT106S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Rubber guard trap and rotation",
-      "description": "Rotate to Carni film study: Rubber guard trap and rotation, taught by Richie Martinez.",
+      "description": "Rotate to Carni film study: Rubber guard trap and rotation.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nuT1Jk0KVoI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/nuT1Jk0KVoI",
       "url": "https://www.youtube.com/watch?v=nuT1Jk0KVoI",
-      "creator": { "@type": "Person", "name": "Richie Martinez" },
       "duration": "PT246S"
     }
   ]
@@ -121,7 +119,7 @@ Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](ht
 
 ![](https://www.youtube.com/watch?v=WliTCjEDA-8)
 
-<p class="clip-credit"><strong>Basic entries and rotations into rubber guard</strong> — taught by BJJ4Breakfast · 1:46 · <a href="https://www.youtube.com/watch?v=WliTCjEDA-8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Basic entries and rotations into rubber guard</strong> · 1:46 · <a href="https://www.youtube.com/watch?v=WliTCjEDA-8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -129,7 +127,7 @@ Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](ht
 
 ![](https://www.youtube.com/watch?v=nuT1Jk0KVoI)
 
-<p class="clip-credit"><strong>Rubber guard trap and rotation</strong> — taught by Richie Martinez · 4:06 · <a href="https://www.youtube.com/watch?v=nuT1Jk0KVoI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rubber guard trap and rotation</strong> · 4:06 · <a href="https://www.youtube.com/watch?v=nuT1Jk0KVoI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

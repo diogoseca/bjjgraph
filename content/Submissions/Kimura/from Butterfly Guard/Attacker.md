@@ -205,8 +205,8 @@ description: "Execute the Kimura from Butterfly Guard with precise grip mechanic
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026",
-      "description": "Kimura from Butterfly Guard (Attacker) film study: Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026.",
+      "name": "Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026",
+      "description": "Kimura from Butterfly Guard (Attacker) film study: Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dgYwflmcxKk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dgYwflmcxKk",
       "url": "https://www.youtube.com/watch?v=dgYwflmcxKk",
@@ -260,7 +260,7 @@ Attacking the Kimura from Butterfly Guard requires coordinating upper body grip 
 
 ![](https://www.youtube.com/watch?v=dgYwflmcxKk)
 
-<p class="clip-credit"><strong>Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle…</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique Breakdown: Kimura Half Guard Bottom | The Gentle…</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

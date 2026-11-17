@@ -148,11 +148,10 @@ description: "Carni bottom perspective: Use the guard and shoulder connection to
       "@type": "VideoObject",
       "position": 1,
       "name": "Top lock clinch for the leglock control",
-      "description": "Carni (Bottom) film study: Top lock clinch for the leglock control, taught by Eddie Bravo.",
+      "description": "Carni (Bottom) film study: Top lock clinch for the leglock control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EMyodFAwXZk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EMyodFAwXZk",
       "url": "https://www.youtube.com/watch?v=EMyodFAwXZk",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     }
   ]
@@ -187,7 +186,7 @@ Richie Martinez demonstrates the configuration from Z guard through Jersey. The 
 
 ![](https://www.youtube.com/watch?v=EMyodFAwXZk)
 
-<p class="clip-credit"><strong>Top lock clinch for the leglock control</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=EMyodFAwXZk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Top lock clinch for the leglock control</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=EMyodFAwXZk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -15,9 +15,14 @@ Two modes, each reading what a reader or a player is actually served:
 
 Checks, each printing a POSITIVE count, because a check that never ran reports clean (CLAUDE.md §6):
   1. every film-study credit line (`<p class="clip-credit">`): 0 may say "taught by";
-  2. every schema.org VideoObject in a page's JSON-LD: 0 may carry `creator` or `author`;
+  2. every schema.org VideoObject in a page's JSON-LD: 0 may carry `creator` or `author`, and 0 may say
+     "taught by" in its description;
   3. every clip object in every dossier chunk (role clips, root clips, escape rows): 0 may carry `by`.
 It fails on any hit, and when any of the three counts is 0.
+
+Found by this gate on its first green-path run: 8 case-variant ORPHAN pages (content/Positions/{K-Guard,North-South,
+X-Guard,Z-Guard}/{top,bottom}.md) that no generator writes, beside the generated Top.md / Bottom.md, so
+regenerate:md never cleaned them. Their three credit sites were stripped by hand-run script in v1.288.0.
 
 Mutants, run at v1.288.0 and red here by name: a template's "— taught by" restored (check 1), its JSON-LD
 `creator` restored (check 2), `by` back in `_CLIP_FIELDS` of scripts/_neural_content.py (check 3). The app's
@@ -61,6 +66,8 @@ def check_pages(files, label, out):
                     videos += 1
                     for k in ("creator", "author"):
                         if k in d: out.append(f"{rel}: VideoObject {d.get('name', '')[:60]!r} carries {k}: {d[k]!r:.80}")
+                    if "taught by" in str(d.get("description", "")).lower():
+                        out.append(f"{rel}: VideoObject {d.get('name', '')[:60]!r} description names who teaches")
             walk(block, visit)
     print(f"{label}: {len(files)} files read, {credits} clip credit lines, {videos} VideoObjects")
     return credits, videos

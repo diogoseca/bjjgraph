@@ -153,8 +153,8 @@ description: "How to defend against Hip Bump Sweep in BJJ. Recognition cues, def
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "James Quan Bump Sweep Defense",
-      "description": "Hip Bump Sweep (Defender) film study: James Quan Bump Sweep Defense.",
+      "name": "Bump Sweep Defense",
+      "description": "Hip Bump Sweep (Defender) film study: Bump Sweep Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Bqy30Ua9dkQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Bqy30Ua9dkQ",
       "url": "https://www.youtube.com/watch?v=Bqy30Ua9dkQ",
@@ -195,7 +195,7 @@ Advanced defense against the Hip Bump requires understanding the entire attack t
 
 ![](https://www.youtube.com/watch?v=Bqy30Ua9dkQ)
 
-<p class="clip-credit"><strong>James Quan Bump Sweep Defense</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=Bqy30Ua9dkQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bump Sweep Defense</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=Bqy30Ua9dkQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

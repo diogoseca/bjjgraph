@@ -47,22 +47,20 @@ description: "Master mounted triangle position in BJJ. High-risk, high-reward po
       "@type": "VideoObject",
       "position": 1,
       "name": "Mounted Triangle",
-      "description": "Mounted Triangle film study: Mounted Triangle, taught by Satori BJJ.",
+      "description": "Mounted Triangle film study: Mounted Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vLUua_voKzc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vLUua_voKzc",
       "url": "https://www.youtube.com/watch?v=vLUua_voKzc",
-      "creator": { "@type": "Person", "name": "Satori BJJ" },
       "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Triangle to mounted triangle",
-      "description": "Mounted Triangle film study: Triangle to mounted triangle, taught by Ground X Jiu Jitsu.",
+      "description": "Mounted Triangle film study: Triangle to mounted triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1qxxbBWo9kw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1qxxbBWo9kw",
       "url": "https://www.youtube.com/watch?v=1qxxbBWo9kw",
-      "creator": { "@type": "Person", "name": "Ground X Jiu Jitsu" },
       "duration": "PT154S"
     }
   ]
@@ -120,7 +118,7 @@ Success in mounted triangle requires understanding the biomechanical principles 
 
 ![](https://www.youtube.com/watch?v=vLUua_voKzc)
 
-<p class="clip-credit"><strong>Mounted Triangle</strong> — taught by Satori BJJ · 0:52 · <a href="https://www.youtube.com/watch?v=vLUua_voKzc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mounted Triangle</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=vLUua_voKzc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -128,7 +126,7 @@ Success in mounted triangle requires understanding the biomechanical principles 
 
 ![](https://www.youtube.com/watch?v=1qxxbBWo9kw)
 
-<p class="clip-credit"><strong>Triangle to mounted triangle</strong> — taught by Ground X Jiu Jitsu · 2:34 · <a href="https://www.youtube.com/watch?v=1qxxbBWo9kw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle to mounted triangle</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=1qxxbBWo9kw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

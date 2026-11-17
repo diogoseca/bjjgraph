@@ -180,8 +180,8 @@ description: "Complete guide to finishing the omoplata from established control.
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Clark Gracie Omoplata: BJJ Technique Breakdown",
-      "description": "Omoplata from Omoplata Control (Attacker) film study: Clark Gracie Omoplata: BJJ Technique Breakdown.",
+      "name": "Omoplata: BJJ Technique Breakdown",
+      "description": "Omoplata from Omoplata Control (Attacker) film study: Omoplata: BJJ Technique Breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/oQAP8nARiHU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oQAP8nARiHU",
       "url": "https://www.youtube.com/watch?v=oQAP8nARiHU",
@@ -190,8 +190,8 @@ description: "Complete guide to finishing the omoplata from established control.
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "OMOPLATA EM GIRO BY CLARK GRACIE",
-      "description": "Omoplata from Omoplata Control (Attacker) film study: OMOPLATA EM GIRO BY CLARK GRACIE.",
+      "name": "OMOPLATA EM GIRO",
+      "description": "Omoplata from Omoplata Control (Attacker) film study: OMOPLATA EM GIRO.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HCuRfqaM0tM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HCuRfqaM0tM",
       "url": "https://www.youtube.com/watch?v=HCuRfqaM0tM",
@@ -236,7 +236,7 @@ Attacking the omoplata from established omoplata control is fundamentally differ
 
 ![](https://www.youtube.com/watch?v=oQAP8nARiHU)
 
-<p class="clip-credit"><strong>Clark Gracie Omoplata: BJJ Technique Breakdown</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=oQAP8nARiHU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata: BJJ Technique Breakdown</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=oQAP8nARiHU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +244,7 @@ Attacking the omoplata from established omoplata control is fundamentally differ
 
 ![](https://www.youtube.com/watch?v=HCuRfqaM0tM)
 
-<p class="clip-credit"><strong>OMOPLATA EM GIRO BY CLARK GRACIE</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=HCuRfqaM0tM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>OMOPLATA EM GIRO</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=HCuRfqaM0tM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

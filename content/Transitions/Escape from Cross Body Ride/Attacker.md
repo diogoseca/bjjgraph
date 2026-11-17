@@ -186,8 +186,8 @@ description: "Learn to execute the Escape from Cross Body Ride in BJJ. Step-by-s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Purdue Camp 2022 - Jake Sueflohn - Escaping cross body ride",
-      "description": "Escape from Cross Body Ride (Attacker) film study: Purdue Camp 2022 - Jake Sueflohn - Escaping cross body ride.",
+      "name": "Purdue Camp 2022 - Escaping cross body ride",
+      "description": "Escape from Cross Body Ride (Attacker) film study: Purdue Camp 2022 - Escaping cross body ride.",
       "thumbnailUrl": "https://i.ytimg.com/vi/l7FuJKfhhug/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/l7FuJKfhhug",
       "url": "https://www.youtube.com/watch?v=l7FuJKfhhug",
@@ -196,8 +196,8 @@ description: "Learn to execute the Escape from Cross Body Ride in BJJ. Step-by-s
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Leg Riding Defense vs  Cross Body Ride, Jeff Jordan, Jeff Jordan Wrestling\u2026",
-      "description": "Escape from Cross Body Ride (Attacker) film study: Leg Riding Defense vs  Cross Body Ride, Jeff Jordan, Jeff Jordan Wrestling\u2026.",
+      "name": "Leg Riding Defense vs Cross Body Ride",
+      "description": "Escape from Cross Body Ride (Attacker) film study: Leg Riding Defense vs Cross Body Ride.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tUuT7lVaIRA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tUuT7lVaIRA",
       "url": "https://www.youtube.com/watch?v=tUuT7lVaIRA",
@@ -231,7 +231,7 @@ Executing the Escape from Cross Body Ride requires precise timing, decisive hip 
 
 ![](https://www.youtube.com/watch?v=l7FuJKfhhug)
 
-<p class="clip-credit"><strong>Purdue Camp 2022 - Jake Sueflohn - Escaping cross body ride</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=l7FuJKfhhug" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Purdue Camp 2022 - Escaping cross body ride</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=l7FuJKfhhug" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -239,7 +239,7 @@ Executing the Escape from Cross Body Ride requires precise timing, decisive hip 
 
 ![](https://www.youtube.com/watch?v=tUuT7lVaIRA)
 
-<p class="clip-credit"><strong>Leg Riding Defense vs  Cross Body Ride, Jeff Jordan, Jeff Jordan Wrestling…</strong> · 5:24 · <a href="https://www.youtube.com/watch?v=tUuT7lVaIRA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg Riding Defense vs Cross Body Ride</strong> · 5:24 · <a href="https://www.youtube.com/watch?v=tUuT7lVaIRA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

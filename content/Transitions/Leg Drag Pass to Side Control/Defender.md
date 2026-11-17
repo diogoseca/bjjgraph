@@ -160,8 +160,8 @@ description: "How to defend against Leg Drag Pass to Side Control in BJJ. Recogn
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "LEANDRO Lo -  Leg drag defense with technical stand up",
-      "description": "Leg Drag Pass to Side Control (Defender) film study: LEANDRO Lo -  Leg drag defense with technical stand up.",
+      "name": "Leg drag defense with technical stand up",
+      "description": "Leg Drag Pass to Side Control (Defender) film study: Leg drag defense with technical stand up.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fO9mvIlh4Yw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fO9mvIlh4Yw",
       "url": "https://www.youtube.com/watch?v=fO9mvIlh4Yw",
@@ -199,7 +199,7 @@ Strategically, your best outcomes come from early recognition and proactive defe
 
 ![](https://www.youtube.com/watch?v=fO9mvIlh4Yw)
 
-<p class="clip-credit"><strong>LEANDRO Lo -  Leg drag defense with technical stand up</strong> · 3:20 · <a href="https://www.youtube.com/watch?v=fO9mvIlh4Yw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg drag defense with technical stand up</strong> · 3:20 · <a href="https://www.youtube.com/watch?v=fO9mvIlh4Yw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

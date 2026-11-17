@@ -186,8 +186,8 @@ description: "Execute the Homer Simpson Sweep from deep half guard. Step-by-step
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Jeff Glover Seminar - deep half guard homer simpson",
-      "description": "Homer Simpson Sweep (Attacker) film study: Jeff Glover Seminar - deep half guard homer simpson.",
+      "name": "Seminar - deep half guard homer simpson",
+      "description": "Homer Simpson Sweep (Attacker) film study: Seminar - deep half guard homer simpson.",
       "thumbnailUrl": "https://i.ytimg.com/vi/eIbwE6fV0no/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/eIbwE6fV0no",
       "url": "https://www.youtube.com/watch?v=eIbwE6fV0no",
@@ -241,7 +241,7 @@ The Homer Simpson Sweep attacker operates from deep half guard bottom, using the
 
 ![](https://www.youtube.com/watch?v=eIbwE6fV0no)
 
-<p class="clip-credit"><strong>Jeff Glover Seminar - deep half guard homer simpson</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=eIbwE6fV0no" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Seminar - deep half guard homer simpson</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=eIbwE6fV0no" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

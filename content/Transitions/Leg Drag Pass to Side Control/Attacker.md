@@ -180,8 +180,8 @@ description: "How to execute Leg Drag Pass to Side Control in BJJ. Attacking per
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Hannette Staack: Leg-drag to side control",
-      "description": "Leg Drag Pass to Side Control (Attacker) film study: Hannette Staack: Leg-drag to side control.",
+      "name": "Leg-drag to side control",
+      "description": "Leg Drag Pass to Side Control (Attacker) film study: Leg-drag to side control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dN_9aLZLzzY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dN_9aLZLzzY",
       "url": "https://www.youtube.com/watch?v=dN_9aLZLzzY",
@@ -229,7 +229,7 @@ Strategically, this pass should be executed when the opponent flattens out rathe
 
 ![](https://www.youtube.com/watch?v=dN_9aLZLzzY)
 
-<p class="clip-credit"><strong>Hannette Staack: Leg-drag to side control</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=dN_9aLZLzzY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg-drag to side control</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=dN_9aLZLzzY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

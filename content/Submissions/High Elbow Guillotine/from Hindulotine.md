@@ -47,33 +47,30 @@ description: "The high-elbow guillotine raises the supporting elbow over the sho
       "@type": "VideoObject",
       "position": 1,
       "name": "The Marcelotine High Elbow Guillotine",
-      "description": "High Elbow Guillotine from Hindulotine film study: The Marcelotine High Elbow Guillotine, taught by Marcelo Garcia.",
+      "description": "High Elbow Guillotine from Hindulotine film study: The Marcelotine High Elbow Guillotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
       "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT73S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "High Elbow Guillotine aka Marcelotine",
-      "description": "High Elbow Guillotine from Hindulotine film study: High Elbow Guillotine aka Marcelotine, taught by Wrecking Crew BJJ.",
+      "description": "High Elbow Guillotine from Hindulotine film study: High Elbow Guillotine aka Marcelotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9U5nyBImGj4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9U5nyBImGj4",
       "url": "https://www.youtube.com/watch?v=9U5nyBImGj4",
-      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
       "duration": "PT45S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Marcelotine High Elbow Guillotine",
-      "description": "High Elbow Guillotine from Hindulotine film study: Marcelotine High Elbow Guillotine, taught by Miguel Garcia.",
+      "description": "High Elbow Guillotine from Hindulotine film study: Marcelotine High Elbow Guillotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HPAWgC8qxFY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HPAWgC8qxFY",
       "url": "https://www.youtube.com/watch?v=HPAWgC8qxFY",
-      "creator": { "@type": "Person", "name": "Miguel Garcia" },
       "duration": "PT47S"
     }
   ]
@@ -138,7 +135,7 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 
 ![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
 
-<p class="clip-credit"><strong>The Marcelotine High Elbow Guillotine</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Marcelotine High Elbow Guillotine</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +143,7 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 
 ![](https://www.youtube.com/watch?v=9U5nyBImGj4)
 
-<p class="clip-credit"><strong>High Elbow Guillotine aka Marcelotine</strong> — taught by Wrecking Crew BJJ · 0:45 · <a href="https://www.youtube.com/watch?v=9U5nyBImGj4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>High Elbow Guillotine aka Marcelotine</strong> · 0:45 · <a href="https://www.youtube.com/watch?v=9U5nyBImGj4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -154,7 +151,7 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 
 ![](https://www.youtube.com/watch?v=HPAWgC8qxFY)
 
-<p class="clip-credit"><strong>Marcelotine High Elbow Guillotine</strong> — taught by Miguel Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=HPAWgC8qxFY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Marcelotine High Elbow Guillotine</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=HPAWgC8qxFY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

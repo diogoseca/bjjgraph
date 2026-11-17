@@ -47,22 +47,20 @@ description: "A sweep from Chill Dog needs a controlled posting arm and an off-b
       "@type": "VideoObject",
       "position": 1,
       "name": "Meathook to Chill Dog to Carnie and Kimura finishes",
-      "description": "Sweep from Chill Dog film study: Meathook to Chill Dog to Carnie and Kimura finishes, taught by Marshall Stamper.",
+      "description": "Sweep from Chill Dog film study: Meathook to Chill Dog to Carnie and Kimura finishes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Q2aYW-20B44/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Q2aYW-20B44",
       "url": "https://www.youtube.com/watch?v=Q2aYW-20B44",
-      "creator": { "@type": "Person", "name": "Marshall Stamper" },
       "duration": "PT73S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Closed guard entry to Chill Dog to omoplata",
-      "description": "Sweep from Chill Dog film study: Closed guard entry to Chill Dog to omoplata, taught by Marshall Stamper.",
+      "description": "Sweep from Chill Dog film study: Closed guard entry to Chill Dog to omoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2zillrf6gGs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2zillrf6gGs",
       "url": "https://www.youtube.com/watch?v=2zillrf6gGs",
-      "creator": { "@type": "Person", "name": "Marshall Stamper" },
       "duration": "PT195S"
     }
   ]
@@ -121,7 +119,7 @@ Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https
 
 ![](https://www.youtube.com/watch?v=Q2aYW-20B44)
 
-<p class="clip-credit"><strong>Meathook to Chill Dog to Carnie and Kimura finishes</strong> — taught by Marshall Stamper · 1:13 · <a href="https://www.youtube.com/watch?v=Q2aYW-20B44" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Meathook to Chill Dog to Carnie and Kimura finishes</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=Q2aYW-20B44" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -129,7 +127,7 @@ Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https
 
 ![](https://www.youtube.com/watch?v=2zillrf6gGs)
 
-<p class="clip-credit"><strong>Closed guard entry to Chill Dog to omoplata</strong> — taught by Marshall Stamper · 3:15 · <a href="https://www.youtube.com/watch?v=2zillrf6gGs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Closed guard entry to Chill Dog to omoplata</strong> · 3:15 · <a href="https://www.youtube.com/watch?v=2zillrf6gGs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

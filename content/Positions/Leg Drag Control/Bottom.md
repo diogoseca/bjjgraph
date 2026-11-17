@@ -165,8 +165,8 @@ description: "Navigate leg drag control from bottom position. Master defensive t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "VI: Leg drag defense - Guard Retention - De Groot BJJ",
-      "description": "Leg Drag Control (Bottom) film study: VI: Leg drag defense - Guard Retention - De Groot BJJ.",
+      "name": "VI: Leg drag defense - Guard Retention",
+      "description": "Leg Drag Control (Bottom) film study: VI: Leg drag defense - Guard Retention.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IhRQp9IUhKU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IhRQp9IUhKU",
       "url": "https://www.youtube.com/watch?v=IhRQp9IUhKU",
@@ -204,7 +204,7 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 ![](https://www.youtube.com/watch?v=IhRQp9IUhKU)
 
-<p class="clip-credit"><strong>VI: Leg drag defense - Guard Retention - De Groot BJJ</strong> · 5:30 · <a href="https://www.youtube.com/watch?v=IhRQp9IUhKU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>VI: Leg drag defense - Guard Retention</strong> · 5:30 · <a href="https://www.youtube.com/watch?v=IhRQp9IUhKU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

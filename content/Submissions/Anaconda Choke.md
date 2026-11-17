@@ -47,44 +47,40 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
       "@type": "VideoObject",
       "position": 1,
       "name": "Anaconda choke finish",
-      "description": "Anaconda Choke film study: Anaconda choke finish, taught by Marcelo Garcia.",
+      "description": "Anaconda Choke film study: Anaconda choke finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DHYmDsncdS8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DHYmDsncdS8",
       "url": "https://www.youtube.com/watch?v=DHYmDsncdS8",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT126S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Anaconda choke",
-      "description": "Anaconda Choke film study: Anaconda choke, taught by Ninja Pinto.",
+      "description": "Anaconda Choke film study: Anaconda choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RbkOnRb2lvA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RbkOnRb2lvA",
       "url": "https://www.youtube.com/watch?v=RbkOnRb2lvA",
-      "creator": { "@type": "Person", "name": "Ninja Pinto" },
       "duration": "PT49S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Fix your anaconda chokes",
-      "description": "Anaconda Choke film study: Fix your anaconda chokes, taught by Lycan.",
+      "description": "Anaconda Choke film study: Fix your anaconda chokes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1e2GPOUYR-o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1e2GPOUYR-o",
       "url": "https://www.youtube.com/watch?v=1e2GPOUYR-o",
-      "creator": { "@type": "Person", "name": "Lycan" },
       "duration": "PT41S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Anaconda finish details, S-grip",
-      "description": "Anaconda Choke film study: Anaconda finish details, S-grip, taught by Ben Eddy.",
+      "description": "Anaconda Choke film study: Anaconda finish details, S-grip.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dr66s8QK9_g/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dr66s8QK9_g",
       "url": "https://www.youtube.com/watch?v=dr66s8QK9_g",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
       "duration": "PT96S"
     }
   ]
@@ -156,7 +152,7 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 ![](https://www.youtube.com/watch?v=DHYmDsncdS8)
 
-<p class="clip-credit"><strong>Anaconda choke finish</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=DHYmDsncdS8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda choke finish</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=DHYmDsncdS8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -164,7 +160,7 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 ![](https://www.youtube.com/watch?v=RbkOnRb2lvA)
 
-<p class="clip-credit"><strong>Anaconda choke</strong> — taught by Ninja Pinto · 0:49 · <a href="https://www.youtube.com/watch?v=RbkOnRb2lvA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda choke</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=RbkOnRb2lvA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -172,7 +168,7 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 ![](https://www.youtube.com/watch?v=1e2GPOUYR-o)
 
-<p class="clip-credit"><strong>Fix your anaconda chokes</strong> — taught by Lycan · 0:41 · <a href="https://www.youtube.com/watch?v=1e2GPOUYR-o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Fix your anaconda chokes</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=1e2GPOUYR-o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -180,7 +176,7 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 ![](https://www.youtube.com/watch?v=dr66s8QK9_g)
 
-<p class="clip-credit"><strong>Anaconda finish details, S-grip</strong> — taught by Ben Eddy · 1:36 · <a href="https://www.youtube.com/watch?v=dr66s8QK9_g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda finish details, S-grip</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=dr66s8QK9_g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

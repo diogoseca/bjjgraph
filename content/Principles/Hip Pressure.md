@@ -154,22 +154,20 @@ description: "Control the opponent’s hips with weight, contact, and angle chan
       "@type": "VideoObject",
       "position": 1,
       "name": "Principles of pressure passing",
-      "description": "Hip Pressure film study: Principles of pressure passing, taught by Bernardo Faria.",
+      "description": "Hip Pressure film study: Principles of pressure passing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/eU2MKcq5we0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/eU2MKcq5we0",
       "url": "https://www.youtube.com/watch?v=eU2MKcq5we0",
-      "creator": { "@type": "Person", "name": "Bernardo Faria" },
       "duration": "PT353S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "The science of pressure in jiu jitsu",
-      "description": "Hip Pressure film study: The science of pressure in jiu jitsu, taught by RVV BJJ.",
+      "description": "Hip Pressure film study: The science of pressure in jiu jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mzAgY0QUtnc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mzAgY0QUtnc",
       "url": "https://www.youtube.com/watch?v=mzAgY0QUtnc",
-      "creator": { "@type": "Person", "name": "RVV BJJ" },
       "duration": "PT785S"
     }
   ]
@@ -199,7 +197,7 @@ Place your hips where they block the escape you expect. Keep enough support else
 
 ![](https://www.youtube.com/watch?v=eU2MKcq5we0)
 
-<p class="clip-credit"><strong>Principles of pressure passing</strong> — taught by Bernardo Faria · 5:53 · <a href="https://www.youtube.com/watch?v=eU2MKcq5we0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Principles of pressure passing</strong> · 5:53 · <a href="https://www.youtube.com/watch?v=eU2MKcq5we0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -207,7 +205,7 @@ Place your hips where they block the escape you expect. Keep enough support else
 
 ![](https://www.youtube.com/watch?v=mzAgY0QUtnc)
 
-<p class="clip-credit"><strong>The science of pressure in jiu jitsu</strong> — taught by RVV BJJ · 13:05 · <a href="https://www.youtube.com/watch?v=mzAgY0QUtnc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The science of pressure in jiu jitsu</strong> · 13:05 · <a href="https://www.youtube.com/watch?v=mzAgY0QUtnc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

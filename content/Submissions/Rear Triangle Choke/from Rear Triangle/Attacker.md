@@ -186,8 +186,8 @@ description: "Complete guide to finishing the rear triangle choke from rear tria
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Back Attacks 2.0 - Part 5: Back Triangle // Tom Halpin",
-      "description": "Rear Triangle Choke from Rear Triangle (Attacker) film study: Back Attacks 2.0 - Part 5: Back Triangle // Tom Halpin.",
+      "name": "Back Attacks 2.0 - Part 5: Back Triangle",
+      "description": "Rear Triangle Choke from Rear Triangle (Attacker) film study: Back Attacks 2.0 - Part 5: Back Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/c4wN4z41c9o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/c4wN4z41c9o",
       "url": "https://www.youtube.com/watch?v=c4wN4z41c9o",
@@ -242,7 +242,7 @@ Attacking with the rear triangle choke from the rear triangle position centers o
 
 ![](https://www.youtube.com/watch?v=c4wN4z41c9o)
 
-<p class="clip-credit"><strong>Back Attacks 2.0 - Part 5: Back Triangle // Tom Halpin</strong> · 5:28 · <a href="https://www.youtube.com/watch?v=c4wN4z41c9o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Attacks 2.0 - Part 5: Back Triangle</strong> · 5:28 · <a href="https://www.youtube.com/watch?v=c4wN4z41c9o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

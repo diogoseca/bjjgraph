@@ -192,8 +192,8 @@ description: "Execute the Meathook Entry from Rubber Guard bottom. Master the 10
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ben Eddy NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to\u2026",
-      "description": "Meathook Entry from Rubber Guard (Attacker) film study: Ben Eddy NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to\u2026.",
+      "name": "NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to\u2026",
+      "description": "Meathook Entry from Rubber Guard (Attacker) film study: NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4HRzdivWEyU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4HRzdivWEyU",
       "url": "https://www.youtube.com/watch?v=4HRzdivWEyU",
@@ -227,7 +227,7 @@ From the attacker's perspective, the Meathook Entry from Rubber Guard is a calcu
 
 ![](https://www.youtube.com/watch?v=4HRzdivWEyU)
 
-<p class="clip-credit"><strong>Ben Eddy NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to…</strong> · 6:04 · <a href="https://www.youtube.com/watch?v=4HRzdivWEyU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to…</strong> · 6:04 · <a href="https://www.youtube.com/watch?v=4HRzdivWEyU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,8 +46,8 @@ description: "Master Kimura from Turtle in BJJ. Complete guide with safety proto
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura From Turtle Guard Catch Wrestling Style by Neil Melanson",
-      "description": "Kimura from Turtle film study: Kimura From Turtle Guard Catch Wrestling Style by Neil Melanson.",
+      "name": "Kimura From Turtle Guard Catch Wrestling Style",
+      "description": "Kimura from Turtle film study: Kimura From Turtle Guard Catch Wrestling Style.",
       "thumbnailUrl": "https://i.ytimg.com/vi/axrl5lhbE-A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/axrl5lhbE-A",
       "url": "https://www.youtube.com/watch?v=axrl5lhbE-A",
@@ -129,7 +129,7 @@ Capitalizing on the natural arm exposure of the defensive turtle, the Kimura fro
 
 ![](https://www.youtube.com/watch?v=axrl5lhbE-A)
 
-<p class="clip-credit"><strong>Kimura From Turtle Guard Catch Wrestling Style by Neil Melanson</strong> · 5:09 · <a href="https://www.youtube.com/watch?v=axrl5lhbE-A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura From Turtle Guard Catch Wrestling Style</strong> · 5:09 · <a href="https://www.youtube.com/watch?v=axrl5lhbE-A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

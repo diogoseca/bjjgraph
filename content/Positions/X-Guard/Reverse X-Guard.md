@@ -47,11 +47,10 @@ description: "Master Reverse X-Guard in BJJ. Strategic guide covering when to us
       "@type": "VideoObject",
       "position": 1,
       "name": "Technique Talk: The Reverse X-Guard Entry",
-      "description": "Reverse X-Guard film study: Technique Talk: The Reverse X-Guard Entry, taught by Black Flag Submission Company.",
+      "description": "Reverse X-Guard film study: Technique Talk: The Reverse X-Guard Entry.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dISye8G6dpU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dISye8G6dpU",
       "url": "https://www.youtube.com/watch?v=dISye8G6dpU",
-      "creator": { "@type": "Person", "name": "Black Flag Submission Company" },
       "duration": "PT190S"
     }
   ]
@@ -107,7 +106,7 @@ Reverse X-Guard has gained prominence in modern competition BJJ as athletes like
 
 ![](https://www.youtube.com/watch?v=dISye8G6dpU)
 
-<p class="clip-credit"><strong>Technique Talk: The Reverse X-Guard Entry</strong> — taught by Black Flag Submission Company · 3:10 · <a href="https://www.youtube.com/watch?v=dISye8G6dpU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique Talk: The Reverse X-Guard Entry</strong> · 3:10 · <a href="https://www.youtube.com/watch?v=dISye8G6dpU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

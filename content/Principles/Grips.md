@@ -154,43 +154,39 @@ description: "Grips are hand connections that control movement, posture, and dis
       "@type": "VideoObject",
       "position": 1,
       "name": "How to grip the gi",
-      "description": "Grips film study: How to grip the gi, taught by Rory Van Vliet.",
+      "description": "Grips film study: How to grip the gi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5SVkWFEn3OE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5SVkWFEn3OE",
-      "url": "https://www.youtube.com/watch?v=5SVkWFEn3OE",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=5SVkWFEn3OE"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Complete BJJ grip fighting guide",
-      "description": "Grips film study: Complete BJJ grip fighting guide, taught by Jordan Preisinger.",
+      "description": "Grips film study: Complete BJJ grip fighting guide.",
       "thumbnailUrl": "https://i.ytimg.com/vi/n6EUwvCkWJ8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/n6EUwvCkWJ8",
       "url": "https://www.youtube.com/watch?v=n6EUwvCkWJ8",
-      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
       "duration": "PT534S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Judo grip fighting secret for grapplers",
-      "description": "Grips film study: Judo grip fighting secret for grapplers, taught by Travis Stevens.",
+      "description": "Grips film study: Judo grip fighting secret for grapplers.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WO-YzdWoUnw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WO-YzdWoUnw",
       "url": "https://www.youtube.com/watch?v=WO-YzdWoUnw",
-      "creator": { "@type": "Person", "name": "Travis Stevens" },
       "duration": "PT298S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "One grip fighting rule every white belt should know",
-      "description": "Grips film study: One grip fighting rule every white belt should know, taught by Chewjitsu.",
+      "description": "Grips film study: One grip fighting rule every white belt should know.",
       "thumbnailUrl": "https://i.ytimg.com/vi/86SrcnnJ6BY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/86SrcnnJ6BY",
       "url": "https://www.youtube.com/watch?v=86SrcnnJ6BY",
-      "creator": { "@type": "Person", "name": "Chewjitsu" },
       "duration": "PT294S"
     }
   ]
@@ -220,7 +216,7 @@ Choose the grip your next action needs while denying the opponent’s most usefu
 
 ![](https://www.youtube.com/watch?v=5SVkWFEn3OE)
 
-<p class="clip-credit"><strong>How to grip the gi</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=5SVkWFEn3OE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to grip the gi</strong> · <a href="https://www.youtube.com/watch?v=5SVkWFEn3OE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Choose the grip your next action needs while denying the opponent’s most usefu
 
 ![](https://www.youtube.com/watch?v=n6EUwvCkWJ8)
 
-<p class="clip-credit"><strong>Complete BJJ grip fighting guide</strong> — taught by Jordan Preisinger · 8:54 · <a href="https://www.youtube.com/watch?v=n6EUwvCkWJ8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Complete BJJ grip fighting guide</strong> · 8:54 · <a href="https://www.youtube.com/watch?v=n6EUwvCkWJ8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Choose the grip your next action needs while denying the opponent’s most usefu
 
 ![](https://www.youtube.com/watch?v=WO-YzdWoUnw)
 
-<p class="clip-credit"><strong>Judo grip fighting secret for grapplers</strong> — taught by Travis Stevens · 4:58 · <a href="https://www.youtube.com/watch?v=WO-YzdWoUnw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Judo grip fighting secret for grapplers</strong> · 4:58 · <a href="https://www.youtube.com/watch?v=WO-YzdWoUnw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Choose the grip your next action needs while denying the opponent’s most usefu
 
 ![](https://www.youtube.com/watch?v=86SrcnnJ6BY)
 
-<p class="clip-credit"><strong>One grip fighting rule every white belt should know</strong> — taught by Chewjitsu · 4:54 · <a href="https://www.youtube.com/watch?v=86SrcnnJ6BY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>One grip fighting rule every white belt should know</strong> · 4:54 · <a href="https://www.youtube.com/watch?v=86SrcnnJ6BY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

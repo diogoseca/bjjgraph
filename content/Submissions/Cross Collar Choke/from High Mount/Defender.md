@@ -170,8 +170,8 @@ description: "Defend the Cross Collar Choke from High Mount in BJJ. Recognition 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Brazilian Jiu Jitsu Video: Escape the Cross Collar Choke from Mount with Mark\u2026",
-      "description": "Cross Collar Choke from High Mount (Defender) film study: Brazilian Jiu Jitsu Video: Escape the Cross Collar Choke from Mount with Mark\u2026.",
+      "name": "Brazilian Jiu Jitsu Video: Escape the Cross Collar Choke from Mount",
+      "description": "Cross Collar Choke from High Mount (Defender) film study: Brazilian Jiu Jitsu Video: Escape the Cross Collar Choke from Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YaDKRPbIzYY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YaDKRPbIzYY",
       "url": "https://www.youtube.com/watch?v=YaDKRPbIzYY",
@@ -224,7 +224,7 @@ Defending the Cross Collar Choke from High Mount requires early recognition, dis
 
 ![](https://www.youtube.com/watch?v=YaDKRPbIzYY)
 
-<p class="clip-credit"><strong>Brazilian Jiu Jitsu Video: Escape the Cross Collar Choke from Mount with Mark…</strong> · 2:04 · <a href="https://www.youtube.com/watch?v=YaDKRPbIzYY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Brazilian Jiu Jitsu Video: Escape the Cross Collar Choke from Mount</strong> · 2:04 · <a href="https://www.youtube.com/watch?v=YaDKRPbIzYY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

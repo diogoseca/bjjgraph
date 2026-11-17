@@ -154,43 +154,39 @@ description: "Use timing, control handoffs, and fallback positions to move betwe
       "@type": "VideoObject",
       "position": 1,
       "name": "Flowing through grappling ranges",
-      "description": "Transition Management film study: Flowing through grappling ranges, taught by Jon Satava.",
+      "description": "Transition Management film study: Flowing through grappling ranges.",
       "thumbnailUrl": "https://i.ytimg.com/vi/QR8G6NYDl8I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/QR8G6NYDl8I",
-      "url": "https://www.youtube.com/watch?v=QR8G6NYDl8I",
-      "creator": { "@type": "Person", "name": "Jon Satava" }
+      "url": "https://www.youtube.com/watch?v=QR8G6NYDl8I"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Gordon Ryan\u0027s mount system: transitioning between controls",
-      "description": "Transition Management film study: Gordon Ryan\u0027s mount system: transitioning between controls, taught by Sebastian Brosche.",
+      "name": "Mount system: transitioning between controls",
+      "description": "Transition Management film study: Mount system: transitioning between controls.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fd2D5hlHTL8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fd2D5hlHTL8",
       "url": "https://www.youtube.com/watch?v=fd2D5hlHTL8",
-      "creator": { "@type": "Person", "name": "Sebastian Brosche" },
       "duration": "PT587S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Chaining escapes from bottom pins",
-      "description": "Transition Management film study: Chaining escapes from bottom pins, taught by Gordon Ryan.",
+      "description": "Transition Management film study: Chaining escapes from bottom pins.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PARsvWFmssI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PARsvWFmssI",
       "url": "https://www.youtube.com/watch?v=PARsvWFmssI",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT273S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Knee cut pass into triangle or armbar",
-      "description": "Transition Management film study: Knee cut pass into triangle or armbar, taught by Southern Scrap Nation.",
+      "description": "Transition Management film study: Knee cut pass into triangle or armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/w-uHMVyJDS8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/w-uHMVyJDS8",
       "url": "https://www.youtube.com/watch?v=w-uHMVyJDS8",
-      "creator": { "@type": "Person", "name": "Southern Scrap Nation" },
       "duration": "PT61S"
     }
   ]
@@ -220,7 +216,7 @@ Before moving, identify the opening, the contact you must keep, and where you ca
 
 ![](https://www.youtube.com/watch?v=QR8G6NYDl8I)
 
-<p class="clip-credit"><strong>Flowing through grappling ranges</strong> — taught by Jon Satava · <a href="https://www.youtube.com/watch?v=QR8G6NYDl8I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Flowing through grappling ranges</strong> · <a href="https://www.youtube.com/watch?v=QR8G6NYDl8I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Before moving, identify the opening, the contact you must keep, and where you ca
 
 ![](https://www.youtube.com/watch?v=fd2D5hlHTL8)
 
-<p class="clip-credit"><strong>Gordon Ryan&#39;s mount system: transitioning between controls</strong> — taught by Sebastian Brosche · 9:47 · <a href="https://www.youtube.com/watch?v=fd2D5hlHTL8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mount system: transitioning between controls</strong> · 9:47 · <a href="https://www.youtube.com/watch?v=fd2D5hlHTL8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Before moving, identify the opening, the contact you must keep, and where you ca
 
 ![](https://www.youtube.com/watch?v=PARsvWFmssI)
 
-<p class="clip-credit"><strong>Chaining escapes from bottom pins</strong> — taught by Gordon Ryan · 4:33 · <a href="https://www.youtube.com/watch?v=PARsvWFmssI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Chaining escapes from bottom pins</strong> · 4:33 · <a href="https://www.youtube.com/watch?v=PARsvWFmssI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Before moving, identify the opening, the contact you must keep, and where you ca
 
 ![](https://www.youtube.com/watch?v=w-uHMVyJDS8)
 
-<p class="clip-credit"><strong>Knee cut pass into triangle or armbar</strong> — taught by Southern Scrap Nation · 1:01 · <a href="https://www.youtube.com/watch?v=w-uHMVyJDS8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee cut pass into triangle or armbar</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=w-uHMVyJDS8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

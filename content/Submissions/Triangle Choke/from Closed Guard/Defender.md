@@ -180,8 +180,8 @@ description: "How to defend against Triangle from Closed Guard in BJJ. Recogniti
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "John Danaher:  on escaping triangles vs big opponents (Gordon Ryan)",
-      "description": "Triangle Choke from Closed Guard (Defender) film study: John Danaher:  on escaping triangles vs big opponents (Gordon Ryan).",
+      "name": "Escaping triangles vs big opponents",
+      "description": "Triangle Choke from Closed Guard (Defender) film study: Escaping triangles vs big opponents.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Z-CsRn4K0vg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Z-CsRn4K0vg",
       "url": "https://www.youtube.com/watch?v=Z-CsRn4K0vg",
@@ -236,7 +236,7 @@ Successful triangle defense requires understanding the attacker's mechanics in r
 
 ![](https://www.youtube.com/watch?v=Z-CsRn4K0vg)
 
-<p class="clip-credit"><strong>John Danaher:  on escaping triangles vs big opponents (Gordon Ryan)</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=Z-CsRn4K0vg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping triangles vs big opponents</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=Z-CsRn4K0vg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

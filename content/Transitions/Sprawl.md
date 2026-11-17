@@ -66,8 +66,8 @@ description: "Master the Sprawl takedown defense in BJJ. Essential defensive tec
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Jordan Burroughs: Sprawl Technique",
-      "description": "Sprawl film study: Jordan Burroughs: Sprawl Technique.",
+      "name": "Sprawl Technique",
+      "description": "Sprawl film study: Sprawl Technique.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LiRrlPGboK8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LiRrlPGboK8",
       "url": "https://www.youtube.com/watch?v=LiRrlPGboK8",
@@ -141,7 +141,7 @@ The sprawl is considered one of the most high-percentage defensive techniques in
 
 ![](https://www.youtube.com/watch?v=LiRrlPGboK8)
 
-<p class="clip-credit"><strong>Jordan Burroughs: Sprawl Technique</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=LiRrlPGboK8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sprawl Technique</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=LiRrlPGboK8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

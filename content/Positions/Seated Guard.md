@@ -67,11 +67,10 @@ description: "Master Seated Guard in BJJ. Complete guide covering entries, trans
       "@type": "VideoObject",
       "position": 3,
       "name": "Seated Guard Hand Fighting Drill: Sweep | Wrestle Up | Single Leg X",
-      "description": "Seated Guard film study: Seated Guard Hand Fighting Drill: Sweep | Wrestle Up | Single Leg X, taught by Factory Fresh Jiu Jitsu.",
+      "description": "Seated Guard film study: Seated Guard Hand Fighting Drill: Sweep | Wrestle Up | Single Leg X.",
       "thumbnailUrl": "https://i.ytimg.com/vi/H3HHTStUtVs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/H3HHTStUtVs",
       "url": "https://www.youtube.com/watch?v=H3HHTStUtVs",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
       "duration": "PT43S"
     }
   ]
@@ -141,7 +140,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 ![](https://www.youtube.com/watch?v=H3HHTStUtVs)
 
-<p class="clip-credit"><strong>Seated Guard Hand Fighting Drill: Sweep | Wrestle Up | Single Leg X</strong> — taught by Factory Fresh Jiu Jitsu · 0:43 · <a href="https://www.youtube.com/watch?v=H3HHTStUtVs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Seated Guard Hand Fighting Drill: Sweep | Wrestle Up | Single Leg X</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=H3HHTStUtVs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

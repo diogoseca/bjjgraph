@@ -186,8 +186,8 @@ description: "Complete guide to executing the Roll Forward from Omoplata. Step-b
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Travis Lutter Omoplata Sweep to Side Control",
-      "description": "Roll Forward from Omoplata (Attacker) film study: Travis Lutter Omoplata Sweep to Side Control.",
+      "name": "Omoplata Sweep to Side Control",
+      "description": "Roll Forward from Omoplata (Attacker) film study: Omoplata Sweep to Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ujD1jcDyF7Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ujD1jcDyF7Y",
       "url": "https://www.youtube.com/watch?v=ujD1jcDyF7Y",
@@ -221,7 +221,7 @@ As the attacker executing the Roll Forward from Omoplata, you are converting you
 
 ![](https://www.youtube.com/watch?v=ujD1jcDyF7Y)
 
-<p class="clip-credit"><strong>Travis Lutter Omoplata Sweep to Side Control</strong> · 2:04 · <a href="https://www.youtube.com/watch?v=ujD1jcDyF7Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata Sweep to Side Control</strong> · 2:04 · <a href="https://www.youtube.com/watch?v=ujD1jcDyF7Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

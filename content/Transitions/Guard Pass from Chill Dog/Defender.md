@@ -161,22 +161,20 @@ description: "Guard Pass from Chill Dog (defender): Keep the opposing hand on th
       "@type": "VideoObject",
       "position": 1,
       "name": "Turtle guard retention basics (no-gi)",
-      "description": "Guard Pass from Chill Dog (Defender) film study: Turtle guard retention basics (no-gi), taught by ZombieProofBJJ.",
+      "description": "Guard Pass from Chill Dog (Defender) film study: Turtle guard retention basics (no-gi).",
       "thumbnailUrl": "https://i.ytimg.com/vi/hP7EmS47l0E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hP7EmS47l0E",
       "url": "https://www.youtube.com/watch?v=hP7EmS47l0E",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
       "duration": "PT116S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Defending a pressure guard pass",
-      "description": "Guard Pass from Chill Dog (Defender) film study: Defending a pressure guard pass, taught by Karel Pravec.",
+      "description": "Guard Pass from Chill Dog (Defender) film study: Defending a pressure guard pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wzmVwFDmx8I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wzmVwFDmx8I",
       "url": "https://www.youtube.com/watch?v=wzmVwFDmx8I",
-      "creator": { "@type": "Person", "name": "Karel Pravec" },
       "duration": "PT174S"
     }
   ]
@@ -215,7 +213,7 @@ Release the failing high connection and make a short hip escape behind a shoulde
 
 ![](https://www.youtube.com/watch?v=hP7EmS47l0E)
 
-<p class="clip-credit"><strong>Turtle guard retention basics (no-gi)</strong> — taught by ZombieProofBJJ · 1:56 · <a href="https://www.youtube.com/watch?v=hP7EmS47l0E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle guard retention basics (no-gi)</strong> · 1:56 · <a href="https://www.youtube.com/watch?v=hP7EmS47l0E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -223,7 +221,7 @@ Release the failing high connection and make a short hip escape behind a shoulde
 
 ![](https://www.youtube.com/watch?v=wzmVwFDmx8I)
 
-<p class="clip-credit"><strong>Defending a pressure guard pass</strong> — taught by Karel Pravec · 2:54 · <a href="https://www.youtube.com/watch?v=wzmVwFDmx8I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending a pressure guard pass</strong> · 2:54 · <a href="https://www.youtube.com/watch?v=wzmVwFDmx8I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

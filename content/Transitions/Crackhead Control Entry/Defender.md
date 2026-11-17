@@ -161,33 +161,30 @@ description: "Crackhead Control Entry (defender): Avoid extending an arm between
       "@type": "VideoObject",
       "position": 1,
       "name": "Rubber guard escape",
-      "description": "Crackhead Control Entry (Defender) film study: Rubber guard escape, taught by BJJ4Breakfast.",
+      "description": "Crackhead Control Entry (Defender) film study: Rubber guard escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
       "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT131S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Three Ways to Clear the Neck from Rubber Guard",
-      "description": "Crackhead Control Entry (Defender) film study: Three Ways to Clear the Neck from Rubber Guard, taught by Eddie Bravo.",
+      "description": "Crackhead Control Entry (Defender) film study: Three Ways to Clear the Neck from Rubber Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZqiF7-4OFsU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ZqiF7-4OFsU",
       "url": "https://www.youtube.com/watch?v=ZqiF7-4OFsU",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Knee Cut and Cartwheel Passing vs Rubber Guard",
-      "description": "Crackhead Control Entry (Defender) film study: Knee Cut and Cartwheel Passing vs Rubber Guard, taught by Eddie Bravo.",
+      "description": "Crackhead Control Entry (Defender) film study: Knee Cut and Cartwheel Passing vs Rubber Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_QgRae3Hxvs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_QgRae3Hxvs",
       "url": "https://www.youtube.com/watch?v=_QgRae3Hxvs",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     }
   ]
@@ -226,7 +223,7 @@ The early escape keeps an elbow inside before both legs close high. Once an arm 
 
 ![](https://www.youtube.com/watch?v=AvivOVuYcCk)
 
-<p class="clip-credit"><strong>Rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rubber guard escape</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,7 +231,7 @@ The early escape keeps an elbow inside before both legs close high. Once an arm 
 
 ![](https://www.youtube.com/watch?v=ZqiF7-4OFsU)
 
-<p class="clip-credit"><strong>Three Ways to Clear the Neck from Rubber Guard</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=ZqiF7-4OFsU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Three Ways to Clear the Neck from Rubber Guard</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=ZqiF7-4OFsU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -242,7 +239,7 @@ The early escape keeps an elbow inside before both legs close high. Once an arm 
 
 ![](https://www.youtube.com/watch?v=_QgRae3Hxvs)
 
-<p class="clip-credit"><strong>Knee Cut and Cartwheel Passing vs Rubber Guard</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=_QgRae3Hxvs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Cut and Cartwheel Passing vs Rubber Guard</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=_QgRae3Hxvs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

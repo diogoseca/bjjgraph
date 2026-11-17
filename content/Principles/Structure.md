@@ -154,21 +154,19 @@ description: "Align limbs, torso, and base so frames and pressure remain support
       "@type": "VideoObject",
       "position": 1,
       "name": "Frames and weight placement",
-      "description": "Structure film study: Frames and weight placement, taught by Rory Van Vliet.",
+      "description": "Structure film study: Frames and weight placement.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SB_RJYRp7jI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SB_RJYRp7jI",
-      "url": "https://www.youtube.com/watch?v=SB_RJYRp7jI",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=SB_RJYRp7jI"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "How base, posture and connection work in BJJ",
-      "description": "Structure film study: How base, posture and connection work in BJJ, taught by SBG PDX.",
+      "description": "Structure film study: How base, posture and connection work in BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KuZtR1mogvY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KuZtR1mogvY",
       "url": "https://www.youtube.com/watch?v=KuZtR1mogvY",
-      "creator": { "@type": "Person", "name": "SBG PDX" },
       "duration": "PT222S"
     }
   ]
@@ -198,7 +196,7 @@ Trace the load from the contact point back to your base. If a joint folds or the
 
 ![](https://www.youtube.com/watch?v=SB_RJYRp7jI)
 
-<p class="clip-credit"><strong>Frames and weight placement</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=SB_RJYRp7jI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Frames and weight placement</strong> · <a href="https://www.youtube.com/watch?v=SB_RJYRp7jI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -206,7 +204,7 @@ Trace the load from the contact point back to your base. If a joint folds or the
 
 ![](https://www.youtube.com/watch?v=KuZtR1mogvY)
 
-<p class="clip-credit"><strong>How base, posture and connection work in BJJ</strong> — taught by SBG PDX · 3:42 · <a href="https://www.youtube.com/watch?v=KuZtR1mogvY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How base, posture and connection work in BJJ</strong> · 3:42 · <a href="https://www.youtube.com/watch?v=KuZtR1mogvY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

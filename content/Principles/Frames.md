@@ -154,43 +154,39 @@ description: "Frames use supported limb positions to hold space against pressure
       "@type": "VideoObject",
       "position": 1,
       "name": "Using frames for guard retention",
-      "description": "Frames film study: Using frames for guard retention, taught by Rory Van Vliet.",
+      "description": "Frames film study: Using frames for guard retention.",
       "thumbnailUrl": "https://i.ytimg.com/vi/92lqcDuaiOw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/92lqcDuaiOw",
-      "url": "https://www.youtube.com/watch?v=92lqcDuaiOw",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=92lqcDuaiOw"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Frames as a core concept",
-      "description": "Frames film study: Frames as a core concept, taught by Absolute MMA St Kilda.",
+      "description": "Frames film study: Frames as a core concept.",
       "thumbnailUrl": "https://i.ytimg.com/vi/57YaKxCRqzk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/57YaKxCRqzk",
       "url": "https://www.youtube.com/watch?v=57YaKxCRqzk",
-      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
       "duration": "PT295S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Three most critical concepts of BJJ, including frames",
-      "description": "Frames film study: Three most critical concepts of BJJ, including frames, taught by Stephan Kesting.",
+      "description": "Frames film study: Three most critical concepts of BJJ, including frames.",
       "thumbnailUrl": "https://i.ytimg.com/vi/j5RaxEV9fx8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/j5RaxEV9fx8",
       "url": "https://www.youtube.com/watch?v=j5RaxEV9fx8",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
       "duration": "PT702S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Framing for effective side control escapes",
-      "description": "Frames film study: Framing for effective side control escapes, taught by The BJJ Project.",
+      "description": "Frames film study: Framing for effective side control escapes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ary963VdmqY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ary963VdmqY",
       "url": "https://www.youtube.com/watch?v=ary963VdmqY",
-      "creator": { "@type": "Person", "name": "The BJJ Project" },
       "duration": "PT199S"
     }
   ]
@@ -220,7 +216,7 @@ Place the frame where it blocks the movement you need to stop, then move your bo
 
 ![](https://www.youtube.com/watch?v=92lqcDuaiOw)
 
-<p class="clip-credit"><strong>Using frames for guard retention</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=92lqcDuaiOw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Using frames for guard retention</strong> · <a href="https://www.youtube.com/watch?v=92lqcDuaiOw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Place the frame where it blocks the movement you need to stop, then move your bo
 
 ![](https://www.youtube.com/watch?v=57YaKxCRqzk)
 
-<p class="clip-credit"><strong>Frames as a core concept</strong> — taught by Absolute MMA St Kilda · 4:55 · <a href="https://www.youtube.com/watch?v=57YaKxCRqzk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Frames as a core concept</strong> · 4:55 · <a href="https://www.youtube.com/watch?v=57YaKxCRqzk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Place the frame where it blocks the movement you need to stop, then move your bo
 
 ![](https://www.youtube.com/watch?v=j5RaxEV9fx8)
 
-<p class="clip-credit"><strong>Three most critical concepts of BJJ, including frames</strong> — taught by Stephan Kesting · 11:42 · <a href="https://www.youtube.com/watch?v=j5RaxEV9fx8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Three most critical concepts of BJJ, including frames</strong> · 11:42 · <a href="https://www.youtube.com/watch?v=j5RaxEV9fx8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Place the frame where it blocks the movement you need to stop, then move your bo
 
 ![](https://www.youtube.com/watch?v=ary963VdmqY)
 
-<p class="clip-credit"><strong>Framing for effective side control escapes</strong> — taught by The BJJ Project · 3:19 · <a href="https://www.youtube.com/watch?v=ary963VdmqY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Framing for effective side control escapes</strong> · 3:19 · <a href="https://www.youtube.com/watch?v=ary963VdmqY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

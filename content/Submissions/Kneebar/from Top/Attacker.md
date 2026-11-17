@@ -190,8 +190,8 @@ description: "How to execute Kneebar from Top in BJJ. Attacking perspective with
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Crazy Kneebar From Top Turtle Position: Charlie Cosens / Cosens MMA",
-      "description": "Kneebar from Top (Attacker) film study: Crazy Kneebar From Top Turtle Position: Charlie Cosens / Cosens MMA.",
+      "name": "Crazy Kneebar From Top Turtle Position",
+      "description": "Kneebar from Top (Attacker) film study: Crazy Kneebar From Top Turtle Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2mleTh3ZoBk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2mleTh3ZoBk",
       "url": "https://www.youtube.com/watch?v=2mleTh3ZoBk",
@@ -234,7 +234,7 @@ The Kneebar from Top represents a high-percentage leg attack opportunity that ar
 
 ![](https://www.youtube.com/watch?v=2mleTh3ZoBk)
 
-<p class="clip-credit"><strong>Crazy Kneebar From Top Turtle Position: Charlie Cosens / Cosens MMA</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=2mleTh3ZoBk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crazy Kneebar From Top Turtle Position</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=2mleTh3ZoBk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

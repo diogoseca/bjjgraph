@@ -152,8 +152,8 @@ description: "Defend the toe hold from cross ashi-garami with early recognition 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to escape from toehold by Gordon Ryan",
-      "description": "Toe Hold from Cross Ashi-Garami (Defender) film study: How to escape from toehold by Gordon Ryan.",
+      "name": "How to escape from toehold",
+      "description": "Toe Hold from Cross Ashi-Garami (Defender) film study: How to escape from toehold.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
       "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
@@ -188,7 +188,7 @@ Defending the toe hold from cross ashi-garami demands early recognition and imme
 
 ![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
 
-<p class="clip-credit"><strong>How to escape from toehold by Gordon Ryan</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to escape from toehold</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -47,22 +47,20 @@ description: "Zombie is the rubber-guard arm-pummeling action that moves the opp
       "@type": "VideoObject",
       "position": 1,
       "name": "Lockdown entries and the Zombie concept",
-      "description": "Zombie film study: Lockdown entries and the Zombie concept, taught by Eddie Bravo.",
+      "description": "Zombie film study: Lockdown entries and the Zombie concept.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2ajPv8XKfvY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2ajPv8XKfvY",
       "url": "https://www.youtube.com/watch?v=2ajPv8XKfvY",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT115S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Lockdown strategies overview",
-      "description": "Zombie film study: Lockdown strategies overview, taught by Eddie Bravo.",
+      "description": "Zombie film study: Lockdown strategies overview.",
       "thumbnailUrl": "https://i.ytimg.com/vi/oSQ7BHerIow/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oSQ7BHerIow",
       "url": "https://www.youtube.com/watch?v=oSQ7BHerIow",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     }
   ]
@@ -120,7 +118,7 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 
 ![](https://www.youtube.com/watch?v=2ajPv8XKfvY)
 
-<p class="clip-credit"><strong>Lockdown entries and the Zombie concept</strong> — taught by Eddie Bravo · 1:55 · <a href="https://www.youtube.com/watch?v=2ajPv8XKfvY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lockdown entries and the Zombie concept</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=2ajPv8XKfvY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -128,7 +126,7 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 
 ![](https://www.youtube.com/watch?v=oSQ7BHerIow)
 
-<p class="clip-credit"><strong>Lockdown strategies overview</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=oSQ7BHerIow" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lockdown strategies overview</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=oSQ7BHerIow" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

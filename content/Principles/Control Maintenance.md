@@ -154,32 +154,29 @@ description: "Control maintenance means following an opponent’s escapes with c
       "@type": "VideoObject",
       "position": 1,
       "name": "Side control maintenance: beating the knee frame",
-      "description": "Control Maintenance film study: Side control maintenance: beating the knee frame, taught by Rory Van Vliet.",
+      "description": "Control Maintenance film study: Side control maintenance: beating the knee frame.",
       "thumbnailUrl": "https://i.ytimg.com/vi/d50kv5VdpG4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/d50kv5VdpG4",
-      "url": "https://www.youtube.com/watch?v=d50kv5VdpG4",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=d50kv5VdpG4"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "How to maintain and control the mount",
-      "description": "Control Maintenance film study: How to maintain and control the mount, taught by Gordon Ryan.",
+      "description": "Control Maintenance film study: How to maintain and control the mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kft2AkvKhWU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kft2AkvKhWU",
       "url": "https://www.youtube.com/watch?v=kft2AkvKhWU",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT538S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Guard retention: never get your guard passed",
-      "description": "Control Maintenance film study: Guard retention: never get your guard passed, taught by Gordon Ryan.",
+      "description": "Control Maintenance film study: Guard retention: never get your guard passed.",
       "thumbnailUrl": "https://i.ytimg.com/vi/URGwWYwdoAs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/URGwWYwdoAs",
       "url": "https://www.youtube.com/watch?v=URGwWYwdoAs",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT782S"
     }
   ]
@@ -209,7 +206,7 @@ Watch the first movement of an escape, then adjust the contact that blocks it. K
 
 ![](https://www.youtube.com/watch?v=d50kv5VdpG4)
 
-<p class="clip-credit"><strong>Side control maintenance: beating the knee frame</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=d50kv5VdpG4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side control maintenance: beating the knee frame</strong> · <a href="https://www.youtube.com/watch?v=d50kv5VdpG4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,7 +214,7 @@ Watch the first movement of an escape, then adjust the contact that blocks it. K
 
 ![](https://www.youtube.com/watch?v=kft2AkvKhWU)
 
-<p class="clip-credit"><strong>How to maintain and control the mount</strong> — taught by Gordon Ryan · 8:58 · <a href="https://www.youtube.com/watch?v=kft2AkvKhWU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to maintain and control the mount</strong> · 8:58 · <a href="https://www.youtube.com/watch?v=kft2AkvKhWU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +222,7 @@ Watch the first movement of an escape, then adjust the contact that blocks it. K
 
 ![](https://www.youtube.com/watch?v=URGwWYwdoAs)
 
-<p class="clip-credit"><strong>Guard retention: never get your guard passed</strong> — taught by Gordon Ryan · 13:02 · <a href="https://www.youtube.com/watch?v=URGwWYwdoAs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard retention: never get your guard passed</strong> · 13:02 · <a href="https://www.youtube.com/watch?v=URGwWYwdoAs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

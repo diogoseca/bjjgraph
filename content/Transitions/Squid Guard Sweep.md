@@ -46,8 +46,8 @@ description: "Master the Squid Guard Sweep in BJJ. Complete guide to lapel-based
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Adam Bradley (Trab)~ Squid guard entry against standing then sweep",
-      "description": "Squid Guard Sweep film study: Adam Bradley (Trab)~ Squid guard entry against standing then sweep.",
+      "name": "Squid guard entry against standing then sweep",
+      "description": "Squid Guard Sweep film study: Squid guard entry against standing then sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mIUc5788gsw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mIUc5788gsw",
       "url": "https://www.youtube.com/watch?v=mIUc5788gsw",
@@ -117,7 +117,7 @@ Within the Squid Guard offensive framework, the sweep creates a foundational dil
 
 ![](https://www.youtube.com/watch?v=mIUc5788gsw)
 
-<p class="clip-credit"><strong>Adam Bradley (Trab)~ Squid guard entry against standing then sweep</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=mIUc5788gsw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Squid guard entry against standing then sweep</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=mIUc5788gsw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

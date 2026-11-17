@@ -47,44 +47,40 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
       "@type": "VideoObject",
       "position": 1,
       "name": "Electric Chair from Deep Half",
-      "description": "Electric Chair film study: Electric Chair from Deep Half, taught by Heart \u0026 Dagger BJJ.",
+      "description": "Electric Chair film study: Electric Chair from Deep Half.",
       "thumbnailUrl": "https://i.ytimg.com/vi/O18n2Z5HISI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/O18n2Z5HISI",
       "url": "https://www.youtube.com/watch?v=O18n2Z5HISI",
-      "creator": { "@type": "Person", "name": "Heart \u0026 Dagger BJJ" },
       "duration": "PT43S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Electric Chair from Lockdown Half Guard",
-      "description": "Electric Chair film study: Electric Chair from Lockdown Half Guard, taught by Brandon Mccaghren.",
+      "description": "Electric Chair film study: Electric Chair from Lockdown Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
       "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
       "duration": "PT42S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Electric Chair",
-      "description": "Electric Chair film study: Electric Chair, taught by bjjtaro.",
+      "description": "Electric Chair film study: Electric Chair.",
       "thumbnailUrl": "https://i.ytimg.com/vi/I8HLek9eCbg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/I8HLek9eCbg",
       "url": "https://www.youtube.com/watch?v=I8HLek9eCbg",
-      "creator": { "@type": "Person", "name": "bjjtaro" },
       "duration": "PT25S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Electric Chair Submission",
-      "description": "Electric Chair film study: Electric Chair Submission, taught by Dan M..",
+      "description": "Electric Chair film study: Electric Chair Submission.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X7JA72d-3vw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/X7JA72d-3vw",
       "url": "https://www.youtube.com/watch?v=X7JA72d-3vw",
-      "creator": { "@type": "Person", "name": "Dan M." },
       "duration": "PT55S"
     }
   ]
@@ -153,7 +149,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 ![](https://www.youtube.com/watch?v=O18n2Z5HISI)
 
-<p class="clip-credit"><strong>Electric Chair from Deep Half</strong> — taught by Heart &amp; Dagger BJJ · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair from Deep Half</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -161,7 +157,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 ![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
 
-<p class="clip-credit"><strong>Electric Chair from Lockdown Half Guard</strong> — taught by Brandon Mccaghren · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair from Lockdown Half Guard</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -169,7 +165,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 ![](https://www.youtube.com/watch?v=I8HLek9eCbg)
 
-<p class="clip-credit"><strong>Electric Chair</strong> — taught by bjjtaro · 0:25 · <a href="https://www.youtube.com/watch?v=I8HLek9eCbg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=I8HLek9eCbg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -177,7 +173,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 ![](https://www.youtube.com/watch?v=X7JA72d-3vw)
 
-<p class="clip-credit"><strong>Electric Chair Submission</strong> — taught by Dan M. · 0:55 · <a href="https://www.youtube.com/watch?v=X7JA72d-3vw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair Submission</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=X7JA72d-3vw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

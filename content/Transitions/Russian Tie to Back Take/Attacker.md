@@ -180,8 +180,8 @@ description: "How to execute Russian Tie to Back Take in BJJ. Attacking perspect
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cody Floyd teaches Russian Tie Back Take \ud83d\udc40",
-      "description": "Russian Tie to Back Take (Attacker) film study: Cody Floyd teaches Russian Tie Back Take \ud83d\udc40.",
+      "name": "Russian Tie Back Take \ud83d\udc40",
+      "description": "Russian Tie to Back Take (Attacker) film study: Russian Tie Back Take \ud83d\udc40.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NFRtUW5ZIvo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NFRtUW5ZIvo",
       "url": "https://www.youtube.com/watch?v=NFRtUW5ZIvo",
@@ -219,7 +219,7 @@ Execution requires disciplined footwork: small lateral steps at 45-degree angles
 
 ![](https://www.youtube.com/watch?v=NFRtUW5ZIvo)
 
-<p class="clip-credit"><strong>Cody Floyd teaches Russian Tie Back Take 👀</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=NFRtUW5ZIvo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Russian Tie Back Take 👀</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=NFRtUW5ZIvo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -48,44 +48,40 @@ description: "Master the Americana shoulder lock from mount and side control. Co
       "@type": "VideoObject",
       "position": 1,
       "name": "Americana Armlock",
-      "description": "Americana film study: Americana Armlock, taught by Dr. Deng.",
+      "description": "Americana film study: Americana Armlock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CeNHFF1gcNE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CeNHFF1gcNE",
       "url": "https://www.youtube.com/watch?v=CeNHFF1gcNE",
-      "creator": { "@type": "Person", "name": "Dr. Deng" },
       "duration": "PT17S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "How To Perform An Americana From Top Mount",
-      "description": "Americana film study: How To Perform An Americana From Top Mount, taught by Evolve MMA.",
+      "description": "Americana film study: How To Perform An Americana From Top Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/uPazS4MJiDc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/uPazS4MJiDc",
       "url": "https://www.youtube.com/watch?v=uPazS4MJiDc",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
       "duration": "PT71S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Americana from Mount",
-      "description": "Americana film study: Americana from Mount, taught by Chelsea Ozer.",
+      "description": "Americana film study: Americana from Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Z44VF9pmJBg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Z44VF9pmJBg",
       "url": "https://www.youtube.com/watch?v=Z44VF9pmJBg",
-      "creator": { "@type": "Person", "name": "Chelsea Ozer" },
       "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Finishing the Americana",
-      "description": "Americana film study: Finishing the Americana, taught by The Muscular Octopus.",
+      "description": "Americana film study: Finishing the Americana.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mk4jR6Anm8g/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mk4jR6Anm8g",
       "url": "https://www.youtube.com/watch?v=mk4jR6Anm8g",
-      "creator": { "@type": "Person", "name": "The Muscular Octopus" },
       "duration": "PT71S"
     }
   ]
@@ -158,7 +154,7 @@ From a strategic perspective, the Americana exemplifies positional control befor
 
 ![](https://www.youtube.com/watch?v=CeNHFF1gcNE)
 
-<p class="clip-credit"><strong>Americana Armlock</strong> — taught by Dr. Deng · 0:17 · <a href="https://www.youtube.com/watch?v=CeNHFF1gcNE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Americana Armlock</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=CeNHFF1gcNE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -166,7 +162,7 @@ From a strategic perspective, the Americana exemplifies positional control befor
 
 ![](https://www.youtube.com/watch?v=uPazS4MJiDc)
 
-<p class="clip-credit"><strong>How To Perform An Americana From Top Mount</strong> — taught by Evolve MMA · 1:11 · <a href="https://www.youtube.com/watch?v=uPazS4MJiDc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Perform An Americana From Top Mount</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=uPazS4MJiDc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -174,7 +170,7 @@ From a strategic perspective, the Americana exemplifies positional control befor
 
 ![](https://www.youtube.com/watch?v=Z44VF9pmJBg)
 
-<p class="clip-credit"><strong>Americana from Mount</strong> — taught by Chelsea Ozer · 0:52 · <a href="https://www.youtube.com/watch?v=Z44VF9pmJBg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Americana from Mount</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=Z44VF9pmJBg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -182,7 +178,7 @@ From a strategic perspective, the Americana exemplifies positional control befor
 
 ![](https://www.youtube.com/watch?v=mk4jR6Anm8g)
 
-<p class="clip-credit"><strong>Finishing the Americana</strong> — taught by The Muscular Octopus · 1:11 · <a href="https://www.youtube.com/watch?v=mk4jR6Anm8g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Finishing the Americana</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=mk4jR6Anm8g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

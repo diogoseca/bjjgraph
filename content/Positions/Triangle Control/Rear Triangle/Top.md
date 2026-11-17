@@ -165,8 +165,8 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Arizona Camp Nov 2022: The Rear Triangle - A Triangle for everyone with Rob Cole",
-      "description": "Rear Triangle (Top) film study: Arizona Camp Nov 2022: The Rear Triangle - A Triangle for everyone with Rob Cole.",
+      "name": "Arizona Camp Nov 2022: The Rear Triangle - A Triangle for everyone",
+      "description": "Rear Triangle (Top) film study: Arizona Camp Nov 2022: The Rear Triangle - A Triangle for everyone.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EchKKSAYMqM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EchKKSAYMqM",
       "url": "https://www.youtube.com/watch?v=EchKKSAYMqM",
@@ -208,7 +208,7 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 ![](https://www.youtube.com/watch?v=EchKKSAYMqM)
 
-<p class="clip-credit"><strong>Arizona Camp Nov 2022: The Rear Triangle - A Triangle for everyone with Rob Cole</strong> · 25:59 · <a href="https://www.youtube.com/watch?v=EchKKSAYMqM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arizona Camp Nov 2022: The Rear Triangle - A Triangle for everyone</strong> · 25:59 · <a href="https://www.youtube.com/watch?v=EchKKSAYMqM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

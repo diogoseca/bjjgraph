@@ -48,11 +48,10 @@ description: "Master Harness Position in BJJ - back control with seat belt grip.
       "@type": "VideoObject",
       "position": 1,
       "name": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
-      "description": "Harness film study: Jiu Jitsu Quick Fix #1: Seatbelt Grip, taught by Ben Kool.",
+      "description": "Harness film study: Jiu Jitsu Quick Fix #1: Seatbelt Grip.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
       "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
-      "creator": { "@type": "Person", "name": "Ben Kool" },
       "duration": "PT61S"
     }
   ]
@@ -109,7 +108,7 @@ Strategically, the harness position serves as a transitional control point and a
 
 ![](https://www.youtube.com/watch?v=MwxnveKrlxU)
 
-<p class="clip-credit"><strong>Jiu Jitsu Quick Fix #1: Seatbelt Grip</strong> — taught by Ben Kool · 1:01 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Quick Fix #1: Seatbelt Grip</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,34 +46,31 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia - North South Choke",
-      "description": "North-South Choke film study: Marcelo Garcia - North South Choke, taught by Marcelo Garcia.",
+      "name": "North South Choke",
+      "description": "North-South Choke film study: North South Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
       "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT20S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "North South Choke as a Pinning Tool",
-      "description": "North-South Choke film study: North South Choke as a Pinning Tool, taught by Craig Jones.",
+      "description": "North-South Choke film study: North South Choke as a Pinning Tool.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SPXanCnoBYA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SPXanCnoBYA",
       "url": "https://www.youtube.com/watch?v=SPXanCnoBYA",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT135S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Modified Scarf Hold North/South choke",
-      "description": "North-South Choke film study: Modified Scarf Hold North/South choke, taught by Todd Blatchley.",
+      "description": "North-South Choke film study: Modified Scarf Hold North/South choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LurZB_PfUmA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LurZB_PfUmA",
       "url": "https://www.youtube.com/watch?v=LurZB_PfUmA",
-      "creator": { "@type": "Person", "name": "Todd Blatchley" },
       "duration": "PT121S"
     }
   ]
@@ -141,7 +138,7 @@ Unlike traditional arm chokes that rely on conspicuous limb positioning, the Nor
 
 ![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
 
-<p class="clip-credit"><strong>Marcelo Garcia - North South Choke</strong> — taught by Marcelo Garcia · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>North South Choke</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -149,7 +146,7 @@ Unlike traditional arm chokes that rely on conspicuous limb positioning, the Nor
 
 ![](https://www.youtube.com/watch?v=SPXanCnoBYA)
 
-<p class="clip-credit"><strong>North South Choke as a Pinning Tool</strong> — taught by Craig Jones · 2:15 · <a href="https://www.youtube.com/watch?v=SPXanCnoBYA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>North South Choke as a Pinning Tool</strong> · 2:15 · <a href="https://www.youtube.com/watch?v=SPXanCnoBYA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -157,7 +154,7 @@ Unlike traditional arm chokes that rely on conspicuous limb positioning, the Nor
 
 ![](https://www.youtube.com/watch?v=LurZB_PfUmA)
 
-<p class="clip-credit"><strong>Modified Scarf Hold North/South choke</strong> — taught by Todd Blatchley · 2:01 · <a href="https://www.youtube.com/watch?v=LurZB_PfUmA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Modified Scarf Hold North/South choke</strong> · 2:01 · <a href="https://www.youtube.com/watch?v=LurZB_PfUmA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

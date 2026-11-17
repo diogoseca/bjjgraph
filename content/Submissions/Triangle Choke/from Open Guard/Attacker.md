@@ -186,8 +186,8 @@ description: "Learn to execute the Triangle Choke from Open Guard. Step-by-step 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Z guard//Craig Jones triangle set up// dannybrownbjj",
-      "description": "Triangle Choke from Open Guard (Attacker) film study: Z guard//Craig Jones triangle set up// dannybrownbjj.",
+      "name": "Z guard//triangle set up",
+      "description": "Triangle Choke from Open Guard (Attacker) film study: Z guard//triangle set up.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yQVALraYswM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yQVALraYswM",
       "url": "https://www.youtube.com/watch?v=yQVALraYswM",
@@ -232,7 +232,7 @@ The Triangle from Open Guard Attacker position focuses on systematically isolati
 
 ![](https://www.youtube.com/watch?v=yQVALraYswM)
 
-<p class="clip-credit"><strong>Z guard//Craig Jones triangle set up// dannybrownbjj</strong> · 5:31 · <a href="https://www.youtube.com/watch?v=yQVALraYswM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Z guard//triangle set up</strong> · 5:31 · <a href="https://www.youtube.com/watch?v=yQVALraYswM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

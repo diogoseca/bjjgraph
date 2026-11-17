@@ -47,33 +47,30 @@ description: "Aoki Lock from Ashi Garami captures a foot turned outward beside t
       "@type": "VideoObject",
       "position": 1,
       "name": "Aoki lock from butterfly ashi",
-      "description": "Aoki Lock from Ashi Garami film study: Aoki lock from butterfly ashi, taught by Factory Fresh Jiu Jitsu.",
+      "description": "Aoki Lock from Ashi Garami film study: Aoki lock from butterfly ashi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tQWfhZiDREc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tQWfhZiDREc",
       "url": "https://www.youtube.com/watch?v=tQWfhZiDREc",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
       "duration": "PT77S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Sneaky Aoki lock from saddle",
-      "description": "Aoki Lock from Ashi Garami film study: Sneaky Aoki lock from saddle, taught by Grappling Education.",
+      "description": "Aoki Lock from Ashi Garami film study: Sneaky Aoki lock from saddle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/QDNLTs55V8c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/QDNLTs55V8c",
       "url": "https://www.youtube.com/watch?v=QDNLTs55V8c",
-      "creator": { "@type": "Person", "name": "Grappling Education" },
       "duration": "PT121S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Aoki lock breakdown",
-      "description": "Aoki Lock from Ashi Garami film study: Aoki lock breakdown, taught by Escuela de Grappling.",
+      "description": "Aoki Lock from Ashi Garami film study: Aoki lock breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qRH7g21c6xQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/qRH7g21c6xQ",
       "url": "https://www.youtube.com/watch?v=qRH7g21c6xQ",
-      "creator": { "@type": "Person", "name": "Escuela de Grappling" },
       "duration": "PT199S"
     }
   ]
@@ -138,7 +135,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 ![](https://www.youtube.com/watch?v=tQWfhZiDREc)
 
-<p class="clip-credit"><strong>Aoki lock from butterfly ashi</strong> — taught by Factory Fresh Jiu Jitsu · 1:17 · <a href="https://www.youtube.com/watch?v=tQWfhZiDREc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Aoki lock from butterfly ashi</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=tQWfhZiDREc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +143,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 ![](https://www.youtube.com/watch?v=QDNLTs55V8c)
 
-<p class="clip-credit"><strong>Sneaky Aoki lock from saddle</strong> — taught by Grappling Education · 2:01 · <a href="https://www.youtube.com/watch?v=QDNLTs55V8c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sneaky Aoki lock from saddle</strong> · 2:01 · <a href="https://www.youtube.com/watch?v=QDNLTs55V8c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -154,7 +151,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 ![](https://www.youtube.com/watch?v=qRH7g21c6xQ)
 
-<p class="clip-credit"><strong>Aoki lock breakdown</strong> — taught by Escuela de Grappling · 3:19 · <a href="https://www.youtube.com/watch?v=qRH7g21c6xQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Aoki lock breakdown</strong> · 3:19 · <a href="https://www.youtube.com/watch?v=qRH7g21c6xQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

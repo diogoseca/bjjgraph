@@ -47,22 +47,20 @@ description: "Defending Chill Dog opens the high-leg enclosure before advancing 
       "@type": "VideoObject",
       "position": 1,
       "name": "Pillory counter to rubber guard pass",
-      "description": "Stack from Chill Dog film study: Pillory counter to rubber guard pass, taught by Gabriel Rainer.",
+      "description": "Stack from Chill Dog film study: Pillory counter to rubber guard pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Yct0FnRjGP8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Yct0FnRjGP8",
       "url": "https://www.youtube.com/watch?v=Yct0FnRjGP8",
-      "creator": { "@type": "Person", "name": "Gabriel Rainer" },
       "duration": "PT133S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Why London left the 10th Planet system",
-      "description": "Stack from Chill Dog film study: Why London left the 10th Planet system, taught by Submissions101 coach.",
+      "name": "Why left the 10th Planet system",
+      "description": "Stack from Chill Dog film study: Why left the 10th Planet system.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kaVklKMW3aw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kaVklKMW3aw",
       "url": "https://www.youtube.com/watch?v=kaVklKMW3aw",
-      "creator": { "@type": "Person", "name": "Submissions101 coach" },
       "duration": "PT94S"
     }
   ]
@@ -121,7 +119,7 @@ Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https
 
 ![](https://www.youtube.com/watch?v=Yct0FnRjGP8)
 
-<p class="clip-credit"><strong>Pillory counter to rubber guard pass</strong> — taught by Gabriel Rainer · 2:13 · <a href="https://www.youtube.com/watch?v=Yct0FnRjGP8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pillory counter to rubber guard pass</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=Yct0FnRjGP8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -129,7 +127,7 @@ Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https
 
 ![](https://www.youtube.com/watch?v=kaVklKMW3aw)
 
-<p class="clip-credit"><strong>Why London left the 10th Planet system</strong> — taught by Submissions101 coach · 1:34 · <a href="https://www.youtube.com/watch?v=kaVklKMW3aw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Why left the 10th Planet system</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=kaVklKMW3aw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

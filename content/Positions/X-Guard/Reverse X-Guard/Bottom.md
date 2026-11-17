@@ -166,22 +166,20 @@ description: "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with
       "@type": "VideoObject",
       "position": 1,
       "name": "Technique Talk: The Reverse X-Guard Entry",
-      "description": "Reverse X-Guard (Bottom) film study: Technique Talk: The Reverse X-Guard Entry, taught by Black Flag Submission Company.",
+      "description": "Reverse X-Guard (Bottom) film study: Technique Talk: The Reverse X-Guard Entry.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dISye8G6dpU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dISye8G6dpU",
       "url": "https://www.youtube.com/watch?v=dISye8G6dpU",
-      "creator": { "@type": "Person", "name": "Black Flag Submission Company" },
       "duration": "PT190S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep",
-      "description": "Reverse X-Guard (Bottom) film study: Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep, taught by Gracie Barra Jupiter.",
+      "description": "Reverse X-Guard (Bottom) film study: Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/V81JTcD_fTU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/V81JTcD_fTU",
       "url": "https://www.youtube.com/watch?v=V81JTcD_fTU",
-      "creator": { "@type": "Person", "name": "Gracie Barra Jupiter" },
       "duration": "PT141S"
     }
   ]
@@ -214,7 +212,7 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 ![](https://www.youtube.com/watch?v=dISye8G6dpU)
 
-<p class="clip-credit"><strong>Technique Talk: The Reverse X-Guard Entry</strong> — taught by Black Flag Submission Company · 3:10 · <a href="https://www.youtube.com/watch?v=dISye8G6dpU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique Talk: The Reverse X-Guard Entry</strong> · 3:10 · <a href="https://www.youtube.com/watch?v=dISye8G6dpU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -222,7 +220,7 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 ![](https://www.youtube.com/watch?v=V81JTcD_fTU)
 
-<p class="clip-credit"><strong>Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep</strong> — taught by Gracie Barra Jupiter · 2:21 · <a href="https://www.youtube.com/watch?v=V81JTcD_fTU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=V81JTcD_fTU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

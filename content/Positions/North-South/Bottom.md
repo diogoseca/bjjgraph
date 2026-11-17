@@ -168,11 +168,10 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
       "@type": "VideoObject",
       "position": 1,
       "name": "4th stripe - North South inverted spin escape",
-      "description": "North-South (Bottom) film study: 4th stripe - North South inverted spin escape, taught by SBG Australia.",
+      "description": "North-South (Bottom) film study: 4th stripe - North South inverted spin escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XaLBmGnHm78/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XaLBmGnHm78",
       "url": "https://www.youtube.com/watch?v=XaLBmGnHm78",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
       "duration": "PT36S"
     }
   ]
@@ -211,7 +210,7 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 ![](https://www.youtube.com/watch?v=XaLBmGnHm78)
 
-<p class="clip-credit"><strong>4th stripe - North South inverted spin escape</strong> — taught by SBG Australia · 0:36 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>4th stripe - North South inverted spin escape</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

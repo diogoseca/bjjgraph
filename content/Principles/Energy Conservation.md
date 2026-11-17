@@ -154,32 +154,29 @@ description: "Energy conservation means using structure, useful grips, and well-
       "@type": "VideoObject",
       "position": 1,
       "name": "Breathing to manage your energy while rolling",
-      "description": "Energy Conservation film study: Breathing to manage your energy while rolling, taught by Nick Albin.",
+      "description": "Energy Conservation film study: Breathing to manage your energy while rolling.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5v-0tJzzWI8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5v-0tJzzWI8",
-      "url": "https://www.youtube.com/watch?v=5v-0tJzzWI8",
-      "creator": { "@type": "Person", "name": "Nick Albin" }
+      "url": "https://www.youtube.com/watch?v=5v-0tJzzWI8"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Why white belts gas out and how to fix it",
-      "description": "Energy Conservation film study: Why white belts gas out and how to fix it, taught by Chewjitsu.",
+      "description": "Energy Conservation film study: Why white belts gas out and how to fix it.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cRLnxkS0N6g/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cRLnxkS0N6g",
       "url": "https://www.youtube.com/watch?v=cRLnxkS0N6g",
-      "creator": { "@type": "Person", "name": "Chewjitsu" },
       "duration": "PT351S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "The real reason you gas out in competition",
-      "description": "Energy Conservation film study: The real reason you gas out in competition, taught by Josh Saunders.",
+      "description": "Energy Conservation film study: The real reason you gas out in competition.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bhSpo8fYL7U/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bhSpo8fYL7U",
       "url": "https://www.youtube.com/watch?v=bhSpo8fYL7U",
-      "creator": { "@type": "Person", "name": "Josh Saunders" },
       "duration": "PT407S"
     }
   ]
@@ -209,7 +206,7 @@ Use frames, weight placement, and timing to reduce constant muscular work. Stay 
 
 ![](https://www.youtube.com/watch?v=5v-0tJzzWI8)
 
-<p class="clip-credit"><strong>Breathing to manage your energy while rolling</strong> — taught by Nick Albin · <a href="https://www.youtube.com/watch?v=5v-0tJzzWI8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Breathing to manage your energy while rolling</strong> · <a href="https://www.youtube.com/watch?v=5v-0tJzzWI8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,7 +214,7 @@ Use frames, weight placement, and timing to reduce constant muscular work. Stay 
 
 ![](https://www.youtube.com/watch?v=cRLnxkS0N6g)
 
-<p class="clip-credit"><strong>Why white belts gas out and how to fix it</strong> — taught by Chewjitsu · 5:51 · <a href="https://www.youtube.com/watch?v=cRLnxkS0N6g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Why white belts gas out and how to fix it</strong> · 5:51 · <a href="https://www.youtube.com/watch?v=cRLnxkS0N6g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +222,7 @@ Use frames, weight placement, and timing to reduce constant muscular work. Stay 
 
 ![](https://www.youtube.com/watch?v=bhSpo8fYL7U)
 
-<p class="clip-credit"><strong>The real reason you gas out in competition</strong> — taught by Josh Saunders · 6:47 · <a href="https://www.youtube.com/watch?v=bhSpo8fYL7U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The real reason you gas out in competition</strong> · 6:47 · <a href="https://www.youtube.com/watch?v=bhSpo8fYL7U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

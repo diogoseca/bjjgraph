@@ -166,33 +166,30 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
       "@type": "VideoObject",
       "position": 1,
       "name": "Get to the far hip and hold it in place",
-      "description": "Cross Body Ride (Top) film study: Get to the far hip and hold it in place, taught by John Danaher.",
+      "description": "Cross Body Ride (Top) film study: Get to the far hip and hold it in place.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tQdLbooJjvI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tQdLbooJjvI",
       "url": "https://www.youtube.com/watch?v=tQdLbooJjvI",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT13S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Cross body ride back take vs turtle",
-      "description": "Cross Body Ride (Top) film study: Cross body ride back take vs turtle, taught by Paul McVeigh.",
+      "description": "Cross Body Ride (Top) film study: Cross body ride back take vs turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aX87dPPVcGU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aX87dPPVcGU",
       "url": "https://www.youtube.com/watch?v=aX87dPPVcGU",
-      "creator": { "@type": "Person", "name": "Paul McVeigh" },
       "duration": "PT107S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Shallow cross face detail",
-      "description": "Cross Body Ride (Top) film study: Shallow cross face detail, taught by Craig Jones.",
+      "description": "Cross Body Ride (Top) film study: Shallow cross face detail.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PTe4-NhLXf8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PTe4-NhLXf8",
       "url": "https://www.youtube.com/watch?v=PTe4-NhLXf8",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT24S"
     }
   ]
@@ -225,7 +222,7 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 ![](https://www.youtube.com/watch?v=tQdLbooJjvI)
 
-<p class="clip-credit"><strong>Get to the far hip and hold it in place</strong> — taught by John Danaher · 0:13 · <a href="https://www.youtube.com/watch?v=tQdLbooJjvI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Get to the far hip and hold it in place</strong> · 0:13 · <a href="https://www.youtube.com/watch?v=tQdLbooJjvI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -233,7 +230,7 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 ![](https://www.youtube.com/watch?v=aX87dPPVcGU)
 
-<p class="clip-credit"><strong>Cross body ride back take vs turtle</strong> — taught by Paul McVeigh · 1:47 · <a href="https://www.youtube.com/watch?v=aX87dPPVcGU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross body ride back take vs turtle</strong> · 1:47 · <a href="https://www.youtube.com/watch?v=aX87dPPVcGU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -241,7 +238,7 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 ![](https://www.youtube.com/watch?v=PTe4-NhLXf8)
 
-<p class="clip-credit"><strong>Shallow cross face detail</strong> — taught by Craig Jones · 0:24 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shallow cross face detail</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

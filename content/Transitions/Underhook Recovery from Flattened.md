@@ -46,8 +46,8 @@ description: "Master underhook recovery from flattened half guard in BJJ. Comple
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Recovering Underhook in Half Guard - Nate Kleinfeld",
-      "description": "Underhook Recovery from Flattened film study: Recovering Underhook in Half Guard - Nate Kleinfeld.",
+      "name": "Recovering Underhook in Half Guard",
+      "description": "Underhook Recovery from Flattened film study: Recovering Underhook in Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Hq7lPJmjXvU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Hq7lPJmjXvU",
       "url": "https://www.youtube.com/watch?v=Hq7lPJmjXvU",
@@ -107,7 +107,7 @@ From a strategic perspective, the underhook recovery sits at the intersection of
 
 ![](https://www.youtube.com/watch?v=Hq7lPJmjXvU)
 
-<p class="clip-credit"><strong>Recovering Underhook in Half Guard - Nate Kleinfeld</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=Hq7lPJmjXvU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Recovering Underhook in Half Guard</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=Hq7lPJmjXvU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

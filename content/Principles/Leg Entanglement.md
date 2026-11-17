@@ -154,43 +154,39 @@ description: "Build leg control through hip alignment and connected legs before 
       "@type": "VideoObject",
       "position": 1,
       "name": "Emergency ashi garami against guard",
-      "description": "Leg Entanglement film study: Emergency ashi garami against guard, taught by John Danaher.",
+      "description": "Leg Entanglement film study: Emergency ashi garami against guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Lf3lPwYnQO8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Lf3lPwYnQO8",
-      "url": "https://www.youtube.com/watch?v=Lf3lPwYnQO8",
-      "creator": { "@type": "Person", "name": "John Danaher" }
+      "url": "https://www.youtube.com/watch?v=Lf3lPwYnQO8"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Leg locks and the four-part entanglement system",
-      "description": "Leg Entanglement film study: Leg locks and the four-part entanglement system, taught by John Danaher.",
+      "description": "Leg Entanglement film study: Leg locks and the four-part entanglement system.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wMsYpNQyem8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wMsYpNQyem8",
       "url": "https://www.youtube.com/watch?v=wMsYpNQyem8",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT640S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Guide to the main leg entanglement positions",
-      "description": "Leg Entanglement film study: Guide to the main leg entanglement positions, taught by MMA Leech.",
+      "description": "Leg Entanglement film study: Guide to the main leg entanglement positions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xWrEk9MbvUc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xWrEk9MbvUc",
       "url": "https://www.youtube.com/watch?v=xWrEk9MbvUc",
-      "creator": { "@type": "Person", "name": "MMA Leech" },
       "duration": "PT805S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Terminology of ashi garami and leg entanglements",
-      "description": "Leg Entanglement film study: Terminology of ashi garami and leg entanglements, taught by Patrick Donabedian.",
+      "description": "Leg Entanglement film study: Terminology of ashi garami and leg entanglements.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fkl93-NakrI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fkl93-NakrI",
       "url": "https://www.youtube.com/watch?v=fkl93-NakrI",
-      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
       "duration": "PT79S"
     }
   ]
@@ -220,7 +216,7 @@ Secure the position before reaching for a foot. Track the opponent’s hip movem
 
 ![](https://www.youtube.com/watch?v=Lf3lPwYnQO8)
 
-<p class="clip-credit"><strong>Emergency ashi garami against guard</strong> — taught by John Danaher · <a href="https://www.youtube.com/watch?v=Lf3lPwYnQO8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Emergency ashi garami against guard</strong> · <a href="https://www.youtube.com/watch?v=Lf3lPwYnQO8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Secure the position before reaching for a foot. Track the opponent’s hip movem
 
 ![](https://www.youtube.com/watch?v=wMsYpNQyem8)
 
-<p class="clip-credit"><strong>Leg locks and the four-part entanglement system</strong> — taught by John Danaher · 10:40 · <a href="https://www.youtube.com/watch?v=wMsYpNQyem8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg locks and the four-part entanglement system</strong> · 10:40 · <a href="https://www.youtube.com/watch?v=wMsYpNQyem8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Secure the position before reaching for a foot. Track the opponent’s hip movem
 
 ![](https://www.youtube.com/watch?v=xWrEk9MbvUc)
 
-<p class="clip-credit"><strong>Guide to the main leg entanglement positions</strong> — taught by MMA Leech · 13:25 · <a href="https://www.youtube.com/watch?v=xWrEk9MbvUc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guide to the main leg entanglement positions</strong> · 13:25 · <a href="https://www.youtube.com/watch?v=xWrEk9MbvUc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Secure the position before reaching for a foot. Track the opponent’s hip movem
 
 ![](https://www.youtube.com/watch?v=fkl93-NakrI)
 
-<p class="clip-credit"><strong>Terminology of ashi garami and leg entanglements</strong> — taught by Patrick Donabedian · 1:19 · <a href="https://www.youtube.com/watch?v=fkl93-NakrI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Terminology of ashi garami and leg entanglements</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=fkl93-NakrI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -47,33 +47,30 @@ description: "Dead Orchard Control is Nathan Orchard's high rubber-guard trap in
       "@type": "VideoObject",
       "position": 1,
       "name": "How to Do an Anaconda Choke",
-      "description": "Dead Orchard Control film study: How to Do an Anaconda Choke, taught by Brandon Mccaghren.",
+      "description": "Dead Orchard Control film study: How to Do an Anaconda Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EbhWFWp-B6s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EbhWFWp-B6s",
       "url": "https://www.youtube.com/watch?v=EbhWFWp-B6s",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
       "duration": "PT81S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Anaconda Choke Finish Details",
-      "description": "Dead Orchard Control film study: Anaconda Choke Finish Details, taught by Ben Eddy.",
+      "description": "Dead Orchard Control film study: Anaconda Choke Finish Details.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dr66s8QK9_g/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dr66s8QK9_g",
       "url": "https://www.youtube.com/watch?v=dr66s8QK9_g",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
       "duration": "PT96S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Rolling Anaconda from Leg Drag",
-      "description": "Dead Orchard Control film study: Rolling Anaconda from Leg Drag, taught by Brent Smith.",
+      "description": "Dead Orchard Control film study: Rolling Anaconda from Leg Drag.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GsqBxkrlrKE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GsqBxkrlrKE",
       "url": "https://www.youtube.com/watch?v=GsqBxkrlrKE",
-      "creator": { "@type": "Person", "name": "Brent Smith" },
       "duration": "PT115S"
     }
   ]
@@ -131,7 +128,7 @@ Instructional sources: [Nathan Orchard — Dead Orchard, part 1](https://www.you
 
 ![](https://www.youtube.com/watch?v=EbhWFWp-B6s)
 
-<p class="clip-credit"><strong>How to Do an Anaconda Choke</strong> — taught by Brandon Mccaghren · 1:21 · <a href="https://www.youtube.com/watch?v=EbhWFWp-B6s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Do an Anaconda Choke</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=EbhWFWp-B6s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -139,7 +136,7 @@ Instructional sources: [Nathan Orchard — Dead Orchard, part 1](https://www.you
 
 ![](https://www.youtube.com/watch?v=dr66s8QK9_g)
 
-<p class="clip-credit"><strong>Anaconda Choke Finish Details</strong> — taught by Ben Eddy · 1:36 · <a href="https://www.youtube.com/watch?v=dr66s8QK9_g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda Choke Finish Details</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=dr66s8QK9_g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -147,7 +144,7 @@ Instructional sources: [Nathan Orchard — Dead Orchard, part 1](https://www.you
 
 ![](https://www.youtube.com/watch?v=GsqBxkrlrKE)
 
-<p class="clip-credit"><strong>Rolling Anaconda from Leg Drag</strong> — taught by Brent Smith · 1:55 · <a href="https://www.youtube.com/watch?v=GsqBxkrlrKE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rolling Anaconda from Leg Drag</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=GsqBxkrlrKE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

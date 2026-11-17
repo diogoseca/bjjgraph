@@ -186,8 +186,8 @@ description: "Complete guide to executing the Old School Pass in BJJ. Master whi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing the Lockdown (Lachlan Giles)",
-      "description": "Old School Pass (Attacker) film study: Passing the Lockdown (Lachlan Giles).",
+      "name": "Passing the Lockdown",
+      "description": "Old School Pass (Attacker) film study: Passing the Lockdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gtsKv_sDRnw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gtsKv_sDRnw?start=78",
       "url": "https://www.youtube.com/watch?v=gtsKv_sDRnw",
@@ -221,7 +221,7 @@ The Old School Pass from the attacker perspective requires establishing and main
 
 ![](https://www.youtube.com/watch?v=gtsKv_sDRnw&start=78)
 
-<p class="clip-credit"><strong>Passing the Lockdown (Lachlan Giles)</strong> · 5:59 · <a href="https://www.youtube.com/watch?v=gtsKv_sDRnw&t=78s" rel="noopener">Watch on YouTube from 1:18</a></p>
+<p class="clip-credit"><strong>Passing the Lockdown</strong> · 5:59 · <a href="https://www.youtube.com/watch?v=gtsKv_sDRnw&t=78s" rel="noopener">Watch on YouTube from 1:18</a></p>
 
 </div>
 

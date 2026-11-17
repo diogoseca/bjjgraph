@@ -162,8 +162,8 @@ description: "How to defend against Arm Drag to Back in BJJ. Recognition cues, d
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story With Marcelo\u2026",
-      "description": "Arm Drag to Back (Defender) film study: The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story With Marcelo\u2026.",
+      "name": "The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story\u2026",
+      "description": "Arm Drag to Back (Defender) film study: The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bmCjXADzgo4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bmCjXADzgo4",
       "url": "https://www.youtube.com/watch?v=bmCjXADzgo4",
@@ -205,7 +205,7 @@ Defending the arm drag to back requires understanding the attacker's mechanical 
 
 ![](https://www.youtube.com/watch?v=bmCjXADzgo4)
 
-<p class="clip-credit"><strong>The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story With Marcelo…</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=bmCjXADzgo4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The BEST Way To Defend The Arm Drag in Jiu Jitsu Based On My Story…</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=bmCjXADzgo4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

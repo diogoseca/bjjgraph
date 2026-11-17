@@ -160,8 +160,8 @@ description: "Complete defensive guide for surviving and escaping the Americana 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rickson Gracie Fundamentals - Keylock Escape from Scarf Hold Position (week 12)",
-      "description": "Americana from Kesa Gatame (Defender) film study: Rickson Gracie Fundamentals - Keylock Escape from Scarf Hold Position (week 12).",
+      "name": "Fundamentals - Keylock Escape from Scarf Hold Position (week 12)",
+      "description": "Americana from Kesa Gatame (Defender) film study: Fundamentals - Keylock Escape from Scarf Hold Position (week 12).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Gq_0GK6mMB0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Gq_0GK6mMB0?start=127",
       "url": "https://www.youtube.com/watch?v=Gq_0GK6mMB0",
@@ -216,7 +216,7 @@ Defending the Americana from Kesa Gatame requires recognizing the submission thr
 
 ![](https://www.youtube.com/watch?v=Gq_0GK6mMB0&start=127)
 
-<p class="clip-credit"><strong>Rickson Gracie Fundamentals - Keylock Escape from Scarf Hold Position (week 12)</strong> · 8:04 · <a href="https://www.youtube.com/watch?v=Gq_0GK6mMB0&t=127s" rel="noopener">Watch on YouTube from 2:07</a></p>
+<p class="clip-credit"><strong>Fundamentals - Keylock Escape from Scarf Hold Position (week 12)</strong> · 8:04 · <a href="https://www.youtube.com/watch?v=Gq_0GK6mMB0&t=127s" rel="noopener">Watch on YouTube from 2:07</a></p>
 
 </div>
 

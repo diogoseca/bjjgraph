@@ -167,11 +167,10 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
       "@type": "VideoObject",
       "position": 1,
       "name": "Cross Sides Shoulder of Justice 1",
-      "description": "Shoulder of Justice (Top) film study: Cross Sides Shoulder of Justice 1, taught by SBG New Braunfels.",
+      "description": "Shoulder of Justice (Top) film study: Cross Sides Shoulder of Justice 1.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HO877lE69nM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HO877lE69nM",
       "url": "https://www.youtube.com/watch?v=HO877lE69nM",
-      "creator": { "@type": "Person", "name": "SBG New Braunfels" },
       "duration": "PT144S"
     }
   ]
@@ -205,7 +204,7 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 ![](https://www.youtube.com/watch?v=HO877lE69nM)
 
-<p class="clip-credit"><strong>Cross Sides Shoulder of Justice 1</strong> — taught by SBG New Braunfels · 2:24 · <a href="https://www.youtube.com/watch?v=HO877lE69nM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Sides Shoulder of Justice 1</strong> · 2:24 · <a href="https://www.youtube.com/watch?v=HO877lE69nM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

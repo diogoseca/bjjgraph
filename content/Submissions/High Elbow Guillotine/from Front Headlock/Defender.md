@@ -152,8 +152,8 @@ description: "Defend the High Elbow Guillotine from Front Headlock. Recognize el
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the Marcelotine, and why the arm in is preferable (Lachlan Giles)",
-      "description": "High Elbow Guillotine from Front Headlock (Defender) film study: Defending the Marcelotine, and why the arm in is preferable (Lachlan Giles).",
+      "name": "Defending the Marcelotine, and why the arm in is preferable",
+      "description": "High Elbow Guillotine from Front Headlock (Defender) film study: Defending the Marcelotine, and why the arm in is preferable.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nY6aJK6eS2I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/nY6aJK6eS2I?start=53",
       "url": "https://www.youtube.com/watch?v=nY6aJK6eS2I",
@@ -188,7 +188,7 @@ Defending the High Elbow Guillotine from Front Headlock requires early recogniti
 
 ![](https://www.youtube.com/watch?v=nY6aJK6eS2I&start=53)
 
-<p class="clip-credit"><strong>Defending the Marcelotine, and why the arm in is preferable (Lachlan Giles)</strong> · 4:15 · <a href="https://www.youtube.com/watch?v=nY6aJK6eS2I&t=53s" rel="noopener">Watch on YouTube from 0:53</a></p>
+<p class="clip-credit"><strong>Defending the Marcelotine, and why the arm in is preferable</strong> · 4:15 · <a href="https://www.youtube.com/watch?v=nY6aJK6eS2I&t=53s" rel="noopener">Watch on YouTube from 0:53</a></p>
 
 </div>
 

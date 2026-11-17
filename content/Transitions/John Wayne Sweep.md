@@ -47,11 +47,10 @@ description: "The John Wayne Sweep is a half-guard knee-lever reversal that anch
       "@type": "VideoObject",
       "position": 1,
       "name": "John Wayne sweep from half guard",
-      "description": "John Wayne Sweep film study: John Wayne sweep from half guard, taught by JitzLive.",
+      "description": "John Wayne Sweep film study: John Wayne sweep from half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kB5XebzuihY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kB5XebzuihY",
       "url": "https://www.youtube.com/watch?v=kB5XebzuihY",
-      "creator": { "@type": "Person", "name": "JitzLive" },
       "duration": "PT83S"
     }
   ]
@@ -110,7 +109,7 @@ Instructional sources: [Shawn Williams — John Wayne sweep from half guard](htt
 
 ![](https://www.youtube.com/watch?v=kB5XebzuihY)
 
-<p class="clip-credit"><strong>John Wayne sweep from half guard</strong> — taught by JitzLive · 1:23 · <a href="https://www.youtube.com/watch?v=kB5XebzuihY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>John Wayne sweep from half guard</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=kB5XebzuihY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

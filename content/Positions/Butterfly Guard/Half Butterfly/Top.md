@@ -166,22 +166,20 @@ description: "Master Half Butterfly Top position in BJJ. Top player control agai
       "@type": "VideoObject",
       "position": 1,
       "name": "Passing half butterfly guard",
-      "description": "Half Butterfly (Top) film study: Passing half butterfly guard, taught by Morto BJJ.",
+      "description": "Half Butterfly (Top) film study: Passing half butterfly guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LIITsrlsAaI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LIITsrlsAaI",
       "url": "https://www.youtube.com/watch?v=LIITsrlsAaI",
-      "creator": { "@type": "Person", "name": "Morto BJJ" },
       "duration": "PT70S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu",
-      "description": "Half Butterfly (Top) film study: Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu, taught by Factory Fresh Jiu Jitsu.",
+      "description": "Half Butterfly (Top) film study: Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Pk_6CrydIRQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Pk_6CrydIRQ",
       "url": "https://www.youtube.com/watch?v=Pk_6CrydIRQ",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
       "duration": "PT109S"
     }
   ]
@@ -214,7 +212,7 @@ The top player must establish upper body control first through crossface or unde
 
 ![](https://www.youtube.com/watch?v=LIITsrlsAaI)
 
-<p class="clip-credit"><strong>Passing half butterfly guard</strong> — taught by Morto BJJ · 1:10 · <a href="https://www.youtube.com/watch?v=LIITsrlsAaI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing half butterfly guard</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=LIITsrlsAaI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -222,7 +220,7 @@ The top player must establish upper body control first through crossface or unde
 
 ![](https://www.youtube.com/watch?v=Pk_6CrydIRQ)
 
-<p class="clip-credit"><strong>Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu</strong> — taught by Factory Fresh Jiu Jitsu · 1:49 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Effective Half Butterfly Guard Pass for NoGi #nogi #bjj #jiujitsu</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

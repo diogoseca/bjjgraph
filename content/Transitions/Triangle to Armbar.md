@@ -56,8 +56,8 @@ description: "Learn Triangle to Armbar transition in BJJ. Step-by-step execution
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Triangle to Arm Bar Transition with Professor Keith Florian",
-      "description": "Triangle to Armbar film study: Triangle to Arm Bar Transition with Professor Keith Florian.",
+      "name": "Triangle to Arm Bar Transition",
+      "description": "Triangle to Armbar film study: Triangle to Arm Bar Transition.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5fuUTE9QN3U/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5fuUTE9QN3U",
       "url": "https://www.youtube.com/watch?v=5fuUTE9QN3U",
@@ -125,7 +125,7 @@ The triangle-to-armbar system exemplifies the principle of submission chains, wh
 
 ![](https://www.youtube.com/watch?v=5fuUTE9QN3U)
 
-<p class="clip-credit"><strong>Triangle to Arm Bar Transition with Professor Keith Florian</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=5fuUTE9QN3U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle to Arm Bar Transition</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=5fuUTE9QN3U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

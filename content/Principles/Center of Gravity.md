@@ -154,43 +154,39 @@ description: "Center of gravity describes where your weight is balanced and how 
       "@type": "VideoObject",
       "position": 1,
       "name": "Leverage and body weight in guard passing",
-      "description": "Center of Gravity film study: Leverage and body weight in guard passing, taught by Rory Van Vliet.",
+      "description": "Center of Gravity film study: Leverage and body weight in guard passing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Oq2qZuw6eWM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Oq2qZuw6eWM",
-      "url": "https://www.youtube.com/watch?v=Oq2qZuw6eWM",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=Oq2qZuw6eWM"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Weight distribution for movement in grappling",
-      "description": "Center of Gravity film study: Weight distribution for movement in grappling, taught by 12 Gauge MMA.",
+      "description": "Center of Gravity film study: Weight distribution for movement in grappling.",
       "thumbnailUrl": "https://i.ytimg.com/vi/chuU8FWlF4o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/chuU8FWlF4o",
       "url": "https://www.youtube.com/watch?v=chuU8FWlF4o",
-      "creator": { "@type": "Person", "name": "12 Gauge MMA" },
       "duration": "PT73S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Center of gravity and pressure explained",
-      "description": "Center of Gravity film study: Center of gravity and pressure explained, taught by RVV BJJ.",
+      "description": "Center of Gravity film study: Center of gravity and pressure explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/QtN_TQNFXlI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/QtN_TQNFXlI",
       "url": "https://www.youtube.com/watch?v=QtN_TQNFXlI",
-      "creator": { "@type": "Person", "name": "RVV BJJ" },
       "duration": "PT283S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Principles of pressure passing",
-      "description": "Center of Gravity film study: Principles of pressure passing, taught by Bernardo Faria.",
+      "description": "Center of Gravity film study: Principles of pressure passing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/eU2MKcq5we0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/eU2MKcq5we0",
       "url": "https://www.youtube.com/watch?v=eU2MKcq5we0",
-      "creator": { "@type": "Person", "name": "Bernardo Faria" },
       "duration": "PT353S"
     }
   ]
@@ -220,7 +216,7 @@ Notice which contacts carry your weight. Shift enough weight to control or move,
 
 ![](https://www.youtube.com/watch?v=Oq2qZuw6eWM)
 
-<p class="clip-credit"><strong>Leverage and body weight in guard passing</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=Oq2qZuw6eWM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leverage and body weight in guard passing</strong> · <a href="https://www.youtube.com/watch?v=Oq2qZuw6eWM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Notice which contacts carry your weight. Shift enough weight to control or move,
 
 ![](https://www.youtube.com/watch?v=chuU8FWlF4o)
 
-<p class="clip-credit"><strong>Weight distribution for movement in grappling</strong> — taught by 12 Gauge MMA · 1:13 · <a href="https://www.youtube.com/watch?v=chuU8FWlF4o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Weight distribution for movement in grappling</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=chuU8FWlF4o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Notice which contacts carry your weight. Shift enough weight to control or move,
 
 ![](https://www.youtube.com/watch?v=QtN_TQNFXlI)
 
-<p class="clip-credit"><strong>Center of gravity and pressure explained</strong> — taught by RVV BJJ · 4:43 · <a href="https://www.youtube.com/watch?v=QtN_TQNFXlI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Center of gravity and pressure explained</strong> · 4:43 · <a href="https://www.youtube.com/watch?v=QtN_TQNFXlI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Notice which contacts carry your weight. Shift enough weight to control or move,
 
 ![](https://www.youtube.com/watch?v=eU2MKcq5we0)
 
-<p class="clip-credit"><strong>Principles of pressure passing</strong> — taught by Bernardo Faria · 5:53 · <a href="https://www.youtube.com/watch?v=eU2MKcq5we0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Principles of pressure passing</strong> · 5:53 · <a href="https://www.youtube.com/watch?v=eU2MKcq5we0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

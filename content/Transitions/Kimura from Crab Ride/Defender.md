@@ -178,8 +178,8 @@ description: "Learn to defend the Kimura from Crab Ride in BJJ. Recognition cues
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kimura trap defense with Tarsis Humphreys",
-      "description": "Kimura from Crab Ride (Defender) film study: Kimura trap defense with Tarsis Humphreys.",
+      "name": "Kimura trap defense",
+      "description": "Kimura from Crab Ride (Defender) film study: Kimura trap defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OvuDKG0XUao/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OvuDKG0XUao?start=21",
       "url": "https://www.youtube.com/watch?v=OvuDKG0XUao",
@@ -221,7 +221,7 @@ Defending the Kimura from Crab Ride requires immediate recognition and decisive 
 
 ![](https://www.youtube.com/watch?v=OvuDKG0XUao&start=21)
 
-<p class="clip-credit"><strong>Kimura trap defense with Tarsis Humphreys</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=OvuDKG0XUao&t=21s" rel="noopener">Watch on YouTube from 0:21</a></p>
+<p class="clip-credit"><strong>Kimura trap defense</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=OvuDKG0XUao&t=21s" rel="noopener">Watch on YouTube from 0:21</a></p>
 
 </div>
 
