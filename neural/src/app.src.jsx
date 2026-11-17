@@ -4529,7 +4529,8 @@ class Component extends DCLogic {
       }
       const row = deck.previousElementSibling;
       const dr = deck.getBoundingClientRect();
-      const top = Math.min(dr.top, row ? row.getBoundingClientRect().top : dr.top);
+      // a row not drawn (L1-R0: the deck row that only repeats its place) has no top of its own: the card's is used
+      const top = Math.min(dr.top, row && row.offsetParent !== null ? row.getBoundingClientRect().top : dr.top);
       const lr = list.getBoundingClientRect();
       // (the Path's sticky maintenance band was subtracted here; it left with the Path in v1.287.0.) Master the game's slim
       // line is the one sticky band now (L1): a card scrolled to the top stays below it
@@ -5266,6 +5267,7 @@ class Component extends DCLogic {
     this._deckState = this._deckState || {};
     const st = this._deckState[key] || (this._deckState[key] = { idx: 0, revealed: false });
     if (st.idx >= total) st.idx = 0;
+    if (st.idx < 0) st.idx = Math.max(0, total - 1);   // entered from the next deck by ‹ (L1-R0): its last card
     this._answered = this._answered || {};
     const ansSet = this._answered[key] || (this._answered[key] = new Set());
     // Stable question/day identity survives subset reordering and expires at midnight.
@@ -5397,9 +5399,8 @@ class Component extends DCLogic {
       if (surf === "practice" && this._session && this._session.dock) this._masterDock(this._session);
     };
     this._miniReg = this._miniReg || {};
-    // `main`: the card's own next step and its word, for Master the game's navigation (L1, `_masterDock`): the ⏎ rule, said
-    this._miniReg[rid != null ? rid : key] = { reveal: doReveal, prev: doPrev, next: doNext, enter: doEnter,
-      main: () => recognition() ? ["Choose an answer"] : graded(cards[st.idx]) ? ["Next card", doNext] : st.revealed ? ["Got it", () => gradeMini(true)] : ["Reveal", doReveal] };
+    // `at`: the open card's place in its deck, for Master the game's foot (L1-R0, `_masterStep`: its ‹ › cross decks at the ends)
+    this._miniReg[rid != null ? rid : key] = { reveal: doReveal, prev: doPrev, next: doNext, enter: doEnter, at: () => [st.idx, total], draw: () => render() };
     render();
     return wrap;
   }
@@ -6975,15 +6976,12 @@ class Component extends DCLogic {
     const [start, , keep] = s.cta.children;
     start.onclick = () => this._masterStart(s);
     keep.onclick = () => this._practiceNextRound(s);
-    // the navigation, shown only after the press, in the drawer's pinned foot (`_masterMode`): back to the list, the previous
-    // technique, the open card's own next step (its ⏎: Reveal, Got it, Next card), the next technique
+    // the navigation, shown only after the press, in the drawer's pinned foot (`_masterMode`): ≡ back to the list, then the
+    // OPEN CARD'S OWN buttons, moved in (`_masterDock`; L1-R0, the orchestrator's ruling: one bar for the open ask, in the foot)
     const dock = s.dock = document.createElement("div"); dock.className = "ng-mdock"; dock.setAttribute("data-master-dock", "1");
     dock.innerHTML = '<button type="button" data-master-list="1" aria-label="Back to the list"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 7h14M5 12h14M5 17h14"/></svg></button>' +
-      '<button type="button" data-master-prev="1" aria-label="Previous technique">‹</button><button type="button" data-master-act="1"></button><button type="button" data-master-next="1" aria-label="Next technique">›</button>';
-    const [back, prev, act, next] = dock.children;
-    back.onclick = () => this._masterList(s);
-    prev.onclick = () => this.sessionNav(-1); next.onclick = () => this.sessionNav(1);
-    act.onclick = () => { const m = this._focusedMini(), a = m && m.main && m.main(); if (a && a[1]) a[1](); };
+      '<span class="ng-mbar" data-master-bar="1"></span>';
+    dock.firstChild.onclick = () => this._masterList(s);
     // one handler for every row, so a row repainted in place never loses its press (FGD13's class)
     s.rowsEl.onclick = (e) => { const b = e.target.closest && e.target.closest("[data-master-row]"); if (b) this._masterGo(s, b.getAttribute("data-master-row"), true); };
     s.belts.innerHTML = '<span class="ng-mtrophy"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h8v4a4 4 0 01-8 0zM5 5h3v3a3 3 0 01-3-3zM19 5h-3v3a3 3 0 003-3zM12 12v4m-4 4h8"/></svg></span><span class="ng-mbody"><span class="ng-mname">Belt lessons</span><small>' + ngBeltDisplayName(this.wornBelt().id) + ' · units, checkpoints, belt tests, rewards</small></span><span class="ng-mchev">›</span>';
@@ -7016,6 +7014,7 @@ class Component extends DCLogic {
   _masterPaint(s) {
     if (this._session !== s || !s.cta || !s.cta.isConnected) return;
     const R = this._gameplanRuntime, t = this.practiceToday(), p = R && R.ngMasterPaint ? R.ngMasterPaint(this, s) : null;
+    if (s.rowsNew) { s.rowsNew = false; for (const paint of Object.values(this._sessionPaint || {})) paint(); }
     const w = p ? p.w : { title: t.done ? "Continue today's session" : "Start today's session", sub: "Loading your positions\u2026" };
     const [start, goal, keep] = s.cta.children, words = start.children[1];
     start.toggleAttribute("data-met", !!w.met);
@@ -7089,11 +7088,39 @@ class Component extends DCLogic {
     const l = this.drillListRef.current; if (l) l.scrollTop = 0;
     this._askBeltRow();
   }
+  /**
+   * ONE BAR FOR THE OPEN ASK, IN THE FOOT (L1-R0, the orchestrator's ruling on the pictures of PR #434: "TWO Reveal buttons",
+   * the card's own row and the foot's). The open card draws its row as every inline card does (`_miniDeck`); here its SAME
+   * buttons (their data attributes, their handlers) are moved into the foot after ≡: ‹, Reveal (or what a multiple-choice
+   * card's row shows: "Choose an answer", then "Next card"), ›; once revealed and not graded, Review again and Got it in
+   * Reveal's place. The card's emptied rows go. The keys are the card's own (← → Space ⏎, ↑ ↓ the techniques). ‹ and › walk
+   * the asks in the plan's order and cross from a deck's last card to the next deck's first (`_masterStep`), so "Previous
+   * technique" and "Next technique" are no longer buttons of their own. Pinned by master-list.spec.ts ("one Reveal on the page").
+   */
   _masterDock(s) {
-    if (!s.dock || s.list) return;
-    const [, prev, act, next] = s.dock.children, m = this._focusedMini(), a = m && m.main ? m.main() : null, label = a ? a[0] : "Reveal";
-    if (act.textContent !== label) act.textContent = label;
-    act.disabled = !(a && a[1]); prev.disabled = !(s.idx > 0); next.disabled = !(s.idx < s.keys.length - 1);
+    if (!s.dock || s.list || !this._practiceInDrawer()) return;   // never a card of another surface (Last rolls' own)
+    const bar = s.dock.lastChild, w = this._openMini && this._openMini.el && this._openMini.el.querySelector("[data-mini-deck]");
+    const mr = w && w.querySelector(".mr");
+    // a card opened again without being drawn again (a session with no plan keeps its cards): drawn, so its buttons move in
+    if (w && !mr && bar._from !== w) { const reg = this._miniReg && this._miniReg[this._openMini.rid]; if (reg && reg.draw) { reg.draw(); return; } }
+    if (mr) {   // a card drawn afresh: its row moves in, its emptied rows go
+      bar._from = w;
+      const row = mr.parentElement, got = w.querySelector("[data-mini-got]"), grades = got && got.parentElement, mp = row.querySelector(".mp"), mn = row.querySelector(".mn");
+      bar.replaceChildren(mp, ...(got ? [w.querySelector("[data-mini-again]"), got] : [mr]), mn);
+      row.remove(); if (grades) grades.remove();   // the grades' own row, taken before the move (after it, their parent is the bar)
+      mp.onclick = () => this._masterStep(s, -1); mn.onclick = () => this._masterStep(s, 1);
+    } else if (!w) bar.replaceChildren();
+    const at = this._focusedMini()?.at?.(), [mp, mn] = [bar.querySelector(".mp"), bar.querySelector(".mn")];
+    if (at && mp) { mp.disabled = !s.idx && at[0] <= 0; mn.disabled = s.idx >= s.keys.length - 1 && at[0] >= at[1] - 1; }
+  }
+  // ‹ › in the foot: the deck's previous or next card, and past its ends the neighbouring deck at its first (or last) card
+  _masterStep(s, dir) {
+    const m = this._focusedMini(), at = m && m.at && m.at();
+    if (at && (dir > 0 ? at[0] < at[1] - 1 : at[0] > 0)) { (dir > 0 ? m.next : m.prev)(); return; }
+    const k = s.keys[(s.idx || 0) + dir];
+    if (k == null) return;
+    (this._deckState = this._deckState || {})[k] = { idx: dir > 0 ? 0 : -1, revealed: false };
+    this.sessionNav(dir);
   }
   /**
    * L1-SEAM (the orchestrator, 17 Nov, for Last rolls as places, L3): open Master the game, or use it if it is open, at the
@@ -7196,9 +7223,13 @@ class Component extends DCLogic {
       const open = detail.style.display !== "none";
       if (done) r.setAttribute("data-session-done", "1"); else r.removeAttribute("data-session-done");
       r.setAttribute("aria-expanded", String(open));
+      // A DECK ROW THAT ONLY REPEATS ITS PLACE IS NOT DRAWN (L1-R0, the orchestrator's ruling): under an open place in Master the
+      // game the place's own deck ("Open Guard|Bottom" under Open Guard, bottom) keeps its card and its dots, its count goes to
+      // the place's row (master-list.src.js) and its fold is the place's; a lesson's or a move's deck keeps its row
+      const own = s.practice && !!s.rowEls && s.rowEls.has(key) && this._masterSeatOf(s, key) === key;
       r.style.cssText = "width:100%;min-height:44px;text-align:left;font-family:inherit;display:flex;align-items:center;gap:10px;padding:10px 11px;border-radius:10px;cursor:pointer;margin-bottom:7px;transition:background .14s,border-color .14s;border:1px solid " +
         (done ? "rgba(110,214,160,.42)" : open ? "rgba(150,180,255,.5)" : "rgba(150,170,210,.12)") + ";background:" +
-        (done ? "rgba(28,58,44,.5)" : open ? "rgba(58,72,118,.5)" : "rgba(255,255,255,.025)") + ";";
+        (done ? "rgba(28,58,44,.5)" : open ? "rgba(58,72,118,.5)" : "rgba(255,255,255,.025)") + ";" + (own ? "display:none;" : "");   // last: the row's own display:flex is above
       const label = this._deckCountLabel(key, true);
       // PRACTICE'S MIX, said per row (U56 e): a review or a new deck, read from the plan's own rows
       const kind = s.plan ? s.plan.due.some((x) => x.key === key) ? "due" : s.plan.fresh.some((x) => x.key === key) ? (s.plan.fresh.find((x) => x.key === key).source === "place" ? "free" : "new") : "" : s.review ? s.review.rows.some(x => x.key === key) ? "due" : "new" : "";

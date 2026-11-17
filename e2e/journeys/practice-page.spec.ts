@@ -52,6 +52,8 @@ async function door(page: any, j: any, keyboard = false, touch = false, belts = 
     await page.touchscreen.tap(b!.x + b!.width / 2, b!.y + b!.height / 2);
   } else await j.clickByMouse(selector, "open Practice");
   await expect(page.locator("[data-practice-page]")).toHaveCount(1);
+  // L1-R0 (v1.290.0): the open card's buttons (Reveal, Review again, Got it, ‹ ›) are moved into the drawer's foot, one bar for
+  // the open ask (`_masterDock`), so this file presses them there, `[data-master-bar]`, the same buttons with the same handlers.
   // L1 (v1.290.0): Master the game opens as a list with one button, the shelf folded under "Belt lessons". These journeys were
   // written when the page opened on its first card with the shelf drawn under it, so the door now presses the button the
   // same way the row was pressed (Tab and Enter, a touch, the mouse), and "Belt lessons" too for a journey that uses the shelf
@@ -99,7 +101,7 @@ async function firstAnswer(page: any, j: any) {
   expect(geometry.right).toBeLessThanOrEqual(geometry.width);
   expect(geometry.hit, "P1-A: primary response is hit-testable").toBe(true);
   expect(geometry.scroll, "P1-A: entry did not scroll to manufacture visibility").toBe(0);
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "reveal the first question");
+  await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "reveal the first question");
   await expect(page.locator('[data-mini-a]:visible')).toHaveCount(1);
 }
 
@@ -181,9 +183,9 @@ test("P1-C: explicit new practice reaches 21 before the due queue is cleared", a
   expect(await page.evaluate(() => (window as any).__p1More), "P1-F: one continuation event per deliberate press").toBe(1);
   await expect(page.locator('[data-session-row][aria-expanded="true"]')).toHaveAttribute("data-practice-kind", "new");
   await page.locator('[data-mini-reveal]:visible').scrollIntoViewIfNeeded();
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "reveal new card after goal");
+  await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "reveal new card after goal");
   await page.locator('[data-mini-again]:visible').scrollIntoViewIfNeeded();
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-again]', "a mistake still counts once");
+  await j.clickByMouse('[data-master-bar] [data-mini-again]', "a mistake still counts once");
   await expect(page.locator('[data-practice-goal]')).toHaveText("Daily goal: 21 of 20 today ✓");
   const state = await page.evaluate(() => {
     const a = (window as any).__neural;
@@ -204,7 +206,7 @@ test("P1-D: a late planner preserves a revealed answer and in-flight press, then
   await seed(page, 2); await door(page, j);
   try {
     await expect.poll(() => held).toBe(1);
-    await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "reveal while planner is held");
+    await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "reveal while planner is held");
     await page.evaluate(() => {
       (window as any).__practiceIdentity = { s: (window as any).__neural._session, answer: document.querySelector("[data-mini-a]"), button: document.querySelector("[data-mini-got]") };
     });
@@ -496,18 +498,20 @@ test("P1-A: long authored answers and enlarged text scroll to an operable grade"
   const long = await page.evaluate(() => (window as any).__longCard);
   await openCard(page, j, long.key, long.qh);
   await page.locator('[data-mini-reveal]:visible').scrollIntoViewIfNeeded();
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "reveal with enlarged text");
+  await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "reveal with enlarged text");
   await expect(page.locator('[data-mini-a]:visible')).toHaveCSS("font-size", "30px");
   await page.locator('[data-mini-again]:visible').scrollIntoViewIfNeeded();
   const geometry = await page.locator('[data-mini-again]:visible').evaluate((el: HTMLElement) => {
     const r = el.getBoundingClientRect(), hit = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2);
-    return { top: r.top, bottom: r.bottom, hit: hit === el || !!hit && el.contains(hit), scroll: (window as any).__neural.drillListRef.current.scrollTop };
+    return { top: r.top, bottom: r.bottom, hit: hit === el || !!hit && el.contains(hit), foot: !!el.closest("[data-master-dock]") };
   });
-  expect(geometry.scroll, "P1-A: long enlarged text scrolls naturally").toBeGreaterThan(0);
+  // L1-R0 (v1.290.0): the grades sit in the drawer's foot, one bar for the open ask, so a long answer no longer pushes them
+  // below the fold and the page need not scroll to reach them (until then: "long enlarged text scrolls naturally", scroll > 0)
+  expect(geometry.foot, "P1-A: the grade is the foot's, under any length of answer").toBe(true);
   expect(geometry.top).toBeGreaterThanOrEqual(0);
   expect(geometry.bottom).toBeLessThanOrEqual(631);
   expect(geometry.hit, "P1-A: no pinned chrome covers the long-answer grade").toBe(true);
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-again]', "grade after reading a long answer");
+  await j.clickByMouse('[data-master-bar] [data-mini-again]', "grade after reading a long answer");
   expect(await page.evaluate(() => (window as any).__neural.practiceToday().done)).toBe(1);
 });
 
@@ -554,10 +558,10 @@ test("P1-F: a lesson finished in Practice opens its checkpoint without leaving t
   await expect(button, "P1-F: the unit starts one lesson short").toBeDisabled();
   await pressLesson(page, j, last);
   const deck = `[data-mini-deck="${last}"]`;
-  await page.locator(`${deck} [data-mini-reveal]`).scrollIntoViewIfNeeded();
-  await j.clickByMouse(`${deck} [data-mini-reveal]`, "reveal the lesson's last card");
-  await page.locator(`${deck} [data-mini-got]`).scrollIntoViewIfNeeded();
-  await j.clickByMouse(`${deck} [data-mini-got]`, "grade the lesson's last card");
+  await page.locator("[data-master-bar] [data-mini-reveal]").scrollIntoViewIfNeeded();
+  await j.clickByMouse("[data-master-bar] [data-mini-reveal]", "reveal the lesson's last card");
+  await page.locator("[data-master-bar] [data-mini-got]").scrollIntoViewIfNeeded();
+  await j.clickByMouse("[data-master-bar] [data-mini-got]", "grade the lesson's last card");
   expect(await page.evaluate((k: string) => (window as any).__neural.lessonDone(k), last), "P1-F: the grade finished the lesson").toBe(true);
   await expect(button, "P1-F: the finished lesson's checkpoint is live in place").toBeEnabled();
   await expect(button).toHaveText("Start checkpoint");
@@ -568,10 +572,12 @@ test("P1-E: the open card's title row never blanks the card", async ({ page }) =
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   await seed(page, 2); await door(page, j);
-  await j.clickByMouse('[data-session-row][aria-expanded="true"]', "the card's own title row");
+  // L1-R0 (v1.290.0): the card's title row is its place's row in Master the game's list (the deck row that only repeats the
+  // place is not drawn); a press on it keeps the card, as a press on the deck row did
+  await j.clickByMouse('[data-master-row][data-on]', "the card's own title row, its place's");
   await expect(page.locator('[data-mini-q]:visible'), "P1-E: the title row keeps the card").toHaveCount(1);
-  await expect(page.locator('[data-session-row]:visible'), "P1-E: and its title").toHaveCount(1);
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "reveal under the same title");
+  await expect(page.locator('[data-master-row][data-on]'), "P1-E: and its title").toHaveCount(1);
+  await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "reveal under the same title");
   await expect(page.locator('[data-mini-a]:visible'), "P1-E: the card still answers").toHaveCount(1);
 });
 
@@ -588,12 +594,12 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 1440, height: 900 
   const held = await page.evaluate(() => (window as any).__neural._session.plan.total);
   expect(held, "a card or two: what is left of the goal").toBeLessThanOrEqual(2);
   for (let i = 0; i < held; i++) {
-    await expect(page.locator('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]:visible')).toHaveCount(1, { timeout: 5_000 });
+    await expect(page.locator('[data-master-bar] [data-mini-reveal]:visible')).toHaveCount(1, { timeout: 5_000 });
     await page.locator('[data-mini-reveal]:visible').scrollIntoViewIfNeeded();
-    await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "reveal");
+    await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "reveal");
     await page.locator('[data-mini-got]:visible').scrollIntoViewIfNeeded();
     await page.evaluate(() => { (window as any).__endCard = document.querySelector('[data-session-row][aria-expanded="true"]'); });
-    await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-got]', i === held - 1 ? "grade the last card" : "grade");
+    await j.clickByMouse('[data-master-bar] [data-mini-got]', i === held - 1 ? "grade the last card" : "grade");
     if (i < held - 1) await page.waitForTimeout(700);
   }
   await expect(page.locator("[data-session-complete]")).toHaveCount(1);
@@ -670,7 +676,7 @@ test("P1-E: an answered recognition card offers Next card to the mouse", async (
   const next = page.locator('[data-mini-reveal]:visible');
   await expect(next, "P1-E: the answered card offers the next one").toHaveText("Next card");
   await expect(next).toBeEnabled();
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "Next card");
+  await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "Next card");
   await expect(page.locator('[data-mini-q]:visible'), "P1-E: Next card moves on").not.toHaveText(question!);
 });
 

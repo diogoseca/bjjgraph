@@ -124,12 +124,14 @@ async function clean(page: Page, after: string) {
   expect(bad, `no "NaN" or "undefined" on the Practice page after ${after}`).toEqual([])
 }
 /** one press on whatever the open card asks next: Reveal, then Got it; a graded card goes on with its deck's next arrow */
+// L1-R0 (v1.290.0): the open card's buttons (Reveal, Review again, Got it, ‹ ›) are moved into the drawer's foot, one bar
+// for the open ask (`_masterDock`): pressed there, `[data-master-bar]`, the same buttons with the same handlers
 async function answerOne(page: Page, touch: boolean) {
   const open = '[data-session-row][aria-expanded="true"] + div'
-  await expect(page.locator(open + " [data-mini-reveal]:visible")).toHaveCount(1, { timeout: 10_000 })
-  if (await page.locator(open + " [data-mini-graded]:visible").count()) { await press(page, open + " .mn", "the deck's next card", touch); return }
-  if (!(await page.locator(open + " [data-mini-a]:visible").count())) await press(page, open + " [data-mini-reveal]", "Reveal", touch)
-  await press(page, open + " [data-mini-got]", "Got it", touch)
+  await expect(page.locator("[data-master-bar] [data-mini-reveal]:visible, [data-master-bar] [data-mini-got]:visible").first()).toBeVisible({ timeout: 10_000 })
+  if (await page.locator(open + " [data-mini-graded]:visible").count()) { await press(page, "[data-master-bar] .mn", "the deck's next card", touch); return }
+  if (!(await page.locator(open + " [data-mini-a]:visible").count())) await press(page, "[data-master-bar] [data-mini-reveal]", "Reveal", touch)
+  await press(page, "[data-master-bar] [data-mini-got]", "Got it", touch)
 }
 
 // L1 (v1.290.0): Master the game opens as a list with one button, and its first card opens on the press. The button opens
@@ -196,7 +198,7 @@ for (const touch of [true, false]) {
       await expect(page.locator("[data-practice-queue] [data-practice-visit]"), "a label per position").toHaveText(s.visits.map((v: W, i: number) => `${i + 1} · ${v.seat ? dot(v.seat) : "Other cards"}`))
       // paging the queue moves the heading with the open card, and stores nothing
       for (let i = 1; i < Math.min(4, s.keys.length); i++) {
-        await press(page, "[data-master-next]", "Next technique", touch)
+        await page.keyboard.press("ArrowDown")   // L1-R0: "Next technique" is a key now (↓); the foot's › walks cards and crosses decks
         await expect.poll(() => page.evaluate(() => (window as W).__neural._session.idx), { message: "the queue moves on" }).toBe(i)
         const r = s.rows.find((x: W) => x.key === s.keys[i])
         await expect(page.locator("[data-practice-section]")).toHaveText(`${r.seat ? dot(r.seat) : "Other cards"} · position ${r.visit + 1} of ${s.visits.length}`)
@@ -386,9 +388,9 @@ for (const touch of [true, false]) {
       expect(fx.light, "the one card left is the one due longest").toContain(one.keys[0])
       // answer every card the session holds (the goal's last answer)
       for (let i = 0; i < 6 && !(await page.locator("[data-session-complete]").count()); i++) {
-        await expect(page.locator(open + " [data-mini-reveal]:visible")).toHaveCount(1, { timeout: 10_000 })
-        await press(page, open + " [data-mini-reveal]", "Reveal", touch)
-        await press(page, open + " [data-mini-got]", "Got it", touch)
+        await expect(page.locator("[data-master-bar] [data-mini-reveal]:visible")).toHaveCount(1, { timeout: 10_000 })
+        await press(page, "[data-master-bar] [data-mini-reveal]", "Reveal", touch)
+        await press(page, "[data-master-bar] [data-mini-got]", "Got it", touch)
         if (i === 0) {
           await expect.poll(async () => (await state()).done, { message: "the goal's last answer counts" }).toBe(20)
           expect((await state()).owed, "premise: cards still owed at the goal").toBeGreaterThan(0)

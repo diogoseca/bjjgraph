@@ -141,8 +141,12 @@
 .ng-mtrophy { flex: none; display: flex; color: #9aa6bd; }
 [data-master-belts] { margin-top: 12px; }
 .ng-mdock { display: flex; align-items: center; gap: 8px; width: 100%; }
-.ng-mdock button { flex: none; width: 44px; height: 44px; border-radius: 11px; border: 1px solid rgba(150,170,210,.22); background: rgba(255,255,255,.035); color: #aab4c8; font: inherit; font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center; cursor: pointer; }
-.ng-mdock [data-master-act] { flex: 1; border-color: rgba(120,150,255,.5); background: rgba(74,108,255,.2); color: #e3eaff; font-size: 13px; }
+.ng-mdock > button { flex: none; width: 44px; height: 44px; border-radius: 11px; border: 1px solid rgba(150,170,210,.22); background: rgba(255,255,255,.035); color: #aab4c8; font: inherit; font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+/* the open card's own buttons, moved into the foot (L1-R0, `_masterDock`): they keep their card styles, sized for the thumb here */
+.ng-mbar { flex: 1; min-width: 0; display: flex; align-items: center; gap: 8px; }
+.ng-mbar > button { height: 44px !important; margin: 0 !important; min-width: 0; }
+.ng-mbar > .mp, .ng-mbar > .mn { flex: none !important; width: 44px !important; }
+.ng-mbar > button:not(.mp):not(.mn) { flex: 1 !important; }
 .ng-mdock button:disabled { opacity: .38; cursor: default; }
 [data-practice-keys] {
   margin: 8px 0;

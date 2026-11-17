@@ -140,10 +140,10 @@ function ngMasterViewIn(app, s) {
   return ngMasterRows({ plan: ngMasterPlanOf(app, s), explored: [...(app._exploredKeys || [])], day: app._epochDay(),
     resolve: (k) => ngMasterResolveIn(app, k), lastDay: (k) => ngMasterSeenIn(app, k, decksOf), gold: (k) => ngMasterGoldIn(app, k) });
 }
-function ngMasterRowHTML(app, r) {
+function ngMasterRowHTML(app, r, prog) {
   const e = (x) => app.escHTML(x), shape = (k) => '<svg width="10" height="10" viewBox="-1 -1 12 12"><path d="' + (k === "tri" ? "M5 .6L9.6 9.2H.4z" : "M5 .3L9.7 5L5 9.7L.3 5z") + '"/></svg>';
   return '<i class="ng-mdot" data-side="' + e((r.side || "").toLowerCase()) + '"></i><span class="ng-mbody"><span class="ng-mname">' + e(r.name) + (r.side ? " <em>" + e(r.side) + "</em>" : "") +
-    "</span><small>" + e(r.sub) + "</small></span>" + (r.isNew ? '<span class="ng-mnew">new</span>' : r.n ? '<span class="ng-mgold" data-master-gold="' + r.n + '" aria-label="' + r.n +
+    "</span><small>" + e(r.sub) + "</small></span>" + (prog ? '<span class="ng-mprog" data-master-prog="1">' + e(prog) + "</span>" : "") + (r.isNew ? '<span class="ng-mnew">new</span>' : r.n ? '<span class="ng-mgold" data-master-gold="' + r.n + '" aria-label="' + r.n +
     (r.n === 1 ? " move" : " moves") + ' in gold">' + r.marks.map(shape).join("") + "<b>" + r.n + "</b></span>" : "") + '<span class="ng-mchev">›</span>';
 }
 // the rows: rebuilt when the set of places changes (the open card taken out first and put back under its row), else each
@@ -167,15 +167,18 @@ function ngMasterSync(app, s, v) {
     if (inside) { for (const c of [...s.rowsEl.children]) if (c !== s.ask) c.remove(); s.ask.after(...els); }
     else s.rowsEl.replaceChildren(...els);
     if (!s.list) app._masterPlace(s, true);
+    s.rowsNew = true;   // the core paints the deck rows again: a deck row that only repeats its place reads the rows (L1-R0)
   }
+  // the open place's own deck: its row is not drawn (app.src.jsx, `_sessionRow`, L1-R0), so its count ("0/3") is the place's
+  const k = !s.list && s.keys[s.idx], lr = k && s.live && app._masterSeatOf(s, k) === k ? s.live.rows.find((x) => x.key === k) : null;
   for (const r of v.rows.concat(v.rest)) {
-    const el = s.rowEls.get(r.seat || ""), h = ngMasterRowHTML(app, r);
+    const el = s.rowEls.get(r.seat || ""), h = ngMasterRowHTML(app, r, lr && r.seat === k ? lr.completed + "/" + lr.count : "");
     if (el && el._ngHtml !== h) { el._ngHtml = h; el.innerHTML = h; }
   }
 }
 // the places' rows' own rules (the button, the slim line, the navigation and "Belt lessons" are challenge-ui.css's, eager:
 // they show before this bundle is in), added once to the page (the CSP allows inline styles; app.src.jsx does the same)
-const NG_MASTER_CSS = ".ng-mrow[data-on] { background: rgba(255,255,255,.035); }@media (hover: hover) { .ng-mrow:hover { background: rgba(255,255,255,.035); } }.ng-mdot { flex: none; width: 10px; height: 10px; border-radius: 50%; background: #5b8cff; }.ng-mdot[data-side=bottom] { background: #d8607a; }.ng-mdot[data-side=attacker], .ng-mdot[data-side=defender], .ng-mdot[data-side=''] { border-radius: 2px; background: #9fb0d8; }.ng-mrow[data-on] .ng-mname { color: #eef1f6; font-weight: 700; }.ng-mname em { font-style: normal; font-size: 9px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #8fb0ff; margin-left: 3px; }.ng-mdot[data-side=bottom] + .ng-mbody em { color: #d8889e; }.ng-mgold { flex: none; display: inline-flex; align-items: center; gap: 3px; }.ng-mgold svg { display: block; fill: none; stroke: #f0c05a; stroke-width: 1.5; stroke-linejoin: round; }.ng-mgold b { margin-left: 3px; font-size: 11px; color: #f0c05a; }.ng-mnew { flex: none; font-size: 10.5px; font-weight: 600; color: #7e8aa3; }.ng-mrule { border: 0; height: 1px; background: rgba(150,170,210,.1); margin: 8px 0; }.ng-mnote { font-size: 11.5px; line-height: 1.5; color: #7e8aa3; margin: 10px 0 0; }";
+const NG_MASTER_CSS = ".ng-mrow[data-on] { background: rgba(255,255,255,.035); }@media (hover: hover) { .ng-mrow:hover { background: rgba(255,255,255,.035); } }.ng-mdot { flex: none; width: 10px; height: 10px; border-radius: 50%; background: #5b8cff; }.ng-mdot[data-side=bottom] { background: #d8607a; }.ng-mdot[data-side=attacker], .ng-mdot[data-side=defender], .ng-mdot[data-side=''] { border-radius: 2px; background: #9fb0d8; }.ng-mrow[data-on] .ng-mname { color: #eef1f6; font-weight: 700; }.ng-mrow[data-on] .ng-mchev { transform: rotate(90deg); }.ng-mprog { flex: none; font-size: 10.5px; font-weight: 600; color: #9ab0e0; }.ng-mname em { font-style: normal; font-size: 9px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #8fb0ff; margin-left: 3px; }.ng-mdot[data-side=bottom] + .ng-mbody em { color: #d8889e; }.ng-mgold { flex: none; display: inline-flex; align-items: center; gap: 3px; }.ng-mgold svg { display: block; fill: none; stroke: #f0c05a; stroke-width: 1.5; stroke-linejoin: round; }.ng-mgold b { margin-left: 3px; font-size: 11px; color: #f0c05a; }.ng-mnew { flex: none; font-size: 10.5px; font-weight: 600; color: #7e8aa3; }.ng-mrule { border: 0; height: 1px; background: rgba(150,170,210,.1); margin: 8px 0; }.ng-mnote { font-size: 11.5px; line-height: 1.5; color: #7e8aa3; margin: 10px 0 0; }";
 export function ngMasterPaint(app, s) {
   if (!document.getElementById("ng-master-css")) { const st = document.createElement("style"); st.id = "ng-master-css"; st.textContent = NG_MASTER_CSS; document.head.appendChild(st); }
   const t = app.practiceToday(), v = (s.view = ngMasterViewIn(app, s));

@@ -139,7 +139,7 @@ test("PD2: 1440×900 each card's technique is flown to the free map beside the d
   const seen: number[] = [];
   for (const step of [0, 1]) {
     if (step) {
-      await j.clickByMouse("[data-master-next]", "Next technique");
+      await page.keyboard.press("ArrowDown");   // L1-R0: "Next technique" is a key now (↓); the foot's › walks cards and crosses decks
     }
     await j.advance(3500);
     const at = await glass(), where = JSON.stringify(at);
@@ -157,7 +157,7 @@ test("PD2: 1440×900 each card's technique is flown to the free map beside the d
     expect(at.map, `PD2: the topmost thing at the orb is the map itself ${where}`).toBe(true);
     expect(at.ringed, "PD2: the technique carries the session's ring").toBe(true);
   }
-  await j.clickByMouse("[data-master-prev]", "‹ Previous technique");
+  await page.keyboard.press("ArrowUp");   // L1-R0: "Previous technique" is a key now (↑)
   await expect.poll(() => page.evaluate(() => (window as any).__neural._session.idx), { message: "Previous technique pages back" }).toBe(0);
 });
 
@@ -196,20 +196,23 @@ test("PD3: ‹ Practice is Practice's one Back; a deck study keeps its own", asy
 /** Every visible button of the open card: its box, whether it sits inside the drawer and the viewport, and whether a
  * press at its centre lands on it. "On screen" is inside the drawer's scrolling list as well as the viewport: since L1
  * (v1.290.0) Practice's navigation sits in the drawer's pinned foot, under the list, so a control scrolled into that band
- * is clipped by the list and is not on screen (until then the foot was hidden on Practice and the list reached the bottom). */
+ * is clipped by the list and is not on screen (until then the foot was hidden on Practice and the list reached the bottom).
+ * L1-R0 (v1.290.0): the open card's own buttons (Reveal, Review again, Got it, ‹ ›) are moved into that foot, one bar for the
+ * open ask (`_masterDock`), so they are measured there too, on screen when inside the viewport. */
 const answers = (page: Page) => page.evaluate((sel) => {
   const open = document.querySelector(sel)!, d = document.querySelector(".ng-drill")!.getBoundingClientRect();
   const l = (open.closest(".ng-pane-drillhead + div") as HTMLElement).getBoundingClientRect();
-  return [...open.querySelectorAll("button, summary")].filter((b) => b.getClientRects().length && getComputedStyle(b).visibility !== "hidden").map((b) => {
+  return [...open.querySelectorAll("button, summary"), ...document.querySelectorAll("[data-master-bar] button")].filter((b) => b.getClientRects().length && getComputedStyle(b).visibility !== "hidden").map((b) => {
     const r = b.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2, top = document.elementFromPoint(x, y);
     return { t: (b.textContent || "").trim().slice(0, 24), h: Math.round(r.height * 10) / 10,
-      inDrawer: r.left >= d.left - 0.5 && r.right <= d.right + 0.5, onScreen: r.top >= Math.max(0, l.top) && r.bottom <= Math.min(innerHeight, l.bottom),
+      inDrawer: r.left >= d.left - 0.5 && r.right <= d.right + 0.5, onScreen: open.contains(b) ? r.top >= Math.max(0, l.top) && r.bottom <= Math.min(innerHeight, l.bottom) : r.top >= 0 && r.bottom <= innerHeight,
       hit: !!top && (top === b || b.contains(top)) };
   });
 }, OPEN);
 
 async function checkAnswers(page: Page, sel: string, what: string) {
-  await page.locator(`${OPEN} ${sel}`).first().scrollIntoViewIfNeeded(); // a player scrolls the drawer to it
+  const OPEN_ = /data-mini-(reveal|got|again)/.test(sel) ? "[data-master-bar]" : OPEN;   // L1-R0: the card's own buttons sit in the foot
+  await page.locator(`${OPEN_} ${sel}`).first().scrollIntoViewIfNeeded(); // a player scrolls the drawer to it
   const all = await answers(page);
   expect(all.length, `${what}: buttons measured (a positive count)`).toBeGreaterThan(0);
   for (const b of all) {
@@ -217,7 +220,7 @@ async function checkAnswers(page: Page, sel: string, what: string) {
     expect(b.inDrawer, `PD4: ${what}: "${b.t}" sits inside the drawer`).toBe(true);
   }
   for (const b of all.filter((x) => x.onScreen)) expect(b.hit, `PD4: ${what}: a press on "${b.t}" lands on it`).toBe(true);
-  const target = await page.locator(`${OPEN} ${sel}`).first().evaluate((el) => {
+  const target = await page.locator(`${OPEN_} ${sel}`).first().evaluate((el) => {
     const r = el.getBoundingClientRect(); return { top: r.top, bottom: r.bottom, H: innerHeight };
   });
   expect(target.top >= 0 && target.bottom <= target.H, `PD4: ${what}: ${sel} on screen ${JSON.stringify(target)}`).toBe(true);
@@ -254,12 +257,12 @@ for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { wi
       await j.clickByMouse(`[data-pd4-jump="${card.key}"]`, "the queue's button for " + card.key);
       await expect(page.locator('[data-session-row][aria-expanded="true"]'), "the card in view").toHaveAttribute("data-session-row", card.key);
       await checkAnswers(page, "[data-mini-reveal]", `${card.key}, before Reveal`);
-      await j.clickByMouse(`${OPEN} [data-mini-reveal]`, "Reveal");
+      await j.clickByMouse("[data-master-bar] [data-mini-reveal]", "Reveal");
       await expect(page.locator(`${OPEN} [data-mini-a]`)).toBeVisible();
       await checkAnswers(page, "[data-mini-got]", `${card.key}, answered`);
       await checkAnswers(page, "[data-mini-again]", `${card.key}, answered`);
       if (i === 0) {
-        await j.clickByMouse(`${OPEN} [data-mini-got]`, "Got it");
+        await j.clickByMouse("[data-master-bar] [data-mini-got]", "Got it");
         await expect.poll(() => page.evaluate(() => (window as any).__neural.practiceToday().done), { message: "graded once" }).toBe(1);
       }
     }

@@ -45,7 +45,10 @@ const fit = (page: Page): Promise<Fit> =>
     const decks = Array.from(document.querySelectorAll("[data-mini-deck]")) as HTMLElement[];
     const deck = decks.find((el) => el.offsetParent !== null) || null;
     if (!deck) return { key: null, rowTop: NaN, deckBottom: NaN, tall: false, scrollTop: list.scrollTop };
-    const row = (deck.parentElement as HTMLElement).previousElementSibling as HTMLElement;
+    // the card's header: its deck's row, or, when that row only repeats its place and is not drawn (L1-R0, Master the game),
+    // the place's own row above it
+    const deckRow = (deck.parentElement as HTMLElement).previousElementSibling as HTMLElement;
+    const row = deckRow.offsetParent !== null ? deckRow : (document.querySelector("[data-master-row][data-on]") as HTMLElement) || deckRow;
     const lr = list.getBoundingClientRect(), rr = row.getBoundingClientRect(), dr = deck.getBoundingClientRect();
     return {
       key: deck.getAttribute("data-mini-deck"),

@@ -28,6 +28,11 @@ import { journey } from "../dsl"
  *   L1-A7 the open card moved under a held press (`_masterPlace`'s soft wait) → practice-page.spec.ts "P1-D: a late planner…"
  *   L1-A8 a move of the open card drops its focus (`_masterPlace`)           → corridor-reach.spec.ts "‹ Back from a checkpoint…"
  * (17 Nov 2026, 10:03-10:08, each applied alone and built, clean before and after: 8 of 8 red, every clean run green.)
+ * L1-R0 (the orchestrator's two rulings on the opened place: one bar for the open ask, in the foot; a deck row that only
+ * repeats its place is not drawn), built the same way:
+ *   L1-R0a the card's own row drawn again (the foot gets copies)                → "the press opens…" at "one Reveal on the page"
+ *   L1-R0b the place's own deck row drawn again (`_sessionRow`'s `own`)       → "the press opens…" at "the place's own deck row is not drawn"
+ *   L1-R0c › wraps inside the deck instead of crossing (`_masterStep`)         → "the press opens…" at "› crosses to the next deck…"
  * The list's own arithmetic (order, the other places, the lost count, the words) is tests/master_list.test.mjs (L1-1 to L1-7).
  * NOT COVERED here: no-gi (the unit reads the rows the app hands it, whatever the ruleset), and a guest signing in (the record
  * is `explored`'s, unchanged by L1).
@@ -164,17 +169,35 @@ for (const touch of [true, false]) {
       // the navigation, in thumb reach: the foot of the screen, every control at least 44 px
       const dock = await page.locator("[data-master-dock]").evaluate((el) => {
         const r = el.getBoundingClientRect()
-        return { top: r.top, bottom: r.bottom, h: innerHeight, sizes: [...el.children].map((c) => Math.round(c.getBoundingClientRect().height)) }
+        return { top: r.top, bottom: r.bottom, h: innerHeight, sizes: [...el.querySelectorAll("button")].map((c) => Math.round(c.getBoundingClientRect().height)) }
       })
       expect(dock.bottom, "inside the screen").toBeLessThanOrEqual(dock.h)
       expect(dock.top, "at the foot, in thumb reach").toBeGreaterThan(dock.h - 110)
       for (const h of dock.sizes) expect(h).toBeGreaterThanOrEqual(44)
-      // its middle is the card's own next step
-      await expect(page.locator("[data-master-act]")).toHaveText("Reveal")
-      await press(page, "[data-master-act]", "Reveal", touch, false)
-      await expect(page.locator("[data-master-act]")).toHaveText("Got it")
-      await press(page, "[data-master-act]", "Got it", touch, false)
+      // L1-R0: ONE bar for the open ask, in the foot: ≡, then the card's own ‹ Reveal ›; the card keeps no button row
+      const bar = "[data-master-dock] [data-master-bar]"
+      await expect(page.locator("[data-mini-reveal]:visible"), "one Reveal on the page").toHaveCount(1)
+      await expect(page.locator(`${bar} [data-mini-reveal]`), "and it is the foot's").toBeVisible()
+      await expect(page.locator("[data-master-ask] .mp:visible, [data-master-ask] .mn:visible, [data-master-ask] .mr:visible"), "the card keeps no button row").toHaveCount(0)
+      // L1-R0: the place is named once in the list: its own deck's row is not drawn, and that deck's count is the place's
+      await expect(page.locator(`[data-session-row="${seats[0]}"]`), "the place's own deck row is not drawn").toBeHidden()
+      await expect(page.locator("[data-master-row][data-on] [data-master-prog]"), "its count is on the place's row").toHaveText(/^0\/\d+$/)
+      await press(page, `${bar} [data-mini-reveal]`, "Reveal", touch, false)
+      await expect(page.locator(`${bar} [data-mini-got]`), "revealed: the grades take Reveal's place in the foot").toBeVisible()
+      await expect(page.locator(`${bar} [data-mini-again]`)).toBeVisible()
+      await expect(page.locator("[data-mini-reveal]:visible"), "no second Reveal while the grades are up").toHaveCount(0)
+      await press(page, `${bar} [data-mini-got]`, "Got it", touch, false)
       await expect.poll(() => page.evaluate(() => (window as W).__neural.practiceToday().done), { message: "the answer counts" }).toBe(1)
+      await expect(page.locator("[data-master-row][data-on] [data-master-prog]")).toHaveText(/^1\/\d+$/)
+      // L1-R0: › walks the deck's cards and crosses to the next deck's first card past its last; ‹ crosses back to the last
+      const at0 = await page.evaluate(() => { const a = (window as W).__neural; return [a._session.idx, ...a._focusedMini().at()] })
+      expect(at0[2], "premise: a deck of more than one card").toBeGreaterThan(1)
+      for (let i = at0[1]; i < at0[2] - 1; i++) await press(page, `${bar} .mn`, "›", touch, false)
+      await expect.poll(() => page.evaluate(() => (window as W).__neural._focusedMini().at()[0])).toBe(at0[2] - 1)
+      await press(page, `${bar} .mn`, "› past the deck's last card", touch, false)
+      await expect.poll(() => page.evaluate(() => { const a = (window as W).__neural; return [a._session.idx, a._focusedMini().at()[0]] }), { message: "› crosses to the next deck, at its first card" }).toEqual([at0[0] + 1, 0])
+      await press(page, `${bar} .mp`, "‹ back across", touch, false)
+      await expect.poll(() => page.evaluate(() => { const a = (window as W).__neural; return [a._session.idx, a._focusedMini().at()[0]] }), { message: "‹ crosses back, to the deck's last card" }).toEqual([at0[0], at0[2] - 1])
       // ≡ back to the list, the answer kept
       await press(page, "[data-master-list]", "back to the list", touch, false)
       await expect(page.locator("[data-master-dock]")).toBeHidden()
@@ -202,8 +225,8 @@ for (const touch of [true, false]) {
       await expect.poll(() => openSeat(page), { message: "the free review is open" }).toBe(rest[0])
       await expect(page.locator("[data-practice-section]")).toHaveText(`${dot(rest[0])} · free review`)
       await expect(page.locator(`[data-master-row="${rest[0]}"]`)).toHaveAttribute("data-on", "")
-      await press(page, "[data-master-act]", "Reveal", touch, false)
-      await press(page, "[data-master-act]", "Got it", touch, false)
+      await press(page, "[data-master-bar] [data-mini-reveal]", "Reveal", touch, false)
+      await press(page, "[data-master-bar] [data-mini-got]", "Got it", touch, false)
       await expect.poll(() => page.evaluate(() => (window as W).__neural.practiceToday().done), { message: "a free review's answer counts" }).toBe(1)
       // a key the list does not hold: the list, nothing open, nothing claimed
       await page.evaluate(() => (window as W).__neural.openMasterAt("Nowhere At All|Top"))

@@ -84,6 +84,8 @@ async function answerAll(page: any, touch: boolean, again = false) {
   // every lookup and press is scoped to what is VISIBLE: a deck a row closed stays in the DOM, hidden, with its own buttons
   const open = (x: string) => '[data-session-row][aria-expanded="true"] + div ' + x + ':visible';
   const shown = async (x: string) => (await page.locator(open(x)).count()) > 0;
+  // L1-R0 (v1.290.0): the open card's buttons are moved into the drawer's foot, one bar (`_masterDock`); its words stay on the card
+  const bar = (x: string) => "[data-master-bar] " + x + ":visible", inBar = async (x: string) => (await page.locator(bar(x)).count()) > 0;
   for (let i = 0; i < 120; i++) {
     if (await page.locator("[data-session-complete]").count()) return;
     // the card's own state: graded (a miss stays put for a re-read) → its next card; revealed → grade it; face down →
@@ -93,9 +95,9 @@ async function answerAll(page: any, touch: boolean, again = false) {
     // a deck that is closing (measured: the walk hid the Reveal between the measure and the press, 2 of 3 runs)
     if (await page.evaluate(() => { const a = (window as any).__neural, s = a._session; return a._sessionRowDone(s, s.keys[s.idx]); })) { await page.waitForTimeout(400); continue; }
     await journey(page, CLASSIC).scrollSettled('[data-session-row][aria-expanded="true"] + div');
-    if (await shown("[data-mini-graded]")) await hit(page, open(".mn"), touch);
-    else if (await shown(grade)) { await hit(page, open(grade), touch); again = false; }
-    else if (!(await shown("[data-mini-a]")) && await shown("[data-mini-reveal]")) await hit(page, open("[data-mini-reveal]"), touch);
+    if (await shown("[data-mini-graded]")) await hit(page, bar(".mn"), touch);
+    else if (await inBar(grade)) { await hit(page, bar(grade), touch); again = false; }
+    else if (!(await shown("[data-mini-a]")) && await inBar("[data-mini-reveal]")) await hit(page, bar("[data-mini-reveal]"), touch);
     await page.waitForTimeout(400);
   }
   throw new Error("the session never completed");
@@ -188,9 +190,9 @@ test("capped due deck requires real reviews, one failure clears today's debt and
   const plan = await worthPlan(page);
   expect(plan.total, "the session holds cards").toBeGreaterThan(1);
   // a revealed answer is not an answer
-  await hit(page, '[data-mini-reveal]', isMobile);
+  await hit(page, '[data-master-bar] [data-mini-reveal]', isMobile);
   expect(await page.evaluate(() => (window as any).__neural.practiceToday().done), "revealing answers nothing").toBe(0);
-  await hit(page, '[data-mini-again]', isMobile);
+  await hit(page, '[data-master-bar] [data-mini-again]', isMobile);
   await expect(page.locator('[data-session-complete]'), "one failure is not the whole session").toHaveCount(0);
   await answerAll(page, isMobile);
   await expect(page.locator('[data-session-complete]')).toBeVisible();
@@ -244,7 +246,7 @@ test("keyboard-only review advances real cards and earns completion through the 
   await page.keyboard.press("Enter");
   for (let i = 0; i < 40 && !(await page.locator('[data-session-complete]').count()); i++) {
     await page.waitForTimeout(650);
-    if (await page.locator('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]').count()) { await page.keyboard.press("Space"); await page.keyboard.press("Enter"); }
+    if (await page.locator('[data-master-bar] [data-mini-reveal]').count()) { await page.keyboard.press("Space"); await page.keyboard.press("Enter"); }
     else await page.keyboard.press("ArrowRight");
   }
   await expect(page.locator('[data-session-complete]')).toBeVisible();
@@ -326,9 +328,9 @@ test("planner loads only on intent while eager reviews finish without queue repl
   await openPractice(page, isMobile);
   await expect(page.locator('[data-gameplan-loading]')).toContainText("Loading study suggestions");
   await page.evaluate(() => { (window as any).__dueQueue = (window as any).__neural._session; });
-  await hit(page, '[data-mini-reveal]', isMobile); await hit(page, '[data-mini-again]', isMobile);
-  await hit(page, '[data-mini-deck] .mn', isMobile);
-  await hit(page, '[data-mini-reveal]', isMobile); await hit(page, '[data-mini-got]', isMobile);
+  await hit(page, '[data-master-bar] [data-mini-reveal]', isMobile); await hit(page, '[data-master-bar] [data-mini-again]', isMobile);
+  await hit(page, '[data-master-bar] .mn', isMobile);
+  await hit(page, '[data-master-bar] [data-mini-reveal]', isMobile); await hit(page, '[data-master-bar] [data-mini-got]', isMobile);
   await expect(page.locator('[data-session-complete]')).toBeVisible();
   expect(requests).toBe(1); release();
   await expect.poll(() => page.locator('[data-session-row][data-practice-kind="new"]').count(), { message: "P1-D: graded cold queue receives new work" }).toBeGreaterThan(0);
@@ -354,7 +356,7 @@ test("failed planner load keeps due cards actionable and retries on deliberate i
   // never lost, 40 of 40.)
   expect(requests, "the press asked again, and failed").toBe(2);
   await dueHeader(page, "Practice \u00b7 2 reviews");
-  await expect(page.locator('[data-mini-reveal]')).toBeVisible();
+  await expect(page.locator('[data-master-bar] [data-mini-reveal]')).toBeVisible();
   expect(await page.locator('[data-explore-stats] [data-b="due"]').getAttribute("data-new")).toBeNull();
   await page.evaluate(() => { (window as any).__retryQueue = (window as any).__neural._session; });
   expect(requests, "nothing retried on its own before the button").toBe(2);
@@ -382,7 +384,7 @@ test("failed planner load keeps due cards actionable and retries on deliberate i
   const open = await page.evaluate(() => { const s = (window as any).__neural._session, r = s.plan.due.concat(s.plan.fresh).find((x: any) => x.key === s.keys[s.idx]);
     return (r.seat ? r.seat.replace("|", " \u00b7 ") : "Other cards") + " \u00b7 position " + (r.visit + 1) + " of " + s.plan.visits.length });
   await expect(page.locator("[data-practice-section]"), "the open card is titled by its position").toHaveText(open);
-  await expect(page.locator('[data-mini-reveal]')).toBeVisible();
+  await expect(page.locator('[data-master-bar] [data-mini-reveal]')).toBeVisible();
   // FOLD1 (v1.278.0): the player opened "Practice details & session queue" to press "Open study plan"; the plan's arrival
   // re-rendered the queue, and the fold is still open (until then it snapped shut, and this step had to open it again)
   await expect(page.locator("[data-practice-details]"), "FOLD1: the fold the player opened is still open").toHaveAttribute("open", "");

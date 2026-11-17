@@ -66,6 +66,8 @@ async function setup(page: any, seed: { due: number, answered: number }, beforeO
   return { j, fx };
 }
 
+// L1-R0 (v1.290.0): the open card's buttons (Reveal, Review again, Got it, ‹ ›) are moved into the drawer's foot, one bar
+// for the open ask (`_masterDock`): pressed there, `[data-master-bar]`, the same buttons with the same handlers
 /** The Practice door the player has today: the stat row's due cell (the sidebar's Practice row later). */
 async function openPractice(j: any) {
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice");
@@ -169,7 +171,7 @@ test("Practice (2c): a revealed ungraded answer survives the cold planner landin
   try {
     await expect.poll(() => held).toBe(1);
     await openPractice(j);
-    await press(page, j, "[data-mini-reveal]", "Reveal before the planner lands");
+    await press(page, j, "[data-master-bar] [data-mini-reveal]", "Reveal before the planner lands");
     const answer = page.locator("[data-mini-a]");
     await expect(answer).toBeVisible();
     const text = await answer.innerText();
@@ -189,8 +191,8 @@ test("Practice: the daily goal shows progress and never blocks a review", async 
   await readQueue(page);
   await expect(page.locator("[data-practice-goal]")).toHaveText("Daily goal: 19 of 20 today");
   // grade the open review: the goal line counts it, and reaches the goal
-  await press(page, j, "[data-mini-reveal]", "Reveal");
-  await press(page, j, "[data-mini-got]", "Got it");
+  await press(page, j, "[data-master-bar] [data-mini-reveal]", "Reveal");
+  await press(page, j, "[data-master-bar] [data-mini-got]", "Got it");
   await expect(page.locator("[data-practice-goal]")).toHaveText("Daily goal: 20 of 20 today ✓");
   // past the goal, Practice still deals and still grades: a goal, never a cap. Until v1.278.0 the same session walked on to
   // the next owed review; since U171 a the session is what is worth most up to the goal, and when it is done its completion
@@ -198,17 +200,17 @@ test("Practice: the daily goal shows progress and never blocks a review", async 
   const open = '[data-session-row][aria-expanded="true"] + div';
   for (let i = 0; i < 4 && !(await page.locator("[data-session-complete]").count()); i++) {
     await page.waitForTimeout(700);
-    if (await page.locator(open + " [data-mini-graded]:visible").count()) { await press(page, j, open + " .mn", "the next card"); continue; }
-    if (!(await page.locator(open + " [data-mini-a]:visible").count())) await press(page, j, open + " [data-mini-reveal]", "Reveal");
-    await press(page, j, open + " [data-mini-got]", "Got it");
+    if (await page.locator(open + " [data-mini-graded]:visible").count()) { await press(page, j, "[data-master-bar] .mn", "the next card"); continue; }
+    if (!(await page.locator(open + " [data-mini-a]:visible").count())) await press(page, j, "[data-master-bar] [data-mini-reveal]", "Reveal");
+    await press(page, j, "[data-master-bar] [data-mini-got]", "Got it");
   }
   await expect(page.locator("[data-session-complete]"), "the day's session is done").toHaveCount(1);
   const done = await page.evaluate(() => (window as any).__neural.practiceToday().done);
   await press(page, j, "[data-session-complete] [data-plan-next]", "Keep practising, in place");
   await expect(page.locator("[data-session-complete]"), "it goes on").toHaveCount(0);
-  await expect(page.locator(open + " [data-mini-reveal]:visible"), "a card is open").toHaveCount(1, { timeout: 5_000 });
-  await press(page, j, open + " [data-mini-reveal]", "Reveal past the goal");
-  await press(page, j, open + " [data-mini-got]", "Got it past the goal");
+  await expect(page.locator("[data-master-bar] [data-mini-reveal]:visible"), "a card is open").toHaveCount(1, { timeout: 5_000 });
+  await press(page, j, "[data-master-bar] [data-mini-reveal]", "Reveal past the goal");
+  await press(page, j, "[data-master-bar] [data-mini-got]", "Got it past the goal");
   await expect(page.locator("[data-practice-goal]")).toHaveText(`Daily goal: ${done + 1} of 20 today ✓`);
   // and every owed card is still on offer. Until v1.278.0 this read "two of the three reviews were graded; one still owed,
   // still on offer" off `dueCount()`, the reviews being the session's own; the owed pile is now offered whole one level down,
