@@ -1378,6 +1378,7 @@ class Component extends DCLogic {
       graphBytes = null;
     }
     catch (e) { console.error("[neural] ingest failed:", e); this._fallbackToLegacy(); return; }
+    this._honourEarlyOpen();
     // a /l/<code> arrival is decoded HERE — client-side, off the static shell, no Function
     // needed. Synchronous (not deferred through after()) so the lit graph and the list are
     // the first thing the recipient sees, on the first frame.
@@ -6815,6 +6816,14 @@ class Component extends DCLogic {
    * its own `_session` literal and calls `renderSession` directly, gets the keyboard for free.
    */
   _sessionInline() { return !!(this.deckShown && this._session && !this.deck && !this._checkpoint); }
+  // A SESSION THE PLAYER HAS OPEN IN FRONT OF THEM IS NEVER ENDED BY THE FIRST ROLL'S DEAL (EARLY1, v1.288.1; the reader of
+  // PR #430, finding 4b, proven by real presses: lost 6 of 6 on "/", at both sizes). The intro hands over at 3.2 s of its
+  // own clock, which runs while the panel's pause holds the game, and deals the first roll (`startRoll`, `_dealingIntro`);
+  // that deal's reset ended Master the game opened in the first seconds after a load, its opening already counted, with no
+  // roll landed yet (the game stays paused under the panel). That one deal now keeps a session the panel shows. Every roll
+  // the PLAYER starts (a fresh roll, a node, a row's ▶) ends it as before, and so does the first landing once the drawer
+  // is shut, as any landing does.
+  _sessionShown() { return !!(this.deckShown && this._session); }
   /**
    * THE FOCUSED INLINE DECK — SCOPED TO THE SURFACE THAT IS ACTUALLY SHOWING (v1.175.0).
    *
@@ -8868,7 +8877,9 @@ class Component extends DCLogic {
     this._listsRevealed = true;
   }
   toggleExplorer() {
-    // the logo (and legacy callers) toggle the merged pane
+    // the logo (and legacy callers) toggle the merged pane; before the data lands its press is remembered, and a second
+    // press takes it back (EARLY1, `openPane`)
+    if (!Array.isArray(this.nodes)) { this._earlyOpen = this._earlyOpen ? null : { view: "explore", href: location.href, search: false }; return; }
     if (this.deckShown) { this.setDeckOpen(false); }
     else {
       // the drawer opens on its list (v1.242.0), never on the sub-view it last showed; search takes the
@@ -8894,6 +8905,13 @@ class Component extends DCLogic {
       this.openCorridor();
       return;
     }
+    // A PRESS BEFORE THE MAP'S DATA HAS LANDED IS NEVER LOST AND NEVER THROWS (EARLY1, v1.288.1; found on production by
+    // the orchestrator's probes). The logo is on screen before the graph is ingested; a press then ran the list's build
+    // over `this.nodes` (undefined: "this.nodes is not iterable") and the panel stayed shut, and `ingest` resets the
+    // drawer anyway. Now the press is remembered (`_earlyOpen`, with the page it was made on) and honoured once the data
+    // lands (`_honourEarlyOpen`, after `ingest`), as if pressed then; a second press on the logo meanwhile takes it back,
+    // and a navigation (another page by then) drops it.
+    if (!Array.isArray(this.nodes)) { this._earlyOpen = { view: view || "explore", href: location.href, search: !!(this._earlyOpen && this._earlyOpen.search) }; return; }
     if (this._paneStudyActive()) this._exitStudyTo(view || this._viewMode);
     else if (view) this.setViewMode(view);
     // no _wirePaneControls here: applyDeckVisibility is the one wiring seam for every open path
@@ -8902,6 +8920,15 @@ class Component extends DCLogic {
     this.applyDeckVisibility();
     this._renderPaneBody();
     this.lastInteract = this.now;
+  }
+  // THE PRESS MADE BEFORE THE DATA LANDED (EARLY1, `openPane`), honoured once `ingest` is done, as if pressed now: on the
+  // page it was made on, and only if the player has not taken it back (a second press on the logo clears it)
+  _honourEarlyOpen() {
+    const p = this._earlyOpen; this._earlyOpen = null;
+    if (!p || p.href !== location.href || this.deckShown) return;
+    if (p.search) { this.openSearchPane(p.via || "early"); return; }
+    this.openPane(p.view);
+    if (!this.isMobile()) this.explorerSearchRef.current?.focus();
   }
   // legacy name kept — challenge-ui's openLearningView calls openExplorer()+showExplorerList()
   openExplorer() { this.openPane(); }
@@ -12345,6 +12372,8 @@ class Component extends DCLogic {
    *  search modal (`openSearch`, `renderSearch`, `locateNode2`), which no control and no key opened, is retired; its journeys
    *  (alias-search, seat-word-and-search) drive this search by real input now. */
   openSearchPane(via) {
+    // before the data lands: remembered with its search, and its beat sent when the panel really opens (EARLY1)
+    if (!Array.isArray(this.nodes)) { this._earlyOpen = { view: "explore", href: location.href, search: true, via: via }; return; }
     this.openPane("explore");
     this.explorerSearchRef.current?.focus();
     this.fx("search_open", { via });
@@ -18816,7 +18845,7 @@ class Component extends DCLogic {
     this._roam = false; // any fresh roll leaves free roam
     this._lastActor = null;
     this._startSpot = null; // the crack a weak-spots opening is about, for the toast below
-    this._sessionNodes = null; this._session = null; this._inSession = false;
+    if (!(this._dealingIntro && this._sessionShown())) { this._sessionNodes = null; this._session = null; this._inSession = false; }   // EARLY1
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
     this.playerRole = this.rng("role") < 0.5 ? "top" : "bottom"; // you start either side
     this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14; // opponent resistance, gated by difficulty
@@ -20919,7 +20948,8 @@ class Component extends DCLogic {
             // starting a fresh roll here moved the map to a random start while the article still
             // read the chosen node, leaving D-318's role change (its other half) off-screen.
           } else {
-            this.startRoll(opening);
+            this._dealingIntro = true;   // the first roll's deal keeps a session the panel shows (EARLY1, `_sessionShown`)
+            try { this.startRoll(opening); } finally { this._dealingIntro = false; }
           }
         }
       }

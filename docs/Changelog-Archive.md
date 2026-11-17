@@ -19560,3 +19560,5 @@ the PR (e2e-full, green on de56390ba).
 
 Runs, bytes and the full rulings are in the PR body. corridor-reach.spec.ts names its non-kill and one known limit (a
 shelf press in the instant the plan lands).
+
+## v1.288.1 — Early presses: one made before the map's data lands opens the panel when it lands; the intro's first deal keeps Master the game open (EARLY1)
