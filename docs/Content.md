@@ -207,6 +207,9 @@ A clean schema check does not prove that all published links resolve.
 Use sources that support the specific mechanic or claim, and distinguish an instructor's approach
 from a universal rule. Do not invent citations, video IDs, product links, or claimed endorsements.
 Summarize in your own words and retain attribution.
+Attribution lives in the cited-source line (a link whose label names the source), not in the sentence:
+the prose says "the cited demonstration shows…" and never who shows it. See "Real people in authored
+prose and cards" under Film-Study Clips for where a person's name may stand.
 
 Use the fields the selected schema supports. Learning has optional `references` entries with
 required `title` and `author`. `sameAs`, where supported, identifies the **same entity** on an
@@ -593,9 +596,26 @@ renders them: no "taught by" credit, no JSON-LD `creator`, no name in the app's 
 or in the digest email. The YouTube player shows the channel when a video opens; that is YouTube's, not
 ours. v1.289.0 took the gyms, channels, series and brands it found out of the titles (277 clip rows, 208 distinct
 titles); a competition that describes the video (ADCC-style, a UFC finish) and a technique that shares a brand word
-(the Matrix) stay. Names in authored prose are not covered here: that is the owner's call.
+(the Matrix) stay.
 
-`npm run validate:no-names` (`scripts/check_no_names.py`) works from two lists, and neither is the rule itself:
+**Real people in authored prose and cards** (owner, U203 a and U206 a, 17 Nov 2026): keep a name only where the name is
+the thing itself. v1.291.0 took 172 mentions out of 140 fields of 66 records, each sentence reworded so it teaches the
+same thing. Where a name stays:
+
+- **an origin line**: the one sentence on a page that says who the technique on that page is named after, and nobody
+  else (the opponent in the story goes; a first name in doubt takes the neutral "named after its creator");
+- **a cited source**: a cited video or course keeps its author, in a link's label and in an "Instructional sources:"
+  line;
+- **a Systems guide**, which keeps the course and its author, and **a Learning page's references**;
+- **a technique's own word**: Kimura, De La Riva, Estima Lock, the London, Marcelotine.
+
+Everything else says what is done, not who does it: "the cited demonstration shows…", "competitors popularized…", and
+players in a narrated match are "the top player" and "the bottom player". A grip or a sweep nicknamed after a person
+that the graph does not name ("Marcelo grip", "Faria Sweep") takes its plain name. Rewording a card's QUESTION changes
+its stored key (a hash of the question text), so a player's saved answer to it no longer counts: reword a question
+only when the rule requires it, and say so in the PR.
+
+`npm run validate:no-names` (`scripts/check_no_names.py`) works from three lists, and none is the rule itself:
 
 - the **name list**: every `by` and `channel` value on a clip in `content/`, less named exceptions (a generic word such
   as "Escapes", each with its reason). A name matches only as one whole value. The list has a floor (`NAME_FLOOR`,
@@ -603,11 +623,21 @@ titles); a competition that describes the video (ADCC-style, a UFC finish) and a
 - the **label list**, `tests/artifacts/no_names_labels.json`: the labels v1.289.0 removed from titles that are no
   clip's `by` or `channel` (a series, a show, a tag, a handle, a web address, a short form, "10th Planet"), each with
   the count of titles it left. A ratchet: none may come back in a clip title or a credit line. A label a technique is
-  named by (the London, Kimura) never goes on it.
+  named by (the London, Kimura) never goes on it. The list has a floor (`LABEL_FLOOR`). **A refusal names the label**
+  ("carries the removed label 'X'"). Eight labels are ordinary phrases ("BJJ Breakdown", "Daily BJJ", "Learn to
+  Grapple", "Train For Real", "Armory", "The Merge", "First Day BJJ", "Who's Next"), so an honest title can trip one.
+  A label comes off by hand: delete its row, write why in the file's `_meta.not_held`, and lower `LABEL_FLOOR` by one
+  in the same change;
+- the **names lexicon**, `tests/artifacts/no_names_lexicon.json` (v1.291.0): real people our text has named. Full names
+  match whole words in any case; a surname or first name used alone matches with its capital letters. It is refused
+  in authored prose, in cards, in clip titles and in credit lines, outside the allowed kinds above. The file also lists
+  the allowed origin lines, by page and exact sentence, and the technique words that may never be listed as people.
+  It has a floor (`LEXICON_FLOOR`).
 
 What it holds, in CLAUDE.md §6.9's three forms:
 
-- **Pinned** (`tests/artifacts/no_names_mutants.py`: 40 mutants, each red at a named check, from green controls):
+- **Pinned** (`tests/artifacts/no_names_mutants.py` on a built page and `tests/artifacts/no_names_prose_mutants.py` on
+  the source and the emitted payload: every mutant red at a named check, from green controls):
   - in a credit line: no listed name, no listed label, no "taught by"; in the film-study section: no listed name, no
     "taught by";
   - in a JSON-LD block that holds a VideoObject: no person-ish key and no listed name in any string; a block that
@@ -616,13 +646,26 @@ What it holds, in CLAUDE.md §6.9's three forms:
     in its title, and no file of any kind holds a quoted `by` key;
   - in `--built` mode: the agent export's credit lines the same, no name next to "taught by" in `llms.txt`, and a
     missing export or `llms.txt` is a finding;
-  - positive counts, each red on zero: names (at least the floor), labels, credit lines, VideoObjects, shipped clips
-    and, built, the exported credit lines.
+  - positive counts, each red on zero: names (at least the floor), labels (at least the floor), credit lines,
+    VideoObjects, shipped clips and, built, the exported credit lines;
+  - **prose and cards (v1.291.0):** in every authored string of the source JSON of Positions, Transitions, Submissions,
+    Principles and Learning, flashcards included: no lexicon name outside the allowed kinds. An origin line is allowed
+    by page and exact sentence: a second person added to one, or the same sentence on another page, is a finding, and
+    a listed line gone from its page is red. In every card the app is served (`static/neural/flashcards`): no lexicon
+    name, which is what catches a `graph.json` that was not refreshed after a content change. In a credit line, a
+    shipped clip's title and an exported credit: no lexicon name, so a person by surname is refused. The lexicon at
+    least its floor; a technique's own word on it is red; strings read and cards read are positive.
 - **Partially pinned:**
   - **A name matches only as one whole `by` or `channel` value.** A part of one (a surname, a possessive), the same
     name as a tag, a handle or hyphenated, and a person, gym, show or series that is no clip's `by` or `channel` and
     not on the label list all pass. Measured on v1.289.0's 208 rewritten titles, each put back: the name list flags
-    53, the two lists together 193; the other 15 are named in the label file (`_meta.not_held`).
+    53, the two lists together 193; the other 15 are named in the label file (`_meta.not_held`). The lexicon refuses
+    2 more of them (195 of 208); the 13 left name no person.
+  - **The lexicon is a list, not a detector:** a person nobody listed passes in prose. A new clip's teacher is on the
+    name list for titles and credits at once, and on the lexicon only when someone adds them. A full name split by
+    markup or a line break passes.
+  - Prose is read from the source only: the payload's dossier prose and the page's FAQ JSON-LD are emitted from that
+    same source and are not read again.
   - The label list is a ratchet on what was removed, not a detector: a new show or gym nobody listed passes.
   - The floor sits 48 under the list, so a smaller loss of names passes.
   - The checks are bound to today's markup: "taught by" in another element, an attribute or a meta description, a
@@ -631,9 +674,11 @@ What it holds, in CLAUDE.md §6.9's three forms:
     are aggregate, not per-family floors.
   - The source JSON's titles are not read: a name back in a source title shows only once its page is regenerated
     (the generator gate refuses the unregenerated page).
-- **UNGUARDED:** names in authored prose (articles, flashcards and their FAQ JSON-LD, Systems guides and their course
-  listings, references), JSON-LD blocks with no VideoObject, and a bare name in `llms.txt`. Persons by surname wait
-  for the prose check's names lexicon.
+- **UNGUARDED:** a surname that is an ordinary English word, used alone and listed by nobody ("Hall shows the
+  entry"): listing it would refuse the word, so it passes, and the prose probe keeps that mutant green on purpose.
+  Gyms, schools and channels in prose ("10th Planet"): the rule is about people. Whatever stands inside an allowed
+  kind (any name in a cited-source link's label, a Systems guide, a Learning reference). JSON-LD blocks with no
+  VideoObject, and a bare name in `llms.txt`.
 
 Position hub clips supplement a role dossier
 only when `half` names that role or `both`; an untagged hub clip reaches neither role. A clip authored
