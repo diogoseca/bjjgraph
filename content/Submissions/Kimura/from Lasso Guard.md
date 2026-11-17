@@ -46,8 +46,8 @@ description: "Master the Kimura shoulder lock from Lasso Guard top position. Lea
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "S2 E55 Kimura from Leg Lasso",
-      "description": "Kimura from Lasso Guard film study: S2 E55 Kimura from Leg Lasso.",
+      "name": "Kimura from Leg Lasso",
+      "description": "Kimura from Lasso Guard film study: Kimura from Leg Lasso.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1UccW2-_G00/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1UccW2-_G00?start=94",
       "url": "https://www.youtube.com/watch?v=1UccW2-_G00",
@@ -113,7 +113,7 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 
 ![](https://www.youtube.com/watch?v=1UccW2-_G00&start=94)
 
-<p class="clip-credit"><strong>S2 E55 Kimura from Leg Lasso</strong> · 6:35 · <a href="https://www.youtube.com/watch?v=1UccW2-_G00&t=94s" rel="noopener">Watch on YouTube from 1:34</a></p>
+<p class="clip-credit"><strong>Kimura from Leg Lasso</strong> · 6:35 · <a href="https://www.youtube.com/watch?v=1UccW2-_G00&t=94s" rel="noopener">Watch on YouTube from 1:34</a></p>
 
 </div>
 

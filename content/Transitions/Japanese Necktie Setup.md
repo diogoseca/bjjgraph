@@ -46,8 +46,8 @@ description: "Master the Japanese Necktie Setup from Front Headlock in BJJ. Step
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "\"Japanese Necktie from Sprawl and Half-Guard\"",
-      "description": "Japanese Necktie Setup film study: \"Japanese Necktie from Sprawl and Half-Guard\".",
+      "name": "Japanese Necktie from Sprawl and Half-Guard",
+      "description": "Japanese Necktie Setup film study: Japanese Necktie from Sprawl and Half-Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZDv7G8DYrx0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ZDv7G8DYrx0",
       "url": "https://www.youtube.com/watch?v=ZDv7G8DYrx0",
@@ -107,7 +107,7 @@ Strategically, the Japanese Necktie functions as a high-value option within the 
 
 ![](https://www.youtube.com/watch?v=ZDv7G8DYrx0)
 
-<p class="clip-credit"><strong>&#34;Japanese Necktie from Sprawl and Half-Guard&#34;</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=ZDv7G8DYrx0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Japanese Necktie from Sprawl and Half-Guard</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=ZDv7G8DYrx0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

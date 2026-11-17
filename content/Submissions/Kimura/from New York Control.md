@@ -56,8 +56,8 @@ description: "Master the Kimura shoulder lock from New York Control rubber guard
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Setting up a kimura lock from Nino Schembri/Shawn Williams guard",
-      "description": "Kimura from New York Control film study: Setting up a kimura lock from Nino Schembri/Shawn Williams guard.",
+      "name": "Setting up a kimura lock from the Williams Guard",
+      "description": "Kimura from New York Control film study: Setting up a kimura lock from the Williams Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4jYauSUDEYA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4jYauSUDEYA",
       "url": "https://www.youtube.com/watch?v=4jYauSUDEYA",
@@ -141,7 +141,7 @@ The finishing mechanics require precise hip escape movement to create the rotati
 
 ![](https://www.youtube.com/watch?v=4jYauSUDEYA)
 
-<p class="clip-credit"><strong>Setting up a kimura lock from Nino Schembri/Shawn Williams guard</strong> · 1:09 · <a href="https://www.youtube.com/watch?v=4jYauSUDEYA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Setting up a kimura lock from the Williams Guard</strong> · 1:09 · <a href="https://www.youtube.com/watch?v=4jYauSUDEYA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

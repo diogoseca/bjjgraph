@@ -63,7 +63,7 @@ description: "Worm Guard to Demi Guard in gi BJJ: learn the starting controls, m
 
 **Worm Guard to Demi Guard establishes a gi lapel guard by arranging collar control, the lapel behind the passer's knee, and a foot on its tail while keeping the legs in front.**
 
-Keenan's introduction places Demi in the response to forward pressure after a worm-wrestling attempt. Once the foot has left the original worm configuration, the guard player may need a different barrier instead of trying to recreate the old wrap under pressure. Start from [[Positions/Worm Guard]] bottom and recognize the passer coming forward as you leave the original leg wrap.
+The cited introduction places Demi in the response to forward pressure after a worm-wrestling attempt. Once the foot has left the original worm configuration, the guard player may need a different barrier instead of trying to recreate the old wrap under pressure. Start from [[Positions/Worm Guard]] bottom and recognize the passer coming forward as you leave the original leg wrap.
 
 The destination is established only when the collar, knee-line lapel and foot work together. If the feed fails, retain a usable guard instead of holding loose fabric while the opponent clears your legs. The configuration is described in [Legion's dictionary](https://legionsandiego.com/the-jiu-jitsu-dictionary/#demi-guard); [Keenan's introduction](https://jiujitsux.com/courses/keenans-lapel-encyclopedia/lesson/16-1-introduction-to-the-demi-guard/) explains its response to forward pressure.
 

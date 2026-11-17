@@ -84,7 +84,7 @@ description: "Aoki Lock from Aoki Lock Control (attacker): Identify the turned-o
     },
     {
       "@type": "Question",
-      "name": "Aoki from Control: where does Kesting place the looping hand for a deep arm connection?",
+      "name": "Aoki from Control: where does the looping hand go for a deep arm connection?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Around the back of the opposite triceps. The written lesson distinguishes a deep hold behind the other upper arm from merely resting the hand on the biceps. Learn the connection without adding finishing rotation."

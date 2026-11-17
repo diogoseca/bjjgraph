@@ -109,7 +109,7 @@ description: "How to execute the arm-in guillotine variation from top guillotine
       "name": "What grip configuration provides the most secure hold for the arm-in guillotine variation?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The gable grip (palm-to-palm with fingers interlocked) provides the most secure hold for the arm-in variation because it creates the smallest possible circumference around the neck and trapped arm while maintaining structural integrity under pressure. The connection point should be on the far side of the opponent's neck. An alternative is the Marcelo-style palm-to-palm grip without interlocking fingers, which allows for quicker transitions between arm-in and standard guillotine. The key is keeping elbows tight to the body regardless of grip type—any separation between arms and torso creates escape space."
+        "text": "The gable grip (palm-to-palm with fingers interlocked) provides the most secure hold for the arm-in variation because it creates the smallest possible circumference around the neck and trapped arm while maintaining structural integrity under pressure. The connection point should be on the far side of the opponent's neck. An alternative is a palm-to-palm grip without interlocking fingers, which allows for quicker transitions between arm-in and standard guillotine. The key is keeping elbows tight to the body regardless of grip type—any separation between arms and torso creates escape space."
       }
     },
     {

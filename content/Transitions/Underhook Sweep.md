@@ -270,7 +270,7 @@ Mastering this single reversal therefore unlocks a chain-reaction system that ke
 ## Variations
 
 
-**Marcelo-Style Hook Sweep with Underhook**: The classic single-deep-underhook version: control the opponent's far wrist or hug their back with the free hand, load their weight onto your same-side butterfly hook, then fall to your shoulder and elevate to roll them over and come up to side control. (When to use: When the opponent is kneeling or in combat base with their weight committed forward and their hands posting in)
+**Classic Hook Sweep with Underhook**: The classic single-deep-underhook version: control the opponent's far wrist or hug their back with the free hand, load their weight onto your same-side butterfly hook, then fall to your shoulder and elevate to roll them over and come up to side control. (When to use: When the opponent is kneeling or in combat base with their weight committed forward and their hands posting in)
 
 
 **Double-Underhook Elevation Variation**: Instead of controlling the far arm, bring both arms inside for a body-lock-style clamp around the opponent's torso, then elevate with the butterfly hook and drive them over with the double control. The bilateral upper-body control sacrifices the far-arm pull for crushing torso connection. (When to use: When the opponent stacks or drives in heavy and squares their shoulders, denying you a clean far-arm grip)

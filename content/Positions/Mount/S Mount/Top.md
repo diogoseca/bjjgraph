@@ -175,8 +175,8 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Iceland Camp 2020: S-Mount",
-      "description": "S Mount (Top) film study: Iceland Camp 2020: S-Mount.",
+      "name": "S-Mount",
+      "description": "S Mount (Top) film study: S-Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/deKLnJCOKHQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/deKLnJCOKHQ",
       "url": "https://www.youtube.com/watch?v=deKLnJCOKHQ",
@@ -200,7 +200,7 @@ Control mechanics in S Mount top revolve around hip-to-shoulder connection, leg 
 
 The transition into S Mount typically occurs from standard mount when you identify an opportunity to attack the arm. As your opponent defends submissions or attempts to create frames, you capitalize by swinging your leg over their head and establishing perpendicular control. This transition must be executed with technical precision, as premature or poorly timed movements can result in losing mount position entirely. Understanding the relationship between mount control and S Mount attacking is fundamental to high-level submission offense.
 
-S Mount appears throughout BJJ history as a signature position of submission specialists. Legendary practitioners like Demian Maia, Roger Gracie, and Rickson Gracie have demonstrated the position's effectiveness at the highest levels of competition, often using it as their primary path to victory. The position exemplifies core BJJ principles: using leverage and technique over strength, establishing dominant control before attacking submissions, and creating mechanical advantages that make submissions nearly inevitable. Modern competitors continue to refine S Mount mechanics, developing increasingly sophisticated control methods and submission chains that showcase the position's evolution in contemporary grappling.
+S Mount appears throughout BJJ history as a signature position of submission specialists. Legendary practitioners have demonstrated the position's effectiveness at the highest levels of competition, often using it as their primary path to victory. The position exemplifies core BJJ principles: using leverage and technique over strength, establishing dominant control before attacking submissions, and creating mechanical advantages that make submissions nearly inevitable. Modern competitors continue to refine S Mount mechanics, developing increasingly sophisticated control methods and submission chains that showcase the position's evolution in contemporary grappling.
 
 </section>
 
@@ -224,7 +224,7 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 
 ![](https://www.youtube.com/watch?v=deKLnJCOKHQ)
 
-<p class="clip-credit"><strong>Iceland Camp 2020: S-Mount</strong> · 30:00 · <a href="https://www.youtube.com/watch?v=deKLnJCOKHQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>S-Mount</strong> · 30:00 · <a href="https://www.youtube.com/watch?v=deKLnJCOKHQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -88,7 +88,7 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 
 - Establish Hindu Control: Hold the head and leg enclosure without finishing pressure before seeking the second hand.
 
-- Connect a controlled grip: Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration.
+- Connect a controlled grip: Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration.
 
 - Treat a pass as a new check: Do not assume the choke has disappeared merely because the opponent clears the lower leg.
 
@@ -133,7 +133,7 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 
 - Establish Hindu Control: Hold the head and leg enclosure without finishing pressure before seeking the second hand.
 
-- Connect a controlled grip: Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration.
+- Connect a controlled grip: Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration.
 
 - Treat a pass as a new check: Do not assume the choke has disappeared merely because the opponent clears the lower leg.
 
@@ -176,8 +176,8 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
   - ✅ Correction: Hold the head and leg enclosure without finishing pressure before seeking the second hand.
 
 - ❌ **Skipping the checkpoint: connect a controlled grip**
-  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration.
-  - ✅ Correction: Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration.
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration.
+  - ✅ Correction: Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration.
 
 - ❌ **Skipping the checkpoint: treat a pass as a new check**
   - Consequence: The intended control is not established before the next movement; the missing requirement is: Do not assume the choke has disappeared merely because the opponent clears the lower leg.

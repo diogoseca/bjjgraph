@@ -164,8 +164,8 @@ description: "Defend against the Stack Escape from Triangle in BJJ. Learn to mai
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Technique 5: How to Stop from being Stacked off a Triangle Choke.mp4",
-      "description": "Stack Escape from Triangle (Defender) film study: Technique 5: How to Stop from being Stacked off a Triangle Choke.mp4.",
+      "name": "How to Stop from being Stacked off a Triangle Choke",
+      "description": "Stack Escape from Triangle (Defender) film study: How to Stop from being Stacked off a Triangle Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RiVzzip_7ls/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RiVzzip_7ls",
       "url": "https://www.youtube.com/watch?v=RiVzzip_7ls",
@@ -207,7 +207,7 @@ Defending against the Stack Escape requires the triangle bottom player to mainta
 
 ![](https://www.youtube.com/watch?v=RiVzzip_7ls)
 
-<p class="clip-credit"><strong>Technique 5: How to Stop from being Stacked off a Triangle Choke.mp4</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=RiVzzip_7ls" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Stop from being Stacked off a Triangle Choke</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=RiVzzip_7ls" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -180,8 +180,8 @@ description: "Learn to execute the Twister from Twister Control with step-by-ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Twister - With 3 Flores",
-      "description": "Twister from Twister Control (Attacker) film study: Twister - With 3 Flores.",
+      "name": "Twister",
+      "description": "Twister from Twister Control (Attacker) film study: Twister.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FjWN_aBp2eE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FjWN_aBp2eE",
       "url": "https://www.youtube.com/watch?v=FjWN_aBp2eE",
@@ -216,7 +216,7 @@ Attacking with the Twister from Twister Control requires mastery of the sequenti
 
 ![](https://www.youtube.com/watch?v=FjWN_aBp2eE)
 
-<p class="clip-credit"><strong>Twister - With 3 Flores</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=FjWN_aBp2eE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=FjWN_aBp2eE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

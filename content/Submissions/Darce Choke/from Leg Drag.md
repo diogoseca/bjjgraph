@@ -46,8 +46,8 @@ description: "Master the Darce choke from leg drag control in BJJ. Complete guid
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg drag + Darce choke from BJJ 4\u2019s degree black belt !",
-      "description": "Darce Choke from Leg Drag film study: Leg drag + Darce choke from BJJ 4\u2019s degree black belt !.",
+      "name": "Leg drag + Darce choke",
+      "description": "Darce Choke from Leg Drag film study: Leg drag + Darce choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tVrhlQyClpQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tVrhlQyClpQ",
       "url": "https://www.youtube.com/watch?v=tVrhlQyClpQ",
@@ -143,7 +143,7 @@ This submission represents a high-percentage finishing option within the leg dra
 
 ![](https://www.youtube.com/watch?v=tVrhlQyClpQ)
 
-<p class="clip-credit"><strong>Leg drag + Darce choke from BJJ 4’s degree black belt !</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=tVrhlQyClpQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg drag + Darce choke</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=tVrhlQyClpQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

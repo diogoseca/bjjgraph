@@ -212,8 +212,8 @@
         }
       },
       {
-        "question": "Crackhead to New York (bottom): In Ben Eddy's hand-first pummel, where do you enter?",
-        "answer": "Eddy's variation works beneath the hand rather than forcing under the tightly clamped elbow; it is not claimed as the only version.",
+        "question": "Crackhead to New York (bottom): In the hand-first pummel, where do you enter?",
+        "answer": "The demonstrated variation works beneath the hand rather than forcing under the tightly clamped elbow; it is not claimed as the only version.",
         "answer_line": "Under their hand through the gap",
         "distractors": {
           "plausible": [
@@ -297,7 +297,7 @@
       },
       {
         "question": "Crackhead to New York (bottom): The elbow clamps shut against your pummel; what do you change?",
-        "answer": "Use the available hand-side opening in Eddy's variation; do not force a closed elbow or switch to unrelated leg mechanics.",
+        "answer": "Use the available hand-side opening in the demonstrated variation; do not force a closed elbow or switch to unrelated leg mechanics.",
         "answer_line": "Enter the gap beneath the hand",
         "distractors": {
           "plausible": [
@@ -455,7 +455,7 @@
         }
       },
       {
-        "question": "Crackhead to New York (top): Which cue marks the start of Eddy's hand-first pummel?",
+        "question": "Crackhead to New York (top): Which cue marks the start of the hand-first pummel?",
         "answer": "The hand entering beneath yours is an early cue to recover inside position before arm coverage and the knee hug close.",
         "answer_line": "Their free hand entering under yours",
         "distractors": {

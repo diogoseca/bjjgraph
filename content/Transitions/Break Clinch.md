@@ -46,8 +46,8 @@ description: "Master the clinch break in BJJ. Complete guide to grip fighting, f
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "CSW - Neck Clearing",
-      "description": "Break Clinch film study: CSW - Neck Clearing.",
+      "name": "Neck Clearing",
+      "description": "Break Clinch film study: Neck Clearing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yEGyEjjgkKU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yEGyEjjgkKU",
       "url": "https://www.youtube.com/watch?v=yEGyEjjgkKU",
@@ -107,7 +107,7 @@ Strategic integration of the clinch break into your overall standing game requir
 
 ![](https://www.youtube.com/watch?v=yEGyEjjgkKU)
 
-<p class="clip-credit"><strong>CSW - Neck Clearing</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=yEGyEjjgkKU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Neck Clearing</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=yEGyEjjgkKU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

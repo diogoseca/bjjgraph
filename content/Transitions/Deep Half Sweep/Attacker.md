@@ -206,8 +206,8 @@ description: "Execute the Deep Half Sweep from deep half guard bottom. Step-by-s
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Deep Half Sweep - Faria Sweep",
-      "description": "Deep Half Sweep (Attacker) film study: Deep Half Sweep - Faria Sweep.",
+      "name": "Deep Half Sweep",
+      "description": "Deep Half Sweep (Attacker) film study: Deep Half Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4EpYNsTwjWY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4EpYNsTwjWY",
       "url": "https://www.youtube.com/watch?v=4EpYNsTwjWY",
@@ -257,7 +257,7 @@ As the attacker executing the Deep Half Sweep, your objective is to leverage you
 
 ![](https://www.youtube.com/watch?v=4EpYNsTwjWY)
 
-<p class="clip-credit"><strong>Deep Half Sweep - Faria Sweep</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=4EpYNsTwjWY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deep Half Sweep</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=4EpYNsTwjWY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

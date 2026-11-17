@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""Mutants for scripts/check_no_names.py --built (v1.289.0). NOT a gate: a probe that proves the gate's PINNED claims.
+"""Mutants for scripts/check_no_names.py --built (v1.289.0; the names lexicon in v1.291.0). NOT a gate: a probe that proves
+the gate's PINNED claims on a built page. The prose check's own mutants (source prose, source cards, origin lines, the
+lexicon's self-checks) are tests/artifacts/no_names_prose_mutants.py, in default mode.
 
 The independent read of PR #433 built the first 25 mutants (19 survived the v1.288.0 gate); the read of PR #435 added the
 rest (the export uncounted, a removed label back, a `by` beside a `url`, an unreadable VideoObject block, a name list
-that shrank). Run on a scratch tree assembled from a BUILT site: one page (Transitions/Advance-to-Chill-Dog), one dossier
-chunk, the page's agent export, llms.txt, the label list, and a link to content/ (the gate's name list). Each mutant is
+that shrank). v1.291.0 added the lexicon's four: a person by surname in a credit, in a shipped title and in an exported
+credit, and a shipped card that names one. Run on a scratch tree assembled from a BUILT site: one page (Transitions/Advance-to-Chill-Dog), one dossier
+chunk, one deck chunk, the page's agent export, llms.txt, the label list, the names lexicon, and a link to content/ (the
+gate's name list and the prose it reads). Each mutant is
 applied alone to a fresh copy; every control must be green and every mutant red, the new ones at the check they NAME (a
 substring of the gate's own message); two zero controls (an empty tree, pages with no payload) must be red.
   python3 tests/artifacts/no_names_mutants.py [built-tree]   # default source/public, from npm run build
@@ -17,6 +21,7 @@ ROOT = Path(__file__).resolve().parents[2]
 PUB = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else ROOT / "source/public"
 EXPORT_REL = "markdown/Transitions/Advance-to-Chill-Dog.md"
 LABELS_REL = "tests/artifacts/no_names_labels.json"
+LEXICON_REL = "tests/artifacts/no_names_lexicon.json"
 PAGE_REL = "Transitions/Advance-to-Chill-Dog.html"
 NAME = "Marshall Stamper"          # a `by` value in content/ (Advance to Chill Dog's attacker clips)
 CREDIT0 = '<p class="clip-credit"><strong>Meathook to Chill Dog to kimura finishes</strong> · 1:13'
@@ -40,6 +45,7 @@ def main():
     for s in (CREDIT0, VO0, VO0_URL): assert s in page, "the probe's anchor moved: " + s[:60]
     chunks = sorted((PUB / "static/neural/content").glob("*.json"))
     chunk_with_clip = next(c for c in chunks if '"title"' in c.read_text())
+    deck_chunk = next(c for c in sorted((PUB / "static/neural/flashcards").glob("*.json")) if c.name != "_index.json" and not c.name.startswith("live-"))
     export = (PUB / EXPORT_REL).read_text(); llms = (PUB / "llms.txt").read_text()
     assert "Watch on YouTube" in export, "the probe's export page has no credit line"
     tmp = Path(tempfile.mkdtemp(prefix="nonames-mut-"))
@@ -52,12 +58,14 @@ def main():
             (base / "Transitions").mkdir(parents=True); (base / PAGE_REL).write_text(page)
             (base / "static/neural/content").mkdir(parents=True)
             shutil.copy(chunk_with_clip, base / "static/neural/content" / chunk_with_clip.name)
+            (base / "static/neural/flashcards").mkdir(parents=True); shutil.copy(deck_chunk, base / "static/neural/flashcards" / deck_chunk.name)
             (base / EXPORT_REL).parent.mkdir(parents=True); (base / EXPORT_REL).write_text(export)
             (base / "llms.txt").write_text(llms)
             if content.is_symlink(): content.unlink()
             elif content.exists(): shutil.rmtree(content)
             content.symlink_to(ROOT / "content")
             labels.parent.mkdir(parents=True, exist_ok=True); shutil.copy(ROOT / LABELS_REL, labels)
+            shutil.copy(ROOT / LEXICON_REL, tmp / LEXICON_REL)
 
         def short_names():
             # a content/ whose clips name five people only: the list falls far below NAME_FLOOR
@@ -75,6 +83,10 @@ def main():
             def m():
                 p = base / "static/neural/content" / chunk_with_clip.name; d = json.loads(p.read_text()); fn(d); p.write_text(json.dumps(d))
             return m
+
+        def card_mut():
+            p = base / "static/neural/flashcards" / deck_chunk.name; d = json.loads(p.read_text())
+            next(iter(d.values()))["cards"][0]["a"] += " Kesting shows it."; p.write_text(json.dumps(d))
 
         def extra(rel, text):
             def m():
@@ -127,6 +139,12 @@ def main():
             ("by on a clip in a JSON file that does not parse", extra("static/neural/content/broken.json", '[{"id":"Q2aYW-20B44","title":"t","by":"' + NAME + '"},]'), "ships a `by` key"),
             ("a VideoObject block that does not parse", page_mut('<script type="application/ld+json">', '<script type="application/ld+json">{"@type":"VideoObject","name":"x","creator":{"name":"' + NAME + '"},}</script><script type="application/ld+json">'), "does not parse"),
             ("the name list shrunk to 5, a gym back in a credit", short_names, "below its floor"),
+            # v1.291.0, the names lexicon (persons by surname, held in titles and credits as in prose and cards)
+            ("a person by surname in a credit: '… - Faria Sweep'", page_mut(CREDIT0, t("Deep Half Sweep - Faria Sweep")), "credit line names the person 'Faria'"),
+            ("a person by surname in a shipped clip's title", chunk_mut(lambda d: first_clip(d).__setitem__("title", "Danaher's kimura details")), "title names the person 'Danaher'"),
+            ("a person by surname in an exported credit", extra(EXPORT_REL, "**Deep Half Sweep - Faria Sweep** · 1:13 · [Watch on YouTube](<https://www.youtube.com/watch?v=Q2aYW-20B44>)\n"), "an exported credit names the person 'Faria'"),
+            ("a shipped card names a person", card_mut, "a shipped card of the deck"),
+            ("no deck chunk under static/neural/flashcards", lambda: shutil.rmtree(base / "static/neural/flashcards"), "0 shipped cards"),
         ]
         bad = 0
         for name, mut, want in M:

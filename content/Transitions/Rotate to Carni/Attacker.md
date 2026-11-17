@@ -95,7 +95,7 @@ description: "Rotate to Carni (attacker): Use the guard and shoulder connection 
       "name": "Rotate to Carni (bottom): What stops the opponent freely rolling out of the shoulder clamp?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Martinez retains the triceps so the arm cannot simply withdraw or roll freely from the clamp."
+        "text": "In the demonstration, the triceps are retained so the arm cannot simply withdraw or roll freely from the clamp."
       }
     },
     {
@@ -207,7 +207,7 @@ description: "Rotate to Carni (attacker): Use the guard and shoulder connection 
 
 <section id="overview" class="content-section">
 
-The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled. Richie Martinez demonstrates the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone.
+The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled. The cited demonstration shows the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone.
 
 Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
@@ -274,7 +274,7 @@ Hip movement turns the supported knee and torso into the shoulder clamp while th
 - The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled.
 - Use the guard and shoulder connection to bring the opponent close before moving the high leg.
 - Manage the shoulder and neck line with a forearm frame as the leg clears the head.
-- Richie Martinez demonstrates the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone.
+- The cited demonstration shows the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone.
 
 
 </section>

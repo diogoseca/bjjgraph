@@ -158,7 +158,7 @@ A leg clearing the head with an overhook is an upper-body trap, even if a butter
 
 Create slack around the shoulder and elbow before moving the hips past the legs. Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged. Raise the head and chest only after the arm and head-side leg are clear.
 
-Richie Martinez demonstrates the configuration from Z guard through Jersey. The legs help anchor the upper body, but the submission target is the shoulder; a calf slicer, heel hook, or kneebar requires a separate lower-body capture. Shoulder pressure can arrive before a large movement is visible. Stop at control during drills, tap early, and never combine a fixed wrist with an explosive roll or a forced stack.
+The demonstration shows the configuration from Z guard through Jersey. The legs help anchor the upper body, but the submission target is the shoulder; a calf slicer, heel hook, or kneebar requires a separate lower-body capture. Shoulder pressure can arrive before a large movement is visible. Stop at control during drills, tap early, and never combine a fixed wrist with an explosive roll or a forced stack.
 
 </section>
 

@@ -94,7 +94,7 @@ description: "Hindulotine from Hindu Control joins the hands after the arm loops
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Hindulotine from Hindulotine",
-  "description": "The Hindulotine is Ben Eddy's leg-in guillotine from Hindu Control, using an arm loop over the raised rubber-guard foot and around the shoulder to close a neck enclosure.",
+  "description": "The Hindulotine is a leg-in guillotine from Hindu Control, using an arm loop over the raised rubber-guard foot and around the shoulder to close a neck enclosure.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -104,7 +104,7 @@ description: "Hindulotine from Hindu Control joins the hands after the arm loops
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Hindulotine is Ben Eddy's leg-in guillotine from Hindu Control, using an arm loop over the raised rubber-guard foot and around the shoulder to close a neck enclosure.**
+**The Hindulotine is a leg-in guillotine from Hindu Control, using an arm loop over the raised rubber-guard foot and around the shoulder to close a neck enclosure.**
 <div class="principle-meta">
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Leg-in guillotine</span>
@@ -121,7 +121,7 @@ description: "Hindulotine from Hindu Control joins the hands after the arm loops
 
 <section id="overview" class="content-section">
 
-The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.
+The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Hindu Control is the setup; Hindulotine is the choke. The early reverse-gable demonstration and the later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.
 
 Turn onto the hip and keep the knee close so the foot is reached through body position. Bring the elbow above the raised foot and the hand around the shoulder into the head-control space. Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand. Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee.
 
