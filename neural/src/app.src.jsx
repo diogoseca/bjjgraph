@@ -1078,7 +1078,7 @@ class Component extends DCLogic {
         // techniques and between flashcards"). Same shape as the History-home branch above and
         // the same `_focusedMini` handle — ←/→ page the open deck's cards, ↑/↓ walk the queue.
         e.preventDefault();
-        if (e.key === "ArrowUp" || e.key === "ArrowDown") this.sessionNav(e.key === "ArrowDown" ? 1 : -1);
+        if (e.key === "ArrowUp" || e.key === "ArrowDown") this.sessionNav(e.key === "ArrowDown" ? 1 : -1, true);
         else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (!typing && this.isDrillOpen() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         e.preventDefault();
@@ -7534,7 +7534,7 @@ class Component extends DCLogic {
       // `_masterList` (≡) and `_masterGo` (a place opened by the player) clear it; the list showing stops it here.
       if (!this._sessionInline() || this._session !== s || s.idx !== i || s.list || s.czOpen != null) return;   // nor over an open cloze (L2: it has no row index of its own)
       const op = this._sessionOpeners && this._sessionOpeners[nextAt];
-      if (op) { op(); this._scrollFocusedDeck(); }
+      if (op) { if (!this._czEnter(s, nextAt)) op(); this._scrollFocusedDeck(); }
       if (s.plan || s.review) this._paintGameplanProgress(s);
       else {
         const f = this.drillFootRef.current; if (f) f.replaceChildren(this._sessionFoot(s));
@@ -7616,16 +7616,50 @@ class Component extends DCLogic {
     done.appendChild(close);
     return done;
   }
-  /** ↑/↓ walk the QUEUE. Returns false when there is nowhere to go, so the caller can fall through. */
-  sessionNav(dir) {
+  /** ↑/↓ walk the QUEUE. Returns false when there is nowhere to go, so the caller can fall through. `key`: the press IS ↑ or ↓
+   *  (the foot's ‹ › pass here too, crossing decks, and stay "previous ask, next ask": they may show an answered card). */
+  sessionNav(dir, key) {
     const s = this._session; if (!this._sessionInline() || !s || !s.keys.length) return false;
     if (s.list) { this._masterStart(s); return true; }   // Master the game as it opens (L1): ↑ ↓ are its button, never a second card
     if (s.czOpen != null) { this._masterStep(s, dir); return true; }   // an open cloze (L2): ↑ ↓ step as ‹ › do
-    const at = Math.max(0, Math.min(s.keys.length - 1, (s.idx || 0) + dir));
-    if (at === s.idx && this._openRow) return false;
+    let at = Math.max(0, Math.min(s.keys.length - 1, (s.idx || 0) + dir));
+    if (key && s.practice) at = this._masterKeyRow(s, dir, at);
+    if (at < 0 || (at === s.idx && this._openRow)) return false;
     const op = this._sessionOpeners && this._sessionOpeners[at];
     if (!op) return false;
-    s.moved = true; op(); this._scrollFocusedDeck(); return true;
+    s.moved = true;
+    if (!(key && this._czEnter(s, at))) op();
+    this._scrollFocusedDeck(); return true;
+  }
+  /**
+   * ↑ ↓ ARE THE KEYS' FORM OF A TAP ON A ROW (L2 item 12: the fourth read of PR #434, 18 of 18, and the orchestrator's
+   * ruling on it): the deck they open holds a card that is due and not answered while the place it belongs to owes one.
+   * L1 walked what the session already held, so on a place the plan took part of, ↑ ↓ opened a card answered a minute
+   * ago beside a row reading "3 due". The row a key lands on, in its direction: the next deck with a card still to answer;
+   * a deck all answered whose place owes more than the session holds takes what it owes first (`_masterOwed`, the step
+   * the row's own press takes in `_masterGo`), and the opener's rule then lands on the first owed card. With nothing to
+   * ask that way the key opens the neighbouring deck to look at, as before, unless that deck's place still holds an
+   * unanswered card in the session (then that card; a dead key when the player is on it already).
+   * NOT in the opener (the reader's caution): a session drawn again and the walk after a deck's last answer pass through
+   * the opener, and would deal a place's cards without a press. Returns the deck's index, or -1 for nowhere to go.
+   */
+  _masterKeyRow(s, dir, at) {
+    const done = (j) => this._sessionRowDone(s, s.keys[j]), seat = (j) => this._masterSeatOf(s, s.keys[j]);
+    const first = (st) => s.keys.findIndex((k, j) => this._masterSeatOf(s, k) === st && !done(j));
+    for (let j = (s.idx || 0) + dir; j >= 0 && j < s.keys.length; j += dir) {
+      if (!done(j)) return j;
+      if (seat(j) && this._masterOwed(s, seat(j))) { const f = first(seat(j)); return f < 0 ? j : f; }
+    }
+    if (at === s.idx || seat(at) == null) return at;
+    const f = first(seat(at));
+    return f < 0 ? at : f === s.idx ? -1 : f;
+  }
+  // L2: A PLACE ENTERED FROM ANOTHER ASKS ITS MOVES FIRST (S0's law: moves before cards at a position), whichever way it is
+  // entered without its row's press: ↑ ↓ and the walk after a deck's last answer land on a DECK; when that deck is another
+  // place's and that place's moves are still to ask, its cloze opens in the card's stead (the row's press: `_masterGo`).
+  _czEnter(s, at) {
+    const R = this._gameplanRuntime, seat = this._masterSeatOf(s, s.keys[at]);
+    return !!(seat && s.practice && R && R.ngClozeGo && seat !== this._masterSeatOf(s, s.keys[s.idx]) && R.ngClozeGo(this, s, seat, false));
   }
   studyFromSession(key) {
     // A study surface IS its cards, so if they are not here yet, fetch and rebuild when they

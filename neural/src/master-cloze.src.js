@@ -59,6 +59,8 @@ export function ngClozeSay({ hide, solid = 0, shown = false, had = 0, goal = 20 
   return [num(hide) + (one ? " move starts here. Say it" : " moves start here. Say each one") + " to yourself, then Show.", "Each blank is one move; each counts one toward today's " + goal + "."];
 }
 
+// the open cloze, or none
+const ngCzNow = (s) => (s.czOpen != null && s.cz ? s.cz.get(s.czOpen) : null) || null;
 const ngCzEsc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 const ngCzToday = (app, m) => { const r = app.moves && app.moves[m.key] && app.moves[m.key][m.move]; return Array.isArray(r) && r[2] === app._epochDay(); };
 
@@ -181,7 +183,7 @@ export function ngClozeResume(app, s, seat) {
 }
 // the Undo is over, and the push it held goes (app.src.jsx, `_undoHold`'s lifters)
 function ngClozeLeave(app, s) {
-  const c = s.czOpen != null && s.cz ? s.cz.get(s.czOpen) : null;
+  const c = ngCzNow(s);
   if (c && c.done) c.done.u = null;
   app._undoRelease();
 }
@@ -248,7 +250,7 @@ const NG_CLOZE_CSS = "[data-master-ask][data-cz]>:not([data-cloze]){display:none
   ".ngz .in{margin:6px 0 8px;font-size:12px;line-height:1.45;color:#c2cce0}.ngz .in small{display:block;color:#7e8aa3;font-size:10.5px;margin-top:2px}" +
   ".ngz .gl{display:flex;align-items:center;gap:9px;margin:4px 0 8px}.ngz .gn{font-size:22px;line-height:1;font-weight:800;color:#f0c05a}" +
   ".ngz .gt{font-size:12.5px;line-height:1.35;color:#dbe2f0;font-weight:600}.ngz .gt small{display:block;font-size:10.5px;color:#7ee0a8;font-weight:700;margin-top:1px}" +
-  ".ngz .un{border:0;background:none;padding:0 2px;margin-left:8px;font:inherit;font-weight:600;color:#8b97b0;text-decoration:underline;text-underline-offset:2px;cursor:pointer;position:relative}.ngz .un::after{content:'';position:absolute;inset:-16px -12px}" +
+  ".ngz .un{min-height:0;border:0;background:none;padding:0 2px;margin-left:8px;font:inherit;font-weight:600;color:#8b97b0;text-decoration:underline;text-underline-offset:2px;cursor:pointer;position:relative}.ngz .un::after{content:'';position:absolute;inset:-16px -12px}" +
   ".ngz .cz{position:relative;display:flex;align-items:center;gap:10px;min-height:36px;padding:0 8px;margin:0 -8px;border-radius:8px}.ngz .cz.two{height:44px;min-height:0}" +
   ".ngz .sh{flex:none}.ngz .sh path{fill:none;stroke:rgba(150,170,210,.45);stroke-width:1.2;stroke-linejoin:round}.ngz .sh[data-gold] path{stroke:#f0c05a;stroke-width:1.5;fill:rgba(91,140,255,.55)}.ngz .sh[data-gold=bottom] path{fill:rgba(216,96,122,.55)}" +
   ".ngz .br{flex:none;max-width:100%;height:10px;border-radius:5px;background:linear-gradient(90deg,rgba(150,170,210,.2),rgba(150,170,210,.13));box-shadow:inset 0 0 0 1px rgba(150,170,210,.12)}" +
@@ -305,14 +307,14 @@ function ngClozeHead(s, c) {
   if (s.heading && s.heading.textContent !== h) s.heading.textContent = h;
 }
 function ngClozeFlip(app, s, on) {
-  const c = s.cz.get(s.czOpen);
+  const c = ngCzNow(s);
   if (!c || c.done || c.shown === on) return;
   c.shown = on;   // a view, never a grade: nothing is written, and the taps are kept across Hide
   ngClozeDraw(app, s, c, on);
   app._czSync();
 }
 function ngClozeTap(app, s, id) {
-  const c = s.cz.get(s.czOpen);
+  const c = ngCzNow(s);
   if (!c || !c.shown || c.done || !c.rows.some((r) => r.ask && r.id === id)) return;
   if (c.had.has(id)) c.had.delete(id); else c.had.add(id);
   const kept = s.czHost.contains(document.activeElement);
@@ -321,7 +323,7 @@ function ngClozeTap(app, s, id) {
 }
 // DONE: every hidden move written once, through the app's one writer; each is one of the day's 20
 function ngClozeDone(app, s) {
-  const c = s.cz.get(s.czOpen), asked = c ? c.rows.filter((r) => r.ask) : [];
+  const c = ngCzNow(s), asked = c ? c.rows.filter((r) => r.ask) : [];
   if (!c || !c.shown || c.done) return;
   app._undoRelease();   // the confirm before this one can no longer be undone: its push goes
   app._undoHold = s;    // BEFORE the write: the save it asks for must already find the push waiting
@@ -333,7 +335,7 @@ function ngClozeDone(app, s) {
 }
 // UNDO: the last confirm taken back exactly (the rows, the journal), the taps kept, the cloze shown again
 function ngClozeUndo(app, s) {
-  const c = s.cz.get(s.czOpen);
+  const c = ngCzNow(s);
   if (!c || !c.done || !c.done.u) return;
   if (app._ungradeMoves(c.done.u)) { c.done = null; c.shown = true; }
   else { c.done.u = null; c.done.late = true; app._undoRelease(); }   // a merge rebuilt a row: it is no longer this copy's to take back
@@ -356,10 +358,10 @@ function ngClozeShow(app, s, seat, mine) {
       if (t && t.className === "un") ngClozeUndo(app, s); else if (t) ngClozeTap(app, s, t.getAttribute("data-cz-had"));
     };
     s.ask.prepend(host);
-    if (!s.czFit) { s.czFit = () => { const o = s.czOpen != null && s.cz.get(s.czOpen); if (o && (o.shown || o.done)) ngClozeFit(o); }; window.addEventListener("resize", s.czFit); if (document.fonts && document.fonts.ready) document.fonts.ready.then(s.czFit); }
+    if (!app._czFit) { app._czFit = () => { const x = app._session, o = x && ngCzNow(x); if (o && (o.shown || o.done)) ngClozeFit(o); }; window.addEventListener("resize", app._czFit); if (document.fonts && document.fonts.ready) document.fonts.ready.then(app._czFit); }
   }
   s.czOpen = seat; s.czHost.hidden = false; s.ask.setAttribute("data-cz", "");
-  s.czReg = { reveal: () => ngClozeFlip(app, s, !s.cz.get(s.czOpen).shown), enter: () => { const o = s.cz.get(s.czOpen); if (o.done) app._masterStep(s, 1); else if (o.shown) ngClozeDone(app, s); else ngClozeFlip(app, s, true); },
+  s.czReg = { reveal: () => ngClozeFlip(app, s, !ngCzNow(s).shown), enter: () => { const o = ngCzNow(s); if (o.done) app._masterStep(s, 1); else if (o.shown) ngClozeDone(app, s); else ngClozeFlip(app, s, true); },
     prev: () => app._masterStep(s, -1), next: () => app._masterStep(s, 1), at: () => [0, 1] };
   if (s.list) { s.list = false; app._masterMode(s); }
   ngClozeDraw(app, s, c, false);
@@ -370,7 +372,7 @@ function ngClozeShow(app, s, seat, mine) {
 }
 // a repaint of the page (a plan that landed, a grade elsewhere): the open cloze is drawn again only when what it shows changed
 export function ngClozePaint(app, s) {
-  const c = s.czOpen != null && s.cz ? s.cz.get(s.czOpen) : null;
+  const c = ngCzNow(s);
   if (!c || !s.czHost || !s.czHost.isConnected) return;
   if (c.sig !== ngCzSig(c)) ngClozeDraw(app, s, c, false); else { ngClozeBar(app, s, c); ngClozeHead(s, c); }
 }
