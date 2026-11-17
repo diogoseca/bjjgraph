@@ -51,6 +51,11 @@ async function press(page: Page, selector: string, what: string, touch: boolean)
     try { await page.locator(selector).first().scrollIntoViewIfNeeded({ timeout: 3_000 }); break }
     catch (e) { if (i >= 4) throw e; await page.waitForTimeout(250) }
   }
+  // cards and sheets fade in (the reward card, Settings): wait until the control is fully shown, then measure the press
+  await expect.poll(() => page.evaluate((sel) => {
+    let a = 1; for (let n = document.querySelector(sel) as HTMLElement | null; n; n = n.parentElement) a *= Number(getComputedStyle(n).opacity)
+    return a
+  }, selector), { message: `${what} is fully shown`, timeout: 5_000 }).toBeGreaterThan(0.99)
   const at = await page.evaluate((sel) => {
     const el = document.querySelector(sel) as HTMLElement | null
     if (!el) return { ok: false, why: "no element matches", x: 0, y: 0 }
