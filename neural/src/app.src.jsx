@@ -1051,7 +1051,7 @@ class Component extends DCLogic {
       if (this._filmTheater) { if (e.key === "Escape") { e.preventDefault(); this.collapseClip(this._filmTheater.card); } return; }
       if (e.key !== "Escape" && this.modalRef.current?.style.display === "flex") return;
       if (e.key !== "Escape" && this._readKey(e)) return;
-      if (((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing)) {
+      if (this._isSearchKey(e)) {
         e.preventDefault();
         this.openSearchPane("key");
       } else if (e.key === "Escape") {
@@ -3582,7 +3582,24 @@ class Component extends DCLogic {
     return b;
   }
 
-  buildDrillPanel(posIdx, deckKeyOverride) {
+  buildDrillPanel(posIdx, deckKeyOverride, first) {
+    // A ROLL'S FIRST LANDING UNDER A SESSION THE PLAYER HAS OPEN keeps the session (the roll's own start already ended any
+    // session it was to end: `_sessionShown`) AND LEAVES THE PAGE AS A SESSION OPENED AFTER THE LANDING FINDS IT
+    // (REFSEARCH-R1; the reader of #436, finding 1: the first build returned here at once, so the position's key stayed
+    // unset in 40 of 40 kept runs and `moveChance` priced that hand without the position's mastery). Every write below,
+    // and whether it runs under a kept session:
+    //   · `drillEntries`, `_posKey`, the game-value restart: RUN. They are the position's own; a practice session keeps
+    //     its cards in `_session`, not in this slot. Not when a study opened FROM the kept session holds the slot
+    //     (`_studyOpen`: `openStudy` put its own deck and key there), as it would after a late landing too.
+    //   · `activeDrill`, `deckIdx`, `revealed`: SKIPPED. The study deck's own card state; a late session opens after
+    //     their reset, so resetting them under an open one could only move a study card the player is on.
+    //   · `_session = null`: SKIPPED, the point of the keep. `_studyOpen = null`: SKIPPED, a study the player opened.
+    //   · `_drillView = "home"`: SKIPPED, and it changes nothing: "home" is the only value it is ever given.
+    //   · the History tab's repaint: never runs under a session (`!_paneStudyActive()`).
+    //   · `_lastHomeRollLen`: RUN, the History tab's scroll bookkeeping for when the session ends.
+    //   · `deckReady`, `applyDeckVisibility()`: SKIPPED. The panel is shown already; applying again would close a list
+    //     picker the player has open and repaint the session's card.
+    const kept = !!first && this._sessionShown();
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const entryFor = (node) => {
       const info = this.deckKeyFor(node);
@@ -3597,14 +3614,17 @@ class Component extends DCLogic {
     } else {
       firstEntry = entryFor(this.nodes[posIdx]);
     }
-    this.drillEntries = [firstEntry];
-    const priorPosKey = this._posKey;
-    this._posKey = this.drillEntries[0].info.key;
-    // `onFlashcardsReady` rebuilds this panel on every hydration refresh with the SAME key: inside a
-    // hydration burst that is the burst's trailing restart's job, not a fresh one (FGHYD1, the fourth
-    // path: 28 of 33 restarts in one corpus hydration). A changed key, or no burst, restarts as before.
-    if (this._residencyHold && priorPosKey === this._posKey) this._residencyHold.dirty = true;
-    else this._gameValueChanged("position-key");
+    if (!(kept && this._studyOpen)) {
+      this.drillEntries = [firstEntry];
+      const priorPosKey = this._posKey;
+      this._posKey = this.drillEntries[0].info.key;
+      // `onFlashcardsReady` rebuilds this panel on every hydration refresh with the SAME key: inside a
+      // hydration burst that is the burst's trailing restart's job, not a fresh one (FGHYD1, the fourth
+      // path: 28 of 33 restarts in one corpus hydration). A changed key, or no burst, restarts as before.
+      if (this._residencyHold && priorPosKey === this._posKey) this._residencyHold.dirty = true;
+      else this._gameValueChanged("position-key");
+    }
+    if (kept) { this._lastHomeRollLen = this.rollLog ? this.rollLog.length : 0; return; }
     this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
     this._session = null;
     this._studyOpen = null;   // a new roll state retires any study surface (see _paneStudyActive)
@@ -3641,6 +3661,7 @@ class Component extends DCLogic {
     const open = this.deckReady && this.deckOpen;
     const wasShown = this.deckShown;
     this.deckShown = open;
+    if (!open) this._searchAsked = false;   // the search row's "asked for" ends with the panel (`_syncExploreTools`)
     // The pane owns landing shortcuts until it closes; exposed pointer controls remain live.
     // Lifter: every close path passes through this same visibility seam, including study.
     this._landPaneHid = !!open;
@@ -3759,15 +3780,32 @@ class Component extends DCLogic {
     return !!(this._systemId ||
               (this._conceptId && this._conceptsById && this._conceptsById[this._conceptId]));
   }
-  // THE ONE WRITER of the search row's visibility. It shows on the Explore ROOT only — not on
+  // THE ONE WRITER of the search row's visibility. It shows on the Explore ROOT — not on
   // another tab, not under a study takeover, and not while a Principle / Learning / System
   // detail owns the list (owner: "I should only see that in explore tab root"). Three callers
   // (_layoutPane, styleViewToggle, renderExplorer) because the detail id is set AFTER openPane
   // has already laid the pane out, so the render is the only site that sees the final answer.
+  // AND WHEN SEARCH WAS ASKED FOR, WHATEVER THE PAGE SHOWS (REFSEARCH; the orchestrator's rule on the third
+  // read of #432, its finding 2: on a principle, system or learning page the search button opened the page's entry with
+  // no search row and nothing focused, 6 of 6). `_searchAsked` is set by `_askSearch`: from `openSearchPane` (the search
+  // button, "/", Cmd/Ctrl+K, and their early forms replayed), and from the search field itself when the PLAYER puts
+  // the caret in it or types (REFSEARCH-R1, the orchestrator's ruling 4: a caret they put there is never taken by a
+  // landing; before, the page's record landing under it hid the row and what they typed next went nowhere, 4 of 4).
+  // NOT from the logo's own handing of the keys to the search on a desktop (`toggleExplorer`): the owner's rule above
+  // stands for the logo (pinned by concepts-surface.spec.ts, "no search row while a principle owns the pane"). The row
+  // shows over the page's own entry, the caret in it, and the entry gives way to results as soon as something is typed
+  // (a query already outranks an entry). ITS ONE LIFTER: the panel shutting (`applyDeckVisibility`, the seam every
+  // close passes through). Nothing else needs one: every way to another entry (a row, a result, a link, Back) goes
+  // through `_readArticle`, which shuts the panel first.
+  _askSearch() { if (!this._searchAsked) { this._searchAsked = true; this._syncExploreTools(); } }
   _syncExploreTools(study) {
     const tools = this.explorerToolsRef.current; if (!tools) return;
-    const show = this._viewMode === "explore" && !(study == null ? this._paneStudyActive() : study) && !this._exploreDetailOwnsList();
+    const show = this._viewMode === "explore" && !(study == null ? this._paneStudyActive() : study) && (this._searchAsked || !this._exploreDetailOwnsList());
     tools.style.display = show ? "flex" : "none";
+    // a row that hides takes its caret with it, at once: the browser moves the focus off a hidden field only at its next
+    // rendering step, and until then the page still read as "the caret is in the search" (an early logo press on a
+    // reference page: the root list's search had the caret when the entry replaced the list)
+    if (!show && document.activeElement === this.explorerSearchRef.current) this.explorerSearchRef.current.blur();
   }
   _layoutPane() {
     const panel = this.drillRef.current; if (!panel) return;
@@ -6847,14 +6885,25 @@ class Component extends DCLogic {
    * its own `_session` literal and calls `renderSession` directly, gets the keyboard for free.
    */
   _sessionInline() { return !!(this.deckShown && this._session && !this.deck && !this._checkpoint); }
-  // A SESSION THE PLAYER HAS OPEN IN FRONT OF THEM IS NEVER ENDED BY THE FIRST ROLL'S DEAL (EARLY1, v1.288.1; the reader of
-  // PR #430, finding 4b, proven by real presses: lost 6 of 6 on "/", at both sizes). The intro hands over at 3.2 s of its
-  // own clock, which runs while the panel's pause holds the game, and deals the first roll (`startRoll`); that deal's
-  // reset ended Master the game opened in the first seconds after a load, its opening already counted, with no roll
-  // landed yet (the game stays paused under the panel). That one deal now keeps a session the panel shows: an ARGUMENT of
-  // that one call (`keepShownSession`), not a flag, so no later roll can inherit it (EARLY1-R1). Every other deal ends it,
-  // every roll the PLAYER starts (a node, a row's ▶, through `rollFromPosition`) ends it as before, and so does the first
-  // landing once the drawer is shut, as any landing does.
+  // A SESSION THE PLAYER HAS OPEN IN FRONT OF THEM IS NEVER ENDED BY WHAT THE PAGE DOES BY ITSELF ON ARRIVAL.
+  // · THE HOME PAGE (EARLY1, v1.288.1; the reader of PR #430, finding 4b, proven by real presses: lost 6 of 6 on "/"). The
+  //   intro hands over at 3.2 s of its own clock, which runs while the panel's pause holds the game, and deals the first
+  //   roll (`startRoll`); that deal's reset ended Master the game opened in the first seconds after a load, its opening
+  //   already counted. That one deal keeps a session the panel shows: an ARGUMENT of that one call (`keepShownSession`),
+  //   not a flag, so no later roll can inherit it (EARLY1-R1).
+  // · A POSITION, TECHNIQUE OR SUBMISSION PAGE (REFSEARCH-2; the orchestrator's probe on the preview, 3 of 6 in
+  //   one run: #432 held on the home page only). There the page's own first landing is the READER's: when its file has
+  //   landed it seats the board with `rollFromPosition`, the function a press on the map uses, and a staged landing does
+  //   not wait for the panel's pause. That call ended the session twice: in its own reset, and when its landing rebuilt
+  //   the panel (`buildDrillPanel`, which also took the session's deck slot for the position's). Now the two arrivals'
+  //   callers say so, again by an argument (`pageArrival`: the reader's seat, and the intro's URL seat, which no page
+  //   reaches while reading is the default), and a roll's FIRST landing leaves a shown session's panel alone.
+  // WHICH CALLERS ARE THE PLAYER'S: every other `rollFromPosition` (a press on the map through `stageRollAt`, a row's ▶
+  // through `playFrom`, a Last rolls row, a belt test, Back and Forward) and every other `startRoll`. They end the
+  // session at their own start, as before; a landing after a MOVE ends it as before; and so does the first landing
+  // once the drawer is shut. The reader's seat also serves an article the PLAYER opened (a result, a link, Back): there
+  // `_readArticle` shut the panel when the page was asked for, so a session shown when the seat lands is younger than
+  // the request, and the newer choice stands.
   _sessionShown() { return !!(this.deckShown && this._session); }
   /**
    * THE FOCUSED INLINE DECK — SCOPED TO THE SURFACE THAT IS ACTUALLY SHOWING (v1.175.0).
@@ -9253,11 +9302,12 @@ class Component extends DCLogic {
   // another page, which is its PATHNAME alone (EARLY1-R2): the sign-in's redirect-back carries `?code=` (PKCE) and the
   // auth SDK strips it with `replaceState`, maybe before the data lands, and that is the same page; the one query that
   // picks content, a share link's `?l=`, is never moved between a press and here. And not when the page has opened the
-  // panel itself (a hub, a share link on a desktop): the press asked for what is already there.
+  // panel itself (a hub, a share link on a desktop): the press asked for what is already there. EXCEPT A SEARCH
+  // (REFSEARCH): it asked for the search, which an open panel is not, so it is replayed there too, as a late one is.
   _honourEarlyOpen() {
     const p = this._earlyOpen; if (!p) return;
     this._setEarlyOpen(null);
-    if (p.page !== location.pathname || this.deckShown) return;
+    if (p.page !== location.pathname || (this.deckShown && p.call !== "search")) return;
     if (p.call === "search") this.openSearchPane(p.via);
     else if (p.call === "logo") this.toggleExplorer();
     else this.openPane(p.view);
@@ -9268,9 +9318,12 @@ class Component extends DCLogic {
   // on the root list where a late press ends on the entry, 6 of 6, the state contradicting itself with the id set under
   // the list). A drawer opened before the id landed (an early press honoured at the end of boot, or a press in the first
   // moments after the data: a race dev has too) had built the root list and stayed on it. So when the drawer shows that
-  // list, with no query typed and no entry the player opened, it is drawn again with the id. Here and not in the reader,
-  // whose file is a deferred payload at its ceiling.
+  // list, with no query typed and no entry the player opened, it is drawn again with the id. A query typed by then is
+  // kept, results and all, whenever it was typed: since REFSEARCH the reader no longer empties the query of an open
+  // panel (`_referenceArrives`; until then one typed before the reader's file landed was wiped, and this took its
+  // results for the root list). Here and not in the reader, whose file is a deferred payload at its ceiling.
   _referenceLanded(system, id, light) {
+    this._refEntry = { system, id, light };   // the page's own entry, for a query emptied later (`_referenceEntryBack`)
     const list = this.explorerListRef.current;
     const onRoot = !!(this.deckShown && this._viewMode === "explore" && !this._paneStudyActive() && !(this._exQ || "").trim() &&
       list && !list.querySelector("[data-concept-detail], [data-system-detail]"));
@@ -9278,6 +9331,39 @@ class Component extends DCLogic {
     else this._conceptId = id;
     light();   // the reader's own map light (a reader-only method, its name mangled in that bundle: handed over)
     if (onRoot) this.renderExplorer();
+  }
+  // AN EMPTY QUERY ON A REFERENCE PAGE SHOWS THAT PAGE'S ENTRY, HOWEVER IT BECAME EMPTY (REFSEARCH-R1, the orchestrator's
+  // ruling 5: the state follows the page and the query, not the history). Any render with a query clears the page's
+  // ids (`clearFocus`), so a query typed and deleted again fell back to the ROOT list (30 of 30 in the reader's runs).
+  // Now the search field's own listener calls this when its query empties: while the reader stands on a reference page
+  // whose record has landed (`_refEntry`, from `_referenceLanded`), the ids and the map's light are that page's again,
+  // and the render that follows draws its entry under the search row. Only there: an entry opened in the panel on any
+  // other page (`openConcept`, `openSystem`) is not the reader's page, and its case is unchanged. The entry's own back
+  // row still leads to the root list: that is the player leaving the entry, not a query becoming empty.
+  _referenceEntryBack() {
+    const r = this._refEntry, reader = this._reader;
+    if (!r || !reader || !reader.intent || !reader.reference) return;
+    if (r.system) { this._systemId = r.id; this._systemRecordStatus = "ready"; }
+    else this._conceptId = r.id;
+    r.light();
+  }
+  // WHAT THE PLAYER TYPED, AND WHERE THEY PUT THE FOCUS, ARE NOT TAKEN BY A READER THAT LANDS LATER (REFSEARCH;
+  // the third read of #432, finding 1: after an early search press on a principle, system or learning page, "arm" typed
+  // before the reader's own file landed was emptied when it landed, and the focus jumped to the article's heading, 4 of
+  // 4). The reader asks these two when a reference page arrives in it. `_readArticle` shuts the panel when a page is
+  // ASKED for, so a panel that is open when the page LANDS was opened by the player since: its query is theirs and
+  // stays. And the article's heading takes the focus only while they have not put it somewhere themselves: the panel
+  // shut, and no text field focused. A plain arrival (no press) still ends on the heading, for a screen-reader user.
+  // (`clearFocus` rides in the same call since REFSEARCH-R1: the reader's file is a deferred payload at its ceiling, and
+  // one call there is 21 B less than two.)
+  _referenceArrives() {
+    this.clearFocus();
+    if (this.deckShown) return;
+    this._exQ = ""; if (this.explorerSearchRef.current) this.explorerSearchRef.current.value = "";
+  }
+  _readerMayFocus() {
+    const at = document.activeElement;
+    return !this.deckShown && !(at && at.closest && at.closest("input,textarea,select,[contenteditable]"));
   }
   // the remembered press, and the pressed look of the control that took it (`aria-busy`) until it is honoured or taken
   // back: a press that seems dead invites the second press that takes it back (the reader of #432, its note)
@@ -9295,8 +9381,13 @@ class Component extends DCLogic {
     if (inp && !inp._wired) {
       inp.placeholder = "Search techniques and Systems…";
       inp._wired = true;
-      inp.addEventListener("input", () => { this._exQ = inp.value; this.showExplorerList(); });
-      inp.addEventListener("pointerdown", (e) => e.stopPropagation());
+      // typing asks for search, and a query emptied again shows the reference page's own entry (`_askSearch`, `_referenceEntryBack`)
+      inp.addEventListener("input", () => {
+        const had = (this._exQ || "").trim(); this._exQ = inp.value; this._askSearch();
+        if (had && !this._exQ.trim()) this._referenceEntryBack();
+        this.showExplorerList();
+      });
+      inp.addEventListener("pointerdown", (e) => { e.stopPropagation(); this._askSearch(); });   // ...and so does the player's own press into it
     }
     // the GI/NO-GI pill left the pane for Settings → Rolling (v1.95.3); the stored preference is
     // hydrated at ingest now (see _hydrateGiMode) — this call is the belt-and-braces for a pane
@@ -12733,6 +12824,7 @@ class Component extends DCLogic {
     // before the data lands: remembered with its search, and its beat sent when the panel really opens (EARLY1)
     if (!Array.isArray(this.nodes)) { this._setEarlyOpen({ call: "search", via }); return; }
     this.openPane("explore");
+    this._askSearch();   // search opens search, on every page kind (`_syncExploreTools`)
     this.explorerSearchRef.current?.focus();
     this.fx("search_open", { via });
   }
@@ -17182,6 +17274,14 @@ class Component extends DCLogic {
   // Tall questions scroll the landing column. Docks measure in its home frame;
   // `_readApply` restores the offset and returns the hand to its tray at the end.
   _readOffset() { return this._readMax ? (this._readS || 0) : 0; }
+  // THE SEARCH'S KEYS: "/" outside a text field, and Cmd or Ctrl with K anywhere. One predicate, read by this handler and by
+  // the reader's root (reader.src.js), which stops every other key while the focus is in the article: until REFSEARCH
+  // it stopped these too, so on a principle, system or learning page, where the reader puts the focus on the
+  // article's heading, a late "/" did nothing (3 of 3, the third read of #432) while an early one opened the panel.
+  _isSearchKey(e) {
+    const t = e.target, typing = t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
+    return ((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing);
+  }
   _readKey(e) {
     const target = e.target;
     if (this.deckShown || !this._readMax || this._landHidden() || e.metaKey || e.ctrlKey || e.altKey || !target ||
@@ -18505,7 +18605,7 @@ class Component extends DCLogic {
   }
 
   // ---------- roll state machine ----------
-  rollFromPosition(nodeIdx, staged, roleOverride) {
+  rollFromPosition(nodeIdx, staged, roleOverride, pageArrival) {
     nodeIdx = this.canonicalState(nodeIdx, roleOverride || (this.nodes[nodeIdx] && this.nodes[nodeIdx].role));
     // THE SEAT FUNNEL, AND THEREFORE THE RULESET GUARD (v1.167.0). Every path that puts a player
     // somewhere arrives here: the ▶ on a list row, a dossier's "Roll from here", a belt capstone's
@@ -18552,7 +18652,7 @@ class Component extends DCLogic {
     this._closeRoll();
     this._roam = false; // any fresh roll leaves free roam
     this._lastActor = null; this._currentDeckKey = null;
-    this._sessionNodes = null; this._session = null; this._inSession = false;
+    if (!(pageArrival && this._sessionShown())) { this._sessionNodes = null; this._session = null; this._inSession = false; }   // REFSEARCH-2
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
     this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14;
     // ROLE: an explicit request wins. Deriving from the title is a CONSTANT for positions — the
@@ -18600,6 +18700,12 @@ class Component extends DCLogic {
       // from another state may enable pressure. Play/answer alone cannot do it.
       this.camTarget = this.rollCamTarget(this.camFocus, false, chosen);
     }
+    // THE KEPT SESSION REMEMBERS THE PAGE IT NOW STANDS ON (REFSEARCH-R1; the reader of #436, finding 2). A session's Back
+    // restores where it was opened from (`origin`, `_exitStudyTo`); one opened before the page's own landing remembered
+    // "no node selected", and its Back put that over the landing: the map's selection gone, 6 of 6, where a late
+    // session's Back leaves the page's node selected.
+    if (pageArrival && this._sessionShown() && this._session.origin)
+      Object.assign(this._session.origin, { node: this.focusIdx, path: location.href, title: document.title });
   }
   // ── ROAM & STAGE ── clicking any node takes you there and STAGES a roll: the camera flies,
   // the state lands, the options deal — and the clock stays stopped. Click somewhere else and
@@ -19469,7 +19575,7 @@ class Component extends DCLogic {
     }
     this._openLatestOnLand = false;
     this._lastActor = null;
-    this.buildDrillPanel(this.currentPos);
+    this.buildDrillPanel(this.currentPos, undefined, first);
     if (this._stagedDefense != null) {
       // the deferred catch (above): the chosen transition's card and no hand until play
       this.optionIdxs = [];
@@ -21290,7 +21396,7 @@ class Component extends DCLogic {
           // Typing an address is not that, and crediting it would be the same false tick the
           // retired coach used to hand out.
           if (this._urlSeeded && this._urlSeedIdx >= 0) {
-            this.rollFromPosition(this._urlSeedIdx, true, this._urlSeedRole);
+            this.rollFromPosition(this._urlSeedIdx, true, this._urlSeedRole, true);   // the page's own arrival (`_sessionShown`)
             this._staged = this.currentPos;
             tgt = null;   // ...and the intro's parting overview must not overwrite that framing
           } else if (this._refPage) {
