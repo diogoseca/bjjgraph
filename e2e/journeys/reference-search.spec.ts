@@ -27,6 +27,16 @@ import { journey } from "../dsl"
  * it". NON-KILL, recorded: the search row's own blur when it hides (`_syncExploreTools`) removed stays green here and in
  * early-presses (6 of 6): the browser moves the focus off a hidden field by itself at its next rendering step, nearly
  * always before a state is read (the one red it explains: 1 in 266 runs of early-presses' early = late step, before it).
+ * REFSEARCH-R1 (the reader of #436 and the orchestrator's two rulings; mutantsT.py, 17 Nov 19:54-20:08 on the merge with
+ * dev v1.290.0, the control green, 39 of 39 here, and the mutants above red again): the contents list stopping the
+ * search's keys again (the reader's SECOND stopper) → "a late ask for search from the contents list opens the panel"; a
+ * press into the search field not asking for search → "the caret stays in the search field when the record lands"; an
+ * emptied query not returning the page's entry → "emptied again, the page's entry is back" and "emptied after the record
+ * landed under it, the page's entry shows"; typing not asking for search → "typing asked for search: the search row
+ * stays, the caret in it".
+ * NOT COVERED, and why: at 1440 the logo's own caret (no press into the field, nothing typed) is still lost when the
+ * record lands, as on dev: keeping it would give the logo a search row over an entry, which concepts-surface.spec.ts
+ * pins against ("no search row while a principle owns the pane").
  */
 
 type W = Window & { __neural: any }

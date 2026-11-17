@@ -43,6 +43,13 @@ import { journey } from "../dsl"
  * an open panel → "the early press ends where a late press ends" (the search button on a hub). NON-KILL, recorded: the
  * intro's URL seat not marked as an arrival stays green (8 of 8): no page reaches it while reading is the default on
  * every content address (`NG_READING_DEFAULT_ON_CONTENT_URL`), so the reader's seat is the only arrival there is today.
+ * REFSEARCH-R1 (the reader of #436; mutantsT.py, 17 Nov 19:54-20:08 on the merge with dev v1.290.0, the control green, 51
+ * of 51 here, the mutants above red again): the kept landing leaving the position's key unset → "the kept landing takes
+ * the position's key" (and the hand's prices with it, on a stored profile with mastery there); the session's remembered
+ * place not moved to the landed page → "after Back the map draws the page's node selected, as after a late session's
+ * Back"; a player's own roll keeping a shown session → also "a press on a node of the map ends a kept session exactly as
+ * it ends a late one". Both flows of a session on a node page hold the reader first and rig the roll's own draws
+ * (`ai-skill`, `max-moves`): unrigged, the opponent's skill differed between the flows and moved every price.
  */
 
 type W = Window & { __neural: any }
