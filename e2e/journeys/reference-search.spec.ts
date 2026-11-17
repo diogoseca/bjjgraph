@@ -80,9 +80,9 @@ const state = (page: Page) => page.evaluate(() => {
 })
 
 const PAGES = [
-  { path: "/Principles/Frames", what: "a principle page", back: "[data-concept-back]" },
-  { path: "/Systems/10th-Planet-No-Gi-Guard-System", what: "a system page", back: "[data-system-back]" },
-  { path: "/Learning/BJJ-Guard-Types-Explained", what: "a learning page", back: "[data-concept-back]" },
+  { path: "/Principles/Frames", what: "a principle page", back: "[data-concept-back]", record: "concepts.json" },
+  { path: "/Systems/10th-Planet-No-Gi-Guard-System", what: "a system page", back: "[data-system-back]", record: "system-records/" },
+  { path: "/Learning/BJJ-Guard-Types-Explained", what: "a learning page", back: "[data-concept-back]", record: "concepts.json" },
 ]
 
 // An early ask for search, then the same page fresh with a late one: both end states, and the late page left open.
@@ -128,8 +128,8 @@ for (const touch of [false, true]) {
         expectSearch(b, "a late press on the search button")
         expect(a, "the early press ends where the late press ends").toEqual(b)
         await expect(p2.locator(pg.back), "the entry's own back row is still there, under the search row").toBeVisible()
-        // typed: results. Emptied again: the root list (a typed query leaves the entry, as any search does on dev: the
-        // list's render with a query clears the page's id), the search row and the caret still there
+        // typed: results. Emptied again: the page's own entry is back, the search row and the caret still there
+        // (REFSEARCH-R1, ruling 5: an empty query on a reference page shows that page's entry, however it became empty)
         await p2.keyboard.type("arm", { delay: 20 })
         const typed = await state(p2)
         expect(typed.value, "what is typed goes into the search field").toBe("arm")
@@ -137,7 +137,7 @@ for (const touch of [false, true]) {
         expect(typed.rows, "and there are results").toBeGreaterThan(0)
         for (let i = 0; i < 3; i++) await p2.keyboard.press("Backspace")
         const emptied = await state(p2)
-        expect([emptied.value, emptied.body], "emptied again, the list shows").toEqual(["", "list"])
+        expect([emptied.value, emptied.body], "emptied again, the page's entry is back").toEqual(["", b.body])
         expect([emptied.searchRow, emptied.caretInSearch], "and the search row stays, the caret in it").toEqual([true, true])
       })
 
@@ -185,6 +185,34 @@ for (const touch of [false, true]) {
         // not a count against the one before: the result list pages itself in and starts over on a re-render, so its row
         // count moves both ways by itself (42 then 61 in one run, 61 then 42 in another)
         expect(after.rows, "and there are results in it").toBeGreaterThan(0)
+        // ...and deleted now, with the reader and the record in: the page's entry, though no entry was ever shown here
+        for (let i = 0; i < 3; i++) await page.keyboard.press("Backspace")
+        const emptied = await state(page)
+        expect(emptied.body, "emptied after the record landed under it, the page's entry shows").toMatch(/^(entry|system) /)
+        expect([emptied.value, emptied.searchRow, emptied.caretInSearch], "the field empty, its row there, the caret in it").toEqual(["", true, true])
+        expect(errors, "no page error").toEqual([])
+      })
+
+      // REFSEARCH-R1, ruling 4: a caret the player put in the search field is never taken by a landing. The page's RECORD
+      // is held (its own request), so the root list is up when the player presses into its search field; then the record
+      // lands under the caret. Before: the entry replaced the list, the row hid, and what they typed next went nowhere.
+      test(`a caret the player put in the list's search on ${pg.what} stays when the page's record lands, and the next key lands in the field (${tag})`, async ({ page }) => {
+        const { j, errors } = await bootHeld(page, pg.path, ["graph-data.json", pg.record])
+        await press(page, ".ng-logo", "the logo, early", touch)
+        await j.releasePayload("graph-data.json")
+        await landed(page)
+        await expect.poll(() => state(page).then((s) => [s.shown, s.body, s.searchRow]), { message: "premise: the panel is open on the root list, with its search row" }).toEqual([true, "list", true])
+        await press(page, ".ng-explorer-tools input", "the list's own search field", touch)
+        expect((await state(page)).caretInSearch, "premise: the caret is in the search field").toBe(true)
+        expect(await page.evaluate(() => !!(window as W).__neural._reader?.reference), "premise: the page's record has not landed").toBe(false)
+        await j.releasePayload(pg.record)
+        await settled(page)
+        const after = await state(page)
+        expect(after.body, "the record lands: the page's entry shows").toMatch(/^(entry|system) /)
+        expect([after.searchRow, after.caretInSearch], `the caret stays in the search field when the record lands (the focus is on ${after.focus})`).toEqual([true, true])
+        await page.keyboard.type("arm", { delay: 20 })
+        const typed = await state(page)
+        expect([typed.value, typed.body], "the next key lands in the field").toEqual(["arm", "results"])
         expect(errors, "no page error").toEqual([])
       })
 
@@ -225,6 +253,47 @@ test.describe("keys, 1440x900", () => {
       await expect.poll(() => p2.evaluate(() => !!(window as W).__neural.deckShown), { message: "Esc shuts the panel" }).toBe(false)
     })
   }
+  // REFSEARCH-R1 (the reader of #436, finding 3): the reader has a SECOND key stopper, on its contents list, which the
+  // first fix did not reach. The focus is put there by a real press on one of its links (it scrolls the article to that
+  // section and leaves the focus on the link), or else by real Shift+Tab presses: never by script.
+  for (const pg of [PAGES[0], PAGES[2]]) {
+    for (const key of ["/", "Control+k"]) {
+      test(`${key === "/" ? '"/"' : "Ctrl+K"} opens search from the contents list of ${pg.what}`, async ({ page }) => {
+        const { j, errors } = await bootHeld(page, pg.path)
+        await j.releasePayload("graph-data.json")
+        await landed(page)
+        await settled(page)
+        const inContents = () => page.evaluate(() => !!document.activeElement?.closest(".ng-reader-toc"))
+        await expect(page.locator(".ng-reader-toc a").first(), "premise: the page shows a contents list").toBeVisible()
+        await press(page, ".ng-reader-toc a", "a link of the contents list", false)
+        for (let i = 0; i < 60 && !(await inContents()); i++) await page.keyboard.press("Shift+Tab")
+        expect(await inContents(), "premise: the focus is on a link of the article's contents list").toBe(true)
+        await page.keyboard.press(key)
+        await expect.poll(() => page.evaluate(() => !!(window as W).__neural.deckShown), { message: "a late ask for search from the contents list opens the panel" }).toBe(true)
+        expectSearch(await state(page), "from the contents list")
+        expect(errors, "no page error").toEqual([])
+      })
+    }
+  }
+  // Typing asks for search too: at 1440 the logo itself hands the caret to the root list's search; "arm" typed there
+  // before the record lands is a query, and deleting it after shows the page's entry under the search row, the caret kept
+  test("typed under the logo's own caret before the record lands, then deleted: the page's entry under the search row", async ({ page }) => {
+    const pg = PAGES[0]
+    const { j, errors } = await bootHeld(page, pg.path, ["graph-data.json", pg.record])
+    await press(page, ".ng-logo", "the logo, early", false)
+    await j.releasePayload("graph-data.json")
+    await landed(page)
+    await expect.poll(() => state(page).then((s) => s.caretInSearch), { message: "premise: at 1440 the logo hands the caret to the list's search" }).toBe(true)
+    await page.keyboard.type("arm", { delay: 20 })
+    await j.releasePayload(pg.record)
+    await settled(page)
+    expect((await state(page)).body, "premise: the results stay when the record lands").toBe("results")
+    for (let i = 0; i < 3; i++) await page.keyboard.press("Backspace")
+    const emptied = await state(page)
+    expect(emptied.body, "emptied, the page's entry shows").toMatch(/^entry /)
+    expect([emptied.searchRow, emptied.caretInSearch], "typing asked for search: the search row stays, the caret in it").toEqual([true, true])
+    expect(errors, "no page error").toEqual([])
+  })
   test("Ctrl+K opens search from the article of a principle page", async ({ page }) => {
     const { j, errors } = await bootHeld(page, PAGES[0].path)
     await j.releasePayload("graph-data.json")

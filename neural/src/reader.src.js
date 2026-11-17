@@ -527,7 +527,7 @@ class Reader {
     for (const type of ["wheel", "touchstart", "focusin"]) listen(contents, type, event => {
       this.readingInteraction(); event.stopPropagation();
     }, { passive: true });
-    listen(contents, "keydown", event => { if (event.key !== "Escape") event.stopPropagation(); });
+    listen(contents, "keydown", event => { if (event.key !== "Escape" && !this.app._isSearchKey(event)) event.stopPropagation(); });   // REFSEARCH-R1: the second stopper
     const hit = this.app._nodeAndRoleForPath(path), node = this.app.nodes[hit.idx];
     const indexTitle = element("h2", {}, title);
     if (node) {

@@ -144,6 +144,38 @@ const NODE_PAGES = [
   { path: "/Transitions/Knee-Slice-Pass", what: "a technique page" },
   { path: "/Submissions/Triangle-Choke/from-Triangle-Control/Attacker", what: "a submission page" },
 ]
+// A session on a node page, in its two flows. In BOTH `app/reader.js` is held first (the reader's arrival is what seats
+// the board on these pages), so nothing has landed (asserted) and the roll's own random draws can be rigged before it
+// starts: its opponent's skill moves every price of the hand, and the two flows reach that draw at different places in
+// the stream (unrigged, kept and late differed by 4 points on every card at 1440). KEPT: the logo and Master the game's
+// row are pressed, the session is open, and only then is the reader released: the page's own first landing comes after
+// the session by construction. LATE: the reader is released and the page lands first, then the same two presses.
+// The open session is marked on the page (`__openSession`).
+async function sessionOn(page: Page, path: string, touch: boolean, kept: boolean, initialState?: Record<string, unknown>) {
+  const errors: string[] = []
+  page.on("pageerror", (e) => errors.push(e.message))
+  const j = journey(page)
+  const landings = () => page.evaluate(() => (((window as W).__neural.beats || []) as any[]).filter((b) => b.beat === "land").length)
+  const arrived = () => expect.poll(async () => [await page.evaluate(() => !!(window as W).__neural._reader), (await landings()) > 0],
+    { message: "premise: the reader landed and the page's own first landing happened", timeout: 20_000 }).toEqual([true, true])
+  await j.boot(path, { unready: true, payloads: { "app/reader.js": { never: true } }, ...(initialState ? { initialState } : {}) })
+  await landed(page)
+  await page.evaluate(() => (window as W).__neural.advance(17))   // one frame first, as on the home page (see there)
+  expect([await page.evaluate(() => !!(window as W).__neural._reader), await landings()], "premise: the reader has not landed, and nothing has landed on the board").toEqual([false, 0])
+  await j.rig("ai-skill", [0.5]); await j.rig("max-moves", [0.5])
+  if (!kept) { await j.releasePayload("app/reader.js"); await arrived() }
+  await press(page, ".ng-logo", "the logo", touch)
+  await expect(page.locator('[data-explore-stats] [data-b="due"]')).toBeVisible()
+  await press(page, '[data-explore-stats] [data-b="due"]', "Master the game", touch)
+  await expect.poll(() => page.evaluate(() => !!(window as W).__neural._practiceInDrawer()), { message: "premise: Master the game is open" }).toBe(true)
+  expect(await page.evaluate(() => { (window as any).__openSession = (window as W).__neural._session; return !!(window as any).__openSession }), "premise: a session is open").toBe(true)
+  if (kept) {
+    expect(await landings(), "premise: still nothing has landed").toBe(0)
+    await j.releasePayload("app/reader.js")
+    await arrived()
+  }
+  return { j, errors }
+}
 const PAGES = [
   { path: "/", what: "the home page" },
   { path: "/Positions/Mount/Top", what: "a position page" },
@@ -180,29 +212,91 @@ for (const touch of [false, true]) {
     // the panel covers the map and no control that starts a roll is on screen beside an open session.
     for (const pg of NODE_PAGES) {
       test(`Master the game opened on ${pg.what} before the page's own first landing stays open when it lands, and the player's own roll ends it (${tag})`, async ({ page }) => {
-        const errors: string[] = []
-        page.on("pageerror", (e) => errors.push(e.message))
-        const j = journey(page)
-        await j.boot(pg.path, { unready: true, payloads: { "app/reader.js": { never: true } } })
-        await landed(page)
-        await page.evaluate(() => (window as W).__neural.advance(17))   // one frame first, as on the home page (see there)
-        const landings = () => page.evaluate(() => (((window as W).__neural.beats || []) as any[]).filter((b) => b.beat === "land").length)
-        expect([await page.evaluate(() => !!(window as W).__neural._reader), await landings()], "premise: the reader has not landed, and nothing has landed on the board").toEqual([false, 0])
-        await press(page, ".ng-logo", "the logo", touch)
-        await expect(page.locator('[data-explore-stats] [data-b="due"]')).toBeVisible()
-        await press(page, '[data-explore-stats] [data-b="due"]', "Master the game", touch)
-        await expect.poll(() => page.evaluate(() => !!(window as W).__neural._practiceInDrawer()), { message: "premise: Master the game is open" }).toBe(true)
-        expect(await page.evaluate(() => { (window as any).__openSession = (window as W).__neural._session; return !!(window as any).__openSession }),
-          "premise: a session is open").toBe(true)
-        expect(await landings(), "premise: still nothing has landed").toBe(0)
-        await j.releasePayload("app/reader.js")
-        await expect.poll(async () => [await page.evaluate(() => !!(window as W).__neural._reader), (await landings()) > 0],
-          { message: "premise: the reader landed and the page's own first landing happened", timeout: 20_000 }).toEqual([true, true])
+        const { errors } = await sessionOn(page, pg.path, touch, true)
         expect(await page.evaluate(() => (window as W).__neural._session === (window as any).__openSession && (window as W).__neural._practiceInDrawer()),
           "Master the game is still open after the page's own first landing").toBe(true)
         await expect(page.locator("[data-practice-page]"), "and its page is on screen").toBeVisible()
         await page.evaluate(() => { const a = (window as W).__neural; a.playFrom(a.currentPos, a.playerRole) })
         expect(await page.evaluate(() => (window as W).__neural._session === (window as any).__openSession), "a roll the player starts ends the session").toBe(false)
+        expect(errors, "no page error").toEqual([])
+      })
+
+      // REFSEARCH-R1 (the reader of #436, finding 2): the kept session's own Back restored "no node selected", the place
+      // it was opened from before the landing. What the map then DRAWS selected is read from the frame's own published
+      // labels, after a frame is drawn (on a phone, once the panel is shut: it covers the map and no label is drawn under it).
+      test(`Back from a session kept across ${pg.what}'s landing leaves the map as Back from a late session does (${tag})`, async ({ page, context }) => {
+        const drawn = async (p: Page) => {
+          await press(p, "[data-pane-back]", "the session's Back", touch)
+          await expect.poll(() => p.evaluate(() => !!(window as W).__neural._session), { message: "premise: Back ends the session" }).toBe(false)
+          if (touch) { await press(p, ".ng-explorer-close", "the panel's ✕", touch); await expect.poll(() => p.evaluate(() => !!(window as W).__neural.deckShown)).toBe(false) }
+          await p.evaluate(() => (window as W).__neural.advance(34))
+          return p.evaluate(() => { const a = (window as W).__neural, id = (i: any) => (i != null && i >= 0 && a.nodes[i] ? a.nodes[i].id : null)
+            return { selected: id(a.focusIdx), richLabel: id(a._lastRichLabel?.idx), pairLabel: id(a._lastPairLabel?.idx), address: location.pathname } })
+        }
+        const kept = await sessionOn(page, pg.path, touch, true)
+        const a = await drawn(page)
+        expect(kept.errors, "no page error").toEqual([])
+        await page.close()
+        const p2 = await context.newPage()
+        const late = await sessionOn(p2, pg.path, touch, false)
+        const b = await drawn(p2)
+        expect(b.selected, "premise: after a late session's Back the page's node is selected").not.toBeNull()
+        expect([b.richLabel, b.pairLabel].some((x) => x != null), "premise: and the map draws a label for it").toBe(true)
+        expect(a, "after Back the map draws the page's node selected, as after a late session's Back").toEqual(b)
+        expect(late.errors, "no page error").toEqual([])
+      })
+    }
+
+    // REFSEARCH-R1 (the reader of #436, finding 1): the kept landing left the position's key unset, so `moveChance` priced
+    // that hand without the position's mastery. A stored profile with mastery at Mount (top) makes that visible: the prices
+    // of the hand dealt at the landing, kept against late.
+    test(`the hand's prices after a session kept across the landing equal a late session's, with mastery at that position (${tag})`, async ({ page, context }) => {
+      const SEED = { v: 2, prep: { "Mount|Top": 5 } }
+      const priced = async (p: Page) => {
+        await expect.poll(async () => { await p.evaluate(() => (window as W).__neural.advance(100)); return p.evaluate(() => ((window as W).__neural.optionIdxs || []).length) },
+          { message: "premise: the landing's hand is dealt", timeout: 15_000 }).toBeGreaterThan(0)
+        return p.evaluate(() => { const a = (window as W).__neural
+          return { key: a._posKey, mastery: a.mastery("Mount|Top"), prices: (a.optionIdxs as number[]).map((i) => [a.nodes[i].t, Math.round(a.moveChance(a.nodes[i]) * 100)]).sort() } })
+      }
+      const kept = await sessionOn(page, "/Positions/Mount/Top", touch, true, SEED)
+      const a = await priced(page)
+      expect(kept.errors, "no page error").toEqual([])
+      await page.close()
+      const p2 = await context.newPage()
+      const late = await sessionOn(p2, "/Positions/Mount/Top", touch, false, SEED)
+      const b = await priced(p2)
+      expect(b.mastery, "premise: the stored profile's mastery at this position is in play").toBeGreaterThan(0)
+      expect(b.key, "premise: a late session finds the position's key").toBe("Mount|Top")
+      expect(a.key, "the kept landing takes the position's key").toBe(b.key)
+      expect(a.prices, "the hand's prices after a kept session equal a late session's").toEqual(b.prices)
+      expect(late.errors, "no page error").toEqual([])
+    })
+
+    // REFSEARCH-R1, to settle (a): an answer inside Master the game on a position page counts and is stored, in a session
+    // opened after the landing and in one kept across it. (The reader saw 2 of 3 late answers at 390 not count at a load
+    // of 18; on an idle box they counted 10 of 10, `tmp-pw/drawer/refsearch/r1_probe.cjs`.)
+    for (const kept of [false, true]) {
+      test(`an answer inside Master the game on a position page counts and is stored, the session ${kept ? "kept across the landing" : "opened after it"} (${tag})`, async ({ page }) => {
+        const { errors } = await sessionOn(page, "/Positions/Mount/Top", touch, kept)
+        const read = () => page.evaluate(() => { const a = (window as W).__neural
+          return { today: a.practiceToday().done, srs: Object.keys(a.srs || {}).length, stored: (localStorage.getItem("bjj-neural-owner:guest:progress") || "").length + (localStorage.getItem("bjj-neural-owner:guest:pending") || "").length } })
+        const before = await read()
+        // the card asks by choices or by recall (Reveal, then a grade); the pumped clock carries the grade in test mode
+        const tick = () => page.evaluate(() => (window as W).__neural.advance(100))
+        const choice = "[data-practice-page] [data-mc-opt]", reveal = "[data-practice-page] [data-mini-reveal]", got = "[data-practice-page] [data-mini-got]"
+        // (a choices card shows that same button disabled, "Loading answers…" then "Choose an answer", until its choices are in)
+        const shownNow = (sel: string) => page.evaluate((q) => [...document.querySelectorAll(q)].some((e) => (e as HTMLElement).getClientRects().length > 0 && !(e as HTMLButtonElement).disabled), sel)
+        await expect.poll(async () => { await tick(); return (await shownNow(choice)) || (await shownNow(reveal)) }, { message: "premise: the session's first card has an answer to press", timeout: 15_000 }).toBe(true)
+        if (await shownNow(choice)) await press(page, choice, "the card's first answer", touch)
+        else {
+          await press(page, reveal, "Reveal", touch)
+          await expect.poll(async () => { await tick(); return shownNow(got) }, { message: "premise: the revealed card offers its grade" }).toBe(true)
+          await press(page, got, "Got it", touch)
+        }
+        await expect.poll(async () => { await tick(); return (await read()).today }, { message: "the answer counts in today's count" }).toBe(before.today + 1)
+        expect((await read()).srs, "and the card is in the player's record").toBeGreaterThan(before.srs)
+        await expect.poll(async () => { await page.evaluate(() => (window as W).__neural.advance(500)); return (await read()).stored },
+          { message: "and it is stored", timeout: 15_000 }).toBeGreaterThan(before.stored)
         expect(errors, "no page error").toEqual([])
       })
     }
@@ -282,6 +376,54 @@ for (const touch of [false, true]) {
     })
   })
 }
+
+// REFSEARCH-R1, to settle (b): a press on a node of the map with a session open. What the app means to do, from the code
+// (`attachInput`'s tap rule): a press that lands on a node other than the board's own stages a roll there (`stageRollAt` →
+// `rollFromPosition`, the player's caller, which ends any session at its start); a press that lands on no node is the
+// background's, and on a desktop that leaves the panel alone. So the reader's "not taken" presses were presses on no node.
+// Here the node is one the MAP says is under the pointer (`_hover`, after a real mouse move to its drawn place, the point
+// hit-tested as the canvas), and the press is a real click: kept and late end the same. A desktop's: on a phone the panel
+// covers the map.
+test.describe("the map, 1440x900", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+  test("a press on a node of the map ends a session kept across the landing exactly as it ends a late one", async ({ page, context }) => {
+    const pressNode = async (p: Page) => {
+      const points = await p.evaluate(() => {
+        const a = (window as W).__neural, k = a.W / a.cam.vw, out: { idx: number; x: number; y: number }[] = []
+        for (const n of a.nodes) {
+          if (n.idx === a.currentPos || n.ty !== "positions" || !a.rsAllowsIdx(n.idx)) continue
+          const x = a.W / 2 + (n.x - a.cam.cx) * k, y = a.H / 2 + (a._LY(n) - a.cam.cy) * k
+          if (x < 8 || y < 8 || x > innerWidth - 8 || y > innerHeight - 8) continue
+          if (document.elementFromPoint(x, y) === a.canvasRef.current) out.push({ idx: n.idx, x, y })
+        }
+        return out
+      })
+      expect(points.length, "premise: a position's node is drawn on the open map, clear of the panel and the article").toBeGreaterThan(0)
+      for (const pt of points) {
+        await p.mouse.move(pt.x, pt.y)
+        const over = await p.evaluate(() => { const a = (window as W).__neural; return a._hover && a._hover.idx >= 0 && a._hover.idx !== a.currentPos ? a.nodes[a._hover.idx].id : null })
+        if (!over) continue
+        const staged = () => p.evaluate(() => (((window as W).__neural.beats || []) as any[]).filter((b) => b.beat === "roll_staged").length)
+        const before = await staged()
+        await p.mouse.click(pt.x, pt.y)
+        return p.evaluate(([n0]) => { const a = (window as W).__neural
+          return { sessionEnded: a._session !== (window as any).__openSession, practice: !!a._practiceInDrawer(), panelShown: !!a.deckShown, view: a._viewMode,
+            staged: (((a.beats || []) as any[]).filter((b) => b.beat === "roll_staged").length) - (n0 as number), paused: !!a.paused } }, [before])
+      }
+      throw new Error("premise: the map names no node under any of the drawn places")
+    }
+    const kept = await sessionOn(page, "/Positions/Mount/Top", false, true)
+    const a = await pressNode(page)
+    expect(kept.errors, "no page error").toEqual([])
+    await page.close()
+    const p2 = await context.newPage()
+    const late = await sessionOn(p2, "/Positions/Mount/Top", false, false)
+    const b = await pressNode(p2)
+    expect(b, "premise: a press on a node ends a late session and stages a roll there, the panel left open").toEqual({ sessionEnded: true, practice: false, panelShown: true, view: b.view, staged: 1, paused: true })
+    expect(a, "a press on a node of the map ends a kept session exactly as it ends a late one").toEqual(b)
+    expect(late.errors, "no page error").toEqual([])
+  })
+})
 
 // keys are a desktop's: "/" is the search's key, and Esc says "not that"
 test.describe("keys, 1440x900", () => {
