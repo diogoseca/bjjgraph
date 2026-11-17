@@ -46,8 +46,8 @@ description: "Master the Muscle Sweep from Closed Guard to Mount. Learn setup, g
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The Muscle sweep #bjj #jiujitsu #brazilianjiujitsu #btt",
-      "description": "Muscle Sweep film study: The Muscle sweep #bjj #jiujitsu #brazilianjiujitsu #btt.",
+      "name": "The Muscle sweep #bjj #jiujitsu #brazilianjiujitsu",
+      "description": "Muscle Sweep film study: The Muscle sweep #bjj #jiujitsu #brazilianjiujitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9pHYo_Sonpw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9pHYo_Sonpw",
       "url": "https://www.youtube.com/watch?v=9pHYo_Sonpw",
@@ -56,8 +56,8 @@ description: "Master the Muscle Sweep from Closed Guard to Mount. Learn setup, g
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How To Do The Muscle Sweep. First Day BJJ.",
-      "description": "Muscle Sweep film study: How To Do The Muscle Sweep. First Day BJJ..",
+      "name": "How To Do The Muscle Sweep.",
+      "description": "Muscle Sweep film study: How To Do The Muscle Sweep..",
       "thumbnailUrl": "https://i.ytimg.com/vi/oD1WVLGgDXo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oD1WVLGgDXo",
       "url": "https://www.youtube.com/watch?v=oD1WVLGgDXo",
@@ -113,7 +113,7 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 
 ![](https://www.youtube.com/watch?v=9pHYo_Sonpw)
 
-<p class="clip-credit"><strong>The Muscle sweep #bjj #jiujitsu #brazilianjiujitsu #btt</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=9pHYo_Sonpw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Muscle sweep #bjj #jiujitsu #brazilianjiujitsu</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=9pHYo_Sonpw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -121,7 +121,7 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 
 ![](https://www.youtube.com/watch?v=oD1WVLGgDXo)
 
-<p class="clip-credit"><strong>How To Do The Muscle Sweep. First Day BJJ.</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=oD1WVLGgDXo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Do The Muscle Sweep.</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=oD1WVLGgDXo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

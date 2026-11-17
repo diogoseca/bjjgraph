@@ -46,8 +46,8 @@ description: "Master the Kimura from Guard in BJJ. Complete guide covering setup
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura from Guard by Gracie Charlottesville",
-      "description": "Kimura from Guard film study: Kimura from Guard by Gracie Charlottesville.",
+      "name": "Kimura from Guard",
+      "description": "Kimura from Guard film study: Kimura from Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KAxTmcxGc60/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KAxTmcxGc60",
       "url": "https://www.youtube.com/watch?v=KAxTmcxGc60",
@@ -113,7 +113,7 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 ![](https://www.youtube.com/watch?v=KAxTmcxGc60)
 
-<p class="clip-credit"><strong>Kimura from Guard by Gracie Charlottesville</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=KAxTmcxGc60" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura from Guard</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=KAxTmcxGc60" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

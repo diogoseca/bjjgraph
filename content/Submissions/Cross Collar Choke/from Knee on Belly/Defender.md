@@ -160,8 +160,8 @@ description: "Defend against the cross collar choke from knee on belly. Complete
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "RLVT Counter to Knee-On-Belly Cross-Collar Choke",
-      "description": "Cross Collar Choke from Knee on Belly (Defender) film study: RLVT Counter to Knee-On-Belly Cross-Collar Choke.",
+      "name": "Counter to Knee-On-Belly Cross-Collar Choke",
+      "description": "Cross Collar Choke from Knee on Belly (Defender) film study: Counter to Knee-On-Belly Cross-Collar Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fN_mU3YAf5c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fN_mU3YAf5c?start=52",
       "url": "https://www.youtube.com/watch?v=fN_mU3YAf5c",
@@ -206,7 +206,7 @@ Defending the cross collar choke from knee on belly requires managing two simult
 
 ![](https://www.youtube.com/watch?v=fN_mU3YAf5c&start=52)
 
-<p class="clip-credit"><strong>RLVT Counter to Knee-On-Belly Cross-Collar Choke</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=fN_mU3YAf5c&t=52s" rel="noopener">Watch on YouTube from 0:52</a></p>
+<p class="clip-credit"><strong>Counter to Knee-On-Belly Cross-Collar Choke</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=fN_mU3YAf5c&t=52s" rel="noopener">Watch on YouTube from 0:52</a></p>
 
 </div>
 

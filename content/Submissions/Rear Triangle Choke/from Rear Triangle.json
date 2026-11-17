@@ -660,6 +660,16 @@
         "description": "Positional rounds starting from locked rear triangle with full resistance. Defender earns points for arm extraction and escape; attacker earns points for submission or maintained control. Builds the ability to execute escapes under fatigue and adrenaline."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "CzylaB3poIo",
+        "title": "Back/Rear Triangle Defense",
+        "channel": "The Grappling Bloke",
+        "duration": 174,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-17"
+      }
+    ]
   }
 }

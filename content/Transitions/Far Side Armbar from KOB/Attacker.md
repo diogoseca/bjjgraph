@@ -186,8 +186,8 @@ description: "Master the attacking mechanics of the far side armbar from knee on
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Far Side Armbar from Knee on Belly - Courtesy of Maryland BJJ School, Crazy 88\u2026",
-      "description": "Far Side Armbar from KOB (Attacker) film study: Far Side Armbar from Knee on Belly - Courtesy of Maryland BJJ School, Crazy 88\u2026.",
+      "name": "Far Side Armbar from Knee on Belly",
+      "description": "Far Side Armbar from KOB (Attacker) film study: Far Side Armbar from Knee on Belly.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OXMOkdBo1Ao/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OXMOkdBo1Ao",
       "url": "https://www.youtube.com/watch?v=OXMOkdBo1Ao",
@@ -221,7 +221,7 @@ The far side armbar from knee on belly targets the opponent's arm furthest from 
 
 ![](https://www.youtube.com/watch?v=OXMOkdBo1Ao)
 
-<p class="clip-credit"><strong>Far Side Armbar from Knee on Belly - Courtesy of Maryland BJJ School, Crazy 88…</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=OXMOkdBo1Ao" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Far Side Armbar from Knee on Belly</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=OXMOkdBo1Ao" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

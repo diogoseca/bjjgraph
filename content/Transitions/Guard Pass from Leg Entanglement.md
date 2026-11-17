@@ -46,8 +46,8 @@ description: "Master the Guard Pass from Leg Entanglement in BJJ. Complete guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing SLX Guard (Single Leg X) - Profectus Jiu Jitsu WilCo.",
-      "description": "Guard Pass from Leg Entanglement film study: Passing SLX Guard (Single Leg X) - Profectus Jiu Jitsu WilCo..",
+      "name": "Passing SLX Guard (Single Leg X)",
+      "description": "Guard Pass from Leg Entanglement film study: Passing SLX Guard (Single Leg X).",
       "thumbnailUrl": "https://i.ytimg.com/vi/UpNhZl5nkcM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UpNhZl5nkcM",
       "url": "https://www.youtube.com/watch?v=UpNhZl5nkcM",
@@ -107,7 +107,7 @@ Successfully completing this pass requires integrating leg lock defense knowledg
 
 ![](https://www.youtube.com/watch?v=UpNhZl5nkcM)
 
-<p class="clip-credit"><strong>Passing SLX Guard (Single Leg X) - Profectus Jiu Jitsu WilCo.</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=UpNhZl5nkcM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing SLX Guard (Single Leg X)</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=UpNhZl5nkcM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

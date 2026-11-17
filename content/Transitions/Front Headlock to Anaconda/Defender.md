@@ -180,8 +180,8 @@ description: "How to defend against Front Headlock to Anaconda in BJJ. Recogniti
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Anaconda choke defense (BJJ) - SFS MMA",
-      "description": "Front Headlock to Anaconda (Defender) film study: Anaconda choke defense (BJJ) - SFS MMA.",
+      "name": "Anaconda choke defense (BJJ)",
+      "description": "Front Headlock to Anaconda (Defender) film study: Anaconda choke defense (BJJ).",
       "thumbnailUrl": "https://i.ytimg.com/vi/SXm9wA1HcvM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SXm9wA1HcvM",
       "url": "https://www.youtube.com/watch?v=SXm9wA1HcvM",
@@ -235,7 +235,7 @@ Strategically, the defender should recognize that the attacker must accomplish m
 
 ![](https://www.youtube.com/watch?v=SXm9wA1HcvM)
 
-<p class="clip-credit"><strong>Anaconda choke defense (BJJ) - SFS MMA</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda choke defense (BJJ)</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

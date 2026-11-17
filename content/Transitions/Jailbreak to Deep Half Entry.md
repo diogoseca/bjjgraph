@@ -46,12 +46,12 @@ description: "Master the Jailbreak to Deep Half Entry in BJJ. Transition from co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee Slide Pass Counter to Deep Half Guard Entry",
-      "description": "Jailbreak to Deep Half Entry film study: Knee Slide Pass Counter to Deep Half Guard Entry.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K0XMj9BNJ8U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K0XMj9BNJ8U",
-      "url": "https://www.youtube.com/watch?v=K0XMj9BNJ8U",
-      "duration": "PT133S"
+      "name": "Deep Half Guard - 1 - Jailbreak Entry",
+      "description": "Jailbreak to Deep Half Entry film study: Deep Half Guard - 1 - Jailbreak Entry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OmFVJvajSno/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OmFVJvajSno",
+      "url": "https://www.youtube.com/watch?v=OmFVJvajSno",
+      "duration": "PT135S"
     }
   ]
 }
@@ -105,9 +105,9 @@ The biomechanical foundation of this entry relies on using your existing underho
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=K0XMj9BNJ8U)
+![](https://www.youtube.com/watch?v=OmFVJvajSno)
 
-<p class="clip-credit"><strong>Knee Slide Pass Counter to Deep Half Guard Entry</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=K0XMj9BNJ8U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deep Half Guard - 1 - Jailbreak Entry</strong> · 2:15 · <a href="https://www.youtube.com/watch?v=OmFVJvajSno" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

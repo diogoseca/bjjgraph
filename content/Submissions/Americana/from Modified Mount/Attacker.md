@@ -186,8 +186,8 @@ description: "Step-by-step guide to finishing the Americana from Modified Mount.
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Americana Ezekiel from Mount (Try it out Tuesday)",
-      "description": "Americana from Modified Mount (Attacker) film study: Americana Ezekiel from Mount (Try it out Tuesday).",
+      "name": "Americana Ezekiel from Mount",
+      "description": "Americana from Modified Mount (Attacker) film study: Americana Ezekiel from Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Tgj7ZVWheog/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Tgj7ZVWheog",
       "url": "https://www.youtube.com/watch?v=Tgj7ZVWheog",
@@ -232,7 +232,7 @@ Executing the Americana from Modified Mount leverages the position's asymmetric 
 
 ![](https://www.youtube.com/watch?v=Tgj7ZVWheog)
 
-<p class="clip-credit"><strong>Americana Ezekiel from Mount (Try it out Tuesday)</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=Tgj7ZVWheog" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Americana Ezekiel from Mount</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=Tgj7ZVWheog" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

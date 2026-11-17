@@ -56,8 +56,8 @@ description: "Master the Deep Half Sweep in BJJ. Step-by-step guide to hip-lift 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Deep half guard sweep 3 || One Minute On The Mat || No Gi Jiu Jitsu",
-      "description": "Deep Half Sweep film study: Deep half guard sweep 3 || One Minute On The Mat || No Gi Jiu Jitsu.",
+      "name": "Deep half guard sweep 3 || No Gi Jiu Jitsu",
+      "description": "Deep Half Sweep film study: Deep half guard sweep 3 || No Gi Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/v7MopqNBzwY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/v7MopqNBzwY",
       "url": "https://www.youtube.com/watch?v=v7MopqNBzwY",
@@ -135,7 +135,7 @@ The Deep Half Sweep is most effective when the opponent commits their weight for
 
 ![](https://www.youtube.com/watch?v=v7MopqNBzwY)
 
-<p class="clip-credit"><strong>Deep half guard sweep 3 || One Minute On The Mat || No Gi Jiu Jitsu</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=v7MopqNBzwY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deep half guard sweep 3 || No Gi Jiu Jitsu</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=v7MopqNBzwY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

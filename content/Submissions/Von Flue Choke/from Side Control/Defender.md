@@ -162,8 +162,8 @@ description: "How to defend against Von Flue Choke in BJJ. Recognition, escape p
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "TMG Clips #197 - Learn To Defend The Von Flue Choke!",
-      "description": "Von Flue Choke from Side Control (Defender) film study: TMG Clips #197 - Learn To Defend The Von Flue Choke!.",
+      "name": "Learn To Defend The Von Flue Choke!",
+      "description": "Von Flue Choke from Side Control (Defender) film study: Learn To Defend The Von Flue Choke!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sVTvrJqnXww/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sVTvrJqnXww",
       "url": "https://www.youtube.com/watch?v=sVTvrJqnXww",
@@ -208,7 +208,7 @@ Defending the Von Flue Choke requires understanding a fundamental paradox: the t
 
 ![](https://www.youtube.com/watch?v=sVTvrJqnXww)
 
-<p class="clip-credit"><strong>TMG Clips #197 - Learn To Defend The Von Flue Choke!</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=sVTvrJqnXww" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Learn To Defend The Von Flue Choke!</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=sVTvrJqnXww" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

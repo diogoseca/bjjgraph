@@ -367,7 +367,17 @@
       }
     ],
     "safety_considerations": "This escape involves significant spinal movement and neck pressure throughout its execution. Ensure your chin remains tucked at all times to protect cervical vertebrae from choke pressure during the transition. Never force the scooting motion if you feel sharp pain in your neck or spine. During training, communicate with your partner about the intensity of their hooks and choke attempts. Tap immediately if a choke is secured during practice rather than continuing the escape attempt. Build the scooting motion gradually through repetition before applying it under full resistance to prevent injury.",
-    "clips": []
+    "clips": [
+      {
+        "id": "rHcCpVSH4b8",
+        "title": "Back Escape (scoot variation)",
+        "channel": "Eagle BJJ",
+        "duration": 89,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-16"
+      }
+    ]
   },
   "defender": {
     "name": "Scoot Hips to Guard from Back Defender",

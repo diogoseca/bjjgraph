@@ -160,8 +160,8 @@ description: "Leg Weave Pass (defender): The passer's arm connecting your legs i
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "3 Step Defense Counter to the Weave Pass, PAMA, Raleigh NC",
-      "description": "Leg Weave Pass (Defender) film study: 3 Step Defense Counter to the Weave Pass, PAMA, Raleigh NC.",
+      "name": "3 Step Defense Counter to the Weave Pass",
+      "description": "Leg Weave Pass (Defender) film study: 3 Step Defense Counter to the Weave Pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9i-U4ivd108/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9i-U4ivd108",
       "url": "https://www.youtube.com/watch?v=9i-U4ivd108",
@@ -203,7 +203,7 @@ Use the upper-body frame and a small hip escape before the shield is fully folde
 
 ![](https://www.youtube.com/watch?v=9i-U4ivd108)
 
-<p class="clip-credit"><strong>3 Step Defense Counter to the Weave Pass, PAMA, Raleigh NC</strong> · 1:56 · <a href="https://www.youtube.com/watch?v=9i-U4ivd108" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Step Defense Counter to the Weave Pass</strong> · 1:56 · <a href="https://www.youtube.com/watch?v=9i-U4ivd108" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -176,6 +176,27 @@ description: "Complete guide to executing the bridge escape from technical mount
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge from Technical Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical mount escape: Underhook and bridge",
+      "description": "Bridge from Technical Mount (Attacker) film study: Technical mount escape: Underhook and bridge.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/flEsNMXs5qM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/flEsNMXs5qM",
+      "url": "https://www.youtube.com/watch?v=flEsNMXs5qM",
+      "duration": "PT166S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The bridge from technical mount is executed by the bottom player as a defensive 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge from Technical Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=flEsNMXs5qM)
+
+<p class="clip-credit"><strong>Technical mount escape: Underhook and bridge</strong> · 2:46 · <a href="https://www.youtube.com/watch?v=flEsNMXs5qM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

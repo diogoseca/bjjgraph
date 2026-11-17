@@ -56,8 +56,8 @@ description: "Master Honey Hole position in BJJ. Advanced leg entanglement with 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg",
-      "description": "Honey Hole film study: INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg.",
+      "name": "INSIDE SANKAKU ENTRIES",
+      "description": "Honey Hole film study: INSIDE SANKAKU ENTRIES.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Jn_JST6ZJ3o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Jn_JST6ZJ3o",
       "url": "https://www.youtube.com/watch?v=Jn_JST6ZJ3o",
@@ -122,7 +122,7 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 
 ![](https://www.youtube.com/watch?v=Jn_JST6ZJ3o)
 
-<p class="clip-credit"><strong>INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg</strong> · 2:17 · <a href="https://www.youtube.com/watch?v=Jn_JST6ZJ3o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>INSIDE SANKAKU ENTRIES</strong> · 2:17 · <a href="https://www.youtube.com/watch?v=Jn_JST6ZJ3o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

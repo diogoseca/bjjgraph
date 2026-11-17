@@ -12,6 +12,8 @@
 // L1-R1 (the reader of PR #434, its findings 1 and 3):
 //   L1-8 a place's debt not read (every place outside the plan "nothing due") → "a place that owes cards is never called nothing due…"
 //   L1-9 nothing left before the goal opens a finished place, not Keep practising → "the button's words"
+// L1-R2 (the second reader of PR #434):
+//   L1-11 a place that owes, in neither the record nor the plan, has no row → "every place that owes cards has a row…"
 //   L1-10 (progress-owner.src.js) a damaged `explored` entry refuses the record again → "a damaged explored is read as its strings…"
 import { test } from "node:test";
 import assert from "node:assert/strict";
@@ -49,6 +51,24 @@ test("a place that owes cards is never called nothing due: outside today's plan 
   assert.deepEqual(v.rest.map((r) => [r.seat, r.sub]), [["Combat Base|Bottom", "nothing due"]], "only a place that owes nothing says so");
   const unknown = ngMasterRows({ explored: ["Combat Base|Bottom"], resolve, day: DAY, owed: null });
   assert.equal(unknown.rest[0].sub, "", "no count known (the plan's game not in): nothing claimed");
+});
+
+// L1-R2 (the second reader of PR #434, its "unlisted owing place", 2 of 2; the orchestrator's ruling): the list's set is
+// today's plan, the record's places and the places that owe a card. Every record from before `explored` was stored owes
+// cards at places it does not hold.
+test("every place that owes cards has a row, though it is in neither the record nor the plan; it is not a place you have been to", () => {
+  const owed = { "Mount|Bottom": 4, "Jailbreak|Top": 3, "Turtle|Bottom": 1 };
+  const v = ngMasterRows({ plan: [{ seat: "Mount|Bottom", due: 4 }], explored: ["Mount|Top"], resolve, day: DAY, owed: (k) => owed[k] || 0,
+    owing: ["Mount|Bottom", "Turtle|Bottom", "Jailbreak|Top", "Gone|Top", "Hidden|Top"], today: (k) => (k === "Mount|Bottom" ? 2 : 0) });
+  assert.deepEqual(v.owing.map((r) => [r.seat, r.sub]), [["Jailbreak|Top", "3 due"], ["Turtle|Bottom", "1 due"]], "the owing places the record does not hold, above the rule, most owed first");
+  assert.deepEqual(v.rows.map((r) => r.seat), ["Mount|Bottom"], "a plan place is a row once");
+  assert.deepEqual(v.rest.map((r) => r.seat), ["Mount|Top"]);
+  assert.equal(v.been, 1, "`been` counts the record's places only: an owing place is not one you have been to");
+  assert.equal(v.unresolved, 0, "an owing key that no longer resolves is not a lost place of the record (the record never held it)");
+  assert.equal(v.rows[0].today, 2, "a row carries what was answered there today (the open place's figure)");
+  const none = ngMasterRows({ plan: [], explored: [], resolve, day: DAY, owed: (k) => owed[k] || 0, owing: ["Jailbreak|Top"] });
+  assert.deepEqual(none.owing.map((r) => r.seat), ["Jailbreak|Top"], "a record with no `explored` at all still lists what it owes");
+  assert.equal(none.been, 0);
 });
 
 test("a key that no longer resolves is counted, never shown", () => {

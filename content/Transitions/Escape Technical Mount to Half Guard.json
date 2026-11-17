@@ -597,6 +597,16 @@
         "description": "Full resistance positional sparring from technical mount. Practice reading the escape attempt and seamlessly transitioning between maintaining position, attacking the armbar, and taking the back based on the bottom player's defensive choices. Score for successful submissions, position maintenance over 30 seconds, and clean transitions to back control."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "Al5CODiamZM",
+        "title": "Holding technical mount (countering escape to half guard)",
+        "channel": "Inverted Gear",
+        "duration": 150,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-16"
+      }
+    ]
   }
 }

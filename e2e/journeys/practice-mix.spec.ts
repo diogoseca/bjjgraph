@@ -36,6 +36,17 @@ const CLASSIC = { answerMode: "classic" } as const
  * the drawer no longer asking for the planner as it opens is red at 2b's request count.
  * SIDE-R3: removing the revealed-card guard is red at 2c's queue identity assertion.
  */
+// L1-R2 (the second reader of PR #434, its point 9): the count line sits inside the folded "Session details & queue"; it is
+// read with the fold open (opened by its own summary), and the fold is put back as it was
+async function inDetails(page: any, read: () => Promise<void>) {
+  const d = page.locator("[data-practice-details]");
+  const was = await d.evaluate((el: HTMLDetailsElement) => el.open);
+  if (!was) { await d.locator("> summary").scrollIntoViewIfNeeded(); await d.locator("> summary").click(); }
+  await expect(d, "the fold is open, so the count line is on screen").toHaveAttribute("open", "");
+  await expect(page.locator('[data-session-section="Practice"]'), "the count line is visible").toBeVisible();
+  await read();
+  if (!was) { await d.locator("> summary").click(); await expect(d).not.toHaveAttribute("open", ""); }
+}
 async function setup(page: any, seed: { due: number, answered: number }, beforeOpen?: () => Promise<void>) {
   const j = journey(page, CLASSIC);
   await j.boot("/");
@@ -102,7 +113,7 @@ test("Practice: a fresh player's session is new gap cards from the weak-spots ra
   expect(rows.every((r) => r.kind === "new"), "every row is a new gap deck").toBe(true);
   const ranking = await page.evaluate(() => (window as any).__neural.weakSpots().keys as string[]);
   expect(rows.every((r) => ranking.includes(r.key)), "each comes from the weak-spots ranking").toBe(true);
-  await expect(page.locator('[data-session-section="Practice"]')).toContainText("weakest first");
+  await inDetails(page, () => expect(page.locator('[data-session-section="Practice"]')).toContainText("weakest first"));
   await expect(page.locator("[data-practice-goal]")).toHaveText("Daily goal: 0 of 20 today");
 });
 
@@ -157,7 +168,7 @@ test("Practice (2a): a player with due cards gets reviews and new decks, interle
   expect(fx.dueKeys.length, "premise: eight owed decks").toBe(8);
   const plan = await expectPlanned(page, rows);
   // until v1.278.0: "8 cards to review", every owed card; the count line now says what the day asks of them (U171 a)
-  await expect(page.locator('[data-session-section="Practice"]')).toContainText(plan.dueCards ? `${plan.dueCards} card${plan.dueCards === 1 ? "" : "s"} to review` : `${plan.newCards} new`);
+  await inDetails(page, () => expect(page.locator('[data-session-section="Practice"]')).toContainText(plan.dueCards ? `${plan.dueCards} card${plan.dueCards === 1 ? "" : "s"} to review` : `${plan.newCards} new`));
 });
 
 // SIDE-R3 N4: a reveal is engagement even before a grade. The real held planner lands while the

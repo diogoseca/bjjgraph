@@ -267,7 +267,8 @@ NEURAL_TARGET = {
     # L1's own (master-list.src.js, kept out of the eager core); 20_147 B of 550_000 remain.
     # v1.290.0 L1-R0 (on dev v1.288.0): 530_216, +363 B: the open place's count and its rules (master-list.src.js); 19_784 B remain.
     # v1.290.0 L1-R1 (the reader's findings on PR #434): 531_246, +1_030 B: what a place owes, read for every row, and "Keep practising" when the plan runs out (master-list.src.js); 18_754 B remain.
-    "deferred_raw_bytes": 531_246,
+    # v1.290.0 L1-R2 (the second reader's findings on PR #434): 531_733, +487 B: a row for every place that owes, and the open place's own figure (master-list.src.js); 18_267 B remain.
+    "deferred_raw_bytes": 531_733,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one

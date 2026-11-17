@@ -36,6 +36,27 @@ description: "Master the Back Door Escape from Half Guard in BJJ. Complete guide
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Door Escape from Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half Guard Back Door Escape",
+      "description": "Back Door Escape from Half Guard film study: Half Guard Back Door Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lUi03XC7lBY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lUi03XC7lBY",
+      "url": "https://www.youtube.com/watch?v=lUi03XC7lBY",
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The back door escape carries inherent risk because turning away from the opponen
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Door Escape from Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lUi03XC7lBY)
+
+<p class="clip-credit"><strong>Half Guard Back Door Escape</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=lUi03XC7lBY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

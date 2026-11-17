@@ -186,8 +186,8 @@ description: "Learn to attack the omoplata from armbar control position. Step-by
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "BJJ Techniques: Basic Omoplata from Armbar Attempt",
-      "description": "Omoplata from Armbar Control (Attacker) film study: BJJ Techniques: Basic Omoplata from Armbar Attempt.",
+      "name": "Basic Omoplata from Armbar Attempt",
+      "description": "Omoplata from Armbar Control (Attacker) film study: Basic Omoplata from Armbar Attempt.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lKPIFyJVEAE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lKPIFyJVEAE",
       "url": "https://www.youtube.com/watch?v=lKPIFyJVEAE",
@@ -222,7 +222,7 @@ Attacking the omoplata from armbar control requires recognizing the precise mome
 
 ![](https://www.youtube.com/watch?v=lKPIFyJVEAE)
 
-<p class="clip-credit"><strong>BJJ Techniques: Basic Omoplata from Armbar Attempt</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=lKPIFyJVEAE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Basic Omoplata from Armbar Attempt</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=lKPIFyJVEAE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

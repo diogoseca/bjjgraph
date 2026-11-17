@@ -46,8 +46,8 @@ description: "Learn Darce Setup in BJJ. Step-by-step execution from Front Headlo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Procel BJJ | Darce Choke from the Front Headlock Position",
-      "description": "Darce Setup film study: Procel BJJ | Darce Choke from the Front Headlock Position.",
+      "name": "Darce Choke from the Front Headlock Position",
+      "description": "Darce Setup film study: Darce Choke from the Front Headlock Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/BMU1_wfjYTw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/BMU1_wfjYTw",
       "url": "https://www.youtube.com/watch?v=BMU1_wfjYTw",
@@ -105,7 +105,7 @@ The Darce setup requires precise timing and technical execution rather than pure
 
 ![](https://www.youtube.com/watch?v=BMU1_wfjYTw)
 
-<p class="clip-credit"><strong>Procel BJJ | Darce Choke from the Front Headlock Position</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Darce Choke from the Front Headlock Position</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

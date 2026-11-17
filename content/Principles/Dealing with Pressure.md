@@ -172,8 +172,8 @@ description: "Dealing with pressure means protecting your neck and arms, buildin
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Defensive BJJ: the five position system",
-      "description": "Dealing with Pressure film study: Defensive BJJ: the five position system.",
+      "name": "The five position system",
+      "description": "Dealing with Pressure film study: The five position system.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HYON7oAvB2s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HYON7oAvB2s",
       "url": "https://www.youtube.com/watch?v=HYON7oAvB2s",
@@ -232,7 +232,7 @@ Address immediate submission threats, then build a frame and an angle before try
 
 ![](https://www.youtube.com/watch?v=HYON7oAvB2s)
 
-<p class="clip-credit"><strong>Defensive BJJ: the five position system</strong> · 16:22 · <a href="https://www.youtube.com/watch?v=HYON7oAvB2s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The five position system</strong> · 16:22 · <a href="https://www.youtube.com/watch?v=HYON7oAvB2s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

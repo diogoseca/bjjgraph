@@ -160,8 +160,8 @@ description: "Defensive strategies against the Rear Clinch to Body Lock transiti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "2 Rear BODY LOCK Counters for MMA; GRANBY ROLL and KNEE BAR #GFAMMA",
-      "description": "Rear Clinch to Body Lock (Defender) film study: 2 Rear BODY LOCK Counters for MMA; GRANBY ROLL and KNEE BAR #GFAMMA.",
+      "name": "2 Rear BODY LOCK Counters for MMA; GRANBY ROLL and KNEE BAR",
+      "description": "Rear Clinch to Body Lock (Defender) film study: 2 Rear BODY LOCK Counters for MMA; GRANBY ROLL and KNEE BAR.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aW0nNv2UWh0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aW0nNv2UWh0",
       "url": "https://www.youtube.com/watch?v=aW0nNv2UWh0",
@@ -195,7 +195,7 @@ As the defender facing the Rear Clinch to Body Lock conversion, your situation e
 
 ![](https://www.youtube.com/watch?v=aW0nNv2UWh0)
 
-<p class="clip-credit"><strong>2 Rear BODY LOCK Counters for MMA; GRANBY ROLL and KNEE BAR #GFAMMA</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=aW0nNv2UWh0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>2 Rear BODY LOCK Counters for MMA; GRANBY ROLL and KNEE BAR</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=aW0nNv2UWh0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

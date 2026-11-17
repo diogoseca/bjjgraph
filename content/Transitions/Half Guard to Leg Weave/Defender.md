@@ -153,8 +153,8 @@ description: "Half Guard to Leg Weave (defender): The passer's arm connecting yo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Grand Union Comp Tips ; Prevent the leg weave with Lasso",
-      "description": "Half Guard to Leg Weave (Defender) film study: Grand Union Comp Tips ; Prevent the leg weave with Lasso.",
+      "name": "Prevent the leg weave with Lasso",
+      "description": "Half Guard to Leg Weave (Defender) film study: Prevent the leg weave with Lasso.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tO5rPtjfsGE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tO5rPtjfsGE",
       "url": "https://www.youtube.com/watch?v=tO5rPtjfsGE",
@@ -163,8 +163,8 @@ description: "Half Guard to Leg Weave (defender): The passer's arm connecting yo
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "3 Step Defense Counter to the Weave Pass, PAMA, Raleigh NC",
-      "description": "Half Guard to Leg Weave (Defender) film study: 3 Step Defense Counter to the Weave Pass, PAMA, Raleigh NC.",
+      "name": "3 Step Defense Counter to the Weave Pass",
+      "description": "Half Guard to Leg Weave (Defender) film study: 3 Step Defense Counter to the Weave Pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9i-U4ivd108/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9i-U4ivd108",
       "url": "https://www.youtube.com/watch?v=9i-U4ivd108",
@@ -211,7 +211,7 @@ Frame across the passer's shoulder line to turn the head away while keeping the 
 
 ![](https://www.youtube.com/watch?v=tO5rPtjfsGE)
 
-<p class="clip-credit"><strong>Grand Union Comp Tips ; Prevent the leg weave with Lasso</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=tO5rPtjfsGE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Prevent the leg weave with Lasso</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=tO5rPtjfsGE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -219,7 +219,7 @@ Frame across the passer's shoulder line to turn the head away while keeping the 
 
 ![](https://www.youtube.com/watch?v=9i-U4ivd108)
 
-<p class="clip-credit"><strong>3 Step Defense Counter to the Weave Pass, PAMA, Raleigh NC</strong> · 1:56 · <a href="https://www.youtube.com/watch?v=9i-U4ivd108" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Step Defense Counter to the Weave Pass</strong> · 1:56 · <a href="https://www.youtube.com/watch?v=9i-U4ivd108" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

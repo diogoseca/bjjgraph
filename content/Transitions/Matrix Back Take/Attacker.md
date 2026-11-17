@@ -176,6 +176,27 @@ description: "How to execute the Matrix Back Take in BJJ. Attacking perspective 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Matrix Back Take (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Key Details to Finish the Matrix Back Take",
+      "description": "Matrix Back Take (Attacker) film study: Key Details to Finish the Matrix Back Take.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v5NUdUDnmB0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v5NUdUDnmB0",
+      "url": "https://www.youtube.com/watch?v=v5NUdUDnmB0",
+      "duration": "PT197S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -192,6 +213,24 @@ The Matrix Back Take integrates naturally with truck entries, crab ride transiti
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Matrix Back Take (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v5NUdUDnmB0)
+
+<p class="clip-credit"><strong>Key Details to Finish the Matrix Back Take</strong> · 3:17 · <a href="https://www.youtube.com/watch?v=v5NUdUDnmB0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

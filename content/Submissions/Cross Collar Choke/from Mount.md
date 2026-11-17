@@ -66,8 +66,8 @@ description: "Master the Cross Collar Choke from Mount in BJJ. Learn deep collar
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Palm up Palm up CROSS CHOKE BJJ | Variation",
-      "description": "Cross Collar Choke from Mount film study: Palm up Palm up CROSS CHOKE BJJ | Variation.",
+      "name": "Palm up cross choke variation",
+      "description": "Cross Collar Choke from Mount film study: Palm up cross choke variation.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DrAxA8KUxbo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DrAxA8KUxbo",
       "url": "https://www.youtube.com/watch?v=DrAxA8KUxbo",
@@ -149,7 +149,7 @@ From a strategic standpoint, the Cross Collar Choke creates a powerful dilemma t
 
 ![](https://www.youtube.com/watch?v=DrAxA8KUxbo)
 
-<p class="clip-credit"><strong>Palm up Palm up CROSS CHOKE BJJ | Variation</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=DrAxA8KUxbo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Palm up cross choke variation</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=DrAxA8KUxbo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

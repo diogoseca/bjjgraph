@@ -196,8 +196,8 @@ description: "How to execute the Omoplata Sweep in BJJ. Attacking perspective wi
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Omoplata and Log Roll Sweep #bjj #pacjiujitsu",
-      "description": "Omoplata Sweep (Attacker) film study: Omoplata and Log Roll Sweep #bjj #pacjiujitsu.",
+      "name": "Omoplata and Log Roll Sweep #bjj",
+      "description": "Omoplata Sweep (Attacker) film study: Omoplata and Log Roll Sweep #bjj.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GDXF6brOcjw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GDXF6brOcjw",
       "url": "https://www.youtube.com/watch?v=GDXF6brOcjw",
@@ -239,7 +239,7 @@ The Omoplata Sweep attacks from closed guard by threatening the omoplata shoulde
 
 ![](https://www.youtube.com/watch?v=GDXF6brOcjw)
 
-<p class="clip-credit"><strong>Omoplata and Log Roll Sweep #bjj #pacjiujitsu</strong> · 1:47 · <a href="https://www.youtube.com/watch?v=GDXF6brOcjw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata and Log Roll Sweep #bjj</strong> · 1:47 · <a href="https://www.youtube.com/watch?v=GDXF6brOcjw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

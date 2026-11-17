@@ -36,6 +36,27 @@ description: "Master the shoulder walk escape from back control in BJJ. Complete
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shoulder Walk Escape from Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shoulder walk escape",
+      "description": "Shoulder Walk Escape from Back film study: Shoulder walk escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qwt_4xaphEc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qwt_4xaphEc",
+      "url": "https://www.youtube.com/watch?v=qwt_4xaphEc",
+      "duration": "PT294S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, the shoulder walk serves as both a primary escape and a chain-sta
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shoulder Walk Escape from Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qwt_4xaphEc)
+
+<p class="clip-credit"><strong>Shoulder walk escape</strong> · 4:54 · <a href="https://www.youtube.com/watch?v=qwt_4xaphEc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

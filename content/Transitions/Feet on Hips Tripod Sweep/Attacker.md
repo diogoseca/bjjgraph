@@ -186,8 +186,8 @@ description: "Complete attacker's guide to the Feet on Hips Tripod Sweep. Step-b
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Collar and Sleeve Tripod Sweep | How to BJJ techniques",
-      "description": "Feet on Hips Tripod Sweep (Attacker) film study: Collar and Sleeve Tripod Sweep | How to BJJ techniques.",
+      "name": "Collar and Sleeve Tripod Sweep",
+      "description": "Feet on Hips Tripod Sweep (Attacker) film study: Collar and Sleeve Tripod Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0AnyD7w2wQE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0AnyD7w2wQE",
       "url": "https://www.youtube.com/watch?v=0AnyD7w2wQE",
@@ -221,7 +221,7 @@ The Feet on Hips Tripod Sweep is executed from bottom position with both feet on
 
 ![](https://www.youtube.com/watch?v=0AnyD7w2wQE)
 
-<p class="clip-credit"><strong>Collar and Sleeve Tripod Sweep | How to BJJ techniques</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=0AnyD7w2wQE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Collar and Sleeve Tripod Sweep</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=0AnyD7w2wQE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

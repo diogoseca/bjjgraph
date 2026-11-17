@@ -192,8 +192,8 @@ description: "Execute the Collar Sleeve Sweep with precision. Complete attacking
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Golden State BJJ Fundamentals- Tripod Sweep from Collar Sleeve Guard",
-      "description": "Collar Sleeve Sweep (Attacker) film study: Golden State BJJ Fundamentals- Tripod Sweep from Collar Sleeve Guard.",
+      "name": "Fundamentals- Tripod Sweep from Collar Sleeve Guard",
+      "description": "Collar Sleeve Sweep (Attacker) film study: Fundamentals- Tripod Sweep from Collar Sleeve Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sXMtbCGzpvs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sXMtbCGzpvs",
       "url": "https://www.youtube.com/watch?v=sXMtbCGzpvs",
@@ -237,7 +237,7 @@ As the attacker executing the Collar Sleeve Sweep, your objective is to use your
 
 ![](https://www.youtube.com/watch?v=sXMtbCGzpvs)
 
-<p class="clip-credit"><strong>Golden State BJJ Fundamentals- Tripod Sweep from Collar Sleeve Guard</strong> · 1:35 · <a href="https://www.youtube.com/watch?v=sXMtbCGzpvs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Fundamentals- Tripod Sweep from Collar Sleeve Guard</strong> · 1:35 · <a href="https://www.youtube.com/watch?v=sXMtbCGzpvs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

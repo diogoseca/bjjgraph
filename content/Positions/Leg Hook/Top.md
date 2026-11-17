@@ -165,8 +165,8 @@ description: "Master Leg Hook Top in BJJ. Control position from half guard top w
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "HACK 69: Passing Dealing with the Leg hook",
-      "description": "Leg Hook (Top) film study: HACK 69: Passing Dealing with the Leg hook.",
+      "name": "Passing Dealing with the Leg hook",
+      "description": "Leg Hook (Top) film study: Passing Dealing with the Leg hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sLEo5uBwhj0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sLEo5uBwhj0",
       "url": "https://www.youtube.com/watch?v=sLEo5uBwhj0",
@@ -198,7 +198,7 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 ![](https://www.youtube.com/watch?v=sLEo5uBwhj0)
 
-<p class="clip-credit"><strong>HACK 69: Passing Dealing with the Leg hook</strong> · 2:30 · <a href="https://www.youtube.com/watch?v=sLEo5uBwhj0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Dealing with the Leg hook</strong> · 2:30 · <a href="https://www.youtube.com/watch?v=sLEo5uBwhj0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

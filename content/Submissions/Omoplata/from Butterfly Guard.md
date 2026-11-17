@@ -66,8 +66,8 @@ description: "Master the Omoplata from Butterfly Guard. Learn hook elevation ent
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "TMG Clips #80 - Omoplata Details!",
-      "description": "Omoplata from Butterfly Guard film study: TMG Clips #80 - Omoplata Details!.",
+      "name": "Omoplata Details!",
+      "description": "Omoplata from Butterfly Guard film study: Omoplata Details!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zjhkmmfU1gg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zjhkmmfU1gg",
       "url": "https://www.youtube.com/watch?v=zjhkmmfU1gg",
@@ -149,7 +149,7 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 
 ![](https://www.youtube.com/watch?v=zjhkmmfU1gg)
 
-<p class="clip-credit"><strong>TMG Clips #80 - Omoplata Details!</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=zjhkmmfU1gg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata Details!</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=zjhkmmfU1gg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

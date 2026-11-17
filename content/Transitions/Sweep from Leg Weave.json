@@ -264,7 +264,18 @@
         }
       }
     ],
-    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route."
+    "safety_considerations": "Practice cooperatively with controlled movement. Stop at any tap, verbal signal, or distress; release all joint or neck pressure before changing direction. Do not force a trapped knee, shoulder, or neck to preserve the route.",
+    "clips": [
+      {
+        "id": "uqjSK8G2B3o",
+        "title": "Technique of the week - Counter Sweep from leg weave pass",
+        "channel": "Darrin Lillian",
+        "duration": 53,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-16"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Leg Weave Defender",

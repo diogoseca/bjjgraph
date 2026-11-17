@@ -56,8 +56,8 @@ description: "Master the Kimura from Side Control in BJJ. Comprehensive guide co
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kimura Finish - ZombieProofBJJ",
-      "description": "Kimura from Side Control film study: Kimura Finish - ZombieProofBJJ.",
+      "name": "Kimura Finish",
+      "description": "Kimura from Side Control film study: Kimura Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FYKc-hep22I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FYKc-hep22I",
       "url": "https://www.youtube.com/watch?v=FYKc-hep22I",
@@ -127,7 +127,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 ![](https://www.youtube.com/watch?v=FYKc-hep22I)
 
-<p class="clip-credit"><strong>Kimura Finish - ZombieProofBJJ</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=FYKc-hep22I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura Finish</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=FYKc-hep22I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

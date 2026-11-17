@@ -36,6 +36,27 @@ description: "Master the Matrix Back Take from turtle. Step-by-step execution wi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Matrix Back Take \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Key Details to Finish the Matrix Back Take",
+      "description": "Matrix Back Take film study: Key Details to Finish the Matrix Back Take.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v5NUdUDnmB0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v5NUdUDnmB0",
+      "url": "https://www.youtube.com/watch?v=v5NUdUDnmB0",
+      "duration": "PT197S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The Matrix Back Take has become a staple in modern no-gi back attack systems, wh
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Matrix Back Take in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v5NUdUDnmB0)
+
+<p class="clip-credit"><strong>Key Details to Finish the Matrix Back Take</strong> · 3:17 · <a href="https://www.youtube.com/watch?v=v5NUdUDnmB0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

@@ -196,8 +196,8 @@ description: "How to execute Von Flue Choke in BJJ. Attacking perspective with s
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "TMG Clips #24 - The Von Flue Choke",
-      "description": "Von Flue Choke from Side Control (Attacker) film study: TMG Clips #24 - The Von Flue Choke.",
+      "name": "The Von Flue Choke",
+      "description": "Von Flue Choke from Side Control (Attacker) film study: The Von Flue Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ExQHrRPcvLM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ExQHrRPcvLM",
       "url": "https://www.youtube.com/watch?v=ExQHrRPcvLM",
@@ -250,7 +250,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 ![](https://www.youtube.com/watch?v=ExQHrRPcvLM)
 
-<p class="clip-credit"><strong>TMG Clips #24 - The Von Flue Choke</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=ExQHrRPcvLM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Von Flue Choke</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=ExQHrRPcvLM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -197,8 +197,8 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inside Sankaku Double Trouble Heelhook - Matrix Jiu Jitsu",
-      "description": "Heel Hook from Inside Sankaku (Attacker) film study: Inside Sankaku Double Trouble Heelhook - Matrix Jiu Jitsu.",
+      "name": "Inside Sankaku Double Trouble Heelhook",
+      "description": "Heel Hook from Inside Sankaku (Attacker) film study: Inside Sankaku Double Trouble Heelhook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mBjjFZy-w-0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mBjjFZy-w-0",
       "url": "https://www.youtube.com/watch?v=mBjjFZy-w-0",
@@ -246,7 +246,7 @@ Attacking the heel hook from Inside Sankaku demands systematic positional develo
 
 ![](https://www.youtube.com/watch?v=mBjjFZy-w-0)
 
-<p class="clip-credit"><strong>Inside Sankaku Double Trouble Heelhook - Matrix Jiu Jitsu</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=mBjjFZy-w-0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inside Sankaku Double Trouble Heelhook</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=mBjjFZy-w-0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

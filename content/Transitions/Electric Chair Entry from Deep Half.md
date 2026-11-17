@@ -46,8 +46,8 @@ description: "Master the Electric Chair entry from Deep Half Guard in BJJ. Lockd
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Electric Chair From Deep Half- Mineral Wells BJJ",
-      "description": "Electric Chair Entry from Deep Half film study: Electric Chair From Deep Half- Mineral Wells BJJ.",
+      "name": "Electric Chair From Deep Half",
+      "description": "Electric Chair Entry from Deep Half film study: Electric Chair From Deep Half.",
       "thumbnailUrl": "https://i.ytimg.com/vi/O18n2Z5HISI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/O18n2Z5HISI",
       "url": "https://www.youtube.com/watch?v=O18n2Z5HISI",
@@ -117,7 +117,7 @@ What makes this entry especially dangerous is that the top player is already con
 
 ![](https://www.youtube.com/watch?v=O18n2Z5HISI)
 
-<p class="clip-credit"><strong>Electric Chair From Deep Half- Mineral Wells BJJ</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair From Deep Half</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

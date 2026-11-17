@@ -165,8 +165,8 @@ description: "Defensive survival position requiring systematic escape mechanics 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "WWW.SOULFIGHT.NET- The Truck Position \u0026 How to Escape it",
-      "description": "Truck (Bottom) film study: WWW.SOULFIGHT.NET- The Truck Position \u0026 How to Escape it.",
+      "name": "The Truck Position \u0026 How to Escape it",
+      "description": "Truck (Bottom) film study: The Truck Position \u0026 How to Escape it.",
       "thumbnailUrl": "https://i.ytimg.com/vi/a6AMOyZ5cZA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/a6AMOyZ5cZA",
       "url": "https://www.youtube.com/watch?v=a6AMOyZ5cZA",
@@ -212,7 +212,7 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 
 ![](https://www.youtube.com/watch?v=a6AMOyZ5cZA)
 
-<p class="clip-credit"><strong>WWW.SOULFIGHT.NET- The Truck Position &amp; How to Escape it</strong> · 14:59 · <a href="https://www.youtube.com/watch?v=a6AMOyZ5cZA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Truck Position &amp; How to Escape it</strong> · 14:59 · <a href="https://www.youtube.com/watch?v=a6AMOyZ5cZA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

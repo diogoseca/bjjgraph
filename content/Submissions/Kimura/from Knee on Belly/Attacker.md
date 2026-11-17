@@ -190,8 +190,8 @@ description: "Learn to attack the Kimura from Knee on Belly. Step-by-step guide 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Knee on belly to Kimura from North South(KalivasTeam BJJ\u0026MMA)",
-      "description": "Kimura from Knee on Belly (Attacker) film study: Knee on belly to Kimura from North South(KalivasTeam BJJ\u0026MMA).",
+      "name": "Knee on belly to Kimura from North South",
+      "description": "Kimura from Knee on Belly (Attacker) film study: Knee on belly to Kimura from North South.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MEc9jBx5M14/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MEc9jBx5M14",
       "url": "https://www.youtube.com/watch?v=MEc9jBx5M14",
@@ -244,7 +244,7 @@ Attacking the Kimura from Knee on Belly requires understanding how to weaponize 
 
 ![](https://www.youtube.com/watch?v=MEc9jBx5M14)
 
-<p class="clip-credit"><strong>Knee on belly to Kimura from North South(KalivasTeam BJJ&amp;MMA)</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=MEc9jBx5M14" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee on belly to Kimura from North South</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=MEc9jBx5M14" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

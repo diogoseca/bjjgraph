@@ -165,8 +165,8 @@ description: "Master Double Unders top position in BJJ. Dominant pressure passin
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown",
-      "description": "Double Unders (Top) film study: No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown.",
+      "name": "No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu",
+      "description": "Double Unders (Top) film study: No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wBZrTpuXV50/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wBZrTpuXV50",
       "url": "https://www.youtube.com/watch?v=wBZrTpuXV50",
@@ -200,7 +200,7 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 ![](https://www.youtube.com/watch?v=wBZrTpuXV50)
 
-<p class="clip-credit"><strong>No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

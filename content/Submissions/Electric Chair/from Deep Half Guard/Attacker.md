@@ -186,8 +186,8 @@ description: "How to execute Electric Chair in BJJ. Attacking perspective with s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Electric Chair From Deep Half- Mineral Wells BJJ",
-      "description": "Electric Chair from Deep Half Guard (Attacker) film study: Electric Chair From Deep Half- Mineral Wells BJJ.",
+      "name": "Electric Chair From Deep Half",
+      "description": "Electric Chair from Deep Half Guard (Attacker) film study: Electric Chair From Deep Half.",
       "thumbnailUrl": "https://i.ytimg.com/vi/O18n2Z5HISI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/O18n2Z5HISI",
       "url": "https://www.youtube.com/watch?v=O18n2Z5HISI",
@@ -226,7 +226,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 ![](https://www.youtube.com/watch?v=O18n2Z5HISI)
 
-<p class="clip-credit"><strong>Electric Chair From Deep Half- Mineral Wells BJJ</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair From Deep Half</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
