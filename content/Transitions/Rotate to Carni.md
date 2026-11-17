@@ -94,7 +94,7 @@ description: "Rotating to Carni seeks a leg-assisted shoulder clamp after cleari
 
 **Rotating to Carni seeks a leg-assisted shoulder clamp after clearing the high leg around the head and turning partly belly down with triceps and wrist control.**
 
-The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled. Richie Martinez demonstrates the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone.
+The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled. The cited demonstration shows the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone.
 
 Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
@@ -281,7 +281,7 @@ Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](ht
 
 ## Position Integration
 
-The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled. Richie Martinez demonstrates the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
+The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled. The cited demonstration shows the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 

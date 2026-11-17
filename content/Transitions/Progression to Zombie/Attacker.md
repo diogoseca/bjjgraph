@@ -84,7 +84,7 @@ description: "Progression to Zombie (attacker): Maintain posture control while f
     },
     {
       "@type": "Question",
-      "name": "Progression to Zombie (bottom): Where does Eddy begin against a tight elbow clamp?",
+      "name": "Progression to Zombie (bottom): Where do you begin against a tight elbow clamp?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hand-first version seeks the weaker opening under the hand rather than prying directly beneath the clamped elbow."

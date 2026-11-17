@@ -106,7 +106,7 @@ description: "Carni is a rubber-guard shoulder-lock configuration in which the b
 
 The guard player has a high leg and an overhook-side shoulder connection. The controlling leg has cleared around the head while the knee stays close to the torso. The guard player turns partly belly down and anchors the foot to limit posture recovery. Triceps and wrist control isolate the captured arm for a controlled shoulder-lock threat.
 
-Richie Martinez demonstrates the configuration from Z guard through Jersey. The legs help anchor the upper body, but the submission target is the shoulder; a calf slicer, heel hook, or kneebar requires a separate lower-body capture. Terminology: Carnie, Carni shoulder-lock control.
+The demonstration shows the configuration from Z guard through Jersey. The legs help anchor the upper body, but the submission target is the shoulder; a calf slicer, heel hook, or kneebar requires a separate lower-body capture. Terminology: Carnie, Carni shoulder-lock control.
 
 Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 

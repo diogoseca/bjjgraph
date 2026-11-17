@@ -74,7 +74,7 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Mir Lock",
-  "description": "The Mir Lock is a straight-arm shoulder lock applied from top control that drives an isolated arm into shoulder hyperextension and external rotation using body weight, named after Frank Mir's UFC 48 finish over Tim Sylvia.",
+  "description": "The Mir Lock is a straight-arm shoulder lock applied from top control that drives an isolated arm into shoulder hyperextension and external rotation using body weight, named after Frank Mir's UFC 48 finish.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    { "@type": "Question", "name": "What is the Mir Lock?", "acceptedAnswer": { "@type": "Answer", "text": "The Mir Lock is a straight-arm shoulder lock applied from top control that drives an isolated arm into shoulder hyperextension and external rotation using body weight, named after Frank Mir\u0027s UFC 48 finish over Tim Sylvia." } },
+    { "@type": "Question", "name": "What is the Mir Lock?", "acceptedAnswer": { "@type": "Answer", "text": "The Mir Lock is a straight-arm shoulder lock applied from top control that drives an isolated arm into shoulder hyperextension and external rotation using body weight, named after Frank Mir\u0027s UFC 48 finish." } },
     { "@type": "Question", "name": "What positions can you finish the Mir Lock from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Mir Lock from Side Control." } },
     { "@type": "Question", "name": "Is the Mir Lock dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Mir Lock targets the Shoulder joint (glenohumeral joint). Primary risk: Shoulder dislocation (anterior or posterior). Tap early and release immediately on the tap." } }
   ]
@@ -99,7 +99,7 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Mir Lock is a straight-arm shoulder lock applied from top control that drives an isolated arm into shoulder hyperextension and external rotation using body weight, named after Frank Mir's UFC 48 finish over Tim Sylvia.**
+**The Mir Lock is a straight-arm shoulder lock applied from top control that drives an isolated arm into shoulder hyperextension and external rotation using body weight, named after Frank Mir's UFC 48 finish.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
@@ -109,7 +109,7 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 
 <section id="overview" class="content-section">
 
-The Mir Lock is a powerful shoulder lock submission that targets the glenohumeral joint through hyperextension and rotation. The name pays homage to UFC Hall of Famer Frank Mir, who at UFC 48 secured a kimura grip on Tim Sylvia and finished with a straight armlock that snapped the forearm — a true arm/elbow break rather than a shoulder break, so the namesake honors Mir's signature figure-four arm control rather than this specific shoulder-hyperextension finish. Building on that figure-four grip lineage, this submission represents a devastating variation of the traditional Americana position. The mechanics involve isolating the opponent's arm while applying rotational pressure that combines external rotation with backward leverage against the shoulder's natural range of motion. Unlike the standard Americana which emphasizes figure-four control and lateral rotation, the Mir Lock utilizes a straight-arm position with the attacker's body weight driving the shoulder into dangerous hyperextension. This submission is most commonly applied from top control positions like side control, north-south, or modified mount, where the attacker has superior positioning and can effectively isolate one of the opponent's arms. The technique requires precise understanding of shoulder anatomy and careful application due to its potential for catastrophic injury. The Mir Lock exemplifies the principle that submissions should control the position first, establish the grip structure second, and only then apply finishing pressure with proper safety awareness.
+The Mir Lock is a powerful shoulder lock submission that targets the glenohumeral joint through hyperextension and rotation. The name pays homage to UFC Hall of Famer Frank Mir, who at UFC 48 secured a kimura grip on the opponent and finished with a straight armlock that snapped the forearm — a true arm/elbow break rather than a shoulder break, so the namesake honors Mir's signature figure-four arm control rather than this specific shoulder-hyperextension finish. Building on that figure-four grip lineage, this submission represents a devastating variation of the traditional Americana position. The mechanics involve isolating the opponent's arm while applying rotational pressure that combines external rotation with backward leverage against the shoulder's natural range of motion. Unlike the standard Americana which emphasizes figure-four control and lateral rotation, the Mir Lock utilizes a straight-arm position with the attacker's body weight driving the shoulder into dangerous hyperextension. This submission is most commonly applied from top control positions like side control, north-south, or modified mount, where the attacker has superior positioning and can effectively isolate one of the opponent's arms. The technique requires precise understanding of shoulder anatomy and careful application due to its potential for catastrophic injury. The Mir Lock exemplifies the principle that submissions should control the position first, establish the grip structure second, and only then apply finishing pressure with proper safety awareness.
 
 </section>
 

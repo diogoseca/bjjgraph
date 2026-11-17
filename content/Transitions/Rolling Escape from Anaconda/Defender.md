@@ -75,7 +75,7 @@ description: "Rolling Escape from Anaconda (defender): Contain the opponent's he
       "name": "Anaconda rolling escape (holder): Where does the threading hand grip in the arm figure-four?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The threading hand grips the supporting arm's biceps to close the figure-four. Connect without twisting the opponent's neck; the drill can stop at the unloaded enclosure. Kesting emphasizes sufficient threading depth rather than a shallow fingertip contact."
+        "text": "The threading hand grips the supporting arm's biceps to close the figure-four. Connect without twisting the opponent's neck; the drill can stop at the unloaded enclosure. The lesson emphasizes sufficient threading depth rather than a shallow fingertip contact."
       }
     },
     {
@@ -83,7 +83,7 @@ description: "Rolling Escape from Anaconda (defender): Contain the opponent's he
       "name": "Anaconda rolling escape (holder): Where does your head belong during the taught controlled roll?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Kesting's account places the holder's head to the side of the body during the roll. Use the angle only with free, controlled movement and immediate release on a tap."
+        "text": "The lesson places the holder's head to the side of the body during the roll. Use the angle only with free, controlled movement and immediate release on a tap."
       }
     }
   ]

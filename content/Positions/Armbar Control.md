@@ -46,8 +46,8 @@ description: "Master armbar control in BJJ from both offensive and defensive per
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armbar in Philadelphia",
-      "description": "Armbar Control film study: Armbar in Philadelphia.",
+      "name": "Armbar",
+      "description": "Armbar Control film study: Armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R2-h9yOwRdU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/R2-h9yOwRdU",
       "url": "https://www.youtube.com/watch?v=R2-h9yOwRdU",
@@ -118,7 +118,7 @@ From the bottom, survival depends on understanding the same five-point control s
 
 ![](https://www.youtube.com/watch?v=R2-h9yOwRdU)
 
-<p class="clip-credit"><strong>Armbar in Philadelphia</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=R2-h9yOwRdU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=R2-h9yOwRdU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

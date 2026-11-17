@@ -95,7 +95,7 @@ description: "The Suloev Stretch from a rear tripod captures the elevated oppone
 
 <section id="overview" class="content-section">
 
-The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.
+The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. The breakdown distinguishes the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.
 
 Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control. Arrange the leg so it extends in its natural line rather than rotating sideways at the knee.
 
@@ -263,7 +263,7 @@ Instructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submiss
 **Control-only rehearsal**: The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Control the torso from behind before reaching below the hips. (When to use: Cooperative practice before adding resistance or any finishing pressure)
 
 
-**Entry prerequisite check**: Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite. (When to use: Before linking this submission to a different starting position)
+**Entry prerequisite check**: Half guard is not the demonstrated finishing configuration. The breakdown distinguishes the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite. (When to use: Before linking this submission to a different starting position)
 
 
 

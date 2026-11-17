@@ -67,7 +67,7 @@ description: "Strip Grip from Zombie (defender): Maintain posture control while 
       "name": "Strip Grip from Zombie (bottom): Where can the hand-first pummel seek another opening?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Eddy's version works near the hand because the opponent can clamp more strongly directly at the elbow."
+        "text": "The demonstrated version works near the hand because the opponent can clamp more strongly directly at the elbow."
       }
     },
     {

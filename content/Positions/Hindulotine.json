@@ -9,7 +9,7 @@
     "Keep the knee supported: Hug the knee and turn onto the hip to create room for the arm path.",
     "Loop around the foot: Bring the elbow above the raised foot and the hand around the shoulder rather than forcing it straight through a closed gap.",
     "Establish Hindu Control: Hold the head and leg enclosure without finishing pressure before seeking the second hand.",
-    "Connect a controlled grip: Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration.",
+    "Connect a controlled grip: Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration.",
     "Treat a pass as a new check: Do not assume the choke has disappeared merely because the opponent clears the lower leg.",
     "Release the entire enclosure: Open the hands and move the controlling leg away immediately when a partner taps or stops responding normally."
   ],
@@ -301,7 +301,7 @@
     "clips": []
   },
   "bottom": {
-    "overview": "The bottom player is responsible for maintaining the control. The bottom player is on the back or hip with the raised rubber-guard knee close to the torso. The controlling arm passes over the foot and around the opponent's shoulder into the head-control space. The leg remains part of the enclosure when the hands connect for the choke. The top player faces the guard player and must address the neck enclosure even if the lower leg is passed.\n\nHug the knee and turn onto the hip to create room for the arm path. Bring the elbow above the raised foot and the hand around the shoulder rather than forcing it straight through a closed gap. Hold the head and leg enclosure without finishing pressure before seeking the second hand.\n\nUse the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration. Do not assume the choke has disappeared merely because the opponent clears the lower leg. Open the hands and move the controlling leg away immediately when a partner taps or stops responding normally.\n\nHindu Control is the holding configuration; Hindulotine names the choke applied from it. The raised leg contributes to head control, so an ordinary front-headlock guillotine does not by itself establish this position. A choke can impair consciousness quickly. Drill the entry without neck pressure, never add a neck twist, and release both hands and the high leg on any tap or loss of normal responsiveness.",
+    "overview": "The bottom player is responsible for maintaining the control. The bottom player is on the back or hip with the raised rubber-guard knee close to the torso. The controlling arm passes over the foot and around the opponent's shoulder into the head-control space. The leg remains part of the enclosure when the hands connect for the choke. The top player faces the guard player and must address the neck enclosure even if the lower leg is passed.\n\nHug the knee and turn onto the hip to create room for the arm path. Bring the elbow above the raised foot and the hand around the shoulder rather than forcing it straight through a closed gap. Hold the head and leg enclosure without finishing pressure before seeking the second hand.\n\nUse the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration. Do not assume the choke has disappeared merely because the opponent clears the lower leg. Open the hands and move the controlling leg away immediately when a partner taps or stops responding normally.\n\nHindu Control is the holding configuration; Hindulotine names the choke applied from it. The raised leg contributes to head control, so an ordinary front-headlock guillotine does not by itself establish this position. A choke can impair consciousness quickly. Drill the entry without neck pressure, never add a neck twist, and release both hands and the high leg on any tap or loss of normal responsiveness.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive/Controlling",
@@ -324,7 +324,7 @@
       "Keep the knee supported: Hug the knee and turn onto the hip to create room for the arm path.",
       "Loop around the foot: Bring the elbow above the raised foot and the hand around the shoulder rather than forcing it straight through a closed gap.",
       "Establish Hindu Control: Hold the head and leg enclosure without finishing pressure before seeking the second hand.",
-      "Connect a controlled grip: Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration.",
+      "Connect a controlled grip: Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration.",
       "Treat a pass as a new check: Do not assume the choke has disappeared merely because the opponent clears the lower leg.",
       "Release the entire enclosure: Open the hands and move the controlling leg away immediately when a partner taps or stops responding normally."
     ],
@@ -378,8 +378,8 @@
       },
       {
         "error": "Skipping the checkpoint: connect a controlled grip",
-        "consequence": "The intended control is not established before the next movement; the missing requirement is: Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration.",
-        "correction": "Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration."
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration.",
+        "correction": "Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration."
       },
       {
         "error": "Skipping the checkpoint: treat a pass as a new check",
@@ -546,8 +546,8 @@
         }
       },
       {
-        "question": "Hindulotine: how do Ben Eddy's early and later demonstrations differ in their hand connection?",
-        "answer": "Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration.",
+        "question": "Hindulotine: how do the early and later demonstrations differ in their hand connection?",
+        "answer": "Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration.",
         "answer_line": "Early reverse-gable; later S-grip",
         "distractors": {
           "plausible": [
@@ -663,7 +663,7 @@
     },
     {
       "question": "Hindulotine (position): What matters when you connect a controlled grip?",
-      "answer": "Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration.",
+      "answer": "Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration.",
       "answer_line": "Connect a controlled grip",
       "distractors": {
         "plausible": [

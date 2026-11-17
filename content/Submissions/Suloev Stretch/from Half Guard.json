@@ -16,7 +16,7 @@
     "gi": 35,
     "nogi": 35
   },
-  "overview": "The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.\n\nControl the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control. Arrange the leg so it extends in its natural line rather than rotating sideways at the knee.\n\nUse a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.\n\nInstructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submission breakdown](https://www.youtube.com/watch?v=iHhOQwl1src); [ADCC — competition rules](https://adcombat.com/adcc-rules-regulations/).",
+  "overview": "The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. The breakdown distinguishes the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.\n\nControl the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control. Arrange the leg so it extends in its natural line rather than rotating sideways at the knee.\n\nUse a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.\n\nInstructional sources: [Aljamain Sterling and James Gonzalez — UFC 228 submission breakdown](https://www.youtube.com/watch?v=iHhOQwl1src); [ADCC — competition rules](https://adcombat.com/adcc-rules-regulations/).",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -98,7 +98,7 @@
   "attacker": {
     "name": "Suloev Stretch Attacker",
     "description": "Suloev Stretch from Rear Tripod (attacker): Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
-    "overview": "The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.\n\nControl the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control.\n\nArrange the leg so it extends in its natural line rather than rotating sideways at the knee. In practice, identify the stretch geometry without dropping body weight or driving the leg to end range. Let the ankle go immediately on a tap and help the partner return to a stable base.\n\nUse a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.",
+    "overview": "The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. The breakdown distinguishes the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.\n\nControl the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control.\n\nArrange the leg so it extends in its natural line rather than rotating sideways at the knee. In practice, identify the stretch geometry without dropping body weight or driving the leg to end range. Let the ankle go immediately on a tap and help the partner return to a stable base.\n\nUse a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.",
     "key_principles": [
       "Establish rear attachment: Control the torso from behind before reaching below the hips.",
       "Recognize the tripod: Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
@@ -111,7 +111,7 @@
       "The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle.",
       "Control the torso from behind before reaching below the hips.",
       "Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
-      "Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite."
+      "Half guard is not the demonstrated finishing configuration. The breakdown distinguishes the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite."
     ],
     "execution_steps": [
       {
@@ -322,7 +322,7 @@
       },
       {
         "question": "Suloev Stretch attack: which joint remains at risk despite the hamstring-stretching emphasis?",
-        "answer": "The knee if the restrained leg is overloaded or twisted. Sterling and Gonzalez specifically warn against lateral force at the knee. Stop at an unloaded, aligned capture rather than testing flexibility or dropping body weight.",
+        "answer": "The knee if the restrained leg is overloaded or twisted. The breakdown specifically warns against lateral force at the knee. Stop at an unloaded, aligned capture rather than testing flexibility or dropping body weight.",
         "answer_line": "The knee under excess load or twist",
         "distractors": {
           "plausible": [
@@ -351,7 +351,7 @@
       },
       {
         "question": "Suloev Stretch practice: which tissue along the back of the thigh is stretched by the aligned leg?",
-        "answer": "The hamstring region of the captured leg. Sterling and Gonzalez describe the straight-leg stretch and the hamstring region. The knee can still be injured, so stop at an unloaded capture and avoid a sideways fall or end-range extension.",
+        "answer": "The hamstring region of the captured leg. The breakdown describes the straight-leg stretch and the hamstring region. The knee can still be injured, so stop at an unloaded capture and avoid a sideways fall or end-range extension.",
         "answer_line": "The captured leg hamstrings",
         "distractors": {
           "plausible": [
@@ -408,7 +408,7 @@
       },
       {
         "question": "Suloev Stretch attack: which leg attachment is shown as an alternative to loose double hooks?",
-        "answer": "A crossed grapevine-style leg connection. Sterling and Gonzalez contrast loose double hooks on the sloping tripod with a crossed attachment that retains the rear ride while the hand reaches down in stages. Establish that control cooperatively before an unloaded ankle capture.",
+        "answer": "A crossed grapevine-style leg connection. The breakdown contrasts loose double hooks on the sloping tripod with a crossed attachment that retains the rear ride while the hand reaches down in stages. Establish that control cooperatively before an unloaded ankle capture.",
         "answer_line": "A crossed grapevine leg connection",
         "distractors": {
           "plausible": [
@@ -492,7 +492,7 @@
       },
       {
         "question": "Suloev Stretch practice: why can a flexible partner still be injured during a weight drop?",
-        "answer": "Protection of the knee from the falling load. Sterling and Gonzalez explain why flexibility does not make a falling stretch safe. Support the partner and avoid dropping, bouncing or turning sideways on the captured leg.",
+        "answer": "Protection of the knee from the falling load. The breakdown explains why flexibility does not make a falling stretch safe. Support the partner and avoid dropping, bouncing or turning sideways on the captured leg.",
         "answer_line": "Falling load can still harm the knee",
         "distractors": {
           "plausible": [
@@ -535,7 +535,7 @@
   "defender": {
     "name": "Suloev Stretch Defender",
     "description": "Suloev Stretch from Rear Tripod (defender): A hand reaching from your back toward the ankle is an early cue to protect the leg. Use hand fighting before the ankle and torso are controlled together.",
-    "overview": "The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.\n\nA hand reaching from your back toward the ankle is an early cue to protect the leg. Use hand fighting before the ankle and torso are controlled together. Maintain a stable base and address the rear attachment before raising the hips with a leg available.\n\nKeep the captured leg aligned instead of rolling sideways against the ankle grip. Stop before a forced hamstring stretch or knee rotation develops. Recover the base only after the attacker has opened the ankle and torso controls.\n\nUse a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.\n\nThe early escape denies the rear hand access to the ankle and reduces the exposed tripod while the leg is still free. If the ankle and torso are already captured together, tap and let both controls open before rebuilding your base.\n\nBefore an ankle is captured, rebuilding base brings the elbows beside the ribs and the knees back beneath the body. Keep that elbow-knee connection while checking the rear attacker's hands: rising into a tripod still exposes the ankle, so the base change alone does not remove the submission threat.",
+    "overview": "The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. The breakdown distinguishes the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.\n\nA hand reaching from your back toward the ankle is an early cue to protect the leg. Use hand fighting before the ankle and torso are controlled together. Maintain a stable base and address the rear attachment before raising the hips with a leg available.\n\nKeep the captured leg aligned instead of rolling sideways against the ankle grip. Stop before a forced hamstring stretch or knee rotation develops. Recover the base only after the attacker has opened the ankle and torso controls.\n\nUse a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.\n\nThe early escape denies the rear hand access to the ankle and reduces the exposed tripod while the leg is still free. If the ankle and torso are already captured together, tap and let both controls open before rebuilding your base.\n\nBefore an ankle is captured, rebuilding base brings the elbows beside the ribs and the knees back beneath the body. Keep that elbow-knee connection while checking the rear attacker's hands: rising into a tripod still exposes the ankle, so the base change alone does not remove the submission threat.",
     "key_principles": [
       "Recognize ankle access: A hand reaching from your back toward the ankle is an early cue to protect the leg.",
       "Deny the grip early: Use hand fighting before the ankle and torso are controlled together.",
@@ -712,7 +712,7 @@
       },
       {
         "question": "Suloev Stretch defense: why is protecting only against a bent-knee calf squeeze insufficient?",
-        "answer": "The demonstrated attack extends the leg from rear control. Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.",
+        "answer": "The demonstrated attack extends the leg from rear control. Half guard is not the demonstrated finishing configuration. The breakdown distinguishes the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.",
         "answer_line": "It extends the leg from rear control",
         "distractors": {
           "plausible": [
@@ -781,7 +781,7 @@
     },
     {
       "variation_name": "Entry prerequisite check",
-      "description": "Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.",
+      "description": "Half guard is not the demonstrated finishing configuration. The breakdown distinguishes the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.",
       "when_to_use": "Before linking this submission to a different starting position"
     }
   ],

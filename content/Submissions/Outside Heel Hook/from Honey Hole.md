@@ -46,8 +46,8 @@ description: "Master the outside heel hook from Honey Hole position. Learn grip 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Episode 29 - Saddle To Outside Heel Hook",
-      "description": "Outside Heel Hook from Honey Hole film study: Episode 29 - Saddle To Outside Heel Hook.",
+      "name": "Saddle To Outside Heel Hook",
+      "description": "Outside Heel Hook from Honey Hole film study: Saddle To Outside Heel Hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7ZrKaOZhGnU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7ZrKaOZhGnU",
       "url": "https://www.youtube.com/watch?v=7ZrKaOZhGnU",
@@ -113,7 +113,7 @@ The strategic value of this technique lies in its complementary relationship wit
 
 ![](https://www.youtube.com/watch?v=7ZrKaOZhGnU)
 
-<p class="clip-credit"><strong>Episode 29 - Saddle To Outside Heel Hook</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=7ZrKaOZhGnU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Saddle To Outside Heel Hook</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=7ZrKaOZhGnU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

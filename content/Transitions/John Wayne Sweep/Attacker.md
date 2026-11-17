@@ -197,7 +197,7 @@ description: "John Wayne Sweep (attacker): Contain one opposing leg while keepin
 
 <section id="overview" class="content-section">
 
-The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor. Shawn Williams demonstrates a shallow foot anchor and knee lever, finishing on top in half guard. A butterfly-hook position and direct mount are not the demonstrated start and finish.
+The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor. The cited demonstration shows a shallow foot anchor and knee lever, finishing on top in half guard. A butterfly-hook position and direct mount are not the demonstrated start and finish.
 
 Contain one opposing leg while keeping your own knee free to act as a lever. Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front-headlock attack. Place a shallow foot connection over the ankle or shin rather than locking the knee into a deep hook.
 
@@ -256,7 +256,7 @@ Keep the underhooking elbow outside your hip to deny the Darce choke, and use th
 - The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor.
 - Contain one opposing leg while keeping your own knee free to act as a lever.
 - Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front-headlock attack.
-- Shawn Williams demonstrates a shallow foot anchor and knee lever, finishing on top in half guard. A butterfly-hook position and direct mount are not the demonstrated start and finish.
+- The cited demonstration shows a shallow foot anchor and knee lever, finishing on top in half guard. A butterfly-hook position and direct mount are not the demonstrated start and finish.
 
 
 </section>

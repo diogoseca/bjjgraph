@@ -19797,6 +19797,126 @@ player's and ends the session as before.
 On the fixed build the same probe: all four gone, 6 of 6 each. The deferred set: 522,278 of 522,323 B (the reader hands
 its query lines to the app, so it stays under its ceiling with the three new calls).
 
+## v1.291.0 — Real people's names leave our written text, except where the name is the thing itself; the prose check (PROSE, 2026-11-17)
+
+The owner's U203 a, in his words: "Keep a name only where the name is the thing itself". The option read: a Systems
+guide keeps the course and its author; a cited book or video keeps its author; a technique named after a person keeps
+its name; everything else we wrote loses the name and is reworded so it still teaches. U206 a, the same day: an origin
+line says who the technique is named after, and nobody else. This is the third part of the names work, after the clip
+credits (v1.288.0) and the clip titles (v1.289.0).
+
+**The survey.** From the source JSON, Systems left out. The earlier reader's list held only names that are a clip's
+`by` value, so it could not see a surname used alone or a person who teaches no clip here. A wider net (every
+capitalised word in authored prose that the dictionary lists only as a proper noun or not at all, minus the graph's own
+words, read by hand; then every "popularized by", "like", "after" and "demonstrates" followed by a capital) found 206
+mentions in 164 fields of 82 records; 125 of them, 46 distinct names, were on no `by` list.
+
+**The table.** 126 distinct sentences, each reworded by hand, by class: someone named as the one who shows or made
+something (39), card text (36), "practitioners like X" history clauses (25), origin lines (25), one citation kept.
+Rules: no new fact, no changed claim; "popularized by X" goes neutral or the clause goes when it says nothing else;
+a card keeps a true answer and false wrong options; players in a narrated match become "the top player" and "the
+bottom player"; a pronoun left pointing at nobody is fixed with its name (one card answer began "His preventive
+detail…" after its question lost the name: the name scan cannot find that, a read of every he, his and him did).
+No small model wrote or judged a row.
+
+**What was applied.** 172 mentions out of 140 fields of 66 records (prose 126, cards 46; 37 cards change). 34 stay,
+inside 26 sentences: 25 origin lines and one Learning page's in-text citation of its own listed reference.
+- **Origin lines (U206 a), one per page, whatever its verb** ("named after", "developed by", "popularized by", "made
+  famous by"): 19 stay exactly as they were, 4 lose the other person in the story (the Kimura's opponent, the Mir
+  Lock's), 2 take the neutral "named after its creator", because the first name they gave for the Williams Guard
+  disagrees with the same record's own cited source and nothing in the repo settles it.
+- **Kept by the rule, counted by the gate:** 113 mentions in cited-source lines ("Instructional sources:
+  [Name — title](url)", "Narration: […](url)", a link's label), 2 Systems course titles standing inside prose, the
+  Systems guides themselves, Learning references, and technique words (Kimura, Estima, the London, Marcelotine,
+  Tariko, Marce, Duda). A grip nicknamed with a person's first name and a sweep with a surname, neither a graph name,
+  took their plain names.
+- **Not people, untouched:** gyms, schools and channels in prose ("10th Planet" as a system's name).
+
+**graph.json.** The first payload emitted after the apply still carried every name in the cards. The app's decks are
+built from the tracked `graph.json`, and neither `regenerate:md`, `regenerate:hubs` nor the payload emit rewrites it.
+It was refreshed the way `votes-refresh.yml` does (`regenerate:graph-base` + `regenerate:graph-strength`, never the
+umbrella). Proof, value by value against the table: 90 values differ, 89 are exactly a table row's old → new (39
+distinct strings in 89 places, because a card sits in its role deck and in its tiers) and one is `meta.generated`.
+A count by substring had said "49 fields" first; as whole values it was 45 rows.
+
+**Ten reworded questions.** A card's stored answer is keyed by a hash of its question text, so a reworded question is
+a new card to a player who had answered the old one: the app deletes the old grade when the deck's cards arrive
+(`_pruneStaleGrades`) and nothing prices the old schedule row. Ten live questions change, each in one deck, none
+shared between decks, so `flashcards/_index.json` is byte-identical and the study bundles' pin holds. The orchestrator
+checked in aggregate before merging that this costs no signed-in account a stored answer. A carry-on-arrival design
+(a map of old keys shipped on the reworded card, merged by the sync's own two rules before the prune) is written up
+outside the repo for a later version. Read, not run: `dueCount()` has no live-question check, so an old schedule row
+that comes due would keep counting in the printed owed figure.
+
+**Titles, from the second reader of v1.289.0.** 21 clip titles in 26 rows of 25 records, each checked against
+YouTube's own title for the video: 7 that still carried a label (two people's full names used as a guard's name became
+the graph's Williams Guard), 9 that read oddly after the earlier cut, 4 on three pages where two different videos
+shared one title, and 1 the lexicon found afterwards. Left as they are, for someone who can watch: 12 lists whose two
+videos the titles cannot tell apart, and one clip with no start second on a three-escape guide.
+
+**The gate.** `scripts/check_no_names.py` gained the prose check and a third list, the names lexicon
+(`tests/artifacts/no_names_lexicon.json`: 198 full names, 40 single tokens, the 23 allowed origin sentences by page,
+the technique words that may never be listed as people).
+- It reads the source JSON's authored prose and cards (385,960 strings; every field not on a skip list, so a new field
+  is read by default), every card the app is served, and applies the lexicon to clip titles and credit lines too.
+- Each allowed kind is named in the script with its reason. An origin line is allowed by page and exact sentence.
+- Floors on the lexicon and, new, on the label list. A cheap necessary condition (the longest run of letters of each
+  entry must stand in the text) keeps the two alternations off 99% of the strings: 92 seconds became 16.
+- Mutants, `tests/artifacts/no_names_prose_mutants.py`: 19 red at their named checks and 7 green controls, among them
+  the recorded non-kill. The built-page probe gained five.
+- On the 208 old titles of v1.289.0, each put back: the name and label lists flag 193, the lexicon 2 more.
+- **Unguarded, and said so in the script:** a surname that is an ordinary English word, used alone and listed by
+  nobody. Listing "Hall" would refuse the word.
+
+**The gate after the independent read of PR #437 (PROSE-R1, same version; scripts, tests and docs only).** The read
+held the rewording (all 127 rows and 37 cards, no added fact) and found the gate wider than its own three forms:
+- **A listed person's surname alone passed** ("Wardzinski shows this": 160 of the surnames were on no list). The gate
+  now derives every surname from the full names: 177, of which 160 are held alone. The 17 that are not are named: 12
+  a word of a graph name, 1 a technique word, 4 ordinary words the lexicon file lists with reasons (Brown, Hall,
+  Hill, Shields), under a cap. 0 findings on the source, the emitted payload, the seat's built tree and the accepted
+  capture tree.
+- **A skipped field was free text:** 375 of the 2,284 `decision_tree[].actions[].technique` values are no graph name.
+  The skip list is gone: every string of a record is read but a clip's own six keys and a Learning page's references
+  (445,515 strings, was 385,960), so wiring is told from free text by value and a new section, field or clip key is
+  read by default.
+- **An allowed sentence was allowed anywhere in its record, any number of times.** Each is now one record, one field
+  and one exact sentence, once: 23 origin sentences at 29 places, 1 citation, 2 sentences that hold a Systems guide's
+  title, each list under a cap. A link allows a name only when it goes to an http(s) address and is not in a card
+  (115 mentions; all of them already were).
+- **Eight lexicon entries were not people** (a gym three times, a team, two channels, two phrases) and one was a
+  person twice in another case. Seven are gone, the two phrases that say a person through a technique's word moved
+  to `phrases`; the full names behind two technique words were added (0 in our text), and the first name "Kade", which
+  four cited links use alone. The floor is exact: 232 entries that parse as a person's name.
+- Two rulings changed words, not text: the two "Danaher leg lock system" sentences stand as a Systems guide's own
+  title (listed), and "one origin line per page" was wrong: a record may keep more than one, each listed.
+- The prose probe has 41 mutants red at their named checks and 8 green controls, two of them recorded non-kills: a
+  surname the file names as an ordinary word, and a name written into a generated page only (the generator gate
+  refuses that page; proved once on a scratch copy).
+
+**Errors of the seat's own.**
+- The first survey counted 497 mentions: it took "Dead Orchard", and bare "Estima", "Peterson" and "Mir", for people,
+  and "Hall" in "UFC Hall of Famer". They are technique names and a common word; 206 was the count.
+- A report said of the ten questions "nothing is deleted". The grade is deleted; it was corrected in the next report.
+- The brief's generator list had no `graph.json`, and the seat followed it: a grep of the emitted payload for the old
+  wording caught the stale cards, and the gate's card check now does.
+- One clock time in a report was written from memory, four minutes off, and corrected from `date`.
+- A reworded wrong option was 39 characters against the one-line limit of 36 (`validate:mc`). The seat had read the
+  card for truth and never measured it; CI's own job, replayed locally, caught it. It is 35 now.
+
+**The capture (CAPPR1) and what followed.**
+- One guarded capture of `3d123a620`, accepted. No census field moved, no app row, no SEO floor: of the 20 sampled
+  routes only the Positions hub changed, by 16 characters.
+- Its package was adapted from CAPNN2's with a new chunk rule: every changed dossier chunk and deck chunk must follow
+  the base capture's chunk through this version's two tables (the reworded sentences; the titles, by video id), the
+  live-question files may move only in the ten reworded questions' entries, and `curriculum.json` only in its stamp.
+  Tested on the emitted payload before sealing, the first rule missed three shapes and was fixed: two clips sharing one
+  old title, a variant's name used as a key, and a string the emitter cuts with an ellipsis inside a reworded sentence.
+- Verified (exact movement), five controls refused, both baselines reseeded under the lock.
+- Dev v1.290.0 (PR #434, app code only) landed after the capture: merged by merge, the app rows re-seeded in their own
+  commit (no row moved; they equal dev's), no new capture.
+- Local runs on the final tree: `ci:validate`, 26 of 26 steps and 1,789 of 1,789 units; 25 journey files that render a
+  touched surface, 306 of 306; 5 generated spec files, 6 of 6.
+
 ## v1.292.0 — The cloze: a position's moves, asked in Master the game (L2; the owner's U198, U200, U201 b, U204 a, 17 Nov 2026)
 
 **What.** Master the game asks a place's moves before its cards, in the list, as a cloze. The plan chooses them (S0's

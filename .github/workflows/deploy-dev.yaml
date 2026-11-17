@@ -176,6 +176,9 @@ jobs:
 
       # NO NAMES (v1.288.0, owner U195 a + U196 b): the BUILT pages carry no "taught by" credit and no
       # JSON-LD creator, and the served payload no clip `by`. Positive counts; it fails when it saw nothing.
+      # Since v1.289.0 it also holds the name and label lists in titles and credits, and since v1.291.0 the prose
+      # check (owner U203 a + U206 a): no listed person, nor a listed person's surname, in the source's prose and
+      # cards, in the served cards, in a clip title or in a credit, outside the allowed kinds the script names.
       # A shared build step (also the last of `npm run build`), so it sits with the other final-output checks,
       # before the deploy-only gates (scripts/check_build_chains.py).
       - name: No person's name in clip credits, structured data or the served payload

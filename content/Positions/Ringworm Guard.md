@@ -63,7 +63,7 @@ description: "Master Ringworm Guard in BJJ. Advanced lapel guard variation with 
 
 **Ringworm Guard is an advanced gi-based lapel guard in which the bottom player threads the opponent's own lapel around the opponent's leg, tethering it to restrict mobility and generate high-percentage sweeps and back takes.**
 
-Ringworm Guard is an advanced lapel guard variation that originated from the Worm Guard system popularized by Keenan Cornelius. The position involves threading the opponent's lapel around their leg while maintaining control from bottom guard, creating a powerful control system that limits the top player's mobility and creates numerous sweeping and back-taking opportunities. The name derives from the lapel configuration that wraps around the opponent's leg, hence the creative nomenclature consistent with the Worm Guard family.
+Ringworm Guard is an advanced lapel guard variation that originated from the Worm Guard system. The position involves threading the opponent's lapel around their leg while maintaining control from bottom guard, creating a powerful control system that limits the top player's mobility and creates numerous sweeping and back-taking opportunities. The name derives from the lapel configuration that wraps around the opponent's leg, hence the creative nomenclature consistent with the Worm Guard family.
 
 This position represents a highly technical approach to lapel-based guard systems, requiring significant coordination and spatial awareness to establish and maintain. The bottom player uses the lapel as an extension of their grips, effectively tying the opponent's leg to their own body while using their free limbs to create off-balancing opportunities. The Ringworm Guard excels at neutralizing standing passes and creating angular attacks, making it particularly effective against aggressive passers who rely on pressure and forward movement.
 
@@ -263,7 +263,7 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 
 - **[[Positions/Worm Guard]]** - Parent position in the lapel guard family - shares similar lapel manipulation principles
 
-- **[[Positions/Squid Guard]]** - Sister position variation - another Keenan Cornelius lapel guard with related concepts
+- **[[Positions/Squid Guard]]** - Sister position variation - another lapel guard from the same family with related concepts
 
 - **[[Positions/Lapel Guard]]** - General category - Ringworm is a specific variation of lapel-based guard systems
 

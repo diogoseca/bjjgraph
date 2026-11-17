@@ -197,7 +197,7 @@ description: "Hindulotine from Hindulotine (defender): An elbow passing over the
 
 <section id="overview" class="content-section">
 
-The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.
+The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Hindu Control is the setup; Hindulotine is the choke. The early reverse-gable demonstration and the later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.
 
 An elbow passing over the raised foot toward your shoulder signals the leg-in guillotine setup. Use an early inside frame before both hands close around the neck enclosure. Avoid turning the head sharply against the fixed leg and forearm.
 

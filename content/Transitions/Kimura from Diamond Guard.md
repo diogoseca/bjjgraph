@@ -46,8 +46,8 @@ description: "Master the Kimura from Diamond Guard in BJJ. Convert overhook cont
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Austin, TX - MMA Guard Cross Overhook Sweep To The Kimura",
-      "description": "Kimura from Diamond Guard film study: Austin, TX - MMA Guard Cross Overhook Sweep To The Kimura.",
+      "name": "MMA Guard Cross Overhook Sweep To The Kimura",
+      "description": "Kimura from Diamond Guard film study: MMA Guard Cross Overhook Sweep To The Kimura.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aMW3uuln4P4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aMW3uuln4P4",
       "url": "https://www.youtube.com/watch?v=aMW3uuln4P4",
@@ -107,7 +107,7 @@ The Kimura from Diamond Guard occupies a critical junction in the diamond guard 
 
 ![](https://www.youtube.com/watch?v=aMW3uuln4P4)
 
-<p class="clip-credit"><strong>Austin, TX - MMA Guard Cross Overhook Sweep To The Kimura</strong> · 3:27 · <a href="https://www.youtube.com/watch?v=aMW3uuln4P4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>MMA Guard Cross Overhook Sweep To The Kimura</strong> · 3:27 · <a href="https://www.youtube.com/watch?v=aMW3uuln4P4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

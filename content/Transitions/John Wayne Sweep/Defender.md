@@ -156,7 +156,7 @@ description: "John Wayne Sweep (defender): A shallow lower-leg anchor with the o
 
 <section id="overview" class="content-section">
 
-The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor. Shawn Williams demonstrates a shallow foot anchor and knee lever, finishing on top in half guard. A butterfly-hook position and direct mount are not the demonstrated start and finish.
+The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor. The cited demonstration shows a shallow foot anchor and knee lever, finishing on top in half guard. A butterfly-hook position and direct mount are not the demonstrated start and finish.
 
 A shallow lower-leg anchor with the opposing knee entering your hip signals the sweep. Keep a hand or foot able to support the tipping direction before the upper body is captured. Avoid letting the bottom player connect their upper body directly under your base.
 
