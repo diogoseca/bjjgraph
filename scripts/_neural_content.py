@@ -296,7 +296,10 @@ _CLIP_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
 # v1.230.0: curation owns relevance, role and order. `front` certifies the first clip
 # for choice cards; `half` assigns position-hub clips; duration describes it, never
 # authorizes a runtime shortest-first reorder. Provenance stays in source JSON.
-_CLIP_FIELDS = ("id", "start", "end", "vertical", "title", "by", "duration", "front", "half")
+# v1.288.0 (owner U196 b, with U195 a): NO PERSON'S OR GYM'S NAME IN OUR OWN TEXT, so `by` (who teaches
+# a clip) is NOT a player field any more: nothing renders it and the wire does not ship it. The source JSON
+# keeps it as provenance. scripts/check_no_names.py fails if a shipped clip carries it again.
+_CLIP_FIELDS = ("id", "start", "end", "vertical", "title", "duration", "front", "half")
 
 
 def _clips(raw, extra=None):

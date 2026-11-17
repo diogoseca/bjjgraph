@@ -154,32 +154,29 @@ description: "Defensive concepts help you rank threats, protect vulnerable areas
       "@type": "VideoObject",
       "position": 1,
       "name": "Protecting your head",
-      "description": "Defensive Concepts film study: Protecting your head, taught by Rory Van Vliet.",
+      "description": "Defensive Concepts film study: Protecting your head.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0VwPBCmvU3s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0VwPBCmvU3s",
-      "url": "https://www.youtube.com/watch?v=0VwPBCmvU3s",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=0VwPBCmvU3s"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Guard retention and defensive structure",
-      "description": "Defensive Concepts film study: Guard retention and defensive structure, taught by John Danaher.",
+      "description": "Defensive Concepts film study: Guard retention and defensive structure.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ce_0XT1BBQA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ce_0XT1BBQA",
       "url": "https://www.youtube.com/watch?v=ce_0XT1BBQA",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT1251S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "The first five escapes you need to know",
-      "description": "Defensive Concepts film study: The first five escapes you need to know, taught by Knight Jiu-Jitsu.",
+      "description": "Defensive Concepts film study: The first five escapes you need to know.",
       "thumbnailUrl": "https://i.ytimg.com/vi/775gXyYzB08/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/775gXyYzB08",
       "url": "https://www.youtube.com/watch?v=775gXyYzB08",
-      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
       "duration": "PT521S"
     }
   ]
@@ -209,7 +206,7 @@ Deal with a submission threat before chasing a positional escape. Once protected
 
 ![](https://www.youtube.com/watch?v=0VwPBCmvU3s)
 
-<p class="clip-credit"><strong>Protecting your head</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=0VwPBCmvU3s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Protecting your head</strong> · <a href="https://www.youtube.com/watch?v=0VwPBCmvU3s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,7 +214,7 @@ Deal with a submission threat before chasing a positional escape. Once protected
 
 ![](https://www.youtube.com/watch?v=ce_0XT1BBQA)
 
-<p class="clip-credit"><strong>Guard retention and defensive structure</strong> — taught by John Danaher · 20:51 · <a href="https://www.youtube.com/watch?v=ce_0XT1BBQA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard retention and defensive structure</strong> · 20:51 · <a href="https://www.youtube.com/watch?v=ce_0XT1BBQA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +222,7 @@ Deal with a submission threat before chasing a positional escape. Once protected
 
 ![](https://www.youtube.com/watch?v=775gXyYzB08)
 
-<p class="clip-credit"><strong>The first five escapes you need to know</strong> — taught by Knight Jiu-Jitsu · 8:41 · <a href="https://www.youtube.com/watch?v=775gXyYzB08" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The first five escapes you need to know</strong> · 8:41 · <a href="https://www.youtube.com/watch?v=775gXyYzB08" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

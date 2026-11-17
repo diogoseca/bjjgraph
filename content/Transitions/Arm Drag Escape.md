@@ -46,8 +46,8 @@ description: "Learn Arm Drag Escape from front headlock in BJJ. Use arm drag mec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "FRONT HEADLOCK: ARM DRAG - BJ FUTRELL | FCA Wrestling TECHNIQUE",
-      "description": "Arm Drag Escape film study: FRONT HEADLOCK: ARM DRAG - BJ FUTRELL | FCA Wrestling TECHNIQUE.",
+      "name": "FRONT HEADLOCK: ARM DRAG | FCA Wrestling TECHNIQUE",
+      "description": "Arm Drag Escape film study: FRONT HEADLOCK: ARM DRAG | FCA Wrestling TECHNIQUE.",
       "thumbnailUrl": "https://i.ytimg.com/vi/muHh8bDzdSw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/muHh8bDzdSw",
       "url": "https://www.youtube.com/watch?v=muHh8bDzdSw",
@@ -107,7 +107,7 @@ Strategically, the arm drag escape is most effective when your opponent commits 
 
 ![](https://www.youtube.com/watch?v=muHh8bDzdSw)
 
-<p class="clip-credit"><strong>FRONT HEADLOCK: ARM DRAG - BJ FUTRELL | FCA Wrestling TECHNIQUE</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=muHh8bDzdSw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>FRONT HEADLOCK: ARM DRAG | FCA Wrestling TECHNIQUE</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=muHh8bDzdSw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

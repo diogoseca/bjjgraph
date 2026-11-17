@@ -161,33 +161,30 @@ description: "Aoki Lock from Ashi Garami (defender): Treat an outward-turned foo
       "@type": "VideoObject",
       "position": 1,
       "name": "Leg defense from ashi garami",
-      "description": "Aoki Lock from Ashi Garami (Defender) film study: Leg defense from ashi garami, taught by The Coop BJJ.",
+      "description": "Aoki Lock from Ashi Garami (Defender) film study: Leg defense from ashi garami.",
       "thumbnailUrl": "https://i.ytimg.com/vi/L417yCl_-dc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/L417yCl_-dc",
       "url": "https://www.youtube.com/watch?v=L417yCl_-dc",
-      "creator": { "@type": "Person", "name": "The Coop BJJ" },
       "duration": "PT48S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Escaping ashi garami - leg lock defense",
-      "description": "Aoki Lock from Ashi Garami (Defender) film study: Escaping ashi garami - leg lock defense, taught by Scott Elliott.",
+      "description": "Aoki Lock from Ashi Garami (Defender) film study: Escaping ashi garami - leg lock defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
       "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
-      "creator": { "@type": "Person", "name": "Scott Elliott" },
       "duration": "PT141S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Irimi ashi garami counter",
-      "description": "Aoki Lock from Ashi Garami (Defender) film study: Irimi ashi garami counter, taught by John Danaher.",
+      "description": "Aoki Lock from Ashi Garami (Defender) film study: Irimi ashi garami counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cRXsNPAgVLU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cRXsNPAgVLU",
       "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT29S"
     }
   ]
@@ -229,7 +226,7 @@ If the exchange remains seated after the rotated foot is released, keep an elbow
 
 ![](https://www.youtube.com/watch?v=L417yCl_-dc)
 
-<p class="clip-credit"><strong>Leg defense from ashi garami</strong> — taught by The Coop BJJ · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg defense from ashi garami</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,7 +234,7 @@ If the exchange remains seated after the rotated foot is released, keep an elbow
 
 ![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
 
-<p class="clip-credit"><strong>Escaping ashi garami - leg lock defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping ashi garami - leg lock defense</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -245,7 +242,7 @@ If the exchange remains seated after the rotated foot is released, keep an elbow
 
 ![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
 
-<p class="clip-credit"><strong>Irimi ashi garami counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Irimi ashi garami counter</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

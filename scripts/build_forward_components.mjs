@@ -336,8 +336,8 @@ function roleData(node, name, type) {
     question,
     techniques: previewTechniques,
     clips: [
-      { title: `${name} · ${roleLabel}`, by: "Graph fixture" },
-      { title: `${type} mechanics`, by: "Film study" },
+      { title: `${name} · ${roleLabel}` },
+      { title: `${type} mechanics` },
     ],
   };
 }

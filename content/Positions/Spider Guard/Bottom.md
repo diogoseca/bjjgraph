@@ -166,33 +166,30 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
       "@type": "VideoObject",
       "position": 1,
       "name": "A SUA GUARDA-ARANHA NUNCA MAIS SER\u00c1 A MESMA DEPOIS DESSE V\u00cdDEO",
-      "description": "Spider Guard (Bottom) film study: A SUA GUARDA-ARANHA NUNCA MAIS SER\u00c1 A MESMA DEPOIS DESSE V\u00cdDEO, taught by Romulo Barral.",
+      "description": "Spider Guard (Bottom) film study: A SUA GUARDA-ARANHA NUNCA MAIS SER\u00c1 A MESMA DEPOIS DESSE V\u00cdDEO.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GENLH8FOczM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GENLH8FOczM",
       "url": "https://www.youtube.com/watch?v=GENLH8FOczM",
-      "creator": { "@type": "Person", "name": "Romulo Barral" },
       "duration": "PT207S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Spider Guard  Mindset By Romulo Barral",
-      "description": "Spider Guard (Bottom) film study: Spider Guard  Mindset By Romulo Barral, taught by Romulo Barral.",
+      "name": "Spider Guard Mindset",
+      "description": "Spider Guard (Bottom) film study: Spider Guard Mindset.",
       "thumbnailUrl": "https://i.ytimg.com/vi/D-VuUJqNDZc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/D-VuUJqNDZc",
       "url": "https://www.youtube.com/watch?v=D-VuUJqNDZc",
-      "creator": { "@type": "Person", "name": "Romulo Barral" },
       "duration": "PT216S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Spider Guard Entry Drill",
-      "description": "Spider Guard (Bottom) film study: Spider Guard Entry Drill, taught by Paragon Jiu-Jitsu.",
+      "description": "Spider Guard (Bottom) film study: Spider Guard Entry Drill.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aXTKuGGfwOs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aXTKuGGfwOs",
       "url": "https://www.youtube.com/watch?v=aXTKuGGfwOs",
-      "creator": { "@type": "Person", "name": "Paragon Jiu-Jitsu" },
       "duration": "PT60S"
     }
   ]
@@ -221,7 +218,7 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 ![](https://www.youtube.com/watch?v=GENLH8FOczM)
 
-<p class="clip-credit"><strong>A SUA GUARDA-ARANHA NUNCA MAIS SERÁ A MESMA DEPOIS DESSE VÍDEO</strong> — taught by Romulo Barral · 3:27 · <a href="https://www.youtube.com/watch?v=GENLH8FOczM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>A SUA GUARDA-ARANHA NUNCA MAIS SERÁ A MESMA DEPOIS DESSE VÍDEO</strong> · 3:27 · <a href="https://www.youtube.com/watch?v=GENLH8FOczM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -229,7 +226,7 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 ![](https://www.youtube.com/watch?v=D-VuUJqNDZc)
 
-<p class="clip-credit"><strong>Spider Guard  Mindset By Romulo Barral</strong> — taught by Romulo Barral · 3:36 · <a href="https://www.youtube.com/watch?v=D-VuUJqNDZc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Spider Guard Mindset</strong> · 3:36 · <a href="https://www.youtube.com/watch?v=D-VuUJqNDZc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,7 +234,7 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 ![](https://www.youtube.com/watch?v=aXTKuGGfwOs)
 
-<p class="clip-credit"><strong>Spider Guard Entry Drill</strong> — taught by Paragon Jiu-Jitsu · 1:00 · <a href="https://www.youtube.com/watch?v=aXTKuGGfwOs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Spider Guard Entry Drill</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=aXTKuGGfwOs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

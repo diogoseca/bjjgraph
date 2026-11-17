@@ -160,8 +160,8 @@ description: "How to counter hand fighting defense from back control in BJJ. Mai
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Finish Every Rear Naked Choke, Even If They Hand Fight! | Joe Solecki",
-      "description": "Hand Fighting from Back (Defender) film study: Finish Every Rear Naked Choke, Even If They Hand Fight! | Joe Solecki.",
+      "name": "Finish Every Rear Naked Choke, Even If They Hand Fight!",
+      "description": "Hand Fighting from Back (Defender) film study: Finish Every Rear Naked Choke, Even If They Hand Fight!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/51cmLSANvsw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/51cmLSANvsw",
       "url": "https://www.youtube.com/watch?v=51cmLSANvsw",
@@ -199,7 +199,7 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 
 ![](https://www.youtube.com/watch?v=51cmLSANvsw)
 
-<p class="clip-credit"><strong>Finish Every Rear Naked Choke, Even If They Hand Fight! | Joe Solecki</strong> · 2:33 · <a href="https://www.youtube.com/watch?v=51cmLSANvsw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Finish Every Rear Naked Choke, Even If They Hand Fight!</strong> · 2:33 · <a href="https://www.youtube.com/watch?v=51cmLSANvsw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

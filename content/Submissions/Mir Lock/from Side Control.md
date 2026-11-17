@@ -46,8 +46,8 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "MMA Demo | Mir Lock From Side Control | Laura Sanko",
-      "description": "Mir Lock from Side Control film study: MMA Demo | Mir Lock From Side Control | Laura Sanko.",
+      "name": "MMA Demo | Mir Lock From Side Control",
+      "description": "Mir Lock from Side Control film study: MMA Demo | Mir Lock From Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-Zq8zXCtIlg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-Zq8zXCtIlg?start=32",
       "url": "https://www.youtube.com/watch?v=-Zq8zXCtIlg",
@@ -56,8 +56,8 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Marcus Douithitt- arm bundle Mir lock from side control",
-      "description": "Mir Lock from Side Control film study: Marcus Douithitt- arm bundle Mir lock from side control.",
+      "name": "Arm bundle Mir lock from side control",
+      "description": "Mir Lock from Side Control film study: Arm bundle Mir lock from side control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/QeHT5SvHad8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/QeHT5SvHad8",
       "url": "https://www.youtube.com/watch?v=QeHT5SvHad8",
@@ -119,7 +119,7 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 
 ![](https://www.youtube.com/watch?v=-Zq8zXCtIlg&start=32)
 
-<p class="clip-credit"><strong>MMA Demo | Mir Lock From Side Control | Laura Sanko</strong> · 2:59 · <a href="https://www.youtube.com/watch?v=-Zq8zXCtIlg&t=32s" rel="noopener">Watch on YouTube from 0:32</a></p>
+<p class="clip-credit"><strong>MMA Demo | Mir Lock From Side Control</strong> · 2:59 · <a href="https://www.youtube.com/watch?v=-Zq8zXCtIlg&t=32s" rel="noopener">Watch on YouTube from 0:32</a></p>
 
 </div>
 
@@ -127,7 +127,7 @@ From dominant top side control, the Mir Lock weaponizes the same arm isolation t
 
 ![](https://www.youtube.com/watch?v=QeHT5SvHad8)
 
-<p class="clip-credit"><strong>Marcus Douithitt- arm bundle Mir lock from side control</strong> · 3:55 · <a href="https://www.youtube.com/watch?v=QeHT5SvHad8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm bundle Mir lock from side control</strong> · 3:55 · <a href="https://www.youtube.com/watch?v=QeHT5SvHad8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

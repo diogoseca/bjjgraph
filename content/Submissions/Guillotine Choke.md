@@ -49,44 +49,40 @@ description: "Master the Guillotine Choke in BJJ with step-by-step execution, sa
       "@type": "VideoObject",
       "position": 1,
       "name": "Guillotine from Butterfly Guard",
-      "description": "Guillotine Choke film study: Guillotine from Butterfly Guard, taught by Jake Shields.",
+      "description": "Guillotine Choke film study: Guillotine from Butterfly Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SAWvSovVk4A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SAWvSovVk4A",
       "url": "https://www.youtube.com/watch?v=SAWvSovVk4A",
-      "creator": { "@type": "Person", "name": "Jake Shields" },
       "duration": "PT64S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Guillotine Choke from Butterfly Guard",
-      "description": "Guillotine Choke film study: Guillotine Choke from Butterfly Guard, taught by Modesto Judo Club.",
+      "description": "Guillotine Choke film study: Guillotine Choke from Butterfly Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Z75kDSCIeN4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Z75kDSCIeN4",
       "url": "https://www.youtube.com/watch?v=Z75kDSCIeN4",
-      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
       "duration": "PT76S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Guillotine choke from the clinch",
-      "description": "Guillotine Choke film study: Guillotine choke from the clinch, taught by Michael James.",
+      "description": "Guillotine Choke film study: Guillotine choke from the clinch.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2Ioe4B7HF38/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2Ioe4B7HF38",
       "url": "https://www.youtube.com/watch?v=2Ioe4B7HF38",
-      "creator": { "@type": "Person", "name": "Michael James" },
       "duration": "PT43S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Attacking the standing guillotine",
-      "description": "Guillotine Choke film study: Attacking the standing guillotine, taught by Fargo BJJ.",
+      "description": "Guillotine Choke film study: Attacking the standing guillotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-x0MJel3Ru0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-x0MJel3Ru0",
       "url": "https://www.youtube.com/watch?v=-x0MJel3Ru0",
-      "creator": { "@type": "Person", "name": "Fargo BJJ" },
       "duration": "PT55S"
     }
   ]
@@ -154,7 +150,7 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 
 ![](https://www.youtube.com/watch?v=SAWvSovVk4A)
 
-<p class="clip-credit"><strong>Guillotine from Butterfly Guard</strong> — taught by Jake Shields · 1:04 · <a href="https://www.youtube.com/watch?v=SAWvSovVk4A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine from Butterfly Guard</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=SAWvSovVk4A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -162,7 +158,7 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 
 ![](https://www.youtube.com/watch?v=Z75kDSCIeN4)
 
-<p class="clip-credit"><strong>Guillotine Choke from Butterfly Guard</strong> — taught by Modesto Judo Club · 1:16 · <a href="https://www.youtube.com/watch?v=Z75kDSCIeN4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine Choke from Butterfly Guard</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=Z75kDSCIeN4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -170,7 +166,7 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 
 ![](https://www.youtube.com/watch?v=2Ioe4B7HF38)
 
-<p class="clip-credit"><strong>Guillotine choke from the clinch</strong> — taught by Michael James · 0:43 · <a href="https://www.youtube.com/watch?v=2Ioe4B7HF38" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine choke from the clinch</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=2Ioe4B7HF38" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -178,7 +174,7 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 
 ![](https://www.youtube.com/watch?v=-x0MJel3Ru0)
 
-<p class="clip-credit"><strong>Attacking the standing guillotine</strong> — taught by Fargo BJJ · 0:55 · <a href="https://www.youtube.com/watch?v=-x0MJel3Ru0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Attacking the standing guillotine</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=-x0MJel3Ru0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

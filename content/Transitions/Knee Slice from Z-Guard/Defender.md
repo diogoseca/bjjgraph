@@ -160,8 +160,8 @@ description: "Complete defender guide for the Knee Slice from Z-Guard. Learn rec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Z Guard//counter to knee slide attempt//dannybrownbjj",
-      "description": "Knee Slice from Z-Guard (Defender) film study: Z Guard//counter to knee slide attempt//dannybrownbjj.",
+      "name": "Z Guard//counter to knee slide attempt",
+      "description": "Knee Slice from Z-Guard (Defender) film study: Z Guard//counter to knee slide attempt.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wZ-QdL6wPPI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wZ-QdL6wPPI",
       "url": "https://www.youtube.com/watch?v=wZ-QdL6wPPI",
@@ -195,7 +195,7 @@ Defending the Knee Slice from Z-Guard requires early recognition of the passing 
 
 ![](https://www.youtube.com/watch?v=wZ-QdL6wPPI)
 
-<p class="clip-credit"><strong>Z Guard//counter to knee slide attempt//dannybrownbjj</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=wZ-QdL6wPPI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Z Guard//counter to knee slide attempt</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=wZ-QdL6wPPI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

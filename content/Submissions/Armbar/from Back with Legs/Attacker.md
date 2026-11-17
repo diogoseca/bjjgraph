@@ -180,8 +180,8 @@ description: "How to execute Armbar from Back with Legs in BJJ. Attacking perspe
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cesar Lima BJJ - Arm Bar from Back Control",
-      "description": "Armbar from Back with Legs (Attacker) film study: Cesar Lima BJJ - Arm Bar from Back Control.",
+      "name": "Arm Bar from Back Control",
+      "description": "Armbar from Back with Legs (Attacker) film study: Arm Bar from Back Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/B01WDrVESIo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/B01WDrVESIo",
       "url": "https://www.youtube.com/watch?v=B01WDrVESIo",
@@ -190,8 +190,8 @@ description: "How to execute Armbar from Back with Legs in BJJ. Attacking perspe
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Jiu Jitsu Armbar from Backmount by John Danaher Blackbelt Aaron Milam",
-      "description": "Armbar from Back with Legs (Attacker) film study: Jiu Jitsu Armbar from Backmount by John Danaher Blackbelt Aaron Milam.",
+      "name": "Jiu Jitsu Armbar from Backmount",
+      "description": "Armbar from Back with Legs (Attacker) film study: Jiu Jitsu Armbar from Backmount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/I4PhmMcJn_Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/I4PhmMcJn_Y",
       "url": "https://www.youtube.com/watch?v=I4PhmMcJn_Y",
@@ -236,7 +236,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 ![](https://www.youtube.com/watch?v=B01WDrVESIo)
 
-<p class="clip-credit"><strong>Cesar Lima BJJ - Arm Bar from Back Control</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=B01WDrVESIo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm Bar from Back Control</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=B01WDrVESIo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +244,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 ![](https://www.youtube.com/watch?v=I4PhmMcJn_Y)
 
-<p class="clip-credit"><strong>Jiu Jitsu Armbar from Backmount by John Danaher Blackbelt Aaron Milam</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=I4PhmMcJn_Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Armbar from Backmount</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=I4PhmMcJn_Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

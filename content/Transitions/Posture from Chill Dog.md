@@ -47,22 +47,20 @@ description: "Posture recovery from Chill Dog frees the isolated arm and high-le
       "@type": "VideoObject",
       "position": 1,
       "name": "Turtle to side control transition",
-      "description": "Posture from Chill Dog film study: Turtle to side control transition, taught by Rickson Gracie Academy.",
+      "description": "Posture from Chill Dog film study: Turtle to side control transition.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8YvYkGr5FIU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8YvYkGr5FIU",
       "url": "https://www.youtube.com/watch?v=8YvYkGr5FIU",
-      "creator": { "@type": "Person", "name": "Rickson Gracie Academy" },
       "duration": "PT47S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Kimura trap to attack the turtle guard",
-      "description": "Posture from Chill Dog film study: Kimura trap to attack the turtle guard, taught by Paul Stolyar.",
+      "description": "Posture from Chill Dog film study: Kimura trap to attack the turtle guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rj3LRhRCtCA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rj3LRhRCtCA",
       "url": "https://www.youtube.com/watch?v=rj3LRhRCtCA",
-      "creator": { "@type": "Person", "name": "Paul Stolyar" },
       "duration": "PT52S"
     }
   ]
@@ -121,7 +119,7 @@ Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https
 
 ![](https://www.youtube.com/watch?v=8YvYkGr5FIU)
 
-<p class="clip-credit"><strong>Turtle to side control transition</strong> — taught by Rickson Gracie Academy · 0:47 · <a href="https://www.youtube.com/watch?v=8YvYkGr5FIU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle to side control transition</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=8YvYkGr5FIU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -129,7 +127,7 @@ Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https
 
 ![](https://www.youtube.com/watch?v=rj3LRhRCtCA)
 
-<p class="clip-credit"><strong>Kimura trap to attack the turtle guard</strong> — taught by Paul Stolyar · 0:52 · <a href="https://www.youtube.com/watch?v=rj3LRhRCtCA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura trap to attack the turtle guard</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=rj3LRhRCtCA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

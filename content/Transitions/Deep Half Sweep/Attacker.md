@@ -186,8 +186,8 @@ description: "Execute the Deep Half Sweep from deep half guard bottom. Step-by-s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kris\u0027 Deep Half Guard Sweep",
-      "description": "Deep Half Sweep (Attacker) film study: Kris\u0027 Deep Half Guard Sweep.",
+      "name": "Deep Half Guard Sweep",
+      "description": "Deep Half Sweep (Attacker) film study: Deep Half Guard Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZQzg3TnzMJI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ZQzg3TnzMJI",
       "url": "https://www.youtube.com/watch?v=ZQzg3TnzMJI",
@@ -241,7 +241,7 @@ As the attacker executing the Deep Half Sweep, your objective is to leverage you
 
 ![](https://www.youtube.com/watch?v=ZQzg3TnzMJI)
 
-<p class="clip-credit"><strong>Kris&#39; Deep Half Guard Sweep</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deep Half Guard Sweep</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

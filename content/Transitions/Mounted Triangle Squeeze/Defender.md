@@ -152,8 +152,8 @@ description: "Defend and escape the mounted triangle squeeze in BJJ. Recognition
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "mount triangle escape for Mark",
-      "description": "Mounted Triangle Squeeze (Defender) film study: mount triangle escape for Mark.",
+      "name": "mount triangle escape",
+      "description": "Mounted Triangle Squeeze (Defender) film study: mount triangle escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wDxn4Ah_0qM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wDxn4Ah_0qM",
       "url": "https://www.youtube.com/watch?v=wDxn4Ah_0qM",
@@ -197,7 +197,7 @@ Defending the mounted triangle squeeze requires understanding that the attacker 
 
 ![](https://www.youtube.com/watch?v=wDxn4Ah_0qM)
 
-<p class="clip-credit"><strong>mount triangle escape for Mark</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=wDxn4Ah_0qM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>mount triangle escape</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=wDxn4Ah_0qM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

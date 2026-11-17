@@ -165,8 +165,8 @@ description: "Learn pressure passing from flattened half guard top. Complete you
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Henry Akins No Gi Half Guard Passing - 2 Methods to Flatten out your Opponent\u2026",
-      "description": "Flattened Half Guard (Top) film study: Henry Akins No Gi Half Guard Passing - 2 Methods to Flatten out your Opponent\u2026.",
+      "name": "No Gi Half Guard Passing - 2 Methods to Flatten out your Opponent\u2026",
+      "description": "Flattened Half Guard (Top) film study: No Gi Half Guard Passing - 2 Methods to Flatten out your Opponent\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/y9MAxM0jRzw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/y9MAxM0jRzw",
       "url": "https://www.youtube.com/watch?v=y9MAxM0jRzw",
@@ -206,7 +206,7 @@ Understanding the position's relationship to the broader passing game is essenti
 
 ![](https://www.youtube.com/watch?v=y9MAxM0jRzw)
 
-<p class="clip-credit"><strong>Henry Akins No Gi Half Guard Passing - 2 Methods to Flatten out your Opponent…</strong> · 8:53 · <a href="https://www.youtube.com/watch?v=y9MAxM0jRzw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No Gi Half Guard Passing - 2 Methods to Flatten out your Opponent…</strong> · 8:53 · <a href="https://www.youtube.com/watch?v=y9MAxM0jRzw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

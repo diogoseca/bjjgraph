@@ -166,22 +166,20 @@ description: "Master Reverse Half Guard Top in BJJ. Complete guide covering cont
       "@type": "VideoObject",
       "position": 1,
       "name": "3 Options from Top Reverse Half-Guard",
-      "description": "Reverse Half Guard (Top) film study: 3 Options from Top Reverse Half-Guard, taught by MMA Leech.",
+      "description": "Reverse Half Guard (Top) film study: 3 Options from Top Reverse Half-Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ykTaOFB2fTc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ykTaOFB2fTc",
       "url": "https://www.youtube.com/watch?v=ykTaOFB2fTc",
-      "creator": { "@type": "Person", "name": "MMA Leech" },
       "duration": "PT632S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Jiu Jitsu Fundamentals - Reverse Half Guard Passing - Shotgun Pass",
-      "description": "Reverse Half Guard (Top) film study: Jiu Jitsu Fundamentals - Reverse Half Guard Passing - Shotgun Pass, taught by The Base Jiu Jitsu.",
+      "description": "Reverse Half Guard (Top) film study: Jiu Jitsu Fundamentals - Reverse Half Guard Passing - Shotgun Pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4mHVpST5lLw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4mHVpST5lLw",
       "url": "https://www.youtube.com/watch?v=4mHVpST5lLw",
-      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
       "duration": "PT86S"
     }
   ]
@@ -212,7 +210,7 @@ The reverse half guard top position represents a critical moment in passing sequ
 
 ![](https://www.youtube.com/watch?v=ykTaOFB2fTc)
 
-<p class="clip-credit"><strong>3 Options from Top Reverse Half-Guard</strong> — taught by MMA Leech · 10:32 · <a href="https://www.youtube.com/watch?v=ykTaOFB2fTc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Options from Top Reverse Half-Guard</strong> · 10:32 · <a href="https://www.youtube.com/watch?v=ykTaOFB2fTc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -220,7 +218,7 @@ The reverse half guard top position represents a critical moment in passing sequ
 
 ![](https://www.youtube.com/watch?v=4mHVpST5lLw)
 
-<p class="clip-credit"><strong>Jiu Jitsu Fundamentals - Reverse Half Guard Passing - Shotgun Pass</strong> — taught by The Base Jiu Jitsu · 1:26 · <a href="https://www.youtube.com/watch?v=4mHVpST5lLw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Fundamentals - Reverse Half Guard Passing - Shotgun Pass</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=4mHVpST5lLw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

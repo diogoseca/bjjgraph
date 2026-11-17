@@ -154,22 +154,20 @@ description: "Recognize the limb control and joint alignment behind armbars and 
       "@type": "VideoObject",
       "position": 1,
       "name": "Armbar elbow hyperextension explained",
-      "description": "Hyperextension film study: Armbar elbow hyperextension explained, taught by Grapplers Performx.",
+      "description": "Hyperextension film study: Armbar elbow hyperextension explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gXSSXLGFOQU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gXSSXLGFOQU",
       "url": "https://www.youtube.com/watch?v=gXSSXLGFOQU",
-      "creator": { "@type": "Person", "name": "Grapplers Performx" },
       "duration": "PT89S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "20 BJJ concepts including joint breaking mechanics",
-      "description": "Hyperextension film study: 20 BJJ concepts including joint breaking mechanics, taught by Jordan Preisinger.",
+      "description": "Hyperextension film study: 20 BJJ concepts including joint breaking mechanics.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aXP_4Jncfj0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aXP_4Jncfj0",
       "url": "https://www.youtube.com/watch?v=aXP_4Jncfj0",
-      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
       "duration": "PT1024S"
     }
   ]
@@ -199,7 +197,7 @@ The important setup is control on both sides of the joint. Practice recognizing 
 
 ![](https://www.youtube.com/watch?v=gXSSXLGFOQU)
 
-<p class="clip-credit"><strong>Armbar elbow hyperextension explained</strong> — taught by Grapplers Performx · 1:29 · <a href="https://www.youtube.com/watch?v=gXSSXLGFOQU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar elbow hyperextension explained</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=gXSSXLGFOQU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -207,7 +205,7 @@ The important setup is control on both sides of the joint. Practice recognizing 
 
 ![](https://www.youtube.com/watch?v=aXP_4Jncfj0)
 
-<p class="clip-credit"><strong>20 BJJ concepts including joint breaking mechanics</strong> — taught by Jordan Preisinger · 17:04 · <a href="https://www.youtube.com/watch?v=aXP_4Jncfj0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>20 BJJ concepts including joint breaking mechanics</strong> · 17:04 · <a href="https://www.youtube.com/watch?v=aXP_4Jncfj0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

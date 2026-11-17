@@ -46,12 +46,11 @@ description: "Master Truck Position in BJJ with comprehensive bottom and top per
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Geo Martinez Teaches Two Entries Into \u0027The Truck\u0027 In Two Minutes",
-      "description": "Truck film study: Geo Martinez Teaches Two Entries Into \u0027The Truck\u0027 In Two Minutes, taught by Geo Martinez.",
+      "name": "Two Entries Into \u0027The Truck\u0027 In Two Minutes",
+      "description": "Truck film study: Two Entries Into \u0027The Truck\u0027 In Two Minutes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Y693ZHlCd2Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Y693ZHlCd2Q",
       "url": "https://www.youtube.com/watch?v=Y693ZHlCd2Q",
-      "creator": { "@type": "Person", "name": "Geo Martinez" },
       "duration": "PT100S"
     }
   ]
@@ -107,7 +106,7 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 
 ![](https://www.youtube.com/watch?v=Y693ZHlCd2Q)
 
-<p class="clip-credit"><strong>Geo Martinez Teaches Two Entries Into &#39;The Truck&#39; In Two Minutes</strong> — taught by Geo Martinez · 1:40 · <a href="https://www.youtube.com/watch?v=Y693ZHlCd2Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Two Entries Into &#39;The Truck&#39; In Two Minutes</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=Y693ZHlCd2Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -186,8 +186,8 @@ description: "Execute the Worm Guard Sweep in BJJ. Complete offensive guide cove
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lucas Lima - Sweep from Worm Guard",
-      "description": "Worm Guard Sweep (Attacker) film study: Lucas Lima - Sweep from Worm Guard.",
+      "name": "Sweep from Worm Guard",
+      "description": "Worm Guard Sweep (Attacker) film study: Sweep from Worm Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rCFiQeV6aHU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rCFiQeV6aHU",
       "url": "https://www.youtube.com/watch?v=rCFiQeV6aHU",
@@ -231,7 +231,7 @@ Executing the Worm Guard Sweep requires precise coordination of lapel tension, h
 
 ![](https://www.youtube.com/watch?v=rCFiQeV6aHU)
 
-<p class="clip-credit"><strong>Lucas Lima - Sweep from Worm Guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=rCFiQeV6aHU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sweep from Worm Guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=rCFiQeV6aHU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

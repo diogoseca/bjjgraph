@@ -159,8 +159,8 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Estima lock explained - De Groot BJJ",
-      "description": "Estima Lock Control (Top) film study: Estima lock explained - De Groot BJJ.",
+      "name": "Estima lock explained",
+      "description": "Estima Lock Control (Top) film study: Estima lock explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lGnr1JIew0A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lGnr1JIew0A",
       "url": "https://www.youtube.com/watch?v=lGnr1JIew0A",
@@ -196,7 +196,7 @@ Success from the top position requires precise technical execution including pro
 
 ![](https://www.youtube.com/watch?v=lGnr1JIew0A)
 
-<p class="clip-credit"><strong>Estima lock explained - De Groot BJJ</strong> · 5:10 · <a href="https://www.youtube.com/watch?v=lGnr1JIew0A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Estima lock explained</strong> · 5:10 · <a href="https://www.youtube.com/watch?v=lGnr1JIew0A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

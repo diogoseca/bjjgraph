@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.287.0",
+  "version": "1.288.0",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -32,6 +32,8 @@
     "validate:build-shape:app": "python3 scripts/check_build_fingerprint.py --update-app-assets",
     "validate:seo": "python3 scripts/check_seo_parity.py",
     "validate:affiliate": "python3 scripts/check_affiliate_surface.py",
+    "validate:no-names": "python3 scripts/check_no_names.py",
+    "validate:no-names:built": "python3 scripts/check_no_names.py --built",
     "validate:analytics:nokey": "node scripts/check_analytics_nokey.mjs",
     "validate:analytics": "python3 scripts/check_analytics_surface.py",
     "validate:graph": "python3 scripts/validate_graph_integrity.py",
@@ -69,7 +71,7 @@
     "clips:source": "python3 scripts/source_clips.py",
     "clips:verify": "python3 scripts/verify_clips.py",
     "clips:report": "python3 scripts/source_clips.py --stage report",
-    "build": "cd source && node quartz/bootstrap-cli.mjs build --concurrency 4 -d ../content && python3 ../scripts/regenerate_redirects.py && python3 ../scripts/regenerate_headers.py && python3 ../scripts/check_headers_cache.py && python3 ../scripts/regenerate_llms_txt.py && cd .. && npm run regenerate:pwa && npm run validate:pwa && npm run build:forward && npm run build:share-shell && python3 scripts/check_redirect_targets.py && python3 scripts/apply_affiliate_ref.py && npm run regenerate:agents && python3 scripts/apply_affiliate_ref.py && python3 scripts/check_redirect_limits.py && npm run validate:payload && npm run validate:page-titles",
+    "build": "cd source && node quartz/bootstrap-cli.mjs build --concurrency 4 -d ../content && python3 ../scripts/regenerate_redirects.py && python3 ../scripts/regenerate_headers.py && python3 ../scripts/check_headers_cache.py && python3 ../scripts/regenerate_llms_txt.py && cd .. && npm run regenerate:pwa && npm run validate:pwa && npm run build:forward && npm run build:share-shell && python3 scripts/check_redirect_targets.py && python3 scripts/apply_affiliate_ref.py && npm run regenerate:agents && python3 scripts/apply_affiliate_ref.py && python3 scripts/check_redirect_limits.py && npm run validate:payload && npm run validate:page-titles && npm run validate:no-names:built",
     "regenerate:build": "npm run regenerate && npm run build",
     "test": "bash scripts/check_no_raw_random.sh && playwright test -c e2e/playwright.config.ts",
     "test:curated": "bash scripts/check_no_raw_random.sh && playwright test -c e2e/playwright.config.ts --grep @curated",

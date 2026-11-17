@@ -66,8 +66,8 @@ description: "Master the Clock Choke from Rodeo Ride in BJJ. Learn gi-based bloo
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Wallid Ismail clock choke (week 14)",
-      "description": "Clock Choke from Rodeo Ride film study: Wallid Ismail clock choke (week 14).",
+      "name": "Clock choke (week 14)",
+      "description": "Clock Choke from Rodeo Ride film study: Clock choke (week 14).",
       "thumbnailUrl": "https://i.ytimg.com/vi/vX8n_1YUZJs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vX8n_1YUZJs",
       "url": "https://www.youtube.com/watch?v=vX8n_1YUZJs",
@@ -149,7 +149,7 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 
 ![](https://www.youtube.com/watch?v=vX8n_1YUZJs)
 
-<p class="clip-credit"><strong>Wallid Ismail clock choke (week 14)</strong> · 2:51 · <a href="https://www.youtube.com/watch?v=vX8n_1YUZJs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Clock choke (week 14)</strong> · 2:51 · <a href="https://www.youtube.com/watch?v=vX8n_1YUZJs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

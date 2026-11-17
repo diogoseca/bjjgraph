@@ -160,22 +160,20 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
       "@type": "VideoObject",
       "position": 1,
       "name": "The Base BJJ Technique of the Week: Half Guard to the Dogfight",
-      "description": "Dogfight Position (Bottom) film study: The Base BJJ Technique of the Week: Half Guard to the Dogfight, taught by The Base Jiu Jitsu.",
+      "description": "Dogfight Position (Bottom) film study: The Base BJJ Technique of the Week: Half Guard to the Dogfight.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X4jR2wWOy2M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/X4jR2wWOy2M",
       "url": "https://www.youtube.com/watch?v=X4jR2wWOy2M",
-      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
       "duration": "PT79S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "The Bottom Half Guard to Dog Fight to Back Take",
-      "description": "Dogfight Position (Bottom) film study: The Bottom Half Guard to Dog Fight to Back Take, taught by Broadway JiuJitsu.",
+      "description": "Dogfight Position (Bottom) film study: The Bottom Half Guard to Dog Fight to Back Take.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OAlwVyNmNqE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OAlwVyNmNqE",
       "url": "https://www.youtube.com/watch?v=OAlwVyNmNqE",
-      "creator": { "@type": "Person", "name": "Broadway JiuJitsu" },
       "duration": "PT148S"
     }
   ]
@@ -208,7 +206,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ![](https://www.youtube.com/watch?v=X4jR2wWOy2M)
 
-<p class="clip-credit"><strong>The Base BJJ Technique of the Week: Half Guard to the Dogfight</strong> — taught by The Base Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Base BJJ Technique of the Week: Half Guard to the Dogfight</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -216,7 +214,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ![](https://www.youtube.com/watch?v=OAlwVyNmNqE)
 
-<p class="clip-credit"><strong>The Bottom Half Guard to Dog Fight to Back Take</strong> — taught by Broadway JiuJitsu · 2:28 · <a href="https://www.youtube.com/watch?v=OAlwVyNmNqE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Bottom Half Guard to Dog Fight to Back Take</strong> · 2:28 · <a href="https://www.youtube.com/watch?v=OAlwVyNmNqE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

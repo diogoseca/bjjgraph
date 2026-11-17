@@ -161,33 +161,30 @@ description: "Arm Triangle from Hindulotine (defender): Recover the arm before i
       "@type": "VideoObject",
       "position": 1,
       "name": "The fastest escape out of the arm triangle",
-      "description": "Arm Triangle from Hindulotine (Defender) film study: The fastest escape out of the arm triangle, taught by Adam Bradley.",
+      "description": "Arm Triangle from Hindulotine (Defender) film study: The fastest escape out of the arm triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/D2vkZGTD78I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/D2vkZGTD78I",
       "url": "https://www.youtube.com/watch?v=D2vkZGTD78I",
-      "creator": { "@type": "Person", "name": "Adam Bradley" },
       "duration": "PT31S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "The best arm-triangle escape",
-      "description": "Arm Triangle from Hindulotine (Defender) film study: The best arm-triangle escape, taught by ZombieProofBJJ.",
+      "description": "Arm Triangle from Hindulotine (Defender) film study: The best arm-triangle escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/n_2zR6BaF8A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/n_2zR6BaF8A",
       "url": "https://www.youtube.com/watch?v=n_2zR6BaF8A",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
       "duration": "PT58S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Arm triangle escape using hawking",
-      "description": "Arm Triangle from Hindulotine (Defender) film study: Arm triangle escape using hawking, taught by Crucifix Mike.",
+      "description": "Arm Triangle from Hindulotine (Defender) film study: Arm triangle escape using hawking.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Nspz2EAIQ_k/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Nspz2EAIQ_k",
       "url": "https://www.youtube.com/watch?v=Nspz2EAIQ_k",
-      "creator": { "@type": "Person", "name": "Crucifix Mike" },
       "duration": "PT27S"
     }
   ]
@@ -227,7 +224,7 @@ Protect the neck by keeping an early frame between the trapped shoulder and the 
 
 ![](https://www.youtube.com/watch?v=D2vkZGTD78I)
 
-<p class="clip-credit"><strong>The fastest escape out of the arm triangle</strong> — taught by Adam Bradley · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The fastest escape out of the arm triangle</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=D2vkZGTD78I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -235,7 +232,7 @@ Protect the neck by keeping an early frame between the trapped shoulder and the 
 
 ![](https://www.youtube.com/watch?v=n_2zR6BaF8A)
 
-<p class="clip-credit"><strong>The best arm-triangle escape</strong> — taught by ZombieProofBJJ · 0:58 · <a href="https://www.youtube.com/watch?v=n_2zR6BaF8A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The best arm-triangle escape</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=n_2zR6BaF8A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -243,7 +240,7 @@ Protect the neck by keeping an early frame between the trapped shoulder and the 
 
 ![](https://www.youtube.com/watch?v=Nspz2EAIQ_k)
 
-<p class="clip-credit"><strong>Arm triangle escape using hawking</strong> — taught by Crucifix Mike · 0:27 · <a href="https://www.youtube.com/watch?v=Nspz2EAIQ_k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm triangle escape using hawking</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=Nspz2EAIQ_k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

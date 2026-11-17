@@ -47,33 +47,30 @@ description: "A Carni-to-Gogoplata setup changes a shoulder-lock configuration i
       "@type": "VideoObject",
       "position": 1,
       "name": "Gogoplata from guard",
-      "description": "Carni to Gogoplata Setup film study: Gogoplata from guard, taught by Kinesiology College.",
+      "description": "Carni to Gogoplata Setup film study: Gogoplata from guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4Opp0j7UmlU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4Opp0j7UmlU",
       "url": "https://www.youtube.com/watch?v=4Opp0j7UmlU",
-      "creator": { "@type": "Person", "name": "Kinesiology College" },
       "duration": "PT21S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Seven submissions from rubber guard including gogoplata",
-      "description": "Carni to Gogoplata Setup film study: Seven submissions from rubber guard including gogoplata, taught by Felipe Cavalcante.",
+      "description": "Carni to Gogoplata Setup film study: Seven submissions from rubber guard including gogoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X73jEbuUaxQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/X73jEbuUaxQ",
       "url": "https://www.youtube.com/watch?v=X73jEbuUaxQ",
-      "creator": { "@type": "Person", "name": "Felipe Cavalcante" },
       "duration": "PT51S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Gogoplata from half guard knee shield",
-      "description": "Carni to Gogoplata Setup film study: Gogoplata from half guard knee shield, taught by Jamie.",
+      "description": "Carni to Gogoplata Setup film study: Gogoplata from half guard knee shield.",
       "thumbnailUrl": "https://i.ytimg.com/vi/VbLlhI0aZC8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/VbLlhI0aZC8",
       "url": "https://www.youtube.com/watch?v=VbLlhI0aZC8",
-      "creator": { "@type": "Person", "name": "Jamie" },
       "duration": "PT68S"
     }
   ]
@@ -134,7 +131,7 @@ The new shin-under-chin enclosure prepares the Gogoplata's throat compression. I
 
 ![](https://www.youtube.com/watch?v=4Opp0j7UmlU)
 
-<p class="clip-credit"><strong>Gogoplata from guard</strong> — taught by Kinesiology College · 0:21 · <a href="https://www.youtube.com/watch?v=4Opp0j7UmlU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gogoplata from guard</strong> · 0:21 · <a href="https://www.youtube.com/watch?v=4Opp0j7UmlU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -142,7 +139,7 @@ The new shin-under-chin enclosure prepares the Gogoplata's throat compression. I
 
 ![](https://www.youtube.com/watch?v=X73jEbuUaxQ)
 
-<p class="clip-credit"><strong>Seven submissions from rubber guard including gogoplata</strong> — taught by Felipe Cavalcante · 0:51 · <a href="https://www.youtube.com/watch?v=X73jEbuUaxQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Seven submissions from rubber guard including gogoplata</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=X73jEbuUaxQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -150,7 +147,7 @@ The new shin-under-chin enclosure prepares the Gogoplata's throat compression. I
 
 ![](https://www.youtube.com/watch?v=VbLlhI0aZC8)
 
-<p class="clip-credit"><strong>Gogoplata from half guard knee shield</strong> — taught by Jamie · 1:08 · <a href="https://www.youtube.com/watch?v=VbLlhI0aZC8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gogoplata from half guard knee shield</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=VbLlhI0aZC8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

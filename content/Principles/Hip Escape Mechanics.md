@@ -154,33 +154,30 @@ description: "Use frames and coordinated hip movement to make space under a pin 
       "@type": "VideoObject",
       "position": 1,
       "name": "A more powerful alternative to the hip escape",
-      "description": "Hip Escape Mechanics film study: A more powerful alternative to the hip escape, taught by Ryan Hall.",
+      "description": "Hip Escape Mechanics film study: A more powerful alternative to the hip escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TjGVpKRUUWc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TjGVpKRUUWc",
       "url": "https://www.youtube.com/watch?v=TjGVpKRUUWc",
-      "creator": { "@type": "Person", "name": "Ryan Hall" },
       "duration": "PT819S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Hip escape mechanics against forward pressure",
-      "description": "Hip Escape Mechanics film study: Hip escape mechanics against forward pressure, taught by Wim Deputter.",
+      "description": "Hip Escape Mechanics film study: Hip escape mechanics against forward pressure.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nHKXx3TDLaA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/nHKXx3TDLaA",
       "url": "https://www.youtube.com/watch?v=nHKXx3TDLaA",
-      "creator": { "@type": "Person", "name": "Wim Deputter" },
       "duration": "PT756S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Shrimping and hip escape solo drills",
-      "description": "Hip Escape Mechanics film study: Shrimping and hip escape solo drills, taught by Kameron Ross.",
+      "description": "Hip Escape Mechanics film study: Shrimping and hip escape solo drills.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qnPzh_CY-Ec/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/qnPzh_CY-Ec",
       "url": "https://www.youtube.com/watch?v=qnPzh_CY-Ec",
-      "creator": { "@type": "Person", "name": "Kameron Ross" },
       "duration": "PT59S"
     }
   ]
@@ -210,7 +207,7 @@ Frames preserve the space your movement creates. If pressure pins your hips, use
 
 ![](https://www.youtube.com/watch?v=TjGVpKRUUWc)
 
-<p class="clip-credit"><strong>A more powerful alternative to the hip escape</strong> — taught by Ryan Hall · 13:39 · <a href="https://www.youtube.com/watch?v=TjGVpKRUUWc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>A more powerful alternative to the hip escape</strong> · 13:39 · <a href="https://www.youtube.com/watch?v=TjGVpKRUUWc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +215,7 @@ Frames preserve the space your movement creates. If pressure pins your hips, use
 
 ![](https://www.youtube.com/watch?v=nHKXx3TDLaA)
 
-<p class="clip-credit"><strong>Hip escape mechanics against forward pressure</strong> — taught by Wim Deputter · 12:36 · <a href="https://www.youtube.com/watch?v=nHKXx3TDLaA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Hip escape mechanics against forward pressure</strong> · 12:36 · <a href="https://www.youtube.com/watch?v=nHKXx3TDLaA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,7 +223,7 @@ Frames preserve the space your movement creates. If pressure pins your hips, use
 
 ![](https://www.youtube.com/watch?v=qnPzh_CY-Ec)
 
-<p class="clip-credit"><strong>Shrimping and hip escape solo drills</strong> — taught by Kameron Ross · 0:59 · <a href="https://www.youtube.com/watch?v=qnPzh_CY-Ec" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shrimping and hip escape solo drills</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=qnPzh_CY-Ec" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

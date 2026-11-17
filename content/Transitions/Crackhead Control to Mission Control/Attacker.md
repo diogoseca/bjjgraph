@@ -181,33 +181,30 @@ description: "Crackhead Control to Mission Control (attacker): Maintain the orig
       "@type": "VideoObject",
       "position": 1,
       "name": "Mission Control to Zombie to Invisible Collar",
-      "description": "Crackhead Control to Mission Control (Attacker) film study: Mission Control to Zombie to Invisible Collar, taught by 10th Planet Orange Park.",
+      "description": "Crackhead Control to Mission Control (Attacker) film study: Mission Control to Zombie to Invisible Collar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5fJM5bIk8Fw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5fJM5bIk8Fw",
       "url": "https://www.youtube.com/watch?v=5fJM5bIk8Fw",
-      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
       "duration": "PT108S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Prison Guard breakdown",
-      "description": "Crackhead Control to Mission Control (Attacker) film study: Prison Guard breakdown, taught by Eddie Bravo.",
+      "description": "Crackhead Control to Mission Control (Attacker) film study: Prison Guard breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
       "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Eddie Bravo explains rubber guard",
-      "description": "Crackhead Control to Mission Control (Attacker) film study: Eddie Bravo explains rubber guard, taught by Eddie Bravo.",
+      "name": "Rubber guard",
+      "description": "Crackhead Control to Mission Control (Attacker) film study: Rubber guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
       "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT111S"
     }
   ]
@@ -246,7 +243,7 @@ Open the reinforcing leg while retaining the first high-leg posture control. If 
 
 ![](https://www.youtube.com/watch?v=5fJM5bIk8Fw)
 
-<p class="clip-credit"><strong>Mission Control to Zombie to Invisible Collar</strong> — taught by 10th Planet Orange Park · 1:48 · <a href="https://www.youtube.com/watch?v=5fJM5bIk8Fw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mission Control to Zombie to Invisible Collar</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=5fJM5bIk8Fw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -254,7 +251,7 @@ Open the reinforcing leg while retaining the first high-leg posture control. If 
 
 ![](https://www.youtube.com/watch?v=gFYyMkaMz34)
 
-<p class="clip-credit"><strong>Prison Guard breakdown</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Prison Guard breakdown</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -262,7 +259,7 @@ Open the reinforcing leg while retaining the first high-leg posture control. If 
 
 ![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
 
-<p class="clip-credit"><strong>Eddie Bravo explains rubber guard</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rubber guard</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

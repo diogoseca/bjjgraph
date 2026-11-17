@@ -186,8 +186,8 @@ description: "Learn to attack the belly down armbar from side control. Step-by-s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Belly Down Arm Bar from Side Control (Rafa Mendes)",
-      "description": "Belly Down Armbar from Side Control (Attacker) film study: Belly Down Arm Bar from Side Control (Rafa Mendes).",
+      "name": "Belly Down Arm Bar from Side Control",
+      "description": "Belly Down Armbar from Side Control (Attacker) film study: Belly Down Arm Bar from Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/n7XrrDzBujQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/n7XrrDzBujQ",
       "url": "https://www.youtube.com/watch?v=n7XrrDzBujQ",
@@ -242,7 +242,7 @@ Attacking the belly down armbar from side control requires methodical arm isolat
 
 ![](https://www.youtube.com/watch?v=n7XrrDzBujQ)
 
-<p class="clip-credit"><strong>Belly Down Arm Bar from Side Control (Rafa Mendes)</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=n7XrrDzBujQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Belly Down Arm Bar from Side Control</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=n7XrrDzBujQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

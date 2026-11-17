@@ -180,8 +180,8 @@ description: "Defend and escape the omoplata from double sleeve guard. Recogniti
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Professor Queixinho Teaches a Highly Effective Omoplata Escape!",
-      "description": "Omoplata from Double Sleeve Guard (Defender) film study: Professor Queixinho Teaches a Highly Effective Omoplata Escape!.",
+      "name": "Highly Effective Omoplata Escape!",
+      "description": "Omoplata from Double Sleeve Guard (Defender) film study: Highly Effective Omoplata Escape!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UaZdeo4ro3E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UaZdeo4ro3E",
       "url": "https://www.youtube.com/watch?v=UaZdeo4ro3E",
@@ -232,7 +232,7 @@ Defending the omoplata from double sleeve guard requires recognizing the attack 
 
 ![](https://www.youtube.com/watch?v=UaZdeo4ro3E)
 
-<p class="clip-credit"><strong>Professor Queixinho Teaches a Highly Effective Omoplata Escape!</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=UaZdeo4ro3E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Highly Effective Omoplata Escape!</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=UaZdeo4ro3E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

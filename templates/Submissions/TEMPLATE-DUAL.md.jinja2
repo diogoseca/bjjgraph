@@ -61,13 +61,10 @@ description: "{{ description }}"
       "@type": "VideoObject",
       "position": {{ loop.index }},
       "name": {{ clip.title | tojson }},
-      "description": {{ (film_context ~ " film study: " ~ clip.title ~ ((", taught by " ~ clip.by) if clip.by else "") ~ ".") | tojson }},
+      "description": {{ (film_context ~ " film study: " ~ clip.title ~ ".") | tojson }},
       "thumbnailUrl": {{ ("https://i.ytimg.com/vi/" ~ clip.id ~ "/hqdefault.jpg") | tojson }},
       "embedUrl": {{ ("https://www.youtube.com/embed/" ~ clip.id ~ (("?start=" ~ (clip.start | string)) if clip.start else "")) | tojson }},
       "url": {{ ("https://www.youtube.com/watch?v=" ~ clip.id) | tojson }}
-      {%- if clip.by %},
-      "creator": { "@type": "Person", "name": {{ clip.by | tojson }} }
-      {%- endif %}
       {%- if clip.duration %},
       "duration": {{ ("PT" ~ (clip.duration) ~ "S") | jsonstr }}
       {%- endif %}
@@ -150,7 +147,7 @@ description: "{{ description }}"
 
 ![](https://www.youtube.com/watch?v={{ clip.id }}{% if clip.start %}&start={{ clip.start }}{% endif %}{% if clip.end %}&end={{ clip.end }}{% endif %})
 
-<p class="clip-credit"><strong>{{ clip.title | e }}</strong>{% if clip.by %} — taught by {{ clip.by | e }}{% endif %}{% if clip.duration %} · {{ "%d:%02d" | format(clip.duration // 60, clip.duration % 60) }}{% endif %} · <a href="https://www.youtube.com/watch?v={{ clip.id }}{% if clip.start %}&t={{ clip.start }}s{% endif %}" rel="noopener">Watch on YouTube{% if clip.start %} from {{ "%d:%02d" | format(clip.start // 60, clip.start % 60) }}{% endif %}</a></p>
+<p class="clip-credit"><strong>{{ clip.title | e }}</strong>{% if clip.duration %} · {{ "%d:%02d" | format(clip.duration // 60, clip.duration % 60) }}{% endif %} · <a href="https://www.youtube.com/watch?v={{ clip.id }}{% if clip.start %}&t={{ clip.start }}s{% endif %}" rel="noopener">Watch on YouTube{% if clip.start %} from {{ "%d:%02d" | format(clip.start // 60, clip.start % 60) }}{% endif %}</a></p>
 
 </div>
 {% endfor %}

@@ -56,8 +56,8 @@ description: "The X Pass is a standing guard pass that controls the upper body a
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Saulo Ribeiro Brazilian Jiu-Jitsu Revolution Series 2 - The X-Pass",
-      "description": "X Pass film study: Saulo Ribeiro Brazilian Jiu-Jitsu Revolution Series 2 - The X-Pass.",
+      "name": "Brazilian Jiu-Jitsu Revolution Series 2 - The X-Pass",
+      "description": "X Pass film study: Brazilian Jiu-Jitsu Revolution Series 2 - The X-Pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6Zk6D6IHswM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6Zk6D6IHswM",
       "url": "https://www.youtube.com/watch?v=6Zk6D6IHswM",
@@ -147,7 +147,7 @@ Instructional sources: [Stephan Kesting — X-pass / kick-pass drill](https://ww
 
 ![](https://www.youtube.com/watch?v=6Zk6D6IHswM)
 
-<p class="clip-credit"><strong>Saulo Ribeiro Brazilian Jiu-Jitsu Revolution Series 2 - The X-Pass</strong> · 7:24 · <a href="https://www.youtube.com/watch?v=6Zk6D6IHswM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Brazilian Jiu-Jitsu Revolution Series 2 - The X-Pass</strong> · 7:24 · <a href="https://www.youtube.com/watch?v=6Zk6D6IHswM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

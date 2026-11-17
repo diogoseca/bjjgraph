@@ -180,8 +180,8 @@ description: "Learn to finish the Neck Crank from Mounted Crucifix. Step-by-step
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Neil Melanson Filthy Neck Crank",
-      "description": "Neck Crank from Mounted Crucifix (Attacker) film study: Neil Melanson Filthy Neck Crank.",
+      "name": "Filthy Neck Crank",
+      "description": "Neck Crank from Mounted Crucifix (Attacker) film study: Filthy Neck Crank.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PWvr1NUFxGs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PWvr1NUFxGs",
       "url": "https://www.youtube.com/watch?v=PWvr1NUFxGs",
@@ -226,7 +226,7 @@ Attacking the neck crank from mounted crucifix gives you a finishing option that
 
 ![](https://www.youtube.com/watch?v=PWvr1NUFxGs)
 
-<p class="clip-credit"><strong>Neil Melanson Filthy Neck Crank</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=PWvr1NUFxGs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Filthy Neck Crank</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=PWvr1NUFxGs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

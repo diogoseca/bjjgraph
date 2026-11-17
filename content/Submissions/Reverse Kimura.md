@@ -47,22 +47,20 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
       "@type": "VideoObject",
       "position": 1,
       "name": "Reverse Kimura Throw to Submission",
-      "description": "Reverse Kimura film study: Reverse Kimura Throw to Submission, taught by Coach Brian.",
+      "description": "Reverse Kimura film study: Reverse Kimura Throw to Submission.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8tW1t_KO1T4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8tW1t_KO1T4",
       "url": "https://www.youtube.com/watch?v=8tW1t_KO1T4",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
       "duration": "PT69S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Reverse Kimura Arm Drag to Back",
-      "description": "Reverse Kimura film study: Reverse Kimura Arm Drag to Back, taught by Grappling with Insanity.",
+      "description": "Reverse Kimura film study: Reverse Kimura Arm Drag to Back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dw9YtuvroXI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dw9YtuvroXI",
       "url": "https://www.youtube.com/watch?v=dw9YtuvroXI",
-      "creator": { "@type": "Person", "name": "Grappling with Insanity" },
       "duration": "PT27S"
     }
   ]
@@ -127,7 +125,7 @@ Within the broader Kimura shoulder-lock system, the Reverse Kimura occupies the 
 
 ![](https://www.youtube.com/watch?v=8tW1t_KO1T4)
 
-<p class="clip-credit"><strong>Reverse Kimura Throw to Submission</strong> — taught by Coach Brian · 1:09 · <a href="https://www.youtube.com/watch?v=8tW1t_KO1T4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse Kimura Throw to Submission</strong> · 1:09 · <a href="https://www.youtube.com/watch?v=8tW1t_KO1T4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -135,7 +133,7 @@ Within the broader Kimura shoulder-lock system, the Reverse Kimura occupies the 
 
 ![](https://www.youtube.com/watch?v=dw9YtuvroXI)
 
-<p class="clip-credit"><strong>Reverse Kimura Arm Drag to Back</strong> — taught by Grappling with Insanity · 0:27 · <a href="https://www.youtube.com/watch?v=dw9YtuvroXI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse Kimura Arm Drag to Back</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=dw9YtuvroXI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

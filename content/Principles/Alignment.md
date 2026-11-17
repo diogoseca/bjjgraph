@@ -154,11 +154,10 @@ description: "Alignment connects your base, posture, and limbs so you can direct
       "@type": "VideoObject",
       "position": 1,
       "name": "Alignment: base, posture and structure",
-      "description": "Alignment film study: Alignment: base, posture and structure, taught by Rob Biernacki and Stephan Kesting.",
+      "description": "Alignment film study: Alignment: base, posture and structure.",
       "thumbnailUrl": "https://i.ytimg.com/vi/j5RaxEV9fx8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/j5RaxEV9fx8",
       "url": "https://www.youtube.com/watch?v=j5RaxEV9fx8",
-      "creator": { "@type": "Person", "name": "Rob Biernacki and Stephan Kesting" },
       "duration": "PT702S"
     }
   ]
@@ -188,7 +187,7 @@ When a movement fails, check your support points, torso position, and limb conne
 
 ![](https://www.youtube.com/watch?v=j5RaxEV9fx8)
 
-<p class="clip-credit"><strong>Alignment: base, posture and structure</strong> — taught by Rob Biernacki and Stephan Kesting · 11:42 · <a href="https://www.youtube.com/watch?v=j5RaxEV9fx8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Alignment: base, posture and structure</strong> · 11:42 · <a href="https://www.youtube.com/watch?v=j5RaxEV9fx8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

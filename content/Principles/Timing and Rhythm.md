@@ -154,32 +154,29 @@ description: "Read weight shifts and defensive reactions, then vary pace so tech
       "@type": "VideoObject",
       "position": 1,
       "name": "Improving your BJJ reaction time",
-      "description": "Timing and Rhythm film study: Improving your BJJ reaction time, taught by Stephan Kesting.",
+      "description": "Timing and Rhythm film study: Improving your BJJ reaction time.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_wp-WXBVKW4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_wp-WXBVKW4",
-      "url": "https://www.youtube.com/watch?v=_wp-WXBVKW4",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" }
+      "url": "https://www.youtube.com/watch?v=_wp-WXBVKW4"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Understanding jiu-jitsu: timing and sequencing",
-      "description": "Timing and Rhythm film study: Understanding jiu-jitsu: timing and sequencing, taught by John Danaher.",
+      "description": "Timing and Rhythm film study: Understanding jiu-jitsu: timing and sequencing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JMrGBjDctd4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JMrGBjDctd4",
       "url": "https://www.youtube.com/watch?v=JMrGBjDctd4",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT1548S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Broken rhythm explained",
-      "description": "Timing and Rhythm film study: Broken rhythm explained, taught by Peter Mettler.",
+      "description": "Timing and Rhythm film study: Broken rhythm explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/B4g1FM2thlE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/B4g1FM2thlE",
       "url": "https://www.youtube.com/watch?v=B4g1FM2thlE",
-      "creator": { "@type": "Person", "name": "Peter Mettler" },
       "duration": "PT100S"
     }
   ]
@@ -209,7 +206,7 @@ Look for a specific cue, such as a posting hand or a step. Use a change of pace 
 
 ![](https://www.youtube.com/watch?v=_wp-WXBVKW4)
 
-<p class="clip-credit"><strong>Improving your BJJ reaction time</strong> — taught by Stephan Kesting · <a href="https://www.youtube.com/watch?v=_wp-WXBVKW4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Improving your BJJ reaction time</strong> · <a href="https://www.youtube.com/watch?v=_wp-WXBVKW4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,7 +214,7 @@ Look for a specific cue, such as a posting hand or a step. Use a change of pace 
 
 ![](https://www.youtube.com/watch?v=JMrGBjDctd4)
 
-<p class="clip-credit"><strong>Understanding jiu-jitsu: timing and sequencing</strong> — taught by John Danaher · 25:48 · <a href="https://www.youtube.com/watch?v=JMrGBjDctd4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Understanding jiu-jitsu: timing and sequencing</strong> · 25:48 · <a href="https://www.youtube.com/watch?v=JMrGBjDctd4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +222,7 @@ Look for a specific cue, such as a posting hand or a step. Use a change of pace 
 
 ![](https://www.youtube.com/watch?v=B4g1FM2thlE)
 
-<p class="clip-credit"><strong>Broken rhythm explained</strong> — taught by Peter Mettler · 1:40 · <a href="https://www.youtube.com/watch?v=B4g1FM2thlE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Broken rhythm explained</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=B4g1FM2thlE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

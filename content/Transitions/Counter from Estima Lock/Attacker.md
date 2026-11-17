@@ -186,8 +186,8 @@ description: "Master the attacker perspective for countering the Estima Lock in 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Fernando Reis Counter to Estima Foot Lock Gi",
-      "description": "Counter from Estima Lock (Attacker) film study: Fernando Reis Counter to Estima Foot Lock Gi.",
+      "name": "Counter to Estima Foot Lock Gi",
+      "description": "Counter from Estima Lock (Attacker) film study: Counter to Estima Foot Lock Gi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ESNrUEVZOL8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ESNrUEVZOL8",
       "url": "https://www.youtube.com/watch?v=ESNrUEVZOL8",
@@ -221,7 +221,7 @@ Executing the Counter from Estima Lock requires a systematic approach to escapin
 
 ![](https://www.youtube.com/watch?v=ESNrUEVZOL8)
 
-<p class="clip-credit"><strong>Fernando Reis Counter to Estima Foot Lock Gi</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=ESNrUEVZOL8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Counter to Estima Foot Lock Gi</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=ESNrUEVZOL8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

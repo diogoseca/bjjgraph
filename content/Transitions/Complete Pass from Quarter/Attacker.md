@@ -186,8 +186,8 @@ description: "Master completing the guard pass from quarter guard top position. 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "AUTHOR TECHNIQUE - JAMES SARGISON - ESCAPING (PASSING) QUARTER GUARD ON THE\u2026",
-      "description": "Complete Pass from Quarter (Attacker) film study: AUTHOR TECHNIQUE - JAMES SARGISON - ESCAPING (PASSING) QUARTER GUARD ON THE\u2026.",
+      "name": "AUTHOR TECHNIQUE - ESCAPING (PASSING) QUARTER GUARD ON THE\u2026",
+      "description": "Complete Pass from Quarter (Attacker) film study: AUTHOR TECHNIQUE - ESCAPING (PASSING) QUARTER GUARD ON THE\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/foE-SZ3npu8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/foE-SZ3npu8",
       "url": "https://www.youtube.com/watch?v=foE-SZ3npu8",
@@ -231,7 +231,7 @@ Completing the pass from quarter guard is the top player's highest-priority acti
 
 ![](https://www.youtube.com/watch?v=foE-SZ3npu8)
 
-<p class="clip-credit"><strong>AUTHOR TECHNIQUE - JAMES SARGISON - ESCAPING (PASSING) QUARTER GUARD ON THE…</strong> · 0:34 · <a href="https://www.youtube.com/watch?v=foE-SZ3npu8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>AUTHOR TECHNIQUE - ESCAPING (PASSING) QUARTER GUARD ON THE…</strong> · 0:34 · <a href="https://www.youtube.com/watch?v=foE-SZ3npu8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

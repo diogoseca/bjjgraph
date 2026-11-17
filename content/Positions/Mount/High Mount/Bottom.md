@@ -166,11 +166,10 @@ description: "Survive and escape High Mount Bottom in BJJ. Emergency defensive s
       "@type": "VideoObject",
       "position": 1,
       "name": "Escape from a high full mount",
-      "description": "High Mount (Bottom) film study: Escape from a high full mount, taught by TENZAN.",
+      "description": "High Mount (Bottom) film study: Escape from a high full mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_05Lwonu0mw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_05Lwonu0mw",
       "url": "https://www.youtube.com/watch?v=_05Lwonu0mw",
-      "creator": { "@type": "Person", "name": "TENZAN" },
       "duration": "PT78S"
     }
   ]
@@ -205,7 +204,7 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 
 ![](https://www.youtube.com/watch?v=_05Lwonu0mw)
 
-<p class="clip-credit"><strong>Escape from a high full mount</strong> — taught by TENZAN · 1:18 · <a href="https://www.youtube.com/watch?v=_05Lwonu0mw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape from a high full mount</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=_05Lwonu0mw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -160,8 +160,8 @@ description: "How to defend and escape the Armbar from Side Control in BJJ. Reco
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armbar Escape To Side Control With Valdir Rodrigues.",
-      "description": "Armbar from Side Control (Defender) film study: Armbar Escape To Side Control With Valdir Rodrigues..",
+      "name": "Armbar Escape To Side Control.",
+      "description": "Armbar from Side Control (Defender) film study: Armbar Escape To Side Control..",
       "thumbnailUrl": "https://i.ytimg.com/vi/fRhm4gy-kxo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fRhm4gy-kxo",
       "url": "https://www.youtube.com/watch?v=fRhm4gy-kxo",
@@ -216,7 +216,7 @@ Defending the Armbar from Side Control requires understanding the attack's seque
 
 ![](https://www.youtube.com/watch?v=fRhm4gy-kxo)
 
-<p class="clip-credit"><strong>Armbar Escape To Side Control With Valdir Rodrigues.</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=fRhm4gy-kxo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar Escape To Side Control.</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=fRhm4gy-kxo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

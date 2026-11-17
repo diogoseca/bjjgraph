@@ -154,43 +154,39 @@ description: "Maintain or recover useful body alignment while using grips, legs,
       "@type": "VideoObject",
       "position": 1,
       "name": "Fixing posture to get past the knee cut",
-      "description": "Posture film study: Fixing posture to get past the knee cut, taught by Rory Van Vliet.",
+      "description": "Posture film study: Fixing posture to get past the knee cut.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mIrzLpUr2VE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mIrzLpUr2VE",
-      "url": "https://www.youtube.com/watch?v=mIrzLpUr2VE",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=mIrzLpUr2VE"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Posture and posture breaking from the guard",
-      "description": "Posture film study: Posture and posture breaking from the guard, taught by TakingItToTheMMAT.",
+      "description": "Posture film study: Posture and posture breaking from the guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WtnCe6LPJJ8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WtnCe6LPJJ8",
       "url": "https://www.youtube.com/watch?v=WtnCe6LPJJ8",
-      "creator": { "@type": "Person", "name": "TakingItToTheMMAT" },
       "duration": "PT479S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "The posture concept that stops you getting crushed",
-      "description": "Posture film study: The posture concept that stops you getting crushed, taught by Brandon McCaghren.",
+      "description": "Posture film study: The posture concept that stops you getting crushed.",
       "thumbnailUrl": "https://i.ytimg.com/vi/onODo5EQkrk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/onODo5EQkrk",
       "url": "https://www.youtube.com/watch?v=onODo5EQkrk",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT359S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Common posture mistake made by guard players",
-      "description": "Posture film study: Common posture mistake made by guard players, taught by Rickson Gracie.",
+      "description": "Posture film study: Common posture mistake made by guard players.",
       "thumbnailUrl": "https://i.ytimg.com/vi/jx120fTdOfA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/jx120fTdOfA",
       "url": "https://www.youtube.com/watch?v=jx120fTdOfA",
-      "creator": { "@type": "Person", "name": "Rickson Gracie" },
       "duration": "PT58S"
     }
   ]
@@ -220,7 +216,7 @@ Useful posture changes with the task; it does not always mean sitting upright. C
 
 ![](https://www.youtube.com/watch?v=mIrzLpUr2VE)
 
-<p class="clip-credit"><strong>Fixing posture to get past the knee cut</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=mIrzLpUr2VE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Fixing posture to get past the knee cut</strong> · <a href="https://www.youtube.com/watch?v=mIrzLpUr2VE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Useful posture changes with the task; it does not always mean sitting upright. C
 
 ![](https://www.youtube.com/watch?v=WtnCe6LPJJ8)
 
-<p class="clip-credit"><strong>Posture and posture breaking from the guard</strong> — taught by TakingItToTheMMAT · 7:59 · <a href="https://www.youtube.com/watch?v=WtnCe6LPJJ8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Posture and posture breaking from the guard</strong> · 7:59 · <a href="https://www.youtube.com/watch?v=WtnCe6LPJJ8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Useful posture changes with the task; it does not always mean sitting upright. C
 
 ![](https://www.youtube.com/watch?v=onODo5EQkrk)
 
-<p class="clip-credit"><strong>The posture concept that stops you getting crushed</strong> — taught by Brandon McCaghren · 5:59 · <a href="https://www.youtube.com/watch?v=onODo5EQkrk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The posture concept that stops you getting crushed</strong> · 5:59 · <a href="https://www.youtube.com/watch?v=onODo5EQkrk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Useful posture changes with the task; it does not always mean sitting upright. C
 
 ![](https://www.youtube.com/watch?v=jx120fTdOfA)
 
-<p class="clip-credit"><strong>Common posture mistake made by guard players</strong> — taught by Rickson Gracie · 0:58 · <a href="https://www.youtube.com/watch?v=jx120fTdOfA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Common posture mistake made by guard players</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=jx120fTdOfA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

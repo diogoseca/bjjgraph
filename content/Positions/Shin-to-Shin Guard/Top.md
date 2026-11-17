@@ -166,11 +166,10 @@ description: "Master passing Shin-to-Shin Guard from top perspective. Learn clea
       "@type": "VideoObject",
       "position": 1,
       "name": "1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard",
-      "description": "Shin-to-Shin Guard (Top) film study: 1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard, taught by Dynasty Jiu Jitsu.",
+      "description": "Shin-to-Shin Guard (Top) film study: 1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YV26zZARJdA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YV26zZARJdA",
       "url": "https://www.youtube.com/watch?v=YV26zZARJdA",
-      "creator": { "@type": "Person", "name": "Dynasty Jiu Jitsu" },
       "duration": "PT163S"
     }
   ]
@@ -199,7 +198,7 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 ![](https://www.youtube.com/watch?v=YV26zZARJdA)
 
-<p class="clip-credit"><strong>1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard</strong> — taught by Dynasty Jiu Jitsu · 2:43 · <a href="https://www.youtube.com/watch?v=YV26zZARJdA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard</strong> · 2:43 · <a href="https://www.youtube.com/watch?v=YV26zZARJdA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

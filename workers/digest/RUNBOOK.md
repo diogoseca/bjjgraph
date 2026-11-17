@@ -117,7 +117,7 @@ Count + techniques reviewed · Game Knowledge % (+today's delta) · "Next belt: 
 N of M <worn belt> units proven" (v1.211.0: the belt the player wears, earned in the
 Challenges and written by the app as `dayLog[day].b`; no line when an older app wrote none —
 the score names no belt, and the old score-paced "at this pace" line is retired) · streak line · weak-spots magazine block: the top spot
-with an attributed YouTube clip when the public content chunk carries one
-("Here's a great video from <who> explaining <X>"), the second spot as a
+with a YouTube clip when the public content chunk carries one ("Here's a great
+video explaining <X>"; no instructor's name since v1.288.0, owner U196 b), the second spot as a
 one-line extra. All numbers come from the player's own synced blob (`dayLog`,
 written only while the toggle is on).

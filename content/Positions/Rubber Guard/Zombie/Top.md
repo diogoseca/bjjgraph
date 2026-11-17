@@ -142,22 +142,20 @@ description: "Zombie top perspective: Keep a useful forearm between the bodies b
       "@type": "VideoObject",
       "position": 1,
       "name": "Passing the Lockdown from half guard top",
-      "description": "Zombie (Top) film study: Passing the Lockdown from half guard top, taught by Lachlan Giles.",
+      "description": "Zombie (Top) film study: Passing the Lockdown from half guard top.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gtsKv_sDRnw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gtsKv_sDRnw",
       "url": "https://www.youtube.com/watch?v=gtsKv_sDRnw",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT359S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Safely escaping the Lockdown as the top player",
-      "description": "Zombie (Top) film study: Safely escaping the Lockdown as the top player, taught by Lachlan Giles.",
+      "description": "Zombie (Top) film study: Safely escaping the Lockdown as the top player.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xIkXPK5h-4A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xIkXPK5h-4A",
       "url": "https://www.youtube.com/watch?v=xIkXPK5h-4A",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT438S"
     }
   ]
@@ -192,7 +190,7 @@ Zombie describes an action and its arm-clearing checkpoint. The high leg control
 
 ![](https://www.youtube.com/watch?v=gtsKv_sDRnw)
 
-<p class="clip-credit"><strong>Passing the Lockdown from half guard top</strong> — taught by Lachlan Giles · 5:59 · <a href="https://www.youtube.com/watch?v=gtsKv_sDRnw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing the Lockdown from half guard top</strong> · 5:59 · <a href="https://www.youtube.com/watch?v=gtsKv_sDRnw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -200,7 +198,7 @@ Zombie describes an action and its arm-clearing checkpoint. The high leg control
 
 ![](https://www.youtube.com/watch?v=xIkXPK5h-4A)
 
-<p class="clip-credit"><strong>Safely escaping the Lockdown as the top player</strong> — taught by Lachlan Giles · 7:18 · <a href="https://www.youtube.com/watch?v=xIkXPK5h-4A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Safely escaping the Lockdown as the top player</strong> · 7:18 · <a href="https://www.youtube.com/watch?v=xIkXPK5h-4A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

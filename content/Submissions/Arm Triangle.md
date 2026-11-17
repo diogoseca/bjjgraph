@@ -48,44 +48,40 @@ description: "Master the Arm Triangle choke in BJJ. Setup from side control, exe
       "@type": "VideoObject",
       "position": 1,
       "name": "The mounted arm triangle",
-      "description": "Arm Triangle film study: The mounted arm triangle, taught by Coach Brian.",
+      "description": "Arm Triangle film study: The mounted arm triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tc-XXMg7v48/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tc-XXMg7v48",
       "url": "https://www.youtube.com/watch?v=tc-XXMg7v48",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
       "duration": "PT145S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Finishing head-and-arm chokes the right way",
-      "description": "Arm Triangle film study: Finishing head-and-arm chokes the right way, taught by Henry Akins.",
+      "description": "Arm Triangle film study: Finishing head-and-arm chokes the right way.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YHCZ7SHep5k/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YHCZ7SHep5k",
       "url": "https://www.youtube.com/watch?v=YHCZ7SHep5k",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
       "duration": "PT88S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Head and arm choke from mount finishing details",
-      "description": "Arm Triangle film study: Head and arm choke from mount finishing details, taught by Roger Gracie.",
+      "description": "Arm Triangle film study: Head and arm choke from mount finishing details.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wrZCRBlAB3Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wrZCRBlAB3Y",
       "url": "https://www.youtube.com/watch?v=wrZCRBlAB3Y",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
       "duration": "PT265S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Von Flu and arm triangle",
-      "description": "Arm Triangle film study: Von Flu and arm triangle, taught by Pure Grappling.",
+      "description": "Arm Triangle film study: Von Flu and arm triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WSz5MbUhb_0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WSz5MbUhb_0",
       "url": "https://www.youtube.com/watch?v=WSz5MbUhb_0",
-      "creator": { "@type": "Person", "name": "Pure Grappling" },
       "duration": "PT52S"
     }
   ]
@@ -153,7 +149,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 ![](https://www.youtube.com/watch?v=tc-XXMg7v48)
 
-<p class="clip-credit"><strong>The mounted arm triangle</strong> — taught by Coach Brian · 2:25 · <a href="https://www.youtube.com/watch?v=tc-XXMg7v48" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The mounted arm triangle</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=tc-XXMg7v48" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -161,7 +157,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 ![](https://www.youtube.com/watch?v=YHCZ7SHep5k)
 
-<p class="clip-credit"><strong>Finishing head-and-arm chokes the right way</strong> — taught by Henry Akins · 1:28 · <a href="https://www.youtube.com/watch?v=YHCZ7SHep5k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Finishing head-and-arm chokes the right way</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=YHCZ7SHep5k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -169,7 +165,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 ![](https://www.youtube.com/watch?v=wrZCRBlAB3Y)
 
-<p class="clip-credit"><strong>Head and arm choke from mount finishing details</strong> — taught by Roger Gracie · 4:25 · <a href="https://www.youtube.com/watch?v=wrZCRBlAB3Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Head and arm choke from mount finishing details</strong> · 4:25 · <a href="https://www.youtube.com/watch?v=wrZCRBlAB3Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -177,7 +173,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 ![](https://www.youtube.com/watch?v=WSz5MbUhb_0)
 
-<p class="clip-credit"><strong>Von Flu and arm triangle</strong> — taught by Pure Grappling · 0:52 · <a href="https://www.youtube.com/watch?v=WSz5MbUhb_0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Von Flu and arm triangle</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=WSz5MbUhb_0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

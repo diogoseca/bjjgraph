@@ -180,8 +180,8 @@ description: "How to execute Consolidate Mount in BJJ. Attacking perspective wit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Fabricio Amaral BJJ - Controlling the mount",
-      "description": "Consolidate Mount (Attacker) film study: Fabricio Amaral BJJ - Controlling the mount.",
+      "name": "Controlling the mount",
+      "description": "Consolidate Mount (Attacker) film study: Controlling the mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9BDCNSAnw7I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9BDCNSAnw7I",
       "url": "https://www.youtube.com/watch?v=9BDCNSAnw7I",
@@ -215,7 +215,7 @@ Consolidate Mount is the critical transition between achieving mount position an
 
 ![](https://www.youtube.com/watch?v=9BDCNSAnw7I)
 
-<p class="clip-credit"><strong>Fabricio Amaral BJJ - Controlling the mount</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=9BDCNSAnw7I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Controlling the mount</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=9BDCNSAnw7I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

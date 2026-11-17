@@ -153,33 +153,30 @@ description: "Buggy Choke to North-South (defender): Use safe shoulder and hip f
       "@type": "VideoObject",
       "position": 1,
       "name": "North south escape",
-      "description": "Buggy Choke to North-South (Defender) film study: North south escape, taught by Moncaio Brothers.",
+      "description": "Buggy Choke to North-South (Defender) film study: North south escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2EZfzJb_-tA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2EZfzJb_-tA",
       "url": "https://www.youtube.com/watch?v=2EZfzJb_-tA",
-      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
       "duration": "PT24S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "North South pin-down escape",
-      "description": "Buggy Choke to North-South (Defender) film study: North South pin-down escape, taught by Giroux Family.",
+      "description": "Buggy Choke to North-South (Defender) film study: North South pin-down escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/y5bnvzVyRgM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/y5bnvzVyRgM",
       "url": "https://www.youtube.com/watch?v=y5bnvzVyRgM",
-      "creator": { "@type": "Person", "name": "Giroux Family" },
       "duration": "PT11S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "North South inverted spin escape",
-      "description": "Buggy Choke to North-South (Defender) film study: North South inverted spin escape, taught by SBG Australia.",
+      "description": "Buggy Choke to North-South (Defender) film study: North South inverted spin escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XaLBmGnHm78/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XaLBmGnHm78",
       "url": "https://www.youtube.com/watch?v=XaLBmGnHm78",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
       "duration": "PT37S"
     }
   ]
@@ -218,7 +215,7 @@ The Buggy holder shortens the loop with shoulder pressure toward the hip, not by
 
 ![](https://www.youtube.com/watch?v=2EZfzJb_-tA)
 
-<p class="clip-credit"><strong>North south escape</strong> — taught by Moncaio Brothers · 0:24 · <a href="https://www.youtube.com/watch?v=2EZfzJb_-tA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>North south escape</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=2EZfzJb_-tA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,7 +223,7 @@ The Buggy holder shortens the loop with shoulder pressure toward the hip, not by
 
 ![](https://www.youtube.com/watch?v=y5bnvzVyRgM)
 
-<p class="clip-credit"><strong>North South pin-down escape</strong> — taught by Giroux Family · 0:11 · <a href="https://www.youtube.com/watch?v=y5bnvzVyRgM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>North South pin-down escape</strong> · 0:11 · <a href="https://www.youtube.com/watch?v=y5bnvzVyRgM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,7 +231,7 @@ The Buggy holder shortens the loop with shoulder pressure toward the hip, not by
 
 ![](https://www.youtube.com/watch?v=XaLBmGnHm78)
 
-<p class="clip-credit"><strong>North South inverted spin escape</strong> — taught by SBG Australia · 0:37 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>North South inverted spin escape</strong> · 0:37 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

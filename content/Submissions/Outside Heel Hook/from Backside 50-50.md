@@ -56,8 +56,8 @@ description: "Master the Outside Heel Hook from Backside 50-50. Complete guide t
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook~ Marshall Stamper",
-      "description": "Outside Heel Hook from Backside 50-50 film study: K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook~ Marshall Stamper.",
+      "name": "K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook",
+      "description": "Outside Heel Hook from Backside 50-50 film study: K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7I0Lj1aSon4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7I0Lj1aSon4",
       "url": "https://www.youtube.com/watch?v=7I0Lj1aSon4",
@@ -131,7 +131,7 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 ![](https://www.youtube.com/watch?v=7I0Lj1aSon4)
 
-<p class="clip-credit"><strong>K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook~ Marshall Stamper</strong> · 0:46 · <a href="https://www.youtube.com/watch?v=7I0Lj1aSon4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>K Guard entry to Backside 50/50 to 80/20 Outside Heel Hook</strong> · 0:46 · <a href="https://www.youtube.com/watch?v=7I0Lj1aSon4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

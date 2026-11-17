@@ -142,33 +142,30 @@ description: "Dead Orchard Control bottom perspective: Bring the shoulders close
       "@type": "VideoObject",
       "position": 1,
       "name": "Anaconda Choke Defense",
-      "description": "Dead Orchard Control (Bottom) film study: Anaconda Choke Defense, taught by SFS MMA.",
+      "description": "Dead Orchard Control (Bottom) film study: Anaconda Choke Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SXm9wA1HcvM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SXm9wA1HcvM",
       "url": "https://www.youtube.com/watch?v=SXm9wA1HcvM",
-      "creator": { "@type": "Person", "name": "SFS MMA" },
       "duration": "PT64S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "How to Escape the Anaconda Choke",
-      "description": "Dead Orchard Control (Bottom) film study: How to Escape the Anaconda Choke, taught by ZombieProofBJJ.",
+      "description": "Dead Orchard Control (Bottom) film study: How to Escape the Anaconda Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/czQckiDogRc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/czQckiDogRc",
       "url": "https://www.youtube.com/watch?v=czQckiDogRc",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
       "duration": "PT92S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Standing Front Headlock Choke Defense",
-      "description": "Dead Orchard Control (Bottom) film study: Standing Front Headlock Choke Defense, taught by Empower Gym Tampa.",
+      "description": "Dead Orchard Control (Bottom) film study: Standing Front Headlock Choke Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/J-MaOIfDHXk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/J-MaOIfDHXk",
       "url": "https://www.youtube.com/watch?v=J-MaOIfDHXk",
-      "creator": { "@type": "Person", "name": "Empower Gym Tampa" },
       "duration": "PT60S"
     }
   ]
@@ -205,7 +202,7 @@ Keep a supported forearm inside if the top player begins driving chest pressure 
 
 ![](https://www.youtube.com/watch?v=SXm9wA1HcvM)
 
-<p class="clip-credit"><strong>Anaconda Choke Defense</strong> — taught by SFS MMA · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda Choke Defense</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -213,7 +210,7 @@ Keep a supported forearm inside if the top player begins driving chest pressure 
 
 ![](https://www.youtube.com/watch?v=czQckiDogRc)
 
-<p class="clip-credit"><strong>How to Escape the Anaconda Choke</strong> — taught by ZombieProofBJJ · 1:32 · <a href="https://www.youtube.com/watch?v=czQckiDogRc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Escape the Anaconda Choke</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=czQckiDogRc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -221,7 +218,7 @@ Keep a supported forearm inside if the top player begins driving chest pressure 
 
 ![](https://www.youtube.com/watch?v=J-MaOIfDHXk)
 
-<p class="clip-credit"><strong>Standing Front Headlock Choke Defense</strong> — taught by Empower Gym Tampa · 1:00 · <a href="https://www.youtube.com/watch?v=J-MaOIfDHXk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Standing Front Headlock Choke Defense</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=J-MaOIfDHXk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

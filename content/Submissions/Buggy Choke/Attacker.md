@@ -180,8 +180,8 @@ description: "Attack the Buggy Choke from bottom half guard: trap the arm and he
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Buggy choke from half guard: Moncaio Brothers JiuJitsu",
-      "description": "Buggy Choke (Attacker) film study: Buggy choke from half guard: Moncaio Brothers JiuJitsu.",
+      "name": "Buggy choke from half guard",
+      "description": "Buggy Choke (Attacker) film study: Buggy choke from half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZBOagHWTCFw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ZBOagHWTCFw",
       "url": "https://www.youtube.com/watch?v=ZBOagHWTCFw",
@@ -236,7 +236,7 @@ As the attacker you are on the bottom, often already flattened, and your goal is
 
 ![](https://www.youtube.com/watch?v=ZBOagHWTCFw)
 
-<p class="clip-credit"><strong>Buggy choke from half guard: Moncaio Brothers JiuJitsu</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=ZBOagHWTCFw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Buggy choke from half guard</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=ZBOagHWTCFw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

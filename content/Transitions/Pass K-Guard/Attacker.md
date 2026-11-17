@@ -186,8 +186,8 @@ description: "Learn to execute the K-Guard pass from the attacker perspective. S
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing K-guard (Lachlan Giles)",
-      "description": "Pass K-Guard (Attacker) film study: Passing K-guard (Lachlan Giles).",
+      "name": "Passing K-guard",
+      "description": "Pass K-Guard (Attacker) film study: Passing K-guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WV3PwrFShU0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WV3PwrFShU0",
       "url": "https://www.youtube.com/watch?v=WV3PwrFShU0",
@@ -221,7 +221,7 @@ The K-Guard pass from the attacker's perspective demands a systematic, pressure-
 
 ![](https://www.youtube.com/watch?v=WV3PwrFShU0)
 
-<p class="clip-credit"><strong>Passing K-guard (Lachlan Giles)</strong> · 7:10 · <a href="https://www.youtube.com/watch?v=WV3PwrFShU0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing K-guard</strong> · 7:10 · <a href="https://www.youtube.com/watch?v=WV3PwrFShU0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

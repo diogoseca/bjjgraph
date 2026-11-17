@@ -56,8 +56,8 @@ description: "Master the Standing RNC from Rear Clinch in BJJ. Expert guide to f
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Technique of the Week Liz Carmouche Standing Rear Naked Choke",
-      "description": "Rear Naked Choke from Standing Rear Clinch film study: Technique of the Week Liz Carmouche Standing Rear Naked Choke.",
+      "name": "Technique of the Week Standing Rear Naked Choke",
+      "description": "Rear Naked Choke from Standing Rear Clinch film study: Technique of the Week Standing Rear Naked Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/VMMxUYLSKT8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/VMMxUYLSKT8?start=29",
       "url": "https://www.youtube.com/watch?v=VMMxUYLSKT8",
@@ -131,7 +131,7 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 
 ![](https://www.youtube.com/watch?v=VMMxUYLSKT8&start=29)
 
-<p class="clip-credit"><strong>Technique of the Week Liz Carmouche Standing Rear Naked Choke</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=VMMxUYLSKT8&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
+<p class="clip-credit"><strong>Technique of the Week Standing Rear Naked Choke</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=VMMxUYLSKT8&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
 
 </div>
 

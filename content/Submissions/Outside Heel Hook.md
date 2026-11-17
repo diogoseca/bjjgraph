@@ -47,44 +47,40 @@ description: "Master Outside Heel Hook in BJJ. Safety guide covering proper appl
       "@type": "VideoObject",
       "position": 1,
       "name": "Heel Hooks breakdown",
-      "description": "Outside Heel Hook film study: Heel Hooks breakdown, taught by Lachlan Giles.",
+      "description": "Outside Heel Hook film study: Heel Hooks breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UuluKZKDt8w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UuluKZKDt8w",
       "url": "https://www.youtube.com/watch?v=UuluKZKDt8w",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT64S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "ADCC-style 50/50 heel hook",
-      "description": "Outside Heel Hook film study: ADCC-style 50/50 heel hook, taught by Lachlan Giles.",
+      "description": "Outside Heel Hook film study: ADCC-style 50/50 heel hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5RyU5LDc3C4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5RyU5LDc3C4",
       "url": "https://www.youtube.com/watch?v=5RyU5LDc3C4",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT86S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Backside 50/50 heel hook finish",
-      "description": "Outside Heel Hook film study: Backside 50/50 heel hook finish, taught by Craig Jones.",
+      "description": "Outside Heel Hook film study: Backside 50/50 heel hook finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
       "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT18S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Backside 50/50 to outside heel hook",
-      "description": "Outside Heel Hook film study: Backside 50/50 to outside heel hook, taught by Marshall Stamper.",
+      "description": "Outside Heel Hook film study: Backside 50/50 to outside heel hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7I0Lj1aSon4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7I0Lj1aSon4",
       "url": "https://www.youtube.com/watch?v=7I0Lj1aSon4",
-      "creator": { "@type": "Person", "name": "Marshall Stamper" },
       "duration": "PT47S"
     }
   ]
@@ -156,7 +152,7 @@ The position demands systematic control before any finishing attempt: hip contro
 
 ![](https://www.youtube.com/watch?v=UuluKZKDt8w)
 
-<p class="clip-credit"><strong>Heel Hooks breakdown</strong> — taught by Lachlan Giles · 1:04 · <a href="https://www.youtube.com/watch?v=UuluKZKDt8w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Heel Hooks breakdown</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=UuluKZKDt8w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -164,7 +160,7 @@ The position demands systematic control before any finishing attempt: hip contro
 
 ![](https://www.youtube.com/watch?v=5RyU5LDc3C4)
 
-<p class="clip-credit"><strong>ADCC-style 50/50 heel hook</strong> — taught by Lachlan Giles · 1:26 · <a href="https://www.youtube.com/watch?v=5RyU5LDc3C4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>ADCC-style 50/50 heel hook</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=5RyU5LDc3C4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -172,7 +168,7 @@ The position demands systematic control before any finishing attempt: hip contro
 
 ![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
 
-<p class="clip-credit"><strong>Backside 50/50 heel hook finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Backside 50/50 heel hook finish</strong> · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -180,7 +176,7 @@ The position demands systematic control before any finishing attempt: hip contro
 
 ![](https://www.youtube.com/watch?v=7I0Lj1aSon4)
 
-<p class="clip-credit"><strong>Backside 50/50 to outside heel hook</strong> — taught by Marshall Stamper · 0:47 · <a href="https://www.youtube.com/watch?v=7I0Lj1aSon4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Backside 50/50 to outside heel hook</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=7I0Lj1aSon4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

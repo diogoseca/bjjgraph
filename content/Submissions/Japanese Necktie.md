@@ -47,22 +47,20 @@ description: "Master Japanese Necktie in BJJ. Complete guide with safety protoco
       "@type": "VideoObject",
       "position": 1,
       "name": "Front headlock to necktie choke",
-      "description": "Japanese Necktie film study: Front headlock to necktie choke, taught by Gile23.",
+      "description": "Japanese Necktie film study: Front headlock to necktie choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4ob2ZrEH3Yc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4ob2ZrEH3Yc",
       "url": "https://www.youtube.com/watch?v=4ob2ZrEH3Yc",
-      "creator": { "@type": "Person", "name": "Gile23" },
       "duration": "PT113S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Schultz choke from front headlock",
-      "description": "Japanese Necktie film study: Schultz choke from front headlock, taught by Sonny Brown.",
+      "description": "Japanese Necktie film study: Schultz choke from front headlock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hfifEH_SNVc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hfifEH_SNVc",
       "url": "https://www.youtube.com/watch?v=hfifEH_SNVc",
-      "creator": { "@type": "Person", "name": "Sonny Brown" },
       "duration": "PT187S"
     }
   ]
@@ -127,7 +125,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 ![](https://www.youtube.com/watch?v=4ob2ZrEH3Yc)
 
-<p class="clip-credit"><strong>Front headlock to necktie choke</strong> — taught by Gile23 · 1:53 · <a href="https://www.youtube.com/watch?v=4ob2ZrEH3Yc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front headlock to necktie choke</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=4ob2ZrEH3Yc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -135,7 +133,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 ![](https://www.youtube.com/watch?v=hfifEH_SNVc)
 
-<p class="clip-credit"><strong>Schultz choke from front headlock</strong> — taught by Sonny Brown · 3:07 · <a href="https://www.youtube.com/watch?v=hfifEH_SNVc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Schultz choke from front headlock</strong> · 3:07 · <a href="https://www.youtube.com/watch?v=hfifEH_SNVc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

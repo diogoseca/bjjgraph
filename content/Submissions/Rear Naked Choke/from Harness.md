@@ -56,8 +56,8 @@ description: "Master the Rear Naked Choke from Harness in BJJ. Complete guide to
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Craig Jones: details on finishing the rear naked choke",
-      "description": "Rear Naked Choke from Harness film study: Craig Jones: details on finishing the rear naked choke.",
+      "name": "Details on finishing the rear naked choke",
+      "description": "Rear Naked Choke from Harness film study: Details on finishing the rear naked choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8tdVE2zgjXw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8tdVE2zgjXw",
       "url": "https://www.youtube.com/watch?v=8tdVE2zgjXw",
@@ -131,7 +131,7 @@ Strategically, this creates a cascading dilemma system. The opponent must commit
 
 ![](https://www.youtube.com/watch?v=8tdVE2zgjXw)
 
-<p class="clip-credit"><strong>Craig Jones: details on finishing the rear naked choke</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Details on finishing the rear naked choke</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

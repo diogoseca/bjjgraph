@@ -19560,3 +19560,60 @@ the PR (e2e-full, green on de56390ba).
 
 Runs, bytes and the full rulings are in the PR body. corridor-reach.spec.ts names its non-kill and one known limit (a
 shelf press in the instant the plan lands).
+
+## v1.288.0 — No person's or gym's name in our own text: clip titles and the "taught by" credit (NONAMES, 2026-11-17)
+
+The owner, 16 and 17 Nov: U195 a, "no names in any title", then U196 b, "take the taught-by line out everywhere".
+One rule, one PR.
+
+**Titles.**
+- 246 clip titles named an instructor, an athlete, or a gym or style named after a person: 10.7% of 2,304 unique
+  titles, on 242 videos, counted by a Sonnet pass and spot-checked (15 of 15 positives right, 0 of 30 likely
+  negatives wrong).
+- Sonnet rewrote each one, with the node it sits on as context. A script sorted every pair:
+  - 188 lost only the name and its glue words;
+  - 58 changed more.
+- The seat read all 58 and 40 random name-only ones, and fixed 3 by hand:
+  - "Famous Loop Choke" became "Loop Choke";
+  - "Omoplata defense I learned" became "Omoplata defense";
+  - "Dealing with De La Riva Guard pressure", which Sonnet invented, became "Dealing with pressure passing".
+- In 32 titles the first letter was capitalised, because the removed name was the first word.
+- A technique named after a person keeps its name (De La Riva, Estima).
+- The edits: 335 clip rows in 283 records, titles only, proved by masking.
+
+**The credit.**
+- 12 page templates each lost three sites: the visible "— taught by", the JSON-LD description's ", taught by X", and
+  the VideoObject `creator` Person.
+- The wire stopped shipping `by` (`_CLIP_FIELDS`): 16,759 B raw off the on-demand dossier chunks, 784 shipped clips.
+- The app had two readers of `by`, both in `filmStudyHTML`: the play button's label "Watch: title — by", and a visible
+  second line under the thumbnail's title. **The seat's survey listed the second and did not read it; the unit
+  `principle_clips.test.mjs` caught it.** `neural.js` went 726,647 to 726,466 B.
+- The digest email said "a great video from <who>"; it no longer names anyone.
+- The /dev catalog mock dropped its two real names.
+- The source JSON keeps `by` and `channel` as provenance.
+
+**Eight orphan pages.** `content/Positions/{K-Guard,North-South,X-Guard,Z-Guard}/{top,bottom}.md` are tracked,
+built and served beside the generated `Top.md` / `Bottom.md`, and no generator writes them. They kept 20 credits after
+`regenerate:md`. The new gate found them on its first green-path run. A narrow script stripped the three sites and
+the one title naming a person.
+
+**The gate.** `scripts/check_no_names.py`, `validate:no-names` and `:built`.
+- It prints positive counts: 4,534 credit lines, 4,534 VideoObjects, 2,914 shipped clips.
+- It fails on a credit, a creator, a description's "taught by" or a shipped `by`, and on a zero count.
+- It runs in ci-validate (committed Markdown and the emitted payload), as the last step of `npm run build`, and in
+  both deploys right after the page-titles check: a shared step, so `check_build_chains.py`'s contract holds. The
+  first placement, after the deploy-only gates, broke that contract.
+- Mutants, each red from a green control and naming the page it regenerated:
+  - the credit restored;
+  - the creator restored;
+  - the description's "taught by" restored;
+  - `by` back in `_CLIP_FIELDS`;
+  - the app label restored, and separately the thumbnail's second line (both red at `principle_clips.test.mjs`).
+- **An error of the seat's own, corrected before it counted:** the first mutant run went red on all three mutants,
+  but the gate was already red from the orphans, so nothing was proved. The mutants were rerun from a green control.
+
+**Assertions changed, each saying what it claimed:**
+- `concepts-surface.spec.ts:825` and `principle_clips.test.mjs` test 4 claimed "Watch: title — by" and now claim
+  "Watch: title". Their fixtures still carry `by`.
+- `principle_clips.test.mjs` tests 2 and 3 claimed `by` reached the emitted principle bodies, and now claim it is
+  dropped.

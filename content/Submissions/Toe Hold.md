@@ -48,44 +48,40 @@ description: "Master the Toe Hold leg lock in BJJ. Complete guide with safety pr
       "@type": "VideoObject",
       "position": 1,
       "name": "Toe Hold from 50/50",
-      "description": "Toe Hold film study: Toe Hold from 50/50, taught by John Danaher.",
+      "description": "Toe Hold film study: Toe Hold from 50/50.",
       "thumbnailUrl": "https://i.ytimg.com/vi/B_StkmaI3Nc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/B_StkmaI3Nc",
       "url": "https://www.youtube.com/watch?v=B_StkmaI3Nc",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT17S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Paper Cutter Toehold from 50/50",
-      "description": "Toe Hold film study: Paper Cutter Toehold from 50/50, taught by Garden State BJJ.",
+      "description": "Toe Hold film study: Paper Cutter Toehold from 50/50.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xwaJm1Ft5lc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xwaJm1Ft5lc",
       "url": "https://www.youtube.com/watch?v=xwaJm1Ft5lc",
-      "creator": { "@type": "Person", "name": "Garden State BJJ" },
       "duration": "PT60S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Fifty-fifty toe hold",
-      "description": "Toe Hold film study: Fifty-fifty toe hold, taught by Ninja Pinto.",
+      "description": "Toe Hold film study: Fifty-fifty toe hold.",
       "thumbnailUrl": "https://i.ytimg.com/vi/BbPdLSszYt8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/BbPdLSszYt8",
       "url": "https://www.youtube.com/watch?v=BbPdLSszYt8",
-      "creator": { "@type": "Person", "name": "Ninja Pinto" },
       "duration": "PT70S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Crossover Toe Hold",
-      "description": "Toe Hold film study: Crossover Toe Hold, taught by Craig Jones.",
+      "description": "Toe Hold film study: Crossover Toe Hold.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
       "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT51S"
     }
   ]
@@ -158,7 +154,7 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 ![](https://www.youtube.com/watch?v=B_StkmaI3Nc)
 
-<p class="clip-credit"><strong>Toe Hold from 50/50</strong> — taught by John Danaher · 0:17 · <a href="https://www.youtube.com/watch?v=B_StkmaI3Nc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Toe Hold from 50/50</strong> · 0:17 · <a href="https://www.youtube.com/watch?v=B_StkmaI3Nc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -166,7 +162,7 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 ![](https://www.youtube.com/watch?v=xwaJm1Ft5lc)
 
-<p class="clip-credit"><strong>Paper Cutter Toehold from 50/50</strong> — taught by Garden State BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=xwaJm1Ft5lc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Paper Cutter Toehold from 50/50</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=xwaJm1Ft5lc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -174,7 +170,7 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 ![](https://www.youtube.com/watch?v=BbPdLSszYt8)
 
-<p class="clip-credit"><strong>Fifty-fifty toe hold</strong> — taught by Ninja Pinto · 1:10 · <a href="https://www.youtube.com/watch?v=BbPdLSszYt8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Fifty-fifty toe hold</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=BbPdLSszYt8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -182,7 +178,7 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 ![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
 
-<p class="clip-credit"><strong>Crossover Toe Hold</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crossover Toe Hold</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

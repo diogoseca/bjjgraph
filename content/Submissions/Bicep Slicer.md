@@ -48,33 +48,30 @@ description: "Master the Bicep Slicer in BJJ. Complete guide with safety protoco
       "@type": "VideoObject",
       "position": 1,
       "name": "Crucifix to bicep slicer finish",
-      "description": "Bicep Slicer film study: Crucifix to bicep slicer finish, taught by Ashraf Shishani.",
+      "description": "Bicep Slicer film study: Crucifix to bicep slicer finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/u9bpAwBgPVo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/u9bpAwBgPVo",
       "url": "https://www.youtube.com/watch?v=u9bpAwBgPVo",
-      "creator": { "@type": "Person", "name": "Ashraf Shishani" },
       "duration": "PT70S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Sneaky bicep slicer from side control",
-      "description": "Bicep Slicer film study: Sneaky bicep slicer from side control, taught by Prism Jiu Jitsu.",
+      "description": "Bicep Slicer film study: Sneaky bicep slicer from side control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1BwmKjHGaPg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1BwmKjHGaPg",
       "url": "https://www.youtube.com/watch?v=1BwmKjHGaPg",
-      "creator": { "@type": "Person", "name": "Prism Jiu Jitsu" },
       "duration": "PT74S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Bicep slicer from top side control",
-      "description": "Bicep Slicer film study: Bicep slicer from top side control, taught by VOW BJJ.",
+      "description": "Bicep Slicer film study: Bicep slicer from top side control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WhRSftl4jlU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WhRSftl4jlU",
       "url": "https://www.youtube.com/watch?v=WhRSftl4jlU",
-      "creator": { "@type": "Person", "name": "VOW BJJ" },
       "duration": "PT218S"
     }
   ]
@@ -142,7 +139,7 @@ Among the most overlooked finishes in grappling, the Bicep Slicer earns its keep
 
 ![](https://www.youtube.com/watch?v=u9bpAwBgPVo)
 
-<p class="clip-credit"><strong>Crucifix to bicep slicer finish</strong> — taught by Ashraf Shishani · 1:10 · <a href="https://www.youtube.com/watch?v=u9bpAwBgPVo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crucifix to bicep slicer finish</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=u9bpAwBgPVo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -150,7 +147,7 @@ Among the most overlooked finishes in grappling, the Bicep Slicer earns its keep
 
 ![](https://www.youtube.com/watch?v=1BwmKjHGaPg)
 
-<p class="clip-credit"><strong>Sneaky bicep slicer from side control</strong> — taught by Prism Jiu Jitsu · 1:14 · <a href="https://www.youtube.com/watch?v=1BwmKjHGaPg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sneaky bicep slicer from side control</strong> · 1:14 · <a href="https://www.youtube.com/watch?v=1BwmKjHGaPg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -158,7 +155,7 @@ Among the most overlooked finishes in grappling, the Bicep Slicer earns its keep
 
 ![](https://www.youtube.com/watch?v=WhRSftl4jlU)
 
-<p class="clip-credit"><strong>Bicep slicer from top side control</strong> — taught by VOW BJJ · 3:38 · <a href="https://www.youtube.com/watch?v=WhRSftl4jlU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bicep slicer from top side control</strong> · 3:38 · <a href="https://www.youtube.com/watch?v=WhRSftl4jlU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

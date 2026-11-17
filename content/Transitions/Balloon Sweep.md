@@ -56,8 +56,8 @@ description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Balloon Sweep | Christian \" Xaropinho \" Uflacker",
-      "description": "Balloon Sweep film study: Balloon Sweep | Christian \" Xaropinho \" Uflacker.",
+      "name": "Balloon Sweep",
+      "description": "Balloon Sweep film study: Balloon Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7jlI3VexQyw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7jlI3VexQyw",
       "url": "https://www.youtube.com/watch?v=7jlI3VexQyw",
@@ -125,7 +125,7 @@ Strategically, the Balloon Sweep occupies a key role in the closed guard sweepin
 
 ![](https://www.youtube.com/watch?v=7jlI3VexQyw)
 
-<p class="clip-credit"><strong>Balloon Sweep | Christian &#34; Xaropinho &#34; Uflacker</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=7jlI3VexQyw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Balloon Sweep</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=7jlI3VexQyw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

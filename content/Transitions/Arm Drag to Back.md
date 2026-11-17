@@ -46,8 +46,8 @@ description: "Master the Arm Drag to Back technique in BJJ. Complete guide cover
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse Armdrag (Marcelo Garcia style) from Butterfly to Back Take Gi",
-      "description": "Arm Drag to Back film study: Reverse Armdrag (Marcelo Garcia style) from Butterfly to Back Take Gi.",
+      "name": "Reverse Armdrag from Butterfly to Back Take Gi",
+      "description": "Arm Drag to Back film study: Reverse Armdrag from Butterfly to Back Take Gi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MFed9IE8afA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MFed9IE8afA",
       "url": "https://www.youtube.com/watch?v=MFed9IE8afA",
@@ -107,7 +107,7 @@ From the butterfly guard specifically, the arm drag pairs naturally with the hoo
 
 ![](https://www.youtube.com/watch?v=MFed9IE8afA)
 
-<p class="clip-credit"><strong>Reverse Armdrag (Marcelo Garcia style) from Butterfly to Back Take Gi</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=MFed9IE8afA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse Armdrag from Butterfly to Back Take Gi</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=MFed9IE8afA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,8 +46,8 @@ description: "Learn Kimura from Triangle Control: retain the triangle entangleme
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Caio Terra, Kimura from Triangle",
-      "description": "Kimura from Triangle Control film study: Caio Terra, Kimura from Triangle.",
+      "name": "Kimura from Triangle",
+      "description": "Kimura from Triangle Control film study: Kimura from Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/32-6U-k6-Hg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/32-6U-k6-Hg",
       "url": "https://www.youtube.com/watch?v=32-6U-k6-Hg",
@@ -109,7 +109,7 @@ Kimura from Triangle Control is a distinct submission state: the bottom player r
 
 ![](https://www.youtube.com/watch?v=32-6U-k6-Hg)
 
-<p class="clip-credit"><strong>Caio Terra, Kimura from Triangle</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=32-6U-k6-Hg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura from Triangle</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=32-6U-k6-Hg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

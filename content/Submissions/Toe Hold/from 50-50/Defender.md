@@ -168,8 +168,8 @@ description: "How to defend against Toe Hold from 50-50 in BJJ. Recognition, esc
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to escape from toehold by Gordon Ryan",
-      "description": "Toe Hold from 50-50 (Defender) film study: How to escape from toehold by Gordon Ryan.",
+      "name": "How to escape from toehold",
+      "description": "Toe Hold from 50-50 (Defender) film study: How to escape from toehold.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
       "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
@@ -206,7 +206,7 @@ The bilateral nature of 50-50 creates a unique defensive dynamic: your best defe
 
 ![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
 
-<p class="clip-credit"><strong>How to escape from toehold by Gordon Ryan</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to escape from toehold</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

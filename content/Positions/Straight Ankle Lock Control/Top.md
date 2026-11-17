@@ -165,8 +165,8 @@ description: "Master defensive strategies from top of straight ankle lock contro
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to defend the butterfly ashi footlock / Mikey Musumeci ankle lock \u2014 ft.\u2026",
-      "description": "Straight Ankle Lock Control (Top) film study: How to defend the butterfly ashi footlock / Mikey Musumeci ankle lock \u2014 ft.\u2026.",
+      "name": "How to defend the butterfly ashi footlock / ankle lock",
+      "description": "Straight Ankle Lock Control (Top) film study: How to defend the butterfly ashi footlock / ankle lock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/l7u1ce88jqM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/l7u1ce88jqM",
       "url": "https://www.youtube.com/watch?v=l7u1ce88jqM",
@@ -208,7 +208,7 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 ![](https://www.youtube.com/watch?v=l7u1ce88jqM)
 
-<p class="clip-credit"><strong>How to defend the butterfly ashi footlock / Mikey Musumeci ankle lock — ft.…</strong> · 3:31 · <a href="https://www.youtube.com/watch?v=l7u1ce88jqM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to defend the butterfly ashi footlock / ankle lock</strong> · 3:31 · <a href="https://www.youtube.com/watch?v=l7u1ce88jqM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

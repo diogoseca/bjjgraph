@@ -160,8 +160,8 @@ description: "Complete defensive guide against the guillotine choke from guillot
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Gordon Ryan\u0027s Guillotine Escape Secrets - 4 Pointing From Bottom Side Head\u2026",
-      "description": "Guillotine Choke from Guillotine Control (Defender) film study: Gordon Ryan\u0027s Guillotine Escape Secrets - 4 Pointing From Bottom Side Head\u2026.",
+      "name": "Guillotine Escape Secrets - 4 Pointing From Bottom Side Head\u2026",
+      "description": "Guillotine Choke from Guillotine Control (Defender) film study: Guillotine Escape Secrets - 4 Pointing From Bottom Side Head\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bkTJD6RIyKY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bkTJD6RIyKY",
       "url": "https://www.youtube.com/watch?v=bkTJD6RIyKY",
@@ -208,7 +208,7 @@ The most critical defensive principle is that prevention is vastly easier than e
 
 ![](https://www.youtube.com/watch?v=bkTJD6RIyKY)
 
-<p class="clip-credit"><strong>Gordon Ryan&#39;s Guillotine Escape Secrets - 4 Pointing From Bottom Side Head…</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=bkTJD6RIyKY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine Escape Secrets - 4 Pointing From Bottom Side Head…</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=bkTJD6RIyKY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

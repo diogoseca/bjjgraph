@@ -47,44 +47,40 @@ description: "Master the Twister spinal lock in BJJ. Complete guide covering Tru
       "@type": "VideoObject",
       "position": 1,
       "name": "Twister Side Attacks",
-      "description": "Twister film study: Twister Side Attacks, taught by Eddie Bravo.",
+      "description": "Twister film study: Twister Side Attacks.",
       "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
       "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Eddie Bravo\u0027s Twister",
-      "description": "Twister film study: Eddie Bravo\u0027s Twister, taught by Eddie Bravo.",
+      "name": "Twister",
+      "description": "Twister film study: Twister.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FjWN_aBp2eE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FjWN_aBp2eE",
       "url": "https://www.youtube.com/watch?v=FjWN_aBp2eE",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT49S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Twister from Side Control",
-      "description": "Twister film study: Twister from Side Control, taught by Eddie Bravo.",
+      "description": "Twister film study: Twister from Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
       "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT87S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Twister from Turtle",
-      "description": "Twister film study: Twister from Turtle, taught by Thunderdome BJJ.",
+      "description": "Twister film study: Twister from Turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RVr67Kb-6ec/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RVr67Kb-6ec",
       "url": "https://www.youtube.com/watch?v=RVr67Kb-6ec",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
       "duration": "PT24S"
     }
   ]
@@ -151,7 +147,7 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 
 ![](https://www.youtube.com/watch?v=odT3-cVWXdc)
 
-<p class="clip-credit"><strong>Twister Side Attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister Side Attacks</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -159,7 +155,7 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 
 ![](https://www.youtube.com/watch?v=FjWN_aBp2eE)
 
-<p class="clip-credit"><strong>Eddie Bravo&#39;s Twister</strong> — taught by Eddie Bravo · 0:49 · <a href="https://www.youtube.com/watch?v=FjWN_aBp2eE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=FjWN_aBp2eE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -167,7 +163,7 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 
 ![](https://www.youtube.com/watch?v=R55lmkc6Mus)
 
-<p class="clip-credit"><strong>Twister from Side Control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister from Side Control</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -175,7 +171,7 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 
 ![](https://www.youtube.com/watch?v=RVr67Kb-6ec)
 
-<p class="clip-credit"><strong>Twister from Turtle</strong> — taught by Thunderdome BJJ · 0:24 · <a href="https://www.youtube.com/watch?v=RVr67Kb-6ec" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister from Turtle</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=RVr67Kb-6ec" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

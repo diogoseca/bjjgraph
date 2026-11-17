@@ -47,11 +47,10 @@ description: "Master Single Leg X-Guard in BJJ. Strategic guide covering setup, 
       "@type": "VideoObject",
       "position": 1,
       "name": "Single leg X Guard Options, X Guard, Reverse X Guard",
-      "description": "Single Leg X-Guard film study: Single leg X Guard Options, X Guard, Reverse X Guard, taught by Steven Kaloustian.",
+      "description": "Single Leg X-Guard film study: Single leg X Guard Options, X Guard, Reverse X Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EcxCadpBePk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EcxCadpBePk",
       "url": "https://www.youtube.com/watch?v=EcxCadpBePk",
-      "creator": { "@type": "Person", "name": "Steven Kaloustian" },
       "duration": "PT96S"
     },
     {
@@ -111,7 +110,7 @@ Within the modern leg-entanglement game, Single Leg X-Guard (SLX) has become a c
 
 ![](https://www.youtube.com/watch?v=EcxCadpBePk)
 
-<p class="clip-credit"><strong>Single leg X Guard Options, X Guard, Reverse X Guard</strong> — taught by Steven Kaloustian · 1:36 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Single leg X Guard Options, X Guard, Reverse X Guard</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

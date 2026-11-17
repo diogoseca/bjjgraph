@@ -154,32 +154,29 @@ description: "Reduce wasted effort by improving alignment, leverage, and timing 
       "@type": "VideoObject",
       "position": 1,
       "name": "Collar choke mechanics: less arms, more body",
-      "description": "Maximum Efficiency Principle film study: Collar choke mechanics: less arms, more body, taught by Nick Albin.",
+      "description": "Maximum Efficiency Principle film study: Collar choke mechanics: less arms, more body.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IeVNnGvIlpk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IeVNnGvIlpk",
-      "url": "https://www.youtube.com/watch?v=IeVNnGvIlpk",
-      "creator": { "@type": "Person", "name": "Nick Albin" }
+      "url": "https://www.youtube.com/watch?v=IeVNnGvIlpk"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Seiryoku zenyo: maximum efficiency explained",
-      "description": "Maximum Efficiency Principle film study: Seiryoku zenyo: maximum efficiency explained, taught by Shizen Style.",
+      "description": "Maximum Efficiency Principle film study: Seiryoku zenyo: maximum efficiency explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ks_uL6k4NBQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ks_uL6k4NBQ",
       "url": "https://www.youtube.com/watch?v=ks_uL6k4NBQ",
-      "creator": { "@type": "Person", "name": "Shizen Style" },
       "duration": "PT612S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Finishing with maximum efficiency (seiryoku zenyo)",
-      "description": "Maximum Efficiency Principle film study: Finishing with maximum efficiency (seiryoku zenyo), taught by Jukido Academy.",
+      "description": "Maximum Efficiency Principle film study: Finishing with maximum efficiency (seiryoku zenyo).",
       "thumbnailUrl": "https://i.ytimg.com/vi/YIyv8x8tmuI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YIyv8x8tmuI",
       "url": "https://www.youtube.com/watch?v=YIyv8x8tmuI",
-      "creator": { "@type": "Person", "name": "Jukido Academy" },
       "duration": "PT344S"
     }
   ]
@@ -209,7 +206,7 @@ Notice where you keep squeezing or pushing without changing the position. Adjust
 
 ![](https://www.youtube.com/watch?v=IeVNnGvIlpk)
 
-<p class="clip-credit"><strong>Collar choke mechanics: less arms, more body</strong> — taught by Nick Albin · <a href="https://www.youtube.com/watch?v=IeVNnGvIlpk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Collar choke mechanics: less arms, more body</strong> · <a href="https://www.youtube.com/watch?v=IeVNnGvIlpk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,7 +214,7 @@ Notice where you keep squeezing or pushing without changing the position. Adjust
 
 ![](https://www.youtube.com/watch?v=ks_uL6k4NBQ)
 
-<p class="clip-credit"><strong>Seiryoku zenyo: maximum efficiency explained</strong> — taught by Shizen Style · 10:12 · <a href="https://www.youtube.com/watch?v=ks_uL6k4NBQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Seiryoku zenyo: maximum efficiency explained</strong> · 10:12 · <a href="https://www.youtube.com/watch?v=ks_uL6k4NBQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +222,7 @@ Notice where you keep squeezing or pushing without changing the position. Adjust
 
 ![](https://www.youtube.com/watch?v=YIyv8x8tmuI)
 
-<p class="clip-credit"><strong>Finishing with maximum efficiency (seiryoku zenyo)</strong> — taught by Jukido Academy · 5:44 · <a href="https://www.youtube.com/watch?v=YIyv8x8tmuI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Finishing with maximum efficiency (seiryoku zenyo)</strong> · 5:44 · <a href="https://www.youtube.com/watch?v=YIyv8x8tmuI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -47,44 +47,40 @@ description: "Master the Monoplata submission in BJJ. Complete guide covering se
       "@type": "VideoObject",
       "position": 1,
       "name": "Monoplata from Triangle Choke",
-      "description": "Monoplata film study: Monoplata from Triangle Choke, taught by Waza Brazilian Jiu Jitsu.",
+      "description": "Monoplata film study: Monoplata from Triangle Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/u9fF8OCRDks/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/u9fF8OCRDks",
       "url": "https://www.youtube.com/watch?v=u9fF8OCRDks",
-      "creator": { "@type": "Person", "name": "Waza Brazilian Jiu Jitsu" },
       "duration": "PT110S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Monoplata Trap System from Guard",
-      "description": "Monoplata film study: Monoplata Trap System from Guard, taught by Johnny Jitsu.",
+      "description": "Monoplata film study: Monoplata Trap System from Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5J6Gtv1hAMo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5J6Gtv1hAMo",
       "url": "https://www.youtube.com/watch?v=5J6Gtv1hAMo",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
       "duration": "PT160S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Omoplata From Mount",
-      "description": "Monoplata film study: Omoplata From Mount, taught by Jiu Jitsu With Andy.",
+      "description": "Monoplata film study: Omoplata From Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DeVb2R8SQL4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DeVb2R8SQL4",
       "url": "https://www.youtube.com/watch?v=DeVb2R8SQL4",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu With Andy" },
       "duration": "PT18S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Omoplata to Monoplata",
-      "description": "Monoplata film study: Omoplata to Monoplata, taught by Ninjuh Moves.",
+      "description": "Monoplata film study: Omoplata to Monoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kXwTSv13ATw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kXwTSv13ATw",
       "url": "https://www.youtube.com/watch?v=kXwTSv13ATw",
-      "creator": { "@type": "Person", "name": "Ninjuh Moves" },
       "duration": "PT50S"
     }
   ]
@@ -149,7 +145,7 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 ![](https://www.youtube.com/watch?v=u9fF8OCRDks)
 
-<p class="clip-credit"><strong>Monoplata from Triangle Choke</strong> — taught by Waza Brazilian Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=u9fF8OCRDks" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Monoplata from Triangle Choke</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=u9fF8OCRDks" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -157,7 +153,7 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 ![](https://www.youtube.com/watch?v=5J6Gtv1hAMo)
 
-<p class="clip-credit"><strong>Monoplata Trap System from Guard</strong> — taught by Johnny Jitsu · 2:40 · <a href="https://www.youtube.com/watch?v=5J6Gtv1hAMo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Monoplata Trap System from Guard</strong> · 2:40 · <a href="https://www.youtube.com/watch?v=5J6Gtv1hAMo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -165,7 +161,7 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 ![](https://www.youtube.com/watch?v=DeVb2R8SQL4)
 
-<p class="clip-credit"><strong>Omoplata From Mount</strong> — taught by Jiu Jitsu With Andy · 0:18 · <a href="https://www.youtube.com/watch?v=DeVb2R8SQL4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata From Mount</strong> · 0:18 · <a href="https://www.youtube.com/watch?v=DeVb2R8SQL4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -173,7 +169,7 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 ![](https://www.youtube.com/watch?v=kXwTSv13ATw)
 
-<p class="clip-credit"><strong>Omoplata to Monoplata</strong> — taught by Ninjuh Moves · 0:50 · <a href="https://www.youtube.com/watch?v=kXwTSv13ATw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata to Monoplata</strong> · 0:50 · <a href="https://www.youtube.com/watch?v=kXwTSv13ATw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

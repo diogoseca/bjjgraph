@@ -47,22 +47,20 @@ description: "Grip Strip from Buggy Choke opens the bottom player's arm-and-leg 
       "@type": "VideoObject",
       "position": 1,
       "name": "Don\u0027t tap to the buggy choke \u2014 strip the grip",
-      "description": "Grip Strip from Buggy Choke film study: Don\u0027t tap to the buggy choke \u2014 strip the grip, taught by Caique.",
+      "description": "Grip Strip from Buggy Choke film study: Don\u0027t tap to the buggy choke \u2014 strip the grip.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bVS-dLgu_v4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bVS-dLgu_v4",
       "url": "https://www.youtube.com/watch?v=bVS-dLgu_v4",
-      "creator": { "@type": "Person", "name": "Caique" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "How I Escape Everyone\u0027s Buggy Choke",
-      "description": "Grip Strip from Buggy Choke film study: How I Escape Everyone\u0027s Buggy Choke, taught by CrashAndFlowBJJ.",
+      "description": "Grip Strip from Buggy Choke film study: How I Escape Everyone\u0027s Buggy Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4svhwZLlHvY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4svhwZLlHvY",
       "url": "https://www.youtube.com/watch?v=4svhwZLlHvY",
-      "creator": { "@type": "Person", "name": "CrashAndFlowBJJ" },
       "duration": "PT120S"
     }
   ]
@@ -121,7 +119,7 @@ Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.you
 
 ![](https://www.youtube.com/watch?v=bVS-dLgu_v4)
 
-<p class="clip-credit"><strong>Don&#39;t tap to the buggy choke — strip the grip</strong> — taught by Caique · 1:01 · <a href="https://www.youtube.com/watch?v=bVS-dLgu_v4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Don&#39;t tap to the buggy choke — strip the grip</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=bVS-dLgu_v4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -129,7 +127,7 @@ Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.you
 
 ![](https://www.youtube.com/watch?v=4svhwZLlHvY)
 
-<p class="clip-credit"><strong>How I Escape Everyone&#39;s Buggy Choke</strong> — taught by CrashAndFlowBJJ · 2:00 · <a href="https://www.youtube.com/watch?v=4svhwZLlHvY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How I Escape Everyone&#39;s Buggy Choke</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=4svhwZLlHvY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

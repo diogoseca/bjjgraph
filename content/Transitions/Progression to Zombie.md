@@ -47,22 +47,20 @@ description: "Progression to Zombie starts the contested hand-clearing pummel fr
       "@type": "VideoObject",
       "position": 1,
       "name": "Mission Control to Zombie to Double Bag",
-      "description": "Progression to Zombie film study: Mission Control to Zombie to Double Bag, taught by 10th Planet Orange Park.",
+      "description": "Progression to Zombie film study: Mission Control to Zombie to Double Bag.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5fJM5bIk8Fw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5fJM5bIk8Fw",
       "url": "https://www.youtube.com/watch?v=5fJM5bIk8Fw",
-      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
       "duration": "PT108S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Two simple rubber guard tips",
-      "description": "Progression to Zombie film study: Two simple rubber guard tips, taught by Brandon McCaghren.",
+      "description": "Progression to Zombie film study: Two simple rubber guard tips.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cY1xCIx-9-I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cY1xCIx-9-I",
       "url": "https://www.youtube.com/watch?v=cY1xCIx-9-I",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT57S"
     }
   ]
@@ -121,7 +119,7 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 
 ![](https://www.youtube.com/watch?v=5fJM5bIk8Fw)
 
-<p class="clip-credit"><strong>Mission Control to Zombie to Double Bag</strong> — taught by 10th Planet Orange Park · 1:48 · <a href="https://www.youtube.com/watch?v=5fJM5bIk8Fw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mission Control to Zombie to Double Bag</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=5fJM5bIk8Fw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -129,7 +127,7 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 
 ![](https://www.youtube.com/watch?v=cY1xCIx-9-I)
 
-<p class="clip-credit"><strong>Two simple rubber guard tips</strong> — taught by Brandon McCaghren · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Two simple rubber guard tips</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

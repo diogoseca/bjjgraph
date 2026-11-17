@@ -175,8 +175,8 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Foley Dowd- Crab Ride Defense",
-      "description": "Crab Ride (Bottom) film study: Foley Dowd- Crab Ride Defense.",
+      "name": "Crab Ride Defense",
+      "description": "Crab Ride (Bottom) film study: Crab Ride Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Abo6iBdWEIY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Abo6iBdWEIY",
       "url": "https://www.youtube.com/watch?v=Abo6iBdWEIY",
@@ -220,7 +220,7 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 ![](https://www.youtube.com/watch?v=Abo6iBdWEIY)
 
-<p class="clip-credit"><strong>Foley Dowd- Crab Ride Defense</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=Abo6iBdWEIY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crab Ride Defense</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=Abo6iBdWEIY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

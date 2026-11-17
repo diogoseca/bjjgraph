@@ -46,8 +46,8 @@ description: "Master the Homer Simpson Sweep from deep half guard. Detailed tech
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Jeff Glover Seminar - deep half guard homer simpson",
-      "description": "Homer Simpson Sweep film study: Jeff Glover Seminar - deep half guard homer simpson.",
+      "name": "Seminar - deep half guard homer simpson",
+      "description": "Homer Simpson Sweep film study: Seminar - deep half guard homer simpson.",
       "thumbnailUrl": "https://i.ytimg.com/vi/eIbwE6fV0no/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/eIbwE6fV0no",
       "url": "https://www.youtube.com/watch?v=eIbwE6fV0no",
@@ -127,7 +127,7 @@ Strategically, the Homer Simpson Sweep functions as a high-percentage complement
 
 ![](https://www.youtube.com/watch?v=eIbwE6fV0no)
 
-<p class="clip-credit"><strong>Jeff Glover Seminar - deep half guard homer simpson</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=eIbwE6fV0no" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Seminar - deep half guard homer simpson</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=eIbwE6fV0no" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

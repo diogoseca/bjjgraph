@@ -196,8 +196,8 @@ description: "Learn to execute Kiss of the Dragon from Reverse De La Riva Guard.
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Q teaches bjj kiss of the dragon sweep",
-      "description": "Kiss of the Dragon from RDLR (Attacker) film study: Q teaches bjj kiss of the dragon sweep.",
+      "name": "Bjj kiss of the dragon sweep",
+      "description": "Kiss of the Dragon from RDLR (Attacker) film study: Bjj kiss of the dragon sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yMPxcUHeK38/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yMPxcUHeK38",
       "url": "https://www.youtube.com/watch?v=yMPxcUHeK38",
@@ -249,7 +249,7 @@ The Kiss of the Dragon from RDLR is executed by the bottom guard player who init
 
 ![](https://www.youtube.com/watch?v=yMPxcUHeK38)
 
-<p class="clip-credit"><strong>Q teaches bjj kiss of the dragon sweep</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=yMPxcUHeK38" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bjj kiss of the dragon sweep</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=yMPxcUHeK38" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

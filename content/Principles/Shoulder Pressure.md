@@ -154,32 +154,29 @@ description: "Support shoulder contact with body alignment and base to control t
       "@type": "VideoObject",
       "position": 1,
       "name": "Adding side-control pressure with a shoulder adjustment",
-      "description": "Shoulder Pressure film study: Adding side-control pressure with a shoulder adjustment, taught by Nick Albin.",
+      "description": "Shoulder Pressure film study: Adding side-control pressure with a shoulder adjustment.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IN9odK9Of94/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IN9odK9Of94",
-      "url": "https://www.youtube.com/watch?v=IN9odK9Of94",
-      "creator": { "@type": "Person", "name": "Nick Albin" }
+      "url": "https://www.youtube.com/watch?v=IN9odK9Of94"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Pressure: the science behind your jiu-jitsu",
-      "description": "Shoulder Pressure film study: Pressure: the science behind your jiu-jitsu, taught by RVV BJJ.",
+      "description": "Shoulder Pressure film study: Pressure: the science behind your jiu-jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mzAgY0QUtnc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mzAgY0QUtnc",
       "url": "https://www.youtube.com/watch?v=mzAgY0QUtnc",
-      "creator": { "@type": "Person", "name": "RVV BJJ" },
       "duration": "PT785S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Roger Gracie on maintaining and attacking side control",
-      "description": "Shoulder Pressure film study: Roger Gracie on maintaining and attacking side control, taught by Roger Gracie.",
+      "name": "Maintaining and attacking side control",
+      "description": "Shoulder Pressure film study: Maintaining and attacking side control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kWxijyG-6BE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kWxijyG-6BE",
       "url": "https://www.youtube.com/watch?v=kWxijyG-6BE",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
       "duration": "PT840S"
     }
   ]
@@ -209,7 +206,7 @@ Match the shoulder contact to the turn you want to stop. Keep hip control and a 
 
 ![](https://www.youtube.com/watch?v=IN9odK9Of94)
 
-<p class="clip-credit"><strong>Adding side-control pressure with a shoulder adjustment</strong> — taught by Nick Albin · <a href="https://www.youtube.com/watch?v=IN9odK9Of94" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Adding side-control pressure with a shoulder adjustment</strong> · <a href="https://www.youtube.com/watch?v=IN9odK9Of94" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,7 +214,7 @@ Match the shoulder contact to the turn you want to stop. Keep hip control and a 
 
 ![](https://www.youtube.com/watch?v=mzAgY0QUtnc)
 
-<p class="clip-credit"><strong>Pressure: the science behind your jiu-jitsu</strong> — taught by RVV BJJ · 13:05 · <a href="https://www.youtube.com/watch?v=mzAgY0QUtnc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pressure: the science behind your jiu-jitsu</strong> · 13:05 · <a href="https://www.youtube.com/watch?v=mzAgY0QUtnc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +222,7 @@ Match the shoulder contact to the turn you want to stop. Keep hip control and a 
 
 ![](https://www.youtube.com/watch?v=kWxijyG-6BE)
 
-<p class="clip-credit"><strong>Roger Gracie on maintaining and attacking side control</strong> — taught by Roger Gracie · 14:00 · <a href="https://www.youtube.com/watch?v=kWxijyG-6BE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Maintaining and attacking side control</strong> · 14:00 · <a href="https://www.youtube.com/watch?v=kWxijyG-6BE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

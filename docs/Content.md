@@ -583,8 +583,34 @@ the recorded duration. Network availability checks belong to `verify_clips.py`; 
 whether the clip teaches the right mechanic safely. Watch the selected segment and confirm its
 role, attribution, and safety before relying on it.
 
-The app's dossier payload keeps player fields (`id`, `start`, `end`, `vertical`, `title`, `by`,
-`duration`, `front`, `half`), not provenance metadata. Position hub clips supplement a role dossier
+The app's dossier payload keeps player fields (`id`, `start`, `end`, `vertical`, `title`,
+`duration`, `front`, `half`), not provenance metadata.
+
+**No person's or gym's name in our own text** (owner, U195 a and U196 b, 17 Nov 2026). A clip `title`
+names the technique, never who teaches it: a technique or position named after a person keeps that name
+(Kimura, De La Riva, the London). `by` and `channel` stay in the source JSON as provenance, but nothing
+renders them: no "taught by" credit, no JSON-LD `creator`, no name in the app's "Watch:" label, on the wire
+or in the digest email. The YouTube player shows the channel when a video opens; that is YouTube's, not
+ours. As of v1.288.0 the titles have lost the persons they named. Gym and channel names left in about 99
+titles go in v1.289.0. Names in authored prose are not covered here: that is the owner's call.
+
+`npm run validate:no-names` (`scripts/check_no_names.py`), in CLAUDE.md §6.9's three forms:
+
+- **Pinned:** the phrase "taught by" in a `<p class="clip-credit">` and in a VideoObject `description`; a
+  `creator` or `author` key on a JSON-LD object whose `@type` is exactly `"VideoObject"`; a `by` key on a
+  clip in the top-level dossier chunks `static/neural/content/*.json`; three positive counts (credit
+  lines, VideoObjects, shipped clips), each red on zero.
+- **Partially pinned:** those counts are aggregate, not floors, so a whole template family could lose its
+  credits and the gate would stay green.
+- **UNGUARDED, strengthened in v1.289.0:** a name itself, not the phrase (a bare name, "by X", "with X",
+  "taught&nbsp;by" in a credit); a name beside the credit (a `<small>`) or in a credit `<p>` with a second
+  class; a VideoObject `contributor`, `actor` or `publisher`, an `@type` given as a list, an ItemList
+  `author`, a JSON-LD script tag with an extra attribute; a description reading ", by X."; `channel` or any
+  other person field on a shipped clip, or a name inside a shipped clip's title (no gate protects the
+  rewritten titles); `by` in a subfolder chunk or in `concepts.json`; a credit in the agent export or
+  `llms.txt`.
+
+Position hub clips supplement a role dossier
 only when `half` names that role or `both`; an untagged hub clip reaches neither role. A clip authored
 in the role itself stays there even when an untagged hub duplicates its ID. After half routing,
 the effective list deduplicates by video ID, with the half-local front, array order and metadata

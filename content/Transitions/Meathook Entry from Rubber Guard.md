@@ -46,8 +46,8 @@ description: "Master the Meathook Entry from Rubber Guard. Complete 10th Planet 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ben Eddy NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to\u2026",
-      "description": "Meathook Entry from Rubber Guard film study: Ben Eddy NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to\u2026.",
+      "name": "NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to\u2026",
+      "description": "Meathook Entry from Rubber Guard film study: NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4HRzdivWEyU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4HRzdivWEyU",
       "url": "https://www.youtube.com/watch?v=4HRzdivWEyU",
@@ -107,7 +107,7 @@ Strategically this is one of the most important advancement decisions in the Rub
 
 ![](https://www.youtube.com/watch?v=4HRzdivWEyU)
 
-<p class="clip-credit"><strong>Ben Eddy NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to…</strong> · 6:04 · <a href="https://www.youtube.com/watch?v=4HRzdivWEyU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>NoGi BJJ Rubber Guard Private: Full Guard to New York to Meathook to…</strong> · 6:04 · <a href="https://www.youtube.com/watch?v=4HRzdivWEyU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

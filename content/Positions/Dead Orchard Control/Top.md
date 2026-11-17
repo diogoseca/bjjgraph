@@ -136,33 +136,30 @@ description: "Dead Orchard Control top perspective: Treat a high leg triangle co
       "@type": "VideoObject",
       "position": 1,
       "name": "Dead Orchard Instructional (Part 1)",
-      "description": "Dead Orchard Control (Top) film study: Dead Orchard Instructional (Part 1), taught by Nathan Orchard.",
+      "description": "Dead Orchard Control (Top) film study: Dead Orchard Instructional (Part 1).",
       "thumbnailUrl": "https://i.ytimg.com/vi/XoiB1D2WJwE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XoiB1D2WJwE",
       "url": "https://www.youtube.com/watch?v=XoiB1D2WJwE",
-      "creator": { "@type": "Person", "name": "Nathan Orchard" },
       "duration": "PT111S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Hindulotine Breakdown",
-      "description": "Dead Orchard Control (Top) film study: Hindulotine Breakdown, taught by CordesgainsBJJ.",
+      "description": "Dead Orchard Control (Top) film study: Hindulotine Breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/i9rAyo8tRZw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/i9rAyo8tRZw",
       "url": "https://www.youtube.com/watch?v=i9rAyo8tRZw",
-      "creator": { "@type": "Person", "name": "CordesgainsBJJ" },
       "duration": "PT87S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Hindulotine Finish",
-      "description": "Dead Orchard Control (Top) film study: Hindulotine Finish, taught by Ben Eddy.",
+      "description": "Dead Orchard Control (Top) film study: Hindulotine Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6UwoAQt6u6o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6UwoAQt6u6o",
       "url": "https://www.youtube.com/watch?v=6UwoAQt6u6o",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
       "duration": "PT60S"
     }
   ]
@@ -197,7 +194,7 @@ The defining feature is both shoulders and arms enclosed by the legs. An anacond
 
 ![](https://www.youtube.com/watch?v=XoiB1D2WJwE)
 
-<p class="clip-credit"><strong>Dead Orchard Instructional (Part 1)</strong> — taught by Nathan Orchard · 1:51 · <a href="https://www.youtube.com/watch?v=XoiB1D2WJwE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Dead Orchard Instructional (Part 1)</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=XoiB1D2WJwE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -205,7 +202,7 @@ The defining feature is both shoulders and arms enclosed by the legs. An anacond
 
 ![](https://www.youtube.com/watch?v=i9rAyo8tRZw)
 
-<p class="clip-credit"><strong>Hindulotine Breakdown</strong> — taught by CordesgainsBJJ · 1:27 · <a href="https://www.youtube.com/watch?v=i9rAyo8tRZw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Hindulotine Breakdown</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=i9rAyo8tRZw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -213,7 +210,7 @@ The defining feature is both shoulders and arms enclosed by the legs. An anacond
 
 ![](https://www.youtube.com/watch?v=6UwoAQt6u6o)
 
-<p class="clip-credit"><strong>Hindulotine Finish</strong> — taught by Ben Eddy · 1:00 · <a href="https://www.youtube.com/watch?v=6UwoAQt6u6o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Hindulotine Finish</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=6UwoAQt6u6o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

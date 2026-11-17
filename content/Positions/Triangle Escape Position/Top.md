@@ -166,22 +166,20 @@ description: "Master escaping the triangle from top position. Complete guide cov
       "@type": "VideoObject",
       "position": 1,
       "name": "Triangle defense/escape",
-      "description": "Triangle Escape Position (Top) film study: Triangle defense/escape, taught by Daniel Frank.",
+      "description": "Triangle Escape Position (Top) film study: Triangle defense/escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DLmrzSs1hWI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DLmrzSs1hWI",
       "url": "https://www.youtube.com/watch?v=DLmrzSs1hWI",
-      "creator": { "@type": "Person", "name": "Daniel Frank" },
       "duration": "PT23S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Closed Guard Triangle Escape",
-      "description": "Triangle Escape Position (Top) film study: Closed Guard Triangle Escape, taught by Vagabond-Ares BJJ.",
+      "description": "Triangle Escape Position (Top) film study: Closed Guard Triangle Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/51J5IsX_Ss4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/51J5IsX_Ss4",
       "url": "https://www.youtube.com/watch?v=51J5IsX_Ss4",
-      "creator": { "@type": "Person", "name": "Vagabond-Ares BJJ" },
       "duration": "PT87S"
     }
   ]
@@ -214,7 +212,7 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 ![](https://www.youtube.com/watch?v=DLmrzSs1hWI)
 
-<p class="clip-credit"><strong>Triangle defense/escape</strong> — taught by Daniel Frank · 0:23 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle defense/escape</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -222,7 +220,7 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 ![](https://www.youtube.com/watch?v=51J5IsX_Ss4)
 
-<p class="clip-credit"><strong>Closed Guard Triangle Escape</strong> — taught by Vagabond-Ares BJJ · 1:27 · <a href="https://www.youtube.com/watch?v=51J5IsX_Ss4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Closed Guard Triangle Escape</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=51J5IsX_Ss4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,8 +46,8 @@ description: "Master X-Guard Sweep in BJJ. Complete technical guide with step-by
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia | X Guard Sweep | Choke_lab",
-      "description": "X-Guard Sweep film study: Marcelo Garcia | X Guard Sweep | Choke_lab.",
+      "name": "X Guard Sweep | Choke_lab",
+      "description": "X-Guard Sweep film study: X Guard Sweep | Choke_lab.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
       "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
@@ -56,8 +56,8 @@ description: "Master X-Guard Sweep in BJJ. Complete technical guide with step-by
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Marcelo Garcia: No-Gi X-Guard sweep",
-      "description": "X-Guard Sweep film study: Marcelo Garcia: No-Gi X-Guard sweep.",
+      "name": "No-Gi X-Guard sweep",
+      "description": "X-Guard Sweep film study: No-Gi X-Guard sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/m-ueyJXiShY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/m-ueyJXiShY",
       "url": "https://www.youtube.com/watch?v=m-ueyJXiShY",
@@ -117,7 +117,7 @@ Strategically, the X-Guard Sweep creates a powerful dilemma for the standing opp
 
 ![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
 
-<p class="clip-credit"><strong>Marcelo Garcia | X Guard Sweep | Choke_lab</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>X Guard Sweep | Choke_lab</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -125,7 +125,7 @@ Strategically, the X-Guard Sweep creates a powerful dilemma for the standing opp
 
 ![](https://www.youtube.com/watch?v=m-ueyJXiShY)
 
-<p class="clip-credit"><strong>Marcelo Garcia: No-Gi X-Guard sweep</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=m-ueyJXiShY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No-Gi X-Guard sweep</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=m-ueyJXiShY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

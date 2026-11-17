@@ -181,33 +181,30 @@ description: "Crackhead Control to New York (attacker): Keep the first high leg 
       "@type": "VideoObject",
       "position": 1,
       "name": "Crackhead Control to Invisible Collar Tie",
-      "description": "Crackhead Control to New York (Attacker) film study: Crackhead Control to Invisible Collar Tie, taught by Fletcher Kirwan.",
+      "description": "Crackhead Control to New York (Attacker) film study: Crackhead Control to Invisible Collar Tie.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_3pJ2tPI0gY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_3pJ2tPI0gY",
       "url": "https://www.youtube.com/watch?v=_3pJ2tPI0gY",
-      "creator": { "@type": "Person", "name": "Fletcher Kirwan" },
       "duration": "PT16S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Sorcerer from invisible collar",
-      "description": "Crackhead Control to New York (Attacker) film study: Sorcerer from invisible collar, taught by Eddie Bravo.",
+      "description": "Crackhead Control to New York (Attacker) film study: Sorcerer from invisible collar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GPWBygTM1b0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GPWBygTM1b0",
       "url": "https://www.youtube.com/watch?v=GPWBygTM1b0",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT97S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Clearing the elbow to lock up the rubber guard finish",
-      "description": "Crackhead Control to New York (Attacker) film study: Clearing the elbow to lock up the rubber guard finish, taught by Ben Eddy.",
+      "description": "Crackhead Control to New York (Attacker) film study: Clearing the elbow to lock up the rubber guard finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/p6M-9BVuWqs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/p6M-9BVuWqs",
       "url": "https://www.youtube.com/watch?v=p6M-9BVuWqs",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
       "duration": "PT79S"
     }
   ]
@@ -246,7 +243,7 @@ Use hip movement to keep the knee close as the cleared arm is secured with the N
 
 ![](https://www.youtube.com/watch?v=_3pJ2tPI0gY)
 
-<p class="clip-credit"><strong>Crackhead Control to Invisible Collar Tie</strong> — taught by Fletcher Kirwan · 0:16 · <a href="https://www.youtube.com/watch?v=_3pJ2tPI0gY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crackhead Control to Invisible Collar Tie</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=_3pJ2tPI0gY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -254,7 +251,7 @@ Use hip movement to keep the knee close as the cleared arm is secured with the N
 
 ![](https://www.youtube.com/watch?v=GPWBygTM1b0)
 
-<p class="clip-credit"><strong>Sorcerer from invisible collar</strong> — taught by Eddie Bravo · 1:37 · <a href="https://www.youtube.com/watch?v=GPWBygTM1b0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sorcerer from invisible collar</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=GPWBygTM1b0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -262,7 +259,7 @@ Use hip movement to keep the knee close as the cleared arm is secured with the N
 
 ![](https://www.youtube.com/watch?v=p6M-9BVuWqs)
 
-<p class="clip-credit"><strong>Clearing the elbow to lock up the rubber guard finish</strong> — taught by Ben Eddy · 1:19 · <a href="https://www.youtube.com/watch?v=p6M-9BVuWqs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Clearing the elbow to lock up the rubber guard finish</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=p6M-9BVuWqs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

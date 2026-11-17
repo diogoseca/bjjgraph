@@ -46,8 +46,8 @@ description: "Master Electric Chair Transition from Lockdown. Step-by-step eleva
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Electric Chair - Brandon Mccaghren - 10th Planet Jiu Jitsu - Lockdown Half Guard",
-      "description": "Electric Chair Transition film study: Electric Chair - Brandon Mccaghren - 10th Planet Jiu Jitsu - Lockdown Half Guard.",
+      "name": "Electric Chair - 10th Planet Jiu Jitsu - Lockdown Half Guard",
+      "description": "Electric Chair Transition film study: Electric Chair - 10th Planet Jiu Jitsu - Lockdown Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
       "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
@@ -56,8 +56,8 @@ description: "Master Electric Chair Transition from Lockdown. Step-by-step eleva
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Electric Chair / lockdown sweep:Moncaio Brothers JiuJitsu",
-      "description": "Electric Chair Transition film study: Electric Chair / lockdown sweep:Moncaio Brothers JiuJitsu.",
+      "name": "Electric Chair / lockdown sweep",
+      "description": "Electric Chair Transition film study: Electric Chair / lockdown sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/adarj-QUB4Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/adarj-QUB4Y",
       "url": "https://www.youtube.com/watch?v=adarj-QUB4Y",
@@ -127,7 +127,7 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 
 ![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
 
-<p class="clip-credit"><strong>Electric Chair - Brandon Mccaghren - 10th Planet Jiu Jitsu - Lockdown Half Guard</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair - 10th Planet Jiu Jitsu - Lockdown Half Guard</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -135,7 +135,7 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 
 ![](https://www.youtube.com/watch?v=adarj-QUB4Y)
 
-<p class="clip-credit"><strong>Electric Chair / lockdown sweep:Moncaio Brothers JiuJitsu</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=adarj-QUB4Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair / lockdown sweep</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=adarj-QUB4Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

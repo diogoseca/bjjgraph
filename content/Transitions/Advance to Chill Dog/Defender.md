@@ -169,22 +169,20 @@ description: "Advance to Chill Dog (defender): Keep the free hand available for 
       "@type": "VideoObject",
       "position": 1,
       "name": "Rubber guard quick fix",
-      "description": "Advance to Chill Dog (Defender) film study: Rubber guard quick fix, taught by Brandon McCaghren.",
+      "description": "Advance to Chill Dog (Defender) film study: Rubber guard quick fix.",
       "thumbnailUrl": "https://i.ytimg.com/vi/huzjQNiJu7Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/huzjQNiJu7Y",
       "url": "https://www.youtube.com/watch?v=huzjQNiJu7Y",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT65S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "2 simple rubber guard tips",
-      "description": "Advance to Chill Dog (Defender) film study: 2 simple rubber guard tips, taught by Brandon McCaghren.",
+      "description": "Advance to Chill Dog (Defender) film study: 2 simple rubber guard tips.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cY1xCIx-9-I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cY1xCIx-9-I",
       "url": "https://www.youtube.com/watch?v=cY1xCIx-9-I",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT57S"
     }
   ]
@@ -221,7 +219,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=huzjQNiJu7Y)
 
-<p class="clip-credit"><strong>Rubber guard quick fix</strong> — taught by Brandon McCaghren · 1:05 · <a href="https://www.youtube.com/watch?v=huzjQNiJu7Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rubber guard quick fix</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=huzjQNiJu7Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -229,7 +227,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=cY1xCIx-9-I)
 
-<p class="clip-credit"><strong>2 simple rubber guard tips</strong> — taught by Brandon McCaghren · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>2 simple rubber guard tips</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

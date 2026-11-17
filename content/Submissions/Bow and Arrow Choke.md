@@ -47,44 +47,40 @@ description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety 
       "@type": "VideoObject",
       "position": 1,
       "name": "Bow and Arrow Choke from Back Control",
-      "description": "Bow and Arrow Choke film study: Bow and Arrow Choke from Back Control, taught by Evolve MMA.",
+      "description": "Bow and Arrow Choke film study: Bow and Arrow Choke from Back Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xqNhZVNhxnE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xqNhZVNhxnE",
       "url": "https://www.youtube.com/watch?v=xqNhZVNhxnE",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
       "duration": "PT45S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Bow and Arrow Choke",
-      "description": "Bow and Arrow Choke film study: Bow and Arrow Choke, taught by Helena Crevar.",
+      "description": "Bow and Arrow Choke film study: Bow and Arrow Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rc77idEskwo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rc77idEskwo",
       "url": "https://www.youtube.com/watch?v=rc77idEskwo",
-      "creator": { "@type": "Person", "name": "Helena Crevar" },
       "duration": "PT55S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Bow and Arrow Choke from the Back",
-      "description": "Bow and Arrow Choke film study: Bow and Arrow Choke from the Back, taught by Procel BJJ.",
+      "description": "Bow and Arrow Choke film study: Bow and Arrow Choke from the Back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vlydEGpl50k/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vlydEGpl50k",
       "url": "https://www.youtube.com/watch?v=vlydEGpl50k",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
       "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Bow \u0026 Arrow Choke",
-      "description": "Bow and Arrow Choke film study: Bow \u0026 Arrow Choke, taught by Gracie Barra.",
+      "description": "Bow and Arrow Choke film study: Bow \u0026 Arrow Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R5LFNqtx1ps/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/R5LFNqtx1ps",
       "url": "https://www.youtube.com/watch?v=R5LFNqtx1ps",
-      "creator": { "@type": "Person", "name": "Gracie Barra" },
       "duration": "PT66S"
     }
   ]
@@ -152,7 +148,7 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 
 ![](https://www.youtube.com/watch?v=xqNhZVNhxnE)
 
-<p class="clip-credit"><strong>Bow and Arrow Choke from Back Control</strong> — taught by Evolve MMA · 0:45 · <a href="https://www.youtube.com/watch?v=xqNhZVNhxnE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bow and Arrow Choke from Back Control</strong> · 0:45 · <a href="https://www.youtube.com/watch?v=xqNhZVNhxnE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -160,7 +156,7 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 
 ![](https://www.youtube.com/watch?v=rc77idEskwo)
 
-<p class="clip-credit"><strong>Bow and Arrow Choke</strong> — taught by Helena Crevar · 0:55 · <a href="https://www.youtube.com/watch?v=rc77idEskwo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bow and Arrow Choke</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=rc77idEskwo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -168,7 +164,7 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 
 ![](https://www.youtube.com/watch?v=vlydEGpl50k)
 
-<p class="clip-credit"><strong>Bow and Arrow Choke from the Back</strong> — taught by Procel BJJ · 0:52 · <a href="https://www.youtube.com/watch?v=vlydEGpl50k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bow and Arrow Choke from the Back</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=vlydEGpl50k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -176,7 +172,7 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 
 ![](https://www.youtube.com/watch?v=R5LFNqtx1ps)
 
-<p class="clip-credit"><strong>Bow &amp; Arrow Choke</strong> — taught by Gracie Barra · 1:06 · <a href="https://www.youtube.com/watch?v=R5LFNqtx1ps" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bow &amp; Arrow Choke</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=R5LFNqtx1ps" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

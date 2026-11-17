@@ -196,8 +196,8 @@ description: "How to execute the Loop Choke from Turtle in BJJ. Attacking perspe
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Alexandre Vieira Shows His Famous Loop Choke",
-      "description": "Loop Choke from Turtle (Attacker) film study: Alexandre Vieira Shows His Famous Loop Choke.",
+      "name": "Loop Choke",
+      "description": "Loop Choke from Turtle (Attacker) film study: Loop Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ruk0kdlr-Qw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ruk0kdlr-Qw",
       "url": "https://www.youtube.com/watch?v=ruk0kdlr-Qw",
@@ -240,7 +240,7 @@ The loop choke from turtle leverages the attacker's positional advantage over a 
 
 ![](https://www.youtube.com/watch?v=ruk0kdlr-Qw)
 
-<p class="clip-credit"><strong>Alexandre Vieira Shows His Famous Loop Choke</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=ruk0kdlr-Qw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Loop Choke</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=ruk0kdlr-Qw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

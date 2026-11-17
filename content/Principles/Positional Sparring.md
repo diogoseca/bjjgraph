@@ -153,23 +153,21 @@ description: "Use clear starting controls, paired objectives, and repeatable res
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Positional sparring at Marcelo Garcia Academy",
-      "description": "Positional Sparring film study: Positional sparring at Marcelo Garcia Academy, taught by Jon Satava.",
+      "name": "Positional sparring",
+      "description": "Positional Sparring film study: Positional sparring.",
       "thumbnailUrl": "https://i.ytimg.com/vi/G47Z7h7zVAQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/G47Z7h7zVAQ",
       "url": "https://www.youtube.com/watch?v=G47Z7h7zVAQ",
-      "creator": { "@type": "Person", "name": "Jon Satava" },
       "duration": "PT441S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "The positional sparring training method",
-      "description": "Positional Sparring film study: The positional sparring training method, taught by Alec Baulding.",
+      "description": "Positional Sparring film study: The positional sparring training method.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9mUzVwippH0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9mUzVwippH0",
       "url": "https://www.youtube.com/watch?v=9mUzVwippH0",
-      "creator": { "@type": "Person", "name": "Alec Baulding" },
       "duration": "PT121S"
     }
   ]
@@ -199,7 +197,7 @@ Agree on the starting grips, each partner’s goal, and the reset before beginni
 
 ![](https://www.youtube.com/watch?v=G47Z7h7zVAQ)
 
-<p class="clip-credit"><strong>Positional sparring at Marcelo Garcia Academy</strong> — taught by Jon Satava · 7:21 · <a href="https://www.youtube.com/watch?v=G47Z7h7zVAQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Positional sparring</strong> · 7:21 · <a href="https://www.youtube.com/watch?v=G47Z7h7zVAQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -207,7 +205,7 @@ Agree on the starting grips, each partner’s goal, and the reset before beginni
 
 ![](https://www.youtube.com/watch?v=9mUzVwippH0)
 
-<p class="clip-credit"><strong>The positional sparring training method</strong> — taught by Alec Baulding · 2:01 · <a href="https://www.youtube.com/watch?v=9mUzVwippH0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The positional sparring training method</strong> · 2:01 · <a href="https://www.youtube.com/watch?v=9mUzVwippH0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

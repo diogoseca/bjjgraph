@@ -47,33 +47,30 @@ description: "Master the Baratoplata shoulder lock in BJJ. Advanced submission f
       "@type": "VideoObject",
       "position": 1,
       "name": "Baratoplata basics from rubber guard",
-      "description": "Baratoplata film study: Baratoplata basics from rubber guard, taught by True Believer Jiu Jitsu.",
+      "description": "Baratoplata film study: Baratoplata basics from rubber guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1O-BoOWXhzY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1O-BoOWXhzY",
       "url": "https://www.youtube.com/watch?v=1O-BoOWXhzY",
-      "creator": { "@type": "Person", "name": "True Believer Jiu Jitsu" },
       "duration": "PT232S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Duda to the baratoplata",
-      "description": "Baratoplata film study: Duda to the baratoplata, taught by Eddie Bravo.",
+      "name": "Baratoplata",
+      "description": "Baratoplata film study: Baratoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tNlNA20iGRw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tNlNA20iGRw",
       "url": "https://www.youtube.com/watch?v=tNlNA20iGRw",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT365S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Baratoplata shoulder lock from north south",
-      "description": "Baratoplata film study: Baratoplata shoulder lock from north south, taught by Show the ART.",
+      "description": "Baratoplata film study: Baratoplata shoulder lock from north south.",
       "thumbnailUrl": "https://i.ytimg.com/vi/v30lrt84x-Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/v30lrt84x-Y",
       "url": "https://www.youtube.com/watch?v=v30lrt84x-Y",
-      "creator": { "@type": "Person", "name": "Show the ART" },
       "duration": "PT158S"
     }
   ]
@@ -140,7 +137,7 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 
 ![](https://www.youtube.com/watch?v=1O-BoOWXhzY)
 
-<p class="clip-credit"><strong>Baratoplata basics from rubber guard</strong> — taught by True Believer Jiu Jitsu · 3:52 · <a href="https://www.youtube.com/watch?v=1O-BoOWXhzY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Baratoplata basics from rubber guard</strong> · 3:52 · <a href="https://www.youtube.com/watch?v=1O-BoOWXhzY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -148,7 +145,7 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 
 ![](https://www.youtube.com/watch?v=tNlNA20iGRw)
 
-<p class="clip-credit"><strong>Duda to the baratoplata</strong> — taught by Eddie Bravo · 6:05 · <a href="https://www.youtube.com/watch?v=tNlNA20iGRw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Baratoplata</strong> · 6:05 · <a href="https://www.youtube.com/watch?v=tNlNA20iGRw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -156,7 +153,7 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 
 ![](https://www.youtube.com/watch?v=v30lrt84x-Y)
 
-<p class="clip-credit"><strong>Baratoplata shoulder lock from north south</strong> — taught by Show the ART · 2:38 · <a href="https://www.youtube.com/watch?v=v30lrt84x-Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Baratoplata shoulder lock from north south</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=v30lrt84x-Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -161,22 +161,20 @@ description: "New York to Invisible Collar (defender): The free leg moving behin
       "@type": "VideoObject",
       "position": 1,
       "name": "Invisible Collar Details",
-      "description": "New York to Invisible Collar (Defender) film study: Invisible Collar Details, taught by Eddie Bravo.",
+      "description": "New York to Invisible Collar (Defender) film study: Invisible Collar Details.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
       "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Invisible Collar Breakdown",
-      "description": "New York to Invisible Collar (Defender) film study: Invisible Collar Breakdown, taught by Submissions101.",
+      "description": "New York to Invisible Collar (Defender) film study: Invisible Collar Breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/oTFx2jvJ15M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oTFx2jvJ15M",
       "url": "https://www.youtube.com/watch?v=oTFx2jvJ15M",
-      "creator": { "@type": "Person", "name": "Submissions101" },
       "duration": "PT76S"
     }
   ]
@@ -213,7 +211,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=KCyIwacRKu8)
 
-<p class="clip-credit"><strong>Invisible Collar Details</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible Collar Details</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -221,7 +219,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=oTFx2jvJ15M)
 
-<p class="clip-credit"><strong>Invisible Collar Breakdown</strong> — taught by Submissions101 · 1:16 · <a href="https://www.youtube.com/watch?v=oTFx2jvJ15M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible Collar Breakdown</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=oTFx2jvJ15M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

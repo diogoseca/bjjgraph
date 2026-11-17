@@ -56,8 +56,8 @@ description: "Master the outside heel hook from outside ashi-garami with complet
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Craig Jones - Nasty Heel Hook from Outside Ashi Garami",
-      "description": "Outside Heel Hook from Outside Ashi-Garami film study: Craig Jones - Nasty Heel Hook from Outside Ashi Garami.",
+      "name": "Nasty Heel Hook from Outside Ashi Garami",
+      "description": "Outside Heel Hook from Outside Ashi-Garami film study: Nasty Heel Hook from Outside Ashi Garami.",
       "thumbnailUrl": "https://i.ytimg.com/vi/m4sGDhukUmk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/m4sGDhukUmk",
       "url": "https://www.youtube.com/watch?v=m4sGDhukUmk",
@@ -131,7 +131,7 @@ Unlike finishing from saddle or inside ashi where both legs are controlled, outs
 
 ![](https://www.youtube.com/watch?v=m4sGDhukUmk)
 
-<p class="clip-credit"><strong>Craig Jones - Nasty Heel Hook from Outside Ashi Garami</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Nasty Heel Hook from Outside Ashi Garami</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

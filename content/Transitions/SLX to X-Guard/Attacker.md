@@ -186,8 +186,8 @@ description: "Learn to execute the SLX to X-Guard transition. Step-by-step leg t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Emily Kwok Teaches a Single Leg X to X Guard Drill",
-      "description": "SLX to X-Guard (Attacker) film study: Emily Kwok Teaches a Single Leg X to X Guard Drill.",
+      "name": "A Single Leg X to X Guard Drill",
+      "description": "SLX to X-Guard (Attacker) film study: A Single Leg X to X Guard Drill.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XELDoBTfGpM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XELDoBTfGpM",
       "url": "https://www.youtube.com/watch?v=XELDoBTfGpM",
@@ -231,7 +231,7 @@ The SLX to X-Guard transition is executed by the bottom player who already has S
 
 ![](https://www.youtube.com/watch?v=XELDoBTfGpM)
 
-<p class="clip-credit"><strong>Emily Kwok Teaches a Single Leg X to X Guard Drill</strong> · 2:56 · <a href="https://www.youtube.com/watch?v=XELDoBTfGpM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>A Single Leg X to X Guard Drill</strong> · 2:56 · <a href="https://www.youtube.com/watch?v=XELDoBTfGpM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

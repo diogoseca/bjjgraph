@@ -46,8 +46,8 @@ description: "Master the Roll Forward from Omoplata in BJJ. Complete guide cover
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Travis Lutter Omoplata Sweep to Side Control",
-      "description": "Roll Forward from Omoplata film study: Travis Lutter Omoplata Sweep to Side Control.",
+      "name": "Omoplata Sweep to Side Control",
+      "description": "Roll Forward from Omoplata film study: Omoplata Sweep to Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ujD1jcDyF7Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ujD1jcDyF7Y",
       "url": "https://www.youtube.com/watch?v=ujD1jcDyF7Y",
@@ -107,7 +107,7 @@ This technique is particularly valuable in competition settings where the omopla
 
 ![](https://www.youtube.com/watch?v=ujD1jcDyF7Y)
 
-<p class="clip-credit"><strong>Travis Lutter Omoplata Sweep to Side Control</strong> · 2:04 · <a href="https://www.youtube.com/watch?v=ujD1jcDyF7Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata Sweep to Side Control</strong> · 2:04 · <a href="https://www.youtube.com/watch?v=ujD1jcDyF7Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

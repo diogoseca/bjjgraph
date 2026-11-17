@@ -161,33 +161,30 @@ description: "Waiter Sweep (defender): A deep-half player supporting your elevat
       "@type": "VideoObject",
       "position": 1,
       "name": "Defending the butterfly sweep with hip switching",
-      "description": "Waiter Sweep (Defender) film study: Defending the butterfly sweep with hip switching, taught by Trujitsu.",
+      "description": "Waiter Sweep (Defender) film study: Defending the butterfly sweep with hip switching.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LT6RXdUY-VQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LT6RXdUY-VQ",
       "url": "https://www.youtube.com/watch?v=LT6RXdUY-VQ",
-      "creator": { "@type": "Person", "name": "Trujitsu" },
       "duration": "PT68S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Four levels of sweep defense",
-      "description": "Waiter Sweep (Defender) film study: Four levels of sweep defense, taught by Wim Deputter.",
+      "description": "Waiter Sweep (Defender) film study: Four levels of sweep defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
       "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
-      "creator": { "@type": "Person", "name": "Wim Deputter" },
       "duration": "PT87S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Simple counters to a failed butterfly sweep",
-      "description": "Waiter Sweep (Defender) film study: Simple counters to a failed butterfly sweep, taught by Oneonta Jiu-Jitsu.",
+      "description": "Waiter Sweep (Defender) film study: Simple counters to a failed butterfly sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZAOF5qNApJ0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ZAOF5qNApJ0",
       "url": "https://www.youtube.com/watch?v=ZAOF5qNApJ0",
-      "creator": { "@type": "Person", "name": "Oneonta Jiu-Jitsu" },
       "duration": "PT98S"
     }
   ]
@@ -226,7 +223,7 @@ An early escape withdraws the elevated leg or restores a usable post before your
 
 ![](https://www.youtube.com/watch?v=LT6RXdUY-VQ)
 
-<p class="clip-credit"><strong>Defending the butterfly sweep with hip switching</strong> — taught by Trujitsu · 1:08 · <a href="https://www.youtube.com/watch?v=LT6RXdUY-VQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending the butterfly sweep with hip switching</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=LT6RXdUY-VQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,7 +231,7 @@ An early escape withdraws the elevated leg or restores a usable post before your
 
 ![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
 
-<p class="clip-credit"><strong>Four levels of sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Four levels of sweep defense</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -242,7 +239,7 @@ An early escape withdraws the elevated leg or restores a usable post before your
 
 ![](https://www.youtube.com/watch?v=ZAOF5qNApJ0)
 
-<p class="clip-credit"><strong>Simple counters to a failed butterfly sweep</strong> — taught by Oneonta Jiu-Jitsu · 1:38 · <a href="https://www.youtube.com/watch?v=ZAOF5qNApJ0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple counters to a failed butterfly sweep</strong> · 1:38 · <a href="https://www.youtube.com/watch?v=ZAOF5qNApJ0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

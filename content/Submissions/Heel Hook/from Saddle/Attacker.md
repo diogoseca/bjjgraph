@@ -206,8 +206,8 @@ description: "Complete guide to executing the heel hook from saddle position. St
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Craig Jones  - Heel Hook Breaking Mechanics",
-      "description": "Heel Hook from Saddle (Attacker) film study: Craig Jones  - Heel Hook Breaking Mechanics.",
+      "name": "Heel Hook Breaking Mechanics",
+      "description": "Heel Hook from Saddle (Attacker) film study: Heel Hook Breaking Mechanics.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
       "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
@@ -268,7 +268,7 @@ Executing the heel hook from saddle demands a systematic approach that prioritiz
 
 ![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
 
-<p class="clip-credit"><strong>Craig Jones  - Heel Hook Breaking Mechanics</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Heel Hook Breaking Mechanics</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
