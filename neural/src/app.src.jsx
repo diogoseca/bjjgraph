@@ -9320,7 +9320,7 @@ class Component extends DCLogic {
   // moments after the data: a race dev has too) had built the root list and stayed on it. So when the drawer shows that
   // list, with no query typed and no entry the player opened, it is drawn again with the id. A query typed by then is
   // kept, results and all, whenever it was typed: since REFSEARCH the reader no longer empties the query of an open
-  // panel (`_readerEmptiesQuery`; until then one typed before the reader's file landed was wiped, and this took its
+  // panel (`_referenceArrives`; until then one typed before the reader's file landed was wiped, and this took its
   // results for the root list). Here and not in the reader, whose file is a deferred payload at its ceiling.
   _referenceLanded(system, id, light) {
     this._refEntry = { system, id, light };   // the page's own entry, for a query emptied later (`_referenceEntryBack`)
@@ -9354,7 +9354,10 @@ class Component extends DCLogic {
   // ASKED for, so a panel that is open when the page LANDS was opened by the player since: its query is theirs and
   // stays. And the article's heading takes the focus only while they have not put it somewhere themselves: the panel
   // shut, and no text field focused. A plain arrival (no press) still ends on the heading, for a screen-reader user.
-  _readerEmptiesQuery() {
+  // (`clearFocus` rides in the same call since REFSEARCH-R1: the reader's file is a deferred payload at its ceiling, and
+  // one call there is 21 B less than two.)
+  _referenceArrives() {
+    this.clearFocus();
     if (this.deckShown) return;
     this._exQ = ""; if (this.explorerSearchRef.current) this.explorerSearchRef.current.value = "";
   }

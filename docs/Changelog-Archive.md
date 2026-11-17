@@ -19783,7 +19783,7 @@ The rule for 1 to 3 (the orchestrator's): on every page kind search opens search
 it, whatever the page shows), the page's entry may show under an empty query and gives way to results when something is
 typed, and what the player typed is never taken by something that lands later. So: `_searchAsked` (set by
 `openSearchPane`, lifted when the panel shuts) shows the search row over an entry; the reader asks the app before it
-empties the query (`_readerEmptiesQuery`: not while the panel is open) or focuses the heading (`_readerMayFocus`: not
+empties the query (`_referenceArrives`: not while the panel is open) or focuses the heading (`_readerMayFocus`: not
 with the panel open or a text field focused), and lets the search's keys through (`_isSearchKey`). An early search on a
 page that opens the panel itself (a hub) is replayed too. A plain arrival still ends on the heading.
 

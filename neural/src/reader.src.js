@@ -371,8 +371,7 @@ class Reader {
     const controller = this.abort = new AbortController(), serial = ++this.renderSerial;
     this.reference = null;
     if (intent && /^\/(Principles|Learning|Systems)\//i.test(path)) {
-      this.app.clearFocus();
-      this.app._readerEmptiesQuery();   // not the query of a panel the player has open (REFSEARCH, app.src.jsx)
+      this.app._referenceArrives();   // the map's focus cleared, and the query too, but not an open panel's (REFSEARCH, app.src.jsx)
       this.highlightReference(path, serial);
     }
     push = push && !this.app._writeUrl(url, { ngReading: true });
