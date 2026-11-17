@@ -71,7 +71,7 @@ test("the day's words", () => {
 
 test("the words over the rows", () => {
   assert.deepEqual(ngClozeSay({ hide: 6, goal: 20 }), ["Six moves start here. Say each one to yourself, then Show.", "Each blank is one move; each counts one toward today's 20."]);
-  assert.deepEqual(ngClozeSay({ hide: 1, goal: 30 }), ["One move starts here. Say it to yourself, then Show.", "The blank is one move; it counts one toward today's 30."]);
+  assert.deepEqual(ngClozeSay({ hide: 1, goal: 30 }), ["One move starts here. Say it to yourself, then Show.", "Each blank is one move; each counts one toward today's 30."]);
   assert.deepEqual(ngClozeSay({ hide: 2, solid: 4 }), ["Two moves to say. The four you have stay in sight.", ""]);
   assert.deepEqual(ngClozeSay({ hide: 1, solid: 1 }), ["One move to say. The one you have stays in sight.", ""]);
   assert.deepEqual(ngClozeSay({ hide: 6, shown: true }), ["Tap the ones you had.", "Nothing tapped = not yet. Hide puts the blanks back if you want another go."]);

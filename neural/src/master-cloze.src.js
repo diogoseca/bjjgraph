@@ -54,9 +54,9 @@ export function ngClozeBack(row, day, had) {
 export function ngClozeSay({ hide, solid = 0, shown = false, had = 0, goal = 20 }) {
   const num = (n) => NG_CLOZE_NUM[n] || String(n);
   if (shown) return [had ? "Tap the ones you had. " + had + " so far." : "Tap the ones you had.", had ? "Nothing tapped = not yet." : "Nothing tapped = not yet. Hide puts the blanks back if you want another go."];
-  if (solid) return [num(hide) + (hide === 1 ? " move to say. " : " moves to say. ") + (solid === 1 ? "The one you have stays in sight." : "The " + num(solid).toLowerCase() + " you have stay in sight."), ""];
-  return [num(hide) + (hide === 1 ? " move starts here. Say it to yourself, then Show." : " moves start here. Say each one to yourself, then Show."),
-    (hide === 1 ? "The blank is one move; it counts one toward today's " : "Each blank is one move; each counts one toward today's ") + goal + "."];
+  const one = hide === 1;
+  if (solid) return [num(hide) + (one ? " move" : " moves") + " to say. The " + (solid === 1 ? "one you have stays" : num(solid).toLowerCase() + " you have stay") + " in sight.", ""];
+  return [num(hide) + (one ? " move starts here. Say it" : " moves start here. Say each one") + " to yourself, then Show.", "Each blank is one move; each counts one toward today's " + goal + "."];
 }
 
 const ngCzEsc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
@@ -79,11 +79,11 @@ export function ngClozeLeadsOf(app, opt, s) {
   const act = app._actOf(opt), out = [];
   for (const o of ngClozeLeads(act && act.cal && act.cal.outcomes)) {
     const r = app.resolveOutcomeTo(o.to);
-    if (r.terminal) { out.push({ idx: opt.idx, sub: true, role: null, name: app.splitName(app.nodes[opt.idx].t).main }); continue; }
+    if (r.terminal) { out.push({ idx: opt.idx, sub: true, role: null, name: app.graphName(app.nodes[opt.idx]) }); continue; }
     const n = r.idx >= 0 ? app.nodes[r.idx] : null;
     if (!n) { if (s) s.czLost = (s.czLost || 0) + 1; continue; }
     const sub = n.ty === "submissions" || !!(n.cal && n.cal.stateAlias);
-    out.push({ idx: r.idx, sub, role: sub ? null : r.role || n.role || null, name: n.ty === "positions" ? app.posFamily(n.t) : app.splitName(n.t).main });
+    out.push({ idx: r.idx, sub, role: sub ? null : r.role || n.role || null, name: app.graphName(n) });
   }
   return out;
 }
@@ -104,8 +104,11 @@ function ngClozeBuild(app, s, seat) {
       const solid = !ask && Array.isArray(r) && r[3] === 1 && !(r[0] <= day && r[2] < day);
       if (!ask && !solid) continue;
       if (!o) { if (ask) s.czLost = (s.czLost || 0) + 1; continue; }   // an asked move the hand no longer deals cannot be named: counted, never asked blind
-      const n = app.nodes[o.idx];
-      rows.push({ id, st, mv, w, ask, idx: o.idx, name: n.t, tri: n.ty === "submissions", leads: ngClozeLeadsOf(app, o, s) });
+      // THE NAME: the move's own, without its "from <position>" tail (the row sits under that position already); a move
+      // named after where it leads keeps its full title, so its two lines never say the same thing twice (as drawn:
+      // "Buggy Choke from Bottom Side Control", then its finish "Buggy Choke")
+      const n = app.nodes[o.idx], leads = ngClozeLeadsOf(app, o, s), main = app.graphName(n);
+      rows.push({ id, st, mv, w, ask, idx: o.idx, name: leads[0] && leads[0].name === main ? n.t : main, tri: n.ty === "submissions", leads });
     }
   }
   if (s.czLost && s.czLostBeat !== s.czLost) { s.czLostBeat = s.czLost; app.fx("cloze_unresolved", { n: s.czLost }); }
@@ -198,7 +201,7 @@ const NG_CZ_TRI = '<svg class="tri" width="9" height="9" viewBox="0 0 10 10" ari
 const ngCzShape = (r, gold, side) => '<svg class="sh" width="11" height="11" viewBox="-1 -1 11 11" aria-hidden="true"' + (gold ? ' data-gold="' + side + '"' : "") + '><path d="' + (r.tri ? "M4.5 .5 8.6 8.2H.4z" : "M4.5 .3 8.7 4.5 4.5 8.7.3 4.5z") + '"/></svg>';
 const ngCzLead = (l) => (l.sub ? NG_CZ_TRI + '<span class="pl sb">' + ngCzEsc(l.name) + "</span>" : '<span class="pl">' + ngCzEsc(l.name) + "</span>" + (l.role ? '<span class="rt" data-role="' + l.role + '">' + l.role + "</span>" : ""));
 // the second line (spec.md): the arrow, the place, its role; " · or " and a second place
-const ngCzD2 = (r) => (r.leads.length ? '<span class="d2" data-cloze-leads="1">' + NG_CZ_ARROW + ngCzLead(r.leads[0]) + (r.leads[1] ? '<span class="or">&nbsp;· or&nbsp;' + ngCzLead(r.leads[1]) + "</span>" : "") + "</span>" : "");
+const ngCzD2 = (r) => (r.leads.length ? '<span class="d2">' + NG_CZ_ARROW + ngCzLead(r.leads[0]) + (r.leads[1] ? '<span class="or">&nbsp;· or&nbsp;' + ngCzLead(r.leads[1]) + "</span>" : "") + "</span>" : "");
 const ngCzLeadsTo = (r) => (!r.leads.length ? "" : ", leads to " + (r.leads[0].sub ? "the " + r.leads[0].name + " finish" : r.leads[0].name + (r.leads[0].role ? ", " + r.leads[0].role : "")));
 const ngCzBarW = (name) => Math.min(210, Math.round(30 + name.length * 6.2));
 
@@ -207,19 +210,19 @@ function ngClozeHTML(app, c) {
   let head;
   if (c.done) {
     const gold = c.rows.filter((r) => !r.ask || c.had.has(r.id)).length;
-    head = '<div class="gl" data-cloze-result="1"><span class="gn">' + gold + '</span><span class="gt">' + (gold === 1 ? "move you remember from here" : "moves you remember from here") +
-      '<small><span data-cloze-plus="1">+' + asked.length + " toward today’s " + t.goal + "</span>" + (c.done.u ? ' <button type="button" class="un" data-cloze-undo="1">Undo</button>' : c.done.late ? " <i>This can no longer be undone.</i>" : "") + "</small></span></div>";
+    head = '<div class="gl"><span class="gn">' + gold + '</span><span class="gt">' + (gold === 1 ? "move you remember from here" : "moves you remember from here") +
+      '<small><span data-cz-plus="1">+' + asked.length + " toward today’s " + t.goal + "</span>" + (c.done.u ? ' <button type="button" class="un">Undo</button>' : c.done.late ? " This can no longer be undone." : "") + "</small></span></div>";
   } else {
     const say = ngClozeSay({ hide: asked.length, solid, shown: c.shown, had: c.had.size, goal: t.goal });
-    head = '<div class="in" data-cloze-say="1">' + ngCzEsc(say[0]) + (say[1] ? "<small>" + ngCzEsc(say[1]) + "</small>" : "") + "</div>";
+    head = '<div class="in">' + ngCzEsc(say[0]) + (say[1] ? "<small>" + ngCzEsc(say[1]) + "</small>" : "") + "</div>";
   }
   const open = c.shown || !!c.done;
   return head + c.rows.map((r, i) => {
     const had = !r.ask || c.had.has(r.id), bar = r.ask && !open;
     const cls = "cz" + (bar ? "" : open ? " two" : "") + (c.done ? " dn" : "") + (c.done && r.ask && !had ? " ms" : "");
-    const right = bar ? "" : !r.ask ? '<span class="tl">solid</span>' : c.done ? '<span class="tl" data-cloze-when="1">' + ngCzEsc(ngClozeBack(c.done.rows.get(r.id), app._epochDay(), had)) + "</span>"
-      : '<button type="button" class="tg" data-cloze-had="' + ngCzEsc(r.id) + '" aria-pressed="' + had + '"><span>' + (had ? "Had it" : "Had it?") + "</span></button>";
-    return '<div class="' + cls + '" data-cloze-row="' + (r.ask ? "ask" : "solid") + '"' + (had && !bar ? ' data-had="1"' : "") + ' role="group" aria-label="' +
+    const right = bar ? "" : !r.ask ? '<span class="tl">solid</span>' : c.done ? '<span class="tl">' + ngCzEsc(ngClozeBack(c.done.rows.get(r.id), app._epochDay(), had)) + "</span>"
+      : '<button type="button" class="tg" data-cz-had="' + ngCzEsc(r.id) + '" aria-pressed="' + had + '"><span>' + (had ? "Had it" : "Had it?") + "</span></button>";
+    return '<div class="' + cls + '" data-cz-row="' + (r.ask ? "ask" : "solid") + '"' + (had && !bar ? ' data-had="1"' : "") + ' role="group" aria-label="' +
       ngCzEsc(bar ? "Hidden move " + (asked.indexOf(r) + 1) + " of " + asked.length : r.name + (open ? ngCzLeadsTo(r) : "")) + '">' + ngCzShape(r, had && !bar, c.side) +
       (bar ? '<span class="br" style="width:' + ngCzBarW(r.name) + 'px"></span>' : '<span class="tw"><span class="nm">' + ngCzEsc(r.name) + "</span>" + (open ? ngCzD2(r) : "") + "</span>") + right + "</div>";
   }).join("");
@@ -229,8 +232,9 @@ function ngClozeHTML(app, c) {
 function ngClozeFit(c) {
   const host = c.host;
   if (!host || !host.isConnected) return;
-  for (const [i, el] of [...host.querySelectorAll("[data-cloze-row]")].entries()) {
-    const r = c.rows[i], line = el.querySelector(".d2");
+  for (const [i, el] of [...host.querySelectorAll("[data-cz-row]")].entries()) {
+    const r = c.rows[i], line = el.querySelector(".d2"), when = c.done && el.querySelector(".tl"), nm = el.querySelector(".nm");
+    if (when && nm) nm.style.paddingRight = Math.max(92, Math.ceil(when.getBoundingClientRect().width) + 10) + "px";
     if (!line || !r) continue;
     line.outerHTML = ngCzD2(r);
     const l = el.querySelector(".d2"), over = () => l.scrollWidth > l.clientWidth + 0.5;
@@ -239,32 +243,32 @@ function ngClozeFit(c) {
     if (over()) l.querySelector(".pl").classList.add("cut");
   }
 }
-const NG_CLOZE_CSS = "[data-master-ask][data-cz] > :not([data-cloze]) { display: none !important; }" +
-  ".ng-cz { padding: 0 0 6px 20px; outline: none; }" +
-  ".ng-cz .in { margin: 6px 0 8px; font-size: 12px; line-height: 1.45; color: #c2cce0; }.ng-cz .in small { display: block; color: #7e8aa3; font-size: 10.5px; margin-top: 2px; }" +
-  ".ng-cz .gl { display: flex; align-items: center; gap: 9px; margin: 4px 0 8px; }.ng-cz .gn { font-size: 22px; line-height: 1; font-weight: 800; color: #f0c05a; }" +
-  ".ng-cz .gt { font-size: 12.5px; line-height: 1.35; color: #dbe2f0; font-weight: 600; }.ng-cz .gt small { display: block; font-size: 10.5px; color: #7ee0a8; font-weight: 700; margin-top: 1px; }.ng-cz .gt i { font-style: normal; font-weight: 500; color: #7e8aa3; }" +
-  ".ng-cz .un { border: 0; background: none; padding: 0 2px; margin-left: 8px; font: inherit; font-weight: 600; color: #8b97b0; text-decoration: underline; text-underline-offset: 2px; cursor: pointer; position: relative; }.ng-cz .un::after { content: ''; position: absolute; inset: -16px -12px; }" +
-  ".ng-cz .cz { position: relative; display: flex; align-items: center; gap: 10px; min-height: 36px; padding: 0 8px; margin: 0 -8px; border-radius: 8px; }.ng-cz .cz.two { height: 44px; min-height: 0; }" +
-  ".ng-cz .sh { flex: none; }.ng-cz .sh path { fill: none; stroke: rgba(150,170,210,.45); stroke-width: 1.2; stroke-linejoin: round; }.ng-cz .sh[data-gold] path { stroke: #f0c05a; stroke-width: 1.5; fill: rgba(91,140,255,.55); }.ng-cz .sh[data-gold=bottom] path { fill: rgba(216,96,122,.55); }" +
-  ".ng-cz .br { flex: none; max-width: 100%; height: 10px; border-radius: 5px; background: linear-gradient(90deg,rgba(150,170,210,.2),rgba(150,170,210,.13)); box-shadow: inset 0 0 0 1px rgba(150,170,210,.12); }" +
-  ".ng-cz .tw { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 2px; }" +
-  ".ng-cz .nm { font-size: 12.5px; font-weight: 600; line-height: 16px; color: #dbe2f0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }.ng-cz .cz[data-had] .nm { color: #f6e2b4; }.ng-cz .cz.ms .nm { color: #8b97b0; font-weight: 500; }" +
-  ".ng-cz .d2 { display: flex; align-items: center; min-width: 0; height: 14px; line-height: 14px; font-size: 10.5px; font-weight: 500; letter-spacing: .01em; color: #7e8aa3; white-space: nowrap; overflow: hidden; }.ng-cz .cz.ms .d2 { opacity: .75; }" +
-  ".ng-cz[data-fade] .d2 { animation: ngCzIn .18s ease-out .12s both; }@keyframes ngCzIn { from { opacity: 0; } to { opacity: 1; } }@media (prefers-reduced-motion: reduce) { .ng-cz[data-fade] .d2 { animation: none; } }" +
-  ".ng-cz .ar { flex: none; display: block; margin-right: 4px; position: relative; top: -1px; fill: none; stroke: #6b7691; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }" +
-  ".ng-cz .tri { flex: none; display: block; margin: 0 5px 0 1px; position: relative; top: -.5px; }.ng-cz .tri path { fill: rgba(216,96,122,.35); stroke: #c2cce0; stroke-width: 1.1; stroke-linejoin: round; }" +
-  ".ng-cz .pl { flex: none; }.ng-cz .pl.sb { color: #aab4c8; }.ng-cz .pl.cut { flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }" +
-  ".ng-cz .or { flex: none; display: flex; align-items: center; white-space: nowrap; color: #5d6883; }" +
-  ".ng-cz .rt { flex: none; font-size: 8.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; margin-left: 5px; position: relative; top: .5px; color: #8fb0ff; }.ng-cz .rt[data-role=bottom] { color: #d8889e; }" +
-  ".ng-cz .tl { flex: none; font-size: 10.5px; font-weight: 600; color: #7e8aa3; }.ng-cz .cz.dn .tl { position: absolute; right: 8px; top: 6px; line-height: 16px; }.ng-cz .cz.dn .nm { padding-right: 92px; }" +
-  ".ng-cz .tg { flex: none; align-self: stretch; display: flex; align-items: center; margin: 0 -8px 0 0; padding: 0 8px 0 6px; border: 0; background: none; font: inherit; cursor: pointer; }" +
-  ".ng-cz .tg span { display: flex; align-items: center; height: 26px; padding: 0 10px; border-radius: 8px; border: 1px solid rgba(150,170,210,.25); background: rgba(255,255,255,.03); font-size: 10.5px; font-weight: 700; color: #8b97b0; }" +
-  ".ng-cz .tg[aria-pressed=true] span { border-color: rgba(240,192,90,.75); background: rgba(240,192,90,.1); color: #f6e2b4; }" +
-  ".ng-mbar > button.cz-b { border-radius: 11px; border: 1px solid rgba(120,150,255,.5); background: rgba(74,108,255,.2); color: #e3eaff; font: inherit; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center; gap: 4px; cursor: pointer; white-space: nowrap; overflow: hidden; }" +
-  ".ng-mbar > button.cz-b small { font-size: 10.5px; font-weight: 600; opacity: .75; margin-left: 4px; overflow: hidden; text-overflow: ellipsis; }.ng-mbar > button.cz-b kbd { font: inherit; font-size: 9.5px; font-weight: 700; padding: 1px 5px; margin-left: 6px; border-radius: 5px; border: 1px solid rgba(190,205,255,.4); opacity: .8; }" +
-  ".ng-mbar > button.cz-g, .ng-mbar > button.cz-n { border-color: rgba(150,170,210,.22); background: rgba(255,255,255,.035); color: #aab4c8; }.ng-mbar > button.cz-n { font-size: 15px; }" +
-  ".ng-mbar > button.cz-g:not(.mp):not(.mn) { flex: none !important; width: 72px !important; }";
+const NG_CLOZE_CSS = "[data-master-ask][data-cz]>:not([data-cloze]){display:none !important}" +
+  ".ngz{padding:0 0 6px 20px;outline:none}" +
+  ".ngz .in{margin:6px 0 8px;font-size:12px;line-height:1.45;color:#c2cce0}.ngz .in small{display:block;color:#7e8aa3;font-size:10.5px;margin-top:2px}" +
+  ".ngz .gl{display:flex;align-items:center;gap:9px;margin:4px 0 8px}.ngz .gn{font-size:22px;line-height:1;font-weight:800;color:#f0c05a}" +
+  ".ngz .gt{font-size:12.5px;line-height:1.35;color:#dbe2f0;font-weight:600}.ngz .gt small{display:block;font-size:10.5px;color:#7ee0a8;font-weight:700;margin-top:1px}" +
+  ".ngz .un{border:0;background:none;padding:0 2px;margin-left:8px;font:inherit;font-weight:600;color:#8b97b0;text-decoration:underline;text-underline-offset:2px;cursor:pointer;position:relative}.ngz .un::after{content:'';position:absolute;inset:-16px -12px}" +
+  ".ngz .cz{position:relative;display:flex;align-items:center;gap:10px;min-height:36px;padding:0 8px;margin:0 -8px;border-radius:8px}.ngz .cz.two{height:44px;min-height:0}" +
+  ".ngz .sh{flex:none}.ngz .sh path{fill:none;stroke:rgba(150,170,210,.45);stroke-width:1.2;stroke-linejoin:round}.ngz .sh[data-gold] path{stroke:#f0c05a;stroke-width:1.5;fill:rgba(91,140,255,.55)}.ngz .sh[data-gold=bottom] path{fill:rgba(216,96,122,.55)}" +
+  ".ngz .br{flex:none;max-width:100%;height:10px;border-radius:5px;background:linear-gradient(90deg,rgba(150,170,210,.2),rgba(150,170,210,.13));box-shadow:inset 0 0 0 1px rgba(150,170,210,.12)}" +
+  ".ngz .tw{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center;gap:2px}" +
+  ".ngz .nm{font-size:12.5px;font-weight:600;line-height:16px;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ngz .cz[data-had] .nm{color:#f6e2b4}.ngz .cz.ms .nm{color:#8b97b0;font-weight:500}" +
+  ".ngz .d2{display:flex;align-items:center;min-width:0;height:14px;line-height:14px;font-size:10.5px;font-weight:500;letter-spacing:.01em;color:#7e8aa3;white-space:nowrap;overflow:hidden}.ngz .cz.ms .d2{opacity:.75}" +
+  ".ngz[data-fade] .d2{animation:ngCzIn .18s ease-out .12s both}@keyframes ngCzIn{from{opacity:0}to{opacity:1}}@media (prefers-reduced-motion:reduce){.ngz[data-fade] .d2{animation:none}}" +
+  ".ngz .ar{flex:none;display:block;margin-right:4px;position:relative;top:-1px;fill:none;stroke:#6b7691;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}" +
+  ".ngz .tri{flex:none;display:block;margin:0 5px 0 1px;position:relative;top:-.5px}.ngz .tri path{fill:rgba(216,96,122,.35);stroke:#c2cce0;stroke-width:1.1;stroke-linejoin:round}" +
+  ".ngz .pl{flex:none}.ngz .pl.sb{color:#aab4c8}.ngz .pl.cut{flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis}" +
+  ".ngz .or{flex:none;display:flex;align-items:center;white-space:nowrap;color:#5d6883}" +
+  ".ngz .rt{flex:none;font-size:8.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-left:5px;position:relative;top:.5px;color:#8fb0ff}.ngz .rt[data-role=bottom]{color:#d8889e}" +
+  ".ngz .tl{flex:none;font-size:10.5px;font-weight:600;color:#7e8aa3}.ngz .cz.dn .tl{position:absolute;right:8px;top:6px;line-height:16px}.ngz .cz.dn .nm{padding-right:92px}" +
+  ".ngz .tg{flex:none;align-self:stretch;display:flex;align-items:center;margin:0 -8px 0 0;padding:0 8px 0 6px;border:0;background:none;font:inherit;cursor:pointer}" +
+  ".ngz .tg span{display:flex;align-items:center;height:26px;padding:0 10px;border-radius:8px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.03);font-size:10.5px;font-weight:700;color:#8b97b0}" +
+  ".ngz .tg[aria-pressed=true] span{border-color:rgba(240,192,90,.75);background:rgba(240,192,90,.1);color:#f6e2b4}" +
+  ".ng-mbar>button.cz-b{border-radius:11px;border:1px solid rgba(120,150,255,.5);background:rgba(74,108,255,.2);color:#e3eaff;font:inherit;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:4px;padding:0 2px;cursor:pointer;white-space:nowrap;overflow:hidden}" +
+  ".ng-mbar>button.cz-b small{font-size:10.5px;font-weight:600;opacity:.75;overflow:hidden;text-overflow:ellipsis}.ng-mbar>button.cz-b kbd{font:inherit;font-size:9px;opacity:.55;border:1px solid;border-radius:4px;padding:1px 6px;margin-left:5px}" +
+  ".ng-mbar>button.cz-g,.ng-mbar>button.cz-n{border-color:rgba(150,170,210,.22);background:rgba(255,255,255,.035);color:#aab4c8}.ng-mbar>button.cz-n{font-size:15px}" +
+  ".ng-mbar>button.cz-g:not(.mp):not(.mn){flex:none !important;width:54px !important}";
 
 function ngClozeBar(app, s, c) {
   const bar = s.dock && s.dock.lastChild;
@@ -273,22 +277,23 @@ function ngClozeBar(app, s, c) {
     const e = document.createElement("button"); e.type = "button"; e.className = cls; e.innerHTML = html; e.setAttribute(attr, "1"); e.onclick = on; e.disabled = !!off; return e;
   };
   const sig = [c.seat, c.shown, !!c.done, c.had.size, at, next ? (next.cz != null ? next.cz : next.i) : N.own, !!N.prev].join("|");
-  if (bar._cz === sig && bar.firstChild && bar.firstChild.hasAttribute("data-cloze-prev")) return;
+  if (bar._cz === sig && bar.firstChild && bar.firstChild.hasAttribute("data-cz-prev")) return;
   bar._cz = sig; bar._from = null;
   const hold = c.shown && !c.done;   // revealed and not confirmed: Hide or Done first (as drawn)
   const nextName = !next ? (N.own ? "its cards" : "") : next.cz != null ? next.cz.split("|")[0] : app._masterSeatOf(s, s.keys[next.i]) === c.seat ? "its cards" : (app._masterSeatOf(s, s.keys[next.i]) || s.keys[next.i]).split("|")[0];
-  const mid = c.done ? [b("cz-b", "Next" + (nextName ? " <small>" + ngCzEsc(nextName) + "</small>" : " <small>the list</small>"), "data-cloze-next", () => (next || N.own ? app._masterStep(s, 1) : app._masterList(s)))]
-    : c.shown ? [b("cz-b cz-g", "Hide", "data-cloze-hide", () => ngClozeFlip(app, s, false)), b("cz-b", "Done <small>" + c.had.size + " had</small>", "data-cloze-done", () => ngClozeDone(app, s))]
-      : [b("cz-b", "Show <kbd>space</kbd>", "data-cloze-show", () => ngClozeFlip(app, s, true))];
-  bar.replaceChildren(b("mp cz-b cz-n", "‹", "data-cloze-prev", () => app._masterStep(s, -1), hold || !N.prev), ...mid, b("mn cz-b cz-n", "›", "data-cloze-step", () => app._masterStep(s, 1), hold || !(next || N.own)));
+  const mid = c.done ? [b("cz-b", "Next" + (nextName ? " <small>" + ngCzEsc(nextName) + "</small>" : " <small>the list</small>"), "data-cz-next", () => (next || N.own ? app._masterStep(s, 1) : app._masterList(s)))]
+    : c.shown ? [b("cz-b cz-g", "Hide", "data-cz-hide", () => ngClozeFlip(app, s, false)), b("cz-b", "Done <small>" + c.had.size + " had</small>", "data-cz-done", () => ngClozeDone(app, s))]
+      : [b("cz-b", "Show <kbd>space</kbd>", "data-cz-show", () => ngClozeFlip(app, s, true))];
+  bar.replaceChildren(b("mp cz-b cz-n", "‹", "data-cz-prev", () => app._masterStep(s, -1), hold || !N.prev), ...mid, b("mn cz-b cz-n", "›", "data-cz-step", () => app._masterStep(s, 1), hold || !(next || N.own)));
   bar.firstChild.setAttribute("aria-label", "Previous"); bar.lastChild.setAttribute("aria-label", "Next");
 }
+const ngCzSig = (c) => [c.shown, !!c.done, c.done && !!c.done.u, ...c.had].join("|");
 function ngClozeDraw(app, s, c, fade) {
   const host = c.host = s.czHost;
   host.toggleAttribute("data-fade", !!fade);
-  host.setAttribute("data-cloze", c.seat); host.setAttribute("data-cloze-state", c.done ? "done" : c.shown ? "shown" : "blank");
+  host.setAttribute("data-cloze", c.seat);
   host.innerHTML = ngClozeHTML(app, c);
-  c.sig = [c.shown, !!c.done, c.done && !!c.done.u, [...c.had].join(",")].join("|");
+  c.sig = ngCzSig(c);
   if (c.shown || c.done) ngClozeFit(c);
   ngClozeBar(app, s, c);
   ngClozeHead(s, c);
@@ -312,7 +317,7 @@ function ngClozeTap(app, s, id) {
   if (c.had.has(id)) c.had.delete(id); else c.had.add(id);
   const kept = s.czHost.contains(document.activeElement);
   ngClozeDraw(app, s, c, false);
-  if (kept) { const b = [...s.czHost.querySelectorAll("[data-cloze-had]")].find((e) => e.getAttribute("data-cloze-had") === id); if (b) b.focus({ preventScroll: true }); }
+  if (kept) { const b = [...s.czHost.querySelectorAll("[data-cz-had]")].find((e) => e.getAttribute("data-cz-had") === id); if (b) b.focus({ preventScroll: true }); }
 }
 // DONE: every hidden move written once, through the app's one writer; each is one of the day's 20
 function ngClozeDone(app, s) {
@@ -330,7 +335,7 @@ function ngClozeDone(app, s) {
 function ngClozeUndo(app, s) {
   const c = s.cz.get(s.czOpen);
   if (!c || !c.done || !c.done.u) return;
-  if (app._ungradeMoves(c.done.u)) { c.done = null; c.shown = true; app.track("neural_cloze_undone", { position: c.seat }); }
+  if (app._ungradeMoves(c.done.u)) { c.done = null; c.shown = true; }
   else { c.done.u = null; c.done.late = true; app._undoRelease(); }   // a merge rebuilt a row: it is no longer this copy's to take back
   ngClozeDraw(app, s, c, false);
   app._paintPractice(s);
@@ -345,10 +350,10 @@ function ngClozeShow(app, s, seat, mine) {
   if (app._mc && app._mc.surface === "practice") { app._mc.spent = true; app._mc = null; }
   app._openRow = app._focusRow = null;
   if (!s.czHost || !s.czHost.isConnected) {
-    const host = s.czHost = document.createElement("div"); host.className = "ng-cz"; host.tabIndex = -1;
+    const host = s.czHost = document.createElement("div"); host.className = "ngz"; host.tabIndex = -1;
     host.onclick = (e) => {
-      const t = e.target.closest && e.target.closest("[data-cloze-had],[data-cloze-undo]");
-      if (t && t.hasAttribute("data-cloze-undo")) ngClozeUndo(app, s); else if (t) ngClozeTap(app, s, t.getAttribute("data-cloze-had"));
+      const t = e.target.closest && e.target.closest("[data-cz-had],.un");
+      if (t && t.className === "un") ngClozeUndo(app, s); else if (t) ngClozeTap(app, s, t.getAttribute("data-cz-had"));
     };
     s.ask.prepend(host);
     if (!s.czFit) { s.czFit = () => { const o = s.czOpen != null && s.cz.get(s.czOpen); if (o && (o.shown || o.done)) ngClozeFit(o); }; window.addEventListener("resize", s.czFit); if (document.fonts && document.fonts.ready) document.fonts.ready.then(s.czFit); }
@@ -367,8 +372,7 @@ function ngClozeShow(app, s, seat, mine) {
 export function ngClozePaint(app, s) {
   const c = s.czOpen != null && s.cz ? s.cz.get(s.czOpen) : null;
   if (!c || !s.czHost || !s.czHost.isConnected) return;
-  const sig = [c.shown, !!c.done, c.done && !!c.done.u, [...c.had].join(",")].join("|");
-  if (c.sig !== sig) ngClozeDraw(app, s, c, false); else { ngClozeBar(app, s, c); ngClozeHead(s, c); }
+  if (c.sig !== ngCzSig(c)) ngClozeDraw(app, s, c, false); else { ngClozeBar(app, s, c); ngClozeHead(s, c); }
 }
 // what the list's row counts at a place: the moves its cloze still has to ask
 export function ngClozeLeft(app, s, seat) { return app._asksMoves() ? ngClozeAsks(app, s, seat) : []; }

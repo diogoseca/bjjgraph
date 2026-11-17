@@ -100,12 +100,12 @@ function authored(name: string): [string, number][] | null {
   ok.sort((a: W, b: W) => b[1] - a[1] || a[2] - b[2])
   return ok.map((o: W) => [o[0], o[1]])
 }
-const rowsOf = (page: Page) => page.locator("[data-cloze-row]").evaluateAll((els) => els.map((el) => {
+const rowsOf = (page: Page) => page.locator("[data-cz-row]").evaluateAll((els) => els.map((el) => {
   const q = (s: string) => el.querySelector(s), all = (s: string) => [...el.querySelectorAll(s)]
-  return { kind: el.getAttribute("data-cloze-row"), label: el.getAttribute("aria-label"), name: q(".nm")?.textContent || null, bar: !!q(".br"), h: Math.round(el.getBoundingClientRect().height * 10) / 10,
+  return { kind: el.getAttribute("data-cz-row"), label: el.getAttribute("aria-label"), name: q(".nm")?.textContent || null, bar: !!q(".br"), h: Math.round(el.getBoundingClientRect().height * 10) / 10,
     line: !!q(".d2"), arrow: !!q(".d2 .ar"), tri: !!q(".d2 .tri"), places: all(".d2 .pl").map((p) => p.textContent), roles: all(".d2 .rt").map((p) => p.textContent),
     or: !!q(".d2 .or"), orRole: !!q(".d2 .or .rt"), over: q(".d2") ? q(".d2")!.scrollWidth > q(".d2")!.clientWidth + 0.5 : false,
-    had: el.hasAttribute("data-had"), when: q("[data-cloze-when]")?.textContent || null, tog: q("[data-cloze-had]")?.textContent || null }
+    had: el.hasAttribute("data-had"), when: q(".tl")?.textContent || null, tog: q("[data-cz-had]")?.textContent || null }
 }))
 
 for (const touch of [true, false]) {
@@ -124,53 +124,53 @@ for (const touch of [true, false]) {
       let rows = await rowsOf(page)
       expect(rows.length, "six rows").toBe(6)
       for (const r of rows) expect([r.bar, r.name, r.line, r.h], "a bar: no name, no second line, 36 px").toEqual([true, null, false, 36])
-      await expect(page.locator("[data-cloze-say]")).toHaveText("Six moves start here. Say each one to yourself, then Show.Each blank is one move; each counts one toward today's 20.")
-      await expect(page.locator("[data-cloze] [data-cloze-leads]"), "the second line is absent before Show").toHaveCount(0)
+      await expect(page.locator(".in")).toHaveText("Six moves start here. Say each one to yourself, then Show.Each blank is one move; each counts one toward today's 20.")
+      await expect(page.locator("[data-cloze] .d2"), "the second line is absent before Show").toHaveCount(0)
       expect(await page.locator("[data-cloze]").innerText(), "no move is named before Show").not.toMatch(/Escape|Roll|Guard|Choke/)
       const before = await owned(page)
       // SHOW, some taps, HIDE, SHOW: the taps are kept, and nothing is written
-      await press(page, "[data-master-bar] [data-cloze-show]", "Show", touch, false)
+      await press(page, "[data-master-bar] [data-cz-show]", "Show", touch, false)
       rows = await rowsOf(page)
       for (const r of rows) expect([r.bar, !!r.name, r.h, r.tog], `${r.name}: a name, 44 px, its toggle`).toEqual([false, true, 44, "Had it?"])
       const names = rows.map((r) => r.name!)
       for (const i of [0, 1, 2, 4]) {
-        await press(page, `[data-cloze-row]:nth-of-type(${i + 2}) [data-cloze-had]`, `Had it? on ${names[i]}`, touch, false)
+        await press(page, `[data-cz-row]:nth-of-type(${i + 2}) [data-cz-had]`, `Had it? on ${names[i]}`, touch, false)
       }
       const tapped = (await rowsOf(page)).filter((r) => r.had).map((r) => r.name)
       expect(tapped, "the four tapped rows are gold").toEqual([names[0], names[1], names[2], names[4]])
-      await expect(page.locator("[data-cloze-say]")).toContainText("Tap the ones you had. 4 so far.")
-      await expect(page.locator("[data-master-bar] [data-cloze-done]")).toHaveText("Done 4 had")
-      await press(page, "[data-master-bar] [data-cloze-hide]", "Hide", touch, false)
+      await expect(page.locator(".in")).toContainText("Tap the ones you had. 4 so far.")
+      await expect(page.locator("[data-master-bar] [data-cz-done]")).toHaveText("Done 4 had")
+      await press(page, "[data-master-bar] [data-cz-hide]", "Hide", touch, false)
       expect((await rowsOf(page)).every((r) => r.bar && !r.line), "Hide puts the bars back, and the second lines go at once").toBe(true)
       expect(await owned(page), "Hide is a view, never a grade: nothing a player owns moved").toEqual(before)
-      await press(page, "[data-master-bar] [data-cloze-show]", "Show again", touch, false)
+      await press(page, "[data-master-bar] [data-cz-show]", "Show again", touch, false)
       expect((await rowsOf(page)).filter((r) => r.had).map((r) => r.name), "Show, Hide, Show keeps the taps").toEqual(tapped)
       expect(await owned(page), "still nothing written").toEqual(before)
       // DONE: six rows, six of the day's 20
-      await press(page, "[data-master-bar] [data-cloze-done]", "Done", touch, false)
+      await press(page, "[data-master-bar] [data-cz-done]", "Done", touch, false)
       const after = await owned(page)
       const wrote = await page.evaluate((d) => { const a = (window as W).__neural; return Object.values(a.moves).flatMap((m: W) => Object.values(m)).filter((r: W) => r[2] === d).map((r: W) => r[3]) }, DAY)
       expect(wrote.length, "a cloze of six writes six rows, each answered today").toBe(6)
       expect(wrote.filter((x) => x === 1).length, "four of them a Yes").toBe(4)
       expect(after.done - before.done, "six answers are six of the day's 20").toBe(6)
       expect(JSON.parse(after.journal).length - JSON.parse(before.journal).length, "one journal line an answer").toBe(6)
-      await expect(page.locator("[data-cloze-result] .gn"), "the gold number: the moves you remember from here").toHaveText("4")
-      await expect(page.locator("[data-cloze-plus]")).toHaveText("+6 toward today’s 20")
+      await expect(page.locator(".gl .gn"), "the gold number: the moves you remember from here").toHaveText("4")
+      await expect(page.locator("[data-cz-plus]")).toHaveText("+6 toward today’s 20")
       rows = await rowsOf(page)
       expect(rows.map((r) => r.when), "each row says when it comes back").toEqual(rows.map((r) => (r.had ? "back in 7 days" : "again on Wednesday")))
       await expect(page.locator("[data-plan-goal]"), "the day's count reads the six").toContainText("6 of 20 today")
       // UNDO: the last confirm back, byte for byte, and the cloze shown again with its taps
-      await press(page, "[data-cloze-undo]", "Undo", touch, false)
+      await press(page, "[data-cloze] .un", "Undo", touch, false)
       expect(await owned(page), "Undo restores what a player owns, byte for byte").toEqual(before)
       expect((await rowsOf(page)).filter((r) => r.had).map((r) => r.name), "the taps are kept").toEqual(tapped)
-      await expect(page.locator("[data-master-bar] [data-cloze-done]"), "and Done is offered again").toBeVisible()
-      await press(page, "[data-master-bar] [data-cloze-done]", "Done again", touch, false)
+      await expect(page.locator("[data-master-bar] [data-cz-done]"), "and Done is offered again").toBeVisible()
+      await press(page, "[data-master-bar] [data-cz-done]", "Done again", touch, false)
       expect((await owned(page)).done - before.done).toBe(6)
       // NEXT: the place's row counts what is left, and the next ask opens
       await expect(page.locator('[data-master-row="Mount|Bottom"] small')).not.toHaveText(/^6 due/)
-      await press(page, "[data-master-bar] [data-cloze-next]", "Next", touch, false)
+      await press(page, "[data-master-bar] [data-cz-next]", "Next", touch, false)
       await expect(page.locator('[data-cloze="Mount|Bottom"]'), "the place is left").toBeHidden()
-      await expect(page.locator("[data-cloze-undo]"), "and its Undo with it").toHaveCount(0)
+      await expect(page.locator("[data-cloze] .un"), "and its Undo with it").toHaveCount(0)
       expect(errors, "no page error").toEqual([])
     })
 
@@ -181,8 +181,8 @@ for (const touch of [true, false]) {
       const way: Record<string, { or: boolean; orRole: boolean; done?: { or: boolean; orRole: boolean } }> = {}
       for (const seat of PLACES) {
         await openCloze(page, seat, touch)
-        await expect(page.locator("[data-cloze] [data-cloze-leads]"), `${seat}: no second line before Show`).toHaveCount(0)
-        await press(page, "[data-master-bar] [data-cloze-show]", "Show", touch, false)
+        await expect(page.locator("[data-cloze] .d2"), `${seat}: no second line before Show`).toHaveCount(0)
+        await press(page, "[data-master-bar] [data-cz-show]", "Show", touch, false)
         const rows = await rowsOf(page)
         expect(rows.length, `${seat}: six rows`).toBe(6)
         for (const r of rows) {
@@ -203,7 +203,7 @@ for (const touch of [true, false]) {
           checked++
         }
         // after Done the row has its full width: the second place comes back where it fits (its role first to go)
-        await press(page, "[data-master-bar] [data-cloze-done]", "Done", touch, false)
+        await press(page, "[data-master-bar] [data-cz-done]", "Done", touch, false)
         for (const r of await rowsOf(page)) { expect(r.over, `${r.name}: nothing cut off after Done`).toBe(false); if (way[r.name!]) way[r.name!].done = { or: r.or, orRole: r.orRole } }
       }
       expect(checked, "rows checked against their authored table").toBeGreaterThanOrEqual(20)
@@ -225,13 +225,13 @@ for (const touch of [true, false]) {
       await setup(page)
       await openMaster(page, touch)
       await openCloze(page, "Mount|Bottom", touch)
-      await press(page, "[data-master-bar] [data-cloze-show]", "Show", touch, false)
+      await press(page, "[data-master-bar] [data-cz-show]", "Show", touch, false)
       const anim = () => page.locator("[data-cloze] .d2").first().evaluate((el) => { const c = getComputedStyle(el); return [c.animationName, c.animationDuration, c.animationDelay, c.animationTimingFunction] })
       expect(await anim(), "180 ms, ease-out, 120 ms after the name").toEqual(["ngCzIn", "0.18s", "0.12s", "ease-out"])
       // the toggle and the name are different targets: the point on the name is not the toggle's, and a press there marks nothing
-      const pts = await page.locator("[data-cloze-row]").first().evaluate((el) => {
-        const n = el.querySelector(".nm")!.getBoundingClientRect(), t = el.querySelector("[data-cloze-had]")!.getBoundingClientRect()
-        const at = (x: number, y: number) => { const e = document.elementFromPoint(x, y); return !!e && !!e.closest("[data-cloze-had]") }
+      const pts = await page.locator("[data-cz-row]").first().evaluate((el) => {
+        const n = el.querySelector(".nm")!.getBoundingClientRect(), t = el.querySelector("[data-cz-had]")!.getBoundingClientRect()
+        const at = (x: number, y: number) => { const e = document.elementFromPoint(x, y); return !!e && !!e.closest("[data-cz-had]") }
         return { name: { x: n.left + Math.min(20, n.width / 2), y: n.top + n.height / 2 }, tog: { x: t.left + t.width / 2, y: t.top + t.height / 2, w: t.width, h: t.height },
           onName: at(n.left + Math.min(20, n.width / 2), n.top + n.height / 2), onTog: at(t.left + t.width / 2, t.top + t.height / 2),
           edges: [[t.left + 3, t.top + 3], [t.right - 3, t.bottom - 3]].map(([x, y]) => at(x, y)) }
@@ -244,9 +244,9 @@ for (const touch of [true, false]) {
       if (touch) await page.touchscreen.tap(pts.tog.x, pts.tog.y); else await page.mouse.click(pts.tog.x, pts.tog.y)
       expect((await rowsOf(page)).filter((r) => r.had).length, "a press on the toggle marks its row").toBe(1)
       // reduced motion: with the name, without a fade
-      await press(page, "[data-master-bar] [data-cloze-hide]", "Hide", touch, false)
+      await press(page, "[data-master-bar] [data-cz-hide]", "Hide", touch, false)
       await page.emulateMedia({ reducedMotion: "reduce" })
-      await press(page, "[data-master-bar] [data-cloze-show]", "Show", touch, false)
+      await press(page, "[data-master-bar] [data-cz-show]", "Show", touch, false)
       expect((await anim())[0], "no fade under reduced motion").toBe("none")
       expect(await page.locator("[data-cloze] .d2").first().evaluate((el) => getComputedStyle(el).opacity)).toBe("1")
     })
@@ -293,11 +293,11 @@ test.describe("1440x900, mouse: the map beside an open cloze", () => {
     expect([m.down, m.named], "a pointer on a card turns nothing up and names nothing").toEqual([m.hand, 0])
     await page.mouse.move(200, 400)
     // after Show the map is as it is today
-    await press(page, "[data-master-bar] [data-cloze-show]", "Show", false, false)
+    await press(page, "[data-master-bar] [data-cz-show]", "Show", false, false)
     await j.advance(600)
     m = await map()
     expect(m.down, "after Show the hand is face up again").toBe(0)
-    await press(page, "[data-master-bar] [data-cloze-hide]", "Hide", false, false)
+    await press(page, "[data-master-bar] [data-cz-hide]", "Hide", false, false)
     await j.advance(400)
     expect((await map()).down, "Hide turns it down again").toBe(m.hand)
     await press(page, "[data-master-list]", "back to the list", false, false)
