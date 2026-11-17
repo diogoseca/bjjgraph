@@ -13,12 +13,28 @@ Two modes, each reading what a reader or a player is actually served:
   --built                            the built site under source/public/: every page's HTML, and the served
                                      copy of the payload under source/public/static/neural/content/.
 
-Checks, each printing a POSITIVE count, because a check that never ran reports clean (CLAUDE.md §6):
-  1. every film-study credit line (`<p class="clip-credit">`): 0 may say "taught by";
-  2. every schema.org VideoObject in a page's JSON-LD: 0 may carry `creator` or `author`, and 0 may say
-     "taught by" in its description;
-  3. every clip object in every dossier chunk (role clips, root clips, escape rows): 0 may carry `by`.
-It fails on any hit, and when any of the three counts is 0.
+WHAT IT CHECKS, in CLAUDE.md §6.9's three forms. It checks a PHRASE and two keys, not the names themselves.
+  PINNED (each red at its named mutant, below):
+    1. the phrase "taught by" in a film-study credit line (`<p class="clip-credit">`);
+    2. a `creator` or `author` key on a JSON-LD object whose `@type` is exactly "VideoObject", and the phrase
+       "taught by" in its `description`;
+    3. a `by` key on a clip (role clips, root clips, escape rows) in the top-level dossier chunks
+       static/neural/content/*.json;
+    and three POSITIVE counts (credit lines, VideoObjects, shipped clips), each red on zero, because a check that
+    never ran reports clean (CLAUDE.md §6).
+  PARTIALLY PINNED: the counts are aggregate, not floors, so a whole template family could lose its credits and
+    the gate would stay green.
+  UNGUARDED, strengthened in v1.289.0 (the independent read of PR #433 ran 25 mutants on a built page; these 19
+  passed green):
+    - a name itself rather than the phrase: a bare name, "— by X", "— with X", "taught&nbsp;by X" in a credit;
+    - a name in a <small> beside the credit, or in a credit <p> with a second class;
+    - a VideoObject `contributor`, `actor` or `publisher`; `@type` given as a list; an ItemList `author`; a JSON-LD
+      script tag with an extra attribute;
+    - a description reading ", by X.";
+    - `channel` or another person field on a shipped clip, or a name inside a shipped clip's title (no gate protects
+      the 246 rewritten titles: a clip sourced again with "by <name>" in its title ships green);
+    - `by` on a clip in a subfolder chunk or in concepts.json;
+    - a credit in the agent export (markdown/) or in llms.txt.
 
 Found by this gate on its first green-path run: 8 case-variant ORPHAN pages (content/Positions/{K-Guard,North-South,
 X-Guard,Z-Guard}/{top,bottom}.md) that no generator writes, beside the generated Top.md / Bottom.md, so
