@@ -19433,6 +19433,19 @@ first run, on 721937544, found the two stale units above: my survey had covered 
 **VID1-CI.** The PR's first e2e-full shards all failed at collection: the viewer journey read the generated, gitignored
 source/quartz/static/neural/concepts.json at module load (now the served copy first, lazily); `npm run ci:validate` replays ci-validate.yml, not the e2e-full job, whose tree has no generated payload outside source/public.
 
+**VID1-R1 (the independent reader of #427: MERGE AFTER 2 fixes, no break in the app).** Every viewer journey started
+from a running game, so its R2 (every close un-pauses) turned nothing red: the same journey now starts paused (move
+and current node, three exits, both sizes; `close-always-unpauses`), and the unit closes with the closure the real
+`_openChoiceWatch` built. A quick double press put its second press inside the zooming player, whose frame then kept
+Esc: until the 360ms zoom settles a layer over the frame takes every press, the dim closes nothing (at 390x631 the
+current node's frame zooms off the tap's point, and the second tap shut the video it had opened) and the dialog keeps
+focus on the ✕ (`zoom-guard-removed`, `dim-closes-mid-zoom`, `dim-press-takes-focus-mid-zoom`); after a deliberate press
+inside the player Esc stays the provider's (said, not changed: a focus steal is the owner's choice). The test named
+"the dim over a card" pressed the map: the dim over another move's card is now pressed at 390x631 at a measured point
+(its R1, `dim-press-falls-through`). On dev v1.282.0 merged: 24 journey files 339 of 339, 11 gen files 12 of 12, 15
+of 15 viewer mutants and VIDEO1's two retargeted rows red with green controls, five unit mutants, ci:validate 25 of
+25 (units 1,763).
+
 **Bytes.** Against dev v1.281.2's own bundle (f6c2bcd3b, built from its export with its own app.src.jsx pinned):
 eager gzip −648 B (neural.js −550, neural.css −98), eager raw −2,698 B; deferred +3 B gzip, −3 B raw. The payload gate:
 eager gzip 369,629 B, under the 400,000 B action line (over the soft 300,000 B target, as dev is); deferred raw 521,915 of
