@@ -326,6 +326,15 @@ test.describe("Challenges UI", () => {
       const shelf = document.querySelector("[data-rewards-shelf]")!.getBoundingClientRect();
       return shelf.height > 0 && shelf.top >= 0 && shelf.top < innerHeight;
     }), { message: "the shelf is scrolled into view" }).toBe(true);
+    // ...and it STAYS there once Master the game has opened its first card: that card's own scroll (`_scrollFocusedDeck`)
+    // yields while View Collection's is pending (v1.284.0). A poll above passes on the first moment the shelf is in view,
+    // so this is one read after the card is open. Mutant B5 (the yield removed) is red here.
+    await expect(page.locator("[data-practice-page] [data-mini-deck]").first(), "premise: Master the game opened its first card").toBeVisible({ timeout: 20_000 });
+    await page.evaluate(() => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))));
+    expect(await page.evaluate(() => {
+      const shelf = document.querySelector("[data-rewards-shelf]")!.getBoundingClientRect();
+      return shelf.height > 0 && shelf.top >= 0 && shelf.top < innerHeight;
+    }), "the shelf is still in view after the first card opened").toBe(true);
     await expect(
       page
         .locator(".ng-mat-coin[data-earned='true']")
@@ -631,38 +640,63 @@ test.describe("Challenges UI", () => {
 // and defined nowhere since: the press threw a TypeError and nothing happened (found by another seat, 16 Nov).
 // `_challengeActionTarget` now resolves the action once, for the row and for the press, and such a row draws no button; the
 // corridor's repaint when the curriculum lands brings it back. The control: with the curriculum, the same row's button opens
-// the belt's next lesson in Master the game.
+// the belt's next lesson in Master the game (Blue's "Complete three lessons": Study the curriculum).
 // Mutant: the old branch back (the button drawn, the press calling `openHomeToLatest`) → red at "no button on a row with
 // nothing to open".
 test.describe("an objective's action", () => {
+  // White's twenty objectives are the tutorial and draw no rows; the corridor draws the SELECTED advanced belt's, so the
+  // journeys select Blue by its head card, by mouse
+  const BLUE = '.ng-track-card[data-track="blue"]';
+  const selectBlue = async (page: any, j: any) => {
+    await page.locator(BLUE).scrollIntoViewIfNeeded();
+    await j.clickByMouse(BLUE, "the Blue belt");
+  };
   test("with nothing to open (a curriculum 404), the row draws no button and nothing throws", async ({ page }) => {
     const errors: string[] = [];
     page.on("pageerror", (e) => errors.push(e.message));
     const j = journey(page);
     await j.boot("/", { noCurriculum: true });
     await j.openCorridor({ curriculum: false });
-    const row = page.locator('[data-challenge-id="white.recall"]');
-    await expect(row, "premise: the White objective \"Prove a card from memory\" is drawn without a curriculum").toHaveCount(1);
-    expect(await page.evaluate(() => (window as any).__neural.curriculum), "premise: no curriculum").toBeNull();
-    await expect(row.locator(".ng-challenge-action"), "no button on a row with nothing to open").toHaveCount(0);
-    // the rows whose action needs no lesson keep theirs ("Start a roll here" closes the drawer onto the map)
-    expect(await page.locator(".ng-challenge-row .ng-challenge-action").count(), "the other rows keep their buttons").toBeGreaterThan(0);
+    expect(await page.evaluate(() => { const a = (window as any).__neural; return { curriculum: a.curriculum ?? null, blue: a.beltUnlocked("blue") }; }),
+      "premise: no curriculum, and the Blue belt open").toEqual({ curriculum: null, blue: true });
+    await selectBlue(page, j);
+    for (const id of ["blue.lesson-three", "blue.checkpoint"]) {
+      const row = page.locator(`[data-challenge-id="${id}"]`);
+      await expect(row, `premise: ${id} is drawn without a curriculum`).toHaveCount(1);
+      await expect(row.locator(".ng-challenge-action"), "no button on a row with nothing to open").toHaveCount(0);
+    }
+    // a row whose action needs no lesson keeps its button ("Start a roll here" closes the drawer onto the map)
+    await expect(page.locator('[data-challenge-id="blue.roll-three"] .ng-challenge-action'), "the other rows keep their buttons").toHaveCount(1);
     expect(errors, "no pageerror").toEqual([]);
   });
 
-  test("with the curriculum, Study the technique opens the belt's next lesson", async ({ page }) => {
+  // THE CORRIDOR REPAINTS ON NEW EVIDENCE, where it lives (v1.284.0): an objective's count moves on screen while Master the
+  // game is open, with no other repaint asked for. Mutant B2 (`noteChallenges`' repaint removed) is red here: until this
+  // journey no spec pinned it (the slice B mutant run, 17 Nov).
+  test("Master the game's corridor repaints when evidence moves an objective", async ({ page }) => {
+    const j = journey(page);
+    await j.boot("/");
+    await j.openCorridor();
+    await selectBlue(page, j);
+    const count = page.locator('[data-challenge-id="blue.roll-three"] small');
+    await expect(count, "premise: Blue's \"Finish three complete rolls\" at 0").toHaveText("0 of 3");
+    await page.evaluate(() => (window as any).__neural.fx("roll_end", { outcome: "win", moves: 5 }));
+    await expect(count, "the corridor's row reads the new count in place").toHaveText("1 of 3");
+  });
+
+  test("with the curriculum, Study the curriculum opens the belt's next lesson", async ({ page }) => {
     const errors: string[] = [];
     page.on("pageerror", (e) => errors.push(e.message));
     const j = journey(page);
     await j.boot("/");
     await j.openCorridor();
-    const sel = '[data-challenge-id="white.recall"] .ng-challenge-action';
+    await selectBlue(page, j);
+    const sel = '[data-challenge-id="blue.lesson-three"] .ng-challenge-action';
     await expect(page.locator(sel), "the row's button is drawn when it can open a lesson").toHaveCount(1);
-    const next = await page.evaluate(() => (window as any).__neural.challengeFrontier("white")?.lesson?.deckKey ?? null);
-    expect(next, "premise: the White belt has a next lesson").toBeTruthy();
+    const next = await page.evaluate(() => (window as any).__neural.challengeFrontier("blue")?.lesson?.deckKey ?? null);
+    expect(next, "premise: the Blue belt has a next lesson").toBeTruthy();
     await page.locator(sel).scrollIntoViewIfNeeded();
-    await j.readerLayoutSettled();
-    await j.clickByMouse(sel, "Study the technique");
+    await j.clickByMouse(sel, "Study the curriculum");
     await expect(page.locator(`[data-mini-deck="${next}"]`).first(), "the next lesson's deck opens in Master the game").toBeVisible({ timeout: 20_000 });
     expect(errors, "no pageerror").toEqual([]);
   });
