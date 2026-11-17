@@ -19670,3 +19670,18 @@ marks the map DRAWS on the place's hand (`_lastMapMarks`, the hand framed, every
 reading the list's order after an answer and the same card, still revealed, after ≡ and the button. (10) ‹ Back from a
 checkpoint in the list left the keyboard focus outside the page: it goes to the checkpoint's row (or the button).
 Mutants: units L1-8 to L1-10; app L1-R1a to L1-R1j (each named, built and red, in the spec's header).
+
+**L1-R2 (the second reader of PR #434, its one finding and the orchestrator's two rulings, 17 Nov).** (1) A row's count is
+reachable by its own press: a place the day's goal cuts said "3 due" while the plan asked 2; with those answered its press
+reopened an answered card. Now, when every deck the session holds for a place is answered and the place still owes, what it
+owes joins the session (`_masterOwed`: at most six a press, into the deck rows that hold them, through `_practiceAppend`'s
+own merge) and a deck never reopens on an answered card while it holds an unanswered one (`_masterUnanswered`). While a
+place is open the figure beside its name is the place's (answered here today over that plus what is still due), so it
+never contradicts the count. (2) A build never removes from a stored record what it does not understand: `explored` is
+read as its non-empty strings, and every other entry (a number, null, an object, the empty string) is written back exactly
+as it was by the save and by every merge (`ngProgressExploredOut`, `ngProgressExploredJoin`); until then this head pushed
+a pulled list back as strings only. An empty string is kept and is not counted as a lost place. (3) Every place that owes
+cards has a row, in the record or not (every record from before `explored` was stored): the list's set is the plan, the
+record's places and the places that owe; nothing is stored for it. Also: both gzip baselines checkpointed at dev v1.288.1's
+own level (PAY-L1b), the steps two mutants found unnamed now named, and six text reads of lines inside the folded "Session
+details & queue" made with the fold open. Mutants: units L1-11 and L1-R2a to L1-R2c; app L1-R2d to L1-R2j.

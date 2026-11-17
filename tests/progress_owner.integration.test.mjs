@@ -471,3 +471,64 @@ test("a full pull of rows dev wrote leaves every srs and moves row as dev's own 
     assert.deepEqual({ srs: a.srs, moves: a.moves }, before, 'a passive pull rewrites nothing');
   });
 }));
+
+// ── L1-R2 (v1.290.0, the orchestrator's ruling on the second reader of PR #434): A BUILD NEVER REMOVES FROM A STORED RECORD
+// WHAT IT DOES NOT UNDERSTAND. `explored` is read as its non-empty strings; every other entry (a number, null, an object,
+// the empty string) is written back exactly as it was, in its place, by the save and by every merge. The fake cloud HOLDS
+// a record (a pull returns it, a push replaces it), as the reader's own harness did.
+// MUTANTS (each applied alone, red on the named test; the clean files green before and after):
+//   L1-R2a the writer filtering to strings (`ngProgressExploredOut`)               → "a pull, a new place and a push…"
+//   L1-R2b the merge dropping the other copy's entries it does not read (`ngProgressExploredJoin`) → "two devices…"
+//   L1-R2c the empty string counted as a lost place (`ngProgressExploredKeys`)     → "a guest's record…"
+const UNREAD = [42, null, { k: 1 }, 'Mount|Top', ''];
+function cloudOf(h, cloud) {
+  h.facade.pullNeural = async id => ({ userId: id, blob: cloud.blob === null ? null : JSON.parse(JSON.stringify(cloud.blob)) });
+  h.facade.pushNeural = async value => { cloud.blob = JSON.parse(JSON.stringify(value)); cloud.pushes++; return true; };
+  return h;
+}
+test('a pull, a new place and a push: the cloud holds every old explored entry as it was, then the new place (L1-R2)', async () => fakeTimers(async ({ flush }) => {
+  const cloud = { blob: blob({ 'Mount|Top': 3 }, { explored: UNREAD, futureField: { keep: [1, 2] } }), pushes: 0 };
+  const h = cloudOf(harness(), cloud); await h.boot(); const a = h.switchTo('A');
+  assert.equal(await a._pullAndMerge(), true);
+  await flush();
+  assert.deepEqual([...a._exploredKeys], ['Mount|Top'], 'read: the places are the non-empty strings');
+  assert.equal(a._exploredBad, 3, 'counted: the three entries that are not strings; the empty string is not a lost place');
+  assert.deepEqual(h.host.store.read(ownerA).blob.explored, UNREAD, 'the stored copy holds the list as the cloud held it');
+  a._exploredKeys.add('Turtle|Bottom');   // a visit to a new place
+  a._saveProgress(); await flush();
+  assert.ok(cloud.pushes >= 1, 'pushed');
+  assert.deepEqual(cloud.blob.explored, [42, null, { k: 1 }, 'Mount|Top', '', 'Turtle|Bottom'], 'the cloud: all five old entries in their order, then the new string');
+  assert.deepEqual(cloud.blob.futureField, { keep: [1, 2] }, 'and a field this build does not know is still there');
+  // a second pull changes nothing and duplicates nothing
+  const before = JSON.stringify(cloud.blob.explored);
+  assert.equal(await a._pullAndMerge(), true); await flush();
+  a._saveProgress(); await flush();
+  assert.equal(JSON.stringify(cloud.blob.explored), before, 'pulled again: no entry twice, none gone');
+}));
+test('two devices, one account: neither strips what the other (or a later build) stored in explored (L1-R2)', async () => fakeTimers(async ({ flush }) => {
+  const cloud = { blob: null, pushes: 0 }, own = ngProgressLocalKey(ownerA);
+  const seed = (mem, explored) => mem.rows.set(own, JSON.stringify({ format: 'bjj-progress-owner-v1', owner: ownerA, blob: blob({ x: 1 }, { explored }), savedAt: 0 }));
+  const m1 = memory(), m2 = memory();
+  seed(m1, [...UNREAD, 'Turtle|Bottom']); seed(m2, ['Closed Guard|Bottom', 'Back Control|Top']);
+  const d1 = cloudOf(harness(m1), cloud), d2 = cloudOf(harness(m2), cloud);
+  await d2.boot(); const b = d2.switchTo('A'); assert.equal(await b._pullAndMerge(), true); b._saveProgress(); await flush();
+  assert.deepEqual(cloud.blob.explored, ['Closed Guard|Bottom', 'Back Control|Top'], 'device 2 pushed its own list');
+  await d1.boot(); const a = d1.switchTo('A'); assert.equal(await a._pullAndMerge(), true); a._saveProgress(); await flush();
+  const want = [42, null, { k: 1 }, 'Mount|Top', '', 'Turtle|Bottom', 'Closed Guard|Bottom', 'Back Control|Top'];
+  assert.deepEqual(cloud.blob.explored, want, 'device 1: its own entries as they were, then the cloud\'s it did not hold');
+  assert.equal(await b._pullAndMerge(), true); b._saveProgress(); await flush();
+  const set = l => l.map(k => JSON.stringify(k)).sort();
+  assert.deepEqual(set(cloud.blob.explored), set(want), 'device 2 again: every entry still in the cloud, none twice');
+  assert.deepEqual(set(d2.host.store.read(ownerA).blob.explored), set(want), 'and in its own stored copy');
+  assert.deepEqual([...b._exploredKeys].sort(), ['Back Control|Top', 'Closed Guard|Bottom', 'Mount|Top', 'Turtle|Bottom'], 'both read the same four places');
+  assert.deepEqual([...a._exploredKeys].sort(), ['Back Control|Top', 'Closed Guard|Bottom', 'Mount|Top', 'Turtle|Bottom']);
+}));
+test("a guest's record: the save writes back what it did not read, and an empty string is kept and is not a lost place (L1-R2)", async () => {
+  const mem = memory(), key = ngProgressLocalKey(guest);
+  mem.rows.set(key, JSON.stringify({ format: 'bjj-progress-owner-v1', owner: guest, blob: blob({}, { explored: ['', 'Mount|Top', 42, 'Mount|Top'] }), savedAt: 0 }));
+  const h = harness(mem); await h.boot(); const a = h.get();
+  assert.deepEqual([...a._exploredKeys], ['Mount|Top']);
+  assert.equal(a._exploredBad, 1, 'the 42 is counted; the empty string was never a place, so it is not');
+  a._exploredKeys.add('Half Guard|Top'); a._saveProgress(); a._flushSave();
+  assert.deepEqual(JSON.parse(mem.rows.get(key)).blob.explored, ['', 'Mount|Top', 42, 'Mount|Top', 'Half Guard|Top'], 'as it was, in its order, then the new place');
+});

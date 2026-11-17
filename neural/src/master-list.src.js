@@ -39,13 +39,20 @@ export function ngMasterWhen(seen, day) {
  * `unresolved` the keys counted and never shown; `been` how many positions the record holds in this ruleset (0: new).
  * A PLACE THAT OWES CARDS IS NEVER CALLED "nothing due" (L1-R1, the reader of PR #434, its finding 1: 3 cards 53 days
  * overdue sat under the rule as "nothing due" because the plan, at its day's 20, did not reach them).
+ * EVERY PLACE THAT OWES CARDS HAS A ROW (L1-R2, the second reader's "unlisted owing place", 2 of 2; the orchestrator's
+ * ruling): the list's set is today's plan ∪ the places in `explored` ∪ the places that owe a card (`owing`, the keys the
+ * plan's own count holds). A place that owes and is in neither the record nor the plan had no row at all, and that is
+ * every record from before `explored` was stored. Derived here, each time the list is drawn: nothing is stored for it, and
+ * it does not count as a place you have been to (`been`).
+ * `today(key)`: the cards answered at a place today; a row carries it (`today`) so the open place's figure can agree with
+ * its count (the painter, `ngMasterSync`).
  */
-export function ngMasterRows({ plan = [], explored = [], resolve, lastDay, gold, day, owed } = {}) {
+export function ngMasterRows({ plan = [], explored = [], resolve, lastDay, gold, day, owed, owing: owes = [], today } = {}) {
   const been = new Set(explored), inPlan = new Set();
   const row = (seat, p, extra) => {
     const shapes = (seat && gold && gold(seat)) || [], seen = seat && lastDay ? lastDay(seat) : null;
     return { seat, name: p ? p.name : "Other cards", side: p ? p.side : "", marks: shapes.slice(0, NG_MASTER_MARKS), n: shapes.length,
-      when: ngMasterWhen(seen, day), last: seen && Number.isFinite(seen.day) ? seen.day : -Infinity, ...extra };
+      when: ngMasterWhen(seen, day), last: seen && Number.isFinite(seen.day) ? seen.day : -Infinity, today: (seat && today && today(seat)) || 0, ...extra };
   };
   const rows = [];
   for (const [visit, v] of plan.entries()) {
@@ -58,11 +65,12 @@ export function ngMasterRows({ plan = [], explored = [], resolve, lastDay, gold,
   }
   const rest = [], owing = [];
   let unresolved = 0, seats = 0;
-  for (const key of been) {
-    const p = resolve ? resolve(key) : null;
-    if (p === null) { unresolved++; continue; }
+  // the record's places, then the places that owe a card and are in neither the record nor the plan (L1-R2)
+  for (const key of new Set([...been, ...owes])) {
+    const mine = been.has(key), p = resolve ? resolve(key) : null;
+    if (p === null) { if (mine) unresolved++; continue; }
     if (!p || !p.pos) continue;   // a node this ruleset does not draw, or not a position (a submission's side): not a place
-    seats++;
+    if (mine) seats++;
     if (inPlan.has(key)) continue;
     const o = owed ? owed(key) : null, r = row(key, p, { due: o || 0, fresh: 0, isNew: false });
     // what is owed there, always: "N due" above the rule; "nothing due" only when the plan's own count says nothing is owed
@@ -167,8 +175,15 @@ function ngMasterViewIn(app, s) {
   const game = app._ratingGame(app._giMode === "nogi" ? "nogi" : "gi"), map = game && game.seats ? app._practiceSeats(game) : {}, decksOf = new Map();
   for (const dk in map) if (map[dk] !== dk) (decksOf.get(map[dk]) || decksOf.set(map[dk], []).get(map[dk])).push(dk);
   const at = ngMasterOwedIn(app, s, game, map), n = (k) => { let c = 0; for (const q of (at.get(k) || new Map()).values()) c += q.length; return c; };
-  const v = ngMasterRows({ plan: ngMasterPlanOf(app, s), explored: [...(app._exploredKeys || [])], day: app._epochDay(),
-    resolve: (k) => ngMasterResolveIn(app, k), lastDay: (k) => ngMasterSeenIn(app, k, decksOf), gold: (k) => ngMasterGoldIn(app, k), owed: at ? n : null });
+  // the cards answered at a place today: its own deck's and the decks the plan files under it, a question counted once
+  const day = app._epochDay(), today = (k) => {
+    const seen = new Set();
+    for (const dk of [k].concat(decksOf.get(k) || [])) { const D = app.srs && app.srs[dk]; if (D) for (const q in D) if (D[q] && D[q][2] === day) seen.add(q); }
+    return seen.size;
+  };
+  const v = ngMasterRows({ plan: ngMasterPlanOf(app, s), explored: [...(app._exploredKeys || [])], day,
+    resolve: (k) => ngMasterResolveIn(app, k), lastDay: (k) => ngMasterSeenIn(app, k, decksOf), gold: (k) => ngMasterGoldIn(app, k), owed: at ? n : null,
+    owing: at ? [...at.keys()] : [], today });
   v.unresolved += app._exploredBad || 0;   // damaged entries the loader skipped are counted with the places that no longer resolve (L1-R1)
   return v;
 }
@@ -204,8 +219,16 @@ function ngMasterSync(app, s, v) {
   }
   // the open place's own deck: its row is not drawn (app.src.jsx, `_sessionRow`, L1-R0), so its count ("0/3") is the place's
   const k = !s.list && s.keys[s.idx], lr = k && s.live && app._masterSeatOf(s, k) === k ? s.live.rows.find((x) => x.key === k) : null;
+  // THE OPEN PLACE'S FIGURE NEVER CONTRADICTS ITS COUNT (L1-R2, the second reader: "3 due" beside "0/2", the plan's share
+  // of a place the day's goal cut). While a place that owes (or answered) cards is open, the figure is the PLACE's: the
+  // cards answered here today over those plus what is still due here, so "x/y" and "N due" always say y − x = N. A place
+  // with nothing due and nothing answered (new cards only) keeps its own deck's figure, as before.
+  const open = k ? app._masterSeatOf(s, k) : null;
+  // ...a place asked for cards that were due (a free review of a place that owes nothing keeps its deck's figure too)
+  const asked = open != null && (s.plan ? s.plan.due.concat(s.plan.fresh).some((x) => (x.owed ? x.owed.length : x.kind === "due") && app._masterSeatOf(s, x.key) === open) : !!s.review);
   for (const r of v.rows.concat(owing, v.rest)) {
-    const el = s.rowEls.get(r.seat || ""), h = ngMasterRowHTML(app, r, lr && r.seat === k ? lr.completed + "/" + lr.count : "");
+    const mine = open != null && (r.seat || "") === open, place = mine && r.seat && (r.due || (asked && r.today)) ? r.today + "/" + (r.today + r.due) : "";
+    const el = s.rowEls.get(r.seat || ""), h = ngMasterRowHTML(app, r, place || (lr && r.seat === k ? lr.completed + "/" + lr.count : ""));
     if (el && el._ngHtml !== h) { el._ngHtml = h; el.innerHTML = h; }
   }
 }

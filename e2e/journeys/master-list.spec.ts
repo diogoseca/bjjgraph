@@ -55,7 +55,26 @@ import { journey } from "../dsl"
  * clears it): "≡ leaves no multiple-choice card behind" stays green without the clear, because the block's own `answer()`
  * refuses while its card is not displayed (`wrap.offsetParent === null`, and ≡ hides the card), as the reader measured; the
  * clear is a second guard.
- * The list's own arithmetic (order, the other places, the lost count, the words) is tests/master_list.test.mjs (L1-1 to L1-10).
+ * L1-R2 (the second reader of PR #434, its one finding and the orchestrator's two rulings), 17 Nov 2026, the same
+ * way (each applied alone and built, clean before and after; each red at the named step, both viewports where it runs at both):
+ *   L1-R2d the owed cards do not join when the place's decks are answered (`_masterGo`) → "a place the day's goal cuts…" at
+ *         "the press opens a card that is still owed, never an answered one"
+ *   L1-R2e a deck reopens on its remembered card, answered or not (`_masterUnanswered`) → the same test
+ *   L1-R2f the open place's figure is its deck's, not the place's (`ngMasterSync`)      → the same test, at "open: the figure
+ *         beside the count agrees with it"
+ *   L1-R2g only the record's places are rows (`ngMasterViewIn`'s `owing`)              → "a record that stored no places…"
+ *   L1-R2h (the reader's c) the foot's Got it carries the previous card's handler      → "the plan answered before the goal…" at
+ *         "each Got it in the foot grades the card above it" (its own step now; until L1-R2 an unnamed poll)
+ *   L1-R2i (the reader's a) what a place outside the plan owes forced to 0             → "a place that owes cards outside today's
+ *         plan…" at "a place the day's 20 do not reach has its row above the rule, with what it owes" (a claim, no longer a premise)
+ *   L1-R2j the save writes `explored` as strings only (progress-owner.src.js)          → "a damaged explored boots…" at "the stored
+ *         list holds every entry as it was, in its order"
+ *   L1-R2k the walk to the next deck still pending after the list is shown             → "a place the day's goal cuts…" at "≡ right
+ *         after a deck's last answer: the list stays, nothing opens by itself" (the fault this journey found: on the build
+ *         without the fix the step is red 16 of 16)
+ *   L1-R2l a place the player opens does not cancel the pending walk (`_masterGo`)      → the same test, at "a place the player
+ *         opened stays open: the pending walk does not pull it away"
+ * The list's own arithmetic (order, the other places, the lost count, the words) is tests/master_list.test.mjs (L1-1 to L1-11).
  * NOT COVERED here: no-gi (the unit reads the rows the app hands it, whatever the ruleset), and a guest signing in (the record
  * is `explored`'s, unchanged by L1).
  */
@@ -87,7 +106,7 @@ async function press(page: Page, selector: string, what: string, touch: boolean,
 /** the seeded player, the drawer open on its list; Master the game not yet open */
 /** the seeded player, the drawer open on its list; Master the game not yet open. `blob` replaces the record (the reader's
  *  two-card day), `extra` adds raw `explored` entries (a damaged one), `settings` stores settings, `running` leaves the roll on */
-async function setup(page: Page, opts: { blob?: (fx: W) => W; extra?: unknown[]; settings?: Record<string, unknown>; running?: boolean } = {}) {
+async function setup(page: Page, opts: { blob?: (fx: W) => W; extra?: unknown[]; settings?: Record<string, unknown>; running?: boolean; places?: string[] } = {}) {
   const { orderFixture } = await import("../../tests/_practice_order_fixture.mjs")
   const fx = orderFixture(SERVED)
   const own = new Set([...fx.heavy, ...fx.light])
@@ -96,7 +115,7 @@ async function setup(page: Page, opts: { blob?: (fx: W) => W; extra?: unknown[];
   const j = journey(page, CLASSIC)
   const blob = opts.blob ? opts.blob(fx) : { ...fx.blob }
   const settings = opts.settings ? { settings: opts.settings, settingsAt: Object.fromEntries(Object.keys(opts.settings).map((k) => [k, 5])) } : {}
-  await j.boot("/", { initialState: { ...blob, ...settings, explored: [...own, ...rest, GONE, ...(opts.extra || [])] } })
+  await j.boot("/", { initialState: { ...blob, ...settings, explored: opts.places || [...own, ...rest, GONE, ...(opts.extra || [])] } })
   await expect.poll(() => page.evaluate(() => {
     const a = (window as W).__neural
     return !!(a && a.nodes && a.nodes.length && a.flashcards && a.flashcards.decks && Object.keys(a.flashcards.decks).length && a.curriculum)
@@ -130,6 +149,20 @@ async function openMaster(page: Page, touch: boolean) {
 /** the plan's places, in its order, one each (the page folds a place's second visit into its first) */
 const planSeats = (page: Page) => page.evaluate(() => [...new Set((window as W).__neural._session.plan.visits.map((v: W) => v.seat || ""))] as string[])
 const openSeat = (page: Page) => page.evaluate(() => { const a = (window as W).__neural, s = a._session; return a._masterSeatOf(s, s.keys[s.idx]) })
+
+/** the open card as the app holds it: its deck and its question (the card the foot's buttons stand under), and whether it was answered today */
+const openCard = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural, s = a._session, k = s.keys[s.idx], el = a._openMini && a._openMini.el.querySelector("[data-mini-q]")
+  const text = (html: string) => { const d = document.createElement("div"); d.innerHTML = html; return d.textContent }
+  const card = el ? (a._cardsOf(a.flashcards.decks[k]) || []).find((c: W) => text(c.q || c.front || "") === el.textContent) : null
+  if (!card) return null
+  const qh = a.qhash(card.q), r = a.srs[k] && a.srs[k][qh]
+  return { key: k as string, qh: qh as string, today: !!(r && r[2] === a._epochDay()) }
+})
+const answeredToday = (page: Page, card: { key: string; qh: string }) => page.evaluate(({ key, qh }) => {
+  const a = (window as W).__neural, r = a.srs[key] && a.srs[key][qh]
+  return !!(r && r[2] === a._epochDay())
+}, card)
 
 async function clean(page: Page, after: string) {
   const bad = await page.evaluate(() => {
@@ -294,7 +327,8 @@ for (const touch of [true, false]) {
       await openMaster(page, touch)
       const plan = await planSeats(page)
       const owing = await page.locator('[data-master-row][data-master-group="due"]').evaluateAll((els) => els.map((e) => [e.getAttribute("data-master-row"), e.querySelector("small")!.textContent]))
-      expect(owing.length, "premise: the day's 20 leave an owing place outside the plan").toBeGreaterThan(0)
+      // (L1-R2: a claim with its own name; the second reader's mutant, what a place outside the plan owes forced to 0, went red at a "premise:" line here)
+      expect(owing.length, "a place the day's 20 do not reach has its row above the rule, with what it owes").toBeGreaterThan(0)
       for (const [seat, sub] of owing) {
         expect(plan, `${seat} is not one of today's places`).not.toContain(seat)
         // the record's own debt there: its deck's rows due today or before and not answered today (the fixture seeds position decks)
@@ -315,6 +349,113 @@ for (const touch of [true, false]) {
       await clean(page, "an owing place")
     })
 
+    // L1-R2, the second reader's one finding (4 of 4, at the default goal and at a goal of 5): a place the day's goal cuts said
+    // "3 due" while the plan asked 2 there; opened, "3 due" stood beside "0/2"; with those 2 answered the row read "1 due" and
+    // its press reopened an ANSWERED card, the card still owed never asked. THE RULE (the orchestrator): a press on a row
+    // that says "N due" asks a card that is due there, every time, until the row says nothing is due; and while a place is
+    // open, the count and the figure beside it never contradict each other.
+    for (const goal of [20, 5]) test(`a place the day's goal cuts (a goal of ${goal}): its row's count is what its press reaches, and the figure beside it agrees (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      await setup(page, goal === 20 ? {} : { settings: { dailyGoal: goal } })
+      await openMaster(page, touch)
+      const cut = await page.evaluate(() => {
+        const a = (window as W).__neural, s = a._session
+        for (const r of s.view.rows) {
+          const asked = s.plan.due.concat(s.plan.fresh).filter((x: W) => a._masterSeatOf(s, x.key) === r.seat).reduce((n: number, x: W) => n + (x.owed ? x.owed.length : 0), 0)
+          if (r.seat && asked > 0 && r.due > asked) return { seat: r.seat as string, due: r.due as number, asked }
+        }
+        return null
+      })
+      expect(cut, `premise: with a goal of ${goal} the plan takes part of what one place owes`).not.toBeNull()
+      const row = `[data-master-row="${cut!.seat}"]`, sub = page.locator(`${row} small`), bar = "[data-master-dock] [data-master-bar]"
+      await expect(sub, "the row says the place's whole debt").toHaveText(new RegExp("^" + cut!.due + " due"))
+      await press(page, row, "the cut place's row", touch)
+      await expect(page.locator(`${row} [data-master-prog]`), "open: the figure beside the count agrees with it").toHaveText(`0/${cut!.due}`)
+      let left = cut!.due
+      // a point measured now and pressed later, back to back with another: the session walks to the next unfinished deck 520 ms
+      // after a deck's last answer, and the two presses below must both land inside that time, by real input
+      const point = async (sel: string, what: string) => {
+        const at = await page.evaluate((q) => {
+          const el = document.querySelector(q) as HTMLElement | null
+          if (!el) return { ok: false, x: 0, y: 0 }
+          const r = el.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2, top = document.elementFromPoint(x, y)
+          return { ok: !!top && (top === el || el.contains(top)) && x >= 0 && y >= 0 && x <= innerWidth && y <= innerHeight, x, y }
+        }, sel)
+        expect(at.ok, `${what}: on screen, and the point under the press is the control`).toBe(true)
+        return at
+      }
+      const tap = (at: { x: number; y: number }) => (touch ? page.touchscreen.tap(at.x, at.y) : page.mouse.click(at.x, at.y))
+      // the plan's share, answered in the foot: the count and the figure move together
+      for (let i = 0; i < cut!.asked - 1; i++) {
+        await press(page, `${bar} [data-mini-reveal]`, "Reveal", touch, false)
+        await press(page, `${bar} [data-mini-got]`, "Got it", touch, false)
+        left--
+        await expect(sub, `after ${i + 1}: the count`).toHaveText(new RegExp("^" + left + " due"))
+        await expect(page.locator(`${row} [data-master-prog]`), `after ${i + 1}: the figure agrees (${cut!.due - left}/${cut!.due})`).toHaveText(`${cut!.due - left}/${cut!.due}`)
+      }
+      // THE LAST CARD OF THE PLAN'S SHARE, AND AT ONCE THE PLACE'S OWN ROW (no ≡ between): every deck the session holds here is
+      // answered and the place still owes, so the press takes in what it owes; and the walk to the next deck, still pending
+      // from that answer, must not pull the player off the card just opened (L1-R2, the fault this journey found)
+      await press(page, `${bar} [data-mini-reveal]`, "Reveal", touch, false)
+      const got = await point(`${bar} [data-mini-got]`, "Got it"), again = await point(row, "the place's own row")
+      await tap(got); await tap(again)
+      left--
+      expect(left, "premise: the place still owes after the plan's share").toBeGreaterThan(0)
+      await page.waitForTimeout(900)
+      expect(await openSeat(page), "a place the player opened stays open: the pending walk does not pull it away").toBe(cut!.seat)
+      await expect(sub, "the count after the plan's share").toHaveText(new RegExp("^" + left + " due"))
+      // every press on the row asks a card still due there, until the row says nothing is due
+      for (let guard = 0; left > 0 && guard < 8; guard++) {
+        await expect(page.locator("[data-mini-q]:visible"), "a card is open").toHaveCount(1)
+        const card = await openCard(page)
+        expect(card && !card.today, "the press opens a card that is still owed, never an answered one").toBe(true)
+        await expect(page.locator(`${row} [data-master-prog]`), "the figure agrees with the count").toHaveText(`${cut!.due - left}/${cut!.due}`)
+        await press(page, `${bar} [data-mini-reveal]`, "Reveal", touch, false)
+        await expect(page.locator(`${bar} [data-mini-got]`), "its grade is offered").toBeVisible()
+        if (left > 1) {
+          await press(page, `${bar} [data-mini-got]`, "Got it", touch, false)
+          await expect.poll(() => answeredToday(page, card!), { message: "and the answer is that card's" }).toBe(true)
+          left--
+          await press(page, "[data-master-list]", "back to the list", touch, false)
+          await expect(sub, "the list: what the place still owes").toHaveText(new RegExp("^" + left + " due"))
+          await press(page, row, "the row that says it owes", touch)
+          continue
+        }
+        // THE PLACE'S LAST OWED CARD, AND AT ONCE ≡: the list shows, and nothing opens by itself (the walk to the next
+        // unfinished deck was still pending, and a card opened from the list 520 ms later)
+        const last = await point(`${bar} [data-mini-got]`, "Got it"), list = await point("[data-master-list]", "back to the list")
+        await tap(last); await tap(list)
+        left--
+        await page.waitForTimeout(900)
+        await expect(page.locator("[data-master-start]"), "≡ right after a deck's last answer: the list stays, nothing opens by itself").toBeVisible()
+        await expect(page.locator("[data-mini-q]:visible"), "no card opened by itself").toHaveCount(0)
+        expect(await answeredToday(page, card!), "and the answer was that card's").toBe(true)
+      }
+      expect(left, "every card the row counted was reached by its press").toBe(0)
+      await expect(sub, "the row says nothing is due").not.toHaveText(/\d+ due/)
+      await clean(page, "a place the goal cuts")
+    })
+
+    // L1-R2, the second reader's "unlisted owing place" (2 of 2), ruled: the list's set is today's plan, the record's places and
+    // the places that owe a card. A record from before `explored` was stored holds no place at all, and owes cards all the same.
+    test(`a record that stored no places: every place that owes cards has its row, and its press asks them (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      const { fx } = await setup(page, { places: [] })
+      await openMaster(page, touch)
+      const plan = await planSeats(page)
+      const listed = await page.locator("[data-master-row]").evaluateAll((els) => els.map((e) => e.getAttribute("data-master-row")))
+      // the record's own debt, counted here from its stored rows (the fixture seeds position decks: a deck is its place)
+      const owes = Object.keys(fx.blob.srs).filter((k) => Object.values(fx.blob.srs[k]).some((r: W) => r[0] <= fx.day && r[2] < fx.day))
+      expect(owes.length, "premise: the record owes cards at more places than a day reaches").toBeGreaterThan(plan.length)
+      for (const k of owes) expect(listed, `${k} owes cards, so it has a row`).toContain(k)
+      const owing = await page.locator('[data-master-row][data-master-group="due"]').evaluateAll((els) => els.map((e) => e.getAttribute("data-master-row")!))
+      expect(owing.length, "the places the plan does not reach have their rows above the rule, though the record never held them").toBe(owes.length - plan.filter((k) => owes.includes(k)).length)
+      await expect(page.locator('[data-master-row][data-master-group="rest"]'), "and no other place: none is stored").toHaveCount(0)
+      expect(await page.evaluate(() => [...(window as W).__neural._exploredKeys].length), "nothing was added to the record for it").toBe(0)
+      await press(page, `[data-master-row="${owing[0]}"]`, "an owing place the record never held", touch)
+      await expect(page.locator("[data-mini-q]:visible"), "its card is open").toHaveCount(1)
+      await expect(page.locator(`[data-session-row="${owing[0]}"]`), "asked as due").toHaveAttribute("data-practice-kind", "due")
+      await clean(page, "a record with no places")
+    })
+
     // L1-R1, the reader's finding 3, the orchestrator's ruling: the button never opens a finished place; with fewer cards owed
     // than the goal and all of them answered, it deals the next round ("Keep practising"), and says so
     // The plan holds what is left of the day's goal, filled with new cards past what is owed (the reader's two-card record:
@@ -329,9 +470,14 @@ for (const touch of [true, false]) {
       expect(left, "premise: the plan holds fewer cards than the goal").toBe(20 - moved)
       await press(page, "[data-master-start]", "the button", touch)
       for (let i = 0; i < left; i++) {
+        // (L1-R2, the second reader's point 6: its mutant, the foot's Got it wired to the PREVIOUS card, was caught only by
+        // the unnamed poll below; the claim is a step of its own now, read from the card the foot's buttons stand under)
+        const card = await openCard(page)
+        expect(card && !card.today, "premise: the open card is not answered yet").toBe(true)
         await press(page, "[data-master-bar] [data-mini-reveal]", "Reveal", touch, false)
         await press(page, "[data-master-bar] [data-mini-got]", "Got it", touch, false)
-        await expect.poll(() => page.evaluate(() => (window as W).__neural.practiceToday().done)).toBe(moved + i + 1)
+        await expect.poll(() => answeredToday(page, card!), { message: "each Got it in the foot grades the card above it" }).toBe(true)
+        await expect.poll(() => page.evaluate(() => (window as W).__neural.practiceToday().done), { message: "and the day counts it once" }).toBe(moved + i + 1)
       }
       expect(await page.evaluate(() => (window as W).__neural.practiceToday()), "premise: the plan answered meets the goal").toEqual({ done: 20, goal: 20 })
       await page.evaluate(() => (window as W).__neural.set("dailyGoal", 25))
@@ -466,9 +612,19 @@ test.describe("1440x900, mouse: the reader's findings 4 to 6 (L1-R1)", () => {
 
   // finding 6 (measured, dev v1.287.0 too): an `explored` entry of 42, null or {} stopped the app before it drew
   test("a damaged explored boots, its damaged entries counted with the places no longer on the map", async ({ page }) => {
-    await setup(page, { extra: [42, null, {}] })
+    const seeded0 = await setup(page, { extra: [42, null, {}] })
     await openMaster(page, false)
     await expect(page.locator("[data-master-note]"), "the lost place and the three damaged entries, counted").toHaveText("4 places you reached are no longer on the map.")
     expect(await page.evaluate(() => [...(window as W).__neural._exploredKeys].every((k: unknown) => typeof k === "string")), "only places are kept").toBe(true)
+    // L1-R2: a build never removes from a stored record what it does not understand. The save writes the list back as it
+    // was, the three entries this build cannot read in their places (two devices and a signed-in pull: the units with a
+    // cloud that holds a record, tests/progress_owner.integration.test.mjs)
+    const stored = await page.evaluate(() => {
+      const a = (window as W).__neural; a._saveProgress(); a._flushSave()
+      const key = Object.keys(localStorage).find((k) => /:progress$/.test(k))
+      return key ? JSON.parse(localStorage.getItem(key)!).blob.explored : null
+    })
+    const held = [...seeded0.fx.heavy, ...seeded0.fx.light, ...seeded0.rest, GONE, 42, null, {}]
+    expect(stored && stored.slice(0, held.length), "the stored list holds every entry as it was, in its order").toEqual(held)
   })
 })

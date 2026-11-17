@@ -4592,7 +4592,7 @@ class Component extends DCLogic {
     p = p === null ? { v: 2 } : JSON.parse(JSON.stringify(p));
     this._progressExtras = Object.assign({}, p);
     this._progressAt = p.updatedAt || 0;
-    this.settings = {}; this._settingsAt = {}; this._exploredKeys = new Set();
+    this.settings = {}; this._settingsAt = {}; this._exploredKeys = new Set(); this._exploredList = [];
     this._challengeRuntime = this._challengeRuntime || {};
       this.prep = Object.assign({}, p.prep || {});
       this._days = Object.assign({}, p.days || {});
@@ -4626,8 +4626,10 @@ class Component extends DCLogic {
       // only until now, which is why the "very weak" tier emptied on every reload.
       this.flow = this._trimFlow(Object.assign({}, p.flow || {}));
       this._flowVer = (this._flowVer || 0) + 1;
-      // strings only: a damaged entry stopped the app before it drew (L1-R1); it is counted and never written back as a place
-      { const ex = ngProgressExploredKeys(p.explored); this._exploredKeys = new Set(ex.keys); this._exploredBad = ex.bad; }
+      // strings only: a damaged entry stopped the app before it drew (L1-R1); it is counted and never read as a place.
+      // WHAT IS NOT READ IS NOT REMOVED (L1-R2, progress-owner.src.js): the list is kept as it was stored (`_exploredList`)
+      // and the save writes every entry back in its place, then the places reached since (`_progressBlob`)
+      { const ex = ngProgressExploredKeys(p.explored); this._exploredKeys = new Set(ex.keys); this._exploredBad = ex.bad; this._exploredList = Array.isArray(p.explored) ? p.explored : []; }
       // `activeListId` IS RETIRED — READ BY NOTHING (the default-list retirement, v1.196.1). It
       // was "the list you last created or filed into": the picker's marked "default" row and the
       // silent destination of `addToList(nodeId)` with no list. Nothing files without a pick
@@ -4655,7 +4657,7 @@ class Component extends DCLogic {
     this._progressAt = Date.now();
     // `flow` and `explored` ride the EXISTING v2 blob, the way `lists` and `srs` did — a roll
     // ledger is not worth a schema migration, and `neural` is free-form JSONB on the cloud side.
-    const out = { ...(this._progressExtras || {}), v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), rollDays: this._trimDays(this._rollDays || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, flow: this._trimFlow(this.flow || {}), explored: [...(this._exploredKeys || [])], days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    const out = { ...(this._progressExtras || {}), v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), rollDays: this._trimDays(this._rollDays || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, flow: this._trimFlow(this.flow || {}), explored: ngProgressExploredOut(this._exploredList, this._exploredKeys), days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
     // `moves` (v1.255.0) is written only once it holds a cell (review R4): an account that never graded a move
     // saves exactly the blob v1.254.0 saves, and an open older tab is never handed a `moves` copy to push back.
     if (Object.values(this.moves || {}).some(row => row && Object.keys(row).length)) out.moves = this.moves; else delete out.moves;
@@ -7081,28 +7083,68 @@ class Component extends DCLogic {
    */
   _masterGo(s, seat, chose) {
     if (this._session !== s) return;
+    clearTimeout(this._sessionAdvance);   // the player opens a place: a walk still pending from the last answer does not override it
     const at = s.keys.map((k, i) => (this._masterSeatOf(s, k) === seat ? i : -1)).filter((i) => i >= 0);
     if (!at.length) { if (seat) this._masterFree(s, seat); return; }
-    const i = at.find((j) => !this._sessionRowDone(s, s.keys[j]));
+    let i = at.find((j) => !this._sessionRowDone(s, s.keys[j]));
+    // A ROW'S COUNT IS REACHABLE BY ITS OWN PRESS (L1-R2, the second reader of PR #434, its one finding, 4 of 4): a place the
+    // day's goal cut says "3 due" while the plan asked 2 there; with those 2 answered the press reopened an ANSWERED card and
+    // the card still owed was never asked. Every deck the session holds for the place is answered and the place still owes:
+    // what it owes joins the session now (`_masterOwed`) and its first card opens.
+    if (i == null && seat && this._masterOwed(s, seat)) i = s.keys.findIndex((k) => this._masterSeatOf(s, k) === seat && !this._sessionRowDone(s, k));
+    if (i < 0) i = null;
     if (chose) s.moved = true;
-    this._sessionOpeners[i != null ? i : at[0]]?.();
+    const k = s.keys[i != null ? i : at[0]];
+    this._masterUnanswered(s, k);
+    this._sessionOpeners[s.keys.indexOf(k)]?.();
     this._masterShow(s);
+  }
+  /**
+   * WHAT A PLACE STILL OWES JOINS THE SESSION (L1-R2), as due cards: at most six at a press (the law's size of a visit,
+   * practice-queue.src.js: "about six at a position at a time"; the row counts down and the next press asks the next), by
+   * deck, as the plan counts them (`s.owedAt`, master-list.src.js). A deck the session already holds takes them INTO ITS ROW
+   * (the plan asked part of what the place owes there: the reader's case); a deck it does not hold gets a row. One merge,
+   * `_practiceAppend`'s own (the one a next round uses: "a deck it asks again takes its new cards into the row it already
+   * has"), so the plan's sums, the rows and the session's keys stay its. False when there is nothing owed to add.
+   */
+  _masterOwed(s, seat) {
+    const owed = s.owedAt && s.owedAt.get(seat);
+    if (!this._gameplanRuntime || !owed || !owed.size) return false;
+    const held = new Set((s.plan ? s.plan.due.concat(s.plan.fresh) : []).flatMap((r) => r.questions));
+    let room = 6;
+    const rows = [];
+    for (const [dk, all] of owed) {
+      const q = all.filter((x) => !held.has(x)).slice(0, room);
+      if (!q.length) continue;
+      room -= q.length;
+      rows.push({ key: dk, seat, questions: q, owed: q, pending: 0, count: q.length, kind: "due", source: "place",
+        reason: q.length + (q.length === 1 ? " card" : " cards") + " due for review, so you keep what you've learned." });
+    }
+    if (!rows.length) return false;
+    if (s.plan) this._practiceAppend(s, { ...s.plan, due: rows, fresh: [], visits: [], queue: [] }, undefined, true);
+    else { this._practiceAppend(s, this.planSummary(), rows); const keys = rows.map((r) => r.key).filter((k) => !s.keys.includes(k)); if (keys.length) { s.keys.push(...keys); this._practiceRows(s); } }
+    return true;
+  }
+  // a deck never opens on an answered card while it holds an unanswered one (L1-R2): its remembered card, if answered today,
+  // gives way to its first card not answered today; a card left unanswered (revealed or not) is kept as the player left it
+  _masterUnanswered(s, k) {
+    const cards = this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[k]);
+    if (!cards) return;
+    const row = (s.plan ? s.plan.due.concat(s.plan.fresh) : s.review ? s.review.rows : []).find((r) => r.key === k);
+    const only = row ? cards.filter((c) => row.questions.includes(this.qhash(c.q))) : cards, day = this._epochDay(), rows = (this.srs && this.srs[k]) || {};
+    const done = (c) => { const r = c && rows[this.qhash(c.q)]; return !!(r && r[2] === day); };
+    const st = this._deckState && this._deckState[k], at = only.findIndex((c) => !done(c));
+    if (at >= 0 && done(only[st ? Math.max(0, Math.min(only.length - 1, st.idx)) : 0])) (this._deckState = this._deckState || {})[k] = { idx: at, revealed: false };
   }
   // A PLACE OUTSIDE TODAY'S PLAN THAT OWES CARDS ASKS THEM AS DUE CARDS (L1-R1, the reader's finding 1): its owed cards,
   // by deck, as the plan counts them (`s.owedAt`, master-list.src.js), graded and counted like any other, under no "free
   // review"; the free review is only for a place that owes nothing
   _masterFree(s, key) {
-    const owed = s.owedAt && s.owedAt.get(key);
-    if (this._gameplanRuntime && owed && owed.size) {
-      const rows = [...owed].map(([dk, q]) => ({ key: dk, seat: key, questions: q, owed: q, pending: 0, source: "place",
-        reason: q.length + (q.length === 1 ? " card" : " cards") + " due for review, so you keep what you've learned." }));
-      this._practiceAppend(s, s.plan || this.planSummary(), rows);
-      const keys = rows.map((r) => r.key).filter((k) => !s.keys.includes(k));
-      if (keys.length) { s.keys.push(...keys); this._practiceRows(s); }
+    // (L1-R2: through `_masterOwed`, the one merge; until then this branch added only the deck keys the session did not hold)
+    if (this._masterOwed(s, key)) {
+      const i = s.keys.findIndex((k) => this._masterSeatOf(s, k) === key && !this._sessionRowDone(s, k));
       s.moved = true;
-      this._sessionOpeners[s.keys.indexOf(rows[0].key)]?.();
-      this._masterShow(s);
-      return;
+      if (i >= 0) { this._masterUnanswered(s, s.keys[i]); this._sessionOpeners[i]?.(); this._masterShow(s); return; }
     }
     const d = this._gameplanDecks()[key];
     if (this._gameplanRuntime && d && d.allowed && d.count) {
@@ -7127,6 +7169,7 @@ class Component extends DCLogic {
   // ≡ in the navigation: back to the list as it opened, the session and every answer kept; the belt reads again
   _masterList(s) {
     if (this._session !== s) return;
+    clearTimeout(this._sessionAdvance);   // ≡: the list shows, and nothing opens by itself (L1-R2)
     if (this._openMini) this._openMini.close();
     // A, B, C answer the live multiple-choice block (`_onKey`): a card that has left the screen must not keep one (L1-R1, the
     // reader's finding 4; Esc and the drawer's own exits already clear it)
@@ -7423,7 +7466,12 @@ class Component extends DCLogic {
     if (nextAt < 0) return;
     clearTimeout(this._sessionAdvance);
     this._sessionAdvance = setTimeout(() => {
-      if (!this._sessionInline() || this._session !== s || s.idx !== i) return;
+      // NOTHING OPENS BY ITSELF ONCE THE PLAYER HAS MOVED (L1-R2, found by the cut place's journey: 2 of 4 red on clean code).
+      // The walk to the next unfinished deck waits 520 ms; until L1 the open row's index said whether the player had moved.
+      // Master the game's list (≡) and a press on the same place again leave that index where it was, so a card opened by
+      // itself from the list, or the walk pulled the player off the card just chosen. LIFTERS of the pending walk (§6.5):
+      // `_masterList` (≡) and `_masterGo` (a place opened by the player) clear it; the list showing stops it here.
+      if (!this._sessionInline() || this._session !== s || s.idx !== i || s.list) return;
       const op = this._sessionOpeners && this._sessionOpeners[nextAt];
       if (op) { op(); this._scrollFocusedDeck(); }
       if (s.plan || s.review) this._paintGameplanProgress(s);
@@ -7866,7 +7914,12 @@ class Component extends DCLogic {
           this._flowVer = (this._flowVer || 0) + 1;
         }
         // explored states: a UNION, like every other durable-proof field
-        if (Array.isArray(cloud.explored)) { const e = (this._exploredKeys = this._exploredKeys || new Set()), ex = ngProgressExploredKeys(cloud.explored); for (const k of ex.keys) e.add(k); this._exploredBad = Math.max(this._exploredBad || 0, ex.bad); }
+        // (L1-R2: the other copy's entries this build does not read are kept too, as they were: `ngProgressExploredJoin`)
+        if (Array.isArray(cloud.explored)) {
+          this._exploredList = ngProgressExploredJoin(ngProgressExploredOut(this._exploredList, this._exploredKeys), cloud.explored);
+          const ex = ngProgressExploredKeys(this._exploredList);
+          this._exploredKeys = new Set(ex.keys); this._exploredBad = ex.bad;
+        }
         // srs merge (v1.105.0): per-card, the LATER review wins its schedule — the freshest grade
         // knows the memory best; on one day the smaller cell, then (v1.279.0) the earlier due, so two
         // devices converge; a winning success keeps the longer TRUE interval it beat (`due − last`,

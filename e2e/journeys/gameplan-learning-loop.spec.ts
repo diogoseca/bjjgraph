@@ -48,14 +48,26 @@ async function noNewMaterial(page: any) {
   });
 }
 
+// L1-R2 (the second reader of PR #434, its point 9; the same kind as the first read's finding 3): the count line sits inside
+// the folded "Session details & queue", and a text read of it while the fold is closed reads what no player sees. So it
+// is read with the fold OPEN, opened by its own summary, and the fold is put back as it was (later steps open it themselves).
+async function inDetails(page: any, read: () => Promise<void>) {
+  const d = page.locator("[data-practice-details]");
+  const was = await d.evaluate((el: HTMLDetailsElement) => el.open);
+  if (!was) { await d.locator("> summary").scrollIntoViewIfNeeded(); await d.locator("> summary").click(); }
+  await expect(d, "the fold is open, so the count line is on screen").toHaveAttribute("open", "");
+  await expect(page.locator('[data-session-section="Practice"]'), "the count line is visible").toBeVisible();
+  await read();
+  if (!was) { await d.locator("> summary").click(); await expect(d).not.toHaveAttribute("open", ""); }
+}
 // P1 moves the live review count to the queue details; the title stays compact.
 async function dueHeader(page: any, text: string) {
   const count = text.match(/(\d+) reviews?/)![1];
-  await expect(page.locator('[data-session-section="Practice"]'), "P1-F: live page debt matches the drawer")
-    .toContainText(count + (count === "1" ? " card to review" : " cards to review"));
+  await inDetails(page, () => expect(page.locator('[data-session-section="Practice"]'), "P1-F: live page debt matches the drawer")
+    .toContainText(count + (count === "1" ? " card to review" : " cards to review")));
 }
 async function noDueHeader(page: any) {
-  await expect(page.locator('[data-session-section="Practice"]')).not.toContainText("to review");
+  await inDetails(page, () => expect(page.locator('[data-session-section="Practice"]')).not.toContainText("to review"));
 }
 
 // WHAT IS WORTH MOST (v1.278.0, owner U171 a). The session a player with owed cards now opens is the worth plan: positions by
@@ -71,11 +83,11 @@ async function worthPlan(page: any) {
 }
 async function worthLine(page: any, plan: any) {
   const cards = (n: number) => n + (n === 1 ? " card" : " cards");
-  await expect(page.locator('[data-session-section="Practice"]'), "the count line prints the plan's own figures").toHaveText(
+  await inDetails(page, () => expect(page.locator('[data-session-section="Practice"]'), "the count line prints the plan's own figures").toHaveText(
     plan.positions + (plan.positions === 1 ? " position: " : " positions: ") + (plan.dueCards ? cards(plan.dueCards) + " to review \u00b7 " : "") +
     // ANKI1: new cards only when nothing is due, and a day of reviews says so; until then "N new, by how often they come up in
     // your rolls and how close you are to forgetting them"
-    (plan.newCards ? plan.newCards + " new, by how often they come up in your rolls" : "new cards come when nothing is due"));
+    (plan.newCards ? plan.newCards + " new, by how often they come up in your rolls" : "new cards come when nothing is due")));
 }
 // answer every card the session holds, through its own controls: Reveal, then Got it (or Review again for the first, when
 // `again`), the deck's next card, and the queue's own walk to the next unfinished row (`_sessionGraded`, 520 ms). ONE action
@@ -406,10 +418,13 @@ test("D1: a new player with no comparison still gets a plan, dealt from the weak
     a.renderExplorer();
   });
   await openPractice(page, isMobile);
-  await expect(page.locator('[data-session-section="Practice"]')).toContainText("weakest first");
-  await expect(page.locator('[data-gameplan-summary]')).toContainText("weakest spots first");
-  // item 9's caveat on the path every first session takes: Practice asks for no comparison
-  await expect(page.locator('[data-gameplan-summary]'), "the ranking's own game caveat stays").toContainText("These are game effects; they don't measure improvement on the mat.");
+  // the same class, a sixth read and the two under it (L1-R2): all three lines sit in the fold, read with it open
+  await inDetails(page, async () => {
+    await expect(page.locator('[data-session-section="Practice"]')).toContainText("weakest first");
+    await expect(page.locator('[data-gameplan-summary]')).toContainText("weakest spots first");
+    // item 9's caveat on the path every first session takes: Practice asks for no comparison
+    await expect(page.locator('[data-gameplan-summary]'), "the ranking's own game caveat stays").toContainText("These are game effects; they don't measure improvement on the mat.");
+  });
   const got = await page.evaluate(() => {
     const a = (window as any).__neural, s = a._session;
     return { status: s.plan.status, comparison: s.plan.comparison, fresh: s.plan.fresh.map((r: any) => r.key),
