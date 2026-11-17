@@ -82,13 +82,18 @@ for (const touch of [false, true]) {
       page.on("pageerror", (e) => errors.push(e.message))
       const j = journey(page)
       await j.boot("/")
+      // One frame first, as a real clock has always ticked by the time the data lands: in test mode `this.now` is unset until
+      // the first `advance`, so a node lit before it (opening Master the game lights its position) keeps a glow time that is
+      // not a number and the next draw throws (`createRadialGradient` non-finite). Diagnosed under dev's own reset too, so it
+      // is the harness's clock, not this fix; 12 of 12 real-clock runs with the fix had no page error.
+      await page.evaluate(() => (window as W).__neural.advance(17))
       expect(await page.evaluate(() => !!(window as W).__neural.introDone), "premise: the first roll is not dealt yet").toBe(false)
       await press(page, ".ng-logo", "the logo", touch)
       await expect(page.locator('[data-explore-stats] [data-b="due"]')).toBeVisible()
       await press(page, '[data-explore-stats] [data-b="due"]', "Master the game", touch)
       await expect.poll(() => page.evaluate(() => !!(window as W).__neural._practiceInDrawer()), { message: "premise: Master the game is open" }).toBe(true)
-      const session = await page.evaluate(() => { (window as any).__openSession = (window as W).__neural._session; return true })
-      expect(session).toBe(true)
+      expect(await page.evaluate(() => { (window as any).__openSession = (window as W).__neural._session; return !!(window as any).__openSession }),
+        "premise: a session is open").toBe(true)
       await page.evaluate(() => (window as W).__neural.advance(4500))
       expect(await page.evaluate(() => !!(window as W).__neural.introDone), "premise: the first roll was dealt").toBe(true)
       expect(await page.evaluate(() => (window as W).__neural._session === (window as any).__openSession && (window as W).__neural._practiceInDrawer()),
