@@ -310,15 +310,15 @@ async function clipFor(deckKey) {
       const clips = entry && entry.clips;
       if (Array.isArray(clips) && clips.length) {
         const c = clips[0];
-        // the emitted clip shape carries `by` (instructor attribution) and has NO duration
-        // field — real keys are by/id/title/vertical ± start/end. `start`/`end` give a length
-        // when both exist; anything else and the duration is simply omitted.
-        if (c && c.id && (c.by || c.title)) {
+        // the emitted clip shape has NO duration field and, since v1.288.0 (owner U196 b: no person's
+        // name in our own text), no `by` either — real keys are id/title/vertical ± start/end.
+        // `start`/`end` give a length when both exist; anything else and the duration is simply omitted.
+        if (c && c.id && c.title) {
           const dur =
             typeof c.start === "number" && typeof c.end === "number" && c.end > c.start
               ? Math.round(c.end - c.start) + "s"
               : null;
-          return { id: c.id, title: c.title || "", who: c.by || "", dur: dur };
+          return { id: c.id, title: c.title || "", dur: dur };
         }
       }
     } catch (e) {

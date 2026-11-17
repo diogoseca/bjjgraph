@@ -583,8 +583,15 @@ the recorded duration. Network availability checks belong to `verify_clips.py`; 
 whether the clip teaches the right mechanic safely. Watch the selected segment and confirm its
 role, attribution, and safety before relying on it.
 
-The app's dossier payload keeps player fields (`id`, `start`, `end`, `vertical`, `title`, `by`,
-`duration`, `front`, `half`), not provenance metadata. Position hub clips supplement a role dossier
+The app's dossier payload keeps player fields (`id`, `start`, `end`, `vertical`, `title`,
+`duration`, `front`, `half`), not provenance metadata.
+
+**No person's or gym's name in our own text** (owner, U195 a and U196 b, 17 Nov 2026). A clip `title`
+names the technique, never who teaches it: a technique named after a person keeps that name (Kimura,
+De La Riva). `by` and `channel` stay in the source JSON as provenance, but nothing renders them: no
+"taught by" credit, no JSON-LD `creator`, no name in the app's "Watch:" label, the wire or the digest
+email. The YouTube player shows the channel when a video opens; that is YouTube's, not ours.
+`npm run validate:no-names` fails if a name comes back. Position hub clips supplement a role dossier
 only when `half` names that role or `both`; an untagged hub clip reaches neither role. A clip authored
 in the role itself stays there even when an untagged hub duplicates its ID. After half routing,
 the effective list deduplicates by video ID, with the half-local front, array order and metadata

@@ -87,8 +87,11 @@ test("film thumbnails escape fetched titles and expose keyboard button names", (
   const html = app.filmStudyHTML([{ id: "aaaaaaaaaaa", title: '<img onerror="bad">', by: "A & B" }]);
   assert.match(html, /type="button"/);
   // The U2 control opens the theater, which plays at once since VID1; retain exact escaping
-  // and the accessible name under its current Watch action.
-  assert.match(html, /aria-label="Watch: &lt;img onerror=&quot;bad&quot;&gt; — A &amp; B"/);
+  // and the accessible name under its current Watch action. v1.288.0 (owner U196 b): this claimed the
+  // name ended " — A &amp; B" (the clip's `by`); it now claims the name is the title alone, with `by`
+  // still in the input so the name is proved not printed even when a clip arrives with one.
+  assert.match(html, /aria-label="Watch: &lt;img onerror=&quot;bad&quot;&gt;"/);
+  assert.doesNotMatch(html, /A &amp; B|A & B/);
   assert.doesNotMatch(html, /<img onerror/);
   assert.equal(app.filmStudyHTML([]), "");
 });

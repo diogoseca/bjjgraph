@@ -114,7 +114,7 @@ export function renderText(d) {
   const belt = bl ? p(bl.lead) + ": " + p(String(bl.belt).toUpperCase()) + " \u2014 " + p(bl.rest) + "\n" : "";
   const weak = d.weakTop.length
     ? "\nWeak spot: " + p(prettyKey(d.weakTop[0])) +
-      (d.clip ? "\n  A great video from " + p(d.clip.who || "a top instructor") + ": https://www.youtube.com/watch?v=" + p(d.clip.id) : "") +
+      (d.clip ? "\n  A great video on it: https://www.youtube.com/watch?v=" + p(d.clip.id) : "") +
       (d.weakTop[1] ? "\n  And one for the road: " + p(prettyKey(d.weakTop[1])) : "") + "\n"
     : "";
   return "TODAY AT BJJGRAPH\n" +
@@ -156,7 +156,7 @@ export function renderHtml(d) {
     ? `<p style="margin:14px 0 0;font-size:14px;">${esc(bl.lead)}: <b>${esc(String(bl.belt).toUpperCase())}</b> \u2014 ${esc(bl.rest)}</p>`
     : "";
   const clipBlock = d.clip
-    ? `<p style="margin:6px 0 0;font-size:13px;">Here's a great video from <b>${esc(d.clip.who || "a top instructor")}</b> explaining ${esc(d.weakTop[0] ? prettyKey(d.weakTop[0]) : "it")}${d.clip.dur ? " (" + esc(String(d.clip.dur)) + ")" : ""}: <a href="https://www.youtube.com/watch?v=${esc(d.clip.id)}">${esc(d.clip.title || "watch")}</a></p>`
+    ? `<p style="margin:6px 0 0;font-size:13px;">Here's a great video explaining ${esc(d.weakTop[0] ? prettyKey(d.weakTop[0]) : "it")}${d.clip.dur ? " (" + esc(String(d.clip.dur)) + ")" : ""}: <a href="https://www.youtube.com/watch?v=${esc(d.clip.id)}">${esc(d.clip.title || "watch")}</a></p>`
     : "";
   const extra = d.weakTop[1]
     ? `<p style="margin:10px 0 0;font-size:12px;color:#555;">And one for the road: <b>${esc(prettyKey(d.weakTop[1]))}</b> — worth a look next session.</p>`

@@ -187,6 +187,11 @@ jobs:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
         run: python3 scripts/check_affiliate_surface.py --built
 
+      # NO NAMES (v1.288.0, owner U195 a + U196 b): the BUILT pages carry no "taught by" credit and no
+      # JSON-LD creator, and the served payload no clip `by`. Positive counts; it fails when it saw nothing.
+      - name: No person's name in clip credits, structured data or the served payload
+        run: python3 scripts/check_no_names.py --built
+
       # ANALYTICS SURFACE GATE — PARITY with prod, and deliberately the earlier of the two places
       # it runs. The preview is where a keyless build would first be visible, and it is the branch
       # v1.136.1 actually shipped broken. Reads the BUILT postscript.js and asserts the PostHog

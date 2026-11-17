@@ -307,7 +307,7 @@ export function filmStrip({
             index,
           ) => `<button class="film-card ng-clip" type="button" aria-label="Play ${escapeHtml(clip.title)}">
             <span class="film-thumb film-thumb--${index + 1}">${icon("play", 16)}</span>
-            <span><b>${escapeHtml(clip.title)}</b><small>${escapeHtml(clip.by)}</small></span>
+            <span><b>${escapeHtml(clip.title)}</b></span>
           </button>`,
         )
         .join("")}
