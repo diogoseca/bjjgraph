@@ -283,8 +283,11 @@ for (const touch of [false, true]) {
         const before = await read()
         // the card asks by choices or by recall (Reveal, then a grade); the pumped clock carries the grade in test mode
         const tick = () => page.evaluate(() => (window as W).__neural.advance(100))
-        const choice = "[data-practice-page] [data-mc-opt]", reveal = "[data-practice-page] [data-mini-reveal]", got = "[data-practice-page] [data-mini-got]"
+        const choice = "[data-mc-opt]", reveal = "[data-mini-reveal]", got = "[data-mini-got]"
         // (a choices card shows that same button disabled, "Loading answers…" then "Choose an answer", until its choices are in)
+        // Since v1.290.0 Master the game opens as a list: its one button opens the first place's first ask
+        await expect(page.locator("[data-master-start]"), "premise: Master the game opens as its list, with its one button").toBeVisible({ timeout: 15_000 })
+        await press(page, "[data-master-start]", "the list's one button", touch)
         const shownNow = (sel: string) => page.evaluate((q) => [...document.querySelectorAll(q)].some((e) => (e as HTMLElement).getClientRects().length > 0 && !(e as HTMLButtonElement).disabled), sel)
         await expect.poll(async () => { await tick(); return (await shownNow(choice)) || (await shownNow(reveal)) }, { message: "premise: the session's first card has an answer to press", timeout: 15_000 }).toBe(true)
         if (await shownNow(choice)) await press(page, choice, "the card's first answer", touch)
