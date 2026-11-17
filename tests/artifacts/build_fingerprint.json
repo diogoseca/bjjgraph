@@ -1,26 +1,15 @@
 {
  "_meta": {
-  "app_provenance": {
-   "command": "npm run regenerate:neural",
-   "esbuild": "0.27.0",
-   "git_head": "a222a85da7713305cbba78f9dc0f2bf16a6eea93",
-   "inputs": {
-    "tree": "b5ca44f1d7ea827afc01fe15978025c051d7ccfa"
-   },
-   "package_version": "1.288.0",
-   "rows_from": "neural/dist",
-   "schema": "app-assets-rebuild-v2"
-  },
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/rating-live/capture/caplive1-2a671f7df/pr-rating-live-2a671f7df",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/clips-1116/capture/capnn1-d1a40af65/pr-nonames-d1a40af65",
   "content_provenance": {
-   "capture_git_head": "2a671f7df4f281549d9f3326f98a04748efa79f1",
-   "capture_id": "c3066b5e86294b9fa8241bed4d967af4",
+   "capture_git_head": "d1a40af65c28771b23c6610e8a982bbadf8db1e6",
+   "capture_id": "346ac4771a5b44ec8351992ced036a90",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
    "content_md": 4549,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "32bf2aa69c480694d5eaf8634630cb92cfd7c4f1",
+   "content_tree": "31db06e0e0c8da87f3955920db6fee21ddb69a93",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -45,11 +34,11 @@
    },
    "output_identity": {
     "files": 15830,
-    "sha256": "1ee83984708fcea7c1dc3115c9accc9eb46d9ccfb2af0769d0204a5e56c3431b"
+    "sha256": "4bd662540f87fbb01a1a784b33e0493243733c74d5f77a8158189d94c338b7e4"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/rating-live/capture/caplive1-2a671f7df/pr-rating-live-2a671f7df"
+    "/home/user/bjj-orchestrator/scratch/clips-1116/capture/capnn1-d1a40af65/pr-nonames-d1a40af65"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
