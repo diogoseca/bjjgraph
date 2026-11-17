@@ -31,6 +31,17 @@ async function setup(page: any, recommendations = true, runtime = true, beforeOp
     const plan = a.planSummary();
     return { due, next, day, dueCount: a.dueCount(), newCount: plan && plan.fresh.length, newCards: plan && plan.newCards, overrun: plan && plan.overrun };
   }, { recommendations, runtime });
+  // L2 (v1.292.0): Master the game asks a place's moves before its cards, and takes them out of the day's goal. These
+  // journeys are about the cards, so their player knows the moves today's plan would ask (`knowsPlanMoves`, e2e/dsl.ts),
+  // and the fixture's counts are read off the plan as it then stands. Not when the journey fails the planner on purpose.
+  if (runtime) {
+    await j.knowsPlanMoves();
+    Object.assign(fixture, await page.evaluate(() => {
+      const a = (window as any).__neural, plan = a.planSummary();
+      a.renderExplorer();
+      return { newCount: plan && plan.fresh.length, newCards: plan && plan.newCards, overrun: plan && plan.overrun };
+    }));
+  }
   return { j, fixture };
 }
 
@@ -306,6 +317,7 @@ test("no-gi defender recommendations retain their actual role and reason", async
   const key = await page.evaluate(async () => {
     const a = (window as any).__neural;
     a._giMode = "nogi"; a.srs = {}; a.prep = {};
+    a.moves = {}; a._movesRev = (a._movesRev || 0) + 1;   // this journey's own record: the moves setup marked were the gi plan's
     const key = Object.keys(a.flashcards.decks).find((k) => k.endsWith("|Defender") &&
       a._deckCardCount(a.flashcards.decks[k]) > 0 && a.rsAllowsIdx(a.nodeForKey(k)) && a.curriculum.belts.find((b: any) => b.id === a.wornBelt().id).units.some((u: any) => u.lessons.some((l: any) => l.deckKey.split("|")[0] === k.split("|")[0])));
     if (!key) throw new Error("No legal defender fixture");
@@ -315,6 +327,7 @@ test("no-gi defender recommendations retain their actual role and reason", async
         headroom: .15, exposure: .2, score: .01, reason: "Remaining defense practice credit applies at the declared opportunity." }] };
     a.renderExplorer(); return key;
   });
+  await journey(page).knowsPlanMoves();   // L2: the cards are the subject; the moves of THIS record's plan (no-gi) are known
   await openPractice(page, isMobile);
   await expect(page.locator('[data-gameplan-reason]')).toHaveAttribute("data-gameplan-reason", key);
   // one plain sentence per card (item 9): the role is the row's own subtitle, the reason the provider's
@@ -412,6 +425,7 @@ test("D1: a new player with no comparison still gets a plan, dealt from the weak
   await setup(page, false);
   await page.evaluate(() => {
     const a = (window as any).__neural; a.srs = {}; a.prep = {}; a.settings.dailyGoal = 30;
+    a.moves = {}; a._movesRev = (a._movesRev || 0) + 1;   // a NEW player: no answer of any kind (a known move is an answer, and would give the worth order)
     const rank = a._gameplanWeakFallback.bind(a);
     (window as any).__rankInputs = [];
     a._gameplanWeakFallback = () => { const r = rank(); (window as any).__rankInputs.push(r.rows.map((x: any) => x.key)); return r; };

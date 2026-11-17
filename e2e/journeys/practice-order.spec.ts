@@ -89,7 +89,7 @@ async function press(page: Page, selector: string, what: string, touch: boolean)
   else await page.mouse.click(at.x, at.y)
 }
 
-async function boot(page: Page, day: number, initialState?: Record<string, unknown>, extra: Record<string, unknown> = {}, mode: { answerMode?: "classic" } = CLASSIC) {
+async function boot(page: Page, day: number, initialState?: Record<string, unknown>, extra: Record<string, unknown> = {}, mode: { answerMode?: "classic" } = CLASSIC, moves: "known" | "asked" = "known") {
   await page.addInitScript((d) => { (window as W).__NG_EPOCH_DAY__ = d }, day)
   const j = journey(page, mode)
   await j.boot("/", { ...(initialState ? { initialState } : {}), ...extra })
@@ -97,6 +97,10 @@ async function boot(page: Page, day: number, initialState?: Record<string, unkno
     const a = (window as W).__neural
     return !!(a && a.nodes && a.nodes.length && a.flashcards && a.flashcards.decks && Object.keys(a.flashcards.decks).length && a.curriculum)
   }), { timeout: 60_000, message: "graph, deck manifest and curriculum in" }).toBe(true)
+  // L2 (v1.292.0): Master the game asks a place's moves before its cards; these journeys are about the cards' order, so
+  // their player knows the moves today's plan would ask (nothing is stored: the record in memory only). "asked": a
+  // journey that holds the planner's chunk itself, which this step would load before it
+  if (moves === "known") await j.knowsPlanMoves()
   return j
 }
 /** every localStorage key and value, once the boot has stopped writing (polled until it holds still for 2 s) */
@@ -254,7 +258,7 @@ for (const touch of [true, false]) {
     test(`a fold opened before the plan lands stays open, and shows the plan's rows (FOLD1, ${touch ? "touch" : "mouse"})`, async ({ page }) => {
       const { orderFixture } = await import("../../tests/_practice_order_fixture.mjs")
       const fx = orderFixture(SERVED)
-      await boot(page, fx.day, fx.blob)
+      await boot(page, fx.day, fx.blob, {}, CLASSIC, "asked")   // the planner is held below: the fold is the subject, no place is opened
       let release!: () => void
       const gate = new Promise<void>((resolve) => { release = resolve })
       await page.route("**/app/gameplan.js*", async (route) => { await gate; await route.continue() })

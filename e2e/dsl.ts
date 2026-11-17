@@ -839,12 +839,14 @@ export class Journey {
    * reads the plan the app itself builds (`planSummary`) and marks every move dealt at the places that plan asks moves at,
    * again and again until the plan asks none (knowing a place's moves can change which places are worth most). Returns how
    * many moves it marked. A journey about the moves (master-cloze.spec.ts) does not call it; and a journey that calls it
-   * says nothing about a new player's first day, where the cloze comes first.
+   * says nothing about a new player's first day, where the cloze comes first. A planner that does not land (a journey
+   * that holds or fails its chunk on purpose) marks nothing and returns -1: such a journey does not call this at all.
    */
   async knowsPlanMoves(): Promise<number> {
     return this.page.evaluate(async () => {
       const a = (window as any).__neural, day = a._epochDay();
-      await a._ensureGameplanRuntime();
+      const landed = await Promise.race([a._ensureGameplanRuntime(), new Promise((r) => setTimeout(() => r(false), 8_000))]);
+      if (!landed || !a._gameplanRuntime) return -1;
       let marked = 0;
       for (let round = 0; round < 16; round++) {
         const plan = a.planSummary(), asked = (plan && plan.moves) || [];

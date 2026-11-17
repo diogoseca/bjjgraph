@@ -111,6 +111,7 @@ async function bootMid(page: Page) {
 // with the press before every claim, the list state went unwatched, and ‹ Back's focus was outside the page there)
 async function openMaster(page: Page, touch: boolean, card = true) {
   if (!(await page.evaluate(() => !!(window as W).__neural.deckShown))) await press(page, ".ng-logo", "open the drawer", touch)
+  await journey(page).knowsPlanMoves()   // L2 (v1.292.0): a place's moves come before its cards; these journeys are about the cards and the shelf
   await press(page, '[data-explore-stats] [data-b="due"]', "Master the game", touch)
   await expect(page.locator("[data-practice-page]"), "Master the game is open").toHaveCount(1)
   // L1 (v1.290.0): Master the game opens as a list with one button, and the shelf sits folded under "Belt lessons". This

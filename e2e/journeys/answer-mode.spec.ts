@@ -116,6 +116,7 @@ for (const touch of [false, true]) {
       const j = journey(page)
       await j.boot("/")
       await press(page, ".ng-logo", "open the drawer", touch)
+      await j.knowsPlanMoves()   // L2 (v1.292.0): a place's moves come before its cards; this journey is about the cards' answer form
       await press(page, '[data-explore-stats] [data-b="due"]', "Master the game", touch)
       await expect(page.locator("[data-practice-page]")).toHaveCount(1)
       // L1 (v1.290.0): Master the game opens as a list with one button; its press opens the day's first card, as the row did by itself before
@@ -172,6 +173,7 @@ test("Practice: a stored Front Back cards asks a new card front and back; a stor
   const j = journey(page)
   await j.boot("/", { initialState: { v: 2, settings: { mcMode: "classic" }, settingsAt: { mcMode: 5 } } })
   await j.clickByMouse(".ng-logo", "open the drawer")
+  await j.knowsPlanMoves()   // L2 (v1.292.0): a place's moves come before its cards; this journey is about the cards' answer form
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Master the game")
   await j.startMaster()   // L1 (v1.290.0): Master the game opens as a list with one button; its press opens the day's first card, as the row did by itself before
   const open = '[data-session-row][aria-expanded="true"] + div'

@@ -8,6 +8,8 @@
 //   L2-3 the second place shown under 25                          → "a second place only from 25"
 //   L2-4 ties broken by the last authored                         → "ties keep the authored order"
 //   L2-5 a weekday past six days                                  → "the day's words"
+//   L2-12 a role on a finish (the seam hands a side for a submission)  → "the seam: where a row leads…"
+//   L2-13 an outcome that does not resolve is guessed, not counted     → "the seam: where a row leads…"
 // THE WRITER (app.src.jsx, `_gradeMoves`, `_ungradeMoves`, `_movesToday`), on the app class with this payload:
 //   L2-6 one point for six (the day counts a cloze, not its moves)    → "six answers are six of the day's 20…"
 //   L2-7 the row written with its pair at index 3                     → "a cloze of six writes six rows…"
@@ -17,7 +19,7 @@
 //   L2-11 Undo leaving the answers in the journal                     → "Undo takes the confirm back exactly…"
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { ngClozeLeads, ngClozeBack, ngClozeSay } from "../neural/src/master-cloze.src.js";
+import { ngClozeLeads, ngClozeBack, ngClozeSay, ngClozeLeadsOf } from "../neural/src/master-cloze.src.js";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { ngKnowledgeScheduleRow } from "../neural/src/knowledge-profile.src.js";
@@ -56,6 +58,29 @@ test("a second place only from 25", () => {
 test("ties keep the authored order", () => {
   assert.deepEqual(ngClozeLeads([o("Half Guard/Bottom", 30), o("Closed Guard/Bottom", 30)]).map((x) => x.to), ["Half Guard/Bottom", "Closed Guard/Bottom"]);
   assert.deepEqual(ngClozeLeads([o("X/Top", 10), o("Half Guard/Bottom", 30), o("Closed Guard/Bottom", 30)]).map((x) => x.to), ["Half Guard/Bottom", "Closed Guard/Bottom"]);
+});
+
+// THE SEAM (ruling 8): one function says where a row leads; the second line reads it and L2b's map will. On a small map
+// of its own: a position, a submission, the control position a submission is held from, a move that is its own finish.
+test("the seam: where a row leads is a place and its side, or a finish with no side; an outcome that does not resolve is counted, never guessed", () => {
+  const nodes = [
+    { t: "Half Guard Top", ty: "positions" },
+    { t: "Armbar", ty: "submissions" },
+    { t: "Armbar Control Top", ty: "positions", cal: { stateAlias: 1 } },
+    { t: "Kimura from Guard", ty: "submissions" },
+  ];
+  const app = { nodes, graphName: (n) => (n.ty === "positions" ? n.t.replace(/ (Top|Bottom)$/, "") : n.t.replace(/ from .*$/, "")),
+    _actOf: (opt) => opt.act, resolveOutcomeTo: (to) => to };
+  const leads = (outcomes, idx = 9, s = null) => ngClozeLeadsOf(app, { idx, act: { cal: { outcomes } } }, s);
+  assert.deepEqual(leads([o({ idx: 0, role: "bottom" }, 70)]), [{ idx: 0, sub: false, role: "bottom", name: "Half Guard" }], "a place and the side you land on");
+  assert.deepEqual(leads([o({ idx: 1, role: "top" }, 60)]), [{ idx: 1, sub: true, role: null, name: "Armbar" }], "a submission is its finish: no side");
+  assert.deepEqual(leads([o({ idx: 2, role: "top" }, 60)]), [{ idx: 2, sub: true, role: null, name: "Armbar Control" }], "the position a submission is held from is a finish too: no side");
+  assert.deepEqual(leads([o({ terminal: true }, 55)], 3), [{ idx: 3, sub: true, role: null, name: "Kimura" }], "a move that ends the game names itself");
+  assert.deepEqual(leads([o({ idx: 0, role: "top" }, 50), o({ idx: 1, role: "top" }, 30)]).map((l) => [l.name, l.role]), [["Half Guard", "top"], ["Armbar", null]], "a second place from 25, each by its own kind");
+  const s = {};
+  assert.deepEqual(leads([o({ idx: -1 }, 80), o({ idx: 0, role: "top" }, 30)], 9, s), [{ idx: 0, sub: false, role: "top", name: "Half Guard" }], "an outcome the map cannot place is left out");
+  assert.equal(s.czLost, 1, "and counted");
+  assert.deepEqual(leads([o({ idx: 0, role: "top" }, 40, "failure")]), [], "no success outcome: nothing is said");
 });
 
 test("the day's words", () => {

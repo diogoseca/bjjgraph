@@ -108,6 +108,7 @@ for (const touch of [false, true]) {
     test(`a white belt gets a card from a family outside White's lessons in Practice (${touch ? "touch" : "mouse"})`, async ({ page }) => {
       await boot(page)
       await press(page, ".ng-logo", "open the drawer", touch)
+      await journey(page).knowsPlanMoves()   // L2 (v1.292.0): a place's moves come before its cards; this journey is about the cards
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect(page.locator("[data-practice-page]")).toHaveCount(1)
       await expect.poll(() => page.evaluate(() => !!(window as W).__neural._session?.plan), { message: "the plan lands" }).toBe(true)

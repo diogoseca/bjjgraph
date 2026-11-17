@@ -307,6 +307,7 @@ test("the maintenance surfaces: every due figure is the CARD count, and the sess
   // v1.276.0 (STAGE2-GO 7): the tooltip opens with what a tap does
   await expect(cell).toHaveAttribute("title", /^Start today's session · /);
 
+  await j.knowsPlanMoves();   // L2 (v1.292.0): a place's moves come before its cards; this journey is about the cards
   await j.clickByMouse('.ngStat[data-b="due"]', "the maintenance cell");
   await page.waitForTimeout(400);
   // THE EAGER REVIEW QUEUE (v1.207.0, full game). The due cell no longer waits for a planner:

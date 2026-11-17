@@ -18,8 +18,33 @@ import { journey } from "../dsl"
  *     reduced motion; the accessible name; the "Had it?" toggle and the name are different targets;
  *   · the map beside an open cloze (1440): the hand face down, no name, hover label or gold mark on a hidden move, read
  *     from the DOM and from what the frame drew (`_lastOptLabels`, `_lastHoverLabel`, `_lastMapMarks`); after Show, as today.
- * MUTANTS (built into the bundle, run against this file under the lock; each red on the named step): in the PR body and
- *   below once run. The writer's own arithmetic is tests/master_cloze.test.mjs.
+ *   · a place the day's goal cuts asks the plan's share of its moves, then what it still owes, at its row's press, until
+ *     nothing is due; a place entered from another asks its moves first, by ↓ and by the walk after a deck's last answer;
+ *     no arrow key steps off a cloze between Show and Done.
+ * MUTANTS (each applied alone, built into the bundle, run against this file under the lock; red at the named step; the
+ * clean code green before and after each batch):
+ *   L2-a  one point for six (the day's count takes a cloze as one answer)   → "a cloze of six…" at "six answers are six of the day's 20"
+ *   L2-b  Hide grades (Hide writes the taps as answers)                      → at "Hide is a view, never a grade: nothing a player owns moved"
+ *   L2-c  the row written at the wrong index (a card's row form for a move)  → at "four of them a Yes"
+ *   L2-d  the journal line dropped                                           → at "one journal line an answer"
+ *   L2-e  a null cell asked as a move (the planner, practice-queue.src.js)   → UNITS: tests/practice_queue.test.mjs, "S0: a dealt move
+ *         is priced by the game itself…" and "S0: on the real wire…". NOT a journey: no gi hand holds such a cell (the 62 are
+ *         no-gi), and the hand's dealer drops such a move before the cloze's own guard is reached (that guard has no gate).
+ *   L2-f  the badge without moves                                            → at "and the badge's today counts the six moves"
+ *   L2-g  the second line shown before Show                                  → at "a bar: no name, no second line, 36 px" and, in
+ *         "where a move takes you…", at "<place>: no second line before Show"
+ *   L2-h  a side on a finish. As DATA (the seam hands a role for a submission) it SURVIVED this file: the page never draws a
+ *         finish's role, so nothing here can see it. It is red in tests/master_cloze.test.mjs ("the seam: where a row leads…",
+ *         L2-12). As DRAWN (L2-h2, a side tag on a finish's line) → "where a move takes you…" at "<move>: its finish, no role…"
+ *   L2-i  the wrong side's tag                                               → at "<place> › <move>: the place and the role, as authored"
+ *   L2-j  the hand face up during a cloze                                    → "the hand is face down…" at "the hand is face down, whole"
+ *   L2-k  Undo leaving a row changed                                         → at "Undo restores what a player owns, byte for byte"
+ *   L2-m  a place entered by a key or by the walk opens its card             → "a place entered from another…" at "↓ onto another place
+ *         opens its cloze: the moves first"; L2-m2 (the walk alone) → at "the walk after A's last card asks B's moves first…"
+ *   L2-n  a cut place's next press reads the plan's list whole               → "a place the day's goal cuts…" at "the press opens blanks
+ *         to say: never a cloze already confirmed"
+ *   L2-o  the keys step off a cloze that is shown and not confirmed          → at "ArrowRight does not step off a cloze that is shown…"
+ *   (L2-12a, the up and down keys, is master-list.spec.ts's.) The writer's own arithmetic is tests/master_cloze.test.mjs.
  * NOT COVERED here: a player on "Multiple choice" (no cloze until L4: tests/practice_queue.test.mjs pins the plan), the
  *   camera at Show and a row lighting its way (L2b), another tab or device taking a confirm in before its Undo.
  */

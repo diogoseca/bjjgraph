@@ -158,6 +158,9 @@ test("a Practice queue jump made far below the card, then walked with â†“ and â†
   await j.land("Mount Top");
   expect(await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime()), "the planner loads").toBe(true);
   expect(await page.evaluate(plantReviews), "30 decks carry one owed card").toBe(30);
+  // L2 (v1.292.0): Master the game asks a place's moves before its cards; this journey is about the cards' rows, so its
+  // player knows the moves today's plan would ask
+  await j.knowsPlanMoves();
   const setup = await page.evaluate(() => {
     const a = (window as any).__neural;
     a.openPlanSession("due");
