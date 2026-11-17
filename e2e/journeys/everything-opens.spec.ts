@@ -83,6 +83,8 @@ for (const touch of [false, true]) {
       await press(page, ".ng-logo", "open the drawer", touch)
       // v1.287.0: the Path row left the drawer; Master the game draws the same corridor (all five belts for a white belt)
       await press(page, '[data-explore-stats] [data-b="due"]', "Master the game", touch)
+      // L1 (v1.290.0): the shelf sits folded under "Belt lessons", the list's last row; a player unfolds it there
+      await press(page, "[data-master-belts]", "Belt lessons", touch)
       await expect(page.locator('[data-belt="black"]'), "Master the game draws the Black section").toHaveCount(1)
       await expect(page.locator('[data-belt-toggle="black"]'), "the Black section has a fold toggle").toHaveCount(1)
       await expect(page.locator("[data-belt-locked]"), "no section is locked").toHaveCount(0)
@@ -109,6 +111,8 @@ for (const touch of [false, true]) {
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect(page.locator("[data-practice-page]")).toHaveCount(1)
       await expect.poll(() => page.evaluate(() => !!(window as W).__neural._session?.plan), { message: "the plan lands" }).toBe(true)
+      // L1 (v1.290.0): "More new cards" sits under the open card, so the list's button comes first, as a player presses it
+      await press(page, "[data-master-start]", "Master the game's button", touch)
       await press(page, "[data-plan-more]", "More new cards", touch)
       const later = await page.evaluate((white) => {
         const a = (window as W).__neural
