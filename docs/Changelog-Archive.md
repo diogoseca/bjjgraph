@@ -19372,3 +19372,101 @@ When the remounted landing renders before the manifest arrives, the app records 
 
 `spa-nav-single-instance-law.spec.ts` had met the same class before (D-332 D2-S2) and set those skips aside in the same way.
 Tests only; the ledger row stays accepted. The app's second skip, the backfill repeating it, is v1.282.2.
+
+## v1.284.0 — The Path row leaves the drawer: its corridor is Master the game's, every door to it lands there, and the White objective's beat moves with it (SET1 slice B; the owner, 2026-11-15; his four small losses accepted 2026-11-16)
+
+**The owner's words (15 Nov).** "it's time to remove the Path section from the sidebar + reform the user settings …".
+Part A (16 Nov, seat drawer) found that "Master the game" already drew the whole Path corridor with the same renderer:
+belts, units, lessons, checkpoints, capstones, objectives and the rewards shelf (`_practiceCorridor` →
+`renderChallenges(s.corridor, true)`). It listed what only the Path did, and the owner accepted four losses:
+- the row's "N of M units" words;
+- a lesson tap staging a roll (the orb and its Explore row still stage one);
+- the sticky "N of 20 today" band (the Master the game row is that door);
+- the `neural_challenges_viewed` series, which ends on the ship day (a data-loss event, CLAUDE.md §6.7;
+  `neural_practice_opened` carries on).
+
+**What is not a loss, and moved.**
+- **P22:** "Open Challenges" (`white.challenges`), one of the 20 White objectives the White Foundations patch needs,
+  completed only on the Path's first visible visit. The beat now fires on the first visible draw of Master the game's
+  corridor in each opening of the drawer, the Path's own rule.
+- **O1:** View Collection opens Master the game with the rewards shelf open and scrolled into view.
+
+**The plumbing the removal needed.**
+- `openCorridor` is the one door: `setViewMode("challenges"/"collection")` and `openLearningView` land in Master the game
+  (O3).
+- A stored `challengeView` of `challenges`, `collection` or `path` lands on the drawer's list and is not written back (O2);
+  `tree` keeps its old migration.
+- "From the Path" reads "Belt lessons", and "from the Path" reads "from your belt lessons" (O4).
+
+**Deleted, since only the Path reached it:**
+- the row and its glyph;
+- `renderTabSubtitles`;
+- the band, with its chip-fitting observer and its CSS;
+- the arrival scroll;
+- the Path's inline lesson deck, with its registry (`_lessonRows`) and keyboard (`challengeLessonNav`, `_challengeInline`);
+- the online/offline repaint;
+- `NG_PRACTICE_START_SHORT`.
+
+`renderChallenges` has one caller left.
+
+**What the Path did that Master the game now does, found by the runs:**
+- the corridor repaints on new evidence (`noteChallenges`) and on a gi flip;
+- the rewards shelf keeps the player's open state across a repaint, the session's plan landing included, and a repaint of
+  an open shelf sends no second `neural_collection_opened`;
+- View Collection's scroll holds the page until the player moves it: Master the game's first-card scroll
+  (`_scrollFocusedDeck`) yields while it is pending.
+
+**Specs.**
+- **One DSL door, `j.openCorridor()`:** Master the game's row by mouse, then "Show earlier belts", so a journey sees the
+  five belts the Path drew. `{ allBelts: false }` gives Master the game's own first screen; `{ curriculum: false }` serves
+  a curriculum 404. `openAccountMenu` presses the brand when the drawer is shown without the badge.
+- **The Path's own claims retired, each with its reason in place:**
+  - the row and its words (sidebar, belt-worn, belt_worn);
+  - the band (practice-order's band, its three widths and its font; srs-due);
+  - the arrival scroll (challenges-ui "Continue is gone");
+  - the inline deck's keyboard (keyboard.spec's two);
+  - P1-F's "temporary Path destination".
+- **Re-pointed:**
+  - path-visit-telemetry: the corridor's visible-visit rule, with `neural_challenges_viewed` at 0 throughout, and O2;
+  - challenges-ui: O1 and the legacy views;
+  - the fog (P19): mid-fog, veteran-graph-canvas;
+  - the gi flip: veteran-gimode.
+- **A lesson study opens from the list**, since over Master the game it is a session row. "Not taken over" means no deck,
+  checkpoint or study view. Checkpoint censuses leave out Master the game's own `mc_shown`.
+- **Deploy-gate rows retitled:** path-visit-telemetry ×2, sidebar ×2.
+- **A latent fault, fixed (found by another seat, 16 Nov):** `challengeAction` called `openHomeToLatest()`, deleted in
+  v1.174.0 and defined nowhere since.
+  - A study, checkpoint or capstone action whose belt had no live lesson (no curriculum, a failed one, or none in this
+    ruleset) threw a TypeError on the press, and nothing happened.
+  - `_challengeActionTarget` now resolves an action once, for the row and for the press. A row with nothing to open draws
+    no button, and the corridor's repaint when the curriculum lands brings it back.
+  - Pinned by challenges-ui's "an objective's action": a curriculum 404 draws none on Blue's lesson and checkpoint
+    objectives and throws nothing; with the curriculum, Study the curriculum opens Blue's next lesson.
+
+**Runs** (17 Nov; slice A merged, then dev v1.282.0 and v1.282.1):
+- **The survey, 102 spec files** (the 53 B touched, and the 49 that call its changed DSL or read the drawer's rows), lock
+  23:43 to 00:29:
+  - **Journeys: 705/715.** Two reds were the new objective-action journeys at their own premise (fixed: they select Blue).
+    Eight were legal-pages at the privacy page's data controller: this worktree's built page is from 10 Nov, the content
+    from 12 Nov, and `dev:neural:app` does not rebuild pages. B touches neither.
+  - **Generated specs: 31/31.**
+  - **After the fixes:** challenges-ui 18/18.
+- **Payload:** eager 1,441,199 B raw / 368,691 B gzip, deferred 520,759 B (A's merged head minus 6,406 B raw / 1,825 B
+  gzip).
+- **`ci:validate`:** 25/25, units 1,763/1,763.
+- **Pictures:** the side panel before and after, at 1440 and 390x631, by the same seeded record. The DOM read: Path rows
+  1 → 0, no page error.
+
+**Mutants** (on the v2 harness, each after a neutral control):
+- **Red at the first run:**
+  - B1, the row back: sidebar "Practice is the only row";
+  - B3, no gi repaint: gen veteran-settings-gimode;
+  - B4, the shelf state not kept: challenges-ui;
+  - B6, the stored view written back: path-visit-telemetry and challenges-ui;
+  - B7, no objective beat: path-visit-telemetry and challenges-ui;
+  - B8, no route to the corridor: challenges-ui, study-story, gen holder-film-look.
+- **B2 and B5 survived; there was no gate.** Both are now pinned in challenges-ui and red:
+  - B2, `noteChallenges`' repaint: "the corridor's row reads the new count in place";
+  - B5, the first-card scroll's yield: the View Collection journey (at its poll in that run; a read after the first card
+    covers the other order).
+- **B9, the dead call back:** "no button on a row with nothing to open".
