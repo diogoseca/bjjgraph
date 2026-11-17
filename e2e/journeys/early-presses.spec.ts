@@ -392,23 +392,29 @@ for (const touch of [false, true]) {
 // `rollFromPosition`, the player's caller, which ends any session at its start); a press that lands on no node is the
 // background's, and on a desktop that leaves the panel alone. So the reader's "not taken" presses were presses on no node.
 // Here the node is one the MAP says is under the pointer (`_hover`, after a real mouse move to its drawn place, the point
-// hit-tested as the canvas), and the press is a real click: kept and late end the same. A desktop's: on a phone the panel
-// covers the map.
+// hit-tested as the canvas), and the press is a real click: kept and late end the same. Like for like: the camera is
+// brought to rest first in both flows (after a kept landing it flies in under the open panel, as after any landing: on a
+// real clock a press during that flight lands on another node or on none), and the node is not the board's own pair
+// (its other half switches the reading role instead, in both flows: `tmp-pw/drawer/refsearch/r1b_probe.cjs`). A
+// desktop's: on a phone the panel covers the map.
 test.describe("the map, 1440x900", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
   test("a press on a node of the map ends a session kept across the landing exactly as it ends a late one", async ({ page, context }) => {
     const pressNode = async (p: Page) => {
+      await expect.poll(async () => { await p.evaluate(() => (window as W).__neural.advance(200)); return p.evaluate(() => { const a = (window as W).__neural; return !!a.camTarget && Math.abs(a.cam.vw - a.camTarget.vw) < 1 }) },
+        { message: "premise: the camera has come to rest", timeout: 20_000 }).toBe(true)
       const points = await p.evaluate(() => {
-        const a = (window as W).__neural, k = a.W / a.cam.vw, out: { idx: number; x: number; y: number }[] = []
+        const a = (window as W).__neural, k = a.W / a.cam.vw, out: { idx: number; x: number; y: number }[] = [], f = a.nodes[a.focusIdx]
         for (const n of a.nodes) {
-          if (n.idx === a.currentPos || n.ty !== "positions" || !a.rsAllowsIdx(n.idx)) continue
+          if (n.idx === a.currentPos || n.idx === a.focusIdx || !a.rsAllowsIdx(n.idx)) continue
+          if (f && (n.pi === a.focusIdx || n.pi === f.pi || n.pairId === f.id || n.id === f.pairId)) continue   // the board's own pair
           const x = a.W / 2 + (n.x - a.cam.cx) * k, y = a.H / 2 + (a._LY(n) - a.cam.cy) * k
           if (x < 8 || y < 8 || x > innerWidth - 8 || y > innerHeight - 8) continue
           if (document.elementFromPoint(x, y) === a.canvasRef.current) out.push({ idx: n.idx, x, y })
         }
         return out
       })
-      expect(points.length, "premise: a position's node is drawn on the open map, clear of the panel and the article").toBeGreaterThan(0)
+      expect(points.length, "premise: a node is drawn on the open map, clear of the panel and the article").toBeGreaterThan(0)
       for (const pt of points) {
         await p.mouse.move(pt.x, pt.y)
         const over = await p.evaluate(() => { const a = (window as W).__neural; return a._hover && a._hover.idx >= 0 && a._hover.idx !== a.currentPos ? a.nodes[a._hover.idx].id : null })
@@ -416,9 +422,10 @@ test.describe("the map, 1440x900", () => {
         const staged = () => p.evaluate(() => (((window as W).__neural.beats || []) as any[]).filter((b) => b.beat === "roll_staged").length)
         const before = await staged()
         await p.mouse.click(pt.x, pt.y)
-        return p.evaluate(([n0]) => { const a = (window as W).__neural
+        return p.evaluate(([n0, id]) => { const a = (window as W).__neural
           return { sessionEnded: a._session !== (window as any).__openSession, practice: !!a._practiceInDrawer(), panelShown: !!a.deckShown, view: a._viewMode,
-            staged: (((a.beats || []) as any[]).filter((b) => b.beat === "roll_staged").length) - (n0 as number), paused: !!a.paused } }, [before])
+            staged: (((a.beats || []) as any[]).filter((b) => b.beat === "roll_staged").length) - (n0 as number), paused: !!a.paused,
+            pressedIsSelected: a.focusIdx >= 0 && a.nodes[a.focusIdx].id === id } }, [before, over] as const)
       }
       throw new Error("premise: the map names no node under any of the drawn places")
     }
@@ -429,7 +436,7 @@ test.describe("the map, 1440x900", () => {
     const p2 = await context.newPage()
     const late = await sessionOn(p2, "/Positions/Mount/Top", false, false)
     const b = await pressNode(p2)
-    expect(b, "premise: a press on a node ends a late session and stages a roll there, the panel left open").toEqual({ sessionEnded: true, practice: false, panelShown: true, view: b.view, staged: 1, paused: true })
+    expect(b, "premise: a press on a node ends a late session and stages a roll there, the panel left open").toEqual({ sessionEnded: true, practice: false, panelShown: true, view: b.view, staged: 1, paused: true, pressedIsSelected: true })
     expect(a, "a press on a node of the map ends a kept session exactly as it ends a late one").toEqual(b)
     expect(late.errors, "no page error").toEqual([])
   })
