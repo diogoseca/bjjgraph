@@ -90,7 +90,8 @@ for (const stored of [false, true]) test(`Master the game's corridor telemetry: 
 // an objective's action, `setViewMode`, `openLearningView`, `openPane("challenges")`) sends it with surface "corridor", so
 // the series can still be read apart; already open, a corridor door sends nothing. View Collection from the map is pressed
 // by mouse, then the row's own press.
-// Mutant: the corridor's surface collapsed to "practice" → red at "View Collection from the map: one opening, its surface".
+// Mutants: the corridor's surface collapsed to "practice" → red at "View Collection from the map: one opening, its surface";
+// `openPane`'s route to `openCorridor` removed (PATH-R2) → red at "openPane(\"challenges\") on the open Master the game keeps its session".
 test("neural_practice_opened: a corridor door sends surface \"corridor\", Master the game's own row \"practice\"", async ({ page }) => {
   const j = journey(page)
   await j.boot("/", {
@@ -112,6 +113,11 @@ test("neural_practice_opened: a corridor door sends surface \"corridor\", Master
   await j.clickByMouse(".ng-challenge-reward[data-reward='coin'] [data-reward-collection]", "View Collection")
   await expect(page.locator("[data-practice-page]"), "View Collection opens Master the game").toHaveCount(1)
   expect(await opened(), "View Collection from the map: one opening, its surface corridor").toEqual(["corridor"])
+  // PATH-R2 (the re-read's finding 2): `openPane("challenges")` on the open Master the game goes through `openCorridor`,
+  // which repaints in place: the same session, no second opening. Mutant: the route removed → red here.
+  expect(await page.evaluate(() => { const a = (window as any).__neural, s = a._session; a.openPane("challenges"); return a._session === s }),
+    "openPane(\"challenges\") on the open Master the game keeps its session").toBe(true)
+  expect(await opened(), "and sends no second opening").toEqual(["corridor"])
   await j.clickByMouse(".ng-drawer-brand", "back to the drawer's list")
   await expect(page.locator("[data-drawer-explore]")).toBeVisible()
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Master the game's own row")

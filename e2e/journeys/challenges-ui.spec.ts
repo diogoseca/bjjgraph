@@ -528,7 +528,7 @@ test.describe("Challenges UI", () => {
   // and its scroll went with it: Master the game's corridor STARTS at the belt you wear, so there is nothing to scroll to. What
   // stands is what the scroll was for: the frontier's belt is the corridor's first section, its frontier row marked, and the
   // earlier belts one press away.
-  test("Continue is gone; Master the game's corridor starts at the frontier's belt section", async ({
+  test("Continue is gone; Master the game's corridor starts at the frontier's belt section with the earlier tests won", async ({
     page,
   }) => {
     const j = journey(page);

@@ -8885,6 +8885,15 @@ class Component extends DCLogic {
   // open the merged pane in tabs mode, optionally jumping to a tab. A live study surface is
   // exited first — browsing intent (logo, "/", cue) always lands on the tab bar.
   openPane(view) {
+    // THE CORRIDOR'S NAMES GO THROUGH ITS ONE DOOR (PATH-R2; the re-read of #430, finding 2). On an already-open Master the
+    // game, `_exitStudyTo` ended the session here and `setViewMode` → `openCorridor` opened a new one: a restart and a
+    // second "corridor" opening, where ruling 2 says an open corridor door sends none. `openCorridor` repaints it in place;
+    // "collection" asks for the shelf, as `openLearningView` does
+    if (view === "challenges" || view === "collection") {
+      if (view === "collection") this._scrollRewardsShelf = true;
+      this.openCorridor();
+      return;
+    }
     if (this._paneStudyActive()) this._exitStudyTo(view || this._viewMode);
     else if (view) this.setViewMode(view);
     // no _wirePaneControls here: applyDeckVisibility is the one wiring seam for every open path

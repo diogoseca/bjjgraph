@@ -10,13 +10,23 @@ import { journey } from "../dsl"
  *   1. View Collection lands on an OPEN shelf from every door, warm or cold, and `neural_collection_opened` counts the
  *      openings a player can see: the door's once, then each of the player's own.
  *   3. A belt test that can be started is never behind "Show earlier belts"; a won one waits behind it.
- *   4. ‹ Back from a checkpoint started in the corridor returns to the corridor, its row in view.
+ *   4. ‹ Back from a checkpoint started in the corridor returns to the corridor, its row in view, and the hold LETS GO
+ *      when the player moves on (PATH-R2): a key, a wheel, a mouse press, a finger drag.
  *   5a. `openLearningView("collection")` lands in Master the game with the shelf open (O3).
  *   6. A repaint keeps the reading position (the claim that lost its only test with the arrival scroll).
  * Ruling 2 (`neural_practice_opened`'s surface) is in path-visit-telemetry.spec.ts.
  * The record is the reader's `mid` seed, built from the SERVED curriculum: White done and won, Blue's six units proven and
  * its test not taken, Purple worn and its unit 1 ready for its checkpoint, 2 patches and 2 coins.
- * Mutants: listed with their results in docs/Changelog-Archive.md's v1.284.0 entry (PATH-R1).
+ * Mutants: listed with their results in docs/Changelog-Archive.md's entry for this PR (PATH-R1, PATH-R2).
+ * THE HOLD'S LIFTERS (CLAUDE.md §6.5), `_paneBack`: wheel, touchstart, pointerdown, keydown, each on the page itself.
+ *   - All four removed, then each alone, are run against the Back journey.
+ *   - NON-KILL: `touchstart` removed alone. A finger drag in Chromium fires `pointerdown` too, which lifts the hold, so no
+ *     journey here can tell it apart. By hand: on a touch browser that sends touch events without pointer events, a drag
+ *     on Master the game after ‹ Back must let the next card scroll into view.
+ * KNOWN LIMIT, NOT BUILT (PATH-R2, the re-read's finding 3): a press on the rewards shelf's summary made in the very instant
+ *   the plan lands is lost. The press lands on the shelf the plan's repaint just replaced, whose toggle is ignored on
+ *   purpose (`!shelf.isConnected`; carrying it over to the live shelf is how the count inverted). The shelf stays as it
+ *   was, nothing is miscounted, and the player presses again.
  */
 
 type W = Window & { __neural: any }
@@ -158,19 +168,49 @@ for (const touch of [false, true]) {
       await expect(page.locator('[data-practice-page] .ng-track-card[data-track="white"]'), "the reveal draws it").toHaveCount(1)
     })
 
-    // RULING 4: ‹ Back from a checkpoint started in the corridor returns there, the row in view
-    test(`‹ Back from a checkpoint started in the corridor returns to it, its row in view (${tag})`, async ({ page }) => {
+    // RULING 4: ‹ Back from a checkpoint started in the corridor returns there, the row in view; and (PATH-R2, the re-read's
+    // finding 1) the hold LETS GO: each way a player moves on lifts it, and the next card then comes into view as it would
+    // have without the hold. The moves: a key at both sizes (it moves on by itself, ↓), a wheel and a plain mouse press at
+    // 1440, a finger drag at 390x631; after the wheel, the press and the drag the next card is asked for by the app's own
+    // seam (`sessionNav`), which lifts nothing, so only the move can have let go.
+    const moves = touch ? ["a key", "a finger drag"] : ["a key", "a wheel", "a mouse press"]
+    test(`‹ Back from a checkpoint started in the corridor returns to it, its row in view, until the player moves on (${tag})`, async ({ page }) => {
       const { errors } = await bootMid(page)
       await openMaster(page, touch)
       const cp = `[data-practice-page] [data-checkpoint="${PURPLE_U1}"]`
       await expect(page.locator(cp), "premise: Purple's unit 1 checkpoint is drawn").toHaveCount(1)
-      await press(page, cp, "the unit's checkpoint", touch)
-      await expect.poll(() => page.evaluate(() => !!(window as W).__neural._checkpoint), { message: "premise: the checkpoint is on" }).toBe(true)
-      await press(page, ".ngBack[data-pane-back]", "‹ Back", touch)
-      await expect.poll(() => practice(page), { message: "back in Master the game" }).toBe(true)
-      await expect(page.locator(".ng-drawer-brand")).toHaveText("‹ Master the game")
-      await expect.poll(() => inView(page, cp), { message: "the checkpoint's row is in view" }).toBe(true)
-      expect(await page.evaluate(() => (window as W).__neural._checkpoint), "the quiz was left").toBeNull()
+      const nextCardInView = () => page.evaluate(() => {
+        const el = (window as W).__neural._openMini && (window as W).__neural._openMini.el
+        if (!el || !el.isConnected) return false
+        const r = el.getBoundingClientRect()
+        return r.height > 0 && r.top >= 0 && r.top < innerHeight
+      })
+      for (const move of moves) {
+        await press(page, cp, "the unit's checkpoint", touch)
+        await expect.poll(() => page.evaluate(() => !!(window as W).__neural._checkpoint), { message: "premise: the checkpoint is on" }).toBe(true)
+        await press(page, ".ngBack[data-pane-back]", "‹ Back", touch)
+        await expect.poll(() => practice(page), { message: "back in Master the game" }).toBe(true)
+        await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Master the game")
+        await expect.poll(() => inView(page, cp), { message: "the checkpoint's row is in view" }).toBe(true)
+        expect(await page.evaluate(() => (window as W).__neural._checkpoint), "the quiz was left").toBeNull()
+        expect(await inView(page, "[data-practice-page] [data-session-row]"), "premise: the day's cards are out of view, up the page").toBe(false)
+        const list = await page.evaluate(() => { const r = (window as W).__neural.drillListRef.current.getBoundingClientRect(); return { x: r.left, y: r.top, w: r.width, h: r.height } })
+        if (move === "a key") {
+          expect(await page.evaluate(() => (window as W).__neural.drillListRef.current.contains(document.activeElement)), "premise: the focus is inside the page after Back").toBe(true)
+          await page.keyboard.press("ArrowDown")
+        } else {
+          if (move === "a wheel") { await page.mouse.move(list.x + list.w / 2, list.y + list.h / 2); await page.mouse.wheel(0, -120) }
+          else if (move === "a mouse press") await page.mouse.click(list.x + 6, list.y + list.h / 2)   // the page's own padding
+          else {
+            const cdp = await page.context().newCDPSession(page), x = list.x + list.w / 2, y = list.y + list.h / 2
+            await cdp.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: [{ x, y }] })
+            for (let i = 1; i <= 5; i++) await cdp.send("Input.dispatchTouchEvent", { type: "touchMove", touchPoints: [{ x, y: y + i * 16 }] })
+            await cdp.send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] })
+          }
+          await page.evaluate(() => (window as W).__neural.sessionNav(1))
+        }
+        await expect.poll(nextCardInView, { message: `after ${move}, the next card comes into view` }).toBe(true)
+      }
       expect(errors, "no page error").toEqual([])
     })
 
