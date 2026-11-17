@@ -46,8 +46,8 @@ description: "Learn the heel hook from kneebar control in BJJ. Complete guide co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Matrix-Kneebar-Heel Hook by Mickey Musumeci",
-      "description": "Heel Hook from Kneebar Control film study: Matrix-Kneebar-Heel Hook by Mickey Musumeci.",
+      "name": "Matrix-Kneebar-Heel Hook",
+      "description": "Heel Hook from Kneebar Control film study: Matrix-Kneebar-Heel Hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HQSxxYL1Aew/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HQSxxYL1Aew",
       "url": "https://www.youtube.com/watch?v=HQSxxYL1Aew",
@@ -66,8 +66,8 @@ description: "Learn the heel hook from kneebar control in BJJ. Complete guide co
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Craig Jones  - Heel Hook Breaking Mechanics",
-      "description": "Heel Hook from Kneebar Control film study: Craig Jones  - Heel Hook Breaking Mechanics.",
+      "name": "Heel Hook Breaking Mechanics",
+      "description": "Heel Hook from Kneebar Control film study: Heel Hook Breaking Mechanics.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
       "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
@@ -133,7 +133,7 @@ The danger level escalates significantly with this transition. Kneebars provide 
 
 ![](https://www.youtube.com/watch?v=HQSxxYL1Aew)
 
-<p class="clip-credit"><strong>Matrix-Kneebar-Heel Hook by Mickey Musumeci</strong> · 0:26 · <a href="https://www.youtube.com/watch?v=HQSxxYL1Aew" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Matrix-Kneebar-Heel Hook</strong> · 0:26 · <a href="https://www.youtube.com/watch?v=HQSxxYL1Aew" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -149,7 +149,7 @@ The danger level escalates significantly with this transition. Kneebars provide 
 
 ![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
 
-<p class="clip-credit"><strong>Craig Jones  - Heel Hook Breaking Mechanics</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Heel Hook Breaking Mechanics</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

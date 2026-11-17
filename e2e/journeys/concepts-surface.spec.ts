@@ -821,8 +821,11 @@ for (const viewport of [
     await expect(film).toContainText("Film study");
     await expect(film.locator(".ng-clip")).toHaveCount(4);
     await expect(film.locator(".ng-clip").first()).toContainText(clips[0].title);
-    // STALE SPEC (v1.230.0, feat/video-cards): a clip's control is its play button, named "Watch: title — by".
-    await expect(film.locator(".ng-clip").first().locator("[data-film-play]")).toHaveAccessibleName(`Watch: ${clips[0].title} — ${clips[0].by}`);
+    // STALE SPEC (v1.230.0, feat/video-cards): a clip's control is its play button, named "Watch: title".
+    // v1.288.0 (owner U196 b: no person's name in our own text): this claimed the name ended "— <by>". It now
+    // claims the opposite, and the fixture above STILL carries `by`, so the name is proved not printed even when
+    // a clip arrives with one (the wire no longer ships it at all: scripts/check_no_names.py).
+    await expect(film.locator(".ng-clip").first().locator("[data-film-play]")).toHaveAccessibleName(`Watch: ${clips[0].title}`);
     expect(await film.evaluate((el) => {
       const detail = document.querySelector("[data-concept-detail]")!;
       const body = document.querySelector("[data-concept-body]")!;

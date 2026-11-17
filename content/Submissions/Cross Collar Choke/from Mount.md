@@ -46,8 +46,8 @@ description: "Master the Cross Collar Choke from Mount in BJJ. Learn deep collar
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cross Collar Choke from Mount with Chad Lyman",
-      "description": "Cross Collar Choke from Mount film study: Cross Collar Choke from Mount with Chad Lyman.",
+      "name": "Cross Collar Choke from Mount",
+      "description": "Cross Collar Choke from Mount film study: Cross Collar Choke from Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pXcCvjwjPHw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pXcCvjwjPHw",
       "url": "https://www.youtube.com/watch?v=pXcCvjwjPHw",
@@ -56,8 +56,8 @@ description: "Master the Cross Collar Choke from Mount in BJJ. Learn deep collar
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How To Finish From Mount With The Cross Choke By BJJ Legend SAULO RIBEIRO",
-      "description": "Cross Collar Choke from Mount film study: How To Finish From Mount With The Cross Choke By BJJ Legend SAULO RIBEIRO.",
+      "name": "How To Finish From Mount With The Cross Choke",
+      "description": "Cross Collar Choke from Mount film study: How To Finish From Mount With The Cross Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wA1QP2bpENA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wA1QP2bpENA",
       "url": "https://www.youtube.com/watch?v=wA1QP2bpENA",
@@ -66,8 +66,8 @@ description: "Master the Cross Collar Choke from Mount in BJJ. Learn deep collar
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Palm up Palm up CROSS CHOKE BJJ | Helio Gracie Variation",
-      "description": "Cross Collar Choke from Mount film study: Palm up Palm up CROSS CHOKE BJJ | Helio Gracie Variation.",
+      "name": "Palm up Palm up CROSS CHOKE BJJ | Variation",
+      "description": "Cross Collar Choke from Mount film study: Palm up Palm up CROSS CHOKE BJJ | Variation.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DrAxA8KUxbo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DrAxA8KUxbo",
       "url": "https://www.youtube.com/watch?v=DrAxA8KUxbo",
@@ -133,7 +133,7 @@ From a strategic standpoint, the Cross Collar Choke creates a powerful dilemma t
 
 ![](https://www.youtube.com/watch?v=pXcCvjwjPHw)
 
-<p class="clip-credit"><strong>Cross Collar Choke from Mount with Chad Lyman</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=pXcCvjwjPHw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Collar Choke from Mount</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=pXcCvjwjPHw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -141,7 +141,7 @@ From a strategic standpoint, the Cross Collar Choke creates a powerful dilemma t
 
 ![](https://www.youtube.com/watch?v=wA1QP2bpENA)
 
-<p class="clip-credit"><strong>How To Finish From Mount With The Cross Choke By BJJ Legend SAULO RIBEIRO</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=wA1QP2bpENA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Finish From Mount With The Cross Choke</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=wA1QP2bpENA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -149,7 +149,7 @@ From a strategic standpoint, the Cross Collar Choke creates a powerful dilemma t
 
 ![](https://www.youtube.com/watch?v=DrAxA8KUxbo)
 
-<p class="clip-credit"><strong>Palm up Palm up CROSS CHOKE BJJ | Helio Gracie Variation</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=DrAxA8KUxbo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Palm up Palm up CROSS CHOKE BJJ | Variation</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=DrAxA8KUxbo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

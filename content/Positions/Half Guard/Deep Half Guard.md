@@ -46,8 +46,8 @@ description: "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, ba
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Jeff Glover explains low grip and high grip for deep half guard",
-      "description": "Deep Half Guard film study: Jeff Glover explains low grip and high grip for deep half guard.",
+      "name": "Low grip and high grip for deep half guard",
+      "description": "Deep Half Guard film study: Low grip and high grip for deep half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_IGB9jEvXfo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_IGB9jEvXfo",
       "url": "https://www.youtube.com/watch?v=_IGB9jEvXfo",
@@ -114,7 +114,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 ![](https://www.youtube.com/watch?v=_IGB9jEvXfo)
 
-<p class="clip-credit"><strong>Jeff Glover explains low grip and high grip for deep half guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Low grip and high grip for deep half guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

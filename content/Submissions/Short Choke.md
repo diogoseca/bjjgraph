@@ -47,33 +47,30 @@ description: "Master the Short Choke in BJJ. Devastating lapel strangle from top
       "@type": "VideoObject",
       "position": 1,
       "name": "Short Choke from Back Position",
-      "description": "Short Choke film study: Short Choke from Back Position, taught by Cosens MMA.",
+      "description": "Short Choke film study: Short Choke from Back Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Sb-atqD_TqQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Sb-atqD_TqQ",
       "url": "https://www.youtube.com/watch?v=Sb-atqD_TqQ",
-      "creator": { "@type": "Person", "name": "Cosens MMA" },
       "duration": "PT55S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Shirt Choke From Back Mount",
-      "description": "Short Choke film study: Shirt Choke From Back Mount, taught by Defender Combatives.",
+      "description": "Short Choke film study: Shirt Choke From Back Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/E_M4Y0_hxsk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/E_M4Y0_hxsk",
       "url": "https://www.youtube.com/watch?v=E_M4Y0_hxsk",
-      "creator": { "@type": "Person", "name": "Defender Combatives" },
       "duration": "PT14S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Short Choke to Rear Naked Choke",
-      "description": "Short Choke film study: Short Choke to Rear Naked Choke, taught by Mako BJJ.",
+      "description": "Short Choke film study: Short Choke to Rear Naked Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EJaBa7Q3qVI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EJaBa7Q3qVI",
       "url": "https://www.youtube.com/watch?v=EJaBa7Q3qVI",
-      "creator": { "@type": "Person", "name": "Mako BJJ" },
       "duration": "PT188S"
     }
   ]
@@ -142,7 +139,7 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 
 ![](https://www.youtube.com/watch?v=Sb-atqD_TqQ)
 
-<p class="clip-credit"><strong>Short Choke from Back Position</strong> — taught by Cosens MMA · 0:55 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Short Choke from Back Position</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -150,7 +147,7 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 
 ![](https://www.youtube.com/watch?v=E_M4Y0_hxsk)
 
-<p class="clip-credit"><strong>Shirt Choke From Back Mount</strong> — taught by Defender Combatives · 0:14 · <a href="https://www.youtube.com/watch?v=E_M4Y0_hxsk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shirt Choke From Back Mount</strong> · 0:14 · <a href="https://www.youtube.com/watch?v=E_M4Y0_hxsk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -158,7 +155,7 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 
 ![](https://www.youtube.com/watch?v=EJaBa7Q3qVI)
 
-<p class="clip-credit"><strong>Short Choke to Rear Naked Choke</strong> — taught by Mako BJJ · 3:08 · <a href="https://www.youtube.com/watch?v=EJaBa7Q3qVI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Short Choke to Rear Naked Choke</strong> · 3:08 · <a href="https://www.youtube.com/watch?v=EJaBa7Q3qVI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -47,33 +47,30 @@ description: "New York to Invisible Collar keeps the trapped arm isolated, clear
       "@type": "VideoObject",
       "position": 1,
       "name": "Invisible Collar details",
-      "description": "New York to Invisible Collar film study: Invisible Collar details, taught by Eddie Bravo.",
+      "description": "New York to Invisible Collar film study: Invisible Collar details.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
       "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Invisible Collar choke from rubber guard",
-      "description": "New York to Invisible Collar film study: Invisible Collar choke from rubber guard, taught by David Thomas.",
+      "description": "New York to Invisible Collar film study: Invisible Collar choke from rubber guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CHT81JnfD2Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CHT81JnfD2Q",
       "url": "https://www.youtube.com/watch?v=CHT81JnfD2Q",
-      "creator": { "@type": "Person", "name": "David Thomas" },
       "duration": "PT57S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Invisible Collar breakdown",
-      "description": "New York to Invisible Collar film study: Invisible Collar breakdown, taught by Submissions101.",
+      "description": "New York to Invisible Collar film study: Invisible Collar breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/oTFx2jvJ15M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oTFx2jvJ15M",
       "url": "https://www.youtube.com/watch?v=oTFx2jvJ15M",
-      "creator": { "@type": "Person", "name": "Submissions101" },
       "duration": "PT76S"
     }
   ]
@@ -132,7 +129,7 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 
 ![](https://www.youtube.com/watch?v=KCyIwacRKu8)
 
-<p class="clip-credit"><strong>Invisible Collar details</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible Collar details</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -140,7 +137,7 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 
 ![](https://www.youtube.com/watch?v=CHT81JnfD2Q)
 
-<p class="clip-credit"><strong>Invisible Collar choke from rubber guard</strong> — taught by David Thomas · 0:57 · <a href="https://www.youtube.com/watch?v=CHT81JnfD2Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible Collar choke from rubber guard</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=CHT81JnfD2Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -148,7 +145,7 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 
 ![](https://www.youtube.com/watch?v=oTFx2jvJ15M)
 
-<p class="clip-credit"><strong>Invisible Collar breakdown</strong> — taught by Submissions101 · 1:16 · <a href="https://www.youtube.com/watch?v=oTFx2jvJ15M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible Collar breakdown</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=oTFx2jvJ15M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -154,33 +154,30 @@ description: "Air chokes put pressure on the front of the neck and restrict airf
       "@type": "VideoObject",
       "position": 1,
       "name": "Chokes: basics and principles",
-      "description": "Air Chokes film study: Chokes: basics and principles, taught by Rolls Too Hard.",
+      "description": "Air Chokes film study: Chokes: basics and principles.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bS_TpAK0kwQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bS_TpAK0kwQ",
       "url": "https://www.youtube.com/watch?v=bS_TpAK0kwQ",
-      "creator": { "@type": "Person", "name": "Rolls Too Hard" },
       "duration": "PT105S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Strangles vs chokes: air vs blood explained",
-      "description": "Air Chokes film study: Strangles vs chokes: air vs blood explained, taught by Michael Wong.",
+      "description": "Air Chokes film study: Strangles vs chokes: air vs blood explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/uKpQYwVJASQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/uKpQYwVJASQ",
       "url": "https://www.youtube.com/watch?v=uKpQYwVJASQ",
-      "creator": { "@type": "Person", "name": "Michael Wong" },
       "duration": "PT275S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Guillotine choke: the classic air choke mechanic",
-      "description": "Air Chokes film study: Guillotine choke: the classic air choke mechanic, taught by Absolute MMA St Kilda.",
+      "description": "Air Chokes film study: Guillotine choke: the classic air choke mechanic.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zmoyANCY4To/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zmoyANCY4To",
       "url": "https://www.youtube.com/watch?v=zmoyANCY4To",
-      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
       "duration": "PT301S"
     }
   ]
@@ -210,7 +207,7 @@ Grip placement can turn a choke attempt into throat pressure. Stop and reset if 
 
 ![](https://www.youtube.com/watch?v=bS_TpAK0kwQ)
 
-<p class="clip-credit"><strong>Chokes: basics and principles</strong> — taught by Rolls Too Hard · 1:45 · <a href="https://www.youtube.com/watch?v=bS_TpAK0kwQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Chokes: basics and principles</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=bS_TpAK0kwQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +215,7 @@ Grip placement can turn a choke attempt into throat pressure. Stop and reset if 
 
 ![](https://www.youtube.com/watch?v=uKpQYwVJASQ)
 
-<p class="clip-credit"><strong>Strangles vs chokes: air vs blood explained</strong> — taught by Michael Wong · 4:35 · <a href="https://www.youtube.com/watch?v=uKpQYwVJASQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Strangles vs chokes: air vs blood explained</strong> · 4:35 · <a href="https://www.youtube.com/watch?v=uKpQYwVJASQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,7 +223,7 @@ Grip placement can turn a choke attempt into throat pressure. Stop and reset if 
 
 ![](https://www.youtube.com/watch?v=zmoyANCY4To)
 
-<p class="clip-credit"><strong>Guillotine choke: the classic air choke mechanic</strong> — taught by Absolute MMA St Kilda · 5:01 · <a href="https://www.youtube.com/watch?v=zmoyANCY4To" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine choke: the classic air choke mechanic</strong> · 5:01 · <a href="https://www.youtube.com/watch?v=zmoyANCY4To" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

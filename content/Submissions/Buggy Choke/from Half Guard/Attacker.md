@@ -180,8 +180,8 @@ description: "How to execute Buggy Choke in BJJ. Attacking perspective with setu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Buggy choke from half guard: Moncaio Brothers JiuJitsu",
-      "description": "Buggy Choke from Half Guard (Attacker) film study: Buggy choke from half guard: Moncaio Brothers JiuJitsu.",
+      "name": "Buggy choke from half guard",
+      "description": "Buggy Choke from Half Guard (Attacker) film study: Buggy choke from half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZBOagHWTCFw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ZBOagHWTCFw",
       "url": "https://www.youtube.com/watch?v=ZBOagHWTCFw",
@@ -216,7 +216,7 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 ![](https://www.youtube.com/watch?v=ZBOagHWTCFw)
 
-<p class="clip-credit"><strong>Buggy choke from half guard: Moncaio Brothers JiuJitsu</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=ZBOagHWTCFw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Buggy choke from half guard</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=ZBOagHWTCFw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

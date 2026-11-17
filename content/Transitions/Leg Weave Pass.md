@@ -47,22 +47,20 @@ description: "Leg Weave Pass from half guard threads an arm between the legs to 
       "@type": "VideoObject",
       "position": 1,
       "name": "Leg weave pass against the knee shield",
-      "description": "Leg Weave Pass film study: Leg weave pass against the knee shield, taught by BJJ4Breakfast coach.",
+      "description": "Leg Weave Pass film study: Leg weave pass against the knee shield.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4LIBFmas-oE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4LIBFmas-oE",
       "url": "https://www.youtube.com/watch?v=4LIBFmas-oE",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast coach" },
       "duration": "PT153S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Leg pummeling into the weave pass",
-      "description": "Leg Weave Pass film study: Leg pummeling into the weave pass, taught by Michael Wong.",
+      "description": "Leg Weave Pass film study: Leg pummeling into the weave pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kQrTYXOO1To/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kQrTYXOO1To",
       "url": "https://www.youtube.com/watch?v=kQrTYXOO1To",
-      "creator": { "@type": "Person", "name": "Michael Wong" },
       "duration": "PT22S"
     }
   ]
@@ -121,7 +119,7 @@ Instructional sources: [Lachlan Giles — leg weave pass, no gi](https://www.you
 
 ![](https://www.youtube.com/watch?v=4LIBFmas-oE)
 
-<p class="clip-credit"><strong>Leg weave pass against the knee shield</strong> — taught by BJJ4Breakfast coach · 2:33 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg weave pass against the knee shield</strong> · 2:33 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -129,7 +127,7 @@ Instructional sources: [Lachlan Giles — leg weave pass, no gi](https://www.you
 
 ![](https://www.youtube.com/watch?v=kQrTYXOO1To)
 
-<p class="clip-credit"><strong>Leg pummeling into the weave pass</strong> — taught by Michael Wong · 0:22 · <a href="https://www.youtube.com/watch?v=kQrTYXOO1To" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg pummeling into the weave pass</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=kQrTYXOO1To" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -154,33 +154,30 @@ description: "Action and reaction uses a credible threat to draw a defense, then
       "@type": "VideoObject",
       "position": 1,
       "name": "Action and reaction concept applied in grappling",
-      "description": "Action and Reaction film study: Action and reaction concept applied in grappling, taught by IPPON.",
+      "description": "Action and Reaction film study: Action and reaction concept applied in grappling.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UhLeghq_8TM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UhLeghq_8TM",
       "url": "https://www.youtube.com/watch?v=UhLeghq_8TM",
-      "creator": { "@type": "Person", "name": "IPPON" },
       "duration": "PT118S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Combinations and sequencing off opponent reactions",
-      "description": "Action and Reaction film study: Combinations and sequencing off opponent reactions, taught by Marcelo Garcia.",
+      "description": "Action and Reaction film study: Combinations and sequencing off opponent reactions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X0pxgQGcvgI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/X0pxgQGcvgI",
       "url": "https://www.youtube.com/watch?v=X0pxgQGcvgI",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT872S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "The philosophy of jiu-jitsu: acting on reactions",
-      "description": "Action and Reaction film study: The philosophy of jiu-jitsu: acting on reactions, taught by Ryan Hall.",
+      "description": "Action and Reaction film study: The philosophy of jiu-jitsu: acting on reactions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/BivcEB-1MCY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/BivcEB-1MCY",
       "url": "https://www.youtube.com/watch?v=BivcEB-1MCY",
-      "creator": { "@type": "Person", "name": "Ryan Hall" },
       "duration": "PT615S"
     }
   ]
@@ -210,7 +207,7 @@ Watch what your opponent moves or commits to the first threat. Follow the openin
 
 ![](https://www.youtube.com/watch?v=UhLeghq_8TM)
 
-<p class="clip-credit"><strong>Action and reaction concept applied in grappling</strong> — taught by IPPON · 1:58 · <a href="https://www.youtube.com/watch?v=UhLeghq_8TM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Action and reaction concept applied in grappling</strong> · 1:58 · <a href="https://www.youtube.com/watch?v=UhLeghq_8TM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +215,7 @@ Watch what your opponent moves or commits to the first threat. Follow the openin
 
 ![](https://www.youtube.com/watch?v=X0pxgQGcvgI)
 
-<p class="clip-credit"><strong>Combinations and sequencing off opponent reactions</strong> — taught by Marcelo Garcia · 14:32 · <a href="https://www.youtube.com/watch?v=X0pxgQGcvgI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Combinations and sequencing off opponent reactions</strong> · 14:32 · <a href="https://www.youtube.com/watch?v=X0pxgQGcvgI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,7 +223,7 @@ Watch what your opponent moves or commits to the first threat. Follow the openin
 
 ![](https://www.youtube.com/watch?v=BivcEB-1MCY)
 
-<p class="clip-credit"><strong>The philosophy of jiu-jitsu: acting on reactions</strong> — taught by Ryan Hall · 10:15 · <a href="https://www.youtube.com/watch?v=BivcEB-1MCY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The philosophy of jiu-jitsu: acting on reactions</strong> · 10:15 · <a href="https://www.youtube.com/watch?v=BivcEB-1MCY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -170,8 +170,8 @@ description: "How to defend against High Crotch takedown in BJJ. Recognition cue
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Jason Nolf: Leg Curl Sprawl vs High-C",
-      "description": "High Crotch (Defender) film study: Jason Nolf: Leg Curl Sprawl vs High-C.",
+      "name": "Leg Curl Sprawl vs High-C",
+      "description": "High Crotch (Defender) film study: Leg Curl Sprawl vs High-C.",
       "thumbnailUrl": "https://i.ytimg.com/vi/p9PDDr18bqs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/p9PDDr18bqs",
       "url": "https://www.youtube.com/watch?v=p9PDDr18bqs",
@@ -215,7 +215,7 @@ The key defensive principle is that earlier recognition leads to easier defense.
 
 ![](https://www.youtube.com/watch?v=p9PDDr18bqs)
 
-<p class="clip-credit"><strong>Jason Nolf: Leg Curl Sprawl vs High-C</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=p9PDDr18bqs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg Curl Sprawl vs High-C</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=p9PDDr18bqs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

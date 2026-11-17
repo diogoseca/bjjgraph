@@ -46,8 +46,8 @@ description: "Master the Cross Collar Choke from High Mount in BJJ. Complete gui
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cross Collar Choke from Mount with Chad Lyman",
-      "description": "Cross Collar Choke from High Mount film study: Cross Collar Choke from Mount with Chad Lyman.",
+      "name": "Cross Collar Choke from Mount",
+      "description": "Cross Collar Choke from High Mount film study: Cross Collar Choke from Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pXcCvjwjPHw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pXcCvjwjPHw",
       "url": "https://www.youtube.com/watch?v=pXcCvjwjPHw",
@@ -113,7 +113,7 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 
 ![](https://www.youtube.com/watch?v=pXcCvjwjPHw)
 
-<p class="clip-credit"><strong>Cross Collar Choke from Mount with Chad Lyman</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=pXcCvjwjPHw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Collar Choke from Mount</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=pXcCvjwjPHw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

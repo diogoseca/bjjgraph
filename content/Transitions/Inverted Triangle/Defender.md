@@ -160,8 +160,8 @@ description: "How to defend against the Inverted Triangle in BJJ. Recognition cu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape",
-      "description": "Inverted Triangle (Defender) film study: Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape.",
+      "name": "Inverted Triangle Choke Escape",
+      "description": "Inverted Triangle (Defender) film study: Inverted Triangle Choke Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AptNwQLD_EQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AptNwQLD_EQ?start=28",
       "url": "https://www.youtube.com/watch?v=AptNwQLD_EQ",
@@ -207,7 +207,7 @@ The defensive hierarchy mirrors standard triangle defense principles but with cr
 
 ![](https://www.youtube.com/watch?v=AptNwQLD_EQ&start=28)
 
-<p class="clip-credit"><strong>Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=AptNwQLD_EQ&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
+<p class="clip-credit"><strong>Inverted Triangle Choke Escape</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=AptNwQLD_EQ&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
 
 </div>
 

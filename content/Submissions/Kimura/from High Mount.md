@@ -46,8 +46,8 @@ description: "Master the Kimura shoulder lock from High Mount. Complete finishin
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura from the mount with Coach Matt",
-      "description": "Kimura from High Mount film study: Kimura from the mount with Coach Matt.",
+      "name": "Kimura from the mount",
+      "description": "Kimura from High Mount film study: Kimura from the mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/oDVXJw48OMU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oDVXJw48OMU",
       "url": "https://www.youtube.com/watch?v=oDVXJw48OMU",
@@ -113,7 +113,7 @@ In competition, the Kimura from High Mount frequently appears as part of submiss
 
 ![](https://www.youtube.com/watch?v=oDVXJw48OMU)
 
-<p class="clip-credit"><strong>Kimura from the mount with Coach Matt</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=oDVXJw48OMU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura from the mount</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=oDVXJw48OMU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -165,8 +165,8 @@ description: "Master Turtle Bottom position in BJJ. Defensive position with guar
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Understanding The Turtle Position In BJJ | Ft. Matt Thornton",
-      "description": "Turtle (Bottom) film study: Understanding The Turtle Position In BJJ | Ft. Matt Thornton.",
+      "name": "Understanding The Turtle Position In BJJ",
+      "description": "Turtle (Bottom) film study: Understanding The Turtle Position In BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gufPd37zsU4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gufPd37zsU4",
       "url": "https://www.youtube.com/watch?v=gufPd37zsU4",
@@ -198,7 +198,7 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 
 ![](https://www.youtube.com/watch?v=gufPd37zsU4)
 
-<p class="clip-credit"><strong>Understanding The Turtle Position In BJJ | Ft. Matt Thornton</strong> · 3:46 · <a href="https://www.youtube.com/watch?v=gufPd37zsU4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Understanding The Turtle Position In BJJ</strong> · 3:46 · <a href="https://www.youtube.com/watch?v=gufPd37zsU4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

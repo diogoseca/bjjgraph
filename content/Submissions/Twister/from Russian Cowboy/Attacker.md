@@ -186,8 +186,8 @@ description: "How to execute the Twister Finish in BJJ. Attacking perspective wi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Eddie Bravo\u0027s Twister - With 3 Flores",
-      "description": "Twister from Russian Cowboy (Attacker) film study: Eddie Bravo\u0027s Twister - With 3 Flores.",
+      "name": "Twister - With 3 Flores",
+      "description": "Twister from Russian Cowboy (Attacker) film study: Twister - With 3 Flores.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FjWN_aBp2eE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FjWN_aBp2eE",
       "url": "https://www.youtube.com/watch?v=FjWN_aBp2eE",
@@ -256,7 +256,7 @@ The submission's danger profile demands extreme caution in training. The spinal 
 
 ![](https://www.youtube.com/watch?v=FjWN_aBp2eE)
 
-<p class="clip-credit"><strong>Eddie Bravo&#39;s Twister - With 3 Flores</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=FjWN_aBp2eE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister - With 3 Flores</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=FjWN_aBp2eE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

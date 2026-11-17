@@ -66,8 +66,8 @@ description: "Master the heel hook from Cross Ashi-Garami with expert finishing 
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Craig Jones - X Guard to Heel Hook",
-      "description": "Heel Hook from Cross Ashi-Garami film study: Craig Jones - X Guard to Heel Hook.",
+      "name": "X Guard to Heel Hook",
+      "description": "Heel Hook from Cross Ashi-Garami film study: X Guard to Heel Hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
       "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
@@ -149,7 +149,7 @@ This submission demands meticulous attention to safety in training. The mechanis
 
 ![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
 
-<p class="clip-credit"><strong>Craig Jones - X Guard to Heel Hook</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>X Guard to Heel Hook</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

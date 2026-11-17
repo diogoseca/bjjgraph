@@ -46,8 +46,8 @@ description: "Master the Americana shoulder lock from S Mount. Step-by-step guid
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "BJJ technique with Chelsea Ozer: Americana from mount",
-      "description": "Americana from S Mount film study: BJJ technique with Chelsea Ozer: Americana from mount.",
+      "name": "BJJ technique: Americana from mount",
+      "description": "Americana from S Mount film study: BJJ technique: Americana from mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Z44VF9pmJBg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Z44VF9pmJBg",
       "url": "https://www.youtube.com/watch?v=Z44VF9pmJBg",
@@ -123,7 +123,7 @@ Strategically, the Americana from S Mount serves as a powerful secondary attack 
 
 ![](https://www.youtube.com/watch?v=Z44VF9pmJBg)
 
-<p class="clip-credit"><strong>BJJ technique with Chelsea Ozer: Americana from mount</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=Z44VF9pmJBg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ technique: Americana from mount</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=Z44VF9pmJBg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

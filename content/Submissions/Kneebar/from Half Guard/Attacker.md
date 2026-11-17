@@ -200,8 +200,8 @@ description: "How to execute Kneebar from Half Guard in BJJ. Attacking perspecti
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Knee Bar from Deep Half Guard with Miles Moudy | Brazilian Jiu Jitsu",
-      "description": "Kneebar from Half Guard (Attacker) film study: Knee Bar from Deep Half Guard with Miles Moudy | Brazilian Jiu Jitsu.",
+      "name": "Knee Bar from Deep Half Guard | Brazilian Jiu Jitsu",
+      "description": "Kneebar from Half Guard (Attacker) film study: Knee Bar from Deep Half Guard | Brazilian Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ih_7aXNM6UU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ih_7aXNM6UU",
       "url": "https://www.youtube.com/watch?v=ih_7aXNM6UU",
@@ -252,7 +252,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 ![](https://www.youtube.com/watch?v=ih_7aXNM6UU)
 
-<p class="clip-credit"><strong>Knee Bar from Deep Half Guard with Miles Moudy | Brazilian Jiu Jitsu</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=ih_7aXNM6UU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Bar from Deep Half Guard | Brazilian Jiu Jitsu</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=ih_7aXNM6UU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

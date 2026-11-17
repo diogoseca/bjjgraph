@@ -154,11 +154,10 @@ description: "Elbow-knee connection protects the space beside your torso; recove
       "@type": "VideoObject",
       "position": 1,
       "name": "Elbow-knee connection: concept and drill",
-      "description": "Elbow-Knee Connection film study: Elbow-knee connection: concept and drill, taught by Rob Biernacki and Stephan Kesting.",
+      "description": "Elbow-Knee Connection film study: Elbow-knee connection: concept and drill.",
       "thumbnailUrl": "https://i.ytimg.com/vi/z8pN9PafXTc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/z8pN9PafXTc",
       "url": "https://www.youtube.com/watch?v=z8pN9PafXTc",
-      "creator": { "@type": "Person", "name": "Rob Biernacki and Stephan Kesting" },
       "duration": "PT167S"
     }
   ]
@@ -188,7 +187,7 @@ The elbow and knee do not need to touch; they need to protect the same lane. Mov
 
 ![](https://www.youtube.com/watch?v=z8pN9PafXTc)
 
-<p class="clip-credit"><strong>Elbow-knee connection: concept and drill</strong> — taught by Rob Biernacki and Stephan Kesting · 2:47 · <a href="https://www.youtube.com/watch?v=z8pN9PafXTc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Elbow-knee connection: concept and drill</strong> · 2:47 · <a href="https://www.youtube.com/watch?v=z8pN9PafXTc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

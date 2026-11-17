@@ -186,8 +186,8 @@ description: "Learn to attack with the Breadcutter Choke from Kuzure Kesa Gatame
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The Timeless Bread Cutter Choke! (Roger Gracie Style) - Andy Hagans",
-      "description": "Breadcutter Choke from Kuzure Kesa Gatame (Attacker) film study: The Timeless Bread Cutter Choke! (Roger Gracie Style) - Andy Hagans.",
+      "name": "The Timeless Bread Cutter Choke!",
+      "description": "Breadcutter Choke from Kuzure Kesa Gatame (Attacker) film study: The Timeless Bread Cutter Choke!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xab75xOnHqk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xab75xOnHqk",
       "url": "https://www.youtube.com/watch?v=xab75xOnHqk",
@@ -232,7 +232,7 @@ Attacking with the Breadcutter Choke from Kuzure Kesa Gatame leverages the exist
 
 ![](https://www.youtube.com/watch?v=xab75xOnHqk)
 
-<p class="clip-credit"><strong>The Timeless Bread Cutter Choke! (Roger Gracie Style) - Andy Hagans</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=xab75xOnHqk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Timeless Bread Cutter Choke!</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=xab75xOnHqk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -160,8 +160,8 @@ description: "Learn to defend the Sweep from Inverted Guard. Recognition cues, b
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Counter vs inverted kick sweep Mitsuyoshi Hayakawa",
-      "description": "Sweep from Inverted Guard (Defender) film study: Counter vs inverted kick sweep Mitsuyoshi Hayakawa.",
+      "name": "Counter vs inverted kick sweep",
+      "description": "Sweep from Inverted Guard (Defender) film study: Counter vs inverted kick sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ORVVk4OJl5w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ORVVk4OJl5w",
       "url": "https://www.youtube.com/watch?v=ORVVk4OJl5w",
@@ -195,7 +195,7 @@ As the top player defending against the Sweep from Inverted Guard, your primary 
 
 ![](https://www.youtube.com/watch?v=ORVVk4OJl5w)
 
-<p class="clip-credit"><strong>Counter vs inverted kick sweep Mitsuyoshi Hayakawa</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=ORVVk4OJl5w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Counter vs inverted kick sweep</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=ORVVk4OJl5w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

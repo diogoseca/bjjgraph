@@ -153,33 +153,30 @@ description: "Strip Grip from Zombie (defender): Maintain posture control while 
       "@type": "VideoObject",
       "position": 1,
       "name": "Lockdown Clinches",
-      "description": "Strip Grip from Zombie (Defender) film study: Lockdown Clinches, taught by Eddie Bravo.",
+      "description": "Strip Grip from Zombie (Defender) film study: Lockdown Clinches.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
       "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT60S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Dead Orchard finish: clearing the elbow to lock up",
-      "description": "Strip Grip from Zombie (Defender) film study: Dead Orchard finish: clearing the elbow to lock up, taught by Ben Eddy.",
+      "description": "Strip Grip from Zombie (Defender) film study: Dead Orchard finish: clearing the elbow to lock up.",
       "thumbnailUrl": "https://i.ytimg.com/vi/p6M-9BVuWqs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/p6M-9BVuWqs",
       "url": "https://www.youtube.com/watch?v=p6M-9BVuWqs",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
       "duration": "PT79S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Quarter Guard concepts and grip retention",
-      "description": "Strip Grip from Zombie (Defender) film study: Quarter Guard concepts and grip retention, taught by Eddie Bravo.",
+      "description": "Strip Grip from Zombie (Defender) film study: Quarter Guard concepts and grip retention.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sMsgoChdaHE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sMsgoChdaHE",
       "url": "https://www.youtube.com/watch?v=sMsgoChdaHE",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     }
   ]
@@ -218,7 +215,7 @@ When the hand pummel is stripped, rebuild guard retention with hip movement and 
 
 ![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
 
-<p class="clip-credit"><strong>Lockdown Clinches</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lockdown Clinches</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,7 +223,7 @@ When the hand pummel is stripped, rebuild guard retention with hip movement and 
 
 ![](https://www.youtube.com/watch?v=p6M-9BVuWqs)
 
-<p class="clip-credit"><strong>Dead Orchard finish: clearing the elbow to lock up</strong> — taught by Ben Eddy · 1:19 · <a href="https://www.youtube.com/watch?v=p6M-9BVuWqs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Dead Orchard finish: clearing the elbow to lock up</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=p6M-9BVuWqs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,7 +231,7 @@ When the hand pummel is stripped, rebuild guard retention with hip movement and 
 
 ![](https://www.youtube.com/watch?v=sMsgoChdaHE)
 
-<p class="clip-credit"><strong>Quarter Guard concepts and grip retention</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sMsgoChdaHE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Quarter Guard concepts and grip retention</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=sMsgoChdaHE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

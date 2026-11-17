@@ -180,8 +180,8 @@ description: "How to execute the Arm Drag in BJJ. Attacking perspective with gri
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Marcelo Garcia - Armdrag Takedown",
-      "description": "Arm Drag (Attacker) film study: Marcelo Garcia - Armdrag Takedown.",
+      "name": "Armdrag Takedown",
+      "description": "Arm Drag (Attacker) film study: Armdrag Takedown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Kp3ABmsn1I0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Kp3ABmsn1I0",
       "url": "https://www.youtube.com/watch?v=Kp3ABmsn1I0",
@@ -219,7 +219,7 @@ Advanced arm drag attacking integrates setups, feints, and chain reactions into 
 
 ![](https://www.youtube.com/watch?v=Kp3ABmsn1I0)
 
-<p class="clip-credit"><strong>Marcelo Garcia - Armdrag Takedown</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=Kp3ABmsn1I0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armdrag Takedown</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=Kp3ABmsn1I0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -167,22 +167,20 @@ description: "Offensive guide for controlling and attacking from modified scarf 
       "@type": "VideoObject",
       "position": 1,
       "name": "No Gi Judo | \u5d29\u8888\u88df\u56fa | Kuzure Kesa Gatame (Broken scarf hold)",
-      "description": "Kuzure Kesa Gatame (Top) film study: No Gi Judo | \u5d29\u8888\u88df\u56fa | Kuzure Kesa Gatame (Broken scarf hold), taught by Sampson Judo.",
+      "description": "Kuzure Kesa Gatame (Top) film study: No Gi Judo | \u5d29\u8888\u88df\u56fa | Kuzure Kesa Gatame (Broken scarf hold).",
       "thumbnailUrl": "https://i.ytimg.com/vi/oXzrusNRq70/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oXzrusNRq70",
       "url": "https://www.youtube.com/watch?v=oXzrusNRq70",
-      "creator": { "@type": "Person", "name": "Sampson Judo" },
       "duration": "PT19S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Kesa Gatame - Basic Scarf Hold",
-      "description": "Kuzure Kesa Gatame (Top) film study: Kesa Gatame - Basic Scarf Hold, taught by Grappler Station.",
+      "description": "Kuzure Kesa Gatame (Top) film study: Kesa Gatame - Basic Scarf Hold.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TfNpVcekHGg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TfNpVcekHGg",
       "url": "https://www.youtube.com/watch?v=TfNpVcekHGg",
-      "creator": { "@type": "Person", "name": "Grappler Station" },
       "duration": "PT120S"
     }
   ]
@@ -220,7 +218,7 @@ The position also serves a critical strategic role in competition and training s
 
 ![](https://www.youtube.com/watch?v=oXzrusNRq70)
 
-<p class="clip-credit"><strong>No Gi Judo | 崩袈裟固 | Kuzure Kesa Gatame (Broken scarf hold)</strong> — taught by Sampson Judo · 0:19 · <a href="https://www.youtube.com/watch?v=oXzrusNRq70" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No Gi Judo | 崩袈裟固 | Kuzure Kesa Gatame (Broken scarf hold)</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=oXzrusNRq70" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +226,7 @@ The position also serves a critical strategic role in competition and training s
 
 ![](https://www.youtube.com/watch?v=TfNpVcekHGg)
 
-<p class="clip-credit"><strong>Kesa Gatame - Basic Scarf Hold</strong> — taught by Grappler Station · 2:00 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame - Basic Scarf Hold</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -166,11 +166,10 @@ description: "Master Crucifix Top in BJJ. Dominant arm-trapping control with sys
       "@type": "VideoObject",
       "position": 1,
       "name": "BJJ | Mount To Side Crucifix Arm Attacks",
-      "description": "Crucifix (Top) film study: BJJ | Mount To Side Crucifix Arm Attacks, taught by Evolve MMA.",
+      "description": "Crucifix (Top) film study: BJJ | Mount To Side Crucifix Arm Attacks.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-Vmyjv8-WFw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-Vmyjv8-WFw",
       "url": "https://www.youtube.com/watch?v=-Vmyjv8-WFw",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
       "duration": "PT75S"
     }
   ]
@@ -203,7 +202,7 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 ![](https://www.youtube.com/watch?v=-Vmyjv8-WFw)
 
-<p class="clip-credit"><strong>BJJ | Mount To Side Crucifix Arm Attacks</strong> — taught by Evolve MMA · 1:15 · <a href="https://www.youtube.com/watch?v=-Vmyjv8-WFw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ | Mount To Side Crucifix Arm Attacks</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=-Vmyjv8-WFw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

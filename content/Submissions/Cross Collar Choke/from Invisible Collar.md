@@ -47,33 +47,30 @@ description: "Cross Collar Choke from Invisible Collar requires jacket grips. Es
       "@type": "VideoObject",
       "position": 1,
       "name": "Rubber guard double invisible collar cross choke",
-      "description": "Cross Collar Choke from Invisible Collar film study: Rubber guard double invisible collar cross choke, taught by Denny Prokopos.",
+      "description": "Cross Collar Choke from Invisible Collar film study: Rubber guard double invisible collar cross choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/km9506KvIJg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/km9506KvIJg",
       "url": "https://www.youtube.com/watch?v=km9506KvIJg",
-      "creator": { "@type": "Person", "name": "Denny Prokopos" },
       "duration": "PT41S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Getting the first hand inside first",
-      "description": "Cross Collar Choke from Invisible Collar film study: Getting the first hand inside first, taught by Henry Akins.",
+      "description": "Cross Collar Choke from Invisible Collar film study: Getting the first hand inside first.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KE4ulYBSmjY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KE4ulYBSmjY",
       "url": "https://www.youtube.com/watch?v=KE4ulYBSmjY",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
       "duration": "PT55S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Invisible detail of the choke from the back",
-      "description": "Cross Collar Choke from Invisible Collar film study: Invisible detail of the choke from the back, taught by Rickson Gracie Academy.",
+      "description": "Cross Collar Choke from Invisible Collar film study: Invisible detail of the choke from the back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pe4jLWTzpSE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pe4jLWTzpSE",
       "url": "https://www.youtube.com/watch?v=pe4jLWTzpSE",
-      "creator": { "@type": "Person", "name": "Rickson Gracie Academy" },
       "duration": "PT122S"
     }
   ]
@@ -138,7 +135,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — cross-collar choke
 
 ![](https://www.youtube.com/watch?v=km9506KvIJg)
 
-<p class="clip-credit"><strong>Rubber guard double invisible collar cross choke</strong> — taught by Denny Prokopos · 0:41 · <a href="https://www.youtube.com/watch?v=km9506KvIJg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rubber guard double invisible collar cross choke</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=km9506KvIJg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +143,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — cross-collar choke
 
 ![](https://www.youtube.com/watch?v=KE4ulYBSmjY)
 
-<p class="clip-credit"><strong>Getting the first hand inside first</strong> — taught by Henry Akins · 0:55 · <a href="https://www.youtube.com/watch?v=KE4ulYBSmjY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Getting the first hand inside first</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=KE4ulYBSmjY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -154,7 +151,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — cross-collar choke
 
 ![](https://www.youtube.com/watch?v=pe4jLWTzpSE)
 
-<p class="clip-credit"><strong>Invisible detail of the choke from the back</strong> — taught by Rickson Gracie Academy · 2:02 · <a href="https://www.youtube.com/watch?v=pe4jLWTzpSE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible detail of the choke from the back</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=pe4jLWTzpSE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

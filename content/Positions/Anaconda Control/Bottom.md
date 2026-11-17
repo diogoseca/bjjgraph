@@ -166,22 +166,20 @@ description: "Master defensive strategies for surviving Anaconda Control from bo
       "@type": "VideoObject",
       "position": 1,
       "name": "BJJ defense anaconda plus counter",
-      "description": "Anaconda Control (Bottom) film study: BJJ defense anaconda plus counter, taught by Cyril Robert.",
+      "description": "Anaconda Control (Bottom) film study: BJJ defense anaconda plus counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/s94GexEkoQ0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/s94GexEkoQ0",
       "url": "https://www.youtube.com/watch?v=s94GexEkoQ0",
-      "creator": { "@type": "Person", "name": "Cyril Robert" },
       "duration": "PT43S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Anaconda Choke Defense",
-      "description": "Anaconda Control (Bottom) film study: Anaconda Choke Defense, taught by Mamba BJJ.",
+      "description": "Anaconda Control (Bottom) film study: Anaconda Choke Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N9MbEtAv_Lw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/N9MbEtAv_Lw",
       "url": "https://www.youtube.com/watch?v=N9MbEtAv_Lw",
-      "creator": { "@type": "Person", "name": "Mamba BJJ" },
       "duration": "PT61S"
     }
   ]
@@ -214,7 +212,7 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 ![](https://www.youtube.com/watch?v=s94GexEkoQ0)
 
-<p class="clip-credit"><strong>BJJ defense anaconda plus counter</strong> — taught by Cyril Robert · 0:43 · <a href="https://www.youtube.com/watch?v=s94GexEkoQ0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ defense anaconda plus counter</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=s94GexEkoQ0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -222,7 +220,7 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 ![](https://www.youtube.com/watch?v=N9MbEtAv_Lw)
 
-<p class="clip-credit"><strong>Anaconda Choke Defense</strong> — taught by Mamba BJJ · 1:01 · <a href="https://www.youtube.com/watch?v=N9MbEtAv_Lw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda Choke Defense</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=N9MbEtAv_Lw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,8 +46,8 @@ description: "Learn the Reguard to Butterfly Guard transition in BJJ. Recover fu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Butterfly Guard Recovery - Marcelo Style",
-      "description": "Reguard to Butterfly Guard film study: Butterfly Guard Recovery - Marcelo Style.",
+      "name": "Butterfly Guard Recovery",
+      "description": "Reguard to Butterfly Guard film study: Butterfly Guard Recovery.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cHzeigPygw0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cHzeigPygw0",
       "url": "https://www.youtube.com/watch?v=cHzeigPygw0",
@@ -107,7 +107,7 @@ Strategically, the ability to recover a compromised guard position rather than a
 
 ![](https://www.youtube.com/watch?v=cHzeigPygw0)
 
-<p class="clip-credit"><strong>Butterfly Guard Recovery - Marcelo Style</strong> · 5:31 · <a href="https://www.youtube.com/watch?v=cHzeigPygw0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Butterfly Guard Recovery</strong> · 5:31 · <a href="https://www.youtube.com/watch?v=cHzeigPygw0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

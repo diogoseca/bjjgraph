@@ -56,8 +56,8 @@ description: "Master the toe hold finish from Toe Hold Control. Complete guide t
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)",
-      "description": "Toe Hold from Toe Hold Control film study: Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu).",
+      "name": "Crossover Toe Hold (Brazilian Jiu Jitsu)",
+      "description": "Toe Hold from Toe Hold Control film study: Crossover Toe Hold (Brazilian Jiu Jitsu).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
       "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
@@ -131,7 +131,7 @@ Within the modern leg lock hierarchy, the toe hold from Toe Hold Control functio
 
 ![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
 
-<p class="clip-credit"><strong>Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crossover Toe Hold (Brazilian Jiu Jitsu)</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

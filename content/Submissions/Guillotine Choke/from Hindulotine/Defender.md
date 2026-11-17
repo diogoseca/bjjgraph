@@ -153,22 +153,20 @@ description: "Guillotine Choke from Hindulotine (defender): Manage posture and i
       "@type": "VideoObject",
       "position": 1,
       "name": "Guillotine escape secrets from bottom",
-      "description": "Guillotine Choke from Hindulotine (Defender) film study: Guillotine escape secrets from bottom, taught by Gordon Ryan.",
+      "description": "Guillotine Choke from Hindulotine (Defender) film study: Guillotine escape secrets from bottom.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bkTJD6RIyKY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bkTJD6RIyKY",
       "url": "https://www.youtube.com/watch?v=bkTJD6RIyKY",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT118S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Standing guillotine escape",
-      "description": "Guillotine Choke from Hindulotine (Defender) film study: Standing guillotine escape, taught by dogtownman.",
+      "description": "Guillotine Choke from Hindulotine (Defender) film study: Standing guillotine escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
       "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
-      "creator": { "@type": "Person", "name": "dogtownman" },
       "duration": "PT44S"
     }
   ]
@@ -208,7 +206,7 @@ The early escape targets the chin strap and supporting hand before they form a c
 
 ![](https://www.youtube.com/watch?v=bkTJD6RIyKY)
 
-<p class="clip-credit"><strong>Guillotine escape secrets from bottom</strong> — taught by Gordon Ryan · 1:58 · <a href="https://www.youtube.com/watch?v=bkTJD6RIyKY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine escape secrets from bottom</strong> · 1:58 · <a href="https://www.youtube.com/watch?v=bkTJD6RIyKY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -216,7 +214,7 @@ The early escape targets the chin strap and supporting hand before they form a c
 
 ![](https://www.youtube.com/watch?v=8okq4cIHMO0)
 
-<p class="clip-credit"><strong>Standing guillotine escape</strong> — taught by dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Standing guillotine escape</strong> · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

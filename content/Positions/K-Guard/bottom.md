@@ -167,33 +167,30 @@ description: "Master K-Guard Bottom in BJJ. Dynamic half guard variation with in
       "@type": "VideoObject",
       "position": 1,
       "name": "K Guard entry to knee bar",
-      "description": "K-Guard (Bottom) film study: K Guard entry to knee bar, taught by Marshall Stamper.",
+      "description": "K-Guard (Bottom) film study: K Guard entry to knee bar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/L7OCTtMGt4M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/L7OCTtMGt4M",
       "url": "https://www.youtube.com/watch?v=L7OCTtMGt4M",
-      "creator": { "@type": "Person", "name": "Marshall Stamper" },
       "duration": "PT55S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "K guard to 411 saddle",
-      "description": "K-Guard (Bottom) film study: K guard to 411 saddle, taught by 10th Planet St Louis.",
+      "description": "K-Guard (Bottom) film study: K guard to 411 saddle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wkPHi2q1Cbo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wkPHi2q1Cbo",
       "url": "https://www.youtube.com/watch?v=wkPHi2q1Cbo",
-      "creator": { "@type": "Person", "name": "10th Planet St Louis" },
       "duration": "PT41S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "K-Guard entry to backside heel hook",
-      "description": "K-Guard (Bottom) film study: K-Guard entry to backside heel hook, taught by Leg Lock Systems.",
+      "description": "K-Guard (Bottom) film study: K-Guard entry to backside heel hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LAKiTjpAQ9g/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LAKiTjpAQ9g",
       "url": "https://www.youtube.com/watch?v=LAKiTjpAQ9g",
-      "creator": { "@type": "Person", "name": "Leg Lock Systems" },
       "duration": "PT47S"
     }
   ]
@@ -227,7 +224,7 @@ The position excels as both a retention platform and an offensive launching poin
 
 ![](https://www.youtube.com/watch?v=L7OCTtMGt4M)
 
-<p class="clip-credit"><strong>K Guard entry to knee bar</strong> — taught by Marshall Stamper · 0:55 · <a href="https://www.youtube.com/watch?v=L7OCTtMGt4M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>K Guard entry to knee bar</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=L7OCTtMGt4M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -235,7 +232,7 @@ The position excels as both a retention platform and an offensive launching poin
 
 ![](https://www.youtube.com/watch?v=wkPHi2q1Cbo)
 
-<p class="clip-credit"><strong>K guard to 411 saddle</strong> — taught by 10th Planet St Louis · 0:41 · <a href="https://www.youtube.com/watch?v=wkPHi2q1Cbo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>K guard to 411 saddle</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=wkPHi2q1Cbo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -243,7 +240,7 @@ The position excels as both a retention platform and an offensive launching poin
 
 ![](https://www.youtube.com/watch?v=LAKiTjpAQ9g)
 
-<p class="clip-credit"><strong>K-Guard entry to backside heel hook</strong> — taught by Leg Lock Systems · 0:47 · <a href="https://www.youtube.com/watch?v=LAKiTjpAQ9g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>K-Guard entry to backside heel hook</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=LAKiTjpAQ9g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

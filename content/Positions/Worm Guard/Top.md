@@ -166,11 +166,10 @@ description: "Master Worm Guard Top position in BJJ. Complete passing guide cove
       "@type": "VideoObject",
       "position": 1,
       "name": "Passing Worm Guard Tarikoplata",
-      "description": "Worm Guard (Top) film study: Passing Worm Guard Tarikoplata, taught by luciana MARCOS.",
+      "description": "Worm Guard (Top) film study: Passing Worm Guard Tarikoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LrcdkHwbHK8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LrcdkHwbHK8",
       "url": "https://www.youtube.com/watch?v=LrcdkHwbHK8",
-      "creator": { "@type": "Person", "name": "luciana MARCOS" },
       "duration": "PT66S"
     }
   ]
@@ -199,7 +198,7 @@ Worm Guard Top represents the passing position against one of modern BJJ's most 
 
 ![](https://www.youtube.com/watch?v=LrcdkHwbHK8)
 
-<p class="clip-credit"><strong>Passing Worm Guard Tarikoplata</strong> — taught by luciana MARCOS · 1:06 · <a href="https://www.youtube.com/watch?v=LrcdkHwbHK8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Worm Guard Tarikoplata</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=LrcdkHwbHK8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

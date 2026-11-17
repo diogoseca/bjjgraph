@@ -154,43 +154,39 @@ description: "Connect submission entries to specific defensive responses and ret
       "@type": "VideoObject",
       "position": 1,
       "name": "Rear naked choke finishing transitions",
-      "description": "Submission Chains film study: Rear naked choke finishing transitions, taught by Nick Albin.",
+      "description": "Submission Chains film study: Rear naked choke finishing transitions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UPDuZRb1yhU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UPDuZRb1yhU",
-      "url": "https://www.youtube.com/watch?v=UPDuZRb1yhU",
-      "creator": { "@type": "Person", "name": "Nick Albin" }
+      "url": "https://www.youtube.com/watch?v=UPDuZRb1yhU"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Danaher\u0027s chained attack system from side control",
-      "description": "Submission Chains film study: Danaher\u0027s chained attack system from side control, taught by John Danaher.",
+      "name": "Chained attack system from side control",
+      "description": "Submission Chains film study: Chained attack system from side control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ehd846vFUfQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Ehd846vFUfQ",
       "url": "https://www.youtube.com/watch?v=Ehd846vFUfQ",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT947S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "How to build your own submission chains",
-      "description": "Submission Chains film study: How to build your own submission chains, taught by Nick Albin.",
+      "description": "Submission Chains film study: How to build your own submission chains.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JDpqQJdktq4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JDpqQJdktq4",
       "url": "https://www.youtube.com/watch?v=JDpqQJdktq4",
-      "creator": { "@type": "Person", "name": "Nick Albin" },
       "duration": "PT287S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Seven-submission flow chain",
-      "description": "Submission Chains film study: Seven-submission flow chain, taught by Johnny Jitsu.",
+      "description": "Submission Chains film study: Seven-submission flow chain.",
       "thumbnailUrl": "https://i.ytimg.com/vi/e3NL2SQZPV0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/e3NL2SQZPV0",
       "url": "https://www.youtube.com/watch?v=e3NL2SQZPV0",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
       "duration": "PT76S"
     }
   ]
@@ -220,7 +216,7 @@ Learn the response that links two attacks before adding a longer sequence. If th
 
 ![](https://www.youtube.com/watch?v=UPDuZRb1yhU)
 
-<p class="clip-credit"><strong>Rear naked choke finishing transitions</strong> — taught by Nick Albin · <a href="https://www.youtube.com/watch?v=UPDuZRb1yhU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear naked choke finishing transitions</strong> · <a href="https://www.youtube.com/watch?v=UPDuZRb1yhU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Learn the response that links two attacks before adding a longer sequence. If th
 
 ![](https://www.youtube.com/watch?v=Ehd846vFUfQ)
 
-<p class="clip-credit"><strong>Danaher&#39;s chained attack system from side control</strong> — taught by John Danaher · 15:47 · <a href="https://www.youtube.com/watch?v=Ehd846vFUfQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Chained attack system from side control</strong> · 15:47 · <a href="https://www.youtube.com/watch?v=Ehd846vFUfQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Learn the response that links two attacks before adding a longer sequence. If th
 
 ![](https://www.youtube.com/watch?v=JDpqQJdktq4)
 
-<p class="clip-credit"><strong>How to build your own submission chains</strong> — taught by Nick Albin · 4:47 · <a href="https://www.youtube.com/watch?v=JDpqQJdktq4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to build your own submission chains</strong> · 4:47 · <a href="https://www.youtube.com/watch?v=JDpqQJdktq4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Learn the response that links two attacks before adding a longer sequence. If th
 
 ![](https://www.youtube.com/watch?v=e3NL2SQZPV0)
 
-<p class="clip-credit"><strong>Seven-submission flow chain</strong> — taught by Johnny Jitsu · 1:16 · <a href="https://www.youtube.com/watch?v=e3NL2SQZPV0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Seven-submission flow chain</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=e3NL2SQZPV0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

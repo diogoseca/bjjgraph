@@ -155,22 +155,20 @@ description: "Guard Recovery from Zombie (defender): Keep a useful forearm betwe
       "@type": "VideoObject",
       "position": 1,
       "name": "Top lockdown turk to shut down recovery",
-      "description": "Guard Recovery from Zombie (Defender) film study: Top lockdown turk to shut down recovery, taught by Craig Jones.",
+      "description": "Guard Recovery from Zombie (Defender) film study: Top lockdown turk to shut down recovery.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lwwIfCAA7Zc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lwwIfCAA7Zc",
       "url": "https://www.youtube.com/watch?v=lwwIfCAA7Zc",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT207S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "How to break the lockdown half guard",
-      "description": "Guard Recovery from Zombie (Defender) film study: How to break the lockdown half guard, taught by Matt Arroyo.",
+      "description": "Guard Recovery from Zombie (Defender) film study: How to break the lockdown half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Xb4-phb4BhE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Xb4-phb4BhE",
       "url": "https://www.youtube.com/watch?v=Xb4-phb4BhE",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
       "duration": "PT251S"
     }
   ]
@@ -207,7 +205,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=lwwIfCAA7Zc)
 
-<p class="clip-credit"><strong>Top lockdown turk to shut down recovery</strong> — taught by Craig Jones · 3:27 · <a href="https://www.youtube.com/watch?v=lwwIfCAA7Zc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Top lockdown turk to shut down recovery</strong> · 3:27 · <a href="https://www.youtube.com/watch?v=lwwIfCAA7Zc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -215,7 +213,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=Xb4-phb4BhE)
 
-<p class="clip-credit"><strong>How to break the lockdown half guard</strong> — taught by Matt Arroyo · 4:11 · <a href="https://www.youtube.com/watch?v=Xb4-phb4BhE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to break the lockdown half guard</strong> · 4:11 · <a href="https://www.youtube.com/watch?v=Xb4-phb4BhE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

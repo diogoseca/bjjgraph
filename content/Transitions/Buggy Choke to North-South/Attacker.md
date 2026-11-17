@@ -181,22 +181,20 @@ description: "Buggy Choke to North-South (attacker): Watch for an arm reaching p
       "@type": "VideoObject",
       "position": 1,
       "name": "Buggy choke to Rubix guard variations",
-      "description": "Buggy Choke to North-South (Attacker) film study: Buggy choke to Rubix guard variations, taught by Jaezee.",
+      "description": "Buggy Choke to North-South (Attacker) film study: Buggy choke to Rubix guard variations.",
       "thumbnailUrl": "https://i.ytimg.com/vi/n4sA0G8bIKk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/n4sA0G8bIKk",
       "url": "https://www.youtube.com/watch?v=n4sA0G8bIKk",
-      "creator": { "@type": "Person", "name": "Jaezee" },
       "duration": "PT32S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Buggy chokes in competition",
-      "description": "Buggy Choke to North-South (Attacker) film study: Buggy chokes in competition, taught by Kade Ruotolo.",
+      "description": "Buggy Choke to North-South (Attacker) film study: Buggy chokes in competition.",
       "thumbnailUrl": "https://i.ytimg.com/vi/U-eR63GzcIo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/U-eR63GzcIo",
       "url": "https://www.youtube.com/watch?v=U-eR63GzcIo",
-      "creator": { "@type": "Person", "name": "Kade Ruotolo" },
       "duration": "PT67S"
     }
   ]
@@ -235,7 +233,7 @@ Protect the neck and clear the loop before circling around the shoulders. In the
 
 ![](https://www.youtube.com/watch?v=n4sA0G8bIKk)
 
-<p class="clip-credit"><strong>Buggy choke to Rubix guard variations</strong> — taught by Jaezee · 0:32 · <a href="https://www.youtube.com/watch?v=n4sA0G8bIKk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Buggy choke to Rubix guard variations</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=n4sA0G8bIKk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -243,7 +241,7 @@ Protect the neck and clear the loop before circling around the shoulders. In the
 
 ![](https://www.youtube.com/watch?v=U-eR63GzcIo)
 
-<p class="clip-credit"><strong>Buggy chokes in competition</strong> — taught by Kade Ruotolo · 1:07 · <a href="https://www.youtube.com/watch?v=U-eR63GzcIo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Buggy chokes in competition</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=U-eR63GzcIo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

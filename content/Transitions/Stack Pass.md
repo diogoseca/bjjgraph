@@ -46,8 +46,8 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "David Morris 24AUG  Closed Guard Break to Stack Pass",
-      "description": "Stack Pass film study: David Morris 24AUG  Closed Guard Break to Stack Pass.",
+      "name": "24AUG Closed Guard Break to Stack Pass",
+      "description": "Stack Pass film study: 24AUG Closed Guard Break to Stack Pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZhB5ipMXXPQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ZhB5ipMXXPQ",
       "url": "https://www.youtube.com/watch?v=ZhB5ipMXXPQ",
@@ -107,7 +107,7 @@ When executed properly, the Stack Pass transitions seamlessly into dominant side
 
 ![](https://www.youtube.com/watch?v=ZhB5ipMXXPQ)
 
-<p class="clip-credit"><strong>David Morris 24AUG  Closed Guard Break to Stack Pass</strong> · 6:03 · <a href="https://www.youtube.com/watch?v=ZhB5ipMXXPQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>24AUG Closed Guard Break to Stack Pass</strong> · 6:03 · <a href="https://www.youtube.com/watch?v=ZhB5ipMXXPQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

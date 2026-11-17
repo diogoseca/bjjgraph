@@ -167,11 +167,10 @@ description: "Master X-Guard Top in BJJ. Comprehensive guide for passing X-Guard
       "@type": "VideoObject",
       "position": 1,
       "name": "Counter x guard with a knee pull thru heel hook to back exposure",
-      "description": "X-Guard (Top) film study: Counter x guard with a knee pull thru heel hook to back exposure, taught by ZeGrapplez.",
+      "description": "X-Guard (Top) film study: Counter x guard with a knee pull thru heel hook to back exposure.",
       "thumbnailUrl": "https://i.ytimg.com/vi/noPXosvgzA0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/noPXosvgzA0",
       "url": "https://www.youtube.com/watch?v=noPXosvgzA0",
-      "creator": { "@type": "Person", "name": "ZeGrapplez" },
       "duration": "PT83S"
     }
   ]
@@ -203,7 +202,7 @@ X-Guard Top represents the top player's position when facing an opponent who has
 
 ![](https://www.youtube.com/watch?v=noPXosvgzA0)
 
-<p class="clip-credit"><strong>Counter x guard with a knee pull thru heel hook to back exposure</strong> — taught by ZeGrapplez · 1:23 · <a href="https://www.youtube.com/watch?v=noPXosvgzA0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Counter x guard with a knee pull thru heel hook to back exposure</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=noPXosvgzA0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -47,44 +47,40 @@ description: "Master High Elbow Guillotine in BJJ. Complete guide with safety pr
       "@type": "VideoObject",
       "position": 1,
       "name": "The Marcelotine Choke",
-      "description": "High Elbow Guillotine film study: The Marcelotine Choke, taught by Marcelo Garcia.",
+      "description": "High Elbow Guillotine film study: The Marcelotine Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
       "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT73S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Double Elbow to High Elbow Guillotine",
-      "description": "High Elbow Guillotine film study: Double Elbow to High Elbow Guillotine, taught by Marcelo Garcia.",
+      "description": "High Elbow Guillotine film study: Double Elbow to High Elbow Guillotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IvSVZuezQGo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IvSVZuezQGo",
       "url": "https://www.youtube.com/watch?v=IvSVZuezQGo",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT171S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "High Elbow Guillotine (Marcelotine)",
-      "description": "High Elbow Guillotine film study: High Elbow Guillotine (Marcelotine), taught by Wrecking Crew BJJ.",
+      "description": "High Elbow Guillotine film study: High Elbow Guillotine (Marcelotine).",
       "thumbnailUrl": "https://i.ytimg.com/vi/9U5nyBImGj4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9U5nyBImGj4",
       "url": "https://www.youtube.com/watch?v=9U5nyBImGj4",
-      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
       "duration": "PT45S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Marcelotine High Elbow Guillotine",
-      "description": "High Elbow Guillotine film study: Marcelotine High Elbow Guillotine, taught by Miguel Garcia.",
+      "description": "High Elbow Guillotine film study: Marcelotine High Elbow Guillotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HPAWgC8qxFY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HPAWgC8qxFY",
       "url": "https://www.youtube.com/watch?v=HPAWgC8qxFY",
-      "creator": { "@type": "Person", "name": "Miguel Garcia" },
       "duration": "PT47S"
     }
   ]
@@ -149,7 +145,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 ![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
 
-<p class="clip-credit"><strong>The Marcelotine Choke</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Marcelotine Choke</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -157,7 +153,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 ![](https://www.youtube.com/watch?v=IvSVZuezQGo)
 
-<p class="clip-credit"><strong>Double Elbow to High Elbow Guillotine</strong> — taught by Marcelo Garcia · 2:51 · <a href="https://www.youtube.com/watch?v=IvSVZuezQGo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Elbow to High Elbow Guillotine</strong> · 2:51 · <a href="https://www.youtube.com/watch?v=IvSVZuezQGo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -165,7 +161,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 ![](https://www.youtube.com/watch?v=9U5nyBImGj4)
 
-<p class="clip-credit"><strong>High Elbow Guillotine (Marcelotine)</strong> — taught by Wrecking Crew BJJ · 0:45 · <a href="https://www.youtube.com/watch?v=9U5nyBImGj4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>High Elbow Guillotine (Marcelotine)</strong> · 0:45 · <a href="https://www.youtube.com/watch?v=9U5nyBImGj4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -173,7 +169,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 ![](https://www.youtube.com/watch?v=HPAWgC8qxFY)
 
-<p class="clip-credit"><strong>Marcelotine High Elbow Guillotine</strong> — taught by Miguel Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=HPAWgC8qxFY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Marcelotine High Elbow Guillotine</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=HPAWgC8qxFY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

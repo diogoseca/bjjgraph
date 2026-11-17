@@ -165,8 +165,8 @@ description: "Master passing Lasso Guard from top position. Learn systematic cle
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "HOW-TO: Pass the lasso guard with Guilherme Mendes",
-      "description": "Lasso Guard (Top) film study: HOW-TO: Pass the lasso guard with Guilherme Mendes.",
+      "name": "HOW-TO: Pass the lasso guard",
+      "description": "Lasso Guard (Top) film study: HOW-TO: Pass the lasso guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RmeptYbx1to/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RmeptYbx1to",
       "url": "https://www.youtube.com/watch?v=RmeptYbx1to",
@@ -220,7 +220,7 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 ![](https://www.youtube.com/watch?v=RmeptYbx1to)
 
-<p class="clip-credit"><strong>HOW-TO: Pass the lasso guard with Guilherme Mendes</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=RmeptYbx1to" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>HOW-TO: Pass the lasso guard</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=RmeptYbx1to" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

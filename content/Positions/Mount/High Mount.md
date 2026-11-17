@@ -47,11 +47,10 @@ description: "Master High Mount in BJJ. Strategic guide covering advanced mount 
       "@type": "VideoObject",
       "position": 1,
       "name": "Escape from a high full mount",
-      "description": "High Mount film study: Escape from a high full mount, taught by TENZAN.",
+      "description": "High Mount film study: Escape from a high full mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_05Lwonu0mw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_05Lwonu0mw",
       "url": "https://www.youtube.com/watch?v=_05Lwonu0mw",
-      "creator": { "@type": "Person", "name": "TENZAN" },
       "duration": "PT78S"
     }
   ]
@@ -109,7 +108,7 @@ In competition contexts, High Mount represents the culmination of successful pas
 
 ![](https://www.youtube.com/watch?v=_05Lwonu0mw)
 
-<p class="clip-credit"><strong>Escape from a high full mount</strong> — taught by TENZAN · 1:18 · <a href="https://www.youtube.com/watch?v=_05Lwonu0mw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape from a high full mount</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=_05Lwonu0mw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -186,8 +186,8 @@ description: "How to execute Kimura from Standing in BJJ. Attacking perspective 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing Kimura by Michael Currier",
-      "description": "Kimura from Standing (Attacker) film study: Standing Kimura by Michael Currier.",
+      "name": "Standing Kimura",
+      "description": "Kimura from Standing (Attacker) film study: Standing Kimura.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HDnP_Kksmf8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HDnP_Kksmf8",
       "url": "https://www.youtube.com/watch?v=HDnP_Kksmf8",
@@ -232,7 +232,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 ![](https://www.youtube.com/watch?v=HDnP_Kksmf8)
 
-<p class="clip-credit"><strong>Standing Kimura by Michael Currier</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=HDnP_Kksmf8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Standing Kimura</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=HDnP_Kksmf8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

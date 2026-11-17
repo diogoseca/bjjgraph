@@ -154,43 +154,39 @@ description: "Link short sequences of positions with clear control checkpoints a
       "@type": "VideoObject",
       "position": 1,
       "name": "Transitioning into mount",
-      "description": "Position Chains film study: Transitioning into mount, taught by Stephan Kesting.",
+      "description": "Position Chains film study: Transitioning into mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gtHMHpP3sd4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gtHMHpP3sd4",
-      "url": "https://www.youtube.com/watch?v=gtHMHpP3sd4",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" }
+      "url": "https://www.youtube.com/watch?v=gtHMHpP3sd4"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Combinations and sequencing techniques",
-      "description": "Position Chains film study: Combinations and sequencing techniques, taught by Marcelo Garcia.",
+      "description": "Position Chains film study: Combinations and sequencing techniques.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X0pxgQGcvgI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/X0pxgQGcvgI",
       "url": "https://www.youtube.com/watch?v=X0pxgQGcvgI",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT872S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "How to develop your own submission chains",
-      "description": "Position Chains film study: How to develop your own submission chains, taught by Nick Albin.",
+      "description": "Position Chains film study: How to develop your own submission chains.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JDpqQJdktq4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JDpqQJdktq4",
       "url": "https://www.youtube.com/watch?v=JDpqQJdktq4",
-      "creator": { "@type": "Person", "name": "Nick Albin" },
       "duration": "PT287S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Seven-submission flow chain",
-      "description": "Position Chains film study: Seven-submission flow chain, taught by Johnny Jitsu.",
+      "description": "Position Chains film study: Seven-submission flow chain.",
       "thumbnailUrl": "https://i.ytimg.com/vi/e3NL2SQZPV0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/e3NL2SQZPV0",
       "url": "https://www.youtube.com/watch?v=e3NL2SQZPV0",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
       "duration": "PT76S"
     }
   ]
@@ -220,7 +216,7 @@ Plan the next two or three positions, then check what each transition needs. Kee
 
 ![](https://www.youtube.com/watch?v=gtHMHpP3sd4)
 
-<p class="clip-credit"><strong>Transitioning into mount</strong> — taught by Stephan Kesting · <a href="https://www.youtube.com/watch?v=gtHMHpP3sd4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Transitioning into mount</strong> · <a href="https://www.youtube.com/watch?v=gtHMHpP3sd4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Plan the next two or three positions, then check what each transition needs. Kee
 
 ![](https://www.youtube.com/watch?v=X0pxgQGcvgI)
 
-<p class="clip-credit"><strong>Combinations and sequencing techniques</strong> — taught by Marcelo Garcia · 14:32 · <a href="https://www.youtube.com/watch?v=X0pxgQGcvgI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Combinations and sequencing techniques</strong> · 14:32 · <a href="https://www.youtube.com/watch?v=X0pxgQGcvgI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Plan the next two or three positions, then check what each transition needs. Kee
 
 ![](https://www.youtube.com/watch?v=JDpqQJdktq4)
 
-<p class="clip-credit"><strong>How to develop your own submission chains</strong> — taught by Nick Albin · 4:47 · <a href="https://www.youtube.com/watch?v=JDpqQJdktq4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to develop your own submission chains</strong> · 4:47 · <a href="https://www.youtube.com/watch?v=JDpqQJdktq4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Plan the next two or three positions, then check what each transition needs. Kee
 
 ![](https://www.youtube.com/watch?v=e3NL2SQZPV0)
 
-<p class="clip-credit"><strong>Seven-submission flow chain</strong> — taught by Johnny Jitsu · 1:16 · <a href="https://www.youtube.com/watch?v=e3NL2SQZPV0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Seven-submission flow chain</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=e3NL2SQZPV0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

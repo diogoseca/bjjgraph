@@ -186,8 +186,8 @@ description: "How to execute Technical Stand Up to Single Leg in BJJ. Attacking 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Single Leg From Sit-Up Guard(No-Gi) ~ Cobrinha BJJ \u0026 Fitness Alliance Los\u2026",
-      "description": "Technical Stand Up to Single Leg (Attacker) film study: Single Leg From Sit-Up Guard(No-Gi) ~ Cobrinha BJJ \u0026 Fitness Alliance Los\u2026.",
+      "name": "Single Leg From Sit-Up Guard(No-Gi) ~ BJJ \u0026 Fitness Alliance Los\u2026",
+      "description": "Technical Stand Up to Single Leg (Attacker) film study: Single Leg From Sit-Up Guard(No-Gi) ~ BJJ \u0026 Fitness Alliance Los\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/BZbYrEONUxA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/BZbYrEONUxA",
       "url": "https://www.youtube.com/watch?v=BZbYrEONUxA",
@@ -221,7 +221,7 @@ The Technical Stand Up to Single Leg from the attacker's perspective is about co
 
 ![](https://www.youtube.com/watch?v=BZbYrEONUxA)
 
-<p class="clip-credit"><strong>Single Leg From Sit-Up Guard(No-Gi) ~ Cobrinha BJJ &amp; Fitness Alliance Los…</strong> · 1:58 · <a href="https://www.youtube.com/watch?v=BZbYrEONUxA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Single Leg From Sit-Up Guard(No-Gi) ~ BJJ &amp; Fitness Alliance Los…</strong> · 1:58 · <a href="https://www.youtube.com/watch?v=BZbYrEONUxA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

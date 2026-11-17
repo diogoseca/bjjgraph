@@ -181,22 +181,20 @@ description: "Waiter Sweep (attacker): Bring the shoulder under the hip while co
       "@type": "VideoObject",
       "position": 1,
       "name": "Waiter sweep from butterfly guard",
-      "description": "Waiter Sweep (Attacker) film study: Waiter sweep from butterfly guard, taught by Monument Jiu-Jitsu.",
+      "description": "Waiter Sweep (Attacker) film study: Waiter sweep from butterfly guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yzCTMZRc-ZY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yzCTMZRc-ZY",
       "url": "https://www.youtube.com/watch?v=yzCTMZRc-ZY",
-      "creator": { "@type": "Person", "name": "Monument Jiu-Jitsu" },
       "duration": "PT99S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Back pocket sweep from butterfly guard",
-      "description": "Waiter Sweep (Attacker) film study: Back pocket sweep from butterfly guard, taught by Animal.",
+      "description": "Waiter Sweep (Attacker) film study: Back pocket sweep from butterfly guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fCqC2CvOKt0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fCqC2CvOKt0",
       "url": "https://www.youtube.com/watch?v=fCqC2CvOKt0",
-      "creator": { "@type": "Person", "name": "Animal" },
       "duration": "PT51S"
     }
   ]
@@ -235,7 +233,7 @@ In Valle's gi demonstration, the collar connection manages the upper body while 
 
 ![](https://www.youtube.com/watch?v=yzCTMZRc-ZY)
 
-<p class="clip-credit"><strong>Waiter sweep from butterfly guard</strong> — taught by Monument Jiu-Jitsu · 1:39 · <a href="https://www.youtube.com/watch?v=yzCTMZRc-ZY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Waiter sweep from butterfly guard</strong> · 1:39 · <a href="https://www.youtube.com/watch?v=yzCTMZRc-ZY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -243,7 +241,7 @@ In Valle's gi demonstration, the collar connection manages the upper body while 
 
 ![](https://www.youtube.com/watch?v=fCqC2CvOKt0)
 
-<p class="clip-credit"><strong>Back pocket sweep from butterfly guard</strong> — taught by Animal · 0:51 · <a href="https://www.youtube.com/watch?v=fCqC2CvOKt0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back pocket sweep from butterfly guard</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=fCqC2CvOKt0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

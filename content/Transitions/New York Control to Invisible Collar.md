@@ -47,33 +47,30 @@ description: "New York Control to Invisible Collar isolates an arm and clears th
       "@type": "VideoObject",
       "position": 1,
       "name": "Invisible Collar from rubber guard",
-      "description": "New York Control to Invisible Collar film study: Invisible Collar from rubber guard, taught by Eddie Bravo.",
+      "description": "New York Control to Invisible Collar film study: Invisible Collar from rubber guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
       "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Crackhead Control to Invisible Collar tie",
-      "description": "New York Control to Invisible Collar film study: Crackhead Control to Invisible Collar tie, taught by Fletcher Kirwan.",
+      "description": "New York Control to Invisible Collar film study: Crackhead Control to Invisible Collar tie.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_3pJ2tPI0gY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_3pJ2tPI0gY",
       "url": "https://www.youtube.com/watch?v=_3pJ2tPI0gY",
-      "creator": { "@type": "Person", "name": "Fletcher Kirwan" },
       "duration": "PT16S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Invisible Collar choke from rubber guard",
-      "description": "New York Control to Invisible Collar film study: Invisible Collar choke from rubber guard, taught by David Thomas.",
+      "description": "New York Control to Invisible Collar film study: Invisible Collar choke from rubber guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CHT81JnfD2Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CHT81JnfD2Q",
       "url": "https://www.youtube.com/watch?v=CHT81JnfD2Q",
-      "creator": { "@type": "Person", "name": "David Thomas" },
       "duration": "PT57S"
     }
   ]
@@ -132,7 +129,7 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 
 ![](https://www.youtube.com/watch?v=KCyIwacRKu8)
 
-<p class="clip-credit"><strong>Invisible Collar from rubber guard</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible Collar from rubber guard</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -140,7 +137,7 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 
 ![](https://www.youtube.com/watch?v=_3pJ2tPI0gY)
 
-<p class="clip-credit"><strong>Crackhead Control to Invisible Collar tie</strong> — taught by Fletcher Kirwan · 0:16 · <a href="https://www.youtube.com/watch?v=_3pJ2tPI0gY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crackhead Control to Invisible Collar tie</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=_3pJ2tPI0gY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -148,7 +145,7 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 
 ![](https://www.youtube.com/watch?v=CHT81JnfD2Q)
 
-<p class="clip-credit"><strong>Invisible Collar choke from rubber guard</strong> — taught by David Thomas · 0:57 · <a href="https://www.youtube.com/watch?v=CHT81JnfD2Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible Collar choke from rubber guard</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=CHT81JnfD2Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

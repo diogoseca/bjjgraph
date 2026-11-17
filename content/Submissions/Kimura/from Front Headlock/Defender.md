@@ -160,8 +160,8 @@ description: "Defend against the Kimura from front headlock in BJJ. Recognize gr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kurt Osiander\u0027s Move of the Week - Kimura Defense",
-      "description": "Kimura from Front Headlock (Defender) film study: Kurt Osiander\u0027s Move of the Week - Kimura Defense.",
+      "name": "Move of the Week - Kimura Defense",
+      "description": "Kimura from Front Headlock (Defender) film study: Move of the Week - Kimura Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ug7kFflftL4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Ug7kFflftL4?start=28",
       "url": "https://www.youtube.com/watch?v=Ug7kFflftL4",
@@ -196,7 +196,7 @@ Defending the Kimura from front headlock requires recognizing the moment your op
 
 ![](https://www.youtube.com/watch?v=Ug7kFflftL4&start=28)
 
-<p class="clip-credit"><strong>Kurt Osiander&#39;s Move of the Week - Kimura Defense</strong> · 2:24 · <a href="https://www.youtube.com/watch?v=Ug7kFflftL4&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
+<p class="clip-credit"><strong>Move of the Week - Kimura Defense</strong> · 2:24 · <a href="https://www.youtube.com/watch?v=Ug7kFflftL4&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
 
 </div>
 

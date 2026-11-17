@@ -177,11 +177,10 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
       "@type": "VideoObject",
       "position": 2,
       "name": "Pass Half Guard Knee Shield with Knee Cut",
-      "description": "Half Guard (Top) film study: Pass Half Guard Knee Shield with Knee Cut, taught by War Room Jiu Jitsu.",
+      "description": "Half Guard (Top) film study: Pass Half Guard Knee Shield with Knee Cut.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
       "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
-      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
       "duration": "PT70S"
     }
   ]
@@ -229,7 +228,7 @@ Dean Lister demonstrates a calf slicer beginning from top half guard: a shoulder
 
 ![](https://www.youtube.com/watch?v=yj_6xcl2emA)
 
-<p class="clip-credit"><strong>Pass Half Guard Knee Shield with Knee Cut</strong> — taught by War Room Jiu Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pass Half Guard Knee Shield with Knee Cut</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

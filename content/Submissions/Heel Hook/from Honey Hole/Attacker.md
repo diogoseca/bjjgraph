@@ -196,8 +196,8 @@ description: "Learn to finish the heel hook from Honey Hole with precise grip me
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Craig Jones - X Guard to Heel Hook",
-      "description": "Heel Hook from Honey Hole (Attacker) film study: Craig Jones - X Guard to Heel Hook.",
+      "name": "X Guard to Heel Hook",
+      "description": "Heel Hook from Honey Hole (Attacker) film study: X Guard to Heel Hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
       "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
@@ -250,7 +250,7 @@ The heel hook from Honey Hole is the premier finishing technique in modern leg l
 
 ![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
 
-<p class="clip-credit"><strong>Craig Jones - X Guard to Heel Hook</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>X Guard to Heel Hook</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

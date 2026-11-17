@@ -181,22 +181,20 @@ description: "Strip Grip from Zombie (attacker): Keep a useful forearm between t
       "@type": "VideoObject",
       "position": 1,
       "name": "Two rubber guard grip details in one minute",
-      "description": "Strip Grip from Zombie (Attacker) film study: Two rubber guard grip details in one minute, taught by Brandon Mccaghren.",
+      "description": "Strip Grip from Zombie (Attacker) film study: Two rubber guard grip details in one minute.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cY1xCIx-9-I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cY1xCIx-9-I",
       "url": "https://www.youtube.com/watch?v=cY1xCIx-9-I",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
       "duration": "PT57S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Eddie Bravo: Lockdown Strategies",
-      "description": "Strip Grip from Zombie (Attacker) film study: Eddie Bravo: Lockdown Strategies, taught by Eddie Bravo.",
+      "name": "Lockdown Strategies",
+      "description": "Strip Grip from Zombie (Attacker) film study: Lockdown Strategies.",
       "thumbnailUrl": "https://i.ytimg.com/vi/g0gKqgv_Bbc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/g0gKqgv_Bbc",
       "url": "https://www.youtube.com/watch?v=g0gKqgv_Bbc",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     }
   ]
@@ -235,7 +233,7 @@ The first escape task is keeping the hand and elbow inside the developing overho
 
 ![](https://www.youtube.com/watch?v=cY1xCIx-9-I)
 
-<p class="clip-credit"><strong>Two rubber guard grip details in one minute</strong> — taught by Brandon Mccaghren · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Two rubber guard grip details in one minute</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -243,7 +241,7 @@ The first escape task is keeping the hand and elbow inside the developing overho
 
 ![](https://www.youtube.com/watch?v=g0gKqgv_Bbc)
 
-<p class="clip-credit"><strong>Eddie Bravo: Lockdown Strategies</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=g0gKqgv_Bbc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lockdown Strategies</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=g0gKqgv_Bbc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

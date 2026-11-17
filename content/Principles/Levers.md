@@ -154,32 +154,29 @@ description: "Adjust support points, limb position, and force direction to make 
       "@type": "VideoObject",
       "position": 1,
       "name": "Maximizing Kimura leverage against bigger opponents",
-      "description": "Levers film study: Maximizing Kimura leverage against bigger opponents, taught by Stephan Kesting.",
+      "description": "Levers film study: Maximizing Kimura leverage against bigger opponents.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pcTXJ6qK9rE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pcTXJ6qK9rE",
-      "url": "https://www.youtube.com/watch?v=pcTXJ6qK9rE",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" }
+      "url": "https://www.youtube.com/watch?v=pcTXJ6qK9rE"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Leverage explained: defending armbars with levers",
-      "description": "Levers film study: Leverage explained: defending armbars with levers, taught by Stephan Kesting.",
+      "description": "Levers film study: Leverage explained: defending armbars with levers.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RDlDO3DipSU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RDlDO3DipSU",
       "url": "https://www.youtube.com/watch?v=RDlDO3DipSU",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
       "duration": "PT1019S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "The surprising physics and levers behind jiu-jitsu",
-      "description": "Levers film study: The surprising physics and levers behind jiu-jitsu, taught by BBC Reel.",
+      "description": "Levers film study: The surprising physics and levers behind jiu-jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PbpwQzUwmE8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PbpwQzUwmE8",
       "url": "https://www.youtube.com/watch?v=PbpwQzUwmE8",
-      "creator": { "@type": "Person", "name": "BBC Reel" },
       "duration": "PT363S"
     }
   ]
@@ -209,7 +206,7 @@ When a movement feels heavy, check where the support point sits and where you ap
 
 ![](https://www.youtube.com/watch?v=pcTXJ6qK9rE)
 
-<p class="clip-credit"><strong>Maximizing Kimura leverage against bigger opponents</strong> — taught by Stephan Kesting · <a href="https://www.youtube.com/watch?v=pcTXJ6qK9rE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Maximizing Kimura leverage against bigger opponents</strong> · <a href="https://www.youtube.com/watch?v=pcTXJ6qK9rE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,7 +214,7 @@ When a movement feels heavy, check where the support point sits and where you ap
 
 ![](https://www.youtube.com/watch?v=RDlDO3DipSU)
 
-<p class="clip-credit"><strong>Leverage explained: defending armbars with levers</strong> — taught by Stephan Kesting · 16:59 · <a href="https://www.youtube.com/watch?v=RDlDO3DipSU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leverage explained: defending armbars with levers</strong> · 16:59 · <a href="https://www.youtube.com/watch?v=RDlDO3DipSU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +222,7 @@ When a movement feels heavy, check where the support point sits and where you ap
 
 ![](https://www.youtube.com/watch?v=PbpwQzUwmE8)
 
-<p class="clip-credit"><strong>The surprising physics and levers behind jiu-jitsu</strong> — taught by BBC Reel · 6:03 · <a href="https://www.youtube.com/watch?v=PbpwQzUwmE8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The surprising physics and levers behind jiu-jitsu</strong> · 6:03 · <a href="https://www.youtube.com/watch?v=PbpwQzUwmE8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

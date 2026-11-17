@@ -181,22 +181,20 @@ description: "Arm Extraction and Pass (attacker): Avoid extending an arm between
       "@type": "VideoObject",
       "position": 1,
       "name": "Passing off the defensive roll",
-      "description": "Arm Extraction and Pass (Attacker) film study: Passing off the defensive roll, taught by Gordon Ryan.",
+      "description": "Arm Extraction and Pass (Attacker) film study: Passing off the defensive roll.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CkX_FzPFw8M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CkX_FzPFw8M",
       "url": "https://www.youtube.com/watch?v=CkX_FzPFw8M",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT111S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Cross knee pass, preventing the turtle",
-      "description": "Arm Extraction and Pass (Attacker) film study: Cross knee pass, preventing the turtle, taught by Inverted Gear.",
+      "description": "Arm Extraction and Pass (Attacker) film study: Cross knee pass, preventing the turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6_4uK_c0-cI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6_4uK_c0-cI",
       "url": "https://www.youtube.com/watch?v=6_4uK_c0-cI",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
       "duration": "PT79S"
     }
   ]
@@ -235,7 +233,7 @@ The arm escape comes before hip control for the pass: recover the elbow from the
 
 ![](https://www.youtube.com/watch?v=CkX_FzPFw8M)
 
-<p class="clip-credit"><strong>Passing off the defensive roll</strong> — taught by Gordon Ryan · 1:51 · <a href="https://www.youtube.com/watch?v=CkX_FzPFw8M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing off the defensive roll</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=CkX_FzPFw8M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -243,7 +241,7 @@ The arm escape comes before hip control for the pass: recover the elbow from the
 
 ![](https://www.youtube.com/watch?v=6_4uK_c0-cI)
 
-<p class="clip-credit"><strong>Cross knee pass, preventing the turtle</strong> — taught by Inverted Gear · 1:19 · <a href="https://www.youtube.com/watch?v=6_4uK_c0-cI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross knee pass, preventing the turtle</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=6_4uK_c0-cI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -166,33 +166,30 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
       "@type": "VideoObject",
       "position": 1,
       "name": "The Gift Wrap in 2 Minutes - No GI BJJ",
-      "description": "Gift Wrap (Top) film study: The Gift Wrap in 2 Minutes - No GI BJJ, taught by Brian Glick.",
+      "description": "Gift Wrap (Top) film study: The Gift Wrap in 2 Minutes - No GI BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
       "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
       "duration": "PT111S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Side Control Sit Back Gift Wrap to Back",
-      "description": "Gift Wrap (Top) film study: Side Control Sit Back Gift Wrap to Back, taught by Watauga BJJ.",
+      "description": "Gift Wrap (Top) film study: Side Control Sit Back Gift Wrap to Back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-ypj83J2Ngk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-ypj83J2Ngk",
       "url": "https://www.youtube.com/watch?v=-ypj83J2Ngk",
-      "creator": { "@type": "Person", "name": "Watauga BJJ" },
       "duration": "PT23S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Taking The Back - GIFT WRAP",
-      "description": "Gift Wrap (Top) film study: Taking The Back - GIFT WRAP, taught by Henry Akins.",
+      "description": "Gift Wrap (Top) film study: Taking The Back - GIFT WRAP.",
       "thumbnailUrl": "https://i.ytimg.com/vi/eKTd-9SkrVk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/eKTd-9SkrVk",
       "url": "https://www.youtube.com/watch?v=eKTd-9SkrVk",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
       "duration": "PT80S"
     }
   ]
@@ -229,7 +226,7 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 ![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
 
-<p class="clip-credit"><strong>The Gift Wrap in 2 Minutes - No GI BJJ</strong> — taught by Brian Glick · 1:51 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Gift Wrap in 2 Minutes - No GI BJJ</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,7 +234,7 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 ![](https://www.youtube.com/watch?v=-ypj83J2Ngk)
 
-<p class="clip-credit"><strong>Side Control Sit Back Gift Wrap to Back</strong> — taught by Watauga BJJ · 0:23 · <a href="https://www.youtube.com/watch?v=-ypj83J2Ngk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control Sit Back Gift Wrap to Back</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=-ypj83J2Ngk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -245,7 +242,7 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 ![](https://www.youtube.com/watch?v=eKTd-9SkrVk)
 
-<p class="clip-credit"><strong>Taking The Back - GIFT WRAP</strong> — taught by Henry Akins · 1:20 · <a href="https://www.youtube.com/watch?v=eKTd-9SkrVk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Taking The Back - GIFT WRAP</strong> · 1:20 · <a href="https://www.youtube.com/watch?v=eKTd-9SkrVk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

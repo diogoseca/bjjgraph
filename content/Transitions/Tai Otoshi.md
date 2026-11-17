@@ -56,8 +56,8 @@ description: "Master Tai Otoshi (body drop) in BJJ and Judo. Complete execution 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Judo for Jiu Jitsu - Jimmy Pedro - Tai Otoshi - BJJ Weekly #048",
-      "description": "Tai Otoshi film study: Judo for Jiu Jitsu - Jimmy Pedro - Tai Otoshi - BJJ Weekly #048.",
+      "name": "Judo for Jiu Jitsu - Tai Otoshi - BJJ Weekly #048",
+      "description": "Tai Otoshi film study: Judo for Jiu Jitsu - Tai Otoshi - BJJ Weekly #048.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bPPigY8SxRc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bPPigY8SxRc?start=29",
       "url": "https://www.youtube.com/watch?v=bPPigY8SxRc",
@@ -121,7 +121,7 @@ Originating in Kodokan judo, Tai Otoshi has become one of the most reliable stan
 
 ![](https://www.youtube.com/watch?v=bPPigY8SxRc&start=29)
 
-<p class="clip-credit"><strong>Judo for Jiu Jitsu - Jimmy Pedro - Tai Otoshi - BJJ Weekly #048</strong> · 2:53 · <a href="https://www.youtube.com/watch?v=bPPigY8SxRc&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
+<p class="clip-credit"><strong>Judo for Jiu Jitsu - Tai Otoshi - BJJ Weekly #048</strong> · 2:53 · <a href="https://www.youtube.com/watch?v=bPPigY8SxRc&t=29s" rel="noopener">Watch on YouTube from 0:29</a></p>
 
 </div>
 

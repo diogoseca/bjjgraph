@@ -180,8 +180,8 @@ description: "How to execute Crab Ride to Back in BJJ. Attacking perspective wit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Dlr crab ride back take: Moncaio Brothers JiuJitsu",
-      "description": "Crab Ride to Back (Attacker) film study: Dlr crab ride back take: Moncaio Brothers JiuJitsu.",
+      "name": "Dlr crab ride back take",
+      "description": "Crab Ride to Back (Attacker) film study: Dlr crab ride back take.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Y6fBPjHzfv4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Y6fBPjHzfv4",
       "url": "https://www.youtube.com/watch?v=Y6fBPjHzfv4",
@@ -219,7 +219,7 @@ What makes this transition particularly effective is the combination of mechanic
 
 ![](https://www.youtube.com/watch?v=Y6fBPjHzfv4)
 
-<p class="clip-credit"><strong>Dlr crab ride back take: Moncaio Brothers JiuJitsu</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=Y6fBPjHzfv4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Dlr crab ride back take</strong> · 0:27 · <a href="https://www.youtube.com/watch?v=Y6fBPjHzfv4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,8 +46,8 @@ description: "Master the belly down armbar finish from open guard in BJJ. Learn 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rafael Mendes | Details for Belly Down Armbar from De La Riva |\u2026",
-      "description": "Belly Down Armbar from Open Guard film study: Rafael Mendes | Details for Belly Down Armbar from De La Riva |\u2026.",
+      "name": "Details for Belly Down Armbar from De La Riva\u2026",
+      "description": "Belly Down Armbar from Open Guard film study: Details for Belly Down Armbar from De La Riva\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AnNeGbovZKs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AnNeGbovZKs",
       "url": "https://www.youtube.com/watch?v=AnNeGbovZKs",
@@ -123,7 +123,7 @@ This submission demands precise timing during the transition from guard retentio
 
 ![](https://www.youtube.com/watch?v=AnNeGbovZKs)
 
-<p class="clip-credit"><strong>Rafael Mendes | Details for Belly Down Armbar from De La Riva |…</strong> · 7:53 · <a href="https://www.youtube.com/watch?v=AnNeGbovZKs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Details for Belly Down Armbar from De La Riva…</strong> · 7:53 · <a href="https://www.youtube.com/watch?v=AnNeGbovZKs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

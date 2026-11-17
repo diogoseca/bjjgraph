@@ -46,8 +46,8 @@ description: "Master the Brabo Choke in BJJ. Complete guide with safety protocol
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "RUSTAM KHABILOV. BRABO CHOKE FROM FRONT HEADLOCK - STAR TECHNIQUES # 4",
-      "description": "Brabo Choke from Front Headlock film study: RUSTAM KHABILOV. BRABO CHOKE FROM FRONT HEADLOCK - STAR TECHNIQUES # 4.",
+      "name": "BRABO CHOKE FROM FRONT HEADLOCK - STAR TECHNIQUES # 4",
+      "description": "Brabo Choke from Front Headlock film study: BRABO CHOKE FROM FRONT HEADLOCK - STAR TECHNIQUES # 4.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HUiCQHRTsPk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HUiCQHRTsPk",
       "url": "https://www.youtube.com/watch?v=HUiCQHRTsPk",
@@ -139,7 +139,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 ![](https://www.youtube.com/watch?v=HUiCQHRTsPk)
 
-<p class="clip-credit"><strong>RUSTAM KHABILOV. BRABO CHOKE FROM FRONT HEADLOCK - STAR TECHNIQUES # 4</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=HUiCQHRTsPk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BRABO CHOKE FROM FRONT HEADLOCK - STAR TECHNIQUES # 4</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=HUiCQHRTsPk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

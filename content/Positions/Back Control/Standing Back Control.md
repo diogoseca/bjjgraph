@@ -47,11 +47,10 @@ description: "Master standing back control in BJJ. Strategic guide covering when
       "@type": "VideoObject",
       "position": 1,
       "name": "Mat Return: BJJ takedowns from standing Back Control.",
-      "description": "Standing Back Control film study: Mat Return: BJJ takedowns from standing Back Control., taught by William Abreu.",
+      "description": "Standing Back Control film study: Mat Return: BJJ takedowns from standing Back Control..",
       "thumbnailUrl": "https://i.ytimg.com/vi/HWrsepCcaUk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HWrsepCcaUk",
       "url": "https://www.youtube.com/watch?v=HWrsepCcaUk",
-      "creator": { "@type": "Person", "name": "William Abreu" },
       "duration": "PT194S"
     }
   ]
@@ -107,7 +106,7 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 
 ![](https://www.youtube.com/watch?v=HWrsepCcaUk)
 
-<p class="clip-credit"><strong>Mat Return: BJJ takedowns from standing Back Control.</strong> — taught by William Abreu · 3:14 · <a href="https://www.youtube.com/watch?v=HWrsepCcaUk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mat Return: BJJ takedowns from standing Back Control.</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=HWrsepCcaUk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

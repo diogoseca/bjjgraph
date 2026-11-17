@@ -46,8 +46,8 @@ description: "Master escaping the Vaporizer in BJJ. Complete guide to clearing l
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Nullify the Vaporizer - Houston BJJ Team Caique",
-      "description": "Escape from Vaporizer film study: Nullify the Vaporizer - Houston BJJ Team Caique.",
+      "name": "Nullify the Vaporizer - Houston BJJ Team",
+      "description": "Escape from Vaporizer film study: Nullify the Vaporizer - Houston BJJ Team.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0urKvFXZ4FU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0urKvFXZ4FU?start=506",
       "url": "https://www.youtube.com/watch?v=0urKvFXZ4FU",
@@ -107,7 +107,7 @@ Timing and patience define the difference between successful and failed escape a
 
 ![](https://www.youtube.com/watch?v=0urKvFXZ4FU&start=506)
 
-<p class="clip-credit"><strong>Nullify the Vaporizer - Houston BJJ Team Caique</strong> · 12:04 · <a href="https://www.youtube.com/watch?v=0urKvFXZ4FU&t=506s" rel="noopener">Watch on YouTube from 8:26</a></p>
+<p class="clip-credit"><strong>Nullify the Vaporizer - Houston BJJ Team</strong> · 12:04 · <a href="https://www.youtube.com/watch?v=0urKvFXZ4FU&t=506s" rel="noopener">Watch on YouTube from 8:26</a></p>
 
 </div>
 

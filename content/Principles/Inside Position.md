@@ -154,32 +154,29 @@ description: "Use underhooks, inside ties, knees, and feet to occupy useful spac
       "@type": "VideoObject",
       "position": 1,
       "name": "Inside-tie control into a double leg",
-      "description": "Inside Position film study: Inside-tie control into a double leg, taught by Sean Russell.",
+      "description": "Inside Position film study: Inside-tie control into a double leg.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PRvfJSP_MdI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PRvfJSP_MdI",
-      "url": "https://www.youtube.com/watch?v=PRvfJSP_MdI",
-      "creator": { "@type": "Person", "name": "Sean Russell" }
+      "url": "https://www.youtube.com/watch?v=PRvfJSP_MdI"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Danaher\u0027s inside position concept explained",
-      "description": "Inside Position film study: Danaher\u0027s inside position concept explained, taught by Chadi.",
+      "name": "Inside position concept explained",
+      "description": "Inside Position film study: Inside position concept explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/my3fvg5RDJ0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/my3fvg5RDJ0",
       "url": "https://www.youtube.com/watch?v=my3fvg5RDJ0",
-      "creator": { "@type": "Person", "name": "Chadi" },
       "duration": "PT737S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "What is inside position and why it matters",
-      "description": "Inside Position film study: What is inside position and why it matters, taught by Jordan Preisinger.",
+      "description": "Inside Position film study: What is inside position and why it matters.",
       "thumbnailUrl": "https://i.ytimg.com/vi/peYJDb7LZMM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/peYJDb7LZMM",
       "url": "https://www.youtube.com/watch?v=peYJDb7LZMM",
-      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
       "duration": "PT499S"
     }
   ]
@@ -209,7 +206,7 @@ Choose the inside control that fits the position: an underhook in the clinch or 
 
 ![](https://www.youtube.com/watch?v=PRvfJSP_MdI)
 
-<p class="clip-credit"><strong>Inside-tie control into a double leg</strong> — taught by Sean Russell · <a href="https://www.youtube.com/watch?v=PRvfJSP_MdI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inside-tie control into a double leg</strong> · <a href="https://www.youtube.com/watch?v=PRvfJSP_MdI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,7 +214,7 @@ Choose the inside control that fits the position: an underhook in the clinch or 
 
 ![](https://www.youtube.com/watch?v=my3fvg5RDJ0)
 
-<p class="clip-credit"><strong>Danaher&#39;s inside position concept explained</strong> — taught by Chadi · 12:17 · <a href="https://www.youtube.com/watch?v=my3fvg5RDJ0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inside position concept explained</strong> · 12:17 · <a href="https://www.youtube.com/watch?v=my3fvg5RDJ0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +222,7 @@ Choose the inside control that fits the position: an underhook in the clinch or 
 
 ![](https://www.youtube.com/watch?v=peYJDb7LZMM)
 
-<p class="clip-credit"><strong>What is inside position and why it matters</strong> — taught by Jordan Preisinger · 8:19 · <a href="https://www.youtube.com/watch?v=peYJDb7LZMM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>What is inside position and why it matters</strong> · 8:19 · <a href="https://www.youtube.com/watch?v=peYJDb7LZMM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

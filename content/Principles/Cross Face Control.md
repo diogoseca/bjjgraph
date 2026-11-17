@@ -154,43 +154,39 @@ description: "Cross face control uses upper-body contact to limit an opponent’
       "@type": "VideoObject",
       "position": 1,
       "name": "A modified crossface for control",
-      "description": "Cross Face Control film study: A modified crossface for control, taught by Jordan Preisinger.",
+      "description": "Cross Face Control film study: A modified crossface for control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IvTJBVitYT0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IvTJBVitYT0",
-      "url": "https://www.youtube.com/watch?v=IvTJBVitYT0",
-      "creator": { "@type": "Person", "name": "Jordan Preisinger" }
+      "url": "https://www.youtube.com/watch?v=IvTJBVitYT0"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Shallow cross face detail",
-      "description": "Cross Face Control film study: Shallow cross face detail, taught by Craig Jones.",
+      "description": "Cross Face Control film study: Shallow cross face detail.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PTe4-NhLXf8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PTe4-NhLXf8",
       "url": "https://www.youtube.com/watch?v=PTe4-NhLXf8",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT24S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Setting a crossface: a crucial control skill",
-      "description": "Cross Face Control film study: Setting a crossface: a crucial control skill, taught by John Danaher.",
+      "description": "Cross Face Control film study: Setting a crossface: a crucial control skill.",
       "thumbnailUrl": "https://i.ytimg.com/vi/eA9MZmfVrmA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/eA9MZmfVrmA",
       "url": "https://www.youtube.com/watch?v=eA9MZmfVrmA",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT435S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "How to maximize your crossface pressure",
-      "description": "Cross Face Control film study: How to maximize your crossface pressure, taught by Rob Vella.",
+      "description": "Cross Face Control film study: How to maximize your crossface pressure.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IugFZC3fjDg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IugFZC3fjDg",
       "url": "https://www.youtube.com/watch?v=IugFZC3fjDg",
-      "creator": { "@type": "Person", "name": "Rob Vella" },
       "duration": "PT326S"
     }
   ]
@@ -220,7 +216,7 @@ Connect head control to your base and hip control so the opponent cannot simply 
 
 ![](https://www.youtube.com/watch?v=IvTJBVitYT0)
 
-<p class="clip-credit"><strong>A modified crossface for control</strong> — taught by Jordan Preisinger · <a href="https://www.youtube.com/watch?v=IvTJBVitYT0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>A modified crossface for control</strong> · <a href="https://www.youtube.com/watch?v=IvTJBVitYT0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Connect head control to your base and hip control so the opponent cannot simply 
 
 ![](https://www.youtube.com/watch?v=PTe4-NhLXf8)
 
-<p class="clip-credit"><strong>Shallow cross face detail</strong> — taught by Craig Jones · 0:24 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shallow cross face detail</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Connect head control to your base and hip control so the opponent cannot simply 
 
 ![](https://www.youtube.com/watch?v=eA9MZmfVrmA)
 
-<p class="clip-credit"><strong>Setting a crossface: a crucial control skill</strong> — taught by John Danaher · 7:15 · <a href="https://www.youtube.com/watch?v=eA9MZmfVrmA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Setting a crossface: a crucial control skill</strong> · 7:15 · <a href="https://www.youtube.com/watch?v=eA9MZmfVrmA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Connect head control to your base and hip control so the opponent cannot simply 
 
 ![](https://www.youtube.com/watch?v=IugFZC3fjDg)
 
-<p class="clip-credit"><strong>How to maximize your crossface pressure</strong> — taught by Rob Vella · 5:26 · <a href="https://www.youtube.com/watch?v=IugFZC3fjDg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to maximize your crossface pressure</strong> · 5:26 · <a href="https://www.youtube.com/watch?v=IugFZC3fjDg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

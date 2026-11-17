@@ -47,22 +47,20 @@ description: "An Anaconda escape must first address the head-and-arm enclosure; 
       "@type": "VideoObject",
       "position": 1,
       "name": "Escaping the anaconda choke",
-      "description": "Rolling Escape from Anaconda film study: Escaping the anaconda choke, taught by ZombieProofBJJ.",
+      "description": "Rolling Escape from Anaconda film study: Escaping the anaconda choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/czQckiDogRc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/czQckiDogRc",
       "url": "https://www.youtube.com/watch?v=czQckiDogRc",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
       "duration": "PT92S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Anaconda choke defense",
-      "description": "Rolling Escape from Anaconda film study: Anaconda choke defense, taught by SFS MMA.",
+      "description": "Rolling Escape from Anaconda film study: Anaconda choke defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SXm9wA1HcvM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SXm9wA1HcvM",
       "url": "https://www.youtube.com/watch?v=SXm9wA1HcvM",
-      "creator": { "@type": "Person", "name": "SFS MMA" },
       "duration": "PT64S"
     }
   ]
@@ -121,7 +119,7 @@ Instructional sources: [Stephan Kesting and Denis Kang — the Anaconda choke](h
 
 ![](https://www.youtube.com/watch?v=czQckiDogRc)
 
-<p class="clip-credit"><strong>Escaping the anaconda choke</strong> — taught by ZombieProofBJJ · 1:32 · <a href="https://www.youtube.com/watch?v=czQckiDogRc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping the anaconda choke</strong> · 1:32 · <a href="https://www.youtube.com/watch?v=czQckiDogRc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -129,7 +127,7 @@ Instructional sources: [Stephan Kesting and Denis Kang — the Anaconda choke](h
 
 ![](https://www.youtube.com/watch?v=SXm9wA1HcvM)
 
-<p class="clip-credit"><strong>Anaconda choke defense</strong> — taught by SFS MMA · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda choke defense</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -154,43 +154,39 @@ description: "Recognize the isolation and rotation behind shoulder and leg attac
       "@type": "VideoObject",
       "position": 1,
       "name": "Three Kimura finishing mechanics",
-      "description": "Rotational Breaks film study: Three Kimura finishing mechanics, taught by Stephan Kesting.",
+      "description": "Rotational Breaks film study: Three Kimura finishing mechanics.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Xtwg59n7Yls/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Xtwg59n7Yls",
-      "url": "https://www.youtube.com/watch?v=Xtwg59n7Yls",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" }
+      "url": "https://www.youtube.com/watch?v=Xtwg59n7Yls"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Ankle lock breaking mechanics: grips and rotation",
-      "description": "Rotational Breaks film study: Ankle lock breaking mechanics: grips and rotation, taught by Energia Martial Arts.",
+      "description": "Rotational Breaks film study: Ankle lock breaking mechanics: grips and rotation.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-6m7kyxrgRM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-6m7kyxrgRM",
       "url": "https://www.youtube.com/watch?v=-6m7kyxrgRM",
-      "creator": { "@type": "Person", "name": "Energia Martial Arts" },
       "duration": "PT760S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Danaher\u0027s key detail for rotational ankle locks",
-      "description": "Rotational Breaks film study: Danaher\u0027s key detail for rotational ankle locks, taught by John Danaher.",
+      "name": "Key detail for rotational ankle locks",
+      "description": "Rotational Breaks film study: Key detail for rotational ankle locks.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nF301WIHEdw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/nF301WIHEdw",
       "url": "https://www.youtube.com/watch?v=nF301WIHEdw",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT933S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Push, shake and rotate to break structure",
-      "description": "Rotational Breaks film study: Push, shake and rotate to break structure, taught by John Danaher.",
+      "description": "Rotational Breaks film study: Push, shake and rotate to break structure.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XXPJc-i4_Co/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XXPJc-i4_Co",
       "url": "https://www.youtube.com/watch?v=XXPJc-i4_Co",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT12S"
     }
   ]
@@ -220,7 +216,7 @@ The setup combines limb control with a limit on the opponent’s body movement. 
 
 ![](https://www.youtube.com/watch?v=Xtwg59n7Yls)
 
-<p class="clip-credit"><strong>Three Kimura finishing mechanics</strong> — taught by Stephan Kesting · <a href="https://www.youtube.com/watch?v=Xtwg59n7Yls" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Three Kimura finishing mechanics</strong> · <a href="https://www.youtube.com/watch?v=Xtwg59n7Yls" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ The setup combines limb control with a limit on the opponent’s body movement. 
 
 ![](https://www.youtube.com/watch?v=-6m7kyxrgRM)
 
-<p class="clip-credit"><strong>Ankle lock breaking mechanics: grips and rotation</strong> — taught by Energia Martial Arts · 12:40 · <a href="https://www.youtube.com/watch?v=-6m7kyxrgRM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ankle lock breaking mechanics: grips and rotation</strong> · 12:40 · <a href="https://www.youtube.com/watch?v=-6m7kyxrgRM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ The setup combines limb control with a limit on the opponent’s body movement. 
 
 ![](https://www.youtube.com/watch?v=nF301WIHEdw)
 
-<p class="clip-credit"><strong>Danaher&#39;s key detail for rotational ankle locks</strong> — taught by John Danaher · 15:33 · <a href="https://www.youtube.com/watch?v=nF301WIHEdw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Key detail for rotational ankle locks</strong> · 15:33 · <a href="https://www.youtube.com/watch?v=nF301WIHEdw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ The setup combines limb control with a limit on the opponent’s body movement. 
 
 ![](https://www.youtube.com/watch?v=XXPJc-i4_Co)
 
-<p class="clip-credit"><strong>Push, shake and rotate to break structure</strong> — taught by John Danaher · 0:12 · <a href="https://www.youtube.com/watch?v=XXPJc-i4_Co" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Push, shake and rotate to break structure</strong> · 0:12 · <a href="https://www.youtube.com/watch?v=XXPJc-i4_Co" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -154,43 +154,39 @@ description: "Chin protection makes neck access harder while your hands clear gr
       "@type": "VideoObject",
       "position": 1,
       "name": "How attackers work past the chin block",
-      "description": "Chin Protection film study: How attackers work past the chin block, taught by Rory Van Vliet.",
+      "description": "Chin Protection film study: How attackers work past the chin block.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hWJYESElz-A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hWJYESElz-A",
-      "url": "https://www.youtube.com/watch?v=hWJYESElz-A",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=hWJYESElz-A"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Why the chin tuck fails against the rear naked choke",
-      "description": "Chin Protection film study: Why the chin tuck fails against the rear naked choke, taught by YourKravMaga.",
+      "description": "Chin Protection film study: Why the chin tuck fails against the rear naked choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UuLU4f4NfYo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UuLU4f4NfYo",
       "url": "https://www.youtube.com/watch?v=UuLU4f4NfYo",
-      "creator": { "@type": "Person", "name": "YourKravMaga" },
       "duration": "PT63S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Late rear naked choke defense using the chin",
-      "description": "Chin Protection film study: Late rear naked choke defense using the chin, taught by SBG PDX.",
+      "description": "Chin Protection film study: Late rear naked choke defense using the chin.",
       "thumbnailUrl": "https://i.ytimg.com/vi/znAUCgUkZ8s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/znAUCgUkZ8s",
       "url": "https://www.youtube.com/watch?v=znAUCgUkZ8s",
-      "creator": { "@type": "Person", "name": "SBG PDX" },
       "duration": "PT272S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Tracing the jaw to beat the chin defense",
-      "description": "Chin Protection film study: Tracing the jaw to beat the chin defense, taught by Coach Brian.",
+      "description": "Chin Protection film study: Tracing the jaw to beat the chin defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/q-2iAitqDE4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/q-2iAitqDE4",
       "url": "https://www.youtube.com/watch?v=q-2iAitqDE4",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
       "duration": "PT306S"
     }
   ]
@@ -220,7 +216,7 @@ Set your head position before a choking grip is established, then clear the hand
 
 ![](https://www.youtube.com/watch?v=hWJYESElz-A)
 
-<p class="clip-credit"><strong>How attackers work past the chin block</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=hWJYESElz-A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How attackers work past the chin block</strong> · <a href="https://www.youtube.com/watch?v=hWJYESElz-A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Set your head position before a choking grip is established, then clear the hand
 
 ![](https://www.youtube.com/watch?v=UuLU4f4NfYo)
 
-<p class="clip-credit"><strong>Why the chin tuck fails against the rear naked choke</strong> — taught by YourKravMaga · 1:03 · <a href="https://www.youtube.com/watch?v=UuLU4f4NfYo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Why the chin tuck fails against the rear naked choke</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=UuLU4f4NfYo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Set your head position before a choking grip is established, then clear the hand
 
 ![](https://www.youtube.com/watch?v=znAUCgUkZ8s)
 
-<p class="clip-credit"><strong>Late rear naked choke defense using the chin</strong> — taught by SBG PDX · 4:32 · <a href="https://www.youtube.com/watch?v=znAUCgUkZ8s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Late rear naked choke defense using the chin</strong> · 4:32 · <a href="https://www.youtube.com/watch?v=znAUCgUkZ8s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Set your head position before a choking grip is established, then clear the hand
 
 ![](https://www.youtube.com/watch?v=q-2iAitqDE4)
 
-<p class="clip-credit"><strong>Tracing the jaw to beat the chin defense</strong> — taught by Coach Brian · 5:06 · <a href="https://www.youtube.com/watch?v=q-2iAitqDE4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Tracing the jaw to beat the chin defense</strong> · 5:06 · <a href="https://www.youtube.com/watch?v=q-2iAitqDE4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

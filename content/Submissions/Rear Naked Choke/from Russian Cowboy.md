@@ -46,8 +46,8 @@ description: "Master the Rear Naked Choke from Russian Cowboy. Learn setup mecha
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Craig Jones: details on finishing the rear naked choke",
-      "description": "Rear Naked Choke from Russian Cowboy film study: Craig Jones: details on finishing the rear naked choke.",
+      "name": "Details on finishing the rear naked choke",
+      "description": "Rear Naked Choke from Russian Cowboy film study: Details on finishing the rear naked choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8tdVE2zgjXw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8tdVE2zgjXw?start=36",
       "url": "https://www.youtube.com/watch?v=8tdVE2zgjXw",
@@ -113,7 +113,7 @@ Strategically, the RNC threat serves as the primary fork in the Russian Cowboy a
 
 ![](https://www.youtube.com/watch?v=8tdVE2zgjXw&start=36)
 
-<p class="clip-credit"><strong>Craig Jones: details on finishing the rear naked choke</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw&t=36s" rel="noopener">Watch on YouTube from 0:36</a></p>
+<p class="clip-credit"><strong>Details on finishing the rear naked choke</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw&t=36s" rel="noopener">Watch on YouTube from 0:36</a></p>
 
 </div>
 

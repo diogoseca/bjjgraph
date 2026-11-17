@@ -154,43 +154,39 @@ description: "Distance control manages the space between players so you can ente
       "@type": "VideoObject",
       "position": 1,
       "name": "Managing distance in self-defense",
-      "description": "Distance Control film study: Managing distance in self-defense, taught by Gracie Breakdown.",
+      "description": "Distance Control film study: Managing distance in self-defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pawETVGdcGM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pawETVGdcGM",
-      "url": "https://www.youtube.com/watch?v=pawETVGdcGM",
-      "creator": { "@type": "Person", "name": "Gracie Breakdown" }
+      "url": "https://www.youtube.com/watch?v=pawETVGdcGM"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Using the frame to manage distance",
-      "description": "Distance Control film study: Using the frame to manage distance, taught by MMA Academy Online.",
+      "description": "Distance Control film study: Using the frame to manage distance.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zJhskfuh8Ts/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zJhskfuh8Ts",
       "url": "https://www.youtube.com/watch?v=zJhskfuh8Ts",
-      "creator": { "@type": "Person", "name": "MMA Academy Online" },
       "duration": "PT56S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Managing distance without hip escapes",
-      "description": "Distance Control film study: Managing distance without hip escapes, taught by Ryan Hall.",
+      "description": "Distance Control film study: Managing distance without hip escapes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TjGVpKRUUWc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TjGVpKRUUWc",
       "url": "https://www.youtube.com/watch?v=TjGVpKRUUWc",
-      "creator": { "@type": "Person", "name": "Ryan Hall" },
       "duration": "PT819S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Key guard retention and distance concepts",
-      "description": "Distance Control film study: Key guard retention and distance concepts, taught by Jordan Preisinger.",
+      "description": "Distance Control film study: Key guard retention and distance concepts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cdV5cRGYsyA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cdV5cRGYsyA",
       "url": "https://www.youtube.com/watch?v=cdV5cRGYsyA",
-      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
       "duration": "PT513S"
     }
   ]
@@ -220,7 +216,7 @@ Decide whether the next action needs more space or closer contact. Use frames, g
 
 ![](https://www.youtube.com/watch?v=pawETVGdcGM)
 
-<p class="clip-credit"><strong>Managing distance in self-defense</strong> — taught by Gracie Breakdown · <a href="https://www.youtube.com/watch?v=pawETVGdcGM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Managing distance in self-defense</strong> · <a href="https://www.youtube.com/watch?v=pawETVGdcGM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Decide whether the next action needs more space or closer contact. Use frames, g
 
 ![](https://www.youtube.com/watch?v=zJhskfuh8Ts)
 
-<p class="clip-credit"><strong>Using the frame to manage distance</strong> — taught by MMA Academy Online · 0:56 · <a href="https://www.youtube.com/watch?v=zJhskfuh8Ts" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Using the frame to manage distance</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=zJhskfuh8Ts" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Decide whether the next action needs more space or closer contact. Use frames, g
 
 ![](https://www.youtube.com/watch?v=TjGVpKRUUWc)
 
-<p class="clip-credit"><strong>Managing distance without hip escapes</strong> — taught by Ryan Hall · 13:39 · <a href="https://www.youtube.com/watch?v=TjGVpKRUUWc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Managing distance without hip escapes</strong> · 13:39 · <a href="https://www.youtube.com/watch?v=TjGVpKRUUWc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Decide whether the next action needs more space or closer contact. Use frames, g
 
 ![](https://www.youtube.com/watch?v=cdV5cRGYsyA)
 
-<p class="clip-credit"><strong>Key guard retention and distance concepts</strong> — taught by Jordan Preisinger · 8:33 · <a href="https://www.youtube.com/watch?v=cdV5cRGYsyA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Key guard retention and distance concepts</strong> · 8:33 · <a href="https://www.youtube.com/watch?v=cdV5cRGYsyA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

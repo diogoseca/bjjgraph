@@ -47,11 +47,10 @@ description: "Master both sides of the triangle in BJJ. Complete guide covering 
       "@type": "VideoObject",
       "position": 1,
       "name": "Triangle defense/escape",
-      "description": "Triangle Escape Position film study: Triangle defense/escape, taught by Daniel Frank.",
+      "description": "Triangle Escape Position film study: Triangle defense/escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DLmrzSs1hWI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DLmrzSs1hWI",
       "url": "https://www.youtube.com/watch?v=DLmrzSs1hWI",
-      "creator": { "@type": "Person", "name": "Daniel Frank" },
       "duration": "PT23S"
     }
   ]
@@ -107,7 +106,7 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 
 ![](https://www.youtube.com/watch?v=DLmrzSs1hWI)
 
-<p class="clip-credit"><strong>Triangle defense/escape</strong> — taught by Daniel Frank · 0:23 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle defense/escape</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

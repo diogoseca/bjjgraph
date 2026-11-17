@@ -47,22 +47,20 @@ description: "Standing Escape starts on top in Invisible Collar. Clear the high 
       "@type": "VideoObject",
       "position": 1,
       "name": "Standing up from bottom, technical stand-up detail",
-      "description": "Standing Escape film study: Standing up from bottom, technical stand-up detail, taught by Priit Mihkelson.",
+      "description": "Standing Escape film study: Standing up from bottom, technical stand-up detail.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
       "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
       "duration": "PT114S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Turkish get-up escape to standing from bottom side control",
-      "description": "Standing Escape film study: Turkish get-up escape to standing from bottom side control, taught by Dirtball BJJ.",
+      "description": "Standing Escape film study: Turkish get-up escape to standing from bottom side control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mBFVriM0ojQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mBFVriM0ojQ",
       "url": "https://www.youtube.com/watch?v=mBFVriM0ojQ",
-      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
       "duration": "PT64S"
     }
   ]
@@ -121,7 +119,7 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 
 ![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
 
-<p class="clip-credit"><strong>Standing up from bottom, technical stand-up detail</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Standing up from bottom, technical stand-up detail</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -129,7 +127,7 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 
 ![](https://www.youtube.com/watch?v=mBFVriM0ojQ)
 
-<p class="clip-credit"><strong>Turkish get-up escape to standing from bottom side control</strong> — taught by Dirtball BJJ · 1:04 · <a href="https://www.youtube.com/watch?v=mBFVriM0ojQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turkish get-up escape to standing from bottom side control</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=mBFVriM0ojQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

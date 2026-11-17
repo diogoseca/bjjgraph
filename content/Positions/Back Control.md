@@ -48,11 +48,10 @@ description: "Master back control in BJJ. Complete guide to hooks, harness grip,
       "@type": "VideoObject",
       "position": 1,
       "name": "No Gi BJJ: Basic details of back control and rear strangle",
-      "description": "Back Control film study: No Gi BJJ: Basic details of back control and rear strangle, taught by Robyn Sheehan.",
+      "description": "Back Control film study: No Gi BJJ: Basic details of back control and rear strangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ypTfNWlR5ls/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ypTfNWlR5ls",
       "url": "https://www.youtube.com/watch?v=ypTfNWlR5ls",
-      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
       "duration": "PT168S"
     }
   ]
@@ -111,7 +110,7 @@ Back control variations include the standard hooks configuration, body triangle 
 
 ![](https://www.youtube.com/watch?v=ypTfNWlR5ls)
 
-<p class="clip-credit"><strong>No Gi BJJ: Basic details of back control and rear strangle</strong> — taught by Robyn Sheehan · 2:48 · <a href="https://www.youtube.com/watch?v=ypTfNWlR5ls" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No Gi BJJ: Basic details of back control and rear strangle</strong> · 2:48 · <a href="https://www.youtube.com/watch?v=ypTfNWlR5ls" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

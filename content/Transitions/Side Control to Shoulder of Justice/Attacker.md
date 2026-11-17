@@ -186,8 +186,8 @@ description: "Complete guide to executing the Transition to Shoulder of Justice 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "James Quigg Shoulder of Justice",
-      "description": "Side Control to Shoulder of Justice (Attacker) film study: James Quigg Shoulder of Justice.",
+      "name": "Shoulder of Justice",
+      "description": "Side Control to Shoulder of Justice (Attacker) film study: Shoulder of Justice.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PjFg8gFVPpQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PjFg8gFVPpQ",
       "url": "https://www.youtube.com/watch?v=PjFg8gFVPpQ",
@@ -221,7 +221,7 @@ As the attacker executing the Transition to Shoulder of Justice, your objective 
 
 ![](https://www.youtube.com/watch?v=PjFg8gFVPpQ)
 
-<p class="clip-credit"><strong>James Quigg Shoulder of Justice</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=PjFg8gFVPpQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shoulder of Justice</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=PjFg8gFVPpQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

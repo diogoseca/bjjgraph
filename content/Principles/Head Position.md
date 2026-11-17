@@ -154,32 +154,29 @@ description: "Maintain useful head alignment and manage the opponent’s head po
       "@type": "VideoObject",
       "position": 1,
       "name": "Using your head to create passing pressure",
-      "description": "Head Position film study: Using your head to create passing pressure, taught by Nick Albin.",
+      "description": "Head Position film study: Using your head to create passing pressure.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_ADiyj3T7nw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_ADiyj3T7nw",
-      "url": "https://www.youtube.com/watch?v=_ADiyj3T7nw",
-      "creator": { "@type": "Person", "name": "Nick Albin" }
+      "url": "https://www.youtube.com/watch?v=_ADiyj3T7nw"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Head control concepts and the chokes they lead to",
-      "description": "Head Position film study: Head control concepts and the chokes they lead to, taught by Firas Zahabi.",
+      "description": "Head Position film study: Head control concepts and the chokes they lead to.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LTVX-QojYJw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LTVX-QojYJw",
       "url": "https://www.youtube.com/watch?v=LTVX-QojYJw",
-      "creator": { "@type": "Person", "name": "Firas Zahabi" },
       "duration": "PT637S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Head control principle explained",
-      "description": "Head Position film study: Head control principle explained, taught by Gracie Breakdown.",
+      "description": "Head Position film study: Head control principle explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HSplh5HeJvE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HSplh5HeJvE",
       "url": "https://www.youtube.com/watch?v=HSplh5HeJvE",
-      "creator": { "@type": "Person", "name": "Gracie Breakdown" },
       "duration": "PT31S"
     }
   ]
@@ -209,7 +206,7 @@ Check your own alignment while controlling theirs. A head control works with the
 
 ![](https://www.youtube.com/watch?v=_ADiyj3T7nw)
 
-<p class="clip-credit"><strong>Using your head to create passing pressure</strong> — taught by Nick Albin · <a href="https://www.youtube.com/watch?v=_ADiyj3T7nw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Using your head to create passing pressure</strong> · <a href="https://www.youtube.com/watch?v=_ADiyj3T7nw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,7 +214,7 @@ Check your own alignment while controlling theirs. A head control works with the
 
 ![](https://www.youtube.com/watch?v=LTVX-QojYJw)
 
-<p class="clip-credit"><strong>Head control concepts and the chokes they lead to</strong> — taught by Firas Zahabi · 10:37 · <a href="https://www.youtube.com/watch?v=LTVX-QojYJw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Head control concepts and the chokes they lead to</strong> · 10:37 · <a href="https://www.youtube.com/watch?v=LTVX-QojYJw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +222,7 @@ Check your own alignment while controlling theirs. A head control works with the
 
 ![](https://www.youtube.com/watch?v=HSplh5HeJvE)
 
-<p class="clip-credit"><strong>Head control principle explained</strong> — taught by Gracie Breakdown · 0:31 · <a href="https://www.youtube.com/watch?v=HSplh5HeJvE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Head control principle explained</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=HSplh5HeJvE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

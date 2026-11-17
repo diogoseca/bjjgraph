@@ -153,22 +153,20 @@ description: "Rolling Escape from Anaconda (defender): Contain the opponent's he
       "@type": "VideoObject",
       "position": 1,
       "name": "Fixing the anaconda choke so it cannot be rolled",
-      "description": "Rolling Escape from Anaconda (Defender) film study: Fixing the anaconda choke so it cannot be rolled, taught by Lycan.",
+      "description": "Rolling Escape from Anaconda (Defender) film study: Fixing the anaconda choke so it cannot be rolled.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1e2GPOUYR-o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1e2GPOUYR-o",
       "url": "https://www.youtube.com/watch?v=1e2GPOUYR-o",
-      "creator": { "@type": "Person", "name": "Lycan" },
       "duration": "PT41S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Preventing the sucker drag during the anaconda",
-      "description": "Rolling Escape from Anaconda (Defender) film study: Preventing the sucker drag during the anaconda, taught by Drew Darce.",
+      "description": "Rolling Escape from Anaconda (Defender) film study: Preventing the sucker drag during the anaconda.",
       "thumbnailUrl": "https://i.ytimg.com/vi/guHPx-OKi0M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/guHPx-OKi0M",
       "url": "https://www.youtube.com/watch?v=guHPx-OKi0M",
-      "creator": { "@type": "Person", "name": "Drew Darce" },
       "duration": "PT159S"
     }
   ]
@@ -205,7 +203,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=1e2GPOUYR-o)
 
-<p class="clip-credit"><strong>Fixing the anaconda choke so it cannot be rolled</strong> — taught by Lycan · 0:41 · <a href="https://www.youtube.com/watch?v=1e2GPOUYR-o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Fixing the anaconda choke so it cannot be rolled</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=1e2GPOUYR-o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -213,7 +211,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=guHPx-OKi0M)
 
-<p class="clip-credit"><strong>Preventing the sucker drag during the anaconda</strong> — taught by Drew Darce · 2:39 · <a href="https://www.youtube.com/watch?v=guHPx-OKi0M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Preventing the sucker drag during the anaconda</strong> · 2:39 · <a href="https://www.youtube.com/watch?v=guHPx-OKi0M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

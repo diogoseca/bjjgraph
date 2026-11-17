@@ -181,33 +181,30 @@ description: "Arm Triangle from Hindulotine (attacker): Maintain a stable guard 
       "@type": "VideoObject",
       "position": 1,
       "name": "Von Flu and arm triangle",
-      "description": "Arm Triangle from Hindulotine (Attacker) film study: Von Flu and arm triangle, taught by Pure Grappling.",
+      "description": "Arm Triangle from Hindulotine (Attacker) film study: Von Flu and arm triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WSz5MbUhb_0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WSz5MbUhb_0",
       "url": "https://www.youtube.com/watch?v=WSz5MbUhb_0",
-      "creator": { "@type": "Person", "name": "Pure Grappling" },
       "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Strong arm-triangle from the turtle",
-      "description": "Arm Triangle from Hindulotine (Attacker) film study: Strong arm-triangle from the turtle, taught by Nicolas Renier.",
+      "description": "Arm Triangle from Hindulotine (Attacker) film study: Strong arm-triangle from the turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/f2Sm-KgO-jA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/f2Sm-KgO-jA",
       "url": "https://www.youtube.com/watch?v=f2Sm-KgO-jA",
-      "creator": { "@type": "Person", "name": "Nicolas Renier" },
       "duration": "PT245S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Arm-in guillotine to arm triangle from turtle",
-      "description": "Arm Triangle from Hindulotine (Attacker) film study: Arm-in guillotine to arm triangle from turtle, taught by BJJ101.",
+      "description": "Arm Triangle from Hindulotine (Attacker) film study: Arm-in guillotine to arm triangle from turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bVNnVVnAWnU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bVNnVVnAWnU",
       "url": "https://www.youtube.com/watch?v=bVNnVVnAWnU",
-      "creator": { "@type": "Person", "name": "BJJ101" },
       "duration": "PT35S"
     }
   ]
@@ -247,7 +244,7 @@ For a separately established top-side finish, chest pressure helps keep the trap
 
 ![](https://www.youtube.com/watch?v=WSz5MbUhb_0)
 
-<p class="clip-credit"><strong>Von Flu and arm triangle</strong> — taught by Pure Grappling · 0:52 · <a href="https://www.youtube.com/watch?v=WSz5MbUhb_0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Von Flu and arm triangle</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=WSz5MbUhb_0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -255,7 +252,7 @@ For a separately established top-side finish, chest pressure helps keep the trap
 
 ![](https://www.youtube.com/watch?v=f2Sm-KgO-jA)
 
-<p class="clip-credit"><strong>Strong arm-triangle from the turtle</strong> — taught by Nicolas Renier · 4:05 · <a href="https://www.youtube.com/watch?v=f2Sm-KgO-jA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Strong arm-triangle from the turtle</strong> · 4:05 · <a href="https://www.youtube.com/watch?v=f2Sm-KgO-jA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,7 +260,7 @@ For a separately established top-side finish, chest pressure helps keep the trap
 
 ![](https://www.youtube.com/watch?v=bVNnVVnAWnU)
 
-<p class="clip-credit"><strong>Arm-in guillotine to arm triangle from turtle</strong> — taught by BJJ101 · 0:35 · <a href="https://www.youtube.com/watch?v=bVNnVVnAWnU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm-in guillotine to arm triangle from turtle</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=bVNnVVnAWnU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

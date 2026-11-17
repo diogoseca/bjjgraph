@@ -166,22 +166,20 @@ description: "Master Darce Control Top in BJJ. Dominant front headlock variation
       "@type": "VideoObject",
       "position": 1,
       "name": "Procel BJJ | Darce Choke from the Front Headlock Position",
-      "description": "Darce Control (Top) film study: Procel BJJ | Darce Choke from the Front Headlock Position, taught by Procel BJJ.",
+      "description": "Darce Control (Top) film study: Procel BJJ | Darce Choke from the Front Headlock Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/BMU1_wfjYTw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/BMU1_wfjYTw",
       "url": "https://www.youtube.com/watch?v=BMU1_wfjYTw",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
       "duration": "PT100S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How To Finish The D\u2019arce On Big Guys w/ Rener \u0026 Ryron Gracie",
-      "description": "Darce Control (Top) film study: How To Finish The D\u2019arce On Big Guys w/ Rener \u0026 Ryron Gracie, taught by Rener \u0026 Ryron Gracie.",
+      "name": "How To Finish The D\u2019arce On Big Guys",
+      "description": "Darce Control (Top) film study: How To Finish The D\u2019arce On Big Guys.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8Idnp8DpSHU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8Idnp8DpSHU",
       "url": "https://www.youtube.com/watch?v=8Idnp8DpSHU",
-      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
       "duration": "PT150S"
     }
   ]
@@ -214,7 +212,7 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 
 ![](https://www.youtube.com/watch?v=BMU1_wfjYTw)
 
-<p class="clip-credit"><strong>Procel BJJ | Darce Choke from the Front Headlock Position</strong> — taught by Procel BJJ · 1:40 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Procel BJJ | Darce Choke from the Front Headlock Position</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -222,7 +220,7 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 
 ![](https://www.youtube.com/watch?v=8Idnp8DpSHU)
 
-<p class="clip-credit"><strong>How To Finish The D’arce On Big Guys w/ Rener &amp; Ryron Gracie</strong> — taught by Rener &amp; Ryron Gracie · 2:30 · <a href="https://www.youtube.com/watch?v=8Idnp8DpSHU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Finish The D’arce On Big Guys</strong> · 2:30 · <a href="https://www.youtube.com/watch?v=8Idnp8DpSHU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

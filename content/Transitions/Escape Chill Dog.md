@@ -47,22 +47,20 @@ description: "Leaving Chill Dog from bottom opens the neck-cleared rubber-guard 
       "@type": "VideoObject",
       "position": 1,
       "name": "Lockdown Clinches from 10th Planet Half Guard",
-      "description": "Escape Chill Dog film study: Lockdown Clinches from 10th Planet Half Guard, taught by Eddie Bravo.",
+      "description": "Escape Chill Dog film study: Lockdown Clinches from 10th Planet Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
       "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT60S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Breaking down the 10th Planet half guard control",
-      "description": "Escape Chill Dog film study: Breaking down the 10th Planet half guard control, taught by 10th Planet Jiu Jitsu West LA.",
+      "description": "Escape Chill Dog film study: Breaking down the 10th Planet half guard control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JZ-h0ohQTvA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JZ-h0ohQTvA",
       "url": "https://www.youtube.com/watch?v=JZ-h0ohQTvA",
-      "creator": { "@type": "Person", "name": "10th Planet Jiu Jitsu West LA" },
       "duration": "PT42S"
     }
   ]
@@ -121,7 +119,7 @@ Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https
 
 ![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
 
-<p class="clip-credit"><strong>Lockdown Clinches from 10th Planet Half Guard</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lockdown Clinches from 10th Planet Half Guard</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -129,7 +127,7 @@ Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https
 
 ![](https://www.youtube.com/watch?v=JZ-h0ohQTvA)
 
-<p class="clip-credit"><strong>Breaking down the 10th Planet half guard control</strong> — taught by 10th Planet Jiu Jitsu West LA · 0:42 · <a href="https://www.youtube.com/watch?v=JZ-h0ohQTvA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Breaking down the 10th Planet half guard control</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=JZ-h0ohQTvA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

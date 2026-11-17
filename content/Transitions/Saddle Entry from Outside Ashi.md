@@ -46,8 +46,8 @@ description: "Master the Saddle Entry from Outside Ashi in BJJ. Advanced counter
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "3 Ways To Escape The Saddle - Drew Weatherhead Brazilian Jiu Jitsu",
-      "description": "Saddle Entry from Outside Ashi film study: 3 Ways To Escape The Saddle - Drew Weatherhead Brazilian Jiu Jitsu.",
+      "name": "3 Ways To Escape The Saddle - Brazilian Jiu Jitsu",
+      "description": "Saddle Entry from Outside Ashi film study: 3 Ways To Escape The Saddle - Brazilian Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Cu3cDBeOxsg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Cu3cDBeOxsg",
       "url": "https://www.youtube.com/watch?v=Cu3cDBeOxsg",
@@ -107,7 +107,7 @@ Strategically, mastering this counter-entanglement makes you significantly more 
 
 ![](https://www.youtube.com/watch?v=Cu3cDBeOxsg)
 
-<p class="clip-credit"><strong>3 Ways To Escape The Saddle - Drew Weatherhead Brazilian Jiu Jitsu</strong> · 5:53 · <a href="https://www.youtube.com/watch?v=Cu3cDBeOxsg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Ways To Escape The Saddle - Brazilian Jiu Jitsu</strong> · 5:53 · <a href="https://www.youtube.com/watch?v=Cu3cDBeOxsg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

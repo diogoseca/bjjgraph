@@ -154,43 +154,39 @@ description: "Coordinate grips, hooks, and timing to move the opponent off balan
       "@type": "VideoObject",
       "position": 1,
       "name": "Denying base to make sweeps work",
-      "description": "Kuzushi film study: Denying base to make sweeps work, taught by Rory Van Vliet.",
+      "description": "Kuzushi film study: Denying base to make sweeps work.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PvOPqX5jQHA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PvOPqX5jQHA",
-      "url": "https://www.youtube.com/watch?v=PvOPqX5jQHA",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=PvOPqX5jQHA"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "All about kuzushi: breaking balance in depth",
-      "description": "Kuzushi film study: All about kuzushi: breaking balance in depth, taught by Shintaro Higashi.",
+      "description": "Kuzushi film study: All about kuzushi: breaking balance in depth.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0ryNzeo3eoc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0ryNzeo3eoc",
       "url": "https://www.youtube.com/watch?v=0ryNzeo3eoc",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
       "duration": "PT458S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "The essential physics behind kuzushi",
-      "description": "Kuzushi film study: The essential physics behind kuzushi, taught by Shintaro Nakano.",
+      "description": "Kuzushi film study: The essential physics behind kuzushi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hOlLwI3dMMA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hOlLwI3dMMA",
       "url": "https://www.youtube.com/watch?v=hOlLwI3dMMA",
-      "creator": { "@type": "Person", "name": "Shintaro Nakano" },
       "duration": "PT342S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Kuzushi: breaking balance in 30 seconds",
-      "description": "Kuzushi film study: Kuzushi: breaking balance in 30 seconds, taught by Rener Gracie.",
+      "description": "Kuzushi film study: Kuzushi: breaking balance in 30 seconds.",
       "thumbnailUrl": "https://i.ytimg.com/vi/b1zpi81TLPs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/b1zpi81TLPs",
       "url": "https://www.youtube.com/watch?v=b1zpi81TLPs",
-      "creator": { "@type": "Person", "name": "Rener Gracie" },
       "duration": "PT31S"
     }
   ]
@@ -220,7 +216,7 @@ Identify where the opponent’s weight sits and which hand or foot could catch t
 
 ![](https://www.youtube.com/watch?v=PvOPqX5jQHA)
 
-<p class="clip-credit"><strong>Denying base to make sweeps work</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=PvOPqX5jQHA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Denying base to make sweeps work</strong> · <a href="https://www.youtube.com/watch?v=PvOPqX5jQHA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Identify where the opponent’s weight sits and which hand or foot could catch t
 
 ![](https://www.youtube.com/watch?v=0ryNzeo3eoc)
 
-<p class="clip-credit"><strong>All about kuzushi: breaking balance in depth</strong> — taught by Shintaro Higashi · 7:38 · <a href="https://www.youtube.com/watch?v=0ryNzeo3eoc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>All about kuzushi: breaking balance in depth</strong> · 7:38 · <a href="https://www.youtube.com/watch?v=0ryNzeo3eoc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Identify where the opponent’s weight sits and which hand or foot could catch t
 
 ![](https://www.youtube.com/watch?v=hOlLwI3dMMA)
 
-<p class="clip-credit"><strong>The essential physics behind kuzushi</strong> — taught by Shintaro Nakano · 5:42 · <a href="https://www.youtube.com/watch?v=hOlLwI3dMMA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The essential physics behind kuzushi</strong> · 5:42 · <a href="https://www.youtube.com/watch?v=hOlLwI3dMMA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Identify where the opponent’s weight sits and which hand or foot could catch t
 
 ![](https://www.youtube.com/watch?v=b1zpi81TLPs)
 
-<p class="clip-credit"><strong>Kuzushi: breaking balance in 30 seconds</strong> — taught by Rener Gracie · 0:31 · <a href="https://www.youtube.com/watch?v=b1zpi81TLPs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kuzushi: breaking balance in 30 seconds</strong> · 0:31 · <a href="https://www.youtube.com/watch?v=b1zpi81TLPs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

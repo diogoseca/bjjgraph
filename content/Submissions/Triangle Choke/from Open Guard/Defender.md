@@ -160,8 +160,8 @@ description: "Defend and escape the Triangle Choke from Open Guard. Recognition 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle Escape To Side Control With BJJ Champion Valdir Rodrigues!",
-      "description": "Triangle Choke from Open Guard (Defender) film study: Triangle Escape To Side Control With BJJ Champion Valdir Rodrigues!.",
+      "name": "Triangle Escape To Side Control With BJJ Champion!",
+      "description": "Triangle Choke from Open Guard (Defender) film study: Triangle Escape To Side Control With BJJ Champion!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XE7KCUjLpqg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XE7KCUjLpqg",
       "url": "https://www.youtube.com/watch?v=XE7KCUjLpqg",
@@ -180,8 +180,8 @@ description: "Defend and escape the Triangle Choke from Open Guard. Recognition 
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "John Danaher:  on escaping triangles vs big opponents (Gordon Ryan)",
-      "description": "Triangle Choke from Open Guard (Defender) film study: John Danaher:  on escaping triangles vs big opponents (Gordon Ryan).",
+      "name": "Escaping triangles vs big opponents",
+      "description": "Triangle Choke from Open Guard (Defender) film study: Escaping triangles vs big opponents.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Z-CsRn4K0vg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Z-CsRn4K0vg",
       "url": "https://www.youtube.com/watch?v=Z-CsRn4K0vg",
@@ -216,7 +216,7 @@ Defending the Triangle from Open Guard requires early recognition of the setup c
 
 ![](https://www.youtube.com/watch?v=XE7KCUjLpqg)
 
-<p class="clip-credit"><strong>Triangle Escape To Side Control With BJJ Champion Valdir Rodrigues!</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=XE7KCUjLpqg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle Escape To Side Control With BJJ Champion!</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=XE7KCUjLpqg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -232,7 +232,7 @@ Defending the Triangle from Open Guard requires early recognition of the setup c
 
 ![](https://www.youtube.com/watch?v=Z-CsRn4K0vg)
 
-<p class="clip-credit"><strong>John Danaher:  on escaping triangles vs big opponents (Gordon Ryan)</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=Z-CsRn4K0vg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping triangles vs big opponents</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=Z-CsRn4K0vg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

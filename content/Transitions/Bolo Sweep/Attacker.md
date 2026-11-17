@@ -180,8 +180,8 @@ description: "How to execute the Bolo Sweep in BJJ. Complete attacking guide wit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "HOW-TO: DLR/Berimbolo to the back with Rafael Mendes",
-      "description": "Bolo Sweep (Attacker) film study: HOW-TO: DLR/Berimbolo to the back with Rafael Mendes.",
+      "name": "HOW-TO: DLR/Berimbolo to the back",
+      "description": "Bolo Sweep (Attacker) film study: HOW-TO: DLR/Berimbolo to the back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/n61ObZSjBW8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/n61ObZSjBW8",
       "url": "https://www.youtube.com/watch?v=n61ObZSjBW8",
@@ -227,7 +227,7 @@ The technique's strategic value comes from its dilemma-based structure: opponent
 
 ![](https://www.youtube.com/watch?v=n61ObZSjBW8)
 
-<p class="clip-credit"><strong>HOW-TO: DLR/Berimbolo to the back with Rafael Mendes</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=n61ObZSjBW8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>HOW-TO: DLR/Berimbolo to the back</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=n61ObZSjBW8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

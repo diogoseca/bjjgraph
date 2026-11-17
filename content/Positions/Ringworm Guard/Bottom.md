@@ -165,8 +165,8 @@ description: "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with pow
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Set Up the Ringworm Guard Gary Berger",
-      "description": "Ringworm Guard (Bottom) film study: How to Set Up the Ringworm Guard Gary Berger.",
+      "name": "How to Set Up the Ringworm Guard",
+      "description": "Ringworm Guard (Bottom) film study: How to Set Up the Ringworm Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DFoCy86fsds/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DFoCy86fsds?start=26",
       "url": "https://www.youtube.com/watch?v=DFoCy86fsds",
@@ -202,7 +202,7 @@ Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosyst
 
 ![](https://www.youtube.com/watch?v=DFoCy86fsds&start=26)
 
-<p class="clip-credit"><strong>How to Set Up the Ringworm Guard Gary Berger</strong> · 7:02 · <a href="https://www.youtube.com/watch?v=DFoCy86fsds&t=26s" rel="noopener">Watch on YouTube from 0:26</a></p>
+<p class="clip-credit"><strong>How to Set Up the Ringworm Guard</strong> · 7:02 · <a href="https://www.youtube.com/watch?v=DFoCy86fsds&t=26s" rel="noopener">Watch on YouTube from 0:26</a></p>
 
 </div>
 

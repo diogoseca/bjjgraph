@@ -152,8 +152,8 @@ description: "Learn to defend against butterfly hook consolidation in BJJ. Recog
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Brazilian Jiu-Jitsu Technique - Killing the Butterfly Hooks - Firas Zahabi",
-      "description": "Butterfly Guard to Butterfly Hook Control (Defender) film study: Brazilian Jiu-Jitsu Technique - Killing the Butterfly Hooks - Firas Zahabi.",
+      "name": "Brazilian Jiu-Jitsu Technique - Killing the Butterfly Hooks",
+      "description": "Butterfly Guard to Butterfly Hook Control (Defender) film study: Brazilian Jiu-Jitsu Technique - Killing the Butterfly Hooks.",
       "thumbnailUrl": "https://i.ytimg.com/vi/taS1_hoQh7A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/taS1_hoQh7A?start=25",
       "url": "https://www.youtube.com/watch?v=taS1_hoQh7A",
@@ -189,7 +189,7 @@ The most effective defensive strategy is proactive rather than reactive. Rather 
 
 ![](https://www.youtube.com/watch?v=taS1_hoQh7A&start=25)
 
-<p class="clip-credit"><strong>Brazilian Jiu-Jitsu Technique - Killing the Butterfly Hooks - Firas Zahabi</strong> · 3:40 · <a href="https://www.youtube.com/watch?v=taS1_hoQh7A&t=25s" rel="noopener">Watch on YouTube from 0:25</a></p>
+<p class="clip-credit"><strong>Brazilian Jiu-Jitsu Technique - Killing the Butterfly Hooks</strong> · 3:40 · <a href="https://www.youtube.com/watch?v=taS1_hoQh7A&t=25s" rel="noopener">Watch on YouTube from 0:25</a></p>
 
 </div>
 

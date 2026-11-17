@@ -67,11 +67,10 @@ description: "Master Open Guard in BJJ. Strategic guide covering distance manage
       "@type": "VideoObject",
       "position": 3,
       "name": "Effortless Jiu Jitsu Explained - Open Guard Warm Up",
-      "description": "Open Guard film study: Effortless Jiu Jitsu Explained - Open Guard Warm Up, taught by Jiu Jitsu Vintage.",
+      "description": "Open Guard film study: Effortless Jiu Jitsu Explained - Open Guard Warm Up.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aYknDsVN5aM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aYknDsVN5aM",
       "url": "https://www.youtube.com/watch?v=aYknDsVN5aM",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu Vintage" },
       "duration": "PT106S"
     }
   ]
@@ -143,7 +142,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 ![](https://www.youtube.com/watch?v=aYknDsVN5aM)
 
-<p class="clip-credit"><strong>Effortless Jiu Jitsu Explained - Open Guard Warm Up</strong> — taught by Jiu Jitsu Vintage · 1:46 · <a href="https://www.youtube.com/watch?v=aYknDsVN5aM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Effortless Jiu Jitsu Explained - Open Guard Warm Up</strong> · 1:46 · <a href="https://www.youtube.com/watch?v=aYknDsVN5aM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

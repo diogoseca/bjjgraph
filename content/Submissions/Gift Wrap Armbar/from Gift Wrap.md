@@ -56,8 +56,8 @@ description: "Master the Gift Wrap Armbar in BJJ. Complete guide to attacking th
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Derek Brunson: Gift Wrap from Guard to Armbar \u0026 Triangle Choke",
-      "description": "Gift Wrap Armbar from Gift Wrap film study: Derek Brunson: Gift Wrap from Guard to Armbar \u0026 Triangle Choke.",
+      "name": "Gift Wrap from Guard to Armbar \u0026 Triangle Choke",
+      "description": "Gift Wrap Armbar from Gift Wrap film study: Gift Wrap from Guard to Armbar \u0026 Triangle Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8KoRctBCxyo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8KoRctBCxyo",
       "url": "https://www.youtube.com/watch?v=8KoRctBCxyo",
@@ -131,7 +131,7 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 
 ![](https://www.youtube.com/watch?v=8KoRctBCxyo)
 
-<p class="clip-credit"><strong>Derek Brunson: Gift Wrap from Guard to Armbar &amp; Triangle Choke</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=8KoRctBCxyo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gift Wrap from Guard to Armbar &amp; Triangle Choke</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=8KoRctBCxyo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

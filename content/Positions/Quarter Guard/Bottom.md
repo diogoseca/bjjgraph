@@ -175,8 +175,8 @@ description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Quarter Guard System: Wrestle Up \u0026 Attack the Legs with Kyle Boehm",
-      "description": "Quarter Guard (Bottom) film study: Quarter Guard System: Wrestle Up \u0026 Attack the Legs with Kyle Boehm.",
+      "name": "Quarter Guard System: Wrestle Up \u0026 Attack the Legs",
+      "description": "Quarter Guard (Bottom) film study: Quarter Guard System: Wrestle Up \u0026 Attack the Legs.",
       "thumbnailUrl": "https://i.ytimg.com/vi/oOMpgtyVYa8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oOMpgtyVYa8",
       "url": "https://www.youtube.com/watch?v=oOMpgtyVYa8",
@@ -220,7 +220,7 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 ![](https://www.youtube.com/watch?v=oOMpgtyVYa8)
 
-<p class="clip-credit"><strong>Quarter Guard System: Wrestle Up &amp; Attack the Legs with Kyle Boehm</strong> · 4:52 · <a href="https://www.youtube.com/watch?v=oOMpgtyVYa8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Quarter Guard System: Wrestle Up &amp; Attack the Legs</strong> · 4:52 · <a href="https://www.youtube.com/watch?v=oOMpgtyVYa8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

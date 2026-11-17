@@ -48,11 +48,10 @@ description: "Entering Leg Weave from half guard threads an arm through the leg 
       "@type": "VideoObject",
       "position": 1,
       "name": "Passing knee shield with the leg weave pass",
-      "description": "Half Guard to Leg Weave film study: Passing knee shield with the leg weave pass, taught by BJJ4Breakfast.",
+      "description": "Half Guard to Leg Weave film study: Passing knee shield with the leg weave pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4LIBFmas-oE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4LIBFmas-oE",
       "url": "https://www.youtube.com/watch?v=4LIBFmas-oE",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT153S"
     }
   ]
@@ -114,7 +113,7 @@ Instructional sources: [Lachlan Giles — leg weave pass, no gi](https://www.you
 
 ![](https://www.youtube.com/watch?v=4LIBFmas-oE)
 
-<p class="clip-credit"><strong>Passing knee shield with the leg weave pass</strong> — taught by BJJ4Breakfast · 2:33 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing knee shield with the leg weave pass</strong> · 2:33 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

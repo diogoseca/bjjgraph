@@ -161,33 +161,30 @@ description: "Hindulotine from Hindulotine (defender): An elbow passing over the
       "@type": "VideoObject",
       "position": 1,
       "name": "Preventing the Hand Crossing (Guillotine Defense)",
-      "description": "Hindulotine from Hindulotine (Defender) film study: Preventing the Hand Crossing (Guillotine Defense), taught by Lachlan Giles.",
+      "description": "Hindulotine from Hindulotine (Defender) film study: Preventing the Hand Crossing (Guillotine Defense).",
       "thumbnailUrl": "https://i.ytimg.com/vi/jDbywpDs3Tw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/jDbywpDs3Tw",
       "url": "https://www.youtube.com/watch?v=jDbywpDs3Tw",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT129S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Front headlock defense fundamentals",
-      "description": "Hindulotine from Hindulotine (Defender) film study: Front headlock defense fundamentals, taught by Ben Askren.",
+      "description": "Hindulotine from Hindulotine (Defender) film study: Front headlock defense fundamentals.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ry5lH-N7O-0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ry5lH-N7O-0",
       "url": "https://www.youtube.com/watch?v=ry5lH-N7O-0",
-      "creator": { "@type": "Person", "name": "Ben Askren" },
       "duration": "PT108S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Standing guillotine escape",
-      "description": "Hindulotine from Hindulotine (Defender) film study: Standing guillotine escape, taught by Dogtownman.",
+      "description": "Hindulotine from Hindulotine (Defender) film study: Standing guillotine escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
       "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
-      "creator": { "@type": "Person", "name": "Dogtownman" },
       "duration": "PT44S"
     }
   ]
@@ -229,7 +226,7 @@ Protect the neck while denying the finishing hand: keep the head aligned and an 
 
 ![](https://www.youtube.com/watch?v=jDbywpDs3Tw)
 
-<p class="clip-credit"><strong>Preventing the Hand Crossing (Guillotine Defense)</strong> — taught by Lachlan Giles · 2:09 · <a href="https://www.youtube.com/watch?v=jDbywpDs3Tw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Preventing the Hand Crossing (Guillotine Defense)</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=jDbywpDs3Tw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,7 +234,7 @@ Protect the neck while denying the finishing hand: keep the head aligned and an 
 
 ![](https://www.youtube.com/watch?v=ry5lH-N7O-0)
 
-<p class="clip-credit"><strong>Front headlock defense fundamentals</strong> — taught by Ben Askren · 1:48 · <a href="https://www.youtube.com/watch?v=ry5lH-N7O-0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front headlock defense fundamentals</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=ry5lH-N7O-0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -245,7 +242,7 @@ Protect the neck while denying the finishing hand: keep the head aligned and an 
 
 ![](https://www.youtube.com/watch?v=8okq4cIHMO0)
 
-<p class="clip-credit"><strong>Standing guillotine escape</strong> — taught by Dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Standing guillotine escape</strong> · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -47,33 +47,30 @@ description: "Guillotine Choke from Hindulotine changes the neck enclosure. Clea
       "@type": "VideoObject",
       "position": 1,
       "name": "Two Hindulotines from the ADCC Trials",
-      "description": "Guillotine Choke from Hindulotine film study: Two Hindulotines from the ADCC Trials, taught by Nathan Orchard.",
+      "description": "Guillotine Choke from Hindulotine film study: Two Hindulotines from the ADCC Trials.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NqAXUtNqYLk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NqAXUtNqYLk",
       "url": "https://www.youtube.com/watch?v=NqAXUtNqYLk",
-      "creator": { "@type": "Person", "name": "Nathan Orchard" },
       "duration": "PT85S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Hindulotine: rubber guard guillotine finish",
-      "description": "Guillotine Choke from Hindulotine film study: Hindulotine: rubber guard guillotine finish, taught by Ben Eddy.",
+      "description": "Guillotine Choke from Hindulotine film study: Hindulotine: rubber guard guillotine finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/58q16MnT8pM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/58q16MnT8pM",
       "url": "https://www.youtube.com/watch?v=58q16MnT8pM",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
       "duration": "PT264S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Double elbow to high elbow guillotine",
-      "description": "Guillotine Choke from Hindulotine film study: Double elbow to high elbow guillotine, taught by Marcelo Garcia.",
+      "description": "Guillotine Choke from Hindulotine film study: Double elbow to high elbow guillotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IvSVZuezQGo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IvSVZuezQGo",
       "url": "https://www.youtube.com/watch?v=IvSVZuezQGo",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT171S"
     }
   ]
@@ -138,7 +135,7 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 
 ![](https://www.youtube.com/watch?v=NqAXUtNqYLk)
 
-<p class="clip-credit"><strong>Two Hindulotines from the ADCC Trials</strong> — taught by Nathan Orchard · 1:25 · <a href="https://www.youtube.com/watch?v=NqAXUtNqYLk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Two Hindulotines from the ADCC Trials</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=NqAXUtNqYLk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +143,7 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 
 ![](https://www.youtube.com/watch?v=58q16MnT8pM)
 
-<p class="clip-credit"><strong>Hindulotine: rubber guard guillotine finish</strong> — taught by Ben Eddy · 4:24 · <a href="https://www.youtube.com/watch?v=58q16MnT8pM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Hindulotine: rubber guard guillotine finish</strong> · 4:24 · <a href="https://www.youtube.com/watch?v=58q16MnT8pM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -154,7 +151,7 @@ Instructional sources: [Rob Biernacki and Stephan Kesting — guillotine control
 
 ![](https://www.youtube.com/watch?v=IvSVZuezQGo)
 
-<p class="clip-credit"><strong>Double elbow to high elbow guillotine</strong> — taught by Marcelo Garcia · 2:51 · <a href="https://www.youtube.com/watch?v=IvSVZuezQGo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double elbow to high elbow guillotine</strong> · 2:51 · <a href="https://www.youtube.com/watch?v=IvSVZuezQGo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

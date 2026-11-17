@@ -161,22 +161,20 @@ description: "Carni to Gogoplata Setup (defender): Use an inside forearm frame b
       "@type": "VideoObject",
       "position": 1,
       "name": "Half guard defense countering the gogoplata",
-      "description": "Carni to Gogoplata Setup (Defender) film study: Half guard defense countering the gogoplata, taught by Yesanam Atomm.",
+      "description": "Carni to Gogoplata Setup (Defender) film study: Half guard defense countering the gogoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gkijX3Hbd_s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gkijX3Hbd_s",
       "url": "https://www.youtube.com/watch?v=gkijX3Hbd_s",
-      "creator": { "@type": "Person", "name": "Yesanam Atomm" },
       "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Gogoplata defense",
-      "description": "Carni to Gogoplata Setup (Defender) film study: Gogoplata defense, taught by RedBeltJiuJitsu.",
+      "description": "Carni to Gogoplata Setup (Defender) film study: Gogoplata defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ROgt8e30a3s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ROgt8e30a3s",
       "url": "https://www.youtube.com/watch?v=ROgt8e30a3s",
-      "creator": { "@type": "Person", "name": "RedBeltJiuJitsu" },
       "duration": "PT42S"
     }
   ]
@@ -215,7 +213,7 @@ Make the early escape during the release of the shoulder clamp, before the shin 
 
 ![](https://www.youtube.com/watch?v=gkijX3Hbd_s)
 
-<p class="clip-credit"><strong>Half guard defense countering the gogoplata</strong> — taught by Yesanam Atomm · 0:52 · <a href="https://www.youtube.com/watch?v=gkijX3Hbd_s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half guard defense countering the gogoplata</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=gkijX3Hbd_s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -223,7 +221,7 @@ Make the early escape during the release of the shoulder clamp, before the shin 
 
 ![](https://www.youtube.com/watch?v=ROgt8e30a3s)
 
-<p class="clip-credit"><strong>Gogoplata defense</strong> — taught by RedBeltJiuJitsu · 0:42 · <a href="https://www.youtube.com/watch?v=ROgt8e30a3s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gogoplata defense</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=ROgt8e30a3s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -182,11 +182,10 @@ description: "Suloev Stretch from Rear Tripod (attacker): Control the torso from
       "@type": "VideoObject",
       "position": 1,
       "name": "The Suloev Stretch submission for BJJ and MMA",
-      "description": "Suloev Stretch from Half Guard (Attacker) film study: The Suloev Stretch submission for BJJ and MMA, taught by Sonny Brown.",
+      "description": "Suloev Stretch from Half Guard (Attacker) film study: The Suloev Stretch submission for BJJ and MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kwS4-kslujQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kwS4-kslujQ",
       "url": "https://www.youtube.com/watch?v=kwS4-kslujQ",
-      "creator": { "@type": "Person", "name": "Sonny Brown" },
       "duration": "PT134S"
     }
   ]
@@ -227,7 +226,7 @@ Use a cooperative entry and stop at the aligned capture. Never drop onto the str
 
 ![](https://www.youtube.com/watch?v=kwS4-kslujQ)
 
-<p class="clip-credit"><strong>The Suloev Stretch submission for BJJ and MMA</strong> — taught by Sonny Brown · 2:14 · <a href="https://www.youtube.com/watch?v=kwS4-kslujQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Suloev Stretch submission for BJJ and MMA</strong> · 2:14 · <a href="https://www.youtube.com/watch?v=kwS4-kslujQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

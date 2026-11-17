@@ -186,8 +186,8 @@ description: "Learn to attack the omoplata from inverted guard. Step-by-step exe
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "BJJ Omaplata from Inverted Guard by Roleta Magalhaes",
-      "description": "Omoplata from Inverted Guard (Attacker) film study: BJJ Omaplata from Inverted Guard by Roleta Magalhaes.",
+      "name": "BJJ Omaplata from Inverted Guard",
+      "description": "Omoplata from Inverted Guard (Attacker) film study: BJJ Omaplata from Inverted Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/r3gy1JDPeyU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/r3gy1JDPeyU",
       "url": "https://www.youtube.com/watch?v=r3gy1JDPeyU",
@@ -232,7 +232,7 @@ Attacking the omoplata from inverted guard requires threading your leg over the 
 
 ![](https://www.youtube.com/watch?v=r3gy1JDPeyU)
 
-<p class="clip-credit"><strong>BJJ Omaplata from Inverted Guard by Roleta Magalhaes</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=r3gy1JDPeyU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Omaplata from Inverted Guard</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=r3gy1JDPeyU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
