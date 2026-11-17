@@ -298,7 +298,8 @@ class Reader {
       }, { passive: true });
     }
     listen(this.root, "keydown", (event) => {
-      if (event.key !== "Escape" && !this.gameInput(event)) { this.readingInteraction(); event.stopPropagation(); }
+      // the search's keys go on to the app from the article too (REFSEARCH: a late "/" was dead here)
+      if (event.key !== "Escape" && !this.app._isSearchKey(event) && !this.gameInput(event)) { this.readingInteraction(); event.stopPropagation(); }
     });
     listen(this.root, "click", (event) => this.link(event));
     // The reader's place survives the browser's clamp. When the scrollport grows for a moment (the
@@ -359,7 +360,7 @@ class Reader {
       // A cached direct article can finish before the first animation frame.
       // Seat timestamps must use the frame clock's origin, never undefined.
       if (!Number.isFinite(this.app.now)) this.app.now = this.app.lastT || 0;
-      try { this.app.rollFromPosition(hit.idx, true, hit.role); }
+      try { this.app.rollFromPosition(hit.idx, true, hit.role, true); }   // an arrival: keeps a session the panel shows (REFSEARCH-2)
       finally { this.seating = false; }
       this.app._staged = this.app.currentPos;
       this.app._urlSeeded = true;
@@ -371,8 +372,7 @@ class Reader {
     this.reference = null;
     if (intent && /^\/(Principles|Learning|Systems)\//i.test(path)) {
       this.app.clearFocus();
-      this.app._exQ = "";
-      if (this.app.explorerSearchRef.current) this.app.explorerSearchRef.current.value = "";
+      this.app._readerEmptiesQuery();   // not the query of a panel the player has open (REFSEARCH, app.src.jsx)
       this.highlightReference(path, serial);
     }
     push = push && !this.app._writeUrl(url, { ngReading: true });
@@ -405,7 +405,7 @@ class Reader {
       // out of the game's header row; a frame later, a click aimed at "ready" hit the map instead.
       this.layoutNow();
       if (url.hash) this.anchor(url.hash);
-      else if (this.interacting) this.heading.focus({ preventScroll: true });
+      else if (this.interacting && this.app._readerMayFocus()) this.heading.focus({ preventScroll: true });   // REFSEARCH
     } catch (error) {
       if (serial !== this.renderSerial || error.name === "AbortError" || this.app.__ngDestroyed) return;
       // #331's review (R1): Retry reopens the address as asked, its #section included; `path` is normalised and has none.

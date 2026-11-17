@@ -117,15 +117,25 @@ async function earlyThenLate(page: Page, context: BrowserContext, path: string, 
   await landed(p2)
   await settled(p2)
   const opensItself = await shown(p2)
-  if (!opensItself) { await doPress(p2, control.what + ", late"); await settled(p2) }
+  // a page that opens the panel itself: a late LOGO press would shut it, so the logo is compared with no press. A search
+  // asks for the search, which an open panel is not, so it is asked for late there too (REFSEARCH): the open panel
+  // covers the search button, so the late ask is a press on the panel's own search field (or the key)
+  const pressLate = !opensItself || control.sel !== ".ng-logo"
+  if (pressLate && opensItself && control.sel) { await press(p2, ".ng-explorer-tools input", "the panel's search field, late", touch); await settled(p2) }
+  else if (pressLate) { await doPress(p2, control.what + ", late"); await settled(p2) }
   const b = await endState(p2)
   expect(late.errors, "no page error on the late press").toEqual([])
-  expect(a, opensItself ? "the early press leaves the panel as the page opened it" : "the early press ends where a late press ends").toEqual(b)
+  expect(a, pressLate ? "the early press ends where a late press ends" : "the early press leaves the panel as the page opened it").toEqual(b)
   expect(a.shown, "the panel is open").toBe(true)
   expect(a.paneOpened, "pane_opened sent once, for a panel the player can see").toBe(1)
   return { opensItself }
 }
 
+const NODE_PAGES = [
+  { path: "/Positions/Mount/Top", what: "a position page" },
+  { path: "/Transitions/Knee-Slice-Pass", what: "a technique page" },
+  { path: "/Submissions/Triangle-Choke/from-Triangle-Control/Attacker", what: "a submission page" },
+]
 const PAGES = [
   { path: "/", what: "the home page" },
   { path: "/Positions/Mount/Top", what: "a position page" },
@@ -147,9 +157,45 @@ for (const touch of [false, true]) {
         if (pg.what === "a hub") expect(opensItself, "premise: the hub opens the panel itself").toBe(true)
       })
     }
-    for (const pg of [PAGES[0], PAGES[1], PAGES[3]]) {
+    for (const pg of [PAGES[0], PAGES[1], PAGES[3], PAGES[6]]) {
       test(`an early press on the search button on ${pg.what} ends where a late press ends (${tag})`, async ({ page, context }) => {
         await earlyThenLate(page, context, pg.path, { sel: ".ng-search", what: "the search button" }, touch)
+      })
+    }
+
+    // REFSEARCH-2 (v1.290.1; the orchestrator's probe on the preview, 3 of 6 in one run): on a position, technique or
+    // submission page the page's own first landing is the READER's (its `open` seats the board with `rollFromPosition` as
+    // soon as its file has landed), and it ended a session opened before it. #432 held on the home page only: its test
+    // booted "/". The order is FORCED here by holding the reader's file (`app/reader.js`, `never`): the logo and the row are
+    // pressed, the session is open, and only then is the reader released, so its landing comes after by construction.
+    // The player's own roll then ends the session: called the way a row's ▶ makes it (`playFrom`), because on a phone
+    // the panel covers the map and no control that starts a roll is on screen beside an open session.
+    for (const pg of NODE_PAGES) {
+      test(`Master the game opened on ${pg.what} before the page's own first landing stays open when it lands, and the player's own roll ends it (${tag})`, async ({ page }) => {
+        const errors: string[] = []
+        page.on("pageerror", (e) => errors.push(e.message))
+        const j = journey(page)
+        await j.boot(pg.path, { unready: true, payloads: { "app/reader.js": { never: true } } })
+        await landed(page)
+        await page.evaluate(() => (window as W).__neural.advance(17))   // one frame first, as on the home page (see there)
+        const landings = () => page.evaluate(() => (((window as W).__neural.beats || []) as any[]).filter((b) => b.beat === "land").length)
+        expect([await page.evaluate(() => !!(window as W).__neural._reader), await landings()], "premise: the reader has not landed, and nothing has landed on the board").toEqual([false, 0])
+        await press(page, ".ng-logo", "the logo", touch)
+        await expect(page.locator('[data-explore-stats] [data-b="due"]')).toBeVisible()
+        await press(page, '[data-explore-stats] [data-b="due"]', "Master the game", touch)
+        await expect.poll(() => page.evaluate(() => !!(window as W).__neural._practiceInDrawer()), { message: "premise: Master the game is open" }).toBe(true)
+        expect(await page.evaluate(() => { (window as any).__openSession = (window as W).__neural._session; return !!(window as any).__openSession }),
+          "premise: a session is open").toBe(true)
+        expect(await landings(), "premise: still nothing has landed").toBe(0)
+        await j.releasePayload("app/reader.js")
+        await expect.poll(async () => [await page.evaluate(() => !!(window as W).__neural._reader), (await landings()) > 0],
+          { message: "premise: the reader landed and the page's own first landing happened", timeout: 20_000 }).toEqual([true, true])
+        expect(await page.evaluate(() => (window as W).__neural._session === (window as any).__openSession && (window as W).__neural._practiceInDrawer()),
+          "Master the game is still open after the page's own first landing").toBe(true)
+        await expect(page.locator("[data-practice-page]"), "and its page is on screen").toBeVisible()
+        await page.evaluate(() => { const a = (window as W).__neural; a.playFrom(a.currentPos, a.playerRole) })
+        expect(await page.evaluate(() => (window as W).__neural._session === (window as any).__openSession), "a roll the player starts ends the session").toBe(false)
+        expect(errors, "no page error").toEqual([])
       })
     }
 
