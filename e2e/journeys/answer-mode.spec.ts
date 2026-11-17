@@ -118,6 +118,9 @@ for (const touch of [false, true]) {
       await press(page, ".ng-logo", "open the drawer", touch)
       await press(page, '[data-explore-stats] [data-b="due"]', "Master the game", touch)
       await expect(page.locator("[data-practice-page]")).toHaveCount(1)
+      // L1 (v1.290.0): Master the game opens as a list with one button; its press opens the day's first card, as the row did by itself before
+      await expect(page.locator("[data-master-start]")).toBeEnabled({ timeout: 20_000 })
+      await press(page, "[data-master-start]", "Master the game's button", touch)
       const open = '[data-session-row][aria-expanded="true"] + div'
       await expect(page.locator(open + " [data-practice-mc-opt]"), "a new card asks multiple choice").toHaveCount(3, { timeout: 20_000 })
       const { key, q } = await practiceCard(page)
@@ -168,6 +171,7 @@ test("Practice: a stored Front Back cards asks a new card front and back; a stor
   await j.boot("/", { initialState: { v: 2, settings: { mcMode: "classic" }, settingsAt: { mcMode: 5 } } })
   await j.clickByMouse(".ng-logo", "open the drawer")
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Master the game")
+  await j.startMaster()   // L1 (v1.290.0): Master the game opens as a list with one button; its press opens the day's first card, as the row did by itself before
   const open = '[data-session-row][aria-expanded="true"] + div'
   await expect(page.locator(open + " [data-mini-q]"), "the first card is up").toHaveCount(1, { timeout: 20_000 })
   await expect(page.locator(open + " [data-mini-reveal]"), "Front Back cards: a new card asks front and back").toHaveText(/Reveal/)

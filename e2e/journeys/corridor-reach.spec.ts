@@ -106,6 +106,14 @@ async function openMaster(page: Page, touch: boolean) {
   if (!(await page.evaluate(() => !!(window as W).__neural.deckShown))) await press(page, ".ng-logo", "open the drawer", touch)
   await press(page, '[data-explore-stats] [data-b="due"]', "Master the game", touch)
   await expect(page.locator("[data-practice-page]"), "Master the game is open").toHaveCount(1)
+  // L1 (v1.290.0): Master the game opens as a list with one button, and the shelf sits folded under "Belt lessons". This
+  // journey was written when the page opened on its first card with the shelf drawn under it, so it presses both, the way
+  // a player does: the button (the day's first card opens), then "Belt lessons" (the shelf unfolds below the list)
+  await expect(page.locator("[data-master-start]"), "the button is ready").toBeEnabled({ timeout: 20_000 })
+  await press(page, "[data-master-start]", "the button", touch)
+  await expect(page.locator("[data-master-dock]"), "a card is open").toBeVisible()
+  await press(page, "[data-master-belts]", "Belt lessons", touch)
+  await expect(page.locator("[data-master-belts]")).toHaveAttribute("aria-expanded", "true")
 }
 
 for (const touch of [false, true]) {

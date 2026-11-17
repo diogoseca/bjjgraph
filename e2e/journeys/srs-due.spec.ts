@@ -335,6 +335,8 @@ test("the maintenance surfaces: every due figure is the CARD count, and the sess
   expect(header).toBe("‹ Master the game");   // before: "‹ Practice" (v1.276.0, owner U169 c)
   await expect(page.locator("[data-practice-section]"), "P1-F: first review section repeats the drawer debt").toHaveText("Due reviews · 2 cards");
   await expect(page.locator("[data-plan-goal-progress]"), "the compact goal counts the same cards").toHaveText("Reviewed 0/2");
+  // L1 (v1.290.0): Master the game opens as a list; its button opens the queue's first card (the row reads below)
+  await j.startMaster();
   // ...and the one row is narrowed to what is OWED — both cards, not its whole deck. Read off
   // what the row EMITTED: its progress figure, its reason, and one progress tick per card dealt.
   const rows = page.locator("[data-session-row]");

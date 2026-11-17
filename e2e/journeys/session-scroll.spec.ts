@@ -39,7 +39,8 @@ type Fit = {
 const fit = (page: Page): Promise<Fit> =>
   page.evaluate(() => {
     const wrap = document.querySelector("[data-session]") as HTMLElement | null;
-    const list = wrap && (wrap.parentElement as HTMLElement | null);
+    // the drawer's scrolling list (L1, v1.290.0: on Practice `[data-session]`'s parent is the open card's own block)
+    const list = wrap && ((wrap.closest(".ng-pane-drillhead + div") as HTMLElement | null) || (wrap.parentElement as HTMLElement | null));
     if (!list) return { key: null, rowTop: NaN, deckBottom: NaN, tall: false, scrollTop: NaN };
     const decks = Array.from(document.querySelectorAll("[data-mini-deck]")) as HTMLElement[];
     const deck = decks.find((el) => el.offsetParent !== null) || null;
@@ -164,13 +165,15 @@ test("a Practice queue jump made far below the card, then walked with â†“ and â†
   expect(setup.practice, "Practice's one-card page").toBe(true);
   expect(setup.plan, "the queue is the plan surface, not the pre-planner review list").toBe(true);
   expect(setup.rows, "the queue has rows to walk").toBeGreaterThan(8);
+  // L1 (v1.290.0): Master the game opens as a list with one button; its press opens the first card, as the page did by itself
+  await j.startMaster();
   await page.waitForTimeout(400);
 
   // Scroll the LIST (as a finger would) down to the queue and open it, then to one of its buttons.
   // That takes the open deck off the top, or this test would pass without the scroll it exists to pin.
   const scrollListTo = async (sel: string) => {
     await page.evaluate((target) => {
-      const list = (document.querySelector("[data-session]") as HTMLElement).parentElement as HTMLElement;
+      const list = (document.querySelector("[data-session]") as HTMLElement).closest(".ng-pane-drillhead + div") as HTMLElement;
       const b = (document.querySelector(target) as HTMLElement).getBoundingClientRect(), lr = list.getBoundingClientRect();
       list.scrollTop += b.top - lr.top - lr.height * 0.6;
     }, sel);

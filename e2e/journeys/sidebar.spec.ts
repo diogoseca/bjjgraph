@@ -199,6 +199,7 @@ test("the badge shows today's cards and rolls before it is opened, a real grade 
   expect(await page.evaluate(() => document.querySelector(".ng-account-menu")!.getAttribute("data-open")), "the menu is shut").toBeNull()
   // Practice: grade the owed review, then come home by the brand
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice")
+  await j.startMaster()   // L1 (v1.290.0): the list's button opens the day's first card, as the row did by itself before
   await pressDeck(page, j, "[data-mini-reveal]", "Reveal")   // the pane chose the row; the mouse is measured
   await pressDeck(page, j, "[data-mini-got]", "Got it")
   await j.clickByMouse(".ng-drawer-brand", "the brand, home")
@@ -457,6 +458,7 @@ test.describe("phone 390x844", () => {
     })
     await openDrawer(j, page)
       await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice")
+    await j.startMaster()   // L1 (v1.290.0): the list's button opens the day's first card, as the row did by itself before
     await expect(page.locator("[data-session-row]").first()).toBeVisible()
     await page.evaluate(() => { (window as any).__practice = (window as W).__neural._session })
     const box = (await page.locator(".ng-drill").boundingBox())!

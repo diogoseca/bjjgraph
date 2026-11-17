@@ -69,6 +69,8 @@ async function setup(page: any, seed: { due: number, answered: number }, beforeO
 /** The Practice door the player has today: the stat row's due cell (the sidebar's Practice row later). */
 async function openPractice(j: any) {
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice");
+  // L1 (v1.290.0): Master the game opens as a list with one button; its press opens the day's first card, as the row did by itself before
+  await j.startMaster();
 }
 
 /** A measured mouse press on a deck control, scrolled into the pane first: the pane chose the row. */

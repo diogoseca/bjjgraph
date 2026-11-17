@@ -19560,3 +19560,6 @@ the PR (e2e-full, green on de56390ba).
 
 Runs, bytes and the full rulings are in the PR body. corridor-reach.spec.ts names its non-kill and one known limit (a
 shelf press in the instant the plan lands).
+
+## v1.290.0 — Master the game is a list with one button (L1)
+Why and how: `_renderPractice` and master-list.src.js. Mutants: master_list.test.mjs, master-list.spec.ts.

@@ -1,0 +1,192 @@
+// MASTER THE GAME'S LIST (L1, v1.290.0). The owner's U197 b (17 Nov 2026, the design round MASTER-R1): Master the game is
+// "Positions you have been to", with a call to action ("When we click that button, we should go for the first item on the
+// list and then reveal the navigation buttons. I don't want to have the section which reads 'Places you have been.'"),
+// U199 a (gold marks and the number, never a total) and the orchestrator's five rulings on Part A2 (reports/mapasks.md):
+//   - the rows the plan visits today come first, in THE PLAN'S OWN ORDER (S0's law, practice-queue.src.js), so the button
+//     and the order agree by construction; a place the plan visits that you never stood on joins where the plan puts it,
+//     marked "new" (ruling 3);
+//   - then every other place in `explored` (the synced record of the seats you landed on, app `_exploredKeys`), nothing
+//     due there; no new stored key (ruling 5);
+//   - a row's sub line says what is due and, where the record already knows it, when you last ANSWERED or PLAYED there:
+//     the newest of that seat's `srs`, `moves` and `flow` days. Never the word "visited": nothing stores a visit (ruling 5);
+//   - an `explored` key that no longer resolves (a renamed position: the record is keyed by name) is COUNTED and the count
+//     is said; it is never dropped silently (CLAUDE.md §6.6, ruling 5).
+// Pure: no DOM, no app. The app hands in what it already holds (`resolve`, `lastDay`, `gold`) and paints what this returns.
+// It rides the deferred gameplan bundle (re-exported by gameplan.src.js), so the eager core carries none of its words.
+// Pinned by tests/master_list.test.mjs.
+
+import { ngGameplanReviewed } from "./gameplan-debt.src.js";
+
+const NG_MASTER_MARKS = 8;   // marks drawn at most; the number says the rest (U199 a: the number, never a total)
+
+// "answered yesterday", "played 3 days ago": the day a row last saw an answer or a move, in words
+export function ngMasterWhen(seen, day) {
+  if (!seen || !Number.isFinite(seen.day) || !Number.isFinite(day)) return "";
+  const n = Math.max(0, Math.floor(day - seen.day));
+  const ago = n === 0 ? "today" : n === 1 ? "yesterday" : n < 14 ? n + " days ago" : n < 60 ? Math.round(n / 7) + " weeks ago" : Math.round(n / 30) + " months ago";
+  return (seen.kind === "played" ? "played " : "answered ") + ago;
+}
+
+/**
+ * The list. `plan`: the plan's visits in its order, [{seat, due, fresh}] (`due` the owed cards still to answer there today,
+ * `fresh` its new ones; `seat` "Mount|Bottom", or null for cards no position holds). `explored`: the record's keys.
+ * `resolve(key)`: {name, side, pos} for a node this ruleset draws (`pos` true for a position), false for one it does not
+ * draw, null for a key that no longer resolves. `lastDay(key)`: {day, kind} or null. `gold(key)`: the shapes of the moves
+ * the map paints gold there. Returns {rows, rest, unresolved, been}: `rows` the plan's, `rest` the other places with
+ * nothing due (newest answer first, then by name), `unresolved` the keys counted and never shown, `been` how many
+ * positions the record holds in this ruleset (0: a new player).
+ */
+export function ngMasterRows({ plan = [], explored = [], resolve, lastDay, gold, day } = {}) {
+  const been = new Set(explored), inPlan = new Set();
+  const row = (seat, p, extra) => {
+    const shapes = (seat && gold && gold(seat)) || [], seen = seat && lastDay ? lastDay(seat) : null;
+    return { seat, name: p ? p.name : "Other cards", side: p ? p.side : "", marks: shapes.slice(0, NG_MASTER_MARKS), n: shapes.length,
+      when: ngMasterWhen(seen, day), last: seen && Number.isFinite(seen.day) ? seen.day : -Infinity, ...extra };
+  };
+  const rows = [];
+  for (const [visit, v] of plan.entries()) {
+    const p = v.seat && resolve ? resolve(v.seat) : null;
+    if (v.seat) inPlan.add(v.seat);
+    const r = row(v.seat, p || null, { visit, due: v.due || 0, fresh: v.fresh || 0, isNew: !!v.seat && !been.has(v.seat) });
+    r.sub = [r.due ? r.due + " due" : r.fresh ? "new cards" : "done for today", r.when].filter(Boolean).join(" \u00b7 ");
+    rows.push(r);
+  }
+  const rest = [];
+  let unresolved = 0, seats = 0;
+  for (const key of been) {
+    const p = resolve ? resolve(key) : null;
+    if (p === null) { unresolved++; continue; }
+    if (!p || !p.pos) continue;   // a node this ruleset does not draw, or not a position (a submission's side): not a place
+    seats++;
+    if (inPlan.has(key)) continue;
+    const r = row(key, p, { due: 0, fresh: 0, isNew: false });
+    r.sub = ["nothing due", r.when].filter(Boolean).join(" \u00b7 ");
+    rest.push(r);
+  }
+  rest.sort((a, b) => b.last - a.last || (a.name < b.name ? -1 : a.name > b.name ? 1 : a.side < b.side ? -1 : a.side > b.side ? 1 : 0));
+  return { rows, rest, unresolved, been: seats };
+}
+
+/**
+ * The button's words (the orchestrator's L1 brief): "Start today's session" before the day's first answer, "Continue
+ * today's session" after, the first position named under it with what is left of the goal ("Mount, bottom first · 13 to
+ * go"); a new player's "Your first position: Mount, bottom"; the day's goal met, "Today's 20 are done" (`met`), with
+ * "Keep practising" under it, which the app draws. `first`: the row the button opens, or null while nothing is ready.
+ */
+export function ngMasterStart({ done = 0, goal = 20, first = null, newPlayer = false, ready = true } = {}) {
+  if (done >= goal) return { met: true, title: "Today's " + goal + " are done", sub: done + " answered · keep going if you like" };
+  const title = done ? "Continue today's session" : "Start today's session";
+  if (!first) return { met: false, title, sub: ready ? "Nothing to practise here right now." : "Loading your positions…" };
+  const at = first.side ? first.name + ", " + first.side.toLowerCase() : first.name;
+  return { met: false, title, sub: newPlayer && !done ? "Your first position: " + at : at + " first · " + (goal - done) + " to go" };
+}
+
+// ── THE PAGE'S PAINTER (L1): the rows, the note and the button's words, painted through the app's own readers. It lives in
+// this deferred bundle, not in the eager core (the eager gzip figure's per-change cap, tests/artifacts/payload_policy.json):
+// the rows need the plan, so they never paint before this bundle is in anyway. The app keeps the skeleton, the press, the
+// navigation and `openMasterAt` (app.src.jsx, `_masterSkeleton` and below), and calls this from `_masterPaint`.
+
+// the plan's visits as the list shows them: one row a place, in the order the session holds them (the plan's own), with what
+// is still to answer there today (an answer given today, here or anywhere, is no longer due)
+function ngMasterPlanOf(app, s) {
+  const seen = new Set(ngGameplanReviewed(app.srs, app._epochDay())), out = new Map();
+  const rows = s.plan ? s.plan.due.concat(s.plan.fresh) : s.review ? s.review.rows : [];
+  for (const k of s.keys) {
+    const r = rows.find((x) => x.key === k), seat = app._masterSeatOf(s, k);
+    if (seat == null || (r && r.source === "place")) continue;
+    const v = out.get(seat) || out.set(seat, { seat, due: 0, fresh: 0 }).get(seat);
+    if (!r) continue;
+    const owed = r.owed || (s.review || r.kind === "due" ? r.questions : []);
+    v.due += owed.filter((q) => !seen.has(q)).length;
+    v.fresh += r.questions.filter((q) => !owed.includes(q) && !seen.has(q)).length + (r.pending || 0);
+  }
+  return [...out.values()].map((v) => ({ ...v, seat: v.seat || null }));
+}
+function ngMasterResolveIn(app, k) {
+  const i = app.nodeForKey(k); if (i < 0) return null;
+  if (!app.rsAllowsIdx(i)) return false;   // this ruleset does not draw it: not a row, and not lost either
+  const bar = k.lastIndexOf("|");
+  return { name: k.slice(0, bar), side: k.slice(bar + 1), pos: app.nodes[i].ty === "positions" };
+}
+// when you last ANSWERED or PLAYED at a place (ruling 5 of Part A2): the newest day of its cards (its own deck and the decks
+// the plan files under it, `_practiceSeats`), its hidden moves' answers and the moves you played from it (`flow`)
+function ngMasterSeenIn(app, k, decksOf) {
+  let best = null;
+  const up = (d, kind) => { if (Number.isFinite(d) && (!best || d > best.day)) best = { day: d, kind }; };
+  for (const dk of [k].concat(decksOf.get(k) || [])) { const D = app.srs && app.srs[dk]; if (D) for (const q in D) up(D[q] && D[q][2], "answered"); }
+  const i = app.nodeForKey(k), o = i >= 0 && app._ordById ? app._ordById.get(app.siteIdOf(app.nodes[i].id)) : null;
+  const M = o != null && app.moves ? app.moves[o + "/" + (k.endsWith("|Bottom") ? "bottom" : "top")] : null;
+  if (M) for (const mv in M) up(M[mv] && M[mv][2], "answered");
+  for (const dev in app.flow || {}) { const P = app.flow[dev] && app.flow[dev][k]; if (P) for (const mo in P) up(P[mo] && P[mo][2], "played"); }
+  return best;
+}
+// THE ROW'S GOLD IS THE MAP'S (U199 a): of the moves dealt at the place, those the map paints gold, outside (`_movesGold`, a
+// Yes in the moves record) or inside (`_answered`, its deck learned); their shapes, as the map draws them
+function ngMasterGoldIn(app, k) {
+  const i = app.nodeForKey(k); if (i < 0 || app.nodes[i].ty !== "positions") return [];
+  let c = app._masterGoldC;
+  if (!c || c.gi !== app._giMode || c.sv !== app._stageVer || c.mr !== app._movesRev || c.n !== app.nodes) c = app._masterGoldC = { gi: app._giMode, sv: app._stageVer, mr: app._movesRev, n: app.nodes, m: new Map() };
+  let g = c.m.get(k);
+  if (!g) {
+    const hand = app._dealtOpts(i, k.endsWith("|Bottom") ? "bottom" : "top") || [], gold = app._movesGold();
+    c.m.set(k, (g = hand.filter((o) => gold.has(o.idx) || app._answered(app.nodes[o.idx])).map((o) => (app.nodes[o.idx].ty === "submissions" ? "tri" : "dia"))));
+  }
+  return g;
+}
+function ngMasterViewIn(app, s) {
+  if (!app.nodes || !app.nodes.length) return null;
+  const game = app._ratingGame(app._giMode === "nogi" ? "nogi" : "gi"), map = game && game.seats ? app._practiceSeats(game) : {}, decksOf = new Map();
+  for (const dk in map) if (map[dk] !== dk) (decksOf.get(map[dk]) || decksOf.set(map[dk], []).get(map[dk])).push(dk);
+  return ngMasterRows({ plan: ngMasterPlanOf(app, s), explored: [...(app._exploredKeys || [])], day: app._epochDay(),
+    resolve: (k) => ngMasterResolveIn(app, k), lastDay: (k) => ngMasterSeenIn(app, k, decksOf), gold: (k) => ngMasterGoldIn(app, k) });
+}
+function ngMasterRowHTML(app, r) {
+  const e = (x) => app.escHTML(x), shape = (k) => '<svg width="10" height="10" viewBox="-1 -1 12 12"><path d="' + (k === "tri" ? "M5 .6L9.6 9.2H.4z" : "M5 .3L9.7 5L5 9.7L.3 5z") + '"/></svg>';
+  return '<i class="ng-mdot" data-side="' + e((r.side || "").toLowerCase()) + '"></i><span class="ng-mbody"><span class="ng-mname">' + e(r.name) + (r.side ? " <em>" + e(r.side) + "</em>" : "") +
+    "</span><small>" + e(r.sub) + "</small></span>" + (r.isNew ? '<span class="ng-mnew">new</span>' : r.n ? '<span class="ng-mgold" data-master-gold="' + r.n + '" aria-label="' + r.n +
+    (r.n === 1 ? " move" : " moves") + ' in gold">' + r.marks.map(shape).join("") + "<b>" + r.n + "</b></span>" : "") + '<span class="ng-mchev">›</span>';
+}
+// the rows: rebuilt when the set of places changes (the open card taken out first and put back under its row), else each
+// repainted in place only when its words changed (a rewrite under a pointer swallows the press, FGD13's class)
+function ngMasterSync(app, s, v) {
+  const sig = v.rows.map((r) => r.seat).join("\n") + "\n|\n" + v.rest.map((r) => r.seat).join("\n");
+  if (sig !== s.rowSig) {
+    s.rowSig = sig; s.rowEls = new Map();
+    // THE OPEN CARD IS NEVER TAKEN DOWN WITH THE ROWS: the rows around it are swapped and it stays connected, so a press held
+    // on it lands (P1-D, practice-page.spec.ts) and its focus stays (‹ Back from a checkpoint, corridor-reach.spec.ts); it
+    // goes under its own row through `_masterPlace`, which waits for a held press and keeps the focus
+    const inside = s.ask.parentNode === s.rowsEl;
+    const els = [], row = (r, group) => {
+      const b = document.createElement("button"); b.type = "button"; b.className = "ng-mrow";
+      b.setAttribute("data-master-row", r.seat || ""); b.setAttribute("data-master-group", group);
+      s.rowEls.set(r.seat || "", b); els.push(b);
+    };
+    v.rows.forEach((r) => row(r, "plan"));
+    if (v.rows.length && v.rest.length) { const hr = document.createElement("hr"); hr.className = "ng-mrule"; els.push(hr); }
+    v.rest.forEach((r) => row(r, "rest"));
+    if (inside) { for (const c of [...s.rowsEl.children]) if (c !== s.ask) c.remove(); s.ask.after(...els); }
+    else s.rowsEl.replaceChildren(...els);
+    if (!s.list) app._masterPlace(s, true);
+  }
+  for (const r of v.rows.concat(v.rest)) {
+    const el = s.rowEls.get(r.seat || ""), h = ngMasterRowHTML(app, r);
+    if (el && el._ngHtml !== h) { el._ngHtml = h; el.innerHTML = h; }
+  }
+}
+// the places' rows' own rules (the button, the slim line, the navigation and "Belt lessons" are challenge-ui.css's, eager:
+// they show before this bundle is in), added once to the page (the CSP allows inline styles; app.src.jsx does the same)
+const NG_MASTER_CSS = ".ng-mrow[data-on] { background: rgba(255,255,255,.035); }@media (hover: hover) { .ng-mrow:hover { background: rgba(255,255,255,.035); } }.ng-mdot { flex: none; width: 10px; height: 10px; border-radius: 50%; background: #5b8cff; }.ng-mdot[data-side=bottom] { background: #d8607a; }.ng-mdot[data-side=attacker], .ng-mdot[data-side=defender], .ng-mdot[data-side=''] { border-radius: 2px; background: #9fb0d8; }.ng-mrow[data-on] .ng-mname { color: #eef1f6; font-weight: 700; }.ng-mname em { font-style: normal; font-size: 9px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #8fb0ff; margin-left: 3px; }.ng-mdot[data-side=bottom] + .ng-mbody em { color: #d8889e; }.ng-mgold { flex: none; display: inline-flex; align-items: center; gap: 3px; }.ng-mgold svg { display: block; fill: none; stroke: #f0c05a; stroke-width: 1.5; stroke-linejoin: round; }.ng-mgold b { margin-left: 3px; font-size: 11px; color: #f0c05a; }.ng-mnew { flex: none; font-size: 10.5px; font-weight: 600; color: #7e8aa3; }.ng-mrule { border: 0; height: 1px; background: rgba(150,170,210,.1); margin: 8px 0; }.ng-mnote { font-size: 11.5px; line-height: 1.5; color: #7e8aa3; margin: 10px 0 0; }";
+export function ngMasterPaint(app, s) {
+  if (!document.getElementById("ng-master-css")) { const st = document.createElement("style"); st.id = "ng-master-css"; st.textContent = NG_MASTER_CSS; document.head.appendChild(st); }
+  const t = app.practiceToday(), v = (s.view = ngMasterViewIn(app, s));
+  if (v) ngMasterSync(app, s, v);
+  // AN EXPLORED KEY THAT NO LONGER RESOLVES IS COUNTED AND SAID (ruling 5; CLAUDE.md §6.6): a renamed position, never dropped in silence
+  const txt = !v ? "" : [v.unresolved ? v.unresolved + (v.unresolved === 1 ? " place you reached is" : " places you reached are") + " no longer on the map." : "",
+    !v.been ? "Play a roll and every position you reach joins this list, with the moves you remember there." : ""].filter(Boolean).join(" ");
+  if (s.note.textContent !== txt) s.note.textContent = txt;
+  s.note.hidden = !txt;
+  if (v && v.unresolved && s.unresolvedBeat !== v.unresolved) { s.unresolvedBeat = v.unresolved; app.fx("master_unresolved", { n: v.unresolved }); }
+  // the row the button opens: the plan's first place with something left to ask, else its first
+  const first = (s.first = (v && (v.rows.find((r) => r.due || r.fresh) || v.rows[0])) || null);
+  return { w: ngMasterStart({ done: t.done, goal: t.goal, first, newPlayer: !!v && !v.been, ready: !!v && !!s.plan }), open: !!first || (!v && s.keys.length > 0) };
+}

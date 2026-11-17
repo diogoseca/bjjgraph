@@ -34,7 +34,7 @@ async function seed(page: any, due = 1, answered = 0, belt = "white") {
   }, { due, answered, belt });
 }
 
-async function door(page: any, j: any, keyboard = false, touch = false) {
+async function door(page: any, j: any, keyboard = false, touch = false, belts = false) {
   await j.clickByMouse(".ng-logo", "open the drawer");
   const selector = '[data-explore-stats] [data-b="due"]';
   if (keyboard) {
@@ -52,6 +52,35 @@ async function door(page: any, j: any, keyboard = false, touch = false) {
     await page.touchscreen.tap(b!.x + b!.width / 2, b!.y + b!.height / 2);
   } else await j.clickByMouse(selector, "open Practice");
   await expect(page.locator("[data-practice-page]")).toHaveCount(1);
+  // L1 (v1.290.0): Master the game opens as a list with one button, the shelf folded under "Belt lessons". These journeys were
+  // written when the page opened on its first card with the shelf drawn under it, so the door now presses the button the
+  // same way the row was pressed (Tab and Enter, a touch, the mouse), and "Belt lessons" too for a journey that uses the shelf
+  const pressed = async (sel: string, what: string) => {
+    if (keyboard) {
+      let reached = false;
+      for (let n = 0; n < 120; n++) {
+        if (await page.locator(sel).evaluate((el: Element) => el === document.activeElement)) { reached = true; break; }
+        await page.keyboard.press("Tab");
+      }
+      expect(reached, `native Tab reaches ${what}`).toBe(true);
+      await page.keyboard.press("Enter");
+    } else if (touch) {
+      await page.locator(sel).scrollIntoViewIfNeeded();
+      const b = await page.locator(sel).boundingBox();
+      await page.touchscreen.tap(b!.x + b!.width / 2, b!.y + b!.height / 2);
+    } else { await page.locator(sel).scrollIntoViewIfNeeded(); await j.clickByMouse(sel, what); }
+  };
+  const ready = await expect.poll(() => page.locator("[data-master-start]").isEnabled(), { timeout: 10_000 }).toBe(true).then(() => true, () => false);
+  if (ready) {
+    await pressed("[data-master-start]", "Master the game's button");
+    await expect(page.locator("[data-master-dock]"), "the press opens a card").toBeVisible();
+  }
+  // the shelf only for the journeys that use it: a press on "Belt lessons" scrolls the page to its foot and keeps the focus
+  // on that row (where Space and ⏎ are its own), and the card journeys pin an unscrolled page and the keys on the card
+  if (belts) {
+    await pressed("[data-master-belts]", "Belt lessons");
+    await expect(page.locator("[data-master-belts]")).toHaveAttribute("aria-expanded", "true");
+  }
 }
 
 async function firstAnswer(page: any, j: any) {
@@ -111,7 +140,7 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }
 test("U163 c: every belt section is open; earlier work is revealable; a later belt can be selected and unfolded", async ({ page }) => {
   const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
-  await seed(page, 1, 0, "blue"); await door(page, j);
+  await seed(page, 1, 0, "blue"); await door(page, j, false, false, true);
   await expect(page.locator('[data-belt="white"]')).toHaveCount(0);
   await expect(page.locator('[data-belt="blue"] [data-track="blue"]')).toHaveCount(1);
   await expect(page.locator(".ng-belt-section [data-belt-toggle]"), "U163 c: blue and the three after it, every one open").toHaveCount(4);
@@ -320,7 +349,7 @@ test("P1-F: Practice retains comparison, rewards and one deliberate visit event"
     a.track = (name: string, data: any) => { if (["neural_practice_opened", "neural_challenges_viewed"].includes(name)) (window as any).__p1Visits.push(name); track(name, data); };
     await a._ensureGameplanRuntime();
   });
-  await door(page, j);
+  await door(page, j, false, false, true);
   await expect(page.locator("[data-practice-keys]"), "P1-F: the key legend stays").toHaveText("←→ card·↑↓ technique·space flip");
   await expect(page.locator('[data-rewards-shelf]'), "P1-F: earned rewards have a destination").toContainText("Clean Checkpoint");
   await expect(page.locator('[data-rewards-shelf]')).toContainText("Houdini");
@@ -349,7 +378,7 @@ test("P1-F: a Practice unit still starts its evidence-gated checkpoint", async (
   });
   await j.rig("checkpoint-pick", Array(30).fill(.5));
   await j.rig("mc-pick", Array(100).fill(.31)); await j.rig("mc-shuffle", Array(100).fill(.56));
-  await door(page, j);
+  await door(page, j, false, false, true);
   const sel = `[data-checkpoint="${unit}"]`;
   await page.locator(sel).evaluate(el => { const d = el.closest("details") as HTMLDetailsElement; d.open = true; });
   await page.locator(sel).scrollIntoViewIfNeeded();
@@ -430,7 +459,7 @@ test("P1-E: Back restores the origin URL, title, selection and drawer focus", as
   await seed(page, 1);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   const origin = { url: page.url(), title: await page.title(), node: await page.evaluate(() => (window as any).__neural.focusIdx) };
-  await door(page, j);
+  await door(page, j, false, false, true);
   const key = await page.locator('[data-belt="white"] [data-lesson]').first().getAttribute("data-lesson");
   const selector = `[data-belt="white"] [data-lesson="${key}"]`;
   await page.locator(selector).scrollIntoViewIfNeeded();
@@ -520,7 +549,7 @@ test("P1-F: a lesson finished in Practice opens its checkpoint without leaving t
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   await seed(page, 0);
   const { unit, last } = await lessonFixture(page);
-  await door(page, j);
+  await door(page, j, false, false, true);
   const button = page.locator(`[data-checkpoint="${unit}"]`);
   await expect(button, "P1-F: the unit starts one lesson short").toBeDisabled();
   await pressLesson(page, j, last);
@@ -570,11 +599,13 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 1440, height: 900 
   await expect(page.locator("[data-session-complete]")).toHaveCount(1);
   await page.locator("[data-session-complete]").evaluate(el => Promise.all(el.getAnimations().map(a => a.finished)));   // it rises in on a transform
   const view = await page.evaluate(() => {
-    const list = (document.querySelector("[data-session]") as HTMLElement).parentElement as HTMLElement, box = list.getBoundingClientRect();
+    // the drawer's scrolling list (L1, v1.290.0: `[data-session]`'s parent is now the open card's own block, under its row)
+    const list = (document.querySelector("[data-session]") as HTMLElement).closest(".ng-pane-drillhead + div") as HTMLElement, box = list.getBoundingClientRect();
     const rect = (sel: string) => document.querySelector(sel)!.getBoundingClientRect();
     const inside = (sel: string) => rect(sel).top >= box.top && rect(sel).bottom <= box.bottom + 1;
     return { end: inside("[data-session-complete]"), more: inside("[data-plan-more]"), kept: (window as any).__endCard.isConnected,
-      gap: rect("[data-session-complete]").top - rect(".ng-practice-nav").bottom };
+      // until v1.290.0 the two technique buttons sat between the card and its end; they moved to the drawer's foot (L1)
+      gap: rect("[data-session-complete]").top - rect("[data-practice-keys]").bottom };
   });
   expect(view.kept, "P1-C: finishing never rebuilds the card").toBe(true);
   expect(view.gap, "P1-C: the end stands directly under the card").toBeLessThan(80);
@@ -649,7 +680,7 @@ test("P1-F: with no planner a corridor lesson still opens, and the fallback says
   await page.route("**/app/gameplan.js*", route => route.abort());
   await seed(page, 1);
   const { last } = await lessonFixture(page);
-  await door(page, j);
+  await door(page, j, false, false, true);
   await expect.poll(() => page.evaluate(() => (window as any).__neural._gameplanLoadState)).toBe("failed");
   await pressLesson(page, j, last);
   const beats = await page.evaluate(() => (window as any).__neural.beats.filter((b: any) => b.beat === "practice_lesson_unplanned"));

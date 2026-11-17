@@ -86,6 +86,13 @@ async function openPractice(page: Page, j: any) {
   await expect(page.locator("[data-practice-page]")).toHaveCount(1);
   await page.waitForFunction(() => !!(window as any).__neural._session?.plan, null, { timeout: 30_000 });
 }
+// L1 (v1.290.0): Master the game opens as a list with one button; the journeys about its cards press it, by mouse, as a
+// player does, and walk the techniques with the navigation the press shows (‹ and › in the drawer's foot, still named
+// "Previous technique" and "Next technique"; until v1.290.0 two buttons under the card)
+async function openCards(page: Page, j: any) {
+  await openPractice(page, j);
+  await j.startMaster();
+}
 
 for (const vp of [{ width: 390, height: 844 }, { width: 768, height: 1024 }, { width: 1440, height: 900 }]) {
   // v1.287.0 (SET1 slice B): the Path view, which this compared too, left the drawer; Practice is held to the list's width
@@ -96,7 +103,7 @@ for (const vp of [{ width: 390, height: 844 }, { width: 768, height: 1024 }, { w
     await seed(page, 2);
     await j.clickByMouse(".ng-logo", "open the drawer");
     const home = await drawer(page);
-    await openPractice(page, j);
+    await openCards(page, j);   // L1: the button first; ↓ on the list as it opens is the button, not the next technique
     await expect(page.locator(".ng-drawer-brand"), "the brand names the view, as it names Last rolls").toHaveText("‹ Master the game");   // before: "‹ Practice" (v1.276.0, owner U169 c)
     const practice = await drawer(page);
     await page.keyboard.press("ArrowDown"); // the next technique: the drawer does not move as the session pages
@@ -117,7 +124,7 @@ test("PD2: 1440×900 each card's technique is flown to the free map beside the d
   const due = await seed(page, 2);
   expect(due.every((d) => d.node >= 0), "both techniques are on the map").toBe(true);
   await j.clickByMouse(".ng-logo", "open the drawer");
-  await openPractice(page, j);
+  await openCards(page, j);
   // §6.2: the orb's place on the glass through draw()'s own transform and lift (`_LY`), never camTarget; the game
   // clock is pumped here, so the camera's flight is given 3.5 s of it before each reading
   const glass = () => page.evaluate(() => {
@@ -132,8 +139,7 @@ test("PD2: 1440×900 each card's technique is flown to the free map beside the d
   const seen: number[] = [];
   for (const step of [0, 1]) {
     if (step) {
-      await page.locator(".ng-practice-nav button:last-child").scrollIntoViewIfNeeded();
-      await j.clickByMouse(".ng-practice-nav button:last-child", "Next technique");
+      await j.clickByMouse("[data-master-next]", "Next technique");
     }
     await j.advance(3500);
     const at = await glass(), where = JSON.stringify(at);
@@ -151,8 +157,7 @@ test("PD2: 1440×900 each card's technique is flown to the free map beside the d
     expect(at.map, `PD2: the topmost thing at the orb is the map itself ${where}`).toBe(true);
     expect(at.ringed, "PD2: the technique carries the session's ring").toBe(true);
   }
-  await page.locator(".ng-practice-nav button:first-child").scrollIntoViewIfNeeded();
-  await j.clickByMouse(".ng-practice-nav button:first-child", "‹ Previous technique");
+  await j.clickByMouse("[data-master-prev]", "‹ Previous technique");
   await expect.poll(() => page.evaluate(() => (window as any).__neural._session.idx), { message: "Previous technique pages back" }).toBe(0);
 });
 
@@ -189,13 +194,16 @@ test("PD3: ‹ Practice is Practice's one Back; a deck study keeps its own", asy
 });
 
 /** Every visible button of the open card: its box, whether it sits inside the drawer and the viewport, and whether a
- * press at its centre lands on it. */
+ * press at its centre lands on it. "On screen" is inside the drawer's scrolling list as well as the viewport: since L1
+ * (v1.290.0) Practice's navigation sits in the drawer's pinned foot, under the list, so a control scrolled into that band
+ * is clipped by the list and is not on screen (until then the foot was hidden on Practice and the list reached the bottom). */
 const answers = (page: Page) => page.evaluate((sel) => {
   const open = document.querySelector(sel)!, d = document.querySelector(".ng-drill")!.getBoundingClientRect();
+  const l = (open.closest(".ng-pane-drillhead + div") as HTMLElement).getBoundingClientRect();
   return [...open.querySelectorAll("button, summary")].filter((b) => b.getClientRects().length && getComputedStyle(b).visibility !== "hidden").map((b) => {
     const r = b.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2, top = document.elementFromPoint(x, y);
     return { t: (b.textContent || "").trim().slice(0, 24), h: Math.round(r.height * 10) / 10,
-      inDrawer: r.left >= d.left - 0.5 && r.right <= d.right + 0.5, onScreen: r.top >= 0 && r.bottom <= innerHeight,
+      inDrawer: r.left >= d.left - 0.5 && r.right <= d.right + 0.5, onScreen: r.top >= Math.max(0, l.top) && r.bottom <= Math.min(innerHeight, l.bottom),
       hit: !!top && (top === b || b.contains(top)) };
   });
 }, OPEN);
@@ -229,7 +237,7 @@ for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { wi
     expect(due[0].a, "the longest authored answer (160 characters, mcClip's ceiling)").toBeGreaterThanOrEqual(160);
     expect(due[1].d, "the longest authored explanation").toBeGreaterThanOrEqual(1000);
     await j.clickByMouse(".ng-logo", "open the drawer");
-    await openPractice(page, j);
+    await openCards(page, j);
     // Until v1.278.0 the two owed longest cards opened the queue (most overdue first). The day's queue is now what is worth
     // most (U171 a), so the two decks are appended to the session through Practice's own append (the seam "Keep
     // practising" and a Path lesson use), and each is opened by its button in the session queue, the way a player reaches
@@ -273,7 +281,7 @@ for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { wi
       await a._ensureGameplanRuntime();
     });
     await j.clickByMouse(".ng-logo", "open the drawer");
-    await openPractice(page, j);
+    await openCards(page, j);
     await expect(page.locator(`${OPEN} [data-practice-mc-opt]:visible`)).toHaveCount(3);
     await checkAnswers(page, "[data-practice-mc-opt]", "the choices");
   });

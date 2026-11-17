@@ -125,10 +125,18 @@ async function hit(page: any, selector: string, touch: boolean) {
   if (touch) await page.touchscreen.tap(point.x, point.y); else await page.mouse.click(point.x, point.y);
 }
 
+// L1 (v1.290.0): Master the game opens as a list with one button, and its first card opens only on the press. These journeys
+// were written when the page opened on its first card, so each opens it the way a player now does: the row, then the button.
+async function openPractice(page: any, touch: boolean) {
+  await hit(page, '[data-explore-stats] [data-b="due"]', touch);
+  await expect(page.locator("[data-master-start]"), "Master the game's button is ready").toBeEnabled({ timeout: 20_000 });
+  await hit(page, "[data-master-start]", touch);
+}
+
 test("dashboard and opened plan share counts, target overrun and keyboard-accessible reasons", async ({ page, isMobile }) => {
   const { fixture } = await setup(page);
   await expect(page.locator('[data-explore-stats] [data-b="due"]')).toHaveAttribute("data-new", String(fixture.newCount));
-  await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
+  await openPractice(page, isMobile);
   // the Practice head repeats the cell's count and says what orders it (v1.242.0: one head, not two). Until v1.278.0 it
   // read "M new across K techniques, ranked by your study comparison" and a whole new deck overran the 7-card goal; the
   // worth plan (U171 a) deals cards, not whole decks, and orders them by how often they come up and how close to forgotten
@@ -173,7 +181,7 @@ test("capped due deck requires real reviews, one failure clears today's debt and
     (window as any).__gameplanCompleted = 0;
     a.track = (name: string, props: any) => { if (name === "neural_session_completed") (window as any).__gameplanCompleted++; original(name, props); };
   });
-  await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
+  await openPractice(page, isMobile);
   await expect(page.locator('[data-session-complete]')).toHaveCount(0);
   // until v1.278.0: "2 cards to review", then "1" after a failure, then complete once the owed pile was clear; a worth
   // session (U171 a) is complete when what IT holds is answered, a failure counting as answered for today
@@ -200,7 +208,7 @@ test("capped due deck requires real reviews, one failure clears today's debt and
 
 test("live debt changes without reranking; missing provider remains visible through refresh", async ({ page, isMobile }) => {
   await setup(page, false);
-  await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
+  await openPractice(page, isMobile);
   // D1 (owner, 2026-09-30): the plan says what orders it. Until v1.278.0, with no comparison, "weakest spots first"; the
   // worth plan (U171 a) names its own order
   await worthPlan(page);
@@ -226,7 +234,7 @@ test("live debt changes without reranking; missing provider remains visible thro
 test("keyboard-only review advances real cards and earns completion through the shared grade path", async ({ page, isMobile }) => {
   await setup(page, false);
   await noNewMaterial(page);
-  await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
+  await openPractice(page, isMobile);
   // until v1.278.0: two owed cards, Space/Enter twice, then no card owed at all; a worth session (U171 a) holds what is worth
   // most, so the keys walk all of it, and completion means every card it held is answered
   const plan = await worthPlan(page);
@@ -246,7 +254,7 @@ test("keyboard-only review advances real cards and earns completion through the 
 test("post-grade callback can complete a mounted plan through shared-question credit", async ({ page, isMobile }) => {
   await setup(page, false);
   await noNewMaterial(page);
-  await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
+  await openPractice(page, isMobile);
   // until v1.278.0 the plan was the two owed Mount|Top cards, credited through Mount|Bottom, which shares them; a worth plan
   // (U171 a) holds what is worth most, so EVERY card it holds is credited, each through ANOTHER deck that shares it where
   // one does, and at least one is
@@ -293,7 +301,7 @@ test("no-gi defender recommendations retain their actual role and reason", async
         headroom: .15, exposure: .2, score: .01, reason: "Remaining defense practice credit applies at the declared opportunity." }] };
     a.renderExplorer(); return key;
   });
-  await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
+  await openPractice(page, isMobile);
   await expect(page.locator('[data-gameplan-reason]')).toHaveAttribute("data-gameplan-reason", key);
   // one plain sentence per card (item 9): the role is the row's own subtitle, the reason the provider's
   await expect(page.locator(`[data-session-row="${key}"]`)).toContainText("Defender");
@@ -315,7 +323,7 @@ test("planner loads only on intent while eager reviews finish without queue repl
   await expect.poll(() => requests, { message: "the drawer's opening asked for it, once" }).toBe(1);
   expect(await page.locator('[data-explore-stats] [data-b="due"]').getAttribute("data-new")).toBeNull();
   try {
-  await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
+  await openPractice(page, isMobile);
   await expect(page.locator('[data-gameplan-loading]')).toContainText("Loading study suggestions");
   await page.evaluate(() => { (window as any).__dueQueue = (window as any).__neural._session; });
   await hit(page, '[data-mini-reveal]', isMobile); await hit(page, '[data-mini-again]', isMobile);
@@ -338,7 +346,7 @@ test("failed planner load keeps due cards actionable and retries on deliberate i
     await page.route("**/app/gameplan.js*", async (route) => { if (++requests <= 2) await route.abort(); else await route.continue(); });
   });
   await expect.poll(() => requests, { message: "the drawer's opening asked, and failed" }).toBe(1);
-  await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
+  await openPractice(page, isMobile);
   await expect(page.locator('[data-gameplan-loading]')).toContainText("could not load");
   // A plain read is sound HERE: the line above shows the press's own failure only after the route has
   // counted and aborted it. (The press first renders the drawer's older failure, but a 0 ms timer it
@@ -395,7 +403,7 @@ test("D1: a new player with no comparison still gets a plan, dealt from the weak
     a._gameplanWeakFallback = () => { const r = rank(); (window as any).__rankInputs.push(r.rows.map((x: any) => x.key)); return r; };
     a.renderExplorer();
   });
-  await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
+  await openPractice(page, isMobile);
   await expect(page.locator('[data-session-section="Practice"]')).toContainText("weakest first");
   await expect(page.locator('[data-gameplan-summary]')).toContainText("weakest spots first");
   // item 9's caveat on the path every first session takes: Practice asks for no comparison
@@ -424,7 +432,7 @@ test("D1: a new player with no comparison still gets a plan, dealt from the weak
 test("P1-C: completion celebrates the real ledger and continuation appends to the same session", async ({ page, isMobile }) => {
   await setup(page, false);
   await page.evaluate(() => { const a = (window as any).__neural; a.settings.dailyGoal = 5; a.renderExplorer(); });
-  await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
+  await openPractice(page, isMobile);
   const before = await page.evaluate(() => {
     const a = (window as any).__neural, s = a._session;
     (window as any).__originalSession = s;

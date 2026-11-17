@@ -132,6 +132,15 @@ async function answerOne(page: Page, touch: boolean) {
   await press(page, open + " [data-mini-got]", "Got it", touch)
 }
 
+// L1 (v1.290.0): Master the game opens as a list with one button, and its first card opens on the press. The button opens
+// the plan's first place and is no touch on the session (`s.moved` stays false), as the page opened it by itself before; the
+// journeys here whose claim is about the open card press it, the way a player does, once the plan has landed
+async function start(page: Page, touch: boolean) {
+  await expect(page.locator("[data-master-start]"), "Master the game's button is ready").toBeEnabled({ timeout: 30_000 })
+  await press(page, "[data-master-start]", "Master the game's button", touch)
+  await expect(page.locator("[data-master-dock]"), "the press opens a card, and the navigation").toBeVisible()
+}
+
 for (const touch of [true, false]) {
   test.describe(touch ? "touch 390x631" : "mouse 1440x900", () => {
     test.use(touch ? { hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } } : { viewport: { width: 1440, height: 900 } })
@@ -155,6 +164,7 @@ for (const touch of [true, false]) {
 
       await press(page, row, "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      await start(page, touch)
       const s = await page.evaluate(() => {
         const a = (window as W).__neural, s = a._session, p = s.plan, fresh = a.planSummary()
         return { keys: s.keys.slice(), queue: p.queue.slice(), again: fresh.queue.slice(), visits: p.visits.map((v: W) => ({ seat: v.seat, keys: v.keys.slice() })),
@@ -186,7 +196,7 @@ for (const touch of [true, false]) {
       await expect(page.locator("[data-practice-queue] [data-practice-visit]"), "a label per position").toHaveText(s.visits.map((v: W, i: number) => `${i + 1} · ${v.seat ? dot(v.seat) : "Other cards"}`))
       // paging the queue moves the heading with the open card, and stores nothing
       for (let i = 1; i < Math.min(4, s.keys.length); i++) {
-        await press(page, ".ng-practice-nav > button:nth-child(2)", "Next technique", touch)
+        await press(page, "[data-master-next]", "Next technique", touch)
         await expect.poll(() => page.evaluate(() => (window as W).__neural._session.idx), { message: "the queue moves on" }).toBe(i)
         const r = s.rows.find((x: W) => x.key === s.keys[i])
         await expect(page.locator("[data-practice-section]")).toHaveText(`${r.seat ? dot(r.seat) : "Other cards"} · position ${r.visit + 1} of ${s.visits.length}`)
@@ -247,7 +257,7 @@ for (const touch of [true, false]) {
       try {
         await press(page, ".ng-logo", "open the drawer", touch)
         await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
-        await expect(page.locator("[data-session-row]").first(), "the eager queue shows").toBeVisible()
+        await expect(page.locator("[data-master-start]"), "Master the game shows (L1: the list and its button, before the plan lands)").toBeVisible()
         expect(await page.evaluate(() => !!(window as W).__neural._session.plan), "premise: the plan has not landed").toBe(false)
         await press(page, "[data-practice-details] > summary", "Practice details & session queue", touch)
         await expect(page.locator("[data-practice-details]"), "the fold opens").toHaveAttribute("open", "")
@@ -287,6 +297,7 @@ for (const touch of [true, false]) {
       await press(page, ".ng-logo", "open the drawer", touch)
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      await start(page, touch)
       for (let i = 0; i < 8 && !(await page.locator("[data-session-complete]").count()); i++) { await answerOne(page, touch); await page.waitForTimeout(700); await clean(page, "an answer") }
       await expect(page.locator("[data-session-complete]"), "the session completes").toHaveCount(1)
       const first = await page.evaluate(() => { const a = (window as W).__neural, s = a._session; return { session: s, keys: s.keys.length, visits: s.plan.visits.length, done: a.practiceToday().done } })
@@ -366,6 +377,7 @@ for (const touch of [true, false]) {
       // (the Path's band followed the dot's rule here, with its chip's words, until it left with the Path in v1.287.0)
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      await start(page, touch)
       const open = '[data-session-row][aria-expanded="true"] + div'
       // the guard (ANKI1): one answer is left of the goal, and it goes to the card due longest (a light deck's, a month
       // overdue), not to the position worth most; and no new card rides with it (until ANKI1 the floor added one)
@@ -440,6 +452,7 @@ for (const touch of [true, false]) {
       await expect(page.locator("[data-belt-row]"), "so the belt row's reading waits").toHaveAttribute("data-belt-state", "wait")
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      await start(page, touch)
       const read = () => page.evaluate((oldest: string[]) => {
         const a = (window as W).__neural, s = a._session, p = s.plan
         return { live: a._ratingLiveNow()?.status, guarded: p.guarded, asked: oldest.filter((q) => p.dueQuestions.includes(q)).length, due: p.dueQuestions.length,
