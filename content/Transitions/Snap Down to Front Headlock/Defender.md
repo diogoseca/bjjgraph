@@ -160,8 +160,8 @@ description: "How to defend against Snap Down to Front Headlock in BJJ. Recognit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Clearing The Front Headlock - The School of Wrestling Technique",
-      "description": "Snap Down to Front Headlock (Defender) film study: Clearing The Front Headlock - The School of Wrestling Technique.",
+      "name": "Clearing The Front Headlock",
+      "description": "Snap Down to Front Headlock (Defender) film study: Clearing The Front Headlock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OZkTT8kT1G8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OZkTT8kT1G8",
       "url": "https://www.youtube.com/watch?v=OZkTT8kT1G8",
@@ -197,7 +197,7 @@ The key defensive principle is that the snap down becomes exponentially harder t
 
 ![](https://www.youtube.com/watch?v=OZkTT8kT1G8)
 
-<p class="clip-credit"><strong>Clearing The Front Headlock - The School of Wrestling Technique</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=OZkTT8kT1G8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Clearing The Front Headlock</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=OZkTT8kT1G8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

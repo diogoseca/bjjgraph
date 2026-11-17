@@ -202,8 +202,8 @@ description: "Execute the Squid Guard Sweep with precision. Step-by-step guide c
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Squid guard variations and sweeps.    Great new bjj techniques.",
-      "description": "Squid Guard Sweep (Attacker) film study: Squid guard variations and sweeps.    Great new bjj techniques..",
+      "name": "Squid guard variations and sweeps.",
+      "description": "Squid Guard Sweep (Attacker) film study: Squid guard variations and sweeps..",
       "thumbnailUrl": "https://i.ytimg.com/vi/A_W-xOWwNaM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/A_W-xOWwNaM",
       "url": "https://www.youtube.com/watch?v=A_W-xOWwNaM",
@@ -245,7 +245,7 @@ The Squid Guard Sweep attacker operates from bottom position with established la
 
 ![](https://www.youtube.com/watch?v=A_W-xOWwNaM)
 
-<p class="clip-credit"><strong>Squid guard variations and sweeps.    Great new bjj techniques.</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=A_W-xOWwNaM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Squid guard variations and sweeps.</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=A_W-xOWwNaM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

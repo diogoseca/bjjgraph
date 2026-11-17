@@ -180,8 +180,8 @@ description: "Learn to execute the Kimura shoulder lock from Lasso Guard top. Co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "S2 E55 Kimura from Leg Lasso - Brazilian Jiu Jitsu for Dummies",
-      "description": "Kimura from Lasso Guard (Attacker) film study: S2 E55 Kimura from Leg Lasso - Brazilian Jiu Jitsu for Dummies.",
+      "name": "S2 E55 Kimura from Leg Lasso",
+      "description": "Kimura from Lasso Guard (Attacker) film study: S2 E55 Kimura from Leg Lasso.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1UccW2-_G00/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1UccW2-_G00?start=94",
       "url": "https://www.youtube.com/watch?v=1UccW2-_G00",
@@ -216,7 +216,7 @@ Attacking with the Kimura from Lasso Guard top requires recognizing the moment w
 
 ![](https://www.youtube.com/watch?v=1UccW2-_G00&start=94)
 
-<p class="clip-credit"><strong>S2 E55 Kimura from Leg Lasso - Brazilian Jiu Jitsu for Dummies</strong> · 6:35 · <a href="https://www.youtube.com/watch?v=1UccW2-_G00&t=94s" rel="noopener">Watch on YouTube from 1:34</a></p>
+<p class="clip-credit"><strong>S2 E55 Kimura from Leg Lasso</strong> · 6:35 · <a href="https://www.youtube.com/watch?v=1UccW2-_G00&t=94s" rel="noopener">Watch on YouTube from 1:34</a></p>
 
 </div>
 

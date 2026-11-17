@@ -56,8 +56,8 @@ description: "Master the Armbar from Technical Mount in BJJ. Complete guide to s
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Special technique to start finishing your arm-bars from mount! | SANABUL #shorts",
-      "description": "Armbar from Technical Mount film study: Special technique to start finishing your arm-bars from mount! | SANABUL #shorts.",
+      "name": "Special technique to start finishing your arm-bars from mount! #shorts",
+      "description": "Armbar from Technical Mount film study: Special technique to start finishing your arm-bars from mount! #shorts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PE61YGNeYzU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PE61YGNeYzU",
       "url": "https://www.youtube.com/watch?v=PE61YGNeYzU",
@@ -141,7 +141,7 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 
 ![](https://www.youtube.com/watch?v=PE61YGNeYzU)
 
-<p class="clip-credit"><strong>Special technique to start finishing your arm-bars from mount! | SANABUL #shorts</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=PE61YGNeYzU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Special technique to start finishing your arm-bars from mount! #shorts</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=PE61YGNeYzU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

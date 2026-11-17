@@ -56,8 +56,8 @@ description: "Master Darce Control position in BJJ. Dominant front headlock vari
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Side control to north south D\u2019ARCE!!! #graciewestchase #jiujitsu #darce #bjj",
-      "description": "Darce Control film study: Side control to north south D\u2019ARCE!!! #graciewestchase #jiujitsu #darce #bjj.",
+      "name": "Side control to north south D\u2019ARCE!!! #jiujitsu #darce #bjj",
+      "description": "Darce Control film study: Side control to north south D\u2019ARCE!!! #jiujitsu #darce #bjj.",
       "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
       "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
@@ -132,7 +132,7 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 
 ![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
 
-<p class="clip-credit"><strong>Side control to north south D’ARCE!!! #graciewestchase #jiujitsu #darce #bjj</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side control to north south D’ARCE!!! #jiujitsu #darce #bjj</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

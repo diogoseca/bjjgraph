@@ -160,8 +160,8 @@ description: "How to defend against Body Lock Pass in BJJ. Recognition cues, fra
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Body Lock Pass Counter | Sweatbox, Bristol",
-      "description": "Body Lock Pass (Defender) film study: Body Lock Pass Counter | Sweatbox, Bristol.",
+      "name": "Body Lock Pass Counter",
+      "description": "Body Lock Pass (Defender) film study: Body Lock Pass Counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/eL2tHbzAe68/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/eL2tHbzAe68",
       "url": "https://www.youtube.com/watch?v=eL2tHbzAe68",
@@ -197,7 +197,7 @@ The defensive framework prioritizes three objectives in order: prevent the body 
 
 ![](https://www.youtube.com/watch?v=eL2tHbzAe68)
 
-<p class="clip-credit"><strong>Body Lock Pass Counter | Sweatbox, Bristol</strong> · 3:52 · <a href="https://www.youtube.com/watch?v=eL2tHbzAe68" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Body Lock Pass Counter</strong> · 3:52 · <a href="https://www.youtube.com/watch?v=eL2tHbzAe68" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

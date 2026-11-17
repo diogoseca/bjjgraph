@@ -185,8 +185,8 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Spider Guard Passing #JiuJitsu #SpiderGuard #Pragma #Hutto #Texas",
-      "description": "Spider Guard (Top) film study: Spider Guard Passing #JiuJitsu #SpiderGuard #Pragma #Hutto #Texas.",
+      "name": "Spider Guard Passing #JiuJitsu #SpiderGuard #Hutto #Texas",
+      "description": "Spider Guard (Top) film study: Spider Guard Passing #JiuJitsu #SpiderGuard #Hutto #Texas.",
       "thumbnailUrl": "https://i.ytimg.com/vi/w5zek2cOaYA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/w5zek2cOaYA",
       "url": "https://www.youtube.com/watch?v=w5zek2cOaYA",
@@ -234,7 +234,7 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 ![](https://www.youtube.com/watch?v=w5zek2cOaYA)
 
-<p class="clip-credit"><strong>Spider Guard Passing #JiuJitsu #SpiderGuard #Pragma #Hutto #Texas</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=w5zek2cOaYA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Spider Guard Passing #JiuJitsu #SpiderGuard #Hutto #Texas</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=w5zek2cOaYA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

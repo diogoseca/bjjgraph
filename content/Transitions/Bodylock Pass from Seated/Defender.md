@@ -152,8 +152,8 @@ description: "Defend against the Bodylock Pass from Seated Guard with recognitio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "More body lock counters! #graciewestchase #jiujitsu #bjj #bodylock",
-      "description": "Bodylock Pass from Seated (Defender) film study: More body lock counters! #graciewestchase #jiujitsu #bjj #bodylock.",
+      "name": "More body lock counters! #jiujitsu #bjj #bodylock",
+      "description": "Bodylock Pass from Seated (Defender) film study: More body lock counters! #jiujitsu #bjj #bodylock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AdEb7U9e4Z8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AdEb7U9e4Z8",
       "url": "https://www.youtube.com/watch?v=AdEb7U9e4Z8",
@@ -187,7 +187,7 @@ As the defender facing the Bodylock Pass from Seated Guard, your primary objecti
 
 ![](https://www.youtube.com/watch?v=AdEb7U9e4Z8)
 
-<p class="clip-credit"><strong>More body lock counters! #graciewestchase #jiujitsu #bjj #bodylock</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=AdEb7U9e4Z8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>More body lock counters! #jiujitsu #bjj #bodylock</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=AdEb7U9e4Z8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

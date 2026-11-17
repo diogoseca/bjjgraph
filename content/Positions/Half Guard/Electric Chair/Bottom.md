@@ -179,8 +179,8 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "SILLA EL\u00c9CTRICA - Escuela de Grappling - BJJ #Escueladegrappling #BJJenEspa\u00f1ol\u2026",
-      "description": "Electric Chair (Bottom) film study: SILLA EL\u00c9CTRICA - Escuela de Grappling - BJJ #Escueladegrappling #BJJenEspa\u00f1ol\u2026.",
+      "name": "SILLA EL\u00c9CTRICA - BJJ #BJJenEspa\u00f1ol\u2026",
+      "description": "Electric Chair (Bottom) film study: SILLA EL\u00c9CTRICA - BJJ #BJJenEspa\u00f1ol\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XaWqoltL7_E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XaWqoltL7_E",
       "url": "https://www.youtube.com/watch?v=XaWqoltL7_E",
@@ -232,7 +232,7 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 
 ![](https://www.youtube.com/watch?v=XaWqoltL7_E)
 
-<p class="clip-credit"><strong>SILLA ELÉCTRICA - Escuela de Grappling - BJJ #Escueladegrappling #BJJenEspañol…</strong> · 5:49 · <a href="https://www.youtube.com/watch?v=XaWqoltL7_E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>SILLA ELÉCTRICA - BJJ #BJJenEspañol…</strong> · 5:49 · <a href="https://www.youtube.com/watch?v=XaWqoltL7_E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

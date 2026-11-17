@@ -168,8 +168,8 @@ description: "Defend against the Von Flue choke counter to your guillotine. Reco
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "TMG Clips #197 - Learn To Defend The Von Flue Choke!",
-      "description": "Guillotine Escape to Von Flue (Defender) film study: TMG Clips #197 - Learn To Defend The Von Flue Choke!.",
+      "name": "Learn To Defend The Von Flue Choke!",
+      "description": "Guillotine Escape to Von Flue (Defender) film study: Learn To Defend The Von Flue Choke!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sVTvrJqnXww/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sVTvrJqnXww",
       "url": "https://www.youtube.com/watch?v=sVTvrJqnXww",
@@ -213,7 +213,7 @@ As the defender in the Guillotine Escape to Von Flue scenario, you are the pract
 
 ![](https://www.youtube.com/watch?v=sVTvrJqnXww)
 
-<p class="clip-credit"><strong>TMG Clips #197 - Learn To Defend The Von Flue Choke!</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=sVTvrJqnXww" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Learn To Defend The Von Flue Choke!</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=sVTvrJqnXww" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

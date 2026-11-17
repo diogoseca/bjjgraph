@@ -182,8 +182,8 @@ description: "Thread and finish the D'Arce from Side Control, with a controlled 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "1 Minute Jiu-Jitsu Hack: Marce Choke",
-      "description": "Darce Choke from Side Control (Attacker) film study: 1 Minute Jiu-Jitsu Hack: Marce Choke.",
+      "name": "Marce Choke",
+      "description": "Darce Choke from Side Control (Attacker) film study: Marce Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hCiHjCbhGyE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hCiHjCbhGyE",
       "url": "https://www.youtube.com/watch?v=hCiHjCbhGyE",
@@ -246,7 +246,7 @@ Contain the opponent's head and arm before committing to the finish. The choking
 
 ![](https://www.youtube.com/watch?v=hCiHjCbhGyE)
 
-<p class="clip-credit"><strong>1 Minute Jiu-Jitsu Hack: Marce Choke</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=hCiHjCbhGyE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Marce Choke</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=hCiHjCbhGyE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

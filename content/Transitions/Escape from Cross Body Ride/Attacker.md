@@ -186,8 +186,8 @@ description: "Learn to execute the Escape from Cross Body Ride in BJJ. Step-by-s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Purdue Camp 2022 - Escaping cross body ride",
-      "description": "Escape from Cross Body Ride (Attacker) film study: Purdue Camp 2022 - Escaping cross body ride.",
+      "name": "Escaping cross body ride",
+      "description": "Escape from Cross Body Ride (Attacker) film study: Escaping cross body ride.",
       "thumbnailUrl": "https://i.ytimg.com/vi/l7FuJKfhhug/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/l7FuJKfhhug",
       "url": "https://www.youtube.com/watch?v=l7FuJKfhhug",
@@ -231,7 +231,7 @@ Executing the Escape from Cross Body Ride requires precise timing, decisive hip 
 
 ![](https://www.youtube.com/watch?v=l7FuJKfhhug)
 
-<p class="clip-credit"><strong>Purdue Camp 2022 - Escaping cross body ride</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=l7FuJKfhhug" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping cross body ride</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=l7FuJKfhhug" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

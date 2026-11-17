@@ -56,8 +56,8 @@ description: "Master Float Passing in BJJ. Dynamic guard passing using movement,
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Jiu-Jitsu | Floating guard pass| www.JiuJitsuPedia.com",
-      "description": "Float Passing film study: Jiu-Jitsu | Floating guard pass| www.JiuJitsuPedia.com.",
+      "name": "Jiu-Jitsu | Floating guard pass",
+      "description": "Float Passing film study: Jiu-Jitsu | Floating guard pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X3gjk5iQx3Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/X3gjk5iQx3Q",
       "url": "https://www.youtube.com/watch?v=X3gjk5iQx3Q",
@@ -125,7 +125,7 @@ This approach requires excellent balance, timing, and the ability to read oppone
 
 ![](https://www.youtube.com/watch?v=X3gjk5iQx3Q)
 
-<p class="clip-credit"><strong>Jiu-Jitsu | Floating guard pass| www.JiuJitsuPedia.com</strong> · 2:49 · <a href="https://www.youtube.com/watch?v=X3gjk5iQx3Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu-Jitsu | Floating guard pass</strong> · 2:49 · <a href="https://www.youtube.com/watch?v=X3gjk5iQx3Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

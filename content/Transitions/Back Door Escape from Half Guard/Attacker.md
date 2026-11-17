@@ -176,6 +176,27 @@ description: "Master the Back Door Escape from Half Guard as the bottom player. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Door Escape from Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half Guard Back Door Escape",
+      "description": "Back Door Escape from Half Guard (Attacker) film study: Half Guard Back Door Escape.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lUi03XC7lBY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lUi03XC7lBY",
+      "url": "https://www.youtube.com/watch?v=lUi03XC7lBY",
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ The Back Door Escape from Half Guard is executed by the bottom half guard player
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Door Escape from Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lUi03XC7lBY)
+
+<p class="clip-credit"><strong>Half Guard Back Door Escape</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=lUi03XC7lBY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

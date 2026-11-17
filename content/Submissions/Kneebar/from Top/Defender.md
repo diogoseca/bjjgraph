@@ -154,8 +154,8 @@ description: "How to defend against Kneebar from Top in BJJ. Recognition, escape
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Daily BJJ: Kneebar Escape",
-      "description": "Kneebar from Top (Defender) film study: Daily BJJ: Kneebar Escape.",
+      "name": "Kneebar Escape",
+      "description": "Kneebar from Top (Defender) film study: Kneebar Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SG-B04vtGwo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SG-B04vtGwo",
       "url": "https://www.youtube.com/watch?v=SG-B04vtGwo",
@@ -210,7 +210,7 @@ Defending the kneebar from top position requires a fundamentally different minds
 
 ![](https://www.youtube.com/watch?v=SG-B04vtGwo)
 
-<p class="clip-credit"><strong>Daily BJJ: Kneebar Escape</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=SG-B04vtGwo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kneebar Escape</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=SG-B04vtGwo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

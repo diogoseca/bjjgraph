@@ -46,8 +46,8 @@ description: "Master the Shin-to-Shin Sweep in BJJ. Learn to convert shin connec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "TMG Clips #104 - Easy Shin To Shin Sweep",
-      "description": "Shin-to-Shin Sweep film study: TMG Clips #104 - Easy Shin To Shin Sweep.",
+      "name": "Easy Shin To Shin Sweep",
+      "description": "Shin-to-Shin Sweep film study: Easy Shin To Shin Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lyXznrhM-po/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lyXznrhM-po",
       "url": "https://www.youtube.com/watch?v=lyXznrhM-po",
@@ -107,7 +107,7 @@ The sweep's mechanical foundation relies on three simultaneous forces: the shin 
 
 ![](https://www.youtube.com/watch?v=lyXznrhM-po)
 
-<p class="clip-credit"><strong>TMG Clips #104 - Easy Shin To Shin Sweep</strong> · 3:17 · <a href="https://www.youtube.com/watch?v=lyXznrhM-po" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Easy Shin To Shin Sweep</strong> · 3:17 · <a href="https://www.youtube.com/watch?v=lyXznrhM-po" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

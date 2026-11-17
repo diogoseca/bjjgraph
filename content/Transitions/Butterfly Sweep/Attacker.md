@@ -190,8 +190,8 @@ description: "How to execute Butterfly Sweep in BJJ. Attacking perspective with 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Butterfly Sweep V.2 - BJJ Weekly #070",
-      "description": "Butterfly Sweep (Attacker) film study: Butterfly Sweep V.2 - BJJ Weekly #070.",
+      "name": "Butterfly Sweep V.2",
+      "description": "Butterfly Sweep (Attacker) film study: Butterfly Sweep V.2.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Mo2vJ0_xb1U/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Mo2vJ0_xb1U",
       "url": "https://www.youtube.com/watch?v=Mo2vJ0_xb1U",
@@ -233,7 +233,7 @@ The Butterfly Sweep is a fundamental attacking technique from butterfly guard th
 
 ![](https://www.youtube.com/watch?v=Mo2vJ0_xb1U)
 
-<p class="clip-credit"><strong>Butterfly Sweep V.2 - BJJ Weekly #070</strong> · 3:58 · <a href="https://www.youtube.com/watch?v=Mo2vJ0_xb1U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Butterfly Sweep V.2</strong> · 3:58 · <a href="https://www.youtube.com/watch?v=Mo2vJ0_xb1U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

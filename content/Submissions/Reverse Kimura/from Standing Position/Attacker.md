@@ -190,8 +190,8 @@ description: "How to execute Reverse Kimura in BJJ. Attacking perspective with s
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "TMG Clips #3 - Reverse Kimura Throw to Submission",
-      "description": "Reverse Kimura from Standing Position (Attacker) film study: TMG Clips #3 - Reverse Kimura Throw to Submission.",
+      "name": "Reverse Kimura Throw to Submission",
+      "description": "Reverse Kimura from Standing Position (Attacker) film study: Reverse Kimura Throw to Submission.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8tW1t_KO1T4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8tW1t_KO1T4",
       "url": "https://www.youtube.com/watch?v=8tW1t_KO1T4",
@@ -234,7 +234,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 ![](https://www.youtube.com/watch?v=8tW1t_KO1T4)
 
-<p class="clip-credit"><strong>TMG Clips #3 - Reverse Kimura Throw to Submission</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=8tW1t_KO1T4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse Kimura Throw to Submission</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=8tW1t_KO1T4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

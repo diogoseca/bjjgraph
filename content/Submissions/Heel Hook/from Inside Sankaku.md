@@ -46,8 +46,8 @@ description: "Master the heel hook from Inside Sankaku position. Complete guide 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inside Sankaku Double Trouble Heelhook - Matrix Jiu Jitsu",
-      "description": "Heel Hook from Inside Sankaku film study: Inside Sankaku Double Trouble Heelhook - Matrix Jiu Jitsu.",
+      "name": "Inside Sankaku Double Trouble Heelhook",
+      "description": "Heel Hook from Inside Sankaku film study: Inside Sankaku Double Trouble Heelhook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mBjjFZy-w-0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mBjjFZy-w-0",
       "url": "https://www.youtube.com/watch?v=mBjjFZy-w-0",
@@ -126,7 +126,7 @@ The critical distinction from other leg lock positions is the degree of rotation
 
 ![](https://www.youtube.com/watch?v=mBjjFZy-w-0)
 
-<p class="clip-credit"><strong>Inside Sankaku Double Trouble Heelhook - Matrix Jiu Jitsu</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=mBjjFZy-w-0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inside Sankaku Double Trouble Heelhook</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=mBjjFZy-w-0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

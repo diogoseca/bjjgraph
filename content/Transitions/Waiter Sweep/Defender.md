@@ -160,6 +160,16 @@ description: "Waiter Sweep (defender): A deep-half player supporting your elevat
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Countering the Waiter Sweep",
+      "description": "Waiter Sweep (Defender) film study: Countering the Waiter Sweep.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cl8EgnHIOiI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cl8EgnHIOiI",
+      "url": "https://www.youtube.com/watch?v=Cl8EgnHIOiI",
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Defending the butterfly sweep with hip switching",
       "description": "Waiter Sweep (Defender) film study: Defending the butterfly sweep with hip switching.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LT6RXdUY-VQ/hqdefault.jpg",
@@ -169,7 +179,7 @@ description: "Waiter Sweep (defender): A deep-half player supporting your elevat
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Four levels of sweep defense",
       "description": "Waiter Sweep (Defender) film study: Four levels of sweep defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
@@ -179,7 +189,7 @@ description: "Waiter Sweep (defender): A deep-half player supporting your elevat
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Simple counters to a failed butterfly sweep",
       "description": "Waiter Sweep (Defender) film study: Simple counters to a failed butterfly sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZAOF5qNApJ0/hqdefault.jpg",
@@ -218,6 +228,14 @@ An early escape withdraws the elevated leg or restores a usable post before your
 
 <p class="section-subtitle">Watch Waiter Sweep (Defender) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cl8EgnHIOiI)
+
+<p class="clip-credit"><strong>Countering the Waiter Sweep</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=Cl8EgnHIOiI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

@@ -186,8 +186,8 @@ description: "Execute the Guard Pass from Leg Entanglement as the top player. St
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing SLX Guard (Single Leg X) - Profectus Jiu Jitsu WilCo.",
-      "description": "Guard Pass from Leg Entanglement (Attacker) film study: Passing SLX Guard (Single Leg X) - Profectus Jiu Jitsu WilCo..",
+      "name": "Passing SLX Guard (Single Leg X)",
+      "description": "Guard Pass from Leg Entanglement (Attacker) film study: Passing SLX Guard (Single Leg X).",
       "thumbnailUrl": "https://i.ytimg.com/vi/UpNhZl5nkcM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UpNhZl5nkcM",
       "url": "https://www.youtube.com/watch?v=UpNhZl5nkcM",
@@ -221,7 +221,7 @@ As the attacker executing the Guard Pass from Leg Entanglement, your objective i
 
 ![](https://www.youtube.com/watch?v=UpNhZl5nkcM)
 
-<p class="clip-credit"><strong>Passing SLX Guard (Single Leg X) - Profectus Jiu Jitsu WilCo.</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=UpNhZl5nkcM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing SLX Guard (Single Leg X)</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=UpNhZl5nkcM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

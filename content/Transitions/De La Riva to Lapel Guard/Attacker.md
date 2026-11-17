@@ -173,8 +173,8 @@ description: "How to enter lapel guard from De La Riva in BJJ. Attacking perspec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lapelapalooza Lapel Guard System - Setting up The Worm Position from De La\u2026",
-      "description": "De La Riva to Lapel Guard (Attacker) film study: Lapelapalooza Lapel Guard System - Setting up The Worm Position from De La\u2026.",
+      "name": "Lapel Guard System - Setting up The Worm Position from De La\u2026",
+      "description": "De La Riva to Lapel Guard (Attacker) film study: Lapel Guard System - Setting up The Worm Position from De La\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/n5_uWP0hc_c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/n5_uWP0hc_c?start=246",
       "url": "https://www.youtube.com/watch?v=n5_uWP0hc_c",
@@ -215,7 +215,7 @@ The transition rewards patience and timing over speed. Rushing the extraction be
 
 ![](https://www.youtube.com/watch?v=n5_uWP0hc_c&start=246)
 
-<p class="clip-credit"><strong>Lapelapalooza Lapel Guard System - Setting up The Worm Position from De La…</strong> · 11:10 · <a href="https://www.youtube.com/watch?v=n5_uWP0hc_c&t=246s" rel="noopener">Watch on YouTube from 4:06</a></p>
+<p class="clip-credit"><strong>Lapel Guard System - Setting up The Worm Position from De La…</strong> · 11:10 · <a href="https://www.youtube.com/watch?v=n5_uWP0hc_c&t=246s" rel="noopener">Watch on YouTube from 4:06</a></p>
 
 </div>
 

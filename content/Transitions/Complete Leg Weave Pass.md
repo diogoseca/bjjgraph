@@ -46,6 +46,16 @@ description: "Complete Leg Weave Pass clears the remaining foot or half-guard ho
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Basic Leg Weave guard pass",
+      "description": "Complete Leg Weave Pass film study: Basic Leg Weave guard pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fufsU0Cmsn8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fufsU0Cmsn8",
+      "url": "https://www.youtube.com/watch?v=fufsU0Cmsn8",
+      "duration": "PT242S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Leg weave guard pass in the gi",
       "description": "Complete Leg Weave Pass film study: Leg weave guard pass in the gi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CkE-XEU26nc/hqdefault.jpg",
@@ -55,7 +65,7 @@ description: "Complete Leg Weave Pass clears the remaining foot or half-guard ho
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Passing the knee shield with the leg weave",
       "description": "Complete Leg Weave Pass film study: Passing the knee shield with the leg weave.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4LIBFmas-oE/hqdefault.jpg",
@@ -65,7 +75,7 @@ description: "Complete Leg Weave Pass clears the remaining foot or half-guard ho
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Simple knee shield pass using the leg weave",
       "description": "Complete Leg Weave Pass film study: Simple knee shield pass using the leg weave.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Cs9xSx57Rpg/hqdefault.jpg",
@@ -124,6 +134,14 @@ Instructional sources: [Lachlan Giles — leg weave pass, no gi](https://www.you
 
 <p class="section-subtitle">Watch Complete Leg Weave Pass in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fufsU0Cmsn8)
+
+<p class="clip-credit"><strong>Basic Leg Weave guard pass</strong> · 4:02 · <a href="https://www.youtube.com/watch?v=fufsU0Cmsn8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

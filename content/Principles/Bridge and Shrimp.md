@@ -163,8 +163,8 @@ description: "Bridging shifts an opponent’s weight; shrimping moves your hips 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Introduction to the defensive BJJ system",
-      "description": "Bridge and Shrimp film study: Introduction to the defensive BJJ system.",
+      "name": "Introduction to the defensive system",
+      "description": "Bridge and Shrimp film study: Introduction to the defensive system.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vHDqBGNTnfY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vHDqBGNTnfY",
       "url": "https://www.youtube.com/watch?v=vHDqBGNTnfY",
@@ -215,7 +215,7 @@ Use the bridge to make the opponent adjust, then move your hips into the opening
 
 ![](https://www.youtube.com/watch?v=vHDqBGNTnfY)
 
-<p class="clip-credit"><strong>Introduction to the defensive BJJ system</strong> · 5:25 · <a href="https://www.youtube.com/watch?v=vHDqBGNTnfY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Introduction to the defensive system</strong> · 5:25 · <a href="https://www.youtube.com/watch?v=vHDqBGNTnfY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

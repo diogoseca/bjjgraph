@@ -196,8 +196,8 @@ description: "Learn to execute the Double Sleeve Sweep from bottom guard. Step-b
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Double Sleeve Scissor Sweep Instructional SJBJJ - Nogi\u2026",
-      "description": "Double Sleeve Sweep (Attacker) film study: Double Sleeve Scissor Sweep Instructional SJBJJ - Nogi\u2026.",
+      "name": "Double Sleeve Scissor Sweep Instructional - Nogi\u2026",
+      "description": "Double Sleeve Sweep (Attacker) film study: Double Sleeve Scissor Sweep Instructional - Nogi\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zAz7Zu5Nf58/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zAz7Zu5Nf58",
       "url": "https://www.youtube.com/watch?v=zAz7Zu5Nf58",
@@ -239,7 +239,7 @@ Executing the Double Sleeve Sweep requires mastery of the push-pull dynamic that
 
 ![](https://www.youtube.com/watch?v=zAz7Zu5Nf58)
 
-<p class="clip-credit"><strong>Double Sleeve Scissor Sweep Instructional SJBJJ - Nogi…</strong> · 4:16 · <a href="https://www.youtube.com/watch?v=zAz7Zu5Nf58" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Sleeve Scissor Sweep Instructional - Nogi…</strong> · 4:16 · <a href="https://www.youtube.com/watch?v=zAz7Zu5Nf58" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

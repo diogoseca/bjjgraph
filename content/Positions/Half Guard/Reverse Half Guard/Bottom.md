@@ -165,8 +165,8 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse Half Guard (Immortal BJJ - Raleigh, N.C.)",
-      "description": "Reverse Half Guard (Bottom) film study: Reverse Half Guard (Immortal BJJ - Raleigh, N.C.).",
+      "name": "Reverse Half Guard (Raleigh, N.C.)",
+      "description": "Reverse Half Guard (Bottom) film study: Reverse Half Guard (Raleigh, N.C.).",
       "thumbnailUrl": "https://i.ytimg.com/vi/97sDVawCawk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/97sDVawCawk",
       "url": "https://www.youtube.com/watch?v=97sDVawCawk",
@@ -202,7 +202,7 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 
 ![](https://www.youtube.com/watch?v=97sDVawCawk)
 
-<p class="clip-credit"><strong>Reverse Half Guard (Immortal BJJ - Raleigh, N.C.)</strong> · 4:39 · <a href="https://www.youtube.com/watch?v=97sDVawCawk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse Half Guard (Raleigh, N.C.)</strong> · 4:39 · <a href="https://www.youtube.com/watch?v=97sDVawCawk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

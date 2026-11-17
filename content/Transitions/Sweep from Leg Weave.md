@@ -36,6 +36,27 @@ description: "This gi-only leg-weave counter uses sleeve and far-trouser grips t
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Leg Weave \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technique of the week - Counter Sweep from leg weave pass",
+      "description": "Sweep from Leg Weave film study: Technique of the week - Counter Sweep from leg weave pass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uqjSK8G2B3o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uqjSK8G2B3o",
+      "url": "https://www.youtube.com/watch?v=uqjSK8G2B3o",
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -76,6 +97,24 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Leg Weave in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uqjSK8G2B3o)
+
+<p class="clip-credit"><strong>Technique of the week - Counter Sweep from leg weave pass</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=uqjSK8G2B3o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

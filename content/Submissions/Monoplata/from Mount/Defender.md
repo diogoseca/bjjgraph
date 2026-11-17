@@ -154,8 +154,8 @@ description: "How to defend against Monoplata from Mount in BJJ. Recognition, es
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "WazaTube: Monoplata Counter",
-      "description": "Monoplata from Mount (Defender) film study: WazaTube: Monoplata Counter.",
+      "name": "Monoplata Counter",
+      "description": "Monoplata from Mount (Defender) film study: Monoplata Counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/U2KNBtO1NxU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/U2KNBtO1NxU",
       "url": "https://www.youtube.com/watch?v=U2KNBtO1NxU",
@@ -194,7 +194,7 @@ Successful defense requires understanding that the monoplata becomes exponential
 
 ![](https://www.youtube.com/watch?v=U2KNBtO1NxU)
 
-<p class="clip-credit"><strong>WazaTube: Monoplata Counter</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=U2KNBtO1NxU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Monoplata Counter</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=U2KNBtO1NxU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
