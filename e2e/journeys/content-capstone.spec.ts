@@ -38,13 +38,8 @@ function capstoneReadyBlob(track = WHITE) {
 }
 
 async function openTrack(page: any, trackId = WHITE.id) {
-  await page.evaluate((id) => {
-    const app = (window as any).__neural;
-    app.settings.challengeSelectedTrack = id;
-    app.setViewMode("challenges");
-    app.openExplorer();
-    app.showExplorerList();
-  }, trackId);
+  await page.evaluate((id) => { (window as any).__neural.settings.challengeSelectedTrack = id; }, trackId);
+  await journey(page).openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await page.locator(`.ng-track-card[data-track="${trackId}"]`).click();
 }
 

@@ -92,8 +92,8 @@ test("right AND wrong checkpoint answers leave the combo meter at ×1 — zero c
 
   // ── open the challenges view and start unit 2's checkpoint (its <details> group is
   //    collapsed by default — only the first unit's group opens, v1.74) ──
-  // Drawer (U51 e / U56 e): select Path explicitly; opening alone shows the home list.
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
+  // Drawer (U51 e / U56 e): open the corridor explicitly; opening the drawer alone shows the home list.
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   await page
     .locator(`.ng-challenge-group:has([data-checkpoint="${UK}"])`)

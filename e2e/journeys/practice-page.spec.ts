@@ -307,7 +307,9 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }
   } finally { release(); }
 });
 
-test("P1-F: Practice retains comparison, rewards, Path and one deliberate visit event", async ({ page }) => {
+// v1.287.0 (SET1 slice B): "Path" left this title with the Path row ("P1-F: temporary Path destination remains" pinned it, and
+// `neural_challenges_viewed` was its visit event). Its corridor is Practice's own now, and only Practice's event is sent.
+test("P1-F: Practice retains comparison, rewards and one deliberate visit event", async ({ page }) => {
   const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1);
@@ -330,11 +332,10 @@ test("P1-F: Practice retains comparison, rewards, Path and one deliberate visit 
   await j.clickByMouse('[data-gameplan-refresh]', "request the comparison deliberately");
   await expect(page.locator('[data-game-study-controls]'), "P1-F: comparison form loads after Refresh").toHaveCount(1, { timeout: 30_000 });
   await j.clickByMouse('[data-pane-back]', "Back to the drawer");
-  await expect(page.locator('[data-view="challenges"]'), "P1-F: temporary Path destination remains").toBeVisible();
-  await j.clickByMouse('[data-view="challenges"]', "open Path deliberately");
+  await expect(page.locator('[data-view="challenges"]'), "P1-F: the temporary Path destination is gone (v1.287.0)").toHaveCount(0);
   await page.evaluate(() => (window as any).__neural.renderExplorer());
-  expect(await page.evaluate(() => (window as any).__p1Visits), "P1-F: one event per deliberate surface visit")
-    .toEqual(["neural_practice_opened", "neural_challenges_viewed"]);
+  expect(await page.evaluate(() => (window as any).__p1Visits), "P1-F: one event per deliberate surface visit, and no Path's")
+    .toEqual(["neural_practice_opened"]);
 });
 
 test("P1-F: a Practice unit still starts its evidence-gated checkpoint", async ({ page }) => {
@@ -481,17 +482,18 @@ test("P1-A: long authored answers and enlarged text scroll to an operable grade"
   expect(await page.evaluate(() => (window as any).__neural.practiceToday().done)).toBe(1);
 });
 
-test("P1-E: Back restores keyboard focus to Path's maintenance opener", async ({ page }) => {
+// v1.287.0 (SET1 slice B): the opener was the Path's maintenance band until the band left with the Path; the claim (Back
+// gives focus back to what opened Practice, across the list's rebuild) is held on the opener that remains, the row
+test("P1-E: Back restores keyboard focus to the Master the game row", async ({ page }) => {
   const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   await j.clickByMouse('.ng-logo', "open the drawer");
-  await j.clickByMouse('[data-view="challenges"]', "open Path");
-  await j.clickByMouse('[data-maintenance]', "start Practice from Path");
+  await j.clickByMouse('[data-explore-stats] [data-b="due"]', "start Practice from its row");
   await expect(page.locator('[data-practice-page]')).toHaveCount(1);
-  await j.clickByMouse('[data-pane-back]', "return to Path");
-  await expect(page.locator('[data-maintenance]'), "P1-E: the rebuilt maintenance opener regains focus").toBeFocused();
+  await j.clickByMouse('[data-pane-back]', "return to the drawer");
+  await expect(page.locator('[data-explore-stats] [data-b="due"]'), "P1-E: the rebuilt opener regains focus").toBeFocused();
 });
 
 // ── The fix round on PR #336 (REV336). Each pin is killed by a named mutant in ladder_p1_mutants.md. ──

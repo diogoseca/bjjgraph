@@ -81,8 +81,9 @@ for (const touch of [false, true]) {
       await boot(page, { v: 2, prep: Object.fromEntries(LESSONS.map((k) => [k, 3])) })
       expect(await worn(page), "precondition: a white belt").toBe("white")
       await press(page, ".ng-logo", "open the drawer", touch)
-      await press(page, '.ng-dr-row[data-view="challenges"]', "the Path row", touch)
-      await expect(page.locator('[data-belt="black"]'), "the Path draws the Black section").toHaveCount(1)
+      // v1.287.0: the Path row left the drawer; Master the game draws the same corridor (all five belts for a white belt)
+      await press(page, '[data-explore-stats] [data-b="due"]', "Master the game", touch)
+      await expect(page.locator('[data-belt="black"]'), "Master the game draws the Black section").toHaveCount(1)
       await expect(page.locator('[data-belt-toggle="black"]'), "the Black section has a fold toggle").toHaveCount(1)
       await expect(page.locator("[data-belt-locked]"), "no section is locked").toHaveCount(0)
       await expect(page.locator('[data-belt="black"]')).toHaveAttribute("data-collapsed", "true")
@@ -90,8 +91,9 @@ for (const touch of [false, true]) {
       await expect(page.locator('[data-belt="black"]'), "Black unfolds").toHaveAttribute("data-collapsed", "false")
       const lesson = `[data-belt="black"] [data-lesson="${LESSONS[0]}"]`
       await press(page, lesson, "a Black lesson", touch)
-      const box = page.locator(`[data-lesson-deckbox="${LESSONS[0]}"]`)
-      await expect(box, "the lesson's cards open inline").toBeVisible()
+      // the Path opened the lesson's cards inline in its corridor; Master the game opens them as a session row (v1.287.0)
+      const box = page.locator(`[data-session] [data-mini-deck="${LESSONS[0]}"]`)
+      await expect(box, "the lesson's cards open in the session").toBeVisible()
       await expect(box.locator("[data-mini-q]"), "…with a question on its card").toHaveCount(1)
       const cp = `[data-checkpoint="black/${UNIT.id}"]`
       await expect(page.locator(cp), "the unit's checkpoint is offered").toHaveText("Start checkpoint")

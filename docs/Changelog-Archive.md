@@ -19529,3 +19529,34 @@ App rows re-seeded under the lock on each merged head (5358623c6, 858f11ed1).
 **Runs** (local, times from `date`): the units of every touched file after each merge of dev; the mutant runs;
 `npm run ci:validate` on each final head; the bundle, the count and the app rows under the lock. The full suites run on
 the PR (e2e-full, green on de56390ba).
+
+## v1.287.0 — The Path row leaves the drawer; its corridor lives in Master the game (SET1 slice B, PR #430)
+
+**What changed:**
+- The owner (15 Nov): "remove the Path section from the sidebar". Four small losses, accepted 16 Nov: the row's units
+  count, a lesson tap staging a roll, the "N of 20 today" band, and `neural_challenges_viewed`.
+- `neural_practice_opened` carries on: surface "practice" for the row, "corridor" for a corridor door.
+- `openCorridor` is the one door. A stored Path view lands on the list and is never written back. "Open Challenges" fires
+  on the corridor's first visible draw.
+- **A latent fault fixed:** `openHomeToLatest()`, deleted in v1.174.0, threw on a study action with no live lesson. Such
+  a row now draws no button.
+
+**PATH-R1, the independent read, six rulings:**
+1. View Collection's door sets the shelf flag in its own turn: a warm repaint had drawn the shelf closed.
+2. Corridor doors send surface "corridor".
+3. A startable earlier belt test is drawn first.
+4. ‹ Back from a corridor checkpoint returns there.
+5. The collection door lands on the shelf, and a lesson's ▸ reads "Study this lesson's cards".
+6. The reading position is pinned.
+
+**PATH-R2:**
+- The Back hold's release is pinned: a key, a wheel, a mouse press and a finger drag each let it go.
+- `openPane("challenges")` goes through `openCorridor`.
+
+**Mutants:**
+- Each ruling's mutant is red at its named assertion in corridor-reach or the telemetry spec, after a green control.
+- B2 and B5 had no gate at first, and are now pinned.
+- My "no non-kills" for PATH-R1 was wrong: the four lifters removed together stayed green until PATH-R2. PATH-R2's lifter mutants: all four, wheel, pointerdown and keydown red; touchstart alone green, the one non-kill (a Chromium drag also fires pointerdown).
+
+Runs, bytes and the full rulings are in the PR body. corridor-reach.spec.ts names its non-kill and one known limit (a
+shelf press in the instant the plan lands).

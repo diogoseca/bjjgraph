@@ -106,8 +106,8 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
       .evaluate((el) => ((el as HTMLDetailsElement).open = true))
   }
   await rigSitting(j, 100)
-  // Drawer (U51 e / U56 e): select Path explicitly; opening alone shows the home list.
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
+  // Drawer (U51 e / U56 e): open the corridor explicitly; opening the drawer alone shows the home list.
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK}"]`).first().textContent(),
@@ -134,7 +134,9 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   await answerQuiz(page, j, CP.pass - 1)
 
   const b1 = (await j.beats()) as any[]
-  const n1 = b1.map((b) => b.beat)
+  // v1.287.0: the corridor is Master the game's, whose own open card shows multiple choice on the practice surface under Auto (an
+  // mc_shown of ITS surface, outside the quiz); a quiz card is presented on the deck surface, so the census leaves that one out
+  const n1 = b1.filter((b: any) => !(b.beat === "mc_shown" && b.surface === "practice")).map((b) => b.beat)
   expect(n1.filter((n) => n === "mc_shown").length, "sitting 1 presented every card").toBe(CP.cards)
   expect(n1.filter((n) => n === "mc_correct").length, "sitting 1 landed exactly pass-1 correct").toBe(CP.pass - 1)
   expect(n1.filter((n) => n === "mc_wrong").length, "sitting 1 missed the rest").toBe(CP.cards - (CP.pass - 1))
@@ -169,7 +171,7 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
 
   // ── SITTING 2: retake at EXACTLY the pass line — wrong answer present, still passes ──
   await rigSitting(j, 200) // rig APPENDS — fresh depth so the retake never drains to Math.random
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK}"]`).first().textContent(),
@@ -185,7 +187,7 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   await answerQuiz(page, j, CP.pass)
 
   const b2 = (await j.beats()) as any[]
-  const n2 = b2.map((b) => b.beat)
+  const n2 = b2.filter((b: any) => !(b.beat === "mc_shown" && b.surface === "practice")).map((b) => b.beat)
   expect(n2.filter((n) => n === "mc_shown").length, "both sittings presented every card").toBe(2 * CP.cards)
   expect(
     n2.filter((n) => n === "mc_correct").length,
@@ -221,7 +223,7 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   expect(afterPass.ckptOpen, "quiz resolved and cleared — no dangling state").toBe(false)
 
   // ── the challenges view shows it: the button flips to cleared at exactly the pass line ──
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK}"]`).first().textContent(),

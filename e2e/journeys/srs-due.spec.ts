@@ -248,7 +248,7 @@ test("merge: the later review wins; a same-day failure beats a success; mature i
   expect(r.clockClamp[2]).toBeLessThanOrEqual(today);
 });
 
-test("the maintenance surfaces: every due figure is the CARD count, the session lists a cover of it, and the band starts it", async ({
+test("the maintenance surfaces: every due figure is the CARD count, and the session lists a cover of it", async ({
   page,
 }) => {
   const j = journey(page);
@@ -386,12 +386,9 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
     (plan.newCards ? plan.newCards + " new, by how often they come up in your rolls" : "new cards come when nothing is due"));
   await expect(page.locator("[data-plan-goal-progress]"), "the session heading counts cards too").toContainText("Reviewed 0/");
 
-  // and the Challenges band is there while something is owed; until v1.278.0 it printed the same owed count ("2 cards
-  // due"), and since the count left the drawer (U171 a) it prints today's count, as the Practice row does
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"));
-  await page.waitForTimeout(400);
-  await expect(page.locator("[data-maintenance]")).toBeVisible();
-  await expect(page.locator("[data-maintenance] b")).toHaveText("0 of 20 today");
+  // (the Challenges band printed today's count here while something was owed, as the Practice row does; it left the drawer
+  // with the Path in v1.287.0, SET1 slice B, the third small loss the owner accepted: the row is that door, and its count is
+  // pinned by practice-order.spec.ts, "the row: today's count, no due")
 });
 
 test("due-ness NEVER moves the score — the belt cannot drop because time passed", async ({

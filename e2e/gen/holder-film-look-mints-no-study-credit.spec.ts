@@ -114,10 +114,13 @@ test("holder's film watch pumps odds but leaves prep, cardsToday, _days, both st
   //    summary's "D of L lessons") equals the same predicate computed over white's live
   //    lessons. Watch is closed before opening Challenges. ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away. Taken by the app's
-  // own view switch, not a click: the watch's <dialog open> is still up over the drawer here and would take
-  // a real click (dev's toggle opened Challenges with no click at all, and this census is read from the DOM).
+  // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) was one row away, taken by the app's own view
+  // switch, not a click: the watch's <dialog open> is still up over the drawer here and would take a real click. Since
+  // v1.287.0 the Path's corridor is Master the game's, and the same switch opens it there (`openCorridor`).
   await page.evaluate(() => (window as any).__neural.setViewMode("challenges"))
+  // a holder's corridor in Master the game starts at the belt worn (blue); White, the census's track, is one of the earlier
+  // belts, shown by the session's own switch ("Show earlier belts" is under the same dialog, so it is set the app's way)
+  await page.evaluate(() => { const a = (window as any).__neural; a._session.earlier = true; a._practiceCorridor() })
   await j.expectBeat("challenges_opened")
   const census = await page.evaluate(() => {
     const a = (window as any).__neural

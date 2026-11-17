@@ -1307,11 +1307,11 @@ test("clicking the pressed Explore tab returns a drilled Principle, then a Syste
   await expect(rows, "the root list is back").toHaveCount(principles.length);
   expect(await page.evaluate(() => (window as any).__neural._systemId), "no System owns the list").toBeNull();
 
-  // ── v1.242.0: Path is a row of the list (no pressed tab to re-press); its brand leads home again ──
-  await page.locator("[data-view='challenges']").scrollIntoViewIfNeeded();   // below the expanded Principles
-  await j.clickByMouse("[data-view='challenges']", "the Path row");
-  await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Path");
-  await j.clickByMouse(tab, "the brand, from Path");
+  // ── v1.242.0: Path was a row of the list (no pressed tab to re-press); its brand led home again. v1.287.0: the Path row
+  // left the drawer, and the same claim holds of Master the game, which holds its corridor ──
+  await j.openCorridor({ allBelts: false });
+  await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Master the game");
+  await j.clickByMouse(tab, "the brand, from Master the game");
   await expect(rows, "the root list is back").toHaveCount(principles.length);
   expect(errors, "no page errors along the way").toEqual([]);
 });

@@ -88,7 +88,7 @@ test("content capstone story: evidence → roll → tap → acknowledgement → 
   await j.land("Mount Top");
 
   // ── the available capstone is the invitation ──
-  await page.evaluate(() => (window as any).__neural.openPane("challenges")) // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away;
+  await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   // THE CORRIDOR FOLDS COMPLETED BELTS (v1.98.0/v1.99.2): with White done, the frontier is Blue,
   // so White's section body — and the capstone button in it — is display:none until its header
   // is clicked ("clicking a folded header selects AND opens"). The invitation is one unfold away.
@@ -131,7 +131,7 @@ test("content capstone story: evidence → roll → tap → acknowledgement → 
   // ── reload: the proof is durable and other tracks remain independently open ──
   await j.boot("/", { preserveStorage: true });
   await j.land("Mount Top");
-  await page.evaluate(() => (window as any).__neural.openPane("challenges")) // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away;
+  await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await page.locator(`.ng-track-card[data-track="${WHITE.id}"]`).click(); // unfold (see above)
   await expect(page.locator(`[data-capstone="${WHITE.id}"] button`)).toHaveText(
     "Capstone cleared",
@@ -151,8 +151,10 @@ test("content capstone story: evidence → roll → tap → acknowledgement → 
     await page.evaluate((dk: string) => !!document.querySelector(`[data-mini-deck="${dk}"], [data-mini-deck-state]`), blueLesson.deckKey),
     "the inline Q&A opened",
   ).toBe(true);
+  // v1.287.0: the corridor is Master the game's, itself a session (so `_paneStudyActive()` reads true there); a takeover is
+  // a deck, a checkpoint or the study view, and Master the game stays on screen
   expect(
-    await page.evaluate(() => (window as any).__neural._paneStudyActive()),
+    await page.evaluate(() => { const a = (window as any).__neural; return !!(a.deck || a._checkpoint || a._studyOpen) || !a._practiceInDrawer(); }),
     "and the pane was not taken over",
   ).toBe(false);
 });

@@ -40,7 +40,8 @@ const DEFAULT = {} as const
  *   S4 a row "More new cards" added labelled by its missing number (finding 3)          → "the added rows under their own name", and the NaN net
  *   A1 no "Keep practising" on the completion card (finding 5)                           → "the completion card offers to keep going"
  *   B1 the owed session built from the worth plan (finding 1's door)                     → "a deck the order never prices is here"
- *   B2 the band shown while owed, the goal ignored                                       → "the Path's band: gone at the goal, owed or not"
+ *   B2 the band shown while owed, the goal ignored: RETIRED with the band (v1.287.0, SET1 slice B: the Path left the drawer,
+ *      and its sticky "N of 20 today" band with it, the third small loss the owner accepted; the dot's rule is pinned below)
  * ANKI1 (the owner's Anki rule), built the same way:
  *   A1 a new card while something is due (new cards ride in a position's visit again)   → "24 cards are due: the 20 are due cards, none new"
  *   A2 the guard removed (worth alone)                                                   → "the one card left is the one due longest"
@@ -61,10 +62,8 @@ const DEFAULT = {} as const
  *     the plan is unchanged and one `neural_practice_unguarded` says so. The session's arithmetic, the failed and ended
  *     cases and the once rule are tests/practice_page.test.mjs's (mutants G3 to G6 there).
  *   · R409-6: "a record with no answer…" pins the fold's button reading "More new cards · …" in today's order too.
- *   · item 4: "the dot is lit…" pins the Path band's chip: "Start" where the full words and the line beside it do not both
- *     fit (390, the 1440 drawer), the full words where they do (the band widened), the line whole, the aria full; "the
- *     Path band at WxH" pins the reason line whole (390x631) or not shown at all (360x740, 320x568), never an ellipsis;
- *     "…fitted again when a web font lands" pins the refit on a font (R409-R1, finding 4).
+ *   · item 4 (the Path band's chip and reason line at 390x631, 360x740, 320x568 and on a web font, R409-R1): RETIRED with the
+ *     band in v1.287.0, its three width tests and its font test with it.
  * NOT COVERED here: the order's arithmetic (the unit suite and its 15 mutants), no-gi on a page (the unit reads both
  * rulesets; a ruleset flip writes a setting, so it cannot share the byte-identity claim), and answering (grading writes the
  * record by design; the planner's completion rule is the unit suite's).
@@ -364,27 +363,7 @@ for (const touch of [true, false]) {
       // see when it lands: the belt row's reading, final (`data-belt-state="ok"`). The set landing AFTER the tap is the test
       // "the guard holds when the live set lands after the tap" below.
       await expect(page.locator("[data-belt-row]"), "the live set is in: the belt row's reading is final").toHaveAttribute("data-belt-state", "ok", { timeout: 30_000 })
-      // the Path's band follows the dot's rule (STAGE3-R1): there one answer short of the goal
-      await press(page, '[data-explore-stats] [data-view="challenges"]', "the Path row", touch)
-      await expect(page.locator("[data-maintenance] b"), "the Path's band: there one answer short of the goal").toHaveText("19 of 20 today")
-      // in the view's name and the drawer row's words since v1.276.0 (owner U169 c), pinned here: nothing else reads them
-      // THE CHIP'S WORDS (R409 item 4, the orchestrator's rule): "Start today's session" only where it and the line beside it
-      // ("keep what you've earned") both fit uncut, "Start" where they do not. Measured, they fit neither at 390 nor in the
-      // 1440 drawer, so the chip says "Start" and the line is whole; the band widened shows the full words, the line still
-      // whole; back to its width, "Start" again. Until R409 the chip said the full words everywhere and cut the line to 53
-      // px of its 127 at 390. The aria keeps the full words at every width.
-      const band = () => page.evaluate(() => {
-        const b = document.querySelector("[data-maintenance]") as HTMLElement, line = b.querySelector("span") as HTMLElement
-        return { chip: b.querySelector("em")!.textContent, cut: line.scrollWidth > line.clientWidth }
-      })
-      const widen = (w: string) => page.evaluate((x) => { (document.querySelector("[data-maintenance]") as HTMLElement).style.width = x }, w)
-      await expect.poll(band, { message: "the band's words: what a tap does, and the line whole" }).toEqual({ chip: "Start", cut: false })
-      await widen("560px")
-      await expect.poll(band, { message: "room for both: the full words, the line whole" }).toEqual({ chip: "Start today's session", cut: false })
-      await widen("")
-      await expect.poll(band, { message: "back to the drawer's width: Start again" }).toEqual({ chip: "Start", cut: false })
-      await expect(page.locator("[data-maintenance]"), "the band's name, the full words").toHaveAttribute("aria-label", "Master the game, 19 of 20 today \u2014 Start today's session")
-      await press(page, ".ng-drawer-brand", "‹ Path, home", touch)
+      // (the Path's band followed the dot's rule here, with its chip's words, until it left with the Path in v1.287.0)
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
       const open = '[data-session-row][aria-expanded="true"] + div'
@@ -419,11 +398,6 @@ for (const touch of [true, false]) {
       await press(page, ".ng-explorer-close", "close the drawer", touch)
       await expect(page.locator(".ng-logo"), "the drawer is closed").toBeVisible()
       await expect(dot, "and the closed drawer's icon wears no dot past the goal").toBeHidden()
-      await press(page, ".ng-logo", "open the drawer again", touch)
-      await press(page, '[data-explore-stats] [data-view="challenges"]', "the Path row", touch)
-      await expect(page.locator(".ng-track-card").first(), "the Path is open").toBeVisible()
-      expect((await state()).owed, "premise: cards still owed").toBeGreaterThan(0)
-      await expect(page.locator("[data-maintenance]"), "the Path's band: gone at the goal, owed or not").toHaveCount(0)
     })
 
     test(`a record with no answer is today's order, and says so once (${touch ? "touch" : "mouse"})`, async ({ page }) => {
@@ -529,77 +503,6 @@ for (const touch of [true, false]) {
   })
 }
 
-// THE PATH BAND AT PHONE WIDTHS (R409 item 4, the orchestrator's rule of 14 Nov, after the 360 picture: "keep what you
-// have ea… with an ellipsis reads as a fault"). Where the reason line cannot be whole beside the chip it is not shown at
-// all, never cut; the count and the chip stay whole, the chip reading "Start" (the full words fit at none of these), the
-// aria the full words. With this player ("19 of 20 today", the dot test's): the line whole at 390x631, not shown at
-// 360x740 and 320x568, where even beside "Start" it kept 115 and 80 of its 127 px.
-// MUTANT (R409): L1 the line left cut (`line.hidden` never set) → red here at 360x740 and 320x568.
-for (const [w, h, shown] of [[390, 631, true], [360, 740, false], [320, 568, false]] as const) {
-  test.describe(`the Path band at ${w}x${h}`, () => {
-    test.use({ hasTouch: true, isMobile: true, viewport: { width: w, height: h } })
-    test(`the Path band at ${w}x${h}: the reason line ${shown ? "whole" : "not shown"}, the count and the chip whole`, async ({ page }) => {
-      const { orderFixture } = await import("../../tests/_practice_order_fixture.mjs")
-      const fx = orderFixture(SERVED)
-      const blob = JSON.parse(JSON.stringify(fx.blob))
-      blob.srs["Seed|Top"] = Object.fromEntries(Array.from({ length: 19 }, (_, i) => ["today" + i, [fx.day + 1, 1, fx.day]]))
-      await boot(page, fx.day, blob)
-      await press(page, ".ng-logo", "open the drawer", true)
-      await press(page, '[data-explore-stats] [data-view="challenges"]', "the Path row", true)
-      await expect(page.locator("[data-maintenance] b"), "premise: the band, one answer short of the goal").toHaveText("19 of 20 today")
-      const read = () => page.evaluate(() => {
-        const band = document.querySelector("[data-maintenance]") as HTMLElement, br = band.getBoundingClientRect()
-        const part = (el: HTMLElement) => {
-          const r = el.getBoundingClientRect(), cs = getComputedStyle(el)
-          return { shown: cs.display !== "none" && r.width > 0, whole: el.scrollWidth <= el.clientWidth && r.left >= br.left - 0.5 && r.right <= br.right + 0.5,
-            text: el.textContent, ellipsis: cs.textOverflow === "ellipsis" }
-        }
-        return { count: part(band.querySelector("b")!), line: part(band.querySelector("span")!), chip: part(band.querySelector("em")!) }
-      })
-      await expect.poll(async () => { const r = await read(); return r.line.shown ? (r.line.whole ? "whole" : "cut") : "not shown" },
-        { message: `the reason line at ${w}x${h}: whole, or not shown at all` }).toBe(shown ? "whole" : "not shown")
-      const r = await read()
-      expect([r.count.shown, r.count.whole], "the count, whole").toEqual([true, true])
-      expect([r.chip.shown, r.chip.whole, r.chip.text], "the chip, whole").toEqual([true, true, "Start"])
-      expect(r.line.ellipsis, "never an ellipsis on the line").toBe(false)
-      await expect(page.locator("[data-maintenance]"), "the band's name keeps the full words").toHaveAttribute("aria-label", "Master the game, 19 of 20 today — Start today's session")
-    })
-  })
-}
-
-// AND WHEN A WEB FONT LANDS (R409-R1, the reader's finding 4). New metrics change the text, not the band's box, so the band's
-// ResizeObserver is not told; with the ellipsis gone, a line judged whole under the first font would be clipped mid-letter.
-// The band is fitted again when a font lands (`document.fonts`: `loadingdone`, and `ready`). Forced here: after the first
-// fit, a face of the line's own family drawn 70% wider (a local font, `size-adjust: 170%`) is added and loaded; the line
-// that was whole at 390x631 can no longer be, so it is not shown, and the count and the chip stay whole.
-// MUTANT (R409-R1): F1 the refit on a font removed → red here ("cut").
-test.describe("the Path band when a web font lands", () => {
-  test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } })
-  test("the Path band at 390x631 is fitted again when a web font lands", async ({ page }) => {
-    const { orderFixture } = await import("../../tests/_practice_order_fixture.mjs")
-    const fx = orderFixture(SERVED)
-    const blob = JSON.parse(JSON.stringify(fx.blob))
-    blob.srs["Seed|Top"] = Object.fromEntries(Array.from({ length: 19 }, (_, i) => ["today" + i, [fx.day + 1, 1, fx.day]]))
-    await boot(page, fx.day, blob)
-    await press(page, ".ng-logo", "open the drawer", true)
-    await press(page, '[data-explore-stats] [data-view="challenges"]', "the Path row", true)
-    const state = () => page.evaluate(() => {
-      const band = document.querySelector("[data-maintenance]") as HTMLElement, line = band.querySelector("span") as HTMLElement
-      const whole = (el: HTMLElement) => el.scrollWidth <= el.clientWidth && el.getBoundingClientRect().right <= band.getBoundingClientRect().right + 0.5
-      return { line: getComputedStyle(line).display === "none" ? "not shown" : whole(line) ? "whole" : "cut",
-        count: whole(band.querySelector("b") as HTMLElement), chip: whole(band.querySelector("em") as HTMLElement) }
-    })
-    await expect.poll(async () => (await state()).line, { message: "premise: the line whole under the first font" }).toBe("whole")
-    const face = await page.evaluate(async () => {
-      const line = document.querySelector("[data-maintenance] span") as HTMLElement
-      const family = getComputedStyle(line).fontFamily.split(",")[0].trim().replace(/^["']|["']$/g, "")
-      const f = new FontFace(family, "local('DejaVu Sans'), local('Liberation Sans'), local('Noto Sans'), local('Arial')", { sizeAdjust: "170%" } as any)
-      document.fonts.add(f)
-      try { await f.load() } catch {}
-      return { family, status: f.status }
-    })
-    expect(face.status, `premise: a wider face of "${face.family}" loads`).toBe("loaded")
-    await expect.poll(async () => (await state()).line, { message: "the font landed: the line whole or not shown, never cut" }).toBe("not shown")
-    expect(await state(), "the count and the chip stay whole").toEqual({ line: "not shown", count: true, chip: true })
-  })
-})
+// THE PATH BAND AT 390x631, 360x740, 320x568 AND ON A WEB FONT (R409 item 4, R409-R1): retired in v1.287.0 with the band (the Path
+// left the drawer, SET1 slice B; the third small loss, accepted by the owner). Master the game's row is that door, its count
+// pinned above ("the row: today's count, no due").

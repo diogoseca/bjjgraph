@@ -984,8 +984,47 @@ export class Journey {
    * the drawer's foot, so a shut drawer is opened first, by its icon, the way a player does it.
    */
   async openAccountMenu(what = "the badge") {
-    if (!(await this.page.locator(".ngAcctChip").isVisible())) await this.clickByMouse(".ng-logo", "the drawer icon");
+    if (!(await this.page.locator(".ngAcctChip").isVisible())) {
+      // shut: the drawer icon; shown on a view without the badge (Master the game, which holds the corridor since v1.287.0, a
+      // deck): the brand, the way back to the list, since the drawer icon sits under it then
+      if (await this.page.evaluate(() => !!(window as W).__neural.deckShown)) await this.clickByMouse(".ng-drawer-brand", "back to the drawer's list");
+      else await this.clickByMouse(".ng-logo", "the drawer icon");
+    }
     await this.clickByMouse(".ngAcctChip", what);
+  }
+
+  /**
+   * THE CORRIDOR'S ONE DOOR (v1.287.0, SET1 slice B). The Path row left the drawer (owner, 15 Nov), and its corridor (belts,
+   * units, lessons, checkpoints, capstones, objectives, the rewards shelf) is reached through Master the game, by its row,
+   * the way a player opens it: the drawer icon if the drawer is shut, then the row. Returns once the corridor is drawn and
+   * the curriculum is in (a corridor drawn before it carries no belts). Already on Master the game: nothing is pressed.
+   * Journeys that opened the Path by `openPane("challenges")` / `setViewMode("challenges")` / its row come through here.
+   * `allBelts` (the default): Master the game's corridor starts at the belt you wear, with the earlier ones one press away
+   * ("Show earlier belts", pressed here by mouse), where the Path drew all five; the earlier belts then sit BELOW the worn
+   * one's. A journey about Master the game's own first screen passes `{ allBelts: false }`; one whose curriculum never
+   * arrives (a 404) passes `{ curriculum: false }` (the corridor still draws, and names the outage).
+   */
+  async openCorridor(opts: { allBelts?: boolean; curriculum?: boolean; what?: string } = {}) {
+    const what = opts.what || "Master the game"
+    if (opts.curriculum !== false) await this.page.waitForFunction(() => !!(window as W).__neural?.curriculum, null, { timeout: 30_000 })
+    const onIt = await this.page.evaluate(() => { const a = (window as W).__neural; return !!(a.deckShown && a._practiceInDrawer()) })
+    if (!onIt) {
+      if (!(await this.page.locator('[data-explore-stats] [data-b="due"]').isVisible())) {
+        // shut: the drawer icon; shown on something else (Last rolls, a deck, a checkpoint): the brand, the way back to the list
+        if (await this.page.evaluate(() => !!(window as W).__neural.deckShown)) await this.clickByMouse(".ng-drawer-brand", "back to the drawer's list")
+        else await this.clickByMouse(".ng-logo", "the drawer icon")
+      }
+      await this.page.locator('[data-explore-stats] [data-b="due"]').scrollIntoViewIfNeeded()
+      await this.clickByMouse('[data-explore-stats] [data-b="due"]', what)
+    }
+    await expect(this.page.locator("[data-practice-page] .ng-corridor"), "the corridor is drawn in Master the game").toHaveCount(1, { timeout: 30_000 })
+    const earlier = this.page.locator('[data-earlier-belts][aria-expanded="false"]')
+    if (opts.allBelts !== false && await earlier.count()) {
+      await earlier.scrollIntoViewIfNeeded()
+      await this.clickByMouse('[data-earlier-belts][aria-expanded="false"]', "Show earlier belts")
+      await expect(this.page.locator('[data-earlier-belts][aria-expanded="true"]')).toHaveCount(1)
+    }
+    return this
   }
 
   /** U104 (v1.252.0): at 1440x900 an opened question can end below the reader's scrollport, so its last answer needs a scroll
