@@ -1,5 +1,16 @@
 {
  "_meta": {
+  "app_provenance": {
+   "command": "npm run regenerate:neural",
+   "esbuild": "0.27.0",
+   "git_head": "33df8495860dacedec46cfcc90267fa52b9081bd",
+   "inputs": {
+    "tree": "e43bff571d579812acd4636236bb36fd1a62fc3a"
+   },
+   "package_version": "1.289.0",
+   "rows_from": "neural/dist",
+   "schema": "app-assets-rebuild-v2"
+  },
   "capture_tree": "/home/user/bjj-orchestrator/scratch/clips-1116/capture/capnn1-d1a40af65/pr-nonames-d1a40af65",
   "content_provenance": {
    "capture_git_head": "d1a40af65c28771b23c6610e8a982bbadf8db1e6",
@@ -55,21 +66,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "de247b0290dd8a4a8c5cf47661b74240e2a677a30ba89ebdcb172d8b05a0662c"
+    "sha256": "0591d29b9b7134e51300d3e4ff8569048336d69ea421663ce72cc661247bd2de"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78861,
-    "sha256": "8f5537750ad7eceed8525de7e73664785f3c3f20c1fc2ad9a9bb7e50017fc0ea",
+    "sha256": "06f60cdd24c786566a82f7a978e6af22eaf6e5d06b0c1f380227cba1be1901a6",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "ead954d9c4a93d73c98e464ddbced2c523a4a9ef0251a90a5289edbab042ae81",
+    "sha256": "0f166a5cb4bb4e0deb4077868b6cb55819ff25a9ec5d2a56f7f53706c9cdd019",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 28182,
-    "sha256": "51705de5d1fffcffa59889744acc8932c7fa131c25e24fab3df7392e6ab46d45",
+    "sha256": "759e2a42c53b49e1cf757a8cbb41f0727e1730c3f79e238850a556c0ca9fec3d",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-ab54a23e94cdfb0f1edc4c26d60943aa80e08ec94f6f4749b193411ce6f28c35.js": {
