@@ -106,7 +106,9 @@ type Plan = { keys: string[]; names: string[]; note: string };
 async function bootPlayer(page: Page, opts: { withoutGiHands?: boolean } = {}) {
   if (!(page as any).__weakRig) { (page as any).__weakRig = true; await page.addInitScript((rig) => { (window as any).__NEURAL_RIG = rig; }, RIG); }
   const stripped = { wires: 0, blocks: 0 };
-  const j = journey(page);
+  // v1.282.0: Practice's first card would ask multiple choice under Auto (the new default) and draw practice-mc-* tags this
+  // journey never rigged; the mode it was written under is stated, so "every draw rigged" keeps its full strength
+  const j = journey(page, { answerMode: "classic" });
   await j.boot("/", !opts.withoutGiHands ? {} : {
     beforeNavigate: (p: Page) => p.route("**/graph-data.json*", async (route) => {
       const res = await route.fetch(), wire = await res.json();

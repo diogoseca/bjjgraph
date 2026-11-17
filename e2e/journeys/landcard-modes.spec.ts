@@ -506,21 +506,26 @@ test("the owner's Americana page asks MULTIPLE CHOICE — recognition first, alw
   expect(s.recall, "no stage-0 recall — flashcards are the earned graduation").toBe(false)
 })
 
-// ── 5c. timed recall is a switch (U163 c, v1.270.0) ───────────────────────────────────────────
-// Until v1.270.0: "from blue belt up, a proven card asks as recall in play — below, MC holds" (v1.133.0, "recall comes with
-// rank"): a blue belt switched timed recall on. The owner's U163 c (13 Nov, "everything opens") makes it Recall Mode's
-// switch alone, so the second half now proves both directions: a blue belt earned now leaves MC in place, and the switch,
-// on a white belt, turns the proven card into timed recall. (A belt held before the rule carries over: belt_worn.test.mjs.)
-test("with Recall Mode on, a proven card asks as timed recall in play — a belt alone leaves MC", async ({
+// ── 5c. a card right twice asks front and back in a roll (the answer mode, v1.282.0) ──────────────────────────────────
+// Until v1.270.0 a blue belt switched timed recall on ("recall comes with rank", v1.133.0); from v1.270.0 to v1.282 it was
+// Recall mode's switch alone (U163 c). Since v1.282.0 (rulings R2, SET1-GO) the ANSWER MODE decides, one switch for every
+// card: Auto, the default for nothing stored, asks a card right twice (stage 2) front and back in a roll, which is what
+// Recall mode On did here; a belt still decides nothing; Multiple choice keeps it multiple choice. The stored-value cases
+// (Front Back cards on a new card, the old switch stored Off) are answer-mode.spec.ts's.
+test("a card right twice asks front and back in a roll under Auto; a belt decides nothing; Multiple choice keeps it multiple choice", async ({
   page,
 }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
   await j.openQuestion() // U47 d: exercise the shown card in this existing journey.
+  const shape = () => page.evaluate(() => ({
+    mc: !!document.querySelector("[data-land-mc-opt]"),
+    recall: !!document.querySelector("[data-land-recall]"),
+  }))
+  expect(await shape(), "a new card asks multiple choice first, under Auto").toEqual({ mc: true, recall: false })
 
-  // prove the current card to stage 2 (the MC cap), then re-mount: still a WHITE-belt profile,
-  // so recognition-first MC must hold even on a proven card
+  // prove the current card to stage 2 (the MC cap), then re-mount: a WHITE belt, nothing stored for the mode
   await page.evaluate(() => {
     const a = (window as W).__neural
     const q = a._landQ
@@ -532,14 +537,17 @@ test("with Recall Mode on, a proven card asks as timed recall in play — a belt
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })
   await j.landQuestion()
-  const white = await page.evaluate(() => ({
+  await j.openQuestion()
+  const auto = await page.evaluate(() => ({
     mc: !!document.querySelector("[data-land-mc-opt]"),
     recall: !!document.querySelector("[data-land-recall]"),
+    armed: (window as W).__neural._decision?.remaining != null,
   }))
-  expect(white.mc, "below blue, a proven card still asks MC").toBe(true)
-  expect(white.recall).toBe(false)
+  expect(auto.recall, "Auto: a card right twice asks front and back in a roll, a white belt included").toBe(true)
+  expect(auto.mc).toBe(false)
+  expect(auto.armed, "…and the question is on the clock").toBe(true)
 
-  // the same card under a BLUE belt earned now, under the open rule: the belt switches nothing on, MC holds
+  // the same card under a BLUE belt earned now: the belt decides nothing
   await page.evaluate(() => {
     const a = (window as W).__neural
     a.belts.held = { id: "blue", t: Date.now() }
@@ -547,29 +555,17 @@ test("with Recall Mode on, a proven card asks as timed recall in play — a belt
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })
   await j.landQuestion()
-  const belt = await page.evaluate(() => ({
-    mc: !!document.querySelector("[data-land-mc-opt]"),
-    recall: !!document.querySelector("[data-land-recall]"),
-  }))
-  expect(belt, "U163 c: a blue belt alone leaves the proven card MC").toEqual({ mc: true, recall: false })
+  expect(await shape(), "a blue belt changes nothing").toEqual({ mc: false, recall: true })
 
-  // the switch on: the in-play format graduates to timed recall Q/A
+  // Multiple choice, pressed: the card right twice stays multiple choice
   await page.evaluate(() => {
     const a = (window as W).__neural
-    a.set("recallInPlay", true)
+    a.set("mcMode", "mc")
     a._landQ = null
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })
   await j.landQuestion()
-  await j.openQuestion()
-  const blue = await page.evaluate(() => ({
-    mc: !!document.querySelector("[data-land-mc-opt]"),
-    recall: !!document.querySelector("[data-land-recall]"),
-    armed: (window as W).__neural._decision?.remaining != null,
-  }))
-  expect(blue.recall, "Recall Mode on: the proven card asks as recall").toBe(true)
-  expect(blue.mc).toBe(false)
-  expect(blue.armed, "…and the recall question is on the clock").toBe(true)
+  expect(await shape(), "Multiple choice keeps it multiple choice in a roll").toEqual({ mc: true, recall: false })
 })
 
 // ── 6. v1.134.0 arrival rush superseded: every content arrival starts calm ───────────────────

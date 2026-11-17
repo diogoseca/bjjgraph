@@ -136,7 +136,9 @@ type PageState = {
 type NavEvent = { url: string; type: string; userInitiated: boolean; source: string | null; stack: string; allowed: string | null };
 
 export class Journey {
-  constructor(private page: Page) {}
+  /** `opts.answerMode`: the answer mode a FILE of journeys was written under (v1.282.0, see `answerMode` below), written
+   *  after every boot that reaches a ready app, the way the Settings row writes it. */
+  constructor(private page: Page, private opts: { answerMode?: "auto" | "classic" | "mc" } = {}) {}
   private get st(): PageState {
     const p = this.page as any;
     return (p.__ngState =
@@ -535,6 +537,7 @@ export class Journey {
       for (const [tag, values] of Object.entries(opts.seedRolls))
         await this.rig(tag, values);
     }
+    if (this.opts.answerMode) await this.answerMode(this.opts.answerMode);
     return this;
   }
 
@@ -804,6 +807,17 @@ export class Journey {
       const a = (window as W).__neural;
       for (let i = 0; i < 8; i++) await Promise.all(Object.values(a._deckWaits || {}));
     });
+    return this;
+  }
+
+  /** THE ANSWER MODE A JOURNEY WAS WRITTEN UNDER (v1.282.0). Nothing stored is Auto since then (multiple choice until a
+   *  card is at stage 2, front and back from there, in Practice, Last rolls and a roll's question); until then it was
+   *  "classic" (front and back in the sidebar, multiple choice in a roll). A journey whose subject is NOT the format but
+   *  whose steps press Reveal / Got it, or answer a roll's question as multiple choice on a proven card, states the mode it
+   *  was written under here, the way a player does: the Settings row's own writer (`set`). Never a way to loosen an
+   *  assertion: the format journeys (answer-mode.spec.ts, landcard-modes 5c) leave it at the default or press it. */
+  async answerMode(mode: "auto" | "classic" | "mc") {
+    await this.page.evaluate((m) => (window as W).__neural.set("mcMode", m), mode);
     return this;
   }
 
@@ -1380,4 +1394,4 @@ export class Journey {
   navigations(): NavEvent[] { return this.st.navs.slice(); }
 }
 
-export const journey = (page: Page) => new Journey(page);
+export const journey = (page: Page, opts: { answerMode?: "auto" | "classic" | "mc" } = {}) => new Journey(page, opts);
