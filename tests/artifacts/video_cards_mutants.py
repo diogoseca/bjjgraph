@@ -40,7 +40,8 @@ MUTANTS = [
      VIDEO, WATCH, DRAG),
     ("watch_commits", APP, "e.stopPropagation(); this._openChoiceWatch(clip, target, watch);", "e.stopPropagation(); this.activateOption(job.card._choiceOpt, this._optPick, job.card); this._openChoiceWatch(clip, target, watch);",
      VIDEO, WATCH, DRAG),
-    ("autoplay", APP, "playerVars: { autoplay: theater ? 1 : 0, controls: 1,", "playerVars: { autoplay: 1, controls: 1,",
+    # VID1: the play circle's video plays at once, so the mutant is now the old refusal (was: autoplay turned ON).
+    ("autoplay", APP, "playerVars: { autoplay: 1, controls: 1,", "playerVars: { autoplay: 0, controls: 1,",
      VIDEO, WATCH, DRAG),
     ("shortcut_is_odds", APP, "num && num <= 9 && this.get(\"cardNumbers\", true) ? num : ''", "'58'",
      VIDEO, WATCH, DRAG),
@@ -49,8 +50,9 @@ MUTANTS = [
      VIDEO, r"clicking the (poster|statistics) outside Play", WATCH),
     ("wide_peek", CSS, "calc(90.9090909% - 7.272727px)", "calc(60% - 8px)",
      VIDEO, PEEK, WATCH),
-    ("close_tabstop", APP, 'dialog.querySelector("[data-watch-close]").focus();',
-     'dialog.querySelector("[data-watch-close]").tabIndex = -1; dialog.querySelector("[data-watch-close]").focus();',
+    # VID1: the move's modal is retired; its one Close is the theater's.
+    ("close_tabstop", APP, 'dialog.showModal(); close.focus({ preventScroll: true });',
+     'close.tabIndex = -1; dialog.showModal(); close.focus({ preventScroll: true });',
      VIDEO, r"keyboard can leave cross-origin", WATCH),
     ("viewer_focus_wrap", APP, 'if (e.key !== "Tab" || e.altKey || e.ctrlKey || e.metaKey) return;',
      'if (true) return;', VIDEO, r"keyboard can leave cross-origin", WATCH),

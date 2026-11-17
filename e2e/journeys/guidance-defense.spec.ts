@@ -30,7 +30,7 @@ test("one-beacon law: exactly one highlighted surface at every beat", async ({ p
   await openChoiceVideo(page, NAME)
   expect(await beaconCount()).toBe(1)
   expect(await beaconTarget()).toBe("options")
-  await j.clickByMouse("[data-watch-close]", "Close Watch")
+  await j.clickByMouse(".ng-video-theater .ngClipX", "Close Watch")
   expect(await beaconCount()).toBe(1)
   expect(await beaconTarget()).toBe("options")
 
@@ -115,20 +115,22 @@ test("film study: explicit playback fires the beat; player failure offers a safe
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  // VID1: the press that opens the move's video plays it, and the player's own "playing" report fires the beat once.
+  // WAS: none after opening, one after a press inside the player; on the VID1 build `toHaveLength(0)` failed with 1.
   await openChoiceVideo(page, NAME)
-  expect((await j.beats()).filter(b => b.beat === "short_watched")).toHaveLength(0)
+  await expect.poll(async () => (await j.beats()).filter(b => b.beat === "short_watched").length).toBe(1)
   await playChoiceVideo(page)
-  await j.expectBeat("short_watched")
+  expect((await j.beats()).filter(b => b.beat === "short_watched"), "a second play in the same open fires no second beat").toHaveLength(1)
 
   // Drive the real production failure callback, without the external provider.
   await page.evaluate(() => (window as any).__players.at(-1).events.onError())
-  const fallback = page.locator('[data-choice-viewer] .ngPlayerHost a')
+  const fallback = page.locator('.ng-video-theater .ngPlayerHost a')
   await expect(fallback).toHaveText("Open video on YouTube ↗")
   await expect(fallback).toHaveAttribute("href", "https://www.youtube.com/watch?v=aaaaaaaaaaa")
   await expect(fallback).toHaveAttribute("target", "_blank")
   await expect(fallback).toHaveAttribute("rel", "noopener noreferrer")
   expect((await j.beats()).filter(b => b.beat === "commit")).toHaveLength(0)
-  await j.clickByMouse("[data-watch-close]", "Close the failed player")
+  await j.clickByMouse(".ng-video-theater .ngClipX", "Close the failed player")
   await expect(page.locator(".ngPlayerHost")).toHaveCount(0)
   expect(errors).toEqual([])
 })
