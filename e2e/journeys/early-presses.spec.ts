@@ -19,15 +19,19 @@ import { journey } from "../dsl"
  * FAULT 2 (the reader of PR #430, 4b): Master the game opened in the first seconds after a load was ended by the intro's
  * deal of the first roll (6 of 6 on "/" by real presses on a real clock). Its journey holds the intro's clock with the
  * test-mode pump instead of a request: the cause is a deal on a clock.
- * Mutants (the seat's mutantsR.py): toggleExplorer's early branch removed → red at "no page error while the data is held"
- * (logo); openSearchPane's → the same (search); the honour moved back before the seed → red "on a position page", "on a
- * technique page", "on a concept page"; the take-back removed → "a press taken back opens nothing"; Esc's branch removed
- * → "Esc forgets it"; the page check removed → "a navigation drops the press"; the page read with its hash → "a stripped
- * hash keeps the press"; the pressed look never set → "the control shows the press was taken"; the panel-already-open
- * check removed → "on a hub"; the search replayed as the logo → "the search button ... (touch)"; dev's reset back in the
- * intro's deal → "Master the game is still open after the first roll is dealt"; the deal's argument ignored → "a later deal
- * ends the session". NON-KILL, recorded: openPane's own early branch removed stays green, because no early input reaches
- * it (the logo and the search have their own); it stands for any later caller.
+ * Mutants (the seat's mutantsR.py, run 17 Nov 11:50-11:55, each red at the step named; the control C0 green, 24 of 24):
+ * toggleExplorer's early branch removed → "the early press ends where a late press ends" (its press falls to `openPane`'s
+ * branch and is replayed without the logo's focus) and "the second press takes the pressed look back too"; openSearchPane's
+ * → "the control shows the press was taken"; the take-back removed → "the second press takes the pressed look back too";
+ * dev's reset back in the intro's deal → "Master the game is still open after the first roll is dealt"; the honour moved
+ * back before the seed → "the early press ends where a late press ends" on the position, technique and concept pages;
+ * the page check removed → "a navigation drops the press"; the page read with its hash → "a stripped hash keeps the
+ * press"; the deal's argument ignored → "a later deal ends the session"; Esc's branch removed → "Esc takes the pressed
+ * look back"; the pressed look never set → "the control shows the press was taken"; the panel-already-open check
+ * removed → "the early press leaves the panel as the page opened it" (the hub); the search replayed as the logo → "the
+ * early press ends where a late press ends" (the search button, touch). NON-KILL, recorded: openPane's own early branch
+ * removed stays green (24 of 24), because no early input reaches it (the logo and the search have their own); it stands
+ * for any later caller.
  */
 
 type W = Window & { __neural: any }
