@@ -161,22 +161,20 @@ description: "Grip Strip from Buggy Choke (defender): Use safe shoulder and hip 
       "@type": "VideoObject",
       "position": 1,
       "name": "Fake buggy to follow-up attacks",
-      "description": "Grip Strip from Buggy Choke (Defender) film study: Fake buggy to follow-up attacks, taught by Rene Sousa.",
+      "description": "Grip Strip from Buggy Choke (Defender) film study: Fake buggy to follow-up attacks.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UOlAQctUf58/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/UOlAQctUf58",
       "url": "https://www.youtube.com/watch?v=UOlAQctUf58",
-      "creator": { "@type": "Person", "name": "Rene Sousa" },
       "duration": "PT174S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "3 buggy choke concepts",
-      "description": "Grip Strip from Buggy Choke (Defender) film study: 3 buggy choke concepts, taught by Kade and Tye Ruotolo.",
+      "description": "Grip Strip from Buggy Choke (Defender) film study: 3 buggy choke concepts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0_3YYrWEGoU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0_3YYrWEGoU",
       "url": "https://www.youtube.com/watch?v=0_3YYrWEGoU",
-      "creator": { "@type": "Person", "name": "Kade and Tye Ruotolo" },
       "duration": "PT201S"
     }
   ]
@@ -215,7 +213,7 @@ When the grip is stripped, keep an inside shoulder frame and use a short hip esc
 
 ![](https://www.youtube.com/watch?v=UOlAQctUf58)
 
-<p class="clip-credit"><strong>Fake buggy to follow-up attacks</strong> — taught by Rene Sousa · 2:54 · <a href="https://www.youtube.com/watch?v=UOlAQctUf58" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Fake buggy to follow-up attacks</strong> · 2:54 · <a href="https://www.youtube.com/watch?v=UOlAQctUf58" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -223,7 +221,7 @@ When the grip is stripped, keep an inside shoulder frame and use a short hip esc
 
 ![](https://www.youtube.com/watch?v=0_3YYrWEGoU)
 
-<p class="clip-credit"><strong>3 buggy choke concepts</strong> — taught by Kade and Tye Ruotolo · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 buggy choke concepts</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -47,22 +47,20 @@ description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, c
       "@type": "VideoObject",
       "position": 1,
       "name": "Shin to Shin Guard",
-      "description": "Shin-to-Shin Guard film study: Shin to Shin Guard, taught by RGA South Herts.",
+      "description": "Shin-to-Shin Guard film study: Shin to Shin Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sUJIGs8Othc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sUJIGs8Othc",
       "url": "https://www.youtube.com/watch?v=sUJIGs8Othc",
-      "creator": { "@type": "Person", "name": "RGA South Herts" },
       "duration": "PT75S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard",
-      "description": "Shin-to-Shin Guard film study: 1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard, taught by Dynasty Jiu Jitsu.",
+      "description": "Shin-to-Shin Guard film study: 1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YV26zZARJdA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YV26zZARJdA",
       "url": "https://www.youtube.com/watch?v=YV26zZARJdA",
-      "creator": { "@type": "Person", "name": "Dynasty Jiu Jitsu" },
       "duration": "PT163S"
     }
   ]
@@ -112,7 +110,7 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 
 ![](https://www.youtube.com/watch?v=sUJIGs8Othc)
 
-<p class="clip-credit"><strong>Shin to Shin Guard</strong> — taught by RGA South Herts · 1:15 · <a href="https://www.youtube.com/watch?v=sUJIGs8Othc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shin to Shin Guard</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=sUJIGs8Othc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -120,7 +118,7 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 
 ![](https://www.youtube.com/watch?v=YV26zZARJdA)
 
-<p class="clip-credit"><strong>1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard</strong> — taught by Dynasty Jiu Jitsu · 2:43 · <a href="https://www.youtube.com/watch?v=YV26zZARJdA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>1 easy way to Pass Shin to Shin Guard | Passing Shin on Shin Guard</strong> · 2:43 · <a href="https://www.youtube.com/watch?v=YV26zZARJdA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

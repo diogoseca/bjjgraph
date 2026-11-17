@@ -166,33 +166,30 @@ description: "Master Knee Shield Half Guard Top in BJJ. Complete guide covering 
       "@type": "VideoObject",
       "position": 1,
       "name": "Knee shield half guard pass",
-      "description": "Knee Shield Half Guard (Top) film study: Knee shield half guard pass, taught by Adam Metcalf.",
+      "description": "Knee Shield Half Guard (Top) film study: Knee shield half guard pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Y815hmtzGZA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Y815hmtzGZA",
       "url": "https://www.youtube.com/watch?v=Y815hmtzGZA",
-      "creator": { "@type": "Person", "name": "Adam Metcalf" },
       "duration": "PT30S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Pass knee shield with inside knee cut",
-      "description": "Knee Shield Half Guard (Top) film study: Pass knee shield with inside knee cut, taught by War Room Jiu Jitsu.",
+      "description": "Knee Shield Half Guard (Top) film study: Pass knee shield with inside knee cut.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
       "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
-      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
       "duration": "PT70S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Most basic half guard pass (no-gi)",
-      "description": "Knee Shield Half Guard (Top) film study: Most basic half guard pass (no-gi), taught by Danny Mitchell.",
+      "description": "Knee Shield Half Guard (Top) film study: Most basic half guard pass (no-gi).",
       "thumbnailUrl": "https://i.ytimg.com/vi/_XjuF0no1Uw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_XjuF0no1Uw",
       "url": "https://www.youtube.com/watch?v=_XjuF0no1Uw",
-      "creator": { "@type": "Person", "name": "Danny Mitchell" },
       "duration": "PT89S"
     }
   ]
@@ -223,7 +220,7 @@ From top position, the primary goal is to neutralize the knee shield's effective
 
 ![](https://www.youtube.com/watch?v=Y815hmtzGZA)
 
-<p class="clip-credit"><strong>Knee shield half guard pass</strong> — taught by Adam Metcalf · 0:30 · <a href="https://www.youtube.com/watch?v=Y815hmtzGZA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee shield half guard pass</strong> · 0:30 · <a href="https://www.youtube.com/watch?v=Y815hmtzGZA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -231,7 +228,7 @@ From top position, the primary goal is to neutralize the knee shield's effective
 
 ![](https://www.youtube.com/watch?v=yj_6xcl2emA)
 
-<p class="clip-credit"><strong>Pass knee shield with inside knee cut</strong> — taught by War Room Jiu Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pass knee shield with inside knee cut</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -239,7 +236,7 @@ From top position, the primary goal is to neutralize the knee shield's effective
 
 ![](https://www.youtube.com/watch?v=_XjuF0no1Uw)
 
-<p class="clip-credit"><strong>Most basic half guard pass (no-gi)</strong> — taught by Danny Mitchell · 1:29 · <a href="https://www.youtube.com/watch?v=_XjuF0no1Uw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Most basic half guard pass (no-gi)</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=_XjuF0no1Uw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

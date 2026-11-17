@@ -66,8 +66,8 @@ description: "Master Kneebar from Guard in BJJ. Complete guide with safety proto
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Matrix-Kneebar-Heel Hook by Mickey Musumeci",
-      "description": "Kneebar from Guard film study: Matrix-Kneebar-Heel Hook by Mickey Musumeci.",
+      "name": "Matrix-Kneebar-Heel Hook",
+      "description": "Kneebar from Guard film study: Matrix-Kneebar-Heel Hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HQSxxYL1Aew/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HQSxxYL1Aew",
       "url": "https://www.youtube.com/watch?v=HQSxxYL1Aew",
@@ -145,7 +145,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 ![](https://www.youtube.com/watch?v=HQSxxYL1Aew)
 
-<p class="clip-credit"><strong>Matrix-Kneebar-Heel Hook by Mickey Musumeci</strong> · 0:26 · <a href="https://www.youtube.com/watch?v=HQSxxYL1Aew" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Matrix-Kneebar-Heel Hook</strong> · 0:26 · <a href="https://www.youtube.com/watch?v=HQSxxYL1Aew" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -172,8 +172,8 @@ description: "Defend against the Peruvian Necktie from front headlock. Recogniti
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "PEDRO SAUER | The PERFECT Defense To The Peruvian Necktie",
-      "description": "Peruvian Necktie from Front Headlock (Defender) film study: PEDRO SAUER | The PERFECT Defense To The Peruvian Necktie.",
+      "name": "The PERFECT Defense To The Peruvian Necktie",
+      "description": "Peruvian Necktie from Front Headlock (Defender) film study: The PERFECT Defense To The Peruvian Necktie.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WcVrhdaHaro/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WcVrhdaHaro",
       "url": "https://www.youtube.com/watch?v=WcVrhdaHaro",
@@ -216,7 +216,7 @@ Defending the Peruvian Necktie from front headlock demands early recognition and
 
 ![](https://www.youtube.com/watch?v=WcVrhdaHaro)
 
-<p class="clip-credit"><strong>PEDRO SAUER | The PERFECT Defense To The Peruvian Necktie</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=WcVrhdaHaro" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The PERFECT Defense To The Peruvian Necktie</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=WcVrhdaHaro" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,8 +46,8 @@ description: "Master the Stack Pass from Spider Guard in BJJ. Learn timing, stac
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rubens Cobrinha: stack spider guard pass",
-      "description": "Stack Pass from Spider film study: Rubens Cobrinha: stack spider guard pass.",
+      "name": "Stack spider guard pass",
+      "description": "Stack Pass from Spider film study: Stack spider guard pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Flp_LvZE1YE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Flp_LvZE1YE",
       "url": "https://www.youtube.com/watch?v=Flp_LvZE1YE",
@@ -107,7 +107,7 @@ The stack pass from spider guard is particularly effective at intermediate and a
 
 ![](https://www.youtube.com/watch?v=Flp_LvZE1YE)
 
-<p class="clip-credit"><strong>Rubens Cobrinha: stack spider guard pass</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=Flp_LvZE1YE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Stack spider guard pass</strong> · 1:16 · <a href="https://www.youtube.com/watch?v=Flp_LvZE1YE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

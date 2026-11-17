@@ -165,8 +165,8 @@ description: "Master body triangle from bottom perspective. Powerful leg control
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Back Attacks 3.0 - #3: Body Triangle Troubleshooting // Tom Halpin",
-      "description": "Body Triangle (Top) film study: Back Attacks 3.0 - #3: Body Triangle Troubleshooting // Tom Halpin.",
+      "name": "Back Attacks 3.0 - #3: Body Triangle Troubleshooting",
+      "description": "Body Triangle (Top) film study: Back Attacks 3.0 - #3: Body Triangle Troubleshooting.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TFKAmteeVIA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TFKAmteeVIA",
       "url": "https://www.youtube.com/watch?v=TFKAmteeVIA",
@@ -202,7 +202,7 @@ From this top position, you maintain constant chest-to-back pressure while your 
 
 ![](https://www.youtube.com/watch?v=TFKAmteeVIA)
 
-<p class="clip-credit"><strong>Back Attacks 3.0 - #3: Body Triangle Troubleshooting // Tom Halpin</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=TFKAmteeVIA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Attacks 3.0 - #3: Body Triangle Troubleshooting</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=TFKAmteeVIA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

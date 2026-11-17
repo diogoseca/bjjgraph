@@ -160,8 +160,8 @@ description: "How to maintain armbar control and prevent escape in BJJ. Counter 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armbar defense; Stacking escape video by Reggie McGinty",
-      "description": "Armbar Defense (Defender) film study: Armbar defense; Stacking escape video by Reggie McGinty.",
+      "name": "Armbar defense; Stacking escape video",
+      "description": "Armbar Defense (Defender) film study: Armbar defense; Stacking escape video.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aVFeiYhj4cs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aVFeiYhj4cs",
       "url": "https://www.youtube.com/watch?v=aVFeiYhj4cs",
@@ -197,7 +197,7 @@ Maintaining the armbar requires constant adjustment to your opponent's escape at
 
 ![](https://www.youtube.com/watch?v=aVFeiYhj4cs)
 
-<p class="clip-credit"><strong>Armbar defense; Stacking escape video by Reggie McGinty</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=aVFeiYhj4cs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar defense; Stacking escape video</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=aVFeiYhj4cs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

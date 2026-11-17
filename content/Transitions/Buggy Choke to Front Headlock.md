@@ -47,22 +47,20 @@ description: "Moving to Front Headlock after a Buggy Choke requires the top play
       "@type": "VideoObject",
       "position": 1,
       "name": "Buggy choke from half guard",
-      "description": "Buggy Choke to Front Headlock film study: Buggy choke from half guard, taught by Moncaio Brothers.",
+      "description": "Buggy Choke to Front Headlock film study: Buggy choke from half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZBOagHWTCFw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ZBOagHWTCFw",
       "url": "https://www.youtube.com/watch?v=ZBOagHWTCFw",
-      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
       "duration": "PT33S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "BJJ Buggy Choke demonstration",
-      "description": "Buggy Choke to Front Headlock film study: BJJ Buggy Choke demonstration, taught by Judoka.",
+      "description": "Buggy Choke to Front Headlock film study: BJJ Buggy Choke demonstration.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Jw8PSPrR8-E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Jw8PSPrR8-E",
       "url": "https://www.youtube.com/watch?v=Jw8PSPrR8-E",
-      "creator": { "@type": "Person", "name": "Judoka" },
       "duration": "PT41S"
     }
   ]
@@ -121,7 +119,7 @@ Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.you
 
 ![](https://www.youtube.com/watch?v=ZBOagHWTCFw)
 
-<p class="clip-credit"><strong>Buggy choke from half guard</strong> — taught by Moncaio Brothers · 0:33 · <a href="https://www.youtube.com/watch?v=ZBOagHWTCFw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Buggy choke from half guard</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=ZBOagHWTCFw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -129,7 +127,7 @@ Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.you
 
 ![](https://www.youtube.com/watch?v=Jw8PSPrR8-E)
 
-<p class="clip-credit"><strong>BJJ Buggy Choke demonstration</strong> — taught by Judoka · 0:41 · <a href="https://www.youtube.com/watch?v=Jw8PSPrR8-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Buggy Choke demonstration</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=Jw8PSPrR8-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

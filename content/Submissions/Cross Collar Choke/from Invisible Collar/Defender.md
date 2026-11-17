@@ -161,22 +161,20 @@ description: "Cross Collar Choke from Invisible Collar (defender): Fight collar 
       "@type": "VideoObject",
       "position": 1,
       "name": "Cross collar choke defense: down and over",
-      "description": "Cross Collar Choke from Invisible Collar (Defender) film study: Cross collar choke defense: down and over, taught by Emil Takeuchi.",
+      "description": "Cross Collar Choke from Invisible Collar (Defender) film study: Cross collar choke defense: down and over.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6rMCDkWRlgg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6rMCDkWRlgg",
       "url": "https://www.youtube.com/watch?v=6rMCDkWRlgg",
-      "creator": { "@type": "Person", "name": "Emil Takeuchi" },
       "duration": "PT94S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Escape the lapel choke from back mount",
-      "description": "Cross Collar Choke from Invisible Collar (Defender) film study: Escape the lapel choke from back mount, taught by North Bay Jiu Jitsu.",
+      "description": "Cross Collar Choke from Invisible Collar (Defender) film study: Escape the lapel choke from back mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KZBFuqvmKpo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KZBFuqvmKpo",
       "url": "https://www.youtube.com/watch?v=KZBFuqvmKpo",
-      "creator": { "@type": "Person", "name": "North Bay Jiu Jitsu" },
       "duration": "PT142S"
     }
   ]
@@ -216,7 +214,7 @@ Protect the neck by addressing the first deep grip and keeping an inside frame b
 
 ![](https://www.youtube.com/watch?v=6rMCDkWRlgg)
 
-<p class="clip-credit"><strong>Cross collar choke defense: down and over</strong> — taught by Emil Takeuchi · 1:34 · <a href="https://www.youtube.com/watch?v=6rMCDkWRlgg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross collar choke defense: down and over</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=6rMCDkWRlgg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -224,7 +222,7 @@ Protect the neck by addressing the first deep grip and keeping an inside frame b
 
 ![](https://www.youtube.com/watch?v=KZBFuqvmKpo)
 
-<p class="clip-credit"><strong>Escape the lapel choke from back mount</strong> — taught by North Bay Jiu Jitsu · 2:22 · <a href="https://www.youtube.com/watch?v=KZBFuqvmKpo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape the lapel choke from back mount</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=KZBFuqvmKpo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

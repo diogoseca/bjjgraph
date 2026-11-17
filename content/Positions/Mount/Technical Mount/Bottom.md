@@ -175,8 +175,8 @@ description: "Technical Mount Bottom escape guide in BJJ. Comprehensive defense 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "TECHNICAL MOUNT - 4 SIMPLE ESCAPES with Professor Alan Merullo",
-      "description": "Technical Mount (Bottom) film study: TECHNICAL MOUNT - 4 SIMPLE ESCAPES with Professor Alan Merullo.",
+      "name": "TECHNICAL MOUNT - 4 SIMPLE ESCAPES",
+      "description": "Technical Mount (Bottom) film study: TECHNICAL MOUNT - 4 SIMPLE ESCAPES.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YjWi3ijM-QA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YjWi3ijM-QA",
       "url": "https://www.youtube.com/watch?v=YjWi3ijM-QA",
@@ -218,7 +218,7 @@ From the bottom perspective, Technical Mount represents one of the most precario
 
 ![](https://www.youtube.com/watch?v=YjWi3ijM-QA)
 
-<p class="clip-credit"><strong>TECHNICAL MOUNT - 4 SIMPLE ESCAPES with Professor Alan Merullo</strong> · 11:02 · <a href="https://www.youtube.com/watch?v=YjWi3ijM-QA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>TECHNICAL MOUNT - 4 SIMPLE ESCAPES</strong> · 11:02 · <a href="https://www.youtube.com/watch?v=YjWi3ijM-QA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

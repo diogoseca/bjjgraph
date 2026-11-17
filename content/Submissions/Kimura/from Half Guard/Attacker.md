@@ -190,8 +190,8 @@ description: "How to execute Kimura from Half Guard in BJJ. Attacking perspectiv
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026",
-      "description": "Kimura from Half Guard (Attacker) film study: Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026.",
+      "name": "Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026",
+      "description": "Kimura from Half Guard (Attacker) film study: Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dgYwflmcxKk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dgYwflmcxKk",
       "url": "https://www.youtube.com/watch?v=dgYwflmcxKk",
@@ -234,7 +234,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 ![](https://www.youtube.com/watch?v=dgYwflmcxKk)
 
-<p class="clip-credit"><strong>Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle…</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique Breakdown: Kimura Half Guard Bottom | The Gentle…</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

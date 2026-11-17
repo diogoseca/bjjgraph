@@ -167,33 +167,30 @@ description: "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entr
       "@type": "VideoObject",
       "position": 1,
       "name": "X-Guard sweep",
-      "description": "X-Guard (Bottom) film study: X-Guard sweep, taught by Marcelo Garcia.",
+      "description": "X-Guard (Bottom) film study: X-Guard sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
       "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT53S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "One-leg X-Guard sweep",
-      "description": "X-Guard (Bottom) film study: One-leg X-Guard sweep, taught by Marcelo Garcia.",
+      "description": "X-Guard (Bottom) film study: One-leg X-Guard sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AhsXraebbdg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AhsXraebbdg",
       "url": "https://www.youtube.com/watch?v=AhsXraebbdg",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT47S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "X-Guard sweep and pass",
-      "description": "X-Guard (Bottom) film study: X-Guard sweep and pass, taught by Marcelo Garcia.",
+      "description": "X-Guard (Bottom) film study: X-Guard sweep and pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7OnjPU1WjH4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7OnjPU1WjH4",
       "url": "https://www.youtube.com/watch?v=7OnjPU1WjH4",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT35S"
     }
   ]
@@ -225,7 +222,7 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 ![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
 
-<p class="clip-credit"><strong>X-Guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>X-Guard sweep</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -233,7 +230,7 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 ![](https://www.youtube.com/watch?v=AhsXraebbdg)
 
-<p class="clip-credit"><strong>One-leg X-Guard sweep</strong> — taught by Marcelo Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=AhsXraebbdg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>One-leg X-Guard sweep</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=AhsXraebbdg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -241,7 +238,7 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 ![](https://www.youtube.com/watch?v=7OnjPU1WjH4)
 
-<p class="clip-credit"><strong>X-Guard sweep and pass</strong> — taught by Marcelo Garcia · 0:35 · <a href="https://www.youtube.com/watch?v=7OnjPU1WjH4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>X-Guard sweep and pass</strong> · 0:35 · <a href="https://www.youtube.com/watch?v=7OnjPU1WjH4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

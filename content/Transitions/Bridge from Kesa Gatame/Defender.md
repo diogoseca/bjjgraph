@@ -152,8 +152,8 @@ description: "Defend against the bridge-and-roll reversal from scarf hold top in
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Jiu Jitsu Basics: Kesa-Gatame Stopping the rollover - David Whitehead",
-      "description": "Bridge from Kesa Gatame (Defender) film study: Jiu Jitsu Basics: Kesa-Gatame Stopping the rollover - David Whitehead.",
+      "name": "Jiu Jitsu Basics: Kesa-Gatame Stopping the rollover",
+      "description": "Bridge from Kesa Gatame (Defender) film study: Jiu Jitsu Basics: Kesa-Gatame Stopping the rollover.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kJMQ90cP0g0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kJMQ90cP0g0",
       "url": "https://www.youtube.com/watch?v=kJMQ90cP0g0",
@@ -187,7 +187,7 @@ Defending against the bridge-and-roll reversal from scarf hold requires the top 
 
 ![](https://www.youtube.com/watch?v=kJMQ90cP0g0)
 
-<p class="clip-credit"><strong>Jiu Jitsu Basics: Kesa-Gatame Stopping the rollover - David Whitehead</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=kJMQ90cP0g0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Basics: Kesa-Gatame Stopping the rollover</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=kJMQ90cP0g0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

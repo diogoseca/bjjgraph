@@ -186,8 +186,8 @@ description: "How to execute the Transition to Pocket Half Guard from Half Guard
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Jason Rau BJJ Passing Mastery: Crossface + Underhook Control to Smash Half\u2026",
-      "description": "Half Guard to Pocket Half Guard (Attacker) film study: Jason Rau BJJ Passing Mastery: Crossface + Underhook Control to Smash Half\u2026.",
+      "name": "BJJ Passing Mastery: Crossface + Underhook Control to Smash Half\u2026",
+      "description": "Half Guard to Pocket Half Guard (Attacker) film study: BJJ Passing Mastery: Crossface + Underhook Control to Smash Half\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/A__mIUaNZfw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/A__mIUaNZfw",
       "url": "https://www.youtube.com/watch?v=A__mIUaNZfw",
@@ -221,7 +221,7 @@ As the attacker executing the Transition to Pocket Half Guard, your objective is
 
 ![](https://www.youtube.com/watch?v=A__mIUaNZfw)
 
-<p class="clip-credit"><strong>Jason Rau BJJ Passing Mastery: Crossface + Underhook Control to Smash Half…</strong> · 4:01 · <a href="https://www.youtube.com/watch?v=A__mIUaNZfw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Passing Mastery: Crossface + Underhook Control to Smash Half…</strong> · 4:01 · <a href="https://www.youtube.com/watch?v=A__mIUaNZfw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

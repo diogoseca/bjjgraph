@@ -192,8 +192,8 @@ description: "Master the Knee Through from Quarter Guard attack. Step-by-step gu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee slide to mount with Coach Matt",
-      "description": "Knee Through from Quarter (Attacker) film study: Knee slide to mount with Coach Matt.",
+      "name": "Knee slide to mount",
+      "description": "Knee Through from Quarter (Attacker) film study: Knee slide to mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MHkLdz5_qsw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MHkLdz5_qsw",
       "url": "https://www.youtube.com/watch?v=MHkLdz5_qsw",
@@ -227,7 +227,7 @@ Executing the Knee Through from Quarter Guard requires converting established up
 
 ![](https://www.youtube.com/watch?v=MHkLdz5_qsw)
 
-<p class="clip-credit"><strong>Knee slide to mount with Coach Matt</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=MHkLdz5_qsw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee slide to mount</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=MHkLdz5_qsw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

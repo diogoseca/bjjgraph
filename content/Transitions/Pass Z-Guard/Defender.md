@@ -152,8 +152,8 @@ description: "Complete defensive guide against the Z-Guard pass. Recognition cue
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee Shield Guard Retention  Concepts | Cobrinha BJJ",
-      "description": "Pass Z-Guard (Defender) film study: Knee Shield Guard Retention  Concepts | Cobrinha BJJ.",
+      "name": "Knee Shield Guard Retention Concepts | BJJ",
+      "description": "Pass Z-Guard (Defender) film study: Knee Shield Guard Retention Concepts | BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aL8RfesQL5k/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aL8RfesQL5k",
       "url": "https://www.youtube.com/watch?v=aL8RfesQL5k",
@@ -187,7 +187,7 @@ As the defender against the Z-Guard pass, your primary objective is maintaining 
 
 ![](https://www.youtube.com/watch?v=aL8RfesQL5k)
 
-<p class="clip-credit"><strong>Knee Shield Guard Retention  Concepts | Cobrinha BJJ</strong> · 4:14 · <a href="https://www.youtube.com/watch?v=aL8RfesQL5k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Shield Guard Retention Concepts | BJJ</strong> · 4:14 · <a href="https://www.youtube.com/watch?v=aL8RfesQL5k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

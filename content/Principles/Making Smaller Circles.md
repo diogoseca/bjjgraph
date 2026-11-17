@@ -154,22 +154,20 @@ description: "Refine a familiar technique by removing unnecessary movement, test
       "@type": "VideoObject",
       "position": 1,
       "name": "Small circle theory explained",
-      "description": "Making Smaller Circles film study: Small circle theory explained, taught by Wally Jay.",
+      "description": "Making Smaller Circles film study: Small circle theory explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/00lR1kpdFzw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/00lR1kpdFzw",
       "url": "https://www.youtube.com/watch?v=00lR1kpdFzw",
-      "creator": { "@type": "Person", "name": "Wally Jay" },
       "duration": "PT593S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Small circle wrist lock explanation",
-      "description": "Making Smaller Circles film study: Small circle wrist lock explanation, taught by Small Circle Jujitsu.",
+      "description": "Making Smaller Circles film study: Small circle wrist lock explanation.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Undhayz2z8Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Undhayz2z8Y",
       "url": "https://www.youtube.com/watch?v=Undhayz2z8Y",
-      "creator": { "@type": "Person", "name": "Small Circle Jujitsu" },
       "duration": "PT22S"
     }
   ]
@@ -199,7 +197,7 @@ Pick a technique you can already attempt and locate the step that fails. Change 
 
 ![](https://www.youtube.com/watch?v=00lR1kpdFzw)
 
-<p class="clip-credit"><strong>Small circle theory explained</strong> — taught by Wally Jay · 9:53 · <a href="https://www.youtube.com/watch?v=00lR1kpdFzw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Small circle theory explained</strong> · 9:53 · <a href="https://www.youtube.com/watch?v=00lR1kpdFzw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -207,7 +205,7 @@ Pick a technique you can already attempt and locate the step that fails. Change 
 
 ![](https://www.youtube.com/watch?v=Undhayz2z8Y)
 
-<p class="clip-credit"><strong>Small circle wrist lock explanation</strong> — taught by Small Circle Jujitsu · 0:22 · <a href="https://www.youtube.com/watch?v=Undhayz2z8Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Small circle wrist lock explanation</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=Undhayz2z8Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

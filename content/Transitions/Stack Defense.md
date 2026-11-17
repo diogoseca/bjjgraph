@@ -56,8 +56,8 @@ description: "Learn Stack Defense in BJJ. Counter stack passes with frame manage
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "16_P1_Matt Sera Nogi - Defending Stack Pass",
-      "description": "Stack Defense film study: 16_P1_Matt Sera Nogi - Defending Stack Pass.",
+      "name": "16_P1_Nogi - Defending Stack Pass",
+      "description": "Stack Defense film study: 16_P1_Nogi - Defending Stack Pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Y6R29wW_KrU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Y6R29wW_KrU",
       "url": "https://www.youtube.com/watch?v=Y6R29wW_KrU",
@@ -125,7 +125,7 @@ This technique is critical for guard players at all levels, as the stack pass re
 
 ![](https://www.youtube.com/watch?v=Y6R29wW_KrU)
 
-<p class="clip-credit"><strong>16_P1_Matt Sera Nogi - Defending Stack Pass</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=Y6R29wW_KrU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>16_P1_Nogi - Defending Stack Pass</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=Y6R29wW_KrU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

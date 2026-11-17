@@ -186,8 +186,8 @@ description: "Master the half guard flattening technique to neutralize bottom pl
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Craig Jones: Shallow Cross Face",
-      "description": "Half Guard to Flattened Half Guard (Attacker) film study: Craig Jones: Shallow Cross Face.",
+      "name": "Shallow Cross Face",
+      "description": "Half Guard to Flattened Half Guard (Attacker) film study: Shallow Cross Face.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PTe4-NhLXf8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PTe4-NhLXf8",
       "url": "https://www.youtube.com/watch?v=PTe4-NhLXf8",
@@ -221,7 +221,7 @@ As the top player in half guard, your ability to systematically flatten your opp
 
 ![](https://www.youtube.com/watch?v=PTe4-NhLXf8)
 
-<p class="clip-credit"><strong>Craig Jones: Shallow Cross Face</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shallow Cross Face</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

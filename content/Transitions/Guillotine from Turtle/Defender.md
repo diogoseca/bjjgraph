@@ -160,8 +160,8 @@ description: "How to defend against Guillotine from Turtle in BJJ. Recognition c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mark Mullen Brazilian Jiu-jitsu - Countering the guillotine from turtle",
-      "description": "Guillotine from Turtle (Defender) film study: Mark Mullen Brazilian Jiu-jitsu - Countering the guillotine from turtle.",
+      "name": "Brazilian Jiu-jitsu - Countering the guillotine from turtle",
+      "description": "Guillotine from Turtle (Defender) film study: Brazilian Jiu-jitsu - Countering the guillotine from turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1VUjQZwegPc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1VUjQZwegPc",
       "url": "https://www.youtube.com/watch?v=1VUjQZwegPc",
@@ -207,7 +207,7 @@ The defensive framework operates on a timeline: early recognition allows posture
 
 ![](https://www.youtube.com/watch?v=1VUjQZwegPc)
 
-<p class="clip-credit"><strong>Mark Mullen Brazilian Jiu-jitsu - Countering the guillotine from turtle</strong> · 4:17 · <a href="https://www.youtube.com/watch?v=1VUjQZwegPc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Brazilian Jiu-jitsu - Countering the guillotine from turtle</strong> · 4:17 · <a href="https://www.youtube.com/watch?v=1VUjQZwegPc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

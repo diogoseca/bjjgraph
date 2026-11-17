@@ -46,8 +46,8 @@ description: "Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm i
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Laura Sanko MMA Demo | Straight Armbar From Inverted Crucifix",
-      "description": "Mounted Crucifix Armbar from Mounted Crucifix film study: Laura Sanko MMA Demo | Straight Armbar From Inverted Crucifix.",
+      "name": "MMA Demo | Straight Armbar From Inverted Crucifix",
+      "description": "Mounted Crucifix Armbar from Mounted Crucifix film study: MMA Demo | Straight Armbar From Inverted Crucifix.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hISwyzfmQr0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hISwyzfmQr0",
       "url": "https://www.youtube.com/watch?v=hISwyzfmQr0",
@@ -123,7 +123,7 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 
 ![](https://www.youtube.com/watch?v=hISwyzfmQr0)
 
-<p class="clip-credit"><strong>Laura Sanko MMA Demo | Straight Armbar From Inverted Crucifix</strong> · 4:41 · <a href="https://www.youtube.com/watch?v=hISwyzfmQr0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>MMA Demo | Straight Armbar From Inverted Crucifix</strong> · 4:41 · <a href="https://www.youtube.com/watch?v=hISwyzfmQr0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

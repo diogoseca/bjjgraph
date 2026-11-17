@@ -47,33 +47,30 @@ description: "The Hindulotine is Ben Eddy's leg-in guillotine from Hindu Control
       "@type": "VideoObject",
       "position": 1,
       "name": "Hindulotine Breakdown",
-      "description": "Hindulotine film study: Hindulotine Breakdown, taught by Ben Eddy.",
+      "description": "Hindulotine film study: Hindulotine Breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YbOV4vESByc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YbOV4vESByc",
       "url": "https://www.youtube.com/watch?v=YbOV4vESByc",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
       "duration": "PT97S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Hindulotine Finish",
-      "description": "Hindulotine film study: Hindulotine Finish, taught by Ben Eddy.",
+      "description": "Hindulotine film study: Hindulotine Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6UwoAQt6u6o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6UwoAQt6u6o",
       "url": "https://www.youtube.com/watch?v=6UwoAQt6u6o",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
       "duration": "PT60S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Easy Hindulotine Variation",
-      "description": "Hindulotine film study: Easy Hindulotine Variation, taught by Danny Mitchell.",
+      "description": "Hindulotine film study: Easy Hindulotine Variation.",
       "thumbnailUrl": "https://i.ytimg.com/vi/99Mq930QVfY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/99Mq930QVfY",
       "url": "https://www.youtube.com/watch?v=99Mq930QVfY",
-      "creator": { "@type": "Person", "name": "Danny Mitchell" },
       "duration": "PT159S"
     }
   ]
@@ -144,7 +141,7 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 
 ![](https://www.youtube.com/watch?v=YbOV4vESByc)
 
-<p class="clip-credit"><strong>Hindulotine Breakdown</strong> — taught by Ben Eddy · 1:37 · <a href="https://www.youtube.com/watch?v=YbOV4vESByc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Hindulotine Breakdown</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=YbOV4vESByc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -152,7 +149,7 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 
 ![](https://www.youtube.com/watch?v=6UwoAQt6u6o)
 
-<p class="clip-credit"><strong>Hindulotine Finish</strong> — taught by Ben Eddy · 1:00 · <a href="https://www.youtube.com/watch?v=6UwoAQt6u6o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Hindulotine Finish</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=6UwoAQt6u6o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -160,7 +157,7 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 
 ![](https://www.youtube.com/watch?v=99Mq930QVfY)
 
-<p class="clip-credit"><strong>Easy Hindulotine Variation</strong> — taught by Danny Mitchell · 2:39 · <a href="https://www.youtube.com/watch?v=99Mq930QVfY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Easy Hindulotine Variation</strong> · 2:39 · <a href="https://www.youtube.com/watch?v=99Mq930QVfY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -154,8 +154,8 @@ description: "Defend the Buggy Choke while passing half guard: keep your head up
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Who\u0027s Next Ep. 5 | How To Defend the Buggy Choke, with Jansen Gomes",
-      "description": "Buggy Choke (Defender) film study: Who\u0027s Next Ep. 5 | How To Defend the Buggy Choke, with Jansen Gomes.",
+      "name": "Who\u0027s Next Ep. 5 | How To Defend the Buggy Choke",
+      "description": "Buggy Choke (Defender) film study: Who\u0027s Next Ep. 5 | How To Defend the Buggy Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Huv5wYwC3_o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Huv5wYwC3_o",
       "url": "https://www.youtube.com/watch?v=Huv5wYwC3_o",
@@ -200,7 +200,7 @@ As the defender you are the top player passing half guard, and the Buggy Choke p
 
 ![](https://www.youtube.com/watch?v=Huv5wYwC3_o)
 
-<p class="clip-credit"><strong>Who&#39;s Next Ep. 5 | How To Defend the Buggy Choke, with Jansen Gomes</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=Huv5wYwC3_o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Who&#39;s Next Ep. 5 | How To Defend the Buggy Choke</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=Huv5wYwC3_o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

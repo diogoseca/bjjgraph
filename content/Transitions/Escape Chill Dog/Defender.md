@@ -161,22 +161,20 @@ description: "Escape Chill Dog (defender): Keep the free hand available for fram
       "@type": "VideoObject",
       "position": 1,
       "name": "Retaining Chill Dog into the Omoplata attack",
-      "description": "Escape Chill Dog (Defender) film study: Retaining Chill Dog into the Omoplata attack, taught by Marshall Stamper.",
+      "description": "Escape Chill Dog (Defender) film study: Retaining Chill Dog into the Omoplata attack.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2zillrf6gGs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2zillrf6gGs",
       "url": "https://www.youtube.com/watch?v=2zillrf6gGs",
-      "creator": { "@type": "Person", "name": "Marshall Stamper" },
       "duration": "PT195S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Breaking the half guard to shut down rubber guard",
-      "description": "Escape Chill Dog (Defender) film study: Breaking the half guard to shut down rubber guard, taught by 10th Planet Jiu Jitsu West LA.",
+      "description": "Escape Chill Dog (Defender) film study: Breaking the half guard to shut down rubber guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JZ-h0ohQTvA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JZ-h0ohQTvA",
       "url": "https://www.youtube.com/watch?v=JZ-h0ohQTvA",
-      "creator": { "@type": "Person", "name": "10th Planet Jiu Jitsu West LA" },
       "duration": "PT42S"
     }
   ]
@@ -213,7 +211,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=2zillrf6gGs)
 
-<p class="clip-credit"><strong>Retaining Chill Dog into the Omoplata attack</strong> — taught by Marshall Stamper · 3:15 · <a href="https://www.youtube.com/watch?v=2zillrf6gGs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Retaining Chill Dog into the Omoplata attack</strong> · 3:15 · <a href="https://www.youtube.com/watch?v=2zillrf6gGs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -221,7 +219,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=JZ-h0ohQTvA)
 
-<p class="clip-credit"><strong>Breaking the half guard to shut down rubber guard</strong> — taught by 10th Planet Jiu Jitsu West LA · 0:42 · <a href="https://www.youtube.com/watch?v=JZ-h0ohQTvA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Breaking the half guard to shut down rubber guard</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=JZ-h0ohQTvA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

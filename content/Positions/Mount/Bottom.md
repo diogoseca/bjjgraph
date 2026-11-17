@@ -168,33 +168,30 @@ description: "Master defensive strategies from bottom Mount in BJJ. Learn system
       "@type": "VideoObject",
       "position": 1,
       "name": "2 Mount Escape Options to Half Guard",
-      "description": "Mount (Bottom) film study: 2 Mount Escape Options to Half Guard, taught by Revolution BJJ.",
+      "description": "Mount (Bottom) film study: 2 Mount Escape Options to Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cyegyon5hVg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cyegyon5hVg",
       "url": "https://www.youtube.com/watch?v=cyegyon5hVg",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
       "duration": "PT53S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "How to Escape the Mount: Knee and Elbow Escape",
-      "description": "Mount (Bottom) film study: How to Escape the Mount: Knee and Elbow Escape, taught by Jamie.",
+      "description": "Mount (Bottom) film study: How to Escape the Mount: Knee and Elbow Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pUZcLTWHAzk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pUZcLTWHAzk",
       "url": "https://www.youtube.com/watch?v=pUZcLTWHAzk",
-      "creator": { "@type": "Person", "name": "Jamie" },
       "duration": "PT71S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Can\u0027t Escape the Mount? Try this Escape Next Time!",
-      "description": "Mount (Bottom) film study: Can\u0027t Escape the Mount? Try this Escape Next Time!, taught by Gabriel Gonzaga.",
+      "description": "Mount (Bottom) film study: Can\u0027t Escape the Mount? Try this Escape Next Time!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
       "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
-      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
       "duration": "PT93S"
     }
   ]
@@ -237,7 +234,7 @@ Energy management is the hidden variable in mount defense. The top player expend
 
 ![](https://www.youtube.com/watch?v=cyegyon5hVg)
 
-<p class="clip-credit"><strong>2 Mount Escape Options to Half Guard</strong> — taught by Revolution BJJ · 0:53 · <a href="https://www.youtube.com/watch?v=cyegyon5hVg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>2 Mount Escape Options to Half Guard</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=cyegyon5hVg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -245,7 +242,7 @@ Energy management is the hidden variable in mount defense. The top player expend
 
 ![](https://www.youtube.com/watch?v=pUZcLTWHAzk)
 
-<p class="clip-credit"><strong>How to Escape the Mount: Knee and Elbow Escape</strong> — taught by Jamie · 1:11 · <a href="https://www.youtube.com/watch?v=pUZcLTWHAzk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Escape the Mount: Knee and Elbow Escape</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=pUZcLTWHAzk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -253,7 +250,7 @@ Energy management is the hidden variable in mount defense. The top player expend
 
 ![](https://www.youtube.com/watch?v=9252EvCT0q4)
 
-<p class="clip-credit"><strong>Can&#39;t Escape the Mount? Try this Escape Next Time!</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Can&#39;t Escape the Mount? Try this Escape Next Time!</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

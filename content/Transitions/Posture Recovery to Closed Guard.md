@@ -47,22 +47,20 @@ description: "Posture recovery from Crackhead Control opens the two-leg high cli
       "@type": "VideoObject",
       "position": 1,
       "name": "Turtle to closed guard recovery",
-      "description": "Posture Recovery to Closed Guard film study: Turtle to closed guard recovery, taught by Revolution BJJ Ashland.",
+      "description": "Posture Recovery to Closed Guard film study: Turtle to closed guard recovery.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8i0nvpE4aAI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8i0nvpE4aAI",
       "url": "https://www.youtube.com/watch?v=8i0nvpE4aAI",
-      "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
       "duration": "PT50S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Recovering guard from the turtle position",
-      "description": "Posture Recovery to Closed Guard film study: Recovering guard from the turtle position, taught by Gracie Barra.",
+      "description": "Posture Recovery to Closed Guard film study: Recovering guard from the turtle position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PYk5Ei2IZBk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PYk5Ei2IZBk",
       "url": "https://www.youtube.com/watch?v=PYk5Ei2IZBk",
-      "creator": { "@type": "Person", "name": "Gracie Barra" },
       "duration": "PT53S"
     }
   ]
@@ -121,7 +119,7 @@ Instructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplane
 
 ![](https://www.youtube.com/watch?v=8i0nvpE4aAI)
 
-<p class="clip-credit"><strong>Turtle to closed guard recovery</strong> — taught by Revolution BJJ Ashland · 0:50 · <a href="https://www.youtube.com/watch?v=8i0nvpE4aAI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle to closed guard recovery</strong> · 0:50 · <a href="https://www.youtube.com/watch?v=8i0nvpE4aAI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -129,7 +127,7 @@ Instructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplane
 
 ![](https://www.youtube.com/watch?v=PYk5Ei2IZBk)
 
-<p class="clip-credit"><strong>Recovering guard from the turtle position</strong> — taught by Gracie Barra · 0:53 · <a href="https://www.youtube.com/watch?v=PYk5Ei2IZBk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Recovering guard from the turtle position</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=PYk5Ei2IZBk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

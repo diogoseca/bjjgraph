@@ -154,21 +154,19 @@ description: "Use controlled contact, body rotation, and lever position to redir
       "@type": "VideoObject",
       "position": 1,
       "name": "Three Kimura finishing mechanics",
-      "description": "Torque film study: Three Kimura finishing mechanics, taught by Stephan Kesting.",
+      "description": "Torque film study: Three Kimura finishing mechanics.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Xtwg59n7Yls/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Xtwg59n7Yls",
-      "url": "https://www.youtube.com/watch?v=Xtwg59n7Yls",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" }
+      "url": "https://www.youtube.com/watch?v=Xtwg59n7Yls"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "The physics behind jiu-jitsu leverage",
-      "description": "Torque film study: The physics behind jiu-jitsu leverage, taught by Jan Trauer.",
+      "description": "Torque film study: The physics behind jiu-jitsu leverage.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ciV2utFcCPw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ciV2utFcCPw",
       "url": "https://www.youtube.com/watch?v=ciV2utFcCPw",
-      "creator": { "@type": "Person", "name": "Jan Trauer" },
       "duration": "PT186S"
     }
   ]
@@ -198,7 +196,7 @@ Identify what should turn and which contacts support that movement. For joint at
 
 ![](https://www.youtube.com/watch?v=Xtwg59n7Yls)
 
-<p class="clip-credit"><strong>Three Kimura finishing mechanics</strong> — taught by Stephan Kesting · <a href="https://www.youtube.com/watch?v=Xtwg59n7Yls" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Three Kimura finishing mechanics</strong> · <a href="https://www.youtube.com/watch?v=Xtwg59n7Yls" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -206,7 +204,7 @@ Identify what should turn and which contacts support that movement. For joint at
 
 ![](https://www.youtube.com/watch?v=ciV2utFcCPw)
 
-<p class="clip-credit"><strong>The physics behind jiu-jitsu leverage</strong> — taught by Jan Trauer · 3:06 · <a href="https://www.youtube.com/watch?v=ciV2utFcCPw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The physics behind jiu-jitsu leverage</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=ciV2utFcCPw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -153,22 +153,20 @@ description: "Posture Recovery from Carni (defender): Use the guard and shoulder
       "@type": "VideoObject",
       "position": 1,
       "name": "Jackie Chan and 411 leg entanglement breakdown",
-      "description": "Posture Recovery from Carni (Defender) film study: Jackie Chan and 411 leg entanglement breakdown, taught by 10th Planet Orange Park.",
+      "description": "Posture Recovery from Carni (Defender) film study: Jackie Chan and 411 leg entanglement breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R4K-UU_bUZQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/R4K-UU_bUZQ",
       "url": "https://www.youtube.com/watch?v=R4K-UU_bUZQ",
-      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
       "duration": "PT75S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Polishing the meat hook rubber guard control",
-      "description": "Posture Recovery from Carni (Defender) film study: Polishing the meat hook rubber guard control, taught by Eddie Bravo.",
+      "description": "Posture Recovery from Carni (Defender) film study: Polishing the meat hook rubber guard control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/h6o7-9u4NHo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/h6o7-9u4NHo",
       "url": "https://www.youtube.com/watch?v=h6o7-9u4NHo",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     }
   ]
@@ -207,7 +205,7 @@ As the shoulder clamp opens, rebuild guard retention with a frame on the side of
 
 ![](https://www.youtube.com/watch?v=R4K-UU_bUZQ)
 
-<p class="clip-credit"><strong>Jackie Chan and 411 leg entanglement breakdown</strong> — taught by 10th Planet Orange Park · 1:15 · <a href="https://www.youtube.com/watch?v=R4K-UU_bUZQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jackie Chan and 411 leg entanglement breakdown</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=R4K-UU_bUZQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -215,7 +213,7 @@ As the shoulder clamp opens, rebuild guard retention with a frame on the side of
 
 ![](https://www.youtube.com/watch?v=h6o7-9u4NHo)
 
-<p class="clip-credit"><strong>Polishing the meat hook rubber guard control</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=h6o7-9u4NHo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Polishing the meat hook rubber guard control</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=h6o7-9u4NHo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

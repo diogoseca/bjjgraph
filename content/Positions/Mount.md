@@ -48,12 +48,11 @@ description: "Master the Mount position in BJJ. Complete guide to control, submi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Fix Your BJJ Mount Control - ROGER GRACIE Style",
-      "description": "Mount film study: Fix Your BJJ Mount Control - ROGER GRACIE Style, taught by MMA Leech.",
+      "name": "Fix Your BJJ Mount Control",
+      "description": "Mount film study: Fix Your BJJ Mount Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5Gxj5VQj8bc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5Gxj5VQj8bc",
       "url": "https://www.youtube.com/watch?v=5Gxj5VQj8bc",
-      "creator": { "@type": "Person", "name": "MMA Leech" },
       "duration": "PT184S"
     }
   ]
@@ -115,7 +114,7 @@ Understanding Mount from both perspectives is essential for complete grappling d
 
 ![](https://www.youtube.com/watch?v=5Gxj5VQj8bc)
 
-<p class="clip-credit"><strong>Fix Your BJJ Mount Control - ROGER GRACIE Style</strong> — taught by MMA Leech · 3:04 · <a href="https://www.youtube.com/watch?v=5Gxj5VQj8bc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Fix Your BJJ Mount Control</strong> · 3:04 · <a href="https://www.youtube.com/watch?v=5Gxj5VQj8bc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

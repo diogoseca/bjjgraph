@@ -160,8 +160,8 @@ description: "How to defend against Mir Lock in BJJ. Recognition, escape paths, 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Corey - Defend Mir Lock and escape half guard",
-      "description": "Mir Lock from Side Control (Defender) film study: Corey - Defend Mir Lock and escape half guard.",
+      "name": "Defend Mir Lock and escape half guard",
+      "description": "Mir Lock from Side Control (Defender) film study: Defend Mir Lock and escape half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/URSGCnHSVVY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/URSGCnHSVVY",
       "url": "https://www.youtube.com/watch?v=URSGCnHSVVY",
@@ -196,7 +196,7 @@ Defending the Mir Lock requires early recognition and immediate preventive actio
 
 ![](https://www.youtube.com/watch?v=URSGCnHSVVY)
 
-<p class="clip-credit"><strong>Corey - Defend Mir Lock and escape half guard</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=URSGCnHSVVY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defend Mir Lock and escape half guard</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=URSGCnHSVVY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

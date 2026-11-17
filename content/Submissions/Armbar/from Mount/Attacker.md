@@ -190,8 +190,8 @@ description: "How to execute Armbar from Mount in BJJ. Attacking perspective wit
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Relson Gracie teaches armbar at Balance Studios in Philadelphia",
-      "description": "Armbar from Mount (Attacker) film study: Relson Gracie teaches armbar at Balance Studios in Philadelphia.",
+      "name": "Armbar at Balance Studios in Philadelphia",
+      "description": "Armbar from Mount (Attacker) film study: Armbar at Balance Studios in Philadelphia.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R2-h9yOwRdU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/R2-h9yOwRdU",
       "url": "https://www.youtube.com/watch?v=R2-h9yOwRdU",
@@ -234,7 +234,7 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 ![](https://www.youtube.com/watch?v=R2-h9yOwRdU)
 
-<p class="clip-credit"><strong>Relson Gracie teaches armbar at Balance Studios in Philadelphia</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=R2-h9yOwRdU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar at Balance Studios in Philadelphia</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=R2-h9yOwRdU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

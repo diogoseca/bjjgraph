@@ -154,22 +154,20 @@ description: "Competition mindset keeps attention on useful decisions, preparati
       "@type": "VideoObject",
       "position": 1,
       "name": "Overcoming fear of competition, the plank story",
-      "description": "Competition Mindset film study: Overcoming fear of competition, the plank story, taught by MartialMindset.",
+      "description": "Competition Mindset film study: Overcoming fear of competition, the plank story.",
       "thumbnailUrl": "https://i.ytimg.com/vi/itkTbAJhMY4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/itkTbAJhMY4",
       "url": "https://www.youtube.com/watch?v=itkTbAJhMY4",
-      "creator": { "@type": "Person", "name": "MartialMindset" },
       "duration": "PT88S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Mental preparation for matches and tournaments",
-      "description": "Competition Mindset film study: Mental preparation for matches and tournaments, taught by Gordon Ryan.",
+      "description": "Competition Mindset film study: Mental preparation for matches and tournaments.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1MmBdy70dN0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1MmBdy70dN0",
       "url": "https://www.youtube.com/watch?v=1MmBdy70dN0",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT700S"
     }
   ]
@@ -199,7 +197,7 @@ Use a familiar preparation routine and one clear cue for the next exchange. Afte
 
 ![](https://www.youtube.com/watch?v=itkTbAJhMY4)
 
-<p class="clip-credit"><strong>Overcoming fear of competition, the plank story</strong> — taught by MartialMindset · 1:28 · <a href="https://www.youtube.com/watch?v=itkTbAJhMY4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Overcoming fear of competition, the plank story</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=itkTbAJhMY4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -207,7 +205,7 @@ Use a familiar preparation routine and one clear cue for the next exchange. Afte
 
 ![](https://www.youtube.com/watch?v=1MmBdy70dN0)
 
-<p class="clip-credit"><strong>Mental preparation for matches and tournaments</strong> — taught by Gordon Ryan · 11:40 · <a href="https://www.youtube.com/watch?v=1MmBdy70dN0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mental preparation for matches and tournaments</strong> · 11:40 · <a href="https://www.youtube.com/watch?v=1MmBdy70dN0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

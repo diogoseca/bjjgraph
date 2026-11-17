@@ -154,43 +154,39 @@ description: "Use hand placement, grip breaks, and footwork to gain upper-body c
       "@type": "VideoObject",
       "position": 1,
       "name": "Break a grip, make a grip",
-      "description": "Hand Fighting film study: Break a grip, make a grip, taught by Rory Van Vliet.",
+      "description": "Hand Fighting film study: Break a grip, make a grip.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2ejgcBAfnTg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2ejgcBAfnTg",
-      "url": "https://www.youtube.com/watch?v=2ejgcBAfnTg",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=2ejgcBAfnTg"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Gripping and hand fighting fundamentals",
-      "description": "Hand Fighting film study: Gripping and hand fighting fundamentals, taught by John Danaher.",
+      "description": "Hand Fighting film study: Gripping and hand fighting fundamentals.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yquAL8CBldY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yquAL8CBldY",
       "url": "https://www.youtube.com/watch?v=yquAL8CBldY",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT243S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Inside position: winning the hand fight",
-      "description": "Hand Fighting film study: Inside position: winning the hand fight, taught by Jordan Preisinger.",
+      "description": "Hand Fighting film study: Inside position: winning the hand fight.",
       "thumbnailUrl": "https://i.ytimg.com/vi/peYJDb7LZMM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/peYJDb7LZMM",
       "url": "https://www.youtube.com/watch?v=peYJDb7LZMM",
-      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
       "duration": "PT499S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Hand fighting concepts for short offense",
-      "description": "Hand Fighting film study: Hand fighting concepts for short offense, taught by JFLO Judo.",
+      "description": "Hand Fighting film study: Hand fighting concepts for short offense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pzJ24HqY-Bg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pzJ24HqY-Bg",
       "url": "https://www.youtube.com/watch?v=pzJ24HqY-Bg",
-      "creator": { "@type": "Person", "name": "JFLO Judo" },
       "duration": "PT90S"
     }
   ]
@@ -220,7 +216,7 @@ Choose a control that serves your next move: an underhook, a sleeve grip, or a f
 
 ![](https://www.youtube.com/watch?v=2ejgcBAfnTg)
 
-<p class="clip-credit"><strong>Break a grip, make a grip</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=2ejgcBAfnTg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Break a grip, make a grip</strong> · <a href="https://www.youtube.com/watch?v=2ejgcBAfnTg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Choose a control that serves your next move: an underhook, a sleeve grip, or a f
 
 ![](https://www.youtube.com/watch?v=yquAL8CBldY)
 
-<p class="clip-credit"><strong>Gripping and hand fighting fundamentals</strong> — taught by John Danaher · 4:03 · <a href="https://www.youtube.com/watch?v=yquAL8CBldY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gripping and hand fighting fundamentals</strong> · 4:03 · <a href="https://www.youtube.com/watch?v=yquAL8CBldY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Choose a control that serves your next move: an underhook, a sleeve grip, or a f
 
 ![](https://www.youtube.com/watch?v=peYJDb7LZMM)
 
-<p class="clip-credit"><strong>Inside position: winning the hand fight</strong> — taught by Jordan Preisinger · 8:19 · <a href="https://www.youtube.com/watch?v=peYJDb7LZMM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inside position: winning the hand fight</strong> · 8:19 · <a href="https://www.youtube.com/watch?v=peYJDb7LZMM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Choose a control that serves your next move: an underhook, a sleeve grip, or a f
 
 ![](https://www.youtube.com/watch?v=pzJ24HqY-Bg)
 
-<p class="clip-credit"><strong>Hand fighting concepts for short offense</strong> — taught by JFLO Judo · 1:30 · <a href="https://www.youtube.com/watch?v=pzJ24HqY-Bg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Hand fighting concepts for short offense</strong> · 1:30 · <a href="https://www.youtube.com/watch?v=pzJ24HqY-Bg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

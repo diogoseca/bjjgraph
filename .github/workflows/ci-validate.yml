@@ -291,6 +291,11 @@ jobs:
       - name: Systems and concepts payload contract
         run: python3 scripts/check_systems_payload.py
 
+      # NO NAMES (v1.288.0, owner U195 a + U196 b): no clip credit line, no JSON-LD creator in the committed
+      # generated Markdown, and no `by` on any clip of the payload just emitted. Positive counts, fails on 0.
+      - name: No person's name in clip credits, structured data or the payload
+        run: python3 scripts/check_no_names.py
+
       # Pure-unit suites (node --test, no browser, no build, ~4s): the share-link wire codec, the
       # neural deck-hydration contract, and the FLOW selfcheck. Separate from the Playwright
       # gates. Needs the payload above — see the ordering note there before moving either step.

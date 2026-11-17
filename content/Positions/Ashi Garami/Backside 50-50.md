@@ -46,8 +46,8 @@ description: "Master Backside 50-50 in BJJ. Strategic guide covering leg entangl
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lachlan Giles Roll under to backside 50/50.",
-      "description": "Backside 50-50 film study: Lachlan Giles Roll under to backside 50/50..",
+      "name": "Roll under to backside 50/50.",
+      "description": "Backside 50-50 film study: Roll under to backside 50/50..",
       "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
       "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
@@ -114,7 +114,7 @@ Entries can develop during 50-50 or other leg-entanglement exchanges when the op
 
 ![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
 
-<p class="clip-credit"><strong>Lachlan Giles Roll under to backside 50/50.</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Roll under to backside 50/50.</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

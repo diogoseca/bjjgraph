@@ -47,22 +47,20 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
       "@type": "VideoObject",
       "position": 1,
       "name": "Top Side Mir Lock (Shoulder Submission) No-Gi",
-      "description": "Mir Lock film study: Top Side Mir Lock (Shoulder Submission) No-Gi, taught by ZombieProofBJJ.",
+      "description": "Mir Lock film study: Top Side Mir Lock (Shoulder Submission) No-Gi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6IVQPq5BJZ0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6IVQPq5BJZ0",
       "url": "https://www.youtube.com/watch?v=6IVQPq5BJZ0",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
       "duration": "PT83S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Knee Shield Series - Mir Lock",
-      "description": "Mir Lock film study: Knee Shield Series - Mir Lock, taught by TAPS BJJ.",
+      "description": "Mir Lock film study: Knee Shield Series - Mir Lock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8dFph1erRNE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8dFph1erRNE",
       "url": "https://www.youtube.com/watch?v=8dFph1erRNE",
-      "creator": { "@type": "Person", "name": "TAPS BJJ" },
       "duration": "PT168S"
     }
   ]
@@ -127,7 +125,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 ![](https://www.youtube.com/watch?v=6IVQPq5BJZ0)
 
-<p class="clip-credit"><strong>Top Side Mir Lock (Shoulder Submission) No-Gi</strong> — taught by ZombieProofBJJ · 1:23 · <a href="https://www.youtube.com/watch?v=6IVQPq5BJZ0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Top Side Mir Lock (Shoulder Submission) No-Gi</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=6IVQPq5BJZ0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -135,7 +133,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 ![](https://www.youtube.com/watch?v=8dFph1erRNE)
 
-<p class="clip-credit"><strong>Knee Shield Series - Mir Lock</strong> — taught by TAPS BJJ · 2:48 · <a href="https://www.youtube.com/watch?v=8dFph1erRNE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Shield Series - Mir Lock</strong> · 2:48 · <a href="https://www.youtube.com/watch?v=8dFph1erRNE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

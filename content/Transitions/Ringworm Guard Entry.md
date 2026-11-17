@@ -46,8 +46,8 @@ description: "Master Ringworm Guard Entry in BJJ. Advanced lapel configuration c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Set Up the Ringworm Guard Gary Berger",
-      "description": "Ringworm Guard Entry film study: How to Set Up the Ringworm Guard Gary Berger.",
+      "name": "How to Set Up the Ringworm Guard",
+      "description": "Ringworm Guard Entry film study: How to Set Up the Ringworm Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DFoCy86fsds/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DFoCy86fsds?start=41",
       "url": "https://www.youtube.com/watch?v=DFoCy86fsds",
@@ -107,7 +107,7 @@ From a game theory perspective, ringworm represents an investment position. The 
 
 ![](https://www.youtube.com/watch?v=DFoCy86fsds&start=41)
 
-<p class="clip-credit"><strong>How to Set Up the Ringworm Guard Gary Berger</strong> · 7:02 · <a href="https://www.youtube.com/watch?v=DFoCy86fsds&t=41s" rel="noopener">Watch on YouTube from 0:41</a></p>
+<p class="clip-credit"><strong>How to Set Up the Ringworm Guard</strong> · 7:02 · <a href="https://www.youtube.com/watch?v=DFoCy86fsds&t=41s" rel="noopener">Watch on YouTube from 0:41</a></p>
 
 </div>
 

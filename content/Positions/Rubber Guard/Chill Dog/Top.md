@@ -148,22 +148,20 @@ description: "Chill Dog top perspective: Keep the free hand available for framin
       "@type": "VideoObject",
       "position": 1,
       "name": "Taking the back from turtle side ride",
-      "description": "Chill Dog (Top) film study: Taking the back from turtle side ride, taught by Robyn Sheehan.",
+      "description": "Chill Dog (Top) film study: Taking the back from turtle side ride.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fVp3cJSjOfc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fVp3cJSjOfc",
       "url": "https://www.youtube.com/watch?v=fVp3cJSjOfc",
-      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
       "duration": "PT178S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Entries into rear triangle back position",
-      "description": "Chill Dog (Top) film study: Entries into rear triangle back position, taught by John Danaher.",
+      "description": "Chill Dog (Top) film study: Entries into rear triangle back position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-lMabjvtaLk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-lMabjvtaLk",
       "url": "https://www.youtube.com/watch?v=-lMabjvtaLk",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT252S"
     }
   ]
@@ -198,7 +196,7 @@ New York supplies the arm isolation; clearing the neck changes the controlling h
 
 ![](https://www.youtube.com/watch?v=fVp3cJSjOfc)
 
-<p class="clip-credit"><strong>Taking the back from turtle side ride</strong> — taught by Robyn Sheehan · 2:58 · <a href="https://www.youtube.com/watch?v=fVp3cJSjOfc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Taking the back from turtle side ride</strong> · 2:58 · <a href="https://www.youtube.com/watch?v=fVp3cJSjOfc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -206,7 +204,7 @@ New York supplies the arm isolation; clearing the neck changes the controlling h
 
 ![](https://www.youtube.com/watch?v=-lMabjvtaLk)
 
-<p class="clip-credit"><strong>Entries into rear triangle back position</strong> — taught by John Danaher · 4:12 · <a href="https://www.youtube.com/watch?v=-lMabjvtaLk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Entries into rear triangle back position</strong> · 4:12 · <a href="https://www.youtube.com/watch?v=-lMabjvtaLk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

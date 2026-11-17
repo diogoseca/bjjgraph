@@ -161,11 +161,10 @@ description: "Posture Recovery to Closed Guard (defender): Establish the first h
       "@type": "VideoObject",
       "position": 1,
       "name": "Escape the turtle and get safely back to guard",
-      "description": "Posture Recovery to Closed Guard (Defender) film study: Escape the turtle and get safely back to guard, taught by Stephan Kesting.",
+      "description": "Posture Recovery to Closed Guard (Defender) film study: Escape the turtle and get safely back to guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/o55M0DMesfE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/o55M0DMesfE",
       "url": "https://www.youtube.com/watch?v=o55M0DMesfE",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
       "duration": "PT173S"
     }
   ]
@@ -204,7 +203,7 @@ As the high legs lower, use a small hip escape behind an inside arm to return th
 
 ![](https://www.youtube.com/watch?v=o55M0DMesfE)
 
-<p class="clip-credit"><strong>Escape the turtle and get safely back to guard</strong> — taught by Stephan Kesting · 2:53 · <a href="https://www.youtube.com/watch?v=o55M0DMesfE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape the turtle and get safely back to guard</strong> · 2:53 · <a href="https://www.youtube.com/watch?v=o55M0DMesfE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

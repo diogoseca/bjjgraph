@@ -160,8 +160,8 @@ description: "Master defending against Ashi Garami maintenance with systematic e
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond",
-      "description": "Ashi Garami Maintenance (Defender) film study: Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond.",
+      "name": "Escaping Ashi Garami- Leg Lock Defense. 10th Planet Richmond",
+      "description": "Ashi Garami Maintenance (Defender) film study: Escaping Ashi Garami- Leg Lock Defense. 10th Planet Richmond.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
       "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
@@ -195,7 +195,7 @@ Defending against Ashi Garami maintenance requires recognizing the quality of yo
 
 ![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
 
-<p class="clip-credit"><strong>Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Ashi Garami- Leg Lock Defense. 10th Planet Richmond</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

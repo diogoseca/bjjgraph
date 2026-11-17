@@ -47,11 +47,10 @@ description: "Master Anaconda Control in BJJ. Complete guide covering offensive 
       "@type": "VideoObject",
       "position": 1,
       "name": "Difference Between The ANACONDA CHOKE and D\u2019ARCE CHOKE in Jiu Jitsu!",
-      "description": "Anaconda Control film study: Difference Between The ANACONDA CHOKE and D\u2019ARCE CHOKE in Jiu Jitsu!, taught by Matt Arroyo.",
+      "description": "Anaconda Control film study: Difference Between The ANACONDA CHOKE and D\u2019ARCE CHOKE in Jiu Jitsu!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6d6Wkgh9imU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6d6Wkgh9imU",
       "url": "https://www.youtube.com/watch?v=6d6Wkgh9imU",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
       "duration": "PT66S"
     }
   ]
@@ -105,7 +104,7 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 
 ![](https://www.youtube.com/watch?v=6d6Wkgh9imU)
 
-<p class="clip-credit"><strong>Difference Between The ANACONDA CHOKE and D’ARCE CHOKE in Jiu Jitsu!</strong> — taught by Matt Arroyo · 1:06 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Difference Between The ANACONDA CHOKE and D’ARCE CHOKE in Jiu Jitsu!</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

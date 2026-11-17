@@ -154,43 +154,39 @@ description: "Fork attacks maintain two credible threats from one control, allow
       "@type": "VideoObject",
       "position": 1,
       "name": "Open-elbow and closed-elbow attack dilemma",
-      "description": "Fork Attacks film study: Open-elbow and closed-elbow attack dilemma, taught by Gordon Ryan.",
+      "description": "Fork Attacks film study: Open-elbow and closed-elbow attack dilemma.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KPs4zToxj74/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KPs4zToxj74",
-      "url": "https://www.youtube.com/watch?v=KPs4zToxj74",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" }
+      "url": "https://www.youtube.com/watch?v=KPs4zToxj74"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Understanding offense and attack chains from closed guard",
-      "description": "Fork Attacks film study: Understanding offense and attack chains from closed guard, taught by Jon Thomas.",
+      "description": "Fork Attacks film study: Understanding offense and attack chains from closed guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MubbYrvhahY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MubbYrvhahY",
       "url": "https://www.youtube.com/watch?v=MubbYrvhahY",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
       "duration": "PT591S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "A full closed guard attack system",
-      "description": "Fork Attacks film study: A full closed guard attack system, taught by Jon Thomas.",
+      "description": "Fork Attacks film study: A full closed guard attack system.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Z_FBT8ZDSmo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Z_FBT8ZDSmo",
       "url": "https://www.youtube.com/watch?v=Z_FBT8ZDSmo",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
       "duration": "PT498S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Creating dilemmas for your opponent",
-      "description": "Fork Attacks film study: Creating dilemmas for your opponent, taught by Be Strong Personal Training.",
+      "description": "Fork Attacks film study: Creating dilemmas for your opponent.",
       "thumbnailUrl": "https://i.ytimg.com/vi/p8fY7R6Rnu0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/p8fY7R6Rnu0",
       "url": "https://www.youtube.com/watch?v=p8fY7R6Rnu0",
-      "creator": { "@type": "Person", "name": "Be Strong Personal Training" },
       "duration": "PT135S"
     }
   ]
@@ -220,7 +216,7 @@ Build both options from a position you can hold. Read the opponent’s actual de
 
 ![](https://www.youtube.com/watch?v=KPs4zToxj74)
 
-<p class="clip-credit"><strong>Open-elbow and closed-elbow attack dilemma</strong> — taught by Gordon Ryan · <a href="https://www.youtube.com/watch?v=KPs4zToxj74" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Open-elbow and closed-elbow attack dilemma</strong> · <a href="https://www.youtube.com/watch?v=KPs4zToxj74" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Build both options from a position you can hold. Read the opponent’s actual de
 
 ![](https://www.youtube.com/watch?v=MubbYrvhahY)
 
-<p class="clip-credit"><strong>Understanding offense and attack chains from closed guard</strong> — taught by Jon Thomas · 9:51 · <a href="https://www.youtube.com/watch?v=MubbYrvhahY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Understanding offense and attack chains from closed guard</strong> · 9:51 · <a href="https://www.youtube.com/watch?v=MubbYrvhahY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Build both options from a position you can hold. Read the opponent’s actual de
 
 ![](https://www.youtube.com/watch?v=Z_FBT8ZDSmo)
 
-<p class="clip-credit"><strong>A full closed guard attack system</strong> — taught by Jon Thomas · 8:18 · <a href="https://www.youtube.com/watch?v=Z_FBT8ZDSmo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>A full closed guard attack system</strong> · 8:18 · <a href="https://www.youtube.com/watch?v=Z_FBT8ZDSmo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Build both options from a position you can hold. Read the opponent’s actual de
 
 ![](https://www.youtube.com/watch?v=p8fY7R6Rnu0)
 
-<p class="clip-credit"><strong>Creating dilemmas for your opponent</strong> — taught by Be Strong Personal Training · 2:15 · <a href="https://www.youtube.com/watch?v=p8fY7R6Rnu0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Creating dilemmas for your opponent</strong> · 2:15 · <a href="https://www.youtube.com/watch?v=p8fY7R6Rnu0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

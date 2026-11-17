@@ -154,43 +154,39 @@ description: "Base is the support that keeps you balanced as you resist sweeps, 
       "@type": "VideoObject",
       "position": 1,
       "name": "Base control and sweeping",
-      "description": "Base film study: Base control and sweeping, taught by Rory Van Vliet.",
+      "description": "Base film study: Base control and sweeping.",
       "thumbnailUrl": "https://i.ytimg.com/vi/i5UqDfgwn3I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/i5UqDfgwn3I",
-      "url": "https://www.youtube.com/watch?v=i5UqDfgwn3I",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=i5UqDfgwn3I"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "What kuzushi is and how it breaks base",
-      "description": "Base film study: What kuzushi is and how it breaks base, taught by Stephan Kesting.",
+      "description": "Base film study: What kuzushi is and how it breaks base.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Fy9h-dF6dcA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Fy9h-dF6dcA",
       "url": "https://www.youtube.com/watch?v=Fy9h-dF6dcA",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Three core principles: base, posture, structure",
-      "description": "Base film study: Three core principles: base, posture, structure, taught by Joel Snape.",
+      "description": "Base film study: Three core principles: base, posture, structure.",
       "thumbnailUrl": "https://i.ytimg.com/vi/azzYS65sqks/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/azzYS65sqks",
       "url": "https://www.youtube.com/watch?v=azzYS65sqks",
-      "creator": { "@type": "Person", "name": "Joel Snape" },
       "duration": "PT379S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Base and weight concepts for maintaining mount",
-      "description": "Base film study: Base and weight concepts for maintaining mount, taught by Roger Gracie.",
+      "description": "Base film study: Base and weight concepts for maintaining mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Wy6Si0FuQaU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Wy6Si0FuQaU",
       "url": "https://www.youtube.com/watch?v=Wy6Si0FuQaU",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
       "duration": "PT890S"
     }
   ]
@@ -220,7 +216,7 @@ Keep your weight supported as your opponent pushes, pulls, or removes a post. Wi
 
 ![](https://www.youtube.com/watch?v=i5UqDfgwn3I)
 
-<p class="clip-credit"><strong>Base control and sweeping</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=i5UqDfgwn3I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Base control and sweeping</strong> · <a href="https://www.youtube.com/watch?v=i5UqDfgwn3I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Keep your weight supported as your opponent pushes, pulls, or removes a post. Wi
 
 ![](https://www.youtube.com/watch?v=Fy9h-dF6dcA)
 
-<p class="clip-credit"><strong>What kuzushi is and how it breaks base</strong> — taught by Stephan Kesting · 1:01 · <a href="https://www.youtube.com/watch?v=Fy9h-dF6dcA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>What kuzushi is and how it breaks base</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=Fy9h-dF6dcA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Keep your weight supported as your opponent pushes, pulls, or removes a post. Wi
 
 ![](https://www.youtube.com/watch?v=azzYS65sqks)
 
-<p class="clip-credit"><strong>Three core principles: base, posture, structure</strong> — taught by Joel Snape · 6:19 · <a href="https://www.youtube.com/watch?v=azzYS65sqks" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Three core principles: base, posture, structure</strong> · 6:19 · <a href="https://www.youtube.com/watch?v=azzYS65sqks" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Keep your weight supported as your opponent pushes, pulls, or removes a post. Wi
 
 ![](https://www.youtube.com/watch?v=Wy6Si0FuQaU)
 
-<p class="clip-credit"><strong>Base and weight concepts for maintaining mount</strong> — taught by Roger Gracie · 14:50 · <a href="https://www.youtube.com/watch?v=Wy6Si0FuQaU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Base and weight concepts for maintaining mount</strong> · 14:50 · <a href="https://www.youtube.com/watch?v=Wy6Si0FuQaU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

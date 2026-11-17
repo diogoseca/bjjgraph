@@ -181,22 +181,20 @@ description: "Guard Pass from Chill Dog (attacker): Keep the free hand available
       "@type": "VideoObject",
       "position": 1,
       "name": "Passing off the defensive roll",
-      "description": "Guard Pass from Chill Dog (Attacker) film study: Passing off the defensive roll, taught by Gordon Ryan.",
+      "description": "Guard Pass from Chill Dog (Attacker) film study: Passing off the defensive roll.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CkX_FzPFw8M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CkX_FzPFw8M",
       "url": "https://www.youtube.com/watch?v=CkX_FzPFw8M",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT111S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Cross knee pass, preventing the turtle",
-      "description": "Guard Pass from Chill Dog (Attacker) film study: Cross knee pass, preventing the turtle, taught by Inverted Gear.",
+      "description": "Guard Pass from Chill Dog (Attacker) film study: Cross knee pass, preventing the turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6_4uK_c0-cI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6_4uK_c0-cI",
       "url": "https://www.youtube.com/watch?v=6_4uK_c0-cI",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
       "duration": "PT79S"
     }
   ]
@@ -235,7 +233,7 @@ Protect the neck and free the isolated shoulder before beginning the pass. After
 
 ![](https://www.youtube.com/watch?v=CkX_FzPFw8M)
 
-<p class="clip-credit"><strong>Passing off the defensive roll</strong> — taught by Gordon Ryan · 1:51 · <a href="https://www.youtube.com/watch?v=CkX_FzPFw8M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing off the defensive roll</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=CkX_FzPFw8M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -243,7 +241,7 @@ Protect the neck and free the isolated shoulder before beginning the pass. After
 
 ![](https://www.youtube.com/watch?v=6_4uK_c0-cI)
 
-<p class="clip-credit"><strong>Cross knee pass, preventing the turtle</strong> — taught by Inverted Gear · 1:19 · <a href="https://www.youtube.com/watch?v=6_4uK_c0-cI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross knee pass, preventing the turtle</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=6_4uK_c0-cI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

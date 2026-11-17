@@ -46,8 +46,8 @@ description: "Master Squid Guard in BJJ. Strategic guide covering asymmetrical c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing The Squid Guard Concepts w/ Pablo Mantovani",
-      "description": "Squid Guard film study: Passing The Squid Guard Concepts w/ Pablo Mantovani.",
+      "name": "Passing The Squid Guard Concepts",
+      "description": "Squid Guard film study: Passing The Squid Guard Concepts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zmy16f69rb4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zmy16f69rb4",
       "url": "https://www.youtube.com/watch?v=zmy16f69rb4",
@@ -104,7 +104,7 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 
 ![](https://www.youtube.com/watch?v=zmy16f69rb4)
 
-<p class="clip-credit"><strong>Passing The Squid Guard Concepts w/ Pablo Mantovani</strong> · 10:08 · <a href="https://www.youtube.com/watch?v=zmy16f69rb4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing The Squid Guard Concepts</strong> · 10:08 · <a href="https://www.youtube.com/watch?v=zmy16f69rb4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

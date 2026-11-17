@@ -202,8 +202,8 @@ description: "Master executing the Lasso Guard Stack Pass. Step-by-step guide to
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Thiago Ortiz | Passing the Spider Lasso Guard Using the Stack",
-      "description": "Lasso Guard Stack Pass (Attacker) film study: Thiago Ortiz | Passing the Spider Lasso Guard Using the Stack.",
+      "name": "Passing the Spider Lasso Guard Using the Stack",
+      "description": "Lasso Guard Stack Pass (Attacker) film study: Passing the Spider Lasso Guard Using the Stack.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cx7xVS3xuvs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cx7xVS3xuvs",
       "url": "https://www.youtube.com/watch?v=cx7xVS3xuvs",
@@ -245,7 +245,7 @@ The Lasso Guard Stack Pass represents the most direct pressure-based approach to
 
 ![](https://www.youtube.com/watch?v=cx7xVS3xuvs)
 
-<p class="clip-credit"><strong>Thiago Ortiz | Passing the Spider Lasso Guard Using the Stack</strong> · 2:56 · <a href="https://www.youtube.com/watch?v=cx7xVS3xuvs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing the Spider Lasso Guard Using the Stack</strong> · 2:56 · <a href="https://www.youtube.com/watch?v=cx7xVS3xuvs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -49,44 +49,40 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
       "@type": "VideoObject",
       "position": 1,
       "name": "Rear Naked Choke from Back Control",
-      "description": "Rear Naked Choke film study: Rear Naked Choke from Back Control, taught by Affinity Academy.",
+      "description": "Rear Naked Choke film study: Rear Naked Choke from Back Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3vCytl_OI-4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3vCytl_OI-4",
       "url": "https://www.youtube.com/watch?v=3vCytl_OI-4",
-      "creator": { "@type": "Person", "name": "Affinity Academy" },
       "duration": "PT75S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Rear Naked Choke",
-      "description": "Rear Naked Choke film study: Rear Naked Choke, taught by Gordon Ryan.",
+      "description": "Rear Naked Choke film study: Rear Naked Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/70jECxFfCSA",
       "url": "https://www.youtube.com/watch?v=70jECxFfCSA",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT73S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Rear Naked Choke: It\u0027s in the Squeeze",
-      "description": "Rear Naked Choke film study: Rear Naked Choke: It\u0027s in the Squeeze, taught by Henry Akins.",
+      "description": "Rear Naked Choke film study: Rear Naked Choke: It\u0027s in the Squeeze.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rPRORaAiJAs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rPRORaAiJAs",
       "url": "https://www.youtube.com/watch?v=rPRORaAiJAs",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
       "duration": "PT95S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Attack the Back with a Body Triangle",
-      "description": "Rear Naked Choke film study: Attack the Back with a Body Triangle, taught by Grapple Box.",
+      "description": "Rear Naked Choke film study: Attack the Back with a Body Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3OkCuU0B0UE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3OkCuU0B0UE",
       "url": "https://www.youtube.com/watch?v=3OkCuU0B0UE",
-      "creator": { "@type": "Person", "name": "Grapple Box" },
       "duration": "PT28S"
     }
   ]
@@ -154,7 +150,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 ![](https://www.youtube.com/watch?v=3vCytl_OI-4)
 
-<p class="clip-credit"><strong>Rear Naked Choke from Back Control</strong> — taught by Affinity Academy · 1:15 · <a href="https://www.youtube.com/watch?v=3vCytl_OI-4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear Naked Choke from Back Control</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=3vCytl_OI-4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -162,7 +158,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 ![](https://www.youtube.com/watch?v=70jECxFfCSA)
 
-<p class="clip-credit"><strong>Rear Naked Choke</strong> — taught by Gordon Ryan · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear Naked Choke</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -170,7 +166,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 ![](https://www.youtube.com/watch?v=rPRORaAiJAs)
 
-<p class="clip-credit"><strong>Rear Naked Choke: It&#39;s in the Squeeze</strong> — taught by Henry Akins · 1:35 · <a href="https://www.youtube.com/watch?v=rPRORaAiJAs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear Naked Choke: It&#39;s in the Squeeze</strong> · 1:35 · <a href="https://www.youtube.com/watch?v=rPRORaAiJAs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -178,7 +174,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 ![](https://www.youtube.com/watch?v=3OkCuU0B0UE)
 
-<p class="clip-credit"><strong>Attack the Back with a Body Triangle</strong> — taught by Grapple Box · 0:28 · <a href="https://www.youtube.com/watch?v=3OkCuU0B0UE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Attack the Back with a Body Triangle</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=3OkCuU0B0UE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

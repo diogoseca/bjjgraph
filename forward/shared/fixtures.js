@@ -80,8 +80,8 @@ export const techniques = [
 ];
 
 export const clips = [
-  { title: "Back take reaction", by: "Lachlan Giles" },
-  { title: "Stop the waiter sweep", by: "Bernardo Faria" },
+  { title: "Back take reaction" },
+  { title: "Stop the waiter sweep" },
 ];
 
 function fallbackRole(role, overrides = {}) {
@@ -138,8 +138,8 @@ function namedFallbackRole({ name, type, role, origin, definition, outcomes }) {
     },
     techniques: choices,
     clips: [
-      { title: `${name} · ${roleLabel}`, by: "Curated fallback" },
-      { title: `${type} mechanics`, by: "Film study" },
+      { title: `${name} · ${roleLabel}` },
+      { title: `${type} mechanics` },
     ],
   });
 }

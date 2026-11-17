@@ -47,22 +47,20 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
       "@type": "VideoObject",
       "position": 1,
       "name": "3 Steps to a Flying Kneebar",
-      "description": "Flying Kneebar film study: 3 Steps to a Flying Kneebar, taught by Bermuda Martial Arts.",
+      "description": "Flying Kneebar film study: 3 Steps to a Flying Kneebar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IuBrliVbU24/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IuBrliVbU24",
       "url": "https://www.youtube.com/watch?v=IuBrliVbU24",
-      "creator": { "@type": "Person", "name": "Bermuda Martial Arts" },
       "duration": "PT25S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Flying Kneebar Attack",
-      "description": "Flying Kneebar film study: Flying Kneebar Attack, taught by High Rollerz.",
+      "description": "Flying Kneebar film study: Flying Kneebar Attack.",
       "thumbnailUrl": "https://i.ytimg.com/vi/l9qAHPNbCfM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/l9qAHPNbCfM",
       "url": "https://www.youtube.com/watch?v=l9qAHPNbCfM",
-      "creator": { "@type": "Person", "name": "High Rollerz" },
       "duration": "PT16S"
     }
   ]
@@ -127,7 +125,7 @@ As a variant family, the Flying Kneebar collects the dynamic aerial entries to t
 
 ![](https://www.youtube.com/watch?v=IuBrliVbU24)
 
-<p class="clip-credit"><strong>3 Steps to a Flying Kneebar</strong> — taught by Bermuda Martial Arts · 0:25 · <a href="https://www.youtube.com/watch?v=IuBrliVbU24" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Steps to a Flying Kneebar</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=IuBrliVbU24" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -135,7 +133,7 @@ As a variant family, the Flying Kneebar collects the dynamic aerial entries to t
 
 ![](https://www.youtube.com/watch?v=l9qAHPNbCfM)
 
-<p class="clip-credit"><strong>Flying Kneebar Attack</strong> — taught by High Rollerz · 0:16 · <a href="https://www.youtube.com/watch?v=l9qAHPNbCfM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Flying Kneebar Attack</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=l9qAHPNbCfM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

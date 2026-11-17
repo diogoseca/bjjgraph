@@ -142,33 +142,30 @@ description: "Invisible Collar top perspective: The free leg moving behind your 
       "@type": "VideoObject",
       "position": 1,
       "name": "Invisible Collar breakdown",
-      "description": "Invisible Collar (Top) film study: Invisible Collar breakdown, taught by Eddie Bravo.",
+      "description": "Invisible Collar (Top) film study: Invisible Collar breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
       "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Invisible Collar choke from Rubber Guard",
-      "description": "Invisible Collar (Top) film study: Invisible Collar choke from Rubber Guard, taught by David Thomas.",
+      "description": "Invisible Collar (Top) film study: Invisible Collar choke from Rubber Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CHT81JnfD2Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CHT81JnfD2Q",
       "url": "https://www.youtube.com/watch?v=CHT81JnfD2Q",
-      "creator": { "@type": "Person", "name": "David Thomas" },
       "duration": "PT57S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Double Invisible Collar cross choke, no-gi",
-      "description": "Invisible Collar (Top) film study: Double Invisible Collar cross choke, no-gi, taught by Denny Prokopos.",
+      "description": "Invisible Collar (Top) film study: Double Invisible Collar cross choke, no-gi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/km9506KvIJg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/km9506KvIJg",
       "url": "https://www.youtube.com/watch?v=km9506KvIJg",
-      "creator": { "@type": "Person", "name": "Denny Prokopos" },
       "duration": "PT41S"
     }
   ]
@@ -205,7 +202,7 @@ The high leg-and-arm enclosure can create vascular choke pressure when it closes
 
 ![](https://www.youtube.com/watch?v=KCyIwacRKu8)
 
-<p class="clip-credit"><strong>Invisible Collar breakdown</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible Collar breakdown</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -213,7 +210,7 @@ The high leg-and-arm enclosure can create vascular choke pressure when it closes
 
 ![](https://www.youtube.com/watch?v=CHT81JnfD2Q)
 
-<p class="clip-credit"><strong>Invisible Collar choke from Rubber Guard</strong> — taught by David Thomas · 0:57 · <a href="https://www.youtube.com/watch?v=CHT81JnfD2Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible Collar choke from Rubber Guard</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=CHT81JnfD2Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -221,7 +218,7 @@ The high leg-and-arm enclosure can create vascular choke pressure when it closes
 
 ![](https://www.youtube.com/watch?v=km9506KvIJg)
 
-<p class="clip-credit"><strong>Double Invisible Collar cross choke, no-gi</strong> — taught by Denny Prokopos · 0:41 · <a href="https://www.youtube.com/watch?v=km9506KvIJg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Invisible Collar cross choke, no-gi</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=km9506KvIJg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

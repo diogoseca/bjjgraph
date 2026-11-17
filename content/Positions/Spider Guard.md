@@ -46,23 +46,21 @@ description: "Master Spider Guard in BJJ. Strategic guide covering sleeve contro
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Spider Guard  Mindset By Romulo Barral",
-      "description": "Spider Guard film study: Spider Guard  Mindset By Romulo Barral, taught by Romulo Barral.",
+      "name": "Spider Guard Mindset",
+      "description": "Spider Guard film study: Spider Guard Mindset.",
       "thumbnailUrl": "https://i.ytimg.com/vi/D-VuUJqNDZc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/D-VuUJqNDZc",
       "url": "https://www.youtube.com/watch?v=D-VuUJqNDZc",
-      "creator": { "@type": "Person", "name": "Romulo Barral" },
       "duration": "PT216S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Spider Guard Entry Drill",
-      "description": "Spider Guard film study: Spider Guard Entry Drill, taught by Paragon Jiu-Jitsu.",
+      "description": "Spider Guard film study: Spider Guard Entry Drill.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aXTKuGGfwOs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aXTKuGGfwOs",
       "url": "https://www.youtube.com/watch?v=aXTKuGGfwOs",
-      "creator": { "@type": "Person", "name": "Paragon Jiu-Jitsu" },
       "duration": "PT60S"
     }
   ]
@@ -118,7 +116,7 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 
 ![](https://www.youtube.com/watch?v=D-VuUJqNDZc)
 
-<p class="clip-credit"><strong>Spider Guard  Mindset By Romulo Barral</strong> — taught by Romulo Barral · 3:36 · <a href="https://www.youtube.com/watch?v=D-VuUJqNDZc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Spider Guard Mindset</strong> · 3:36 · <a href="https://www.youtube.com/watch?v=D-VuUJqNDZc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -126,7 +124,7 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 
 ![](https://www.youtube.com/watch?v=aXTKuGGfwOs)
 
-<p class="clip-credit"><strong>Spider Guard Entry Drill</strong> — taught by Paragon Jiu-Jitsu · 1:00 · <a href="https://www.youtube.com/watch?v=aXTKuGGfwOs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Spider Guard Entry Drill</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=aXTKuGGfwOs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

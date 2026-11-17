@@ -160,8 +160,8 @@ description: "Learn to defend against the Estima Lock finish from Estima Lock co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Fernando Reis Counter to Estima Foot Lock Gi",
-      "description": "Estima Lock from Estima Lock Control (Defender) film study: Fernando Reis Counter to Estima Foot Lock Gi.",
+      "name": "Counter to Estima Foot Lock Gi",
+      "description": "Estima Lock from Estima Lock Control (Defender) film study: Counter to Estima Foot Lock Gi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ESNrUEVZOL8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ESNrUEVZOL8",
       "url": "https://www.youtube.com/watch?v=ESNrUEVZOL8",
@@ -196,7 +196,7 @@ Defending the Estima Lock finish from an established control position is signifi
 
 ![](https://www.youtube.com/watch?v=ESNrUEVZOL8)
 
-<p class="clip-credit"><strong>Fernando Reis Counter to Estima Foot Lock Gi</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=ESNrUEVZOL8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Counter to Estima Foot Lock Gi</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=ESNrUEVZOL8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

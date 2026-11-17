@@ -154,43 +154,39 @@ description: "Direct body weight through useful contact points to limit movement
       "@type": "VideoObject",
       "position": 1,
       "name": "Maintaining side control with relaxed body weight",
-      "description": "Pressure film study: Maintaining side control with relaxed body weight, taught by Keith Owen.",
+      "description": "Pressure film study: Maintaining side control with relaxed body weight.",
       "thumbnailUrl": "https://i.ytimg.com/vi/H9HLGMgAIO8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/H9HLGMgAIO8",
-      "url": "https://www.youtube.com/watch?v=H9HLGMgAIO8",
-      "creator": { "@type": "Person", "name": "Keith Owen" }
+      "url": "https://www.youtube.com/watch?v=H9HLGMgAIO8"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Adding smashing top pressure with bodyweight",
-      "description": "Pressure film study: Adding smashing top pressure with bodyweight, taught by Nick Albin.",
+      "description": "Pressure film study: Adding smashing top pressure with bodyweight.",
       "thumbnailUrl": "https://i.ytimg.com/vi/E80mUDnD1mo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/E80mUDnD1mo",
       "url": "https://www.youtube.com/watch?v=E80mUDnD1mo",
-      "creator": { "@type": "Person", "name": "Nick Albin" },
       "duration": "PT411S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Creating heavy top pressure through bodyweight",
-      "description": "Pressure film study: Creating heavy top pressure through bodyweight, taught by Nick Albin.",
+      "description": "Pressure film study: Creating heavy top pressure through bodyweight.",
       "thumbnailUrl": "https://i.ytimg.com/vi/44xq78i6fcU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/44xq78i6fcU",
       "url": "https://www.youtube.com/watch?v=44xq78i6fcU",
-      "creator": { "@type": "Person", "name": "Nick Albin" },
       "duration": "PT380S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "How to apply pressure like a heavyweight",
-      "description": "Pressure film study: How to apply pressure like a heavyweight, taught by Matt Arroyo.",
+      "description": "Pressure film study: How to apply pressure like a heavyweight.",
       "thumbnailUrl": "https://i.ytimg.com/vi/m85SzGvZe1Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/m85SzGvZe1Q",
       "url": "https://www.youtube.com/watch?v=m85SzGvZe1Q",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
       "duration": "PT96S"
     }
   ]
@@ -220,7 +216,7 @@ Choose the movement you want to restrict, then place your weight where it affect
 
 ![](https://www.youtube.com/watch?v=H9HLGMgAIO8)
 
-<p class="clip-credit"><strong>Maintaining side control with relaxed body weight</strong> — taught by Keith Owen · <a href="https://www.youtube.com/watch?v=H9HLGMgAIO8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Maintaining side control with relaxed body weight</strong> · <a href="https://www.youtube.com/watch?v=H9HLGMgAIO8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Choose the movement you want to restrict, then place your weight where it affect
 
 ![](https://www.youtube.com/watch?v=E80mUDnD1mo)
 
-<p class="clip-credit"><strong>Adding smashing top pressure with bodyweight</strong> — taught by Nick Albin · 6:51 · <a href="https://www.youtube.com/watch?v=E80mUDnD1mo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Adding smashing top pressure with bodyweight</strong> · 6:51 · <a href="https://www.youtube.com/watch?v=E80mUDnD1mo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Choose the movement you want to restrict, then place your weight where it affect
 
 ![](https://www.youtube.com/watch?v=44xq78i6fcU)
 
-<p class="clip-credit"><strong>Creating heavy top pressure through bodyweight</strong> — taught by Nick Albin · 6:20 · <a href="https://www.youtube.com/watch?v=44xq78i6fcU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Creating heavy top pressure through bodyweight</strong> · 6:20 · <a href="https://www.youtube.com/watch?v=44xq78i6fcU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Choose the movement you want to restrict, then place your weight where it affect
 
 ![](https://www.youtube.com/watch?v=m85SzGvZe1Q)
 
-<p class="clip-credit"><strong>How to apply pressure like a heavyweight</strong> — taught by Matt Arroyo · 1:36 · <a href="https://www.youtube.com/watch?v=m85SzGvZe1Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to apply pressure like a heavyweight</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=m85SzGvZe1Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

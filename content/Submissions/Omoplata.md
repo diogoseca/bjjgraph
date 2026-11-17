@@ -47,45 +47,41 @@ description: "Master the Omoplata shoulder lock in BJJ. Complete guide covering 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse Omoplata, Keenan style",
-      "description": "Omoplata film study: Reverse Omoplata, Keenan style, taught by Keenan Cornelius.",
+      "name": "Reverse Omoplata",
+      "description": "Omoplata film study: Reverse Omoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TNvcL55uvrE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TNvcL55uvrE",
       "url": "https://www.youtube.com/watch?v=TNvcL55uvrE",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
       "duration": "PT22S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Teaching the reverse omoplata",
-      "description": "Omoplata film study: Teaching the reverse omoplata, taught by Bradley.",
+      "description": "Omoplata film study: Teaching the reverse omoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zZv3V0b3tqg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zZv3V0b3tqg",
       "url": "https://www.youtube.com/watch?v=zZv3V0b3tqg",
-      "creator": { "@type": "Person", "name": "Bradley" },
       "duration": "PT106S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Omoplata to armbar transition",
-      "description": "Omoplata film study: Omoplata to armbar transition, taught by Asbury Park Jiu Jitsu.",
+      "description": "Omoplata film study: Omoplata to armbar transition.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HtMbIJCiz-4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HtMbIJCiz-4",
       "url": "https://www.youtube.com/watch?v=HtMbIJCiz-4",
-      "creator": { "@type": "Person", "name": "Asbury Park Jiu Jitsu" },
       "duration": "PT70S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Omoplata to armbar",
-      "description": "Omoplata film study: Omoplata to armbar, taught by Bicudo Maciel.",
+      "description": "Omoplata film study: Omoplata to armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hZMbgWNh7MI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hZMbgWNh7MI",
       "url": "https://www.youtube.com/watch?v=hZMbgWNh7MI",
-      "creator": { "@type": "Person", "name": "Bicudo Maciel" },
       "duration": "PT25S"
     }
   ]
@@ -157,7 +153,7 @@ Modern competition has elevated the Omoplata from a low-percentage novelty to a 
 
 ![](https://www.youtube.com/watch?v=TNvcL55uvrE)
 
-<p class="clip-credit"><strong>Reverse Omoplata, Keenan style</strong> — taught by Keenan Cornelius · 0:22 · <a href="https://www.youtube.com/watch?v=TNvcL55uvrE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse Omoplata</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=TNvcL55uvrE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -165,7 +161,7 @@ Modern competition has elevated the Omoplata from a low-percentage novelty to a 
 
 ![](https://www.youtube.com/watch?v=zZv3V0b3tqg)
 
-<p class="clip-credit"><strong>Teaching the reverse omoplata</strong> — taught by Bradley · 1:46 · <a href="https://www.youtube.com/watch?v=zZv3V0b3tqg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Teaching the reverse omoplata</strong> · 1:46 · <a href="https://www.youtube.com/watch?v=zZv3V0b3tqg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -173,7 +169,7 @@ Modern competition has elevated the Omoplata from a low-percentage novelty to a 
 
 ![](https://www.youtube.com/watch?v=HtMbIJCiz-4)
 
-<p class="clip-credit"><strong>Omoplata to armbar transition</strong> — taught by Asbury Park Jiu Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=HtMbIJCiz-4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata to armbar transition</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=HtMbIJCiz-4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -181,7 +177,7 @@ Modern competition has elevated the Omoplata from a low-percentage novelty to a 
 
 ![](https://www.youtube.com/watch?v=hZMbgWNh7MI)
 
-<p class="clip-credit"><strong>Omoplata to armbar</strong> — taught by Bicudo Maciel · 0:25 · <a href="https://www.youtube.com/watch?v=hZMbgWNh7MI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata to armbar</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=hZMbgWNh7MI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -49,11 +49,10 @@ description: "Master North-South position in BJJ. Complete guide covering top co
       "@type": "VideoObject",
       "position": 1,
       "name": "4th stripe - North South inverted spin escape",
-      "description": "North-South film study: 4th stripe - North South inverted spin escape, taught by SBG Australia.",
+      "description": "North-South film study: 4th stripe - North South inverted spin escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XaLBmGnHm78/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XaLBmGnHm78",
       "url": "https://www.youtube.com/watch?v=XaLBmGnHm78",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
       "duration": "PT36S"
     }
   ]
@@ -115,7 +114,7 @@ The position demands different strategic approaches based on whether you're esta
 
 ![](https://www.youtube.com/watch?v=XaLBmGnHm78)
 
-<p class="clip-credit"><strong>4th stripe - North South inverted spin escape</strong> — taught by SBG Australia · 0:36 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>4th stripe - North South inverted spin escape</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

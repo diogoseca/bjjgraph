@@ -186,8 +186,8 @@ description: "Learn to execute the Mounted Crucifix Armbar as the attacker. Step
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Laura Sanko MMA Demo | Straight Armbar From Inverted Crucifix",
-      "description": "Mounted Crucifix Armbar from Mounted Crucifix (Attacker) film study: Laura Sanko MMA Demo | Straight Armbar From Inverted Crucifix.",
+      "name": "MMA Demo | Straight Armbar From Inverted Crucifix",
+      "description": "Mounted Crucifix Armbar from Mounted Crucifix (Attacker) film study: MMA Demo | Straight Armbar From Inverted Crucifix.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hISwyzfmQr0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hISwyzfmQr0",
       "url": "https://www.youtube.com/watch?v=hISwyzfmQr0",
@@ -232,7 +232,7 @@ Executing the Mounted Crucifix Armbar requires understanding how the crucifix's 
 
 ![](https://www.youtube.com/watch?v=hISwyzfmQr0)
 
-<p class="clip-credit"><strong>Laura Sanko MMA Demo | Straight Armbar From Inverted Crucifix</strong> · 4:41 · <a href="https://www.youtube.com/watch?v=hISwyzfmQr0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>MMA Demo | Straight Armbar From Inverted Crucifix</strong> · 4:41 · <a href="https://www.youtube.com/watch?v=hISwyzfmQr0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -166,11 +166,10 @@ description: "Buggy Choke bottom perspective: Use safe shoulder and hip frames t
       "@type": "VideoObject",
       "position": 1,
       "name": "BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more",
-      "description": "Buggy Choke (Bottom) film study: BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more, taught by Arroyo Grappling.",
+      "description": "Buggy Choke (Bottom) film study: BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mUwBihCvZl8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mUwBihCvZl8",
       "url": "https://www.youtube.com/watch?v=mUwBihCvZl8",
-      "creator": { "@type": "Person", "name": "Arroyo Grappling" },
       "duration": "PT140S"
     }
   ]
@@ -205,7 +204,7 @@ The bottom player supplies the arm-and-leg loop around the opponent's head and o
 
 ![](https://www.youtube.com/watch?v=mUwBihCvZl8)
 
-<p class="clip-credit"><strong>BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more</strong> — taught by Arroyo Grappling · 2:20 · <a href="https://www.youtube.com/watch?v=mUwBihCvZl8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=mUwBihCvZl8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -196,8 +196,8 @@ description: "Learn to finish the rear naked choke from back control. Step-by-st
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week)",
-      "description": "Rear Naked Choke from Back Control (Attacker) film study: Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week).",
+      "name": "Rear Naked Choke (Control Jiu-Jitsu Submission of The Week)",
+      "description": "Rear Naked Choke from Back Control (Attacker) film study: Rear Naked Choke (Control Jiu-Jitsu Submission of The Week).",
       "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/70jECxFfCSA",
       "url": "https://www.youtube.com/watch?v=70jECxFfCSA",
@@ -250,7 +250,7 @@ Attacking with the rear naked choke from back control requires systematic progre
 
 ![](https://www.youtube.com/watch?v=70jECxFfCSA)
 
-<p class="clip-credit"><strong>Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week)</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear Naked Choke (Control Jiu-Jitsu Submission of The Week)</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

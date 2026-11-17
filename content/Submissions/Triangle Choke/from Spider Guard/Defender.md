@@ -170,8 +170,8 @@ description: "How to defend against Triangle from Spider Guard in BJJ. Recogniti
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How To Escape a Triangle Choke w/ Rener \u0026 Ryron Gracie",
-      "description": "Triangle Choke from Spider Guard (Defender) film study: How To Escape a Triangle Choke w/ Rener \u0026 Ryron Gracie.",
+      "name": "How To Escape a Triangle Choke",
+      "description": "Triangle Choke from Spider Guard (Defender) film study: How To Escape a Triangle Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
       "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
@@ -214,7 +214,7 @@ Defending the triangle from spider guard requires understanding both the spider 
 
 ![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
 
-<p class="clip-credit"><strong>How To Escape a Triangle Choke w/ Rener &amp; Ryron Gracie</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Escape a Triangle Choke</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

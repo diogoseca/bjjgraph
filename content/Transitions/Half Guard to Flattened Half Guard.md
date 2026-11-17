@@ -46,8 +46,8 @@ description: "Learn how to flatten your opponent from half guard top in BJJ. Mas
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Craig Jones: Shallow Cross Face",
-      "description": "Half Guard to Flattened Half Guard film study: Craig Jones: Shallow Cross Face.",
+      "name": "Shallow Cross Face",
+      "description": "Half Guard to Flattened Half Guard film study: Shallow Cross Face.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PTe4-NhLXf8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PTe4-NhLXf8",
       "url": "https://www.youtube.com/watch?v=PTe4-NhLXf8",
@@ -107,7 +107,7 @@ From a strategic perspective, this transition represents the critical bridge bet
 
 ![](https://www.youtube.com/watch?v=PTe4-NhLXf8)
 
-<p class="clip-credit"><strong>Craig Jones: Shallow Cross Face</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shallow Cross Face</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

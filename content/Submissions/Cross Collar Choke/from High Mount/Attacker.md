@@ -186,8 +186,8 @@ description: "Master attacking the Cross Collar Choke from High Mount. Step-by-s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cross Collar Choke from Mount with Chad Lyman",
-      "description": "Cross Collar Choke from High Mount (Attacker) film study: Cross Collar Choke from Mount with Chad Lyman.",
+      "name": "Cross Collar Choke from Mount",
+      "description": "Cross Collar Choke from High Mount (Attacker) film study: Cross Collar Choke from Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pXcCvjwjPHw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pXcCvjwjPHw",
       "url": "https://www.youtube.com/watch?v=pXcCvjwjPHw",
@@ -222,7 +222,7 @@ Attacking the Cross Collar Choke from High Mount demands patience in grip establ
 
 ![](https://www.youtube.com/watch?v=pXcCvjwjPHw)
 
-<p class="clip-credit"><strong>Cross Collar Choke from Mount with Chad Lyman</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=pXcCvjwjPHw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Cross Collar Choke from Mount</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=pXcCvjwjPHw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

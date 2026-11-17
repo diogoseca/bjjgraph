@@ -48,33 +48,30 @@ description: "Master the Armbar submission in BJJ. Complete guide covering setup
       "@type": "VideoObject",
       "position": 1,
       "name": "Brutal armbar from S-mount",
-      "description": "Armbar film study: Brutal armbar from S-mount, taught by Lux\u0027s Jiu Jitsu.",
+      "description": "Armbar film study: Brutal armbar from S-mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N-fwXASdMCQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/N-fwXASdMCQ",
       "url": "https://www.youtube.com/watch?v=N-fwXASdMCQ",
-      "creator": { "@type": "Person", "name": "Lux\u0027s Jiu Jitsu" },
       "duration": "PT80S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Overhook closed guard to rolling armbar",
-      "description": "Armbar film study: Overhook closed guard to rolling armbar, taught by BOWERHOUSE MMA.",
+      "description": "Armbar film study: Overhook closed guard to rolling armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XVxTzuJ1F60/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XVxTzuJ1F60",
       "url": "https://www.youtube.com/watch?v=XVxTzuJ1F60",
-      "creator": { "@type": "Person", "name": "BOWERHOUSE MMA" },
       "duration": "PT60S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Roger Gracie armbars",
-      "description": "Armbar film study: Roger Gracie armbars, taught by Roger Gracie.",
+      "name": "Armbars",
+      "description": "Armbar film study: Armbars.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
       "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
       "duration": "PT102S"
     }
   ]
@@ -146,7 +143,7 @@ As one of the first submissions taught to beginners and one of the last perfecte
 
 ![](https://www.youtube.com/watch?v=N-fwXASdMCQ)
 
-<p class="clip-credit"><strong>Brutal armbar from S-mount</strong> — taught by Lux&#39;s Jiu Jitsu · 1:20 · <a href="https://www.youtube.com/watch?v=N-fwXASdMCQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Brutal armbar from S-mount</strong> · 1:20 · <a href="https://www.youtube.com/watch?v=N-fwXASdMCQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -154,7 +151,7 @@ As one of the first submissions taught to beginners and one of the last perfecte
 
 ![](https://www.youtube.com/watch?v=XVxTzuJ1F60)
 
-<p class="clip-credit"><strong>Overhook closed guard to rolling armbar</strong> — taught by BOWERHOUSE MMA · 1:00 · <a href="https://www.youtube.com/watch?v=XVxTzuJ1F60" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Overhook closed guard to rolling armbar</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=XVxTzuJ1F60" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -162,7 +159,7 @@ As one of the first submissions taught to beginners and one of the last perfecte
 
 ![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
 
-<p class="clip-credit"><strong>Roger Gracie armbars</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbars</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

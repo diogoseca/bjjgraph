@@ -200,8 +200,8 @@ description: "Learn to attack with the Clock Choke from Rodeo Ride. Step-by-step
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Wallid Ismail clock choke (week 14)",
-      "description": "Clock Choke from Rodeo Ride (Attacker) film study: Wallid Ismail clock choke (week 14).",
+      "name": "Clock choke (week 14)",
+      "description": "Clock Choke from Rodeo Ride (Attacker) film study: Clock choke (week 14).",
       "thumbnailUrl": "https://i.ytimg.com/vi/vX8n_1YUZJs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vX8n_1YUZJs",
       "url": "https://www.youtube.com/watch?v=vX8n_1YUZJs",
@@ -252,7 +252,7 @@ Attacking with the Clock Choke from Rodeo Ride requires integrating the dynamic 
 
 ![](https://www.youtube.com/watch?v=vX8n_1YUZJs)
 
-<p class="clip-credit"><strong>Wallid Ismail clock choke (week 14)</strong> · 2:51 · <a href="https://www.youtube.com/watch?v=vX8n_1YUZJs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Clock choke (week 14)</strong> · 2:51 · <a href="https://www.youtube.com/watch?v=vX8n_1YUZJs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

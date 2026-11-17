@@ -47,22 +47,20 @@ description: "Entering Aoki Lock Control from Ashi Garami captures an available 
       "@type": "VideoObject",
       "position": 1,
       "name": "Aoki Lock from Butterfly Ashi",
-      "description": "Aoki Lock film study: Aoki Lock from Butterfly Ashi, taught by Factory Fresh Jiu Jitsu.",
+      "description": "Aoki Lock film study: Aoki Lock from Butterfly Ashi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tQWfhZiDREc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tQWfhZiDREc",
       "url": "https://www.youtube.com/watch?v=tQWfhZiDREc",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
       "duration": "PT77S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Shotgun Aoki Locks breakdown",
-      "description": "Aoki Lock film study: Shotgun Aoki Locks breakdown, taught by Mateusz Szczecinski.",
+      "description": "Aoki Lock film study: Shotgun Aoki Locks breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9Gv2xlzZtD0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9Gv2xlzZtD0",
       "url": "https://www.youtube.com/watch?v=9Gv2xlzZtD0",
-      "creator": { "@type": "Person", "name": "Mateusz Szczecinski" },
       "duration": "PT61S"
     }
   ]
@@ -121,7 +119,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 ![](https://www.youtube.com/watch?v=tQWfhZiDREc)
 
-<p class="clip-credit"><strong>Aoki Lock from Butterfly Ashi</strong> — taught by Factory Fresh Jiu Jitsu · 1:17 · <a href="https://www.youtube.com/watch?v=tQWfhZiDREc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Aoki Lock from Butterfly Ashi</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=tQWfhZiDREc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -129,7 +127,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 ![](https://www.youtube.com/watch?v=9Gv2xlzZtD0)
 
-<p class="clip-credit"><strong>Shotgun Aoki Locks breakdown</strong> — taught by Mateusz Szczecinski · 1:01 · <a href="https://www.youtube.com/watch?v=9Gv2xlzZtD0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shotgun Aoki Locks breakdown</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=9Gv2xlzZtD0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

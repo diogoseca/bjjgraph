@@ -47,33 +47,30 @@ description: "Master Darce Control position in BJJ. Dominant front headlock vari
       "@type": "VideoObject",
       "position": 1,
       "name": "Darce details",
-      "description": "Darce Control film study: Darce details, taught by Chad Lyman.",
+      "description": "Darce Control film study: Darce details.",
       "thumbnailUrl": "https://i.ytimg.com/vi/jeHPHHtBbAo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/jeHPHHtBbAo",
       "url": "https://www.youtube.com/watch?v=jeHPHHtBbAo",
-      "creator": { "@type": "Person", "name": "Chad Lyman" },
       "duration": "PT53S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Side control to north south D\u2019ARCE!!! #graciewestchase #jiujitsu #darce #bjj",
-      "description": "Darce Control film study: Side control to north south D\u2019ARCE!!! #graciewestchase #jiujitsu #darce #bjj, taught by Gracie Westchase.",
+      "description": "Darce Control film study: Side control to north south D\u2019ARCE!!! #graciewestchase #jiujitsu #darce #bjj.",
       "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
       "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
-      "creator": { "@type": "Person", "name": "Gracie Westchase" },
       "duration": "PT75S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "How to do a D\u0027arce choke from front headlock",
-      "description": "Darce Control film study: How to do a D\u0027arce choke from front headlock, taught by LI MMA.",
+      "description": "Darce Control film study: How to do a D\u0027arce choke from front headlock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Pc2yhqtRxJA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Pc2yhqtRxJA",
       "url": "https://www.youtube.com/watch?v=Pc2yhqtRxJA",
-      "creator": { "@type": "Person", "name": "LI MMA" },
       "duration": "PT150S"
     }
   ]
@@ -127,7 +124,7 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 
 ![](https://www.youtube.com/watch?v=jeHPHHtBbAo)
 
-<p class="clip-credit"><strong>Darce details</strong> — taught by Chad Lyman · 0:53 · <a href="https://www.youtube.com/watch?v=jeHPHHtBbAo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Darce details</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=jeHPHHtBbAo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -135,7 +132,7 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 
 ![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
 
-<p class="clip-credit"><strong>Side control to north south D’ARCE!!! #graciewestchase #jiujitsu #darce #bjj</strong> — taught by Gracie Westchase · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side control to north south D’ARCE!!! #graciewestchase #jiujitsu #darce #bjj</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -143,7 +140,7 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 
 ![](https://www.youtube.com/watch?v=Pc2yhqtRxJA)
 
-<p class="clip-credit"><strong>How to do a D&#39;arce choke from front headlock</strong> — taught by LI MMA · 2:30 · <a href="https://www.youtube.com/watch?v=Pc2yhqtRxJA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to do a D&#39;arce choke from front headlock</strong> · 2:30 · <a href="https://www.youtube.com/watch?v=Pc2yhqtRxJA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

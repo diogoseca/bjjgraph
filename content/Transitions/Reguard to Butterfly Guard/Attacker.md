@@ -192,8 +192,8 @@ description: "Master the Reguard to Butterfly Guard from the attacker perspectiv
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Butterfly Guard Recovery - Marcelo Style",
-      "description": "Reguard to Butterfly Guard (Attacker) film study: Butterfly Guard Recovery - Marcelo Style.",
+      "name": "Butterfly Guard Recovery",
+      "description": "Reguard to Butterfly Guard (Attacker) film study: Butterfly Guard Recovery.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cHzeigPygw0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cHzeigPygw0",
       "url": "https://www.youtube.com/watch?v=cHzeigPygw0",
@@ -227,7 +227,7 @@ As the attacker executing the reguard to butterfly guard, your objective is to s
 
 ![](https://www.youtube.com/watch?v=cHzeigPygw0)
 
-<p class="clip-credit"><strong>Butterfly Guard Recovery - Marcelo Style</strong> · 5:31 · <a href="https://www.youtube.com/watch?v=cHzeigPygw0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Butterfly Guard Recovery</strong> · 5:31 · <a href="https://www.youtube.com/watch?v=cHzeigPygw0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

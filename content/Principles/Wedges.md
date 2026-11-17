@@ -154,33 +154,30 @@ description: "Place a knee, shin, elbow, or forearm in useful space and support 
       "@type": "VideoObject",
       "position": 1,
       "name": "Near side and far side knee wedges from chest to chest",
-      "description": "Wedges film study: Near side and far side knee wedges from chest to chest, taught by John Danaher.",
+      "description": "Wedges film study: Near side and far side knee wedges from chest to chest.",
       "thumbnailUrl": "https://i.ytimg.com/vi/F0XCE0lFIG8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/F0XCE0lFIG8",
       "url": "https://www.youtube.com/watch?v=F0XCE0lFIG8",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT278S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Angles, wedges and leverage explained",
-      "description": "Wedges film study: Angles, wedges and leverage explained, taught by Josh.",
+      "description": "Wedges film study: Angles, wedges and leverage explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lrfCkqXx_-c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lrfCkqXx_-c",
       "url": "https://www.youtube.com/watch?v=lrfCkqXx_-c",
-      "creator": { "@type": "Person", "name": "Josh" },
       "duration": "PT265S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Knee wedge in the tailbone to pass full guard",
-      "description": "Wedges film study: Knee wedge in the tailbone to pass full guard, taught by StadiumMMA.",
+      "description": "Wedges film study: Knee wedge in the tailbone to pass full guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SxzrmECSij8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SxzrmECSij8",
       "url": "https://www.youtube.com/watch?v=SxzrmECSij8",
-      "creator": { "@type": "Person", "name": "StadiumMMA" },
       "duration": "PT26S"
     }
   ]
@@ -210,7 +207,7 @@ Insert the wedge when a gap opens, then move while it holds the space. Its angle
 
 ![](https://www.youtube.com/watch?v=F0XCE0lFIG8)
 
-<p class="clip-credit"><strong>Near side and far side knee wedges from chest to chest</strong> — taught by John Danaher · 4:38 · <a href="https://www.youtube.com/watch?v=F0XCE0lFIG8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Near side and far side knee wedges from chest to chest</strong> · 4:38 · <a href="https://www.youtube.com/watch?v=F0XCE0lFIG8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +215,7 @@ Insert the wedge when a gap opens, then move while it holds the space. Its angle
 
 ![](https://www.youtube.com/watch?v=lrfCkqXx_-c)
 
-<p class="clip-credit"><strong>Angles, wedges and leverage explained</strong> — taught by Josh · 4:25 · <a href="https://www.youtube.com/watch?v=lrfCkqXx_-c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Angles, wedges and leverage explained</strong> · 4:25 · <a href="https://www.youtube.com/watch?v=lrfCkqXx_-c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,7 +223,7 @@ Insert the wedge when a gap opens, then move while it holds the space. Its angle
 
 ![](https://www.youtube.com/watch?v=SxzrmECSij8)
 
-<p class="clip-credit"><strong>Knee wedge in the tailbone to pass full guard</strong> — taught by StadiumMMA · 0:26 · <a href="https://www.youtube.com/watch?v=SxzrmECSij8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee wedge in the tailbone to pass full guard</strong> · 0:26 · <a href="https://www.youtube.com/watch?v=SxzrmECSij8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

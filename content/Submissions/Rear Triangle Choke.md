@@ -47,44 +47,40 @@ description: "Master the Rear Triangle Choke in BJJ. Complete guide to finishing
       "@type": "VideoObject",
       "position": 1,
       "name": "Rear triangle from the back",
-      "description": "Rear Triangle Choke film study: Rear triangle from the back, taught by Gracie Charlottesville.",
+      "description": "Rear Triangle Choke film study: Rear triangle from the back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/l5ayCZh3W78/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/l5ayCZh3W78",
       "url": "https://www.youtube.com/watch?v=l5ayCZh3W78",
-      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
       "duration": "PT32S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Ushiro sankaku rear triangle from seated back",
-      "description": "Rear Triangle Choke film study: Ushiro sankaku rear triangle from seated back, taught by Chris Reymann.",
+      "description": "Rear Triangle Choke film study: Ushiro sankaku rear triangle from seated back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LQUICOJ82xk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LQUICOJ82xk",
       "url": "https://www.youtube.com/watch?v=LQUICOJ82xk",
-      "creator": { "@type": "Person", "name": "Chris Reymann" },
       "duration": "PT40S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Rear triangle setup from back control",
-      "description": "Rear Triangle Choke film study: Rear triangle setup from back control, taught by Hellfish MMA.",
+      "description": "Rear Triangle Choke film study: Rear triangle setup from back control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4h-lxaNIqzw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4h-lxaNIqzw",
       "url": "https://www.youtube.com/watch?v=4h-lxaNIqzw",
-      "creator": { "@type": "Person", "name": "Hellfish MMA" },
       "duration": "PT189S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Back Triangle Choke",
-      "description": "Rear Triangle Choke film study: Back Triangle Choke, taught by Dr. Deng.",
+      "description": "Rear Triangle Choke film study: Back Triangle Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/w8vzr24_n0s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/w8vzr24_n0s",
       "url": "https://www.youtube.com/watch?v=w8vzr24_n0s",
-      "creator": { "@type": "Person", "name": "Dr. Deng" },
       "duration": "PT30S"
     }
   ]
@@ -153,7 +149,7 @@ Strategically, the rear triangle choke creates a layered submission dilemma. Def
 
 ![](https://www.youtube.com/watch?v=l5ayCZh3W78)
 
-<p class="clip-credit"><strong>Rear triangle from the back</strong> — taught by Gracie Charlottesville · 0:32 · <a href="https://www.youtube.com/watch?v=l5ayCZh3W78" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear triangle from the back</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=l5ayCZh3W78" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -161,7 +157,7 @@ Strategically, the rear triangle choke creates a layered submission dilemma. Def
 
 ![](https://www.youtube.com/watch?v=LQUICOJ82xk)
 
-<p class="clip-credit"><strong>Ushiro sankaku rear triangle from seated back</strong> — taught by Chris Reymann · 0:40 · <a href="https://www.youtube.com/watch?v=LQUICOJ82xk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ushiro sankaku rear triangle from seated back</strong> · 0:40 · <a href="https://www.youtube.com/watch?v=LQUICOJ82xk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -169,7 +165,7 @@ Strategically, the rear triangle choke creates a layered submission dilemma. Def
 
 ![](https://www.youtube.com/watch?v=4h-lxaNIqzw)
 
-<p class="clip-credit"><strong>Rear triangle setup from back control</strong> — taught by Hellfish MMA · 3:09 · <a href="https://www.youtube.com/watch?v=4h-lxaNIqzw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear triangle setup from back control</strong> · 3:09 · <a href="https://www.youtube.com/watch?v=4h-lxaNIqzw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -177,7 +173,7 @@ Strategically, the rear triangle choke creates a layered submission dilemma. Def
 
 ![](https://www.youtube.com/watch?v=w8vzr24_n0s)
 
-<p class="clip-credit"><strong>Back Triangle Choke</strong> — taught by Dr. Deng · 0:30 · <a href="https://www.youtube.com/watch?v=w8vzr24_n0s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Triangle Choke</strong> · 0:30 · <a href="https://www.youtube.com/watch?v=w8vzr24_n0s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

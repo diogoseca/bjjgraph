@@ -165,12 +165,11 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Use Reverse De La Riva by Lachlan Giles",
-      "description": "Reverse De La Riva Guard (Bottom) film study: How to Use Reverse De La Riva by Lachlan Giles, taught by Lachlan Giles.",
+      "name": "How to Use Reverse De La Riva",
+      "description": "Reverse De La Riva Guard (Bottom) film study: How to Use Reverse De La Riva.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_beJGS2-yIE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_beJGS2-yIE",
       "url": "https://www.youtube.com/watch?v=_beJGS2-yIE",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT121S"
     }
   ]
@@ -203,7 +202,7 @@ Strategically, Reverse De La Riva operates on the principle of creating rotation
 
 ![](https://www.youtube.com/watch?v=_beJGS2-yIE)
 
-<p class="clip-credit"><strong>How to Use Reverse De La Riva by Lachlan Giles</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=_beJGS2-yIE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Use Reverse De La Riva</strong> · 2:01 · <a href="https://www.youtube.com/watch?v=_beJGS2-yIE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

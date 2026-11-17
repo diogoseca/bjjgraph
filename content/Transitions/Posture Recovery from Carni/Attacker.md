@@ -181,22 +181,20 @@ description: "Posture Recovery from Carni (attacker): A leg clearing the head wi
       "@type": "VideoObject",
       "position": 1,
       "name": "Leg lock escape by roll through",
-      "description": "Posture Recovery from Carni (Attacker) film study: Leg lock escape by roll through, taught by Gordon Ryan.",
+      "description": "Posture Recovery from Carni (Attacker) film study: Leg lock escape by roll through.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
       "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT103S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "50/50 defense: protecting your leg",
-      "description": "Posture Recovery from Carni (Attacker) film study: 50/50 defense: protecting your leg, taught by Lachlan Giles.",
+      "description": "Posture Recovery from Carni (Attacker) film study: 50/50 defense: protecting your leg.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/R7lPdQWLOus",
       "url": "https://www.youtube.com/watch?v=R7lPdQWLOus",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT161S"
     }
   ]
@@ -235,7 +233,7 @@ The early escape is from a rotational lock at the shoulder. Open the triceps and
 
 ![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
 
-<p class="clip-credit"><strong>Leg lock escape by roll through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg lock escape by roll through</strong> · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -243,7 +241,7 @@ The early escape is from a rotational lock at the shoulder. Open the triceps and
 
 ![](https://www.youtube.com/watch?v=R7lPdQWLOus)
 
-<p class="clip-credit"><strong>50/50 defense: protecting your leg</strong> — taught by Lachlan Giles · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>50/50 defense: protecting your leg</strong> · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -166,11 +166,10 @@ description: "Master offensive strategies for standing back control top position
       "@type": "VideoObject",
       "position": 1,
       "name": "Mat Return: BJJ takedowns from standing Back Control.",
-      "description": "Standing Back Control (Top) film study: Mat Return: BJJ takedowns from standing Back Control., taught by William Abreu.",
+      "description": "Standing Back Control (Top) film study: Mat Return: BJJ takedowns from standing Back Control..",
       "thumbnailUrl": "https://i.ytimg.com/vi/HWrsepCcaUk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HWrsepCcaUk",
       "url": "https://www.youtube.com/watch?v=HWrsepCcaUk",
-      "creator": { "@type": "Person", "name": "William Abreu" },
       "duration": "PT194S"
     },
     {
@@ -213,7 +212,7 @@ Success from Standing Back Control Top requires understanding several key mechan
 
 ![](https://www.youtube.com/watch?v=HWrsepCcaUk)
 
-<p class="clip-credit"><strong>Mat Return: BJJ takedowns from standing Back Control.</strong> — taught by William Abreu · 3:14 · <a href="https://www.youtube.com/watch?v=HWrsepCcaUk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mat Return: BJJ takedowns from standing Back Control.</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=HWrsepCcaUk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

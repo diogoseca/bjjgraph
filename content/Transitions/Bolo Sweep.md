@@ -46,8 +46,8 @@ description: "Master the Bolo Sweep from De La Riva Guard. Learn rotational inve
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "HOW-TO: DLR/Berimbolo to the back with Rafael Mendes",
-      "description": "Bolo Sweep film study: HOW-TO: DLR/Berimbolo to the back with Rafael Mendes.",
+      "name": "HOW-TO: DLR/Berimbolo to the back",
+      "description": "Bolo Sweep film study: HOW-TO: DLR/Berimbolo to the back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/n61ObZSjBW8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/n61ObZSjBW8",
       "url": "https://www.youtube.com/watch?v=n61ObZSjBW8",
@@ -115,7 +115,7 @@ What makes the Bolo particularly powerful is its scalability - it can be execute
 
 ![](https://www.youtube.com/watch?v=n61ObZSjBW8)
 
-<p class="clip-credit"><strong>HOW-TO: DLR/Berimbolo to the back with Rafael Mendes</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=n61ObZSjBW8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>HOW-TO: DLR/Berimbolo to the back</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=n61ObZSjBW8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

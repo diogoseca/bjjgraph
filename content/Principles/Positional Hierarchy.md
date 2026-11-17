@@ -154,33 +154,30 @@ description: "Compare control and available attacks when choosing whether to hol
       "@type": "VideoObject",
       "position": 1,
       "name": "Understanding jiu-jitsu: the positional hierarchy",
-      "description": "Positional Hierarchy film study: Understanding jiu-jitsu: the positional hierarchy, taught by John Danaher.",
+      "description": "Positional Hierarchy film study: Understanding jiu-jitsu: the positional hierarchy.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JMrGBjDctd4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JMrGBjDctd4",
       "url": "https://www.youtube.com/watch?v=JMrGBjDctd4",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT1548S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "White belt positional guide: the hierarchy",
-      "description": "Positional Hierarchy film study: White belt positional guide: the hierarchy, taught by Will Brooks.",
+      "description": "Positional Hierarchy film study: White belt positional guide: the hierarchy.",
       "thumbnailUrl": "https://i.ytimg.com/vi/x_IrC_-zzYU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/x_IrC_-zzYU",
       "url": "https://www.youtube.com/watch?v=x_IrC_-zzYU",
-      "creator": { "@type": "Person", "name": "Will Brooks" },
       "duration": "PT598S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Positional hierarchy explained, part 2",
-      "description": "Positional Hierarchy film study: Positional hierarchy explained, part 2, taught by Dark Horse BJJ.",
+      "description": "Positional Hierarchy film study: Positional hierarchy explained, part 2.",
       "thumbnailUrl": "https://i.ytimg.com/vi/duFyN9AoWyE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/duFyN9AoWyE",
       "url": "https://www.youtube.com/watch?v=duFyN9AoWyE",
-      "creator": { "@type": "Person", "name": "Dark Horse BJJ" },
       "duration": "PT119S"
     }
   ]
@@ -210,7 +207,7 @@ Judge the controls you actually have, along with the opponent’s options. A fam
 
 ![](https://www.youtube.com/watch?v=JMrGBjDctd4)
 
-<p class="clip-credit"><strong>Understanding jiu-jitsu: the positional hierarchy</strong> — taught by John Danaher · 25:48 · <a href="https://www.youtube.com/watch?v=JMrGBjDctd4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Understanding jiu-jitsu: the positional hierarchy</strong> · 25:48 · <a href="https://www.youtube.com/watch?v=JMrGBjDctd4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +215,7 @@ Judge the controls you actually have, along with the opponent’s options. A fam
 
 ![](https://www.youtube.com/watch?v=x_IrC_-zzYU)
 
-<p class="clip-credit"><strong>White belt positional guide: the hierarchy</strong> — taught by Will Brooks · 9:58 · <a href="https://www.youtube.com/watch?v=x_IrC_-zzYU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>White belt positional guide: the hierarchy</strong> · 9:58 · <a href="https://www.youtube.com/watch?v=x_IrC_-zzYU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,7 +223,7 @@ Judge the controls you actually have, along with the opponent’s options. A fam
 
 ![](https://www.youtube.com/watch?v=duFyN9AoWyE)
 
-<p class="clip-credit"><strong>Positional hierarchy explained, part 2</strong> — taught by Dark Horse BJJ · 1:59 · <a href="https://www.youtube.com/watch?v=duFyN9AoWyE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Positional hierarchy explained, part 2</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=duFyN9AoWyE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

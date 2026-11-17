@@ -182,33 +182,30 @@ description: "Escape from Dead Orchard (attacker): The bottom player faces the o
       "@type": "VideoObject",
       "position": 1,
       "name": "Front headlock and darce escape via the stack",
-      "description": "Escape from Dead Orchard (Attacker) film study: Front headlock and darce escape via the stack, taught by BJJ101.",
+      "description": "Escape from Dead Orchard (Attacker) film study: Front headlock and darce escape via the stack.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FMAWiNfgp74/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FMAWiNfgp74",
       "url": "https://www.youtube.com/watch?v=FMAWiNfgp74",
-      "creator": { "@type": "Person", "name": "BJJ101" },
       "duration": "PT30S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Darce escape",
-      "description": "Escape from Dead Orchard (Attacker) film study: Darce escape, taught by Thunderdome BJJ.",
+      "description": "Escape from Dead Orchard (Attacker) film study: Darce escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iNZpCbutyrM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/iNZpCbutyrM",
       "url": "https://www.youtube.com/watch?v=iNZpCbutyrM",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
       "duration": "PT54S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Head and arm escape from turtle",
-      "description": "Escape from Dead Orchard (Attacker) film study: Head and arm escape from turtle, taught by Chosen Few BJJ.",
+      "description": "Escape from Dead Orchard (Attacker) film study: Head and arm escape from turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LTGHO-aRBxw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LTGHO-aRBxw",
       "url": "https://www.youtube.com/watch?v=LTGHO-aRBxw",
-      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
       "duration": "PT78S"
     }
   ]
@@ -252,7 +249,7 @@ Recover a forearm inside the passer's shoulder as the both-arm leg triangle open
 
 ![](https://www.youtube.com/watch?v=FMAWiNfgp74)
 
-<p class="clip-credit"><strong>Front headlock and darce escape via the stack</strong> — taught by BJJ101 · 0:30 · <a href="https://www.youtube.com/watch?v=FMAWiNfgp74" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front headlock and darce escape via the stack</strong> · 0:30 · <a href="https://www.youtube.com/watch?v=FMAWiNfgp74" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -260,7 +257,7 @@ Recover a forearm inside the passer's shoulder as the both-arm leg triangle open
 
 ![](https://www.youtube.com/watch?v=iNZpCbutyrM)
 
-<p class="clip-credit"><strong>Darce escape</strong> — taught by Thunderdome BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=iNZpCbutyrM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Darce escape</strong> · 0:54 · <a href="https://www.youtube.com/watch?v=iNZpCbutyrM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -268,7 +265,7 @@ Recover a forearm inside the passer's shoulder as the both-arm leg triangle open
 
 ![](https://www.youtube.com/watch?v=LTGHO-aRBxw)
 
-<p class="clip-credit"><strong>Head and arm escape from turtle</strong> — taught by Chosen Few BJJ · 1:18 · <a href="https://www.youtube.com/watch?v=LTGHO-aRBxw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Head and arm escape from turtle</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=LTGHO-aRBxw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

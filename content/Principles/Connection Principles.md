@@ -154,43 +154,39 @@ description: "Connections are the grips, frames, hooks, and body contacts that l
       "@type": "VideoObject",
       "position": 1,
       "name": "Anchoring your gi grips",
-      "description": "Connection Principles film study: Anchoring your gi grips, taught by Rory Van Vliet.",
+      "description": "Connection Principles film study: Anchoring your gi grips.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kIWRE6WBnr4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kIWRE6WBnr4",
-      "url": "https://www.youtube.com/watch?v=kIWRE6WBnr4",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=kIWRE6WBnr4"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Guard passing connection system explained",
-      "description": "Connection Principles film study: Guard passing connection system explained, taught by Kyle \u0027Bull\u0027 Sleeman.",
+      "description": "Connection Principles film study: Guard passing connection system explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/x05l4enyJzc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/x05l4enyJzc",
       "url": "https://www.youtube.com/watch?v=x05l4enyJzc",
-      "creator": { "@type": "Person", "name": "Kyle \u0027Bull\u0027 Sleeman" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Grip fighting: the key to controlling connection",
-      "description": "Connection Principles film study: Grip fighting: the key to controlling connection, taught by Jon Thomas.",
+      "description": "Connection Principles film study: Grip fighting: the key to controlling connection.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2oB9q88tXFc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2oB9q88tXFc",
       "url": "https://www.youtube.com/watch?v=2oB9q88tXFc",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
       "duration": "PT692S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Understanding no-gi grips and connection points",
-      "description": "Connection Principles film study: Understanding no-gi grips and connection points, taught by Rob Vella.",
+      "description": "Connection Principles film study: Understanding no-gi grips and connection points.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qmenbqzxJHM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/qmenbqzxJHM",
       "url": "https://www.youtube.com/watch?v=qmenbqzxJHM",
-      "creator": { "@type": "Person", "name": "Rob Vella" },
       "duration": "PT1136S"
     }
   ]
@@ -220,7 +216,7 @@ Give each contact a job: pull, frame, follow, or block. Replace a connection as 
 
 ![](https://www.youtube.com/watch?v=kIWRE6WBnr4)
 
-<p class="clip-credit"><strong>Anchoring your gi grips</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=kIWRE6WBnr4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anchoring your gi grips</strong> · <a href="https://www.youtube.com/watch?v=kIWRE6WBnr4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Give each contact a job: pull, frame, follow, or block. Replace a connection as 
 
 ![](https://www.youtube.com/watch?v=x05l4enyJzc)
 
-<p class="clip-credit"><strong>Guard passing connection system explained</strong> — taught by Kyle &#39;Bull&#39; Sleeman · 1:01 · <a href="https://www.youtube.com/watch?v=x05l4enyJzc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard passing connection system explained</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=x05l4enyJzc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Give each contact a job: pull, frame, follow, or block. Replace a connection as 
 
 ![](https://www.youtube.com/watch?v=2oB9q88tXFc)
 
-<p class="clip-credit"><strong>Grip fighting: the key to controlling connection</strong> — taught by Jon Thomas · 11:32 · <a href="https://www.youtube.com/watch?v=2oB9q88tXFc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Grip fighting: the key to controlling connection</strong> · 11:32 · <a href="https://www.youtube.com/watch?v=2oB9q88tXFc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Give each contact a job: pull, frame, follow, or block. Replace a connection as 
 
 ![](https://www.youtube.com/watch?v=qmenbqzxJHM)
 
-<p class="clip-credit"><strong>Understanding no-gi grips and connection points</strong> — taught by Rob Vella · 18:56 · <a href="https://www.youtube.com/watch?v=qmenbqzxJHM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Understanding no-gi grips and connection points</strong> · 18:56 · <a href="https://www.youtube.com/watch?v=qmenbqzxJHM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

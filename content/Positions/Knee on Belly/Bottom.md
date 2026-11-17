@@ -167,33 +167,30 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
       "@type": "VideoObject",
       "position": 1,
       "name": "BJJ | How To Escape The Knee On Belly Position",
-      "description": "Knee on Belly (Bottom) film study: BJJ | How To Escape The Knee On Belly Position, taught by Evolve MMA.",
+      "description": "Knee on Belly (Bottom) film study: BJJ | How To Escape The Knee On Belly Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
       "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
       "duration": "PT40S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Knee on Belly Escape to Heelhook",
-      "description": "Knee on Belly (Bottom) film study: Knee on Belly Escape to Heelhook, taught by Thunderdome BJJ.",
+      "description": "Knee on Belly (Bottom) film study: Knee on Belly Escape to Heelhook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LvhfomaVNqw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LvhfomaVNqw",
       "url": "https://www.youtube.com/watch?v=LvhfomaVNqw",
-      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
       "duration": "PT30S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Side Control Escape from Bottom as they transition to knee on belly and mount",
-      "description": "Knee on Belly (Bottom) film study: Side Control Escape from Bottom as they transition to knee on belly and mount, taught by John Kelly.",
+      "description": "Knee on Belly (Bottom) film study: Side Control Escape from Bottom as they transition to knee on belly and mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DagXZb2hses/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DagXZb2hses",
       "url": "https://www.youtube.com/watch?v=DagXZb2hses",
-      "creator": { "@type": "Person", "name": "John Kelly" },
       "duration": "PT58S"
     }
   ]
@@ -225,7 +222,7 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 
 ![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
 
-<p class="clip-credit"><strong>BJJ | How To Escape The Knee On Belly Position</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ | How To Escape The Knee On Belly Position</strong> · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -233,7 +230,7 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 
 ![](https://www.youtube.com/watch?v=LvhfomaVNqw)
 
-<p class="clip-credit"><strong>Knee on Belly Escape to Heelhook</strong> — taught by Thunderdome BJJ · 0:30 · <a href="https://www.youtube.com/watch?v=LvhfomaVNqw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee on Belly Escape to Heelhook</strong> · 0:30 · <a href="https://www.youtube.com/watch?v=LvhfomaVNqw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -241,7 +238,7 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 
 ![](https://www.youtube.com/watch?v=DagXZb2hses)
 
-<p class="clip-credit"><strong>Side Control Escape from Bottom as they transition to knee on belly and mount</strong> — taught by John Kelly · 0:58 · <a href="https://www.youtube.com/watch?v=DagXZb2hses" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control Escape from Bottom as they transition to knee on belly and mount</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=DagXZb2hses" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

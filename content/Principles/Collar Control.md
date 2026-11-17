@@ -154,43 +154,39 @@ description: "Collar control uses gi grips to influence posture, maintain connec
       "@type": "VideoObject",
       "position": 1,
       "name": "Collar choke control: less arms, more body",
-      "description": "Collar Control film study: Collar choke control: less arms, more body, taught by Nick Albin.",
+      "description": "Collar Control film study: Collar choke control: less arms, more body.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IeVNnGvIlpk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IeVNnGvIlpk",
-      "url": "https://www.youtube.com/watch?v=IeVNnGvIlpk",
-      "creator": { "@type": "Person", "name": "Nick Albin" }
+      "url": "https://www.youtube.com/watch?v=IeVNnGvIlpk"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "The one grip detail that makes the collar choke work",
-      "description": "Collar Control film study: The one grip detail that makes the collar choke work, taught by Henry Akins.",
+      "description": "Collar Control film study: The one grip detail that makes the collar choke work.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X93MdMlmrUg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/X93MdMlmrUg",
       "url": "https://www.youtube.com/watch?v=X93MdMlmrUg",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
       "duration": "PT77S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Collar and sleeve control from closed guard",
-      "description": "Collar Control film study: Collar and sleeve control from closed guard, taught by Roger Gracie.",
+      "description": "Collar Control film study: Collar and sleeve control from closed guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/P5SeCRensWQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/P5SeCRensWQ",
       "url": "https://www.youtube.com/watch?v=P5SeCRensWQ",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
       "duration": "PT930S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Understanding and breaking gi collar grips",
-      "description": "Collar Control film study: Understanding and breaking gi collar grips, taught by RVV BJJ.",
+      "description": "Collar Control film study: Understanding and breaking gi collar grips.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Y2XDKeuSOA0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Y2XDKeuSOA0",
       "url": "https://www.youtube.com/watch?v=Y2XDKeuSOA0",
-      "creator": { "@type": "Person", "name": "RVV BJJ" },
       "duration": "PT657S"
     }
   ]
@@ -220,7 +216,7 @@ Choose grip depth and direction for the position you want. Connect the collar gr
 
 ![](https://www.youtube.com/watch?v=IeVNnGvIlpk)
 
-<p class="clip-credit"><strong>Collar choke control: less arms, more body</strong> — taught by Nick Albin · <a href="https://www.youtube.com/watch?v=IeVNnGvIlpk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Collar choke control: less arms, more body</strong> · <a href="https://www.youtube.com/watch?v=IeVNnGvIlpk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Choose grip depth and direction for the position you want. Connect the collar gr
 
 ![](https://www.youtube.com/watch?v=X93MdMlmrUg)
 
-<p class="clip-credit"><strong>The one grip detail that makes the collar choke work</strong> — taught by Henry Akins · 1:17 · <a href="https://www.youtube.com/watch?v=X93MdMlmrUg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The one grip detail that makes the collar choke work</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=X93MdMlmrUg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Choose grip depth and direction for the position you want. Connect the collar gr
 
 ![](https://www.youtube.com/watch?v=P5SeCRensWQ)
 
-<p class="clip-credit"><strong>Collar and sleeve control from closed guard</strong> — taught by Roger Gracie · 15:30 · <a href="https://www.youtube.com/watch?v=P5SeCRensWQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Collar and sleeve control from closed guard</strong> · 15:30 · <a href="https://www.youtube.com/watch?v=P5SeCRensWQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Choose grip depth and direction for the position you want. Connect the collar gr
 
 ![](https://www.youtube.com/watch?v=Y2XDKeuSOA0)
 
-<p class="clip-credit"><strong>Understanding and breaking gi collar grips</strong> — taught by RVV BJJ · 10:57 · <a href="https://www.youtube.com/watch?v=Y2XDKeuSOA0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Understanding and breaking gi collar grips</strong> · 10:57 · <a href="https://www.youtube.com/watch?v=Y2XDKeuSOA0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

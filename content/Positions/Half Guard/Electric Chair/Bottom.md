@@ -159,8 +159,8 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Eddie Bravo Getting to Electric Chair",
-      "description": "Electric Chair (Bottom) film study: Eddie Bravo Getting to Electric Chair.",
+      "name": "Getting to Electric Chair",
+      "description": "Electric Chair (Bottom) film study: Getting to Electric Chair.",
       "thumbnailUrl": "https://i.ytimg.com/vi/l7nTPVFdlF4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/l7nTPVFdlF4",
       "url": "https://www.youtube.com/watch?v=l7nTPVFdlF4",
@@ -216,7 +216,7 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 
 ![](https://www.youtube.com/watch?v=l7nTPVFdlF4)
 
-<p class="clip-credit"><strong>Eddie Bravo Getting to Electric Chair</strong> · 5:16 · <a href="https://www.youtube.com/watch?v=l7nTPVFdlF4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Getting to Electric Chair</strong> · 5:16 · <a href="https://www.youtube.com/watch?v=l7nTPVFdlF4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

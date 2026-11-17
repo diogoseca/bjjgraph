@@ -168,11 +168,10 @@ description: "Master offensive strategies from top Mount in BJJ. Learn control m
       "@type": "VideoObject",
       "position": 1,
       "name": "Full Mount/Top Control",
-      "description": "Mount (Top) film study: Full Mount/Top Control, taught by Formidable Combat.",
+      "description": "Mount (Top) film study: Full Mount/Top Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SGZ5wD3z73Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SGZ5wD3z73Q",
       "url": "https://www.youtube.com/watch?v=SGZ5wD3z73Q",
-      "creator": { "@type": "Person", "name": "Formidable Combat" },
       "duration": "PT106S"
     }
   ]
@@ -213,7 +212,7 @@ Mount retention mechanics require constant adjustment. When the bottom player br
 
 ![](https://www.youtube.com/watch?v=SGZ5wD3z73Q)
 
-<p class="clip-credit"><strong>Full Mount/Top Control</strong> — taught by Formidable Combat · 1:46 · <a href="https://www.youtube.com/watch?v=SGZ5wD3z73Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Full Mount/Top Control</strong> · 1:46 · <a href="https://www.youtube.com/watch?v=SGZ5wD3z73Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,8 +46,8 @@ description: "Master the Kimura shoulder lock from overhook control. Complete gu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin",
-      "description": "Kimura from Overhook Control film study: New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin.",
+      "name": "New Concept BJJ | Kimura From The Overhook | NoGi",
+      "description": "Kimura from Overhook Control film study: New Concept BJJ | Kimura From The Overhook | NoGi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/67Meai2C0LQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/67Meai2C0LQ",
       "url": "https://www.youtube.com/watch?v=67Meai2C0LQ",
@@ -56,8 +56,8 @@ description: "Master the Kimura shoulder lock from overhook control. Complete gu
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy",
-      "description": "Kimura from Overhook Control film study: Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy.",
+      "name": "Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech",
+      "description": "Kimura from Overhook Control film study: Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech.",
       "thumbnailUrl": "https://i.ytimg.com/vi/v3f_RYd1W4s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/v3f_RYd1W4s?start=44",
       "url": "https://www.youtube.com/watch?v=v3f_RYd1W4s",
@@ -123,7 +123,7 @@ Finishing the Kimura from overhook control often requires different body mechani
 
 ![](https://www.youtube.com/watch?v=67Meai2C0LQ)
 
-<p class="clip-credit"><strong>New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=67Meai2C0LQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>New Concept BJJ | Kimura From The Overhook | NoGi</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=67Meai2C0LQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -131,7 +131,7 @@ Finishing the Kimura from overhook control often requires different body mechani
 
 ![](https://www.youtube.com/watch?v=v3f_RYd1W4s&start=44)
 
-<p class="clip-credit"><strong>Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy</strong> · 4:51 · <a href="https://www.youtube.com/watch?v=v3f_RYd1W4s&t=44s" rel="noopener">Watch on YouTube from 0:44</a></p>
+<p class="clip-credit"><strong>Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech</strong> · 4:51 · <a href="https://www.youtube.com/watch?v=v3f_RYd1W4s&t=44s" rel="noopener">Watch on YouTube from 0:44</a></p>
 
 </div>
 

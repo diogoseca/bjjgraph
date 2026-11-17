@@ -152,8 +152,8 @@ description: "Learn to prevent hook insertion from seat belt back control. Defen
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping Back Control Seatbelt with no Hooks (Dinu Bucalet)",
-      "description": "Seat Belt to Full Back Control (Defender) film study: Escaping Back Control Seatbelt with no Hooks (Dinu Bucalet).",
+      "name": "Escaping Back Control Seatbelt with no Hooks",
+      "description": "Seat Belt to Full Back Control (Defender) film study: Escaping Back Control Seatbelt with no Hooks.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hGzykDrlskc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hGzykDrlskc",
       "url": "https://www.youtube.com/watch?v=hGzykDrlskc",
@@ -187,7 +187,7 @@ As the defender against Seat Belt to Full Back Control, your objective is preven
 
 ![](https://www.youtube.com/watch?v=hGzykDrlskc)
 
-<p class="clip-credit"><strong>Escaping Back Control Seatbelt with no Hooks (Dinu Bucalet)</strong> · 2:19 · <a href="https://www.youtube.com/watch?v=hGzykDrlskc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Back Control Seatbelt with no Hooks</strong> · 2:19 · <a href="https://www.youtube.com/watch?v=hGzykDrlskc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

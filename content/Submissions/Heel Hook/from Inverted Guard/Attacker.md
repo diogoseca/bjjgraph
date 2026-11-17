@@ -196,8 +196,8 @@ description: "Learn to execute the heel hook from inverted guard. Step-by-step i
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Lachlan Giles shows how to use hips and get inverted heel hook",
-      "description": "Heel Hook from Inverted Guard (Attacker) film study: Lachlan Giles shows how to use hips and get inverted heel hook.",
+      "name": "How to use hips and get inverted heel hook",
+      "description": "Heel Hook from Inverted Guard (Attacker) film study: How to use hips and get inverted heel hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/S8ZH_9F18jw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/S8ZH_9F18jw",
       "url": "https://www.youtube.com/watch?v=S8ZH_9F18jw",
@@ -240,7 +240,7 @@ Attacking with the heel hook from inverted guard requires precise timing of the 
 
 ![](https://www.youtube.com/watch?v=S8ZH_9F18jw)
 
-<p class="clip-credit"><strong>Lachlan Giles shows how to use hips and get inverted heel hook</strong> · 1:43 · <a href="https://www.youtube.com/watch?v=S8ZH_9F18jw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to use hips and get inverted heel hook</strong> · 1:43 · <a href="https://www.youtube.com/watch?v=S8ZH_9F18jw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -48,44 +48,40 @@ description: "Master modified scarf hold in BJJ. Strategic guide covering contro
       "@type": "VideoObject",
       "position": 1,
       "name": "No Gi Judo | \u5d29\u8888\u88df\u56fa | Kuzure Kesa Gatame (Broken scarf hold)",
-      "description": "Kuzure Kesa Gatame film study: No Gi Judo | \u5d29\u8888\u88df\u56fa | Kuzure Kesa Gatame (Broken scarf hold), taught by Sampson Judo.",
+      "description": "Kuzure Kesa Gatame film study: No Gi Judo | \u5d29\u8888\u88df\u56fa | Kuzure Kesa Gatame (Broken scarf hold).",
       "thumbnailUrl": "https://i.ytimg.com/vi/oXzrusNRq70/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oXzrusNRq70",
       "url": "https://www.youtube.com/watch?v=oXzrusNRq70",
-      "creator": { "@type": "Person", "name": "Sampson Judo" },
       "duration": "PT19S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Kesa Gatame escape",
-      "description": "Kuzure Kesa Gatame film study: Kesa Gatame escape, taught by SBG Australia.",
+      "description": "Kuzure Kesa Gatame film study: Kesa Gatame escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
       "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
       "duration": "PT42S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing",
-      "description": "Kuzure Kesa Gatame film study: Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing, taught by Kohbukan Sisu.",
+      "description": "Kuzure Kesa Gatame film study: Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
       "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
-      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
       "duration": "PT83S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Kesa Gatame - Basic Scarf Hold",
-      "description": "Kuzure Kesa Gatame film study: Kesa Gatame - Basic Scarf Hold, taught by Grappler Station.",
+      "description": "Kuzure Kesa Gatame film study: Kesa Gatame - Basic Scarf Hold.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TfNpVcekHGg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TfNpVcekHGg",
       "url": "https://www.youtube.com/watch?v=TfNpVcekHGg",
-      "creator": { "@type": "Person", "name": "Grappler Station" },
       "duration": "PT120S"
     }
   ]
@@ -144,7 +140,7 @@ The strategic importance of Kuzure Kesa Gatame in modern BJJ cannot be overstate
 
 ![](https://www.youtube.com/watch?v=oXzrusNRq70)
 
-<p class="clip-credit"><strong>No Gi Judo | 崩袈裟固 | Kuzure Kesa Gatame (Broken scarf hold)</strong> — taught by Sampson Judo · 0:19 · <a href="https://www.youtube.com/watch?v=oXzrusNRq70" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No Gi Judo | 崩袈裟固 | Kuzure Kesa Gatame (Broken scarf hold)</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=oXzrusNRq70" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -152,7 +148,7 @@ The strategic importance of Kuzure Kesa Gatame in modern BJJ cannot be overstate
 
 ![](https://www.youtube.com/watch?v=2M_6VytUaus)
 
-<p class="clip-credit"><strong>Kesa Gatame escape</strong> — taught by SBG Australia · 0:42 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame escape</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -160,7 +156,7 @@ The strategic importance of Kuzure Kesa Gatame in modern BJJ cannot be overstate
 
 ![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
 
-<p class="clip-credit"><strong>Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing</strong> — taught by Kohbukan Sisu · 1:23 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -168,7 +164,7 @@ The strategic importance of Kuzure Kesa Gatame in modern BJJ cannot be overstate
 
 ![](https://www.youtube.com/watch?v=TfNpVcekHGg)
 
-<p class="clip-credit"><strong>Kesa Gatame - Basic Scarf Hold</strong> — taught by Grappler Station · 2:00 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame - Basic Scarf Hold</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

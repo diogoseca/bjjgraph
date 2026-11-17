@@ -47,33 +47,30 @@ description: "Master the Brabo Choke in BJJ. Complete guide with safety protocol
       "@type": "VideoObject",
       "position": 1,
       "name": "Darce Choke from the Front Headlock",
-      "description": "Brabo Choke film study: Darce Choke from the Front Headlock, taught by Procel BJJ.",
+      "description": "Brabo Choke film study: Darce Choke from the Front Headlock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/BMU1_wfjYTw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/BMU1_wfjYTw",
       "url": "https://www.youtube.com/watch?v=BMU1_wfjYTw",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
       "duration": "PT101S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Half Nelson to D\u0027Arce/Brabo Choke",
-      "description": "Brabo Choke film study: Half Nelson to D\u0027Arce/Brabo Choke, taught by Joshua Clements.",
+      "description": "Brabo Choke film study: Half Nelson to D\u0027Arce/Brabo Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dS5HQNSyuXs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dS5HQNSyuXs",
       "url": "https://www.youtube.com/watch?v=dS5HQNSyuXs",
-      "creator": { "@type": "Person", "name": "Joshua Clements" },
       "duration": "PT94S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Brabo Choke from Turtle",
-      "description": "Brabo Choke film study: Brabo Choke from Turtle, taught by Thiago Stefanutti.",
+      "description": "Brabo Choke film study: Brabo Choke from Turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pad9c-Ldljg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pad9c-Ldljg",
       "url": "https://www.youtube.com/watch?v=pad9c-Ldljg",
-      "creator": { "@type": "Person", "name": "Thiago Stefanutti" },
       "duration": "PT46S"
     }
   ]
@@ -138,7 +135,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 ![](https://www.youtube.com/watch?v=BMU1_wfjYTw)
 
-<p class="clip-credit"><strong>Darce Choke from the Front Headlock</strong> — taught by Procel BJJ · 1:41 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Darce Choke from the Front Headlock</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +143,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 ![](https://www.youtube.com/watch?v=dS5HQNSyuXs)
 
-<p class="clip-credit"><strong>Half Nelson to D&#39;Arce/Brabo Choke</strong> — taught by Joshua Clements · 1:34 · <a href="https://www.youtube.com/watch?v=dS5HQNSyuXs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half Nelson to D&#39;Arce/Brabo Choke</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=dS5HQNSyuXs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -154,7 +151,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 ![](https://www.youtube.com/watch?v=pad9c-Ldljg)
 
-<p class="clip-credit"><strong>Brabo Choke from Turtle</strong> — taught by Thiago Stefanutti · 0:46 · <a href="https://www.youtube.com/watch?v=pad9c-Ldljg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Brabo Choke from Turtle</strong> · 0:46 · <a href="https://www.youtube.com/watch?v=pad9c-Ldljg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,8 +46,8 @@ description: "Master the Counter from Estima Lock in BJJ. Complete guide to coun
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Fernando Reis Counter to Estima Foot Lock Gi",
-      "description": "Counter from Estima Lock film study: Fernando Reis Counter to Estima Foot Lock Gi.",
+      "name": "Counter to Estima Foot Lock Gi",
+      "description": "Counter from Estima Lock film study: Counter to Estima Foot Lock Gi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ESNrUEVZOL8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ESNrUEVZOL8",
       "url": "https://www.youtube.com/watch?v=ESNrUEVZOL8",
@@ -107,7 +107,7 @@ This transition connects the Estima Lock defensive position to open guard recove
 
 ![](https://www.youtube.com/watch?v=ESNrUEVZOL8)
 
-<p class="clip-credit"><strong>Fernando Reis Counter to Estima Foot Lock Gi</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=ESNrUEVZOL8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Counter to Estima Foot Lock Gi</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=ESNrUEVZOL8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

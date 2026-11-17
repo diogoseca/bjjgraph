@@ -176,11 +176,10 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
       "@type": "VideoObject",
       "position": 2,
       "name": "Effortless Jiu Jitsu Explained - Open Guard Warm Up",
-      "description": "Open Guard (Bottom) film study: Effortless Jiu Jitsu Explained - Open Guard Warm Up, taught by Jiu Jitsu Vintage.",
+      "description": "Open Guard (Bottom) film study: Effortless Jiu Jitsu Explained - Open Guard Warm Up.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aYknDsVN5aM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aYknDsVN5aM",
       "url": "https://www.youtube.com/watch?v=aYknDsVN5aM",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu Vintage" },
       "duration": "PT106S"
     }
   ]
@@ -217,7 +216,7 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 ![](https://www.youtube.com/watch?v=aYknDsVN5aM)
 
-<p class="clip-credit"><strong>Effortless Jiu Jitsu Explained - Open Guard Warm Up</strong> — taught by Jiu Jitsu Vintage · 1:46 · <a href="https://www.youtube.com/watch?v=aYknDsVN5aM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Effortless Jiu Jitsu Explained - Open Guard Warm Up</strong> · 1:46 · <a href="https://www.youtube.com/watch?v=aYknDsVN5aM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
