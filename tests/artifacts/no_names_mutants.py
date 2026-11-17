@@ -1,17 +1,22 @@
 #!/usr/bin/env python3
 """Mutants for scripts/check_no_names.py --built (v1.289.0). NOT a gate: a probe that proves the gate's PINNED claims.
 
-The independent read of PR #433 built these 25 mutants (its scratch mutants.py; 19 survived the v1.288.0 gate). Rerun on a
-scratch tree assembled from a BUILT site: one page (Transitions/Advance-to-Chill-Dog), three dossier chunks, and a link to
-content/ (the gate's name list). Each mutant is applied alone to a fresh copy; the control must be green and every mutant
-red, each at the check the gate names; two zero controls (an empty tree, pages with no payload) must be red.
-  python3 tests/artifacts/no_names_mutants.py            # needs source/public from npm run build
+The independent read of PR #433 built the first 25 mutants (19 survived the v1.288.0 gate); the read of PR #435 added the
+rest (the export uncounted, a removed label back, a `by` beside a `url`, an unreadable VideoObject block, a name list
+that shrank). Run on a scratch tree assembled from a BUILT site: one page (Transitions/Advance-to-Chill-Dog), one dossier
+chunk, the page's agent export, llms.txt, the label list, and a link to content/ (the gate's name list). Each mutant is
+applied alone to a fresh copy; every control must be green and every mutant red, the new ones at the check they NAME (a
+substring of the gate's own message); two zero controls (an empty tree, pages with no payload) must be red.
+  python3 tests/artifacts/no_names_mutants.py [built-tree]   # default source/public, from npm run build
+The scratch tree goes under TMPDIR (tempfile's default).
 """
 import json, shutil, subprocess, sys, tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-PUB = ROOT / "source/public"
+PUB = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else ROOT / "source/public"
+EXPORT_REL = "markdown/Transitions/Advance-to-Chill-Dog.md"
+LABELS_REL = "tests/artifacts/no_names_labels.json"
 PAGE_REL = "Transitions/Advance-to-Chill-Dog.html"
 NAME = "Marshall Stamper"          # a `by` value in content/ (Advance to Chill Dog's attacker clips)
 CREDIT0 = '<p class="clip-credit"><strong>Meathook to Chill Dog to kimura finishes</strong> · 1:13'
@@ -35,17 +40,33 @@ def main():
     for s in (CREDIT0, VO0, VO0_URL): assert s in page, "the probe's anchor moved: " + s[:60]
     chunks = sorted((PUB / "static/neural/content").glob("*.json"))
     chunk_with_clip = next(c for c in chunks if '"title"' in c.read_text())
-    tmp = Path(tempfile.mkdtemp(prefix="nonames-mut-", dir="/home/user/tmp-pw"))
+    export = (PUB / EXPORT_REL).read_text(); llms = (PUB / "llms.txt").read_text()
+    assert "Watch on YouTube" in export, "the probe's export page has no credit line"
+    tmp = Path(tempfile.mkdtemp(prefix="nonames-mut-"))
     try:
         (tmp / "scripts").mkdir(); shutil.copy(ROOT / "scripts/check_no_names.py", tmp / "scripts/")
-        (tmp / "content").symlink_to(ROOT / "content")
-        base = tmp / "source/public"
+        base = tmp / "source/public"; content = tmp / "content"; labels = tmp / LABELS_REL
 
         def fresh():
             if base.exists(): shutil.rmtree(base)
             (base / "Transitions").mkdir(parents=True); (base / PAGE_REL).write_text(page)
             (base / "static/neural/content").mkdir(parents=True)
             shutil.copy(chunk_with_clip, base / "static/neural/content" / chunk_with_clip.name)
+            (base / EXPORT_REL).parent.mkdir(parents=True); (base / EXPORT_REL).write_text(export)
+            (base / "llms.txt").write_text(llms)
+            if content.is_symlink(): content.unlink()
+            elif content.exists(): shutil.rmtree(content)
+            content.symlink_to(ROOT / "content")
+            labels.parent.mkdir(parents=True, exist_ok=True); shutil.copy(ROOT / LABELS_REL, labels)
+
+        def short_names():
+            # a content/ whose clips name five people only: the list falls far below NAME_FLOOR
+            content.unlink(); content.mkdir()
+            (content / "x.json").write_text(json.dumps({"clips": [{"id": "Q2aYW-20B44", "title": "t", "by": f"Person {i}"} for i in range(5)]}))
+            (base / PAGE_REL).write_text(page.replace(CREDIT0, CREDIT0.replace("</strong>", " by Gracie Charlottesville</strong>"), 1))
+
+        def both(*fs):
+            return lambda: [f() for f in fs]
 
         def page_mut(old, new):
             return lambda: (base / PAGE_REL).write_text(page.replace(old, new, 1))
@@ -61,6 +82,7 @@ def main():
             return m
 
         s = lambda t: CREDIT0.replace("</strong>", "</strong>" + t)
+        t = lambda title: CREDIT0.replace("Meathook to Chill Dog to kimura finishes", title)
         M = [
             ("control: unmodified", lambda: None, 0),
             ("credit '— taught by X'", page_mut(CREDIT0, s(" — taught by " + NAME)), 1),
@@ -88,21 +110,41 @@ def main():
             ("by on a clip in concepts.json", extra("static/neural/concepts.json", json.dumps({"c": {"clips": [{"id": "Q2aYW-20B44", "title": "t", "by": NAME}]}})), 1),
             ("credit in the agent export", extra("markdown/Transitions/Advance-to-Chill-Dog.md", "**Meathook** — taught by " + NAME + " · 1:13 · [Watch on YouTube](<https://www.youtube.com/watch?v=Q2aYW-20B44>)\n"), 1),
             ("credit in llms.txt", extra("llms.txt", "Meathook to Chill Dog — taught by " + NAME + "\n"), 1),
+            # the read of PR #435 (NONAMES2-R1): each red at the check it names
+            ("green control: eponyms in a credit (the London, Kimura, De La Riva)", page_mut(CREDIT0, t("The London and Why It Left the System: Kimura from De La Riva")), 0),
+            ("the agent export removed (no markdown/, no llms.txt)", lambda: (shutil.rmtree(base / "markdown"), (base / "llms.txt").unlink()), "the agent export is absent"),
+            ("no llms.txt", lambda: (base / "llms.txt").unlink(), "llms.txt: absent"),
+            ("an export with 0 credit lines", extra(EXPORT_REL, "# Advance to Chill Dog\n\nNo film here.\n"), "0 exported credit lines"),
+            ("a removed label back in a credit: 'TMG Clips #104 - …'", page_mut(CREDIT0, t("TMG Clips #104 - Easy Shin To Shin Sweep")), "removed label 'TMG Clips'"),
+            ("the owner's case in a credit: 'Why left the 10th Planet system'", page_mut(CREDIT0, t("Why left the 10th Planet system")), "removed label '10th Planet'"),
+            ("a gym as a glued tag in a credit: '…closedguard#graciewestchase'", page_mut(CREDIT0, t("Breaking posture in closed guard #closedguard#graciewestchase")), "removed label '#graciewestchase'"),
+            ("a removed label in a shipped clip's title", chunk_mut(lambda d: first_clip(d).__setitem__("title", "WazaTube: Monoplata Counter")), "title carries the removed label 'WazaTube'"),
+            ("a removed label in an exported credit", extra(EXPORT_REL, "**MTS 195 Advanced Arm Triangle** · 1:13 · [Watch on YouTube](<https://www.youtube.com/watch?v=Q2aYW-20B44>)\n"), "exported credit carries the removed label 'MTS'"),
+            ("the label list emptied", lambda: labels.write_text(json.dumps({"labels": {}})), "0 labels on the list"),
+            ("the label list missing", lambda: labels.unlink(), "0 labels on the list"),
+            ("by on a shipped clip that also has url", chunk_mut(lambda d: first_clip(d).update({"by": NAME, "url": "https://example.org/x"})), "ships a `by` key"),
+            ("by on a clip in a .js under static/neural", extra("static/neural/app/x.js", 'var c=[{"id":"Q2aYW-20B44","title":"t","by":"' + NAME + '"}];'), "ships a `by` key"),
+            ("by on a clip in a JSON file that does not parse", extra("static/neural/content/broken.json", '[{"id":"Q2aYW-20B44","title":"t","by":"' + NAME + '"},]'), "ships a `by` key"),
+            ("a VideoObject block that does not parse", page_mut('<script type="application/ld+json">', '<script type="application/ld+json">{"@type":"VideoObject","name":"x","creator":{"name":"' + NAME + '"},}</script><script type="application/ld+json">'), "does not parse"),
+            ("the name list shrunk to 5, a gym back in a credit", short_names, "below its floor"),
         ]
         bad = 0
         for name, mut, want in M:
             fresh(); mut()
             r = subprocess.run([sys.executable, "-B", "scripts/check_no_names.py", "--built"], cwd=tmp, capture_output=True, text=True)
-            ok = bool(r.returncode) == bool(want); bad += not ok
-            why = next((l.strip() for l in r.stdout.splitlines() if l.startswith("  ")), "") if r.returncode else ""
-            print(f"{'RED  ' if r.returncode else 'green'} {'ok ' if ok else 'BAD'} {name}" + (f"  :: {why[:110]}" if why else ""))
-        shutil.rmtree(base); base.mkdir(parents=True)
+            found = [l.strip() for l in r.stdout.splitlines() if l.startswith("  ")] if r.returncode else []
+            named = [l for l in found if isinstance(want, str) and want in l]      # a new mutant must be red AT ITS CHECK
+            ok = bool(r.returncode) == bool(want) and (not isinstance(want, str) or bool(named)); bad += not ok
+            why = (named or found or [""])[0]
+            print(f"{'RED  ' if r.returncode else 'green'} {'ok ' if ok else 'BAD'} {name}" + (f"  :: {why[:120]}" if why else ""))
+        fresh(); shutil.rmtree(base); base.mkdir(parents=True)
         r = subprocess.run([sys.executable, "-B", "scripts/check_no_names.py", "--built"], cwd=tmp, capture_output=True, text=True)
         print(f"{'RED  ' if r.returncode else 'green'} {'ok ' if r.returncode else 'BAD'} zero control: empty tree"); bad += not r.returncode
         (base / PAGE_REL).parent.mkdir(parents=True); (base / PAGE_REL).write_text(page)
         r = subprocess.run([sys.executable, "-B", "scripts/check_no_names.py", "--built"], cwd=tmp, capture_output=True, text=True)
         print(f"{'RED  ' if r.returncode else 'green'} {'ok ' if r.returncode else 'BAD'} zero control: pages, no payload"); bad += not r.returncode
-        print(("PASS" if not bad else "FAIL") + f": {len(M) - 1} mutants and 2 zero controls, {bad} wrong")
+        n_green = sum(1 for _, _, w in M if not w)
+        print(("PASS" if not bad else "FAIL") + f": {len(M) - n_green} mutants, {n_green} green controls and 2 zero controls, {bad} wrong")
         return 1 if bad else 0
     finally:
         shutil.rmtree(tmp)

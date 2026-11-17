@@ -591,22 +591,49 @@ names the technique, never who teaches it: a technique or position named after a
 (Kimura, De La Riva, the London). `by` and `channel` stay in the source JSON as provenance, but nothing
 renders them: no "taught by" credit, no JSON-LD `creator`, no name in the app's "Watch:" label, on the wire
 or in the digest email. The YouTube player shows the channel when a video opens; that is YouTube's, not
-ours. As of v1.289.0 the titles have lost the persons, gyms, channels and brands they named; a competition that
-describes the video (ADCC-style, a UFC finish) and a technique that shares a brand word (the Matrix) stay. Names in
-authored prose are not covered here: that is the owner's call.
+ours. v1.289.0 took the gyms, channels, series and brands it found out of the titles (277 clip rows, 208 distinct
+titles); a competition that describes the video (ADCC-style, a UFC finish) and a technique that shares a brand word
+(the Matrix) stay. Names in authored prose are not covered here: that is the owner's call.
 
-`npm run validate:no-names` (`scripts/check_no_names.py`), in CLAUDE.md §6.9's three forms:
+`npm run validate:no-names` (`scripts/check_no_names.py`) works from two lists, and neither is the rule itself:
 
-- **Pinned** (the independent read's 25 mutants, each red at a named check: `tests/artifacts/no_names_mutants.py`): its
-  name list is every `by` and `channel` value on a clip in `content/`, less named exceptions (a generic word such as
-  "Escapes", each with its reason). No name and no "taught by" in a credit line or the film-study section; no
-  person-ish key and no name in any string of a JSON-LD block that holds a VideoObject; every clip under
-  `static/neural/**` carries only the player fields (an allow-list) and no name in its title; in `--built` mode, no
-  name in the agent export's credit lines or next to "taught by" in `llms.txt`; positive counts, each red on zero.
-- **Partially pinned:** the counts are aggregate, not per-family floors; a person named only in a title, never as a
-  clip's `by` or `channel`, is not on the list.
-- **UNGUARDED:** names in authored prose (articles, flashcards and their FAQ JSON-LD, Systems guides, references), and
-  JSON-LD blocks with no VideoObject.
+- the **name list**: every `by` and `channel` value on a clip in `content/`, less named exceptions (a generic word such
+  as "Escapes", each with its reason). A name matches only as one whole value. The list has a floor (`NAME_FLOOR`,
+  moved by hand);
+- the **label list**, `tests/artifacts/no_names_labels.json`: the labels v1.289.0 removed from titles that are no
+  clip's `by` or `channel` (a series, a show, a tag, a handle, a web address, a short form, "10th Planet"), each with
+  the count of titles it left. A ratchet: none may come back in a clip title or a credit line. A label a technique is
+  named by (the London, Kimura) never goes on it.
+
+What it holds, in CLAUDE.md §6.9's three forms:
+
+- **Pinned** (`tests/artifacts/no_names_mutants.py`: 40 mutants, each red at a named check, from green controls):
+  - in a credit line: no listed name, no listed label, no "taught by"; in the film-study section: no listed name, no
+    "taught by";
+  - in a JSON-LD block that holds a VideoObject: no person-ish key and no listed name in any string; a block that
+    mentions VideoObject and does not parse is a finding;
+  - under `static/neural/**`: every clip carries only the player fields (an allow-list), with no listed name or label
+    in its title, and no file of any kind holds a quoted `by` key;
+  - in `--built` mode: the agent export's credit lines the same, no name next to "taught by" in `llms.txt`, and a
+    missing export or `llms.txt` is a finding;
+  - positive counts, each red on zero: names (at least the floor), labels, credit lines, VideoObjects, shipped clips
+    and, built, the exported credit lines.
+- **Partially pinned:**
+  - **A name matches only as one whole `by` or `channel` value.** A part of one (a surname, a possessive), the same
+    name as a tag, a handle or hyphenated, and a person, gym, show or series that is no clip's `by` or `channel` and
+    not on the label list all pass. Measured on v1.289.0's 208 rewritten titles, each put back: the name list flags
+    53, the two lists together 193; the other 15 are named in the label file (`_meta.not_held`).
+  - The label list is a ratchet on what was removed, not a detector: a new show or gym nobody listed passes.
+  - The floor sits 48 under the list, so a smaller loss of names passes.
+  - The checks are bound to today's markup: "taught by" in another element, an attribute or a meta description, a
+    single-quoted class or script type, and a name on an exported film line with no "Watch on YouTube" pass.
+  - A `by` written unquoted in a script passes; `static/contentIndex.json` and the RSS feed are not read; the counts
+    are aggregate, not per-family floors.
+  - The source JSON's titles are not read: a name back in a source title shows only once its page is regenerated
+    (the generator gate refuses the unregenerated page).
+- **UNGUARDED:** names in authored prose (articles, flashcards and their FAQ JSON-LD, Systems guides and their course
+  listings, references), JSON-LD blocks with no VideoObject, and a bare name in `llms.txt`. Persons by surname wait
+  for the prose check's names lexicon.
 
 Position hub clips supplement a role dossier
 only when `half` names that role or `both`; an untagged hub clip reaches neither role. A clip authored
