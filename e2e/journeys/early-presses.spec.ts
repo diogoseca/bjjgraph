@@ -286,7 +286,7 @@ for (const touch of [false, true]) {
       test(`an answer inside Master the game on a position page counts and is stored, the session ${kept ? "kept across the landing" : "opened after it"} (${tag})`, async ({ page }) => {
         const { errors } = await sessionOn(page, "/Positions/Mount/Top", touch, kept)
         const read = () => page.evaluate(() => { const a = (window as W).__neural
-          return { today: a.practiceToday().done, srs: Object.keys(a.srs || {}).length, stored: (localStorage.getItem("bjj-neural-owner:guest:progress") || "").length + (localStorage.getItem("bjj-neural-owner:guest:pending") || "").length } })
+          return { today: a.practiceToday().done, srs: Object.keys(a.srs || {}).length + Object.keys(a.moves || {}).length, stored: (localStorage.getItem("bjj-neural-owner:guest:progress") || "").length + (localStorage.getItem("bjj-neural-owner:guest:pending") || "").length } })
         const before = await read()
         // the card asks by choices or by recall (Reveal, then a grade); the pumped clock carries the grade in test mode
         const tick = () => page.evaluate(() => (window as W).__neural.advance(100))
@@ -296,15 +296,25 @@ for (const touch of [false, true]) {
         await expect(page.locator("[data-master-start]"), "premise: Master the game opens as its list, with its one button").toBeVisible({ timeout: 15_000 })
         await press(page, "[data-master-start]", "the list's one button", touch)
         const shownNow = (sel: string) => page.evaluate((q) => [...document.querySelectorAll(q)].some((e) => (e as HTMLElement).getClientRects().length > 0 && !(e as HTMLButtonElement).disabled), sel)
-        await expect.poll(async () => { await tick(); return (await shownNow(choice)) || (await shownNow(reveal)) }, { message: "premise: the session's first card has an answer to press", timeout: 15_000 }).toBe(true)
-        if (await shownNow(choice)) await press(page, choice, "the card's first answer", touch)
+        // L2 (v1.292.0): once the plan is in, a place asks its MOVES first, as a cloze (Show, then Done confirms each asked
+        // move: each is one of the day's answers and is stored as a card's is). Whichever the first ask is, it is answered
+        const show = "[data-master-bar] [data-cz-show]", done = "[data-master-bar] [data-cz-done]"
+        await expect.poll(async () => { await tick(); return (await shownNow(choice)) || (await shownNow(reveal)) || (await shownNow(show)) }, { message: "premise: the session's first ask has an answer to press", timeout: 15_000 }).toBe(true)
+        let asked = 1
+        if (await shownNow(show)) {
+          asked = await page.locator('[data-cz-row="ask"]').count()
+          expect(asked, "premise: the cloze asks at least one move").toBeGreaterThan(0)
+          await press(page, show, "Show", touch)
+          await expect.poll(async () => { await tick(); return shownNow(done) }, { message: "premise: the shown moves offer Done" }).toBe(true)
+          await press(page, done, "Done", touch)
+        } else if (await shownNow(choice)) await press(page, choice, "the card's first answer", touch)
         else {
           await press(page, reveal, "Reveal", touch)
           await expect.poll(async () => { await tick(); return shownNow(got) }, { message: "premise: the revealed card offers its grade" }).toBe(true)
           await press(page, got, "Got it", touch)
         }
-        await expect.poll(async () => { await tick(); return (await read()).today }, { message: "the answer counts in today's count" }).toBe(before.today + 1)
-        expect((await read()).srs, "and the card is in the player's record").toBeGreaterThan(before.srs)
+        await expect.poll(async () => { await tick(); return (await read()).today }, { message: "the answer counts in today's count" }).toBe(before.today + asked)
+        expect((await read()).srs, "and it is in the player's record (a card's row, or a move's)").toBeGreaterThan(before.srs)
         await expect.poll(async () => { await page.evaluate(() => (window as W).__neural.advance(500)); return (await read()).stored },
           { message: "and it is stored", timeout: 15_000 }).toBeGreaterThan(before.stored)
         expect(errors, "no page error").toEqual([])
