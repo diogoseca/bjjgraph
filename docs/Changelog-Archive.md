@@ -19547,4 +19547,16 @@ B2 (the evidence repaint) and B5 (the scroll yield) survived with no gate, and a
 5. The collection door lands on the shelf, and a lesson's ▸ reads "Study this lesson's cards".
 6. The reading position is pinned again.
 
-Journeys: corridor-reach (both sizes) and telemetry's surface test. PATH_R1_RUNS
+Journeys: corridor-reach (both sizes) and telemetry's surface test.
+
+**Runs** (17 Nov, dev v1.283.0 merged):
+- corridor-reach 17/17, challenges-ui 18/18, keyboard and challenge-curriculum green.
+- challenges-ui's frontier journey now seeds won earlier belts: its subject is where the corridor starts.
+
+**Mutants**, each red after a green control:
+1. the flag from the toggle → "at 0.4 s the shelf is open";
+2. the surface "practice" → telemetry;
+3. the exception removed → "Blue's head is drawn without the reveal";
+4. Back to the list → "back in Master the game";
+5. 5a through `openExplorer` → "lands in Master the game";
+6. the repaint to the top → "the reading position holds".
