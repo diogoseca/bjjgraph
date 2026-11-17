@@ -19373,6 +19373,34 @@ When the remounted landing renders before the manifest arrives, the app records 
 `spa-nav-single-instance-law.spec.ts` had met the same class before (D-332 D2-S2) and set those skips aside in the same way.
 Tests only; the ledger row stays accepted. The app's second skip, the backfill repeating it, is v1.282.2.
 
+## v1.282.2 — A backfill never repeats the landing's skip beat: one landing, one drop-off (FLAKE2's app finding, 2026-11-16)
+
+**The finding.** Found while proving FLAKE2. A landing that renders before the flashcard manifest arrives records
+`land_q_skipped {decks_in_flight}` once, by design. When the manifest lands, `onFlashcardsReady` → `_landBackfill`
+re-renders the same landing (`_landLate`). Its in-flight path called `_landQSkip` again (backfill: true), before the deck was
+even requested, and then the question docked. So one landing was two `question_skipped` events in the funnel, against the
+rule the card-layer path already states: "A backfill (`_landLate`) never repeats the skip beat."
+
+**The fix.** That immediate skip is guarded by `!this._landLate`. Nothing a player sees changes: the question still docks as
+the backfill.
+- **The analytics change:** the `land_q_skipped` beat, and PostHog's `question_skipped`, count one fewer for each landing
+  whose manifest arrives late; one landing is one drop-off.
+- **Its readers, surveyed:**
+  - `spa-nav-single-instance-law` accepts any number of in-flight skips, each checked; its comment said "at each render",
+    now corrected;
+  - `coldstart-late-payload` reads the last skip's reason and the set of reasons;
+  - `coldstart-spine` reads the last funnel `question_skipped`'s reason;
+  - `land-layers` checks that "collapsed" is present;
+  - no script reads it.
+
+  None counted on the double beat.
+
+**Proof.**
+- The test, in `coldstart-late-payload.spec.ts` (which holds the manifest): exactly one skip for the shown question's deck,
+  from its own render, then the backfilled question. Green 5 of 5; red 5 of 5 with the guard removed (dev's app).
+- The five readers, whole: 21 and 2 passed.
+- With the manifest held, life 2 of the soft navigation records one skip, then the question.
+
 ## v1.284.0 — The Path row leaves the drawer: its corridor is Master the game's, every door to it lands there, and the White objective's beat moves with it (SET1 slice B; the owner, 2026-11-15; his four small losses accepted 2026-11-16)
 
 **The owner's words (15 Nov).** "it's time to remove the Path section from the sidebar + reform the user settings …".
