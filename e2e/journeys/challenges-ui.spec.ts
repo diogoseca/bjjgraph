@@ -328,7 +328,8 @@ test.describe("Challenges UI", () => {
     }), { message: "the shelf is scrolled into view" }).toBe(true);
     // ...and it STAYS there once Master the game has opened its first card: that card's own scroll (`_scrollFocusedDeck`)
     // yields while View Collection's is pending (v1.284.0). A poll above passes on the first moment the shelf is in view,
-    // so this is one read after the card is open. Mutant B5 (the yield removed) is red here.
+    // so this is one read after the card is open. Mutant B5 (the yield removed) is red in this test: on 17 Nov at the poll above
+    // (that run's first card scrolled first); this read is for the run where the shelf is in view at first and then leaves it.
     await expect(page.locator("[data-practice-page] [data-mini-deck]").first(), "premise: Master the game opened its first card").toBeVisible({ timeout: 20_000 });
     await page.evaluate(() => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))));
     expect(await page.evaluate(() => {
