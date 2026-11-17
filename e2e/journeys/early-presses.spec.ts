@@ -35,7 +35,7 @@ import { journey } from "../dsl"
  * (`_referenceLanded`) → "the early press ends where a late press ends" on the principle, system and learning pages.
  * NON-KILL, recorded: openPane's own early branch removed stays green (30 of 30), because no early input reaches it (the
  * logo and the search have their own); it stands for any later caller.
- * REFSEARCH-2 (v1.290.1): the node pages below, and an early search on a page that opens the panel itself (the hub).
+ * REFSEARCH-2: the node pages below, and an early search on a page that opens the panel itself (the hub).
  * Mutants (mutantsS.py, 17 Nov 15:57-16:03; the control C0 green, 38 of 38 here): a roll's first landing rebuilding a shown
  * session's panel again, the reader's seat resetting the session again, and the reader's seat not marked as an arrival →
  * each red at "Master the game is still open after the page's own first landing" (position, technique, submission); a
@@ -171,7 +171,7 @@ for (const touch of [false, true]) {
       })
     }
 
-    // REFSEARCH-2 (v1.290.1; the orchestrator's probe on the preview, 3 of 6 in one run): on a position, technique or
+    // REFSEARCH-2 (the orchestrator's probe on the preview, 3 of 6 in one run): on a position, technique or
     // submission page the page's own first landing is the READER's (its `open` seats the board with `rollFromPosition` as
     // soon as its file has landed), and it ended a session opened before it. #432 held on the home page only: its test
     // booted "/". The order is FORCED here by holding the reader's file (`app/reader.js`, `never`): the logo and the row are

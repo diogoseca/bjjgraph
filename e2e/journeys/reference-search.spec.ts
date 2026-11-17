@@ -2,7 +2,7 @@ import { expect, test, type BrowserContext, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
 /**
- * SEARCH OPENS SEARCH, ON A REFERENCE PAGE TOO (REFSEARCH, v1.290.1; the third read of PR #432, faults dev had all along).
+ * SEARCH OPENS SEARCH, ON A REFERENCE PAGE TOO (REFSEARCH; the third read of PR #432, faults dev had all along).
  * On a principle, a system and a learning page:
  *  1. a search typed before the reader's own file landed was wiped when it landed, and the focus jumped to the article's
  *     heading (4 of 4 with `reader.js` held): the reader's `open` emptied the query and focused the heading;

@@ -3768,7 +3768,7 @@ class Component extends DCLogic {
   // detail owns the list (owner: "I should only see that in explore tab root"). Three callers
   // (_layoutPane, styleViewToggle, renderExplorer) because the detail id is set AFTER openPane
   // has already laid the pane out, so the render is the only site that sees the final answer.
-  // AND WHEN SEARCH WAS ASKED FOR, WHATEVER THE PAGE SHOWS (REFSEARCH, v1.290.1; the orchestrator's rule on the third
+  // AND WHEN SEARCH WAS ASKED FOR, WHATEVER THE PAGE SHOWS (REFSEARCH; the orchestrator's rule on the third
   // read of #432, its finding 2: on a principle, system or learning page the search button opened the page's entry with
   // no search row and nothing focused, 6 of 6). `_searchAsked` is set by `openSearchPane` (the search button, "/",
   // Cmd/Ctrl+K, and their early forms replayed): the row shows over the page's own entry, the caret in it, and the
@@ -6843,7 +6843,7 @@ class Component extends DCLogic {
   //   roll (`startRoll`); that deal's reset ended Master the game opened in the first seconds after a load, its opening
   //   already counted. That one deal keeps a session the panel shows: an ARGUMENT of that one call (`keepShownSession`),
   //   not a flag, so no later roll can inherit it (EARLY1-R1).
-  // · A POSITION, TECHNIQUE OR SUBMISSION PAGE (REFSEARCH-2, v1.290.1; the orchestrator's probe on the preview, 3 of 6 in
+  // · A POSITION, TECHNIQUE OR SUBMISSION PAGE (REFSEARCH-2; the orchestrator's probe on the preview, 3 of 6 in
   //   one run: #432 held on the home page only). There the page's own first landing is the READER's: when its file has
   //   landed it seats the board with `rollFromPosition`, the function a press on the map uses, and a staged landing does
   //   not wait for the panel's pause. That call ended the session twice: in its own reset, and when its landing rebuilt
@@ -8990,7 +8990,7 @@ class Component extends DCLogic {
     light();   // the reader's own map light (a reader-only method, its name mangled in that bundle: handed over)
     if (onRoot) this.renderExplorer();
   }
-  // WHAT THE PLAYER TYPED, AND WHERE THEY PUT THE FOCUS, ARE NOT TAKEN BY A READER THAT LANDS LATER (REFSEARCH, v1.290.1;
+  // WHAT THE PLAYER TYPED, AND WHERE THEY PUT THE FOCUS, ARE NOT TAKEN BY A READER THAT LANDS LATER (REFSEARCH;
   // the third read of #432, finding 1: after an early search press on a principle, system or learning page, "arm" typed
   // before the reader's own file landed was emptied when it landed, and the focus jumped to the article's heading, 4 of
   // 4). The reader asks these two when a reference page arrives in it. `_readArticle` shuts the panel when a page is
@@ -16911,7 +16911,7 @@ class Component extends DCLogic {
   _readOffset() { return this._readMax ? (this._readS || 0) : 0; }
   // THE SEARCH'S KEYS: "/" outside a text field, and Cmd or Ctrl with K anywhere. One predicate, read by this handler and by
   // the reader's root (reader.src.js), which stops every other key while the focus is in the article: until REFSEARCH
-  // (v1.290.1) it stopped these too, so on a principle, system or learning page, where the reader puts the focus on the
+  // it stopped these too, so on a principle, system or learning page, where the reader puts the focus on the
   // article's heading, a late "/" did nothing (3 of 3, the third read of #432) while an early one opened the panel.
   _isSearchKey(e) {
     const t = e.target, typing = t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
