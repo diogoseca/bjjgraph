@@ -180,8 +180,8 @@ description: "How to execute X-Guard Sweep in BJJ. Attacking perspective with se
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "X Guard Sweep | Choke_lab",
-      "description": "X-Guard Sweep (Attacker) film study: X Guard Sweep | Choke_lab.",
+      "name": "X Guard Sweep",
+      "description": "X-Guard Sweep (Attacker) film study: X Guard Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
       "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
@@ -225,7 +225,7 @@ The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses su
 
 ![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
 
-<p class="clip-credit"><strong>X Guard Sweep | Choke_lab</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>X Guard Sweep</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

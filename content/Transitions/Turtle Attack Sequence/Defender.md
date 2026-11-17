@@ -160,8 +160,8 @@ description: "How to defend against Turtle attacks in BJJ. Recognition cues, gri
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Turtle hand fighting, sit out and back prevention @Burybjj",
-      "description": "Turtle Attack Sequence (Defender) film study: Turtle hand fighting, sit out and back prevention @Burybjj.",
+      "name": "Turtle hand fighting, sit out and back prevention",
+      "description": "Turtle Attack Sequence (Defender) film study: Turtle hand fighting, sit out and back prevention.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4XBkuhgMhUI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4XBkuhgMhUI",
       "url": "https://www.youtube.com/watch?v=4XBkuhgMhUI",
@@ -195,7 +195,7 @@ As the defender in bottom turtle, you are in a time-critical position where the 
 
 ![](https://www.youtube.com/watch?v=4XBkuhgMhUI)
 
-<p class="clip-credit"><strong>Turtle hand fighting, sit out and back prevention @Burybjj</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=4XBkuhgMhUI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle hand fighting, sit out and back prevention</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=4XBkuhgMhUI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

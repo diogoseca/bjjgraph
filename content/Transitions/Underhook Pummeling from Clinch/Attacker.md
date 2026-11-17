@@ -186,8 +186,8 @@ description: "Master the attacking mechanics of underhook pummeling from the dis
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "WrestleSmart\uf022 Under Hook \u0026 Pummeling Drill",
-      "description": "Underhook Pummeling from Clinch (Attacker) film study: WrestleSmart\uf022 Under Hook \u0026 Pummeling Drill.",
+      "name": "Under Hook \u0026 Pummeling Drill",
+      "description": "Underhook Pummeling from Clinch (Attacker) film study: Under Hook \u0026 Pummeling Drill.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FKDWdeQzL9A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FKDWdeQzL9A",
       "url": "https://www.youtube.com/watch?v=FKDWdeQzL9A",
@@ -221,7 +221,7 @@ Executing underhook pummeling from the disadvantaged clinch requires a systemati
 
 ![](https://www.youtube.com/watch?v=FKDWdeQzL9A)
 
-<p class="clip-credit"><strong>WrestleSmart Under Hook &amp; Pummeling Drill</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=FKDWdeQzL9A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Under Hook &amp; Pummeling Drill</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=FKDWdeQzL9A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -651,6 +651,22 @@
         "vertical": false,
         "front": true
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Forward roll escape",
+        "clips": [
+          {
+            "id": "Qoh8cXdCIlU",
+            "title": "Omoplata escape forward roll to side control!",
+            "channel": "Adriano",
+            "duration": 21,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-17"
+          }
+        ]
+      }
     ]
   }
 }

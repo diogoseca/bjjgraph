@@ -46,8 +46,8 @@ description: "Learn Triangle to Armbar transition in BJJ. Step-by-step execution
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armory - Blue Belt Series - Transition from Triangle to Armbar  II",
-      "description": "Triangle to Armbar film study: Armory - Blue Belt Series - Transition from Triangle to Armbar  II.",
+      "name": "Blue Belt Series - Transition from Triangle to Armbar  II",
+      "description": "Triangle to Armbar film study: Blue Belt Series - Transition from Triangle to Armbar  II.",
       "thumbnailUrl": "https://i.ytimg.com/vi/r8rBt5Mp3B4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/r8rBt5Mp3B4",
       "url": "https://www.youtube.com/watch?v=r8rBt5Mp3B4",
@@ -117,7 +117,7 @@ The triangle-to-armbar system exemplifies the principle of submission chains, wh
 
 ![](https://www.youtube.com/watch?v=r8rBt5Mp3B4)
 
-<p class="clip-credit"><strong>Armory - Blue Belt Series - Transition from Triangle to Armbar  II</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=r8rBt5Mp3B4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Blue Belt Series - Transition from Triangle to Armbar  II</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=r8rBt5Mp3B4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

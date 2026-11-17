@@ -46,12 +46,12 @@ description: "Escape back control using the hip scoot to recover half guard in B
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Countering the Butt Scoop Back Escape (week 10)",
-      "description": "Scoot Hips to Guard from Back film study: Countering the Butt Scoop Back Escape (week 10).",
-      "thumbnailUrl": "https://i.ytimg.com/vi/abIQHEI0k0w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/abIQHEI0k0w",
-      "url": "https://www.youtube.com/watch?v=abIQHEI0k0w",
-      "duration": "PT330S"
+      "name": "Back Escape (scoot variation)",
+      "description": "Scoot Hips to Guard from Back film study: Back Escape (scoot variation).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rHcCpVSH4b8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rHcCpVSH4b8",
+      "url": "https://www.youtube.com/watch?v=rHcCpVSH4b8",
+      "duration": "PT89S"
     }
   ]
 }
@@ -105,9 +105,9 @@ Timing is critical for this technique. The ideal moment to initiate the hip scoo
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=abIQHEI0k0w)
+![](https://www.youtube.com/watch?v=rHcCpVSH4b8)
 
-<p class="clip-credit"><strong>Countering the Butt Scoop Back Escape (week 10)</strong> · 5:30 · <a href="https://www.youtube.com/watch?v=abIQHEI0k0w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Escape (scoot variation)</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=rHcCpVSH4b8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

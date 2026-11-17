@@ -180,8 +180,8 @@ description: "How to execute Monoplata from Guard in BJJ. Attacking perspective 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "WazaTube: Monoplata from Triangle Choke",
-      "description": "Monoplata from Guard (Attacker) film study: WazaTube: Monoplata from Triangle Choke.",
+      "name": "Monoplata from Triangle Choke",
+      "description": "Monoplata from Guard (Attacker) film study: Monoplata from Triangle Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/u9fF8OCRDks/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/u9fF8OCRDks",
       "url": "https://www.youtube.com/watch?v=u9fF8OCRDks",
@@ -226,7 +226,7 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 
 ![](https://www.youtube.com/watch?v=u9fF8OCRDks)
 
-<p class="clip-credit"><strong>WazaTube: Monoplata from Triangle Choke</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=u9fF8OCRDks" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Monoplata from Triangle Choke</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=u9fF8OCRDks" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

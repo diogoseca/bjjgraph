@@ -671,6 +671,20 @@
             "verified": "2026-11-04"
           }
         ]
+      },
+      {
+        "escape": "Stack escape",
+        "clips": [
+          {
+            "id": "86HW-HEhWas",
+            "title": "Triangle stack escape",
+            "channel": "Carnage BJJ",
+            "duration": 124,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-16"
+          }
+        ]
       }
     ]
   }

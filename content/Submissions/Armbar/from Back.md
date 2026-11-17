@@ -46,8 +46,8 @@ description: "Master the Armbar from Back Control in BJJ. Complete safety guide 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rolling Armbar from the Back Mount - Hammer Jiu-Jitsu",
-      "description": "Armbar from Back film study: Rolling Armbar from the Back Mount - Hammer Jiu-Jitsu.",
+      "name": "Rolling Armbar from the Back Mount",
+      "description": "Armbar from Back film study: Rolling Armbar from the Back Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nsLJ8AiGZ5A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/nsLJ8AiGZ5A",
       "url": "https://www.youtube.com/watch?v=nsLJ8AiGZ5A",
@@ -129,7 +129,7 @@ The Armbar from Back Control represents one of the most devastating finishing se
 
 ![](https://www.youtube.com/watch?v=nsLJ8AiGZ5A)
 
-<p class="clip-credit"><strong>Rolling Armbar from the Back Mount - Hammer Jiu-Jitsu</strong> · 0:40 · <a href="https://www.youtube.com/watch?v=nsLJ8AiGZ5A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rolling Armbar from the Back Mount</strong> · 0:40 · <a href="https://www.youtube.com/watch?v=nsLJ8AiGZ5A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

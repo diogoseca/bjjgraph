@@ -160,8 +160,8 @@ description: "Defend against the Americana from Shoulder of Justice. Recognition
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Americana escape from bottom side control Jiu Jitsu",
-      "description": "Americana from Shoulder of Justice (Defender) film study: Americana escape from bottom side control Jiu Jitsu.",
+      "name": "Americana escape from bottom side control",
+      "description": "Americana from Shoulder of Justice (Defender) film study: Americana escape from bottom side control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/VCczZFmkv6U/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/VCczZFmkv6U",
       "url": "https://www.youtube.com/watch?v=VCczZFmkv6U",
@@ -216,7 +216,7 @@ Defending the Americana from Shoulder of Justice requires discipline under extre
 
 ![](https://www.youtube.com/watch?v=VCczZFmkv6U)
 
-<p class="clip-credit"><strong>Americana escape from bottom side control Jiu Jitsu</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=VCczZFmkv6U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Americana escape from bottom side control</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=VCczZFmkv6U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

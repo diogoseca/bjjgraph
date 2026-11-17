@@ -57,8 +57,8 @@ description: "Master Kouchi Gari in BJJ. Small inner reap takedown from standing
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kouchi Gari (Small inner reap) - Hammer Jiu Jitsu",
-      "description": "Kouchi Gari film study: Kouchi Gari (Small inner reap) - Hammer Jiu Jitsu.",
+      "name": "Kouchi Gari (Small inner reap)",
+      "description": "Kouchi Gari film study: Kouchi Gari (Small inner reap).",
       "thumbnailUrl": "https://i.ytimg.com/vi/4FDRR9ukLjc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4FDRR9ukLjc",
       "url": "https://www.youtube.com/watch?v=4FDRR9ukLjc",
@@ -129,7 +129,7 @@ From a biomechanical perspective, the technique succeeds because the upper body 
 
 ![](https://www.youtube.com/watch?v=4FDRR9ukLjc)
 
-<p class="clip-credit"><strong>Kouchi Gari (Small inner reap) - Hammer Jiu Jitsu</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=4FDRR9ukLjc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kouchi Gari (Small inner reap)</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=4FDRR9ukLjc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

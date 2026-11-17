@@ -46,8 +46,8 @@ description: "Master armbar control in BJJ from both offensive and defensive per
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armbar at Balance Studios in Philadelphia",
-      "description": "Armbar Control film study: Armbar at Balance Studios in Philadelphia.",
+      "name": "Armbar in Philadelphia",
+      "description": "Armbar Control film study: Armbar in Philadelphia.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R2-h9yOwRdU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/R2-h9yOwRdU",
       "url": "https://www.youtube.com/watch?v=R2-h9yOwRdU",
@@ -56,8 +56,8 @@ description: "Master armbar control in BJJ from both offensive and defensive per
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville",
-      "description": "Armbar Control film study: Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville.",
+      "name": "Straight Arm Lock From Guard (Armbar)",
+      "description": "Armbar Control film study: Straight Arm Lock From Guard (Armbar).",
       "thumbnailUrl": "https://i.ytimg.com/vi/I8f9wkX7n4Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/I8f9wkX7n4Y",
       "url": "https://www.youtube.com/watch?v=I8f9wkX7n4Y",
@@ -118,7 +118,7 @@ From the bottom, survival depends on understanding the same five-point control s
 
 ![](https://www.youtube.com/watch?v=R2-h9yOwRdU)
 
-<p class="clip-credit"><strong>Armbar at Balance Studios in Philadelphia</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=R2-h9yOwRdU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar in Philadelphia</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=R2-h9yOwRdU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -126,7 +126,7 @@ From the bottom, survival depends on understanding the same five-point control s
 
 ![](https://www.youtube.com/watch?v=I8f9wkX7n4Y)
 
-<p class="clip-credit"><strong>Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=I8f9wkX7n4Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Straight Arm Lock From Guard (Armbar)</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=I8f9wkX7n4Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

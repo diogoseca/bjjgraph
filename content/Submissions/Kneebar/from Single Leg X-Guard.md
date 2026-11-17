@@ -56,8 +56,8 @@ description: "Master the kneebar from Single Leg X-Guard. Expert guide to this B
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Attacking Single Leg X Guard: Pressure Pass to Knee Bar (BULLET POINT)",
-      "description": "Kneebar from Single Leg X-Guard film study: Attacking Single Leg X Guard: Pressure Pass to Knee Bar (BULLET POINT).",
+      "name": "Attacking Single Leg X Guard: Pressure Pass to Knee Bar",
+      "description": "Kneebar from Single Leg X-Guard film study: Attacking Single Leg X Guard: Pressure Pass to Knee Bar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8DI4o4LO7xM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8DI4o4LO7xM",
       "url": "https://www.youtube.com/watch?v=8DI4o4LO7xM",
@@ -141,7 +141,7 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 
 ![](https://www.youtube.com/watch?v=8DI4o4LO7xM)
 
-<p class="clip-credit"><strong>Attacking Single Leg X Guard: Pressure Pass to Knee Bar (BULLET POINT)</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=8DI4o4LO7xM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Attacking Single Leg X Guard: Pressure Pass to Knee Bar</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=8DI4o4LO7xM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

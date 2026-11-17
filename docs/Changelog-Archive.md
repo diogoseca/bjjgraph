@@ -19618,3 +19618,72 @@ the one title naming a person.
 - `principle_clips.test.mjs` tests 2 and 3 claimed `by` reached the emitted principle bodies, and now claim it is
   dropped.
 ## v1.288.1 — Early presses: one made before the map's data lands opens the panel when it lands; the intro's first deal keeps Master the game open (EARLY1)
+
+## v1.289.0 — Gyms, channels and brands out of clip titles; the no-names gate says what it holds; 36 new clips (NONAMES-2, 2026-11-17)
+
+The second half of the owner's U196 b ("no person's or gym's name in our own text at all"), the follow-ups of the
+independent read of v1.288.0, and the clips the video search found. PR #435, one guarded capture (CAPNN2).
+
+**Titles.**
+- A Sonnet pass over all 2,330 clip titles found 195 with a gym, team, channel, brand or show name. A consistency
+  check added 3 (the same name leaves every title it is in), the gate's own second pass 7 (a channel's name used as a
+  label, "| BJJ Techniques"), and 2 "| MMA Submissions" titles were added by hand.
+- The edits: 277 clip rows in 266 records, 208 distinct old-to-new titles. The seat's table has 210 rows: the other 2
+  are titles of new clips, cleaned before they landed.
+- The London, a rubber-guard position, is back ("Why the London left the system"); 10th Planet, a gym, left every
+  title. Nine titles the first reader found broken read as titles again.
+- Kept on purpose: a technique that shares a brand word (the Matrix) and a competition that describes the video (a UFC
+  finish).
+- **Left for a human eye by the second reader, not in this version:** 7 possible labels (for example "One Jiu Jitsu",
+  "Iceland Camp 2020:"), 10 titles that read oddly after the cut, and 2 pages with two videos under one title.
+
+**The 36 clips.** 27 technique halves got their first front and 9 escape cards a row, on 32 videos. Each was picked
+by Haiku from a scripted search, accepted by Sonnet on two separate calls, and read by the seat; 7 picks were
+overturned. The reader's oEmbed check answered 200 for all 32.
+
+**The gate, and what the second read found.**
+- v1.289.0 first widened `scripts/check_no_names.py` from the phrase to a NAME: every `by` and `channel` value on a
+  clip (1,198), in credit lines, the film-study section, a video's JSON-LD and shipped clip titles; an allow-list of
+  player fields; the agent export and `llms.txt` in `--built` mode.
+- **The seat called that "the gate grown to the rule", and it was not.** The reader put each of the 208 old titles
+  back: the gate flagged 53. A name matched only as one whole `by` or `channel` value, and most of what this version
+  cut was a series, a show, a tag or a short form that is no clip's channel; the owner's own case, "Why left the 10th
+  Planet system", passed.
+- The same read found the agent export uncounted (a build with no export passed), no floor on the name list (with
+  `by` stripped from all but one record the list fell to 5 and a gym in a credit passed), a clip that gained `url`
+  leaving the allow-list and the count together, and a VideoObject block that did not parse skipped in silence.
+- The fixes (NONAMES2-R1), scripts and docs only, so the accepted capture stands:
+  - a tracked label list, `tests/artifacts/no_names_labels.json`: 101 labels this version removed that are no clip's
+    `by` or `channel`, each with the count of titles it left (143 in all), matched in clip titles and credit lines
+    only. Each was checked by script against 2,124 graph names and aliases (none equals one, none is inside one, none
+    is in a current title); "10th Planet" and "B-Team" are inside four Systems guides' names, which no credit prints;
+  - the reader's measurement again: 193 of 208 flagged. The other 15 are named in the file: 6 labels left off on
+    purpose (UFC twice, The Base, Jiu Jitsu Matrix, The EDGE, Best BJJ Takedowns), 3 parts of a name ("by Gracie…"),
+    6 hand cuts that name nobody;
+  - the export's credit lines join the counts, and a missing export or `llms.txt` is a finding;
+  - any quoted `by` key in any file under `static/neural` fails; an unreadable VideoObject block fails;
+    `NAME_FLOOR` is 1,150, 48 under the list, moved by hand.
+- Mutants: `tests/artifacts/no_names_mutants.py`, 40 red at named checks (the first reader's 25, 15 new), 2 green
+  controls (one of eponyms: the London, Kimura, De La Riva), 2 zero controls red.
+- What it still does not hold is in the docstring and `docs/Content.md`: a surname or a part of a name, a tag or
+  handle of a listed name, an unlisted gym or show, and anything outside today's markup. Persons by surname wait for
+  the prose check's names lexicon.
+- The builder of the label list and the measurement are scratch scripts outside the repo (the seat's clips-1116/r1:
+  build_labels.py and pairs.py).
+
+**The capture (CAPNN2).** Candidate 37a95ea1d on dev 175002147, accepted 17 Nov 13:32:32.
+- 713 content paths (447 pages, 266 records); 265 dossier chunks moving only by the title table and the new clips;
+  the census +57 headings, +57 JSON-LD blocks, +57 outside links, +124 article links (the new Film Study sections);
+  no SEO floor moved.
+- The app lost a no-op `+ '' +` that esbuild folds, so `neural.js` stayed byte-identical and only the four game rows'
+  hashes moved.
+- Dev v1.288.1 (PR #432, app code only) landed after the capture: merged by merge, the app rows re-seeded in their own
+  commit, no new capture.
+- The "two RSS items swapped" control survived on a birthtime-millisecond tie, as in v1.288.0; the corrected swap
+  refuses all three swaps of items with different times.
+
+**Errors of the seat's own.**
+- Two new clips were committed with `channel: null`, a schema failure: the check's exit code was hidden by a pipe
+  through `tail`. Fixed in the next commit from the videos' own info.
+- The overclaim above: a PR title and a doc line that said more than the gate held. The gate's docstring now leads
+  with its two lists and the measured 53 and 193.

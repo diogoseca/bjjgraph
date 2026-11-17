@@ -56,8 +56,8 @@ description: "Master Inversion Escape from Honey Hole in BJJ. Step-by-step techn
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "LLOM - Reversing The Honey-Hole \u201cHoney-Flip\u201d",
-      "description": "Inversion Escape film study: LLOM - Reversing The Honey-Hole \u201cHoney-Flip\u201d.",
+      "name": "Reversing The Honey-Hole \u201cHoney-Flip\u201d",
+      "description": "Inversion Escape film study: Reversing The Honey-Hole \u201cHoney-Flip\u201d.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JAJH0x4ss74/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JAJH0x4ss74",
       "url": "https://www.youtube.com/watch?v=JAJH0x4ss74",
@@ -125,7 +125,7 @@ This technique requires significant hip mobility, spatial awareness while invert
 
 ![](https://www.youtube.com/watch?v=JAJH0x4ss74)
 
-<p class="clip-credit"><strong>LLOM - Reversing The Honey-Hole “Honey-Flip”</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=JAJH0x4ss74" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reversing The Honey-Hole “Honey-Flip”</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=JAJH0x4ss74" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

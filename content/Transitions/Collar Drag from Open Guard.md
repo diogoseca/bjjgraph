@@ -46,8 +46,8 @@ description: "Master the collar drag from open guard in BJJ. Complete guide cove
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Open guard - techniques: Back-take via collar drag",
-      "description": "Collar Drag from Open Guard film study: Open guard - techniques: Back-take via collar drag.",
+      "name": "Open guard: back take via collar drag",
+      "description": "Collar Drag from Open Guard film study: Open guard: back take via collar drag.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hOM67NwKXqE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hOM67NwKXqE",
       "url": "https://www.youtube.com/watch?v=hOM67NwKXqE",
@@ -107,7 +107,7 @@ The collar drag integrates into modern open guard systems as both a primary atta
 
 ![](https://www.youtube.com/watch?v=hOM67NwKXqE)
 
-<p class="clip-credit"><strong>Open guard - techniques: Back-take via collar drag</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=hOM67NwKXqE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Open guard: back take via collar drag</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=hOM67NwKXqE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

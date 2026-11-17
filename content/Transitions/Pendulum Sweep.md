@@ -46,8 +46,8 @@ description: "Master the Pendulum Sweep from Closed Guard to Mount. Learn proper
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Curriculum in Action #2 - Pendulum Sweep",
-      "description": "Pendulum Sweep film study: Curriculum in Action #2 - Pendulum Sweep.",
+      "name": "#2 - Pendulum Sweep",
+      "description": "Pendulum Sweep film study: #2 - Pendulum Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YniHtIW_xbM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/YniHtIW_xbM",
       "url": "https://www.youtube.com/watch?v=YniHtIW_xbM",
@@ -113,7 +113,7 @@ The Pendulum Sweep is a fundamental and highly effective attack from closed guar
 
 ![](https://www.youtube.com/watch?v=YniHtIW_xbM)
 
-<p class="clip-credit"><strong>Curriculum in Action #2 - Pendulum Sweep</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=YniHtIW_xbM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>#2 - Pendulum Sweep</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=YniHtIW_xbM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

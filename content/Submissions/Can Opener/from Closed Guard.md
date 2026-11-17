@@ -66,8 +66,8 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "How to Do a Can Opener   MMA Submissions",
-      "description": "Can Opener from Closed Guard film study: How to Do a Can Opener   MMA Submissions.",
+      "name": "How to Do a Can Opener",
+      "description": "Can Opener from Closed Guard film study: How to Do a Can Opener.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_-NGlUCnHy0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_-NGlUCnHy0",
       "url": "https://www.youtube.com/watch?v=_-NGlUCnHy0",
@@ -145,7 +145,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 ![](https://www.youtube.com/watch?v=_-NGlUCnHy0)
 
-<p class="clip-credit"><strong>How to Do a Can Opener   MMA Submissions</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=_-NGlUCnHy0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Do a Can Opener</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=_-NGlUCnHy0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

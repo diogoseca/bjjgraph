@@ -160,8 +160,8 @@ description: "Complete defender guide for surviving the Inside Sankaku Heel Hook
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Escape the HONEY HOLE - Variation with BJJ Black Belt",
-      "description": "Inside Sankaku Heel Hook (Defender) film study: How to Escape the HONEY HOLE - Variation with BJJ Black Belt.",
+      "name": "How to Escape the HONEY HOLE - Variation",
+      "description": "Inside Sankaku Heel Hook (Defender) film study: How to Escape the HONEY HOLE - Variation.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gEEHqiSznS4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gEEHqiSznS4",
       "url": "https://www.youtube.com/watch?v=gEEHqiSznS4",
@@ -195,7 +195,7 @@ Defending the Inside Sankaku Heel Hook is one of the most urgent and high-stakes
 
 ![](https://www.youtube.com/watch?v=gEEHqiSznS4)
 
-<p class="clip-credit"><strong>How to Escape the HONEY HOLE - Variation with BJJ Black Belt</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=gEEHqiSznS4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Escape the HONEY HOLE - Variation</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=gEEHqiSznS4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

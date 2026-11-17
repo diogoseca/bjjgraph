@@ -182,6 +182,27 @@ description: "Complete guide to executing the hip scoot escape from back control
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scoot Hips to Guard from Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Escape (scoot variation)",
+      "description": "Scoot Hips to Guard from Back (Attacker) film study: Back Escape (scoot variation).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rHcCpVSH4b8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rHcCpVSH4b8",
+      "url": "https://www.youtube.com/watch?v=rHcCpVSH4b8",
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -194,6 +215,24 @@ As the bottom player in back control, executing the hip scoot escape requires sy
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scoot Hips to Guard from Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rHcCpVSH4b8)
+
+<p class="clip-credit"><strong>Back Escape (scoot variation)</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=rHcCpVSH4b8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

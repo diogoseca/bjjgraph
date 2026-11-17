@@ -175,8 +175,8 @@ description: "Control twister side control from top position with systematic sub
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Jiu-Jitsu Magazine #7 - Discovering the Twister: What is Twister Side Control",
-      "description": "Twister Side Control (Top) film study: Jiu-Jitsu Magazine #7 - Discovering the Twister: What is Twister Side Control.",
+      "name": "Discovering the Twister: What is Twister Side Control",
+      "description": "Twister Side Control (Top) film study: Discovering the Twister: What is Twister Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/W5ihpY3_rL0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/W5ihpY3_rL0",
       "url": "https://www.youtube.com/watch?v=W5ihpY3_rL0",
@@ -226,7 +226,7 @@ The learning progression for Twister Side Control top is significant, with begin
 
 ![](https://www.youtube.com/watch?v=W5ihpY3_rL0)
 
-<p class="clip-credit"><strong>Jiu-Jitsu Magazine #7 - Discovering the Twister: What is Twister Side Control</strong> · 6:14 · <a href="https://www.youtube.com/watch?v=W5ihpY3_rL0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Discovering the Twister: What is Twister Side Control</strong> · 6:14 · <a href="https://www.youtube.com/watch?v=W5ihpY3_rL0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

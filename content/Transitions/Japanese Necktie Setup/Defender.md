@@ -168,8 +168,8 @@ description: "How to defend against Japanese Necktie Setup in BJJ. Recognition c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Wax Off- D\u00b4arce and japanese neck tie defense - 10th planet jiu jitsu Stockholm",
-      "description": "Japanese Necktie Setup (Defender) film study: Wax Off- D\u00b4arce and japanese neck tie defense - 10th planet jiu jitsu Stockholm.",
+      "name": "Wax Off- D\u00b4arce and japanese neck tie defense",
+      "description": "Japanese Necktie Setup (Defender) film study: Wax Off- D\u00b4arce and japanese neck tie defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/L51fq8eEhDc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/L51fq8eEhDc?start=297",
       "url": "https://www.youtube.com/watch?v=L51fq8eEhDc",
@@ -205,7 +205,7 @@ The defender's strategic priority follows a clear hierarchy: first, prevent the 
 
 ![](https://www.youtube.com/watch?v=L51fq8eEhDc&start=297)
 
-<p class="clip-credit"><strong>Wax Off- D´arce and japanese neck tie defense - 10th planet jiu jitsu Stockholm</strong> · 6:58 · <a href="https://www.youtube.com/watch?v=L51fq8eEhDc&t=297s" rel="noopener">Watch on YouTube from 4:57</a></p>
+<p class="clip-credit"><strong>Wax Off- D´arce and japanese neck tie defense</strong> · 6:58 · <a href="https://www.youtube.com/watch?v=L51fq8eEhDc&t=297s" rel="noopener">Watch on YouTube from 4:57</a></p>
 
 </div>
 

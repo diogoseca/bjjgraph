@@ -180,8 +180,8 @@ description: "How to execute Kimura Defense in BJJ. Step-by-step escape mechanic
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura Grip Break BJJ technique at Mountain View dojo",
-      "description": "Kimura Defense (Attacker) film study: Kimura Grip Break BJJ technique at Mountain View dojo.",
+      "name": "Kimura Grip Break BJJ technique",
+      "description": "Kimura Defense (Attacker) film study: Kimura Grip Break BJJ technique.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pJG_2XYYaOw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pJG_2XYYaOw",
       "url": "https://www.youtube.com/watch?v=pJG_2XYYaOw",
@@ -225,7 +225,7 @@ The Kimura Defense attacker is the practitioner escaping from an opponent's kimu
 
 ![](https://www.youtube.com/watch?v=pJG_2XYYaOw)
 
-<p class="clip-credit"><strong>Kimura Grip Break BJJ technique at Mountain View dojo</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=pJG_2XYYaOw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura Grip Break BJJ technique</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=pJG_2XYYaOw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

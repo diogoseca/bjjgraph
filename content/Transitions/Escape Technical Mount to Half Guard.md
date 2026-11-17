@@ -36,6 +36,27 @@ description: "Master the Escape from Technical Mount to Half Guard in BJJ. Compl
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Technical Mount to Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding technical mount (countering escape to half guard)",
+      "description": "Escape Technical Mount to Half Guard film study: Holding technical mount (countering escape to half guard).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Al5CODiamZM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Al5CODiamZM",
+      "url": "https://www.youtube.com/watch?v=Al5CODiamZM",
+      "duration": "PT150S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This escape is particularly important because it transforms an extremely dangero
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Technical Mount to Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Al5CODiamZM)
+
+<p class="clip-credit"><strong>Holding technical mount (countering escape to half guard)</strong> · 2:30 · <a href="https://www.youtube.com/watch?v=Al5CODiamZM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

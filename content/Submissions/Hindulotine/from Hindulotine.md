@@ -46,6 +46,16 @@ description: "Hindulotine from Hindu Control joins the hands after the arm loops
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "The Hindulotine - Deadly Finisher",
+      "description": "Hindulotine from Hindulotine film study: The Hindulotine - Deadly Finisher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PnVSqTaw78Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PnVSqTaw78Q",
+      "url": "https://www.youtube.com/watch?v=PnVSqTaw78Q",
+      "duration": "PT228S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Hindulotine Breakdown",
       "description": "Hindulotine from Hindulotine film study: Hindulotine Breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YbOV4vESByc/hqdefault.jpg",
@@ -55,7 +65,7 @@ description: "Hindulotine from Hindu Control joins the hands after the arm loops
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Hindulotine Finish",
       "description": "Hindulotine from Hindulotine film study: Hindulotine Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6UwoAQt6u6o/hqdefault.jpg",
@@ -65,7 +75,7 @@ description: "Hindulotine from Hindu Control joins the hands after the arm loops
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Easy Hindulotine Variation",
       "description": "Hindulotine from Hindulotine film study: Easy Hindulotine Variation.",
       "thumbnailUrl": "https://i.ytimg.com/vi/99Mq930QVfY/hqdefault.jpg",
@@ -130,6 +140,14 @@ Instructional sources: [Ben Eddy — Hindu Control to Hindulotine](https://www.y
 
 <p class="section-subtitle">Watch Hindulotine from Hindulotine in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PnVSqTaw78Q)
+
+<p class="clip-credit"><strong>The Hindulotine - Deadly Finisher</strong> · 3:48 · <a href="https://www.youtube.com/watch?v=PnVSqTaw78Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

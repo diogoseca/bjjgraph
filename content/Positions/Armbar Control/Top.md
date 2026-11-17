@@ -165,8 +165,8 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville",
-      "description": "Armbar Control (Top) film study: Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville.",
+      "name": "Straight Arm Lock From Guard (Armbar)",
+      "description": "Armbar Control (Top) film study: Straight Arm Lock From Guard (Armbar).",
       "thumbnailUrl": "https://i.ytimg.com/vi/I8f9wkX7n4Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/I8f9wkX7n4Y",
       "url": "https://www.youtube.com/watch?v=I8f9wkX7n4Y",
@@ -214,7 +214,7 @@ Jiu-Jitsu Breakdowns describes an armbar grip-break phase in which the attacker'
 
 ![](https://www.youtube.com/watch?v=I8f9wkX7n4Y)
 
-<p class="clip-credit"><strong>Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=I8f9wkX7n4Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Straight Arm Lock From Guard (Armbar)</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=I8f9wkX7n4Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

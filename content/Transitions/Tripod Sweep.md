@@ -46,8 +46,8 @@ description: "Master the Tripod Sweep from Spider Guard in BJJ. Technical breakd
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Collar and Sleeve Tripod Sweep | How to BJJ techniques",
-      "description": "Tripod Sweep film study: Collar and Sleeve Tripod Sweep | How to BJJ techniques.",
+      "name": "Collar and Sleeve Tripod Sweep",
+      "description": "Tripod Sweep film study: Collar and Sleeve Tripod Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0AnyD7w2wQE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0AnyD7w2wQE",
       "url": "https://www.youtube.com/watch?v=0AnyD7w2wQE",
@@ -103,7 +103,7 @@ The Tripod Sweep is a fundamental open guard technique that creates a mechanical
 
 ![](https://www.youtube.com/watch?v=0AnyD7w2wQE)
 
-<p class="clip-credit"><strong>Collar and Sleeve Tripod Sweep | How to BJJ techniques</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=0AnyD7w2wQE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Collar and Sleeve Tripod Sweep</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=0AnyD7w2wQE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

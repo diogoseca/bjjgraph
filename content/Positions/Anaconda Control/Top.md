@@ -157,8 +157,8 @@ description: "Master offensive control from Anaconda Control Top position. Learn
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur",
-      "description": "Anaconda Control (Top) film study: How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur.",
+      "name": "How to do an Anaconda Choke",
+      "description": "Anaconda Control (Top) film study: How to do an Anaconda Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EbhWFWp-B6s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EbhWFWp-B6s",
       "url": "https://www.youtube.com/watch?v=EbhWFWp-B6s",
@@ -212,7 +212,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 ![](https://www.youtube.com/watch?v=EbhWFWp-B6s)
 
-<p class="clip-credit"><strong>How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=EbhWFWp-B6s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to do an Anaconda Choke</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=EbhWFWp-B6s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -206,8 +206,8 @@ description: "Learn to finish the Cross Collar Choke from Mount with proper grip
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Palm up Palm up CROSS CHOKE BJJ | Variation",
-      "description": "Cross Collar Choke from Mount (Attacker) film study: Palm up Palm up CROSS CHOKE BJJ | Variation.",
+      "name": "Palm up cross choke variation",
+      "description": "Cross Collar Choke from Mount (Attacker) film study: Palm up cross choke variation.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DrAxA8KUxbo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DrAxA8KUxbo",
       "url": "https://www.youtube.com/watch?v=DrAxA8KUxbo",
@@ -258,7 +258,7 @@ The Cross Collar Choke from Mount leverages the dominant top position to establi
 
 ![](https://www.youtube.com/watch?v=DrAxA8KUxbo)
 
-<p class="clip-credit"><strong>Palm up Palm up CROSS CHOKE BJJ | Variation</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=DrAxA8KUxbo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Palm up cross choke variation</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=DrAxA8KUxbo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -180,8 +180,8 @@ description: "Complete attacking guide for the Kimura from Knee Shield Half Guar
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee Shield Kimura - Brazilian Jiu Jitsu Mineral Wells",
-      "description": "Kimura from Knee Shield Half Guard (Attacker) film study: Knee Shield Kimura - Brazilian Jiu Jitsu Mineral Wells.",
+      "name": "Knee Shield Kimura",
+      "description": "Kimura from Knee Shield Half Guard (Attacker) film study: Knee Shield Kimura.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vLCPsXBLbyk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vLCPsXBLbyk",
       "url": "https://www.youtube.com/watch?v=vLCPsXBLbyk",
@@ -246,7 +246,7 @@ Attacking the Kimura from Knee Shield Half Guard requires patience in grip estab
 
 ![](https://www.youtube.com/watch?v=vLCPsXBLbyk)
 
-<p class="clip-credit"><strong>Knee Shield Kimura - Brazilian Jiu Jitsu Mineral Wells</strong> · 2:27 · <a href="https://www.youtube.com/watch?v=vLCPsXBLbyk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Shield Kimura</strong> · 2:27 · <a href="https://www.youtube.com/watch?v=vLCPsXBLbyk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -180,8 +180,8 @@ description: "How to execute Leg Drag to North-South in BJJ. Attacking perspecti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "BJJ: Leg Drag Pass To North-South | Evolve MMA",
-      "description": "Leg Drag to North-South (Attacker) film study: BJJ: Leg Drag Pass To North-South | Evolve MMA.",
+      "name": "BJJ: Leg Drag Pass To North-South",
+      "description": "Leg Drag to North-South (Attacker) film study: BJJ: Leg Drag Pass To North-South.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AwwJ1HI7D20/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AwwJ1HI7D20",
       "url": "https://www.youtube.com/watch?v=AwwJ1HI7D20",
@@ -229,7 +229,7 @@ From a systematic perspective, the leg drag to north-south fills an essential ga
 
 ![](https://www.youtube.com/watch?v=AwwJ1HI7D20)
 
-<p class="clip-credit"><strong>BJJ: Leg Drag Pass To North-South | Evolve MMA</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=AwwJ1HI7D20" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ: Leg Drag Pass To North-South</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=AwwJ1HI7D20" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -36,6 +36,27 @@ description: "Master the K-Guard Sweep in BJJ. Step-by-step execution guide cove
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "K-Guard Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "K GUARD SWEEP (GI AND NO GI, SWEEP)",
+      "description": "K-Guard Sweep film study: K GUARD SWEEP (GI AND NO GI, SWEEP).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iOGMjvl0x-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iOGMjvl0x-o",
+      "url": "https://www.youtube.com/watch?v=iOGMjvl0x-o",
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The execution demands precise coordination between upper and lower body mechanic
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch K-Guard Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iOGMjvl0x-o)
+
+<p class="clip-credit"><strong>K GUARD SWEEP (GI AND NO GI, SWEEP)</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=iOGMjvl0x-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

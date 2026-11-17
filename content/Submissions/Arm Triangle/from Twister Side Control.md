@@ -46,8 +46,8 @@ description: "Learn the Arm Triangle from Twister Side Control in BJJ. Complete 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "MTS 195 Advanced Arm Triangle",
-      "description": "Arm Triangle from Twister Side Control film study: MTS 195 Advanced Arm Triangle.",
+      "name": "Advanced Arm Triangle",
+      "description": "Arm Triangle from Twister Side Control film study: Advanced Arm Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CuhFzPhwvQA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CuhFzPhwvQA",
       "url": "https://www.youtube.com/watch?v=CuhFzPhwvQA",
@@ -113,7 +113,7 @@ The position integrates naturally into the Twister Side Control attack chain alo
 
 ![](https://www.youtube.com/watch?v=CuhFzPhwvQA)
 
-<p class="clip-credit"><strong>MTS 195 Advanced Arm Triangle</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=CuhFzPhwvQA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Advanced Arm Triangle</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=CuhFzPhwvQA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

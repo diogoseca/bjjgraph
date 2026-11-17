@@ -56,8 +56,8 @@ description: "Master the Double Sleeve Sweep in BJJ. Complete guide to executing
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Double Sleeve Scissor Sweep Instructional SJBJJ - Nogi\u2026",
-      "description": "Double Sleeve Sweep film study: Double Sleeve Scissor Sweep Instructional SJBJJ - Nogi\u2026.",
+      "name": "Double Sleeve Scissor Sweep Instructional - Nogi\u2026",
+      "description": "Double Sleeve Sweep film study: Double Sleeve Scissor Sweep Instructional - Nogi\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zAz7Zu5Nf58/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zAz7Zu5Nf58",
       "url": "https://www.youtube.com/watch?v=zAz7Zu5Nf58",
@@ -125,7 +125,7 @@ At intermediate and advanced levels, the Double Sleeve Sweep becomes the entry p
 
 ![](https://www.youtube.com/watch?v=zAz7Zu5Nf58)
 
-<p class="clip-credit"><strong>Double Sleeve Scissor Sweep Instructional SJBJJ - Nogi…</strong> · 4:16 · <a href="https://www.youtube.com/watch?v=zAz7Zu5Nf58" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double Sleeve Scissor Sweep Instructional - Nogi…</strong> · 4:16 · <a href="https://www.youtube.com/watch?v=zAz7Zu5Nf58" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

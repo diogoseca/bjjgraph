@@ -46,8 +46,8 @@ description: "Master the Butterfly Smash pass in BJJ. Collapse butterfly hooks w
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Smash Pass vs Butterfly Guard | How to BJJ techniques",
-      "description": "Butterfly Smash film study: Smash Pass vs Butterfly Guard | How to BJJ techniques.",
+      "name": "Smash Pass vs Butterfly Guard",
+      "description": "Butterfly Smash film study: Smash Pass vs Butterfly Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/QdBw7GodM3A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/QdBw7GodM3A",
       "url": "https://www.youtube.com/watch?v=QdBw7GodM3A",
@@ -117,7 +117,7 @@ Understanding the mechanics of hip pressure, shoulder positioning, and increment
 
 ![](https://www.youtube.com/watch?v=QdBw7GodM3A)
 
-<p class="clip-credit"><strong>Smash Pass vs Butterfly Guard | How to BJJ techniques</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=QdBw7GodM3A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Smash Pass vs Butterfly Guard</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=QdBw7GodM3A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

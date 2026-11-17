@@ -66,8 +66,8 @@ description: "Master the Kimura from Shoulder of Justice in BJJ. Complete guide 
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "1 Minute Jiu Jitsu Hack - Controlling the Elbow in the Kimura",
-      "description": "Kimura from Shoulder of Justice film study: 1 Minute Jiu Jitsu Hack - Controlling the Elbow in the Kimura.",
+      "name": "Controlling the Elbow in the Kimura",
+      "description": "Kimura from Shoulder of Justice film study: Controlling the Elbow in the Kimura.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qbKtgYa_wzk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/qbKtgYa_wzk",
       "url": "https://www.youtube.com/watch?v=qbKtgYa_wzk",
@@ -149,7 +149,7 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 
 ![](https://www.youtube.com/watch?v=qbKtgYa_wzk)
 
-<p class="clip-credit"><strong>1 Minute Jiu Jitsu Hack - Controlling the Elbow in the Kimura</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=qbKtgYa_wzk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Controlling the Elbow in the Kimura</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=qbKtgYa_wzk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

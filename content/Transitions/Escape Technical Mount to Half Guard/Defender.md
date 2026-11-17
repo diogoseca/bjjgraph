@@ -150,6 +150,27 @@ description: "Defend against the Technical Mount to Half Guard escape in BJJ. Le
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Technical Mount to Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding technical mount (countering escape to half guard)",
+      "description": "Escape Technical Mount to Half Guard (Defender) film study: Holding technical mount (countering escape to half guard).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Al5CODiamZM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Al5CODiamZM",
+      "url": "https://www.youtube.com/watch?v=Al5CODiamZM",
+      "duration": "PT150S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ As the top player in Technical Mount facing an escape attempt to half guard, you
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Technical Mount to Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Al5CODiamZM)
+
+<p class="clip-credit"><strong>Holding technical mount (countering escape to half guard)</strong> · 2:30 · <a href="https://www.youtube.com/watch?v=Al5CODiamZM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

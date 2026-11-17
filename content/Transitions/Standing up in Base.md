@@ -46,8 +46,8 @@ description: "Master the technical standup from turtle bottom in BJJ. Step-by-st
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bottom Turtle Position Escape - Stand Up (Cosens Martial Arts)",
-      "description": "Standing up in Base film study: Bottom Turtle Position Escape - Stand Up (Cosens Martial Arts).",
+      "name": "Bottom Turtle Position Escape - Stand Up",
+      "description": "Standing up in Base film study: Bottom Turtle Position Escape - Stand Up.",
       "thumbnailUrl": "https://i.ytimg.com/vi/onQvqp-HePo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/onQvqp-HePo",
       "url": "https://www.youtube.com/watch?v=onQvqp-HePo",
@@ -107,7 +107,7 @@ This technique serves as a gateway movement that connects various bottom positio
 
 ![](https://www.youtube.com/watch?v=onQvqp-HePo)
 
-<p class="clip-credit"><strong>Bottom Turtle Position Escape - Stand Up (Cosens Martial Arts)</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=onQvqp-HePo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bottom Turtle Position Escape - Stand Up</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=onQvqp-HePo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

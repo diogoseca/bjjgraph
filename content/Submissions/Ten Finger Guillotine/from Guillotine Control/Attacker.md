@@ -196,8 +196,8 @@ description: "How to finish the Ten Finger Guillotine from Guillotine Control. G
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to Do a 10-Finger Guillotine | MMA Submissions",
-      "description": "Ten Finger Guillotine from Guillotine Control (Attacker) film study: How to Do a 10-Finger Guillotine | MMA Submissions.",
+      "name": "How to Do a 10-Finger Guillotine",
+      "description": "Ten Finger Guillotine from Guillotine Control (Attacker) film study: How to Do a 10-Finger Guillotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tsofKYcYqaA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tsofKYcYqaA",
       "url": "https://www.youtube.com/watch?v=tsofKYcYqaA",
@@ -240,7 +240,7 @@ Attacking with the Ten Finger Guillotine from Guillotine Control requires a syst
 
 ![](https://www.youtube.com/watch?v=tsofKYcYqaA)
 
-<p class="clip-credit"><strong>How to Do a 10-Finger Guillotine | MMA Submissions</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=tsofKYcYqaA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Do a 10-Finger Guillotine</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=tsofKYcYqaA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
