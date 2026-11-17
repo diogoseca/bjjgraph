@@ -1055,6 +1055,7 @@ class Component extends DCLogic {
         e.preventDefault();
         this.openSearchPane("key");
       } else if (e.key === "Escape") {
+        if (this._earlyOpen) { e.preventDefault(); this._setEarlyOpen(null); return; }   // "not that", before the data (EARLY1-R1)
         // Esc walks the Z LADDER top-down: deliberate screens first (modal 95, menu 90),
         // then temporary gameplay screens, then the pane above the landing reading column.
         // The "Start a fresh roll" confirm is the newest deliberate screen whenever it is up (it
@@ -1432,6 +1433,9 @@ class Component extends DCLogic {
     // reload is armed in _csArmHide(), called from _csInit() at the TOP of boot — registering it
     // here left the whole cold-load window (loader up, nothing playable) unmeasurable.
     this._csArmHide();
+    // a press made before the data landed is honoured HERE, after the share link and the URL have seeded the page: a
+    // reading arrival shuts the drawer, so an earlier honour was undone in the same task on every content page (EARLY1-R1)
+    this._honourEarlyOpen();
     this.startLoop();
   }
 
@@ -6818,6 +6822,15 @@ class Component extends DCLogic {
    * its own `_session` literal and calls `renderSession` directly, gets the keyboard for free.
    */
   _sessionInline() { return !!(this.deckShown && this._session && !this.deck && !this._checkpoint); }
+  // A SESSION THE PLAYER HAS OPEN IN FRONT OF THEM IS NEVER ENDED BY THE FIRST ROLL'S DEAL (EARLY1, v1.288.1; the reader of
+  // PR #430, finding 4b, proven by real presses: lost 6 of 6 on "/", at both sizes). The intro hands over at 3.2 s of its
+  // own clock, which runs while the panel's pause holds the game, and deals the first roll (`startRoll`); that deal's
+  // reset ended Master the game opened in the first seconds after a load, its opening already counted, with no roll
+  // landed yet (the game stays paused under the panel). That one deal now keeps a session the panel shows: an ARGUMENT of
+  // that one call (`keepShownSession`), not a flag, so no later roll can inherit it (EARLY1-R1). Every other deal ends it,
+  // every roll the PLAYER starts (a node, a row's ▶, through `rollFromPosition`) ends it as before, and so does the first
+  // landing once the drawer is shut, as any landing does.
+  _sessionShown() { return !!(this.deckShown && this._session); }
   /**
    * THE FOCUSED INLINE DECK — SCOPED TO THE SURFACE THAT IS ACTUALLY SHOWING (v1.175.0).
    *
@@ -8871,7 +8884,9 @@ class Component extends DCLogic {
     this._listsRevealed = true;
   }
   toggleExplorer() {
-    // the logo (and legacy callers) toggle the merged pane
+    // the logo (and legacy callers) toggle the merged pane; before the data lands its press is remembered, and a second
+    // press takes it back (EARLY1, `openPane`)
+    if (!Array.isArray(this.nodes)) { this._setEarlyOpen(this._earlyOpen ? null : { call: "logo" }); return; }
     if (this.deckShown) { this.setDeckOpen(false); }
     else {
       // the drawer opens on its list (v1.242.0), never on the sub-view it last showed; search takes the
@@ -8897,6 +8912,13 @@ class Component extends DCLogic {
       this.openCorridor();
       return;
     }
+    // A PRESS BEFORE THE MAP'S DATA HAS LANDED IS NEVER LOST AND NEVER THROWS (EARLY1, v1.288.1; found on production by
+    // the orchestrator's probes). The logo is on screen before the graph is ingested; a press then ran the list's build
+    // over `this.nodes` (undefined: "this.nodes is not iterable") and the panel stayed shut, and `ingest` resets the
+    // drawer anyway. Now the press is remembered (`_earlyOpen`: the call, and the page it was made on) and replayed once
+    // the data lands (`_honourEarlyOpen`, at the end of boot), as if pressed then; a second press on the logo or Esc
+    // meanwhile takes it back, and a navigation (another page by then) drops it.
+    if (!Array.isArray(this.nodes)) { this._setEarlyOpen({ call: "pane", view: view || "explore" }); return; }
     if (this._paneStudyActive()) this._exitStudyTo(view || this._viewMode);
     else if (view) this.setViewMode(view);
     // no _wirePaneControls here: applyDeckVisibility is the one wiring seam for every open path
@@ -8905,6 +8927,48 @@ class Component extends DCLogic {
     this.applyDeckVisibility();
     this._renderPaneBody();
     this.lastInteract = this.now;
+  }
+  // THE PRESS MADE BEFORE THE DATA, REPLAYED (EARLY1, EARLY1-R1). It runs once, at the end of boot: after the share link
+  // and the URL have seeded the page (a reading arrival shuts the drawer: honoured before it, the panel opened and shut
+  // in one task on every content page, and the funnel counted a `pane_opened` nobody saw). It replays the very call the
+  // press made (the logo's toggle, the search, an open), so it ends where a late press on the same page ends. Not on
+  // another page, which is its PATHNAME alone (EARLY1-R2): the sign-in's redirect-back carries `?code=` (PKCE) and the
+  // auth SDK strips it with `replaceState`, maybe before the data lands, and that is the same page; the one query that
+  // picks content, a share link's `?l=`, is never moved between a press and here. And not when the page has opened the
+  // panel itself (a hub, a share link on a desktop): the press asked for what is already there.
+  _honourEarlyOpen() {
+    const p = this._earlyOpen; if (!p) return;
+    this._setEarlyOpen(null);
+    if (p.page !== location.pathname || this.deckShown) return;
+    if (p.call === "search") this.openSearchPane(p.via);
+    else if (p.call === "logo") this.toggleExplorer();
+    else this.openPane(p.view);
+  }
+  // THE READER'S REFERENCE PAGE HAS ITS RECORD (reader.src.js, its reference highlight, after the concepts or the system record
+  // are fetched): its id is set and the map lit, as before. AND AN OPEN DRAWER ON EXPLORE'S ROOT TURNS TO THE PAGE'S OWN
+  // ENTRY (EARLY1-R2; the reader of #432, its re-read: on a principle, a system and a learning page the early press ended
+  // on the root list where a late press ends on the entry, 6 of 6, the state contradicting itself with the id set under
+  // the list). A drawer opened before the id landed (an early press honoured at the end of boot, or a press in the first
+  // moments after the data: a race dev has too) had built the root list and stayed on it. So when the drawer shows that
+  // list, with no query typed and no entry the player opened, it is drawn again with the id. Here and not in the reader,
+  // whose file is a deferred payload at its ceiling.
+  _referenceLanded(system, id, light) {
+    const list = this.explorerListRef.current;
+    const onRoot = !!(this.deckShown && this._viewMode === "explore" && !this._paneStudyActive() && !(this._exQ || "").trim() &&
+      list && !list.querySelector("[data-concept-detail], [data-system-detail]"));
+    if (system) { this._systemId = id; this._systemRecordStatus = "ready"; }
+    else this._conceptId = id;
+    light();   // the reader's own map light (a reader-only method, its name mangled in that bundle: handed over)
+    if (onRoot) this.renderExplorer();
+  }
+  // the remembered press, and the pressed look of the control that took it (`aria-busy`) until it is honoured or taken
+  // back: a press that seems dead invites the second press that takes it back (the reader of #432, its note)
+  _setEarlyOpen(p) {
+    this._earlyOpen = p ? { ...p, page: location.pathname } : null;
+    for (const el of this.wrapRef.current?.querySelectorAll(".ng-logo,.ng-search") || []) {
+      if (p && el.classList.contains(p.call === "search" ? "ng-search" : "ng-logo")) el.setAttribute("aria-busy", "true");
+      else el.removeAttribute("aria-busy");
+    }
   }
   // legacy name kept — challenge-ui's openLearningView calls openExplorer()+showExplorerList()
   openExplorer() { this.openPane(); }
@@ -12348,6 +12412,8 @@ class Component extends DCLogic {
    *  search modal (`openSearch`, `renderSearch`, `locateNode2`), which no control and no key opened, is retired; its journeys
    *  (alias-search, seat-word-and-search) drive this search by real input now. */
   openSearchPane(via) {
+    // before the data lands: remembered with its search, and its beat sent when the panel really opens (EARLY1)
+    if (!Array.isArray(this.nodes)) { this._setEarlyOpen({ call: "search", via }); return; }
     this.openPane("explore");
     this.explorerSearchRef.current?.focus();
     this.fx("search_open", { via });
@@ -18788,7 +18854,7 @@ class Component extends DCLogic {
     this._refreshHistoryRows();
   }
 
-  startRoll(opening) {
+  startRoll(opening, keepShownSession) {
     // THE ARRIVAL IS DIRECTED (NG_CAM_OPEN_*): updateCamera passes the first opening's token, and
     // every later staged restart mints its own below. Without one (a first roll under a camera lease)
     // the staged arrival below keeps its own beats.
@@ -18819,7 +18885,7 @@ class Component extends DCLogic {
     this._roam = false; // any fresh roll leaves free roam
     this._lastActor = null;
     this._startSpot = null; // the crack a weak-spots opening is about, for the toast below
-    this._sessionNodes = null; this._session = null; this._inSession = false;
+    if (!(keepShownSession && this._sessionShown())) { this._sessionNodes = null; this._session = null; this._inSession = false; }   // EARLY1
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
     this.playerRole = this.rng("role") < 0.5 ? "top" : "bottom"; // you start either side
     this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14; // opponent resistance, gated by difficulty
@@ -20922,7 +20988,7 @@ class Component extends DCLogic {
             // starting a fresh roll here moved the map to a random start while the article still
             // read the chosen node, leaving D-318's role change (its other half) off-screen.
           } else {
-            this.startRoll(opening);
+            this.startRoll(opening, true);   // the first roll's deal keeps a session the panel shows (EARLY1, `_sessionShown`)
           }
         }
       }
