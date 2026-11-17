@@ -173,6 +173,11 @@ for (const touch of [false, true]) {
     test(`a corridor repaint keeps the reading position (${tag})`, async ({ page }) => {
       const { errors } = await bootMid(page)
       await openMaster(page, touch)
+      // the plan lands first and Master the game opens its first card (its own scroll, `_scrollFocusedDeck`); the reading
+      // position is set after that, without a wheel or a touch the app could read, so only a repaint could move it
+      await expect.poll(() => page.evaluate(() => !!(window as W).__neural._session?.plan), { message: "premise: the plan has landed", timeout: 20_000 }).toBe(true)
+      await expect(page.locator("[data-practice-page] [data-mini-deck]").first(), "premise: the first card is open").toBeVisible({ timeout: 20_000 })
+      await page.evaluate(() => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(() => setTimeout(r, 300)))))
       const at = await page.evaluate(() => { const l = (window as W).__neural.drillListRef.current; l.scrollTop = 1200; return l.scrollTop })
       expect(at, "premise: the page scrolls to 1,200 px").toBe(1200)
       await page.evaluate(() => { const a = (window as W).__neural; (window as any).__corridorMark = a._session.corridor.firstChild; a.fx("roll_end", { outcome: "win", moves: 5 }) })

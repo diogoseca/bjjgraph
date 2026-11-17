@@ -537,16 +537,21 @@ test.describe("Challenges UI", () => {
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
 
-    // complete everything above BLACK so the frontier lives at the far end of the belts
+    // complete everything above BLACK so the frontier lives at the far end of the belts, their tests WON: an earlier belt whose
+    // test can still be started is drawn in the first draw (PATH-R1, ruling 3; corridor-reach pins it), and this journey's
+    // subject is where the corridor starts, so the earlier belts here are finished ones (the seed changed, no assertion did)
     await page.evaluate(() => {
       const a = (window as any).__neural;
       a.prep = a.prep || {};
+      a.belts = a.belts || { won: {} };
+      a.belts.won = a.belts.won || {};
       for (const belt of a.curriculum.belts) {
         if (belt.id === "black") continue;
         for (const unit of belt.units) {
           a.units[belt.id + "/" + unit.id] = { checkpoint: true, t: 1 };
           for (const lesson of unit.lessons) a.prep[lesson.deckKey] = 99;
         }
+        a.belts.won[belt.id] = { moves: 12, dominance: 5, byPoints: false };
       }
       a._syncBelt();
     });
