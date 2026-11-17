@@ -19837,6 +19837,31 @@ the technique words that may never be listed as people).
 - **Unguarded, and said so in the script:** a surname that is an ordinary English word, used alone and listed by
   nobody. Listing "Hall" would refuse the word.
 
+**The gate after the independent read of PR #437 (PROSE-R1, same version; scripts, tests and docs only).** The read
+held the rewording (all 127 rows and 37 cards, no added fact) and found the gate wider than its own three forms:
+- **A listed person's surname alone passed** ("Wardzinski shows this": 160 of the surnames were on no list). The gate
+  now derives every surname from the full names: 177, of which 160 are held alone. The 17 that are not are named: 12
+  a word of a graph name, 1 a technique word, 4 ordinary words the lexicon file lists with reasons (Brown, Hall,
+  Hill, Shields), under a cap. 0 findings on the source, the emitted payload, the seat's built tree and the accepted
+  capture tree.
+- **A skipped field was free text:** 375 of the 2,284 `decision_tree[].actions[].technique` values are no graph name.
+  The skip list is gone: every string of a record is read but a clip's own six keys and a Learning page's references
+  (445,515 strings, was 385,960), so wiring is told from free text by value and a new section, field or clip key is
+  read by default.
+- **An allowed sentence was allowed anywhere in its record, any number of times.** Each is now one record, one field
+  and one exact sentence, once: 23 origin sentences at 29 places, 1 citation, 2 sentences that hold a Systems guide's
+  title, each list under a cap. A link allows a name only when it goes to an http(s) address and is not in a card
+  (115 mentions; all of them already were).
+- **Eight lexicon entries were not people** (a gym three times, a team, two channels, two phrases) and one was a
+  person twice in another case. Seven are gone, the two phrases that say a person through a technique's word moved
+  to `phrases`; the full names behind two technique words were added (0 in our text), and the first name "Kade", which
+  four cited links use alone. The floor is exact: 232 entries that parse as a person's name.
+- Two rulings changed words, not text: the two "Danaher leg lock system" sentences stand as a Systems guide's own
+  title (listed), and "one origin line per page" was wrong: a record may keep more than one, each listed.
+- The prose probe has 41 mutants red at their named checks and 8 green controls, two of them recorded non-kills: a
+  surname the file names as an ordinary word, and a name written into a generated page only (the generator gate
+  refuses that page; proved once on a scratch copy).
+
 **Errors of the seat's own.**
 - The first survey counted 497 mentions: it took "Dead Orchard", and bare "Estima", "Peterson" and "Mir", for people,
   and "Hall" in "UFC Hall of Famer". They are technique names and a common word; 206 was the count.

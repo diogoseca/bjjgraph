@@ -297,12 +297,14 @@ jobs:
       # just emitted: clips carry player fields only, and no file holds a `by` key. Positive counts and floors on
       # the lists; fails on 0.
       # THE PROSE CHECK (v1.291.0; owner U203 a + U206 a: a real person's name stays only where the name is the thing
-      # itself). In the SOURCE JSON's authored prose and flashcards, in the cards just emitted (they are built from
+      # itself). In every string of the SOURCE JSON outside Systems (prose, flashcards, the graph's own fields; all
+      # but a clip's own keys and a Learning page's references), in the cards just emitted (they are built from
       # graph.json, so this is what refuses a graph.json nobody refreshed), in clip titles and in credit lines: no
-      # entry of the names lexicon (tests/artifacts/no_names_lexicon.json) outside the allowed kinds the script
-      # names (an origin line listed by page and sentence, a cited-source line, a Systems guide, a Learning
-      # reference, a technique's own word). What it does NOT hold (a surname that is an ordinary word and that
-      # nobody listed, an unlisted gym) is in the script's docstring.
+      # entry of the names lexicon (tests/artifacts/no_names_lexicon.json), nor the surname of a person on it,
+      # outside the allowed kinds the script names (an origin line, a citation or a guide's title listed by record,
+      # field and exact sentence; a cited link; a Systems guide; a Learning reference; a technique's own word).
+      # What it does NOT hold (a listed person's surname that is an ordinary word or a technique's own word, a
+      # person nobody listed, a gym) is in the script's docstring.
       - name: No person's name in clip credits, structured data, the payload, authored prose or cards
         run: python3 scripts/check_no_names.py
 

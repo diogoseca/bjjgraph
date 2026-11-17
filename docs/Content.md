@@ -602,11 +602,22 @@ titles); a competition that describes the video (ADCC-style, a UFC finish) and a
 the thing itself. v1.291.0 took 172 mentions out of 140 fields of 66 records, each sentence reworded so it teaches the
 same thing. Where a name stays:
 
-- **an origin line**: the one sentence on a page that says who the technique on that page is named after, and nobody
-  else (the opponent in the story goes; a first name in doubt takes the neutral "named after its creator");
-- **a cited source**: a cited video or course keeps its author, in a link's label and in an "Instructional sources:"
-  line;
-- **a Systems guide**, which keeps the course and its author, and **a Learning page's references**;
+- **an origin line**: a sentence of a technique's own record that says who THAT technique is named after, and nobody
+  else (the opponent in the story goes; a first name in doubt takes the neutral "named after its creator"). It is not
+  "one per page": each page of the technique may keep its own, and one record may keep more than one (the Mir Lock's
+  summary and its overview each explain the name). Every allowed sentence is listed by record, field and exact text:
+  23 sentences at 29 places on 2026-11-17, because a record's overview often stands again as its attacker's overview.
+  A hub page repeats its records' descriptions, so the Positions hub prints Dead Orchard Control's origin line too;
+- **a cited source**: a cited video or course keeps its author, inside the link that cites it (a link to an http(s)
+  address: an "Instructional sources:" line, a "Narration:" line, or a link in running prose such as "[Keenan's
+  introduction](…)"), never in a flashcard; and the one in-text citation of a Learning page's own listed reference;
+- **a Systems guide**, which keeps the course and its author, and **a Learning page's references**. A guide's own
+  title is its name wherever it stands: two technique sentences say "the Danaher leg lock system"
+  (`.position_integration` of `Transitions/50-50 Guard to Inside Ashi` and of `Transitions/Kneebar Control
+  Maintenance`), which is the title of the guide `Danaher Leg Lock System`, and they stay. The gate recognises a
+  guide's title as one of the exact `name` values of `content/Systems/*.json` (83), standing whole, letter case
+  ignored; inside a sentence it is allowed only where that sentence is listed, so a third one is a finding until
+  someone reads it and lists it;
 - **a technique's own word**: Kimura, De La Riva, Estima Lock, the London, Marcelotine.
 
 Everything else says what is done, not who does it: "the cited demonstration shows…", "competitors popularized…", and
@@ -628,11 +639,23 @@ only when the rule requires it, and say so in the PR.
   Grapple", "Train For Real", "Armory", "The Merge", "First Day BJJ", "Who's Next"), so an honest title can trip one.
   A label comes off by hand: delete its row, write why in the file's `_meta.not_held`, and lower `LABEL_FLOOR` by one
   in the same change;
-- the **names lexicon**, `tests/artifacts/no_names_lexicon.json` (v1.291.0): real people our text has named. Full names
-  match whole words in any case; a surname or first name used alone matches with its capital letters. It is refused
-  in authored prose, in cards, in clip titles and in credit lines, outside the allowed kinds above. The file also lists
-  the allowed origin lines, by page and exact sentence, and the technique words that may never be listed as people.
-  It has a floor (`LEXICON_FLOOR`).
+- the **names lexicon**, `tests/artifacts/no_names_lexicon.json` (v1.291.0): real people our text has named, and
+  people only (an entry that does not parse as a person's name is refused: a gym, a team, a channel or a phrase).
+  - Full names, and two phrases that say a person through a technique's word ("the Estima brothers"), match whole
+    words in any case.
+  - A surname, first name or nickname our text used alone (`single_tokens`) matches with its capital letters.
+  - **Every listed person's surname is held alone too**, derived by the gate from the full names and never listed:
+    "Wardzinski shows this" is refused. Of the 177 surnames, 160 are held. **The 17 that are not, exactly:** twelve
+    that are a word of one of the graph's own names (Aoki, Darce, Estima, Flue, Kimura, Long, Mir, Orchard, Peterson,
+    Riva, Suloev, Williams), one technique word (D'Arce), and four ordinary words the file names with their reasons
+    (Brown, Hall, Hill, Shields; a cap in the script, moved by hand). The gate prints the three sets every run.
+  - It is refused in every string of a source record, in cards, in clip titles and in credit lines, outside the
+    allowed kinds above.
+  - The file also lists the allowed places (origin lines, the citation, the two guide-title sentences), each as one
+    record, one field and one exact sentence with the names the lexicon finds in it, and the technique words that may
+    never be listed as people.
+  - Its floor is exact (`LEXICON_FLOOR`, 232 entries that parse as a person's name on 2026-11-17): add a person and
+    raise it in the same change. Recompute: `python3 scripts/check_no_names.py | grep -E '^(lexicon|surnames)'`.
 
 What it holds, in CLAUDE.md §6.9's three forms:
 
@@ -648,13 +671,23 @@ What it holds, in CLAUDE.md §6.9's three forms:
     missing export or `llms.txt` is a finding;
   - positive counts, each red on zero: names (at least the floor), labels (at least the floor), credit lines,
     VideoObjects, shipped clips and, built, the exported credit lines;
-  - **prose and cards (v1.291.0):** in every authored string of the source JSON of Positions, Transitions, Submissions,
-    Principles and Learning, flashcards included: no lexicon name outside the allowed kinds. An origin line is allowed
-    by page and exact sentence: a second person added to one, or the same sentence on another page, is a finding, and
-    a listed line gone from its page is red. In every card the app is served (`static/neural/flashcards`): no lexicon
-    name, which is what catches a `graph.json` that was not refreshed after a content change. In a credit line, a
-    shipped clip's title and an exported credit: no lexicon name, so a person by surname is refused. The lexicon at
-    least its floor; a technique's own word on it is red; strings read and cards read are positive.
+  - **prose and cards (v1.291.0):** in every string of every record under `content/` outside Systems, but a clip's
+    own fields by key and a Learning page's references: no lexicon name outside the allowed kinds. A new section, a
+    new field, a new key on a clip, a `references` list on a technique and free text in a field that mostly holds
+    wiring are all read. Free text is told from wiring by value, not by field: a value that IS one of the graph's own
+    names (with or without its role), the terminal or a guide's title is wiring; of the 2,284 `technique` values of
+    the decision trees, 1,909 are wiring and 375 are free text that renders on the page and ships in the dossier.
+  - **An allowed place is one record, one field and one exact sentence, once,** up to a cap per list (29 origin
+    places, 1 citation, 2 guide-title sentences). Each of these is red: a second person added to a listed sentence;
+    the same sentence in another record, in another field of its own record (a card's answer included) or twice in
+    its field; a place listed past its cap; a listed sentence gone from its field; a row whose names the lexicon does
+    not find in its sentence (which is what refuses a lexicon whose entries were all replaced).
+  - **Cards and titles:** in every card the app is served (`static/neural/flashcards`): no lexicon name, and no
+    allowed kind applies, which is what catches a `graph.json` that was not refreshed after a content change. In a
+    credit line, a shipped clip's title and an exported credit: no lexicon name, so a person by surname is refused.
+  - **The lexicon:** exactly its floor of entries that parse as a person's name; an entry that is not a person by
+    shape is red; a technique's own word on it is red; an ordinary-word surname past its cap, or one that is no
+    listed person's surname, is red; strings read, surnames held and cards read are positive.
 - **Partially pinned:**
   - **A name matches only as one whole `by` or `channel` value.** A part of one (a surname, a possessive), the same
     name as a tag, a handle or hyphenated, and a person, gym, show or series that is no clip's `by` or `channel` and
@@ -662,10 +695,15 @@ What it holds, in CLAUDE.md §6.9's three forms:
     53, the two lists together 193; the other 15 are named in the label file (`_meta.not_held`). The lexicon refuses
     2 more of them (195 of 208); the 13 left name no person.
   - **The lexicon is a list, not a detector:** a person nobody listed passes in prose. A new clip's teacher is on the
-    name list for titles and credits at once, and on the lexicon only when someone adds them. A full name split by
-    markup or a line break passes.
-  - Prose is read from the source only: the payload's dossier prose and the page's FAQ JSON-LD are emitted from that
-    same source and are not read again.
+    name list for titles and credits at once, and on the lexicon only when someone adds them. First names are held
+    only where someone listed one as a single token. A full name split by markup or a line break, glued, hyphenated
+    or written with other accents passes. An entry with a person's shape that is nobody's name passes the shape check
+    (every entry made up is red at the listed places; one made-up entry among real ones is not).
+  - Prose is read from the source only: a name written into a generated page alone passes this gate, and the
+    generator gate ("Generated content matches its generator") is what refuses that page. The payload's dossier prose
+    and the page's FAQ JSON-LD are emitted from that same source and are not read again.
+  - **Any link to an http(s) address allows the names inside it:** nothing checks that the address is a source or
+    that the link stands in a sources line.
   - The label list is a ratchet on what was removed, not a detector: a new show or gym nobody listed passes.
   - The floor sits 48 under the list, so a smaller loss of names passes.
   - The checks are bound to today's markup: "taught by" in another element, an attribute or a meta description, a
@@ -674,11 +712,13 @@ What it holds, in CLAUDE.md §6.9's three forms:
     are aggregate, not per-family floors.
   - The source JSON's titles are not read: a name back in a source title shows only once its page is regenerated
     (the generator gate refuses the unregenerated page).
-- **UNGUARDED:** a surname that is an ordinary English word, used alone and listed by nobody ("Hall shows the
-  entry"): listing it would refuse the word, so it passes, and the prose probe keeps that mutant green on purpose.
-  Gyms, schools and channels in prose ("10th Planet"): the rule is about people. Whatever stands inside an allowed
-  kind (any name in a cited-source link's label, a Systems guide, a Learning reference). JSON-LD blocks with no
-  VideoObject, and a bare name in `llms.txt`.
+- **UNGUARDED:** a listed person's surname that is not held, used alone: the four ordinary words ("Hall shows the
+  entry": the prose probe keeps that mutant green on purpose) and the thirteen that are a technique's own word ("Aoki
+  shows…": the word is the technique's, so a person meant by it passes). A person nobody listed. A person's name used
+  as a technique's nickname that is no graph name ("Imanari Roll", "Schultz choke" in a clip title): the rule allows
+  a technique's own word, and no list holds these. Gyms, schools and channels in prose ("10th Planet"): the rule is
+  about people. Whatever stands inside an allowed kind (any name in a cited link, a Systems guide, a Learning
+  reference). JSON-LD blocks with no VideoObject, and a bare name in `llms.txt`.
 
 Position hub clips supplement a role dossier
 only when `half` names that role or `both`; an untagged hub clip reaches neither role. A clip authored
