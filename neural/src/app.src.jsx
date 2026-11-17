@@ -3853,8 +3853,20 @@ class Component extends DCLogic {
       if (host) for (const t of ["wheel", "touchstart", "pointerdown", "keydown"]) host.addEventListener(t, () => { s.backTo = null; }, { once: true, passive: true });
       this.renderSession();
       this._layoutPane(); this._paintDrawerHead();
+      // THE KEYS STAY IN THE PAGE (L1-R1b, the reader's smaller 7, both sizes): with a card open the card holds the focus; in
+      // the list (L1) nothing did, and the focus was left outside the page with the Back button gone, so no key lifted the
+      // hold (its keydown listener is on the page). The focus goes to what the player came from: the checkpoint's row, or
+      // the button when the row is not drawn
+      const keys = () => {
+        const h = this.drillListRef.current;
+        if (!s.list || !h || h.contains(document.activeElement)) return;
+        const to = h.querySelector('[data-checkpoint="' + CSS.escape(cp.uk) + '"]:not(:disabled)') || h.querySelector("[data-master-start]:not(:disabled)");
+        if (to) to.focus({ preventScroll: true });
+      };
+      keys();
       const bring = () => {
         if (this._session !== s || !s.backTo) return;
+        keys();
         const row = this.drillListRef.current && this.drillListRef.current.querySelector('[data-checkpoint="' + CSS.escape(s.backTo) + '"]');
         if (row) row.scrollIntoView({ block: "center" });
       };
@@ -4574,11 +4586,12 @@ class Component extends DCLogic {
       }
       const row = deck.previousElementSibling;
       const dr = deck.getBoundingClientRect();
-      const top = Math.min(dr.top, row ? row.getBoundingClientRect().top : dr.top);
+      // a row not drawn (L1-R0: the deck row that only repeats its place) has no top of its own: the card's is used
+      const top = Math.min(dr.top, row && row.offsetParent !== null ? row.getBoundingClientRect().top : dr.top);
       const lr = list.getBoundingClientRect();
-      // (the Path's sticky maintenance band was subtracted here; it left with the Path in v1.287.0, and no list this
-      // scrolls carries a sticky header now)
-      const pad = 12;
+      // (the Path's sticky maintenance band was subtracted here; it left with the Path in v1.287.0.) Master the game's slim
+      // line is the one sticky band now (L1): a card scrolled to the top stays below it
+      const band = this._session && this._session.slim, pad = 12 + (band && band.isConnected && !band.hidden ? band.offsetHeight : 0);
       const room = lr.height - pad - 12;
       if (dr.bottom - top > room || top < lr.top + pad) list.scrollTop += top - (lr.top + pad);
       else if (dr.bottom > lr.bottom - 12) list.scrollTop += dr.bottom - (lr.bottom - 12);
@@ -4651,7 +4664,10 @@ class Component extends DCLogic {
       // only until now, which is why the "very weak" tier emptied on every reload.
       this.flow = this._trimFlow(Object.assign({}, p.flow || {}));
       this._flowVer = (this._flowVer || 0) + 1;
-      this._exploredKeys = new Set(Array.isArray(p.explored) ? p.explored : []);
+      // THE LOAD (L1-R3's invariant, progress-owner.src.js above `ngProgressExploredKeys`): `explored` holds unique strings,
+      // each a place's key, and nothing else, for good. A damaged entry stopped the app before it drew (L1-R1): the places
+      // are the strings, the rest is counted (`_exploredBad`) and is gone at the next save, which writes the strings only
+      { const ex = ngProgressExploredKeys(p.explored); this._exploredKeys = new Set(ex.keys); this._exploredBad = ex.bad; }
       // `activeListId` IS RETIRED — READ BY NOTHING (the default-list retirement, v1.196.1). It
       // was "the list you last created or filed into": the picker's marked "default" row and the
       // silent destination of `addToList(nodeId)` with no list. Nothing files without a pick
@@ -4679,6 +4695,11 @@ class Component extends DCLogic {
     this._progressAt = Date.now();
     // `flow` and `explored` ride the EXISTING v2 blob, the way `lists` and `srs` did — a roll
     // ledger is not worth a schema migration, and `neural` is free-form JSONB on the cloud side.
+    // THE SAVE WRITES `explored` AS UNIQUE STRINGS ONLY (L1-R3's invariant; the full text is in progress-owner.src.js above
+    // `ngProgressExploredKeys`): each a place's key, and nothing else, for good. A build that needs more stores it under a
+    // new key: every validator shipped before v1.290.0 refuses anything else here, so a non-string kept in this list
+    // locks older devices out of their own record. `_exploredKeys` is a Set of strings by construction (the load, the
+    // merge, a landing), so this line cannot write anything else.
     const out = { ...(this._progressExtras || {}), v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), rollDays: this._trimDays(this._rollDays || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, flow: this._trimFlow(this.flow || {}), explored: [...(this._exploredKeys || [])], days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
     // `moves` (v1.255.0) is written only once it holds a cell (review R4): an account that never graded a move
     // saves exactly the blob v1.254.0 saves, and an open older tab is never handed a `moves` copy to push back.
@@ -5311,6 +5332,7 @@ class Component extends DCLogic {
     this._deckState = this._deckState || {};
     const st = this._deckState[key] || (this._deckState[key] = { idx: 0, revealed: false });
     if (st.idx >= total) st.idx = 0;
+    if (st.idx < 0) st.idx = Math.max(0, total - 1);   // entered from the next deck by ‹ (L1-R0): its last card
     this._answered = this._answered || {};
     const ansSet = this._answered[key] || (this._answered[key] = new Set());
     // Stable question/day identity survives subset reordering and expires at midnight.
@@ -5439,9 +5461,11 @@ class Component extends DCLogic {
           else { recallFallback = card; render(); }
         }
       }
+      if (surf === "practice" && this._session && this._session.dock) this._masterDock(this._session);
     };
     this._miniReg = this._miniReg || {};
-    this._miniReg[rid != null ? rid : key] = { reveal: doReveal, prev: doPrev, next: doNext, enter: doEnter };
+    // `at`: the open card's place in its deck, for Master the game's foot (L1-R0, `_masterStep`: its ‹ › cross decks at the ends)
+    this._miniReg[rid != null ? rid : key] = { reveal: doReveal, prev: doPrev, next: doNext, enter: doEnter, at: () => [st.idx, total], draw: () => render() };
     render();
     return wrap;
   }
@@ -6508,7 +6532,7 @@ class Component extends DCLogic {
   // (`renderRewardsShelf`). A deck or a checkpoint over it, or another study surface: that is left first, as the Path's
   // door did (`openPane` → `_exitStudyTo`).
   openCorridor() {
-    if (this.deckShown && this._practiceInDrawer()) { this._practiceCorridor(); return; }
+    if (this.deckShown && this._practiceInDrawer()) { if (this._session.belts) this._masterBelts(this._session, true); this._practiceCorridor(); return; }
     if (this._paneStudyActive()) this._exitStudyTo("explore");
     // ITS OWN SURFACE (PATH-R1, ruling 2, the reader of #430 finding 2): `neural_practice_opened` with surface "practice"
     // stays what it was, a deliberate opening by Master the game's own row or badge. A corridor door (View Collection, an
@@ -6549,7 +6573,8 @@ class Component extends DCLogic {
         if (lesson) keys.push(lesson.deckKey);
       }
       const list = this.explorerListRef.current;
-      s = this._session = { practice: true, keys, review, idx: 0, anchor, bucket: "plan",
+      // it opens as the list (L1, `s.list`); a corridor door opens it with the belt shelf unfolded (`openCorridor`)
+      s = this._session = { practice: true, list: true, beltsOpen: surface === "corridor", keys, review, idx: 0, anchor, bucket: "plan",
         origin: { view: this._viewMode, scroll: list?.scrollTop || 0, node: this.focusIdx, path: location.href, title: document.title, focus: document.activeElement } };
       this._stopSystemPreview(); this._stopConceptFilm();
       this.closeModal();
@@ -6955,19 +6980,30 @@ class Component extends DCLogic {
     const kept = s.support?.firstChild?.open;
     this._gameplanProgress(s);
     this.setDrillHeader(NG_PRACTICE_NAME, "", "");
-    // This fixed skeleton is owned by the page; the shared card renderer fills its first section.
-    list.innerHTML = '<div data-plan-goal="1" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;font-size:11.5px;font-weight:600"><span data-plan-goal-progress="1" aria-live="polite" style="color:#9ab0e0;white-space:nowrap"></span><span data-practice-goal="1"></span></div><section data-session="1" class="ng-practice-cards"><div data-practice-section="1"></div></section><div class="ng-practice-nav"></div><div data-practice-keys="1"></div><div data-practice-end="1"><div></div></div><div></div><div><details data-practice-details="1"><summary>Session details &amp; queue</summary><div data-practice-queue="1"></div><p data-session-section="Practice"></p><div></div></details></div>';
-    const [goal, wrap, nav, keys, end, corridor, support] = list.children, details = support.firstChild;
+    // This fixed skeleton is owned by the page; the shared card renderer fills its session section.
+    // MASTER THE GAME IS A LIST WITH ONE BUTTON (L1, v1.290.0; the owner's U197 b, 17 Nov: "I want a call to action here. When
+    // we click that button, we should go for the first item on the list and then reveal the navigation buttons. I don't want
+    // to have the section which reads 'Places you have been'"). As it opens (`s.list`): the belt you wear, ONE button, the
+    // day's bar, then the positions with no heading (the plan's in its own order, a rule, every other place in `explored`),
+    // then "Belt lessons" (the shelf the Path's corridor left here in v1.287.0). The press (or a row, or `openMasterAt`)
+    // opens a position in place on its first ask; only then the button becomes the slim line (the open card's heading and
+    // the day's count, today's two lines) and the navigation shows in the drawer's pinned foot, in thumb reach on a phone.
+    // The rows, their words and the button's are master-list.src.js's (deferred); `_masterPaint` paints them.
+    list.innerHTML = '<div data-master-top="1"><div class="ng-dr-rank" data-belt-row="1"></div></div><div data-master-cta="1" class="ng-mcta"></div>' +
+      '<div data-master-slim="1" class="ng-mslim"><div data-practice-section="1"></div><div data-plan-goal="1" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;font-size:11.5px;font-weight:600"><span data-plan-goal-progress="1" aria-live="polite" style="color:#9ab0e0;white-space:nowrap"></span><span data-practice-goal="1"></span></div></div>' +
+      '<div data-master-ask="1"><section data-session="1" class="ng-practice-cards"></section><div data-practice-keys="1"></div><div data-practice-end="1"><div></div></div></div>' +
+      '<div data-master-rows="1"></div><p data-master-note="1" class="ng-mnote"></p><button type="button" class="ng-mrow" data-master-belts="1"></button><div data-master-shelf="1"></div>' +
+      '<div><details data-practice-details="1"><summary>Session details &amp; queue</summary><div data-practice-queue="1"></div><p data-session-section="Practice"></p><div></div></details></div>';
+    const [top, cta, slim, ask, rows, note, belts, corridor, support] = list.children, details = support.firstChild, [wrap, keys, end] = ask.children;
     if (kept) details.open = true;
-    s.goal = goal; s.rows = wrap; s.heading = wrap.firstChild; s.corridor = corridor; s.support = support; s.end = end;
+    s.goal = slim.lastChild; s.rows = wrap; s.heading = slim.firstChild; s.corridor = corridor; s.support = support; s.end = end;
+    Object.assign(s, { top, cta, slim, ask, rowsEl: rows, note, belts, rowEls: null, rowSig: null });
+    this._masterSkeleton(s);
     s.queue = details.children[1]; s.count = details.children[2]; s.explanation = details.children[3]; s.completion = end.firstChild; s.visitShown = null;
     // the door to everything owed, one level down (STAGE3-R1); painted with its count in `_paintPractice`
     const owed = s.owedDoor = this.drillBtn("Everything owed, oldest first"); owed.setAttribute("data-practice-owed", "1");
     owed.onclick = () => this._openOwedPractice(); details.insertBefore(owed, s.queue);
     keys.innerHTML = this._keyLegend();
-    for (const [text, dir] of [["‹ Previous technique", -1], ["Next technique →", 1]]) {
-      const b = this.drillBtn(text); b.onclick = () => this.sessionNav(dir); nav.appendChild(b);
-    }
     s.explanation.appendChild(this._gameplanIntro(s));
     // "More new cards" (and a Path lesson, `_practiceLesson`) add new cards while cards are due, at the PLAYER's own press:
     // the owner's Anki rule is about what Practice deals by itself, and a daily goal is a goal, never a limit (ANKI1-R1,
@@ -6983,13 +7019,15 @@ class Component extends DCLogic {
     };
     end.appendChild(more);
     this._practiceCorridor(); this._practiceRows(s);
-    this._sessionOpeners[Math.max(0, Math.min(s.keys.length - 1, s.idx || 0))]?.();
+    // as it opens, nothing is open: the list waits for the press (L1); after it, the open card stays open across a re-render
+    if (!s.list) this._sessionOpeners[Math.max(0, Math.min(s.keys.length - 1, s.idx || 0))]?.();
     if (!s.keys.length) {
       const empty = document.createElement("p"); empty.setAttribute("data-session-empty", "1");
       empty.textContent = s.plan ? "Nothing to practise here right now." : this._gameplanLoadState === "failed" ? "Open study plan to retry." : "Loading cards…";
       wrap.appendChild(empty);
     }
     const foot = this.drillFootRef.current; if (foot) foot.style.display = "none";
+    this._masterMode(s);
     this._paintGameplanProgress(s);
   }
 
@@ -7002,11 +7040,11 @@ class Component extends DCLogic {
       // a row "More new cards" or a Path lesson appended has no position (STAGE3-R1, finding 3: it read "NaN · Other cards"),
       // and each is named by how it came (STAGE3-R2 d: a lesson the player opened from the Path is not "More new cards")
       const v = s.plan?.order === "worth" && s.plan.due.concat(s.plan.fresh).find((r) => r.key === key);
-      const pos = v && (typeof v.visit === "number" ? v.visit : v.source === "lesson" ? "lesson" : "more");
+      const pos = v && (typeof v.visit === "number" ? v.visit : v.source === "lesson" ? "lesson" : v.source === "place" ? "place" : "more");
       if (v && pos !== s.visitShown) {
         s.visitShown = pos;
         const at = document.createElement("p"); at.setAttribute("data-practice-visit", pos);
-        at.textContent = pos === "more" ? "More new cards" : pos === "lesson" ? "Belt lessons" : pos + 1 + " \u00b7 " + (v.seat ? v.seat.replace("|", " \u00b7 ") : "Other cards"); s.queue.appendChild(at);
+        at.textContent = pos === "more" ? "More new cards" : pos === "lesson" ? "Belt lessons" : pos === "place" ? key.replace("|", " \u00b7 ") + (v.owed && v.owed.length ? "" : " \u00b7 free review") : pos + 1 + " \u00b7 " + (v.seat ? v.seat.replace("|", " \u00b7 ") : "Other cards"); s.queue.appendChild(at);
       }
       const jump = document.createElement("button"); jump.type = "button";
       jump.textContent = key.replace("|", " · ");
@@ -7014,6 +7052,253 @@ class Component extends DCLogic {
     }
     this._sessionNodes = s.keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // camera + rings: never aim at an orb this ruleset does not draw
     if (s.keys.length) s.rows.querySelector("[data-session-empty]")?.remove();
+  }
+
+  // ── MASTER THE GAME'S LIST (L1, v1.290.0): see `_renderPractice` for what the page is; master-list.src.js for its rows ──
+  _masterSkeleton(s) {
+    s.cta.innerHTML = '<button type="button" class="ng-mstart" data-master-start="1"><span class="ng-mpl"></span><span><b></b><small></small></span></button>' +
+      '<div class="ng-mgoal"><span class="ng-dr-bar"><i></i></span><span data-master-count="1"></span></div><button type="button" class="ng-mkeep" data-master-keep="1">Keep practising</button>';
+    const [start, , keep] = s.cta.children;
+    start.onclick = () => this._masterStart(s);
+    keep.onclick = () => this._practiceNextRound(s);
+    // the navigation, shown only after the press, in the drawer's pinned foot (`_masterMode`): ≡ back to the list, then the
+    // OPEN CARD'S OWN buttons, moved in (`_masterDock`; L1-R0, the orchestrator's ruling: one bar for the open ask, in the foot)
+    const dock = s.dock = document.createElement("div"); dock.className = "ng-mdock"; dock.setAttribute("data-master-dock", "1");
+    dock.innerHTML = '<button type="button" data-master-list="1" aria-label="Back to the list"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 7h14M5 12h14M5 17h14"/></svg></button>' +
+      '<span class="ng-mbar" data-master-bar="1"></span>';
+    dock.firstChild.onclick = () => this._masterList(s);
+    // one handler for every row, so a row repainted in place never loses its press (FGD13's class)
+    s.rowsEl.onclick = (e) => { const b = e.target.closest && e.target.closest("[data-master-row]"); if (b) this._masterGo(s, b.getAttribute("data-master-row"), true); };
+    s.belts.innerHTML = '<span class="ng-mtrophy"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h8v4a4 4 0 01-8 0zM5 5h3v3a3 3 0 01-3-3zM19 5h-3v3a3 3 0 003-3zM12 12v4m-4 4h8"/></svg></span><span class="ng-mbody"><span class="ng-mname">Belt lessons</span><small>' + ngBeltDisplayName(this.wornBelt().id) + ' · units, checkpoints, belt tests, rewards</small></span><span class="ng-mchev">›</span>';
+    s.belts.onclick = () => this._masterBelts(s, !s.beltsOpen);
+    this._masterBelts(s, !!s.beltsOpen);
+    if (this._beltReading) this._paintBeltRow(s.top); else this._askBeltRow();
+  }
+  // the shelf the Path's corridor left here (v1.287.0), folded under its row; every corridor door opens it (`openCorridor`)
+  _masterBelts(s, open) {
+    s.beltsOpen = open; s.corridor.hidden = !open; s.belts.setAttribute("aria-expanded", String(open));
+  }
+  // as it opens (`s.list`) the belt and the button; after the press the slim line, the open card and the navigation
+  _masterMode(s) {
+    const L = !!s.list;
+    s.top.hidden = s.cta.hidden = !L; s.slim.hidden = s.ask.hidden = L;
+    if (L) for (const r of s.rowEls ? s.rowEls.values() : []) r.removeAttribute("data-on");   // as it opens nothing is open
+    const foot = this.drillFootRef.current; if (!foot) return;
+    if (L) foot.style.display = "none";
+    else { if (s.dock.parentNode !== foot) foot.replaceChildren(s.dock); foot.style.display = "flex"; }
+  }
+  // the list's row for a deck in this session: a position the plan visits, the place a free review opened, or none (a row
+  // "More new cards" added or a belt lesson). "" is the plan's cards that no position holds ("Other cards").
+  _masterSeatOf(s, k) {
+    const r = s.plan && s.plan.due.concat(s.plan.fresh).find((x) => x.key === k);
+    if (r && s.plan.order === "worth") return typeof r.visit === "number" ? r.seat || "" : r.source === "place" ? r.seat || k : null;
+    return r && r.source === "lesson" ? null : k;
+  }
+  // the rows, the note and the button's words are master-list.src.js's (`ngMasterPaint`, deferred: the eager core carries only
+  // the skeleton, the press and the navigation); before that bundle is in, the button opens the day's first card, as before L1
+  _masterPaint(s) {
+    if (this._session !== s || !s.cta || !s.cta.isConnected) return;
+    const R = this._gameplanRuntime, t = this.practiceToday(), p = R && R.ngMasterPaint ? R.ngMasterPaint(this, s) : null;
+    if (s.rowsNew) { s.rowsNew = false; for (const paint of Object.values(this._sessionPaint || {})) paint(); }
+    const w = p ? p.w : { title: t.done ? "Continue today's session" : "Start today's session", sub: "Loading your positions\u2026" };
+    const [start, goal, keep] = s.cta.children, words = start.children[1];
+    start.toggleAttribute("data-met", !!w.met);
+    start.disabled = !(p ? p.open : s.keys.length > 0);
+    start.firstChild.textContent = w.met ? "\u2713" : "\u25b6";
+    if (words.firstChild.textContent !== w.title) words.firstChild.textContent = w.title;
+    if (words.lastChild.textContent !== w.sub) words.lastChild.textContent = w.sub;
+    goal.firstChild.firstChild.style.width = Math.min(100, Math.round((100 * t.done) / Math.max(1, t.goal))) + "%";
+    goal.lastChild.textContent = this._practiceGoalText(t);
+    keep.hidden = !(w.met && s.plan && s.plan.order === "worth");
+    this._masterDock(s);
+  }
+  // the open card sits under its own row, in place, and that row is marked; a card no place holds sits above the rows.
+  // `soft` (a repaint, not the player's own opening): while a press is held in the drawer the card is not moved, since a
+  // button detached between its pointerdown and its pointerup gets no click (P1-D in practice-page.spec.ts, FGD13's class);
+  // it moves when the press has landed (`_paneOwed`). A move keeps the focus where it was (the keys follow the card).
+  _masterPlace(s, soft) {
+    if (soft && this._panePress) { (this._paneOwed || (this._paneOwed = [])).push(() => this._session === s && !s.list && this._masterPlace(s)); return; }
+    const seat = this._masterSeatOf(s, s.keys[s.idx]), el = seat != null && s.rowEls ? s.rowEls.get(seat) : null;
+    for (const r of s.rowEls ? s.rowEls.values() : []) r.toggleAttribute("data-on", r === el);
+    const had = s.ask.contains(document.activeElement) ? document.activeElement : null;
+    if (el) { if (el.nextSibling !== s.ask) el.after(s.ask); } else if (s.ask.nextSibling !== s.rowsEl) s.rowsEl.before(s.ask);
+    if (had && had.isConnected && document.activeElement !== had) had.focus({ preventScroll: true });
+  }
+  _masterStart(s) {
+    const first = s.view && s.first;
+    if (first) this._masterGo(s, first.seat || "", false);
+    else if (s.view && s.plan && s.plan.order === "worth") this._practiceNextRound(s);   // nothing left before the goal (L1-R1)
+    else if (s.keys.length) this._sessionOpeners[0]?.();   // the planner not in yet: the day's first card, as before L1
+  }
+  /**
+   * OPEN A PLACE (L1): the button, a press on a row and `openMasterAt` all come here, so a row opens exactly as the button
+   * opens the first. Its first unanswered card, else its first; a place with nothing in today's session (nothing due there)
+   * opens its own deck as a FREE REVIEW (L1-SEAM: its answers count toward today like any other).
+   */
+  _masterGo(s, seat, chose) {
+    if (this._session !== s) return;
+    clearTimeout(this._sessionAdvance);   // the player opens a place: a walk still pending from the last answer does not override it
+    const at = s.keys.map((k, i) => (this._masterSeatOf(s, k) === seat ? i : -1)).filter((i) => i >= 0);
+    if (!at.length) { if (seat) this._masterFree(s, seat); return; }
+    let i = at.find((j) => !this._sessionRowDone(s, s.keys[j]));
+    // A ROW'S COUNT IS REACHABLE BY ITS OWN PRESS (L1-R2, the second reader of PR #434, its one finding, 4 of 4): a place the
+    // day's goal cut says "3 due" while the plan asked 2 there; with those 2 answered the press reopened an ANSWERED card and
+    // the card still owed was never asked. Every deck the session holds for the place is answered and the place still owes:
+    // what it owes joins the session now (`_masterOwed`) and its first card opens.
+    if (i == null && seat && this._masterOwed(s, seat)) i = s.keys.findIndex((k) => this._masterSeatOf(s, k) === seat && !this._sessionRowDone(s, k));
+    if (i < 0) i = null;
+    if (chose) s.moved = true;
+    const k = s.keys[i != null ? i : at[0]];
+    this._sessionOpeners[s.keys.indexOf(k)]?.();   // (its first card not yet answered: the opener's own rule, L1-R3)
+    this._masterShow(s);
+  }
+  /**
+   * WHAT A PLACE STILL OWES JOINS THE SESSION (L1-R2), as due cards: at most six at a press (the law's size of a visit,
+   * practice-queue.src.js: "about six at a position at a time"; the row counts down and the next press asks the next), by
+   * deck, as the plan counts them (`s.owedAt`, master-list.src.js). A deck the session already holds takes them INTO ITS ROW
+   * (the plan asked part of what the place owes there: the reader's case); a deck it does not hold gets a row. One merge,
+   * `_practiceAppend`'s own (the one a next round uses: "a deck it asks again takes its new cards into the row it already
+   * has"), so the plan's sums, the rows and the session's keys stay its. False when there is nothing owed to add.
+   */
+  _masterOwed(s, seat) {
+    const owed = s.owedAt && s.owedAt.get(seat);
+    if (!this._gameplanRuntime || !owed || !owed.size) return false;
+    const held = new Set((s.plan ? s.plan.due.concat(s.plan.fresh) : []).flatMap((r) => r.questions));
+    let room = 6;
+    const rows = [];
+    for (const [dk, all] of owed) {
+      const q = all.filter((x) => !held.has(x)).slice(0, room);
+      if (!q.length) continue;
+      room -= q.length;
+      rows.push({ key: dk, seat, questions: q, owed: q, pending: 0, count: q.length, kind: "due", source: "place",
+        reason: q.length + (q.length === 1 ? " card" : " cards") + " due for review, so you keep what you've learned." });
+    }
+    if (!rows.length) return false;
+    if (s.plan) this._practiceAppend(s, { ...s.plan, due: rows, fresh: [], visits: [], queue: [] }, undefined, true);
+    else { this._practiceAppend(s, this.planSummary(), rows); const keys = rows.map((r) => r.key).filter((k) => !s.keys.includes(k)); if (keys.length) { s.keys.push(...keys); this._practiceRows(s); } }
+    return true;
+  }
+  // a deck never opens on an answered card while it holds an unanswered one (L1-R2): its remembered card, if answered today,
+  // gives way to its first card not answered today; a card left unanswered (revealed or not) is kept as the player left it.
+  // Called by the row's own opener and nowhere else (L1-R3); true when it moved the deck.
+  _masterUnanswered(s, k) {
+    const cards = this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[k]);
+    if (!cards) return false;
+    const row = (s.plan ? s.plan.due.concat(s.plan.fresh) : s.review ? s.review.rows : []).find((r) => r.key === k);
+    const only = row ? cards.filter((c) => row.questions.includes(this.qhash(c.q))) : cards, day = this._epochDay(), rows = (this.srs && this.srs[k]) || {};
+    const done = (c) => { const r = c && rows[this.qhash(c.q)]; return !!(r && r[2] === day); };
+    const st = this._deckState && this._deckState[k], at = only.findIndex((c) => !done(c));
+    // (the remembered index as the card reads it: past the end is its first card, below zero its last, `_miniDeck`)
+    const now = !st ? 0 : st.idx >= only.length ? 0 : st.idx < 0 ? Math.max(0, only.length - 1) : st.idx;
+    if (at < 0 || !done(only[now])) return false;
+    (this._deckState = this._deckState || {})[k] = { idx: at, revealed: false };
+    return true;
+  }
+  // A PLACE OUTSIDE TODAY'S PLAN THAT OWES CARDS ASKS THEM AS DUE CARDS (L1-R1, the reader's finding 1): its owed cards,
+  // by deck, as the plan counts them (`s.owedAt`, master-list.src.js), graded and counted like any other, under no "free
+  // review"; the free review is only for a place that owes nothing
+  _masterFree(s, key) {
+    // (L1-R2: through `_masterOwed`, the one merge; until then this branch added only the deck keys the session did not hold)
+    if (this._masterOwed(s, key)) {
+      const i = s.keys.findIndex((k) => this._masterSeatOf(s, k) === key && !this._sessionRowDone(s, k));
+      s.moved = true;
+      if (i >= 0) { this._sessionOpeners[i]?.(); this._masterShow(s); return; }
+    }
+    const d = this._gameplanDecks()[key];
+    if (this._gameplanRuntime && d && d.allowed && d.count) {
+      this._practiceAppend(s, s.plan || this.planSummary(), [{ key, seat: key, questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length),
+        reason: "Nothing is due here: a free review, and every answer counts toward today.", source: "place" }]);
+    } else this.fx("master_free_unplanned", { deckKey: key });   // §6.6: it still opens, outside the session's ledger
+    if (!s.keys.includes(key)) { s.keys.push(key); this._practiceRows(s); }
+    s.moved = true;
+    this._sessionOpeners[s.keys.indexOf(key)]?.();
+    this._masterShow(s);
+  }
+  // the opened place's row into view, under the slim line, only when it is not in view already (a first place at the top
+  // opens with the page unscrolled: P1-A in practice-page.spec.ts); then its card (`_scrollFocusedDeck`)
+  _masterShow(s) {
+    const l = this.drillListRef.current, el = s.rowEls && s.rowEls.get(this._masterSeatOf(s, s.keys[s.idx]));
+    if (l && el) {
+      const r = el.getBoundingClientRect(), lr = l.getBoundingClientRect(), band = s.slim.hidden ? 0 : s.slim.offsetHeight;
+      if (r.top < lr.top + band || r.bottom > lr.bottom) l.scrollTop += r.top - lr.top - band - 8;
+    }
+    this._scrollFocusedDeck();
+  }
+  // ≡ in the navigation: back to the list as it opened, the session and every answer kept; the belt reads again
+  _masterList(s) {
+    if (this._session !== s) return;
+    clearTimeout(this._sessionAdvance);   // ≡: the list shows, and nothing opens by itself (L1-R2)
+    if (this._openMini) this._openMini.close();
+    // A, B, C answer the live multiple-choice block (`_onKey`): a card that has left the screen must not keep one (L1-R1, the
+    // reader's finding 4; Esc and the drawer's own exits already clear it)
+    if (this._mc && this._mc.surface === "practice") { this._mc.spent = true; this._mc = null; }
+    this._openRow = this._focusRow = null;
+    s.list = true; this._masterMode(s); this._masterPaint(s);
+    const l = this.drillListRef.current; if (l) l.scrollTop = 0;
+    this._askBeltRow();
+  }
+  /**
+   * ONE BAR FOR THE OPEN ASK, IN THE FOOT (L1-R0, the orchestrator's ruling on the pictures of PR #434: "TWO Reveal buttons",
+   * the card's own row and the foot's). The open card draws its row as every inline card does (`_miniDeck`); here its SAME
+   * buttons (their data attributes, their handlers) are moved into the foot after ≡: ‹, Reveal (or what a multiple-choice
+   * card's row shows: "Choose an answer", then "Next card"), ›; once revealed and not graded, Review again and Got it in
+   * Reveal's place. The card's emptied rows go. The keys are the card's own (← → Space ⏎, ↑ ↓ the techniques). ‹ and › walk
+   * the asks in the plan's order and cross from a deck's last card to the next deck's first (`_masterStep`), so "Previous
+   * technique" and "Next technique" are no longer buttons of their own. Pinned by master-list.spec.ts ("one Reveal on the page").
+   */
+  _masterDock(s) {
+    if (!s.dock || s.list || !this._practiceInDrawer()) return;   // never a card of another surface (Last rolls' own)
+    const bar = s.dock.lastChild, w = this._openMini && this._openMini.el && this._openMini.el.querySelector("[data-mini-deck]");
+    const mr = w && w.querySelector(".mr");
+    // a card opened again without being drawn again (a session with no plan keeps its cards): drawn, so its buttons move in
+    if (w && !mr && bar._from !== w) { const reg = this._miniReg && this._miniReg[this._openMini.rid]; if (reg && reg.draw) { reg.draw(); return; } }
+    if (mr) {   // a card drawn afresh: its row moves in, its emptied rows go
+      bar._from = w;
+      const row = mr.parentElement, got = w.querySelector("[data-mini-got]"), grades = got && got.parentElement, mp = row.querySelector(".mp"), mn = row.querySelector(".mn");
+      bar.replaceChildren(mp, ...(got ? [w.querySelector("[data-mini-again]"), got] : [mr]), mn);
+      row.remove(); if (grades) grades.remove();   // the grades' own row, taken before the move (after it, their parent is the bar)
+      mp.onclick = () => this._masterStep(s, -1); mn.onclick = () => this._masterStep(s, 1);
+    } else if (!w) bar.replaceChildren();
+    const at = this._focusedMini()?.at?.(), [mp, mn] = [bar.querySelector(".mp"), bar.querySelector(".mn")];
+    if (at && mp) { mp.disabled = !s.idx && at[0] <= 0; mn.disabled = s.idx >= s.keys.length - 1 && at[0] >= at[1] - 1; }
+  }
+  // ‹ › in the foot: the deck's previous or next card, and past its ends the neighbouring deck at its first (or last) card
+  _masterStep(s, dir) {
+    const m = this._focusedMini(), at = m && m.at && m.at();
+    if (at && (dir > 0 ? at[0] < at[1] - 1 : at[0] > 0)) { (dir > 0 ? m.next : m.prev)(); return; }
+    const k = s.keys[(s.idx || 0) + dir];
+    if (k == null) return;
+    (this._deckState = this._deckState || {})[k] = { idx: dir > 0 ? 0 : -1, revealed: false };
+    this.sessionNav(dir);
+  }
+  /**
+   * L1-SEAM (the orchestrator, 17 Nov, for Last rolls as places, L3): open Master the game, or use it if it is open, at the
+   * place a Last rolls row holds (a deck key, "Mount|Top"): that row scrolled into view and opened on its first ask, exactly
+   * as the button opens the first row (`_masterGo`); a place with nothing due opens as a free review. A key the list does not
+   * hold opens the list as it is, says nothing, and beats `master_at_unheld` (§6.6). Pinned by e2e/journeys/master-list.spec.ts.
+   */
+  openMasterAt(deckKey) {
+    // an "Everything owed" session is a session of its own: replaced by today's (L1-R1, the reader's finding 5), its way back kept
+    const owed = this._session && this._session.owed ? this._session : null;
+    // FROM ANY STATE (L1-R1b, the reader's finding 2, measured 5 of 5): Esc and ✕ shut the drawer and KEEP `_session`, which
+    // every way back in retires (the logo and the brand, through `_exitStudyTo`), so a session the drawer does not show is
+    // not Master the game: it goes as an owed one goes, and the new one opens the drawer and the page (`openPlanSession`);
+    // a checkpoint or a card study the drawer shows over it ends as Esc ends it
+    const shut = !!this._session && !this._sessionInline();
+    if (shut || this.deck || this._checkpoint) { if (this._checkpoint) this._cancelCheckpoint(); this.deck = null; this._studyOpen = null; }
+    if (owed || shut) { this._session = null; this._sessionNodes = null; this._inSession = false; }
+    if (!this._practiceInDrawer() || !this._session) this.openPlanSession("due", undefined, "place");
+    if (owed && this._session && owed.origin) this._session.origin = owed.origin;
+    const s = this._session;
+    this._ensureGameplanRuntime().then(() => this._afterPress(() => {
+      // given up only for a reason, and said (§6.6): another call or the player's own move came first
+      if (this._session !== s || !this._sessionInline()) { this.fx("master_at_dropped", { deckKey, why: this._session !== s ? "replaced" : "shut" }); return; }
+      this._masterPaint(s);
+      const v = s.view;
+      if (v && v.rows.concat(v.owing || [], v.rest).some((r) => r.seat === deckKey)) { this._masterGo(s, deckKey, true); return; }
+      this.fx("master_at_unheld", { deckKey, ready: !!v });
+      if (!s.list) this._masterList(s);
+    }));
   }
 
   _paintPractice(s) {
@@ -7028,6 +7313,9 @@ class Component extends DCLogic {
     // a worth plan names the open card's position; otherwise the owed queue or the worn belt's lessons (v1.276.0's word)
     const label = lines ? lines.heading : row ? "Due reviews · " + cards(p.dueCards) : ngBeltDisplayName(worn.id) + " lessons";
     s.heading.textContent = label;
+    // the slim line is hidden while the list shows (L1): nothing is written into it then, so no text a player cannot see is
+    // there to be read (L1-R1, the reader's finding 2: four journeys passed on it); the press writes it (`open` paints)
+    if (s.list) goal.textContent = progress.textContent = s.heading.textContent = "";
     s.rows.style.setProperty("--practice-belt", NG_CHALLENGE_TRACK_COLORS[worn.id]);
     // Each half only when it has something to say (SIDE-R2 M6): no plan makes no claim about new work.
     s.count.textContent = lines ? lines.count : [p.dueCards ? cards(p.dueCards) + " to review across " + techs(due.length) : "", s.plan?.fresh.length ? s.plan.newCards + " new across " + techs(s.plan.fresh.length) + ", " +
@@ -7052,6 +7340,7 @@ class Component extends DCLogic {
     // colour above stay the Path's own (`wornBelt()`): they name the course the lesson belongs to
     const bw = this.beltWorn();
     if (title) title.textContent = ngBeltDisplayName(bw.id) + (bw.id === "black" ? "" : " · " + count(bw.stripes, "stripe")) + " · " + (this._giMode === "nogi" ? "No-gi" : "Gi");
+    this._masterPaint(s);
   }
 
   _practiceCorridor() {
@@ -7060,6 +7349,9 @@ class Component extends DCLogic {
     s.belt = this.wornBelt().id;
     s.corridor.replaceChildren();
     this.renderChallenges(s.corridor, true);
+    // the shelf draws "Session details & queue" after its belts; since L1 the shelf folds under "Belt lessons", so the fold is
+    // put back after the shelf, at the page's foot, where it stays reachable with the shelf folded
+    if (s.support && s.support.parentNode === s.corridor) s.corridor.after(s.support);
   }
 
   /** Due work resolves by reviewed questions; curriculum lessons retain their own credit goal. */
@@ -7094,18 +7386,22 @@ class Component extends DCLogic {
       const open = detail.style.display !== "none";
       if (done) r.setAttribute("data-session-done", "1"); else r.removeAttribute("data-session-done");
       r.setAttribute("aria-expanded", String(open));
+      // A DECK ROW THAT ONLY REPEATS ITS PLACE IS NOT DRAWN (L1-R0, the orchestrator's ruling): under an open place in Master the
+      // game the place's own deck ("Open Guard|Bottom" under Open Guard, bottom) keeps its card and its dots, its count goes to
+      // the place's row (master-list.src.js) and its fold is the place's; a lesson's or a move's deck keeps its row
+      const own = s.practice && !!s.rowEls && s.rowEls.has(key) && this._masterSeatOf(s, key) === key;
       r.style.cssText = "width:100%;min-height:44px;text-align:left;font-family:inherit;display:flex;align-items:center;gap:10px;padding:10px 11px;border-radius:10px;cursor:pointer;margin-bottom:7px;transition:background .14s,border-color .14s;border:1px solid " +
         (done ? "rgba(110,214,160,.42)" : open ? "rgba(150,180,255,.5)" : "rgba(150,170,210,.12)") + ";background:" +
-        (done ? "rgba(28,58,44,.5)" : open ? "rgba(58,72,118,.5)" : "rgba(255,255,255,.025)") + ";";
+        (done ? "rgba(28,58,44,.5)" : open ? "rgba(58,72,118,.5)" : "rgba(255,255,255,.025)") + ";" + (own ? "display:none;" : "");   // last: the row's own display:flex is above
       const label = this._deckCountLabel(key, true);
       // PRACTICE'S MIX, said per row (U56 e): a review or a new deck, read from the plan's own rows
-      const kind = s.plan ? s.plan.due.some((x) => x.key === key) ? "due" : s.plan.fresh.some((x) => x.key === key) ? "new" : "" : s.review ? s.review.rows.some(x => x.key === key) ? "due" : "new" : "";
+      const kind = s.plan ? s.plan.due.some((x) => x.key === key) ? "due" : s.plan.fresh.some((x) => x.key === key) ? ((f) => (f.owed && f.owed.length ? "due" : f.source === "place" ? "free" : "new"))(s.plan.fresh.find((x) => x.key === key)) : "" : s.review ? s.review.rows.some(x => x.key === key) ? "due" : "new" : "";
       if (kind) r.setAttribute("data-practice-kind", kind);
       r.innerHTML =
         '<span style="width:9px;height:9px;border-radius:' + (cat === "Position" ? "50%" : "2px") + ';background:' + (done ? "#7ee0a8" : (catCol[cat] || "#9fb0d8")) + ';flex:none;"></span>' +
         '<div style="flex:1;min-width:0;"><div style="font-size:13px;font-weight:600;color:' + (done ? "#bff0d2" : "#eef1f6") + ';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + fam + '</div>' +
         '<div style="font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:1px;">' + cat + ' · ' + role +
-        (kind ? ' · <span style="color:' + (kind === "due" ? "#e9bd70" : "#9ab0e0") + ';">' + (kind === "due" ? "Review" : "New") + '</span>' : '') + '</div></div>' +
+        (kind ? ' · <span style="color:' + (kind === "due" ? "#e9bd70" : "#9ab0e0") + ';">' + (kind === "due" ? "Review" : kind === "free" ? "Free review" : "New") + '</span>' : '') + '</div></div>' +
         (done
           ? '<span data-session-tick="1" style="flex:none;color:#7ee0a8;font-size:13px;font-weight:700;">✓</span>'
           : !ncards
@@ -7171,6 +7467,7 @@ class Component extends DCLogic {
           if (detail.style.display === "none") return;
           if (!this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key])) return;
           if (s.plan || s.review) this._gameplanProgress(s);
+          if (s.practice) this._masterUnanswered(s, key);   // its cards have landed: the same rule, now that they can be read (L1-R3)
           build();
           this._scrollFocusedDeck();   // the real deck is taller than its placeholder; keep it in view
         });
@@ -7178,6 +7475,14 @@ class Component extends DCLogic {
     };
     const open = () => {
       if (this._openMini && this._openMini.rid !== rid) this._openMini.close();  // accordion: one at a time
+      // EVERY DOOR INTO A PLACE OPENS ON A CARD THAT IS NOT YET ANSWERED (L1-R3, the third read of PR #434, 2 of 2: "Keep
+      // practising" dealt a place that owed three and opened it on the card just answered, Reveal offered). The rule was
+      // kept by two callers (`_masterGo`, `_masterFree`, L1-R2) and missed by the others; it is HERE now, in the one opener
+      // every door of a Master the game session passes through (twelve call sites: the button, a row, `openMasterAt`,
+      // "Keep practising", "More new cards", a lesson, the queue's jump buttons, ↑ ↓, ‹ › crossing into another deck, the
+      // walk after a deck's last answer, a session drawn again), so a later door cannot miss it. A deck drawn already is
+      // drawn again when the rule moved it.
+      if (s.practice && this._masterUnanswered(s, key)) built = false;
       if (!built || s.plan) { built = true; build(); }
       detail.style.display = "block";
       box.hidden = false;
@@ -7187,6 +7492,9 @@ class Component extends DCLogic {
       paint();
       if (s.practice) {
         if (s.belt !== this.wornBelt().id) { s.earlier = false; this._practiceCorridor(); }
+        // an opened card is the press (L1): the list gives way to the slim line and the navigation, the card under its row
+        if (s.list) { s.list = false; this._masterMode(s); }
+        this._masterPlace(s);
         detail.tabIndex = -1; detail.focus({ preventScroll: true }); this._paintPractice(s);
       }
       const ni = this.nodeForKey(key); if (ni >= 0) this.locateNode(ni);   // the graph follows the queue
@@ -7225,7 +7533,12 @@ class Component extends DCLogic {
     if (nextAt < 0) return;
     clearTimeout(this._sessionAdvance);
     this._sessionAdvance = setTimeout(() => {
-      if (!this._sessionInline() || this._session !== s || s.idx !== i) return;
+      // NOTHING OPENS BY ITSELF ONCE THE PLAYER HAS MOVED (L1-R2, found by the cut place's journey: 2 of 4 red on clean code).
+      // The walk to the next unfinished deck waits 520 ms; until L1 the open row's index said whether the player had moved.
+      // Master the game's list (≡) and a press on the same place again leave that index where it was, so a card opened by
+      // itself from the list, or the walk pulled the player off the card just chosen. LIFTERS of the pending walk (§6.5):
+      // `_masterList` (≡) and `_masterGo` (a place opened by the player) clear it; the list showing stops it here.
+      if (!this._sessionInline() || this._session !== s || s.idx !== i || s.list) return;
       const op = this._sessionOpeners && this._sessionOpeners[nextAt];
       if (op) { op(); this._scrollFocusedDeck(); }
       if (s.plan || s.review) this._paintGameplanProgress(s);
@@ -7312,6 +7625,7 @@ class Component extends DCLogic {
   /** ↑/↓ walk the QUEUE. Returns false when there is nowhere to go, so the caller can fall through. */
   sessionNav(dir) {
     const s = this._session; if (!this._sessionInline() || !s || !s.keys.length) return false;
+    if (s.list) { this._masterStart(s); return true; }   // Master the game as it opens (L1): ↑ ↓ are its button, never a second card
     const at = Math.max(0, Math.min(s.keys.length - 1, (s.idx || 0) + dir));
     if (at === s.idx && this._openRow) return false;
     const op = this._sessionOpeners && this._sessionOpeners[at];
@@ -7667,7 +7981,10 @@ class Component extends DCLogic {
           this._flowVer = (this._flowVer || 0) + 1;
         }
         // explored states: a UNION, like every other durable-proof field
-        if (Array.isArray(cloud.explored)) { const e = (this._exploredKeys = this._exploredKeys || new Set()); for (const k of cloud.explored) e.add(k); }
+        // THE MERGE (L1-R3's invariant): the union of the two copies' STRINGS, this copy's first, so two devices settle on
+        // one list; an entry of the other copy that is not a string is counted and never kept (a non-string kept here
+        // locks older devices out of the record: progress-owner.src.js)
+        if (Array.isArray(cloud.explored)) { const e = (this._exploredKeys = this._exploredKeys || new Set()), ex = ngProgressExploredKeys(cloud.explored); for (const k of ex.keys) e.add(k); this._exploredBad = Math.max(this._exploredBad || 0, ex.bad); }
         // srs merge (v1.105.0): per-card, the LATER review wins its schedule — the freshest grade
         // knows the memory best; on one day the smaller cell, then (v1.279.0) the earlier due, so two
         // devices converge; a winning success keeps the longer TRUE interval it beat (`due − last`,
@@ -8495,7 +8812,8 @@ class Component extends DCLogic {
     }, () => null);
   }
   _paintBeltRow(box) {
-    box = box || this.drillRef?.current?.querySelector("[data-explore-stats]");
+    // the drawer's row, or Master the game's own belt above its button (L1: "the belt and its number as today")
+    box = box || this.drillRef?.current?.querySelector("[data-explore-stats],[data-master-top]");
     const el = box && box.querySelector("[data-belt-row]"); if (!el) return;
     // a reading taken in the other ruleset is never painted: the row wears the belt held and waits (R1, finding 1)
     const r = this._beltReading, frame = this._giMode === "nogi" ? "nogi" : "gi";

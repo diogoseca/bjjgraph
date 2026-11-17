@@ -263,7 +263,12 @@ NEURAL_TARGET = {
     # v1.286.0 (STAGE4 S0's final head, on dev v1.282.2): 522_323, -565 B on the branch's last ceiling: gameplan.js 21_885 ->
     # 23_457 (+1_572, S0's own: the Practice order builds moves; the rest of dev's deferred set is smaller since PR #423);
     # dev's own use is 520_751; 27_677 B of 550_000 remain.
-    "deferred_raw_bytes": 522_323,
+    # v1.290.0 (L1, Master the game's list, on dev v1.287.0): 529_853, +7_530 B on the last ceiling: gameplan.js 23_460 -> 30_990,
+    # L1's own (master-list.src.js, kept out of the eager core); 20_147 B of 550_000 remain.
+    # v1.290.0 L1-R0 (on dev v1.288.0): 530_216, +363 B: the open place's count and its rules (master-list.src.js); 19_784 B remain.
+    # v1.290.0 L1-R1 (the reader's findings on PR #434): 531_246, +1_030 B: what a place owes, read for every row, and "Keep practising" when the plan runs out (master-list.src.js); 18_754 B remain.
+    # v1.290.0 L1-R2 (the second reader's findings on PR #434): 531_733, +487 B: a row for every place that owes, and the open place's own figure (master-list.src.js); 18_267 B remain.
+    "deferred_raw_bytes": 531_733,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one

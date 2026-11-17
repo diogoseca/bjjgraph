@@ -330,12 +330,16 @@ test.describe("Challenges UI", () => {
     // yields while View Collection's is pending (v1.287.0). A poll above passes on the first moment the shelf is in view,
     // so this is one read after the card is open. Mutant B5 (the yield removed) is red in this test: on 17 Nov at the poll above
     // (that run's first card scrolled first); this read is for the run where the shelf is in view at first and then leaves it.
-    await expect(page.locator("[data-practice-page] [data-mini-deck]").first(), "premise: Master the game opened its first card").toBeVisible({ timeout: 20_000 });
-    await page.evaluate(() => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))));
+    // L1 (v1.290.0): Master the game opens as a list and no card opens by itself (the button opens one), so the arrival has
+    // no first card to scroll the page; the read is taken once the plan has landed and the page has repainted (the moment a
+    // repaint could move it). Mutant B5 (the yield removed) is therefore a NON-KILL here since L1: no arrival scroll reaches it
+    await expect.poll(() => page.evaluate(() => !!(window as any).__neural._session?.plan), { message: "premise: the plan has landed", timeout: 20_000 }).toBe(true);
+    await page.evaluate(() => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(() => setTimeout(r, 300)))));
+    await expect(page.locator("[data-practice-page] [data-mini-q]:visible"), "no card opened by itself (L1)").toHaveCount(0);
     expect(await page.evaluate(() => {
       const shelf = document.querySelector("[data-rewards-shelf]")!.getBoundingClientRect();
       return shelf.height > 0 && shelf.top >= 0 && shelf.top < innerHeight;
-    }), "the shelf is still in view after the first card opened").toBe(true);
+    }), "the shelf is still in view once the plan has landed").toBe(true);
     await expect(
       page
         .locator(".ng-mat-coin[data-earned='true']")
@@ -390,6 +394,10 @@ test.describe("Challenges UI", () => {
       await page.keyboard.press("Enter");
       // Master the game's corridor opens at the belt you wear (Black here), the earlier ones one press away; the Path drew all five
       await expect(page.locator("[data-practice-page] .ng-track-card[data-track='black']"), "Enter on the row opens the corridor").toHaveCount(1);
+      // L1 (v1.290.0): the corridor sits folded under "Belt lessons", the list's last row; the keyboard opens it there first
+      const belts = await tabTo("[data-master-belts]", "Belt lessons");
+      await page.keyboard.press("Enter");
+      await expect(belts, "Enter unfolds the shelf").toHaveAttribute("aria-expanded", "true");
       const black = await tabTo("[data-track='black']", "Black belt");
       await expect(black).toHaveAttribute("aria-pressed", "false");
       await page.keyboard.press("Enter");

@@ -3,6 +3,8 @@
 // deck copies, prep credits, or predicted real-world wins.
 import { ngGameplanReviewed, ngGameplanDebt } from "./gameplan-debt.src.js";
 import { ngPracticeOrder } from "./practice-queue.src.js";
+// Master the game's list (L1, v1.290.0) rides this deferred bundle: the runtime the page already waits for
+export { ngMasterRows, ngMasterStart, ngMasterWhen, ngMasterPaint } from "./master-list.src.js";
 export const NG_GAMEPLAN_VERSION = 1;
 
 function ngGameplanFreeze(value) {
@@ -313,14 +315,16 @@ export function ngGameplanLines(plan, live, key) {
   if (!plan || plan.order !== "worth") return null;
   const rows = plan.due.concat(plan.fresh), row = rows.find((r) => r.key === key), n = plan.visits.length;
   const placed = (r) => typeof r.visit === "number" && r.visit >= 0, lesson = (r) => r.source === "lesson";
+  // a place the list opened with nothing due there (L1, `openMasterAt`: free review) is named by its place, never counted as new
+  const place = (r) => r.source === "place";
   // a belt lesson the player opened rides in the session apart from "More new cards" (STAGE3-R2 d): named and counted by how it came;
   // "From the Path" and "from the Path" until v1.287.0, when the Path left the drawer (O4): "Belt lessons", "from belt lessons" (5 B shorter, v1.287.0: the deferred ceiling dev v1.286.0 set)
   const apart = (keep) => rows.filter((r) => !placed(r) && keep(r)).reduce((k, r) => k + r.count - (r.owed ? r.owed.length : 0), 0);
-  const extra = apart((r) => !lesson(r)), path = apart(lesson), outside = (plan.counts && plan.counts.built && plan.counts.built.outsideDue) || 0;
+  const extra = apart((r) => !lesson(r) && !place(r)), path = apart(lesson), outside = (plan.counts && plan.counts.built && plan.counts.built.outsideDue) || 0;
   const cards = (k) => k + (k === 1 ? " card" : " cards"), name = (seat) => (seat ? seat.replace("|", " \u00b7 ") : "Other cards");
   // new cards only when nothing is due (ANKI1): a day of reviews says so instead of "0 new"
   const fresh = plan.newCards - extra - path;
-  return { heading: !row ? "Master the game" : placed(row) ? name(row.seat) + " \u00b7 position " + (row.visit + 1) + " of " + n : lesson(row) ? "Belt lessons" : "More new cards",
+  return { heading: !row ? "Master the game" : placed(row) ? name(row.seat) + " \u00b7 position " + (row.visit + 1) + " of " + n : lesson(row) ? "Belt lessons" : place(row) ? name(row.seat || row.key) + (row.owed && row.owed.length ? "" : " \u00b7 free review") : "More new cards",
     count: n + (n === 1 ? " position" : " positions") + ": " + (live.dueCards ? cards(live.dueCards) + " to review \u00b7 " : "") +
       (fresh ? fresh + " new, by how often they come up in your rolls" : "new cards come when nothing is due") +
       (extra ? "; " + extra + " more new, " + (plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") : "") +

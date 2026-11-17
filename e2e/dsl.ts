@@ -994,6 +994,23 @@ export class Journey {
   }
 
   /**
+   * MASTER THE GAME'S BUTTON (L1, v1.290.0): Master the game opens as a list with one button, and its first card opens only on
+   * the press. Journeys that open Practice and then answer its first card press it here, by mouse, once the page is open;
+   * returns when a card is open. `touch` taps it at its measured centre instead.
+   */
+  async startMaster(touch = false) {
+    const sel = "[data-master-start]"
+    await expect(this.page.locator(sel), "Master the game's button").toBeVisible({ timeout: 30_000 })
+    await expect(this.page.locator(sel), "the button is ready").toBeEnabled({ timeout: 30_000 })
+    if (touch) {
+      const b = await this.page.locator(sel).boundingBox()
+      await this.page.touchscreen.tap(b!.x + b!.width / 2, b!.y + b!.height / 2)
+    } else await this.clickByMouse(sel, "Master the game's button")
+    await expect(this.page.locator("[data-master-dock]"), "the press opens a card: the navigation shows").toBeVisible({ timeout: 30_000 })
+    return this
+  }
+
+  /**
    * THE CORRIDOR'S ONE DOOR (v1.287.0, SET1 slice B). The Path row left the drawer (owner, 15 Nov), and its corridor (belts,
    * units, lessons, checkpoints, capstones, objectives, the rewards shelf) is reached through Master the game, by its row,
    * the way a player opens it: the drawer icon if the drawer is shut, then the row. Returns once the corridor is drawn and
@@ -1018,6 +1035,14 @@ export class Journey {
       await this.clickByMouse('[data-explore-stats] [data-b="due"]', what)
     }
     await expect(this.page.locator("[data-practice-page] .ng-corridor"), "the corridor is drawn in Master the game").toHaveCount(1, { timeout: 30_000 })
+    // L1 (v1.290.0): the shelf sits folded under Master the game's "Belt lessons" row, the list's last; its row unfolds it,
+    // pressed here by mouse the way a player does (a corridor door, `openCorridor`, opens it unfolded: nothing is pressed)
+    const folded = this.page.locator('[data-master-belts][aria-expanded="false"]')
+    if (await folded.count()) {
+      await folded.scrollIntoViewIfNeeded()
+      await this.clickByMouse('[data-master-belts][aria-expanded="false"]', "Belt lessons")
+      await expect(this.page.locator('[data-master-belts][aria-expanded="true"]')).toHaveCount(1)
+    }
     const earlier = this.page.locator('[data-earlier-belts][aria-expanded="false"]')
     if (opts.allBelts !== false && await earlier.count()) {
       await earlier.scrollIntoViewIfNeeded()
