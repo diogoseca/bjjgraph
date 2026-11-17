@@ -41,8 +41,9 @@ import { journey } from "../dsl"
  *   L2-k  Undo leaving a row changed                                         → at "Undo restores what a player owns, byte for byte"
  *   L2-m  a place entered by a key or by the walk opens its card             → "a place entered from another…" at "↓ onto another place
  *         opens its cloze: the moves first"; L2-m2 (the walk alone) → at "the walk after A's last card asks B's moves first…"
- *   L2-n  a cut place's next press reads the plan's list whole               → "a place the day's goal cuts…" at "the press opens blanks
- *         to say: never a cloze already confirmed"
+ *   L2-n  a cut place's next press reads the plan's list whole               → "a place the day's goal cuts…" at "no move is asked
+ *         twice in a day" (the fault as it was first found, the list read whole and then filtered to nothing, was red at "the
+ *         press opens blanks to say: never a cloze already confirmed", 2 of 2 on the code before the fix)
  *   L2-o  the keys step off a cloze that is shown and not confirmed          → at "ArrowRight does not step off a cloze that is shown…"
  *   (L2-12a, the up and down keys, is master-list.spec.ts's.) The writer's own arithmetic is tests/master_cloze.test.mjs.
  * NOT COVERED here: a player on "Multiple choice" (no cloze until L4: tests/practice_queue.test.mjs pins the plan), the
