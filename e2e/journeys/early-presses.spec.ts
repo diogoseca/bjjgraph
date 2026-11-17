@@ -11,7 +11,9 @@ import { journey } from "../dsl"
  * EARLY1-R1 (the reader of #432): the first build honoured the press before the URL seeded the page, and a reading
  * arrival shut the drawer again in the same task, so on a position or concept page an early press opened nothing (4 of 4);
  * these journeys booted only "/". Now each one compares an early press with a late press on the same page, on a fresh page
- * of the same context, on the home page, a position, a technique, a concept and a hub. On a page that opens the panel
+ * of the same context, on the home page, a position, a technique, a principle, a system, a learning page and a hub; the
+ * end state includes the drawer's body (EARLY1-R2: on a reference page the early press ended on the root list where a late
+ * press ends on the page's entry). On a page that opens the panel
  * itself (a hub), a late press would close it, so there the early press is compared with no press: the panel as the page
  * opened it, and one `pane_opened`.
  * Every early press is made on a HELD graph (`graph-data.json`, `never`), so it comes before the data by construction,
@@ -19,19 +21,20 @@ import { journey } from "../dsl"
  * FAULT 2 (the reader of PR #430, 4b): Master the game opened in the first seconds after a load was ended by the intro's
  * deal of the first roll (6 of 6 on "/" by real presses on a real clock). Its journey holds the intro's clock with the
  * test-mode pump instead of a request: the cause is a deal on a clock.
- * Mutants (the seat's mutantsR.py, run 17 Nov 11:50-11:55, each red at the step named; the control C0 green, 24 of 24):
+ * Mutants (the seat's mutantsR2.py, run 17 Nov 13:09-13:16, each red at the step named; the control C0 green, 30 of 30):
  * toggleExplorer's early branch removed → "the early press ends where a late press ends" (its press falls to `openPane`'s
  * branch and is replayed without the logo's focus) and "the second press takes the pressed look back too"; openSearchPane's
  * → "the control shows the press was taken"; the take-back removed → "the second press takes the pressed look back too";
  * dev's reset back in the intro's deal → "Master the game is still open after the first roll is dealt"; the honour moved
- * back before the seed → "the early press ends where a late press ends" on the position, technique and concept pages;
- * the page check removed → "a navigation drops the press"; the page read with its hash → "a stripped hash keeps the
+ * back before the seed → "the early press ends where a late press ends" on the position, technique and principle pages;
+ * the page check removed → "a navigation drops the press"; the page read with its query → "a stripped ?code= keeps the
  * press"; the deal's argument ignored → "a later deal ends the session"; Esc's branch removed → "Esc takes the pressed
  * look back"; the pressed look never set → "the control shows the press was taken"; the panel-already-open check
  * removed → "the early press leaves the panel as the page opened it" (the hub); the search replayed as the logo → "the
- * early press ends where a late press ends" (the search button, touch). NON-KILL, recorded: openPane's own early branch
- * removed stays green (24 of 24), because no early input reaches it (the logo and the search have their own); it stands
- * for any later caller.
+ * early press ends where a late press ends" (the search button, touch); the reference page's re-render removed
+ * (`_referenceLanded`) → "the early press ends where a late press ends" on the principle, system and learning pages.
+ * NON-KILL, recorded: openPane's own early branch removed stays green (30 of 30), because no early input reaches it (the
+ * logo and the search have their own); it stands for any later caller.
  */
 
 type W = Window & { __neural: any }
