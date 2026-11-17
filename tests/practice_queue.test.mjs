@@ -93,6 +93,9 @@
 //   S0-19 today's order's bind drops the moves from its overrun (its B3)     → "S0: every move answer today counts toward the goal…"
 //   S0-20 the moves-today count takes a row with no interval (its N2)         → the same
 //   S0-21 "moves asked" read from any truthy seat map (its N3)                → the same
+// S0-R3 (the orchestrator's reader of PR 431, its finding 3: nothing tested the read at index 4; both passed 201 tests):
+//   S0-22 the order reads a moves row's schedule at index 3 (its M2)         → "S0: the order reads a moves row's schedule…"
+//   S0-23 … at index 5 (its M2b)                                             → the same
 //
 // NOT COVERED here:
 //   · A RETIRED QUESTION READS AS A LIVE ONE, as in the rating (tests/rating.test.mjs): a deck's new count while its cards
@@ -794,6 +797,25 @@ test("S0: a move's worth is what a right answer adds to the rating, read from it
   assert.ok(Math.abs(gain("1/top", "10") - price("1/top", "10") * (1 - ngRatingRecall(moves["1/top"][10], true, D, 4))) < 1e-12);
   assert.ok(Math.abs(gain("2/top", "20") - price("2/top", "20") * (1 - ngRatingRecall(moves["2/top"][20], false, D, 4))) < 1e-12);
   assert.ok(gain("2/top", "20") > gain("1/top", "10"), "Y's gain is the larger");
+  // a writer-made RUNG-PAIR row (v1.281.3): an early right answer (interval 14, answered 5 days before its due day) keeps
+  // the schedule's pair at [4] and [5], which moves the exact interval away from due − last; the gain is still the price
+  // times what the row's recall lacks, read where the writer keeps it (the review of PR 431, finding 3)
+  const B = D - 40, pairRow = ngKnowledgeScheduleRow([B + 14, 14, B - 14, 1], true, B - 5, 4);
+  assert.equal(pairRow.length, 6, "premise: the writer kept a pair");
+  assert.ok(pairRow[0] <= D && Math.abs(ngRatingRecall(pairRow, true, D, 4) - ngRatingRecall(pairRow, true, D, 3)) > 1e-4, "premise: owed today, and the pair moves the exact interval");
+  const U3 = ngRatingUniverse({ decks: { "P|Top": { n: 1 } }, weights: { "P|Top": 1 }, seats: { "3/top": { w: 4, hand: { 30: 25 } } } });
+  const m3 = { "3/top": { 30: pairRow } }, after3 = { "3/top": { 30: ngKnowledgeScheduleRow(pairRow, true, D, 4) } };
+  const gain3 = (ngRatingShare(U3, { moves: after3 }, D).share - ngRatingShare(U3, { moves: m3 }, D).share) * U3.total;
+  assert.ok(Math.abs(gain3 - U3.seats.get("3/top").get("30") * (1 - ngRatingRecall(pairRow, true, D, 4))) < 1e-12, "the pair row's gain, read at 4");
+});
+
+test("S0: the order reads a moves row's schedule where the writer keeps it, at index 4 (the review's x and y)", () => {
+  // the review of PR 431, finding 3: two moves at one position, both owed, each a writer-made rung-pair row. Read at [4]
+  // (the pair after the answer), y's recall is the lower, so y is worth more and is asked first; read at [3] or [5] (the
+  // card's place, or one past the pair), x would come first. The guard is off so worth alone decides the order.
+  const x = [17738, 60, 17637, 1, 100.5, 17637], y = [17744, 7, 17734, 1, 9.3333, 17734], day = 17744;
+  assert.ok(ngRatingRecall(y, true, day, 4) < ngRatingRecall(x, true, day, 4) && ngRatingRecall(y, true, day, 3) > ngRatingRecall(x, true, day, 3), "premise: the index decides the order");
+  assert.deepEqual(law([move("x", "S|Top", 1, x), move("y", "S|Top", 1, y)], { day, guard: 0 }).asked, ["y", "x"]);
 });
 
 test("S0: \"Did not\" brings a move back tomorrow; a move answered today counts 1 toward the goal", () => {

@@ -19508,8 +19508,9 @@ dealt move is always answerable; ANKI1-R1's `sure`). The law as ruled.
 **Measured on the real wire:** gi deals 1,350 moves at 242 seats (18 null), no-gi 1,206 at 218; the move items add up to
 the game's `moveTotal` within 1e-9; no seat is unnamed.
 
-**Mutants:** 21 (11, 7 for the reader's findings, 3 for its re-check), each applied alone and red on a named test, run
-again together on the merged head (23:10, 16 Nov); the table, with the test each turns red, is the header of
+**Mutants:** 23 (11, 7 for the reader's findings, 3 for its re-check, 2 for the orchestrator's reader: a moves row read
+at index 3 or 5, which passed all 201 tests until a writer-made rung-pair row and the review's x and y order pinned the
+read at 4), each applied alone and red on a named test; the table, with the test each turns red, is the header of
 tests/practice_queue.test.mjs. **Not covered:** the app's own seat map (S1); the simulation's "seen" move has no row in
 the app (the replay hands it in as a non-row; on the app's record such a move is new).
 
