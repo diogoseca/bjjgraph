@@ -260,7 +260,9 @@ NEURAL_TARGET = {
     # v1.286.0 (STAGE4 S0, the Practice order builds moves, on dev v1.280.2): 522_888, +1_571 B in gameplan.js (21_284 ->
     # 22_855: practice-queue.src.js builds the moves the rating prices, and the plan passes them through; the app asks
     # for none yet); dev's own use is 521_317; 27_112 B of 550_000 remain.
-    "deferred_raw_bytes": 522_888,
+    # v1.286.0 (STAGE4 S0 on dev v1.282.0, its final head): 592_695, +69,807 B on the branch's last ceiling (gameplan.js
+    # 23,457 B built from this head); -42,695 B of 550_000 remain.
+    "deferred_raw_bytes": 592_695,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
