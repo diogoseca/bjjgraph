@@ -263,7 +263,9 @@ NEURAL_TARGET = {
     # v1.286.0 (STAGE4 S0's final head, on dev v1.282.2): 522_323, -565 B on the branch's last ceiling: gameplan.js 21_885 ->
     # 23_457 (+1_572, S0's own: the Practice order builds moves; the rest of dev's deferred set is smaller since PR #423);
     # dev's own use is 520_751; 27_677 B of 550_000 remain.
-    "deferred_raw_bytes": 522_323,
+    # v1.290.0 (L1, Master the game's list, on dev v1.287.0): 529_853, +7_530 B on the last ceiling: gameplan.js 23_460 -> 30_990,
+    # L1's own (master-list.src.js, kept out of the eager core); 20_147 B of 550_000 remain.
+    "deferred_raw_bytes": 529_853,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
