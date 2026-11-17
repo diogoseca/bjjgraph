@@ -19765,3 +19765,34 @@ repeat pushed for ever. So a damaged list is read (the app boots, L1-R1), the ne
 merge is the union of two copies' strings, and richer data needs a new key. `ngProgressExploredOut` and
 `ngProgressExploredJoin` are gone; the invariant is written at the validator, the reader, the load, the save and the merge.
 Mutants: units L1-R3a and L1-R3b; app L1-R3c (the opener) and L1-R3d (the save).
+## v1.290.1 — Search opens search on reference pages too; a session is never ended by the page's own first landing (REFSEARCH, REFSEARCH-2)
+
+Four faults dev had all along, each reproduced by real input on dev's build (v1.288.1, CI's bundle of deebac282, neural.js
+sha256 0d51d892) at 1440x900 by mouse and 390x631 by touch, 6 of 6 each (`refsearch_probe.cjs`, a real clock):
+1. On a principle, system or learning page a search typed before the reader's own file landed was wiped when it landed
+   ("arm", its results replaced by the page's entry), and the focus jumped to the article's heading. The reader's `open`
+   emptied the query and focused the heading on every reference arrival.
+2. A late press on the search button there opened the page's entry with no search row and nothing focused; "arm" typed
+   after it went nowhere.
+3. A late "/" did nothing: the reader's root stopped every key but Esc and the game's while the focus was in the article.
+4. REFSEARCH-2 (the orchestrator's probe on the preview, 3 of 6 in one run and 0 of 6 in the next; forced here by holding
+   `reader.js`): on a position, technique or submission page, Master the game opened before the page's own first landing
+   was closed by it. #432 fixed this for the home page's intro deal only; its merge message claimed every page.
+
+The rule for 1 to 3 (the orchestrator's): on every page kind search opens search (the panel, the search row, the caret in
+it, whatever the page shows), the page's entry may show under an empty query and gives way to results when something is
+typed, and what the player typed is never taken by something that lands later. So: `_searchAsked` (set by
+`openSearchPane`, lifted when the panel shuts) shows the search row over an entry; the reader asks the app before it
+empties the query (`_referenceArrives`: not while the panel is open) or focuses the heading (`_readerMayFocus`: not
+with the panel open or a text field focused), and lets the search's keys through (`_isSearchKey`). An early search on a
+page that opens the panel itself (a hub) is replayed too. A plain arrival still ends on the heading.
+
+The rule for 4: a session the player opened is never ended by what the page does by itself on arrival. On those pages
+the page's own first landing is the READER's seat (`rollFromPosition`, the function a press on the map uses; a staged
+landing does not wait for the panel's pause). The two arrival callers pass `pageArrival` (the reader's seat, and the
+intro's URL seat, which no page reaches while reading is the default), and a roll's first landing leaves a shown
+session's panel alone (`buildDrillPanel`: the session's cards sit in the same deck slot). Every other caller is the
+player's and ends the session as before.
+
+On the fixed build the same probe: all four gone, 6 of 6 each. The deferred set: 522,278 of 522,323 B (the reader hands
+its query lines to the app, so it stays under its ceiling with the three new calls).
