@@ -340,6 +340,7 @@ function ngClozeShow(app, s, seat, mine) {
   if (!c) return;
   if (!document.getElementById("ng-cloze-css")) { const st = document.createElement("style"); st.id = "ng-cloze-css"; st.textContent = NG_CLOZE_CSS; document.head.appendChild(st); }
   if (s.czOpen != null && s.czOpen !== seat) ngClozeLeave(app, s);
+  clearTimeout(app._sessionAdvance);   // a walk to the next deck still pending from a card's last answer must not open a card over the cloze (L1-R2's fault, its third lifter)
   if (app._openMini) app._openMini.close();
   if (app._mc && app._mc.surface === "practice") { app._mc.spent = true; app._mc = null; }
   app._openRow = app._focusRow = null;
