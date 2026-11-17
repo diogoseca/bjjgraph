@@ -182,7 +182,11 @@ test('safe unknown v2 fields survive hydration and a staged merge',async()=>{
   const h=harness();await h.boot();const out=h.get()._mergeProgressBlobs(blob({},{futureLocal:{flag:true}}),blob({},{futureCloud:{value:3}}));assert.deepEqual(out.futureLocal,{flag:true});assert.deepEqual(out.futureCloud,{value:3});
 });
 test('unsafe saved keys and invalid map shapes fail before publication',async()=>{
-  for(const bad of [{v:2,prep:[]},JSON.parse('{"v":2,"prep":{"__proto__":{"bad":true}}}'),{v:2,explored:[1]}])assert.throws(()=>ngProgressValidateBlob(bad));assert.equal({}.bad,undefined);
+  // L1-R1 (v1.290.0, the reader of PR #434, its finding 6; the orchestrator's ruling): `explored:[1]` used to be refused here, and
+  // a refused stored envelope held the whole app before it drew. A damaged ENTRY is read now (strings only, the rest counted,
+  // never written back: tests/master_list.test.mjs); a non-list `explored` is still refused, which is the shape this test keeps
+  for(const bad of [{v:2,prep:[]},JSON.parse('{"v":2,"prep":{"__proto__":{"bad":true}}}'),{v:2,explored:1},{v:2,explored:{}}])assert.throws(()=>ngProgressValidateBlob(bad));assert.equal({}.bad,undefined);
+  assert.doesNotThrow(()=>ngProgressValidateBlob({v:2,explored:[1]}));
 });
 test('auxiliary keys stay account scoped and unowned originals are not removed',async()=>{
   const h=harness();await h.boot();const a=h.switchTo('A');for(const field of ['ladder','firstroll','coached'])assert.equal(a._progressLocalKey(field),ngProgressLocalKey(ownerA,field));

@@ -240,6 +240,8 @@ for (const touch of [true, false]) {
       for (const [seat, n] of s.lawVisits) expect(n, `${seat}: at most 6 a visit`).toBeLessThanOrEqual(6)
       expect([s.first, s.visit, s.owed], "the page folds them into one position, the first, with all eight").toEqual([fx.deck, 0, 8])
       expect(s.positions, "a position the law visits twice is counted once").toBe(new Set(s.lawVisits.map((v: W) => v[0])).size)
+      // L1-R1 (the reader of PR #434, its finding 2): the slim line holds no text until the press, so the press comes first, as a player's does
+      await start(page, touch)
       await expect(page.locator("[data-practice-section]"), "its heading counts it once").toHaveText(`${dot(fx.deck)} · position 1 of ${s.positions}`)
       await clean(page, "opening a position visited twice")
     })
@@ -281,6 +283,9 @@ for (const touch of [true, false]) {
       await press(page, ".ng-logo", "open the drawer", touch)
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      // L1-R1 (the reader's finding 2): until the press nothing is open, and "opens on the first row" read true by construction
+      // (s.idx 0); the press opens the plan's first place, so the card read below is the one the button opened (mutant L1-A1 red)
+      await start(page, touch)
       const at = await page.evaluate(() => { const s = (window as W).__neural._session; return { idx: s.idx, key: s.keys[s.idx], first: s.plan.queue[0], positions: s.plan.visits.length, seat: s.plan.visits[0].seat } })
       expect(at.key, "Practice opens on the plan's first row, not on the oldest debt's deck").toBe(at.first)
       expect(at.key).not.toBe(fx.later)

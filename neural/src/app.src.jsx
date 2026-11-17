@@ -3811,8 +3811,20 @@ class Component extends DCLogic {
       if (host) for (const t of ["wheel", "touchstart", "pointerdown", "keydown"]) host.addEventListener(t, () => { s.backTo = null; }, { once: true, passive: true });
       this.renderSession();
       this._layoutPane(); this._paintDrawerHead();
+      // THE KEYS STAY IN THE PAGE (L1-R1b, the reader's smaller 7, both sizes): with a card open the card holds the focus; in
+      // the list (L1) nothing did, and the focus was left outside the page with the Back button gone, so no key lifted the
+      // hold (its keydown listener is on the page). The focus goes to what the player came from: the checkpoint's row, or
+      // the button when the row is not drawn
+      const keys = () => {
+        const h = this.drillListRef.current;
+        if (!s.list || !h || h.contains(document.activeElement)) return;
+        const to = h.querySelector('[data-checkpoint="' + CSS.escape(cp.uk) + '"]:not(:disabled)') || h.querySelector("[data-master-start]:not(:disabled)");
+        if (to) to.focus({ preventScroll: true });
+      };
+      keys();
       const bring = () => {
         if (this._session !== s || !s.backTo) return;
+        keys();
         const row = this.drillListRef.current && this.drillListRef.current.querySelector('[data-checkpoint="' + CSS.escape(s.backTo) + '"]');
         if (row) row.scrollIntoView({ block: "center" });
       };
@@ -4610,7 +4622,8 @@ class Component extends DCLogic {
       // only until now, which is why the "very weak" tier emptied on every reload.
       this.flow = this._trimFlow(Object.assign({}, p.flow || {}));
       this._flowVer = (this._flowVer || 0) + 1;
-      this._exploredKeys = new Set(Array.isArray(p.explored) ? p.explored : []);
+      // strings only: a damaged entry stopped the app before it drew (L1-R1); it is counted and never written back as a place
+      { const ex = ngProgressExploredKeys(p.explored); this._exploredKeys = new Set(ex.keys); this._exploredBad = ex.bad; }
       // `activeListId` IS RETIRED — READ BY NOTHING (the default-list retirement, v1.196.1). It
       // was "the list you last created or filed into": the picker's marked "default" row and the
       // silent destination of `addToList(nodeId)` with no list. Nothing files without a pick
@@ -6962,7 +6975,7 @@ class Component extends DCLogic {
       if (v && pos !== s.visitShown) {
         s.visitShown = pos;
         const at = document.createElement("p"); at.setAttribute("data-practice-visit", pos);
-        at.textContent = pos === "more" ? "More new cards" : pos === "lesson" ? "Belt lessons" : pos === "place" ? key.replace("|", " \u00b7 ") + " \u00b7 free review" : pos + 1 + " \u00b7 " + (v.seat ? v.seat.replace("|", " \u00b7 ") : "Other cards"); s.queue.appendChild(at);
+        at.textContent = pos === "more" ? "More new cards" : pos === "lesson" ? "Belt lessons" : pos === "place" ? key.replace("|", " \u00b7 ") + (v.owed && v.owed.length ? "" : " \u00b7 free review") : pos + 1 + " \u00b7 " + (v.seat ? v.seat.replace("|", " \u00b7 ") : "Other cards"); s.queue.appendChild(at);
       }
       const jump = document.createElement("button"); jump.type = "button";
       jump.textContent = key.replace("|", " · ");
@@ -7009,7 +7022,7 @@ class Component extends DCLogic {
   // "More new cards" added or a belt lesson). "" is the plan's cards that no position holds ("Other cards").
   _masterSeatOf(s, k) {
     const r = s.plan && s.plan.due.concat(s.plan.fresh).find((x) => x.key === k);
-    if (r && s.plan.order === "worth") return typeof r.visit === "number" ? r.seat || "" : r.source === "place" ? k : null;
+    if (r && s.plan.order === "worth") return typeof r.visit === "number" ? r.seat || "" : r.source === "place" ? r.seat || k : null;
     return r && r.source === "lesson" ? null : k;
   }
   // the rows, the note and the button's words are master-list.src.js's (`ngMasterPaint`, deferred: the eager core carries only
@@ -7045,6 +7058,7 @@ class Component extends DCLogic {
   _masterStart(s) {
     const first = s.view && s.first;
     if (first) this._masterGo(s, first.seat || "", false);
+    else if (s.view && s.plan && s.plan.order === "worth") this._practiceNextRound(s);   // nothing left before the goal (L1-R1)
     else if (s.keys.length) this._sessionOpeners[0]?.();   // the planner not in yet: the day's first card, as before L1
   }
   /**
@@ -7061,10 +7075,25 @@ class Component extends DCLogic {
     this._sessionOpeners[i != null ? i : at[0]]?.();
     this._masterShow(s);
   }
+  // A PLACE OUTSIDE TODAY'S PLAN THAT OWES CARDS ASKS THEM AS DUE CARDS (L1-R1, the reader's finding 1): its owed cards,
+  // by deck, as the plan counts them (`s.owedAt`, master-list.src.js), graded and counted like any other, under no "free
+  // review"; the free review is only for a place that owes nothing
   _masterFree(s, key) {
+    const owed = s.owedAt && s.owedAt.get(key);
+    if (this._gameplanRuntime && owed && owed.size) {
+      const rows = [...owed].map(([dk, q]) => ({ key: dk, seat: key, questions: q, owed: q, pending: 0, source: "place",
+        reason: q.length + (q.length === 1 ? " card" : " cards") + " due for review, so you keep what you've learned." }));
+      this._practiceAppend(s, s.plan || this.planSummary(), rows);
+      const keys = rows.map((r) => r.key).filter((k) => !s.keys.includes(k));
+      if (keys.length) { s.keys.push(...keys); this._practiceRows(s); }
+      s.moved = true;
+      this._sessionOpeners[s.keys.indexOf(rows[0].key)]?.();
+      this._masterShow(s);
+      return;
+    }
     const d = this._gameplanDecks()[key];
     if (this._gameplanRuntime && d && d.allowed && d.count) {
-      this._practiceAppend(s, s.plan || this.planSummary(), [{ key, questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length),
+      this._practiceAppend(s, s.plan || this.planSummary(), [{ key, seat: key, questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length),
         reason: "Nothing is due here: a free review, and every answer counts toward today.", source: "place" }]);
     } else this.fx("master_free_unplanned", { deckKey: key });   // §6.6: it still opens, outside the session's ledger
     if (!s.keys.includes(key)) { s.keys.push(key); this._practiceRows(s); }
@@ -7086,6 +7115,9 @@ class Component extends DCLogic {
   _masterList(s) {
     if (this._session !== s) return;
     if (this._openMini) this._openMini.close();
+    // A, B, C answer the live multiple-choice block (`_onKey`): a card that has left the screen must not keep one (L1-R1, the
+    // reader's finding 4; Esc and the drawer's own exits already clear it)
+    if (this._mc && this._mc.surface === "practice") { this._mc.spent = true; this._mc = null; }
     this._openRow = this._focusRow = null;
     s.list = true; this._masterMode(s); this._masterPaint(s);
     const l = this.drillListRef.current; if (l) l.scrollTop = 0;
@@ -7132,13 +7164,24 @@ class Component extends DCLogic {
    * hold opens the list as it is, says nothing, and beats `master_at_unheld` (§6.6). Pinned by e2e/journeys/master-list.spec.ts.
    */
   openMasterAt(deckKey) {
-    if (!this._practiceInDrawer() || !this._session || this._session.owed) this.openPlanSession("due", undefined, "place");
+    // an "Everything owed" session is a session of its own: replaced by today's (L1-R1, the reader's finding 5), its way back kept
+    const owed = this._session && this._session.owed ? this._session : null;
+    // FROM ANY STATE (L1-R1b, the reader's finding 2, measured 5 of 5): Esc and ✕ shut the drawer and KEEP `_session`, which
+    // every way back in retires (the logo and the brand, through `_exitStudyTo`), so a session the drawer does not show is
+    // not Master the game: it goes as an owed one goes, and the new one opens the drawer and the page (`openPlanSession`);
+    // a checkpoint or a card study the drawer shows over it ends as Esc ends it
+    const shut = !!this._session && !this._sessionInline();
+    if (shut || this.deck || this._checkpoint) { if (this._checkpoint) this._cancelCheckpoint(); this.deck = null; this._studyOpen = null; }
+    if (owed || shut) { this._session = null; this._sessionNodes = null; this._inSession = false; }
+    if (!this._practiceInDrawer() || !this._session) this.openPlanSession("due", undefined, "place");
+    if (owed && this._session && owed.origin) this._session.origin = owed.origin;
     const s = this._session;
     this._ensureGameplanRuntime().then(() => this._afterPress(() => {
-      if (this._session !== s || !this._sessionInline()) return;
+      // given up only for a reason, and said (§6.6): another call or the player's own move came first
+      if (this._session !== s || !this._sessionInline()) { this.fx("master_at_dropped", { deckKey, why: this._session !== s ? "replaced" : "shut" }); return; }
       this._masterPaint(s);
       const v = s.view;
-      if (v && v.rows.concat(v.rest).some((r) => r.seat === deckKey)) { this._masterGo(s, deckKey, true); return; }
+      if (v && v.rows.concat(v.owing || [], v.rest).some((r) => r.seat === deckKey)) { this._masterGo(s, deckKey, true); return; }
       this.fx("master_at_unheld", { deckKey, ready: !!v });
       if (!s.list) this._masterList(s);
     }));
@@ -7156,6 +7199,9 @@ class Component extends DCLogic {
     // a worth plan names the open card's position; otherwise the owed queue or the worn belt's lessons (v1.276.0's word)
     const label = lines ? lines.heading : row ? "Due reviews · " + cards(p.dueCards) : ngBeltDisplayName(worn.id) + " lessons";
     s.heading.textContent = label;
+    // the slim line is hidden while the list shows (L1): nothing is written into it then, so no text a player cannot see is
+    // there to be read (L1-R1, the reader's finding 2: four journeys passed on it); the press writes it (`open` paints)
+    if (s.list) goal.textContent = progress.textContent = s.heading.textContent = "";
     s.rows.style.setProperty("--practice-belt", NG_CHALLENGE_TRACK_COLORS[worn.id]);
     // Each half only when it has something to say (SIDE-R2 M6): no plan makes no claim about new work.
     s.count.textContent = lines ? lines.count : [p.dueCards ? cards(p.dueCards) + " to review across " + techs(due.length) : "", s.plan?.fresh.length ? s.plan.newCards + " new across " + techs(s.plan.fresh.length) + ", " +
@@ -7235,7 +7281,7 @@ class Component extends DCLogic {
         (done ? "rgba(28,58,44,.5)" : open ? "rgba(58,72,118,.5)" : "rgba(255,255,255,.025)") + ";" + (own ? "display:none;" : "");   // last: the row's own display:flex is above
       const label = this._deckCountLabel(key, true);
       // PRACTICE'S MIX, said per row (U56 e): a review or a new deck, read from the plan's own rows
-      const kind = s.plan ? s.plan.due.some((x) => x.key === key) ? "due" : s.plan.fresh.some((x) => x.key === key) ? (s.plan.fresh.find((x) => x.key === key).source === "place" ? "free" : "new") : "" : s.review ? s.review.rows.some(x => x.key === key) ? "due" : "new" : "";
+      const kind = s.plan ? s.plan.due.some((x) => x.key === key) ? "due" : s.plan.fresh.some((x) => x.key === key) ? ((f) => (f.owed && f.owed.length ? "due" : f.source === "place" ? "free" : "new"))(s.plan.fresh.find((x) => x.key === key)) : "" : s.review ? s.review.rows.some(x => x.key === key) ? "due" : "new" : "";
       if (kind) r.setAttribute("data-practice-kind", kind);
       r.innerHTML =
         '<span style="width:9px;height:9px;border-radius:' + (cat === "Position" ? "50%" : "2px") + ';background:' + (done ? "#7ee0a8" : (catCol[cat] || "#9fb0d8")) + ';flex:none;"></span>' +
@@ -7807,7 +7853,7 @@ class Component extends DCLogic {
           this._flowVer = (this._flowVer || 0) + 1;
         }
         // explored states: a UNION, like every other durable-proof field
-        if (Array.isArray(cloud.explored)) { const e = (this._exploredKeys = this._exploredKeys || new Set()); for (const k of cloud.explored) e.add(k); }
+        if (Array.isArray(cloud.explored)) { const e = (this._exploredKeys = this._exploredKeys || new Set()), ex = ngProgressExploredKeys(cloud.explored); for (const k of ex.keys) e.add(k); this._exploredBad = Math.max(this._exploredBad || 0, ex.bad); }
         // srs merge (v1.105.0): per-card, the LATER review wins its schedule — the freshest grade
         // knows the memory best; on one day the smaller cell, then (v1.279.0) the earlier due, so two
         // devices converge; a winning success keeps the longer TRUE interval it beat (`due − last`,

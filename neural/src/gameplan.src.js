@@ -324,7 +324,7 @@ export function ngGameplanLines(plan, live, key) {
   const cards = (k) => k + (k === 1 ? " card" : " cards"), name = (seat) => (seat ? seat.replace("|", " \u00b7 ") : "Other cards");
   // new cards only when nothing is due (ANKI1): a day of reviews says so instead of "0 new"
   const fresh = plan.newCards - extra - path;
-  return { heading: !row ? "Master the game" : placed(row) ? name(row.seat) + " \u00b7 position " + (row.visit + 1) + " of " + n : lesson(row) ? "Belt lessons" : place(row) ? name(row.key) + " \u00b7 free review" : "More new cards",
+  return { heading: !row ? "Master the game" : placed(row) ? name(row.seat) + " \u00b7 position " + (row.visit + 1) + " of " + n : lesson(row) ? "Belt lessons" : place(row) ? name(row.seat || row.key) + (row.owed && row.owed.length ? "" : " \u00b7 free review") : "More new cards",
     count: n + (n === 1 ? " position" : " positions") + ": " + (live.dueCards ? cards(live.dueCards) + " to review \u00b7 " : "") +
       (fresh ? fresh + " new, by how often they come up in your rolls" : "new cards come when nothing is due") +
       (extra ? "; " + extra + " more new, " + (plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") : "") +

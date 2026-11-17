@@ -18,6 +18,11 @@ import { journey } from "../dsl"
  * The record is the reader's `mid` seed, built from the SERVED curriculum: White done and won, Blue's six units proven and
  * its test not taken, Purple worn and its unit 1 ready for its checkpoint, 2 patches and 2 coins.
  * Mutants: listed with their results in docs/Changelog-Archive.md's entry for this PR (PATH-R1, PATH-R2).
+ * THE LIST STATE (L1-R1b, v1.290.0; the reader of PR #434, its smaller 7): Master the game opens as a list, and `openMaster`
+ *   pressed its button before every claim, so the list a player first sees was unwatched here. One case per door keeps it:
+ *   View Collection from the map, the startable belt test and ‹ Back from a checkpoint, each "from the list". Back left the
+ *   keyboard focus outside the page there (both sizes); it goes to the checkpoint's row now. Mutant L1-R1i (the focus not
+ *   moved, `_paneBack`) → red at "‹ Back … from the list", at "premise: the focus is inside the page after Back".
  * THE HOLD'S LIFTERS (CLAUDE.md §6.5), `_paneBack`: wheel, touchstart, pointerdown, keydown, each on the page itself.
  *   - All four removed, then each alone, are run against the Back journey.
  *   - NON-KILL: `touchstart` removed alone. A finger drag in Chromium fires `pointerdown` too, which lifts the hold, so no
@@ -102,7 +107,9 @@ async function bootMid(page: Page) {
   await expect.poll(() => page.evaluate(() => !!(window as W).__neural.curriculum)).toBe(true)
   return { j, errors }
 }
-async function openMaster(page: Page, touch: boolean) {
+// `card`: press the button first (a card open), or leave the list as a player first sees it (L1-R1b, the reader's smaller 7:
+// with the press before every claim, the list state went unwatched, and ‹ Back's focus was outside the page there)
+async function openMaster(page: Page, touch: boolean, card = true) {
   if (!(await page.evaluate(() => !!(window as W).__neural.deckShown))) await press(page, ".ng-logo", "open the drawer", touch)
   await press(page, '[data-explore-stats] [data-b="due"]', "Master the game", touch)
   await expect(page.locator("[data-practice-page]"), "Master the game is open").toHaveCount(1)
@@ -110,8 +117,10 @@ async function openMaster(page: Page, touch: boolean) {
   // journey was written when the page opened on its first card with the shelf drawn under it, so it presses both, the way
   // a player does: the button (the day's first card opens), then "Belt lessons" (the shelf unfolds below the list)
   await expect(page.locator("[data-master-start]"), "the button is ready").toBeEnabled({ timeout: 20_000 })
-  await press(page, "[data-master-start]", "the button", touch)
-  await expect(page.locator("[data-master-dock]"), "a card is open").toBeVisible()
+  if (card) {
+    await press(page, "[data-master-start]", "the button", touch)
+    await expect(page.locator("[data-master-dock]"), "a card is open").toBeVisible()
+  }
   await press(page, "[data-master-belts]", "Belt lessons", touch)
   await expect(page.locator("[data-master-belts]")).toHaveAttribute("aria-expanded", "true")
 }
@@ -122,12 +131,12 @@ for (const touch of [false, true]) {
     test.use(touch ? { hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } } : { viewport: { width: 1440, height: 900 } })
 
     // RULING 1: every door, the plan warm (Master the game opened and closed once), lands on an open shelf
-    for (const door of ["the map", "the drawer's list", "Last rolls, open", "Last rolls, the drawer shut"]) {
+    for (const door of ["the map", "the drawer's list", "Last rolls, open", "Last rolls, the drawer shut", "the map, Master the game left as its list"]) {
       test(`View Collection from ${door}, the plan warm, lands on an open shelf and counts one visit (${tag})`, async ({ page }) => {
         const { errors } = await bootMid(page)
-        await openMaster(page, touch)
+        await openMaster(page, touch, !door.endsWith("as its list"))
         await press(page, ".ng-explorer-close", "close the drawer from Master the game (the plan is warm now)", touch)
-        if (door !== "the map") {
+        if (!door.startsWith("the map")) {
           await press(page, ".ng-logo", "open the drawer", touch)
           if (await practice(page)) await press(page, ".ng-drawer-brand", "back to the drawer's list", touch)
           await expect(page.locator("[data-drawer-explore]"), "premise: the drawer's list").toBeVisible()
@@ -155,11 +164,11 @@ for (const touch of [false, true]) {
     }
 
     // RULING 3: a startable belt test is drawn in the first draw; a won one waits behind the reveal
-    test(`a startable belt test is drawn without "Show earlier belts" and starts in two presses (${tag})`, async ({ page }) => {
+    for (const card of [true, false]) test(`a startable belt test is drawn without "Show earlier belts" and starts in two presses${card ? "" : ", from the list"} (${tag})`, async ({ page }) => {
       const { errors } = await bootMid(page)
       expect(await page.evaluate(() => { const a = (window as W).__neural; return { worn: a.wornBelt().id, blue: a._beltTestStartable("blue"), white: a._beltTestStartable("white") } }),
         "premise: Purple worn, Blue's test startable, White's won").toEqual({ worn: "purple", blue: true, white: false })
-      await openMaster(page, touch)
+      await openMaster(page, touch, card)
       await expect(page.locator('[data-practice-page] .ng-track-card[data-track="blue"]'), "Blue's head is drawn without the reveal").toHaveCount(1)
       await press(page, '[data-practice-page] .ng-track-card[data-track="blue"]', "Blue's head", touch)
       const start = '[data-practice-page] [data-capstone="blue"] button'
@@ -182,9 +191,11 @@ for (const touch of [false, true]) {
     // 1440, a finger drag at 390x631; after the wheel, the press and the drag the next card is asked for by the app's own
     // seam (`sessionNav`), which lifts nothing, so only the move can have let go.
     const moves = touch ? ["a key", "a finger drag"] : ["a key", "a wheel", "a mouse press"]
-    test(`‹ Back from a checkpoint started in the corridor returns to it, its row in view, until the player moves on (${tag})`, async ({ page }) => {
+    // L1-R1b (the reader's smaller 7, both sizes): from the list as a player first sees it, too, where the focus was left
+    // outside the page after ‹ Back; it goes to the checkpoint's row now, so the keys move on from there
+    for (const card of [true, false]) test(`‹ Back from a checkpoint started in the corridor returns to it, its row in view, until the player moves on${card ? "" : ", from the list"} (${tag})`, async ({ page }) => {
       const { errors } = await bootMid(page)
-      await openMaster(page, touch)
+      await openMaster(page, touch, card)
       const cp = `[data-practice-page] [data-checkpoint="${PURPLE_U1}"]`
       await expect(page.locator(cp), "premise: Purple's unit 1 checkpoint is drawn").toHaveCount(1)
       const nextCardInView = () => page.evaluate(() => {
@@ -205,6 +216,8 @@ for (const touch of [false, true]) {
         const list = await page.evaluate(() => { const r = (window as W).__neural.drillListRef.current.getBoundingClientRect(); return { x: r.left, y: r.top, w: r.width, h: r.height } })
         if (move === "a key") {
           expect(await page.evaluate(() => (window as W).__neural.drillListRef.current.contains(document.activeElement)), "premise: the focus is inside the page after Back").toBe(true)
+          // in the list: on what the player came from, the checkpoint's row (L1-R1b)
+          if (!card) expect(await page.evaluate((sel) => document.activeElement === document.querySelector(sel), cp), "the focus is on the checkpoint's row").toBe(true)
           // toward a card that exists: ↓, or ↑ from the session's last card (a key moves the queue by itself)
           const atEnd = await page.evaluate(() => { const s = (window as W).__neural._session; return (s.idx || 0) + 1 >= s.keys.length })
           await page.keyboard.press(atEnd ? "ArrowUp" : "ArrowDown")

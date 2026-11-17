@@ -16,6 +16,7 @@
 // Pinned by tests/master_list.test.mjs.
 
 import { ngGameplanReviewed } from "./gameplan-debt.src.js";
+import { ngPracticeItems } from "./practice-queue.src.js";
 
 const NG_MASTER_MARKS = 8;   // marks drawn at most; the number says the rest (U199 a: the number, never a total)
 
@@ -32,11 +33,14 @@ export function ngMasterWhen(seen, day) {
  * `fresh` its new ones; `seat` "Mount|Bottom", or null for cards no position holds). `explored`: the record's keys.
  * `resolve(key)`: {name, side, pos} for a node this ruleset draws (`pos` true for a position), false for one it does not
  * draw, null for a key that no longer resolves. `lastDay(key)`: {day, kind} or null. `gold(key)`: the shapes of the moves
- * the map paints gold there. Returns {rows, rest, unresolved, been}: `rows` the plan's, `rest` the other places with
- * nothing due (newest answer first, then by name), `unresolved` the keys counted and never shown, `been` how many
- * positions the record holds in this ruleset (0: a new player).
+ * the map paints gold there. `owed(key)`: the cards owed at a place, counted as the plan counts them (null: not known).
+ * Returns {rows, owing, rest, unresolved, been}: `rows` the plan's; `owing` the other places that still owe cards, with
+ * their count, above the rule (most owed first); `rest` the places with nothing due (newest answer first, then by name);
+ * `unresolved` the keys counted and never shown; `been` how many positions the record holds in this ruleset (0: new).
+ * A PLACE THAT OWES CARDS IS NEVER CALLED "nothing due" (L1-R1, the reader of PR #434, its finding 1: 3 cards 53 days
+ * overdue sat under the rule as "nothing due" because the plan, at its day's 20, did not reach them).
  */
-export function ngMasterRows({ plan = [], explored = [], resolve, lastDay, gold, day } = {}) {
+export function ngMasterRows({ plan = [], explored = [], resolve, lastDay, gold, day, owed } = {}) {
   const been = new Set(explored), inPlan = new Set();
   const row = (seat, p, extra) => {
     const shapes = (seat && gold && gold(seat)) || [], seen = seat && lastDay ? lastDay(seat) : null;
@@ -47,11 +51,12 @@ export function ngMasterRows({ plan = [], explored = [], resolve, lastDay, gold,
   for (const [visit, v] of plan.entries()) {
     const p = v.seat && resolve ? resolve(v.seat) : null;
     if (v.seat) inPlan.add(v.seat);
-    const r = row(v.seat, p || null, { visit, due: v.due || 0, fresh: v.fresh || 0, isNew: !!v.seat && !been.has(v.seat) });
+    const o = v.seat && owed ? owed(v.seat) : null;
+    const r = row(v.seat, p || null, { visit, due: o != null ? o : v.due || 0, fresh: v.fresh || 0, isNew: !!v.seat && !been.has(v.seat) });
     r.sub = [r.due ? r.due + " due" : r.fresh ? "new cards" : "done for today", r.when].filter(Boolean).join(" \u00b7 ");
     rows.push(r);
   }
-  const rest = [];
+  const rest = [], owing = [];
   let unresolved = 0, seats = 0;
   for (const key of been) {
     const p = resolve ? resolve(key) : null;
@@ -59,12 +64,15 @@ export function ngMasterRows({ plan = [], explored = [], resolve, lastDay, gold,
     if (!p || !p.pos) continue;   // a node this ruleset does not draw, or not a position (a submission's side): not a place
     seats++;
     if (inPlan.has(key)) continue;
-    const r = row(key, p, { due: 0, fresh: 0, isNew: false });
-    r.sub = ["nothing due", r.when].filter(Boolean).join(" \u00b7 ");
-    rest.push(r);
+    const o = owed ? owed(key) : null, r = row(key, p, { due: o || 0, fresh: 0, isNew: false });
+    // what is owed there, always: "N due" above the rule; "nothing due" only when the plan's own count says nothing is owed
+    r.sub = [o ? o + " due" : o === 0 ? "nothing due" : "", r.when].filter(Boolean).join(" \u00b7 ");
+    (o ? owing : rest).push(r);
   }
-  rest.sort((a, b) => b.last - a.last || (a.name < b.name ? -1 : a.name > b.name ? 1 : a.side < b.side ? -1 : a.side > b.side ? 1 : 0));
-  return { rows, rest, unresolved, been: seats };
+  const byName = (a, b) => (a.name < b.name ? -1 : a.name > b.name ? 1 : a.side < b.side ? -1 : a.side > b.side ? 1 : 0);
+  owing.sort((a, b) => b.due - a.due || byName(a, b));
+  rest.sort((a, b) => b.last - a.last || byName(a, b));
+  return { rows, owing, rest, unresolved, been: seats };
 }
 
 /**
@@ -73,9 +81,12 @@ export function ngMasterRows({ plan = [], explored = [], resolve, lastDay, gold,
  * go"); a new player's "Your first position: Mount, bottom"; the day's goal met, "Today's 20 are done" (`met`), with
  * "Keep practising" under it, which the app draws. `first`: the row the button opens, or null while nothing is ready.
  */
-export function ngMasterStart({ done = 0, goal = 20, first = null, newPlayer = false, ready = true } = {}) {
+export function ngMasterStart({ done = 0, goal = 20, first = null, newPlayer = false, ready = true, more = false } = {}) {
   if (done >= goal) return { met: true, title: "Today's " + goal + " are done", sub: done + " answered · keep going if you like" };
   const title = done ? "Continue today's session" : "Start today's session";
+  // nothing left in today's plan before the goal (fewer cards owed than the goal): the button deals the next round, and
+  // says so; it never opens a place that has nothing left to ask (L1-R1)
+  if (!first && ready && more) return { met: false, keep: true, title: "Keep practising", sub: done + " answered · the next round, worth most first" };
   if (!first) return { met: false, title, sub: ready ? "Nothing to practise here right now." : "Loading your positions…" };
   const at = first.side ? first.name + ", " + first.side.toLowerCase() : first.name;
   return { met: false, title, sub: newPlayer && !done ? "Your first position: " + at : at + " first · " + (goal - done) + " to go" };
@@ -133,12 +144,33 @@ function ngMasterGoldIn(app, k) {
   }
   return g;
 }
+// WHAT IS OWED AT EACH PLACE, COUNTED AS THE PLAN COUNTS IT (L1-R1, the reader's finding 1): the plan's own builder
+// (`ngPracticeItems`, with the inputs `planSummary` hands it: the decks, the seat map `_practiceSeats` makes, the stage, the
+// live set) and the law's own test for owed (a row due, not answered today, priced), each card at the place it is asked.
+// `s.owedAt`: place → deck → its owed questions, so a press on a place outside today's plan asks exactly these (`_masterFree`).
+// Null when the plan's game is not in (no count is known, and none is claimed).
+function ngMasterOwedIn(app, s, game, map) {
+  const day = app._epochDay();
+  const built = game && game.status === "ok" ? ngPracticeItems({ day, srs: app.srs, stage: app.stage, decks: app._gameplanDecks(true), game, seats: map, live: app._ratingLiveNow() }) : null;
+  if (!built || built.status !== "ok") return (s.owedAt = null);
+  const at = new Map();
+  for (const it of built.items) {
+    const r = it.row;
+    if (it.kind !== "card" || !r || !it.seat || !(it.w >= 0) || !(r[0] <= day) || !(r[2] < day)) continue;
+    const d = at.get(it.seat) || at.set(it.seat, new Map()).get(it.seat);
+    (d.get(it.deck) || d.set(it.deck, []).get(it.deck)).push(it.id);
+  }
+  return (s.owedAt = at);
+}
 function ngMasterViewIn(app, s) {
   if (!app.nodes || !app.nodes.length) return null;
   const game = app._ratingGame(app._giMode === "nogi" ? "nogi" : "gi"), map = game && game.seats ? app._practiceSeats(game) : {}, decksOf = new Map();
   for (const dk in map) if (map[dk] !== dk) (decksOf.get(map[dk]) || decksOf.set(map[dk], []).get(map[dk])).push(dk);
-  return ngMasterRows({ plan: ngMasterPlanOf(app, s), explored: [...(app._exploredKeys || [])], day: app._epochDay(),
-    resolve: (k) => ngMasterResolveIn(app, k), lastDay: (k) => ngMasterSeenIn(app, k, decksOf), gold: (k) => ngMasterGoldIn(app, k) });
+  const at = ngMasterOwedIn(app, s, game, map), n = (k) => { let c = 0; for (const q of (at.get(k) || new Map()).values()) c += q.length; return c; };
+  const v = ngMasterRows({ plan: ngMasterPlanOf(app, s), explored: [...(app._exploredKeys || [])], day: app._epochDay(),
+    resolve: (k) => ngMasterResolveIn(app, k), lastDay: (k) => ngMasterSeenIn(app, k, decksOf), gold: (k) => ngMasterGoldIn(app, k), owed: at ? n : null });
+  v.unresolved += app._exploredBad || 0;   // damaged entries the loader skipped are counted with the places that no longer resolve (L1-R1)
+  return v;
 }
 function ngMasterRowHTML(app, r, prog) {
   const e = (x) => app.escHTML(x), shape = (k) => '<svg width="10" height="10" viewBox="-1 -1 12 12"><path d="' + (k === "tri" ? "M5 .6L9.6 9.2H.4z" : "M5 .3L9.7 5L5 9.7L.3 5z") + '"/></svg>';
@@ -149,7 +181,7 @@ function ngMasterRowHTML(app, r, prog) {
 // the rows: rebuilt when the set of places changes (the open card taken out first and put back under its row), else each
 // repainted in place only when its words changed (a rewrite under a pointer swallows the press, FGD13's class)
 function ngMasterSync(app, s, v) {
-  const sig = v.rows.map((r) => r.seat).join("\n") + "\n|\n" + v.rest.map((r) => r.seat).join("\n");
+  const owing = v.owing || [], sig = v.rows.concat(owing).map((r) => r.seat).join("\n") + "\n|\n" + v.rest.map((r) => r.seat).join("\n");
   if (sig !== s.rowSig) {
     s.rowSig = sig; s.rowEls = new Map();
     // THE OPEN CARD IS NEVER TAKEN DOWN WITH THE ROWS: the rows around it are swapped and it stays connected, so a press held
@@ -162,7 +194,8 @@ function ngMasterSync(app, s, v) {
       s.rowEls.set(r.seat || "", b); els.push(b);
     };
     v.rows.forEach((r) => row(r, "plan"));
-    if (v.rows.length && v.rest.length) { const hr = document.createElement("hr"); hr.className = "ng-mrule"; els.push(hr); }
+    owing.forEach((r) => row(r, "due"));   // owing, outside today's plan: after the plan's places, above the rule
+    if ((v.rows.length || owing.length) && v.rest.length) { const hr = document.createElement("hr"); hr.className = "ng-mrule"; els.push(hr); }
     v.rest.forEach((r) => row(r, "rest"));
     if (inside) { for (const c of [...s.rowsEl.children]) if (c !== s.ask) c.remove(); s.ask.after(...els); }
     else s.rowsEl.replaceChildren(...els);
@@ -171,7 +204,7 @@ function ngMasterSync(app, s, v) {
   }
   // the open place's own deck: its row is not drawn (app.src.jsx, `_sessionRow`, L1-R0), so its count ("0/3") is the place's
   const k = !s.list && s.keys[s.idx], lr = k && s.live && app._masterSeatOf(s, k) === k ? s.live.rows.find((x) => x.key === k) : null;
-  for (const r of v.rows.concat(v.rest)) {
+  for (const r of v.rows.concat(owing, v.rest)) {
     const el = s.rowEls.get(r.seat || ""), h = ngMasterRowHTML(app, r, lr && r.seat === k ? lr.completed + "/" + lr.count : "");
     if (el && el._ngHtml !== h) { el._ngHtml = h; el.innerHTML = h; }
   }
@@ -189,7 +222,9 @@ export function ngMasterPaint(app, s) {
   if (s.note.textContent !== txt) s.note.textContent = txt;
   s.note.hidden = !txt;
   if (v && v.unresolved && s.unresolvedBeat !== v.unresolved) { s.unresolvedBeat = v.unresolved; app.fx("master_unresolved", { n: v.unresolved }); }
-  // the row the button opens: the plan's first place with something left to ask, else its first
-  const first = (s.first = (v && (v.rows.find((r) => r.due || r.fresh) || v.rows[0])) || null);
-  return { w: ngMasterStart({ done: t.done, goal: t.goal, first, newPlayer: !!v && !v.been, ready: !!v && !!s.plan }), open: !!first || (!v && s.keys.length > 0) };
+  // the row the button opens: the plan's first place with something left to ask, never a finished one (L1-R1, the
+  // orchestrator's ruling on the reader's finding 3); nothing left before the goal is "Keep practising", the next round
+  const first = (s.first = (v && v.rows.find((r) => r.due || r.fresh)) || null), more = !!s.plan && s.plan.order === "worth";
+  const w = ngMasterStart({ done: t.done, goal: t.goal, first, newPlayer: !!v && !v.been, ready: !!v && !!s.plan, more });
+  return { w, open: !!first || !!w.keep || (!v && s.keys.length > 0) };
 }

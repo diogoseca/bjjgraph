@@ -9,9 +9,14 @@
 //   L1-5 "Continue" before the day's first answer                            → "the button's words"
 //   L1-6 the button names the second place                                   → the page's own: L1-A1 in e2e/journeys/master-list.spec.ts
 //   L1-7 a place the plan visits you never stood on is not marked new        → "a place you never stood on is marked new"
+// L1-R1 (the reader of PR #434, its findings 1 and 3):
+//   L1-8 a place's debt not read (every place outside the plan "nothing due") → "a place that owes cards is never called nothing due…"
+//   L1-9 nothing left before the goal opens a finished place, not Keep practising → "the button's words"
+//   L1-10 (progress-owner.src.js) a damaged `explored` entry refuses the record again → "a damaged explored is read as its strings…"
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { ngMasterRows, ngMasterStart, ngMasterWhen } from "../neural/src/master-list.src.js";
+import { ngProgressExploredKeys, ngProgressValidateBlob } from "../neural/src/progress-owner.src.js";
 
 const DAY = 20400;
 const P = (k) => { const [name, side] = k.split("|"); return { name, side, pos: side === "Top" || side === "Bottom" }; };
@@ -27,10 +32,23 @@ test("the plan's rows keep the plan's own order", () => {
 
 test("every other place you have been to is a row, with nothing due", () => {
   const v = ngMasterRows({ plan: [{ seat: "Mount|Bottom", due: 2 }], explored: ["Mount|Bottom", "Combat Base|Bottom", "Back Control|Bottom"], resolve, day: DAY,
-    lastDay: (k) => (k === "Back Control|Bottom" ? { day: DAY - 1, kind: "played" } : null) });
+    lastDay: (k) => (k === "Back Control|Bottom" ? { day: DAY - 1, kind: "played" } : null), owed: () => 0 });
   assert.deepEqual(v.rest.map((r) => r.seat), ["Back Control|Bottom", "Combat Base|Bottom"], "the newest answer first, then by name; never a plan row twice");
   assert.deepEqual(v.rest.map((r) => r.sub), ["nothing due · played yesterday", "nothing due"]);
   assert.equal(v.been, 3);
+});
+
+// L1-R1 (the reader of PR #434, its finding 1, measured: Jailbreak|Top, 3 cards 53 days overdue, read "nothing due" under
+// the rule because the plan's day of 20 did not reach it): what is owed at a place is read for every row
+test("a place that owes cards is never called nothing due: outside today's plan it sits above the rule with its count", () => {
+  const owed = { "Mount|Bottom": 6, "Jailbreak|Top": 3, "Turtle|Bottom": 1, "Combat Base|Bottom": 0 };
+  const v = ngMasterRows({ plan: [{ seat: "Mount|Bottom", due: 4 }], explored: ["Mount|Bottom", "Combat Base|Bottom", "Jailbreak|Top", "Turtle|Bottom"], resolve, day: DAY,
+    lastDay: (k) => (k === "Jailbreak|Top" ? { day: DAY - 60, kind: "answered" } : null), owed: (k) => owed[k] });
+  assert.deepEqual(v.rows.map((r) => [r.seat, r.sub]), [["Mount|Bottom", "6 due"]], "a plan place says what is owed there, as the plan counts it");
+  assert.deepEqual(v.owing.map((r) => [r.seat, r.sub]), [["Jailbreak|Top", "3 due \u00b7 answered 2 months ago"], ["Turtle|Bottom", "1 due"]], "outside the plan, owing: above the rule, most owed first");
+  assert.deepEqual(v.rest.map((r) => [r.seat, r.sub]), [["Combat Base|Bottom", "nothing due"]], "only a place that owes nothing says so");
+  const unknown = ngMasterRows({ explored: ["Combat Base|Bottom"], resolve, day: DAY, owed: null });
+  assert.equal(unknown.rest[0].sub, "", "no count known (the plan's game not in): nothing claimed");
 });
 
 test("a key that no longer resolves is counted, never shown", () => {
@@ -81,4 +99,18 @@ test("the button's words", () => {
   assert.equal(ngMasterStart({ done: 0, first: null, ready: false }).sub, "Loading your positions…");
   assert.equal(ngMasterStart({ done: 0, first: null, ready: true }).sub, "Nothing to practise here right now.");
   assert.equal(ngMasterStart({ done: 3, goal: 20, first: { name: "Other cards", side: "" } }).sub, "Other cards first · 17 to go");
+  // L1-R1: nothing left in the plan before the goal: the next round, never a finished place
+  assert.deepEqual(ngMasterStart({ done: 2, goal: 20, first: null, ready: true, more: true }), { met: false, keep: true, title: "Keep practising", sub: "2 answered \u00b7 the next round, worth most first" });
+  assert.equal(ngMasterStart({ done: 2, goal: 20, first: null, ready: true, more: false }).sub, "Nothing to practise here right now.", "no next round to deal: said so");
+});
+
+// L1-R1 (the reader of PR #434, its finding 6: an `explored` entry of 42, null or {} stopped the app before it drew, on dev
+// v1.287.0 too): the loader takes strings only and counts the rest, which the list says with the places that no longer resolve
+test("a damaged explored is read as its strings, the rest counted", () => {
+  assert.deepEqual(ngProgressExploredKeys(["Mount|Top", 42, null, {}, "Side Control|Top"]), { keys: ["Mount|Top", "Side Control|Top"], bad: 3 });
+  assert.deepEqual(ngProgressExploredKeys(undefined), { keys: [], bad: 0 }, "no record: no places, nothing counted");
+  assert.deepEqual(ngProgressExploredKeys("Mount|Top"), { keys: [], bad: 0 }, "not a list: no places");
+  // the record is not refused for it (the stored envelope was "invalid", and the app held before it drew)
+  assert.doesNotThrow(() => ngProgressValidateBlob({ v: 2, explored: ["Mount|Top", 42, null, {}] }), "a damaged entry: the record is still read");
+  assert.throws(() => ngProgressValidateBlob({ v: 2, explored: "Mount|Top" }), /Invalid explored history/, "not a list: still refused");
 });

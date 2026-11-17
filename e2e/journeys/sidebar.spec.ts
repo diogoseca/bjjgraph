@@ -251,6 +251,8 @@ test("@curated Practice and Last rolls open their views, and the brand leads bac
   // so the card section is titled by the open card's position, the first of the plan's
   await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { message: "the worth plan lands" }).toBe("worth")
   const first = await page.evaluate(() => { const p = (window as W).__neural._session.plan; return p.visits[0].seat.replace("|", " \u00b7 ") + " \u00b7 position 1 of " + p.visits.length })
+  // L1-R1 (the reader of PR #434, its finding 2): the slim line holds no text until the press, so the press comes first, as a player's does
+  await j.startMaster()
   await expect(page.locator("[data-practice-section]"), "titled by the open card's position").toHaveText(first)
   // Practice's ‹ Back is the brand, a real button (SIDE-R2 P2): it takes focus, and Enter takes it home
   await page.locator("[data-pane-back]").focus()

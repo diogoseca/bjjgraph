@@ -19650,3 +19650,22 @@ lessons" where they use the shelf), and press the card's buttons in the foot sin
 
 **Mutants.** Units: L1-1 to L1-7 (tests/master_list.test.mjs's header). App: L1-A1 to L1-A8 and L1-R0a to L1-R0c, each built
 and red on a named test (e2e/journeys/master-list.spec.ts's header).
+
+**L1-R1 and L1-R1b (the independent reader of PR #434, its findings ruled by the orchestrator, 17 Nov).** (1) A place outside
+today's plan that owed cards read "nothing due" and opened as a free review (measured: 3 cards 53 days overdue): what is owed
+is now read for every row as the plan counts it (`ngPracticeItems` with the planner's own inputs, `ngMasterOwedIn`); an owing
+place sits after the plan's places, above the rule, "N due", and a press asks its cards as due. (2) Four journeys asserted the
+slim line's text before the press, when it is hidden: nothing is written into it in the list now, and the journeys press first.
+(3) The button never opens a finished place: when the plan has nothing left before the goal it reads "Keep practising" and
+deals the next round (reachable today when the goal is raised after the plan was dealt; the plan otherwise fills the day with
+new cards). (4) ≡ now spends a multiple-choice block it leaves (the reader measured A grading nothing there; kept as a guard).
+(5) `openMasterAt` replaces an "Everything owed" session, and (8) works after Esc or ✕ (which keep the session every way back
+in retires): it opens the drawer and the page from any state, or beats `master_at_dropped`. (6) A damaged `explored` entry
+(42, null, {}) made the stored envelope "invalid", so the app held before it drew, on dev too: the validator now refuses only
+a non-list, every reader takes strings only and counts the rest (the list's lost-places note), and the next save writes strings
+only (production v1.252.0's captured validator still refuses the damaged record). (7) The gold count is checked against the
+marks the map DRAWS on the place's hand (`_lastMapMarks`, the hand framed, every orb on screen), not the row's own predicate.
+(9) The reader's two surviving mutants (the rows by name once answered; ≡ dropping the answered state) are killed by a step
+reading the list's order after an answer and the same card, still revealed, after ≡ and the button. (10) ‹ Back from a
+checkpoint in the list left the keyboard focus outside the page: it goes to the checkpoint's row (or the button).
+Mutants: units L1-8 to L1-10; app L1-R1a to L1-R1j (each named, built and red, in the spec's header).
