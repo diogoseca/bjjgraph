@@ -19484,3 +19484,48 @@ real input. What goes with the in-card player: a reference clip no longer plays 
 read and scrolled; the theater dims the page until it closes (pictures 03 and 04). `pauseLandFilm`, `resumeFilm` and
 `_landFilmMoved` still exist and serve no state a press can reach (a playing clip is never inside the reader's host);
 `pauseLandFilm` keeps its own direct test. The Forward catalog mock may still draw the old modal (no parity gate).
+
+## v1.286.0 — The Practice order builds moves: priced by the rating's own game, at their position; the app does not ask yet (STAGE4 S0, 2026-11-16)
+
+**Ruled (STAGE4-GO, 16 Nov):** build S0 as `reports/mapasks.md` Part 4 says: the order Practice asks in takes the moves
+the rating prices, so a later stage can ask them; nothing a player sees changes.
+
+**What changed.** `ngPracticeItems` (practice-queue.src.js) takes `moves` (the moves record) and `moveSeats`
+({"<site ordinal>/<role>": "<Family>|Top|Bottom"}). Only with `moveSeats` does it build moves: every move the rating's
+game deals (`ngRatingUniverse`'s `seats`), priced at the game's own figure (read, never recomputed), its row the record's
+row under `_moveKey`'s seat and role, id "m:<seat>:<move>". Counted and never asked: null cells (`movesOutside`), seats
+with no position (`movesUnseated`), rows no dealt, seated move took (`movesUnmatched`: escapes, the other ruleset's
+seats). A record of move rows alone is a session. The law counts a move row without its answer at [3] as a bad row, as
+the rating does, and reads its schedule at index 4 (LIN1). `ngPracticeOrder` lists each visit's moves apart from the
+deck rows. The planner passes them through, keys its memo on the record, the seat map and the revision (`_gradeMove`
+edits in place; a pull replaces), and, only with moves asked, counts every move answer of the day 1 toward the goal in
+every place `overrun` is computed. Without `moveSeats` every output is today's, field for field: `planSummary` hands
+none, so today's page is unchanged.
+
+**Found while building.** With no deck loaded, a move can take one of the guard's three places where a card cannot (a
+dealt move is always answerable; ANKI1-R1's `sure`). The law as ruled.
+
+**Measured on the real wire:** gi deals 1,350 moves at 242 seats (18 null), no-gi 1,206 at 218; the move items add up to
+the game's `moveTotal` within 1e-9; no seat is unnamed.
+
+**Mutants:** 23 (11, 7 for the reader's findings, 3 for its re-check, 2 for the orchestrator's reader: a moves row read
+at index 3 or 5, which passed all 201 tests until a writer-made rung-pair row and the review's x and y order pinned the
+read at 4), each applied alone and red on a named test; the table, with the test each turns red, is the header of
+tests/practice_queue.test.mjs. **Not covered:** the app's own seat map (S1); the simulation's "seen" move has no row in
+the app (the replay hands it in as a non-row; on the app's record such a move is new).
+
+**The independent read** (an Opus reader, two rounds). Claim 1 held: dev against the branch with no seat map, real wire,
+both rulesets: 612, then 884 comparisons, 0 differences. Fixed and pinned: `overrun` dropped the moves where a deck's
+cards land and in today's order; seven surviving mutants. Its questions went to S1 (ruling 5's first-look row is owed
+tomorrow at full worth, which the frozen days never held; the guard's "three cards" words; a threat asked at the
+opponent's seat).
+
+**Bytes.** Final, on dev v1.283.0: gameplan.js 21,885 -> 23,457 B (+1,572, S0's own); the deferred ceiling is 522,323 B
+(the use 522,320 after #427's reader.js -3 B; 27,677 B of 550,000 remain); eager: none. One count went wrong and is
+corrected in the history (ae773bb31, then 0bdbecb84): a stale game worker core left in the served folder by this branch's
+own earlier build was counted beside the live one (+70,372 B). The served app folders are now emptied before a count.
+App rows re-seeded under the lock on each merged head (5358623c6, 858f11ed1).
+
+**Runs** (local, times from `date`): the units of every touched file after each merge of dev; the mutant runs;
+`npm run ci:validate` on each final head; the bundle, the count and the app rows under the lock. The full suites run on
+the PR (e2e-full, green on de56390ba).

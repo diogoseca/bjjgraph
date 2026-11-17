@@ -9,7 +9,9 @@
 // when nothing is due. Until ANKI1 the law kept a floor of 4 new a day (its tests and mutants Q2, Q9 and Q18 went with it).
 //
 // Part 1 pins the law on worlds small enough to price by hand, one claim per test. Part 2 replays the simulation's own days
-// (tests/artifacts/practice_queue_parity.json). Part 3 pins the builder and the planner. Part 4 reads the real wire.
+// (tests/artifacts/practice_queue_parity.json). Part 3 pins the builder and the planner. Part 4 reads the real wire. Part 6
+// (Stage 4 S0, v1.286.0) pins the builder's moves: priced by the rating's game, filed by its own seat and role, replayed
+// against the same frozen days built from a record, and read on the real wire; the app does not ask for them yet.
 //
 // PARITY WITH THE SIMULATION (the plan's, qsim.mjs, kept outside the repo as the rating's is). The owner's Anki rule is the
 // simulation's policy A (`queueA`), written there from the rule, not from the law: the guard (the 3 due longest, by due day
@@ -62,13 +64,49 @@
 // R409 (the reader's delta read of 946465b77, finding 1; the session's half is tests/practice_page.test.mjs):
 //   G1  the guard's short count not kept (always 0)                         → "the guard says whether it holds the three due longest"
 //   G2  the guard sentence said whatever the guard held                     → the same
+// STAGE4 S0 (v1.286.0, moves built; each applied alone to a clean tree, the named test red, the rest of the file green after):
+//   S0-1  moves after cards at a position                                   → "S0: a dealt move is priced by the game itself…"
+//                                                                             (and Part 1's "moves first at a position", Part 2, the S0 replay)
+//   S0-2  a move's right read by a card's rule (`r[1] > 1`)                  → "S0: a move's worth is what a right answer adds…"
+//                                                                             (and "forgetting counts", Part 2, the S0 replay)
+//   S0-3  escapes (rows no dealt move took) asked at 0                        → "S0: a dealt move is priced by the game itself…",
+//                                                                             "S0: on the real wire…"
+//   S0-4  the role half of the seat dropped (a bottom move reads the top row) → "S0: a dealt move is priced by the game itself…"
+//   S0-5  a move row without its answer priced                               → "S0: a move row without its answer is counted…"
+//   S0-6  the memo key without the moves record's revision                   → "S0: the order is kept for its inputs, and the moves…"
+//   S0-7  a move at a seat no position is named for asked loose              → "S0: a dealt move is priced by the game itself…"
+//   S0-8  moves answered today not counted toward the goal                   → "S0: \"Did not\" brings a move back tomorrow…"
+//   S0-9  a null cell priced at 0                                            → "S0: a dealt move is priced…", "S0: on the real wire…"
+//   S0-10 the cards-only shape changed (every visit lists moves)             → "S0: without a move seat map the order is today's…"
+//   S0-11 a record of moves alone read as empty                              → "S0: a move's worth is what a right answer adds…",
+//                                                                             "S0 (ruling 5): the row a first look writes…"
+// S0-R1 (the independent read of 58a46d515: its finding 2, its surviving mutants A-D and a nit; all 18 run again together,
+// against this file, practice_page, gameplan and gameplan_runtime, 98 of 98 green before and after):
+//   S0-12 an escape's answer today not counted toward the goal (its A)       → "S0: every move answer today counts toward the goal…"
+//   S0-13 the worth plan's overrun without the moves (its B)                  → the same
+//   S0-14 the worth bind's overrun without the moves (its finding 2)          → the same
+//   S0-15 today's order's overrun without today's moves                       → the same
+//   S0-16 the memo key without the moves record (its C: a pull replaces it)   → "S0: the order is built again for a new moves record…"
+//   S0-17 the memo key without the seat map (its D)                           → the same
+//   S0-18 a stored null counted unmatched (its nit)                           → "S0: a move row without its answer is counted…"
+// S0-R2 (the reader's re-check of 65b31f3cd: 11 of its 14 mutants red; these three survived, now pinned in the same test):
+//   S0-19 today's order's bind drops the moves from its overrun (its B3)     → "S0: every move answer today counts toward the goal…"
+//   S0-20 the moves-today count takes a row with no interval (its N2)         → the same
+//   S0-21 "moves asked" read from any truthy seat map (its N3)                → the same
+// S0-R3 (the orchestrator's reader of PR 431, its finding 3: nothing tested the read at index 4; both passed 201 tests):
+//   S0-22 the order reads a moves row's schedule at index 3 (its M2)         → "S0: the order reads a moves row's schedule…"
+//   S0-23 … at index 5 (its M2b)                                             → the same
 //
 // NOT COVERED here:
 //   · A RETIRED QUESTION READS AS A LIVE ONE, as in the rating (tests/rating.test.mjs): a deck's new count while its cards
 //     are not loaded is its card count less the rows it holds, and a row for a rewritten question counts as one held. Such a
 //     deck offers fewer new cards than it has. PR #405 teaches the rating live vs retired; this reads the same manifest.
-//   · Moves. Stage 3's page cannot ask a hidden move, so the app hands the law cards only; the law's move handling is pinned
-//     by Parts 1 and 2 for Stage 4.
+//   · The app's move seat map. S0 builds moves only when handed `moveSeats`, and the app hands none yet (its page cannot ask a
+//     hidden move): Part 6 builds the map by the walk `_practiceSeats` makes (`moveSeatsByWalk`), as input only. S1 adds the
+//     app's own map, the moves record and its revision to `planSummary`, and pins that map against this walk.
+//   · "seen" (the simulation's move met in a roll and never scheduled) has no row in the app, whose moves record is written
+//     only by an answer: the S0 replay hands it in as a stored value that is not a row. On the app's own record such a
+//     move is NEW (no row), so for a player who rolls, the app's order and the simulation's can differ on those moves.
 //   · SEATLESS AND UNPRICED DECKS. 214 gi decks (346 no-gi) are priced but no seat claims them (the "…-Control" seats among
 //     them): their owed cards are asked in the one "Other cards" position, scored by owed worth like any other, and their new
 //     cards come, like any, only when nothing is due. 38 gi decks (293 cards) are allowed in gi but carry no gi weight (Buggy Choke, the heel hooks):
@@ -81,11 +119,11 @@ import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import { ngPracticeVisits, ngPracticeItems, ngPracticeOrder } from "../neural/src/practice-queue.src.js";
-import { ngRatingUniverse } from "../neural/src/rating.src.js";
+import { ngRatingUniverse, ngRatingShare, ngRatingRecall } from "../neural/src/rating.src.js";
 import * as G from "../neural/src/gameplan.src.js";
-import { ratingApp, ratingFixture, ratingLiveFiles } from "./_rating_fixture.mjs";
+import { ratingApp, ratingFixture, ratingLiveFiles, RATING_DAY } from "./_rating_fixture.mjs";
 import { guardFixture } from "./_practice_order_fixture.mjs";
-import { ngKnowledgeQuestionHash } from "../neural/src/knowledge-profile.src.js";
+import { ngKnowledgeQuestionHash, ngKnowledgeScheduleRow } from "../neural/src/knowledge-profile.src.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DIR = resolve(HERE, "../source/quartz/static/neural");
@@ -675,4 +713,297 @@ test("the guard says whether it holds the three due longest, and the plan says i
     _gameplanRuntime: G, fx: () => {}, weakSpots: () => ({ cold: true, keys: [], veryWeak: [], weak: [] }), _checkKnowledgeDay: () => {}, startFrom: () => "standing" });
   const inHand = b.planSummary();
   assert.equal(JSON.stringify(inHand.due.map((r) => [r.key, r.questions])), JSON.stringify(after.due.map((r) => [r.key, r.questions])));
+});
+
+// ── Part 6: moves (Stage 4 S0, v1.286.0): the builder prices what the rating deals; the app does not ask for them yet ──────
+// One position at two seats of one site: A|Top (an 8-card deck of weight 8, 1 a card; loaded, its four questions known, so
+// they can take the guard's places: a move needs no such check, a card of a deck not loaded does) and A|Bottom (2 cards,
+// weight 2, not loaded: two placeholders). The
+// game's seat 1/top deals three moves at seat weight 4: "7" at 10% (0.4), "8" at 90% (3.6) and "9" a null cell (not dealt
+// there in this ruleset); 1/bottom deals "7" at 100% of 2 (2); 3/top deals "5" (1), and no position is named for it.
+const mGame = () => ngRatingUniverse({
+  decks: { "A|Top": { n: 8 }, "A|Bottom": { n: 2 } },
+  weights: { "A|Top": 8, "A|Bottom": 2 },
+  seats: { "1/top": { w: 4, hand: { 7: 10, 8: 90, 9: null } }, "1/bottom": { w: 2, hand: { 7: 100 } }, "3/top": { w: 1, hand: { 5: 100 } } },
+});
+const M_SEATS = { "A|Top": "A|Top", "A|Bottom": "A|Bottom" };
+const M_MOVESEATS = { "1/top": "A|Top", "1/bottom": "A|Bottom" };
+const mDecks = () => ({
+  "A|Top": { count: 4, questions: ["c1", "c2", "c3", "c4"], exact: true, allowed: true, headroom: 0.15 },
+  "A|Bottom": { count: 2, questions: [], exact: false, allowed: true, headroom: 0.15 },
+});
+const mSrs = () => ({ "A|Top": { c1: ago(5, 3), c2: ago(5, 3), c3: ago(5, 3), c4: ago(5, 3) } });
+// at 1/top: "7" owed since the day the cards are (a Yes 5 days ago at 3) and an escape row, owed too; at 1/bottom: "7" known
+// and not due (a Yes yesterday at 20). "8" has no row: new.
+const mMoves = () => ({ "1/top": { 7: [...ago(5, 3), 1], e1234abcd: [...ago(5, 3), 1] }, "1/bottom": { 7: [D + 19, 20, D - 1, 1] } });
+const mOrder = (o = {}) => ngPracticeOrder({ day: D, goal: 20, srs: mSrs(), stage: {}, decks: mDecks(), game: mGame(), seats: M_SEATS, moves: mMoves(), moveSeats: M_MOVESEATS, ...o });
+
+test("S0: without a move seat map the order is today's, field for field, whatever the moves record holds", () => {
+  const cardsOnly = mOrder({ moves: undefined, moveSeats: undefined }), recordAlone = mOrder({ moveSeats: undefined });
+  assert.deepEqual(recordAlone, cardsOnly, "the moves record alone asks nothing and adds nothing");
+  assert.ok(!("moves" in cardsOnly) && !("askedMoves" in cardsOnly.counts) && !("moves" in cardsOnly.counts.built), "no move field");
+  for (const v of cardsOnly.visits) assert.deepEqual(Object.keys(v), ["seat", "keys"], "a visit is today's shape");
+  assert.ok(cardsOnly.law.asked.every((id) => !id.startsWith("m:")), "no move asked");
+  // the planner too: the plan the app builds today (no `moveSeats` in `worth`) carries no move and counts none toward the goal
+  const plan = (worth) => G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 20, decks: mDecks(), srs: mSrs(), worth });
+  const today = plan({ game: mGame(), seats: M_SEATS, stage: {} }), withRecord = plan({ game: mGame(), seats: M_SEATS, stage: {}, moves: mMoves() });
+  assert.equal(JSON.stringify(withRecord), JSON.stringify(today));
+  assert.ok(!("moves" in today) && !("movesToday" in today));
+});
+
+test("S0: a dealt move is priced by the game itself, at its position, its own role's row, before the position's cards", () => {
+  const U = mGame(), o = mOrder({ game: U }), built = ngPracticeItems({ day: D, srs: mSrs(), stage: {}, decks: mDecks(), game: U, seats: M_SEATS, moves: mMoves(), moveSeats: M_MOVESEATS });
+  const mv = Object.fromEntries(built.items.filter((it) => it.kind === "move").map((it) => [it.id, it]));
+  assert.deepEqual(Object.keys(mv).sort(), ["m:1/bottom:7", "m:1/top:7", "m:1/top:8"], "every dealt, priced, seated move; never the null cell, the escape or the unnamed seat");
+  for (const it of Object.values(mv)) assert.strictEqual(it.w, U.seats.get(it.key).get(it.move), it.id + ": the game's own price");
+  assert.deepEqual([mv["m:1/top:7"].seat, mv["m:1/bottom:7"].seat], ["A|Top", "A|Bottom"]);
+  // the role is half the seat: the bottom's "7" reads the bottom's row (known, not due), the top's "7" the top's (owed)
+  assert.deepEqual([mv["m:1/top:7"].row, mv["m:1/bottom:7"].row], [mMoves()["1/top"][7], mMoves()["1/bottom"][7]]);
+  assert.deepEqual(built.counts, { questions: 4, outside: 0, outsideDue: 0, unknownDeck: 0, blocked: 0, slots: 2,
+    moves: 5, movesOutside: 1, movesUnseated: 1, moveRows: 3, movesUnmatched: 1 }, "counted: the null cell, the unnamed seat, the escape's row");
+  // the guard takes the three cards due longest (tied with the move on their due day: the input's order, the cards heavier);
+  // then the owed move BEFORE the owed card c4, though c4 is worth more (1 × 0.161 against 0.4 × 0.161); then, nothing due
+  // left, the new move at A|Top (one place left of its 6) and A|Bottom's two new cards. The bottom's known "7" is not asked.
+  assert.deepEqual(o.law.asked, ["c1", "c2", "c3", "m:1/top:7", "c4", "m:1/top:8", "A|Bottom#0", "A|Bottom#1"]);
+  assert.deepEqual(o.law.guard, ["c1", "c2", "c3"]);
+  assert.equal(o.law.counts.later, 1, "the known move not due");
+  assert.deepEqual(o.visits, [{ seat: "A|Top", keys: ["A|Top"], moves: ["m:1/top:7", "m:1/top:8"] }, { seat: "A|Bottom", keys: ["A|Bottom"], moves: [] }]);
+  assert.deepEqual(o.moves, [{ id: "m:1/top:7", key: "1/top", move: "7", seat: "A|Top", visit: 0, owed: true },
+    { id: "m:1/top:8", key: "1/top", move: "8", seat: "A|Top", visit: 0, owed: false }]);
+  assert.equal(o.counts.askedMoves, 2);
+  // the deck rows are the cards' alone
+  assert.deepEqual(o.rows.map((r) => [r.key, r.questions, r.pending]), [["A|Top", ["c1", "c2", "c3", "c4"], 0], ["A|Bottom", [], 2]]);
+});
+
+test("S0: a move's worth is what a right answer adds to the rating, read from its own answer", () => {
+  // two positions, one move owed at each. X at P|Top (price 2): a first right answer 1 day ago (interval 1, a Yes: the rating
+  // reads it at 0.9 × 0.9 = 0.81). Y at Q|Top (price 1): a No 1 day ago (0). Answered right today, Y adds 1 and X 0.38: Y's
+  // position first. Read with a card's rule (interval 1, no stage: a miss), X would be worth 2 and come first.
+  const U = ngRatingUniverse({ decks: { "P|Top": { n: 1 }, "Q|Top": { n: 1 } }, weights: { "P|Top": 1, "Q|Top": 1 },
+    seats: { "1/top": { w: 4, hand: { 10: 50 } }, "2/top": { w: 2, hand: { 20: 50 } } } });
+  const moves = { "1/top": { 10: [D, 1, D - 1, 1] }, "2/top": { 20: [D, 1, D - 1, 0] } };
+  const o = ngPracticeOrder({ day: D, goal: 20, srs: {}, stage: {}, decks: { "P|Top": { count: 1, questions: [], exact: false, allowed: true }, "Q|Top": { count: 1, questions: [], exact: false, allowed: true } },
+    game: U, seats: { "P|Top": "P|Top", "Q|Top": "Q|Top" }, moves, moveSeats: { "1/top": "P|Top", "2/top": "Q|Top" } });
+  assert.equal(o.status, "ok", "a record of moves alone is a session");
+  assert.deepEqual(o.moves.map((m) => m.id), ["m:2/top:20", "m:1/top:10"], "the bigger gain first");
+  // and the gain IS the rating's: what the rating rises by when the move is answered right today = its price × (1 − recall)
+  // (read as a MOVES row: its schedule pair at [4], after the answer at [3], v1.281.0's `at`)
+  const gain = (st, mv) => {
+    const after = structuredClone(moves), r = after[st][mv];
+    after[st][mv] = ngKnowledgeScheduleRow(r, true, D, 4);
+    return (ngRatingShare(U, { moves: after }, D).share - ngRatingShare(U, { moves }, D).share) * U.total;
+  };
+  const price = (st, mv) => U.seats.get(st).get(mv);
+  assert.ok(Math.abs(gain("1/top", "10") - price("1/top", "10") * (1 - ngRatingRecall(moves["1/top"][10], true, D, 4))) < 1e-12);
+  assert.ok(Math.abs(gain("2/top", "20") - price("2/top", "20") * (1 - ngRatingRecall(moves["2/top"][20], false, D, 4))) < 1e-12);
+  assert.ok(gain("2/top", "20") > gain("1/top", "10"), "Y's gain is the larger");
+  // a writer-made RUNG-PAIR row (v1.281.3): an early right answer (interval 14, answered 5 days before its due day) keeps
+  // the schedule's pair at [4] and [5], which moves the exact interval away from due − last; the gain is still the price
+  // times what the row's recall lacks, read where the writer keeps it (the review of PR 431, finding 3)
+  const B = D - 40, pairRow = ngKnowledgeScheduleRow([B + 14, 14, B - 14, 1], true, B - 5, 4);
+  assert.equal(pairRow.length, 6, "premise: the writer kept a pair");
+  assert.ok(pairRow[0] <= D && Math.abs(ngRatingRecall(pairRow, true, D, 4) - ngRatingRecall(pairRow, true, D, 3)) > 1e-4, "premise: owed today, and the pair moves the exact interval");
+  const U3 = ngRatingUniverse({ decks: { "P|Top": { n: 1 } }, weights: { "P|Top": 1 }, seats: { "3/top": { w: 4, hand: { 30: 25 } } } });
+  const m3 = { "3/top": { 30: pairRow } }, after3 = { "3/top": { 30: ngKnowledgeScheduleRow(pairRow, true, D, 4) } };
+  const gain3 = (ngRatingShare(U3, { moves: after3 }, D).share - ngRatingShare(U3, { moves: m3 }, D).share) * U3.total;
+  assert.ok(Math.abs(gain3 - U3.seats.get("3/top").get("30") * (1 - ngRatingRecall(pairRow, true, D, 4))) < 1e-12, "the pair row's gain, read at 4");
+});
+
+test("S0: the order reads a moves row's schedule where the writer keeps it, at index 4 (the review's x and y)", () => {
+  // the review of PR 431, finding 3: two moves at one position, both owed, each a writer-made rung-pair row. Read at [4]
+  // (the pair after the answer), y's recall is the lower, so y is worth more and is asked first; read at [3] or [5] (the
+  // card's place, or one past the pair), x would come first. The guard is off so worth alone decides the order.
+  const x = [17738, 60, 17637, 1, 100.5, 17637], y = [17744, 7, 17734, 1, 9.3333, 17734], day = 17744;
+  assert.ok(ngRatingRecall(y, true, day, 4) < ngRatingRecall(x, true, day, 4) && ngRatingRecall(y, true, day, 3) > ngRatingRecall(x, true, day, 3), "premise: the index decides the order");
+  assert.deepEqual(law([move("x", "S|Top", 1, x), move("y", "S|Top", 1, y)], { day, guard: 0 }).asked, ["y", "x"]);
+});
+
+test("S0: \"Did not\" brings a move back tomorrow; a move answered today counts 1 toward the goal", () => {
+  const U = mGame(), noRow = ngKnowledgeScheduleRow(null, false, D, 4);
+  const moves = { "1/top": { 8: noRow } };
+  const at = (day) => ngPracticeOrder({ day, goal: 20, srs: mSrs(), stage: {}, decks: mDecks(), game: U, seats: M_SEATS, moves, moveSeats: M_MOVESEATS });
+  assert.ok(!at(D).law.asked.includes("m:1/top:8"), "answered today: not asked again today");
+  assert.equal(at(D).law.counts.today, 1);
+  assert.ok(at(D + 1).moves.some((m) => m.id === "m:1/top:8" && m.owed), "tomorrow it is owed, and asked");
+  // the planner's goal: 3 today, one move answered today, so the order asks 2; the same record without the move seat map: 3
+  const plan = (worth) => G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 3, decks: mDecks(), srs: mSrs(), worth });
+  const asked = plan({ game: U, seats: M_SEATS, stage: {}, moves, moveSeats: M_MOVESEATS });
+  assert.equal(asked.movesToday, 1);
+  assert.equal(asked.counts.asked, 2, "every answer counts 1 toward the goal, a move's as a card's");
+  assert.equal(plan({ game: U, seats: M_SEATS, stage: {}, moves }).counts.asked, 3, "cards only: the move answered today is not counted");
+});
+
+test("S0 (ruling 5): the row a first look writes adds no field, and the rating reads it as a move never answered", () => {
+  // the owner's ruling 5 (STAGE4-GO): a move shown for the first time writes the "not known yet" row, in the shape "Did not"
+  // writes. That is `_gradeMove`'s own row for a move with no prior row, built by the same writer call (v1.281.0: the
+  // writer builds the whole moves row, `at` 4): the schedule's first cell and the answer 0, no more.
+  const U = mGame(), look = ngKnowledgeScheduleRow(null, false, D, 4);
+  assert.deepEqual(look, [D + 1, 1, D, 0], "four cells: due tomorrow, interval 1, answered today, not known");
+  const base = { srs: mSrs(), stage: {}, moves: { "1/top": { 7: [...ago(5, 3), 1] } } };
+  const looked = structuredClone(base); looked.moves["1/top"][8] = look;
+  for (const day of [D, D + 1, D + 30]) {
+    const a = ngRatingShare(U, base, day), b = ngRatingShare(U, looked, day);
+    assert.equal(b.share, a.share, "day " + (day - D) + ": the same share as never answered");
+    assert.equal(b.points, a.points);
+    assert.equal(b.counts.weighted, a.counts.weighted + 1, "it is read (weighted), and adds nothing");
+  }
+  // and Practice asks it tomorrow as owed (face down: it has a row), worth its full price, never as new (0.75 of it)
+  const o = ngPracticeOrder({ day: D + 1, goal: 20, srs: {}, stage: {}, decks: mDecks(), game: U, seats: M_SEATS, moves: looked.moves, moveSeats: M_MOVESEATS });
+  assert.deepEqual(o.moves.find((m) => m.id === "m:1/top:8"), { id: "m:1/top:8", key: "1/top", move: "8", seat: "A|Top", visit: 0, owed: true });
+});
+
+test("S0: a move row without its answer is counted as a bad row, never priced, never asked as new", () => {
+  const U = mGame(), moves = { "1/top": { 8: [D - 1, 1, D - 2] } };
+  const o = ngPracticeOrder({ day: D, goal: 20, srs: mSrs(), stage: {}, decks: mDecks(), game: U, seats: M_SEATS, moves, moveSeats: M_MOVESEATS });
+  assert.equal(o.law.counts.badRow, 1);
+  assert.ok(!o.law.asked.includes("m:1/top:8"), "neither owed nor new");
+  assert.equal(ngRatingShare(U, { moves }, D).counts.badRow, 1, "the rating counts it the same way");
+  // a stored null (no merge leaves one; a raw local blob could) is no row: the move is new, and it met its move
+  const n = ngPracticeItems({ day: D, srs: mSrs(), stage: {}, decks: mDecks(), game: U, seats: M_SEATS, moves: { "1/top": { 7: null } }, moveSeats: M_MOVESEATS });
+  assert.deepEqual([n.items.find((it) => it.id === "m:1/top:7").row, n.counts.moveRows, n.counts.movesUnmatched], [null, 1, 0]);
+});
+
+test("S0: the order is kept for its inputs, and the moves record's revision is one of them", () => {
+  // `_gradeMove` edits the moves record IN PLACE (the same object, a new `_movesRev`), as `_schedule` edits `srs` (the
+  // reader's R9 above). With today's goal already met (1, and c1 answered today) Practice deals a round of the goal's size, so
+  // a move answered in place changes no other input: the revision is then the only one that does.
+  const U = mGame(), moves = { "1/top": {} }, decks = mDecks(), srs = { "A|Top": { c1: [D + 1, 1, D] } }, stage = {};
+  const build = (movesRev) => G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 1, decks, srs,
+    worth: { game: U, seats: M_SEATS, stage, moves, moveSeats: M_MOVESEATS, movesRev } });
+  assert.deepEqual(build(1).moves.map((m) => [m.id, m.owed]), [["m:1/top:8", false]], "the new move worth most, the round's one");
+  moves["1/top"][8] = ngKnowledgeScheduleRow(null, true, D, 4);
+  assert.deepEqual(build(1).moves.map((m) => m.id), ["m:1/top:8"], "the same revision: the order kept (the app bumps it)");
+  // built again: "8" is answered today; the next position by its next new move and card is A|Bottom (2 × 0.75 + 0.75) over
+  // A|Top (0.4 × 0.75 + 0.75), so the round's one is the bottom's "7"
+  assert.deepEqual(build(2).moves.map((m) => m.id), ["m:1/bottom:7"], "a new revision: built again, the move answered today gone");
+});
+
+test("S0: every move answer today counts toward the goal, an escape's too, and the overrun keeps them when a deck's cards land", () => {
+  // the independent read of S0 (findings 2 and 3 A/B, its own record): one card and two move answers today (one an escape,
+  // which the order never asks but which is an answer), a goal of 3: the goal is met, so Practice deals a round of 3, and
+  // the plan runs over by 1 + 3 + 2 − 3 = 3 whatever is asked. Binding the deck's cards when they land (`ngGameplanBind`)
+  // must keep that: it recomputed `overrun` from the cards alone
+  const U = ngRatingUniverse({ decks: { "A|Top": { n: 4 } }, weights: { "A|Top": 4 }, seats: { "1/top": { w: 4, hand: { 7: 10, 8: 90 } } } });
+  const srs = { "A|Top": { c1: [D + 1, 1, D] } }, moves = { "1/top": { e9: [D + 1, 1, D, 0], 7: [D + 1, 1, D, 1] } };
+  const worth = { game: U, seats: { "A|Top": "A|Top" }, stage: {}, moves, moveSeats: { "1/top": "A|Top" }, movesRev: 1 };
+  const plan = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 3, decks: { "A|Top": { count: 4, questions: [], exact: false, allowed: true, headroom: 0.15 } }, srs, worth });
+  assert.equal(plan.order, "worth", plan.orderStatus);
+  assert.equal(plan.movesToday, 2, "the escape's answer counts");
+  assert.equal(plan.reviewed.length + plan.movesToday, 3, "the goal is met");
+  assert.equal(plan.overrun, 3);
+  const bound = G.ngGameplanBind(plan, { "A|Top": { count: 4, questions: ["c1", "c2", "c3", "c4"], exact: true, allowed: true, headroom: 0.15 } }, srs);
+  assert.notStrictEqual(bound, plan, "premise: the cards landed and bound");
+  assert.deepEqual([bound.movesToday, bound.overrun, (bound.moves || []).length], [2, 3, (plan.moves || []).length], "the bind keeps the moves' part");
+  // today's order (the game not ready: no position named for any deck) counts them too, and says so
+  const fb = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 4,
+    decks: { "A|Top": { count: 8, questions: ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"], exact: true, allowed: true, headroom: 0.15 } },
+    srs: { "A|Top": { c1: [D - 1, 3, D - 4], c2: [D - 1, 3, D - 4] } },
+    worth: { ...worth, seats: {}, moves: { "1/top": { 8: [D + 1, 1, D, 0], e1: [D + 1, 1, D, 0], 7: [D + 1, 1, D, 1] } } } });
+  assert.deepEqual([fb.order, fb.orderStatus, fb.movesToday, fb.room, fb.overrun], ["oldest", "no-seats", 3, 0, 1], "2 due + 3 moves today, against 4");
+  // and today's order keeps them when a new deck's cards land and bind (the reader's re-check, its B3 and its record): one
+  // card due, a weak-spots deck not loaded, two move answers today against a goal of 4
+  const U2 = ngRatingUniverse({ decks: { "A|Top": { n: 4 }, "B|Top": { n: 4 } }, weights: { "A|Top": 4, "B|Top": 4 }, seats: { "1/top": { w: 4, hand: { 7: 10, 8: 90 } } } });
+  const d0 = { "A|Top": { count: 4, questions: ["c1"], exact: false, allowed: true, headroom: 0.15 }, "B|Top": { count: 4, questions: [], exact: false, allowed: true, headroom: 0.15 } };
+  const s0 = { "A|Top": { c1: [D - 1, 3, D - 4] } };
+  const old = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 4, decks: d0, srs: s0, fallback: { rows: [{ key: "B|Top", reason: "weak" }], assumptions: [] },
+    worth: { game: U2, seats: {}, stage: {}, moves: { "1/top": { e9: [D + 1, 1, D, 0], 7: [D + 1, 1, D, 1] } }, moveSeats: { "1/top": "A|Top" }, movesRev: 1 } });
+  assert.deepEqual([old.order, old.movesToday, old.overrun], ["oldest", 2, 3]);
+  const oldBound = G.ngGameplanBind(old, { ...d0, "B|Top": { count: 4, questions: ["b1", "b2", "b3", "b4"], exact: true, allowed: true, headroom: 0.15 } }, s0);
+  assert.notStrictEqual(oldBound, old, "premise: the weak-spots deck bound");
+  assert.deepEqual([oldBound.movesToday, oldBound.overrun], [2, 3], "the bind keeps today's moves in the overrun");
+  // a move row with no interval is not an answer the writer makes: not counted (the law and the rating read it as a bad row);
+  // and a seat map that is not an object asks for no moves, as the builder reads it
+  const odd = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 3, decks: d0, srs: s0, worth: { game: U2, seats: {}, stage: {}, moves: { "1/top": { 7: [D, 0, D, 1] } }, moveSeats: { "1/top": "A|Top" } } });
+  assert.equal(odd.movesToday, 0);
+  const notMap = G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 3, decks: d0, srs: s0, worth: { game: U2, seats: {}, stage: {}, moves: { "1/top": { 7: [D + 1, 1, D, 1] } }, moveSeats: true } });
+  assert.ok(!("movesToday" in notMap), "no moves asked");
+});
+
+test("S0: the order is built again for a new moves record or a new seat map, whatever the revision", () => {
+  // the independent read of S0 (finding 3 C/D): a pull REPLACES `this.moves` without bumping `_movesRev`, so the record's
+  // identity is a key of its own; and the seat map is one (S1's map is built per game)
+  const U = mGame(), decks = mDecks(), srs = { "A|Top": { c1: [D + 1, 1, D] } }, stage = {};
+  const build = (moves, moveSeats) => G.ngGameplanBuild({ day: D, ruleset: "gi", revision: 1, stamp: "s", target: 1, decks, srs,
+    worth: { game: U, seats: M_SEATS, stage, moves, moveSeats, movesRev: 1 } });
+  const first = { "1/top": {} };
+  assert.deepEqual(build(first, M_MOVESEATS).moves.map((m) => m.id), ["m:1/top:8"]);
+  const pulled = { "1/top": { 8: ngKnowledgeScheduleRow(null, true, D, 4) } };
+  assert.deepEqual(build(pulled, M_MOVESEATS).moves.map((m) => m.id), ["m:1/bottom:7"], "a pulled record, the same revision: built again");
+  assert.deepEqual(build(pulled, { "1/top": "A|Top" }).moves.map((m) => m.id), ["m:1/top:7"], "a new seat map: built again (A|Bottom no longer named)");
+});
+
+// Built from the record, the order asks what the simulation asks: the frozen days of Part 2, turned into the app's own shapes
+// (one deck per card, weight w and one card, so its unit is exactly w; one game seat per position, each move priced at
+// exactly w). The simulation's "seen" (a move met in a roll and never scheduled) has no row in the app, whose moves record
+// is written only by an answer: it is handed in as a stored value that is not a row, which the law counts as a bad row
+// and the rating as `badRow` (never new, never owed), the law's own replay (Part 2) hands it in the same way.
+test("S0: built from the record, the order asks what the simulation asks, moves and cards (the frozen days)", () => {
+  const P = JSON.parse(readFileSync(resolve(HERE, "artifacts/practice_queue_parity.json"), "utf8"));
+  const pad = (i) => String(i).padStart(3, "0"), seatOf = [...new Set(P.world.map((x) => x[1]))], st = (seat) => seatOf.indexOf(seat) + "/top";
+  const deckUnit = new Map(), hands = new Map(), seats = {}, decks = {}, moveSeats = {};
+  P.world.forEach(([kind, seat, w], i) => {
+    if (kind === "card") { deckUnit.set("d" + pad(i), w); seats["d" + pad(i)] = seat; decks["d" + pad(i)] = { count: 1, questions: ["q" + pad(i)], exact: true, allowed: true }; }
+    else { moveSeats[st(seat)] = seat; (hands.get(st(seat)) || hands.set(st(seat), new Map()).get(st(seat))).set(pad(i), w); }
+  });
+  const game = { status: "ok", deckUnit, seats: hands, shared: new Map() };
+  const ix = (id) => +(id.startsWith("m:") ? id.slice(id.lastIndexOf(":") + 1) : id.slice(1));
+  let days = 0, asks = 0, moves = 0, seen = 0, cardsOnly = 0;
+  for (const rec of P.records) {
+    const srs = {}, stage = {}, record = {};
+    for (const s of rec.state) {
+      const [kind, seat] = P.world[s[0]], i = pad(s[0]);
+      if (kind === "card") { srs["d" + i] = { ["q" + i]: [s[1], s[2], s[3]] }; stage["d" + i] = { ["q" + i]: s[4] }; }
+      else { (record[st(seat)] ??= {})[i] = s[1] === "seen" ? "seen" : [s[1], s[2], s[3], s[4]]; if (s[1] === "seen") seen++; }
+    }
+    const o = ngPracticeOrder({ day: rec.day, goal: rec.goal, srs, stage, decks, game, seats, ...(rec.cardsOnly ? {} : { moves: record, moveSeats }) });
+    const at = `seed ${rec.seed}, day ${rec.day}`;
+    assert.equal(o.status, "ok", at);
+    assert.deepEqual(o.law.asked.map(ix), rec.asked, at + ": the same things in the same order");
+    assert.deepEqual(o.law.visits.map((v) => [v.seat, v.ids.map(ix)]), rec.visits, at + ": the same visits");
+    assert.deepEqual(o.law.guard.map(ix), rec.guard, at + ": the same three due longest");
+    assert.equal(o.law.fresh, rec.fresh, at + ": the same new things");
+    if (!rec.cardsOnly) assert.equal(o.counts.askedMoves, rec.asked.filter((i) => P.world[i][0] === "move").length, at + ": its moves listed");
+    days++; asks += o.law.asked.length; moves += o.law.asked.filter((id) => id.startsWith("m:")).length; if (rec.cardsOnly) cardsOnly++;
+  }
+  // a replay that compared nothing must not pass: days with moves and cards-only days, moves asked, "seen" rows met
+  assert.ok(days >= 40 && asks >= 400 && moves >= 40 && seen >= 100 && cardsOnly >= 10 && cardsOnly < days, JSON.stringify({ days, asks, moves, seen, cardsOnly }));
+});
+
+// THE REAL WIRE (Part 4's): with a position named for every seat of this ruleset's game, every move the game deals is read,
+// priced as the game prices it, and the priced ones add up to the game's own move total. The seat map here is the walk the
+// app's `_practiceSeats` makes (a seat's site ordinal to its node, its family and role), re-derived for the input only: S1
+// adds the app's own map and pins it against this one.
+function moveSeatsByWalk(a, U) {
+  const map = {};
+  for (const st of U.seats.keys()) {
+    const k = st.indexOf("/"), id = a._ordToId.get(+st.slice(0, k)), i = id == null ? null : a._idIndex.get(id), p = i == null ? null : a.nodes[i];
+    if (!p || !a.rsAllowsIdx(i) || p.cal?.stateAlias) continue;
+    map[st] = a.posFamily(p.t) + (st.slice(k + 1) === "top" ? "|Top" : "|Bottom");
+  }
+  return map;
+}
+test("S0: on the real wire, every move this ruleset's game deals is read and priced as the game prices it", () => {
+  const FIX = ratingFixture(DIR);
+  for (const frame of ["gi", "nogi"]) {
+    const a = ratingApp(DIR, frame), U = a._ratingGame(frame), seats = a._practiceSeats(U), moveSeats = moveSeatsByWalk(a, U);
+    const built = ngPracticeItems({ day: RATING_DAY, srs: FIX.blob.srs, stage: FIX.blob.stage, decks: a._gameplanDecks(true), game: U, seats, moves: FIX.blob.moves, moveSeats });
+    assert.equal(built.status, "ok", frame);
+    const mv = built.items.filter((it) => it.kind === "move");
+    assert.ok(mv.length > 1000, `${frame}: ${mv.length} moves`);
+    assert.equal(built.counts.moves, U.counts.dealt, frame + ": every dealt move read");
+    let priced = 0, unseated = 0;
+    for (const [st, hand] of U.seats) for (const v of hand.values()) if (typeof v === "number") { priced++; if (!moveSeats[st]) unseated += v; }
+    assert.equal(mv.length + built.counts.movesUnseated, priced, frame + ": every priced move, asked or counted");
+    assert.equal(built.counts.movesOutside, U.counts.dealt - priced, frame + ": every null cell counted");
+    const sum = mv.reduce((s, it) => s + it.w, 0);
+    assert.ok(U.moveTotal > 0.1 && Math.abs(sum + unseated - U.moveTotal) < 1e-9, `${frame}: ${sum} + ${unseated} of ${U.moveTotal}`);
+    for (const it of mv) assert.strictEqual(it.w, U.seats.get(it.key).get(it.move), `${frame} ${it.id}`);
+    // every seated move sits at a position the cards are asked at, and no seat is unnamed today
+    for (const it of mv) assert.equal(seats[it.seat], it.seat, `${frame} ${it.id}: ${it.seat} is a card position`);
+    assert.equal(built.counts.movesUnseated, 0, frame + ": every seat of the game has a position");
+    // the fixture's five rows: three dealt moves matched; the escape and the move this seat does not deal counted, not asked
+    assert.equal(built.counts.moveRows, 5);
+    assert.equal(built.counts.movesUnmatched, 2, frame);
+    assert.equal(mv.filter((it) => it.row).length, 3, frame);
+  }
 });
