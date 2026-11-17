@@ -19485,15 +19485,19 @@ only). The simulation's "seen" move (met in a roll, never scheduled) has no row 
 stored value that is not a row; on the app's own record such a move is new, so for a player who rolls, the app's order and
 the simulation's can differ on those moves.
 
-**Bytes** (this tree's own build, `npm run dev:neural:app` under the build lock, 06:32 to 06:33 on 16 Nov; then
-`python3 scripts/check_payload_budget.py`): gameplan.js 21,284 -> 22,855 B (+1,571); no other bundle moves for S0
-(practice-queue.src.js and gameplan.src.js are bundled into gameplan.js only). Deferred total 522,888 B, the ceiling moved
-to it in its own commit (dev v1.280.2's own use 521,317; 27,112 B of the owner's 550,000 remain). Eager gzip 369,197 B,
-+2,621 B on the PAY4 baseline, all of it dev's own (#418's journal in neural.js); this PR adds none.
+**Bytes.** First measured on dev v1.280.2 (06:32, under the build lock): gameplan.js 21,284 -> 22,855 B. **Final, on dev
+v1.282.2 merged in** (02:04 on 17 Nov, under the lock): gameplan.js 21,885 -> 23,457 B (+1,572, S0's own; LIN1 had grown
+rating.src.js, which gameplan.js bundles, on both sides); no other bundle moves for S0 (practice-queue.src.js and
+gameplan.src.js are bundled into gameplan.js only). The deferred ceiling is exactly the measured use, 522,323 B (dev's own
+use 520,751; 27,677 B of the owner's 550,000 remain); eager gzip: S0 adds none. **One count went wrong on the way and is
+corrected in the history** (ae773bb31, then 0bdbecb84): the served folder held a stale game worker core left by this
+branch's own v1.280.2 build (the copy step never deletes), and the deferred count takes every game-worker-core-*.js, so
+70,372 B were counted twice (592,695 B). The stale file was removed and the count taken again. The build fingerprint's
+app rows were re-seeded on the final head (5358623c6, `validate:build-shape:app`, under the lock): gameplan.js's row, the
+version and the provenance moved (its message says "none named": its own parser missed the fingerprint's format).
 
-**Runs** (all local, times from `date`, WET): the units of every file S0 touches (practice_queue, practice_page,
-gameplan, gameplan_runtime, rating, moves_record, moves_account_safety: 157 of 157 at the first commit); the mutant runs
-(11, then 18 together, then the re-check's 3); `npm run ci:validate` 05:11 to 05:20 (25 replayed, 25 passed: the three
-action steps are not replayed); the bundle and the payload check under the lock. The full suites run on the PR
-(e2e-full). The build fingerprint's app rows are re-seeded in their own commit (`validate:build-shape:app`, under the
-lock), and again, with the ceiling, after dev is merged in once the schedule seat's LIN1 has landed.
+**Runs** (all local, times from `date`, WET): the units of every file S0 touches after every merge of dev (202 of 202 on
+dev v1.282.0); the mutant runs (11, then 18, then the re-check's 3; all 21 again on the merged head at 23:10 on 16 Nov,
+each red on a named test, the four suites green after); `npm run ci:validate` on 16 Nov 23:16 to 23:25 (25 replayed, 25
+passed) and again on the final head; the bundle, the payload check and the app rows under the lock. The full suites run on
+the PR (e2e-full).
