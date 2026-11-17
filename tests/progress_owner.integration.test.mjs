@@ -472,63 +472,78 @@ test("a full pull of rows dev wrote leaves every srs and moves row as dev's own 
   });
 }));
 
-// ── L1-R2 (v1.290.0, the orchestrator's ruling on the second reader of PR #434): A BUILD NEVER REMOVES FROM A STORED RECORD
-// WHAT IT DOES NOT UNDERSTAND. `explored` is read as its non-empty strings; every other entry (a number, null, an object,
-// the empty string) is written back exactly as it was, in its place, by the save and by every merge. The fake cloud HOLDS
-// a record (a pull returns it, a push replaces it), as the reader's own harness did.
-// MUTANTS (each applied alone, red on the named test; the clean files green before and after):
-//   L1-R2a the writer filtering to strings (`ngProgressExploredOut`)               → "a pull, a new place and a push…"
-//   L1-R2b the merge dropping the other copy's entries it does not read (`ngProgressExploredJoin`) → "two devices…"
-//   L1-R2c the empty string counted as a lost place (`ngProgressExploredKeys`)     → "a guest's record…"
-const UNREAD = [42, null, { k: 1 }, 'Mount|Top', ''];
+// ── L1-R3 (v1.290.0, the orchestrator's ruling of 17 Nov 2026, which takes back L1-R2's "write back what is not read"):
+// `explored` HOLDS UNIQUE STRINGS, EACH A PLACE'S KEY, AND NOTHING ELSE, FOR GOOD. A list with a damaged entry is READ
+// (the app boots: L1-R1), and the next save writes the unique strings only; a merge is the union of two copies' strings.
+// Why not keep the rest (measured by the third read of PR #434): every older build's validator refuses a non-string
+// here, so a record saved with one locks those devices out ("pull-failed", nothing pushed), and repeats never settled
+// between two devices. The fake cloud HOLDS a record (a pull returns it, a push replaces it). The older validators are
+// the captured ones (tests/artifacts/progress_validators.json: v1.280.4 and production v1.252.0; dev v1.289.0's line for
+// `explored` is the same text).
+// MUTANTS (each applied alone to progress-owner.src.js, red on the named test; the clean file green before and after):
+//   L1-R3a the reader keeping a non-string as a key (so the save writes it)  → "a pull, a new place and a push…"
+//   L1-R3b the empty string kept as a place                                  → "a guest's damaged record…"
+const OLDER = Object.entries(JSON.parse(read('./artifacts/progress_validators.json')).clients).map(([name, v]) => [name, new Function(v.validator + '\nreturn ngProgressValidateBlob;')()]);
+const DAMAGED = [42, 42, 'Mount|Top', 'Mount|Top', { k: 1 }, ''];
 function cloudOf(h, cloud) {
   h.facade.pullNeural = async id => ({ userId: id, blob: cloud.blob === null ? null : JSON.parse(JSON.stringify(cloud.blob)) });
   h.facade.pushNeural = async value => { cloud.blob = JSON.parse(JSON.stringify(value)); cloud.pushes++; return true; };
   return h;
 }
-test('a pull, a new place and a push: the cloud holds every old explored entry as it was, then the new place (L1-R2)', async () => fakeTimers(async ({ flush }) => {
-  const cloud = { blob: blob({ 'Mount|Top': 3 }, { explored: UNREAD, futureField: { keep: [1, 2] } }), pushes: 0 };
-  const h = cloudOf(harness(), cloud); await h.boot(); const a = h.switchTo('A');
-  assert.equal(await a._pullAndMerge(), true);
-  await flush();
-  assert.deepEqual([...a._exploredKeys], ['Mount|Top'], 'read: the places are the non-empty strings');
-  assert.equal(a._exploredBad, 3, 'counted: the three entries that are not strings; the empty string is not a lost place');
-  assert.deepEqual(h.host.store.read(ownerA).blob.explored, UNREAD, 'the stored copy holds the list as the cloud held it');
-  a._exploredKeys.add('Turtle|Bottom');   // a visit to a new place
-  a._saveProgress(); await flush();
-  assert.ok(cloud.pushes >= 1, 'pushed');
-  assert.deepEqual(cloud.blob.explored, [42, null, { k: 1 }, 'Mount|Top', '', 'Turtle|Bottom'], 'the cloud: all five old entries in their order, then the new string');
-  assert.deepEqual(cloud.blob.futureField, { keep: [1, 2] }, 'and a field this build does not know is still there');
-  // a second pull changes nothing and duplicates nothing
-  const before = JSON.stringify(cloud.blob.explored);
-  assert.equal(await a._pullAndMerge(), true); await flush();
-  a._saveProgress(); await flush();
-  assert.equal(JSON.stringify(cloud.blob.explored), before, 'pulled again: no entry twice, none gone');
-}));
-test('two devices, one account: neither strips what the other (or a later build) stored in explored (L1-R2)', async () => fakeTimers(async ({ flush }) => {
+async function fixedClock(run) { const now = Date.now; Date.now = () => 1795000000000; try { return await run(); } finally { Date.now = now; } }
+test('a pull, a new place and a push: the cloud holds the unique strings only, every other key as the control\'s, and every older validator reads it (L1-R3)', async () => fakeTimers(async ({ flush }) => fixedClock(async () => {
+  assert.equal(OLDER.length, 2, 'premise: the captured older validators are here');
+  for (const [name, validate] of OLDER) assert.throws(() => validate(blob({}, { explored: DAMAGED })), /Invalid explored history/, 'premise: ' + name + ' refuses the damaged list');
+  const visit = async (explored) => {
+    const cloud = { blob: blob({ 'Mount|Top': 3 }, { explored, futureField: { keep: [1, 2] } }), pushes: 0 };
+    const h = cloudOf(harness(), cloud); await h.boot(); const a = h.switchTo('A');
+    assert.equal(await a._pullAndMerge(), true); await flush();
+    const read = { keys: [...a._exploredKeys], bad: a._exploredBad };
+    a._exploredKeys.add('Turtle|Bottom');   // a visit to a new place
+    a._saveProgress(); await flush();
+    return { cloud, read, stored: h.host.store.read(ownerA).blob };
+  };
+  const got = await visit(DAMAGED), control = await visit(['Mount|Top']);
+  // (a pull merges through a staged copy, so what this device holds afterwards is already the strings only: nothing is
+  // left to count; the count is for a list a device LOADED from its own storage: the guest test below)
+  assert.deepEqual(got.read, { keys: ['Mount|Top'], bad: 0 }, 'read: one place, once; the 42s, the object and the empty string are not kept');
+  assert.ok(got.cloud.pushes >= 1, 'pushed');
+  assert.deepEqual(got.cloud.blob.explored, ['Mount|Top', 'Turtle|Bottom'], 'the cloud: the unique strings only, in their order, then the new place');
+  assert.deepEqual(got.stored.explored, ['Mount|Top', 'Turtle|Bottom'], 'and the stored copy');
+  const rest = ({ explored, ...b }) => b;
+  assert.deepEqual(rest(got.cloud.blob), rest(control.cloud.blob), 'every other key is the control\'s (a good list), value for value');
+  for (const [name, validate] of OLDER) assert.doesNotThrow(() => validate(got.cloud.blob), name + ' reads what this build saved');
+  assert.doesNotThrow(() => ngProgressValidateBlob(got.cloud.blob));
+})));
+test('two devices, one holding repeats: both settle on the union of the strings, 0 pushes in 6 idle pulls (L1-R3)', async () => fakeTimers(async ({ flush }) => {
   const cloud = { blob: null, pushes: 0 }, own = ngProgressLocalKey(ownerA);
   const seed = (mem, explored) => mem.rows.set(own, JSON.stringify({ format: 'bjj-progress-owner-v1', owner: ownerA, blob: blob({ x: 1 }, { explored }), savedAt: 0 }));
   const m1 = memory(), m2 = memory();
-  seed(m1, [...UNREAD, 'Turtle|Bottom']); seed(m2, ['Closed Guard|Bottom', 'Back Control|Top']);
+  seed(m1, [42, 42, 'Mount|Top', 'Mount|Top', null, 'Turtle|Bottom']); seed(m2, ['Closed Guard|Bottom', 'Mount|Top']);
   const d1 = cloudOf(harness(m1), cloud), d2 = cloudOf(harness(m2), cloud);
   await d2.boot(); const b = d2.switchTo('A'); assert.equal(await b._pullAndMerge(), true); b._saveProgress(); await flush();
-  assert.deepEqual(cloud.blob.explored, ['Closed Guard|Bottom', 'Back Control|Top'], 'device 2 pushed its own list');
   await d1.boot(); const a = d1.switchTo('A'); assert.equal(await a._pullAndMerge(), true); a._saveProgress(); await flush();
-  const want = [42, null, { k: 1 }, 'Mount|Top', '', 'Turtle|Bottom', 'Closed Guard|Bottom', 'Back Control|Top'];
-  assert.deepEqual(cloud.blob.explored, want, 'device 1: its own entries as they were, then the cloud\'s it did not hold');
+  assert.deepEqual(cloud.blob.explored, ['Mount|Top', 'Turtle|Bottom', 'Closed Guard|Bottom'], 'device 1: its strings once each, then the cloud\'s it did not hold');
   assert.equal(await b._pullAndMerge(), true); b._saveProgress(); await flush();
-  const set = l => l.map(k => JSON.stringify(k)).sort();
-  assert.deepEqual(set(cloud.blob.explored), set(want), 'device 2 again: every entry still in the cloud, none twice');
-  assert.deepEqual(set(d2.host.store.read(ownerA).blob.explored), set(want), 'and in its own stored copy');
-  assert.deepEqual([...b._exploredKeys].sort(), ['Back Control|Top', 'Closed Guard|Bottom', 'Mount|Top', 'Turtle|Bottom'], 'both read the same four places');
-  assert.deepEqual([...a._exploredKeys].sort(), ['Back Control|Top', 'Closed Guard|Bottom', 'Mount|Top', 'Turtle|Bottom']);
+  const want = ['Closed Guard|Bottom', 'Mount|Top', 'Turtle|Bottom'];
+  assert.deepEqual([...cloud.blob.explored].sort(), want);
+  // IDLE: nothing changes on either device, each pulls three times in turn; nobody pushes
+  const settled = cloud.pushes;
+  for (let i = 0; i < 6; i++) { const d = i % 2 ? a : b; assert.equal(await d._pullAndMerge(), true); await flush(); }
+  assert.equal(cloud.pushes - settled, 0, '0 pushes in 6 idle pulls');
+  assert.deepEqual([...a._exploredKeys].sort(), want); assert.deepEqual([...b._exploredKeys].sort(), want);
+  for (const [name, validate] of OLDER) assert.doesNotThrow(() => validate(cloud.blob), name + ' reads the settled record');
 }));
-test("a guest's record: the save writes back what it did not read, and an empty string is kept and is not a lost place (L1-R2)", async () => {
-  const mem = memory(), key = ngProgressLocalKey(guest);
-  mem.rows.set(key, JSON.stringify({ format: 'bjj-progress-owner-v1', owner: guest, blob: blob({}, { explored: ['', 'Mount|Top', 42, 'Mount|Top'] }), savedAt: 0 }));
+test("a guest's damaged record is healed at its first save: the unique strings only, which every older validator reads (L1-R3)", async () => {
+  const mem = memory(), key = ngProgressLocalKey(guest), was = blob({}, { explored: ['', 'Mount|Top', 42, 'Mount|Top'] });
+  mem.rows.set(key, JSON.stringify({ format: 'bjj-progress-owner-v1', owner: guest, blob: was, savedAt: 0 }));
+  for (const [name, validate] of OLDER) assert.throws(() => validate(was), /Invalid explored history/, 'premise: ' + name + ' refuses it as stored');
   const h = harness(mem); await h.boot(); const a = h.get();
+  assert.equal(h.mounted.length, 1, 'the app boots on it (L1-R1)');
   assert.deepEqual([...a._exploredKeys], ['Mount|Top']);
   assert.equal(a._exploredBad, 1, 'the 42 is counted; the empty string was never a place, so it is not');
-  a._exploredKeys.add('Half Guard|Top'); a._saveProgress(); a._flushSave();
-  assert.deepEqual(JSON.parse(mem.rows.get(key)).blob.explored, ['', 'Mount|Top', 42, 'Mount|Top', 'Half Guard|Top'], 'as it was, in its order, then the new place');
+  a._saveProgress(); a._flushSave();
+  const saved = JSON.parse(mem.rows.get(key)).blob;
+  assert.deepEqual(saved.explored, ['Mount|Top'], 'the first save: the place once, nothing else');
+  for (const [name, validate] of OLDER) assert.doesNotThrow(() => validate(saved), name + ' reads the healed record');
 });

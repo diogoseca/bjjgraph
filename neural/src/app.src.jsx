@@ -4594,7 +4594,7 @@ class Component extends DCLogic {
     p = p === null ? { v: 2 } : JSON.parse(JSON.stringify(p));
     this._progressExtras = Object.assign({}, p);
     this._progressAt = p.updatedAt || 0;
-    this.settings = {}; this._settingsAt = {}; this._exploredKeys = new Set(); this._exploredList = [];
+    this.settings = {}; this._settingsAt = {}; this._exploredKeys = new Set();
     this._challengeRuntime = this._challengeRuntime || {};
       this.prep = Object.assign({}, p.prep || {});
       this._days = Object.assign({}, p.days || {});
@@ -4628,10 +4628,10 @@ class Component extends DCLogic {
       // only until now, which is why the "very weak" tier emptied on every reload.
       this.flow = this._trimFlow(Object.assign({}, p.flow || {}));
       this._flowVer = (this._flowVer || 0) + 1;
-      // strings only: a damaged entry stopped the app before it drew (L1-R1); it is counted and never read as a place.
-      // WHAT IS NOT READ IS NOT REMOVED (L1-R2, progress-owner.src.js): the list is kept as it was stored (`_exploredList`)
-      // and the save writes every entry back in its place, then the places reached since (`_progressBlob`)
-      { const ex = ngProgressExploredKeys(p.explored); this._exploredKeys = new Set(ex.keys); this._exploredBad = ex.bad; this._exploredList = Array.isArray(p.explored) ? p.explored : []; }
+      // THE LOAD (L1-R3's invariant, progress-owner.src.js above `ngProgressExploredKeys`): `explored` holds unique strings,
+      // each a place's key, and nothing else, for good. A damaged entry stopped the app before it drew (L1-R1): the places
+      // are the strings, the rest is counted (`_exploredBad`) and is gone at the next save, which writes the strings only
+      { const ex = ngProgressExploredKeys(p.explored); this._exploredKeys = new Set(ex.keys); this._exploredBad = ex.bad; }
       // `activeListId` IS RETIRED — READ BY NOTHING (the default-list retirement, v1.196.1). It
       // was "the list you last created or filed into": the picker's marked "default" row and the
       // silent destination of `addToList(nodeId)` with no list. Nothing files without a pick
@@ -4659,7 +4659,12 @@ class Component extends DCLogic {
     this._progressAt = Date.now();
     // `flow` and `explored` ride the EXISTING v2 blob, the way `lists` and `srs` did — a roll
     // ledger is not worth a schema migration, and `neural` is free-form JSONB on the cloud side.
-    const out = { ...(this._progressExtras || {}), v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), rollDays: this._trimDays(this._rollDays || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, flow: this._trimFlow(this.flow || {}), explored: ngProgressExploredOut(this._exploredList, this._exploredKeys), days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    // THE SAVE WRITES `explored` AS UNIQUE STRINGS ONLY (L1-R3's invariant; the full text is in progress-owner.src.js above
+    // `ngProgressExploredKeys`): each a place's key, and nothing else, for good. A build that needs more stores it under a
+    // new key: every validator shipped before v1.290.0 refuses anything else here, so a non-string kept in this list
+    // locks older devices out of their own record. `_exploredKeys` is a Set of strings by construction (the load, the
+    // merge, a landing), so this line cannot write anything else.
+    const out = { ...(this._progressExtras || {}), v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), rollDays: this._trimDays(this._rollDays || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, flow: this._trimFlow(this.flow || {}), explored: [...(this._exploredKeys || [])], days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
     // `moves` (v1.255.0) is written only once it holds a cell (review R4): an account that never graded a move
     // saves exactly the blob v1.254.0 saves, and an open older tab is never handed a `moves` copy to push back.
     if (Object.values(this.moves || {}).some(row => row && Object.keys(row).length)) out.moves = this.moves; else delete out.moves;
@@ -7133,8 +7138,7 @@ class Component extends DCLogic {
     if (i < 0) i = null;
     if (chose) s.moved = true;
     const k = s.keys[i != null ? i : at[0]];
-    this._masterUnanswered(s, k);
-    this._sessionOpeners[s.keys.indexOf(k)]?.();
+    this._sessionOpeners[s.keys.indexOf(k)]?.();   // (its first card not yet answered: the opener's own rule, L1-R3)
     this._masterShow(s);
   }
   /**
@@ -7164,15 +7168,20 @@ class Component extends DCLogic {
     return true;
   }
   // a deck never opens on an answered card while it holds an unanswered one (L1-R2): its remembered card, if answered today,
-  // gives way to its first card not answered today; a card left unanswered (revealed or not) is kept as the player left it
+  // gives way to its first card not answered today; a card left unanswered (revealed or not) is kept as the player left it.
+  // Called by the row's own opener and nowhere else (L1-R3); true when it moved the deck.
   _masterUnanswered(s, k) {
     const cards = this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[k]);
-    if (!cards) return;
+    if (!cards) return false;
     const row = (s.plan ? s.plan.due.concat(s.plan.fresh) : s.review ? s.review.rows : []).find((r) => r.key === k);
     const only = row ? cards.filter((c) => row.questions.includes(this.qhash(c.q))) : cards, day = this._epochDay(), rows = (this.srs && this.srs[k]) || {};
     const done = (c) => { const r = c && rows[this.qhash(c.q)]; return !!(r && r[2] === day); };
     const st = this._deckState && this._deckState[k], at = only.findIndex((c) => !done(c));
-    if (at >= 0 && done(only[st ? Math.max(0, Math.min(only.length - 1, st.idx)) : 0])) (this._deckState = this._deckState || {})[k] = { idx: at, revealed: false };
+    // (the remembered index as the card reads it: past the end is its first card, below zero its last, `_miniDeck`)
+    const now = !st ? 0 : st.idx >= only.length ? 0 : st.idx < 0 ? Math.max(0, only.length - 1) : st.idx;
+    if (at < 0 || !done(only[now])) return false;
+    (this._deckState = this._deckState || {})[k] = { idx: at, revealed: false };
+    return true;
   }
   // A PLACE OUTSIDE TODAY'S PLAN THAT OWES CARDS ASKS THEM AS DUE CARDS (L1-R1, the reader's finding 1): its owed cards,
   // by deck, as the plan counts them (`s.owedAt`, master-list.src.js), graded and counted like any other, under no "free
@@ -7182,7 +7191,7 @@ class Component extends DCLogic {
     if (this._masterOwed(s, key)) {
       const i = s.keys.findIndex((k) => this._masterSeatOf(s, k) === key && !this._sessionRowDone(s, k));
       s.moved = true;
-      if (i >= 0) { this._masterUnanswered(s, s.keys[i]); this._sessionOpeners[i]?.(); this._masterShow(s); return; }
+      if (i >= 0) { this._sessionOpeners[i]?.(); this._masterShow(s); return; }
     }
     const d = this._gameplanDecks()[key];
     if (this._gameplanRuntime && d && d.allowed && d.count) {
@@ -7451,6 +7460,7 @@ class Component extends DCLogic {
           if (detail.style.display === "none") return;
           if (!this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key])) return;
           if (s.plan || s.review) this._gameplanProgress(s);
+          if (s.practice) this._masterUnanswered(s, key);   // its cards have landed: the same rule, now that they can be read (L1-R3)
           build();
           this._scrollFocusedDeck();   // the real deck is taller than its placeholder; keep it in view
         });
@@ -7459,6 +7469,14 @@ class Component extends DCLogic {
     const open = () => {
       this._czClose(s);   // a card opening takes the cloze's place in the ask (L2)
       if (this._openMini && this._openMini.rid !== rid) this._openMini.close();  // accordion: one at a time
+      // EVERY DOOR INTO A PLACE OPENS ON A CARD THAT IS NOT YET ANSWERED (L1-R3, the third read of PR #434, 2 of 2: "Keep
+      // practising" dealt a place that owed three and opened it on the card just answered, Reveal offered). The rule was
+      // kept by two callers (`_masterGo`, `_masterFree`, L1-R2) and missed by the others; it is HERE now, in the one opener
+      // every door of a Master the game session passes through (twelve call sites: the button, a row, `openMasterAt`,
+      // "Keep practising", "More new cards", a lesson, the queue's jump buttons, ↑ ↓, ‹ › crossing into another deck, the
+      // walk after a deck's last answer, a session drawn again), so a later door cannot miss it. A deck drawn already is
+      // drawn again when the rule moved it.
+      if (s.practice && this._masterUnanswered(s, key)) built = false;
       if (!built || s.plan) { built = true; build(); }
       detail.style.display = "block";
       box.hidden = false;
@@ -7958,12 +7976,10 @@ class Component extends DCLogic {
           this._flowVer = (this._flowVer || 0) + 1;
         }
         // explored states: a UNION, like every other durable-proof field
-        // (L1-R2: the other copy's entries this build does not read are kept too, as they were: `ngProgressExploredJoin`)
-        if (Array.isArray(cloud.explored)) {
-          this._exploredList = ngProgressExploredJoin(ngProgressExploredOut(this._exploredList, this._exploredKeys), cloud.explored);
-          const ex = ngProgressExploredKeys(this._exploredList);
-          this._exploredKeys = new Set(ex.keys); this._exploredBad = ex.bad;
-        }
+        // THE MERGE (L1-R3's invariant): the union of the two copies' STRINGS, this copy's first, so two devices settle on
+        // one list; an entry of the other copy that is not a string is counted and never kept (a non-string kept here
+        // locks older devices out of the record: progress-owner.src.js)
+        if (Array.isArray(cloud.explored)) { const e = (this._exploredKeys = this._exploredKeys || new Set()), ex = ngProgressExploredKeys(cloud.explored); for (const k of ex.keys) e.add(k); this._exploredBad = Math.max(this._exploredBad || 0, ex.bad); }
         // srs merge (v1.105.0): per-card, the LATER review wins its schedule — the freshest grade
         // knows the memory best; on one day the smaller cell, then (v1.279.0) the earlier due, so two
         // devices converge; a winning success keeps the longer TRUE interval it beat (`due − last`,

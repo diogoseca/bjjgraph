@@ -19753,4 +19753,15 @@ a pulled list back as strings only. An empty string is kept and is not counted a
 cards has a row, in the record or not (every record from before `explored` was stored): the list's set is the plan, the
 record's places and the places that owe; nothing is stored for it. Also: both gzip baselines checkpointed at dev v1.288.1's
 own level (PAY-L1b), the steps two mutants found unnamed now named, and six text reads of lines inside the folded "Session
-details & queue" made with the fold open. Mutants: units L1-11 and L1-R2a to L1-R2c; app L1-R2d to L1-R2j.
+details & queue" made with the fold open. Mutants: units L1-11 and L1-R2a to L1-R2c; app L1-R2d to L1-R2l.
+
+**L1-R3 (the third read of PR #434, its one fix; and one ruling taken back, 17 Nov).** (1) Every door into a place opens
+on a card not yet answered: "Keep practising" dealt a place that owed three and opened it on the card just answered. The
+rule sat at two callers; it is in the row's own opener now (`_sessionRow`'s `open`, twelve call sites), so no door can
+miss it. (2) **L1-R2's point (2) above is TAKEN BACK:** `explored` holds unique strings, each a place's key, and nothing
+else, for good. Measured by the reader: a record saved with a non-string in that list was refused by every older build's
+validator (6 of 6: "pull-failed", nothing pushed), a guest carried the damage into the account, and two devices holding a
+repeat pushed for ever. So a damaged list is read (the app boots, L1-R1), the next save writes the unique strings only, a
+merge is the union of two copies' strings, and richer data needs a new key. `ngProgressExploredOut` and
+`ngProgressExploredJoin` are gone; the invariant is written at the validator, the reader, the load, the save and the merge.
+Mutants: units L1-R3a and L1-R3b; app L1-R3c (the opener) and L1-R3d (the save).

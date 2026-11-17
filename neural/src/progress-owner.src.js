@@ -85,15 +85,14 @@ export function ngProgressValidateBlob(value) {
       if (!map(row) || Object.values(row).some(v => !Array.isArray(v) || v.length !== 3 || v.some(x => !number(x)))) throw new Error("Invalid flow ledger");
     }
   }
-  // A DAMAGED ENTRY IN `explored` NO LONGER HOLDS THE WHOLE RECORD (L1-R1, the reader of PR #434, its finding 6, measured on
-  // dev v1.287.0 too: an entry of 42, null or {} made the stored envelope "invalid", so the app held before it drew, every
-  // other field with it). The list must still be a list; its entries are read as strings only, wherever they are read
-  // (`ngProgressExploredKeys`: the load, the cloud's union), the rest counted, and `_progressBlob` writes strings only, so
-  // the next save leaves a record every captured validator accepts (production v1.252.0 and v1.280.4 still refuse the
-  // damaged one: an older tab holds on it, as it did before). Pinned by tests/master_list.test.mjs and master-list.spec.ts.
-  // AND WHAT IS NOT READ IS NOT REMOVED (L1-R2): an entry this build does not understand is written back as it was, by the
-  // save and by every merge (`ngProgressExploredOut`, `ngProgressExploredJoin`, below); a later build may store a richer
-  // entry here, and no device on this one strips it.
+  // THE INVARIANT (L1-R3, the orchestrator's ruling, 17 Nov 2026, taking back L1-R2's): `explored` holds unique strings, each a place's key, and nothing else, for good. A build that needs more stores it
+  // under a new key: every validator shipped before v1.290.0 refuses anything else here, so a non-string kept in this list
+  // locks older devices out of their own record.
+  // WHAT THIS LINE ACCEPTS IS WIDER THAN WHAT IS EVER WRITTEN, on purpose (L1-R1, the first reader of PR #434, measured on
+  // dev v1.287.0 too): a damaged entry (42, null, {}) made the stored envelope "invalid" and the app held before it drew,
+  // every other field with it. So a list with such an entry is READ (its strings are the places, the rest counted:
+  // `ngProgressExploredKeys`), and the very next save writes the unique strings only (app.src.jsx, `_progressBlob`), which
+  // every captured validator accepts (tests/progress_owner.integration.test.mjs runs them). The list itself must be a list.
   if ("explored" in value && !Array.isArray(value.explored)) throw new Error("Invalid explored history");
   return value;
 }
@@ -400,37 +399,23 @@ export function ngProgressGuestMoves(account, merged) {
 // it, at level 0) and raised from the Path and the number, both of which count on their own. Dropped here; the test
 // above (20) builds the bare landing through the app's own save, and a unit pins that it holds the value.
 export const NG_PROGRESS_TRAIL_CHALLENGES = Object.freeze(["white.coach1", "white.coach2", "white.coach3"]);
-// `explored` as the record holds it: the seats you landed on, by their deck key (a string). A damaged entry (42, null, an
-// object) stopped the app before it drew (the reader of PR #434, its finding 6, on dev v1.287.0 too): the loader takes
-// strings only, and counts the rest (`bad`), which Master the game says with the places that no longer resolve (L1-R1)
-//
-// A BUILD NEVER REMOVES FROM A STORED RECORD WHAT IT DOES NOT UNDERSTAND (L1-R2, the orchestrator's ruling on the second
-// reader's "cloud rewrite": this build pulled a cloud list holding non-strings and pushed it back as strings only; nothing
-// a player owns is in a 42 today, but the day a later build stores a richer entry here, every device still on this build
-// would strip it). So an entry is READ as a place only when it is a non-empty string, and every other entry (a number,
-// null, an object, a list, the empty string) is KEPT and WRITTEN BACK exactly as it was, in its place in the list:
-//   · `ngProgressExploredKeys`: the places (`keys`), and how many entries are not strings (`bad`: the list says them with
-//     the places that no longer resolve; an empty string is kept and is NOT counted, it was never a place);
-//   · `ngProgressExploredOut`: what a SAVE writes: the list as it was held, every entry in its order, then the places
-//     reached since (strings, appended);
-//   · `ngProgressExploredJoin`: what a MERGE keeps (the cloud's at a pull, a guest's at the join, another tab's): this
-//     copy's list, then the other copy's entries it does not hold (a string by its value, anything else by its JSON).
-// On a guest record and on a signed-in one. Pinned by tests/progress_owner.integration.test.mjs, with a cloud that holds one.
+// `explored` as the record holds it: the seats you landed on, by their deck key.
+// THE INVARIANT (L1-R3): `explored` holds unique strings, each a place's key, and nothing else, for good. A build that needs more stores it
+// under a new key: every validator shipped before v1.290.0 refuses anything else here, so a non-string kept in this list
+// locks older devices out of their own record.
+// So a copy is READ here and nowhere else: its places are its non-empty strings, each once, in their order (`keys`); an
+// entry that is not a string is counted (`bad`: Master the game says them with the places that no longer resolve) and an
+// empty string is dropped without a count (it was never a place). The save writes `keys` (app.src.jsx, `_progressBlob`),
+// a merge is the union of two copies' keys (`_mergeProgressFields`), so two devices settle on one list.
+// HISTORY, so nobody tries it again: L1-R2 kept and wrote back the entries it did not read ("a build never removes what it
+// does not understand"). Measured by the third read of PR #434: every record saved that way was refused by every older
+// build's validator (6 of 6: "pull-failed", and that device could push nothing), a guest carried the damage into the
+// account at the join, and two devices holding a repeated entry pushed for ever (8 pushes in 8 idle pulls).
 export function ngProgressExploredKeys(list) {
-  const keys = [];
+  const keys = new Set();
   let bad = 0;
-  for (const k of Array.isArray(list) ? list : []) { if (typeof k !== "string") bad++; else if (k) keys.push(k); }
-  return { keys, bad };
-}
-export function ngProgressExploredOut(list, keys) {
-  const out = Array.isArray(list) ? list.slice() : [], have = new Set(out.filter(k => typeof k === "string"));
-  for (const k of keys || []) if (typeof k === "string" && !have.has(k)) { have.add(k); out.push(k); }
-  return out;
-}
-export function ngProgressExploredJoin(mine, theirs) {
-  const out = Array.isArray(mine) ? mine.slice() : [], id = k => (typeof k === "string" ? "s" + k : "j" + JSON.stringify(k)), have = new Set(out.map(id));
-  for (const k of Array.isArray(theirs) ? theirs : []) if (!have.has(id(k))) { have.add(id(k)); out.push(k); }
-  return out;
+  for (const k of Array.isArray(list) ? list : []) { if (typeof k !== "string") bad++; else if (k) keys.add(k); }
+  return { keys: [...keys], bad };
 }
 export function ngProgressPracticeKey(blob) {
   const b = ngProgressGuestPart(blob);
