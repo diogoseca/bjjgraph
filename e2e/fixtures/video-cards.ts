@@ -53,7 +53,9 @@ export function installPlayerStub(crossOrigin = false) {
   w.__players = []
   w.YT = { PlayerState: { ENDED: 0 }, Player: function (host: HTMLElement, opts: any) {
     const frame = document.createElement("iframe"); frame.dataset.testPlayer = ""
-    const record = { vars: opts.playerVars, id: opts.videoId, play: 0, pause: 0, destroy: 0, events: opts.events }
+    // VID1: `state` is the player's own (getPlayerState: 1 playing, 2 paused), `mute` counts mute() calls.
+    const record = { vars: opts.playerVars, id: opts.videoId, play: 0, pause: 0, destroy: 0, mute: 0, state: -1, events: opts.events }
+    let muted = false
     w.__players.push(record)
     const onMessage = (event: MessageEvent) => {
       if (event.source === frame.contentWindow && event.origin === (crossOrigin ? "https://www.youtube-nocookie.com" : "null") && event.data === "fixture-play") this.playVideo()
@@ -72,8 +74,15 @@ export function installPlayerStub(crossOrigin = false) {
     // must not run the harness's storage seed on the parent origin.
     host.replaceWith(frame)
     this.getIframe = () => frame
-    this.playVideo = () => { record.play++; opts.events.onStateChange?.({ target: this, data: 1 }) }
-    this.pauseVideo = () => { record.pause++ }
+    this.playVideo = () => {
+      // VID1: a browser that refuses a played-by-script start with sound (iPhone Safari) answers through the
+      // player's OWN report, as YouTube's API does (onAutoplayBlocked). Off unless a spec sets __refuseSound.
+      if (w.__refuseSound && !muted) { setTimeout(() => opts.events.onAutoplayBlocked?.({ target: this }), 0); return }
+      record.play++; record.state = 1; opts.events.onStateChange?.({ target: this, data: 1 })
+    }
+    this.pauseVideo = () => { record.pause++; record.state = 2 }
+    this.mute = () => { record.mute++; muted = true }
+    this.getPlayerState = () => record.state
     this.destroy = () => { record.destroy++; window.removeEventListener("message", onMessage); frame.remove() }
     setTimeout(() => opts.events.onReady({ target: this }), 0)
   } }
@@ -81,11 +90,11 @@ export function installPlayerStub(crossOrigin = false) {
 
 /** Give an existing persona/hand an approved exact-role test clip, then use its real Watch action. */
 export async function openChoiceVideo(page: Page, technique: string, id = "aaaaaaaaaaa") {
-  if (await page.locator("[data-choice-viewer]").count()) {
+  if (await page.locator(".ng-video-theater").count()) {
     // Playback focuses the provider iframe, whose keys do not bubble to the
-    // app. The visible Close button remains a real, reachable parent control.
-    await journey(page).clickByMouse("[data-watch-close]", "Close the playing video")
-    await expect(page.locator("[data-choice-viewer]")).toHaveCount(0)
+    // app. The theater's one ✕ remains a real, reachable parent control (VID1).
+    await journey(page).clickByMouse(".ng-video-theater .ngClipX", "Close the playing video")
+    await expect(page.locator(".ng-video-theater")).toHaveCount(0)
   }
   if (!await page.evaluate(() => !!(window as any).__players)) await page.evaluate(installPlayerStub)
   await expect.poll(() => page.evaluate(() => !((window as any).__neural._choiceMediaActive > 0))).toBe(true)
@@ -112,13 +121,18 @@ export async function openChoiceVideo(page: Page, technique: string, id = "aaaaa
   await expect(watch).toBeVisible()
   await watch.scrollIntoViewIfNeeded()
   await journey(page).clickByMouse(`[data-tech="${technique}"] [data-choice-watch]`, "Watch " + technique)
-  await expect(page.locator("[data-choice-viewer] [data-test-player]")).toHaveCount(1)
+  // VID1: the play circle opens the current node's theater (WAS, to v1.280.0: the move's own modal, [data-choice-viewer]).
+  await expect(page.locator(".ng-video-theater [data-test-player]")).toHaveCount(1)
+  // The theater zooms in over 360ms. A press measured mid-zoom lands where the ✕ no longer is (on the video, which takes
+  // it), so callers that close it next would leave it open: every press below is sampled at rest (video-theater.spec).
+  await page.locator(".ng-video-theater").evaluate(async d => { await Promise.all(d.getAnimations().map(a => a.finished)) })
 }
 
-/** A real click in the hermetic player, so opening a viewer alone can never earn a film bonus. */
+/** A real click in the hermetic player. VID1: the press that opened the theater already asked it to play (and the
+ *  provider's "playing" report earns the once-per-technique film look); this press is the player's own Play again. */
 export async function playChoiceVideo(page: Page) {
   const before = await page.evaluate(() => (window as any).__players.at(-1).play)
-  const play = page.frameLocator("[data-choice-viewer] [data-test-player]").locator("button")
+  const play = page.frameLocator(".ng-video-theater [data-test-player]").locator("button")
   await expect(play).toBeVisible()
   const box = await play.boundingBox()
   expect(box).not.toBeNull()

@@ -17,6 +17,10 @@ import { bootVideoCards as boot, CARD } from "../fixtures/video-cards"
  *  play-and-close equals the offset a FRESH card gives (1.63px right, its own optical offset, 0 vertical).
  *  Presses are the player's own: `j.clickByMouse` and a touch tap at a measured, reachable centre.
  *
+ *  VID1 (v1.283.0): a move's play circle opens the same theater, so the move viewer's own poster (and the inner ✕ that
+ *  closed only its player) is gone. Its two tests now hold the move card's own play circle: after the move's video closes
+ *  it is exactly where it was, its ▶ centred as on a fresh card, by mouse and by touch.
+ *
  *  Mutants, each against a green baseline of this file (v1.256.4, docs/Changelog-Archive.md):
  *   - collapseClip writes `glyph.style.display = ""` again → every "triangle" assertion here is red (dy −6.5).
  *   - `.ng-current-title` loses `margin:0` → "the title band starts at the video's top edge" is red (32px).
@@ -26,7 +30,7 @@ import { bootVideoCards as boot, CARD } from "../fixtures/video-cards"
 
 const FILM = "[data-land-film]:not([data-reference-film])"
 const THEATER = ".ng-video-theater"
-const VIEWER = "[data-choice-viewer]"
+const WATCH = `${CARD} [data-choice-watch]`
 
 /** The band, the row and each clip's own shade, measured on the film. */
 const overlay = (page: Page) => page.evaluate((sel) => {
@@ -116,19 +120,29 @@ for (const [width, height, clips] of [[390, 844, 2], [574, 760, 2], [1440, 900, 
   })
 }
 
-test("FILMFIX a choice card's viewer: the triangle stays centred after its player is closed, by mouse (1440x900)", async ({ page }) => {
+/** The move card's play circle and its ▶, measured at rest. */
+const circle = (page: Page) => page.evaluate((sel) => {
+  const w = document.querySelector(sel)!, g = w.firstElementChild!, c = w.getBoundingClientRect(), t = g.getBoundingClientRect()
+  return { x: c.x, y: c.y, w: c.width, h: c.height, dx: t.left + t.width / 2 - (c.left + c.width / 2), dy: t.top + t.height / 2 - (c.top + c.height / 2) }
+}, WATCH)
+
+// VID1: WAS "a choice card's viewer: the triangle stays centred after its player is closed" (the modal's own poster, back
+// after its inner ✕ closed only the player). On the VID1 build that test failed at the viewer's iframe (no
+// `[data-choice-viewer]`): the move plays in the theater, which closes whole. The claim kept is the owner's v1.256.4 one,
+// on the control he presses: nothing is out of place after play-and-close.
+test("FILMFIX a move's play circle stays where it was after its video closes, by mouse (1440x900)", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = await boot(page)
-  await filmInView(page)
-  const fresh = await triangle(page, FILM + ' .ng-clip[data-i="0"]') // the same compact poster the viewer is built from
-  await page.locator(`${CARD} [data-choice-watch]`).scrollIntoViewIfNeeded()
+  await page.locator(WATCH).scrollIntoViewIfNeeded()
   await j.readerLayoutSettled()
-  await j.clickByMouse(`${CARD} [data-choice-watch]`, "Watch the move")
-  await expect(page.locator(VIEWER + " iframe")).toHaveCount(1)
-  await j.clickByMouse(VIEWER + " .ngClipX", "Close the video inside the viewer")
-  await expect(page.locator(VIEWER + " [data-film-play]")).toBeVisible()
   await page.mouse.move(1, 1)
-  expectCentred(await triangle(page, VIEWER), fresh, "the choice viewer after play-and-close by mouse")
+  const fresh = await circle(page)
+  await j.clickByMouse(WATCH, "Watch the move")
+  await settleTheater(page)
+  await j.clickByMouse(THEATER + " .ngClipX", "Close the video")
+  await expect(page.locator(THEATER)).toHaveCount(0)
+  await page.mouse.move(1, 1)
+  expect(await circle(page), "the move's play circle after play-and-close by mouse").toEqual(fresh)
 })
 
 test.describe("touch", () => {
@@ -147,16 +161,15 @@ test.describe("touch", () => {
     expectCentred(await triangle(page, FILM + ' .ng-clip[data-i="0"]'), fresh, "the film after play-and-close by touch")
   })
 
-  test("FILMFIX a choice card's viewer: the triangle stays centred after its player is closed, by touch (390x844)", async ({ page }) => {
+  test("FILMFIX a move's play circle stays where it was after its video closes, by touch (390x844)", async ({ page }) => {
     const j = await boot(page)
-    await filmInView(page)
-    const fresh = await triangle(page, FILM + ' .ng-clip[data-i="0"]')
-    await page.locator(`${CARD} [data-choice-watch]`).scrollIntoViewIfNeeded()
+    await page.locator(WATCH).scrollIntoViewIfNeeded()
     await j.readerLayoutSettled()
-    await tap(page, `${CARD} [data-choice-watch]`, "Watch the move")
-    await expect(page.locator(VIEWER + " iframe")).toHaveCount(1)
-    await tap(page, VIEWER + " .ngClipX", "the video's close inside the viewer")
-    await expect(page.locator(VIEWER + " [data-film-play]")).toBeVisible()
-    expectCentred(await triangle(page, VIEWER), fresh, "the choice viewer after play-and-close by touch")
+    const fresh = await circle(page)
+    await tap(page, WATCH, "Watch the move")
+    await settleTheater(page)
+    await tap(page, THEATER + " .ngClipX", "the video's close")
+    await expect(page.locator(THEATER)).toHaveCount(0)
+    expect(await circle(page), "the move's play circle after play-and-close by touch").toEqual(fresh)
   })
 })

@@ -183,9 +183,9 @@ export async function installReader(app) {
   for (const name of ["expandClip", "collapseClip"]) {
     const original = app[name];
     app[name] = function (...args) {
-      // D-353: a play is the player's own input and settles a pinned landing, as grading does. A
-      // current technique's player now opens in the theater and only a reference clip opens in place,
-      // but the landing still settles. No sync here: moving a film that just started could pause it.
+      // D-353: a play is the player's own input and settles a pinned landing, as grading does. Every
+      // clip opens in the theater since VID1 (until v1.280.0 a reference clip opened in place), and the
+      // landing still settles. No sync here: moving a film that just started could pause it.
       if (name === "expandClip") this._readerPin = null;
       const result = original.apply(this, args); reader.layout(); return result;
     };
@@ -1020,13 +1020,13 @@ class Reader {
   ownsMedia(host = this.app._landFilmEl) { return !!host && host.parentElement === this.mediaSlot; }
   placesMedia(host = this.app._landFilmEl) { return !!host && (host.parentElement === this.mediaSlot || host.parentElement === this.mediaHome); }
   // A suspended player needs an explicit way to resume. Keep this presentation deferred; pauseLandFilm
-  // remains the owner's API. v1.230.0 (feat/video-cards): the player opens on its own controls and never
-  // autoplays, so the fresh player a fallback move rebinds starts only on this Resume (expandClip's flag).
+  // remains the owner's API. A stale player (a fallback move discarded its handle) is reopened by this press like any
+  // other: since VID1 every open is the theater and plays at once (was v1.230.0's expandClip `resume` flag).
   resumeFilm(card) {
     if (card.querySelector("[data-film-resume]")) return;
     const a = this.app;
     const play = button("Play", () => {
-      if (card._mediaStale) { const clip = card._mediaClip; a.collapseClip(card); a.expandClip(card, clip, true); }
+      if (card._mediaStale) { const clip = card._mediaClip; a.collapseClip(card); a.expandClip(card, clip); }
       else { card._mediaPaused = false; try { card._player?.playVideo(); } catch (error) {} play.remove(); }
     }, { class: "ng-film-resume", "data-film-resume": "", "aria-label": "Resume video" });
     card.append(play);

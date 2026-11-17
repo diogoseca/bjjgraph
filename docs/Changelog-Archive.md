@@ -19400,3 +19400,87 @@ the backfill.
   from its own render, then the backfilled question. Green 5 of 5; red 5 of 5 with the guard removed (dev's app).
 - The five readers, whole: 21 and 2 passed.
 - With the manifest held, life 2 of the soft navigation records one skip, then the question.
+
+## v1.283.0 — Every video a press opens plays in the current node's theater: a move's, a Principle's in the drawer, a reference page's in the reader (VID1, 2026-11-16)
+
+The owner, 15 November, from his pictures 10 (a move's video) and 11 (the current node's): "when i click to see a
+video, it should show that video in a tidier format rather than this huge space above and below the title of the
+technique ... it should start automatically, not wait for me to press play a second time. and pressing esc should close
+the video, same as clicking X button (there are 2 X buttons btw, i like the inner X best, but it's broken. i'd rather
+show the video only on top of everything, and dim the rest, and start it immediately, and have a discrete x on the
+corner, and people can either click the suroundings or the x or press exc to close it ... use the same mechanism the
+video card for the current node uses, it's perfect". Brief VID1, Part A accepted and ruled as VID1-GO (16 Nov).
+
+**Part A (dev 87d1e17ee, a real click at 1440x900 and a real tap at 390x631).** Six ways a video opened: the current
+node's card (the theater, VIDEO1), a move's play circle (a 620px modal), a reader page's and a drawer Principle's clip
+(played inside their card), the article's embeds (a link out) and a Systems trailer (mounted muted). The modal's band:
+Quartz's `header { margin: 2rem 0 }` on its title row. Its inner ✕ closed the player, not the modal. The second press:
+`autoplay: theater ? 1 : 0`.
+
+**Built.** `expandClip` always opens `_openFilmTheater` and asks the player to play (`autoplay: 1`, `playVideo()` on
+ready). A move's play circle hands it the move's media region (where the zoom starts), the circle (focus comes back to
+it), the poster and the name ("Watch <move>"); the modal, its title row, its CSS and `_choiceWatch` are deleted. The
+in-card player (the drawer's grow-in-place, its press-outside listener and its own Escape branch) is deleted. Every
+theater gives back the pause it found (only the move's modal did; the current card's theater left the game paused). A
+refused start, the player's own `onAutoplayBlocked`, mutes and plays at once, once per open, beat `video_autoplay_muted`
+(the current node's theater showed YouTube's Play there). The Tab wrap moved from the modal to the theater.
+`_clearLandFilm` stops only its own clips: a deck landing behind a move's video re-renders the film, and the old
+`clearClipLoops()` would have closed the move's theater mid-play (the modal survived it with its player destroyed).
+CLAUDE.md §7's stale "previews mount immediately without autoplay" corrected in its own commit.
+
+**What changed for a player besides the ruling.** The +4 film first look is earned on the press that opens a move's
+video (the provider's own "playing" report), as the current node's has been since VIDEO1: before, opening the modal
+earned nothing until a press inside the player. Once per technique, never for a Principle or reference clip, as before.
+
+**Specs.** New: `e2e/journeys/video-viewer.spec.ts`, 29 tests: 4 surfaces (move, current node, reader, drawer) × 3 exits (Esc, ✕, the dim) at
+1440x900 by mouse and 390x631 by touch, each comparing the scene before and after with the player destroyed; the refused
+start, muted at once, for the move and the current node at both sizes; a running game running again after a close. Changed: video-cards, concepts-surface,
+film-overlay-play, reading-media-placement, stakes-impact, guidance-defense, escape-clips, submission-card-odds,
+coldstart-backfill, gen ready-film-not-neglect and three gen specs' selectors, the DSL's watchChoice, the fixture's
+openChoiceVideo, ledger row core-023, and two units of tests/roll_execution.test.mjs (an open theater owns input;
+closing the move's theater gives back only its pause and focus, and nothing for a hand that ended). Every changed or removed assertion carries, beside it, what it claimed and what
+the old one did on this build (the PR lists them in one table). Mutant manifests: video_viewer_mutants.json (new),
+video_cards_mutants.py (autoplay, close_tabstop retargeted), video_theater_mutants.json (autoplay-request-disabled
+retargeted; four rows retired: no press reaches a player inside the reader's host).
+
+**Mutants (video_viewer_mutants.mjs, each at its named test with its named assertion).**
+10 of 10 red, each control green (16 Nov, head ab71d940e): no-autoplay-request and no-play-on-ready (move, Esc),
+esc-ignored (drawer), dim-not-closing (reader), second-x (current node, ✕), dim-removed and not-modal (move, dim),
+old-modal-from-move (move, ✕), muted-start-lost (current node at 390x631: the player stayed unstarted, -1, for 5s, as
+before VID1), pause-not-restored (the running game). video_cards_mutants.py's autoplay, close_tabstop and
+viewer_focus_wrap red with their controls green. The two units: four in-place mutants (activate-ignores-theater,
+quiet-close-restores, close-keeps-pause, player-not-destroyed) red at their messages. neural_app_mutants' watch-backfill-lost
+was keyed on `_choiceWatch`, a field VID1 deleted, so it mutated nothing; on `_filmTheater` it is red at its claim.
+
+**Runs (local, under the build lock; the full suites run on the PR).** Run 7 (16 Nov 18:37, head c845f0379, dev v1.281.2 merged): 24 journey files,
+322 of 322 (the 23 the touched files render and v1.280.3's restart-notice); 11 gen files, 12 of 12. Its two faults were
+the harness's (ab71d940e): video-cards' Watch pressed the ✕ mid-zoom once, and the viewer mutant runner's bare build was
+refused by the MDP pin. Run 8 (19:55, head ab71d940e): video-cards 24 of 24, both mutant sets, the app rows re-checked
+from a clean bundle (no row moved), the payload gate green. `npm run ci:validate` on 1b18e313e: 25 of 25 replayed steps green, units 1,752 of 1,752 (its
+first run, on 721937544, found the two stale units above: my survey had covered e2e/ but not this unit file).
+**VID1-CI.** The PR's first e2e-full shards all failed at collection: the viewer journey read the generated, gitignored
+source/quartz/static/neural/concepts.json at module load (now the served copy first, lazily); `npm run ci:validate` replays ci-validate.yml, not the e2e-full job, whose tree has no generated payload outside source/public.
+
+**VID1-R1 (the independent reader of #427: MERGE AFTER 2 fixes, no break in the app).** Every viewer journey started
+from a running game, so its R2 (every close un-pauses) turned nothing red: the same journey now starts paused (move
+and current node, three exits, both sizes; `close-always-unpauses`), and the unit closes with the closure the real
+`_openChoiceWatch` built. A quick double press put its second press inside the zooming player, whose frame then kept
+Esc: until the 360ms zoom settles a layer over the frame takes every press, the dim closes nothing (at 390x631 the
+current node's frame zooms off the tap's point, and the second tap shut the video it had opened) and the dialog keeps
+focus on the ✕ (`zoom-guard-removed`, `dim-closes-mid-zoom`, `dim-press-takes-focus-mid-zoom`); after a deliberate press
+inside the player Esc stays the provider's (said, not changed: a focus steal is the owner's choice). The test named
+"the dim over a card" pressed the map: the dim over another move's card is now pressed at 390x631 at a measured point
+(its R1, `dim-press-falls-through`). On dev v1.282.0 merged: 24 journey files 339 of 339, 11 gen files 12 of 12, 15
+of 15 viewer mutants and VIDEO1's two retargeted rows red with green controls, five unit mutants, ci:validate 25 of
+25 (units 1,763).
+
+**Bytes.** Against dev v1.281.2's own bundle (f6c2bcd3b, built from its export with its own app.src.jsx pinned):
+eager gzip −648 B (neural.js −550, neural.css −98), eager raw −2,698 B; deferred +3 B gzip, −3 B raw. The payload gate:
+eager gzip 369,629 B, under the 400,000 B action line (over the soft 300,000 B target, as dev is); deferred raw 521,915 of
+522,091 B.
+
+**Not covered.** No real iPhone or Safari ran here: the refused start is the player's own report from a stub pressed by
+real input. What goes with the in-card player: a reference clip no longer plays while the page beside it can still be
+read and scrolled; the theater dims the page until it closes (pictures 03 and 04). `pauseLandFilm`, `resumeFilm` and
+`_landFilmMoved` still exist and serve no state a press can reach (a playing clip is never inside the reader's host);
+`pauseLandFilm` keeps its own direct test. The Forward catalog mock may still draw the old modal (no parity gate).
