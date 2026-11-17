@@ -5,6 +5,8 @@ import { ngGameplanReviewed, ngGameplanDebt } from "./gameplan-debt.src.js";
 import { ngPracticeOrder } from "./practice-queue.src.js";
 // Master the game's list (L1, v1.290.0) rides this deferred bundle: the runtime the page already waits for
 export { ngMasterRows, ngMasterStart, ngMasterWhen, ngMasterPaint } from "./master-list.src.js";
+// the cloze (L2, v1.292.0): a position's moves, asked in the list; the app calls these through the runtime
+export { ngClozeGo, ngClozeStep, ngClozeClose, ngClozeResume, ngClozeLeads, ngClozeBack, ngClozeSay, ngClozeLeadsOf } from "./master-cloze.src.js";
 export const NG_GAMEPLAN_VERSION = 1;
 
 function ngGameplanFreeze(value) {
@@ -299,7 +301,7 @@ function ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, r
     // NG_PRACTICE_NAME, so the words are here; tests/practice_queue.test.mjs pins the two equal
     why: "Master the game asks the cards that are due first, position by position, starting where it is worth most: what comes up most in " +
       "your rolls and what you are closest to forgetting. It asks about six at a position at a time, and a position comes round again " +
-      "while its cards are due. " + (guarded ? "The three cards due longest come every day, so none waits forever. " : "") + "New cards come only when nothing " +
+      "while its cards are due. " + (guarded ? "The three cards due longest come every day, " + (order.moves ? "moves among them, " : "") + "so none waits forever. " : "") + "New cards come only when nothing " +
       "due in this game is left; a card due in a deck this ruleset leaves out waits in \u201cEverything owed, oldest first\u201d. " +
       "Correct answers make your moves more likely to work in the game; that is not a measure of real grappling. A question two decks " +
       "share counts once. \u201cKeep practising\u201d deals the next round; \u201cMore new cards\u201d adds whole new techniques: " +
@@ -423,7 +425,8 @@ export function ngGameplanSummary(plan) {
   }[from === "weak-spots" ? "weak-spots" : from === "mixed" ? plan.status + "+kept" : plan.status];
   // Frozen with the plan, so it speaks of the time BEFORE it opened: the session heading below counts
   // what happens after (a live "you've answered 0 today" read wrong once the session was done).
-  return "Your daily goal is " + cards(plan.target) +
+  // L2 (the guard's two sentences, Part A2 §4, ruled): once the plan asks moves, a move IS one of the cards the goal counts
+  return "Your daily goal is " + cards(plan.target) + (plan.moves ? ", a move from a position counting as one" : "") +
     (plan.reviewed.length ? "; the " + cards(plan.reviewed.length) + " you'd already answered today count toward it." : ".") +
     (plan.overrun ? " Today's session runs " + cards(plan.overrun) + " over the goal." : "") +
     (plan.due.concat(plan.fresh).some((r) => r.pending) ? " Card counts settle as decks load." : "") + " " + source;

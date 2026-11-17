@@ -17,6 +17,7 @@
 
 import { ngGameplanReviewed } from "./gameplan-debt.src.js";
 import { ngPracticeItems } from "./practice-queue.src.js";
+import { ngClozeLeft, ngClozePaint } from "./master-cloze.src.js";
 
 const NG_MASTER_MARKS = 8;   // marks drawn at most; the number says the rest (U199 a: the number, never a total)
 
@@ -53,7 +54,9 @@ export function ngMasterRows({ plan = [], explored = [], resolve, lastDay, gold,
     if (v.seat) inPlan.add(v.seat);
     const o = v.seat && owed ? owed(v.seat) : null;
     const r = row(v.seat, p || null, { visit, due: o != null ? o : v.due || 0, fresh: v.fresh || 0, isNew: !!v.seat && !been.has(v.seat) });
-    r.sub = [r.due ? r.due + " due" : r.fresh ? "new cards" : "done for today", r.when].filter(Boolean).join(" \u00b7 ");
+    // L2: a place's new things can be moves (`newMoves`, the cloze's): said as what they are
+    const fresh = !v.newMoves ? "new cards" : v.newMoves >= r.fresh ? "new moves" : "new moves and cards";
+    r.sub = [r.due ? r.due + " due" : r.fresh ? fresh : "done for today", r.when].filter(Boolean).join(" \u00b7 ");
     rows.push(r);
   }
   const rest = [], owing = [];
@@ -102,10 +105,22 @@ export function ngMasterStart({ done = 0, goal = 20, first = null, newPlayer = f
 function ngMasterPlanOf(app, s) {
   const seen = new Set(ngGameplanReviewed(app.srs, app._epochDay())), out = new Map();
   const rows = s.plan ? s.plan.due.concat(s.plan.fresh) : s.review ? s.review.rows : [];
+  const put = (seat) => out.get(seat) || out.set(seat, { seat, due: 0, fresh: 0, newMoves: 0 }).get(seat);
+  // L2: THE MOVES JOIN THE DAY. A place the plan visits for its moves alone has no deck in the session, and is a row all the
+  // same, where the plan puts it (its visits' own order); what its cloze still has to ask counts with its cards: an owed
+  // move is due, a new one is new
+  if (s.plan && s.plan.order === "worth" && s.plan.moves) {
+    const asked = new Set(s.plan.moves.map((m) => m.seat));
+    for (const v of s.plan.visits) if (v.seat && asked.has(v.seat)) put(v.seat);
+    for (const seat of asked) {
+      const v = put(seat);
+      for (const m of ngClozeLeft(app, s, seat)) { if (m.owed) v.due++; else { v.fresh++; v.newMoves++; } }
+    }
+  }
   for (const k of s.keys) {
     const r = rows.find((x) => x.key === k), seat = app._masterSeatOf(s, k);
     if (seat == null || (r && r.source === "place")) continue;
-    const v = out.get(seat) || out.set(seat, { seat, due: 0, fresh: 0 }).get(seat);
+    const v = put(seat);
     if (!r) continue;
     const owed = r.owed || (s.review || r.kind === "due" ? r.questions : []);
     v.due += owed.filter((q) => !seen.has(q)).length;
@@ -151,12 +166,22 @@ function ngMasterGoldIn(app, k) {
 // Null when the plan's game is not in (no count is known, and none is claimed).
 function ngMasterOwedIn(app, s, game, map) {
   const day = app._epochDay();
-  const built = game && game.status === "ok" ? ngPracticeItems({ day, srs: app.srs, stage: app.stage, decks: app._gameplanDecks(true), game, seats: map, live: app._ratingLiveNow() }) : null;
+  // L2: with the moves, as the plan is handed them (`_asksMoves`: never on "Multiple choice"). `s.owedMoves`: place → its
+  // owed moves, heaviest first (the builder's own order), which a place outside today's plan asks as its cloze
+  const moves = app._asksMoves() ? { moves: app.moves || {}, moveSeats: (app._practiceSeatsAt && app._practiceSeatsAt.mseats) || {} } : {};
+  const built = game && game.status === "ok" ? ngPracticeItems({ day, srs: app.srs, stage: app.stage, decks: app._gameplanDecks(true), game, seats: map, live: app._ratingLiveNow(), ...moves }) : null;
+  s.owedMoves = new Map();
   if (!built || built.status !== "ok") return (s.owedAt = null);
   const at = new Map();
   for (const it of built.items) {
     const r = it.row;
-    if (it.kind !== "card" || !r || !it.seat || !(it.w >= 0) || !(r[0] <= day) || !(r[2] < day)) continue;
+    if (!r || !it.seat || !(it.w >= 0) || !(r[0] <= day) || !(r[2] < day)) continue;
+    if (it.kind === "move") {
+      // the law's own test for an owed move: a whole row with its answer (a shorter one is a bad row, never asked)
+      if (Array.isArray(r) && r.length >= 4 && r[1] > 0) (s.owedMoves.get(it.seat) || s.owedMoves.set(it.seat, []).get(it.seat)).push({ id: it.id, key: it.key, move: it.move, seat: it.seat, owed: true });
+      continue;
+    }
+    if (it.kind !== "card") continue;
     const d = at.get(it.seat) || at.set(it.seat, new Map()).get(it.seat);
     (d.get(it.deck) || d.set(it.deck, []).get(it.deck)).push(it.id);
   }
@@ -166,7 +191,7 @@ function ngMasterViewIn(app, s) {
   if (!app.nodes || !app.nodes.length) return null;
   const game = app._ratingGame(app._giMode === "nogi" ? "nogi" : "gi"), map = game && game.seats ? app._practiceSeats(game) : {}, decksOf = new Map();
   for (const dk in map) if (map[dk] !== dk) (decksOf.get(map[dk]) || decksOf.set(map[dk], []).get(map[dk])).push(dk);
-  const at = ngMasterOwedIn(app, s, game, map), n = (k) => { let c = 0; for (const q of (at.get(k) || new Map()).values()) c += q.length; return c; };
+  const at = ngMasterOwedIn(app, s, game, map), n = (k) => { let c = (s.owedMoves.get(k) || []).length; for (const q of (at.get(k) || new Map()).values()) c += q.length; return c; };
   const v = ngMasterRows({ plan: ngMasterPlanOf(app, s), explored: [...(app._exploredKeys || [])], day: app._epochDay(),
     resolve: (k) => ngMasterResolveIn(app, k), lastDay: (k) => ngMasterSeenIn(app, k, decksOf), gold: (k) => ngMasterGoldIn(app, k), owed: at ? n : null });
   v.unresolved += app._exploredBad || 0;   // damaged entries the loader skipped are counted with the places that no longer resolve (L1-R1)
@@ -224,6 +249,7 @@ export function ngMasterPaint(app, s) {
   if (v && v.unresolved && s.unresolvedBeat !== v.unresolved) { s.unresolvedBeat = v.unresolved; app.fx("master_unresolved", { n: v.unresolved }); }
   // the row the button opens: the plan's first place with something left to ask, never a finished one (L1-R1, the
   // orchestrator's ruling on the reader's finding 3); nothing left before the goal is "Keep practising", the next round
+  ngClozePaint(app, s);
   const first = (s.first = (v && v.rows.find((r) => r.due || r.fresh)) || null), more = !!s.plan && s.plan.order === "worth";
   const w = ngMasterStart({ done: t.done, goal: t.goal, first, newPlayer: !!v && !v.been, ready: !!v && !!s.plan, more });
   return { w, open: !!first || !!w.keep || (!v && s.keys.length > 0) };

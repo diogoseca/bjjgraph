@@ -526,7 +526,16 @@ test("the planner prices with this ruleset's game, and writes nothing", () => {
     // new cards fill the rest (ANKI1; until then "at least 4 new")
     const left = plan.target - plan.reviewed.length;
     assert.ok(plan.dueQuestions.length > 0 && plan.dueQuestions.length < left, `${frame}: ${plan.dueQuestions.length} due of ${left}`);
-    assert.equal(plan.dueQuestions.length + plan.newCards, left, `${frame}: ${plan.dueQuestions.length} due, ${plan.newCards} new`);
+    // L2 (v1.292.0): THE APP HANDS THE PLAN THE MOVES NOW (`_asksMoves`: a player not on "Multiple choice"), so the day is
+    // the due cards, the asked moves and the new cards, less the moves already answered today. Until L2 this line read
+    // "due + new === left": the fixture's owed moves were not asked. The claim is the same, with the moves counted.
+    assert.ok(plan.moves && plan.moves.length > 0, `${frame}: the plan asks moves (${plan.moves && plan.moves.length})`);
+    assert.equal(plan.dueQuestions.length + plan.newCards + plan.moves.length, left - plan.movesToday,
+      `${frame}: ${plan.dueQuestions.length} due, ${plan.newCards} new, ${plan.moves.length} moves, ${plan.movesToday} moves answered today`);
+    // ... and on "Multiple choice" the plan is the cards' alone, as before L2 (the orchestrator's ruling 6)
+    { const get = a.get; a.get = (k, d) => (k === "mcMode" ? "mc" : get(k, d)); const mc = a.planSummary(); a.get = get;   // the fixture's app reads every setting as its default
+      assert.equal(mc.moves, undefined, frame + ": no moves asked on Multiple choice");
+      assert.equal(mc.dueQuestions.length + mc.newCards, left, `${frame}, Multiple choice: ${mc.dueQuestions.length} due, ${mc.newCards} new`); }
     // the heavy seat comes first, its four missed cards are asked, the shared one ONCE though it sits in several decks
     const planned = rows.flatMap((r) => r.questions);
     assert.equal(plan.visits[0].seat, H.dk, frame + ": the position worth most first");

@@ -986,6 +986,23 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       mine.set(key, set);
       return ids;
     },
+    // L2 (v1.292.0): AN UNDO TAKES ITS ANSWERS BACK OUT, by their ids, so no later merge gives an undone answer again
+    // (`ngProgressReplay` would rebuild it on the other copy's row). Only entries still here: a delivered one is gone, the
+    // cloud holds its row, and the app keeps the push waiting while an Undo is offered so that does not happen
+    // (app.src.jsx, `_undoHold`). The entries left are exactly the ones that were there; the id counter `n` only moves
+    // forward (an id is never given twice). Returns how many left.
+    unjournal(inst, ids) {
+      if (!host.current(inst) || !Array.isArray(ids) || !ids.length) return 0;
+      const owner = inst._progressOwner, j = readJournal(owner), gone = new Set(ids);
+      if (!j) return 0;
+      const e = j.e.filter(x => !gone.has(x[0])), n = j.e.length - e.length;
+      if (!n) return 0;
+      j.e = e;
+      if (!writeJournal(owner, j)) return 0;
+      const set = mine.get(ngProgressOwnerId(owner));
+      if (set) for (const id of ids) set.delete(id);
+      return n;
+    },
     // AT A PULL: `next` is the pull's merge of this copy with `cloud`. The journal's cards the cloud holds are rebuilt on
     // the cloud's rows from the entries made on or after its row's last answer; entries the cloud already holds are
     // delivered, and entries older than its last answer superseded (NEXT2-R1): both leave the journal; the rebuilt ones
