@@ -421,9 +421,7 @@ class Reader {
     else { await a._ensureConcepts(); record = a._conceptsById?.[id]; }
     if (!record || serial !== this.renderSerial || a.__ngDestroyed || !this.intent) return;
     this.reference = { record, system };
-    if (system) { a._systemId = id; a._systemRecordStatus = "ready"; }
-    else a._conceptId = id;
-    this.lightReference();
+    a._referenceLanded(system, id);   // the id, the map lit, and an open drawer turned to the entry (EARLY1-R2, app.src.jsx)
   }
   lightReference() {
     if (!this.reference) return;

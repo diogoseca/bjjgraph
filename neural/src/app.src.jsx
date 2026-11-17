@@ -8928,26 +8928,43 @@ class Component extends DCLogic {
     this._renderPaneBody();
     this.lastInteract = this.now;
   }
-  // THE PRESS MADE BEFORE THE DATA LANDED (EARLY1, `openPane`), honoured once `ingest` is done, as if pressed now: on the
-  // page it was made on, and only if the player has not taken it back (a second press on the logo clears it)
   // THE PRESS MADE BEFORE THE DATA, REPLAYED (EARLY1, EARLY1-R1). It runs once, at the end of boot: after the share link
   // and the URL have seeded the page (a reading arrival shuts the drawer: honoured before it, the panel opened and shut
   // in one task on every content page, and the funnel counted a `pane_opened` nobody saw). It replays the very call the
   // press made (the logo's toggle, the search, an open), so it ends where a late press on the same page ends. Not on
-  // another page (path and query: a hash the sign-in library strips is the same page), and not when the page has
-  // opened the panel itself (a hub, a share link on a desktop): the press asked for what is already there.
+  // another page, which is its PATHNAME alone (EARLY1-R2): the sign-in's redirect-back carries `?code=` (PKCE) and the
+  // auth SDK strips it with `replaceState`, maybe before the data lands, and that is the same page; the one query that
+  // picks content, a share link's `?l=`, is never moved between a press and here. And not when the page has opened the
+  // panel itself (a hub, a share link on a desktop): the press asked for what is already there.
   _honourEarlyOpen() {
     const p = this._earlyOpen; if (!p) return;
     this._setEarlyOpen(null);
-    if (p.page !== location.pathname + location.search || this.deckShown) return;
+    if (p.page !== location.pathname || this.deckShown) return;
     if (p.call === "search") this.openSearchPane(p.via);
     else if (p.call === "logo") this.toggleExplorer();
     else this.openPane(p.view);
   }
+  // THE READER'S REFERENCE PAGE HAS ITS RECORD (reader.src.js `highlightReference`, after the concepts or the system record
+  // are fetched): its id is set and the map lit, as before. AND AN OPEN DRAWER ON EXPLORE'S ROOT TURNS TO THE PAGE'S OWN
+  // ENTRY (EARLY1-R2; the reader of #432, its re-read: on a principle, a system and a learning page the early press ended
+  // on the root list where a late press ends on the entry, 6 of 6, the state contradicting itself with the id set under
+  // the list). A drawer opened before the id landed (an early press honoured at the end of boot, or a press in the first
+  // moments after the data: a race dev has too) had built the root list and stayed on it. So when the drawer shows that
+  // list, with no query typed and no entry the player opened, it is drawn again with the id. Here and not in the reader,
+  // whose file is a deferred payload at its ceiling.
+  _referenceLanded(system, id) {
+    const list = this.explorerListRef.current;
+    const onRoot = !!(this.deckShown && this._viewMode === "explore" && !this._paneStudyActive() && !(this._exQ || "").trim() &&
+      list && !list.querySelector("[data-concept-detail], [data-system-detail]"));
+    if (system) { this._systemId = id; this._systemRecordStatus = "ready"; }
+    else this._conceptId = id;
+    this._reader.lightReference();
+    if (onRoot) this.renderExplorer();
+  }
   // the remembered press, and the pressed look of the control that took it (`aria-busy`) until it is honoured or taken
   // back: a press that seems dead invites the second press that takes it back (the reader of #432, its note)
   _setEarlyOpen(p) {
-    this._earlyOpen = p ? { ...p, page: location.pathname + location.search } : null;
+    this._earlyOpen = p ? { ...p, page: location.pathname } : null;
     for (const el of this.wrapRef.current?.querySelectorAll(".ng-logo,.ng-search") || []) {
       if (p && el.classList.contains(p.call === "search" ? "ng-search" : "ng-logo")) el.setAttribute("aria-busy", "true");
       else el.removeAttribute("aria-busy");

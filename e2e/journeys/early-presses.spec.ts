@@ -58,9 +58,14 @@ async function bootHeld(page: Page, path = "/") {
 }
 const landed = (page: Page) => expect.poll(() => page.evaluate(() => Array.isArray((window as W).__neural?.nodes) && (window as W).__neural.nodes.length > 0),
   { message: "the map's data lands", timeout: 30_000 }).toBe(true)
-// the page has settled: a reading arrival imports the reader, so wait until it is in (or was never asked for)
-const settled = (page: Page) => expect.poll(() => page.evaluate(() => { const a = (window as W).__neural; return !a._readerRequest || !!a._reader || !!a._readerFailed }),
-  { message: "the page has settled (the reader, if asked for, is in)", timeout: 20_000 }).toBe(true)
+// the page has settled: a reading arrival imports the reader, so wait until it is in (or was never asked for); on a
+// reference page (a principle, a learning page, a system) also until its record has landed (`_reader.reference`, EARLY1-R2)
+const settled = (page: Page) => expect.poll(() => page.evaluate(() => {
+  const a = (window as W).__neural
+  if (a._readerFailed || !a._readerRequest) return true
+  if (!a._reader) return false
+  return !/^\/(Principles|Learning|Systems)\//i.test(location.pathname) || !!a._reader.reference
+}), { message: "the page has settled (the reader, if asked for, is in, and a reference page's record has landed)", timeout: 20_000 }).toBe(true)
 const shown = (page: Page) => page.evaluate(() => !!(window as W).__neural.deckShown)
 const busy = (page: Page, selector: string) => page.evaluate((sel) => document.querySelector(sel)?.getAttribute("aria-busy") === "true", selector)
 // the end state a press leaves, read the same way for an early and a late press
@@ -74,6 +79,14 @@ const endState = (page: Page) => page.evaluate(() => {
     reading: !!a._readerIntent,
     readerPath: a._readerRequest ? a._readerRequest.path : null,
     searchFocused: document.activeElement === a.explorerSearchRef.current,
+    // the drawer's body (EARLY1-R2): Explore's root list, or the entry it shows, and which
+    body: (() => {
+      if (!a.deckShown) return null
+      const list = a.explorerListRef?.current, entry = list?.querySelector("[data-concept-detail], [data-system-detail]")
+      if (entry) return entry.hasAttribute("data-system-detail") ? "system " + entry.getAttribute("data-system-detail") : "entry " + entry.getAttribute("data-concept-detail")
+      return list && list.children.length ? "list" : "empty"
+    })(),
+    searchRow: !!a.explorerToolsRef?.current && getComputedStyle(a.explorerToolsRef.current).display !== "none",
     paneOpened: funnel.filter((s) => s === "pane_opened").length,
     pressedLook: document.querySelectorAll(".ng-logo[aria-busy], .ng-search[aria-busy]").length,
   }
@@ -114,7 +127,9 @@ const PAGES = [
   { path: "/", what: "the home page" },
   { path: "/Positions/Mount/Top", what: "a position page" },
   { path: "/Transitions/Knee-Slice-Pass", what: "a technique page" },
-  { path: "/Principles/Frames", what: "a concept page" },
+  { path: "/Principles/Frames", what: "a principle page" },
+  { path: "/Systems/10th-Planet-No-Gi-Guard-System", what: "a system page" },
+  { path: "/Learning/BJJ-Guard-Types-Explained", what: "a learning page" },
   { path: "/Positions", what: "a hub" },
 ]
 
@@ -129,7 +144,7 @@ for (const touch of [false, true]) {
         if (pg.what === "a hub") expect(opensItself, "premise: the hub opens the panel itself").toBe(true)
       })
     }
-    for (const pg of PAGES.slice(0, 2)) {
+    for (const pg of [PAGES[0], PAGES[1], PAGES[3]]) {
       test(`an early press on the search button on ${pg.what} ends where a late press ends (${tag})`, async ({ page, context }) => {
         await earlyThenLate(page, context, pg.path, { sel: ".ng-search", what: "the search button" }, touch)
       })
@@ -150,7 +165,7 @@ for (const touch of [false, true]) {
     })
 
     // "A navigation drops it": the site's own links move the address in the same document (Quartz's router pushes it the
-    // same way), here to a concept page, whose reading arrival keeps the drawer shut
+    // same way), here to another pathname, a principle page, whose reading arrival keeps the drawer shut
     test(`a navigation before the data lands drops the press (${tag})`, async ({ page }) => {
       const { j, errors } = await bootHeld(page)
       await press(page, ".ng-logo", "the logo", touch)
@@ -163,16 +178,17 @@ for (const touch of [false, true]) {
       expect(errors, "no page error").toEqual([])
     })
 
-    // A hash is not another page: the sign-in's redirect-back arrives with one and the auth library strips it
-    // (`replaceState`), maybe before the data lands
-    test(`a hash stripped before the data lands keeps the press (${tag})`, async ({ page }) => {
+    // The page is its pathname (EARLY1-R2): the sign-in signs in by PKCE, so its redirect-back carries `?code=` in the
+    // QUERY, and the auth SDK strips it with `replaceState` after the exchange, maybe before the data lands. That is the
+    // same page. The address is moved in the page as the arrival and the SDK move it (the harness has no Supabase).
+    test(`a sign-in's ?code= stripped before the data lands keeps the press (${tag})`, async ({ page }) => {
       const { j, errors } = await bootHeld(page)
-      await page.evaluate(() => history.replaceState(null, "", "/#ng-early-arrival"))
+      await page.evaluate(() => history.replaceState(null, "", "/?code=ng-early-arrival"))
       await press(page, ".ng-logo", "the logo", touch)
       await page.evaluate(() => history.replaceState(null, "", "/"))
       await j.releasePayload("graph-data.json")
       await landed(page)
-      await expect.poll(() => shown(page), { message: "a stripped hash keeps the press" }).toBe(true)
+      await expect.poll(() => shown(page), { message: "a stripped ?code= keeps the press" }).toBe(true)
       expect(errors, "no page error").toEqual([])
     })
 
