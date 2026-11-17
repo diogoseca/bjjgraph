@@ -19617,6 +19617,7 @@ the one title naming a person.
   "Watch: title". Their fixtures still carry `by`.
 - `principle_clips.test.mjs` tests 2 and 3 claimed `by` reached the emitted principle bodies, and now claim it is
   dropped.
+## v1.288.1 — Early presses: one made before the map's data lands opens the panel when it lands; the intro's first deal keeps Master the game open (EARLY1)
 
 ## v1.290.0 — Master the game is a list with one button (L1, with L1-SEAM and L1-R0; the owner's U197 b, 17 Nov 2026)
 
