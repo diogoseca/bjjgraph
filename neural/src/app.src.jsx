@@ -3779,6 +3779,10 @@ class Component extends DCLogic {
     const tools = this.explorerToolsRef.current; if (!tools) return;
     const show = this._viewMode === "explore" && !(study == null ? this._paneStudyActive() : study) && (this._searchAsked || !this._exploreDetailOwnsList());
     tools.style.display = show ? "flex" : "none";
+    // a row that hides takes its caret with it, at once: the browser moves the focus off a hidden field only at its next
+    // rendering step, and until then the page still read as "the caret is in the search" (an early logo press on a
+    // reference page: the root list's search had the caret when the entry replaced the list)
+    if (!show && document.activeElement === this.explorerSearchRef.current) this.explorerSearchRef.current.blur();
   }
   _layoutPane() {
     const panel = this.drillRef.current; if (!panel) return;

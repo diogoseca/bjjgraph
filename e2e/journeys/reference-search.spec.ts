@@ -187,9 +187,12 @@ for (const touch of [false, true]) {
         const s = await state(page)
         expect(s.focus, "with no press, the article's heading has the focus").toBe("the article: h1")
         expect(s.shown, "and the panel is shut").toBe(false)
-        const paused = await page.evaluate(() => !!(window as W).__neural.paused)
-        await page.keyboard.press("p")   // the game's pause key, when the focus is on the game
-        expect(await page.evaluate(() => !!(window as W).__neural.paused), "a key that is not the search's stays in the article (the game's pause key does nothing from there)").toBe(paused)
+        // Space is the article's own key: it pages the reading column. The app's key handler would take it (it prevents
+        // Space's default everywhere but on a focused control), so the article scrolling shows the reader kept the key.
+        const top = () => page.evaluate(() => (document.querySelector("[data-reader-path]") as HTMLElement).scrollTop)
+        expect(await top(), "premise: the article is at its top").toBe(0)
+        await page.keyboard.press("Space")
+        await expect.poll(top, { message: "a key that is not the search's stays in the article: Space pages it", timeout: 5_000 }).toBeGreaterThan(0)
         expect((await state(page)).focus, "and the focus stays on the heading").toBe("the article: h1")
         expect(errors, "no page error").toEqual([])
       })
