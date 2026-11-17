@@ -15,8 +15,18 @@ import { journey } from "../dsl"
  * Every press is real (a mouse click at 1440x900, a touch tap at 390x631, at the measured centre, hit-tested), the keys are
  * typed, and the focus and the caret are read from the DOM (`document.activeElement`, `selectionStart`). An early press is
  * made on a HELD `graph-data.json`; the reader's late landing is forced by holding `app/reader.js`, never raced.
- * Each mutant's red step is written here once it has been run (see the end of this header).
- * MUTANTS: FILL
+ * Kept, each with a step: Esc, the entry's own back row, the article's heading taking the focus on a plain arrival (a
+ * screen-reader user lands on the page's name), and the article keeping its other keys (Space pages it).
+ * Mutants (the seat's mutantsS.py, run 17 Nov 15:57-16:03; the control C0 green, 28 of 28 here), each red at the step named:
+ * the reader emptying the query of an open panel again → "the typed query survives the reader's landing"; the search row
+ * hidden on an entry again → "the search row shows"; the search's keys stopped in the article again → "a late ask for
+ * search opens the panel" and "Ctrl+K opens the panel"; the heading taking the focus from the search field → "the caret
+ * stays in the search field when the reader lands"; `_searchAsked` never lifted → "with no search row: search is asked
+ * for by the search button and its keys, not by the logo"; the heading never focused → "with no press, the article's
+ * heading has the focus"; the reader stopping no key → "a key that is not the search's stays in the article: Space pages
+ * it". NON-KILL, recorded: the search row's own blur when it hides (`_syncExploreTools`) removed stays green here and in
+ * early-presses (6 of 6): the browser moves the focus off a hidden field by itself at its next rendering step, nearly
+ * always before a state is read (the one red it explains: 1 in 266 runs of early-presses' early = late step, before it).
  */
 
 type W = Window & { __neural: any }
