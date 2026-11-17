@@ -18,7 +18,7 @@ test("veteran: open cross-track Challenges retain checkpoint-only capstone gates
   await j.boot("/", { initialState: srsVeteran(N_DECKS) })
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await page.locator('[data-view="challenges"]').click()
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
 
   await expect(page.locator(".ng-track-card").first()).toBeVisible()
   expect(await page.locator(".ng-belt-section").count()).toBe(CURRICULUM.belts.length)

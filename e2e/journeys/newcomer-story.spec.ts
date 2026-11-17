@@ -92,6 +92,9 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   ).toBe(false);
   // "Study this state" is the pane's Last rolls tab (v1.175.0 — the corner count opens nothing);
   // the same rail pane-history.spec.ts drives.
+  // v1.282.0 (rulings R2, SET1-GO; the reader of #423, D3): a newcomer has nothing stored, so this story runs on the default
+  // throughout. Written when that meant Classic recall in the sidebar ("question, then the answer"); under Auto, Last rolls'
+  // deck asks a newcomer's new card as multiple choice, on its own surface (answer-mode.spec.ts "Last rolls").
   await page.locator(".ng-logo").click();
   await page.locator('[data-view="history"]').click();
   expect(
@@ -108,11 +111,10 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   await page.locator("[data-hist-current]").click();
   const deck = page.locator("[data-mini-deck]").first();
   await expect(deck.locator("[data-mini-q]"), "question").toBeVisible();
-  await deck.locator("[data-mini-reveal]").click();
-  await expect(deck.locator("[data-mini-a]"), "then the answer").toBeVisible();
+  await expect(deck.locator("[data-inline-mc-opt]"), "Auto: the newcomer's new card asks multiple choice here").toHaveCount(3, { timeout: 20_000 });
   await expect(
     page.locator(".ng-drill [data-mc-opt]"),
-    "never options in here",
+    "and the full-pane study view stays shut",
   ).toHaveCount(0);
   await page.locator(".ng-explorer-close").click();
   expect(
@@ -159,12 +161,7 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   ).toBe(true);
 
   // ── 7. Challenges: objective evidence stays separate from Game Knowledge ──
-  await page.evaluate(() => {
-    const a = (window as any).__neural;
-    a.setViewMode("challenges");
-    a.openExplorer();
-    a.showExplorerList();
-  });
+  await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator(".ng-drawer-head")).toBeVisible(); // the knowledge belt lives in Explore since v1.96.0
   await expect(page.locator(".ng-belt-section")).toHaveCount(5);
   const challengeDone = await page.evaluate(

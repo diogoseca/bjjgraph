@@ -18963,3 +18963,600 @@ As it was, on dev's code, it went red 0 of 30 runs locally (touch 390x631).
 `gameplan-learning-loop`'s one-shot read of the Explore cell's `data-new` became an auto-waiting assertion: it was green even
 under the delay, but nothing promised the order. Under the 60 ms delay all 119 of their tests, and sidebar's dot test, are
 green.
+
+## v1.281.3 — A card climbs its step at a steady pace: the line is the rung's, so an early right answer never costs a card days (LIN2, 2026-11-16)
+
+**Why.** v1.281.0 (LIN1) drew one straight line from a card's own interval, A + w × (step(A) − A) ÷ A. The independent reader
+of PR #421 found two costs of that line, and both were pinned as bounds there.
+- **N1:** one more early right answer could leave a card due sooner, by up to 39 days, in 4,196 of 1,123,024 comparisons of
+  its search. A 30-day card answered on days 12, 56 and 86 was due on day 181; with one more answer on day 19, on day 174.
+- **D1:** a card could end ahead of answering on time. Early-only runs: 1,150 of 566,832 prefixes, up to 10 days. Early, on
+  time, then early: 63 of 40,536, about a tenth ahead for good.
+
+At LIN1-R3 the seat measured a candidate, rung anchors, and did not build it. The reader then wrote it independently
+("Candidate 2") and ran its bar: it holds everything, and an early answer never costs.
+
+**Ruled (LIN2):** build it as its own PR. It is the owner's formula with the ratio of the STEP THE CARD IS IN, at every
+answer. That is what makes his formula add up after an early answer too. His own check (U193): a 30-day card, day 15 gives
+45; then day 30, with a 45-day gap and 30 days left, gives 60.
+
+**The rule, in one sentence a player could read:** a card climbs its step at a steady pace: each day you waited before
+answering right earns the same share of the step, whenever you answer.
+- A card between rungs, r < x < next, stands on r's line, (x − r) × r ÷ (next − r) days into r's step, and climbs it at
+  (next − r) ÷ r days a day, rung after rung.
+- On time or late it takes exactly one step from the interval it reads.
+- As a level: a real number climbing 1 ÷ (its rung's interval) a day, at most one level per answer.
+- It differs from v1.281.0 only where v1.281.0 stored an anchor off the rungs. On rung lines the two are the same rule.
+
+**What is stored.** No format change: a rung pair is a pair, and the readers' three copies are unchanged.
+- An on-time or late answer stores its step anchored at its own day, `[step, day]`, as v1.281.0 did.
+- An early answer stores the RUNG pair `[rung, the day the card stood on it]`.
+- A row whose pair is not a rung pair is put on its rung's line at the interval it reads, at its last answer. That covers an
+  older client's row, a step between rungs and v1.281.0's off-rung anchors.
+- An early answer with no day waited keeps the row exactly as stored, so a second answer the same day rewrites nothing.
+
+**Nothing is rounded.** The numbers stored are the numbers computed; a JSON number reads back as itself. The representation
+was chosen by measurement, over 105,316 random answers against the rule written apart from the writer:
+- the anchor day to 4 decimals, nearest (the reader's Candidate 2): 186 dues a day later than the rule;
+- the anchor day rounded up: 85 later, all from the on-time step's own 4 decimals;
+- everything rounded down: 2 a day sooner after long histories, because each on-time step roughly doubles an earlier error;
+- a rung pair stored at every answer: 13 later, but 35,233 on-time answers off their step by up to 0.0001;
+- 9 decimals: exact, but 305 near-whole values from rounding 2/3;
+- no rounding: 0 later, 0 sooner, and every on-time answer exactly on its step. Rows average 28.2 characters, against 26.2.
+
+The 1e-6 tolerance of `ngKnowledgeDueDay` reads float dust right. The test proves it in fractions: 0 of 37,616 dues differ
+from the rule computed in exact BigInt arithmetic, 12 of them computed within 1e-6 of a whole day.
+
+**What it buys**, pinned in `tests/schedule_rung.test.mjs` over the reader's own searches, replayed with their seeds, starts and
+loops and written fresh:
+- **An early right answer never leaves a card due sooner than without it:** 0 of 1,113,790 comparisons (the long search) and
+  0 of 509,533 two-answer insertions. From 165 rows v1.281.0 wrote off the rungs, one early answer then the next on any day is
+  never behind (13,015 pairs). The 30-day case gives 173 and 174, never behind.
+- **Ahead of answering on time only by whole days, never in exact days** (first written as "at most 3 whole days", a bound
+  only for the search below; corrected at LIN2-R1):
+  - early-only: 839 of 566,832 prefixes, by at most 3 days; 0 against the on-time path answered at its exact dues;
+  - early, on time, then early: 0 of 40,536.
+
+  The on-time path answers on whole due days, a fraction of a day after its exact due, and restarts there; early answers ride
+  the line exactly. The worst in that search is a 20-day row answered early eight times, which ends 3 days after the on-time
+  path on the same 365 rung. The whole-day lead adds up, about a day per on-time answer compared, as a card ages: the reader of
+  PR #426 found 5 within five years and 12 near the top, 0 in exact days throughout.
+- **A day later never earns less, and no cliff:** 497,099 answers on 1,652 rows written by four clients; 0 cliffs in 1,577
+  states.
+- **The rows v1.281.0 wrote are never made due sooner:**
+  - 110,929 answers by v1.281.3 on 1,059 of its rows, which read the same interval;
+  - mixed histories of four clients over up to three devices: 54,720 right answers by v1.281.3, 0 sooner; 39,115 of its
+    merges, 0 below both rows;
+  - 2,116 moves merges, 0 below both.
+
+  v1.281.0 is captured from git in `tests/artifacts/schedule_lin1_client.json` (`tests/artifacts/_capture_lin1_schedule.mjs`).
+
+**Its one trade-off.** A card between rungs earns less early credit in the first part of its wait and more later. A 75-day card
+answered on day 28 gets 89 days, where v1.281.0's line gave 98; a 42-day card on day 18 gets 60, against 55. At the due the two
+agree: one step. The top-rung card of 120 days answered the next day gets 121 days (due 122), against 121.01 (due 123).
+
+**Tests moved with the rule.**
+- `tests/schedule_linear.test.mjs` loses v1.281.0's three bounds, (a), (b) and N1; their successors are in
+  `tests/schedule_rung.test.mjs`, and the file says so where they were. Its rounding test becomes "nothing is rounded":
+  - an on-time answer lands exactly on its step, anchored at its own day;
+  - an early pair stands on a rung;
+  - a same-day answer rewrites nothing.
+- The fixtures that carried 4 decimals now carry the computed numbers, written as the arithmetic: 241.67 is 180 + 185 ÷ 3; the
+  heal's 19.714… is 14 + 80 ÷ 14.
+- `answers_before_sync`'s P1 moves to a 14-day card. A whole exact interval now reads the same rung line from its own due,
+  so only a pair off a whole day changes the answer.
+
+**Mutants** (10, each alone on a scratch copy against the ten schedule unit files; each red at named tests):
+- G1, no rung state (every card on v1.281.0's line): red at the N1 claim, the ahead bound, exact fractions, the rung pair, the
+  v1.281.0 rows, and 3 more (8).
+- G2, an on-time step rounded to 4 decimals: red at exact fractions, "nothing is rounded", a day later, N1 and the ahead bound,
+  and 4 more (9).
+- G3, the rung pair's day to 4 decimals, nearest (the reader's Candidate 2 representation): red at exact fractions, the ahead
+  bound's exact days, and the daily runs (3).
+- G4, no day waited still moves the card: red at the same-day check, "never sooner" and "a clock set back" (3).
+- G5, the rung above: 14 red. G6, the walk a hundredth of a day late: 13. G10, a late answer from its line's value: 26.
+- G8 and G9, either heal rounded to 4 decimals again: the srs merge test (1); the moves merge test and R5 (2).
+- **G7, the one-step cap removed, first recorded as equivalent, which was wrong.** The seat's own check against the real writer
+  (1,280 rows, 247,008 answers), and the fresh reader's (406,764 hostile rows), agree: it is equivalent in every due on rows a
+  client writes. It decides the stored bytes when an early answer walks onto the top rung, and the due, by under a day, on one
+  damaged shape (a row past the top with a fractional due, answered with no day waited). Both shapes are pinned since
+  LIN2-R1, and G7 is red there.
+
+The counts leave out one red the copy shows in its control too: the progress host's "build owner pinning", which needs files
+the copy lacks.
+
+The reader's own scripts on this code reproduce its Candidate 2 bar:
+- its early-only search 839, at most 3; its targeted search 0; its extra-answer, one-answer and two-answer searches all 0;
+- its cadence search (B3) 46, at most 1; its any-state search 456 / 81;
+- its near-whole check: 0 dues within 1e-6 above a whole day;
+- its core bar, 406,325,129 answers: 0 sooner, 0 falling a day later, no cliff, his formula 0 wrong. Its "not exactly one step"
+  counts only its 4-decimal check.
+
+**FLAKE1 below it.** This PR sits on #425 (v1.281.2, FLAKE1: practice-order's dot at the goal polled), which it merged before
+renumbering to 1.281.3.
+
+**Landing** under the build lock, 17:12 to 18:08, on 007f8a8d0. Its tree is that of 23be35d03, which merged dev f6c2bcd3b
+(v1.281.2, #425) with no file change.
+- units 1,756/1,756;
+- 53 journey files, 604 passed (every spec that reads schedule rows, the rating, the Practice order, the pull or the study engine,
+  plus the progress-host journeys and those of #422 and #425's files);
+- `e2e:gen` 103/103;
+- `ci:validate` 25/25;
+- the app rows re-seeded (ec1c2da0d): on dev v1.281.2's own rows, `neural.js` 731,697 → 731,899 B (+202, the rung line), and
+  `gameplan.js` unchanged (the rating's reader copy is untouched);
+- the study engine label-neutral: all 63 shard parts byte-identical against v1.281.0's, each variant differing only in
+  `mechanicsHash`.
+
+Against the baselines checkpointed at dev v1.280.0 (PAY4):
+- eager gzip 370,355, +3,779 of 5,000;
+- first-hand core 389,865 here, +3,846 of 6,000;
+- deferred raw 521,918 B of its 522,091 ceiling, unchanged.
+
+No gate or baseline moved. The archive's ceiling rose by exactly 50,000 under D-316, in its own commit (007f8a8d0).
+
+**The fresh reader, and LIN2-R1 (16 Nov).** The reader read a2efd246b, MERGE AFTER 2 fixes. It owed the rule nothing and wrote
+its own generators and exact-fraction judges.
+- **What held:**
+  - a right answer is never due sooner, in 34.9 M answers on 38,172 states from every client;
+  - one more early answer never costs: 0 of 13.5 M with one extra, 0 of 101.8 M with two;
+  - the owner's numbers are exact;
+  - the unrounded storage is exact: the JSON round trip on 1.3 M rows, and 0 of 26.7 M dues against its BigInt mirror;
+  - sync with all four clients: 0 below both, 0 order-dependent, 0 rewritten by a second pull.
+- **Fix 1, new in this PR:** a rung pair's day could fall below 0, and every client's blob validator takes only numbers at or
+  above 0, so the whole blob would be refused.
+  - The reader's path: a clock at epoch day 3 pulls `[20430,30,20400]`, the clamp makes it `[20430,30,3]`, and an answer on
+    day 4 wrote `[20432,120,4,11688,-8736]`. That device would then save nothing more.
+  - Ruled and built first: such a row is written without its pair and reads its whole-day interval, at most a day longer and
+    never shorter. That form was replaced at LIN2-R2 (below), because the day adds up. At epoch day d this touches only a card
+    on a rung r above d whose interval exceeds r + d × (next − r) ÷ r: at 20,400, where every such rung doubles, above 43,776
+    days. It touched 0 of 82,800 random answers at each of days 1,000, 10,000 and 20,400.
+  - New tests:
+    - every row the writer emits (16,950, epoch days 0 to 20,400, hostile shapes, both layouts) passes this client's
+      validator and v1.280.4's and production's, captured from git in `tests/artifacts/progress_validators.json`;
+    - the pairless rows keep never-sooner, a-day-later and one-more-early-answer, answer by answer (18 rows, 17,628 answers);
+    - the wrong-clock path runs as a unit: pull, clamp, answer, validate, save.
+  - A mutant keeping the negative day is red at all three.
+  - The pinned rows moved to a real epoch day (20,400). The day-0 fixtures had made two negative pair days look normal.
+  - Not covered, an older and separate fault: any invalid row stops every later save, because `_saveProgress` persists and
+    pushes only on "saved" and the store refuses the whole blob.
+- **Fix 2, the wording:** see "only by whole days" above, with the reader's 5-day case pinned. A 14-day card answered early
+  on each of the on-time path's days is due on 21984, against that path's 21979, two years in.
+- **Also in this push, prepared before the verdict:**
+  - the cap's two shapes;
+  - three successors made as strong as what they replaced: the moves layout in "nothing is rounded", v1.281.0's (b)
+    sequence now level with the on-time path for good, and the 30-day N1 case row by row;
+  - the corrected comments.
+- **LIN2-R1's landing** under the build lock, 19:10 to 19:55, on eeb516678:
+  - units 1,759/1,759;
+  - 53 journey files, 604 passed;
+  - `e2e:gen` 103/103;
+  - `ci:validate` 25/25;
+  - the app rows re-seeded: `neural.js` 731,899 → 731,904 B (+5, for the fallback; +207 on dev v1.281.2's own rows in all);
+  - the study engine label-neutral (63 shard parts byte-identical; each variant differs only in `mechanicsHash`);
+  - eager gzip 370,356, +3,780 of 5,000; first-hand core 389,866, +3,847 of 6,000; deferred 521,918 of 522,091, unchanged.
+
+  No gate or baseline moved.
+
+**The reader's re-read at 4ca9ffe7d, and LIN2-R2 (16 Nov).** MERGE AFTER 1 fix.
+- **What held:**
+  - 17,068,508 written rows through four real validators: 0 failures from valid inputs; the captured validators byte for
+    byte;
+  - sync over 200,000 three-device histories: 0 below both, 0 order-dependent, 0 changed by a second pull;
+  - the same zeros as before on this head, at epoch days 20,400, 40 and 3.
+- **The one fix:** the pairless fallback was right on each answer, but it compounded on a wrong-clock device. From epoch day
+  0, 953 of 2,921 cards answered daily for one interval ended on another due day than one on-time answer gives. The worst was
+  364 days later (a 731-day card: 2,558 against 2,194), and 957 runs were ahead in exact days; at day 20,400, 0.
+- **Ruled (the reader's own fix):** when the pair's day would be below 0, store `[ivl, last]`, the exact interval dated on the
+  row's own last day (no pair when it is whole), the form an on-time answer stores. Every reader reads it exactly, and no
+  number in it is below 0.
+  - Built: 0 of 2,921 daily runs from epoch day 0 off one on-time answer, now a test.
+  - The early-only search at epoch days 0, 3 and 40: 0 of 566,832 prefixes ahead in exact days.
+  - The three sentences that were false in that regime are true again as written: the code header's "0 in exact days
+    throughout", `docs/Neural.md`'s "never in exact days", and the 1970 rows test, retitled "…store their exact interval at
+    their own day", whose assertions read every interval exactly.
+  - A 71-day card at epoch day 20 answered on day 21 stores `[93, 60, 21, 71.5, 21]`.
+- **Mutants:** N (the fallback removed) is red at 3 named tests. N1 (the pair dropped, LIN2-R1's form) is red at 4, the day-0
+  daily-run test among them.
+- **The reader's two minor gaps, pinned:**
+  - v1.281.0's 75-day worst by value: 13936 without the extra answer and 14005 with it, where v1.281.0 gave 14046 and 14007;
+  - its old worst early-only sequence on the new rule: `[10260, 120, 10134, 90, 10098.75]`, 2 whole days after the on-time
+    path's 10258 (v1.281.0: 10 days).
+- **The comment's threshold is exact now:** r + d × (next − r) ÷ r, from 60 + d/2 on the 60-day rung.
+- **LIN2-R2's landing** under the build lock, 20:33 to 21:28, on b83c8659b:
+  - units 1,760/1,760;
+  - 53 journey files, 604 passed;
+  - `ci:validate` 25/25;
+  - `e2e:gen`: 102 of 103. The one red was `endgame-spa-nav-sheds-chip` (two `land_q_skipped` beats in a soft navigation's
+    second life). It passed 5 of 5 re-run alone on the same bundle (21:38). It reads no schedule: its skip reasons are a deck
+    still loading, a setting or a proven deck, and this delta acts only where a rung outlasts the epoch day. So it is an
+    intermittent red, not this change's; reported, not fixed here;
+  - the app rows re-seeded: `neural.js` 731,904 → 731,952 B (+48; +255 on dev v1.281.2's own rows in all);
+  - the study engine label-neutral (63 shard parts byte-identical);
+  - eager gzip 370,370, +3,794 of 5,000; first-hand core 389,879, +3,860 of 6,000; deferred 521,918 of 522,091, unchanged.
+
+  No gate or baseline moved.
+
+## v1.282.0 — Answer mode is one switch for every card: Auto by default, a card right twice front and back for good; Recall mode, "Show flashcards on pages" and Focus leave Settings (SET1, the owner, 2026-11-15; rulings R1/R2, 2026-11-16; U190 c, 2026-11-16)
+
+**The owner's words (15 Nov).** "it's time to remove the Path section from the sidebar + reform the user settings … the
+antifragile vs gameplan i'd like to keep as well as the [Daily goal, Answer mode] but btw by default we use the Auto, not
+Classic (which should be called Front Back cards, or the Multiple Choice). after a player dominates MC for a card he is
+shown FC crds, and never again the multiple choice, makes sense?" This entry is slice A of three (the Settings reform and
+the Auto rule); B (the Path row out) and C (a cards view) wait for his answers.
+
+**What Part A found from source (16 Nov, seat drawer).**
+- `mcMode` had one reader, `mcActive` (Practice's cards and the full-pane study view), default `"classic"`; Last rolls' and
+  the Path's inline decks never asked multiple choice (recognition needed a Practice session); a roll's question was always
+  multiple choice unless `recallInPlay` (or a carried pre-rule belt) said otherwise, then front and back from stage 2.
+- Auto could UN-PROVE a card: `ngKnowledgeApplyGrade` sent a stage-2 card to 1 on a wrong front/back answer or a trap pick,
+  i.e. back to multiple choice. On a synthetic deck (326 real White-belt cards, three synthetic players, the app's own
+  grade) a proven card fell back 8, 58 and 243 times (light, mid, heavy). The script: the seat's scratch `sim_auto.mjs`.
+- "Never chose" and "chose Classic" are distinguishable: `set` is the only writer of a settings key and writes on every
+  press, nothing bulk-writes defaults, so an absent `mcMode` is a player who pressed nothing.
+- "Show flashcards on pages" (`quizOnPages`) and Focus (`focus`) are read by nothing; Focus never had a reader
+  (`git log -S"antifragile"`: the Settings row only, since Phase 0.2). R3 kept it as it was and asked the owner (U190); he
+  answered c, "Take the row off the screen" (16 Nov), and it left in this same slice.
+
+**Rulings (the orchestrator, 16 Nov, SET1-GO).**
+- R1 (a), the floor: once a card reaches stage 2 no answer takes it below 2; a miss still resets its schedule; 3 -> 2 and
+  4 -> 3 unchanged; no stored key added. Side effect told to the owner: a card missed at 2 keeps 2/3 of its mastery where
+  it dropped to 1/3.
+- R2 (a), one switch, one meaning, everywhere: Auto (nothing stored) asks multiple choice until stage 2 and front and back
+  from there, in Practice, the study view, Last rolls' inline decks and a roll's question; a stored `classic` is Front Back
+  cards everywhere; a stored `mc` is multiple choice everywhere; checkpoints and the defence drill stay multiple choice;
+  `recallInPlay` and `recallCarry` kept and read by nothing. (b), letting a stored Recall-mode press keep deciding rolls,
+  was rejected: the screen would show Auto while the rolls obeyed a switch no screen shows.
+
+**What shipped.**
+- `_answerMode` / `_cardAsksMc` (app.src.jsx, beside `mcActive`): the one reader; `mcActive`, the landing card's three
+  sites (`_mountLandQ`, the page cache, the warm gate) and every inline deck read it. `_recallInPlayNow` and
+  `_recallCarried` are deleted (their only reader was the switch); the carry's fact is still stamped and merged.
+- Inline decks without a session ask on their own surface, `inline` (option handle `data-inline-mc-opt`, rng tags
+  `inline-mc-*`, its own answer guard), because the Practice surface's guard refused an answer outside a session.
+- The floor in `ngKnowledgeApplyGrade` and in the journeys' seam `_bumpStage`. The writers of `stage`, counted with
+  `| wc -l` first: the grade, the evidence adoption, the load, the per-card MAX merge, the merged-map assignment,
+  `_bumpStage`, the stale-card prune; only the grade and `_bumpStage` can lower a live card.
+- The knowledge law's pin moved (mdp-exposure.src.js, 9ef88c… -> f5ccab…). Label-neutral: the worker binds eight
+  knowledge laws, none of them the grade (game-bundles.mjs `knowledgeNames`). Measured: `regenerate:mdp` run with dev
+  v1.280.2's `knowledge-profile.src.js` and with this one; every model-data file byte-identical, the two variants differing
+  only in `mechanicsHash`, the manifest only in `provenance.{lawHashes.knowledge, modelHash, sourceHash}` and the variants'
+  refs.
+- Settings → Flashcards: Daily goal, Answer mode ("How a card asks you, in Practice and in a roll." Auto / Front Back
+  cards / Multiple choice, one line under the chosen one). Three rows gone with their keys kept: Recall mode (in play),
+  Show flashcards on pages, and Focus (U190 c; `focus` never had a reader, so every player keeps the one order there was).
+  The round-trip unit carries all four retired facts (`recallInPlay`, `quizOnPages`, `focus`, `recallCarry`), value and
+  stamp. Mutant: the Focus row put back turns tests/settings_presentation.test.mjs red at "Focus is gone".
+- The black-belt patch row says only how the patch is earned.
+
+**Tests.** e2e/journeys/answer-mode.spec.ts (new); landcard-modes 5c, everything-opens 3 and 4, recall-badge, landing-card
+and mastery-gold's rendered marker rewritten to the rule (each pinned the old one, and says why in place); the mode stated
+through the DSL (`journey(page, { answerMode })`, `j.answerMode`) in the eleven journeys written under the old default
+(practice-page, practice-drawer, practice-mix, practice-order, gameplan-learning-loop, pane-history, gen/mid-jit-grades
+and weak-spots-acceptance file-wide; sidebar, keyboard, newcomer-story per test); units: the floor table (54 cells), the MC differential's
+one named departure, the retired keys' round trip, the Flashcards tab, belt_worn's switch and carry assertions moved onto
+the fact (`carried`).
+
+**Mutants** (16 Nov 08:47 to 08:53, under the lock; the seat's scratch `mutants2.py`, not a gate). Each was applied alone
+and the file restored byte-for-byte (sha checked). A journey mutant's bundle was built against a copy of the MDP manifest
+carrying the mutated file's hash: the build refuses an `app.src.jsx` or a law file that differs from the manifest's pin.
+The real manifest was put back after every build. Both neutral controls ran first through the same build, and every
+killer stayed green.
+
+| mutant | killers, measured |
+|---|---|
+| C0, a no-op in `_answerMode` (control) | belt_worn, settings_presentation, knowledge_profile green; answer-mode 8/8 green; landcard-modes 5c green |
+| C1, a no-op in the grade's floor (control) | knowledge_profile green; answer-mode "a miss never sends it back" 2/2 green |
+| default back to `classic` | settings_presentation RED; belt_worn RED; answer-mode "nothing stored is Auto" 2/2 RED and "a miss never sends it back" 2/2 RED |
+| no floor in the grade | knowledge_profile RED; answer-mode "a miss never sends it back" 2/2 RED |
+| no floor in `_bumpStage` | knowledge_profile RED |
+| the floor at 1, not 2 | knowledge_profile RED |
+| the landing reads `recallInPlay` again | answer-mode "the old switch decides nothing" RED; landcard-modes 5c RED |
+| Last rolls' decks ignore the mode | answer-mode "Last rolls" 2/2 RED |
+| `mcActive` ignores a stored `classic` | answer-mode "Practice: a stored Front Back cards…" RED |
+| Auto's line at 3, not 2 | belt_worn RED; answer-mode "a miss never sends it back" 2/2 RED and "the old switch decides nothing" RED |
+| **a stored `mc` ignored in a roll** | answer-mode "the old switch decides nothing" RED; landcard-modes 5c RED |
+| **the floor applied from stage 1** (a stage-1 miss kept at 1) | knowledge_profile RED |
+| **a write of `mcMode` at boot** (`set("mcMode","auto")` after `_loadProgress`) | answer-mode "nothing stored is Auto" 2/2 RED, at "storage has no mcMode: Auto is the reader's default, never a write"; belt_worn and settings_presentation green (the units never run the constructor) |
+| **Focus put back on the screen** (U190 c; the row re-added in `settings-ui.src.js`) | settings_presentation RED at "Focus is gone, its words with it"; answer-mode "nothing stored is Auto" 2/2 RED at "Focus left Settings" (run 12:20, after the clean rebuild the served bundle was byte-identical) |
+
+**After the run:**
+- The clean bundle was rebuilt. The served `neural.js` is byte-identical to the one before the run (sha 5f5514e8…).
+- The 2 worker cores and the patched manifests' immutable copies that the mutant builds added were removed from
+  dist, the static app, the public app and both mdp folders.
+- The unit killers are green on the clean tree.
+
+A failure message was kept for the boot write only (the runner kept the last run's artifacts). Every other mutant
+changes one predicate, and its red is that predicate's test. The runner now keeps each red's first error line.
+
+**Bytes** (the seat's build of b82e34e3f, against dev v1.280.2's own landing figures): eager gzip 369,140 B (dev 369,196,
+-56); `neural.js` raw 727,876 B (-295); deferred raw 520,519 B of the 522,091 B ceiling. Last rolls' multiple choice alone:
++154 B raw, under the 400 B gzip line SET1-GO set. A first reading of 590,891 B deferred was a stale copy of dev's game
+worker core beside the seat's own in its build folders; CI builds fresh.
+
+**The survey** (the lock, 06:33-07:15): every spec file that renders what a touched file renders (a grep of all of
+`e2e/` and `tests/` per touched file), 61 journey files and 36 generated: 663 of 663 green, 0 flaky, ledger PASS. Part A's
+"up to 27" leaning specs was a grep's upper bound; eleven files needed a mode stated (the DSL; weak-spots-acceptance, the
+eleventh, surfaced in a second, wider pass over every spec that opens a card surface), five were rewritten because they
+pinned the old rule, and every other file ran green as it is under Auto.
+
+**The independent read (PR #423, SET1-R1, 16 Nov): MERGE AFTER 3 fixes, all made.**
+- **D2: "never again" per question.** The grade writes a card's stage to the deck it was asked from only, so a shared
+  question right twice in one deck asked multiple choice again from the others (397 questions in 919 deck slots). Auto now
+  reads the highest stage the question holds in any of its decks (`_cardStageShared`, the grade's shared-question index),
+  as the rating does.
+- **D3: the open card keeps its deal.** #415's re-plan re-mounted the open card, and `mcDistractors` redealt on every
+  call: the three answers moved under a player who touched nothing, in 9 of 10 runs. `_mcPin` keeps an inline surface's
+  deal for the same card until it is answered. `spent` cannot end it, because every `_miniDeck` repaint spends the block
+  it replaces. practice-order's guard and its first test run on the default.
+- **D4: the study view refuses a reveal while the card's options are on screen or on their way.** Two Space presses had
+  graded an unpicked multiple-choice card as recalled.
+- **D5:** list, class, System and bucket drills are in the day-one table, and a list drill under Auto is pinned.
+- **D6:** the black-belt patch is named Black Belt (id `recall-in-play` unchanged). The line under Front Back cards says
+  checkpoints and the defence drill stay multiple choice.
+- **D7:** the probe is fixed, and five dead `recallInPlay` sets are removed.
+- **D1 went to the owner:** under a stored Multiple choice, a right pick stops at 2, so the recall goals are unreachable.
+  - (a) Multiple choice means it everywhere, and its line says so: eager gzip −2 B (noise), deferred +106 B raw.
+  - (b) Last rolls stay front and back under it, as before: eager +44 B raw / +18 B gzip, deferred +49 B raw.
+  - Both are prepared as one commit each, neither built in.
+- **Run:** 22 journey files, 204/204. Mutants, each red at its named assertion:
+  - D2: `_cardAsksMc` reading the asking deck only → answer-mode "front and back in the deck that shares it";
+  - D3: the pin off → practice-order "the same three answers, in the same order" (2 of 2);
+  - D4: the guard off → answer-mode "no reveal, no grade".
+  The served bundle was byte-identical after the run.
+
+**The re-read (PR #423 at 731327536, SET1-R2) and the owner's answer to U194 (SET1-R3, 16 Nov): MERGE AFTER 1 fix, made; D1 (a); 1.282.0.**
+- **One gate for every way of revealing.** In the study view, while a card's options were still loading, the footer drew
+  Reveal answer, and its click set `revealed` itself. That went round `drillReveal`'s guard, and led to a recall Got it
+  with no option picked.
+  - The button now calls `drillReveal`, as the keys and the swipe do.
+  - While the options load, no reveal control is drawn: a disabled "Loading answers…", as the inline decks show.
+  - A failed load leaves the pool as warm as it will get (`_warmMcPool` never rejects), on every surface. The card deals
+    from the decks that landed, or asks front and back when that makes no answers.
+  - The survey: 22 writers of `revealed` (23 before). 16 only hide an answer. The 6 that show one each pass a gate:
+    `drillReveal`; the inline decks' `recognition()`; an answer's own callback; the recall block, built only for a
+    front-and-back card; and two clocks that reveal as a miss.
+  - Named, not changed: the defence drill's cold-pool escape hatch (dev's).
+- **The window, measured:** 141 of 21,269 cards (both rulesets) need another deck's answers. For the rest, the warm
+  resolves a microtask after the card is drawn. The journeys hold, then fail, the real chunk of one such card
+  (`Backstep from Leg Weave|Defender`), by mouse and by touch.
+- **D1, the owner's answer: (a), Multiple choice means it everywhere**, Last rolls' and the Path's decks included.
+  - The line under it now says plainly: a card is never asked from memory, so the from-memory goals wait until the
+    choice changes.
+  - (b), built as the interim at SET1-R2 (those decks front and back under a stored `mc`), was dropped before the push.
+    Its numbers stay here for the record: 326 front-and-back cards kept on the reader's record; eager +44 B raw /
+    +18 B gzip, deferred +65 B.
+  - (a) costs deferred +109 B (the line) and eager 0 B raw.
+- **Renumbered 1.283.0 → 1.282.0** (lands before the video viewer): 92 labels in 40 files. The knowledge law's comment
+  carried one, so its pin moved (c1c3f8a5… → 4c17e32a…) with nothing computed changed.
+- **Runs:**
+  - **With (b) in** (lock 20:01 to 20:23):
+    - 25 journey files that read what changed: 314/316. The 2 reds were (b)'s own new journey at its premise: the
+      harness marks the White objectives done at boot.
+    - The 12 generated specs that read it: 12/12.
+    - The payload is clean once a stale worker core, which nothing named, was removed under the lock.
+  - **With (a)** (lock 21:38 to 21:48):
+    - bundle and MDP; the 14 app rows re-seeded;
+    - payload OK: eager 1,447,350 B raw / 370,427 B gzip, deferred 520,751 of 522,091 B;
+    - the 7 journey files the swap moves: 84/84, the fix's four journeys and (a)'s two among them; then (a)'s journey
+      ×5 at each size, 10/10;
+    - gen/spa-nav-single-instance-law: 1/1;
+    - the neutral control's one red: (a)'s journey pressed the Flashcards tab while Settings was still fading in, and
+      `press` refuses opacity under 0.5. The journey now waits until a control is fully shown.
+- **Mutants**, each red at its named assertion, after a neutral control:
+  - the old footer → "no reveal control while they load";
+  - Reveal drawn while loading → the same;
+  - a card with no options left with nothing to press → "a failed load asks front and back, with its Reveal";
+  - (b) put back → "multiple choice in Last rolls under a stored Multiple choice".
+
+  The button alone setting `revealed` itself, with the loading footer kept, survives and is equivalent: Reveal is drawn
+  only where `drillReveal` lets a reveal through.
+
+## v1.282.1 — endgame-spa-nav-sheds-chip's census sets aside the skip a late flashcard manifest causes (FLAKE2, 2026-11-16)
+
+**The red.** My LIN2-R2 landing on b83c8659b ran `e2e:gen` 102 of 103. `endgame-spa-nav-sheds-chip.spec.ts:94` found two
+`land_q_skipped` beats in life 2 of a soft navigation, before the question. The test passed 5 of 5 alone, and CI was green.
+
+**The mechanism, proven by a cross.** A soft navigation boots a new instance, which fetches the flashcard manifest again.
+When the remounted landing renders before the manifest arrives, the app records the skip at once, by its documented design
+("A missing MANIFEST stays an immediate skip"). The backfill then asks the question when the deck lands. The spec pinned life
+2's beats exactly, so it counted that skip; its claim is "no residue of an earlier life".
+
+| the test | nothing held | the manifest held 1.5 s in the navigation | every flashcard request held |
+|---|---|---|---|
+| as it was | 30 of 30 green | red 5 of 5 | red 5 of 5 |
+| corrected | 10 of 10 (the file itself 5 of 5) | green 5 of 5 | green 5 of 5 |
+
+**The claim still gated.**
+- A beat of an earlier life carried into the next: red at the census.
+- The in-flight skip recorded under another reason: red at the new skip check.
+
+`spa-nav-single-instance-law.spec.ts` had met the same class before (D-332 D2-S2) and set those skips aside in the same way.
+Tests only; the ledger row stays accepted. The app's second skip, the backfill repeating it, is v1.282.2.
+
+## v1.282.2 — A backfill never repeats the landing's skip beat: one landing, one drop-off (FLAKE2's app finding, 2026-11-16)
+
+**The finding.** Found while proving FLAKE2. A landing that renders before the flashcard manifest arrives records
+`land_q_skipped {decks_in_flight}` once, by design. When the manifest lands, `onFlashcardsReady` → `_landBackfill`
+re-renders the same landing (`_landLate`). Its in-flight path called `_landQSkip` again (backfill: true), before the deck was
+even requested, and then the question docked. So one landing was two `question_skipped` events in the funnel, against the
+rule the card-layer path already states: "A backfill (`_landLate`) never repeats the skip beat."
+
+**The fix.** That immediate skip is guarded by `!this._landLate`. Nothing a player sees changes: the question still docks as
+the backfill.
+- **The analytics change:** the `land_q_skipped` beat, and PostHog's `question_skipped`, count one fewer for each landing
+  whose manifest arrives late; one landing is one drop-off.
+- **Its readers, surveyed:**
+  - `spa-nav-single-instance-law` accepts any number of in-flight skips, each checked; its comment said "at each render",
+    now corrected;
+  - `coldstart-late-payload` reads the last skip's reason and the set of reasons;
+  - `coldstart-spine` reads the last funnel `question_skipped`'s reason;
+  - `land-layers` checks that "collapsed" is present;
+  - no script reads it.
+
+  None counted on the double beat.
+
+**Proof.**
+- The test, in `coldstart-late-payload.spec.ts` (which holds the manifest): exactly one skip for the shown question's deck,
+  from its own render, then the backfilled question. Green 5 of 5; red 5 of 5 with the guard removed (dev's app).
+- The five readers, whole: 21 and 2 passed.
+- With the manifest held, life 2 of the soft navigation records one skip, then the question.
+
+## v1.283.0 — Every video a press opens plays in the current node's theater: a move's, a Principle's in the drawer, a reference page's in the reader (VID1, 2026-11-16)
+
+The owner, 15 November, from his pictures 10 (a move's video) and 11 (the current node's): "when i click to see a
+video, it should show that video in a tidier format rather than this huge space above and below the title of the
+technique ... it should start automatically, not wait for me to press play a second time. and pressing esc should close
+the video, same as clicking X button (there are 2 X buttons btw, i like the inner X best, but it's broken. i'd rather
+show the video only on top of everything, and dim the rest, and start it immediately, and have a discrete x on the
+corner, and people can either click the suroundings or the x or press exc to close it ... use the same mechanism the
+video card for the current node uses, it's perfect". Brief VID1, Part A accepted and ruled as VID1-GO (16 Nov).
+
+**Part A (dev 87d1e17ee, a real click at 1440x900 and a real tap at 390x631).** Six ways a video opened: the current
+node's card (the theater, VIDEO1), a move's play circle (a 620px modal), a reader page's and a drawer Principle's clip
+(played inside their card), the article's embeds (a link out) and a Systems trailer (mounted muted). The modal's band:
+Quartz's `header { margin: 2rem 0 }` on its title row. Its inner ✕ closed the player, not the modal. The second press:
+`autoplay: theater ? 1 : 0`.
+
+**Built.** `expandClip` always opens `_openFilmTheater` and asks the player to play (`autoplay: 1`, `playVideo()` on
+ready). A move's play circle hands it the move's media region (where the zoom starts), the circle (focus comes back to
+it), the poster and the name ("Watch <move>"); the modal, its title row, its CSS and `_choiceWatch` are deleted. The
+in-card player (the drawer's grow-in-place, its press-outside listener and its own Escape branch) is deleted. Every
+theater gives back the pause it found (only the move's modal did; the current card's theater left the game paused). A
+refused start, the player's own `onAutoplayBlocked`, mutes and plays at once, once per open, beat `video_autoplay_muted`
+(the current node's theater showed YouTube's Play there). The Tab wrap moved from the modal to the theater.
+`_clearLandFilm` stops only its own clips: a deck landing behind a move's video re-renders the film, and the old
+`clearClipLoops()` would have closed the move's theater mid-play (the modal survived it with its player destroyed).
+CLAUDE.md §7's stale "previews mount immediately without autoplay" corrected in its own commit.
+
+**What changed for a player besides the ruling.** The +4 film first look is earned on the press that opens a move's
+video (the provider's own "playing" report), as the current node's has been since VIDEO1: before, opening the modal
+earned nothing until a press inside the player. Once per technique, never for a Principle or reference clip, as before.
+
+**Specs.** New: `e2e/journeys/video-viewer.spec.ts`, 29 tests: 4 surfaces (move, current node, reader, drawer) × 3 exits (Esc, ✕, the dim) at
+1440x900 by mouse and 390x631 by touch, each comparing the scene before and after with the player destroyed; the refused
+start, muted at once, for the move and the current node at both sizes; a running game running again after a close. Changed: video-cards, concepts-surface,
+film-overlay-play, reading-media-placement, stakes-impact, guidance-defense, escape-clips, submission-card-odds,
+coldstart-backfill, gen ready-film-not-neglect and three gen specs' selectors, the DSL's watchChoice, the fixture's
+openChoiceVideo, ledger row core-023, and two units of tests/roll_execution.test.mjs (an open theater owns input;
+closing the move's theater gives back only its pause and focus, and nothing for a hand that ended). Every changed or removed assertion carries, beside it, what it claimed and what
+the old one did on this build (the PR lists them in one table). Mutant manifests: video_viewer_mutants.json (new),
+video_cards_mutants.py (autoplay, close_tabstop retargeted), video_theater_mutants.json (autoplay-request-disabled
+retargeted; four rows retired: no press reaches a player inside the reader's host).
+
+**Mutants (video_viewer_mutants.mjs, each at its named test with its named assertion).**
+10 of 10 red, each control green (16 Nov, head ab71d940e): no-autoplay-request and no-play-on-ready (move, Esc),
+esc-ignored (drawer), dim-not-closing (reader), second-x (current node, ✕), dim-removed and not-modal (move, dim),
+old-modal-from-move (move, ✕), muted-start-lost (current node at 390x631: the player stayed unstarted, -1, for 5s, as
+before VID1), pause-not-restored (the running game). video_cards_mutants.py's autoplay, close_tabstop and
+viewer_focus_wrap red with their controls green. The two units: four in-place mutants (activate-ignores-theater,
+quiet-close-restores, close-keeps-pause, player-not-destroyed) red at their messages. neural_app_mutants' watch-backfill-lost
+was keyed on `_choiceWatch`, a field VID1 deleted, so it mutated nothing; on `_filmTheater` it is red at its claim.
+
+**Runs (local, under the build lock; the full suites run on the PR).** Run 7 (16 Nov 18:37, head c845f0379, dev v1.281.2 merged): 24 journey files,
+322 of 322 (the 23 the touched files render and v1.280.3's restart-notice); 11 gen files, 12 of 12. Its two faults were
+the harness's (ab71d940e): video-cards' Watch pressed the ✕ mid-zoom once, and the viewer mutant runner's bare build was
+refused by the MDP pin. Run 8 (19:55, head ab71d940e): video-cards 24 of 24, both mutant sets, the app rows re-checked
+from a clean bundle (no row moved), the payload gate green. `npm run ci:validate` on 1b18e313e: 25 of 25 replayed steps green, units 1,752 of 1,752 (its
+first run, on 721937544, found the two stale units above: my survey had covered e2e/ but not this unit file).
+**VID1-CI.** The PR's first e2e-full shards all failed at collection: the viewer journey read the generated, gitignored
+source/quartz/static/neural/concepts.json at module load (now the served copy first, lazily); `npm run ci:validate` replays ci-validate.yml, not the e2e-full job, whose tree has no generated payload outside source/public.
+
+**VID1-R1 (the independent reader of #427: MERGE AFTER 2 fixes, no break in the app).** Every viewer journey started
+from a running game, so its R2 (every close un-pauses) turned nothing red: the same journey now starts paused (move
+and current node, three exits, both sizes; `close-always-unpauses`), and the unit closes with the closure the real
+`_openChoiceWatch` built. A quick double press put its second press inside the zooming player, whose frame then kept
+Esc: until the 360ms zoom settles a layer over the frame takes every press, the dim closes nothing (at 390x631 the
+current node's frame zooms off the tap's point, and the second tap shut the video it had opened) and the dialog keeps
+focus on the ✕ (`zoom-guard-removed`, `dim-closes-mid-zoom`, `dim-press-takes-focus-mid-zoom`); after a deliberate press
+inside the player Esc stays the provider's (said, not changed: a focus steal is the owner's choice). The test named
+"the dim over a card" pressed the map: the dim over another move's card is now pressed at 390x631 at a measured point
+(its R1, `dim-press-falls-through`). On dev v1.282.0 merged: 24 journey files 339 of 339, 11 gen files 12 of 12, 15
+of 15 viewer mutants and VIDEO1's two retargeted rows red with green controls, five unit mutants, ci:validate 25 of
+25 (units 1,763).
+
+**Bytes.** Against dev v1.281.2's own bundle (f6c2bcd3b, built from its export with its own app.src.jsx pinned):
+eager gzip −648 B (neural.js −550, neural.css −98), eager raw −2,698 B; deferred +3 B gzip, −3 B raw. The payload gate:
+eager gzip 369,629 B, under the 400,000 B action line (over the soft 300,000 B target, as dev is); deferred raw 521,915 of
+522,091 B.
+
+**Not covered.** No real iPhone or Safari ran here: the refused start is the player's own report from a stub pressed by
+real input. What goes with the in-card player: a reference clip no longer plays while the page beside it can still be
+read and scrolled; the theater dims the page until it closes (pictures 03 and 04). `pauseLandFilm`, `resumeFilm` and
+`_landFilmMoved` still exist and serve no state a press can reach (a playing clip is never inside the reader's host);
+`pauseLandFilm` keeps its own direct test. The Forward catalog mock may still draw the old modal (no parity gate).
+
+## v1.286.0 — The Practice order builds moves: priced by the rating's own game, at their position; the app does not ask yet (STAGE4 S0, 2026-11-16)
+
+**Ruled (STAGE4-GO, 16 Nov):** build S0 as `reports/mapasks.md` Part 4 says: the order Practice asks in takes the moves
+the rating prices, so a later stage can ask them; nothing a player sees changes.
+
+**What changed.** `ngPracticeItems` (practice-queue.src.js) takes `moves` (the moves record) and `moveSeats`
+({"<site ordinal>/<role>": "<Family>|Top|Bottom"}). Only with `moveSeats` does it build moves: every move the rating's
+game deals (`ngRatingUniverse`'s `seats`), priced at the game's own figure (read, never recomputed), its row the record's
+row under `_moveKey`'s seat and role, id "m:<seat>:<move>". Counted and never asked: null cells (`movesOutside`), seats
+with no position (`movesUnseated`), rows no dealt, seated move took (`movesUnmatched`: escapes, the other ruleset's
+seats). A record of move rows alone is a session. The law counts a move row without its answer at [3] as a bad row, as
+the rating does, and reads its schedule at index 4 (LIN1). `ngPracticeOrder` lists each visit's moves apart from the
+deck rows. The planner passes them through, keys its memo on the record, the seat map and the revision (`_gradeMove`
+edits in place; a pull replaces), and, only with moves asked, counts every move answer of the day 1 toward the goal in
+every place `overrun` is computed. Without `moveSeats` every output is today's, field for field: `planSummary` hands
+none, so today's page is unchanged.
+
+**Found while building.** With no deck loaded, a move can take one of the guard's three places where a card cannot (a
+dealt move is always answerable; ANKI1-R1's `sure`). The law as ruled.
+
+**Measured on the real wire:** gi deals 1,350 moves at 242 seats (18 null), no-gi 1,206 at 218; the move items add up to
+the game's `moveTotal` within 1e-9; no seat is unnamed.
+
+**Mutants:** 23 (11, 7 for the reader's findings, 3 for its re-check, 2 for the orchestrator's reader: a moves row read
+at index 3 or 5, which passed all 201 tests until a writer-made rung-pair row and the review's x and y order pinned the
+read at 4), each applied alone and red on a named test; the table, with the test each turns red, is the header of
+tests/practice_queue.test.mjs. **Not covered:** the app's own seat map (S1); the simulation's "seen" move has no row in
+the app (the replay hands it in as a non-row; on the app's record such a move is new).
+
+**The independent read** (an Opus reader, two rounds). Claim 1 held: dev against the branch with no seat map, real wire,
+both rulesets: 612, then 884 comparisons, 0 differences. Fixed and pinned: `overrun` dropped the moves where a deck's
+cards land and in today's order; seven surviving mutants. Its questions went to S1 (ruling 5's first-look row is owed
+tomorrow at full worth, which the frozen days never held; the guard's "three cards" words; a threat asked at the
+opponent's seat).
+
+**Bytes.** Final, on dev v1.283.0: gameplan.js 21,885 -> 23,457 B (+1,572, S0's own); the deferred ceiling is 522,323 B
+(the use 522,320 after #427's reader.js -3 B; 27,677 B of 550,000 remain); eager: none. One count went wrong and is
+corrected in the history (ae773bb31, then 0bdbecb84): a stale game worker core left in the served folder by this branch's
+own earlier build was counted beside the live one (+70,372 B). The served app folders are now emptied before a count.
+App rows re-seeded under the lock on each merged head (5358623c6, 858f11ed1).
+
+**Runs** (local, times from `date`): the units of every touched file after each merge of dev; the mutant runs;
+`npm run ci:validate` on each final head; the bundle, the count and the app rows under the lock. The full suites run on
+the PR (e2e-full, green on de56390ba).
+
+## v1.287.0 — The Path row leaves the drawer; its corridor lives in Master the game (SET1 slice B, PR #430)
+
+**What changed:**
+- The owner (15 Nov): "remove the Path section from the sidebar". Four small losses, accepted 16 Nov: the row's units
+  count, a lesson tap staging a roll, the "N of 20 today" band, and `neural_challenges_viewed`.
+- `neural_practice_opened` carries on: surface "practice" for the row, "corridor" for a corridor door.
+- `openCorridor` is the one door. A stored Path view lands on the list and is never written back. "Open Challenges" fires
+  on the corridor's first visible draw.
+- **A latent fault fixed:** `openHomeToLatest()`, deleted in v1.174.0, threw on a study action with no live lesson. Such
+  a row now draws no button.
+
+**PATH-R1, the independent read, six rulings:**
+1. View Collection's door sets the shelf flag in its own turn: a warm repaint had drawn the shelf closed.
+2. Corridor doors send surface "corridor".
+3. A startable earlier belt test is drawn first.
+4. ‹ Back from a corridor checkpoint returns there.
+5. The collection door lands on the shelf, and a lesson's ▸ reads "Study this lesson's cards".
+6. The reading position is pinned.
+
+**PATH-R2:**
+- The Back hold's release is pinned: a key, a wheel, a mouse press and a finger drag each let it go.
+- `openPane("challenges")` goes through `openCorridor`.
+
+**Mutants:**
+- Each ruling's mutant is red at its named assertion in corridor-reach or the telemetry spec, after a green control.
+- B2 and B5 had no gate at first, and are now pinned.
+- My "no non-kills" for PATH-R1 was wrong: the four lifters removed together stayed green until PATH-R2. PATH-R2's lifter mutants: all four, wheel, pointerdown and keydown red; touchstart alone green, the one non-kill (a Chromium drag also fires pointerdown).
+
+Runs, bytes and the full rulings are in the PR body. corridor-reach.spec.ts names its non-kill and one known limit (a
+shelf press in the instant the plan lands).

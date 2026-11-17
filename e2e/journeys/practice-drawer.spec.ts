@@ -1,5 +1,9 @@
 import { expect, test, type Page } from "@playwright/test";
 import { journey } from "../dsl";
+// v1.282.0 (rulings R2, SET1-GO): written when nothing stored meant Classic recall in the sidebar; since then nothing
+// stored is Auto (a new card asks multiple choice), so every journey here states the mode it was written under,
+// Front Back cards, through the DSL (`journey(page, CLASSIC)`), and keeps every assertion.
+const CLASSIC = { answerMode: "classic" } as const
 
 /** PD1-PD5. Practice is a view INSIDE the drawer, at the drawer's width, as Path is (owner U135 a, v1.261.0).
  * From v1.248.0 to v1.260.0 it was its own 760 px page centred over the map, which hid the map that follows each card.
@@ -84,24 +88,20 @@ async function openPractice(page: Page, j: any) {
 }
 
 for (const vp of [{ width: 390, height: 844 }, { width: 768, height: 1024 }, { width: 1440, height: 900 }]) {
-  test(`PD1: ${vp.width}×${vp.height} Practice opens inside the drawer, at the width Path and the list have`, async ({ page }) => {
+  // v1.287.0 (SET1 slice B): the Path view, which this compared too, left the drawer; Practice is held to the list's width
+  test(`PD1: ${vp.width}×${vp.height} Practice opens inside the drawer, at the width the list has`, async ({ page }) => {
     await page.setViewportSize(vp);
-    const j = journey(page); await j.boot("/");
+    const j = journey(page, CLASSIC); await j.boot("/");
     await page.waitForFunction(() => !!(window as any).__neural.curriculum);
     await seed(page, 2);
     await j.clickByMouse(".ng-logo", "open the drawer");
     const home = await drawer(page);
-    await j.clickByMouse('[data-explore-stats] [data-view="challenges"]', "Path");
-    await expect(page.locator(".ng-drawer-brand")).toHaveText("‹ Path");
-    const path = await drawer(page);
-    await j.clickByMouse(".ng-drawer-brand", "‹ Path, home");
     await openPractice(page, j);
-    await expect(page.locator(".ng-drawer-brand"), "the brand names the view, as it names Path").toHaveText("‹ Master the game");   // before: "‹ Practice" (v1.276.0, owner U169 c)
+    await expect(page.locator(".ng-drawer-brand"), "the brand names the view, as it names Last rolls").toHaveText("‹ Master the game");   // before: "‹ Practice" (v1.276.0, owner U169 c)
     const practice = await drawer(page);
     await page.keyboard.press("ArrowDown"); // the next technique: the drawer does not move as the session pages
     await expect.poll(() => page.evaluate(() => (window as any).__neural._session.idx)).toBe(1);
     const paged = await drawer(page);
-    expect(path, "Path is a view in the drawer at its width").toEqual(home);
     expect(practice, "PD1: Practice opens in the drawer at its width").toEqual(home);
     expect(paged, "PD1: and keeps it as the session pages").toEqual(home);
     expect(practice.left, "docked at the left edge").toBe(0);
@@ -111,7 +111,7 @@ for (const vp of [{ width: 390, height: 844 }, { width: 768, height: 1024 }, { w
 }
 
 test("PD2: 1440×900 each card's technique is flown to the free map beside the drawer, uncovered", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await j.land("Mount Top");   // a landed board: on a bare boot, advance() starts the roll that retires the session
   const due = await seed(page, 2);
@@ -158,7 +158,7 @@ test("PD2: 1440×900 each card's technique is flown to the free map beside the d
 
 test("PD3: ‹ Practice is Practice's one Back; a deck study keeps its own", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   const [deck] = await seed(page, 1);
   await j.clickByMouse(".ng-logo", "open the drawer");
@@ -223,7 +223,7 @@ const LONGEST = [
 for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { width: 1440, height: 900 }]) {
   test(`PD4: ${vp.width}×${vp.height} every answer button is 44 px, in the drawer and on screen with the longest cards`, async ({ page }) => {
     await page.setViewportSize(vp);
-    const j = journey(page); await j.boot("/");
+    const j = journey(page, CLASSIC); await j.boot("/");
     await page.waitForFunction(() => !!(window as any).__neural.curriculum);
     const due = await seed(page, LONGEST);
     expect(due[0].a, "the longest authored answer (160 characters, mcClip's ceiling)").toBeGreaterThanOrEqual(160);
@@ -259,7 +259,7 @@ for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { wi
 
   test(`PD4: ${vp.width}×${vp.height} a recognition card's choices are 44 px, in the drawer and on screen`, async ({ page }) => {
     await page.setViewportSize(vp);
-    const j = journey(page); await j.boot("/");
+    const j = journey(page, CLASSIC); await j.boot("/");
     await page.waitForFunction(() => !!(window as any).__neural.curriculum);
     await seed(page, 0);
     await j.rig("practice-mc-pick", Array(100).fill(.31)); await j.rig("practice-mc-shuffle", Array(100).fill(.56));
@@ -281,7 +281,7 @@ for (const vp of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { wi
 
 test("PD5: Practice keeps its own solid background, and the badge stays hidden while practising", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1);
   await j.clickByMouse(".ng-logo", "open the drawer");

@@ -194,6 +194,7 @@ test("×2 streak (pop live in DOM) → two soft navs: each remount boots combo-c
         chips: document.querySelectorAll("[data-momentum]").length,
         pops: document.querySelectorAll("[data-combo-pop]").length,
         beats: ((a.beats || []) as any[]).map((b) => b.beat),
+        skips: ((a.beats || []) as any[]).filter((b) => b.beat === "land_q_skipped").map((b) => ({ reason: b.reason, deckKey: b.deckKey })),
       }
     }, refName)
   const assertShed = (life: string, c: Awaited<ReturnType<typeof census>>, beats: string[]) => {
@@ -203,7 +204,15 @@ test("×2 streak (pop live in DOM) → two soft navs: each remount boots combo-c
     expect(c.combo, `${life}: (_combo||0) === 0 — the meter never existed on this instance`).toBe(0)
     expect(c.chips, `${life}: zero [data-momentum] anywhere in the document — no ghost chip`).toBe(0)
     expect(c.pops, `${life}: zero [data-combo-pop] anywhere in the document — the live pop died with __ngRoot`).toBe(0)
-    expect(c.beats, `${life}: exactly this arrival's beats, no combo_break or earlier life residue`).toEqual(beats)
+    // THE CLAIM IS "NO RESIDUE", NOT "THE MANIFEST WAS ALREADY IN" (FLAKE2). A soft navigation boots a new instance, whose
+    // flashcard manifest is fetched again; when the remounted landing runs before it arrives, the app records the skip at once
+    // by design (app.src.jsx, the landing's skip verdict: "A missing MANIFEST stays an immediate skip"), then its backfill asks the question
+    // when the deck lands (land_q_shown carries backfill: true in every run). So skips whose reason is `decks_in_flight` are
+    // this arrival's own and are set aside; any other skip, or any beat of an earlier life, still fails the exact census.
+    // Measured: the manifest held 1.5 s during the navigation made the old exact census red 5 of 5, this one green 5 of 5
+    expect(c.skips.filter((k) => k.reason !== "decks_in_flight"), `${life}: no landing skipped for any reason but a deck still in flight`).toEqual([])
+    const own = c.beats.filter((b) => b !== "land_q_skipped")
+    expect(own, `${life}: exactly this arrival's beats, no combo_break or earlier life residue`).toEqual(beats)
   }
 
   // ── NAV 1 mid-streak → /Positions/Mount ──

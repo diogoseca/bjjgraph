@@ -5,7 +5,7 @@ import { openChoiceVideo, playChoiceVideo } from "../fixtures/video-cards"
 import { beltReady } from "./personas"
 
 /** v1.230.0 reverses v1.218.1/v1.220.0 Inspect. Watch declines the clock for free,
- * then only explicit playback earns film first-look. The modal blocks gameplay keys;
+ * then only playback earns film first-look (VID1: the press that opens Watch plays it). The theater blocks gameplay keys;
  * Close restores the same unanswered question and its momentum credit.
  */
 
@@ -109,7 +109,9 @@ test("film with a question pending: Watch declines it free, +4 mints, the film n
   s = await state(page)
   expect(s.pending, "_landPending dropped by Watch's decline (v1.134.0), before any film").toBe(false)
   expect(s.combo, "declining is free — the streak is still ×1").toBe(1)
-  expect(await page.evaluate(() => !!(window as any).__neural._choiceWatch), "Watch owns keyboard input").toBe(true)
+  // VID1: Watch is the current node's theater (WAS, to v1.280.0: the move's modal, `_choiceWatch`; on the VID1 build this
+  // read false, the field is gone). The claim is unchanged: while it is open it owns the keys.
+  expect(await page.evaluate(() => !!(window as any).__neural._filmTheater), "Watch owns keyboard input").toBe(true)
   await page.keyboard.press("a")
   expect(await count(j, "land_q_answered"), "a letter cannot answer beneath Watch").toBe(1)
   await playChoiceVideo(page)
@@ -136,8 +138,8 @@ test("film with a question pending: Watch declines it free, +4 mints, the film n
   // ── and the streak RESUMES: Close returns from the focused provider iframe;
   //    answering the SAME question right afterwards climbs to DOUBLE. Modal Escape
   //    without provider focus is covered separately by video-cards/keyboard. ──
-  await j.clickByMouse("[data-watch-close]", "Close the playing video")
-  expect(await page.evaluate(() => !!(window as any).__neural._choiceWatch), "Close dismissed Watch").toBe(false)
+  await j.clickByMouse(".ng-video-theater .ngClipX", "Close the playing video")
+  expect(await page.evaluate(() => !!(window as any).__neural._filmTheater), "Close dismissed Watch").toBe(false)
   expect((await state(page)).mcSurface, "the landing question owns the keyboard again (`_handBackMc`)").toBe("land")
   await answer(page)
   s = await state(page)

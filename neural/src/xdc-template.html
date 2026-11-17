@@ -133,9 +133,10 @@
        Carries BOTH classes: .ng-drill (pane rails + drilltab specs) and .ng-explorer
        (learning-panel visibility specs). Visibility is display-based (flex/none). -->
   <div ref="{{ drillRef }}" class="ng-drill ng-explorer" role="complementary" aria-label="Sidebar" style="display:none;position:absolute;top:0;left:0;bottom:0;width:360px;z-index:8;background:linear-gradient(180deg,rgba(18,21,38,.985),rgba(13,15,28,.985));border-right:1px solid rgba(130,150,190,.16);box-shadow:14px 0 44px rgba(0,0,0,.5);flex-direction:column;pointer-events:auto;">
-    <!-- THE DRAWER HEAD (owner A5/E1, v1.242.0). The tab nav is gone: Explore, Train (Practice ·
-         Path), your lists and Last rolls are ONE list (renderExplorer). The brand is the way home
-         from Path or Last rolls ("‹ Path"), so it carries `data-view="explore"` (_paintDrawerHead). -->
+    <!-- THE DRAWER HEAD (owner A5/E1, v1.242.0). The tab nav is gone: Explore, Train (Master the
+         game; the Path row left in v1.287.0), your lists and Last rolls are ONE list (renderExplorer).
+         The brand is the way home from Master the game or Last rolls ("‹ Last rolls"), so it carries
+         `data-view="explore"` (_paintDrawerHead). -->
     <div class="ng-drawer-head">
       <button ref="{{ viewToggleRef }}" type="button" data-view="explore" class="ng-drawer-brand" onClick="{{ drawerHome }}"></button>
       <button onClick="{{ closeDeck }}" class="ng-explorer-close" type="button" title="Close panel" aria-label="Close panel"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="3"></rect><path d="M9.5 4.5v15"></path></svg></button>

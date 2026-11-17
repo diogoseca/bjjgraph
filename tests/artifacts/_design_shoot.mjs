@@ -78,7 +78,8 @@ await shoot({ width: 1440, height: 900 }, "d", async (page, boot, snap) => {
   await page.evaluate(() => window.__neural.openPane("challenges"));
   await page.waitForTimeout(1500);
   await snap("10-pane-challenges");
-  await page.evaluate(() => { const a = window.__neural; a.setDeckOpen(false); a.openHomeToLatest(); });
+  // `openHomeToLatest` left with the History tab's study home in v1.174.0; Last rolls is its successor (v1.287.0, SET1 slice B)
+  await page.evaluate(() => { const a = window.__neural; a.setDeckOpen(false); a.openPane("history"); });
   await page.waitForTimeout(1500);
   await snap("11-pane-history-study");
   await page.evaluate(() => { window.__neural.setDeckOpen(false); window.__neural.openSettings("rolling"); });

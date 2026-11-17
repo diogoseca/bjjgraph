@@ -88,19 +88,28 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     await expect(page.locator('[data-choice-group="you"] > div').first()).toContainText("Your moves")
     const before = await state(page)
     await j.clickByMouse(`${CARD} [data-choice-watch]`, "Watch the approved front")
-    await expect(page.locator("[data-choice-viewer]")).toBeVisible()
+    // VID1 (owner, 15 Nov: "it should start automatically, not wait for me to press play a second time ... use the same
+    // mechanism the video card for the current node uses"): the play circle opens the theater and the video plays.
+    // WAS (v1.231.0 to v1.280.0): `[data-choice-viewer]` visible, `vars.autoplay` 0 and `play` 0 (the move's modal waited
+    // for the player's own Play). Run against the VID1 build with only its selectors moved, it failed with autoplay 1, play 1.
+    await expect(page.locator(".ng-video-theater")).toBeVisible()
     await expect.poll(() => page.evaluate(() => (window as any).__players.length)).toBe(1)
+    await expect.poll(() => page.evaluate(() => (window as any).__players[0].play)).toBe(1)
     expect(await page.evaluate(() => (window as any).__players[0])).toMatchObject({
-      id: "aaaaaaaaaaa", vars: { autoplay: 0, controls: 1 }, play: 0,
+      id: "aaaaaaaaaaa", vars: { autoplay: 1, controls: 1 }, play: 1, state: 1,
     }) // The approved 600-second front wins over the 20-second alternate.
-    const playerInsets = await page.locator("[data-choice-viewer] iframe").evaluate(player => {
+    const playerInsets = await page.locator(".ng-video-theater iframe").evaluate(player => {
       const r = player.getBoundingClientRect(), frame = player.closest(".ngPlayerHost")!.getBoundingClientRect()
       return [r.top - frame.top, frame.bottom - r.bottom, r.left - frame.left, frame.right - r.right]
     })
     expect(playerInsets.every(inset => Math.abs(inset) < .5), "playback fills the frame without clipping an iframe border").toBe(true)
     await page.keyboard.press("1"); await page.keyboard.press("Shift+Digit1"); await page.keyboard.press("x"); await page.keyboard.press("a")
     expect(await state(page)).toEqual(before)
-    await j.clickByMouse("[data-watch-close]", "Close the video viewer")
+    // The theater's one ✕ (WAS: the modal's own `[data-watch-close]`, one of its two), pressed once the 360ms zoom has
+    // finished, as openChoiceVideo's is: a ✕ measured mid-zoom is pressed where it no longer is, on the video, and the
+    // theater stays open (seen once, in the viewer_focus_wrap mutant run, whose mutant cannot touch a mouse press).
+    await page.locator(".ng-video-theater").evaluate(async d => { await Promise.all(d.getAnimations().map(a => a.finished)) })
+    await j.clickByMouse(".ng-video-theater .ngClipX", "Close the video")
     await expect(watch).toBeFocused()
     expect(await page.evaluate(() => (window as any).__players[0].destroy)).toBe(1)
 
@@ -186,6 +195,10 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
   })
 }
 
+// VID1: the move's video is the theater, with ONE Close before the player. WAS (v1.231.0 to v1.280.0) this walked the modal's
+// three stops: its Close, the player and the player's own inner Close (the second ✕ the owner photographed); that walk
+// failed on the VID1 build at the modal's Close (no `[data-choice-viewer]`). The claim is unchanged: the keyboard can leave
+// the cross-origin player for Close, come back, and close without reaching the page.
 test("keyboard can leave cross-origin playback and close the modal without reaching the page", async ({ page }) => {
   const errors: string[] = []; page.on("pageerror", e => errors.push(e.message))
   await boot(page, "approved", { crossOriginPlayer: true })
@@ -195,32 +208,33 @@ test("keyboard can leave cross-origin playback and close the modal without reach
   await watch.focus()
   const before = await state(page)
   await page.keyboard.press("Enter")
-  const dialog = page.locator("[data-choice-viewer]"), close = dialog.locator("[data-watch-close]")
+  const dialog = page.locator(".ng-video-theater"), close = dialog.locator(".ngClipX")
   await expect(dialog).toBeVisible()
   await expect(close).toBeFocused()
+  await expect(dialog.getByRole("button", { name: "Close video", exact: true }), "one Close").toHaveCount(1)
   const player = dialog.locator("[data-test-player]")
   await expect(player).toHaveAttribute("src", "https://www.youtube-nocookie.com/embed/aaaaaaaaaaa")
-  const play = page.frameLocator("[data-choice-viewer] [data-test-player]").getByRole("button", { name: "Play video" })
+  const play = page.frameLocator(".ng-video-theater [data-test-player]").getByRole("button", { name: "Play video" })
   await expect(play).toBeVisible()
   expect(await play.evaluate(() => location.origin)).not.toBe(new URL(page.url()).origin)
+  await expect.poll(() => page.evaluate(() => (window as any).__players[0].play), { message: "the Enter that opened it played it" }).toBe(1)
   await page.keyboard.press("Tab")
   await expect(play).toBeFocused()
   await page.keyboard.press("Enter")
-  await expect.poll(() => page.evaluate(() => (window as any).__players[0].play)).toBe(1)
+  await expect.poll(() => page.evaluate(() => (window as any).__players[0].play)).toBe(2)
   // Escape inside the provider is not a reliable parent-dialog exit. The Close
   // control directly precedes the iframe, so Shift+Tab is an explicit exit path.
   await page.keyboard.press("Shift+Tab")
   await expect(close).toBeFocused()
-  await page.keyboard.press("Tab")
-  await expect(play).toBeFocused()
-  await page.keyboard.press("Tab")
-  await expect(dialog.getByRole("button", { name: "Close video", exact: true })).toBeFocused()
-  await page.keyboard.press("Tab")
-  await expect(close).toBeFocused()
+  // ...and the wrap (moved from the modal to the theater): Shift+Tab on the first stop goes back to the player, never to
+  // the page. The wrap can focus the iframe, not a control inside another origin's document (asserting the provider's Play
+  // here failed on the VID1 build: "inactive"). From the frame, Shift+Tab walks the provider's own controls from its
+  // last (this fixture has one, Play; asserting Close here failed on the VID1 build: "inactive"), and the next leaves the
+  // player for Close again.
   await page.keyboard.press("Shift+Tab")
-  await expect(dialog.getByRole("button", { name: "Close video", exact: true })).toBeFocused()
+  await expect(player, "the wrap lands on the player").toBeFocused()
   await page.keyboard.press("Shift+Tab")
-  await expect(play).toBeFocused()
+  await expect(play, "inside the player, from its last control").toBeFocused()
   await page.keyboard.press("Shift+Tab")
   await expect(close).toBeFocused()
   expect(await state(page)).toEqual(before)
@@ -273,5 +287,5 @@ test("dragging the hand across a card never commits or opens its video", async (
   await page.mouse.move(r.x + r.width / 2 - 45, r.y + r.height / 2, { steps: 8 })
   await page.mouse.up()
   expect(await state(page)).toEqual(before)
-  await expect(page.locator("[data-choice-viewer]")).toHaveCount(0)
+  await expect(page.locator(".ng-video-theater")).toHaveCount(0)
 })

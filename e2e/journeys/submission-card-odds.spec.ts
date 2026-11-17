@@ -27,6 +27,10 @@ import { journey } from "../dsl"
  * The historical Inspect-row mutant retired with that shell in v1.230.0. The
  * replacement assertion reads the actual card's accessible Works explanation.
  * Harness note: dossier chunks are served as `{}`; this journey makes no video claim.
+ * VID1 (v1.283.0): the press that opens a move's video plays it, and the player's "playing" report earns the
+ * once-per-technique film first look (+4), so watching NAMED[0] moves its own Works. "Works == Finish" now compares the
+ * Works the card prints at the pick, read after the watch. WAS: the Works read before the watch (opening the modal
+ * earned nothing then); on the VID1 build that assertion failed, 59 for 55.
  */
 
 const DECK = "Closed Guard|Bottom"
@@ -95,6 +99,12 @@ test("a submission card prints the finish it leads to, never its certain step, a
   await expect(entry).toHaveAttribute("title", new RegExp("finish works " + works[NAMED[0]] + "%"))
   await expect(entry).not.toHaveAttribute("title", /100%/)
   await j.watchChoice(NAMED[0])
+  // VID1: the watch played it and earned its film first look, so read what the card prints NOW, at the pick.
+  await settled(page)
+  const picked = (await faces(page)).find((c) => !c.threat && c.t === NAMED[0])!
+  expect(picked.label, "still a Works card after the watch").toBe("Works")
+  expect(picked.odds, "prints a finish chance after the watch").toMatch(/^\d+$/)
+  await expect(entry).toContainText(picked.odds)
 
   // Pick it: the entry is certain, and the Finish card you are dealt prints what Works promised
   await j.pick(NAMED[0])
@@ -108,5 +118,5 @@ test("a submission card prints the finish it leads to, never its certain step, a
   }
   expect(finish, "the Finish card is dealt inside the submission").not.toBeNull()
   expect(finish!.at).toBe(NAMED[0])
-  expect(finish!.odds, "Works on the entry card == the Finish card's chance").toBe(works[NAMED[0]])
+  expect(finish!.odds, "Works on the entry card at the pick == the Finish card's chance").toBe(picked.odds)
 })

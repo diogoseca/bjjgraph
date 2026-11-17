@@ -290,9 +290,6 @@ const NG_PRACTICE_GOAL = 20;
 // 14 spec lines select on, and `neural_practice_opened` an event id), and identifiers keep "practice".
 const NG_PRACTICE_NAME = "Master the game";
 const NG_PRACTICE_START = "Start today's session";
-// the Path band's chip where NG_PRACTICE_START and the line beside it do not both fit uncut (R409 item 4; the band's aria
-// keeps the full words at every width): challenge-ui.src.js, one scope with this file in the bundle
-const NG_PRACTICE_START_SHORT = "Start";
 // The drawer row's belt colours (v1.276.0): the drawn belt's (its blue is the design's #2c5299), deeper than the Path's
 // UI tints (NG_CHALLENGE_TRACK_COLORS), under the same woven texture (helmet.html `.ng-belt`). Black wears a red bar.
 const NG_BELT_ROW_COLORS = Object.freeze({ white: "#e6e2d6", blue: "#2c5299", purple: "#673c98", brown: "#77492b", black: "#1d1d22" });
@@ -372,14 +369,15 @@ const NG_RESIDENCY_MAX_HOLD_MS = 2000;
 // runs ~4x slower.
 const NG_READER_FIRST_LAYOUT_MS = 3000;
 // THE PANE'S VIEWS — `setViewMode` validates against this set. Since v1.242.0 (owner A5/E1) they are no
-// longer tabs: "explore" is the drawer's home list, and Path (`challenges`) and Last rolls
-// (`history`) open from its rows, the brand leading back ("‹ Path"). The view ids never migrated.
-const NG_PANE_TABS = ["explore", "challenges", "history"];
+// longer tabs: "explore" is the drawer's home list, and Last rolls (`history`) opens from its row, the brand leading
+// back ("‹ Last rolls"). THE PATH (`challenges`) LEFT THE DRAWER in v1.287.0 (owner 15 Nov: "it's time to remove the Path
+// section from the sidebar"; SET1 slice B): its corridor's one home is Master the game, and a request for the retired
+// view, or its older alias `collection`, opens it there (`openCorridor`). The view ids never migrated.
+const NG_PANE_TABS = ["explore", "history"];
 // The drawer's glyphs (owner board E1 / T-b): stroked 24px paths, drawn by `ngIcon`.
 const NG_IC = {
   explore: '<circle cx="12" cy="12" r="8.5"/><path d="M15.4 8.6l-2.1 4.7-4.7 2.1 2.1-4.7z"/>',
   practice: '<rect x="4.5" y="5" width="15" height="14.5" rx="2.5"/><path d="M4.5 9.5h15M9 3v3.5M15 3v3.5M9.5 14.2l1.8 1.8 3.4-3.6"/>',
-  path: '<path d="M8 4h8v4a4 4 0 01-8 0zM5 5h3v3a3 3 0 01-3-3zM19 5h-3v3a3 3 0 003-3zM12 12v4m-4 4h8"/>',
 };
 function ngIcon(d) { return '<svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + d + '</svg>'; }
 const NG_DRAWER_LOGO = '<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24"><path d="M6.5 16.5l5-9 6 7" stroke="#9ea3ff" stroke-width="1.8" fill="none" stroke-linecap="round"/><circle cx="6.5" cy="16.5" r="2.6" fill="#9ea3ff"/><path d="M11.5 4.6l2.6 2.9-2.6 2.9-2.6-2.9z" fill="#d5d9ea"/><path d="M17.5 11.9l3 5.1h-6z" fill="#e8c070"/></svg>';
@@ -589,10 +587,6 @@ class Component extends DCLogic {
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; }
     if (this._onPageHide) window.removeEventListener("pagehide", this._onPageHide);
     if (this._onVisHide) document.removeEventListener("visibilitychange", this._onVisHide);
-    if (this._onChallengeConnectivity) {
-      window.removeEventListener("online", this._onChallengeConnectivity);
-      window.removeEventListener("offline", this._onChallengeConnectivity);
-    }
     if (this._raf) cancelAnimationFrame(this._raf);
     if (this._ro) this._ro.disconnect();
     if (this._onChoiceFonts) document.fonts.removeEventListener("loadingdone", this._onChoiceFonts);
@@ -1055,7 +1049,6 @@ class Component extends DCLogic {
     this._onKey = (e) => {
       const t = e.target, typing = t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
       if (this._filmTheater) { if (e.key === "Escape") { e.preventDefault(); this.collapseClip(this._filmTheater.card); } return; }
-      if (this._choiceWatch) { if (e.key === "Escape") { e.preventDefault(); this._closeChoiceWatch(); } return; }
       if (e.key !== "Escape" && this.modalRef.current?.style.display === "flex") return;
       if (e.key !== "Escape" && this._readKey(e)) return;
       if (((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing)) {
@@ -1071,9 +1064,6 @@ class Component extends DCLogic {
         if (this.closeModalIfOpen()) return;
         if (this.closeListPicker()) return; // anchored chooser, same deliberate band as the menu
         if (this.closeAccountMenu()) return;
-        if (this._expandedClip && this._expandedClip.closest("[data-concept-film]")) {
-          e.preventDefault(); const clip = this._expandedClip; this.collapseClip(clip); clip.focus(); return;
-        }
         if (this.stopReplay("esc")) return;  // a film is ambient chrome: it stops before the pane closes
         if (this.deckShown) this.setDeckOpen(false);
       } else if (!typing && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
@@ -1103,18 +1093,6 @@ class Component extends DCLogic {
         else if (e.key === "ArrowRight") this.drillNext();
         else if (e.key === "ArrowDown") { if (!this.drillTechNav(1)) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); } }
         else if (e.key === "ArrowUp") { if (!this.drillTechNav(-1)) { if (this.revealed) this.drillGrade(false); else this.drillReveal(); } }
-      } else if (!typing && this._challengeInline() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
-        // THE CORRIDOR'S TWO AXES (v1.175.0, owner: "keys navigation especially for the
-        // flashcards in the challenges … up arrow down arrow left right space enter"). Identical
-        // in shape to the History-home and inline-session branches above, on the same `_miniReg`
-        // handles: ←/→ page the open lesson deck's cards, ↑/↓ walk the ladder's lesson rows,
-        // opening each one as it arrives (`challengeLessonNav`, challenge-ui.src.js).
-        // ORDER: BELOW the drill branch, so a checkpoint quiz or a lesson study — both
-        // `_paneStudyActive`, which `_challengeInline` excludes — keeps the keys it already had;
-        // ABOVE the landing card's ←/→, for the reason that branch states about itself.
-        e.preventDefault();
-        if (e.key === "ArrowUp" || e.key === "ArrowDown") this.challengeLessonNav(e.key === "ArrowDown" ? 1 : -1);
-        else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (e.key === "Enter" && !typing) {
         // ── ⏎ COMMITS THE CARD IN FRONT OF YOU (v1.175.0) ─────────────────────────────────────
         // Space FLIPS a card, ⏎ says "got it" and walks on (`doEnter` in `_miniDeck` owns the
@@ -1328,18 +1306,7 @@ class Component extends DCLogic {
     this.settings = this.settings || {};
     this._loadProgress(); // restore prep / daily history / settings (guest persistence)
     this._renderLayerDock(); // a layer put away last visit shows its dock glyph from the first frame
-    this._onChallengeConnectivity = () => {
-      const explorer = this.explorerRef.current;
-      if (
-        this._viewMode === "challenges" &&
-        explorer &&
-        explorer.style.display === "flex"
-      ) {
-        this.renderExplorer();
-      }
-    };
-    window.addEventListener("online", this._onChallengeConnectivity);
-    window.addEventListener("offline", this._onChallengeConnectivity);
+    // (the Path's repaint on going online or offline left with the Path, v1.287.0)
     // THE AFFILIATE FUNNEL'S ONE EVENT, RE-EMITTED (v1.106.7). `affiliateTracking.inline.ts` —
     // the only `affiliate_clickout` delegate — died with the legacy front-end in v1.80.0, and
     // v1.83.0 restored the ATTRIBUTES but not the listener, so the documented funnel (CLAUDE.md
@@ -2622,62 +2589,44 @@ class Component extends DCLogic {
   _stopConceptFilm() {
     if (this._expandedClip && this._expandedClip.closest("[data-concept-film]")) this.clearClipLoops();
   }
-  expandClip(card, clip, resume = false) {
+  // ONE VIEWER FOR EVERY VIDEO A PRESS OPENS (VID1, owner 15 Nov: "i'd rather show the video only on top of everything,
+  // and dim the rest, and start it immediately, and have a discrete x on the corner, and people can either click the
+  // suroundings or the x or press esc to close it ... use the same mechanism the video card for the current node uses,
+  // it's perfect"). Every caller gets the theater: the current node's card, a reference page's film in the reader, a
+  // Principle's film in the drawer, a move's play circle (through `_openChoiceWatch`) and the reader's Resume.
+  // `_openFilmTheater` portals the player into a modal <dialog>; the card stays exactly where it was.
+  // WAS, to v1.280.0: only the current node's card zoomed and asked YouTube to play (`autoplay: theater ? 1 : 0`). A
+  // reference or Principle clip grew inside its card (and closed on a press outside it), and a move opened a 620px
+  // modal whose title row carried Quartz's 32px header margins above and below (CLAUDE.md §6.1) and a second ✕, the
+  // player's own, which closed the PLAYER and left the modal open on a poster. Each of those waited for YouTube's Play.
+  // `own` is a move's: { node, source, poster, label, onClose }. `card` is then the move's media region (the zoom
+  // starts from its poster), `source` its play circle (focus returns there), `node` the move a playback credits.
+  // Pinned by video-viewer.spec.ts (every surface, by mouse and by touch) and video-theater.spec.ts.
+  expandClip(card, clip, own = null) {
     if (!card || !clip || card._expanded) return;
     // D-354 N1's slot placement is retired with the Videos lift (D-368, layout C): a game film stays in the
     // game's media home, so a play never leaves an empty Videos slot to fill.
     if (this._expandedClip && this._expandedClip !== card) this.collapseClip(this._expandedClip);
-    if (card.closest(".ng-landfilm,.ng-choice-viewer")) this._choiceLearn();
+    // Watching is reading (`_choiceLearn`: the hand touched, its question declined, the game paused), and closing gives
+    // back the pause it found: VID1 asks every way out to leave the app as it was. A move's opener does this itself,
+    // reading the pause before its own `_choiceLearn`. (WAS, VIDEO1 to v1.280.0: the current card's theater left the
+    // game paused after it closed; only the move's modal gave the pause back.)
+    let restore = own ? own.onClose : null;
+    if (!own && card.closest(".ng-landfilm")) { const was = this.paused; this._choiceLearn(); restore = () => this.setPaused(was === true); }
     card._expanded = true; card._mediaPaused = false; card._mediaStale = false; card._mediaClip = clip;
     card._playerReady = false; this._expandedClip = card;
     const generation = card._mediaGeneration = (card._mediaGeneration || 0) + 1;
     const live = () => card.isConnected && card._expanded && card._mediaGeneration === generation;
-    const row = card.parentElement;
-    const framed = card.closest(".ng-landfilm,.ng-choice-viewer");
-    if (!framed) {
-      card._bw = card.offsetWidth; card._bh = card.offsetHeight;
-      // v1.230.0, restored with the video cards' merge (its player had dropped it): a principle's film plays inside the
-      // scrolling Learning pane, so its height is capped by the pane, a portrait keeping its shape, and its final
-      // rectangle is revealed there (concepts-surface: the expanded portrait and its close button fit the pane).
-      const list = card.closest("[data-concept-film]") && this.explorerListRef.current;
-      let width = Math.min(496, (row?.clientWidth || 460) * .96), height = Math.min(460, width * (clip.vertical ? 16 / 9 : 9 / 16));
-      if (list && height > list.clientHeight - 16) { height = Math.max(1, list.clientHeight - 16); width = Math.min(width, height * (clip.vertical ? 9 / 16 : 16 / 9)); }
-      card.style.setProperty("width", width + "px", "important");
-      card.style.setProperty("height", height + "px", "important");
-      // The reveal runs again when the height transition ends: on the first frame the card is still its row
-      // height, so the list may not yet be tall enough to scroll the final rectangle into view (H136: 1440, the
-      // card's bottom at 700 against the pane's 678, the scroll clamped at the row-height content).
-      const reveal = () => {
-        if (!live()) return;
-        const view = list.getBoundingClientRect(), top = card.getBoundingClientRect().top;
-        if (top + height > view.bottom - 8) list.scrollTop += top + height - view.bottom + 8;
-        else if (top < view.top + 8) list.scrollTop += top - view.top - 8;
-      };
-      if (list) {
-        requestAnimationFrame(reveal);
-        const grown = e => { if (e.target !== card || e.propertyName !== "height") return; card.removeEventListener("transitionend", grown); reveal(); };
-        card.addEventListener("transitionend", grown);
-      }
-    }
-    card.style.cursor = "default";
     const launch = card.querySelector("[data-film-play]"); if (launch) launch.hidden = true;
     const ph = document.createElement("div"); ph.className = "ngPlayerHost";
     ph.style.cssText = "position:absolute;inset:0;background:#000;z-index:2;";
-    const vhost = document.createElement("div"); ph.appendChild(vhost); card.appendChild(ph);
+    const vhost = document.createElement("div"); ph.appendChild(vhost);
+    // The theater's ONE ✕ (the owner: "a discrete x on the corner"). Focus returns to `source` in collapseClip.
     const close = document.createElement("button"); close.type = "button"; close.className = "ngClipX";
     close.textContent = "✕"; close.setAttribute("aria-label", "Close video");
     close.style.cssText = "position:absolute;top:0;right:0;z-index:7;width:44px;height:44px;background:rgba(8,10,16,.85);border:0;border-radius:8px;color:#eef1f6;cursor:pointer;";
-    close.onclick = e => { e.stopPropagation(); this.collapseClip(card); launch?.focus({ preventScroll: true }); };
-    card.appendChild(close);
-    const theater = card.closest("[data-land-film]:not([data-reference-film])");
-    if (theater) this._openFilmTheater(card, clip, ph, close, launch);
-    // An outside activation of a section control is a pause/move, never a close.
-    // This listener only closes a non-current reference clip; current media keeps
-    // its identity until its own Close or a real node/role teardown.
-    if (!framed) {
-      card._outside = e => { if (live() && !card.contains(e.target)) this.collapseClip(card); };
-      document.addEventListener("pointerdown", card._outside, true);
-    }
+    close.onclick = e => { e.stopPropagation(); this.collapseClip(card); };
+    this._openFilmTheater(card, clip, ph, close, own ? own.source : launch, own, restore);
     // §6.6: the fallback says it fired. `e` is the player's onError; no `e` means the script itself failed.
     const fail = e => {
       if (!live()) return;
@@ -2688,12 +2637,13 @@ class Component extends DCLogic {
       link.style.cssText = "display:grid;place-items:center;height:100%;color:#dce6ff;font-size:13px;";
       ph.replaceChildren(link);
     };
+    let mutedStart = false;
     this.ytApiReady().then(YT => {
       if (!live()) return;
       if (!YT?.Player) { fail(); return; }
       const player = new YT.Player(vhost, {
         width: "100%", height: "100%", videoId: clip.id,
-        playerVars: { autoplay: theater ? 1 : 0, controls: 1, start: clip.start || 0, end: clip.end || undefined, rel: 0, playsinline: 1 },
+        playerVars: { autoplay: 1, controls: 1, start: clip.start || 0, end: clip.end || undefined, rel: 0, playsinline: 1 },
         events: {
           onReady: e => {
             if (!live()) return;
@@ -2701,9 +2651,17 @@ class Component extends DCLogic {
             const iframe = e.target.getIframe?.();
             if (iframe) { iframe.title = clip.title || "Technique video"; iframe.setAttribute("allow", "autoplay; encrypted-media; picture-in-picture; fullscreen"); }
             if (card._mediaPaused || card.closest("[hidden],[inert]")) e.target.pauseVideo();
-            // A fallback move discards the old handle. Only an explicit Resume
-            // may start its replacement, after this fresh player's ready event.
-            else if (resume || theater) e.target.playVideo();
+            else e.target.playVideo();
+          },
+          // A browser that refuses sound a script starts (iPhone Safari: a play must come from a tap INSIDE the
+          // provider's frame) refuses this one. Start it muted at once instead, with YouTube's own unmute control:
+          // one tap for sound, never a second Play (VID1). Once per open, so a refused muted play cannot loop; the beat
+          // says it fired (§6.6). Chromium plays with sound from the press that opened the theater (measured, VID1).
+          onAutoplayBlocked: e => {
+            if (!live() || mutedStart || card._mediaPaused) return;
+            mutedStart = true;
+            this.fx("video_autoplay_muted", { id: clip.id });
+            try { e.target.mute(); e.target.playVideo(); } catch (err) { /* the player's own Play remains */ }
           },
           onStateChange: e => {
             if (!live()) return;
@@ -2712,7 +2670,7 @@ class Component extends DCLogic {
             // the position/technique study surfaces (sections: a reference page earns no gameplay credit).
             if (e.data === 1 && !card._watched && !card.closest("[data-concept-film],[data-reference-film]")) {
               card._watched = true; this.fx("short_watched", { id: clip.id });
-              this._filmFirstLook(card.closest("[data-land-film],[data-choice-viewer]")?._ngVideoNode);
+              this._filmFirstLook(own ? own.node : card.closest("[data-land-film]")?._ngVideoNode);
             }
           },
           onError: fail,
@@ -2722,61 +2680,83 @@ class Component extends DCLogic {
     });
     this._dockLandFilm();
   }
-  // Portal only the player rectangle. Its card stays in the reader's measured flow;
+  // Portal only the player rectangle. Its card stays in the reader's measured flow, the drawer or the hand;
   // the iframe is created in its final home, so opening never reloads a live player.
-  _openFilmTheater(card, clip, host, close, source) {
+  _openFilmTheater(card, clip, host, close, source, own, onClose) {
     const from = card.getBoundingClientRect(), dialog = document.createElement("dialog");
     dialog.className = "ng-video-theater";
-    dialog.setAttribute("aria-label", clip.title || "Technique video");
+    dialog.setAttribute("aria-label", own?.label || clip.title || "Technique video");
     dialog.style.setProperty("--film-ratio", clip.vertical ? 9 / 16 : 16 / 9);
-    host.style.background = "#000 url(\"" + source.querySelector("img").src + "\") center/cover";
+    const poster = own ? own.poster : source?.querySelector("img")?.src;
+    host.style.background = "#000" + (poster ? " url(\"" + poster + "\") center/cover" : "");
     dialog.append(close, host);
     (this.__ngRoot || document.body).appendChild(dialog);
-    this._filmTheater = { dialog, card, source };
+    this._filmTheater = { dialog, card, source, onClose, move: !!own, quiet: false };
     this.holdChallengeReward?.(); // after the line above: the hold's own dismiss must not re-show it
     this._cancelGraphInput?.(); this._readStop();
+    let zooming = !this._reducedMotion(); // VID1-R1: while it zooms no press closes it by the dim or moves focus (below)
     dialog.oncancel = e => { e.preventDefault(); this.collapseClip(card); };
-    dialog.onclick = e => { if (e.target === dialog) this.collapseClip(card); };
+    dialog.onclick = e => { if (e.target === dialog && !zooming) this.collapseClip(card); };
+    dialog.addEventListener("mousedown", e => { if (zooming) e.preventDefault(); });
+    // Moved here from the move's retired modal (v1.231.0's wrap, VID1): the provider's keys do not bubble here, so this
+    // sees only the parent's ✕, and Shift+Tab from it goes into the player instead of out of the dialog.
+    dialog.addEventListener("keydown", e => {
+      if (e.key !== "Tab" || e.altKey || e.ctrlKey || e.metaKey) return;
+      const stops = [...dialog.querySelectorAll("button, a[href], iframe")].filter(el => el.tabIndex >= 0 && !el.disabled && el.getClientRects().length);
+      const first = stops[0], last = stops[stops.length - 1];
+      if (document.activeElement === (e.shiftKey ? first : last)) { e.preventDefault(); (e.shiftKey ? last : first)?.focus(); }
+    });
     dialog.showModal(); close.focus({ preventScroll: true });
     const to = dialog.getBoundingClientRect();
-    if (!this._reducedMotion()) dialog.animate([
+    if (this._reducedMotion()) return;
+    // THE PLAYER TAKES NO PRESS UNTIL ITS ZOOM HAS SETTLED (VID1-R1, the reader of #427: a quick double press on a play
+    // circle put its second press inside the player while it zoomed in; focus went into the provider's frame and Esc,
+    // which the owner asked for ("pressing esc should close the video"), no longer closed it). For the 360ms a bare layer
+    // over the player, under the ✕, owns every press over the frame: nothing reaches the player, nothing closes the
+    // theater (its target is not the dialog). And the dim closes nothing until then: at 390x631 the current node's frame
+    // zooms off the point of a double tap, whose second tap then fell on the dim and shut the video it had just opened.
+    // Whatever is pressed, the dialog's mousedown keeps focus on the ✕ while it zooms. The ✕ and Esc work throughout. A press inside the player after the zoom is the player's,
+    // and Esc then stays in its frame until focus leaves it; the ✕ and the dim still close it (docs/Neural.md).
+    const guard = document.createElement("div");
+    guard.style.cssText = "position:absolute;inset:0;z-index:3;";
+    dialog.append(guard);
+    const settled = () => { zooming = false; guard.remove(); };
+    dialog.animate([
       { transform: `translate(${from.x + from.width / 2 - to.x - to.width / 2}px,${from.y + from.height / 2 - to.y - to.height / 2}px) scale(${from.width / to.width},${from.height / to.height})` },
       { transform: "none" },
-    ], { duration: 360, easing: "cubic-bezier(.2,.7,.2,1)" });
+    ], { duration: 360, easing: "cubic-bezier(.2,.7,.2,1)" }).finished.then(settled, settled);
   }
   collapseClip(card) {
     if (!card) return;
     card._mediaGeneration = (card._mediaGeneration || 0) + 1; card._playerReady = false;
     card.querySelector("[data-film-resume]")?.remove();
     const launch = card.querySelector("[data-film-play]"); if (launch) launch.hidden = false;
+    let restore = null;
     if (this._filmTheater?.card === card) {
-      const { dialog, source } = this._filmTheater; this._filmTheater = null;
+      const { dialog, source, onClose, quiet } = this._filmTheater; this._filmTheater = null;
       dialog.getAnimations().forEach(a => a.cancel()); dialog.close(); dialog.remove();
-      if (source.isConnected) source.focus({ preventScroll: true });
+      // A hand that ended closes its move's theater quietly (`_closeChoiceWatch(false)`): no pause restored, no focus.
+      if (!quiet) { restore = onClose; if (source.isConnected) source.focus({ preventScroll: true }); }
       // D-326's release, the same microtask as clearExecution's: the held notice gets its full time now.
       if (this.showNextChallengeReward) queueMicrotask(() => this._challengeRewardActive || this.showNextChallengeReward());
     }
     if (card._loop) { clearInterval(card._loop); card._loop = null; }
     if (card._player) { try { card._player.destroy(); } catch (e) {} card._player = null; }
-    const ph = card.querySelector(".ngPlayerHost"); if (ph) ph.remove();
-    const mb = card.querySelector(".ngMuteBtn"); if (mb) mb.remove();
-    const cx = card.querySelector(".ngClipX"); if (cx) cx.remove();
-    if (card._outside) { document.removeEventListener("pointerdown", card._outside, true); card._outside = null; }
     // NO WRITE TO THE PLAY GLYPH HERE (v1.256.4, owner 2026-11-11: "after i click the play button and close it ...
     // it seems floating a bit up"). The glyph is hidden and shown by its parent `[data-film-play]`'s `hidden` (above
     // and in expandClip) and nothing else. Until v1.231.0 expandClip wrote `glyph.style.display = "none"` and this line
     // undid it with `= ""`; v1.231.0 moved the hide to `launch.hidden`, and the orphaned `= ""` then only DELETED the
     // `display:flex` the glyph is built with (filmStudyHTML), so after every close the triangle fell into inline
     // flow, 6.5px above the circle's centre (CLAUDE.md §6.1: `style.color = ""` deletes, it does not restore). The
-    // hover pair in wireClips restores explicit values. Pinned by film-overlay-play.spec.ts, on the film and in a
-    // choice card's viewer, by mouse and by touch.
-    if (card._bw) { card.style.setProperty("width", card._bw + "px", "important"); card.style.setProperty("height", card._bh + "px", "important"); }
-    card.style.cursor = "pointer";
+    // hover pair in wireClips restores explicit values. Pinned by film-overlay-play.spec.ts, by mouse and by touch.
+    // (VID1: the card no longer hosts the player, its ✕ or a grown size, so nothing else here is put back.)
     card._expanded = false;
     if (this._expandedClip === card) this._expandedClip = null;
     { const fx = this._landFilmEl && this._landFilmEl.querySelector("[data-film-close]"); if (fx) fx.style.visibility = ""; }
     // the strip just shrank back — re-anchor it, or it stays parked where the player left it
     if (this._landFilmEl && this._landFilmEl.contains(card)) requestAnimationFrame(() => this._dockLandFilm());
+    // last, as the move's modal did: the pause comes back after the player is gone
+    restore?.();
   }
   ytApiReady() {
     if (this._ytPromise) return this._ytPromise;
@@ -3249,9 +3229,9 @@ class Component extends DCLogic {
     // each dealt card's seal and face, from one read (`_paintCard`): a Yes seals a card and turns it up, a No or a new
     // day's due date takes the seal off and turns it down (v1.266.0, the seal v1.272.0)
     this._knowledgeEffect("moves-card", () => this._paintHand());
-    // the belt BEFORE the tab repaints, so the tab never paints a belt that is not yet persisted
+    // the belt synced and persisted before the observers below (the Path row's tail, `renderTabSubtitles`, painted here
+    // until it left with the Path in v1.287.0)
     this._knowledgeEffect("belt-sync", () => this._syncBelt(reason));
-    if (this.renderTabSubtitles) this._knowledgeEffect("renderTabSubtitles", () => this.renderTabSubtitles());
     // A landing answer also changes combo/qMod in its synchronous onDone callback.
     // Notify once after that whole turn, never launch a solve on half a grade.
     // `onlyHydration`: every publish coalesced into this notice was a deck landing (FGHYD1). One
@@ -3577,7 +3557,7 @@ class Component extends DCLogic {
         (countText ? '<span style="flex:none;margin-top:3px;font-size:11px;font-weight:700;color:#7ee0a8;letter-spacing:.02em;">' + countText + '</span>' : '') +
       '</div>' +
       (sub ? '<div style="font-size:11.5px;color:#93a0bd;margin-top:7px;line-height:1.45;">' + sub + '</div>' : '');
-    head.querySelector(".ngBack").addEventListener("click", () => this._exitStudyTo(this._paneReturnTab)); // ‹ Back returns to the tab the study came from
+    head.querySelector(".ngBack").addEventListener("click", () => this._paneBack()); // ‹ Back returns to the tab the study came from (`_paneBack`)
     { const b = head.querySelector(".ngBack"); if (b) { b.addEventListener("mouseenter", () => { b.style.background = "rgba(255,255,255,.09)"; b.style.color = "#eef1f6"; }); b.addEventListener("mouseleave", () => { b.style.background = "rgba(255,255,255,.05)"; b.style.color = "#aeb9d2"; }); } }
   }
   updateDrillCount() {
@@ -3681,9 +3661,6 @@ class Component extends DCLogic {
       // THE BELT ROW READS ON OPEN (v1.276.0): the rating's live check is asked here, never on the boot path, and a check
       // that landed is never fetched again (`_askBeltRow`, `ratingCheck`)
       this._askBeltRow();
-      // arrival positioning (v1.98.1): opening the pane onto Challenges lands the corridor
-      // where the person is — renderChallenges consumes this once, instantly
-      if (this._viewMode === "challenges") this._challengeScrollPending = true;
       if (!this.paused) { this.setPaused(true); this._paneAutoPaused = true; this.fx("pane_paused", {}); }
       const active = document.activeElement;
       this._explorerReturnFocus = active && active !== document.body ? active : null;
@@ -3814,6 +3791,33 @@ class Component extends DCLogic {
     else this.renderExplorer();
   }
   // exit an active study surface back to tabs mode on the given (or remembered) tab
+  // ‹ BACK FROM A CHECKPOINT STARTED IN MASTER THE GAME'S CORRIDOR RETURNS THERE (PATH-R1, ruling 4; the reader of #430
+  // finding 4). The Path's quiz came back to the Path; a quiz started in Master the game ran `_exitStudyTo` with the tab
+  // remembered when Master the game itself opened ("explore"), which ended the session and landed on the drawer's list. Now
+  // the quiz is abandoned as any Back abandons it, the session stays, Master the game is drawn again, and the unit's
+  // checkpoint row is brought into view and held there until the player moves the page (the first card's own scroll yields,
+  // `_scrollFocusedDeck`, as it does for View Collection's shelf). A belt test has no Back: it plays on the map. A FINISHED
+  // quiz closes the drawer as before.
+  _paneBack() {
+    const cp = this._checkpoint, s = this._session;
+    if (cp && cp.fromPractice && s && s.practice) {
+      this._cancelCheckpoint();
+      this.revealed = false; this._drillView = "home";
+      s.backTo = cp.uk;
+      const host = this.drillListRef && this.drillListRef.current;
+      if (host) for (const t of ["wheel", "touchstart", "pointerdown", "keydown"]) host.addEventListener(t, () => { s.backTo = null; }, { once: true, passive: true });
+      this.renderSession();
+      this._layoutPane(); this._paintDrawerHead();
+      const bring = () => {
+        if (this._session !== s || !s.backTo) return;
+        const row = this.drillListRef.current && this.drillListRef.current.querySelector('[data-checkpoint="' + CSS.escape(s.backTo) + '"]');
+        if (row) row.scrollIntoView({ block: "center" });
+      };
+      requestAnimationFrame(() => { bring(); requestAnimationFrame(bring); });
+      return;
+    }
+    this._exitStudyTo(this._paneReturnTab);
+  }
   _exitStudyTo(view) {
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // leaving the card view cancels the pending advance
     if (this._checkpoint) this._cancelCheckpoint();
@@ -3827,7 +3831,7 @@ class Component extends DCLogic {
       this.focusIdx = origin.node;
       this._writeUrl(origin.path, {}, true, origin.title);
       this.explorerListRef.current.scrollTop = origin.scroll;
-      const focus = origin.focus?.isConnected ? origin.focus : this.explorerListRef.current?.querySelector('[data-maintenance], [data-b="due"], [data-track]');
+      const focus = origin.focus?.isConnected ? origin.focus : this.explorerListRef.current?.querySelector('[data-b="due"], [data-track]');
       focus?.focus({ preventScroll: true });
     }
   }
@@ -4513,6 +4517,9 @@ class Component extends DCLogic {
    */
   _scrollFocusedDeck(scroller, deckEl) {
     requestAnimationFrame(() => {
+      // View Collection's scroll to the rewards shelf holds the page until the player moves it (v1.287.0, `renderRewardsShelf`):
+      // Master the game opening its first card must not scroll the player back up past the shelf they asked to see
+      if (this._session?.shelfScroll || this._session?.backTo) return;   // ...and ‹ Back's checkpoint row (PATH-R1, ruling 4, `_paneBack`)
       const list = scroller || this.drillListRef.current; if (!list) return;
       let deck = deckEl || (this._openMini && this._openMini.el);
       if (!deck || !deck.isConnected || deck.style.display === "none") {
@@ -4524,12 +4531,9 @@ class Component extends DCLogic {
       const dr = deck.getBoundingClientRect();
       const top = Math.min(dr.top, row ? row.getBoundingClientRect().top : dr.top);
       const lr = list.getBoundingClientRect();
-      // A STICKY header inside the scroller owns the top of the scrollport and must be subtracted,
-      // MEASURED off the element and never as a CSS constant (§6.1, `_dockLandCard`): the corridor
-      // carries the maintenance band, which is one wrapping line from being taller than it looks.
-      // Absent on the History/session lists, where this query finds nothing and the inset is 0.
-      const band = list.querySelector("[data-maintenance]");
-      const pad = 12 + (band ? band.getBoundingClientRect().height : 0);
+      // (the Path's sticky maintenance band was subtracted here; it left with the Path in v1.287.0, and no list this
+      // scrolls carries a sticky header now)
+      const pad = 12;
       const room = lr.height - pad - 12;
       if (dr.bottom - top > room || top < lr.top + pad) list.scrollTop += top - (lr.top + pad);
       else if (dr.bottom > lr.bottom - 12) list.scrollTop += dr.bottom - (lr.bottom - 12);
@@ -4589,7 +4593,7 @@ class Component extends DCLogic {
       this.belts = Object.assign({ won: {} }, p.belts || {});
       this.belts.won = Object.assign({}, (p.belts || {}).won || {});
       // when the open rule (U163 c) first ran for this account, and the carry-over's fact; absent on older blobs
-      // (`_syncBelt`, `_recallCarried`)
+      // (`_syncBelt`, `_recallCarryLive`)
       this._openAt = ngOpenAt(p.openAt);
       this._recallCarry = p.recallCarry === true;
       this.tut = { done: Object.assign({}, (p.tut || {}).done || {}) };
@@ -5276,12 +5280,16 @@ class Component extends DCLogic {
     this.prep = this.prep || {};
     const wrap = document.createElement("div");
     if (isCurrent) wrap.className = "ngCurExpire";
-    wrap.setAttribute("data-mini-deck", key); // shared inline card; Practice honors the answer-mode setting
+    wrap.setAttribute("data-mini-deck", key); // shared inline card; every one honours the answer mode (v1.282.0, `_answerMode`)
     // a card laid out again in place (Practice's plan taken again, `_practiceGuard`) does not fade in a second time
     wrap.style.cssText = "padding:0 8px 12px 26px;" + (this._noCardIn ? "" : "animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;");
     const navBtn = (cls, d) => '<button class="' + cls + '" style="flex:none;width:42px;height:36px;cursor:pointer;border:1px solid rgba(150,170,210,.2);border-radius:9px;background:rgba(255,255,255,.03);color:#aab4c8;display:flex;align-items:center;justify-content:center;transition:background .12s,color .12s;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="' + d + '"></path></svg></button>';
     let recallFallback;
-    const recognition = () => this._session?.practice && cards[st.idx] !== recallFallback && this.mcActive(key, cards[st.idx]) && !graded(cards[st.idx]);
+    // THE ANSWER MODE ON EVERY INLINE DECK (v1.282.0, R2: everywhere a card is asked). Until then only a Practice session asked
+    // multiple choice here; Last rolls' decks (no session) now do too, on their own surface "inline" (own option handle
+    // `data-inline-mc-opt`, own rng tags, own answer guard in `_mcBlock`), so nothing rigged for Practice moves.
+    const surf = this._session ? "practice" : "inline";
+    const recognition = () => cards[st.idx] !== recallFallback && this.mcActive(key, cards[st.idx]) && !graded(cards[st.idx]);
     const doPrev = () => { st.idx = (st.idx - 1 + total) % total; st.revealed = false; render(); };
     const doNext = () => { st.idx = (st.idx + 1) % total; st.revealed = false; render(); };
     const doReveal = () => {
@@ -5328,7 +5336,7 @@ class Component extends DCLogic {
       gradeMini(true);
     };
     const render = () => {
-      if (this._mc?.surface === "practice") { this._mc.spent = true; this._mc = null; }
+      if (this._mc?.surface === surf) { this._mc.spent = true; this._mc = null; }
       const card = cards[st.idx] || {};
       const tabs = cards.map((c, i) => {
         const active = i === st.idx, done = ansSet.has(identity(c));
@@ -5372,7 +5380,7 @@ class Component extends DCLogic {
         mr.disabled = true; mr.textContent = "Choose an answer";
         if (!this.mcPoolWarm(key, card)) {
           mr.textContent = "Loading answers…";
-          this._warmMcPool(card, key, "practice").then(() => this._afterPress(() => {
+          this._warmMcPool(card, key, surf).then(() => this._afterPress(() => {
             if (wrap.isConnected && cards[st.idx] === card && recognition()) render();
           }));
         } else {
@@ -5381,7 +5389,7 @@ class Component extends DCLogic {
             mr.disabled = false; mr.textContent = "Next card"; mr.onclick = doNext;
             if (onGrade) onGrade();
             this._refreshGameplanUI();
-          }, "practice");
+          }, surf);
           if (choices) wrap.insertBefore(choices, mr.parentElement);
           else { recallFallback = card; render(); }
         }
@@ -6448,6 +6456,21 @@ class Component extends DCLogic {
    * (and a spec pinned one of them byte-for-byte). One seam, per \u00a76.5, before a third door exists.
    * The empty case degrades to the browse modal rather than opening an empty session.
    */
+  // THE PATH'S DOORS LAND IN MASTER THE GAME (v1.287.0, owner 15 Nov: "it's time to remove the Path section from the
+  // sidebar"; SET1 slice B). The Path's corridor (belts, units, lessons, checkpoints, capstones, objectives, the rewards
+  // shelf) was already drawn in Master the game by the same renderer (`_practiceCorridor`), so every door that opened the
+  // Path opens it there. Already open: the corridor repaints in place, which is where View Collection's shelf flag is read
+  // (`renderRewardsShelf`). A deck or a checkpoint over it, or another study surface: that is left first, as the Path's
+  // door did (`openPane` → `_exitStudyTo`).
+  openCorridor() {
+    if (this.deckShown && this._practiceInDrawer()) { this._practiceCorridor(); return; }
+    if (this._paneStudyActive()) this._exitStudyTo("explore");
+    // ITS OWN SURFACE (PATH-R1, ruling 2, the reader of #430 finding 2): `neural_practice_opened` with surface "practice"
+    // stays what it was, a deliberate opening by Master the game's own row or badge. A corridor door (View Collection, an
+    // objective's action, `setViewMode`, `openLearningView`, `openPane("challenges")`) opens it with surface "corridor";
+    // already open (above), a corridor door opens nothing and sends nothing.
+    this.openPlanSession("due", undefined, "corridor");
+  }
   openDueSession() {
     if (!this.dueCount()) { this.openFlashBrowser("due", "Due Today"); return; }
     this.openPlanSession("due");   // v1.138.0: one surface, anchored on Maintenance
@@ -6464,7 +6487,7 @@ class Component extends DCLogic {
    * Maintenance first is not a layout preference: reviews are the debt, new cards are the
    * throttle that creates tomorrow's reviews.
    */
-  openPlanSession(anchor, studyIntent) {
+  openPlanSession(anchor, studyIntent, surface) {
     this._ensureGameplanClock();
     if (studyIntent !== false && (anchor !== "due" || studyIntent)) void this._requestGameplanStudy(studyIntent || "open-plan");
     // One visit owns one session. Refresh and cold completion append to it; neither
@@ -6487,7 +6510,7 @@ class Component extends DCLogic {
       this.closeModal();
       this.renderSession();
       this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
-      this.track("neural_practice_opened", { surface: "practice" });
+      this.track("neural_practice_opened", { surface: surface || "practice" });   // "corridor" from `openCorridor` (PATH-R1)
     }
     const session = s;
     const adopt = () => {
@@ -6793,26 +6816,15 @@ class Component extends DCLogic {
    */
   _sessionInline() { return !!(this.deckShown && this._session && !this.deck && !this._checkpoint); }
   /**
-   * Is the CHALLENGES CORRIDOR the thing on screen — the third inline-deck surface, and the one
-   * the owner found keyless (v1.175.0)? Same shape as `_sessionInline`: read the screen, never a
-   * flag. `_paneStudyActive()` excludes the takeovers the corridor launches (a lesson study, a
-   * checkpoint quiz, a capstone) — those are `isDrillOpen()`'s, and its branch already has them.
-   */
-  _challengeInline() { return !!(this.deckShown && this._viewMode === "challenges" && !this._paneStudyActive()); }
-  /**
    * THE FOCUSED INLINE DECK — SCOPED TO THE SURFACE THAT IS ACTUALLY SHOWING (v1.175.0).
    *
-   * `_focusRow` + `_miniReg` are ONE registry shared by three surfaces (roll history `c<n>`,
-   * inline session `s<i>`, challenge corridor `lesson:<deckKey>`), and nothing clears the row
+   * `_focusRow` + `_miniReg` are ONE registry shared by the inline-deck surfaces (roll history `c<n>`,
+   * inline session `s<i>`; the Path's corridor `lesson:<deckKey>` left with the Path, v1.287.0), and nothing clears the row
    * handle when you change tabs. So a rid left behind by one surface stays resolvable from
    * another: without this, ←/→ on Challenges would page a deck sitting on the History tab, and
    * ⏎ would GRADE a card nobody is looking at — credit for an answer never given (§6.6).
    *
-   * The corridor answers through `_lessonRows`, which is rebuilt with the rows it indexes, and
-   * through `offsetParent` — the CSS's own answer to "can the player see this row". That is what
-   * makes a FOLDED belt give the keyboard back: a fold is `display:none` on `.ng-belt-body` and
-   * leaves every row in the DOM, so the deck is still open and still registered, just invisible.
-   * Unfolding hands the keys straight back, because nothing was thrown away to achieve it.
+   * The session answers through `offsetParent`, the CSS's own answer to "can the player see this deck".
    *
    * One resolver, five callers (the three arrow branches, Space, ⏎) — the alternative was a
    * fourth copy of `_focusRow && _miniReg && _miniReg[this._focusRow]`, which is where §6.5 says
@@ -6822,13 +6834,6 @@ class Component extends DCLogic {
     const rid = this._focusRow;
     const reg = rid && this._miniReg ? this._miniReg[rid] : null;
     if (!reg) return null;
-    const lesson = typeof rid === "string" && rid.indexOf("lesson:") === 0;
-    if (this._challengeInline()) {
-      if (!lesson) return null;
-      const row = (this._lessonRows || []).find((entry) => entry.rid === rid);
-      return row && row.row && row.row.offsetParent !== null ? reg : null;
-    }
-    if (lesson) return null; // and a corridor row is not drivable from another tab either
     if (this._sessionInline()) return this._openMini?.rid === rid && this._openMini.el.isConnected && this._openMini.el.offsetParent !== null ? reg : null;
     if (this.deckShown && this._viewMode === "history" && this._drillView === "home") return reg;
     return null;
@@ -6936,7 +6941,7 @@ class Component extends DCLogic {
       if (v && pos !== s.visitShown) {
         s.visitShown = pos;
         const at = document.createElement("p"); at.setAttribute("data-practice-visit", pos);
-        at.textContent = pos === "more" ? "More new cards" : pos === "lesson" ? "From the Path" : pos + 1 + " \u00b7 " + (v.seat ? v.seat.replace("|", " \u00b7 ") : "Other cards"); s.queue.appendChild(at);
+        at.textContent = pos === "more" ? "More new cards" : pos === "lesson" ? "Belt lessons" : pos + 1 + " \u00b7 " + (v.seat ? v.seat.replace("|", " \u00b7 ") : "Other cards"); s.queue.appendChild(at);
       }
       const jump = document.createElement("button"); jump.type = "button";
       jump.textContent = key.replace("|", " · ");
@@ -7819,15 +7824,6 @@ class Component extends DCLogic {
     if (cta) cta.style.display = this.user || offline ? "none" : "";
     this._paintBadge();
     if (this._acctMenuOpen) this.renderAccountMenu(); // …and the menu's auth rows, if it's up
-    const explorer = this.explorerRef.current;
-    if (
-      this._viewMode === "challenges" &&
-      explorer &&
-      explorer.style.display === "flex" &&
-      !this._renderingChallengeView
-    ) {
-      this.renderExplorer();
-    }
   }
   /** Settings' training-day line names the address inside the analytics mark (NG_NO_CAPTURE). The markup is built HERE, in the
    *  eager app, because the deferred Settings presentation sits at its byte ceiling (#378 left it 2 B of room, and the span cost
@@ -8064,16 +8060,14 @@ class Component extends DCLogic {
     if (!stored) {
       try { stored = localStorage.getItem("bjj_view_mode"); } catch (e) {}
     }
-    // History replaced the Collection tab (v1.76.0) — stored `collection` (and legacy `path`)
-    // land on challenges; `tree` stays explore. Nothing stored lands on the drawer's list (v1.242.0).
-    const migrated =
-      !stored || stored === "tree" || stored === "explore"
-        ? "explore"
-        : stored === "history"
-          ? "history"
-          : "challenges";
+    // History replaced the Collection tab (v1.76.0); `tree` stays explore; nothing stored lands on the drawer's list
+    // (v1.242.0). THE PATH LEFT THE DRAWER (O2, v1.287.0, SET1 slice B): a stored `challenges` (and the older `collection`
+    // and `path`) lands on the drawer's list too, and that value is NOT written back. Both keys stay as the player left
+    // them, written from then on only by the player's own navigation (`setViewMode`); a settings key is never rewritten
+    // to retire a value (CLAUDE.md 6.6), and a boot that writes is not a fixpoint (holder-passive-boot-blob-fixpoint).
+    const migrated = stored === "history" ? "history" : "explore";
     this._viewMode = migrated;
-    if (stored && currentView !== migrated) {
+    if (stored && currentView !== migrated && !/^(challenges|collection|path)$/.test(stored)) {
       this.set("challengeView", migrated);
     }
     this.styleViewToggle();
@@ -8096,14 +8090,16 @@ class Component extends DCLogic {
     });
   }
   setViewMode(m) {
-    if (m === "collection") m = "challenges"; // retired tab — its content lives in Challenges now
+    // THE PATH AND ITS OLDER ALIAS (v1.287.0, SET1 slice B; O3): the view left the drawer, and a request for it lands
+    // where its corridor lives, Master the game (`openCorridor`): View Collection (O1, through `openLearningView`), and
+    // anything still asking for it by name
+    if (m === "challenges" || m === "collection") { this.openCorridor(); return; }
     if (NG_PANE_TABS.indexOf(m) < 0) return;
     if (this._viewMode === m) return;
     // a focus set belongs to the tab that lit it: leaving Explore drops the highlight, so the
     // Challenges tab's curriculum fog is never fighting a stale System selection for the graph
     this.clearFocus();
     this._viewMode = m;
-    if (m === "challenges") this._challengeScrollPending = true; // arrival positioning on tab open (v1.98.1)
     // a TAB SWITCH starts the incoming body at its top — without this, Explore inherits
     // the corridor's deep arrival scroll and its Lists head renders buried under the nav
     // (in-tab re-renders never come through here, so browsing/search scroll is untouched)
@@ -8147,10 +8143,11 @@ class Component extends DCLogic {
 
   // ═══ THE DRAWER (owner A5 / E1 / T-b, U45–U56, v1.242.0) ═══════════════════════════════════
   // One list replaces the three tabs, in the owner's order: Search, Explore (an expandable list of six
-  // categories), Train (Practice, then Path — nothing under them), your lists, Last rolls, and the badge
-  // at the foot. It overlays the map, the legend included; nothing moves when it opens. The VIEW model is
-  // unchanged, so every seam that opens a view (setViewMode, openPane(view), the URL arrivals) still
-  // lands: "explore" IS the home list, and Path / Last rolls open as views whose way back is the brand.
+  // categories), Train (Master the game and the belt you wear; the Path row under them left in v1.287.0, owner 15 Nov,
+  // SET1 slice B), your lists, Last rolls, and the badge at the foot. It overlays the map, the legend included; nothing
+  // moves when it opens. The VIEW model is unchanged, so every seam that opens a view (setViewMode, openPane(view), the
+  // URL arrivals) still lands: "explore" IS the home list, Last rolls opens as a view whose way back is the brand, and a
+  // request for the Path opens Master the game (`openCorridor`).
   styleViewToggle() { if (!this.viewToggleRef?.current) return; this._paintDrawerHead(); this._syncExploreTools(); }
   drawerHome() {
     if (this.deckShown) this._askBeltRow();   // back to the list: the row reads again (`_askBeltRow`)
@@ -8161,7 +8158,7 @@ class Component extends DCLogic {
   }
   _paintDrawerHead() {
     const b = this.viewToggleRef?.current; if (!b) return;
-    const sub = this._practiceInDrawer() ? NG_PRACTICE_NAME : !this._paneStudyActive() && { challenges: "Path", history: "Last rolls" }[this._viewMode];
+    const sub = this._practiceInDrawer() ? NG_PRACTICE_NAME : !this._paneStudyActive() && this._viewMode === "history" && "Last rolls";
     const html = sub ? "\u2039 " + sub : NG_DRAWER_LOGO + "BJJGraph";
     if (b._ngHead !== html) { b._ngHead = html; b.innerHTML = html; }
     b.setAttribute("aria-label", sub ? "Back to the sidebar" : "BJJGraph: the top of the sidebar");
@@ -8176,7 +8173,7 @@ class Component extends DCLogic {
     return b;
   }
   /**
-   * PRACTICE AND PATH (owner U56 e, U60 b): two rows, without a Train header. Practice is the
+   * PRACTICE (owner U56 e, U60 b): one row, without a Train header (the Path row beside it left in v1.287.0). Practice is the
    * mixed session (openPlanSession: reviews + new gap cards); its row carries today's goal and what is
    * owed. It keeps the stat row's handles (`data-explore-stats`, `data-b="due"`) because it IS that
    * row's due cell, grown up; "N new" and "Mastered" moved (into Practice, and onto the badge).
@@ -8196,14 +8193,13 @@ class Component extends DCLogic {
       // THE BELT YOU WEAR (v1.276.0): under the row, beside it in the list and not inside it, so the row's hit target and
       // what a tap opens are unchanged. The Path's own woven bar went (ruled, STAGE2-GO 3: one belt in the drawer).
       const rank = document.createElement("div"); rank.className = "ng-dr-rank"; rank.setAttribute("data-belt-row", "1");
-      const path = this._drawerRow(ngIcon(NG_IC.path), "Path", '<small data-tab-sub="challenges"></small>', () => this.setViewMode("challenges"));
-      path.setAttribute("data-view", "challenges");
-      box.append(pr, rank, path);
+      // THE PATH ROW LEFT HERE (v1.287.0, owner 15 Nov: "it's time to remove the Path section from the sidebar"; SET1
+      // slice B, his four small losses accepted 16 Nov): its corridor lives in Master the game, the row above
+      box.append(pr, rank);
     }
     list.appendChild(box);
     this._paintTrain(box);
     this._paintBeltRow(box);
-    this.renderTabSubtitles();
   }
   // PAINTED IN PLACE (FGD13's rule for the stat row this replaces): `_refreshGameplanUI` lands whenever
   // a payload or a grade does, and a rebuild between a press and its release would swallow the click.
@@ -8292,9 +8288,9 @@ class Component extends DCLogic {
   // ── THE BELT YOU WEAR (v1.211.0, owner ruling 2026-09-30) ── The rule, the stripes and the
   // cross-device merge live in neural/src/belt.src.js; this is the app's half: reading the
   // Challenges evidence into it, persisting the high-water mark, and the one-time grandfather.
-  // READERS — every one of them, so a new reader is added here or not at all: the Challenges tab
-  // belt (`renderTabSubtitles`), the Recall Mode patch at black (`_noteBlackBelt`), the carry-over of timed recall
-  // (`_recallCarried`, which reads the HELD belt and decides nothing new) and the
+  // READERS — every one of them, so a new reader is added here or not at all (the Path row's tail, `renderTabSubtitles`,
+  // left with the Path in v1.287.0): the Recall Mode patch at black (`_noteBlackBelt`), the carry-over of timed recall
+  // (`_recallCarryLive`, which reads the HELD belt and, since v1.282.0, only stamps the kept fact) and the
   // training-day email's belt line (`dayLog e.b`, read by workers/digest). Game Knowledge —
   // `gameScore()` — decides none of them any more; its bands are read once, by the grandfather.
   _beltCleared(belt) {
@@ -8519,7 +8515,7 @@ class Component extends DCLogic {
     // into the switch: the only writer of `recallInPlay` is the player's press, so no carry can beat a choice, in any
     // order, on any device. (PR #404's first version wrote `recallInPlay: true` stamped at this device's `openAt`; a device
     // that ran this before its pull then beat another device's later Off and pushed it back: the read of PR #404, finding
-    // 1, OPEN2.) It rides the next save, as the stamp above does. See `_recallCarried`.
+    // 1, OPEN2.) It rides the next save, as the stamp above does. See `_recallCarryLive`; since v1.282.0 the fact is kept and read by nothing.
     if (!this._recallCarry && this._openAt > 0 && this._recallCarryLive()) this._recallCarry = true;
     // THE HELD LEVEL RISES TO THE PATH'S (v1.276.0, ruled STAGE2-GO 1), read now, AFTER any belt raised above: so a
     // stripe the Path gives today is held, and neither a ruleset flip nor a curriculum edit lowers what the drawer row
@@ -8529,10 +8525,7 @@ class Component extends DCLogic {
     const lifted = this._raiseLevel(this._pathLevel());
     // the drawer opened before the game was in: it asks once more now that an input landed (`_askBeltRow`)
     if (this._beltAskLater && this.deckShown) { this._beltAskLater = false; this._askBeltRow(); }
-    if (dirty) {
-      this._saveProgress();
-      if (this.renderTabSubtitles) this.renderTabSubtitles();
-    }
+    if (dirty) this._saveProgress();
     if (lifted) this._paintBeltRow();
     this._noteBlackBelt();
   }
@@ -8892,6 +8885,15 @@ class Component extends DCLogic {
   // open the merged pane in tabs mode, optionally jumping to a tab. A live study surface is
   // exited first — browsing intent (logo, "/", cue) always lands on the tab bar.
   openPane(view) {
+    // THE CORRIDOR'S NAMES GO THROUGH ITS ONE DOOR (PATH-R2; the re-read of #430, finding 2). On an already-open Master the
+    // game, `_exitStudyTo` ended the session here and `setViewMode` → `openCorridor` opened a new one: a restart and a
+    // second "corridor" opening, where ruling 2 says an open corridor door sends none. `openCorridor` repaints it in place;
+    // "collection" asks for the shelf, as `openLearningView` does
+    if (view === "challenges" || view === "collection") {
+      if (view === "collection") this._scrollRewardsShelf = true;
+      this.openCorridor();
+      return;
+    }
     if (this._paneStudyActive()) this._exitStudyTo(view || this._viewMode);
     else if (view) this.setViewMode(view);
     // no _wirePaneControls here: applyDeckVisibility is the one wiring seam for every open path
@@ -8960,6 +8962,9 @@ class Component extends DCLogic {
     // until the next curriculum load) and an excluded node is not drawn at all, so its fog
     // membership is moot; `_keyNode` and `_qkDecks` are keyed by deck key and card text, not by
     // node set; `_scoreW`/`_scoreCache` are already per-frame.
+    // the corridor's one home since v1.287.0 is Master the game: a flip with it open repaints it there (a gi-only lesson goes, its
+    // evidence stays), as the Path view's list repaint below did for the Path
+    if (this._session?.practice && this._sessionInline()) this._practiceCorridor();
     const list = this.explorerListRef.current;
     if (list && list.style.display !== "none") this.renderExplorer();
   }
@@ -9047,20 +9052,17 @@ class Component extends DCLogic {
     // defensive: legacy callers (setGiMode, selectChallengeTrack) call this
     // directly — route the History tab to its own renderer instead of the explorer list
     if (this._viewMode === "history") {
-      if (this.renderTabSubtitles) this.renderTabSubtitles();
       if (this.deckShown && !this._paneStudyActive()) this.renderDrillHome();
       return;
     }
     const list = this.explorerListRef.current; if (!list) return;
-    // A cold index rebuild detaches even the cached Practice/Path block. Retain a keyboard user's
+    // A cold index rebuild detaches even the cached Practice block. Retain a keyboard user's
     // chosen row across that synchronous rebuild; the next Enter must still activate that row.
     const trainFocus = this._trainBox?.contains(document.activeElement) ? document.activeElement : null;
-    // corridor re-renders (evidence beats, pin/select/fold clicks) must not yank the
-    // scroll while the user reads (the History-body gate precedent) — keep it unless an
-    // arrival reposition is pending (v1.98.1)
+    // a System page's re-render keeps its scroll (the Path's corridor kept its own here too until v1.287.0)
     const keepSystem = this._viewMode === "explore" && !this._exQ && this._systemId &&
       this._systemMedia && this._systemMedia.key === this._systemId && this._systemMedia.el.parentNode === list;
-    const keepScroll = keepSystem || (this._viewMode === "challenges" && !this._challengeScrollPending) ? list.scrollTop : null;
+    const keepScroll = keepSystem ? list.scrollTop : null;
     // v1.192.1 (merge): the System media guard (v1.190.0) and the concept teardown +
     // disclosure snapshot (v1.192.0) were written against the same base preamble and
     // conflicted textually, not in intent. Both run. ORDER IS LOAD-BEARING: the snapshot
@@ -9090,13 +9092,7 @@ class Component extends DCLogic {
     if (keepSystem) {
       for (const child of [...list.children]) if (child !== this._systemMedia.el) child.remove();
     } else { this._stopSystemPreview(); list.innerHTML = ""; }
-    if (this.renderTabSubtitles) this.renderTabSubtitles();
     this._syncExploreTools();
-    if (this._viewMode === "challenges") {
-      this.renderChallenges(list);
-      if (keepScroll != null) list.scrollTop = keepScroll;
-      return;
-    }
     const data = this.buildExplorer();
     // v1.99.3: `g` (the section-open set, which pre-opened Systems + Submissions) is gone —
     // section folds live in the persisted `exploreOpenSections` settings map, all-collapsed
@@ -12942,7 +12938,20 @@ class Component extends DCLogic {
     const idx = this.nodeForKey(key); if (idx >= 0) this.locateNode(idx);
     this.studyFromSession(key); return true;
   }
-  drillReveal() { if (this.deck && !this.revealed && this.deckIdx < this.deck.length) { this.revealed = true; this.renderDrill(); } }
+  drillReveal() {
+    if (!this.deck || this.revealed || this.deckIdx >= this.deck.length) return;
+    // A CARD THAT ASKS MULTIPLE CHOICE IS ANSWERED BY PICKING, NEVER BY A REVEAL (D4, the reader of #423; v1.282.0). Space
+    // and ⏎ reach this from the key handler; under Auto (the new default) a new card in the full-pane study view asks multiple
+    // choice, and two Space presses graded it "Got it" as a recall answer with no option picked, minting recall credit. As the
+    // inline decks' `doReveal` refuses it: while the card's options are on screen (or on their way), there is nothing to
+    // reveal. A card whose options cannot be built (`_mcBlock` returned none) asks front and back, and reveals as before.
+    const card = this.deck[this.deckIdx], key = this._deckInfo && this._deckInfo.key;
+    if (key && card && this.flashcards && this.mcActive(key, card)) {
+      if (!this.mcPoolWarm(key, card)) return;
+      if (this._mc && this._mc.surface === "deck" && this._mc.key === key && this._mc.qhash === this.qhash(card.q)) return;
+    }
+    this.revealed = true; this.renderDrill();
+  }
   // ═══ P2: MC flashcards graduating to recall (owner's fusion rule) ═══
   qhash(q) { // FNV-1a over the question text — the per-card stage key
     let h = 0x811c9dc5;
@@ -13039,9 +13048,11 @@ class Component extends DCLogic {
     // on a right answer, and gradeRecall's `wasProven` guard then re-minted `rec` for the same
     // card. Latent while the landing only asked stage<2 cards; due-first selection asks any
     // stage, so maintenance answers would have fired it constantly.
+    // NO APP CALLER since the grade moved to `ngKnowledgeApplyGrade`; the journeys seed and demote stages through it. It
+    // keeps the grade's floor at 2 (v1.282.0, R1) so no writer of the stage can take a card back to multiple choice.
     const cur = s[qh] || 0;
     const lim = cap == null ? 4 : cap;
-    s[qh] = d > 0 ? Math.max(cur, Math.min(lim, cur + d)) : Math.max(0, Math.min(lim, cur + d));
+    s[qh] = d > 0 ? Math.max(cur, Math.min(lim, cur + d)) : Math.max(cur >= 2 ? 2 : 0, Math.min(lim, cur + d));
     this._bumpStageVer();
     this._saveProgress();
     return s[qh];
@@ -13189,16 +13200,32 @@ class Component extends DCLogic {
     }
     return { options: opts, correctIdx: opts.findIndex((o) => o.tier === "correct") };
   }
-  // MC is the IN-PLAY format (the landing card asks it under a clock); the side pane is the
-  // study surface and reads back as classic Q&A unless the user opts in. Hence the default flip
-  // auto -> classic: nobody meets multiple choice in the sidebar by accident.
-  mcActive(key, card) {
-    if (this._checkpoint) return true;                        // the quiz is always MC
-    const mode = this.get("mcMode", "classic");
-    if (mode === "classic") return false;
-    if (mode === "mc") return true;
-    return this.cardStage(key, card.q) < 2;                   // auto: MC until graduated
+  // ── ANSWER MODE: ONE SWITCH, ONE MEANING, EVERYWHERE A CARD IS ASKED (v1.282.0, owner 15 Nov; rulings R1/R2, SET1-GO) ──
+  // Owner: "by default we use the Auto, not Classic (which should be called Front Back cards, or the Multiple Choice).
+  // after a player dominates MC for a card he is shown FC crds, and never again the multiple choice". `mcMode` keeps its
+  // three stored values, labelled in Settings as Auto ("auto"), Front Back cards ("classic") and Multiple choice ("mc").
+  // NOTHING STORED IS AUTO, BY THE READER'S DEFAULT, NEVER BY A WRITE: a player who pressed nothing has no `mcMode`, and
+  // nothing here writes one (until v1.282.0 the default was "classic", so a stored "classic" is a press, `set` being the
+  // only writer). One reader for every surface: Practice's cards and the full-pane study view (`mcActive`), the inline decks
+  // of Last rolls (`_miniDeck`), and a roll's landing question (`_mountLandQ`, the page cache, the warm gate). Checkpoints
+  // (a test) and the defence drill stay multiple choice. Auto: multiple choice until the card is at stage 2 (two right
+  // answers), then front and back for good: `ngKnowledgeApplyGrade`'s floor keeps a card at 2 once it got there.
+  // RETIRED BY CEASING TO READ (CLAUDE.md 6.6): `recallInPlay` (the "Recall mode (in play)" switch, U163 c) and the
+  // account's `recallCarry` fact are kept, stored, synced and merged exactly as before, and decide nothing: Auto's rule IS
+  // what Recall mode On did in a roll, and the screen must say what plays (R2: no hidden switch deciding rolls).
+  _answerMode() { const v = this.get("mcMode", null); return v === "classic" || v === "mc" ? v : "auto"; }
+  _cardAsksMc(key, card) { const m = this._answerMode(); return m === "mc" || (m === "auto" && this._cardStageShared(key, card.q) < 2); }
+  // "NEVER AGAIN" IS PER QUESTION, NOT PER DECK (D2, the reader of #423; v1.282.0). The grade writes a card's stage to the
+  // deck it was asked from (`ngKnowledgeBucket`), its schedule to every deck sharing the question; so a shared question right
+  // twice in one deck read stage 0 from its other decks and asked multiple choice again there (397 questions in 919 deck
+  // slots). Auto reads the highest stage the question holds in any of its decks, as the rating does (rating.src.js), through
+  // the same index the grade files shared credit by (`_sharedDecksFor`).
+  _cardStageShared(key, q) {
+    let st = this.cardStage(key, q);
+    for (const k of this._sharedDecksFor(q, key) || []) if (k !== key) st = Math.max(st, this.cardStage(k, q));
+    return st;
   }
+  mcActive(key, card) { return !!this._checkpoint || this._cardAsksMc(key, card); }   // the quiz is always MC
   get MC_KEYS() { return ["A", "B", "C", "D", "E"]; }
   // the shared MC renderer. Truth (correct index, tier map) lives ONLY in this closure +
   // this._mc — never in a DOM attribute (cheat vector). Never calls setBeacon (one-beacon law).
@@ -13222,11 +13249,23 @@ class Component extends DCLogic {
     // The rule is "every surface EXCEPT the sidebar deck draws on its own tag", stated once.
     // It was a 3-way chain that had to grow a branch per surface, and the JIT was the fourth —
     // a surface that forgot its branch silently drew on the bare mc-* stream (§6.5).
-    const mc = this.mcDistractors(card, key, this.MC_DISTRACTORS, surface && surface !== "deck" ? surface : null);
+    // THE OPEN CARD KEEPS ITS DEAL ACROSS A RE-RENDER (D3, the reader of #423; v1.282.0). A session laid out again under a
+    // player who touched nothing (#415's re-plan when the live set lands, a plan or corridor repaint) re-mounts its open card,
+    // and `mcDistractors` deals and shuffles afresh on every call: under Auto, where a new card asks multiple choice, the
+    // three answers the player was reading moved under them (9 of 10 runs). The card on screen does not change, its answers
+    // and their order included. So an inline surface's deal is kept for the same card (surface, deck, question) until it is
+    // answered (`knowledgeAttempt`) or another card is dealt there; `spent` cannot end it, since every repaint of `_miniDeck`
+    // spends the block it replaces, the same card's included. A kept deal draws nothing from the rng.
+    const inlineSurf = surface === "practice" || surface === "inline";
+    const pinId = inlineSurf ? surface + "|" + key + "|" + this.qhash(card.q) : null;
+    const pin = this._mcPin;
+    const mc = pinId && pin && pin.id === pinId && !pin.truth.knowledgeAttempt ? pin.mc
+      : this.mcDistractors(card, key, this.MC_DISTRACTORS, surface && surface !== "deck" ? surface : null);
     // a surface that cannot build options must not disarm another surface's live block
     if (!mc) { if (!this._mc || this._mc.surface === (surface || "deck")) this._mc = null; return null; }
     const qh = this.qhash(card.q);
     const truth = { key: key, qhash: qh, correct: mc.correctIdx, tiers: mc.options.map((o) => o.tier), n: mc.options.length, surface: surface || "deck" };
+    if (pinId) this._mcPin = { id: pinId, mc: mc, truth: truth };
     // Exposed landing controls may page while the pane studies another card. Their own
     // closures still answer mouse clicks; the pane keeps the shared keyboard slot.
     if ((truth.surface !== "land" && truth.surface !== "panic") || !this.deckShown) this._mc = truth;
@@ -13278,7 +13317,7 @@ class Component extends DCLogic {
     // the flag-derived truth (never the pixels), so the refusal flips back the instant the sheet
     // closes, with no transition to race. Not a decline and not a grade: the question is untouched
     // and still pays when the player comes back to it.
-    const answer = (i) => { if (truth.surface === "practice" && (!this._sessionInline() || !wrap.isConnected || wrap.offsetParent === null)) return; if (wrap.inert || (["land", "panic"].includes(truth.surface) && this._landHidden(true))) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
+    const answer = (i) => { if ((truth.surface === "practice" ? !this._sessionInline() : truth.surface === "inline" && (this._session || !this.deckShown || this.deck || this._checkpoint)) || (/^(practice|inline)$/.test(truth.surface) && (!wrap.isConnected || wrap.offsetParent === null))) return; if (wrap.inert || (["land", "panic"].includes(truth.surface) && this._landHidden(true))) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
     truth.answer = answer;                                    // the A/B/C keyboard seam
     mc.options.forEach((o, i) => {
       const b = document.createElement("button");
@@ -13499,7 +13538,8 @@ class Component extends DCLogic {
     const picks = [];
     const order = pool.slice();
     while (picks.length < want && order.length) picks.push(order.splice((this.rng("checkpoint-pick") * order.length) | 0, 1)[0]);
-    this._checkpoint = { belt: beltId, unit: unit, uk: uk, picks: picks, i: 0, firstTry: 0, pass: (unit.checkpoint && unit.checkpoint.pass) || 5 };
+    this._checkpoint = { belt: beltId, unit: unit, uk: uk, picks: picks, i: 0, firstTry: 0, pass: (unit.checkpoint && unit.checkpoint.pass) || 5,
+      fromPractice: !!this._session?.practice };   // started in Master the game's corridor: ‹ Back returns there (`_paneBack`); a flag, never the session object
     this.fx("checkpoint_start", { unit: uk, cards: picks.length });
     this._checkpointShow();
   }
@@ -13644,7 +13684,16 @@ class Component extends DCLogic {
 
     // MC stage: fresh cards answer as seeded multiple-choice, graduating to recall at stage 2
     this._mc = null;
-    if (!this.revealed && this.flashcards && this.mcActive(info.key, card) && !this.mcPoolWarm(info.key, card)) {
+    // ONE GATE FOR EVERY WAY OF REVEALING (SET1-R2, the reader's re-read of #423, finding 4; v1.282.0). While a multiple-choice
+    // card's options are on their way, NO reveal control is drawn: the footer shows what the inline decks show while they
+    // load, a disabled "Loading answers…" (until v1.282.0 it drew "Reveal answer", whose click set `revealed` itself, round
+    // `drillReveal`'s guard, and led to a recall "Got it" with no option picked). When the options land the card is multiple
+    // choice. A FAILED load ends here too: `_warmMcPool` never rejects (hydrateDeck catches every failed fetch and resolves
+    // null) and leaves the pool as warm as it will get, so the card deals from the decks that did land or, when that cannot
+    // make the answers (`_mcBlock` returns none), asks front and back with its Reveal, the same rule as every other surface:
+    // a card is never left with nothing to press.
+    const mcLoading = !this.revealed && this.flashcards && this.mcActive(info.key, card) && !this.mcPoolWarm(info.key, card);
+    if (mcLoading) {
       // The distractor pool is not resident yet (manifest boot). Fetch it and re-render this
       // same card, rather than dealing options from whatever happens to have arrived — that
       // would make the option set a function of network timing. Falling back to classic reveal
@@ -13678,10 +13727,14 @@ class Component extends DCLogic {
     const foot = this.drillFootRef.current; if (foot) {
       foot.style.display = "flex"; foot.innerHTML = "";
       const acts = document.createElement("div"); acts.style.cssText = "display:flex;gap:8px;";
-      if (!this.revealed) {
+      if (!this.revealed && mcLoading) {
+        const wait = this.drillBtn("Loading answers\u2026", true);
+        wait.disabled = true; wait.style.cursor = "default"; wait.style.opacity = ".7"; wait.setAttribute("data-mc-loading", "1");
+        acts.appendChild(wait);
+      } else if (!this.revealed) {
         const show = this.drillBtn("Reveal answer", true);
         show.setAttribute("data-reveal", "1");
-        show.addEventListener("click", () => { this.revealed = true; this.renderDrill(); });
+        show.addEventListener("click", () => this.drillReveal());   // the one gate, as the keys and the swipe
         acts.appendChild(show);
       } else {
         const again = this.drillBtn("Review again", false);
@@ -14956,44 +15009,27 @@ class Component extends DCLogic {
     }, { root: this.optionsRef.current, threshold: .01 });
     cards.forEach(card => this._choiceMediaObserver.observe(card));
   }
+  // A MOVE'S PLAY CIRCLE OPENS THE CURRENT NODE'S THEATER (VID1, owner 15 Nov: "use the same mechanism the video card
+  // for the current node uses, it's perfect"). The zoom starts from the move's own poster, the one ✕, the dim and Esc
+  // close it, and focus comes back to this circle. What stays here is the move's own work: the hand is touched, its
+  // question declined as reading and the game paused (`_choiceLearn`), the evidence beat, and on close the pause it
+  // found is given back. WAS, v1.231.0 to v1.280.0: a 620px `<dialog class="ng-choice-viewer">` with a title row and a
+  // one-clip strip whose player waited for YouTube's Play (Part A of VID1 in docs/Changelog-Archive.md).
   _openChoiceWatch(clip, target, source) {
     this._closeChoiceWatch(false);
+    const media = source.closest(".ng-choice-card")?.querySelector("[data-choice-media]");
+    if (!media) return;
     const wasPaused = this.paused;
     this._choiceLearn();
-    const dialog = document.createElement("dialog");
-    dialog.className = "ng-choice-viewer"; dialog.setAttribute("data-choice-viewer", "");
-    dialog.setAttribute("aria-label", "Watch " + target.node.t);
-    dialog.innerHTML = '<header><strong>' + this.choiceEscape(target.node.t) + '</strong><button type="button" data-watch-close aria-label="Close video viewer">✕</button></header>' + this.filmStudyHTML([clip], true);
-    (this.__ngRoot || document.body).appendChild(dialog);
-    dialog._ngVideoNode = target.node;
-    this._choiceWatch = { dialog, source, wasPaused };
     this.fx("sheet_opened", { technique: target.node.t, surface: "watch" }); // legacy evidence id; no sheet is rendered
-    for (const type of ["pointerdown", "wheel", "click"]) dialog.addEventListener(type, e => e.stopPropagation());
-    dialog.addEventListener("cancel", e => { e.preventDefault(); this._closeChoiceWatch(); });
-    dialog.addEventListener("click", e => { if (e.target === dialog) this._closeChoiceWatch(); });
-    // Iframe keys do not bubble here. Close precedes the player, so browser
-    // traversal can reach it; explicitly wrap the parent controls at both ends.
-    dialog.addEventListener("keydown", e => {
-      if (e.key !== "Tab" || e.altKey || e.ctrlKey || e.metaKey) return;
-      const stops = [...dialog.querySelectorAll("button, a[href], iframe")].filter(el => el.tabIndex >= 0 && !el.disabled && el.getClientRects().length);
-      const first = stops[0], last = stops[stops.length - 1];
-      if (document.activeElement === (e.shiftKey ? first : last)) {
-        e.preventDefault(); (e.shiftKey ? last : first)?.focus();
-      }
-    });
-    dialog.querySelector("[data-watch-close]").onclick = () => this._closeChoiceWatch();
-    this.wireClips(dialog, [clip]);
-    dialog.showModal();
-    this.expandClip(dialog.querySelector(".ng-clip"), clip);
-    dialog.querySelector("[data-watch-close]").focus();
+    this.expandClip(media, clip, { node: target.node, source, poster: media.querySelector("img")?.src || "",
+      label: "Watch " + target.node.t, onClose: () => this.setPaused(wasPaused === true) });
   }
+  // A move's theater only. `restore = false` is a hand that ended (clearOptions): nothing is given back.
   _closeChoiceWatch(restore = true) {
-    const current = this._choiceWatch; if (!current) return;
-    this._choiceWatch = null;
-    if (this._expandedClip && current.dialog.contains(this._expandedClip)) this.clearClipLoops();
-    current.dialog.close(); current.dialog.remove();
-    this.setPaused(current.wasPaused === true);
-    if (restore && current.source.isConnected) current.source.focus({ preventScroll: true });
+    const shown = this._filmTheater; if (!shown?.move) return;
+    if (!restore) shown.quiet = true;
+    this.collapseClip(shown.card);
   }
   buildOptionCard(opt, onPick, decisionSec, num, mode) {
     const n = opt.node, isThreat = !!opt.threat, isEsc = mode === "escape";
@@ -15501,23 +15537,19 @@ class Component extends DCLogic {
    * Glyph-only when nothing is authored yet; `total` reads the manifest `n` until the chunk lands,
    * so an unhydrated deck reports the user's real progress instead of "no cards".
    */
-  // ── TIMED RECALL IN A ROLL IS A SWITCH (U163 c, owner, 13 Nov: "the belt only shows; timed recall and Recall Mode become
-  // settings anyone can turn on"). With it on, a stage-2+ card asks as timed recall in play; off, recognition-first MC.
-  // Until v1.270.0 the worn belt switched it on from blue (v1.133.0 "recall comes with rank", the worn belt since v1.211.0)
-  // and the black-belt patch flipped the setting on as it minted; neither does any more. No belt switches it on.
-  // e2e/journeys/everything-opens.spec.ts and tests/belt_worn.test.mjs ("timed recall: the switch decides…") pin it.
-  // The switch the player stored, whenever they stored one (Off means Off, OPEN1 finding 2); else the carry-over.
-  _recallInPlayNow() {
-    const v = this.get("recallInPlay", null);
-    return v != null ? v === true : this._recallCarried();
-  }
+  // ── TIMED RECALL IN A ROLL WAS A SWITCH (U163 c, v1.270.0 to v1.282): `recallInPlay`, else the carry-over below, decided
+  // whether a stage-2+ card asked as timed recall in a roll. SINCE v1.282.0 THE ANSWER MODE DECIDES IT (`_answerMode`,
+  // beside `mcActive`; rulings R2/SET1-GO): Auto asks exactly what Recall mode On asked. `_recallInPlayNow`, the switch's
+  // reader, is deleted; the key `recallInPlay` is kept (a settings key can never be deleted, CLAUDE.md 6.6) and read by
+  // nothing. The carry-over's FACT is still stamped and merged as before (`recallCarry`, an added top-level `true`, OR
+  // across devices), so it stays true to what an older client reads; it decides nothing here.
   // THE CARRY-OVER: a player whose roll questions were timed recall because of their belt keeps them, until they choose.
   // Carried = the account's fact `recallCarry` (set once by `_syncBelt`, merged as OR, never cleared: a promotion under the
   // rule re-stamps `belts.held` and cannot take it back), or, before that fact is written, the live reading below: the belt
   // held (`belts.held`, MAX across devices, its stamp the moment it was first earned) is blue or above AND was earned no
   // later than the moment the open rule first ran for this account (`openAt`; none yet means the rule has not run, so
-  // anything held predates it). A belt earned after `openAt` switches nothing on. Settings shows this as the switch's value
-  // until the player presses one (`get("recallInPlay", _recallInPlayNow())`), and nothing here ever writes the switch.
+  // anything held predates it). A belt earned after `openAt` switches nothing on. (Until v1.282.0 Settings showed this as
+  // the switch's value until the player pressed one; nothing here ever wrote the switch, and nothing reads it now.)
   // CLOCKS: both stamps come from device clocks, compared as they are, except that a held stamp in this device's future is
   // clamped to its now (the srs merge clamps `last` the same way). What that holds: a belt already in this device's copy
   // when it first runs the rule is carried, however far behind its clock (tests/belt_worn.test.mjs, the clock test). What
@@ -15532,7 +15564,7 @@ class Component extends DCLogic {
   // old device between a guest's stamp and the account's, seen by no new client before the guest join, is judged against
   // the earlier stamp and not carried; a blue re-stamped purple on an old client, on an account whose only new-code device
   // ran first offline without that blue, is not carried (the fact was never set).
-  _recallCarried() { return this._recallCarry === true || this._recallCarryLive(); }
+  // (`_recallCarried`, the fact's reading for the switch, went with `_recallInPlayNow` in v1.282.0: its one reader.)
   _recallCarryLive() {
     const h = this.belts && this.belts.held, at = this._openAt || 0;
     if (!h || ngBeltRank(h.id) < 1) return false;
@@ -15652,7 +15684,9 @@ class Component extends DCLogic {
   _clearLandFilm() {
     // D-354 N3: the film's only remover also ends the reader's media-home observation (D-353), which
     // otherwise held every replaced film until the reader was destroyed.
-    if (this._landFilmEl) { this.clearClipLoops(); if (this._landFilmEl._ngRO) this._landFilmEl._ngRO.disconnect(); this._reader?.resize.unobserve(this._landFilmEl); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
+    // VID1: only a clip OF this film stops with it. A move's or a Principle's video plays in the same theater and is not
+    // this film's to close (a deck landing behind a move's video re-renders the film: coldstart-backfill.spec.ts).
+    if (this._landFilmEl) { if (this._expandedClip && this._landFilmEl.contains(this._expandedClip)) this.clearClipLoops(); if (this._landFilmEl._ngRO) this._landFilmEl._ngRO.disconnect(); this._reader?.resize.unobserve(this._landFilmEl); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
   }
   /** Full card-slot teardown; a same-question repaint preserves its scroll offset. */
   clearLandCard(preserveScroll, preserveMedia) {
@@ -15750,7 +15784,7 @@ class Component extends DCLogic {
     // The shared face does not change the defensive drill's v1.135.0 MC rule,
     // RNG stream or knowledge ledger. "panic" remains its grading/telemetry ID.
     const defense = mode === "defense", surface = defense ? "panic" : "land";
-    const landRecall = !defense && !!(this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
+    const landRecall = !defense && !this._cardAsksMc(key, card);   // the answer mode (`_answerMode`); defence stays MC
     const qh = this.qhash(card.q);
     const rec = { key: key, card: card, mode: mode || "land", answered: false };
     const qw = document.createElement("div");
@@ -16102,7 +16136,8 @@ class Component extends DCLogic {
     // If it exceeds the available band, start at the top and move the entire column to read.
     // Expanding a video keeps the thumbnail's reservation; playback must not squash the deck.
     const film = this._landFilmEl;
-    const filmHeight = film ? (this._expandedClip ? (this._expandedClip._bh || 92) + 6 : Math.ceil(film.getBoundingClientRect().height)) : 0;
+    // 92 + 6, as before VID1 (a framed clip never carried `_bh`; since VID1 no card grows, so none does).
+    const filmHeight = film ? (this._expandedClip ? 98 : Math.ceil(film.getBoundingClientRect().height)) : 0;
     const filmSpace = !this._compactLandDeck() && filmHeight ? filmHeight + 8 : 0;
     // The persistent article/shelf can make the full phone stack taller than the
     // viewport. Keep a visible graph band and use the existing column scroll for
@@ -16195,7 +16230,7 @@ class Component extends DCLogic {
       mount(cached.el);
       return true;
     }
-    const recallable = this._landMode !== "defense" && !!(this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
+    const recallable = this._landMode !== "defense" && !this._cardAsksMc(key, card);
     if (!recallable && !this.mcPoolWarm(key, card)) {
       // cold distractor pool: warm it through _landWarmP (replace-not-clear, so landSettled()
       // still means settled), and only mount if the player has not paged again meanwhile
@@ -16292,13 +16327,12 @@ class Component extends DCLogic {
     //   · cards absent            -> hydrate this deck
     //   · cards here, MC in play  -> warm the distractor pool first, so the options are not a
     //                                function of which neighbour chunks happened to arrive
-    // THE IN-PLAY FORMAT (v1.105.1). MC by design, whatever mcMode says (that setting governs
-    // the sidebar) — EXCEPT with Recall Mode on: `recallInPlay` (a switch anyone turns on since U163 c,
-    // v1.270.0; `_recallInPlayNow` carries over a belt that had it) renders a stage-2+ card as the classic
-    // reveal/self-grade block instead. Per-card, exactly as the owner specified: "after the
-    // player gets the multiple choice right, the second time we show the card... Q and A, and we
-    // hide the answer." A stage-0/1 card stays MC even with the badge on — recognition first.
-    const landRecall = !defense && !!(card && this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
+    // THE IN-PLAY FORMAT is the answer mode's (v1.282.0, `_answerMode`, beside `mcActive`): Auto asks a stage-0/1 card as
+    // multiple choice and a stage-2+ card as the reveal/self-grade block, which is what Recall mode On did here from
+    // v1.105.1 to v1.282 (owner, then: "after the player gets the multiple choice right, the second time we show the
+    // card... Q and A, and we hide the answer"); Front Back cards asks every card front and back, Multiple choice none.
+    // `recallInPlay` and the carried belt no longer decide it (R2: one switch, and the screen says which).
+    const landRecall = !defense && !!card && !this._cardAsksMc(key, card);
     let warm = null, warmKind = null;
     if (wantQ && !card && !this._deckResident(key)) { warm = () => this.hydrateDeck(key); warmKind = "deck"; }
     // the warm gate is FORMAT-AWARE: a recall block needs no distractor pool, and holding its
@@ -16415,10 +16449,14 @@ class Component extends DCLogic {
       // resolution: dock → land_q_shown; failure or landing over → the skip, then (see the warm
       // .then and _flushLandSkipDebt). A missing MANIFEST stays an immediate skip: nothing is
       // even requestable, and the funnel must name that silence while it lasts.
+      // A BACKFILL NEVER REPEATS THE SKIP BEAT (v1.282.2, FLAKE2; the card layer's rule above): a landing whose manifest
+      // arrived late recorded its skip when it rendered, and `onFlashcardsReady` → `_landBackfill` re-renders the SAME landing
+      // (`_landLate`), still before its deck is requested; recording the skip again counted one landing as two drop-offs in the
+      // funnel (`question_skipped`). One landing is one drop-off; the question that then docks is the backfill's own beat
       if (warmKind === "pool") { /* pending, never skipped — mc_pool_cold names the wait */ }
       else if (reason === "decks_in_flight" && this.flashcards && this._deckWaits && this._deckWaits[key])
         this._landSkipDebt = { key: key, mode: mode };
-      else this._landQSkip(key, reason, mode);
+      else if (!this._landLate) this._landQSkip(key, reason, mode);
     }
 
     el.toggleAttribute("data-land-ask", !!this._landAsk && !!this._landQ);
@@ -17974,15 +18012,12 @@ class Component extends DCLogic {
       this.renderTutorial();
     }
     if (this.renderChallengeCue) this.renderChallengeCue();
-    if (
-      this.deckShown &&
-      !this._paneTransition &&
-      !this._renderingChallengeView &&
-      !this._paneStudyActive() &&
-      this._viewMode === "challenges"
-    ) {
-      this.renderExplorer();
-    }
+    // THE CORRIDOR REPAINTS ON NEW EVIDENCE, where it lives (v1.287.0, SET1 slice B): the Path view did this here (a checkpoint
+    // cleared, an objective's count, a crown); since the Path left the drawer the corridor is Master the game's, so it is that
+    // view's corridor that repaints, after any press in flight (`_afterPress`, FGD13: a repaint between a press and its release
+    // swallows the click)
+    if (this.deckShown && !this._renderingChallengeView && this._session?.practice && this._sessionInline())
+      this._afterPress(() => { if (this._session?.practice && this._sessionInline()) this._practiceCorridor(); });
   }
   tutDoneCount() { const d = (this.tut && this.tut.done) || {}; let n = 0; for (const s of this.TUTORIAL) if (d[s.id]) n++; return n; }
   tutCurrent() { const d = (this.tut && this.tut.done) || {}; for (const s of this.TUTORIAL) if (!d[s.id]) return s; return null; }
@@ -19387,7 +19422,7 @@ class Component extends DCLogic {
     return /^[1-9]$/.test(e.key || "") ? Number(e.key) - 1 : -1;
   }
   activateOption(opt, pick, card) {
-    if (!opt || opt.threat || this._choiceWatch || this._execution || this._checkpoint || (this._rollHand && !this._rollHand.mounted)) return;
+    if (!opt || opt.threat || this._filmTheater || this._execution || this._checkpoint || (this._rollHand && !this._rollHand.mounted)) return;
     this._handTouched = true;
     if (pick) { this.setPaused(false); pick(opt); }
   }

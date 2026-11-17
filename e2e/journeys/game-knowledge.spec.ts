@@ -2,12 +2,7 @@ import { expect, test } from "@playwright/test";
 import { journey } from "../dsl";
 
 async function openChallenges(page: any) {
-  await page.evaluate(() => {
-    const app = (window as any).__neural;
-    app.setViewMode("challenges");
-    app.openExplorer();
-    app.showExplorerList();
-  });
+  await journey(page).openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator(".ng-drawer-head")).toBeVisible();
 }
 
@@ -201,7 +196,7 @@ test.describe("Game Knowledge", () => {
       for (const card of app._cardsOf(app.flashcards.decks[key]) || []) {
         app._bumpStage(key, card.q, 3, 3);
       }
-      app.renderExplorer();
+      app._practiceCorridor(); // Master the game's corridor repaints (the Path's renderExplorer until v1.287.0)
     }, deckKey);
     await expect(
       page

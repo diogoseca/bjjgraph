@@ -22,6 +22,9 @@ import { journey } from "../dsl";
  *    is unverifiable, and +2.5s per landing would be a free-time button. Odds/mastery credit
  *    still flows through gradeRecall.
  *  · the Black corridor section advertises the reward ([data-recall-reward]).
+ * v1.282.0 (rulings R2, SET1-GO): the Recall Mode switch left Settings; the answer mode decides a roll's format (Auto asks
+ * a card right twice front and back: answer-mode.spec.ts, landcard-modes.spec.ts 5c). What stays here: a score decides
+ * nothing, the patch mints at black and writes nothing, a self-grade earns no refund and no combo, the Black row.
  */
 
 /** stage every card of every RESIDENT deck to `st`, then recompute the score memo */
@@ -62,10 +65,12 @@ test("U163 c: Recall Mode is a switch for everyone; a black SCORE decides nothin
   // before the score is staged, or the staged band would legitimately become the belt
   await expect.poll(() => page.evaluate(() => { const a = (window as any).__neural; return !!(a.curriculum && a.belts && a.belts.gf); })).toBe(true);
 
-  // fresh profile: the settings row is the switch, off (until v1.270.0: the LOCKED teaser, "Unlocks at black belt")
+  // fresh profile: no Recall Mode row at all since v1.282.0 (the answer mode's Auto does its job, R2); a switch for everyone
+  // from v1.270.0, the LOCKED teaser before ("Unlocks at black belt")
   await page.evaluate(() => (window as any).__neural.openSettings("flashcards"));
   await page.waitForTimeout(300);
-  await expect(page.locator("[data-recall-mode]"), "U163 c: a switch on a white belt").toBeVisible();
+  await expect(page.locator("[data-answer-mode]"), "precondition: the Flashcards tab is drawn").toBeVisible();
+  await expect(page.locator("[data-recall-mode]"), "v1.282.0: no Recall Mode row").toHaveCount(0);
   await expect(page.locator("[data-recall-locked]")).toHaveCount(0);
   await page.evaluate(() => (window as any).__neural.closeModal());
 
@@ -77,9 +82,9 @@ test("U163 c: Recall Mode is a switch for everyone; a black SCORE decides nothin
   await page.waitForTimeout(300);
   const below = await page.evaluate(() => {
     const a = (window as any).__neural;
-    return { worn: a.wornBelt().id, badge: !!(a.badges && a.badges["recall-in-play"]), rank: a._recallInPlayNow() };
+    return { worn: a.wornBelt().id, badge: !!(a.badges && a.badges["recall-in-play"]), stored: a.settings.recallInPlay ?? null };
   });
-  expect(below, "a black score on a white belt").toEqual({ worn: "white", badge: false, rank: false });
+  expect(below, "a black score on a white belt: no belt, no patch, nothing written").toEqual({ worn: "white", badge: false, stored: null });
 
   // PROVE EVERY UNIT OF EVERY BELT (lessons + checkpoints), then answer ONE card through the real
   // choke: the grade publishes, the publish syncs the belt to black, and the badge mints with it
@@ -101,10 +106,11 @@ test("U163 c: Recall Mode is a switch for everyone; a black SCORE decides nothin
   });
   expect(st.badge, "the badge minted").toBe(true);
   expect(st.on, "U163 c: the mint leaves the switch where it was (until v1.270.0 it flipped it ON)").toBe(false);
+  // at black too, the patch is a patch: Settings has no Recall Mode row to turn on (v1.282.0); until then the player turned
+  // the switch on here
   await page.evaluate(() => (window as any).__neural.openSettings("flashcards"));
   await page.waitForTimeout(300);
-  await j.clickByMouse("[data-recall-mode] button", "Recall mode: On");
-  expect(await page.evaluate(() => (window as any).__neural._recallInPlayNow()), "the player turns it on").toBe(true);
+  await expect(page.locator("[data-recall-mode]"), "no Recall Mode row at black either").toHaveCount(0);
   await page.evaluate(() => (window as any).__neural.closeModal());
 
   // flipping it OFF sticks across more answers at black
@@ -134,12 +140,12 @@ test("with the badge on, a proven card lands as pure recall — and stays MC bel
     const a = (window as any).__neural;
     const key = a.deckKeyFor(a.nodes[a.currentPos]).key;
     const cards = a._cardsOf(a.flashcards.decks[key]);
-    // make card[0] proven, everything else unseen, then turn the badge's toggle on directly
+    // make card[0] proven, everything else unseen (the badge's toggle was turned on here too, `recallInPlay`, until v1.282.0:
+    // the switch decides nothing since, and Auto asks a proven card front and back by itself)
     a.stage[key] = { [a.qhash(cards[0].q)]: 3 };
     // due, so due-first selection picks the PROVEN card — the exact composition W1+W2 create
     const today = a._epochDay();
     a.srs[key] = { [a.qhash(cards[0].q)]: [today - 1, 3, today - 4] };
-    a.settings.recallInPlay = true;
     a._landQ = null;
     a.renderLandCard(a.nodes[a.currentPos], "land", null);
     return { q: cards[0].q };
@@ -185,19 +191,23 @@ test("with the badge on, a proven card lands as pure recall — and stays MC bel
 
 // Until v1.270.0: "the Black corridor section advertises the reward, locked and earned" — on a white belt the row sat in
 // the LOCKED Black section, which stayed inert. U163 c: the Black section is an ordinary one (folded until opened), and
-// the row is the patch's, saying that Recall Mode itself is open to everyone.
-test("U163 c: the Black section shows the patch, unearned and earned, and says Recall Mode is open to everyone", async ({ page }) => {
+// the row is the patch's. From v1.270.0 to v1.282 it also said where the Recall Mode switch was ("open to everyone: turn it
+// on in Settings → Flashcards"); since v1.282.0 that switch is gone, so the row says only how the patch is earned.
+test("U163 c: the Black section shows the patch, unearned and earned, and points at no Settings switch", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"));
+  await j.openCorridor({ allBelts: false }); // v1.287.0: the Path left the drawer; its corridor is Master the game's
   await page.waitForTimeout(500);
 
   await page.locator('[data-belt-toggle="black"]').scrollIntoViewIfNeeded();
   await j.clickByMouse('[data-belt-toggle="black"]', "unfold Black");
   const unearned = page.locator('[data-recall-reward="unearned"]');
   await expect(unearned).toHaveCount(1);
-  await expect(unearned).toContainText("Recall Mode");
-  await expect(unearned, "it says where the mode is").toContainText("open to everyone");
+  // named "Black Belt" since v1.282.0 (D6, the reader of #423): "Recall Mode" named the switch that left Settings
+  await expect(unearned).toContainText("Black Belt");
+  await expect(unearned, "and no longer names that switch").not.toContainText("Recall Mode");
+  await expect(unearned, "it says how the patch is earned").toContainText("Reach black belt to earn it.");
+  await expect(unearned, "and points at no Settings switch (v1.282.0)").not.toContainText("Settings");
   await expect(unearned, "shown in the open Black section").toBeVisible();
 
   // mint the badge, re-render: the row reads earned
@@ -205,7 +215,7 @@ test("U163 c: the Black section shows the patch, unearned and earned, and says R
     const a = (window as any).__neural;
     a.badges = a.badges || {};
     a.badges["recall-in-play"] = { t: Date.now() };
-    a.openPane("challenges");
+    a._practiceCorridor(); // Master the game's corridor repaints in place (the Path re-opened here until v1.287.0)
   });
   await page.waitForTimeout(400);
   await expect(page.locator('[data-recall-reward="earned"]')).toHaveCount(1);

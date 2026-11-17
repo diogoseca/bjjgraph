@@ -99,7 +99,7 @@ test("mid-roll soft nav: old life torn down silent, remount residue-free, fresh 
 
   // A real Watch viewer is open at navigation time; it must leave with its old app.
   await openChoiceVideo(page, hand1[0])
-  await expect(page.locator("[data-choice-viewer]"), "Watch open at nav time").toBeVisible()
+  await expect(page.locator(".ng-video-theater"), "Watch open at nav time (VID1: the theater)").toBeVisible()
 
   // mark life 1 + stash a window-global ref (window globals survive a SOFT nav — this is
   // both the corpse handle and the alias-stub hard-nav detector). Plant ONE pending sim timer
@@ -142,7 +142,7 @@ test("mid-roll soft nav: old life torn down silent, remount residue-free, fresh 
         beats: (a.beats || []).length,
       },
       roots: document.querySelectorAll("#neural-root").length,
-      viewers: document.querySelectorAll("[data-choice-viewer]").length,
+      viewers: document.querySelectorAll(".ng-video-theater, [data-choice-viewer]").length,
       corpse: old && {
         destroyed: old.__ngDestroyed === true,
         timers: (old._timers || []).length,

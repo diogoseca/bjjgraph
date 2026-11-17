@@ -186,76 +186,7 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-/* ── the maintenance band — the daily dosage, and the corridor's one fixed point ──
-   STICKY (owner, v1.137.0: "maintenance should always appear on top, and you can scroll
-   down, but maintenance should still show"). Two consequences that are easy to get wrong:
-    · it must be OPAQUE. The corridor scrolls UNDERNEATH a sticky child, and the old
-      .5-alpha gradient let belt headers read straight through it.
-    · it must be subtracted from the arrival scroll target (renderChallenges' arrival
-      positioning does this off the live rect) or it parks on top of the belt header it
-      just scrolled to.
-   One row, ~41px: the count is the fact, the line beside it is the reason. */
-.ng-maint-band {
-  position: sticky;
-  top: 0;
-  z-index: 3;
-  width: 100%;
-  min-height: 36px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin: 0 0 10px;
-  padding: 8px 9px 8px 12px;
-  border: 1px solid rgba(214, 164, 90, 0.22);
-  border-radius: 10px;
-  /* a dark panel wearing the pane's own ground, not an amber warning block: sticky chrome
-     is read on EVERY scroll, so the colour lives in the count and the Start chip instead */
-  background: linear-gradient(180deg, #1e2030, #191b28);
-  box-shadow: 0 8px 16px -10px rgba(0, 0, 0, 0.9);
-  color: inherit;
-  font-family: inherit;
-  text-align: left;
-  cursor: pointer;
-  pointer-events: auto;
-}
-
-.ng-maint-band > b {
-  flex: none;
-  color: #f2dcaa;
-  font: 800 12.5px/1 "Plus Jakarta Sans", sans-serif;
-}
-
-/* never an ellipsis (R409 item 4): the band's observer shows the line whole or not at all (challenge-ui.src.js) */
-.ng-maint-band > span {
-  flex: 1;
-  min-width: 0;
-  overflow: hidden;
-  color: #9c8b6b;
-  font-size: 10.5px;
-  line-height: 1.2;
-  white-space: nowrap;
-}
-
-.ng-maint-band > span[hidden] {
-  display: none;
-}
-
-.ng-maint-band > em {
-  flex: none;
-  /* the chip keeps the band's right edge when the line is not shown */
-  margin-left: auto;
-  padding: 5px 11px;
-  border: 1px solid rgba(214, 164, 90, 0.42);
-  border-radius: 8px;
-  background: rgba(214, 164, 90, 0.14);
-  color: #f4efe4;
-  font: 700 11px/1 "Plus Jakarta Sans", sans-serif;
-  font-style: normal;
-}
-
-.ng-maint-band:hover > em {
-  background: rgba(214, 164, 90, 0.22);
-}
+/* the maintenance band went with the Path (v1.287.0, SET1 slice B): Master the game's row is that door */
 
 .ng-track-list,
 .ng-coin-list {
@@ -737,24 +668,7 @@
   color: #dbe6ff;
 }
 
-.ng-lesson-deckbox {
-  min-width: 0;
-}
-
-/* THE DECK BOX TAKES FOCUS (v1.175.0), because the keyboard cannot reach an inline deck from a
-   <button>: Space and Enter are that button's activation keys and the handler yields to them.
-   A container owns neither, so focus parks here and ←/→/Space/Enter reach _onKey. No ring on a
-   programmatic focus (the deck is already the only thing that just changed on screen); a
-   keyboard-initiated one still gets an outline, which is what :focus-visible is for. */
-.ng-lesson-deckbox:focus {
-  outline: none;
-}
-
-.ng-lesson-deckbox:focus-visible {
-  outline: 1px solid rgba(120, 150, 255, 0.45);
-  outline-offset: 3px;
-  border-radius: 12px;
-}
+/* the Path's inline lesson deck and its focus box went with the Path (v1.287.0): a lesson opens as a session row */
 
 .ng-challenge-checkpoint,
 .ng-challenge-capstone > button {

@@ -85,8 +85,8 @@ test("a post-fail, non-perfect retake pass never mints the Clean Checkpoint patc
     await j.rig("checkpoint-pick", seq(rigSeed, 10))
     await j.rig("mc-pick", seq(rigSeed + 1, 500))
     await j.rig("mc-shuffle", seq(rigSeed + 2, 150))
-    // Drawer (U51 e / U56 e): select Path explicitly; opening alone shows the home list.
-    await page.evaluate(() => (window as any).__neural.openPane("challenges"))
+    // Drawer (U51 e / U56 e): open the corridor explicitly; opening the drawer alone shows the home list.
+    await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
     await expect(page.locator("[data-view]").first()).toBeVisible()
     await openGroup()
     await page.locator(`[data-checkpoint="${UK2}"]`).first().click()

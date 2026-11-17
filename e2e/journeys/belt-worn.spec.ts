@@ -21,13 +21,14 @@ import { multiBeltEndgame } from "../gen/personas"
  * (`[data-belt-row] .ng-belt`, its `data-belt` and `data-stripes`), which wears the HELD LEVEL (`belts.lvl`), raised to
  * the Path's level by the same `_syncBelt`; with no number read here the two agree, so every assertion below moved to the
  * new element unchanged except where table a differs: black has NO stripes there (the Path's own rule keeps its four,
- * asserted through `wornBelt()`). The Path row now says its course's units in words. Each changed line says what it
- * claimed before. The mutants above were run against the Path row's belt; the new row's are in tests/belt_row.test.mjs.
+ * asserted through `wornBelt()`). The Path row then said its course's units in words, until v1.287.0 (SET1 slice B), when
+ * the Path row left the drawer and its words with it (the first small loss the owner accepted); their two assertions here
+ * went with them. Each changed line says what it claimed before. The mutants above were run against the Path row's belt;
+ * the new row's are in tests/belt_row.test.mjs.
  */
 
 // v1.276.0: the drawer's one belt, on the "Master the game" row (before: `[data-path-belt] .ng-tab-belt`, under the Path row)
 const tabBelt = (page: Page) => page.locator('[data-belt-row] .ng-belt')
-const pathWords = (page: Page) => page.locator("[data-tab-sub='challenges']")
 
 /** curriculum and deck manifest resident, and the one-time grandfather has run */
 async function migrated(page: Page) {
@@ -42,7 +43,6 @@ async function openChallenges(page: Page) {
     a.setViewMode("explore")
     a.openExplorer()
     a.showExplorerList()
-    a.renderTabSubtitles()
     a._paintBeltRow()
   })
   await expect(page.locator(".ng-drawer-head")).toBeVisible()
@@ -59,7 +59,6 @@ async function prove(page: Page, belts: string[], opts: { frame?: string; checkp
       }
     }
     a._publishKnowledge("journey")
-    a.renderTabSubtitles()
     a._paintBeltRow()
   }, { belts, frame: opts.frame, checkpoints: opts.checkpoints })
 }
@@ -78,7 +77,6 @@ test("a finished player wears black, never the corridor's white: drawn with no s
   await expect(tabBelt(page)).toHaveAttribute("data-stripes", "0")
   expect(await page.evaluate(() => { const w = (window as any).__neural.wornBelt(); return [w.id, w.stripes] })).toEqual(["black", 4])
   expect(await tabBelt(page).evaluate((el) => (el as HTMLElement).style.getPropertyValue("--belt"))).toBe("#1d1d22")
-  await expect(pathWords(page), "the Path row says its course is done, in words").toHaveText(/^(\d+) of \1 units$/)
   // the corridor's frontier still falls back to its top for NAVIGATION — it just dyes nothing now
   expect(await page.evaluate(() => (window as any).__neural._frontierBeltId())).toBe("white")
 })
@@ -92,7 +90,6 @@ test("lessons alone never promote; proving every unit does", async ({ page }) =>
   // before: the same four on `data-tab-belt` / `data-tab-stripes` under the Path row
   await expect(tabBelt(page), "every White lesson done, no checkpoint").toHaveAttribute("data-belt", "white")
   await expect(tabBelt(page)).toHaveAttribute("data-stripes", "0")
-  await expect(pathWords(page), "no unit proven yet, in words").toHaveText(/^0 of \d+ units$/)
   await prove(page, ["white"])
   await expect(tabBelt(page), "every White unit proven").toHaveAttribute("data-belt", "blue")
   await expect(tabBelt(page)).toHaveAttribute("data-stripes", "0")

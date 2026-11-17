@@ -115,7 +115,10 @@ const NG_CHALLENGE_FEEDBACK_METHODS = {
       .querySelector("[data-reward-collection]")
       .addEventListener("click", () => {
         dismiss();
-        this._scrollRewardsShelf = true; // open + scroll the shelf inside Challenges
+        // VIEW COLLECTION LANDS ON THE SHELF IN MASTER THE GAME (O1, v1.287.0, SET1 slice B): the Path it opened left the
+        // drawer; the same shelf is drawn at the foot of Master the game's corridor (`renderChallenges`), and this flag opens
+        // it and scrolls it into view there (`renderRewardsShelf`). `openLearningView("challenges")` → `openCorridor`.
+        this._scrollRewardsShelf = true;
         this.openLearningView("challenges");
         redraw();
       });
