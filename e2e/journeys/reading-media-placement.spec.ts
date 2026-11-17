@@ -97,102 +97,61 @@ for (const [path, width, fixture] of [
     expect(resting).toMatchObject({ hand: 0, played: false, paused: true, clock: null, beats: [] })
     await installTransport(page)
     await page.evaluate(() => { (window as any).__referenceHost = (window as any).__neural._landFilmEl })
+    // VID1 (owner, 15 Nov: "i'd rather show the video only on top of everything, and dim the rest, and start it
+    // immediately"): a published reference clip plays in the theater, from the press, with no seat. WAS (v1.230.0 to
+    // v1.280.0): it played inside its card in the reader, after the player's own Play (driven through its handle here).
+    // On the VID1 build the old loop failed at its first check ('[data-reader] iframe' count 0: the player is in the theater).
     for (const index of [0, 1]) {
       const play = page.locator('[data-land-film] .ng-clip').nth(index)
       await play.scrollIntoViewIfNeeded()
       await play.evaluate(el => el.setAttribute('data-reference-play', ''))
       await j.clickByMouse('[data-reference-play]', 'play the published reference through its media owner')
       await play.evaluate(el => el.removeAttribute('data-reference-play'))
-      await expect(page.locator('[data-reader] iframe')).toHaveCount(1)
-      // STALE CONTRACT (v1.230.0, feat/video-cards): the player opens on its own controls and never autoplays;
-      // the viewer's Play is the provider's own control, made here through the player.
-      await expect.poll(() => page.evaluate(() => !!(window as any).__neural._expandedClip?._playerReady), 'premise: the player is ready').toBe(true)
-      await page.evaluate(() => (window as any).__neural._expandedClip._player.playVideo())
+      await expect(page.locator('.ng-video-theater iframe')).toHaveCount(1)
+      await expect(page.locator('[data-reader] iframe'), 'the reader hosts no player').toHaveCount(0)
       await expect.poll(() => page.evaluate(() => {
-        const f = document.querySelector('[data-land-film] iframe') as HTMLIFrameElement
+        const f = document.querySelector('.ng-video-theater iframe') as HTMLIFrameElement
         return f?.contentDocument?.querySelector('video')?.currentTime || 0
-      })).toBeGreaterThan(.1)
+      }), { message: 'the press plays it, with no second Play' }).toBeGreaterThan(.1)
       expect(await dormant(), 'reference playback cannot borrow a seat or award gameplay').toEqual(resting)
       expect(await page.evaluate(() => (window as any).__referenceHost === (window as any).__neural._landFilmEl)).toBe(true)
+      // The Videos ✕ (the one hide path left, D-338) takes no press while the clip plays: the dim owns its point.
+      expect(await page.evaluate(() => {
+        const t = document.querySelector('[data-section-toggle=videos]')!.getBoundingClientRect()
+        const hit = document.elementFromPoint(Math.min(innerWidth - 1, Math.max(0, t.left + t.width / 2)), Math.min(innerHeight - 1, Math.max(0, t.top + t.height / 2)))
+        return !!hit && document.querySelector('.ng-video-theater')!.contains(hit)
+      }), 'the Videos ✕ is under the theater while the clip plays').toBe(true)
+      await page.locator('.ng-video-theater').evaluate(async d => { await Promise.all(d.getAnimations().map(a => a.finished)) })
+      await j.clickByMouse('.ng-video-theater .ngClipX', 'close the reference video')
+      await expect(page.locator('.ng-video-theater')).toHaveCount(0)
+      expect(await dormant(), 'closing it leaves the page as it was').toEqual(resting)
     }
-    expect(await page.evaluate(() => (window as any).__mediaEvents.filter((x: string) => x === 'destroy').length)).toBe(1)
-    // STALE CONTRACT (D-338, no View menu): the article view cannot hide Book, so "hidden audio"
-    // is reached through the one remaining hide path, the Videos ✕, while the clip still plays.
-    expect(await page.evaluate(() => (document.querySelector('[data-land-film] iframe') as HTMLIFrameElement).contentDocument!.querySelector('video')!.paused), 'the clip is playing before its section closes').toBe(false)
-    // D-501: hold actual browser objects before either move; a reloaded iframe is
-    // a failure even when a fresh fixture has already loaded and reports paused.
-    await page.evaluate(() => {
-      const w = window as any, a = w.__neural, frame = a._landFilmEl.querySelector('iframe')
-      w.__referenceLive = { host: a._landFilmEl, frame, doc: frame.contentDocument,
-        video: frame.contentDocument.querySelector('video'), player: a._expandedClip._player,
-        plays: w.__mediaEvents.filter((x: string) => x === 'play').length, loads: 0 }
-      frame.addEventListener('load', () => w.__referenceLive.loads++)
-    })
-    const continuity = () => page.evaluate(() => {
-      const w = window as any, a = w.__neural, saved = w.__referenceLive, frame = a._landFilmEl?.querySelector('iframe')
-      return { host: a._landFilmEl === saved.host, frame: frame === saved.frame,
-        document: frame?.contentDocument === saved.doc, player: a._expandedClip?._player === saved.player,
-        video: frame?.contentDocument?.querySelector('video') === saved.video, loads: saved.loads,
-        paused: frame?.contentDocument?.querySelector('video')?.paused,
-        extraPlay: w.__mediaEvents.filter((x: string) => x === 'play').length - saved.plays }
-    })
-    const intact = { host: true, frame: true, document: true, player: true, video: true, loads: 0 }
+    expect(await page.evaluate(() => (window as any).__mediaEvents.filter((x: string) => x === 'destroy').length), 'each close destroyed its player').toBe(2)
+    // VID1 retires what this block went on to hold for a player INSIDE the reader's host (WAS: D-501's Videos close and
+    // reopen around a live player, the Resume press, and, with no moveBefore, the pause-before-append move that rebinds only
+    // on Resume): a playing clip now lives in the theater, never in the host the reader closes or moves. Kept: closing and
+    // reopening Videos keeps the host and starts nothing. `pauseLandFilm` keeps its own pin below; `resumeFilm` and
+    // `_landFilmMoved` now serve no state a press can reach (tests/artifacts/video_theater_mutants.json, retired rows).
+    const events = await page.evaluate(() => (window as any).__mediaEvents.length)
     await page.locator('[data-section-toggle=videos]').scrollIntoViewIfNeeded()
-    await j.clickByMouse('[data-section-toggle=videos]', 'closing a seatless article\'s videos cannot leave hidden audio playing')
+    await j.clickByMouse('[data-section-toggle=videos]', 'close a seatless article\'s videos')
     await expect(page.locator('[data-section-type=videos] .ng-section-body')).toBeHidden()
-    expect(await page.evaluate(() => (window as any).__mediaEvents.filter((x: string) => x === 'destroy').length)).toBe(1)
-    expect(await continuity(), 'D-501: closing Videos preserves the iframe document and player').toMatchObject(intact)
-    expect(await continuity(), 'closed reference video stays paused without a replacement player').toMatchObject({ paused: true, extraPlay: 0 })
     const indexLink = page.locator('[data-toc-type=videos] [data-section-link]')
     if (await indexLink.isVisible()) {
       await indexLink.scrollIntoViewIfNeeded()
       await j.clickByMouse('[data-toc-type=videos] [data-section-link]', 'reopen Videos through the visible index')
     } else {
       // WAS (U25 a): opened "Hidden sections" and pressed the same Videos control there. NOW (U131 b2): the Video tile holds its
-      // message in its place, and its Undo reopens the same section (the player and its document untouched, below).
+      // message in its place, and its Undo reopens the same section.
       await page.locator('[data-hidesec-notice=videos] [data-hidesec-undo]').scrollIntoViewIfNeeded()
       await j.clickByMouse('[data-hidesec-notice=videos] [data-hidesec-undo]', "reopen the same Videos section from its message's Undo")
     }
     await expect(page.locator('[data-section-toggle=videos]')).toHaveAttribute('aria-expanded', 'true')
     await expect(page.locator('[data-section-type=videos] .ng-section-body')).toBeVisible()
-    expect(await continuity(), 'D-501: reopening Videos preserves the iframe document and player').toMatchObject(intact)
-    expect(await continuity(), 'reopening never autoplays').toMatchObject({ paused: true, extraPlay: 0 })
-    const stoppedAt = await page.evaluate(() => (window as any).__referenceLive.video.currentTime)
-    await page.locator('[data-film-resume]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-    await j.clickByMouse('[data-film-resume]', 'only the visible Play resumes the stopped clip')
-    await expect(page.locator('[data-film-resume]'), 'Resume is spent once the clip plays').toHaveCount(0)
-    await expect.poll(() => page.evaluate(() => (window as any).__referenceLive.video.currentTime)).toBeGreaterThan(stoppedAt + .1)
-    expect(await continuity(), 'D-501: resumed reference playback still owns the original document and player').toMatchObject({ ...intact, paused: false, extraPlay: 1 })
+    expect(await page.evaluate(() => (window as any).__referenceHost === (window as any).__neural._landFilmEl), 'Videos keeps its host').toBe(true)
+    expect(await page.evaluate(() => (window as any).__mediaEvents.length), 'reopening never autoplays: no player, no play').toBe(events)
+    await expect(page.locator('[data-land-film] iframe, [data-reader] iframe, .ng-video-theater, [data-film-resume]')).toHaveCount(0)
     expect(await dormant()).toEqual(resting)
-    // With no moveBefore, moving a live player reloads its iframe. place() is the one placement writer, and
-    // this is the contract the current technique's film gave up when it moved to the theater: pause first,
-    // strand the old document, keep the host, and rebind only on Resume.
-    if (!native) {
-      await page.evaluate(() => {
-        const w = window as any, a = w.__neural, home = a._reader.mediaHome, append = home.appendChild
-        w.__mediaEvents.length = 0
-        home.appendChild = function (node: Node) { if (node === a._landFilmEl) w.__mediaEvents.push('append'); return append.call(this, node) }
-        a._reader.place(home)
-      })
-      const moved = () => page.evaluate(() => {
-        const w = window as any, a = w.__neural, frame = a._landFilmEl.querySelector('iframe'), card = a._expandedClip
-        return { host: a._landFilmEl === w.__referenceLive.host, stale: !!card?._mediaStale, player: card?._player === w.__referenceLive.player,
-          source: frame?.getAttribute('src'), frames: document.querySelectorAll('[data-land-film] iframe').length, events: w.__mediaEvents.slice() }
-      })
-      const stranded = await moved()
-      expect(stranded.events.slice(0, 2), 'the fallback pauses before it appends').toEqual(['pause', 'append'])
-      expect(stranded, 'the move strands the old document and keeps the host').toMatchObject({ host: true, stale: true, player: false, source: 'about:blank', frames: 1 })
-      await page.waitForTimeout(350)
-      expect((await moved()).events, 'nothing restarts a stranded clip').not.toContain('play')
-      // The Videos section's slot, by its own attribute (the reader's name for it is mangled, v1.252.0); a null would place nothing.
-      expect(await page.evaluate(() => { const a = (window as any).__neural, slot = document.querySelector('[data-reader-media-slot]'); if (slot) a._reader.place(slot); return !!slot }), 'the Videos slot exists').toBe(true)
-      await page.locator('[data-film-resume]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-      await j.clickByMouse('[data-film-resume]', 'only the visible Play rebinds a stranded clip')
-      await expect.poll(async () => (await moved()).events, { message: 'Resume rebinds a fresh player and plays it' }).toContain('play')
-      expect(await moved(), 'the rebound clip owns one fresh player in the same host').toMatchObject({ host: true, stale: false, frames: 1, player: false })
-      await expect(page.locator('[data-film-resume]')).toHaveCount(0)
-      expect(await dormant()).toEqual(resting)
-    }
     if (!fixture) {
       const link = page.locator('[data-reader-body] a[href*="/Principles/Distance-Control"]').first()
       await link.scrollIntoViewIfNeeded(); await link.evaluate(el => el.setAttribute('data-reference-next', ''))

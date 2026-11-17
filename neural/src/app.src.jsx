@@ -1049,7 +1049,6 @@ class Component extends DCLogic {
     this._onKey = (e) => {
       const t = e.target, typing = t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
       if (this._filmTheater) { if (e.key === "Escape") { e.preventDefault(); this.collapseClip(this._filmTheater.card); } return; }
-      if (this._choiceWatch) { if (e.key === "Escape") { e.preventDefault(); this._closeChoiceWatch(); } return; }
       if (e.key !== "Escape" && this.modalRef.current?.style.display === "flex") return;
       if (e.key !== "Escape" && this._readKey(e)) return;
       if (((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing)) {
@@ -1065,9 +1064,6 @@ class Component extends DCLogic {
         if (this.closeModalIfOpen()) return;
         if (this.closeListPicker()) return; // anchored chooser, same deliberate band as the menu
         if (this.closeAccountMenu()) return;
-        if (this._expandedClip && this._expandedClip.closest("[data-concept-film]")) {
-          e.preventDefault(); const clip = this._expandedClip; this.collapseClip(clip); clip.focus(); return;
-        }
         if (this.stopReplay("esc")) return;  // a film is ambient chrome: it stops before the pane closes
         if (this.deckShown) this.setDeckOpen(false);
       } else if (!typing && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
@@ -2593,62 +2589,44 @@ class Component extends DCLogic {
   _stopConceptFilm() {
     if (this._expandedClip && this._expandedClip.closest("[data-concept-film]")) this.clearClipLoops();
   }
-  expandClip(card, clip, resume = false) {
+  // ONE VIEWER FOR EVERY VIDEO A PRESS OPENS (VID1, owner 15 Nov: "i'd rather show the video only on top of everything,
+  // and dim the rest, and start it immediately, and have a discrete x on the corner, and people can either click the
+  // suroundings or the x or press esc to close it ... use the same mechanism the video card for the current node uses,
+  // it's perfect"). Every caller gets the theater: the current node's card, a reference page's film in the reader, a
+  // Principle's film in the drawer, a move's play circle (through `_openChoiceWatch`) and the reader's Resume.
+  // `_openFilmTheater` portals the player into a modal <dialog>; the card stays exactly where it was.
+  // WAS, to v1.280.0: only the current node's card zoomed and asked YouTube to play (`autoplay: theater ? 1 : 0`). A
+  // reference or Principle clip grew inside its card (and closed on a press outside it), and a move opened a 620px
+  // modal whose title row carried Quartz's 32px header margins above and below (CLAUDE.md §6.1) and a second ✕, the
+  // player's own, which closed the PLAYER and left the modal open on a poster. Each of those waited for YouTube's Play.
+  // `own` is a move's: { node, source, poster, label, onClose }. `card` is then the move's media region (the zoom
+  // starts from its poster), `source` its play circle (focus returns there), `node` the move a playback credits.
+  // Pinned by video-viewer.spec.ts (every surface, by mouse and by touch) and video-theater.spec.ts.
+  expandClip(card, clip, own = null) {
     if (!card || !clip || card._expanded) return;
     // D-354 N1's slot placement is retired with the Videos lift (D-368, layout C): a game film stays in the
     // game's media home, so a play never leaves an empty Videos slot to fill.
     if (this._expandedClip && this._expandedClip !== card) this.collapseClip(this._expandedClip);
-    if (card.closest(".ng-landfilm,.ng-choice-viewer")) this._choiceLearn();
+    // Watching is reading (`_choiceLearn`: the hand touched, its question declined, the game paused), and closing gives
+    // back the pause it found: VID1 asks every way out to leave the app as it was. A move's opener does this itself,
+    // reading the pause before its own `_choiceLearn`. (WAS, VIDEO1 to v1.280.0: the current card's theater left the
+    // game paused after it closed; only the move's modal gave the pause back.)
+    let restore = own ? own.onClose : null;
+    if (!own && card.closest(".ng-landfilm")) { const was = this.paused; this._choiceLearn(); restore = () => this.setPaused(was === true); }
     card._expanded = true; card._mediaPaused = false; card._mediaStale = false; card._mediaClip = clip;
     card._playerReady = false; this._expandedClip = card;
     const generation = card._mediaGeneration = (card._mediaGeneration || 0) + 1;
     const live = () => card.isConnected && card._expanded && card._mediaGeneration === generation;
-    const row = card.parentElement;
-    const framed = card.closest(".ng-landfilm,.ng-choice-viewer");
-    if (!framed) {
-      card._bw = card.offsetWidth; card._bh = card.offsetHeight;
-      // v1.230.0, restored with the video cards' merge (its player had dropped it): a principle's film plays inside the
-      // scrolling Learning pane, so its height is capped by the pane, a portrait keeping its shape, and its final
-      // rectangle is revealed there (concepts-surface: the expanded portrait and its close button fit the pane).
-      const list = card.closest("[data-concept-film]") && this.explorerListRef.current;
-      let width = Math.min(496, (row?.clientWidth || 460) * .96), height = Math.min(460, width * (clip.vertical ? 16 / 9 : 9 / 16));
-      if (list && height > list.clientHeight - 16) { height = Math.max(1, list.clientHeight - 16); width = Math.min(width, height * (clip.vertical ? 9 / 16 : 16 / 9)); }
-      card.style.setProperty("width", width + "px", "important");
-      card.style.setProperty("height", height + "px", "important");
-      // The reveal runs again when the height transition ends: on the first frame the card is still its row
-      // height, so the list may not yet be tall enough to scroll the final rectangle into view (H136: 1440, the
-      // card's bottom at 700 against the pane's 678, the scroll clamped at the row-height content).
-      const reveal = () => {
-        if (!live()) return;
-        const view = list.getBoundingClientRect(), top = card.getBoundingClientRect().top;
-        if (top + height > view.bottom - 8) list.scrollTop += top + height - view.bottom + 8;
-        else if (top < view.top + 8) list.scrollTop += top - view.top - 8;
-      };
-      if (list) {
-        requestAnimationFrame(reveal);
-        const grown = e => { if (e.target !== card || e.propertyName !== "height") return; card.removeEventListener("transitionend", grown); reveal(); };
-        card.addEventListener("transitionend", grown);
-      }
-    }
-    card.style.cursor = "default";
     const launch = card.querySelector("[data-film-play]"); if (launch) launch.hidden = true;
     const ph = document.createElement("div"); ph.className = "ngPlayerHost";
     ph.style.cssText = "position:absolute;inset:0;background:#000;z-index:2;";
-    const vhost = document.createElement("div"); ph.appendChild(vhost); card.appendChild(ph);
+    const vhost = document.createElement("div"); ph.appendChild(vhost);
+    // The theater's ONE ✕ (the owner: "a discrete x on the corner"). Focus returns to `source` in collapseClip.
     const close = document.createElement("button"); close.type = "button"; close.className = "ngClipX";
     close.textContent = "✕"; close.setAttribute("aria-label", "Close video");
     close.style.cssText = "position:absolute;top:0;right:0;z-index:7;width:44px;height:44px;background:rgba(8,10,16,.85);border:0;border-radius:8px;color:#eef1f6;cursor:pointer;";
-    close.onclick = e => { e.stopPropagation(); this.collapseClip(card); launch?.focus({ preventScroll: true }); };
-    card.appendChild(close);
-    const theater = card.closest("[data-land-film]:not([data-reference-film])");
-    if (theater) this._openFilmTheater(card, clip, ph, close, launch);
-    // An outside activation of a section control is a pause/move, never a close.
-    // This listener only closes a non-current reference clip; current media keeps
-    // its identity until its own Close or a real node/role teardown.
-    if (!framed) {
-      card._outside = e => { if (live() && !card.contains(e.target)) this.collapseClip(card); };
-      document.addEventListener("pointerdown", card._outside, true);
-    }
+    close.onclick = e => { e.stopPropagation(); this.collapseClip(card); };
+    this._openFilmTheater(card, clip, ph, close, own ? own.source : launch, own, restore);
     // §6.6: the fallback says it fired. `e` is the player's onError; no `e` means the script itself failed.
     const fail = e => {
       if (!live()) return;
@@ -2659,12 +2637,13 @@ class Component extends DCLogic {
       link.style.cssText = "display:grid;place-items:center;height:100%;color:#dce6ff;font-size:13px;";
       ph.replaceChildren(link);
     };
+    let mutedStart = false;
     this.ytApiReady().then(YT => {
       if (!live()) return;
       if (!YT?.Player) { fail(); return; }
       const player = new YT.Player(vhost, {
         width: "100%", height: "100%", videoId: clip.id,
-        playerVars: { autoplay: theater ? 1 : 0, controls: 1, start: clip.start || 0, end: clip.end || undefined, rel: 0, playsinline: 1 },
+        playerVars: { autoplay: 1, controls: 1, start: clip.start || 0, end: clip.end || undefined, rel: 0, playsinline: 1 },
         events: {
           onReady: e => {
             if (!live()) return;
@@ -2672,9 +2651,17 @@ class Component extends DCLogic {
             const iframe = e.target.getIframe?.();
             if (iframe) { iframe.title = clip.title || "Technique video"; iframe.setAttribute("allow", "autoplay; encrypted-media; picture-in-picture; fullscreen"); }
             if (card._mediaPaused || card.closest("[hidden],[inert]")) e.target.pauseVideo();
-            // A fallback move discards the old handle. Only an explicit Resume
-            // may start its replacement, after this fresh player's ready event.
-            else if (resume || theater) e.target.playVideo();
+            else e.target.playVideo();
+          },
+          // A browser that refuses sound a script starts (iPhone Safari: a play must come from a tap INSIDE the
+          // provider's frame) refuses this one. Start it muted at once instead, with YouTube's own unmute control:
+          // one tap for sound, never a second Play (VID1). Once per open, so a refused muted play cannot loop; the beat
+          // says it fired (§6.6). Chromium plays with sound from the press that opened the theater (measured, VID1).
+          onAutoplayBlocked: e => {
+            if (!live() || mutedStart || card._mediaPaused) return;
+            mutedStart = true;
+            this.fx("video_autoplay_muted", { id: clip.id });
+            try { e.target.mute(); e.target.playVideo(); } catch (err) { /* the player's own Play remains */ }
           },
           onStateChange: e => {
             if (!live()) return;
@@ -2683,7 +2670,7 @@ class Component extends DCLogic {
             // the position/technique study surfaces (sections: a reference page earns no gameplay credit).
             if (e.data === 1 && !card._watched && !card.closest("[data-concept-film],[data-reference-film]")) {
               card._watched = true; this.fx("short_watched", { id: clip.id });
-              this._filmFirstLook(card.closest("[data-land-film],[data-choice-viewer]")?._ngVideoNode);
+              this._filmFirstLook(own ? own.node : card.closest("[data-land-film]")?._ngVideoNode);
             }
           },
           onError: fail,
@@ -2693,61 +2680,83 @@ class Component extends DCLogic {
     });
     this._dockLandFilm();
   }
-  // Portal only the player rectangle. Its card stays in the reader's measured flow;
+  // Portal only the player rectangle. Its card stays in the reader's measured flow, the drawer or the hand;
   // the iframe is created in its final home, so opening never reloads a live player.
-  _openFilmTheater(card, clip, host, close, source) {
+  _openFilmTheater(card, clip, host, close, source, own, onClose) {
     const from = card.getBoundingClientRect(), dialog = document.createElement("dialog");
     dialog.className = "ng-video-theater";
-    dialog.setAttribute("aria-label", clip.title || "Technique video");
+    dialog.setAttribute("aria-label", own?.label || clip.title || "Technique video");
     dialog.style.setProperty("--film-ratio", clip.vertical ? 9 / 16 : 16 / 9);
-    host.style.background = "#000 url(\"" + source.querySelector("img").src + "\") center/cover";
+    const poster = own ? own.poster : source?.querySelector("img")?.src;
+    host.style.background = "#000" + (poster ? " url(\"" + poster + "\") center/cover" : "");
     dialog.append(close, host);
     (this.__ngRoot || document.body).appendChild(dialog);
-    this._filmTheater = { dialog, card, source };
+    this._filmTheater = { dialog, card, source, onClose, move: !!own, quiet: false };
     this.holdChallengeReward?.(); // after the line above: the hold's own dismiss must not re-show it
     this._cancelGraphInput?.(); this._readStop();
+    let zooming = !this._reducedMotion(); // VID1-R1: while it zooms no press closes it by the dim or moves focus (below)
     dialog.oncancel = e => { e.preventDefault(); this.collapseClip(card); };
-    dialog.onclick = e => { if (e.target === dialog) this.collapseClip(card); };
+    dialog.onclick = e => { if (e.target === dialog && !zooming) this.collapseClip(card); };
+    dialog.addEventListener("mousedown", e => { if (zooming) e.preventDefault(); });
+    // Moved here from the move's retired modal (v1.231.0's wrap, VID1): the provider's keys do not bubble here, so this
+    // sees only the parent's ✕, and Shift+Tab from it goes into the player instead of out of the dialog.
+    dialog.addEventListener("keydown", e => {
+      if (e.key !== "Tab" || e.altKey || e.ctrlKey || e.metaKey) return;
+      const stops = [...dialog.querySelectorAll("button, a[href], iframe")].filter(el => el.tabIndex >= 0 && !el.disabled && el.getClientRects().length);
+      const first = stops[0], last = stops[stops.length - 1];
+      if (document.activeElement === (e.shiftKey ? first : last)) { e.preventDefault(); (e.shiftKey ? last : first)?.focus(); }
+    });
     dialog.showModal(); close.focus({ preventScroll: true });
     const to = dialog.getBoundingClientRect();
-    if (!this._reducedMotion()) dialog.animate([
+    if (this._reducedMotion()) return;
+    // THE PLAYER TAKES NO PRESS UNTIL ITS ZOOM HAS SETTLED (VID1-R1, the reader of #427: a quick double press on a play
+    // circle put its second press inside the player while it zoomed in; focus went into the provider's frame and Esc,
+    // which the owner asked for ("pressing esc should close the video"), no longer closed it). For the 360ms a bare layer
+    // over the player, under the ✕, owns every press over the frame: nothing reaches the player, nothing closes the
+    // theater (its target is not the dialog). And the dim closes nothing until then: at 390x631 the current node's frame
+    // zooms off the point of a double tap, whose second tap then fell on the dim and shut the video it had just opened.
+    // Whatever is pressed, the dialog's mousedown keeps focus on the ✕ while it zooms. The ✕ and Esc work throughout. A press inside the player after the zoom is the player's,
+    // and Esc then stays in its frame until focus leaves it; the ✕ and the dim still close it (docs/Neural.md).
+    const guard = document.createElement("div");
+    guard.style.cssText = "position:absolute;inset:0;z-index:3;";
+    dialog.append(guard);
+    const settled = () => { zooming = false; guard.remove(); };
+    dialog.animate([
       { transform: `translate(${from.x + from.width / 2 - to.x - to.width / 2}px,${from.y + from.height / 2 - to.y - to.height / 2}px) scale(${from.width / to.width},${from.height / to.height})` },
       { transform: "none" },
-    ], { duration: 360, easing: "cubic-bezier(.2,.7,.2,1)" });
+    ], { duration: 360, easing: "cubic-bezier(.2,.7,.2,1)" }).finished.then(settled, settled);
   }
   collapseClip(card) {
     if (!card) return;
     card._mediaGeneration = (card._mediaGeneration || 0) + 1; card._playerReady = false;
     card.querySelector("[data-film-resume]")?.remove();
     const launch = card.querySelector("[data-film-play]"); if (launch) launch.hidden = false;
+    let restore = null;
     if (this._filmTheater?.card === card) {
-      const { dialog, source } = this._filmTheater; this._filmTheater = null;
+      const { dialog, source, onClose, quiet } = this._filmTheater; this._filmTheater = null;
       dialog.getAnimations().forEach(a => a.cancel()); dialog.close(); dialog.remove();
-      if (source.isConnected) source.focus({ preventScroll: true });
+      // A hand that ended closes its move's theater quietly (`_closeChoiceWatch(false)`): no pause restored, no focus.
+      if (!quiet) { restore = onClose; if (source.isConnected) source.focus({ preventScroll: true }); }
       // D-326's release, the same microtask as clearExecution's: the held notice gets its full time now.
       if (this.showNextChallengeReward) queueMicrotask(() => this._challengeRewardActive || this.showNextChallengeReward());
     }
     if (card._loop) { clearInterval(card._loop); card._loop = null; }
     if (card._player) { try { card._player.destroy(); } catch (e) {} card._player = null; }
-    const ph = card.querySelector(".ngPlayerHost"); if (ph) ph.remove();
-    const mb = card.querySelector(".ngMuteBtn"); if (mb) mb.remove();
-    const cx = card.querySelector(".ngClipX"); if (cx) cx.remove();
-    if (card._outside) { document.removeEventListener("pointerdown", card._outside, true); card._outside = null; }
     // NO WRITE TO THE PLAY GLYPH HERE (v1.256.4, owner 2026-11-11: "after i click the play button and close it ...
     // it seems floating a bit up"). The glyph is hidden and shown by its parent `[data-film-play]`'s `hidden` (above
     // and in expandClip) and nothing else. Until v1.231.0 expandClip wrote `glyph.style.display = "none"` and this line
     // undid it with `= ""`; v1.231.0 moved the hide to `launch.hidden`, and the orphaned `= ""` then only DELETED the
     // `display:flex` the glyph is built with (filmStudyHTML), so after every close the triangle fell into inline
     // flow, 6.5px above the circle's centre (CLAUDE.md §6.1: `style.color = ""` deletes, it does not restore). The
-    // hover pair in wireClips restores explicit values. Pinned by film-overlay-play.spec.ts, on the film and in a
-    // choice card's viewer, by mouse and by touch.
-    if (card._bw) { card.style.setProperty("width", card._bw + "px", "important"); card.style.setProperty("height", card._bh + "px", "important"); }
-    card.style.cursor = "pointer";
+    // hover pair in wireClips restores explicit values. Pinned by film-overlay-play.spec.ts, by mouse and by touch.
+    // (VID1: the card no longer hosts the player, its ✕ or a grown size, so nothing else here is put back.)
     card._expanded = false;
     if (this._expandedClip === card) this._expandedClip = null;
     { const fx = this._landFilmEl && this._landFilmEl.querySelector("[data-film-close]"); if (fx) fx.style.visibility = ""; }
     // the strip just shrank back — re-anchor it, or it stays parked where the player left it
     if (this._landFilmEl && this._landFilmEl.contains(card)) requestAnimationFrame(() => this._dockLandFilm());
+    // last, as the move's modal did: the pause comes back after the player is gone
+    restore?.();
   }
   ytApiReady() {
     if (this._ytPromise) return this._ytPromise;
@@ -14991,44 +15000,27 @@ class Component extends DCLogic {
     }, { root: this.optionsRef.current, threshold: .01 });
     cards.forEach(card => this._choiceMediaObserver.observe(card));
   }
+  // A MOVE'S PLAY CIRCLE OPENS THE CURRENT NODE'S THEATER (VID1, owner 15 Nov: "use the same mechanism the video card
+  // for the current node uses, it's perfect"). The zoom starts from the move's own poster, the one ✕, the dim and Esc
+  // close it, and focus comes back to this circle. What stays here is the move's own work: the hand is touched, its
+  // question declined as reading and the game paused (`_choiceLearn`), the evidence beat, and on close the pause it
+  // found is given back. WAS, v1.231.0 to v1.280.0: a 620px `<dialog class="ng-choice-viewer">` with a title row and a
+  // one-clip strip whose player waited for YouTube's Play (Part A of VID1 in docs/Changelog-Archive.md).
   _openChoiceWatch(clip, target, source) {
     this._closeChoiceWatch(false);
+    const media = source.closest(".ng-choice-card")?.querySelector("[data-choice-media]");
+    if (!media) return;
     const wasPaused = this.paused;
     this._choiceLearn();
-    const dialog = document.createElement("dialog");
-    dialog.className = "ng-choice-viewer"; dialog.setAttribute("data-choice-viewer", "");
-    dialog.setAttribute("aria-label", "Watch " + target.node.t);
-    dialog.innerHTML = '<header><strong>' + this.choiceEscape(target.node.t) + '</strong><button type="button" data-watch-close aria-label="Close video viewer">✕</button></header>' + this.filmStudyHTML([clip], true);
-    (this.__ngRoot || document.body).appendChild(dialog);
-    dialog._ngVideoNode = target.node;
-    this._choiceWatch = { dialog, source, wasPaused };
     this.fx("sheet_opened", { technique: target.node.t, surface: "watch" }); // legacy evidence id; no sheet is rendered
-    for (const type of ["pointerdown", "wheel", "click"]) dialog.addEventListener(type, e => e.stopPropagation());
-    dialog.addEventListener("cancel", e => { e.preventDefault(); this._closeChoiceWatch(); });
-    dialog.addEventListener("click", e => { if (e.target === dialog) this._closeChoiceWatch(); });
-    // Iframe keys do not bubble here. Close precedes the player, so browser
-    // traversal can reach it; explicitly wrap the parent controls at both ends.
-    dialog.addEventListener("keydown", e => {
-      if (e.key !== "Tab" || e.altKey || e.ctrlKey || e.metaKey) return;
-      const stops = [...dialog.querySelectorAll("button, a[href], iframe")].filter(el => el.tabIndex >= 0 && !el.disabled && el.getClientRects().length);
-      const first = stops[0], last = stops[stops.length - 1];
-      if (document.activeElement === (e.shiftKey ? first : last)) {
-        e.preventDefault(); (e.shiftKey ? last : first)?.focus();
-      }
-    });
-    dialog.querySelector("[data-watch-close]").onclick = () => this._closeChoiceWatch();
-    this.wireClips(dialog, [clip]);
-    dialog.showModal();
-    this.expandClip(dialog.querySelector(".ng-clip"), clip);
-    dialog.querySelector("[data-watch-close]").focus();
+    this.expandClip(media, clip, { node: target.node, source, poster: media.querySelector("img")?.src || "",
+      label: "Watch " + target.node.t, onClose: () => this.setPaused(wasPaused === true) });
   }
+  // A move's theater only. `restore = false` is a hand that ended (clearOptions): nothing is given back.
   _closeChoiceWatch(restore = true) {
-    const current = this._choiceWatch; if (!current) return;
-    this._choiceWatch = null;
-    if (this._expandedClip && current.dialog.contains(this._expandedClip)) this.clearClipLoops();
-    current.dialog.close(); current.dialog.remove();
-    this.setPaused(current.wasPaused === true);
-    if (restore && current.source.isConnected) current.source.focus({ preventScroll: true });
+    const shown = this._filmTheater; if (!shown?.move) return;
+    if (!restore) shown.quiet = true;
+    this.collapseClip(shown.card);
   }
   buildOptionCard(opt, onPick, decisionSec, num, mode) {
     const n = opt.node, isThreat = !!opt.threat, isEsc = mode === "escape";
@@ -15683,7 +15675,9 @@ class Component extends DCLogic {
   _clearLandFilm() {
     // D-354 N3: the film's only remover also ends the reader's media-home observation (D-353), which
     // otherwise held every replaced film until the reader was destroyed.
-    if (this._landFilmEl) { this.clearClipLoops(); if (this._landFilmEl._ngRO) this._landFilmEl._ngRO.disconnect(); this._reader?.resize.unobserve(this._landFilmEl); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
+    // VID1: only a clip OF this film stops with it. A move's or a Principle's video plays in the same theater and is not
+    // this film's to close (a deck landing behind a move's video re-renders the film: coldstart-backfill.spec.ts).
+    if (this._landFilmEl) { if (this._expandedClip && this._landFilmEl.contains(this._expandedClip)) this.clearClipLoops(); if (this._landFilmEl._ngRO) this._landFilmEl._ngRO.disconnect(); this._reader?.resize.unobserve(this._landFilmEl); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
   }
   /** Full card-slot teardown; a same-question repaint preserves its scroll offset. */
   clearLandCard(preserveScroll, preserveMedia) {
@@ -16133,7 +16127,8 @@ class Component extends DCLogic {
     // If it exceeds the available band, start at the top and move the entire column to read.
     // Expanding a video keeps the thumbnail's reservation; playback must not squash the deck.
     const film = this._landFilmEl;
-    const filmHeight = film ? (this._expandedClip ? (this._expandedClip._bh || 92) + 6 : Math.ceil(film.getBoundingClientRect().height)) : 0;
+    // 92 + 6, as before VID1 (a framed clip never carried `_bh`; since VID1 no card grows, so none does).
+    const filmHeight = film ? (this._expandedClip ? 98 : Math.ceil(film.getBoundingClientRect().height)) : 0;
     const filmSpace = !this._compactLandDeck() && filmHeight ? filmHeight + 8 : 0;
     // The persistent article/shelf can make the full phone stack taller than the
     // viewport. Keep a visible graph band and use the existing column scroll for
@@ -19418,7 +19413,7 @@ class Component extends DCLogic {
     return /^[1-9]$/.test(e.key || "") ? Number(e.key) - 1 : -1;
   }
   activateOption(opt, pick, card) {
-    if (!opt || opt.threat || this._choiceWatch || this._execution || this._checkpoint || (this._rollHand && !this._rollHand.mounted)) return;
+    if (!opt || opt.threat || this._filmTheater || this._execution || this._checkpoint || (this._rollHand && !this._rollHand.mounted)) return;
     this._handTouched = true;
     if (pick) { this.setPaused(false); pick(opt); }
   }

@@ -39,14 +39,10 @@
 .ng-choice-card button:hover { background-color:rgba(150,180,255,.08); }
 .ng-choice-card .ng-choice-watch:hover { background:#293b5a; }
 .ng-choice-card button:focus-visible { outline:2px solid #c5d6ff; outline-offset:-3px; }
-.ng-choice-viewer { width:min(620px,calc(100vw - 24px)); padding:12px; box-sizing:border-box; border:1px solid #637392; border-radius:14px; background:#151a2b; color:#eef1f6; }
-.ng-choice-viewer::backdrop { background:rgba(3,6,14,.75); }
-/* The top-layer player keeps the card's header, footer and layout at home. */
+/* The top-layer player keeps the card's header, footer and layout at home. Every video a press opens plays here
+   (VID1, owner 15 Nov): the move's 620px modal and its rules (.ng-choice-viewer) are retired. */
 .ng-video-theater { position:fixed; inset:0; margin:auto; padding:0; border:0; max-width:none; max-height:none; width:min(95vw,calc(95vh * var(--film-ratio))); height:min(calc(95vw / var(--film-ratio)),95vh); background:#000; color:#eef1f6; z-index:96; overflow:hidden; }
 .ng-video-theater::backdrop { background:rgba(0,0,0,.6); }
-.ng-choice-viewer header { display:flex; align-items:center; justify-content:space-between; gap:12px; font-size:14px; }
-.ng-choice-viewer header button { width:44px; height:44px; flex:none; border:0; background:none; color:inherit; cursor:pointer; }
-.ng-choice-viewer .ng-clip { width:100%!important; height:auto!important; aspect-ratio:16/9; }
 /* One full clip + ten percent of the next. The header and score stay fixed;
    only this row scrolls. 400px -> 241px high; 358px -> 220px high. */
 .ng-landfilm.ng-current-card { padding:0!important; box-sizing:border-box; border:1px solid rgba(150,170,210,.28); border-radius:12px; background:#171d2e; overflow:hidden; color:#eef1f6; --film-fade:0px!important; }
@@ -72,7 +68,7 @@
 .ng-current-card .ng-film-arrow { top:calc(50% - 42px); }
 .ng-current-card [data-film-prev] { left:0; }
 .ng-current-card [data-film-next] { right:0; }
-.ng-current-card .ng-clip::after, .ng-choice-viewer .ng-clip::after { display:none; }
+.ng-current-card .ng-clip::after { display:none; }
 /* HIDDEN MOVES (v1.255.0, owner U115 b + U116). The back covers the FILM slot only; the name is
    hidden in place; Works % and Win % stay. The back takes no hit: the face below still plays. */
 .ng-choice-back { position:absolute; left:0; right:0; top:44px; height:86px; display:none; place-items:center; pointer-events:none; border-top:1px solid rgba(150,170,210,.14);

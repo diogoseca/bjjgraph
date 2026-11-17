@@ -19401,100 +19401,150 @@ the backfill.
 - The five readers, whole: 21 and 2 passed.
 - With the manifest held, life 2 of the soft navigation records one skip, then the question.
 
+## v1.283.0 — Every video a press opens plays in the current node's theater: a move's, a Principle's in the drawer, a reference page's in the reader (VID1, 2026-11-16)
+
+The owner, 15 November, from his pictures 10 (a move's video) and 11 (the current node's): "when i click to see a
+video, it should show that video in a tidier format rather than this huge space above and below the title of the
+technique ... it should start automatically, not wait for me to press play a second time. and pressing esc should close
+the video, same as clicking X button (there are 2 X buttons btw, i like the inner X best, but it's broken. i'd rather
+show the video only on top of everything, and dim the rest, and start it immediately, and have a discrete x on the
+corner, and people can either click the suroundings or the x or press exc to close it ... use the same mechanism the
+video card for the current node uses, it's perfect". Brief VID1, Part A accepted and ruled as VID1-GO (16 Nov).
+
+**Part A (dev 87d1e17ee, a real click at 1440x900 and a real tap at 390x631).** Six ways a video opened: the current
+node's card (the theater, VIDEO1), a move's play circle (a 620px modal), a reader page's and a drawer Principle's clip
+(played inside their card), the article's embeds (a link out) and a Systems trailer (mounted muted). The modal's band:
+Quartz's `header { margin: 2rem 0 }` on its title row. Its inner ✕ closed the player, not the modal. The second press:
+`autoplay: theater ? 1 : 0`.
+
+**Built.** `expandClip` always opens `_openFilmTheater` and asks the player to play (`autoplay: 1`, `playVideo()` on
+ready). A move's play circle hands it the move's media region (where the zoom starts), the circle (focus comes back to
+it), the poster and the name ("Watch <move>"); the modal, its title row, its CSS and `_choiceWatch` are deleted. The
+in-card player (the drawer's grow-in-place, its press-outside listener and its own Escape branch) is deleted. Every
+theater gives back the pause it found (only the move's modal did; the current card's theater left the game paused). A
+refused start, the player's own `onAutoplayBlocked`, mutes and plays at once, once per open, beat `video_autoplay_muted`
+(the current node's theater showed YouTube's Play there). The Tab wrap moved from the modal to the theater.
+`_clearLandFilm` stops only its own clips: a deck landing behind a move's video re-renders the film, and the old
+`clearClipLoops()` would have closed the move's theater mid-play (the modal survived it with its player destroyed).
+CLAUDE.md §7's stale "previews mount immediately without autoplay" corrected in its own commit.
+
+**What changed for a player besides the ruling.** The +4 film first look is earned on the press that opens a move's
+video (the provider's own "playing" report), as the current node's has been since VIDEO1: before, opening the modal
+earned nothing until a press inside the player. Once per technique, never for a Principle or reference clip, as before.
+
+**Specs.** New: `e2e/journeys/video-viewer.spec.ts`, 29 tests: 4 surfaces (move, current node, reader, drawer) × 3 exits (Esc, ✕, the dim) at
+1440x900 by mouse and 390x631 by touch, each comparing the scene before and after with the player destroyed; the refused
+start, muted at once, for the move and the current node at both sizes; a running game running again after a close. Changed: video-cards, concepts-surface,
+film-overlay-play, reading-media-placement, stakes-impact, guidance-defense, escape-clips, submission-card-odds,
+coldstart-backfill, gen ready-film-not-neglect and three gen specs' selectors, the DSL's watchChoice, the fixture's
+openChoiceVideo, ledger row core-023, and two units of tests/roll_execution.test.mjs (an open theater owns input;
+closing the move's theater gives back only its pause and focus, and nothing for a hand that ended). Every changed or removed assertion carries, beside it, what it claimed and what
+the old one did on this build (the PR lists them in one table). Mutant manifests: video_viewer_mutants.json (new),
+video_cards_mutants.py (autoplay, close_tabstop retargeted), video_theater_mutants.json (autoplay-request-disabled
+retargeted; four rows retired: no press reaches a player inside the reader's host).
+
+**Mutants (video_viewer_mutants.mjs, each at its named test with its named assertion).**
+10 of 10 red, each control green (16 Nov, head ab71d940e): no-autoplay-request and no-play-on-ready (move, Esc),
+esc-ignored (drawer), dim-not-closing (reader), second-x (current node, ✕), dim-removed and not-modal (move, dim),
+old-modal-from-move (move, ✕), muted-start-lost (current node at 390x631: the player stayed unstarted, -1, for 5s, as
+before VID1), pause-not-restored (the running game). video_cards_mutants.py's autoplay, close_tabstop and
+viewer_focus_wrap red with their controls green. The two units: four in-place mutants (activate-ignores-theater,
+quiet-close-restores, close-keeps-pause, player-not-destroyed) red at their messages. neural_app_mutants' watch-backfill-lost
+was keyed on `_choiceWatch`, a field VID1 deleted, so it mutated nothing; on `_filmTheater` it is red at its claim.
+
+**Runs (local, under the build lock; the full suites run on the PR).** Run 7 (16 Nov 18:37, head c845f0379, dev v1.281.2 merged): 24 journey files,
+322 of 322 (the 23 the touched files render and v1.280.3's restart-notice); 11 gen files, 12 of 12. Its two faults were
+the harness's (ab71d940e): video-cards' Watch pressed the ✕ mid-zoom once, and the viewer mutant runner's bare build was
+refused by the MDP pin. Run 8 (19:55, head ab71d940e): video-cards 24 of 24, both mutant sets, the app rows re-checked
+from a clean bundle (no row moved), the payload gate green. `npm run ci:validate` on 1b18e313e: 25 of 25 replayed steps green, units 1,752 of 1,752 (its
+first run, on 721937544, found the two stale units above: my survey had covered e2e/ but not this unit file).
+**VID1-CI.** The PR's first e2e-full shards all failed at collection: the viewer journey read the generated, gitignored
+source/quartz/static/neural/concepts.json at module load (now the served copy first, lazily); `npm run ci:validate` replays ci-validate.yml, not the e2e-full job, whose tree has no generated payload outside source/public.
+
+**VID1-R1 (the independent reader of #427: MERGE AFTER 2 fixes, no break in the app).** Every viewer journey started
+from a running game, so its R2 (every close un-pauses) turned nothing red: the same journey now starts paused (move
+and current node, three exits, both sizes; `close-always-unpauses`), and the unit closes with the closure the real
+`_openChoiceWatch` built. A quick double press put its second press inside the zooming player, whose frame then kept
+Esc: until the 360ms zoom settles a layer over the frame takes every press, the dim closes nothing (at 390x631 the
+current node's frame zooms off the tap's point, and the second tap shut the video it had opened) and the dialog keeps
+focus on the ✕ (`zoom-guard-removed`, `dim-closes-mid-zoom`, `dim-press-takes-focus-mid-zoom`); after a deliberate press
+inside the player Esc stays the provider's (said, not changed: a focus steal is the owner's choice). The test named
+"the dim over a card" pressed the map: the dim over another move's card is now pressed at 390x631 at a measured point
+(its R1, `dim-press-falls-through`). On dev v1.282.0 merged: 24 journey files 339 of 339, 11 gen files 12 of 12, 15
+of 15 viewer mutants and VIDEO1's two retargeted rows red with green controls, five unit mutants, ci:validate 25 of
+25 (units 1,763).
+
+**Bytes.** Against dev v1.281.2's own bundle (f6c2bcd3b, built from its export with its own app.src.jsx pinned):
+eager gzip −648 B (neural.js −550, neural.css −98), eager raw −2,698 B; deferred +3 B gzip, −3 B raw. The payload gate:
+eager gzip 369,629 B, under the 400,000 B action line (over the soft 300,000 B target, as dev is); deferred raw 521,915 of
+522,091 B.
+
+**Not covered.** No real iPhone or Safari ran here: the refused start is the player's own report from a stub pressed by
+real input. What goes with the in-card player: a reference clip no longer plays while the page beside it can still be
+read and scrolled; the theater dims the page until it closes (pictures 03 and 04). `pauseLandFilm`, `resumeFilm` and
+`_landFilmMoved` still exist and serve no state a press can reach (a playing clip is never inside the reader's host);
+`pauseLandFilm` keeps its own direct test. The Forward catalog mock may still draw the old modal (no parity gate).
+
 ## v1.284.0 — The Path row leaves the drawer: its corridor is Master the game's, every door to it lands there, and the White objective's beat moves with it (SET1 slice B; the owner, 2026-11-15; his four small losses accepted 2026-11-16)
 
-**The owner's words (15 Nov).** "it's time to remove the Path section from the sidebar + reform the user settings …".
-Part A (16 Nov, seat drawer) found that "Master the game" already drew the whole Path corridor with the same renderer:
-belts, units, lessons, checkpoints, capstones, objectives and the rewards shelf (`_practiceCorridor` →
-`renderChallenges(s.corridor, true)`). It listed what only the Path did, and the owner accepted four losses:
-- the row's "N of M units" words;
-- a lesson tap staging a roll (the orb and its Explore row still stage one);
-- the sticky "N of 20 today" band (the Master the game row is that door);
-- the `neural_challenges_viewed` series, which ends on the ship day (a data-loss event, CLAUDE.md §6.7;
-  `neural_practice_opened` carries on).
+**The owner (15 Nov):** "it's time to remove the Path section from the sidebar". Master the game already drew the whole
+corridor with the same renderer (`_practiceCorridor` → `renderChallenges`, now its one caller).
 
-**What is not a loss, and moved.**
-- **P22:** "Open Challenges" (`white.challenges`), one of the 20 White objectives the White Foundations patch needs,
-  completed only on the Path's first visible visit. The beat now fires on the first visible draw of Master the game's
-  corridor in each opening of the drawer, the Path's own rule.
-- **O1:** View Collection opens Master the game with the rewards shelf open and scrolled into view.
+**Four small losses, accepted:**
+1. the row's "N of M units";
+2. a lesson tap staging a roll (its orb and Explore row still do);
+3. the "N of 20 today" band (the Master the game row is that door);
+4. `neural_challenges_viewed`, which ends on the ship day (§6.7). `neural_practice_opened` carries on: surface "practice"
+   for the row, "corridor" for a corridor door (PATH-R1).
 
-**The plumbing the removal needed.**
-- `openCorridor` is the one door: `setViewMode("challenges"/"collection")` and `openLearningView` land in Master the game
-  (O3).
-- A stored `challengeView` of `challenges`, `collection` or `path` lands on the drawer's list and is not written back (O2);
-  `tree` keeps its old migration.
-- "From the Path" reads "Belt lessons", and "from the Path" reads "from your belt lessons" (O4).
+**Moved:**
+- **P22:** "Open Challenges" fires on the corridor's first visible draw per drawer opening.
+- **O1:** View Collection opens Master the game with the shelf open and in view.
+- **O3:** `openCorridor` is the one door (`setViewMode`, `openLearningView`, `openPane`).
+- **O2:** a stored `challengeView` of challenges, collection or path lands on the list and is never written back.
+- **O4:** "Belt lessons" for "From the Path".
 
-**Deleted, since only the Path reached it:**
-- the row and its glyph;
-- `renderTabSubtitles`;
-- the band, with its chip-fitting observer and its CSS;
-- the arrival scroll;
-- the Path's inline lesson deck, with its registry (`_lessonRows`) and keyboard (`challengeLessonNav`, `_challengeInline`);
-- the online/offline repaint;
-- `NG_PRACTICE_START_SHORT`.
+**Deleted** (only the Path reached them): the row and its glyph, `renderTabSubtitles`, the band and its observer, the
+arrival scroll, the Path's inline lesson deck with `_lessonRows` and its keys (`challengeLessonNav`, `_challengeInline`),
+the online/offline repaint, `NG_PRACTICE_START_SHORT`.
 
-`renderChallenges` has one caller left.
+**Kept by Master the game, found by the runs:** the corridor repaints on evidence (`noteChallenges`) and on a gi flip; the
+shelf's open state survives a repaint; View Collection's scroll holds until the player moves (`_scrollFocusedDeck` yields).
 
-**What the Path did that Master the game now does, found by the runs:**
-- the corridor repaints on new evidence (`noteChallenges`) and on a gi flip;
-- the rewards shelf keeps the player's open state across a repaint, the session's plan landing included, and a repaint of
-  an open shelf sends no second `neural_collection_opened`;
-- View Collection's scroll holds the page until the player moves it: Master the game's first-card scroll
-  (`_scrollFocusedDeck`) yields while it is pending.
+**A latent fault fixed (found by another seat):** `challengeAction` called `openHomeToLatest()`, deleted in v1.174.0, so a
+study, checkpoint or capstone action whose belt had no live lesson threw a TypeError. `_challengeActionTarget` resolves an
+action once, for the row and the press; a row with nothing to open draws no button.
 
-**Specs.**
-- **One DSL door, `j.openCorridor()`:** Master the game's row by mouse, then "Show earlier belts", so a journey sees the
-  five belts the Path drew. `{ allBelts: false }` gives Master the game's own first screen; `{ curriculum: false }` serves
-  a curriculum 404. `openAccountMenu` presses the brand when the drawer is shown without the badge.
-- **The Path's own claims retired, each with its reason in place:**
-  - the row and its words (sidebar, belt-worn, belt_worn);
-  - the band (practice-order's band, its three widths and its font; srs-due);
-  - the arrival scroll (challenges-ui "Continue is gone");
-  - the inline deck's keyboard (keyboard.spec's two);
-  - P1-F's "temporary Path destination".
-- **Re-pointed:**
-  - path-visit-telemetry: the corridor's visible-visit rule, with `neural_challenges_viewed` at 0 throughout, and O2;
-  - challenges-ui: O1 and the legacy views;
-  - the fog (P19): mid-fog, veteran-graph-canvas;
-  - the gi flip: veteran-gimode.
-- **A lesson study opens from the list**, since over Master the game it is a session row. "Not taken over" means no deck,
-  checkpoint or study view. Checkpoint censuses leave out Master the game's own `mc_shown`.
-- **Deploy-gate rows retitled:** path-visit-telemetry ×2, sidebar ×2.
-- **A latent fault, fixed (found by another seat, 16 Nov):** `challengeAction` called `openHomeToLatest()`, deleted in
-  v1.174.0 and defined nowhere since.
-  - A study, checkpoint or capstone action whose belt had no live lesson (no curriculum, a failed one, or none in this
-    ruleset) threw a TypeError on the press, and nothing happened.
-  - `_challengeActionTarget` now resolves an action once, for the row and for the press. A row with nothing to open draws
-    no button, and the corridor's repaint when the curriculum lands brings it back.
-  - Pinned by challenges-ui's "an objective's action": a curriculum 404 draws none on Blue's lesson and checkpoint
-    objectives and throws nothing; with the curriculum, Study the curriculum opens Blue's next lesson.
+**Specs:**
+- `j.openCorridor()` is the one DSL door (Master the game's row by mouse, then "Show earlier belts").
+- The Path's own claims retired with their reasons in place: sidebar, belt-worn, the band, "Continue is gone", keyboard's
+  two, P1-F.
+- Re-pointed: telemetry, O1, legacy views, fog, gi flip.
+- 4 deploy-gate rows retitled.
 
-**Runs** (17 Nov; slice A merged, then dev v1.282.0 and v1.282.1):
-- **The survey, 102 spec files** (the 53 B touched, and the 49 that call its changed DSL or read the drawer's rows), lock
-  23:43 to 00:29:
-  - **Journeys: 705/715.** Two reds were the new objective-action journeys at their own premise (fixed: they select Blue).
-    Eight were legal-pages at the privacy page's data controller: this worktree's built page is from 10 Nov, the content
-    from 12 Nov, and `dev:neural:app` does not rebuild pages. B touches neither.
-  - **Generated specs: 31/31.**
-  - **After the fixes:** challenges-ui 18/18.
-- **Payload:** eager 1,441,199 B raw / 368,691 B gzip, deferred 520,759 B (A's merged head minus 6,406 B raw / 1,825 B
-  gzip).
-- **`ci:validate`:** 25/25, units 1,763/1,763.
-- **Pictures:** the side panel before and after, at 1440 and 390x631, by the same seeded record. The DOM read: Path rows
-  1 → 0, no page error.
+**Runs** (17 Nov):
+- **Survey, 102 spec files:** 705/715 journeys. The reds: 2 were my premise, fixed; 8 were legal-pages against this
+  worktree's 10 Nov built page. Generated specs 31/31.
+- **Payload:** eager −1,825 B gzip against A's head.
+- **`ci:validate`:** 25/25.
 
-**Mutants** (on the v2 harness, each after a neutral control):
-- **Red at the first run:**
-  - B1, the row back: sidebar "Practice is the only row";
-  - B3, no gi repaint: gen veteran-settings-gimode;
-  - B4, the shelf state not kept: challenges-ui;
-  - B6, the stored view written back: path-visit-telemetry and challenges-ui;
-  - B7, no objective beat: path-visit-telemetry and challenges-ui;
-  - B8, no route to the corridor: challenges-ui, study-story, gen holder-film-look.
-- **B2 and B5 survived; there was no gate.** Both are now pinned in challenges-ui and red:
-  - B2, `noteChallenges`' repaint: "the corridor's row reads the new count in place";
-  - B5, the first-card scroll's yield: the View Collection journey (at its poll in that run; a read after the first card
-    covers the other order).
-- **B9, the dead call back:** "no button on a row with nothing to open".
+**Mutants**, each red after a neutral control:
+- B1, the row back → sidebar;
+- B3, no gi repaint → gen gimode;
+- B4, the shelf state → challenges-ui;
+- B6, the view written back and B7, no beat → telemetry and challenges-ui;
+- B8, no route → three specs;
+- B9, the dead call → "no button on a row with nothing to open".
+
+B2 (the evidence repaint) and B5 (the scroll yield) survived with no gate, and are now pinned in challenges-ui and red.
+
+**PATH-R1, the independent read (17 Nov), six rulings built:**
+1. View Collection's door sets the shelf's flag and counts its visit in the same turn. A toggle counts only a
+   closed-to-open change of the shelf on the page; a warm plan's re-render drew it closed.
+2. Corridor doors send `neural_practice_opened` with surface "corridor".
+3. An earlier belt whose test can be started is drawn in the first draw.
+4. ‹ Back from a corridor checkpoint returns to Master the game, its row held in view.
+5. The collection door lands on the shelf, and a lesson's ▸ reads "Study this lesson's cards".
+6. The reading position is pinned again.
+
+Journeys: corridor-reach (both sizes) and telemetry's surface test. PATH_R1_RUNS

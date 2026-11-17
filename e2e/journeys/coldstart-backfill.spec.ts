@@ -228,17 +228,21 @@ test("cold start: a payload arriving behind Watch preserves the viewer and canno
   await page.locator(CARD).scrollIntoViewIfNeeded();
   await j.readerLayoutSettled();
   await openChoiceVideo(page, NAME);
-  const view = page.locator('[data-choice-viewer]');
+  // VID1: Watch is the theater (WAS the move's modal, `[data-choice-viewer]` / `_choiceWatch`).
+  const view = page.locator('.ng-video-theater');
   await expect(view).toBeVisible();
   const before = await page.evaluate(() => {
     const a = (window as any).__neural;
-    (window as any).__watchIdentity = a._choiceWatch.dialog;
+    (window as any).__watchIdentity = a._filmTheater.dialog;
     return { commits: a.beats.filter((b: any) => b.beat === 'commit').length, answers: a.beats.filter((b: any) => b.beat === 'land_q_answered').length };
   });
   await decksLandFor(j, page);
   await j.landSettled();
   expect((await read(page)).hasQ, "the newly backfilled question exists behind Watch").toBe(true);
-  expect(await page.evaluate(() => (window as any).__neural._choiceWatch.dialog === (window as any).__watchIdentity)).toBe(true);
+  expect(await page.evaluate(() => (window as any).__neural._filmTheater?.dialog === (window as any).__watchIdentity)).toBe(true);
+  // ...and its video still plays: the film the landing re-renders stops only its own clips (VID1, `_clearLandFilm`).
+  expect(await page.evaluate(() => { const p = (window as any).__players.at(-1); return { destroy: p.destroy, state: p.state } }),
+    "the move's video keeps playing while the deck lands").toEqual({ destroy: 0, state: 1 });
   await expect(view).toBeVisible();
   await page.keyboard.press('a'); await page.keyboard.press('1');
   expect(await page.evaluate(() => {

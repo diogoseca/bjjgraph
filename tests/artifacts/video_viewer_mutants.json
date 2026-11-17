@@ -1,0 +1,195 @@
+{
+ "note": "VID1: every press that opens a video plays it in the theater. Run by tests/artifacts/video_viewer_mutants.mjs under the shared build lock: each row's anchors must occur exactly once; the mutant is built by npm run dev:neural:app (whose regenerate:mdp re-pins the MDP manifest to the mutant's app.src.jsx) into source/public, its named test must FAIL with the named assertion in its failure and its control must PASS; the exact source bytes are restored (sha256) and the bundle rebuilt. Measured 16 Nov 2026 (head ab71d940e): 10 of 10 killed, each control green. Results: docs/Changelog-Archive.md (VID1).",
+ "spec": "journeys/video-viewer\\.spec",
+ "mutants": [
+  {
+   "name": "no-autoplay-request",
+   "edits": [
+    [
+     "playerVars: { autoplay: 1, controls: 1,",
+     "playerVars: { autoplay: 0, controls: 1,"
+    ]
+   ],
+   "test": "VID1 move: one press plays it in the theater, Esc closes it and leaves everything as it was \\(390x631\\)",
+   "assertion": "the press asked the player to play",
+   "control": "a running game is running again"
+  },
+  {
+   "name": "no-play-on-ready",
+   "edits": [
+    [
+     "            else e.target.playVideo();\n",
+     "            else {}\n"
+    ]
+   ],
+   "test": "VID1 move: one press plays it in the theater, Esc closes it and leaves everything as it was \\(390x631\\)",
+   "assertion": "the video is playing without a second press",
+   "control": "a running game is running again"
+  },
+  {
+   "name": "esc-ignored",
+   "edits": [
+    [
+     "if (this._filmTheater) { if (e.key === \"Escape\") { e.preventDefault(); this.collapseClip(this._filmTheater.card); } return; }",
+     "if (this._filmTheater) { if (e.key === \"Escape\") { e.preventDefault(); } return; }"
+    ],
+    [
+     "dialog.oncancel = e => { e.preventDefault(); this.collapseClip(card); };",
+     "dialog.oncancel = e => { e.preventDefault(); };"
+    ]
+   ],
+   "test": "VID1 drawer: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)",
+   "assertion": "Esc closes the video",
+   "control": "VID1 drawer: one press plays it in the theater, ✕ closes it and leaves everything as it was \\(1440x900\\)"
+  },
+  {
+   "name": "dim-not-closing",
+   "edits": [
+    [
+     "dialog.onclick = e => { if (e.target === dialog && !zooming) this.collapseClip(card); };",
+     "dialog.onclick = e => {};"
+    ]
+   ],
+   "test": "VID1 reader: one press plays it in the theater, dim closes it and leaves everything as it was \\(390x631\\)",
+   "assertion": "dim closes the video",
+   "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(390x631\\)"
+  },
+  {
+   "name": "second-x",
+   "edits": [
+    [
+     "    dialog.append(close, host);\n",
+     "    dialog.append(close, host, close.cloneNode(true));\n"
+    ]
+   ],
+   "test": "VID1 current: one press plays it in the theater, ✕ closes it and leaves everything as it was \\(1440x900\\)",
+   "assertion": "ONE ✕",
+   "control": "a running game is running again"
+  },
+  {
+   "name": "dim-removed",
+   "file": "neural/src/choice-value.css",
+   "edits": [
+    [
+     ".ng-video-theater::backdrop { background:rgba(0,0,0,.6); }",
+     ".ng-video-theater::backdrop { display:none; }"
+    ]
+   ],
+   "test": "VID1 move: one press plays it in the theater, dim closes it and leaves everything as it was \\(1440x900\\)",
+   "assertion": "nothing under it takes it",
+   "control": "VID1 move: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
+  },
+  {
+   "name": "not-modal",
+   "edits": [
+    [
+     "    dialog.showModal(); close.focus({ preventScroll: true });",
+     "    dialog.show(); close.focus({ preventScroll: true });"
+    ]
+   ],
+   "test": "VID1 move: one press plays it in the theater, dim closes it and leaves everything as it was \\(390x631\\)",
+   "assertion": "the video is a modal over everything",
+   "control": "VID1 current: a refused start plays muted at once, never a second Play \\(1440x900\\)"
+  },
+  {
+   "name": "old-modal-from-move",
+   "edits": [
+    [
+     "  _openChoiceWatch(clip, target, source) {\n    this._closeChoiceWatch(false);\n    const media = source.closest(\".ng-choice-card\")?.querySelector(\"[data-choice-media]\");\n    if (!media) return;\n    const wasPaused = this.paused;\n    this._choiceLearn();\n    this.fx(\"sheet_opened\", { technique: target.node.t, surface: \"watch\" }); // legacy evidence id; no sheet is rendered\n    this.expandClip(media, clip, { node: target.node, source, poster: media.querySelector(\"img\")?.src || \"\",\n      label: \"Watch \" + target.node.t, onClose: () => this.setPaused(wasPaused === true) });\n  }\n",
+     "  _openChoiceWatch(clip, target, source) {\n    this._closeChoiceWatch(false); this._choiceWatch = null;\n    const wasPaused = this.paused;\n    this._choiceLearn();\n    const dialog = document.createElement(\"dialog\");\n    dialog.className = \"ng-choice-viewer\"; dialog.setAttribute(\"data-choice-viewer\", \"\");\n    dialog.setAttribute(\"aria-label\", \"Watch \" + target.node.t);\n    dialog.innerHTML = '<header><strong>' + this.choiceEscape(target.node.t) + '</strong><button type=\"button\" data-watch-close aria-label=\"Close video viewer\">✕</button></header>' + this.filmStudyHTML([clip], true);\n    (this.__ngRoot || document.body).appendChild(dialog);\n    dialog._ngVideoNode = target.node;\n    this._choiceWatch = { dialog, source, wasPaused };\n    this.fx(\"sheet_opened\", { technique: target.node.t, surface: \"watch\" }); // legacy evidence id; no sheet is rendered\n    for (const type of [\"pointerdown\", \"wheel\", \"click\"]) dialog.addEventListener(type, e => e.stopPropagation());\n    dialog.addEventListener(\"cancel\", e => { e.preventDefault(); this._closeChoiceWatch(); });\n    dialog.addEventListener(\"click\", e => { if (e.target === dialog) this._closeChoiceWatch(); });\n    // Iframe keys do not bubble here. Close precedes the player, so browser\n    // traversal can reach it; explicitly wrap the parent controls at both ends.\n    dialog.addEventListener(\"keydown\", e => {\n      if (e.key !== \"Tab\" || e.altKey || e.ctrlKey || e.metaKey) return;\n      const stops = [...dialog.querySelectorAll(\"button, a[href], iframe\")].filter(el => el.tabIndex >= 0 && !el.disabled && el.getClientRects().length);\n      const first = stops[0], last = stops[stops.length - 1];\n      if (document.activeElement === (e.shiftKey ? first : last)) {\n        e.preventDefault(); (e.shiftKey ? last : first)?.focus();\n      }\n    });\n    dialog.querySelector(\"[data-watch-close]\").onclick = () => this._closeChoiceWatch();\n    this.wireClips(dialog, [clip]);\n    dialog.showModal();\n    this.expandClip(dialog.querySelector(\".ng-clip\"), clip);\n    dialog.querySelector(\"[data-watch-close]\").focus();\n  }\n"
+    ]
+   ],
+   "test": "VID1 move: one press plays it in the theater, ✕ closes it and leaves everything as it was \\(1440x900\\)",
+   "assertion": "the move's old modal is gone",
+   "control": "VID1 current: one press plays it in the theater, ✕ closes it and leaves everything as it was \\(1440x900\\)"
+  },
+  {
+   "name": "muted-start-lost",
+   "edits": [
+    [
+     "            try { e.target.mute(); e.target.playVideo(); } catch (err) { /* the player's own Play remains */ }\n",
+     ""
+    ]
+   ],
+   "test": "VID1 current: a refused start plays muted at once, never a second Play \\(390x631\\)",
+   "assertion": "the refused start still plays, muted",
+   "control": "VID1 current: one press plays it in the theater, Esc closes it and leaves everything as it was \\(390x631\\)"
+  },
+  {
+   "name": "pause-not-restored",
+   "edits": [
+    [
+     "    // last, as the move's modal did: the pause comes back after the player is gone\n    restore?.();\n",
+     "    // last, as the move's modal did: the pause comes back after the player is gone\n"
+    ]
+   ],
+   "test": "a running game is running again",
+   "assertion": "nothing committed, and the game runs again",
+   "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
+  },
+  {
+   "name": "close-always-unpauses",
+   "edits": [
+    [
+     "label: \"Watch \" + target.node.t, onClose: () => this.setPaused(wasPaused === true) });",
+     "label: \"Watch \" + target.node.t, onClose: () => this.setPaused(false) });"
+    ],
+    [
+     "restore = () => this.setPaused(was === true); }",
+     "restore = () => this.setPaused(false); }"
+    ]
+   ],
+   "test": "a game paused before the press stays paused after Esc closes it \\(1440x900\\)",
+   "assertion": "a game paused before the press is still paused after Esc",
+   "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
+  },
+  {
+   "name": "dim-press-falls-through",
+   "edits": [
+    [
+     "dialog.onclick = e => { if (e.target === dialog && !zooming) this.collapseClip(card); };",
+     "dialog.onclick = e => { if (e.target === dialog && !zooming) { this.collapseClip(card); document.elementFromPoint(e.clientX, e.clientY)?.click(); } };"
+    ]
+   ],
+   "test": "VID1 the dim over another move's card commits nothing and opens nothing \\(390x631\\)",
+   "assertion": "nothing committed, no second video",
+   "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
+  },
+  {
+   "name": "zoom-guard-removed",
+   "edits": [
+    [
+     "    dialog.append(guard);\n",
+     ""
+    ]
+   ],
+   "test": "VID1 move: a double press opens one video and Esc still closes it; after the zoom the player takes a press",
+   "assertion": "a double press: one video, played once, focus still on the ✕",
+   "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
+  },
+  {
+   "name": "dim-closes-mid-zoom",
+   "edits": [
+    [
+     "dialog.onclick = e => { if (e.target === dialog && !zooming) this.collapseClip(card); };",
+     "dialog.onclick = e => { if (e.target === dialog) this.collapseClip(card); };"
+    ]
+   ],
+   "test": "VID1 current: a double press opens one video and Esc still closes it; after the zoom the player takes a press \\(390x631\\)",
+   "assertion": "the double press leaves the video open",
+   "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
+  },
+  {
+   "name": "dim-press-takes-focus-mid-zoom",
+   "edits": [
+    [
+     "    dialog.addEventListener(\"mousedown\", e => { if (zooming) e.preventDefault(); });\n",
+     ""
+    ]
+   ],
+   "test": "VID1 current: a double press opens one video and Esc still closes it; after the zoom the player takes a press \\(390x631\\)",
+   "assertion": "a double press: one video, played once, focus still on the ✕",
+   "control": "VID1 reader: one press plays it in the theater, Esc closes it and leaves everything as it was \\(1440x900\\)"
+  }
+ ]
+}

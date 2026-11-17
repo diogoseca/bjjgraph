@@ -39,9 +39,11 @@ const cssPath = process.env.NEURAL_MUTANT_CSS, cssOriginal = cssPath ? readFileS
 const controls = [
   // D10-N1: a genuinely held deck manifest lands while Watch is open. Suppress only that backfill;
   // the new question-presence claim must fail, rather than passing on an already-mounted card.
+  // VID1 (v1.283.0): Watch is the theater, so the suppression keys on `_filmTheater` (WAS `_choiceWatch`, a field VID1
+  // deleted: left as it was, this control mutated nothing and could only survive).
   ['watch-backfill-lost', 'coldstart-backfill.spec.ts', 'a payload arriving behind Watch',
     [['this.refreshOptionOdds(),this._landBackfill(),this._refreshChallengeEvidence()',
-      'this.refreshOptionOdds(),this._choiceWatch||this._landBackfill(),this._refreshChallengeEvidence()']],
+      'this.refreshOptionOdds(),this._filmTheater||this._landBackfill(),this._refreshChallengeEvidence()']],
     'the newly backfilled question exists behind Watch'],
   // D-326: the notice keeps showing while the move executes.
   ['reward-hold-lost', 'roll-execution.spec.ts', 'reward notice yields',
