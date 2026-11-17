@@ -227,7 +227,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 Release the Carni rotational lock before placing the shin under the chin. The neck frame and supported hip turn change the target from shoulder to throat; maintaining the old triceps tension while moving the leg would load two different structures at once.
 
-As the shoulder clamp opens, keep the inside forearm between the bodies to manage incoming chest pressure while the shin changes position. McCaghren shows this barrier preventing the top player from crushing the space needed for the shin-under-chin enclosure.
+As the shoulder clamp opens, keep the inside forearm between the bodies to manage incoming chest pressure while the shin changes position. The cited demonstration shows this barrier preventing the top player from crushing the space needed for the shin-under-chin enclosure.
 
 **From Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
 

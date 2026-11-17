@@ -80,10 +80,10 @@ description: "Aoki Lock from Aoki Lock Control (defender): Treat an outward-turn
     },
     {
       "@type": "Question",
-      "name": "Aoki from Control defense: how does Kesting protect the outside foot while holding standard ashi?",
+      "name": "Aoki from Control defense: how do you protect the outside foot while holding standard ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the inside knee close to that outside foot. His preventive detail closes access to the outside foot before an Aoki grip is established. It is not an escape to apply after the foot is already locked."
+        "text": "Keep the inside knee close to that outside foot. This preventive detail closes access to the outside foot before an Aoki grip is established. It is not an escape to apply after the foot is already locked."
       }
     },
     {

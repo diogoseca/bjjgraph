@@ -201,7 +201,7 @@ description: "Suloev Stretch from Rear Tripod (attacker): Control the torso from
 </aside>
 <section id="overview" class="content-section">
 
-The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.
+The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. The breakdown distinguishes the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.
 
 Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control.
 
@@ -259,7 +259,7 @@ Use a cooperative entry and stop at the aligned capture. Never drop onto the str
 - The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle.
 - Control the torso from behind before reaching below the hips.
 - Work only when the opponent's raised hips expose an ankle without sacrificing your balance.
-- Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.
+- Half guard is not the demonstrated finishing configuration. The breakdown distinguishes the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.
 
 
 </section>

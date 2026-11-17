@@ -1208,7 +1208,7 @@ Dead Orchard Control is Nathan Orchard's high rubber-guard trap in which the bot
 
 ### [[Positions/Demi Guard|Demi Guard]]
 
-Demi Guard is Keenan Cornelius' gi lapel guard against forward pressure. Learn its collar grip, foot-on-lapel control, sweep options and passing priorities.
+Demi Guard is a gi lapel guard against forward pressure. Learn its collar grip, foot-on-lapel control, sweep options and passing priorities.
 
 ### [[Positions/Dogfight Position|Dogfight Position]]
 

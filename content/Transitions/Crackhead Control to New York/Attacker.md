@@ -84,10 +84,10 @@ description: "Crackhead Control to New York (attacker): Keep the first high leg 
     },
     {
       "@type": "Question",
-      "name": "Crackhead to New York (bottom): In Ben Eddy's hand-first pummel, where do you enter?",
+      "name": "Crackhead to New York (bottom): In the hand-first pummel, where do you enter?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Eddy's variation works beneath the hand rather than forcing under the tightly clamped elbow; it is not claimed as the only version."
+        "text": "The demonstrated variation works beneath the hand rather than forcing under the tightly clamped elbow; it is not claimed as the only version."
       }
     },
     {

@@ -402,7 +402,7 @@ Repeat the same setup while the partner chooses either agreed defense without an
 - [[Principles/Submission Chains|Submission Chains]] (Principle) - Provides technical submission sequences that comprise individual branches within dilemma frameworks
 - [[Principles/Position Chains|Position Chains]] (Principle) - Position chain methodology provides framework for linking positions into offensive sequences where dilemma creation adds forcing mechanisms at each decision point
 - [[Systems/Back Attack System|Back Attack System]] (System) - Premier example of complete dilemma-based system with rear naked choke-armbar structure forcing binary defensive choices
-- [[Systems/B-Team Dilemma System|B-Team Dilemma System]] (System) - Comprehensive modern dilemma-based approach popularized by Craig Jones emphasizing systematic forcing of no-win scenarios
+- [[Systems/B-Team Dilemma System|B-Team Dilemma System]] (System) - Comprehensive modern dilemma-based approach emphasizing systematic forcing of no-win scenarios
 - [[Positions/Closed Guard|Closed Guard]] (Position) - Classical position for dilemma construction with triangle-armbar-omoplata system as fundamental example
 - [[Positions/Back Control|Back Control]] (Position) - Highest-percentage position for dilemma application with rear naked choke-armbar creating ultimate finishing dilemma
 - [[Positions/Mount|Mount]] (Position) - Dominant position allowing multiple simultaneous threats with armbar-triangle-mounted guillotine dilemma structures

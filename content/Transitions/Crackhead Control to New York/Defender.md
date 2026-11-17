@@ -72,7 +72,7 @@ description: "Crackhead Control to New York (defender): Keep a useful forearm be
     },
     {
       "@type": "Question",
-      "name": "Crackhead to New York (top): Which cue marks the start of Eddy's hand-first pummel?",
+      "name": "Crackhead to New York (top): Which cue marks the start of the hand-first pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hand entering beneath yours is an early cue to recover inside position before arm coverage and the knee hug close."

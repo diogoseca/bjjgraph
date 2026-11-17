@@ -67,7 +67,7 @@ The Transition to Backside 50-50 is a rotational positional advancement from sta
 
 Executing this transition requires precise timing around your opponent's defensive reactions in standard 50-50. The rotation occurs when your opponent is focused on heel defense or grip fighting, creating a window where their hip movement is restricted and they cannot prevent you from circling behind them. The key mechanical detail is maintaining tight leg entanglement throughout the rotation so you arrive in Backside 50-50 with full control rather than creating space that allows extraction. Inside position control with your lead leg serves as the rotational pivot point.
 
-This transition occupies a critical role in modern leg lock systems as the bridge between the often-stalemated standard 50-50 and the decisively dominant Backside 50-50 configuration. Practitioners like Gordon Ryan and the Danaher Death Squad popularized this pathway as part of systematic leg entanglement hierarchies. Once in Backside 50-50, the dual threat of heel hooks and back control creates an almost unsolvable defensive dilemma, making the initial transition investment highly rewarding when executed properly.
+This transition occupies a critical role in modern leg lock systems as the bridge between the often-stalemated standard 50-50 and the decisively dominant Backside 50-50 configuration. Modern leg lock competitors popularized this pathway as part of systematic leg entanglement hierarchies. Once in Backside 50-50, the dual threat of heel hooks and back control creates an almost unsolvable defensive dilemma, making the initial transition investment highly rewarding when executed properly.
 
 **From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 **Success Rate**: 60%

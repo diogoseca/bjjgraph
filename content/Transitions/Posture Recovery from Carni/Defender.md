@@ -75,7 +75,7 @@ description: "Posture Recovery from Carni (defender): Use the guard and shoulder
       "name": "Posture Recovery from Carni (bottom): Which anchor helps keep the shoulder from rising?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Martinez's supported foot and close knee anchor the partly belly-down shoulder-control angle."
+        "text": "In the demonstration, the supported foot and close knee anchor the partly belly-down shoulder-control angle."
       }
     },
     {

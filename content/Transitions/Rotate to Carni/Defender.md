@@ -197,7 +197,7 @@ description: "Rotate to Carni (defender): A leg clearing the head with an overho
 
 <section id="overview" class="content-section">
 
-The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled. Richie Martinez demonstrates the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone.
+The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled. The cited demonstration shows the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone.
 
 A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Avoid reaching away while the opponent sets the triceps control. Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
 

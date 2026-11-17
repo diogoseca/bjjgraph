@@ -67,7 +67,7 @@ description: "Posture Recovery from Zombie (defender): Maintain posture control 
       "name": "Posture Recovery from Zombie (bottom): In the hand-first pummel, where is the opening?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Eddy's demonstrated option attacks beneath the hand rather than forcing the strongly clamped elbow open."
+        "text": "The demonstrated option attacks beneath the hand rather than forcing the strongly clamped elbow open."
       }
     },
     {

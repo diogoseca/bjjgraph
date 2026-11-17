@@ -92,7 +92,7 @@ description: "Waiter Sweep (attacker): Bring the shoulder under the hip while co
     },
     {
       "@type": "Question",
-      "name": "Waiter Sweep (bottom): In Valle's gi version, which grip captures the posting arm?",
+      "name": "Waiter Sweep (bottom): In the gi version, which grip captures the posting arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use an appropriate sleeve grip in gi or a suitable arm connection without assuming the same grip exists in no-gi."
@@ -215,7 +215,7 @@ Use an appropriate sleeve grip in gi or a suitable arm connection without assumi
 
 Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-In Valle's gi demonstration, the collar connection manages the upper body while hip movement brings the lifted leg into the waiting hand; control of the posting sleeve then assists the reversal. Keep the head protected from a crossface as you move underneath. Once on top, establish hip control and balanced chest pressure for the actual landing before beginning a separate pass.
+In the cited gi demonstration, the collar connection manages the upper body while hip movement brings the lifted leg into the waiting hand; control of the posting sleeve then assists the reversal. Keep the head protected from a crossface as you move underneath. Once on top, establish hip control and balanced chest pressure for the actual landing before beginning a separate pass.
 
 **From Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 

@@ -92,7 +92,7 @@ description: "Hindulotine from Hindulotine (attacker): Turn onto the hip and kee
     },
     {
       "@type": "Question",
-      "name": "Hindulotine attack: which two connections appear in Ben Eddy's early and later teaching?",
+      "name": "Hindulotine attack: which two connections appear in the early and later teaching?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Reverse-gable in the early lesson; S-grip later. Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee."
@@ -217,7 +217,7 @@ description: "Hindulotine from Hindulotine (attacker): Turn onto the hip and kee
 
 <section id="overview" class="content-section">
 
-The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.
+The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Hindu Control is the setup; Hindulotine is the choke. The early reverse-gable demonstration and the later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.
 
 Turn onto the hip and keep the knee close so the foot is reached through body position. Bring the elbow above the raised foot and the hand around the shoulder into the head-control space. Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand.
 
@@ -293,7 +293,7 @@ This neck enclosure can load the sides of the neck as a vascular choke, and misp
 - The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder.
 - Turn onto the hip and keep the knee close so the foot is reached through body position.
 - Bring the elbow above the raised foot and the hand around the shoulder into the head-control space.
-- Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.
+- Hindu Control is the setup; Hindulotine is the choke. The early reverse-gable demonstration and the later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.
 
 
 </section>

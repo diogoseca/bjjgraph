@@ -88,7 +88,7 @@ The arm drag from clinch bottom is one of the highest-percentage back take entri
 
 The technique operates on a fundamental biomechanical principle: when you pull your opponent's arm across your centerline while simultaneously moving your body to the opposite side, you create a rotational force they cannot resist without releasing the arm entirely. This two-on-one grip manipulation combined with angular footwork is what makes the arm drag effective against opponents of all sizes. The clinch context adds urgency because your opponent is already committed forward with their weight, making the redirection more powerful than from open range.
 
-In competitive BJJ and submission grappling, the arm drag from clinch serves as a critical escape mechanism from inferior standing positions. Athletes like Marcelo Garcia popularized this entry as a primary back take system, demonstrating that you do not need superior wrestling to reach back control. The technique chains naturally with other clinch attacks including duck unders, snap downs, and single leg entries, creating a multi-threat standing game that keeps opponents guessing about your true intention.
+In competitive BJJ and submission grappling, the arm drag from clinch serves as a critical escape mechanism from inferior standing positions. Competitors popularized this entry as a primary back take system, demonstrating that you do not need superior wrestling to reach back control. The technique chains naturally with other clinch attacks including duck unders, snap downs, and single leg entries, creating a multi-threat standing game that keeps opponents guessing about your true intention.
 
 **From Position**: [[Positions/Clinch]] (Bottom)
 **Success Rate**: 30%
@@ -270,7 +270,7 @@ In competitive BJJ and submission grappling, the arm drag from clinch serves as 
 
 ## Position Integration
 
-The arm drag from clinch bottom integrates into the broader BJJ standing game as the primary back take entry from disadvantaged clinch positions. It connects the clinch position to back control without requiring superior wrestling ability, making it the go-to technique for guard players and submission grapplers who find themselves in standing exchanges. The technique chains bidirectionally: failed arm drags can transition into single leg attempts, duck unders, or guard pulls, while successful drags feed directly into the rear body lock and hook insertion sequence that defines back control establishment. Within the Danaher system, the arm drag represents the shortest path from neutral standing to the most dominant ground position, bypassing the traditional takedown-to-pass-to-pin progression entirely.
+The arm drag from clinch bottom integrates into the broader BJJ standing game as the primary back take entry from disadvantaged clinch positions. It connects the clinch position to back control without requiring superior wrestling ability, making it the go-to technique for guard players and submission grapplers who find themselves in standing exchanges. The technique chains bidirectionally: failed arm drags can transition into single leg attempts, duck unders, or guard pulls, while successful drags feed directly into the rear body lock and hook insertion sequence that defines back control establishment. The arm drag represents the shortest path from neutral standing to the most dominant ground position, bypassing the traditional takedown-to-pass-to-pin progression entirely.
 
 </section>
 
