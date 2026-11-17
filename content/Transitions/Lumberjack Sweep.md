@@ -36,6 +36,27 @@ description: "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step e
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lumberjack Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defensive Options vs. the Lumberjack Sweep | Gi Class",
+      "description": "Lumberjack Sweep film study: Defensive Options vs. the Lumberjack Sweep | Gi Class.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R86onRIUcyg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R86onRIUcyg",
+      "url": "https://www.youtube.com/watch?v=R86onRIUcyg",
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This sweep integrates seamlessly with other half guard attacks, forming part of 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lumberjack Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R86onRIUcyg)
+
+<p class="clip-credit"><strong>Defensive Options vs. the Lumberjack Sweep | Gi Class</strong> · 2:39 · <a href="https://www.youtube.com/watch?v=R86onRIUcyg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

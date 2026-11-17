@@ -170,8 +170,8 @@ description: "Learn to defend and prevent the seat belt to body triangle transit
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "TMG Clips #78 - Escaping The Body Triangle",
-      "description": "Seat Belt to Body Triangle (Defender) film study: TMG Clips #78 - Escaping The Body Triangle.",
+      "name": "Escaping The Body Triangle",
+      "description": "Seat Belt to Body Triangle (Defender) film study: Escaping The Body Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hgaULMND3ag/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hgaULMND3ag",
       "url": "https://www.youtube.com/watch?v=hgaULMND3ag",
@@ -213,7 +213,7 @@ As the defender facing the Seat Belt to Body Triangle transition, your primary o
 
 ![](https://www.youtube.com/watch?v=hgaULMND3ag)
 
-<p class="clip-credit"><strong>TMG Clips #78 - Escaping The Body Triangle</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping The Body Triangle</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

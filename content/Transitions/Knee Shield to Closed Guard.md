@@ -36,6 +36,27 @@ description: "Master the Knee Shield to Closed Guard recovery in BJJ. Complete g
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield to Closed Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed Guard Recovery from Half Guard Using Knee Shield",
+      "description": "Knee Shield to Closed Guard film study: Closed Guard Recovery from Half Guard Using Knee Shield.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aVT5vW4PQN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aVT5vW4PQN0",
+      "url": "https://www.youtube.com/watch?v=aVT5vW4PQN0",
+      "duration": "PT223S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This technique occupies an important role in the half guard retention system, se
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield to Closed Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aVT5vW4PQN0)
+
+<p class="clip-credit"><strong>Closed Guard Recovery from Half Guard Using Knee Shield</strong> · 3:43 · <a href="https://www.youtube.com/watch?v=aVT5vW4PQN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

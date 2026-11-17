@@ -186,8 +186,8 @@ description: "Complete guide to executing the arm drag from clinch bottom. Step-
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Train For Real // Arm Drag to Rear Clinch",
-      "description": "Arm Drag from Clinch Bottom (Attacker) film study: Train For Real // Arm Drag to Rear Clinch.",
+      "name": "Arm Drag to Rear Clinch",
+      "description": "Arm Drag from Clinch Bottom (Attacker) film study: Arm Drag to Rear Clinch.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rc36jRToKOk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rc36jRToKOk",
       "url": "https://www.youtube.com/watch?v=rc36jRToKOk",
@@ -221,7 +221,7 @@ As the attacker executing the arm drag from clinch bottom, your objective is to 
 
 ![](https://www.youtube.com/watch?v=rc36jRToKOk)
 
-<p class="clip-credit"><strong>Train For Real // Arm Drag to Rear Clinch</strong> · 0:30 · <a href="https://www.youtube.com/watch?v=rc36jRToKOk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm Drag to Rear Clinch</strong> · 0:30 · <a href="https://www.youtube.com/watch?v=rc36jRToKOk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

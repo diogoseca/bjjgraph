@@ -190,8 +190,8 @@ description: "How to execute Brabo Choke in BJJ. Attacking perspective with setu
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Procel BJJ | Darce Choke from the Front Headlock Position",
-      "description": "Brabo Choke from Front Headlock (Attacker) film study: Procel BJJ | Darce Choke from the Front Headlock Position.",
+      "name": "Darce Choke from the Front Headlock Position",
+      "description": "Brabo Choke from Front Headlock (Attacker) film study: Darce Choke from the Front Headlock Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/BMU1_wfjYTw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/BMU1_wfjYTw",
       "url": "https://www.youtube.com/watch?v=BMU1_wfjYTw",
@@ -254,7 +254,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 ![](https://www.youtube.com/watch?v=BMU1_wfjYTw)
 
-<p class="clip-credit"><strong>Procel BJJ | Darce Choke from the Front Headlock Position</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Darce Choke from the Front Headlock Position</strong> · 1:40 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

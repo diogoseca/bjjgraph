@@ -180,8 +180,8 @@ description: "How to execute Japanese Necktie Setup in BJJ. Attacking perspectiv
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "\"Japanese Necktie from Sprawl and Half-Guard\" 10th Planet Jiu\u2026",
-      "description": "Japanese Necktie Setup (Attacker) film study: \"Japanese Necktie from Sprawl and Half-Guard\" 10th Planet Jiu\u2026.",
+      "name": "\"Japanese Necktie from Sprawl and Half-Guard\"",
+      "description": "Japanese Necktie Setup (Attacker) film study: \"Japanese Necktie from Sprawl and Half-Guard\".",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZDv7G8DYrx0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ZDv7G8DYrx0",
       "url": "https://www.youtube.com/watch?v=ZDv7G8DYrx0",
@@ -215,7 +215,7 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 
 ![](https://www.youtube.com/watch?v=ZDv7G8DYrx0)
 
-<p class="clip-credit"><strong>&#34;Japanese Necktie from Sprawl and Half-Guard&#34; 10th Planet Jiu…</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=ZDv7G8DYrx0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>&#34;Japanese Necktie from Sprawl and Half-Guard&#34;</strong> · 1:49 · <a href="https://www.youtube.com/watch?v=ZDv7G8DYrx0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

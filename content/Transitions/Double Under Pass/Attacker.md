@@ -186,8 +186,8 @@ description: "How to execute Double Under Pass in BJJ. Attacking perspective wit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown",
-      "description": "Double Under Pass (Attacker) film study: No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown.",
+      "name": "No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu",
+      "description": "Double Under Pass (Attacker) film study: No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wBZrTpuXV50/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wBZrTpuXV50",
       "url": "https://www.youtube.com/watch?v=wBZrTpuXV50",
@@ -225,7 +225,7 @@ The Double Under Pass is particularly effective in gi grappling where grips can 
 
 ![](https://www.youtube.com/watch?v=wBZrTpuXV50)
 
-<p class="clip-credit"><strong>No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

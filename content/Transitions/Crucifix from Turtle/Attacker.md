@@ -206,8 +206,8 @@ description: "How to execute Crucifix from Turtle in BJJ. Attacking perspective 
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Turtle Rollover to Crucifix ~ South Island Bjj ~ instructional",
-      "description": "Crucifix from Turtle (Attacker) film study: Turtle Rollover to Crucifix ~ South Island Bjj ~ instructional.",
+      "name": "Turtle Rollover to Crucifix ~ instructional",
+      "description": "Crucifix from Turtle (Attacker) film study: Turtle Rollover to Crucifix ~ instructional.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dtyrCY42OQg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dtyrCY42OQg",
       "url": "https://www.youtube.com/watch?v=dtyrCY42OQg",
@@ -257,7 +257,7 @@ Executing the crucifix from turtle requires a methodical approach that prioritiz
 
 ![](https://www.youtube.com/watch?v=dtyrCY42OQg)
 
-<p class="clip-credit"><strong>Turtle Rollover to Crucifix ~ South Island Bjj ~ instructional</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=dtyrCY42OQg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle Rollover to Crucifix ~ instructional</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=dtyrCY42OQg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

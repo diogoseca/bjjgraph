@@ -159,8 +159,8 @@ description: "Master Omoplata Control Top in BJJ. Dominant shoulder lock control
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "JJM3.0 Advanced Online Training : Troubleshooting The No Gi Omoplata",
-      "description": "Omoplata Control (Top) film study: JJM3.0 Advanced Online Training : Troubleshooting The No Gi Omoplata.",
+      "name": "Advanced Online Training : Troubleshooting The No Gi Omoplata",
+      "description": "Omoplata Control (Top) film study: Advanced Online Training : Troubleshooting The No Gi Omoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WdGe841yhsU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WdGe841yhsU",
       "url": "https://www.youtube.com/watch?v=WdGe841yhsU",
@@ -192,7 +192,7 @@ Omoplata Control Top represents a dominant shoulder lock position where the top 
 
 ![](https://www.youtube.com/watch?v=WdGe841yhsU)
 
-<p class="clip-credit"><strong>JJM3.0 Advanced Online Training : Troubleshooting The No Gi Omoplata</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=WdGe841yhsU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Advanced Online Training : Troubleshooting The No Gi Omoplata</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=WdGe841yhsU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

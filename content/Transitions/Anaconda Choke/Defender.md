@@ -170,8 +170,8 @@ description: "How to defend against Anaconda Choke in BJJ. Recognition cues, def
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Anaconda choke defense (BJJ) - SFS MMA",
-      "description": "Anaconda Choke (Defender) film study: Anaconda choke defense (BJJ) - SFS MMA.",
+      "name": "Anaconda choke defense (BJJ)",
+      "description": "Anaconda Choke (Defender) film study: Anaconda choke defense (BJJ).",
       "thumbnailUrl": "https://i.ytimg.com/vi/SXm9wA1HcvM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SXm9wA1HcvM",
       "url": "https://www.youtube.com/watch?v=SXm9wA1HcvM",
@@ -215,7 +215,7 @@ The critical window for successful defense occurs before the attacker connects t
 
 ![](https://www.youtube.com/watch?v=SXm9wA1HcvM)
 
-<p class="clip-credit"><strong>Anaconda choke defense (BJJ) - SFS MMA</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda choke defense (BJJ)</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

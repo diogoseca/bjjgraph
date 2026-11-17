@@ -176,6 +176,27 @@ description: "Master the frame to guard escape from Kesa Gatame bottom. Step-by-
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame to Guard from Kesa Gatame (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Frame Escape - Kesa Gatame",
+      "description": "Frame to Guard from Kesa Gatame (Attacker) film study: Frame Escape - Kesa Gatame.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ycqDAjT7Kr8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ycqDAjT7Kr8",
+      "url": "https://www.youtube.com/watch?v=ycqDAjT7Kr8",
+      "duration": "PT217S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -188,6 +209,24 @@ As the bottom player in Kesa Gatame, your primary objective with the frame to gu
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame to Guard from Kesa Gatame (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ycqDAjT7Kr8)
+
+<p class="clip-credit"><strong>Frame Escape - Kesa Gatame</strong> · 3:37 · <a href="https://www.youtube.com/watch?v=ycqDAjT7Kr8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

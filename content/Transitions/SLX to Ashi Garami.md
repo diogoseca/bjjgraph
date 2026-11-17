@@ -36,6 +36,27 @@ description: "Master SLX to Ashi Garami in BJJ. Complete guide to transitioning 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "SLX to Ashi Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single Leg X to Ashi Garami + straight ankle breakdown",
+      "description": "SLX to Ashi Garami film study: Single Leg X to Ashi Garami + straight ankle breakdown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fdGGvKijGtw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fdGGvKijGtw",
+      "url": "https://www.youtube.com/watch?v=fdGGvKijGtw",
+      "duration": "PT272S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this transition serves as the gateway to the entire hierarchical 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch SLX to Ashi Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fdGGvKijGtw)
+
+<p class="clip-credit"><strong>Single Leg X to Ashi Garami + straight ankle breakdown</strong> · 4:32 · <a href="https://www.youtube.com/watch?v=fdGGvKijGtw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

@@ -160,8 +160,8 @@ description: "Defend against collar sleeve guard passes in BJJ. Learn grip reten
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Collar-Sleeve Guard Retention - Profectus Jiu Jitsu Lebanon",
-      "description": "Pass Collar Sleeve Guard (Defender) film study: Collar-Sleeve Guard Retention - Profectus Jiu Jitsu Lebanon.",
+      "name": "Collar-Sleeve Guard Retention",
+      "description": "Pass Collar Sleeve Guard (Defender) film study: Collar-Sleeve Guard Retention.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8nYx62htPrk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8nYx62htPrk",
       "url": "https://www.youtube.com/watch?v=8nYx62htPrk",
@@ -195,7 +195,7 @@ From the guard player's perspective, defending against a direct collar sleeve gu
 
 ![](https://www.youtube.com/watch?v=8nYx62htPrk)
 
-<p class="clip-credit"><strong>Collar-Sleeve Guard Retention - Profectus Jiu Jitsu Lebanon</strong> · 2:42 · <a href="https://www.youtube.com/watch?v=8nYx62htPrk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Collar-Sleeve Guard Retention</strong> · 2:42 · <a href="https://www.youtube.com/watch?v=8nYx62htPrk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

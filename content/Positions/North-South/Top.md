@@ -177,8 +177,8 @@ description: "Master North-South top position in BJJ. Complete guide to establis
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kami-Shiho-Gatame Tips | Riki Judo Dojo",
-      "description": "North-South (Top) film study: Kami-Shiho-Gatame Tips | Riki Judo Dojo.",
+      "name": "Kami-Shiho-Gatame Tips",
+      "description": "North-South (Top) film study: Kami-Shiho-Gatame Tips.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pvu4nhEHqkM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pvu4nhEHqkM",
       "url": "https://www.youtube.com/watch?v=pvu4nhEHqkM",
@@ -228,7 +228,7 @@ The position serves as a critical checkpoint during guard passing sequences and 
 
 ![](https://www.youtube.com/watch?v=pvu4nhEHqkM)
 
-<p class="clip-credit"><strong>Kami-Shiho-Gatame Tips | Riki Judo Dojo</strong> · 3:47 · <a href="https://www.youtube.com/watch?v=pvu4nhEHqkM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kami-Shiho-Gatame Tips</strong> · 3:47 · <a href="https://www.youtube.com/watch?v=pvu4nhEHqkM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

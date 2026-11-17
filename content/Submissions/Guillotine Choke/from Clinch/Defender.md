@@ -160,8 +160,8 @@ description: "Defend and escape the Guillotine Choke from Clinch in BJJ. Recogni
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Jiu-Jitsu Standing Guillotine Defense With Sitting Throw by Gracie\u2026",
-      "description": "Guillotine Choke from Clinch (Defender) film study: Jiu-Jitsu Standing Guillotine Defense With Sitting Throw by Gracie\u2026.",
+      "name": "Jiu-Jitsu Standing Guillotine Defense With Sitting Throw",
+      "description": "Guillotine Choke from Clinch (Defender) film study: Jiu-Jitsu Standing Guillotine Defense With Sitting Throw.",
       "thumbnailUrl": "https://i.ytimg.com/vi/k5BNGdsb5P4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/k5BNGdsb5P4",
       "url": "https://www.youtube.com/watch?v=k5BNGdsb5P4",
@@ -208,7 +208,7 @@ The defensive hierarchy follows three priorities in strict order: first, protect
 
 ![](https://www.youtube.com/watch?v=k5BNGdsb5P4)
 
-<p class="clip-credit"><strong>Jiu-Jitsu Standing Guillotine Defense With Sitting Throw by Gracie…</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=k5BNGdsb5P4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu-Jitsu Standing Guillotine Defense With Sitting Throw</strong> · 0:22 · <a href="https://www.youtube.com/watch?v=k5BNGdsb5P4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

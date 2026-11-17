@@ -56,8 +56,8 @@ description: "Master Armbar from Mount in BJJ. Complete safety protocols, setup,
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Armbar at Balance Studios in Philadelphia",
-      "description": "Armbar from Mount film study: Armbar at Balance Studios in Philadelphia.",
+      "name": "Armbar in Philadelphia",
+      "description": "Armbar from Mount film study: Armbar in Philadelphia.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R2-h9yOwRdU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/R2-h9yOwRdU",
       "url": "https://www.youtube.com/watch?v=R2-h9yOwRdU",
@@ -131,7 +131,7 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 
 ![](https://www.youtube.com/watch?v=R2-h9yOwRdU)
 
-<p class="clip-credit"><strong>Armbar at Balance Studios in Philadelphia</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=R2-h9yOwRdU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar in Philadelphia</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=R2-h9yOwRdU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

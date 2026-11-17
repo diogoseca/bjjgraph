@@ -165,8 +165,8 @@ description: "Master Clamp Guard in BJJ. Complete guide to trapping opponent's a
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The Clamp Guard | BJJ Techniques",
-      "description": "Clamp Guard (Bottom) film study: The Clamp Guard | BJJ Techniques.",
+      "name": "The Clamp Guard",
+      "description": "Clamp Guard (Bottom) film study: The Clamp Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/A6OG_3e1srY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/A6OG_3e1srY",
       "url": "https://www.youtube.com/watch?v=A6OG_3e1srY",
@@ -202,7 +202,7 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 
 ![](https://www.youtube.com/watch?v=A6OG_3e1srY)
 
-<p class="clip-credit"><strong>The Clamp Guard | BJJ Techniques</strong> · 2:16 · <a href="https://www.youtube.com/watch?v=A6OG_3e1srY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Clamp Guard</strong> · 2:16 · <a href="https://www.youtube.com/watch?v=A6OG_3e1srY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

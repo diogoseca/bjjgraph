@@ -200,8 +200,8 @@ description: "How to execute Can Opener in BJJ. Attacking perspective with setup
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "How to Do a Can Opener   MMA Submissions",
-      "description": "Can Opener from Closed Guard (Attacker) film study: How to Do a Can Opener   MMA Submissions.",
+      "name": "How to Do a Can Opener",
+      "description": "Can Opener from Closed Guard (Attacker) film study: How to Do a Can Opener.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_-NGlUCnHy0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_-NGlUCnHy0",
       "url": "https://www.youtube.com/watch?v=_-NGlUCnHy0",
@@ -252,7 +252,7 @@ The Can Opener attack is documented here strictly for educational and defensive 
 
 ![](https://www.youtube.com/watch?v=_-NGlUCnHy0)
 
-<p class="clip-credit"><strong>How to Do a Can Opener   MMA Submissions</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=_-NGlUCnHy0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Do a Can Opener</strong> · 2:06 · <a href="https://www.youtube.com/watch?v=_-NGlUCnHy0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

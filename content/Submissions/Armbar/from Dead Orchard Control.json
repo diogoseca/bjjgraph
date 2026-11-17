@@ -257,6 +257,17 @@
           ]
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "jT4wPY2Dc_U",
+        "title": "Dead Orchard Armbar from Rubber Guard",
+        "channel": "James O'Brien",
+        "duration": 88,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-16"
+      }
     ]
   },
   "defender": {

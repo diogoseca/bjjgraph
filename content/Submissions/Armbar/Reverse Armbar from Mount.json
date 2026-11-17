@@ -474,6 +474,17 @@
           ]
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "I2pZaO8QRCE",
+        "title": "Reverse armbar from mount",
+        "channel": "Revolution BJJ",
+        "duration": 105,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-16"
+      }
     ]
   },
   "defender": {

@@ -170,8 +170,8 @@ description: "How to defend and prevent the side control to Kesa Gatame transiti
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing",
-      "description": "Side Control to Kesa Gatame (Defender) film study: Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing.",
+      "name": "Kesa Gatame Pressure Defense Using Proper Framing",
+      "description": "Side Control to Kesa Gatame (Defender) film study: Kesa Gatame Pressure Defense Using Proper Framing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
       "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
@@ -213,7 +213,7 @@ Defending the transition to Kesa Gatame requires recognizing the specific prepar
 
 ![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
 
-<p class="clip-credit"><strong>Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense Using Proper Framing</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -36,6 +36,27 @@ description: "Master the Leg Drag to Darce Setup transition. Step-by-step execut
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to Darce Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Darce setup from leg drag",
+      "description": "Leg Drag to Darce Setup film study: Darce setup from leg drag.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SnBX6wF9kvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SnBX6wF9kvU",
+      "url": "https://www.youtube.com/watch?v=SnBX6wF9kvU",
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this technique transforms what many consider a neutral exchange (
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to Darce Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SnBX6wF9kvU)
+
+<p class="clip-credit"><strong>Darce setup from leg drag</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=SnBX6wF9kvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

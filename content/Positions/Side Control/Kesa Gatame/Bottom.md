@@ -176,8 +176,8 @@ description: "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing",
-      "description": "Kesa Gatame (Bottom) film study: Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing.",
+      "name": "Kesa Gatame Pressure Defense Using Proper Framing",
+      "description": "Kesa Gatame (Bottom) film study: Kesa Gatame Pressure Defense Using Proper Framing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
       "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
@@ -224,7 +224,7 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 
 ![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
 
-<p class="clip-credit"><strong>Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense Using Proper Framing</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

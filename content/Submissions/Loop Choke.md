@@ -46,8 +46,8 @@ description: "Master the Loop Choke in BJJ - deceptive collar choke from guard, 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Famous Loop Choke",
-      "description": "Loop Choke film study: Famous Loop Choke.",
+      "name": "Loop Choke",
+      "description": "Loop Choke film study: Loop Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ruk0kdlr-Qw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ruk0kdlr-Qw",
       "url": "https://www.youtube.com/watch?v=ruk0kdlr-Qw",
@@ -152,7 +152,7 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 
 ![](https://www.youtube.com/watch?v=ruk0kdlr-Qw)
 
-<p class="clip-credit"><strong>Famous Loop Choke</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=ruk0kdlr-Qw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Loop Choke</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=ruk0kdlr-Qw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -142,6 +142,27 @@ description: "Learn to defend the K-Guard pass from the bottom player perspectiv
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass K-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Defend Guard Passes from K-Guard",
+      "description": "Pass K-Guard (Defender) film study: How to Defend Guard Passes from K-Guard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7nIC9V7U3gk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7nIC9V7U3gk",
+      "url": "https://www.youtube.com/watch?v=7nIC9V7U3gk",
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ Defending against the K-Guard pass from the bottom player's perspective requires
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass K-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7nIC9V7U3gk)
+
+<p class="clip-credit"><strong>How to Defend Guard Passes from K-Guard</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=7nIC9V7U3gk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

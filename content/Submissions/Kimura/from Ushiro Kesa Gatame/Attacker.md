@@ -180,8 +180,8 @@ description: "Complete attacking guide for the Kimura from Ushiro Kesa Gatame co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura trap from reverse kesa-katame.#jiujitsulifestyle #smithbjj\u2026",
-      "description": "Kimura from Ushiro Kesa Gatame (Attacker) film study: Kimura trap from reverse kesa-katame.#jiujitsulifestyle #smithbjj\u2026.",
+      "name": "Kimura trap from reverse kesa-katame.#jiujitsulifestyle\u2026",
+      "description": "Kimura from Ushiro Kesa Gatame (Attacker) film study: Kimura trap from reverse kesa-katame.#jiujitsulifestyle\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xLCWZaGPW0g/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xLCWZaGPW0g",
       "url": "https://www.youtube.com/watch?v=xLCWZaGPW0g",
@@ -216,7 +216,7 @@ Attacking the Kimura from Ushiro Kesa Gatame leverages your dominant chest press
 
 ![](https://www.youtube.com/watch?v=xLCWZaGPW0g)
 
-<p class="clip-credit"><strong>Kimura trap from reverse kesa-katame.#jiujitsulifestyle #smithbjj…</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=xLCWZaGPW0g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura trap from reverse kesa-katame.#jiujitsulifestyle…</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=xLCWZaGPW0g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

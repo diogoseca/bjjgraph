@@ -138,8 +138,8 @@ description: "Defend against the Mount to Modified Mount transition in BJJ. Lear
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mississauga BJJ | Modified Mount Escape",
-      "description": "Mount to Modified Mount (Defender) film study: Mississauga BJJ | Modified Mount Escape.",
+      "name": "Modified Mount Escape",
+      "description": "Mount to Modified Mount (Defender) film study: Modified Mount Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KU9xJzpdGU8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KU9xJzpdGU8",
       "url": "https://www.youtube.com/watch?v=KU9xJzpdGU8",
@@ -173,7 +173,7 @@ Defending Mount to Modified Mount means disrupting the transition during the bri
 
 ![](https://www.youtube.com/watch?v=KU9xJzpdGU8)
 
-<p class="clip-credit"><strong>Mississauga BJJ | Modified Mount Escape</strong> · 2:30 · <a href="https://www.youtube.com/watch?v=KU9xJzpdGU8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Modified Mount Escape</strong> · 2:30 · <a href="https://www.youtube.com/watch?v=KU9xJzpdGU8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

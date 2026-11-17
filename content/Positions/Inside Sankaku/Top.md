@@ -176,8 +176,8 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg",
-      "description": "Inside Sankaku (Top) film study: INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg.",
+      "name": "INSIDE SANKAKU ENTRIES",
+      "description": "Inside Sankaku (Top) film study: INSIDE SANKAKU ENTRIES.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Jn_JST6ZJ3o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Jn_JST6ZJ3o",
       "url": "https://www.youtube.com/watch?v=Jn_JST6ZJ3o",
@@ -220,7 +220,7 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 ![](https://www.youtube.com/watch?v=Jn_JST6ZJ3o)
 
-<p class="clip-credit"><strong>INSIDE SANKAKU ENTRIES  | Dynamic Martial Arts Roseburg</strong> · 2:17 · <a href="https://www.youtube.com/watch?v=Jn_JST6ZJ3o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>INSIDE SANKAKU ENTRIES</strong> · 2:17 · <a href="https://www.youtube.com/watch?v=Jn_JST6ZJ3o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -160,8 +160,8 @@ description: "Learn to defend against underhook pummeling in the clinch. Recogni
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "mauthai muppets, how to escape underhooks in the clinch option 2",
-      "description": "Underhook Pummeling from Clinch (Defender) film study: mauthai muppets, how to escape underhooks in the clinch option 2.",
+      "name": "how to escape underhooks in the clinch option 2",
+      "description": "Underhook Pummeling from Clinch (Defender) film study: how to escape underhooks in the clinch option 2.",
       "thumbnailUrl": "https://i.ytimg.com/vi/i5pNuC1_uyA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/i5pNuC1_uyA",
       "url": "https://www.youtube.com/watch?v=i5pNuC1_uyA",
@@ -195,7 +195,7 @@ Defending against underhook pummeling requires maintaining your established grip
 
 ![](https://www.youtube.com/watch?v=i5pNuC1_uyA)
 
-<p class="clip-credit"><strong>mauthai muppets, how to escape underhooks in the clinch option 2</strong> · 1:14 · <a href="https://www.youtube.com/watch?v=i5pNuC1_uyA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>how to escape underhooks in the clinch option 2</strong> · 1:14 · <a href="https://www.youtube.com/watch?v=i5pNuC1_uyA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

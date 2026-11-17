@@ -186,8 +186,8 @@ description: "Master executing the Shin-to-Shin Sweep in BJJ. Step-by-step guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "TMG Clips #104 - Easy Shin To Shin Sweep",
-      "description": "Shin-to-Shin Sweep (Attacker) film study: TMG Clips #104 - Easy Shin To Shin Sweep.",
+      "name": "Easy Shin To Shin Sweep",
+      "description": "Shin-to-Shin Sweep (Attacker) film study: Easy Shin To Shin Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lyXznrhM-po/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lyXznrhM-po",
       "url": "https://www.youtube.com/watch?v=lyXznrhM-po",
@@ -221,7 +221,7 @@ Executing the Shin-to-Shin Sweep requires precise coordination of three biomecha
 
 ![](https://www.youtube.com/watch?v=lyXznrhM-po)
 
-<p class="clip-credit"><strong>TMG Clips #104 - Easy Shin To Shin Sweep</strong> · 3:17 · <a href="https://www.youtube.com/watch?v=lyXznrhM-po" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Easy Shin To Shin Sweep</strong> · 3:17 · <a href="https://www.youtube.com/watch?v=lyXznrhM-po" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,8 +46,8 @@ description: "Master Restore Back Control in BJJ. Re-establish hooks and seat be
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Maintain Back Control with Hooks by Gracie Charlottesville",
-      "description": "Restore Back Control film study: Maintain Back Control with Hooks by Gracie Charlottesville.",
+      "name": "Maintain Back Control with Hooks",
+      "description": "Restore Back Control film study: Maintain Back Control with Hooks.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Rlk4mGg7vW4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Rlk4mGg7vW4",
       "url": "https://www.youtube.com/watch?v=Rlk4mGg7vW4",
@@ -107,7 +107,7 @@ Advanced restoration integrates seamlessly with threat cycling from back control
 
 ![](https://www.youtube.com/watch?v=Rlk4mGg7vW4)
 
-<p class="clip-credit"><strong>Maintain Back Control with Hooks by Gracie Charlottesville</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=Rlk4mGg7vW4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Maintain Back Control with Hooks</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=Rlk4mGg7vW4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,8 +46,8 @@ description: "Master Lapel Omoplata Entry from Lapel Guard bottom. Complete guid
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Pace Gracie Jiu Jitsu Academy: Lapel guard transition to omoplata",
-      "description": "Lapel Omoplata Entry film study: Pace Gracie Jiu Jitsu Academy: Lapel guard transition to omoplata.",
+      "name": "Lapel guard transition to omoplata",
+      "description": "Lapel Omoplata Entry film study: Lapel guard transition to omoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/G6uKQITUg2w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/G6uKQITUg2w",
       "url": "https://www.youtube.com/watch?v=G6uKQITUg2w",
@@ -107,7 +107,7 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 
 ![](https://www.youtube.com/watch?v=G6uKQITUg2w)
 
-<p class="clip-credit"><strong>Pace Gracie Jiu Jitsu Academy: Lapel guard transition to omoplata</strong> · 3:34 · <a href="https://www.youtube.com/watch?v=G6uKQITUg2w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lapel guard transition to omoplata</strong> · 3:34 · <a href="https://www.youtube.com/watch?v=G6uKQITUg2w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

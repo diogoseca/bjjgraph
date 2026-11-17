@@ -190,8 +190,8 @@ description: "How to execute Standing to Single Leg X in BJJ. Attacking perspect
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Guard Pull to Single Leg X | Gi Class | Pearson Brazilian Jiu-Jitsu",
-      "description": "Standing to Single Leg X (Attacker) film study: Guard Pull to Single Leg X | Gi Class | Pearson Brazilian Jiu-Jitsu.",
+      "name": "Guard Pull to Single Leg X | Gi Class",
+      "description": "Standing to Single Leg X (Attacker) film study: Guard Pull to Single Leg X | Gi Class.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Vw9ZvK_Lp3c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Vw9ZvK_Lp3c",
       "url": "https://www.youtube.com/watch?v=Vw9ZvK_Lp3c",
@@ -243,7 +243,7 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 ![](https://www.youtube.com/watch?v=Vw9ZvK_Lp3c)
 
-<p class="clip-credit"><strong>Guard Pull to Single Leg X | Gi Class | Pearson Brazilian Jiu-Jitsu</strong> · 2:05 · <a href="https://www.youtube.com/watch?v=Vw9ZvK_Lp3c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard Pull to Single Leg X | Gi Class</strong> · 2:05 · <a href="https://www.youtube.com/watch?v=Vw9ZvK_Lp3c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

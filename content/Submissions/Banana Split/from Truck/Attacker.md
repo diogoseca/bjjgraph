@@ -180,8 +180,8 @@ description: "How to execute the Banana Split from the truck in BJJ. Attacking p
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Banana split from the truck - Learn to Grapple",
-      "description": "Banana Split from Truck (Attacker) film study: Banana split from the truck - Learn to Grapple.",
+      "name": "Banana split from the truck",
+      "description": "Banana Split from Truck (Attacker) film study: Banana split from the truck.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AKmsVbDMo6o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AKmsVbDMo6o",
       "url": "https://www.youtube.com/watch?v=AKmsVbDMo6o",
@@ -236,7 +236,7 @@ The Banana Split from Truck requires establishing opposing forces on the opponen
 
 ![](https://www.youtube.com/watch?v=AKmsVbDMo6o)
 
-<p class="clip-credit"><strong>Banana split from the truck - Learn to Grapple</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=AKmsVbDMo6o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Banana split from the truck</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=AKmsVbDMo6o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

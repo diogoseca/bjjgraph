@@ -165,8 +165,8 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Escape and Counter the Backside 50/50 - Matrix Jiu Jitsu",
-      "description": "Backside 50-50 (Bottom) film study: How to Escape and Counter the Backside 50/50 - Matrix Jiu Jitsu.",
+      "name": "How to Escape and Counter the Backside 50/50",
+      "description": "Backside 50-50 (Bottom) film study: How to Escape and Counter the Backside 50/50.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RTzSOGlxSWg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RTzSOGlxSWg",
       "url": "https://www.youtube.com/watch?v=RTzSOGlxSWg",
@@ -202,7 +202,7 @@ The immediate problem is the leg entanglement and turn restriction. A back take 
 
 ![](https://www.youtube.com/watch?v=RTzSOGlxSWg)
 
-<p class="clip-credit"><strong>How to Escape and Counter the Backside 50/50 - Matrix Jiu Jitsu</strong> · 4:00 · <a href="https://www.youtube.com/watch?v=RTzSOGlxSWg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Escape and Counter the Backside 50/50</strong> · 4:00 · <a href="https://www.youtube.com/watch?v=RTzSOGlxSWg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

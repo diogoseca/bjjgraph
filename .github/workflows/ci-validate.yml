@@ -291,8 +291,11 @@ jobs:
       - name: Systems and concepts payload contract
         run: python3 scripts/check_systems_payload.py
 
-      # NO NAMES (v1.288.0, owner U195 a + U196 b): no clip credit line, no JSON-LD creator in the committed
-      # generated Markdown, and no `by` on any clip of the payload just emitted. Positive counts, fails on 0.
+      # NO NAMES (v1.288.0, widened v1.289.0; owner U195 a + U196 b). In the committed generated Markdown: no
+      # listed name (a clip's whole `by` or `channel` value), no removed label (tests/artifacts/no_names_labels.json)
+      # and no "taught by" in a clip credit; no person-ish key or listed name in a video's JSON-LD. In the payload
+      # just emitted: clips carry player fields only, and no file holds a `by` key. Positive counts and a floor on
+      # the name list; fails on 0. What it does NOT hold (a surname, an unlisted gym) is in the script's docstring.
       - name: No person's name in clip credits, structured data or the payload
         run: python3 scripts/check_no_names.py
 

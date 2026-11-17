@@ -191,8 +191,8 @@ description: "How to execute Kouchi Gari in BJJ. Attacking perspective with setu
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kouchi Gari (Small inner reap) - Hammer Jiu Jitsu",
-      "description": "Kouchi Gari (Attacker) film study: Kouchi Gari (Small inner reap) - Hammer Jiu Jitsu.",
+      "name": "Kouchi Gari (Small inner reap)",
+      "description": "Kouchi Gari (Attacker) film study: Kouchi Gari (Small inner reap).",
       "thumbnailUrl": "https://i.ytimg.com/vi/4FDRR9ukLjc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4FDRR9ukLjc",
       "url": "https://www.youtube.com/watch?v=4FDRR9ukLjc",
@@ -237,7 +237,7 @@ As the attacker executing Kouchi Gari, your primary objective is to remove your 
 
 ![](https://www.youtube.com/watch?v=4FDRR9ukLjc)
 
-<p class="clip-credit"><strong>Kouchi Gari (Small inner reap) - Hammer Jiu Jitsu</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=4FDRR9ukLjc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kouchi Gari (Small inner reap)</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=4FDRR9ukLjc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

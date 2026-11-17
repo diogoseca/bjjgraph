@@ -56,8 +56,8 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The Base BJJ Technique of the Week: Half Guard to the Dogfight",
-      "description": "Dogfight Position film study: The Base BJJ Technique of the Week: Half Guard to the Dogfight.",
+      "name": "BJJ Technique of the Week: Half Guard to the Dogfight",
+      "description": "Dogfight Position film study: BJJ Technique of the Week: Half Guard to the Dogfight.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X4jR2wWOy2M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/X4jR2wWOy2M",
       "url": "https://www.youtube.com/watch?v=X4jR2wWOy2M",
@@ -132,7 +132,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ![](https://www.youtube.com/watch?v=X4jR2wWOy2M)
 
-<p class="clip-credit"><strong>The Base BJJ Technique of the Week: Half Guard to the Dogfight</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Technique of the Week: Half Guard to the Dogfight</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

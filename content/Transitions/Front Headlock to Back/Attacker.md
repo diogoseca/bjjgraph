@@ -180,8 +180,8 @@ description: "How to execute Front Headlock to Back Take in BJJ. Attacking persp
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "MJC #709 Front Headlock To Back Take",
-      "description": "Front Headlock to Back (Attacker) film study: MJC #709 Front Headlock To Back Take.",
+      "name": "Front Headlock To Back Take",
+      "description": "Front Headlock to Back (Attacker) film study: Front Headlock To Back Take.",
       "thumbnailUrl": "https://i.ytimg.com/vi/m1zVrv0CQ_E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/m1zVrv0CQ_E",
       "url": "https://www.youtube.com/watch?v=m1zVrv0CQ_E",
@@ -239,7 +239,7 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 ![](https://www.youtube.com/watch?v=m1zVrv0CQ_E)
 
-<p class="clip-credit"><strong>MJC #709 Front Headlock To Back Take</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=m1zVrv0CQ_E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front Headlock To Back Take</strong> · 0:28 · <a href="https://www.youtube.com/watch?v=m1zVrv0CQ_E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

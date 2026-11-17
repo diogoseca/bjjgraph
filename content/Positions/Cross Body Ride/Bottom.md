@@ -165,8 +165,8 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Camp - defending a cross body ride",
-      "description": "Cross Body Ride (Bottom) film study: Camp - defending a cross body ride.",
+      "name": "Defending a cross body ride",
+      "description": "Cross Body Ride (Bottom) film study: Defending a cross body ride.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hghlBKHON1s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hghlBKHON1s",
       "url": "https://www.youtube.com/watch?v=hghlBKHON1s",
@@ -202,7 +202,7 @@ The fundamental challenge of Cross Body Ride Bottom is that passive defense guar
 
 ![](https://www.youtube.com/watch?v=hghlBKHON1s)
 
-<p class="clip-credit"><strong>Camp - defending a cross body ride</strong> · 5:07 · <a href="https://www.youtube.com/watch?v=hghlBKHON1s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending a cross body ride</strong> · 5:07 · <a href="https://www.youtube.com/watch?v=hghlBKHON1s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

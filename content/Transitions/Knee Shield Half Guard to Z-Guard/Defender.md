@@ -142,6 +142,27 @@ description: "How to prevent and counter the Transition to Z-Guard from top posi
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield Half Guard to Z-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter the Z-Guard + Knee-Shield",
+      "description": "Knee Shield Half Guard to Z-Guard (Defender) film study: Counter the Z-Guard + Knee-Shield.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BNb_ZIq6JhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BNb_ZIq6JhE",
+      "url": "https://www.youtube.com/watch?v=BNb_ZIq6JhE",
+      "duration": "PT139S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -154,6 +175,24 @@ As the defender (top player in Knee Shield Half Guard), your goal is to prevent 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield Half Guard to Z-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=BNb_ZIq6JhE)
+
+<p class="clip-credit"><strong>Counter the Z-Guard + Knee-Shield</strong> · 2:19 · <a href="https://www.youtube.com/watch?v=BNb_ZIq6JhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
