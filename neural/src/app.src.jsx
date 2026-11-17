@@ -2580,7 +2580,7 @@ class Component extends DCLogic {
         '<span style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,10,16,0) 38%,rgba(8,10,16,.88) 100%);"></span>' +
         '<span class="ngPlay" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:' + (compact ? 30 : 44) + 'px;height:' + (compact ? 30 : 44) + 'px;border-radius:50%;background:rgba(12,14,22,.6);backdrop-filter:blur(3px);border:1.5px solid rgba(255,255,255,.9);display:flex;align-items:center;justify-content:center;transition:transform .16s ease,background .16s ease;"><svg width="15" height="15" viewBox="0 0 24 24" fill="#fff" style="margin-left:2px;"><polygon points="6 4 20 12 6 20 6 4"></polygon></svg></span>' +
         '<span style="position:absolute;top:8px;right:8px;font-size:9px;font-weight:700;color:#eef1f6;background:rgba(8,10,16,.72);border-radius:6px;padding:2px 6px;letter-spacing:.02em;">' + dur + '</span>' +
-        '<span style="position:absolute;left:10px;right:10px;bottom:9px;text-align:left;"><span style="display:block;font-size:' + (compact ? 10 : 11.5) + 'px;font-weight:700;color:#fff;line-height:1.25;text-shadow:0 1px 6px rgba(0,0,0,.65);">' + this.escHTML(c.title) + '</span>' + '' + '</span>' +
+        '<span style="position:absolute;left:10px;right:10px;bottom:9px;text-align:left;"><span style="display:block;font-size:' + (compact ? 10 : 11.5) + 'px;font-weight:700;color:#fff;line-height:1.25;text-shadow:0 1px 6px rgba(0,0,0,.65);">' + this.escHTML(c.title) + '</span>' + '</span>' +
         '</button></div>';
     });
     h += '</div>';
