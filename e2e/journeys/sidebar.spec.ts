@@ -78,6 +78,8 @@ async function openDrawer(j: any, page: Page) {
   await expect(page.locator(".ng-drawer-head")).toBeVisible()
 }
 /** A press on a deck control that a deck landing may repaint: located afresh if a repaint replaced it. */
+// L1-R0 (v1.290.0): the open card's buttons (Reveal, Review again, Got it, ‹ ›) are moved into the drawer's foot, one bar
+// for the open ask (`_masterDock`): pressed there, `[data-master-bar]`, the same buttons with the same handlers
 async function pressDeck(page: Page, j: any, sel: string, what: string) {
   for (let i = 0; ; i++) {
     try { await expect(page.locator(sel).first()).toBeVisible(); await page.locator(sel).first().scrollIntoViewIfNeeded(); await j.clickByMouse(sel, what); return }
@@ -199,8 +201,9 @@ test("the badge shows today's cards and rolls before it is opened, a real grade 
   expect(await page.evaluate(() => document.querySelector(".ng-account-menu")!.getAttribute("data-open")), "the menu is shut").toBeNull()
   // Practice: grade the owed review, then come home by the brand
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice")
-  await pressDeck(page, j, "[data-mini-reveal]", "Reveal")   // the pane chose the row; the mouse is measured
-  await pressDeck(page, j, "[data-mini-got]", "Got it")
+  await j.startMaster()   // L1 (v1.290.0): the list's button opens the day's first card, as the row did by itself before
+  await pressDeck(page, j, "[data-master-bar] [data-mini-reveal]", "Reveal")   // the pane chose the row; the mouse is measured
+  await pressDeck(page, j, "[data-master-bar] [data-mini-got]", "Got it")
   await j.clickByMouse(".ng-drawer-brand", "the brand, home")
   await expect(page.locator("[data-drawer-explore]")).toBeVisible()
   await expect(today, "the grade moved the badge").toHaveText("Today: 4 of 20 cards · 1 roll")
@@ -248,6 +251,8 @@ test("@curated Practice and Last rolls open their views, and the brand leads bac
   // so the card section is titled by the open card's position, the first of the plan's
   await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { message: "the worth plan lands" }).toBe("worth")
   const first = await page.evaluate(() => { const p = (window as W).__neural._session.plan; return p.visits[0].seat.replace("|", " \u00b7 ") + " \u00b7 position 1 of " + p.visits.length })
+  // L1-R1 (the reader of PR #434, its finding 2): the slim line holds no text until the press, so the press comes first, as a player's does
+  await j.startMaster()
   await expect(page.locator("[data-practice-section]"), "titled by the open card's position").toHaveText(first)
   // Practice's ‹ Back is the brand, a real button (SIDE-R2 P2): it takes focus, and Enter takes it home
   await page.locator("[data-pane-back]").focus()
@@ -457,7 +462,9 @@ test.describe("phone 390x844", () => {
     })
     await openDrawer(j, page)
       await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice")
-    await expect(page.locator("[data-session-row]").first()).toBeVisible()
+    await j.startMaster()   // L1 (v1.290.0): the list's button opens the day's first card, as the row did by itself before
+    // L1-R0: the open card's deck row is not drawn when it only repeats its place, so the open session shows by its card
+    await expect(page.locator("[data-mini-q]:visible")).toHaveCount(1)
     await page.evaluate(() => { (window as any).__practice = (window as W).__neural._session })
     const box = (await page.locator(".ng-drill").boundingBox())!
     await swipe(page, ".ng-drill", box.x + 260, box.y + box.height * 0.6, box.x + 60, box.y + box.height * 0.6 + 4)

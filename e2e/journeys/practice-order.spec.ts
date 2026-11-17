@@ -124,12 +124,23 @@ async function clean(page: Page, after: string) {
   expect(bad, `no "NaN" or "undefined" on the Practice page after ${after}`).toEqual([])
 }
 /** one press on whatever the open card asks next: Reveal, then Got it; a graded card goes on with its deck's next arrow */
+// L1-R0 (v1.290.0): the open card's buttons (Reveal, Review again, Got it, ‹ ›) are moved into the drawer's foot, one bar
+// for the open ask (`_masterDock`): pressed there, `[data-master-bar]`, the same buttons with the same handlers
 async function answerOne(page: Page, touch: boolean) {
   const open = '[data-session-row][aria-expanded="true"] + div'
-  await expect(page.locator(open + " [data-mini-reveal]:visible")).toHaveCount(1, { timeout: 10_000 })
-  if (await page.locator(open + " [data-mini-graded]:visible").count()) { await press(page, open + " .mn", "the deck's next card", touch); return }
-  if (!(await page.locator(open + " [data-mini-a]:visible").count())) await press(page, open + " [data-mini-reveal]", "Reveal", touch)
-  await press(page, open + " [data-mini-got]", "Got it", touch)
+  await expect(page.locator("[data-master-bar] [data-mini-reveal]:visible, [data-master-bar] [data-mini-got]:visible").first()).toBeVisible({ timeout: 10_000 })
+  if (await page.locator(open + " [data-mini-graded]:visible").count()) { await press(page, "[data-master-bar] .mn", "the deck's next card", touch); return }
+  if (!(await page.locator(open + " [data-mini-a]:visible").count())) await press(page, "[data-master-bar] [data-mini-reveal]", "Reveal", touch)
+  await press(page, "[data-master-bar] [data-mini-got]", "Got it", touch)
+}
+
+// L1 (v1.290.0): Master the game opens as a list with one button, and its first card opens on the press. The button opens
+// the plan's first place and is no touch on the session (`s.moved` stays false), as the page opened it by itself before; the
+// journeys here whose claim is about the open card press it, the way a player does, once the plan has landed
+async function start(page: Page, touch: boolean) {
+  await expect(page.locator("[data-master-start]"), "Master the game's button is ready").toBeEnabled({ timeout: 30_000 })
+  await press(page, "[data-master-start]", "Master the game's button", touch)
+  await expect(page.locator("[data-master-dock]"), "the press opens a card, and the navigation").toBeVisible()
 }
 
 for (const touch of [true, false]) {
@@ -155,6 +166,7 @@ for (const touch of [true, false]) {
 
       await press(page, row, "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      await start(page, touch)
       const s = await page.evaluate(() => {
         const a = (window as W).__neural, s = a._session, p = s.plan, fresh = a.planSummary()
         return { keys: s.keys.slice(), queue: p.queue.slice(), again: fresh.queue.slice(), visits: p.visits.map((v: W) => ({ seat: v.seat, keys: v.keys.slice() })),
@@ -186,7 +198,7 @@ for (const touch of [true, false]) {
       await expect(page.locator("[data-practice-queue] [data-practice-visit]"), "a label per position").toHaveText(s.visits.map((v: W, i: number) => `${i + 1} · ${v.seat ? dot(v.seat) : "Other cards"}`))
       // paging the queue moves the heading with the open card, and stores nothing
       for (let i = 1; i < Math.min(4, s.keys.length); i++) {
-        await press(page, ".ng-practice-nav > button:nth-child(2)", "Next technique", touch)
+        await page.keyboard.press("ArrowDown")   // L1-R0: "Next technique" is a key now (↓); the foot's › walks cards and crosses decks
         await expect.poll(() => page.evaluate(() => (window as W).__neural._session.idx), { message: "the queue moves on" }).toBe(i)
         const r = s.rows.find((x: W) => x.key === s.keys[i])
         await expect(page.locator("[data-practice-section]")).toHaveText(`${r.seat ? dot(r.seat) : "Other cards"} · position ${r.visit + 1} of ${s.visits.length}`)
@@ -228,6 +240,8 @@ for (const touch of [true, false]) {
       for (const [seat, n] of s.lawVisits) expect(n, `${seat}: at most 6 a visit`).toBeLessThanOrEqual(6)
       expect([s.first, s.visit, s.owed], "the page folds them into one position, the first, with all eight").toEqual([fx.deck, 0, 8])
       expect(s.positions, "a position the law visits twice is counted once").toBe(new Set(s.lawVisits.map((v: W) => v[0])).size)
+      // L1-R1 (the reader of PR #434, its finding 2): the slim line holds no text until the press, so the press comes first, as a player's does
+      await start(page, touch)
       await expect(page.locator("[data-practice-section]"), "its heading counts it once").toHaveText(`${dot(fx.deck)} · position 1 of ${s.positions}`)
       await clean(page, "opening a position visited twice")
     })
@@ -247,7 +261,7 @@ for (const touch of [true, false]) {
       try {
         await press(page, ".ng-logo", "open the drawer", touch)
         await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
-        await expect(page.locator("[data-session-row]").first(), "the eager queue shows").toBeVisible()
+        await expect(page.locator("[data-master-start]"), "Master the game shows (L1: the list and its button, before the plan lands)").toBeVisible()
         expect(await page.evaluate(() => !!(window as W).__neural._session.plan), "premise: the plan has not landed").toBe(false)
         await press(page, "[data-practice-details] > summary", "Practice details & session queue", touch)
         await expect(page.locator("[data-practice-details]"), "the fold opens").toHaveAttribute("open", "")
@@ -269,6 +283,9 @@ for (const touch of [true, false]) {
       await press(page, ".ng-logo", "open the drawer", touch)
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      // L1-R1 (the reader's finding 2): until the press nothing is open, and "opens on the first row" read true by construction
+      // (s.idx 0); the press opens the plan's first place, so the card read below is the one the button opened (mutant L1-A1 red)
+      await start(page, touch)
       const at = await page.evaluate(() => { const s = (window as W).__neural._session; return { idx: s.idx, key: s.keys[s.idx], first: s.plan.queue[0], positions: s.plan.visits.length, seat: s.plan.visits[0].seat } })
       expect(at.key, "Practice opens on the plan's first row, not on the oldest debt's deck").toBe(at.first)
       expect(at.key).not.toBe(fx.later)
@@ -287,6 +304,7 @@ for (const touch of [true, false]) {
       await press(page, ".ng-logo", "open the drawer", touch)
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      await start(page, touch)
       for (let i = 0; i < 8 && !(await page.locator("[data-session-complete]").count()); i++) { await answerOne(page, touch); await page.waitForTimeout(700); await clean(page, "an answer") }
       await expect(page.locator("[data-session-complete]"), "the session completes").toHaveCount(1)
       const first = await page.evaluate(() => { const a = (window as W).__neural, s = a._session; return { session: s, keys: s.keys.length, visits: s.plan.visits.length, done: a.practiceToday().done } })
@@ -366,6 +384,7 @@ for (const touch of [true, false]) {
       // (the Path's band followed the dot's rule here, with its chip's words, until it left with the Path in v1.287.0)
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      await start(page, touch)
       const open = '[data-session-row][aria-expanded="true"] + div'
       // the guard (ANKI1): one answer is left of the goal, and it goes to the card due longest (a light deck's, a month
       // overdue), not to the position worth most; and no new card rides with it (until ANKI1 the floor added one)
@@ -374,9 +393,9 @@ for (const touch of [true, false]) {
       expect(fx.light, "the one card left is the one due longest").toContain(one.keys[0])
       // answer every card the session holds (the goal's last answer)
       for (let i = 0; i < 6 && !(await page.locator("[data-session-complete]").count()); i++) {
-        await expect(page.locator(open + " [data-mini-reveal]:visible")).toHaveCount(1, { timeout: 10_000 })
-        await press(page, open + " [data-mini-reveal]", "Reveal", touch)
-        await press(page, open + " [data-mini-got]", "Got it", touch)
+        await expect(page.locator("[data-master-bar] [data-mini-reveal]:visible")).toHaveCount(1, { timeout: 10_000 })
+        await press(page, "[data-master-bar] [data-mini-reveal]", "Reveal", touch)
+        await press(page, "[data-master-bar] [data-mini-got]", "Got it", touch)
         if (i === 0) {
           await expect.poll(async () => (await state()).done, { message: "the goal's last answer counts" }).toBe(20)
           expect((await state()).owed, "premise: cards still owed at the goal").toBeGreaterThan(0)
@@ -440,6 +459,7 @@ for (const touch of [true, false]) {
       await expect(page.locator("[data-belt-row]"), "so the belt row's reading waits").toHaveAttribute("data-belt-state", "wait")
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      await start(page, touch)
       const read = () => page.evaluate((oldest: string[]) => {
         const a = (window as W).__neural, s = a._session, p = s.plan
         return { live: a._ratingLiveNow()?.status, guarded: p.guarded, asked: oldest.filter((q) => p.dueQuestions.includes(q)).length, due: p.dueQuestions.length,

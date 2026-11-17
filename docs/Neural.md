@@ -690,8 +690,9 @@ order: Search, **Explore** (an expandable list: Positions, Transitions, Submissi
 Principles, Learning — the category folds below), **Master the game** (U60 b: no Train header; the Path row left in
 v1.287.0), **Your lists**, **Last rolls**, and the **badge** at the foot, which shows today ("Today: 12
 of 20 cards · 2 rolls"; the day's rolls persist as `rollDays`) before it is opened and opens a short menu (Settings,
-Feedback, sign in/out; Terms · Privacy · GitHub small). Master the game opens the mixed
-session (§8) with the belt corridor under it, and Last rolls the roll history, each in the drawer; the brand leads back.
+Feedback, sign in/out; Terms · Privacy · GitHub small). Master the game is a list (L1):
+a button, then the places you have been to, each opening the session (§8); "Belt lessons"
+holds the corridor. Last rolls: the roll history. The brand leads back.
 The view ids are `explore` · `history`; a request for `challenges` (or `collection`) opens Master the game
 (`openCorridor`), and a stored `challenges` lands on the list, not written back. A lit page fades the rest of the
 map to 20%, easing on the wall clock. The icon stays reachable during a catch (U16 b, U66 a);

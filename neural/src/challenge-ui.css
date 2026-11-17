@@ -113,10 +113,41 @@
 [data-practice-page] summary {
   min-height: 44px;
 }
-.ng-practice-nav {
-  display: flex;
-  gap: 8px;
-}
+/* MASTER THE GAME'S LIST (L1, v1.290.0): the designer's page (design/master-r2/rolls, kit.css), on the drawer's tokens.
+   The button, the day's bar, the slim line after the press, the navigation in the pinned foot, and the "Belt lessons" row.
+   The places' own rows (their dots, gold, rule and note) paint only once the deferred bundle is in, so their rules ride it
+   (master-list.src.js, NG_MASTER_CSS), off the eager stylesheet. */
+.ng-mcta { margin: 6px 0 4px; }
+.ng-mstart { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 56px !important; padding: 9px 14px; border-radius: 12px; border: 1px solid rgba(130,160,255,.55); background: linear-gradient(180deg,rgba(84,118,255,.34),rgba(60,90,230,.2)),repeating-linear-gradient(117deg,rgba(255,255,255,.025) 0 1px,transparent 1px 4px); box-shadow: inset 0 1px 0 rgba(255,255,255,.12),0 8px 22px rgba(20,30,90,.35); color: #eef1f6; font: inherit; text-align: left; cursor: pointer; }
+.ng-mstart[data-met] { border-color: rgba(110,214,160,.5); background: linear-gradient(180deg,rgba(110,214,160,.18),rgba(110,214,160,.07)); box-shadow: inset 0 1px 0 rgba(255,255,255,.08); }
+.ng-mstart:disabled { cursor: default; }
+.ng-mpl { flex: none; width: 30px; height: 30px; border-radius: 50%; background: rgba(255,255,255,.14); display: flex; align-items: center; justify-content: center; font-size: 11px; }
+.ng-mstart[data-met] .ng-mpl { background: rgba(110,214,160,.22); color: #bfe6cf; }
+.ng-mstart b { display: block; font-size: 14.5px; }
+.ng-mstart small, .ng-mbody small { display: block; margin-top: 2px; font-size: 11px; font-weight: 600; color: #b9c6f0; }
+.ng-mstart[data-met] small { color: #9fd4b7; }
+.ng-mgoal { display: flex; align-items: center; gap: 8px; margin: 8px 2px 4px; font-size: 11.5px; color: #9aa2bd; }
+.ng-mgoal .ng-dr-bar { flex: 1; width: auto; }
+.ng-mstart[data-met] + .ng-mgoal .ng-dr-bar i { background: #7ee0a8; }
+.ng-mkeep { width: 100%; margin: 4px 0; border-radius: 10px; border: 1px solid rgba(150,170,210,.22); background: rgba(255,255,255,.035); color: #cbd5e8; font: inherit; font-weight: 600; cursor: pointer; }
+.ng-mslim { position: sticky; top: 0; z-index: 2; background: #111522; padding: 6px 0 8px; margin-bottom: 6px; border-bottom: 1px solid rgba(150,170,210,.1); }
+.ng-mslim [data-practice-section] { margin-bottom: 4px; }
+.ng-mrow { display: flex; align-items: center; gap: 10px; width: calc(100% + 16px); margin: 0 -8px; padding: 7px 8px; border: 0; border-radius: 8px; background: transparent; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.ng-mbody { flex: 1; min-width: 0; }
+.ng-mname { display: block; font-size: 12.5px; font-weight: 600; color: #c2cce0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ng-mbody small { margin-top: 1px; font-size: 10px; color: #7e8aa3; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ng-mchev { flex: none; color: #5d6883; font-size: 14px; transition: transform .16s; }
+.ng-mrow[aria-expanded=true] .ng-mchev { transform: rotate(90deg); }
+.ng-mtrophy { flex: none; display: flex; color: #9aa6bd; }
+[data-master-belts] { margin-top: 12px; }
+.ng-mdock { display: flex; align-items: center; gap: 8px; width: 100%; }
+.ng-mdock > button { flex: none; width: 44px; height: 44px; border-radius: 11px; border: 1px solid rgba(150,170,210,.22); background: rgba(255,255,255,.035); color: #aab4c8; font: inherit; font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+/* the open card's own buttons, moved into the foot (L1-R0, `_masterDock`): they keep their card styles, sized for the thumb here */
+.ng-mbar { flex: 1; min-width: 0; display: flex; align-items: center; gap: 8px; }
+.ng-mbar > button { height: 44px !important; margin: 0 !important; min-width: 0; }
+.ng-mbar > .mp, .ng-mbar > .mn { flex: none !important; width: 44px !important; }
+.ng-mbar > button:not(.mp):not(.mn) { flex: 1 !important; }
+.ng-mdock button:disabled { opacity: .38; cursor: default; }
 [data-practice-keys] {
   margin: 8px 0;
 }

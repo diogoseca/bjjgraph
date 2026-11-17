@@ -118,6 +118,9 @@ for (const touch of [false, true]) {
       await press(page, ".ng-logo", "open the drawer", touch)
       await press(page, '[data-explore-stats] [data-b="due"]', "Master the game", touch)
       await expect(page.locator("[data-practice-page]")).toHaveCount(1)
+      // L1 (v1.290.0): Master the game opens as a list with one button; its press opens the day's first card, as the row did by itself before
+      await expect(page.locator("[data-master-start]")).toBeEnabled({ timeout: 20_000 })
+      await press(page, "[data-master-start]", "Master the game's button", touch)
       const open = '[data-session-row][aria-expanded="true"] + div'
       await expect(page.locator(open + " [data-practice-mc-opt]"), "a new card asks multiple choice").toHaveCount(3, { timeout: 20_000 })
       const { key, q } = await practiceCard(page)
@@ -125,8 +128,8 @@ for (const touch of [false, true]) {
       // right twice: stage 2 (the journeys' seam, the grade's arithmetic: two right answers)
       await page.evaluate(([k, qq]) => { const a = (window as W).__neural; a._bumpStage(k, qq, 2, 2); a.renderSession() }, [key, q])
       await expect(page.locator(open + " [data-practice-mc-opt]"), "a card right twice asks front and back").toHaveCount(0)
-      await press(page, open + " [data-mini-reveal]", "Reveal", touch)
-      await press(page, open + " [data-mini-again]", "Again (a miss)", touch)
+      await press(page, "[data-master-bar] [data-mini-reveal]", "Reveal", touch)
+      await press(page, "[data-master-bar] [data-mini-again]", "Again (a miss)", touch)
       const after = await page.evaluate(([k, qq]) => {
         const a = (window as W).__neural, day = a._epochDay(), qh = a.qhash(qq)
         return { stage: a.cardStage(k, qq), row: a.srs[k][qh], day, mc: a._cardAsksMc(k, { q: qq }) }
@@ -163,14 +166,17 @@ for (const touch of [false, true]) {
   })
 }
 
+// L1-R0 (v1.290.0): the open card's buttons (Reveal, Review again, Got it, ‹ ›) are moved into the drawer's foot, one bar
+// for the open ask (`_masterDock`): pressed there, `[data-master-bar]`, the same buttons with the same handlers
 test("Practice: a stored Front Back cards asks a new card front and back; a stored Multiple choice asks a card right twice as multiple choice", async ({ page }) => {
   const j = journey(page)
   await j.boot("/", { initialState: { v: 2, settings: { mcMode: "classic" }, settingsAt: { mcMode: 5 } } })
   await j.clickByMouse(".ng-logo", "open the drawer")
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Master the game")
+  await j.startMaster()   // L1 (v1.290.0): Master the game opens as a list with one button; its press opens the day's first card, as the row did by itself before
   const open = '[data-session-row][aria-expanded="true"] + div'
   await expect(page.locator(open + " [data-mini-q]"), "the first card is up").toHaveCount(1, { timeout: 20_000 })
-  await expect(page.locator(open + " [data-mini-reveal]"), "Front Back cards: a new card asks front and back").toHaveText(/Reveal/)
+  await expect(page.locator("[data-master-bar] [data-mini-reveal]"), "Front Back cards: a new card asks front and back").toHaveText(/Reveal/)
   await expect(page.locator(open + " [data-practice-mc-opt]")).toHaveCount(0)
   const { key, q } = await practiceCard(page)
   await page.evaluate(([k, qq]) => { const a = (window as W).__neural; a.set("mcMode", "mc"); a._bumpStage(k, qq, 2, 2); a.renderSession() }, [key, q])
