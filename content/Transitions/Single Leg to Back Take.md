@@ -46,8 +46,8 @@ description: "Learn the Single Leg to Back Take in BJJ. Convert a defended singl
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Best Single leg Takedown to Back Take  | Best BJJ Takedowns | One Minute\u2026",
-      "description": "Single Leg to Back Take film study: Best Single leg Takedown to Back Take  | Best BJJ Takedowns | One Minute\u2026.",
+      "name": "Best Single leg Takedown to Back Take",
+      "description": "Single Leg to Back Take film study: Best Single leg Takedown to Back Take.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FsJlz-J_h9w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FsJlz-J_h9w",
       "url": "https://www.youtube.com/watch?v=FsJlz-J_h9w",
@@ -107,7 +107,7 @@ Successful execution requires strong positional awareness, quick hip movement, a
 
 ![](https://www.youtube.com/watch?v=FsJlz-J_h9w)
 
-<p class="clip-credit"><strong>Best Single leg Takedown to Back Take  | Best BJJ Takedowns | One Minute…</strong> · 0:46 · <a href="https://www.youtube.com/watch?v=FsJlz-J_h9w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Best Single leg Takedown to Back Take</strong> · 0:46 · <a href="https://www.youtube.com/watch?v=FsJlz-J_h9w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -148,8 +148,8 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Gracie Insider - Reverse Mount Transition",
-      "description": "Reverse Mount (Top) film study: Gracie Insider - Reverse Mount Transition.",
+      "name": "Reverse Mount Transition",
+      "description": "Reverse Mount (Top) film study: Reverse Mount Transition.",
       "thumbnailUrl": "https://i.ytimg.com/vi/erRqwOhySaU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/erRqwOhySaU",
       "url": "https://www.youtube.com/watch?v=erRqwOhySaU",
@@ -188,7 +188,7 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 ![](https://www.youtube.com/watch?v=erRqwOhySaU)
 
-<p class="clip-credit"><strong>Gracie Insider - Reverse Mount Transition</strong> · 6:42 · <a href="https://www.youtube.com/watch?v=erRqwOhySaU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse Mount Transition</strong> · 6:42 · <a href="https://www.youtube.com/watch?v=erRqwOhySaU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

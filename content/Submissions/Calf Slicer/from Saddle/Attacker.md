@@ -200,8 +200,8 @@ description: "Step-by-step guide to finishing the calf slicer from saddle positi
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "MTS episode 100 connecting honey hole, kneebars, calf slicers, toe holds, and\u2026",
-      "description": "Calf Slicer from Saddle (Attacker) film study: MTS episode 100 connecting honey hole, kneebars, calf slicers, toe holds, and\u2026.",
+      "name": "connecting honey hole, kneebars, calf slicers, toe holds, and\u2026",
+      "description": "Calf Slicer from Saddle (Attacker) film study: connecting honey hole, kneebars, calf slicers, toe holds, and\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Io-zglFj2q0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Io-zglFj2q0",
       "url": "https://www.youtube.com/watch?v=Io-zglFj2q0",
@@ -252,7 +252,7 @@ Attacking with the calf slicer from saddle requires understanding how the saddle
 
 ![](https://www.youtube.com/watch?v=Io-zglFj2q0)
 
-<p class="clip-credit"><strong>MTS episode 100 connecting honey hole, kneebars, calf slicers, toe holds, and…</strong> · 4:59 · <a href="https://www.youtube.com/watch?v=Io-zglFj2q0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>connecting honey hole, kneebars, calf slicers, toe holds, and…</strong> · 4:59 · <a href="https://www.youtube.com/watch?v=Io-zglFj2q0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -170,8 +170,8 @@ description: "Defend and escape the rear naked choke from back control. Recognit
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "TMG Clips #67 - Escape The RNC",
-      "description": "Rear Naked Choke from Back Control (Defender) film study: TMG Clips #67 - Escape The RNC.",
+      "name": "Escape The RNC",
+      "description": "Rear Naked Choke from Back Control (Defender) film study: Escape The RNC.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R6W9P4_SMzY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/R6W9P4_SMzY",
       "url": "https://www.youtube.com/watch?v=R6W9P4_SMzY",
@@ -226,7 +226,7 @@ The most critical window for successful defense is before the choking arm crosse
 
 ![](https://www.youtube.com/watch?v=R6W9P4_SMzY)
 
-<p class="clip-credit"><strong>TMG Clips #67 - Escape The RNC</strong> · 1:43 · <a href="https://www.youtube.com/watch?v=R6W9P4_SMzY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape The RNC</strong> · 1:43 · <a href="https://www.youtube.com/watch?v=R6W9P4_SMzY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

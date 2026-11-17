@@ -192,8 +192,8 @@ description: "Execute the Electric Chair entry from Deep Half Guard. Step-by-ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Electric Chair From Deep Half- Mineral Wells BJJ",
-      "description": "Electric Chair Entry from Deep Half (Attacker) film study: Electric Chair From Deep Half- Mineral Wells BJJ.",
+      "name": "Electric Chair From Deep Half",
+      "description": "Electric Chair Entry from Deep Half (Attacker) film study: Electric Chair From Deep Half.",
       "thumbnailUrl": "https://i.ytimg.com/vi/O18n2Z5HISI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/O18n2Z5HISI",
       "url": "https://www.youtube.com/watch?v=O18n2Z5HISI",
@@ -237,7 +237,7 @@ As the attacker executing the Electric Chair Entry from Deep Half, your objectiv
 
 ![](https://www.youtube.com/watch?v=O18n2Z5HISI)
 
-<p class="clip-credit"><strong>Electric Chair From Deep Half- Mineral Wells BJJ</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Electric Chair From Deep Half</strong> · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

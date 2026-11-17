@@ -160,8 +160,8 @@ description: "Defend against Reverse Half Guard passing in BJJ. Recognition cues
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse Half Guard Basic Escapes- Sacramento Braziliain JIu-Jitsu",
-      "description": "Pass Reverse Half (Defender) film study: Reverse Half Guard Basic Escapes- Sacramento Braziliain JIu-Jitsu.",
+      "name": "Reverse Half Guard Basic Escapes",
+      "description": "Pass Reverse Half (Defender) film study: Reverse Half Guard Basic Escapes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wZbDX4X6ZCM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wZbDX4X6ZCM",
       "url": "https://www.youtube.com/watch?v=wZbDX4X6ZCM",
@@ -205,7 +205,7 @@ As the defender against Pass Reverse Half, you are in reverse half guard bottom�
 
 ![](https://www.youtube.com/watch?v=wZbDX4X6ZCM)
 
-<p class="clip-credit"><strong>Reverse Half Guard Basic Escapes- Sacramento Braziliain JIu-Jitsu</strong> · 6:28 · <a href="https://www.youtube.com/watch?v=wZbDX4X6ZCM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse Half Guard Basic Escapes</strong> · 6:28 · <a href="https://www.youtube.com/watch?v=wZbDX4X6ZCM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

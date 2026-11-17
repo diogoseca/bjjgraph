@@ -165,8 +165,8 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "10th Planet Jiu Jitsu System 101 1/4 guard to vaporizer",
-      "description": "Vaporizer (Bottom) film study: 10th Planet Jiu Jitsu System 101 1/4 guard to vaporizer.",
+      "name": "1/4 guard to vaporizer",
+      "description": "Vaporizer (Bottom) film study: 1/4 guard to vaporizer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dLIqO90Ix7o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dLIqO90Ix7o",
       "url": "https://www.youtube.com/watch?v=dLIqO90Ix7o",
@@ -202,7 +202,7 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 ![](https://www.youtube.com/watch?v=dLIqO90Ix7o)
 
-<p class="clip-credit"><strong>10th Planet Jiu Jitsu System 101 1/4 guard to vaporizer</strong> · 1:52 · <a href="https://www.youtube.com/watch?v=dLIqO90Ix7o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>1/4 guard to vaporizer</strong> · 1:52 · <a href="https://www.youtube.com/watch?v=dLIqO90Ix7o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

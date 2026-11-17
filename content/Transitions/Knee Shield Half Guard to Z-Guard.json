@@ -534,6 +534,16 @@
         "description": "During regular rolling sessions, top player focuses on maintaining pressure that inherently denies Z-Guard transitions while executing their standard passing game. The goal is for transition prevention to become an automatic response embedded within the passing flow rather than a conscious separate action."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "BNb_ZIq6JhE",
+        "title": "Counter the Z-Guard + Knee-Shield",
+        "channel": "BTT Portland",
+        "duration": 139,
+        "vertical": true,
+        "front": true,
+        "verified": "2026-11-16"
+      }
+    ]
   }
 }

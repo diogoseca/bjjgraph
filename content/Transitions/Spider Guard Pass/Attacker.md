@@ -186,8 +186,8 @@ description: "How to execute Spider Guard Pass in BJJ. Attacking perspective wit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing the Spider Guard | Performance Martial Arts Academy | Roseburg BJJ",
-      "description": "Spider Guard Pass (Attacker) film study: Passing the Spider Guard | Performance Martial Arts Academy | Roseburg BJJ.",
+      "name": "Passing the Spider Guard",
+      "description": "Spider Guard Pass (Attacker) film study: Passing the Spider Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/18F7wxj6xqg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/18F7wxj6xqg",
       "url": "https://www.youtube.com/watch?v=18F7wxj6xqg",
@@ -221,7 +221,7 @@ The Spider Guard Pass requires the top player to systematically dismantle one of
 
 ![](https://www.youtube.com/watch?v=18F7wxj6xqg)
 
-<p class="clip-credit"><strong>Passing the Spider Guard | Performance Martial Arts Academy | Roseburg BJJ</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=18F7wxj6xqg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing the Spider Guard</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=18F7wxj6xqg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

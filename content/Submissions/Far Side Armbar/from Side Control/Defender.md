@@ -170,8 +170,8 @@ description: "How to defend against Far Side Armbar in BJJ. Recognition, escape 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The NoGi Minute: Low effort armbar escape via foot capture",
-      "description": "Far Side Armbar from Side Control (Defender) film study: The NoGi Minute: Low effort armbar escape via foot capture.",
+      "name": "Low effort armbar escape via foot capture",
+      "description": "Far Side Armbar from Side Control (Defender) film study: Low effort armbar escape via foot capture.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AfDEN3uK3W0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AfDEN3uK3W0",
       "url": "https://www.youtube.com/watch?v=AfDEN3uK3W0",
@@ -228,7 +228,7 @@ From a strategic perspective, the best defense against the far side armbar is ne
 
 ![](https://www.youtube.com/watch?v=AfDEN3uK3W0)
 
-<p class="clip-credit"><strong>The NoGi Minute: Low effort armbar escape via foot capture</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=AfDEN3uK3W0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Low effort armbar escape via foot capture</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=AfDEN3uK3W0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -186,8 +186,8 @@ description: "Complete guide to executing the Backstep from Worm Guard pass. Lea
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lapelapalooza Lapel Guard System - Back Step Pass / Back Take from Worm Guard\u2026",
-      "description": "Backstep from Worm Guard (Attacker) film study: Lapelapalooza Lapel Guard System - Back Step Pass / Back Take from Worm Guard\u2026.",
+      "name": "Lapel Guard System - Back Step Pass / Back Take from Worm Guard\u2026",
+      "description": "Backstep from Worm Guard (Attacker) film study: Lapel Guard System - Back Step Pass / Back Take from Worm Guard\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AAESEsenTuM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AAESEsenTuM?start=139",
       "url": "https://www.youtube.com/watch?v=AAESEsenTuM",
@@ -221,7 +221,7 @@ As the top player executing the backstep from worm guard, your primary objective
 
 ![](https://www.youtube.com/watch?v=AAESEsenTuM&start=139)
 
-<p class="clip-credit"><strong>Lapelapalooza Lapel Guard System - Back Step Pass / Back Take from Worm Guard…</strong> · 10:43 · <a href="https://www.youtube.com/watch?v=AAESEsenTuM&t=139s" rel="noopener">Watch on YouTube from 2:19</a></p>
+<p class="clip-credit"><strong>Lapel Guard System - Back Step Pass / Back Take from Worm Guard…</strong> · 10:43 · <a href="https://www.youtube.com/watch?v=AAESEsenTuM&t=139s" rel="noopener">Watch on YouTube from 2:19</a></p>
 
 </div>
 

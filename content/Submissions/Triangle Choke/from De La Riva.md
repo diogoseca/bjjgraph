@@ -46,8 +46,8 @@ description: "Master Triangle from De La Riva in BJJ. Complete guide with setup 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Easy De La Riva Triangle Choke #fastlanebjj #bjj #jiujitsu #jiujitsulifestyle\u2026",
-      "description": "Triangle Choke from De La Riva film study: Easy De La Riva Triangle Choke #fastlanebjj #bjj #jiujitsu #jiujitsulifestyle\u2026.",
+      "name": "Easy De La Riva Triangle Choke #bjj #jiujitsu #jiujitsulifestyle\u2026",
+      "description": "Triangle Choke from De La Riva film study: Easy De La Riva Triangle Choke #bjj #jiujitsu #jiujitsulifestyle\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0EmXVus5m8o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0EmXVus5m8o",
       "url": "https://www.youtube.com/watch?v=0EmXVus5m8o",
@@ -119,7 +119,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 ![](https://www.youtube.com/watch?v=0EmXVus5m8o)
 
-<p class="clip-credit"><strong>Easy De La Riva Triangle Choke #fastlanebjj #bjj #jiujitsu #jiujitsulifestyle…</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=0EmXVus5m8o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Easy De La Riva Triangle Choke #bjj #jiujitsu #jiujitsulifestyle…</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=0EmXVus5m8o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

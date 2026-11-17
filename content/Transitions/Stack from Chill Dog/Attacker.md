@@ -190,8 +190,8 @@ description: "Stack from Chill Dog (attacker): Keep the free hand available for 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Why left the 10th Planet system",
-      "description": "Stack from Chill Dog (Attacker) film study: Why left the 10th Planet system.",
+      "name": "Why the London left the system",
+      "description": "Stack from Chill Dog (Attacker) film study: Why the London left the system.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kaVklKMW3aw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kaVklKMW3aw",
       "url": "https://www.youtube.com/watch?v=kaVklKMW3aw",
@@ -241,7 +241,7 @@ The safe passing checkpoint is a free shoulder and inside arm position, with hip
 
 ![](https://www.youtube.com/watch?v=kaVklKMW3aw)
 
-<p class="clip-credit"><strong>Why left the 10th Planet system</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=kaVklKMW3aw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Why the London left the system</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=kaVklKMW3aw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

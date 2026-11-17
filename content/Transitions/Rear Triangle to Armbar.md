@@ -36,6 +36,27 @@ description: "Master the Rear Triangle to Armbar transition in BJJ. Convert back
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle to Armbar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Tri-Bar ArmBar From Rear Triangle",
+      "description": "Rear Triangle to Armbar film study: Tri-Bar ArmBar From Rear Triangle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/47YDP98Ostc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/47YDP98Ostc",
+      "url": "https://www.youtube.com/watch?v=47YDP98Ostc",
+      "duration": "PT156S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this transition serves as a cornerstone of the rear triangle atta
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle to Armbar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=47YDP98Ostc)
+
+<p class="clip-credit"><strong>Tri-Bar ArmBar From Rear Triangle</strong> · 2:36 · <a href="https://www.youtube.com/watch?v=47YDP98Ostc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

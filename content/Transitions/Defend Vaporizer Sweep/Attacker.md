@@ -186,8 +186,8 @@ description: "Learn to defend Vaporizer sweeps from top position. Step-by-step g
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Nullify the Vaporizer - Houston BJJ Team",
-      "description": "Defend Vaporizer Sweep (Attacker) film study: Nullify the Vaporizer - Houston BJJ Team.",
+      "name": "Nullify the Vaporizer",
+      "description": "Defend Vaporizer Sweep (Attacker) film study: Nullify the Vaporizer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0urKvFXZ4FU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0urKvFXZ4FU",
       "url": "https://www.youtube.com/watch?v=0urKvFXZ4FU",
@@ -221,7 +221,7 @@ The Defend Vaporizer Sweep attacker is the top player caught in the Vaporizer po
 
 ![](https://www.youtube.com/watch?v=0urKvFXZ4FU)
 
-<p class="clip-credit"><strong>Nullify the Vaporizer - Houston BJJ Team</strong> · 12:04 · <a href="https://www.youtube.com/watch?v=0urKvFXZ4FU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Nullify the Vaporizer</strong> · 12:04 · <a href="https://www.youtube.com/watch?v=0urKvFXZ4FU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -56,8 +56,8 @@ description: "Master the Ten Finger Guillotine from Guillotine Control in BJJ. S
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to Do a 10-Finger Guillotine | MMA Submissions",
-      "description": "Ten Finger Guillotine from Guillotine Control film study: How to Do a 10-Finger Guillotine | MMA Submissions.",
+      "name": "How to Do a 10-Finger Guillotine",
+      "description": "Ten Finger Guillotine from Guillotine Control film study: How to Do a 10-Finger Guillotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tsofKYcYqaA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tsofKYcYqaA",
       "url": "https://www.youtube.com/watch?v=tsofKYcYqaA",
@@ -131,7 +131,7 @@ Strategically, this submission chains naturally with the broader guillotine cont
 
 ![](https://www.youtube.com/watch?v=tsofKYcYqaA)
 
-<p class="clip-credit"><strong>How to Do a 10-Finger Guillotine | MMA Submissions</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=tsofKYcYqaA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Do a 10-Finger Guillotine</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=tsofKYcYqaA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

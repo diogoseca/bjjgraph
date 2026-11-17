@@ -66,8 +66,8 @@ description: "Master the calf slicer from Honey Hole position in BJJ. Complete g
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Ham Sandwich to Honeyhole #10thplanethendersonnc #leglocks #calfslicer\u2026",
-      "description": "Calf Slicer from Honey Hole film study: Ham Sandwich to Honeyhole #10thplanethendersonnc #leglocks #calfslicer\u2026.",
+      "name": "Ham Sandwich to Honeyhole #leglocks #calfslicer\u2026",
+      "description": "Calf Slicer from Honey Hole film study: Ham Sandwich to Honeyhole #leglocks #calfslicer\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4hjnzSE-VgY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4hjnzSE-VgY",
       "url": "https://www.youtube.com/watch?v=4hjnzSE-VgY",
@@ -149,7 +149,7 @@ Strategically, the calf slicer adds a compression dimension to the rotational at
 
 ![](https://www.youtube.com/watch?v=4hjnzSE-VgY)
 
-<p class="clip-credit"><strong>Ham Sandwich to Honeyhole #10thplanethendersonnc #leglocks #calfslicer…</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=4hjnzSE-VgY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ham Sandwich to Honeyhole #leglocks #calfslicer…</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=4hjnzSE-VgY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

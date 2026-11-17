@@ -168,8 +168,8 @@ description: "Defend and survive the body triangle squeeze submission in BJJ. Re
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "TMG Clips #78 - Escaping The Body Triangle",
-      "description": "Body Triangle Squeeze (Defender) film study: TMG Clips #78 - Escaping The Body Triangle.",
+      "name": "Escaping The Body Triangle",
+      "description": "Body Triangle Squeeze (Defender) film study: Escaping The Body Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hgaULMND3ag/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hgaULMND3ag",
       "url": "https://www.youtube.com/watch?v=hgaULMND3ag",
@@ -215,7 +215,7 @@ Unlike defending a choke where the threat is binary, defending the squeeze requi
 
 ![](https://www.youtube.com/watch?v=hgaULMND3ag)
 
-<p class="clip-credit"><strong>TMG Clips #78 - Escaping The Body Triangle</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping The Body Triangle</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

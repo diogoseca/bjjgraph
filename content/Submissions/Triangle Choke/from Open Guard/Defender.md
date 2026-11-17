@@ -160,8 +160,8 @@ description: "Defend and escape the Triangle Choke from Open Guard. Recognition 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle Escape To Side Control With BJJ Champion!",
-      "description": "Triangle Choke from Open Guard (Defender) film study: Triangle Escape To Side Control With BJJ Champion!.",
+      "name": "Triangle Escape To Side Control",
+      "description": "Triangle Choke from Open Guard (Defender) film study: Triangle Escape To Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XE7KCUjLpqg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XE7KCUjLpqg",
       "url": "https://www.youtube.com/watch?v=XE7KCUjLpqg",
@@ -216,7 +216,7 @@ Defending the Triangle from Open Guard requires early recognition of the setup c
 
 ![](https://www.youtube.com/watch?v=XE7KCUjLpqg)
 
-<p class="clip-credit"><strong>Triangle Escape To Side Control With BJJ Champion!</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=XE7KCUjLpqg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle Escape To Side Control</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=XE7KCUjLpqg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

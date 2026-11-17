@@ -175,8 +175,8 @@ description: "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep",
-      "description": "Reverse X-Guard (Bottom) film study: Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep.",
+      "name": "Half-guard to reverse x guard saddle sweep",
+      "description": "Reverse X-Guard (Bottom) film study: Half-guard to reverse x guard saddle sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/V81JTcD_fTU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/V81JTcD_fTU",
       "url": "https://www.youtube.com/watch?v=V81JTcD_fTU",
@@ -220,7 +220,7 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 ![](https://www.youtube.com/watch?v=V81JTcD_fTU)
 
-<p class="clip-credit"><strong>Gracie Barra Jupiter- Half-guard to reverse x guard saddle sweep</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=V81JTcD_fTU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half-guard to reverse x guard saddle sweep</strong> · 2:21 · <a href="https://www.youtube.com/watch?v=V81JTcD_fTU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

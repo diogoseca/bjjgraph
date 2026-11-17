@@ -168,8 +168,8 @@ description: "How to defend against Knee Tap in BJJ. Recognition cues, defensive
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Legion Wrestling Academy - Walk Around Opponent Knee Tap Block",
-      "description": "Knee Tap (Defender) film study: Legion Wrestling Academy - Walk Around Opponent Knee Tap Block.",
+      "name": "Walk Around Opponent Knee Tap Block",
+      "description": "Knee Tap (Defender) film study: Walk Around Opponent Knee Tap Block.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JCdgOoRG4F0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JCdgOoRG4F0",
       "url": "https://www.youtube.com/watch?v=JCdgOoRG4F0",
@@ -203,7 +203,7 @@ Defending the knee tap requires understanding the attacker's mechanical objectiv
 
 ![](https://www.youtube.com/watch?v=JCdgOoRG4F0)
 
-<p class="clip-credit"><strong>Legion Wrestling Academy - Walk Around Opponent Knee Tap Block</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=JCdgOoRG4F0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Walk Around Opponent Knee Tap Block</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=JCdgOoRG4F0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

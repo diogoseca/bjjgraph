@@ -715,6 +715,22 @@
         "duration": 117,
         "vertical": false
       }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Stack pass through the triangle",
+        "clips": [
+          {
+            "id": "86HW-HEhWas",
+            "title": "Triangle stack escape",
+            "channel": "Carnage BJJ",
+            "duration": 124,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-17"
+          }
+        ]
+      }
     ]
   },
   "variations_and_setups": [

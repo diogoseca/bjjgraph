@@ -165,8 +165,8 @@ description: "Master defensive strategies from Crucifix Bottom in BJJ. Complete 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "TMG Clips #143 - Simple Crucifix Escape",
-      "description": "Crucifix (Bottom) film study: TMG Clips #143 - Simple Crucifix Escape.",
+      "name": "Simple Crucifix Escape",
+      "description": "Crucifix (Bottom) film study: Simple Crucifix Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Wrg5Tx-88yM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Wrg5Tx-88yM",
       "url": "https://www.youtube.com/watch?v=Wrg5Tx-88yM",
@@ -202,7 +202,7 @@ Survival from this position requires immediate recognition, calm systematic defe
 
 ![](https://www.youtube.com/watch?v=Wrg5Tx-88yM)
 
-<p class="clip-credit"><strong>TMG Clips #143 - Simple Crucifix Escape</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=Wrg5Tx-88yM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple Crucifix Escape</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=Wrg5Tx-88yM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

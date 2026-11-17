@@ -56,8 +56,8 @@ description: "Master Backside 50-50 in BJJ. Strategic guide covering leg entangl
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Backside 50/50 From Knee on Belly (Try it out Tuesday)",
-      "description": "Backside 50-50 film study: Backside 50/50 From Knee on Belly (Try it out Tuesday).",
+      "name": "Backside 50/50 From Knee on Belly",
+      "description": "Backside 50-50 film study: Backside 50/50 From Knee on Belly.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LTPdSfUqeFc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LTPdSfUqeFc",
       "url": "https://www.youtube.com/watch?v=LTPdSfUqeFc",
@@ -122,7 +122,7 @@ Entries can develop during 50-50 or other leg-entanglement exchanges when the op
 
 ![](https://www.youtube.com/watch?v=LTPdSfUqeFc)
 
-<p class="clip-credit"><strong>Backside 50/50 From Knee on Belly (Try it out Tuesday)</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=LTPdSfUqeFc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Backside 50/50 From Knee on Belly</strong> · 0:19 · <a href="https://www.youtube.com/watch?v=LTPdSfUqeFc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

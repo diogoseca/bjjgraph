@@ -447,7 +447,7 @@
     "clips": [
       {
         "id": "-8A6PGIp-P4",
-        "title": "Omoplata | De La Riva Fundamentals | Roseburg BJJ",
+        "title": "Omoplata | De La Riva Fundamentals",
         "channel": "Performance Martial Arts Academy",
         "duration": 116,
         "front": true
@@ -461,7 +461,7 @@
       },
       {
         "id": "akGJ-RfjkAg",
-        "title": "Omoplata from De La Riva Guard | Pt. 1 | Jits Magazine | BJJ…",
+        "title": "Omoplata from De La Riva Guard | Pt. 1 | BJJ…",
         "channel": "JitsMagazine",
         "duration": 164
       },
@@ -681,6 +681,22 @@
         "channel": "Ursinho BJJ",
         "duration": 160,
         "vertical": false
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Forward roll escape",
+        "clips": [
+          {
+            "id": "Qoh8cXdCIlU",
+            "title": "Omoplata escape forward roll to side control!",
+            "channel": "Adriano",
+            "duration": 21,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-17"
+          }
+        ]
       }
     ]
   }

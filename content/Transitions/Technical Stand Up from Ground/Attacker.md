@@ -196,8 +196,8 @@ description: "Learn to execute the Technical Stand Up from Ground. Step-by-step 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Technical Stand Up | Jiu Jitsu Movement Library",
-      "description": "Technical Stand Up from Ground (Attacker) film study: Technical Stand Up | Jiu Jitsu Movement Library.",
+      "name": "Technical Stand Up",
+      "description": "Technical Stand Up from Ground (Attacker) film study: Technical Stand Up.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bRMQRElVLho/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bRMQRElVLho",
       "url": "https://www.youtube.com/watch?v=bRMQRElVLho",
@@ -239,7 +239,7 @@ From the attacker's perspective, the Technical Stand Up from Ground requires pre
 
 ![](https://www.youtube.com/watch?v=bRMQRElVLho)
 
-<p class="clip-credit"><strong>Technical Stand Up | Jiu Jitsu Movement Library</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=bRMQRElVLho" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technical Stand Up</strong> · 1:48 · <a href="https://www.youtube.com/watch?v=bRMQRElVLho" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

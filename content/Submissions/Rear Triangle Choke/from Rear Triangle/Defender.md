@@ -158,6 +158,27 @@ description: "Essential defensive guide against the rear triangle choke finish. 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle Choke from Rear Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back/Rear Triangle Defense",
+      "description": "Rear Triangle Choke from Rear Triangle (Defender) film study: Back/Rear Triangle Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CzylaB3poIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CzylaB3poIo",
+      "url": "https://www.youtube.com/watch?v=CzylaB3poIo",
+      "duration": "PT174S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -171,6 +192,24 @@ Defending the rear triangle choke from the rear triangle position demands immedi
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle Choke from Rear Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CzylaB3poIo)
+
+<p class="clip-credit"><strong>Back/Rear Triangle Defense</strong> · 2:54 · <a href="https://www.youtube.com/watch?v=CzylaB3poIo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

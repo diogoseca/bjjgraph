@@ -186,8 +186,8 @@ description: "How to execute Lapel Triangle Setup in BJJ. Attacking perspective 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Triangle using lapel ~ South Island Bjj ~ instructional",
-      "description": "Lapel Triangle Setup (Attacker) film study: Triangle using lapel ~ South Island Bjj ~ instructional.",
+      "name": "Triangle using lapel ~ instructional",
+      "description": "Lapel Triangle Setup (Attacker) film study: Triangle using lapel ~ instructional.",
       "thumbnailUrl": "https://i.ytimg.com/vi/oClbb67K0zE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oClbb67K0zE",
       "url": "https://www.youtube.com/watch?v=oClbb67K0zE",
@@ -235,7 +235,7 @@ Strategically, this setup creates a powerful dilemma system. Opponents who postu
 
 ![](https://www.youtube.com/watch?v=oClbb67K0zE)
 
-<p class="clip-credit"><strong>Triangle using lapel ~ South Island Bjj ~ instructional</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=oClbb67K0zE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle using lapel ~ instructional</strong> · 0:56 · <a href="https://www.youtube.com/watch?v=oClbb67K0zE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

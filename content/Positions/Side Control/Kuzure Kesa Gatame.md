@@ -67,8 +67,8 @@ description: "Master modified scarf hold in BJJ. Strategic guide covering contro
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing",
-      "description": "Kuzure Kesa Gatame film study: Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing.",
+      "name": "Kesa Gatame Pressure Defense Using Proper Framing",
+      "description": "Kuzure Kesa Gatame film study: Kesa Gatame Pressure Defense Using Proper Framing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
       "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
@@ -156,7 +156,7 @@ The strategic importance of Kuzure Kesa Gatame in modern BJJ cannot be overstate
 
 ![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
 
-<p class="clip-credit"><strong>Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense Using Proper Framing</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

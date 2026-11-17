@@ -46,8 +46,8 @@ description: "Master the Rear Naked Choke from Seat Belt Control Back. Complete 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "TMG Clips #9 - RNC Details From Seatbelt",
-      "description": "Rear Naked Choke from Seat Belt Control Back film study: TMG Clips #9 - RNC Details From Seatbelt.",
+      "name": "RNC Details From Seatbelt",
+      "description": "Rear Naked Choke from Seat Belt Control Back film study: RNC Details From Seatbelt.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3H5ZyHEHfpI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3H5ZyHEHfpI",
       "url": "https://www.youtube.com/watch?v=3H5ZyHEHfpI",
@@ -123,7 +123,7 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 
 ![](https://www.youtube.com/watch?v=3H5ZyHEHfpI)
 
-<p class="clip-credit"><strong>TMG Clips #9 - RNC Details From Seatbelt</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=3H5ZyHEHfpI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>RNC Details From Seatbelt</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=3H5ZyHEHfpI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

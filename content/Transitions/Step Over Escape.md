@@ -36,6 +36,27 @@ description: "Master the Step Over Escape from Darce Control in BJJ. Leg-over te
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Step Over Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Step Over Darce Choke Escape (week 5)",
+      "description": "Step Over Escape film study: Step Over Darce Choke Escape (week 5).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fan5vBze4Lg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fan5vBze4Lg",
+      "url": "https://www.youtube.com/watch?v=Fan5vBze4Lg",
+      "duration": "PT292S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Step Over Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fan5vBze4Lg)
+
+<p class="clip-credit"><strong>Step Over Darce Choke Escape (week 5)</strong> · 4:52 · <a href="https://www.youtube.com/watch?v=Fan5vBze4Lg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

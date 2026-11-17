@@ -46,8 +46,8 @@ description: "Learn the leg extraction escape from Inside Ashi-Garami in BJJ. St
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping Ashi Garami- Leg Lock Defense. 10th Planet Richmond",
-      "description": "Leg Extraction from Inside Ashi film study: Escaping Ashi Garami- Leg Lock Defense. 10th Planet Richmond.",
+      "name": "Escaping Ashi Garami- Leg Lock Defense.",
+      "description": "Leg Extraction from Inside Ashi film study: Escaping Ashi Garami- Leg Lock Defense..",
       "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
       "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
@@ -107,7 +107,7 @@ Strategically, leg extraction occupies a critical role in the defensive leg lock
 
 ![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
 
-<p class="clip-credit"><strong>Escaping Ashi Garami- Leg Lock Defense. 10th Planet Richmond</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Ashi Garami- Leg Lock Defense.</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

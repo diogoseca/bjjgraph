@@ -46,8 +46,8 @@ description: "Master the Lasso Guard Backstep Pass in BJJ. Learn rotational pass
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Back Step vs Lasso Guard | AFDLR",
-      "description": "Lasso Guard Backstep Pass film study: Back Step vs Lasso Guard | AFDLR.",
+      "name": "Back Step vs Lasso Guard",
+      "description": "Lasso Guard Backstep Pass film study: Back Step vs Lasso Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5cHvD1SdzOY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5cHvD1SdzOY",
       "url": "https://www.youtube.com/watch?v=5cHvD1SdzOY",
@@ -117,7 +117,7 @@ The backstep integrates effectively into a multi-directional lasso guard passing
 
 ![](https://www.youtube.com/watch?v=5cHvD1SdzOY)
 
-<p class="clip-credit"><strong>Back Step vs Lasso Guard | AFDLR</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=5cHvD1SdzOY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Step vs Lasso Guard</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=5cHvD1SdzOY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

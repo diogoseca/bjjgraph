@@ -46,8 +46,8 @@ description: "Master the Knee Slide from Combat Base in BJJ. High-percentage gua
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee Slice Guard Pass from Combat Base @5thelementbjjmma503",
-      "description": "Knee Slide from Combat Base film study: Knee Slice Guard Pass from Combat Base @5thelementbjjmma503.",
+      "name": "Knee Slice Guard Pass from Combat Base",
+      "description": "Knee Slide from Combat Base film study: Knee Slice Guard Pass from Combat Base.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yPxcNpuyr0w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yPxcNpuyr0w",
       "url": "https://www.youtube.com/watch?v=yPxcNpuyr0w",
@@ -107,7 +107,7 @@ The knee slide integrates seamlessly into broader passing systems. When opponent
 
 ![](https://www.youtube.com/watch?v=yPxcNpuyr0w)
 
-<p class="clip-credit"><strong>Knee Slice Guard Pass from Combat Base @5thelementbjjmma503</strong> · 2:23 · <a href="https://www.youtube.com/watch?v=yPxcNpuyr0w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Slice Guard Pass from Combat Base</strong> · 2:23 · <a href="https://www.youtube.com/watch?v=yPxcNpuyr0w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

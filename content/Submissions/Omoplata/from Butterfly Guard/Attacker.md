@@ -200,8 +200,8 @@ description: "Execute the Omoplata from Butterfly Guard with hook elevation setu
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "TMG Clips #80 - Omoplata Details!",
-      "description": "Omoplata from Butterfly Guard (Attacker) film study: TMG Clips #80 - Omoplata Details!.",
+      "name": "Omoplata Details!",
+      "description": "Omoplata from Butterfly Guard (Attacker) film study: Omoplata Details!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zjhkmmfU1gg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zjhkmmfU1gg",
       "url": "https://www.youtube.com/watch?v=zjhkmmfU1gg",
@@ -252,7 +252,7 @@ Attacking the Omoplata from Butterfly Guard requires mastery of the transition f
 
 ![](https://www.youtube.com/watch?v=zjhkmmfU1gg)
 
-<p class="clip-credit"><strong>TMG Clips #80 - Omoplata Details!</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=zjhkmmfU1gg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata Details!</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=zjhkmmfU1gg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

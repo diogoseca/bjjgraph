@@ -367,7 +367,17 @@
       }
     ],
     "safety_considerations": "The back door escape is generally low-risk for joint injuries since it does not involve submission mechanics or extreme joint manipulation. The primary safety concern is cervical spine protection during the turning motion. Maintain chin tucked firmly to chest throughout to prevent awkward neck positioning if opponent applies crossface pressure during the turn. Avoid explosive attempts if you have existing neck or shoulder injuries that could be aggravated by rapid rotation under load. In training, partners should allow the escape at reduced speed until the escaper has developed sufficient technique and speed to protect their back during the full-speed transition.",
-    "clips": []
+    "clips": [
+      {
+        "id": "lUi03XC7lBY",
+        "title": "Half Guard Back Door Escape",
+        "channel": "James Noto",
+        "duration": 58,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-16"
+      }
+    ]
   },
   "defender": {
     "name": "Back Door Escape from Half Guard Defender",

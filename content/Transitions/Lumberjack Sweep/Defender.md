@@ -150,6 +150,27 @@ description: "How to defend against Lumberjack Sweep in BJJ. Recognition cues, d
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lumberjack Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defensive Options vs. the Lumberjack Sweep | Gi Class",
+      "description": "Lumberjack Sweep (Defender) film study: Defensive Options vs. the Lumberjack Sweep | Gi Class.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R86onRIUcyg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R86onRIUcyg",
+      "url": "https://www.youtube.com/watch?v=R86onRIUcyg",
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the Lumberjack Sweep requires the top player to recognize the setup ea
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lumberjack Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R86onRIUcyg)
+
+<p class="clip-credit"><strong>Defensive Options vs. the Lumberjack Sweep | Gi Class</strong> · 2:39 · <a href="https://www.youtube.com/watch?v=R86onRIUcyg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">
