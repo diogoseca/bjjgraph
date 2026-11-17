@@ -112,6 +112,18 @@ const NG_CHALLENGE_UI_METHODS = {
     return ngBeltRank(id) >= 0;
   },
 
+  // A BELT TEST THAT CAN BE STARTED IS NEVER BEHIND "SHOW EARLIER BELTS" (PATH-R1, ruling 3; the reader of #430 finding 3).
+  // A capstone is startable when every unit of its belt is complete, which is the very thing that moves `wornBelt()` past
+  // that belt, so with the corridor drawing earlier belts behind the reveal, every startable test lived there, at the foot
+  // of the page. Startable = the curriculum's belt has a test, it is not won, and every unit is complete (the capstone
+  // row's own `ready && !won`, `challengeCurriculumElement`).
+  _beltTestStartable(id) {
+    const belt = this.curriculum && this.curriculum.belts.find((item) => item.id === id);
+    if (!belt || !belt.test) return false;
+    if (this.belts && this.belts.won && this.belts.won[id]) return false;
+    return belt.units.every((unit) => this.unitComplete(id, unit));
+  },
+
   _repaintBeltCorridor() {
     if (this._session?.practice && this._sessionInline()) this._practiceCorridor();
     else this.renderExplorer();
@@ -232,8 +244,11 @@ const NG_CHALLENGE_UI_METHODS = {
     // THE PATH'S DOOR (v1.284.0, SET1 slice B): "challenges" opens Master the game, where the corridor lives
     // (`setViewMode` → `openCorridor`), and must not be followed by `openExplorer`, whose `openPane` would leave the
     // session it just opened. View Collection (O1) comes through here.
+    // "collection" is the corridor's rewards shelf (O3; PATH-R1 5a, the reader of #430 nit a: it fell through to
+    // `openExplorer` and landed on the drawer's list): Master the game with the shelf open, as View Collection does
+    if (view === "collection") this._scrollRewardsShelf = true;
     this.setViewMode(view);
-    if (view !== "challenges") this.openExplorer(); // openPane renders the active view's body (and hides any in-pane dossier)
+    if (view !== "challenges" && view !== "collection") this.openExplorer(); // openPane renders the active view's body (and hides any in-pane dossier)
   },
 
   // WHAT AN OBJECTIVE'S ACTION OPENS (v1.284.0, SET1 slice B). One resolver, read by the row (is there anything to press?) and
@@ -462,11 +477,10 @@ const NG_CHALLENGE_UI_METHODS = {
         toggle.type = "button";
         toggle.className = "ng-lesson-decktoggle";
         toggle.setAttribute("data-lesson-deck-toggle", lesson.deckKey);
-        toggle.setAttribute("aria-expanded", "false");
-        toggle.setAttribute(
-          "aria-label",
-          "Show this lesson's cards inline",
-        );
+        // it says what it does (PATH-R1 5b; the reader of #430 nit b): nothing expands here since the Path's inline deck left
+        // (v1.284.0), so no `aria-expanded`; the press opens the lesson's cards as the session's first row, at the top of
+        // Master the game, in the app's own verb ("Study the curriculum")
+        toggle.setAttribute("aria-label", "Study this lesson's cards");
         toggle.innerHTML = '<span aria-hidden="true">▸</span>';
         toggle.addEventListener("click", open);
         lessonRow.appendChild(toggle);
@@ -561,9 +575,12 @@ const NG_CHALLENGE_UI_METHODS = {
       ladder.setAttribute("aria-label", "Belt corridor");
       const earlier = document.createElement("div");
       const rank = this.wornBelt().rank;
+      // an earlier belt whose test can be started is drawn in the first draw, in belt order (`_beltTestStartable`); a won
+      // one stays behind the reveal, as every other earlier belt does
+      const behind = (index) => index < rank && !this._beltTestStartable(NG_CHALLENGE_TRACKS[index].id);
       for (let index = 0; index < NG_CHALLENGE_TRACKS.length; index += 1) {
         const track = NG_CHALLENGE_TRACKS[index];
-        if (index < rank && !this._session.earlier) continue;
+        if (behind(index) && !this._session.earlier) continue;
         const unlocked = this.beltUnlocked(track.id);
         const color = NG_CHALLENGE_TRACK_COLORS[track.id];
         const summary = this.challengeTrackProgress(track.id);
@@ -695,13 +712,13 @@ const NG_CHALLENGE_UI_METHODS = {
         curriculum.style.setProperty("--ng-track", color);
         body.appendChild(curriculum);
         beltSection.appendChild(body);
-        (index < rank ? earlier : ladder).appendChild(beltSection);
+        (behind(index) ? earlier : ladder).appendChild(beltSection);
       }
       list.appendChild(ladder);
       const shelf = this.renderRewardsShelf();
       if (shelf) list.appendChild(shelf); // null until something is earned (v1.99.1)
       list.appendChild(this._session.support);
-      if (rank > 0) {
+      if (NG_CHALLENGE_TRACKS.some((t, index) => behind(index))) {
         const reveal = document.createElement("button");
         reveal.type = "button"; reveal.className = "ng-earlier-belts";
         reveal.setAttribute("data-earlier-belts", "1");
@@ -774,7 +791,14 @@ const NG_CHALLENGE_UI_METHODS = {
       coins + " mat coin" + (coins === 1 ? "" : "s") +
       "</b><em>Patches mark milestones. Mat Coins are just for laughs. They do not buy anything.</em>";
     shelf.appendChild(summary);
+    // A VISIT IS AN OPENING THE PLAYER CAN SEE (PATH-R1, ruling 1, the reader of #430 finding 1). `toggle` is ASYNC: a shelf
+    // drawn open fires it a task later, by which time a warm plan's re-render (`openPlanSession` → `_afterPress(adopt)` →
+    // `renderSession`) had already drawn the next shelf from a flag nobody had set yet: closed, while the stale one's late
+    // toggle set the flag and counted a visit nobody saw. So the door's opening sets the flag and counts in the SAME turn
+    // (below, where View Collection's request is read), and a toggle counts only a closed-to-open change of the shelf on the
+    // page: a detached one writes and counts nothing.
     shelf.addEventListener("toggle", () => {
+      if (!shelf.isConnected) return;
       const was = !!(s && s.shelfOpen);
       if (s) s.shelfOpen = shelf.open;
       if (shelf.open && !was) {
@@ -816,6 +840,8 @@ const NG_CHALLENGE_UI_METHODS = {
     if (this._scrollRewardsShelf) {
       this._scrollRewardsShelf = false;
       if (s) {
+        // the door's opening, counted once, in the turn it opens the shelf (ruling 1 above): every later draw reads it open
+        if (!s.shelfOpen) { s.shelfOpen = true; this.track("neural_collection_opened", { patches: patches, coins: coins }); }
         s.shelfScroll = true;
         const host = this.drillListRef && this.drillListRef.current;
         if (host) for (const t of ["wheel", "touchstart", "pointerdown", "keydown"]) host.addEventListener(t, () => { s.shelfScroll = false; }, { once: true, passive: true });

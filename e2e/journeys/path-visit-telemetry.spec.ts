@@ -84,3 +84,36 @@ for (const stored of [false, true]) test(`Master the game's corridor telemetry: 
   await j.openCorridor({ allBelts: false })
   expect(await counts(page), "the next real visit emits a second beat").toEqual({ beats: 2, events: 0 })
 })
+
+// RULING 2 (PATH-R1, the independent read of #430, finding 2): `neural_practice_opened` with surface "practice" stays what it
+// was, a deliberate opening of Master the game by its own row (or badge). A corridor door (`openCorridor`: View Collection,
+// an objective's action, `setViewMode`, `openLearningView`, `openPane("challenges")`) sends it with surface "corridor", so
+// the series can still be read apart; already open, a corridor door sends nothing. View Collection from the map is pressed
+// by mouse, then the row's own press.
+// Mutant: the corridor's surface collapsed to "practice" → red at "View Collection from the map: one opening, its surface".
+test("neural_practice_opened: a corridor door sends surface \"corridor\", Master the game's own row \"practice\"", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/", {
+    keepTutorial: true,
+    beforeNavigate: async page => {
+      await page.addInitScript(() => {
+        const queue: any = (window as any).posthog = []
+        queue.capture = (...args: any[]) => queue.push(["capture", ...args])
+      })
+    },
+  })
+  const opened = () => page.evaluate(() => [...(window as any).posthog]
+    .filter((call: any) => call[0] === "capture" && call[1] === "neural_practice_opened").map((call: any) => call[2] && call[2].surface))
+  expect(await opened(), "premise: nothing opened at boot").toEqual([])
+  // three escapes mint the Houdini coin, whose card carries View Collection (the Mat Coin journey's way, challenges-ui)
+  await page.evaluate(() => { const a = (window as any).__neural; for (let i = 0; i < 3; i++) a.fx("escape", { via: "Elbow Escape" }) })
+  const reward = page.locator(".ng-challenge-reward[data-reward='coin']")
+  await expect(reward).toContainText("MAT COIN MINTED")
+  await j.clickByMouse(".ng-challenge-reward[data-reward='coin'] [data-reward-collection]", "View Collection")
+  await expect(page.locator("[data-practice-page]"), "View Collection opens Master the game").toHaveCount(1)
+  expect(await opened(), "View Collection from the map: one opening, its surface corridor").toEqual(["corridor"])
+  await j.clickByMouse(".ng-drawer-brand", "back to the drawer's list")
+  await expect(page.locator("[data-drawer-explore]")).toBeVisible()
+  await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Master the game's own row")
+  await expect.poll(opened, { message: "the row's own press is a \"practice\" opening, as before" }).toEqual(["corridor", "practice"])
+})

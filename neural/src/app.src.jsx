@@ -3548,7 +3548,7 @@ class Component extends DCLogic {
         (countText ? '<span style="flex:none;margin-top:3px;font-size:11px;font-weight:700;color:#7ee0a8;letter-spacing:.02em;">' + countText + '</span>' : '') +
       '</div>' +
       (sub ? '<div style="font-size:11.5px;color:#93a0bd;margin-top:7px;line-height:1.45;">' + sub + '</div>' : '');
-    head.querySelector(".ngBack").addEventListener("click", () => this._exitStudyTo(this._paneReturnTab)); // ‹ Back returns to the tab the study came from
+    head.querySelector(".ngBack").addEventListener("click", () => this._paneBack()); // ‹ Back returns to the tab the study came from (`_paneBack`)
     { const b = head.querySelector(".ngBack"); if (b) { b.addEventListener("mouseenter", () => { b.style.background = "rgba(255,255,255,.09)"; b.style.color = "#eef1f6"; }); b.addEventListener("mouseleave", () => { b.style.background = "rgba(255,255,255,.05)"; b.style.color = "#aeb9d2"; }); } }
   }
   updateDrillCount() {
@@ -3782,6 +3782,33 @@ class Component extends DCLogic {
     else this.renderExplorer();
   }
   // exit an active study surface back to tabs mode on the given (or remembered) tab
+  // ‹ BACK FROM A CHECKPOINT STARTED IN MASTER THE GAME'S CORRIDOR RETURNS THERE (PATH-R1, ruling 4; the reader of #430
+  // finding 4). The Path's quiz came back to the Path; a quiz started in Master the game ran `_exitStudyTo` with the tab
+  // remembered when Master the game itself opened ("explore"), which ended the session and landed on the drawer's list. Now
+  // the quiz is abandoned as any Back abandons it, the session stays, Master the game is drawn again, and the unit's
+  // checkpoint row is brought into view and held there until the player moves the page (the first card's own scroll yields,
+  // `_scrollFocusedDeck`, as it does for View Collection's shelf). A belt test has no Back: it plays on the map. A FINISHED
+  // quiz closes the drawer as before.
+  _paneBack() {
+    const cp = this._checkpoint, s = this._session;
+    if (cp && cp.fromPractice && s && s.practice) {
+      this._cancelCheckpoint();
+      this.revealed = false; this._drillView = "home";
+      s.backTo = cp.uk;
+      const host = this.drillListRef && this.drillListRef.current;
+      if (host) for (const t of ["wheel", "touchstart", "pointerdown", "keydown"]) host.addEventListener(t, () => { s.backTo = null; }, { once: true, passive: true });
+      this.renderSession();
+      this._layoutPane(); this._paintDrawerHead();
+      const bring = () => {
+        if (this._session !== s || !s.backTo) return;
+        const row = this.drillListRef.current && this.drillListRef.current.querySelector('[data-checkpoint="' + CSS.escape(s.backTo) + '"]');
+        if (row) row.scrollIntoView({ block: "center" });
+      };
+      requestAnimationFrame(() => { bring(); requestAnimationFrame(bring); });
+      return;
+    }
+    this._exitStudyTo(this._paneReturnTab);
+  }
   _exitStudyTo(view) {
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // leaving the card view cancels the pending advance
     if (this._checkpoint) this._cancelCheckpoint();
@@ -4483,7 +4510,7 @@ class Component extends DCLogic {
     requestAnimationFrame(() => {
       // View Collection's scroll to the rewards shelf holds the page until the player moves it (v1.284.0, `renderRewardsShelf`):
       // Master the game opening its first card must not scroll the player back up past the shelf they asked to see
-      if (this._session?.shelfScroll) return;
+      if (this._session?.shelfScroll || this._session?.backTo) return;   // ...and ‹ Back's checkpoint row (PATH-R1, ruling 4, `_paneBack`)
       const list = scroller || this.drillListRef.current; if (!list) return;
       let deck = deckEl || (this._openMini && this._openMini.el);
       if (!deck || !deck.isConnected || deck.style.display === "none") {
@@ -6429,7 +6456,11 @@ class Component extends DCLogic {
   openCorridor() {
     if (this.deckShown && this._practiceInDrawer()) { this._practiceCorridor(); return; }
     if (this._paneStudyActive()) this._exitStudyTo("explore");
-    this.openPlanSession("due");
+    // ITS OWN SURFACE (PATH-R1, ruling 2, the reader of #430 finding 2): `neural_practice_opened` with surface "practice"
+    // stays what it was, a deliberate opening by Master the game's own row or badge. A corridor door (View Collection, an
+    // objective's action, `setViewMode`, `openLearningView`, `openPane("challenges")`) opens it with surface "corridor";
+    // already open (above), a corridor door opens nothing and sends nothing.
+    this.openPlanSession("due", undefined, "corridor");
   }
   openDueSession() {
     if (!this.dueCount()) { this.openFlashBrowser("due", "Due Today"); return; }
@@ -6447,7 +6478,7 @@ class Component extends DCLogic {
    * Maintenance first is not a layout preference: reviews are the debt, new cards are the
    * throttle that creates tomorrow's reviews.
    */
-  openPlanSession(anchor, studyIntent) {
+  openPlanSession(anchor, studyIntent, surface) {
     this._ensureGameplanClock();
     if (studyIntent !== false && (anchor !== "due" || studyIntent)) void this._requestGameplanStudy(studyIntent || "open-plan");
     // One visit owns one session. Refresh and cold completion append to it; neither
@@ -6470,7 +6501,7 @@ class Component extends DCLogic {
       this.closeModal();
       this.renderSession();
       this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
-      this.track("neural_practice_opened", { surface: "practice" });
+      this.track("neural_practice_opened", { surface: surface || "practice" });   // "corridor" from `openCorridor` (PATH-R1)
     }
     const session = s;
     const adopt = () => {
@@ -13489,7 +13520,8 @@ class Component extends DCLogic {
     const picks = [];
     const order = pool.slice();
     while (picks.length < want && order.length) picks.push(order.splice((this.rng("checkpoint-pick") * order.length) | 0, 1)[0]);
-    this._checkpoint = { belt: beltId, unit: unit, uk: uk, picks: picks, i: 0, firstTry: 0, pass: (unit.checkpoint && unit.checkpoint.pass) || 5 };
+    this._checkpoint = { belt: beltId, unit: unit, uk: uk, picks: picks, i: 0, firstTry: 0, pass: (unit.checkpoint && unit.checkpoint.pass) || 5,
+      fromPractice: !!this._session?.practice };   // started in Master the game's corridor: ‹ Back returns there (`_paneBack`); a flag, never the session object
     this.fx("checkpoint_start", { unit: uk, cards: picks.length });
     this._checkpointShow();
   }
