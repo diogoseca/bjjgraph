@@ -48,22 +48,22 @@ const NG_CHALLENGE_UI_METHODS = {
   // v1.96.0 if a home is ever wanted again. gameScore() and the Challenges tab belt are
   // untouched; the score's one exposure is the Explore tab subtitle below.
 
-  // THE PATH ROW LEFT THE DRAWER (v1.284.0, owner 15 Nov: "it's time to remove the Path section from the sidebar"; SET1
+  // THE PATH ROW LEFT THE DRAWER (v1.287.0, owner 15 Nov: "it's time to remove the Path section from the sidebar"; SET1
   // slice B, his four small losses accepted 16 Nov). Its tail, the worn track's proven units in words ("2 of 6 units", the
   // first loss), went with it, and so did `renderTabSubtitles`, which painted nothing else. The belt the player wears is
   // the "Master the game" row's (`beltWorn()`); `wornBelt()` still names the Path's own course for the corridor.
 
   noteLearningViewOpen(view) {
     // A render is not a visit: setGiMode can repaint the corridor behind a closed drawer or a deck over it. Reject it
-    // BEFORE consuming the per-open dedupe flag, so the beat belongs to the next visible visit (SIDECX3). Since v1.284.0
+    // BEFORE consuming the per-open dedupe flag, so the beat belongs to the next visible visit (SIDECX3). Since v1.287.0
     // the corridor is drawn only in Master the game, so its visit is Master the game's: the drawer shown and Practice on it.
     if (view === "challenges" && (!this.deckShown || !this._practiceInDrawer())) return;
     this._learningViewsTracked = this._learningViewsTracked || {};
     if (this._learningViewsTracked[view]) return;
     this._learningViewsTracked[view] = true;
     if (view === "challenges") {
-      // THE WHITE OBJECTIVE'S BEAT MOVED WITH THE CORRIDOR (P22, v1.284.0, SET1 slice B). "Open Challenges"
-      // (`white.challenges`) completes on it, and the White Foundations patch needs all 20 White objectives: until v1.284.0
+      // THE WHITE OBJECTIVE'S BEAT MOVED WITH THE CORRIDOR (P22, v1.287.0, SET1 slice B). "Open Challenges"
+      // (`white.challenges`) completes on it, and the White Foundations patch needs all 20 White objectives: until v1.287.0
       // only the Path's first visible visit fired it, so without this line nobody new could earn the patch. It fires on
       // the first visible draw of Master the game's corridor in each drawer opening (the dedupe resets on close), as it
       // did for the Path. `neural_challenges_viewed` ENDED with the Path (the fourth small loss, accepted; a data-loss
@@ -241,7 +241,7 @@ const NG_CHALLENGE_UI_METHODS = {
       (this._settingsAt = this._settingsAt || {}).challengeSelectedTrack =
         Date.now();
     }
-    // THE PATH'S DOOR (v1.284.0, SET1 slice B): "challenges" opens Master the game, where the corridor lives
+    // THE PATH'S DOOR (v1.287.0, SET1 slice B): "challenges" opens Master the game, where the corridor lives
     // (`setViewMode` → `openCorridor`), and must not be followed by `openExplorer`, whose `openPane` would leave the
     // session it just opened. View Collection (O1) comes through here.
     // "collection" is the corridor's rewards shelf (O3; PATH-R1 5a, the reader of #430 nit a: it fell through to
@@ -251,11 +251,11 @@ const NG_CHALLENGE_UI_METHODS = {
     if (view !== "challenges" && view !== "collection") this.openExplorer(); // openPane renders the active view's body (and hides any in-pane dossier)
   },
 
-  // WHAT AN OBJECTIVE'S ACTION OPENS (v1.284.0, SET1 slice B). One resolver, read by the row (is there anything to press?) and
+  // WHAT AN OBJECTIVE'S ACTION OPENS (v1.287.0, SET1 slice B). One resolver, read by the row (is there anything to press?) and
   // by the press: a function that does the action, or null when there is nothing to open. A study / checkpoint / capstone
   // action opens the ready checkpoint, the capstone, or a live lesson of its belt; with no live lesson at all (the
   // curriculum not here yet or failed to load, or none of the belt's lessons in this ruleset) it has nothing to open, so its
-  // row draws no button, and the corridor's repaint when the curriculum lands brings it back. Until v1.284.0 that case
+  // row draws no button, and the corridor's repaint when the curriculum lands brings it back. Until v1.287.0 that case
   // called `openHomeToLatest`, deleted with the History tab's study home in v1.174.0 and defined nowhere since: the press
   // threw a TypeError and nothing happened (found by another seat, 16 Nov). Any other action closes the drawer onto the
   // map, as before. Pinned by challenges-ui's "an objective with nothing to open draws no button".
@@ -355,7 +355,7 @@ const NG_CHALLENGE_UI_METHODS = {
     return null;
   },
 
-  // THE CORRIDOR'S OWN KEYBOARD LEFT WITH THE PATH (v1.284.0): `challengeLessonNav` walked the Path's lesson rows and
+  // THE CORRIDOR'S OWN KEYBOARD LEFT WITH THE PATH (v1.287.0): `challengeLessonNav` walked the Path's lesson rows and
   // opened their inline decks; in Master the game a lesson opens as a session row, and ↑/↓/←/→/Space/⏎ are the
   // session's own (`sessionNav`, `_miniDeck`).
 
@@ -441,8 +441,8 @@ const NG_CHALLENGE_UI_METHODS = {
           (lessonComplete
             ? '<i class="ng-lesson-check" aria-hidden="true">✓</i>'
             : "");
-        // A LESSON OPENS IN MASTER THE GAME (v1.284.0, SET1 slice B): its cards come up as a session row
-        // (`_practiceLesson`) and the map points at it, the drawer staying open. Until v1.284.0 the Path's own tap staged a
+        // A LESSON OPENS IN MASTER THE GAME (v1.287.0, SET1 slice B): its cards come up as a session row
+        // (`_practiceLesson`) and the map points at it, the drawer staying open. Until v1.287.0 the Path's own tap staged a
         // roll on the technique (the second small loss, accepted: the orb on the map and its Explore row still stage one),
         // and its ▸ opened an inline deck here, with its own keyboard; the corridor is now drawn only in Master the game.
         const open = () => { if (this.beltUnlocked(trackId)) this._practiceLesson(lesson.deckKey); };
@@ -478,7 +478,7 @@ const NG_CHALLENGE_UI_METHODS = {
         toggle.className = "ng-lesson-decktoggle";
         toggle.setAttribute("data-lesson-deck-toggle", lesson.deckKey);
         // it says what it does (PATH-R1 5b; the reader of #430 nit b): nothing expands here since the Path's inline deck left
-        // (v1.284.0), so no `aria-expanded`; the press opens the lesson's cards as the session's first row, at the top of
+        // (v1.287.0), so no `aria-expanded`; the press opens the lesson's cards as the session's first row, at the top of
         // Master the game, in the app's own verb ("Study the curriculum")
         toggle.setAttribute("aria-label", "Study this lesson's cards");
         toggle.innerHTML = '<span aria-hidden="true">▸</span>';
@@ -540,7 +540,7 @@ const NG_CHALLENGE_UI_METHODS = {
     return section;
   },
 
-  // THE CORRIDOR, DRAWN IN MASTER THE GAME ONLY (v1.284.0, SET1 slice B): its one caller is `_practiceCorridor`, into the
+  // THE CORRIDOR, DRAWN IN MASTER THE GAME ONLY (v1.287.0, SET1 slice B): its one caller is `_practiceCorridor`, into the
   // session's own corridor slot. The Path drew it into the drawer's list too, with a sticky band over it ("8 of 20 today",
   // the third small loss, accepted: the Master the game row is the same door with the same count) and an arrival scroll to
   // the worn belt (Master the game's corridor starts at the worn belt, so nothing to scroll to).
@@ -564,7 +564,7 @@ const NG_CHALLENGE_UI_METHODS = {
       // BY CEASING TO READ IT, never deleted (CLAUDE.md §6.6 — a deleted settings key is
       // re-added by the first pull from any device that still carries it).
       // The CONTINUE button is dead (v1.98.1, owner) — arrival positioning replaced it:
-      // the arrival scroll that replaced it left with the Path (v1.284.0); the glow still marks "do this next".
+      // the arrival scroll that replaced it left with the Path (v1.287.0); the glow still marks "do this next".
 
       // THE BELT CORRIDOR (v1.96.0) — one continuous woven belt runs down the left, white
       // through black, a knot tied at every boundary; lesson rows hang off it. Belt headers
@@ -778,7 +778,7 @@ const NG_CHALLENGE_UI_METHODS = {
     const shelf = document.createElement("details");
     shelf.className = "ng-rewards-shelf";
     shelf.setAttribute("data-rewards-shelf", "1");
-    // THE SHELF STAYS AS THE PLAYER LEFT IT ACROSS A REPAINT (v1.284.0, SET1 slice B). Its one home is Master the game's
+    // THE SHELF STAYS AS THE PLAYER LEFT IT ACROSS A REPAINT (v1.287.0, SET1 slice B). Its one home is Master the game's
     // corridor now, which repaints whenever the plan lands or evidence moves, and the Path's view rarely did: View
     // Collection (O1) opened it, and the plan's landing a moment later closed it again. Its state rides on the session,
     // and only a closed-to-open change is a visit (`neural_collection_opened`), so a repaint of an open shelf sends nothing.
@@ -834,7 +834,7 @@ const NG_CHALLENGE_UI_METHODS = {
       }
       shelf.appendChild(coinSection);
     }
-    // VIEW COLLECTION'S SCROLL OUTLIVES A REPAINT TOO (v1.284.0): Master the game lays its page out again when the plan lands,
+    // VIEW COLLECTION'S SCROLL OUTLIVES A REPAINT TOO (v1.287.0): Master the game lays its page out again when the plan lands,
     // which put the shelf View Collection had scrolled to back below the fold. The request rides on the session until the
     // player moves the page themselves (a wheel, a touch, a press, a key), and each repaint until then scrolls to the shelf.
     if (this._scrollRewardsShelf) {

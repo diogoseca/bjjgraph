@@ -107,7 +107,7 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   }
   await rigSitting(j, 100)
   // Drawer (U51 e / U56 e): open the corridor explicitly; opening the drawer alone shows the home list.
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK}"]`).first().textContent(),
@@ -134,7 +134,7 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   await answerQuiz(page, j, CP.pass - 1)
 
   const b1 = (await j.beats()) as any[]
-  // v1.284.0: the corridor is Master the game's, whose own open card shows multiple choice on the practice surface under Auto (an
+  // v1.287.0: the corridor is Master the game's, whose own open card shows multiple choice on the practice surface under Auto (an
   // mc_shown of ITS surface, outside the quiz); a quiz card is presented on the deck surface, so the census leaves that one out
   const n1 = b1.filter((b: any) => !(b.beat === "mc_shown" && b.surface === "practice")).map((b) => b.beat)
   expect(n1.filter((n) => n === "mc_shown").length, "sitting 1 presented every card").toBe(CP.cards)
@@ -171,7 +171,7 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
 
   // ── SITTING 2: retake at EXACTLY the pass line — wrong answer present, still passes ──
   await rigSitting(j, 200) // rig APPENDS — fresh depth so the retake never drains to Math.random
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK}"]`).first().textContent(),
@@ -223,7 +223,7 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   expect(afterPass.ckptOpen, "quiz resolved and cleared — no dangling state").toBe(false)
 
   // ── the challenges view shows it: the button flips to cleared at exactly the pass line ──
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK}"]`).first().textContent(),

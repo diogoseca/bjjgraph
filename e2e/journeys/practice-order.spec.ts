@@ -40,7 +40,7 @@ const DEFAULT = {} as const
  *   S4 a row "More new cards" added labelled by its missing number (finding 3)          → "the added rows under their own name", and the NaN net
  *   A1 no "Keep practising" on the completion card (finding 5)                           → "the completion card offers to keep going"
  *   B1 the owed session built from the worth plan (finding 1's door)                     → "a deck the order never prices is here"
- *   B2 the band shown while owed, the goal ignored: RETIRED with the band (v1.284.0, SET1 slice B: the Path left the drawer,
+ *   B2 the band shown while owed, the goal ignored: RETIRED with the band (v1.287.0, SET1 slice B: the Path left the drawer,
  *      and its sticky "N of 20 today" band with it, the third small loss the owner accepted; the dot's rule is pinned below)
  * ANKI1 (the owner's Anki rule), built the same way:
  *   A1 a new card while something is due (new cards ride in a position's visit again)   → "24 cards are due: the 20 are due cards, none new"
@@ -63,7 +63,7 @@ const DEFAULT = {} as const
  *     cases and the once rule are tests/practice_page.test.mjs's (mutants G3 to G6 there).
  *   · R409-6: "a record with no answer…" pins the fold's button reading "More new cards · …" in today's order too.
  *   · item 4 (the Path band's chip and reason line at 390x631, 360x740, 320x568 and on a web font, R409-R1): RETIRED with the
- *     band in v1.284.0, its three width tests and its font test with it.
+ *     band in v1.287.0, its three width tests and its font test with it.
  * NOT COVERED here: the order's arithmetic (the unit suite and its 15 mutants), no-gi on a page (the unit reads both
  * rulesets; a ruleset flip writes a setting, so it cannot share the byte-identity claim), and answering (grading writes the
  * record by design; the planner's completion rule is the unit suite's).
@@ -363,7 +363,7 @@ for (const touch of [true, false]) {
       // see when it lands: the belt row's reading, final (`data-belt-state="ok"`). The set landing AFTER the tap is the test
       // "the guard holds when the live set lands after the tap" below.
       await expect(page.locator("[data-belt-row]"), "the live set is in: the belt row's reading is final").toHaveAttribute("data-belt-state", "ok", { timeout: 30_000 })
-      // (the Path's band followed the dot's rule here, with its chip's words, until it left with the Path in v1.284.0)
+      // (the Path's band followed the dot's rule here, with its chip's words, until it left with the Path in v1.287.0)
       await press(page, '[data-explore-stats] [data-b="due"]', "the Practice row", touch)
       await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
       const open = '[data-session-row][aria-expanded="true"] + div'
@@ -503,6 +503,6 @@ for (const touch of [true, false]) {
   })
 }
 
-// THE PATH BAND AT 390x631, 360x740, 320x568 AND ON A WEB FONT (R409 item 4, R409-R1): retired in v1.284.0 with the band (the Path
+// THE PATH BAND AT 390x631, 360x740, 320x568 AND ON A WEB FONT (R409 item 4, R409-R1): retired in v1.287.0 with the band (the Path
 // left the drawer, SET1 slice B; the third small loss, accepted by the owner). Master the game's row is that door, its count
 // pinned above ("the row: today's count, no due").

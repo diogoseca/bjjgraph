@@ -985,7 +985,7 @@ export class Journey {
    */
   async openAccountMenu(what = "the badge") {
     if (!(await this.page.locator(".ngAcctChip").isVisible())) {
-      // shut: the drawer icon; shown on a view without the badge (Master the game, which holds the corridor since v1.284.0, a
+      // shut: the drawer icon; shown on a view without the badge (Master the game, which holds the corridor since v1.287.0, a
       // deck): the brand, the way back to the list, since the drawer icon sits under it then
       if (await this.page.evaluate(() => !!(window as W).__neural.deckShown)) await this.clickByMouse(".ng-drawer-brand", "back to the drawer's list");
       else await this.clickByMouse(".ng-logo", "the drawer icon");
@@ -994,7 +994,7 @@ export class Journey {
   }
 
   /**
-   * THE CORRIDOR'S ONE DOOR (v1.284.0, SET1 slice B). The Path row left the drawer (owner, 15 Nov), and its corridor (belts,
+   * THE CORRIDOR'S ONE DOOR (v1.287.0, SET1 slice B). The Path row left the drawer (owner, 15 Nov), and its corridor (belts,
    * units, lessons, checkpoints, capstones, objectives, the rewards shelf) is reached through Master the game, by its row,
    * the way a player opens it: the drawer icon if the drawer is shut, then the row. Returns once the corridor is drawn and
    * the curriculum is in (a corridor drawn before it carries no belts). Already on Master the game: nothing is pressed.

@@ -4,7 +4,7 @@ import { resolve } from "node:path"
 import { journey } from "../dsl"
 
 /**
- * THE CORRIDOR'S REACH IN MASTER THE GAME (v1.284.0, SET1 slice B; PATH-R1, the independent read of #430, 17 Nov).
+ * THE CORRIDOR'S REACH IN MASTER THE GAME (v1.287.0, SET1 slice B; PATH-R1, the independent read of #430, 17 Nov).
  * The Path left the drawer and its corridor lives in Master the game. The reader measured by real input what moved, and the
  * orchestrator ruled; each ruling has its journey here, by a real mouse at 1440x900 and by touch at 390x631:
  *   1. View Collection lands on an OPEN shelf from every door, warm or cold, and `neural_collection_opened` counts the

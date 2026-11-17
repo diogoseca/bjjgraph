@@ -186,7 +186,7 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-/* the maintenance band went with the Path (v1.284.0, SET1 slice B): Master the game's row is that door */
+/* the maintenance band went with the Path (v1.287.0, SET1 slice B): Master the game's row is that door */
 
 .ng-track-list,
 .ng-coin-list {
@@ -668,7 +668,7 @@
   color: #dbe6ff;
 }
 
-/* the Path's inline lesson deck and its focus box went with the Path (v1.284.0): a lesson opens as a session row */
+/* the Path's inline lesson deck and its focus box went with the Path (v1.287.0): a lesson opens as a session row */
 
 .ng-challenge-checkpoint,
 .ng-challenge-capstone > button {

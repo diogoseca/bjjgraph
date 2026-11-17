@@ -145,7 +145,7 @@ test("one belt_test_won completes white.capstone (event) AND purple.capstone-one
 
   // ── START THE WHITE CAPSTONE from the Challenges track (real UI surfaces) ──
   await page.evaluate(() => { (window as any).__neural.settings.challengeSelectedTrack = "white" })
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await page.locator('.ng-track-card[data-track="white"]').click()
   await page.locator('[data-capstone="white"] button').click()
   await j.advanceUntil("belt_test_start", 20000)

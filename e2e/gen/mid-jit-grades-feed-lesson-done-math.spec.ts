@@ -126,7 +126,7 @@ test("three study grades complete a not-yet-studied unit's lesson — unit stays
   await page.keyboard.press("Escape")
   expect(await page.evaluate(() => !!(window as any).__neural.deckShown), "study pane closed").toBe(false)
   // Drawer (U51 e / U56 e): open the corridor explicitly; opening the drawer alone shows the home list.
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   await j.expectBeat("challenges_opened")
 

@@ -114,7 +114,7 @@ test.describe("White Challenges", () => {
   }) => {
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
-    await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
 
     await expect(page.locator("[data-track='white']")).toHaveAttribute(
       "aria-pressed",

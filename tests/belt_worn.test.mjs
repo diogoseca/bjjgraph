@@ -135,7 +135,7 @@ function stageDecks(a, n, st) {
  *  (`_paintBeltRow`), read back from stub nodes, never recomputed. UNTIL v1.276.0 this read a belt drawn UNDER THE PATH ROW
  *  (`[data-path-belt] .ng-tab-belt`, its `data-tab-belt`, `data-tab-stripes` and `--tb` dye) and the row's "N stripes" tail;
  *  that belt moved to the new row (same id, same stripes: the held level is raised to the Path's level by the same
- *  `_syncBelt`, so with no number they agree). From v1.276.0 to v1.284.0 it also read the Path row's units in words
+ *  `_syncBelt`, so with no number they agree). From v1.276.0 to v1.287.0 it also read the Path row's units in words
  *  (`renderTabSubtitles`) against `wornBelt()`; the Path row left the drawer with those words (SET1 slice B, the first
  *  small loss the owner accepted). */
 function tab(a) {
@@ -193,7 +193,7 @@ test("a finished player wears black, never white: the Path's rule gives four str
   // drew black with the Path's four stripes: ["black", "4", NG_CHALLENGE_TRACK_COLORS.black]. The Path's rule is above.
   assert.deepEqual([t.belt, t.stripes, t.dye], ["black", "0", M.NG_BELT_ROW_COLORS.black]);
   // (the Path row's words, "2 of 2 units", and its aria, "Path: 2 of 2 units proven on the black track", were pinned here
-  // until the row left the drawer in v1.284.0; `wornBelt()` above still carries the same done and total)
+  // until the row left the drawer in v1.287.0; `wornBelt()` above still carries the same done and total)
   // the defect this replaces: the frontier falls back to the corridor's top when nothing is left.
   // It still does — for NAVIGATION — and it no longer dyes anything.
   assert.equal(a._frontierBeltId(), "white");

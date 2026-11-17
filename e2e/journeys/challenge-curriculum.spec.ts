@@ -19,14 +19,14 @@ function unit1DoneBlob() {
 }
 
 async function openChallenges(page: any, opts: { curriculum?: boolean } = {}) {
-  await journey(page).openCorridor(opts); // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await journey(page).openCorridor(opts); // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator(".ng-track-card").first()).toBeVisible();
 }
 
 test.describe("Challenge curriculum", () => {
   // v1.242.0 (owner A5 / E1 / T-b): the tabs became one drawer list, so there is no "default tab" any
   // more. The drawer always opens on its list; Path (the old Challenges tab) was one row away, and the
-  // stat band's cells moved to the Practice row and the badge's menu (sidebar.spec.ts pins those). v1.284.0 (SET1 slice B):
+  // stat band's cells moved to the Practice row and the badge's menu (sidebar.spec.ts pins those). v1.287.0 (SET1 slice B):
   // the Path row left the drawer; its corridor is Master the game's, the row that is now one press away.
   test("the drawer opens on its list, and the corridor is one row away from it, in Master the game", async ({
     page,
@@ -113,7 +113,7 @@ test.describe("Challenge curriculum", () => {
     expect(state.paneOpen, "the pane STAYS open").toBe(true);
     expect(state.takeover, "and is never taken over by the row click").toBe(false);
     expect(state.navVisible, "the tab nav survives — you can still see where you are").toBe(true);
-    expect(state.miniOpen, "the lesson's cards opened in the session (inline in the Path's corridor until v1.284.0)").toBe(true);
+    expect(state.miniOpen, "the lesson's cards opened in the session (inline in the Path's corridor until v1.287.0)").toBe(true);
     expect(state.focus, "the previous node is deselected").not.toBe(previousFocus);
     expect(state.selectedId).toBe("Positions/Mount/Bottom");
     // the node is in the VISIBLE region: right of the pane, inside the viewport, roughly centred
@@ -281,7 +281,7 @@ test.describe("Challenge curriculum", () => {
     expect(await page.evaluate(() => !!(window as any).__neural._pathDim)).toBe(
       false,
     );
-    // v1.284.0: the corridor is Master the game's, whose page is hidden (not torn down) when the brand leads home, so the claim
+    // v1.287.0: the corridor is Master the game's, whose page is hidden (not torn down) when the brand leads home, so the claim
     // is about what is ON SCREEN
     await expect(page.locator(".ng-track-card:visible")).toHaveCount(0);
     await expect(page.locator(".ng-explorer-search")).toBeVisible();
@@ -354,7 +354,7 @@ test.describe("Challenge curriculum", () => {
     ).toHaveCount(0);
   });
 
-  // v1.284.0: the ▸ opened the deck INLINE in the Path's corridor; in Master the game it opens the lesson's cards as a session
+  // v1.287.0: the ▸ opened the deck INLINE in the Path's corridor; in Master the game it opens the lesson's cards as a session
   // row (`_practiceLesson`), the corridor staying put and nothing taking the drawer over
   test("a finished lesson wears an edge check and its deck opens in the session, the ladder staying put", async ({
     page,
@@ -431,7 +431,7 @@ test.describe("Challenge curriculum", () => {
         { name: "Base", blurb: "Stay heavy through your hips." },
         { name: "Frames" },
       ];
-      app._practiceCorridor(); // Master the game's corridor repaints (the Path's renderExplorer until v1.284.0)
+      app._practiceCorridor(); // Master the game's corridor repaints (the Path's renderExplorer until v1.287.0)
     });
     const group = page.locator("[data-principles='white']");
     await expect(group).toBeVisible();
@@ -465,7 +465,7 @@ test.describe("Challenge curriculum", () => {
       const app = (window as any).__neural;
       return {
         curriculum: app.curriculum ?? null,
-        practice: !!app._practiceInDrawer(),   // the corridor's view: the Path until v1.284.0, Master the game since
+        practice: !!app._practiceInDrawer(),   // the corridor's view: the Path until v1.287.0, Master the game since
         nodes: app.nodes.length,
       };
     });

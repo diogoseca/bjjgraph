@@ -665,7 +665,7 @@ test("the view is named \"Master the game\" in every string the order writes (v1
   assert.ok(plan.why.startsWith(name + " asks the cards that are due first"), plan.why.slice(0, 60));
   assert.equal(G.ngGameplanLines(plan, { dueCards: 0 }, "Nowhere|Top").heading, name, "a key the plan does not hold");
   // the Path's band named the view with the app's own constants (its aria pinned here until the band left with the Path,
-  // v1.284.0, SET1 slice B); the corridor's file still writes no literal name of its own
+  // v1.287.0, SET1 slice B); the corridor's file still writes no literal name of its own
   const band = readFileSync(resolve(HERE, "../neural/src/challenge-ui.src.js"), "utf8");
   assert.doesNotMatch(band, /"Practice, "/);
 });

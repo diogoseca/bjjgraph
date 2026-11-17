@@ -25,7 +25,7 @@
 //   S7  the next round's positions not renumbered (the reader's 1 … 6, 8, 9)               → "every position counted is a position shown"
 //   S8  a belt lesson's row not marked as one                                              → the queue's last label is "Belt lessons"
 //   S9  the count line counting a lesson under "More new cards"                            → "; N from belt lessons"
-//   (the words were "From the Path" and "from the Path" until the Path left the drawer, v1.284.0, O4)
+//   (the words were "From the Path" and "from the Path" until the Path left the drawer, v1.287.0, O4)
 //   S10 the door's visit sent as the page's (`surface: "practice"`)                        → "one Practice visit, from the door"
 // R409 (the reader's finding 1: the guard and the live set; the pure order's half is tests/practice_queue.test.mjs):
 //   G3 the re-plan removed (an untouched session keeps the plan it took without the set)  → "an untouched session takes its plan again…"

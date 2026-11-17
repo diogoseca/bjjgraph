@@ -64,7 +64,7 @@ test("frozen belt-test hand: expiry_warning → land_q_expired narrated, ZERO mo
 
   // ── Start the test from the capstone button in the Challenges view (content-capstone idiom) ──
   await page.evaluate((id) => { (window as any).__neural.settings.challengeSelectedTrack = id }, WHITE.id)
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await page.locator(`.ng-track-card[data-track="${WHITE.id}"]`).click()
   const capBtn = page.locator(`[data-capstone="${WHITE.id}"] button`).first()
   await expect(capBtn, "white capstone button rendered").toBeVisible()

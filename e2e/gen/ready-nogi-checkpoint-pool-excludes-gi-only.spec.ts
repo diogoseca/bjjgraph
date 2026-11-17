@@ -108,7 +108,7 @@ test("nogi checkpoint pool draws only from nogi-viable decks — the gi-only dec
   await j.rig("mc-shuffle", seq(11, 40))
 
   // Drawer (U51 e / U56 e): open the corridor explicitly; opening the drawer alone shows the home list.
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   await j.expectBeat("challenges_opened")
   // only the SELECTED track renders its curriculum (v1.74) — select the hit belt's track

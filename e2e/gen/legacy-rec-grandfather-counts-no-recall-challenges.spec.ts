@@ -87,11 +87,11 @@ test("grandfathered v1 rec boots blue.recall-five at 0/5; five live card-proofs 
   // ── open the lesson drill through the real UI: explorer → white track → L0 row ──
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   const row = page.locator(`[data-lesson="${L0}"]`).first()
   await expect(row, "the first white lesson row renders in the corridor").toBeVisible()
   // back to the drawer's list: a lesson study opened over Master the game would be one of its session rows, not the study
-  // surface this walks (the Path held no session, so the study opened straight from it until v1.284.0)
+  // surface this walks (the Path held no session, so the study opened straight from it until v1.287.0)
   await j.clickByMouse(".ng-drawer-brand", "back to the drawer's list")
   await page.evaluate((dk) => {
     const a = (window as any).__neural;

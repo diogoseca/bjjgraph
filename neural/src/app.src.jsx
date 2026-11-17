@@ -370,7 +370,7 @@ const NG_RESIDENCY_MAX_HOLD_MS = 2000;
 const NG_READER_FIRST_LAYOUT_MS = 3000;
 // THE PANE'S VIEWS — `setViewMode` validates against this set. Since v1.242.0 (owner A5/E1) they are no
 // longer tabs: "explore" is the drawer's home list, and Last rolls (`history`) opens from its row, the brand leading
-// back ("‹ Last rolls"). THE PATH (`challenges`) LEFT THE DRAWER in v1.284.0 (owner 15 Nov: "it's time to remove the Path
+// back ("‹ Last rolls"). THE PATH (`challenges`) LEFT THE DRAWER in v1.287.0 (owner 15 Nov: "it's time to remove the Path
 // section from the sidebar"; SET1 slice B): its corridor's one home is Master the game, and a request for the retired
 // view, or its older alias `collection`, opens it there (`openCorridor`). The view ids never migrated.
 const NG_PANE_TABS = ["explore", "history"];
@@ -1306,7 +1306,7 @@ class Component extends DCLogic {
     this.settings = this.settings || {};
     this._loadProgress(); // restore prep / daily history / settings (guest persistence)
     this._renderLayerDock(); // a layer put away last visit shows its dock glyph from the first frame
-    // (the Path's repaint on going online or offline left with the Path, v1.284.0)
+    // (the Path's repaint on going online or offline left with the Path, v1.287.0)
     // THE AFFILIATE FUNNEL'S ONE EVENT, RE-EMITTED (v1.106.7). `affiliateTracking.inline.ts` —
     // the only `affiliate_clickout` delegate — died with the legacy front-end in v1.80.0, and
     // v1.83.0 restored the ATTRIBUTES but not the listener, so the documented funnel (CLAUDE.md
@@ -3230,7 +3230,7 @@ class Component extends DCLogic {
     // day's due date takes the seal off and turns it down (v1.266.0, the seal v1.272.0)
     this._knowledgeEffect("moves-card", () => this._paintHand());
     // the belt synced and persisted before the observers below (the Path row's tail, `renderTabSubtitles`, painted here
-    // until it left with the Path in v1.284.0)
+    // until it left with the Path in v1.287.0)
     this._knowledgeEffect("belt-sync", () => this._syncBelt(reason));
     // A landing answer also changes combo/qMod in its synchronous onDone callback.
     // Notify once after that whole turn, never launch a solve on half a grade.
@@ -4517,7 +4517,7 @@ class Component extends DCLogic {
    */
   _scrollFocusedDeck(scroller, deckEl) {
     requestAnimationFrame(() => {
-      // View Collection's scroll to the rewards shelf holds the page until the player moves it (v1.284.0, `renderRewardsShelf`):
+      // View Collection's scroll to the rewards shelf holds the page until the player moves it (v1.287.0, `renderRewardsShelf`):
       // Master the game opening its first card must not scroll the player back up past the shelf they asked to see
       if (this._session?.shelfScroll || this._session?.backTo) return;   // ...and ‹ Back's checkpoint row (PATH-R1, ruling 4, `_paneBack`)
       const list = scroller || this.drillListRef.current; if (!list) return;
@@ -4531,7 +4531,7 @@ class Component extends DCLogic {
       const dr = deck.getBoundingClientRect();
       const top = Math.min(dr.top, row ? row.getBoundingClientRect().top : dr.top);
       const lr = list.getBoundingClientRect();
-      // (the Path's sticky maintenance band was subtracted here; it left with the Path in v1.284.0, and no list this
+      // (the Path's sticky maintenance band was subtracted here; it left with the Path in v1.287.0, and no list this
       // scrolls carries a sticky header now)
       const pad = 12;
       const room = lr.height - pad - 12;
@@ -6456,7 +6456,7 @@ class Component extends DCLogic {
    * (and a spec pinned one of them byte-for-byte). One seam, per \u00a76.5, before a third door exists.
    * The empty case degrades to the browse modal rather than opening an empty session.
    */
-  // THE PATH'S DOORS LAND IN MASTER THE GAME (v1.284.0, owner 15 Nov: "it's time to remove the Path section from the
+  // THE PATH'S DOORS LAND IN MASTER THE GAME (v1.287.0, owner 15 Nov: "it's time to remove the Path section from the
   // sidebar"; SET1 slice B). The Path's corridor (belts, units, lessons, checkpoints, capstones, objectives, the rewards
   // shelf) was already drawn in Master the game by the same renderer (`_practiceCorridor`), so every door that opened the
   // Path opens it there. Already open: the corridor repaints in place, which is where View Collection's shelf flag is read
@@ -6819,7 +6819,7 @@ class Component extends DCLogic {
    * THE FOCUSED INLINE DECK — SCOPED TO THE SURFACE THAT IS ACTUALLY SHOWING (v1.175.0).
    *
    * `_focusRow` + `_miniReg` are ONE registry shared by the inline-deck surfaces (roll history `c<n>`,
-   * inline session `s<i>`; the Path's corridor `lesson:<deckKey>` left with the Path, v1.284.0), and nothing clears the row
+   * inline session `s<i>`; the Path's corridor `lesson:<deckKey>` left with the Path, v1.287.0), and nothing clears the row
    * handle when you change tabs. So a rid left behind by one surface stays resolvable from
    * another: without this, ←/→ on Challenges would page a deck sitting on the History tab, and
    * ⏎ would GRADE a card nobody is looking at — credit for an answer never given (§6.6).
@@ -8061,7 +8061,7 @@ class Component extends DCLogic {
       try { stored = localStorage.getItem("bjj_view_mode"); } catch (e) {}
     }
     // History replaced the Collection tab (v1.76.0); `tree` stays explore; nothing stored lands on the drawer's list
-    // (v1.242.0). THE PATH LEFT THE DRAWER (O2, v1.284.0, SET1 slice B): a stored `challenges` (and the older `collection`
+    // (v1.242.0). THE PATH LEFT THE DRAWER (O2, v1.287.0, SET1 slice B): a stored `challenges` (and the older `collection`
     // and `path`) lands on the drawer's list too, and that value is NOT written back. Both keys stay as the player left
     // them, written from then on only by the player's own navigation (`setViewMode`); a settings key is never rewritten
     // to retire a value (CLAUDE.md 6.6), and a boot that writes is not a fixpoint (holder-passive-boot-blob-fixpoint).
@@ -8090,7 +8090,7 @@ class Component extends DCLogic {
     });
   }
   setViewMode(m) {
-    // THE PATH AND ITS OLDER ALIAS (v1.284.0, SET1 slice B; O3): the view left the drawer, and a request for it lands
+    // THE PATH AND ITS OLDER ALIAS (v1.287.0, SET1 slice B; O3): the view left the drawer, and a request for it lands
     // where its corridor lives, Master the game (`openCorridor`): View Collection (O1, through `openLearningView`), and
     // anything still asking for it by name
     if (m === "challenges" || m === "collection") { this.openCorridor(); return; }
@@ -8143,7 +8143,7 @@ class Component extends DCLogic {
 
   // ═══ THE DRAWER (owner A5 / E1 / T-b, U45–U56, v1.242.0) ═══════════════════════════════════
   // One list replaces the three tabs, in the owner's order: Search, Explore (an expandable list of six
-  // categories), Train (Master the game and the belt you wear; the Path row under them left in v1.284.0, owner 15 Nov,
+  // categories), Train (Master the game and the belt you wear; the Path row under them left in v1.287.0, owner 15 Nov,
   // SET1 slice B), your lists, Last rolls, and the badge at the foot. It overlays the map, the legend included; nothing
   // moves when it opens. The VIEW model is unchanged, so every seam that opens a view (setViewMode, openPane(view), the
   // URL arrivals) still lands: "explore" IS the home list, Last rolls opens as a view whose way back is the brand, and a
@@ -8173,7 +8173,7 @@ class Component extends DCLogic {
     return b;
   }
   /**
-   * PRACTICE (owner U56 e, U60 b): one row, without a Train header (the Path row beside it left in v1.284.0). Practice is the
+   * PRACTICE (owner U56 e, U60 b): one row, without a Train header (the Path row beside it left in v1.287.0). Practice is the
    * mixed session (openPlanSession: reviews + new gap cards); its row carries today's goal and what is
    * owed. It keeps the stat row's handles (`data-explore-stats`, `data-b="due"`) because it IS that
    * row's due cell, grown up; "N new" and "Mastered" moved (into Practice, and onto the badge).
@@ -8193,7 +8193,7 @@ class Component extends DCLogic {
       // THE BELT YOU WEAR (v1.276.0): under the row, beside it in the list and not inside it, so the row's hit target and
       // what a tap opens are unchanged. The Path's own woven bar went (ruled, STAGE2-GO 3: one belt in the drawer).
       const rank = document.createElement("div"); rank.className = "ng-dr-rank"; rank.setAttribute("data-belt-row", "1");
-      // THE PATH ROW LEFT HERE (v1.284.0, owner 15 Nov: "it's time to remove the Path section from the sidebar"; SET1
+      // THE PATH ROW LEFT HERE (v1.287.0, owner 15 Nov: "it's time to remove the Path section from the sidebar"; SET1
       // slice B, his four small losses accepted 16 Nov): its corridor lives in Master the game, the row above
       box.append(pr, rank);
     }
@@ -8289,7 +8289,7 @@ class Component extends DCLogic {
   // cross-device merge live in neural/src/belt.src.js; this is the app's half: reading the
   // Challenges evidence into it, persisting the high-water mark, and the one-time grandfather.
   // READERS — every one of them, so a new reader is added here or not at all (the Path row's tail, `renderTabSubtitles`,
-  // left with the Path in v1.284.0): the Recall Mode patch at black (`_noteBlackBelt`), the carry-over of timed recall
+  // left with the Path in v1.287.0): the Recall Mode patch at black (`_noteBlackBelt`), the carry-over of timed recall
   // (`_recallCarryLive`, which reads the HELD belt and, since v1.282.0, only stamps the kept fact) and the
   // training-day email's belt line (`dayLog e.b`, read by workers/digest). Game Knowledge —
   // `gameScore()` — decides none of them any more; its bands are read once, by the grandfather.
@@ -8962,7 +8962,7 @@ class Component extends DCLogic {
     // until the next curriculum load) and an excluded node is not drawn at all, so its fog
     // membership is moot; `_keyNode` and `_qkDecks` are keyed by deck key and card text, not by
     // node set; `_scoreW`/`_scoreCache` are already per-frame.
-    // the corridor's one home since v1.284.0 is Master the game: a flip with it open repaints it there (a gi-only lesson goes, its
+    // the corridor's one home since v1.287.0 is Master the game: a flip with it open repaints it there (a gi-only lesson goes, its
     // evidence stays), as the Path view's list repaint below did for the Path
     if (this._session?.practice && this._sessionInline()) this._practiceCorridor();
     const list = this.explorerListRef.current;
@@ -9059,7 +9059,7 @@ class Component extends DCLogic {
     // A cold index rebuild detaches even the cached Practice block. Retain a keyboard user's
     // chosen row across that synchronous rebuild; the next Enter must still activate that row.
     const trainFocus = this._trainBox?.contains(document.activeElement) ? document.activeElement : null;
-    // a System page's re-render keeps its scroll (the Path's corridor kept its own here too until v1.284.0)
+    // a System page's re-render keeps its scroll (the Path's corridor kept its own here too until v1.287.0)
     const keepSystem = this._viewMode === "explore" && !this._exQ && this._systemId &&
       this._systemMedia && this._systemMedia.key === this._systemId && this._systemMedia.el.parentNode === list;
     const keepScroll = keepSystem ? list.scrollTop : null;
@@ -18012,7 +18012,7 @@ class Component extends DCLogic {
       this.renderTutorial();
     }
     if (this.renderChallengeCue) this.renderChallengeCue();
-    // THE CORRIDOR REPAINTS ON NEW EVIDENCE, where it lives (v1.284.0, SET1 slice B): the Path view did this here (a checkpoint
+    // THE CORRIDOR REPAINTS ON NEW EVIDENCE, where it lives (v1.287.0, SET1 slice B): the Path view did this here (a checkpoint
     // cleared, an objective's count, a crown); since the Path left the drawer the corridor is Master the game's, so it is that
     // view's corridor that repaints, after any press in flight (`_afterPress`, FGD13: a repaint between a press and its release
     // swallows the click)

@@ -2,7 +2,7 @@ import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
 /**
- * SIDECX3, CARRIED TO MASTER THE GAME (v1.284.0, SET1 slice B). Until v1.284.0 this pinned the PATH's visit: only a visible
+ * SIDECX3, CARRIED TO MASTER THE GAME (v1.287.0, SET1 slice B). Until v1.287.0 this pinned the PATH's visit: only a visible
  * Path visit emitted `challenges_opened` (the White objective "Open Challenges" completes on it, and the White Foundations
  * patch needs all 20 White objectives) and `neural_challenges_viewed`. The owner took the Path row out of the drawer
  * (15 Nov); its corridor is drawn only in Master the game, and the beat moved with it (P22). Pinned here, on the real beat
@@ -16,8 +16,8 @@ import { journey } from "../dsl"
  *    at every step, read off the same queue whose beat count proves the visit happened, so the 0 is a reading, not a
  *    queue nobody looked at.
  * The DSL aborts remote requests: SDK delivery is outside this claim. Opening the drawer pauses play.
- * Mutants: the Path's, before v1.284.0, are recorded in tests/artifacts/sidebar_path_mutants.json (against code that left with
- * it); the corridor's are in docs/Changelog-Archive.md, v1.284.0.
+ * Mutants: the Path's, before v1.287.0, are recorded in tests/artifacts/sidebar_path_mutants.json (against code that left with
+ * it); the corridor's are in docs/Changelog-Archive.md, v1.287.0.
  *
  * KEYED AND KEYLESS BUILDS BOTH RUN THIS (v1.247.1, DEPLOYFIX). PR shards build keyless; both
  * deploys build keyed, and the key changes exactly one output, postscript.js. There the PostHog

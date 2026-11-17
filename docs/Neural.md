@@ -688,7 +688,7 @@ One pane, anchored left, 360px: **the drawer** (v1.242.0, owner A5 / E1 / T-b), 
 drawer icon with no label (an amber dot while reviews are owed). It is ONE list, in the owner's
 order: Search, **Explore** (an expandable list: Positions, Transitions, Submissions, Systems,
 Principles, Learning — the category folds below), **Master the game** (U60 b: no Train header; the Path row left in
-v1.284.0), **Your lists**, **Last rolls**, and the **badge** at the foot, which shows today ("Today: 12
+v1.287.0), **Your lists**, **Last rolls**, and the **badge** at the foot, which shows today ("Today: 12
 of 20 cards · 2 rolls"; the day's rolls persist as `rollDays`) before it is opened and opens a short menu (Settings,
 Feedback, sign in/out; Terms · Privacy · GitHub small). Master the game opens the mixed
 session (§8) with the belt corridor under it, and Last rolls the roll history, each in the drawer; the brand leads back.

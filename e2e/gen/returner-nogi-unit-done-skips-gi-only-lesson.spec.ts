@@ -155,7 +155,7 @@ test("nogi: unit_done lands with the gi-only lesson untouched at prep=0 — it i
   await rigSitting(j, H.cp.cards)
 
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator(".ng-track-card").first()).toBeVisible()
   await j.expectBeat("challenges_opened")
   // only the SELECTED track renders its curriculum (v1.74) — select the hit belt's track
@@ -236,7 +236,7 @@ test("nogi: unit_done lands with the gi-only lesson untouched at prep=0 — it i
   // ── The challenges view shows it (startCheckpoint closed the explorer — reopen; the
   //    selected track persisted) ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator(".ng-track-card").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${H.uk}"]`).first().textContent(),
@@ -258,7 +258,7 @@ test("gi counterfactual: the SAME career is refused at the checkpoint — the gi
   await rigSitting(j, H.cp.cards) // were the gate broken, the wrongly-dealt quiz would still be rigged
 
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator(".ng-track-card").first()).toBeVisible()
   await j.expectBeat("challenges_opened")
   await page.locator(`.ng-track-card[data-track="${H.belt.id}"]`).click()

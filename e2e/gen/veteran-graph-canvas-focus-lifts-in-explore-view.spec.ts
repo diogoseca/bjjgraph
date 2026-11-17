@@ -1,5 +1,5 @@
 /* @hyperspace {"theme":"lifetime-journeys","L":"srs-veteran","F":"graph-canvas","B":"cross-feature"} @invariant "Challenge focus dims non-curriculum graph territory without locking content, while switching to Explore clears that focus; returning to Challenges restores the challenge surface and its focused graph state." */
-// SIDECX3 / v1.242.0: the drawer opens on its list; select Path explicitly. v1.284.0 (SET1 slice B): the Path row left the
+// SIDECX3 / v1.242.0: the drawer opens on its list; select Path explicitly. v1.287.0 (SET1 slice B): the Path row left the
 // drawer; its corridor is Master the game's ("corridor" below), opened by its row, and its draw arms the fog as the Path's
 // did (P19); the brand ("‹ Master the game") leads back to the list. The claims below are otherwise unchanged.
 import { test, expect } from "@playwright/test"

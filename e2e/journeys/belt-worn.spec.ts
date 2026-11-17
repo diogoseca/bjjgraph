@@ -21,7 +21,7 @@ import { multiBeltEndgame } from "../gen/personas"
  * (`[data-belt-row] .ng-belt`, its `data-belt` and `data-stripes`), which wears the HELD LEVEL (`belts.lvl`), raised to
  * the Path's level by the same `_syncBelt`; with no number read here the two agree, so every assertion below moved to the
  * new element unchanged except where table a differs: black has NO stripes there (the Path's own rule keeps its four,
- * asserted through `wornBelt()`). The Path row then said its course's units in words, until v1.284.0 (SET1 slice B), when
+ * asserted through `wornBelt()`). The Path row then said its course's units in words, until v1.287.0 (SET1 slice B), when
  * the Path row left the drawer and its words with it (the first small loss the owner accepted); their two assertions here
  * went with them. Each changed line says what it claimed before. The mutants above were run against the Path row's belt;
  * the new row's are in tests/belt_row.test.mjs.

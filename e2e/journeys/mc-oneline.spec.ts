@@ -27,7 +27,7 @@ async function openDeck(j: any, page: any, deckKey: string) {
   // v1.68.0: the sidebar reads back as classic recall by default — this file inspects the MC
   // options themselves, so it opts in.
   await page.evaluate(() => (window as any).__neural.set("mcMode", "auto"))
-  await page.evaluate(() => (window as any).__neural.openPane("explore")); // the drawer on its list: a lesson study over Master the game (the corridor's home since v1.284.0) would open as a session row, not the study surface
+  await page.evaluate(() => (window as any).__neural.openPane("explore")); // the drawer on its list: a lesson study over Master the game (the corridor's home since v1.287.0) would open as a session row, not the study surface
   // v1.105.2: the row click reads INLINE now — the full study surface (this spec's subject)
   // opens through openLessonStudy, the seam sessions/checkpoints use (mc-flashcards' pattern).
   await page.evaluate((dk) => {

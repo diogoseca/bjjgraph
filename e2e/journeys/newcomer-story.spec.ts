@@ -161,7 +161,7 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   ).toBe(true);
 
   // ── 7. Challenges: objective evidence stays separate from Game Knowledge ──
-  await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator(".ng-drawer-head")).toBeVisible(); // the knowledge belt lives in Explore since v1.96.0
   await expect(page.locator(".ng-belt-section")).toHaveCount(5);
   const challengeDone = await page.evaluate(

@@ -88,7 +88,7 @@ async function openPractice(page: Page, j: any) {
 }
 
 for (const vp of [{ width: 390, height: 844 }, { width: 768, height: 1024 }, { width: 1440, height: 900 }]) {
-  // v1.284.0 (SET1 slice B): the Path view, which this compared too, left the drawer; Practice is held to the list's width
+  // v1.287.0 (SET1 slice B): the Path view, which this compared too, left the drawer; Practice is held to the list's width
   test(`PD1: ${vp.width}×${vp.height} Practice opens inside the drawer, at the width the list has`, async ({ page }) => {
     await page.setViewportSize(vp);
     const j = journey(page, CLASSIC); await j.boot("/");

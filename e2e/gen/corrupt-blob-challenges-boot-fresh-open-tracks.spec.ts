@@ -58,7 +58,7 @@ test("corrupt legacy progress stays untouched while guest Challenges opens five 
   });
 
   await j.land("Mount Top");
-  // v1.242.0: the drawer opens on its list. v1.284.0: the Path row left it; the corridor is Master the game's, opened by its
+  // v1.242.0: the drawer opens on its list. v1.287.0: the Path row left it; the corridor is Master the game's, opened by its
   // row (the DSL's one door), and Master the game is what is on screen
   await page.evaluate(() => (window as any).__neural.toggleExplorer());
   await j.openCorridor();

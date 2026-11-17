@@ -108,7 +108,7 @@ test("blue u1 checkpoint pool is pure: every pick from u1's own decks, zero whit
   //    curriculum, v1.74), and start the quiz from the REAL checkpoint button ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await page.locator(`.ng-track-card[data-track="${BLUE.id}"]`).click()
   expect(
     await page.locator(`[data-checkpoint="${U1_KEY}"]`).first().isDisabled(),
@@ -162,7 +162,7 @@ test("blue u1 checkpoint pool is pure: every pick from u1's own decks, zero whit
 
   // ── closing census: a clean 6/6 pass, every beat accounted for ──
   const beats = (await j.beats()) as any[]
-  // v1.284.0: the corridor is Master the game's, whose own open card shows multiple choice on the practice surface under Auto (an
+  // v1.287.0: the corridor is Master the game's, whose own open card shows multiple choice on the practice surface under Auto (an
   // mc_shown of ITS surface, outside the quiz); a quiz card is presented on the deck surface, so the census leaves that one out
   const names = beats.filter((b: any) => !(b.beat === "mc_shown" && b.surface === "practice")).map((b) => b.beat)
   expect(names.filter((n) => n === "mc_shown").length, "every quiz card presented exactly once").toBe(CP.cards)

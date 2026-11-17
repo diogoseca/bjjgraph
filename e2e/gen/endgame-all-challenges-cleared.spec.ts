@@ -12,7 +12,7 @@ test("content-capstone endgame: every open track renders cleared checkpoints and
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
 
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   expect(await page.locator(".ng-track-card").count()).toBe(TRACKS.length)
 
   for (const track of TRACKS) {

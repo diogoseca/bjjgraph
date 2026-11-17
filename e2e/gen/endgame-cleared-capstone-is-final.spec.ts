@@ -12,7 +12,7 @@ test("cleared capstones are inert while all content tracks remain browseable", a
   const before = await page.evaluate(() => JSON.parse(JSON.stringify((window as any).__neural.belts.won)))
 
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   for (const track of TRACKS) {
     await page.locator(`.ng-track-card[data-track="${track.id}"]`).click()
     const button = page.locator(`[data-capstone="${track.id}"] button`)

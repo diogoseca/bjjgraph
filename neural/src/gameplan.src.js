@@ -314,7 +314,7 @@ export function ngGameplanLines(plan, live, key) {
   const rows = plan.due.concat(plan.fresh), row = rows.find((r) => r.key === key), n = plan.visits.length;
   const placed = (r) => typeof r.visit === "number" && r.visit >= 0, lesson = (r) => r.source === "lesson";
   // a belt lesson the player opened rides in the session apart from "More new cards" (STAGE3-R2 d): named and counted by how it came;
-  // "From the Path" and "from the Path" until v1.284.0, when the Path left the drawer (O4): "Belt lessons", "from belt lessons" (5 B shorter, v1.287.0: the deferred ceiling dev v1.286.0 set)
+  // "From the Path" and "from the Path" until v1.287.0, when the Path left the drawer (O4): "Belt lessons", "from belt lessons" (5 B shorter, v1.287.0: the deferred ceiling dev v1.286.0 set)
   const apart = (keep) => rows.filter((r) => !placed(r) && keep(r)).reduce((k, r) => k + r.count - (r.owed ? r.owed.length : 0), 0);
   const extra = apart((r) => !lesson(r)), path = apart(lesson), outside = (plan.counts && plan.counts.built && plan.counts.built.outsideDue) || 0;
   const cards = (k) => k + (k === 1 ? " card" : " cards"), name = (seat) => (seat ? seat.replace("|", " \u00b7 ") : "Other cards");

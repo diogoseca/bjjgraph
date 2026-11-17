@@ -81,7 +81,7 @@ for (const touch of [false, true]) {
       await boot(page, { v: 2, prep: Object.fromEntries(LESSONS.map((k) => [k, 3])) })
       expect(await worn(page), "precondition: a white belt").toBe("white")
       await press(page, ".ng-logo", "open the drawer", touch)
-      // v1.284.0: the Path row left the drawer; Master the game draws the same corridor (all five belts for a white belt)
+      // v1.287.0: the Path row left the drawer; Master the game draws the same corridor (all five belts for a white belt)
       await press(page, '[data-explore-stats] [data-b="due"]', "Master the game", touch)
       await expect(page.locator('[data-belt="black"]'), "Master the game draws the Black section").toHaveCount(1)
       await expect(page.locator('[data-belt-toggle="black"]'), "the Black section has a fold toggle").toHaveCount(1)
@@ -91,7 +91,7 @@ for (const touch of [false, true]) {
       await expect(page.locator('[data-belt="black"]'), "Black unfolds").toHaveAttribute("data-collapsed", "false")
       const lesson = `[data-belt="black"] [data-lesson="${LESSONS[0]}"]`
       await press(page, lesson, "a Black lesson", touch)
-      // the Path opened the lesson's cards inline in its corridor; Master the game opens them as a session row (v1.284.0)
+      // the Path opened the lesson's cards inline in its corridor; Master the game opens them as a session row (v1.287.0)
       const box = page.locator(`[data-session] [data-mini-deck="${LESSONS[0]}"]`)
       await expect(box, "the lesson's cards open in the session").toBeVisible()
       await expect(box.locator("[data-mini-q]"), "…with a question on its card").toHaveCount(1)

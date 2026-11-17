@@ -11,7 +11,7 @@ test("white capstone does not gate Blue content; Blue capstone needs Blue checkp
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
 
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   expect(await page.locator(".ng-belt-section").count()).toBe(CURRICULUM.belts.length)
   for (const track of [WHITE, BLUE]) {
     await expect(page.locator(`.ng-track-card[data-track="${track.id}"]`)).toBeVisible()

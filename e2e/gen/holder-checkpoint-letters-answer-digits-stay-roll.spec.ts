@@ -106,7 +106,7 @@ test("digits during an open checkpoint quiz never open a sheet or commit the rol
   // open the challenges view, select BLUE, start the quiz from the real checkpoint button
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await page.locator(`.ng-track-card[data-track="${BLUE.id}"]`).click()
   await page.locator(`[data-checkpoint="${U1_KEY}"]`).first().click()
   await j.advance(400)

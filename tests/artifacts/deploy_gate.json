@@ -272,14 +272,14 @@
       "file": "path-visit-telemetry.spec.ts",
       "title": "Master the game's corridor telemetry: fresh Path preference counts only visible visits @curated",
       "tier": "D",
-      "reason": "the real PostHog queue on a keyed build: the keyed-only red of 4 Nov (the corridor's beat since v1.284.0)",
+      "reason": "the real PostHog queue on a keyed build: the keyed-only red of 4 Nov (the corridor's beat since v1.287.0)",
       "ci_s": 1.5
     },
     {
       "file": "path-visit-telemetry.spec.ts",
       "title": "Master the game's corridor telemetry: saved Path preference counts only visible visits @curated",
       "tier": "D",
-      "reason": "the real PostHog queue on a keyed build: the keyed-only red of 4 Nov (the corridor's beat since v1.284.0)",
+      "reason": "the real PostHog queue on a keyed build: the keyed-only red of 4 Nov (the corridor's beat since v1.287.0)",
       "ci_s": 1.4
     },
     {
@@ -419,7 +419,7 @@
       "file": "sidebar.spec.ts",
       "title": "@curated Practice and Last rolls open their views, and the brand leads back",
       "tier": "S",
-      "reason": "smoke, Practice and Last rolls open their views from the drawer, and the brand leads back (the Path row left in v1.284.0)",
+      "reason": "smoke, Practice and Last rolls open their views from the drawer, and the brand leads back (the Path row left in v1.287.0)",
       "ci_s": null
     },
     {

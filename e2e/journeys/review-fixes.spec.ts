@@ -32,7 +32,7 @@ function lessonsDoneBlob() {
 }
 
 async function startCheckpoint(j: any, page: any) {
-  await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await page.locator(`[data-checkpoint="${WHITE.id}/${UNIT1.id}"]`).first().click()
   await j.advance(400)
   await expect(page.locator("[data-mc-opt]").first()).toBeVisible()
@@ -55,7 +55,7 @@ test("abandoned checkpoint does not contaminate the next deck or auto-pass the u
 
   // open a normal lesson deck and answer its MC cards — the abandoned unit must NOT complete
   const beatsBefore = (await j.beats()).length
-  await page.evaluate(() => (window as any).__neural.openPane("explore")); // the drawer on its list: a lesson study over Master the game (the corridor's home since v1.284.0) would open as a session row, not the study surface
+  await page.evaluate(() => (window as any).__neural.openPane("explore")); // the drawer on its list: a lesson study over Master the game (the corridor's home since v1.287.0) would open as a session row, not the study surface
   await page.evaluate((dk) => {
     const a = (window as any).__neural;
     const e = a._lessonIndex[dk];
@@ -129,7 +129,7 @@ test("mastered is not inflatable: rec counts DISTINCT cards proven by recall", a
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await page.evaluate(() => (window as any).__neural.openPane("explore")); // the drawer on its list: a lesson study over Master the game (the corridor's home since v1.284.0) would open as a session row, not the study surface
+  await page.evaluate(() => (window as any).__neural.openPane("explore")); // the drawer on its list: a lesson study over Master the game (the corridor's home since v1.287.0) would open as a session row, not the study surface
   await page.evaluate((dk) => {
     const a = (window as any).__neural;
     const e = a._lessonIndex[dk];

@@ -17,14 +17,14 @@ const paused = (page: Page) => page.evaluate(() => !!(window as any).__neural.pa
 /** the option sheet's panel never leaves the DOM (it fades to opacity 0), so ask the app */
 const sheetOpen = (page: Page) => page.evaluate(() => !!(window as any).__neural._detailCtx)
 
-/** Master the game's corridor (the Path's until v1.284.0, SET1 slice B), opened by its row (the DSL's one door). */
+/** Master the game's corridor (the Path's until v1.287.0, SET1 slice B), opened by its row (the DSL's one door). */
 const openChallenges = async (page: Page) => {
   await journey(page).openCorridor({ allBelts: false })
   await expect(page.locator(".ng-track-card").first()).toBeVisible()
 }
 
 /** Visible corridor lesson rows whose decks carry at least `min` RESIDENT cards, in ladder order, read off the DOM (a collapsed
- *  belt is `display:none`, so `offsetParent` is the render's answer). Until v1.284.0 this read the Path's own row registry
+ *  belt is `display:none`, so `offsetParent` is the render's answer). Until v1.287.0 this read the Path's own row registry
  *  (`_lessonRows`), which left with the Path's inline decks. */
 const lessonRows = (page: Page, min = 2): Promise<{ key: string }[]> =>
   page.evaluate((floor: number) => {
@@ -179,7 +179,7 @@ test("typing in a field never triggers a shortcut", async ({ page }) => {
 })
 
 /**
- * ── THE PATH'S INLINE DECKS AND THEIR KEYS (v1.175.0): RETIRED in v1.284.0 (SET1 slice B) ──
+ * ── THE PATH'S INLINE DECKS AND THEIR KEYS (v1.175.0): RETIRED in v1.287.0 (SET1 slice B) ──
  * The owner's "keys navigation especially for the flashcards in the challenges" was built on the Path's corridor, whose ▸
  * opened an inline deck there, walked by ↑/↓ (`challengeLessonNav`) and paged, flipped and graded by ←/→/Space/⏎. The owner
  * took the Path out of the drawer (15 Nov); the corridor lives in Master the game, where a lesson opens as a SESSION row, and
@@ -214,7 +214,7 @@ test("keys never reach a deck on the tab you left", async ({ page }) => {
     return { idx: (app._deckState[key] || {}).idx ?? 0, prep: (app.prep || {})[key] || 0 }
   }, histKey.key)
 
-  // walk away to the drawer's list, where that deck is not on screen at all (the Challenges view until v1.284.0; not Master
+  // walk away to the drawer's list, where that deck is not on screen at all (the Challenges view until v1.287.0; not Master
   // the game, whose own session may hold the same deck and so cannot tell a stray key from its own)
   await page.evaluate(() => (window as any).__neural.setViewMode("explore"))
   await expect(page.locator("[data-drawer-explore]")).toBeVisible()
@@ -232,7 +232,7 @@ test("keys never reach a deck on the tab you left", async ({ page }) => {
 
 test("Space and Enter still activate a Tab-focused corridor button", async ({ page }) => {
   // v1.113.4's fix, which the Space/⏎ branches must not undo: the corridor is Tab-navigable and its rows ARE buttons, so both
-  // keys belong to the focused control first. Since v1.284.0 the corridor is Master the game's, and a lesson's ▸ or row opens
+  // keys belong to the focused control first. Since v1.287.0 the corridor is Master the game's, and a lesson's ▸ or row opens
   // its cards as a session row (`_practiceLesson`), so that is what each activation is read by.
   const j = journey(page)
   await j.boot("/")

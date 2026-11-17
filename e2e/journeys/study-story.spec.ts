@@ -34,10 +34,10 @@ test("White Challenge study story: lesson → MC → recall → checkpoint → e
   await page.evaluate(() => (window as any).__neural.set("mcMode", "auto"));
 
   // ── the front door: Challenges is the default learning view ──
-  await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
-  await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Master the game"); // the Path's until v1.284.0
+  await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Master the game"); // the Path's until v1.287.0
   // back to the list: a lesson study opened over Master the game would be one of its session rows, not the study surface
-  // this story walks (the Path held no session, so it opened straight from there until v1.284.0)
+  // this story walks (the Path held no session, so it opened straight from there until v1.287.0)
   await j.clickByMouse(".ng-drawer-brand", "back to the drawer's list");
   const firstLesson = UNIT1.lessons[0];
 
@@ -124,7 +124,7 @@ test("White Challenge study story: lesson → MC → recall → checkpoint → e
   // ── the checkpoint quiz: first-try everything via the truth rail ──
   await j.rig("checkpoint-pick", [0.1, 0.3, 0.5, 0.7, 0.9, 0.2]);
   // v1.76.0: the pane is still open in study takeover here — return to the corridor (the Challenges tab until v1.242.0, the
-  // Path until v1.284.0, Master the game since: `openLearningView("challenges")` → `openCorridor`, which leaves the study first)
+  // Path until v1.287.0, Master the game since: `openLearningView("challenges")` → `openCorridor`, which leaves the study first)
   await page.evaluate(() => (window as any).__neural.openLearningView("challenges"));
   await page
     .locator(`[data-checkpoint="${WHITE.id}/${UNIT1.id}"]`)
@@ -153,7 +153,7 @@ test("White Challenge study story: lesson → MC → recall → checkpoint → e
   await j.expectBeat("unit_done");
 
   // ── Challenges shows the proof; later units were open throughout ──
-  await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
+  await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
   await expect(
     page.locator(`[data-checkpoint="${WHITE.id}/${UNIT1.id}"]`),
   ).toHaveText("Checkpoint cleared");
@@ -171,7 +171,7 @@ test("White Challenge study story: lesson → MC → recall → checkpoint → e
   // ── reload: the story survives ──
   await j.boot("/", { preserveStorage: true });
   await j.land("Mount Top");
-  await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
+  await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
   await expect(
     page.locator(`[data-checkpoint="${WHITE.id}/${UNIT1.id}"]`),
   ).toHaveText("Checkpoint cleared");

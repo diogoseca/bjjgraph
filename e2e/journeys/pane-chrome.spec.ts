@@ -5,7 +5,7 @@ import { journey, type Journey } from "../dsl"
  * PANE & CHROME (v1.93.0, re-pinned for the v1.242.0 drawer, owner A5 / E1 / T-b):
  *
  *   1. One drawer icon (top-left) opens the drawer, and its rows are live: Master the game opens the corridor (the Path
- *      row did until it left the drawer, v1.284.0), the brand ("‹ Master the game") leads back to the list and its search.
+ *      row did until it left the drawer, v1.287.0), the brand ("‹ Master the game") leads back to the list and its search.
  *      The tabs are gone.
  *   2. The score belt is RETIRED as a visual: no .ng-knowledge-header, no [data-knowledge], no
  *      meter anywhere; the score's one exposure is the badge menu's "Mastered" line.
@@ -56,7 +56,7 @@ test("the GI/NO-GI choice lives in Settings → Rolling and nowhere else", async
   // hidden only on History) — one fact, one home. The pane carries no pill on any tab.
   await expect(page.locator(".ng-gi-toggle"), "no pill on History").toHaveCount(0)
   await j.openCorridor({ allBelts: false })
-  await expect(page.locator(".ng-gi-toggle"), "no pill on the corridor (Master the game's since v1.284.0)").toHaveCount(0)
+  await expect(page.locator(".ng-gi-toggle"), "no pill on the corridor (Master the game's since v1.287.0)").toHaveCount(0)
   await j.clickByMouse('[data-view="explore"]', "the Explore tab")
   await expect(page.locator(".ng-gi-toggle"), "no pill on Explore").toHaveCount(0)
 

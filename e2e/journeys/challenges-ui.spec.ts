@@ -40,12 +40,12 @@ test.describe("Challenges UI", () => {
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
 
-    await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
     // the knowledge header is gone (v1.96.0 — the belt lives at the top of Explore)
     await expect(page.locator(".ng-drawer-head")).toBeVisible();
     await expect(page.locator(".ng-knowledge-header")).toHaveCount(0);
     // v1.242.0: the tabs became the drawer's rows; the view holding this corridor says where you are in the brand (the
-    // Path's until v1.284.0, Master the game's since)
+    // Path's until v1.287.0, Master the game's since)
     await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Master the game");
 
     const tracks = page.locator(".ng-track-card");
@@ -82,7 +82,7 @@ test.describe("Challenges UI", () => {
     ).toBeDisabled();
     await expect(page.locator("[data-capstone='black'] button")).toBeDisabled();
     // v1.162.0 (owner): NOTHING renders above the corridor — the two prose lines that used to open the tab are gone,
-    // and the sticky maintenance band that rode above it left with the Path (v1.284.0) — so the belt sections are the
+    // and the sticky maintenance band that rode above it left with the Path (v1.287.0) — so the belt sections are the
     // first thing in the corridor's slot.
     await expect(page.locator(".ng-ladder-note")).toHaveCount(0);
     await expect(page.locator(".ng-challenge-distinction")).toHaveCount(0);
@@ -110,7 +110,7 @@ test.describe("Challenges UI", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
 
     // v1.99.2 (owner: "what's that pinning about?") — no pin affordance anywhere; the
     // corridor derives its one target from progress instead
@@ -151,7 +151,7 @@ test.describe("Challenges UI", () => {
     // the cue follows the frontier belt too
     // v1.133.0: the cue card is retired — the corridor's frontier shows in the pane, not a cue
     await expect(page.locator("[data-challenge-cue]")).toHaveCount(0);
-    await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
     await expect(white).toHaveAttribute("data-collapsed", "true");
     await expect(blue).toHaveAttribute("data-collapsed", "false");
     await expect(
@@ -177,7 +177,7 @@ test.describe("Challenges UI", () => {
     // v1.99.1 (owner: "I don't see the point" of the zero-state): a fresh player sees NO
     // shelf — no "0 patches · 0 mat coins", no placeholder grid spoiling the joke coins
     await j.boot("/", { keepTutorial: true });
-    await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
     await expect(page.locator(".ng-challenge-ladder")).toBeVisible();
     await expect(page.locator("[data-rewards-shelf]")).toHaveCount(0);
     await expect(page.locator(".ng-drill")).not.toContainText("Available to earn");
@@ -190,7 +190,7 @@ test.describe("Challenges UI", () => {
         coins: { houdini: { t: 100 } },
       }),
     });
-    await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
     const shelf = page.locator("[data-rewards-shelf]");
     await expect(shelf.locator("summary")).toContainText("1 patch · 1 mat coin");
     await expect(shelf.locator("summary")).toContainText(
@@ -221,7 +221,7 @@ test.describe("Challenges UI", () => {
       initialState: progressBlob({ tut: { done } }),
     });
 
-    await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
     // v1.162.0 (owner): the one-off "Tutorial is now White Challenges" line is retired
     // along with the rest of the tab's head prose — the migration is silent, and the
     // ledger below is the only thing that has to be true.
@@ -255,7 +255,7 @@ test.describe("Challenges UI", () => {
   // and offline progress still behave identically — they were never explained anywhere
   // but that line, and `challengeEnvironmentNotice()` is deleted, not merely unrendered.
 
-  // O2 (v1.284.0, SET1 slice B): until v1.284.0 a stored `path` or `collection` restored onto the Path, and the restore wrote the
+  // O2 (v1.287.0, SET1 slice B): until v1.287.0 a stored `path` or `collection` restored onto the Path, and the restore wrote the
   // migrated `challengeView` back at boot. The Path left the drawer: every legacy value lands on the drawer's list, and the
   // retired Path values are NOT written back: both keys stay exactly as the player left them (a settings key is never
   // rewritten to retire a value, CLAUDE.md 6.6). `tree` keeps its old migration to `explore`, written as before.
@@ -316,7 +316,7 @@ test.describe("Challenges UI", () => {
     // first tick (this journey closes it there: a frame drawn inside `dismiss` threw and stopped the handler, and the Path did
     // not open). Mutant R3m (that draw back inside `dismiss`) is red here; R3g (the clock precondition removed) is a non-kill:
     // the frame then throws after the handler's work, and nothing here reads the page error.
-    // O1 (v1.284.0, SET1 slice B): View Collection opened the Path with the shelf open; the Path left the drawer, and the same
+    // O1 (v1.287.0, SET1 slice B): View Collection opened the Path with the shelf open; the Path left the drawer, and the same
     // shelf sits at the foot of Master the game's corridor, open and scrolled into view
     await reward.locator("[data-reward-collection]").click();
     await expect(page.locator(".ng-drawer-brand"), "View Collection opens Master the game").toHaveText("\u2039 Master the game");
@@ -327,7 +327,7 @@ test.describe("Challenges UI", () => {
       return shelf.height > 0 && shelf.top >= 0 && shelf.top < innerHeight;
     }), { message: "the shelf is scrolled into view" }).toBe(true);
     // ...and it STAYS there once Master the game has opened its first card: that card's own scroll (`_scrollFocusedDeck`)
-    // yields while View Collection's is pending (v1.284.0). A poll above passes on the first moment the shelf is in view,
+    // yields while View Collection's is pending (v1.287.0). A poll above passes on the first moment the shelf is in view,
     // so this is one read after the card is open. Mutant B5 (the yield removed) is red in this test: on 17 Nov at the poll above
     // (that run's first card scrolled first); this read is for the run where the shelf is in view at first and then leaves it.
     await expect(page.locator("[data-practice-page] [data-mini-deck]").first(), "premise: Master the game opened its first card").toBeVisible({ timeout: 20_000 });
@@ -343,7 +343,7 @@ test.describe("Challenges UI", () => {
     ).toHaveCount(1);
   });
 
-  // SIDECX4: real Tab/Enter from the opener through Master the game (the Path row until it left the drawer, v1.284.0), Black
+  // SIDECX4: real Tab/Enter from the opener through Master the game (the Path row until it left the drawer, v1.287.0), Black
   // belt and Close. Hold both cold indexes, then land each while the row has focus; fire the old 80ms search timer in that gap.
   // The DSL's empty dossier bodies are irrelevant: this reads real index and curriculum controls.
   // Source controls and kill receipts: sidebar_keyboard_mutants.json / sidebar_mutants.md.
@@ -452,8 +452,8 @@ test.describe("Challenges UI", () => {
       .toBe("none");
   });
 
-  // v1.284.0: on a fresh (white) player, so Master the game's corridor draws the five in order on one rail; a black belt
-  // holder's earlier belts sit below the worn one there (until v1.284.0 this ran on `earnedTracks`, in the Path's corridor)
+  // v1.287.0: on a fresh (white) player, so Master the game's corridor draws the five in order on one rail; a black belt
+  // holder's earlier belts sit below the worn one there (until v1.287.0 this ran on `earnedTracks`, in the Path's corridor)
   test("belt headers read as plain belts riding one corridor with a knot at each boundary", async ({
     page,
   }) => {
@@ -462,7 +462,7 @@ test.describe("Challenges UI", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
 
     // the verbose "White Foundations · WHITE CONTENT TRACK" phrasing is display-retired:
     // ladder headers are the belts themselves (track ids and data names unchanged)
@@ -496,7 +496,7 @@ test.describe("Challenges UI", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
     await expect(page.locator(".ng-challenge-ladder")).toBeVisible();
 
     // v1.137.0, owner: "we should remove the whole tutorial section". Renderer, card, head,
@@ -523,7 +523,7 @@ test.describe("Challenges UI", () => {
     expect(prog.total, "the twenty definitions are still live in the engine").toBe(20);
   });
 
-  // v1.284.0 (SET1 slice B): until then this pinned the PATH's arrival scroll (P18): opening it scrolled the drawer's list to the
+  // v1.287.0 (SET1 slice B): until then this pinned the PATH's arrival scroll (P18): opening it scrolled the drawer's list to the
   // frontier belt's header, kept the frontier row in view, and a re-render kept the reading position. The Path left the drawer,
   // and its scroll went with it: Master the game's corridor STARTS at the belt you wear, so there is nothing to scroll to. What
   // stands is what the scroll was for: the frontier's belt is the corridor's first section, its frontier row marked, and the
@@ -577,7 +577,7 @@ test.describe("Challenges UI", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
 
     // defaults: the frontier belt (white, topmost incomplete) rides open, the rest fold
     const white = page.locator(".ng-belt-section[data-belt='white']");
@@ -604,7 +604,7 @@ test.describe("Challenges UI", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await j.openCorridor(); // v1.284.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
     await expect(
       page.locator(".ng-belt-section[data-belt='white']"),
     ).toHaveAttribute("data-collapsed", "true");
@@ -641,7 +641,7 @@ test.describe("Challenges UI", () => {
   });
 });
 
-// THE OBJECTIVE ROW'S BUTTON OPENS SOMETHING, OR IS NOT DRAWN (v1.284.0, SET1 slice B). A study / checkpoint / capstone action
+// THE OBJECTIVE ROW'S BUTTON OPENS SOMETHING, OR IS NOT DRAWN (v1.287.0, SET1 slice B). A study / checkpoint / capstone action
 // whose belt has no live lesson (here: no curriculum, a 404) used to call `openHomeToLatest`, a method deleted in v1.174.0
 // and defined nowhere since: the press threw a TypeError and nothing happened (found by another seat, 16 Nov).
 // `_challengeActionTarget` now resolves the action once, for the row and for the press, and such a row draws no button; the
@@ -676,7 +676,7 @@ test.describe("an objective's action", () => {
     expect(errors, "no pageerror").toEqual([]);
   });
 
-  // THE CORRIDOR REPAINTS ON NEW EVIDENCE, where it lives (v1.284.0): an objective's count moves on screen while Master the
+  // THE CORRIDOR REPAINTS ON NEW EVIDENCE, where it lives (v1.287.0): an objective's count moves on screen while Master the
   // game is open, with no other repaint asked for. Mutant B2 (`noteChallenges`' repaint removed) is red here: until this
   // journey no spec pinned it (the slice B mutant run, 17 Nov).
   test("Master the game's corridor repaints when evidence moves an objective", async ({ page }) => {

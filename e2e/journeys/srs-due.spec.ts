@@ -387,7 +387,7 @@ test("the maintenance surfaces: every due figure is the CARD count, and the sess
   await expect(page.locator("[data-plan-goal-progress]"), "the session heading counts cards too").toContainText("Reviewed 0/");
 
   // (the Challenges band printed today's count here while something was owed, as the Practice row does; it left the drawer
-  // with the Path in v1.284.0, SET1 slice B, the third small loss the owner accepted: the row is that door, and its count is
+  // with the Path in v1.287.0, SET1 slice B, the third small loss the owner accepted: the row is that door, and its count is
   // pinned by practice-order.spec.ts, "the row: today's count, no due")
 });
 

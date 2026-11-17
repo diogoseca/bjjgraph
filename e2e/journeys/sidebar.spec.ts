@@ -8,13 +8,13 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  * markers, their rects) or what the frame PUBLISHED (`_fogLow`), never recomputed here:
  *   1. One drawer icon opens it, and nothing on screen is labelled "Menu".
  *   2. The order: Search, Explore (expandable: Positions, Transitions, Submissions, Systems,
- *      Principles, Learning), Practice (U60 b: no Train header; the Path row under it left in v1.284.0, owner 15 Nov,
+ *      Principles, Learning), Practice (U60 b: no Train header; the Path row under it left in v1.287.0, owner 15 Nov,
  *      SET1 slice B), Your lists, Last rolls, the badge.
  *   3. It draws over the map, the legend included, and the legend never moves.
  *   4. The badge shows today's cards and rolls before it is opened, a real grade moves it, and the
  *      day's rolls survive a reload (SIDE-R2 M4).
  *   5. Practice's row carries the day's goal and the worn belt under it; it and Last rolls open their views, and the
- *      brand leads back to the list (Path's row and its units words left with the Path, v1.284.0).
+ *      brand leads back to the list (Path's row and its units words left with the Path, v1.287.0).
  *   6. A lit page (a principle) fades the rest of the map to ~20%, smoothly, not at once.
  *   7. Keyboard: real Tab presses reach the badge, Enter opens its menu WITH focus inside it, the arrows
  *      walk its items to a small link that works by key, and Esc hands focus back (SIDE-R2 M7).
@@ -135,7 +135,7 @@ test("the drawer lists Search, Explore, Practice, your lists and Last rolls, in 
   })
   for (const m of order) expect(m.n, m.k + " is there exactly once").toBe(1)
   for (let i = 1; i < order.length; i++) expect(order[i].top, order[i].k + " sits below " + order[i - 1].k).toBeGreaterThan(order[i - 1].top)
-  // v1.284.0 (owner 15 Nov: "it's time to remove the Path section from the sidebar"): Practice was one of two rows here
+  // v1.287.0 (owner 15 Nov: "it's time to remove the Path section from the sidebar"): Practice was one of two rows here
   await expect(page.locator("[data-explore-stats] .ng-dr-row"), "Practice is the only row").toHaveCount(1)
   await expect(page.locator('[data-view="challenges"], [data-tab-sub]'), "no Path row anywhere in the drawer").toHaveCount(0)
   await expect(page.locator("[data-explore-stats] .ng-dr-label"), "U60 b: no Train header").toHaveCount(0)
@@ -229,7 +229,7 @@ test("@curated Practice and Last rolls open their views, and the brand leads bac
   await expect(practice.locator(".ng-dr-pill"), "no due count on the row (U171 a)").toHaveCount(0)
   await expect(practice.locator(".ng-dr-tail"), "the day's goal, up front").toHaveText("1/20")
   // v1.276.0 (ruled STAGE2-GO 3, one belt in the drawer): the worn belt is the "Master the game" row's (before:
-  // `[data-path-belt] .ng-tab-belt[data-tab-belt='white'][data-tab-stripes='0']`). v1.284.0: the Path row that said its
+  // `[data-path-belt] .ng-tab-belt[data-tab-belt='white'][data-tab-stripes='0']`). v1.287.0: the Path row that said its
   // course's units in words ("0 of 6 units") left the drawer with the Path (the first small loss, accepted)
   await expect(page.locator("[data-belt-row] .ng-belt[data-belt='white'][data-stripes='0']"), "the worn belt, on the Master the game row").toHaveCount(1)
   await expect(page.locator("[data-path-belt], .ng-tab-belt"), "one belt in the drawer").toHaveCount(0)
@@ -498,7 +498,7 @@ test.describe("phone 390x844", () => {
     expect(await drawer(page), "the scroller kept its own gesture").toBe(true)
     // A SWIPE IS NOT A TAP: a drag that closes nothing (vertical-dominant) and lifts over a drawer row
     // must not press it with the click the browser synthesises after it… (the row was the Path's until it left the
-    // drawer in v1.284.0; Last rolls, the other row that opens a view, stands in)
+    // drawer in v1.287.0; Last rolls, the other row that opens a view, stands in)
     const path = (await page.locator('button[data-view="history"]').boundingBox())!
     await page.evaluate(([x, y1, y2]) => {
       const el = document.querySelector('button[data-view="history"]') as HTMLElement

@@ -85,7 +85,7 @@ test("belt-ready: caught mid-test opens the panic drill, escape resumes the SAME
   //    first). The roll seeder re-draws ai-skill/role/max-moves inside rollFromPosition, so
   //    re-rig them BEFORE the click (land() only covered the intro roll's draws). ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await j.openCorridor() // v1.284.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   // v1.99.2 (ba6aba811, "the frontier belt retires pinning"): the corridor opens only the
   // FRONTIER belt by default. beltReady proves every White lesson, so the frontier is Blue and
   // White's body — capstone button included — sits at display:none; the 240s click timeout was
