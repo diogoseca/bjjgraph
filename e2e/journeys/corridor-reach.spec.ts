@@ -197,7 +197,9 @@ for (const touch of [false, true]) {
         const list = await page.evaluate(() => { const r = (window as W).__neural.drillListRef.current.getBoundingClientRect(); return { x: r.left, y: r.top, w: r.width, h: r.height } })
         if (move === "a key") {
           expect(await page.evaluate(() => (window as W).__neural.drillListRef.current.contains(document.activeElement)), "premise: the focus is inside the page after Back").toBe(true)
-          await page.keyboard.press("ArrowDown")
+          // toward a card that exists: ↓, or ↑ from the session's last card (a key moves the queue by itself)
+          const atEnd = await page.evaluate(() => { const s = (window as W).__neural._session; return (s.idx || 0) + 1 >= s.keys.length })
+          await page.keyboard.press(atEnd ? "ArrowUp" : "ArrowDown")
         } else {
           if (move === "a wheel") { await page.mouse.move(list.x + list.w / 2, list.y + list.h / 2); await page.mouse.wheel(0, -120) }
           else if (move === "a mouse press") await page.mouse.click(list.x + 6, list.y + list.h / 2)   // the page's own padding
@@ -207,7 +209,12 @@ for (const touch of [false, true]) {
             for (let i = 1; i <= 5; i++) await cdp.send("Input.dispatchTouchEvent", { type: "touchMove", touchPoints: [{ x, y: y + i * 16 }] })
             await cdp.send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] })
           }
-          await page.evaluate(() => (window as W).__neural.sessionNav(1))
+          // the next card, by the app's own seam (it lifts nothing): toward a card that exists, or the open one if it is the
+          // only one; both scroll through `_scrollFocusedDeck`, which the hold blocks
+          await page.evaluate(() => {
+            const a = (window as W).__neural, s = a._session
+            if (!a.sessionNav((s.idx || 0) + 1 < s.keys.length ? 1 : -1)) a._scrollFocusedDeck()
+          })
         }
         await expect.poll(nextCardInView, { message: `after ${move}, the next card comes into view` }).toBe(true)
       }

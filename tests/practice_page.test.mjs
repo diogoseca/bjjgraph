@@ -24,7 +24,7 @@
 // STAGE3-R2 (the reader's delta read, items a and d):
 //   S7  the next round's positions not renumbered (the reader's 1 … 6, 8, 9)               → "every position counted is a position shown"
 //   S8  a belt lesson's row not marked as one                                              → the queue's last label is "Belt lessons"
-//   S9  the count line counting a lesson under "More new cards"                            → "; N from your belt lessons"
+//   S9  the count line counting a lesson under "More new cards"                            → "; N from belt lessons"
 //   (the words were "From the Path" and "from the Path" until the Path left the drawer, v1.284.0, O4)
 //   S10 the door's visit sent as the page's (`surface: "practice"`)                        → "one Practice visit, from the door"
 // R409 (the reader's finding 1: the guard and the live set; the pure order's half is tests/practice_queue.test.mjs):
@@ -270,7 +270,7 @@ test("a Path lesson opened into Practice is named and counted as one, not as Mor
   assert.ok(labels.includes("More new cards"), "the More new cards rows keep their own name");
   const row = s.plan.fresh.find((r) => r.key === key), L = G.ngGameplanLines(s.plan, { dueCards: 1 }, key);
   assert.equal(L.heading, "Belt lessons");
-  assert.match(L.count, new RegExp("; " + row.count + " from your belt lessons$"), L.count);
+  assert.match(L.count, new RegExp("; " + row.count + " from belt lessons$"), L.count);
   const more = s.plan.fresh.filter((r) => typeof r.visit !== "number" && r.source !== "lesson").reduce((k, r) => k + r.count, 0);
   assert.ok(more > 0 && L.count.includes("; " + more + " more new, "), "More new cards counted without the lesson: " + L.count);
 });
