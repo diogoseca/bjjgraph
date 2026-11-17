@@ -64,12 +64,16 @@ const ngCzNow = (s) => (s.czOpen != null && s.cz ? s.cz.get(s.czOpen) : null) ||
 const ngCzEsc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 const ngCzToday = (app, m) => { const r = app.moves && app.moves[m.key] && app.moves[m.key][m.move]; return Array.isArray(r) && r[2] === app._epochDay(); };
 
-// the moves a place's cloze asks now: the plan's own there, else (a place outside today's plan) what it owes, the same
-// builder's count (`s.owedMoves`, master-list.src.js); never one answered today; at most six
+// the moves a place's cloze asks now: the plan's own there that are not yet answered today; with none of those left (a
+// place outside today's plan, or one whose share the day's goal cut and the player has confirmed) what the place still
+// owes, the same builder's count (`s.owedMoves`, master-list.src.js); never one answered today; at most six.
+// A ROW'S COUNT IS REACHABLE BY ITS OWN PRESS (L1-R2's rule, for moves): at a goal of 20 the plan took two of a place's
+// six; with those confirmed the row said "4 due" and its press showed the confirmed cloze again (the plan's list was
+// read whole, then filtered to nothing; found by master-cloze.spec.ts's cut place, 2 of 2).
 function ngClozeAsks(app, s, seat) {
-  const plan = s.plan && s.plan.order === "worth" && s.plan.moves ? s.plan.moves.filter((m) => m.seat === seat) : [];
-  const from = plan.length ? plan : (s.owedMoves && s.owedMoves.get(seat)) || [];
-  return from.filter((m) => !ngCzToday(app, m)).slice(0, NG_CLOZE_CAP);
+  const left = (l) => l.filter((m) => !ngCzToday(app, m));
+  const plan = s.plan && s.plan.order === "worth" && s.plan.moves ? left(s.plan.moves.filter((m) => m.seat === seat)) : [];
+  return (plan.length ? plan : left((s.owedMoves && s.owedMoves.get(seat)) || [])).slice(0, NG_CLOZE_CAP);
 }
 /**
  * WHERE A ROW LEADS, resolved on the map (ruling 8's seam: the second line reads it, the map will). `opt`: the dealt move.
@@ -153,6 +157,8 @@ function ngClozeTo(app, s, stop, dir) {
 // ‹ › : true when the step was onto or off a cloze (the cards' own step does the rest)
 export function ngClozeStep(app, s, dir) {
   if (!app._asksMoves()) return false;
+  const c = ngCzNow(s);
+  if (c && c.shown && !c.done) return true;   // revealed and not confirmed: Hide or Done first, for the keys as for the foot's ‹ ›
   const n = ngClozeNext(app, s), to = dir > 0 ? n.stop : n.prev;
   if (s.czOpen == null && (!to || to.cz == null)) return false;
   if (to) ngClozeTo(app, s, to, dir);

@@ -19765,3 +19765,51 @@ repeat pushed for ever. So a damaged list is read (the app boots, L1-R1), the ne
 merge is the union of two copies' strings, and richer data needs a new key. `ngProgressExploredOut` and
 `ngProgressExploredJoin` are gone; the invariant is written at the validator, the reader, the load, the save and the merge.
 Mutants: units L1-R3a and L1-R3b; app L1-R3c (the opener) and L1-R3d (the save).
+
+## v1.292.0 — The cloze: a position's moves, asked in Master the game (L2; the owner's U198, U200, U201 b, U204 a, 17 Nov 2026)
+
+**What.** Master the game asks a place's moves before its cards, in the list, as a cloze. The plan chooses them (S0's
+law, PR #431: the due ones, at most six a visit; up to two new ones where none is due) and hands them to the page
+(`plan.moves`, `moveSeats`); never on "Multiple choice" (`_asksMoves`, U194 a: that player's plan is the cards' until
+the pick form, L4). The place opens on one blank bar a move ("Six moves start here. Say each one to yourself, then
+Show."), the moves you hold and do not owe in sight in gold. **Show** names each move by its own name (`graphName`: no
+"from <position>" tail under that position's row; its full title only where that is also the name of its finish) and
+says under it where it takes you (`ngClozeLeadsOf`, the seam L2b's map will read): the likeliest success outcome as the
+place and its side's tag, a finish as its triangle and its name with no role, a second place only from 25%; the line
+fades in 180 ms, 120 ms after the name, not at all under reduced motion; what gives way on a narrow row is the second
+place's role, then the second place, never the first. "Had it?" marks a row. **Hide** puts the bars back and writes
+nothing (a view, never a grade; the taps are kept). **Done** writes one row a move, once a day, through the one writer
+(`_gradeMoves`, which a roll's hidden card now also uses: the row, the journal line, ONE revision, ONE republish, ONE
+save); a "did not" stores what a hidden move's No stores and never lowers the rating. Each asked move is one of the
+day's 20 (`practiceToday` adds `_movesToday`, the plan's own rule), on the page and on the drawer's badge. **Undo** on
+the result line takes the last confirm back exactly: every cell as it was (a cell or a state that was not there is gone
+again) and the answers out of the undelivered-answers journal (`unjournal`); the cloud push waits while it is offered
+(`_undoHold`), because a row the cloud holds beats the older row an Undo restores; it is refused once another tab or a
+pull has rebuilt a row. Until the next confirm or until the place is left.
+
+**The map does not give it away (ruling 7).** While a cloze is open and not shown, the hand is face down whole, a look
+does not turn a card up, and the frame draws no name, hover label or gold mark on one of its hidden moves (`_czDown`,
+`_czHand`). After Show the map is as it is today.
+
+**Entering a place.** Its row's press opens its cloze (`_masterGo`); so do the two ways that land on a deck without a
+press on the row, ↑ ↓ and the walk after a deck's last answer (`_czEnter`). ‹ › step ask by ask across clozes and cards
+(`ngClozeStops`) and are off, with the arrow keys, between Show and Done. A row that says "N due" asks what it counts
+at each press: at a goal of 20 the plan takes two of a third place's six, and the row's next press asks the other four
+as a new cloze. **Item 12 (the fourth read of PR #434, 18 of 18, ruled):** ↑ ↓ are the keys' form of a tap on a row; a
+deck all answered whose place owes more than the session holds takes what it owes first (`_masterKeyRow`, the step the
+row's press takes), so the key lands on a card that is still owed; never inside the opener (a session drawn again and
+the walk pass through it).
+
+**What the build does that the drawings do not say.** A move that is itself a submission wears the map's triangle at
+the left of its row, as the place's gold marks do. The foot's Hide is 54 px (72 in the drawing): the real foot bar is
+294 px between its edges and "Done 4 had" was cut. The day's words after Done get the room they measure ("again on
+Wednesday" is 107 px; the spec's 92 is the floor). The page gives every button a 44 px minimum height: the Undo is a
+word in its line, its reach is its own 46 px.
+
+**Found on the way.** The first screens showed the result line 33 px tall (that 44 px minimum on the Undo). The cloze's
+first journey expected six rows at every place: at a goal of 20 the third place gets two, which is the rule above, now
+its own journey. `docs/Neural.md` had 0 characters spare: one sentence went in by evicting a sentence L1 made stale,
+two names L1 retired and one version tag.
+
+**Bytes.** The cloze is `neural/src/master-cloze.src.js`, in the deferred gameplan.js. Both style sheets (the cloze's
+and the list's) ship with no space a browser does not need: the build strips comments, not a string's own spaces.

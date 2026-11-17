@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test"
-import { readFileSync, existsSync } from "node:fs"
+import { readFileSync, readdirSync } from "node:fs"
 import { resolve } from "node:path"
 import { journey } from "../dsl"
 
@@ -46,11 +46,11 @@ async function press(page: Page, selector: string, what: string, touch: boolean,
 }
 
 /** the seeded player. `at`: a roll staged at that seat (the map's hand is then that position's) */
-async function setup(page: Page, opts: { at?: string; reduced?: boolean } = {}) {
+async function setup(page: Page, opts: { at?: string; reduced?: boolean; cards?: string[]; goal?: number } = {}) {
   await page.addInitScript((d) => { (window as W).__NG_EPOCH_DAY__ = d }, DAY)
   if (opts.reduced) await page.emulateMedia({ reducedMotion: "reduce" })
   const j = journey(page, { answerMode: "classic" })
-  await j.boot("/", { initialState: { v: 2, explored: PLACES } })
+  await j.boot("/", { initialState: { v: 2, explored: PLACES, ...(opts.goal ? { settings: { dailyGoal: opts.goal }, settingsAt: { dailyGoal: 5 } } : {}) } })
   await expect.poll(() => page.evaluate(() => {
     const a = (window as W).__neural
     return !!(a && a.nodes && a.nodes.length && a.flashcards && a.flashcards.decks && Object.keys(a.flashcards.decks).length && a.curriculum)
@@ -71,6 +71,21 @@ async function setup(page: Page, opts: { at?: string; reduced?: boolean } = {}) 
     return out
   }, { places: PLACES, at: opts.at || null })
   for (const k of PLACES) expect(hands[k].length, `premise: ${k} deals at least six moves`).toBeGreaterThanOrEqual(6)
+  // `cards`: two cards due at each of these places too (answered ten days ago, a week's interval)
+  if (opts.cards) {
+    const due = await page.evaluate(async (seats: string[]) => {
+      const a = (window as W).__neural, day = a._epochDay(), out: number[] = []
+      for (const seat of seats) {
+        await a.hydrateDeck(seat)
+        a.srs[seat] = a.srs[seat] || {}
+        for (const c of (a._cardsOf(a.flashcards.decks[seat]) || []).slice(0, 2)) a.srs[seat][a.qhash(c.q)] = [day - 3, 7, day - 10]
+        out.push(Object.keys(a.srs[seat]).length)
+      }
+      a._bumpStageVer && a._bumpStageVer()
+      return out
+    }, opts.cards)
+    expect(due, "premise: two cards due at each").toEqual(opts.cards.map(() => 2))
+  }
   return { j, hands }
 }
 async function openMaster(page: Page, touch: boolean) {
@@ -90,11 +105,23 @@ const owned = (page: Page) => page.evaluate(() => {
   const j = key ? JSON.parse(localStorage.getItem(key) || "{}") : {}
   return { moves: JSON.stringify(a.moves), journal: JSON.stringify(j.e || []), done: a.practiceToday().done, srs: JSON.stringify(a.srs) }
 })
-/** a transition's authored success outcomes, from the content source (NOT the wire): [to, probability] best first, ties in authored order */
-function authored(name: string): [string, number][] | null {
-  const f = resolve(ROOT, "content/Transitions", name + ".json")
-  if (!existsSync(f)) return null
-  const d = JSON.parse(readFileSync(f, "utf8"))
+/** every authored move, by its title: content/Transitions and content/Submissions, whatever the folder (tracked source, so
+ *  a CI shard has it; read at first use, never at module load: every worker loads every spec file) */
+let SOURCE_: Map<string, { kind: "transition" | "submission"; file: string }> | null = null
+const SOURCE = { get: (title: string) => (SOURCE_ || (SOURCE_ = readSource())).get(title) }
+const readSource = () => {
+  const out = new Map<string, { kind: "transition" | "submission"; file: string }>()
+  for (const [dir, kind] of [["content/Transitions", "transition"], ["content/Submissions", "submission"]] as const)
+    for (const f of readdirSync(resolve(ROOT, dir), { recursive: true }) as string[])
+      if (f.endsWith(".json")) { try { const d = JSON.parse(readFileSync(resolve(ROOT, dir, f), "utf8")); if (d && typeof d.name === "string" && !out.has(d.name)) out.set(d.name, { kind, file: resolve(ROOT, dir, f) }) } catch { /* not a move's file */ } }
+  return out
+}
+/** a transition's authored success outcomes, from the content source (NOT the wire): [to, probability] best first, ties in authored order.
+ *  `title`: the move's full title (the row shows its own name, without the "from <position>" tail). null: not a transition */
+function authored(title: string): [string, number][] | null {
+  const src = SOURCE.get(title)
+  if (!src || src.kind !== "transition") return null
+  const d = JSON.parse(readFileSync(src.file, "utf8"))
   const ok = (d.outcomes || []).map((o: W, i: number) => [o.to, typeof o.probability === "object" && o.probability ? o.probability.gi : o.probability, i, o.result])
     .filter((o: W) => o[3] === "success" && typeof o[1] === "number")
   ok.sort((a: W, b: W) => b[1] - a[1] || a[2] - b[2])
@@ -107,6 +134,12 @@ const rowsOf = (page: Page) => page.locator("[data-cz-row]").evaluateAll((els) =
     or: !!q(".d2 .or"), orRole: !!q(".d2 .or .rt"), over: q(".d2") ? q(".d2")!.scrollWidth > q(".d2")!.clientWidth + 0.5 : false,
     had: el.hasAttribute("data-had"), when: q(".tl")?.textContent || null, tog: q("[data-cz-had]")?.textContent || null }
 }))
+
+/** the open cloze's moves, in its rows' order: each one's full title (the authored file's name), and the row the record holds for it */
+const movesOf = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural, s = a._session, c = s.cz.get(s.czOpen)
+  return c.rows.map((r: W) => ({ title: a.nodes[r.idx].t as string, row: ((a.moves[r.st] || {})[r.mv] || null) as number[] | null }))
+})
 
 for (const touch of [true, false]) {
   test.describe(touch ? "390x631, touch" : "1440x900, mouse", () => {
@@ -124,7 +157,7 @@ for (const touch of [true, false]) {
       let rows = await rowsOf(page)
       expect(rows.length, "six rows").toBe(6)
       for (const r of rows) expect([r.bar, r.name, r.line, r.h], "a bar: no name, no second line, 36 px").toEqual([true, null, false, 36])
-      await expect(page.locator(".in")).toHaveText("Six moves start here. Say each one to yourself, then Show.Each blank is one move; each counts one toward today's 20.")
+      await expect(page.locator("[data-cloze] .in")).toHaveText("Six moves start here. Say each one to yourself, then Show.Each blank is one move; each counts one toward today's 20.")
       await expect(page.locator("[data-cloze] .d2"), "the second line is absent before Show").toHaveCount(0)
       expect(await page.locator("[data-cloze]").innerText(), "no move is named before Show").not.toMatch(/Escape|Roll|Guard|Choke/)
       const before = await owned(page)
@@ -138,8 +171,18 @@ for (const touch of [true, false]) {
       }
       const tapped = (await rowsOf(page)).filter((r) => r.had).map((r) => r.name)
       expect(tapped, "the four tapped rows are gold").toEqual([names[0], names[1], names[2], names[4]])
-      await expect(page.locator(".in")).toContainText("Tap the ones you had. 4 so far.")
+      await expect(page.locator("[data-cloze] .in")).toContainText("Tap the ones you had. 4 so far.")
       await expect(page.locator("[data-master-bar] [data-cz-done]")).toHaveText("Done 4 had")
+      // revealed and not confirmed: Hide or Done first. The foot's ‹ › are off, and the keys do not step off it either
+      expect(await page.locator("[data-master-bar] [data-cz-prev], [data-master-bar] [data-cz-step]").evaluateAll((els) => els.map((e) => (e as HTMLButtonElement).disabled)), "‹ and › are off while the moves are shown and not confirmed").toEqual([true, true])
+      // (one key at a time: → then ← would step off and back, and read the same)
+      for (const k of ["ArrowRight", "ArrowDown", "ArrowLeft", "ArrowUp"]) {
+        await page.keyboard.press(k)
+        await page.waitForTimeout(150)
+        expect(await page.evaluate(() => { const s = (window as W).__neural._session; return [s.czOpen, s.cz.get(s.czOpen).shown] }), `${k} does not step off a cloze that is shown and not confirmed`).toEqual(["Mount|Bottom", true])
+      }
+      await expect(page.locator('[data-cloze="Mount|Bottom"]')).toBeVisible()
+      expect((await rowsOf(page)).filter((r) => r.had).map((r) => r.name), "and the taps are as they were").toEqual(tapped)
       await press(page, "[data-master-bar] [data-cz-hide]", "Hide", touch, false)
       expect((await rowsOf(page)).every((r) => r.bar && !r.line), "Hide puts the bars back, and the second lines go at once").toBe(true)
       expect(await owned(page), "Hide is a view, never a grade: nothing a player owns moved").toEqual(before)
@@ -154,11 +197,17 @@ for (const touch of [true, false]) {
       expect(wrote.filter((x) => x === 1).length, "four of them a Yes").toBe(4)
       expect(after.done - before.done, "six answers are six of the day's 20").toBe(6)
       expect(JSON.parse(after.journal).length - JSON.parse(before.journal).length, "one journal line an answer").toBe(6)
-      await expect(page.locator(".gl .gn"), "the gold number: the moves you remember from here").toHaveText("4")
+      await expect(page.locator("[data-cloze] .gl .gn"), "the gold number: the moves you remember from here").toHaveText("4")
       await expect(page.locator("[data-cz-plus]")).toHaveText("+6 toward today’s 20")
       rows = await rowsOf(page)
-      expect(rows.map((r) => r.when), "each row says when it comes back").toEqual(rows.map((r) => (r.had ? "back in 7 days" : "again on Wednesday")))
+      // each row says when it comes back, as the record now holds it: a Yes its row's own due day, a No tomorrow (a Wednesday)
+      const held = await movesOf(page)
+      expect(held.every((m) => !!m.row && m.row[2] === DAY), "premise: the record holds a row answered today for each of the six").toBe(true)
+      expect(new Date(DAY * 864e5).getUTCDay(), "premise: the day of this journey is a Tuesday").toBe(2)
+      expect(rows.map((r) => r.when), "each row says when it comes back").toEqual(rows.map((r, i) => (r.had ? `back in ${held[i].row![0] - DAY} days` : "again on Wednesday")))
+      expect(rows.filter((r) => r.had).every((r, i) => held[rows.indexOf(r)].row![0] - DAY >= 7), "a Yes on a move a week old comes back in a week or more").toBe(true)
       await expect(page.locator("[data-plan-goal]"), "the day's count reads the six").toContainText("6 of 20 today")
+      await expect(page.locator("[data-badge-today]"), "and the badge's today counts the six moves").toContainText("Today: 6 of 20")
       // UNDO: the last confirm back, byte for byte, and the cloze shown again with its taps
       await press(page, "[data-cloze] .un", "Undo", touch, false)
       expect(await owned(page), "Undo restores what a player owns, byte for byte").toEqual(before)
@@ -175,20 +224,28 @@ for (const touch of [true, false]) {
     })
 
     test(`where a move takes you: the place and the role on five positions, against the authored tables; a finish; what gives way (${tag})`, async ({ page }) => {
-      await setup(page)
+      await setup(page, { goal: 60 })   // a goal that holds all thirty: at 20 the day's goal cuts the third place to two (the journey below)
       await openMaster(page, touch)
-      let checked = 0, finishes = 0, seconds = 0
+      let checked = 0, finishes = 0, seconds = 0, own = 0
       const way: Record<string, { or: boolean; orRole: boolean; done?: { or: boolean; orRole: boolean } }> = {}
       for (const seat of PLACES) {
         await openCloze(page, seat, touch)
         await expect(page.locator("[data-cloze] .d2"), `${seat}: no second line before Show`).toHaveCount(0)
         await press(page, "[data-master-bar] [data-cz-show]", "Show", touch, false)
-        const rows = await rowsOf(page)
+        const rows = await rowsOf(page), held = await movesOf(page)
         expect(rows.length, `${seat}: six rows`).toBe(6)
-        for (const r of rows) {
+        for (const [ri, r] of rows.entries()) {
           expect([r.h, r.line, r.arrow, r.over], `${seat} › ${r.name}: two lines (44 px), its arrow, nothing cut off`).toEqual([44, true, true, false])
-          const want = authored(r.name!)
-          if (!want) continue   // not a transition (a submission's own row): its finish is checked below by shape
+          const title = held[ri].title, src = SOURCE.get(title)
+          expect(src, `${seat} › ${title}: premise: the move has an authored file`).toBeTruthy()
+          if (src!.kind === "submission") {   // a submission dealt as a move is its own finish: its triangle and its name, no role
+            expect([r.tri, r.roles.length, r.or], `${title}: its finish, no role, no second place`).toEqual([true, 0, false])
+            expect(r.label, "its accessible name").toBe(`${r.name}, leads to the ${r.places[0]} finish`)
+            expect(title.startsWith(r.places[0]!), `${title}: the finish is the submission itself (${r.places[0]})`).toBe(true)
+            finishes++; own++
+            continue
+          }
+          const want = authored(title)!
           const [to, , ] = want[0], m = to.match(/^(.*)\/(Top|Bottom)$/)
           expect(m, `${r.name}: its authored success outcome is a seat (${to})`).not.toBeNull()
           if (r.tri) {   // a finish: the control position a submission is held from; its triangle and its name, no role
@@ -206,7 +263,8 @@ for (const touch of [true, false]) {
         await press(page, "[data-master-bar] [data-cz-done]", "Done", touch, false)
         for (const r of await rowsOf(page)) { expect(r.over, `${r.name}: nothing cut off after Done`).toBe(false); if (way[r.name!]) way[r.name!].done = { or: r.or, orRole: r.orRole } }
       }
-      expect(checked, "rows checked against their authored table").toBeGreaterThanOrEqual(20)
+      expect(checked + own, "every row of the five clozes was read").toBe(30)
+      expect(checked, "rows checked against their authored table").toBeGreaterThanOrEqual(15)
       expect(finishes, "a row that leads to a finish was among them").toBeGreaterThan(0)
       expect(seconds, "rows with a second place of 25 or more were among them").toBeGreaterThan(0)
       // WHAT GIVES WAY, IN ORDER: a second place's role never stands where the second place had to go, and (spec.md, measured
@@ -215,10 +273,101 @@ for (const touch of [true, false]) {
         expect(!w.or && w.orRole, `${name}: no role without its place`).toBe(false)
         if (w.done) expect(!w.or || w.done.or, `${name}: a second place that fits beside the toggle fits the full row too`).toBe(true)
       }
-      if (touch) {
-        for (const name of ["Mount Escape to Half Guard Back Take", "Shrimp Escape", "Side Control Escape"]) if (way[name]) expect(way[name].or, `${name}: beside "Had it?" its second place gives way`).toBe(false)
-        if (way["Side Control Escape"]) expect(way["Side Control Escape"].done, "Side Control Escape after Done: \"· or Half Guard\", its role gone").toEqual({ or: true, orRole: false })
+      console.log("WAY " + tag + " " + JSON.stringify(way))
+      // the longest real row at Mount, bottom ("Mount Escape to Half Guard Back Take": Back Control, top, or Half Guard, bottom),
+      // measured in the app's own face. Beside "Had it?" at 390 the second place's ROLE gives way and the place stays
+      // (spec.md, measured on the drawing's face, has the whole second place go there: the app's face is narrower, and
+      // nothing is cut off, asserted above). After Done the row is whole again: the place and its role.
+      const long = way["Mount Escape to Half Guard Back Take"]
+      expect(long, "premise: the longest real row was among the checked").toBeTruthy()
+      if (touch) expect([long.or, long.orRole], "beside the toggle at 390: the second place's role gives way first").toEqual([true, false])
+      expect(long.done, "after Done the second place and its role are back").toEqual({ or: true, orRole: true })
+    })
+
+    // A ROW'S COUNT IS REACHABLE BY ITS OWN PRESS, for moves as for cards (L1-R2's rule): at a goal of 20 the plan asks six
+    // moves at two places and two at a third, whose row still says "6 due". Its press asks the plan's two; with those
+    // confirmed the row says "4 due", and its next press asks those four as a new cloze (never the confirmed one, never a
+    // move answered today), until the row says nothing is due.
+    test(`a place the day's goal cuts: its row's press asks the plan's share, then what it still owes, until nothing is due (${tag})`, async ({ page }) => {
+      await setup(page)
+      await openMaster(page, touch)
+      const cut = await page.evaluate(() => {
+        const a = (window as W).__neural, s = a._session, n: Record<string, number> = {}
+        for (const m of s.plan.moves || []) n[m.seat] = (n[m.seat] || 0) + 1
+        const seat = Object.keys(n).find((k) => n[k] < 6)
+        return seat ? { seat, asked: n[seat], total: (s.plan.moves || []).length as number } : null
+      })
+      expect(cut, "premise: at a goal of 20 the plan asks fewer than six moves at one place that owes six").not.toBeNull()
+      const row = `[data-master-row="${cut!.seat}"]`, bar = "[data-master-dock] [data-master-bar]"
+      await expect(page.locator(`${row} small`), "premise: its row says it owes six").toHaveText(/^6 due/)
+      let left = 6
+      const seen: string[] = []
+      for (let press_ = 0; press_ < 4 && left > 0; press_++) {
+        await press(page, row, "the row that says it owes", touch)
+        await expect(page.locator(`[data-cloze="${cut!.seat}"]`), "its cloze opens").toBeVisible()
+        const rows = (await rowsOf(page)).filter((r) => r.kind === "ask")
+        expect(rows.every((r) => r.bar), "the press opens blanks to say: never a cloze already confirmed").toBe(true)
+        expect([rows.length > 0, rows.length <= left], `the press asks moves the row counts (${rows.length} of the ${left} it says)`).toEqual([true, true])
+        if (press_ === 0) expect(rows.length, "the first press asks the plan's share").toBe(cut!.asked)
+        await press(page, `${bar} [data-cz-show]`, "Show", touch, false)
+        const asked = await page.evaluate(() => { const a = (window as W).__neural, s = a._session; return s.cz.get(s.czOpen).rows.filter((r: W) => r.ask).map((r: W) => a.nodes[r.idx].t as string) })
+        expect(asked.filter((x) => seen.includes(x)), "no move is asked twice in a day").toEqual([])
+        seen.push(...asked)
+        await press(page, `${bar} [data-cz-done]`, "Done", touch, false)
+        left -= rows.length
+        if (left > 0) await expect(page.locator(`${row} small`), "the row counts down to what is left").toHaveText(new RegExp("^" + left + " due"))
       }
+      expect(left, "every move the row counted was reached by its press").toBe(0)
+      await expect(page.locator(`${row} small`), "the row says nothing is due").not.toHaveText(/\d+ due/)
+      expect(seen.length, "six different moves were asked").toBe(new Set(seen).size)
+      expect((await owned(page)).done, "and each was one of the day's answers").toBe(6)
+    })
+
+    // MOVES BEFORE CARDS AT A POSITION (S0's law), whichever way the place is entered: its row's press opens the cloze
+    // (`_masterGo`), and so do the two ways that land on a DECK without a press on the row, ↓ ↑ and the walk after a deck's
+    // last answer (`_czEnter`). A player who owes six moves at five places and two cards at two of them, a goal of 60.
+    test(`a place entered from another asks its moves first: by ↓, and by the walk after a deck's last answer (${tag})`, async ({ page }) => {
+      test.setTimeout(120_000)
+      await setup(page, { cards: ["Mount|Bottom", "Side Control|Bottom"], goal: 60 })
+      await openMaster(page, touch)
+      const bar = "[data-master-dock] [data-master-bar]"
+      const state = () => page.evaluate(() => {
+        const a = (window as W).__neural, s = a._session
+        return { cloze: s.czOpen as string | null, card: !!(a._openMini && document.querySelector("[data-mini-q]") && (document.querySelector("[data-mini-q]") as HTMLElement).offsetParent),
+          seat: s.czOpen != null ? s.czOpen : (a._masterSeatOf(s, s.keys[s.idx]) as string), seats: s.keys.map((k: string) => a._masterSeatOf(s, k)) as string[], idx: s.idx as number,
+          done: s.keys.map((k: string) => !!a._sessionRowDone(s, k)) as boolean[] }
+      })
+      const s0 = await state()
+      // two decks side by side in the session, at two places
+      const i = s0.seats.findIndex((x, n) => !!x && !!s0.seats[n + 1] && s0.seats[n + 1] !== x)
+      expect(i, `premise: the session holds two decks side by side at two places (${JSON.stringify(s0.seats)})`).toBeGreaterThanOrEqual(0)
+      const A = s0.seats[i], B = s0.seats[i + 1]
+      // A, by its row: its moves first (the row's press), then its cards
+      await openCloze(page, A, touch)
+      await press(page, `${bar} [data-cz-show]`, "Show", touch, false)
+      await press(page, `${bar} [data-cz-done]`, "Done", touch, false)
+      await press(page, `${bar} [data-cz-next]`, "Next: its cards", touch, false)
+      await expect.poll(async () => { const s = await state(); return [s.cloze, s.card, s.seat] }, { message: "premise: A's moves answered, its first card is open" }).toEqual([null, true, A])
+      // ↓ from A's card lands on B's deck: B's moves first, never its card
+      await expect.poll(async () => (await state()).idx, { message: "premise: the open deck is the one beside B's" }).toBe(i)
+      await page.keyboard.press("ArrowDown")
+      await expect(page.locator(`[data-cloze="${B}"]`), "↓ onto another place opens its cloze: the moves first").toBeVisible()
+      expect((await state()).card, "and no card of it is open").toBe(false)
+      expect((await rowsOf(page)).every((r) => r.bar || r.kind === "solid"), "its asked moves are bars: nothing was shown or answered by the key").toBe(true)
+      // back to A by its row: its moves are answered, so its cards open; answer them to the deck's last
+      await press(page, `[data-master-row="${A}"]`, "A's row again", touch)
+      await expect.poll(async () => { const s = await state(); return [s.cloze, s.card, s.seat] }, { message: "premise: A's row opens its card now" }).toEqual([null, true, A])
+      for (let n = 0; n < 8; n++) {
+        const s = await state()
+        if (s.cloze != null || s.seat !== A) break
+        await press(page, `${bar} [data-mini-reveal]`, "Reveal", touch, false)
+        await press(page, `${bar} [data-mini-got]`, "Got it", touch, false)
+        await page.waitForTimeout(900)   // the walk after a deck's last answer (520 ms)
+      }
+      const end = await state()
+      expect(end.done[i], "premise: A's deck is answered").toBe(true)
+      expect([end.cloze, end.card], "the walk after A's last card asks B's moves first, never its card").toEqual([B, false])
+      await expect(page.locator(`[data-cloze="${B}"]`)).toBeVisible()
     })
 
     test(`the second line fades in after the name, not at all under reduced motion; the toggle and the name are different targets (${tag})`, async ({ page }) => {

@@ -851,19 +851,19 @@ you answer (his formula, at the ratio of the step the card is in). So an early r
 than without it. A card can end ahead of answering on time only by whole days, never in exact days: at most 3 in the
 reader's early-only search, adding about a day per on-time answer as a card ages (`tests/schedule_rung.test.mjs`).
 
-**Practice is one session** (v1.278.0, U171 a). Its card comes first, the belt corridor below.
+**Practice is one session** (v1.278.0, U171 a).
 It asks what is due first, position by position, worth most first (`practice-queue.src.js`), at most 6 a visit;
 the 3 due longest come every session (an untouched one planned before the live set lands is replanned:
 `_practiceGuard`). A new card comes only when nothing due in this ruleset is left (a card it hides waits
-in “Everything owed, oldest first”). The default goal is 20 (`dailyGoal`); it counts distinct graded questions,
-mistakes included, once a day. Reveal earns nothing. With no game or answer yet, today's order serves, reviews
+in “Everything owed, oldest first”). A place's moves come first, as a cloze (L2; not on
+“Multiple choice”). The default goal is 20 (`dailyGoal`); it counts distinct graded questions and
+asked moves, mistakes included, once a day. Reveal earns nothing. With no game or answer yet, today's order serves, reviews
 first, and says so. “Keep practising” deals the next round into
 the session, past the goal too; “More new cards” and a Path lesson add new ones at the player's press. A shared
 question is one obligation.
 
-Practice keeps the drawer's width (v1.261.0, U135 a). Under “‹ Practice”
-(its Back): belt, stripes, format, progress. “Practice details &
-session queue” keeps reviewed counts, blocked debt, day notices, reasons, comparison controls
+Practice keeps the drawer's width. Under its Back: belt, stripes, format, progress.
+“Session details & queue” keeps reviewed counts, blocked debt, day notices, reasons, comparison controls
 and loading/retry states. Planner arrival appends even after a reveal or grade; it never replaces
 an engaged card or an in-flight press. Opening asks for the planner. Comparison
 stays deliberate (Open study plan, Refresh plan). Back restores the originating view;
