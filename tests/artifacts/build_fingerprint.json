@@ -3,11 +3,11 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "05af0fd69157b1cb2173accfb52e7dc2a3df285b",
+   "git_head": "ae773bb31bbdb20e1c9383a9d8686e4db360993b",
    "inputs": {
-    "tree": "b1712828438bae12c9cb5fbdbb6efef104008d32"
+    "tree": "e02a2cb28f09426dcfc0e0722deb9aed91a53927"
    },
-   "package_version": "1.282.2",
+   "package_version": "1.286.0",
    "rows_from": "neural/dist",
    "schema": "app-assets-rebuild-v2"
   },
@@ -88,8 +88,8 @@
     "sha256": "ab54a23e94cdfb0f1edc4c26d60943aa80e08ec94f6f4749b193411ce6f28c35"
    },
    "static/neural/app/gameplan.js": {
-    "bytes": 21885,
-    "sha256": "ad3211796636824be030235ec7edd591733b863d18eaa68ba6c7ebafd6f3590f"
+    "bytes": 23457,
+    "sha256": "e6b434c219781cf4ec83b5cf64f4e5131ad2f4415090196b406c2dfd17f2ee36"
    },
    "static/neural/app/mastery-gold.js": {
     "bytes": 892,
