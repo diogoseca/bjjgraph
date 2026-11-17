@@ -154,8 +154,8 @@ description: "Defend the Twister spinal lock from Twister Side Control with reco
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escape and counter the Twister! - Matrix Jiu Jitsu",
-      "description": "Twister from Twister Side Control (Defender) film study: Escape and counter the Twister! - Matrix Jiu Jitsu.",
+      "name": "Escape and counter the Twister!",
+      "description": "Twister from Twister Side Control (Defender) film study: Escape and counter the Twister!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Va1YNgx2E6M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Va1YNgx2E6M",
       "url": "https://www.youtube.com/watch?v=Va1YNgx2E6M",
@@ -190,7 +190,7 @@ Defending the Twister from Twister Side Control demands immediate attention to s
 
 ![](https://www.youtube.com/watch?v=Va1YNgx2E6M)
 
-<p class="clip-credit"><strong>Escape and counter the Twister! - Matrix Jiu Jitsu</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape and counter the Twister!</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

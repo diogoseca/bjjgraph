@@ -46,8 +46,8 @@ description: "Master the Kimura shoulder lock from Modified Mount. Learn grip me
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Victory MMA - Kimura from Mount position",
-      "description": "Kimura from Modified Mount film study: Victory MMA - Kimura from Mount position.",
+      "name": "Kimura from Mount position",
+      "description": "Kimura from Modified Mount film study: Kimura from Mount position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GDc3HlhB5rM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GDc3HlhB5rM",
       "url": "https://www.youtube.com/watch?v=GDc3HlhB5rM",
@@ -123,7 +123,7 @@ Strategically, this submission chains effectively with armbars and americanas fr
 
 ![](https://www.youtube.com/watch?v=GDc3HlhB5rM)
 
-<p class="clip-credit"><strong>Victory MMA - Kimura from Mount position</strong> · 1:30 · <a href="https://www.youtube.com/watch?v=GDc3HlhB5rM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura from Mount position</strong> · 1:30 · <a href="https://www.youtube.com/watch?v=GDc3HlhB5rM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

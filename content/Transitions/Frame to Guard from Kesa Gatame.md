@@ -36,6 +36,27 @@ description: "Master the frame to guard escape from Kesa Gatame in BJJ. Complete
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame to Guard from Kesa Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Frame Escape - Kesa Gatame",
+      "description": "Frame to Guard from Kesa Gatame film study: Frame Escape - Kesa Gatame.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ycqDAjT7Kr8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ycqDAjT7Kr8",
+      "url": "https://www.youtube.com/watch?v=ycqDAjT7Kr8",
+      "duration": "PT217S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Strategically, this escape works best when the top player commits weight forward
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame to Guard from Kesa Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ycqDAjT7Kr8)
+
+<p class="clip-credit"><strong>Frame Escape - Kesa Gatame</strong> · 3:37 · <a href="https://www.youtube.com/watch?v=ycqDAjT7Kr8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

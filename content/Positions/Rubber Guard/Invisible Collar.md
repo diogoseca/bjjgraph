@@ -46,8 +46,8 @@ description: "Invisible Collar is a high rubber-guard clinch in which the bottom
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Invisible Collar (MTS 134)",
-      "description": "Invisible Collar film study: Invisible Collar (MTS 134).",
+      "name": "Invisible Collar",
+      "description": "Invisible Collar film study: Invisible Collar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
       "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
@@ -128,7 +128,7 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 
 ![](https://www.youtube.com/watch?v=KCyIwacRKu8)
 
-<p class="clip-credit"><strong>Invisible Collar (MTS 134)</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible Collar</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

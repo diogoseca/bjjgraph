@@ -150,6 +150,27 @@ description: "How to defend against Standing to Single Leg X in BJJ. Recognition
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing to Single Leg X (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leglocks - Single Leg X counter from Standing (week 10)",
+      "description": "Standing to Single Leg X (Defender) film study: Leglocks - Single Leg X counter from Standing (week 10).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cNWAsbRmiyU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cNWAsbRmiyU",
+      "url": "https://www.youtube.com/watch?v=cNWAsbRmiyU",
+      "duration": "PT449S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -162,6 +183,24 @@ Defending the Standing to Single Leg X entry requires early recognition and deci
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing to Single Leg X (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cNWAsbRmiyU)
+
+<p class="clip-credit"><strong>Leglocks - Single Leg X counter from Standing (week 10)</strong> · 7:29 · <a href="https://www.youtube.com/watch?v=cNWAsbRmiyU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

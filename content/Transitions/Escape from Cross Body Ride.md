@@ -46,8 +46,8 @@ description: "Escape from Cross Body Ride in BJJ. Complete guide to clearing hoo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Purdue Camp 2022 - Escaping cross body ride",
-      "description": "Escape from Cross Body Ride film study: Purdue Camp 2022 - Escaping cross body ride.",
+      "name": "Escaping cross body ride",
+      "description": "Escape from Cross Body Ride film study: Escaping cross body ride.",
       "thumbnailUrl": "https://i.ytimg.com/vi/l7FuJKfhhug/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/l7FuJKfhhug",
       "url": "https://www.youtube.com/watch?v=l7FuJKfhhug",
@@ -117,7 +117,7 @@ Strategically, this escape represents a high-reward response to a deteriorating 
 
 ![](https://www.youtube.com/watch?v=l7FuJKfhhug)
 
-<p class="clip-credit"><strong>Purdue Camp 2022 - Escaping cross body ride</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=l7FuJKfhhug" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping cross body ride</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=l7FuJKfhhug" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

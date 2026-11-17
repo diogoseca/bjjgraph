@@ -180,8 +180,8 @@ description: "How to execute the Armbar from Side Control in BJJ. Attacking pers
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Arm Bar from Side Control || One Minute on the Mat || No Gi Jiu jitsu",
-      "description": "Armbar from Side Control (Attacker) film study: Arm Bar from Side Control || One Minute on the Mat || No Gi Jiu jitsu.",
+      "name": "Arm Bar from Side Control || No Gi Jiu jitsu",
+      "description": "Armbar from Side Control (Attacker) film study: Arm Bar from Side Control || No Gi Jiu jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hvmfvbXgH90/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hvmfvbXgH90",
       "url": "https://www.youtube.com/watch?v=hvmfvbXgH90",
@@ -216,7 +216,7 @@ The Armbar from Side Control represents a high-percentage submission from one of
 
 ![](https://www.youtube.com/watch?v=hvmfvbXgH90)
 
-<p class="clip-credit"><strong>Arm Bar from Side Control || One Minute on the Mat || No Gi Jiu jitsu</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=hvmfvbXgH90" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm Bar from Side Control || No Gi Jiu jitsu</strong> · 1:41 · <a href="https://www.youtube.com/watch?v=hvmfvbXgH90" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

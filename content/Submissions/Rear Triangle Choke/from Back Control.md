@@ -46,8 +46,8 @@ description: "Master Triangle Choke from Back Control in BJJ. Complete guide wit
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rear Triangle from Back by Gracie Charlottesville",
-      "description": "Rear Triangle Choke from Back Control film study: Rear Triangle from Back by Gracie Charlottesville.",
+      "name": "Rear Triangle from Back",
+      "description": "Rear Triangle Choke from Back Control film study: Rear Triangle from Back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/l5ayCZh3W78/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/l5ayCZh3W78",
       "url": "https://www.youtube.com/watch?v=l5ayCZh3W78",
@@ -133,7 +133,7 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 
 ![](https://www.youtube.com/watch?v=l5ayCZh3W78)
 
-<p class="clip-credit"><strong>Rear Triangle from Back by Gracie Charlottesville</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=l5ayCZh3W78" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear Triangle from Back</strong> · 0:32 · <a href="https://www.youtube.com/watch?v=l5ayCZh3W78" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

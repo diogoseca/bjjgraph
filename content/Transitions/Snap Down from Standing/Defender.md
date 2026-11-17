@@ -160,8 +160,8 @@ description: "Defend the snap down from standing in BJJ. Recognition cues, postu
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Clearing The Front Headlock - The School of Wrestling Technique",
-      "description": "Snap Down from Standing (Defender) film study: Clearing The Front Headlock - The School of Wrestling Technique.",
+      "name": "Clearing The Front Headlock",
+      "description": "Snap Down from Standing (Defender) film study: Clearing The Front Headlock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OZkTT8kT1G8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OZkTT8kT1G8",
       "url": "https://www.youtube.com/watch?v=OZkTT8kT1G8",
@@ -205,7 +205,7 @@ Defending the snap down from standing demands constant postural awareness, activ
 
 ![](https://www.youtube.com/watch?v=OZkTT8kT1G8)
 
-<p class="clip-credit"><strong>Clearing The Front Headlock - The School of Wrestling Technique</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=OZkTT8kT1G8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Clearing The Front Headlock</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=OZkTT8kT1G8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -190,8 +190,8 @@ description: "How to execute Half Guard Pass in BJJ. Attacking perspective with 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "1 Minute Jiu Jitsu Hack - Belly Up Half Guard Pass",
-      "description": "Half Guard Pass (Attacker) film study: 1 Minute Jiu Jitsu Hack - Belly Up Half Guard Pass.",
+      "name": "Belly Up Half Guard Pass",
+      "description": "Half Guard Pass (Attacker) film study: Belly Up Half Guard Pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ftsB4fpRROk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ftsB4fpRROk",
       "url": "https://www.youtube.com/watch?v=ftsB4fpRROk",
@@ -247,7 +247,7 @@ Successful half guard passing requires a combination of technical precision, pre
 
 ![](https://www.youtube.com/watch?v=ftsB4fpRROk)
 
-<p class="clip-credit"><strong>1 Minute Jiu Jitsu Hack - Belly Up Half Guard Pass</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=ftsB4fpRROk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Belly Up Half Guard Pass</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=ftsB4fpRROk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

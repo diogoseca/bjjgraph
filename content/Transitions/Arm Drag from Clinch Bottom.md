@@ -46,8 +46,8 @@ description: "Master the arm drag from clinch bottom in BJJ. Complete guide to g
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Train For Real // Arm Drag to Rear Clinch",
-      "description": "Arm Drag from Clinch Bottom film study: Train For Real // Arm Drag to Rear Clinch.",
+      "name": "Arm Drag to Rear Clinch",
+      "description": "Arm Drag from Clinch Bottom film study: Arm Drag to Rear Clinch.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rc36jRToKOk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rc36jRToKOk",
       "url": "https://www.youtube.com/watch?v=rc36jRToKOk",
@@ -107,7 +107,7 @@ In competitive BJJ and submission grappling, the arm drag from clinch serves as 
 
 ![](https://www.youtube.com/watch?v=rc36jRToKOk)
 
-<p class="clip-credit"><strong>Train For Real // Arm Drag to Rear Clinch</strong> · 0:30 · <a href="https://www.youtube.com/watch?v=rc36jRToKOk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm Drag to Rear Clinch</strong> · 0:30 · <a href="https://www.youtube.com/watch?v=rc36jRToKOk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,8 +46,8 @@ description: "Master Kimura Defense in BJJ. Complete defensive framework coverin
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura Grip Break BJJ technique at Mountain View dojo",
-      "description": "Kimura Defense film study: Kimura Grip Break BJJ technique at Mountain View dojo.",
+      "name": "Kimura Grip Break BJJ technique",
+      "description": "Kimura Defense film study: Kimura Grip Break BJJ technique.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pJG_2XYYaOw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pJG_2XYYaOw",
       "url": "https://www.youtube.com/watch?v=pJG_2XYYaOw",
@@ -115,7 +115,7 @@ Unlike many submission defenses that focus purely on escape, kimura defense inte
 
 ![](https://www.youtube.com/watch?v=pJG_2XYYaOw)
 
-<p class="clip-credit"><strong>Kimura Grip Break BJJ technique at Mountain View dojo</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=pJG_2XYYaOw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura Grip Break BJJ technique</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=pJG_2XYYaOw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

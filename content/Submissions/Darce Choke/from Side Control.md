@@ -56,8 +56,8 @@ description: "Learn the D'Arce head-and-arm choke from Side Control, including t
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "1 Minute Jiu-Jitsu Hack: Marce Choke",
-      "description": "Darce Choke from Side Control film study: 1 Minute Jiu-Jitsu Hack: Marce Choke.",
+      "name": "Marce Choke",
+      "description": "Darce Choke from Side Control film study: Marce Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hCiHjCbhGyE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hCiHjCbhGyE",
       "url": "https://www.youtube.com/watch?v=hCiHjCbhGyE",
@@ -151,7 +151,7 @@ The same family is taught from front headlock and half-guard exchanges. This ent
 
 ![](https://www.youtube.com/watch?v=hCiHjCbhGyE)
 
-<p class="clip-credit"><strong>1 Minute Jiu-Jitsu Hack: Marce Choke</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=hCiHjCbhGyE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Marce Choke</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=hCiHjCbhGyE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

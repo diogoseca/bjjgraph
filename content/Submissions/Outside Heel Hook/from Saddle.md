@@ -46,8 +46,8 @@ description: "Master the outside heel hook from saddle position with proper grip
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "GE Online Series - Episode 29 - Saddle To Outside Heel Hook",
-      "description": "Outside Heel Hook from Saddle film study: GE Online Series - Episode 29 - Saddle To Outside Heel Hook.",
+      "name": "Episode 29 - Saddle To Outside Heel Hook",
+      "description": "Outside Heel Hook from Saddle film study: Episode 29 - Saddle To Outside Heel Hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7ZrKaOZhGnU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7ZrKaOZhGnU",
       "url": "https://www.youtube.com/watch?v=7ZrKaOZhGnU",
@@ -113,7 +113,7 @@ The combination of inside and outside heel hook threats from the Saddle creates 
 
 ![](https://www.youtube.com/watch?v=7ZrKaOZhGnU)
 
-<p class="clip-credit"><strong>GE Online Series - Episode 29 - Saddle To Outside Heel Hook</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=7ZrKaOZhGnU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Episode 29 - Saddle To Outside Heel Hook</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=7ZrKaOZhGnU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -170,8 +170,8 @@ description: "Defend the Rear Naked Choke from Seat Belt Control Back. Recogniti
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "TMG Clips #67 - Escape The RNC",
-      "description": "Rear Naked Choke from Seat Belt Control Back (Defender) film study: TMG Clips #67 - Escape The RNC.",
+      "name": "Escape The RNC",
+      "description": "Rear Naked Choke from Seat Belt Control Back (Defender) film study: Escape The RNC.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R6W9P4_SMzY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/R6W9P4_SMzY",
       "url": "https://www.youtube.com/watch?v=R6W9P4_SMzY",
@@ -190,8 +190,8 @@ description: "Defend the Rear Naked Choke from Seat Belt Control Back. Recogniti
     {
       "@type": "VideoObject",
       "position": 4,
-      "name": "Back Escape + RNC Defence | Arete BJJ Malta",
-      "description": "Rear Naked Choke from Seat Belt Control Back (Defender) film study: Back Escape + RNC Defence | Arete BJJ Malta.",
+      "name": "Back Escape + RNC Defence",
+      "description": "Rear Naked Choke from Seat Belt Control Back (Defender) film study: Back Escape + RNC Defence.",
       "thumbnailUrl": "https://i.ytimg.com/vi/L1KeviYu1FQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/L1KeviYu1FQ",
       "url": "https://www.youtube.com/watch?v=L1KeviYu1FQ",
@@ -234,7 +234,7 @@ Defending the Rear Naked Choke from Seat Belt Control Back requires immediate re
 
 ![](https://www.youtube.com/watch?v=R6W9P4_SMzY)
 
-<p class="clip-credit"><strong>TMG Clips #67 - Escape The RNC</strong> · 1:43 · <a href="https://www.youtube.com/watch?v=R6W9P4_SMzY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape The RNC</strong> · 1:43 · <a href="https://www.youtube.com/watch?v=R6W9P4_SMzY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -250,7 +250,7 @@ Defending the Rear Naked Choke from Seat Belt Control Back requires immediate re
 
 ![](https://www.youtube.com/watch?v=L1KeviYu1FQ)
 
-<p class="clip-credit"><strong>Back Escape + RNC Defence | Arete BJJ Malta</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=L1KeviYu1FQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Escape + RNC Defence</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=L1KeviYu1FQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

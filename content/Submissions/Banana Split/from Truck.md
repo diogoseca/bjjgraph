@@ -46,8 +46,8 @@ description: "Master the Banana Split compression submission from the truck in B
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Banana split from the truck - Learn to Grapple",
-      "description": "Banana Split from Truck film study: Banana split from the truck - Learn to Grapple.",
+      "name": "Banana split from the truck",
+      "description": "Banana Split from Truck film study: Banana split from the truck.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AKmsVbDMo6o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AKmsVbDMo6o",
       "url": "https://www.youtube.com/watch?v=AKmsVbDMo6o",
@@ -133,7 +133,7 @@ The Banana Split integrates naturally into the truck attacking system alongside 
 
 ![](https://www.youtube.com/watch?v=AKmsVbDMo6o)
 
-<p class="clip-credit"><strong>Banana split from the truck - Learn to Grapple</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=AKmsVbDMo6o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Banana split from the truck</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=AKmsVbDMo6o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

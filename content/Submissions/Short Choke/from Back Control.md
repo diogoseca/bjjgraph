@@ -46,8 +46,8 @@ description: "Master the Short Choke from Back Control in BJJ. Learn cross-colla
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lapel Choke from Back Control - Rampage Jiu-Jitsu Academy",
-      "description": "Short Choke from Back Control film study: Lapel Choke from Back Control - Rampage Jiu-Jitsu Academy.",
+      "name": "Lapel Choke from Back Control",
+      "description": "Short Choke from Back Control film study: Lapel Choke from Back Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qkqvg7SEwzc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/qkqvg7SEwzc",
       "url": "https://www.youtube.com/watch?v=qkqvg7SEwzc",
@@ -123,7 +123,7 @@ Strategically, the Short Choke serves as a high-percentage complement to the Rea
 
 ![](https://www.youtube.com/watch?v=qkqvg7SEwzc)
 
-<p class="clip-credit"><strong>Lapel Choke from Back Control - Rampage Jiu-Jitsu Academy</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=qkqvg7SEwzc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lapel Choke from Back Control</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=qkqvg7SEwzc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

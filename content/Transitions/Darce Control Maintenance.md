@@ -46,8 +46,8 @@ description: "Master Darce Control maintenance in BJJ. Complete guide to grip re
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Darce / Brabo choke escape Moncaio Brothers Jiujitsu move of the day",
-      "description": "Darce Control Maintenance film study: Darce / Brabo choke escape Moncaio Brothers Jiujitsu move of the day.",
+      "name": "Darce / Brabo choke escape move of the day",
+      "description": "Darce Control Maintenance film study: Darce / Brabo choke escape move of the day.",
       "thumbnailUrl": "https://i.ytimg.com/vi/k58PT-1jyq0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/k58PT-1jyq0",
       "url": "https://www.youtube.com/watch?v=k58PT-1jyq0",
@@ -107,7 +107,7 @@ From a strategic perspective, Darce Control Maintenance functions as the bridge 
 
 ![](https://www.youtube.com/watch?v=k58PT-1jyq0)
 
-<p class="clip-credit"><strong>Darce / Brabo choke escape Moncaio Brothers Jiujitsu move of the day</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=k58PT-1jyq0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Darce / Brabo choke escape move of the day</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=k58PT-1jyq0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

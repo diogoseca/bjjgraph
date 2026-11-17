@@ -180,6 +180,16 @@ description: "Aoki Lock from Aoki Lock Control (attacker): Identify the turned-o
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Aoki Lock",
+      "description": "Aoki Lock from Aoki Lock Control (Attacker) film study: Aoki Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/47RpYri32QE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/47RpYri32QE",
+      "url": "https://www.youtube.com/watch?v=47RpYri32QE",
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Aoki lock breakdown",
       "description": "Aoki Lock from Aoki Lock Control (Attacker) film study: Aoki lock breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qRH7g21c6xQ/hqdefault.jpg",
@@ -189,7 +199,7 @@ description: "Aoki Lock from Aoki Lock Control (attacker): Identify the turned-o
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Rolling no-gi calf slicer",
       "description": "Aoki Lock from Aoki Lock Control (Attacker) film study: Rolling no-gi calf slicer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vMhOsw3wRQg/hqdefault.jpg",
@@ -199,7 +209,7 @@ description: "Aoki Lock from Aoki Lock Control (attacker): Identify the turned-o
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Bear trap into calf slicer",
       "description": "Aoki Lock from Aoki Lock Control (Attacker) film study: Bear trap into calf slicer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6M0HvIFfc-w/hqdefault.jpg",
@@ -239,6 +249,14 @@ Treat a switch to another leg lock as a new submission entry: release the Aoki r
 
 <p class="section-subtitle">Watch Aoki Lock from Aoki Lock Control (Attacker) in action — curated instructionals</p>
 
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=47RpYri32QE)
+
+<p class="clip-credit"><strong>Aoki Lock</strong> · 2:01 · <a href="https://www.youtube.com/watch?v=47RpYri32QE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 

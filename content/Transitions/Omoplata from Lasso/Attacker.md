@@ -186,8 +186,8 @@ description: "Learn to execute the Omoplata from Lasso Guard as the attacking bo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Omoplata from lasso guard with fav.uke",
-      "description": "Omoplata from Lasso (Attacker) film study: Omoplata from lasso guard with fav.uke.",
+      "name": "Omoplata from lasso guard",
+      "description": "Omoplata from Lasso (Attacker) film study: Omoplata from lasso guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/U_CEhwz8EpQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/U_CEhwz8EpQ",
       "url": "https://www.youtube.com/watch?v=U_CEhwz8EpQ",
@@ -221,7 +221,7 @@ As the attacker executing the Omoplata from Lasso, your primary advantage is tha
 
 ![](https://www.youtube.com/watch?v=U_CEhwz8EpQ)
 
-<p class="clip-credit"><strong>Omoplata from lasso guard with fav.uke</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=U_CEhwz8EpQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata from lasso guard</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=U_CEhwz8EpQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

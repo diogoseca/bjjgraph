@@ -160,8 +160,8 @@ description: "How to defend against Sit Through to Guard in BJJ. Recognition cue
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Turtle Position Technique | Preventing Guard Recovery | BJJ Techniques",
-      "description": "Sit Through to Guard (Defender) film study: Turtle Position Technique | Preventing Guard Recovery | BJJ Techniques.",
+      "name": "Turtle Position Technique | Preventing Guard Recovery",
+      "description": "Sit Through to Guard (Defender) film study: Turtle Position Technique | Preventing Guard Recovery.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cs87MxpXdB4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cs87MxpXdB4",
       "url": "https://www.youtube.com/watch?v=cs87MxpXdB4",
@@ -195,7 +195,7 @@ Defending the Sit Through to Guard requires the turtle top player to recognize e
 
 ![](https://www.youtube.com/watch?v=cs87MxpXdB4)
 
-<p class="clip-credit"><strong>Turtle Position Technique | Preventing Guard Recovery | BJJ Techniques</strong> · 2:07 · <a href="https://www.youtube.com/watch?v=cs87MxpXdB4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle Position Technique | Preventing Guard Recovery</strong> · 2:07 · <a href="https://www.youtube.com/watch?v=cs87MxpXdB4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

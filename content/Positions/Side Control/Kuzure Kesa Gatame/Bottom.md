@@ -176,8 +176,8 @@ description: "Defensive guide for escaping modified scarf hold. Learn arm recove
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing",
-      "description": "Kuzure Kesa Gatame (Bottom) film study: Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing.",
+      "name": "Kesa Gatame Pressure Defense Using Proper Framing",
+      "description": "Kuzure Kesa Gatame (Bottom) film study: Kesa Gatame Pressure Defense Using Proper Framing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
       "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
@@ -236,7 +236,7 @@ The position also demands exceptional conditioning and mental resilience. The co
 
 ![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
 
-<p class="clip-credit"><strong>Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense Using Proper Framing</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

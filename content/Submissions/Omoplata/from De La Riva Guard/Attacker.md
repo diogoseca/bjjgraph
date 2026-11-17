@@ -192,8 +192,8 @@ description: "Learn to attack the omoplata from De La Riva Guard with DLR leg sw
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Omoplata | De La Riva Fundamentals | Roseburg BJJ",
-      "description": "Omoplata from De La Riva Guard (Attacker) film study: Omoplata | De La Riva Fundamentals | Roseburg BJJ.",
+      "name": "Omoplata | De La Riva Fundamentals",
+      "description": "Omoplata from De La Riva Guard (Attacker) film study: Omoplata | De La Riva Fundamentals.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-8A6PGIp-P4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-8A6PGIp-P4",
       "url": "https://www.youtube.com/watch?v=-8A6PGIp-P4",
@@ -212,8 +212,8 @@ description: "Learn to attack the omoplata from De La Riva Guard with DLR leg sw
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Omoplata from De La Riva Guard | Pt. 1 | Jits Magazine | BJJ\u2026",
-      "description": "Omoplata from De La Riva Guard (Attacker) film study: Omoplata from De La Riva Guard | Pt. 1 | Jits Magazine | BJJ\u2026.",
+      "name": "Omoplata from De La Riva Guard | Pt. 1 | BJJ\u2026",
+      "description": "Omoplata from De La Riva Guard (Attacker) film study: Omoplata from De La Riva Guard | Pt. 1 | BJJ\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/akGJ-RfjkAg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/akGJ-RfjkAg",
       "url": "https://www.youtube.com/watch?v=akGJ-RfjkAg",
@@ -258,7 +258,7 @@ Attacking the omoplata from De La Riva Guard requires reading the opponent's wei
 
 ![](https://www.youtube.com/watch?v=-8A6PGIp-P4)
 
-<p class="clip-credit"><strong>Omoplata | De La Riva Fundamentals | Roseburg BJJ</strong> · 1:56 · <a href="https://www.youtube.com/watch?v=-8A6PGIp-P4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata | De La Riva Fundamentals</strong> · 1:56 · <a href="https://www.youtube.com/watch?v=-8A6PGIp-P4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -274,7 +274,7 @@ Attacking the omoplata from De La Riva Guard requires reading the opponent's wei
 
 ![](https://www.youtube.com/watch?v=akGJ-RfjkAg)
 
-<p class="clip-credit"><strong>Omoplata from De La Riva Guard | Pt. 1 | Jits Magazine | BJJ…</strong> · 2:44 · <a href="https://www.youtube.com/watch?v=akGJ-RfjkAg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata from De La Riva Guard | Pt. 1 | BJJ…</strong> · 2:44 · <a href="https://www.youtube.com/watch?v=akGJ-RfjkAg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

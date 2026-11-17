@@ -192,8 +192,8 @@ description: "Learn to execute the Technical Mount to Back Control transition. C
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Attack Sequence From Technical Mount \u0026 Back Take - DS Team Jiu Jitsu",
-      "description": "Technical Mount to Back Control (Attacker) film study: Attack Sequence From Technical Mount \u0026 Back Take - DS Team Jiu Jitsu.",
+      "name": "Attack Sequence From Technical Mount \u0026 Back Take",
+      "description": "Technical Mount to Back Control (Attacker) film study: Attack Sequence From Technical Mount \u0026 Back Take.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9bH-UvKJBf4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9bH-UvKJBf4",
       "url": "https://www.youtube.com/watch?v=9bH-UvKJBf4",
@@ -237,7 +237,7 @@ From the attacker's perspective, the Technical Mount to Back Control transition 
 
 ![](https://www.youtube.com/watch?v=9bH-UvKJBf4)
 
-<p class="clip-credit"><strong>Attack Sequence From Technical Mount &amp; Back Take - DS Team Jiu Jitsu</strong> · 2:55 · <a href="https://www.youtube.com/watch?v=9bH-UvKJBf4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Attack Sequence From Technical Mount &amp; Back Take</strong> · 2:55 · <a href="https://www.youtube.com/watch?v=9bH-UvKJBf4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

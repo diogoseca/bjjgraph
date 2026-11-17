@@ -180,8 +180,8 @@ description: "How to execute Frame and Shrimp to Guard in BJJ. Attacking perspec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "SPECTRUM JIU JITSU | FUNDAMENTALS | FRAME AND HIP ESCAPE VS LEG DRAG + PULLING\u2026",
-      "description": "Frame and Shrimp to Guard (Attacker) film study: SPECTRUM JIU JITSU | FUNDAMENTALS | FRAME AND HIP ESCAPE VS LEG DRAG + PULLING\u2026.",
+      "name": "FUNDAMENTALS | FRAME AND HIP ESCAPE VS LEG DRAG + PULLING\u2026",
+      "description": "Frame and Shrimp to Guard (Attacker) film study: FUNDAMENTALS | FRAME AND HIP ESCAPE VS LEG DRAG + PULLING\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0LzaRsziUW4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0LzaRsziUW4",
       "url": "https://www.youtube.com/watch?v=0LzaRsziUW4",
@@ -219,7 +219,7 @@ From a strategic perspective, Frame and Shrimp to Guard serves as your first lin
 
 ![](https://www.youtube.com/watch?v=0LzaRsziUW4)
 
-<p class="clip-credit"><strong>SPECTRUM JIU JITSU | FUNDAMENTALS | FRAME AND HIP ESCAPE VS LEG DRAG + PULLING…</strong> · 22:10 · <a href="https://www.youtube.com/watch?v=0LzaRsziUW4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>FUNDAMENTALS | FRAME AND HIP ESCAPE VS LEG DRAG + PULLING…</strong> · 22:10 · <a href="https://www.youtube.com/watch?v=0LzaRsziUW4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

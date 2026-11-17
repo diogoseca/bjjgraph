@@ -163,8 +163,8 @@ description: "Chill Dog bottom perspective: Keep the opposing hand on the mat an
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The London and Why It Left the 10th Planet System",
-      "description": "Chill Dog (Bottom) film study: The London and Why It Left the 10th Planet System.",
+      "name": "The London and Why It Left the System",
+      "description": "Chill Dog (Bottom) film study: The London and Why It Left the System.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kaVklKMW3aw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kaVklKMW3aw",
       "url": "https://www.youtube.com/watch?v=kaVklKMW3aw",
@@ -212,7 +212,7 @@ The knee-hugging arm maintains an overhook around the isolated upper arm as the 
 
 ![](https://www.youtube.com/watch?v=kaVklKMW3aw)
 
-<p class="clip-credit"><strong>The London and Why It Left the 10th Planet System</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=kaVklKMW3aw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The London and Why It Left the System</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=kaVklKMW3aw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -206,8 +206,8 @@ description: "How to execute the Twister Finish in BJJ. Attacking perspective wi
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Twister from Turtle (Try it out Tuesday)",
-      "description": "Twister from Russian Cowboy (Attacker) film study: Twister from Turtle (Try it out Tuesday).",
+      "name": "Twister from Turtle",
+      "description": "Twister from Russian Cowboy (Attacker) film study: Twister from Turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RVr67Kb-6ec/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RVr67Kb-6ec",
       "url": "https://www.youtube.com/watch?v=RVr67Kb-6ec",
@@ -272,7 +272,7 @@ The submission's danger profile demands extreme caution in training. The spinal 
 
 ![](https://www.youtube.com/watch?v=RVr67Kb-6ec)
 
-<p class="clip-credit"><strong>Twister from Turtle (Try it out Tuesday)</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=RVr67Kb-6ec" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister from Turtle</strong> · 0:24 · <a href="https://www.youtube.com/watch?v=RVr67Kb-6ec" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -56,8 +56,8 @@ description: "Master the Squid Guard Sweep in BJJ. Complete guide to lapel-based
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Squid guard variations and sweeps.    Great new bjj techniques.",
-      "description": "Squid Guard Sweep film study: Squid guard variations and sweeps.    Great new bjj techniques..",
+      "name": "Squid guard variations and sweeps.",
+      "description": "Squid Guard Sweep film study: Squid guard variations and sweeps..",
       "thumbnailUrl": "https://i.ytimg.com/vi/A_W-xOWwNaM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/A_W-xOWwNaM",
       "url": "https://www.youtube.com/watch?v=A_W-xOWwNaM",
@@ -125,7 +125,7 @@ Within the Squid Guard offensive framework, the sweep creates a foundational dil
 
 ![](https://www.youtube.com/watch?v=A_W-xOWwNaM)
 
-<p class="clip-credit"><strong>Squid guard variations and sweeps.    Great new bjj techniques.</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=A_W-xOWwNaM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Squid guard variations and sweeps.</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=A_W-xOWwNaM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -186,8 +186,8 @@ description: "Learn to execute the arm-in guillotine from front headlock with ex
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The Merge Ep. 36 - Front Headlock Setup to Arm In Guillotine Choke Finish",
-      "description": "Arm in Guillotine from Front Headlock (Attacker) film study: The Merge Ep. 36 - Front Headlock Setup to Arm In Guillotine Choke Finish.",
+      "name": "Front Headlock Setup to Arm In Guillotine Choke Finish",
+      "description": "Arm in Guillotine from Front Headlock (Attacker) film study: Front Headlock Setup to Arm In Guillotine Choke Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6mk44HMm720/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6mk44HMm720",
       "url": "https://www.youtube.com/watch?v=6mk44HMm720",
@@ -222,7 +222,7 @@ Executing the arm-in guillotine from front headlock requires recognizing the arm
 
 ![](https://www.youtube.com/watch?v=6mk44HMm720)
 
-<p class="clip-credit"><strong>The Merge Ep. 36 - Front Headlock Setup to Arm In Guillotine Choke Finish</strong> · 3:53 · <a href="https://www.youtube.com/watch?v=6mk44HMm720" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front Headlock Setup to Arm In Guillotine Choke Finish</strong> · 3:53 · <a href="https://www.youtube.com/watch?v=6mk44HMm720" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

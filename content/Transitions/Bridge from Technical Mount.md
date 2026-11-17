@@ -36,6 +36,27 @@ description: "Master the bridge escape from technical mount in BJJ. Complete gui
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge from Technical Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical mount escape: Underhook and bridge",
+      "description": "Bridge from Technical Mount film study: Technical mount escape: Underhook and bridge.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/flEsNMXs5qM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/flEsNMXs5qM",
+      "url": "https://www.youtube.com/watch?v=flEsNMXs5qM",
+      "duration": "PT166S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This escape serves as a foundational defensive tool that creates the space neces
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge from Technical Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=flEsNMXs5qM)
+
+<p class="clip-credit"><strong>Technical mount escape: Underhook and bridge</strong> · 2:46 · <a href="https://www.youtube.com/watch?v=flEsNMXs5qM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

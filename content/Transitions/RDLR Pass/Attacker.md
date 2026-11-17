@@ -192,8 +192,8 @@ description: "How to execute the RDLR Pass in BJJ. Complete attacking guide cove
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "RTC | Passing Reverse De La Riva",
-      "description": "RDLR Pass (Attacker) film study: RTC | Passing Reverse De La Riva.",
+      "name": "Passing Reverse De La Riva",
+      "description": "RDLR Pass (Attacker) film study: Passing Reverse De La Riva.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ynFpOlFWdLw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ynFpOlFWdLw",
       "url": "https://www.youtube.com/watch?v=ynFpOlFWdLw",
@@ -239,7 +239,7 @@ Success with this pass requires reading the guard player's weight distribution a
 
 ![](https://www.youtube.com/watch?v=ynFpOlFWdLw)
 
-<p class="clip-credit"><strong>RTC | Passing Reverse De La Riva</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=ynFpOlFWdLw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Reverse De La Riva</strong> · 1:08 · <a href="https://www.youtube.com/watch?v=ynFpOlFWdLw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
