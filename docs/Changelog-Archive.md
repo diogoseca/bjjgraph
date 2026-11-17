@@ -19844,3 +19844,19 @@ the technique words that may never be listed as people).
 - The brief's generator list had no `graph.json`, and the seat followed it: a grep of the emitted payload for the old
   wording caught the stale cards, and the gate's card check now does.
 - One clock time in a report was written from memory, four minutes off, and corrected from `date`.
+- A reworded wrong option was 39 characters against the one-line limit of 36 (`validate:mc`). The seat had read the
+  card for truth and never measured it; CI's own job, replayed locally, caught it. It is 35 now.
+
+**The capture (CAPPR1) and what followed.**
+- One guarded capture of `3d123a620`, accepted. No census field moved, no app row, no SEO floor: of the 20 sampled
+  routes only the Positions hub changed, by 16 characters.
+- Its package was adapted from CAPNN2's with a new chunk rule: every changed dossier chunk and deck chunk must follow
+  the base capture's chunk through this version's two tables (the reworded sentences; the titles, by video id), the
+  live-question files may move only in the ten reworded questions' entries, and `curriculum.json` only in its stamp.
+  Tested on the emitted payload before sealing, the first rule missed three shapes and was fixed: two clips sharing one
+  old title, a variant's name used as a key, and a string the emitter cuts with an ellipsis inside a reworded sentence.
+- Verified (exact movement), five controls refused, both baselines reseeded under the lock.
+- Dev v1.290.0 (PR #434, app code only) landed after the capture: merged by merge, the app rows re-seeded in their own
+  commit (no row moved; they equal dev's), no new capture.
+- Local runs on the final tree: `ci:validate`, 26 of 26 steps and 1,789 of 1,789 units; 25 journey files that render a
+  touched surface, 306 of 306; 5 generated spec files, 6 of 6.
