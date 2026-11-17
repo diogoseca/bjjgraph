@@ -55,8 +55,15 @@
 //   · one question is ONE thing, however many decks share it: asked once, worth the sum of its decks' weights (the rating's
 //     arithmetic), filed under one deck (its home) for the page.
 //
-// STAGE 3 ASKS CARDS ONLY. Today's Practice page has no way to ask a hidden move (that is Stage 4, the map asks), so the app
-// hands no moves in: a visit is at most 6 question cards. The law takes moves (`kind: "move"`) for the parity and for Stage 4.
+// STAGE 3 ASKS CARDS ONLY; STAGE 4 S0 (v1.286.0) BUILDS MOVES, AND THE APP DOES NOT ASK FOR THEM YET. Today's Practice page
+// has no way to ask a hidden move (that is Stage 4's S1, the map asks), so the app hands no move seat map in and a visit is
+// at most 6 question cards, byte for byte what it was. Handed one (`moveSeats`, below), the builder adds every move the
+// rating's game deals at a position the map can stand at, priced exactly as the rating prices it (seat weight × its share
+// of the seat's dealt hand / 100: the game's own figure, never recomputed here), its row the `moves` record's row for it
+// (`_moveKey`'s "<site ordinal>/<role>" and move ordinal). Escapes are never asked: no dealt hand holds one (the rating
+// leaves them out the same way), so their rows are counted with the rows that met no dealt move. A move row reads its own
+// answer (`r[3] === 1`, the rating's rule), never a card's interval rule, and a row without that answer is a bad row,
+// counted, as the rating counts it.
 //
 // research: docs/Changelog-Archive.md (v1.278.0).
 import { ngRatingRecall, ngRatingQ16, ngRatingNewerRow } from "./rating.src.js";
@@ -96,7 +103,8 @@ export function ngPracticeVisits({ items = [], day, goal = 20, guard = NG_PQ_GUA
     seatItems[k].push(it);
     const r = it.row;
     if (r == null) { isNew.add(it.id); worth.set(it.id, it.w * NG_PQ_NEW); counts.fresh++; continue; }
-    if (!ngPqRow(r)) { counts.badRow++; continue; }
+    // a move row carries its answer at [3] (the rating reads it there, and counts a shorter row as bad): never priced without it
+    if (!ngPqRow(r) || (it.kind === "move" && r.length < 4)) { counts.badRow++; continue; }
     if (r[2] >= day) { counts.today++; continue; }    // answered today: it already counted
     if (r[0] > day) { counts.later++; continue; }     // not due yet
     const right = it.kind === "move" ? r[3] === 1 : r[1] > 1 || (ngPqNum(it.stage) && it.stage > 0);
@@ -175,9 +183,23 @@ export function ngPracticeVisits({ items = [], day, goal = 20, guard = NG_PQ_GUA
  * (`_ratingLiveNow`, PR #405; never fetched here): a stored question its deck no longer has is dropped and counted
  * (`blocked`), and only a question known to be answerable is `sure` (the guard's own test). Returns {status, items,
  * counts}; status "ok" or why not. `counts.outsideDue`: due questions no deck of this ruleset's game prices.
+ * MOVES (Stage 4 S0), only when the caller hands `moveSeats`:
+ *   moves      the `moves` record {"<posOrd>/<role>": {"<moveOrd>" | "e" + qhash: [due, interval, last, answer, …]}}
+ *   moveSeats  {"<posOrd>/<role>": "<Family>|Top" | "<Family>|Bottom"}: the position each of the game's seats is asked at,
+ *              the same strings `seats` gives a card, so a position's moves and cards are one visit. A seat it does not
+ *              name (the "…-Control" seats `_practiceSeats` skips) is a place the map cannot stand at: its moves are
+ *              counted (`movesUnseated`), never asked loose.
+ * Each dealt move is one item {id: "m:<seat>:<move>", kind: "move", seat, w: the game's own price, row, key, move}; a stored
+ * value that is not a row is handed to the law as it is (a bad row, counted there), never read as new; a stored null is
+ * no row (new), as the pull's merge would leave it, and met its move (not `movesUnmatched`). Counted, positive,
+ * so a join that matched nothing cannot pass for a player who knows no move: `moves` (dealt moves read), `movesOutside` (a
+ * null cell: not dealt there in this ruleset), `movesUnseated`, `moveRows` (rows stored) and `movesUnmatched` (rows no
+ * dealt, seated move took: escapes, the other ruleset's seats, a move this build no longer deals there).
  */
-export function ngPracticeItems({ day, srs, stage, decks, game, seats, live } = {}) {
+export function ngPracticeItems({ day, srs, stage, decks, game, seats, live, moves, moveSeats } = {}) {
   const counts = { questions: 0, outside: 0, outsideDue: 0, unknownDeck: 0, blocked: 0, slots: 0 };
+  const withMoves = moveSeats != null && typeof moveSeats === "object";
+  if (withMoves) Object.assign(counts, { moves: 0, movesOutside: 0, movesUnseated: 0, moveRows: 0, movesUnmatched: 0 });
   const fail = (status) => ({ status, items: [], counts });
   if (!game || game.status !== "ok" || !(game.deckUnit instanceof Map)) return fail((game && game.status !== "ok" && game.status) || "no-game");
   if (!seats || !Object.keys(seats).length) return fail("no-seats");
@@ -210,7 +232,14 @@ export function ngPracticeItems({ day, srs, stage, decks, game, seats, live } = 
       q.decks.push(dk);
     }
   }
-  if (!byQ.size) return fail("empty");
+  // the moves record's rows (S0): any stored row is an answer, so a record of moves alone is a session, never "empty"
+  const mrec = withMoves && moves && typeof moves === "object" ? moves : {}, mrows = [];
+  for (const st of Object.keys(mrec)) {
+    const rows = mrec[st];
+    if (rows && typeof rows === "object") for (const mv of Object.keys(rows)) mrows.push(st + ":" + mv);
+  }
+  if (withMoves) counts.moveRows = mrows.length;
+  if (!byQ.size && !mrows.length) return fail("empty");
   const st = (qh, list) => list.reduce((m, dk) => Math.max(m, (stage && stage[dk] && ngPqNum(stage[dk][qh]) && stage[dk][qh]) || 0), 0);
   // the decks a question is in, its weight and its home; null when no deck of this ruleset's game prices it
   const place = (qh, list) => {
@@ -250,6 +279,23 @@ export function ngPracticeItems({ day, srs, stage, decks, game, seats, live } = 
     const pending = d.exact ? 0 : Math.min(left, Math.max(0, d.count - known.length));
     for (let i = 0; i < pending; i++) { items.push({ id: dk + "#" + i, kind: "card", seat: seats[dk] || null, w: u, row: null, deck: dk, slot: true }); counts.slots++; }
   }
+  // THE MOVES (S0): every move this ruleset's game deals, at a seat the caller can ask it at, priced by the game itself
+  if (withMoves) {
+    const met = new Set();
+    for (const [st, hand] of game.seats instanceof Map ? game.seats : []) {
+      const seat = own(moveSeats, st) && typeof moveSeats[st] === "string" ? moveSeats[st] : null;
+      const rows = own(mrec, st) && mrec[st] && typeof mrec[st] === "object" ? mrec[st] : null;
+      for (const [mv, v] of hand) {
+        counts.moves++;
+        if (!ngPqNum(v)) { counts.movesOutside++; continue; }    // §3: a null cell is "not dealt here", never a price
+        if (seat == null) { counts.movesUnseated++; continue; }  // no place on the map to ask it: never asked loose
+        const has = !!rows && own(rows, mv), r = has ? rows[mv] : null;   // a stored null met its move: read as no row (new)
+        if (has) met.add(st + ":" + mv);
+        items.push({ id: "m:" + st + ":" + mv, kind: "move", seat, w: v, row: r, key: st, move: mv });
+      }
+    }
+    counts.movesUnmatched = mrows.filter((k) => !met.has(k)).length;
+  }
   // TRAFFIC ORDER, a strict total order: heaviest first, then the id (content)
   items.sort((a, b) => b.w - a.w || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
   return { status: "ok", items, counts };
@@ -260,15 +306,21 @@ export function ngPracticeItems({ day, srs, stage, decks, game, seats, live } = 
  * Returns {status, rows, visits, counts, law}: `rows` [{key, seat, visit, questions, owed, pending, count}], `visits`
  * [{seat, keys}], one a position (a position the law visited twice is one position on the page, its rows together),
  * `counts` {built: the builder's, law: the law's, asked, askedNew}.
+ * With `moveSeats` handed in (S0), the asked moves are NOT deck rows: each visit also lists its moves (`visits[i].moves`, in
+ * the law's order, before its cards as the law asks them) and `moves` lists them all in order, [{id, key, move, seat, visit,
+ * owed}], `owed` true for a move with a row (due), false for a new one; `counts.askedMoves` counts them. Without it, no
+ * field is added anywhere: the page's shape is today's.
  */
-export function ngPracticeOrder({ day, goal, srs, stage, decks, game, seats, live } = {}) {
-  const built = ngPracticeItems({ day, srs, stage, decks, game, seats, live });
+export function ngPracticeOrder({ day, goal, srs, stage, decks, game, seats, live, moves, moveSeats } = {}) {
+  const built = ngPracticeItems({ day, srs, stage, decks, game, seats, live, moves, moveSeats });
   if (built.status !== "ok") return { status: built.status, rows: [], visits: [], counts: { built: built.counts } };
   const law = ngPracticeVisits({ items: built.items, day, goal: Math.max(0, goal) });
   const byId = new Map(built.items.map((it) => [it.id, it]));
-  const visits = [], seatVisit = new Map(), rows = new Map();
+  const withMoves = moveSeats != null && typeof moveSeats === "object";
+  const visits = [], seatVisit = new Map(), rows = new Map(), asks = [];
   const put = (id, v) => {
     const it = byId.get(id);
+    if (it.kind === "move") { visits[v].moves.push(id); asks.push({ id, key: it.key, move: it.move, seat: it.seat, visit: v, owed: it.row != null }); return; }
     let r = rows.get(it.deck);
     if (!r) rows.set(it.deck, (r = { key: it.deck, seat: it.seat, visit: v, questions: [], owed: [], pending: 0, at: rows.size }));
     if (it.slot) r.pending++; else r.questions.push(id);
@@ -276,7 +328,7 @@ export function ngPracticeOrder({ day, goal, srs, stage, decks, game, seats, liv
     if (!visits[r.visit].keys.includes(r.key)) visits[r.visit].keys.push(r.key);
   };
   for (const v of law.visits) {
-    if (!seatVisit.has(v.seat)) seatVisit.set(v.seat, visits.push({ seat: v.seat, keys: [] }) - 1);
+    if (!seatVisit.has(v.seat)) seatVisit.set(v.seat, visits.push(withMoves ? { seat: v.seat, keys: [], moves: [] } : { seat: v.seat, keys: [] }) - 1);
     for (const id of v.ids) put(id, seatVisit.get(v.seat));
   }
   const list = [...rows.values()].sort((a, b) => a.visit - b.visit || a.at - b.at)
@@ -284,5 +336,6 @@ export function ngPracticeOrder({ day, goal, srs, stage, decks, game, seats, liv
   // `lawVisits`: each visit the law made, its position and its size (at most 6), before the page folds a second visit of a
   // position into its first (ANKI1-R1, the reader's finding 4: the page then shows them all, in order)
   return { status: "ok", rows: list, visits, counts: { built: built.counts, law: law.counts, asked: law.n, askedNew: law.fresh,
-    lawVisits: law.visits.map((v) => [v.seat, v.ids.length]) }, law };
+    lawVisits: law.visits.map((v) => [v.seat, v.ids.length]), ...(withMoves ? { askedMoves: asks.length } : {}) }, law,
+    ...(withMoves ? { moves: asks } : {}) };
 }

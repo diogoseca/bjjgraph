@@ -19485,78 +19485,78 @@ read and scrolled; the theater dims the page until it closes (pictures 03 and 04
 `_landFilmMoved` still exist and serve no state a press can reach (a playing clip is never inside the reader's host);
 `pauseLandFilm` keeps its own direct test. The Forward catalog mock may still draw the old modal (no parity gate).
 
-## v1.284.0 — The Path row leaves the drawer: its corridor is Master the game's, every door to it lands there, and the White objective's beat moves with it (SET1 slice B; the owner, 2026-11-15; his four small losses accepted 2026-11-16)
+## v1.286.0 — The Practice order builds moves: priced by the rating's own game, at their position; the app does not ask yet (STAGE4 S0, 2026-11-16)
 
-**The owner (15 Nov):** "it's time to remove the Path section from the sidebar". Master the game already drew the whole
-corridor with the same renderer (`_practiceCorridor` → `renderChallenges`, now its one caller).
+**Ruled (STAGE4-GO, 16 Nov):** build S0 as `reports/mapasks.md` Part 4 says: the order Practice asks in takes the moves
+the rating prices, so a later stage can ask them; nothing a player sees changes.
 
-**Four small losses, accepted:**
-1. the row's "N of M units";
-2. a lesson tap staging a roll (its orb and Explore row still do);
-3. the "N of 20 today" band (the Master the game row is that door);
-4. `neural_challenges_viewed`, which ends on the ship day (§6.7). `neural_practice_opened` carries on: surface "practice"
-   for the row, "corridor" for a corridor door (PATH-R1).
+**What changed.** `ngPracticeItems` (practice-queue.src.js) takes `moves` (the moves record) and `moveSeats`
+({"<site ordinal>/<role>": "<Family>|Top|Bottom"}). Only with `moveSeats` does it build moves: every move the rating's
+game deals (`ngRatingUniverse`'s `seats`), priced at the game's own figure (read, never recomputed), its row the record's
+row under `_moveKey`'s seat and role, id "m:<seat>:<move>". Counted and never asked: null cells (`movesOutside`), seats
+with no position (`movesUnseated`), rows no dealt, seated move took (`movesUnmatched`: escapes, the other ruleset's
+seats). A record of move rows alone is a session. The law counts a move row without its answer at [3] as a bad row, as
+the rating does, and reads its schedule at index 4 (LIN1). `ngPracticeOrder` lists each visit's moves apart from the
+deck rows. The planner passes them through, keys its memo on the record, the seat map and the revision (`_gradeMove`
+edits in place; a pull replaces), and, only with moves asked, counts every move answer of the day 1 toward the goal in
+every place `overrun` is computed. Without `moveSeats` every output is today's, field for field: `planSummary` hands
+none, so today's page is unchanged.
 
-**Moved:**
-- **P22:** "Open Challenges" fires on the corridor's first visible draw per drawer opening.
-- **O1:** View Collection opens Master the game with the shelf open and in view.
-- **O3:** `openCorridor` is the one door (`setViewMode`, `openLearningView`, `openPane`).
-- **O2:** a stored `challengeView` of challenges, collection or path lands on the list and is never written back.
-- **O4:** "Belt lessons" for "From the Path".
+**Found while building.** With no deck loaded, a move can take one of the guard's three places where a card cannot (a
+dealt move is always answerable; ANKI1-R1's `sure`). The law as ruled.
 
-**Deleted** (only the Path reached them): the row and its glyph, `renderTabSubtitles`, the band and its observer, the
-arrival scroll, the Path's inline lesson deck with `_lessonRows` and its keys (`challengeLessonNav`, `_challengeInline`),
-the online/offline repaint, `NG_PRACTICE_START_SHORT`.
+**Measured on the real wire:** gi deals 1,350 moves at 242 seats (18 null), no-gi 1,206 at 218; the move items add up to
+the game's `moveTotal` within 1e-9; no seat is unnamed.
 
-**Kept by Master the game, found by the runs:** the corridor repaints on evidence (`noteChallenges`) and on a gi flip; the
-shelf's open state survives a repaint; View Collection's scroll holds until the player moves (`_scrollFocusedDeck` yields).
+**Mutants:** 23 (11, 7 for the reader's findings, 3 for its re-check, 2 for the orchestrator's reader: a moves row read
+at index 3 or 5, which passed all 201 tests until a writer-made rung-pair row and the review's x and y order pinned the
+read at 4), each applied alone and red on a named test; the table, with the test each turns red, is the header of
+tests/practice_queue.test.mjs. **Not covered:** the app's own seat map (S1); the simulation's "seen" move has no row in
+the app (the replay hands it in as a non-row; on the app's record such a move is new).
 
-**A latent fault fixed (found by another seat):** `challengeAction` called `openHomeToLatest()`, deleted in v1.174.0, so a
-study, checkpoint or capstone action whose belt had no live lesson threw a TypeError. `_challengeActionTarget` resolves an
-action once, for the row and the press; a row with nothing to open draws no button.
+**The independent read** (an Opus reader, two rounds). Claim 1 held: dev against the branch with no seat map, real wire,
+both rulesets: 612, then 884 comparisons, 0 differences. Fixed and pinned: `overrun` dropped the moves where a deck's
+cards land and in today's order; seven surviving mutants. Its questions went to S1 (ruling 5's first-look row is owed
+tomorrow at full worth, which the frozen days never held; the guard's "three cards" words; a threat asked at the
+opponent's seat).
 
-**Specs:**
-- `j.openCorridor()` is the one DSL door (Master the game's row by mouse, then "Show earlier belts").
-- The Path's own claims retired with their reasons in place: sidebar, belt-worn, the band, "Continue is gone", keyboard's
-  two, P1-F.
-- Re-pointed: telemetry, O1, legacy views, fog, gi flip.
-- 4 deploy-gate rows retitled.
+**Bytes.** Final, on dev v1.283.0: gameplan.js 21,885 -> 23,457 B (+1,572, S0's own); the deferred ceiling is 522,323 B
+(the use 522,320 after #427's reader.js -3 B; 27,677 B of 550,000 remain); eager: none. One count went wrong and is
+corrected in the history (ae773bb31, then 0bdbecb84): a stale game worker core left in the served folder by this branch's
+own earlier build was counted beside the live one (+70,372 B). The served app folders are now emptied before a count.
+App rows re-seeded under the lock on each merged head (5358623c6, 858f11ed1).
 
-**Runs** (17 Nov):
-- **Survey, 102 spec files:** 705/715 journeys. The reds: 2 were my premise, fixed; 8 were legal-pages against this
-  worktree's 10 Nov built page. Generated specs 31/31.
-- **Payload:** eager −1,825 B gzip against A's head.
-- **`ci:validate`:** 25/25.
+**Runs** (local, times from `date`): the units of every touched file after each merge of dev; the mutant runs;
+`npm run ci:validate` on each final head; the bundle, the count and the app rows under the lock. The full suites run on
+the PR (e2e-full, green on de56390ba).
 
-**Mutants**, each red after a neutral control:
-- B1, the row back → sidebar;
-- B3, no gi repaint → gen gimode;
-- B4, the shelf state → challenges-ui;
-- B6, the view written back and B7, no beat → telemetry and challenges-ui;
-- B8, no route → three specs;
-- B9, the dead call → "no button on a row with nothing to open".
+## v1.287.0 — The Path row leaves the drawer; its corridor lives in Master the game (SET1 slice B, PR #430)
 
-B2 (the evidence repaint) and B5 (the scroll yield) survived with no gate, and are now pinned in challenges-ui and red.
+**What changed:**
+- The owner (15 Nov): "remove the Path section from the sidebar". Four small losses, accepted 16 Nov: the row's units
+  count, a lesson tap staging a roll, the "N of 20 today" band, and `neural_challenges_viewed`.
+- `neural_practice_opened` carries on: surface "practice" for the row, "corridor" for a corridor door.
+- `openCorridor` is the one door. A stored Path view lands on the list and is never written back. "Open Challenges" fires
+  on the corridor's first visible draw.
+- **A latent fault fixed:** `openHomeToLatest()`, deleted in v1.174.0, threw on a study action with no live lesson. Such
+  a row now draws no button.
 
-**PATH-R1, the independent read (17 Nov), six rulings built:**
-1. View Collection's door sets the shelf's flag and counts its visit in the same turn. A toggle counts only a
-   closed-to-open change of the shelf on the page; a warm plan's re-render drew it closed.
-2. Corridor doors send `neural_practice_opened` with surface "corridor".
-3. An earlier belt whose test can be started is drawn in the first draw.
-4. ‹ Back from a corridor checkpoint returns to Master the game, its row held in view.
+**PATH-R1, the independent read, six rulings:**
+1. View Collection's door sets the shelf flag in its own turn: a warm repaint had drawn the shelf closed.
+2. Corridor doors send surface "corridor".
+3. A startable earlier belt test is drawn first.
+4. ‹ Back from a corridor checkpoint returns there.
 5. The collection door lands on the shelf, and a lesson's ▸ reads "Study this lesson's cards".
-6. The reading position is pinned again.
+6. The reading position is pinned.
 
-Journeys: corridor-reach (both sizes) and telemetry's surface test.
+**PATH-R2:**
+- The Back hold's release is pinned: a key, a wheel, a mouse press and a finger drag each let it go.
+- `openPane("challenges")` goes through `openCorridor`.
 
-**Runs** (17 Nov, dev v1.283.0 merged):
-- corridor-reach 17/17, challenges-ui 18/18, keyboard and challenge-curriculum green.
-- challenges-ui's frontier journey now seeds won earlier belts: its subject is where the corridor starts.
+**Mutants:**
+- Each ruling's mutant is red at its named assertion in corridor-reach or the telemetry spec, after a green control.
+- B2 and B5 had no gate at first, and are now pinned.
+- My "no non-kills" for PATH-R1 was wrong: the four lifters removed together stayed green until PATH-R2. PATH_R2_RESULT
 
-**Mutants**, each red after a green control:
-1. the flag from the toggle → "at 0.4 s the shelf is open";
-2. the surface "practice" → telemetry;
-3. the exception removed → "Blue's head is drawn without the reveal";
-4. Back to the list → "back in Master the game";
-5. 5a through `openExplorer` → "lands in Master the game";
-6. the repaint to the top → "the reading position holds".
+Runs, bytes and the full rulings are in the PR body. corridor-reach.spec.ts names its non-kill and one known limit (a
+shelf press in the instant the plan lands).
