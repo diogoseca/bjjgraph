@@ -8944,7 +8944,7 @@ class Component extends DCLogic {
     else if (p.call === "logo") this.toggleExplorer();
     else this.openPane(p.view);
   }
-  // THE READER'S REFERENCE PAGE HAS ITS RECORD (reader.src.js `highlightReference`, after the concepts or the system record
+  // THE READER'S REFERENCE PAGE HAS ITS RECORD (reader.src.js, its reference highlight, after the concepts or the system record
   // are fetched): its id is set and the map lit, as before. AND AN OPEN DRAWER ON EXPLORE'S ROOT TURNS TO THE PAGE'S OWN
   // ENTRY (EARLY1-R2; the reader of #432, its re-read: on a principle, a system and a learning page the early press ended
   // on the root list where a late press ends on the entry, 6 of 6, the state contradicting itself with the id set under
@@ -8952,13 +8952,13 @@ class Component extends DCLogic {
   // moments after the data: a race dev has too) had built the root list and stayed on it. So when the drawer shows that
   // list, with no query typed and no entry the player opened, it is drawn again with the id. Here and not in the reader,
   // whose file is a deferred payload at its ceiling.
-  _referenceLanded(system, id) {
+  _referenceLanded(system, id, light) {
     const list = this.explorerListRef.current;
     const onRoot = !!(this.deckShown && this._viewMode === "explore" && !this._paneStudyActive() && !(this._exQ || "").trim() &&
       list && !list.querySelector("[data-concept-detail], [data-system-detail]"));
     if (system) { this._systemId = id; this._systemRecordStatus = "ready"; }
     else this._conceptId = id;
-    this._reader.lightReference();
+    light();   // the reader's own map light (a reader-only method, its name mangled in that bundle: handed over)
     if (onRoot) this.renderExplorer();
   }
   // the remembered press, and the pressed look of the control that took it (`aria-busy`) until it is honoured or taken

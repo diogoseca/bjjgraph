@@ -421,7 +421,8 @@ class Reader {
     else { await a._ensureConcepts(); record = a._conceptsById?.[id]; }
     if (!record || serial !== this.renderSerial || a.__ngDestroyed || !this.intent) return;
     this.reference = { record, system };
-    a._referenceLanded(system, id);   // the id, the map lit, and an open drawer turned to the entry (EARLY1-R2, app.src.jsx)
+    // the id, the map lit (`lightReference`, a reader-only name, so handed over), and an open drawer turned to the entry
+    a._referenceLanded(system, id, () => this.lightReference());   // EARLY1-R2, app.src.jsx
   }
   lightReference() {
     if (!this.reference) return;
