@@ -174,6 +174,13 @@ jobs:
       - name: App titles match every built node and reference page
         run: npm run validate:page-titles
 
+      # NO NAMES (v1.288.0, owner U195 a + U196 b): the BUILT pages carry no "taught by" credit and no
+      # JSON-LD creator, and the served payload no clip `by`. Positive counts; it fails when it saw nothing.
+      # A shared build step (also the last of `npm run build`), so it sits with the other final-output checks,
+      # before the deploy-only gates (scripts/check_build_chains.py).
+      - name: No person's name in clip credits, structured data or the served payload
+        run: npm run validate:no-names:built
+
       # Every displayed placeholder fails, with or without a configured ref.
       - name: Systems payload gate (dead highlights + dead affiliate links)
         env:
@@ -186,11 +193,6 @@ jobs:
         env:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
         run: python3 scripts/check_affiliate_surface.py --built
-
-      # NO NAMES (v1.288.0, owner U195 a + U196 b): the BUILT pages carry no "taught by" credit and no
-      # JSON-LD creator, and the served payload no clip `by`. Positive counts; it fails when it saw nothing.
-      - name: No person's name in clip credits, structured data or the served payload
-        run: python3 scripts/check_no_names.py --built
 
       # ANALYTICS SURFACE GATE — PARITY with prod, and deliberately the earlier of the two places
       # it runs. The preview is where a keyless build would first be visible, and it is the branch
