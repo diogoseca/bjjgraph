@@ -175,8 +175,8 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Iceland Camp 2020: S-Mount",
-      "description": "S Mount (Top) film study: Iceland Camp 2020: S-Mount.",
+      "name": "S-Mount",
+      "description": "S Mount (Top) film study: S-Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/deKLnJCOKHQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/deKLnJCOKHQ",
       "url": "https://www.youtube.com/watch?v=deKLnJCOKHQ",
@@ -224,7 +224,7 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 
 ![](https://www.youtube.com/watch?v=deKLnJCOKHQ)
 
-<p class="clip-credit"><strong>Iceland Camp 2020: S-Mount</strong> · 30:00 · <a href="https://www.youtube.com/watch?v=deKLnJCOKHQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>S-Mount</strong> · 30:00 · <a href="https://www.youtube.com/watch?v=deKLnJCOKHQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

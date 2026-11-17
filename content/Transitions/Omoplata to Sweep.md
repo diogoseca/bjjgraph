@@ -66,8 +66,8 @@ description: "Learn the Omoplata to Sweep transition in BJJ. Step-by-step execut
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Omoplata Sweep vs Standing Opponent | BJJ in Chester County PA",
-      "description": "Omoplata to Sweep film study: Omoplata Sweep vs Standing Opponent | BJJ in Chester County PA.",
+      "name": "Omoplata Sweep vs Standing Opponent",
+      "description": "Omoplata to Sweep film study: Omoplata Sweep vs Standing Opponent.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IYbdBR0ilb4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IYbdBR0ilb4",
       "url": "https://www.youtube.com/watch?v=IYbdBR0ilb4",
@@ -143,7 +143,7 @@ At the competitive level, this sweep functions as insurance for omoplata attacks
 
 ![](https://www.youtube.com/watch?v=IYbdBR0ilb4)
 
-<p class="clip-credit"><strong>Omoplata Sweep vs Standing Opponent | BJJ in Chester County PA</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=IYbdBR0ilb4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata Sweep vs Standing Opponent</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=IYbdBR0ilb4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

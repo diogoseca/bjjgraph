@@ -46,8 +46,8 @@ description: "Learn the Twister Finish from Russian Cowboy in BJJ. Spinal lock s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Twister - With 3 Flores",
-      "description": "Twister from Russian Cowboy film study: Twister - With 3 Flores.",
+      "name": "Twister",
+      "description": "Twister from Russian Cowboy film study: Twister.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FjWN_aBp2eE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FjWN_aBp2eE",
       "url": "https://www.youtube.com/watch?v=FjWN_aBp2eE",
@@ -143,7 +143,7 @@ The submission's danger profile demands extreme caution in training. The spinal 
 
 ![](https://www.youtube.com/watch?v=FjWN_aBp2eE)
 
-<p class="clip-credit"><strong>Twister - With 3 Flores</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=FjWN_aBp2eE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister</strong> · 0:49 · <a href="https://www.youtube.com/watch?v=FjWN_aBp2eE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

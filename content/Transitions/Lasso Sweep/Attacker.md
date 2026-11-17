@@ -196,8 +196,8 @@ description: "Master executing the Lasso Sweep from bottom position. Learn grip 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Sweep from Leg Lasso with One Jiu Jitsu Black Belt",
-      "description": "Lasso Sweep (Attacker) film study: Sweep from Leg Lasso with One Jiu Jitsu Black Belt.",
+      "name": "Sweep from Leg Lasso",
+      "description": "Lasso Sweep (Attacker) film study: Sweep from Leg Lasso.",
       "thumbnailUrl": "https://i.ytimg.com/vi/42uccYQUAgE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/42uccYQUAgE",
       "url": "https://www.youtube.com/watch?v=42uccYQUAgE",
@@ -239,7 +239,7 @@ Executing the Lasso Sweep requires understanding the precise mechanical interact
 
 ![](https://www.youtube.com/watch?v=42uccYQUAgE)
 
-<p class="clip-credit"><strong>Sweep from Leg Lasso with One Jiu Jitsu Black Belt</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=42uccYQUAgE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sweep from Leg Lasso</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=42uccYQUAgE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
