@@ -1247,8 +1247,12 @@ class Component extends DCLogic {
         // A to C, Enter, Space, P, the arrows and the paging keys are each scoped to the drawer's own surface or stand down
         // with the landing card). Where the drawer stands BESIDE the board the card can be pressed, the press plays it, and
         // so does its digit: one function, and the drawer's claim on the clock ends with the move (`setPaused`). Where the
-        // drawer IS the screen (a phone's width) it covers the hand and no press can reach a card: its digit played that
-        // card anyway, unseen, behind the drawer (measured at 600 wide, 1 of 1). There the digit does nothing, as the press.
+        // drawer IS the screen (a phone's width, `isMobile`) it covers the hand: at 600 and at 640 wide no card can be
+        // reached by a press (0 of 18, the reader of PR #441), and a digit played one anyway, unseen, behind the drawer
+        // (600 wide, 1 of 1). There the digit does nothing. AS IT IS, NOT TIDIER: at 390 the drawer is 343 px wide and the
+        // ends of two of the hand's cards show beside it; a touch on one plays it with the drawer open, on dev and here
+        // alike, while its digit is refused. The rule here is by WIDTH, not by reach; one condition by reach, for a
+        // digit, a click and a touch at `activateOption`, is the next job's (FOLLOW2).
         // Q007: an open checkpoint quiz owns the keyboard — digits above the MC option
         // count must never fall through to the roll's option-card openers (a '5' opened
         // the expand sheet and Enter then COMMITTED the roll under the live quiz)
@@ -19397,7 +19401,13 @@ class Component extends DCLogic {
    *  caller: an open Explore search or Challenges scroll must never be stomped, and a study
    *  takeover owns the pane. `buildDrillPanel` carries the same guard for the roll loop. */
   _refreshHistoryRows() {
-    if (this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive()) this.renderDrillHome();
+    if (!(this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive())) return;
+    // THE LIST KEEPS ITS PLACE ACROSS THIS REPAINT (FOLLOW1-R1): a film's start, stop and own end each redraw the rows, and
+    // the press that started the film is on one of them. The redraw empties the list first; without this the scroll is
+    // whatever the browser leaves it. No row moves under a finger (`_seatReplayBar` has the other half of that rule).
+    const list = this.drillListRef.current, y = list ? list.scrollTop : 0;
+    this.renderDrillHome();
+    if (list && list.scrollTop !== y) list.scrollTop = y;
   }
   /**
    * THE FILM'S OWN CHROME — z:8, the AMBIENT STATE band of the Z LADDER (helmet.html), beside the
@@ -19437,10 +19447,18 @@ class Component extends DCLogic {
    * card docks (above). ON A PHONE WITH THE DRAWER OPEN the drawer is the screen, and that dock put the bar across the
    * middle of the drawer's list (y 248 to 292 of a list running from 58 to 556 at 390x631, measured on dev v1.292.1 and
    * on v1.293.0): whatever row content fell there was covered, a Last rolls row's first action included. There the bar is
-   * a row of the drawer itself, directly under its head: in the flow, so the list STARTS below it by layout (nothing
-   * measured, nothing padded, nothing to keep in step) and the rows move down by the bar's own height when a film starts,
-   * no further. Its ✕ is then a drawer control like any other (the drawer's own press and swipe rules). Desktop is
-   * unchanged: the drawer is beside the map there and the bar stays on the map.
+   * a row of the drawer itself, in the flow, AT THE DRAWER'S FOOT: after the list, above the account's foot. In the flow,
+   * so nothing of the list can lie under it and nothing is measured, padded or kept in step. AT THE FOOT, SO THAT NO ROW
+   * MOVES when a film starts, stops or ends by itself: the list gives the bar's 44 px at its own end and keeps its
+   * scroll (`_refreshHistoryRows`).
+   * IT STOOD UNDER THE DRAWER'S HEAD FIRST (ruled, built, and taken back after the reader of PR #441 pressed it): the
+   * bar's coming and going then moved every row by 44 px, and the past rolls' rows are 43 px apart, so the neighbour's
+   * control landed where the pressed one was. The replay control stopped being a toggle (a second touch at the same
+   * point ran the film on, 3 of 3; on the second row it started the FIRST roll's film, 3 of 3), and when a film ended by
+   * itself with a row open the next state's row stood under both of its actions (3 of 3). A row at the list's foot
+   * when the bar comes leaves the view (the list ends 44 px sooner); it is never under the bar.
+   * Its ✕ is then a drawer control like any other (the drawer's own press and swipe rules). Desktop is unchanged: the
+   * drawer is beside the map there and the bar stays on the map.
    * CALLED BY every change of what decides it: the bar's render (a film's start and each of its steps), the drawer's
    * opening and closing (`applyDeckVisibility`), and a resize across the phone's breakpoint (`resize`). `data-in-drawer`
    * is what the stylesheet reads (helmet.html, `.ng-replaybar[data-in-drawer]`); the dock never runs on a bar in the
@@ -19448,10 +19466,10 @@ class Component extends DCLogic {
    */
   _seatReplayBar() {
     const el = this._replayEl; if (!el) return;
-    const pane = this.drillRef.current, head = pane && pane.querySelector(".ng-drawer-head");
-    const inDrawer = !!head && this.deckShown && this.isMobile();
+    const pane = this.drillRef.current, foot = pane && pane.querySelector(".ng-acctwrap");
+    const inDrawer = !!foot && foot.parentNode === pane && this.deckShown && this.isMobile();
     const root = this.__ngRoot || document.body;
-    if (inDrawer) { if (head.nextElementSibling !== el) head.after(el); }
+    if (inDrawer) { if (foot.previousElementSibling !== el) foot.before(el); }
     else if (el.parentNode !== root) root.appendChild(el);
     el.toggleAttribute("data-in-drawer", inDrawer);
     if (!inDrawer) requestAnimationFrame(() => { const b = this._replayEl; if (b && !b.hasAttribute("data-in-drawer")) this._dockLandCard(b); });

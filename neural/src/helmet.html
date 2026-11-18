@@ -518,12 +518,14 @@
      re-enable it) — without it the ✕ is visible and dead. */
   .ng-replaybar{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:8;display:flex;align-items:center;gap:11px;width:min(520px,calc(100vw - 32px));background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-left:3px solid #7ee0a8;border-radius:13px;padding:9px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .24s cubic-bezier(.2,.7,.2,1);}
   /* IN THE DRAWER ON A PHONE (FOLLOW1, v1.293.1; `_seatReplayBar` in app.src.jsx moves it and sets the attribute): a row of
-     the drawer under its head, in the flow, so the list starts below it and no row's control can lie under it. `!important`
-     on width only: the phone rule above carries one. The entry animation is a fixed card's (it animates the transform this
-     rule takes away), so it does not run here. The inline `left` and `bottom` the dock wrote while it stood on the map mean
-     nothing to a static box; `z-index:auto` because a flex item takes a z-index even unpositioned, and the bar must not
-     paint over the drawer's own menus. */
-  .ng-replaybar[data-in-drawer]{position:static;z-index:auto;transform:none;animation:none;flex:none;width:auto!important;margin:0 12px;box-shadow:none;}
+     the drawer at its foot, after the list and above the account's foot, in the flow: nothing of the list can lie under it,
+     and no row moves when it comes or goes (the list gives its height at its own end). `!important` on width only: the
+     phone rule above carries one. The entry animation is a fixed card's (it animates the transform this rule takes away),
+     so it does not run here. The inline `left` and `bottom` the dock wrote while it stood on the map mean nothing to a
+     static box. `z-index:auto` IS LOAD-BEARING: a flex item takes a z-index even unpositioned, the base rule's 8 would
+     make it a layer of its own, and the account's menu opens upward from the foot right over this row (its items would be
+     painted under the bar and dead to a touch; pinned by history-replay.spec.ts). */
+  .ng-replaybar[data-in-drawer]{position:static;z-index:auto;transform:none;animation:none;flex:none;width:auto!important;margin:0 12px 8px;box-shadow:none;}
   .ng-replaybar .ng-replay-dot{flex:none;width:8px;height:8px;border-radius:50%;background:#7ee0a8;box-shadow:0 0 8px rgba(126,224,168,.7);animation:ngReplayPulse 1.6s ease-in-out infinite;}
   @keyframes ngReplayPulse{0%,100%{opacity:1;}50%{opacity:.35;}}
   .ng-replaybar .ng-replay-txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px;}
