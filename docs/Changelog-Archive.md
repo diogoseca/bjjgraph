@@ -20333,7 +20333,7 @@ drawer's opening, the way home), its list is scrolled just far enough to show th
 rolls listed under the door are more than the bar's room, so the list keeps its scroll.
 
 **One condition, by reach.** "An option is played only when the player can see what they are playing", asked where the
-roads meet (`_optionInReach` / `_canPlay`: `activateOption` and the reader's wrapper of it, which had its own copy of the
+roads meet (`_optionReach` / `_playState`: `activateOption` and the reader's wrapper of it, which had its own copy of the
 guard). The roads, surveyed: the digits; a click on the card (mouse, touch, Enter or Space on the focused card: a click
 with `detail` 0). By key the card's middle must be what `elementFromPoint` finds: PR #441 had it by width, and the
 reader showed a card with its middle under the drawer played by its digit at 641; at 1440 the row shows five of a hand

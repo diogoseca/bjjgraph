@@ -4,7 +4,7 @@ import { journey } from "../dsl"
 /**
  * AN OPTION IS PLAYED ONLY WHEN THE PLAYER CAN SEE WHAT THEY ARE PLAYING (FOLLOW2, v1.293.3)
  *
- * One condition, asked where every road that plays an option meets (`_optionInReach` / `_canPlay`, app.src.jsx; the
+ * One condition, asked where every road that plays an option meets (`_optionReach` / `_playState`, app.src.jsx; the
  * reader's wrapper of `activateOption` asks the same one). The roads, surveyed: the digits 1 to 9; a click on the card (a
  * mouse, a touch's click, and Enter or Space on the focused card, which is a click with no pointer). Nothing else plays an
  * option in the app.
@@ -42,7 +42,7 @@ import { journey } from "../dsl"
  *      open drawer at 641…" at "nor is it brought out from under the drawer: the row has not moved and nothing is marked"
  *   R2 a press on the hand beside the open drawer on a phone goes on to the card (the row's listener out) → "the sliver…"
  *      at "a touch on a card's end shuts the drawer"
- *   R3 the drawer being the screen is no bar to a key (the clause out of `_optionInReach`) → "a window of a phone's
+ *   R3 the drawer being the screen is no bar to a key (the clause out of `_optionReach`) → "a window of a phone's
  *      width…" at "the drawer is the screen: the digit of a card whose middle shows beside it plays nothing"
  *   R4 a hand a film has put away is still in play (the clause out) → "a film's put-away hand…" at "a touch on a dim
  *      card plays nothing, and the film runs on"
