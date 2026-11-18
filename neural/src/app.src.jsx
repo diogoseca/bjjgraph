@@ -14572,7 +14572,8 @@ class Component extends DCLogic {
     if (!card && !film && !chrome.length) return;
     const compact = this._compactLandDeck();
     const anchor = card || film;
-    const gutter = card && card.classList.contains("ng-land-deck") ? 52 : (this.isMobile() ? 10 : 16);
+    const edge = this.isMobile() ? 10 : 16;
+    const gutter = card && card.classList.contains("ng-land-deck") ? 52 : edge;
     // Every width is READ before any `left` is written, so a frame costs one layout, not one per
     // element. An element that has not laid out yet measures 0 wide: that is SKIP (no clamp),
     // never a constraint.
@@ -14581,7 +14582,20 @@ class Component extends DCLogic {
     // The short-landscape composition already fills the viewport's width. Its two columns
     // travel as a group, so there is no horizontal slack; the pane covers its left column.
     const center = compact ? W * .28 : anchor ? fit(anchor) : 0;
-    const chromeAt = chrome.map((el) => (anchor && !compact ? center : fit(el)));
+    // CHROME FOLLOWS THE COLUMN, AND IS NEVER OFF THE SCREEN (FOLLOW2, v1.293.2). The column's centre is clamped for the
+    // CARD: a deck card keeps 52 px at its right for its paging control, so on a phone the column stands left of the
+    // middle (390 wide, a 358 px card: 159, not 195). The film's bar rode that centre with its own width (370 px, the
+    // phone's `100vw - 20px`) and stood at -26 to 344: its left end, the dot and the border, off the screen, in every
+    // board state that has a landing card (measured at 390x631 and 390x844 on dev v1.293.0 and v1.293.1: a deck card, a
+    // staged board, a technique's card, a place with no cards, the hand put away; whole only with the card dismissed).
+    // And the card it was following is the reader's there (`data-reader-game-part`): this function no longer moves it,
+    // so the legacy column moved nothing but the chrome. One clamp, by the element's OWN width and the screen's edge
+    // (the 10 / 16 px the stylesheet's own widths leave), wherever the column is: where chrome was whole it does not
+    // move (a desktop: measured the same before and after), and a width of 0 is still SKIP.
+    const chromeAt = chrome.map((el) => {
+      const at = anchor && !compact ? center : fit(el), half = el.offsetWidth / 2;
+      return half ? Math.max(edge + half, Math.min(at, W - edge - half)) : at;
+    });
     for (const el of [card, this._landStackEl, this._landNavEl]) {
       if (el && !el.hasAttribute("data-reader-game-part")) el.style.left = center + "px";
     }

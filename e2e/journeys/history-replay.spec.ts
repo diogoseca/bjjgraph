@@ -553,3 +553,166 @@ test("a film's bar changes seat when the window crosses a phone's width, and com
   const wide = await barGeo(page)
   expect({ film: wide.film, parent: wide.parent, inDrawer: wide.inDrawer, position: wide.position }, "widened again, it is back on the map").toEqual({ film: true, parent: "the app root", inDrawer: false, position: "fixed" })
 })
+
+/**
+ * ON A PHONE THE FILM'S BAR IS WHOLE ON THE SCREEN WHEREVER IT STANDS (FOLLOW2, v1.293.2)
+ *
+ * On the map the bar followed the landing card's column, and a deck card's column stands left of the middle of a phone
+ * (it keeps 52 px at its right for its paging control): the bar, wider than the card, stood at -26 to 344 of 390, its dot
+ * and border off the screen. Measured on dev v1.293.0 and on v1.293.1 at 390x631 and 390x844 in every board state that
+ * has a landing card; whole only with the card dismissed. One clamp at the dock it rides (`_layoutLandHorizontal`,
+ * app.src.jsx): chrome follows the column and is never off the screen.
+ *
+ * THE PLACES, from the survey (what decides where the bar stands: is there a landing card, is the hand shown, which
+ * hand): a deck card on a live roll · a staged board (a technique's card) · the hand put away (the bar then docks at the
+ * foot) · the card dismissed (no column to follow) · a roll from the bottom (the escapes' hand). Each at the film's first
+ * step and at its last ("· end": the label is the only thing a step changes, and the bar's width is the stylesheet's).
+ *
+ * WHAT LIES UNDER THE BAR, named: only the film's own put-away hand (`_suppressTray`: the row at a tenth of its strength
+ * while a film runs, "a hand you are not playing"). At 631 high that is the top 16 px of the hand's "Moves shown" switch;
+ * at 844 a band across the hand's cards; with the hand put away, nothing. What a player needs while a film runs is
+ * asserted clear of it and reached by a touch: the bar's own ✕, and the logo that opens the drawer. (The map itself is
+ * the third: any press on it ends the film, by the film's own rule.)
+ *
+ * §6.1's traps, as checked: the ✕ pressed by a real touch, `elementFromPoint` at its middle and four edges, in every
+ * place; nothing hidden by opacity (and what IS dim under the bar is named above, not assumed dead); the bar's place is
+ * the dock's, off the measured width of the element itself, no constant per case; no z-index and no inline style
+ * touched; the rendered box asserted (whole, 44 px).
+ *
+ * Mutants (each alone, in the served bundle, a clean control first):
+ *   G1 the clamp out (`chromeAt` rides the column as before) → every place with a landing card at "the bar is whole on the
+ *      screen"; "the card dismissed" stays green, as it should (there is no column to follow)
+ *   G2 the clamp with no air at the edge (the element's half width alone) → the same places at "with the same air on
+ *      both sides"
+ * NOT COVERED: a real catch (a submission's escape tray: not produced here; it is a landing card like the others to
+ * this dock); a phone in landscape (not `isMobile`; the two-column branch already fits chrome by its own width).
+ */
+const PLACES: Record<string, (j: any, page: Page) => Promise<void>> = {
+  "a deck card on a live roll": async (j, page) => {
+    await page.evaluate(() => { const a: App = (window as any).__neural; a.rollFromPosition(a.nodeForKey("Mount|Top"), false, "top") })
+    await j.advance(2500)
+  },
+  "a staged board (a technique's card)": async () => { /* the fixture's own: `archivedRoll` leaves one */ },
+  "the hand put away": async (j, page) => {
+    await page.evaluate(() => { const a: App = (window as any).__neural; a.rollFromPosition(a.nodeForKey("Mount|Top"), false, "top") })
+    await j.advance(2500)
+    await page.evaluate(() => (window as any).__neural.setLayer("hand", false, "settings")) // the layer's one writer (its ✕ and the Settings switch both call it)
+    await j.advance(300)
+  },
+  "the card dismissed": async (j, page) => {
+    await page.evaluate(() => { const a: App = (window as any).__neural; a.rollFromPosition(a.nodeForKey("Mount|Top"), false, "top") })
+    await j.advance(2500)
+    await page.evaluate(() => (window as any).__neural._tapBackground()) // what a tap on the empty map does
+    await j.advance(600)
+  },
+  "a roll from the bottom (the escapes' hand)": async (j, page) => {
+    await page.evaluate(() => { const a: App = (window as any).__neural; a.rollFromPosition(a.nodeForKey("Mount|Top"), false, "bottom") })
+    await j.advance(2500)
+  },
+}
+/** what lies under the bar that a press could reach if the bar were not there, and whose it is */
+const underBar = (page: Page) =>
+  page.evaluate(() => {
+    const a: App = (window as any).__neural, bar = document.querySelector("[data-replay-bar]") as HTMLElement, b = bar.getBoundingClientRect(), hand = a.optionsRef.current as HTMLElement | null
+    const strength = (e: Element) => { let o = 1; for (let n: HTMLElement | null = e as HTMLElement; n; n = n.parentElement) { const cs = getComputedStyle(n); if (cs.visibility === "hidden" || cs.display === "none") return 0; o *= Number(cs.opacity) } return o }
+    const out: Array<{ what: string; hand: boolean; strength: number }> = []
+    for (const e of document.querySelectorAll("button, a[href], [role='button'], summary, input, select, [data-seat-star]")) {
+      if (bar.contains(e)) continue
+      const r = e.getBoundingClientRect()
+      if (r.width < 1 || r.height < 1 || r.right <= b.left || r.left >= b.right || r.bottom <= b.top || r.top >= b.bottom) continue
+      if (r.right <= 0 || r.left >= innerWidth || r.bottom <= 0 || r.top >= innerHeight) continue
+      const s = strength(e)
+      if (s <= 0 || getComputedStyle(e).pointerEvents === "none") continue
+      out.push({ what: (e.getAttribute("aria-label") || e.textContent || String(e.className)).trim().slice(0, 30), hand: !!hand && hand.contains(e), strength: Math.round(s * 100) / 100 })
+    }
+    return { controls: out, handPutAwayByTheFilm: !!a._traySup }
+  })
+
+for (const [vw, vh] of [[390, 631], [390, 844]] as const) {
+  test.describe(`on a phone the film's bar on the map, ${vw}x${vh} by touch`, () => {
+    test.use({ viewport: { width: vw, height: vh }, hasTouch: true, isMobile: true })
+    for (const [place, make] of Object.entries(PLACES)) {
+      test(`the film's bar is whole on the screen over ${place} (${vh})`, async ({ page }) => {
+        const j = journey(page)
+        const past = await archivedRoll(j, page)
+        await make(j, page)
+        await dismissRewards(page)
+        await tapOn(page, ".ng-logo", "the logo")
+        await tapOn(page, '[data-view="history"]', "Last rolls")
+        await tapOn(page, `[data-replay-roll="${past.ts}"]`, "the past roll's replay control")
+        await j.advance(300)
+        await tapOn(page, ".ng-explorer-close", "shut the drawer: how a phone watches the film")
+        await j.advance(1500)
+        await page.waitForTimeout(150) // the bar's dock runs on the next frame
+        const screen: Rect = { left: 0, top: 0, right: vw, bottom: vh, width: vw, height: vh }
+        const check = async (when: string) => {
+          const g = await barGeo(page)
+          expect({ film: g.film, parent: g.parent, position: g.position }, `premise (${when}): a film is running and its bar is on the map`).toEqual({ film: true, parent: "the app root", position: "fixed" })
+          expect([g.bar!.left >= 0, g.bar!.right <= vw, g.bar!.top >= 0, g.bar!.bottom <= vh], `${when}: the bar is whole on the screen (it stands at ${Math.round(g.bar!.left)} to ${Math.round(g.bar!.right)} of ${vw})`).toEqual([true, true, true, true])
+          expect(Math.abs(g.bar!.left - (vw - g.bar!.right)), `${when}: with the same air on both sides`).toBeLessThanOrEqual(1)
+          const stop = await reach(page, "[data-replay-stop]", screen)
+          expect(stop[0], `${when}: its ✕ is whole on the screen and reached by a touch at its middle and four edges`).toMatchObject({ whole: true, hit: true })
+          expect(Math.min(stop[0].w, stop[0].h), `${when}: and at least 44 px`).toBeGreaterThanOrEqual(44)
+          const label = await page.evaluate(() => { const l = document.querySelector("[data-replay-label]") as HTMLElement, r = l.getBoundingClientRect(); return { text: (l.textContent || "").trim(), left: r.left, right: r.right } })
+          expect([label.text.length > 3, label.left >= 0, label.right <= vw], `${when}: its words are on the screen`).toEqual([true, true, true])
+          // what lies under it: only the film's own put-away hand; what a player needs while a film runs is clear of it
+          const u = await underBar(page)
+          expect(u.controls.filter((c) => !c.hand).map((c) => c.what), `${when}: it covers no control but the hand the film itself put away`).toEqual([])
+          if (u.controls.length) expect([u.handPutAwayByTheFilm, Math.max(...u.controls.map((c) => c.strength)) <= 0.15], `${when}: and that hand is put away while the film runs (a tenth of its strength)`).toEqual([true, true])
+          const logo = await reach(page, ".ng-logo", screen)
+          expect(logo[0], `${when}: the logo that opens the drawer is clear of the bar and reached`).toMatchObject({ whole: true, hit: true, underBar: false })
+          return u.controls.length
+        }
+        const first = await check("the film's first step")
+        let ended = false
+        for (let i = 0; i < 80 && !ended; i++) { await j.advance(250); ended = await page.evaluate(() => { const R = (window as any).__neural._replay; return !!R && !!R.done }) }
+        expect(ended, "premise: the film reached its last step").toBe(true)
+        await page.waitForTimeout(150)
+        expect(await page.evaluate(() => (document.querySelector("[data-replay-label]") as HTMLElement).textContent), "premise: the bar says so").toMatch(/· end$/)
+        const last = await check("the film's last step")
+        console.log(`F2UNDER ${vh} | ${place} | controls of the put-away hand under the bar: first ${first}, last ${last}`)
+      })
+    }
+    test(`the bar's ✕ on the map stops the film by a touch (${vh})`, async ({ page }) => {
+      const j = journey(page)
+      const past = await archivedRoll(j, page)
+      await PLACES["a deck card on a live roll"](j, page)
+      await dismissRewards(page)
+      await tapOn(page, ".ng-logo", "the logo")
+      await tapOn(page, '[data-view="history"]', "Last rolls")
+      await tapOn(page, `[data-replay-roll="${past.ts}"]`, "the past roll's replay control")
+      await j.advance(300)
+      await tapOn(page, ".ng-explorer-close", "shut the drawer")
+      await j.advance(1500)
+      await page.waitForTimeout(150)
+      expect((await barGeo(page)).film, "premise: the film is running, on the map").toBe(true)
+      await tapOn(page, "[data-replay-stop]", "the film's ✕, on the map")
+      await expect(page.locator("[data-replay-bar]"), "the ✕ stops the film and its bar goes").toHaveCount(0)
+      expect(await page.evaluate(() => !!(window as any).__neural._replay)).toBe(false)
+    })
+  })
+}
+
+test("on a desktop the film's bar stands in the middle of the map beside the drawer, and in the middle of the screen with it shut", async ({ page }) => {
+  const j = journey(page)
+  const past = await archivedRoll(j, page)
+  await PLACES["a deck card on a live roll"](j, page)
+  await dismissRewards(page)
+  await j.clickByMouse(".ng-logo", "the logo")
+  await j.clickByMouse('[data-view="history"]', "Last rolls")
+  await j.advance(1500)
+  await j.clickByMouse(`[data-replay-roll="${past.ts}"]`, "the past roll's replay control")
+  await j.advance(300)
+  await page.waitForTimeout(150)
+  const open = await barGeo(page), free = await page.evaluate(() => (window as any).__neural._paneLayout().center as number)
+  expect(open.film).toBe(true)
+  expect(Math.abs((open.bar!.left + open.bar!.right) / 2 - free), "beside the open drawer the bar is in the middle of the map that shows").toBeLessThanOrEqual(1)
+  await j.clickByMouse(".ng-explorer-close", "shut the drawer")
+  await j.advance(2500)
+  await page.waitForTimeout(150)
+  const shut = await barGeo(page)
+  expect(shut.film, "premise: the film goes on with the drawer shut").toBe(true)
+  expect(Math.abs((shut.bar!.left + shut.bar!.right) / 2 - shut.vw / 2), "with the drawer shut it is in the middle of the screen").toBeLessThanOrEqual(1)
+  const r1 = (g: typeof open) => [g.bar!.left, g.bar!.top, g.bar!.right, g.bar!.bottom].map((n) => Math.round(n * 10) / 10)
+  console.log("F2DESK " + JSON.stringify({ drawerOpen: r1(open), drawerShut: r1(shut) }))
+})
