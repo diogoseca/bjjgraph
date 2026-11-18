@@ -1112,7 +1112,7 @@ class Component extends DCLogic {
         if (dragMoved > 6) { e.stopPropagation(); e.preventDefault(); }
         dragMoved = 0;
       }, true);
-      // THE SLIVER BESIDE THE OPEN DRAWER BEHAVES AS ONE THING (FOLLOW2, v1.293.2). On a phone the drawer is the screen
+      // THE SLIVER BESIDE THE OPEN DRAWER BEHAVES AS ONE THING (FOLLOW2, v1.293.3). On a phone the drawer is the screen
       // and leaves a strip of the board showing. A touch on the MAP there is the drawer's way out: it shuts the drawer,
       // the roll it held resumes, and that is all it does (`closeDeckIfStudying`, pane law). The ends of two of the hand's
       // cards show in that strip too, and a touch on one PLAYED it, the drawer still open over the board (the reader of
@@ -1261,7 +1261,7 @@ class Component extends DCLogic {
         // A to C, Enter, Space, P, the arrows and the paging keys are each scoped to the drawer's own surface or stand down
         // with the landing card). Where the drawer stands BESIDE the board the card can be pressed, the press plays it, and
         // so does its digit: one function, and the drawer's claim on the clock ends with the move (`setPaused`).
-        // WHETHER A DIGIT PLAYS ITS CARD IS ASKED BY REACH, AT `activateOption` (FOLLOW2, v1.293.2; `_optionInReach`): PR
+        // WHETHER A DIGIT PLAYS ITS CARD IS ASKED BY REACH, AT `activateOption` (FOLLOW2, v1.293.3; `_optionInReach`): PR
         // #441 refused it here by width (640 and under), and the reader showed where width is not reach.
         // Q007: an open checkpoint quiz owns the keyboard — digits above the MC option
         // count must never fall through to the roll's option-card openers (a '5' opened
@@ -3976,7 +3976,7 @@ class Component extends DCLogic {
     else { this.renderExplorer(); this._showFilmDoor(); }
   }
   /**
-   * WHILE A FILM'S BAR STANDS IN THE DRAWER, THE HOME VIEW SHOWS ITS WAY BACK TO THE FILM'S LIST (FOLLOW2, v1.293.2). The
+   * WHILE A FILM'S BAR STANDS IN THE DRAWER, THE HOME VIEW SHOWS ITS WAY BACK TO THE FILM'S LIST (FOLLOW2, v1.293.3). The
    * drawer opens on its home view, and the bar takes its room at the foot of whatever list shows (`_seatReplayBar`). At
    * 390x631 that is exactly where the "Last rolls" door stands (the reader of PR #441: 5 of its 28 px showed and a touch
    * at its middle landed on the bar; in the real app the door lay wholly under it), and that door is the way back to the
@@ -14618,7 +14618,7 @@ class Component extends DCLogic {
     // The short-landscape composition already fills the viewport's width. Its two columns
     // travel as a group, so there is no horizontal slack; the pane covers its left column.
     const center = compact ? W * .28 : anchor ? fit(anchor) : 0;
-    // CHROME FOLLOWS THE COLUMN, AND IS NEVER OFF THE SCREEN (FOLLOW2, v1.293.2). The column's centre is clamped for the
+    // CHROME FOLLOWS THE COLUMN, AND IS NEVER OFF THE SCREEN (FOLLOW2, v1.293.3). The column's centre is clamped for the
     // CARD: a deck card keeps 52 px at its right for its paging control, so on a phone the column stands left of the
     // middle (390 wide, a 358 px card: 159, not 195). The film's bar rode that centre with its own width (370 px, the
     // phone's `100vw - 20px`) and stood at -26 to 344: its left end, the dot and the border, off the screen, in every
@@ -20375,7 +20375,7 @@ class Component extends DCLogic {
     return /^[1-9]$/.test(e.key || "") ? Number(e.key) - 1 : -1;
   }
   /**
-   * AN OPTION IS PLAYED ONLY WHEN THE PLAYER CAN SEE WHAT THEY ARE PLAYING (FOLLOW2, v1.293.2). One condition, asked where
+   * AN OPTION IS PLAYED ONLY WHEN THE PLAYER CAN SEE WHAT THEY ARE PLAYING (FOLLOW2, v1.293.3). One condition, asked where
    * every road that plays an option meets (`_canPlay`, below: `activateOption` and the reader's wrapper of it both ask it).
    * THE ROADS, surveyed (`grep` over the build inputs, each read): the digits 1 to 9 (the window's key ladder); a click on
    * the card (a mouse, a touch's click, and Enter or Space on the focused card: a click with no pointer, `detail` 0);

@@ -672,7 +672,7 @@ test.describe("on a phone with the drawer open, 390x631 by touch", () => {
 })
 
 /**
- * THE DRAWER'S HOME VIEW DURING A FILM, ON A SHORT PHONE (FOLLOW2, v1.293.2)
+ * THE DRAWER'S HOME VIEW DURING A FILM, ON A SHORT PHONE (FOLLOW2, v1.293.3)
  *
  * The drawer opens on its home view, and the film's bar takes its room at the foot of whatever list shows. At 390x631
  * that is where the "Last rolls" door stands: the reader of PR #441 measured 5 of its 28 px showing and a touch at its
@@ -813,7 +813,7 @@ test("a film's bar changes seat when the window crosses a phone's width, and com
 })
 
 /**
- * ON A PHONE THE FILM'S BAR IS WHOLE ON THE SCREEN WHEREVER IT STANDS (FOLLOW2, v1.293.2)
+ * ON A PHONE THE FILM'S BAR IS WHOLE ON THE SCREEN WHEREVER IT STANDS (FOLLOW2, v1.293.3)
  *
  * On the map the bar followed the landing card's column, and a deck card's column stands left of the middle of a phone
  * (it keeps 52 px at its right for its paging control): the bar, wider than the card, stood at -26 to 344 of 390, its dot

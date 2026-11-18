@@ -2,7 +2,7 @@ import { test, expect, Page } from "@playwright/test"
 import { journey } from "../dsl"
 
 /**
- * AN OPTION IS PLAYED ONLY WHEN THE PLAYER CAN SEE WHAT THEY ARE PLAYING (FOLLOW2, v1.293.2)
+ * AN OPTION IS PLAYED ONLY WHEN THE PLAYER CAN SEE WHAT THEY ARE PLAYING (FOLLOW2, v1.293.3)
  *
  * One condition, asked where every road that plays an option meets (`_optionInReach` / `_canPlay`, app.src.jsx; the
  * reader's wrapper of `activateOption` asks the same one). The roads, surveyed: the digits 1 to 9; a click on the card (a
