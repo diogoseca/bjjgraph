@@ -483,7 +483,8 @@ for (const touch of [false, true]) {
       expect(await page.evaluate((qh) => { const a = (window as W).__neural, el = a._openMini && a._openMini.el.querySelector("[data-mini-q]"); const c = (a._cardsOf(a.flashcards.decks[a._session.keys[a._session.idx]]) || []).find((x: W) => { const d = document.createElement("div"); d.innerHTML = x.q; return d.textContent === el.textContent }); return !!c && a.qhash(c.q) !== qh }, live!.qh),
         "premise: it is another card than the one just answered").toBe(true)
       await expect(deck.locator("[data-practice-mc-opt]"), "Auto asks a card right twice front and back").toHaveCount(0)
-      await expect(page.locator("[data-master-bar] [data-mini-reveal]")).toBeEnabled()
+      await expect(page.locator(".ng-drill [data-mini-a]"), "the next card opens with its answer hidden").toHaveCount(0)
+      await expect(page.locator("[data-master-bar] [data-mini-reveal]"), "and Reveal is there to press").toBeEnabled()
       await press(page, "[data-master-bar] [data-mini-reveal]", "Reveal", touch)
       await press(page, "[data-master-bar] [data-mini-got]", "Got it", touch)
       await expect.poll(goal, { message: "\"Prove a card from memory\" is reached" }).toBe(true)

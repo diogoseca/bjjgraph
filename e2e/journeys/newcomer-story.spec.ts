@@ -127,6 +127,12 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   await expect(page.locator("[data-practice-page]"), "Practise here opens the place in Master the game").toHaveCount(1);
   await expect.poll(() => page.evaluate(() => { const a = (window as any).__neural, s = a._session; return s && !s.list ? (s.czOpen != null ? s.czOpen : a._masterSeatOf(s, s.keys[s.idx])) : null; }),
     { timeout: 30_000, message: "at the place the row holds" }).toBe(place);
+  // WHAT THE NEWCOMER SEES THERE (L3-R1, the reader of PR #440: the step read only the app's own state). A newcomer has
+  // nothing stored and nothing owed, so the place opens on its first card, and Auto asks a new card as multiple choice: the
+  // question and three answers, the two things this step always asserted, on the card "Practise here" opens.
+  const open = '[data-session-row][aria-expanded="true"] + div';
+  await expect(page.locator(open + " [data-mini-q]"), "question").toBeVisible();
+  await expect(page.locator(open + " [data-practice-mc-opt]"), "Auto: the newcomer's new card asks multiple choice here").toHaveCount(3, { timeout: 20_000 });
   await page.locator(".ng-drawer-brand").click();
   await expect(page.locator(".ng-drawer-brand"), "the brand leads back to Last rolls").toHaveText("‹ Last rolls");
   await page.locator(".ng-explorer-close").click();

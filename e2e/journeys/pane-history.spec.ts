@@ -26,7 +26,7 @@ const CLASSIC = { answerMode: "classic" } as const
  *
  * FOUR TESTS HERE WERE RE-POINTED IN v1.293.0, none removed, each run against its mutant on dev's build before and on this
  * build after (docs/Changelog-Archive.md, v1.293.0, has the table):
- *   "a history row under Front Back cards…"   under Classic the card asks multiple choice anyway (`mcActive`)  → "the answer appears on reveal"
+ *   "a history row under Front Back cards…"   under Front Back cards the card asks multiple choice anyway (`_cardAsksMc`)  → "and no options anywhere in the pane" (on dev's build the same mutant was red only at the Reveal press timing out: the step read `[data-mc-opt]`, and the inline deck's options were `[data-inline-mc-opt]`)
  *   "revealing … is SEEN, not credit"         a reveal credits the card (`doReveal`)                           → "reading an answer earns no mastery"
  *   "the history survives the round ending"   the round's end shuts the drawer (`endRound`)                    → "and its two actions are still there" (before: "and still readable")
  *   "free roam files the roll it ends…"       a filed roll does not repaint Last rolls (`_closeRoll`)          → "and filed it under Previous rolls"

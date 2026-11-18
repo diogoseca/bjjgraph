@@ -77,6 +77,24 @@ import { journey } from "../dsl"
  *       the side the row is about" at "the map names Mount on the side the row is about: its bottom orb"
  *   M30 a deck's remembered reveal is kept for whatever card is at its index (`_miniDeck`, the fix of T6) → "a place opened
  *       again never shows an answer before its question" at "its answer is not on the screen before it is asked"
+ *   M33 the press that ends a look goes on to the map as a tap (`attachInput`: `closing` not set) → "on a phone a press on the
+ *       shown place itself during the hold…" and "…on another place on the map…" at "the same roll runs again: nothing
+ *       staged, nothing opened, nothing filed, its card as it was", and "on a phone the drawer shuts…a hand on the map lets
+ *       it go" at "the roll that runs again is the roll that was held…"
+ *   M34 an open row that is not laid out still takes the keys (`_placeOpen` without `offsetParent`) → "a past roll folded
+ *       away…" at "Space shows nothing: the row is not on the screen"
+ *   M35 `_placeOpen` with no scope at all (the reader's J8, which survived three tests) → that step, and "keys never reach a
+ *       row on the view you left" at "Space shows nothing from the view you left"
+ *   M36 the way back from Practise here opens no row (`renderDrillHome`) → "Practise here opens that place…" at "back in Last
+ *       rolls, the row it was pressed on is open again"
+ *   M37 …and does not unfold the past roll the row is a state of (`_pastRollRow`) → "back from Practise here to a past
+ *       roll's state…" at "the past roll is unfolded again"
+ *   M38 a row opened under the panel's foot stays there (`_histRow`'s `toggle` without the scroll) → "the last row's two
+ *       actions are brought whole into view…" at "the last row's two actions are whole in the list and under the finger"
+ *   M39 the latest row's open state is not carried to the new latest row (the landing's `wasLatestOpen`) → "the latest row
+ *       stays open across a landing" at "the new latest row is the open one"
+ *   M40 a row that cannot be pressed lights under the pointer (`_histRow`) → "a place this ruleset does not draw… (mouse)" at
+ *       "under the pointer it does not light: there is nothing to press"
  * NOT COVERED HERE, and what to check by hand: a pinch (two real fingers; Playwright sends one), whose first finger is the
  * pointerdown M9 pins; the camera's 7 s lease running out by itself (camera canon, share-camera.spec.ts); the row's GOLD in
  * no-gi (it is `_placeGold`, which reads the ruleset's own hand as the map does). The name on the map is not yet tied to its
@@ -194,6 +212,26 @@ async function openLastRolls(page: Page, touch: boolean) {
   await expect(page.locator("[data-hist]").first()).toBeVisible()
 }
 const row = (key: string) => `[data-hist="${key}"]`
+/** THE ROLL, as a player would know it for the same roll: where it has been, where it stands, its hand, its card, what
+ *  is filed, what is staged, and how many journeys the board has begun (`_journeyId` moves with every restage) */
+const theRoll = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural
+  return { log: (a.rollLog || []).map((h: W) => h.key as string), stands: a.currentPos as number, hand: (a.optionIdxs || []).join(","), filed: (a._pastRolls || []).length,
+    journey: a._journeyId as number, staged: a._staged ?? null, roam: !!a._roam, card: a._landEl && a._landEl.isConnected ? (a._landIdx as number) : null,
+    declined: !!a._landDismissed, url: location.pathname, explored: [...(a._exploredKeys || [])].length }
+})
+/** a point inside the visible map with a NODE under it that is not the shown place (the app's own hit test), nothing over it */
+const nodePoint = (page: Page, notKey: string) => page.evaluate((k) => {
+  const a = (window as W).__neural, c = a.canvas.getBoundingClientRect(), R = a._viewRect(), not = a.nodeForKey(k), notPi = a.nodes[not].pi
+  for (let y = c.top + R.top + 12; y < c.top + R.top + R.height - 8; y += 9) for (let x = c.left + R.left + 12; x < c.left + R.left + R.width - 12; x += 11) {
+    if (document.elementFromPoint(x, y) !== a.canvas) continue
+    a._updateHover({ clientX: x, clientY: y, type: "pointerup", target: a.canvas })
+    const h = a._hover ? a._hover.idx : -1
+    a._hover = null
+    if (h >= 0 && h !== not && h !== notPi && h !== a.currentPos) return { x, y, node: a.nodes[h].t as string }
+  }
+  return null
+}, notKey)
 /** a point of the map no node and no control is under, found with the app's own hover test */
 const emptyMapPoint = (page: Page) => page.evaluate(() => {
   const a = (window as W).__neural, c = a.canvas.getBoundingClientRect()
@@ -267,6 +305,8 @@ for (const touch of [false, true]) {
       expect(await page.evaluate(() => { const s = (window as W).__neural._session; return s.plan ? [...new Set(s.plan.visits.map((v: W) => v.seat))][0] : null }), "premise: it is not simply the list's first place").not.toBe("Mount|Top")
       await expect(page.locator("[data-mini-q]:visible"), "its first card is asked").toHaveCount(1, { timeout: 20_000 })
       await expect(page.locator('[data-master-row="Mount|Top"]'), "its row is marked").toHaveAttribute("data-on", "")
+      // (the reader of PR #440 could not produce this one: Mount, top is a place this guest has been to, with nothing due)
+      await expect(page.locator("[data-practice-section]"), "a been-to place with nothing due opens, as a free review").toContainText("free review")
       expect((await page.evaluate(() => (window as W).__tracked)).filter((t: W) => t[0] === "neural_practice_opened").map((t: W) => t[1].surface), "one opening, its surface lastrolls").toEqual(["lastrolls"])
       expect(Object.keys(before).length, "premise: the record is read whole").toBeGreaterThan(15)
       expect(changed(before, await record(page)), "the press wrote nothing to the record").toEqual([])
@@ -281,6 +321,12 @@ for (const touch of [false, true]) {
       await press(page, ".ng-drawer-brand", "‹ Master the game", touch)
       await expect(page.locator(".ng-drawer-brand"), "the brand leads back to Last rolls").toHaveText("‹ Last rolls")
       await expect(page.locator(row(keys[0])).first()).toBeVisible()
+      // R6: the row it was pressed on is open again, and in view
+      const again = `${row("Mount|Top")} + .ng-hact`
+      await expect(page.locator(again + " [data-hist-show]"), "back in Last rolls, the row it was pressed on is open again").toBeVisible()
+      await expect(page.locator(again + " [data-hist-go]"), "with both its actions").toBeVisible()
+      await expect(page.locator(row("Mount|Top")).first(), "and in view").toBeInViewport({ ratio: 1 })
+      await expect(page.locator(again + " [data-hist-go]"), "its actions too").toBeInViewport({ ratio: 1 })
     })
 
     // ALSO FIXED WITH L3 (T6): a deck remembers its place by index, a new session asks another subset of it, and the card now
@@ -451,7 +497,14 @@ for (const touch of [false, true]) {
       expect(await named(page, key), "the map names the submission").toBe(true)
       const spot = await orbPoint(page, key)
       expect(spot.map, "premise: the place's orb is not under a control").toBe(true)
-      if (touch) await page.touchscreen.tap(spot.x, spot.y); else await page.mouse.click(spot.x, spot.y)
+      if (touch) {
+        // on a phone Show on the map is a look, and the press that ends a look does that and nothing else: the next one opens
+        const was = await theRoll(page)
+        await page.touchscreen.tap(spot.x, spot.y)
+        expect(await theRoll(page), "the press that ends the look opens nothing: the same roll, as it was").toEqual(was)
+        expect((await state(page)).look, "and the look is over").toBe(false)
+        await page.touchscreen.tap(spot.x, spot.y)
+      } else await page.mouse.click(spot.x, spot.y)
       // (on a desktop the drawer stays beside the map, as a press on the map leaves it; the player shuts it to read the card)
       if (await page.evaluate(() => !!(window as W).__neural.deckShown)) await press(page, ".ng-explorer-close", "shut the drawer", touch)
       let card: W = null
@@ -490,11 +543,15 @@ for (const touch of [false, true]) {
       await expect(page.locator(R), "the row stays: it is where the roll went").toHaveCount(1)
       await expect(page.locator("[data-hist-show], [data-hist-go]"), "no actions on a place this ruleset does not draw").toHaveCount(0)
       await press(page, R, "its row, in no-gi", touch)
+      // R5: a row a press does nothing on does not light under the pointer either (and it does once it can be pressed)
+      const lit = async () => { const b = (await page.locator(R).boundingBox())!; await page.mouse.move(4, 4); await page.mouse.move(b.x + b.width / 2, b.y + b.height / 2, { steps: 3 }); return page.locator(R).evaluate((e) => getComputedStyle(e).backgroundColor) }
+      if (!touch) expect(await lit(), "under the pointer it does not light: there is nothing to press").toBe("rgba(0, 0, 0, 0)")
       await page.keyboard.press("Enter"); await page.keyboard.press("Space")
       await expect(page.locator("[data-hist-show], [data-hist-go]"), "and neither a press nor a key opens any").toHaveCount(0)
       expect(await page.evaluate(() => { const a = (window as W).__neural; return [!!a._session, a._viewMode, !!a.deckShown] }), "nothing opened, the view stayed").toEqual([false, "history", true])
       await page.evaluate(() => (window as W).__neural.setGiMode("gi"))
       await expect(page.locator("[data-hist-show]:visible, [data-hist-go]:visible"), "drawn again: its two actions are back").toHaveCount(2)
+      if (!touch) expect(await lit(), "control: a row that can be pressed lights under the pointer").toBe("rgba(255, 255, 255, 0.03)")
     })
   })
 }
@@ -531,6 +588,162 @@ test.describe("keys on an open row (ruling 2), 1440x900", () => {
   })
 })
 
+// L3-R1, the reader of PR #440, finding 2, and the scope of the keys as a whole (`_placeOpen`): the keys act on the open row
+// only while it is on the screen. Each key is pressed with the focus on no control (a focused button answers its own key).
+test.describe("the keys act on a row the player can see, 1440x900", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+  const noControl = async (page: Page) => {
+    const spot = await page.evaluate(() => {
+      const p = document.querySelector(".ng-drill")!.getBoundingClientRect()
+      for (let y = p.bottom - 8; y > p.top + 6; y -= 9) for (let x = p.left + 3; x < p.right - 3; x += 11) {
+        const el = document.elementFromPoint(x, y) as HTMLElement | null
+        if (el && el.closest(".ng-drill") && !el.closest("button,summary,a[href],select,input,textarea,[role='button'],[contenteditable],[tabindex],[data-hist],[data-past-roll]")) return { x, y }
+      }
+      return null
+    })
+    expect(spot, "premise: a part of the drawer that is no control and no row").not.toBeNull()
+    await page.mouse.click(spot!.x, spot!.y)
+    expect(await page.evaluate(() => document.activeElement === document.body), "premise: the focus is on no control").toBe(true)
+  }
+  const looksAndOpens = (page: Page) => page.evaluate(() => { const a = (window as W).__neural; return { shown: a._shown ? (a._shown.i as number) : null, session: !!a._session, view: a.deckShown ? (a._viewMode as string) : null, lease: a._camHoldUntil ?? null } })
+  /** a roll through Mount filed under Previous rolls, a new one from Mount running, Last rolls open, the past roll unfolded */
+  async function withPastRoll(page: Page) {
+    const { j } = await rolled(page, false)
+    await j.knowsPlanMoves()
+    for (const [t, v] of [["ai-skill", 0.5], ["role", 0], ["max-moves", 0.5]] as const) await j.rig(t, [v])
+    await openLastRolls(page, false)
+    await press(page, `${row("Mount|Top")} .hplay`, "Roll from Mount, top", false)
+    for (let i = 0; i < 40; i++) { await j.advance(500); if (await page.evaluate(() => { const a = (window as W).__neural; return (a._pastRolls || []).length === 1 && (a.rollLog || []).length === 1 && (a.optionIdxs || []).length > 0 })) break }
+    await openLastRolls(page, false)
+    await press(page, "[data-past-roll]", "the past roll", false)
+    return j
+  }
+
+  test("a past roll folded away: its open row takes neither Space nor Enter", async ({ page }) => {
+    const j = await withPastRoll(page)
+    const past = "[data-past-roll] + div"
+    await press(page, `${past} ${row("Mount|Top")}`, "the past roll's Mount row", false)
+    await expect(page.locator(`${past} [data-hist-show]`), "premise: its two actions are shown").toBeVisible()
+    await press(page, "[data-past-roll]", "the past roll, folded again", false)
+    await expect(page.locator(`${past} [data-hist-show]`), "premise: folded, nothing of it is on screen").toBeHidden()
+    await noControl(page)
+    await j.advance(8000)   // any camera lease has run out: a new one is Space's doing
+    const was = await looksAndOpens(page)
+    await page.keyboard.press("Space")
+    expect(await looksAndOpens(page), "Space shows nothing: the row is not on the screen").toEqual(was)
+    await page.keyboard.press("Enter")
+    await page.waitForTimeout(300)
+    expect(await looksAndOpens(page), "and Enter opens nothing").toEqual(was)
+  })
+
+  test("keys never reach a row on the view you left", async ({ page }) => {
+    const { j } = await rolled(page, false)
+    await j.knowsPlanMoves()
+    await openLastRolls(page, false)
+    await press(page, row("Mount|Top"), "the row of Mount, top", false)
+    await expect(page.locator("[data-hist-show]:visible"), "premise: a row is open in Last rolls").toHaveCount(1)
+    await press(page, ".ng-drawer-brand", "‹ Last rolls, back to the drawer's list", false)
+    await expect(page.locator("[data-drawer-explore]"), "premise: the drawer shows its list").toBeVisible()
+    await noControl(page)
+    await j.advance(8000)
+    const was = await looksAndOpens(page)
+    expect(was.view, "premise: the list, not Last rolls").toBe("explore")
+    await page.keyboard.press("Space")
+    expect(await looksAndOpens(page), "Space shows nothing from the view you left").toEqual(was)
+    await page.keyboard.press("Enter")
+    await page.waitForTimeout(300)
+    expect(await looksAndOpens(page), "and Enter opens nothing").toEqual(was)
+  })
+
+  // R6, for a state of a past roll: its roll is folded when Last rolls is drawn, so it is drawn unfolded for the row to open
+  test("back from Practise here to a past roll's state: its roll is unfolded and the row open again", async ({ page }) => {
+    await withPastRoll(page)
+    const past = "[data-past-roll] + div"
+    await press(page, `${past} ${row("Mount|Top")}`, "the past roll's Mount row", false)
+    await press(page, `${past} [data-hist-go]`, "Practise here", false)
+    await expect(page.locator("[data-practice-page]")).toHaveCount(1)
+    await expect(page.locator("[data-mini-q]:visible")).toHaveCount(1, { timeout: 30_000 })
+    await press(page, ".ng-drawer-brand", "‹ Master the game", false)
+    await expect(page.locator(`${past} ${row("Mount|Top")}`), "the past roll is unfolded again").toBeVisible()
+    await expect(page.locator(`${past} [data-hist-show]`), "and the row it was pressed on is open, with its actions").toBeVisible()
+    await expect(page.locator(`${past} [data-hist-go]`)).toBeInViewport({ ratio: 1 })
+    await expect(page.locator("[data-hist-current] + .ng-hact [data-hist-show]"), "and no other row opened with it").toBeHidden()
+  })
+
+  // the reader of PR #440 could not produce this one (the lines are dev's own, kept): the latest row, left open, is the
+  // NEW latest row after the roll lands again
+  test("the latest row stays open across a landing", async ({ page }) => {
+    const { j } = await rolled(page, false)
+    await openLastRolls(page, false)
+    await press(page, "[data-hist-current]", "the latest row", false)
+    await expect(page.locator("[data-hist-current] + .ng-hact [data-hist-show]"), "premise: the latest row is open").toBeVisible()
+    const latest = await page.locator("[data-hist-current]").getAttribute("data-hist")
+    await press(page, ".ng-explorer-close", "shut the drawer", false)
+    const t = await page.evaluate(() => { const a = (window as W).__neural; for (const i of a.optionIdxs || []) if (a.nodes[i].ty === "transitions") return a.nodes[i].t as string; return a.nodes[a.optionIdxs[0]].t as string })
+    await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01])
+    await j.pick(t)
+    await j.nextHand()
+    const n = await page.evaluate(() => (window as W).__neural.rollLog.length)
+    await openLastRolls(page, false)
+    expect(await page.locator("[data-hist]").count(), "premise: the roll landed again").toBe(n)
+    expect(await page.locator("[data-hist-current]").getAttribute("data-hist"), "premise: on another place").not.toBe(latest)
+    await expect(page.locator("[data-hist-current] + .ng-hact [data-hist-show]"), "the new latest row is the open one").toBeVisible()
+    await expect(page.locator("[data-hist-show]:visible"), "and only that one").toHaveCount(1)
+  })
+})
+
+// R10 (the reader's measure: the last row of 19 at 390x631 opened with 12 of its actions' 44 px showing, the rest under the
+// panel's foot). A row that opens with its actions cut is brought whole into view by the smallest scroll; a row whose
+// actions already fit does not move. The roll is LONG, and written into the log for that (fourteen real places; the rows,
+// their press and the scroll are the app's own): a roll of fourteen landings is two minutes of play nobody's claim here needs.
+test.describe("a row opened near the end of a long list, 390x631", () => {
+  test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } })
+  test("the last row's two actions are brought whole into view; a middle row does not move", async ({ page }) => {
+    const j = journey(page)
+    await j.boot("/")
+    await j.land("Mount Top")
+    await page.evaluate(() => {
+      const a = (window as W).__neural
+      const ps = a.nodes.filter((n: W) => n.ty === "positions" && n.role !== "bottom" && a.rsAllowsIdx(n.idx)).slice(0, 14)
+      a.rollLog = ps.map((n: W, i: number) => ({ key: a.posFamily(n.t) + "|Top", name: a.posFamily(n.t), role: "Top", idx: n.idx, actor: i ? "you" : "start", val: null, intend: null, via: null, from: null }))
+    })
+    await openLastRolls(page, true)
+    const geo = (sel: string) => page.evaluate((q) => {
+      const a = (window as W).__neural, l = a.drillListRef.current as HTMLElement, lr = l.getBoundingClientRect()
+      const out = { top: l.scrollTop, list: [lr.top, lr.bottom], rows: [...document.querySelectorAll("[data-hist]")].length, acts: [] as W[] }
+      for (const b of document.querySelectorAll(q + " + .ng-hact button")) {
+        const r = b.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2, t = document.elementFromPoint(x, y)
+        out.acts.push({ whole: r.top >= lr.top - 0.5 && r.bottom <= lr.bottom + 0.5, hit: !!t && (t === b || b.contains(t)), h: Math.round(r.height) })
+      }
+      return out
+    }, sel)
+    const keys = await page.evaluate(() => (window as W).__neural.rollLog.map((h: W) => h.key as string))
+    expect(keys.length, "premise: a long roll").toBe(14)
+    // a middle row, with room under it: pressed where it stands, nothing moves
+    const mid = row(keys[3])
+    const before = await geo(mid)
+    expect(before.rows, "premise: fourteen rows, more than the list shows at once").toBe(14)
+    const midTop = await page.locator(mid).evaluate((e) => e.getBoundingClientRect().top)
+    await press(page, mid, "a middle row", true)
+    await page.waitForTimeout(250)
+    const afterMid = await geo(mid)
+    expect(afterMid.acts, "premise: its two actions are whole and under the finger").toEqual([{ whole: true, hit: true, h: 44 }, { whole: true, hit: true, h: 44 }])
+    expect([afterMid.top - before.top, (await page.locator(mid).evaluate((e) => e.getBoundingClientRect().top)) - midTop], "a row whose actions fit does not move: 0 px, the list and the row").toEqual([0, 0])
+    // the last row, at the list's end: its actions would open under the panel's foot
+    const last = row(keys[13])
+    await page.evaluate(() => { const l = (window as W).__neural.drillListRef.current; l.scrollTop = l.scrollHeight })
+    await page.waitForTimeout(100)
+    const edge = await page.evaluate((q) => { const l = (window as W).__neural.drillListRef.current.getBoundingClientRect(), r = document.querySelector(q)!.getBoundingClientRect(); return { rowBottom: r.bottom, listBottom: l.bottom, top: (window as W).__neural.drillListRef.current.scrollTop } }, last)
+    expect(edge.listBottom - edge.rowBottom, "premise: under the last row there is less room than its actions need (44 px and their gap)").toBeLessThan(56)
+    await press(page, last, "the last row", true)
+    await page.waitForTimeout(250)
+    const afterLast = await geo(last)
+    expect(afterLast.acts, "the last row's two actions are whole in the list and under the finger").toEqual([{ whole: true, hit: true, h: 44 }, { whole: true, hit: true, h: 44 }])
+    expect(afterLast.top, "the list scrolled to show them").toBeGreaterThan(edge.top)
+    await expect(page.locator(last), "and the row itself is still in view").toBeInViewport({ ratio: 1 })
+  })
+})
+
 test.describe("on a phone, Show on the map is a look: the hold and every way it ends (ruling 1), 390x631", () => {
   test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } })
 
@@ -554,12 +767,52 @@ test.describe("on a phone, Show on the map is a look: the hold and every way it 
     expect(await named(page, "Mount|Top"), "and the map still names the place: the name lasts as long as the look").toBe(true)
     const p = await emptyMapPoint(page)
     expect(p, "premise: a point of the map with nothing on it").not.toBeNull()
+    const was = await theRoll(page)
+    expect(was.card, "premise: the roll's landing card is on the board").not.toBeNull()
     await page.touchscreen.tap(p!.x, p!.y)
     expect((await state(page)).paused, "after a press on the map the roll runs again").toBe(false)
     expect((await beats(page, "look_ended")).map((b: W) => b.by), "and the hold says how it ended").toEqual(["map"])
     expect((await state(page)).look, "the claim is over").toBe(false)
+    // (until L3-R1 this press went on to the map as a tap: on the background it declined the question or went to free roam)
+    expect(await theRoll(page), "the roll that runs again is the roll that was held: its states, its hand, its card, nothing filed, nothing declined").toEqual(was)
     await j.advance(800)
     expect(await named(page, "Mount|Top"), "and the place's name on the map is gone: the look is over and the camera's lease long spent").toBe(false)
+  })
+
+  // L3-R1, the reader of PR #440, finding 1: 8 of 9 taps in the visible map during a hold ended the live roll (seven staged
+  // a new roll or opened a technique at the node under the finger, the shown place included; one went to free roam). The
+  // press that ends a look does that and nothing else. Two taps, each ON A NODE: the shown place itself, and another node.
+  for (const where of ["the shown place itself", "another place on the map"]) {
+    test(`on a phone a press on ${where} during the hold ends the look and nothing else: the same roll runs again`, async ({ page }) => {
+      const { j } = await looking(page)
+      for (let i = 0; i < 30 && !framed(await onScreen(page, "Mount|Top")); i++) await j.advance(200)
+      const p = where.startsWith("the shown") ? await orbPoint(page, "Mount|Top").then((o) => (o.map ? { x: o.x, y: o.y, node: "Mount Top" } : null)) : await nodePoint(page, "Mount|Top")
+      expect(p, "premise: a point of the visible map with a node under it and nothing over it").not.toBeNull()
+      const was = await theRoll(page), stored = await record(page)
+      expect(was.card, "premise: the roll's landing card is on the board").not.toBeNull()
+      await page.touchscreen.tap(p!.x, p!.y)
+      await j.advance(400)
+      expect(await state(page), `the look is over and the roll runs (the press was on ${p!.node})`).toMatchObject({ paused: false, look: false, drawer: false })
+      expect(await theRoll(page), "the same roll runs again: nothing staged, nothing opened, nothing filed, its card as it was").toEqual(was)
+      expect(changed(stored, await record(page)), "and nothing stored").toEqual([])
+      expect((await beats(page, "look_ended")).map((b: W) => b.by)).toEqual(["map"])
+      // the NEXT press is an ordinary press on the map again: on a node it opens that place
+      await page.touchscreen.tap(p!.x, p!.y)
+      await j.advance(400)
+      expect((await theRoll(page)).journey, "the press after it is the map's own again: the place opens").toBeGreaterThan(was.journey)
+    })
+  }
+
+  test("on a phone a pan begun on the map during the hold still pans, and the roll runs again", async ({ page }) => {
+    const { j } = await looking(page)
+    for (let i = 0; i < 30 && !framed(await onScreen(page, "Mount|Top")); i++) await j.advance(200)
+    const p = await emptyMapPoint(page)
+    const was = await theRoll(page), cam = await page.evaluate(() => { const a = (window as W).__neural; return [a.cam.cx, a.cam.cy] })
+    await page.mouse.move(p!.x, p!.y); await page.mouse.down(); await page.mouse.move(p!.x + 40, p!.y + 20, { steps: 5 }); await page.mouse.up()
+    expect(await state(page), "the look is over and the roll runs").toMatchObject({ paused: false, look: false })
+    expect(await theRoll(page), "the same roll").toEqual(was)
+    const now = await page.evaluate(() => { const a = (window as W).__neural; return [a.cam.cx, a.cam.cy] })
+    expect(Math.hypot(now[0] - cam[0], now[1] - cam[1]), "and the map moved under the finger").toBeGreaterThan(1)
   })
 
   test("on a phone a wheel on the map lets it go too", async ({ page }) => {
