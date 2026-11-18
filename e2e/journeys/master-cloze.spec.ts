@@ -58,8 +58,17 @@ import { journey } from "../dsl"
  *          line has no Undo"
  *   L2-R1j the hand's title keeps the roll's switch        → "the hand is face down…" at "the hand's title says what the map is doing"
  *   L2-R1k a card a cloze holds down offers a reveal       → at "no face-down card says a hover reveals it, and none wears a badge"
+ *          (run again in L2-R2 at its new place, `_hideHow`: red there and at "no card says a hover reveals it while the cloze is hidden")
  *   (the push's hold, the journal put back whole and a control position as a place are units: tests/progress_owner.integration
- *   .test.mjs L2-R1a to L2-R1f, tests/master_cloze.test.mjs L2-14)
+ *   .test.mjs L2-R1a to L2-R1f, tests/master_cloze.test.mjs L2-14. "A control position drawn as a finish" SURVIVES this file,
+ *   17 of 17 on the reader's served bundle: no row of these five places' first six moves leads to a control position. It
+ *   is red only in the whole-wire unit.)
+ * L2-R2 (the reader's re-read: a player whose own setting hides their moves):
+ *   L2-R2d a card that stays down never takes "cz"         → "…for a player whose own setting hides their moves" at "no card says
+ *          a hover reveals it while the cloze is hidden"
+ *   L2-R2e a card that stays down never leaves "cz"        → at "after Show the cards are still down: the player's own setting"
+ *          (the step that reads what each down card carries: "badge" again)
+ *   L2-R2f a card turned up before the cloze stays up      → at "a card turned up before the cloze opened is face down again"
  * NOT COVERED here: a player on "Multiple choice" (no cloze until L4: tests/practice_queue.test.mjs pins the plan); a player
  *   with no stored answer at all (the plan is the older order until a first answer: cards only); the camera at Show and a
  *   row lighting its way (L2b); another tab or device taking a confirm in before its Undo; the push itself (a journey's
@@ -89,11 +98,14 @@ async function press(page: Page, selector: string, what: string, touch: boolean,
 }
 
 /** the seeded player. `at`: a roll staged at that seat (the map's hand is then that position's) */
-async function setup(page: Page, opts: { at?: string; reduced?: boolean; cards?: string[]; goal?: number } = {}) {
+async function setup(page: Page, opts: { at?: string; reduced?: boolean; cards?: string[]; goal?: number; hide?: boolean } = {}) {
   await page.addInitScript((d) => { (window as W).__NG_EPOCH_DAY__ = d }, DAY)
   if (opts.reduced) await page.emulateMedia({ reducedMotion: "reduce" })
   const j = journey(page, { answerMode: "classic" })
-  await j.boot("/", { initialState: { v: 2, explored: PLACES, ...(opts.goal ? { settings: { dailyGoal: opts.goal }, settingsAt: { dailyGoal: 5 } } : {}) } })
+  // `goal`: the day's goal; `hide`: the player's own setting hides their moves ("Your moves · Hidden")
+  const settings: Record<string, unknown> = { ...(opts.goal ? { dailyGoal: opts.goal } : {}), ...(opts.hide ? { hideMoves: true } : {}) }
+  const stored = Object.keys(settings).length ? { settings, settingsAt: Object.fromEntries(Object.keys(settings).map((k) => [k, 5])) } : {}
+  await j.boot("/", { initialState: { v: 2, explored: PLACES, ...stored } })
   await expect.poll(() => page.evaluate(() => {
     const a = (window as W).__neural
     return !!(a && a.nodes && a.nodes.length && a.flashcards && a.flashcards.decks && Object.keys(a.flashcards.decks).length && a.curriculum)
@@ -573,7 +585,7 @@ test.describe("1440x900, mouse: the map beside an open cloze", () => {
     const map = () => page.evaluate(() => {
       const a = (window as W).__neural, c = a._session && a._session.cz && a._session.czOpen != null ? a._session.cz.get(a._session.czOpen) : null
       const hidden = new Set<number>(c ? c.rows.filter((r: W) => r.ask).map((r: W) => r.idx) : [])
-      return { hand: (a._optionCards || []).length, down: (a._optionCards || []).filter((x: W) => x.card.hasAttribute("data-hide")).length,
+      return { hand: (a._optionCards || []).length, down: (a._optionCards || []).filter((x: W) => x.card.hasAttribute("data-hide") && !x.card.hasAttribute("data-revealed")).length,
         cardNames: (a._optionCards || []).filter((x: W) => hidden.has(x.opt.idx) && !x.card.hasAttribute("data-hide")).length,
         named: (a._lastOptLabels || []).filter((l: W) => hidden.has(l.idx)).length, marks: (a._lastMapMarks || []).filter((m: W) => hidden.has(m.idx)).length,
         hover: a._lastHoverLabel ? hidden.has(a._lastHoverLabel.idx) : false, hidden: hidden.size, labels: (a._lastOptLabels || []).length, allMarks: (a._lastMapMarks || []).length }
@@ -633,5 +645,59 @@ test.describe("1440x900, mouse: the map beside an open cloze", () => {
     expect(await page.evaluate(() => ((window as W).__neural._optionCards || []).filter((x: W) => x.card.hasAttribute("data-hide")).length), "the place left: the hand is as it was").toBe(0)
     w = await words()
     expect([w.sw, w.press, w.label], "and the roll's own words and switch are back when the place is closed").toEqual([roll.sw, true, roll.label])
+  })
+
+  // L2-R2 (the reader's re-read of PR #438, its one fix; ruling 6): A PLAYER WHOSE OWN SETTING HIDES THEIR MOVES. Every
+  // card of theirs is down already, and what a down card says about a look was written only when a card was TURNED
+  // down: so the suggested card kept "Hover to reveal" through a hidden cloze, where a hover reveals nothing (4 of 4
+  // readings). And the mirror: a card that took the cloze's mark kept it after Show, where a hover does reveal.
+  test("…for a player whose own setting hides their moves: no card offers a reveal during the hidden cloze, and the offer is back after Show and after the place closes", async ({ page }) => {
+    const { j } = await setup(page, { at: "Mount|Bottom", hide: true })
+    for (let i = 0; i < 16; i++) { await j.advance(1000); if (await page.evaluate(() => ((window as W).__neural.optionIdxs || []).length > 0)) break }
+    await j.advance(2500)
+    const hand = () => page.evaluate(() => {
+      const cards = [...document.querySelectorAll('[data-choice-group="you"] .ng-choice-card')] as HTMLElement[]
+      const says = (c: HTMLElement) => { const b = c.querySelector(".ng-choice-badge"); return b && getComputedStyle(b).visibility !== "hidden" ? getComputedStyle(b, "::after").content : "" }
+      return { n: cards.length, down: cards.filter((c) => c.hasAttribute("data-hide") && !c.hasAttribute("data-revealed")).length, up: cards.filter((c) => c.hasAttribute("data-revealed")).length,
+        how: [...new Set(cards.map((c) => c.getAttribute("data-hide")))].sort().join(","), offers: cards.filter((c) => c.hasAttribute("data-hide") && !c.hasAttribute("data-revealed") && /reveal/i.test(says(c))).length }
+    })
+    const first = () => page.evaluate(() => { const c = document.querySelector('[data-choice-group="you"] .ng-choice-card')!.getBoundingClientRect(); return { x: c.left + c.width / 2, y: c.top + c.height / 2 } })
+    const hover = async () => { const c = await first(); await page.mouse.move(c.x, c.y); await j.advance(300); const h = await hand(); await page.mouse.move(200, 400); await j.advance(300); return h }
+    let h = await hand()
+    expect(h.n, "premise: the roll stands at Mount, bottom, its hand dealt").toBeGreaterThanOrEqual(6)
+    expect([h.down, h.how], "premise: this player's own setting holds every card down").toEqual([h.n, "badge"])
+    // (the "Suggested" badge lands with the hand's win chances, a few seconds after the deal: hidden-moves.spec.ts waits the same way)
+    await expect.poll(async () => (await hand()).offers, { timeout: 30_000, message: "premise: a down card offers its reveal (the suggested one says \"Hover to reveal\")" }).toBeGreaterThan(0)
+    expect((await hover()).up, "premise: a hover turns a card up").toBe(1)
+    // one card turned up by the keyboard stays up (no pointer leaves it): the state a hidden cloze must not leave on screen
+    await page.locator('[data-choice-group="you"] .ng-choice-card [data-choice-execute]').first().focus()
+    await page.keyboard.press("Enter")
+    await j.advance(300)
+    expect((await hand()).up, "premise: a card turned up by the keyboard stays up").toBe(1)
+    await openMaster(page, false)
+    await openCloze(page, "Mount|Bottom", false)
+    await j.advance(600)
+    h = await hand()
+    expect(h.up, "a card turned up before the cloze opened is face down again").toBe(0)
+    expect(h.down, "the hand is face down, whole").toBe(h.n)
+    expect([h.offers, h.how], "no card says a hover reveals it while the cloze is hidden").toEqual([0, "cz"])
+    expect((await hover()).up, "and a hover reveals nothing").toBe(0)
+    // after Show the hand is this player's own again: still down (their setting), and the offer and the reveal are back
+    await press(page, "[data-master-bar] [data-cz-show]", "Show", false, false)
+    await j.advance(600)
+    h = await hand()
+    expect([h.down, h.how], "after Show the cards are still down: the player's own setting").toEqual([h.n, "badge"])
+    expect(h.offers, "after Show the badge is back on a card that is still down").toBeGreaterThan(0)
+    expect((await hover()).up, "and a hover reveals again").toBe(1)
+    // Hide: held down by the cloze again; then the place closed: the player's own hand
+    await press(page, "[data-master-bar] [data-cz-hide]", "Hide", false, false)
+    await j.advance(400)
+    h = await hand()
+    expect([h.offers, h.how], "Hide: no offer again").toEqual([0, "cz"])
+    await press(page, "[data-master-list]", "back to the list", false, false)
+    await j.advance(400)
+    h = await hand()
+    expect([h.down, h.how, h.offers > 0], "the place closed: the cards down by the player's setting, the offer back").toEqual([h.n, "badge", true])
+    expect((await hover()).up, "and a hover reveals").toBe(1)
   })
 })

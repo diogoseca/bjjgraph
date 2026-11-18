@@ -335,7 +335,9 @@ function ngClozeTap(app, s, id) {
   if (kept) { const b = [...s.czHost.querySelectorAll("[data-cz-had]")].find((e) => e.getAttribute("data-cz-had") === id); if (b) b.focus({ preventScroll: true }); }
 }
 // DONE: every hidden move written once, through the app's one writer; each is one of the day's 20
-function ngClozeDone(app, s) {
+// (exported for tests/progress_owner.integration.test.mjs, which confirms through THIS function against a cloud that holds
+// a record: L2-R2. Not re-exported by gameplan.src.js, so the bundle is the same bytes.)
+export function ngClozeDone(app, s) {
   const c = ngCzNow(s), asked = c ? c.rows.filter((r) => r.ask) : [];
   if (!c || !c.shown || c.done) return;
   app._undoRelease();   // the confirm before this one can no longer be undone: its push goes

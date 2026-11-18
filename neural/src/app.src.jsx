@@ -15686,10 +15686,21 @@ class Component extends DCLogic {
   // A card already where it belongs is not touched, so a card turned up by a look stays up.
   _applyHide(card, st = this._moveState(card._choiceOpt)) {
     const down = this._czHand() || (this._hideMoves() && st !== "known" && st !== "learned");
-    if (down === card.hasAttribute("data-hide")) return;
+    if (down === card.hasAttribute("data-hide")) {
+      // A CARD THAT STAYS DOWN CARRIES WHAT `_hideCard` WOULD WRITE NOW, IN BOTH DIRECTIONS (L2-R2, the reader's re-read
+      // of PR #438, its one fix). The value was written only when a card was TURNED down, so a player whose own setting
+      // hides their moves (every card already down) still read "Hover to reveal" on a card an open cloze holds down,
+      // where a hover reveals nothing; and a hand dealt during a hidden cloze under that setting kept "cz" after Show,
+      // so its "Hover to reveal" never came back though a hover then works.
+      if (down && card.getAttribute("data-hide") !== this._hideHow()) card.setAttribute("data-hide", this._hideHow());
+      return;
+    }
     if (down) this._hideCard(card);
     else { this._unhideCard(card); this._cardAria(card); }
   }
+  // what a card that is down says about a look, NOW: "cz" while an open cloze holds the hand down (no reveal is offered,
+  // and no badge is worn: choice-value.css), else the hint's own place ("badge": "Hover to reveal" / "Tap to reveal")
+  _hideHow() { return this._czHand() ? "cz" : NG_HIDE_HINT; }
   // ── THE SEAL (v1.272.0, the owner, 13 Nov, his pick "a, A gold seal in the corner", over: "The mastered cards show
   // up with a golden outline, and this is confusing. It seems like this is the selected technique, and we're trying to
   // guess this technique."). His option read: "A small filled seal: you answered Yes here. A hollow one: its flashcards
@@ -15743,8 +15754,8 @@ class Component extends DCLogic {
   }
   _paintHand() { for (const oc of this._optionCards || []) if (oc.card && oc.opt) this._paintCard(oc.card); }
   _hideCard(card) {
-    // (L2-R1, ruling 6: a card an open cloze holds down is not offered to a hover or a tap, so it does not say so: "cz")
-    card.setAttribute("data-hide", this._czHand() ? "cz" : NG_HIDE_HINT);
+    // (L2-R1, ruling 6: a card an open cloze holds down is not offered to a hover or a tap, so it does not say so: `_hideHow`)
+    card.setAttribute("data-hide", this._hideHow());
     this._cardAria(card);
     if (card._hm) return;
     card._hm = 1;
@@ -15955,7 +15966,11 @@ class Component extends DCLogic {
   _czHand() { const d = this._czDown(); return !!d && (this.optionIdxs || []).some((i) => d.has(i)); }
   _czSync() {
     this._hmLit = new Set(); this._nm = null;
-    for (const c of this._optionCards || []) if (c.card && c.opt) this._paintCard(c.card);
+    // a card a tap or a key turned up BEFORE the cloze opened goes down again while the cloze holds the hand (L2-R2: under
+    // "moves hidden" such a card kept its face up beside the bars, since no pointer leaves it; a look during the cloze
+    // was already refused, `_peek`)
+    const held = this._czHand();
+    for (const c of this._optionCards || []) if (c.card && c.opt) { if (held && c.card.hasAttribute("data-revealed")) this._peek(c.card, false, true); this._paintCard(c.card); }
     this._paintHideSwitch(this.optionsRef.current?.querySelector('[data-choice-group="you"] > div'));
   }
   // the cloze's view goes when a card opens or the place is left; its own code is master-list.src.js (deferred)

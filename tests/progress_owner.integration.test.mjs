@@ -2,6 +2,11 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { ngProgressOwner, ngProgressLocalKey, ngProgressCreateStore, ngProgressCreateHost, ngProgressValidateBlob } from '../neural/src/progress-owner.src.js';
+import { ngClozeDone } from '../neural/src/master-cloze.src.js';
+import { ngGameplanReviewed } from '../neural/src/gameplan-debt.src.js';
+// the app class built below is the bundle's eager part without the planner's debt file, which `practiceToday` reads
+// (the cloze's result line asks it): handed in here, as tests/master_cloze.test.mjs does
+globalThis.ngGameplanReviewed = ngGameplanReviewed;
 
 const read = rel => readFileSync(new URL(rel, import.meta.url), 'utf8');
 const strip = text => text.replace(/^export (function|const|let|var|class) /gm, '$1 ');
@@ -556,6 +561,9 @@ test("a guest's damaged record is healed at its first save: the unique strings o
 //   L2-R1c the push not held while an Undo is offered (both guards in `_pushCloud`) → "the cloud push waits while an Undo is offered…"
 //   L2-R1d the hold ends and the Undo stays on the line (`_undoEnd`)              → "the cloud push waits while an Undo is offered…"
 //   L2-R1e a hidden tab keeps the hold (`_undoHeld`)                              → "a hidden tab ends the hold: the Undo first…"
+//   L2-R2a `ngClozeDone` never sets the hold (master-cloze.src.js)                → "the cloud push waits while an Undo is offered…"
+//   L2-R2b `ngClozeDone` leaves the confirm before with its Undo                  → "the cloud push waits while an Undo is offered…"
+//   L2-R2c `ngClozeDone` sets the hold after the write                            → SURVIVES (see `confirm` below: the timer's own guard)
 const memory2 = () => { const m = memory(); m.removeItem = k => { m.rows.delete(k); }; return m; };
 const PENDING = owner => ngProgressLocalKey(owner, 'pending');
 // the whole of what is stored, every key, with the two times a save writes taken out: the record's `updatedAt` and the
@@ -592,12 +600,22 @@ test('L2-R1: two new moves at a place that had none, Done then Undo: everything 
   assert.equal(mem.rows.get(PENDING(guest)), journal, 'a journal that held an answer is the same text again, its counter included');
   assert.equal(storedWhole(mem), stored, 'and everything stored is what it was');
 }));
-// what the cloze does at Done and after (master-cloze.src.js, `ngClozeDone`, `ngClozeLeave`), on a session the drawer shows
+// A CONFIRM IS THE APP'S OWN `ngClozeDone` (L2-R2, the orchestrator's point 2: until then this helper wrote out its
+// three steps by hand, so a change there could not turn these tests red). The cloze it is handed is a shown one with
+// these moves asked and the `ok` ones tapped, on a session the drawer shows; its host is a stand-in that takes the
+// markup and is not on a page (the fit, the foot and the heading have nothing to do there).
+// WHAT THE ORDER INSIDE IT IS WORTH, said so nobody reads more into these tests than they prove: the hold is set BEFORE
+// the write, and `_pushCloud` also asks `_undoHeld()` when its timer fires. Either guard alone holds a push here (the
+// mutant "hold set after the write" SURVIVES these tests: the timer's guard covers it; the mutant "hold never set" and
+// the mutant "the confirm before keeps its Undo" are red, L2-R2a and L2-R2b below).
+const standIn = () => ({ toggleAttribute() {}, setAttribute() {}, set innerHTML(_v) {}, isConnected: false, hidden: false });
 function confirm(a, s, seat, list) {
-  a._undoRelease();              // the confirm before this one can no longer be undone: its push goes
-  a._undoHold = s;               // BEFORE the write
-  const c = { done: { u: a._gradeMoves(list) } };
-  s.cz.set(seat, c);
+  const id = ([st, mv]) => 'm:' + st + ':' + mv;
+  const rows = list.map((x, i) => ({ id: id(x), st: x[0], mv: x[1], ask: true, w: 1, idx: i, name: 'move ' + x[1], tri: false, leads: [] }));
+  const c = { seat, rows, down: new Set(), shown: true, had: new Set(list.filter(x => x[2]).map(id)), done: null, side: 'top' };
+  s.cz.set(seat, c); s.czOpen = seat; s.czHost = s.czHost || standIn();
+  ngClozeDone(a, s);
+  assert.ok(c.done && c.done.u && c.done.u.ids, 'premise: the app\'s own Done confirmed it (' + seat + ')');
   return c;
 }
 async function signedIn(cloud, mem = memory2()) {
@@ -619,9 +637,10 @@ test('L2-R1: the cloud push waits while an Undo is offered, and when the hold en
   // the place is left: the Undo goes first, then the push
   let undoAtPush = 'never pushed';
   const push = a._auth().pushNeural; a._auth().pushNeural = async v => { undoAtPush = c.done.u; return push(v); };
+  const painted = a._painted;   // (the app's own Done painted once already)
   a._undoRelease();
   assert.equal(c.done.u, null, 'the hold ends: the Undo is withdrawn at once');
-  assert.equal(a._painted, 1, 'and the line is drawn again without it');
+  assert.equal(a._painted - painted, 1, 'and the line is drawn again without it');
   await flush(); await flush();
   assert.equal(cloud.pushes - p0, 1, 'then ONE push');
   assert.equal(undoAtPush, null, 'made after the Undo was withdrawn, never before');
