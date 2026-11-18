@@ -195,7 +195,7 @@ test("typing in a field never triggers a shortcut", async ({ page }) => {
 // list. The three keys and both assertions are the journey's own. Since L3, → has no branch that could reach a deck from
 // the list at all (its assertion stays, as the differential it always was); Space and ⏎ still do, through `_focusedMini`.
 // Mutant, on dev's build before (the test as it was) and this build after: `_focusedMini` returns the registry's hit
-// whatever view is shown → red at "and ⏎ did not grade a card nobody was shown".
+// whatever view is shown → red at "⏎ did not grade a card nobody was shown".
 test("keys never reach a deck on the tab you left", async ({ page }) => {
   // `_focusRow` and `_miniReg` are ONE registry and nothing clears the row handle when you leave a view. So a key could
   // resolve a handle a view you LEFT kept behind: Space would flip a hidden card and ⏎ would GRADE a card nobody is looking
@@ -255,9 +255,10 @@ test("keys never reach a deck on the tab you left", async ({ page }) => {
     const app = (window as any).__neural
     return { idx: (app._deckState[key] || {}).idx ?? 0, prep: (app.prep || {})[key] || 0, revealed: !!(app._deckState[key] || {}).revealed }
   }, histKey.key)
-  expect(after.idx, "→ did not page the deck on the tab we left").toBe(before.idx)
-  expect(after.revealed, "Space did not flip a card nobody was shown").toBe(before.revealed)
-  expect(after.prep, "and ⏎ did not grade a card nobody was shown").toBe(before.prep)
+  // (⏎'s grade first: under the fault Space flips the card, ⏎ grades it and walks on, so the deck's place moves too)
+  expect(after.prep, "⏎ did not grade a card nobody was shown").toBe(before.prep)
+  expect(after.idx, "and no key moved the deck on the tab we left").toBe(before.idx)
+  expect(after.revealed, "nor left a card nobody was shown flipped").toBe(before.revealed)
 })
 
 test("Space and Enter still activate a Tab-focused corridor button", async ({ page }) => {
