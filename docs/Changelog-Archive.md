@@ -20014,3 +20014,72 @@ is the same size and the same code, and its hash moved (the minifier swapped two
 
 **Not changed.** The number on screen does not move by itself: a belt row reads when the drawer opens, when a list
 comes back and at the ruleset switch (the rule since v1.276.0: no grade turns into a fetch).
+
+## v1.293.0 — Last rolls is the places you went through (L3; the owner, 16 Nov 2026)
+
+**What.** The owner: "I absolutely love the interface of Lastrolls, but I think Lastrolls should stop being about
+answering … The idea is for last rolls to be about going through the [nodes] that were visited, not necessarily
+answering flashcards." A row (`_histRow`) no longer opens an inline deck. A press shows two actions, one row open at a
+time. **Show on the map** (`_showPlace`): the camera goes to the place as a session's row sends it (`locateNode`, then
+the 7 s lease) and the map NAMES it (`_shown`: the pointer's own label, while the look holds or that flight's lease
+lasts). On a desktop the drawer stays. On a phone it shuts, and the clock is held on a latch of its own
+(`_lookAutoPaused`, the film's pattern): a look, not a return to play. **Practise here**:
+`openMasterAt(key, "lastrolls")`, the place as Master the game's own row opens it (the cloze when moves are owed, else
+its cards; cards only under "Multiple choice"); `neural_practice_opened` carries surface `lastrolls`; the brand leads
+back. The sub line is the side and what you remember there (the gold marks and the number, U199 a). Keys: ⏎ practises,
+Space shows, ↑ ↓ walk; ← → and A, B, C do nothing. Last rolls writes nothing to the record.
+
+**The hold's lifters**, each a beat `look_ended` with `by`: "map" (the wrap's pointerdown and wheel: the roll resumes),
+"drawer" (it opens again: the pause goes back to its latch), "clock" (a resume by another hand), "roll" (a new journey,
+`clearEngagement`: nothing resumes). Taken only when the drawer stopped the game. First written as "any `setPaused`
+call ends the claim" and narrowed before it ran: a clip watched and closed restores the pause it found, and ending the
+look there would leave a roll nothing resumes.
+
+**What the re-survey and the tests found.** (1) EIGHT tests read a card inside Last rolls, not the six of the plan
+(pane-history has eight tests; two were not counted). (2) A row is not always a position: a roll logs the submission it
+enters, Master the game lists positions, and `openMasterAt` with a key its list does not hold opens the list and says
+nothing. So a submission's row has "Show on the map" alone. (3) The mark function was in the DEFERRED bundle
+(`ngMasterGoldIn`), not the eager core, and that bundle had 72 B of room: `_placeGold` and `_goldMark` moved into the
+eager core beside `_movesGold`, `.ng-mgold` into the eager sheet, and the list calls them (§6.5: one function, two
+readers). (4) Gone with the deck: Last rolls' own answer surface ("inline", `data-inline-mc-opt`), the greying of the
+latest row's card (`_armDeckExpire`, `ngDeckExpire`), and `openMenu`, which had no caller. (5) **A card could reopen
+with its answer shown.** `_miniDeck` remembers a place in a deck by index, and what a session asks of a deck is a subset
+that changes between sessions: the same index was another card, drawn with the last one's reveal. Dev does it from
+Master the game's own row; each "Practise here" is a new session, so the second press met it, 2 of 2. The state now
+names its card (`st.q`). (6) **The keyboard journey could not fail on dev**: green under its own mutant, since under
+Auto its card is multiple choice, which takes neither Space nor ⏎. Re-pointed, it states Front Back cards and puts the
+focus on no control. (7) pane-history's "no options anywhere" read `[data-mc-opt]` while the inline deck's options were
+`[data-inline-mc-opt]`: on dev its mutant went red only at a later press's timeout. (8) The first real screens showed
+the shown place unnamed in the middle of the map, and a "space" chip wrapping "Show on the map" onto two lines: hence
+`_shown`, and the keys as tooltips. (9) A line that cleared the name by hand when the look ended survived its own
+mutant (the lease had already ended it) and is gone.
+
+**Bytes: not the shrink the brief expected.** Eager gzip 375,173 (dev v1.292.1) → 375,598 B, +425 (+2,125 of its 5,000
+cap); first-hand core 394,712 (dev v1.292.0) → 395,103 B; deferred 549,705 → 548,718 B, −987 (1,059 B of room where dev
+had 72). Rows: gameplan.js 50,884 → 49,897, neural.js 745,471 → 746,043, neural.css 58,985 → 59,519. The deck's removal
+gave back less than planned because `_miniDeck` stays for the sessions, and about 850 B raw of the eager figure is the
+mark function the deferred total lost. No baseline and no ceiling moved. docs/Neural.md had 3 characters of room, so
+its paragraph is three lines; the behaviour is here and at the code.
+
+**Mutants** (each alone, `npm run dev:neural:app` under the lock; two neutral controls green, 19 and 10 tests; the
+clean bundle byte-identical after; last pass on the PR's head, 18 Nov 05:23 to 05:36; all 26 red at the
+step named, in `e2e/journeys/last-rolls-places.spec.ts`): M1 the inline deck back under a row → "no card in the row"; M2 the sub line back to the card count → "the sub line is the side and what you remember there"; M3 the number the hand's size, a total → "the sub line is the side and what you remember there"; M4 Practise here opens the list's first place → "the place asked for is the one open"; M5 Practise here sends surface "place" → "one opening, its surface lastrolls"; M6 Show on the map frames where the roll stands → "the place is framed in the visible map"; M7 a submission's row offers Practise here → "no Practise here: Master the game lists positions"; M8 THE HOLD NEVER LETS GO → "after a press on the map the roll runs again"; M9 the map's press is no lifter → "after a press on the map the roll runs again"; M10 the wheel is no lifter → "after a wheel on the map the roll runs again"; M11 the drawer opening does not take the pause back → "the pause is the drawer's again"; M12 a resume by another hand leaves the claim → "the look's claim is over"; M13 a new journey leaves the claim → "the staged board's clock is still held after a pan of the map"; M14 the hold taken when the drawer had not stopped the game → "a pan of the map does not start a clock the look never held"; M15 the drawer's shutting resumes the roll → "the drawer is shut and the clock is held: a look, not a return to play"; M16 ⏎ and Space swapped → "and Space opened nothing else"; M17 ← → walk the places → "← → do nothing, and A, B, C answer nothing"; M18 the actions 30 px tall → "Show on the map is at least 44 px tall"; M19 Show on the map sends an event → "Show on the map sends nothing"; M20 Show on the map writes to the record → "the press wrote nothing to the record"; M21 Practise here writes to the record → "the press wrote nothing to the record"; M22 two rows open at once → "one row open at a time"; M23 on a desktop the drawer shuts too → "on a desktop the drawer stays, and its pause with it"; M24 the shown place not named → "the map names the place it shows"; M25 the name rides the lease alone → "and the map still names the place: the name lasts as long as the look"; M26 the name never ends → "after a pan of the map the name is gone". M3 leaves "the two lists say the same" green, which is
+that test's claim: one function feeds both lists.
+
+**The eight re-pointed tests, none removed**, each against its mutant on dev's build (v1.292.1, 8e1d034b5: its build
+inputs and its four spec files) and on this one:
+
+| test | its mutant | on dev's build, as it was | on this build, as it is |
+|---|---|---|---|
+| answer-mode › "Last rolls: …" (mouse, touch) | the deck never asks multiple choice | red at "the inline deck asks a new card as multiple choice" | red at "the place's card asks a new card as multiple choice" |
+| answer-mode › "a stored Multiple choice…" (mouse, touch) | a stored Multiple choice asks a card right twice front and back | red at "multiple choice in Last rolls under a stored Multiple choice" | red at "multiple choice from Last rolls under a stored Multiple choice" |
+| keyboard › "keys never reach a deck on the tab you left" | `_focusedMini` returns any handle | GREEN | red at "⏎ did not grade a card nobody was shown" |
+| newcomer-story › step 5 | before: the deck never asks multiple choice; after: Practise here opens nothing | red at "Auto: the newcomer's new card asks multiple choice here" | red at "Practise here opens the place in Master the game" |
+| pane-history › "a history row under Front Back cards…" | Front Back cards asks multiple choice anyway | red at "locator.click: Test timeout of 60000ms exceeded." | red at "and no options anywhere in the pane" |
+| pane-history › "revealing in the pane is SEEN, not credit" | a reveal credits the card | red at "reading an answer earns no mastery" | red at "reading an answer earns no mastery" |
+| pane-history › "the history survives the round ending" | the round's end shuts the drawer | red at "and still readable" | red at "and its two actions are still there" |
+| pane-history › "free roam files the roll it ends…" | a filed roll does not repaint Last rolls | red at "and filed it under Previous rolls" | red at "and filed it under Previous rolls" |
+
+**Not covered.** A pinch (Playwright sends one finger; its first is the pointerdown M9 pins). A place the ruleset no
+longer draws (no actions; no journey switches the ruleset after a roll). The Forward catalog still draws the old row
+(a design mock, §6.8).
