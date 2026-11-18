@@ -90,7 +90,8 @@ import { journey } from "../dsl"
  *   M37 …and does not unfold the past roll the row is a state of (`_pastRollRow`) → "back from Practise here to a past
  *       roll's state…" at "the past roll is unfolded again"
  *   M38 a row opened under the panel's foot stays there (`_histRow`'s `toggle` without the scroll) → "the last row's two
- *       actions are brought whole into view…" at "the last row's two actions are whole in the list and under the finger"
+ *       actions are brought whole into view…" at "a row opened at the list's foot: its two actions are whole in the list and
+ *       under the finger"
  *   M39 the latest row's open state is not carried to the new latest row (the landing's `wasLatestOpen`) → "the latest row
  *       stays open across a landing" at "the new latest row is the open one"
  *   M40 a row that cannot be pressed lights under the pointer (`_histRow`) → "a place this ruleset does not draw… (mouse)" at
@@ -109,6 +110,9 @@ async function press(page: Page, selector: string, what: string, touch: boolean)
     try { await page.locator(selector).first().scrollIntoViewIfNeeded({ timeout: 3_000 }); break }
     catch (e) { if (i >= 4) throw e; await page.waitForTimeout(250) }
   }
+  // (a control that fades in, as the two actions do over 220 ms, is pressed once it is fully shown, as a player would)
+  await expect.poll(() => page.evaluate((sel) => { let a = 1; for (let n = document.querySelector(sel) as HTMLElement | null; n; n = n.parentElement) a *= Number(getComputedStyle(n).opacity); return a }, selector),
+    { message: `${what}: fully shown`, timeout: 5_000 }).toBeGreaterThan(0.99)
   const at = await page.evaluate((sel) => {
     const el = document.querySelector(sel) as HTMLElement | null
     if (!el) return { ok: false, why: "no element matches", x: 0, y: 0, h: 0 }
@@ -682,11 +686,16 @@ test.describe("the keys act on a row the player can see, 1440x900", () => {
     await expect(page.locator("[data-hist-current] + .ng-hact [data-hist-show]"), "premise: the latest row is open").toBeVisible()
     const latest = await page.locator("[data-hist-current]").getAttribute("data-hist")
     await press(page, ".ng-explorer-close", "shut the drawer", false)
-    const t = await page.evaluate(() => { const a = (window as W).__neural; for (const i of a.optionIdxs || []) if (a.nodes[i].ty === "transitions") return a.nodes[i].t as string; return a.nodes[a.optionIdxs[0]].t as string })
-    await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01])
-    await j.pick(t)
-    await j.nextHand()
+    // moves until the roll stands on another place (a move that keeps the position lands where it stood: no new row)
+    const before = await page.evaluate(() => (window as W).__neural.rollLog.length)
+    for (let k = 0; k < 6 && (await page.evaluate(() => (window as W).__neural.rollLog.length)) === before; k++) {
+      const t = await page.evaluate((k) => { const a = (window as W).__neural, ts = (a.optionIdxs || []).filter((i: number) => a.nodes[i].ty === "transitions"); return a.nodes[ts[k % Math.max(1, ts.length)] ?? a.optionIdxs[0]].t as string }, k)
+      await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01])
+      await j.pick(t)
+      await j.nextHand()
+    }
     const n = await page.evaluate(() => (window as W).__neural.rollLog.length)
+    expect(n, "premise: the roll landed on a new place").toBeGreaterThan(before)
     await openLastRolls(page, false)
     expect(await page.locator("[data-hist]").count(), "premise: the roll landed again").toBe(n)
     expect(await page.locator("[data-hist-current]").getAttribute("data-hist"), "premise: on another place").not.toBe(latest)
@@ -732,18 +741,30 @@ test.describe("a row opened near the end of a long list, 390x631", () => {
     const afterMid = await geo(mid)
     expect(afterMid.acts, "premise: its two actions are whole and under the finger").toEqual([{ whole: true, hit: true, h: 44 }, { whole: true, hit: true, h: 44 }])
     expect([afterMid.top - before.top, (await page.locator(mid).evaluate((e) => e.getBoundingClientRect().top)) - midTop], "a row whose actions fit does not move: 0 px, the list and the row").toEqual([0, 0])
-    // the last row, at the list's end: its actions would open under the panel's foot
+    // a row whose bottom is at the list's bottom edge (the player has scrolled it there): its actions would open under the
+    // panel's foot, all of them
+    await press(page, mid, "the middle row again, to close it", true)
+    const low = row(keys[9])
+    await page.evaluate((q) => { const l = (window as W).__neural.drillListRef.current as HTMLElement; l.scrollTop = 0; l.scrollTop += document.querySelector(q)!.getBoundingClientRect().bottom - l.getBoundingClientRect().bottom }, low)
+    await page.waitForTimeout(100)
+    const edge = await page.evaluate((q) => { const l = (window as W).__neural.drillListRef.current as HTMLElement, r = document.querySelector(q)!.getBoundingClientRect(); return { room: l.getBoundingClientRect().bottom - r.bottom, top: l.scrollTop } }, low)
+    expect(Math.abs(edge.room), "premise: the row's foot is at the list's foot, no room under it").toBeLessThan(2)
+    // (pressed at a point of the row that is in view: its middle is)
+    await press(page, low, "a row at the list's foot", true)
+    await page.waitForTimeout(250)
+    const afterLow = await geo(low)
+    expect(afterLow.acts, "a row opened at the list's foot: its two actions are whole in the list and under the finger").toEqual([{ whole: true, hit: true, h: 44 }, { whole: true, hit: true, h: 44 }])
+    expect(afterLow.top - edge.top, "the list scrolled just enough to show them: the actions' own height, no more").toBeGreaterThanOrEqual(46)
+    expect(afterLow.top - edge.top, "and no more").toBeLessThanOrEqual(72)
+    await expect(page.locator(low), "and the row itself is still in view").toBeInViewport({ ratio: 1 })
+    // the last row, at the list's very end
     const last = row(keys[13])
     await page.evaluate(() => { const l = (window as W).__neural.drillListRef.current; l.scrollTop = l.scrollHeight })
     await page.waitForTimeout(100)
-    const edge = await page.evaluate((q) => { const l = (window as W).__neural.drillListRef.current.getBoundingClientRect(), r = document.querySelector(q)!.getBoundingClientRect(); return { rowBottom: r.bottom, listBottom: l.bottom, top: (window as W).__neural.drillListRef.current.scrollTop } }, last)
-    expect(edge.listBottom - edge.rowBottom, "premise: under the last row there is less room than its actions need (44 px and their gap)").toBeLessThan(56)
     await press(page, last, "the last row", true)
     await page.waitForTimeout(250)
-    const afterLast = await geo(last)
-    expect(afterLast.acts, "the last row's two actions are whole in the list and under the finger").toEqual([{ whole: true, hit: true, h: 44 }, { whole: true, hit: true, h: 44 }])
-    expect(afterLast.top, "the list scrolled to show them").toBeGreaterThan(edge.top)
-    await expect(page.locator(last), "and the row itself is still in view").toBeInViewport({ ratio: 1 })
+    expect((await geo(last)).acts, "the last row's two actions are whole in the list and under the finger").toEqual([{ whole: true, hit: true, h: 44 }, { whole: true, hit: true, h: 44 }])
+    await expect(page.locator(last), "and the last row itself is in view").toBeInViewport({ ratio: 1 })
   })
 })
 
