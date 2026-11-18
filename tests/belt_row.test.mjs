@@ -138,8 +138,8 @@ function prove(a, beltId, frame, units) {
 /** what `_paintBeltRow` WROTE, read back from a stub node: never recomputed */
 function row(a) {
   const el = { innerHTML: "", attrs: {}, setAttribute(k, v) { this.attrs[k] = v; } };
-  const box = { querySelector: (s) => (s.includes("data-belt-row") ? el : null) };
-  a.drillRef = { current: { querySelector: (s) => (s.includes("data-explore-stats") ? box : null) } };
+  // (v1.292.1, BELTROW: the painter asks the panel for EVERY belt row it holds; this panel holds one)
+  a.drillRef = { current: { querySelectorAll: (s) => (s.includes("data-belt-row") ? [el] : []) } };
   a._paintBeltRow();
   a.drillRef = { current: null };
   const attr = (n) => (new RegExp(n + '="([^"]*)"').exec(el.innerHTML) || [])[1];
@@ -505,4 +505,34 @@ test("a reopen: nothing fetched after a check that landed; one more try after a 
     assert.equal(asked.length, 4, "BELT-M13: nothing fetched again after the check landed");
     assert.equal(a._beltReading.points, r2.points);
   } finally { globalThis.fetch = realFetch; }
+});
+
+
+// ── v1.292.1 (BELTROW): every belt row the panel holds carries the reading. With Master the game open the panel holds
+// two (the drawer's own, hidden, FIRST in the page; Master the game's, on screen): a repaint with no row named painted
+// the first only, so the row on screen kept the number from when the page opened.
+// MUTANT (applied alone, red on this test; the clean code green before and after): the repaint aimed at the first row
+// again (`_paintBeltRow` painting `[...rows][0]` only).
+test("a repaint reaches every belt row the panel holds, the second as the first; and a row built a moment ago that is not in the panel yet", () => {
+  const a = boot({ reading: ok(1009.21) });
+  const mk = () => ({ innerHTML: "", attrs: {}, setAttribute(k, v) { this.attrs[k] = v; } });
+  const drawer = mk(), master = mk(), fresh = mk();
+  a.drillRef = { current: { querySelectorAll: (s) => (s.includes("data-belt-row") ? [drawer, master] : []) } };
+  a._beltReading = a.rating();
+  a._paintBeltRow();
+  const num = (el) => (/data-belt-number="([^"]*)"/.exec(el.innerHTML) || [])[1];
+  assert.equal(num(drawer), "1009", "premise: the first row in the page prints the number");
+  assert.equal(num(master), "1009", "the second row in the page carries the same number as the first");
+  assert.equal(master.innerHTML, drawer.innerHTML, "and the same belt, stripes and lines");
+  assert.equal(master.attrs["data-belt-state"], "ok");
+  // a new reading (an answer took the number down: the list button reads again): both rows move together
+  setReading(a, ok(1004.44));
+  a._beltReading = a.rating();
+  a._paintBeltRow();
+  assert.equal(num(master), "1004", "the row on screen carries the new reading");
+  assert.equal(master.innerHTML, drawer.innerHTML, "as the drawer's own does");
+  // a row built a moment ago, handed in by its builder, is painted with the rest
+  a._paintBeltRow({ querySelector: (s) => (s.includes("data-belt-row") ? fresh : null) });
+  assert.equal(fresh.innerHTML, master.innerHTML, "the builder's own row too");
+  a.drillRef = { current: null };
 });

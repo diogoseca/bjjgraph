@@ -140,8 +140,8 @@ function stageDecks(a, n, st) {
  *  small loss the owner accepted). */
 function tab(a) {
   const row = { innerHTML: "", attrs: {}, setAttribute(k, v) { this.attrs[k] = v; } };
-  const box = { querySelector: (s) => (s.includes("data-belt-row") ? row : null) };
-  a.drillRef = { current: { querySelector: (s) => (s.includes("data-explore-stats") ? box : null) } };
+  // (v1.292.1, BELTROW: the painter asks the panel for EVERY belt row it holds; this panel holds one)
+  a.drillRef = { current: { querySelectorAll: (s) => (s.includes("data-belt-row") ? [row] : []) } };
   a._paintBeltRow();
   a.drillRef = { current: null };
   const attr = (n) => (new RegExp(n + '="([^"]*)"').exec(row.innerHTML) || [])[1];

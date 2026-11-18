@@ -63,6 +63,8 @@ import { journey } from "../dsl"
  *   .test.mjs L2-R1a to L2-R1f, tests/master_cloze.test.mjs L2-14. "A control position drawn as a finish" SURVIVES this file,
  *   17 of 17 on the reader's served bundle: no row of these five places' first six moves leads to a control position. It
  *   is red only in the whole-wire unit.)
+ * BELTROW (v1.292.1): the repaint aimed at the first belt row in the page again → "the list's own belt row prints the current
+ *   number after a cloze's Done…" at "the list's own row prints the number as it is after Done, not as it was when the page opened"
  * L2-R2 (the reader's re-read: a player whose own setting hides their moves):
  *   L2-R2d a card that stays down never takes "cz"         → "…for a player whose own setting hides their moves" at "no card says
  *          a hover reveals it while the cloze is hidden"
@@ -98,7 +100,7 @@ async function press(page: Page, selector: string, what: string, touch: boolean,
 }
 
 /** the seeded player. `at`: a roll staged at that seat (the map's hand is then that position's) */
-async function setup(page: Page, opts: { at?: string; reduced?: boolean; cards?: string[]; goal?: number; hide?: boolean } = {}) {
+async function setup(page: Page, opts: { at?: string; reduced?: boolean; cards?: string[]; goal?: number; hide?: boolean; old?: boolean } = {}) {
   await page.addInitScript((d) => { (window as W).__NG_EPOCH_DAY__ = d }, DAY)
   if (opts.reduced) await page.emulateMedia({ reducedMotion: "reduce" })
   const j = journey(page, { answerMode: "classic" })
@@ -111,13 +113,14 @@ async function setup(page: Page, opts: { at?: string; reduced?: boolean; cards?:
     return !!(a && a.nodes && a.nodes.length && a.flashcards && a.flashcards.decks && Object.keys(a.flashcards.decks).length && a.curriculum)
   }), { timeout: 60_000, message: "graph, deck manifest and curriculum in" }).toBe(true)
   if (opts.at) await j.advance(12000)   // the root intro finishes before a seat is staged, as landing-card.spec does
-  const hands = await page.evaluate(({ places, at }: W) => {
+  // `old`: the six moves at each place were known for a YEAR (a "did not" on them moves the number by whole points)
+  const hands = await page.evaluate(({ places, at, ivl }: W) => {
     const a = (window as W).__neural, d = a._epochDay(), out: Record<string, string[]> = {}
     a.moves = a.moves || {}
     for (const k of places) {
       const i = a.nodeForKey(k), role = k.endsWith("|Bottom") ? "bottom" : "top", o = a._ordById.get(a.siteIdOf(a.nodes[i].id)), dl = a._dealtOrds(i, role) || []
       const row = (a.moves[o + "/" + role] = a.moves[o + "/" + role] || {})
-      dl.slice(0, 6).forEach((m: string, n: number) => { row[m] = [d - 1 - n, 7, d - 8 - n, 1, 7, 7] })
+      dl.slice(0, 6).forEach((m: string, n: number) => { row[m] = [d - 1 - n, ivl, d - 1 - ivl - n, 1, ivl, ivl] })
       out[k] = dl
     }
     a._movesRev = (a._movesRev || 0) + 1
@@ -125,7 +128,7 @@ async function setup(page: Page, opts: { at?: string; reduced?: boolean; cards?:
     if (at) a.rollFromPosition(a.nodeForKey(at), true, at.endsWith("|Bottom") ? "bottom" : "top")
     else a.setPaused(true)
     return out
-  }, { places: PLACES, at: opts.at || null })
+  }, { places: PLACES, at: opts.at || null, ivl: opts.old ? 365 : 7 })
   for (const k of PLACES) expect(hands[k].length, `premise: ${k} deals at least six moves`).toBeGreaterThanOrEqual(6)
   // `cards`: two cards due at each of these places too (answered ten days ago, a week's interval)
   if (opts.cards) {
@@ -493,6 +496,45 @@ for (const touch of [true, false]) {
       expect(held.map((m) => m.title).includes(bare!.title), `${bare!.title}: it is never a bar`).toBe(false)
       expect(rows.filter((r) => r.kind === "solid").length, "it is never in sight either").toBe(0)
       expect(rows.length, "the rows are the six asked").toBe(6)
+    })
+
+    // v1.292.1 (BELTROW): THE LIST'S OWN BELT ROW PRINTS THE NUMBER AS IT IS NOW, after a cloze's Done and after its Undo.
+    // The list button's reading was painted into the drawer's row (the first belt row in the page, hidden there), and the
+    // row on screen kept the number from when the page opened. A player who knew six moves a place for a YEAR: a "did
+    // not" on six of them moves the number by whole points (the record is rigged, never the app).
+    test(`the list's own belt row prints the current number after a cloze's Done, and the number before a confirm after its Undo (${tag})`, async ({ page }) => {
+      await setup(page, { old: true })
+      await openMaster(page, touch)
+      const bar = "[data-master-dock] [data-master-bar]"
+      const row = () => page.evaluate(() => {
+        const a = (window as W).__neural, el = document.querySelector("[data-master-top] [data-belt-number]") as HTMLElement | null
+        return { now: String(Math.floor(a.rating().points)), exact: a.rating().points as number, n: el ? el.getAttribute("data-belt-number") : null, on: !!el && !!el.offsetParent && el.getClientRects().length > 0 }
+      })
+      await expect.poll(async () => (await row()).n, { timeout: 15_000, message: "premise: the list's own row prints a number" }).toMatch(/^\d{4}$/)
+      const A = await row()
+      expect([A.on, A.n], "premise: as the page opens, the row on screen prints the current number").toEqual([true, A.now])
+      // DONE at Mount, none had: the number goes down by whole points; back on the list the row reads it
+      await openCloze(page, "Mount|Bottom", touch)
+      await press(page, `${bar} [data-cz-show]`, "Show", touch, false)
+      await press(page, `${bar} [data-cz-done]`, "Done", touch, false)
+      const B = await row()
+      expect(Number(B.now), `premise: six "did not" moved the number by a whole point or more (${A.now} → ${B.now})`).toBeLessThan(Number(A.now))
+      expect(B.on, "(with a place open the row is not on screen)").toBe(false)
+      await press(page, "[data-master-list]", "back to the list", touch, false)
+      await expect.poll(async () => { const r = await row(); return [r.on, r.n] }, { timeout: 15_000, message: "the list's own row prints the number as it is after Done, not as it was when the page opened" }).toEqual([true, B.now])
+      // another place: Done, then Undo: the number is back where it was before THAT confirm (B, not the page's first A)
+      const next = await page.evaluate(() => { const a = (window as W).__neural, s = a._session; return ((s.plan.moves || []).map((m: W) => m.seat as string).find((x: string) => x !== "Mount|Bottom")) || null })
+      expect(next, "premise: the plan asks moves at another place").not.toBeNull()
+      await openCloze(page, next!, touch)
+      await press(page, `${bar} [data-cz-show]`, "Show", touch, false)
+      await press(page, `${bar} [data-cz-done]`, "Done", touch, false)
+      const C = await row()
+      expect(Number(C.now), `premise: this confirm moved the number too (${B.now} → ${C.now})`).toBeLessThan(Number(B.now))
+      await press(page, "[data-cloze] .un", "Undo", touch, false)
+      const U = await row()
+      expect(U.exact, "premise: Undo puts the number back exactly").toBe(B.exact)
+      await press(page, "[data-master-list]", "back to the list", touch, false)
+      await expect.poll(async () => { const r = await row(); return [r.on, r.n] }, { timeout: 15_000, message: "after Undo the list's own row prints the number as it was before that confirm" }).toEqual([true, B.now])
     })
 
     // MOVES BEFORE CARDS AT A POSITION (S0's law), whichever way the place is entered: its row's press opens the cloze

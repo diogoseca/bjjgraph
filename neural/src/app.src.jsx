@@ -8892,16 +8892,27 @@ class Component extends DCLogic {
     }, () => null);
   }
   _paintBeltRow(box) {
-    // the drawer's row, or Master the game's own belt above its button (L1: "the belt and its number as today")
-    box = box || this.drillRef?.current?.querySelector("[data-explore-stats],[data-master-top]");
-    const el = box && box.querySelector("[data-belt-row]"); if (!el) return;
+    // EVERY BELT ROW THERE IS CARRIES THE READING (v1.292.1, BELTROW). Two rows can stand in the panel at once: the
+    // drawer's own (in its list) and Master the game's (above its button, L1: "the belt and its number as today"), and
+    // one of them is on screen. Until now a repaint with no `box` took "the drawer's row, or Master the game's": the
+    // FIRST of the two in the page, which with Master the game open is the drawer's, hidden. So the list button's
+    // reading (`_masterList` → `_askBeltRow`) was painted where nobody looks, and the row on screen kept the number from
+    // when the page opened: after a card's answer as after a cloze's, on dev since v1.290.0 (measured by a probe,
+    // L2-R2: the number 1009.21 → 1004.44, the list's row still "1009"). "WHICH ROW?" WAS ANSWERED IN TWO PLACES (a
+    // caller's `box`, this default; §6.5): it is answered once now, and the answer is all of them.
+    // `box`: a row built a moment ago that may not be in the panel yet (`_renderTrain`, `_masterBuild`).
+    const rows = new Set(this.drillRef?.current?.querySelectorAll("[data-belt-row]") || []);
+    const own = box && box.querySelector("[data-belt-row]");
+    if (own) rows.add(own);
+    if (!rows.size) return;
     // a reading taken in the other ruleset is never painted: the row wears the belt held and waits (R1, finding 1)
     const r = this._beltReading, frame = this._giMode === "nogi" ? "nogi" : "gi";
-    const v = ngRatingRow(this.beltWorn().level, r && r.frame === frame ? r : null);
-    el.setAttribute("data-belt-state", v.state);
-    const html = this._beltRowHTML(v);
-    // written only when it changed (SIDE-R2 M10, as the row's tail): a rewrite under a pointer swallows a press
-    if (el._ngHtml !== html) { el._ngHtml = html; el.innerHTML = html; }
+    const v = ngRatingRow(this.beltWorn().level, r && r.frame === frame ? r : null), html = this._beltRowHTML(v);
+    for (const el of rows) {
+      el.setAttribute("data-belt-state", v.state);
+      // written only when it changed (SIDE-R2 M10, as the row's tail): a rewrite under a pointer swallows a press
+      if (el._ngHtml !== html) { el._ngHtml = html; el.innerHTML = html; }
+    }
   }
   /** The row's markup for an `ngRatingRow` result: the belt, its stripes, the next slot, the number, the line(s). */
   _beltRowHTML(v) {
