@@ -20197,3 +20197,98 @@ at their named steps (M1 to M40 as above, M26's step now "and the name is gone a
 the lease not taken again, red at the door's last step, where the DEFENDER's card opens, and at the hold's "still
 named"; M42 the reader's N2; M43 the drawer's shutting does not forget the way back; M44 the way back by id alone; M45
 by key alone); the eight re-pointed tests red under their mutants, 8 of 8.
+
+### v1.293.1, FOLLOW1: the film's bar never covers a row's control on a phone; a key takes the road its press takes (18 Nov 2026)
+
+Two things the reader of PR #440 met on dev's own build and the orchestrator ruled out of that PR (R9 and R8).
+
+**The film's bar.** It docks where the landing card docks. With the drawer open on a phone the drawer is the screen, and
+that dock put the bar across the middle of the drawer's list: at 390x631 on dev v1.292.1 and on v1.293.0, the bar at y
+246 to 292 over a list running from 58 to 556, and an open Last rolls row's two actions exactly under it (y 246 to 290,
+both hit the bar, not themselves). While the drawer is open on a phone the bar is now a row of the drawer, directly
+under its head and in the flow (`_seatReplayBar`, the one writer of where the bar stands; `.ng-replaybar[data-in-drawer]`
+in helmet.html): the list starts below it by layout, so nothing is measured, nothing padded and nothing kept in step,
+and the rows move down by the bar's own height (44 px) when a film starts, no further. Its callers are everything that
+decides the seat: the bar's render, the drawer's opening and closing, a resize across the phone's width. Desktop
+measured unchanged: the bar at [638, 454.4, 1158, 500.4] at 1440x900 with the drawer open before and after, the list
+0 px. The ruling's first way (the list starting below the bar where it stood) would have left 190 px of empty list
+above a bar mid-list. §6.1's traps as checked: the ✕ pressed by a real touch at its measured middle with
+`elementFromPoint` at its middle and four edges (a control moved between planes is the class that is visible and
+dead); nothing hidden by opacity; no dock on a bar in the flow; no z-index in the drawer (a flex item takes one even
+unpositioned); no inline style reset by hand; its box asserted as rendered.
+
+**Found there, not built:** on the map on a phone the bar follows the landing card's column (`_layoutLandHorizontal`),
+and over a card that is a deck that leaves its left end 26 px off the screen, drawer open or shut. Dev's own, and so on
+the map still.
+
+**A key takes the road its press takes.** With the drawer open beside the board the drawer holds the roll, and the
+digit `1` played the hand's first card with the drawer's latch still set. The survey: 14 key listeners in the build
+inputs and the window ladder's 14 branches, read whole; the digits 1 to 9 are the only keys that act on the roll while
+the drawer holds it (A to C, Enter, Space, P, the arrows, X, PageDown and Home changed nothing in a probe). What a
+mouse press on that same card does, measured at 1440 and at 1024 on v1.293.0's build, 1 of 1 each: exactly what the
+digit does, because they are one function (`activateOption`): the move is played, the clock runs, the drawer stays
+open, `_paneAutoPaused` stays set. So the key was already on its press's road, and the road was the fault. The latch
+is a claim on a STOPPED clock; nothing ended it when another hand started the clock, so shutting the drawer afterwards
+"resumed" a roll that was already running and beat `pane_resumed` for it, and a phone's look could take a hold over a
+running clock. v1.113.4 met the same hole from the pause toggle and closed it in the toggle; the toggle left in
+v1.134.0 and every other resumer kept it. It is closed at the one writer now: `setPaused(false)` clears the latch (its
+three setters all run with the clock stopped, and the drawer's own closing clears it first). And at a phone's width,
+where the drawer covers the hand and no press can reach a card, the digit played that card unseen (600 wide, 1 of 1):
+there the digit does nothing, as the press.
+
+**One thing that follows, named for a ruling:** shutting the drawer after a move played beside it no longer beats
+`pane_resumed`, the event of the White objective "Resume after studying" ("Close them - the game picks up exactly
+where it left off"). That shut resumed nothing. The record of a press and of a digit are otherwise identical, clocks
+apart (asserted, with the same road twice as the premise).
+
+**Bytes.** Eager gzip 376,154 B (+202 on v1.293.0; +2,681 of 5,000 against the baseline), first-hand core 395,690 B
+(+2,703 of 6,000), deferred 548,718 B (unchanged). No baseline, ceiling or limit moved.
+
+**Mutants, 18 Nov 10:41 to 10:43, each alone in the served bundle after a control that stayed green (20 tests):** B1
+the bar never takes its seat in the drawer; B2 it takes it on a desktop too; B3 the drawer's opening and closing do
+not move it; B4 the drawer's style for it is gone; B5 a resize across the phone's width does not move it; H1 the
+clock's start leaves the drawer's latch set; H2 a digit plays a card the drawer covers: 7 of 7 red at their
+named steps. Before the change the same journeys were red at the same steps on v1.293.0's build (5 of 7; the desktop's
+green, as it should be).
+
+### v1.293.1, FOLLOW1-R1: the reader of PR #441, and a ruling taken back (18 Nov 2026)
+
+Verdict "MERGE AFTER 1 fix". The pause and the digit held completely on CI's build (no resume against the player, no
+double resume, no roll paused with nothing claiming it; a record written by dev loads identical; nine digits at 640, 600
+and 390 play and store nothing, 27 presses); 6 of the reader's 8 mutants red at named steps.
+
+**The fix reverses the ruling "at the list's top".** With the bar under the drawer's head the list's top went 58, 102,
+58 as a film started and stopped (dev: 58 throughout), and the past rolls' rows are 43 px apart, so the neighbour's
+control landed where the pressed one was: a second touch at the same point no longer stopped the film on the first row
+(3 of 3; dev stops it), on the second row it started the FIRST roll's film (3 of 3), and when a film ended by itself
+with a row open the next state's row stood under both of its actions (3 of 3). My own step, "the film's start moved the
+list down by the bar's own height, no further", asserted the fault. The bar is a row of the drawer AT ITS FOOT now:
+after the list, above the account's foot, in the flow (`foot.before(el)` in `_seatReplayBar`). No row moves at a film's
+start, stop or own end (0 px for the list and for every row, asserted on two past rolls and on a scrolled list of
+fourteen); a second touch at the same point stops the film on the first row and on the second; the same buttons are
+under the same points across a film's own end. A row standing at the list's foot when a film starts leaves the view
+(the list ends 52 px sooner, the bar's 44 and 8 of air); it is never under the bar, and where its control was is the
+bar itself.
+
+**Two non-kills that changed the code.** A line I added to put the list's scroll back by hand after the repaint
+survived its own mutant: the browser already keeps it (the rows are rebuilt in one task, no layout read while the list
+is empty). The line is gone; a mutant that puts the list back at its top is red, so the journey does see a list that
+loses its place. And `z-index:auto` in the drawer's rule for the bar: the reader's mutant of it survived, then mine,
+because the one thing that opens over the bar's row, the account's menu, is drawn on the root plane
+(`renderAccountMenu` moves it there) and stands over the bar whatever the bar's z. The declaration and the claim
+("checked: takes no z-index, must not paint over the drawer's menus") are gone; that the menu's items are reached over
+the bar is asserted as what a player needs.
+
+**The words, as they are.** A second shut no longer beats `pane_resumed`: a state's "Roll from …" in Last rolls starts
+the roll before it shuts the panel, so the latch is gone at the shut (1 on dev, 0 here, at 390 and at 1440); accepted
+as the first was (a new roll is not the game picking up where it left off). And "no press can reach a card" where the
+drawer is the screen was false at 390: the drawer is 343 px wide there, the ends of two of the hand's 18 cards show
+beside it, and a touch on one plays it with the drawer open, on dev and here alike, while its digit is refused; at 600
+and 640 none is reachable. The rule built is by width, not by reach; one condition by reach for a digit, a click and a
+touch at `activateOption` is the next job's.
+
+**Bytes.** Eager gzip 376,161 B (+209 on v1.293.0; +2,688 of 5,000), first-hand core 395,696 B (+2,709 of 6,000), deferred
+548,718 B. **Mutants, 12:07 to 12:09:** a control green (22 tests); B1 the bar back under the head, B2 its drawer seat
+on a desktop too, B3 the drawer's opening and closing do not move it, B4 its drawer style gone, B5 a resize does not
+move it, B6 the repaint puts the list back at its top, B7 never in the drawer, H1 the clock's start leaves the latch,
+H2 a digit behind a covering drawer: 9 of 9 red at their named steps.
