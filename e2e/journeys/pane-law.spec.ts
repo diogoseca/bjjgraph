@@ -160,7 +160,12 @@ test("Esc closes the pane once no overlay is up", async ({ page }) => {
  * the clock with the drawer's latch still set: measured on dev v1.292.1 and on v1.293.0 at 1440 and at 1024, 1 of 1 each,
  * by a mouse press on the card AND by its digit (they are one road, `activateOption`). Shutting the drawer afterwards
  * "resumed" a roll that was already running and beat `pane_resumed` for it. And where the drawer IS the screen (a window
- * of a phone's width) no press can reach a card under it, yet its digit played that card unseen (600 wide, 1 of 1).
+ * of a phone's width) it covers the hand: at 600 and at 640 wide no card can be reached by a press (0 of 18), yet a digit
+ * played one unseen (600 wide, 1 of 1).
+ * AS IT IS AT 390 (the reader of PR #441, on dev's build and on this one alike): the drawer is 343 px wide there, the ends
+ * of two of the hand's 18 cards show beside it, and a touch on one plays it with the drawer open, while its digit is
+ * refused. The rule built here is by WIDTH (`isMobile`), not by reach; one condition by reach for a digit, a click and a
+ * touch is the next job's. So the journey below proves "no press can reach a card" where that is true, at 600.
  *
  * The survey behind "one rule, not a patch for 1": 14 key listeners in the build inputs and the window ladder's 14
  * branches, read whole. The digits 1 to 9 are the only keys that act on the roll while the drawer holds it; A to C, Enter,
@@ -174,7 +179,8 @@ test("Esc closes the pane once no overlay is up", async ({ page }) => {
  *   H2 a digit plays a card the drawer covers (the ladder's digit branch) → "…its digit plays nothing" at "no digit played
  *      a card nobody could press"
  * NOT COVERED: a real phone has no keyboard to press a digit with; the covered case is asserted in a mouse window of a
- * phone's width, which is where a keyboard meets it.
+ * phone's width, which is where a keyboard meets it. The touch at 390 on a card's end beside the drawer (above), and a
+ * card partly under the drawer at 641 played by its digit: both dev's own, both the next job's.
  */
 const pane = (page: any) => page.evaluate(() => {
   const a = (window as any).__neural
