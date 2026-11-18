@@ -69,6 +69,8 @@ import { journey } from "../dsl"
  *   M28 Last rolls is not drawn again when the ruleset is switched (`setGiMode`) → the same step
  *   M29 a press on a place on the map opens nothing (the tap's `stageRollAt`: existing code, the door T1 names) → "a
  *       submission a roll passed through…" at "a press on the place opens its card, and the card asks that deck"
+ *   M30 a deck's remembered reveal is kept for whatever card is at its index (`_miniDeck`, the fix of T6) → "a place opened
+ *       again never shows an answer before its question" at "its answer is not on the screen before it is asked"
  * NOT COVERED HERE, and what to check by hand: a pinch (two real fingers; Playwright sends one), whose first finger is the
  * pointerdown M9 pins; the camera's 7 s lease running out by itself (camera canon, share-camera.spec.ts); the row's GOLD in
  * no-gi (it is `_placeGold`, which reads the ruleset's own hand as the map does). The name on the map is not yet tied to its
@@ -273,6 +275,29 @@ for (const touch of [false, true]) {
       await press(page, ".ng-drawer-brand", "‹ Master the game", touch)
       await expect(page.locator(".ng-drawer-brand"), "the brand leads back to Last rolls").toHaveText("‹ Last rolls")
       await expect(page.locator(row(keys[0])).first()).toBeVisible()
+    })
+
+    // ALSO FIXED WITH L3 (T6): a deck remembers its place by index, a new session asks another subset of it, and the card now
+    // at that index was drawn with the last card's reveal. Every "Practise here" is a new session, so this is its common road.
+    // (On dev the same is reached from Master the game's own row: docs/Changelog-Archive.md, v1.293.0, has the steps and the run.)
+    test(`a place opened again never shows an answer before its question (${who})`, async ({ page }) => {
+      const { j } = await rolled(page, touch)
+      await j.knowsPlanMoves()
+      await openLastRolls(page, touch)
+      await press(page, row("Mount|Top"), "the row of Mount, top", touch)
+      await press(page, "[data-hist-go]", "Practise here", touch)
+      const open = '[data-session-row][aria-expanded="true"] + div'
+      await expect(page.locator(open + " [data-practice-mc-opt]"), "premise: its first card asks multiple choice (Auto, a new card)").toHaveCount(3, { timeout: 30_000 })
+      const first = await page.evaluate(() => { const m = (window as W).__neural._mc; return { key: m.key as string, qh: m.qhash as string, right: m.correct as number } })
+      await press(page, `${open} [data-practice-mc-opt="${first.right}"]`, "the right answer", touch)
+      await expect.poll(() => page.evaluate(({ key, qh }) => { const a = (window as W).__neural; return !!(a.srs[key] && a.srs[key][qh]) }, first), { message: "premise: it is answered" }).toBe(true)
+      await expect(page.locator(".ng-drill [data-mini-a]"), "premise: its answer is shown, as an answered card's is").toHaveCount(1)
+      await press(page, ".ng-drawer-brand", "‹ Master the game", touch)
+      await press(page, row("Mount|Top"), "the row of Mount, top, again", touch)
+      await press(page, "[data-hist-go]", "Practise here, again", touch)
+      await expect(page.locator(open + " [data-practice-mc-opt]"), "the place opens on a card not yet answered, asked as a new card is").toHaveCount(3, { timeout: 30_000 })
+      expect(await page.evaluate(() => (window as W).__neural._mc.qhash), "premise: another card than the one answered").not.toBe(first.qh)
+      await expect(page.locator(".ng-drill [data-mini-a]"), "its answer is not on the screen before it is asked").toHaveCount(0)
     })
 
     test(`the two lists say the same about a place (${who})`, async ({ page }) => {
