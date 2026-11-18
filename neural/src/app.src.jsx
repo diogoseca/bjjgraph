@@ -868,6 +868,8 @@ class Component extends DCLogic {
    *   "map"    the player's next hand on the map: `attachInput`'s pointerdown (tap, pan, the first finger of a pinch) and its
    *            wheel, the same hands that end a film. The roll resumes, and THAT PRESS DOES NOTHING ELSE: it is consumed
    *            there, as the press that closes the drawer is (it used to go on into the tap router and end the roll).
+   *            AND THE PRESS LEAVES THE PLACE NAMED FOR THE CAMERA'S HOLD TIME (L3-R2; `_lookEnd`'s second argument): the
+   *            press after it is the one that opens the place, and the name is what tells it which half (T7).
    *   "drawer" the drawer opening again, by any door (`applyDeckVisibility`): the pause goes back to the drawer's own latch,
    *            so shutting it resumes as it always does.
    *   "clock"  the roll resumed by another hand (`setPaused(false)`: a move played from the hand, a modal shut with the
@@ -892,14 +894,26 @@ class Component extends DCLogic {
   // THE PLACE "SHOW ON THE MAP" SHOWED, NAMED ON THE MAP the way a node under the pointer is (`draw()`'s hover label reads this
   // when nothing is under the pointer). No lifters of its own to forget (§6.5): it lasts exactly as long as what it rides,
   // the look's hold on a phone (`_lookAutoPaused`: however long the player looks) and the camera's lease ON THIS FLIGHT
-  // (`camHeld()` with the lease's own target: 7 s, a pan, pinch or wheel, any other flight, any go-elsewhere). Nothing
-  // clears it by hand: a line that did, in `_lookEnd`, survived its own mutant (the lease had already said no).
+  // (`camHeld()` with the lease's own target: 7 s, a pan, pinch or wheel, any other flight, a move played, any
+  // go-elsewhere). Nothing clears it by hand: a line that did, in `_lookEnd`, survived its own mutant (the lease had
+  // already said no).
   _shownNode() {
     const s = this._shown;
     return s && (this._lookAutoPaused || (this.camHeld() && this._camHoldTarget === s.t)) ? this.nodes[s.i] || null : (this._shown = null);
   }
-  _lookEnd(by) {
+  // `press`: THE PRESS ON THE MAP THAT ENDS A LOOK TAKES THE CAMERA'S LEASE AGAIN, SO THE PLACE STAYS NAMED FOR THE CAMERA'S
+  // HOLD TIME (L3-R2, the reader's re-read of PR #440 at 6ce6a6f03). That press is consumed (above), so on a phone the door
+  // to the place is the press AFTER it, and the name is what tells that press which half is meant (T7, `attachInput`'s tap
+  // router: at 390 a pair's two halves are drawn on one pixel). But the name rode the look and the first lease only, and a
+  // look of more than 7 s had spent the lease: the press that ended the look ended the name with it, and the next one,
+  // made 2 px above the place, opened the DEFENDER's card from a row about attacking (the reader, 1 of 1; 4 of 5 doors
+  // after a 10 s look, 5 of 5 made at once). The lease rather than a second clock of the name's own, for what a lease
+  // already knows how to end: its 7 s, a pan (the same press, dragged), a pinch, a wheel, a move played, any go-elsewhere.
+  // And it keeps the map still under the second press: the roll runs again, and the follow-cam would otherwise leave for
+  // where it stands. The wheel passes no `press`: it takes the camera for itself (`releaseCamera`), as it always did.
+  _lookEnd(by, press) {
     if (!this._lookAutoPaused) return;
+    if (press && this._shown) { this.holdCamera(); this._shown.t = this._camHoldTarget; }
     this._lookAutoPaused = false;
     this.fx("look_ended", { by });
     if (by === "drawer") this._paneAutoPaused = true;
@@ -3780,6 +3794,7 @@ class Component extends DCLogic {
       const active = document.activeElement;
       this._explorerReturnFocus = active && active !== document.body ? active : null;
     } else if (!open && wasShown) {
+      this._histBack = null;   // the way back to a Last rolls row is for a drawer that stayed open (`renderDrillHome`, L3-R2)
       this._handBackMc("pane", true); // exposed landing pages may have changed while the pane owned the keys
       // ── CLOSING THE PANE WHILE A FILM IS RUNNING HANDS THE CLOCK OVER, IT DOES NOT RESUME ──
       // On a phone the 88vw drawer IS the screen, so closing it is how you WATCH the replay you
@@ -5279,8 +5294,19 @@ class Component extends DCLogic {
     list.innerHTML = "";
     this._miniReg = {};
     // COMING BACK FROM "PRACTISE HERE" (L3-R1, R6: after "‹ Master the game" no row was open, 7 of 7): the row it was pressed
-    // on is open again and where it was. Remembered by the press (`_histRow`'s `go`), used by the first draw after it
-    const back = this._histBack; this._histBack = null;
+    // on is open again and where it was. Remembered by the press (`_histRow`'s `go`), used by the first draw after it.
+    // BY WHAT THE ROW IS, NOT WHERE IT WAS (L3-R2, the reader's re-read): the memory held a row's id alone, and the id of a
+    // row of the roll in play is its INDEX ("c0"), so it was good for whatever stood there at the next draw, whenever that
+    // was (Practise here, Esc, a move, the logo, Last rolls: the old row open, 1 of 1; after a new roll, a row never
+    // pressed). It holds the row's key and its roll (the log itself for the roll in play, which every new roll replaces;
+    // a filed roll's `ts` is in its id), and it opens a row only if that row of that roll still holds that key.
+    // LIFTERS: this draw (used or refused, it is spent), and the drawer's shutting (`applyDeckVisibility`).
+    let back = this._histBack; this._histBack = null;
+    if (back) {
+      const m = /^p(\d+)_(\d+)$/.exec(back.rid);
+      const log = m ? ((this._pastRolls || []).find((r) => String(r.ts) === m[1]) || {}).log : back.log === this.rollLog && back.log;
+      if (((log || [])[m ? +m[2] : +back.rid.slice(1)] || {}).key !== back.key) back = null;
+    }
     if (back) this._openRow = this._focusRow = this._histBackRid = back.rid;
     // grouped roll history: a row opens the two actions of the place it holds (`_histRow`, L3)
     this.renderRollHistory(list);
@@ -5348,7 +5374,7 @@ class Component extends DCLogic {
       const own = this._seatMember(ni, /bottom/i.test(h.role || "") ? "bottom" : "top");
       const show = drawn ? () => this._showPlace(own) : null;
       // (R6: the row is remembered, so "‹ Master the game" comes back to it open and where it was: `renderDrillHome`)
-      const go = drawn && this.nodes[ni].ty === "positions" ? () => { const l = this.drillListRef.current; this._histBack = { rid, y: l ? l.scrollTop : 0 }; this.openMasterAt(h.key, "lastrolls"); } : null;
+      const go = drawn && this.nodes[ni].ty === "positions" ? () => { const l = this.drillListRef.current; this._histBack = { rid, key: h.key, log: this.rollLog, y: l ? l.scrollTop : 0 }; this.openMasterAt(h.key, "lastrolls"); } : null;
       const closeSelf = () => { detail.style.display = "none"; if (this._openRow === rid) this._openRow = null; if (this._focusRow === rid) this._focusRow = null; if (this._openMini && this._openMini.rid === rid) this._openMini = null; };
       const openD = () => {
         if (this._openMini && this._openMini.rid !== rid) this._openMini.close();   // accordion: only one box open at a time
@@ -22259,7 +22285,7 @@ class Component extends DCLogic {
       // question or went to free roam. At the look's framing nearly every point of a phone's map is inside some node's pick
       // radius, so "press the map to go on" took the roll away. It is consumed the same way; a drag begun with it still pans.
       const looked = this._lookAutoPaused;
-      this._lookEnd("map");
+      this._lookEnd("map", true);
       if (looked && ptrs.size === 0) closing = true;
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       try { el.setPointerCapture(e.pointerId); } catch (err) {}

@@ -61,7 +61,8 @@ import { journey } from "../dsl"
  *   M25 the name rides the camera's lease alone, not the look                  → "on a phone…a hand on the map lets it go" at "and
  *       the map still names the place: the name lasts as long as the look"
  *   M26 the name never ends                                                    → "Show on the map frames the place… (mouse)" at
- *       "after a pan of the map the name is gone", and the phone's test at "the place's name on the map is gone…"
+ *       "after a pan of the map the name is gone", and the phone's test at "and the name is gone again after the camera's
+ *       hold time"
  * A NON-KILL THAT CHANGED THE CODE: a line that cleared the name by hand when the look ended stayed green under its own
  * mutant (by then the camera's lease had ended it); the line is gone, and `_shownNode` has the one rule M25 and M26 pin.
  *   M27 a place the ruleset does not draw still offers its actions (`_histRow`) → "a place this ruleset does not draw…" at "no
@@ -96,6 +97,21 @@ import { journey } from "../dsl"
  *       stays open across a landing" at "the new latest row is the open one"
  *   M40 a row that cannot be pressed lights under the pointer (`_histRow`) → "a place this ruleset does not draw… (mouse)" at
  *       "under the pointer it does not light: there is nothing to press"
+ * L3-R2, the reader's re-read of PR #440 at 6ce6a6f03:
+ *   M41 the press that ends a look does not take the camera's lease again (`_lookEnd`'s `press`), so after a look of more
+ *       than 7 s the name ends with the look → "a submission a roll passed through… (touch)" at "a press on the place opens
+ *       its card, and the card asks that deck" (the DEFENDER's card opens, as the reader met it; the mouse variant stays
+ *       green, a desktop has no look), and "on a phone…a hand on the map lets it go" at "the place is still named after
+ *       the press that ended the look…"
+ *   M42 with nothing named, a press that picks one half of a close pair takes the other (the reader's N2, which stayed
+ *       green 7 of 7) → "on a phone, with no place named, a press on a pair drawn on one pixel takes the half it picks" at
+ *       "with nothing named, the press takes the half it picks: Mount, on the bottom" (and the named presses stay green
+ *       under it, as they should)
+ *   M43 the drawer's shutting does not forget the way back (`applyDeckVisibility`) → "the way back is forgotten when the
+ *       drawer shuts…" at "no row is open: the way back was for the drawer that shut"
+ *   M44 the way back opens the row its id names, whatever it holds now (`renderDrillHome`, the check out) → "the way back
+ *       opens a row only while it is that row of that roll…" at "the new roll's first row is not opened…"
+ *   M45 …or by its key alone, whatever roll it is a row of (the roll's identity out) → the same step
  * NOT COVERED HERE, and what to check by hand: a pinch (two real fingers; Playwright sends one), whose first finger is the
  * pointerdown M9 pins; the camera's 7 s lease running out by itself (camera canon, share-camera.spec.ts); the row's GOLD in
  * no-gi (it is `_placeGold`, which reads the ruleset's own hand as the map does). The name on the map is not yet tied to its
@@ -165,6 +181,23 @@ const orbPoint = (page: Page, key: string) => page.evaluate((k) => {
   const x = c.left + a.W / 2 + (n.x - a.cam.cx) * sc, y = c.top + a.H / 2 + (a._LY(n) - a.cam.cy) * sc
   return { x, y, map: document.elementFromPoint(x, y) === a.canvas }
 }, key)
+/** a point within 3 px of a place's own orb where the app's own hit test (`_updateHover`, the tap's) picks its OTHER half,
+ *  the map under it; and how far apart the two halves are drawn. At 390 wide, at the look's framing, a pair is drawn on
+ *  one pixel, and a finger is never on the pixel: this is the press the reader of PR #440 made "2 px above the place". */
+const otherHalfPoint = (page: Page, key: string, own?: number) => page.evaluate(({ k, o }) => {
+  const a = (window as W).__neural, n = a.nodes[o ?? a.nodeForKey(k)], m = a.nodes[n.pi], c = a.canvas.getBoundingClientRect(), sc = a.W / a.cam.vw
+  const x0 = c.left + a.W / 2 + (n.x - a.cam.cx) * sc, y0 = c.top + a.H / 2 + (a._LY(n) - a.cam.cy) * sc
+  const apart = m ? Math.hypot(n.x - m.x, a._LY(n) - a._LY(m)) * sc : -1
+  for (const [dx, dy] of [[0, -2], [0, 2], [-2, 0], [2, 0], [0, -3], [0, 3], [-3, 0], [3, 0], [2, -2], [-2, 2], [0, 0]]) {
+    const x = x0 + dx, y = y0 + dy
+    if (document.elementFromPoint(x, y) !== a.canvas) continue
+    a._updateHover({ clientX: x, clientY: y, type: "pointerup", target: a.canvas })
+    const h = a._hover ? (a._hover.idx as number) : -1
+    a._hover = null
+    if (m && h === m.idx) return { x, y, picks: h, own: n.idx as number, apart }
+  }
+  return null
+}, { k: key, o: own })
 const framed = (s: { x: number; y: number; rect: { left: number; top: number; right: number; bottom: number } }) => {
   const cx = (s.rect.left + s.rect.right) / 2, cy = (s.rect.top + s.rect.bottom) / 2
   return Math.abs(s.x - cx) < 40 && Math.abs(s.y - cy) < 40
@@ -517,12 +550,24 @@ for (const touch of [false, true]) {
       const spot = await orbPoint(page, key)
       expect(spot.map, "premise: the place's orb is not under a control").toBe(true)
       if (touch) {
-        // on a phone Show on the map is a look, and the press that ends a look does that and nothing else: the next one opens
-        const was = await theRoll(page)
-        await page.touchscreen.tap(spot.x, spot.y)
+        // on a phone Show on the map is a look, and the press that ends a look does that and nothing else: the next one opens.
+        // A LOOK OF NINE SECONDS FIRST, AND THE SECOND PRESS BESIDE THE PLACE, NOT ON ITS PIXEL (L3-R2, the reader's re-read of
+        // PR #440: after a look longer than the camera's 7 s the press that ended it took the name with it, and the next
+        // press, 2 px above the place, opened the DEFENDER's card; this test pressed twice at once, on the pixel, and could
+        // not see it). The press that ends a look leaves the place named for the camera's hold time: the next press is the
+        // one the name is for (T7).
+        await j.advance(9000)
+        expect(await named(page, key), "nine seconds on, the map still names the submission").toBe(true)
+        const was = await theRoll(page), at = await orbPoint(page, key)
+        await page.touchscreen.tap(at.x, at.y)
         expect(await theRoll(page), "the press that ends the look opens nothing: the same roll, as it was").toEqual(was)
         expect((await state(page)).look, "and the look is over").toBe(false)
-        await page.touchscreen.tap(spot.x, spot.y)
+        // (that the place is still named is asserted where a frame is drawn after the press: "…a hand on the map lets it
+        // go". Here the second press follows at once, as a thumb's does, and what it opens is the claim.)
+        const off = await otherHalfPoint(page, key)
+        expect(off, "premise: a point within 3 px of the place where the app's own hit test picks its OTHER half (the two are drawn on one pixel here)").not.toBeNull()
+        expect(off!.apart, "premise: the two halves are under 8 px apart on this screen").toBeLessThan(8)
+        await page.touchscreen.tap(off!.x, off!.y)
       } else await page.mouse.click(spot.x, spot.y)
       // (on a desktop the drawer stays beside the map, as a press on the map leaves it; the player shuts it to read the card)
       if (await page.evaluate(() => !!(window as W).__neural.deckShown)) await press(page, ".ng-explorer-close", "shut the drawer", touch)
@@ -690,6 +735,51 @@ test.describe("the keys act on a row the player can see, 1440x900", () => {
     await expect(page.locator("[data-hist-current] + .ng-hact [data-hist-show]"), "and no other row opened with it").toBeHidden()
   })
 
+  // THE WAY BACK REMEMBERS A ROW BY WHAT IT IS, NOT WHERE IT WAS (L3-R2, the reader's re-read of PR #440). It held a row's
+  // id alone, cleared only by the next draw of Last rolls, whenever that was, and the id of a row of the roll in play is
+  // its index: "Practise here, Esc, a move, the logo, Last rolls: the row of the earlier press was open" (1 of 1), and
+  // after a new roll it would open a row never pressed. It is forgotten when the drawer shuts, and it opens a row only if
+  // that row of that roll still holds that key.
+  test("the way back is forgotten when the drawer shuts: Practise here, Esc, a move, Last rolls: no row is open", async ({ page }) => {
+    const { j } = await rolled(page, false)
+    await j.knowsPlanMoves()
+    await openLastRolls(page, false)
+    await press(page, row("Mount|Top"), "the row of Mount, top", false)
+    await press(page, "[data-hist-go]", "Practise here", false)
+    await expect(page.locator("[data-mini-q]:visible"), "premise: Master the game is open at the place").toHaveCount(1, { timeout: 30_000 })
+    for (let i = 0; i < 3 && (await page.evaluate(() => !!(window as W).__neural.deckShown)); i++) await page.keyboard.press("Escape")
+    expect(await page.evaluate(() => { const a = (window as W).__neural; return { drawer: !!a.deckShown, paused: !!a.paused } }), "premise: Esc shut the drawer, and the roll runs").toEqual({ drawer: false, paused: false })
+    const t = await page.evaluate(() => { const a = (window as W).__neural; for (const i of a.optionIdxs || []) if (a.nodes[i].ty === "transitions") return a.nodes[i].t as string; return a.nodes[(a.optionIdxs || [])[0]].t as string })
+    await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01])
+    await j.pick(t)
+    await j.nextHand()
+    await openLastRolls(page, false)
+    await expect(page.locator(row("Mount|Top")).first(), "premise: the row pressed before is on the list, the same row of the same roll").toBeVisible()
+    await expect(page.locator(".ng-hact:visible"), "no row is open: the way back was for the drawer that shut").toHaveCount(0)
+  })
+
+  test("the way back opens a row only while it is that row of that roll: after a new roll from the same place, none is opened", async ({ page }) => {
+    const { j } = await rolled(page, false)
+    await j.knowsPlanMoves()
+    for (const [t, v] of [["ai-skill", 0.5], ["role", 0], ["max-moves", 0.5]] as const) await j.rig(t, [v])
+    await openLastRolls(page, false)
+    await press(page, row("Mount|Top"), "the row of Mount, top: the first row of this roll", false)
+    await press(page, "[data-hist-go]", "Practise here", false)
+    await expect(page.locator("[data-mini-q]:visible"), "premise: Master the game is open at the place").toHaveCount(1, { timeout: 30_000 })
+    // A NEW ROLL FROM THE SAME PLACE, THE DRAWER STILL OPEN (by the app's own function: with the drawer open no control of
+    // the player's starts one, but a roll running beside an open drawer ends and the next begins). The old roll is filed;
+    // the new roll's first row has the same index AND the same key as the row that was pressed, and is another roll's.
+    // A new roll ends the session (`rollFromPosition`), so the drawer is back on Last rolls by itself.
+    await page.evaluate(() => { const a = (window as W).__neural; a.rollFromPosition(a.nodeForKey("Mount|Top"), false, "top") })
+    const now = () => page.evaluate(() => { const a = (window as W).__neural; return { filed: (a._pastRolls || []).length, roll: (a.rollLog || []).map((h: W) => h.key as string), drawer: !!a.deckShown } })
+    for (let i = 0; i < 40; i++) { await j.advance(500); const n = await now(); if (n.filed === 1 && n.roll.length >= 1) break }
+    const n = await now()
+    expect({ filed: n.filed, first: n.roll[0], drawer: n.drawer }, "premise: the old roll is filed, a new one stands on Mount, top, the drawer still open").toEqual({ filed: 1, first: "Mount|Top", drawer: true })
+    await expect(page.locator(".ng-drawer-brand"), "premise: the new roll ended the session, and the drawer is back on Last rolls").toHaveText("‹ Last rolls")
+    await expect(page.locator(`[data-hist-current]${row(n.roll[n.roll.length - 1])}`), "premise: the new roll's rows are on the list").toBeVisible()
+    await expect(page.locator(".ng-hact:visible"), "the new roll's first row is not opened: the same index and the same key, but a row never pressed").toHaveCount(0)
+  })
+
   // the reader of PR #440 could not produce this one (the lines are dev's own, kept): the latest row, left open, is the
   // NEW latest row after the roll lands again
   test("the latest row stays open across a landing", async ({ page }) => {
@@ -820,8 +910,40 @@ test.describe("on a phone, Show on the map is a look: the hold and every way it 
     expect((await state(page)).look, "the claim is over").toBe(false)
     // (until L3-R1 this press went on to the map as a tap: on the background it declined the question or went to free roam)
     expect(await theRoll(page), "the roll that runs again is the roll that was held: its states, its hand, its card, nothing filed, nothing declined").toEqual(was)
+    // L3-R2 (the reader's re-read of PR #440): THE PRESS THAT ENDS A LOOK LEAVES THE PLACE NAMED FOR THE CAMERA'S HOLD TIME,
+    // however long the look was, so the press after it is the one the name is for (T7); then the name goes. Until then this
+    // step said the name was gone 0.8 s after the press (the look over, the first lease spent by the nine seconds).
     await j.advance(800)
-    expect(await named(page, "Mount|Top"), "and the place's name on the map is gone: the look is over and the camera's lease long spent").toBe(false)
+    expect(await named(page, "Mount|Top"), "the place is still named after the press that ended the look: the next press is the one the name is for").toBe(true)
+    expect((await state(page)).paused, "and the roll runs under it").toBe(false)
+    await j.advance(7000)
+    expect(await named(page, "Mount|Top"), "and the name is gone again after the camera's hold time").toBe(false)
+  })
+
+  // T7 ACTS ONLY WHILE A PLACE IS NAMED (L3-R2; the reader's mutant N2 stayed green, 7 of 7: with nothing named, a press that
+  // picks one half of a close pair took the other). A pan ends the look and, being the hand that takes the camera, the name
+  // with it; the zoom stays where the look put it, so Mount's two orbs are still drawn on one pixel. A press where the
+  // app's own hit test picks the BOTTOM orb then stages Mount on the bottom: the half the finger picked, not the half a
+  // name would have chosen.
+  test("on a phone, with no place named, a press on a pair drawn on one pixel takes the half it picks", async ({ page }) => {
+    const { j } = await looking(page)
+    for (let i = 0; i < 30 && !framed(await onScreen(page, "Mount|Top")); i++) await j.advance(200)
+    const p = await emptyMapPoint(page)
+    expect(p, "premise: a point of the map with nothing on it").not.toBeNull()
+    await page.mouse.move(p!.x, p!.y); await page.mouse.down(); await page.mouse.move(p!.x + 14, p!.y + 6, { steps: 4 }); await page.mouse.up()
+    await j.advance(200)
+    expect(await state(page), "premise: the pan ended the look, and the roll runs").toMatchObject({ paused: false, look: false })
+    expect(await named(page, "Mount|Top"), "premise: the pan took the camera, and the name went with it: nothing is named").toBe(false)
+    expect(await page.evaluate(() => (window as W).__neural._shownNode()), "nothing is shown").toBeNull()
+    const off = await otherHalfPoint(page, "Mount|Top")
+    expect(off, "premise: a point within 3 px of Mount's top orb where the app's own hit test picks its bottom orb").not.toBeNull()
+    expect(off!.apart, "premise: the two orbs are under 8 px apart on this screen (the distance the named press goes by)").toBeLessThan(8)
+    const picked = await page.evaluate((i) => (window as W).__neural.nodes[i].role as string, off!.picks)
+    expect(picked, "premise: the half the hit test picks there is the bottom one").toBe("bottom")
+    await page.touchscreen.tap(off!.x, off!.y)
+    await j.advance(400)
+    expect(await page.evaluate(() => { const a = (window as W).__neural; return { staged: a._staged != null && a.nodes[a._staged] ? (a.nodes[a._staged].t as string) : null, side: a.playerRole as string } }),
+      "with nothing named, the press takes the half it picks: Mount, on the bottom").toEqual({ staged: "Mount Top", side: "bottom" })
   })
 
   // L3-R1, the reader of PR #440, finding 1: 8 of 9 taps in the visible map during a hold ended the live roll (seven staged
