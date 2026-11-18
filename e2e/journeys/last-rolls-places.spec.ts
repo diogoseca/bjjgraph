@@ -67,8 +67,8 @@ import { journey } from "../dsl"
  *   M27 a place the ruleset does not draw still offers its actions (`_histRow`) → "a place this ruleset does not draw…" at "no
  *       actions on a place this ruleset does not draw"
  *   M28 Last rolls is not drawn again when the ruleset is switched (`setGiMode`) → the same step
- *   M29 a submission pressed on the map is seated at the position it starts from (`rollFromPosition`: existing code, the
- *       door T1 names) → "a submission a roll passed through…" at "a press on the place opens its card, and the card asks that deck"
+ *   M29 a press on a place on the map opens nothing (the tap's `stageRollAt`: existing code, the door T1 names) → "a
+ *       submission a roll passed through…" at "a press on the place opens its card, and the card asks that deck"
  * NOT COVERED HERE, and what to check by hand: a pinch (two real fingers; Playwright sends one), whose first finger is the
  * pointerdown M9 pins; the camera's 7 s lease running out by itself (camera canon, share-camera.spec.ts); the row's GOLD in
  * no-gi (it is `_placeGold`, which reads the ruleset's own hand as the map does). The name on the map is not yet tied to its
@@ -362,8 +362,23 @@ for (const touch of [false, true]) {
       await expect(page.locator("[data-hist-go]"), "no Practise here: Master the game lists positions").toHaveCount(0)
       await page.keyboard.press("Enter")
       expect(await page.evaluate(() => !!(window as W).__neural._session), "and ⏎ opens nothing there").toBe(false)
-      // THE DOOR TO ITS CARDS (L3-R1, T1: until v1.293.0 this row opened the submission's own deck in place). Show on the
-      // map names the place; a press on it there opens its card, the card asks THAT deck, and an answer is a grade in it.
+      // THE DOOR TO ITS CARDS (L3-R1, T1: until v1.293.0 this row opened the submission's own deck in place; 574 such decks,
+      // tests/artifacts/_last_rolls_places_count.mjs). Show on the map names the place; a press on it there opens its card,
+      // the card asks THAT deck, and an answer is a grade in it. Made on a row the roll no longer stands on, so the card is
+      // not simply the roll's own: the player rolls again from Mount (the first row's ▶), and the roll with the submission
+      // is filed under Previous rolls.
+      for (const [t, v] of [["ai-skill", 0.5], ["role", 0], ["max-moves", 0.5]] as const) await j.rig(t, [v])
+      await press(page, `${row("Mount|Top")} .hplay`, "Roll from Mount, top", touch)
+      for (let i = 0; i < 40; i++) {
+        await j.advance(500)
+        if (await page.evaluate(() => { const a = (window as W).__neural; return (a._pastRolls || []).length === 1 && (a.rollLog || []).length === 1 && (a.optionIdxs || []).length > 0 })) break
+      }
+      expect(await page.evaluate(() => { const a = (window as W).__neural; return { past: (a._pastRolls || []).map((r: W) => r.log.map((h: W) => h.key)), now: a.nodes[a.currentPos].t } }),
+        "premise: the roll with the submission is a past roll, and the board stands on Mount").toEqual({ past: [["Mount|Top", key]], now: "Mount Top" })
+      await openLastRolls(page, touch)
+      await press(page, "[data-past-roll]", "the past roll", touch)
+      await press(page, `[data-hist="${key}"]`, "the submission's row, in the past roll", touch)
+      await expect(page.locator("[data-hist-go]"), "Show on the map alone, there too").toHaveCount(0)
       await press(page, "[data-hist-show]", "Show on the map", touch)
       for (let i = 0; i < 30 && !framed(await onScreen(page, key)); i++) await j.advance(200)
       await j.advance(200)
@@ -371,17 +386,22 @@ for (const touch of [false, true]) {
       const spot = await orbPoint(page, key)
       expect(spot.map, "premise: the place's orb is not under a control").toBe(true)
       if (touch) await page.touchscreen.tap(spot.x, spot.y); else await page.mouse.click(spot.x, spot.y)
+      // (on a desktop the drawer stays beside the map, as a press on the map leaves it; the player shuts it to read the card)
+      if (await page.evaluate(() => !!(window as W).__neural.deckShown)) await press(page, ".ng-explorer-close", "shut the drawer", touch)
       let card: W = null
       for (let i = 0; i < 30; i++) {
         await j.advance(300)
-        card = await page.evaluate(() => { const a = (window as W).__neural; return { about: a._landIdx != null && a.nodes[a._landIdx] ? a.nodes[a._landIdx].t : null, deck: a._landQ ? a._landQ.key : null, drawer: !!a.deckShown } })
+        card = await page.evaluate(() => { const a = (window as W).__neural; return { about: a._landIdx != null && a.nodes[a._landIdx] ? a.nodes[a._landIdx].t : null, deck: a._landQ ? a._landQ.key : null } })
         if (card.deck === key) break
       }
-      expect(card, "a press on the place opens its card, and the card asks that deck").toEqual({ about: sub, deck: key, drawer: false })
+      expect(card, "a press on the place opens its card, and the card asks that deck").toEqual({ about: sub, deck: key })
       await j.openQuestion()
       const q = await j.landQuestion()
       expect(q, "premise: the card asks its question as multiple choice (Auto, a new card)").not.toBeNull()
       const qh = await page.evaluate(() => (window as W).__neural._mc.qhash)
+      // (on a phone a card's last answers sit a scroll below the fold: brought into view first, as a player's thumb does)
+      await page.locator(`[data-land-mc-opt="${q!.correct}"]`).evaluate((e) => e.scrollIntoView({ block: "nearest", behavior: "instant" }))
+      await j.readerLayoutSettled()
       await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, "the right answer, on the submission's own card")
       await expect.poll(() => page.evaluate(({ k, h }) => { const a = (window as W).__neural; return !!(a.srs[k] && a.srs[k][h]) }, { k: key, h: qh }),
         { message: "the answer is a grade in the submission's own deck" }).toBe(true)
