@@ -1257,7 +1257,8 @@ class Component extends DCLogic {
         // A hidden hand cannot act, nor one the reader has not published (D-351); a checkpoint
         // owns the keys even above its answer count.
         // A KEY TAKES THE ROAD ITS PRESS TAKES (FOLLOW1, v1.293.1). The digits are the only keys that act on the roll while
-        // the drawer holds it (the survey: 14 key listeners in the build inputs and this ladder's 14 branches, read whole;
+        // the drawer holds it (the survey, at v1.293.1: 14 key listeners in the build inputs and this ladder's 14 branches,
+        // read whole; FOLLOW2-R1 added a fifteenth listener, the keyup that ends a repeat, which acts on nothing;
         // A to C, Enter, Space, P, the arrows and the paging keys are each scoped to the drawer's own surface or stand down
         // with the landing card). Where the drawer stands BESIDE the board the card can be pressed, the press plays it, and
         // so does its digit: one function, and the drawer's claim on the clock ends with the move (`setPaused`).
@@ -1277,7 +1278,12 @@ class Component extends DCLogic {
     // LAST INPUT MODALITY, one latch, two writers. Capture phase so no stopPropagation can starve
     // it — several overlays swallow pointerdown on purpose (§6.1). Read by the pane's focus
     // restore above; keep it that cheap, it runs on every event.
-    window.addEventListener("keydown", () => { this._kbNav = true; }, true);
+    // ...and whether the key now down is a REPEAT (`_keyRepeat`): Enter on a focused card is a click with no pointer, and
+    // a click carries no `repeat`, so the card's own listener asks here (FOLLOW2-R1: a held Enter must not play the
+    // card it has just shown, nor play on into the next hand). LIFTERS: the next keydown (it writes the flag again) and
+    // any keyup, so the flag is set only while a key is held and repeating.
+    window.addEventListener("keydown", (e) => { this._kbNav = true; this._keyRepeat = !!e.repeat; }, true);
+    window.addEventListener("keyup", () => { this._keyRepeat = false; }, true);
     window.addEventListener("pointerdown", (event) => {
       this._kbNav = false;
       // Track before the deferred reader exists too: adopting or resizing a
@@ -15835,7 +15841,12 @@ class Component extends DCLogic {
     // activateOption, so keys 1-9 (which call activateOption directly) still play blind and the
     // reader's beginPlay wrapper never sees a reveal as a play. Read at click time: the setting
     // can be switched on under a dealt hand (`_syncHideMoves`).
-    card.addEventListener("click", (e) => { if (card.hasAttribute("data-hide") && this._hideTap(card, e)) return; this.activateOption(opt, onPick, card, undefined, e.detail === 0); });
+    card.addEventListener("click", (e) => {
+      const key = e.detail === 0;   // Enter or Space on the focused card: a click with no pointer
+      if (key && this._keyRepeat) return;   // a held key's repeat never acts (`_keyRepeat`, attachInput)
+      if (card.hasAttribute("data-hide") && this._hideTap(card, e)) return;
+      this.activateOption(opt, onPick, card, undefined, key);
+    });
     (this._optionCards = this._optionCards || []).push({ node: n, card, bar: card.querySelector(".ngbar"), opt, num, esc: isEsc });
     return card;
   }
@@ -20370,8 +20381,13 @@ class Component extends DCLogic {
     if (d.remaining <= 0) this._expireLandQ();
   }
   // v1.230.0 reverses v1.218.1's shifted-digit Inspect route.
+  // A REPEAT NEVER ACTS (FOLLOW2-R1; the reader of PR #443, finding 2). A key held down sends `keydown` again and again
+  // with `repeat` set, and nothing on the digit's road read it: the digit that had just SHOWN its card played it at the
+  // first auto-repeat (40, 250 and 500 ms after the first: 3 of 3), so the second press was not a press. It also ends a
+  // habit dev had: a digit held a little long played on into the next hand, and into the deck's next question (this
+  // function names both). No journey holds a key down (`keyboard.down`: 0 in e2e).
   optionKeyIndex(e) {
-    if (e.shiftKey || e.altKey || e.ctrlKey || e.metaKey) return -1;
+    if (e.repeat || e.shiftKey || e.altKey || e.ctrlKey || e.metaKey) return -1;
     return /^[1-9]$/.test(e.key || "") ? Number(e.key) - 1 : -1;
   }
   /**
@@ -20397,8 +20413,14 @@ class Component extends DCLogic {
    *     the card is in view, as ever. THE MARK is the keyboard's own focus on the card's play button (the outline the
    *     stylesheet already draws for it, `.ng-choice-card button:focus-visible`), so it lasts as long as a focus does:
    *     until another key moves it or plays, a pointer takes it, or the hand is dealt again (the card is rebuilt).
-   *     ONLY for a card the row's own scroll has put out of view (its middle outside the row's box or the screen): a
-   *     card under the drawer, a menu or a modal stays refused. Bringing it into view there is not the key's to do.
+   *     FOR ANY CARD THE ROW'S OWN SCROLL CAN BRING BACK (FOLLOW2-R1, ruled after the reader of PR #443): its middle
+   *     outside the part of the row its cards are dealt into (`_handView`: the row's box less its side padding, within
+   *     the screen). With the drawer open beside the board the row's own box starts UNDER the drawer, and its left
+   *     padding is what keeps the hand clear of it; this was first asked against the row's border box, so the key's own
+   *     show step, scrolling the row, pushed the first card half under the drawer into a strip that was "inside the
+   *     row": its digit then did nothing at all (1440, 1024, 641: 3 of 3), where on dev it played. Such a card is shown:
+   *     brought clear and marked; the same key again plays it. REFUSED stays for what scrolling the row cannot cure: a
+   *     menu or a modal over a card that stands where it is dealt, and the drawer being the screen.
    *   · A PRESS IS ITS OWN PROOF: the pointer is on the card. A desktop's press on a card beside the drawer plays as it
    *     always did, a card half under the drawer's edge included (the hand is in plain view there).
    * The answer: "play", "show" (the key's card is scrolled out of the row: `_showCard`), or "" (refused).
@@ -20409,8 +20431,13 @@ class Component extends DCLogic {
     if (!card || !card.isConnected) return "";
     const r = card.getBoundingClientRect(), x = r.left + r.width / 2, at = document.elementFromPoint(x, r.top + r.height / 2);
     if (at && card.contains(at)) return "play";
-    const row = this.optionsRef.current, b = row && row.contains(card) ? row.getBoundingClientRect() : null;
-    return b && (x < b.left || x > Math.min(b.right, window.innerWidth)) ? "show" : "";
+    const row = this.optionsRef.current, v = row && row.contains(card) ? this._handView(row) : null;
+    return v && (x < v.lo || x > v.hi) ? "show" : "";
+  }
+  /** the part of the hand's row its cards are dealt into: the row's box less its side padding, within the screen */
+  _handView(row) {
+    const b = row.getBoundingClientRect(), cs = getComputedStyle(row);
+    return { lo: b.left + parseFloat(cs.paddingLeft), hi: Math.min(b.right, window.innerWidth) - parseFloat(cs.paddingRight) };
   }
   /** what this road may do with this option now (`key`: a digit, or Enter or Space on the focused card) */
   _playState(opt, card, key) {
@@ -20420,8 +20447,7 @@ class Component extends DCLogic {
   _canPlay(opt, card, key) { return this._playState(opt, card, key) === "play"; }
   /** the card brought whole into the row's view by the row's own scroll (the nearest edge, no further), and marked */
   _showCard(card) {
-    const row = this.optionsRef.current, b = row.getBoundingClientRect(), cs = getComputedStyle(row), r = card.getBoundingClientRect();
-    const lo = b.left + parseFloat(cs.paddingLeft), hi = Math.min(b.right, window.innerWidth) - parseFloat(cs.paddingRight);
+    const row = this.optionsRef.current, { lo, hi } = this._handView(row), r = card.getBoundingClientRect();
     this._trayStop();   // the row's scroll has one owner at a time (§6.5): a glide still running is stopped first
     row.scrollLeft += r.right > hi ? r.right - hi : r.left < lo ? r.left - lo : 0;
     card.querySelector("[data-choice-execute]")?.focus({ preventScroll: true });

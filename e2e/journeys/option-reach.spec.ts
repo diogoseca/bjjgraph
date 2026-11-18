@@ -17,8 +17,17 @@ import { journey } from "../dsl"
  *   · A KEY WHOSE CARD IS SCROLLED OUT OF THE HAND'S OWN ROW SHOWS IT FIRST (FOLLOW2-R0, ruled): refusing it would take
  *     away a keyboard player's road to the sixth card and on. The key brings its card whole into the row's view and
  *     marks it (the keyboard's own focus on the card's play button, the outline it already draws), and plays nothing;
- *     the same key again, the card now seen, plays it. Only for a card the ROW's scroll has put out of view: a card under
- *     the drawer, a menu or a modal stays refused, and is not moved.
+ *     the same key again, the card now seen, plays it.
+ *   · FOR ANY CARD THE ROW'S OWN SCROLL CAN BRING BACK (FOLLOW2-R1, ruled after the reader of PR #443). The first cut asked
+ *     "scrolled out of the row" against the row's border box, and with the drawer open that box starts under the drawer:
+ *     the key's own show step pushed the first card half under it, and its digit then did nothing at all (1440, 1024,
+ *     641: 3 of 3; on dev it played). The part of the row its cards are dealt into is what is asked now: a card under the
+ *     drawer's edge is brought clear and marked. Refused stays for what scrolling the row cannot cure (a menu or a modal
+ *     over a card that stands where it is dealt; the drawer being the screen).
+ *   · A REPEAT NEVER ACTS (FOLLOW2-R1; the reader's finding 2): a held key's `keydown` comes again with `repeat` set, and
+ *     the digit that had just shown its card played it at the first auto-repeat (3 of 3). The second press is a second
+ *     PRESS, for a digit and for Enter on a focused card alike. It also ends dev's own habit of a held digit playing on
+ *     into the next hand.
  *   · THE PHONE'S SLIVER. Beside the open drawer (343 px of 390) a strip of the board shows. A touch on the MAP there
  *     shuts the drawer, the roll it held resumes, and it does nothing else (pane law, `closeDeckIfStudying`). The ends of
  *     two of the hand's cards show there too, and a touch on one PLAYED it, the drawer still open over the board. Now the
@@ -31,15 +40,23 @@ import { journey } from "../dsl"
  *
  * Mutants (each alone, in the served bundle, a clean control first):
  *   R1 a key plays its card wherever the card is (the middle's test out: THE FIRST PRESS PLAYS) → "digit 7 on a card out of
- *      view…" at "the first 7 plays nothing", "beside the open drawer at 641…" at "its middle under the drawer, its digit
- *      plays nothing", "Enter on a focused card…" at "Enter plays nothing: the card's middle is under the drawer", and "on
- *      a reading arrival…" at "the digit began nothing: the page is still being read"
+ *      view…" at "the first 7 plays nothing", "…a card half under the drawer's edge…" at "its middle under the drawer, its
+ *      digit plays nothing at the first press", "Enter on a focused card…" at "Enter plays nothing: the card's middle is
+ *      under the drawer", and "on a reading arrival…" at "the digit began nothing: the page is still being read"
  *   R7 the key marks its card and does not bring it into view (THE SECOND PRESS DOES NOTHING) → "digit 7 on a card out of
  *      view…" at "the card is whole in the row's view"
  *   R8 the key brings its card into view and does not mark it → the same test at "and marked: the keyboard's focus is on
  *      its play button"
- *   R9 a card under the drawer is taken for one scrolled out of the row (it is brought out and marked) → "beside the
- *      open drawer at 641…" at "nor is it brought out from under the drawer: the row has not moved and nothing is marked"
+ *   R9 "scrolled out of the row" is asked against the row's border box, as it first was (a card half under the drawer is
+ *      refused) → "the key's own show step does not strand the first card…" at "the first card is brought back clear of
+ *      the drawer and takes the mark", and "…a card half under the drawer's edge is brought clear…" at "it is brought back
+ *      and marked…"
+ *   R10 the same digit again does nothing (a marked card is not played by a key) → "digit 7 on a card out of view…" at "7
+ *      again plays it"
+ *   R11 a held digit's repeat acts (`e.repeat` not read) → "a held digit is one press…" at "7 down again while held plays
+ *      nothing: a repeat is not a second press"
+ *   R12 a held Enter's repeat acts on the focused card (`_keyRepeat` not read) → "Enter on a focused card…" at "held,
+ *      Enter's repeat plays nothing"
  *   R2 a press on the hand beside the open drawer on a phone goes on to the card (the row's listener out) → "the sliver…"
  *      at "a touch on a card's end shuts the drawer"
  *   R3 the drawer being the screen is no bar to a key (the clause out of `_optionReach`) → "a window of a phone's
@@ -50,8 +67,10 @@ import { journey } from "../dsl"
  *      nothing: the card's middle is under the drawer"
  *   R6 the reader begins play before the question is asked (its old copy of the guard) → "on a reading arrival…" at "the
  *      digit began nothing: the page is still being read"
- * NOT COVERED: a real phone's keyboard (the phone's digits are pressed in its emulation); a menu or a modal over a card's
- * middle (the same `elementFromPoint`: the drawer is the cover pressed here); a face-down hand (`hideMoves`).
+ * NOT COVERED: a real phone's keyboard (the phone's digits are pressed in its emulation); a menu or a modal over the middle
+ * of a card that stands where it is dealt (refused, by reading: no journey puts one there); a face-down hand (`hideMoves`:
+ * the reader of PR #443 pressed it: 7 shows a card's back and marks it, 7 again plays it blind, as digits always did); a
+ * real keyboard's own repeat delay (the repeat is sent here by a second key-down while the key is held).
  */
 
 type W = any
@@ -79,6 +98,12 @@ const noClocks = (r: Record<string, unknown>) => JSON.parse(JSON.stringify(r, (_
 /** ...and without the visit's own name: `flow` files what was played under an id drawn afresh for every visit (measured: the
  *  same road in two visits differs in that key and in nothing under it), so two visits are compared by what is filed */
 const noVisit = (r: Record<string, unknown>) => ({ ...noClocks(r), flow: Object.values((r.flow || {}) as Record<string, unknown>).map((v) => JSON.stringify(v)).sort() }) as Record<string, unknown>
+/** is the n-th card whole in the part of the row its cards are dealt into (clear of the drawer), and is the mark on it */
+const clear = (page: Page, n: number) => page.evaluate((n) => {
+  const a = (window as W).__neural, oc = (a._optionCards || [])[n - 1], row = a.optionsRef.current as HTMLElement, b = row.getBoundingClientRect(), cs = getComputedStyle(row), r = (oc.card as HTMLElement).getBoundingClientRect()
+  const lo = b.left + parseFloat(cs.paddingLeft), hi = Math.min(b.right, innerWidth) - parseFloat(cs.paddingRight), edge = (a.drillRef.current as HTMLElement).getBoundingClientRect().right
+  return { whole: r.left >= lo - 0.5 && r.right <= hi + 0.5, clearOfDrawer: r.left >= edge, marked: document.activeElement === oc.card.querySelector("[data-choice-execute]"), scroll: row.scrollLeft }
+}, n)
 const drawerRight = (page: Page) => page.evaluate(() => ((window as W).__neural.drillRef.current as HTMLElement).getBoundingClientRect().right)
 /** the hand's row moved sideways by so much (what a wheel or a drag over it does; the fixture, not the claim) */
 const slideHand = (page: Page, by: number) => page.evaluate((by) => { const a = (window as W).__neural; a._trayStop && a._trayStop(); (a.optionsRef.current as HTMLElement).scrollLeft += by }, by)
@@ -180,6 +205,31 @@ test.describe("1440x900, the drawer shut", () => {
     expect(await page.evaluate(() => { const a = (window as W).__neural, x = a._execution; return x && a.nodes[x.idx] ? (a.nodes[x.idx].t as string) : null }), "and what it plays is its own card, the second").toBe(second.tech)
   })
 
+  // A HELD KEY (FOLLOW2-R1; the reader of PR #443, finding 2): the digit that had just shown its card played it at the
+  // first auto-repeat. The second press must be a second PRESS.
+  test("a held digit is one press: 7 down shows its card, 7 again while held plays nothing; released and pressed again, it plays", async ({ page }) => {
+    const j = journey(page)
+    await j.boot("/")
+    await j.land("Mount Top")
+    expect((await cardAt(page, 7))!.inReach, "premise: the seventh card is out of view").toBe(false)
+    const was = await game(page)
+    await rigged(j)
+    await noFocus(page)
+    await page.keyboard.down("7")
+    await j.advance(300)
+    expect([(await inRow(page, 7)).marked, (await game(page)).moves], "premise: 7 down showed and marked the seventh card, and played nothing").toEqual([true, 0])
+    const events = await page.evaluate(() => { (window as W).__keys = []; window.addEventListener("keydown", (e) => (window as W).__keys.push([e.key, e.repeat]), true); return true })
+    await page.keyboard.down("7") // the key still held: the keyboard sends it again, as a repeat
+    await j.advance(700)
+    expect(await page.evaluate(() => (window as W).__keys), "premise: the second keydown is a repeat").toEqual([["7", true]])
+    expect(events && (await game(page)), "7 down again while held plays nothing: a repeat is not a second press").toEqual(was)
+    await page.keyboard.up("7")
+    await page.keyboard.press("7")
+    await j.advance(300)
+    const after = await game(page)
+    expect(after.moves > 0 || after.running, "released and pressed again, it plays").toBe(true)
+  })
+
   test("on a reading arrival a digit whose card is out of view begins nothing", async ({ page }) => {
     const j = journey(page)
     await j.boot("/Positions/Mount/Top")
@@ -193,6 +243,44 @@ test.describe("1440x900, the drawer shut", () => {
     await page.keyboard.press(String(out))
     await j.advance(600)
     expect(await game(page), "the digit began nothing: the page is still being read").toEqual(was)
+  })
+})
+
+test.describe("1440x900, the drawer open beside the board", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+  // FOLLOW2-R1 (the reader of PR #443, finding 1): the key's own show step scrolled the row, the first card went half under
+  // the drawer, and its digit then did nothing at all (1440, 1024, 641: 3 of 3; on dev it played). The row's own box
+  // starts under the drawer; "scrolled out of the row" is asked against the part the cards are dealt into.
+  test("the key's own show step does not strand the first card: half under the drawer, its digit brings it back and marks it, and the same digit again plays it", async ({ page }) => {
+    const j = journey(page)
+    await j.boot("/")
+    await j.land("Mount Top")
+    await page.locator(".ng-logo").click()
+    await j.advance(1500)
+    const edge = await drawerRight(page)
+    let n = 0
+    for (let k = 2; k <= 9 && !n; k++) { const c = await cardAt(page, k); if (c && !c.inReach && c.x > edge) n = k }
+    expect(n, "premise: with the drawer open some digit's card is out of view at the right").toBeGreaterThan(0)
+    const first = (await cardAt(page, 1))!
+    expect(first.inReach, "premise: the first card is in view beside the drawer").toBe(true)
+    await rigged(j)
+    await noFocus(page)
+    await page.keyboard.press(String(n))
+    await j.advance(300)
+    expect([(await clear(page, n)).marked, (await game(page)).moves], "premise: that digit showed and marked its card, and played nothing").toEqual([true, 0])
+    const pushed = (await cardAt(page, 1))!
+    expect([pushed.x < edge, pushed.right > edge, pushed.inReach], "premise: the show pushed the first card half under the drawer (its middle under it, its end showing)").toEqual([true, true, false])
+    const was = await game(page)
+    await page.keyboard.press("1")
+    await j.advance(700)
+    expect(await game(page), "digit 1 plays nothing at the first press").toEqual(was)
+    const c = await clear(page, 1)
+    expect([c.whole, c.clearOfDrawer, c.marked, (await clear(page, n)).marked], "the first card is brought back clear of the drawer and takes the mark").toEqual([true, true, true, false])
+    await page.keyboard.press("1")
+    await j.advance(300)
+    const after = await game(page)
+    expect(after.moves > 0 || after.running, "digit 1 again plays").toBe(true)
+    expect(await page.evaluate(() => { const a = (window as W).__neural, x = a._execution; return x && a.nodes[x.idx] ? (a.nodes[x.idx].t as string) : null }), "and what it plays is the first card").toBe(first.tech)
   })
 })
 
@@ -213,24 +301,38 @@ test.describe("641x800, the drawer open beside the board", () => {
     return { j, edge }
   }
 
-  test("beside the open drawer at 641: a digit plays a card whose middle shows, not one whose middle is under the drawer; a press on that card's end plays as ever", async ({ page }) => {
-    const { j, edge } = await firstCardHalfUnder(page)
-    const was = await game(page), scrolled = await page.evaluate(() => ((window as W).__neural.optionsRef.current as HTMLElement).scrollLeft)
+  // FOLLOW2-R1 (the reader of PR #443, and the ruling on it): this step said "nor is it brought out from under the drawer:
+  // the row has not moved and nothing is marked". That pinned a dead key: a card the row's own scroll has put half under
+  // the drawer is one the row's scroll can bring back, so its digit SHOWS it (clear of the drawer, marked) and the same
+  // digit again plays it. Refused stays for what scrolling the row cannot cure.
+  test("beside the open drawer at 641: a card half under the drawer's edge is brought clear and marked by its digit, and the same digit again plays it", async ({ page }) => {
+    const { j } = await firstCardHalfUnder(page)
+    const was = await game(page), first = (await cardAt(page, 1))!
     await rigged(j)
     await noFocus(page)
     await page.keyboard.press("1")
     await j.advance(700)
-    expect(await game(page), "its middle under the drawer, its digit plays nothing").toEqual(was)
-    const still = await page.evaluate(() => { const a = (window as W).__neural; return { scroll: (a.optionsRef.current as HTMLElement).scrollLeft, marked: (a._optionCards || []).some((oc: W) => !!document.activeElement && oc.card.contains(document.activeElement)) } })
-    expect([still.scroll === scrolled, still.marked], "nor is it brought out from under the drawer: the row has not moved and nothing is marked").toEqual([true, false])
-    // the press on its visible end: a desktop's press beside the drawer plays, as it always did
+    expect(await game(page), "its middle under the drawer, its digit plays nothing at the first press").toEqual(was)
+    const c = await clear(page, 1)
+    expect([c.whole, c.clearOfDrawer, c.marked], "it is brought back and marked: whole where the hand is dealt, clear of the drawer, the keyboard's focus on its play button").toEqual([true, true, true])
+    expect((await cardAt(page, 1))!.inReach, "its middle in reach of a press now").toBe(true)
+    await page.keyboard.press("1")
+    await j.advance(300)
+    const after = await game(page)
+    expect([after.moves > 0 || after.running, after.paused, after.drawer], "the same digit again plays it, the drawer staying beside the board").toEqual([true, false, true])
+    expect(await page.evaluate(() => { const a = (window as W).__neural, x = a._execution; return x && a.nodes[x.idx] ? (a.nodes[x.idx].t as string) : null }), "and what it plays is that card").toBe(first.tech)
+  })
+
+  test("beside the open drawer at 641: a press on the end of a card half under the drawer plays it, as ever", async ({ page }) => {
+    const { j, edge } = await firstCardHalfUnder(page)
+    await rigged(j)
     const c = (await cardAt(page, 1))!
     const at = await page.evaluate(({ tech, from }) => { const b = document.querySelector(`[data-tech="${tech}"] .ng-choice-title-button`) as HTMLElement, r = b.getBoundingClientRect(); for (let x = Math.max(from + 6, r.left + 4); x < r.right - 4; x += 4) { const t = document.elementFromPoint(x, r.top + r.height / 2); if (t && b.contains(t)) return { x, y: r.top + r.height / 2 } } return null }, { tech: c.tech, from: edge })
     expect(at, "premise: the card's title shows beside the drawer").not.toBeNull()
     await page.mouse.click(at!.x, at!.y)
     await j.advance(300)
     const after = await game(page)
-    expect([after.moves > 0 || after.running, after.paused, after.drawer], "a press on its end plays it, the drawer staying beside the board").toEqual([true, false, true])
+    expect([after.moves > 0 || after.running, after.paused, after.drawer], "a press on its end plays it at once, the drawer staying beside the board").toEqual([true, false, true])
   })
 
   test("beside the open drawer at 641: the digit of a card whose middle shows plays it", async ({ page }) => {
@@ -249,22 +351,26 @@ test.describe("641x800, the drawer open beside the board", () => {
     expect([after.moves > 0 || after.running, after.paused, after.latch], "its digit plays it, and the drawer's claim on the clock ends with the move").toEqual([true, false, false])
   })
 
-  test("Enter on a focused card is a key: it plays nothing while the card's middle is under the drawer, and plays it in view", async ({ page }) => {
+  test("Enter on a focused card is a key: under the drawer it brings the card clear and plays nothing; held, its repeat does nothing; pressed again, it plays", async ({ page }) => {
     const { j } = await firstCardHalfUnder(page)
     const was = await game(page), c = (await cardAt(page, 1))!
     await rigged(j)
     const focused = await page.evaluate((tech) => { const b = document.querySelector(`[data-tech="${tech}"] [data-choice-execute]`) as HTMLElement; b.focus({ preventScroll: true }); return document.activeElement === b }, c.tech)
     expect(focused, "premise: the card's own button has the focus").toBe(true)
-    await page.keyboard.press("Enter")
-    await j.advance(700)
+    await page.keyboard.down("Enter")
+    await j.advance(300)
     expect(await game(page), "Enter plays nothing: the card's middle is under the drawer").toEqual(was)
-    await slideHand(page, -1000)
-    await expect.poll(async () => (await cardAt(page, 1))!.inReach, { message: "premise: the card is in view again" }).toBe(true)
-    await page.evaluate((tech) => (document.querySelector(`[data-tech="${tech}"] [data-choice-execute]`) as HTMLElement).focus({ preventScroll: true }), c.tech)
+    const shown = await clear(page, 1)
+    expect([shown.whole, shown.clearOfDrawer, shown.marked], "it brings the card clear of the drawer, the focus still on it").toEqual([true, true, true])
+    // the key still down: the keyboard repeats it. A repeat is not a second press.
+    await page.keyboard.down("Enter")
+    await j.advance(300)
+    expect(await game(page), "held, Enter's repeat plays nothing").toEqual(was)
+    await page.keyboard.up("Enter")
     await page.keyboard.press("Enter")
     await j.advance(300)
     const after = await game(page)
-    expect(after.moves > 0 || after.running, "in view, Enter on the focused card plays it").toBe(true)
+    expect(after.moves > 0 || after.running, "released and pressed again, Enter on the focused card plays it").toBe(true)
   })
 })
 
