@@ -20292,3 +20292,21 @@ touch at `activateOption` is the next job's.
 on a desktop too, B3 the drawer's opening and closing do not move it, B4 its drawer style gone, B5 a resize does not
 move it, B6 the repaint puts the list back at its top, B7 never in the drawer, H1 the clock's start leaves the latch,
 H2 a digit behind a covering drawer: 9 of 9 red at their named steps.
+
+## v1.293.2 — The e2e shard job's limit, 35 → 45 (CI1, 18 Nov 2026)
+
+**Why.** Dev's push-run of `e2e-full.yml` on 8b0191f97 (run 44309956298, attempt 1) was cancelled: shard 1 hit the job's
+35-minute limit at 35m06s. Its suite had finished: Playwright printed "4 skipped, 507 passed (24.8m)" 1.2 s before the
+cancel, the 4 being the coldstart probes. "Download tested site" took 7m39s (13:13:40 to 13:21:19) for the 114,684,726 B
+artifact that the other four jobs of the same run fetched in 3 to 4 s, and the suite step 24m49s. The survey found a
+second one: run 44191810640 (609e3a0d7, attempt 1), shard 2 cancelled at 35m15s with 437 of 470 reported (436 passed,
+1 skipped, none failed); there the checkout took 12m06s. Both times a network step ate the margin, not the suite.
+
+**The ten green dev runs before** (44013553537 to 44286779127), each job's longest clock: build 8m25s, shard 1 21m56s,
+shard 2 25m57s, shard 3 25m47s, shard 4 18m43s, gen 10m06s (4m56s of it apt). The longest suite step was 24m43s and the
+longest download 9 s. A full suite step plus a 7 to 12 minute stall lands near 37 minutes, so the shard job goes to 45;
+the shard count stays 4, as the file's comment says. Build and gen keep 25: neither was near it.
+
+**Not changed.** `e2e-gen.yml` (50), both deploys' gate step (20, the deploy gate budget's `timeout_min`, pinned by
+`tests/deploy_gate.test.mjs`) and `clips-verify.yml` (90, 85) are other jobs. No test, script or doc pinned 35 for the
+shard job; the comment above the limit carries the history.
