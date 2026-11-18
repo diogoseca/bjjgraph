@@ -336,7 +336,8 @@ function ngClozeTap(app, s, id) {
 }
 // DONE: every hidden move written once, through the app's one writer; each is one of the day's 20
 // (exported for tests/progress_owner.integration.test.mjs, which confirms through THIS function against a cloud that holds
-// a record: L2-R2. Not re-exported by gameplan.src.js, so the bundle is the same bytes.)
+// a record: L2-R2. Not re-exported by gameplan.src.js, so the bundle is the same size and the same code: its hash moved,
+// because the minifier swapped two local names, 121 bytes of the same length: the reader of PR #438, on CI's build.)
 export function ngClozeDone(app, s) {
   const c = ngCzNow(s), asked = c ? c.rows.filter((r) => r.ask) : [];
   if (!c || !c.shown || c.done) return;
