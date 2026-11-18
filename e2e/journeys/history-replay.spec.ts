@@ -810,6 +810,144 @@ test("a film's bar changes seat when the window crosses a phone's width, and com
   await expect.poll(() => page.evaluate(() => (window as any).__neural.isMobile()), { message: "premise: the app has seen the window widen" }).toBe(false)
   const wide = await barGeo(page)
   expect({ film: wide.film, parent: wide.parent, inDrawer: wide.inDrawer, position: wide.position }, "widened again, it is back on the map").toEqual({ film: true, parent: "the app root", inDrawer: false, position: "fixed" })
+  // FOLLOW2-R1: and a width that is no phone's, where the bar cannot stand whole beside the drawer (no breakpoint is crossed)
+  await page.setViewportSize({ width: 800, height: 800 })
+  await expect.poll(() => page.evaluate(() => (window as any).__neural.W), { message: "premise: the app has seen the window at 800" }).toBe(800)
+  const tablet = await barGeo(page)
+  expect({ film: tablet.film, parent: tablet.parent, inDrawer: tablet.inDrawer, atFoot: tablet.atFoot }, "narrowed to 800, where the bar has no room beside the drawer, it is a row of the drawer").toEqual({ film: true, parent: "the drawer", inDrawer: true, atFoot: true })
+  await page.setViewportSize({ width: 1440, height: 900 })
+  await expect.poll(() => page.evaluate(() => (window as any).__neural.W), { message: "premise: the app has seen the window at 1440" }).toBe(1440)
+  const back = await barGeo(page)
+  expect({ film: back.film, parent: back.parent, inDrawer: back.inDrawer, position: back.position }, "and widened again from there, it is back on the map").toEqual({ film: true, parent: "the app root", inDrawer: false, position: "fixed" })
+})
+
+/**
+ * WHERE THE BAR CANNOT STAND WHOLE BESIDE THE OPEN DRAWER, IT IS A ROW AT THE DRAWER'S FOOT AT ANY WIDTH (FOLLOW2-R1, v1.293.3)
+ *
+ * Ruled after the reader of PR #443. FOLLOW2's clamp (chrome is never off the screen) also acts on a window wider than a
+ * phone and narrower than 912 px with the drawer open, which that PR did not say: at 641 the bar stood at [105,625],
+ * over 255 of the drawer's 360 px (on dev at [204.5,724.5]: over 156 px of it, and its ✕ wholly off the screen). The
+ * rule: the bar is a row at the drawer's foot not only on a phone but wherever it cannot stand whole beside the open
+ * drawer. Asked by geometry in the one writer of its seat (`_seatReplayBar`): the screen's width less the drawer's,
+ * against the bar's own width on the map (read from the stylesheet) and its two margins. With a 360 px drawer and a
+ * 520 px bar: 911 px and under. From 912 the bar is on the map, where it stood.
+ *
+ * By MOUSE on a real film, at 641, 768 and 911: the bar a row of the drawer at its foot, whole inside it; no control of
+ * the drawer under it (a count of the controls measured); its ✕ 44 px, whole, reached at its middle and four edges, and
+ * pressed; no row moving when the film starts or stops. At 912 and 1440: on the map, 520 px wide, whole on the screen.
+ * At 600 with the drawer shut: the screen's width less its two margins, as it was (the stylesheet's width is written as
+ * a width and a cap now, so that the seat can read the cap; the phone's rule lifts it).
+ *
+ * Mutants (each alone, in the served bundle, a clean control first):
+ *   T1 the seat asks the phone's width only, as before → the three widths at "the bar is a row of the drawer, at its
+ *      foot", and the resize journey at "narrowed to 800…"
+ *   T2 the seat finds no room at any width (always in the open drawer) → 912 and 1440 at "the bar can stand whole
+ *      beside the drawer: it is on the map", and the two desktop journeys above
+ *   T3 a resize re-seats the bar only across the phone's breakpoint, as before → the resize journey at "narrowed to 800…"
+ *   T4 a new bar is asked before it is in the page (it has no style to read) → 912 and 1440 at "…it is on the map"
+ *   T5 the phone's rule does not lift the cap → "at 600 wide…" at "the bar on the map is the screen's width less 20 px"
+ * NOT COVERED: from 912 to 919 a bar that follows a wide card's column still lies a few px over the drawer's edge, as on
+ * dev (the dock's own centre, not the seat's question; measured for the PR's report, not asserted); a drawer of another
+ * width (there is one: 360); the home view's door at these widths (`_showFilmDoor` reads the same attribute; pinned at a
+ * phone's size only).
+ */
+/** the drawer's controls that show, and those of them any part of which lies under the bar (a row the list's own edge cuts off counts only as far as it shows) */
+const drawerUnderBar = (page: Page) =>
+  page.evaluate(() => {
+    const a: App = (window as any).__neural, drawer = a.drillRef.current as HTMLElement, bar = document.querySelector("[data-replay-bar]") as HTMLElement, b = bar.getBoundingClientRect()
+    let shown = 0
+    const under: string[] = []
+    for (const e of drawer.querySelectorAll("button, a[href], input, summary, [role='button']")) {
+      if (bar.contains(e) || (e as HTMLElement).offsetParent === null) continue
+      let r: { left: number; top: number; right: number; bottom: number } = e.getBoundingClientRect()
+      for (let n = e.parentElement; n && n !== drawer.parentElement; n = n.parentElement) {
+        if (getComputedStyle(n).overflowY === "visible") continue
+        const c = n.getBoundingClientRect()
+        r = { left: Math.max(r.left, c.left), top: Math.max(r.top, c.top), right: Math.min(r.right, c.right), bottom: Math.min(r.bottom, c.bottom) }
+      }
+      if (r.right - r.left < 1 || r.bottom - r.top < 1) continue
+      shown++
+      if (r.left < b.right && r.right > b.left && r.top < b.bottom && r.bottom > b.top) under.push(((e.textContent || "").trim() || e.getAttribute("aria-label") || String(e.className)).slice(0, 24))
+    }
+    return { shown, under }
+  })
+/** Last rolls open by mouse beside the board, the drawer's opening settled, then a past roll's film started */
+async function filmFromLastRollsByMouse(j: any, page: Page, ts: number) {
+  await page.evaluate(() => (window as any).__neural.setPaused(false))
+  await j.clickByMouse(".ng-logo", "the logo")
+  await j.clickByMouse('[data-view="history"]', "Last rolls")
+  await expect(page.locator("[data-past-roll]").first()).toBeVisible()
+  await j.advance(1500) // the drawer's opening settles the map beside it
+  const g0 = await barGeo(page)
+  const at = (await middleOf(page, `[data-replay-roll="${ts}"]`))!
+  await j.clickByMouse(`[data-replay-roll="${ts}"]`, "the past roll's replay control")
+  await j.advance(300)
+  await page.waitForTimeout(120)
+  return { g0, at }
+}
+for (const vw of [641, 768, 911]) {
+  test.describe(`a window ${vw} px wide by mouse, the drawer open beside the board`, () => {
+    test.use({ viewport: { width: vw, height: 800 } })
+    test(`the film's bar is a row at the drawer's foot: no control of the drawer under it, its ✕ whole and pressed, no row moving when the film starts or stops (${vw})`, async ({ page }) => {
+      const j = journey(page)
+      const past = await archivedRoll(j, page)
+      const { g0, at } = await filmFromLastRollsByMouse(j, page, past.ts)
+      expect(g0, "premise: Last rolls was open, no film yet").toMatchObject({ film: false, drawerOpen: true, view: "history", bar: null })
+      expect([g0.drawer!.right < vw, g0.rows.length >= 2], "premise: the drawer stands beside the board (it is not the screen), and its list has rows").toEqual([true, true])
+      const g = await barGeo(page)
+      expect({ film: g.film, of: g.filmOf }, "the film of that roll is running").toEqual({ film: true, of: past.ts })
+      expect({ parent: g.parent, inDrawer: g.inDrawer, atFoot: g.atFoot, position: g.position }, "the bar is a row of the drawer, at its foot").toEqual({ parent: "the drawer", inDrawer: true, atFoot: true, position: "static" })
+      expect([g.bar!.left >= g.drawer!.left, g.bar!.right <= g.drawer!.right + 0.5, g.bar!.top >= g.list!.bottom - 0.5, g.bar!.bottom <= g.acct!.top + 0.5], "whole inside the drawer: after the list, above the account's foot").toEqual([true, true, true, true])
+      expect({ list: g.list!.top - g0.list!.top, rows: g.rows.map((y, i) => y - g0.rows[i]), scroll: g.scroll }, "the film's start moved no row: the list and every row where they were").toEqual({ list: 0, rows: g0.rows.map(() => 0), scroll: g0.scroll })
+      expect(await under(page, at), "the control that was pressed is still under that point, now the one that stops").toMatchObject({ replayOf: String(past.ts), replaying: true })
+      const u = await drawerUnderBar(page)
+      expect(u.shown, "controls of the drawer measured (a count, so that none under the bar is none of some)").toBeGreaterThanOrEqual(6)
+      expect(u.under, "no control of the drawer lies under the bar").toEqual([])
+      const stop = (await reach(page, "[data-replay-stop]", g.drawer!))[0]
+      expect([stop.w, stop.h, stop.whole, stop.hit], "its ✕ is 44 px, whole in the drawer, and what a press reaches at its middle and four edges").toEqual([44, 44, true, true])
+      console.log(`F2R1SEAT ${vw} ` + JSON.stringify({ bar: [g.bar!.left, g.bar!.top, g.bar!.right, g.bar!.bottom].map((n) => Math.round(n * 10) / 10), drawerRight: g.drawer!.right, controls: u.shown }))
+      await j.clickByMouse("[data-replay-stop]", "the film's ✕, at the drawer's foot")
+      await expect(page.locator("[data-replay-bar]")).toHaveCount(0)
+      const g2 = await barGeo(page)
+      expect({ film: g2.film, list: g2.list!.top - g0.list!.top, rows: g2.rows.map((y, i) => y - g0.rows[i]), scroll: g2.scroll }, "the film's stop moved no row either").toEqual({ film: false, list: 0, rows: g0.rows.map(() => 0), scroll: g0.scroll })
+    })
+  })
+}
+for (const [vw, vh] of [[912, 800], [1440, 900]] as const) {
+  test.describe(`a window ${vw} px wide by mouse, the drawer open beside the board`, () => {
+    test.use({ viewport: { width: vw, height: vh } })
+    test(`the bar can stand whole beside the drawer: it is on the map, as it was (${vw})`, async ({ page }) => {
+      const j = journey(page)
+      const past = await archivedRoll(j, page)
+      const { g0 } = await filmFromLastRollsByMouse(j, page, past.ts)
+      const g = await barGeo(page)
+      expect(g.film, "premise: the film is running").toBe(true)
+      expect({ parent: g.parent, inDrawer: g.inDrawer, position: g.position }, "the bar can stand whole beside the drawer: it is on the map").toEqual({ parent: "the app root", inDrawer: false, position: "fixed" })
+      expect([Math.round(g.bar!.width), g.bar!.left >= 0, g.bar!.right <= vw], "at the stylesheet's own width (520 px), whole on the screen").toEqual([520, true, true])
+      expect([g.list!.top - g0.list!.top, g.list!.bottom - g0.list!.bottom], "and the drawer's list gave it no room: 0 px").toEqual([0, 0])
+      console.log(`F2R1SEAT ${vw} ` + JSON.stringify({ bar: [g.bar!.left, g.bar!.top, g.bar!.right, g.bar!.bottom].map((n) => Math.round(n * 10) / 10), drawerRight: g.drawer!.right }))
+      await j.clickByMouse("[data-replay-stop]", "the film's ✕, on the map")
+      await expect(page.locator("[data-replay-bar]")).toHaveCount(0)
+    })
+  })
+}
+test.describe("a window 600 px wide by mouse, the drawer shut", () => {
+  test.use({ viewport: { width: 600, height: 800 } })
+  test("at 600 wide the bar on the map is the screen's width less its two margins, as it was", async ({ page }) => {
+    const j = journey(page)
+    const past = await archivedRoll(j, page)
+    await page.evaluate(() => (window as any).__neural.setPaused(false))
+    await j.clickByMouse(".ng-logo", "the logo")
+    await j.clickByMouse('[data-view="history"]', "Last rolls")
+    await j.clickByMouse(`[data-replay-roll="${past.ts}"]`, "the past roll's replay control")
+    await j.advance(300)
+    await j.clickByMouse(".ng-explorer-close", "shut the drawer")
+    await j.advance(1500)
+    await page.waitForTimeout(150)
+    const g = await barGeo(page)
+    expect({ film: g.film, parent: g.parent }, "premise: the film goes on and its bar is on the map").toEqual({ film: true, parent: "the app root" })
+    expect([Math.round(g.bar!.width), Math.round(g.bar!.left), Math.round(g.bar!.right)], "the bar on the map is the screen's width less 20 px (580, from 10 to 590)").toEqual([580, 10, 590])
+  })
 })
 
 /**

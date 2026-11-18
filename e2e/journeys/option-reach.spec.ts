@@ -57,6 +57,12 @@ import { journey } from "../dsl"
  *      nothing: a repeat is not a second press"
  *   R12 a held Enter's repeat acts on the focused card (`_keyRepeat` not read) → "Enter on a focused card…" at "held,
  *      Enter's repeat plays nothing"
+ *   R13 the show step scrolls to the row's box, not to the part its cards are dealt into (the reader's M12, which
+ *      survived the first cut: the card "shown" stays under the drawer, marked) → "the key's own show step does not strand
+ *      the first card…" at "the first card is brought back clear of the drawer and takes the mark", and "…a card half
+ *      under the drawer's edge is brought clear…" at "it is brought back and marked…"
+ *   (the show step not freezing the hand, the reader's M3: pinned in choice-value.spec.ts, which has the win chances'
+ *      controlled provider: "a digit that shows a card before the values land freezes the hand…")
  *   R2 a press on the hand beside the open drawer on a phone goes on to the card (the row's listener out) → "the sliver…"
  *      at "a touch on a card's end shuts the drawer"
  *   R3 the drawer being the screen is no bar to a key (the clause out of `_optionReach`) → "a window of a phone's
@@ -276,6 +282,7 @@ test.describe("1440x900, the drawer open beside the board", () => {
     expect(await game(page), "digit 1 plays nothing at the first press").toEqual(was)
     const c = await clear(page, 1)
     expect([c.whole, c.clearOfDrawer, c.marked, (await clear(page, n)).marked], "the first card is brought back clear of the drawer and takes the mark").toEqual([true, true, true, false])
+    expect((await cardAt(page, 1))!.inReach, "and it is what a press at its middle reaches").toBe(true)
     await page.keyboard.press("1")
     await j.advance(300)
     const after = await game(page)

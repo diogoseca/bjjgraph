@@ -266,7 +266,7 @@
     .ng-landcard{bottom:206px!important;max-height:34vh!important;}
     .ng-landcard{width:calc(100vw - 20px)!important;padding:11px 12px 10px!important;}
     /* the replay bar shares the card's dock, at every width — see its rule above */
-    .ng-replaybar{bottom:206px!important;width:calc(100vw - 20px)!important;padding:8px 10px!important;}
+    .ng-replaybar{bottom:206px!important;width:calc(100vw - 20px)!important;max-width:none!important;padding:8px 10px!important;}
     /* ── THE BOTTOM THUMB BAND HAS THREE TENANTS ──────────────────────────────────────────
        legend (left:14), transport (centred), drill pill (right:14) — all anchored at 28px.
        The share cue's two buttons widen the pill LEFTWARD until, at 390px, it sat on top of
@@ -516,8 +516,12 @@
      not take the input a modal scrim takes. `pointer-events:auto` is load-bearing on every fixed
      overlay here (the property is inherited and the canvas hit-tests above anything that does not
      re-enable it) — without it the ✕ is visible and dead. */
-  .ng-replaybar{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:8;display:flex;align-items:center;gap:11px;width:min(520px,calc(100vw - 32px));background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-left:3px solid #7ee0a8;border-radius:13px;padding:9px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .24s cubic-bezier(.2,.7,.2,1);}
-  /* IN THE DRAWER ON A PHONE (FOLLOW1, v1.293.1; `_seatReplayBar` in app.src.jsx moves it and sets the attribute): a row of
+  .ng-replaybar{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:8;display:flex;align-items:center;gap:11px;width:calc(100vw - 32px);max-width:520px;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-left:3px solid #7ee0a8;border-radius:13px;padding:9px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .24s cubic-bezier(.2,.7,.2,1);}
+  /* ITS WIDTH ON THE MAP IS `max-width` (FOLLOW2-R1): the rule above read `width:min(520px, 100vw - 32px)`; it is the same
+     box written as a width and a cap, so that `_seatReplayBar` can READ the cap in whichever seat the bar is (it asks
+     whether the bar can stand whole beside the open drawer). The phone's rule lifts the cap (`max-width:none`): its bar
+     is the screen's width less 20 px up to 640.
+     IN THE DRAWER (FOLLOW1, v1.293.1; `_seatReplayBar` in app.src.jsx moves it and sets the attribute): a row of
      the drawer at its foot, after the list and above the account's foot, in the flow: nothing of the list can lie under it,
      and no row moves when it comes or goes (the list gives its height at its own end). `!important` on width only: the
      phone rule above carries one. The entry animation is a fixed card's (it animates the transform this rule takes away),

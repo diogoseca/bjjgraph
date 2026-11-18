@@ -3801,7 +3801,7 @@ class Component extends DCLogic {
     const open = this.deckReady && this.deckOpen;
     const wasShown = this.deckShown;
     this.deckShown = open;
-    if (open !== wasShown) this._seatReplayBar();   // a film's bar stands in the drawer on a phone, on the map otherwise (FOLLOW1)
+    if (open !== wasShown) this._seatReplayBar();   // a film's bar stands in the drawer where it cannot stand whole beside it, on the map otherwise (FOLLOW1; FOLLOW2-R1)
     if (!open) this._searchAsked = false;   // the search row's "asked for" ends with the panel (`_syncExploreTools`)
     // The pane owns landing shortcuts until it closes; exposed pointer controls remain live.
     // Lifter: every close path passes through this same visibility seam, including study.
@@ -14603,6 +14603,8 @@ class Component extends DCLogic {
   // pane, where a bottom control would be unreachable; there they centre on the free area
   // instead, which is the viewport's centre whenever the pane is shut, i.e. where they were.
   // Pinned by `e2e/journeys/layer-dock-centre.spec.ts`.
+  /** the air root-plane chrome keeps at the screen's edge: the 10 / 16 px the stylesheet's own widths leave (`100vw - 20px` on a phone, `100vw - 32px`) */
+  _chromeEdge() { return this.isMobile() ? 10 : 16; }
   _layoutLandHorizontal() {
     // (CARDWIDTH retired the deck nav's `data-index` flag that stood here: Previous no longer moves to the right lane beside the
     // index, because it sits inside the grid on its own side now; helmet.html, .ng-landnav.)
@@ -14614,7 +14616,7 @@ class Component extends DCLogic {
     if (!card && !film && !chrome.length) return;
     const compact = this._compactLandDeck();
     const anchor = card || film;
-    const edge = this.isMobile() ? 10 : 16;
+    const edge = this._chromeEdge();
     const gutter = card && card.classList.contains("ng-land-deck") ? 52 : edge;
     // Every width is READ before any `left` is written, so a frame costs one layout, not one per
     // element. An element that has not laid out yet measures 0 wide: that is SKIP (no clamp),
@@ -19513,18 +19515,28 @@ class Component extends DCLogic {
    * point ran the film on, 3 of 3; on the second row it started the FIRST roll's film, 3 of 3), and when a film ended by
    * itself with a row open the next state's row stood under both of its actions (3 of 3). A row at the list's foot
    * when the bar comes leaves the view (the list ends 44 px sooner); it is never under the bar.
-   * Its ✕ is then a drawer control like any other (the drawer's own press and swipe rules). Desktop is unchanged: the
-   * drawer is beside the map there and the bar stays on the map.
+   * Its ✕ is then a drawer control like any other (the drawer's own press and swipe rules).
+   * AND WHEREVER THE BAR CANNOT STAND WHOLE BESIDE THE OPEN DRAWER (FOLLOW2-R1, ruled after the reader of PR #443): a
+   * window wider than a phone whose board beside the drawer is narrower than the bar and its two margins. There the
+   * dock put the bar across the drawer: at 641 wide over 255 of the drawer's 360 px (156 on dev, where its ✕ was wholly
+   * off the screen instead). Asked by geometry, with no second breakpoint: the screen's width less the drawer's
+   * (`sbOffset`) against the bar's own width on the map, which is READ from the stylesheet (`max-width`, whichever seat
+   * the bar is in) and its margins (`_chromeEdge`, the dock's own). With a 360 px drawer and a 520 px bar that is 911 px
+   * and under. From 912 up the bar is on the map as it was (a bar following a wide card's column can still lie a few px
+   * over the drawer's edge up to 919, as on dev: the dock's own question, left as it is).
    * CALLED BY every change of what decides it: the bar's render (a film's start and each of its steps), the drawer's
-   * opening and closing (`applyDeckVisibility`), and a resize across the phone's breakpoint (`resize`). `data-in-drawer`
-   * is what the stylesheet reads (helmet.html, `.ng-replaybar[data-in-drawer]`); the dock never runs on a bar in the
-   * drawer (an element in the flow has no `bottom` to measure).
+   * opening and closing (`applyDeckVisibility`), and every `resize`. `data-in-drawer` is what the stylesheet reads
+   * (helmet.html, `.ng-replaybar[data-in-drawer]`); the dock never runs on a bar in the drawer (an element in the flow
+   * has no `bottom` to measure).
    */
   _seatReplayBar() {
     const el = this._replayEl; if (!el) return;
-    const pane = this.drillRef.current, foot = pane && pane.querySelector(".ng-acctwrap");
-    const inDrawer = !!foot && foot.parentNode === pane && this.deckShown && this.isMobile();
-    const root = this.__ngRoot || document.body;
+    const pane = this.drillRef.current, foot = pane && pane.querySelector(".ng-acctwrap"), root = this.__ngRoot || document.body;
+    if (!el.isConnected) root.appendChild(el);   // a new bar has no style to read until it is in the page
+    const W = this.W || window.innerWidth, edge = this._chromeEdge();
+    const wide = Math.min(parseFloat(getComputedStyle(el).maxWidth) || W, W - 2 * edge);   // the bar's width on the map ("none" on a phone: the screen's)
+    const noRoom = this.isMobile() || W - this.sbOffset() < wide + 2 * edge;
+    const inDrawer = !!foot && foot.parentNode === pane && this.deckShown && noRoom;
     if (inDrawer) { if (foot.previousElementSibling !== el) foot.before(el); }
     else if (el.parentNode !== root) root.appendChild(el);
     el.toggleAttribute("data-in-drawer", inDrawer);
@@ -20445,7 +20457,15 @@ class Component extends DCLogic {
     return this._optionReach(card, key);
   }
   _canPlay(opt, card, key) { return this._playState(opt, card, key) === "play"; }
-  /** the card brought whole into the row's view by the row's own scroll (the nearest edge, no further), and marked */
+  /**
+   * The card brought whole into the row's view by the row's own scroll (the nearest edge, no further), and marked.
+   * THE MARK IS ALSO WHAT FREEZES THE HAND. The focus it puts on the card reaches the tray's own `focusin` listener
+   * (`_handTouched`, where the hand is dealt): a hand whose win chances have not landed yet does not sort itself after
+   * it, so the card the second press plays is the card the first one showed. No line here says so, on purpose (it
+   * would be a second writer of that latch, and one that survives its own removal); it is pinned instead, by
+   * choice-value.spec.ts: with the latch undone after a show, the values landing re-sorted the hand and the second 7
+   * played ANOTHER card than the one shown (the reader of PR #443, its mutant M3: 2 of 2).
+   */
   _showCard(card) {
     const row = this.optionsRef.current, { lo, hi } = this._handView(row), r = card.getBoundingClientRect();
     this._trayStop();   // the row's scroll has one owner at a time (§6.5): a glide still running is stopped first
@@ -22346,7 +22366,7 @@ class Component extends DCLogic {
     // once, at its open (`_placeListPicker`), against a layout a crossing of the phone's breakpoint replaces, and left open
     // across a resize from 1440 to 390 it stood at its desktop box, off the phone's screen. It closes, as when the seat changes.
     if (this._pickEl && phone !== this.isMobile()) this.closeListPicker();
-    if (phone !== this.isMobile()) this._seatReplayBar();   // ...and a film's bar changes seat with it (FOLLOW1)
+    this._seatReplayBar();   // ...and a film's bar changes seat with the room beside the drawer, at any width (FOLLOW1; FOLLOW2-R1)
     this.dpr = Math.min(window.devicePixelRatio || 1, 2);
     this.canvas.width = this.W * this.dpr; this.canvas.height = this.H * this.dpr;
     this._applyTypeScale();
