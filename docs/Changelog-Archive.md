@@ -20083,3 +20083,70 @@ inputs and its four spec files) and on this one:
 **Not covered.** A pinch (Playwright sends one finger; its first is the pointerdown M9 pins). A place the ruleset no
 longer draws (no actions; no journey switches the ruleset after a roll). The Forward catalog still draws the old row
 (a design mock, §6.8).
+
+### v1.293.0, L3-R1: the orchestrator's rulings and the reader of PR #440 (18 Nov 2026)
+
+**The reader's two fixes.** (1) **The press that ends a look does that and nothing else.** On a phone it went on into
+the map's tap router: 8 of the reader's 9 taps in the visible map during a hold ended the live roll (seven staged a new
+roll or opened a technique at the node under the finger, the shown place included; one went to free roam), and the
+ninth declined the landing's question. At the look's framing nearly every point of a phone's map is inside some node's
+pick radius. `_lookEnd("map")` ran in `attachInput`'s pointerdown and the same press reached `end`; it is consumed
+there now (`closing`, the rule the drawer's closing tap already had, SIDE-R2 P1), and a pan begun with it still pans.
+My test had tapped a hand-picked empty point and asserted `paused === false` only: it could not see this. (2) **An
+open row that is folded away takes no key**: `_placeOpen` asked `isConnected`; a past roll folded again hides its rows
+without removing them, and Space ran Show on the map, Enter opened Master the game. It asks `offsetParent` now, as a
+deck's handle does. The reader's mutant of the scope (no test at all) had survived three tests.
+
+**T1's door, proved, and what proving it found.** A row that is not a position (a submission a roll passed through:
+574 decks, 287 attacking and 287 defending, 4,516 cards; the reader met one as the latest row in 16 of 16 runs) has
+"Show on the map" alone. Its cards: the board's own card where the roll stands; for another row, "Show on the map" and
+a press on the place, whose card asks that deck (a step on a row the roll no longer stands on; one press on a desktop,
+two on a phone, since the first only ends the look). Proving it at 390 wide found two things. **A pair's two orbs are
+drawn on one pixel at the look's framing** (0 px apart at 390, 14 to 28 px at 1440), and a press on a submission's place
+picked its DEFENDING half every time: a row about attacking opened the card about being caught. Taken for ruling
+(T7): while the place is named on the map and its halves are under 8 px apart, a press that picks the other half takes
+the named one. And **"Show on the map" from a Bottom row named the place TOP**: a position's key resolves to its top orb
+for both sides and a roll stands on that orb whichever side it plays; the row shows the orb that plays its side
+(`_seatMember`).
+
+**T2 is not zero.** No-gi does not draw 12 positions and 33 submissions that gi draws; gi draws everything
+(`node tests/artifacts/_last_rolls_places_count.mjs`, from the wire through the app's own decoder). A journey switches
+the ruleset after a roll (Spider Guard, top: two actions in gi, none in no-gi, two again in gi), and Last rolls is drawn
+again on the switch (an open row had kept its buttons).
+
+**T6 on dev's own road.** The reveal fault measured on dev v1.292.1's build from Master the game's own row: a place
+with nothing due, opened, its first card answered, left by the brand, opened again: the next card drawn with its answer
+on the screen beside its three options, 3 of 3; 0 of 3 on this build. It has a journey of its own on its common road
+("a place opened again never shows an answer before its question").
+
+**Built on the reader's other points.** R5: a row that cannot be pressed does not light under the pointer. R6: back by
+"‹ Master the game" the row it was pressed on is open again, where it was; a past roll's state brings its roll unfolded.
+R10: a row that opens with its actions cut by the panel's foot is brought whole into view by `_scrollFocusedDeck`'s
+smallest scroll; whole already, nothing moves. R4: the inventory says "narrower" (the row's deck was the place's whole
+deck, one press away; "Practise here" is two presses and the day's subset, bars first when moves are owed; the whole
+deck is the free review of a place with nothing due, every card but those the day asks elsewhere, and the board's own
+card, which pages its deck).
+
+**Checked on dev's build, not this PR's.** R8: with the drawer open on Last rolls the digit `1` plays the hand's first
+move and the roll runs with the drawer open, `_paneAutoPaused` still set: the same on dev v1.292.1 and here (1 of 1
+each). R9: the film's bar lies at y 248 to 292 over a list that runs from y 58 to 556 at 390x631, on both builds, so
+whatever row content falls there is covered. NOT BUILT, its size told first as ruled: "the list starts below the bar"
+leaves 190 px of empty list above a bar that sits mid-list; moving the bar to the list's top is about 15 lines in the
+bar's dock, the drawer's open and close and the bar's removal, plus two overrides of `!important` phone rules.
+
+**Ceilings.** The archive's, raised by exactly 50,000 (1,863,038 to 1,913,038) in its own commit that changes that one
+number (46059cebb). docs/Neural.md's, not raised: its Last rolls paragraph is three lines and carries the keys.
+
+**Bytes after L3-R1.** Eager gzip 375,822 B (+649 on dev v1.292.1; +2,349 of 5,000), first-hand core 395,319 B (+2,332
+of 6,000), deferred 548,718 B. neural.js 746,737, neural.css 59,519, gameplan.js 49,897.
+
+**Mutants, the last pass on the PR's head, 18 Nov 07:48 to 08:06:** two neutral controls green; 40 of 40 red at
+their named steps (M1 to M26 as above; M27 a place the ruleset does not draw still offers its actions; M28 no redraw
+on a ruleset switch; M29 a press on a place on the map opens nothing; M30 the reveal fix out; M31 the shown place's
+press takes whichever half it picks, red by touch and green by mouse as it should be; M32 the top orb shown for both
+sides; M33 the look-ending press goes on as a tap; M34 a row not laid out takes the keys; M35 `_placeOpen` with no
+scope; M36, M37 the way back opens no row, unfolds no past roll; M38 no scroll for a cut row; M39 the latest row's
+carry out; M40 a dead row lights under the pointer); the eight re-pointed tests red under their mutants, 8 of 8. A
+note on method: the first try of an earlier pass stopped at its first mutant because a later edit of mine had changed
+the text it anchored on; every row is now checked to apply before a pass, and a row that does not apply is reported
+and skipped, never the end of the run.
