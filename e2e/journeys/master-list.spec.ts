@@ -80,6 +80,9 @@ import { journey } from "../dsl"
  *         and "a place the day's goal cuts…" at "the press opens a card that is still owed, never an answered one"
  *   L1-R3d the save writes the list back as it was stored, non-strings and all (`_progressBlob`) → "a damaged explored boots…"
  *         at "and nothing that is not a place's key: the damaged entries are gone from the record"
+ *   BELTROW-a (v1.292.1) the repaint aimed at the first belt row in the page again (`_paintBeltRow`) → "the list's own belt row
+ *         prints the current number after a card's answer changed it" at "the list's own row prints the number as it is now,
+ *         not as it was when the page opened" (and master-cloze.spec.ts's twin, and a unit in tests/belt_row.test.mjs)
  *   L2-12a (L2, item 12) ↑ ↓ walk what the session already holds (`sessionNav` without `_masterKeyRow`) → "↑ lands on a card
  *         that is still owed…" and "↓ lands on a card that is still owed…" at "↑ (↓) opens a card that is not yet answered"
  * The list's own arithmetic (order, the other places, the lost count, the words) is tests/master_list.test.mjs (L1-1 to L1-11).
@@ -558,6 +561,67 @@ for (const touch of [true, false]) {
       expect(card && !card.today, "Keep practising opens a card that is still owed").toBe(true)
       await expect(page.locator(`[data-master-row="${cut!.seat}"] [data-master-prog]`), "and the figure agrees with the count").toHaveText("1/4")
       await clean(page, "Keep practising")
+    })
+
+    // v1.292.1 (BELTROW): THE LIST'S OWN BELT ROW PRINTS THE NUMBER AS IT IS NOW. After an answer in Master the game moved
+    // the number, the list button's reading was painted into the drawer's row (the first belt row in the page, hidden
+    // there) and Master the game's own row, on screen, kept the number from when the page opened (dev since v1.290.0).
+    // A player whose number moves by more than a whole point on ONE answer (the record is rigged, never the app): one
+    // card known for a year and due, in the deck where a miss costs most of six tried; answered "Review again".
+    test(`the list's own belt row prints the current number after a card's answer changed it (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      const DECKS = ["Back Control|Top", "Back Control|Bottom", "Mount|Top", "Side Control|Top", "Closed Guard|Bottom", "Half Guard|Bottom"]
+      const j = journey(page, CLASSIC)
+      await j.boot("/", { initialState: { v: 2, explored: DECKS } })
+      await expect.poll(() => page.evaluate(() => {
+        const a = (window as W).__neural
+        return !!(a && a.nodes && a.nodes.length && a.flashcards && a.flashcards.decks && Object.keys(a.flashcards.decks).length && a.curriculum)
+      }), { timeout: 60_000, message: "graph, deck manifest and curriculum in" }).toBe(true)
+      const rig = await page.evaluate(async (decks: string[]) => {
+        const a = (window as W).__neural, day = a._epochDay()
+        let best: W = null
+        for (const k of decks) {
+          if (!a.flashcards.decks[k]) continue
+          await a.hydrateDeck(k)
+          const c = (a._cardsOf(a.flashcards.decks[k]) || [])[0]; if (!c) continue
+          const qh = a.qhash(c.q)
+          a.srs = { [k]: { [qh]: [day - 1, 365, day - 366] } }; const known = a.rating().points
+          a.srs = { [k]: { [qh]: [day + 1, 1, day] } }; const missed = a.rating().points   // the row a miss leaves
+          if (typeof known === "number" && typeof missed === "number" && (!best || known - missed > best.dip)) best = { key: k, qh, dip: known - missed }
+        }
+        if (best) a.srs = { [best.key]: { [best.qh]: [day - 1, 365, day - 366] } }
+        if (a._bumpStageVer) a._bumpStageVer()
+        a._saveProgress(); a.setPaused(true)
+        return best
+      }, DECKS)
+      expect(rig && rig.dip > 1, `premise: a miss on this one card moves the number by more than a whole point (${rig && rig.dip.toFixed(3)} at ${rig && rig.key})`).toBe(true)
+      await j.knowsPlanMoves()   // the card is the subject: no cloze before it
+      // the two belt rows of the panel, and the number as the app holds it
+      const rows = () => page.evaluate(() => {
+        const a = (window as W).__neural, of = (sel: string) => { const el = document.querySelector(sel) as HTMLElement | null; return el ? { n: el.getAttribute("data-belt-number"), on: !!el.offsetParent && el.getClientRects().length > 0 } : null }
+        return { now: String(Math.floor(a.rating().points)), master: of("[data-master-top] [data-belt-number]"), drawer: of("[data-explore-stats] [data-belt-number]") }
+      })
+      await openMaster(page, touch)
+      await expect.poll(async () => (await rows()).master?.n, { timeout: 15_000, message: "premise: the list's own row prints a number" }).toMatch(/^\d{4}$/)
+      const open = await rows()
+      expect([open.master!.on, open.master!.n], "premise: as the page opens, the row on screen prints the current number").toEqual([true, open.now])
+      // the one due card, missed
+      const bar = "[data-master-dock] [data-master-bar]"
+      await press(page, "[data-master-start]", "the button", touch)
+      // (its QUESTION, whichever deck asks it: a question shared by sister decks is one obligation, asked at the plan's place)
+      await expect.poll(async () => { const c = await openCard(page); return !!c && c.qh === rig!.qh && !c.today }, { timeout: 15_000, message: "premise: the year-old card is open, not yet answered" }).toBe(true)
+      await press(page, `${bar} [data-mini-reveal]`, "Reveal", touch, false)
+      await press(page, `${bar} [data-mini-again]`, "Review again", touch, false)
+      await expect.poll(() => page.evaluate(({ key, qh }) => { const a = (window as W).__neural, r = a.srs[key] && a.srs[key][qh]; return !!(r && r[2] === a._epochDay()) }, { key: rig!.key, qh: rig!.qh }), { message: "premise: the card is answered (its own deck's row is today's)" }).toBe(true)
+      const after = await rows()
+      expect(Number(after.now), `premise: the number moved by a whole point or more (${open.now} → ${after.now})`).toBeLessThan(Number(open.now))
+      expect([after.master!.on, after.drawer ? after.drawer.on : false], "(with a place open neither belt row is on screen)").toEqual([false, false])
+      // back to the list: the row on screen reads the number as it is now
+      await press(page, "[data-master-list]", "back to the list", touch, false)
+      await expect.poll(async () => { const r = await rows(); return [r.master!.on, r.master!.n] }, { timeout: 15_000, message: "the list's own row prints the number as it is now, not as it was when the page opened" }).toEqual([true, after.now])
+      // and the drawer's own row, when the drawer's list is back
+      await press(page, "[data-drawer-back], .ng-drawer-back, [aria-label=\"Back to the sidebar\"]", "‹ Master the game (Back)", touch, false)
+      await expect.poll(async () => { const r = await rows(); return r.drawer ? [r.drawer.on, r.drawer.n] : null }, { timeout: 15_000, message: "the drawer's own row prints it too" }).toEqual([true, after.now])
+      await clean(page, "the belt row")
     })
 
     // L2 item 12 (the fourth read of PR #434, 18 of 18, and the orchestrator's ruling): ↑ ↓ are the keys' form of a tap on a
