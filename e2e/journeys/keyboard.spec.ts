@@ -231,6 +231,22 @@ test("keys never reach a deck on the tab you left", async ({ page }) => {
   await page.locator(".ng-logo").click()
   await expect(page.locator("[data-drawer-explore]")).toBeVisible()
   expect(await page.evaluate((r) => { const app = (window as any).__neural; return !!(app._miniReg && app._miniReg[r]) && app._focusRow === r }, histKey.focusRow), "premise: the handle of the deck we left is still registered").toBe(true)
+  // THE KEYS MUST BE ABLE TO REACH THE HANDLE, OR THIS JOURNEY CANNOT FAIL (found by its own mutant, 18 Nov: green under
+  // an unscoped `_focusedMini`). The press that reopened the drawer left the focus on the logo, a button, and Space and ⏎ on
+  // a focused button are the button's own (the app's guard returns before any deck is looked up). The player this journey
+  // is about has the focus nowhere: they press a part of the drawer that is no control, and then the keys.
+  const spot = await page.evaluate(() => {
+    const p = document.querySelector(".ng-drill")!.getBoundingClientRect()
+    for (let y = p.top + 6; y < p.bottom - 6; y += 9) for (let x = p.left + 3; x < p.right - 3; x += 11) {
+      const el = document.elementFromPoint(x, y) as HTMLElement | null
+      if (el && el.closest(".ng-drill") && !el.closest("button,summary,a[href],select,input,textarea,[role='button'],[contenteditable],[tabindex]")) return { x, y }
+    }
+    return null
+  })
+  expect(spot, "premise: a part of the drawer that is no control").not.toBeNull()
+  await page.mouse.click(spot!.x, spot!.y)
+  expect(await page.evaluate(() => document.activeElement === document.body), "premise: the focus is on no control").toBe(true)
+  await expect(page.locator("[data-drawer-explore]"), "premise: the drawer still shows its list").toBeVisible()
   await page.keyboard.press("ArrowRight")
   await page.keyboard.press("Space")
   await page.keyboard.press("Enter")
