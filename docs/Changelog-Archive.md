@@ -20346,17 +20346,31 @@ film's put-away hand was still live (a card's buttons keep `pointer-events:auto`
 `pointer-events:none`): a touch on a dim card's title played the move and ended the film (390x844, 390x631, 1 of 1
 each). Put away now means not in play.
 
-**Named for ruling:** the digits 6 to 9 of a long hand no longer play cards scrolled out of the row's view at 1440; a
-press on a dim card no longer ends a film; while the drawer is the screen no key plays a card even if its middle shows
-in the strip.
+**Ruled (FOLLOW2-R0).** I had built "a digit whose card is scrolled out of the row plays nothing"; that is right about
+seeing but takes away a keyboard player's road to the sixth card and on. As ruled: such a digit brings its card whole
+into the row's view and marks it (the keyboard's own focus on the card's play button, the outline it already draws),
+playing nothing; the same digit again, the card now seen, plays it; one press when the card is in view, as ever. Only
+for a card the row's own scroll has put out of view: a card under the drawer, a menu or a modal stays refused and is
+not moved. The mark lasts as long as a focus does (another key, a pointer, the hand dealt again). Accepted as built: a
+film's put-away hand is not in play for any road; while the drawer is the screen no key plays a card, even one whose
+middle shows in the strip.
 
-**Found, not built.** A list scrolled to its very end when a film stops: the list gets the bar's 52 px back with nothing
-below to fill it, and the rows move down 52 px (Last rolls, 14 past rolls, scroll 277 of 277, the bar's ✕: 1 of 1).
-PR #441's rule in a corner its journeys do not reach.
+**Found, and ruled out of this PR.** A list scrolled to its very end when a film stops: the list gets the bar's 52 px
+back with nothing below to fill it, and the rows move down 52 px (Last rolls, 14 past rolls, scroll 277 of 277, the
+bar's ✕: 1 of 1). PR #441's rule in a corner its journeys do not reach; four more lifters are more state than the
+corner earns today. Named under "Not covered"; its own job if it shows up in use.
 
-**Bytes.** Eager gzip 376,491 B (+330 on v1.293.1; +3,018 of 5,000), first-hand core 396,002 B (+3,015 of 6,000), deferred
-548,649 B (-69: the reader's copy of the guard is gone). **Mutants, 13:27 to 13:30:** a control green (46 tests); G1 the clamp out, G2 the clamp with no air, D1 the
-home view does not show the door, R1 a key plays its card wherever it is, R2 a press on the hand in the sliver goes on
-to the card, R3 the drawer being the screen is no bar to a key, R4 a film's put-away hand still in play, R5 Enter on a
-focused card taken for a press, R6 the reader begins play before the question is asked: 9 of 9 red at their
-named steps.
+**Two things measured on the way that a later reader of these journeys should know.** A touch within a few px of a
+control is the control's: with `isMobile` Chromium retargets a tap to a nearby clickable, and a first probe that tapped
+6 px from the drawer's edge reported "a touch on the map's sliver does nothing" (it had gone to a button). And `flow`
+files a played move under an id drawn afresh for every visit, so two visits' records differ in that key alone: they are
+compared by what is filed.
+
+**Bytes.** Eager gzip 376,716 B (+555 on v1.293.2; +3,243 of 5,000), first-hand core 396,212 B (+3,225 of 6,000), deferred
+548,649 B (-69: the reader's copy of the guard is gone). **Mutants, 14:43 to 14:49:** a control green (48 tests); G1 the
+clamp out, G2 the clamp with no air, D1 the home view does not show the door, R1 a key plays its card wherever it is
+(the first press plays), R2 a press on the hand in the sliver goes on to the card, R3 the drawer being the screen is no
+bar to a key, R4 a film's put-away hand still in play, R5 Enter on a focused card taken for a press, R6 the reader
+begins play before the question is asked, R7 the key marks its card and does not bring it into view, R8 it brings it
+into view and does not mark it, R9 a card under the drawer taken for one scrolled out of the row, R10 the same digit
+again does nothing: 13 of 13 red at their named steps.
