@@ -69,6 +69,12 @@ import { journey } from "../dsl"
  *   M28 Last rolls is not drawn again when the ruleset is switched (`setGiMode`) → the same step
  *   M29 a press on a place on the map opens nothing (the tap's `stageRollAt`: existing code, the door T1 names) → "a
  *       submission a roll passed through…" at "a press on the place opens its card, and the card asks that deck"
+ *   M31 a press on the place the map is showing takes whichever half it picks (the tap's routing, T7) → "a submission a
+ *       roll passed through… (touch)" at "a press on the place opens its card, and the card asks that deck" (at 390 the two
+ *       halves are drawn on the same pixel, and the press picked the defending one; at 1440 they are 14 px apart, so the
+ *       mouse variant stays green under it, as it should)
+ *   M32 Show on the map shows the key's own orb, the top one for both sides (`_histRow`'s `own`) → "Show on the map names
+ *       the side the row is about" at "the map names Mount on the side the row is about: its bottom orb"
  *   M30 a deck's remembered reveal is kept for whatever card is at its index (`_miniDeck`, the fix of T6) → "a place opened
  *       again never shows an answer before its question" at "its answer is not on the screen before it is asked"
  * NOT COVERED HERE, and what to check by hand: a pinch (two real fingers; Playwright sends one), whose first finger is the
@@ -368,6 +374,38 @@ for (const touch of [false, true]) {
         await j.advance(800)
         expect(await named(page, "Mount|Top"), "after a pan of the map the name is gone").toBe(false)
       } else expect(s, "on a phone the drawer shuts and the clock is held: a look, not a return to play").toMatchObject({ drawer: false, paused: true, look: true, pane: false })
+    })
+
+    // L3-R1: a position's key resolves to its TOP orb for both of its sides, so from a Bottom row the map named the place
+    // "TOP". The row shows the half the roll stood on. Made on a row the roll no longer stands on: where it stands, the map
+    // names its seat anyway.
+    test(`Show on the map names the side the row is about (${who})`, async ({ page }) => {
+      const j = journey(page)
+      await j.boot("/")
+      await j.land("Mount Top")
+      for (const [t, v] of [["ai-skill", 0.5], ["role", 0], ["max-moves", 0.5]] as const) await j.rig(t, [v])
+      // a roll from Mount on the BOTTOM (the app's own "roll from here, bottom"), then one move on
+      await page.evaluate(() => { const a = (window as W).__neural; a.rollFromPosition(a.nodeForKey("Mount|Top"), false, "bottom") })
+      for (let i = 0; i < 40; i++) { await j.advance(500); if (await page.evaluate(() => { const a = (window as W).__neural; return (a.rollLog || []).length === 1 && a.rollLog[0].key === "Mount|Bottom" && (a.optionIdxs || []).length > 0 })) break }
+      const t = await page.evaluate(() => { const a = (window as W).__neural; for (const i of a.optionIdxs || []) if (a.nodes[i].ty === "transitions") return a.nodes[i].t as string; return a.nodes[a.optionIdxs[0]].t as string })
+      await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01])
+      await j.pick(t)
+      await j.nextHand()
+      const log = await page.evaluate(() => { const a = (window as W).__neural; return a.rollLog.map((h: W) => ({ key: h.key as string, role: a.nodes[h.idx].role as string, idx: h.idx as number })) })
+      expect(log[0], "premise: the roll began at Mount on the bottom, on Mount's bottom orb").toMatchObject({ key: "Mount|Bottom", role: "bottom" })
+      expect(log.length, "premise: and has moved on, so Mount is not where it stands").toBeGreaterThan(1)
+      expect(log[log.length - 1].key, "premise: it stands somewhere else").not.toBe("Mount|Bottom")
+      await openLastRolls(page, touch)
+      await press(page, row("Mount|Bottom"), "the row of Mount, bottom", touch)
+      await press(page, `${row("Mount|Bottom")} + .ng-hact [data-hist-show]`, "Show on the map", touch)
+      for (let i = 0; i < 30 && !framed(await onScreen(page, "Mount|Bottom")); i++) await j.advance(200)
+      await j.advance(200)
+      const label = await page.evaluate((own) => {
+        const a = (window as W).__neural, n = a.nodes[own]
+        const l = [a._lastPairLabel, a._lastHoverLabel].find((x: W) => !!x && (x.idx === own || x.idx === n.pi))
+        return l ? { idx: l.idx as number, role: a.nodes[l.idx].role as string } : null
+      }, log[0].idx)
+      expect(label, "the map names Mount on the side the row is about: its bottom orb").toEqual({ idx: log[0].idx, role: "bottom" })
     })
 
     test(`a submission a roll passed through has Show on the map alone (${who})`, async ({ page }) => {

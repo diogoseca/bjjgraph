@@ -5336,7 +5336,11 @@ class Component extends DCLogic {
       const play = r.querySelector(".hplay"); // null on the CURRENT row (v1.134.0): the live board takes no transport action
       // the place's node, by its key (the node both of a position's sides answer to, `nodeForKey`); the two actions it can take
       const ni = this.nodeForKey(h.key), drawn = ni >= 0 && this.rsAllowsIdx(ni);
-      const show = drawn ? () => this._showPlace(ni) : null;
+      // ...and THE HALF THE ROW IS ABOUT (L3-R1): a position's key resolves to its top orb for both of its sides, so "Show on
+      // the map" from a Bottom row named the place TOP. The log holds the half the roll stood on (`h.idx`); it is used while
+      // it is still that place's orb or its other half, else the key's own node
+      const own = this.nodes[h.idx] && (h.idx === ni || this.nodes[h.idx].pi === ni) ? h.idx : ni;
+      const show = drawn ? () => this._showPlace(own) : null;
       const go = drawn && this.nodes[ni].ty === "positions" ? () => this.openMasterAt(h.key, "lastrolls") : null;
       const closeSelf = () => { detail.style.display = "none"; if (this._openRow === rid) this._openRow = null; if (this._focusRow === rid) this._focusRow = null; if (this._openMini && this._openMini.rid === rid) this._openMini = null; };
       const openD = () => {
@@ -22312,6 +22316,14 @@ class Component extends DCLogic {
             // "when i click some other positions … i see the choices row but not the MC landcard".
             //
             // (v1.134.0: the stand-down latch is gone — a background tap CLOSES, a node tap stages)
+            // THE PLACE THE MAP IS SHOWING IS PRESSED AS NAMED (L3-R1, T7, taken for ruling). "Show on the map" names one half
+            // of a pair ("ATTACKER · Kimura"), and at the look's zoom on a phone the two halves are drawn on the same
+            // pixel: measured at 390 wide, a press on a submission's place picked its DEFENDING half every time, so a row
+            // about attacking opened the card about being caught. While that name is on the map (`_shownNode`) and the two
+            // halves are under 8 px apart on screen, a press that picks the other half takes the named one. Further apart
+            // (14 to 28 px at 1440) the two orbs can be told apart, and the half pressed is the half meant, as everywhere.
+            const sh = this._shownNode(), op = sh && sh.pi >= 0 && this._hover.idx === sh.pi ? this.nodes[sh.pi] : null, ly = this._LY || ((q) => q.y);
+            if (op && Math.hypot(sh.x - op.x, ly(sh) - ly(op)) * this.W / this.cam.vw < 8) this._hover.idx = sh.idx;
             const hitNode = this.nodes[this._hover.idx];
             if (e.type === "pointerup") this._trackExplore(this._hover.idx, "graph");
             if (this._hover.idx === this.currentPos) this.openDossier(this._hover.idx);
