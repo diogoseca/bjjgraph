@@ -477,8 +477,8 @@ for (const touch of [false, true]) {
       expect(await page.evaluate(() => (window as W).__neural.get("mcMode")), "the choice is stored").toBe("auto")
       await press(page, ".ng-modal .x", "close Settings", touch)
       await j.knowsPlanMoves()   // Auto asks a place's moves before its cards (L2); this step is about the card
-      await press(page, "[data-hist-current]", "this roll's row", touch)
-      await press(page, "[data-hist-go]", "Practise here", touch)
+      // (the way back opened the row it was pressed on, R6: its Practise here is there to press)
+      await press(page, "[data-hist-current] + .ng-hact [data-hist-go]", "Practise here, again", touch)
       await expect(page.locator("[data-mini-q]:visible"), "the place's next card is up").toHaveCount(1, { timeout: 20_000 })
       expect(await page.evaluate((qh) => { const a = (window as W).__neural, el = a._openMini && a._openMini.el.querySelector("[data-mini-q]"); const c = (a._cardsOf(a.flashcards.decks[a._session.keys[a._session.idx]]) || []).find((x: W) => { const d = document.createElement("div"); d.innerHTML = x.q; return d.textContent === el.textContent }); return !!c && a.qhash(c.q) !== qh }, live!.qh),
         "premise: it is another card than the one just answered").toBe(true)

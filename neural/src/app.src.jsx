@@ -5341,10 +5341,10 @@ class Component extends DCLogic {
       const play = r.querySelector(".hplay"); // null on the CURRENT row (v1.134.0): the live board takes no transport action
       // the place's node, by its key (the node both of a position's sides answer to, `nodeForKey`); the two actions it can take
       const ni = this.nodeForKey(h.key), drawn = ni >= 0 && this.rsAllowsIdx(ni);
-      // ...and THE HALF THE ROW IS ABOUT (L3-R1): a position's key resolves to its top orb for both of its sides, so "Show on
-      // the map" from a Bottom row named the place TOP. The log holds the half the roll stood on (`h.idx`); it is used while
-      // it is still that place's orb or its other half, else the key's own node
-      const own = this.nodes[h.idx] && (h.idx === ni || this.nodes[h.idx].pi === ni) ? h.idx : ni;
+      // ...and THE HALF THE ROW IS ABOUT (L3-R1): a position's key resolves to its top orb for both of its sides, and a roll
+      // stands on that orb whichever side it plays (the side is the row's `role`), so "Show on the map" from a Bottom row named
+      // the place TOP. `_seatMember` is the one seam for "the orb that plays this side" (a technique's key is its own half)
+      const own = this._seatMember(ni, /bottom/i.test(h.role || "") ? "bottom" : "top");
       const show = drawn ? () => this._showPlace(own) : null;
       // (R6: the row is remembered, so "‹ Master the game" comes back to it open and where it was: `renderDrillHome`)
       const go = drawn && this.nodes[ni].ty === "positions" ? () => { const l = this.drillListRef.current; this._histBack = { rid, y: l ? l.scrollTop : 0 }; this.openMasterAt(h.key, "lastrolls"); } : null;

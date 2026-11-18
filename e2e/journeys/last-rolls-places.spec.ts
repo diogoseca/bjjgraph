@@ -345,8 +345,8 @@ for (const touch of [false, true]) {
       await expect.poll(() => page.evaluate(({ key, qh }) => { const a = (window as W).__neural; return !!(a.srs[key] && a.srs[key][qh]) }, first), { message: "premise: it is answered" }).toBe(true)
       expect(await page.evaluate((k) => (window as W).__neural._deckState[k], first.key), "premise: the deck remembers its first place as answered and revealed").toMatchObject({ idx: 0, revealed: true })
       await press(page, ".ng-drawer-brand", "‹ Master the game", touch)
-      await press(page, row("Mount|Top"), "the row of Mount, top, again", touch)
-      await press(page, "[data-hist-go]", "Practise here, again", touch)
+      // (the way back opens the row it was pressed on, R6: its Practise here is there to press)
+      await press(page, `${row("Mount|Top")} + .ng-hact [data-hist-go]`, "Practise here, again", touch)
       await expect(page.locator(open + " [data-practice-mc-opt]"), "the place opens on a card not yet answered, asked as a new card is").toHaveCount(3, { timeout: 30_000 })
       expect(await page.evaluate(() => (window as W).__neural._mc.qhash), "premise: another card than the one answered").not.toBe(first.qh)
       await expect(page.locator(".ng-drill [data-mini-a]"), "its answer is not on the screen before it is asked").toHaveCount(0)
@@ -385,8 +385,7 @@ for (const touch of [false, true]) {
       // the same press for a player who asked for multiple choice everywhere: cards only
       await page.evaluate(() => (window as W).__neural.set("mcMode", "mc"))
       await press(page, ".ng-drawer-brand", "‹ Master the game", touch)
-      await press(page, row(keys[0]), "the row of Mount, top", touch)
-      await press(page, "[data-hist-go]", "Practise here", touch)
+      await press(page, `${row(keys[0])} + .ng-hact [data-hist-go]`, "Practise here, on the row the way back opened", touch)
       await expect(page.locator("[data-mini-q]:visible"), "Multiple choice: its card").toHaveCount(1, { timeout: 30_000 })
       await expect(page.locator("[data-cloze]:visible"), "and no cloze").toHaveCount(0)
     })
@@ -437,9 +436,12 @@ for (const touch of [false, true]) {
       await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01])
       await j.pick(t)
       await j.nextHand()
-      const log = await page.evaluate(() => { const a = (window as W).__neural; return a.rollLog.map((h: W) => ({ key: h.key as string, role: a.nodes[h.idx].role as string, idx: h.idx as number })) })
-      expect(log[0], "premise: the roll began at Mount on the bottom, on Mount's bottom orb").toMatchObject({ key: "Mount|Bottom", role: "bottom" })
+      const log = await page.evaluate(() => { const a = (window as W).__neural; return a.rollLog.map((h: W) => ({ key: h.key as string, role: h.role as string })) })
+      expect(log[0], "premise: the roll began at Mount on the bottom").toEqual({ key: "Mount|Bottom", role: "Bottom" })
       expect(log.length, "premise: and has moved on, so Mount is not where it stands").toBeGreaterThan(1)
+      // Mount's two orbs, from the map's own data: the key answers to one of them for both sides; the other is its pair
+      const orbs = await page.evaluate(() => { const a = (window as W).__neural, n = a.nodes[a.nodeForKey("Mount|Bottom")], p = a.nodes[n.pi]; return Object.fromEntries([n, p].map((x: W) => [x.role, x.idx])) as Record<string, number> })
+      expect(Object.keys(orbs).sort(), "premise: Mount is drawn as a top orb and a bottom orb").toEqual(["bottom", "top"])
       expect(log[log.length - 1].key, "premise: it stands somewhere else").not.toBe("Mount|Bottom")
       await openLastRolls(page, touch)
       await press(page, row("Mount|Bottom"), "the row of Mount, bottom", touch)
@@ -450,8 +452,8 @@ for (const touch of [false, true]) {
         const a = (window as W).__neural, n = a.nodes[own]
         const l = [a._lastPairLabel, a._lastHoverLabel].find((x: W) => !!x && (x.idx === own || x.idx === n.pi))
         return l ? { idx: l.idx as number, role: a.nodes[l.idx].role as string } : null
-      }, log[0].idx)
-      expect(label, "the map names Mount on the side the row is about: its bottom orb").toEqual({ idx: log[0].idx, role: "bottom" })
+      }, orbs.bottom)
+      expect(label, "the map names Mount on the side the row is about: its bottom orb").toEqual({ idx: orbs.bottom, role: "bottom" })
     })
 
     test(`a submission a roll passed through has Show on the map alone (${who})`, async ({ page }) => {
@@ -544,7 +546,8 @@ for (const touch of [false, true]) {
       await expect(page.locator("[data-hist-show], [data-hist-go]"), "no actions on a place this ruleset does not draw").toHaveCount(0)
       await press(page, R, "its row, in no-gi", touch)
       // R5: a row a press does nothing on does not light under the pointer either (and it does once it can be pressed)
-      const lit = async () => { const b = (await page.locator(R).boundingBox())!; await page.mouse.move(4, 4); await page.mouse.move(b.x + b.width / 2, b.y + b.height / 2, { steps: 3 }); return page.locator(R).evaluate((e) => getComputedStyle(e).backgroundColor) }
+      // (the light fades in over 120 ms: read once it has settled)
+      const lit = async () => { const b = (await page.locator(R).boundingBox())!; await page.mouse.move(4, 4); await page.mouse.move(b.x + b.width / 2, b.y + b.height / 2, { steps: 3 }); await page.waitForTimeout(300); return page.locator(R).evaluate((e) => getComputedStyle(e).backgroundColor) }
       if (!touch) expect(await lit(), "under the pointer it does not light: there is nothing to press").toBe("rgba(0, 0, 0, 0)")
       await page.keyboard.press("Enter"); await page.keyboard.press("Space")
       await expect(page.locator("[data-hist-show], [data-hist-go]"), "and neither a press nor a key opens any").toHaveCount(0)
