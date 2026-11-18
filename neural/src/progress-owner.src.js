@@ -997,6 +997,41 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       mine.set(key, set);
       return ids;
     },
+    // L2 (v1.292.0): AN UNDO TAKES ITS ANSWERS BACK OUT, by their ids, so no later merge gives an undone answer again
+    // (`ngProgressReplay` would rebuild it on the other copy's row). Only entries still here: a delivered one is gone, the
+    // cloud holds its row, and the app keeps the push waiting while an Undo is offered so that does not happen
+    // (app.src.jsx, `_undoHold`). The entries left are exactly the ones that were there; the id counter `n` only moves
+    // forward (an id is never given twice). Returns how many left.
+    // L2-R1 (the reader of PR #438, findings 1 and j): AND THE JOURNAL IS PUT BACK WHOLE. `mark` is the journal as it was
+    // stored before the confirm (`journalMark`: the text, or null when there was no key). When the entries left are
+    // exactly the mark's, the mark itself goes back: no key where there was none (the first Done of a browser made it),
+    // else the same text, its counter included. Ids come from the clock (`journal`), and the ids taken back were never
+    // delivered (the push waits while an Undo is offered), so a counter put back hands out nothing a cloud has seen.
+    // When another writer added an entry meanwhile, the mark no longer describes the journal: the entries are filtered
+    // and the counter stays where it is.
+    unjournal(inst, ids, mark) {
+      if (!host.current(inst) || !Array.isArray(ids) || !ids.length) return 0;
+      const owner = inst._progressOwner, j = readJournal(owner), gone = new Set(ids);
+      if (!j) return 0;
+      const e = j.e.filter(x => !gone.has(x[0])), n = j.e.length - e.length;
+      if (!n) return 0;
+      j.e = e;
+      let whole = false;
+      if (mark === null && !e.length) { try { storage.removeItem(journalKey(owner)); whole = true; } catch { whole = false; } }
+      else if (typeof mark === "string") {
+        const was = (() => { try { return ngProgressJournalParse(mark); } catch { return null; } })();
+        if (was && JSON.stringify(was.e) === JSON.stringify(e)) { try { storage.setItem(journalKey(owner), mark); whole = true; } catch { whole = false; } }
+      }
+      if (!whole && !writeJournal(owner, j)) return 0;
+      const set = mine.get(ngProgressOwnerId(owner));
+      if (set) for (const id of ids) set.delete(id);
+      return n;
+    },
+    // the journal as it is stored now: its text, or null when there is no key (undefined: it cannot be read)
+    journalMark(inst) {
+      if (!host.current(inst)) return undefined;
+      try { return storage.getItem(journalKey(inst._progressOwner)); } catch { return undefined; }
+    },
     // AT A PULL: `next` is the pull's merge of this copy with `cloud`. The journal's cards the cloud holds are rebuilt on
     // the cloud's rows from the entries made on or after its row's last answer; entries the cloud already holds are
     // delivered, and entries older than its last answer superseded (NEXT2-R1): both leave the journal; the rebuilt ones

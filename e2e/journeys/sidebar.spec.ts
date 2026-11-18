@@ -200,6 +200,7 @@ test("the badge shows today's cards and rolls before it is opened, a real grade 
   await expect(today, "today, on the badge, unopened").toHaveText("Today: 3 of 20 cards · 1 roll")
   expect(await page.evaluate(() => document.querySelector(".ng-account-menu")!.getAttribute("data-open")), "the menu is shut").toBeNull()
   // Practice: grade the owed review, then come home by the brand
+  await j.knowsPlanMoves()   // L2 (v1.292.0): a place's moves come before its cards; this journey is about the cards
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice")
   await j.startMaster()   // L1 (v1.290.0): the list's button opens the day's first card, as the row did by itself before
   await pressDeck(page, j, "[data-master-bar] [data-mini-reveal]", "Reveal")   // the pane chose the row; the mouse is measured
@@ -241,6 +242,8 @@ test("@curated Practice and Last rolls open their views, and the brand leads bac
   await expect(page.locator(".ng-drawer-brand")).toHaveText("‹ Last rolls")
   await expect(page.locator("[data-hist-empty]")).toBeVisible()
   await j.clickByMouse(".ng-drawer-brand", "‹ Last rolls, home")
+
+  await j.knowsPlanMoves()   // L2 (v1.292.0): a place's moves come before its cards; this journey is about the cards
 
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice")
   // titled by what it holds: the compact head carries the belt, so the owed reviews head the card
@@ -461,6 +464,7 @@ test.describe("phone 390x844", () => {
       a.srs = { [key]: { [a.qhash(a._cardsOf(a.flashcards.decks[key])[0].q)]: [day - 1, 3, day - 4] } }
     })
     await openDrawer(j, page)
+      await j.knowsPlanMoves()   // L2 (v1.292.0): a place's moves come before its cards; this journey is about the cards
       await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice")
     await j.startMaster()   // L1 (v1.290.0): the list's button opens the day's first card, as the row did by itself before
     // L1-R0: the open card's deck row is not drawn when it only repeats its place, so the open session shows by its card

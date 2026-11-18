@@ -406,7 +406,10 @@ function __mountNeuralOnce() {
   return (window).__neural
 }
 const __progressHost = ngProgressCreateHost({
-  storage: { getItem: key => localStorage.getItem(key), setItem: (key, value) => localStorage.setItem(key, value) },
+  // removeItem (L2-R1, v1.292.0): an Undo of the confirm that made a browser's first journal takes that key away again
+  // (the owner host's unjournal). Found by master-cloze.spec.ts on the built page: the unit's storage had it, this one
+  // did not, and the owner host fell back to leaving the key behind, empty.
+  storage: { getItem: key => localStorage.getItem(key), setItem: (key, value) => localStorage.setItem(key, value), removeItem: key => localStorage.removeItem(key) },
   resolveUser: async () => {
     const auth = window.__bjjAuth
     if (!auth) {

@@ -19916,3 +19916,77 @@ held the rewording (all 127 rows and 37 cards, no added fact) and found the gate
   commit (no row moved; they equal dev's), no new capture.
 - Local runs on the final tree: `ci:validate`, 26 of 26 steps and 1,789 of 1,789 units; 25 journey files that render a
   touched surface, 306 of 306; 5 generated spec files, 6 of 6.
+
+## v1.292.0 — The cloze: a position's moves, asked in Master the game (L2; the owner's U198, U200, U201 b, U204 a, 17 Nov 2026)
+
+**What.** Master the game asks a place's moves before its cards, in the list, as a cloze. The plan chooses them (S0's
+law, PR #431: the due ones, at most six a visit; up to two new ones where none is due) and hands them to the page
+(`plan.moves`, `moveSeats`); never on "Multiple choice" (`_asksMoves`, U194 a: that player's plan is the cards' until
+the pick form, L4). The place opens on one blank bar a move ("Six moves start here. Say each one to yourself, then
+Show."), the moves you hold and do not owe in sight in gold. **Show** names each move by its own name (`graphName`: no
+"from <position>" tail under that position's row; its full title only where that is also the name of its finish) and
+says under it where it takes you (`ngClozeLeadsOf`, the seam L2b's map will read): the likeliest success outcome as the
+place and its side's tag, a finish as its triangle and its name with no role, a second place only from 25%; the line
+fades in 180 ms, 120 ms after the name, not at all under reduced motion; what gives way on a narrow row is the second
+place's role, then the second place, never the first. "Had it?" marks a row. **Hide** puts the bars back and writes
+nothing (a view, never a grade; the taps are kept). **Done** writes one row a move, once a day, through the one writer
+(`_gradeMoves`, which a roll's hidden card now also uses: the row, the journal line, ONE revision, ONE republish, ONE
+save); a "did not" stores what a hidden move's No stores, and on a move you knew it can lower the NUMBER exactly as a
+roll's No does (a belt and its stripes never go down: the owner's rule; L2-R1). Each asked move is one of the
+day's 20 (`practiceToday` adds `_movesToday`, the plan's own rule), on the page and on the drawer's badge. **Undo** on
+the result line takes the last confirm back exactly: every cell as it was (a cell or a state that was not there is gone
+again) and the answers out of the undelivered-answers journal (`unjournal`); the cloud push waits while it is offered
+(`_undoHold`), because a row the cloud holds beats the older row an Undo restores; it is refused once another tab or a
+pull has rebuilt a row. Until the next confirm or until the place is left.
+
+**The map does not give it away (ruling 7).** While a cloze is open and not shown, the hand is face down whole, a look
+does not turn a card up, and the frame draws no name, hover label or gold mark on one of its hidden moves (`_czDown`,
+`_czHand`). After Show the map is as it is today.
+
+**Entering a place.** Its row's press opens its cloze (`_masterGo`); so do the two ways that land on a deck without a
+press on the row, ↑ ↓ and the walk after a deck's last answer (`_czEnter`). ‹ › step ask by ask across clozes and cards
+(`ngClozeStops`) and are off, with the arrow keys, between Show and Done. A row that says "N due" asks what it counts
+at each press: at a goal of 20 the plan takes two of a third place's six, and the row's next press asks the other four
+as a new cloze. **Item 12 (the fourth read of PR #434, 18 of 18, ruled):** ↑ ↓ are the keys' form of a tap on a row; a
+deck all answered whose place owes more than the session holds takes what it owes first (`_masterKeyRow`, the step the
+row's press takes), so the key lands on a card that is still owed; never inside the opener (a session drawn again and
+the walk pass through it).
+
+**What the build does that the drawings do not say.** A move that is itself a submission wears the map's triangle at
+the left of its row, as the place's gold marks do. The foot's Hide is 54 px (72 in the drawing): the real foot bar is
+294 px between its edges and "Done 4 had" was cut. The day's words after Done get the room they measure ("again on
+Wednesday" is 107 px; the spec's 92 is the floor). The page gives every button a 44 px minimum height: the Undo is a
+word in its line, its reach is its own 46 px.
+
+**Found on the way.** The first screens showed the result line 33 px tall (that 44 px minimum on the Undo). The cloze's
+first journey expected six rows at every place: at a goal of 20 the third place gets two, which is the rule above, now
+its own journey. `docs/Neural.md` had 0 characters spare: one sentence went in by evicting a sentence L1 made stale,
+two names L1 retired and one version tag.
+
+**Bytes.** The cloze is `neural/src/master-cloze.src.js`, in the deferred gameplan.js. Both style sheets (the cloze's
+and the list's) ship with no space a browser does not need: the build strips comments, not a string's own spaces.
+
+**L2-R1 (the reader of PR #438: MERGE AFTER 4 fixes; and the orchestrator's rulings, 18 Nov).** The core held on CI's
+build by real input (a cloze's rows equal a roll's field by field; nothing written before Done in 28 whole-storage
+snapshots; the day's count right at nine readings; the map gave nothing away in 24 of 24). (1) **Undo is exact at a
+place that had no stored moves:** `_gradeMoves` read "the seat existed" per answer, so the second answer of a confirm
+at a new seat found the seat the first had made and its Undo left `"108/top":{}` behind (2 of 2). Decided once, before
+the loop. And the journal goes back whole (`journalMark`, `unjournal`'s third argument): no key where the confirm made
+the first, the same text, counter included, where one was there. What "exactly" leaves out is said and is two times
+(the record's `updatedAt`, the envelope's `savedAt`); the rest is compared whole, in units and on the page. (2) **The
+push's hold has its tests, and can never be outrun:** the real `_pushCloud` against a counting cloud that holds a
+record (no push while an Undo is offered; one after it ends, holding the rows; a confirm undone never reaches the
+cloud). Ruled: when the hold ends for ANY reason the Undo is withdrawn first (`_undoEnd`: the hidden tab, where the
+hold used to lapse with the Undo still on the line; the drawer shut; another session; the next confirm; the place
+left), so a confirm can never be sent and then undone here. (3) **Nothing moves under the finger at the first "Had
+it?":** the small line over the rows was two lines only while nothing was tapped (15.2 px); it is one sentence for
+both states. (4) **Undo's reach is at least 44 px each way** (it measured 39 tall: the first row lay over its lower 8 px;
+it stands above the row now), measured at its edges by `elementFromPoint` at both sizes. (5) **A control position is a place, not a finish:** the rule is the outcome's node. A position is drawn
+with its side's tag, the position a submission is held from included (59 dealt leads in gi, 52 in no-gi); only a
+real submission wears the triangle. (6) **The map says what it is doing while a cloze is hidden:** the hand's title
+reads "Your moves · face down while you answer" in the switch's place, with nothing to press (the switch wrote its
+setting while no card moved), and a card held down wears no badge ("Hover to reveal" offered what a hover could not
+give). (7) **One sentence of the brief was wrong and is corrected everywhere:** a "did not" on a move you knew can
+lower the number, as a roll's No does (the reader: 1003.47 → 1002.28); a belt and its stripes never go down, and Undo
+restores the number exactly (a unit). (8) My note "no gi hand holds such a cell" was wrong: in gi 11 seats deal 18
+moves the gi game does not price; the cloze builder's own guard is reached there, and now has a journey and a mutant.

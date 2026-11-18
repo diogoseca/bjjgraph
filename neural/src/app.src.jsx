@@ -1078,7 +1078,7 @@ class Component extends DCLogic {
         // techniques and between flashcards"). Same shape as the History-home branch above and
         // the same `_focusedMini` handle — ←/→ page the open deck's cards, ↑/↓ walk the queue.
         e.preventDefault();
-        if (e.key === "ArrowUp" || e.key === "ArrowDown") this.sessionNav(e.key === "ArrowDown" ? 1 : -1);
+        if (e.key === "ArrowUp" || e.key === "ArrowDown") this.sessionNav(e.key === "ArrowDown" ? 1 : -1, true);
         else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (!typing && this.isDrillOpen() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         e.preventDefault();
@@ -2995,8 +2995,9 @@ class Component extends DCLogic {
   // turned up to be asked or not). A face-down card LOOKED AT (a hover, a tap, a move staged from the map: `_hmLit`) keeps no
   // seal, so its orb keeps no mark; its NAME shows, as the card being asked does, so the labels keep the lit set.
   _hmDownSet(face) {
-    if (!(this.optionIdxs && this.optionIdxs.length && this._hideMoves())) return null;
-    const down = new Set(), lit = new Set(face ? [] : this._hmLit || []);
+    const cz = this._czDown();   // an open cloze's hidden moves (L2): never named, never marked, whatever a look lit
+    if (!(this.optionIdxs && this.optionIdxs.length && this._hideMoves())) return cz;
+    const down = new Set(cz || []), lit = new Set(face ? [] : this._hmLit || []);
     for (const oc of this._optionCards || []) if (oc.card && !oc.card.hasAttribute("data-hide")) { lit.add(oc.opt.idx); if (oc.opt.res != null) lit.add(oc.opt.res); }
     for (const i of this.optionIdxs) if (!lit.has(i)) { down.add(i); const q = this.nodes[i]; if (q && q.pi >= 0) down.add(q.pi); }
     return down;
@@ -3653,6 +3654,7 @@ class Component extends DCLogic {
     }
     this.deckOpen = !!open;       // sticky: once opened it stays open across lands until closed
     this.applyDeckVisibility();
+    if (!open && this._session && this._session.cz) { this._czSync(); this._undoRelease(); }   // L2: the map as it is today; a held push goes
     this.lastInteract = this.now;
   }
   applyDeckVisibility() {
@@ -4916,7 +4918,8 @@ class Component extends DCLogic {
     const flush = () => { try { if (this._progressLoaded) this._flushSave(); } catch (e) { /* durability is best-effort */ } };
     this._onPageHide = () => { flush(); this._stopSystemPreview(); this._csAbandon("pagehide"); };
     this._onVisHide = () => {
-      if (document.visibilityState === "hidden") { flush(); this._stopSystemPreview(); this._csAbandon("hidden"); }
+      // (L2-R1: an Undo offered when the tab is hidden is withdrawn BEFORE the flush that pushes: `_undoEnd`)
+      if (document.visibilityState === "hidden") { this._undoRelease(); flush(); this._stopSystemPreview(); this._csAbandon("hidden"); }
       else {
         // A TAB LEFT OPEN OVERNIGHT (v1.266.0): a known move dealt face up yesterday may be due today, and its answer
         // must not sit face up when the player comes back. Nothing else may re-read the day before the next deal, so
@@ -6178,7 +6181,9 @@ class Component extends DCLogic {
       provider: this._gameplanProvider, fallback: this._gameplanWeakFallback(),
       // the rating's live set, only when it is already in hand (never fetched for this): a question its deck no longer has
       // is dropped and counted, and only a card known to be answerable takes one of the guard's places (ANKI1-R1, finding 2)
-      worth: { game, seats: this._practiceSeats(game), stage: this.stage, live: this._ratingLiveNow() } });
+      worth: { game, seats: this._practiceSeats(game), stage: this.stage, live: this._ratingLiveNow(),
+        // L2: the moves record and the seats its moves are asked at; never on "Multiple choice" (`_asksMoves`)
+        ...(this._asksMoves() ? { moves: this.moves || {}, moveSeats: this._practiceSeatsAt.mseats, movesRev: this._movesRev || 0 } : {}) } });
     if (plan.orderStatus !== "ok" && this._orderBeat !== plan.orderStatus) { this._orderBeat = plan.orderStatus; this.fx("practice_order_fallback", { reason: plan.orderStatus }); }
     return plan;
   }
@@ -6190,19 +6195,40 @@ class Component extends DCLogic {
     const c = this._practiceSeatsAt;
     if (c && c.game === game) return c.map;
     // the rating's walk already asked the mask; asked again here so this enumeration says so itself (validate:surfaces)
-    const map = {}, at = (o) => { const id = this._ordToId.get(+o), i = id == null ? null : this._idIndex.get(id); return i == null || !this.rsAllowsIdx(i) ? null : this.nodes[i]; };
+    // `mseats` (L2, v1.292.0): the position each of the game's seats is asked at, for its MOVES ("<ordinal>/<role>" → the same
+    // string a card's deck gets), so a position's moves and cards are one visit (practice-queue.src.js, `moveSeats`)
+    const map = {}, mseats = {}, at = (o) => { const id = this._ordToId.get(+o), i = id == null ? null : this._idIndex.get(id); return i == null || !this.rsAllowsIdx(i) ? null : this.nodes[i]; };
     for (const [st, hand] of game.seats || []) {
       const k = st.indexOf("/"), p = at(st.slice(0, k)), top = st.slice(k + 1) === "top", f = p && this.posFamily(p.t);
       if (!p || p.cal?.stateAlias) continue;
       const seat = f + (top ? "|Top" : "|Bottom");
-      map[seat] ??= seat;
+      map[seat] ??= seat; mseats[st] = seat;
       for (const mv of hand.keys()) {
         const n = at(mv), dk = n && this.deckKeyFor(n).key;
         if (dk) { map[dk] ??= seat; map[dk.replace(/\|Attacker$/, "|Defender")] ??= f + (top ? "|Bottom" : "|Top"); }
       }
     }
-    this._practiceSeatsAt = { game, map };
+    this._practiceSeatsAt = { game, map, mseats };
     return map;
+  }
+  // MOVES JOIN THE DAY (L2, v1.292.0; the owner's U198 and U200, 17 Nov: the cloze, and "if there are six techniques in
+  // cloze, then we should be rewarded 6 points"). The plan asks a position's moves (S0's law, practice-queue.src.js: the due
+  // ones, at most six a visit; up to two new ones when nothing is due) and Master the game asks them as a cloze
+  // (master-list.src.js). NOT on "Multiple choice" (U194 a: it means it everywhere, and a self-graded cloze is not multiple
+  // choice): that player's plan is the cards', as before L2, until the pick form ships (L4). ONE test, read by the plan's
+  // input and by the day's count, so the two cannot disagree.
+  _asksMoves() { return this._answerMode() !== "mc"; }
+  // move rows answered today, by the plan's own rule (`ngGameplanMovesToday`, gameplan.src.js: a whole row, a positive
+  // interval, last answered today), wherever they were answered (the cloze, a roll's hidden card): each is one of the
+  // day's 20 (U200). The eager copy of a deferred rule: tests/master_cloze.test.mjs pins the two equal.
+  _movesToday() {
+    const day = this._epochDay(), c = this._movesTodayAt;
+    if (c && c.m === this.moves && c.rev === this._movesRev && c.day === day) return c.n;
+    let n = 0;
+    for (const rows of Object.values(this.moves || {})) for (const r of Object.values(rows || {}))
+      if (Array.isArray(r) && r.length >= 4 && r.slice(0, 4).every(Number.isFinite) && r[1] > 0 && r[2] === day) n++;
+    this._movesTodayAt = { m: this.moves, rev: this._movesRev, day, n };
+    return n;
   }
   /**
    * D1 (owner, 2026-09-30): "when no study comparison exists, fall back to the weak-spots ranking so
@@ -6835,8 +6861,10 @@ class Component extends DCLogic {
     this._paintGameStudyPanel();
     if (s.practice) this._paintPractice(s);
     const complete = this.drillListRef.current && this.drillListRef.current.querySelector("[data-session-complete]");
-    if (complete && !p.complete) complete.remove();
-    if (!complete && p.complete && p.total > 0) s.completion.appendChild(this._sessionDoneCard(s));
+    // L2: a session whose cards are answered is not done while its plan still has a move to ask (a position's cloze)
+    const done = p.complete && !(s.plan && s.plan.moves && this._asksMoves() && s.plan.moves.some((m) => { const r = this.moves && this.moves[m.key] && this.moves[m.key][m.move]; return !(r && r[2] === this._epochDay()); }));
+    if (complete && !done) complete.remove();
+    if (!complete && done && p.total > 0) s.completion.appendChild(this._sessionDoneCard(s));
   }
   /**
    * TODAY AGAINST THE DAILY GOAL (owner U56 e: "the goal today is to do 20 flashcards"). `done` is the
@@ -6848,7 +6876,7 @@ class Component extends DCLogic {
   // bar, the planner and the Settings field (a separate chunk, which cannot see the constant), clamped to
   // the field's own 5-200 so a stored oddity can never print what the planner does not play.
   practiceGoal(v = this.get("dailyGoal", NG_PRACTICE_GOAL)) { v = Math.floor(Number(v)); return Number.isFinite(v) ? Math.max(5, Math.min(200, v)) : NG_PRACTICE_GOAL; }
-  practiceToday() { return { done: ngGameplanReviewed(this.srs, this._epochDay()).length, goal: this.practiceGoal() }; }
+  practiceToday() { return { done: ngGameplanReviewed(this.srs, this._epochDay()).length + (this._asksMoves() ? this._movesToday() : 0), goal: this.practiceGoal() }; }
   _practiceGoalText(t) { t = t || this.practiceToday(); return t.done + " of " + t.goal + " today" + (t.done >= t.goal ? " \u2713" : ""); }
   // the order of today's new decks, for Practice's count line: the plan's own `newFrom` (gameplan.src.js), the same
   // answer the summary line reads (v1.256.2, STAGE2H A a)
@@ -6921,6 +6949,9 @@ class Component extends DCLogic {
    * to stop and name the seam.
    */
   _focusedMini() {
+    // an open cloze is the ask in front of the player (L2): Space shows or hides, ⏎ confirms, ← → step (master-list.src.js)
+    const cz = this._session && this._session.czOpen != null && this._sessionInline() ? this._session.czReg : null;
+    if (cz) return cz;
     const rid = this._focusRow;
     const reg = rid && this._miniReg ? this._miniReg[rid] : null;
     if (!reg) return null;
@@ -7020,7 +7051,12 @@ class Component extends DCLogic {
     end.appendChild(more);
     this._practiceCorridor(); this._practiceRows(s);
     // as it opens, nothing is open: the list waits for the press (L1); after it, the open card stays open across a re-render
-    if (!s.list) this._sessionOpeners[Math.max(0, Math.min(s.keys.length - 1, s.idx || 0))]?.();
+    if (!s.list) {
+      // L2: a session drawn again keeps its open cloze (the page's DOM is new, the cloze's answers are the session's); and
+      // a plan landing under an untouched player opens its first place on its cloze, as the button would
+      const i = Math.max(0, Math.min(s.keys.length - 1, s.idx || 0)), R = this._gameplanRuntime;
+      if (!(R && R.ngClozeResume && R.ngClozeResume(this, s, s.moved ? null : this._masterSeatOf(s, s.keys[i])))) this._sessionOpeners[i]?.();
+    }
     if (!s.keys.length) {
       const empty = document.createElement("p"); empty.setAttribute("data-session-empty", "1");
       empty.textContent = s.plan ? "Nothing to practise here right now." : this._gameplanLoadState === "failed" ? "Open study plan to retry." : "Loading cards…";
@@ -7118,7 +7154,7 @@ class Component extends DCLogic {
   // it moves when the press has landed (`_paneOwed`). A move keeps the focus where it was (the keys follow the card).
   _masterPlace(s, soft) {
     if (soft && this._panePress) { (this._paneOwed || (this._paneOwed = [])).push(() => this._session === s && !s.list && this._masterPlace(s)); return; }
-    const seat = this._masterSeatOf(s, s.keys[s.idx]), el = seat != null && s.rowEls ? s.rowEls.get(seat) : null;
+    const seat = s.czOpen != null ? s.czOpen : this._masterSeatOf(s, s.keys[s.idx]), el = seat != null && s.rowEls ? s.rowEls.get(seat) : null;
     for (const r of s.rowEls ? s.rowEls.values() : []) r.toggleAttribute("data-on", r === el);
     const had = s.ask.contains(document.activeElement) ? document.activeElement : null;
     if (el) { if (el.nextSibling !== s.ask) el.after(s.ask); } else if (s.ask.nextSibling !== s.rowsEl) s.rowsEl.before(s.ask);
@@ -7138,6 +7174,9 @@ class Component extends DCLogic {
   _masterGo(s, seat, chose) {
     if (this._session !== s) return;
     clearTimeout(this._sessionAdvance);   // the player opens a place: a walk still pending from the last answer does not override it
+    // L2: the position's moves first, as a cloze (moves before cards at a position, S0's law); its cards after
+    const R = this._gameplanRuntime;
+    if (R && R.ngClozeGo && R.ngClozeGo(this, s, seat, chose)) return;
     const at = s.keys.map((k, i) => (this._masterSeatOf(s, k) === seat ? i : -1)).filter((i) => i >= 0);
     if (!at.length) { if (seat) this._masterFree(s, seat); return; }
     let i = at.find((j) => !this._sessionRowDone(s, s.keys[j]));
@@ -7217,7 +7256,7 @@ class Component extends DCLogic {
   // the opened place's row into view, under the slim line, only when it is not in view already (a first place at the top
   // opens with the page unscrolled: P1-A in practice-page.spec.ts); then its card (`_scrollFocusedDeck`)
   _masterShow(s) {
-    const l = this.drillListRef.current, el = s.rowEls && s.rowEls.get(this._masterSeatOf(s, s.keys[s.idx]));
+    const l = this.drillListRef.current, el = s.rowEls && s.rowEls.get(s.czOpen != null ? s.czOpen : this._masterSeatOf(s, s.keys[s.idx]));
     if (l && el) {
       const r = el.getBoundingClientRect(), lr = l.getBoundingClientRect(), band = s.slim.hidden ? 0 : s.slim.offsetHeight;
       if (r.top < lr.top + band || r.bottom > lr.bottom) l.scrollTop += r.top - lr.top - band - 8;
@@ -7228,6 +7267,7 @@ class Component extends DCLogic {
   _masterList(s) {
     if (this._session !== s) return;
     clearTimeout(this._sessionAdvance);   // ≡: the list shows, and nothing opens by itself (L1-R2)
+    this._czClose(s);
     if (this._openMini) this._openMini.close();
     // A, B, C answer the live multiple-choice block (`_onKey`): a card that has left the screen must not keep one (L1-R1, the
     // reader's finding 4; Esc and the drawer's own exits already clear it)
@@ -7247,7 +7287,7 @@ class Component extends DCLogic {
    * technique" and "Next technique" are no longer buttons of their own. Pinned by master-list.spec.ts ("one Reveal on the page").
    */
   _masterDock(s) {
-    if (!s.dock || s.list || !this._practiceInDrawer()) return;   // never a card of another surface (Last rolls' own)
+    if (!s.dock || s.list || !this._practiceInDrawer() || s.czOpen != null) return;   // never a card of another surface (Last rolls' own); an open cloze draws its own bar (L2)
     const bar = s.dock.lastChild, w = this._openMini && this._openMini.el && this._openMini.el.querySelector("[data-mini-deck]");
     const mr = w && w.querySelector(".mr");
     // a card opened again without being drawn again (a session with no plan keeps its cards): drawn, so its buttons move in
@@ -7266,6 +7306,9 @@ class Component extends DCLogic {
   _masterStep(s, dir) {
     const m = this._focusedMini(), at = m && m.at && m.at();
     if (at && (dir > 0 ? at[0] < at[1] - 1 : at[0] > 0)) { (dir > 0 ? m.next : m.prev)(); return; }
+    // L2: a position's cloze is one of the asks, before its cards: ‹ › step onto it and off it
+    const R = this._gameplanRuntime;
+    if (R && R.ngClozeStep && R.ngClozeStep(this, s, dir)) return;
     const k = s.keys[(s.idx || 0) + dir];
     if (k == null) return;
     (this._deckState = this._deckState || {})[k] = { idx: dir > 0 ? 0 : -1, revealed: false };
@@ -7474,6 +7517,7 @@ class Component extends DCLogic {
       }
     };
     const open = () => {
+      this._czClose(s);   // a card opening takes the cloze's place in the ask (L2)
       if (this._openMini && this._openMini.rid !== rid) this._openMini.close();  // accordion: one at a time
       // EVERY DOOR INTO A PLACE OPENS ON A CARD THAT IS NOT YET ANSWERED (L1-R3, the third read of PR #434, 2 of 2: "Keep
       // practising" dealt a place that owed three and opened it on the card just answered, Reveal offered). The rule was
@@ -7538,9 +7582,9 @@ class Component extends DCLogic {
       // Master the game's list (≡) and a press on the same place again leave that index where it was, so a card opened by
       // itself from the list, or the walk pulled the player off the card just chosen. LIFTERS of the pending walk (§6.5):
       // `_masterList` (≡) and `_masterGo` (a place opened by the player) clear it; the list showing stops it here.
-      if (!this._sessionInline() || this._session !== s || s.idx !== i || s.list) return;
+      if (!this._sessionInline() || this._session !== s || s.idx !== i || s.list || s.czOpen != null) return;   // nor over an open cloze (L2: it has no row index of its own)
       const op = this._sessionOpeners && this._sessionOpeners[nextAt];
-      if (op) { op(); this._scrollFocusedDeck(); }
+      if (op) { if (!this._czEnter(s, nextAt)) op(); this._scrollFocusedDeck(); }
       if (s.plan || s.review) this._paintGameplanProgress(s);
       else {
         const f = this.drillFootRef.current; if (f) f.replaceChildren(this._sessionFoot(s));
@@ -7622,15 +7666,50 @@ class Component extends DCLogic {
     done.appendChild(close);
     return done;
   }
-  /** ↑/↓ walk the QUEUE. Returns false when there is nowhere to go, so the caller can fall through. */
-  sessionNav(dir) {
+  /** ↑/↓ walk the QUEUE. Returns false when there is nowhere to go, so the caller can fall through. `key`: the press IS ↑ or ↓
+   *  (the foot's ‹ › pass here too, crossing decks, and stay "previous ask, next ask": they may show an answered card). */
+  sessionNav(dir, key) {
     const s = this._session; if (!this._sessionInline() || !s || !s.keys.length) return false;
     if (s.list) { this._masterStart(s); return true; }   // Master the game as it opens (L1): ↑ ↓ are its button, never a second card
-    const at = Math.max(0, Math.min(s.keys.length - 1, (s.idx || 0) + dir));
-    if (at === s.idx && this._openRow) return false;
+    if (s.czOpen != null) { this._masterStep(s, dir); return true; }   // an open cloze (L2): ↑ ↓ step as ‹ › do
+    let at = Math.max(0, Math.min(s.keys.length - 1, (s.idx || 0) + dir));
+    if (key && s.practice) at = this._masterKeyRow(s, dir, at);
+    if (at < 0 || (at === s.idx && this._openRow)) return false;
     const op = this._sessionOpeners && this._sessionOpeners[at];
     if (!op) return false;
-    s.moved = true; op(); this._scrollFocusedDeck(); return true;
+    s.moved = true;
+    if (!(key && this._czEnter(s, at))) op();
+    this._scrollFocusedDeck(); return true;
+  }
+  /**
+   * ↑ ↓ ARE THE KEYS' FORM OF A TAP ON A ROW (L2 item 12: the fourth read of PR #434, 18 of 18, and the orchestrator's
+   * ruling on it): the deck they open holds a card that is due and not answered while the place it belongs to owes one.
+   * L1 walked what the session already held, so on a place the plan took part of, ↑ ↓ opened a card answered a minute
+   * ago beside a row reading "3 due". The row a key lands on, in its direction: the next deck with a card still to answer;
+   * a deck all answered whose place owes more than the session holds takes what it owes first (`_masterOwed`, the step
+   * the row's own press takes in `_masterGo`), and the opener's rule then lands on the first owed card. With nothing to
+   * ask that way the key opens the neighbouring deck to look at, as before, unless that deck's place still holds an
+   * unanswered card in the session (then that card; a dead key when the player is on it already).
+   * NOT in the opener (the reader's caution): a session drawn again and the walk after a deck's last answer pass through
+   * the opener, and would deal a place's cards without a press. Returns the deck's index, or -1 for nowhere to go.
+   */
+  _masterKeyRow(s, dir, at) {
+    const done = (j) => this._sessionRowDone(s, s.keys[j]), seat = (j) => this._masterSeatOf(s, s.keys[j]);
+    const first = (st) => s.keys.findIndex((k, j) => this._masterSeatOf(s, k) === st && !done(j));
+    for (let j = (s.idx || 0) + dir; j >= 0 && j < s.keys.length; j += dir) {
+      if (!done(j)) return j;
+      if (seat(j) && this._masterOwed(s, seat(j))) { const f = first(seat(j)); return f < 0 ? j : f; }
+    }
+    if (at === s.idx || seat(at) == null) return at;
+    const f = first(seat(at));
+    return f < 0 ? at : f === s.idx ? -1 : f;
+  }
+  // L2: A PLACE ENTERED FROM ANOTHER ASKS ITS MOVES FIRST (S0's law: moves before cards at a position), whichever way it is
+  // entered without its row's press: ↑ ↓ and the walk after a deck's last answer land on a DECK; when that deck is another
+  // place's and that place's moves are still to ask, its cloze opens in the card's stead (the row's press: `_masterGo`).
+  _czEnter(s, at) {
+    const R = this._gameplanRuntime, seat = this._masterSeatOf(s, s.keys[at]);
+    return !!(seat && s.practice && R && R.ngClozeGo && seat !== this._masterSeatOf(s, s.keys[s.idx]) && R.ngClozeGo(this, s, seat, false));
   }
   studyFromSession(key) {
     // A study surface IS its cards, so if they are not here yet, fetch and rebuild when they
@@ -8150,6 +8229,7 @@ class Component extends DCLogic {
     // progress. Belt-and-braces with the verified-user gate (`userId` is null while local-only).
     if (!A || A.neuralSyncVersion !== 2 || !A.pushNeural || !userId || this._authDisposed || !this._progressCurrent() || this._progressLocalOnly) return;
     try { if (!A.isAuthenticated()) return; } catch (e) { return; }
+    if (this._undoHeld()) return;   // an Undo of a cloze's confirm is on screen: the push waits for it (`_undoRelease`)
     if (!this._pulled || this._pulledUserId !== userId) { this._pullAndMerge(); return; }
     const epoch = this._authEpoch || 0;
     const current = () => this._progressCurrent() && !this._authDisposed && this._auth() === A && this._authUserId === userId
@@ -8157,7 +8237,7 @@ class Component extends DCLogic {
     clearTimeout(this._pushT);
     this._pushT = setTimeout(async () => {
       this._pushT = null;
-      if (!current()) return;
+      if (!current() || this._undoHeld()) return;   // a push already on its way when a confirm was made waits too (the blob is read here)
       try {
         if (!A.isAuthenticated()) return;
         // v1.255.2: NO ECHO. auth-js answers every tab return with SIGNED_IN, every SIGNED_IN pulls, and every pull saved and pushed
@@ -13484,7 +13564,7 @@ class Component extends DCLogic {
   // has them; a host without the journal (a test rail) records nothing
   _journal(rows) {
     const h = this._progressHost;
-    if (h && typeof h.journal === "function" && rows && rows.length) h.journal(this, rows);
+    return h && typeof h.journal === "function" && rows && rows.length ? h.journal(this, rows) : [];   // its entry ids (L2: an Undo takes them back out)
   }
   /** Cards past due and NOT yet reviewed today — `last < today` is what lets a failed card leave
    *  the pool until tomorrow. Returns [{key, qh}]; `dueCount()` dedupes by qhash (one FACT due
@@ -15605,11 +15685,22 @@ class Component extends DCLogic {
   // a flashcard grade, a deck landing or a new day moves a "learned" card the same way (v1.268.0).
   // A card already where it belongs is not touched, so a card turned up by a look stays up.
   _applyHide(card, st = this._moveState(card._choiceOpt)) {
-    const down = this._hideMoves() && st !== "known" && st !== "learned";
-    if (down === card.hasAttribute("data-hide")) return;
+    const down = this._czHand() || (this._hideMoves() && st !== "known" && st !== "learned");
+    if (down === card.hasAttribute("data-hide")) {
+      // A CARD THAT STAYS DOWN CARRIES WHAT `_hideCard` WOULD WRITE NOW, IN BOTH DIRECTIONS (L2-R2, the reader's re-read
+      // of PR #438, its one fix). The value was written only when a card was TURNED down, so a player whose own setting
+      // hides their moves (every card already down) still read "Hover to reveal" on a card an open cloze holds down,
+      // where a hover reveals nothing; and a hand dealt during a hidden cloze under that setting kept "cz" after Show,
+      // so its "Hover to reveal" never came back though a hover then works.
+      if (down && card.getAttribute("data-hide") !== this._hideHow()) card.setAttribute("data-hide", this._hideHow());
+      return;
+    }
     if (down) this._hideCard(card);
     else { this._unhideCard(card); this._cardAria(card); }
   }
+  // what a card that is down says about a look, NOW: "cz" while an open cloze holds the hand down (no reveal is offered,
+  // and no badge is worn: choice-value.css), else the hint's own place ("badge": "Hover to reveal" / "Tap to reveal")
+  _hideHow() { return this._czHand() ? "cz" : NG_HIDE_HINT; }
   // ── THE SEAL (v1.272.0, the owner, 13 Nov, his pick "a, A gold seal in the corner", over: "The mastered cards show
   // up with a golden outline, and this is confusing. It seems like this is the selected technique, and we're trying to
   // guess this technique."). His option read: "A small filled seal: you answered Yes here. A hollow one: its flashcards
@@ -15663,7 +15754,8 @@ class Component extends DCLogic {
   }
   _paintHand() { for (const oc of this._optionCards || []) if (oc.card && oc.opt) this._paintCard(oc.card); }
   _hideCard(card) {
-    card.setAttribute("data-hide", NG_HIDE_HINT);
+    // (L2-R1, ruling 6: a card an open cloze holds down is not offered to a hover or a tap, so it does not say so: `_hideHow`)
+    card.setAttribute("data-hide", this._hideHow());
     this._cardAria(card);
     if (card._hm) return;
     card._hm = 1;
@@ -15738,7 +15830,7 @@ class Component extends DCLogic {
       this._cardAria(card);
       return;
     }
-    if (!card.hasAttribute("data-hide")) return;
+    if (!card.hasAttribute("data-hide") || this._czHand()) return;   // an open cloze's hand is not turned up by a look (L2)
     card.setAttribute("data-revealed", "");
     lit.add(opt.idx); if (opt.res != null) lit.add(opt.res);
     this._cardAria(card);
@@ -15800,6 +15892,17 @@ class Component extends DCLogic {
   // the switch's word, and the header hint's (NG_HIDE_HINT = "header", not shipped)
   _paintHideSwitch(title) {
     const sw = title && title.querySelector("[data-hide-switch]"); if (!sw) return;
+    // THE MAP SAYS WHAT IT IS DOING WHILE A CLOZE IS HIDDEN (L2-R1, ruling 6; design round 3; the reader's f and g: the
+    // title read "Your moves · Shown" over a hand held face down, and its switch wrote the setting while no card moved).
+    // In its place, words and no press; after Show and after the place closes the roll's own switch is back (`_czSync`).
+    const cz = this._czHand();
+    sw.disabled = cz; sw.style.cursor = cz ? "default" : "";
+    if (cz) {
+      sw.setAttribute("aria-label", "Moves face down while you answer"); sw.removeAttribute("title");
+      sw.innerHTML = '<span aria-hidden="true">\u00b7</span><span data-cz-words>face down while you answer</span>';
+      title.querySelector("[data-hide-hint]")?.remove();
+      return;
+    }
     const on = this._hideMoves(), word = on ? "Hidden" : "Shown";
     sw.setAttribute("aria-label", "Moves " + word.toLowerCase());
     sw.title = on ? "Show moves" : "Hide moves until I look";
@@ -15845,25 +15948,127 @@ class Component extends DCLogic {
     const role = opt.threat ? (this.playerRole === "top" ? "bottom" : "top") : this.playerRole;
     return [so + "/" + role, String(mo)];
   }
+  /**
+   * THE MAP MUST NOT GIVE THE CLOZE AWAY (L2, v1.292.0, the orchestrator's ruling 7). On a computer the map stands beside
+   * the open position: while a cloze is open and not shown, nothing on the map names, lights or singles out one of its
+   * hidden moves. `_czDown`: their orbs (and their pair twins), which join the face-down set every name, hover label and
+   * gold mark already asks (`_hmDownSet`: the dealt moves' names, the lit trail's, the hover label, `_lastMapMarks`).
+   * `_czHand`: the dealt hand is face down, whole, when it holds one of them (the roll stands at that position), and a
+   * look does not turn a card up (`_peek`). After Show the map is as it is today. LIFTERS (§6.5): Show, Done, the place
+   * left, the list, the drawer shut (`_sessionInline`): each runs `_czSync`, which paints the hand and the names again.
+   * NOT COVERED: a move's own page, opened by the player's own press on its orb, still names it.
+   * Pinned by e2e/journeys/master-cloze.spec.ts (the hand face up → red).
+   */
+  _czDown() {
+    const s = this._session, c = s && s.czOpen != null && s.cz && this._sessionInline() ? s.cz.get(s.czOpen) : null;
+    return c && !c.shown && !c.done ? c.down : null;
+  }
+  _czHand() { const d = this._czDown(); return !!d && (this.optionIdxs || []).some((i) => d.has(i)); }
+  _czSync() {
+    this._hmLit = new Set(); this._nm = null;
+    // a card a tap or a key turned up BEFORE the cloze opened goes down again while the cloze holds the hand (L2-R2: under
+    // "moves hidden" such a card kept its face up beside the bars, since no pointer leaves it; a look during the cloze
+    // was already refused, `_peek`)
+    const held = this._czHand();
+    for (const c of this._optionCards || []) if (c.card && c.opt) { if (held && c.card.hasAttribute("data-revealed")) this._peek(c.card, false, true); this._paintCard(c.card); }
+    this._paintHideSwitch(this.optionsRef.current?.querySelector('[data-choice-group="you"] > div'));
+  }
+  // the cloze's view goes when a card opens or the place is left; its own code is master-list.src.js (deferred)
+  _czClose(s) { const R = this._gameplanRuntime; if (s && s.czOpen != null && R && R.ngClozeClose) R.ngClozeClose(this, s); }
   _moveRow(opt) { const k = this._moveKey(opt); return k && this.moves && this.moves[k[0]] ? this.moves[k[0]][k[1]] : null; }
   _moveMastered(opt) { const r = this._moveRow(opt); return !!(r && r[3] === 1); }
   // (the card's thin/thick gold outline, `_goldCard` and `_paintHandGold`, was here until v1.272.0: the seal replaced it,
   // `_sealCard`; a known escape wears the filled seal as any known move, it has no deck so it is never "learned")
   _gradeMove(opt, ok, card) {
     const k = this._moveKey(opt); if (!k) return;
-    const m = (this.moves = this.moves || {}), row = (m[k[0]] = m[k[0]] || {});
-    // the writer builds the whole row: the answer at [3], the schedule's pair at [4] (v1.281.0), and the cells a later
-    // build added after the pair riding along (review R5)
-    const prior = row[k[1]], day = this._epochDay();
-    row[k[1]] = ngKnowledgeScheduleRow(prior, ok, day, 4);
-    this._journal([[1, k[0], k[1], ok ? 1 : 0, day, row[k[1]]]]);   // v1.280.2: the owner's undelivered answers
+    this._gradeMoves([[k[0], k[1], ok]]);
     this._sealCard(card, this._moveState(opt));
+    this.track("neural_move_recalled", { technique: opt.node.t, got: ok, threat: !!opt.threat, escape: opt.action === "escape", via: this._hideVia || "saved" });
+  }
+  /**
+   * THE ONE BODY OF EVERY ANSWER TO A MOVE (L2, v1.292.0): a roll's hidden card hands it one answer (`_gradeMove`, the seat
+   * read off where the roll stands), the cloze hands it a position's answers at once, the seat and the side given
+   * (master-list.src.js, at Done: one write per move per day). `list`: [[state "<site ordinal>/<role>", move, ok], …].
+   * The row, the journal line, the revision and the republish are here and nowhere else, ONCE for the whole list.
+   * Returns what an Undo needs (`_ungradeMoves`): each cell as it was (and whether it and its state existed), the rows
+   * written, and the journal's entry ids.
+   */
+  _gradeMoves(list) {
+    const m = (this.moves = this.moves || {}), day = this._epochDay(), lines = [], prior = [], own = (o, k) => Object.prototype.hasOwnProperty.call(o, k);
+    // WHETHER A SEAT EXISTED IS DECIDED ONCE, BEFORE THE LOOP (L2-R1, the reader of PR #438, finding 1, 2 of 2). Read per
+    // answer, the second answer of a confirm at a new seat found the seat the first had made, so its Undo left that seat
+    // behind, empty: two new moves at a new place is the ordinary first cloze of any place. And the journal as it is
+    // stored now, for the Undo to put back whole (`unjournal`).
+    const had = new Set(Object.keys(m)), h = this._progressHost;
+    const mark = h && typeof h.journalMark === "function" ? h.journalMark(this) : undefined;
+    for (const [st, mv, ok] of list) {
+      const state = had.has(st), row = own(m, st) ? m[st] : (m[st] = {}), cell = own(row, mv), was = row[mv];
+      // the writer builds the whole row: the answer at [3], the schedule's pair at [4] (v1.281.0), and the cells a later
+      // build added after the pair riding along (review R5)
+      row[mv] = ngKnowledgeScheduleRow(was, ok, day, 4);
+      lines.push([1, st, mv, ok ? 1 : 0, day, row[mv]]); prior.push([st, mv, state, cell, was]);
+    }
+    const ids = this._journal(lines);   // v1.280.2: the owner's undelivered answers
     // the record changed in place: a new revision for the moves index (its identity did not move), then republish:
     // the odds, the worker's profile, the map's gold and the account line all read it (a Yes adds, a No takes back)
     this._movesRev = (this._movesRev || 0) + 1;
     this._publishKnowledge("moves");
-    this.track("neural_move_recalled", { technique: opt.node.t, got: ok, threat: !!opt.threat, escape: opt.action === "escape", via: this._hideVia || "saved" });
     this._saveProgress();
+    return { prior, ids, mark, wrote: lines.map((l) => [l[1], l[2], l[5]]) };
+  }
+  /**
+   * UNDO OF THE LAST CONFIRM (L2, the orchestrator's ruling 4: "A mis-tap at Done must not send a year-old move back to
+   * one day with no way back: his rule that no account loses progress"). Every cell `_gradeMoves` wrote goes back to what
+   * it was, exactly: a cell or a state that did not exist is gone again, and the answers leave the journal (or the next
+   * merge would give them again), which goes back whole: no key where the confirm made the first. ONLY while each row is
+   * still the row that confirm wrote: a pull or another tab's merge that rebuilt one has taken it out of this copy's
+   * hands, and then nothing is undone (false). The cloud never saw the confirm: the push waits while the Undo is offered
+   * (`_undoHold`). WHAT "EXACTLY" LEAVES OUT, and nothing else: the two times of the save an Undo makes (the record's
+   * `updatedAt`, the stored envelope's `savedAt`). tests/master_cloze.test.mjs and master-cloze.spec.ts compare the rest whole.
+   */
+  _ungradeMoves(u) {
+    const m = this.moves || {}, same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+    if (!u || !u.wrote.every(([st, mv, row]) => m[st] && same(m[st][mv], row))) return false;
+    for (const [st, mv, state, cell, was] of u.prior) {
+      if (cell) m[st][mv] = was; else delete m[st][mv];
+      if (!state && m[st] && !Object.keys(m[st]).length) delete m[st];
+    }
+    const h = this._progressHost;
+    if (h && typeof h.unjournal === "function" && u.ids && u.ids.length) h.unjournal(this, u.ids, u.mark);
+    this._movesRev = (this._movesRev || 0) + 1;
+    this._publishKnowledge("moves");
+    this._undoing = true;   // the cloze draws itself after its own Undo (`_undoEnd` repaints only a hold that lapsed)
+    try { this._undoRelease(); } finally { this._undoing = false; }
+    this._saveProgress();
+    return true;
+  }
+  // THE CLOUD PUSH WAITS WHILE AN UNDO IS OFFERED (L2): the push is a whole-blob upsert about one second after a save, and a
+  // row the cloud holds beats the older row an Undo restores at the next pull (the merge keeps the later answer), so an
+  // undone confirm would come back. LIFTERS, all of them (§6.5): the Undo itself; the cloze's own moves on (the next
+  // confirm, the place left, the list: master-list.src.js); the drawer shut or another session (`_pushCloud` reads it);
+  // the page hidden (`_onVisHide`, before its flush). The local save is not held: a tab that dies keeps the confirm.
+  // WHEN THE HOLD ENDS, FOR ANY REASON, THE UNDO IS WITHDRAWN FIRST (L2-R1, the orchestrator's ruling on the reader's
+  // finding 2): the hold lapsed in a hidden tab while the Undo stayed on the line, so a confirm could reach the cloud and
+  // then be undone here. One way out for every lifter, `_undoEnd`: each confirm of that session loses its Undo (the line
+  // is drawn again without it, and the confirm is final), and only then may a push go.
+  // NOT COVERED: another tab or device that took the confirm in before the Undo gives it back at the next merge.
+  _undoEnd() {
+    const s = this._undoHold;
+    if (!s) return false;
+    this._undoHold = null;
+    let n = 0;
+    if (s.cz) for (const c of s.cz.values()) if (c.done && c.done.u) { c.done.u = null; n++; }
+    if (n && !this._undoing && this._session === s && this._sessionInline()) this._paintPractice(s);
+    return true;
+  }
+  _undoRelease() { if (this._undoEnd() && this._pushCloud) this._pushCloud(); }
+  // held only while that session's drawer is on screen: a hold whose session, drawer or page is gone ends here (its Undo
+  // with it), so nothing can hold a push for good
+  _undoHeld() {
+    if (!this._undoHold) return false;
+    if (this._undoHold === this._session && this.deckShown && !document.hidden) return true;
+    this._undoEnd();
+    return false;
   }
   // repaint ONE dealt card's EDGE channel in place — corner number, glyph and clock bar, all three
   // from the same `edgeMark`, so they cannot drift apart between a deal and a refresh.

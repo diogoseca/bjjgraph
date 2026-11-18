@@ -80,7 +80,11 @@ async function setup(page: any, seed: { due: number, answered: number }, beforeO
 // L1-R0 (v1.290.0): the open card's buttons (Reveal, Review again, Got it, ‹ ›) are moved into the drawer's foot, one bar
 // for the open ask (`_masterDock`): pressed there, `[data-master-bar]`, the same buttons with the same handlers
 /** The Practice door the player has today: the stat row's due cell (the sidebar's Practice row later). */
-async function openPractice(j: any) {
+async function openPractice(j: any, cold = false) {
+  // L2 (v1.292.0): Master the game asks a place's moves before its cards; these journeys are about the cards, so their
+  // player knows the moves today's plan would ask. `cold`: the journey holds the planner's chunk, so nothing is marked,
+  // and its plan asks moves (the count below takes them out of the day's goal, as the plan does)
+  if (!cold) await j.knowsPlanMoves();
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice");
   // L1 (v1.290.0): Master the game opens as a list with one button; its press opens the day's first card, as the row did by itself before
   await j.startMaster();
@@ -123,13 +127,14 @@ test("Practice: a fresh player's session is new gap cards from the weak-spots ra
  *  first new deck after four one-card reviews and before the last one". */
 async function expectPlanned(page: any, rows: { key: string, kind: string }[]) {
   const plan = await page.evaluate(() => { const p = (window as any).__neural._session.plan;
-    return { order: p.order, queue: p.queue.slice(), due: p.due.map((r: any) => r.key), newCards: p.newCards, dueCards: p.dueCards, target: p.target, reviewed: p.reviewed.length } });
+    return { order: p.order, queue: p.queue.slice(), due: p.due.map((r: any) => r.key), newCards: p.newCards, dueCards: p.dueCards, target: p.target, reviewed: p.reviewed.length, moves: (p.moves || []).length } });
   expect(plan.order, "the worth plan").toBe("worth");
   expect(rows.map((r) => r.key), "the rows are the plan's queue, in its order").toEqual(plan.queue);
   expect(rows.map((r) => r.kind), "each marked as the plan files it").toEqual(plan.queue.map((k: string) => plan.due.includes(k) ? "due" : "new"));
-  // new cards fill only what the due cards leave of the day's goal (a full round once it is met); while the due fill it, none
+  // new cards fill only what the due cards leave of the day's goal (a full round once it is met); while the due fill it, none.
+  // L2 (v1.292.0): the moves the plan asks are answers of the day too, so they come out of the goal before the new cards
   const goal = plan.target - plan.reviewed > 0 ? plan.target - plan.reviewed : plan.target;
-  expect(plan.newCards, "a new card only when nothing is due").toBe(Math.max(0, goal - plan.dueCards));
+  expect(plan.newCards, "a new card only when nothing is due").toBe(Math.max(0, goal - plan.dueCards - plan.moves));
   return plan;
 }
 
@@ -145,7 +150,7 @@ test("Practice (2b): pressed cold, before the planner has landed, the session be
   try {
     expect(await page.evaluate(() => !!(window as any).__neural._gameplanRuntime), "premise: the planner has not landed").toBe(false);
     await expect.poll(() => requests, { message: "the drawer's opening asked for the planner, once" }).toBe(1);
-    await openPractice(j);
+    await openPractice(j, true);
     const waiting = await readQueue(page);
     expect(waiting.every((r) => r.kind !== "new"), "premise: pressed before the planner, the queue is the owed reviews").toBe(true);
     release();

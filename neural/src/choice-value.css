@@ -82,6 +82,8 @@
 .ng-choice-card[data-hide=badge]:not([data-revealed]) .ng-choice-badge:not(:empty) { font-size:0; }
 .ng-choice-card[data-hide=badge]:not([data-revealed]) .ng-choice-badge:not(:empty)::after { content:"Hover to reveal"; font-size:9px; }
 @media (hover:none) { .ng-choice-card[data-hide=badge]:not([data-revealed]) .ng-choice-badge:not(:empty)::after { content:"Tap to reveal"; } }
+/* held face down by an open cloze (L2-R1): no badge at all: a hover or a tap reveals nothing there, and "Suggested" would single one card out */
+.ng-choice-card[data-hide=cz]:not([data-revealed]) .ng-choice-badge { visibility:hidden; }
 /* the card under the pointer stands out: a transform on the card alone (no layout shift), a faint cool glow kept inside the row's 8px padding */
 .ng-choice-card[data-hide] { transition:transform .16s ease-out, box-shadow .16s ease-out; }
 .ng-choice-card[data-hover] { z-index:1; transform:scale(1.035); border-color:rgba(197,214,255,.55); box-shadow:0 0 7px rgba(150,185,255,.3); }

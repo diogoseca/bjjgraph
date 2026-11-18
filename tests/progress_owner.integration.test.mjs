@@ -2,6 +2,11 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { ngProgressOwner, ngProgressLocalKey, ngProgressCreateStore, ngProgressCreateHost, ngProgressValidateBlob } from '../neural/src/progress-owner.src.js';
+import { ngClozeDone } from '../neural/src/master-cloze.src.js';
+import { ngGameplanReviewed } from '../neural/src/gameplan-debt.src.js';
+// the app class built below is the bundle's eager part without the planner's debt file, which `practiceToday` reads
+// (the cloze's result line asks it): handed in here, as tests/master_cloze.test.mjs does
+globalThis.ngGameplanReviewed = ngGameplanReviewed;
 
 const read = rel => readFileSync(new URL(rel, import.meta.url), 'utf8');
 const strip = text => text.replace(/^export (function|const|let|var|class) /gm, '$1 ');
@@ -547,3 +552,157 @@ test("a guest's damaged record is healed at its first save: the unique strings o
   assert.deepEqual(saved.explored, ['Mount|Top'], 'the first save: the place once, nothing else');
   for (const [name, validate] of OLDER) assert.doesNotThrow(() => validate(saved), name + ' reads the healed record');
 });
+
+// ── L2-R1 (v1.292.0, the reader of PR #438 and the orchestrator's rulings, 18 Nov 2026): the cloze's confirm and its Undo,
+// on the real app class and the real owner host, with a storage that can remove a key and a cloud that HOLDS a record.
+// MUTANTS (each applied alone, red on the named test; the clean code green before and after):
+//   L2-R1a the seat's existence read per answer (app.src.jsx, `_gradeMoves`)      → "two new moves at a place that had none…"
+//   L2-R1b the journal key the confirm made is left behind, empty (`unjournal`)   → "two new moves at a place that had none…"
+//   L2-R1c the push not held while an Undo is offered (both guards in `_pushCloud`) → "the cloud push waits while an Undo is offered…"
+//   L2-R1d the hold ends and the Undo stays on the line (`_undoEnd`)              → "the cloud push waits while an Undo is offered…"
+//   L2-R1e a hidden tab keeps the hold (`_undoHeld`)                              → "a hidden tab ends the hold: the Undo first…"
+//   L2-R2a `ngClozeDone` never sets the hold (master-cloze.src.js)                → "the cloud push waits while an Undo is offered…"
+//   L2-R2b `ngClozeDone` leaves the confirm before with its Undo                  → "the cloud push waits while an Undo is offered…"
+//   L2-R2c `ngClozeDone` sets the hold after the write                            → SURVIVES (see `confirm` below: the timer's own guard)
+const memory2 = () => { const m = memory(); m.removeItem = k => { m.rows.delete(k); }; return m; };
+const PENDING = owner => ngProgressLocalKey(owner, 'pending');
+// the whole of what is stored, every key, with the two times a save writes taken out: the record's `updatedAt` and the
+// envelope's `savedAt` (what "exactly" leaves out, and nothing else)
+function storedWhole(mem) {
+  const out = {};
+  for (const [k, v] of [...mem.rows].sort((a, b) => (a[0] < b[0] ? -1 : 1))) {
+    let x; try { x = JSON.parse(v); } catch { x = v; }
+    if (x && typeof x === 'object' && x.blob && typeof x.blob === 'object') { x = JSON.parse(JSON.stringify(x)); delete x.savedAt; delete x.blob.updatedAt; }
+    out[k] = x;
+  }
+  return JSON.stringify(out);
+}
+async function withDocument(doc, run) { const old = globalThis.document; globalThis.document = doc; try { return await run(); } finally { if (old === undefined) delete globalThis.document; else globalThis.document = old; } }
+test('L2-R1: two new moves at a place that had none, Done then Undo: everything stored is what it was (the two save times apart), and the journal key the confirm made is gone', async () => fakeTimers(async ({ flush }) => {
+  const mem = memory2(), h = harness(mem); await h.boot(); const a = h.get(), D = a._epochDay();
+  a.moves = { '76/bottom': { 301: [D - 1, 7, D - 8, 1, 7, 7] } }; a._movesRev = 1;
+  a._saveProgress(); a._flushSave(); await flush();
+  assert.equal(mem.rows.has(PENDING(guest)), false, 'premise: this browser has no journal yet');
+  const before = storedWhole(mem), moves = JSON.stringify(a.moves);
+  const u = a._gradeMoves([['108/top', '316', true], ['108/top', '1242', false]]); a._flushSave(); await flush();
+  assert.equal(JSON.parse(mem.rows.get(PENDING(guest))).e.length, 2, 'premise: the confirm made the journal, two entries');
+  assert.deepEqual(Object.keys(JSON.parse(mem.rows.get(ngProgressLocalKey(guest))).blob.moves['108/top']), ['316', '1242'], 'premise: and the stored record holds the new seat');
+  assert.equal(a._ungradeMoves(u), true); a._flushSave(); await flush();
+  assert.equal(JSON.stringify(a.moves), moves, 'the moves record in hand: no empty seat left');
+  assert.equal(mem.rows.has(PENDING(guest)), false, 'the journal key the confirm made is gone with its entries');
+  assert.equal(storedWhole(mem), before, 'everything stored, every key, is what it was (the two save times apart)');
+  // a journal that already held an answer goes back as the same text, its counter included
+  a._gradeMoves([['76/bottom', '302', true]]); a._flushSave(); await flush();
+  const journal = mem.rows.get(PENDING(guest)), stored = storedWhole(mem);
+  const u2 = a._gradeMoves([['108/top', '316', false], ['108/top', '1242', true], ['76/bottom', '301', false]]); a._flushSave(); await flush();
+  assert.equal(JSON.parse(mem.rows.get(PENDING(guest))).e.length, 4);
+  assert.equal(a._ungradeMoves(u2), true); a._flushSave(); await flush();
+  assert.equal(mem.rows.get(PENDING(guest)), journal, 'a journal that held an answer is the same text again, its counter included');
+  assert.equal(storedWhole(mem), stored, 'and everything stored is what it was');
+}));
+// A CONFIRM IS THE APP'S OWN `ngClozeDone` (L2-R2, the orchestrator's point 2: until then this helper wrote out its
+// three steps by hand, so a change there could not turn these tests red). The cloze it is handed is a shown one with
+// these moves asked and the `ok` ones tapped, on a session the drawer shows; its host is a stand-in that takes the
+// markup and is not on a page (the fit, the foot and the heading have nothing to do there).
+// WHAT THE ORDER INSIDE IT IS WORTH, said so nobody reads more into these tests than they prove: the hold is set BEFORE
+// the write, and `_pushCloud` also asks `_undoHeld()` when its timer fires. Either guard alone holds a push here (the
+// mutant "hold set after the write" SURVIVES these tests: the timer's guard covers it; the mutant "hold never set" and
+// the mutant "the confirm before keeps its Undo" are red, L2-R2a and L2-R2b below).
+const standIn = () => ({ toggleAttribute() {}, setAttribute() {}, set innerHTML(_v) {}, isConnected: false, hidden: false });
+function confirm(a, s, seat, list) {
+  const id = ([st, mv]) => 'm:' + st + ':' + mv;
+  const rows = list.map((x, i) => ({ id: id(x), st: x[0], mv: x[1], ask: true, w: 1, idx: i, name: 'move ' + x[1], tri: false, leads: [] }));
+  const c = { seat, rows, down: new Set(), shown: true, had: new Set(list.filter(x => x[2]).map(id)), done: null, side: 'top' };
+  s.cz.set(seat, c); s.czOpen = seat; s.czHost = s.czHost || standIn();
+  ngClozeDone(a, s);
+  assert.ok(c.done && c.done.u && c.done.u.ids, 'premise: the app\'s own Done confirmed it (' + seat + ')');
+  return c;
+}
+async function signedIn(cloud, mem = memory2()) {
+  const h = cloudOf(harness(mem), cloud); await h.boot(); const a = h.switchTo('A');
+  assert.equal(await a._pullAndMerge(), true);
+  const s = { cz: new Map() }; a._session = s; a.deckShown = true; a._painted = 0; a._paintPractice = () => { a._painted++; };
+  return { h, a, s, mem };
+}
+test('L2-R1: the cloud push waits while an Undo is offered, and when the hold ends the Undo is withdrawn first; then ONE push, holding the rows', async () => fakeTimers(async ({ flush }) => withDocument({ hidden: false, visibilityState: 'visible' }, async () => {
+  const cloud = { blob: blob({ 'Mount|Top': 3 }, { moves: { '76/bottom': { 301: [20000, 7, 19993, 1, 7, 7] } } }), pushes: 0 };
+  const { a, s } = await signedIn(cloud); await flush(); await flush();
+  const p0 = cloud.pushes, held = JSON.stringify(cloud.blob.moves);
+  const c = confirm(a, s, 'Side Control|Top', [['108/top', '316', true], ['108/top', '1242', false]]);
+  for (let i = 0; i < 4; i++) { a._saveProgress(); await flush(); }
+  a._pushCloud(); await flush(); await flush();
+  assert.equal(cloud.pushes - p0, 0, 'no push while the Undo is offered: not from the confirm\'s own save, not from later saves, not when asked for');
+  assert.equal(JSON.stringify(cloud.blob.moves), held, 'the cloud has not seen the confirm');
+  assert.ok(c.done.u, 'and the Undo is still offered');
+  // the place is left: the Undo goes first, then the push
+  let undoAtPush = 'never pushed';
+  const push = a._auth().pushNeural; a._auth().pushNeural = async v => { undoAtPush = c.done.u; return push(v); };
+  const painted = a._painted;   // (the app's own Done painted once already)
+  a._undoRelease();
+  assert.equal(c.done.u, null, 'the hold ends: the Undo is withdrawn at once');
+  assert.equal(a._painted - painted, 1, 'and the line is drawn again without it');
+  await flush(); await flush();
+  assert.equal(cloud.pushes - p0, 1, 'then ONE push');
+  assert.equal(undoAtPush, null, 'made after the Undo was withdrawn, never before');
+  assert.deepEqual(cloud.blob.moves['108/top'], a.moves['108/top'], 'the pushed record holds the confirm\'s rows');
+  assert.equal(cloud.blob.moves['108/top']['316'][3], 1); assert.equal(cloud.blob.moves['108/top']['1242'][3], 0);
+  // a confirm, then its Undo: the cloud never sees the rows at all, and the Undo's own push carries the record as it was
+  const p1 = cloud.pushes, c2 = confirm(a, s, 'Mount|Bottom', [['76/bottom', '302', true]]);
+  a._saveProgress(); await flush(); await flush();
+  assert.equal(cloud.pushes - p1, 0);
+  assert.equal(a._ungradeMoves(c2.done.u), true); await flush(); await flush();
+  assert.equal(cloud.blob.moves['76/bottom']['302'], undefined, 'a confirm undone is never in the cloud');
+  // two confirms one after the other (the second inside the first's debounce): the push waits for the second's Undo
+  // too, since the record it would send holds the second confirm; when that ends, one push holds both
+  const p2 = cloud.pushes, c3 = confirm(a, s, 'Mount|Bottom', [['76/bottom', '303', true]]), c4 = confirm(a, s, 'Side Control|Top', [['108/top', '400', true]]);
+  assert.equal(c3.done.u, null, 'the next confirm ends the Undo of the one before');
+  a._saveProgress(); await flush(); await flush();
+  assert.equal(cloud.pushes - p2, 0, 'still held: the newer confirm can be undone');
+  a._undoRelease(); await flush(); await flush();
+  assert.ok(cloud.pushes - p2 >= 1, 'pushed once the last Undo is over');
+  assert.equal(c4.done.u, null);
+  assert.equal(cloud.blob.moves['76/bottom']['303'][3], 1); assert.equal(cloud.blob.moves['108/top']['400'][3], 1);
+})));
+test('L2-R1: a hidden tab ends the hold: the Undo first, then the push; and a drawer shut or another session the same', async () => fakeTimers(async ({ flush }) => {
+  for (const how of ['hidden', 'drawer', 'session']) {
+    const doc = { hidden: false, visibilityState: 'visible' };
+    await withDocument(doc, async () => {
+      const cloud = { blob: blob({ 'Mount|Top': 3 }), pushes: 0 };
+      const { a, s } = await signedIn(cloud); await flush(); await flush();
+      const p0 = cloud.pushes, c = confirm(a, s, 'Mount|Bottom', [['76/bottom', '301', true]]);
+      a._saveProgress(); await flush(); await flush();
+      assert.equal(cloud.pushes - p0, 0, how + ': premise: held');
+      if (how === 'hidden') { doc.hidden = true; doc.visibilityState = 'hidden'; } else if (how === 'drawer') a.deckShown = false; else a._session = { cz: new Map() };
+      a._pushCloud();   // any push asked for after that (the tab's own flush, a later save)
+      assert.equal(c.done.u, null, how + ': the Undo is withdrawn before anything is sent');
+      await flush(); await flush();
+      assert.equal(cloud.pushes - p0, 1, how + ': and the confirm goes up, once');
+      assert.equal(cloud.blob.moves['76/bottom']['301'][3], 1);
+      assert.equal(a._undoHold, null);
+    });
+  }
+}));
+test('L2-R1: a cloze\'s Done pushes the rows a roll\'s answers push, and a second device that pulls them merges them as it merges a roll\'s', async () => fakeTimers(async ({ flush }) => withDocument({ hidden: false, visibilityState: 'visible' }, async () => fixedClock(async () => {
+  const start = () => ({ blob: blob({ 'Mount|Top': 3 }, { moves: { '76/bottom': { 301: [20000, 7, 19993, 1, 7, 7], 302: [20000, 30, 19970, 1, 30, 30] } } }), pushes: 0 });
+  const ANSWERS = [['76/bottom', '301', true], ['76/bottom', '302', false], ['76/bottom', '303', true], ['108/top', '316', false]];
+  // device 1, a cloze: one confirm of four, then the place is left
+  const viaCloze = start(), one = await signedIn(viaCloze); await flush(); await flush();
+  confirm(one.a, one.s, 'Mount|Bottom', ANSWERS); one.a._undoRelease(); await flush(); await flush();
+  // the control: the same four as a roll gives them, one hidden card at a time (`_gradeMove` hands the writer one answer)
+  const viaRoll = start(), two = await signedIn(viaRoll); await flush(); await flush();
+  for (const x of ANSWERS) two.a._gradeMoves([x]); await flush(); await flush();
+  assert.ok(viaCloze.pushes >= 1 && viaRoll.pushes >= 1, 'premise: both pushed');
+  assert.deepEqual(viaCloze.blob.moves, viaRoll.blob.moves, 'the pushed move rows are a roll\'s, field by field');
+  for (const [st, mv, ok] of ANSWERS) assert.equal(viaCloze.blob.moves[st][mv][3], ok ? 1 : 0);
+  const lines = mem => JSON.parse(mem.rows.get(PENDING(ownerA)) || '{"e":[]}').e.map(e => e.slice(1));
+  assert.deepEqual(lines(one.mem), lines(two.mem), 'and the journal lines the same, in the same order');
+  // a second device with older rows of its own pulls each cloud: the same merged record either way
+  const own = () => { const m = memory2(); m.rows.set(ngProgressLocalKey(ownerA), JSON.stringify({ format: 'bjj-progress-owner-v1', owner: ownerA, savedAt: 0,
+    blob: blob({ x: 1 }, { moves: { '76/bottom': { 301: [20003, 3, 20000, 1, 3, 3], 305: [20010, 10, 20000, 1, 10, 10] }, '108/top': { 316: [19999, 1, 19998, 0] } } }) })); return m; };
+  const afterCloze = await signedIn(viaCloze, own()); await flush(); await flush();
+  const afterRoll = await signedIn(viaRoll, own()); await flush(); await flush();
+  assert.deepEqual(afterCloze.a.moves, afterRoll.a.moves, 'the second device holds the same rows after pulling a cloze\'s as after pulling a roll\'s');
+  assert.equal(afterCloze.a.moves['76/bottom']['305'][0], 20010, 'its own row for a move the first never answered is kept');
+  for (const [st, mv] of ANSWERS) assert.deepEqual(afterCloze.a.moves[st][mv], viaCloze.blob.moves[st][mv], st + ' ' + mv + ': the later answer is the one kept, as a roll\'s is');
+  assert.deepEqual(viaCloze.blob.moves, viaRoll.blob.moves, 'and both clouds settle on the same record');
+}))));

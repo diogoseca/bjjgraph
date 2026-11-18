@@ -830,6 +830,44 @@ export class Journey {
     return this;
   }
 
+  /**
+   * THE PLAYER KNOWS THE MOVES TODAY'S PLAN WOULD ASK (L2, v1.292.0). Master the game asks a position's MOVES before its
+   * cards, as a cloze, in every answer mode but "Multiple choice" (`_asksMoves`): up to six due ones a visit, and up to two
+   * new ones where none is due, so a player whose record holds an answer meets a cloze at each place the plan visits (a
+   * record with no answer at all gets the older order and cards only, until its first answer). A journey whose subject
+   * is the CARDS runs a player who knows those moves (a Yes on each, not due): no cloze stands before a card and nothing of
+   * it counts toward the day. Call it after boot and BEFORE Master the game opens. It loads the planner as the page does,
+   * reads the plan the app itself builds (`planSummary`) and marks every move dealt at the places that plan asks moves at,
+   * again and again until the plan asks none (knowing a place's moves can change which places are worth most). Returns how
+   * many moves it marked. A journey about the moves (master-cloze.spec.ts) does not call it; and a journey that calls it
+   * says nothing about a new player's first day, where the cloze comes first. A planner that does not land (a journey
+   * that holds or fails its chunk on purpose) marks nothing and returns -1: such a journey does not call this at all.
+   */
+  async knowsPlanMoves(): Promise<number> {
+    return this.page.evaluate(async () => {
+      const a = (window as any).__neural, day = a._epochDay();
+      const landed = await Promise.race([a._ensureGameplanRuntime(), new Promise((r) => setTimeout(() => r(false), 8_000))]);
+      if (!landed || !a._gameplanRuntime) return -1;
+      let marked = 0;
+      for (let round = 0; round < 16; round++) {
+        const plan = a.planSummary(), asked = (plan && plan.moves) || [];
+        if (!asked.length) return marked;
+        const seats = new Set(asked.map((m: any) => m.seat)), game = a._ratingGame(a._giMode === "nogi" ? "nogi" : "gi"), at = a._practiceSeatsAt.mseats;
+        a.moves = a.moves || {};
+        for (const [st, hand] of game.seats) {
+          if (!seats.has(at[st])) continue;
+          for (const [mv, w] of hand) {
+            if (typeof w !== "number") continue;
+            const row = (a.moves[st] = a.moves[st] || {}), r = row[mv];
+            if (Array.isArray(r) && r[3] === 1 && r[0] > day) continue;
+            row[mv] = [day + 30, 30, day - 1, 1]; marked++;
+          }
+        }
+        a._movesRev = (a._movesRev || 0) + 1;
+      }
+      throw new Error("knowsPlanMoves: the plan still asks moves after 16 rounds");
+    });
+  }
   /** Pump simulated time through the app in fixed ticks. */
   async advance(ms: number) {
     await this.page.evaluate((m) => (window as W).__neural.advance(m), ms);

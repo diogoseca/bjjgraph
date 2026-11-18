@@ -82,6 +82,9 @@ async function drawer(page: Page) {
 }
 
 async function openPractice(page: Page, j: any) {
+  // L2 (v1.292.0): Master the game asks a place's moves before its cards; these journeys are about the cards, so their
+  // player knows the moves today's plan would ask
+  await j.knowsPlanMoves();
   await j.clickByMouse(PRACTICE, "Practice");
   await expect(page.locator("[data-practice-page]")).toHaveCount(1);
   await page.waitForFunction(() => !!(window as any).__neural._session?.plan, null, { timeout: 30_000 });

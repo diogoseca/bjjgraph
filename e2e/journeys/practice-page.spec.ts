@@ -34,7 +34,11 @@ async function seed(page: any, due = 1, answered = 0, belt = "white") {
   }, { due, answered, belt });
 }
 
-async function door(page: any, j: any, keyboard = false, touch = false, belts = false) {
+async function door(page: any, j: any, keyboard = false, touch = false, belts = false, held = false) {
+  // L2 (v1.292.0): Master the game asks a place's moves before its cards; these journeys are about the cards, so their
+  // player knows the moves today's plan would ask. `held`: the journey holds or fails the planner's chunk itself, and
+  // this step would wait for it
+  if (!held) await j.knowsPlanMoves();
   await j.clickByMouse(".ng-logo", "open the drawer");
   const selector = '[data-explore-stats] [data-b="due"]';
   if (keyboard) {
@@ -118,7 +122,7 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }
     else await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
     const fixture = await seed(page, cold ? 1 : 0);
     try {
-      await door(page, j, viewport.width === 1440, viewport.width === 390);
+      await door(page, j, viewport.width === 1440, viewport.width === 390, false, cold);
       if (cold) {
         await expect.poll(() => held, { message: "P1-D: the real planner request was held" }).toBe(1);
         await expect(page.locator('[data-session-row][aria-expanded="true"]'), "P1-F: due reviews ignore belt locks").toHaveAttribute("data-session-row", fixture.dueKey);
@@ -203,7 +207,7 @@ test("P1-D: a late planner preserves a revealed answer and in-flight press, then
   let held = 0, release!: () => void;
   const gate = new Promise<void>(r => { release = r; });
   await page.route("**/app/gameplan.js*", async route => { held++; await gate; await route.continue(); });
-  await seed(page, 2); await door(page, j);
+  await seed(page, 2); await door(page, j, false, false, false, true);
   try {
     await expect.poll(() => held).toBe(1);
     await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "reveal while planner is held");
@@ -317,7 +321,7 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }
   const gate = new Promise<void>(r => { release = r; });
   await page.route("**/app/gameplan.js*", async route => { held++; await gate; await route.continue(); });
   try {
-    await door(page, j);
+    await door(page, j, false, false, false, true);
     await expect.poll(() => held).toBe(1);
     const options = page.locator('[data-practice-mc-opt]:visible');
     await expect(options).toHaveCount(3);
@@ -636,7 +640,7 @@ test("P1-F: one owed card, one stripe and an unplanned visit read as plain count
     }
   });
   try {
-    await door(page, j);
+    await door(page, j, false, false, false, true);
     const count = page.locator('[data-session-section="Practice"]');
     await expect(page.locator("[data-practice-section]")).toHaveText("Due reviews \u00b7 1 card");
     await expect(page.locator("[data-practice-belt]")).toHaveText("White belt \u00b7 1 stripe \u00b7 Gi");
@@ -686,7 +690,7 @@ test("P1-F: with no planner a corridor lesson still opens, and the fallback says
   await page.route("**/app/gameplan.js*", route => route.abort());
   await seed(page, 1);
   const { last } = await lessonFixture(page);
-  await door(page, j, false, false, true);
+  await door(page, j, false, false, true, true);
   await expect.poll(() => page.evaluate(() => (window as any).__neural._gameplanLoadState)).toBe("failed");
   await pressLesson(page, j, last);
   const beats = await page.evaluate(() => (window as any).__neural.beats.filter((b: any) => b.beat === "practice_lesson_unplanned"));
