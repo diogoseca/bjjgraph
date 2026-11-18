@@ -9616,6 +9616,9 @@ class Component extends DCLogic {
     // the corridor's one home since v1.287.0 is Master the game: a flip with it open repaints it there (a gi-only lesson goes, its
     // evidence stays), as the Path view's list repaint below did for the Path
     if (this._session?.practice && this._sessionInline()) this._practiceCorridor();
+    // Last rolls open under the flip (Settings is a modal over the drawer): a row's gold is the ruleset's own hand, and a
+    // place this ruleset does not draw offers no actions (`_histRow`, L3-R1 T2), so its rows are drawn again
+    this._refreshHistoryRows();
     const list = this.explorerListRef.current;
     if (list && list.style.display !== "none") this.renderExplorer();
   }

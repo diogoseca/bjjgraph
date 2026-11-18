@@ -64,10 +64,15 @@ import { journey } from "../dsl"
  *       "after a pan of the map the name is gone", and the phone's test at "the place's name on the map is gone…"
  * A NON-KILL THAT CHANGED THE CODE: a line that cleared the name by hand when the look ended stayed green under its own
  * mutant (by then the camera's lease had ended it); the line is gone, and `_shownNode` has the one rule M25 and M26 pin.
+ *   M27 a place the ruleset does not draw still offers its actions (`_histRow`) → "a place this ruleset does not draw…" at "no
+ *       actions on a place this ruleset does not draw"
+ *   M28 Last rolls is not drawn again when the ruleset is switched (`setGiMode`) → the same step
+ *   M29 a submission pressed on the map is seated at the position it starts from (`rollFromPosition`: existing code, the
+ *       door T1 names) → "a submission a roll passed through…" at "a press on the place opens its card, and the card asks that deck"
  * NOT COVERED HERE, and what to check by hand: a pinch (two real fingers; Playwright sends one), whose first finger is the
- * pointerdown M9 pins; a place the ruleset no longer draws (it offers no actions: no journey switches the ruleset after a
- * roll); the camera's 7 s lease running out by itself (camera canon, share-camera.spec.ts); no-gi (the row's gold is
- * `_placeGold`, which reads the ruleset's own hand as the map does).
+ * pointerdown M9 pins; the camera's 7 s lease running out by itself (camera canon, share-camera.spec.ts); the row's GOLD in
+ * no-gi (it is `_placeGold`, which reads the ruleset's own hand as the map does). The name on the map is not yet tied to its
+ * orb at a glance: the lighter spotlight the owner chose for "the map shows where" does that, and it is the map's next part.
  * The harness serves `{}` for dossiers: no claim here reads a film or an article section.
  */
 
@@ -120,8 +125,15 @@ const onScreen = (page: Page, key: string) => page.evaluate((k) => {
 /** does the map NAME this place: the label the last frame published for a pair or for the pointer's node (`draw()`'s own
  *  output, `_lastPairLabel` / `_lastHoverLabel`), on the place's node or its pair's other half */
 const named = (page: Page, key: string) => page.evaluate((k) => {
-  const a = (window as W).__neural, i = a.nodeForKey(k), n = a.nodes[i]
-  return [a._lastPairLabel, a._lastHoverLabel].some((l: W) => !!l && (l.idx === i || l.idx === n.pi) && String(l.main || "").includes(k.split("|")[0]))
+  const a = (window as W).__neural, i = a.nodeForKey(k), n = a.nodes[i], want = a.graphName(n)   // the one name every surface writes
+  return !!want && [a._lastPairLabel, a._lastHoverLabel].some((l: W) => !!l && (l.idx === i || l.idx === n.pi) && String(l.main || "").includes(want))
+}, key)
+/** where a place's OWN orb is on screen (its node through the frame's lift, `_LY`: a pair's two halves are two orbs, and a
+ *  press between them picks either), as page coordinates, and whether the map is what is under that point */
+const orbPoint = (page: Page, key: string) => page.evaluate((k) => {
+  const a = (window as W).__neural, n = a.nodes[a.nodeForKey(k)], c = a.canvas.getBoundingClientRect(), sc = a.W / a.cam.vw
+  const x = c.left + a.W / 2 + (n.x - a.cam.cx) * sc, y = c.top + a.H / 2 + (a._LY(n) - a.cam.cy) * sc
+  return { x, y, map: document.elementFromPoint(x, y) === a.canvas }
 }, key)
 const framed = (s: { x: number; y: number; rect: { left: number; top: number; right: number; bottom: number } }) => {
   const cx = (s.rect.left + s.rect.right) / 2, cy = (s.rect.top + s.rect.bottom) / 2
@@ -350,6 +362,53 @@ for (const touch of [false, true]) {
       await expect(page.locator("[data-hist-go]"), "no Practise here: Master the game lists positions").toHaveCount(0)
       await page.keyboard.press("Enter")
       expect(await page.evaluate(() => !!(window as W).__neural._session), "and ⏎ opens nothing there").toBe(false)
+      // THE DOOR TO ITS CARDS (L3-R1, T1: until v1.293.0 this row opened the submission's own deck in place). Show on the
+      // map names the place; a press on it there opens its card, the card asks THAT deck, and an answer is a grade in it.
+      await press(page, "[data-hist-show]", "Show on the map", touch)
+      for (let i = 0; i < 30 && !framed(await onScreen(page, key)); i++) await j.advance(200)
+      await j.advance(200)
+      expect(await named(page, key), "the map names the submission").toBe(true)
+      const spot = await orbPoint(page, key)
+      expect(spot.map, "premise: the place's orb is not under a control").toBe(true)
+      if (touch) await page.touchscreen.tap(spot.x, spot.y); else await page.mouse.click(spot.x, spot.y)
+      let card: W = null
+      for (let i = 0; i < 30; i++) {
+        await j.advance(300)
+        card = await page.evaluate(() => { const a = (window as W).__neural; return { about: a._landIdx != null && a.nodes[a._landIdx] ? a.nodes[a._landIdx].t : null, deck: a._landQ ? a._landQ.key : null, drawer: !!a.deckShown } })
+        if (card.deck === key) break
+      }
+      expect(card, "a press on the place opens its card, and the card asks that deck").toEqual({ about: sub, deck: key, drawer: false })
+      await j.openQuestion()
+      const q = await j.landQuestion()
+      expect(q, "premise: the card asks its question as multiple choice (Auto, a new card)").not.toBeNull()
+      const qh = await page.evaluate(() => (window as W).__neural._mc.qhash)
+      await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, "the right answer, on the submission's own card")
+      await expect.poll(() => page.evaluate(({ k, h }) => { const a = (window as W).__neural; return !!(a.srs[k] && a.srs[k][h]) }, { k: key, h: qh }),
+        { message: "the answer is a grade in the submission's own deck" }).toBe(true)
+    })
+
+    // L3-R1, T2. From the wire (tests/artifacts/_last_rolls_places_count.mjs): no-gi does not draw 12 positions and 33
+    // submissions that gi draws; gi draws everything. A roll made in gi can stand on one, and the ruleset can be switched
+    // after. The row stays (the record of where a roll went does not obey the ruleset: CLAUDE.md §6.6); it offers nothing
+    // the map cannot do. The same row is its own control: drawn again, its two actions are back.
+    test(`a place this ruleset does not draw offers no actions, and offers them again when it is drawn (${who})`, async ({ page }) => {
+      const j = journey(page)
+      await j.boot("/")
+      await j.land("Spider Guard Top")
+      expect(await page.evaluate(() => { const a = (window as W).__neural, i = a.nodeForKey("Spider Guard|Top"); return [a._giMode, a.nodes[i].cal.avail.gi, a.nodes[i].cal.avail.nogi] }), "premise: a gi roll, on a place no-gi does not draw").toEqual(["gi", true, false])
+      await openLastRolls(page, touch)
+      const R = row("Spider Guard|Top")
+      await press(page, R, "its row, in gi", touch)
+      await expect(page.locator("[data-hist-show]:visible, [data-hist-go]:visible"), "control: in gi the row has its two actions").toHaveCount(2)
+      await page.evaluate(() => (window as W).__neural.setGiMode("nogi"))
+      await expect(page.locator(R), "the row stays: it is where the roll went").toHaveCount(1)
+      await expect(page.locator("[data-hist-show], [data-hist-go]"), "no actions on a place this ruleset does not draw").toHaveCount(0)
+      await press(page, R, "its row, in no-gi", touch)
+      await page.keyboard.press("Enter"); await page.keyboard.press("Space")
+      await expect(page.locator("[data-hist-show], [data-hist-go]"), "and neither a press nor a key opens any").toHaveCount(0)
+      expect(await page.evaluate(() => { const a = (window as W).__neural; return [!!a._session, a._viewMode, !!a.deckShown] }), "nothing opened, the view stayed").toEqual([false, "history", true])
+      await page.evaluate(() => (window as W).__neural.setGiMode("gi"))
+      await expect(page.locator("[data-hist-show]:visible, [data-hist-go]:visible"), "drawn again: its two actions are back").toHaveCount(2)
     })
   })
 }
