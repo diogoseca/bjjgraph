@@ -688,6 +688,8 @@ test.describe("on a phone with the drawer open, 390x631 by touch", () => {
  * way home too, the door is whole and reached". D2 the door is shown at every redraw of the list, a payload's too
  * (`renderExplorer` calls it) → NOT WRITTEN: the harness lands its payloads before these steps, so no journey here
  * redraws the list under a scrolled player; UNGUARDED, and what to check by hand is a slow network on the home view.
+ * D3 (FOLLOW2-R1) the door is brought up however far down it is (the guard out of `_showFilmDoor`) → "a home list left
+ * with a long section open…" at "the list is at its top, where the way home puts it".
  * NOT COVERED: a film STARTS only from Last rolls, so "no row moves when a film starts" has no home-view case; 390x844,
  * where the door is clear of the bar without a scroll (the function then moves nothing).
  */
@@ -736,6 +738,30 @@ test.describe("the drawer's home view during a film, 390x631 by touch", () => {
     const g = await barGeo(page)
     expect({ view: g.view, film: g.film, of: g.filmOf, atFoot: g.atFoot }, "with the film still on, its bar at the list's foot").toEqual({ view: "history", film: true, of: past.ts, atFoot: true })
     await expect(page.locator(`[data-replay-roll="${past.ts}"][data-replaying]`), "and its own roll says it is the one playing").toHaveCount(1)
+  })
+
+  // ONLY WHEN THE BAR'S COMING IS WHAT HIDES THE DOOR (FOLLOW2-R1; the reader of PR #443 read it in the code, measured
+  // here on the first cut: with Positions left open the way home during a film came up scrolled 3,614 px, at the list's
+  // foot; on dev at its top). A door that was out of view without the bar is the player's own list, and stays theirs.
+  // Mutant D3 (the guard out) → red at "the list is at its top…".
+  test("a home list left with a long section open is not thrown to its foot: the way home during a film leaves it at its top", async ({ page }) => {
+    const j = journey(page)
+    const past = await archivedRoll(j, page)
+    await page.evaluate(() => (window as any).__neural.setPaused(false))
+    await tapOn(page, ".ng-logo", "the logo")
+    await tapOn(page, '[data-explore-section="Positions"]', "the Positions section's head", 60)
+    await expect.poll(async () => { const h = await homeGeo(page); return h.door!.top - h.list!.bottom }, { message: "premise: the section is open and long: the Last rolls door is far below the list's foot" }).toBeGreaterThan(1000)
+    await tapOn(page, '[data-view="history"]', "Last rolls (scrolled to, as a thumb does)")
+    await expect(page.locator("[data-past-roll]").first()).toBeVisible()
+    await tapOn(page, `[data-replay-roll="${past.ts}"]`, "the past roll's replay control")
+    await j.advance(300)
+    await tapOn(page, ".ng-drawer-brand", "‹ Last rolls: the way home")
+    await page.waitForTimeout(200)
+    const h = await homeGeo(page)
+    expect({ view: h.view, film: h.film }, "premise: home again, the film on").toEqual({ view: "explore", film: true })
+    expect(h.bar!.top, "premise: the film's bar stands at the foot of the home list").toBeGreaterThanOrEqual(h.list!.bottom - 0.5)
+    expect(h.door!.top - h.list!.bottom, "premise: the door is far below still (the section stayed open)").toBeGreaterThan(1000)
+    expect(h.scroll, "the list is at its top, where the way home puts it: the bar's coming is not what hides the door").toBe(0)
   })
 
   test("no row of the home view moves when a film is stopped or ends by itself", async ({ page }) => {

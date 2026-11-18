@@ -3992,12 +3992,20 @@ class Component extends DCLogic {
    * left there. NO ROW MOVES WHEN THE FILM STOPS: the list gets the bar's room back at its end and keeps its scroll; the
    * rolls listed under the door are more than that room, so the browser has nothing to pull back (pinned on the home
    * view by history-replay.spec.ts).
+   * ONLY WHEN THE BAR'S COMING IS WHAT HIDES THE DOOR (FOLLOW2-R1; the reader of PR #443 read it in the code, then
+   * measured here): the door is brought up when it would stand whole in the list without the bar's room, that is above
+   * the account's foot. A list the player left with a long section open has its door thousands of px down, bar or no
+   * bar: the first cut scrolled all that way, and the way home during a film came up at the list's FOOT (390x631,
+   * Positions open: scrolled 3,614 px, the "Explore" head 3,494 px above the screen; on dev at its top). That list is
+   * left where the home view puts it. It matters more since the bar also sits in the drawer beside a board too narrow
+   * for it (`_seatReplayBar`), where sections are left open as a matter of course.
    */
   _showFilmDoor() {
     const bar = this._replayEl, list = this.explorerListRef.current;
     if (!bar || !bar.hasAttribute("data-in-drawer") || !list || list.offsetParent === null) return;
     const door = list.querySelector('[data-view="history"]'); if (!door) return;
-    const d = door.getBoundingClientRect(), l = list.getBoundingClientRect();
+    const d = door.getBoundingClientRect(), l = list.getBoundingClientRect(), foot = bar.nextElementSibling;
+    if (foot && d.bottom > foot.getBoundingClientRect().top) return;   // not the bar's doing: it was out of view without it
     // (whole pixels, and 6 px of air: a scroll offset is an integer, and a door flush against the bar reads as cut)
     if (d.bottom + 6 > l.bottom) list.scrollTop += Math.ceil(d.bottom + 6 - l.bottom);
     else if (d.top < l.top) list.scrollTop -= Math.ceil(l.top - d.top);
