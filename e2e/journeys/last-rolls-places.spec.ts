@@ -311,6 +311,10 @@ for (const touch of [false, true]) {
       await expect(page.locator('[data-master-row="Mount|Top"]'), "its row is marked").toHaveAttribute("data-on", "")
       // (the reader of PR #440 could not produce this one: Mount, top is a place this guest has been to, with nothing due)
       await expect(page.locator("[data-practice-section]"), "a been-to place with nothing due opens, as a free review").toContainText("free review")
+      // R4: that free review is the place's WHOLE deck (a later visit asks what is left of it): its figure counts every card
+      const whole = await page.evaluate(() => { const a = (window as W).__neural; return a._deckCardCount(a.flashcards.decks["Mount|Top"]) as number })
+      expect(whole, "premise: Mount, top has a deck of several cards").toBeGreaterThan(2)
+      await expect(page.locator('[data-master-row="Mount|Top"] [data-master-prog]'), "the free review holds the place's whole deck: its figure counts every card of it").toHaveText(`0/${whole}`)
       expect((await page.evaluate(() => (window as W).__tracked)).filter((t: W) => t[0] === "neural_practice_opened").map((t: W) => t[1].surface), "one opening, its surface lastrolls").toEqual(["lastrolls"])
       expect(Object.keys(before).length, "premise: the record is read whole").toBeGreaterThan(15)
       expect(changed(before, await record(page)), "the press wrote nothing to the record").toEqual([])
@@ -761,8 +765,9 @@ test.describe("a row opened near the end of a long list, 390x631", () => {
     await page.waitForTimeout(250)
     const afterLow = await geo(low)
     expect(afterLow.acts, "a row opened at the list's foot: its two actions are whole in the list and under the finger").toEqual([{ whole: true, hit: true, h: 44 }, { whole: true, hit: true, h: 44 }])
+    // (the two actions' block is 58 px, the list keeps 12 px under it, and the block is measured while it fades in from 8 px lower)
     expect(afterLow.top - edge.top, "the list scrolled just enough to show them: the actions' own height, no more").toBeGreaterThanOrEqual(46)
-    expect(afterLow.top - edge.top, "and no more").toBeLessThanOrEqual(72)
+    expect(afterLow.top - edge.top, "and no more").toBeLessThanOrEqual(80)
     await expect(page.locator(low), "and the row itself is still in view").toBeInViewport({ ratio: 1 })
     // the last row, at the list's very end
     const last = row(keys[13])

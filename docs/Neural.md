@@ -800,9 +800,9 @@ it, so the URL (`…/Bottom`) re-seats you on reload. Esc closes the sheet alone
 inside it stay there. A graph tap
 needs no sheet: the pair's two orbs are the seat choice.
 
-**Last rolls** — the places a roll went through, in memory (`_histRow`): per row ▶ (stage a roll
-there, side as played, clock held), ⟲ (replay), its gold, Show on the map (a phone holds the
-clock) and Practise here (`openMasterAt`).
+**Last rolls** — a roll's places, in memory: per row ▶ (stage a roll there, side as played, clock
+held), ⟲ (replay), its gold, Show on the map (`Space`; a phone holds the clock) and Practise here
+(`⏎`; a focused button keeps its own key).
 
 **Every roll you played reaches the shelf, and the shelf repaints when it does (v1.174.0).**
 `_closeRoll()` is the ONE seam the three roll-enders call — `startRoll`, `rollFromPosition`,
