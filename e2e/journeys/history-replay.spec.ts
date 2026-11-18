@@ -357,3 +357,198 @@ test.describe("on the phone", () => {
     expect(await page.evaluate(() => !!(window as any).__neural.paused), "and the roll resumes, because the film was holding that pause").toBe(false)
   })
 })
+
+/**
+ * THE FILM'S BAR NEVER COVERS A ROW'S CONTROL ON A PHONE (FOLLOW1, v1.293.1)
+ *
+ * The bar docks where the landing card docks. With the drawer open on a phone the drawer is the screen, and that dock put
+ * the bar across the middle of the drawer's list: measured at 390x631 on dev v1.292.1 and on v1.293.0, the bar at y 246
+ * to 292 over a list running from 58 to 556, its left end 26 px off the screen, and an open Last rolls row's two actions
+ * exactly under it (both hit the bar, not themselves). While the drawer is open on a phone the bar is a row of the drawer,
+ * under its head and in the flow (`_seatReplayBar`, app.src.jsx; `.ng-replaybar[data-in-drawer]`, helmet.html): the list
+ * starts below it. Anywhere else it is where it was.
+ *
+ * §6.1's traps, each checked here rather than assumed: the bar's ✕ is pressed by a REAL touch at its measured middle, with
+ * `elementFromPoint` at its middle and four edges (a control moved between planes is the class that is visible and
+ * dead); nothing is hidden by opacity; the bar in the drawer is not docked at all (in the flow, no measured rect, no CSS
+ * constant) and on the map it docks as before; it takes no z-index in the drawer; no inline style is reset by hand; and
+ * its box is asserted as rendered (44 px, whole on the screen), which is what Quartz's bare-element rules would move.
+ *
+ * Mutants (each alone, in the served bundle, a clean control first):
+ *   B1 the bar never takes its seat in the drawer (`_seatReplayBar`: `inDrawer` false) → the phone's test at "the bar is a
+ *      row of the drawer, under its head"
+ *   B2 it takes that seat on a desktop too (the phone test dropped) → the desktop's test at "on a desktop the bar stays on
+ *      the map, beside the drawer"
+ *   B3 the drawer's opening and closing do not move it (`applyDeckVisibility`'s call out) → the phone's test at "the drawer
+ *      shut, the bar is back on the map"
+ *   B4 the drawer's style for it is gone (helmet.html's rule out: still a fixed card, but inside the drawer) → the phone's
+ *      test at "the list starts below the bar"
+ *   B5 a resize across the phone's width does not move it (`resize`'s call out) → the resize test at "narrowed to a
+ *      phone's width, the bar is a row of the drawer"
+ * FOUND, NOT THIS CHANGE'S: on the map on a phone the bar follows the landing card's column (`_layoutLandHorizontal`), and
+ * over a card that is a deck that leaves its left end 26 px off the screen (its dot and border; the words start at the edge).
+ * It was so before, drawer open or shut, and is so on the map still.
+ * NOT COVERED: a film STEP re-seats the bar too (`_renderReplayBar`), so B3 and B5 are caught only because no film time
+ * passes between the gesture and the reading; a rotation of a real phone (the same `resize`).
+ */
+type Rect = { left: number; top: number; right: number; bottom: number; width: number; height: number }
+const barGeo = (page: Page) =>
+  page.evaluate(() => {
+    const a: App = (window as any).__neural
+    const rr = (el: Element | null): Rect | null => { if (!el) return null; const r = el.getBoundingClientRect(); return { left: r.left, top: r.top, right: r.right, bottom: r.bottom, width: r.width, height: r.height } }
+    const bar = document.querySelector("[data-replay-bar]") as HTMLElement | null, drawer = a.drillRef.current as HTMLElement, list = a.drillListRef.current as HTMLElement
+    const head = drawer.querySelector(".ng-drawer-head")
+    return {
+      film: !!a._replay, paused: !!a.paused, drawerOpen: !!a.deckShown, view: a._viewMode as string,
+      bar: rr(bar), inDrawer: !!bar && bar.hasAttribute("data-in-drawer"), parent: !bar ? null : bar.parentElement === drawer ? "the drawer" : bar.parentElement === (a.__ngRoot || document.body) ? "the app root" : "elsewhere",
+      underHead: !!bar && bar.previousElementSibling === head, position: bar ? getComputedStyle(bar).position : null,
+      head: rr(head), list: list && list.offsetParent !== null ? rr(list) : null, drawer: rr(drawer),
+      pastHead: rr(document.querySelector("[data-past-roll]")), vw: innerWidth, vh: innerHeight,
+    }
+  })
+/** is this control whole inside `within` and the screen, and is it what a press at its middle and near both ends reaches */
+const reach = (page: Page, selector: string, within: Rect) =>
+  page.evaluate(({ sel, w }) => {
+    return [...document.querySelectorAll(sel)].filter((e) => (e as HTMLElement).offsetParent !== null).map((e) => {
+      const r = e.getBoundingClientRect(), cy = r.top + r.height / 2
+      const hit = [[r.left + r.width / 2, cy], [r.left + 5, cy], [r.right - 5, cy], [r.left + r.width / 2, r.top + 4], [r.left + r.width / 2, r.bottom - 4]].map(([x, y]) => { const t = document.elementFromPoint(x, y); return !!t && (t === e || e.contains(t)) })
+      const bar = document.querySelector("[data-replay-bar]"), b = bar ? bar.getBoundingClientRect() : null
+      return { what: ((e.textContent || "").trim() || e.getAttribute("aria-label") || e.className).slice(0, 24), w: Math.round(r.width), h: Math.round(r.height),
+        whole: r.top >= w.top - 0.5 && r.bottom <= w.bottom + 0.5 && r.left >= Math.max(0, w.left) - 0.5 && r.right <= Math.min(innerWidth, w.right) + 0.5, hit: hit.every(Boolean),
+        underBar: !!b && e !== bar && !bar!.contains(e) && r.left < b.right && r.right > b.left && r.top < b.bottom && r.bottom > b.top }
+    })
+  }, { sel: selector, w: within })
+/** a real touch at a control's measured middle, refused unless the control is what is there */
+async function tapOn(page: Page, selector: string, what: string, dx = 0) {
+  const at = await page.evaluate(({ sel, dx }) => {
+    const e = [...document.querySelectorAll(sel)].find((x) => (x as HTMLElement).offsetParent !== null) as HTMLElement | undefined
+    if (!e) return null
+    const r = e.getBoundingClientRect(), x = dx ? r.left + dx : r.left + r.width / 2, y = r.top + r.height / 2, t = document.elementFromPoint(x, y)
+    return { x, y, ok: !!t && (t === e || e.contains(t)) }
+  }, { sel: selector, dx })
+  expect(at, `${what}: on the screen`).not.toBeNull()
+  expect(at!.ok, `${what}: it is what a touch at (${Math.round(at!.x)},${Math.round(at!.y)}) reaches`).toBe(true)
+  await page.touchscreen.tap(at!.x, at!.y)
+}
+
+test.describe("on a phone with the drawer open, 390x631 by touch", () => {
+  test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })
+  test("the film's bar is a row of the drawer: no control of an open row lies under it, and its own ✕ is whole", async ({ page }) => {
+    const j = journey(page)
+    const past = await archivedRoll(j, page)
+    await page.evaluate(() => (window as any).__neural.setPaused(false)) // mid-roll when the drawer opens, as the film's own phone test above
+    await tapOn(page, ".ng-logo", "the logo")
+    await tapOn(page, '[data-view="history"]', "Last rolls")
+    await expect(page.locator("[data-past-roll]").first()).toBeVisible()
+    const g0 = await barGeo(page)
+    expect(g0, "premise: Last rolls is open, the drawer holds the clock, no film yet").toMatchObject({ film: false, paused: true, drawerOpen: true, view: "history", bar: null })
+    expect(g0.list, "premise: the list is on the screen").not.toBeNull()
+
+    await tapOn(page, `[data-replay-roll="${past.ts}"]`, "the past roll's replay control")
+    await j.advance(300)
+    const g = await barGeo(page)
+    expect(g.film, "the film is running").toBe(true)
+    expect({ parent: g.parent, inDrawer: g.inDrawer, underHead: g.underHead }, "the bar is a row of the drawer, under its head").toEqual({ parent: "the drawer", inDrawer: true, underHead: true })
+    expect(g.bar!.top, "it starts where the head ends").toBeGreaterThanOrEqual(g.head!.bottom - 0.5)
+    expect(g.list!.top, "the list starts below the bar").toBeGreaterThanOrEqual(g.bar!.bottom - 0.5)
+    expect([g.bar!.left >= 0, g.bar!.right <= Math.min(g.vw, g.drawer!.right) + 0.5], "and the bar is whole on the screen, inside the drawer (its left end was 26 px off it)").toEqual([true, true])
+    // the list does not jump when a film starts beyond the bar's own height
+    expect(g.list!.top - g0.list!.top, "the film's start moved the list down by the bar's own height, no further").toBeCloseTo(g.bar!.height, 0)
+    expect(g.pastHead!.top - g0.pastHead!.top, "and the roll's row with it, by the same").toBeCloseTo(g.bar!.height, 0)
+    expect(g.bar!.height, "premise: the bar is a thumb's height, not a banner").toBeLessThanOrEqual(60)
+
+    // every control of an open row, each row in turn: whole, reached by a press at its middle and both ends, none under the bar
+    await tapOn(page, "[data-past-roll]", "the past roll's row (the film's start drew the list again, folded)", 70)
+    const rows = await page.evaluate(() => [...document.querySelectorAll("[data-hist]")].filter((e) => (e as HTMLElement).offsetParent !== null).length)
+    expect(rows, "premise: the past roll's states and this roll's are on the list").toBeGreaterThanOrEqual(past.states + 1)
+    let checked = 0
+    for (let i = 0; i < rows; i++) {
+      const at = await page.evaluate((i) => { const e = [...document.querySelectorAll("[data-hist]")].filter((x) => (x as HTMLElement).offsetParent !== null)[i] as HTMLElement; e.scrollIntoView({ block: "nearest" }); const r = e.getBoundingClientRect(); return { x: r.left + 70, y: r.top + r.height / 2, ok: e.contains(document.elementFromPoint(r.left + 70, r.top + r.height / 2)) } }, i)
+      expect(at.ok, `row ${i + 1}: its own body is what a touch reaches`).toBe(true)
+      await page.touchscreen.tap(at.x, at.y)
+      await page.waitForTimeout(400) // the actions fade in, and a row cut by the foot scrolls into view (R10)
+      const now = await barGeo(page)
+      const ctl = await reach(page, ".ng-hact button", now.list!)
+      expect(ctl.length, `row ${i + 1}: it opened its actions`).toBeGreaterThan(0)
+      for (const c of ctl) expect(c, `row ${i + 1}, "${c.what}": whole in the list, reached by a touch, not under the film's bar`).toMatchObject({ whole: true, hit: true, underBar: false })
+      checked += ctl.length
+    }
+    expect(checked, "controls measured in all (a count, so that no row checked nothing)").toBeGreaterThanOrEqual(rows)
+    expect((await barGeo(page)).film, "premise: the film ran through all of it").toBe(true)
+
+    // the bar's own control: whole, 44 px, and what a touch reaches at its middle and its four edges
+    const g1 = await barGeo(page)
+    const stop = await reach(page, "[data-replay-stop]", g1.bar!)
+    expect(stop.length).toBe(1)
+    expect(stop[0], "the bar's ✕: whole inside the bar, reached at its middle and four edges").toMatchObject({ whole: true, hit: true })
+    expect(Math.min(stop[0].w, stop[0].h), "and 44 px").toBeGreaterThanOrEqual(44)
+    const label = await page.evaluate(() => { const l = document.querySelector("[data-replay-label]") as HTMLElement, r = l.getBoundingClientRect(); return { text: (l.textContent || "").trim(), left: r.left, right: r.right } })
+    expect(label.text.length, "its words are written").toBeGreaterThan(3)
+    expect(label.left, "and start on the screen").toBeGreaterThanOrEqual(0)
+
+    // the drawer shut (how a phone watches the film): the bar is on the map again, docked as before; opened, it is back
+    await tapOn(page, ".ng-explorer-close", "shut the drawer")
+    const shut = await barGeo(page)
+    expect({ film: shut.film, drawerOpen: shut.drawerOpen, parent: shut.parent, inDrawer: shut.inDrawer, position: shut.position }, "the drawer shut, the bar is back on the map").toEqual({ film: true, drawerOpen: false, parent: "the app root", inDrawer: false, position: "fixed" })
+    await j.advance(300)
+    await page.waitForTimeout(120) // its dock runs on the next frame
+    // (WHERE it docks on the map is dev's own and not this change's: over a landing card that is a deck the bar follows the
+    // card's column, which on a phone leaves its left end 26 px off the screen, drawer open or shut. Named in the PR, not
+    // asserted. Its ✕, at the other end, is what a thumb needs there:)
+    const onMap = await reach(page, "[data-replay-stop]", { left: 0, top: 0, right: shut.vw, bottom: shut.vh, width: shut.vw, height: shut.vh })
+    expect(onMap[0], "and its ✕ is whole on the screen there and reached by a touch").toMatchObject({ whole: true, hit: true })
+    await tapOn(page, ".ng-logo", "the logo")
+    if (!(await page.locator("[data-past-roll]").first().isVisible())) await tapOn(page, '[data-view="history"]', "Last rolls")
+    const again = await barGeo(page)
+    expect({ film: again.film, parent: again.parent, inDrawer: again.inDrawer, underHead: again.underHead }, "the drawer opened again, the bar is its row again").toEqual({ film: true, parent: "the drawer", inDrawer: true, underHead: true })
+
+    // its ✕ by a real touch: the film stops, the bar goes, and the list is back where it was
+    await tapOn(page, "[data-replay-stop]", "the film's ✕, in the drawer")
+    await expect(page.locator("[data-replay-bar]"), "the ✕ stops the film and its bar goes").toHaveCount(0)
+    const end = await barGeo(page)
+    expect(end.film).toBe(false)
+    expect(end.list!.top, "the list is back where it started").toBeCloseTo(g0.list!.top, 0)
+    expect(end.paused, "and the drawer holds the clock, as before the film").toBe(true)
+  })
+})
+
+test("on a desktop the film's bar stays on the map, beside the drawer, and the list does not move", async ({ page }) => {
+  const j = journey(page)
+  const past = await archivedRoll(j, page)
+  await page.evaluate(() => (window as any).__neural.setPaused(false))
+  await j.clickByMouse(".ng-logo", "the logo")
+  await j.clickByMouse('[data-view="history"]', "Last rolls")
+  await expect(page.locator("[data-past-roll]").first()).toBeVisible()
+  await j.advance(1500) // the drawer's opening settles the map beside it
+  const g0 = await barGeo(page)
+  await j.clickByMouse(`[data-replay-roll="${past.ts}"]`, "the past roll's replay control")
+  await j.advance(300)
+  await page.waitForTimeout(120)
+  const g = await barGeo(page)
+  expect(g.film, "the film is running").toBe(true)
+  expect({ parent: g.parent, inDrawer: g.inDrawer, position: g.position }, "on a desktop the bar stays on the map, beside the drawer").toEqual({ parent: "the app root", inDrawer: false, position: "fixed" })
+  expect(g.bar!.left, "clear of the drawer").toBeGreaterThanOrEqual(g.drawer!.right)
+  expect([g.list!.top - g0.list!.top, g.pastHead!.top - g0.pastHead!.top], "and the list did not move: 0 px").toEqual([0, 0])
+  console.log("F1DESK " + JSON.stringify({ bar: [g.bar!.left, g.bar!.top, g.bar!.right, g.bar!.bottom].map((n) => Math.round(n * 10) / 10), drawerRight: g.drawer!.right, listTop: g.list!.top }))
+  await j.clickByMouse("[data-replay-stop]", "the film's ✕, on the map")
+  await expect(page.locator("[data-replay-bar]")).toHaveCount(0)
+})
+
+test("a film's bar changes seat when the window crosses a phone's width, and comes back", async ({ page }) => {
+  const j = journey(page)
+  const past = await archivedRoll(j, page)
+  await page.evaluate(() => (window as any).__neural.setPaused(false))
+  await j.clickByMouse(".ng-logo", "the logo")
+  await j.clickByMouse('[data-view="history"]', "Last rolls")
+  await j.clickByMouse(`[data-replay-roll="${past.ts}"]`, "the past roll's replay control")
+  await j.advance(300)
+  expect((await barGeo(page)).parent, "premise: at 1440 the bar is on the map").toBe("the app root")
+  await page.setViewportSize({ width: 600, height: 800 })
+  await expect.poll(() => page.evaluate(() => (window as any).__neural.isMobile()), { message: "premise: the app has seen the window narrow" }).toBe(true)
+  const narrow = await barGeo(page)
+  expect({ film: narrow.film, parent: narrow.parent, inDrawer: narrow.inDrawer, underHead: narrow.underHead }, "narrowed to a phone's width, the bar is a row of the drawer").toEqual({ film: true, parent: "the drawer", inDrawer: true, underHead: true })
+  await page.setViewportSize({ width: 1440, height: 900 })
+  await expect.poll(() => page.evaluate(() => (window as any).__neural.isMobile()), { message: "premise: the app has seen the window widen" }).toBe(false)
+  const wide = await barGeo(page)
+  expect({ film: wide.film, parent: wide.parent, inDrawer: wide.inDrawer, position: wide.position }, "widened again, it is back on the map").toEqual({ film: true, parent: "the app root", inDrawer: false, position: "fixed" })
+})

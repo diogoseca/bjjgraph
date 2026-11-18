@@ -3790,6 +3790,9 @@ class Component extends DCLogic {
     // stopped it (a hand-paused roll stays paused when you close it). One latch for the whole
     // merged pane (any tab, any study surface). Latched here, not in setDeckOpen, because study, session and checkpoint entry
     // points also assign deckOpen directly.
+    // `_paneAutoPaused`'S LIFTERS, the complete set (§6.5): the close branch below (it resumes, or hands the pause to a film
+    // that is running); `_showPlace` (hands it to a look, on a phone); `_clearPauseLatches` (a reference page takes the roll
+    // away); and `setPaused(false)`, any other hand that starts the clock (FOLLOW1: a clock that runs is nobody's).
     // _paneTransition: the open/close beats run challenge-evidence processing, whose refresh
     // tail re-renders the pane body — mid-transition that's a double render that eats one-shot
     // state (migration notice, shelf scroll). The flag makes the refresh skip it; the caller's
