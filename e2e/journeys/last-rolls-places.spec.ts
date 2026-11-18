@@ -744,8 +744,15 @@ test.describe("a row opened near the end of a long list, 390x631", () => {
     // a row whose bottom is at the list's bottom edge (the player has scrolled it there): its actions would open under the
     // panel's foot, all of them
     await press(page, mid, "the middle row again, to close it", true)
-    const low = row(keys[9])
-    await page.evaluate((q) => { const l = (window as W).__neural.drillListRef.current as HTMLElement; l.scrollTop = 0; l.scrollTop += document.querySelector(q)!.getBoundingClientRect().bottom - l.getBoundingClientRect().bottom }, low)
+    // (the first row that starts below the list's foot with the list unscrolled, then scrolled so its own foot is at the list's)
+    const lowKey = await page.evaluate(() => {
+      const l = (window as W).__neural.drillListRef.current as HTMLElement; l.scrollTop = 0
+      const lb = l.getBoundingClientRect().bottom, r = [...document.querySelectorAll("[data-hist]")].find((e) => e.getBoundingClientRect().bottom > lb + 4)!
+      l.scrollTop += r.getBoundingClientRect().bottom - lb
+      return r.getAttribute("data-hist") as string
+    })
+    const low = row(lowKey)
+    expect(lowKey, "premise: a row other than the last").not.toBe(keys[13])
     await page.waitForTimeout(100)
     const edge = await page.evaluate((q) => { const l = (window as W).__neural.drillListRef.current as HTMLElement, r = document.querySelector(q)!.getBoundingClientRect(); return { room: l.getBoundingClientRect().bottom - r.bottom, top: l.scrollTop } }, low)
     expect(Math.abs(edge.room), "premise: the row's foot is at the list's foot, no room under it").toBeLessThan(2)
