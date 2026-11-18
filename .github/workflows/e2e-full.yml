@@ -224,7 +224,17 @@ jobs:
     # shard job's alone. Build and gen keep 25, and gen is the closer of the two: 5m50s on run
     # 42266283562, but 20m55s on run 42222522276, and cancelled at 25 twice on 2026-10-28 on one
     # sick branch (runs 40766387204, 40790056850).
-    timeout-minutes: 35
+    #
+    # v1.293.2: raised 35 -> 45. Two shards on dev were cancelled at 35 with nothing failed, and both times a network
+    # step, not the suite, ate the margin. Run 44309956298 (8b0191f97) shard 1: cancelled at 35m06s, 1.2s after
+    # Playwright printed "4 skipped, 507 passed (24.8m)", so its whole quarter had passed; "Download tested site" took
+    # 7m39s (13:13:40 to 13:21:19) for the 109 MiB artifact the other four jobs fetched in 3-4s. Run 44191810640
+    # (609e3a0d7) shard 2: cancelled at 35m15s with 437 of 470 reported and none failed; its checkout took 12m06s.
+    # On the ten green dev runs 44013553537 to 44286779127 the longest shard job was 25m57s and the longest suite step
+    # 24m43s (both on run 44286779127), so a full suite step plus a 7-12 minute stall lands near 37 minutes. 45 sits
+    # above that and still bounds a hang. Build and gen keep 25: on those ten runs build peaked at 8m25s and gen at
+    # 10m06s (4m56s of it apt).
+    timeout-minutes: 45
     strategy:
       fail-fast: false
       matrix:
