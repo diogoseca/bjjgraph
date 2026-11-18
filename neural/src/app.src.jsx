@@ -19540,7 +19540,11 @@ class Component extends DCLogic {
   _seatReplayBar() {
     const el = this._replayEl; if (!el) return;
     const pane = this.drillRef.current, foot = pane && pane.querySelector(".ng-acctwrap"), root = this.__ngRoot || document.body;
-    if (!el.isConnected) root.appendChild(el);   // a new bar has no style to read until it is in the page
+    // A new bar has no style to read until it is in the page: asked before, it would find no cap and take the open
+    // drawer's seat at any width. (Today the film's start renders the bar twice in one task, so that seat would be put
+    // right before a frame is drawn, and no journey can see this line: its mutant survives, recorded in
+    // history-replay.spec.ts. It is kept so that the seat is right at the first call, not by a second.)
+    if (!el.isConnected) root.appendChild(el);
     const W = this.W || window.innerWidth, edge = this._chromeEdge();
     const wide = Math.min(parseFloat(getComputedStyle(el).maxWidth) || W, W - 2 * edge);   // the bar's width on the map ("none" on a phone: the screen's)
     const noRoom = this.isMobile() || W - this.sbOffset() < wide + 2 * edge;

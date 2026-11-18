@@ -760,7 +760,7 @@ test.describe("the drawer's home view during a film, 390x631 by touch", () => {
     const h = await homeGeo(page)
     expect({ view: h.view, film: h.film }, "premise: home again, the film on").toEqual({ view: "explore", film: true })
     expect(h.bar!.top, "premise: the film's bar stands at the foot of the home list").toBeGreaterThanOrEqual(h.list!.bottom - 0.5)
-    expect(h.door!.top - h.list!.bottom, "premise: the door is far below still (the section stayed open)").toBeGreaterThan(1000)
+    expect(h.door!.top + h.scroll! - h.list!.bottom, "premise: the section stayed open: the door's place in the list is far below its foot, wherever the list is scrolled").toBeGreaterThan(1000)
     expect(h.scroll, "the list is at its top, where the way home puts it: the bar's coming is not what hides the door").toBe(0)
   })
 
@@ -870,7 +870,12 @@ test("a film's bar changes seat when the window crosses a phone's width, and com
  *   T2 the seat finds no room at any width (always in the open drawer) → 912 and 1440 at "the bar can stand whole
  *      beside the drawer: it is on the map", and the two desktop journeys above
  *   T3 a resize re-seats the bar only across the phone's breakpoint, as before → the resize journey at "narrowed to 800…"
- *   T4 a new bar is asked before it is in the page (it has no style to read) → 912 and 1440 at "…it is on the map"
+ *   T4 a new bar is asked before it is in the page (it has no style to read, and is seated in the open drawer at any
+ *      width) → SURVIVED, and recorded so that nobody reads these journeys as covering it: the film's start renders the
+ *      bar twice in one task (`startReplay`, then its first step), so a first seat taken blind is put right before any
+ *      frame is drawn. The line is kept: a bar rendered once would stand at the drawer's foot until the film's next
+ *      step. UNGUARDED; what to check by hand, if the film's start ever renders its bar once: at 1440 with the drawer
+ *      open, the bar is on the map from its first frame.
  *   T5 the phone's rule does not lift the cap → "at 600 wide…" at "the bar on the map is the screen's width less 20 px"
  * NOT COVERED: from 912 to 919 a bar that follows a wide card's column still lies a few px over the drawer's edge, as on
  * dev (the dock's own centre, not the seat's question; measured for the PR's report, not asserted); a drawer of another
