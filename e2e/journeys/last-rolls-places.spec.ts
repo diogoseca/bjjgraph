@@ -391,7 +391,7 @@ test.describe("on a phone, Show on the map is a look: the hold and every way it 
     expect((await beats(page, "look_ended")).map((b: W) => b.by), "and the hold says how it ended").toEqual(["map"])
     expect((await state(page)).look, "the claim is over").toBe(false)
     await j.advance(800)
-    expect(await named(page, "Mount|Top"), "and the place's name on the map goes with the look").toBe(false)
+    expect(await named(page, "Mount|Top"), "and the place's name on the map is gone: the look is over and the camera's lease long spent").toBe(false)
   })
 
   test("on a phone a wheel on the map lets it go too", async ({ page }) => {

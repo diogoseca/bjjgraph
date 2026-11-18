@@ -889,15 +889,16 @@ class Component extends DCLogic {
   }
   // THE PLACE "SHOW ON THE MAP" SHOWED, NAMED ON THE MAP the way a node under the pointer is (`draw()`'s hover label reads this
   // when nothing is under the pointer). No lifters of its own to forget (§6.5): it lasts exactly as long as what it rides,
-  // the look's hold on a phone (`_lookAutoPaused`, ended with it in `_lookEnd`) and otherwise the camera's lease ON THIS
-  // FLIGHT (`camHeld()` with the lease's own target: 7 s, a pan, pinch or wheel, any other flight, any go-elsewhere).
+  // the look's hold on a phone (`_lookAutoPaused`: however long the player looks) and the camera's lease ON THIS FLIGHT
+  // (`camHeld()` with the lease's own target: 7 s, a pan, pinch or wheel, any other flight, any go-elsewhere). Nothing
+  // clears it by hand: a line that did, in `_lookEnd`, survived its own mutant (the lease had already said no).
   _shownNode() {
     const s = this._shown;
     return s && (this._lookAutoPaused || (this.camHeld() && this._camHoldTarget === s.t)) ? this.nodes[s.i] || null : (this._shown = null);
   }
   _lookEnd(by) {
     if (!this._lookAutoPaused) return;
-    this._lookAutoPaused = false; this._shown = null;
+    this._lookAutoPaused = false;
     this.fx("look_ended", { by });
     if (by === "drawer") this._paneAutoPaused = true;
     else if (by === "map") this.setPaused(false);
