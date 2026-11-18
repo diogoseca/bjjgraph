@@ -164,8 +164,9 @@ test("Esc closes the pane once no overlay is up", async ({ page }) => {
  * played one unseen (600 wide, 1 of 1).
  * AS IT IS AT 390 (the reader of PR #441, on dev's build and on this one alike): the drawer is 343 px wide there, the ends
  * of two of the hand's 18 cards show beside it, and a touch on one plays it with the drawer open, while its digit is
- * refused. The rule built here is by WIDTH (`isMobile`), not by reach; one condition by reach for a digit, a click and a
- * touch is the next job's. So the journey below proves "no press can reach a card" where that is true, at 600.
+ * refused. The rule built here was by WIDTH (`isMobile`), not by reach. FOLLOW2 (v1.293.2) asks it BY REACH at
+ * `activateOption`, for a digit, a click and a touch (option-reach.spec.ts): the journeys below are unchanged and still
+ * hold (at 600 the drawer is the screen, and no card's middle is in reach).
  *
  * The survey behind "one rule, not a patch for 1": 14 key listeners in the build inputs and the window ladder's 14
  * branches, read whole. The digits 1 to 9 are the only keys that act on the roll while the drawer holds it; A to C, Enter,
@@ -180,7 +181,7 @@ test("Esc closes the pane once no overlay is up", async ({ page }) => {
  *      a card nobody could press"
  * NOT COVERED: a real phone has no keyboard to press a digit with; the covered case is asserted in a mouse window of a
  * phone's width, which is where a keyboard meets it. The touch at 390 on a card's end beside the drawer (above), and a
- * card partly under the drawer at 641 played by its digit: both dev's own, both the next job's.
+ * card partly under the drawer at 641 played by its digit: option-reach.spec.ts (FOLLOW2).
  */
 const pane = (page: any) => page.evaluate(() => {
   const a = (window as any).__neural

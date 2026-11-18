@@ -671,6 +671,106 @@ test.describe("on a phone with the drawer open, 390x631 by touch", () => {
   })
 })
 
+/**
+ * THE DRAWER'S HOME VIEW DURING A FILM, ON A SHORT PHONE (FOLLOW2, v1.293.2)
+ *
+ * The drawer opens on its home view, and the film's bar takes its room at the foot of whatever list shows. At 390x631
+ * that is where the "Last rolls" door stands: the reader of PR #441 measured 5 of its 28 px showing and a touch at its
+ * middle landing on the bar (in the real app the door lay wholly under it); on dev v1.293.0 it was reached without a
+ * scroll. That door is the way back to the list the film was started from. When the home view comes up while a film's
+ * bar stands in the drawer (the drawer's opening, the way home from a view) its list is scrolled just far enough to
+ * show the door whole (`_showFilmDoor`, app.src.jsx). No finger is on a row then. And PR #441's rule holds here too: no
+ * row of the home view moves when the film is stopped or ends by itself (the list gets the bar's room back at its end and
+ * keeps its scroll: the rolls listed under the door are more than that room).
+ *
+ * Mutants: D1 the home view does not show the door (`_showFilmDoor` does nothing) → "the drawer opened again during a
+ * film…" at "the Last rolls door is whole in the list and reached by a touch", and "no row of the home view…" at "by the
+ * way home too, the door is whole and reached". D2 the door is shown at every redraw of the list, a payload's too
+ * (`renderExplorer` calls it) → NOT WRITTEN: the harness lands its payloads before these steps, so no journey here
+ * redraws the list under a scrolled player; UNGUARDED, and what to check by hand is a slow network on the home view.
+ * NOT COVERED: a film STARTS only from Last rolls, so "no row moves when a film starts" has no home-view case; 390x844,
+ * where the door is clear of the bar without a scroll (the function then moves nothing).
+ */
+const homeGeo = (page: Page) =>
+  page.evaluate(() => {
+    const a: App = (window as any).__neural, l = a.explorerListRef.current as HTMLElement, bar = document.querySelector("[data-replay-bar]")
+    const rr = (el: Element | null): Rect | null => { if (!el) return null; const r = el.getBoundingClientRect(); return { left: r.left, top: r.top, right: r.right, bottom: r.bottom, width: r.width, height: r.height } }
+    const shown = l && l.offsetParent !== null
+    return { view: a._viewMode as string, film: !!a._replay, drawerOpen: !!a.deckShown, list: shown ? rr(l) : null, scroll: shown ? l.scrollTop : null, bar: rr(bar), door: shown ? rr(l.querySelector('[data-view="history"]')) : null,
+      rows: shown ? [...l.querySelectorAll("button, summary")].filter((e) => (e as HTMLElement).offsetParent !== null).map((e) => Math.round(e.getBoundingClientRect().top * 10) / 10) : [] }
+  })
+/** a real touch at a control's measured middle WHERE IT STANDS (no scroll): refused unless the control is what is there */
+async function tapWhereItIs(page: Page, selector: string, what: string) {
+  const at = await middleOf(page, selector)
+  expect(at, `${what}: on the screen`).not.toBeNull()
+  expect(at!.ok, `${what}: it is what a touch at (${Math.round(at!.x)},${Math.round(at!.y)}) reaches, where it stands`).toBe(true)
+  await page.touchscreen.tap(at!.x, at!.y)
+}
+/** a film started from Last rolls, the drawer shut (the film on the map), the drawer opened again by the logo */
+async function reopenedDuringAFilm(j: any, page: Page) {
+  const past = await archivedRoll(j, page)
+  await lastRollsByTouch(page)
+  await tapOn(page, `[data-replay-roll="${past.ts}"]`, "the past roll's replay control")
+  await j.advance(300)
+  await tapOn(page, ".ng-explorer-close", "shut the drawer")
+  await j.advance(800)
+  await tapOn(page, ".ng-logo", "the logo, during the film")
+  await page.waitForTimeout(200)
+  return past
+}
+
+test.describe("the drawer's home view during a film, 390x631 by touch", () => {
+  test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })
+
+  test("the drawer opened again during a film: its home view shows the Last rolls door whole, and the door opens the film's list", async ({ page }) => {
+    const j = journey(page)
+    const past = await reopenedDuringAFilm(j, page)
+    const h = await homeGeo(page)
+    expect({ view: h.view, film: h.film, drawerOpen: h.drawerOpen }, "premise: the drawer opened on its home view, the film still on").toEqual({ view: "explore", film: true, drawerOpen: true })
+    expect(h.bar!.top, "premise: the film's bar stands at the foot of the home list").toBeGreaterThanOrEqual(h.list!.bottom - 0.5)
+    const door = await reach(page, '[data-view="history"]', h.list!)
+    expect(door.length, "premise: the home view has its Last rolls door").toBe(1)
+    expect(door[0], "the Last rolls door is whole in the list and reached by a touch, at its middle, both ends, top and bottom, clear of the bar").toMatchObject({ whole: true, hit: true, underBar: false })
+    await tapWhereItIs(page, '[data-view="history"]', "the Last rolls door, where it stands")
+    await expect(page.locator("[data-past-roll]").first(), "the door opens Last rolls").toBeVisible()
+    const g = await barGeo(page)
+    expect({ view: g.view, film: g.film, of: g.filmOf, atFoot: g.atFoot }, "with the film still on, its bar at the list's foot").toEqual({ view: "history", film: true, of: past.ts, atFoot: true })
+    await expect(page.locator(`[data-replay-roll="${past.ts}"][data-replaying]`), "and its own roll says it is the one playing").toHaveCount(1)
+  })
+
+  test("no row of the home view moves when a film is stopped or ends by itself", async ({ page }) => {
+    const j = journey(page)
+    const past = await reopenedDuringAFilm(j, page)
+    const h = await homeGeo(page)
+    expect({ view: h.view, film: h.film }, "premise: the home view, during a film").toEqual({ view: "explore", film: true })
+    expect(h.rows.length, "premise: the home view's rows are on the list").toBeGreaterThan(5)
+    // STOPPED, by the bar's own ✕
+    await tapWhereItIs(page, "[data-replay-stop]", "the film's ✕")
+    await expect(page.locator("[data-replay-bar]")).toHaveCount(0)
+    const stopped = await homeGeo(page)
+    expect({ film: stopped.film, list: stopped.list!.top - h.list!.top, scroll: stopped.scroll! - h.scroll!, rows: stopped.rows.map((y, i) => y - h.rows[i]).filter((d) => d !== 0).length }, "the film's stop moved no row of the home view")
+      .toEqual({ film: false, list: 0, scroll: 0, rows: 0 })
+    // ENDED BY ITSELF, the home view reached by the way home this time
+    await tapOn(page, '[data-view="history"]', "Last rolls")
+    await expect(page.locator("[data-past-roll]").first()).toBeVisible()
+    await tapOn(page, `[data-replay-roll="${past.ts}"]`, "the past roll's replay control, again")
+    await j.advance(300)
+    await tapOn(page, ".ng-drawer-brand", "‹ Last rolls: the way home")
+    await page.waitForTimeout(200)
+    const home = await homeGeo(page)
+    expect({ view: home.view, film: home.film }, "premise: home again, the film on").toEqual({ view: "explore", film: true })
+    const door = await reach(page, '[data-view="history"]', home.list!)
+    expect(door[0], "by the way home too, the door is whole and reached").toMatchObject({ whole: true, hit: true, underBar: false })
+    let over = false
+    for (let i = 0; i < 80 && !over; i++) { await j.advance(250); over = !(await page.evaluate(() => !!(window as any).__neural._replay)) }
+    expect(over, "premise: the film ended by itself").toBe(true)
+    await page.waitForTimeout(150)
+    const end = await homeGeo(page)
+    expect({ list: end.list!.top - home.list!.top, scroll: end.scroll! - home.scroll!, rows: end.rows.map((y, i) => y - home.rows[i]).filter((d) => d !== 0).length }, "the film's own end moved no row of the home view")
+      .toEqual({ list: 0, scroll: 0, rows: 0 })
+  })
+})
+
 test("on a desktop the film's bar stays on the map, beside the drawer, and the list does not move", async ({ page }) => {
   const j = journey(page)
   const past = await archivedRoll(j, page)

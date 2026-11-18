@@ -143,9 +143,11 @@ export async function installReader(app) {
     };
   }
   const activate = app.activateOption;
-  app.activateOption = function (opt, pick, card, inspect) {
-    if (opt && !opt.threat && !inspect && !this._execution && !this._checkpoint && (!this._rollHand || this._rollHand.mounted)) reader.beginPlay();
-    return activate.call(this, opt, pick, card, inspect);
+  // The one question, asked once (FOLLOW2): `_canPlay` is `activateOption`'s own guard, the option's reach included. A copy
+  // of that guard stood here, without the film theater's clause; a play that is refused begins nothing.
+  app.activateOption = function (opt, pick, card, inspect, key) {
+    if (!inspect && this._canPlay(opt, card, key)) reader.beginPlay();
+    return activate.call(this, opt, pick, card, inspect, key);
   };
   const execution = app.executionCard;
   app.executionCard = function (opt) {
