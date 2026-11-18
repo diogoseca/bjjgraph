@@ -19990,3 +19990,27 @@ give). (7) **One sentence of the brief was wrong and is corrected everywhere:** 
 lower the number, as a roll's No does (the reader: 1003.47 → 1002.28); a belt and its stripes never go down, and Undo
 restores the number exactly (a unit). (8) My note "no gi hand holds such a cell" was wrong: in gi 11 seats deal 18
 moves the gi game does not price; the cloze builder's own guard is reached there, and now has a journey and a mutant.
+
+## v1.292.1 — Master the game's own belt row prints the number as it is now (BELTROW, 18 Nov 2026)
+
+**What.** After an answer in Master the game changed the number, the list button read the current number and painted
+it into the drawer's belt row (the first belt row in the page, hidden there); Master the game's own row, the one on
+screen, kept the number from when the page opened. On dev since v1.290.0 (L1), for a card as for a cloze. Found by a
+probe in L2-R2 (the number 1009.21 → 1004.44, the list's row still "1009") while answering the reader's question
+about a stale printed number, and ruled its own small PR.
+
+**The fix.** `_paintBeltRow` painted "the drawer's row, or Master the game's": the first of the two in the page.
+Every belt row the panel holds now carries the reading. "Which row?" was answered in two places (a builder's own row,
+the painter's default) and is answered once: all of them. Nothing stored, no new string; the fix is in the app's own
+file.
+
+**Measured, by the same journeys with the old aim put back as a mutant:** one year-old card answered "Review again",
+the number 1072 → 1068: the list's own row read 1072 before the fix, 1068 after. A cloze of six year-old moves, none
+had, 1016 → 1012: the row read 1016 before, 1012 after. After a second cloze's Done and Undo the row prints the
+number as it was before that confirm.
+
+**Also.** The comment on the exported `ngClozeDone` said the deferred bundle was "the same bytes" after the export: it
+is the same size and the same code, and its hash moved (the minifier swapped two local names; the reader of PR #438).
+
+**Not changed.** The number on screen does not move by itself: a belt row reads when the drawer opens, when a list
+comes back and at the ruleset switch (the rule since v1.276.0: no grade turns into a fetch).
