@@ -20292,3 +20292,53 @@ touch at `activateOption` is the next job's.
 on a desktop too, B3 the drawer's opening and closing do not move it, B4 its drawer style gone, B5 a resize does not
 move it, B6 the repaint puts the list back at its top, B7 never in the drawer, H1 the clock's start leaves the latch,
 H2 a digit behind a covering drawer: 9 of 9 red at their named steps.
+
+### v1.293.3, FOLLOW2: on a phone the film's bar is whole on the map; the home view keeps its way back to the film; an option is played only when the player can see it (18 Nov 2026)
+
+Three small things, the first found while building PR #441, the other two left by its reader.
+
+**The bar on the map.** With the drawer shut during a film on a phone the bar stood at -26 to 344 of 390, its dot and
+border off the screen, in every board state that has a landing card (a deck card, a staged board, a technique's card, a
+place with no cards, the hand put away, a roll from the bottom; whole only with the card dismissed; the same at the
+film's first and last step; 390x631 and 390x844, dev v1.293.0 and v1.293.1). `_layoutLandHorizontal` centres docked
+chrome on the landing card's column; a deck card keeps 52 px at its right for its paging control, so its column stands
+at 159 of 390; the bar is 370 px wide where the card is 358. And the card it followed is the reader's there
+(`data-reader-game-part`), no longer moved by that function. One clamp at that dock: chrome follows the column and is
+never off the screen, by its own width and the screen's edge. Desktop measured the same before and after ([638, 454,
+1158, 500] with the drawer open, [460, 454, 980, 500] shut). Under the bar lies only the film's own put-away hand.
+
+**The home view during a film.** The drawer opens on its home view, and since PR #441 the bar takes its room at the foot
+of whatever list shows: at 390x631 exactly where the "Last rolls" door stands (the reader: 5 of its 28 px showing; in
+the real app the door wholly under the bar). When the home view comes up while a film's bar stands in the drawer (the
+drawer's opening, the way home), its list is scrolled just far enough to show the door whole with 6 px of air
+(`_showFilmDoor`). Not at a payload's redraw. No row of the home view moves when the film stops or ends by itself: the
+rolls listed under the door are more than the bar's room, so the list keeps its scroll.
+
+**One condition, by reach.** "An option is played only when the player can see what they are playing", asked where the
+roads meet (`_optionInReach` / `_canPlay`: `activateOption` and the reader's wrapper of it, which had its own copy of the
+guard). The roads, surveyed: the digits; a click on the card (mouse, touch, Enter or Space on the focused card: a click
+with `detail` 0). By key the card's middle must be what `elementFromPoint` finds: PR #441 had it by width, and the
+reader showed a card with its middle under the drawer played by its digit at 641; at 1440 the row shows five of a hand
+of 24 and the digits 6 to 9 played cards nobody could see. The phone's sliver, the two behaviours side by side (dev
+v1.293.1, 390x631, the drawer open): a touch on the map there shut the drawer, the roll resumed, nothing else; a touch
+on a card's end there PLAYED the card, the drawer still open. One thing now: a listener on the hand's row calls the
+map's own `closeDeckIfStudying` when the drawer is the screen, so a desktop's press beside the drawer is untouched
+(asserted at 641, a card half under the drawer's edge). A third case of the same rule, found surveying the bar: a
+film's put-away hand was still live (a card's buttons keep `pointer-events:auto` while the row is at a tenth and
+`pointer-events:none`): a touch on a dim card's title played the move and ended the film (390x844, 390x631, 1 of 1
+each). Put away now means not in play.
+
+**Named for ruling:** the digits 6 to 9 of a long hand no longer play cards scrolled out of the row's view at 1440; a
+press on a dim card no longer ends a film; while the drawer is the screen no key plays a card even if its middle shows
+in the strip.
+
+**Found, not built.** A list scrolled to its very end when a film stops: the list gets the bar's 52 px back with nothing
+below to fill it, and the rows move down 52 px (Last rolls, 14 past rolls, scroll 277 of 277, the bar's ✕: 1 of 1).
+PR #441's rule in a corner its journeys do not reach.
+
+**Bytes.** Eager gzip 376,491 B (+330 on v1.293.1; +3,018 of 5,000), first-hand core 396,002 B (+3,015 of 6,000), deferred
+548,649 B (-69: the reader's copy of the guard is gone). **Mutants, 13:27 to 13:30:** a control green (46 tests); G1 the clamp out, G2 the clamp with no air, D1 the
+home view does not show the door, R1 a key plays its card wherever it is, R2 a press on the hand in the sliver goes on
+to the card, R3 the drawer being the screen is no bar to a key, R4 a film's put-away hand still in play, R5 Enter on a
+focused card taken for a press, R6 the reader begins play before the question is asked: 9 of 9 red at their
+named steps.
