@@ -20250,3 +20250,45 @@ not move it; B4 the drawer's style for it is gone; B5 a resize across the phone'
 clock's start leaves the drawer's latch set; H2 a digit plays a card the drawer covers: 7 of 7 red at their
 named steps. Before the change the same journeys were red at the same steps on v1.293.0's build (5 of 7; the desktop's
 green, as it should be).
+
+### v1.293.1, FOLLOW1-R1: the reader of PR #441, and a ruling taken back (18 Nov 2026)
+
+Verdict "MERGE AFTER 1 fix". The pause and the digit held completely on CI's build (no resume against the player, no
+double resume, no roll paused with nothing claiming it; a record written by dev loads identical; nine digits at 640, 600
+and 390 play and store nothing, 27 presses); 6 of the reader's 8 mutants red at named steps.
+
+**The fix reverses the ruling "at the list's top".** With the bar under the drawer's head the list's top went 58, 102,
+58 as a film started and stopped (dev: 58 throughout), and the past rolls' rows are 43 px apart, so the neighbour's
+control landed where the pressed one was: a second touch at the same point no longer stopped the film on the first row
+(3 of 3; dev stops it), on the second row it started the FIRST roll's film (3 of 3), and when a film ended by itself
+with a row open the next state's row stood under both of its actions (3 of 3). My own step, "the film's start moved the
+list down by the bar's own height, no further", asserted the fault. The bar is a row of the drawer AT ITS FOOT now:
+after the list, above the account's foot, in the flow (`foot.before(el)` in `_seatReplayBar`). No row moves at a film's
+start, stop or own end (0 px for the list and for every row, asserted on two past rolls and on a scrolled list of
+fourteen); a second touch at the same point stops the film on the first row and on the second; the same buttons are
+under the same points across a film's own end. A row standing at the list's foot when a film starts leaves the view
+(the list ends 52 px sooner, the bar's 44 and 8 of air); it is never under the bar, and where its control was is the
+bar itself.
+
+**Two non-kills that changed the code.** A line I added to put the list's scroll back by hand after the repaint
+survived its own mutant: the browser already keeps it (the rows are rebuilt in one task, no layout read while the list
+is empty). The line is gone; a mutant that puts the list back at its top is red, so the journey does see a list that
+loses its place. And `z-index:auto` in the drawer's rule for the bar: the reader's mutant of it survived, then mine,
+because the one thing that opens over the bar's row, the account's menu, is drawn on the root plane
+(`renderAccountMenu` moves it there) and stands over the bar whatever the bar's z. The declaration and the claim
+("checked: takes no z-index, must not paint over the drawer's menus") are gone; that the menu's items are reached over
+the bar is asserted as what a player needs.
+
+**The words, as they are.** A second shut no longer beats `pane_resumed`: a state's "Roll from …" in Last rolls starts
+the roll before it shuts the panel, so the latch is gone at the shut (1 on dev, 0 here, at 390 and at 1440); accepted
+as the first was (a new roll is not the game picking up where it left off). And "no press can reach a card" where the
+drawer is the screen was false at 390: the drawer is 343 px wide there, the ends of two of the hand's 18 cards show
+beside it, and a touch on one plays it with the drawer open, on dev and here alike, while its digit is refused; at 600
+and 640 none is reachable. The rule built is by width, not by reach; one condition by reach for a digit, a click and a
+touch at `activateOption` is the next job's.
+
+**Bytes.** Eager gzip 376,161 B (+209 on v1.293.0; +2,688 of 5,000), first-hand core 395,696 B (+2,709 of 6,000), deferred
+548,718 B. **Mutants, 12:07 to 12:09:** a control green (22 tests); B1 the bar back under the head, B2 its drawer seat
+on a desktop too, B3 the drawer's opening and closing do not move it, B4 its drawer style gone, B5 a resize does not
+move it, B6 the repaint puts the list back at its top, B7 never in the drawer, H1 the clock's start leaves the latch,
+H2 a digit behind a covering drawer: 9 of 9 red at their named steps.
