@@ -110,8 +110,9 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   // v1.293.0 (L3): RE-POINTED. A row is a place the newcomer went through: a click shows its two actions and no card (its
   // inline deck, whose new card asked multiple choice here, left the row; that claim is answer-mode.spec.ts's, on the card
   // "Practise here" opens). The step keeps what it was for: the pane is a history the newcomer can act on, and the full-pane
-  // study view stays shut. "Practise here" opens that place in Master the game (a newcomer knows no move there yet, so its
-  // moves are asked first, as bars), and the brand leads back. Mutant, this build: "Practise here" opens nothing → red at
+  // study view stays shut. "Practise here" opens that place in Master the game: for this newcomer on its card, a question
+  // and three answers (nothing is seeded here and no move is owed at the place yet; the bars come first when one is,
+  // last-rolls-places.spec.ts), and the brand leads back. Mutant, this build: "Practise here" opens nothing → red at
   // "Practise here opens the place in Master the game"; on dev's build the step's own mutant (the inline deck never asks
   // multiple choice) was red at the assertion this replaces.
   await page.locator("[data-hist-current]").click();
