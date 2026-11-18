@@ -465,13 +465,23 @@ for (const touch of [false, true]) {
         { message: "the pick is a grade" }).toBe(true)
       expect(await page.evaluate(({ key, qh }) => (window as W).__neural.stage[key][qh], live!), "a right pick leaves the card at 2").toBe(2)
       expect(await goal(), "the from-memory goal waits").toBe(false)
-      // how a player gets it back: choose Auto; the next card of the deck, at 2, asks front and back
+      // how a player gets it back: choose Auto; the next card of the deck, at 2, asks front and back.
+      // (v1.293.0: Settings is reached from the badge, and Master the game's foot is its own navigation, so the player goes
+      // back by the brand, to Last rolls, chooses Auto there, and presses Practise here again. The place then opens on its
+      // first card not answered today, the rule of every door into a place: the "next card" this step used to page to.)
+      await press(page, ".ng-drawer-brand", "‹ Master the game", touch)
+      await expect(page.locator(".ng-drawer-brand")).toHaveText("‹ Last rolls")
       await settings()
       await shown("[data-answer-mode] button:nth-of-type(1)")
       await press(page, "[data-answer-mode] button:nth-of-type(1)", "Auto", touch)
       expect(await page.evaluate(() => (window as W).__neural.get("mcMode")), "the choice is stored").toBe("auto")
       await press(page, ".ng-modal .x", "close Settings", touch)
-      await press(page, "[data-master-bar] .mn", "the next card", touch)
+      await j.knowsPlanMoves()   // Auto asks a place's moves before its cards (L2); this step is about the card
+      await press(page, "[data-hist-current]", "this roll's row", touch)
+      await press(page, "[data-hist-go]", "Practise here", touch)
+      await expect(page.locator("[data-mini-q]:visible"), "the place's next card is up").toHaveCount(1, { timeout: 20_000 })
+      expect(await page.evaluate((qh) => { const a = (window as W).__neural, el = a._openMini && a._openMini.el.querySelector("[data-mini-q]"); const c = (a._cardsOf(a.flashcards.decks[a._session.keys[a._session.idx]]) || []).find((x: W) => { const d = document.createElement("div"); d.innerHTML = x.q; return d.textContent === el.textContent }); return !!c && a.qhash(c.q) !== qh }, live!.qh),
+        "premise: it is another card than the one just answered").toBe(true)
       await expect(deck.locator("[data-practice-mc-opt]"), "Auto asks a card right twice front and back").toHaveCount(0)
       await expect(page.locator("[data-master-bar] [data-mini-reveal]")).toBeEnabled()
       await press(page, "[data-master-bar] [data-mini-reveal]", "Reveal", touch)
