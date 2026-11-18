@@ -1261,7 +1261,7 @@ class Component extends DCLogic {
         // A to C, Enter, Space, P, the arrows and the paging keys are each scoped to the drawer's own surface or stand down
         // with the landing card). Where the drawer stands BESIDE the board the card can be pressed, the press plays it, and
         // so does its digit: one function, and the drawer's claim on the clock ends with the move (`setPaused`).
-        // WHETHER A DIGIT PLAYS ITS CARD IS ASKED BY REACH, AT `activateOption` (FOLLOW2, v1.293.3; `_optionInReach`): PR
+        // WHETHER A DIGIT PLAYS ITS CARD IS ASKED BY REACH, AT `activateOption` (FOLLOW2, v1.293.3; `_optionReach`): PR
         // #441 refused it here by width (640 and under), and the reader showed where width is not reach.
         // Q007: an open checkpoint quiz owns the keyboard — digits above the MC option
         // count must never fall through to the roll's option-card openers (a '5' opened
@@ -20376,7 +20376,8 @@ class Component extends DCLogic {
   }
   /**
    * AN OPTION IS PLAYED ONLY WHEN THE PLAYER CAN SEE WHAT THEY ARE PLAYING (FOLLOW2, v1.293.3). One condition, asked where
-   * every road that plays an option meets (`_canPlay`, below: `activateOption` and the reader's wrapper of it both ask it).
+   * every road that plays an option meets (`_playState`, below: `activateOption` asks it, and the reader's wrapper of it
+   * asks `_canPlay`, the same question's yes or no).
    * THE ROADS, surveyed (`grep` over the build inputs, each read): the digits 1 to 9 (the window's key ladder); a click on
    * the card (a mouse, a touch's click, and Enter or Space on the focused card: a click with no pointer, `detail` 0);
    * nothing else. (`pickFirstEscape` has no caller in the app; there is no "suggested" button.)
@@ -20387,25 +20388,48 @@ class Component extends DCLogic {
    *     stylesheet gives a card's buttons `pointer-events:auto`, so a touch on a dim card's title reached it and played
    *     the move, ending the film (measured on v1.293.1 at 390x844 and 390x631, 1 of 1 each). By any road.
    *   · BY KEY, ONLY WHEN THE CARD'S MIDDLE IS IN REACH: what `elementFromPoint` finds there is the card. Not under the
-   *     drawer (at 641 wide a card with its middle under it), not under a menu or a modal, and not out of view: the row
-   *     scrolls sideways and clips, so at 1440 only five of a hand's cards show; the digits 6 to 9 played cards nobody
-   *     could see. PR #441 had this by WIDTH (640 and under: nothing); the reader showed where width is not reach.
+   *     drawer (at 641 wide a card with its middle under it), not under a menu or a modal. PR #441 had this by WIDTH
+   *     (640 and under: nothing); the reader showed where width is not reach.
+   *   · A KEY WHOSE CARD IS SCROLLED OUT OF THE HAND'S OWN ROW SHOWS IT FIRST (FOLLOW2-R0, the orchestrator's ruling). The
+   *     row scrolls sideways and clips: at 1440 five of a hand's cards show, and the digits 6 to 9 played cards nobody
+   *     could see. Refusing them would take a road a keyboard player has today, so: the key brings its card whole into
+   *     the row's view and MARKS it, and plays nothing; the same key again, the card now seen, plays it. One press when
+   *     the card is in view, as ever. THE MARK is the keyboard's own focus on the card's play button (the outline the
+   *     stylesheet already draws for it, `.ng-choice-card button:focus-visible`), so it lasts as long as a focus does:
+   *     until another key moves it or plays, a pointer takes it, or the hand is dealt again (the card is rebuilt).
+   *     ONLY for a card the row's own scroll has put out of view (its middle outside the row's box or the screen): a
+   *     card under the drawer, a menu or a modal stays refused. Bringing it into view there is not the key's to do.
    *   · A PRESS IS ITS OWN PROOF: the pointer is on the card. A desktop's press on a card beside the drawer plays as it
    *     always did, a card half under the drawer's edge included (the hand is in plain view there).
+   * The answer: "play", "show" (the key's card is scrolled out of the row: `_showCard`), or "" (refused).
    */
-  _optionInReach(card, key) {
-    if ((this.deckShown && this.sbOffset() === 0) || this._traySup) return false;
-    if (!key) return true;
-    if (!card || !card.isConnected) return false;
-    const r = card.getBoundingClientRect(), at = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2);
-    return !!at && card.contains(at);
+  _optionReach(card, key) {
+    if ((this.deckShown && this.sbOffset() === 0) || this._traySup) return "";
+    if (!key) return "play";
+    if (!card || !card.isConnected) return "";
+    const r = card.getBoundingClientRect(), x = r.left + r.width / 2, at = document.elementFromPoint(x, r.top + r.height / 2);
+    if (at && card.contains(at)) return "play";
+    const row = this.optionsRef.current, b = row && row.contains(card) ? row.getBoundingClientRect() : null;
+    return b && (x < b.left || x > Math.min(b.right, window.innerWidth)) ? "show" : "";
   }
-  /** can this option be played now, by this road (`key`: a digit, or Enter or Space on the focused card) */
-  _canPlay(opt, card, key) {
-    return !!opt && !opt.threat && !this._filmTheater && !this._execution && !this._checkpoint && (!this._rollHand || this._rollHand.mounted) && this._optionInReach(card, key);
+  /** what this road may do with this option now (`key`: a digit, or Enter or Space on the focused card) */
+  _playState(opt, card, key) {
+    if (!opt || opt.threat || this._filmTheater || this._execution || this._checkpoint || (this._rollHand && !this._rollHand.mounted)) return "";
+    return this._optionReach(card, key);
+  }
+  _canPlay(opt, card, key) { return this._playState(opt, card, key) === "play"; }
+  /** the card brought whole into the row's view by the row's own scroll (the nearest edge, no further), and marked */
+  _showCard(card) {
+    const row = this.optionsRef.current, b = row.getBoundingClientRect(), cs = getComputedStyle(row), r = card.getBoundingClientRect();
+    const lo = b.left + parseFloat(cs.paddingLeft), hi = Math.min(b.right, window.innerWidth) - parseFloat(cs.paddingRight);
+    this._trayStop();   // the row's scroll has one owner at a time (§6.5): a glide still running is stopped first
+    row.scrollLeft += r.right > hi ? r.right - hi : r.left < lo ? r.left - lo : 0;
+    card.querySelector("[data-choice-execute]")?.focus({ preventScroll: true });
   }
   activateOption(opt, pick, card, inspect, key) {
-    if (!this._canPlay(opt, card, key)) return;
+    const how = this._playState(opt, card, key);
+    if (how === "show") this._showCard(card);
+    if (how !== "play") return;
     this._handTouched = true;
     if (pick) { this.setPaused(false); pick(opt); }
   }
