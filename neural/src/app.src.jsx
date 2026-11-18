@@ -866,7 +866,8 @@ class Component extends DCLogic {
    * WRITER: `_showPlace`, on a phone. Beat `look_held`.
    * LIFTERS, the complete set (`_lookEnd(by)`, beat `look_ended` with `by`, so no end is silent, §6.6):
    *   "map"    the player's next hand on the map: `attachInput`'s pointerdown (tap, pan, the first finger of a pinch) and its
-   *            wheel, the same hands that end a film. The roll resumes.
+   *            wheel, the same hands that end a film. The roll resumes, and THAT PRESS DOES NOTHING ELSE: it is consumed
+   *            there, as the press that closes the drawer is (it used to go on into the tap router and end the roll).
    *   "drawer" the drawer opening again, by any door (`applyDeckVisibility`): the pause goes back to the drawer's own latch,
    *            so shutting it resumes as it always does.
    *   "clock"  the roll resumed by another hand (`setPaused(false)`: a move played from the hand, a modal shut with the
@@ -875,7 +876,7 @@ class Component extends DCLogic {
    *   "roll"   a new journey (`clearEngagement`: a new roll, a staged place, free roam, a reference page). The roll the
    *            look was holding is gone, so nothing is resumed; without this the next hand on the map would start a staged
    *            board's clock or wake a page's dormant one.
-   * Each is pinned in e2e/journeys/last-rolls-places.spec.ts, which names the mutant of each (M8 to M15).
+   * Each is pinned in e2e/journeys/last-rolls-places.spec.ts, which names the mutant of each (M8 to M15, M33).
    */
   _showPlace(i) {
     if (this._replay) this.stopReplay("input");   // a film owns the camera; asking to see a place ends it, as a hand on the map does
