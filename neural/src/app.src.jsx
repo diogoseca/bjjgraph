@@ -5277,8 +5277,13 @@ class Component extends DCLogic {
 
     list.innerHTML = "";
     this._miniReg = {};
+    // COMING BACK FROM "PRACTISE HERE" (L3-R1, R6: after "‹ Master the game" no row was open, 7 of 7): the row it was pressed
+    // on is open again and where it was. Remembered by the press (`_histRow`'s `go`), used by the first draw after it
+    const back = this._histBack; this._histBack = null;
+    if (back) this._openRow = this._focusRow = this._histBackRid = back.rid;
     // grouped roll history: a row opens the two actions of the place it holds (`_histRow`, L3)
     this.renderRollHistory(list);
+    if (back) { this._histBackRid = null; list.scrollTop = back.y; this._scrollFocusedDeck(); }
   }
 
   _agoLabel(ts) {
@@ -5341,7 +5346,8 @@ class Component extends DCLogic {
       // it is still that place's orb or its other half, else the key's own node
       const own = this.nodes[h.idx] && (h.idx === ni || this.nodes[h.idx].pi === ni) ? h.idx : ni;
       const show = drawn ? () => this._showPlace(own) : null;
-      const go = drawn && this.nodes[ni].ty === "positions" ? () => this.openMasterAt(h.key, "lastrolls") : null;
+      // (R6: the row is remembered, so "‹ Master the game" comes back to it open and where it was: `renderDrillHome`)
+      const go = drawn && this.nodes[ni].ty === "positions" ? () => { const l = this.drillListRef.current; this._histBack = { rid, y: l ? l.scrollTop : 0 }; this.openMasterAt(h.key, "lastrolls"); } : null;
       const closeSelf = () => { detail.style.display = "none"; if (this._openRow === rid) this._openRow = null; if (this._focusRow === rid) this._focusRow = null; if (this._openMini && this._openMini.rid === rid) this._openMini = null; };
       const openD = () => {
         if (this._openMini && this._openMini.rid !== rid) this._openMini.close();   // accordion: only one box open at a time
@@ -5358,7 +5364,10 @@ class Component extends DCLogic {
       };
       const toggle = () => {
         if (detail.style.display !== "none") closeSelf();
-        else { this._rollFocus = (opts.rollIndex != null ? opts.rollIndex : this._rollFocus); openD(); }
+        // R10: a row opened near the list's end had its two actions under the panel's foot (the last row of 19 at 390x631:
+        // 12 of 44 px showing). The list scrolls just enough to show the row and both actions whole, and not at all
+        // when they already are (`_scrollFocusedDeck`: the smallest scroll, as the arrows always did)
+        else { this._rollFocus = (opts.rollIndex != null ? opts.rollIndex : this._rollFocus); openD(); this._scrollFocusedDeck(); }
       };
       if (show) { r.style.cursor = "pointer"; r.addEventListener("click", () => toggle()); }
       // v1.134.0: the play/pause transport is retired everywhere — every archived row is a
@@ -5389,8 +5398,11 @@ class Component extends DCLogic {
       }
       if (show && this._openRow === rid) openD();
     }
-    r.addEventListener("mouseenter", () => r.style.background = "rgba(255,255,255,.03)");
-    r.addEventListener("mouseleave", () => r.style.background = "transparent");
+    // (lit under the pointer only when a press does something: a place this ruleset does not draw has no actions, R5)
+    if (r.style.cursor) {
+      r.addEventListener("mouseenter", () => r.style.background = "rgba(255,255,255,.03)");
+      r.addEventListener("mouseleave", () => r.style.background = "transparent");
+    }
     box.appendChild(r); box.appendChild(detail);
     return box;
   }
@@ -5681,12 +5693,15 @@ class Component extends DCLogic {
     let built = false;
     r.addEventListener("mouseenter", () => r.style.background = "rgba(255,255,255,.03)");
     r.addEventListener("mouseleave", () => r.style.background = "transparent");
-    r.addEventListener("click", () => {
+    const fold = () => {
       const open = detail.style.display === "none";
       if (open && !built) { built = true; log.forEach((h, i) => detail.appendChild(this._histRow(h, { isFirst: i === 0, isLast: i === log.length - 1, rid: "p" + roll.ts + "_" + i }))); }
       detail.style.display = open ? "flex" : "none";
       const chev = r.querySelector(".pchev"); if (chev) chev.style.transform = open ? "rotate(90deg)" : "none";
-    });
+    };
+    r.addEventListener("click", fold);
+    // coming back from "Practise here" to a state of this roll: the roll is drawn unfolded, so the row is there to open (R6)
+    if (String(this._histBackRid || "").startsWith("p" + roll.ts + "_")) fold();
     box.appendChild(r); box.appendChild(detail);
     return box;
   }
@@ -7043,7 +7058,9 @@ class Component extends DCLogic {
   // for the same reason: `_openMini` is one slot shared with the session's rows, and a row left behind must not take a key.
   _placeOpen() {
     const m = this._openMini;
-    return m && m.show && m.el.isConnected && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() ? m : null;
+    // ...and its row is LAID OUT (`offsetParent`, as a deck's is): a past roll folded again hides its rows without removing
+    // them, and the open one still took Space and ⏎ (the reader of PR #440, finding 2: a place nothing on screen showed)
+    return m && m.show && m.el.offsetParent !== null && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() ? m : null;
   }
   /**
    * THE SESSION IS AN INLINE DECK LIST, NOT A TAKEOVER (v1.137.0). Owner: "I love this inline UI
@@ -22234,7 +22251,15 @@ class Component extends DCLogic {
       // drawer (SIDE-R3 N2): on a phone that is how you WATCH the replay you just started.
       // A closing gesture that becomes a pan or pinch ends it in pointermove below (SIDECX5 D2).
       if (this._replay && !closing) this.stopReplay("input");
-      this._lookEnd("map");   // ...and it ends a look: the roll it was holding resumes (`_showPlace`)
+      // ...and it ends a look: the roll it was holding resumes (`_showPlace`). THAT PRESS DOES THAT AND NOTHING ELSE
+      // (L3-R1, the reader of PR #440, finding 1: 8 of 9 taps in the visible map during a hold ended the live roll). It
+      // went on into the tap router at pointerup, exactly as the tap that closes the drawer once did (above): over a node it
+      // staged a roll there or opened the technique, the shown place included, and over the background it declined the
+      // question or went to free roam. At the look's framing nearly every point of a phone's map is inside some node's pick
+      // radius, so "press the map to go on" took the roll away. It is consumed the same way; a drag begun with it still pans.
+      const looked = this._lookAutoPaused;
+      this._lookEnd("map");
+      if (looked && ptrs.size === 0) closing = true;
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       try { el.setPointerCapture(e.pointerId); } catch (err) {}
       if (ptrs.size === 2) {
