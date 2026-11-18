@@ -522,10 +522,12 @@
      and no row moves when it comes or goes (the list gives its height at its own end). `!important` on width only: the
      phone rule above carries one. The entry animation is a fixed card's (it animates the transform this rule takes away),
      so it does not run here. The inline `left` and `bottom` the dock wrote while it stood on the map mean nothing to a
-     static box. `z-index:auto` IS LOAD-BEARING: a flex item takes a z-index even unpositioned, the base rule's 8 would
-     make it a layer of its own, and the account's menu opens upward from the foot right over this row (its items would be
-     painted under the bar and dead to a touch; pinned by history-replay.spec.ts). */
-  .ng-replaybar[data-in-drawer]{position:static;z-index:auto;transform:none;animation:none;flex:none;width:auto!important;margin:0 12px 8px;box-shadow:none;}
+     static box. NO `z-index` IS SET HERE, ON PURPOSE: a `z-index:auto` stood in this rule "so the bar would not paint over
+     the drawer's menus", and its mutant survived twice (the reader of PR #441, then mine): the account's menu, the one
+     thing that opens over this row, is drawn on the root plane (`renderAccountMenu` moves it there) and stands over the
+     bar whatever the bar's own z is. A declaration nothing can read is gone; that the menu's items are reached over the
+     bar is pinned by history-replay.spec.ts. */
+  .ng-replaybar[data-in-drawer]{position:static;transform:none;animation:none;flex:none;width:auto!important;margin:0 12px 8px;box-shadow:none;}
   .ng-replaybar .ng-replay-dot{flex:none;width:8px;height:8px;border-radius:50%;background:#7ee0a8;box-shadow:0 0 8px rgba(126,224,168,.7);animation:ngReplayPulse 1.6s ease-in-out infinite;}
   @keyframes ngReplayPulse{0%,100%{opacity:1;}50%{opacity:.35;}}
   .ng-replaybar .ng-replay-txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px;}

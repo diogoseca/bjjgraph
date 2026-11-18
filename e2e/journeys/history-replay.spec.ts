@@ -378,10 +378,12 @@ test.describe("on the phone", () => {
  * §6.1's traps, each checked here rather than assumed: the bar's ✕ is pressed by a REAL touch at its measured middle, with
  * `elementFromPoint` at its middle and four edges (a control moved between planes is the class that is visible and
  * dead); nothing is hidden by opacity; the bar in the drawer is not docked at all (in the flow, no measured rect, no CSS
- * constant) and on the map it docks as before; it takes no z-index in the drawer, AND THAT IS READ: the account's menu
- * opens upward from the foot over the bar's row and each of its items there is reached by a touch (the reader's mutant
- * of `z-index:auto` had survived: nothing read it); no inline style is reset by hand; and its box is asserted as rendered
- * (44 px, whole on the screen), which is what Quartz's bare-element rules would move.
+ * constant) and on the map it docks as before; no inline style is reset by hand; and its box is asserted as rendered
+ * (44 px, whole on the screen), which is what Quartz's bare-element rules would move. THE STACKING TRAP, AS IT IS: a
+ * `z-index:auto` stood in the drawer's rule "so the bar would not paint over the drawer's menus", and its mutant survived
+ * twice (the reader's M6, then mine): the account's menu, the one thing that opens over the bar's row, is drawn on the
+ * root plane and stands over the bar whatever the bar's own z. The declaration is gone and the claim with it. What a
+ * player needs there IS asserted: the menu's items over the bar's row are each reached by a touch.
  *
  * Mutants (each alone, in the served bundle, a clean control first):
  *   B1 the bar back under the drawer's head (`_seatReplayBar`) → "…no row moves…" at "the film's start moved no row: the
@@ -394,11 +396,11 @@ test.describe("on the phone", () => {
  *      moves…" at "the list ends above the bar, and the bar above the account's foot"
  *   B5 a resize across the phone's width does not move it (`resize`'s call out) → the resize test at "narrowed to a
  *      phone's width, the bar is a row of the drawer"
- *   B6 the list does not keep its place across the repaint (`_refreshHistoryRows`) → "a row at the list's foot…" at
+ *   B6 the repaint puts the list back at its top (`_refreshHistoryRows`, a line added) → "a row at the list's foot…" at
  *      "the film's start moved no row of a scrolled list"
- *   B7 `z-index:auto` out of the drawer's rule (the reader's M6) → "no control of an open row…" at "the account's menu
- *      opens over the film's bar: every item of it there is reached by a touch"
- *   B8 the bar never takes its seat in the drawer at all → "…no row moves…" at "the bar is a row of the drawer, at its foot"
+ *   B7 the bar never takes its seat in the drawer at all → "…no row moves…" at "the bar is a row of the drawer, at its foot"
+ * TWO NON-KILLS THAT CHANGED THE CODE: a line that put the list's scroll back by hand after the repaint (the browser
+ * already keeps it: the rows are rebuilt in one task), and `z-index:auto` in the drawer's rule (above). Both are gone.
  * FOUND, NOT THIS CHANGE'S: on the map on a phone the bar follows the landing card's column (`_layoutLandHorizontal`), and
  * over a card that is a deck that leaves its left end 26 px off the screen (its dot and border; the words start at the edge).
  * It was so before, drawer open or shut, and is so on the map still (the next job's).
@@ -589,7 +591,8 @@ test.describe("on a phone with the drawer open, 390x631 by touch", () => {
     expect(label.text.length, "its words are written").toBeGreaterThan(3)
     expect(label.left, "and start on the screen").toBeGreaterThanOrEqual(0)
 
-    // THE ACCOUNT'S MENU OPENS UPWARD FROM THE FOOT, RIGHT OVER THE BAR'S ROW: over it, not under it (`z-index:auto`)
+    // THE ACCOUNT'S MENU OPENS UPWARD FROM THE FOOT, RIGHT OVER THE BAR'S ROW: over it, not under it. (It is the root
+    // plane's, so this holds whatever the bar's own z; the step is here for what a player needs, not as a z-index pin.)
     await tapOn(page, ".ngAcctChip", "the badge at the drawer's foot")
     await expect(page.locator(".ng-account-menu")).toBeVisible()
     await page.waitForTimeout(350) // the menu's own entry

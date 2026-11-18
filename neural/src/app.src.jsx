@@ -19400,14 +19400,13 @@ class Component extends DCLogic {
    *  `_closeRoll` (a roll leaving `rollLog` for `_pastRolls`). Guarded, not conditional on the
    *  caller: an open Explore search or Challenges scroll must never be stomped, and a study
    *  takeover owns the pane. `buildDrillPanel` carries the same guard for the roll loop. */
+  // THE LIST KEEPS ITS PLACE ACROSS THIS REPAINT, BY ITSELF (FOLLOW1-R1): a film's start, stop and own end each redraw the
+  // rows, and the press that started the film is on one of them. The rows are rebuilt in one task, with no layout read
+  // while the list is empty, so its scroll is where it was (pinned by history-replay.spec.ts on a scrolled list; a line
+  // that put the scroll back by hand here survived its own mutant and is gone). A layout read added inside
+  // `renderDrillHome` would lose it: that journey is what says so.
   _refreshHistoryRows() {
-    if (!(this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive())) return;
-    // THE LIST KEEPS ITS PLACE ACROSS THIS REPAINT (FOLLOW1-R1): a film's start, stop and own end each redraw the rows, and
-    // the press that started the film is on one of them. The redraw empties the list first; without this the scroll is
-    // whatever the browser leaves it. No row moves under a finger (`_seatReplayBar` has the other half of that rule).
-    const list = this.drillListRef.current, y = list ? list.scrollTop : 0;
-    this.renderDrillHome();
-    if (list && list.scrollTop !== y) list.scrollTop = y;
+    if (this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive()) this.renderDrillHome();
   }
   /**
    * THE FILM'S OWN CHROME — z:8, the AMBIENT STATE band of the Z LADDER (helmet.html), beside the
@@ -19449,8 +19448,8 @@ class Component extends DCLogic {
    * on v1.293.0): whatever row content fell there was covered, a Last rolls row's first action included. There the bar is
    * a row of the drawer itself, in the flow, AT THE DRAWER'S FOOT: after the list, above the account's foot. In the flow,
    * so nothing of the list can lie under it and nothing is measured, padded or kept in step. AT THE FOOT, SO THAT NO ROW
-   * MOVES when a film starts, stops or ends by itself: the list gives the bar's 44 px at its own end and keeps its
-   * scroll (`_refreshHistoryRows`).
+   * MOVES when a film starts, stops or ends by itself: the list gives the bar's 44 px at its own end, and its scroll
+   * stays where it was across the repaint (`_refreshHistoryRows`).
    * IT STOOD UNDER THE DRAWER'S HEAD FIRST (ruled, built, and taken back after the reader of PR #441 pressed it): the
    * bar's coming and going then moved every row by 44 px, and the past rolls' rows are 43 px apart, so the neighbour's
    * control landed where the pressed one was. The replay control stopped being a toggle (a second touch at the same
