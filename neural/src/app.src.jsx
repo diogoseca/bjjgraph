@@ -5393,6 +5393,13 @@ class Component extends DCLogic {
     const st = this._deckState[key] || (this._deckState[key] = { idx: 0, revealed: false });
     if (st.idx >= total) st.idx = 0;
     if (st.idx < 0) st.idx = Math.max(0, total - 1);   // entered from the next deck by ‹ (L1-R0): its last card
+    // A REVEAL BELONGS TO THE CARD IT WAS MADE ON (v1.293.0, found by answer-mode.spec.ts re-pointed for L3, 2 of 2). `st`
+    // remembers a place in the deck by INDEX, and what a session asks of a deck is a SUBSET that changes from one session to
+    // the next (a place asked again leaves out what was answered): the same index is then another card, and it was drawn
+    // with the last card's `revealed`, its answer on the screen before the question was asked. Each visit from Last rolls
+    // ("Practise here") is a new session, so the second press on a place met it. The remembered reveal stands only while
+    // the remembered card is the card drawn (`st.q`, written by every draw).
+    if (st.revealed && st.q !== (cards[st.idx] || {}).q) st.revealed = false;
     this._answered = this._answered || {};
     const ansSet = this._answered[key] || (this._answered[key] = new Set());
     // Stable question/day identity survives subset reordering and expires at midnight.
@@ -5463,6 +5470,7 @@ class Component extends DCLogic {
     const render = () => {
       if (this._mc?.surface === surf) { this._mc.spent = true; this._mc = null; }
       const card = cards[st.idx] || {};
+      st.q = card.q;   // the card this state is about (see above)
       const tabs = cards.map((c, i) => {
         const active = i === st.idx, done = ansSet.has(identity(c));
         const bg = active ? "#5b8cff" : (done ? "#6ed6a0" : "rgba(150,170,210,.22)");
