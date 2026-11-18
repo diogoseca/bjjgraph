@@ -178,8 +178,9 @@ for (const touch of [false, true]) {
       // a press shows the two actions, where the deck used to open
       await press(page, row("Mount|Top"), "the row of Mount, top", touch)
       const acts = page.locator(row("Mount|Top")).first().locator("xpath=following-sibling::div[1]")
-      await expect(acts.locator("button"), "two actions under the row").toHaveText([/^Show on the map/, /^Practise here/])
+      await expect(acts, "the row opens").toBeVisible()
       await expect(page.locator(".ng-drill [data-mini-deck], .ng-drill [data-mini-q], .ng-drill [data-mc-opt], .ng-drill [data-practice-mc-opt]"), "no card in the row").toHaveCount(0)
+      await expect(acts.locator("button"), "two actions under the row").toHaveText([/^Show on the map/, /^Practise here/])
       for (const [sel, what] of [["[data-hist-show]", "Show on the map"], ["[data-hist-go]", "Practise here"]] as const) {
         const box = await page.locator(sel).evaluate((el) => {
           const r = el.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2, top = document.elementFromPoint(x, y)
