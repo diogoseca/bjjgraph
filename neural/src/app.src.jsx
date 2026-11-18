@@ -853,9 +853,10 @@ class Component extends DCLogic {
   }
   /**
    * SHOW ON THE MAP IS A LOOK, NOT A RETURN TO PLAY (L3 ruling 1, v1.293.0). A Last rolls row's "Show on the map" frames the
-   * place it holds (`frameNodes`: the visible map, both axes, through `pairMid`; the camera's 7 s lease) and lights it for a
-   * moment, as a session's row does when the map follows it. On a desktop the drawer stays beside the map and nothing else
-   * moves. ON A PHONE THE DRAWER IS THE SCREEN, so the press has to shut it, and by pane law shutting it resumes a roll the
+   * place it holds as a session's row frames its node (`locateNode`: the visible map, through `pairMid`, lit for a moment),
+   * takes the camera's 7 s lease (`holdCamera`), and NAMES it (`_shown`, below): the first real screens showed the place
+   * in the middle of the map with no name on it, and on a phone the row that named it is gone with the drawer. On a
+   * desktop the drawer stays beside the map and nothing else moves. ON A PHONE THE DRAWER IS THE SCREEN, so the press has to shut it, and by pane law shutting it resumes a roll the
    * drawer stopped: the player would watch the place while the roll moved on without them. So the drawer's pause is handed
    * to a latch of its own, `_lookAutoPaused`, exactly as a film takes it (`_replayAutoPaused`, `applyDeckVisibility`): one
    * latch a pauser, so letting go gives back only a pause that was taken (§6.5). It is taken ONLY when the drawer is what
@@ -883,11 +884,20 @@ class Component extends DCLogic {
       this.setDeckOpen(false);
       if (held) { this._lookAutoPaused = true; this.fx("look_held", {}); }
     }
-    this.frameNodes([i]); this.flare(i);
+    this.locateNode(i); this.holdCamera();
+    this._shown = { i, t: this._camHoldTarget };
+  }
+  // THE PLACE "SHOW ON THE MAP" SHOWED, NAMED ON THE MAP the way a node under the pointer is (`draw()`'s hover label reads this
+  // when nothing is under the pointer). No lifters of its own to forget (§6.5): it lasts exactly as long as what it rides,
+  // the look's hold on a phone (`_lookAutoPaused`, ended with it in `_lookEnd`) and otherwise the camera's lease ON THIS
+  // FLIGHT (`camHeld()` with the lease's own target: 7 s, a pan, pinch or wheel, any other flight, any go-elsewhere).
+  _shownNode() {
+    const s = this._shown;
+    return s && (this._lookAutoPaused || (this.camHeld() && this._camHoldTarget === s.t)) ? this.nodes[s.i] || null : (this._shown = null);
   }
   _lookEnd(by) {
     if (!this._lookAutoPaused) return;
-    this._lookAutoPaused = false;
+    this._lookAutoPaused = false; this._shown = null;
     this.fx("look_ended", { by });
     if (by === "drawer") this._paneAutoPaused = true;
     else if (by === "map") this.setPaused(false);
@@ -5330,10 +5340,11 @@ class Component extends DCLogic {
       const openD = () => {
         if (this._openMini && this._openMini.rid !== rid) this._openMini.close();   // accordion: only one box open at a time
         if (!detail.firstChild) {
-          // the keys a focused row answers to (ruling 2), printed on the two buttons that do it, where a key can be pressed
-          const act = (attr, label, key, fn) => { const b = document.createElement("button"); b.type = "button"; b.setAttribute(attr, "1"); b.innerHTML = label + "<kbd>" + key + "</kbd>"; b.onclick = (ev) => { ev.stopPropagation(); fn(); }; detail.appendChild(b); };
-          act("data-hist-show", "Show on the map", "space", show);
-          if (go) act("data-hist-go", "Practise here", "↵", go);
+          // the key each answers to (ruling 2) is its tooltip: printed on the button as the deck's Reveal printed "space", it
+          // wrapped "Show on the map" onto two lines in the 360 px drawer (the first real screen at 1440)
+          const act = (attr, label, key, fn) => { const b = document.createElement("button"); b.type = "button"; b.setAttribute(attr, "1"); b.textContent = label; b.title = key; b.onclick = (ev) => { ev.stopPropagation(); fn(); }; detail.appendChild(b); };
+          act("data-hist-show", "Show on the map", "Space", show);
+          if (go) act("data-hist-go", "Practise here", "Enter", go);
         }
         detail.style.display = "flex";
         this._openRow = rid; this._focusRow = rid;
@@ -23428,7 +23439,7 @@ class Component extends DCLogic {
         b === this._pickAnchor || b.matches(":hover, :focus-visible"));
       const _hovNode = heldStar ? this.nodes[Number(heldStar.getAttribute("data-seat-star"))]
         : (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5)
-          ? this.nodes[this._hover.idx] : null;
+          ? this.nodes[this._hover.idx] : this._shownNode();   // ...else the place "Show on the map" showed (L3, `_showPlace`)
       if (drawFocus >= 0 && !this.pulse) {
         const n = this.nodes[drawFocus];
         const partner = n.pi >= 0 ? this.nodes[n.pi] : null;

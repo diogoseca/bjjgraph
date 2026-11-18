@@ -94,6 +94,12 @@ const onScreen = (page: Page, key: string) => page.evaluate((k) => {
   const R = a._viewRect()
   return { x: W_ / 2 + (p.x - a.cam.cx) * sc, y: H / 2 + (p.y - a.cam.cy) * sc, rect: { left: R.left, top: R.top, right: R.left + R.width, bottom: R.top + R.height } }
 }, key)
+/** does the map NAME this place: the label the last frame published for a pair or for the pointer's node (`draw()`'s own
+ *  output, `_lastPairLabel` / `_lastHoverLabel`), on the place's node or its pair's other half */
+const named = (page: Page, key: string) => page.evaluate((k) => {
+  const a = (window as W).__neural, i = a.nodeForKey(k), n = a.nodes[i]
+  return [a._lastPairLabel, a._lastHoverLabel].some((l: W) => !!l && (l.idx === i || l.idx === n.pi) && String(l.main || "").includes(k.split("|")[0]))
+}, key)
 const framed = (s: { x: number; y: number; rect: { left: number; top: number; right: number; bottom: number } }) => {
   const cx = (s.rect.left + s.rect.right) / 2, cy = (s.rect.top + s.rect.bottom) / 2
   return Math.abs(s.x - cx) < 40 && Math.abs(s.y - cy) < 40
@@ -279,6 +285,7 @@ for (const touch of [false, true]) {
       const second = keys[keys.length - 1]
       await j.advance(1200)
       expect(framed(await onScreen(page, "Mount|Top")), "premise: the map is not on Mount before the press").toBe(false)
+      expect(await named(page, "Mount|Top"), "premise: nor does it name Mount").toBe(false)
       await press(page, row("Mount|Top"), "the row of Mount, top", touch)
       const before = await record(page)
       await page.evaluate(() => { const a = (window as W).__neural, t = a.track.bind(a); (window as W).__tracked = []; a.track = (e: string, p: W) => { (window as W).__tracked.push([e, p]); return t(e, p) } })
@@ -287,11 +294,20 @@ for (const touch of [false, true]) {
       const at = await onScreen(page, "Mount|Top")
       expect(framed(at), `the place is framed in the visible map (at ${Math.round(at.x)},${Math.round(at.y)} in ${JSON.stringify(at.rect)})`).toBe(true)
       expect(framed(await onScreen(page, second)), "and it is not where the roll stands that is framed").toBe(false)
+      await j.advance(200)
+      expect(await named(page, "Mount|Top"), "the map names the place it shows").toBe(true)
       expect(await page.evaluate(() => (window as W).__tracked), "Show on the map sends nothing").toEqual([])
       expect(changed(before, await record(page)), "the press wrote nothing to the record").toEqual([])
       const s = await state(page)
-      if (!touch) expect(s, "on a desktop the drawer stays, and its pause with it").toMatchObject({ drawer: true, paused: true, look: false, pane: true })
-      else expect(s, "on a phone the drawer shuts and the clock is held: a look, not a return to play").toMatchObject({ drawer: false, paused: true, look: true, pane: false })
+      if (!touch) {
+        expect(s, "on a desktop the drawer stays, and its pause with it").toMatchObject({ drawer: true, paused: true, look: false, pane: true })
+        // the name rides the camera's lease on this flight: the player takes the camera (a pan of the map) and it goes
+        const p = await emptyMapPoint(page)
+        await page.mouse.move(p!.x, p!.y); await page.mouse.down(); await page.mouse.move(p!.x + 40, p!.y + 16, { steps: 4 }); await page.mouse.up()
+        await page.mouse.move(8, 8)   // off the map: the pointer names nothing
+        await j.advance(800)
+        expect(await named(page, "Mount|Top"), "after a pan of the map the name is gone").toBe(false)
+      } else expect(s, "on a phone the drawer shuts and the clock is held: a look, not a return to play").toMatchObject({ drawer: false, paused: true, look: true, pane: false })
     })
 
     test(`a submission a roll passed through has Show on the map alone (${who})`, async ({ page }) => {
@@ -365,14 +381,17 @@ test.describe("on a phone, Show on the map is a look: the hold and every way it 
 
   test("on a phone the drawer shuts and the clock is held; a hand on the map lets it go", async ({ page }) => {
     const { j } = await looking(page)
-    await j.advance(3000)
-    expect(await state(page), "three seconds on, the clock is still held").toMatchObject({ paused: true, look: true })
+    await j.advance(9000)
+    expect(await state(page), "nine seconds on, the clock is still held").toMatchObject({ paused: true, look: true })
+    expect(await named(page, "Mount|Top"), "and the map still names the place: the name lasts as long as the look").toBe(true)
     const p = await emptyMapPoint(page)
     expect(p, "premise: a point of the map with nothing on it").not.toBeNull()
     await page.touchscreen.tap(p!.x, p!.y)
     expect((await state(page)).paused, "after a press on the map the roll runs again").toBe(false)
     expect((await beats(page, "look_ended")).map((b: W) => b.by), "and the hold says how it ended").toEqual(["map"])
     expect((await state(page)).look, "the claim is over").toBe(false)
+    await j.advance(800)
+    expect(await named(page, "Mount|Top"), "and the place's name on the map goes with the look").toBe(false)
   })
 
   test("on a phone a wheel on the map lets it go too", async ({ page }) => {
