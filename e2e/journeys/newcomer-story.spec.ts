@@ -94,7 +94,7 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   // the same rail pane-history.spec.ts drives.
   // v1.282.0 (rulings R2, SET1-GO; the reader of #423, D3): a newcomer has nothing stored, so this story runs on the default
   // throughout. Written when that meant Classic recall in the sidebar ("question, then the answer"); under Auto, Last rolls'
-  // deck asks a newcomer's new card as multiple choice, on its own surface (answer-mode.spec.ts "Last rolls").
+  // deck asked a newcomer's new card as multiple choice, on its own surface, until the deck left the row in v1.293.0 (below).
   await page.locator(".ng-logo").click();
   await page.locator('[data-view="history"]').click();
   expect(
@@ -107,15 +107,35 @@ test("newcomer's first session: question → execute → pane → roam → Chall
     "a row per state visited",
   ).toBeGreaterThan(1);
   await expect(page.locator("[data-hist-current]"), "the latest roll row is focused").toBeVisible();
-  // a row opens its deck on click (the chip used to open it for you; v1.175.0 retired the chip)
+  // v1.293.0 (L3): RE-POINTED. A row is a place the newcomer went through: a click shows its two actions and no card (its
+  // inline deck, whose new card asked multiple choice here, left the row; that claim is answer-mode.spec.ts's, on the card
+  // "Practise here" opens). The step keeps what it was for: the pane is a history the newcomer can act on, and the full-pane
+  // study view stays shut. "Practise here" opens that place in Master the game: for this newcomer on its card, a question
+  // and three answers (nothing is seeded here and no move is owed at the place yet; the bars come first when one is,
+  // last-rolls-places.spec.ts), and the brand leads back. Mutant, this build: "Practise here" opens nothing → red at
+  // "Practise here opens the place in Master the game"; on dev's build the step's own mutant (the inline deck never asks
+  // multiple choice) was red at the assertion this replaces.
   await page.locator("[data-hist-current]").click();
-  const deck = page.locator("[data-mini-deck]").first();
-  await expect(deck.locator("[data-mini-q]"), "question").toBeVisible();
-  await expect(deck.locator("[data-inline-mc-opt]"), "Auto: the newcomer's new card asks multiple choice here").toHaveCount(3, { timeout: 20_000 });
+  await expect(page.locator("[data-hist-show]"), "the row's first action: Show on the map").toBeVisible();
+  await expect(page.locator("[data-hist-go]"), "and its second: Practise here").toBeVisible();
+  await expect(page.locator(".ng-drill [data-mini-deck]"), "no card in the row").toHaveCount(0);
   await expect(
     page.locator(".ng-drill [data-mc-opt]"),
     "and the full-pane study view stays shut",
   ).toHaveCount(0);
+  const place = await page.locator("[data-hist-current]").getAttribute("data-hist");
+  await page.locator("[data-hist-go]").click();
+  await expect(page.locator("[data-practice-page]"), "Practise here opens the place in Master the game").toHaveCount(1);
+  await expect.poll(() => page.evaluate(() => { const a = (window as any).__neural, s = a._session; return s && !s.list ? (s.czOpen != null ? s.czOpen : a._masterSeatOf(s, s.keys[s.idx])) : null; }),
+    { timeout: 30_000, message: "at the place the row holds" }).toBe(place);
+  // WHAT THE NEWCOMER SEES THERE (L3-R1, the reader of PR #440: the step read only the app's own state). A newcomer has
+  // nothing stored and nothing owed, so the place opens on its first card, and Auto asks a new card as multiple choice: the
+  // question and three answers, the two things this step always asserted, on the card "Practise here" opens.
+  const open = '[data-session-row][aria-expanded="true"] + div';
+  await expect(page.locator(open + " [data-mini-q]"), "question").toBeVisible();
+  await expect(page.locator(open + " [data-practice-mc-opt]"), "Auto: the newcomer's new card asks multiple choice here").toHaveCount(3, { timeout: 20_000 });
+  await page.locator(".ng-drawer-brand").click();
+  await expect(page.locator(".ng-drawer-brand"), "the brand leads back to Last rolls").toHaveText("‹ Last rolls");
   await page.locator(".ng-explorer-close").click();
   expect(
     await page.evaluate(() => !!(window as any).__neural.paused),

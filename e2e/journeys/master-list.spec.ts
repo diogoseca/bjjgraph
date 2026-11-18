@@ -21,7 +21,7 @@ import { journey } from "../dsl"
  *   L1-A1 the button opens the second place (`ngMasterPaint`'s first row)   → "as it opens…" and "the press opens the plan's first place…"
  *   L1-A2 the navigation shown before the press (`_masterMode`)             → "as it opens: one button…"
  *   L1-A3 a heading "Places you have been" back over the rows              → "as it opens: one button…"
- *   L1-A4 a row's number the hand's size, a total (`ngMasterGoldIn`)        → "the gold count is the map's…" at "the row's gold number
+ *   L1-A4 a row's number the hand's size, a total (`_placeGold`, app.src.jsx since v1.293.0; it was `ngMasterGoldIn`) → "the gold count is the map's…" at "the row's gold number
  *         is the marks the map drew on its hand" (L1-R1: it was red at "as it opens…" against the map's predicate, which the
  *         reader of PR #434 showed is the row's own function, so no independent pin)
  *   L1-A5 a place with nothing due opens nothing (`_masterGo`)             → "openMasterAt…"

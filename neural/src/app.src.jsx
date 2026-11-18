@@ -851,9 +851,78 @@ class Component extends DCLogic {
     this._paneAutoPaused = false;
     this._bgAutoPaused = false;
   }
+  /**
+   * SHOW ON THE MAP IS A LOOK, NOT A RETURN TO PLAY (L3 ruling 1, v1.293.0). A Last rolls row's "Show on the map" frames the
+   * place it holds as a session's row frames its node (`locateNode`: the visible map, through `pairMid`, lit for a moment),
+   * takes the camera's 7 s lease (`holdCamera`), and NAMES it (`_shown`, below): the first real screens showed the place
+   * in the middle of the map with no name on it, and on a phone the row that named it is gone with the drawer. On a
+   * desktop the drawer stays beside the map and nothing else moves. ON A PHONE THE DRAWER IS THE SCREEN, so the press has
+   * to shut it, and by pane law shutting it resumes a roll the drawer stopped: the player would watch the place while the
+   * roll moved on without them. So the drawer's pause is handed
+   * to a latch of its own, `_lookAutoPaused`, exactly as a film takes it (`_replayAutoPaused`, `applyDeckVisibility`): one
+   * latch a pauser, so letting go gives back only a pause that was taken (§6.5). It is taken ONLY when the drawer is what
+   * stopped the game (`_paneAutoPaused`): a board that was already still (staged, read, ended, roamed) is not the look's.
+   *
+   * WRITER: `_showPlace`, on a phone. Beat `look_held`.
+   * LIFTERS, the complete set (`_lookEnd(by)`, beat `look_ended` with `by`, so no end is silent, §6.6):
+   *   "map"    the player's next hand on the map: `attachInput`'s pointerdown (tap, pan, the first finger of a pinch) and its
+   *            wheel, the same hands that end a film. The roll resumes, and THAT PRESS DOES NOTHING ELSE: it is consumed
+   *            there, as the press that closes the drawer is (it used to go on into the tap router and end the roll).
+   *            AND THE PRESS LEAVES THE PLACE NAMED FOR THE CAMERA'S HOLD TIME (L3-R2; `_lookEnd`'s second argument): the
+   *            press after it is the one that opens the place, and the name is what tells it which half (T7).
+   *   "drawer" the drawer opening again, by any door (`applyDeckVisibility`): the pause goes back to the drawer's own latch,
+   *            so shutting it resumes as it always does.
+   *   "clock"  the roll resumed by another hand (`setPaused(false)`: a move played from the hand, a modal shut with the
+   *            drawer shut). The look has nothing left to give back. A PAUSE by another hand does not end it (a clip watched
+   *            and closed restores the pause it found, `_choiceLearn`; ending the look there would leave a roll nothing resumes).
+   *   "roll"   a new journey (`clearEngagement`: a new roll, a staged place, free roam, a reference page). The roll the
+   *            look was holding is gone, so nothing is resumed; without this the next hand on the map would start a staged
+   *            board's clock or wake a page's dormant one.
+   * Each is pinned in e2e/journeys/last-rolls-places.spec.ts, which names the mutant of each (M8 to M15, M33).
+   */
+  _showPlace(i) {
+    if (this._replay) this.stopReplay("input");   // a film owns the camera; asking to see a place ends it, as a hand on the map does
+    if (this.isMobile()) {
+      const held = this._paneAutoPaused;
+      this._paneAutoPaused = false;               // before the drawer shuts: its close would resume
+      this.setDeckOpen(false);
+      if (held) { this._lookAutoPaused = true; this.fx("look_held", {}); }
+    }
+    this.locateNode(i); this.holdCamera();
+    this._shown = { i, t: this._camHoldTarget };
+  }
+  // THE PLACE "SHOW ON THE MAP" SHOWED, NAMED ON THE MAP the way a node under the pointer is (`draw()`'s hover label reads this
+  // when nothing is under the pointer). No lifters of its own to forget (§6.5): it lasts exactly as long as what it rides,
+  // the look's hold on a phone (`_lookAutoPaused`: however long the player looks) and the camera's lease ON THIS FLIGHT
+  // (`camHeld()` with the lease's own target: 7 s, a pan, pinch or wheel, any other flight, a move played, any
+  // go-elsewhere). Nothing clears it by hand: a line that did, in `_lookEnd`, survived its own mutant (the lease had
+  // already said no).
+  _shownNode() {
+    const s = this._shown;
+    return s && (this._lookAutoPaused || (this.camHeld() && this._camHoldTarget === s.t)) ? this.nodes[s.i] || null : (this._shown = null);
+  }
+  // `press`: THE PRESS ON THE MAP THAT ENDS A LOOK TAKES THE CAMERA'S LEASE AGAIN, SO THE PLACE STAYS NAMED FOR THE CAMERA'S
+  // HOLD TIME (L3-R2, the reader's re-read of PR #440 at 6ce6a6f03). That press is consumed (above), so on a phone the door
+  // to the place is the press AFTER it, and the name is what tells that press which half is meant (T7, `attachInput`'s tap
+  // router: at 390 a pair's two halves are drawn on one pixel). But the name rode the look and the first lease only, and a
+  // look of more than 7 s had spent the lease: the press that ended the look ended the name with it, and the next one,
+  // made 2 px above the place, opened the DEFENDER's card from a row about attacking (the reader, 1 of 1; 4 of 5 doors
+  // after a 10 s look, 5 of 5 made at once). The lease rather than a second clock of the name's own, for what a lease
+  // already knows how to end: its 7 s, a pan (the same press, dragged), a pinch, a wheel, a move played, any go-elsewhere.
+  // And it keeps the map still under the second press: the roll runs again, and the follow-cam would otherwise leave for
+  // where it stands. The wheel passes no `press`: it takes the camera for itself (`releaseCamera`), as it always did.
+  _lookEnd(by, press) {
+    if (!this._lookAutoPaused) return;
+    if (press && this._shown) { this.holdCamera(); this._shown.t = this._camHoldTarget; }
+    this._lookAutoPaused = false;
+    this.fx("look_ended", { by });
+    if (by === "drawer") this._paneAutoPaused = true;
+    else if (by === "map") this.setPaused(false);
+  }
   setPaused(p) {
     if (!p && this._readerIntent) return; // reading/minimizing never resumes a dormant board
     if (this.paused === p) return;
+    if (!p) this._lookEnd("clock");        // resumed by another hand: a look has nothing left to give back (`_showPlace`)
     // PRESSING PLAY ENDS THE FILM. A replay holds the clock on purpose; resuming the roll under it
     // would leave two things moving the same camera and the same pulse. `stopReplay` nulls
     // `_replay` before it can call back in here, so this cannot recurse.
@@ -866,8 +935,6 @@ class Component extends DCLogic {
     // The option countdown bars need nothing here since v1.114.1: they are no longer CSS
     // animations but a width written by `_tickDecision`, which is `gdt`-driven — so a paused
     // clock freezes them by construction, and a refund moves them, which an animation could not.
-    const list = this.drillListRef.current;
-    if (list) list.querySelectorAll(".ngCurExpire").forEach((w) => { w.style.animationPlayState = p ? "paused" : "running"; });
   }
   resetRoll() {
     // Restart is a request for a new camera flight, even immediately after a pan or click.
@@ -881,6 +948,7 @@ class Component extends DCLogic {
   // reroute odds refreshes to escape math, and a cancelled sweep never haunts the canvas.
   clearEngagement() {
     this.clearExecution();
+    this._lookEnd("roll");   // a new journey: the roll a look was holding is not there to resume (`_showPlace`)
     // v1.227.0, owner 2026-10-15: navigation starts a NEW journey, even if a roll
     // was already running. This seam covers restaging, reader links and resets.
     // Capture the identity before opponent travel; neither a later fetch nor play
@@ -1068,11 +1136,12 @@ class Component extends DCLogic {
         if (this.stopReplay("esc")) return;  // a film is ambient chrome: it stops before the pane closes
         if (this.deckShown) this.setDeckOpen(false);
       } else if (!typing && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
+        // LAST ROLLS' KEYS (L3, ruling 2): ↑ ↓ walk the places; ← → do nothing here (they paged the deck a row held until
+        // v1.293.0), and are still taken, so they never reach the branches below. ⏎ and Space are further down (`_placeOpen`).
         e.preventDefault();
         const f = (this._rollFocus == null ? (this.rollLog ? this.rollLog.length - 1 : 0) : this._rollFocus);
         if (e.key === "ArrowUp") this.focusRollItem(f - 1);
         else if (e.key === "ArrowDown") this.focusRollItem(f + 1);
-        else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (!typing && this._sessionInline() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         // THE INLINE SESSION'S TWO AXES (v1.137.0, owner: "I can go back and forth between
         // techniques and between flashcards"). Same shape as the History-home branch above and
@@ -1099,6 +1168,7 @@ class Component extends DCLogic {
         // Space FLIPS a card, ⏎ says "got it" and walks on (`doEnter` in `_miniDeck` owns the
         // three-state rule), so a deck is workable without leaving the home row. Below the option
         // sheet's Enter, which executes the staged technique and must keep the key.
+        // On an open Last rolls row ⏎ is "Practise here" (L3, ruling 2; `_placeOpen`), where the place has one.
         //
         // THE ACTIVATION GUARD IS SPACE'S, FOR SPACE'S REASON (v1.113.4): ⏎ activates every
         // focused <button>/<summary>/<a> too, and the Challenges corridor is built entirely out
@@ -1106,8 +1176,9 @@ class Component extends DCLogic {
         // to the browser instead — which is exactly why an opening inline deck moves focus onto
         // its deck BOX, a container that owns neither key (see `openMini`).
         if (t && t.closest && t.closest("button,summary,a[href],select,[role='button'],[contenteditable]")) return;
-        const mini = this._focusedMini();
-        if (mini) { e.preventDefault(); mini.enter(); }
+        const mini = this._focusedMini(), place = this._placeOpen();
+        if (place) { e.preventDefault(); if (place.go) place.go(); }
+        else if (mini) { e.preventDefault(); mini.enter(); }
         else if (this.isDrillOpen()) {
           // the study takeover reads back the same way, so ⏎ means the same thing there as ↓ —
           // and, like ↓, never during an open checkpoint quiz (see the drill arrows above)
@@ -1135,6 +1206,7 @@ class Component extends DCLogic {
         // `_focusedMini()` is the surface scope, not just a registry hit: it is what keeps Space
         // off a deck that belongs to another tab (see its own header).
         else if (e.key === " " && this._focusedMini()) { this._focusedMini().reveal(); }
+        else if (e.key === " " && this._placeOpen()) this._placeOpen().show();   // an open Last rolls row: Show on the map (L3, ruling 2)
         // SPACE TOGGLES A LIVE RECALL BLOCK (ported from journey/defend-wt, v1.91.0). LAST of the
         // three, so an open study surface and a focused mini-row both keep the key they already
         // had — this only claims Space when nothing else wanted it. `_recallLive()` is the whole
@@ -3013,6 +3085,32 @@ class Component extends DCLogic {
     }
     return v;
   }
+  /**
+   * WHAT YOU REMEMBER AT A PLACE, ONE FUNCTION FOR BOTH LISTS (U199 a; L3 ruling 5, v1.293.0). Of the moves dealt at a place,
+   * those the map paints gold: outside (`_movesGold`, a Yes in the moves record) or inside (`_answered`, its deck learned);
+   * their shapes, as the map draws them. Master the game's rows and Last rolls' rows both read it, so the two lists cannot
+   * disagree about a place, as the map and the card cannot (§6.5). It was `ngMasterGoldIn` in the deferred list bundle
+   * (master-list.src.js) while only that list read it; Last rolls is eager, so it lives here, beside the map's own.
+   * A key that is not a position (a submission a roll passed through) has none: [].
+   */
+  _placeGold(k) {
+    const i = this.nodeForKey(k); if (i < 0 || this.nodes[i].ty !== "positions") return [];
+    let c = this._placeGoldC;
+    if (!c || c.gi !== this._giMode || c.sv !== this._stageVer || c.mr !== this._movesRev || c.n !== this.nodes) c = this._placeGoldC = { gi: this._giMode, sv: this._stageVer, mr: this._movesRev, n: this.nodes, m: new Map() };
+    let g = c.m.get(k);
+    if (!g) {
+      const hand = this._dealtOpts(i, k.endsWith("|Bottom") ? "bottom" : "top") || [], gold = this._movesGold();
+      c.m.set(k, (g = hand.filter((o) => gold.has(o.idx) || this._answered(this.nodes[o.idx])).map((o) => (this.nodes[o.idx].ty === "submissions" ? "tri" : "dia"))));
+    }
+    return g;
+  }
+  // THE MARK A ROW DRAWS FROM IT: at most eight shapes, then the number (never a total); nothing at all when nothing is gold.
+  // Master the game hands in its row's own marks and number (`ngMasterRows`, pinned by tests/master_list.test.mjs); Last
+  // rolls hands in the place's shapes. Styled by `.ng-mgold` (challenge-ui.css, eager).
+  _goldMark(shapes, n = shapes.length) {
+    return n ? '<span class="ng-mgold" data-master-gold="' + n + '" aria-label="' + n + (n === 1 ? " move" : " moves") + ' in gold">' +
+      shapes.slice(0, 8).map((k) => '<svg width="10" height="10" viewBox="-1 -1 12 12"><path d="' + (k === "tri" ? "M5 .6L9.6 9.2H.4z" : "M5 .3L9.7 5L5 9.7L.3 5z") + '"/></svg>').join("") + "<b>" + n + "</b></span>" : "";
+  }
   _movesGold() {
     const c = this._movesIdx();
     if (c.gold) return c.gold;
@@ -3691,10 +3789,12 @@ class Component extends DCLogic {
       // THE BELT ROW READS ON OPEN (v1.276.0): the rating's live check is asked here, never on the boot path, and a check
       // that landed is never fetched again (`_askBeltRow`, `ratingCheck`)
       this._askBeltRow();
+      this._lookEnd("drawer");   // a look's hold comes back to the drawer that took the pause (`_showPlace`)
       if (!this.paused) { this.setPaused(true); this._paneAutoPaused = true; this.fx("pane_paused", {}); }
       const active = document.activeElement;
       this._explorerReturnFocus = active && active !== document.body ? active : null;
     } else if (!open && wasShown) {
+      this._histBack = null;   // the way back to a Last rolls row is for a drawer that stayed open (`renderDrillHome`, L3-R2)
       this._handBackMc("pane", true); // exposed landing pages may have changed while the pane owned the keys
       // ── CLOSING THE PANE WHILE A FILM IS RUNNING HANDS THE CLOCK OVER, IT DOES NOT RESUME ──
       // On a phone the 88vw drawer IS the screen, so closing it is how you WATCH the replay you
@@ -3919,19 +4019,6 @@ class Component extends DCLogic {
   }
   // (v1.94.0) the chip's old toggleMenu — open the pane / close the pane — is gone: the chip
   // opens the ACCOUNT MENU now (toggleAccountMenu), and the pane opener is the top-left logo.
-  openMenu(latest) {
-    if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // leaving the card view cancels the pending advance
-    this._drillView = "home";
-    if (this._checkpoint) this._cancelCheckpoint(); // walking home mid-quiz abandons it (same as ✕/Esc)
-    this.deck = null; this._studyOpen = null; this._session = null; // home = tabs mode, not study takeover
-    if (this._viewMode !== "history") this.setViewMode("history");
-    if (latest) this._openRow = this._focusRow = "c" + (this._rollFocus = this.rollLog.length - 1);
-    this.deckReady = true; this.deckOpen = true;
-    this.applyDeckVisibility();
-    this.renderDrillHome();
-    if (latest) this._scrollFocusedDeck();
-    this.lastInteract = this.now;
-  }
   _deckHasCards(key) { const d = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null; return !!(d && d.cards && d.cards.length); }
   // ONE accessor for a deck's cards. A deck entry can be PRESENT but not hydrated: the
   // on-demand chunk path boots from a manifest stub ({n} with no `cards`) and fills
@@ -4528,26 +4615,14 @@ class Component extends DCLogic {
   // bytes-to-first-hand bill (measured: it did). The read sites fetch it, and the Explore tab
   // re-renders when it lands — one click's worth of latency, once.
   focusRollItem(idx) {
-    // arrow up/down moves the focus through THIS ROLL, opening the focused state's deck (collapsing the rest)
+    // arrow up/down moves the focus through THIS ROLL, opening the focused place's two actions (collapsing the rest)
     const rl = this.rollLog || [];
     if (!rl.length) return;
     idx = Math.max(0, Math.min(rl.length - 1, idx));
     this._rollFocus = idx;
-    this._openRow = null;
-    this._focusRow = null;
-    const key = rl[idx].key;
-    if (this._deckHasCards(key)) { this._openRow = "c" + idx; this._focusRow = "c" + idx; }
+    this._openRow = this._focusRow = "c" + idx;
     this.renderDrillHome();
     this._scrollFocusedDeck();
-  }
-  _armDeckExpire() {
-    // gray-out the OPEN current-state flashcard box over the decision window; it fully grays as time runs out, then the roll moves on
-    const list = this.drillListRef.current; if (!list) return;
-    const w = list.querySelector(".ngCurExpire"); if (!w) return;
-    const dsec = this._decisionDsec || 10;
-    w.style.animation = "none"; void w.offsetWidth;
-    w.style.animation = "ngDeckExpire " + dsec + "s linear forwards";
-    w.style.animationPlayState = this.paused ? "paused" : "running";
   }
   /**
    * Bring the OPEN inline deck fully into the pane's scroller — row header, question and Reveal.
@@ -5218,8 +5293,24 @@ class Component extends DCLogic {
 
     list.innerHTML = "";
     this._miniReg = {};
-    // grouped roll history — the current roll's CURRENT row expands to an inline flashcard deck
+    // COMING BACK FROM "PRACTISE HERE" (L3-R1, R6: after "‹ Master the game" no row was open, 7 of 7): the row it was pressed
+    // on is open again and where it was. Remembered by the press (`_histRow`'s `go`), used by the first draw after it.
+    // BY WHAT THE ROW IS, NOT WHERE IT WAS (L3-R2, the reader's re-read): the memory held a row's id alone, and the id of a
+    // row of the roll in play is its INDEX ("c0"), so it was good for whatever stood there at the next draw, whenever that
+    // was (Practise here, Esc, a move, the logo, Last rolls: the old row open, 1 of 1; after a new roll, a row never
+    // pressed). It holds the row's key and its roll (the log itself for the roll in play, which every new roll replaces;
+    // a filed roll's `ts` is in its id), and it opens a row only if that row of that roll still holds that key.
+    // LIFTERS: this draw (used or refused, it is spent), and the drawer's shutting (`applyDeckVisibility`).
+    let back = this._histBack; this._histBack = null;
+    if (back) {
+      const m = /^p(\d+)_(\d+)$/.exec(back.rid);
+      const log = m ? ((this._pastRolls || []).find((r) => String(r.ts) === m[1]) || {}).log : back.log === this.rollLog && back.log;
+      if (((log || [])[m ? +m[2] : +back.rid.slice(1)] || {}).key !== back.key) back = null;
+    }
+    if (back) this._openRow = this._focusRow = this._histBackRid = back.rid;
+    // grouped roll history: a row opens the two actions of the place it holds (`_histRow`, L3)
     this.renderRollHistory(list);
+    if (back) { this._histBackRid = null; list.scrollTop = back.y; this._scrollFocusedDeck(); }
   }
 
   _agoLabel(ts) {
@@ -5229,15 +5320,28 @@ class Component extends DCLogic {
     if (s < 86400) return Math.floor(s / 3600) + "h ago";
     return Math.floor(s / 86400) + "d ago";
   }
-  _histRow(h, decks, opts) {
+  /**
+   * A LAST ROLLS ROW IS A PLACE YOU WENT THROUGH (L3, v1.293.0). The owner, 16 Nov: "I absolutely love the interface of
+   * Lastrolls, but I think Lastrolls should stop being about answering … The idea is for last rolls to be about going
+   * through the [nodes] that were visited, not necessarily answering flashcards." Answering lives in Master the game (the
+   * list since v1.290.0, the cloze since v1.292.0), so a row no longer holds a deck. A press shows its two actions under it,
+   * one row open at a time, as the deck opened:
+   *   · SHOW ON THE MAP (`_showPlace`): the camera frames the place; on a phone the drawer shuts and the clock is held.
+   *   · PRACTISE HERE: `openMasterAt(key)`, the place opened as Master the game's own row press opens it (its moves as a
+   *     cloze when they are owed, else its cards). Only a POSITION has it: Master the game lists positions, and a key its
+   *     list does not hold opens the list and says nothing (`openMasterAt`'s contract). A submission a roll passed through
+   *     is a row here too; it has Show on the map alone, and its cards are asked at the position it is played from.
+   *   · A place this ruleset does not draw (the ruleset switched since the roll) has neither: the map cannot show it.
+   * THE SUB LINE says the side and then what you remember there, the gold marks and the number, from the function Master
+   * the game's rows use (`_placeGold`, `_goldMark`): nothing when nothing is remembered, never a card count or a total (the
+   * owner's U199 a). It was "3/8 cards" or "mastered", `prep` over the deck's manifest count.
+   * NOTHING IS WRITTEN HERE: no card is answered in Last rolls, so it writes no `srs` and no `stage`; neither press writes
+   * to the stored record (pinned by e2e/journeys/last-rolls-places.spec.ts, the record compared whole).
+   * What left with the deck, and where it went, is in that spec's header and docs/Changelog-Archive.md (v1.293.0).
+   */
+  _histRow(h, opts) {
     const isCurrent = !!opts.isCurrent;
     const dot = h.actor === "you" ? "#5b8cff" : (h.actor === "opp" ? "#d8607a" : "#7e8aa3");
-    const deck = decks[h.key];
-    // the count is the manifest's `n` (the corpus truth); residency only decides whether the
-    // inline Q&A card can be built yet, and a cold deck is fetched when the row is opened
-    const ncards = this._deckCardCount(deck);
-    const resident = !!this._cardsOf(deck);
-    const prep = Math.min((this.prep && this.prep[h.key]) || 0, ncards);
     const r = document.createElement("div");
     // journey handles: the pane's roll history is a first-class surface (it is what the pane IS)
     r.setAttribute("data-hist", h.key);
@@ -5253,42 +5357,46 @@ class Component extends DCLogic {
       '</span>' +
       '<div style="flex:1;min-width:0;">' +
       (h.intend ? '<div style="font-size:9px;color:#5d6680;font-weight:600;letter-spacing:.01em;margin-bottom:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (h.actor === "opp" ? "they aimed for" : "you aimed for") + ' <span style="color:#7e8aa3;">' + h.intend.val + ' ' + h.intend.name + '</span></div>' : '') +
-      '<div style="display:flex;align-items:baseline;gap:6px;"><span style="font-size:12.5px;font-weight:' + (isCurrent ? 700 : 500) + ';color:' + (isCurrent ? "#eef1f6" : "#9aa6bd") + ';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (h.intend ? "\u21b3 " : "") + h.name + '</span>' + (h.val != null && parseInt(h.val, 10) !== 0 ? '<span style="flex:none;font-size:10px;font-weight:700;color:' + valColor + ';font-family:\'Space Grotesk\',sans-serif;">' + h.val + '</span>' : '') + '</div>' +
-      '<div style="font-size:9.5px;color:#6b7691;font-weight:600;letter-spacing:.02em;">' + h.role + (ncards ? " \u00b7 " + (prep >= ncards && ncards ? "mastered" : prep + "/" + ncards + " cards") : "") + '</div></div>' +
-      (isCurrent ? '<span style="flex:none;font-size:8.5px;letter-spacing:.12em;font-weight:800;color:#7ee0a8;border:1px solid rgba(126,224,168,.4);border-radius:5px;padding:2px 5px;">LATEST</span>' : '<span class="hplay" style="flex:none;cursor:pointer;width:24px;height:24px;border-radius:7px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.04);color:' + (ncards ? "#8b97b0" : "#586378") + ';transition:background .12s,color .12s;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5v14l12-7z"></path></svg></span>');
+      '<div style="display:flex;align-items:baseline;gap:6px;"><span style="font-size:12.5px;font-weight:' + (isCurrent ? 700 : 500) + ';color:' + (isCurrent ? "#eef1f6" : "#9aa6bd") + ';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (h.intend ? "↳ " : "") + h.name + '</span>' + (h.val != null && parseInt(h.val, 10) !== 0 ? '<span style="flex:none;font-size:10px;font-weight:700;color:' + valColor + ';font-family:\'Space Grotesk\',sans-serif;">' + h.val + '</span>' : '') + '</div>' +
+      '<div data-hist-sub="1" style="display:flex;align-items:center;gap:7px;font-size:9.5px;color:#6b7691;font-weight:600;letter-spacing:.02em;">' + h.role + this._goldMark(this._placeGold(h.key)) + '</div></div>' +
+      (isCurrent ? '<span style="flex:none;font-size:8.5px;letter-spacing:.12em;font-weight:800;color:#7ee0a8;border:1px solid rgba(126,224,168,.4);border-radius:5px;padding:2px 5px;">LATEST</span>' : '<span class="hplay" style="flex:none;cursor:pointer;width:24px;height:24px;border-radius:7px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.04);color:#8b97b0;transition:background .12s,color .12s;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5v14l12-7z"></path></svg></span>');
     const box = document.createElement("div");
     const detail = document.createElement("div");
-    detail.style.cssText = "display:none;margin:0 -8px;";
-    let built = false;
+    detail.className = "ng-hact"; detail.style.display = "none";
     const rid = opts.rid != null ? opts.rid : ("c" + (opts.rollIndex != null ? opts.rollIndex : h.key));
     {
       const play = r.querySelector(".hplay"); // null on the CURRENT row (v1.134.0): the live board takes no transport action
+      // the place's node, by its key (the node both of a position's sides answer to, `nodeForKey`); the two actions it can take
+      const ni = this.nodeForKey(h.key), drawn = ni >= 0 && this.rsAllowsIdx(ni);
+      // ...and THE HALF THE ROW IS ABOUT (L3-R1): a position's key resolves to its top orb for both of its sides, and a roll
+      // stands on that orb whichever side it plays (the side is the row's `role`), so "Show on the map" from a Bottom row named
+      // the place TOP. `_seatMember` is the one seam for "the orb that plays this side" (a technique's key is its own half)
+      const own = this._seatMember(ni, /bottom/i.test(h.role || "") ? "bottom" : "top");
+      const show = drawn ? () => this._showPlace(own) : null;
+      // (R6: the row is remembered, so "‹ Master the game" comes back to it open and where it was: `renderDrillHome`)
+      const go = drawn && this.nodes[ni].ty === "positions" ? () => { const l = this.drillListRef.current; this._histBack = { rid, key: h.key, log: this.rollLog, y: l ? l.scrollTop : 0 }; this.openMasterAt(h.key, "lastrolls"); } : null;
       const closeSelf = () => { detail.style.display = "none"; if (this._openRow === rid) this._openRow = null; if (this._focusRow === rid) this._focusRow = null; if (this._openMini && this._openMini.rid === rid) this._openMini = null; };
       const openD = () => {
         if (this._openMini && this._openMini.rid !== rid) this._openMini.close();   // accordion: only one box open at a time
-        if (!built) {
-          built = true;
-          detail.appendChild(ncards && resident ? this._miniDeck(h.key, deck, isCurrent, rid) : this._miniDeckEmpty(h));
-          // authored but not here yet: this click IS the request for it (and, after a dropped
-          // chunk, the retry). Swap the placeholder for the real card when it lands.
-          if (ncards && !resident) {
-            this.hydrateDeck(h.key).then(() => {
-              if (!this._cardsOf(this.flashcards.decks[h.key]) || detail.style.display === "none") return;
-              detail.innerHTML = "";
-              detail.appendChild(this._miniDeck(h.key, decks[h.key], isCurrent, rid));
-            });
-          }
+        if (!detail.firstChild) {
+          // the key each answers to (ruling 2) is its tooltip: printed on the button as the deck's Reveal printed "space", it
+          // wrapped "Show on the map" onto two lines in the 360 px drawer (the first real screen at 1440)
+          const act = (attr, label, key, fn) => { const b = document.createElement("button"); b.type = "button"; b.setAttribute(attr, "1"); b.textContent = label; b.title = key; b.onclick = (ev) => { ev.stopPropagation(); fn(); }; detail.appendChild(b); };
+          act("data-hist-show", "Show on the map", "Space", show);
+          if (go) act("data-hist-go", "Practise here", "Enter", go);
         }
-        detail.style.display = "block";
+        detail.style.display = "flex";
         this._openRow = rid; this._focusRow = rid;
-        this._openMini = { rid: rid, el: detail, close: closeSelf };
+        this._openMini = { rid: rid, el: detail, close: closeSelf, show: show, go: go };
       };
       const toggle = () => {
         if (detail.style.display !== "none") closeSelf();
-        else { this._rollFocus = (opts.rollIndex != null ? opts.rollIndex : this._rollFocus); openD(); }
+        // R10: a row opened near the list's end had its two actions under the panel's foot (the last row of 19 at 390x631:
+        // 12 of 44 px showing). The list scrolls just enough to show the row and both actions whole, and not at all
+        // when they already are (`_scrollFocusedDeck`: the smallest scroll, as the arrows always did)
+        else { this._rollFocus = (opts.rollIndex != null ? opts.rollIndex : this._rollFocus); openD(); this._scrollFocusedDeck(); }
       };
-      r.style.cursor = "pointer";
-      r.addEventListener("click", () => toggle());
+      if (show) { r.style.cursor = "pointer"; r.addEventListener("click", () => toggle()); }
       // v1.134.0: the play/pause transport is retired everywhere — every archived row is a
       // gray "roll from here", and the current row carries no button at all.
       if (play) {
@@ -5296,12 +5404,11 @@ class Component extends DCLogic {
         play.title = lbl;
         play.setAttribute("aria-label", lbl);   // a title is not an accessible name (v1.106.5)
         play.addEventListener("mouseenter", () => { play.style.background = "rgba(74,108,255,.3)"; play.style.color = "#dbe6ff"; });
-        play.addEventListener("mouseleave", () => { play.style.background = "rgba(255,255,255,.04)"; play.style.color = ncards ? "#8b97b0" : "#586378"; });
+        play.addEventListener("mouseleave", () => { play.style.background = "rgba(255,255,255,.04)"; play.style.color = "#8b97b0"; });
         play.addEventListener("click", (ev) => {
         ev.stopPropagation();
         // start another roll from this position (current roll archived into Previous rolls)
         this._openLatestOnLand = true;
-        const ni = this.nodeForKey(h.key);
         // ...ON THE SIDE THIS ROW WAS PLAYED FROM (v1.106.5). Without the override
         // `rollFromPosition` derives the role from the node TITLE, and every position hub is
         // titled "… Top" in the visual layer — so rolling from a Bottom row put you on top, in
@@ -5316,19 +5423,25 @@ class Component extends DCLogic {
           this.setDeckOpen(false);
         });
       }
-      if (this._openRow === rid) openD();
+      if (show && this._openRow === rid) openD();
     }
-    r.addEventListener("mouseenter", () => r.style.background = "rgba(255,255,255,.03)");
-    r.addEventListener("mouseleave", () => r.style.background = "transparent");
+    // (lit under the pointer only when a press does something: a place this ruleset does not draw has no actions, R5)
+    if (r.style.cursor) {
+      r.addEventListener("mouseenter", () => r.style.background = "rgba(255,255,255,.03)");
+      r.addEventListener("mouseleave", () => r.style.background = "transparent");
+    }
     box.appendChild(r); box.appendChild(detail);
     return box;
   }
   /**
+   * THE INLINE DECK OF A SESSION ROW. Last rolls' rows held one too until v1.293.0 (L3: a row there is a place, `_histRow`);
+   * with it went their own answer surface ("inline": its option handle `data-inline-mc-opt`, its rng tags, its guard in
+   * `_mcBlock`) and the greying of the latest row's card over the question's clock (`_armDeckExpire`, `.ngCurExpire`).
    * @param onGrade  optional: fired AFTER a grade goes through `gradeRecall`. The inline
-   *   session uses it to repaint its own row and walk the queue on; the roll history passes
-   *   nothing, so its rows keep their existing behaviour exactly.
+   *   session uses it to repaint its own row and walk the queue on.
+   * @param _unused  the old `isCurrent` (Last rolls' latest row): kept so the callers' argument order does not move.
    */
-  _miniDeck(key, deck, isCurrent, rid, onGrade, cardsOverride) {
+  _miniDeck(key, deck, _unused, rid, onGrade, cardsOverride) {
     // `cardsOverride` narrows the deck without narrowing the DECK: a maintenance row shows only
     // what is due, and grading still credits through the same `gradeRecall` choke.
     const cards = cardsOverride || this._cardsOf(deck) || [], total = cards.length; // caller gates on ncards; belt AND braces
@@ -5336,6 +5449,13 @@ class Component extends DCLogic {
     const st = this._deckState[key] || (this._deckState[key] = { idx: 0, revealed: false });
     if (st.idx >= total) st.idx = 0;
     if (st.idx < 0) st.idx = Math.max(0, total - 1);   // entered from the next deck by ‹ (L1-R0): its last card
+    // A REVEAL BELONGS TO THE CARD IT WAS MADE ON (v1.293.0, found by answer-mode.spec.ts re-pointed for L3, 2 of 2). `st`
+    // remembers a place in the deck by INDEX, and what a session asks of a deck is a SUBSET that changes from one session to
+    // the next (a place asked again leaves out what was answered): the same index is then another card, and it was drawn
+    // with the last card's `revealed`, its answer on the screen before the question was asked. Each visit from Last rolls
+    // ("Practise here") is a new session, so the second press on a place met it. The remembered reveal stands only while
+    // the remembered card is the card drawn (`st.q`, written by every draw).
+    if (st.revealed && st.q !== (cards[st.idx] || {}).q) st.revealed = false;
     this._answered = this._answered || {};
     const ansSet = this._answered[key] || (this._answered[key] = new Set());
     // Stable question/day identity survives subset reordering and expires at midnight.
@@ -5349,16 +5469,14 @@ class Component extends DCLogic {
     };
     this.prep = this.prep || {};
     const wrap = document.createElement("div");
-    if (isCurrent) wrap.className = "ngCurExpire";
     wrap.setAttribute("data-mini-deck", key); // shared inline card; every one honours the answer mode (v1.282.0, `_answerMode`)
     // a card laid out again in place (Practice's plan taken again, `_practiceGuard`) does not fade in a second time
     wrap.style.cssText = "padding:0 8px 12px 26px;" + (this._noCardIn ? "" : "animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;");
     const navBtn = (cls, d) => '<button class="' + cls + '" style="flex:none;width:42px;height:36px;cursor:pointer;border:1px solid rgba(150,170,210,.2);border-radius:9px;background:rgba(255,255,255,.03);color:#aab4c8;display:flex;align-items:center;justify-content:center;transition:background .12s,color .12s;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="' + d + '"></path></svg></button>';
     let recallFallback;
-    // THE ANSWER MODE ON EVERY INLINE DECK (v1.282.0, R2: everywhere a card is asked). Until then only a Practice session asked
-    // multiple choice here; Last rolls' decks (no session) now do too, on their own surface "inline" (own option handle
-    // `data-inline-mc-opt`, own rng tags, own answer guard in `_mcBlock`), so nothing rigged for Practice moves.
-    const surf = this._session ? "practice" : "inline";
+    // THE ANSWER MODE ON EVERY INLINE DECK (v1.282.0, R2: everywhere a card is asked): a session's deck asks it on the surface
+    // "practice". (Last rolls' decks asked it on a surface of their own, "inline", from v1.282.0 until they left in v1.293.0.)
+    const surf = "practice";
     const recognition = () => cards[st.idx] !== recallFallback && this.mcActive(key, cards[st.idx]) && !graded(cards[st.idx]);
     const doPrev = () => { st.idx = (st.idx - 1 + total) % total; st.revealed = false; render(); };
     const doNext = () => { st.idx = (st.idx + 1) % total; st.revealed = false; render(); };
@@ -5408,6 +5526,7 @@ class Component extends DCLogic {
     const render = () => {
       if (this._mc?.surface === surf) { this._mc.spent = true; this._mc = null; }
       const card = cards[st.idx] || {};
+      st.q = card.q;   // the card this state is about (see above)
       const tabs = cards.map((c, i) => {
         const active = i === st.idx, done = ansSet.has(identity(c));
         const bg = active ? "#5b8cff" : (done ? "#6ed6a0" : "rgba(150,170,210,.22)");
@@ -5464,7 +5583,7 @@ class Component extends DCLogic {
           else { recallFallback = card; render(); }
         }
       }
-      if (surf === "practice" && this._session && this._session.dock) this._masterDock(this._session);
+      if (this._session && this._session.dock) this._masterDock(this._session);
     };
     this._miniReg = this._miniReg || {};
     // `at`: the open card's place in its deck, for Master the game's foot (L1-R0, `_masterStep`: its ‹ › cross decks at the ends)
@@ -5519,7 +5638,7 @@ class Component extends DCLogic {
     b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); onClick(); });
     return b;
   }
-  _pastRollRow(roll, decks) {
+  _pastRollRow(roll) {
     const log = roll.log || [];
     const start = log[0];   // `end` lives in `replayEnds` now — the row prints what that returns
     const oc = { win: { c: "#7ee0a8", t: "won" }, lose: { c: "#e8889e", t: "tapped" }, reset: { c: "#7e8aa3", t: "reset" } }[roll.outcome] || { c: "#7e8aa3", t: "ended" };
@@ -5601,29 +5720,31 @@ class Component extends DCLogic {
     let built = false;
     r.addEventListener("mouseenter", () => r.style.background = "rgba(255,255,255,.03)");
     r.addEventListener("mouseleave", () => r.style.background = "transparent");
-    r.addEventListener("click", () => {
+    const fold = () => {
       const open = detail.style.display === "none";
-      if (open && !built) { built = true; log.forEach((h, i) => detail.appendChild(this._histRow(h, decks, { isFirst: i === 0, isLast: i === log.length - 1, rid: "p" + roll.ts + "_" + i }))); }
+      if (open && !built) { built = true; log.forEach((h, i) => detail.appendChild(this._histRow(h, { isFirst: i === 0, isLast: i === log.length - 1, rid: "p" + roll.ts + "_" + i }))); }
       detail.style.display = open ? "flex" : "none";
       const chev = r.querySelector(".pchev"); if (chev) chev.style.transform = open ? "rotate(90deg)" : "none";
-    });
+    };
+    r.addEventListener("click", fold);
+    // coming back from "Practise here" to a state of this roll: the roll is drawn unfolded, so the row is there to open (R6)
+    if (String(this._histBackRid || "").startsWith("p" + roll.ts + "_")) fold();
     box.appendChild(r); box.appendChild(detail);
     return box;
   }
   renderRollHistory(list) {
-    const decks = (this.flashcards && this.flashcards.decks) || {};
     const label = (txt) => { const d = document.createElement("div"); d.style.cssText = "font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#6b7691;font-weight:700;padding:12px 8px 4px;margin:0 -8px;white-space:nowrap;"; d.textContent = txt; return d; };
     const box = document.createElement("div");
     const cur = this.rollLog || [];
     const past = this._pastRolls || [];
     if (past.length) {
       box.appendChild(label("Previous rolls"));
-      past.forEach((roll) => box.appendChild(this._pastRollRow(roll, decks)));
+      past.forEach((roll) => box.appendChild(this._pastRollRow(roll)));
     }
     if (cur.length) {
       box.appendChild(label("This roll"));
       const wrap = document.createElement("div"); wrap.style.cssText = "display:flex;flex-direction:column;";
-      cur.forEach((h, i) => wrap.appendChild(this._histRow(h, decks, { isCurrent: i === cur.length - 1, isFirst: i === 0, isLast: i === cur.length - 1, rollIndex: i, rid: "c" + i })));
+      cur.forEach((h, i) => wrap.appendChild(this._histRow(h, { isCurrent: i === cur.length - 1, isFirst: i === 0, isLast: i === cur.length - 1, rollIndex: i, rid: "c" + i })));
       box.appendChild(wrap);
     }
     if (box.children.length) {
@@ -6936,11 +7057,12 @@ class Component extends DCLogic {
   /**
    * THE FOCUSED INLINE DECK — SCOPED TO THE SURFACE THAT IS ACTUALLY SHOWING (v1.175.0).
    *
-   * `_focusRow` + `_miniReg` are ONE registry shared by the inline-deck surfaces (roll history `c<n>`,
-   * inline session `s<i>`; the Path's corridor `lesson:<deckKey>` left with the Path, v1.287.0), and nothing clears the row
-   * handle when you change tabs. So a rid left behind by one surface stays resolvable from
-   * another: without this, ←/→ on Challenges would page a deck sitting on the History tab, and
-   * ⏎ would GRADE a card nobody is looking at — credit for an answer never given (§6.6).
+   * `_focusRow` + `_miniReg` are ONE registry shared by the inline-deck surfaces (the inline session `s<i>`; roll history
+   * `c<n>` held decks until v1.293.0, L3, and the Path's corridor `lesson:<deckKey>` left with the Path, v1.287.0), and
+   * nothing clears the row handle when you change views. So a rid left behind by one surface stays resolvable from
+   * another: without this, ←/→ on the drawer's list would page a deck sitting in a session you left, and
+   * ⏎ would GRADE a card nobody is looking at — credit for an answer never given (§6.6). Last rolls registers no deck now
+   * (its rows hold places; their keys are `_placeOpen`'s), so a handle is only ever a session's.
    *
    * The session answers through `offsetParent`, the CSS's own answer to "can the player see this deck".
    *
@@ -6956,8 +7078,16 @@ class Component extends DCLogic {
     const reg = rid && this._miniReg ? this._miniReg[rid] : null;
     if (!reg) return null;
     if (this._sessionInline()) return this._openMini?.rid === rid && this._openMini.el.isConnected && this._openMini.el.offsetParent !== null ? reg : null;
-    if (this.deckShown && this._viewMode === "history" && this._drillView === "home") return reg;
     return null;
+  }
+  // THE OPEN LAST ROLLS ROW, for the keys (L3, ruling 2): its two actions (`show`, and `go` where the place is a position),
+  // only while Last rolls is the view on screen and its row is still there. The scope a deck's keys have (`_focusedMini`),
+  // for the same reason: `_openMini` is one slot shared with the session's rows, and a row left behind must not take a key.
+  _placeOpen() {
+    const m = this._openMini;
+    // ...and its row is LAID OUT (`offsetParent`, as a deck's is): a past roll folded again hides its rows without removing
+    // them, and the open one still took Space and ⏎ (the reader of PR #440, finding 2: a place nothing on screen showed)
+    return m && m.show && m.el.offsetParent !== null && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() ? m : null;
   }
   /**
    * THE SESSION IS AN INLINE DECK LIST, NOT A TAKEOVER (v1.137.0). Owner: "I love this inline UI
@@ -7319,8 +7449,9 @@ class Component extends DCLogic {
    * place a Last rolls row holds (a deck key, "Mount|Top"): that row scrolled into view and opened on its first ask, exactly
    * as the button opens the first row (`_masterGo`); a place with nothing due opens as a free review. A key the list does not
    * hold opens the list as it is, says nothing, and beats `master_at_unheld` (§6.6). Pinned by e2e/journeys/master-list.spec.ts.
+   * Its one caller in the app is a Last rolls row's "Practise here" (`_histRow`, v1.293.0), which offers it only for a position.
    */
-  openMasterAt(deckKey) {
+  openMasterAt(deckKey, surface) {
     // an "Everything owed" session is a session of its own: replaced by today's (L1-R1, the reader's finding 5), its way back kept
     const owed = this._session && this._session.owed ? this._session : null;
     // FROM ANY STATE (L1-R1b, the reader's finding 2, measured 5 of 5): Esc and ✕ shut the drawer and KEEP `_session`, which
@@ -7330,7 +7461,8 @@ class Component extends DCLogic {
     const shut = !!this._session && !this._sessionInline();
     if (shut || this.deck || this._checkpoint) { if (this._checkpoint) this._cancelCheckpoint(); this.deck = null; this._studyOpen = null; }
     if (owed || shut) { this._session = null; this._sessionNodes = null; this._inSession = false; }
-    if (!this._practiceInDrawer() || !this._session) this.openPlanSession("due", undefined, "place");
+    // `surface`: which door opened it, for `neural_practice_opened` ("lastrolls" from a Last rolls row's "Practise here", L3 ruling 4)
+    if (!this._practiceInDrawer() || !this._session) this.openPlanSession("due", undefined, surface || "place");
     if (owed && this._session && owed.origin) this._session.origin = owed.origin;
     const s = this._session;
     this._ensureGameplanRuntime().then(() => this._afterPress(() => {
@@ -9532,6 +9664,9 @@ class Component extends DCLogic {
     // the corridor's one home since v1.287.0 is Master the game: a flip with it open repaints it there (a gi-only lesson goes, its
     // evidence stays), as the Path view's list repaint below did for the Path
     if (this._session?.practice && this._sessionInline()) this._practiceCorridor();
+    // Last rolls open under the flip (Settings is a modal over the drawer): a row's gold is the ruleset's own hand, and a
+    // place this ruleset does not draw offers no actions (`_histRow`, L3-R1 T2), so its rows are drawn again
+    this._refreshHistoryRows();
     const list = this.explorerListRef.current;
     if (list && list.style.display !== "none") this.renderExplorer();
   }
@@ -13826,8 +13961,8 @@ class Component extends DCLogic {
     // and their order included. So an inline surface's deal is kept for the same card (surface, deck, question) until it is
     // answered (`knowledgeAttempt`) or another card is dealt there; `spent` cannot end it, since every repaint of `_miniDeck`
     // spends the block it replaces, the same card's included. A kept deal draws nothing from the rng.
-    const inlineSurf = surface === "practice" || surface === "inline";
-    const pinId = inlineSurf ? surface + "|" + key + "|" + this.qhash(card.q) : null;
+    // (the one inline surface is a session's, "practice"; Last rolls' own, "inline", left with its decks in v1.293.0)
+    const pinId = surface === "practice" ? surface + "|" + key + "|" + this.qhash(card.q) : null;
     const pin = this._mcPin;
     const mc = pinId && pin && pin.id === pinId && !pin.truth.knowledgeAttempt ? pin.mc
       : this.mcDistractors(card, key, this.MC_DISTRACTORS, surface && surface !== "deck" ? surface : null);
@@ -13887,7 +14022,7 @@ class Component extends DCLogic {
     // the flag-derived truth (never the pixels), so the refusal flips back the instant the sheet
     // closes, with no transition to race. Not a decline and not a grade: the question is untouched
     // and still pays when the player comes back to it.
-    const answer = (i) => { if ((truth.surface === "practice" ? !this._sessionInline() : truth.surface === "inline" && (this._session || !this.deckShown || this.deck || this._checkpoint)) || (/^(practice|inline)$/.test(truth.surface) && (!wrap.isConnected || wrap.offsetParent === null))) return; if (wrap.inert || (["land", "panic"].includes(truth.surface) && this._landHidden(true))) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
+    const answer = (i) => { if (truth.surface === "practice" && (!this._sessionInline() || !wrap.isConnected || wrap.offsetParent === null)) return; if (wrap.inert || (["land", "panic"].includes(truth.surface) && this._landHidden(true))) return; if (answered || truth.spent) { explore(i); return; } answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
     truth.answer = answer;                                    // the A/B/C keyboard seam
     mc.options.forEach((o, i) => {
       const b = document.createElement("button");
@@ -19755,7 +19890,7 @@ class Component extends DCLogic {
     if (!ek.has(hkey)) { ek.add(hkey); this._saveFlowSoon(); }
     // append to the roll history log (skip exact consecutive dupes)
     this.rollLog = this.rollLog || [];
-    // was the OPEN flashcard box the latest (current-state) row? if so, carry it forward to the new latest row
+    // was the OPEN row the latest (current-state) row? if so, carry it forward to the new latest row (its two actions, L3)
     const prevLatest = this.rollLog.length - 1;
     const wasLatestOpen = this._openLatestOnLand || (prevLatest >= 0 && this._openRow === ("c" + prevLatest));
     const lastLog = this.rollLog[this.rollLog.length - 1];
@@ -19777,7 +19912,7 @@ class Component extends DCLogic {
       if (this.rollLog.length > 24) this.rollLog.shift();
 
     }
-    // carry the open current-state box forward to the new latest row (also opens it after a "roll from here")
+    // carry the open latest row forward to the new latest row (also opens it after a "roll from here")
     if (wasLatestOpen) { const L = this.rollLog.length - 1; this._openRow = "c" + L; this._focusRow = "c" + L; }
     // PANE LAW: a new roll NEVER opens the pane. If the user already has it open, focus the
     // seeded state's row so what they are reading follows the roll; otherwise leave it shut.
@@ -19913,7 +20048,6 @@ class Component extends DCLogic {
     this._landClockEl = clockEl || null;
     if (clockEl) { clockEl.style.transition = ""; this._clockBase = clockEl.style.background; } // frame-driven writes must not lag through a leftover reset transition
     this._barF = null; // the >0.002 dedupe latch must not skip the first write
-    this._armDeckExpire();
   }
   _disarmLandClock() {
     this._cwArm = null; // a parked arm dies with its window
@@ -22144,6 +22278,15 @@ class Component extends DCLogic {
       // drawer (SIDE-R3 N2): on a phone that is how you WATCH the replay you just started.
       // A closing gesture that becomes a pan or pinch ends it in pointermove below (SIDECX5 D2).
       if (this._replay && !closing) this.stopReplay("input");
+      // ...and it ends a look: the roll it was holding resumes (`_showPlace`). THAT PRESS DOES THAT AND NOTHING ELSE
+      // (L3-R1, the reader of PR #440, finding 1: 8 of 9 taps in the visible map during a hold ended the live roll). It
+      // went on into the tap router at pointerup, exactly as the tap that closes the drawer once did (above): over a node it
+      // staged a roll there or opened the technique, the shown place included, and over the background it declined the
+      // question or went to free roam. At the look's framing nearly every point of a phone's map is inside some node's pick
+      // radius, so "press the map to go on" took the roll away. It is consumed the same way; a drag begun with it still pans.
+      const looked = this._lookAutoPaused;
+      this._lookEnd("map", true);
+      if (looked && ptrs.size === 0) closing = true;
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       try { el.setPointerCapture(e.pointerId); } catch (err) {}
       if (ptrs.size === 2) {
@@ -22225,6 +22368,14 @@ class Component extends DCLogic {
             // "when i click some other positions … i see the choices row but not the MC landcard".
             //
             // (v1.134.0: the stand-down latch is gone — a background tap CLOSES, a node tap stages)
+            // THE PLACE THE MAP IS SHOWING IS PRESSED AS NAMED (L3-R1, T7, taken for ruling). "Show on the map" names one half
+            // of a pair ("ATTACKER · Kimura"), and at the look's zoom on a phone the two halves are drawn on the same
+            // pixel: measured at 390 wide, a press on a submission's place picked its DEFENDING half every time, so a row
+            // about attacking opened the card about being caught. While that name is on the map (`_shownNode`) and the two
+            // halves are under 8 px apart on screen, a press that picks the other half takes the named one. Further apart
+            // (14 to 28 px at 1440) the two orbs can be told apart, and the half pressed is the half meant, as everywhere.
+            const sh = this._shownNode(), op = sh && sh.pi >= 0 && this._hover.idx === sh.pi ? this.nodes[sh.pi] : null, ly = this._LY || ((q) => q.y);
+            if (op && Math.hypot(sh.x - op.x, ly(sh) - ly(op)) * this.W / this.cam.vw < 8) this._hover.idx = sh.idx;
             const hitNode = this.nodes[this._hover.idx];
             if (e.type === "pointerup") this._trackExplore(this._hover.idx, "graph");
             if (this._hover.idx === this.currentPos) this.openDossier(this._hover.idx);
@@ -22257,6 +22408,7 @@ class Component extends DCLogic {
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy; this.camTarget.vw = vw;
       this._cancelCamOpen(); this.releaseCamera(); this._stagedCamFree = false; // wheel-zoom is the desktop equivalent of a pinch
       if (this._replay) this.stopReplay("input");   // ...and so it ends a film, for the same reason
+      this._lookEnd("map");                         // and a look (`_showPlace`)
       this.lastInteract = this.now;
     }, { passive: false });
   }
@@ -23356,7 +23508,7 @@ class Component extends DCLogic {
         b === this._pickAnchor || b.matches(":hover, :focus-visible"));
       const _hovNode = heldStar ? this.nodes[Number(heldStar.getAttribute("data-seat-star"))]
         : (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5)
-          ? this.nodes[this._hover.idx] : null;
+          ? this.nodes[this._hover.idx] : this._shownNode();   // ...else the place "Show on the map" showed (L3, `_showPlace`)
       if (drawFocus >= 0 && !this.pulse) {
         const n = this.nodes[drawFocus];
         const partner = n.pi >= 0 ? this.nodes[n.pi] : null;

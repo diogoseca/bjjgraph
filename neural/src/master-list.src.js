@@ -154,19 +154,11 @@ function ngMasterSeenIn(app, k, decksOf) {
   for (const dev in app.flow || {}) { const P = app.flow[dev] && app.flow[dev][k]; if (P) for (const mo in P) up(P[mo] && P[mo][2], "played"); }
   return best;
 }
-// THE ROW'S GOLD IS THE MAP'S (U199 a): of the moves dealt at the place, those the map paints gold, outside (`_movesGold`, a
-// Yes in the moves record) or inside (`_answered`, its deck learned); their shapes, as the map draws them
-function ngMasterGoldIn(app, k) {
-  const i = app.nodeForKey(k); if (i < 0 || app.nodes[i].ty !== "positions") return [];
-  let c = app._masterGoldC;
-  if (!c || c.gi !== app._giMode || c.sv !== app._stageVer || c.mr !== app._movesRev || c.n !== app.nodes) c = app._masterGoldC = { gi: app._giMode, sv: app._stageVer, mr: app._movesRev, n: app.nodes, m: new Map() };
-  let g = c.m.get(k);
-  if (!g) {
-    const hand = app._dealtOpts(i, k.endsWith("|Bottom") ? "bottom" : "top") || [], gold = app._movesGold();
-    c.m.set(k, (g = hand.filter((o) => gold.has(o.idx) || app._answered(app.nodes[o.idx])).map((o) => (app.nodes[o.idx].ty === "submissions" ? "tri" : "dia"))));
-  }
-  return g;
-}
+// THE ROW'S GOLD IS THE MAP'S (U199 a), AND IT IS THE EAGER CORE'S SINCE L3 (v1.293.0): `app._placeGold(k)`, the shapes of the
+// moves the map paints gold at a place, and `app._goldMark(shapes, n)`, the mark a row draws from them (app.src.jsx). They lived
+// here as `ngMasterGoldIn` and in `ngMasterRowHTML`; a Last rolls row now says the same thing about the same place, Last rolls is
+// eager, and one question answered in two places is already wrong in one of them (CLAUDE.md §6.5): so there is ONE function,
+// where both lists can reach it, and this bundle only calls it. The mark's CSS (`.ng-mgold`) moved to challenge-ui.css with it.
 // WHAT IS OWED AT EACH PLACE, COUNTED AS THE PLAN COUNTS IT (L1-R1, the reader's finding 1): the plan's own builder
 // (`ngPracticeItems`, with the inputs `planSummary` hands it: the decks, the seat map `_practiceSeats` makes, the stage, the
 // live set) and the law's own test for owed (a row due, not answered today, priced), each card at the place it is asked.
@@ -214,16 +206,15 @@ function ngMasterViewIn(app, s) {
   };
   // (the places that owe: a card, or a move the cloze asks)
   const v = ngMasterRows({ plan: ngMasterPlanOf(app, s), explored: [...(app._exploredKeys || [])], day,
-    resolve: (k) => ngMasterResolveIn(app, k), lastDay: (k) => ngMasterSeenIn(app, k, decksOf), gold: (k) => ngMasterGoldIn(app, k), owed: at ? n : null,
+    resolve: (k) => ngMasterResolveIn(app, k), lastDay: (k) => ngMasterSeenIn(app, k, decksOf), gold: (k) => app._placeGold(k), owed: at ? n : null,
     owing: at ? [...new Set([...at.keys(), ...s.owedMoves.keys()])] : [], today });
   v.unresolved += app._exploredBad || 0;   // damaged entries the loader skipped are counted with the places that no longer resolve (L1-R1)
   return v;
 }
 function ngMasterRowHTML(app, r, prog) {
-  const e = (x) => app.escHTML(x), shape = (k) => '<svg width="10" height="10" viewBox="-1 -1 12 12"><path d="' + (k === "tri" ? "M5 .6L9.6 9.2H.4z" : "M5 .3L9.7 5L5 9.7L.3 5z") + '"/></svg>';
+  const e = (x) => app.escHTML(x);
   return '<i class="ng-mdot" data-side="' + e((r.side || "").toLowerCase()) + '"></i><span class="ng-mbody"><span class="ng-mname">' + e(r.name) + (r.side ? " <em>" + e(r.side) + "</em>" : "") +
-    "</span><small>" + e(r.sub) + "</small></span>" + (prog ? '<span class="ng-mprog" data-master-prog="1">' + e(prog) + "</span>" : "") + (r.isNew ? '<span class="ng-mnew">new</span>' : r.n ? '<span class="ng-mgold" data-master-gold="' + r.n + '" aria-label="' + r.n +
-    (r.n === 1 ? " move" : " moves") + ' in gold">' + r.marks.map(shape).join("") + "<b>" + r.n + "</b></span>" : "") + '<span class="ng-mchev">›</span>';
+    "</span><small>" + e(r.sub) + "</small></span>" + (prog ? '<span class="ng-mprog" data-master-prog="1">' + e(prog) + "</span>" : "") + (r.isNew ? '<span class="ng-mnew">new</span>' : app._goldMark(r.marks, r.n)) + '<span class="ng-mchev">›</span>';
 }
 // the rows: rebuilt when the set of places changes (the open card taken out first and put back under its row), else each
 // repainted in place only when its words changed (a rewrite under a pointer swallows the press, FGD13's class)
@@ -266,7 +257,7 @@ function ngMasterSync(app, s, v) {
 }
 // the places' rows' own rules (the button, the slim line, the navigation and "Belt lessons" are challenge-ui.css's, eager:
 // they show before this bundle is in), added once to the page (the CSP allows inline styles; app.src.jsx does the same)
-const NG_MASTER_CSS = ".ng-mrow[data-on]{background:rgba(255,255,255,.035)}@media (hover:hover){.ng-mrow:hover{background:rgba(255,255,255,.035)}}.ng-mdot{flex:none;width:10px;height:10px;border-radius:50%;background:#5b8cff}.ng-mdot[data-side=bottom]{background:#d8607a}.ng-mdot[data-side=attacker],.ng-mdot[data-side=defender],.ng-mdot[data-side='']{border-radius:2px;background:#9fb0d8}.ng-mrow[data-on] .ng-mname{color:#eef1f6;font-weight:700}.ng-mrow[data-on] .ng-mchev{transform:rotate(90deg)}.ng-mprog{flex:none;font-size:10.5px;font-weight:600;color:#9ab0e0}.ng-mname em{font-style:normal;font-size:9px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8fb0ff;margin-left:3px}.ng-mdot[data-side=bottom] + .ng-mbody em{color:#d8889e}.ng-mgold{flex:none;display:inline-flex;align-items:center;gap:3px}.ng-mgold svg{display:block;fill:none;stroke:#f0c05a;stroke-width:1.5;stroke-linejoin:round}.ng-mgold b{margin-left:3px;font-size:11px;color:#f0c05a}.ng-mnew{flex:none;font-size:10.5px;font-weight:600;color:#7e8aa3}.ng-mrule{border:0;height:1px;background:rgba(150,170,210,.1);margin:8px 0}.ng-mnote{font-size:11.5px;line-height:1.5;color:#7e8aa3;margin:10px 0 0}";
+const NG_MASTER_CSS = ".ng-mrow[data-on]{background:rgba(255,255,255,.035)}@media (hover:hover){.ng-mrow:hover{background:rgba(255,255,255,.035)}}.ng-mdot{flex:none;width:10px;height:10px;border-radius:50%;background:#5b8cff}.ng-mdot[data-side=bottom]{background:#d8607a}.ng-mdot[data-side=attacker],.ng-mdot[data-side=defender],.ng-mdot[data-side='']{border-radius:2px;background:#9fb0d8}.ng-mrow[data-on] .ng-mname{color:#eef1f6;font-weight:700}.ng-mrow[data-on] .ng-mchev{transform:rotate(90deg)}.ng-mprog{flex:none;font-size:10.5px;font-weight:600;color:#9ab0e0}.ng-mname em{font-style:normal;font-size:9px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8fb0ff;margin-left:3px}.ng-mdot[data-side=bottom] + .ng-mbody em{color:#d8889e}.ng-mnew{flex:none;font-size:10.5px;font-weight:600;color:#7e8aa3}.ng-mrule{border:0;height:1px;background:rgba(150,170,210,.1);margin:8px 0}.ng-mnote{font-size:11.5px;line-height:1.5;color:#7e8aa3;margin:10px 0 0}";
 export function ngMasterPaint(app, s) {
   if (!document.getElementById("ng-master-css")) { const st = document.createElement("style"); st.id = "ng-master-css"; st.textContent = NG_MASTER_CSS; document.head.appendChild(st); }
   const t = app.practiceToday(), v = (s.view = ngMasterViewIn(app, s));

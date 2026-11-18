@@ -20014,3 +20014,186 @@ is the same size and the same code, and its hash moved (the minifier swapped two
 
 **Not changed.** The number on screen does not move by itself: a belt row reads when the drawer opens, when a list
 comes back and at the ruleset switch (the rule since v1.276.0: no grade turns into a fetch).
+
+## v1.293.0 — Last rolls is the places you went through (L3; the owner, 16 Nov 2026)
+
+**What.** The owner: "I absolutely love the interface of Lastrolls, but I think Lastrolls should stop being about
+answering … The idea is for last rolls to be about going through the [nodes] that were visited, not necessarily
+answering flashcards." A row (`_histRow`) no longer opens an inline deck. A press shows two actions, one row open at a
+time. **Show on the map** (`_showPlace`): the camera goes to the place as a session's row sends it (`locateNode`, then
+the 7 s lease) and the map NAMES it (`_shown`: the pointer's own label, while the look holds or that flight's lease
+lasts). On a desktop the drawer stays. On a phone it shuts, and the clock is held on a latch of its own
+(`_lookAutoPaused`, the film's pattern): a look, not a return to play. **Practise here**:
+`openMasterAt(key, "lastrolls")`, the place as Master the game's own row opens it (the cloze when moves are owed, else
+its cards; cards only under "Multiple choice"); `neural_practice_opened` carries surface `lastrolls`; the brand leads
+back. The sub line is the side and what you remember there (the gold marks and the number, U199 a). Keys: ⏎ practises,
+Space shows, ↑ ↓ walk; ← → and A, B, C do nothing. Last rolls writes nothing to the record.
+
+**The hold's lifters**, each a beat `look_ended` with `by`: "map" (the wrap's pointerdown and wheel: the roll resumes),
+"drawer" (it opens again: the pause goes back to its latch), "clock" (a resume by another hand), "roll" (a new journey,
+`clearEngagement`: nothing resumes). Taken only when the drawer stopped the game. First written as "any `setPaused`
+call ends the claim" and narrowed before it ran: a clip watched and closed restores the pause it found, and ending the
+look there would leave a roll nothing resumes.
+
+**What the re-survey and the tests found.** (1) EIGHT tests read a card inside Last rolls, not the six of the plan
+(pane-history has eight tests; two were not counted). (2) A row is not always a position: a roll logs the submission it
+enters, Master the game lists positions, and `openMasterAt` with a key its list does not hold opens the list and says
+nothing. So a submission's row has "Show on the map" alone. (3) The mark function was in the DEFERRED bundle
+(`ngMasterGoldIn`), not the eager core, and that bundle had 72 B of room: `_placeGold` and `_goldMark` moved into the
+eager core beside `_movesGold`, `.ng-mgold` into the eager sheet, and the list calls them (§6.5: one function, two
+readers). (4) Gone with the deck: Last rolls' own answer surface ("inline", `data-inline-mc-opt`), the greying of the
+latest row's card (`_armDeckExpire`, `ngDeckExpire`), and `openMenu`, which had no caller. (5) **A card could reopen
+with its answer shown.** `_miniDeck` remembers a place in a deck by index, and what a session asks of a deck is a subset
+that changes between sessions: the same index was another card, drawn with the last one's reveal. Dev does it from
+Master the game's own row; each "Practise here" is a new session, so the second press met it, 2 of 2. The state now
+names its card (`st.q`). (6) **The keyboard journey could not fail on dev**: green under its own mutant, since under
+Auto its card is multiple choice, which takes neither Space nor ⏎. Re-pointed, it states Front Back cards and puts the
+focus on no control. (7) pane-history's "no options anywhere" read `[data-mc-opt]` while the inline deck's options were
+`[data-inline-mc-opt]`: on dev its mutant went red only at a later press's timeout. (8) The first real screens showed
+the shown place unnamed in the middle of the map, and a "space" chip wrapping "Show on the map" onto two lines: hence
+`_shown`, and the keys as tooltips. (9) A line that cleared the name by hand when the look ended survived its own
+mutant (the lease had already ended it) and is gone.
+
+**Bytes: not the shrink the brief expected.** Eager gzip 375,173 (dev v1.292.1) → 375,598 B, +425 (+2,125 of its 5,000
+cap); first-hand core 394,712 (dev v1.292.0) → 395,103 B; deferred 549,705 → 548,718 B, −987 (1,059 B of room where dev
+had 72). Rows: gameplan.js 50,884 → 49,897, neural.js 745,471 → 746,043, neural.css 58,985 → 59,519. The deck's removal
+gave back less than planned because `_miniDeck` stays for the sessions, and about 850 B raw of the eager figure is the
+mark function the deferred total lost. No baseline and no ceiling moved. docs/Neural.md had 3 characters of room, so
+its paragraph is three lines; the behaviour is here and at the code.
+
+**Mutants** (each alone, `npm run dev:neural:app` under the lock; two neutral controls green, 19 and 10 tests; the
+clean bundle byte-identical after; last pass on the PR's head, 18 Nov 05:23 to 05:36; all 26 red at the
+step named, in `e2e/journeys/last-rolls-places.spec.ts`): M1 the inline deck back under a row → "no card in the row"; M2 the sub line back to the card count → "the sub line is the side and what you remember there"; M3 the number the hand's size, a total → "the sub line is the side and what you remember there"; M4 Practise here opens the list's first place → "the place asked for is the one open"; M5 Practise here sends surface "place" → "one opening, its surface lastrolls"; M6 Show on the map frames where the roll stands → "the place is framed in the visible map"; M7 a submission's row offers Practise here → "no Practise here: Master the game lists positions"; M8 THE HOLD NEVER LETS GO → "after a press on the map the roll runs again"; M9 the map's press is no lifter → "after a press on the map the roll runs again"; M10 the wheel is no lifter → "after a wheel on the map the roll runs again"; M11 the drawer opening does not take the pause back → "the pause is the drawer's again"; M12 a resume by another hand leaves the claim → "the look's claim is over"; M13 a new journey leaves the claim → "the staged board's clock is still held after a pan of the map"; M14 the hold taken when the drawer had not stopped the game → "a pan of the map does not start a clock the look never held"; M15 the drawer's shutting resumes the roll → "the drawer is shut and the clock is held: a look, not a return to play"; M16 ⏎ and Space swapped → "and Space opened nothing else"; M17 ← → walk the places → "← → do nothing, and A, B, C answer nothing"; M18 the actions 30 px tall → "Show on the map is at least 44 px tall"; M19 Show on the map sends an event → "Show on the map sends nothing"; M20 Show on the map writes to the record → "the press wrote nothing to the record"; M21 Practise here writes to the record → "the press wrote nothing to the record"; M22 two rows open at once → "one row open at a time"; M23 on a desktop the drawer shuts too → "on a desktop the drawer stays, and its pause with it"; M24 the shown place not named → "the map names the place it shows"; M25 the name rides the lease alone → "and the map still names the place: the name lasts as long as the look"; M26 the name never ends → "after a pan of the map the name is gone". M3 leaves "the two lists say the same" green, which is
+that test's claim: one function feeds both lists.
+
+**The eight re-pointed tests, none removed**, each against its mutant on dev's build (v1.292.1, 8e1d034b5: its build
+inputs and its four spec files) and on this one:
+
+| test | its mutant | on dev's build, as it was | on this build, as it is |
+|---|---|---|---|
+| answer-mode › "Last rolls: …" (mouse, touch) | the deck never asks multiple choice | red at "the inline deck asks a new card as multiple choice" | red at "the place's card asks a new card as multiple choice" |
+| answer-mode › "a stored Multiple choice…" (mouse, touch) | a stored Multiple choice asks a card right twice front and back | red at "multiple choice in Last rolls under a stored Multiple choice" | red at "multiple choice from Last rolls under a stored Multiple choice" |
+| keyboard › "keys never reach a deck on the tab you left" | `_focusedMini` returns any handle | GREEN | red at "⏎ did not grade a card nobody was shown" |
+| newcomer-story › step 5 | before: the deck never asks multiple choice; after: Practise here opens nothing | red at "Auto: the newcomer's new card asks multiple choice here" | red at "Practise here opens the place in Master the game" |
+| pane-history › "a history row under Front Back cards…" | Front Back cards asks multiple choice anyway | red at "locator.click: Test timeout of 60000ms exceeded." | red at "and no options anywhere in the pane" |
+| pane-history › "revealing in the pane is SEEN, not credit" | a reveal credits the card | red at "reading an answer earns no mastery" | red at "reading an answer earns no mastery" |
+| pane-history › "the history survives the round ending" | the round's end shuts the drawer | red at "and still readable" | red at "and its two actions are still there" |
+| pane-history › "free roam files the roll it ends…" | a filed roll does not repaint Last rolls | red at "and filed it under Previous rolls" | red at "and filed it under Previous rolls" |
+
+**Not covered.** A pinch (Playwright sends one finger; its first is the pointerdown M9 pins). A place the ruleset no
+longer draws (no actions; no journey switches the ruleset after a roll). The Forward catalog still draws the old row
+(a design mock, §6.8).
+
+### v1.293.0, L3-R1: the orchestrator's rulings and the reader of PR #440 (18 Nov 2026)
+
+**The reader's two fixes.** (1) **The press that ends a look does that and nothing else.** On a phone it went on into
+the map's tap router: 8 of the reader's 9 taps in the visible map during a hold ended the live roll (seven staged a new
+roll or opened a technique at the node under the finger, the shown place included; one went to free roam), and the
+ninth declined the landing's question. At the look's framing nearly every point of a phone's map is inside some node's
+pick radius. `_lookEnd("map")` ran in `attachInput`'s pointerdown and the same press reached `end`; it is consumed
+there now (`closing`, the rule the drawer's closing tap already had, SIDE-R2 P1), and a pan begun with it still pans.
+My test had tapped a hand-picked empty point and asserted `paused === false` only: it could not see this. (2) **An
+open row that is folded away takes no key**: `_placeOpen` asked `isConnected`; a past roll folded again hides its rows
+without removing them, and Space ran Show on the map, Enter opened Master the game. It asks `offsetParent` now, as a
+deck's handle does. The reader's mutant of the scope (no test at all) had survived three tests.
+
+**T1's door, proved, and what proving it found.** A row that is not a position (a submission a roll passed through:
+574 decks, 287 attacking and 287 defending, 4,516 cards; the reader met one as the latest row in 16 of 16 runs) has
+"Show on the map" alone. Its cards: the board's own card where the roll stands; for another row, "Show on the map" and
+a press on the place, whose card asks that deck (a step on a row the roll no longer stands on; one press on a desktop,
+two on a phone, since the first only ends the look). Proving it at 390 wide found two things. **A pair's two orbs are
+drawn on one pixel at the look's framing** (0 px apart at 390, 14 to 28 px at 1440), and a press on a submission's place
+picked its DEFENDING half every time: a row about attacking opened the card about being caught. Taken for ruling
+(T7): while the place is named on the map and its halves are under 8 px apart, a press that picks the other half takes
+the named one. And **"Show on the map" from a Bottom row named the place TOP**: a position's key resolves to its top orb
+for both sides and a roll stands on that orb whichever side it plays; the row shows the orb that plays its side
+(`_seatMember`).
+
+**T2 is not zero.** No-gi does not draw 12 positions and 33 submissions that gi draws; gi draws everything
+(`node tests/artifacts/_last_rolls_places_count.mjs`, from the wire through the app's own decoder). A journey switches
+the ruleset after a roll (Spider Guard, top: two actions in gi, none in no-gi, two again in gi), and Last rolls is drawn
+again on the switch (an open row had kept its buttons).
+
+**T6 on dev's own road.** The reveal fault measured on dev v1.292.1's build from Master the game's own row: a place
+with nothing due, opened, its first card answered, left by the brand, opened again: the next card drawn with its answer
+on the screen beside its three options, 3 of 3; 0 of 3 on this build. It has a journey of its own on its common road
+("a place opened again never shows an answer before its question").
+
+**Built on the reader's other points.** R5: a row that cannot be pressed does not light under the pointer. R6: back by
+"‹ Master the game" the row it was pressed on is open again, where it was; a past roll's state brings its roll unfolded.
+R10: a row that opens with its actions cut by the panel's foot is brought whole into view by `_scrollFocusedDeck`'s
+smallest scroll; whole already, nothing moves. R4: the inventory says "narrower" (the row's deck was the place's whole
+deck, one press away; "Practise here" is two presses and the day's subset, bars first when moves are owed; the whole
+deck is the free review of a place with nothing due, every card but those the day asks elsewhere, and the board's own
+card, which pages its deck).
+
+**Checked on dev's build, not this PR's.** R8: with the drawer open on Last rolls the digit `1` plays the hand's first
+move and the roll runs with the drawer open, `_paneAutoPaused` still set: the same on dev v1.292.1 and here (1 of 1
+each). R9: the film's bar lies at y 248 to 292 over a list that runs from y 58 to 556 at 390x631, on both builds, so
+whatever row content falls there is covered. NOT BUILT, its size told first as ruled: "the list starts below the bar"
+leaves 190 px of empty list above a bar that sits mid-list; moving the bar to the list's top is about 15 lines in the
+bar's dock, the drawer's open and close and the bar's removal, plus two overrides of `!important` phone rules.
+
+**Ceilings.** The archive's, raised by exactly 50,000 (1,863,038 to 1,913,038) in its own commit that changes that one
+number (46059cebb). docs/Neural.md's, not raised: its Last rolls paragraph is three lines and carries the keys.
+
+**Bytes after L3-R1.** Eager gzip 375,822 B (+649 on dev v1.292.1; +2,349 of 5,000), first-hand core 395,319 B (+2,332
+of 6,000), deferred 548,718 B. neural.js 746,737, neural.css 59,519, gameplan.js 49,897.
+
+**Mutants, the last pass on the PR's head, 18 Nov 07:48 to 08:06:** two neutral controls green; 40 of 40 red at
+their named steps (M1 to M26 as above; M27 a place the ruleset does not draw still offers its actions; M28 no redraw
+on a ruleset switch; M29 a press on a place on the map opens nothing; M30 the reveal fix out; M31 the shown place's
+press takes whichever half it picks, red by touch and green by mouse as it should be; M32 the top orb shown for both
+sides; M33 the look-ending press goes on as a tap; M34 a row not laid out takes the keys; M35 `_placeOpen` with no
+scope; M36, M37 the way back opens no row, unfolds no past roll; M38 no scroll for a cut row; M39 the latest row's
+carry out; M40 a dead row lights under the pointer); the eight re-pointed tests red under their mutants, 8 of 8. A
+note on method: the first try of an earlier pass stopped at its first mutant because a later edit of mine had changed
+the text it anchored on; every row is now checked to apply before a pass, and a row that does not apply is reported
+and skipped, never the end of the run.
+
+### v1.293.0, L3-R2: the reader's re-read of PR #440 at 6ce6a6f03 (18 Nov 2026)
+
+Verdict "MERGE AFTER 1 fix"; both fixes of the first read held on CI's build (13 of 13 taps during a hold did nothing but
+end the look; a folded-away row took no key), 11 of its 12 mutants red.
+
+**The fix: a look that ends by a press on the map leaves the place named for the camera's hold time.** On a phone the
+door to a submission's cards is two presses (the first ends the look and is consumed), and the name on the map is what
+tells the second which half is meant (T7: at 390 a pair's halves are drawn 2e-14 px apart). The name rode the look and
+the first 7 s lease only, so after a look of 10 s the press that ended the look ended the name too, and the next press,
+2 px above the place, opened the DEFENDER's card from a row about attacking (the reader: 1 of 1; 4 of 5 doors after a
+10 s look against 5 of 5 made at once). My door test pressed twice at once on the place's own pixel and could not see
+it. `_lookEnd` takes a second argument from `attachInput`'s pointerdown: that press takes the camera's lease again
+(`holdCamera`), and the name rides the new lease. The lease rather than the reader's proposed clock of the name's own
+(`_shown.until`), for what a lease already knows how to end: its 7 s, a pan begun with that same press, a pinch, a
+wheel, a move played (`releaseCamera` at the commit), any go-elsewhere; a clock of its own would have kept a place named
+for 7 s after the board had gone somewhere else. And it keeps the map still under the second press: the roll runs
+again, and the follow-cam would otherwise leave for where it stands (after 4 s, `userActiveNow`). The wheel passes no
+`press`: it takes the camera for itself, as it always did.
+
+**Riding with it.** T7 acts only while a place is named: the reader's mutant N2 (with nothing named, a press that picks
+one half of a close pair takes the other) had stayed green, 7 of 7; a journey now ends a look by a pan (which takes the
+name with the camera and leaves the zoom), presses where the app's own hit test picks Mount's bottom orb, and requires
+Mount staged on the bottom. The way back from "Practise here" (R6) held a row's id alone, cleared only by the next draw
+of Last rolls, whenever that was, and the id of a row of the roll in play is its index: "Practise here, Esc, a move, the
+logo, Last rolls: the row of the earlier press was open" (the reader, 1 of 1). It holds the row's key and its roll now
+(the log itself for the roll in play, which every new roll replaces; a filed roll's `ts` is in its id), opens a row only
+if that row of that roll still holds that key, and is forgotten when the drawer shuts. Found writing its second
+journey: a new roll ends the session (`rollFromPosition`), so the drawer is back on Last rolls by itself and the memory
+is spent at that draw.
+
+**The words.** What the door through the map costs is said where the door is named (the PR body, the inventory,
+`sidebar_capabilities.md` row 91): a press on a place on the map takes the board there, and if a roll is live it ends
+it. Row 91 says the free review as it is. A step of the door's journey that read the published name with no frame drawn
+since the press could not fail (green under M41) and is gone; the same claim is asserted where a frame is drawn.
+
+**One assertion changed:** the hold's journey said the name was gone 0.8 s after the press that ended a nine-second
+look; it now says the place is still named then, and gone 7 s later.
+
+**Bytes.** Eager gzip 375,952 B (+130 on 6ce6a6f03; +779 on dev v1.292.1; +2,479 of 5,000), first-hand core 395,472 B
+(+2,485 of 6,000), deferred 548,718 B (unchanged). neural.js 747,052 B.
+
+**Mutants, the whole table again on this head, 18 Nov 09:29 to 09:49:** two neutral controls green; 45 of 45 red
+at their named steps (M1 to M40 as above, M26's step now "and the name is gone again after the camera's hold time"; M41
+the lease not taken again, red at the door's last step, where the DEFENDER's card opens, and at the hold's "still
+named"; M42 the reader's N2; M43 the drawer's shutting does not forget the way back; M44 the way back by id alone; M45
+by key alone); the eight re-pointed tests red under their mutants, 8 of 8.
