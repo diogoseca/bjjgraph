@@ -215,7 +215,7 @@ the theater without committing and plays at once (VID1: "not wait for me to pres
 a second time"). D-318 removes the Choose/Read footer. Digits
 1–9 sit inside the title's category shape: diamond transition, triangle submission, circle
 position. Current-node cards use the shape without a digit. Move / Works / Submit / Escape %
-and Win % keep their meaning. Plain digits commit; dragging and shifted digits do nothing.
+and Win % keep their meaning. A digit commits a card in view; drags and Shift do nothing.
 Hidden hands, text entry, reading, a viewer and the visible quiz retain keyboard priority.
 Threat cards can offer eligible playback but cannot execute.
 
