@@ -30,7 +30,7 @@ import { journey } from "../dsl"
  *   L2-e  a null cell asked as a move (the planner, practice-queue.src.js)   → UNITS: tests/practice_queue.test.mjs, "S0: a dealt move
  *         is priced by the game itself…" and "S0: on the real wire…".
  *   L2-p  the cloze builder's own guard removed (a move the hand deals and this ruleset's game does not price is listed) →
- *         "a move the hand deals and this ruleset's game does not price…" at "it is never in sight either". (L2-R1, ruling 8: my
+ *         "a move the hand deals and this ruleset's game does not price…" at "Buggy Choke: it is never a bar" (listed as a row at all). (L2-R1, ruling 8: my
  *         first note said no gi hand holds such a move. Wrong: in gi 11 seats hold 18 dealt moves with no price, heel hooks
  *         mostly, and the guard is reached there; no-gi holds none. Counted by tests/master_cloze.test.mjs, printed each run.)
  *   L2-f  the badge without moves                                            → at "and the badge's today counts the six moves"
