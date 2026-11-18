@@ -76,6 +76,9 @@ const stored = (page: Page) => page.evaluate(() => {
 })
 const differ = (x: Record<string, unknown>, y: Record<string, unknown>) => Object.keys({ ...x, ...y }).filter((k) => JSON.stringify(x[k]) !== JSON.stringify(y[k]))
 const noClocks = (r: Record<string, unknown>) => JSON.parse(JSON.stringify(r, (_k, v) => (typeof v === "number" && v > 1e12 ? 0 : v))) as Record<string, unknown>
+/** ...and without the visit's own name: `flow` files what was played under an id drawn afresh for every visit (measured: the
+ *  same road in two visits differs in that key and in nothing under it), so two visits are compared by what is filed */
+const noVisit = (r: Record<string, unknown>) => ({ ...noClocks(r), flow: Object.values((r.flow || {}) as Record<string, unknown>).map((v) => JSON.stringify(v)).sort() }) as Record<string, unknown>
 const drawerRight = (page: Page) => page.evaluate(() => ((window as W).__neural.drillRef.current as HTMLElement).getBoundingClientRect().right)
 /** the hand's row moved sideways by so much (what a wheel or a drag over it does; the fixture, not the claim) */
 const slideHand = (page: Page, by: number) => page.evaluate((by) => { const a = (window as W).__neural; a._trayStop && a._trayStop(); (a.optionsRef.current as HTMLElement).scrollLeft += by }, by)
@@ -119,7 +122,8 @@ test.describe("1440x900, the drawer shut", () => {
     const after = await game(page)
     expect(after.moves > 0 || after.running, "7 again plays it").toBe(true)
     await j.nextHand()
-    const byKey = { rec: noClocks(await stored(page)), log: (await game(page)).log }
+    const byKey = { rec: noVisit(await stored(page)), log: (await game(page)).log }
+    expect((byKey.rec.flow as unknown[]).length, "premise: the move is filed").toBeGreaterThan(0)
     // THE SAME RECORD AS A PRESS ON THAT CARD: a second visit, the row scrolled by hand, the card pressed by a mouse
     const ctx = await browser.newContext({ baseURL, viewport: { width: 1440, height: 900 } }), page2 = await ctx.newPage(), j2 = journey(page2)
     await j2.boot("/")
@@ -131,7 +135,7 @@ test.describe("1440x900, the drawer shut", () => {
     await j2.clickByMouse(`[data-tech="${c7.tech}"] .ng-choice-title-button`, "the seventh card, by a mouse")
     await j2.nextHand()
     expect((await game(page2)).log, "the same roll either way").toBe(byKey.log)
-    expect(differ(byKey.rec, noClocks(await stored(page2))), "the key's two presses leave the record a press on that card leaves").toEqual([])
+    expect(differ(byKey.rec, noVisit(await stored(page2))), "the key's two presses leave the record a press on that card leaves").toEqual([])
     await ctx.close()
   })
 
