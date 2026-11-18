@@ -14,37 +14,60 @@ import { journey } from "../dsl"
  * `elementFromPoint` confirms is the control. The camera is read through `draw()`'s own transform (the node's `pairMid`
  * projected with `cam`), never from `camTarget` (CLAUDE.md §6.2).
  *
- * WHAT IS PINNED, AND THE MUTANT OF EACH (built into the served bundle, each alone, a clean run before and after; the
- * table with the run's times is in docs/Changelog-Archive.md, v1.293.0):
- *   M1  the inline deck back under a row (`_histRow` appends a `_miniDeck`)       → "a row is a place…" at "no card in the row"
- *   M2  the sub line back to the card count                                      → the same test, at "the sub line is the side
- *       and what you remember there" (and "nothing remembered: the side alone")
- *   M3  the sub line's number the hand's size, not the gold (`_placeGold`)        → "the two lists say the same…" is GREEN under
- *       it (one function feeds both lists, so they agree by construction: that is the claim); it is red at "a row is a
- *       place…", "the number is the moves the map paints gold there" (the seeded count), and in master-list.spec.ts
- *   M4  "Practise here" opens the list's first place (`_masterStart`)             → "Practise here opens that place…" at "the
- *       place asked for is the one open"
- *   M5  "Practise here" sends surface "place"                                    → the same test, at "one opening, its surface lastrolls"
- *   M6  "Show on the map" frames where the roll stands (`currentPos`)             → "Show on the map frames the place…" at
- *       "the place is framed in the visible map"
- *   M7  a row that is not a position offers "Practise here"                       → "a submission a roll passed through…"
- *   M8  THE HOLD NEVER LETS GO (`_lookEnd` does nothing)                          → "on a phone…a hand on the map lets it go" at
+ * WHAT IS PINNED, AND THE MUTANT OF EACH. Each built alone into the served bundle (`npm run dev:neural:app`, under the lock),
+ * after a neutral control that left all of this file green; the clean bundle rebuilt after and byte-identical. Every one is
+ * RED at the step named (the last pass, on the PR's head, 18 Nov 2026; the table is in docs/Changelog-Archive.md, v1.293.0):
+ *   M1  the inline deck back under a row (`_histRow`)                           → "a row is a place…" at "no card in the row"
+ *   M2  the sub line back to the card count                                    → the same test, at "the sub line is the side and
+ *       what you remember there"
+ *   M3  the number is the hand's size, a total (`_placeGold`)                   → the same step. "the two lists say the same…" stays
+ *       GREEN under it, and that is its claim: one function feeds both lists, so they cannot disagree
+ *   M4  "Practise here" opens the list's first place                           → "Practise here opens that place…" at "the place
+ *       asked for is the one open"
+ *   M5  "Practise here" sends surface "place"                                  → the same test, at "one opening, its surface lastrolls"
+ *   M6  "Show on the map" frames where the roll stands                         → "Show on the map frames the place…" at "the place
+ *       is framed in the visible map"
+ *   M7  a row that is not a position offers "Practise here"                     → "a submission a roll passed through…" at "no
+ *       Practise here: Master the game lists positions"
+ *   M8  THE HOLD NEVER LETS GO (`_lookEnd` does nothing)                        → "on a phone…a hand on the map lets it go" at
  *       "after a press on the map the roll runs again"
- *   M9  the map's press is not a lifter (pointerdown)                            → the same step
- *   M10 the wheel is not a lifter                                                → "…a wheel on the map lets it go too"
- *   M11 the drawer opening does not take the pause back                           → "…the drawer opening again takes the pause back"
- *       at "shutting the drawer resumes the roll, as it always does"
- *   M12 a resume by another hand leaves the claim standing (`setPaused`)          → "…a move played from the hand ends the claim"
- *       at "the look's claim is over"
- *   M13 a new journey leaves the claim standing (`clearEngagement`)               → "…a staged place is not started by the next
- *       hand on the map" at "the staged board's clock is still held"
- *   M14 the hold taken even when the drawer was not what stopped the game         → "…a board that was already still is not the look's"
- *   M15 on a phone the drawer shut resumes the roll (no hold at all)              → "on a phone…" at "the clock is held: a look, not a return to play"
- *   M16 ⏎ and Space swapped                                                      → "keys on an open row…"
- *   M17 ← → page something again (a handle registered for the row)               → the same test, at "← → do nothing"
+ *   M9  the map's press is not a lifter (pointerdown)                          → the same step (the wheel's test stays green)
+ *   M10 the wheel is not a lifter                                              → "…a wheel on the map lets it go too" at "after a
+ *       wheel on the map the roll runs again" (the press's test stays green)
+ *   M11 the drawer opening does not take the pause back                         → "…the drawer opening again takes the pause back"
+ *       at "the pause is the drawer's again"
+ *   M12 a resume by another hand leaves the claim standing (`setPaused`)        → "…a move played from the hand ends the claim" at
+ *       "the look's claim is over"
+ *   M13 a new journey leaves the claim standing (`clearEngagement`)             → "…a staged place is not started by the next hand
+ *       on the map" at "the staged board's clock is still held after a pan of the map"
+ *   M14 the hold taken even when the drawer was not what stopped the game       → "…a board that was already still is not the
+ *       look's" at "a pan of the map does not start a clock the look never held"
+ *   M15 on a phone the drawer's shutting resumes the roll (no hold at all)      → "on a phone…a hand on the map lets it go" at "the
+ *       drawer is shut and the clock is held: a look, not a return to play"
+ *   M16 ⏎ and Space swapped                                                    → "keys on an open row…" at "and Space opened nothing else"
+ *   M17 ← → walk the places                                                    → the same test, at "← → do nothing, and A, B, C
+ *       answer nothing" (A, B, C have no block to answer in Last rolls: the step reads the record and the view unchanged)
+ *   M18 the two actions 30 px tall                                             → "a row is a place…" at "Show on the map is at least 44 px tall"
+ *   M19 "Show on the map" sends an event of its own                            → "Show on the map frames the place…" at "Show on
+ *       the map sends nothing"
+ *   M20 "Show on the map" writes to the record                                 → the same test, at "the press wrote nothing to the record"
+ *   M21 "Practise here" writes to the record                                   → "Practise here opens that place…" at "the press
+ *       wrote nothing to the record"
+ *   M22 two rows open at once                                                  → "a row is a place…" at "one row open at a time"
+ *   M23 on a desktop the drawer shuts too                                      → "Show on the map frames the place… (mouse)" at "on
+ *       a desktop the drawer stays, and its pause with it"
+ *   M24 the shown place is not named on the map                                → "Show on the map frames the place…" at "the map
+ *       names the place it shows"
+ *   M25 the name rides the camera's lease alone, not the look                  → "on a phone…a hand on the map lets it go" at "and
+ *       the map still names the place: the name lasts as long as the look"
+ *   M26 the name never ends                                                    → "Show on the map frames the place… (mouse)" at
+ *       "after a pan of the map the name is gone", and the phone's test at "the place's name on the map is gone…"
+ * A NON-KILL THAT CHANGED THE CODE: a line that cleared the name by hand when the look ended stayed green under its own
+ * mutant (by then the camera's lease had ended it); the line is gone, and `_shownNode` has the one rule M25 and M26 pin.
  * NOT COVERED HERE, and what to check by hand: a pinch (two real fingers; Playwright sends one), whose first finger is the
- * pointerdown M9 pins; the camera's 7 s lease running out after the look (camera canon, share-camera.spec.ts); no-gi (the
- * row's gold is `_placeGold`, which reads the ruleset's own hand as the map does).
+ * pointerdown M9 pins; a place the ruleset no longer draws (it offers no actions: no journey switches the ruleset after a
+ * roll); the camera's 7 s lease running out by itself (camera canon, share-camera.spec.ts); no-gi (the row's gold is
+ * `_placeGold`, which reads the ruleset's own hand as the map does).
  * The harness serves `{}` for dossiers: no claim here reads a film or an article section.
  */
 

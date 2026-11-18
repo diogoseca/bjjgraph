@@ -856,8 +856,9 @@ class Component extends DCLogic {
    * place it holds as a session's row frames its node (`locateNode`: the visible map, through `pairMid`, lit for a moment),
    * takes the camera's 7 s lease (`holdCamera`), and NAMES it (`_shown`, below): the first real screens showed the place
    * in the middle of the map with no name on it, and on a phone the row that named it is gone with the drawer. On a
-   * desktop the drawer stays beside the map and nothing else moves. ON A PHONE THE DRAWER IS THE SCREEN, so the press has to shut it, and by pane law shutting it resumes a roll the
-   * drawer stopped: the player would watch the place while the roll moved on without them. So the drawer's pause is handed
+   * desktop the drawer stays beside the map and nothing else moves. ON A PHONE THE DRAWER IS THE SCREEN, so the press has
+   * to shut it, and by pane law shutting it resumes a roll the drawer stopped: the player would watch the place while the
+   * roll moved on without them. So the drawer's pause is handed
    * to a latch of its own, `_lookAutoPaused`, exactly as a film takes it (`_replayAutoPaused`, `applyDeckVisibility`): one
    * latch a pauser, so letting go gives back only a pause that was taken (§6.5). It is taken ONLY when the drawer is what
    * stopped the game (`_paneAutoPaused`): a board that was already still (staged, read, ended, roamed) is not the look's.
@@ -874,7 +875,7 @@ class Component extends DCLogic {
    *   "roll"   a new journey (`clearEngagement`: a new roll, a staged place, free roam, a reference page). The roll the
    *            look was holding is gone, so nothing is resumed; without this the next hand on the map would start a staged
    *            board's clock or wake a page's dormant one.
-   * Each is pinned in e2e/journeys/last-rolls-places.spec.ts, which names the mutant of each.
+   * Each is pinned in e2e/journeys/last-rolls-places.spec.ts, which names the mutant of each (M8 to M15).
    */
   _showPlace(i) {
     if (this._replay) this.stopReplay("input");   // a film owns the camera; asking to see a place ends it, as a hand on the map does
