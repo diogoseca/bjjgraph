@@ -188,45 +188,59 @@ test("typing in a field never triggers a shortcut", async ({ page }) => {
  * the keyboard" and "a corridor repaint leaves no dead keys behind". The two below stand: a key never reaches a deck on a
  * view you left, and a Tab-focused corridor button keeps its Space and ⏎.
  */
+// v1.293.0 (L3): RE-POINTED, nothing removed. The handle this journey leaves behind was made by a Last rolls row's inline deck
+// (`c<n>`); a row holds no deck now, so Last rolls registers no handle. The CLASS stands (one registry, and nothing clears the
+// row handle when you leave), so the handle is made where a deck still opens: "Practise here" opens the place in Master the
+// game (handle `s<i>`), the player shuts the drawer with Esc (the session and its handle are kept) and reopens it on its
+// list. The three keys and both assertions are the journey's own. Since L3, → has no branch that could reach a deck from
+// the list at all (its assertion stays, as the differential it always was); Space and ⏎ still do, through `_focusedMini`.
+// Mutant, on dev's build before (the test as it was) and this build after: `_focusedMini` returns the registry's hit
+// whatever view is shown → red at "and ⏎ did not grade a card nobody was shown".
 test("keys never reach a deck on the tab you left", async ({ page }) => {
-  // `_focusRow` and `_miniReg` are ONE registry for three surfaces and nothing clears the row
-  // handle on a tab switch. So the corridor's new keys could resolve a handle the LAST-ROLLS tab
-  // left behind: ←/→ would page a hidden deck and ⏎ would GRADE a card nobody is looking at —
-  // credit for an answer never given. `_focusedMini` scopes the lookup to the showing surface.
-  const j = journey(page)
+  // `_focusRow` and `_miniReg` are ONE registry and nothing clears the row handle when you leave a view. So a key could
+  // resolve a handle a view you LEFT kept behind: Space would flip a hidden card and ⏎ would GRADE a card nobody is looking
+  // at — credit for an answer never given. `_focusedMini` scopes the lookup to the showing surface.
+  const j = journey(page, { answerMode: "classic" })
   await j.boot("/")
   await j.hydrateAll()
   await j.land("Mount Top")
+  await j.knowsPlanMoves()   // the place's cards, not its cloze
 
-  // open the roll history's own inline deck: that is what leaves a `c<n>` handle behind
+  // from Last rolls, Practise here: the place's deck opens in Master the game, and that leaves an `s<i>` handle behind
   await page.evaluate(() => (window as any).__neural.openPane("history"))
   await page.locator("[data-hist]").first().click()
+  await page.locator("[data-hist-go]").click()
+  await expect(page.locator("[data-mini-q]:visible"), "the place's card is open").toHaveCount(1, { timeout: 30_000 })
   const histKey = await page.evaluate(() => {
     const app = (window as any).__neural
-    const wrap = document.querySelector("[data-mini-deck]")
+    const wrap = app._openMini && app._openMini.el.querySelector("[data-mini-deck]")
     return { key: wrap?.getAttribute("data-mini-deck") || "", focusRow: app._focusRow }
   })
-  expect(histKey.key, "a history row's deck is open").toBeTruthy()
+  expect(histKey.key, "a deck is open").toBeTruthy()
   expect(histKey.focusRow, "and holds the keyboard").toBeTruthy()
 
   const before = await page.evaluate((key: string) => {
     const app = (window as any).__neural
-    return { idx: (app._deckState[key] || {}).idx ?? 0, prep: (app.prep || {})[key] || 0 }
+    return { idx: (app._deckState[key] || {}).idx ?? 0, prep: (app.prep || {})[key] || 0, revealed: !!(app._deckState[key] || {}).revealed }
   }, histKey.key)
 
-  // walk away to the drawer's list, where that deck is not on screen at all (the Challenges view until v1.287.0; not Master
-  // the game, whose own session may hold the same deck and so cannot tell a stray key from its own)
-  await page.evaluate(() => (window as any).__neural.setViewMode("explore"))
+  // walk away to the drawer's list, where that deck is not on screen at all: Esc shuts the drawer (the session is kept),
+  // the logo opens it again on its list
+  await page.keyboard.press("Escape")
+  await expect.poll(() => page.evaluate(() => (window as any).__neural.deckShown)).toBe(false)
+  await page.locator(".ng-logo").click()
   await expect(page.locator("[data-drawer-explore]")).toBeVisible()
+  expect(await page.evaluate((r) => { const app = (window as any).__neural; return !!(app._miniReg && app._miniReg[r]) && app._focusRow === r }, histKey.focusRow), "premise: the handle of the deck we left is still registered").toBe(true)
   await page.keyboard.press("ArrowRight")
   await page.keyboard.press("Space")
   await page.keyboard.press("Enter")
 
   const after = await page.evaluate((key: string) => {
     const app = (window as any).__neural
-    return { idx: (app._deckState[key] || {}).idx ?? 0, prep: (app.prep || {})[key] || 0 }
+    return { idx: (app._deckState[key] || {}).idx ?? 0, prep: (app.prep || {})[key] || 0, revealed: !!(app._deckState[key] || {}).revealed }
   }, histKey.key)
   expect(after.idx, "→ did not page the deck on the tab we left").toBe(before.idx)
+  expect(after.revealed, "Space did not flip a card nobody was shown").toBe(before.revealed)
   expect(after.prep, "and ⏎ did not grade a card nobody was shown").toBe(before.prep)
 })
 

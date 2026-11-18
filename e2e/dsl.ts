@@ -811,7 +811,7 @@ export class Journey {
   }
 
   /** THE ANSWER MODE A JOURNEY WAS WRITTEN UNDER (v1.282.0). Nothing stored is Auto since then (multiple choice until a
-   *  card is at stage 2, front and back from there, in Practice, Last rolls and a roll's question); until then it was
+   *  card is at stage 2, front and back from there, in Master the game and a roll's question); until then it was
    *  "classic" (front and back in the sidebar, multiple choice in a roll). A journey whose subject is NOT the format but
    *  whose steps press Reveal / Got it, or answer a roll's question as multiple choice on a proven card, states the mode it
    *  was written under here, the way a player does: the Settings row's own writer (`set`). Never a way to loosen an

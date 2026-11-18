@@ -154,7 +154,7 @@ Deferred alias defense cannot create a catch. Live MC mechanics and timing remai
 `_panicKey` freezes the existing residency-based odds bonus independently of the displayed deck.
 
 The sticky ✕ persists `landCard`; a background dismissal lasts one landing. Counts open nothing;
-Last rolls is the study route. The generic defending card uses `_landCardChrome`, reads the
+Master the game is the study route (a Last rolls row's "Practise here" opens its place there). The generic defending card uses `_landCardChrome`, reads the
 Defender article, and hydrates its own deck. Hiding the question leaves catch and escapes live.
 
 **Paging browses the current deck.** Horizontal swipes (40px / 700ms), accumulated trackpad
@@ -224,7 +224,7 @@ reordering. Closing restores focus and pause state. Close directly precedes the 
 Shift+Tab leaves the cross-origin iframe for Close. Tab stays within the dialog.
 
 The owner dropped the Inspect/JIT drill on 2026-10-15 (question 6), including its RNG tags,
-warm-up latch and styles. Landing, node, history and Challenges decks retain `_mcAnswer`,
+warm-up latch and styles. Landing, node and session decks retain `_mcAnswer`,
 `gradeRecall` and `refreshOptionOdds`. Playback (since VID1, the opening press) earns the
 once-per-technique film-look modifier. Legacy `sheet_opened` evidence and saved
 challenge keys remain, with new action copy. Cards retain Suggested / Recommended, pending
@@ -783,7 +783,8 @@ opening and Path arrival; lesson progress still drives the next-lesson highlight
 remains available through reference, lists and gameplay, and all due reviews remain eligible.
 Path keeps its original corridor temporarily as the owner's UI reference (U86).
 
-**Inline deck keys.** History, session queues and corridor lessons share `_miniReg`: `←/→`
+**Inline deck keys.** Session queues and corridor lessons share `_miniReg` (Last rolls' rows held
+decks there too until v1.293.0; their keys are below): `←/→`
 pages, `↑/↓` walks techniques (corridor lesson order, skipping folded belts), `Space` flips,
 and `⏎` grades *Got it* and advances. Opening a lesson focuses its deck box (`tabindex="-1"`),
 which owns neither activation key; Tab-then-Space on a lesson row still works. Evidence repaints
@@ -800,9 +801,24 @@ it, so the URL (`…/Bottom`) re-seats you on reload. Esc closes the sheet alone
 inside it stay there. A graph tap
 needs no sheet: the pair's two orbs are the seat choice.
 
-**Last rolls** — roll history with inline decks, plus per-row ▶ (stage a roll from that state, on
-the side it was played unless you pick the other, clock held) and ⟲ (replay). History is in memory
-and has never persisted.
+**Last rolls** — the places you went through (v1.293.0, L3; owner 16 Nov 2026: "about going through
+the [nodes] that were visited, not necessarily answering flashcards"). One row per state of the
+roll, plus per-row ▶ (stage a roll from that state, on the side it was played unless you pick the
+other, clock held) and ⟲ (replay). History is in memory and has never persisted.
+A row holds no deck. Its sub line is the side and what you remember there: the gold marks and the
+number, from the function Master the game's rows use (`_placeGold`, `_goldMark`); nothing when
+nothing is remembered, never a card count. A press shows two actions, one row open at a time:
+- **Show on the map** (`_showPlace`): the camera frames the place (`frameNodes`, the 7 s lease) and
+  lights it. On a desktop the drawer stays. On a phone the drawer shuts and the clock is HELD
+  (`_lookAutoPaused`, the film's pattern): a look, not a return to play. A hand on the map (tap,
+  pan, wheel) lets it go and the roll resumes; the drawer opening again takes the pause back; a
+  move played or a new journey ends the claim. Sends nothing.
+- **Practise here**: `openMasterAt(key, "lastrolls")`, the place opened as Master the game's own
+  row opens it (its moves as a cloze when owed, else its cards; cards only under "Multiple
+  choice"). A position has it; a submission a roll passed through has Show on the map alone.
+  `neural_practice_opened` carries surface `lastrolls`.
+Keys on an open row: `↑/↓` walk the places, `Space` shows on the map, `⏎` practises here; `←/→`
+and `A/B/C` do nothing. Last rolls writes nothing to the record.
 
 **Every roll you played reaches the shelf, and the shelf repaints when it does (v1.174.0).**
 `_closeRoll()` is the ONE seam the three roll-enders call — `startRoll`, `rollFromPosition`,

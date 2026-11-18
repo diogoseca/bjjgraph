@@ -6,21 +6,33 @@ import { journey } from "../dsl"
 const CLASSIC = { answerMode: "classic" } as const
 
 /**
- * THE PANE IS A HISTORY YOU CAN WALK, IN Q&A.
+ * THE PANE IS A HISTORY YOU CAN WALK.
  *
  * Owner's description of what the pane (left since v1.94.0) is FOR: "show history that the user can go through,
- * and it shows a question-and-answer format. It doesn't show multiple choice." So this asserts the
- * pane's identity, not just its pause behaviour (pane-law.spec.ts covers that):
+ * and it shows a question-and-answer format. It doesn't show multiple choice." And, on 16 Nov 2026 (L3, v1.293.0): "Lastrolls
+ * should stop being about answering … about going through the [nodes] that were visited, not necessarily answering
+ * flashcards." So a row is a PLACE now: it holds no card, and its "Practise here" opens the place in Master the game, where
+ * the question-and-answer the first quote describes lives. This asserts the pane's identity, not just its pause behaviour
+ * (pane-law.spec.ts covers that):
  *
  *   - one row per state the roll has visited, in order, tagged with who moved you there
- *   - each row opens a card that reads question → Reveal → answer (never options)
- *   - revealing is SEEN, not credit — the honest economy holds here too
+ *   - a row holds no card; "Practise here" opens its place in Master the game, and under Front Back cards the card there
+ *     reads question → Reveal → answer (never options)
+ *   - revealing is SEEN, not credit — the honest economy holds there too
  *   - the history survives the round boundary, because the pane no longer clears itself
  *   - EVERY roll that was played reaches the shelf, including the one-exchange roll (v1.174.0)
  *   - and the shelf repaints when a roll is filed, not one landing later (v1.174.0)
+ * The row itself (its two actions, its sub line, the keys, the phone's hold) is last-rolls-places.spec.ts.
  *
- * Surfaces: [data-hist] [data-hist-actor] [data-hist-current] [data-mini-deck]
- *           [data-mini-q] [data-mini-reveal] [data-mini-a] [data-past-roll]
+ * FOUR TESTS HERE WERE RE-POINTED IN v1.293.0, none removed, each run against its mutant on dev's build before and on this
+ * build after (docs/Changelog-Archive.md, v1.293.0, has the table):
+ *   "a history row under Front Back cards…"   under Classic the card asks multiple choice anyway (`mcActive`)  → "the answer appears on reveal"
+ *   "revealing … is SEEN, not credit"         a reveal credits the card (`doReveal`)                           → "reading an answer earns no mastery"
+ *   "the history survives the round ending"   the round's end shuts the drawer (`endRound`)                    → "and its two actions are still there" (before: "and still readable")
+ *   "free roam files the roll it ends…"       a filed roll does not repaint Last rolls (`_closeRoll`)          → "and filed it under Previous rolls"
+ *
+ * Surfaces: [data-hist] [data-hist-actor] [data-hist-current] [data-hist-show] [data-hist-go] [data-past-roll];
+ *           in Master the game [data-mini-q] [data-mini-reveal] [data-mini-a]
  */
 
 // The logo is the pane opener; Last rolls owns the history surface.
@@ -28,11 +40,21 @@ const openPane = async (page: Page) => {
   await page.locator(".ng-logo").click()
   await page.locator('[data-view="history"]').click()
 }
-// …and a row opens its own deck on click. (v1.175.0 retired the landing chip that used to land
-// here with the current row already open — "it should not open the last rolls", owner.)
-const openCurrentDeck = async (page: Page) => {
+// …and a row opens its two actions on click (its own deck until v1.293.0). (v1.175.0 retired the landing chip that used to
+// land here with the current row already open — "it should not open the last rolls", owner.)
+const openCurrentRow = async (page: Page) => {
   await openPane(page)
   await page.locator("[data-hist-current]").click()
+}
+// "Practise here" on the current row: its place opens in Master the game, on its first card (the journey's player knows the
+// moves the plan would ask, so the place's cards come up, not its cloze: the cloze is master-cloze.spec.ts)
+const practiseHere = async (page: Page, j: ReturnType<typeof journey>) => {
+  await j.knowsPlanMoves()
+  await openCurrentRow(page)
+  await expect(page.locator(".ng-drill [data-mini-deck]"), "the row itself holds no card").toHaveCount(0)
+  await page.locator("[data-hist-go]").click()
+  await expect(page.locator("[data-practice-page]"), "Master the game is open").toHaveCount(1)
+  await expect(page.locator("[data-mini-q]:visible"), "the place's first card is up").toHaveCount(1, { timeout: 30_000 })
 }
 
 test("the pane lists every state the roll has visited, in order", async ({ page }) => {
@@ -73,60 +95,71 @@ test("the pane lists every state the roll has visited, in order", async ({ page 
 // v1.282.0: written when a history row was always front and back. Since then every inline deck asks the answer mode
 // (rulings R2; Auto asks a new card as multiple choice: answer-mode.spec.ts "Last rolls"), so this journey states the mode
 // it was written under, Front Back cards, and keeps every assertion.
+// v1.293.0 (L3): the row holds no card; the same reading, question → Reveal → answer, is made where "Practise here" opens
+// the place, in Master the game. Every assertion is kept, on that card; the options' own handle there is
+// `data-practice-mc-opt`, asserted beside the study view's `data-mc-opt` the journey always read.
 test("a history row under Front Back cards reads question → reveal → answer, never multiple choice", async ({ page }) => {
   const j = journey(page, CLASSIC)
   await j.boot("/")
   await j.answerMode("classic")
   await j.land("Mount Top")
-  await openCurrentDeck(page)
+  await practiseHere(page, j)
 
-  const deck = page.locator("[data-mini-deck]").first()
-  await expect(deck, "the current state's card is open in the pane").toBeVisible()
+  const deck = page.locator("[data-mini-deck]:visible").first()
+  await expect(deck, "the current state's card is open, in Master the game").toBeVisible()
   await expect(deck.locator("[data-mini-q]"), "a question").toBeVisible()
-  await expect(deck.locator("[data-mini-a]"), "answer hidden until asked for").toHaveCount(0)
+  await expect(page.locator(".ng-drill [data-mini-a]"), "answer hidden until asked for").toHaveCount(0)
   await expect(
-    page.locator(".ng-drill [data-mc-opt]"),
+    page.locator(".ng-drill [data-mc-opt], .ng-drill [data-practice-mc-opt]"),
     "and no options anywhere in the pane",
   ).toHaveCount(0)
 
-  await deck.locator("[data-mini-reveal]").click()
-  await expect(deck.locator("[data-mini-a]"), "the answer appears on reveal").toBeVisible()
-  await expect(page.locator(".ng-drill [data-mc-opt]"), "still no multiple choice").toHaveCount(0)
+  await page.locator("[data-master-bar] [data-mini-reveal]").click()
+  await expect(page.locator(".ng-drill [data-mini-a]"), "the answer appears on reveal").toBeVisible()
+  await expect(page.locator(".ng-drill [data-mc-opt], .ng-drill [data-practice-mc-opt]"), "still no multiple choice").toHaveCount(0)
 })
 
+// v1.293.0 (L3): the reveal is made where "Practise here" opens the place, in Master the game; the two assertions are kept,
+// on the deck of the card that was revealed (read from the app, so a place that opens another of its decks is still measured)
 test("revealing in the pane is SEEN, not credit", async ({ page }) => {
   const j = journey(page, CLASSIC)
   await j.boot("/")
   await j.land("Mount Top")
+  await practiseHere(page, j)
 
   const before = await page.evaluate(() => {
     const a = (window as any).__neural
-    const k = a.deckKeyFor(a.nodes[a.currentPos]).key
-    return { prep: (a.prep && a.prep[k]) || 0, score: a.gameScore().score, key: k }
+    const k = a._session.keys[a._session.idx]
+    return { prep: (a.prep && a.prep[k]) || 0, score: a.gameScore().score, key: k, srs: JSON.stringify(a.srs) }
   })
+  expect(before.key, "premise: the open card is the place's own").toBe("Mount|Top")
 
-  await openCurrentDeck(page)
-  await page.locator("[data-mini-deck]").first().locator("[data-mini-reveal]").click()
+  await page.locator("[data-master-bar] [data-mini-reveal]").click()
+  await expect(page.locator(".ng-drill [data-mini-a]"), "premise: the answer is shown").toBeVisible()
 
   const after = await page.evaluate((k) => {
     const a = (window as any).__neural
-    return { prep: (a.prep && a.prep[k as string]) || 0, score: a.gameScore().score }
+    return { prep: (a.prep && a.prep[k as string]) || 0, score: a.gameScore().score, srs: JSON.stringify(a.srs) }
   }, before.key)
   expect(after.prep, "reading an answer earns no mastery").toBe(before.prep)
   expect(after.score, "and moves no belt").toBe(before.score)
+  expect(after.srs, "and schedules nothing").toBe(before.srs)
 })
 
 test("the history survives the round ending", async ({ page }) => {
   const j = journey(page, CLASSIC)
   await j.boot("/")
   await j.land("Mount Top")
-  await openCurrentDeck(page)
+  await openCurrentRow(page)
+  await expect(page.locator("[data-hist-show]"), "premise: the row's two actions are shown").toBeVisible()
   const before = await page.locator("[data-hist]").count()
 
   // endRound is the seam that used to hide the pane; time is frozen while it is open
   await page.evaluate(() => (window as any).__neural.endRound("reset"))
   expect(await page.locator("[data-hist]").count(), "rows still there").toBe(before)
-  await expect(page.locator("[data-mini-deck]").first(), "and still readable").toBeVisible()
+  // v1.293.0 (L3): "and still readable" read the row's open card; the row holds two actions now, and they are what stays
+  await expect(page.locator("[data-hist-show]"), "and its two actions are still there").toBeVisible()
+  await expect(page.locator("[data-hist-go]"), "both of them").toBeVisible()
 })
 
 test("Last rolls carries the roll rows — and explains itself when nothing rolled yet", async ({
@@ -263,6 +296,10 @@ test("free roam files the roll it ends, and Last rolls repaints without waiting 
   const rows = await page.locator("[data-hist]").count()
   expect(rows, "premise: the live roll's states are on screen").toBeGreaterThan(1)
   expect(await page.locator("[data-past-roll]").count(), "premise: the shelf is empty").toBe(0)
+  // v1.293.0 (L3): a row is opened first, so "what hung off the rows goes with them" is a claim about something on screen
+  // (until now no row was opened here, and the last assertion read an empty page as its proof)
+  await page.locator("[data-hist-current]").click()
+  await expect(page.locator("[data-hist-show]"), "premise: the latest row's two actions are shown").toBeVisible()
 
   // tap 1 closes the landing card, tap 2 is free roam (the ladder pinned by roll-card.spec.ts)
   await page.evaluate(() => (window as any).__neural._tapBackground())
@@ -277,7 +314,8 @@ test("free roam files the roll it ends, and Last rolls repaints without waiting 
     page.locator("[data-hist]"),
     "the rows of a roll that no longer exists are gone from This roll",
   ).toHaveCount(0)
-  await expect(page.locator("[data-mini-deck]"), "and so is the card that hung off them").toHaveCount(0)
+  await expect(page.locator("[data-hist-show], [data-hist-go]"), "and so are the two actions that hung off them").toHaveCount(0)
+  await expect(page.locator("[data-mini-deck]"), "and no card").toHaveCount(0)
 })
 
 // Preserve the one-state archive regression guard: submission entry from a position now

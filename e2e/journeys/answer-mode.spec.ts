@@ -12,8 +12,9 @@ import { journey } from "../dsl"
  *      still has no `mcMode` after a save. A press writes the choice.
  *   2. Practice asks a new card as multiple choice; a card right twice (stage 2) asks front and back; a miss there keeps it
  *      at 2 (the floor) and resets its schedule, and the card is never multiple choice again.
- *   3. Last rolls' inline deck asks the answer mode too (Auto: a new card as multiple choice, on its own surface), and an
- *      answer there is a grade.
+ *   3. From Last rolls, "Practise here" opens the place in Master the game, where the card asks the answer mode (Auto: a
+ *      new card as multiple choice), and an answer there is a grade. (Until v1.293.0, L3, the row held its own inline deck,
+ *      which asked the mode on a surface of its own, "inline"; a row is a place now and holds no card.)
  *   4. A stored Front Back cards asks a new card front and back in Practice and in a roll; a stored Multiple choice keeps a
  *      card right twice multiple choice in Practice and in a roll; and the old Recall mode switch, stored Off, decides nothing.
  *   5. (the reader of #423) "Never again" is per question: a question right twice in one deck asks front and back from every
@@ -149,18 +150,27 @@ for (const touch of [false, true]) {
       await expect(page.locator(".ng-drill [data-mc-opt]"), "with no options").toHaveCount(0)
     })
 
-    test(`Last rolls: the inline deck asks the answer mode too, and an answer there is a grade (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+    // v1.293.0 (L3): RE-POINTED, nothing removed. The row held an inline deck that asked the mode on its own surface
+    // ("inline"); a row is a place now, and "Practise here" opens it in Master the game, where the same two claims are made
+    // on the same card: a new card asks multiple choice, and an answer there is a grade. "On its own surface" became "on
+    // Master the game's surface": the surface "inline" left with the deck. Mutant, on dev's build before and this one after:
+    // the inline deck never asks multiple choice (`_miniDeck`'s `recognition`) → red at "asks a new card as multiple choice".
+    test(`Last rolls: Practise here opens the place where the card asks the answer mode too, and an answer there is a grade (${touch ? "touch" : "mouse"})`, async ({ page }) => {
       const j = journey(page)
       await j.boot("/")
       await j.land("Mount Top")
+      await j.knowsPlanMoves()   // L2: a place's moves come before its cards; this journey is about the cards' answer form
       await press(page, ".ng-logo", "open the drawer", touch)
       await press(page, '[data-view="history"]', "Last rolls", touch)
       await press(page, "[data-hist-current]", "this roll's row", touch)
-      const deck = page.locator("[data-mini-deck]").first()
-      await expect(deck.locator("[data-inline-mc-opt]"), "the inline deck asks a new card as multiple choice").toHaveCount(3, { timeout: 20_000 })
+      await expect(page.locator(".ng-drill [data-mini-deck]"), "the row holds no card").toHaveCount(0)
+      await press(page, "[data-hist-go]", "Practise here", touch)
+      const open = '[data-session-row][aria-expanded="true"] + div'
+      await expect(page.locator(open + " [data-practice-mc-opt]"), "the place's card asks a new card as multiple choice").toHaveCount(3, { timeout: 20_000 })
       const before = await page.evaluate(() => { const a = (window as W).__neural; return { key: a._mc?.key, qh: a._mc?.qhash, surface: a._mc?.surface } })
-      expect(before.surface, "on its own surface").toBe("inline")
-      await press(page, '[data-mini-deck] [data-inline-mc-opt="0"]', "answer A", touch)
+      expect(before.surface, "on Master the game's surface").toBe("practice")
+      expect(before.key, "the place's own deck").toBe("Mount|Top")
+      await press(page, open + ' [data-practice-mc-opt="0"]', "answer A", touch)
       await expect.poll(() => page.evaluate(({ key, qh }) => { const a = (window as W).__neural; return !!(a.srs[key] && a.srs[key][qh]) }, before),
         { message: "the answer is a grade (its schedule row exists)" }).toBe(true)
     })
@@ -398,11 +408,17 @@ for (const touch of [false, true]) {
 // (its own hide does that) without completing anything.
 // Mutant: (b)'s exception put back (`_miniDeck`'s recognition skipping the inline surface under a stored `mc`) → red at
 // "multiple choice in Last rolls under a stored Multiple choice".
+// v1.293.0 (L3): RE-POINTED, nothing removed. Last rolls' row holds no card; "Practise here" opens the place in Master the
+// game, and every step is made there, on the same deck: multiple choice under a stored Multiple choice, a right pick that
+// proves nothing from memory, Auto getting the goal back. The buttons are the foot's (`[data-master-bar]`, L1-R0). The
+// mutant is the same exception, on the surface the card now has: a stored `mc` asks a card right twice front and back
+// (`_cardAsksMc`) → red at "multiple choice from Last rolls under a stored Multiple choice", on dev's build before
+// (against the test as it was) and on this build after.
 const MC_LINE = "always three answers to pick from. A card is never asked from memory, so the goals that need one proven from memory wait until you change this."
 for (const touch of [false, true]) {
   test.describe(touch ? "touch 390x631, a stored Multiple choice" : "mouse 1440x900, a stored Multiple choice", () => {
     test.use(touch ? { hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } } : { viewport: { width: 1440, height: 900 } })
-    test(`a stored Multiple choice asks multiple choice in Last rolls too; the from-memory goals wait, and Auto gets them back (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+    test(`a stored Multiple choice asks multiple choice from Last rolls too; the from-memory goals wait, and Auto gets them back (${touch ? "touch" : "mouse"})`, async ({ page }) => {
       const j = journey(page)
       await j.boot("/", { keepTutorial: true, initialState: { v: 2, settings: { mcMode: "mc" }, settingsAt: { mcMode: 5 } } })
       await page.evaluate(() => { const a = (window as W).__neural; a.tutHidden = true; a.renderTutorial() })
@@ -435,15 +451,16 @@ for (const touch of [false, true]) {
       await expect(row, "the line says a card is never asked from memory and the goals wait").toContainText(MC_LINE)
       await shown(".ng-modal .x")
       await press(page, ".ng-modal .x", "close Settings", touch)
-      // Last rolls: multiple choice, and a right pick proves nothing from memory
+      // from Last rolls, Practise here: multiple choice, and a right pick proves nothing from memory
       await press(page, '[data-view="history"]', "Last rolls", touch)
       await press(page, "[data-hist-current]", "this roll's row", touch)
-      const deck = page.locator(`[data-mini-deck="${key}"]`)
-      await expect(deck.locator("[data-inline-mc-opt]"), "multiple choice in Last rolls under a stored Multiple choice").toHaveCount(3, { timeout: 20_000 })
-      await expect(deck.locator("[data-mini-reveal]"), "and nothing to reveal").toBeDisabled()
-      const live = await page.evaluate(() => { const a = (window as W).__neural, m = a._mc; return m && m.surface === "inline" ? { key: m.key, qh: m.qhash, right: m.correct } : null })
-      expect(live && live.key, "premise: the open card is this deck's, on the inline surface").toBe(key)
-      await press(page, `[data-mini-deck="${key}"] [data-inline-mc-opt="${live!.right}"]`, "the right answer", touch)
+      await press(page, "[data-hist-go]", "Practise here", touch)
+      const deck = page.locator(`[data-mini-deck="${key}"]:visible`)
+      await expect(deck.locator("[data-practice-mc-opt]"), "multiple choice from Last rolls under a stored Multiple choice").toHaveCount(3, { timeout: 20_000 })
+      await expect(page.locator("[data-master-bar] [data-mini-reveal]"), "and nothing to reveal").toBeDisabled()
+      const live = await page.evaluate(() => { const a = (window as W).__neural, m = a._mc; return m && m.surface === "practice" ? { key: m.key, qh: m.qhash, right: m.correct } : null })
+      expect(live && live.key, "premise: the open card is this deck's, in Master the game").toBe(key)
+      await press(page, `[data-mini-deck="${key}"] [data-practice-mc-opt="${live!.right}"]`, "the right answer", touch)
       await expect.poll(() => page.evaluate(({ key, qh }) => { const a = (window as W).__neural; return !!(a.srs[key] && a.srs[key][qh]) }, live!),
         { message: "the pick is a grade" }).toBe(true)
       expect(await page.evaluate(({ key, qh }) => (window as W).__neural.stage[key][qh], live!), "a right pick leaves the card at 2").toBe(2)
@@ -454,11 +471,11 @@ for (const touch of [false, true]) {
       await press(page, "[data-answer-mode] button:nth-of-type(1)", "Auto", touch)
       expect(await page.evaluate(() => (window as W).__neural.get("mcMode")), "the choice is stored").toBe("auto")
       await press(page, ".ng-modal .x", "close Settings", touch)
-      await press(page, `[data-mini-deck="${key}"] .mn`, "the next card", touch)
-      await expect(deck.locator("[data-inline-mc-opt]"), "Auto asks a card right twice front and back").toHaveCount(0)
-      await expect(deck.locator("[data-mini-reveal]")).toBeEnabled()
-      await press(page, `[data-mini-deck="${key}"] [data-mini-reveal]`, "Reveal", touch)
-      await press(page, `[data-mini-deck="${key}"] [data-mini-got]`, "Got it", touch)
+      await press(page, "[data-master-bar] .mn", "the next card", touch)
+      await expect(deck.locator("[data-practice-mc-opt]"), "Auto asks a card right twice front and back").toHaveCount(0)
+      await expect(page.locator("[data-master-bar] [data-mini-reveal]")).toBeEnabled()
+      await press(page, "[data-master-bar] [data-mini-reveal]", "Reveal", touch)
+      await press(page, "[data-master-bar] [data-mini-got]", "Got it", touch)
       await expect.poll(goal, { message: "\"Prove a card from memory\" is reached" }).toBe(true)
     })
   })
