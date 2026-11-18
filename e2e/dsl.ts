@@ -833,7 +833,8 @@ export class Journey {
   /**
    * THE PLAYER KNOWS THE MOVES TODAY'S PLAN WOULD ASK (L2, v1.292.0). Master the game asks a position's MOVES before its
    * cards, as a cloze, in every answer mode but "Multiple choice" (`_asksMoves`): up to six due ones a visit, and up to two
-   * new ones where none is due, so a player with no record of moves meets a cloze at every place. A journey whose subject
+   * new ones where none is due, so a player whose record holds an answer meets a cloze at each place the plan visits (a
+   * record with no answer at all gets the older order and cards only, until its first answer). A journey whose subject
    * is the CARDS runs a player who knows those moves (a Yes on each, not due): no cloze stands before a card and nothing of
    * it counts toward the day. Call it after boot and BEFORE Master the game opens. It loads the planner as the page does,
    * reads the plan the app itself builds (`planSummary`) and marks every move dealt at the places that plan asks moves at,

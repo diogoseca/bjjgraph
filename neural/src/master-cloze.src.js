@@ -19,7 +19,8 @@
 // HOW IT IS ANSWERED: Show turns the bars into names, each with where it takes you under it; "Had it?" on each row; Hide
 // puts the bars back and is a VIEW, never a grade (ruling 3); Done writes every hidden move ONCE, through the app's one
 // writer (`_gradeMoves`: Had it climbs the ladder, not tapped stores what a hidden move's No stores, ruling 5), and each is
-// one of the day's 20 (U200). Nothing is marked for the player. After Done, ONE quiet Undo takes that confirm back, exactly
+// one of the day's 20 (U200). A "did not" on a move you knew can lower the NUMBER, exactly as a roll's No does; a belt and
+// its stripes never go down (the owner's rule; L2-R1, ruling 7: the brief's "never lowers the rating" was wrong). Nothing is marked for the player. After Done, ONE quiet Undo takes that confirm back, exactly
 // (ruling 4), until the next confirm or until the place is left.
 // THE MAP: while a cloze is open and not shown, `c.down` (its hidden moves' orbs) is what the map must not name
 // (app.src.jsx, `_czDown`, ruling 7). `ngClozeLeadsOf` is the one function that says where a row leads (ruling 8: the
@@ -53,7 +54,9 @@ export function ngClozeBack(row, day, had) {
 // the words over the rows. `hide`: the hidden moves; `solid`: the remembered ones in sight; `had`: tapped so far
 export function ngClozeSay({ hide, solid = 0, shown = false, had = 0, goal = 20 }) {
   const num = (n) => NG_CLOZE_NUM[n] || String(n);
-  if (shown) return [had ? "Tap the ones you had. " + had + " so far." : "Tap the ones you had.", had ? "Nothing tapped = not yet." : "Nothing tapped = not yet. Hide puts the blanks back if you want another go."];
+  // ONE small line for both states (L2-R1, the reader's finding 3): it was two lines only while nothing was tapped, so
+  // every row moved 15 px under the finger at the first "Had it?"
+  if (shown) return [had ? "Tap the ones you had. " + had + " so far." : "Tap the ones you had.", "Nothing tapped = not yet. Hide puts the blanks back."];
   const one = hide === 1;
   if (solid) return [num(hide) + (one ? " move" : " moves") + " to say. The " + (solid === 1 ? "one you have stays" : num(solid).toLowerCase() + " you have stay") + " in sight.", ""];
   return [num(hide) + (one ? " move starts here. Say it" : " moves start here. Say each one") + " to yourself, then Show.", "Each blank is one move; each counts one toward today's " + goal + "."];
@@ -77,8 +80,9 @@ function ngClozeAsks(app, s, seat) {
 }
 /**
  * WHERE A ROW LEADS, resolved on the map (ruling 8's seam: the second line reads it, the map will). `opt`: the dealt move.
- * Each: {idx, name, role ("top" | "bottom"), sub}. A submission (or the control position a submission is held from, the
- * map's stateAlias) is its finish: `sub`, its name, no role; a move that IS the finish names itself. An outcome that does
+ * Each: {idx, name, role ("top" | "bottom"), sub}. A real submission is its finish: `sub`, its name, no role; a move
+ * that IS the finish names itself. Every position is a place with its side, the control position a submission is held
+ * from included (L2-R1, ruling 5: the rule is the outcome's node). An outcome that does
  * not resolve is counted (`s.czLost`) and left out, never guessed.
  */
 export function ngClozeLeadsOf(app, opt, s) {
@@ -88,7 +92,10 @@ export function ngClozeLeadsOf(app, opt, s) {
     if (r.terminal) { out.push({ idx: opt.idx, sub: true, role: null, name: app.graphName(app.nodes[opt.idx]) }); continue; }
     const n = r.idx >= 0 ? app.nodes[r.idx] : null;
     if (!n) { if (s) s.czLost = (s.czLost || 0) + 1; continue; }
-    const sub = n.ty === "submissions" || !!(n.cal && n.cal.stateAlias);
+    // THE RULE IS THE OUTCOME'S NODE (L2-R1, the orchestrator's ruling 5): a position is a PLACE, drawn with its side,
+    // also the control position a submission is held from (66 techniques lead to one: "Triangle Setup" read
+    // "▵ Triangle Control", no side, where the wire says triangle-control/bottom); only a real submission is a finish.
+    const sub = n.ty === "submissions";
     out.push({ idx: r.idx, sub, role: sub ? null : r.role || n.role || null, name: app.graphName(n) });
   }
   return out;
@@ -256,7 +263,7 @@ const NG_CLOZE_CSS = "[data-master-ask][data-cz]>:not([data-cloze]){display:none
   ".ngz .in{margin:6px 0 8px;font-size:12px;line-height:1.45;color:#c2cce0}.ngz .in small{display:block;color:#7e8aa3;font-size:10.5px;margin-top:2px}" +
   ".ngz .gl{display:flex;align-items:center;gap:9px;margin:4px 0 8px}.ngz .gn{font-size:22px;line-height:1;font-weight:800;color:#f0c05a}" +
   ".ngz .gt{font-size:12.5px;line-height:1.35;color:#dbe2f0;font-weight:600}.ngz .gt small{display:block;font-size:10.5px;color:#7ee0a8;font-weight:700;margin-top:1px}" +
-  ".ngz .un{min-height:0;border:0;background:none;padding:0 2px;margin-left:8px;font:inherit;font-weight:600;color:#8b97b0;text-decoration:underline;text-underline-offset:2px;cursor:pointer;position:relative}.ngz .un::after{content:'';position:absolute;inset:-16px -12px}" +
+  ".ngz .un{z-index:1;min-height:0;border:0;background:none;padding:0 2px;margin-left:8px;font:inherit;font-weight:600;color:#8b97b0;text-decoration:underline;text-underline-offset:2px;cursor:pointer;position:relative}.ngz .un::after{content:'';position:absolute;inset:-16px -12px}" +
   ".ngz .cz{position:relative;display:flex;align-items:center;gap:10px;min-height:36px;padding:0 8px;margin:0 -8px;border-radius:8px}.ngz .cz.two{height:44px;min-height:0}" +
   ".ngz .sh{flex:none}.ngz .sh path{fill:none;stroke:rgba(150,170,210,.45);stroke-width:1.2;stroke-linejoin:round}.ngz .sh[data-gold] path{stroke:#f0c05a;stroke-width:1.5;fill:rgba(91,140,255,.55)}.ngz .sh[data-gold=bottom] path{fill:rgba(216,96,122,.55)}" +
   ".ngz .br{flex:none;max-width:100%;height:10px;border-radius:5px;background:linear-gradient(90deg,rgba(150,170,210,.2),rgba(150,170,210,.13));box-shadow:inset 0 0 0 1px rgba(150,170,210,.12)}" +

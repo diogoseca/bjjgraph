@@ -10,6 +10,12 @@
 //   L2-5 a weekday past six days                                  → "the day's words"
 //   L2-12 a role on a finish (the seam hands a side for a submission)  → "the seam: where a row leads…"
 //   L2-13 an outcome that does not resolve is guessed, not counted     → "the seam: where a row leads…"
+//   L2-14 a control position drawn as a finish again (L2-R1, ruling 5)  → "the seam: where a row leads…" and "over the whole
+//         wire, both rulesets: a row's second line agrees with its outcome's node…"
+// AND ON THE APP CLASS (L2-R1):
+//   L2-15 the seat's existence read per answer (the reader's finding 1) → "two new moves at a place that had none, then Undo…"
+//   (no mutant for "a 'Did not' on a move you knew…": it states what the writer leaves alone, the belt's two readings; that
+//    a held level never falls is the rating's own rule and its own tests, tests/rating.test.mjs)
 // THE WRITER (app.src.jsx, `_gradeMoves`, `_ungradeMoves`, `_movesToday`), on the app class with this payload:
 //   L2-6 one point for six (the day counts a cloze, not its moves)    → "six answers are six of the day's 20…"
 //   L2-7 the row written with its pair at index 3                     → "a cloze of six writes six rows…"
@@ -74,7 +80,7 @@ test("the seam: where a row leads is a place and its side, or a finish with no s
   const leads = (outcomes, idx = 9, s = null) => ngClozeLeadsOf(app, { idx, act: { cal: { outcomes } } }, s);
   assert.deepEqual(leads([o({ idx: 0, role: "bottom" }, 70)]), [{ idx: 0, sub: false, role: "bottom", name: "Half Guard" }], "a place and the side you land on");
   assert.deepEqual(leads([o({ idx: 1, role: "top" }, 60)]), [{ idx: 1, sub: true, role: null, name: "Armbar" }], "a submission is its finish: no side");
-  assert.deepEqual(leads([o({ idx: 2, role: "top" }, 60)]), [{ idx: 2, sub: true, role: null, name: "Armbar Control" }], "the position a submission is held from is a finish too: no side");
+  assert.deepEqual(leads([o({ idx: 2, role: "top" }, 60)]), [{ idx: 2, sub: false, role: "top", name: "Armbar Control" }], "the position a submission is held from is a PLACE, with its side (L2-R1, ruling 5): the rule is the outcome's node");
   assert.deepEqual(leads([o({ terminal: true }, 55)], 3), [{ idx: 3, sub: true, role: null, name: "Kimura" }], "a move that ends the game names itself");
   assert.deepEqual(leads([o({ idx: 0, role: "top" }, 50), o({ idx: 1, role: "top" }, 30)]).map((l) => [l.name, l.role]), [["Half Guard", "top"], ["Armbar", null]], "a second place from 25, each by its own kind");
   const s = {};
@@ -99,8 +105,9 @@ test("the words over the rows", () => {
   assert.deepEqual(ngClozeSay({ hide: 1, goal: 30 }), ["One move starts here. Say it to yourself, then Show.", "Each blank is one move; each counts one toward today's 30."]);
   assert.deepEqual(ngClozeSay({ hide: 2, solid: 4 }), ["Two moves to say. The four you have stay in sight.", ""]);
   assert.deepEqual(ngClozeSay({ hide: 1, solid: 1 }), ["One move to say. The one you have stays in sight.", ""]);
-  assert.deepEqual(ngClozeSay({ hide: 6, shown: true }), ["Tap the ones you had.", "Nothing tapped = not yet. Hide puts the blanks back if you want another go."]);
-  assert.deepEqual(ngClozeSay({ hide: 6, shown: true, had: 4 }), ["Tap the ones you had. 4 so far.", "Nothing tapped = not yet."]);
+  assert.deepEqual(ngClozeSay({ hide: 6, shown: true }), ["Tap the ones you had.", "Nothing tapped = not yet. Hide puts the blanks back."]);
+  assert.deepEqual(ngClozeSay({ hide: 6, shown: true, had: 4 }), ["Tap the ones you had. 4 so far.", "Nothing tapped = not yet. Hide puts the blanks back."]);
+  assert.equal(ngClozeSay({ hide: 6, shown: true })[1], ngClozeSay({ hide: 6, shown: true, had: 1 })[1], "ONE small line for both states: nothing moves at the first tap (L2-R1)");
   assert.deepEqual(ngClozeSay({ hide: 2, solid: 9 })[0], "Two moves to say. The 9 you have stay in sight.", "past six, the figure");
 });
 
@@ -176,4 +183,81 @@ test("Undo is refused once a row is no longer the row the confirm wrote (a pull 
   assert.equal(a._ungradeMoves(u), false);
   assert.equal(JSON.stringify(a.moves), now, "nothing is touched");
   assert.equal(lines.length, n, "the journal neither");
+});
+
+// ── L2-R1 (the reader of PR #438 and the orchestrator's rulings, 18 Nov 2026) ──
+test("two new moves at a place that had none, then Undo: the moves record is what it was, the empty seat gone (L2-R1, finding 1)", () => {
+  const { a, lines } = app(), D = RATING_DAY;
+  a.moves = { "76/bottom": { 301: [D - 1, 7, D - 8, 1, 7, 7] } };
+  const before = JSON.stringify(a.moves);
+  const u = a._gradeMoves([["108/top", "316", true], ["108/top", "1242", false]]);
+  assert.deepEqual(Object.keys(a.moves["108/top"]), ["316", "1242"], "premise: two rows at a seat that did not exist");
+  assert.deepEqual(u.prior.map((p) => p[2]), [false, false], "the seat did not exist, for the second answer as for the first: decided once, before the loop");
+  assert.equal(a._ungradeMoves(u), true);
+  assert.equal(JSON.stringify(a.moves), before, "exactly: no \"108/top\":{} left behind");
+  assert.equal(lines.length, 0, "and its answers left the journal");
+  // a seat that existed, emptied by an Undo of its own new cells, stays (it was there before)
+  a.moves = { "76/bottom": {} };
+  const u2 = a._gradeMoves([["76/bottom", "301", true], ["76/bottom", "302", true]]);
+  assert.equal(a._ungradeMoves(u2), true);
+  assert.equal(JSON.stringify(a.moves), JSON.stringify({ "76/bottom": {} }), "a seat that was there, empty, is there again, empty");
+});
+
+test("a 'Did not' on a move you knew can lower the number, never the belt or its stripes; Undo restores the number exactly (L2-R1, ruling 7)", () => {
+  const { a } = app(), D = RATING_DAY, G = a._ratingGame("gi");
+  const [st, hand] = [...G.seats].find(([, h]) => [...h].some(([, w]) => typeof w === "number" && w > 0));
+  const mv = [...hand].find(([, w]) => typeof w === "number" && w > 0)[0];
+  a.moves = { [st]: { [mv]: [D + 300, 365, D - 65, 1, 365, 365] } };   // known for a year, not due
+  a._movesRev = (a._movesRev || 0) + 1;
+  const n0 = a.rating().points, belt0 = JSON.stringify(a.beltWorn()), path0 = JSON.stringify(a.wornBelt());
+  assert.ok(Number.isFinite(n0), "premise: the number is read");
+  const u = a._gradeMoves([[st, mv, false]]);
+  const n1 = a.rating().points;
+  assert.ok(n1 < n0, `the number dips, as a roll's No does (${n0} → ${n1}): the owner's rule is about the belt, not the number`);
+  assert.equal(JSON.stringify(a.beltWorn()), belt0, "the belt and its stripes are what they were");
+  assert.equal(JSON.stringify(a.wornBelt()), path0, "and the Path's own belt");
+  assert.equal(a._ungradeMoves(u), true);
+  assert.equal(a.rating().points, n0, "Undo restores the number exactly");
+  assert.equal(JSON.stringify(a.beltWorn()), belt0);
+});
+
+// THE RULE IS THE OUTCOME'S NODE (ruling 5), on the real wire, every seat of each ruleset's game and every move its hand
+// deals: the second line's kind (a place with a side, or a finish with none) against the wire's own outcome id, which
+// says it by its form (a role node ends in /top or /bottom; a submission and the end of the game do not).
+test("over the whole wire, both rulesets: a row's second line agrees with its outcome's node (a role node is a place with its side, only a submission a finish)", () => {
+  for (const frame of ["gi", "nogi"]) {
+    const a = ratingApp(DIR, frame), G = a._ratingGame(frame), n = { moves: 0, place: 0, finish: 0, control: 0, none: 0, lost: 0, unpriced: 0, unpricedSeats: 0 };
+    assert.ok(G && G.seats && G.seats.size > 100, frame + ": premise: the game's seats are read");
+    for (const [st, hand] of G.seats) {
+      const at = a._seatOf(st);
+      if (!at) continue;
+      const price = new Map([...hand].map(([mv, w]) => [String(mv), w])); let bare = 0;
+      for (const opt of a._dealtOpts(at.i, at.role) || []) {
+        const ord = String(a._ordById.get(a.siteIdOf(a.nodes[opt.idx].id)));
+        if (price.has(ord) && typeof price.get(ord) !== "number") bare++;   // dealt here, and the game does not price it (ruling 8's count)
+        n.moves++;
+        const act = a._actOf(opt), wire = ngClozeLeads(act && act.cal && act.cal.outcomes), s = {}, leads = ngClozeLeadsOf(a, opt, s);
+        if (!wire.length) { n.none++; assert.deepEqual(leads, [], st + ": no success outcome, nothing said"); continue; }
+        n.lost += s.czLost || 0;
+        assert.equal(leads.length + (s.czLost || 0), wire.length, st + " " + a.nodes[opt.idx].t + ": one lead an outcome, or counted as lost");
+        if (s.czLost) continue;
+        wire.forEach((o, i) => {
+          const l = leads[i], role = (/\/(top|bottom)$/i.exec(String(o.to)) || [])[1], what = st + " " + a.nodes[opt.idx].t + " → " + o.to;
+          if (role) {
+            assert.deepEqual([l.sub, l.role], [false, role.toLowerCase()], what + ": a role node is a place, with its side");
+            assert.equal(a.nodes[l.idx].ty, "positions", what);
+            n.place++; if (a.nodes[l.idx].cal && a.nodes[l.idx].cal.stateAlias) n.control++;
+          } else {
+            assert.deepEqual([l.sub, l.role], [true, null], what + ": a submission (or the end of the game) is a finish, no side");
+            n.finish++;
+          }
+        });
+      }
+      if (bare) { n.unpriced += bare; n.unpricedSeats++; }
+    }
+    console.log(`[cloze] ${frame}: ${n.moves} dealt moves read · places ${n.place} (of them ${n.control} a control position a submission is held from) · finishes ${n.finish} · no success outcome ${n.none} · not resolved ${n.lost} · dealt and not priced by this ruleset's game: ${n.unpriced} moves at ${n.unpricedSeats} seats`);
+    assert.ok(n.place > 0 && n.finish > 0, frame + ": both kinds were met (" + JSON.stringify(n) + ")");
+    assert.ok(n.control > 0, frame + ": and control positions among the places");
+    assert.equal(n.lost, 0, frame + ": every outcome of a dealt move resolves on this wire");
+  }
 });

@@ -19931,7 +19931,8 @@ fades in 180 ms, 120 ms after the name, not at all under reduced motion; what gi
 place's role, then the second place, never the first. "Had it?" marks a row. **Hide** puts the bars back and writes
 nothing (a view, never a grade; the taps are kept). **Done** writes one row a move, once a day, through the one writer
 (`_gradeMoves`, which a roll's hidden card now also uses: the row, the journal line, ONE revision, ONE republish, ONE
-save); a "did not" stores what a hidden move's No stores and never lowers the rating. Each asked move is one of the
+save); a "did not" stores what a hidden move's No stores, and on a move you knew it can lower the NUMBER exactly as a
+roll's No does (a belt and its stripes never go down: the owner's rule; L2-R1). Each asked move is one of the
 day's 20 (`practiceToday` adds `_movesToday`, the plan's own rule), on the page and on the drawer's badge. **Undo** on
 the result line takes the last confirm back exactly: every cell as it was (a cell or a state that was not there is gone
 again) and the answers out of the undelivered-answers journal (`unjournal`); the cloud push waits while it is offered
@@ -19964,3 +19965,28 @@ two names L1 retired and one version tag.
 
 **Bytes.** The cloze is `neural/src/master-cloze.src.js`, in the deferred gameplan.js. Both style sheets (the cloze's
 and the list's) ship with no space a browser does not need: the build strips comments, not a string's own spaces.
+
+**L2-R1 (the reader of PR #438: MERGE AFTER 4 fixes; and the orchestrator's rulings, 18 Nov).** The core held on CI's
+build by real input (a cloze's rows equal a roll's field by field; nothing written before Done in 28 whole-storage
+snapshots; the day's count right at nine readings; the map gave nothing away in 24 of 24). (1) **Undo is exact at a
+place that had no stored moves:** `_gradeMoves` read "the seat existed" per answer, so the second answer of a confirm
+at a new seat found the seat the first had made and its Undo left `"108/top":{}` behind (2 of 2). Decided once, before
+the loop. And the journal goes back whole (`journalMark`, `unjournal`'s third argument): no key where the confirm made
+the first, the same text, counter included, where one was there. What "exactly" leaves out is said and is two times
+(the record's `updatedAt`, the envelope's `savedAt`); the rest is compared whole, in units and on the page. (2) **The
+push's hold has its tests, and can never be outrun:** the real `_pushCloud` against a counting cloud that holds a
+record (no push while an Undo is offered; one after it ends, holding the rows; a confirm undone never reaches the
+cloud). Ruled: when the hold ends for ANY reason the Undo is withdrawn first (`_undoEnd`: the hidden tab, where the
+hold used to lapse with the Undo still on the line; the drawer shut; another session; the next confirm; the place
+left), so a confirm can never be sent and then undone here. (3) **Nothing moves under the finger at the first "Had
+it?":** the small line over the rows was two lines only while nothing was tapped (15.2 px); it is one sentence for
+both states. (4) **Undo's reach is at least 44 px each way** (it measured 39 tall: the first row lay over its lower 8 px;
+it stands above the row now), measured at its edges by `elementFromPoint` at both sizes. (5) **A control position is a place, not a finish:** the rule is the outcome's node. A position is drawn
+with its side's tag, the position a submission is held from included (59 dealt leads in gi, 52 in no-gi); only a
+real submission wears the triangle. (6) **The map says what it is doing while a cloze is hidden:** the hand's title
+reads "Your moves · face down while you answer" in the switch's place, with nothing to press (the switch wrote its
+setting while no card moved), and a card held down wears no badge ("Hover to reveal" offered what a hover could not
+give). (7) **One sentence of the brief was wrong and is corrected everywhere:** a "did not" on a move you knew can
+lower the number, as a roll's No does (the reader: 1003.47 → 1002.28); a belt and its stripes never go down, and Undo
+restores the number exactly (a unit). (8) My note "no gi hand holds such a cell" was wrong: in gi 11 seats deal 18
+moves the gi game does not price; the cloze builder's own guard is reached there, and now has a journey and a mutant.

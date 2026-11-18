@@ -4918,7 +4918,8 @@ class Component extends DCLogic {
     const flush = () => { try { if (this._progressLoaded) this._flushSave(); } catch (e) { /* durability is best-effort */ } };
     this._onPageHide = () => { flush(); this._stopSystemPreview(); this._csAbandon("pagehide"); };
     this._onVisHide = () => {
-      if (document.visibilityState === "hidden") { flush(); this._stopSystemPreview(); this._csAbandon("hidden"); }
+      // (L2-R1: an Undo offered when the tab is hidden is withdrawn BEFORE the flush that pushes: `_undoEnd`)
+      if (document.visibilityState === "hidden") { this._undoRelease(); flush(); this._stopSystemPreview(); this._csAbandon("hidden"); }
       else {
         // A TAB LEFT OPEN OVERNIGHT (v1.266.0): a known move dealt face up yesterday may be due today, and its answer
         // must not sit face up when the player comes back. Nothing else may re-read the day before the next deal, so
@@ -15742,7 +15743,8 @@ class Component extends DCLogic {
   }
   _paintHand() { for (const oc of this._optionCards || []) if (oc.card && oc.opt) this._paintCard(oc.card); }
   _hideCard(card) {
-    card.setAttribute("data-hide", NG_HIDE_HINT);
+    // (L2-R1, ruling 6: a card an open cloze holds down is not offered to a hover or a tap, so it does not say so: "cz")
+    card.setAttribute("data-hide", this._czHand() ? "cz" : NG_HIDE_HINT);
     this._cardAria(card);
     if (card._hm) return;
     card._hm = 1;
@@ -15879,6 +15881,17 @@ class Component extends DCLogic {
   // the switch's word, and the header hint's (NG_HIDE_HINT = "header", not shipped)
   _paintHideSwitch(title) {
     const sw = title && title.querySelector("[data-hide-switch]"); if (!sw) return;
+    // THE MAP SAYS WHAT IT IS DOING WHILE A CLOZE IS HIDDEN (L2-R1, ruling 6; design round 3; the reader's f and g: the
+    // title read "Your moves · Shown" over a hand held face down, and its switch wrote the setting while no card moved).
+    // In its place, words and no press; after Show and after the place closes the roll's own switch is back (`_czSync`).
+    const cz = this._czHand();
+    sw.disabled = cz; sw.style.cursor = cz ? "default" : "";
+    if (cz) {
+      sw.setAttribute("aria-label", "Moves face down while you answer"); sw.removeAttribute("title");
+      sw.innerHTML = '<span aria-hidden="true">\u00b7</span><span data-cz-words>face down while you answer</span>';
+      title.querySelector("[data-hide-hint]")?.remove();
+      return;
+    }
     const on = this._hideMoves(), word = on ? "Hidden" : "Shown";
     sw.setAttribute("aria-label", "Moves " + word.toLowerCase());
     sw.title = on ? "Show moves" : "Hide moves until I look";
@@ -15943,6 +15956,7 @@ class Component extends DCLogic {
   _czSync() {
     this._hmLit = new Set(); this._nm = null;
     for (const c of this._optionCards || []) if (c.card && c.opt) this._paintCard(c.card);
+    this._paintHideSwitch(this.optionsRef.current?.querySelector('[data-choice-group="you"] > div'));
   }
   // the cloze's view goes when a card opens or the place is left; its own code is master-list.src.js (deferred)
   _czClose(s) { const R = this._gameplanRuntime; if (s && s.czOpen != null && R && R.ngClozeClose) R.ngClozeClose(this, s); }
@@ -15966,8 +15980,14 @@ class Component extends DCLogic {
    */
   _gradeMoves(list) {
     const m = (this.moves = this.moves || {}), day = this._epochDay(), lines = [], prior = [], own = (o, k) => Object.prototype.hasOwnProperty.call(o, k);
+    // WHETHER A SEAT EXISTED IS DECIDED ONCE, BEFORE THE LOOP (L2-R1, the reader of PR #438, finding 1, 2 of 2). Read per
+    // answer, the second answer of a confirm at a new seat found the seat the first had made, so its Undo left that seat
+    // behind, empty: two new moves at a new place is the ordinary first cloze of any place. And the journal as it is
+    // stored now, for the Undo to put back whole (`unjournal`).
+    const had = new Set(Object.keys(m)), h = this._progressHost;
+    const mark = h && typeof h.journalMark === "function" ? h.journalMark(this) : undefined;
     for (const [st, mv, ok] of list) {
-      const state = own(m, st), row = state ? m[st] : (m[st] = {}), cell = own(row, mv), was = row[mv];
+      const state = had.has(st), row = own(m, st) ? m[st] : (m[st] = {}), cell = own(row, mv), was = row[mv];
       // the writer builds the whole row: the answer at [3], the schedule's pair at [4] (v1.281.0), and the cells a later
       // build added after the pair riding along (review R5)
       row[mv] = ngKnowledgeScheduleRow(was, ok, day, 4);
@@ -15979,28 +15999,31 @@ class Component extends DCLogic {
     this._movesRev = (this._movesRev || 0) + 1;
     this._publishKnowledge("moves");
     this._saveProgress();
-    return { prior, ids, wrote: lines.map((l) => [l[1], l[2], l[5]]) };
+    return { prior, ids, mark, wrote: lines.map((l) => [l[1], l[2], l[5]]) };
   }
   /**
    * UNDO OF THE LAST CONFIRM (L2, the orchestrator's ruling 4: "A mis-tap at Done must not send a year-old move back to
    * one day with no way back: his rule that no account loses progress"). Every cell `_gradeMoves` wrote goes back to what
    * it was, exactly: a cell or a state that did not exist is gone again, and the answers leave the journal (or the next
-   * merge would give them again). ONLY while each row is still the row that confirm wrote: a pull or another tab's merge
-   * that rebuilt one has taken it out of this copy's hands, and then nothing is undone (false). The cloud never saw the
-   * confirm: the push waits while the Undo is offered (`_undoHold`).
+   * merge would give them again), which goes back whole: no key where the confirm made the first. ONLY while each row is
+   * still the row that confirm wrote: a pull or another tab's merge that rebuilt one has taken it out of this copy's
+   * hands, and then nothing is undone (false). The cloud never saw the confirm: the push waits while the Undo is offered
+   * (`_undoHold`). WHAT "EXACTLY" LEAVES OUT, and nothing else: the two times of the save an Undo makes (the record's
+   * `updatedAt`, the stored envelope's `savedAt`). tests/master_cloze.test.mjs and master-cloze.spec.ts compare the rest whole.
    */
   _ungradeMoves(u) {
     const m = this.moves || {}, same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
     if (!u || !u.wrote.every(([st, mv, row]) => m[st] && same(m[st][mv], row))) return false;
     for (const [st, mv, state, cell, was] of u.prior) {
       if (cell) m[st][mv] = was; else delete m[st][mv];
-      if (!state && !Object.keys(m[st]).length) delete m[st];
+      if (!state && m[st] && !Object.keys(m[st]).length) delete m[st];
     }
     const h = this._progressHost;
-    if (h && typeof h.unjournal === "function" && u.ids && u.ids.length) h.unjournal(this, u.ids);
+    if (h && typeof h.unjournal === "function" && u.ids && u.ids.length) h.unjournal(this, u.ids, u.mark);
     this._movesRev = (this._movesRev || 0) + 1;
     this._publishKnowledge("moves");
-    this._undoRelease();
+    this._undoing = true;   // the cloze draws itself after its own Undo (`_undoEnd` repaints only a hold that lapsed)
+    try { this._undoRelease(); } finally { this._undoing = false; }
     this._saveProgress();
     return true;
   }
@@ -16008,15 +16031,28 @@ class Component extends DCLogic {
   // row the cloud holds beats the older row an Undo restores at the next pull (the merge keeps the later answer), so an
   // undone confirm would come back. LIFTERS, all of them (§6.5): the Undo itself; the cloze's own moves on (the next
   // confirm, the place left, the list: master-list.src.js); the drawer shut or another session (`_pushCloud` reads it);
-  // the page hidden (`_flushSave`'s callers). The local save is not held: a tab that dies keeps the confirm.
+  // the page hidden (`_onVisHide`, before its flush). The local save is not held: a tab that dies keeps the confirm.
+  // WHEN THE HOLD ENDS, FOR ANY REASON, THE UNDO IS WITHDRAWN FIRST (L2-R1, the orchestrator's ruling on the reader's
+  // finding 2): the hold lapsed in a hidden tab while the Undo stayed on the line, so a confirm could reach the cloud and
+  // then be undone here. One way out for every lifter, `_undoEnd`: each confirm of that session loses its Undo (the line
+  // is drawn again without it, and the confirm is final), and only then may a push go.
   // NOT COVERED: another tab or device that took the confirm in before the Undo gives it back at the next merge.
-  _undoRelease() { if (this._undoHold) { this._undoHold = null; if (this._pushCloud) this._pushCloud(); } }
-  // held only while that session's drawer is on screen: a hold whose session, drawer or page is gone lifts itself here,
-  // so nothing can hold a push for good
+  _undoEnd() {
+    const s = this._undoHold;
+    if (!s) return false;
+    this._undoHold = null;
+    let n = 0;
+    if (s.cz) for (const c of s.cz.values()) if (c.done && c.done.u) { c.done.u = null; n++; }
+    if (n && !this._undoing && this._session === s && this._sessionInline()) this._paintPractice(s);
+    return true;
+  }
+  _undoRelease() { if (this._undoEnd() && this._pushCloud) this._pushCloud(); }
+  // held only while that session's drawer is on screen: a hold whose session, drawer or page is gone ends here (its Undo
+  // with it), so nothing can hold a push for good
   _undoHeld() {
     if (!this._undoHold) return false;
     if (this._undoHold === this._session && this.deckShown && !document.hidden) return true;
-    this._undoHold = null;
+    this._undoEnd();
     return false;
   }
   // repaint ONE dealt card's EDGE channel in place — corner number, glyph and clock bar, all three

@@ -28,8 +28,11 @@ import { journey } from "../dsl"
  *   L2-c  the row written at the wrong index (a card's row form for a move)  → at "four of them a Yes"
  *   L2-d  the journal line dropped                                           → at "one journal line an answer"
  *   L2-e  a null cell asked as a move (the planner, practice-queue.src.js)   → UNITS: tests/practice_queue.test.mjs, "S0: a dealt move
- *         is priced by the game itself…" and "S0: on the real wire…". NOT a journey: no gi hand holds such a cell (the 62 are
- *         no-gi), and the hand's dealer drops such a move before the cloze's own guard is reached (that guard has no gate).
+ *         is priced by the game itself…" and "S0: on the real wire…".
+ *   L2-p  the cloze builder's own guard removed (a move the hand deals and this ruleset's game does not price is listed) →
+ *         "a move the hand deals and this ruleset's game does not price…" at "it is never in sight either". (L2-R1, ruling 8: my
+ *         first note said no gi hand holds such a move. Wrong: in gi 11 seats hold 18 dealt moves with no price, heel hooks
+ *         mostly, and the guard is reached there; no-gi holds none. Counted by tests/master_cloze.test.mjs, printed each run.)
  *   L2-f  the badge without moves                                            → at "and the badge's today counts the six moves"
  *   L2-g  the second line shown before Show                                  → at "a bar: no name, no second line, 36 px" and, in
  *         "where a move takes you…", at "<place>: no second line before Show"
@@ -46,8 +49,22 @@ import { journey } from "../dsl"
  *         press opens blanks to say: never a cloze already confirmed", 2 of 2 on the code before the fix)
  *   L2-o  the keys step off a cloze that is shown and not confirmed          → at "ArrowRight does not step off a cloze that is shown…"
  *   (L2-12a, the up and down keys, is master-list.spec.ts's.) The writer's own arithmetic is tests/master_cloze.test.mjs.
- * NOT COVERED here: a player on "Multiple choice" (no cloze until L4: tests/practice_queue.test.mjs pins the plan), the
- *   camera at Show and a row lighting its way (L2b), another tab or device taking a confirm in before its Undo.
+ * L2-R1 (the reader of PR #438 and the orchestrator's rulings, 18 Nov):
+ *   L2-R1a the seat's existence read per answer            → "new moves at a place the record holds nothing for…" at "Undo: the
+ *          seat the confirm made is gone, not left empty" (and two units)
+ *   L2-R1g Undo without its place above the first row      → "a cloze of six…" at "Undo is the control 21 px from its centre…"
+ *   L2-R1h the small line longer while nothing is tapped   → at "no row moves at the first Had it?"
+ *   L2-R1i a hidden tab leaves the Undo on the line        → "the tab hidden while an Undo is offered…" at "back on the tab: the
+ *          line has no Undo"
+ *   L2-R1j the hand's title keeps the roll's switch        → "the hand is face down…" at "the hand's title says what the map is doing"
+ *   L2-R1k a card a cloze holds down offers a reveal       → at "no face-down card says a hover reveals it, and none wears a badge"
+ *   (the push's hold, the journal put back whole and a control position as a place are units: tests/progress_owner.integration
+ *   .test.mjs L2-R1a to L2-R1f, tests/master_cloze.test.mjs L2-14)
+ * NOT COVERED here: a player on "Multiple choice" (no cloze until L4: tests/practice_queue.test.mjs pins the plan); a player
+ *   with no stored answer at all (the plan is the older order until a first answer: cards only); the camera at Show and a
+ *   row lighting its way (L2b); another tab or device taking a confirm in before its Undo; the push itself (a journey's
+ *   player is a guest: the units hold a cloud); the page's own article and clip titles beside the list, which can name a
+ *   move; which font face was drawn for the give-way measure; hit targets at 1440 beyond the ones measured here.
  */
 
 type W = any
@@ -92,6 +109,7 @@ async function setup(page: Page, opts: { at?: string; reduced?: boolean; cards?:
       out[k] = dl
     }
     a._movesRev = (a._movesRev || 0) + 1
+    a._saveProgress(); a._flushSave()   // the record is this player's stored one (L2-R1: a confirm and its Undo are compared on everything stored)
     if (at) a.rollFromPosition(a.nodeForKey(at), true, at.endsWith("|Bottom") ? "bottom" : "top")
     else a.setPaused(true)
     return out
@@ -142,6 +160,27 @@ const readSource = () => {
       if (f.endsWith(".json")) { try { const d = JSON.parse(readFileSync(resolve(ROOT, dir, f), "utf8")); if (d && typeof d.name === "string" && !out.has(d.name)) out.set(d.name, { kind, file: resolve(ROOT, dir, f) }) } catch { /* not a move's file */ } }
   return out
 }
+/** EVERYTHING STORED, every key of localStorage in order, with the two times a save writes taken out (the record's
+ *  `updatedAt`, the envelope's `savedAt`): what "exactly" leaves out after an Undo, and nothing else (L2-R1, finding 1) */
+const storedWhole = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural; if (a._flushSave) a._flushSave()
+  const out: Record<string, unknown> = {}
+  for (const k of Object.keys(localStorage).sort()) {
+    let x: W = localStorage.getItem(k)
+    try { x = JSON.parse(x) } catch { /* not JSON: kept as text */ }
+    if (x && typeof x === "object" && x.blob && typeof x.blob === "object") { delete x.savedAt; delete x.blob.updatedAt }
+    out[k] = x
+  }
+  return JSON.stringify(out)
+})
+/** hide the tab, then show it again, as the browser tells a page (coldstart-spine.spec.ts's way) */
+const tabAway = (page: Page) => page.evaluate(() => {
+  const set = (v: string) => { Object.defineProperty(document, "visibilityState", { configurable: true, get: () => v }); Object.defineProperty(document, "hidden", { configurable: true, get: () => v === "hidden" }); document.dispatchEvent(new Event("visibilitychange")) }
+  set("hidden"); set("visible")
+})
+/** the tops of the cloze's rows, to a tenth of a pixel */
+const rowTops = (page: Page) => page.locator("[data-cz-row]").evaluateAll((els) => els.map((e) => Math.round(e.getBoundingClientRect().top * 10) / 10))
+
 /** a transition's authored success outcomes, from the content source (NOT the wire): [to, probability] best first, ties in authored order.
  *  `title`: the move's full title (the row shows its own name, without the "from <position>" tail). null: not a transition */
 function authored(title: string): [string, number][] | null {
@@ -186,15 +225,21 @@ for (const touch of [true, false]) {
       await expect(page.locator("[data-cloze] .in")).toHaveText("Six moves start here. Say each one to yourself, then Show.Each blank is one move; each counts one toward today's 20.")
       await expect(page.locator("[data-cloze] .d2"), "the second line is absent before Show").toHaveCount(0)
       expect(await page.locator("[data-cloze]").innerText(), "no move is named before Show").not.toMatch(/Escape|Roll|Guard|Choke/)
-      const before = await owned(page)
+      const before = await owned(page), stored = await storedWhole(page)
       // SHOW, some taps, HIDE, SHOW: the taps are kept, and nothing is written
       await press(page, "[data-master-bar] [data-cz-show]", "Show", touch, false)
       rows = await rowsOf(page)
       for (const r of rows) expect([r.bar, !!r.name, r.h, r.tog], `${r.name}: a name, 44 px, its toggle`).toEqual([false, true, 44, "Had it?"])
       const names = rows.map((r) => r.name!)
+      // NOTHING MOVES UNDER THE FINGER AT THE FIRST "Had it?" (L2-R1, finding 3: the line over the rows was two lines only
+      // while nothing was tapped, and every row jumped 15 px): each row's top before the first tap, after it, after all four
+      const tops = await rowTops(page), small = await page.locator("[data-cloze] .in small").innerText()
       for (const i of [0, 1, 2, 4]) {
         await press(page, `[data-cz-row]:nth-of-type(${i + 2}) [data-cz-had]`, `Had it? on ${names[i]}`, touch, false)
+        if (i === 0) expect(await rowTops(page), "no row moves at the first Had it?").toEqual(tops)
       }
+      expect(await rowTops(page), "nor at the taps after it").toEqual(tops)
+      expect([small, await page.locator("[data-cloze] .in small").innerText()], "one small line for both states").toEqual(["Nothing tapped = not yet. Hide puts the blanks back.", "Nothing tapped = not yet. Hide puts the blanks back."])
       const tapped = (await rowsOf(page)).filter((r) => r.had).map((r) => r.name)
       expect(tapped, "the four tapped rows are gold").toEqual([names[0], names[1], names[2], names[4]])
       await expect(page.locator("[data-cloze] .in")).toContainText("Tap the ones you had. 4 so far.")
@@ -234,9 +279,17 @@ for (const touch of [true, false]) {
       expect(rows.filter((r) => r.had).every((r, i) => held[rows.indexOf(r)].row![0] - DAY >= 7), "a Yes on a move a week old comes back in a week or more").toBe(true)
       await expect(page.locator("[data-plan-goal]"), "the day's count reads the six").toContainText("6 of 20 today")
       await expect(page.locator("[data-badge-today]"), "and the badge's today counts the six moves").toContainText("Today: 6 of 20")
+      // UNDO'S REACH is at least 44 px each way, measured at its edges (L2-R1, finding 4: the first row covered its lower 8 px)
+      const reach = await page.locator("[data-cloze] .un").evaluate((el) => {
+        const r = el.getBoundingClientRect(), cx = r.left + r.width / 2, cy = r.top + r.height / 2
+        const is = (x: number, y: number) => document.elementFromPoint(x, y) === el
+        return { up: is(cx, cy - 21), down: is(cx, cy + 21), left: is(cx - 21, cy), right: is(cx + 21, cy), corners: [[-21, -21], [21, -21], [-21, 21], [21, 21]].map(([dx, dy]) => is(cx + dx, cy + dy)) }
+      })
+      expect(reach, "Undo is the control 21 px from its centre in every direction (a 44 px reach by elementFromPoint)").toEqual({ up: true, down: true, left: true, right: true, corners: [true, true, true, true] })
       // UNDO: the last confirm back, byte for byte, and the cloze shown again with its taps
       await press(page, "[data-cloze] .un", "Undo", touch, false)
       expect(await owned(page), "Undo restores what a player owns, byte for byte").toEqual(before)
+      expect(await storedWhole(page), "and everything stored, every key, is what it was before Done (the two save times apart)").toBe(stored)
       expect((await rowsOf(page)).filter((r) => r.had).map((r) => r.name), "the taps are kept").toEqual(tapped)
       await expect(page.locator("[data-master-bar] [data-cz-done]"), "and Done is offered again").toBeVisible()
       await press(page, "[data-master-bar] [data-cz-done]", "Done again", touch, false)
@@ -274,11 +327,10 @@ for (const touch of [true, false]) {
           const want = authored(title)!
           const [to, , ] = want[0], m = to.match(/^(.*)\/(Top|Bottom)$/)
           expect(m, `${r.name}: its authored success outcome is a seat (${to})`).not.toBeNull()
-          if (r.tri) {   // a finish: the control position a submission is held from; its triangle and its name, no role
-            expect([r.places[0], r.roles.length], `${r.name}: the finish, no role`).toEqual([m![1], 0])
-            expect(r.label, "its accessible name").toBe(`${r.name}, leads to the ${m![1]} finish`)
-            finishes++
-          } else {
+          // a move that leads to a position is a place with its side, the control position a submission is held from
+          // included (L2-R1, ruling 5): never the triangle. The whole wire is tests/master_cloze.test.mjs's.
+          expect(r.tri, `${seat} › ${r.name}: a move that leads to a position wears no triangle`).toBe(false)
+          {
             expect([r.places[0], r.roles[0]], `${seat} › ${r.name}: the place and the role, as authored`).toEqual([m![1], m![2].toLowerCase()])
             expect(r.label, "its accessible name").toBe(`${r.name}, leads to ${m![1]}, ${m![2].toLowerCase()}`)
           }
@@ -347,6 +399,88 @@ for (const touch of [true, false]) {
       await expect(page.locator(`${row} small`), "the row says nothing is due").not.toHaveText(/\d+ due/)
       expect(seen.length, "six different moves were asked").toBe(new Set(seen).size)
       expect((await owned(page)).done, "and each was one of the day's answers").toBe(6)
+    })
+
+    // UNDO IS EXACT AT A PLACE THAT HAD NO STORED MOVES (L2-R1, the reader's finding 1, 2 of 2): two new moves confirmed at
+    // a place the record holds nothing for, then Undo, left `"<seat>":{}` behind. The ordinary first cloze of any place.
+    test(`new moves at a place the record holds nothing for: Done, then Undo, leaves everything stored as it was (${tag})`, async ({ page }) => {
+      await setup(page, { goal: 60 })   // a goal that reaches past the thirty due moves, to a place with new ones
+      await openMaster(page, touch)
+      const fresh = await page.evaluate(() => {
+        const a = (window as W).__neural, s = a._session, n: Record<string, { seat: string; key: string; n: number }> = {}
+        for (const m of s.plan.moves || []) if (!a.moves[m.key]) { n[m.seat] = n[m.seat] || { seat: m.seat, key: m.key, n: 0 }; if (n[m.seat].key === m.key) n[m.seat].n++ }
+        return Object.values(n).find((x) => x.n >= 2) || null
+      })
+      expect(fresh, "premise: the plan asks two new moves at a place the record holds no move for").not.toBeNull()
+      const stored = await storedWhole(page), bar = "[data-master-dock] [data-master-bar]"
+      expect(JSON.parse(stored), "premise: the stored record holds no such seat").not.toHaveProperty(["bjj-neural-owner:guest:progress", "blob", "moves", fresh!.key])
+      await openCloze(page, fresh!.seat, touch)
+      await press(page, `${bar} [data-cz-show]`, "Show", touch, false)
+      await press(page, "[data-cz-row] [data-cz-had]", "Had it? on the first", touch, false)
+      await press(page, `${bar} [data-cz-done]`, "Done", touch, false)
+      const held = await page.evaluate((k) => Object.keys((window as W).__neural.moves[k] || {}).length, fresh!.key)
+      expect(held, "premise: the confirm made the seat, with its new rows").toBeGreaterThanOrEqual(2)
+      expect(await storedWhole(page), "premise: and it is stored").not.toBe(stored)
+      await press(page, "[data-cloze] .un", "Undo", touch, false)
+      expect(await page.evaluate((k) => k in (window as W).__neural.moves, fresh!.key), "Undo: the seat the confirm made is gone, not left empty").toBe(false)
+      expect(await storedWhole(page), "and everything stored, every key, is what it was (the two save times apart)").toBe(stored)
+    })
+
+    // WHEN THE HOLD ON THE CLOUD PUSH ENDS, THE UNDO IS WITHDRAWN FIRST (L2-R1, the orchestrator's ruling on finding 2): a
+    // hidden tab flushes and pushes, so a confirm could reach the cloud and then be undone here. Back on the tab the
+    // confirm is final: the line has no Undo. (The push itself is tests/progress_owner.integration.test.mjs's, with a
+    // cloud that holds a record; a journey's player is a guest.)
+    test(`the tab hidden while an Undo is offered: back on the tab the confirm is final, the line has no Undo (${tag})`, async ({ page }) => {
+      await setup(page)
+      await openMaster(page, touch)
+      await openCloze(page, "Mount|Bottom", touch)
+      const bar = "[data-master-dock] [data-master-bar]", before = await owned(page)
+      await press(page, `${bar} [data-cz-show]`, "Show", touch, false)
+      await press(page, `${bar} [data-cz-done]`, "Done", touch, false)
+      await expect(page.locator("[data-cloze] .un"), "premise: Undo is offered after Done").toBeVisible()
+      const done = await owned(page)
+      expect(done.done - before.done, "premise: six answers counted").toBe(6)
+      await tabAway(page)
+      await expect(page.locator("[data-cloze] .un"), "back on the tab: the line has no Undo").toHaveCount(0)
+      await expect(page.locator("[data-cz-plus]"), "the result line stands").toHaveText("+6 toward today’s 20")
+      expect(await owned(page), "and the confirm is as it was: nothing taken back").toEqual(done)
+      // the place's own steps still work, and a new confirm elsewhere offers its own Undo
+      await press(page, `${bar} [data-cz-next]`, "Next", touch, false)
+      await expect(page.locator('[data-cloze="Mount|Bottom"]')).toBeHidden()
+    })
+
+    // A MOVE THIS RULESET DOES NOT HOLD IS NEVER HIDDEN AND NEVER LISTED (ruling 1), on the page: in gi 11 seats deal 18
+    // moves the gi game does not price (heel hooks mostly). The planner never asks one (its own guard, a unit); the
+    // cloze's builder has a guard of its own for a row the record holds for one, which would otherwise stand "in sight".
+    test(`a move the hand deals and this ruleset's game does not price is never a bar and never in sight (${tag})`, async ({ page }) => {
+      await setup(page, { goal: 60 })
+      const bare = await page.evaluate((places: string[]) => {
+        const a = (window as W).__neural, d = a._epochDay(), game = a._ratingGame(a._giMode === "nogi" ? "nogi" : "gi")
+        for (const k of places) {
+          const i = a.nodeForKey(k), role = k.endsWith("|Bottom") ? "bottom" : "top", st = a._ordById.get(a.siteIdOf(a.nodes[i].id)) + "/" + role, hand = game.seats.get(st)
+          if (!hand) continue
+          const price = new Map<string, unknown>([...hand].map(([mv, w]: [unknown, unknown]) => [String(mv), w]))
+          for (const o of a._dealtOpts(i, role) || []) {
+            const ord = String(a._ordById.get(a.siteIdOf(a.nodes[o.idx].id)))
+            if (price.has(ord) && typeof price.get(ord) !== "number") {
+              (a.moves[st] = a.moves[st] || {})[ord] = [d + 20, 30, d - 10, 1, 30, 30]   // a Yes of ten days ago, not due: "in sight" if it were listed
+              a._movesRev = (a._movesRev || 0) + 1
+              return { seat: k, title: a.nodes[o.idx].t as string, st, ord }
+            }
+          }
+        }
+        return null
+      }, PLACES)
+      expect(bare, "premise: one of the five places deals a move this ruleset's game does not price").not.toBeNull()
+      await openMaster(page, touch)
+      await openCloze(page, bare!.seat, touch)
+      const asked = (await rowsOf(page)).filter((r) => r.kind === "ask").length
+      expect(asked, "premise: the place asks its six due moves").toBe(6)
+      await press(page, "[data-master-bar] [data-cz-show]", "Show", touch, false)
+      const held = await movesOf(page), rows = await rowsOf(page)
+      expect(held.map((m) => m.title).includes(bare!.title), `${bare!.title}: it is never a bar`).toBe(false)
+      expect(rows.filter((r) => r.kind === "solid").length, "it is never in sight either").toBe(0)
+      expect(rows.length, "the rows are the six asked").toBe(6)
     })
 
     // MOVES BEFORE CARDS AT A POSITION (S0's law), whichever way the place is entered: its row's press opens the cloze
@@ -447,6 +581,17 @@ test.describe("1440x900, mouse: the map beside an open cloze", () => {
     const open = await page.evaluate(() => { const a = (window as W).__neural; return { hand: (a._optionCards || []).length, down: (a._optionCards || []).filter((x: W) => x.card.hasAttribute("data-hide")).length } })
     expect(open.hand, "premise: the roll stands at Mount, bottom, its hand dealt").toBeGreaterThanOrEqual(6)
     expect(open.down, "premise: the hand is face up (rolls show their moves)").toBe(0)
+    // THE MAP'S OWN WORDS OVER THE HAND (L2-R1, ruling 6): the title's switch, and what a face-down card's badge says
+    const words = () => page.evaluate(() => {
+      const title = document.querySelector('[data-choice-group="you"] > div') as HTMLElement, sw = title.querySelector("[data-hide-switch]") as HTMLButtonElement
+      const down = [...document.querySelectorAll(".ng-choice-card[data-hide]:not([data-revealed])")]
+      const says = down.map((c) => { const b = c.querySelector(".ng-choice-badge"); return b ? getComputedStyle(b, "::after").content + "|" + getComputedStyle(b).visibility : "" })
+      // `sw`: the switch's own words (the title's other half says "Preparing…", "Calculating win chances…" or how the hand is sorted, by itself)
+      return { title: (title.textContent || "").replace(/\s+/g, " ").trim(), sw: (sw.textContent || "").replace(/\s+/g, " ").trim(), press: !sw.disabled, label: sw.getAttribute("aria-label"),
+        reveal: says.filter((x) => /reveal/i.test(x) && !/hidden$/.test(x)).length, badges: says.filter((x) => x && !/hidden$/.test(x)).length }
+    })
+    const roll = await words()
+    expect([/^Your moves ?· ?Shown/.test(roll.title), roll.press], `premise: the roll's own title and switch ("${roll.title}")`).toEqual([true, true])
     await openMaster(page, false)
     await openCloze(page, "Mount|Bottom", false)
     await j.advance(600)
@@ -454,6 +599,12 @@ test.describe("1440x900, mouse: the map beside an open cloze", () => {
     expect(m.hidden, "premise: six hidden moves").toBe(6)
     expect([m.down, m.cardNames], "the hand is face down, whole").toEqual([m.hand, 0])
     expect([m.named, m.marks], "the frame drew no name and no gold mark on a hidden move").toEqual([0, 0])
+    // the map says what it is doing: words in the switch's place, nothing to press, and no card offers a reveal a hover
+    // cannot give (nor does one card wear a badge the others do not)
+    let w = await words()
+    expect(/^Your moves ?· ?face down while you answer/.test(w.title), `the hand's title says what the map is doing ("${w.title}")`).toBe(true)
+    expect([w.press, w.label], "it is words, not a switch to press").toEqual([false, "Moves face down while you answer"])
+    expect([w.reveal, w.badges], "no face-down card says a hover reveals it, and none wears a badge").toEqual([0, 0])
     // a pointer on a hidden move's orb: no label
     const orb = await page.evaluate(() => {
       const a = (window as W).__neural, c = a._session.cz.get(a._session.czOpen), i = c.rows.find((r: W) => r.ask).idx, n = a.nodes[i], sc = a.W / a.cam.vw
@@ -472,11 +623,15 @@ test.describe("1440x900, mouse: the map beside an open cloze", () => {
     await j.advance(600)
     m = await map()
     expect(m.down, "after Show the hand is face up again").toBe(0)
+    w = await words()
+    expect([w.sw, w.press, w.label], "after Show the roll's own words and switch are back").toEqual([roll.sw, true, roll.label])
     await press(page, "[data-master-bar] [data-cz-hide]", "Hide", false, false)
     await j.advance(400)
     expect((await map()).down, "Hide turns it down again").toBe(m.hand)
     await press(page, "[data-master-list]", "back to the list", false, false)
     await j.advance(400)
     expect(await page.evaluate(() => ((window as W).__neural._optionCards || []).filter((x: W) => x.card.hasAttribute("data-hide")).length), "the place left: the hand is as it was").toBe(0)
+    w = await words()
+    expect([w.sw, w.press, w.label], "and the roll's own words and switch are back when the place is closed").toEqual([roll.sw, true, roll.label])
   })
 })
