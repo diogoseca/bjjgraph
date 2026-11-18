@@ -311,10 +311,19 @@ for (const touch of [false, true]) {
       await expect(page.locator('[data-master-row="Mount|Top"]'), "its row is marked").toHaveAttribute("data-on", "")
       // (the reader of PR #440 could not produce this one: Mount, top is a place this guest has been to, with nothing due)
       await expect(page.locator("[data-practice-section]"), "a been-to place with nothing due opens, as a free review").toContainText("free review")
-      // R4: that free review is the place's WHOLE deck (a later visit asks what is left of it): its figure counts every card
-      const whole = await page.evaluate(() => { const a = (window as W).__neural; return a._deckCardCount(a.flashcards.decks["Mount|Top"]) as number })
-      expect(whole, "premise: Mount, top has a deck of several cards").toBeGreaterThan(2)
-      await expect(page.locator('[data-master-row="Mount|Top"] [data-master-prog]'), "the free review holds the place's whole deck: its figure counts every card of it").toHaveText(`0/${whole}`)
+      // R4: what that free review asks, said as it is. The place's own deck, every card of it but those today's session
+      // already asks at another place (a question two decks share is asked once); a later visit asks what is left of it.
+      const fr = await page.evaluate(() => {
+        const a = (window as W).__neural, s = a._session, key = "Mount|Top", rows = s.plan.due.concat(s.plan.fresh)
+        const all = (a._cardsOf(a.flashcards.decks[key]) || []).map((c: W) => a.qhash(c.q) as string), mine = rows.filter((r: W) => r.key === key).flatMap((r: W) => r.questions as string[])
+        const elsewhere = new Set(rows.filter((r: W) => r.key !== key).flatMap((r: W) => r.questions as string[]))
+        return { whole: all.length, asked: mine.length, left: all.filter((q: string) => !mine.includes(q)), leftAskedElsewhere: all.filter((q: string) => !mine.includes(q) && elsewhere.has(q)),
+          figure: (document.querySelector('[data-master-row="Mount|Top"] [data-master-prog]') as HTMLElement | null)?.textContent ?? null }
+      })
+      expect(fr.whole, "premise: Mount, top has a deck of several cards").toBeGreaterThan(2)
+      expect(fr.figure, "the open place's figure is what the free review asks").toBe(`0/${fr.asked}`)
+      expect(fr.left, "the free review asks every card of the place's deck but those today's session asks at another place").toEqual(fr.leftAskedElsewhere)
+      expect(fr.asked, "and that is most of the deck").toBeGreaterThan(fr.whole / 2)
       expect((await page.evaluate(() => (window as W).__tracked)).filter((t: W) => t[0] === "neural_practice_opened").map((t: W) => t[1].surface), "one opening, its surface lastrolls").toEqual(["lastrolls"])
       expect(Object.keys(before).length, "premise: the record is read whole").toBeGreaterThan(15)
       expect(changed(before, await record(page)), "the press wrote nothing to the record").toEqual([])
