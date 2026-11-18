@@ -329,6 +329,46 @@ test('a press on the word before the values land does not stop the hand sorting 
   expect([s.status, s.press], 'and the slot says so').toEqual(['Sorted by win chance', null])
 })
 
+// THE KEY'S SHOW STEP IS A REACH INTO THE HAND (FOLLOW2-R1, v1.293.3; the reader of PR #443, its mutant M3). A digit whose
+// card is scrolled out of the row shows and marks it and plays nothing; the same digit again plays it
+// (option-reach.spec.ts). That second press is safe only if the hand cannot sort itself between the two. What stops it
+// is the mark itself: the keyboard's focus on the card reaches the tray's `focusin` latch. Nothing pinned that (every
+// reach journey pressed its first 7 after the hand had sorted): with the latch undone after the show, the values
+// landing re-sorted the hand and the second 7 played ANOTHER card than the one shown (the reader: 2 of 2). The values
+// here are dealt so that a sort would turn the hand right round (the last card the best), so the seventh place holds
+// another card after one.
+// Mutant, in the served bundle: `_showCard` ends by undoing the latch (`_handTouched = false; _autoSortedHand = null`)
+// → red at "the hand did not sort itself between the two presses".
+test('a digit that shows a card before the values land freezes the hand: the same digit again plays the card that was shown', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 })
+  await ready(page)
+  await installControlledProvider(page)
+  const before = await names(page)
+  expect(before.length, 'premise: the hand has a seventh card').toBeGreaterThanOrEqual(7)
+  const seventh = () => page.evaluate(() => {
+    const a = (window as any).__neural, card = a._optionCards[6].card as HTMLElement, r = card.getBoundingClientRect()
+    const at = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2)
+    return { tech: card.getAttribute('data-tech'), seen: !!at && card.contains(at), marked: document.activeElement === card.querySelector('[data-choice-execute]'), touched: !!a._handTouched }
+  })
+  const first = await seventh()
+  expect([first.tech, first.seen, first.marked, first.touched], 'premise: the seventh card is out of view, nothing is marked and the hand is untouched').toEqual([before[6], false, false, false])
+  expect((await slot(page)).status, 'premise: the win chances have not landed').not.toBe('Sorted by win chance')
+  await page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur())
+  await page.keyboard.press('7')
+  await expect.poll(async () => { const c = await seventh(); return [c.seen, c.marked] }, { message: 'the first 7 shows the seventh card and marks it' }).toEqual([true, true])
+  await expect(page.locator('[data-executing-tech]'), 'and plays nothing').toHaveCount(0)
+  // the win chances land now, between the two presses: the last card the best, so a sort would turn the hand round
+  const n = before.length, pending = await page.evaluate(() => (window as any).__neural._choiceFixture.pending.length)
+  await page.evaluate(({ i, values }) => (window as any).__neural._choiceFixture.resolve(i, values), { i: pending - 1, values: before.map((_, i) => 0.1 + 0.7 * i / (n - 1)) })
+  await expect.poll(() => wins(page), { message: 'premise: the values landed (the last card reads 80)' }).toContain('80')
+  expect(await names(page), 'the hand did not sort itself between the two presses').toEqual(before)
+  const s = await slot(page)
+  expect([s.press, s.act], 'the sort is offered, not applied').toEqual(['Sort by win chance', 'sort'])
+  await page.keyboard.press('7')
+  await expect(page.locator('[data-executing-tech]'), 'the same digit again plays a card').toHaveCount(1)
+  expect(await page.evaluate(() => { const a = (window as any).__neural, x = a._execution; return x && a.nodes[x.idx] ? a.nodes[x.idx].t : null }), 'and it is the card that was shown').toBe(before[6])
+})
+
 for (const mutate of ['role', 'ruleset', 'clock', 'profile']) {
   test(`${mutate} changed before refresh makes an old result inert`, async ({ page }) => {
     await ready(page); await installControlledProvider(page)

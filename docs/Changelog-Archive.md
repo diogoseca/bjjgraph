@@ -20310,3 +20310,114 @@ the shard count stays 4, as the file's comment says. Build and gen keep 25: neit
 **Not changed.** `e2e-gen.yml` (50), both deploys' gate step (20, the deploy gate budget's `timeout_min`, pinned by
 `tests/deploy_gate.test.mjs`) and `clips-verify.yml` (90, 85) are other jobs. No test, script or doc pinned 35 for the
 shard job; the comment above the limit carries the history.
+
+### v1.293.3, FOLLOW2: on a phone the film's bar is whole on the map; the home view keeps its way back to the film; an option is played only when the player can see it (18 Nov 2026)
+
+Three small things, the first found while building PR #441, the other two left by its reader.
+
+**The bar on the map.** With the drawer shut during a film on a phone the bar stood at -26 to 344 of 390, its dot and
+border off the screen, in every board state that has a landing card (a deck card, a staged board, a technique's card, a
+place with no cards, the hand put away, a roll from the bottom; whole only with the card dismissed; the same at the
+film's first and last step; 390x631 and 390x844, dev v1.293.0 and v1.293.1). `_layoutLandHorizontal` centres docked
+chrome on the landing card's column; a deck card keeps 52 px at its right for its paging control, so its column stands
+at 159 of 390; the bar is 370 px wide where the card is 358. And the card it followed is the reader's there
+(`data-reader-game-part`), no longer moved by that function. One clamp at that dock: chrome follows the column and is
+never off the screen, by its own width and the screen's edge. Desktop measured the same before and after ([638, 454,
+1158, 500] with the drawer open, [460, 454, 980, 500] shut). Under the bar lies only the film's own put-away hand.
+
+**The home view during a film.** The drawer opens on its home view, and since PR #441 the bar takes its room at the foot
+of whatever list shows: at 390x631 exactly where the "Last rolls" door stands (the reader: 5 of its 28 px showing; in
+the real app the door wholly under the bar). When the home view comes up while a film's bar stands in the drawer (the
+drawer's opening, the way home), its list is scrolled just far enough to show the door whole with 6 px of air
+(`_showFilmDoor`). Not at a payload's redraw. No row of the home view moves when the film stops or ends by itself: the
+rolls listed under the door are more than the bar's room, so the list keeps its scroll.
+
+**One condition, by reach.** "An option is played only when the player can see what they are playing", asked where the
+roads meet (`_optionReach` / `_playState`: `activateOption` and the reader's wrapper of it, which had its own copy of the
+guard). The roads, surveyed: the digits; a click on the card (mouse, touch, Enter or Space on the focused card: a click
+with `detail` 0). By key the card's middle must be what `elementFromPoint` finds: PR #441 had it by width, and the
+reader showed a card with its middle under the drawer played by its digit at 641; at 1440 the row shows five of a hand
+of 24 and the digits 6 to 9 played cards nobody could see. The phone's sliver, the two behaviours side by side (dev
+v1.293.1, 390x631, the drawer open): a touch on the map there shut the drawer, the roll resumed, nothing else; a touch
+on a card's end there PLAYED the card, the drawer still open. One thing now: a listener on the hand's row calls the
+map's own `closeDeckIfStudying` when the drawer is the screen, so a desktop's press beside the drawer is untouched
+(asserted at 641, a card half under the drawer's edge). A third case of the same rule, found surveying the bar: a
+film's put-away hand was still live (a card's buttons keep `pointer-events:auto` while the row is at a tenth and
+`pointer-events:none`): a touch on a dim card's title played the move and ended the film (390x844, 390x631, 1 of 1
+each). Put away now means not in play.
+
+**Ruled (FOLLOW2-R0).** I had built "a digit whose card is scrolled out of the row plays nothing"; that is right about
+seeing but takes away a keyboard player's road to the sixth card and on. As ruled: such a digit brings its card whole
+into the row's view and marks it (the keyboard's own focus on the card's play button, the outline it already draws),
+playing nothing; the same digit again, the card now seen, plays it; one press when the card is in view, as ever. Only
+for a card the row's own scroll has put out of view: a card under the drawer, a menu or a modal stays refused and is
+not moved. The mark lasts as long as a focus does (another key, a pointer, the hand dealt again). Accepted as built: a
+film's put-away hand is not in play for any road; while the drawer is the screen no key plays a card, even one whose
+middle shows in the strip.
+
+**Found, and ruled out of this PR.** A list scrolled to its very end when a film stops: the list gets the bar's 52 px
+back with nothing below to fill it, and the rows move down 52 px (Last rolls, 14 past rolls, scroll 277 of 277, the
+bar's ✕: 1 of 1). PR #441's rule in a corner its journeys do not reach; four more lifters are more state than the
+corner earns today. Named under "Not covered"; its own job if it shows up in use.
+
+**Two things measured on the way that a later reader of these journeys should know.** A touch within a few px of a
+control is the control's: with `isMobile` Chromium retargets a tap to a nearby clickable, and a first probe that tapped
+6 px from the drawer's edge reported "a touch on the map's sliver does nothing" (it had gone to a button). And `flow`
+files a played move under an id drawn afresh for every visit, so two visits' records differ in that key alone: they are
+compared by what is filed.
+
+**Bytes.** Eager gzip 376,716 B (+555 on v1.293.2; +3,243 of 5,000), first-hand core 396,212 B (+3,225 of 6,000), deferred
+548,649 B (-69: the reader's copy of the guard is gone). **Mutants, 14:43 to 14:49:** a control green (48 tests); G1 the
+clamp out, G2 the clamp with no air, D1 the home view does not show the door, R1 a key plays its card wherever it is
+(the first press plays), R2 a press on the hand in the sliver goes on to the card, R3 the drawer being the screen is no
+bar to a key, R4 a film's put-away hand still in play, R5 Enter on a focused card taken for a press, R6 the reader
+begins play before the question is asked, R7 the key marks its card and does not bring it into view, R8 it brings it
+into view and does not mark it, R9 a card under the drawer taken for one scrolled out of the row, R10 the same digit
+again does nothing: 13 of 13 red at their named steps.
+
+**After the reader (FOLLOW2-R1, the same PR).** The reader of PR #443, on CI's build of 1ea706b86, found no false refusal
+and no false play; MERGE AFTER 2 fixes, with two of its mutants surviving and one more ruling.
+
+- **The key's own show step stranded the first card.** With the drawer open beside the board the hand's row box starts
+  UNDER the drawer, and its left padding is what keeps the cards clear of it. "Scrolled out of the row" was asked against
+  the row's border box, so after a show step (6 at 1440: the row scrolled 187 px) the first card stood half under the
+  drawer, in a strip that was "inside the row": its digit did nothing at all (1440, 1024, 641: 3 of 3; on dev it
+  played), while a press on its showing end played it. Ruled: a card the row's own scroll can bring whole into the part
+  its cards are dealt into is shown, not refused; refused stays for what scrolling the row cannot cure. One box
+  (`_handView`) is what the question and the scroll both read now. The 641 journey's step "nor is it brought out from
+  under the drawer" became "it is brought back and marked; the same digit again plays it".
+- **A held key played the card it had just shown**, at the first auto-repeat (40, 250 and 500 ms: 3 of 3). A repeat
+  never acts: `optionKeyIndex` reads `e.repeat`, and the card's own listener asks a flag the window keeps
+  (`_keyRepeat`: Enter on a focused card is a click with no pointer, and a click carries no `repeat`). It also ends
+  dev's habit of a held digit playing on into the next hand. No journey held a key down.
+- **The two surviving mutants have their steps.** The show step not freezing the hand: the mark's focus reaching the
+  tray's `focusin` latch is all that stops the hand's one automatic sort between the two presses, and with it undone the
+  second 7 played another card than the one shown (choice-value.spec.ts, the values landed between the presses). The
+  show step scrolling to the row's box, not to the part its cards are dealt into: the 1440 journey, the drawer open.
+- **Ruled: the bar's seat beside a board too narrow for it.** FOLLOW2's clamp also acts on a window wider than a phone
+  and narrower than 912 px with the drawer open, and there the bar lay across the drawer. By mouse on a real film, the
+  drawer open, dev v1.293.2: at 641 [202.5, 722.5] (157.5 px of the drawer, its ✕ off the screen), at 768 [266, 786]
+  (94 px, the ✕'s end off the screen), at 900 [340, 860] (20 px), at 911 [351, 871] (9 px); the first cut of this PR at
+  641 [105, 625] (255 px, the reader). Now a row at the drawer's foot, [12, 671, 347, 717], wherever the board beside
+  the open drawer is narrower than the bar and its two margins: 641, 768, 900 and 911. From 912 it is on the map, the
+  same as dev to 0.1 px: 912 [352, 872] (8 px over the drawer's edge on both: a bar following a wide card's column, up
+  to 919), 920 [360, 880], 1024 [430, 950], 1440 [638, 1158]. No second breakpoint: the bar's width on the map is READ
+  from the stylesheet (written as a width and a `max-width` where it was a `min()`), the drawer's from `sbOffset`.
+- **The reader's point 7a, measured and closed without a ruling** (said so in the report). `_showFilmDoor` scrolled
+  the home list to the door however far down it was: with Positions left open on a phone, the way home during a film
+  came up 3,614 px down, at the list's foot (dev: at its top). The door is brought up only when the bar's coming is what
+  hides it (it would stand whole above the account's foot without the bar). This PR's own function over-reaching its
+  brief, and the seat above widens where it acts.
+- **One mutant survives, recorded** (history-replay.spec.ts, T4): a new bar asked before it is in the page finds no
+  cap and takes the open drawer's seat at any width; the film's start renders its bar twice in one task, so no frame
+  shows it. The line is kept so that the first seat is right by itself.
+- **Named, not built:** a dim card's video button still opens the clip theater during a film, and the theater covers
+  the bar's ✕ until Escape (dev's own; the reader, 4 of 4); on a mouse window of a phone's width a drag in the strip
+  beside the drawer is swallowed as a drag and still shuts the drawer (the reader's 7b, read in code, not measured).
+
+**Bytes after R1.** Eager gzip 376,871 B (+710 on v1.293.2; +3,398 of 5,000), deferred 548,649 B. **Mutants, 16:52 to
+17:03:** a control green (80 tests); 23 planted, 22 red at their named steps: G1, G2, D1 as before; D3 the door brought
+up however far down; R1 to R12 the reach rule (R9 now "asked against the row's border box", R11 a held digit's repeat
+acts, R12 a held Enter's); R13 the show step scrolls to the row's box; R14 it does not freeze the hand; T1 the seat asks
+the phone's width only; T2 no room at any width; T3 a resize re-seats only across the phone's breakpoint; T5 the phone's
+rule does not lift the cap. T4 survived (above).

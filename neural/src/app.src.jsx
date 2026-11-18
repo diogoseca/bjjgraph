@@ -1112,6 +1112,20 @@ class Component extends DCLogic {
         if (dragMoved > 6) { e.stopPropagation(); e.preventDefault(); }
         dragMoved = 0;
       }, true);
+      // THE SLIVER BESIDE THE OPEN DRAWER BEHAVES AS ONE THING (FOLLOW2, v1.293.3). On a phone the drawer is the screen
+      // and leaves a strip of the board showing. A touch on the MAP there is the drawer's way out: it shuts the drawer,
+      // the roll it held resumes, and that is all it does (`closeDeckIfStudying`, pane law). The ends of two of the hand's
+      // cards show in that strip too, and a touch on one PLAYED it, the drawer still open over the board (the reader of
+      // PR #441 at (365,339); measured again on v1.293.1). A press on the hand there now does what the map does beside
+      // it, by the map's own function, and nothing else: no card is played, turned up or opened. Capture phase, on the
+      // row, so it holds for a card, its buttons and the row's own controls alike. Not a key (`detail` 0: Enter on a
+      // focused card goes on to `activateOption`, which refuses it), and never on a desktop, where the drawer stands
+      // beside the hand (`sbOffset`): a press beside it plays, as it always did.
+      orow.addEventListener("click", (e) => {
+        if (e.detail === 0 || !this.deckShown || this.sbOffset() !== 0) return;
+        e.stopPropagation(); e.preventDefault();
+        this.closeDeckIfStudying();
+      }, true);
     }
     // modal: card blocks pan + wheel; backdrop click closes
     if (this.modalCardRef.current) { this.modalCardRef.current.addEventListener("pointerdown", (e) => e.stopPropagation()); this.modalCardRef.current.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
@@ -1239,20 +1253,17 @@ class Component extends DCLogic {
         if (e.shiftKey) return; // the visible quiz also owns shifted versions of its answer keys
         const mbtns = this.drillListRef.current ? this.drillListRef.current.querySelectorAll("[data-mc-opt]") : [];
         const mb = mbtns[parseInt(e.key) - 1]; if (mb) mb.click();
-      } else if (!typing && this.optionKeyIndex(e) >= 0 && this._optPick && this._optList && (!this._rollHand || this._rollHand.mounted) && !this._checkpoint && this.get("cardNumbers", true) && this._handShown() && !(this.deckShown && this.isMobile()) && !this.optionsRef.current?.hasAttribute("data-reader-pending")) {
+      } else if (!typing && this.optionKeyIndex(e) >= 0 && this._optPick && this._optList && (!this._rollHand || this._rollHand.mounted) && !this._checkpoint && this.get("cardNumbers", true) && this._handShown() && !this.optionsRef.current?.hasAttribute("data-reader-pending")) {
         // A hidden hand cannot act, nor one the reader has not published (D-351); a checkpoint
         // owns the keys even above its answer count.
         // A KEY TAKES THE ROAD ITS PRESS TAKES (FOLLOW1, v1.293.1). The digits are the only keys that act on the roll while
-        // the drawer holds it (the survey: 14 key listeners in the build inputs and this ladder's 14 branches, read whole;
+        // the drawer holds it (the survey, at v1.293.1: 14 key listeners in the build inputs and this ladder's 14 branches,
+        // read whole; FOLLOW2-R1 added a fifteenth listener, the keyup that ends a repeat, which acts on nothing;
         // A to C, Enter, Space, P, the arrows and the paging keys are each scoped to the drawer's own surface or stand down
         // with the landing card). Where the drawer stands BESIDE the board the card can be pressed, the press plays it, and
-        // so does its digit: one function, and the drawer's claim on the clock ends with the move (`setPaused`). Where the
-        // drawer IS the screen (a phone's width, `isMobile`) it covers the hand: at 600 and at 640 wide no card can be
-        // reached by a press (0 of 18, the reader of PR #441), and a digit played one anyway, unseen, behind the drawer
-        // (600 wide, 1 of 1). There the digit does nothing. AS IT IS, NOT TIDIER: at 390 the drawer is 343 px wide and the
-        // ends of two of the hand's cards show beside it; a touch on one plays it with the drawer open, on dev and here
-        // alike, while its digit is refused. The rule here is by WIDTH, not by reach; one condition by reach, for a
-        // digit, a click and a touch at `activateOption`, is the next job's (FOLLOW2).
+        // so does its digit: one function, and the drawer's claim on the clock ends with the move (`setPaused`).
+        // WHETHER A DIGIT PLAYS ITS CARD IS ASKED BY REACH, AT `activateOption` (FOLLOW2, v1.293.3; `_optionReach`): PR
+        // #441 refused it here by width (640 and under), and the reader showed where width is not reach.
         // Q007: an open checkpoint quiz owns the keyboard — digits above the MC option
         // count must never fall through to the roll's option-card openers (a '5' opened
         // the expand sheet and Enter then COMMITTED the roll under the live quiz)
@@ -1260,14 +1271,19 @@ class Component extends DCLogic {
         // card plays through the reader's activateOption (beginPlay), so an intent gate left only the keyboard dead
         // there: the plain digit is the owner's play (v1.218.1; submission-choices' triangle defender).
         const opt = this._optList[this.optionKeyIndex(e)];
-        if (opt && !this._reader?.interacting) { e.preventDefault(); const oc = (this._optionCards || []).find((c) => c.opt === opt); this.activateOption(opt, this._optPick, oc && oc.card); }
+        if (opt && !this._reader?.interacting) { e.preventDefault(); const oc = (this._optionCards || []).find((c) => c.opt === opt); this.activateOption(opt, this._optPick, oc && oc.card, undefined, true); }
       }
     };
     window.addEventListener("keydown", this._onKey);
     // LAST INPUT MODALITY, one latch, two writers. Capture phase so no stopPropagation can starve
     // it — several overlays swallow pointerdown on purpose (§6.1). Read by the pane's focus
     // restore above; keep it that cheap, it runs on every event.
-    window.addEventListener("keydown", () => { this._kbNav = true; }, true);
+    // ...and whether the key now down is a REPEAT (`_keyRepeat`): Enter on a focused card is a click with no pointer, and
+    // a click carries no `repeat`, so the card's own listener asks here (FOLLOW2-R1: a held Enter must not play the
+    // card it has just shown, nor play on into the next hand). LIFTERS: the next keydown (it writes the flag again) and
+    // any keyup, so the flag is set only while a key is held and repeating.
+    window.addEventListener("keydown", (e) => { this._kbNav = true; this._keyRepeat = !!e.repeat; }, true);
+    window.addEventListener("keyup", () => { this._keyRepeat = false; }, true);
     window.addEventListener("pointerdown", (event) => {
       this._kbNav = false;
       // Track before the deferred reader exists too: adopting or resizing a
@@ -3785,7 +3801,7 @@ class Component extends DCLogic {
     const open = this.deckReady && this.deckOpen;
     const wasShown = this.deckShown;
     this.deckShown = open;
-    if (open !== wasShown) this._seatReplayBar();   // a film's bar stands in the drawer on a phone, on the map otherwise (FOLLOW1)
+    if (open !== wasShown) this._seatReplayBar();   // a film's bar stands in the drawer where it cannot stand whole beside it, on the map otherwise (FOLLOW1; FOLLOW2-R1)
     if (!open) this._searchAsked = false;   // the search row's "asked for" ends with the panel (`_syncExploreTools`)
     // The pane owns landing shortcuts until it closes; exposed pointer controls remain live.
     // Lifter: every close path passes through this same visibility seam, including study.
@@ -3963,7 +3979,36 @@ class Component extends DCLogic {
     if (!this.deckShown || this._paneStudyActive()) return;
     this._paintBadge(); // exiting a study surface repaints today's numbers
     if (this._viewMode === "history") { this._pathDim = false; this.clearFocus(); this.renderDrillHome(); }
-    else this.renderExplorer();
+    else { this.renderExplorer(); this._showFilmDoor(); }
+  }
+  /**
+   * WHILE A FILM'S BAR STANDS IN THE DRAWER, THE HOME VIEW SHOWS ITS WAY BACK TO THE FILM'S LIST (FOLLOW2, v1.293.3). The
+   * drawer opens on its home view, and the bar takes its room at the foot of whatever list shows (`_seatReplayBar`). At
+   * 390x631 that is exactly where the "Last rolls" door stands (the reader of PR #441: 5 of its 28 px showed and a touch
+   * at its middle landed on the bar; in the real app the door lay wholly under it), and that door is the way back to the
+   * list the film was started from. When the home view comes up during a film (the drawer's opening, the way home from a
+   * view), its list is scrolled just far enough to show that door whole. No finger is on a row then.
+   * NOT WHEN A PAYLOAD REDRAWS THE LIST (`renderExplorer` runs for those too): a player who has scrolled elsewhere is
+   * left there. NO ROW MOVES WHEN THE FILM STOPS: the list gets the bar's room back at its end and keeps its scroll; the
+   * rolls listed under the door are more than that room, so the browser has nothing to pull back (pinned on the home
+   * view by history-replay.spec.ts).
+   * ONLY WHEN THE BAR'S COMING IS WHAT HIDES THE DOOR (FOLLOW2-R1; the reader of PR #443 read it in the code, then
+   * measured here): the door is brought up when it would stand whole in the list without the bar's room, that is above
+   * the account's foot. A list the player left with a long section open has its door thousands of px down, bar or no
+   * bar: the first cut scrolled all that way, and the way home during a film came up at the list's FOOT (390x631,
+   * Positions open: scrolled 3,614 px, the "Explore" head 3,494 px above the screen; on dev at its top). That list is
+   * left where the home view puts it. It matters more since the bar also sits in the drawer beside a board too narrow
+   * for it (`_seatReplayBar`), where sections are left open as a matter of course.
+   */
+  _showFilmDoor() {
+    const bar = this._replayEl, list = this.explorerListRef.current;
+    if (!bar || !bar.hasAttribute("data-in-drawer") || !list || list.offsetParent === null) return;
+    const door = list.querySelector('[data-view="history"]'); if (!door) return;
+    const d = door.getBoundingClientRect(), l = list.getBoundingClientRect(), foot = bar.nextElementSibling;
+    if (foot && d.bottom > foot.getBoundingClientRect().top) return;   // not the bar's doing: it was out of view without it
+    // (whole pixels, and 6 px of air: a scroll offset is an integer, and a door flush against the bar reads as cut)
+    if (d.bottom + 6 > l.bottom) list.scrollTop += Math.ceil(d.bottom + 6 - l.bottom);
+    else if (d.top < l.top) list.scrollTop -= Math.ceil(l.top - d.top);
   }
   // exit an active study surface back to tabs mode on the given (or remembered) tab
   // ‹ BACK FROM A CHECKPOINT STARTED IN MASTER THE GAME'S CORRIDOR RETURNS THERE (PATH-R1, ruling 4; the reader of #430
@@ -8756,6 +8801,7 @@ class Component extends DCLogic {
     if (this._conceptId || this._systemId) this.clearFocus();   // a page owned the list; a lit list is not a page
     this.showExplorerList();
     { const l = this.explorerListRef.current; if (l) l.scrollTop = 0; } // home is the top of the list
+    this._showFilmDoor();   // ...unless a film's bar stands in the drawer: then its way back to the film's list shows (FOLLOW2)
     this.fx("pane_tab_home", { tab: "explore" });
     this.lastInteract = this.now;
     return true;
@@ -14565,6 +14611,8 @@ class Component extends DCLogic {
   // pane, where a bottom control would be unreachable; there they centre on the free area
   // instead, which is the viewport's centre whenever the pane is shut, i.e. where they were.
   // Pinned by `e2e/journeys/layer-dock-centre.spec.ts`.
+  /** the air root-plane chrome keeps at the screen's edge: the 10 / 16 px the stylesheet's own widths leave (`100vw - 20px` on a phone, `100vw - 32px`) */
+  _chromeEdge() { return this.isMobile() ? 10 : 16; }
   _layoutLandHorizontal() {
     // (CARDWIDTH retired the deck nav's `data-index` flag that stood here: Previous no longer moves to the right lane beside the
     // index, because it sits inside the grid on its own side now; helmet.html, .ng-landnav.)
@@ -14576,7 +14624,8 @@ class Component extends DCLogic {
     if (!card && !film && !chrome.length) return;
     const compact = this._compactLandDeck();
     const anchor = card || film;
-    const gutter = card && card.classList.contains("ng-land-deck") ? 52 : (this.isMobile() ? 10 : 16);
+    const edge = this._chromeEdge();
+    const gutter = card && card.classList.contains("ng-land-deck") ? 52 : edge;
     // Every width is READ before any `left` is written, so a frame costs one layout, not one per
     // element. An element that has not laid out yet measures 0 wide: that is SKIP (no clamp),
     // never a constraint.
@@ -14585,7 +14634,20 @@ class Component extends DCLogic {
     // The short-landscape composition already fills the viewport's width. Its two columns
     // travel as a group, so there is no horizontal slack; the pane covers its left column.
     const center = compact ? W * .28 : anchor ? fit(anchor) : 0;
-    const chromeAt = chrome.map((el) => (anchor && !compact ? center : fit(el)));
+    // CHROME FOLLOWS THE COLUMN, AND IS NEVER OFF THE SCREEN (FOLLOW2, v1.293.3). The column's centre is clamped for the
+    // CARD: a deck card keeps 52 px at its right for its paging control, so on a phone the column stands left of the
+    // middle (390 wide, a 358 px card: 159, not 195). The film's bar rode that centre with its own width (370 px, the
+    // phone's `100vw - 20px`) and stood at -26 to 344: its left end, the dot and the border, off the screen, in every
+    // board state that has a landing card (measured at 390x631 and 390x844 on dev v1.293.0 and v1.293.1: a deck card, a
+    // staged board, a technique's card, a place with no cards, the hand put away; whole only with the card dismissed).
+    // And the card it was following is the reader's there (`data-reader-game-part`): this function no longer moves it,
+    // so the legacy column moved nothing but the chrome. One clamp, by the element's OWN width and the screen's edge
+    // (the 10 / 16 px the stylesheet's own widths leave), wherever the column is: where chrome was whole it does not
+    // move (a desktop: measured the same before and after), and a width of 0 is still SKIP.
+    const chromeAt = chrome.map((el) => {
+      const at = anchor && !compact ? center : fit(el), half = el.offsetWidth / 2;
+      return half ? Math.max(edge + half, Math.min(at, W - edge - half)) : at;
+    });
     for (const el of [card, this._landStackEl, this._landNavEl]) {
       if (el && !el.hasAttribute("data-reader-game-part")) el.style.left = center + "px";
     }
@@ -15789,7 +15851,12 @@ class Component extends DCLogic {
     // activateOption, so keys 1-9 (which call activateOption directly) still play blind and the
     // reader's beginPlay wrapper never sees a reveal as a play. Read at click time: the setting
     // can be switched on under a dealt hand (`_syncHideMoves`).
-    card.addEventListener("click", (e) => { if (card.hasAttribute("data-hide") && this._hideTap(card, e)) return; this.activateOption(opt, onPick, card); });
+    card.addEventListener("click", (e) => {
+      const key = e.detail === 0;   // Enter or Space on the focused card: a click with no pointer
+      if (key && this._keyRepeat) return;   // a held key's repeat never acts (`_keyRepeat`, attachInput)
+      if (card.hasAttribute("data-hide") && this._hideTap(card, e)) return;
+      this.activateOption(opt, onPick, card, undefined, key);
+    });
     (this._optionCards = this._optionCards || []).push({ node: n, card, bar: card.querySelector(".ngbar"), opt, num, esc: isEsc });
     return card;
   }
@@ -19456,18 +19523,32 @@ class Component extends DCLogic {
    * point ran the film on, 3 of 3; on the second row it started the FIRST roll's film, 3 of 3), and when a film ended by
    * itself with a row open the next state's row stood under both of its actions (3 of 3). A row at the list's foot
    * when the bar comes leaves the view (the list ends 44 px sooner); it is never under the bar.
-   * Its ✕ is then a drawer control like any other (the drawer's own press and swipe rules). Desktop is unchanged: the
-   * drawer is beside the map there and the bar stays on the map.
+   * Its ✕ is then a drawer control like any other (the drawer's own press and swipe rules).
+   * AND WHEREVER THE BAR CANNOT STAND WHOLE BESIDE THE OPEN DRAWER (FOLLOW2-R1, ruled after the reader of PR #443): a
+   * window wider than a phone whose board beside the drawer is narrower than the bar and its two margins. There the
+   * dock put the bar across the drawer: at 641 wide over 255 of the drawer's 360 px (156 on dev, where its ✕ was wholly
+   * off the screen instead). Asked by geometry, with no second breakpoint: the screen's width less the drawer's
+   * (`sbOffset`) against the bar's own width on the map, which is READ from the stylesheet (`max-width`, whichever seat
+   * the bar is in) and its margins (`_chromeEdge`, the dock's own). With a 360 px drawer and a 520 px bar that is 911 px
+   * and under. From 912 up the bar is on the map as it was (a bar following a wide card's column can still lie a few px
+   * over the drawer's edge up to 919, as on dev: the dock's own question, left as it is).
    * CALLED BY every change of what decides it: the bar's render (a film's start and each of its steps), the drawer's
-   * opening and closing (`applyDeckVisibility`), and a resize across the phone's breakpoint (`resize`). `data-in-drawer`
-   * is what the stylesheet reads (helmet.html, `.ng-replaybar[data-in-drawer]`); the dock never runs on a bar in the
-   * drawer (an element in the flow has no `bottom` to measure).
+   * opening and closing (`applyDeckVisibility`), and every `resize`. `data-in-drawer` is what the stylesheet reads
+   * (helmet.html, `.ng-replaybar[data-in-drawer]`); the dock never runs on a bar in the drawer (an element in the flow
+   * has no `bottom` to measure).
    */
   _seatReplayBar() {
     const el = this._replayEl; if (!el) return;
-    const pane = this.drillRef.current, foot = pane && pane.querySelector(".ng-acctwrap");
-    const inDrawer = !!foot && foot.parentNode === pane && this.deckShown && this.isMobile();
-    const root = this.__ngRoot || document.body;
+    const pane = this.drillRef.current, foot = pane && pane.querySelector(".ng-acctwrap"), root = this.__ngRoot || document.body;
+    // A new bar has no style to read until it is in the page: asked before, it would find no cap and take the open
+    // drawer's seat at any width. (Today the film's start renders the bar twice in one task, so that seat would be put
+    // right before a frame is drawn, and no journey can see this line: its mutant survives, recorded in
+    // history-replay.spec.ts. It is kept so that the seat is right at the first call, not by a second.)
+    if (!el.isConnected) root.appendChild(el);
+    const W = this.W || window.innerWidth, edge = this._chromeEdge();
+    const wide = Math.min(parseFloat(getComputedStyle(el).maxWidth) || W, W - 2 * edge);   // the bar's width on the map ("none" on a phone: the screen's)
+    const noRoom = this.isMobile() || W - this.sbOffset() < wide + 2 * edge;
+    const inDrawer = !!foot && foot.parentNode === pane && this.deckShown && noRoom;
     if (inDrawer) { if (foot.previousElementSibling !== el) foot.before(el); }
     else if (el.parentNode !== root) root.appendChild(el);
     el.toggleAttribute("data-in-drawer", inDrawer);
@@ -20324,12 +20405,89 @@ class Component extends DCLogic {
     if (d.remaining <= 0) this._expireLandQ();
   }
   // v1.230.0 reverses v1.218.1's shifted-digit Inspect route.
+  // A REPEAT NEVER ACTS (FOLLOW2-R1; the reader of PR #443, finding 2). A key held down sends `keydown` again and again
+  // with `repeat` set, and nothing on the digit's road read it: the digit that had just SHOWN its card played it at the
+  // first auto-repeat (40, 250 and 500 ms after the first: 3 of 3), so the second press was not a press. It also ends a
+  // habit dev had: a digit held a little long played on into the next hand, and into the deck's next question (this
+  // function names both). No journey holds a key down (`keyboard.down`: 0 in e2e).
   optionKeyIndex(e) {
-    if (e.shiftKey || e.altKey || e.ctrlKey || e.metaKey) return -1;
+    if (e.repeat || e.shiftKey || e.altKey || e.ctrlKey || e.metaKey) return -1;
     return /^[1-9]$/.test(e.key || "") ? Number(e.key) - 1 : -1;
   }
-  activateOption(opt, pick, card) {
-    if (!opt || opt.threat || this._filmTheater || this._execution || this._checkpoint || (this._rollHand && !this._rollHand.mounted)) return;
+  /**
+   * AN OPTION IS PLAYED ONLY WHEN THE PLAYER CAN SEE WHAT THEY ARE PLAYING (FOLLOW2, v1.293.3). One condition, asked where
+   * every road that plays an option meets (`_playState`, below: `activateOption` asks it, and the reader's wrapper of it
+   * asks `_canPlay`, the same question's yes or no).
+   * THE ROADS, surveyed (`grep` over the build inputs, each read): the digits 1 to 9 (the window's key ladder); a click on
+   * the card (a mouse, a touch's click, and Enter or Space on the focused card: a click with no pointer, `detail` 0);
+   * nothing else. (`pickFirstEscape` has no caller in the app; there is no "suggested" button.)
+   *   · NOT WHILE THE DRAWER IS THE SCREEN (a phone's width, the drawer open): the hand is under it, and what shows beside
+   *     it is the drawer's way out, not a hand. By any road. (A PRESS there never gets this far: the row's own capture
+   *     listener shuts the drawer, as a touch on the map's sliver does; `attachInput`.)
+   *   · NOT WHILE A FILM HAS PUT THE HAND AWAY (`_traySup`: the row at a tenth of its strength, `pointer-events:none`). The
+   *     stylesheet gives a card's buttons `pointer-events:auto`, so a touch on a dim card's title reached it and played
+   *     the move, ending the film (measured on v1.293.1 at 390x844 and 390x631, 1 of 1 each). By any road.
+   *   · BY KEY, ONLY WHEN THE CARD'S MIDDLE IS IN REACH: what `elementFromPoint` finds there is the card. Not under the
+   *     drawer (at 641 wide a card with its middle under it), not under a menu or a modal. PR #441 had this by WIDTH
+   *     (640 and under: nothing); the reader showed where width is not reach.
+   *   · A KEY WHOSE CARD IS SCROLLED OUT OF THE HAND'S OWN ROW SHOWS IT FIRST (FOLLOW2-R0, the orchestrator's ruling). The
+   *     row scrolls sideways and clips: at 1440 five of a hand's cards show, and the digits 6 to 9 played cards nobody
+   *     could see. Refusing them would take a road a keyboard player has today, so: the key brings its card whole into
+   *     the row's view and MARKS it, and plays nothing; the same key again, the card now seen, plays it. One press when
+   *     the card is in view, as ever. THE MARK is the keyboard's own focus on the card's play button (the outline the
+   *     stylesheet already draws for it, `.ng-choice-card button:focus-visible`), so it lasts as long as a focus does:
+   *     until another key moves it or plays, a pointer takes it, or the hand is dealt again (the card is rebuilt).
+   *     FOR ANY CARD THE ROW'S OWN SCROLL CAN BRING BACK (FOLLOW2-R1, ruled after the reader of PR #443): its middle
+   *     outside the part of the row its cards are dealt into (`_handView`: the row's box less its side padding, within
+   *     the screen). With the drawer open beside the board the row's own box starts UNDER the drawer, and its left
+   *     padding is what keeps the hand clear of it; this was first asked against the row's border box, so the key's own
+   *     show step, scrolling the row, pushed the first card half under the drawer into a strip that was "inside the
+   *     row": its digit then did nothing at all (1440, 1024, 641: 3 of 3), where on dev it played. Such a card is shown:
+   *     brought clear and marked; the same key again plays it. REFUSED stays for what scrolling the row cannot cure: a
+   *     menu or a modal over a card that stands where it is dealt, and the drawer being the screen.
+   *   · A PRESS IS ITS OWN PROOF: the pointer is on the card. A desktop's press on a card beside the drawer plays as it
+   *     always did, a card half under the drawer's edge included (the hand is in plain view there).
+   * The answer: "play", "show" (the key's card is scrolled out of the row: `_showCard`), or "" (refused).
+   */
+  _optionReach(card, key) {
+    if ((this.deckShown && this.sbOffset() === 0) || this._traySup) return "";
+    if (!key) return "play";
+    if (!card || !card.isConnected) return "";
+    const r = card.getBoundingClientRect(), x = r.left + r.width / 2, at = document.elementFromPoint(x, r.top + r.height / 2);
+    if (at && card.contains(at)) return "play";
+    const row = this.optionsRef.current, v = row && row.contains(card) ? this._handView(row) : null;
+    return v && (x < v.lo || x > v.hi) ? "show" : "";
+  }
+  /** the part of the hand's row its cards are dealt into: the row's box less its side padding, within the screen */
+  _handView(row) {
+    const b = row.getBoundingClientRect(), cs = getComputedStyle(row);
+    return { lo: b.left + parseFloat(cs.paddingLeft), hi: Math.min(b.right, window.innerWidth) - parseFloat(cs.paddingRight) };
+  }
+  /** what this road may do with this option now (`key`: a digit, or Enter or Space on the focused card) */
+  _playState(opt, card, key) {
+    if (!opt || opt.threat || this._filmTheater || this._execution || this._checkpoint || (this._rollHand && !this._rollHand.mounted)) return "";
+    return this._optionReach(card, key);
+  }
+  _canPlay(opt, card, key) { return this._playState(opt, card, key) === "play"; }
+  /**
+   * The card brought whole into the row's view by the row's own scroll (the nearest edge, no further), and marked.
+   * THE MARK IS ALSO WHAT FREEZES THE HAND. The focus it puts on the card reaches the tray's own `focusin` listener
+   * (`_handTouched`, where the hand is dealt): a hand whose win chances have not landed yet does not sort itself after
+   * it, so the card the second press plays is the card the first one showed. No line here says so, on purpose (it
+   * would be a second writer of that latch, and one that survives its own removal); it is pinned instead, by
+   * choice-value.spec.ts: with the latch undone after a show, the values landing re-sorted the hand and the second 7
+   * played ANOTHER card than the one shown (the reader of PR #443, its mutant M3: 2 of 2).
+   */
+  _showCard(card) {
+    const row = this.optionsRef.current, { lo, hi } = this._handView(row), r = card.getBoundingClientRect();
+    this._trayStop();   // the row's scroll has one owner at a time (§6.5): a glide still running is stopped first
+    row.scrollLeft += r.right > hi ? r.right - hi : r.left < lo ? r.left - lo : 0;
+    card.querySelector("[data-choice-execute]")?.focus({ preventScroll: true });
+  }
+  activateOption(opt, pick, card, inspect, key) {
+    const how = this._playState(opt, card, key);
+    if (how === "show") this._showCard(card);
+    if (how !== "play") return;
     this._handTouched = true;
     if (pick) { this.setPaused(false); pick(opt); }
   }
@@ -22220,7 +22378,7 @@ class Component extends DCLogic {
     // once, at its open (`_placeListPicker`), against a layout a crossing of the phone's breakpoint replaces, and left open
     // across a resize from 1440 to 390 it stood at its desktop box, off the phone's screen. It closes, as when the seat changes.
     if (this._pickEl && phone !== this.isMobile()) this.closeListPicker();
-    if (phone !== this.isMobile()) this._seatReplayBar();   // ...and a film's bar changes seat with it (FOLLOW1)
+    this._seatReplayBar();   // ...and a film's bar changes seat with the room beside the drawer, at any width (FOLLOW1; FOLLOW2-R1)
     this.dpr = Math.min(window.devicePixelRatio || 1, 2);
     this.canvas.width = this.W * this.dpr; this.canvas.height = this.H * this.dpr;
     this._applyTypeScale();
