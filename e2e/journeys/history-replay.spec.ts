@@ -423,6 +423,7 @@ async function tapOn(page: Page, selector: string, what: string, dx = 0) {
   const at = await page.evaluate(({ sel, dx }) => {
     const e = [...document.querySelectorAll(sel)].find((x) => (x as HTMLElement).offsetParent !== null) as HTMLElement | undefined
     if (!e) return null
+    e.scrollIntoView({ block: "nearest" }) // a row at the fold of a list is scrolled to, as a thumb does (the nearest edge, no further)
     const r = e.getBoundingClientRect(), x = dx ? r.left + dx : r.left + r.width / 2, y = r.top + r.height / 2, t = document.elementFromPoint(x, y)
     return { x, y, ok: !!t && (t === e || e.contains(t)) }
   }, { sel: selector, dx })
