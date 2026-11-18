@@ -20150,3 +20150,50 @@ carry out; M40 a dead row lights under the pointer); the eight re-pointed tests 
 note on method: the first try of an earlier pass stopped at its first mutant because a later edit of mine had changed
 the text it anchored on; every row is now checked to apply before a pass, and a row that does not apply is reported
 and skipped, never the end of the run.
+
+### v1.293.0, L3-R2: the reader's re-read of PR #440 at 6ce6a6f03 (18 Nov 2026)
+
+Verdict "MERGE AFTER 1 fix"; both fixes of the first read held on CI's build (13 of 13 taps during a hold did nothing but
+end the look; a folded-away row took no key), 11 of its 12 mutants red.
+
+**The fix: a look that ends by a press on the map leaves the place named for the camera's hold time.** On a phone the
+door to a submission's cards is two presses (the first ends the look and is consumed), and the name on the map is what
+tells the second which half is meant (T7: at 390 a pair's halves are drawn 2e-14 px apart). The name rode the look and
+the first 7 s lease only, so after a look of 10 s the press that ended the look ended the name too, and the next press,
+2 px above the place, opened the DEFENDER's card from a row about attacking (the reader: 1 of 1; 4 of 5 doors after a
+10 s look against 5 of 5 made at once). My door test pressed twice at once on the place's own pixel and could not see
+it. `_lookEnd` takes a second argument from `attachInput`'s pointerdown: that press takes the camera's lease again
+(`holdCamera`), and the name rides the new lease. The lease rather than the reader's proposed clock of the name's own
+(`_shown.until`), for what a lease already knows how to end: its 7 s, a pan begun with that same press, a pinch, a
+wheel, a move played (`releaseCamera` at the commit), any go-elsewhere; a clock of its own would have kept a place named
+for 7 s after the board had gone somewhere else. And it keeps the map still under the second press: the roll runs
+again, and the follow-cam would otherwise leave for where it stands (after 4 s, `userActiveNow`). The wheel passes no
+`press`: it takes the camera for itself, as it always did.
+
+**Riding with it.** T7 acts only while a place is named: the reader's mutant N2 (with nothing named, a press that picks
+one half of a close pair takes the other) had stayed green, 7 of 7; a journey now ends a look by a pan (which takes the
+name with the camera and leaves the zoom), presses where the app's own hit test picks Mount's bottom orb, and requires
+Mount staged on the bottom. The way back from "Practise here" (R6) held a row's id alone, cleared only by the next draw
+of Last rolls, whenever that was, and the id of a row of the roll in play is its index: "Practise here, Esc, a move, the
+logo, Last rolls: the row of the earlier press was open" (the reader, 1 of 1). It holds the row's key and its roll now
+(the log itself for the roll in play, which every new roll replaces; a filed roll's `ts` is in its id), opens a row only
+if that row of that roll still holds that key, and is forgotten when the drawer shuts. Found writing its second
+journey: a new roll ends the session (`rollFromPosition`), so the drawer is back on Last rolls by itself and the memory
+is spent at that draw.
+
+**The words.** What the door through the map costs is said where the door is named (the PR body, the inventory,
+`sidebar_capabilities.md` row 91): a press on a place on the map takes the board there, and if a roll is live it ends
+it. Row 91 says the free review as it is. A step of the door's journey that read the published name with no frame drawn
+since the press could not fail (green under M41) and is gone; the same claim is asserted where a frame is drawn.
+
+**One assertion changed:** the hold's journey said the name was gone 0.8 s after the press that ended a nine-second
+look; it now says the place is still named then, and gone 7 s later.
+
+**Bytes.** Eager gzip 375,952 B (+130 on 6ce6a6f03; +779 on dev v1.292.1; +2,479 of 5,000), first-hand core 395,472 B
+(+2,485 of 6,000), deferred 548,718 B (unchanged). neural.js 747,052 B.
+
+**Mutants, the whole table again on this head, 18 Nov 09:29 to 09:49:** two neutral controls green; 45 of 45 red
+at their named steps (M1 to M40 as above, M26's step now "and the name is gone again after the camera's hold time"; M41
+the lease not taken again, red at the door's last step, where the DEFENDER's card opens, and at the hold's "still
+named"; M42 the reader's N2; M43 the drawer's shutting does not forget the way back; M44 the way back by id alone; M45
+by key alone); the eight re-pointed tests red under their mutants, 8 of 8.
