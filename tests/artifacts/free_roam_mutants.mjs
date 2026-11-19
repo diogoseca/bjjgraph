@@ -27,7 +27,8 @@ const once = (text, from, to, name) => {
 const spec = 'free-roam-article.spec.ts'
 // the minified forms (v1.256.5, on the build merged with #364 and #365): the lift in _readArticle's then, the backstop in _readerHold, the set in _enterRoam
 const SET = 'this.clearEngagement(),this._putReaderAway(!0),this.setPaused(!0)', UNSET = 'this.clearEngagement(),this.setPaused(!0)'
-const LIFT = 'return(r||this._readerAway)&&this._putReaderAway(r),(o=this._reader)==null?void 0:o.open(n)', NOLIFT = 'return(o=this._reader)==null?void 0:o.open(n)'
+// LIFT re-derived on v1.294.0's BGCLOSE-R2 build: the keep-away half of the lift is retired (F9), only the lift is left
+const LIFT = 'return this._readerAway&&this._putReaderAway(!1),(r=this._reader)==null?void 0:r.open(n)', NOLIFT = 'return(r=this._reader)==null?void 0:r.open(n)'
 const BACKSTOP = ',this._readerAway&&this._putReaderAway(o>0||this._landIdx==null),o}'
 // BGCLOSE (v1.294.0): the first way into free roam is one press now; the claims below name that step ("one press, the card up",
 // was "the second tap"). RE-RUN on v1.294.0's BGCLOSE-R1 build (19 Nov 2026, 11:50 to 11:55; every target still occurs once):
@@ -63,9 +64,9 @@ const controls = [
   // Claim 5, the reference law: a page no longer holds the board in `_roam`, so the background tap roams it away.
   ['page-roams', spec, 'a page stays.*1440, by mouse\\)', s => once(s, 'this._played=!1,this._roam=!0,this.endZoom=!1', 'this._played=!1,this.endZoom=!1', 'page-roams'),
     'a page stays: the background tap leaves its article on screen'],
-  // The late article: a request that reaches the reader in free roam shows the ended landing's article anyway.
-  ['late-article-shows', spec, 'arrives after free roam began', s => once(s, 'let r=!t&&!!this._roam;', 'let r=!1;', 'late-article-shows'),
-    'free roam: the article is not on screen (a late article)'],
+  // RETIRED WITH ITS SUBJECT (BGCLOSE-R2, F9): late-article-shows, "a request that reaches the reader in free roam shows the ended
+  // landing's article anyway". The keep-away it removed is gone from the app: the close ends or forgets every request without
+  // intent before it can open (F7, F9), so none reaches the reader in free roam; free-roam-article.spec.ts pins the forgetting.
   // ...and a late render builds a new index, which only the backstop's repaint keeps away.
   ['repaint-lost', spec, 'arrives after free roam began', s => once(s, BACKSTOP, ',o}', 'repaint-lost'),
     'free roam: the article is not on screen (a late article)'],
