@@ -343,6 +343,9 @@ class Reader {
     if (this.cache.size > 8) this.cache.delete(this.cache.keys().next().value);
     return record;
   }
+  // The close of a page ends a request in flight (BGCLOSE-R1, F7: `_closePage`): no late render, no late address. A page
+  // still loading leaves no path behind, so the next open of it loads it (`open`'s same-path return would keep the loading line).
+  cancel() { this.abort?.abort(); this.renderSerial++; if (this.root.dataset.readerReady !== "true") this.path = null; }
   async open({ path, intent, push }) {
     const url = new URL(path, location.href);
     path = cleanPath(url.href);

@@ -12925,6 +12925,13 @@ class Component extends DCLogic {
       this.fx("land_dismissed", { node: n ? n.t : null, answered: !!(this._landQ && this._landQ.answered) });
       this.clearLandCard();
     }
+    // F7 (BGCLOSE-R1; the reader of PR #446): THE CLOSE ENDS A PAGE STILL LOADING. A page whose HTML was still on its way
+    // pushed its address after the close (the reader: `/`, then 5 s later `/Submissions/Americana` with its title, a 4th
+    // entry, nothing on screen; reader.src.js `open` pushes when its page arrives). Ended here: a request whose module is
+    // still loading never opens (`_readerRequest`), and one in flight is aborted and its serial moved on (`cancel`), so
+    // nothing of it renders or writes an address.
+    this._readerRequest = null;
+    this._reader?.cancel();
     this._enterRoam();
     this._pushUrl("/", { ngMap: true });
     return true;

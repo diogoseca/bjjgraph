@@ -332,6 +332,53 @@ for (const size of SIZES) {
       expect(await shelfOf(), "a reload empties Last rolls, as before").toEqual([])
     })
 
+    // F7 (BGCLOSE-R1; the reader of PR #446): A PAGE STILL LOADING WHEN THE PRESS COMES IS ENDED BY IT. The reader pushes a page's
+    // address when its HTML arrives if it could not title it before; that push came after the close (the reader, on Mount Top's
+    // "Americana" link with its HTML 2.5 s late: `/`, then `/Submissions/Americana` with its title, a 4th entry, nothing on screen).
+    // Here the page's HTML is HELD until the press is made, then let go. Mutant R7: the close does not end the request → red at
+    // "the page that was loading writes nothing after the close".
+    if (size.width === 1074) test(`a page still loading when the press comes writes nothing after the close: its address, its title and its entry never come (${size.width})`, async ({ page }) => {
+      const j = journey(page)
+      await j.boot("/Positions/Mount/Top", { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", (route) => route.continue()) } })
+      await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible()
+      await j.advance(1500); await j.readerLayoutSettled()
+      // a link in the article to a place whose page the app cannot title before its HTML comes (a family page)
+      const link = await page.evaluate(() => {
+        const a = (window as W).__neural, seenPaths = new Set<string>()
+        for (const l of a._reader.root.querySelectorAll("a[href]") as NodeListOf<HTMLAnchorElement>) {
+          const u = new URL(l.href, location.href)
+          if (u.origin !== location.origin || seenPaths.has(u.pathname) || !/^\/(Positions|Transitions|Submissions)\//.test(u.pathname)) continue
+          seenPaths.add(u.pathname)
+          if (!a._pageTitle(u.pathname) && a._nodeAndRoleForPath(u.pathname).idx >= 0) { l.setAttribute("data-bg-late", ""); l.scrollIntoView({ block: "center" }); return u.pathname }
+        }
+        return null
+      })
+      expect(link, "premise: the article links a place whose page the app cannot title before its HTML comes").not.toBeNull()
+      let release!: () => void
+      const held = new Promise<void>((r) => { release = r })
+      await page.route("**" + link + "*", async (route) => { await held; await route.continue() })
+      await j.readerLayoutSettled()
+      await j.clickByMouse("[data-bg-late]", "the article's link to " + link)
+      await frames(page, 500)
+      const loading = await page.evaluate(() => { const r = (window as W).__neural._reader; return { path: r.root.dataset.readerPath as string, ready: r.root.dataset.readerReady as string, roam: !!(window as W).__neural._roam } })
+      expect(loading, "premise: the linked page is loading, its HTML held, and the board is not in free roam").toEqual({ path: link, ready: "false", roam: false })
+      const was = await seen(page)
+      const at = await bare(page)
+      expect(at, "premise: a point of bare map").not.toBeNull()
+      await press(page, at!)
+      await frames(page, 600)
+      const shut = await seen(page)
+      expect([partsOf(shut), shut.address, shut.entries], "premise: the press closed the page").toEqual([NOTHING, "/", was.entries + 1])
+      release()
+      const addresses: string[] = []
+      for (let i = 0; i < 16; i++) { await page.waitForTimeout(250); await frames(page, 250); const s = await seen(page); addresses.push(s.address); }
+      const after = await seen(page)
+      expect({ addresses: [...new Set(addresses)], title: after.title, entries: after.entries, reading: await page.evaluate(() => !!history.state?.ngReading) },
+        "the page that was loading writes nothing after the close: no address, no title, no entry of its own").toEqual({ addresses: ["/"], title: SITE_TITLE, entries: shut.entries, reading: false })
+      expect(partsOf(after), "and nothing of it is drawn").toEqual(NOTHING)
+      await page.unroute("**" + link + "*")
+    })
+
     test(`a pan, a wheel and a press on a node are not a press on the bare map: the page stays (${size.width})`, async ({ page }) => {
       const { j, was } = await arrived(page)
       const at = (await bare(page))!
