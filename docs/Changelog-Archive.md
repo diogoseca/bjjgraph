@@ -20508,3 +20508,68 @@ is a second canvas's.
 ceiling moved to it in its own commit (549,777 to 550,412; the owner's limit is 600,000 since U207 a). The first-hand
 core figure is the PR's (a seat's site copy is an older build's pages).
 
+
+## v1.296.0 — A cloze's place on the map (L2b S2; the owner's U202 a; the orchestrator's rulings (d) and (c), 19 Nov 2026)
+
+**What a player sees, on a computer.** Opening a place's cloze in Master the game takes the map beside the drawer to the
+place and the moves the cloze lists, in one glide, never closer than the roll's own zoom, and the map names the place.
+It stays there for as long as the cloze is open, whatever the board would otherwise do with its camera (a staged board's
+own framing used to take it back within seconds). At Show the place is lit as "Show on the map" lights a place (S1), its
+shown moves are named where a name fits, and the camera does not move if they are all in view; Hide or Done puts the
+light out, and leaving the place lets the camera go. A phone is unchanged: its drawer is the screen, and its look at the
+map is the next slice (S3).
+
+**The rulings.** (d): "When a place's cloze opens, the map goes to the place and its moves … At Show, one glide holds
+the place and its SHOWN moves (not where they lead): never closer than the roll's zoom, held for as long as the cloze
+shows (a hold of its own, beside `_conceptId`'s; released at once when the cloze goes), with the light on from Show until
+Hide, Done or the place is left, the shown moves named where a name fits. A lit row moves no camera, ever" (that last is
+S4's). It replaced the brief's "every place its shown moves lead to are in view": measured in Part A (5.4), holding where
+the moves lead is the whole map at the median place. (c), point 2: no pulsing session ring for the lit place while the
+light is on (built here: in S1 it could not happen).
+
+**How.**
+- `app.src.jsx`: `_czAt()` is the open cloze's place, `{n, c}` (the half its seat plays), on a computer, while the
+  drawer shows the cloze; derived on every read, so the cloze closing, the list, a card opening, the drawer shut or Esc
+  end it with no lifter of its own. `updateCamera` holds the camera while it is set, beside `_conceptId`'s hold. The
+  camera's 7 s lease would not have done: it runs on the frame clock, which runs under a pause, and a staged board's own
+  framing is exempt from the pause (Part A, 5.5). `_lightOf` lights the place from Show until Hide or Done. `draw()` names
+  the place (the pointer's label when nothing is under the pointer), names the shown moves in a pass of their own BEFORE
+  the roll's hand (the moves being answered claim their places first; an orb named there is not named again, as the
+  roll can stand at the same place), and draws no session ring on the lit place.
+- `map-light.src.js`: `ngLightFrame`, one glide into the calm area (the visible map inset 34 / 38 / 34 / 37 px, design
+  round 6), none when every node is inside it already at a zoom no closer than the roll's, read where the camera is
+  GOING so a glide in flight is not begun again. `master-cloze.src.js` calls it as a cloze opens (not when the open one
+  is drawn again) and at Show.
+
+**The map's own names step back while a cloze is lit** (design round 6, section 4, rule 6: "The map's own names stay off
+while Practice is on"). The first build named the roll's own hand there too: with the board at Half Guard, "Half Guard to
+Triangle Escape Position" was written bright over its dimmed orb among Mount's escapes. The pointer's label, a point and
+the roll's own place are named as ever.
+
+**Found by a mutant that survived.** The hold's mutant (K2) first stayed green: the journey's board was a roll made from a
+place with the clock held (`rollFromPosition(…, true)`), which never sets `_staged`, so nothing under the drawer's pause
+moves its camera and no hold is needed there. The journey now stages its board as a press on the map does
+(`stageRollAt`), whose own framing takes the camera back (`stagedIdle`), and K2 is red. The release (K3) was first red only
+at a premise that read the mutated function itself; it is now read where the camera goes (the staged place back in view
+after Esc).
+
+**Tests.** `tests/map_light.test.mjs` +4 (17): `_czAt` (the seat's half, a computer, the drawer showing the cloze), the
+light from Show to Hide or Done, the glide's two rules. `e2e/journeys/map-cloze-place.spec.ts` (5): the opening, the hold
+and its release on a staged board; Show, Hide and Done with the names and nothing moving; standing at the place, no orb
+named twice; no session ring on the lit place (four frames at one instant: lit or not, rings or none); a phone unchanged.
+
+**Mutants** (19 Nov, each alone; the clean files green before and after): units CZ1 to CZ6 red at 08:32 (the place on a
+phone, with the drawer shut, lit before Show, lit after Done, the glide every time, the glide closer than the roll's
+zoom), a control green. Journey 09:24 to 09:34: K1 no glide as a cloze opens, K2 no hold, K3 the hold kept with the drawer
+shut, K4 lit before Show, K5 lit after Done, K6 a glide at Show with everything in view, K7 the shown moves not named, K9
+the lit place's session ring drawn, K10 the place not named, K11 the place on a phone too, K12 the cloze's moves named
+before Show, K13 the roll's own hand named while lit (red at two steps): all red at their named steps; a control green.
+
+**Runs (local, under the lock).** The cloze's place, the light and the cloze journeys 32 of 32 (09:33); the 13 other
+journey files that open a cloze or read the map's names, rings or labels (grepped: 16 files, the whole list read) 266 of
+266 (08:49 to 08:59, before the names stepped back, which acts only while a cloze is lit). The full suites are the PR's.
+
+**Bytes** (this tree, stacked on S1): eager gzip 377,716 B (+335 on S1's 377,381), eager raw 1,468,822 B (+902);
+deferred 551,167 B (+755), its ceiling moved to it in its own commit. **Not measured:** the frame time of the names pass
+at a lit cloze (at most seven candidates through the memoised planner, which reuses its plan while nothing moves).
+
