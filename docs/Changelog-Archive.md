@@ -20422,6 +20422,19 @@ acts, R12 a held Enter's); R13 the show step scrolls to the row's box; R14 it do
 the phone's width only; T2 no room at any width; T3 a resize re-seats only across the phone's breakpoint; T5 the phone's
 rule does not lift the cap. T4 survived (above).
 
+### v1.293.4, N5: the key's release lifts the repeat, pinned (tests only) (19 Nov 2026)
+
+One journey step owed from PR #443, and no app code. That PR's flag for a held key (`_keyRepeat`: set while a key is
+held and repeating, so that Enter held on a focused card is one press) has two lifters, the next keydown and any keyup.
+The reader's mutant N5, the keyup doing nothing, left `option-reach.spec.ts` green (14 of 14): every journey that held
+a key pressed a fresh key afterwards, and a fresh keydown writes the flag again. Space is the key that needs the keyup.
+On a focused button its click comes at the RELEASE, with no keydown in between, so a flag the repeats left set swallows
+the press itself: a held Space would play nothing at all. The step, at 1440: 7 shows and marks the seventh card; Space
+down, two repeats (the page sees one keydown and two with `repeat`), nothing played and the mark where it was; released,
+the card is played, and it is the marked card. **Proof, 19 Nov 06:15 to 06:17, under the lock:** the file clean, 15 of
+15 green; N5 planted in the served bundle, 14 green and 1 red, at "released, the card is played: the key's release
+lifts the repeat"; the bundle rebuilt byte-identical and the file clean again, 15 of 15 green.
+
 ## v1.293.5 — Rename you can find: a pencil on every list row (LISTS-R, Slice 1; the owner, 19 Nov 2026)
 
 **A fix, not a feature:** renaming a list existed (since v1.99.3) and could not be found.
