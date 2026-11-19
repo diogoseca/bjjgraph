@@ -502,6 +502,63 @@ for (const size of SIZES) {
       void was
     })
 
+    // F6 (BGCLOSE-R1; the reader of PR #446, its surviving mutant K2): THE OTHER HALF OF THE SPENT PRESS. A press that closes a menu
+    // or ends a film does its one thing on the bare map (the journey above); on a NODE it does what it always did: the menu shuts (or
+    // the film ends) AND the node is staged, as on dev (the reader measured it on both builds). Mutant K2: the tap router does nothing
+    // after a spent press, node or not → red at each "…and the node is staged". By mouse: on a phone the drawer is the screen, and
+    // its tap is the drawer's own (pinned above).
+    if (!size.touch) test(`a press on a node with a menu open, or during a film, shuts the menu or ends the film and stages the node, as before (${size.width})`, async ({ page }) => {
+      const { j } = await arrived(page)
+      const staged = async (what: string, node: { idx: number }) => {
+        const s = await whole(page, `${what}: the node is staged`)
+        const own = await page.evaluate((i) => (window as W).__neural._nodeUrlPath(i) as string, node.idx)
+        expect([s.address, s.roam], `${what}: the node is staged, its page open at its own address`).toEqual([own, false])
+      }
+      // THE ACCOUNT'S MENU
+      await pressOn(page, ".ng-logo", "the logo")
+      await frames(page, 600)
+      await pressOn(page, ".ngAcctChip", "the account's badge")
+      await expect.poll(async () => (await seen(page)).menu, { message: "premise: the account's menu is open" }).toBe(true)
+      let node = await someNode(page)
+      expect(node, "premise: a node is drawn beside the drawer and pressable").not.toBeNull()
+      await press(page, node!)
+      await frames(page, 800)
+      expect((await seen(page)).menu, "with the account's menu open, a press on a node shuts the menu").toBe(false)
+      await staged("with the account's menu open, a press on a node shuts the menu, and the node is staged", node!)
+      // A LIST MENU, from the seat's star
+      if ((await seen(page)).drawer) { await pressOn(page, ".ng-explorer-close", "shut the drawer"); await frames(page, 1500) }
+      await expect(page.locator("[data-seat-star]").first(), "premise: the seat's star is on the map").toBeVisible()
+      await pressOn(page, "[data-seat-star]", "the seat's star")
+      await frames(page, 600)
+      await expect(page.locator("[data-list-picker]"), "premise: the list menu is open").toHaveCount(1)
+      node = await someNode(page)
+      expect(node, "premise: another node is drawn and pressable").not.toBeNull()
+      await press(page, node!)
+      await frames(page, 800)
+      await expect(page.locator("[data-list-picker]"), "with a list menu open, a press on a node shuts it").toHaveCount(0)
+      await staged("with a list menu open, a press on a node shuts it, and the node is staged", node!)
+      // A FILM: a filed roll (one move, then the board put back on its first state), its film started from Last rolls
+      await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01])
+      const titles = await j.optionTitles()
+      await j.pick(titles[0]); await j.nextHand()
+      await page.evaluate(() => { const a = (window as W).__neural; a.rollFromPosition(a.rollLog[0].idx, false, a.rollLog[0].role) })
+      await j.advance(2500)
+      for (let i = 0; i < 6; i++) { const left = await page.evaluate(() => { const b = document.querySelector("[data-reward-close]") as HTMLElement | null; if (b) b.click(); return document.querySelectorAll("[data-reward-close]").length }); if (!left) break; await page.waitForTimeout(60) }
+      const ts = await page.evaluate(() => ((window as W).__neural._pastRolls || [])[0]?.ts as number)
+      expect(ts, "premise: a roll is filed").toBeGreaterThan(0)
+      await pressOn(page, ".ng-logo", "the logo")
+      await pressOn(page, '[data-view="history"]', "Last rolls")
+      await pressOn(page, `[data-replay-roll="${ts}"]`, "the filed roll's replay control")
+      await j.advance(1500)
+      expect((await seen(page)).film, "premise: a film is running").toBe(true)
+      node = await someNode(page)
+      expect(node, "premise: a node is drawn beside the drawer and pressable").not.toBeNull()
+      await press(page, node!)
+      await frames(page, 800)
+      expect((await seen(page)).film, "during a film, a press on a node ends the film").toBe(false)
+      await staged("during a film, a press on a node ends the film, and the node is staged", node!)
+    })
+
     test(`the fine controls stay: each ✕ closes its own part and nothing else, and the address stays (${size.width})`, async ({ page }) => {
       const { j, was } = await arrived(page)
       // the question's ✕ (on an open question it folds first; pressed until the card is away), then its "Questions" label
