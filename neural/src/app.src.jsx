@@ -13353,7 +13353,11 @@ class Component extends DCLogic {
       if (title) document.title = title;
       // `ngMap` marks the ONE entry a closed page wrote (`_closePage`); every entry carries its predecessor's state forward, so
       // without this the next page pushed from the root would carry the mark too, and Back onto it would close it.
-      if (state) history[replace ? "replaceState" : "pushState"]({ ...history.state, ngMap: undefined, ...state }, "", path);
+      // KEPT ON A REPLACE OF THE SAME ADDRESS (BGCLOSE-R1, F2; the reader of PR #446): Practice's way back puts its origin back
+      // with a replace (`_exitStudyTo`), and on the closed map that replace stripped the mark, so Back onto that entry later
+      // booted the root's own roll and pushed its address over the forward history. Dropped only on a new entry or a new path.
+      const kept = replace && new URL(path, location.href).pathname === location.pathname;
+      if (state) history[replace ? "replaceState" : "pushState"]({ ...history.state, ...(kept ? {} : { ngMap: undefined }), ...state }, "", path);
       return true;
     } catch (e) { document.title = before; this._urlFault("push", path, e); }
   }

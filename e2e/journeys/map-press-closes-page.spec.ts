@@ -379,6 +379,38 @@ for (const size of SIZES) {
       await page.unroute("**" + link + "*")
     })
 
+    // F2 (BGCLOSE-R1; the reader of PR #446): PRACTICE'S WAY BACK KEEPS THE CLOSE'S MARK. Master the game's ‹ Back puts its origin
+    // back with a REPLACE on the same address (`_exitStudyTo`), and that replace stripped the mark: Back onto the closed entry later
+    // booted the root's own roll (a random start) and pushed its address over the forward history. Mutant R2: the mark dropped on
+    // any replace → red at "Master the game's Back leaves the closed entry marked".
+    if (size.width !== 1440) test(`Master the game and its Back on the closed map keep it closed: a node, then the browser's Back, is the map alone, and Forward is still there (${size.width})`, async ({ page }) => {
+      const { j } = await arrived(page)
+      const at = await bare(page)
+      expect(at, "premise: a point of bare map").not.toBeNull()
+      await press(page, at!)
+      await frames(page, 600)
+      expect([(await seen(page)).address, (await seen(page)).mark], "premise: the page is closed, its entry marked").toEqual(["/", true])
+      await pressOn(page, ".ng-logo", "the logo")
+      await pressOn(page, '[data-explore-stats] [data-b="due"]', "Master the game")
+      await expect(page.locator("[data-practice-page]"), "premise: Master the game is open").toHaveCount(1)
+      await pressOn(page, "[data-pane-back]", "Master the game's ‹ Back")
+      await frames(page, 600)
+      const back = await seen(page)
+      expect([back.address, back.mark, partsOf(back)], "Master the game's Back leaves the closed entry marked, the map alone").toEqual(["/", true, NOTHING])
+      if (back.drawer) { await pressOn(page, ".ng-explorer-close", "shut the drawer"); await frames(page, 800) }
+      const node = await someNode(page)
+      expect(node, "premise: a node is drawn on the map and pressable there").not.toBeNull()
+      await press(page, node!)
+      const opened = await whole(page, "a press on a node opens its page")
+      await markApp(page); await page.goBack(); await remounted(page)
+      const alone1 = await alone(page, "the browser's Back onto the closed entry is the map alone, no roll dealt")
+      expect([alone1.entries, alone1.mark], "no entry pushed over the forward history, the mark there").toEqual([opened.entries, true])
+      await markApp(page); await page.goForward(); await remounted(page)
+      const fwd = await whole(page, "Forward is still the node's page")
+      expect(fwd.address, "Forward is still the node's page").toBe(opened.address)
+      void j
+    })
+
     test(`a pan, a wheel and a press on a node are not a press on the bare map: the page stays (${size.width})`, async ({ page }) => {
       const { j, was } = await arrived(page)
       const at = (await bare(page))!
