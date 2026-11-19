@@ -216,6 +216,9 @@ for (const [width, height, touch] of [[390, 844, false], [390, 844, true], [1440
       const start = await screenOf(page)
       expect(start.articleVisibility === "visible" && !!start.article, `premise: the page's article is on screen ${JSON.stringify(start)}`).toBe(true)
       if (wide) expect(start.index, "premise: at 1440 its index stands beside it").not.toBeNull()
+      const named = () => page.evaluate(() => ({ address: location.pathname, title: document.title, entries: history.length }))
+      const own = await named()
+      expect(own.address, "premise: the address is the page's").toBe("/Principles/Base")
       for (let i = 0; i < 2; i++) {
         await j.advance(600)
         const at = await bareMap(page); expect(at, "premise: bare map beside the page").not.toBeNull()
@@ -226,6 +229,10 @@ for (const [width, height, touch] of [[390, 844, false], [390, 844, true], [1440
       expect({ path: after.path, visibility: after.articleVisibility, shown: !!after.article }, "a page stays: the background tap leaves its article on screen")
         .toEqual({ path: "/Principles/Base", visibility: "visible", shown: true })
       if (wide) expect(after.index, "a page stays: its index too").not.toBeNull()
+      // BGCLOSE-R1 (F5; the reader of PR #446, its surviving mutant K1): the page stays WHOLE, its name with it. The step read the
+      // reader's own path, so a press that wrote the root's address and title while the page stayed on screen passed it: a half
+      // state of the kind the owner asked to end. The address, the title and the history are read from the browser itself.
+      expect(await named(), "a page stays: its address, its title and its history are the page's, after the presses").toEqual(own)
     })
   })
 }
