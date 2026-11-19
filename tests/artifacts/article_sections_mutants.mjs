@@ -563,7 +563,8 @@ const mutants = [
   ['retry-drops-fragment', 'tab-title.spec.ts', 'keeps its #section on Retry', s => replace(s, 'this.open({ path: url.href, intent, push })', 'this.open({ path, intent, push })')],
   // BGCLOSE (v1.294.0): this row's journey lost its premise. The label the ghost press landed on showed only for a card the map's
   // tap had taken away and is never on screen now; legend-search keeps the claim's words ("does not reopen it") and can no longer
-  // fail for this mutant. See the run recorded in docs/Changelog-Archive.md (v1.294.0) for what kills it today, if anything.
+  // fail for this mutant (run on v1.294.0's build, 19 Nov 2026: legend-search 2 of 2 green). The guard is still pinned: the same
+  // mutant is red in hidden-sections.spec.ts (1 of 15) at "the press brings the message back".
   ['ghost-press-reopens-card', 'legend-search.spec.ts', 'nowhere a node is revealed \\(768', s => replace(s, 'if (!event.detail || node.contains(downOn)) action(event);', 'action(event);')],
   // WINBAR1 (2026-11-11): the reader's measured answer "the bar falls under the grid" is what puts the bar away (claim 1 of winbar-fold).
   ['winbar-under-unpublished', 'winbar-fold.spec.ts', '574x760', s => replace(s, 'this.barUnder = !!bar && bar.left < lane.right && bar.right > lane.left;', 'this.barUnder = false;')],
