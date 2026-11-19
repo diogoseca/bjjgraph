@@ -158,6 +158,28 @@ const stored = (page: Page) => page.evaluate(() => {
   return out
 })
 const changed = (a: Record<string, string>, b: Record<string, string>) => Object.keys({ ...a, ...b }).filter((k) => a[k] !== b[k]).sort()
+/** what a step stored, against the record before it: the day's count of rolls (each leaf as before -> after), and every OTHER leaf
+ *  that moved, the record's two clocks aside. A filing is the day's count up by one and nothing else (the close's own effect). */
+const storedBy = async (page: Page, before: Record<string, string>) => {
+  const after = await stored(page), d = changed(before, after)
+  return { days: d.filter((k) => /rollDays\//.test(k)).map((k) => [Number(before[k] ?? 0), Number(after[k] ?? 0)]), other: d.filter((k) => !/rollDays\//.test(k) && !/\/(updatedAt|savedAt)$/.test(k)) }
+}
+/** this visit's shelf as Last rolls holds it: each filed roll's states, newest first */
+const shelfNow = (page: Page) => page.evaluate(() => (((window as W).__neural && (window as W).__neural._pastRolls) || []).map((r: W) => (r.log || []).map((h: W) => h.key as string)))
+/** two moves played on the hand that is dealt now (rigged: each attempt lands), the roll's states returned */
+async function twoMoves(page: Page, j: any) {
+  for (let n = 0; n < 2; n++) {
+    await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01])
+    const titles = await j.optionTitles()
+    expect(titles.length, "premise: a hand was dealt").toBeGreaterThan(0)
+    await j.pick(titles[Math.min(n, titles.length - 1)])
+    await j.nextHand()
+  }
+  await frames(page, 1500)
+  const r = await page.evaluate(() => { const a = (window as W).__neural; return { states: (a.rollLog || []).map((h: W) => h.key as string), played: !!a._played } })
+  expect([r.states.length >= 2, r.played], "premise: a roll under way, two moves in").toEqual([true, true])
+  return r.states
+}
 
 /** the owner's page as loaded, with its real article, questions and videos; every part a premise */
 async function arrived(page: Page) {
@@ -426,6 +448,72 @@ for (const size of SIZES) {
       const fwd = await whole(page, "Forward is still the node's page")
       expect(fwd.address, "Forward is still the node's page").toBe(opened.address)
       void j
+    })
+
+    // F8 (BGCLOSE-R2; the reader of PR #446): A ROLL PLAYED AFTER BACK IS FILED BY THE NEXT HISTORY STEP, WHATEVER ENTRY IT LANDS ON.
+    // F4 handed the shelf on, but only what was filed: a step onto a node page filed the roll under way, a step onto the closed map
+    // did not (the reader: close, Back, two moves, Forward: the shelf held the first roll only; from the closed map a node, two
+    // moves, Back: empty). Mutants: E1 the roll not filed at the step → red at "Forward: Last rolls holds both rolls"; E2 filed twice
+    // → red at "it is filed once"; E3 filed when nothing was played → red at "after Forward, Last rolls still holds it" (above).
+    if (size.width !== 1440) test(`a roll played after Back is filed by the next history step onto the closed map: Last rolls holds both rolls, in order (${size.width})`, async ({ page }) => {
+      const { j } = await arrived(page)
+      const a = await twoMoves(page, j)
+      const at = await bare(page)
+      expect(at, "premise: a point of bare map").not.toBeNull()
+      await press(page, at!)
+      await frames(page, 1500)
+      expect(await shelfNow(page), "premise: the close filed the first roll").toEqual([a])
+      await markApp(page); await page.goBack(); await remounted(page)
+      await expect.poll(async () => { await frames(page, 300); const s = await seen(page); return !!s && !s.intro && !s.roam && s.hand > 0 }, { message: "premise: Back brings the page, a hand dealt", timeout: 30000 }).toBe(true)
+      const b = await twoMoves(page, j)
+      await page.waitForTimeout(700)
+      const before = await stored(page)
+      await markApp(page); await page.goForward(); await remounted(page)
+      await alone(page, "Forward is the closed map")
+      expect(await shelfNow(page), "Forward: Last rolls holds both rolls, in order (the newest first)").toEqual([b, a])
+      await page.waitForTimeout(700)
+      const by = await storedBy(page, before)
+      expect([by.days.length, by.days[0]?.[1] - by.days[0]?.[0], by.other], "and it stored what a filing stores: the day's count up by one, nothing else").toEqual([1, 1, []])
+    })
+    if (size.width !== 1440) test(`from the closed map a node, a roll, Back onto the closed map files it; then two nodes, a roll, Back onto the first node's page files it once (${size.width})`, async ({ page }) => {
+      const { j } = await arrived(page)
+      const at = await bare(page)
+      expect(at, "premise: a point of bare map").not.toBeNull()
+      await press(page, at!)
+      await frames(page, 800)
+      expect(await shelfNow(page), "premise: the close filed nothing (nothing was played)").toEqual([])
+      let node = await someNode(page)
+      expect(node, "premise: a node is drawn on the closed map and pressable there").not.toBeNull()
+      await press(page, node!)
+      await whole(page, "premise: the node's page opens")
+      const c = await twoMoves(page, j)
+      await page.waitForTimeout(700)
+      let before = await stored(page)
+      await markApp(page); await page.goBack(); await remounted(page)
+      await alone(page, "Back onto the closed map is the map alone")
+      expect(await shelfNow(page), "Back onto the closed map: Last rolls holds that roll").toEqual([c])
+      await page.waitForTimeout(700)
+      let by = await storedBy(page, before)
+      expect([by.days.length, by.days[0]?.[1] - by.days[0]?.[0], by.other], "and it stored what a filing stores: the day's count up by one, nothing else").toEqual([1, 1, []])
+      node = await someNode(page)
+      expect(node, "premise: a node is drawn on the closed map").not.toBeNull()
+      await press(page, node!)
+      await whole(page, "premise: a node again: its page opens")
+      expect(await shelfNow(page), "a node again: Last rolls still holds that roll, and only it").toEqual([c])
+      const n2 = await page.evaluate(() => location.pathname)
+      node = await someNode(page)
+      expect(node, "premise: another node is drawn and pressable").not.toBeNull()
+      await press(page, node!)
+      await whole(page, "premise: the second node's page opens")
+      const d = await twoMoves(page, j)
+      await page.waitForTimeout(700)
+      before = await stored(page)
+      await markApp(page); await page.goBack(); await remounted(page)
+      await expect.poll(async () => { await frames(page, 300); const s = await seen(page); return !!s && !s.intro && s.address === n2 }, { message: "premise: Back onto the first node's page", timeout: 30000 }).toBe(true)
+      expect(await shelfNow(page), "Back onto a node page files the roll, and it is filed once").toEqual([d, c])
+      await page.waitForTimeout(700)
+      by = await storedBy(page, before)
+      expect([by.days.length, by.days[0]?.[1] - by.days[0]?.[0], by.other], "and it stored what a filing stores, once: the day's count up by one, nothing else").toEqual([1, 1, []])
     })
 
     test(`a pan, a wheel and a press on a node are not a press on the bare map: the page stays (${size.width})`, async ({ page }) => {
