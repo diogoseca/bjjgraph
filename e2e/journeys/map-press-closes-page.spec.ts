@@ -331,7 +331,10 @@ for (const size of SIZES) {
       await frames(page, 1500)
       const picked = await page.evaluate(() => { const a = (window as W).__neural; return { pos: a.currentPos as number, role: a.playerRole as string, hand: (a.optionIdxs || []).length as number, roam: !!a._roam } })
       expect([picked.pos, picked.role, picked.hand > 0, picked.roam], "Roll from here picks it up: the board set where that roll began, on the side it was played").toEqual([roll.start, String(roll.role).toLowerCase(), true, false])
-      // A RELOAD empties the shelf, as before: it was never stored
+      // A RELOAD empties the shelf, as before: it was never stored. The harness wipes local and session storage at every load
+      // (e2e/dsl.ts, `__ng_keep`), which would make this step true whatever the app did; a real reload keeps both, so they are kept
+      // here too (the mutant that keeps the shelf in sessionStorage survived this step until they were).
+      await page.evaluate(() => sessionStorage.setItem("__ng_keep", "1"))
       await page.reload()
       await expect.poll(async () => { await frames(page, 500); const s = await seen(page); return !!s && !s.intro }, { message: "premise: the reloaded app's opening is over", timeout: 30000 }).toBe(true)
       expect(await shelfOf(), "a reload empties Last rolls, as before").toEqual([])
