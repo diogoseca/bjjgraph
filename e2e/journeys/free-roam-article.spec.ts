@@ -6,8 +6,10 @@ import { journey } from "../dsl"
  * conflicting space with the ToC / index, but it's already shown once and we like keeping it elegant". Free roam kept the last
  * node's article and its index on screen (U114 a had retired the control that put them away); on 2026-11-11: "take care of it".
  *
- * THE WAYS INTO FREE ROAM (surveyed on v1.256.2: `_enterRoam` has one caller, `_tapBackground`): two taps on bare map (the first
- * closes the card and keeps the hand, the second roams), or one tap once the card is closed by its own ✕. Ending a roll does not
+ * BGCLOSE (v1.294.0): the first way in below is ONE press now. A press on the bare map closes the page whole; it no longer
+ * stops at a first step that closed the card alone. The rest of this file's claims are as they were.
+ * THE WAYS INTO FREE ROAM (surveyed on v1.256.2: `_enterRoam` has one caller, `_tapBackground`): one press on bare map, with the
+ * card up (it was two taps until BGCLOSE) or with the card closed by its own ✕. Ending a roll does not
  * roam (a new roll follows its countdown); the drawer, Esc and a URL never do (a node's URL stages it, "/" deals a roll, and a
  * Principle, Learning entry or System is a page, which `_leaveRollForReference` keeps out of free roam).
  *
@@ -158,17 +160,12 @@ for (const [width, height, touch] of [[390, 844, false], [390, 844, true], [1440
       if (wide) expect(landed.index, "premise: at 1440 its index stands beside it").not.toBeNull()
       expect(landed.scroll, "premise: the reader is read into").toBeGreaterThan(100)
 
-      // WAY 1: two taps on bare map. The first closes the card and is not free roam: the article stays.
+      // WAY 1: ONE press on bare map, the card up (BGCLOSE, v1.294.0). It was two: the first closed the card and was not free
+      // roam, the article staying ("premise: the first tap closes the card, and the article stays"); that half state is gone.
       await j.advance(600)
       let at = await bareMap(page); expect(at, "premise: bare map").not.toBeNull()
       await tap(page, touch, at!)
-      await settle(j)
-      const first = await screenOf(page)
-      expect({ roam: first.roam, article: first.articleVisibility }, "premise: the first tap closes the card, and the article stays").toEqual({ roam: false, article: "visible" })
-      await j.advance(600)
-      at = await bareMap(page); expect(at, "premise: bare map after the card closed").not.toBeNull()   // picked afresh: the article moved up
-      await tap(page, touch, at!)
-      await roamed(page, j, touch, first, "the second tap", wide)
+      await roamed(page, j, touch, landed, "one press, the card up", wide)
 
       // Claim 3: land again on the node free roam left.
       await landAgain(page, j, touch)
@@ -194,7 +191,6 @@ for (const [width, height, touch] of [[390, 844, false], [390, 844, true], [1440
       expect((await screenOf(page)).articleVisibility, "landing again after the second way: the article returns").toBe("visible")
 
       // Claim 4: from free roam, an article opened on purpose shows (a Principle's row in the drawer).
-      at = await bareMap(page); await tap(page, touch, at!); await settle(j)
       at = await bareMap(page); await tap(page, touch, at!); await settle(j)
       expect((await screenOf(page)).roam, "premise: free roam again").toBe(true)
       await press(page, j, touch, ".ng-logo", "the drawer button")

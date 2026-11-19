@@ -645,7 +645,14 @@ test("a mouse can drag the option row, and a drag is not a pick", async ({ page 
  * those choices using the latest odds. M17 restores the old card-only branch and
  * fails the fresh-journey assertion below.
  */
-test("background taps: close the card, then free roam — and a node click stages fresh", async ({
+// BGCLOSE (v1.294.0; the owner, 19 Nov 2026). This journey was THE pin of the background ladder of v1.134.0: "background taps:
+// close the card, then free roam, and a node click stages fresh". Tap 1 closed the card and kept the hand (asserted: the hand
+// survived, roam false); tap 2 was free roam. The owner replaced his ladder: one press on the bare map closes the page whole.
+// Re-pointed, claim by claim: the same-node orb's fresh journey with the same hand (it never needed the first tap: asserted
+// as loaded now); ONE press reaches what the second tap reached (the card and the hand gone, both steps' beats, free roam);
+// a node click from there stages fresh. What is no longer claimed, because it is no longer true: "the hand survived" a
+// press on the map. The address, the title, Back and Forward are map-press-closes-page.spec.ts's.
+test("one press on the bare map closes the card and the hand at once (free roam), and a node click stages fresh", async ({
   page,
 }) => {
   const j = journey(page)
@@ -693,18 +700,6 @@ test("background taps: close the card, then free roam — and a node click stage
     await page.mouse.click(point.x, point.y)
   }
 
-  // tap 1: the card closes, the hand stays
-  await clickBackground()
-  await j.advance(300)
-  const after1 = await page.evaluate(() => {
-    const a: any = (window as any).__neural
-    return { card: !!a._landEl, tray: (a.optionIdxs || []).length, beats: (a.beats || []).slice(-3).map((b: any) => b.beat), roam: !!a._roam }
-  })
-  expect(after1.card, "the card closed").toBe(false)
-  expect(after1.tray, "the hand survived").toBeGreaterThan(0)
-  expect(after1.beats, "the dismissal is named").toContain("land_dismissed")
-  expect(after1.roam).toBe(false)
-
   // The same-node orb starts a fresh journey with exactly the same legal choices.
   const beforeRestage = await page.evaluate(() => {
     const a = (window as any).__neural
@@ -720,18 +715,18 @@ test("background taps: close the card, then free roam — and a node click stage
   expect(restaged.hand.sort((a: number, b: number) => a - b), "exact legal hand membership survives the restage")
     .toEqual(beforeRestage.hand.sort((a: number, b: number) => a - b))
   expect({ paused: restaged.paused, played: restaged.played }).toEqual({ paused: true, played: false })
-  await clickBackground()
 
-  // tap 2: free roam — tray gone, camera pulled back
+  // ONE press: the card and the hand go together, with both steps' beats, and the board is in free roam
+  const from = await page.evaluate(() => ((window as any).__neural.beats || []).length)
   await clickBackground()
   await j.advance(300)
-  const after2 = await page.evaluate(() => {
+  const after = await page.evaluate((from) => {
     const a: any = (window as any).__neural
-    return { roam: !!a._roam, tray: (a.optionIdxs || []).length, beats: (a.beats || []).slice(-2).map((b: any) => b.beat) }
-  })
-  expect(after2.roam, "free roam").toBe(true)
-  expect(after2.tray, "no hand in roam").toBe(0)
-  expect(after2.beats).toContain("roam_entered")
+    return { card: !!a._landEl, roam: !!a._roam, tray: (a.optionIdxs || []).length, beats: (a.beats || []).slice(from).map((b: any) => b.beat) }
+  }, from)
+  expect([after.card, after.tray, after.roam], "one press: the card closed, no hand left, free roam").toEqual([false, 0, true])
+  expect(after.beats, "the dismissal is named").toContain("land_dismissed")
+  expect(after.beats).toContain("roam_entered")
 
   // a node click stages fresh — the surfaces come back whole
   await clickCurrentNode()

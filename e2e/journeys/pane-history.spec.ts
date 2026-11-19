@@ -301,8 +301,8 @@ test("free roam files the roll it ends, and Last rolls repaints without waiting 
   await page.locator("[data-hist-current]").click()
   await expect(page.locator("[data-hist-show]"), "premise: the latest row's two actions are shown").toBeVisible()
 
-  // tap 1 closes the landing card, tap 2 is free roam (the ladder pinned by roll-card.spec.ts)
-  await page.evaluate(() => (window as any).__neural._tapBackground())
+  // one press on the bare map is free roam (BGCLOSE, v1.294.0: it was a ladder of two, the first closing the card only;
+  // this called the function twice for it. roll-card.spec.ts and map-press-closes-page.spec.ts pin the one press.)
   await page.evaluate(() => (window as any).__neural._tapBackground())
 
   expect(

@@ -45,7 +45,8 @@ import { journey } from "../dsl"
  *   C1 the first press leaves the half state again (the card step returns before the rest) → "…closes the page whole…" at
  *      "one press: nothing of the page is left on the screen"
  *   C2 the address is not written → the same journey at "the address is the site's root, and the title the site's own"
- *   C3 the close replaces the page's entry instead of pushing one → at "Back brings the page back, whole, with its address"
+ *   C3 the close replaces the page's entry instead of pushing one (so Back would leave the site) → at "written as a new
+ *      entry, which carries the close's mark"
  *   C4 the boot does not know the closed entry (it deals the root's own roll) → at "Forward closes it again"
  *   C5 the close's mark rides on into the next entry (the one writer does not drop it) → at "a press on a node opens its
  *      page, on an entry of its own with no mark of the close", and at "Forward onto that page restores it"
@@ -55,6 +56,14 @@ import { journey } from "../dsl"
  *      "the film is over and the page is whole", and "a press outside the account's menu…" at "the menu is shut and the
  *      page is whole"
  *   C8 the roll is not filed by the close → "a roll two moves in…" at "it is filed under Previous rolls with its states"
+ *   C9 a reload on the closed entry stands the map alone too (any boot, not only a remount) → "a reload on the closed
+ *      entry…" at "a reload on the closed entry deals the root's own roll"
+ *   C10 the press outside the account's menu is not marked as spent → "a press that has closed something else…" at "the
+ *      menu is shut and the page is whole" (the two mouse sizes; on a phone that tap is the drawer's own and is consumed)
+ *   C11 the press outside a list menu is not marked → seat-star.spec.ts, "…outside…" at "a press outside closes the menu,
+ *      and the page stays"
+ *   C12 the press that ends a film is not spent → "a press that has closed something else…" at "the film is over and the
+ *      page is whole"
  * NOT COVERED: a Principle's, a Learning entry's and a System's page, which stay under a press on the map (reference law:
  * free-roam-article.spec.ts pins it); the press that ends a LOOK (last-rolls-places.spec.ts) and the one outside a LIST
  * menu (seat-star.spec.ts; the same line as the account's menu); a share preview (/l/), whose address stays for every
@@ -141,6 +150,19 @@ const stored = (page: Page) => page.evaluate(() => {
 })
 const changed = (a: Record<string, string>, b: Record<string, string>) => Object.keys({ ...a, ...b }).filter((k) => a[k] !== b[k]).sort()
 
+/** the owner's page as loaded, with its real article, questions and videos; every part a premise */
+async function arrived(page: Page) {
+  const j = journey(page)
+  await j.boot(PAGE, { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", (route) => route.continue()) } })
+  await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible()
+  await j.advance(1500)
+  await j.readerLayoutSettled()
+  await expect.poll(async () => { await j.advance(200); const s = await seen(page); return s.sections > 3 && s.question && s.videos && s.hand > 0 }, { message: "premise: the page is up whole: its sections, its question, its videos and its hand" }).toBe(true)
+  const s = await seen(page)
+  expect([s.address, s.title, s.roam], "premise: the address and the title are the page's").toEqual([PAGE, PAGE_TITLE, false])
+  return { j, was: s }
+}
+
 for (const size of SIZES) {
   test.describe(`a press on the bare map, ${size.name}`, () => {
     test.use(size.touch ? { viewport: { width: size.width, height: size.height }, hasTouch: true, isMobile: true } : { viewport: { width: size.width, height: size.height } })
@@ -156,18 +178,6 @@ for (const size of SIZES) {
       expect(at, `${what}: on the screen`).not.toBeNull()
       expect(at!.ok, `${what}: it is what a press at (${Math.round(at!.x)},${Math.round(at!.y)}) reaches`).toBe(true)
       await press(page, at!)
-    }
-    /** the owner's page as loaded, with its real article, questions and videos; every part a premise */
-    async function arrived(page: Page) {
-      const j = journey(page)
-      await j.boot(PAGE, { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", (route) => route.continue()) } })
-      await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible()
-      await j.advance(1500)
-      await j.readerLayoutSettled()
-      await expect.poll(async () => { await j.advance(200); const s = await seen(page); return s.sections > 3 && s.question && s.videos && s.hand > 0 }, { message: "premise: the page is up whole: its sections, its question, its videos and its hand" }).toBe(true)
-      const s = await seen(page)
-      expect([s.address, s.title, s.roam], "premise: the address and the title are the page's").toEqual([PAGE, PAGE_TITLE, false])
-      return { j, was: s }
     }
     /** the page back whole after a history step or a press (the reader and its parts settle over a few frames) */
     const whole = async (page: Page, why: string) => {
@@ -391,6 +401,25 @@ for (const size of SIZES) {
     })
   })
 }
+
+test.describe("the closed entry reloaded, 1074x796 by mouse", () => {
+  test.use({ viewport: { width: 1074, height: 796 } })
+  // "A reload at the root does what the root does today; that is not changed" (the ruling). History's state outlives a
+  // reload, so the reloaded root still carries the close's mark; only a REMOUNT in the same document stands the map alone.
+  test("a reload on the closed entry does what the root does: a roll at a start position, its own address, not the map alone", async ({ page }) => {
+    const { j } = await arrived(page)
+    const at = await bare(page)
+    await page.mouse.click(at!.x, at!.y)
+    await j.advance(600)
+    const shut = await seen(page)
+    expect([partsOf(shut), shut.address, shut.mark], "premise: one press closed the page, the address the root, the entry marked").toEqual([NOTHING, "/", true])
+    await page.reload()
+    await expect.poll(async () => { await frames(page, 500); const s = await seen(page); return !!s && !s.intro }, { message: "premise: the reloaded app's opening is over", timeout: 30000 }).toBe(true)
+    await expect.poll(async () => { await frames(page, 500); const s = await seen(page); return !!s && s.hand > 0 }, { message: "a reload on the closed entry deals the root's own roll", timeout: 30000 }).toBe(true)
+    const s = await seen(page)
+    expect([s.roam, s.states, s.address !== "/"], "a reload on the closed entry does what the root does: a roll at a start position, the address that position's").toEqual([false, 1, true])
+  })
+})
 
 test.describe("on a phone with the drawer open, 390x631 by touch", () => {
   test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })

@@ -29,20 +29,22 @@ const spec = 'free-roam-article.spec.ts'
 const SET = 'this.clearEngagement(),this._putReaderAway(!0),this.setPaused(!0)', UNSET = 'this.clearEngagement(),this.setPaused(!0)'
 const LIFT = 'return(r||this._readerAway)&&this._putReaderAway(r),(o=this._reader)==null?void 0:o.open(n)', NOLIFT = 'return(o=this._reader)==null?void 0:o.open(n)'
 const BACKSTOP = ',this._readerAway&&this._putReaderAway(o>0||this._landIdx==null),o}'
+// BGCLOSE (v1.294.0): the first way into free roam is one press now; the claims below name that step ("one press, the card up",
+// was "the second tap"). The minified forms were not re-derived on this build: re-derive before a rerun.
 // [name, spec, grep, mutate(bundle), claim]
 const controls = [
   // Claim 1: the article goes. _enterRoam no longer puts it away.
   ['no-put-away', spec, 'each way in.*\\(390, by touch\\)', s => once(s, SET, UNSET, 'no-put-away'),
-    'free roam: the article is not on screen (the second tap)'],
+    'free roam: the article is not on screen (one press, the card up)'],
   // Claim 1, "never opacity alone": faded, not hidden.
   ['faded-not-hidden', spec, 'each way in.*\\(1440, by mouse\\)', s => once(s, 't.root.style.visibility=e?"hidden":""', 't.root.style.opacity=e?"0":""', 'faded-not-hidden'),
-    'free roam: the article is not on screen (the second tap)'],
+    'free roam: the article is not on screen (one press, the card up)'],
   // Claim 1, the index: it keeps its box in free roam.
   ['index-stays', spec, 'each way in.*\\(1440, by touch\\)', s => once(s, ',this._readerTocEl&&(this._readerTocEl.style.display=e?"none":"")', '', 'index-stays'),
-    'free roam: the index is not on screen (the second tap)'],
+    'free roam: the index is not on screen (one press, the card up)'],
   // Claim 2: the key reads the screen, and the hidden article keeps its box, so `_mapAlone` must read visibility.
   ['key-reads-boxes-only', spec, 'each way in.*\\(390, by mouse\\)', s => once(s, 'i.bottom>0&&i.top<e&&getComputedStyle(s).visibility!=="hidden"', 'i.bottom>0&&i.top<e', 'key-reads-boxes-only'),
-    'free roam is the map alone: the key shows (the second tap)'],
+    'free roam is the map alone: the key shows (one press, the card up)'],
   // Claim 3: nothing lifts the latch.
   ['nothing-lifts', spec, 'each way in.*\\(390, by mouse\\)', s => once(once(s, LIFT, NOLIFT, 'nothing-lifts'), BACKSTOP, ',o}', 'nothing-lifts'),
     'landing again: the article returns'],

@@ -255,7 +255,7 @@ const theRoll = (page: Page) => page.evaluate(() => {
   const a = (window as W).__neural
   return { log: (a.rollLog || []).map((h: W) => h.key as string), stands: a.currentPos as number, hand: (a.optionIdxs || []).join(","), filed: (a._pastRolls || []).length,
     journey: a._journeyId as number, staged: a._staged ?? null, roam: !!a._roam, card: a._landEl && a._landEl.isConnected ? (a._landIdx as number) : null,
-    declined: !!a._landDismissed, url: location.pathname, explored: [...(a._exploredKeys || [])].length }
+    url: location.pathname, explored: [...(a._exploredKeys || [])].length }
 })
 /** a point inside the visible map with a NODE under it that is not the shown place (the app's own hit test), nothing over it */
 const nodePoint = (page: Page, notKey: string) => page.evaluate((k) => {
@@ -908,8 +908,11 @@ test.describe("on a phone, Show on the map is a look: the hold and every way it 
     expect((await state(page)).paused, "after a press on the map the roll runs again").toBe(false)
     expect((await beats(page, "look_ended")).map((b: W) => b.by), "and the hold says how it ended").toEqual(["map"])
     expect((await state(page)).look, "the claim is over").toBe(false)
-    // (until L3-R1 this press went on to the map as a tap: on the background it declined the question or went to free roam)
-    expect(await theRoll(page), "the roll that runs again is the roll that was held: its states, its hand, its card, nothing filed, nothing declined").toEqual(was)
+    // (until L3-R1 this press went on to the map as a tap: on the background it declined the question or went to free roam.
+    // BGCLOSE, v1.294.0: on the background it would now close the whole page; `theRoll` reads the card, free roam and the
+    // address, so that is what "the roll that was held" rules out. Its `declined` field read `_landDismissed`, a record
+    // that is gone with the ladder's first step and would have read false for ever: taken out, not left to pass.)
+    expect(await theRoll(page), "the roll that runs again is the roll that was held: its states, its hand, its card, its address, nothing filed, no free roam").toEqual(was)
     // L3-R2 (the reader's re-read of PR #440): THE PRESS THAT ENDS A LOOK LEAVES THE PLACE NAMED FOR THE CAMERA'S HOLD TIME,
     // however long the look was, so the press after it is the one the name is for (T7); then the name goes. Until then this
     // step said the name was gone 0.8 s after the press (the look over, the first lease spent by the nine seconds).
