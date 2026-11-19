@@ -170,14 +170,24 @@ test("VIDEO2: an unknown reader page waits for its head title; a late cache reco
   assert.equal(document.title, "Half Guard Top | BJJ Position Guide | BJJ Graph");
 });
 
+// BGCLOSE (v1.294.0): the root is a page the app knows the title of now (`NG_SITE_TITLE`: a press on the bare map closes a
+// page and writes the root's address with the site's own title). This test restored the root with the title the session
+// had OBSERVED there, and used a made-up one ("BJJ Graph — home") to show the observed title is what is written where the
+// app has none. At the root the app's own title wins now, as it always did on every page it knows (the last assertion
+// here): so the observed title is the site's, as a browser at the root observes it, and a stale one is corrected. That
+// an unknown page still takes the title it was observed with is the VIDEO2 test above.
 test("P1-E: Back can restore an already observed root URL and title through the shared writer", () => {
+  const SITE = "BJJ Graph - Free BJJ Study App and Technique Map";
   const b = browser("/?origin=practice"), a = app();
-  const origin = { path: location.href, title: "BJJ Graph — home" };
+  const origin = { path: location.href, title: SITE };
   a._pushUrl("/Positions/Mount/Top", {});
   assert.equal(a._writeUrl(origin.path, {}, true, origin.title), true);
   assert.equal(location.pathname, "/");
   assert.equal(location.search, "?origin=practice");
   assert.equal(document.title, origin.title);
+  a._pushUrl("/Positions/Mount/Top", {});
+  assert.equal(a._writeUrl(origin.path, {}, true, "a stale title"), true);
+  assert.equal(document.title, SITE, "the root keeps the site's own title, whatever was observed (BGCLOSE)");
   a._writeUrl("/Positions/Mount/Bottom", {}, true, origin.title);
   assert.equal(document.title, "Mount Bottom | BJJ Position Guide | BJJ Graph", "a known page keeps its canonical title");
 });
