@@ -20434,3 +20434,55 @@ down, two repeats (the page sees one keydown and two with `repeat`), nothing pla
 the card is played, and it is the marked card. **Proof, 19 Nov 06:15 to 06:17, under the lock:** the file clean, 15 of
 15 green; N5 planted in the served bundle, 14 green and 1 red, at "released, the card is played: the key's release
 lifts the repeat"; the bundle rebuilt byte-identical and the file clean again, 15 of 15 green.
+
+### v1.294.0, BGCLOSE: one press on the bare map closes the page, and the address goes to the root (19 Nov 2026)
+
+The owner, on `/Positions/X-Guard/Bottom`, with two screenshots: *"when i click the graph in the bg this happens instead of
+clearing all sections in the article and just revealing the graph in the bg. i don't want some closed sections i want all
+article to be removed from the UI and the url to lose the "/Positions/X-Guard/Bottom" part as irrelevant right? i think it
+makes sense cos if the user clicks outside it's like clicking outside a playing video = closing it."*
+
+**What it was.** A ladder of two, his own word of v1.134.0 ("clicking once on the bg of the graph will close the card,
+clicking it again will deselect and zoom out a little"). Measured on v1.293.3 at 1074x796 by mouse and 390x631 by touch:
+the first press declined the question and took the card and the videos, leaving the hand and every section; the second
+filed or discarded the roll, cleared the hand and put the article and its index away (free roam; U123); a third did
+nothing; the address never moved (nothing on that road wrote it). The first step was not guarding a fault: it let a
+player look at the map without losing the hand.
+
+**What it is.** One press does both steps, in their order and with their beats (`land_q_declined`, `land_dismissed`,
+`roll_archived` or `roll_discarded`, `roam_entered`), and the address becomes the site's root, PUSHED, with the site's own
+title (`_closePage`). A roll under way is filed exactly as free roam filed it; the close stores what the second press
+stored and nothing else (the day's count of rolls and the record's clocks: compared leaf by leaf, dev's two presses
+against the one). Analytics hears nothing new: the address writer sends no event, and PostHog is started with its
+defaults (one page view at load).
+
+**Back and Forward remount the app**, which the survey first got wrong. Quartz's router answers every history step by
+fetching the entry and morphing the page, and the loader mounts a new app on it. So Back is a fresh arrival on the page
+(nothing to build), and Forward is a BOOT on the entry the close wrote, which by default would deal the root's own roll
+and push its address over the forward history. The entry carries a mark (`ngMap`), the one address writer drops it from
+every later entry, and the boot of a remount that finds it stands the map alone (`_seedFromUrl`, `ngBoots`). A reload, or
+a first load that lands on that entry, does what the root does, as ruled (history's state outlives a reload; only a
+remount in the same document is the traversal).
+
+**What retired with the first step.** `_landDismissed`, `_landAway`, `restoreLanding` (v1.253.0: the index row that
+brought "this landing's" card and film back), their three reads in the reader, the unit that pinned the predicate, and
+the "Questions" label with the struck eye: it showed only for a card closed while its preference was on, and the first
+press was the one way into that. A question closed by its own ✕ leaves its message and comes back by Undo, Settings or
+its index row, as before. The reader's deferred bundle is smaller for it.
+
+**Three presses that closed something else and then went on to the map** took the ladder's first step as well: the one
+that ends a film (measured: the film stopped AND the question was declined), the one outside the account's menu and the
+one outside a list menu. With one press closing the page they would have closed the menu, or the film, and the whole page
+with its roll. On the bare map that press now does its one thing (`spent`); on a node it does what it always did.
+
+**The root's title has two homes now** (`content/index.md` and the app's `NG_SITE_TITLE`), so the title gate holds them
+equal: `scripts/check_page_titles.py` compares `_pageTitle("/")` with the built root page, beside every node's (4,466
+pages).
+
+**ORDER1, landed with it (tests only).** One of FOLLOW2's journeys went red on dev's own full run (a6b9160c1,
+`option-reach.spec.ts`, "belts"). Three journeys compared two records with `JSON.stringify` of each field, which reads
+the ORDER a field's keys were written in; the boot writes `belts.gf` when the deck manifest is in and `belts.lvl` at the
+first belt sync, manifest or not, so the two land in either order (the orchestrator, on the preview: 2 visits of 6 one
+way, 4 the other; equal values). The comparison is by value now, at every depth, arrays keeping their order, and a
+difference names the field with both values (`recordDiff`, e2e/dsl.ts). A record's key order means nothing to the app,
+the merge or the cloud, so the app is not changed.
