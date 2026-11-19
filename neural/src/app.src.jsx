@@ -180,6 +180,14 @@ const NG_SITE_TITLE = "BJJ Graph - Free BJJ Study App and Technique Map";
 // App instances booted in this document (BGCLOSE). Quartz's router answers every Back and Forward by fetching the entry
 // and REMOUNTING the app, and the bundle stays resident across those, so this counts them: 1 is the document's own load.
 let ngBoots = 0;
+// THIS VISIT'S SHELF OUTLIVES THE APP INSTANCE (BGCLOSE-R1, F4; the reader of PR #446). Last rolls is the instance's memory
+// (`_pastRolls`), and Back and Forward mount a new instance (above): one press closed a roll and filed it, Back brought the
+// page back and an empty Last rolls, and the roll was lost by the very press offered to get the page back. An instance
+// leaving (`componentWillUnmount`) leaves its shelf here, with its owner; the next instance in this document takes it at
+// its boot when it is the SAME owner (`_takeShelf`), whole: the rolls, their states, their order. A sign-in or a sign-out
+// mounts another owner's instance, which takes nothing: the shelf is lost there exactly as before (the host replaced the
+// instance then too). Document memory only, never storage: a reload empties it, as before; nothing is stored or synced.
+let ngShelf = null;
 const NG_LEGAL_PAGE = /^\/(privacy|terms)(?:\.html|\/)?$/;
 const NG_LAYER_KEYS = { film: "landFilm", card: "landCard", hand: "landHand" };
 const NG_LAYER_ORDER = ["film", "card", "hand"];
@@ -551,8 +559,19 @@ class Component extends DCLogic {
   }
 
   componentDidMount() { return this.boot(); }
+  /** this instance's shelf, left in the document for the next instance, with its owner (`ngShelf`, F4) */
+  _leaveShelf() { ngShelf = this._pastRolls && this._pastRolls.length ? { owner: this._progressOwner, rolls: this._pastRolls } : null; }
+  /** the shelf the instance before this one left in this document, when it was the same owner's (`ngShelf`, F4) */
+  _takeShelf() {
+    const left = ngShelf; ngShelf = null;
+    let same = false;
+    try { same = !!left && ngProgressSameOwner(left.owner, this._progressOwner); } catch (e) { /* no owner: nothing is handed over */ }
+    if (same) this._pastRolls = left.rolls.map((r) => ({ ...r, log: (r.log || []).slice() }));
+    return same;
+  }
   componentWillUnmount() {
     this.__ngDestroyed = true;
+    this._leaveShelf();
     this._reader?.destroy();
     this._motionQuery?.removeEventListener("change", this._motionChanged);
     if (this._settingsRowRO) this._settingsRowRO.disconnect();
@@ -1024,6 +1043,7 @@ class Component extends DCLogic {
 
   // ---------- boot + data ----------
   async boot() {
+    this._takeShelf();
     this._csInit(); // cold-start funnel: armed before anything can emit a beat    // PRE-BOOT RIG — same family of rail as rig()/rigStart()/advance(), but readable before the
     // app instance exists. A page can pin the draws the FIRST roll makes (start-pos, role,
     // ai-skill, max-moves), which is the only way a measurement that must use the real network

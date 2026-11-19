@@ -277,6 +277,61 @@ for (const size of SIZES) {
       expect([picked.pos, picked.role, picked.hand > 0, picked.roam], "Roll from here picks it up: the board set where that roll began, on the side it was played, a hand dealt").toEqual([roll.start, String(roll.role).toLowerCase(), true, false])
     })
 
+    // F4 (BGCLOSE-R1; the reader of PR #446): THE CLOSE'S OWN UNDO KEEPS THE ROLL THE CLOSE FILED. Last rolls was the app instance's
+    // memory, and Back and Forward mount a new instance: close, then Back, gave the page and an empty Last rolls (the reader: filed
+    // `[3]`, after Back `[]`). This visit's shelf is handed from instance to instance in the document (`ngShelf`); a reload empties it,
+    // as before. Back does NOT resume the live roll: the page comes back as a fresh arrival, and the roll is in Last rolls.
+    // Mutants: H1 the handover removed → red at "after Back, Last rolls holds the roll the close filed"; H2 the shelf kept across a
+    // reload (sessionStorage) → red at "a reload empties Last rolls, as before"; H3 another owner takes it → tests/shelf_handover.test.mjs.
+    if (size.width !== 1440) test(`Back after a close keeps the roll the close filed: Last rolls holds it, Forward too, Roll from here picks it up, and a reload empties it as before (${size.width})`, async ({ page }) => {
+      const { j } = await arrived(page)
+      for (let n = 0; n < 2; n++) {
+        await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01])
+        const titles = await j.optionTitles()
+        expect(titles.length, "premise: a hand was dealt").toBeGreaterThan(0)
+        await j.pick(titles[Math.min(n, titles.length - 1)])
+        await j.nextHand()
+      }
+      await j.advance(1500)
+      const roll = await page.evaluate(() => { const a = (window as W).__neural; return { states: (a.rollLog || []).map((h: W) => h.key as string), start: a.rollLog[0].idx as number, role: a.rollLog[0].role as string, address: location.pathname } })
+      expect(roll.states.length, "premise: a roll under way, two moves in").toBeGreaterThanOrEqual(2)
+      const at = await bare(page)
+      expect(at, "premise: a point of bare map").not.toBeNull()
+      await press(page, at!)
+      await j.advance(1500)
+      const shelfOf = () => page.evaluate(() => { const a = (window as W).__neural; return ((a && a._pastRolls) || []).map((r: W) => ({ ts: r.ts as number, states: (r.log || []).map((h: W) => h.key as string) })) })
+      const filed = await shelfOf()
+      expect([filed.length, filed[0]?.states], "premise: the close filed the roll with its states").toEqual([1, roll.states])
+      // BACK: a new app instance, the page where the roll stood as a fresh arrival, and Last rolls holding the roll
+      await markApp(page); await page.goBack(); await remounted(page)
+      await expect.poll(async () => { await frames(page, 300); const s = await seen(page); return !!s && !s.intro && s.address === roll.address && !s.roam }, { message: "premise: Back brings the page where the roll stood", timeout: 30000 }).toBe(true)
+      expect(await shelfOf(), "after Back, Last rolls holds the roll the close filed: its states, its place on the shelf").toEqual(filed)
+      expect((await seen(page)).states, "and Back does not resume the live roll: the page is a fresh arrival").toBeLessThanOrEqual(1)
+      await pressOn(page, ".ng-logo", "the logo")
+      await pressOn(page, '[data-view="history"]', "Last rolls")
+      await expect(page.locator("[data-past-roll]"), "its row is in Last rolls, the one row").toHaveCount(1)
+      await expect(page.locator(`[data-roll-from="${filed[0].ts}"]`), "with its Roll from here").toHaveCount(1)
+      await pressOn(page, ".ng-explorer-close", "shut the drawer")
+      await frames(page, 800)
+      // FORWARD: the closed map, a new instance again, the shelf still held
+      await markApp(page); await page.goForward(); await remounted(page)
+      await alone(page, "Forward is the closed map again")
+      expect(await shelfOf(), "after Forward, Last rolls still holds it").toEqual(filed)
+      // ROLL FROM HERE picks it up
+      await pressOn(page, ".ng-logo", "the logo")
+      await pressOn(page, '[data-view="history"]', "Last rolls")
+      await pressOn(page, `[data-roll-from="${filed[0].ts}"]`, "the filed roll's Roll from here")
+      await expect(page.locator(".ng-cf-yes"), "it asks first").toBeVisible()
+      await pressOn(page, ".ng-cf-yes", "yes")
+      await frames(page, 1500)
+      const picked = await page.evaluate(() => { const a = (window as W).__neural; return { pos: a.currentPos as number, role: a.playerRole as string, hand: (a.optionIdxs || []).length as number, roam: !!a._roam } })
+      expect([picked.pos, picked.role, picked.hand > 0, picked.roam], "Roll from here picks it up: the board set where that roll began, on the side it was played").toEqual([roll.start, String(roll.role).toLowerCase(), true, false])
+      // A RELOAD empties the shelf, as before: it was never stored
+      await page.reload()
+      await expect.poll(async () => { await frames(page, 500); const s = await seen(page); return !!s && !s.intro }, { message: "premise: the reloaded app's opening is over", timeout: 30000 }).toBe(true)
+      expect(await shelfOf(), "a reload empties Last rolls, as before").toEqual([])
+    })
+
     test(`a pan, a wheel and a press on a node are not a press on the bare map: the page stays (${size.width})`, async ({ page }) => {
       const { j, was } = await arrived(page)
       const at = (await bare(page))!
