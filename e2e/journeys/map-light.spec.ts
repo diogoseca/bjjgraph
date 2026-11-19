@@ -21,7 +21,8 @@ import { journey } from "../dsl"
  * docs/Changelog-Archive.md, v1.295.0):
  *   J1  the layer at 0.8 (B's own strength)                          → "…lights the place" at "the map steps back to 40%"
  *   J2  no hole for the place's pair                                  → the same test, at "the place's orbs are not dimmed"
- *   J3  the layer drawn after the names                               → the same test, at "the place's name is not dimmed"
+ *   J3  the layer drawn after the names                               → the same test, at "the place's name is not dimmed" (its
+ *       first reading kept the name's letters inside the place's own hole, red at 390 only: the name is read outside the holes)
  *   J4  no hole for the moves                                         → the same test, at "the moves it deals stand clear"
  *   J5  the light over a running game (`_lightOf` without `paused`)   → "…the drawer shut by Esc…" at "the game runs: the light
  *                                                                        is out", and the phone's at "…the light goes"
@@ -125,9 +126,10 @@ const emptyMapPoint = (page: Page) => page.evaluate(() => {
  *   plain  points of the visible map at least 3 px beyond every hole's soft edge and every mark, and 12 px clear of every
  *          name either frame wrote (a name's shadow darkens round it): lit, and what the layer would make of the control
  *          (60% of it plus 40% of rgb(7, 8, 16)), channel by channel;
- *   holes  each lit orb's centre, lit and control (a hole's centre 12 px clear of every name);
- *   name   the brightest pixel inside the place's own name, lit: white text (240 to 248) whose anti-aliased 13 px glyphs read
- *          221 to 223 at their brightest under no layer; under the layer they would read at most 0.6 x 248 + 6 = 155.
+ *   holes  each lit move's centre where the light cut its hole, and each orb of the place where the frame draws it (its own
+ *          lift and camera, not the light's record), lit and control, each 12 px clear of every name;
+ *   name   the brightest pixel of the place's own name OUTSIDE every hole's soft edge, lit: white text (240 to 248) whose
+ *          anti-aliased 13 px glyphs read 221 to 223 at their brightest under no layer; under the layer at most 155.
  * The light's own state (`_shown`, its strength and clocks) is put back exactly after the control frame.
  */
 const ink = (page: Page) => page.evaluate(() => {
@@ -155,18 +157,30 @@ const ink = (page: Page) => page.evaluate(() => {
     const p = px(lit.ctx, x, y), q = px(ctl.ctx, x, y), want = q.map((v, i) => 0.6 * v + 0.4 * [7, 8, 16][i])
     plain.push({ x, y, p, q, off: +Math.max(...p.map((v, i) => Math.abs(v - want[i]))).toFixed(1) })
   }
-  const holes = L.holes.filter((h: W) => !nearName(h.x, h.y, 12)).map((h: W) => {
-    const p = px(lit.ctx, h.x, h.y), q = px(ctl.ctx, h.x, h.y)
-    return { i: h.i, place: h.place, p, q, dimmed: Math.max(...q.map((v, i) => v - p[i])) }
-  })
-  const own = lit.names.find((b: W) => (b.i === L.place || b.i === a.nodes[L.place].pi) && b.w === "hover")
-  let name = -1
+  const read = (i: number, x: number, y: number, place: boolean) => {
+    const p = px(lit.ctx, x, y), q = px(ctl.ctx, x, y)
+    return { i, place, p, q, dimmed: Math.max(...q.map((v, k) => v - p[k])) }
+  }
+  // the MOVES where the light says it cut their holes; the PLACE where the frame draws its two orbs (`pairMid` is not the
+  // orb: each half through the frame's own lift `_LY` and camera, as last-rolls-places.spec.ts's `orbPoint`), so a light
+  // that cut no hole for the place cannot pass by having nothing to read
+  const sc = a.W / a.cam.vw, shown = a.nodes[L.place], at = (n: W) => ({ x: a.W / 2 + (n.x - a.cam.cx) * sc, y: a.H / 2 + (a._LY(n) - a.cam.cy) * sc })
+  const holes = L.holes.filter((h: W) => !h.place && !nearName(h.x, h.y, 12)).map((h: W) => read(h.i, h.x, h.y, false))
+  for (const n of [shown, shown.pi >= 0 ? a.nodes[shown.pi] : null]) if (n) { const o = at(n); if (!nearName(o.x, o.y, 12)) holes.push(read(n.idx, o.x, o.y, true)) }
+  // the place's own name, its brightest pixel OUTSIDE every hole's soft edge: its first letters can sit in the place's own
+  // hole, where a layer drawn over the names would leave them bright anyway
+  const own = lit.names.find((b: W) => (b.i === L.place || b.i === shown.pi) && b.w === "hover")
+  let name = -1, nameOut = 0
   if (own) {
-    const x0 = Math.floor(own.l * dpr), y0 = Math.floor(own.t * dpr), d = lit.ctx.getImageData(x0, y0, Math.max(1, Math.ceil(own.r * dpr) - x0), Math.max(1, Math.ceil(own.b * dpr) - y0)).data
-    for (let i = 0; i < d.length; i += 4) name = Math.max(name, d[i], d[i + 1], d[i + 2])
+    const x0 = Math.floor(own.l * dpr), y0 = Math.floor(own.t * dpr), w = Math.max(1, Math.ceil(own.r * dpr) - x0), d = lit.ctx.getImageData(x0, y0, w, Math.max(1, Math.ceil(own.b * dpr) - y0)).data
+    for (let i = 0; i < d.length; i += 4) {
+      const x = (x0 + (i / 4) % w) / dpr, y = (y0 + Math.floor(i / 4 / w)) / dpr
+      if (L.holes.some((h: W) => Math.hypot(x - h.x, y - h.y) < h.r * 1.35 + 2)) continue
+      nameOut++; name = Math.max(name, d[i], d[i + 1], d[i + 2])
+    }
   }
   const hand = new Set((a._dealtOpts(L.place, a.nodes[L.place].role === "bottom" ? "bottom" : "top") || []).map((o: W) => o.idx))
-  return { L: { k: L.k, place: L.place, holes: L.holes.length, moves: L.holes.filter((h: W) => !h.place).map((h: W) => h.i), marks: L.marks.length }, plain, holes, name, hand: [...hand] }
+  return { L: { k: L.k, place: L.place, holes: L.holes.length, moves: L.holes.filter((h: W) => !h.place).map((h: W) => h.i), marks: L.marks.length }, plain, holes, name, nameOut, hand: [...hand] }
 })
 
 for (const [label, vp] of [["mouse 1440x900 dpr 1", { viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1 }],
@@ -196,6 +210,7 @@ for (const [label, vp] of [["mouse 1440x900 dpr 1", { viewport: { width: 1440, h
       expect(moves.length, "premise: the moves it deals stand clear: three or more are in view").toBeGreaterThanOrEqual(3)
       for (const h of moves) expect(h.dimmed, `the moves it deals stand clear (move ${h.i}: ${h.p} against ${h.q})`).toBeLessThanOrEqual(2)
       expect(r.L!.moves.every((i: number) => r.hand!.includes(i)), "every move lit is one the place deals").toBe(true)
+      expect(r.nameOut, "premise: the place's name reaches past the holes (its pixels there are read)").toBeGreaterThan(40)
       expect(r.name, "the place's name is not dimmed: it is drawn after the light (a dimmed name reads 155 at most)").toBeGreaterThanOrEqual(200)
       expect(await named(page), "and the map still names the place").toBe(true)
     })
