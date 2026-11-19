@@ -172,6 +172,13 @@
   .ng-actchip:hover{background:rgba(255,255,255,.1);border-color:rgba(150,180,255,.5);color:#dbe2f0;}
   .ng-actchip:active{transform:translateY(1px);background:rgba(255,255,255,.07);}
   .ng-actchip:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:2px;}
+  /* A THUMB'S ▶ (LISTS-R, ruling 5): on a phone a list's item row makes ▶ a 44px target, and the boxed 24px chip is drawn
+     INSIDE that transparent box, so the glyph and its outline look as they always did while the press area is a thumb's. */
+  .ng-actchip.ng-thumb{position:relative;width:44px;height:44px;border-color:transparent;background:transparent;border-radius:11px;}
+  .ng-actchip.ng-thumb::before{content:"";position:absolute;inset:10px;box-sizing:border-box;border:1px solid rgba(150,170,210,.28);border-radius:7px;background:rgba(255,255,255,.05);pointer-events:none;}
+  .ng-actchip.ng-thumb>svg{position:relative;}
+  .ng-actchip.ng-thumb:hover{background:transparent;border-color:transparent;}
+  .ng-actchip.ng-thumb:hover::before{background:rgba(255,255,255,.1);border-color:rgba(150,180,255,.5);}
   .ng-caret{flex:none;display:inline-flex;align-items:center;justify-content:center;color:#5d6883;}
   .ng-caret svg{transition:transform .16s ease;}
   .ng-caret[data-open="0"] svg{transform:rotate(-90deg);}

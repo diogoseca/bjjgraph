@@ -4809,7 +4809,10 @@ class Component extends DCLogic {
       this.badges = Object.assign({}, p.badges || {});
       this.coins = Object.assign({}, p.coins || {});
       // lists ride the EXISTING v2 blob: a coach's class list is not worth a schema migration
-      this.lists = ngListsNormalize(p.lists);
+      // A MOVE'S CELLS (LISTS-R, `listItemAt`; lists.src.js above `NG_LIST_MARK_CAP`): read, then applied to the lists
+      // read with them, so an older client's re-union (X back in the source) is healed even on a plain load
+      this.listItemAt = ngListMarksNormalize(p.listItemAt);
+      this.lists = ngListsApplyMarks(ngListsNormalize(p.lists), this.listItemAt);
       // the roll ledger (v1.137.0) and the visited-state set. `_exploredKeys` was in memory
       // only until now, which is why the "very weak" tier emptied on every reload.
       this.flow = this._trimFlow(Object.assign({}, p.flow || {}));
@@ -4854,6 +4857,9 @@ class Component extends DCLogic {
     // `moves` (v1.255.0) is written only once it holds a cell (review R4): an account that never graded a move
     // saves exactly the blob v1.254.0 saves, and an open older tab is never handed a `moves` copy to push back.
     if (Object.values(this.moves || {}).some(row => row && Object.keys(row).length)) out.moves = this.moves; else delete out.moves;
+    // `listItemAt` (LISTS-R) the same way: written once it holds a cell, so an account that never moved an item saves
+    // the blob it saved before (and the extras copy of an older shape never outlives the read above)
+    if (ngListMarksCount(this.listItemAt)) out.listItemAt = this.listItemAt; else delete out.listItemAt;
     // `openAt` and `recallCarry` (v1.270.0, U163 c) once set; an older client keeps both through `_progressExtras`
     if (this._openAt > 0) out.openAt = this._openAt;
     if (this._recallCarry) out.recallCarry = true;
@@ -8356,7 +8362,12 @@ class Component extends DCLogic {
         );
         // ADD-WINS, beside the collectibles' UNION: union of lists, union of their items. A
         // delete loses to a stale device — deliberate (see ngMergeLists).
-        this.lists = ngMergeLists(this.lists || {}, cloud.lists || {});
+        // ...and a MOVE stays a move (LISTS-R): the two copies' cells first (per cell the later stamp, a tie to "in"),
+        // then the union with them applied (lists.src.js, `ngListsApplyMarks`: the no-loss guard). An older client that
+        // pushed the union alone is healed here; one that pushed a stale copy of the cells loses only the cells this
+        // copy does not hold, and this copy's push puts them back (the merge differs from the cloud).
+        this.listItemAt = ngListMarksMerge(this.listItemAt || {}, cloud.listItemAt);
+        this.lists = ngMergeLists(this.lists || {}, cloud.lists || {}, this.listItemAt);
         this._syncWhiteChallengeCompatibility(cloud.updatedAt || 0);
         const localAt = this._progressAt || 0;
         if (cloud.settings) {
@@ -10378,6 +10389,9 @@ class Component extends DCLogic {
     if (l.items.indexOf(nodeId) >= 0) return { added: false, listId: id, reason: "already" };
     if (l.items.length >= NG_LIST_ITEM_CAP) return { added: false, listId: id, reason: "full" };
     l.items.push(nodeId); l.t = this._listStamp();
+    // a re-add into a list a MOVE once took this item out of: its cell must say "in" now, later than that "out", or the
+    // next merge takes it out again (LISTS-R). Only where a cell exists: an ordinary add writes none.
+    if (this.listItemAt && this.listItemAt[id] && this.listItemAt[id][nodeId]) this.listItemAt = ngListMarksSet(this.listItemAt, id, nodeId, this._listMarkStamp(), 1);
     this._saveProgress();
     // AUTO-EXPAND THE LIST YOU JUST ADDED TO. The owner's ask is literally "see the listed
     // techniques AFTER ADDING": a + pressed while the pane is open has to land somewhere the
@@ -10397,6 +10411,76 @@ class Component extends DCLogic {
     if (!l.items.length) delete m[id];
     this._saveProgress();
     if (this._listFocusId === id && !m[id]) this.clearFocus();
+    return true;
+  }
+  /** A cell's stamp: a list stamp (`_listStamp`, above every list's `t`) that is also later than every cell held, so a
+   *  move or an undo made after seeing another device's cells is later than each of them. */
+  _listMarkStamp() { return Math.max(this._listStamp(), ngListMarksNewest(this.listItemAt) + 1); }
+  /**
+   * MOVE one item from one list to another (LISTS-R; the owner, 19 Nov: "or move items between lists"). ONE step, in this
+   * order: refuse first (no such list, not in the source, the target full), ADD to the target, then TAKE OUT of the
+   * source, one stamp, ONE save (one persist, one push), so no moment ever holds the item in no list. Two cells record it
+   * (`listItemAt`: out of the source, into the target), which is what keeps it a move on every other device (lists.src.js,
+   * `ngListsApplyMarks`). A target that already holds the item only loses the source copy. A source the move empties is
+   * gone, as an emptied list always is, and its Undo brings it back. `via` rides the event: "menu" | "drag".
+   */
+  moveListItem(nodeId, fromId, toId, via) {
+    nodeId = this.siteIdOf(nodeId);   // a list holds SITES — see siteIdOf
+    const m = this._listsMap(), from = m[fromId], to = m[toId];
+    if (!from || !to) return { moved: false, reason: "no_list" };
+    if (fromId === toId) return { moved: false, reason: "same" };
+    const at = from.items.indexOf(nodeId);
+    if (at < 0) return { moved: false, reason: "not_in_source" };
+    const had = to.items.indexOf(nodeId) >= 0;
+    if (!had && to.items.length >= NG_LIST_ITEM_CAP) return { moved: false, reason: "full" };
+    const undo = { kind: "move", node: nodeId, from: fromId, to: toId, at, had, fromName: from.name, toName: to.name,
+      source: from.items.length === 1 ? { name: from.name, items: from.items.slice(), t: from.t } : null };
+    const t = this._listMarkStamp();
+    if (!had) to.items.push(nodeId);
+    to.t = t + 1;   // the target sorts first (`listsArray`): it is where the item went
+    from.items.splice(at, 1); from.t = t;
+    this.listItemAt = ngListMarksSet(ngListMarksSet(this.listItemAt, fromId, nodeId, t, 0), toId, nodeId, t, 1);
+    if (!from.items.length) delete m[fromId];
+    if (this._listFocusId === fromId) this.clearFocus();
+    this._saveProgress();
+    this._expandList(toId);
+    this._landList = { id: toId, node: nodeId };   // the next render brings the moved item into view
+    this._armMoveUndo(undo);
+    this.track("neural_list_item_moved", { via: via === "drag" ? "drag" : "menu", count: to.items.length });
+    return { moved: true, already: had, count: to.items.length, emptied: !m[fromId] };
+  }
+  /** The move's Undo (the one slot `_undoList` the delete uses: the newest offer wins and the row names what it undoes).
+   *  It writes NEWER cells, so it syncs like the move: back into the source at its old place, out of the target unless
+   *  the target held it before; a source the move emptied comes back whole. */
+  _armMoveUndo(rec) {
+    this._undoList = Object.assign({ t: Date.now() }, rec);
+    if (this._undoT) clearTimeout(this._undoT);
+    const mine = this._undoList;
+    // real setTimeout, not the sim clock: this is UI patience, not game time (the delete's 90 s)
+    this._undoT = setTimeout(() => { if (this._undoList === mine) { this._undoList = null; this._refreshListSurfaces(); } }, 90000);
+  }
+  undoMoveListItem() {
+    const u = this._undoList; if (!u || u.kind !== "move") return false;
+    this._undoList = null;
+    const m = this._listsMap(), t = this._listMarkStamp();
+    if (!m[u.from]) {
+      if (!u.source) return false;
+      m[u.from] = { name: u.source.name, items: u.source.items.slice(), t: t };
+    } else if (m[u.from].items.indexOf(u.node) < 0) {
+      if (m[u.from].items.length >= NG_LIST_ITEM_CAP) return false;
+      m[u.from].items.splice(Math.min(u.at, m[u.from].items.length), 0, u.node); m[u.from].t = t;
+    }
+    let marks = ngListMarksSet(this.listItemAt, u.from, u.node, t, 1);
+    const to = m[u.to];
+    if (!u.had) {
+      marks = ngListMarksSet(marks, u.to, u.node, t, 0);
+      if (to) { const i = to.items.indexOf(u.node); if (i >= 0) { to.items.splice(i, 1); to.t = t; } if (!to.items.length) delete m[u.to]; }
+    }
+    this.listItemAt = marks;
+    this._saveProgress();
+    this._expandList(u.from);
+    this.setEvent("Moved back", "to “" + m[u.from].name + "”", "good");
+    this._refreshListSurfaces();
     return true;
   }
   /**
@@ -11034,7 +11118,7 @@ class Component extends DCLogic {
     try { this._pickEl.remove(); } catch (e) { /* non-fatal */ }
     this._pickEl = null;
     if (this._pickAway) { document.removeEventListener("pointerdown", this._pickAway, true); this._pickAway = null; }
-    const a = this._pickAnchor; this._pickAnchor = null; this._pickNode = null;
+    const a = this._pickAnchor; this._pickAnchor = null; this._pickNode = null; this._pickMove = null;
     if (a) { try { a.setAttribute("aria-expanded", "false"); a.focus(); } catch (e) { /* non-fatal */ } }
     return true;
   }
@@ -11072,9 +11156,13 @@ class Component extends DCLogic {
     el.style.left = left + "px";
     el.style.top = top + "px";
   }
-  openListPicker(nodeId, surface, anchor) {
+  openListPicker(nodeId, surface, anchor, opts) {
     nodeId = this.siteIdOf(nodeId);   // the picker's ✓ must read the id the list will hold
     this.closeListPicker();
+    // THE SAME MENU MOVES AN ITEM (LISTS-R): opened from an item's ⇄ inside a list it is the star's own menu in a move
+    // mode (`_pickMove` = the list the item leaves), so a phone, where a drag fights the scroll and the drawer's swipe,
+    // moves an item with the control it already knows. A move is one verb; copying stays with the star.
+    const moveFrom = opts && opts.moveFrom && this._listsMap()[opts.moveFrom] ? opts.moveFrom : null;
     this.closeAccountMenu();
     const root = this.__ngRoot || document.body;
     const el = document.createElement("div");
@@ -11082,13 +11170,14 @@ class Component extends DCLogic {
     el.setAttribute("data-list-picker", nodeId);
     el.setAttribute("data-list-surface", surface || "unknown");
     el.setAttribute("role", "menu");
-    el.setAttribute("aria-label", "Add to list");
+    el.setAttribute("aria-label", moveFrom ? "Move to list" : "Add to list");
+    if (moveFrom) el.setAttribute("data-list-picker-move", moveFrom);
     // Z LADDER (helmet.html): 90-99 is the deliberate-temporary-screen band. The picker is a
     // screen the user asked for, so it must not be underdrawn by the landing card (5), the
     // option sheet; it sits with the account menu at 90, under the modal 95.
     el.style.cssText = "position:fixed;z-index:90;pointer-events:auto;display:flex;flex-direction:column;";
     root.appendChild(el);
-    this._pickEl = el; this._pickNode = nodeId; this._pickAnchor = anchor || null;
+    this._pickEl = el; this._pickNode = nodeId; this._pickAnchor = anchor || null; this._pickMove = moveFrom;
     // ZERO LISTS AND ONE LIST ARE NOT DEFAULTS — THEY ARE THE ABSENCE OF A CHOICE. With no list
     // the create row IS the picker (the name field opens prefilled "Class · <date>", offered and
     // never demanded); with one list, that list is the only row beside "New list". Neither files
@@ -11120,7 +11209,8 @@ class Component extends DCLogic {
     head.className = "ng-listpicker-head";
     // the technique being filed, named in FULL — the picker is where a mis-file is prevented,
     // so it cannot be vague about which of the 35 Kimuras is going where
-    head.innerHTML = '<b>Add to list</b><small>' + this.escHTML(this.listItemName(nodeId)) + '</small>';
+    const moveFrom = this._pickMove;
+    head.innerHTML = '<b>' + (moveFrom ? "Move to list" : "Add to list") + '</b><small>' + this.escHTML(this.listItemName(nodeId)) + '</small>';
     el.appendChild(head);
     const body = document.createElement("div");
     body.className = "ng-listpicker-body";
@@ -11129,6 +11219,7 @@ class Component extends DCLogic {
     for (const id of this.listsArray()) {
       const l = m[id]; if (!l) continue;
       const on = l.items.indexOf(nodeId) >= 0;
+      if (moveFrom) { body.appendChild(this._moveRow(id, l, nodeId, moveFrom, on)); continue; }
       const b = document.createElement("button");
       b.type = "button";
       b.setAttribute("role", "menuitemcheckbox");
@@ -11159,7 +11250,7 @@ class Component extends DCLogic {
       let done = false;
       const commit = () => {
         if (done) return; done = true;
-        this.createListWith(inp.value, nodeId);
+        if (moveFrom) this.createListMove(inp.value, nodeId); else this.createListWith(inp.value, nodeId);
       };
       inp.addEventListener("keydown", (e) => {
         e.stopPropagation(); // the editor owns the keyboard: A/B/C, digits, and Esc
@@ -11192,6 +11283,53 @@ class Component extends DCLogic {
       });
       el.appendChild(nb);
     }
+  }
+  /** A row of the picker in its MOVE mode. The list the item is in now is shown and cannot be chosen ("here"); a list
+   *  that holds the item already is chosen all the same (the move then only takes it out of here); a full one cannot be. */
+  _moveRow(id, l, nodeId, moveFrom, on) {
+    const here = id === moveFrom, full = !on && l.items.length >= NG_LIST_ITEM_CAP;
+    const b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("role", "menuitem");
+    b.setAttribute("data-list-pick", id);
+    b.className = "ng-listpicker-row";
+    const note = here ? "here" : on ? "has it" : full ? "full" : "";
+    if (note) b.setAttribute("data-list-pick-note", note);
+    if (here || full) { b.disabled = true; b.setAttribute("aria-disabled", "true"); b.style.opacity = ".5"; b.style.cursor = "default"; }
+    b.setAttribute("aria-label", here ? l.name + ", where it is now" : full ? l.name + ", full" : "Move to " + l.name + (on ? ", which has it already" : ""));
+    b.innerHTML =
+      '<span class="ng-listpicker-box" aria-hidden="true">' + (here ? "•" : on ? "✓" : "") + '</span>' +
+      '<span class="ng-listpicker-name">' + this.escHTML(l.name) + '</span>' +
+      '<span class="ng-listpicker-n">' + (note || l.items.length) + '</span>';
+    if (!here && !full) b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.pickMove(id, nodeId, e.detail === 0); });
+    return b;
+  }
+  /** A move's pick: the item leaves the list it was opened from and lands in THAT one; the menu gets out of the way. */
+  pickMove(toId, nodeId, byKey) {
+    const from = this._pickMove; if (!from) return false;
+    this.closeListPicker();
+    return this._afterMove(this.moveListItem(nodeId, from, toId, "menu"), nodeId, toId, byKey);
+  }
+  /** The move mode's "New list": the list is made and the item moved into it, in one action. */
+  createListMove(name, nodeId) {
+    const from = this._pickMove; if (!from) return "";
+    this.closeListPicker();
+    const id = this.newList(String(name == null ? "" : name).replace(/\s+/g, " ").trim() || undefined);
+    this.track("neural_list_created", { surface: "move" });
+    const r = this.moveListItem(nodeId, from, id, "menu");
+    if (!r.moved) { delete this._listsMap()[id]; this._saveProgress(); }   // never leave an empty list behind
+    this._afterMove(r, nodeId, id, true);
+    return r.moved ? id : "";
+  }
+  _afterMove(r, nodeId, toId, byKey) {
+    const to = this._listsMap()[toId];
+    if (r.moved) this.setEvent("Moved to “" + (to ? to.name : "") + "”", this.listItemName(nodeId) + (r.already ? " · it was there already" : ""), "good");
+    else if (r.reason === "full") this.setEvent("List is full", "A share link holds " + NG_LIST_ITEM_CAP + " techniques", "bad");
+    // a key that moved the item follows it: focus lands on its ⇄ in the list it went to (the anchor it left is gone)
+    if (r.moved && byKey) this._listMoveFocus = { node: this.siteIdOf(nodeId), list: toId };
+    this._refreshListSurfaces();
+    this._listMoveFocus = null;   // used by that render, or not at all: a later render must not take focus
+    return !!r.moved;
   }
   /** A row in the picker: toggle THIS node's membership of THAT list, then get out of the way. */
   pickList(listId, nodeId) {
@@ -11276,7 +11414,10 @@ class Component extends DCLogic {
     // ladder as if this were a sibling row) put the glyph 60px from the pane edge and the ×
     // 12px inboard of the list's own ×. 10px is Explore's header→family step (12→22); 0 on
     // the right lines the × up under the list row's ×. Same 8px gap and hover wash as Explore.
-    item.style.cssText = "display:flex;align-items:center;gap:8px;min-width:0;padding:7px 0 7px 10px;border-radius:7px;";
+    // A PHONE'S ITEM ROW IS A THUMB'S (LISTS-R, ruling 5, as the list row above it): ▶, ⇄ and × are 44px boxes at an
+    // even 44px pitch, so the row gives its 7px of vertical padding to them (44px tall against 30). A desktop keeps 24px.
+    const thumb = this.isMobile();
+    item.style.cssText = "display:flex;align-items:center;gap:8px;min-width:0;padding:" + (thumb ? "0 0 0 10px" : "7px 0 7px 10px") + ";border-radius:7px;";
     item.addEventListener("mouseenter", () => item.style.background = "rgba(255,255,255,.045)");
     item.addEventListener("mouseleave", () => item.style.background = "transparent");
     // the category shape, same vocabulary as the canvas and as Explore's own rows
@@ -11301,7 +11442,28 @@ class Component extends DCLogic {
     }
     if (i != null) nameBtn.addEventListener("click", (e) => { e.stopPropagation(); this.openDossier(i, false, "list"); });
     item.appendChild(nameBtn);
-    if (n) item.appendChild(this._playButton(n));   // ▶ is the technique's, on every surface
+    if (n) {
+      const play = this._playButton(n);   // ▶ is the technique's, on every surface
+      // on a phone its 24px chip is drawn inside a transparent 44px box (`.ng-actchip.ng-thumb`, helmet.html)
+      if (thumb) play.classList.add("ng-thumb");
+      item.appendChild(play);
+    }
+    // ⇄ MOVE (LISTS-R): opens the star's own menu in its move mode, anchored here. Bare, in Share's ink (a verb, like the
+    // list row's pencil and share); the keyboard way to move is this button, Enter, the arrows, Enter.
+    const mv = document.createElement("button");
+    mv.type = "button";
+    mv.setAttribute("data-list-item-move", nodeId);
+    mv.setAttribute("data-list-of", listId);
+    mv.setAttribute("aria-haspopup", "menu");
+    mv.setAttribute("aria-expanded", "false");
+    mv.title = "Move to another list";
+    mv.setAttribute("aria-label", "Move " + (n ? n.t : nodeId) + " to another list");
+    mv.innerHTML = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 3l4 4-4 4"></path><path d="M20 7H4"></path><path d="M8 21l-4-4 4-4"></path><path d="M4 17h16"></path></svg>';
+    mv.style.cssText = "flex:none;width:" + (thumb ? 44 : 24) + "px;height:" + (thumb ? 44 : 24) + "px;" + (thumb && n ? "margin-left:-8px;" : "") + "pointer-events:auto;cursor:pointer;font-family:inherit;line-height:1;border:0;border-radius:" + (thumb ? 11 : 7) + "px;background:transparent;color:#9ab0e0;display:inline-flex;align-items:center;justify-content:center;";
+    mv.addEventListener("mouseenter", () => { mv.style.background = "rgba(255,255,255,.08)"; mv.style.color = "#eef1f6"; });
+    mv.addEventListener("mouseleave", () => { mv.style.background = "transparent"; mv.style.color = "#9ab0e0"; });
+    mv.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.openListPicker(nodeId, "move", mv, { moveFrom: listId }); });
+    item.appendChild(mv);
     const rm = document.createElement("button");
     rm.type = "button";
     rm.setAttribute("data-list-item-remove", nodeId);
@@ -11311,7 +11473,8 @@ class Component extends DCLogic {
     rm.setAttribute("aria-label", "Remove " + (n ? n.t : nodeId) + " from this list");
     // 22px, not 44 — a 44px control inside a 30px row IS the row's height, which is what made
     // these read as cards among Explore's rows. The pane is a scroller, not a thumb band.
-    rm.style.cssText = "flex:none;width:24px;height:24px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:13px;line-height:1;border:0;border-radius:7px;background:transparent;color:#6b7691;display:inline-flex;align-items:center;justify-content:center;";
+    // on a phone a 44px box abutting ⇄'s, its box using the row's empty right padding as the list row's × does
+    rm.style.cssText = "flex:none;width:" + (thumb ? 44 : 24) + "px;height:" + (thumb ? 44 : 24) + "px;" + (thumb ? "margin-left:-8px;margin-right:-10px;" : "") + "pointer-events:auto;cursor:pointer;font-family:inherit;font-size:13px;line-height:1;border:0;border-radius:" + (thumb ? 11 : 7) + "px;background:transparent;color:#6b7691;display:inline-flex;align-items:center;justify-content:center;";
     rm.addEventListener("mouseenter", () => { rm.style.background = "rgba(255,255,255,.08)"; rm.style.color = "#dbe2f0"; });
     rm.addEventListener("mouseleave", () => { rm.style.background = "transparent"; rm.style.color = "#6b7691"; });
     rm.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.removeListItem(nodeId, listId); });
@@ -11566,7 +11729,9 @@ class Component extends DCLogic {
         // a 10px chevron are an 18x12 target if you let them size the button, which is under the
         // pane's own 24px figure and under WCAG 2.2 AA. The padding buys the target without
         // touching the type, and costs the row nothing — its 24px controls already set 38px.
-        open.style.cssText = "display:flex;align-items:center;gap:7px;flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;padding:6px 5px;margin:-6px -5px;border-radius:7px;";
+        // On a phone a 44px box of its own (LISTS-R, ruling 5, carried from Slice 1): the row is 44px tall there, so the box
+        // takes its full height and no negative margin; the count and the chevron stay the size they are.
+        open.style.cssText = "display:flex;align-items:center;gap:7px;flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;" + (thumb ? "justify-content:center;min-width:44px;height:44px;padding:0 6px;margin:0;" : "padding:6px 5px;margin:-6px -5px;") + "border-radius:7px;";
         open.innerHTML = '<span data-list-count="' + l.items.length + '" style="font-size:10.5px;color:#7e8aa3;">' + l.items.length + '</span>' +
           '<span data-list-chevron="1" style="flex:none;display:inline-flex;">' + this._caretHTML(expanded) + '</span>';
         open.addEventListener("click", () => this._toggleListExpand(id));
@@ -11706,6 +11871,12 @@ class Component extends DCLogic {
       this._listOpenFocusPending = null;
       if (back) { try { back.focus(); } catch (e) { /* non-fatal */ } }
     }
+    // ...a move made by KEY follows the item: focus on its ⇄ in the list it went to (`_afterMove`)
+    if (this._listMoveFocus) {
+      const f = this._listMoveFocus; this._listMoveFocus = null;
+      const back = sec.querySelector('[data-list-item-move="' + f.node + '"][data-list-of="' + f.list + '"]');
+      if (back) { try { back.focus({ preventScroll: true }); } catch (e) { /* non-fatal */ } }
+    }
     // ...and an editor a KEY closed hands focus to its row's pencil (see the editor's keydown)
     if (this._listEditReturn && !this._listEditId) {
       const back = sec.querySelector('[data-list-edit="' + this._listEditReturn + '"]');
@@ -11751,19 +11922,24 @@ class Component extends DCLogic {
     box.style.cssText = "display:flex;align-items:center;gap:8px;margin:0 6px 6px;padding:7px 9px;border-radius:9px;border:1px solid rgba(150,170,210,.2);background:rgba(255,255,255,.03);";
     const txt = document.createElement("span");
     txt.style.cssText = "flex:1;min-width:0;font-size:11.5px;color:#aeb9d4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
-    txt.textContent = "Deleted “" + u.list.name + "” · " + u.list.items.length + " technique" + (u.list.items.length === 1 ? "" : "s");
+    // ONE SLOT, TWO KINDS (LISTS-R): a delete's offer and a move's. The newest wins, so the row says which one it takes back.
+    const move = u.kind === "move";
+    txt.textContent = move
+      ? "Moved “" + this.listItemName(u.node) + "” to “" + u.toName + "”"
+      : "Deleted “" + u.list.name + "” · " + u.list.items.length + " technique" + (u.list.items.length === 1 ? "" : "s");
     box.appendChild(txt);
     const undo = document.createElement("button");
     undo.type = "button";
-    undo.setAttribute("data-list-undo", u.id);
+    undo.setAttribute(move ? "data-list-undo-move" : "data-list-undo", move ? u.node : u.id);
     undo.textContent = "Undo";
-    undo.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 10px;border-radius:7px;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.05);color:#dbe2f0;";
-    undo.addEventListener("click", () => this.undoDeleteList());
+    // a thumb's height on a phone, its 9px of the row's padding taken back so the row does not grow (`.ng-lists-new`'s trade)
+    undo.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 10px;border-radius:7px;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.05);color:#dbe2f0;" + (this.isMobile() ? "min-height:44px;margin:-9px 0;" : "");
+    undo.addEventListener("click", () => { if (move) this.undoMoveListItem(); else this.undoDeleteList(); });
     box.appendChild(undo);
     return box;
   }
   undoDeleteList() {
-    const u = this._undoList; if (!u) return false;
+    const u = this._undoList; if (!u || u.kind === "move") return false;
     this._undoList = null;
     this._listsMap()[u.id] = u.list;
     this._expandList(u.id); // it came back — show what came back with it
