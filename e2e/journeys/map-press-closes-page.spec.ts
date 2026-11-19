@@ -129,8 +129,10 @@ const partsOf = (s: Awaited<ReturnType<typeof seen>>) => ({ sections: s.sections
  *  any of them (so it stands 14 px clear of every control and of every node's reach). Right of `rightOf` if given. */
 const bare = (page: Page, rightOf = 0) => page.evaluate((rightOf) => {
   const a = (window as W).__neural, was = a._hover, ring = [[0, 0], [14, 0], [-14, 0], [0, 14], [0, -14], [10, 10], [-10, 10], [10, -10], [-10, -10]]
+  // beside an open drawer (`rightOf`) the strip is narrow (46 px at 390): searched point by point, the ring still 14 px clear of it
+  const step = rightOf ? 3 : 19, x0 = rightOf ? innerWidth - 15 : innerWidth - 24, x1 = rightOf ? rightOf + 14 : 20
   try {
-    for (let y = 46; y < innerHeight - 30; y += 17) for (let x = innerWidth - 24; x > rightOf + 20; x -= 19) {
+    for (let y = 46; y < innerHeight - 30; y += rightOf ? 7 : 17) for (let x = x0; x >= x1; x -= step) {
       if (!ring.every(([dx, dy]) => document.elementFromPoint(x + dx, y + dy) === a.canvas)) continue
       if (ring.every(([dx, dy]) => { a._hover = null; a._updateHover({ type: "pointerup", clientX: x + dx, clientY: y + dy }); return !a._hover || a._hover.idx < 0 })) return { x, y }
     }
@@ -517,10 +519,13 @@ for (const size of SIZES) {
     // its tap is the drawer's own (pinned above).
     if (!size.touch) test(`a press on a node with a menu open, or during a film, shuts the menu or ends the film and stages the node, as before (${size.width})`, async ({ page }) => {
       const { j } = await arrived(page)
+      // the node's page, either half: during a film the map names the place it shows, and a press on a pair whose halves are drawn
+      // under 8 px apart takes the NAMED half (L3-R1, T7, attachInput), so the press on K-Guard's top orb may open K-Guard Bottom
+      const place = (path: string) => path.replace(/\/(Top|Bottom|Attacker|Defender)$/, "")
       const staged = async (what: string, node: { idx: number }) => {
         const s = await whole(page, `${what}: the node is staged`)
         const own = await page.evaluate((i) => (window as W).__neural._nodeUrlPath(i) as string, node.idx)
-        expect([s.address, s.roam], `${what}: the node is staged, its page open at its own address`).toEqual([own, false])
+        expect([place(s.address), s.roam], `${what}: the node is staged, its page open at its own address`).toEqual([place(own), false])
       }
       // THE ACCOUNT'S MENU
       await pressOn(page, ".ng-logo", "the logo")
