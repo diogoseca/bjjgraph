@@ -70,6 +70,22 @@ const ngCzNow = (s) => (s.czOpen != null && s.cz ? s.cz.get(s.czOpen) : null) ||
 // its twin) and every move the cloze lists, in one glide (`ngLightFrame`, map-light.src.js), on a computer, where the map
 // stands beside the drawer; a phone's drawer is the screen (its look is S3). The app holds it there while the cloze is open
 // (`_czAt`). Called as a cloze opens and at Show; at Show it glides only if the player has moved the map off them.
+// A PHONE'S LOOK AT THE PLACE (L2b S3, v1.297.0; the ruling (b)): the drawer shuts on the cloze, the session kept, the clock
+// held by the look's own latch (`_czLookOpen`, app.src.jsx); the map glides to the place and its moves (`ngClozeMap`) and is
+// lit for as long as the look lasts; the way back is the pill this makes (`app._czPillEl`, shown and seated by the app each
+// frame while the look is on: `_drawLight`), a tap on the map, or Esc (`_czLookBack`). Offered before Done only.
+function ngClozeLook(app, s) {
+  const c = ngCzNow(s);
+  if (!c || c.done || !app._czLookOpen(s)) return;
+  if (!app._czPillEl || !app._czPillEl.isConnected) {
+    const p = app._czPillEl = document.createElement("button");
+    p.type = "button"; p.className = "ng-czpill"; p.setAttribute("data-cz-back", "1"); p.hidden = true;
+    p.textContent = "\u2039 Back to your moves"; p.style.pointerEvents = "auto";
+    p.onclick = () => app._czLookBack("pill");
+    (app.__ngRoot || document.body).appendChild(p);   // the root plane, beside the film's bar: never under the map's own press
+  }
+  ngClozeMap(app, c);
+}
 function ngClozeMap(app, c) {
   const z = c && app._czAt ? app._czAt() : null;   // (a computer, the drawer showing this cloze: `_czAt` says, and only it)
   if (!z || z.c !== c) return;
@@ -215,6 +231,7 @@ export function ngClozeClose(app, s) {
   if (s.czOpen == null) return;
   ngClozeLeave(app, s);
   s.czOpen = null; s.czReg = null;
+  ngClozeMapPress(app, s, false);   // the look's press goes with its cloze (S3)
   if (s.czHost) s.czHost.hidden = true;
   s.ask.removeAttribute("data-cz");
   if (s.dock) { s.dock.lastChild.replaceChildren(); s.dock.lastChild._from = null; }
@@ -294,7 +311,10 @@ const NG_CLOZE_CSS = "[data-master-ask][data-cz]>:not([data-cloze]){display:none
   ".ng-mbar>button.cz-b{border-radius:11px;border:1px solid rgba(120,150,255,.5);background:rgba(74,108,255,.2);color:#e3eaff;font:inherit;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:4px;padding:0 2px;cursor:pointer;white-space:nowrap;overflow:hidden}" +
   ".ng-mbar>button.cz-b small{font-size:10.5px;font-weight:600;opacity:.75;overflow:hidden;text-overflow:ellipsis}.ng-mbar>button.cz-b kbd{font:inherit;font-size:9px;opacity:.55;border:1px solid;border-radius:4px;padding:1px 6px;margin-left:5px}" +
   ".ng-mbar>button.cz-g,.ng-mbar>button.cz-n{border-color:rgba(150,170,210,.22);background:rgba(255,255,255,.035);color:#aab4c8}.ng-mbar>button.cz-n{font-size:15px}" +
-  ".ng-mbar>button.cz-g:not(.mp):not(.mn){flex:none !important;width:54px !important}";
+  ".ng-mbar>button.cz-g:not(.mp):not(.mn){flex:none !important;width:54px !important}" +
+  ".ng-czmap{position:absolute;right:0;top:4px;display:flex;align-items:center;gap:4px;height:22px;padding:0 9px;border-radius:11px;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.04);color:#c2cce0;font:inherit;font-size:11px;font-weight:700;cursor:pointer}" +
+  ".ng-czmap::after{content:'';position:absolute;inset:-11px -8px}.ng-czmap svg{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.ng-czmap[hidden],.ng-czpill[hidden]{display:none}" +
+  ".ng-czpill{position:fixed;transform:translateX(-50%);z-index:8;min-height:44px;padding:0 18px;border-radius:22px;border:1px solid rgba(150,170,210,.32);background:rgba(17,20,34,.94);color:#dbe2f0;font:inherit;font-size:13px;font-weight:700;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.45);white-space:nowrap}";
 
 function ngClozeBar(app, s, c) {
   const bar = s.dock && s.dock.lastChild;
@@ -322,13 +342,31 @@ function ngClozeDraw(app, s, c, fade) {
   c.sig = ngCzSig(c);
   if (c.shown || c.done) ngClozeFit(c);
   ngClozeBar(app, s, c);
-  ngClozeHead(s, c);
+  ngClozeHead(app, s, c);
 }
 // the open place's heading: its name and where it stands in today's plan (the slim line is the open ask's)
-function ngClozeHead(s, c) {
+// THE LOOK'S PRESS, "Map" (S3), on a phone and before Done: at the right of this heading line, the ruling's second seat, since
+// the foot has no room for it (measured at 390x631, 19 Nov: the bar is 242 px; beside Show and its key Show is cut to 76 px,
+// beside Hide and Done, Done to 14 px with no word left). Its visible part is small; its press is 44 px (the Undo's way).
+function ngClozeHead(app, s, c) {
   const vi = s.plan && s.plan.order === "worth" ? s.plan.visits.findIndex((v) => v.seat === c.seat) : -1;
   const h = c.seat.replace("|", " · ") + (vi >= 0 ? " · position " + (vi + 1) + " of " + s.plan.visits.length : "");
   if (s.heading && s.heading.textContent !== h) s.heading.textContent = h;
+  ngClozeMapPress(app, s, app.isMobile() && !c.done && s.czOpen === c.seat);
+}
+function ngClozeMapPress(app, s, on) {
+  const slim = s.slim;
+  if (!slim) return;
+  let m = slim.querySelector("[data-cz-map]");
+  if (on && !m) {
+    m = document.createElement("button"); m.type = "button"; m.className = "ng-czmap"; m.setAttribute("data-cz-map", "1");
+    m.innerHTML = '<svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2zM9 4v14M15 6v14"/></svg>Map';
+    m.setAttribute("aria-label", "Show this place on the map");
+    m.onclick = () => ngClozeLook(app, s);
+    slim.appendChild(m);
+  }
+  if (m) m.hidden = !on;
+  if (s.heading) s.heading.style.paddingRight = on ? "64px" : "";
 }
 function ngClozeFlip(app, s, on) {
   const c = ngCzNow(s);
@@ -404,7 +442,7 @@ function ngClozeShow(app, s, seat, mine) {
 export function ngClozePaint(app, s) {
   const c = ngCzNow(s);
   if (!c || !s.czHost || !s.czHost.isConnected) return;
-  if (c.sig !== ngCzSig(c)) ngClozeDraw(app, s, c, false); else { ngClozeBar(app, s, c); ngClozeHead(s, c); }
+  if (c.sig !== ngCzSig(c)) ngClozeDraw(app, s, c, false); else { ngClozeBar(app, s, c); ngClozeHead(app, s, c); }
 }
 // what the list's row counts at a place: the moves its cloze still has to ask
 export function ngClozeLeft(app, s, seat) { return app._asksMoves() ? ngClozeAsks(app, s, seat) : []; }
