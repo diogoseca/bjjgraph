@@ -65,7 +65,7 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 
 | what you are doing | seams |
 |---|---|
-| overlays, hit-testing | `attachInput` · `_suppressLand` · `_landHidden` · `_tapBackground` · `_mapAlone` (the legend's key) |
+| overlays, hit-testing | `attachInput` · `_suppressLand` · `_landHidden` · `_tapBackground` · `_closePage` · `_mapAlone` (the legend key) |
 | docking fixed chrome | `_dockLandCard` · `_dockLandFilm` · `_dockLandMore` · `_landDatum` · `_bandBot` |
 | the three bottom layers (film · card · hand), sticky by setting | `setLayer` · `_layerOn` · `_handShown` · `_applyLayers` · `_renderLayerDock` — a collapsed card is NOT BUILT, a collapsed hand is dealt and hidden; the complete article is independent of the card; `neural/src/reader.src.js` owns reading intent, each closed part's message (`notice`, U131 b2) and the one-landing label (its shelf is retired, v1.253.0) |
 | node coordinates, camera | `pairMid` · `_LY` · `headPos` · `rollCamTarget` · `holdCamera` · `frameNodes` |

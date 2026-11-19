@@ -388,22 +388,28 @@ test("an empty list says it is empty, and says which star fills it", async ({ pa
   // REALLY carry [data-list-add]. The old copy named a `+` on "an option card" and "a
   // technique's dossier" — the option cards lost their capture in v1.101.1 and the dossier
   // renderer has been unreachable since v1.101.5, so it pointed at two controls nobody can find.
+  // LISTS-R (ruling 5): it went stale the same way a second time — "the card you land on" lost its star to the seat on
+  // the map (landcard-chrome: "capture belongs to the seat") and "a move's detail sheet" carries none. So the copy now
+  // names the three surfaces that carry one today, and each is FOUND below, star and all: the next surface to lose its
+  // star turns this test red instead of leaving a sentence that points at nothing.
   expect(copy, "the glyph it names is the glyph on screen").toMatch(/star/i);
-  expect(copy, "the in-roll capture path is the one this feature is for").toMatch(
-    /card you land on/i,
-  );
-  expect(copy).toMatch(/detail sheet/i);
-  expect(copy).toMatch(/Explore row/i);
-  expect(copy, "and it no longer sends anyone to a control that was deleted").not.toMatch(
-    /option card|dossier/i,
-  );
+  expect(copy, "names the map").toMatch(/beside a name on the map/i);
+  expect(copy, "names Explore's rows").toMatch(/any row in Explore/i);
+  expect(copy, "names search").toMatch(/in search/i);
+  expect(copy, "and no surface that has lost its star").not.toMatch(/option card|dossier|card you land on|detail sheet/i);
 
-  // and those surfaces exist: the Explore one is right here, one section-fold away
+  // THE MAP: the seat's star beside the name the map writes (STAR1), on this desktop beside the open drawer
+  await expect(page.locator("[data-seat-star][data-list-add]").first(), "the map carries a star").toBeVisible({ timeout: 15_000 });
+  // EXPLORE: a row of its tree, one section-fold away
   await page.locator('[data-explore-section="Positions"]').click();
-  await expect(
-    page.locator('[data-list-add][data-list-surface="explore"]').first(),
-    "the copy points at a control that is actually on this screen",
-  ).toBeVisible();
+  const treeStar = page.locator('[data-list-add][data-list-surface="explore"]').first();
+  await expect(treeStar, "an Explore row carries a star").toBeVisible();
+  // SEARCH: a result row of the drawer's own search carries one beside it
+  await page.locator(".ng-explorer-search input").fill("armbar");
+  const hitRow = page.locator("[data-search-row]").first();
+  await expect(hitRow, "search has results").toBeVisible({ timeout: 15_000 });
+  await expect(hitRow.locator("xpath=..").locator("[data-list-add]"), "a search result carries a star").toHaveCount(1);
+  await page.locator(".ng-explorer-search input").fill("");
 
   await page
     .locator("[data-lists-section]")

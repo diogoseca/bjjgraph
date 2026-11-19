@@ -16,6 +16,11 @@ with TemporaryDirectory() as directory:
     assert compare(tree, [{'path': '/Example', 'title': 'Exact & authored'}]) == []
     assert len(compare(tree, [{'path': '/Example', 'title': 'hub instead of role'}])) == 1
     assert len(compare(tree, [{'path': '/Missing', 'title': 'anything'}])) == 1
+    # the site's root is index.html (BGCLOSE, v1.294.0: the app writes the root's title when a press on the map closes a page)
+    assert len(compare(tree, [{'path': '/', 'title': 'The site'}])) == 1, 'a root with no built page passed'
+    (tree / 'index.html').write_text('<html><head><title>The site</title></head><body></body></html>')
+    assert compare(tree, [{'path': '/', 'title': 'The site'}]) == []
+    assert len(compare(tree, [{'path': '/', 'title': 'another title'}])) == 1
     try:
         compare(tree, [])
     except ValueError as error:
@@ -30,9 +35,9 @@ with TemporaryDirectory() as directory:
             pass
         else:
             raise AssertionError('invalid head title passed')
-print('7 title gate discrimination cases asserted')
+print('10 title gate discrimination cases asserted')
 `], { encoding: "utf8", env: { ...process.env, PYTHONDONTWRITEBYTECODE: "1" } });
   assert.equal(r.status, 0, r.stdout + r.stderr);
-  assert.match(r.stdout, /7 title gate discrimination cases asserted/);
+  assert.match(r.stdout, /10 title gate discrimination cases asserted/);
   console.log(r.stdout.trim());
 });

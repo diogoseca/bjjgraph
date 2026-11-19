@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test"
-import { journey } from "../dsl"
+import { journey, recordDiff } from "../dsl"
 
 /**
  * P0 — THE PANE LAW.
@@ -260,7 +260,7 @@ test.describe("a window of a phone's width, by mouse and keyboard (600x800)", ()
     expect(await page.evaluate(() => { const a = (window as any).__neural; return { log: (a.rollLog || []).map((h: any) => h.key), stands: a.currentPos, hand: (a.optionIdxs || []).join(",") } }), "the roll is as it was").toEqual(was)
     const now = await stored(page)
     expect(Object.keys(before).length, "premise: the record is read whole").toBeGreaterThan(15)
-    expect(Object.keys({ ...before, ...now }).filter((k) => JSON.stringify(before[k]) !== JSON.stringify(now[k])), "and nothing is stored").toEqual([])
+    expect(recordDiff(before, now), "and nothing is stored").toEqual([])   // by value (ORDER1: e2e/dsl.ts)
     // with the drawer shut the hand is the player's again, and its digit plays as ever
     await j.clickByMouse(".ng-explorer-close", "shut the drawer")
     expect(await pane(page), "shutting the drawer resumes the roll it held").toMatchObject({ drawer: false, paused: false, latch: false })
@@ -295,7 +295,9 @@ test("the same move stores the same whichever road plays it beside the open draw
     await ctx.close()
     return out
   }
-  const differ = (x: Record<string, unknown>, y: Record<string, unknown>) => Object.keys({ ...x, ...y }).filter((k) => JSON.stringify(x[k]) !== JSON.stringify(y[k]))
+  // BY VALUE, whatever order a field's keys were written in, and each difference named with both values (ORDER1,
+  // v1.294.0: `recordDiff`, e2e/dsl.ts). Three visits are compared here; the boot writes two of `belts`' keys in either order.
+  const differ = recordDiff
   const a = await play("press"), b = await play("digit"), c = await play("press")
   expect(a.moves, "premise: each road played one move").toBe(1)
   expect(Object.keys(a.rec).length, "premise: the record is read whole").toBeGreaterThan(15)

@@ -1,5 +1,5 @@
 import { test, expect, Page } from "@playwright/test"
-import { journey } from "../dsl"
+import { journey, canonical, recordDiff } from "../dsl"
 
 /**
  * AN OPTION IS PLAYED ONLY WHEN THE PLAYER CAN SEE WHAT THEY ARE PLAYING (FOLLOW2, v1.293.3)
@@ -57,12 +57,23 @@ import { journey } from "../dsl"
  *      nothing: a repeat is not a second press"
  *   R12 a held Enter's repeat acts on the focused card (`_keyRepeat` not read) → "Enter on a focused card…" at "held,
  *      Enter's repeat plays nothing"
+ *   N5 (v1.293.4; the reader's own, which survived PR #443's journeys) the keyup that lifts `_keyRepeat` does nothing → "Space
+ *      held on the marked card is one press…" at "released, the card is played: the key's release lifts the repeat"
  *   R13 the show step scrolls to the row's box, not to the part its cards are dealt into (the reader's M12, which
  *      survived the first cut: the card "shown" stays under the drawer, marked) → "the key's own show step does not strand
  *      the first card…" at "the first card is brought back clear of the drawer and takes the mark", and "…a card half
  *      under the drawer's edge is brought clear…" at "it is brought back and marked…"
  *   (the show step not freezing the hand, the reader's M3: pinned in choice-value.spec.ts, which has the win chances'
  *      controlled provider: "a digit that shows a card before the values land freezes the hand…")
+ *   ORDER1 (v1.294.0), the storage steps, which had no mutant of their own until one of them went red on dev for the
+ *   ORDER of a field's keys (see "two records are compared by value…" and `recordDiff`):
+ *   O1 the comparison reads the order of keys again (`canonical` does not sort; e2e/dsl.ts) → "two records are compared by
+ *      value…" at "equal but for the order of their keys, at every depth: no difference"
+ *   S1 the key's show step stores something (a setting written in `_showCard`) → "digit 7 on a card out of view…" at "and
+ *      nothing is stored", the message naming `settings` with both values
+ *   S2 a move played by key stores a mark a press does not (a setting written in `activateOption` on the key's road) →
+ *      "digit 7 on a card out of view…" at "the key's two presses leave the record a press on that card leaves", and
+ *      pane-law.spec.ts "…whichever road…" at "the digit stores what the press stores"
  *   R2 a press on the hand beside the open drawer on a phone goes on to the card (the row's listener out) → "the sliver…"
  *      at "a touch on a card's end shuts the drawer"
  *   R3 the drawer being the screen is no bar to a key (the clause out of `_optionReach`) → "a window of a phone's
@@ -99,11 +110,14 @@ const stored = (page: Page) => page.evaluate(() => {
   delete b.updatedAt
   return b as Record<string, unknown>
 })
-const differ = (x: Record<string, unknown>, y: Record<string, unknown>) => Object.keys({ ...x, ...y }).filter((k) => JSON.stringify(x[k]) !== JSON.stringify(y[k]))
+/** the fields that differ between two records, each with both values; [] when they are the same record. BY VALUE, whatever
+ *  order a field's keys were written in (ORDER1: `recordDiff`, e2e/dsl.ts; it compared `JSON.stringify` of each field, and
+ *  two visits that held `belts` as {won, lvl, gf} and {won, gf, lvl} read as different) */
+const differ = recordDiff
 const noClocks = (r: Record<string, unknown>) => JSON.parse(JSON.stringify(r, (_k, v) => (typeof v === "number" && v > 1e12 ? 0 : v))) as Record<string, unknown>
 /** ...and without the visit's own name: `flow` files what was played under an id drawn afresh for every visit (measured: the
  *  same road in two visits differs in that key and in nothing under it), so two visits are compared by what is filed */
-const noVisit = (r: Record<string, unknown>) => ({ ...noClocks(r), flow: Object.values((r.flow || {}) as Record<string, unknown>).map((v) => JSON.stringify(v)).sort() }) as Record<string, unknown>
+const noVisit = (r: Record<string, unknown>) => ({ ...noClocks(r), flow: Object.values((r.flow || {}) as Record<string, unknown>).map((v) => canonical(v)).sort() }) as Record<string, unknown>
 /** is the n-th card whole in the part of the row its cards are dealt into (clear of the drawer), and is the mark on it */
 const clear = (page: Page, n: number) => page.evaluate((n) => {
   const a = (window as W).__neural, oc = (a._optionCards || [])[n - 1], row = a.optionsRef.current as HTMLElement, b = row.getBoundingClientRect(), cs = getComputedStyle(row), r = (oc.card as HTMLElement).getBoundingClientRect()
@@ -115,6 +129,20 @@ const drawerRight = (page: Page) => page.evaluate(() => ((window as W).__neural.
 const slideHand = (page: Page, by: number) => page.evaluate((by) => { const a = (window as W).__neural; a._trayStop && a._trayStop(); (a.optionsRef.current as HTMLElement).scrollLeft += by }, by)
 const noFocus = (page: Page) => page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur())
 const rigged = async (j: any) => { await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01]) }
+
+// ORDER1 (v1.294.0): THE COMPARISON ITSELF, both ways. Equal but for the order their keys were written in is no
+// difference, at any depth; a value that differs, a field one record lacks and an array's order are, and each is named
+// with both values. (The two orders of `belts` are the ones dev's full run met; the values are a guest's, clocks at 0.)
+test("two records are compared by value: the order of their keys is not a difference; a value, a missing field and an array's order are, named with both values", () => {
+  const a = { belts: { won: {}, lvl: { n: 0, t: 0 }, gf: 0 }, list: [1, 2, { p: 1, q: 2 }], deep: { x: { b: 1, a: 2 } } }
+  const b = { deep: { x: { a: 2, b: 1 } }, list: [1, 2, { q: 2, p: 1 }], belts: { won: {}, gf: 0, lvl: { t: 0, n: 0 } } }
+  expect(JSON.stringify(a.belts) === JSON.stringify(b.belts), "premise: the two are written in different orders (the old comparison's reading)").toBe(false)
+  expect(differ(a, b), "equal but for the order of their keys, at every depth: no difference").toEqual([])
+  expect(differ(a, { ...b, belts: { won: {}, gf: 0, lvl: { n: 1, t: 0 } } }), "a value that differs is caught, and named with both values")
+    .toEqual(['belts: {"gf":0,"lvl":{"n":0,"t":0},"won":{}} != {"gf":0,"lvl":{"n":1,"t":0},"won":{}}'])
+  expect(differ(a, { ...b, list: [2, 1, { p: 1, q: 2 }] }), "an array keeps its order: it means something").toEqual(['list: [1,2,{"p":1,"q":2}] != [2,1,{"p":1,"q":2}]'])
+  expect(differ(a, { belts: b.belts, list: b.list }), "a field one record lacks").toEqual(['deep: {"x":{"a":2,"b":1}} != undefined'])
+})
 
 test.describe("1440x900, the drawer shut", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
@@ -234,6 +262,39 @@ test.describe("1440x900, the drawer shut", () => {
     await j.advance(300)
     const after = await game(page)
     expect(after.moves > 0 || after.running, "released and pressed again, it plays").toBe(true)
+  })
+
+  // THE KEY'S RELEASE LIFTS THE REPEAT (N5, v1.293.4; the reader's re-read of PR #443, its mutant N5). `_keyRepeat` is set
+  // while a key is held and repeating; its lifters are the next keydown and any keyup. With the keyup doing nothing every
+  // journey stayed green (14 of 14): each one that held a key pressed a fresh key afterwards, and a fresh keydown writes
+  // the flag again. Space is the key that needs the keyup: on a focused button its click comes at the RELEASE, with no
+  // keydown in between, so a flag the repeats left set would swallow the press itself and a held Space would play nothing
+  // at all. Held, Space plays nothing (and neither do its repeats); released, the card is played.
+  test("Space held on the marked card is one press: its two repeats play nothing, and its release plays the card", async ({ page }) => {
+    const j = journey(page)
+    await j.boot("/")
+    await j.land("Mount Top")
+    expect((await cardAt(page, 7))!.inReach, "premise: the seventh card is out of view").toBe(false)
+    await rigged(j)
+    await noFocus(page)
+    await page.keyboard.press("7")
+    await j.advance(300)
+    const seventh = (await cardAt(page, 7))!
+    expect([(await inRow(page, 7)).marked, seventh.inReach, (await game(page)).moves], "premise: 7 showed and marked the seventh card (in reach now), and played nothing").toEqual([true, true, 0])
+    const was = await game(page)
+    await page.evaluate(() => { (window as W).__keys = []; for (const type of ["keydown", "keyup"]) window.addEventListener(type, (e) => (window as W).__keys.push([e.type, (e as KeyboardEvent).key, (e as KeyboardEvent).repeat]), true) })
+    await page.keyboard.down("Space")
+    await page.keyboard.down("Space") // the key still held: the keyboard sends it again, as a repeat
+    await page.keyboard.down("Space") // and again
+    await j.advance(700)
+    expect(await page.evaluate(() => (window as W).__keys), "premise: one keydown and two repeats, the key not yet let go").toEqual([["keydown", " ", false], ["keydown", " ", true], ["keydown", " ", true]])
+    expect(await game(page), "held, Space plays nothing, and neither do its two repeats").toEqual(was)
+    expect((await inRow(page, 7)).marked, "and the mark is still on the seventh card").toBe(true)
+    await page.keyboard.up("Space")
+    await j.advance(300)
+    const after = await game(page)
+    expect(after.moves > 0 || after.running, "released, the card is played: the key's release lifts the repeat").toBe(true)
+    expect(await page.evaluate(() => { const a = (window as W).__neural, x = a._execution; return x && a.nodes[x.idx] ? (a.nodes[x.idx].t as string) : null }), "and it is the marked card").toBe(seventh.tech)
   })
 
   test("on a reading arrival a digit whose card is out of view begins nothing", async ({ page }) => {
