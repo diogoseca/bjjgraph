@@ -495,23 +495,20 @@ for (const size of SIZES) {
         .toEqual([false, true, true, live.hand, false, false])
       expect(after.entries, "and wrote no entry").toBe(live.entries)
 
-      // the account's menu: opened from the drawer's foot, shut by a press on the bare map, which does nothing more
+      // the account's menu: opened from the drawer's foot, shut by a press on the bare map, which does nothing more. BY MOUSE ONLY
+      // (BGCLOSE-R1): on a phone the drawer is the screen, the menu's outside is the 46 px strip beside it, and a tap there is the
+      // drawer's own way out, pinned by "the tap that shuts the drawer shuts the drawer and nothing else" below; after a film the
+      // article fills most of that strip, and the neutral control found no point of bare map there on 3 runs of 75. Mutant C10 was
+      // red only at the two mouse sizes anyway (the phone's tap is consumed whatever closed the menu).
+      if (size.touch) { void was; return }
       if (!(await seen(page)).drawer) await pressOn(page, ".ng-logo", "the logo")
       await j.advance(600)
       await pressOn(page, ".ngAcctChip", "the account's badge")
       await expect.poll(async () => (await seen(page)).menu, { message: "premise: the account's menu is open" }).toBe(true)
       const before = await seen(page)
-      if (size.touch) {
-        // on a phone the drawer is the screen: the menu's outside is the strip beside it, and that tap is the drawer's own
-        // way out too. It shuts the menu and the drawer, and the page stays.
-        const strip = await bareSoon(page, 344)
-        expect(strip, "premise: a point of bare map in the strip beside the drawer").not.toBeNull()
-        await press(page, strip!)
-      } else {
-        const out = await bare(page, 360)
-        expect(out, "premise: a point of bare map beside the drawer").not.toBeNull()
-        await press(page, out!)
-      }
+      const out = await bare(page, 360)
+      expect(out, "premise: a point of bare map beside the drawer").not.toBeNull()
+      await press(page, out!)
       await j.advance(800)
       const shut = await seen(page)
       expect([shut.menu, shut.sections > 3, shut.question, shut.hand, shut.address, shut.entries, shut.roam], "the menu is shut and the page is whole: that press closed the menu and nothing else")
