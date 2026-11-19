@@ -11484,12 +11484,12 @@ class Component extends DCLogic {
         this.focusList(id);
       });
       const main = document.createElement("div");
-      // THE NAME'S TARGET IS THE ROW'S HEIGHT (LISTS-R, ruling 1). It was the text alone, 87x16px measured on the preview,
-      // so 4px above or below it the press LIT the list instead (a 44px thumb on its centre was the name for 33% of its
-      // area). `main` takes the row's vertical padding back with a negative margin and stretches over the line, and the
-      // name stretches inside it: its box runs from the row's top edge to its bottom edge, and the row's height does
-      // not move (margin and padding cancel).
-      main.style.cssText = "flex:1;min-width:0;display:flex;align-items:center;gap:8px;align-self:stretch;" + (thumb ? "" : "margin:-7px 0;");
+      // THE NAME'S TARGET IS ITS TEXT, ON PURPOSE (LISTS-S1-R1). The first build of LISTS-R stretched it to the row's
+      // height, and the orchestrator measured what that took (a 2px grid over the row, `elementFromPoint`): the share of
+      // a row that LIGHTS the list fell from about two thirds to 18% on a phone, reachable only through the 21px left
+      // inset. Lighting the list is the row's own press (the first thing a row does), so it keeps every point that is
+      // not a control; rename's proper target is the pencil, and the name's own press stays the shortcut it was.
+      main.style.cssText = "flex:1;min-width:0;display:flex;align-items:center;gap:8px;";
       if (this._listEditId === id) {
         // ── INLINE RENAME: Enter/blur commits, Esc cancels, empty reverts ──
         const inp = document.createElement("input");
@@ -11544,9 +11544,8 @@ class Component extends DCLogic {
         nameBtn.setAttribute("data-list-name", id);
         nameBtn.title = "Rename this list";
         nameBtn.setAttribute("aria-label", "Rename “" + l.name + "”");
-        // 13px/600 #c4cde0 — the weight Explore gives a FAMILY row ("Armbar", "Half Guard"). `align-self:stretch`: the
-        // box is `main`'s full height, the row's (see `main` above); a button centres its own text in it.
-        nameBtn.style.cssText = "display:block;align-self:stretch;min-width:0;pointer-events:auto;cursor:text;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:13px;font-weight:600;color:#c4cde0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
+        // 13px/600 #c4cde0 — the weight Explore gives a FAMILY row ("Armbar", "Half Guard"); its box is its text (`main`)
+        nameBtn.style.cssText = "display:block;min-width:0;pointer-events:auto;cursor:text;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:13px;font-weight:600;color:#c4cde0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
         nameBtn.textContent = l.name;
         nameBtn.addEventListener("click", () => this.startListRename(id, "name"));
         main.appendChild(nameBtn);
