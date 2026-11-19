@@ -218,7 +218,12 @@ for (const size of SIZES) {
       const back = await whole(page, "Back brings the page back, whole, with its address")
       expect([back.address, back.title, back.videos, back.entries], "Back brings the page back, whole, with its address").toEqual([PAGE, PAGE_TITLE, true, shut.entries])
       // FORWARD: closed again, and the forward history kept (the root's own boot would deal a roll and push its address)
+      // ...and the app that is leaving reads nothing as it goes (BGCLOSE-R1: it opened "/" as an article for ~0.3 s, its loading line
+      // showing, until the next app mounted). Watched on the leaving reader's own root. Mutant R8: the popstate's closed-entry
+      // condition out → red at "the app that is leaving opens no article on its way out".
+      await page.evaluate(() => { const w = window as W, r = w.__neural._reader.root as HTMLElement; w.__bgFlash = []; new MutationObserver(() => w.__bgFlash.push(r.dataset.readerPath)).observe(r, { attributes: true, attributeFilter: ["data-reader-path"] }) })
       await markApp(page); await page.goForward(); await remounted(page)
+      expect(await page.evaluate(() => (window as W).__bgFlash), "the app that is leaving opens no article on its way out").toEqual([])
       const fwd = await alone(page, "Forward closes it again")
       expect([fwd.title, fwd.entries, fwd.mark], "Forward closes it again: the root's title, no new entry").toEqual([SITE_TITLE, shut.entries, true])
 

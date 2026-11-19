@@ -1529,6 +1529,10 @@ class Component extends DCLogic {
       this._onNeuralPopstate = () => {
         if (!this._progressCurrent()) return;
         this._writeUrl();
+        // Onto the entry a closed page wrote (BGCLOSE-R1; the reader of PR #446): nothing for this instance to open. Quartz's router
+        // mounts the next app on it, whose boot stands the map alone (`_seedFromUrl`); opened here, "/" was read as an article and
+        // the reader's loading line showed for the ~0.3 s before that (`_readerIntent` still set from the page that was closed).
+        if (history.state?.ngMap) return;
         if (history.state?.ngReading || this._readerIntent) { this._readArticle(location.pathname + location.hash, true, false); return; }
         const hit = this._nodeAndRoleForPath(location.pathname);
         if (hit.idx >= 0) {
