@@ -32,9 +32,10 @@ const LIFT = 'return this._readerAway&&this._putReaderAway(!1),(r=this._reader)=
 const BACKSTOP = ',this._readerAway&&this._putReaderAway(o>0||this._landIdx==null),o}'
 // BGCLOSE (v1.294.0): the first way into free roam is one press now; the claims below name that step ("one press, the card up",
 // was "the second tap"). RE-RUN on v1.294.0's BGCLOSE-R1 build (19 Nov 2026, 11:50 to 11:55; every target still occurs once):
-// no-put-away, faded-not-hidden, index-stays, key-reads-boxes-only and repaint-lost killed at their claims; late-article-shows NOT
-// KILLED: the close now ends the ended landing's request before the reader opens it (BGCLOSE-R1, F7), so the keep-away it removes
-// has no late automatic request left to keep away (free-roam-article.spec.ts's header says so). The other six rows: not run.
+// no-put-away, faded-not-hidden, index-stays, key-reads-boxes-only and repaint-lost killed at their claims; late-article-shows not
+// killed, then RETIRED with its subject (BGCLOSE-R2, F9: the keep-away it removed is gone from the app). On the BGCLOSE-R2 build
+// (19 Nov 2026, 13:3x) nothing-lifts and open-keeps-away, whose lift was re-derived, killed at their claims. Not run on v1.294.0:
+// put-away-forgets, return-renders-again, page-roams, legend-no-put-away.
 // [name, spec, grep, mutate(bundle), claim]
 const controls = [
   // Claim 1: the article goes. _enterRoam no longer puts it away.
