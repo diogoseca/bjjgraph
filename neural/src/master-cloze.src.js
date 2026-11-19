@@ -312,8 +312,8 @@ const NG_CLOZE_CSS = "[data-master-ask][data-cz]>:not([data-cloze]){display:none
   ".ng-mbar>button.cz-b small{font-size:10.5px;font-weight:600;opacity:.75;overflow:hidden;text-overflow:ellipsis}.ng-mbar>button.cz-b kbd{font:inherit;font-size:9px;opacity:.55;border:1px solid;border-radius:4px;padding:1px 6px;margin-left:5px}" +
   ".ng-mbar>button.cz-g,.ng-mbar>button.cz-n{border-color:rgba(150,170,210,.22);background:rgba(255,255,255,.035);color:#aab4c8}.ng-mbar>button.cz-n{font-size:15px}" +
   ".ng-mbar>button.cz-g:not(.mp):not(.mn){flex:none !important;width:54px !important}" +
-  ".ng-czmap{position:absolute;right:0;top:4px;display:flex;align-items:center;gap:4px;height:22px;padding:0 9px;border-radius:11px;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.04);color:#c2cce0;font:inherit;font-size:11px;font-weight:700;cursor:pointer}" +
-  ".ng-czmap::after{content:'';position:absolute;inset:-11px -8px}.ng-czmap svg{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.ng-czmap[hidden],.ng-czpill[hidden]{display:none}" +
+  ".ng-czmap{position:absolute;right:0;top:3px;min-height:0;display:flex;align-items:center;gap:4px;height:20px;padding:0 9px;border-radius:11px;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.04);color:#c2cce0;font:inherit;font-size:11px;font-weight:700;cursor:pointer}" +
+  ".ng-czmap::after{content:'';position:absolute;inset:-12px -8px}.ng-czmap svg{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round}.ng-czmap[hidden],.ng-czpill[hidden]{display:none}" +
   ".ng-czpill{position:fixed;transform:translateX(-50%);z-index:8;min-height:44px;padding:0 18px;border-radius:22px;border:1px solid rgba(150,170,210,.32);background:rgba(17,20,34,.94);color:#dbe2f0;font:inherit;font-size:13px;font-weight:700;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.45);white-space:nowrap}";
 
 function ngClozeBar(app, s, c) {
@@ -347,7 +347,8 @@ function ngClozeDraw(app, s, c, fade) {
 // the open place's heading: its name and where it stands in today's plan (the slim line is the open ask's)
 // THE LOOK'S PRESS, "Map" (S3), on a phone and before Done: at the right of this heading line, the ruling's second seat, since
 // the foot has no room for it (measured at 390x631, 19 Nov: the bar is 242 px; beside Show and its key Show is cut to 76 px,
-// beside Hide and Done, Done to 14 px with no word left). Its visible part is small; its press is 44 px (the Undo's way).
+// beside Hide and Done, Done to 14 px with no word left). Its visible part is 20 px tall; its press is 44 px, on invisible
+// margins (the Undo's way): `min-height:0`, or the drawer's 44 px floor for a button draws it over the day's goal line.
 function ngClozeHead(app, s, c) {
   const vi = s.plan && s.plan.order === "worth" ? s.plan.visits.findIndex((v) => v.seat === c.seat) : -1;
   const h = c.seat.replace("|", " · ") + (vi >= 0 ? " · position " + (vi + 1) + " of " + s.plan.visits.length : "");

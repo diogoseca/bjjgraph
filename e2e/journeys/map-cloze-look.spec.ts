@@ -179,6 +179,14 @@ test.describe("390x631, touch", () => {
     await openCloze(page, true)
     await page.evaluate(() => { (window as W).__ngS = (window as W).__neural._session })
     expect(await look(page), "premise: the drawer stopped the game").toMatchObject({ drawer: true, paused: true, pane: true })
+    // the press: small to the eye, a thumb's size to the touch, and clear of the day's goal line under the heading
+    const mp = await page.evaluate(() => {
+      const m = document.querySelector("[data-cz-map]") as HTMLElement, r = m.getBoundingClientRect(), g = document.querySelector("[data-master-slim] [data-plan-goal]") as HTMLElement
+      const gr = g.getBoundingClientRect(), hit = (x: number, y: number) => m.contains(document.elementFromPoint(x, y))
+      return { h: r.height, overGoal: r.bottom > gr.top + 1, edges: [hit(r.left + r.width / 2, r.top + r.height / 2 - 20), hit(r.left + r.width / 2, r.top + r.height / 2 + 20)] }
+    })
+    expect([mp.h <= 24, mp.overGoal], "the Map press is small and clear of the day's goal line").toEqual([true, false])
+    expect(mp.edges, "and a thumb's press 40 px tall around it is still on it").toEqual([true, true])
     await press(page, "[data-cz-map]", "Map", true)
     await settle(j, page)
     let v = await look(page)
