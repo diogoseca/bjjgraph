@@ -923,6 +923,9 @@ class Component extends DCLogic {
    */
   _lightOf() {
     if (!this.paused || (this.deckShown && this.isMobile())) return null;
+    // an open cloze is what the map shows beside it (S2): lit from Show until Hide, Done or the place left, and nothing else
+    const z = this._czAt();
+    if (z) return z.c.shown && !z.c.done ? z.n : null;
     const n = this._shownNode();
     return n && this.rsAllowsIdx(n.idx) ? n : null;
   }
@@ -16273,6 +16276,27 @@ class Component extends DCLogic {
     return c && !c.shown && !c.done ? c.down : null;
   }
   _czHand() { const d = this._czDown(); return !!d && (this.optionIdxs || []).some((i) => d.has(i)); }
+  /**
+   * THE OPEN CLOZE'S PLACE ON THE MAP (L2b S2, v1.296.0; the orchestrator's ruling (d) on L2b Part A, 19 Nov 2026): `{n, c}`,
+   * the node of the half the cloze's seat plays (`_seatMember`) and the cloze, while a cloze is open in Master the game on
+   * screen BESIDE the map: a computer (on a phone the drawer is the screen; its look is S3), the session in the drawer
+   * (`_sessionInline`), the place drawn in this ruleset. Else null. Derived on every read, so it has no lifters of its own
+   * (§6.5): the cloze closed, the list, a card opening, the drawer shut, Esc, another session, each ends it as it ends the
+   * cloze. Read by:
+   *   - `updateCamera`: THE HOLD. While it is set no automatic writer takes the camera (the roll's follow-cam, a staged
+   *     board's tracking), beside `_conceptId`'s hold; released the moment the cloze goes. The camera's 7 s lease would not
+   *     do: it runs on the frame clock, which runs under a pause, and a staged board's tracking is exempt from the pause
+   *     (measured: reports/mapshows.md, 5.5). The glide that puts it there is `ngLightFrame` (map-light.src.js).
+   *   - `_lightOf`: the place is lit from Show until Hide, Done or the place left.
+   *   - `draw()`: the place is named (the pointer's label, when nothing is under the pointer), and while lit its shown
+   *     moves are named where a name fits; its session ring is not drawn while it is lit.
+   */
+  _czAt() {
+    const s = this._session, c = s && s.czOpen != null && s.cz && !this.isMobile() && this._sessionInline() ? s.cz.get(s.czOpen) : null;
+    if (!c || !c.seat) return null;
+    const i = this.nodeForKey(c.seat), n = i >= 0 && this.rsAllowsIdx(i) ? this.nodes[this._seatMember(i, c.side)] : null;
+    return n ? { n, c } : null;
+  }
   _czSync() {
     this._hmLit = new Set(); this._nm = null;
     // a card a tap or a key turned up BEFORE the cloze opened goes down again while the cloze holds the hand (L2-R2: under
@@ -22102,7 +22126,7 @@ class Component extends DCLogic {
     // end-of-round zoom. This is the line the whole camera-ownership fix comes down to: without
     // it the follow-cam re-aims camTarget at the current roll node on the very next frame and the
     // flight the user asked for never happens. See holdCamera().
-    if (this.introDone && (this.camHeld() || this._conceptId)) tgt = null;
+    if (this.introDone && (this.camHeld() || this._conceptId || this._czAt())) tgt = null;   // …and an open cloze's place (S2, `_czAt`)
     // An escape (camera false) picked inside a calm reading catch's lease window keeps its framing
     // through its whole travel, even past the window (`calmHeld`, latched at the pick).
     if (this.introDone && this._execution && this._execution.camera === false && this._execution.calmHeld) tgt = null;
@@ -23231,9 +23255,10 @@ class Component extends DCLogic {
     // are the authored proportions, now honoured at every camera.
     // session highlight rings (from "Suggested for you" etc.)
     if (this._sessionNodes && this._sessionNodes.length) {
-      const pulse = 0.5 + 0.5 * Math.sin(this.now * 2.6);
+      // (L2b S2, the ruling (c) point 2: the lit place wears no pulsing ring while the light is on: it would pulse in its hole)
+      const pulse = 0.5 + 0.5 * Math.sin(this.now * 2.6), litN = this._lightOf();
       for (const k of this._sessionNodes) {
-        const n = this.nodes[k]; if (!n) continue;
+        const n = this.nodes[k]; if (!n || (litN && (k === litN.idx || k === litN.pi))) continue;
         ctx.strokeStyle = this.rgba(this._mapColor(n), (0.45 + 0.4 * pulse) * A);
         ctx.lineWidth = 2 / scale;
         ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 3, 0, 6.2832); ctx.stroke();
@@ -23799,11 +23824,12 @@ class Component extends DCLogic {
       this._lastRichLabel = null;
       this._lastPosCand = null;
       // the live hover, resolved once — both the focus group and the roaming one read it
+      const cz = this._czAt(), czLit = !!cz && cz.c.shown && !cz.c.done && this.paused;   // an open cloze's place, and lit (L2b S2)
       const heldStar = this._seatStarButtons && [...this._seatStarButtons.values()].find((b) =>
         b === this._pickAnchor || b.matches(":hover, :focus-visible"));
       const _hovNode = heldStar ? this.nodes[Number(heldStar.getAttribute("data-seat-star"))]
         : (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5)
-          ? this.nodes[this._hover.idx] : this._shownNode();   // ...else the place "Show on the map" showed (L3, `_showPlace`)
+          ? this.nodes[this._hover.idx] : this._shownNode() || (cz && cz.n);   // ...else the place "Show on the map" showed (L3, `_showPlace`), else an open cloze's (L2b S2, `_czAt`)
       if (drawFocus >= 0 && !this.pulse) {
         const n = this.nodes[drawFocus];
         const partner = n.pi >= 0 ? this.nodes[n.pi] : null;
@@ -23892,7 +23918,7 @@ class Component extends DCLogic {
       // with the outside gold line's reach (NG_MAP_MARKS.line beyond the silhouette, v1.280.0; the dot's reach before),
       // whether it wears one or not, so a grade never moves a name.
       const orbs = [];
-      for (const i of (this.optionIdxs || []).concat(drawFocus >= 0 ? [drawFocus, this.nodes[drawFocus].pi] : [])) {
+      for (const i of new Set((this.optionIdxs || []).concat(drawFocus >= 0 ? [drawFocus, this.nodes[drawFocus].pi] : [], czLit ? [cz.n.idx, cz.n.pi].concat(cz.c.rows.map((r) => r.idx)) : []))) {   // (and a lit cloze's place and moves, S2)
         const n = this.nodes[i]; if (!n || !rsOk[i] || (n.z && !n.rep && kLOD < 0.5)) continue;   // a twin counts once split (`pairGroup`'s threshold)
         // the reach a name keeps from it: the outside line's (the silhouette, the gap, the line); the SEAT's is its focus mark
         // (1.28 of the orb), the mark's rim (1 px out) and the line beyond that (GOLD1-R2, the map reader of PR 417: a name came
@@ -23956,7 +23982,22 @@ class Component extends DCLogic {
         const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { k: Math.max(0, 1 - age / 3.2), act: !n.litT });
         if (on(c)) (c.act ? point : trail).push(c);
       }
-      if (point.length) write("point", point, litCol);
+      const pointPlan = point.length ? write("point", point, litCol) : null;
+      // THE OPEN CLOZE'S SHOWN MOVES (L2b S2; the ruling (d): "the shown moves named where a name fits"), while its place is lit
+      // (Show until Hide, Done or the place left), BEFORE the roll's own hand: the moves the player is answering claim their
+      // places first. An orb named here (or just now by a point) is not named again by a later pass: the roll can stand at the
+      // same place, and its hand is then the same orbs. Never a face-down move (`hmDown`), as everywhere.
+      const czNamed = new Set(pointPlan ? pointPlan.keys() : []);
+      if (czLit) {
+        const cc = [];
+        for (const idx of new Set(cz.c.rows.map((r) => r.idx))) {
+          const n = this.nodes[idx]; if (!n || !rsOk[idx] || czNamed.has(idx) || (hmDown && hmDown.has(idx)) || hovd(n)) continue;
+          if (idx === drawFocus || (drawFocus >= 0 && n.pairId && this.nodes[drawFocus].pairId === n.pairId)) continue;
+          const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { act: false });
+          if (on(c)) cc.push(c);
+        }
+        for (const i of write("cloze", cc, (c) => this.rgba(c.n.col, 0.95 * A)).keys()) czNamed.add(i);
+      }
       // persistent labels on the outgoing option nodes while a decision is open
       this._lastOptLabels = null; // published like _lastPairLabel: "what did THIS frame draw"
       this._lastOptBoxes = null;  // ...and where (CSS px), so the seal's dot is held off every name (v1.272.0)
@@ -23972,6 +24013,7 @@ class Component extends DCLogic {
         for (const idx of new Set(row.concat(this.optionIdxs))) {
           const n = this.nodes[idx]; if (!n || !dealt.has(idx)) continue;
           if (hmDown && hmDown.has(idx)) continue;   // hidden moves: a face-down card's orb is not named
+          if (czNamed.has(idx)) continue;   // named by the open cloze's pass already (S2)
           // a staged exchange makes a dealt option THE FOCUS (v1.132.0) — the pair group already
           // names it, and an option label on the same orb is the "printed twice" defect the
           // in-node pass was deleted for. Never possible before: an option was never the focus.
@@ -23986,7 +24028,7 @@ class Component extends DCLogic {
         // the name's INK box, not a guessed pad
         this._lastOptBoxes = this._lastOptLabels.map((idx) => { const b = plan.get(idx); return { idx, l: b.l, r: b.r, t: b.t, b: b.b }; });
       }
-      if (trail.length) write("lit", trail, litCol);
+      if (trail.length) write("lit", trail.filter((c) => !czNamed.has(c.i)), litCol);
       this._lastNameBoxes = claims;
     }
     this._syncSeatStars(seatStars);

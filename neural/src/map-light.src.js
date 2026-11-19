@@ -35,6 +35,7 @@ export const NG_LIGHT = {
   markBelow: 2.5,    // an orb drawn narrower than this (px) is a mark above the layer, not a hole
   markR: 2,          // a mark's radius (px): a 4 px dot, design 7's far rule
   halo: 0.1,         // the halo's alpha at the orb's edge, fading to nothing at the hole's radius
+  calm: [34, 38, 34, 37],   // the calm area (S2): the visible map inset left, top, right, foot (design round 6, section 3)
 };
 const NG_LIGHT_GOLD = "240,192,90", NG_LIGHT_PALE = "214,222,240", NG_LIGHT_HALO = "200,215,255";
 
@@ -101,4 +102,31 @@ export function ngLightDraw(app, ctx, F) {
   }
   ctx.restore();
   return { k, place: place.idx, holes: P.holes.map((h) => ({ i: h.i, x: h.x, y: h.y, r: h.r, hw: h.hw, place: h.place })), marks: P.marks };
+}
+
+/**
+ * THE CAMERA AT A CLOZE (L2b S2, v1.296.0; the orchestrator's ruling (d) on L2b Part A, 19 Nov 2026: "When a place's cloze
+ * opens, the map goes to the place and its moves … At Show, one glide holds the place and its SHOWN moves (not where they
+ * lead): never closer than the roll's zoom"). `idxs`: the place's pair and the cloze's moves. ONE glide, the set fitted into
+ * the CALM AREA (the visible map, `_viewRect()`, inset by `NG_LIGHT.calm`), never closer than the roll's own zoom
+ * (`ROLL_ZOOM`); and NO glide at all when every one of them is inside the calm area already at a zoom no closer than the
+ * roll's. "Already" is read where the camera is GOING (`camTarget`), so a glide still in flight is not begun again. Not
+ * where the moves lead: measured over every seat, that is the whole map at the median place (reports/mapshows.md, 5.4).
+ * The glide takes the camera from any lease (`releaseCamera`, as a row's own flight does, `locateNode`); what keeps it there
+ * while the cloze is open is the app's own hold (`_czAt`, read by `updateCamera`). Returns true when it glided.
+ */
+export function ngLightFrame(app, idxs) {
+  const T = app.camTarget, R = app._viewRect(), W = app.W || 1, H = app.H || 1, [l, t, r, b] = NG_LIGHT.calm, minW = app.graphW * app.ROLL_ZOOM;
+  const box = { left: R.left + l, top: R.top + t, width: Math.max(1, R.width - l - r), height: Math.max(1, R.height - t - b) };
+  const pts = idxs.map((i) => app.nodes[i]).filter(Boolean).map((n) => app.pairMid(n));
+  if (!pts.length) return false;
+  if (T && T.vw >= minW * 0.999) {
+    const sc = W / T.vw;
+    if (pts.every((p) => { const x = (p.x - T.cx) * sc + W / 2, y = (p.y - T.cy) * sc + H / 2; return x >= box.left && x <= box.left + box.width && y >= box.top && y <= box.top + box.height; })) return false;
+  }
+  const fit = app._fitView(idxs, { box, padding: 1.1, minW });
+  if (!fit) return false;
+  app.releaseCamera();
+  app.camTarget = fit;
+  return true;
 }

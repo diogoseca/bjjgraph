@@ -17,11 +17,18 @@
 //   ML11 gameplan.js not in, and nothing said                          → "gameplan.js not in yet: nothing drawn, said once a show"
 //   ML12 three of a lit position's hand, not all of it                → "a lit position's moves are the hand it deals…"
 //   ML13 a light at its target steps down (the first cut's flicker)     → "a full light stays full, frame after frame"
+// S2 (v1.296.0, a cloze's place on the map):
+//   CZ1 the place on a phone too (`_czAt` without its computer clause)  → "an open cloze's place: the half its seat plays…"
+//   CZ2 the place with the drawer shut (no `_sessionInline`)            → the same test
+//   CZ3 lit before Show                                                → "a cloze's place is lit from Show until Hide or Done…"
+//   CZ4 lit after Done                                                 → the same test
+//   CZ5 the glide every time (no "already in view")                    → "the glide: none when the place and its moves are in view…"
+//   CZ6 the glide closer than the roll's zoom                          → "…and never closer than the roll's zoom"
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { NG_LIGHT, ngLightPlan, ngLightAlpha } from "../neural/src/map-light.src.js";
+import { NG_LIGHT, ngLightPlan, ngLightAlpha, ngLightFrame } from "../neural/src/map-light.src.js";
 import { ratingApp } from "./_rating_fixture.mjs";
 
 const DIR = resolve(dirname(fileURLToPath(import.meta.url)), "../source/quartz/static/neural");
@@ -148,4 +155,75 @@ test("a lit position's moves are the hand it deals in this ruleset; a submission
   a._shown = { i: sub.idx, t: null };
   frame(300);
   assert.deepEqual(drawn[drawn.length - 1].moves, [], "a submission a roll passed through: its pair alone");
+});
+
+// ── S2 (v1.296.0): A CLOZE'S PLACE ON THE MAP ──
+// The app class with this payload and a session that holds an open cloze, as master-cloze.src.js builds one (`seat`, `side`,
+// `shown`, `done`, `rows`); the drawer showing it (`_sessionInline`: the drawer shown, a session, no card study).
+function clozed(opts = {}) {
+  const a = ratingApp(DIR, "gi", { live: false });
+  a.W = opts.W || 1440; a.H = 900; a.deckShown = opts.drawer !== false; a.deck = null; a._checkpoint = null; a.paused = true;
+  const seat = opts.seat || "Mount|Bottom", hub = a.nodeForKey(seat), side = seat.endsWith("|Bottom") ? "bottom" : "top";
+  const hand = [...new Set((a._dealtOpts(hub, side) || []).map((o) => o.idx))];
+  const c = { seat, side, shown: false, done: null, rows: hand.slice(0, 6).map((idx, k) => ({ id: "m" + k, idx, ask: true })) };
+  a._session = { czOpen: seat, cz: new Map([[seat, c]]) };
+  return { a, c, hub, hand };
+}
+
+test("an open cloze's place: the half its seat plays, on a computer, while the drawer shows the cloze", () => {
+  const { a, hub } = clozed({ seat: "Mount|Bottom" });
+  const z = a._czAt();
+  assert.ok(z, "a cloze open in the drawer beside the map: its place");
+  assert.equal(z.n.idx, a._seatMember(hub, "bottom"), "the half the seat plays (Mount, bottom)");
+  assert.equal(z.n.role, "bottom");
+  assert.equal(clozed({ W: 390 }).a._czAt(), null, "a phone: the drawer is the screen (S3's look)");
+  assert.equal(clozed({ drawer: false }).a._czAt(), null, "the drawer shut: the cloze is not on screen");
+  const shut = clozed(); shut.a._session.czOpen = null;
+  assert.equal(shut.a._czAt(), null, "no cloze open: none");
+});
+
+test("a cloze's place is lit from Show until Hide or Done, never over a running game", () => {
+  const { a, c } = clozed();
+  assert.equal(a._lightOf(), null, "before Show: no light");
+  c.shown = true;
+  assert.equal(a._lightOf()?.idx, a._czAt().n.idx, "after Show: the place");
+  a.paused = false;
+  assert.equal(a._lightOf(), null, "the game runs: none");
+  a.paused = true; c.shown = false;
+  assert.equal(a._lightOf(), null, "Hide: none");
+  c.shown = true; c.done = { u: null, rows: new Map() };
+  assert.equal(a._lightOf(), null, "Done: none");
+});
+
+// the glide (`ngLightFrame`): the calm area is the visible map (`_viewRect`, here the whole 1440x900 frame) inset by NG_LIGHT.calm
+function framed(a) {
+  a.ROLL_ZOOM = 0.085;   // a class field: the fixture builds the class without running its initialisers
+  a._viewRect = () => ({ left: 0, top: 0, width: a.W, height: a.H });
+  const at = (idxs) => {
+    const T = a.camTarget, sc = a.W / T.vw, [l, t, r, b] = NG_LIGHT.calm;
+    return idxs.every((i) => { const p = a.pairMid(a.nodes[i]), x = (p.x - T.cx) * sc + a.W / 2, y = (p.y - T.cy) * sc + a.H / 2; return x >= l && x <= a.W - r && y >= t && y <= a.H - b; });
+  };
+  return at;
+}
+test("the glide: none when the place and its moves are in view, one when they are not", () => {
+  const { a, hand, hub } = clozed({ seat: "Mount|Top" });
+  const inView = framed(a), set = [hub].concat(hand.slice(0, 6));
+  a.camTarget = { cx: a.nodes[hub].x + a.graphW, cy: a.nodes[hub].y, vw: a.graphW * 0.3 };
+  assert.equal(inView(set), false, "premise: the camera is elsewhere");
+  assert.equal(ngLightFrame(a, set), true, "one glide");
+  assert.equal(inView(set), true, "after it the place and its moves are in the calm area");
+  const T = { ...a.camTarget };
+  assert.equal(ngLightFrame(a, set), false, "asked again with all of it in view: no glide");
+  assert.deepEqual(a.camTarget, T, "and the camera's target is as it was");
+});
+test("…and never closer than the roll's zoom", () => {
+  const { a, hand, hub } = clozed({ seat: "Mount|Top" });
+  framed(a);
+  const n = a.nodes[hub], near = hand.map((i) => a.nodes[i]).sort((p, q) => Math.hypot(p.x - n.x, p.y - n.y) - Math.hypot(q.x - n.x, q.y - n.y))[0];
+  a.camTarget = { cx: n.x + a.graphW, cy: n.y, vw: a.graphW };
+  ngLightFrame(a, [hub, near.idx]);
+  assert.ok(Math.abs(a.camTarget.vw - a.graphW * 0.085) < 1e-9, "a place and its nearest move fit closer: the view stays at the roll's zoom (" + (a.camTarget.vw / a.graphW).toFixed(4) + ")");
+  a.camTarget = { cx: n.x, cy: n.y, vw: a.graphW * 0.05 };
+  assert.equal(ngLightFrame(a, [hub, near.idx]), true, "in view but closer than the roll's zoom: it glides out to it");
+  assert.ok(a.camTarget.vw >= a.graphW * 0.085 - 1e-9);
 });
