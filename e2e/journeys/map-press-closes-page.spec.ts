@@ -139,6 +139,13 @@ const bare = (page: Page, rightOf = 0) => page.evaluate((rightOf) => {
     return null
   } finally { a._hover = was }
 }, rightOf)
+/** `bare`, asked again over a few frames: beside a phone's open drawer the strip is 46 px wide, and whether a point there is 14 px
+ *  clear of every node depends on where the camera has come to rest (the control found none on 2 runs of 50 at the first ask) */
+async function bareSoon(page: Page, rightOf: number) {
+  let at: { x: number; y: number } | null = null
+  for (let i = 0; i < 12 && !at; i++) { at = await bare(page, rightOf); if (!at) await frames(page, 400) }
+  return at
+}
 const beatsFrom = (page: Page, from: number) => page.evaluate((from) => ((window as W).__neural.beats || []).slice(from).map((b: W) => b.beat as string), from)
 const beatCount = (page: Page) => page.evaluate(() => ((window as W).__neural.beats || []).length as number)
 /** the stored record, every leaf by its path */
@@ -497,7 +504,7 @@ for (const size of SIZES) {
       if (size.touch) {
         // on a phone the drawer is the screen: the menu's outside is the strip beside it, and that tap is the drawer's own
         // way out too. It shuts the menu and the drawer, and the page stays.
-        const strip = await bare(page, 344)
+        const strip = await bareSoon(page, 344)
         expect(strip, "premise: a point of bare map in the strip beside the drawer").not.toBeNull()
         await press(page, strip!)
       } else {
@@ -674,7 +681,7 @@ test.describe("on a phone with the drawer open, 390x631 by touch", () => {
     await page.touchscreen.tap(logo.x, logo.y)
     await j.advance(1200)
     expect((await seen(page)).drawer, "premise: the drawer is open, and it is the screen").toBe(true)
-    const strip = await bare(page, 344)
+    const strip = await bareSoon(page, 344)
     expect(strip, "premise: a point of bare map in the strip beside the drawer, 14 px clear of its edge").not.toBeNull()
     await page.touchscreen.tap(strip!.x, strip!.y)
     await j.advance(1200)
