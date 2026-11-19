@@ -1529,6 +1529,13 @@ class Component extends DCLogic {
       this._onNeuralPopstate = () => {
         if (!this._progressCurrent()) return;
         this._writeUrl();
+        // A HISTORY STEP FILES THE ROLL THAT WAS PLAYED, WHATEVER ENTRY IT LANDS ON (BGCLOSE-R2, F8; the reader of PR #446). The step
+        // remounts the app, and this visit's shelf goes on to the next instance (`_leaveShelf`), but only what is FILED goes: a step
+        // onto a node page filed the roll under way (below, `rollFromPosition` → `_closeRoll`), a step onto the closed map returned
+        // first and the roll was lost (close; Back; two moves; Forward: the shelf held the first roll only). `_closeRoll` is the one
+        // filing, with its own rule for what counts as played and its one stored effect (the day's count). It is idempotent (it
+        // empties the roll it files), so the node page's own filing that follows finds nothing and nothing is filed twice.
+        this._closeRoll();
         // Onto the entry a closed page wrote (BGCLOSE-R1; the reader of PR #446): nothing for this instance to open. Quartz's router
         // mounts the next app on it, whose boot stands the map alone (`_seedFromUrl`); opened here, "/" was read as an article and
         // the reader's loading line showed for the ~0.3 s before that (`_readerIntent` still set from the page that was closed).
