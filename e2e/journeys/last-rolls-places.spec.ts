@@ -114,8 +114,8 @@ import { journey } from "../dsl"
  *   M45 …or by its key alone, whatever roll it is a row of (the roll's identity out) → the same step
  * NOT COVERED HERE, and what to check by hand: a pinch (two real fingers; Playwright sends one), whose first finger is the
  * pointerdown M9 pins; the camera's 7 s lease running out by itself (camera canon, share-camera.spec.ts); the row's GOLD in
- * no-gi (it is `_placeGold`, which reads the ruleset's own hand as the map does). The name on the map is not yet tied to its
- * orb at a glance: the lighter spotlight the owner chose for "the map shows where" does that, and it is the map's next part.
+ * no-gi (it is `_placeGold`, which reads the ruleset's own hand as the map does). The light that ties the name to its orb at
+ * a glance (L2b S1, v1.295.0) is pinned by the ink in e2e/journeys/map-light.spec.ts.
  * The harness serves `{}` for dossiers: no claim here reads a film or an article section.
  */
 

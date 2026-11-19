@@ -1,0 +1,273 @@
+import { expect, test, type Page } from "@playwright/test"
+import { journey } from "../dsl"
+
+/**
+ * THE LIGHT (L2b S1, v1.295.0): "the map shows where" (the owner's U202 a), first on Last rolls' "Show on the map".
+ *
+ * Until now "Show on the map" flew to the place and NAMED it; nothing tied the name to its orb at a glance. Now the map
+ * steps back under one layer of rgb(7, 8, 16) at 40% (half of direction B, design round 6), and the place's pair and every
+ * move it deals in this ruleset stand clear of it (the owner's U175 rule), over every line and orb and under every name.
+ * Ruled with the rest of L2b Part A (c) on 19 Nov 2026. What is drawn: neural/src/map-light.src.js; when: `_lightOf` and
+ * `_drawLight` in app.src.jsx; the fade's timing and the rules of what is a hole and what a mark: tests/map_light.test.mjs.
+ *
+ * WHAT IS READ: the pixels `draw()` paints, never the rule recomputed (CLAUDE.md 6.3). Each claim is a DIFFERENTIAL against a
+ * CONTROL FRAME: the same frame drawn again at the same instant with nothing shown, so everything the map draws anyway
+ * subtracts out (both drawn into offscreen copies of the real canvas, the live context swapped for each, as
+ * map-gold.spec.ts reads the gold). Pressed as a player does: a real mouse at 1440x900 (at dpr 1 and 2), a touch tap at
+ * 390x631 (dpr 2), at points `elementFromPoint` confirms are the control.
+ *
+ * MUTANTS, each built alone into the served bundle (`npm run dev:neural:app`, under the lock), after a neutral control that
+ * left this file green; the clean bundle rebuilt after. Every one RED at the step named (the table and its date are in
+ * docs/Changelog-Archive.md, v1.295.0):
+ *   J1  the layer at 0.8 (B's own strength)                          → "…lights the place" at "the map steps back to 40%"
+ *   J2  no hole for the place's pair                                  → the same test, at "the place's orbs are not dimmed"
+ *   J3  the layer drawn after the names                               → the same test, at "the place's name is not dimmed"
+ *   J4  no hole for the moves                                         → the same test, at "the moves it deals stand clear"
+ *   J5  the light over a running game (`_lightOf` without `paused`)   → "…the drawer shut by Esc…" at "the game runs: the light
+ *                                                                        is out", and the phone's at "…the light goes"
+ *   J6  the light under a phone's open drawer                         → "on a phone…" at "the drawer opened over the look: no
+ *                                                                        light under it"
+ *   J7  the planner's bundle not in, and nothing said                 → "the planner's bundle not in yet…" at "said once"
+ * NOT A KILL HERE: the fade kept under reduced motion. The step "under reduced motion the light is full on the first frame"
+ * reads the frame after the press, and the press takes a real mouse some tenths of a second, which the fade (on the clock
+ * that moved more) may already have run through; its killer is the unit ("under reduced motion it is on and off at once",
+ * tests/map_light.test.mjs). The step here is the wiring: the player's setting reaches the light.
+ * NOT COVERED HERE: a mark above the layer (an orb drawn under 2.5 px: at the look's zoom no move of Mount is that small;
+ * the rule is the unit's); a film (it takes the camera's lease, `_replayFrame`, so the place is no longer shown: no clause
+ * of the light's own to mutate). The harness serves `{}` for dossiers: no claim here reads a film or an article.
+ */
+
+type W = any
+
+// ── the helpers of e2e/journeys/last-rolls-places.spec.ts that this file needs, the same steps (copied: a spec cannot import a
+// spec without running its tests) ──
+async function press(page: Page, selector: string, what: string, touch: boolean) {
+  for (let i = 0; ; i++) {
+    try { await page.locator(selector).first().scrollIntoViewIfNeeded({ timeout: 3_000 }); break }
+    catch (e) { if (i >= 4) throw e; await page.waitForTimeout(250) }
+  }
+  await expect.poll(() => page.evaluate((sel) => { let a = 1; for (let n = document.querySelector(sel) as HTMLElement | null; n; n = n.parentElement) a *= Number(getComputedStyle(n).opacity); return a }, selector),
+    { message: `${what}: fully shown`, timeout: 5_000 }).toBeGreaterThan(0.99)
+  const at = await page.evaluate((sel) => {
+    const el = document.querySelector(sel) as HTMLElement | null
+    if (!el) return { ok: false, why: "no element matches", x: 0, y: 0 }
+    const r = el.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2
+    if (x < 0 || y < 0 || x > innerWidth || y > innerHeight) return { ok: false, why: "off screen", x, y }
+    const top = document.elementFromPoint(x, y)
+    return { ok: !!top && (top === el || el.contains(top)), why: top ? "<" + top.tagName.toLowerCase() + " " + (top as HTMLElement).className + ">" : "nothing", x, y }
+  }, selector)
+  expect(at.ok, `${what}: the point under the press is the control (${at.why})`).toBe(true)
+  if (touch) await page.touchscreen.tap(at.x, at.y)
+  else await page.mouse.click(at.x, at.y)
+}
+async function dismissReward(page: Page, touch: boolean) {
+  for (let i = 0; i < 4 && (await page.locator("[data-reward-close]").isVisible()); i++) {
+    await press(page, "[data-reward-close]", "put the earned reward away", touch)
+    await page.waitForTimeout(150)
+  }
+}
+/** a roll from Mount (top) that has moved once, so Mount is a row of Last rolls and not where the roll stands; the roll live */
+async function rolled(page: Page, touch: boolean, beforeNavigate?: (p: Page) => Promise<void>) {
+  const j = journey(page)
+  await j.boot("/", beforeNavigate ? { beforeNavigate } : {})
+  await j.land("Mount Top")
+  const t = await page.evaluate(() => {
+    const a = (window as W).__neural
+    for (const i of a.optionIdxs || []) if (a.nodes[i].ty === "transitions") return a.nodes[i].t as string
+    return ""
+  })
+  await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01])
+  await j.pick(t)
+  await j.nextHand()
+  await dismissReward(page, touch)
+  expect(await page.evaluate(() => ((window as W).__neural.rollLog || [])[0]?.key), "premise: the roll started at Mount, top").toBe("Mount|Top")
+  expect(await page.evaluate(() => !!(window as W).__neural.paused), "premise: the roll is live").toBe(false)
+  return j
+}
+/** Last rolls open, Mount's row pressed, "Show on the map" pressed */
+async function show(page: Page, touch: boolean) {
+  await dismissReward(page, touch)
+  await press(page, ".ng-logo", "open the drawer", touch)
+  // (the drawer opens again on the view it was left on: Last rolls' rows are then already there)
+  if (!(await page.locator('[data-hist="Mount|Top"]').first().isVisible())) await press(page, '[data-view="history"]', "Last rolls", touch)
+  if (!(await page.locator('[data-hist="Mount|Top"] + .ng-hact [data-hist-show]').first().isVisible())) await press(page, '[data-hist="Mount|Top"]', "the row of Mount, top", touch)
+  await press(page, '[data-hist="Mount|Top"] + .ng-hact [data-hist-show]', "Show on the map", touch)
+}
+const state = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural
+  return { paused: !!a.paused, drawer: !!a.deckShown, look: !!a._lookAutoPaused }
+})
+const light = (page: Page) => page.evaluate(() => { const l = (window as W).__neural._lastLight; return l ? { k: l.k as number, place: l.place as number, holes: l.holes.length as number } : null })
+const mountTop = (page: Page) => page.evaluate(() => { const a = (window as W).__neural; return a._seatMember(a.nodeForKey("Mount|Top"), "top") as number })
+/** does the map name Mount: the label the last frame published for the pointer's node or a pair (`draw()`'s own output) */
+const named = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural, i = a.nodeForKey("Mount|Top"), n = a.nodes[i], want = a.graphName(n)
+  return [a._lastPairLabel, a._lastHoverLabel].some((l: W) => !!l && (l.idx === i || l.idx === n.pi) && String(l.main || "").includes(want))
+})
+const beats = (page: Page, name: string) => page.evaluate((n) => ((window as W).__neural.beats || []).filter((b: W) => b.beat === n).length, name)
+/** a point of the map no node and no control is under, found with the app's own hover test */
+const emptyMapPoint = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural, c = a.canvas.getBoundingClientRect()
+  for (let y = c.top + 70; y < c.bottom - 40; y += 23) for (let x = c.left + 30; x < c.right - 30; x += 31) {
+    const el = document.elementFromPoint(x, y)
+    if (el !== a.canvas && el !== a.wrapRef.current) continue
+    a._updateHover({ clientX: x, clientY: y })
+    const free = !a._hover || a._hover.idx < 0
+    a._hover = null
+    if (free) return { x, y }
+  }
+  return null
+})
+
+/**
+ * THE INK, lit against its control. Draws the frame as it is (the light on) and the same frame at the same instant with
+ * nothing shown (the control), each into an offscreen copy of the live canvas, and reads:
+ *   plain  points of the visible map at least 3 px beyond every hole's soft edge and every mark, and 12 px clear of every
+ *          name either frame wrote (a name's shadow darkens round it): lit, and what the layer would make of the control
+ *          (60% of it plus 40% of rgb(7, 8, 16)), channel by channel;
+ *   holes  each lit orb's centre, lit and control (a hole's centre 12 px clear of every name);
+ *   name   the brightest pixel inside the place's own name, lit: white text (240 to 248) whose anti-aliased 13 px glyphs read
+ *          221 to 223 at their brightest under no layer; under the layer they would read at most 0.6 x 248 + 6 = 155.
+ * The light's own state (`_shown`, its strength and clocks) is put back exactly after the control frame.
+ */
+const ink = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural, live = a.ctx, dpr = a.dpr || 1
+  const shot = () => {
+    const c = document.createElement("canvas"); c.width = live.canvas.width; c.height = live.canvas.height
+    const ctx = c.getContext("2d", { willReadFrequently: true })!
+    a.ctx = ctx; ctx.save()
+    try { a.draw() } finally { a.ctx = live; ctx.restore() }
+    return { ctx, names: (a._lastNameBoxes || []).map((b: W) => ({ l: b.l, r: b.r, t: b.t, b: b.b, i: b.i, w: b.w })), light: a._lastLight ? JSON.parse(JSON.stringify(a._lastLight)) : null }
+  }
+  const lit = shot()
+  const keep = { shown: a._shown, k: a._lightK, at: a._lightAt, t: a._lightT, s: a._lightS }
+  let ctl: W
+  a._shown = null; a._lightK = 0
+  try { ctl = shot() } finally { a._shown = keep.shown; a._lightK = keep.k; a._lightAt = keep.at; a._lightT = keep.t; a._lightS = keep.s }
+  a.draw()   // the real frame again on the live canvas, so what the page publishes (`_lastLight`, the labels) is not the control's
+  const L = lit.light
+  if (!L) return { L: null }
+  const px = (c: W, x: number, y: number) => { const d = c.getImageData(Math.floor(x * dpr), Math.floor(y * dpr), 1, 1).data; return [d[0], d[1], d[2]] }
+  const boxes = lit.names.concat(ctl.names), nearName = (x: number, y: number, m: number) => boxes.some((b: W) => x > b.l - m && x < b.r + m && y > b.t - m && y < b.b + m)
+  const R = a._viewRect(), plain: W[] = []
+  for (let y = R.top + 6; y < R.top + R.height - 6; y += 11) for (let x = R.left + 6; x < R.left + R.width - 6; x += 13) {
+    if (L.holes.some((h: W) => Math.hypot(x - h.x, y - h.y) < h.r * 1.35 + 3) || L.marks.some((m: W) => Math.hypot(x - m.x, y - m.y) < 6) || nearName(x, y, 12)) continue
+    const p = px(lit.ctx, x, y), q = px(ctl.ctx, x, y), want = q.map((v, i) => 0.6 * v + 0.4 * [7, 8, 16][i])
+    plain.push({ x, y, p, q, off: +Math.max(...p.map((v, i) => Math.abs(v - want[i]))).toFixed(1) })
+  }
+  const holes = L.holes.filter((h: W) => !nearName(h.x, h.y, 12)).map((h: W) => {
+    const p = px(lit.ctx, h.x, h.y), q = px(ctl.ctx, h.x, h.y)
+    return { i: h.i, place: h.place, p, q, dimmed: Math.max(...q.map((v, i) => v - p[i])) }
+  })
+  const own = lit.names.find((b: W) => (b.i === L.place || b.i === a.nodes[L.place].pi) && b.w === "hover")
+  let name = -1
+  if (own) {
+    const x0 = Math.floor(own.l * dpr), y0 = Math.floor(own.t * dpr), d = lit.ctx.getImageData(x0, y0, Math.max(1, Math.ceil(own.r * dpr) - x0), Math.max(1, Math.ceil(own.b * dpr) - y0)).data
+    for (let i = 0; i < d.length; i += 4) name = Math.max(name, d[i], d[i + 1], d[i + 2])
+  }
+  const hand = new Set((a._dealtOpts(L.place, a.nodes[L.place].role === "bottom" ? "bottom" : "top") || []).map((o: W) => o.idx))
+  return { L: { k: L.k, place: L.place, holes: L.holes.length, moves: L.holes.filter((h: W) => !h.place).map((h: W) => h.i), marks: L.marks.length }, plain, holes, name, hand: [...hand] }
+})
+
+for (const [label, vp] of [["mouse 1440x900 dpr 1", { viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1 }],
+  ["mouse 1440x900 dpr 2", { viewport: { width: 1440, height: 900 }, deviceScaleFactor: 2 }],
+  ["touch 390x631 dpr 2", { viewport: { width: 390, height: 631 }, deviceScaleFactor: 2, hasTouch: true, isMobile: true }]] as const) {
+  test.describe(label, () => {
+    test.use(vp)
+    const touch = label.startsWith("touch")
+
+    test(`Show on the map lights the place: the map steps back, the place and the moves it deals stand clear, no name is dimmed (${label})`, async ({ page }) => {
+      const j = await rolled(page, touch)
+      await show(page, touch)
+      // the arrival's bloom (`flare`, 3.2 s) is over, and the light is full: read it at rest, inside the camera's 7 s lease
+      await j.advance(3600)
+      if (!touch) await page.mouse.move(2, 2)   // the pointer off the map: it names nothing of its own
+      await j.advance(100)
+      const r = await ink(page)
+      expect(r.L, "the map is lit").not.toBeNull()
+      expect(r.L!.k, "at full strength").toBe(1)
+      expect(r.L!.place, "and what is lit is the place shown: Mount, the half the row is about").toBe(await mountTop(page))
+      expect(r.plain!.length, "premise: enough plain map to read (a floor: a count that ran on nothing would pass)").toBeGreaterThan(30)
+      const worst = r.plain!.reduce((m: W, p: W) => (p.off > m.off ? p : m), { off: -1 })
+      expect(worst.off, `the map steps back to 40% of rgb(7, 8, 16) everywhere it is not lit (worst at ${worst.x},${worst.y}: ${worst.p} against ${worst.q})`).toBeLessThanOrEqual(3)
+      const place = r.holes!.filter((h: W) => h.place), moves = r.holes!.filter((h: W) => !h.place)
+      expect(place.length, "premise: an orb of the place's pair is read").toBeGreaterThan(0)
+      for (const h of place) expect(h.dimmed, `the place's orbs are not dimmed (orb ${h.i}: ${h.p} against ${h.q})`).toBeLessThanOrEqual(2)
+      expect(moves.length, "premise: the moves it deals stand clear: three or more are in view").toBeGreaterThanOrEqual(3)
+      for (const h of moves) expect(h.dimmed, `the moves it deals stand clear (move ${h.i}: ${h.p} against ${h.q})`).toBeLessThanOrEqual(2)
+      expect(r.L!.moves.every((i: number) => r.hand!.includes(i)), "every move lit is one the place deals").toBe(true)
+      expect(r.name, "the place's name is not dimmed: it is drawn after the light (a dimmed name reads 155 at most)").toBeGreaterThanOrEqual(200)
+      expect(await named(page), "and the map still names the place").toBe(true)
+    })
+  })
+}
+
+test.describe("mouse 1440x900", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+
+  test("on a desktop the light lasts while the drawer holds the game; the drawer shut by Esc lets the game run, and the light is out", async ({ page }) => {
+    const j = await rolled(page, false)
+    await show(page, false)
+    await j.advance(1200)
+    expect(await state(page), "premise: the drawer stays and holds the game").toMatchObject({ drawer: true, paused: true })
+    expect((await light(page))?.k, "lit").toBe(1)
+    await page.keyboard.press("Escape")
+    await j.advance(450)
+    expect((await state(page)).paused, "premise: the drawer shut, the game runs").toBe(false)
+    expect(await light(page), "the game runs: the light is out").toBeNull()
+  })
+
+  test("under reduced motion the light is full on the first frame after the press", async ({ page }) => {
+    await page.emulateMedia({ reducedMotion: "reduce" })
+    const j = await rolled(page, false)
+    await dismissReward(page, false)
+    await press(page, ".ng-logo", "open the drawer", false)
+    await press(page, '[data-view="history"]', "Last rolls", false)
+    await press(page, '[data-hist="Mount|Top"]', "the row of Mount, top", false)
+    expect(await page.evaluate(() => (window as W).__neural._reducedMotion()), "premise: the player's setting reaches the app").toBe(true)
+    await j.advance(17)
+    await press(page, "[data-hist-show]", "Show on the map", false)
+    await j.advance(17)
+    expect((await light(page))?.k, "under reduced motion the light is full on the first frame after the press").toBe(1)
+  })
+
+  test("the planner's bundle not in yet: nothing is drawn and that is said once; the place is still named", async ({ page }) => {
+    // gameplan.js held, never answered (as practice-page.spec.ts holds it): the runtime that draws the light never arrives
+    let held = 0
+    const j = await rolled(page, false, async (p) => { await p.route("**/app/gameplan.js*", () => { held++ }) })
+    await show(page, false)
+    await j.advance(1500)
+    expect(held, "premise: the planner's bundle was asked for and held").toBeGreaterThan(0)
+    expect(await light(page), "nothing is drawn").toBeNull()
+    expect(await beats(page, "light_cold"), "said once").toBe(1)
+    expect(await named(page), "the place is still named").toBe(true)
+  })
+})
+
+test.describe("touch 390x631", () => {
+  test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })
+
+  test("on a phone the light lasts as long as the look; the press that ends it puts the light out and leaves the name; the drawer opened over a look has no light under it", async ({ page }) => {
+    const j = await rolled(page, true)
+    await show(page, true)
+    expect(await state(page), "premise: a look: the drawer shut, the clock held").toMatchObject({ drawer: false, paused: true, look: true })
+    await j.advance(9000)
+    expect((await light(page))?.k, "nine seconds on (past the camera's 7 s): the look holds, and so does the light").toBe(1)
+    const p = await emptyMapPoint(page)
+    expect(p, "premise: a point of the map with nothing on it").not.toBeNull()
+    await page.touchscreen.tap(p!.x, p!.y)
+    expect((await state(page)).paused, "premise: the press ends the look, the roll runs").toBe(false)
+    await j.advance(450)
+    expect(await light(page), "the roll runs: the light goes").toBeNull()
+    expect(await named(page), "and the place stays named for the camera's hold (L3-R2)").toBe(true)
+    // a second look, and the drawer opened over it inside the camera's hold: the place is still shown, never lit under it
+    await show(page, true)
+    await j.advance(1200)
+    expect((await light(page))?.k, "premise: lit again").toBe(1)
+    await press(page, ".ng-logo", "open the drawer over the look", true)
+    await j.advance(450)
+    expect(await state(page), "premise: the drawer is open").toMatchObject({ drawer: true })
+    expect(await page.evaluate(() => !!(window as W).__neural._shownNode()), "premise: the place is still shown (the camera's hold)").toBe(true)
+    expect(await light(page), "the drawer opened over the look: no light under it").toBeNull()
+  })
+})

@@ -31,6 +31,10 @@
  *   node tests/artifacts/_map_names_frametime.mjs --ab marks [--method paired] [--base URL] [--app DIR] [--rate 4]
  * --vps WxH,...  the viewports (default 390x844,1440x900; a width under 700 is a phone at dpr 3). v1.280.3 (STAR1-R1) times the
  *                star's sync with the drawer open at 1024x768,1280x800,1440x900
+ *   --ab light  v1.295.0 (L2b S1, the light): no light (A: `_lightOf` handed nothing) against the light on at the seat (B: the
+ *               place `_lightOf` names is where the roll stands, at full strength, so every move it deals is lit: Standing
+ *               Position, top, deals the most). The light's own cost alone: the place is not flown to, nothing is named for it
+ *   node tests/artifacts/_map_names_frametime.mjs --ab light --vps 390x631,1440x900 [--method paired] [--base URL] [--rate 4]
  */
 import { chromium } from "playwright"
 import fs from "node:fs"
@@ -40,7 +44,7 @@ const args = process.argv.slice(2), opt = (k, d) => { const i = args.indexOf("--
 const BASE = opt("base", "http://localhost:8196"), APP = opt("app", null), RATE = +opt("rate", 4)
 const AB = opt("ab", null), METHOD = opt("method", "paired")
 const VPS = opt("vps", "390x844,1440x900").split(",").map((v) => { const [w, h] = v.split("x").map(Number); return { w, h } })
-if (AB && !["hides", "marks", "seatstar"].includes(AB)) throw Error("--ab hides|marks|seatstar")
+if (AB && !["hides", "marks", "seatstar", "light"].includes(AB)) throw Error("--ab hides|marks|seatstar|light")
 if (!["paired", "blocks"].includes(METHOD)) throw Error("--method paired|blocks")
 const APP_FILES = APP ? new Set(fs.readdirSync(APP)) : null
 /** In the page: A against B (see the header). Every override is on the instance and is deleted at the end. */
@@ -53,6 +57,7 @@ function abFrames({ ab, method }) {
   const mode = (b) => {
     if (ab === "hides") { if (b) a._hides = () => true; else delete a._hides; return }
     if (ab === "seatstar") { if (b) delete a._syncSeatStars; else a._syncSeatStars = () => Object.getPrototypeOf(a)._syncSeatStars.call(a, []); return }
+    if (ab === "light") { a._lightOf = b ? () => a.nodes[a.currentPos] : () => null; a._lightK = b ? 1 : 0; return }
     a._movesGold = b ? () => new Map(dealt.map((i) => [i, 1])) : () => new Map()
     a._movesLearned = b ? () => new Set(dealt) : () => new Set()
     a._answered = b ? (n) => marked.has(n.idx) : () => false
@@ -60,6 +65,7 @@ function abFrames({ ab, method }) {
   const fresh = () => { if (ab === "hides") a._hidC = null }
   const frame = (kind, k, dir) => { if (kind === "drag") a.cam.cx += 3 / scale() * dir; a.now += 1 / 60; const t = performance.now(); a.draw(); return performance.now() - t }
   const res = { ab, method, dealt: dealt.length }
+  if (ab === "light" && !a._gameplanRuntime) throw Error("--ab light: the planner's bundle is not in (the light is drawn by gameplan.js)")
   try {
     for (const kind of ["held", "drag"]) {
       Object.assign(a.cam, c0, { lvw: Math.log(c0.vw) }); fresh()
@@ -100,7 +106,8 @@ function abFrames({ ab, method }) {
       } finally { Element.prototype.getBoundingClientRect = gb; window.getComputedStyle = gs }
     }
   } finally {
-    for (const k of ["_hides", "_movesGold", "_movesLearned", "_answered", "_syncSeatStars"]) if (Object.prototype.hasOwnProperty.call(a, k)) delete a[k]
+    if (ab === "light") { mode(true); frame("held", 0, 0); res.lit = a._lastLight ? { holes: a._lastLight.holes.length, marks: a._lastLight.marks.length } : null; mode(false) }
+    for (const k of ["_hides", "_movesGold", "_movesLearned", "_answered", "_syncSeatStars", "_lightOf"]) if (Object.prototype.hasOwnProperty.call(a, k)) delete a[k]
     if (ab === "seatstar") a.setDeckOpen(false)
     Object.assign(a.cam, c0, { lvw: Math.log(c0.vw) }); a.draw()
   }
@@ -132,6 +139,7 @@ for (const vp of VPS) {
   await page.evaluate(() => { document.querySelectorAll("[data-reward]").forEach((e) => e.remove()); window.__neural._handTouched = true; window.__neural.advance(200) })
   const cdp = await ctx.newCDPSession(page)
   await cdp.send("Emulation.setCPUThrottlingRate", { rate: RATE })
+  if (AB === "light") await page.evaluate(() => window.__neural._ensureGameplanRuntime())
   const r = AB ? await page.evaluate(abFrames, { ab: AB, method: METHOD }) : await page.evaluate(() => {
     const a = window.__neural, c0 = { cx: a.cam.cx, cy: a.cam.cy, vw: a.cam.vw }, N = 240
     const stat = (xs) => { const s = [...xs].sort((p, q) => p - q); return { median: +s[s.length >> 1].toFixed(3), p95: +s[Math.floor(s.length * 0.95)].toFixed(3) } }
