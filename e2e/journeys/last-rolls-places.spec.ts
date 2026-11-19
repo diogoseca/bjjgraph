@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test"
-import { journey } from "../dsl"
+import { journey, recordDiff } from "../dsl"
 
 /**
  * LAST ROLLS IS THE PLACES YOU WENT THROUGH (L3, v1.293.0).
@@ -159,9 +159,10 @@ const record = (page: Page) => page.evaluate(() => {
   delete b.updatedAt
   return b as Record<string, unknown>
 })
-/** the fields of the record that differ, by name: [] when the two are the same record */
-const changed = (a: Record<string, unknown>, b: Record<string, unknown>) =>
-  [...new Set([...Object.keys(a), ...Object.keys(b)])].filter((k) => JSON.stringify(a[k]) !== JSON.stringify(b[k])).sort()
+/** the fields of the record that differ, each with both values: [] when the two are the same record. By value, whatever
+ *  order a field's keys were written in (ORDER1, v1.294.0: `recordDiff`, e2e/dsl.ts; this compared `JSON.stringify` of
+ *  each field and named the field alone) */
+const changed = recordDiff
 /** where a node is on screen, through draw()'s own transform, and the visible map's rect */
 const onScreen = (page: Page, key: string) => page.evaluate((k) => {
   const a = (window as W).__neural, n = a.nodes[a.nodeForKey(k)], p = a.pairMid(n), W_ = a.W, H = a.H, sc = W_ / a.cam.vw
