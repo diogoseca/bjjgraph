@@ -238,7 +238,14 @@ for (const [width, height, touch] of [[390, 844, false], [390, 844, true], [1440
 }
 
 // A late article: the first landing's article request waits on the reader module's first load (held here), and the player roams
-// before it arrives. The ended landing's article must not appear on the map alone (open() meets free roam and keeps it away).
+// before it arrives. The ended landing's article must not appear on the map alone.
+// BGCLOSE-R1 (F7): THE CLOSE ENDS THAT REQUEST. It used to reach the reader when the module arrived, render, and be kept away by the
+// free-roam latch (`_readArticle`'s `away`, and `_readerHold`'s repaint); this journey's premise was "the late article arrives". The
+// close now ends a request whose module is still loading (`_closePage`: `_readerRequest`), so it never renders at all: the premise
+// is re-pointed to that ("the ended landing's article never renders"), and the claims are as they were. What this costs, recorded:
+// the latch's keep-away for a late AUTOMATIC request is reachable now only by a request made after the close, and in free roam no
+// landing makes one; free_roam_mutants.mjs's late-article-shows and repaint-lost are therefore not killed here any more (UNGUARDED).
+// Mutant R7 (the close does not end the request) → red at "the ended landing's article never renders".
 test.describe("1440x900, by mouse, a late article", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
   test("U123: an article that arrives after free roam began stays away, and the next landing shows it (1440, by mouse)", async ({ page }) => {
@@ -248,15 +255,14 @@ test.describe("1440x900, by mouse, a late article", () => {
     await j.boot("/", { beforeNavigate: async () => { await page.route("**/static/neural/app/reader.js*", async route => { await held; await route.continue() }) } })
     await j.land("Mount Top")
     expect(await page.evaluate(() => !(window as W).__neural._reader), "premise: the reader module has not arrived").toBe(true)
-    for (let i = 0; i < 2; i++) {
-      await j.advance(600)
-      const at = await bareMap(page); expect(at, "premise: bare map").not.toBeNull()
-      await page.mouse.click(...at!)
-    }
+    await j.advance(600)
+    const at = await bareMap(page); expect(at, "premise: bare map").not.toBeNull()
+    await page.mouse.click(...at!)   // one press closes the page (BGCLOSE; it was two taps)
     expect(await page.evaluate(() => !!(window as W).__neural._roam), "premise: free roam, before the article arrived").toBe(true)
     release()
-    await expect.poll(() => page.evaluate(() => { const r = (window as W).__neural._reader; return !!r && r.root.dataset.readerReady === "true" }), { message: "premise: the late article arrives" }).toBe(true)
-    await settle(j)
+    await expect.poll(() => page.evaluate(() => !!(window as W).__neural._reader), { message: "premise: the reader module arrives" }).toBe(true)
+    await settle(j); await page.waitForTimeout(500); await settle(j)
+    expect(await page.evaluate(() => (window as W).__neural._reader.root.dataset.readerReady === "true"), "the ended landing's article never renders: the close ended its request").toBe(false)
     const late = await screenOf(page)
     expect({ visibility: late.articleVisibility, index: late.index }, "free roam: the article is not on screen (a late article)").toEqual({ visibility: "hidden", index: null })
     await landAgain(page, j, false)
