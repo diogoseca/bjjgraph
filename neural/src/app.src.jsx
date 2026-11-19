@@ -22711,7 +22711,12 @@ class Component extends DCLogic {
         // simply routes there. A POSITION deliberately keeps calling `stageRollAt` directly:
         // going through `openDossier` would also unfold the card and pause the roll on every roam,
         // which is a different feature from the one being fixed.
-        if (dragging && moved < 5 && e && !closing) {
+        // A CANCELLED POINTER IS NEVER A PRESS (BGCLOSE-R1, F3; the reader of PR #446). `pointercancel` shares this handler
+        // with `pointerup`, and a touch the system took (an edge swipe, the notification shade, a call, palm rejection) that
+        // had not moved was routed as a tap: on the bare map it closed the page and a roll under way (on v1.293.4 it took the
+        // ladder's first step, the question: a fault older than BGCLOSE), on a node it opened that node. It ends the gesture
+        // and presses nothing: the capture is released, the pointer forgotten, a pinch or a pan ended, as above and below.
+        if (dragging && moved < 5 && e && e.type !== "pointercancel" && !closing) {
           this._updateHover(e);
           if (this._hover && this._hover.idx >= 0) {
             // ── TAPPING A NODE IS COMING BACK (v1.129.5) ─────────────────────────────────────

@@ -523,6 +523,42 @@ test.describe("the closed entry reloaded, 1074x796 by mouse", () => {
   })
 })
 
+// F3 (BGCLOSE-R1; the reader of PR #446): A TOUCH THE SYSTEM CANCELS IS NOT A PRESS. A touch started and cancelled without moving
+// (the reader's own way: CDP touchStart, 120 ms, touchCancel) was routed as a tap: on the bare map it closed the page; on dev
+// v1.293.4 it took the ladder's first step (the question). Now it ends the gesture and presses nothing, on the bare map and on a
+// node. Mutant R3: the cancel routed as a tap again → red at "a cancelled touch on the bare map closes nothing".
+test.describe("a touch the system cancels, 390x631 by touch", () => {
+  test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })
+  test("a cancelled touch is not a press: on the bare map it closes nothing, on a node it opens nothing", async ({ page }) => {
+    const { j, was } = await arrived(page)
+    const cdp = await page.context().newCDPSession(page)
+    const cancelAt = async (at: { x: number; y: number }) => {
+      await cdp.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: [{ x: at.x, y: at.y }] })
+      await page.waitForTimeout(120)
+      await cdp.send("Input.dispatchTouchEvent", { type: "touchCancel", touchPoints: [] })
+      await frames(page, 600)
+    }
+    const from = await beatCount(page)
+    const at = await bare(page)
+    expect(at, "premise: a point of bare map").not.toBeNull()
+    await cancelAt(at!)
+    const after = await seen(page)
+    expect([after.sections > 3, after.question, after.videos, after.hand, after.address, after.entries, after.roam], "a cancelled touch on the bare map closes nothing: the page whole, its address, no entry")
+      .toEqual([true, true, true, was.hand, PAGE, was.entries, false])
+    expect((await beatsFrom(page, from)).filter((b) => ["land_q_declined", "land_dismissed", "roam_entered"].includes(b)), "and declines nothing").toEqual([])
+    const node = await someNode(page)
+    expect(node, "premise: a node is drawn on the map and pressable there").not.toBeNull()
+    await cancelAt(node!)
+    const onNode = await seen(page)
+    expect([onNode.stands, onNode.address, onNode.entries, onNode.roam], "a cancelled touch on a node opens nothing: the board, the address and the history as they were").toEqual([was.stands, PAGE, was.entries, false])
+    // the control: a real tap on that bare point closes the page (the cancel was the only difference)
+    await page.touchscreen.tap(at!.x, at!.y)
+    await frames(page, 600)
+    expect([partsOf(await seen(page)), (await seen(page)).address], "the control: a tap there closes the page").toEqual([NOTHING, "/"])
+    void j
+  })
+})
+
 test.describe("on a phone with the drawer open, 390x631 by touch", () => {
   test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })
   test("the tap that shuts the drawer shuts the drawer and nothing else: the page stays, and so does the address", async ({ page }) => {
