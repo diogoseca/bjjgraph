@@ -20421,3 +20421,79 @@ up however far down; R1 to R12 the reach rule (R9 now "asked against the row's b
 acts, R12 a held Enter's); R13 the show step scrolls to the row's box; R14 it does not freeze the hand; T1 the seat asks
 the phone's width only; T2 no room at any width; T3 a resize re-seats only across the phone's breakpoint; T5 the phone's
 rule does not lift the cap. T4 survived (above).
+
+## v1.293.5 — Rename you can find: a pencil on every list row (LISTS-R, Slice 1; the owner, 19 Nov 2026)
+
+**A fix, not a feature:** renaming a list existed (since v1.99.3) and could not be found.
+
+**Why.** The owner, 19 Nov: "how can i rename a list? or move items between lists like drag and drop?". Rename had
+existed since v1.99.3 (a press on the list's name; that version quotes him: "I can't seem to click to rename my lists"),
+so this was the second time he could not find it. Measured on the preview (v1.293.3), a fresh guest, by real input: the
+name's press opened the editor at 1440 by mouse and at 390x631 by touch; the name's target was its text alone, 87x16 px,
+and a 44 px thumb centred on it was the name for 48 of 144 sample points (33%), the rest lit the list (the row) or opened
+it (the count). The only tells were an I-beam cursor and a tooltip after a pause on a desktop, nothing on a phone, and the
+name wears Explore's family-row type, where a press on a name OPENS it. Moving an item (the second half of his question)
+is Slice 2 and Slice 3, after the orchestrator's rulings on the stored field it needs (LISTS-R).
+
+**What changed** (`renderLists`, `startListRename`, `renameList`, in `neural/src/app.src.jsx`):
+- A **pencil** on every list row (`[data-list-edit]`), always visible, in Share's ink, between the count and Share. Its
+  press opens the same editor the name opens; it lights nothing. Not drawn beside its own open editor.
+- The **name's target is the row's height**: `main` takes the row's 7 px of vertical padding back with a negative margin
+  and stretches, and the name stretches inside it. The row's height does not move.
+- **On a phone** (`isMobile()`, the house's thumb test) the row's three actions (pencil, Share, ×) are 44x44 boxes on
+  one line, at an even 44 px pitch, overlapping nothing: the three boxes abut, and ×'s box uses the row's empty right
+  padding so its glyph stays where it was. (The first build kept the desktop's 12 px between Share and ×; the
+  orchestrator took it back for the name, LISTS-S1-GO: it was the miss-distance of two 24 px targets whose centres sat
+  36 px apart, and 44 px boxes put the centres 44 px apart, with delete two steps anyway.) The row gives up its vertical padding for them: 44 px tall on a
+  phone, against 38. The armed "Delete?" is a small red chip inside the same 44 px box. A desktop keeps its sizes.
+  History, so it is not a surprise: the row's old 44 px min-heights were taken out in v1.103.5 because the owner found
+  the spacing foreign beside Explore's rows. These boxes are transparent and the glyphs stay where they were; only the
+  row's height moves, by 6 px, and only on a phone.
+- A **key** that closes the editor (Enter, Esc) hands focus back to the row's pencil; a blur does not.
+- The **empty-list hint** named two surfaces that no longer carry the star ("the card you land on", "a move's detail
+  sheet"). It now names the three that do: the seat's star beside a name on the map, every row in Explore, and search.
+- `neural_list_renamed` gains `via`: "pencil", "name", "new" (the + then rename), or "other". A count, no name.
+
+**Measured** (the same two lists, before = the preview v1.293.3, after = this build; a 57-character name):
+1440, the row 38 px tall before and after; the name's target 185x16 → 153x38 (narrower by the pencil, as tall as the
+row); the pencil 24x24. 390x631, the row 38 → 44 px; the pencil, Share and × 24x24 → 44x44; the name's target 168x16 →
+114x44 (102 in the first build, with the 12 px). **The cost on a phone:** the three thumb boxes take 54 px from the name,
+so "Thursday open mat", whole before, reads "Thursday open …" at 390. The editor still shows the whole name.
+
+**The journeys.** `e2e/journeys/lists-rename.spec.ts`, four new: the pencil at 1440 by mouse (on every row, opaque at
+rest, its whole box its own by `elementFromPoint`, opens the editor focused and selected, lights nothing, Enter and Esc
+hand focus back, Esc keeps the pane); the name's target is the row's whole height and the row's height is its padding
+plus its icons; at 390x631 by touch, on a 57-character name, the three actions are 44 px boxes on one line overlapping
+no other target (each other, the name, the count), their centres at least 44 px apart, armed or not; a tap on the pencil and a tap
+on the name both rename and light nothing (the first touch test of the name's press). `lists-disclosure.spec.ts`'s
+empty-list journey now checks the new words and finds a star on each surface they name.
+
+**Mutants** (each rebuilt for real with `npm run dev:neural:app` and run against the journeys above; a neutral control
+first, a comment edit, stayed green):
+
+| mutant | what it breaks | result |
+|---|---|---|
+| C0 | control: a comment edit (the source hash moves, behaviour does not) | green, 5 of 5 |
+| M1 | the pencil's press does nothing | red: the pencil at 1440; the tap at 390 |
+| M2 | no pencil on a phone | red: the 44 px test; the tap test |
+| M3 | the phone's boxes back to 24 px | red: the 44 px test |
+| M4 | a button's press reaches the row (the row's button guard removed) | **survives, equivalent**: the pencil's press opens the editor synchronously, and the row's second guard (an editor open on this row) stops the light. Two guards hold one claim |
+| M4b | both row guards removed | red: the pencil at 1440; the tap at 390 |
+| M5 | the name not stretched to the row | red: the name's height |
+| M6 | the name grown by padding that moves the row | red: the name's height |
+| M7 | Enter does not hand focus back to the pencil | red: the pencil at 1440 |
+| M8 | the pencil's and Share's boxes overlap | red: the 44 px test |
+| M9 | × drawn over Share's box | red. (In the first build, which kept a 12 px gap, M9 was "the 12 px gone", and it SURVIVED a test that checked overlap only; the 12 px was then asserted. LISTS-S1-GO removed the gap itself, so the test now pins what it was for: centres at least 44 px apart and no overlap, armed or not.) |
+| M10 | search results lose their star | red: the empty-list hint |
+| M11 | the map's seat loses its star | red: the empty-list hint |
+| M12 | the armed "Delete?" shrinks on a phone | red: the 44 px test |
+| M13 | the pencil shows only on hover | red: the pencil at 1440 |
+
+**Bytes** (gzip -9, like the gate; dev's own bundle built here from HEAD's source): `neural.js` 749,450 → 750,792 B raw,
+237,366 → 237,709 B gzip (+343); `neural.css` unchanged. The eager set 377,214 B, +3,741 B since the 373,473 B baseline
+(the 5,000 cap; dev stood at +3,398); deferred unchanged at 548,649 B. No baseline moved.
+
+**Not covered.** An empty list made with + is gone at the next reload (`ngListsNormalize` drops it; unchanged, the
+orchestrator's ruling). The count button stays 30x25 on a phone: it joins the item row's controls (▶, ×, the move
+control) in Slice 2, where all of them become thumb targets.
+A touch screen wider than 640 px gets the desktop sizes (`isMobile()` is width only, as for the star).
