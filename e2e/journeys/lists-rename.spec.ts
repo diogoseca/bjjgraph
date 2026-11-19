@@ -414,17 +414,21 @@ test("while editing, the row's focus/light behavior does not fire — and fires 
 // so (the preview, measured: the name's target was its text, 87x16px; a desktop showed an I-beam and a delayed tooltip,
 // a phone nothing). Slice 1, the orchestrator's rulings 1 and 5:
 //   · a PENCIL on every list row, always visible ([data-list-edit]); its press renames and never lights the row;
-//   · the NAME's target is the row's height (by padding), and the row's height does not move;
+//   · the NAME's target is its TEXT (LISTS-S1-R1 took back the first build's stretch to the row's height: it cut the
+//     share of a phone's row that lights the list from about two thirds to 18%); every point of the row that is not a
+//     control lights the list, and the pencil costs its own area and no more;
 //   · on a phone the row's three actions (✎ · share · ×) are 44px targets on one line, at an even 44px pitch, that
 //     overlap no other target (LISTS-S1-GO took the 12px between Share and × back for the name);
 //   · a key that closes the editor hands focus back to the pencil.
 // Every rect below is MEASURED on the rendered row; no size is a constant of the spec.
 // Mutants, all red against these tests on a real rebuild (the archive's v1.293.5 entry has the table): the pencil's
-// press a no-op; no pencil on a phone; the phone's boxes at 24px; both row guards gone; the name unstretched; the
-// name grown by padding; no focus back on Enter; the pencil drawn over Share; × drawn over Share (M9; it survived the
-// first build of this file, which checked overlap only); search or the map without a star; the armed Delete?
-// shrunk; the pencil hover-only. NOT KILLED, and equivalent: the row's button guard alone removed (M4) — the pencil
-// opens the editor synchronously and the row's second guard, "an editor is open on this row", stops the light.
+// press a no-op; no pencil on a phone; the phone's boxes at 24px; both row guards gone; the name STRETCHED to the
+// row's height (LISTS-S1-R1: the first build's M5, inverted); no focus back on Enter; the pencil drawn over Share;
+// × drawn over Share (M9; it survived the first build of this file, which checked overlap only); search or the map
+// without a star; the armed Delete? shrunk; the pencil hover-only. GONE with the code it guarded: M6 (the name grown by
+// padding), since the name no longer grows at all. NOT KILLED, and equivalent: the row's button guard alone removed
+// (M4) — the pencil opens the editor synchronously and the row's second guard, "an editor is open on this row", stops
+// the light.
 
 type Box = { x: number; y: number; width: number; height: number };
 const boxOf = async (page: Page, sel: string): Promise<Box> => {
@@ -536,7 +540,90 @@ test("LISTS-R: the pencil renames from every list row, always visible, and never
   await expect(page.locator(".ng-drill"), "…and Esc did not close the pane").toBeVisible();
 });
 
-test("LISTS-R: the name's target is the row's whole height, and the row's height has not moved (1440, mouse)", async ({
+/** What a press does on each point of a list's row, sampled as the orchestrator's probe samples it (a 2px grid over the
+ *  row, `elementFromPoint`): LIGHT = inside the row and inside no button or input. `free` counts the points that lie
+ *  outside every control's measured box, so "everything that is not a control lights" is a comparison of two counts
+ *  taken on the same grid, not a constant. With `hide`, the pencil is taken out of the layout first (and put back). */
+const rowPressMap = (page: Page, id: string, hide = false) =>
+  page.evaluate(
+    ({ lid, hide }) => {
+      const row = document.querySelector(`[data-list-row="${lid}"]`) as HTMLElement;
+      const pencil = row.querySelector("[data-list-edit]") as HTMLElement | null;
+      if (hide && pencil) pencil.style.display = "none";
+      const R = row.getBoundingClientRect();
+      const boxes = [...row.querySelectorAll("button,input")]
+        .map((e) => e.getBoundingClientRect())
+        .filter((q) => q.width > 0 && q.height > 0);
+      const pr = pencil && !hide ? pencil.getBoundingClientRect() : null;
+      // `outside`: the row's rounded corners, which the browser does not hit-test as the row (the probe's "outside").
+      // `stolen`: a point outside every control's box that a control answers all the same; the claim is that none is.
+      let n = 0, light = 0, free = 0, stolen = 0, outside = 0, onPencil = 0;
+      for (let y = R.top + 1; y < R.bottom; y += 2)
+        for (let x = R.left + 1; x < R.right; x += 2) {
+          n++;
+          const el = document.elementFromPoint(x, y);
+          const inRow = !!el && row.contains(el);
+          const lit = inRow && !el!.closest("button,input");
+          if (lit) light++;
+          if (!inRow) outside++;
+          // a point within 1px of a control's edge belongs to neither side (subpixel rounding)
+          const inBox = boxes.some((q) => x >= q.left - 1 && x <= q.right + 1 && y >= q.top - 1 && y <= q.bottom + 1);
+          if (!inBox) { free++; if (inRow && !lit) stolen++; }
+          if (pr && x >= pr.left && x <= pr.right && y >= pr.top && y <= pr.bottom) onPencil++;
+        }
+      if (hide && pencil) pencil.style.display = "";
+      const pct = (v: number) => Math.round((1000 * v) / n) / 10;
+      return { light: pct(light), free: pct(free), outside: pct(outside), stolen, pencil: pct(onPencil), n };
+    },
+    { lid: id, hide },
+  );
+/** The name's TEXT, not its button: a Range over its contents, so a stretched button cannot pass for its text. */
+const nameText = (page: Page, id: string) =>
+  page.locator(`[data-list-name="${id}"]`).evaluate((el) => {
+    const r = document.createRange();
+    r.selectNodeContents(el);
+    const q = r.getBoundingClientRect(), b = el.getBoundingClientRect();
+    return { x: q.left, y: q.top, width: Math.min(q.width, b.width), height: q.height, buttonHeight: b.height };
+  });
+/** The row's press and the name's press, by real input (`press` is a mouse click or a touch tap at a point).
+ *  BY TOUCH, THE BROWSER WIDENS EVERY BUTTON: Chromium's touch adjustment moves a tap that lands near a control onto it.
+ *  Measured with real taps on the preview (dev v1.293.4, the name's box its text exactly as here) and on this build, at
+ *  390x631: a tap up to 6 to 8px above or below the name's text RENAMES, though `elementFromPoint` there says "row"; from
+ *  10px it lights. So the mouse presses 4px above the text, and touch presses 2px inside the row's top edge, which is
+ *  about 12px above the text on a phone's 44px row: past the browser's reach, and still the row's own press. */
+const rowAndNamePresses = async (page: Page, id: string, press: (x: number, y: number) => Promise<void>, how: string, touch = false) => {
+  const row = await boxOf(page, `[data-list-row="${id}"]`);
+  const text = await nameText(page, id);
+  expect(text.buttonHeight, "the name's box is its text (" + how + ")").toBeLessThanOrEqual(text.height + 2);
+
+  // every point of the row that is not a control lights the list; the pencil costs its own area, and nothing more
+  const map = await rowPressMap(page, id);
+  const bare = await rowPressMap(page, id, true);
+  const say = `${how}: the row lights on ${map.light}% of its area (outside every control: ${map.free}%, its rounded corners: ${map.outside}%), the pencil takes ${map.pencil}%, the row without the pencil lights on ${bare.light}%`;
+  expect(map.stolen, say + " — no control answers a point outside its own box").toBe(0);
+  expect(map.light, say + " — every point outside the controls lights").toBeGreaterThanOrEqual(map.free - map.outside - 1);
+  expect(map.light, say + " — the pencil's own cost, and no more").toBeGreaterThanOrEqual(bare.light - map.pencil - 2);
+
+  // above the name's text, inside the row: the row's own press, which lights the list and opens no editor
+  const x = text.x + Math.min(20, text.width / 2), above = touch ? row.y + 2 : text.y - 4;
+  const where = touch ? "2px inside the row's top edge (" + Math.round(text.y - above) + "px above the text)" : "4px above the name's text";
+  expect(above, "the point is inside the row").toBeGreaterThan(row.y);
+  expect(above, "the point is above the text").toBeLessThan(text.y);
+  await press(x, above);
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._listFocusId), { message: where + " lights the list (" + how + ")" }).toBe(id);
+  await expect(page.locator(`[data-list-rename="${id}"]`), "…and opens no editor").toHaveCount(0);
+
+  // on the text: rename (the shortcut it always was), and nothing lit by it
+  await page.evaluate(() => (window as any).__neural.clearFocus());
+  await page.waitForTimeout(450); // clear of the row's just-pressed guard
+  const t2 = await nameText(page, id);
+  await press(t2.x + Math.min(20, t2.width / 2), t2.y + t2.height / 2);
+  await expect(page.locator(`[data-list-rename="${id}"]`), "a press on the name's text renames (" + how + ")").toBeVisible();
+  expect(await page.evaluate(() => (window as any).__neural._listFocusId), "…and lights nothing").toBe(null);
+  await page.keyboard.press("Escape");
+};
+
+test("LISTS-S1-R1: the row lights wherever it holds no control; the name renames on its text, 4px above it lights (1440, mouse)", async ({
   page,
 }) => {
   const j = journey(page);
@@ -545,35 +632,8 @@ test("LISTS-R: the name's target is the row's whole height, and the row's height
   const { id } = await seedList(page, "Monday fundamentals");
   await openExplore(page);
   await collapse(page, id, () => j.clickByMouse(`[data-list-open="${id}"]`, "the count"));
-
-  const row = await boxOf(page, `[data-list-row="${id}"]`);
-  const name = await boxOf(page, `[data-list-name="${id}"]`);
-  const share = await boxOf(page, `[data-list-share="${id}"]`);
-  const pad = await page
-    .locator(`[data-list-row="${id}"]`)
-    .evaluate((el) => {
-      const c = getComputedStyle(el);
-      return parseFloat(c.paddingTop) + parseFloat(c.paddingBottom);
-    });
-  expect(Math.abs(name.y - row.y), "the name's box starts at the row's top edge").toBeLessThanOrEqual(1);
-  expect(
-    Math.abs(name.y + name.height - (row.y + row.height)),
-    "…and ends at its bottom edge",
-  ).toBeLessThanOrEqual(1);
-  expect(
-    Math.abs(row.height - (pad + share.height)),
-    "the row is still its padding plus its 24px icons: the name's growth moved nothing",
-  ).toBeLessThanOrEqual(1);
-
-  // a press 2px inside the row's top edge, over the name, renames (it used to light the list)
-  const at = await page.evaluate(
-    ([x, y]) => (document.elementFromPoint(x, y) as HTMLElement | null)?.getAttribute("data-list-name") ?? null,
-    [name.x + Math.min(20, name.width / 2), row.y + 2],
-  );
-  expect(at, "the row's top edge over the name is the name").toBe(id);
-  await page.mouse.click(name.x + Math.min(20, name.width / 2), row.y + 2);
-  await expect(page.locator(`[data-list-rename="${id}"]`), "a press at the row's edge, over the name, renames").toBeVisible();
-  expect(await page.evaluate(() => (window as any).__neural._listFocusId), "…and lights nothing").toBe(null);
+  await page.mouse.move(700, 450);
+  await rowAndNamePresses(page, id, (x, y) => page.mouse.click(x, y), "1440, mouse");
 });
 
 test.describe("LISTS-R at 390x631 by touch", () => {
@@ -652,6 +712,18 @@ test.describe("LISTS-R at 390x631 by touch", () => {
     expect((await hitsAll(page, sels.del)).misses).toEqual([]);
   });
 
+  test("LISTS-S1-R1 by touch: the row lights wherever it holds no control; the name renames on its text, the row's top band lights", async ({ page }) => {
+    const j = journey(page);
+    await j.boot("/");
+    await j.land("Mount Top");
+    const { id } = await seedList(page, LONG);
+    await openDrawerByTouch(page);
+    await page.locator(`[data-list-row="${id}"]`).scrollIntoViewIfNeeded();
+    await collapse(page, id, () => tapAt(page, `[data-list-open="${id}"]`));
+    await page.locator(`[data-list-row="${id}"]`).scrollIntoViewIfNeeded();
+    await rowAndNamePresses(page, id, (x, y) => page.touchscreen.tap(x, y), "390x631, touch", true);
+  });
+
   test("a tap on the pencil renames; a tap on the name still renames; neither lights the list", async ({ page }) => {
     const j = journey(page);
     await j.boot("/");
@@ -670,7 +742,8 @@ test.describe("LISTS-R at 390x631 by touch", () => {
     await expect(page.locator(`[data-list-name="${id}"]`)).toContainText("Wed open mat");
 
     await page.waitForTimeout(450); // clear of the editor's just-closed press guard (400ms)
-    await tapAt(page, `[data-list-name="${id}"]`);
+    const tx = await nameText(page, id); // on the TEXT's middle: the name's target is its text
+    await page.touchscreen.tap(tx.x + Math.min(20, tx.width / 2), tx.y + tx.height / 2);
     await expect(page.locator(`[data-list-rename="${id}"]`), "the name itself, tapped, still renames").toBeVisible();
     await page.keyboard.press("Escape");
     expect(await page.evaluate(() => (window as any).__neural._listFocusId), "…and lights nothing").toBe(null);
