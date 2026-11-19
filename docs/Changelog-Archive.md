@@ -20451,8 +20451,9 @@ is Slice 2 and Slice 3, after the orchestrator's rulings on the stored field it 
 **What changed** (`renderLists`, `startListRename`, `renameList`, in `neural/src/app.src.jsx`):
 - A **pencil** on every list row (`[data-list-edit]`), always visible, in Share's ink, between the count and Share. Its
   press opens the same editor the name opens; it lights nothing. Not drawn beside its own open editor.
-- The **name's target is the row's height**: `main` takes the row's 7 px of vertical padding back with a negative margin
-  and stretches, and the name stretches inside it. The row's height does not move.
+- The **name's target is its text, as on dev** (the shortcut it always was; the pencil is rename's own target). The first
+  build of this PR stretched it to the row's height; the orchestrator measured what that took and took it back
+  (LISTS-S1-R1, below).
 - **On a phone** (`isMobile()`, the house's thumb test) the row's three actions (pencil, Share, ×) are 44x44 boxes on
   one line, at an even 44 px pitch, overlapping nothing: the three boxes abut, and ×'s box uses the row's empty right
   padding so its glyph stays where it was. (The first build kept the desktop's 12 px between Share and ×; the
@@ -20467,19 +20468,54 @@ is Slice 2 and Slice 3, after the orchestrator's rulings on the stored field it 
   sheet"). It now names the three that do: the seat's star beside a name on the map, every row in Explore, and search.
 - `neural_list_renamed` gains `via`: "pencil", "name", "new" (the + then rename), or "other". A count, no name.
 
-**Measured** (the same two lists, before = the preview v1.293.3, after = this build; a 57-character name):
-1440, the row 38 px tall before and after; the name's target 185x16 → 153x38 (narrower by the pencil, as tall as the
-row); the pencil 24x24. 390x631, the row 38 → 44 px; the pencil, Share and × 24x24 → 44x44; the name's target 168x16 →
-114x44 (102 in the first build, with the 12 px). **The cost on a phone:** the three thumb boxes take 54 px from the name,
-so "Thursday open mat", whole before, reads "Thursday open …" at 390. The editor still shows the whole name.
+**Measured** (the same two lists; before = the preview, after = this build; the "lights" rows are the share of a list
+row's area where a press lights the list, sampled on a 2 px grid with `elementFromPoint` by the orchestrator's probe,
+both lists' insides shut):
 
-**The journeys.** `e2e/journeys/lists-rename.spec.ts`, four new: the pencil at 1440 by mouse (on every row, opaque at
-rest, its whole box its own by `elementFromPoint`, opens the editor focused and selected, lights nothing, Enter and Esc
-hand focus back, Esc keeps the pane); the name's target is the row's whole height and the row's height is its padding
-plus its icons; at 390x631 by touch, on a 57-character name, the three actions are 44 px boxes on one line overlapping
-no other target (each other, the name, the count), their centres at least 44 px apart, armed or not; a tap on the pencil and a tap
-on the name both rename and light nothing (the first touch test of the name's press). `lists-disclosure.spec.ts`'s
-empty-list journey now checks the new words and finds a star on each surface they name.
+| | before | first build (stretched name) | after |
+|---|---|---|---|
+| 1440, row height | 38 | 38 | 38 |
+| 1440, the name's target (long name) | 185 x 15 | 153 x 38 | 153 x 15 (its text) |
+| 1440, lights: short name · long name | 70% · 62% | 44% · 35% | **65% · 61%** |
+| 390x631, row height | 38 | 44 | 44 |
+| 390x631, the name's width | 168 | 102 (with 12 px between Share and ×) | 114 |
+| 390x631, pencil · Share · × | none · 24x24 · 24x24 | 44x44 each | 44x44 each, 44 px apart |
+| 390x631, lights: short name · long name | 68% · 62% | 18% · 18% | **41% · 41%** |
+| 390x631, the longest stretch of the row's middle line that lights | 48 / 22 px | 21 px | 21 px |
+
+**What the drop is made of.** At 1440 the row lights 5 points less than before: the pencil's own box (4 to 5%), and
+nothing else. At 390 it lights 27 points less: the pencil's 44 px box (13.8%), and Share's and ×'s growth from 24 to
+44 px boxes (the orchestrator's ruling 5), less what the row gains by being 44 px tall. On a phone the row still lights
+in the bands above and below the name and count, and in the 21 px left inset; its middle line is the controls'. On a
+phone, "Thursday open mat", whole before, reads "Thursday open …" at 114 px. The editor shows the whole name.
+
+**LISTS-S1-R1, the take-back.** The first build stretched the name's target to the row's height (the orchestrator's
+ruling 1, which my plan proposed). The orchestrator pressed the PR's CI build and measured the row: the share of it that
+lights the list fell from about two thirds to 18% on a phone, reachable only through the 21 px left inset; a 44 px thumb
+centred on the name renamed 83% (1440) / 92% (390) of the time. Neither of us had measured what the stretch took from the
+row's own press. The name's target went back to its text; the journey that pinned the stretch was replaced by the one
+below.
+
+**By touch the browser widens every button, on dev as here.** Chromium's touch adjustment moves a tap that lands near a
+control onto it. Measured with real taps at 390x631 on the preview (dev v1.293.4) and on this build, at the name's text:
+a tap up to 6 to 8 px above or below it RENAMES, though `elementFromPoint` at that point says "row"; from 10 px it
+lights. So the "lights" shares above (sampled with `elementFromPoint`) say more than a thumb gets: on a phone's 44 px row
+the band past the browser's reach is about 5 px above and below the name. The touch journey therefore presses 2 px inside
+the row's top edge (about 12 px above the text), and the mouse journey 4 px above the text.
+
+**The journeys.** `e2e/journeys/lists-rename.spec.ts`, five new:
+- the pencil at 1440 by mouse: on every row, opaque at rest, its whole box its own by `elementFromPoint`; it opens the
+  editor focused and selected and lights nothing; Enter and Esc hand focus back, and Esc keeps the pane;
+- at 390x631 by touch, on a 57-character name: the three actions are 44 px boxes on one line, centres at least 44 px
+  apart, overlapping no other target (each other, the name, the count), armed or not;
+- a tap on the pencil and a tap on the name's text both rename and light nothing (the first touch test of the name);
+- (R1) at 1440 by mouse AND at 390x631 by touch: the name's box is its text; no control answers a point outside its own
+  box, so every point of the row outside the controls lights; the row lights at least as much as it does with the pencil
+  taken out, less the pencil's own area; a press above the name's text lights the list and opens no editor (by mouse
+  4 px above it; by touch 2 px inside the row's top edge, past the browser's touch adjustment), and a press on the text
+  renames. Each run prints its own figures.
+
+`lists-disclosure.spec.ts`'s empty-list journey checks the new words and finds a star on each surface they name.
 
 **Mutants** (each rebuilt for real with `npm run dev:neural:app` and run against the journeys above; a neutral control
 first, a comment edit, stayed green):
@@ -20492,8 +20528,8 @@ first, a comment edit, stayed green):
 | M3 | the phone's boxes back to 24 px | red: the 44 px test |
 | M4 | a button's press reaches the row (the row's button guard removed) | **survives, equivalent**: the pencil's press opens the editor synchronously, and the row's second guard (an editor open on this row) stops the light. Two guards hold one claim |
 | M4b | both row guards removed | red: the pencil at 1440; the tap at 390 |
-| M5 | the name not stretched to the row | red: the name's height |
-| M6 | the name grown by padding that moves the row | red: the name's height |
+| M5i | (R1) the name stretched to the row's height again (the first build's code; its M5, inverted) | red: both R1 journeys |
+| M5, M6 | (first build) the name not stretched; the name grown by padding | gone with the code they guarded (R1) |
 | M7 | Enter does not hand focus back to the pencil | red: the pencil at 1440 |
 | M8 | the pencil's and Share's boxes overlap | red: the 44 px test |
 | M9 | × drawn over Share's box | red. (In the first build, which kept a 12 px gap, M9 was "the 12 px gone", and it SURVIVED a test that checked overlap only; the 12 px was then asserted. LISTS-S1-GO removed the gap itself, so the test now pins what it was for: centres at least 44 px apart and no overlap, armed or not.) |
@@ -20502,9 +20538,9 @@ first, a comment edit, stayed green):
 | M12 | the armed "Delete?" shrinks on a phone | red: the 44 px test |
 | M13 | the pencil shows only on hover | red: the pencil at 1440 |
 
-**Bytes** (gzip -9, like the gate; dev's own bundle built here from HEAD's source): `neural.js` 749,450 → 750,792 B raw,
-237,366 → 237,709 B gzip (+343); `neural.css` unchanged. The eager set 377,214 B, +3,741 B since the 373,473 B baseline
-(the 5,000 cap; dev stood at +3,398); deferred unchanged at 548,649 B. No baseline moved.
+**Bytes** (gzip -9, like the gate; dev's own bundle built here from HEAD's source): `neural.js` 749,450 → 750,730 B raw,
+237,366 → 237,686 B gzip (+320; the first push was +343); `neural.css` unchanged. The eager set 377,191 B, +3,718 B
+since the 373,473 B baseline (the 5,000 cap; dev stood at +3,398); deferred unchanged at 548,649 B. No baseline moved.
 
 **Not covered.** An empty list made with + is gone at the next reload (`ngListsNormalize` drops it; unchanged, the
 orchestrator's ruling). The count button stays 30x25 on a phone: it joins the item row's controls (▶, ×, the move
