@@ -10431,9 +10431,11 @@ class Component extends DCLogic {
     this._saveProgress();
     this._refreshListSurfaces();
   }
-  /** Open the inline name editor on a list's row (v1.99.3 — clicking the NAME gets here). */
-  startListRename(id) {
+  /** Open the inline name editor on a list's row: its NAME (v1.99.3) or its pencil (LISTS-R). `via` rides the rename's
+   *  event only ("name" | "pencil"; a count, no name), so the pencil's use can be read against the name's. */
+  startListRename(id, via) {
     if (!this._listsMap()[id]) return;
+    this._listEditVia = via || null;
     this._listEditId = id;
     this._listEditDraft = null;
     this._listEditFocusPending = true;
@@ -10453,7 +10455,7 @@ class Component extends DCLogic {
     l.name = nm;
     l.t = this._listStamp();
     this._saveProgress();
-    this.track("neural_list_renamed", { chars: nm.length });
+    this.track("neural_list_renamed", { chars: nm.length, via: this._listEditVia || "other" });
     return true;
   }
   /** Graph indices of a list. "__shared" is the just-received link (not yet a list of theirs). */
@@ -11403,6 +11405,7 @@ class Component extends DCLogic {
       // default name rides along as the prefilled, selected value — Enter/blur/Esc all
       // keep it, so naming is offered, never demanded.
       this._listEditId = id;
+      this._listEditVia = "new";
       this._listEditDraft = null;
       this._listEditFocusPending = true;
       this.track("neural_list_created", { surface: "lists-head" });
@@ -11468,7 +11471,12 @@ class Component extends DCLogic {
       // same type ramp (14/700 → 13/600 #c4cde0 → 12 #9aa6bd). The 44px min-heights that used to
       // sit on these buttons are what made the spacing feel foreign: nothing else in this pane is
       // 44px tall, and the pane is a scroller, not a thumb band.
-      row.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:7px 22px;border-radius:7px;cursor:pointer;border:0;background:" + (lit ? "rgba(58,72,118,.45)" : "transparent") + ";";
+      // A THUMB'S ROW (LISTS-R, ruling 5). On a phone the row's three actions (✎ · share · ×) are 44px targets that
+      // overlap no other target, so the ROW gives its 7px of vertical padding to them: one line of 44px boxes, 44px
+      // tall, against 38px with the 24px desktop glyphs. A desktop keeps its sizes. `isMobile()` is the house's thumb
+      // test (the star's own `_listAddButton` sizes by it).
+      const thumb = this.isMobile();
+      row.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:" + (thumb ? "0 22px" : "7px 22px") + ";border-radius:7px;cursor:pointer;border:0;background:" + (lit ? "rgba(58,72,118,.45)" : "transparent") + ";";
       if (!lit) {
         row.addEventListener("mouseenter", () => { if (this._listFocusId !== id) row.style.background = "rgba(255,255,255,.045)"; });
         row.addEventListener("mouseleave", () => { if (this._listFocusId !== id) row.style.background = "transparent"; });
@@ -11486,6 +11494,11 @@ class Component extends DCLogic {
         this.focusList(id);
       });
       const main = document.createElement("div");
+      // THE NAME'S TARGET IS ITS TEXT, ON PURPOSE (LISTS-S1-R1). The first build of LISTS-R stretched it to the row's
+      // height, and the orchestrator measured what that took (a 2px grid over the row, `elementFromPoint`): the share of
+      // a row that LIGHTS the list fell from about two thirds to 18% on a phone, reachable only through the 21px left
+      // inset. Lighting the list is the row's own press (the first thing a row does), so it keeps every point that is
+      // not a control; rename's proper target is the pencil, and the name's own press stays the shortcut it was.
       main.style.cssText = "flex:1;min-width:0;display:flex;align-items:center;gap:8px;";
       if (this._listEditId === id) {
         // ── INLINE RENAME: Enter/blur commits, Esc cancels, empty reverts ──
@@ -11507,14 +11520,19 @@ class Component extends DCLogic {
           this._listEditClosedAt = Date.now();
           if (commit) this.renameList(id, inp.value); // empty/unchanged = no-op revert
           this._refreshListSurfaces();
+          this._listEditReturn = null;   // used by that render, or not at all: a later render must not take focus
         };
         inp.addEventListener("input", () => { this._listEditDraft = inp.value; });
         inp.addEventListener("keydown", (e) => {
           // the editor owns the keyboard: stopPropagation keeps A/B/C, digits and —
           // critically — Escape (the pane's Esc ladder) out of the global handler
           e.stopPropagation();
-          if (e.key === "Enter") { e.preventDefault(); finish(true); }
-          else if (e.key === "Escape") { e.preventDefault(); cancelled = true; finish(false); }
+          // a KEY that closes the editor hands focus back to the row's pencil (`_listEditReturn`, read at the end of
+          // this render): the editor is rebuilt away, and focus would otherwise fall to <body>, a Tab walk from here
+          // (the same keyboard continuity `_listOpenFocusPending` gives the count). A blur never does: the press that
+          // caused it chose where focus goes.
+          if (e.key === "Enter") { e.preventDefault(); this._listEditReturn = id; finish(true); }
+          else if (e.key === "Escape") { e.preventDefault(); cancelled = true; this._listEditReturn = id; finish(false); }
         });
         inp.addEventListener("blur", () => {
           // A blur from DETACH is not a decision. An unrelated re-render (the deferred
@@ -11536,10 +11554,10 @@ class Component extends DCLogic {
         nameBtn.setAttribute("data-list-name", id);
         nameBtn.title = "Rename this list";
         nameBtn.setAttribute("aria-label", "Rename “" + l.name + "”");
-        // 13px/600 #c4cde0 — the weight Explore gives a FAMILY row ("Armbar", "Half Guard")
+        // 13px/600 #c4cde0 — the weight Explore gives a FAMILY row ("Armbar", "Half Guard"); its box is its text (`main`)
         nameBtn.style.cssText = "display:block;min-width:0;pointer-events:auto;cursor:text;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:13px;font-weight:600;color:#c4cde0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
         nameBtn.textContent = l.name;
-        nameBtn.addEventListener("click", () => this.startListRename(id));
+        nameBtn.addEventListener("click", () => this.startListRename(id, "name"));
         main.appendChild(nameBtn);
         // THE COUNT LINE IS THE DISCLOSURE (v1.99.4). It used to be a second way to light the
         // list — a duplicate of the row's own click, which is still there. "3 techniques" is
@@ -11577,7 +11595,8 @@ class Component extends DCLogic {
         b.setAttribute("aria-label", label);
         b.title = label;
         b.innerHTML = glyph;
-        b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:24px;height:24px;padding:0;border:0;border-radius:7px;background:transparent;color:" + tint + ";display:inline-flex;align-items:center;justify-content:center;font-size:12px;line-height:1;transition:background .15s,color .15s;";
+        // 24px on a desktop (unchanged); a 44px box on a phone, the glyph the same 12px in its centre (`thumb`, above)
+        b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:" + (thumb ? 44 : 24) + "px;height:" + (thumb ? 44 : 24) + "px;padding:0;border:0;border-radius:" + (thumb ? 11 : 7) + "px;background:transparent;color:" + tint + ";display:inline-flex;align-items:center;justify-content:center;font-size:12px;line-height:1;transition:background .15s,color .15s;";
         b.addEventListener("mouseenter", () => { b.style.background = "rgba(255,255,255,.08)"; b.style.color = "#eef1f6"; });
         b.addEventListener("mouseleave", () => { b.style.background = "transparent"; b.style.color = tint; });
         return b;
@@ -11590,9 +11609,27 @@ class Component extends DCLogic {
       // these") still runs it on a RECEIVED class, which is the case that needs a one-press
       // study path before the list has even been saved.
 
+      // THE PENCIL (LISTS-R, ruling 1; the owner, 19 Nov: "how can i rename a list?", the second time after v1.99.3's
+      // "I can't seem to click to rename my lists"). The name's press has renamed since v1.99.3, and nothing on screen
+      // said so: measured on the preview, a desktop had an I-beam over the name and a tooltip after a pause, a phone
+      // nothing at all, and the name wears Explore's family-row type, where a press on a name OPENS it. So rename gets
+      // its own glyph among the row's actions, ALWAYS visible (hover-only is exactly what hid it), in Share's ink:
+      // both are verbs, and only × is dimmed on purpose. The name's own press still renames and the row's still
+      // lights. Not drawn while this row's editor is open: the input is the rename then, and a pencil beside it
+      // would be a second way into a state the row is already in.
+      let pencil = null;
+      if (this._listEditId !== id) {
+        pencil = icon("data-list-edit", '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.85 0 0 1 4 4L7.5 20.5 2 22l1.5-5.5z"></path></svg>',
+          "Rename “" + l.name + "”", "#9ab0e0");
+        pencil.addEventListener("click", () => this.startListRename(id, "pencil"));
+        row.appendChild(pencil);
+      }
       const share = icon("data-list-share", '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"></path><path d="M12 16V3"></path><path d="M8 7l4-4 4 4"></path></svg>',
         "Share “" + l.name + "” as a link", "#9ab0e0");
       share.addEventListener("click", () => { void this.shareList(id); });
+      // on a phone the pencil's 44px box and Share's ABUT (the row's 8px gap taken back), as Share's and ×'s do below:
+      // the glyphs sit 44px apart, centre to centre, and no box reaches into another
+      if (thumb && pencil) share.style.marginLeft = "-8px";
       row.appendChild(share);
 
       // DELETE: two steps, then undoable. It sits next to Share — the one button a coach
@@ -11608,7 +11645,20 @@ class Component extends DCLogic {
       del.setAttribute("aria-label", armed ? "Confirm deleting “" + l.name + "”" : "Delete “" + l.name + "”");
       // still 12px clear of Share — the button a coach presses in front of the class — so a stray
       // click cannot destroy the list the session was spent building (the two-step is unchanged)
-      del.style.cssText = "flex:none;margin-left:12px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:" + (armed ? "10.5px;font-weight:700;" : "13px;") + "line-height:1;" + (armed ? "padding:5px 8px;width:auto;height:auto;" : "padding:0;width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;") + "border-radius:7px;border:" + (armed ? "1px solid rgba(242,104,95,.5)" : "0") + ";background:" + (armed ? "rgba(242,104,95,.16)" : "transparent") + ";color:" + (armed ? "#ff9c92" : "#6b7691") + ";";
+      const delLook = "font-size:" + (armed ? "10.5px;font-weight:700;" : "13px;") + "line-height:1;border-radius:7px;border:" + (armed ? "1px solid rgba(242,104,95,.5)" : "0") + ";background:" + (armed ? "rgba(242,104,95,.16)" : "transparent") + ";color:" + (armed ? "#ff9c92" : "#6b7691") + ";";
+      if (thumb) {
+        // A PHONE'S × IS A 44px BOX, its look on a chip inside (armed or not), so the box can be transparent and as big as
+        // a thumb while "Delete?" stays the small red chip it is. It ABUTS Share's box (-8px takes the row's gap back): the
+        // three actions sit at an even 44px pitch. The desktop's 12px (above) was the miss-distance of two 24px targets,
+        // centres 36px apart; 44px boxes put the centres 44px apart, further than that, and delete is two steps anyway,
+        // so the gap bought nothing and cost the name 12px ("Thursday open mat" read "Thursday ope…" at 390: the
+        // orchestrator's LISTS-S1-GO). -10px on the right lets the box use the row's empty right padding, so the
+        // glyph sits where it always sat.
+        del.style.cssText = "flex:none;margin-left:-8px;margin-right:-10px;pointer-events:auto;cursor:pointer;font-family:inherit;min-width:44px;height:44px;padding:0;border:0;background:transparent;display:inline-flex;align-items:center;justify-content:center;";
+        del.innerHTML = '<span style="display:inline-flex;align-items:center;justify-content:center;' + (armed ? "padding:5px 8px;" : "width:24px;height:24px;") + delLook + '">' + (armed ? "Delete?" : "×") + "</span>";
+      } else {
+        del.style.cssText = "flex:none;margin-left:12px;pointer-events:auto;cursor:pointer;font-family:inherit;" + (armed ? "padding:5px 8px;width:auto;height:auto;" : "padding:0;width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;") + delLook;
+      }
       del.addEventListener("click", () => {
         if (this._delArm !== id) {
           this._delArm = id;
@@ -11643,7 +11693,13 @@ class Component extends DCLogic {
           // v1.101.1, and the dossier renderer has been unreachable since v1.101.5. What is
           // left, and reachable, is the landing card ("land"), the option-detail sheet
           // ("sheet") and Explore's own rows ("explore").
-          em.textContent = "No techniques yet — tap the star on the card you land on, on a move’s detail sheet, or on any Explore row.";
+          // …AND THEN IT WENT STALE AGAIN (LISTS-R, ruling 5): the landing card's star moved to the seat on the map
+          // (landcard-chrome: "capture belongs to the seat") and the detail sheet carries none, so two of its three
+          // surfaces had no star. What carries `_listAddButton` today: the seat's star beside a name on the map
+          // (`_syncSeatStars`), every row in Explore's tree and in its search results (`_withListAdd`, "explore"), and a
+          // received class's items ("shared", which an empty list of yours cannot be reading). lists-disclosure's
+          // empty-list journey finds a star on each surface this sentence names, so the next one to lose it goes red.
+          em.textContent = "No techniques yet — tap the star beside a name on the map, or on any row in Explore or in search.";
           items.appendChild(em);
         } else {
           for (const nodeId of l.items) items.appendChild(this._listItemRow(nodeId, id));
@@ -11659,6 +11715,12 @@ class Component extends DCLogic {
       const back = sec.querySelector('[data-list-open="' + this._listOpenFocusPending + '"]');
       this._listOpenFocusPending = null;
       if (back) { try { back.focus(); } catch (e) { /* non-fatal */ } }
+    }
+    // ...and an editor a KEY closed hands focus to its row's pencil (see the editor's keydown)
+    if (this._listEditReturn && !this._listEditId) {
+      const back = sec.querySelector('[data-list-edit="' + this._listEditReturn + '"]');
+      this._listEditReturn = null;
+      if (back) { try { back.focus({ preventScroll: true }); } catch (e) { /* non-fatal */ } }
     }
     // focus the rename editor exactly once per startListRename/+ — NOT on every re-render
     // (an unrelated _refreshListSurfaces while editing must never yank the caret from a
