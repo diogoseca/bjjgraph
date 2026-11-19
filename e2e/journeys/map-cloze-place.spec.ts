@@ -12,24 +12,28 @@ import { journey } from "../dsl"
  * own rule (tests/map_light.test.mjs, CZ1 to CZ6).
  *
  * The player: Mount, bottom, owes five moves (answered a week ago) and remembers a sixth (a Yes, not due: a "solid" row), as
- * master-cloze.spec.ts seeds its places, by the map's own ordinals. The board is STAGED at Half Guard, top (a roll from
- * there, never played: five roll-zoom views from Mount on this map, measured 19 Nov): the board whose own framing comes
- * back for the camera when nothing holds it. Positions are read
+ * master-cloze.spec.ts seeds its places, by the map's own ordinals. The board is STAGED at Half Guard, top, as a press on
+ * its place on the map stages it (`stageRollAt`: set, held, never played; five roll-zoom views from Mount on this map,
+ * measured 19 Nov): the board whose own framing takes the camera back when nothing holds it (`stagedIdle`). A roll made
+ * from a place with the clock held (`rollFromPosition(…, true)`) is NOT such a board: nothing there moves the camera
+ * under the drawer's pause, and on it the hold's mutant survived (K2, first run). Positions are read
  * through the frame's own transform (`pairMid` with `cam`), never `camTarget` (CLAUDE.md 6.2). Pressed by a real mouse at
  * 1440x900 and a touch tap at 390x631, at points `elementFromPoint` confirms are the control.
  *
  * MUTANTS, each built alone into the served bundle under the lock, after a neutral control that left this file green;
  * every one RED at the step named (the table and its date: docs/Changelog-Archive.md, v1.296.0):
  *   K1  no glide as a cloze opens                         → "opening a place's cloze…" at "the place and its moves are in the calm area"
- *   K2  no hold (`updateCamera` without `_czAt`)          → the same test, at "fourteen seconds on…still in the calm area"
- *   K3  the hold kept with the drawer shut                → the same test, at "Esc…the board's own framing takes the camera back"
+ *   K2  no hold (`updateCamera` without `_czAt`)          → the same test, at "the place and its moves are in the calm area" (the
+ *       staged board's own framing takes the camera back before the glide lands)
+ *   K3  the hold kept with the drawer shut                → the same test, at "Esc: the hold is gone, and the board's own framing…"
  *   K4  lit before Show                                   → the same test, at "nothing is lit before Show"
  *   K10 the place not named                               → the same test, at "the map names the place"
  *   K12 the cloze's moves named before Show               → the same test, at "no move of the cloze is named before Show"
  *   K5  lit after Done                                    → "at Show…" at "Done: the light is out"
  *   K6  a glide at Show with everything in view            → the same test, at "nothing moves at Show"
  *   K7  the shown moves not named                         → the same test, at "the shown moves are named where a name fits"
- *   K8  an orb named twice (the hand's pass not told)     → "standing at the place…" at "no orb is named twice"
+ *   K13 the roll's own hand named while the cloze is lit  → "at Show…" at "the map's own names step back", and "standing at the
+ *       place…" at "no orb is named twice" (there the hand is the cloze's own moves)
  *   K9  the lit place's session ring drawn                → "…wears no session ring" at "the place's ring is not drawn"
  *   K11 the place taken on a phone too (`_czAt`)          → "on a phone…" at "the cloze moves nothing on the map"
  * NOT COVERED HERE: a lit row (S4); the phone's look (S3); a live roll's own camera under an open cloze (the drawer holds
@@ -82,7 +86,7 @@ async function setup(page: Page, opts: { at: string; cards?: boolean }) {
     }
     a._movesRev = (a._movesRev || 0) + 1
     a._saveProgress(); a._flushSave()
-    a.rollFromPosition(a.nodeForKey(at), true, at.endsWith("|Bottom") ? "bottom" : "top")
+    a.stageRollAt(a.nodeForKey(at), at.endsWith("|Bottom") ? "bottom" : "top")   // as a press on its place on the map stages it
     return out
   }, { places: PLACES, at: opts.at, seat: SEAT })
   for (const k of PLACES) expect(dealt[k], `premise: ${k} deals at least six moves`).toBeGreaterThanOrEqual(6)
@@ -157,13 +161,21 @@ test.describe("1440x900, mouse", () => {
     const held = await view(page)
     expect(held.out, "fourteen seconds on, the place and its moves are still in the calm area").toEqual([])
     expect(moved(held.placePt, v.placePt), "and the map has not moved").toBeLessThan(2)
-    // the drawer shut (the session kept, the cloze with it): the hold goes with the cloze's place on screen
+    // the drawer shut (the session kept, the cloze with it): the hold goes with the cloze's place on screen, and the
+    // staged board's own framing takes the camera back to where it stands
+    const staged = () => page.evaluate(() => {
+      const a = (window as W).__neural, n = a.nodes[a._staged], p = a.pairMid(n), sc = a.W / a.cam.vw, R = a._viewRect()
+      const x = a.W / 2 + (p.x - a.cam.cx) * sc, y = a.H / 2 + (p.y - a.cam.cy) * sc
+      return { at: a._staged as number, inBand: x >= R.left && x <= R.left + R.width && y >= R.top && y <= R.top + R.height }
+    })
+    const was = await staged()
+    expect(was.at, "premise: the board is staged").not.toBeNull()
+    expect(was.inBand, "premise: while the cloze is held, the staged place is not on the map").toBe(false)
     await page.keyboard.press("Escape")
     await j.advance(400)
-    expect((await view(page)).czAt, "premise: the drawer is shut, the cloze is not on screen").toBe(false)
+    expect(await page.evaluate(() => !!(window as W).__neural.deckShown), "premise: the drawer is shut").toBe(false)
     await j.advance(3000)
-    const gone = await view(page)
-    expect(moved(gone.placePt, held.placePt), "Esc: the hold is gone, and the board's own framing takes the camera back").toBeGreaterThan(40)
+    expect((await staged()).inBand, "Esc: the hold is gone, and the board's own framing takes the camera back to the place it stands").toBe(true)
   })
 
   test("at Show the place is lit and its shown moves named; nothing moves while they are in view; Hide and Done put the light out", async ({ page }) => {
@@ -193,6 +205,8 @@ test.describe("1440x900, mouse", () => {
     expect(moved(v.placePt, v0.placePt), "nothing moves at Show: the place and its moves were in view").toBeLessThan(1)
     expect(v.clozeNames.length, "the shown moves are named where a name fits").toBeGreaterThan(0)
     expect(v.clozeNames.every((i: number) => v.rows.includes(i)), "only the cloze's own moves").toBe(true)
+    // design round 6, rule 6: "The map's own names stay off while Practice is on" (the roll's hand stands at Half Guard)
+    expect(v.boxes.filter((b: W) => b.w === "move" || b.w === "lit").map((b: W) => b.i), "the map's own names step back: no move of the roll's hand, no trail").toEqual([])
     await press(page, "[data-master-bar] [data-cz-hide]", "Hide", false, false)
     await j.advance(450)
     const h = await view(page)

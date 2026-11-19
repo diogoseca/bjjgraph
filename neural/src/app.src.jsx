@@ -23984,9 +23984,11 @@ class Component extends DCLogic {
       }
       const pointPlan = point.length ? write("point", point, litCol) : null;
       // THE OPEN CLOZE'S SHOWN MOVES (L2b S2; the ruling (d): "the shown moves named where a name fits"), while its place is lit
-      // (Show until Hide, Done or the place left), BEFORE the roll's own hand: the moves the player is answering claim their
-      // places first. An orb named here (or just now by a point) is not named again by a later pass: the roll can stand at the
-      // same place, and its hand is then the same orbs. Never a face-down move (`hmDown`), as everywhere.
+      // (Show until Hide, Done or the place left), and in their place THE MAP'S OWN NAMES STEP BACK: the roll's hand and its
+      // trail are not named while a cloze is lit (design round 6, section 4, rule 6: "The map's own names stay off while
+      // Practice is on"; the first build named the roll's hand there too, bright over orbs the light had dimmed, among the
+      // place's own moves: one of Half Guard's read as one of Mount's). The pointer's label, a point and the roll's own
+      // place are named as ever. An orb a point named just now is not named again here. Never a face-down move (`hmDown`).
       const czNamed = new Set(pointPlan ? pointPlan.keys() : []);
       if (czLit) {
         const cc = [];
@@ -23996,12 +23998,12 @@ class Component extends DCLogic {
           const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { act: false });
           if (on(c)) cc.push(c);
         }
-        for (const i of write("cloze", cc, (c) => this.rgba(c.n.col, 0.95 * A)).keys()) czNamed.add(i);
+        write("cloze", cc, (c) => this.rgba(c.n.col, 0.95 * A));
       }
       // persistent labels on the outgoing option nodes while a decision is open
       this._lastOptLabels = null; // published like _lastPairLabel: "what did THIS frame draw"
       this._lastOptBoxes = null;  // ...and where (CSS px), so the seal's dot is held off every name (v1.272.0)
-      if (this.optionIdxs && this.optionIdxs.length && !this.pulse) {
+      if (this.optionIdxs && this.optionIdxs.length && !this.pulse && !czLit) {   // (not while a cloze is lit: S2, above)
         // THE ROW'S ORDER: the cards left to right (sorted by win chance, or frozen), then any dealt orb no card carries; a card
         // names its orb by `opt.idx`, or by `opt.res` on an escape. ACTED ON: the card under the pointer, the one holding keyboard
         // focus, one turned up by touch (hidden moves).
@@ -24013,7 +24015,6 @@ class Component extends DCLogic {
         for (const idx of new Set(row.concat(this.optionIdxs))) {
           const n = this.nodes[idx]; if (!n || !dealt.has(idx)) continue;
           if (hmDown && hmDown.has(idx)) continue;   // hidden moves: a face-down card's orb is not named
-          if (czNamed.has(idx)) continue;   // named by the open cloze's pass already (S2)
           // a staged exchange makes a dealt option THE FOCUS (v1.132.0) — the pair group already
           // names it, and an option label on the same orb is the "printed twice" defect the
           // in-node pass was deleted for. Never possible before: an option was never the focus.
@@ -24028,7 +24029,7 @@ class Component extends DCLogic {
         // the name's INK box, not a guessed pad
         this._lastOptBoxes = this._lastOptLabels.map((idx) => { const b = plan.get(idx); return { idx, l: b.l, r: b.r, t: b.t, b: b.b }; });
       }
-      if (trail.length) write("lit", trail.filter((c) => !czNamed.has(c.i)), litCol);
+      if (trail.length && !czLit) write("lit", trail, litCol);
       this._lastNameBoxes = claims;
     }
     this._syncSeatStars(seatStars);
