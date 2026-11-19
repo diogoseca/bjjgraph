@@ -343,6 +343,9 @@ class Reader {
     if (this.cache.size > 8) this.cache.delete(this.cache.keys().next().value);
     return record;
   }
+  // The close of a page ends a request in flight (BGCLOSE-R1, F7: `_closePage`): no late render, no late address. A page
+  // still loading leaves no path behind, so the next open of it loads it (`open`'s same-path return would keep the loading line).
+  cancel() { this.abort?.abort(); this.renderSerial++; if (this.root.dataset.readerReady !== "true") this.path = null; }
   async open({ path, intent, push }) {
     const url = new URL(path, location.href);
     path = cleanPath(url.href);
@@ -749,17 +752,10 @@ class Reader {
       event.preventDefault(); this.readingInteraction();
       const section = [...this.gameSections, ...this.sections].find(s => s.id === link.dataset.sectionLink);
       // U11 (owner): where the index shows, a closed section leaves no placeholder in the content, so its
-      // index row reopens it before going there. #354's review (finding 1): so does a card or film the background tap took away.
-      if (section && (section.part === "card" || section.type === "videos") && this.app.restoreLanding?.()) {
-        // Round 7's review (finding 3): the restore is the player's own input, as the label's is, so reading stops holding the
-        // question's clock (left interacting, the clock never armed). And the pressed part opens too, if its own preference had it
-        // closed, so one press is enough (nit 5).
-        this.interacting = false;
-        if (section.part && !this.on(section.part)) this.app.setLayer(section.part, true, "reader");
-        else if (section.type === "videos" && !sectionShown(this.app, "videos")) this.toggleSection("videos", true);
-        this.layoutNow();
-      }
-      else if (section && this.root.hasAttribute("data-indexed") && !(section.part ? this.on(section.part) : sectionShown(this.app, section.type))) {
+      // index row reopens it before going there. (BGCLOSE, v1.294.0: a card or film "the background tap took away" was
+      // brought back here too, v1.253.0; a press on the map closes the whole page now, the index with it, so there is
+      // no such card to bring back and that branch is gone.)
+      if (section && this.root.hasAttribute("data-indexed") && !(section.part ? this.on(section.part) : sectionShown(this.app, section.type))) {
         if (section.part) this.toggle(section.part); else this.toggleSection(section.type, true);
         this.layoutNow();
       }
@@ -848,13 +844,12 @@ class Reader {
   }
   // The only callers are a closed part's label and its index row, so this only ever OPENS: it never turns a part off, even when the
   // look it was pressed in is a frame stale (#354's review, round 7 finding 1, where a stale "closed" label saved landCard off). A part
-  // the background tap took away comes back with its landing; a part off by its preference opens. One press does both (nit 5).
+  // off by its preference opens. (BGCLOSE: a part "the background tap took away" came back here too; that state is gone.)
   toggle(part) {
     const a = this.app;
     if (part === "film") { this.toggleSection("videos", true); return; }
-    const back = a.restoreLanding?.();
     if (!this.on(part)) a.setLayer(part, true, "reader");
-    else if (!back) { this.sync(); return; }
+    else { this.sync(); return; }
     this.interacting = false;
     this.sync();
     // The label just pressed is hidden once its part reopens: focus that part's own ✕.
@@ -978,14 +973,11 @@ class Reader {
     if (event.cancelable && !event.type.startsWith("touch")) event.preventDefault();
     if (event.type === "click") this.swallowing = 0;
   }
-  // ONE answer for a game part's look and the Video row's (#354's review, round 7 findings 1 and 6): closed by its preference, or taken
-  // away with this landing by a background tap. The label, the index row, aria-expanded and the Hide/Show text all read it, and every
-  // layout pass paints it, so none can go stale when the landing's state moves without a sync (roam, a commit). The Video tile itself
-  // keeps its own preference; only its row reads the landing.
-  partClosed(s) {
-    const pref = s.part ? this.on(s.part) : sectionShown(this.app, s.type);
-    return !pref || (s.part === "card" || s.type === "videos") && !!this.app._landAway?.();
-  }
+  // ONE answer for a game part's look and the Video row's (#354's review, round 7 findings 1 and 6): closed by its preference. The
+  // label, the index row, aria-expanded and the Hide/Show text all read it, and every layout pass paints it, so none can go stale
+  // when the landing's state moves without a sync (a commit). (BGCLOSE, v1.294.0: "or taken away with this landing by a
+  // background tap" was its second clause, `_landAway`; a press on the map closes the whole page now, so the clause is gone.)
+  partClosed(s) { return !(s.part ? this.on(s.part) : sectionShown(this.app, s.type)); }
   paintPart(s) {
     const closed = this.partClosed(s);
     s.row?.setAttribute("data-collapsed", String(closed));
@@ -993,7 +985,11 @@ class Reader {
     s.card.dataset.collapsed = String(closed);
     const held = this.noticeMap.has(s.part);
     s.card.toggleAttribute("data-notice", held);
-    s.card.hidden = !(held || closed && this.on(s.part)) || REFERENCE.test(this.path);
+    // BGCLOSE (v1.294.0): the label's slot shows only while a closed part's message stands in it. Its second case, "closed while
+    // its preference is on", was the card a background tap took away (`_landAway`): the "Questions" label with the struck eye.
+    // A press on the map closes the whole page now, so that case cannot arise, and the label itself is never shown (its
+    // button stays as the part's `aria-controls` holder and focus fallback; the stylesheet hides it under a message).
+    s.card.hidden = !held || REFERENCE.test(this.path);
     if (s.toggle.getAttribute("aria-expanded") !== String(!closed)) {
       s.toggle.setAttribute("aria-expanded", String(!closed)); s.toggle.setAttribute("aria-label", (closed ? "Show " : "Hide ") + s.title);
     }

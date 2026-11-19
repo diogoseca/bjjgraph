@@ -317,9 +317,16 @@ for (const v of [{ name: "1440x900 mouse", vp: { width: 1440, height: 900 }, tou
         return null
       })
       expect(out, "a bare point of the map outside the menu").not.toBeNull()
+      // BGCLOSE (v1.294.0): that press closes the menu AND NOTHING ELSE. It used to go on into the map's tap router and take the
+      // background ladder's first step (the question declined); with one press closing the page it would have closed the whole
+      // page with the menu. Mutant C11 (the menu's closer does not mark its press) → red at "…and the page stays".
+      const page0 = await page.evaluate(() => { const a = (window as any).__neural; return { card: !!a._landEl, hand: (a.optionIdxs || []).length as number, roam: !!a._roam, url: location.pathname, entries: history.length } })
+      expect(page0.card || page0.hand > 0, "premise: a page is up behind the menu").toBe(true)
       if (v.touch) await page.touchscreen.tap(out!.x, out!.y); else await page.mouse.click(out!.x, out!.y)
       await frames(250)
       await expect(page.locator("[data-list-picker]"), "a press outside closes it").toHaveCount(0)
+      expect(await page.evaluate(() => { const a = (window as any).__neural; return { card: !!a._landEl, hand: (a.optionIdxs || []).length as number, roam: !!a._roam, url: location.pathname, entries: history.length } }),
+        "a press outside closes the menu, and the page stays: its card, its hand, its address").toEqual(page0)
     })
   })
 }
