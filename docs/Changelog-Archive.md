@@ -20627,3 +20627,20 @@ state it tried, at four sizes, on three page kinds), MERGE AFTER 7 fixes, all at
   condition: onto the closed entry the outgoing app opens nothing.
 - **Two of my steps the neutral control found red** before any mutant counted: the staged node read on its own half (during
   a film the press takes the named half of a close pair), and the phone's strip asked once for a bare point (it is 46 px).
+
+**The reader's re-read (BGCLOSE-R2).** All seven confirmed; two more at the edges that round added, both fixed:
+
+- **F8, a roll played after Back was dropped by the next history step onto the closed map.** F4 handed the shelf on, but only
+  what was filed: a step onto a node page filed the roll under way, a step onto the closed map returned first. A history step
+  now files the roll that was played, whatever entry it lands on: the one filing (`_closeRoll`), its own rule for what counts
+  as played, its one stored effect (the day's count); idempotent, so the node page's own filing finds nothing and nothing is
+  filed twice. Found on the way: a roll that ENDS in an instance (a submission's attempt ends the round) is filed by the
+  instance itself, so the journeys compare the shelf with the roll under way plus what was there.
+- **F9, the landing's queued article was not forgotten by the close** (`_readerQueued`): queued a frame and a task later, it
+  went on past F7's line, and only the free-roam latch kept it off the map. The close forgets it now. Surveyed: the queue is
+  the only caller of `_readArticle` without intent, and every landing after a close comes through a stage, which ends free
+  roam first; so no request without intent can reach the reader in free roam, and the latch's keep-away for one is RETIRED
+  with its subject (and free_roam_mutants.mjs's late-article-shows row). The forgetting is pinned by the reader's own fixture
+  (the queue and the close in one task, then 2.5 s).
+- Whether a close or a Back counts as a PostHog page view stays unproven: the library's default says no, an older line of
+  this archive says otherwise (v1.104.5), and no test build carries a key.
