@@ -271,7 +271,8 @@ NEURAL_TARGET = {
     # v1.292.0 L2 (the cloze, master-cloze.src.js in gameplan.js: the builder, the rows, where a move leads, the foot, the steps, Undo, its style sheet): 549_777, +18_044 B; 223 B remain of the owner's 550,000.
     # v1.295.0 L2b S1 (the light, map-light.src.js in gameplan.js: the plan, the two fills, the holes, the marks): 550_412, +635 B over
     # L2's 549_777 (the light's +1,763 less L3's -987 and dev's -141 since); the owner's limit is 600,000 now (U207 a, 19 Nov 2026).
-    "deferred_raw_bytes": 550_412,
+    # v1.296.0 L2b S2 (a cloze's place on the map: the glide, ngLightFrame, and master-cloze.src.js's two calls): 551_167, +755 B.
+    "deferred_raw_bytes": 551_167,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
