@@ -36,6 +36,7 @@ export const NG_LIGHT = {
   markR: 2,          // a mark's radius (px): a 4 px dot, design 7's far rule
   halo: 0.1,         // the halo's alpha at the orb's edge, fading to nothing at the hole's radius
   calm: [34, 38, 34, 37],   // the calm area (S2): the visible map inset left, top, right, foot (design round 6, section 3)
+  lookCalm: [34, 38, 34, 64],   // …in a phone's look (S3): its foot clear of the pill (52 px up from the band's foot, 44 tall)
 };
 const NG_LIGHT_GOLD = "240,192,90", NG_LIGHT_PALE = "214,222,240", NG_LIGHT_HALO = "200,215,255";
 
@@ -119,8 +120,8 @@ export function ngLightDraw(app, ctx, F) {
  * The glide takes the camera from any lease (`releaseCamera`, as a row's own flight does, `locateNode`); what keeps it there
  * while the cloze is open is the app's own hold (`_czAt`, read by `updateCamera`). Returns true when it glided.
  */
-export function ngLightFrame(app, idxs) {
-  const T = app.camTarget, R = app._viewRect(), W = app.W || 1, H = app.H || 1, [l, t, r, b] = NG_LIGHT.calm, minW = app.graphW * app.ROLL_ZOOM;
+export function ngLightFrame(app, idxs, calm) {
+  const T = app.camTarget, R = app._viewRect(), W = app.W || 1, H = app.H || 1, [l, t, r, b] = calm || NG_LIGHT.calm, minW = app.graphW * app.ROLL_ZOOM;
   const box = { left: R.left + l, top: R.top + t, width: Math.max(1, R.width - l - r), height: Math.max(1, R.height - t - b) };
   const pts = idxs.map((i) => app.nodes[i]).filter(Boolean).map((n) => app.pairMid(n));
   if (!pts.length) return false;

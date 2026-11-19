@@ -30,7 +30,7 @@
 // Pure where it can be (`ngClozeLeads`, `ngClozeBack`, `ngClozeSay`: tests/master_cloze.test.mjs); the rest paints through
 // the app's own readers, as master-list.src.js does. Pinned by e2e/journeys/master-cloze.spec.ts.
 
-import { ngLightFrame } from "./map-light.src.js";
+import { ngLightFrame, NG_LIGHT } from "./map-light.src.js";
 
 const NG_CLOZE_CAP = 6;   // a visit's moves at most (the law's own cap, NG_PQ_CAP)
 const NG_CLOZE_NUM = ["No", "One", "Two", "Three", "Four", "Five", "Six"];
@@ -84,12 +84,12 @@ function ngClozeLook(app, s) {
     p.onclick = () => app._czLookBack("pill");
     (app.__ngRoot || document.body).appendChild(p);   // the root plane, beside the film's bar: never under the map's own press
   }
-  ngClozeMap(app, c);
+  ngClozeMap(app, c, NG_LIGHT.lookCalm);   // (nothing lit under the pill)
 }
-function ngClozeMap(app, c) {
+function ngClozeMap(app, c, calm) {
   const z = c && app._czAt ? app._czAt() : null;   // (a computer, the drawer showing this cloze: `_czAt` says, and only it)
   if (!z || z.c !== c) return;
-  ngLightFrame(app, [z.n.idx].concat(z.n.pi >= 0 ? [z.n.pi] : [], c.rows.map((r) => r.idx)));
+  ngLightFrame(app, [z.n.idx].concat(z.n.pi >= 0 ? [z.n.pi] : [], c.rows.map((r) => r.idx)), calm);
 }
 const ngCzEsc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 const ngCzToday = (app, m) => { const r = app.moves && app.moves[m.key] && app.moves[m.key][m.move]; return Array.isArray(r) && r[2] === app._epochDay(); };

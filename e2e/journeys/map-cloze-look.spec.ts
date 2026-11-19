@@ -28,6 +28,7 @@ import { journey } from "../dsl"
  *   M8  Map after Done                                 → "after Show…" at "after Done there is no Map"
  *   M9  Esc does not bring the drawer back             → "a narrow window with a mouse…" at "Esc brings the drawer back"
  *   M10 a computer shows Map                           → "a computer has no Map" at "no Map press at 1440"
+ *   M11 the look framed in the ordinary calm area       → "Map before Show…" at "nothing the look shows is under the pill"
  * NOT COVERED HERE: a real pinch (Playwright sends one finger; the pinch's start resets the tap, `czTap`); the hand held
  * down during the look when the roll stands at the place (the unit's, LK6); a film during a look (a film is started in
  * the drawer, whose opening ends the look). The harness serves `{}` for dossiers: nothing here reads a film or an article.
@@ -98,6 +99,12 @@ async function setup(page: Page, opts: { at?: string; live?: string; cards?: boo
   await j.advance(2500)
   return j
 }
+async function dismissReward(page: Page, touch: boolean) {
+  for (let i = 0; i < 4 && (await page.locator("[data-reward-close]").isVisible()); i++) {
+    await press(page, "[data-reward-close]", "put the earned reward away", touch, false)
+    await page.waitForTimeout(150)
+  }
+}
 async function openCloze(page: Page, touch: boolean) {
   await press(page, ".ng-logo", "open the drawer", touch, false)
   await press(page, '[data-explore-stats] [data-b="due"]', "the Master the game row", touch)
@@ -105,6 +112,8 @@ async function openCloze(page: Page, touch: boolean) {
   await expect(page.locator(`[data-master-row="${SEAT}"]`).first(), "the place's row is painted").toBeVisible({ timeout: 30_000 })
   await press(page, `[data-master-row="${SEAT}"]`, "the place's row", touch)
   await expect(page.locator(`[data-cloze="${SEAT}"]`), "its cloze is open").toBeVisible()
+  // a reward the session minted can lie over the drawer's top, over the place's heading line: put away, as a player does
+  await dismissReward(page, touch)
 }
 /** the camera at rest: advance until it stops moving (the glide over), at most 4 s of frames */
 async function settle(j: W, page: Page) {
@@ -190,6 +199,14 @@ test.describe("390x631, touch", () => {
     expect(v.names.filter((b: W) => v.hidden.includes(b.i)), "each hidden move a pale mark, never gold, no name: no name").toEqual([])
     expect(v.pill, "the pill stands in the map, a thumb's size").not.toBeNull()
     expect([v.pill!.inMap, v.pill!.h >= 44, v.pill!.hit], "the pill stands in the map, a thumb's size, and nothing is over it").toEqual([true, true, true])
+    // the glide keeps what it shows clear of the pill (NG_LIGHT.lookCalm): no lit orb, no mark and no name under it
+    const under = await page.evaluate(() => {
+      const a = (window as W).__neural, p = (document.querySelector("[data-cz-back]") as HTMLElement).getBoundingClientRect(), cv = a.canvas.getBoundingClientRect(), L = a._lastLight
+      const inP = (x: number, y: number, r: number) => x + r > p.left - cv.left && x - r < p.right - cv.left && y + r > p.top - cv.top && y - r < p.bottom - cv.top
+      return L.holes.filter((h: W) => inP(h.x, h.y, h.hw)).map((h: W) => h.i).concat(L.marks.filter((m: W) => inP(m.x, m.y, 2)).map((m: W) => m.i),
+        (a._lastNameBoxes || []).filter((b: W) => b.l < p.right - cv.left && b.r > p.left - cv.left && b.t < p.bottom - cv.top && b.b > p.top - cv.top).map((b: W) => b.i))
+    })
+    expect(under, "nothing the look shows is under the pill").toEqual([])
     // a drag moves the map and does not end the look (a mouse drag: Playwright's touch has a tap alone)
     const free = await mapPoint(page, false)
     expect(free, "premise: a free point of the map").not.toBeNull()
@@ -221,6 +238,9 @@ test.describe("390x631, touch", () => {
     await j.advance(400)
     await press(page, "[data-cz-map]", "Map", true)
     await settle(j, page)
+    // the names: a name the layout refused during the glide comes back only half a second after the camera rests
+    // (`_planNames`: "at rest until half a second after it left"), so they are read after that, not on the first still frame
+    await j.advance(700)
     let v = await look(page)
     expect([v.on, v.shown], "premise: a look after Show").toEqual([true, true])
     expect(v.light!.marks.filter((m: W) => m.pale), "nothing is hidden now: no pale mark").toEqual([])
