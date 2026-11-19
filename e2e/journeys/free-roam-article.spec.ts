@@ -242,9 +242,10 @@ for (const [width, height, touch] of [[390, 844, false], [390, 844, true], [1440
 // BGCLOSE-R1 (F7): THE CLOSE ENDS THAT REQUEST. It used to reach the reader when the module arrived, render, and be kept away by the
 // free-roam latch (`_readArticle`'s `away`, and `_readerHold`'s repaint); this journey's premise was "the late article arrives". The
 // close now ends a request whose module is still loading (`_closePage`: `_readerRequest`), so it never renders at all: the premise
-// is re-pointed to that ("the ended landing's article never renders"), and the claims are as they were. What this costs, recorded:
-// the latch's keep-away for a late AUTOMATIC request is reachable now only by a request made after the close, and in free roam no
-// landing makes one; free_roam_mutants.mjs's late-article-shows and repaint-lost are therefore not killed here any more (UNGUARDED).
+// is re-pointed to that ("the ended landing's article never renders"), and the claims are as they were.
+// BGCLOSE-R2 (F9): the one request without intent that could still come after a close was the landing's QUEUED one (a frame and
+// a task later, `_queueReader`); the close forgets it now, so the latch's keep-away for such a request is retired with its subject
+// (free_roam_mutants.mjs's late-article-shows row with it), and the close's forgetting is pinned by the journey below.
 // Mutant R7 (the close does not end the request) → red at "the ended landing's article never renders".
 test.describe("1440x900, by mouse, a late article", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
@@ -268,6 +269,43 @@ test.describe("1440x900, by mouse, a late article", () => {
     await landAgain(page, j, false)
     const back = await screenOf(page)
     expect({ visibility: back.articleVisibility, shown: !!back.article, index: !!back.index }, "landing again: the late article shows, with its index").toEqual({ visibility: "visible", shown: true, index: true })
+  })
+})
+
+// F9 (BGCLOSE-R2; the reader of PR #446, its probe11): A LANDING'S QUEUED ARTICLE IS FORGOTTEN BY THE CLOSE. A landing queues its
+// article a frame and a task later; a press in that window closed the page first, and the queued request went on (an arrival by
+// URL asks for it hand or no hand) and was kept off the map only by the free-roam latch. The fixture is the reader's: the
+// landing's own queue call and the close in ONE task (the frame a press can fall into; no real press can be timed into it), after
+// a real move, then 2.5 s. Mutant R9 (the close does not forget the queued request) → red at "the queued article never shows".
+test.describe("1074x796, by mouse, a landing's queued article", () => {
+  test.use({ viewport: { width: 1074, height: 796 } })
+  test("BGCLOSE-R2: a close in the frame after a landing queued its article: the article never shows over the map alone", async ({ page }) => {
+    const j = journey(page)
+    await j.boot("/Positions/X-Guard/Bottom", { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", (route) => route.continue()) } })
+    await expect(page.locator(READY)).toBeVisible()
+    await settle(j)
+    await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01])
+    const titles = await j.optionTitles()
+    expect(titles.length, "premise: a hand is dealt").toBeGreaterThan(0)
+    await j.pick(titles[0])
+    await j.nextHand()
+    await settle(j)
+    const inTask = await page.evaluate(() => {
+      const a = (window as W).__neural, n = a.nodes[a.currentPos]
+      a._queueReader(n, a._landPerspSide(n))
+      const queued = !!a._readerQueued, closed = a._closePage()
+      return { queued, closed, roams: (a.rollLog || []).length === 0 && !!a._roam, urlSeeded: !!a._urlSeeded }
+    })
+    expect(inTask, "premise: the landing's article was queued, the close ran in the same task, the board roams, and the arrival was by URL (it asks hand or no hand)").toEqual({ queued: true, closed: true, roams: true, urlSeeded: true })
+    await page.waitForTimeout(2500)
+    await settle(j)
+    const after = await page.evaluate(() => {
+      const r = (window as W).__neural._reader.root as HTMLElement
+      let shown = 0
+      for (const e of r.querySelectorAll("p,li,h2,h3")) { const b = e.getBoundingClientRect(); if (b.width > 1 && b.height > 1 && getComputedStyle(e).visibility !== "hidden") shown++ }
+      return { visibility: getComputedStyle(r).visibility, shown, address: location.pathname }
+    })
+    expect(after, "the queued article never shows: the reader stays put away, no text over the map alone").toEqual({ visibility: "hidden", shown: 0, address: "/" })
   })
 })
 

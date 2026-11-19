@@ -12943,6 +12943,12 @@ class Component extends DCLogic {
     // nothing of it renders or writes an address.
     this._readerRequest = null;
     this._reader?.cancel();
+    // F9 (BGCLOSE-R2; the reader of PR #446): AND THE LANDING'S QUEUED REQUEST. A landing queues its article a frame and a task
+    // later (`_queueReader`); a press in that window ran the close first, and the queued request went on as a NEW request that
+    // F7's line could not reach (an arrival by URL asks for it hand or no hand). Forgotten here, its deferral finds it is not
+    // the queued one and skips. With this, no request without intent can reach the reader after a close: the free-roam latch's
+    // keep-away for one is retired (`_readArticle`), and this line is what free-roam-article.spec.ts's fixture pins.
+    this._readerQueued = null;
     this._enterRoam();
     this._pushUrl("/", { ngMap: true });
     return true;
@@ -17704,8 +17710,9 @@ class Component extends DCLogic {
    *  the one control that put them away. `_readerAway` is a latch, so all of its writers are named here (§6.5):
    *   SET      by `_enterRoam` (a press on the bare map, which closes the page whole since BGCLOSE: the only way in).
    *   LIFTED   by `_readArticle`, as each request reaches the reader: the next landing's own (`_queueReader`), or one asked for
-   *            on purpose (a row, a search hit, a link, a URL, Back/Forward). An automatic request that reaches the reader while
-   *            the board is still in free roam is the ended landing's, late (the module's first load) and keeps it away.
+   *            on purpose (a row, a search hit, a link, a URL, Back/Forward). (Until BGCLOSE-R2 an automatic request reaching the
+   *            reader in free roam, the ended landing's, late, kept it away; the close now ends or forgets every such request
+   *            first, F7 and F9, so that keep-away is retired.)
    *   BACKSTOP `_readerHold`, on every reader layout: a landing that publishes is never hidden, even one that asked for no article
    *            (that one shows what the reader holds, as before); while away it repaints, because a render builds a new index.
    *  Visibility only on the reader: no box moves, so its place, the closed sections and every measurement hold, and the next
@@ -17801,8 +17808,11 @@ class Component extends DCLogic {
     return this._readerLoad.then(() => {
       if (this.__ngDestroyed || request !== this._readerRequest) return;
       // The free-roam latch's lift (`_putReaderAway`). Outside free roam nothing is written: the ordinary path is as it was.
-      const away = !intent && !!this._roam;
-      if (away || this._readerAway) this._putReaderAway(away);
+      // ITS KEEP-AWAY IS RETIRED (BGCLOSE-R2, F9): it kept a request WITHOUT intent away while the board roamed. Every such
+      // request is a landing's queued one (`_queueReader`, the only caller with `intent` false, surveyed), and the close ends or
+      // forgets each before it can open (`_closePage`: `_readerRequest`, `cancel()`, `_readerQueued`); a landing after a close
+      // comes only through a stage, which ends free roam first. So what reaches here in free roam is a request on purpose: it lifts.
+      if (this._readerAway) this._putReaderAway(false);
       return this._reader?.open(request);
     });
   }
