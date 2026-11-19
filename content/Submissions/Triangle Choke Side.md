@@ -47,22 +47,20 @@ description: "Master Triangle Choke Side from top position in BJJ. Complete safe
       "@type": "VideoObject",
       "position": 1,
       "name": "Rear Triangle from Side Control",
-      "description": "Triangle Choke Side film study: Rear Triangle from Side Control, taught by Onyx Martial Arts.",
+      "description": "Triangle Choke Side film study: Rear Triangle from Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/oyXaGXU3mFU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oyXaGXU3mFU",
       "url": "https://www.youtube.com/watch?v=oyXaGXU3mFU",
-      "creator": { "@type": "Person", "name": "Onyx Martial Arts" },
       "duration": "PT77S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Triangle from Side Control",
-      "description": "Triangle Choke Side film study: Triangle from Side Control, taught by Ricardo Marques.",
+      "description": "Triangle Choke Side film study: Triangle from Side Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NA50Ay8yL1k/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NA50Ay8yL1k",
       "url": "https://www.youtube.com/watch?v=NA50Ay8yL1k",
-      "creator": { "@type": "Person", "name": "Ricardo Marques" },
       "duration": "PT258S"
     }
   ]
@@ -131,7 +129,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ![](https://www.youtube.com/watch?v=oyXaGXU3mFU)
 
-<p class="clip-credit"><strong>Rear Triangle from Side Control</strong> — taught by Onyx Martial Arts · 1:17 · <a href="https://www.youtube.com/watch?v=oyXaGXU3mFU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear Triangle from Side Control</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=oyXaGXU3mFU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -139,7 +137,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ![](https://www.youtube.com/watch?v=NA50Ay8yL1k)
 
-<p class="clip-credit"><strong>Triangle from Side Control</strong> — taught by Ricardo Marques · 4:18 · <a href="https://www.youtube.com/watch?v=NA50Ay8yL1k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle from Side Control</strong> · 4:18 · <a href="https://www.youtube.com/watch?v=NA50Ay8yL1k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

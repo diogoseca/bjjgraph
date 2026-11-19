@@ -180,8 +180,8 @@ description: "Learn to execute the Americana shoulder lock from S Mount. Detaile
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "BJJ technique with Chelsea Ozer: Americana from mount",
-      "description": "Americana from S Mount (Attacker) film study: BJJ technique with Chelsea Ozer: Americana from mount.",
+      "name": "BJJ technique: Americana from mount",
+      "description": "Americana from S Mount (Attacker) film study: BJJ technique: Americana from mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Z44VF9pmJBg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Z44VF9pmJBg",
       "url": "https://www.youtube.com/watch?v=Z44VF9pmJBg",
@@ -226,7 +226,7 @@ Executing the Americana from S Mount requires precise figure-four grip mechanics
 
 ![](https://www.youtube.com/watch?v=Z44VF9pmJBg)
 
-<p class="clip-credit"><strong>BJJ technique with Chelsea Ozer: Americana from mount</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=Z44VF9pmJBg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ technique: Americana from mount</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=Z44VF9pmJBg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

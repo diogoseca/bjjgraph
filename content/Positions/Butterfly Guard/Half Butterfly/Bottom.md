@@ -186,7 +186,7 @@ Half Butterfly Bottom is a dynamic hybrid guard position that combines elements 
 
 The position is particularly effective in no-gi grappling and modern competitive BJJ, where practitioners use the butterfly hook to elevate and off-balance opponents while the half guard component prevents easy passing. The unique structure allows for multiple sweep variations, back-take opportunities, and transitions to other guard positions. Unlike traditional half guard which can be more defensive, Half Butterfly Bottom maintains constant attacking pressure through the butterfly hook's lifting power combined with half guard control.
 
-This position represents an evolution in half guard theory, popularized by practitioners like Marcelo Garcia and Lucas Leite, who recognized that adding the butterfly hook creates additional vectors of control and sweep mechanics that pure half guard lacks. The position excels in creating scrambles and forcing opponents into defensive postures, making it ideal for practitioners who favor dynamic, movement-based guard play.
+This position represents an evolution in half guard theory, built on the recognition that adding the butterfly hook creates additional vectors of control and sweep mechanics that pure half guard lacks. The position excels in creating scrambles and forcing opponents into defensive postures, making it ideal for practitioners who favor dynamic, movement-based guard play.
 
 </section>
 

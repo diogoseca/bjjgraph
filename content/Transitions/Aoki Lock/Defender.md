@@ -161,22 +161,20 @@ description: "Aoki Lock (defender): Treat an outward-turned foot caught by the u
       "@type": "VideoObject",
       "position": 1,
       "name": "Aoki lock counter from standard ashi and SLX",
-      "description": "Aoki Lock (Defender) film study: Aoki lock counter from standard ashi and SLX, taught by Mads H..",
+      "description": "Aoki Lock (Defender) film study: Aoki lock counter from standard ashi and SLX.",
       "thumbnailUrl": "https://i.ytimg.com/vi/p7fy3B6AAbA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/p7fy3B6AAbA",
       "url": "https://www.youtube.com/watch?v=p7fy3B6AAbA",
-      "creator": { "@type": "Person", "name": "Mads H." },
       "duration": "PT231S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Roll-through leg lock escape",
-      "description": "Aoki Lock (Defender) film study: Roll-through leg lock escape, taught by Gordon Ryan.",
+      "description": "Aoki Lock (Defender) film study: Roll-through leg lock escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
       "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT103S"
     }
   ]
@@ -215,7 +213,7 @@ The early escape removes the hand enclosure and the leg entanglement while the f
 
 ![](https://www.youtube.com/watch?v=p7fy3B6AAbA)
 
-<p class="clip-credit"><strong>Aoki lock counter from standard ashi and SLX</strong> — taught by Mads H. · 3:51 · <a href="https://www.youtube.com/watch?v=p7fy3B6AAbA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Aoki lock counter from standard ashi and SLX</strong> · 3:51 · <a href="https://www.youtube.com/watch?v=p7fy3B6AAbA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -223,7 +221,7 @@ The early escape removes the hand enclosure and the leg entanglement while the f
 
 ![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
 
-<p class="clip-credit"><strong>Roll-through leg lock escape</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Roll-through leg lock escape</strong> · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

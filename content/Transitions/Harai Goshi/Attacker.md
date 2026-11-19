@@ -190,8 +190,8 @@ description: "How to execute Harai Goshi in BJJ. Attacking perspective with setu
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Harai Goshi - Judo for Wrestling by Victoria Vortex Anthony",
-      "description": "Harai Goshi (Attacker) film study: Harai Goshi - Judo for Wrestling by Victoria Vortex Anthony.",
+      "name": "Harai Goshi - Judo for Wrestling",
+      "description": "Harai Goshi (Attacker) film study: Harai Goshi - Judo for Wrestling.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hj1wTW5poro/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hj1wTW5poro",
       "url": "https://www.youtube.com/watch?v=hj1wTW5poro",
@@ -233,7 +233,7 @@ Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective
 
 ![](https://www.youtube.com/watch?v=hj1wTW5poro)
 
-<p class="clip-credit"><strong>Harai Goshi - Judo for Wrestling by Victoria Vortex Anthony</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=hj1wTW5poro" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Harai Goshi - Judo for Wrestling</strong> · 0:23 · <a href="https://www.youtube.com/watch?v=hj1wTW5poro" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

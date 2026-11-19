@@ -47,22 +47,20 @@ description: "A sweep from Zombie needs a controlled posting arm and an off-bala
       "@type": "VideoObject",
       "position": 1,
       "name": "Lockdown old school sweep",
-      "description": "Sweep from Zombie Guard film study: Lockdown old school sweep, taught by The Jiu-Jitsu Foundry.",
+      "description": "Sweep from Zombie Guard film study: Lockdown old school sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/c5aHZxvr2bk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/c5aHZxvr2bk",
       "url": "https://www.youtube.com/watch?v=c5aHZxvr2bk",
-      "creator": { "@type": "Person", "name": "The Jiu-Jitsu Foundry" },
       "duration": "PT33S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Sweep flow options from the lockdown",
-      "description": "Sweep from Zombie Guard film study: Sweep flow options from the lockdown, taught by 10th Planet Orange Park.",
+      "description": "Sweep from Zombie Guard film study: Sweep flow options from the lockdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CFQXFFFNQhM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CFQXFFFNQhM",
       "url": "https://www.youtube.com/watch?v=CFQXFFFNQhM",
-      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
       "duration": "PT165S"
     }
   ]
@@ -121,7 +119,7 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 
 ![](https://www.youtube.com/watch?v=c5aHZxvr2bk)
 
-<p class="clip-credit"><strong>Lockdown old school sweep</strong> — taught by The Jiu-Jitsu Foundry · 0:33 · <a href="https://www.youtube.com/watch?v=c5aHZxvr2bk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lockdown old school sweep</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=c5aHZxvr2bk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -129,7 +127,7 @@ Instructional sources: [Ben Eddy — the Zombie pummel](https://www.youtube.com/
 
 ![](https://www.youtube.com/watch?v=CFQXFFFNQhM)
 
-<p class="clip-credit"><strong>Sweep flow options from the lockdown</strong> — taught by 10th Planet Orange Park · 2:45 · <a href="https://www.youtube.com/watch?v=CFQXFFFNQhM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sweep flow options from the lockdown</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=CFQXFFFNQhM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

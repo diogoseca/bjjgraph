@@ -165,8 +165,8 @@ description: "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with pow
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Set Up the Ringworm Guard Gary Berger",
-      "description": "Ringworm Guard (Bottom) film study: How to Set Up the Ringworm Guard Gary Berger.",
+      "name": "How to Set Up the Ringworm Guard",
+      "description": "Ringworm Guard (Bottom) film study: How to Set Up the Ringworm Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DFoCy86fsds/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DFoCy86fsds?start=26",
       "url": "https://www.youtube.com/watch?v=DFoCy86fsds",
@@ -182,7 +182,7 @@ description: "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with pow
 
 <section id="overview" class="content-section">
 
-Ringworm Guard Bottom is an advanced lapel guard variation that originated from the Worm Guard system popularized by Keenan Cornelius. The position involves threading the opponent's lapel around their leg while maintaining control from bottom guard, creating a powerful control system that limits the top player's mobility and creates numerous sweeping and back-taking opportunities. The name derives from the lapel configuration that wraps around the opponent's leg like a parasite, hence the creative nomenclature consistent with the Worm Guard family.
+Ringworm Guard Bottom is an advanced lapel guard variation that originated from the Worm Guard system. The position involves threading the opponent's lapel around their leg while maintaining control from bottom guard, creating a powerful control system that limits the top player's mobility and creates numerous sweeping and back-taking opportunities. The name derives from the lapel configuration that wraps around the opponent's leg like a parasite, hence the creative nomenclature consistent with the Worm Guard family.
 
 This position represents a highly technical approach to lapel-based guard systems, requiring significant coordination and spatial awareness to establish and maintain. The bottom player uses the lapel as an extension of their grips, effectively tying the opponent's leg to their own body while using their free limbs to create off-balancing opportunities. The Ringworm Guard excels at neutralizing standing passes and creating angular attacks, making it particularly effective against aggressive passers who rely on pressure and forward movement.
 
@@ -202,7 +202,7 @@ Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosyst
 
 ![](https://www.youtube.com/watch?v=DFoCy86fsds&start=26)
 
-<p class="clip-credit"><strong>How to Set Up the Ringworm Guard Gary Berger</strong> · 7:02 · <a href="https://www.youtube.com/watch?v=DFoCy86fsds&t=26s" rel="noopener">Watch on YouTube from 0:26</a></p>
+<p class="clip-credit"><strong>How to Set Up the Ringworm Guard</strong> · 7:02 · <a href="https://www.youtube.com/watch?v=DFoCy86fsds&t=26s" rel="noopener">Watch on YouTube from 0:26</a></p>
 
 </div>
 
@@ -378,7 +378,7 @@ With cooperative partner in Ringworm Guard configuration, flow through all avail
 ## Related Positions and Techniques
 
 - **[[Positions/Worm Guard]]** - Parent position in the lapel guard family - shares similar lapel manipulation principles with different leg configuration
-- **[[Positions/Squid Guard]]** - Sister position variation - another Keenan Cornelius lapel guard with related concepts but different wrapping methodology
+- **[[Positions/Squid Guard]]** - Sister position variation - another lapel guard from the same family with related concepts but different wrapping methodology
 - **[[Positions/Lapel Guard]]** - General category - Ringworm is a specific variation of lapel-based guard systems
 - **[[Positions/Spider Guard]]** - Alternative open guard option - shares some distance management principles without lapel dependency
 - **[[Positions/Triangle Control]]** - Common submission transition target - frequently entered from Ringworm configurations

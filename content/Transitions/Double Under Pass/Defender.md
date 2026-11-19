@@ -170,8 +170,8 @@ description: "How to defend against Double Under Pass in BJJ. Recognition cues, 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Steve Lin Seminar~ Double Unders Pass Counter",
-      "description": "Double Under Pass (Defender) film study: Steve Lin Seminar~ Double Unders Pass Counter.",
+      "name": "Seminar~ Double Unders Pass Counter",
+      "description": "Double Under Pass (Defender) film study: Seminar~ Double Unders Pass Counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3DSApDUoliQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3DSApDUoliQ",
       "url": "https://www.youtube.com/watch?v=3DSApDUoliQ",
@@ -227,7 +227,7 @@ The key mechanical principle for the defender is that hip mobility defeats chest
 
 ![](https://www.youtube.com/watch?v=3DSApDUoliQ)
 
-<p class="clip-credit"><strong>Steve Lin Seminar~ Double Unders Pass Counter</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=3DSApDUoliQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Seminar~ Double Unders Pass Counter</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=3DSApDUoliQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

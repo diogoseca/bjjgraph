@@ -9,17 +9,20 @@ export async function ngInstallSettingsPresentation(target, dependencies) {
   const attempt = target._settingsPresentationAttempt;
   const { SECTION_TYPES, sectionShown } = await import(target._appAsset("reader.js") + (attempt > 1 ? "&retry=" + attempt : ""));
   if (target.__ngDestroyed || !target._progressCurrent()) throw new Error("Settings owner changed");
-  const { NG_SETTINGS_TABS, NG_START_FROM } = dependencies;
+  // The tab list is `this._settingsTabs`, chosen by `openSettings` for each opening (NG_DIGEST_LIVE,
+  // app.src.jsx). renderSettings reads it once and hands the same list to the row's arrow keys, so
+  // the keys walk exactly the tabs that were drawn and never land on one this opening hides.
+  const { NG_START_FROM, NG_DIGEST_LIVE } = dependencies;
   const sectionStyle = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
   const methods = {
-_settingsTabRow(row, tab, refocus) {
+_settingsTabRow(row, tab, refocus, tabs) {
     const go = (id) => { if (id !== this._settingsTab) { this._settingsTab = id; this.renderSettings(); } };
     row.addEventListener("click", (e) => { const b = e.target.closest("[data-settings-tab]"); if (b) go(b.getAttribute("data-settings-tab")); });
     row.addEventListener("keydown", (e) => {
-      const n = NG_SETTINGS_TABS.length, at = NG_SETTINGS_TABS.findIndex((t) => t[0] === tab);
+      const n = tabs.length, at = tabs.findIndex((t) => t[0] === tab);
       const to = { ArrowRight: at + 1, ArrowLeft: at + n - 1, Home: 0, End: n - 1 }[e.key];
       if (to === undefined) return;
-      e.preventDefault(); e.stopPropagation(); go(NG_SETTINGS_TABS[to % n][0]);
+      e.preventDefault(); e.stopPropagation(); go(tabs[to % n][0]);
     });
     row.addEventListener("wheel", (e) => {
       if (row.scrollWidth <= row.clientWidth || Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
@@ -47,7 +50,7 @@ _settingsTabRow(row, tab, refocus) {
 renderSettings() {
     const card = this.modalCardRef.current; if (!card) return;
     card.style.width = "min(440px,92vw)";
-    const tab = this._settingsTab || "flashcards";
+    const tab = this._settingsTab || "flashcards", tabs = this._settingsTabs;
     // A bottom-row toggle must stay under the pointer after its full-card repaint.
     // A different tab starts at its own top; only the same panel keeps its scroll.
     const previous = card.querySelector('[role="tabpanel"]');
@@ -71,11 +74,11 @@ renderSettings() {
       // past the labels (helmet.html `.ng-stabs`). The mask would fade a hairline drawn on the row
       // itself, so the line lives one level up.
       '<div style="margin-top:2px;border-bottom:1px solid rgba(150,170,210,.12);"><div class="ng-stabs" role="tablist" aria-label="Settings sections" data-settings-tabs>' +
-        NG_SETTINGS_TABS.map(([id, label]) => '<button type="button" role="tab" class="ng-stab" id="ng-stab-' + id + '" data-settings-tab="' + id + '" aria-controls="ng-stab-panel" aria-selected="' + (id === tab) + '" tabindex="' + (id === tab ? 0 : -1) + '" style="pointer-events:auto;"><span>' + label + '</span></button>').join("") +
+        tabs.map(([id, label]) => '<button type="button" role="tab" class="ng-stab" id="ng-stab-' + id + '" data-settings-tab="' + id + '" aria-controls="ng-stab-panel" aria-selected="' + (id === tab) + '" tabindex="' + (id === tab ? 0 : -1) + '" style="pointer-events:auto;"><span>' + label + '</span></button>').join("") +
       '</div></div>';
     head.querySelector(".x").addEventListener("click", () => this.closeModal());
     card.appendChild(head);
-    this._settingsTabRow(head.querySelector("[data-settings-tabs]"), tab, refocus);
+    this._settingsTabRow(head.querySelector("[data-settings-tabs]"), tab, refocus, tabs);
 
     const body = document.createElement("div");
     body.id = "ng-stab-panel"; body.setAttribute("role", "tabpanel"); body.setAttribute("aria-labelledby", "ng-stab-" + tab);
@@ -94,50 +97,40 @@ renderSettings() {
       inp.style.cssText = "width:74px;font-family:inherit;font-size:14px;font-weight:600;color:#eef1f6;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.25);border-radius:9px;padding:9px 11px;text-align:center;";
       inp.addEventListener("change", () => { this.set("dailyGoal", this.practiceGoal(parseInt(inp.value))); inp.value = this.practiceGoal(); });
       g.appendChild(inp); body.appendChild(g);
-      // study order
-      body.appendChild(this.settingRow("Answer mode", "How cards read back HERE. Questions asked in-roll are always multiple choice \u2014 this sidebar is the study surface, so it reads back as recall unless you say otherwise.",
-        [["Classic recall", "classic"], ["Auto", "auto"], ["Multiple choice", "mc"]], "mcMode", "classic"));
-      // (the training-day email row moved to the Notifications tab in v1.150.0)
-      // RECALL MODE — the black-belt badge's toggle (v1.105.1). LOCKED until the WORN belt is
-      // black (v1.211.0 — proven units, never a Game Knowledge band); auto-flipped ON when the
-      // badge mints; freely flippable back. When on, a stage-2+ card in PLAY renders as
-      // reveal/self-grade instead of multiple choice.
+      // ANSWER MODE (v1.282.0, owner 15 Nov; rulings R2, SET1-GO): ONE SWITCH, ONE MEANING, everywhere a card is asked (the
+      // app's `_answerMode`, beside `mcActive`). Auto first and the default for a player who pressed nothing: the reader's
+      // default, never a write (nothing here or in the app writes `mcMode` unless the player presses a choice). "Classic
+      // recall" is renamed "Front Back cards" (owner); the stored values do not change (auto / classic / mc). The words say
+      // where it applies, in his order of things: no "HERE", no "study surface".
       {
-        const isBlack = (() => { try { return this.wornBelt().id === "black"; } catch (e) { return false; } })();
-        const hasBadge = !!(this.badges && this.badges["recall-in-play"]);
-        if (isBlack || hasBadge) {
-          body.appendChild(this.settingRow("Recall mode (in play)", "The black-belt reward: proven cards stop being multiple choice mid-roll \u2014 question, reveal, self-grade.",
-            [["On", true], ["Off", false]], "recallInPlay", false));
-        } else {
-          const locked = document.createElement("div");
-          locked.setAttribute("data-recall-locked", "1");
-          locked.style.cssText = "opacity:.55;padding:12px 0;border-top:1px solid rgba(150,170,210,.1);";
-          locked.innerHTML = '<div style="font-size:13px;font-weight:600;color:#c3cde0;display:flex;align-items:center;gap:7px;">Recall mode (in play) <span style="font-size:9px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#8b97b0;border:1px solid rgba(150,170,210,.3);border-radius:5px;padding:2px 6px;">Locked</span></div>' +
-            '<div style="font-size:11px;color:#7e8aa3;margin-top:3px;line-height:1.5;">Unlocks at black belt \u2014 the elite format: no options, just the question and your memory.</div>';
-          body.appendChild(locked);
-        }
+        const mode = this.settingRow("Answer mode", "How a card asks you, in Practice and in a roll.",
+          [["Auto", "auto"], ["Front Back cards", "classic"], ["Multiple choice", "mc"]], "mcMode", this._answerMode(),
+          { auto: '<b style="color:#cbd4e6;">Auto</b> &mdash; multiple choice until you get a card right twice, then front and back from then on.',
+            classic: '<b style="color:#cbd4e6;">Front Back cards</b> &mdash; the question, then the answer; you say if you got it. Checkpoints and the defence drill stay multiple choice.',
+            // D1 (a), THE OWNER'S ANSWER TO U194 (16 Nov, SET1-R3): Multiple choice means it everywhere, Last rolls' and the
+            // Path's decks included. A right pick stops at stage 2, so a card is never asked from memory and the goals that
+            // need one proven from memory ("Prove a card from memory", the four "Recall-prove …") wait until the choice
+            // changes; the line says both, plainly. Pinned by answer-mode's "a stored Multiple choice asks multiple choice in
+            // Last rolls too".
+            mc: '<b style="color:#cbd4e6;">Multiple choice</b> &mdash; always three answers to pick from. A card is never asked from memory, so the goals that need one proven from memory wait until you change this.' });
+        mode.setAttribute("data-answer-mode", "1");
+        body.appendChild(mode);
       }
+      // (the training-day email row moved to the Notifications tab in v1.150.0)
+      // "RECALL MODE (IN PLAY)" LEFT SETTINGS in v1.282.0 (R2): its job is Auto's (a card right twice asks front and back
+      // in a roll), and a switch on no screen must not decide what plays. Its key `recallInPlay` and the account's
+      // `recallCarry` fact are kept, stored, synced and merged as before, and read by nothing (CLAUDE.md 6.6: a settings key
+      // can never be deleted). It was a switch anyone turned on from v1.270.0 (U163 c), the black-belt toggle before that.
       // (the dead "Study order" setting row was deleted in v1.105.0 — `studyOrder` was written but read nowhere; due-first is now BEHAVIOUR, not a preference)
-      // focus
-      body.appendChild(this.settingRow("Focus", "Shore up weaknesses, or sharpen strengths",
-        [["Antifragile", "antifragile"], ["Converge", "converge"]], "focus", "antifragile",
-        { antifragile: '<b style="color:#cbd4e6;">Antifragile</b> &mdash; a solid, well-rounded game. Surfaces cards from the spots you\u2019re weakest, so you have no holes to be exploited.',
-          converge: '<b style="color:#cbd4e6;">Converge</b> &mdash; competition focus. Builds the most effective gameplan from your strongest modifiers, steering rolls toward the states you finish from.' }));
-      // toggle
-      const tg = document.createElement("div");
-      tg.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:20px;";
-      tg.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Show flashcards on pages</div><div style="font-size:12px;color:#93a0bd;margin-top:3px;">Display a quiz pill on each technique</div></div>';
-      const cb = document.createElement("button");
-      const on = this.get("quizOnPages", true);
-      cb.innerHTML = on ? "\u2713" : "";
-      cb.style.cssText = "width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (on ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (on ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
-      cb.addEventListener("click", () => { this.set("quizOnPages", !this.get("quizOnPages", true)); this.renderSettings(); });
-      tg.appendChild(cb); body.appendChild(tg);
-      const gold = this.settingRow("Turn what you know gold", "The map turns gold as you master each side's flashcards. Full gold needs recall.",
-        [["On", true], ["Off", false]], "masteryGold", false);
-      gold.setAttribute("data-mastery-gold", "1");
-      gold.style.marginTop = "20px";
-      body.appendChild(gold);
+      // "FOCUS" (Antifragile / Converge) LEFT SETTINGS in v1.282.0 (the owner, 16 Nov, U190 c: "Take the row off the
+      // screen"): nothing in the app ever read `focus` (the row came with the app, Phase 0.2; `git log -S"antifragile"`
+      // finds the row only), so every player already had one order, and still does. The key `focus` stays stored, synced
+      // and merged, read by nothing (CLAUDE.md 6.6: a settings key can never be deleted).
+      // "SHOW FLASHCARDS ON PAGES" LEFT SETTINGS in v1.282.0: it switched nothing (its own row was the only reader of
+      // `quizOnPages`; the quiz pill went with the old front-end, tests/artifacts/sidebar_capabilities.md row 115). The key
+      // stays stored, synced and readable, read by nothing (CLAUDE.md 6.6).
+      // "Turn what you know gold" (`masteryGold`) left Settings in v1.280.0 (GOLD1, ruled): the map's gold is the outlines,
+      // always shown; the stored key stays stored, synced and readable, and nothing reads it for paint (CLAUDE.md 6.6).
     } else if (tab === "notifications") {
       // ONE ROW, AND THAT IS THE WHOLE TAB (owner, 2026-08-31: "a notifications tab would do
       // great"). The training-day email shipped inside FLASHCARDS in v1.105.7 — a tab about
@@ -150,9 +143,16 @@ renderSettings() {
         // The KEY MUST STAY `emailDigest` — the digest Worker selects rows on
         // `neural->settings->>emailDigest=eq.true`, so renaming it here would read to every
         // opted-in user as a silent unsubscribe, with nothing anywhere going red.
+        // NOT LIVE YET (NG_DIGEST_LIVE, app.src.jsx; owner U139 a): a signed-in player reaches this
+        // row only with the setting already on, and the row says, in plain words, that nothing is
+        // mailed. The sentence goes with the flag; flipped, the row reads as it did in v1.259.1.
         const wrap = document.createElement("div");
         wrap.setAttribute("data-digest-setting", "1");
-        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to " + (this.user.email || "your account email") + ".",
+        // THE ADDRESS IS MARKED (v1.261.2): the app's NG_NO_CAPTURE note (app.src.jsx) says why. `_addressMarkup` (eager, app.src.jsx)
+        // puts it in its own `ph-no-capture` span, so the line around it stays readable to analytics and the replay records the address
+        // as an empty box. It is built in the app, not here: this deferred set is at its ceiling, and the call is shorter than the address
+        // expression it replaces.
+        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to " + this._addressMarkup() + "." + (NG_DIGEST_LIVE ? "" : " No email is being sent yet."),
           [["On", true], ["Off", false]], "emailDigest", false));
         const beta = document.createElement("span");
         beta.textContent = "Beta";
@@ -161,7 +161,9 @@ renderSettings() {
         wrap.appendChild(beta);
         body.appendChild(wrap);
       } else {
-        // an empty tab reads as broken; a dead toggle reads as a lie. One line of why.
+        // an empty tab reads as broken; a dead toggle reads as a lie. One line of why. Reached only
+        // while the email is live (NG_DIGEST_LIVE): until then a guest gets no Notifications tab, since
+        // this line would send them to sign in for a switch that signing in does not offer.
         const note = document.createElement("div");
         note.setAttribute("data-notif-signedout", "1");
         note.style.cssText = "font-size:12.5px;line-height:1.6;color:#93a0bd;padding:2px 0 4px;";
@@ -241,6 +243,17 @@ renderSettings() {
       gseg.appendChild(this.segBtn("No-gi", giCur === "nogi", false, () => { this.setGiMode("nogi"); this.renderSettings(); }));
       gv.appendChild(gseg);
       body.appendChild(gv);
+      // HIDDEN MOVES (v1.255.0, owner U115-U116): the dealt row's names and films stay face down
+      // until you look, and each look asks "Did you get it?". One boolean key, off by default
+      // (a settings key can never be deleted, CLAUDE.md §6.6). Since v1.266.0 a move you know stays face up until it is
+      // due again (owner, 13 Nov), and the line says so: it was "...are dealt face down: hover or tap...". v1.268.0 (KS2):
+      // so does a move whose flashcards are all learned, which "Moves known" does not count, so the line names it apart
+      // (it was "...except moves you know that are not due yet: ...").
+      const hm = this.settingRow("Hide moves until I look", "Your moves and their threats are dealt face down, except moves you know or whose flashcards you have learned, until they are due: hover or tap a card to see it, then say if you got it.",
+        [["On", true], ["Off", false]], "hideMoves", false);
+      hm.setAttribute("data-settings-hide-moves", "1");
+      hm.style.cssText = sectionStyle;
+      body.appendChild(hm);
       // "WINNING vs NOT LOSING" (v1.124.0) IS RETIRED (v1.207.0, owner, 2026-09-29). The full game's card
       // number is pure Win chance and the hand sorts once by it, so the dial only reordered the ~5 s
       // before values arrived and nudged the opponent's tie-breaks. The stored `lossAversion` key is
@@ -283,14 +296,18 @@ renderSettings() {
       // here so the state is discoverable when every handle is collapsed. Same ✓ box as above.
       const lay = document.createElement("div");
       lay.style.cssText = sectionStyle;
-      lay.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Bottom of the screen</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Each row has its own ✕ on the board; the small glyphs at the bottom bring one back. Your choice sticks across states and devices.</div>';
+      lay.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Bottom of the screen</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Each part has its own ✕ on the board, and this is where a hidden part comes back. Your choice sticks across states and devices.</div>';
       const LAYER_ROWS = [
         ["film", "Videos during play", "The current node's videos while playing."],
         ["card", "Question card", "Off = no card and no question. (Turning questions off above keeps the card.)"],
         ["hand", "Your moves", "The hand of moves, escapes included. Off = the roll waits until you show them."],
       ];
       for (const [name, title, sub] of LAYER_ROWS) {
-        const on = name === "film" ? this.get("landFilm", true) : this._layerOn(name);
+        // HIDESEC2: this row wrote landFilm, which nothing reads once the reader is up (D-338 moved the film under the Video section's
+        // setting), so it switched nothing (measured live, 2026-11-11: the film stayed). It now reads and writes that one setting, the
+        // one the film's ✕ writes, as the Article sections' Video box does. No key is added (§6.6: landFilm is kept, unread here).
+        const film = name === "film" && this._reader;
+        const on = film ? this.get("readerSection.videos", true) !== false : name === "film" ? this.get("landFilm", true) : this._layerOn(name);
         const r = document.createElement("div");
         r.setAttribute("data-layer-row", name);
         r.style.cssText = "display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-top:12px;";
@@ -301,7 +318,10 @@ renderSettings() {
         rb.innerHTML = on ? "✓" : "";
         rb.style.cssText = "flex:none;margin-top:2px;width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (on ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (on ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
         rb.addEventListener("click", () => {
-          if (name === "film") { this.set("landFilm", !this.get("landFilm", true)); this._applyLayers(); }
+          // #372's review (D2): turning the video back on is the player's own input, so it settles a pinned landing (D-354 N2), as the
+          // section's own reopen does; on a pinned landing the film's place stayed empty until the next grade.
+          if (film) { if (!on) this._readerGraded(); this.set("readerSection.videos", !on); this._reader.sync(); }
+          else if (name === "film") { this.set("landFilm", !this.get("landFilm", true)); this._applyLayers(); }
           else this.setLayer(name, !this._layerOn(name), "settings");
           this.renderSettings();
         });
@@ -310,17 +330,27 @@ renderSettings() {
       body.appendChild(lay);
       const sections = document.createElement("section");
       sections.setAttribute("data-section-settings", "");
-      sections.innerHTML = '<h3 style="font-size:15px;color:#eef1f6;margin:0 0 6px;">Article sections</h3><p style="font-size:12.5px;color:#b6c5df;">Shown where available. Your choices carry across pages and sync when signed in.</p>';
+      sections.innerHTML = '<h3 style="font-size:15px;color:#eef1f6;margin:0 0 6px;">Article sections</h3><p style="font-size:12.5px;color:#b6c5df;">Shown where available. A section you hide with its ✕ comes back here. Your choices carry across pages and sync when signed in.</p>';
       for (const [type, title] of SECTION_TYPES) {
         const row = document.createElement("label"), input = document.createElement("input");
         row.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px;color:#dfe5f1;font-size:13px;";
         row.append(document.createTextNode(title)); input.type = "checkbox"; input.checked = sectionShown(this, type);
         input.setAttribute("data-section-setting", type); input.setAttribute("aria-label", "Show " + title);
         input.style.cssText = "width:20px;height:20px;cursor:pointer;";
-        input.addEventListener("change", () => { this.set("readerSection." + type, input.checked); this._reader?.sync(); });
+        input.addEventListener("change", () => { if (type === "videos" && input.checked) this._readerGraded(); this.set("readerSection." + type, input.checked); this._reader?.sync(); });
         row.append(input); sections.append(row);
       }
       body.appendChild(sections);
+      // HIDESEC2: a closed part's message (reader.src.js notice) opens Settings here, at that part's own switch: scrolled to the middle,
+      // focused and outlined. Read once, so the redraw a toggle makes does not jump back. The video's is Videos during play.
+      const aim = this._settingsAim; this._settingsAim = null;
+      const aimed = aim && (body.querySelector('[data-layer-toggle="' + (aim === "videos" ? "film" : aim) + '"]') || body.querySelector('[data-section-setting="' + aim + '"]'));
+      if (aimed) requestAnimationFrame(() => {
+        const row = aimed.closest("[data-layer-row],label");
+        row.setAttribute("data-settings-aimed", "");
+        row.style.outline = "2px solid rgba(110,160,255,.7)"; row.style.outlineOffset = "4px"; row.style.borderRadius = "8px";
+        aimed.scrollIntoView({ block: "center" }); aimed.focus({ preventScroll: true });
+      });
       body.appendChild(this.settingRow("Sound", "Synthesized feedback on every gameplay beat",
         [["On", "on"], ["Off", "off"]], "sound", "on"));
       body.appendChild(this.settingRow("Sound volume", "How loud the beats land",

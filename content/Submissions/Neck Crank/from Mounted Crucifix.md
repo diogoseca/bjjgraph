@@ -46,8 +46,8 @@ description: "Master the Neck Crank from Mounted Crucifix in BJJ. Learn the cerv
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Neil Melanson Filthy Neck Crank",
-      "description": "Neck Crank from Mounted Crucifix film study: Neil Melanson Filthy Neck Crank.",
+      "name": "Filthy Neck Crank",
+      "description": "Neck Crank from Mounted Crucifix film study: Filthy Neck Crank.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PWvr1NUFxGs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PWvr1NUFxGs",
       "url": "https://www.youtube.com/watch?v=PWvr1NUFxGs",
@@ -123,7 +123,7 @@ Strategically, the neck crank serves dual purpose from this position. As a prima
 
 ![](https://www.youtube.com/watch?v=PWvr1NUFxGs)
 
-<p class="clip-credit"><strong>Neil Melanson Filthy Neck Crank</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=PWvr1NUFxGs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Filthy Neck Crank</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=PWvr1NUFxGs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

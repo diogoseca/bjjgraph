@@ -94,7 +94,7 @@ const rhythm = (starts: string) => {
 };
 
 for (const width of [1440, 390]) {
-  test(`@curated System sections sit two body lines apart at ${width}px, as a ratio of the line-height token`, async ({ page }) => {
+  test(`System sections sit two body lines apart at ${width}px, as a ratio of the line-height token`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     await boot(page);
     const before = await page.evaluate(rhythm, STARTS);

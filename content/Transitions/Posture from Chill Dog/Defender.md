@@ -161,11 +161,10 @@ description: "Posture from Chill Dog (defender): Keep the opposing hand on the m
       "@type": "VideoObject",
       "position": 1,
       "name": "Turtle escape from back control",
-      "description": "Posture from Chill Dog (Defender) film study: Turtle escape from back control, taught by Adnan Sadiq.",
+      "description": "Posture from Chill Dog (Defender) film study: Turtle escape from back control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dHanNAj6B80/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dHanNAj6B80",
       "url": "https://www.youtube.com/watch?v=dHanNAj6B80",
-      "creator": { "@type": "Person", "name": "Adnan Sadiq" },
       "duration": "PT38S"
     }
   ]
@@ -204,7 +203,7 @@ If the high control opens, switch to guard retention with an inside shoulder fra
 
 ![](https://www.youtube.com/watch?v=dHanNAj6B80)
 
-<p class="clip-credit"><strong>Turtle escape from back control</strong> — taught by Adnan Sadiq · 0:38 · <a href="https://www.youtube.com/watch?v=dHanNAj6B80" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle escape from back control</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=dHanNAj6B80" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

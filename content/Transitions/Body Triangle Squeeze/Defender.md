@@ -168,8 +168,8 @@ description: "Defend and survive the body triangle squeeze submission in BJJ. Re
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "TMG Clips #78 - Escaping The Body Triangle",
-      "description": "Body Triangle Squeeze (Defender) film study: TMG Clips #78 - Escaping The Body Triangle.",
+      "name": "Escaping The Body Triangle",
+      "description": "Body Triangle Squeeze (Defender) film study: Escaping The Body Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hgaULMND3ag/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hgaULMND3ag",
       "url": "https://www.youtube.com/watch?v=hgaULMND3ag",
@@ -178,8 +178,8 @@ description: "Defend and survive the body triangle squeeze submission in BJJ. Re
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Garry Tonon \u0026 Gordon Ryan SHow a  Body Triangle Ankle Trap Escape",
-      "description": "Body Triangle Squeeze (Defender) film study: Garry Tonon \u0026 Gordon Ryan SHow a  Body Triangle Ankle Trap Escape.",
+      "name": "Body Triangle Ankle Trap Escape",
+      "description": "Body Triangle Squeeze (Defender) film study: Body Triangle Ankle Trap Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/VYef5MPcNZA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/VYef5MPcNZA",
       "url": "https://www.youtube.com/watch?v=VYef5MPcNZA",
@@ -215,7 +215,7 @@ Unlike defending a choke where the threat is binary, defending the squeeze requi
 
 ![](https://www.youtube.com/watch?v=hgaULMND3ag)
 
-<p class="clip-credit"><strong>TMG Clips #78 - Escaping The Body Triangle</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping The Body Triangle</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -223,7 +223,7 @@ Unlike defending a choke where the threat is binary, defending the squeeze requi
 
 ![](https://www.youtube.com/watch?v=VYef5MPcNZA)
 
-<p class="clip-credit"><strong>Garry Tonon &amp; Gordon Ryan SHow a  Body Triangle Ankle Trap Escape</strong> · 2:23 · <a href="https://www.youtube.com/watch?v=VYef5MPcNZA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Body Triangle Ankle Trap Escape</strong> · 2:23 · <a href="https://www.youtube.com/watch?v=VYef5MPcNZA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

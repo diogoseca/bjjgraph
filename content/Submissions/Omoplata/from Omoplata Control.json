@@ -423,7 +423,7 @@
     "clips": [
       {
         "id": "oQAP8nARiHU",
-        "title": "Clark Gracie Omoplata: BJJ Technique Breakdown",
+        "title": "Omoplata: BJJ Technique Breakdown",
         "channel": "Deep Dive JJ",
         "duration": 100,
         "vertical": false,
@@ -431,7 +431,7 @@
       },
       {
         "id": "HCuRfqaM0tM",
-        "title": "OMOPLATA EM GIRO BY CLARK GRACIE",
+        "title": "OMOPLATA EM GIRO",
         "channel": "CIENTISTAS DO JIU JITSU",
         "duration": 96,
         "vertical": false
@@ -616,6 +616,22 @@
         "duration": 61,
         "vertical": false,
         "front": true
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Forward roll escape",
+        "clips": [
+          {
+            "id": "wa2c3XfXEyQ",
+            "title": "Escaping the omoplata with a front roll",
+            "channel": "Brazilian Top Team Happy Valley ",
+            "duration": 50,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-09"
+          }
+        ]
       }
     ]
   }

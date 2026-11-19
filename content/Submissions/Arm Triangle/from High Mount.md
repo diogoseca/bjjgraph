@@ -46,8 +46,8 @@ description: "Master the arm triangle choke from high mount in BJJ. Step-by-step
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "TMG Clips #128 - The Mounted Arm Triangle",
-      "description": "Arm Triangle from High Mount film study: TMG Clips #128 - The Mounted Arm Triangle.",
+      "name": "The Mounted Arm Triangle",
+      "description": "Arm Triangle from High Mount film study: The Mounted Arm Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tc-XXMg7v48/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tc-XXMg7v48",
       "url": "https://www.youtube.com/watch?v=tc-XXMg7v48",
@@ -133,7 +133,7 @@ Strategically, the arm triangle from high mount integrates seamlessly into syste
 
 ![](https://www.youtube.com/watch?v=tc-XXMg7v48)
 
-<p class="clip-credit"><strong>TMG Clips #128 - The Mounted Arm Triangle</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=tc-XXMg7v48" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Mounted Arm Triangle</strong> · 2:25 · <a href="https://www.youtube.com/watch?v=tc-XXMg7v48" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

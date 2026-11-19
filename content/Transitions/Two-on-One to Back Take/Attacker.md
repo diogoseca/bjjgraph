@@ -180,8 +180,8 @@ description: "How to execute Two-on-One to Back Take in BJJ. Attacking perspecti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cody Floyd teaches Russian Tie Back Take \ud83d\udc40",
-      "description": "Two-on-One to Back Take (Attacker) film study: Cody Floyd teaches Russian Tie Back Take \ud83d\udc40.",
+      "name": "Russian Tie Back Take \ud83d\udc40",
+      "description": "Two-on-One to Back Take (Attacker) film study: Russian Tie Back Take \ud83d\udc40.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NFRtUW5ZIvo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NFRtUW5ZIvo",
       "url": "https://www.youtube.com/watch?v=NFRtUW5ZIvo",
@@ -190,8 +190,8 @@ description: "How to execute Two-on-One to Back Take in BJJ. Attacking perspecti
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Takedown Wrestling at EDH Jiu Jitsu: 2 on 1 Russian Tie to an Arm Drag from\u2026",
-      "description": "Two-on-One to Back Take (Attacker) film study: Takedown Wrestling at EDH Jiu Jitsu: 2 on 1 Russian Tie to an Arm Drag from\u2026.",
+      "name": "Takedown Wrestling: 2 on 1 Russian Tie to an Arm Drag from\u2026",
+      "description": "Two-on-One to Back Take (Attacker) film study: Takedown Wrestling: 2 on 1 Russian Tie to an Arm Drag from\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RjAfCtXl7B4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RjAfCtXl7B4",
       "url": "https://www.youtube.com/watch?v=RjAfCtXl7B4",
@@ -225,7 +225,7 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 ![](https://www.youtube.com/watch?v=NFRtUW5ZIvo)
 
-<p class="clip-credit"><strong>Cody Floyd teaches Russian Tie Back Take 👀</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=NFRtUW5ZIvo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Russian Tie Back Take 👀</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=NFRtUW5ZIvo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -233,7 +233,7 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 ![](https://www.youtube.com/watch?v=RjAfCtXl7B4)
 
-<p class="clip-credit"><strong>Takedown Wrestling at EDH Jiu Jitsu: 2 on 1 Russian Tie to an Arm Drag from…</strong> · 1:58 · <a href="https://www.youtube.com/watch?v=RjAfCtXl7B4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Takedown Wrestling: 2 on 1 Russian Tie to an Arm Drag from…</strong> · 1:58 · <a href="https://www.youtube.com/watch?v=RjAfCtXl7B4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

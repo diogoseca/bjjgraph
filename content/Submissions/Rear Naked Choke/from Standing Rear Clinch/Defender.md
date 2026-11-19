@@ -178,8 +178,8 @@ description: "Master defensive strategies against the Standing RNC from Rear Cli
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie\u2026",
-      "description": "Rear Naked Choke from Standing Rear Clinch (Defender) film study: Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie\u2026.",
+      "name": "Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged",
+      "description": "Rear Naked Choke from Standing Rear Clinch (Defender) film study: Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dTIDRA-0YY0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dTIDRA-0YY0",
       "url": "https://www.youtube.com/watch?v=dTIDRA-0YY0",
@@ -222,7 +222,7 @@ Defending the Standing RNC from Rear Clinch demands immediate recognition of the
 
 ![](https://www.youtube.com/watch?v=dTIDRA-0YY0)
 
-<p class="clip-credit"><strong>Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged by Gracie…</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=dTIDRA-0YY0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu-Jitsu Defense to the Rear Choke From Behind While Being Dragged</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=dTIDRA-0YY0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

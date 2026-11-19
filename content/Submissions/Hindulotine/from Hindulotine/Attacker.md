@@ -92,7 +92,7 @@ description: "Hindulotine from Hindulotine (attacker): Turn onto the hip and kee
     },
     {
       "@type": "Question",
-      "name": "Hindulotine attack: which two connections appear in Ben Eddy's early and later teaching?",
+      "name": "Hindulotine attack: which two connections appear in the early and later teaching?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Reverse-gable in the early lesson; S-grip later. Use the demonstrated S-grip or the earlier reverse-gable variation without wrenching the wrist or knee."
@@ -180,34 +180,41 @@ description: "Hindulotine from Hindulotine (attacker): Turn onto the hip and kee
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Hindulotine Breakdown",
-      "description": "Hindulotine from Hindulotine (Attacker) film study: Hindulotine Breakdown, taught by Ben Eddy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YbOV4vESByc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YbOV4vESByc",
-      "url": "https://www.youtube.com/watch?v=YbOV4vESByc",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
-      "duration": "PT97S"
+      "name": "The Hindulotine - Deadly Finisher",
+      "description": "Hindulotine from Hindulotine (Attacker) film study: The Hindulotine - Deadly Finisher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PnVSqTaw78Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PnVSqTaw78Q",
+      "url": "https://www.youtube.com/watch?v=PnVSqTaw78Q",
+      "duration": "PT228S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Hindulotine Finish",
-      "description": "Hindulotine from Hindulotine (Attacker) film study: Hindulotine Finish, taught by Ben Eddy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6UwoAQt6u6o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6UwoAQt6u6o",
-      "url": "https://www.youtube.com/watch?v=6UwoAQt6u6o",
-      "creator": { "@type": "Person", "name": "Ben Eddy" },
-      "duration": "PT60S"
+      "name": "Hindulotine Breakdown",
+      "description": "Hindulotine from Hindulotine (Attacker) film study: Hindulotine Breakdown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YbOV4vESByc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YbOV4vESByc",
+      "url": "https://www.youtube.com/watch?v=YbOV4vESByc",
+      "duration": "PT97S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
+      "name": "Hindulotine Finish",
+      "description": "Hindulotine from Hindulotine (Attacker) film study: Hindulotine Finish.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6UwoAQt6u6o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6UwoAQt6u6o",
+      "url": "https://www.youtube.com/watch?v=6UwoAQt6u6o",
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
       "name": "Easy Hindulotine Variation",
-      "description": "Hindulotine from Hindulotine (Attacker) film study: Easy Hindulotine Variation, taught by Danny Mitchell.",
+      "description": "Hindulotine from Hindulotine (Attacker) film study: Easy Hindulotine Variation.",
       "thumbnailUrl": "https://i.ytimg.com/vi/99Mq930QVfY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/99Mq930QVfY",
       "url": "https://www.youtube.com/watch?v=99Mq930QVfY",
-      "creator": { "@type": "Person", "name": "Danny Mitchell" },
       "duration": "PT159S"
     }
   ]
@@ -220,7 +227,7 @@ description: "Hindulotine from Hindulotine (attacker): Turn onto the hip and kee
 
 <section id="overview" class="content-section">
 
-The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.
+The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder. Hindu Control is the setup; Hindulotine is the choke. The early reverse-gable demonstration and the later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.
 
 Turn onto the hip and keep the knee close so the foot is reached through body position. Bring the elbow above the raised foot and the hand around the shoulder into the head-control space. Retain the leg-and-arm enclosure without adding neck pressure while locating the second hand.
 
@@ -245,9 +252,17 @@ This neck enclosure can load the sides of the neck as a vascular choke, and misp
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=PnVSqTaw78Q)
+
+<p class="clip-credit"><strong>The Hindulotine - Deadly Finisher</strong> · 3:48 · <a href="https://www.youtube.com/watch?v=PnVSqTaw78Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=YbOV4vESByc)
 
-<p class="clip-credit"><strong>Hindulotine Breakdown</strong> — taught by Ben Eddy · 1:37 · <a href="https://www.youtube.com/watch?v=YbOV4vESByc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Hindulotine Breakdown</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=YbOV4vESByc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -255,7 +270,7 @@ This neck enclosure can load the sides of the neck as a vascular choke, and misp
 
 ![](https://www.youtube.com/watch?v=6UwoAQt6u6o)
 
-<p class="clip-credit"><strong>Hindulotine Finish</strong> — taught by Ben Eddy · 1:00 · <a href="https://www.youtube.com/watch?v=6UwoAQt6u6o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Hindulotine Finish</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=6UwoAQt6u6o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -263,7 +278,7 @@ This neck enclosure can load the sides of the neck as a vascular choke, and misp
 
 ![](https://www.youtube.com/watch?v=99Mq930QVfY)
 
-<p class="clip-credit"><strong>Easy Hindulotine Variation</strong> — taught by Danny Mitchell · 2:39 · <a href="https://www.youtube.com/watch?v=99Mq930QVfY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Easy Hindulotine Variation</strong> · 2:39 · <a href="https://www.youtube.com/watch?v=99Mq930QVfY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -296,7 +311,7 @@ This neck enclosure can load the sides of the neck as a vascular choke, and misp
 - The bottom guard player keeps a raised knee near the torso and loops an elbow over the foot, bringing the hand around the opponent's shoulder.
 - Turn onto the hip and keep the knee close so the foot is reached through body position.
 - Bring the elbow above the raised foot and the hand around the shoulder into the head-control space.
-- Hindu Control is the setup; Hindulotine is the choke. Ben Eddy's early reverse-gable demonstration and later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.
+- Hindu Control is the setup; Hindulotine is the choke. The early reverse-gable demonstration and the later S-grip explanation are teaching variants, not a license to force any hand grip through a closed gap.
 
 
 </section>

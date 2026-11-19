@@ -71,8 +71,8 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
 
   // open the explorer's CHALLENGES view (curriculum loaded → challenges is the default mode);
   // openExplorer auto-pauses the game — the freeze that makes beat-count strictness safe
-  // Drawer (U51 e / U56 e): select Path explicitly; opening alone shows the home list.
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
+  // Drawer (U51 e / U56 e): open the corridor explicitly; opening the drawer alone shows the home list.
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   await j.expectBeat("challenges_opened")
   // THE PANE'S SLIDE MOVES camTarget ON ITS OWN (v1.189.0 4f41a4ccc "Keep gameplay beside the
@@ -108,7 +108,8 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
         posKey: a._posKey ?? null,
         camCx: a.camTarget.cx,
         camCy: a.camTarget.cy,
-        session: !!a._session,
+        // a STUDY session the probes could start (Master the game's own session holds the corridor since v1.287.0, and is not one)
+        session: !!(a._session && !a._session.practice),
         checkpoint: !!a._checkpoint,
         beltTest: !!a._beltTest,
         beats: (a.beats || []).length,
@@ -189,8 +190,10 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
     await page.evaluate((dk) => !!document.querySelector(`[data-mini-deck="${dk}"], [data-mini-deck-state]`), CONTROL_LESSON),
     "control A: done lesson opened its inline Q&A",
   ).toBe(true)
+  // a takeover is a deck, a checkpoint or the study view; Master the game, which holds the corridor since v1.287.0, is itself a
+  // session and stays on screen
   expect(
-    await page.evaluate(() => (window as any).__neural._paneStudyActive()),
+    await page.evaluate(() => { const a = (window as any).__neural; return !!(a.deck || a._checkpoint || a._studyOpen) || !a._practiceInDrawer() }),
     "control A: and never took the pane over",
   ).toBe(false)
 

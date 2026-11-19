@@ -202,7 +202,7 @@ test("the landing card does not repeat what the graph already says", async ({ pa
  * The fixture still authors films; prose comes from the real published page.
  * D-318 retires the reading shelf: Questions now hides through its section eye.
  * The article lifetime and real mouse assertions remain unchanged. */
-test("the complete article renders automatically and survives the question lifetime @curated", async ({ page }) => {
+test("the complete article renders automatically and survives the question lifetime", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   const j = journey(page)
   await j.boot("/")
@@ -323,21 +323,17 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
 
   const st = await page.evaluate(() => {
     const a = (window as Any).__neural
-    const nc = a.nodeCardRef && a.nodeCardRef.current
-    const sh = a.dossierSheetRef && a.dossierSheetRef.current
     const body = a._readerEl
     const add = document.querySelector("[data-seat-star]")
+    // v1.255.1: "the in-node container is gone for good" and "no node-dossier sheet opens" went with the two surfaces
+    // themselves (§6.8, deleted outright): with no element left, either assertion could only pass.
     return {
-      nodeCard: nc ? nc.style.display : null,
-      sheet: sh ? sh.style.display : null,
       card: !!a._landEl,
       unfolded: !!body,
       capture: add ? add.getAttribute("data-list-add") : null,
       zoom: a.cam.vw / a.graphW,
     }
   })
-  expect(st.nodeCard, "the in-node container is gone for good").toBe("none")
-  expect(st.sheet, "and no node-dossier reading sheet opens").not.toBe("block")
   expect(st.card, "the game card is what opens").toBe(true)
   expect(st.unfolded, "the full article is already present").toBe(true)
   expect(st.capture, "and the seat star captures the TECHNIQUE, not its origin position").toBe(tech.id)
@@ -359,11 +355,9 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
   await j.advance(400)
   const self = await page.evaluate(() => {
     const a = (window as Any).__neural
-    const sh = a.dossierSheetRef && a.dossierSheetRef.current
     const body = a._readerEl
-    return { sheet: sh ? sh.style.display : null, card: !!a._landEl, unfolded: !!body }
+    return { card: !!a._landEl, unfolded: !!body }
   })
-  expect(self.sheet, "no sheet for the node you are standing on").not.toBe("block")
   expect(self.card, "a dismissed card is rebuilt, not replaced").toBe(true)
   expect(self.unfolded, "the article survives rebuilding the question").toBe(true)
 })
@@ -498,7 +492,8 @@ for (const height of [900, 720]) {
     await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop), { message: "native scrolling reaches the article end" }).toBeLessThan(2)
     const end = await page.locator("[data-reader]").evaluate(e => ({ top: e.getBoundingClientRect().top, bottom: e.getBoundingClientRect().bottom, scroll: e.scrollTop, remaining: e.scrollHeight - e.clientHeight - e.scrollTop }))
     expect(end.top).toBeGreaterThanOrEqual(0)
-    expect(end.bottom).toBeLessThan(height)
+    // v1.253.0 (owner, 2026-11-09): with the shelf's reservation retired the scrollport runs to the fold, so it may end at it.
+    expect(end.bottom).toBeLessThanOrEqual(height)
     expect(end.scroll).toBeGreaterThan(0)
     expect(end.remaining).toBeLessThan(2)
   })
@@ -514,7 +509,7 @@ for (const height of [900, 720]) {
  * the technique's origin position (the engine's states are positions), staged and paused. Play
  * ran the exchange (retired with the transport in v1.134.0 — the staged card itself is the go).
  */
-test("@curated tapping a transition navigates to it — URL, focus and a standard staged card", async ({
+test("tapping a transition navigates to it — URL, focus and a standard staged card", async ({
   page,
 }) => {
   const j = journey(page)
@@ -581,7 +576,7 @@ test("@curated tapping a transition navigates to it — URL, focus and a standar
 })
 
 /**
- * A MOUSE CAN DRAG THE HAND (v1.129.1). @curated
+ * A MOUSE CAN DRAG THE HAND (v1.129.1).
  *
  * Owner: "Seems like I'm not able to scroll the options horizontally anymore. Either dragging or
  * horizontally scrolling is not working."
@@ -593,7 +588,7 @@ test("@curated tapping a transition navigates to it — URL, focus and a standar
  * natively, so its own mutants could not kill its test. Mouse is the case that is really broken and
  * really testable.
  */
-test("@curated a mouse can drag the option row, and a drag is not a pick", async ({ page }) => {
+test("a mouse can drag the option row, and a drag is not a pick", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Side Control Top")
@@ -650,7 +645,7 @@ test("@curated a mouse can drag the option row, and a drag is not a pick", async
  * those choices using the latest odds. M17 restores the old card-only branch and
  * fails the fresh-journey assertion below.
  */
-test("@curated background taps: close the card, then free roam — and a node click stages fresh", async ({
+test("background taps: close the card, then free roam — and a node click stages fresh", async ({
   page,
 }) => {
   const j = journey(page)
@@ -761,7 +756,7 @@ test("@curated background taps: close the card, then free roam — and a node cl
  * somewhere else is a decision" case), so the follow-cam tracks the travel from frame one.
  * Mutant that must die: dropping the releaseCamera + lastInteract aging from enterAttempt.
  */
-test("@curated the commit hands the camera to the roll", async ({ page }) => {
+test("the commit hands the camera to the roll", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Side-Control/Bottom")
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()

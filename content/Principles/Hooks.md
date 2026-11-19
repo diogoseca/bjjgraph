@@ -154,32 +154,29 @@ description: "Use arm and leg hooks to maintain contact, redirect weight, and su
       "@type": "VideoObject",
       "position": 1,
       "name": "Creating room to insert your hook",
-      "description": "Hooks film study: Creating room to insert your hook, taught by Rory Van Vliet.",
+      "description": "Hooks film study: Creating room to insert your hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6PO2N-GcQkY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6PO2N-GcQkY",
-      "url": "https://www.youtube.com/watch?v=6PO2N-GcQkY",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=6PO2N-GcQkY"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Butterfly guard hooks: the most important principles",
-      "description": "Hooks film study: Butterfly guard hooks: the most important principles, taught by Marcelo Garcia.",
+      "description": "Hooks film study: Butterfly guard hooks: the most important principles.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0WG1MYvgXAM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0WG1MYvgXAM",
       "url": "https://www.youtube.com/watch?v=0WG1MYvgXAM",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT853S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "The secret to Marcelo Garcia\u0027s butterfly hooks",
-      "description": "Hooks film study: The secret to Marcelo Garcia\u0027s butterfly hooks, taught by Kenny Florian.",
+      "name": "The secret to butterfly hooks",
+      "description": "Hooks film study: The secret to butterfly hooks.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WB9_9TgcH1o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WB9_9TgcH1o",
       "url": "https://www.youtube.com/watch?v=WB9_9TgcH1o",
-      "creator": { "@type": "Person", "name": "Kenny Florian" },
       "duration": "PT295S"
     }
   ]
@@ -209,7 +206,7 @@ A useful hook follows the opponent’s movement and supports another control. If
 
 ![](https://www.youtube.com/watch?v=6PO2N-GcQkY)
 
-<p class="clip-credit"><strong>Creating room to insert your hook</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=6PO2N-GcQkY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Creating room to insert your hook</strong> · <a href="https://www.youtube.com/watch?v=6PO2N-GcQkY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,7 +214,7 @@ A useful hook follows the opponent’s movement and supports another control. If
 
 ![](https://www.youtube.com/watch?v=0WG1MYvgXAM)
 
-<p class="clip-credit"><strong>Butterfly guard hooks: the most important principles</strong> — taught by Marcelo Garcia · 14:13 · <a href="https://www.youtube.com/watch?v=0WG1MYvgXAM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Butterfly guard hooks: the most important principles</strong> · 14:13 · <a href="https://www.youtube.com/watch?v=0WG1MYvgXAM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +222,7 @@ A useful hook follows the opponent’s movement and supports another control. If
 
 ![](https://www.youtube.com/watch?v=WB9_9TgcH1o)
 
-<p class="clip-credit"><strong>The secret to Marcelo Garcia&#39;s butterfly hooks</strong> — taught by Kenny Florian · 4:55 · <a href="https://www.youtube.com/watch?v=WB9_9TgcH1o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The secret to butterfly hooks</strong> · 4:55 · <a href="https://www.youtube.com/watch?v=WB9_9TgcH1o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

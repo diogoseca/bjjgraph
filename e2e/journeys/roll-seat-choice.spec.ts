@@ -171,7 +171,7 @@ function seated(page: Page) {
   });
 }
 
-test("@curated ▶ on a technique: take the OTHER seat — you defend it, on the other side of the same position", async ({ page }) => {
+test("▶ on a technique: take the OTHER seat — you defend it, on the other side of the same position", async ({ page }) => {
   const j = journey(page);
   await exploreFor(j, page, TOP_TECH.name);
   await j.clickByMouse(`[data-play-from="${TOP_TECH.id}"]`, "the Explore row's ▶");
@@ -213,7 +213,7 @@ test("@curated ▶ on a technique: take the OTHER seat — you defend it, on the
   ).toBe(false);
 });
 
-test("@curated the default path is unchanged — Start without touching the seat plays the technique's own side", async ({ page }) => {
+test("the default path is unchanged — Start without touching the seat plays the technique's own side", async ({ page }) => {
   const j = journey(page);
   await exploreFor(j, page, BOTTOM_TECH.name);
 
@@ -272,7 +272,7 @@ test("a position row offers Top / Bottom, and Bottom seats you on the bottom orb
   expect(strict.every((c) => c.fromRole === "bottom"), "the bottom hand").toBe(true);
 });
 
-test("@curated Esc closes the sheet — only the sheet — and the arrows move the seat", async ({ page }) => {
+test("Esc closes the sheet — only the sheet — and the arrows move the seat", async ({ page }) => {
   const j = journey(page);
   await exploreFor(j, page, TOP_TECH.name);
   const before = await page.evaluate(() => {

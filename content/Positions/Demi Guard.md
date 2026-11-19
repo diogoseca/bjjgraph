@@ -4,7 +4,7 @@
 
 ---
 title: "Demi Guard | BJJ Position Guide | BJJ Graph"
-description: "Demi Guard is Keenan Cornelius' gi lapel guard against forward pressure. Learn its collar grip, foot-on-lapel control, sweep options and passing priorities."
+description: "Demi Guard is a gi lapel guard against forward pressure. Learn its collar grip, foot-on-lapel control, sweep options and passing priorities."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Demi Guard is Keenan Cornelius' gi lapel guard against forward pre
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Demi Guard",
-  "description": "Demi Guard is Keenan Cornelius\u0027 gi lapel guard against forward pressure. Learn its collar grip, foot-on-lapel control, sweep options and passing priorities.",
+  "description": "Demi Guard is a gi lapel guard against forward pressure. Learn its collar grip, foot-on-lapel control, sweep options and passing priorities.",
   "alternateName": ["Demi-Guard", "demi guard"],
   "disambiguatingDescription": "Often confused with Half Guard \u2014 Demi uses a collar grip and foot-on-lapel knee control; Half Guard traps one leg between both legs and also exists in no-gi..",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
@@ -69,7 +69,7 @@ description: "Demi Guard is Keenan Cornelius' gi lapel guard against forward pre
 
 **Demi Guard is a gi lapel guard that combines a collar grip, the opponent's lapel behind their knee, and a foot pressing on the lapel tail to resist pressure and create elevation.**
 
-Keenan Cornelius introduces Demi Guard as an answer to a passer driving forward after a worm-wrestling attempt. The bottom player's foot has left the worm configuration, so rebuilding that guard may be difficult. Demi supplies a different connection at the knee rather than requiring the original wrap to be restored. See [Keenan's introduction](https://jiujitsux.com/courses/keenans-lapel-encyclopedia/lesson/16-1-introduction-to-the-demi-guard/).
+Demi Guard is taught as an answer to a passer driving forward after a worm-wrestling attempt. The bottom player's foot has left the worm configuration, so rebuilding that guard may be difficult. Demi supplies a different connection at the knee rather than requiring the original wrap to be restored. See [Keenan's introduction](https://jiujitsux.com/courses/keenans-lapel-encyclopedia/lesson/16-1-introduction-to-the-demi-guard/).
 
 [Legion's dictionary](https://legionsandiego.com/the-jiu-jitsu-dictionary/#demi-guard) describes the collar grip, lapel behind the passer's knee, and foot on the lapel tail. The guard player stays in front of the passer with bent legs between their bodies; the fabric supports the foot's work against pressure. The top player must deal with that connection while keeping balance.
 

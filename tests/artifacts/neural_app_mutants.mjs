@@ -26,12 +26,24 @@ const original = readFileSync(app), source = original.toString()
 // D-370: optional NEURAL_MUTANT_CSS, the served neural.css, for controls whose claim is an eager stylesheet rule.
 const cssPath = process.env.NEURAL_MUTANT_CSS, cssOriginal = cssPath ? readFileSync(cssPath) : null
 // [name, spec, grep, [[minified target, replacement]...], claim: message text or the asserting line, css edits?]
+// #354's review (finding 2), v1.253.0: a static replay against the served bundle found rows whose targets were gone. Nine moved with
+// this PR's edits (rounds 5 to 7; the minifier renames locals as code shifts) and are retargeted or retired here: d352-book-rehold (retired with its journey), d370-late-film-unheld-390/-1440,
+// film-suggest-node-lost, film-suggest-kind-lost, film-none-close-back, ask-fit-late, d354-held-hand-no-value, u35-watch-in-question.
+// FIFTEEN WERE ALREADY STALE ON DEV (the minifier renamed their locals; replayed against dev's own bundle, built from origin/dev):
+// reward-hold-lost, d338-saved-focus-layer-read, d351-hand-hold-removed, d354-pane-follow-lag, d370-band-186-in-catch,
+// u16-band-restoration-lost, slowclear, d355-flight-lift-ungated, d355-flight-lift-lost, flight-lift-fixed-margin,
+// flight-lift-tracking-lost, concept-fit-reveal-lost, u47-question-tap-dead, u47-desktop-offer-lost, reading-intent-blocks-digit.
+// They are left as they were, recorded, not counted as coverage until someone retargets them.
+// v1.255.1 (the dossier retired): the minifier renamed locals in four rows' functions; noahead-exchange-1440/-390, ask-fit-late
+// and film-none-close-back are retargeted (f -> m), and replay against the served bundle as before.
 const controls = [
   // D10-N1: a genuinely held deck manifest lands while Watch is open. Suppress only that backfill;
   // the new question-presence claim must fail, rather than passing on an already-mounted card.
+  // VID1 (v1.283.0): Watch is the theater, so the suppression keys on `_filmTheater` (WAS `_choiceWatch`, a field VID1
+  // deleted: left as it was, this control mutated nothing and could only survive).
   ['watch-backfill-lost', 'coldstart-backfill.spec.ts', 'a payload arriving behind Watch',
     [['this.refreshOptionOdds(),this._landBackfill(),this._refreshChallengeEvidence()',
-      'this.refreshOptionOdds(),this._choiceWatch||this._landBackfill(),this._refreshChallengeEvidence()']],
+      'this.refreshOptionOdds(),this._filmTheater||this._landBackfill(),this._refreshChallengeEvidence()']],
     'the newly backfilled question exists behind Watch'],
   // D-326: the notice keeps showing while the move executes.
   ['reward-hold-lost', 'roll-execution.spec.ts', 'reward notice yields',
@@ -62,8 +74,7 @@ const controls = [
     [['["land","attempt","defense"].includes(this._landMode)&&this._landPage!=null&&(r.key==="ArrowLeft"', '["land","attempt"].includes(this._landMode)&&this._landPage!=null&&(r.key==="ArrowLeft"']], 'arrows page the defender deck'],
   // D-352 (Delta 6): S1, a landing laid out with the article put away is live, so showing the article
   // mid-load publishes it pinned instead of holding it; and N1, the hand's half of D-351's hold.
-  ['d352-book-rehold', 'article-sections.spec.ts', 'D-352: showing the article while its page loads',
-    [['else if(!t)n.live=!0;else{', 'else if(!t);else{']], 'the live hand is never hidden again'],
+  // d352-book-rehold RETIRED in v1.253.0 (#354's review, finding 2): the article-away hold it removed and its journey went with U114 a.
   ['d351-hand-hold-removed', 'article-sections.spec.ts', 'D-351: an exchange whose article lands late',
     [['p==null||p.toggleAttribute("data-reader-pending",a>0);return d&&a<=0', 'p==null||p.toggleAttribute("data-reader-pending",!1);return d&&a<=0']], 'the new hand is shown once, at its final place'],
   // D-354 (Delta 8, B1): parts the reader adopted follow the pane's slide in the same frame.
@@ -71,7 +82,7 @@ const controls = [
     [[',this.uiShift!==s&&((r=this._reader)==null||r.layoutNow())', '']], 'the card and its arrows follow the pane in the same frame'],
   // D-354 (H95, H97): REAL BREAK from D-351. A hand the reader held starts its Win chance when it publishes.
   ['d354-held-hand-no-value', 'article-sections.spec.ts', 'D-354: a hand the reader held starts its Win chance',
-    [['return d&&a<=0&&this._ensureGameValues(),a}_readerGraded(){', 'return a}_readerGraded(){']], 'the Win chance starts in the frame the held hand publishes'],
+    [['return l&&o<=0&&this._ensureGameValues(),o}_readerGraded(){', 'return o}_readerGraded(){']], 'the Win chance starts in the frame the held hand publishes'],
   // RETIRED (D-368, layout C): d354-play-film-left-home; the game film never enters the Videos slot.
   // D-354 N3: the film's only remover ends the reader's media-home observation.
   ['d354-removed-film-observed', 'defending-landing.spec.ts', 'D-354 N3: a removed film',
@@ -88,9 +99,9 @@ const controls = [
     [['_liftForLanding(e,t){let s=this.nodes&&this.nodes[t];', '_liftForLanding(e,t){return e;let s=this.nodes&&this.nodes[t];']], 'ZERO overlap URL arrival @'],
   // noahead: `_viewRect` ignores `ahead`, so a landing's band is not predicted before its rows mount.
   ['noahead-exchange-1440', 'camera-continuity.spec.ts', '1440px camera continuity.*an exchange lands on a new current node',
-    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),f=!0)', '!1&&(a=this._predictBottom(e.ahead),f=!0)']], 'ZERO overlap exchange @'],
+    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),m=!0)', '!1&&(a=this._predictBottom(e.ahead),m=!0)']], 'ZERO overlap exchange @'],
   ['noahead-exchange-390', 'camera-continuity.spec.ts', '390px camera continuity.*an exchange lands on a new current node',
-    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),f=!0)', '!1&&(a=this._predictBottom(e.ahead),f=!0)']], 'ZERO overlap exchange @'],
+    [['e&&e.ahead!=null&&e.ahead!==!1&&(a=this._predictBottom(e.ahead),m=!0)', '!1&&(a=this._predictBottom(e.ahead),m=!0)']], 'ZERO overlap exchange @'],
   // D-433 (2026-10-26): migrate only the phone ordering/short-band premises.
   // U16's account, card spacing, scrolled input, handoff and restoration controls remain.
   // Run at 1cf59ba38 (answerpts round 2): all six killed at the claims named here.
@@ -114,10 +125,11 @@ const controls = [
     [['this.isMobile()&&!!this._defensePressure&&this._layerOn("card")', 'this.isMobile()&&this._landMode==="defense"&&this._layerOn("card")']],
     'a calm phone defender keeps the usual band'],
   // D-370 (2), D-325: a published question never moves for its film; the hold waits for the node's content chunk.
+  // v1.253.0: retargeted, and they name the assertion they turn red; the test checks the late film stays unmounted before it checks the answers.
   ['d370-late-film-unheld-390', 'reading-media-placement.spec.ts', '390px a film chunk landing after 2.6s',
-    [['l&&!l.done&&a<=0&&t&&!this._readerPin&&this._filmPending()', '!1']], 'the published answers never move'],
+    [['a&&!a.done&&o<=0&&!this._readerPin&&this._filmPending()', '!1']], 'past the ceiling the late film does not mount while the question is live'],
   ['d370-late-film-unheld-1440', 'reading-media-placement.spec.ts', '1440px a film chunk landing after 2.6s',
-    [['l&&!l.done&&a<=0&&t&&!this._readerPin&&this._filmPending()', '!1']], 'the published answers never move'],
+    [['a&&!a.done&&o<=0&&!this._readerPin&&this._filmPending()', '!1']], 'past the ceiling the late film does not mount while the question is live'],
   // D-355: the band's soft hold engages only for a flight that reaches its lower edge (a URL arrival), never for one
   // inside the band (a hover's re-aim), and it is what keeps the arrival clear of the Moves row.
   // CLEAR_SEC (v1.219.0's hand mutant `slowclear`, scripted at APTS-CI2): the lift's edge takes 1 s and every flight
@@ -221,7 +233,7 @@ const controls = [
   ['u36-motion-listener-lost', 'defending-landing.spec.ts', 'reduced motion keeps a static cue',
     [['(e=this._motionQuery)==null||e.addEventListener("change",this._motionChanged)', '(e=this._motionQuery)==null||0']], 'the media-change listener acted, with no frame pumped'],
   ['u35-watch-in-question', 'covered-card.spec.ts', 'U35 every question builder segregates technique media',
-    [['if(c.appendChild(f),this._landQ=d', 'if(c.appendChild(f),c.insertAdjacentHTML("beforeend","<button data-choice-watch>Watch technique</button>"),this._landQ=d']], 'U35 question surfaces contain no media/watch controls'],
+    [['if(c.appendChild(p),this._landQ=d', 'if(c.appendChild(p),c.insertAdjacentHTML("beforeend","<button data-choice-watch>Watch technique</button>"),this._landQ=d']], 'U35 question surfaces contain no media/watch controls'],
   // REAL BREAK inherited from bfdfad39d: a reading arrival has intent=true and a live hand. Restoring that
   // gate leaves plain digits dead although the same card plays by mouse (H138 video-cards cross).
   ['reading-intent-blocks-digit', 'submission-choices.spec.ts', 'triangle defender',
@@ -232,17 +244,155 @@ const controls = [
     [['(u=o.querySelector("[data-film-suggest]"))==null||u.addEventListener', '(u=o.querySelector("[data-film-suggest-off]"))==null||u.addEventListener']],
     'Suggest a video opens Feedback'],
   ['film-suggest-node-lost', 'film-suggest.spec.ts', 'about that move at 1440',
-    [['p.stopPropagation(),this.openFeedback(a)});let d=o.querySelector(".ng-cliprow")', 'p.stopPropagation(),this.openFeedback()});let d=o.querySelector(".ng-cliprow")']],
+    [['f.stopPropagation(),this.openFeedback(a,o._ngMediaRole)});let d=o.querySelector(".ng-cliprow")', 'f.stopPropagation(),this.openFeedback()});let d=o.querySelector(".ng-cliprow")']],
     'the form asks for the link and the second'],
   ['film-suggest-kind-lost', 'film-suggest.spec.ts', 'about that move at 1440',
-    [['...e&&{kind:"video"}}),this.closeModal(', '}),this.closeModal(']], 'a video suggestion about the shown move'],
+    [['...e&&{kind:"video",seat:t}}),this.closeModal(', '}),this.closeModal(']], 'a video suggestion about the shown move'],
+  // #346's review (v1.252.1). Finding 1: the Previous arrow's home beside the index, by its rule and by the attribute the app sets.
+  // Both RETIRED in v1.263.1 with their targets (CARDWIDTH: Previous sits in the face's left lane, inside the grid, so the right-lane
+  // rule and its flag are gone). Their claim, Previous never over the index, keeps a control: Previous pushed back out past the lane.
+  ['cardwidth-prev-over-index', 'deck-arrows-index.spec.ts', 'finding 1', [],
+    '[data-land-prev] lies right of the index at the top', [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% + 32px)}']]],
+  // CARDWIDTH (owner, 2026-11-12, v1.263.1): the arrows' stylesheet half. Each target abuts the face, its glyph rides to its lane's
+  // middle, and the targets stand beside the face (never up in the Moves band).
+  // WIDTH4: on a phone the phone rule places the arrows, so the abutment rows run where the stylesheet's own rule does (1440).
+  ['cardwidth-arrow-gap-back', 'card-section.spec.ts', 'section spans.*1440x900', [],
+    'Previous abuts the face', [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% + 8px)}']]],
+  // WIDTH5: on a phone the phone rule rides the glyph now, so this row runs where the base rule does (768, outside).
+  ['cardwidth-glyph-in-target', 'card-section.spec.ts', 'section spans.*768x1024', [],
+    "Previous's glyph stands 16px from the face", [['.ng-landnav svg{translate:6px}', '.ng-landnav svg{translate:0}']]],
+  // WIDTH2 (U152 b): at 768 the arrows stand outside the face; the same two rules hold there.
+  ['cardwidth-next-glyph-in-target', 'card-section.spec.ts', 'section spans.*768x1024', [],
+    "Next's glyph stands 16px from the face", [['.ng-landnav [data-land-next] svg{translate:-6px}', '.ng-landnav [data-land-next] svg{translate:6px}']]],
+  ['cardwidth-b-gap-back', 'card-section.spec.ts', 'section spans.*768x1024', [],
+    'Previous abuts the face', [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% + 8px)}']]],
+  // The two strict inequalities landcard-deck.spec.ts relaxed to >= / <= (the targets abut the face now) still fail on a target over it.
+  ['cardwidth-next-over-face', 'landcard-deck.spec.ts', '1440px chevrons are clickable', [],
+    543, [['.ng-landnav [data-land-next]{left:100%}', '.ng-landnav [data-land-next]{left:calc(100% - 8px)}']]],
+  ['cardwidth-prev-over-face', 'landcard-deck.spec.ts', '1440px chevrons are clickable', [],
+    "Previous in the face's left lane", [['.ng-landnav [data-land-prev]{right:100%}', '.ng-landnav [data-land-prev]{right:calc(100% - 8px)}']]],
+  // WIDTH4 (p5, owner 2026-11-12 18:18): on a phone the arrows stand inside the face's own 36px side padding; an asking line keeps its own.
+  ['width4-padding-lost', 'card-section.spec.ts', 'at its edges \\(390x631', [],
+    'runs under neither arrow', [['[data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){padding-left:44px!important;padding-right:44px!important}', '[data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){padding-left:12px!important;padding-right:12px!important}']]],
+  ['width4-arrows-outside-on-phone', 'card-section.spec.ts', 'at its edges \\(390x844', [],
+    'Previous is on screen', [['.ng-landnav [data-land-prev]{right:auto;left:-12px}', '.ng-landnav [data-land-prev]{}']]],
+  // The phone/tablet switch at 600px is the stylesheet's own query (the reader's flush switch is equivalent there: at 599 the cap binds
+  // on both sides of it, so cardwidth-b-starts-early is a recorded non-kill under WIDTH4).
+  ['width4-switch-media-early', 'card-section.spec.ts', 'at its edges \\(599x760', [],
+    'Previous stands 32px inside the face', [['@media(max-width:599px){[data-landcard]', '@media(max-width:589px){[data-landcard]']]],
+  // WIDTH5 (the owner's U154 e, 13 Nov 2026): each phone glyph in the middle of the free space on its side inside the face. Each row moves
+  // one glyph 4px, or puts back the lane's 6px ride p5 shipped with (the build he saw), at one phone size each.
+  ['width5-glyph-4px', 'card-section.spec.ts', 'at its edges \\(390x631', [],
+    "Previous's glyph is centred in the free space on its side", [['.ng-landnav svg{translate:12.5px}', '.ng-landnav svg{translate:8.5px}']]],
+  ['width5-next-glyph-4px', 'card-section.spec.ts', 'at its edges \\(360x740', [],
+    "Next's glyph is centred in the free space on its side", [['.ng-landnav [data-land-next] svg{translate:-12.5px}', '.ng-landnav [data-land-next] svg{translate:-8.5px}']]],
+  ['width5-glyph-as-he-saw-it', 'card-section.spec.ts', 'at its edges \\(574x760', [],
+    "Previous's glyph is centred in the free space on its side", [['.ng-landnav svg{translate:12.5px}.ng-landnav [data-land-next] svg{translate:-12.5px}', '']]],
+  ['width5-glyph-4px-844', 'card-section.spec.ts', 'at its edges \\(390x844', [],
+    "Next's glyph is centred in the free space on its side", [['.ng-landnav [data-land-next] svg{translate:-12.5px}', '.ng-landnav [data-land-next] svg{translate:-16.5px}']]],
+  ['width4-asking-padded', 'article-order.spec.ts', 'U90 at 390x844 the question line', [],
+    'the line starts at the label', [['[data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){', '[data-landcard].ng-landcard.ng-land-deck{']]],
+  ['cardwidth-arrows-in-moves-band', 'card-section.spec.ts', 'section spans.*1440x900', [],
+    'Previous stands beside the face, not above it', [['.ng-landnav button{position:absolute;top:calc(var(--guide-y,50%) - 22px)}', '.ng-landnav button{position:absolute;top:-60px}']]],
+  // Finding 4: the video suggestion names its half.
+  ['video-suggestion-seat-lost', 'film-suggest.spec.ts', 'about that move at 1440',
+    [['...e&&{kind:"video",seat:t}}),this.closeModal(', '...e&&{kind:"video"}}),this.closeModal(']], 'a video suggestion about the shown move'],
+  // v1.253.0 (owner, 2026-11-09): a deck boundary's arrow stays, disabled, so a press there never reaches the map.
+  ['deck-end-arrow-hidden', 'deck-boundary.spec.ts', 'past either end',
+    [['a.hidden=l.hidden=!!this._landAsk,', 'a.hidden=!!this._landAsk||this._landPage===0,l.hidden=!!this._landAsk||this._landPage===i-1,']],
+    'a press where Previous stands on the first card keeps the question card and the film'],
+  // v1.253.0: the film's seat row prints the win bar's own number.
+  ['seat-win-unwired', 'state-win.spec.ts', 'seat row prints',
+    [['currentWinView(){return this._winView||', 'currentWinView(){return null||']], 'the seat row agrees with the win bar'],
+  // v1.253.0 (#354's review, finding 1): a landing the background tap took away comes back from its index row.
+  ['land-away-unrestored', 'index-reveal.spec.ts', 'after a background tap the Questions',
+    [['restoreLanding(){if(!this._landAway())return!1;', 'restoreLanding(){return!1;if(!this._landAway())return!1;']], 'the row brings this landing\'s card and film back'],
+  // v1.253.0 (U114 a): with the shelf retired, nothing reserves the bottom where no chrome falls under the grid.
+  ['reader-reserve-shelf-floor', 'reader-fold.spec.ts', '1440x900',
+    [['_readerReserve(e){let t=0', '_readerReserve(e){let t=12']], 'the reader runs to the fold'],
   // U104 (owner, 2026-11-06): a card with no video has nothing to dismiss.
   // U104 (v1.252.0): an asking card is fitted inside the pass that measures it, or a pane slide reads a wrapped line.
+  // NOT KILLED since v1.253.0: the tease spans the choices row, and no authored question (100 characters at most) needs fitting there,
+  // so a late fit wraps nothing. Kept as the record; the fit's column path has no live claim.
   ['ask-fit-late', 'article-dashboard.spec.ts', 'other column \\(30% down\\)',
-    [['p.clientWidth!==p._fitW&&this._fitAskLine(p,p._fitW=p.clientWidth)}return', 'p.clientWidth}return']], 'the asking line stays one line on every pass'],
+    [['m.clientWidth!==m._fitW&&this._fitAskLine(m,m._fitW=m.clientWidth)}return', 'm.clientWidth}return']], 'the asking line stays one line on every pass'],
   ['film-none-close-back', 'film-suggest.spec.ts', 'about that move at 1440',
-    [['if(e.length){let p=document.createElement("button");p.type="button",p.setAttribute("data-film-close","1")', 'if(1){let p=document.createElement("button");p.type="button",p.setAttribute("data-film-close","1")']],
+    [['if(e.length){let m=document.createElement("button");m.type="button",m.setAttribute("data-film-close","1")', 'if(1){let m=document.createElement("button");m.type="button",m.setAttribute("data-film-close","1")']],
     'nothing to dismiss: no ✕'],
+  // v1.254.0 (owner, 2026-11-10): the legend's key shows on the map alone (`_mapAlone`, read from the screen every frame).
+  ['key-shows-over-article', 'legend-search.spec.ts', 'nowhere a node is revealed \\(1440',
+    [['this._landEl,this._landFilmEl,(t=this._reader)==null?void 0:t.articleEl]', 'this._landEl,this._landFilmEl,(t=this._reader)==null?void 0:null]']], 'an article on screen is a node revealed'],
+  ['key-never-away', 'legend-search.spec.ts', 'nowhere a node is revealed \\(1440',
+    [['n&&n.toggleAttribute("data-away",!this._mapAlone())', 'n&&n.toggleAttribute("data-away",!1)']], 'the key is hidden once a node is revealed'],
+  ['key-never-shown', 'legend-search.spec.ts', 'nowhere a node is revealed \\(1440',
+    [['n&&n.toggleAttribute("data-away",!this._mapAlone())', 'n&&n.toggleAttribute("data-away",!0)']], 'the key shows on the map alone'],
+  ['key-away-sticks', 'legend-search.spec.ts', 'nowhere a node is revealed \\(1440',
+    [['n&&n.toggleAttribute("data-away",!this._mapAlone())', 'n&&!this._mapAlone()&&n.toggleAttribute("data-away",!0)']], 'the key comes back when the map is alone again'],
+  ['key-away-css-lost', 'legend-search.spec.ts', 'nowhere a node is revealed \\(768', [], 'the key is hidden once a node is revealed',
+    [['.ng-legendkey[data-away]{opacity:0!important;visibility:hidden;transition:opacity .3s ease,visibility 0s .3s!important}', '']]],
+  // v1.254.0: the win bar steps aside where it meets the index or comes within its 12px clearance, and comes back with room.
+  ['bar-never-away', 'legend-search.spec.ts', 'win bar steps aside',
+    [['r.toggleAttribute("data-away",!!c&&c.height>0&&h.left<c.right&&h.right>c.left&&h.top<c.bottom+12)', 'r.toggleAttribute("data-away",!1)']], 'the bar steps aside'],
+  ['bar-clearance-lost', 'legend-search.spec.ts', 'win bar steps aside',
+    [['h.top<c.bottom+12)', 'h.top<c.bottom)']], 'within 12px of the index'],
+  ['bar-away-sticks', 'legend-search.spec.ts', 'win bar steps aside',
+    [['r.toggleAttribute("data-away",!!c&&', 'r.toggleAttribute("data-away",r.hasAttribute("data-away")||!!c&&']], 'with room again, the bar comes back'],
+  ['bar-never-away-touch', 'legend-search.spec.ts', '1366x768, by touch',
+    [['r.toggleAttribute("data-away",!!c&&c.height>0&&h.left<c.right&&h.right>c.left&&h.top<c.bottom+12)', 'r.toggleAttribute("data-away",!1)']], 'the bar is away'],
+  ['bar-away-css-lost', 'legend-search.spec.ts', 'win bar steps aside', [], 'the bar steps aside',
+    [['.ng-winbar[data-away]{opacity:0;visibility:hidden;transition:opacity .3s ease,visibility 0s .3s}', '']]],
+  // v1.254.0: the search icon beside the drawer button: its own press path (§6.1), hidden with the drawer open, one seam with "/".
+  ['search-icon-capture', 'legend-search.spec.ts', 'search icon.*1440x900',
+    [['querySelectorAll(".ng-logo,.ng-search"))n.addEventListener', 'querySelectorAll(".ng-logo"))n.addEventListener']], 'a press opens the drawer'],
+  ['search-icon-over-drawer', 'legend-search.spec.ts', 'search icon.*390x631',
+    [['querySelectorAll(".ng-logo,.ng-search"))||[])n.style.visibility', 'querySelectorAll(".ng-logo"))||[])n.style.visibility']], 'a press opens the drawer'],
+  ['search-no-focus', 'legend-search.spec.ts', 'search icon.*390x631',
+    [['(t=this.explorerSearchRef.current)==null||t.focus(),this.fx("search_open"', 'this.fx("search_open"']], 'a press opens the drawer'],
+  ['slash-own-path', 'legend-search.spec.ts', 'search icon.*1440x900',
+    [['this.openSearchPane("key")', '(this.openPane("explore"),this.explorerSearchRef.current.focus())']], 'takes the same seam'],
+  ['search-phone-seat-lost', 'legend-search.spec.ts', 'search icon.*390x631', [], '6px right of the drawer button',
+    [['.ng-search{top:16px!important;left:60px!important}', '']]],
+  // v1.254.1: the search modal is retired; its journeys' claims run on the drawer's search, by real input.
+  ['drawer-search-doubles', 'seat-word-and-search.spec.ts', "drawer.s search names each site once",
+    [['this.nodes.filter(T=>T.rep&&this.rsAllows(T)&&this.nodeMatches(T,d)).slice(0,120)', 'this.nodes.filter(T=>this.rsAllows(T)&&this.nodeMatches(T,d)).slice(0,120)']], 'every row names a different site'],
+  ['alias-readers-dropped', 'alias-search.spec.ts', "delayed aliases refresh the drawer",
+    [['for(let s of t)this._afterPress(s)', 'for(let s of t);']], 'a family alias finds its site'],
+  ['alias-retry-dead', 'alias-search.spec.ts', 'explicit Retry recovers',
+    [['{this._aliasesFailed=!1,t()}', '{t()}']], 'Kosoto Gari'],
+  // v1.255.1: the dossier is retired; its close's one live line (the landing card's suppression lifted unless the tray holds it)
+  // moved into _tapBackground. NOT KILLED, recorded (both rows): EQUIVALENT, as expected: only _suppressTray and the fresh-card
+  // rule suppress the card, both while _traySup is true, when this line does not run. Kept as the record, not as coverage.
+  ['tap-unsuppress-lost-roll', 'roll-card.spec.ts', 'background taps',
+    [['_tapBackground(){var e;if(this._traySup||this._suppressLand(!1),this.closeDeckIfStudying(),', '_tapBackground(){var e;if(this.closeDeckIfStudying(),']], 'card'],
+  ['tap-unsuppress-lost-index', 'index-reveal.spec.ts', 'background tap',
+    [['_tapBackground(){var e;if(this._traySup||this._suppressLand(!1),this.closeDeckIfStudying(),', '_tapBackground(){var e;if(this.closeDeckIfStudying(),']], 'card'],
+  // v1.255.2: the Google button writes the sign-in intent its SIGNED_IN counts (tests/save_echo.test.mjs pins the counting rule).
+  ['google-intent-unwritten', 'signin-intent.spec.ts', 'Continue with Google writes the sign-in intent',
+    [['this._signinIntent("google",t),this.track("neural_signin_started"', 'this.track("neural_signin_started"']], 'the Google button writes the intent'],
+  // #360's review (E1, E5): Log in writes its intent too, and an attempt that fails in place removes it, either way.
+  ['email-intent-unwritten', 'signin-intent.spec.ts', 'Log in with an email writes the sign-in intent',
+    [['this._signinIntent("email",t),this.track("neural_signin_started"', 'this.track("neural_signin_started"']], 'Log in writes the intent'],
+  ['email-failure-keeps-intent', 'signin-intent.spec.ts', 'fails in place leaves no intent',
+    [['catch(p){this._signinAbandoned(),a(p&&p.message||"Sign-in failed', 'catch(p){a(p&&p.message||"Sign-in failed']], 'a failed attempt leaves no intent (email)'],
+  ['google-failure-keeps-intent', 'signin-intent.spec.ts', 'fails in place leaves no intent',
+    [['catch(f){this._signinAbandoned(),a(f&&f.message||"Google sign-in failed.', 'catch(f){a(f&&f.message||"Google sign-in failed.']], 'a failed attempt leaves no intent (Google)'],
+  // WINBAR1 (owner, 2026-11-11: "the win-lose bar shouldn't show for such screens"): where the bar falls under the reader's grid it is
+  // away, the reserve no longer counts it, and the one painter keeps writing it while away. One control per claim of winbar-fold.spec.ts.
+  ['winbar-under-shown', 'winbar-fold.spec.ts', '574x760',
+    [['||!o&&!!((u=this._reader)!=null&&u.barUnder))', ')']], 'the win bar is not visible'],
+  ['winbar-reserve-bar-back', 'winbar-fold.spec.ts', '574x760',
+    [['for(let s of[this.shareCueRef.current]){', 'for(let s of[this.shareCueRef.current,this.wrapRef.current.querySelector(".ng-winbar")]){']], "the column's bottom is the viewport's bottom"],
+  ['winbar-reserve-floor', 'winbar-fold.spec.ts', '390x631',
+    [['_readerReserve(e){let t=0;', '_readerReserve(e){let t=41;']], "the column's bottom is the viewport's bottom"],
+  ['winbar-away-everywhere', 'winbar-fold.spec.ts', '1440x900',
+    [['||!o&&!!((u=this._reader)!=null&&u.barUnder))', '||!o)']], 'the win bar shows'],
+  // WINBAR2 (owner's pick U137 a): the other half of the rule, the bar is away only while the column is on screen; free roam is the
+  // map alone and has it back (legend-search at 768, where it was away under the column).
+  ['winbar-away-on-map-alone', 'legend-search.spec.ts', '768, by touch',
+    [['||!o&&!!((u=this._reader)!=null&&u.barUnder))', '||!!((u=this._reader)!=null&&u.barUnder))']], 'the map alone keeps the win bar'],
+  ['winbar-paint-skips-away', 'winbar-fold.spec.ts', 'keeps today',
+    [['_paintWinThermometer(e){if(!this.adv)return;', '_paintWinThermometer(e){if(!this.adv||this.legendMarkRef.current?.closest(".ng-winbar")?.hasAttribute("data-away"))return;']],
+    'not the one it went away with'],
 ]
 const only = process.env.NEURAL_MUTANT_ONLY ? new RegExp(process.env.NEURAL_MUTANT_ONLY) : null
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')

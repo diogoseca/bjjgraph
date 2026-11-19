@@ -447,7 +447,7 @@
     "clips": [
       {
         "id": "-8A6PGIp-P4",
-        "title": "Omoplata | De La Riva Fundamentals | Roseburg BJJ",
+        "title": "Omoplata | De La Riva Fundamentals",
         "channel": "Performance Martial Arts Academy",
         "duration": 116,
         "front": true
@@ -461,13 +461,13 @@
       },
       {
         "id": "akGJ-RfjkAg",
-        "title": "Omoplata from De La Riva Guard | Lee Livingstone Pt. 1 | Jits Magazine | BJJ…",
+        "title": "Omoplata from De La Riva Guard | Pt. 1 | BJJ…",
         "channel": "JitsMagazine",
         "duration": 164
       },
       {
         "id": "cQEVTjYCq0M",
-        "title": "Rafa Mendes' Omoplata.",
+        "title": "Omoplata.",
         "channel": "Artes Marciais",
         "duration": 61,
         "vertical": false
@@ -670,17 +670,33 @@
       },
       {
         "id": "mC8Vc-n3twQ",
-        "title": "Omoplata defense I learned from Delariva himself",
+        "title": "Omoplata defense",
         "channel": "Felipe Costa",
         "duration": 24,
         "vertical": false
       },
       {
         "id": "WpdIBfxbUbo",
-        "title": "Ursinho Technique Breakdown - [Omoplata Defense]",
+        "title": "Technique Breakdown - [Omoplata Defense]",
         "channel": "Ursinho BJJ",
         "duration": 160,
         "vertical": false
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Forward roll escape",
+        "clips": [
+          {
+            "id": "Qoh8cXdCIlU",
+            "title": "Omoplata escape forward roll to side control!",
+            "channel": "Adriano",
+            "duration": 21,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-17"
+          }
+        ]
       }
     ]
   }

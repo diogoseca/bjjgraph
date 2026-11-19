@@ -66,12 +66,13 @@ const layout = (page: Page) => page.evaluate(() => {
   const cards = [...a.optionsRef.current.querySelectorAll("[data-tech]")].map((c: Element) => c.getBoundingClientRect())
   const text = ask.getBoundingClientRect(), media = film.getBoundingClientRect()
   return { gap: text.top - Math.max(...cards.map((r: DOMRect) => r.bottom)), film: media.toJSON(), askBottom: text.bottom,
-    padding: getComputedStyle(a._landEl).padding, free: a._paneLayout().width, layout: a._reader.game.dataset.mediaLayout, cardWidth: a._landEl.getBoundingClientRect().width,
-    nested: !!film.closest(".ng-landcard,[data-land-q]"), token: parseFloat(getComputedStyle(ask).getPropertyValue("--section-gap")) }
+    padding: getComputedStyle(a._landEl).padding, free: a._paneLayout().width, layout: a._reader.game.dataset.mediaLayout, cardWidth: a._landEl.getBoundingClientRect().width, gridWidth: (document.querySelector("[data-reader-body]") as HTMLElement).getBoundingClientRect().width,
+    nested: !!film.closest(".ng-landcard,[data-land-q]"), token: parseFloat(getComputedStyle(ask).getPropertyValue("--section-gap")),
+    row: (() => { const r = a.optionsRef.current as HTMLElement, b = r.getBoundingClientRect(), s = getComputedStyle(r); return { l: b.left + parseFloat(s.paddingLeft), r: b.right - parseFloat(s.paddingRight) } })() }
 })
 
 for (const [width, height] of [[390, 631], [390, 844], [768, 1024], [1024, 768], [1152, 900], [1440, 900]]) {
-  test(`@curated VIDEO1 gap and card width ${width}x${height}`, async ({ page }) => {
+  test(`VIDEO1 gap and card width ${width}x${height}`, async ({ page }) => {
     await page.setViewportSize({ width, height }); await boot(page)
     const g = await layout(page)
     // U104 and U110 a (owner, 2026-11-09): under 1,024px free everything stacks in one box of at most 496px; from 1,024px the
@@ -80,12 +81,22 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 1024], [1024, 768],
       expect(g.gap, "VIDEO1 ask gap is 5–6px below the visible Moves cards").toBeGreaterThanOrEqual(5)
       expect(g.gap, "VIDEO1 ask gap is 5–6px below the visible Moves cards").toBeLessThanOrEqual(6.1)
       expect(g.gap, "VIDEO1 gap uses the existing section spacing token").toBeCloseTo(g.token, 1)
-      expect(g.film.width, "VIDEO1 mobile/tablet film fills the column").toBeCloseTo(Math.min(496, g.free - 32), 1)
+      if (g.free < 600) {
+        // The owner's U154 e (13 Nov 2026): on a phone (under 600px free) the film takes the Moves row's own box, as the question card
+        // and the article's sections do: at 390 the row's content box, 12..378, so 366px. WAS (U110 a, to v1.264.5): min(496, free - 32),
+        // 358px at 390, 4px inside the row on each side. Controls: width5-theater-film-lost-631 and -844 (article_sections_mutants.mjs), killed here.
+        expect([g.film.left - g.row.l, g.film.right - g.row.r].map(Math.round), `on a phone the film shares the Moves row's two edges (${g.film.left}..${g.film.right} / ${g.row.l}..${g.row.r})`).toEqual([0, 0])
+      } else {
+        // From 600px free, unchanged (U110 a): the film fills the stacked column, min(496, free - 32).
+        expect(g.film.width, "VIDEO1 mobile/tablet film fills the column").toBeCloseTo(Math.min(496, g.free - 32), 1)
+      }
       expect(g.film.top, "VIDEO1 own film follows the ask").toBeGreaterThan(g.askBottom)
       expect(g.layout).toBe("stacked")
     } else {
       expect(g.layout, "U104: from 1,024px the film is the right column").toBe("side-by-side")
-      expect(g.film.width, "U104: a column wide, as wide as the asking question").toBeCloseTo(g.cardWidth, 0)
+      // v1.253.0 (owner, 2026-11-09): the asking question spans the choices row (the grid); the film is one of its two columns.
+      expect(g.film.width, "U104: a column wide").toBeCloseTo((g.gridWidth - 24) / 2, 0)
+      expect(g.cardWidth, "v1.253.0: the asking question as wide as the choices row").toBeCloseTo(g.gridWidth, 0)
     }
     expect(g.padding).toBe("0px 0px 0px 3px")
     expect(g.nested, "VIDEO1 own film never enters a question card").toBe(false)
@@ -95,7 +106,7 @@ for (const [width, height] of [[390, 631], [390, 844], [768, 1024], [1024, 768],
 }
 
 for (const [width, height, vertical] of [[390, 631, false], [390, 844, false], [768, 1024, false], [1440, 900, false], [1440, 900, true]] as const) {
-  test(`@curated VIDEO1 width-first 95% fit and rectangle zoom ${width}x${height}${vertical ? " portrait" : ""}`, async ({ page }) => {
+  test(`VIDEO1 width-first 95% fit and rectangle zoom ${width}x${height}${vertical ? " portrait" : ""}`, async ({ page }) => {
     await page.setViewportSize({ width, height }); const j = await boot(page, vertical)
     await page.locator(PLAY).first().scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
     const before = await page.locator(FILM + " .ng-clip").first().boundingBox()
@@ -138,7 +149,7 @@ for (const [width, height, vertical] of [[390, 631, false], [390, 844, false], [
   })
 }
 
-test("@curated VIDEO1 click loads autoplay and dims everything by 60 percent", async ({ page }) => {
+test("VIDEO1 click loads autoplay and dims everything by 60 percent", async ({ page }) => {
   const j = await boot(page, false, true)
   expect(await page.locator('#yt-iframe-api').count(), "VIDEO1 API does not load before Play").toBe(0)
   await j.clickByMouse(PLAY)
@@ -157,7 +168,7 @@ test("@curated VIDEO1 click loads autoplay and dims everything by 60 percent", a
 })
 
 for (const exit of ["Escape", "dim", "close"] as const) {
-  test(`@curated VIDEO1 ${exit} exits and restores play focus`, async ({ page }) => {
+  test(`VIDEO1 ${exit} exits and restores play focus`, async ({ page }) => {
     const j = await boot(page); await j.clickByMouse(PLAY)
     const close = page.locator(THEATER + " .ngClipX")
     await expect(close, "VIDEO1 focus enters the theater").toBeFocused()
@@ -177,7 +188,7 @@ for (const exit of ["Escape", "dim", "close"] as const) {
   })
 }
 
-test("@curated VIDEO1 map gets no pointer wheel or keyboard input during playback", async ({ page }) => {
+test("VIDEO1 map gets no pointer wheel or keyboard input during playback", async ({ page }) => {
   const j = await boot(page); await j.clickByMouse(PLAY)
   await expect(page.locator(THEATER + " iframe")).toBeVisible()
   const state = () => page.evaluate(() => {
@@ -194,7 +205,10 @@ test("@curated VIDEO1 map gets no pointer wheel or keyboard input during playbac
   // A drag has to start on the dim to mean anything: over the video it belongs to the cross-origin
   // iframe and the app never hears it. Releasing on the dim is a click on the dialog, so this drag
   // also ends the theater. It pans nothing because the modal and _graphInputOn each stop it, so
-  // removing either one alone leaves this green; each has its own control above.
+  // removing either one alone leaves this green; each has its own control above. VID1-R1: the dim closes nothing while
+  // the theater zooms (a double press's second press must not shut what the first opened), so the drag waits for the
+  // zoom (WAS: dragged at once; on the VID1-R1 build that line left the theater open, 1 for 0).
+  await page.locator(THEATER).evaluate(async d => { await Promise.all(d.getAnimations().map(a => a.finished)) })
   await page.mouse.move(5, 5); await page.mouse.down(); await page.mouse.move(60, 40, { steps: 8 }); await page.mouse.up()
   await expect(page.locator(THEATER)).toHaveCount(0)
   expect(await state(), "VIDEO1 a drag on the dim cannot reach the map").toEqual(before)
@@ -251,7 +265,7 @@ test("VIDEO1 a blocked provider says so, and a later Play retries it", async ({ 
   await expect.poll(() => page.evaluate(() => (window as any).__players?.[0]?.play), { message: "VIDEO1 the retried player plays" }).toBe(1)
 })
 
-test("@curated VIDEO1 reduced motion opens instantly without a zoom", async ({ page }) => {
+test("VIDEO1 reduced motion opens instantly without a zoom", async ({ page }) => {
   await page.emulateMedia({ reducedMotion: "reduce" })
   const j = await boot(page)
   expect(await page.evaluate(() => matchMedia("(prefers-reduced-motion: reduce)").matches)).toBe(true)

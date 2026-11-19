@@ -47,12 +47,11 @@ description: "Master Half Guard in BJJ with comprehensive bottom and top strateg
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The Base BJJ Technique of the Week: Half Guard to the Dogfight",
-      "description": "Half Guard film study: The Base BJJ Technique of the Week: Half Guard to the Dogfight, taught by The Base Jiu Jitsu.",
+      "name": "BJJ Technique of the Week: Half Guard to the Dogfight",
+      "description": "Half Guard film study: BJJ Technique of the Week: Half Guard to the Dogfight.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X4jR2wWOy2M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/X4jR2wWOy2M",
       "url": "https://www.youtube.com/watch?v=X4jR2wWOy2M",
-      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
       "duration": "PT79S"
     }
   ]
@@ -111,7 +110,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 ![](https://www.youtube.com/watch?v=X4jR2wWOy2M)
 
-<p class="clip-credit"><strong>The Base BJJ Technique of the Week: Half Guard to the Dogfight</strong> — taught by The Base Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Technique of the Week: Half Guard to the Dogfight</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -176,7 +175,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - Maintain constant frames to prevent opponent's chest from connecting to your chest - create and preserve distance through knee shield, underhook, or forearm frames
 
-- Battle aggressively for the underhook on the trapped leg side as it provides primary offensive pathway to sweeps and back takes. In this example, the narrator describes Roosevelt in half guard preventing his opponent from controlling his head and spine, then threading his top elbow through to a deep reverse underhook that keeps the octopus guard entry available. Narration: [FloGrappling, 3:52.4–4:33.44](https://www.youtube.com/watch?v=idoCRB1ewqw&t=232s).
+- Battle aggressively for the underhook on the trapped leg side as it provides primary offensive pathway to sweeps and back takes. In this example, the narrator describes the half-guard player preventing the opponent from controlling the head and spine, then threading the top elbow through to a deep reverse underhook that keeps the octopus guard entry available. Narration: [FloGrappling, 3:52.4–4:33.44](https://www.youtube.com/watch?v=idoCRB1ewqw&t=232s).
 
 - Keep hips mobile and angled rather than flat on back - being on your side allows hip escape, angle creation, and sweep entries
 
@@ -186,7 +185,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - Protect against the cross-face and underhook from top player which lead to flattening and eventual pass to side control or mount
 
-- Transition between half guard variations based on opponent's pressure and positioning to maintain offensive options. In this example, the narrator describes Tommy taking pressure in half guard, entering octopus guard, posting on his hand, and using his left foot to bridge into his opponent; as the opponent struggles to keep balance, Tommy starts entering the legs. Narration: [FloGrappling, 8:33.2–8:58.08](https://www.youtube.com/watch?v=idoCRB1ewqw&t=513s).
+- Transition between half guard variations based on opponent's pressure and positioning to maintain offensive options. In this example, the narrator describes the bottom player taking pressure in half guard, entering octopus guard, posting on a hand, and using the left foot to bridge into the opponent; as the opponent struggles to keep balance, the bottom player starts entering the legs. Narration: [FloGrappling, 8:33.2–8:58.08](https://www.youtube.com/watch?v=idoCRB1ewqw&t=513s).
 
 
 ### Available Transitions

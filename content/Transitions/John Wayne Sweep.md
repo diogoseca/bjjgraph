@@ -47,11 +47,10 @@ description: "The John Wayne Sweep is a half-guard knee-lever reversal that anch
       "@type": "VideoObject",
       "position": 1,
       "name": "John Wayne sweep from half guard",
-      "description": "John Wayne Sweep film study: John Wayne sweep from half guard, taught by JitzLive.",
+      "description": "John Wayne Sweep film study: John Wayne sweep from half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kB5XebzuihY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kB5XebzuihY",
       "url": "https://www.youtube.com/watch?v=kB5XebzuihY",
-      "creator": { "@type": "Person", "name": "JitzLive" },
       "duration": "PT83S"
     }
   ]
@@ -85,7 +84,7 @@ description: "The John Wayne Sweep is a half-guard knee-lever reversal that anch
 
 **The John Wayne Sweep is a half-guard knee-lever reversal that anchors the opponent's lower leg and tips the hips while the bottom player controls the upper-body posts.**
 
-The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor. Shawn Williams demonstrates a shallow foot anchor and knee lever, finishing on top in half guard. A butterfly-hook position and direct mount are not the demonstrated start and finish.
+The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor. The cited demonstration shows a shallow foot anchor and knee lever, finishing on top in half guard. A butterfly-hook position and direct mount are not the demonstrated start and finish.
 
 Contain one opposing leg while keeping your own knee free to act as a lever. Use an underhook and control the whizzer or posting arm without leaving the elbow exposed to a front-headlock attack. Place a shallow foot connection over the ankle or shin rather than locking the knee into a deep hook.
 
@@ -110,7 +109,7 @@ Instructional sources: [Shawn Williams — John Wayne sweep from half guard](htt
 
 ![](https://www.youtube.com/watch?v=kB5XebzuihY)
 
-<p class="clip-credit"><strong>John Wayne sweep from half guard</strong> — taught by JitzLive · 1:23 · <a href="https://www.youtube.com/watch?v=kB5XebzuihY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>John Wayne sweep from half guard</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=kB5XebzuihY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -264,7 +263,7 @@ Instructional sources: [Shawn Williams — John Wayne sweep from half guard](htt
 
 ## Position Integration
 
-The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor. Shawn Williams demonstrates a shallow foot anchor and knee lever, finishing on top in half guard. A butterfly-hook position and direct mount are not the demonstrated start and finish. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
+The bottom player has half guard around one leg, with a usable underhook/whizzer relationship and a lower-leg anchor. The cited demonstration shows a shallow foot anchor and knee lever, finishing on top in half guard. A butterfly-hook position and direct mount are not the demonstrated start and finish. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 

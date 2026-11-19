@@ -47,33 +47,30 @@ description: "Master the Belly Down Armbar in BJJ. Complete guide with safety pr
       "@type": "VideoObject",
       "position": 1,
       "name": "Belly Down Arm Bar Finish",
-      "description": "Belly Down Armbar film study: Belly Down Arm Bar Finish, taught by Brandoo.",
+      "description": "Belly Down Armbar film study: Belly Down Arm Bar Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yDxtO6qzOL0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yDxtO6qzOL0",
       "url": "https://www.youtube.com/watch?v=yDxtO6qzOL0",
-      "creator": { "@type": "Person", "name": "Brandoo" },
       "duration": "PT58S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Belly Down Arm Bar to counter the stack",
-      "description": "Belly Down Armbar film study: Belly Down Arm Bar to counter the stack, taught by The Art of Fighting.",
+      "description": "Belly Down Armbar film study: Belly Down Arm Bar to counter the stack.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9wGAI_8zvBQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9wGAI_8zvBQ",
       "url": "https://www.youtube.com/watch?v=9wGAI_8zvBQ",
-      "creator": { "@type": "Person", "name": "The Art of Fighting" },
       "duration": "PT62S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Belly Down Armbar from Guard",
-      "description": "Belly Down Armbar film study: Belly Down Armbar from Guard, taught by Robert Hugus.",
+      "description": "Belly Down Armbar film study: Belly Down Armbar from Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EdYFELAO6B0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EdYFELAO6B0",
       "url": "https://www.youtube.com/watch?v=EdYFELAO6B0",
-      "creator": { "@type": "Person", "name": "Robert Hugus" },
       "duration": "PT41S"
     }
   ]
@@ -140,7 +137,7 @@ The key to success lies in rapid arm isolation, maintaining connection to the op
 
 ![](https://www.youtube.com/watch?v=yDxtO6qzOL0)
 
-<p class="clip-credit"><strong>Belly Down Arm Bar Finish</strong> — taught by Brandoo · 0:58 · <a href="https://www.youtube.com/watch?v=yDxtO6qzOL0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Belly Down Arm Bar Finish</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=yDxtO6qzOL0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -148,7 +145,7 @@ The key to success lies in rapid arm isolation, maintaining connection to the op
 
 ![](https://www.youtube.com/watch?v=9wGAI_8zvBQ)
 
-<p class="clip-credit"><strong>Belly Down Arm Bar to counter the stack</strong> — taught by The Art of Fighting · 1:02 · <a href="https://www.youtube.com/watch?v=9wGAI_8zvBQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Belly Down Arm Bar to counter the stack</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=9wGAI_8zvBQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -156,7 +153,7 @@ The key to success lies in rapid arm isolation, maintaining connection to the op
 
 ![](https://www.youtube.com/watch?v=EdYFELAO6B0)
 
-<p class="clip-credit"><strong>Belly Down Armbar from Guard</strong> — taught by Robert Hugus · 0:41 · <a href="https://www.youtube.com/watch?v=EdYFELAO6B0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Belly Down Armbar from Guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=EdYFELAO6B0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

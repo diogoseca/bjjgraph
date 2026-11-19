@@ -154,43 +154,39 @@ description: "Dominant angles put your body off the opponent’s strongest line,
       "@type": "VideoObject",
       "position": 1,
       "name": "Resetting the hip angle against a knee-cut frame",
-      "description": "Dominant Angles film study: Resetting the hip angle against a knee-cut frame, taught by Rory Van Vliet.",
+      "description": "Dominant Angles film study: Resetting the hip angle against a knee-cut frame.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yOTkN1187H4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yOTkN1187H4",
-      "url": "https://www.youtube.com/watch?v=yOTkN1187H4",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=yOTkN1187H4"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Finding the perfect angles from guard",
-      "description": "Dominant Angles film study: Finding the perfect angles from guard, taught by Rickson Gracie.",
+      "description": "Dominant Angles film study: Finding the perfect angles from guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/55zx0wJVo3I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/55zx0wJVo3I",
       "url": "https://www.youtube.com/watch?v=55zx0wJVo3I",
-      "creator": { "@type": "Person", "name": "Rickson Gracie" },
       "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Guard passing with pressure and angles",
-      "description": "Dominant Angles film study: Guard passing with pressure and angles, taught by Predators MMA.",
+      "description": "Dominant Angles film study: Guard passing with pressure and angles.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IlWRaPI6BLA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IlWRaPI6BLA",
       "url": "https://www.youtube.com/watch?v=IlWRaPI6BLA",
-      "creator": { "@type": "Person", "name": "Predators MMA" },
       "duration": "PT548S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Force vectors and planes in jiu-jitsu",
-      "description": "Dominant Angles film study: Force vectors and planes in jiu-jitsu, taught by Rob Vella.",
+      "description": "Dominant Angles film study: Force vectors and planes in jiu-jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/l4stVpjco6E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/l4stVpjco6E",
       "url": "https://www.youtube.com/watch?v=l4stVpjco6E",
-      "creator": { "@type": "Person", "name": "Rob Vella" },
       "duration": "PT600S"
     }
   ]
@@ -220,7 +216,7 @@ Move your hips and keep an anchoring connection so the opponent cannot simply tu
 
 ![](https://www.youtube.com/watch?v=yOTkN1187H4)
 
-<p class="clip-credit"><strong>Resetting the hip angle against a knee-cut frame</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=yOTkN1187H4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Resetting the hip angle against a knee-cut frame</strong> · <a href="https://www.youtube.com/watch?v=yOTkN1187H4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Move your hips and keep an anchoring connection so the opponent cannot simply tu
 
 ![](https://www.youtube.com/watch?v=55zx0wJVo3I)
 
-<p class="clip-credit"><strong>Finding the perfect angles from guard</strong> — taught by Rickson Gracie · 0:52 · <a href="https://www.youtube.com/watch?v=55zx0wJVo3I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Finding the perfect angles from guard</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=55zx0wJVo3I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Move your hips and keep an anchoring connection so the opponent cannot simply tu
 
 ![](https://www.youtube.com/watch?v=IlWRaPI6BLA)
 
-<p class="clip-credit"><strong>Guard passing with pressure and angles</strong> — taught by Predators MMA · 9:08 · <a href="https://www.youtube.com/watch?v=IlWRaPI6BLA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard passing with pressure and angles</strong> · 9:08 · <a href="https://www.youtube.com/watch?v=IlWRaPI6BLA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Move your hips and keep an anchoring connection so the opponent cannot simply tu
 
 ![](https://www.youtube.com/watch?v=l4stVpjco6E)
 
-<p class="clip-credit"><strong>Force vectors and planes in jiu-jitsu</strong> — taught by Rob Vella · 10:00 · <a href="https://www.youtube.com/watch?v=l4stVpjco6E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Force vectors and planes in jiu-jitsu</strong> · 10:00 · <a href="https://www.youtube.com/watch?v=l4stVpjco6E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

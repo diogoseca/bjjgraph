@@ -8,7 +8,9 @@ const prior = JSON.parse(readFileSync(new URL("./artifacts/knowledge_profile_pri
 // The old writer closes over its OWN captured declaration, never the new module's ladder.
 const old = new Function(prior.declarations.NG_SRS_IVLS + "\nreturn {" + Object.values(prior.methods).join(",\n") + "};")();
 const appSource = readFileSync(new URL("../neural/src/app.src.jsx", import.meta.url), "utf8");
-const Component = new Function("DCLogic", "React", knowledgeSource + "\n" + appSource + "\nreturn Component;")(class {}, { createRef: () => ({ current: null }) });
+// the roll ledger's window, cap and trim live in the blob module since v1.262.11 (`ngFlowTrim`, `ngFlowWindowView`), as in the bundle
+const ownerSource = readFileSync(new URL("../neural/src/progress-owner.src.js", import.meta.url), "utf8").replace(/^export (function|const|let|var|class) /gm, "$1 ");
+const Component = new Function("DCLogic", "React", knowledgeSource + "\n" + ownerSource + "\n" + appSource + "\nreturn Component;")(class {}, { createRef: () => ({ current: null }) });
 const close = (a, b) => assert.ok(Math.abs(a - b) < 1e-14, `${a} != ${b}`);
 
 test("independent arithmetic: two deck bonuses once, resistance, film, penalty, momentum and both clamps", () => {
@@ -114,7 +116,9 @@ function gradeHost(Class = Component) {
     _epochDay: () => 100, _dayKey: () => "day", get: (_k, d) => d,
     _saveProgress() { this.saved = JSON.stringify({ prep: this.prep, srs: this.srs }); },
     _maybeLessonDone() {}, noteCardAnswered() {}, refreshOptionOdds() {}, track() {}, fx() {},
-    renderTabSubtitles() { this.seenAtPublish = structuredClone(this.prep); } });
+    // the publication's renderer, read for what it saw: the Moves card's paint (`_paintHand`, the "moves-card" effect); the
+    // Path row's tail (`renderTabSubtitles`) played this part until it left with the Path in v1.287.0
+    _paintHand() { this.seenAtPublish = structuredClone(this.prep); } });
   a._sharedQ = new Map([[a.qhash("q"), ["A|Top", "B|Bottom"]]]);
   return a;
 }
@@ -146,7 +150,7 @@ test("destroyed app drops queued evidence and planner callbacks", async () => {
 });
 
 function reportingComponent(warnings) {
-  return new Function("DCLogic", "React", "console", knowledgeSource + "\n" + appSource + "\nreturn Component;")
+  return new Function("DCLogic", "React", "console", knowledgeSource + "\n" + ownerSource + "\n" + appSource + "\nreturn Component;")
     (class {}, { createRef: () => ({ current: null }) }, { warn: (...args) => warnings.push(args) });
 }
 function evidenceOf(a) {
@@ -155,27 +159,32 @@ function evidenceOf(a) {
 }
 test("renderer and either observer can throw without losing a grade, save or the other observer", async () => {
   let checked = 0;
-  for (const correct of [true, false]) for (const failing of ["renderTabSubtitles", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]) {
+  // the renderer is the Moves card's paint (`_paintHand`) since v1.287.0, when `renderTabSubtitles` left with the Path row
+  for (const correct of [true, false]) for (const failing of ["_paintHand", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]) {
     const warnings = [], a = gradeHost(reportingComponent(warnings));
     const calls = [], fault = new Error(failing); let broken = true, saves = 0;
-    a.stage = { "A|Top": { [a.qhash("q")]: 2 } }; a.rec = { "A|Top": 0 };
+    // seeded at 3 (2 until v1.282.0): the stage is how this test sees that the grade landed, and since the floor at 2 (R1) a
+    // miss at 2 leaves 2, which a lost grade would leave too; from 3 both answers move it (4, or 2)
+    a.stage = { "A|Top": { [a.qhash("q")]: 3 } }; a.rec = { "A|Top": 0 };
     a._saveProgress = () => { saves++; a.persisted = evidenceOf(a); };
-    for (const name of ["renderTabSubtitles", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]) {
+    for (const name of ["_paintHand", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]) {
       a[name] = () => {
         calls.push(name);
-        if (name !== "renderTabSubtitles") assert.deepEqual(a.persisted, evidenceOf(a), "save precedes observers");
+        if (name !== "_paintHand") assert.deepEqual(a.persisted, evidenceOf(a), "save precedes observers");
         if (broken && name === failing) throw fault;
       };
     }
     const result = a.gradeRecall("A|Top", { q: "q" }, correct, "throw:1");
     assert.equal(result.status, "applied"); assert.equal(saves, 1);
     assert.deepEqual(a.persisted, evidenceOf(a));
-    assert.equal(a.stage["A|Top"][a.qhash("q")], correct ? 3 : 1);
+    assert.equal(a.stage["A|Top"][a.qhash("q")], correct ? 4 : 2);
     assert.deepEqual(a.srs["B|Bottom"][a.qhash("q")], [101, 1, 100]);
     await Promise.resolve();
-    assert.deepEqual(calls, ["renderTabSubtitles", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]);
+    assert.deepEqual(calls, ["_paintHand", "_onKnowledgeChanged", "_onGameplanKnowledgeChanged"]);
     assert.equal(warnings.length, 1); assert.equal(warnings[0][1], fault);
-    assert.match(warnings[0][0], new RegExp(failing + " failed"));
+    // the warning names an effect by its label: the Moves card's paint runs as "moves-card" (the Path row's tail, until
+    // v1.287.0, was labelled by its own method name)
+    assert.match(warnings[0][0], new RegExp((failing === "_paintHand" ? "moves-card" : failing) + " failed"));
     const revision = a._knowledgeRevision;
     assert.equal(a.gradeRecall("A|Top", { q: "q" }, correct, "throw:1").status, "duplicate");
     assert.equal(a._knowledgeRevision, revision); assert.equal(saves, 1);
@@ -223,26 +232,40 @@ test("async observer rejection is reported and cannot block Gameplan or later no
 });
 
 test("SRS differential closes over the captured original ladder; changed-constant mutant is killed", () => {
+  // UNTIL v1.279.0 the extracted writer equalled the captured original `_schedule` on all 36 rows below (the extraction's
+  // pin). The owner's ladder (SRS-GO, tests/schedule_ladder.test.mjs) changes it on purpose; what stays pinned here: the
+  // original ladder IS the cell's seven rungs, and on rows the app writes (due = last + interval) the two still agree on a
+  // first answer, a miss, and a right answer on time from 1 to 30 days; they differ exactly where the ruling says (60 -> 90
+  // where the original gave 120; 120 -> 241.6667 where it held 120 (v1.281.0, LIN1: one step along the straight line,
+  // carried exactly in the pair, not rounded since v1.281.3, due on its first whole day, 242; the log rule gave 241); a 2-day row, off its ladder,
+  // where the original sent a right answer to 1 day: 5 days, between 3 and 7); and every cell the new writer stores is one
+  // the original reads.
   assert.equal(prior.declarations.NG_SRS_IVLS, "const NG_SRS_IVLS = [1, 3, 7, 14, 30, 60, 120];");
   assert.deepEqual(K.NG_KNOWLEDGE_INTERVALS, [1, 3, 7, 14, 30, 60, 120]);
+  const orig = (row, correct, day) => {
+    const a = { srs: { A: { [old.qhash("q")]: row } }, qhash: old.qhash, _epochDay: () => day, _sharedDecksFor: () => null };
+    old._schedule.call(a, "A", "q", correct);
+    return a.srs.A[old.qhash("q")];
+  };
   function compare(schedule) {
     let checked = 0;
-    for (const day of [0, 100]) for (const interval of [null, 1, 3, 7, 14, 30, 60, 120, 2]) for (const correct of [true, false]) {
-      const row = interval == null ? undefined : [99, interval, 90];
-      const a = { srs: { A: { [old.qhash("q")]: row } }, qhash: old.qhash,
-        _epochDay: () => day, _sharedDecksFor: () => null };
-      old._schedule.call(a, "A", "q", correct);
-      assert.deepEqual(schedule(row, correct, day), a.srs.A[old.qhash("q")], "captured SRS ladder");
+    for (const interval of [null, 1, 3, 7, 14, 30, 60, 120, 2]) for (const correct of [true, false]) {
+      const row = interval == null ? undefined : [90 + interval, interval, 90], day = row ? row[0] : 100;
+      const was = orig(row, correct, day), now = schedule(row, correct, day);
+      if (!correct || interval == null || interval <= 30 && interval !== 2) assert.deepEqual(now, was, `captured SRS ladder: ${row} ${correct}`);
+      else assert.deepEqual(now, { 60: [day + 90, 60, day], 120: [day + 242, 120, day, 180 + 185 / 3, day], 2: [day + 5, 3, day] }[interval], `the owner's ladder: ${row}`);
+      // the original reads every cell the new writer stores: its right answer climbs from there, never to 1 day
+      assert.ok(orig(now, true, day + 1)[1] > 1, `the original on ${now}`);
       checked++;
     }
     return checked;
   }
-  assert.equal(compare(K.ngKnowledgeScheduleRow), 36);
+  assert.equal(compare(K.ngKnowledgeScheduleRow), 18);
   const marker = "Object.freeze([1, 3, 7, 14, 30, 60, 120])";
   assert.equal(knowledgeSource.split(marker).length, 2);
   const mutated = new Function(knowledgeSource.replace(marker, "Object.freeze([1, 4, 7, 14, 30, 60, 120])") + "\nreturn ngKnowledgeScheduleRow;")();
-  assert.throws(() => compare(mutated), /captured SRS ladder/);
-  console.log("captured SRS rows compared: 36; changed-constant mutant killed");
+  assert.throws(() => compare(mutated), /captured SRS ladder|the original on/);
+  console.log("captured SRS rows compared: 18; changed-constant mutant killed");
 });
 
 // Execute the actual listener registrations, including the closures' local action/timer
@@ -336,7 +359,9 @@ test("panic plain recall deliberately qualifies proof/SRS; direct callbacks reta
     fresh.reveal.click(); fresh.got.click(); // a legitimate fresh repeat retains local credit
     assert.deepEqual(a.prep, { [key]: 2, [shared]: 1 }); assert.equal(a._days.day, 1);
     assert.equal(a.stage[key][qh], 4); assert.equal(a.rec[key], 1);
-    assert.deepEqual(a.srs[key][qh], [130, 30, 100]); assert.deepEqual(a.srs[shared][qh], [114, 14, 100]);
+    // the repeat is the same day: under the owner's ladder (v1.279.0) a right answer 0 days after the last earns nothing, so
+    // both rows stand (until v1.279.0 every right answer climbed a rung: [130, 30, 100] and [114, 14, 100])
+    assert.deepEqual(a.srs[key][qh], [114, 14, 100]); assert.deepEqual(a.srs[shared][qh], [107, 7, 100]);
     assert.equal(a._qMod, -.08); assert.equal(a._combo, 4); assert.equal(a.answers, 2);
     assert.equal(Object.keys(a._knowledgeAttempts).length, 2);
     await Promise.resolve(); checked++;
@@ -356,9 +381,13 @@ test("pure grading preserves prior recall arithmetic including repeats and share
     const got = i % 5 !== 4;
     b.gradeRecall("A|Top", { q: "q" }, got);
     evidence = K.ngKnowledgeApplyGrade(evidence, { key: "A|Top", card: { q: "q" }, mode: "recall", correct: got, attemptId: String(i), dayKey: "day" }, manifest, 100).evidence;
-    for (const [field, hostField] of [["prep", "prep"], ["stage", "stage"], ["rec", "rec"], ["srs", "srs"], ["sharp", "_sharp"], ["days", "_days"]]) {
+    for (const [field, hostField] of [["prep", "prep"], ["stage", "stage"], ["rec", "rec"], ["sharp", "_sharp"], ["days", "_days"]]) {
       assert.deepEqual(evidence[field], b[hostField], `${field}, grade ${i}`); checked++;
     }
+    // srs: the same decks as the captured writer, and every grade is on day 100, so under the owner's ladder (v1.279.0) a
+    // repeat earns nothing and every row stays [101, 1, 100] (until v1.279.0 it equalled the captured writer, which climbed
+    // a rung on every right answer)
+    assert.deepEqual(evidence.srs, Object.fromEntries(Object.entries(b.srs).map(([dk, rows]) => [dk, Object.fromEntries(Object.keys(rows).map((q) => [q, [101, 1, 100]]))])), `srs, grade ${i}`); checked++;
   }
   console.log(`captured prior recall evidence comparisons: ${checked}`);
 });
@@ -371,16 +400,66 @@ test("all MC surfaces preserve prior grade arithmetic; valid repeats and trap/no
     for (const [name, fn] of Object.entries(old)) b[name] = fn;
     b._bumpStageVer = () => {};
     a.isTest = b.isTest = () => true;
+    // THE FLOOR AT 2 (v1.282.0, R1) IS THE ONE DEPARTURE FROM THE CAPTURED WRITER, and this sequence meets it: the trap
+    // (pick 1) at step 6 finds the card at 2, which the captured writer sends to 1 and the floor keeps at 2. So the stage
+    // is compared as "the captured writer's, raised to 2 once it has reached 2"; every other field is compared as before.
+    let reached2 = false, departed = 0;
     for (const pick of [2, 1, 0, 0, 0, 1, 0, 2, 0]) {
       const truth = { correct: 0, tiers: ["correct", "trap", "wrong"], surface, qhash: a.qhash("q") };
       a._mcAnswer(pick, { q: "q" }, "A|Top", wrap(), {}, null, { ...truth });
       b._mcAnswer(pick, { q: "q" }, "A|Top", wrap(), {}, null, { ...truth });
-      for (const field of ["prep", "stage", "rec", "srs", "_sharp", "_days"]) {
+      for (const field of ["prep", "rec", "_sharp", "_days"]) {
         assert.deepEqual(a[field], b[field], `${surface}/${pick}/${field}`); checked++;
       }
+      const qh = a.qhash("q"), old = (b.stage["A|Top"] || {})[qh] || 0;
+      if (old >= 2) reached2 = true;
+      const want = reached2 ? Math.max(2, old) : old;
+      if (want !== old) departed++;
+      assert.deepEqual(a.stage, old || want ? { "A|Top": { [qh]: want } } : b.stage, `${surface}/${pick}/stage`); checked++;
+      // srs: the captured writer's decks, every row a day after the one day these answers fall on (v1.279.0: a same-day
+      // repeat earns nothing; until then the srs equalled the captured writer's, a rung a right answer)
+      const day = a._epochDay();
+      assert.deepEqual(a.srs, Object.fromEntries(Object.entries(b.srs).map(([dk, rows]) => [dk, Object.fromEntries(Object.keys(rows).map((q) => [q, [day + 1, 1, day]]))])), `${surface}/${pick}/srs`); checked++;
     }
+    assert.ok(departed > 0, `${surface}: the sequence reaches the floor's one departure, else this compares nothing new`);
   }
   console.log(`captured prior MC evidence comparisons: ${checked}`);
+});
+
+// THE FLOOR AT 2 (v1.282.0, ruling R1; the owner: "after a player dominates MC for a card he is shown FC cards, and never
+// again the multiple choice"). The rule as an independent table, start stage x answer -> stage, for EVERY writer of the stage
+// that can lower one: the grade (`ngKnowledgeApplyGrade`) and the journeys' seam `_bumpStage` (no app caller). Counted with
+// `| wc -l` in the PR: the writers of `stage` are the grade, the evidence adoption, the load, the per-card MAX merge, the
+// merged-map assignment, `_bumpStage` and the stale-card prune; only the first and `_bumpStage` can lower a live card.
+// Mutants: the floor at stage 1 (`cur >= 1 ? 1 : 0`) and no floor each turn this red.
+test("the floor at 2: no answer takes a card below 2 once there; 3 -> 2 and 4 -> 3 on a miss as before; the miss still resets the schedule", () => {
+  const q = { q: "q" }, h = K.ngKnowledgeQuestionHash(q.q), manifest = { decks: {} };
+  const kinds = {
+    "recall wrong": { mode: "recall", correct: false },
+    "mc trap": { mode: "mc", correct: false, tier: "trap" },
+    "mc near": { mode: "mc", correct: false, tier: "near" },
+    "expiry": { mode: "expiry", correct: false },
+    "recall right": { mode: "recall", correct: true },
+    "mc right": { mode: "mc", correct: true, tier: "correct" },
+  };
+  const want = {   // start stage 0..4
+    "recall wrong": [0, 0, 2, 2, 3], "mc trap": [0, 0, 2, 2, 3], "mc near": [0, 1, 2, 3, 4], "expiry": [0, 1, 2, 3, 4],
+    "recall right": [1, 2, 3, 4, 4], "mc right": [1, 2, 2, 3, 4],
+  };
+  let n = 0;
+  for (const [kind, ev] of Object.entries(kinds)) for (let s0 = 0; s0 <= 4; s0++) {
+    const e0 = K.ngKnowledgeBuildEvidence({ stage: s0 ? { a: { [h]: s0 } } : {}, srs: { a: { [h]: [100, 7, 93] } } });
+    const r = K.ngKnowledgeApplyGrade(e0, { key: "a", card: q, attemptId: kind + s0, ...ev }, manifest, 100);
+    assert.equal((r.evidence.stage.a || {})[h] || 0, want[kind][s0], kind + " from stage " + s0); n++;
+    if (!r.effects.correct) { assert.deepEqual(r.evidence.srs.a[h], [101, 1, 100], kind + " from " + s0 + ": the miss still resets the schedule"); n++; }
+  }
+  // the journeys' seam keeps the same floor
+  const g = gradeHost();
+  for (const [s0, s1] of [[1, 0], [2, 2], [3, 2], [4, 3]]) {
+    g.stage = { "A|Top": { [g.qhash("q")]: s0 } };
+    assert.equal(g._bumpStage("A|Top", "q", -1), s1, "_bumpStage -1 from " + s0); n++;
+  }
+  assert.equal(n, 30 + 20 + 4, "every cell was asked");
 });
 
 test("transient event projection equals real landing answer and both expiry branches", () => {

@@ -458,3 +458,36 @@ test("new study results cannot reorder a mounted snapshot or grant completion; h
   assert.equal(ngGameplanProgress(bound, { day: 101, srs: actual, decks: input.context.decks }).complete, false);
   assert.equal(frozenRank({ ...input, context: { ...input.context, stamp: "new-day" } }, present(input)).status, "stale");
 });
+
+// v1.256.1 (STAGE2G): THE REAL PRESENTER, then the planner, for decks the known moves fill (stage 2). Their game odds
+// are at the permanent cap, so the presenter withholds them and ranks nothing for them; their flashcards still have
+// headroom (`_gameplanDecks(true)` marks them `oddsFull`), so the planner keeps them from the weak spots, after the
+// ranked decks, and the comparison's status does not turn "partial" for them.
+test("decks the known moves fill: the presenter withholds them, the planner keeps them from the weak spots", async () => {
+  const { input } = await fixture({ permanent: { [keys[0]]: .15, [keys[1]]: .15 },
+    scenarios: [{ ...defaultScenarios()[0], targets: keys.map(deckKey => ({ deckKey, sharpTo: .03 })) }] });
+  const p = present(input);
+  assert.ok(p.study.groups[0].members.every(m => m.plannerHeadroom === 0 && m.withheld === "planner-permanent-headroom-exhausted"), "withheld at the cap");
+  assert.equal(ranked(p).length, 0, "and nothing ranked for them");
+  // Practice's own descriptors: the flashcard-only headroom, and the moves' mark
+  const decks = Object.fromEntries(Object.entries(input.context.decks).map(([k, d]) => [k, { ...d, headroom: .15, oddsFull: true }]));
+  const fallback = { rows: keys.map(key => ({ key, reason: "A loose spot in your game, worth tightening." })), assumptions: ["weak spots"] };
+  const plan = ngGameplanBuild({ day: 100, ruleset: "nogi", revision: 7, stamp: input.context.stamp, target: 20, decks, srs: {}, provider: p, fallback });
+  assert.deepEqual(plan.fresh.map(r => [r.key, r.source]), keys.map(k => [k, "weak-spots"]), "both offered, from the weak spots");
+  assert.deepEqual(plan.missing, [], "neither is counted missing a comparison");
+  assert.notEqual(plan.status, "partial");
+  // (B) a (STAGE2H): the presenter says some compared material isn't in today's new cards; every withheld deck IS in
+  // them, so the plan drops the line. One withheld deck NOT offered today (no weak-spots row for it): the line stays.
+  const limited = "Some compared material isn't in today's new cards; its effect is not counted in this plan.";
+  assert.ok(p.assumptions.includes(limited), "the presenter's own line, for the withheld decks");
+  assert.ok(!plan.assumptions.includes(limited), "every withheld deck is in today's new cards: the line is dropped");
+  assert.deepEqual(plan.assumptions, p.assumptions.filter(a => a !== limited), "and nothing else changes");
+  const one = ngGameplanBuild({ day: 100, ruleset: "nogi", revision: 7, stamp: input.context.stamp, target: 20, decks, srs: {}, provider: p,
+    fallback: { rows: [fallback.rows[0]], assumptions: fallback.assumptions } });
+  assert.deepEqual(one.fresh.map(r => r.key), [keys[0]], "one withheld deck kept, the other not offered today");
+  assert.ok(one.assumptions.includes(limited), "...so the line stays: it is true of that deck");
+  // the control: the same decks without the mark (the first build of v1.256.0) are missing, and not offered
+  const unmarked = Object.fromEntries(Object.entries(decks).map(([k, d]) => [k, { ...d, oddsFull: undefined }]));
+  const dev = ngGameplanBuild({ day: 100, ruleset: "nogi", revision: 7, stamp: input.context.stamp, target: 20, decks: unmarked, srs: {}, provider: p, fallback });
+  assert.deepEqual([dev.status, dev.missing.length, dev.fresh.length], ["partial", 2, 0], "control: unmarked, they would be missing and not offered");
+});

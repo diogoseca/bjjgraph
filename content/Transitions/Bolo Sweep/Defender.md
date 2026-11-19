@@ -160,8 +160,8 @@ description: "How to defend and counter the Bolo Sweep in BJJ. Recognition cues,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Juliano Prado - De La Riva/Berimbolo counter",
-      "description": "Bolo Sweep (Defender) film study: Juliano Prado - De La Riva/Berimbolo counter.",
+      "name": "De La Riva/Berimbolo counter",
+      "description": "Bolo Sweep (Defender) film study: De La Riva/Berimbolo counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Aab_52dRa4w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Aab_52dRa4w?start=23",
       "url": "https://www.youtube.com/watch?v=Aab_52dRa4w",
@@ -197,7 +197,7 @@ Effective Bolo defense transforms the attacker's commitment into your passing op
 
 ![](https://www.youtube.com/watch?v=Aab_52dRa4w&start=23)
 
-<p class="clip-credit"><strong>Juliano Prado - De La Riva/Berimbolo counter</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=Aab_52dRa4w&t=23s" rel="noopener">Watch on YouTube from 0:23</a></p>
+<p class="clip-credit"><strong>De La Riva/Berimbolo counter</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=Aab_52dRa4w&t=23s" rel="noopener">Watch on YouTube from 0:23</a></p>
 
 </div>
 

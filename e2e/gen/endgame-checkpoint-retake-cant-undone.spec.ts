@@ -71,7 +71,7 @@ test("failing a retake of a passed checkpoint: pass survives, rows stay done, no
 
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
-  await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   // P1 opens the held belt; select the earned White section before its retake.
   await page.locator('.ng-track-card[data-track="white"]').scrollIntoViewIfNeeded()
   await j.clickByMouse('.ng-track-card[data-track="white"]', "open the earned White section")
@@ -156,7 +156,7 @@ test("failing a retake of a passed checkpoint: pass survives, rows stay done, no
   // ── re-open Challenges: the cleared checkpoint remains a usable control ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
-  await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   expect(
     await page.locator(`[data-checkpoint="${UK}"]`).isDisabled(),
     "cleared checkpoint remains re-takeable after the bombed retake",

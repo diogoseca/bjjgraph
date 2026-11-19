@@ -50,7 +50,7 @@ const read = async (page: Page) => {
   await page.locator("[data-reader-body]").focus()
   await expect.poll(() => page.evaluate(() => !!(window as any).__neural._reader.interacting)).toBe(true)
 }
-test("@curated Esc closes the pane and leaves the independent article reading", async ({ page }) => {
+test("Esc closes the pane and leaves the independent article reading", async ({ page }) => {
   const j = await setup(page)
   await addMore(page)
   await read(page)
@@ -67,7 +67,7 @@ test("@curated Esc closes the pane and leaves the independent article reading", 
   })).toEqual({ reading: true, clock: null, paused: true })
 })
 
-test("@curated fresh, cached and backfilled landing pages preserve the pane's answer keys", async ({ page }) => {
+test("fresh, cached and backfilled landing pages preserve the pane's answer keys", async ({ page }) => {
   const j = await setup(page)
   await study(page, j)
   await j.openQuestion() // U47 d: the landing deck pages once its card is shown; the pane keeps its keys.
@@ -101,11 +101,12 @@ test("@curated fresh, cached and backfilled landing pages preserve the pane's an
   await expect(page.locator(`[data-land-mc-opt="${land.correct}"]`)).toHaveAttribute("data-mc-result", "correct")
 })
 
-test("@curated a recall page mounted under the pane receives Space when the pane closes", async ({ page }) => {
+test("a recall page mounted under the pane receives Space when the pane closes", async ({ page }) => {
   const j = await setup(page)
   await page.evaluate(() => {
+    // (a `set("recallInPlay", true)` stood here: since v1.282.0 the switch decides nothing, and Auto asks a card right twice
+    // front and back, which is this test's premise)
     const a = (window as any).__neural, key = a._landQ.key
-    a.set("recallInPlay", true)
     const card = a._landDeckCards(key)[1]
     a.stage[key] ||= {}; a.stage[key][a.qhash(card.q)] = 2
   })
@@ -154,7 +155,7 @@ test("D-354: the landing deck and its arrows follow the pane in the same frame",
 
 // STALE CONTRACT (D-338): "leaving Focus" has no control left; the claim that stopped reading
 // waits for a move is kept, entered by the reading interaction itself.
-test("@curated stopped reading waits for a move", async ({ page }) => {
+test("stopped reading waits for a move", async ({ page }) => {
   const j = await setup(page)
   await addMore(page)
   await read(page)

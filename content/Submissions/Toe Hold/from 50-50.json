@@ -889,11 +889,27 @@
     "clips": [
       {
         "id": "3a9k8-ZcYrk",
-        "title": "How to escape from toehold by Gordon Ryan",
+        "title": "How to escape from toehold",
         "channel": "The King Life",
         "duration": 105,
         "vertical": false,
         "front": true
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Rotate your entire body in the direction of the toe hold…",
+        "clips": [
+          {
+            "id": "o6SEub-V5bw",
+            "title": "Basic Principles of Toe Hold Defense",
+            "channel": "Elevate MMA Academy",
+            "duration": 192,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-09"
+          }
+        ]
       }
     ]
   },

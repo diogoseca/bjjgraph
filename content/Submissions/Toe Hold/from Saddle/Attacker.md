@@ -196,8 +196,8 @@ description: "Learn to finish the toe hold from saddle with precise grip mechani
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)",
-      "description": "Toe Hold from Saddle (Attacker) film study: Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu).",
+      "name": "Crossover Toe Hold (Brazilian Jiu Jitsu)",
+      "description": "Toe Hold from Saddle (Attacker) film study: Crossover Toe Hold (Brazilian Jiu Jitsu).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
       "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
@@ -240,7 +240,7 @@ Attacking with the toe hold from saddle requires understanding its role as a sec
 
 ![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
 
-<p class="clip-credit"><strong>Crossover (Craig Jones) Toe Hold (Brazilian Jiu Jitsu)</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crossover Toe Hold (Brazilian Jiu Jitsu)</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -115,7 +115,7 @@ type NeuralApp = {
 
 /* ── 1. THE CONTROL ITSELF ─────────────────────────────────────────────────────────────────── */
 
-test("@curated the row ships in Settings → Rolling: Standing · Anywhere · My weak spots — all three live", async ({
+test("the row ships in Settings → Rolling: Standing · Anywhere · My weak spots — all three live", async ({
   page,
 }) => {
   const j = journey(page);
@@ -200,7 +200,7 @@ test("@curated the row ships in Settings → Rolling: Standing · Anywhere · My
 
 /* ── 2. STANDING OPENS EVERY ROLL ON THE FEET; ANYWHERE DOES NOT ───────────────────────────── */
 
-test("@curated Standing opens every roll on standing-position, consuming one start-pos draw each; Anywhere does not", async ({
+test("Standing opens every roll on standing-position, consuming one start-pos draw each; Anywhere does not", async ({
   page,
 }) => {
   const j = journey(page);
@@ -339,7 +339,7 @@ const BLOB = `(() => {
   return JSON.stringify(b);
 })()`;
 
-test("@curated changing where the roll starts changes nothing you have earned", async ({ page }) => {
+test("changing where the roll starts changes nothing you have earned", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
@@ -377,7 +377,7 @@ const pickWeak = async (page: any) => {
   });
 };
 
-test("@curated a weak-spots roll opens on the biggest leak, on its seat — and the seat is the wire's", async ({
+test("a weak-spots roll opens on the biggest leak, on its seat — and the seat is the wire's", async ({
   page,
 }) => {
   const j = journey(page);
@@ -441,7 +441,7 @@ test("@curated a weak-spots roll opens on the biggest leak, on its seat — and 
 
 /* ── 7. BOTTOM SEATS ARE REACHABLE ─────────────────────────────────────────────────────────── */
 
-test("@curated a bottom-seat spot seats you bottom even when the role draw says top", async ({ page }) => {
+test("a bottom-seat spot seats you bottom even when the role draw says top", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.nextHand(30000);
@@ -480,7 +480,7 @@ test("@curated a bottom-seat spot seats you bottom even when the role draw says 
 
 /* ── 8. WEIGHTED, NOT UNIFORM ──────────────────────────────────────────────────────────────── */
 
-test("@curated the opening draw is weighted by the leak, not uniform", async ({ page }) => {
+test("the opening draw is weighted by the leak, not uniform", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.nextHand(30000);
@@ -518,7 +518,7 @@ test("@curated the opening draw is weighted by the leak, not uniform", async ({ 
 
 /* ── 9. AN EMPTY RANKING FALLS BACK LOUDLY, WITHOUT DRAWING ────────────────────────────────── */
 
-test("@curated an empty ranking still starts the roll, on the ordinary draw, and says so", async ({ page }) => {
+test("an empty ranking still starts the roll, on the ordinary draw, and says so", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.nextHand(30000);
@@ -550,7 +550,7 @@ test("@curated an empty ranking still starts the roll, on the ordinary draw, and
 
 /* ── 10. DEDUPE AND THE DEFENDER FLIP, ON AN AUTHORED RANKING ──────────────────────────────── */
 
-test("@curated two cracks in one state count once, and a Defender crack seats you on the other side", async ({
+test("two cracks in one state count once, and a Defender crack seats you on the other side", async ({
   page,
 }) => {
   const j = journey(page);

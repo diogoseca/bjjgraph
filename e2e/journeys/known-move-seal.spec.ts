@@ -1,0 +1,754 @@
+import { expect, test, type Page } from "@playwright/test"
+import { readFileSync } from "node:fs"
+import { resolve } from "node:path"
+import { journey } from "../dsl"
+
+/** A MOVE YOU KNOW WEARS A GOLD SEAL, NOT A GOLD OUTLINE (v1.272.0, the owner, 13 Nov 2026).
+ *
+ * His complaint: "The mastered cards show up with a golden outline, and this is confusing. It seems like this is the
+ * selected technique, and we're trying to guess this technique." His pick, "a, A gold seal in the corner": "A small
+ * filled seal: you answered Yes here. A hollow one: its flashcards are learned. It reads as a stamp on the card"; the
+ * question said "Whatever you pick replaces the gold outline everywhere a move wears it today" and "In every one, the
+ * move being asked is the only thing with a strong outline."
+ *
+ * THE RULE, one state per move (`_moveState`, the same read that decides the face with moves hidden):
+ *   known    a Yes in the row, not due                     data-seal="known"    a FILLED gold disc
+ *   learned  never answered, its flashcards learned, none due data-seal="learned" a HOLLOW gold ring
+ *   due      a Yes in the row, due                          FACE UP (moves shown): the filled seal, as known;
+ *                                                           FACE DOWN (moves hidden, the card asked "Still got it?"): none
+ *   new      never met (or a No)                            no seal
+ * The card's border is the ordinary one in every state. SEAL2 (the orchestrator's correction of its own brief): the
+ * filled seal is today's gold moved off the border, a Yes DUE OR NOT ("you answered Yes here"); only a FACE-DOWN card
+ * wears none. The first build sealed "known" only, and with moves shown, where nothing asks "Still got it?", every seal
+ * faded as its interval ran out; test 2 pinned that ("the due card face UP and unsealed") and now pins the opposite.
+ *
+ * THE SEAT: Mount Top, five dealt moves seeded by their permanent share ordinals (node_ordinals.json), the seeds of
+ * known-moves-shown.spec.ts: known Americana (a Yes, due in 9 days) · due Kimura (a Yes, due yesterday) · fresh Armbar
+ * (no row) · learned Cross Collar Choke (every flashcard at stage 3, none due) · learnedDue Loop Choke (the same, one
+ * card due). The day is the app's own seam (`__NG_EPOCH_DAY__`); it moves the way it does for a tab left open
+ * overnight (a visibilitychange with the page visible). The long row is Closed Guard bottom (31 cards in gi).
+ *
+ * WHAT A PLAYER SEES, measured at the real card, never constants: the seal's rect inside the card's and off the
+ * title band, the name's text, the numbers, the play circle and the Suggested badge; its size and insets as RATIOS of
+ * the card's own unit (its title's side padding: 2 units across, 1 in from the inner edge, 1 below the title band); its
+ * opacity down the ancestor chain, visibility and `elementFromPoint` at its centre (not covered); filled against
+ * hollow by the LIGHT of its inside (the screenshot's pixels: a lit disc against a dark ring, so not by hue alone);
+ * the card's border and shadow against a never-met card's own; the words on hover (`title`) and in the accessible name.
+ * Presses: `j.clickByMouse` and `page.mouse` at measured points; `page.touchscreen.tap` at measured points.
+ * WHAT THE HARNESS DOES NOT SERVE (§6.4): the DSL answers every dossier chunk with `{}`, so no card would have a play
+ * circle and "off the play circle" would never be measured. This file serves the build's REAL chunks (unmodified, from
+ * source/public), so the cards wear their real play circles, and each test asserts the circle was measured.
+ *
+ * A HOLLOW CARD ASKS NOTHING (v1.268.0: face up, its first tap plays), so "a Yes on the hollow one" is reached the two
+ * ways a player reaches it: its flashcards come due (face down, no seal), a look asks "Did you get it?", a Yes; and a
+ * Yes given on another device, pulled in place. Both fill the seal, on the same element.
+ *
+ * MUTANTS (v1.272.0, final run after SEAL2), each on the SERVED bundle at an anchor matching exactly once, the whole
+ * file run against each (tests/artifacts/_seal_mutants.sh); the baseline green before and after, 6 of 6:
+ *   M0 control, a warn string's case                          green, 6 of 6
+ *   M1 the gold outline back (dev's own rule, on data-seal)   red 4 at "...: the card's border is the ordinary one"
+ *   M2 the hollow seal despite a due flashcard                 red 1 at "1440 shown, learnedDue: no seal" (with moves
+ *                                                              hidden the card is face down, so no seal shows anyway)
+ *   M3a a seal on a due FACE-DOWN card (the face not read)     red 3 at "1440 hidden, due: no seal", "390 hidden, due",
+ *                                                              "moves hidden: known, due and face down: no seal"
+ *   M3b a due FACE-UP card loses its seal (the first build;    red 1 at "1440 shown, due, face up: the filled seal, due
+ *       SEAL2's regression)                                    or not"
+ *   M4 the seal painted at the deal only, the face repainted   red 4: "a Yes on the due card: the filled seal", "moves
+ *       alone (a face-down card keeps its seal)                hidden: known, due and face down", "390: the Yes seals
+ *                                                              it", "320, k0: data-seal ..."
+ *   M5 filled and hollow swapped                               red 4 at "known: data-seal "known" and one seal"
+ *   M6 the seal over the title, at 320 wide only (a media rule) red 1, the 320 test alone, at "off the title band"
+ *   M7 the card asked by touch wears no outline (as on dev)    red 1, the 390 test alone, at "the card asked by touch
+ *                                                              wears the strong outline"
+ *   M11 the setting flip repaints the face alone (before SEAL2) red 1 at "moves hidden: known, due and face down: no seal"
+ *   THE MAP (its own commit; the two "the map" tests below, 1440 and 390):
+ *   M8 the map's gold outline back (dev's stroke, beside the dot)  red 2 at "no gold outline left: every pixel the known
+ *                                                              set changes lies inside a published dot" (524 / 334 px)
+ *   M9 a dot on every dealt move's orb, known or not           red 2 at "no dot on any node the moves record does not know"
+ *   M10 the dot at the node's stored y (n.y), not LY           red 2 at "dot 946 sits on a shoulder of its orb, where the
+ *                                                              frame drew the orb (LY)" (25.7 / 15.4 px off)
+ *   dev's own bundle (every file)                              red 6 of 6 (the card's four at "known: data-seal ...", the
+ *                                                              map's two at "a dot on every known move's orb in view")
+ *   GOLD1 (v1.280.0, 14 Nov; the whole file each, on the built bundle; M8 to M10 above are the dot's, retired with it):
+ *   G1 the outside line on an answered orb without a Yes       red 2 at "no outside line on any node the moves record does
+ *                                                              not know" (and map-gold.spec.ts)
+ *   G2 the inside on a recalled orb not answered              red 2 at "no inside gold on any node whose questions are not
+ *                                                              answered" (and map-gold.spec.ts)
+ *   G5 the inside only with a Yes as well                      red 2 at "learned (...): the inside gold only (its questions
+ *                                                              answered, no Yes)" (and map-gold.spec.ts)
+ *   G6 the gate's defender check removed                      NON-KILL: both sets already leave a twin out (no defender
+ *                                                              key in `_movesGold`, no defender role in `_answered`); the
+ *                                                              gate is the second guard
+ *   G6c the gate's check removed AND `_answered` reading a     red 2 at "no mark on a defender twin" (1440, 390)
+ *       defender's own deck
+ *   dev 3e39b0aa6's own bundle (this file and map-gold)        red 8 of 8: the card's four at "...: data-seal "recalled"
+ *                                                              and one seal"; the two map tests at a TypeError (dev has
+ *                                                              no `_answered`), a crash, not a claim
+ *   G7 the seat in the marks' gate (an inside mark on it)      red 1 at "1440: no inside mark on the seat" (its own deck
+ *                                                              learned in the frame, so the check has a case); the 390
+ *                                                              test stays green under it, why is not measured
+ *   G9 the keep-clear at the bare silhouette                   NON-KILL here (no name in these frames comes within the
+ *                                                              line); red in map-names.spec.ts
+ *   GOLD1-R2 (the map reader of PR 417), on the committed head 2bf3d2c80:
+ *   R2b the marks' face-down check removed                     red 1 at "due: face down, so no mark on its orb (no outside
+ *                                                              line, no inside gold) and no seal on its card"
+ *   R2c the seat's keep-clear at its bare silhouette           NON-KILL at mapClaims' seat check (no camera of the app's
+ *                                                              brings a name within 20 px of the seat); red 1 at "no
+ *                                                              move's name within the seat's focus mark (1.28 r), its rim
+ *                                                              and its outside line" (the fixture "the seat's keep-clear",
+ *                                                              on 4af42aeb0)
+ *   GOLD1-R4 (the map reader's second look), on 605a2d744:
+ *   R4a the marks on the names' lit set again (a face-down    red 2 at "..., due looked at: no mark on its orb (no outside
+ *       card looked at lights its orb)                         line, no inside gold), as no seal on its card" (the mouse at
+ *                                                              1440, a tap at 390)
+ * NOT COVERED here: the hover words' TOOLTIP itself (a browser tooltip cannot be read; its `title` is asserted, and the
+ * pointer meets the seal); the light/dark poster frames (the pictures, tests/artifacts/_seal_shoot.mjs; the spec checks
+ * the seal is lit or dark INSIDE, whatever the poster); a known escape's or threat's seal (the units: escape; the same
+ * `_sealCard` paints every dealt card). The map: since v1.275.0 (map-names.spec.ts) every name is written BEFORE the dots
+ * and every name steers a dot (`_lastNameBoxes`: the position's, the pointer's, the moves', the lit trail's), so the
+ * check below against the option names (`_lastOptBoxes`) is a subset of what holds; a dot whose four shoulders are all
+ * covered by names stays up-right. The map's dot under mastery gold, and on the focus mark, are in the pictures, not asserted.
+ * v1.280.0: the dot went; the marks' INK (own colour in the band, gold outside iff a Yes, inside iff answered and large
+ * enough) is map-gold.spec.ts's; here, where they are, on which orbs, and that names keep off them. The seat's outside line
+ * outside its focus mark's rim is in the pictures, not asserted.
+ */
+
+type W = any
+const ORD = JSON.parse(readFileSync(resolve(__dirname, "../../node_ordinals.json"), "utf8")).ordinals as Record<string, number>
+const DAY = 20000
+const S = ORD["Positions/Mount"] + "/top"
+const ID = { known: "Submissions/Americana/from-Mount", due: "Submissions/Kimura/from-Mount", fresh: "Submissions/Armbar/from-Mount",
+  learned: "Submissions/Cross-Collar-Choke/from-Mount", learnedDue: "Submissions/Loop-Choke/from-Mount" }
+const ROWS = { [ORD[ID.known]]: [DAY + 9, 14, DAY - 5, 1], [ORD[ID.due]]: [DAY - 1, 3, DAY - 4, 1] }
+const ARM = 600              // the grade buttons answer only a press that began NG_GRADE_ARM_MS (500 ms) after the strip appeared
+const NEXT = DAY + 10        // past the known move's due date
+const LEARNED_DUE = DAY + 30 // the learned decks' cards come due here
+// v1.280.0 (GOLD1): the seal tells the map's story; its words follow (`NG_SEAL_WORDS`). Was { known: "You know this move",
+// learned: "Flashcards learned" }.
+const WORDS = { recalled: "You recalled this move here", answered: "Its questions are answered", both: "Recalled here, and its questions answered" }
+type Kind = keyof typeof WORDS
+
+/** the build's own dossier chunks, unmodified: the cards' real play circles (the DSL serves `{}`) */
+const realContent = async (p: Page) => { await p.route("**/static/neural/content/*.json", (r) =>
+  r.fulfill({ body: readFileSync(resolve(__dirname, "../../source/public/static/neural/content", new URL(r.request().url()).pathname.split("/").pop()!), "utf8"), contentType: "application/json" })) }
+
+/** the two learned decks' keys and question hashes, from the app itself, once per file (never an awaited deck: §6.4) */
+let DECKS: Record<"learned" | "learnedDue", { key: string; qh: string[] }> | null = null
+async function decks(page: Page) {
+  if (DECKS) return DECKS
+  await journey(page).boot("/")
+  const keys = await page.evaluate((ids) => {
+    const a = (window as W).__neural, out: W = {}
+    for (const [k, id] of Object.entries(ids)) {
+      const key = out[k] = a.deckKeyFor(a.nodes.find((n: W) => n.id === id && n.role !== "defender")).key
+      if (!a._deckHasCards(key)) void a.hydrateDeck(key)
+    }
+    return out as Record<string, string>
+  }, { learned: ID.learned, learnedDue: ID.learnedDue })
+  await expect.poll(() => page.evaluate((keys) => Object.values(keys).every((k) => (window as W).__neural._deckHasCards(k)), keys), { message: "both decks landed" }).toBe(true)
+  DECKS = await page.evaluate((keys) => {
+    const a = (window as W).__neural
+    return Object.fromEntries(Object.entries(keys).map(([k, key]) => [k, { key, qh: a._cardsOf(a.flashcards.decks[key]).map((c: W) => a.qhash(c.q)) }]))
+  }, keys) as W
+  expect(DECKS!.learnedDue.qh.length, "the learnedDue deck has more than one card").toBeGreaterThan(1)
+  return DECKS!
+}
+
+async function seat(page: Page, hidden: boolean) {
+  const D = await decks(page)
+  const stage = Object.fromEntries(Object.values(D).map((d) => [d.key, Object.fromEntries(d.qh.map((q) => [q, 3]))]))
+  const srs = Object.fromEntries(Object.entries(D).map(([k, d]) => [d.key, Object.fromEntries(d.qh.map((q, i) =>
+    [q, k === "learnedDue" && i === 0 ? [DAY - 1, 7, DAY - 8] : [LEARNED_DUE, 30, DAY - 2]]))]))
+  await page.addInitScript((d) => { (window as W).__NG_EPOCH_DAY__ = d }, DAY)
+  const j = journey(page)
+  await j.boot("/", { beforeNavigate: realContent, initialState: { v: 2, settings: { hideMoves: hidden }, settingsAt: { hideMoves: 1 }, moves: { [S]: ROWS }, stage, srs } })
+  await j.land("Mount Top")
+  await expect.poll(() => page.evaluate(() => ((window as W).__neural._optionCards || []).filter((c: W) => !c.opt.threat).length)).toBeGreaterThan(3)
+  const n = await page.evaluate((id) => {
+    const a = (window as W).__neural
+    a._handTouched = true   // the hand keeps its order from here
+    let n = 0
+    for (const c of a._optionCards) for (const [k, v] of Object.entries(id)) if (c.opt.node.id === v && !c.opt.threat) { c.card.setAttribute("data-ks", k); n++ }
+    return n
+  }, ID)
+  expect(n, "the five seeded moves are dealt at Mount Top").toBe(5)
+  return j
+}
+
+/** The card `sel` names, as a player sees it: its seal, measured at the real card. */
+const look = (page: Page, sel: string) => page.evaluate((sel) => {
+  const c = document.querySelector(sel) as HTMLElement
+  const R = (el: Element | null) => { if (!el) return null; const r = el.getBoundingClientRect(); return { l: r.left, t: r.top, r: r.right, b: r.bottom, w: r.width, h: r.height } }
+  const meet = (a: W, b: W) => !!a && !!b && a.l < b.r && b.l < a.r && a.t < b.b && b.t < a.b
+  const seal = c.querySelector("[data-choice-seal]") as HTMLElement | null
+  const cs = getComputedStyle(c), plainEl = [...document.querySelectorAll('[data-choice-group="you"] .ng-choice-card')]
+    .find((x) => !x.hasAttribute("data-seal") && !x.hasAttribute("data-hover") && !x.hasAttribute("data-asking") && x !== c) as HTMLElement
+  const ps = getComputedStyle(plainEl), edge = (s: CSSStyleDeclaration) => [s.borderTopColor, s.borderTopWidth, s.borderLeftColor, s.boxShadow].join(" | ")
+  const name = c.querySelector(".ngchoice-title")!, aria = c.querySelector("[data-choice-execute]")?.getAttribute("aria-label") || ""
+  const out: W = { kind: c.getAttribute("data-seal"), seals: c.querySelectorAll("[data-choice-seal]").length, down: c.hasAttribute("data-hide") && !c.hasAttribute("data-revealed"),
+    asking: c.hasAttribute("data-asking") ? c.querySelector("[data-choice-grade] span")?.textContent || "?" : null,
+    border: edge(cs) === edge(ps) ? "ordinary" : edge(cs), aria }
+  if (!seal) return out
+  let op = 1
+  for (let e: Element | null = seal; e && e !== document.body; e = e.parentElement) op *= parseFloat(getComputedStyle(e).opacity)
+  const s = R(seal)!, card = R(c)!, band = R(c.querySelector(".ng-choice-title-button")), text = R(name.firstElementChild || name)
+  const unit = parseFloat(getComputedStyle(c.querySelector(".ng-choice-title-button")!).paddingLeft)
+  const play = R(c.querySelector("[data-choice-watch]")), badgeEl = c.querySelector("[data-choice-recommended]"), badge = badgeEl && badgeEl.textContent ? R(badgeEl) : null
+  const hit = document.elementFromPoint(s.l + s.w / 2, s.t + s.h / 2), ss = getComputedStyle(seal)
+  out.seal = { rect: s, card, opacity: op, visibility: ss.visibility, display: ss.display, hit: hit === seal,
+    inside: s.l >= card.l && s.r <= card.r && s.t >= card.t && s.b <= card.b,
+    offTitle: !meet(s, band) && !meet(s, text), offNumbers: !meet(s, R(c.querySelector("[data-choice-value]"))),
+    offPlay: play ? !meet(s, play) : null, offBadge: badge ? !meet(s, badge) : null,
+    // from the card's INNER edge (inside its 1px border), where the name's own padding is measured from too
+    units: { unit, across: +(s.w / unit).toFixed(2), right: +((card.r - parseFloat(cs.borderRightWidth) - s.r) / unit).toFixed(2), below: +((s.t - band!.b) / unit).toFixed(2) },
+    words: seal.title, fill: ss.backgroundImage !== "none" ? "image" : ss.backgroundColor }
+  return out
+}, sel)
+const card = (k: string) => `[data-ks="${k}"]`
+
+/** Every claim about a seal that is there, at this card, at this width */
+function sealed(L: W, kind: Kind, where: string) {
+  expect([L.kind, L.seals], `${where}: data-seal "${kind}" and one seal`).toEqual([kind, 1])
+  const s = L.seal
+  expect({ opacity: s.opacity, visibility: s.visibility, display: s.display === "none" ? "none" : "shown", hit: s.hit }, `${where}: the seal is visible and nothing covers it (elementFromPoint at its centre)`)
+    .toEqual({ opacity: 1, visibility: "visible", display: "shown", hit: true })
+  expect(s.inside, `${where}: the seal sits inside the card ${JSON.stringify(s.card)}: ${JSON.stringify(s.rect)}`).toBe(true)
+  expect(s.offTitle, `${where}: the seal is off the title band and the name ${JSON.stringify(s.rect)}`).toBe(true)
+  expect(s.offNumbers, `${where}: the seal is off Works % / Win %`).toBe(true)
+  if (s.offPlay !== null) expect(s.offPlay, `${where}: the seal is off the play circle`).toBe(true)
+  if (s.offBadge !== null) expect(s.offBadge, `${where}: the seal is off the Suggested badge`).toBe(true)
+  expect(s.units, `${where}: 2 card units across, 1 in from the right edge, 1 below the title band (unit ${s.units.unit}px)`).toEqual({ unit: s.units.unit, across: 2, right: 1, below: 1 })
+  expect(s.words, `${where}: its hover words`).toBe(WORDS[kind])
+  expect(L.aria.startsWith(`${L.aria.split(". ")[0]}. ${WORDS[kind]}.`), `${where}: the accessible name says it after the move's name: "${L.aria}"`).toBe(true)
+  expect(L.border, `${where}: the card's border is the ordinary one (a never-met card's), not gold`).toBe("ordinary")
+}
+/** a seal is measured where it sits in view: the card is brought into the row's view first */
+async function sealedAt(page: Page, k: string, kind: Kind, where: string) {
+  await into(page, card(k))
+  sealed(await look(page, card(k)), kind, where)
+}
+function bare(L: W, where: string) {
+  expect([L.kind, L.seals], `${where}: no seal`).toEqual([null, 0])
+  expect(Object.values(WORDS).some((w) => L.aria.includes(w)), `${where}: the accessible name claims nothing: "${L.aria}"`).toBe(false)
+}
+
+/** The LIGHT inside the seal, from the screenshot's own pixels: the mean luminance of the disc inside its rim (radius
+ *  0.36 of its width), tick included. A filled seal is a lit disc, a hollow one a dark ring: the shape, not the hue. */
+async function inside(page: Page, sel: string) {
+  await into(page, sel)
+  const r = await page.evaluate((sel) => { const s = document.querySelector(sel + " [data-choice-seal]")!.getBoundingClientRect(); return { x: s.left, y: s.top, width: s.width, height: s.height } }, sel)
+  const png = (await page.screenshot({ clip: r, type: "png" })).toString("base64")
+  return page.evaluate(async (b64) => {
+    const img = new Image(); img.src = "data:image/png;base64," + b64; await img.decode()
+    const cv = document.createElement("canvas"); cv.width = img.width; cv.height = img.height
+    const ctx = cv.getContext("2d")!; ctx.drawImage(img, 0, 0)
+    const d = ctx.getImageData(0, 0, cv.width, cv.height).data, cx = cv.width / 2, cy = cv.height / 2, R = cv.width * 0.36
+    let sum = 0, n = 0
+    for (let y = 0; y < cv.height; y++) for (let x = 0; x < cv.width; x++) {
+      if (Math.hypot(x + 0.5 - cx, y + 0.5 - cy) > R) continue
+      const i = (y * cv.width + x) * 4; sum += (0.2126 * d[i] + 0.7152 * d[i + 1] + 0.0722 * d[i + 2]) / 255; n++
+    }
+    return +(sum / n).toFixed(3)
+  }, png)
+}
+
+/** bring a card into the row's view the way the app scrolls it: the tray's one scroll owner stops first (§6.5) */
+async function into(page: Page, sel: string) {
+  await page.evaluate((sel) => { (window as W).__neural._trayStop?.(); document.querySelector(sel)!.scrollIntoView({ inline: "center", block: "nearest" }) }, sel)
+  await expect.poll(() => page.evaluate((sel) => { const r = document.querySelector(sel)!.getBoundingClientRect(); return r.left >= 0 && r.right <= window.innerWidth }, sel), { message: `${sel} is in view` }).toBe(true)
+}
+
+async function pointOn(page: Page, sel: string, y = 22) {
+  const at = await page.evaluate(([sel, y]) => {
+    const c = document.querySelector(sel as string) as HTMLElement
+    c.scrollIntoView({ inline: "nearest", block: "nearest" })
+    const r = c.getBoundingClientRect(), x = r.left + r.width / 2, yy = r.top + (y as number)
+    const top = document.elementFromPoint(x, yy)
+    return { x, y: yy, ok: !!top && c.contains(top), who: top ? top.outerHTML.slice(0, 80) : "nothing" }
+  }, [sel, y] as const)
+  expect(at.ok, `${sel} is reachable where it sits (elementFromPoint: ${at.who})`).toBe(true)
+  return at
+}
+const comeBack = (page: Page, day: number) => page.evaluate((d) => { (window as W).__NG_EPOCH_DAY__ = d; document.dispatchEvent(new Event("visibilitychange")) }, day)
+const executing = (page: Page) => page.evaluate(() => !!(window as W).__neural._execution)
+const playOn = (page: Page, k: string) => page.evaluate((k) => !!document.querySelector(`[data-ks="${k}"] [data-choice-watch]`), k)
+/** the live receipt path of another device's answer (`_pullAndMerge` and another tab both land here) */
+const pull = (page: Page, k: string, r: number[]) => page.evaluate(([s, m, r]) => {
+  const a = (window as W).__neural, b = a._progressBlob()
+  a._hydrateProgressBlob({ ...b, moves: { ...b.moves, [s as string]: { ...b.moves[s as string], [m as string]: r } } })
+}, [S, String(ORD[(ID as W)[k]]), r] as const)
+
+/** the four kinds at once, on one row */
+async function fourKinds(page: Page, hidden: boolean, where: string) {
+  for (const k of ["known", "learned", "due", "fresh", "learnedDue"]) {
+    await into(page, card(k))
+    const L = await look(page, card(k))
+    // v1.280.0 (GOLD1): the kinds tell the map's story. known (a Yes) wears the RING "recalled" (was the filled "known");
+    // learned (its questions answered, never answered here) the DISC "answered" (was the hollow "learned")
+    if (k === "known" || k === "learned") { sealed(L, k === "known" ? "recalled" : "answered", `${where}, ${k}`); expect(L.down, `${where}, ${k}: face up`).toBe(false) }
+    // SEAL2: the due move, a Yes in the row, is face up with moves shown and wears its seal (the ring since v1.280.0, the
+    // filled one before), due or not; with moves hidden it is face down, to be asked, and wears none
+    else if (k === "due" && !hidden) { sealed(L, "recalled", `${where}, due, face up: the ring, due or not`); expect(L.down, `${where}, due: face up (moves shown)`).toBe(false) }
+    // v1.280.0: learnedDue (every card learned, one due) wears the DISC face up (moves shown): the disc reads the map's test
+    // (`deckMastery` 1); its FACE still reads `_deckLearned`, so with moves hidden it is face down, asked. Was: no seal.
+    else if (k === "learnedDue" && !hidden) { sealed(L, "answered", `${where}, learnedDue, face up: the disc, one card due`); expect(L.down, `${where}, learnedDue: face up (moves shown)`).toBe(false) }
+    else { bare(L, `${where}, ${k}`); expect(L.down, `${where}, ${k}: ${hidden ? "face down" : "face up (moves shown)"}`).toBe(hidden) }
+  }
+  const lit = { known: await inside(page, card("known")), learned: await inside(page, card("learned")) }
+  // v1.280.0: the disc is now the learned card's and the ring the known card's. Was "filled is a lit disc, hollow a dark
+  // ring" with known lit and learned dark
+  expect(lit.learned > 0.4 && lit.known < 0.3, `${where}: the disc (answered) is lit, the ring (recalled) dark, by the light inside them (known ${lit.known}, learned ${lit.learned})`).toBe(true)
+}
+
+test.describe("mouse 1440x900, moves hidden", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+
+  test("the four kinds, the asked card beside a sealed one, a Yes seals, a new day unseals, and a Yes on the answered move makes both", async ({ page }) => {
+    test.setTimeout(240_000)
+    const j = await seat(page, true)
+    await page.mouse.move(2, 2)
+    await fourKinds(page, true, "1440 hidden")
+    await expect.poll(() => playOn(page, "known"), { message: "the known card's play circle landed (so 'off the play circle' is measured, not skipped)" }).toBe(true)
+    await into(page, card("known"))
+    await sealedAt(page, "known", "recalled", "1440 hidden, known, with its play circle")
+    expect((await look(page, card("known"))).seal.offPlay, "...measured against a real play circle").toBe(true)
+
+    // the pointer on the seal: its words, and nothing else happens (a face-up card asks nothing)
+    const sp = await page.evaluate((s) => { const r = document.querySelector(s + " [data-choice-seal]")!.getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 } }, card("known"))
+    await page.mouse.move(sp.x, sp.y)
+    await page.waitForTimeout(250)
+    expect(await page.evaluate(([x, y]) => (document.elementFromPoint(x, y) as HTMLElement)?.title, [sp.x, sp.y]), "the pointer on the seal meets the seal, which says its words").toBe(WORDS.recalled)
+    expect([(await look(page, card("known"))).asking, await executing(page)], "...and the pointer on it asks nothing and plays nothing").toEqual([null, false])
+
+    // the card being asked, beside a sealed one: the strong outline is the asked card's, and it wears no seal
+    const q = await pointOn(page, card("due"))
+    await page.mouse.move(q.x, q.y)
+    await expect.poll(async () => (await look(page, card("due"))).asking, { message: "a look at the due card asks Still got it?" }).toBe("Still got it?")
+    const asked = await look(page, card("due")), beside = await look(page, card("known"))
+    bare(asked, "the asked card")
+    expect(asked.border !== "ordinary", `the asked card wears the strong outline (${asked.border})`).toBe(true)
+    expect(/232, 196, 106|240, 192, 90/.test(asked.border), "...and it is not gold").toBe(false)
+    expect(beside.border, "the sealed card beside it keeps the ordinary border: the seal is not an outline").toBe("ordinary")
+    await page.waitForTimeout(ARM)
+    await j.clickByMouse(`${card("due")} [data-grade="yes"]`, '"Yes"')
+    expect(await executing(page), "Yes is not a play").toBe(false)
+    await page.mouse.move(q.x, q.y - 200)
+    await expect.poll(async () => (await look(page, card("due"))).kind, { message: "a Yes on the due card: the ring (was: the filled seal)" }).toBe("recalled")
+    await sealedAt(page, "due", "recalled", "1440, the due card after its Yes")
+
+    // a new day: the known move comes due, turns face down, and its seal goes with the face (one read)
+    await comeBack(page, NEXT)
+    await expect.poll(async () => (await look(page, card("known"))).down, { message: "coming back the next day: the known card is face down" }).toBe(true)
+    bare(await look(page, card("known")), "the known move, now due and face down")
+
+    // a Yes on the answered move makes both (was "the hollow seal fills"): its flashcards come due (face down, no seal), a
+    // look asks, Yes; its deck is still learned (stage 3), so the disc stays and the ring joins it
+    await comeBack(page, LEARNED_DUE + 1)
+    await expect.poll(async () => (await look(page, card("learned"))).down, { message: "its flashcards due: the learned card is face down" }).toBe(true)
+    bare(await look(page, card("learned")), "the learned move with its flashcards due")
+    const l = await pointOn(page, card("learned"))
+    await page.mouse.move(l.x, l.y)
+    await expect.poll(async () => (await look(page, card("learned"))).asking, { message: "a look asks Did you get it?" }).toBe("Did you get it?")
+    await page.waitForTimeout(ARM)
+    await j.clickByMouse(`${card("learned")} [data-grade="yes"]`, '"Yes" on the learned move')
+    await page.mouse.move(l.x, l.y - 200)
+    await expect.poll(async () => (await look(page, card("learned"))).kind, { message: "the Yes: the learned move wears both (was: the filled seal)" }).toBe("both")
+    await sealedAt(page, "learned", "both", "1440, the learned move after its Yes")
+    expect(await inside(page, card("learned")) > 0.3, "...the disc lit inside the ring").toBe(true)
+  })
+})
+
+test.describe("mouse 1440x900, moves shown", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+
+  test("moves shown: the due card is face up and wears its ring; a known move coming due keeps it; hiding takes it off a face-down card; focus; a pull makes both and empties a seal in place", async ({ page }) => {
+    test.setTimeout(240_000)
+    const j = await seat(page, false)
+    await page.mouse.move(2, 2)
+    expect(await page.locator("[data-hide]").count(), "moves shown: nothing face down").toBe(0)
+    await fourKinds(page, false, "1440 shown")
+    // the focused card (a keyboard focus): its outline is the focus ring, not gold, and the seal stays as it was
+    await into(page, card("known"))
+    // focus the tab stop just before the known card's button (the previous card's play circle, when it has one), then Tab
+    await page.evaluate((s) => { const all = [...document.querySelectorAll('[data-choice-group="you"] button')].filter((b) => (b as HTMLElement).tabIndex >= 0), b = document.querySelector(s + " [data-choice-execute]")!; (all[all.indexOf(b) - 1] as HTMLElement || document.body).focus() }, card("known"))
+    await page.keyboard.press("Tab")
+    const f = await page.evaluate((s) => { const b = document.querySelector(s + " [data-choice-execute]")!, st = getComputedStyle(b); return { focused: document.activeElement === b, ring: st.outlineStyle + " " + st.outlineColor } }, card("known"))
+    expect(f.focused, "Tab reaches the known card").toBe(true)
+    expect(f.ring.startsWith("solid") && !/232, 196, 106|240, 192, 90/.test(f.ring), `the focused card's ring is the focus colour, not gold (${f.ring})`).toBe(true)
+    await sealedAt(page, "known", "recalled", "the focused known card")
+    await page.evaluate(() => (document.activeElement as HTMLElement)?.blur())
+    // SEAL2, the regression the first build had: a new day makes the known move due; moves shown, nothing asks, and the
+    // card is face up, so it KEEPS its seal (the ring since v1.280.0; its words in the accessible name)
+    await comeBack(page, NEXT)
+    await page.waitForTimeout(300)
+    await sealedAt(page, "known", "recalled", "the known move, now due, face up with moves shown: it keeps its ring")
+    // hiding moves from the row's own word, by mouse: the two due moves turn face down and their seals go with the face
+    // (`_syncHideMoves` repaints the card, not only its face); the learned move stays face up with its disc (was: hollow)
+    await page.mouse.move(2, 2)
+    await into(page, "[data-hide-switch]")   // the word rides the row's scroll
+    await j.clickByMouse("[data-hide-switch]", "the row's Hidden / Shown word")
+    for (const k of ["known", "due"]) {
+      await expect.poll(async () => (await look(page, card(k))).down, { message: `hidden: ${k} (due) face down` }).toBe(true)
+      bare(await look(page, card(k)), `moves hidden: ${k}, due and face down`)
+    }
+    await sealedAt(page, "learned", "answered", "moves hidden: the learned move stays face up with its disc")
+    await page.mouse.move(2, 2)
+    await into(page, "[data-hide-switch]")   // the word rides the row's scroll
+    await j.clickByMouse("[data-hide-switch]", "the row's Hidden / Shown word, again")
+    for (const k of ["known", "due"]) {
+      await expect.poll(async () => (await look(page, card(k))).down, { message: `shown again: ${k} face up` }).toBe(false)
+      await sealedAt(page, k, "recalled", `moves shown again: ${k}, due and face up, the ring again`)
+    }
+    // another device answers: its Yes on the answered move makes both in place (was: "fills the hollow seal"), its No on
+    // the known move takes the ring away (was: the filled one)
+    await pull(page, "learned", [DAY + 3, 3, DAY, 1])
+    await sealedAt(page, "learned", "both", "another device's Yes on the learned move: both")
+    await pull(page, "known", [DAY + 1, 1, DAY, 0])
+    bare(await look(page, card("known")), "another device's No on the known move: its seal goes")
+  })
+})
+
+test.describe("touch 390x631, moves hidden", () => {
+  test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } })
+
+  test("by touch at 390: the four kinds; a tap on the due card asks, a tap on Yes seals it", async ({ page }) => {
+    test.setTimeout(240_000)
+    await seat(page, true)
+    await fourKinds(page, true, "390 hidden")
+    const q = await pointOn(page, card("due"))
+    await page.touchscreen.tap(q.x, q.y)
+    expect(await executing(page), "the first tap on the face-down card plays nothing").toBe(false)
+    const asked = await look(page, card("due"))
+    expect(asked.asking, "...and asks Still got it?").toBe("Still got it?")
+    bare(asked, "390, the asked card")
+    // a tap turns a card up with no hover: until v1.272.0 the card asked by touch wore no outline at all
+    expect(asked.border !== "ordinary" && !/232, 196, 106|240, 192, 90/.test(asked.border), `390: the card asked by touch wears the strong outline, not gold (${asked.border})`).toBe(true)
+    expect((await look(page, card("known"))).border, "...and the sealed card beside it keeps the ordinary border").toBe("ordinary")
+    const yes = await page.evaluate((s) => { const r = document.querySelector(s + ' [data-grade="yes"]')!.getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 } }, card("due"))
+    await page.waitForTimeout(ARM)
+    await page.touchscreen.tap(yes.x, yes.y)
+    expect(await executing(page), "a tap on Yes plays nothing").toBe(false)
+    await expect.poll(async () => (await look(page, card("due"))).kind, { message: "390: the Yes seals it (the ring; was filled)" }).toBe("recalled")
+    await sealedAt(page, "due", "recalled", "390, the due card after its Yes")
+  })
+})
+
+test.describe("touch 320x631, moves shown, the long row", () => {
+  test.use({ hasTouch: true, isMobile: true, viewport: { width: 320, height: 631 } })
+
+  test("320 wide, Closed Guard bottom's long row: the first, a middle and the last card known, one learned; every seal measured where it sits", async ({ page }) => {
+    test.setTimeout(240_000)
+    const j = journey(page)
+    await j.boot("/", { beforeNavigate: realContent, initialState: { v: 2, settings: { hideMoves: false }, settingsAt: { hideMoves: 1 } } })
+    await j.land("Closed Guard Top")
+    // play bottom: the hub is one "<X> Top" node; the hand is dealt again from the bottom (the gen suite's recipe)
+    await page.evaluate(() => { const a = (window as W).__neural; a.playerRole = "bottom"; a.enterLand(false) })
+    await expect.poll(() => page.evaluate(() => ((window as W).__neural._optionCards || []).filter((c: W) => !c.opt.threat).length), { message: "the bottom hand is dealt" }).toBeGreaterThan(20)
+    const row = await page.evaluate(() => {
+      const a = (window as W).__neural, own = [...document.querySelectorAll('[data-choice-group="you"] .ng-choice-card')] as W[]
+      a._handTouched = true
+      const pick = [0, own.length >> 1, own.length - 1], learned = own.findIndex((c, i) => !pick.includes(i) && c._choiceOpt.action !== "escape")
+      pick.forEach((i, n) => own[i].setAttribute("data-ks", "k" + n)); own[learned].setAttribute("data-ks", "learned")
+      const key = a.deckKeyFor(own[learned]._choiceOpt.node).key
+      if (!a._deckHasCards(key)) void a.hydrateDeck(key)
+      return { n: own.length, keys: pick.map((i) => a._moveKey(own[i]._choiceOpt)), key, seat: a.nodes[a.currentPos].t + " / " + a.playerRole }
+    })
+    console.log(`[known-move-seal] ${row.seat}: ${row.n} cards in the row`)
+    expect(row.n, "Closed Guard bottom deals a long row (31 in gi today)").toBeGreaterThan(25)
+    await expect.poll(() => page.evaluate((k) => (window as W).__neural._deckHasCards(k), row.key), { message: "the learned move's deck landed" }).toBe(true)
+    // another device's record: three Yeses in this row, and the fourth card's flashcards all learned
+    await page.evaluate(({ keys, key }) => {
+      const a = (window as W).__neural, b = a._progressBlob(), moves = { ...(b.moves || {}) }
+      for (const [st, mv] of keys) moves[st] = { ...(moves[st] || {}), [mv]: [a._epochDay() + 5, 7, a._epochDay() - 1, 1] }
+      const stage = { ...(b.stage || {}), [key]: Object.fromEntries(a._cardsOf(a.flashcards.decks[key]).map((c: W) => [a.qhash(c.q), 3])) }
+      a._hydrateProgressBlob({ ...b, moves, stage })
+    }, row)
+    let played = 0
+    for (const k of ["k0", "k1", "k2", "learned"]) {
+      await into(page, card(k))
+      // its poster and play circle land once the card is in view (an IntersectionObserver), when it has a front clip
+      await page.waitForTimeout(600)
+      const L = await look(page, card(k))
+      sealed(L, k === "learned" ? "answered" : "recalled", `320, ${k}`)   // v1.280.0: was "learned" / "known"
+      expect(L.seal.rect.l >= 0 && L.seal.rect.r <= 320, `320, ${k}: the seal is inside the 320px viewport`).toBe(true)
+      if (L.seal.offPlay !== null) played++
+    }
+    console.log(`[known-move-seal] 320: ${played} of 4 sealed cards measured against a play circle`)
+    expect(played, "at least one sealed card at 320 was measured against its play circle (the check ran)").toBeGreaterThan(0)
+  })
+})
+
+// ── THE MAP (v1.272.0, its own commit; v1.280.0 the gold outlines, GOLD1): the seal's dot became the map's two marks ──────
+
+/** One paused frame, read off what `draw()` PUBLISHED (§6.3): every mark (`_lastMapMarks`), every name's box, each orb's
+ *  drawn centre through the frame's own lift (`_LY`, §6.2), and the paint, against a CONTROL frame with both sets emptied
+ *  (`_movesGold` none, `_answered` false): everything the map draws anyway subtracts to zero, what is left is the marks'.
+ *  Was (v1.272.0 to v1.278.1) the same frame read for the dot (`_lastMapSeals`). */
+const mapFrame = (page: Page) => page.evaluate(async (ids) => {
+  const a = (window as W).__neural, live = a.ctx
+  a.setPaused(true)
+  // the DEFENDER twins' own decks learned too (n graded entries at stage 3 make an unhydrated deck learned, `deckMastery`):
+  // a twin never wears a mark, so this is what makes "no mark on a defender twin" a claim with cases
+  const twinDecks: string[] = []
+  for (const i of a.optionIdxs) { const d = a.nodes[a.nodes[i].pi]; const key = d && d.role === "defender" ? d.t + "|Defender" : null, deck = key && a.flashcards.decks[key]
+    if (deck && (deck.n || 0) > 0) { a.stage[key] = Object.fromEntries(Array.from({ length: deck.n }, (_, k) => ["twin" + k, 3])); twinDecks.push(key) } }
+  // and the SEAT's own deck: the seat never wears an inside mark, so this is what makes "no inside mark on the seat" a claim
+  // with a case (the seat answered, `_answered`, below)
+  // (hydrated, as the landing card's deck is: its real cards at stage 3; a hydrated deck reads its cards, not the manifest)
+  const seatKey = a.deckKeyFor(a.nodes[a.focusIdx]).key
+  if (!a._deckHasCards(seatKey)) await a.hydrateDeck(seatKey)
+  a.stage[seatKey] = Object.fromEntries(a._cardsOf(a.flashcards.decks[seatKey]).map((c: W) => [a.qhash(c.q), 3]))
+  a._publishKnowledge("test:twin-decks")
+  const seeded = a._optionCards.filter((c: W) => !c.opt.threat && ids.includes(c.opt.node.id)).map((c: W) => c.opt.idx)
+  const t = a._fitView(seeded, { minW: 0 })
+  a.cam = { ...a.cam, cx: t.cx, cy: t.cy, vw: t.vw, lvw: Math.log(t.vw) }
+  a.draw()
+  const dpr = a.dpr || 1, scale = a.W / a.cam.vw
+  const snap = () => {
+    const c = document.createElement("canvas"); c.width = live.canvas.width; c.height = live.canvas.height
+    const ctx = c.getContext("2d", { willReadFrequently: true })!
+    a.ctx = ctx; ctx.save()
+    try { a.draw() } finally { a.ctx = live; ctx.restore() }
+    return { px: ctx.getImageData(0, 0, c.width, c.height).data, w: c.width }
+  }
+  const real = snap(), marks = (a._lastMapMarks || []).map((m: W) => ({ ...m })), names = (a._lastNameBoxes || []).filter((b: W) => b.w === "move").map((b: W) => ({ ...b }))
+  const known = [...a._movesGold().keys()], answered = a.nodes.filter((n: W) => a._answered(n)).map((n: W) => n.idx)
+  a._movesGold = () => new Map(); a._answered = () => false
+  let control: W
+  try { control = snap() } finally { delete a._movesGold; delete a._answered }
+  a.setPaused(false)
+  const orb = (i: number) => { const n = a.nodes[i]; return { x: a.W / 2 + (n.x - a.cam.cx) * scale, y: a.H / 2 + (a._LY(n) - a.cam.cy) * scale, stored: a.H / 2 + (n.y - a.cam.cy) * scale,
+    R: a._nodeHalfW(n, scale, a._nodeK, a._lodK, true), role: n.role, pi: n.pi } }
+  // every pixel the marks changed, and whether it lies within a published mark's reach: the shape's farthest point from its
+  // centre (`shapePath`: a circle's rim, a diamond's corner at 1.18 rs, a triangle's base corners at 1.58 rs, its apex at
+  // 1.35), plus the outside line (2 px out on the seat) and 1 px of anti-aliasing. Was 1.36 rs for every shape (v1.272.0,
+  // the dot, which sat beside the shape), which the outside line on a triangle's base corner overruns by a pixel or two
+  let changed = 0, outside = 0
+  for (let i = 0; i < real.px.length; i += 4) {
+    const d = Math.abs(real.px[i] - control.px[i]) + Math.abs(real.px[i + 1] - control.px[i + 1]) + Math.abs(real.px[i + 2] - control.px[i + 2])
+    if (d < 24) continue
+    changed++
+    const p = i / 4, x = (p % real.w) / dpr, y = ((p / real.w) | 0) / dpr
+    if (!marks.some((m: W) => Math.hypot(x - m.x, y - m.y) <= (m.ty === "positions" ? 1 : m.ty === "submissions" ? 1.58 : 1.18) * m.rs + 3)) outside++
+  }
+  const twins = [...a.optionIdxs].map((i: number) => a.nodes[i].pi).filter((i: number) => i >= 0)
+  const twinsLearned = twins.filter((i: number) => a.deckMastery(a.nodes[i].t + "|Defender") >= 1)
+  return { W: a.W, H: a.H, dpr, known, answered, marks, names, changed, outside, focus: a.focusIdx, twinsLearned, seatKey, seatAnswered: answered.includes(a.focusIdx),
+    orbs: Object.fromEntries([...new Set([...known, ...answered.filter((i: number) => a.optionIdxs.includes(i)), ...a.optionIdxs, ...twins, a.focusIdx])].map((i: number) => [i, orb(i)])),
+    options: [...a.optionIdxs], twins, id: Object.fromEntries([...a.optionIdxs].map((i: number) => [i, a.nodes[i].id])) }
+}, [ID.known, ID.due])
+
+async function mapClaims(page: Page, where: string) {
+  const f = await mapFrame(page)
+  const inView = (o: W) => o && o.x > 20 && o.x < f.W - 20 && o.y > 20 && o.y < f.H - 20
+  const at = (i: number) => f.marks.find((m: W) => m.idx === i)
+  const knownInView = f.known.filter((i: number) => i !== f.focus && inView(f.orbs[i]))
+  console.log(`[known-move-seal] map ${where}: ${f.known.length} recalled nodes, ${knownInView.length} in view, ${f.marks.length} marks, ${f.names.length} move names, ${f.changed} px changed`)
+  expect(knownInView.length, `${where}: at least one recalled move's orb is in view (the check runs)`).toBeGreaterThan(0)
+  // v1.280.0: was "a dot on every known move's orb in view"
+  expect(knownInView.filter((i: number) => !(at(i) && at(i).out)), `${where}: the outside gold line on every recalled move's orb in view`).toEqual([])
+  // v1.280.0: was "no dot on any node the moves record does not know"; the inside mark reads the questions answered
+  expect(f.marks.filter((m: W) => m.out && !f.known.includes(m.idx)).map((m: W) => m.idx), `${where}: no outside line on any node the moves record does not know`).toEqual([])
+  expect(f.marks.filter((m: W) => m.inK > 0 && !f.answered.includes(m.idx)).map((m: W) => m.idx), `${where}: no inside gold on any node whose questions are not answered`).toEqual([])
+  for (const k of ["learned", "learnedDue"]) {
+    const i = f.options.find((x: number) => f.id[x] === (ID as W)[k])
+    if (i != null && inView(f.orbs[i])) expect([!!at(i), at(i)?.out, (at(i)?.inK || 0) > 0], `${where}: ${k} (${(ID as W)[k]}): the inside gold only (its questions answered, no Yes)`).toEqual([true, false, true])
+  }
+  const fresh = f.options.find((x: number) => f.id[x] === ID.fresh)
+  if (fresh != null) expect(at(fresh), `${where}: fresh (${ID.fresh}): no mark`).toBeUndefined()
+  // never on a defender twin, though its own deck is learned in this seat (the old outline's and the dot's gate)
+  expect(f.twinsLearned.filter((i: number) => inView(f.orbs[i])).length, `${where}: defender twins with their own deck learned are in view (the check has cases)`).toBeGreaterThan(0)
+  expect(f.marks.filter((m: W) => f.orbs[m.idx]?.role === "defender").map((m: W) => m.idx), `${where}: no mark on a defender twin`).toEqual([])
+  // the seat wears no inside mark (its outside line, when recalled, is outside the focus mark's rim), its own deck learned
+  expect(f.seatAnswered, `${where}: the seat's own deck (${f.seatKey}) is learned, so the map's test reads it answered (the check has a case)`).toBe(true)
+  expect(f.marks.filter((m: W) => m.idx === f.focus && m.inK > 0).length, `${where}: no inside mark on the seat`).toBe(0)
+  let lifted = 0
+  for (const m of f.marks.filter((m: W) => !m.seat && inView(f.orbs[m.idx]))) {
+    const o = f.orbs[m.idx]
+    if (Math.abs(o.y - o.stored) > 3) lifted++
+    expect(Math.hypot(m.x - o.x, m.y - o.y) < 0.5, `${where}: mark ${m.idx} is centred where the frame drew its orb (LY), not at n.y (${m.x.toFixed(1)}, ${m.y.toFixed(1)} against ${o.x.toFixed(1)}, ${o.y.toFixed(1)})`).toBe(true)
+    // no move's name over a mark: every move name keeps the outside line's reach (the bare silhouette plus 1 px) of every
+    // marked orb but its own (v1.280.0; was "the dot is off every option name the frame drew")
+    const over = f.names.filter((b: W) => b.i !== m.idx && b.i !== o.pi && Math.max(b.l - m.x, 0, m.x - b.r) ** 2 + Math.max(b.t - m.y, 0, m.y - b.b) ** 2 < (o.R + 1) ** 2)
+    expect(over.map((b: W) => b.i), `${where}: no move's name over mark ${m.idx}`).toEqual([])
+  }
+  expect(lifted, `${where}: at least one marked orb is lifted off its stored point (so LY against n.y is tested)`).toBeGreaterThan(0)
+  // the SEAT (GOLD1-R2, the map reader of PR 417: a name came 2.3 px from its focus mark, 0.3 px from where its line ends):
+  // no move's name within its focus mark (1.28 of its orb), the mark's rim (1 px out) and its outside line's reach (1 px at
+  // dpr 2; 1.5 from half a device pixel out at dpr 1). No frame here brings a name that close (R2c survives this check): the
+  // fixture test "the seat's keep-clear" below is the one that gives it a case
+  const so = f.orbs[f.focus]
+  expect(!!so, `${where}: the seat is drawn (the check has a subject)`).toBe(true)
+  const seatReach = so.R * 1.28 + 1 + Math.max(1, 1.5 / f.dpr) + (f.dpr < 1.5 ? 0.5 / f.dpr : 0)
+  const atSeat = f.names.filter((b: W) => Math.max(b.l - so.x, 0, so.x - b.r) ** 2 + Math.max(b.t - so.y, 0, so.y - b.b) ** 2 < seatReach ** 2)
+  expect(atSeat.map((b: W) => b.i), `${where}: no move's name within the seat's focus mark, its rim and its line`).toEqual([])
+  // v1.280.0: was "no gold outline left: every pixel the known set changes lies inside a published dot"
+  expect(f.outside, `${where}: every pixel the marks change lies within a published mark (${f.changed} changed)`).toBe(0)
+  expect(f.changed, `${where}: the marks are painted`).toBeGreaterThan(0)
+}
+
+// MOVES HIDDEN (GOLD1-R2, the map reader of PR 417): a face-down card wears no seal, so its orb wears no mark either, neither
+// the outside line nor the inside gold, until the card is turned up (the map never says more about a face-down card than the
+// card does; dev's dot showed on a recalled move come due). Due (a Yes come due) and learnedDue (every card learned, one due)
+// are face down with moves hidden, and would be marked: the check has cases. Turned up (moves shown), the marks come in the
+// next drawn frame, with the seals.
+/** One paused frame of the map with moves hidden (GOLD1-R2, R4): the camera on the seeded orbs (or, with `only`, centred on
+ *  that card's orb close enough that both marks have room: rs 8 or more, past every ratio's size rule), and for each seeded
+ *  card its face (`data-hide`), whether it is turned up to be asked (`data-revealed`) and its orb in the names' lit set
+ *  (`_hmLit`), its seal, the two sets the marks read, its orb's rs, and the marks the frame PUBLISHED for its orb. */
+const hiddenFrame = (page: Page, only?: string) => page.evaluate(([ids, only]) => {
+  const a = (window as W).__neural
+  a.setPaused(true)
+  const seeded = a._optionCards.filter((c: W) => !c.opt.threat && Object.values(ids).includes(c.opt.node.id)).map((c: W) => c.opt.idx)
+  const t = a._fitView(seeded, { minW: 0 })
+  a.cam = { ...a.cam, cx: t.cx, cy: t.cy, vw: t.vw, lvw: Math.log(t.vw) }
+  if (only) {
+    const n = a.nodes[a._optionCards.find((c: W) => c.card.getAttribute("data-ks") === only).opt.idx]
+    for (let vw = a.cam.vw, k = 0; k < 40 && a._nodeHalfW(n, a.W / vw, a._nodeK, a._lodK, true) < 8; k++) vw *= 0.8, a.cam = { ...a.cam, cx: n.x, cy: a._LY(n), vw, lvw: Math.log(vw) }, a.draw()
+    a.cam = { ...a.cam, cx: n.x, cy: a._LY(n) }
+  }
+  a.draw()
+  const marks = (a._lastMapMarks || []).map((m: W) => ({ ...m }))
+  const out: W = {}
+  for (const c of a._optionCards) {
+    const k = c.card.getAttribute("data-ks"); if (!k) continue
+    const n = c.opt.node, m = marks.find((x: W) => x.idx === c.opt.idx)
+    out[k] = { down: c.card.hasAttribute("data-hide"), revealed: c.card.hasAttribute("data-revealed"), lit: !!(a._hmLit && a._hmLit.has(c.opt.idx)), seal: c.card.getAttribute("data-seal"),
+      recalled: a._movesGold().has(c.opt.idx), answered: a._answered(n), out: !!(m && m.out), inK: m ? m.inK : 0, rs: +a._nodeHalfW(n, a.W / a.cam.vw, a._nodeK, a._lodK, true).toFixed(1) }
+  }
+  a.setPaused(false)
+  return out
+}, [ID, only ?? null] as const)
+
+/** LOOKED AT, NOT ANSWERED (GOLD1-R4, the map reader's D1): a face-down card turned up to be asked (a mouse on it, a tap on
+ *  it: `_peek`, data-revealed, its orb in the names' lit set) still wears no seal, so its orb wears no mark. `look` puts the
+ *  pointer or the finger on the card; each of due (recalled) and learnedDue (answered) in turn. Was (b60778421): the marks
+ *  read the names' lit set, so the looked-at card's orb lit gold while its card was asking. */
+async function lookedAt(page: Page, where: string, look: (q: { x: number, y: number }) => Promise<void>, close = false) {
+  for (const k of ["due", "learnedDue"]) {
+    await into(page, card(k))
+    await look(await pointOn(page, card(k)))
+    const f = await hiddenFrame(page, close ? k : undefined)
+    console.log(`[known-move-seal] ${where}, ${k} looked at: ${JSON.stringify(f[k])}`)
+    expect([f[k].down, f[k].revealed, f[k].lit, f[k].seal], `${where}, ${k} looked at: face down, turned up to be asked, its orb in the names' lit set, no seal`).toEqual([true, true, true, null])
+    expect([k, f[k].out, f[k].inK], `${where}, ${k} looked at: no mark on its orb (no outside line, no inside gold), as no seal on its card`).toEqual([k, false, 0])
+  }
+}
+
+test.describe("the map with moves hidden 1440x900 (GOLD1-R2)", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+
+  test("moves hidden: no mark on the orb of a face-down card, though its move is recalled or its questions answered, nor when it is looked at; turned up, its marks come with its seal", async ({ page }) => {
+    test.setTimeout(240_000)
+    await seat(page, true)
+    const frame = () => hiddenFrame(page)
+    const hid = await frame()
+    console.log(`[known-move-seal] moves hidden: ${JSON.stringify(hid)}`)
+    expect([hid.due.down, hid.due.recalled], "due: face down, and its move recalled (it would wear the outside line)").toEqual([true, true])
+    expect([hid.learnedDue.down, hid.learnedDue.answered], "learnedDue: face down, and its questions answered (it would wear the inside)").toEqual([true, true])
+    for (const [k, c] of Object.entries(hid) as Array<[string, W]>) if (c.down) expect([k, c.out, c.inK], `${k}: face down, so no mark on its orb (no outside line, no inside gold) and no seal on its card (${c.seal})`).toEqual([k, false, 0])
+    // looked at by the mouse (GOLD1-R4, D1): the pointer on the card turns it up to be asked, and it keeps no seal
+    await lookedAt(page, "1440, the mouse on it", (q) => page.mouse.move(q.x, q.y))
+    await page.mouse.move(2, 2)
+    // turned up: moves shown
+    await page.evaluate(() => (window as W).__neural.set("hideMoves", false))
+    const up = await frame()
+    console.log(`[known-move-seal] turned up: ${JSON.stringify(up)}`)
+    expect([up.due.down, up.due.seal, up.due.out], "due, turned up: the ring on its card and the outside line on its orb").toEqual([false, "recalled", true])
+    expect([up.learnedDue.down, up.learnedDue.seal, up.learnedDue.inK > 0], "learnedDue, turned up: the disc on its card and the inside on its orb").toEqual([false, "answered", true])
+  })
+})
+
+test.describe("the map with moves hidden 390x631, by touch (GOLD1-R4)", () => {
+  test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } })
+
+  test("moves hidden, a tap on a face-down card turns it up to be asked: no seal, and no mark on its orb; turned up by the setting, the marks come", async ({ page }) => {
+    test.setTimeout(240_000)
+    await seat(page, true)
+    const hid = await hiddenFrame(page)
+    expect([hid.due.down, hid.due.recalled, hid.learnedDue.down, hid.learnedDue.answered], "390: due (recalled) and learnedDue (answered) face down (the check has cases)").toEqual([true, true, true, true])
+    // each looked-at orb framed alone and close (rs 8 or more: on a 390 phone the fitted hand leaves a triangle under the
+    // inside's size rule, so the inside could not have shown there and the check would read nothing)
+    await lookedAt(page, "390, tapped", (q) => page.touchscreen.tap(q.x, q.y), true)
+    // the control: the same cameras with moves shown put both marks on those orbs, so the frames above could have shown them
+    await page.evaluate(() => (window as W).__neural.set("hideMoves", false))
+    const upDue = await hiddenFrame(page, "due"), upLearned = await hiddenFrame(page, "learnedDue")
+    expect([upDue.due.out, upLearned.learnedDue.inK > 0, upDue.due.rs >= 8, upLearned.learnedDue.rs >= 8], `390, moves shown: the outside line on due's orb, the inside on learnedDue's, each framed at rs 8 or more (${upDue.due.rs}, ${upLearned.learnedDue.rs})`).toEqual([true, true, true, true])
+  })
+})
+
+// THE SEAT'S KEEP-CLEAR (GOLD1-R2, the map reader's finding 4: a name came 2.3 px from the seat's focus mark): a move's name
+// keeps clear of the seat by its focus mark (1.28 of the orb), the mark's rim (1 px out) and the outside line beyond it (1 px
+// at dpr 2; 1.5 from half a device pixel out at dpr 1), not by its bare silhouette. No camera of the app's puts a name there
+// (the seal frames above, map-names' sweep and the reader's 625 frames all leave the seat 20 px or more), so mapClaims' seat
+// check alone cannot fail: R2c, the keep-clear at the bare silhouette, survived it. A FIXTURE gives the claim its case: one
+// dealt orb (and its pair partner) walked toward the seat from its left, level with it, a pixel a frame, its name on its
+// usual right side heading into the seat; each frame planned afresh (`_nm`, the planner's memo, cleared: the plan's key holds
+// the camera and the claims, not an orb moved under a held camera). Its name must come right up to the seat's reach (within
+// 3 px of it: the reach is what holds it) and never inside.
+test.describe("the seat's keep-clear 1440x900 (GOLD1-R2)", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+
+  test("a dealt orb walked up to the seat from its left: its name comes up to the seat's focus mark, rim and line, never inside", async ({ page }) => {
+    test.setTimeout(240_000)
+    await seat(page, false)
+    const r = await page.evaluate(() => {
+      const a = (window as W).__neural
+      a.setPaused(true)
+      const S = a.nodes[a.focusIdx], vw = 146.55, W0 = a.W / vw   // the seat's orb about 30 px across its half-width at 1440
+      // the seat placed where the walk's band (350 px to its left, 60 px over and under) and its own name's room (230 px to its
+      // right) are clear of every control's box (the frame's own `_nameBlocks`: a move's name is written under none of them)
+      const NB = a._nameBlocks(), free = (l: number, t: number, r: number, b: number) => l >= NB.l + 8 && r <= NB.r - 8 && t >= 8 && b <= NB.b - 8
+        && !NB.blocks.some((q: W) => l < q.r + 8 && r > q.l - 8 && t < q.b + 8 && b > q.t - 8)
+      let spot: W = null
+      for (let y = 120; y <= a.H - 120 && !spot; y += 20) for (let x = NB.l + 370; x <= NB.r - 250 && !spot; x += 20) if (free(x - 350, y - 60, x + 230, y + 60)) spot = { x, y }
+      if (!spot) { a.setPaused(false); return { spot: null, l: NB.l, blocks: NB.blocks.map((q: W) => [q.l, q.t, q.r, q.b].map(Math.round)) } }
+      a.cam = { ...a.cam, cx: S.x - (spot.x - a.W / 2) / W0, cy: a._LY(S) - (spot.y - a.H / 2) / W0, vw, lvw: Math.log(vw) }
+      a._nm = {}; a.draw()
+      const scale = a.W / a.cam.vw, dpr = a.dpr || 1, lw = Math.max(1, 1.5 / dpr), gap = dpr < 1.5 ? 0.5 / dpr : 0
+      const sx = a.W / 2 + (S.x - a.cam.cx) * scale, sy = a.H / 2 + (a._LY(S) - a.cam.cy) * scale, R = a._nodeHalfW(S, scale, a._nodeK, a._lodK, true)
+      const reach = R * 1.28 + 1 + lw + gap, bare = R + lw + gap
+      const pn = (a._lastNameBoxes || []).find((b: W) => b.w === "position")
+      const named = new Set((a._lastNameBoxes || []).filter((b: W) => b.w === "move").map((b: W) => b.i))
+      const Di = a.optionIdxs.find((i: number) => named.has(i)) ?? a.optionIdxs[0]
+      const out: W = { spot, seat: [sx, sy].map(Math.round), R, reach, bare, dpr, pos: pn ? (pn.r <= sx ? "left" : pn.l >= sx ? "right" : "over") : "none", D: Di == null ? null : a.graphName(a.nodes[Di]), frames: 0, written: 0, tight: 0, inside: [] as string[] }
+      if (Di == null) { a.setPaused(false); return out }
+      const D = a.nodes[Di], P = D.pi >= 0 ? a.nodes[D.pi] : null, x0 = D.x, y0 = D.y, px0 = P ? P.x : 0, py0 = P ? P.y : 0
+      const RD = a._nodeHalfW(D, scale, a._nodeK, a._lodK, true)
+      try {
+        for (let dx = R + RD + 260; dx >= R + RD + 4; dx -= 1) {
+          const tx = S.x - dx / scale, dyW = a._LY(S) - a._LY(D)
+          D.x = tx; D.y += dyW; if (P) { P.x = px0 + (tx - x0); P.y += dyW }
+          a._nm = {}; a.draw(); out.frames++
+          for (const b of (a._lastNameBoxes || []).filter((b: W) => b.w === "move")) {
+            const d = Math.hypot(Math.max(b.l - sx, 0, sx - b.r), Math.max(b.t - sy, 0, sy - b.b))
+            if (b.i === Di) { out.written++; if (d >= reach - 0.01 && d < reach + 3 && b.r <= sx) out.tight++ }
+            if (d < reach - 0.01 && out.inside.length < 4) out.inside.push(`${a.graphName(a.nodes[b.i])}: ${(reach - d).toFixed(1)} px inside the seat's reach, ${(d - bare).toFixed(1)} past its bare silhouette's (orb ${dx.toFixed(0)} px left of the seat)`)
+          }
+        }
+      } finally {
+        D.x = x0; D.y = y0; if (P) { P.x = px0; P.y = py0 }
+        a._nm = {}; a.draw(); a.setPaused(false)
+      }
+      return out
+    })
+    console.log(`[known-move-seal] the seat's keep-clear: ${JSON.stringify(r)}`)
+    expect(r.spot, `a stretch of the map clear of every control holds the seat and the walk (${JSON.stringify(r.blocks)})`).not.toBeNull()
+    expect(r.D, "a dealt move to walk (the walk has a subject)").not.toBeNull()
+    expect(r.pos, "the position's own name is not on the seat's left (the walk meets the seat, not its name)").not.toBe("left")
+    expect(r.tight, `${r.D}'s name comes within 3 px of the seat's reach on the seat's side (the reach is what holds it: the check has a case)`).toBeGreaterThan(0)
+    expect(r.inside, "no move's name within the seat's focus mark (1.28 r), its rim and its outside line").toEqual([])
+  })
+})
+
+for (const vp of [{ width: 1440, height: 900, touch: false }, { width: 390, height: 631, touch: true }]) {
+  test.describe(`the map ${vp.width}x${vp.height}`, () => {
+    test.use({ viewport: { width: vp.width, height: vp.height }, hasTouch: vp.touch, isMobile: vp.touch })
+
+    test(`the map: the outside line on each recalled orb, the inside gold on each answered one, none on an unknown one or a defender twin, all where the frame drew them (${vp.width})`, async ({ page }) => {
+      test.setTimeout(240_000)
+      await seat(page, false)
+      await mapClaims(page, `${vp.width}`)
+    })
+  })
+}

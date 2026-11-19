@@ -154,43 +154,39 @@ description: "Place useful hand, elbow, knee, or foot supports before losing bal
       "@type": "VideoObject",
       "position": 1,
       "name": "The elbow post in back control",
-      "description": "Posts film study: The elbow post in back control, taught by Rory Van Vliet.",
+      "description": "Posts film study: The elbow post in back control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ILjOMZwctuU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ILjOMZwctuU",
-      "url": "https://www.youtube.com/watch?v=ILjOMZwctuU",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=ILjOMZwctuU"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Active posting to set up and defend submissions",
-      "description": "Posts film study: Active posting to set up and defend submissions, taught by BJJ Cache.",
+      "description": "Posts film study: Active posting to set up and defend submissions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hF0QNMgV6NQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hF0QNMgV6NQ",
       "url": "https://www.youtube.com/watch?v=hF0QNMgV6NQ",
-      "creator": { "@type": "Person", "name": "BJJ Cache" },
       "duration": "PT322S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Building structures, frames and posts",
-      "description": "Posts film study: Building structures, frames and posts, taught by MMA Leech.",
+      "description": "Posts film study: Building structures, frames and posts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WRnKMbQqnD4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WRnKMbQqnD4",
       "url": "https://www.youtube.com/watch?v=WRnKMbQqnD4",
-      "creator": { "@type": "Person", "name": "MMA Leech" },
       "duration": "PT381S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Active toes: posting with the feet",
-      "description": "Posts film study: Active toes: posting with the feet, taught by M1FC.",
+      "description": "Posts film study: Active toes: posting with the feet.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0WZjs49l8Qk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0WZjs49l8Qk",
       "url": "https://www.youtube.com/watch?v=0WZjs49l8Qk",
-      "creator": { "@type": "Person", "name": "M1FC" },
       "duration": "PT70S"
     }
   ]
@@ -220,7 +216,7 @@ A post only helps if it supports the direction you are moving. In attack, identi
 
 ![](https://www.youtube.com/watch?v=ILjOMZwctuU)
 
-<p class="clip-credit"><strong>The elbow post in back control</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=ILjOMZwctuU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The elbow post in back control</strong> · <a href="https://www.youtube.com/watch?v=ILjOMZwctuU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ A post only helps if it supports the direction you are moving. In attack, identi
 
 ![](https://www.youtube.com/watch?v=hF0QNMgV6NQ)
 
-<p class="clip-credit"><strong>Active posting to set up and defend submissions</strong> — taught by BJJ Cache · 5:22 · <a href="https://www.youtube.com/watch?v=hF0QNMgV6NQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Active posting to set up and defend submissions</strong> · 5:22 · <a href="https://www.youtube.com/watch?v=hF0QNMgV6NQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ A post only helps if it supports the direction you are moving. In attack, identi
 
 ![](https://www.youtube.com/watch?v=WRnKMbQqnD4)
 
-<p class="clip-credit"><strong>Building structures, frames and posts</strong> — taught by MMA Leech · 6:21 · <a href="https://www.youtube.com/watch?v=WRnKMbQqnD4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Building structures, frames and posts</strong> · 6:21 · <a href="https://www.youtube.com/watch?v=WRnKMbQqnD4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ A post only helps if it supports the direction you are moving. In attack, identi
 
 ![](https://www.youtube.com/watch?v=0WZjs49l8Qk)
 
-<p class="clip-credit"><strong>Active toes: posting with the feet</strong> — taught by M1FC · 1:10 · <a href="https://www.youtube.com/watch?v=0WZjs49l8Qk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Active toes: posting with the feet</strong> · 1:10 · <a href="https://www.youtube.com/watch?v=0WZjs49l8Qk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

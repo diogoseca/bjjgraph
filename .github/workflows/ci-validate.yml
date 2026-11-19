@@ -89,10 +89,33 @@ on:
       # The path-scoped half of the canon (v1.224.3): both gates read every file here, so a PR
       # that edits only a rules file must still run them.
       - ".claude/rules/**"
+      # The project's permission rules (v1.265.1): tests/claude_settings.test.mjs reads this file.
+      - ".claude/settings.json"
       # The chain/provisioning gate reads every workflow and reachable Python input.
       - ".github/workflows/**"
+      # The bots' pinned tools (v1.265.1): tests/bot_workflows_test.py reads each package.json against its lockfile, so a
+      # PR that only moves a pin must still run it.
+      - ".github/tools/**"
       - "source/package.json"
       - "**/*.py"
+      # THE REST OF WHAT THIS JOB READS (v1.266.1), derived, not guessed: the job replayed (`npm run ci:validate`) under
+      # `strace -f -z -y -e trace=openat`, and every TRACKED file its steps opened matched against this list. 7,386
+      # tracked files were opened; these lines take in the 418 that the lines above did not: the e2e specs, fixtures and
+      # configs the unit suites scan, the Forward catalog, the digest Worker, calibration anchors, baselines under
+      # tests/artifacts, the root lockfile (the workflow test reads every lockfile's bins), source/'s top-level config,
+      # and the root files the reference and discovery gates read. Recompute the same way after a gate starts reading
+      # something new; a file it reads outside this list is a PR that never runs it.
+      - "package-lock.json"
+      - "models.env"
+      - ".gitignore"
+      - "*.md"
+      - "e2e/**"
+      - "forward/**"
+      - "workers/**"
+      - "calibration/**"
+      - "neural/**"
+      - "source/*"
+      - "tests/artifacts/**"
   push:
     branches: [dev]
   workflow_dispatch:
@@ -268,6 +291,23 @@ jobs:
       - name: Systems and concepts payload contract
         run: python3 scripts/check_systems_payload.py
 
+      # NO NAMES (v1.288.0, widened v1.289.0; owner U195 a + U196 b). In the committed generated Markdown: no
+      # listed name (a clip's whole `by` or `channel` value), no removed label (tests/artifacts/no_names_labels.json)
+      # and no "taught by" in a clip credit; no person-ish key or listed name in a video's JSON-LD. In the payload
+      # just emitted: clips carry player fields only, and no file holds a `by` key. Positive counts and floors on
+      # the lists; fails on 0.
+      # THE PROSE CHECK (v1.291.0; owner U203 a + U206 a: a real person's name stays only where the name is the thing
+      # itself). In every string of the SOURCE JSON outside Systems (prose, flashcards, the graph's own fields; all
+      # but a clip's own keys and a Learning page's references), in the cards just emitted (they are built from
+      # graph.json, so this is what refuses a graph.json nobody refreshed), in clip titles and in credit lines: no
+      # entry of the names lexicon (tests/artifacts/no_names_lexicon.json), nor the surname of a person on it,
+      # outside the allowed kinds the script names (an origin line, a citation or a guide's title listed by record,
+      # field and exact sentence; a cited link; a Systems guide; a Learning reference; a technique's own word).
+      # What it does NOT hold (a listed person's surname that is an ordinary word or a technique's own word, a
+      # person nobody listed, a gym) is in the script's docstring.
+      - name: No person's name in clip credits, structured data, the payload, authored prose or cards
+        run: python3 scripts/check_no_names.py
+
       # Pure-unit suites (node --test, no browser, no build, ~4s): the share-link wire codec, the
       # neural deck-hydration contract, and the FLOW selfcheck. Separate from the Playwright
       # gates. Needs the payload above — see the ordering note there before moving either step.
@@ -281,12 +321,13 @@ jobs:
       # run 35577916246 on dev failed 2 of 303 files with a bare `Cannot find module
       # 'tsx/esm/api'`, and the third file caught the same absence and printed a SKIP line —
       # green, its libgit2 assertion never made. Three merges cited local "units 314/314".
-      # `npm ci`, never `npm install`: the lockfile is the promise. Removing or reordering this
+      # `npm ci --ignore-scripts`, never `npm install`: the lockfile is the promise, and no package's install script runs
+      # (the deploys' rule; tests/deploy_gate.test.mjs, CI INSTALLS). Removing or reordering this
       # step does not bring the skip back — tests/_deps_promised.mjs reads CI (set on every
       # GitHub Actions step, and pinned on the next step so the contract is visible here) and
       # FAILS each guarded file with the name of this step.
       - name: Install source/ dependencies (promised to the unit suites)
-        run: npm ci --no-audit --no-fund
+        run: npm ci --ignore-scripts
         working-directory: source
 
       - name: Pure unit suites

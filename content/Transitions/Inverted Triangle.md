@@ -46,8 +46,8 @@ description: "Master the Inverted Triangle in BJJ. Reverse-angle triangle choke 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inverted Triangle from Open Guard www.BJJAfter40.com",
-      "description": "Inverted Triangle film study: Inverted Triangle from Open Guard www.BJJAfter40.com.",
+      "name": "Inverted Triangle from Open Guard",
+      "description": "Inverted Triangle film study: Inverted Triangle from Open Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Pjh_GRD7XDA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Pjh_GRD7XDA",
       "url": "https://www.youtube.com/watch?v=Pjh_GRD7XDA",
@@ -117,7 +117,7 @@ The biomechanics of the inverted triangle differ significantly from the standard
 
 ![](https://www.youtube.com/watch?v=Pjh_GRD7XDA)
 
-<p class="clip-credit"><strong>Inverted Triangle from Open Guard www.BJJAfter40.com</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=Pjh_GRD7XDA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inverted Triangle from Open Guard</strong> · 2:09 · <a href="https://www.youtube.com/watch?v=Pjh_GRD7XDA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

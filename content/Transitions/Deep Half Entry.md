@@ -46,8 +46,8 @@ description: "Master the Deep Half Entry from Half Guard in BJJ. Complete guide 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Tom DeBlass Deep Half Guard Entry",
-      "description": "Deep Half Entry film study: Tom DeBlass Deep Half Guard Entry.",
+      "name": "Deep Half Guard Entry",
+      "description": "Deep Half Entry film study: Deep Half Guard Entry.",
       "thumbnailUrl": "https://i.ytimg.com/vi/jRGAYd6UngU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/jRGAYd6UngU",
       "url": "https://www.youtube.com/watch?v=jRGAYd6UngU",
@@ -107,7 +107,7 @@ When executed correctly, the deep half entry transforms a potentially defensive 
 
 ![](https://www.youtube.com/watch?v=jRGAYd6UngU)
 
-<p class="clip-credit"><strong>Tom DeBlass Deep Half Guard Entry</strong> · 2:37 · <a href="https://www.youtube.com/watch?v=jRGAYd6UngU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deep Half Guard Entry</strong> · 2:37 · <a href="https://www.youtube.com/watch?v=jRGAYd6UngU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

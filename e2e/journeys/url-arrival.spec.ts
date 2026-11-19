@@ -141,7 +141,7 @@ test("@curated a role page sets the board on THAT side, paused, and starts no ro
 // still fails the re-aim assertion after the native-layout wait; both anchor controls pass.
 test("the node it navigates to is framed clear of the landing card", async ({ page }) => {
   const j = journey(page)
-  await j.boot("/Positions/Side-Control/Bottom", { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } })
+  await j.boot("/Positions/Side-Control/Bottom")
   // boot() waits for graph ingest, not the deferred reader's seat or styled article.
   // Advancing first can spend all six seconds before the arrival flight even starts.
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
@@ -324,7 +324,7 @@ test("the camera frames the space the card WILL occupy, not the gap while it reb
 })
 
 /**
- * THE FIRST FLIGHT AIMS AT THE CARD'S BAND, NOT THE MIDDLE OF THE SCREEN (v1.129.6). @curated
+ * THE FIRST FLIGHT AIMS AT THE CARD'S BAND, NOT THE MIDDLE OF THE SCREEN (v1.129.6).
  *
  * Owner: "correct the position of the graph shift since it initially centers to the screen, not the
  * available space above the landcard as it's should in the first animation."
@@ -350,7 +350,7 @@ test("the camera frames the space the card WILL occupy, not the gap while it reb
 // base8aa-opening-verified,d318-cpu4-proof}. The original ungated case and its
 // <3 bound remain; the second case pins the real delivery that exposes the bug.
 for (const lateDeck of [false, true]) {
-test(`@curated the opening flight aims once, at the landing, and the aim never drifts under it${lateDeck ? ' with the landing deck held' : ''}`, async ({
+test(`the opening flight aims once, at the landing, and the aim never drifts under it${lateDeck ? ' with the landing deck held' : ''}`, async ({
   page,
 }) => {
   const j = journey(page)

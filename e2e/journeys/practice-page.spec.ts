@@ -1,5 +1,9 @@
 import { expect, test } from "@playwright/test";
 import { journey } from "../dsl";
+// v1.282.0 (rulings R2, SET1-GO): written when nothing stored meant Classic recall in the sidebar; since then nothing
+// stored is Auto (a new card asks multiple choice), so every journey here states the mode it was written under,
+// Front Back cards, through the DSL (`journey(page, CLASSIC)`), and keeps every assertion.
+const CLASSIC = { answerMode: "classic" } as const
 
 /** P1-A..F. The production page and renderer, entered with measured pointer/touch
  * or native Tab/Enter. No locator click can scroll the first answer into view.
@@ -30,7 +34,11 @@ async function seed(page: any, due = 1, answered = 0, belt = "white") {
   }, { due, answered, belt });
 }
 
-async function door(page: any, j: any, keyboard = false, touch = false) {
+async function door(page: any, j: any, keyboard = false, touch = false, belts = false, held = false) {
+  // L2 (v1.292.0): Master the game asks a place's moves before its cards; these journeys are about the cards, so their
+  // player knows the moves today's plan would ask. `held`: the journey holds or fails the planner's chunk itself, and
+  // this step would wait for it
+  if (!held) await j.knowsPlanMoves();
   await j.clickByMouse(".ng-logo", "open the drawer");
   const selector = '[data-explore-stats] [data-b="due"]';
   if (keyboard) {
@@ -48,6 +56,37 @@ async function door(page: any, j: any, keyboard = false, touch = false) {
     await page.touchscreen.tap(b!.x + b!.width / 2, b!.y + b!.height / 2);
   } else await j.clickByMouse(selector, "open Practice");
   await expect(page.locator("[data-practice-page]")).toHaveCount(1);
+  // L1-R0 (v1.290.0): the open card's buttons (Reveal, Review again, Got it, ‹ ›) are moved into the drawer's foot, one bar for
+  // the open ask (`_masterDock`), so this file presses them there, `[data-master-bar]`, the same buttons with the same handlers.
+  // L1 (v1.290.0): Master the game opens as a list with one button, the shelf folded under "Belt lessons". These journeys were
+  // written when the page opened on its first card with the shelf drawn under it, so the door now presses the button the
+  // same way the row was pressed (Tab and Enter, a touch, the mouse), and "Belt lessons" too for a journey that uses the shelf
+  const pressed = async (sel: string, what: string) => {
+    if (keyboard) {
+      let reached = false;
+      for (let n = 0; n < 120; n++) {
+        if (await page.locator(sel).evaluate((el: Element) => el === document.activeElement)) { reached = true; break; }
+        await page.keyboard.press("Tab");
+      }
+      expect(reached, `native Tab reaches ${what}`).toBe(true);
+      await page.keyboard.press("Enter");
+    } else if (touch) {
+      await page.locator(sel).scrollIntoViewIfNeeded();
+      const b = await page.locator(sel).boundingBox();
+      await page.touchscreen.tap(b!.x + b!.width / 2, b!.y + b!.height / 2);
+    } else { await page.locator(sel).scrollIntoViewIfNeeded(); await j.clickByMouse(sel, what); }
+  };
+  const ready = await expect.poll(() => page.locator("[data-master-start]").isEnabled(), { timeout: 10_000 }).toBe(true).then(() => true, () => false);
+  if (ready) {
+    await pressed("[data-master-start]", "Master the game's button");
+    await expect(page.locator("[data-master-dock]"), "the press opens a card").toBeVisible();
+  }
+  // the shelf only for the journeys that use it: a press on "Belt lessons" scrolls the page to its foot and keeps the focus
+  // on that row (where Space and ⏎ are its own), and the card journeys pin an unscrolled page and the keys on the card
+  if (belts) {
+    await pressed("[data-master-belts]", "Belt lessons");
+    await expect(page.locator("[data-master-belts]")).toHaveAttribute("aria-expanded", "true");
+  }
 }
 
 async function firstAnswer(page: any, j: any) {
@@ -66,14 +105,16 @@ async function firstAnswer(page: any, j: any) {
   expect(geometry.right).toBeLessThanOrEqual(geometry.width);
   expect(geometry.hit, "P1-A: primary response is hit-testable").toBe(true);
   expect(geometry.scroll, "P1-A: entry did not scroll to manufacture visibility").toBe(0);
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "reveal the first question");
+  await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "reveal the first question");
   await expect(page.locator('[data-mini-a]:visible')).toHaveCount(1);
 }
 
 for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { width: 1440, height: 900 }]) {
-  for (const cold of [false, true]) test(`P1-A: ${viewport.width}×${viewport.height} ${cold ? "cold review" : "warm new"} opens on an operable question @curated`, async ({ page }) => {
+  // The deploy gate (@curated) runs ONE of these, 390×844 warm new: one quick test per surface (U147 a, v1.263.0).
+  // Every case runs in e2e-full's core shards on each PR and each merge to dev; tests/artifacts/deploy_gate.json.
+  for (const cold of [false, true]) test(`P1-A: ${viewport.width}×${viewport.height} ${cold ? "cold review" : "warm new"} opens on an operable question${viewport.width === 390 && viewport.height === 844 && !cold ? " @curated" : ""}`, async ({ page }) => {
     await page.setViewportSize(viewport);
-    const j = journey(page); await j.boot("/");
+    const j = journey(page, CLASSIC); await j.boot("/");
     await page.waitForFunction(() => !!(window as any).__neural.curriculum);
     let held = 0, release!: () => void;
     const gate = new Promise<void>(r => { release = r; });
@@ -81,35 +122,44 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }
     else await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
     const fixture = await seed(page, cold ? 1 : 0);
     try {
-      await door(page, j, viewport.width === 1440, viewport.width === 390);
+      await door(page, j, viewport.width === 1440, viewport.width === 390, false, cold);
       if (cold) {
         await expect.poll(() => held, { message: "P1-D: the real planner request was held" }).toBe(1);
         await expect(page.locator('[data-session-row][aria-expanded="true"]'), "P1-F: due reviews ignore belt locks").toHaveAttribute("data-session-row", fixture.dueKey);
       }
       await firstAnswer(page, j);
       expect(await page.evaluate(() => (window as any).__neural.practiceToday().done), "P1-C: reveal earns no grade").toBe(0);
-      await expect(page.locator("[data-belt-locked]")).toHaveCount(4);
-      await expect(page.locator("[data-belt-locked] button, [data-belt-locked] [data-lesson]")).toHaveCount(0);
+      // Until v1.270.0: `[data-belt-locked]` x4, with no button or lesson in them (the white belt's four later sections were
+      // locked). U163 c ("everything opens", owner, 13 Nov): all five sections are ordinary ones, each with its fold toggle.
+      await expect(page.locator(".ng-belt-section [data-belt-toggle]")).toHaveCount(5);
       await expect(page.locator("[data-session] iframe, [data-session] video")).toHaveCount(0);
       if (process.env.PRACTICE_SCREENS) await page.screenshot({ path: `${process.env.PRACTICE_SCREENS}/${viewport.width}x${viewport.height}-${cold ? "cold" : "warm"}.png` });
     } finally { release(); }
   });
 }
 
-test("P1-B: only earned belt sections open; earlier work is revealable; direct selection cannot unlock @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+// Until v1.270.0 this was "P1-B: only earned belt sections open; earlier work is revealable; direct selection cannot unlock":
+// on a blue belt it asserted three locked sections and that selecting Black and unfolding it were refused. U163 c (owner,
+// 13 Nov, "everything opens") reverses that half: every later section is open, selectable and unfoldable. The other half
+// stands as it was: Practice's corridor starts at the belt you wear, earlier belts are one press away, and a hidden lesson
+// takes no input.
+test("U163 c: every belt section is open; earlier work is revealable; a later belt can be selected and unfolded", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
-  await seed(page, 1, 0, "blue"); await door(page, j);
+  await seed(page, 1, 0, "blue"); await door(page, j, false, false, true);
   await expect(page.locator('[data-belt="white"]')).toHaveCount(0);
   await expect(page.locator('[data-belt="blue"] [data-track="blue"]')).toHaveCount(1);
-  await expect(page.locator('[data-belt-locked]')).toHaveCount(3);
+  await expect(page.locator(".ng-belt-section [data-belt-toggle]"), "U163 c: blue and the three after it, every one open").toHaveCount(4);
+  await page.locator('[data-belt-toggle="black"]').scrollIntoViewIfNeeded();
+  await j.clickByMouse('[data-belt-toggle="black"]', "unfold Black");
+  await expect(page.locator('[data-belt="black"]'), "U163 c: a later belt unfolds").toHaveAttribute("data-collapsed", "false");
   const guard = await page.evaluate(() => {
-    const a = (window as any).__neural, before = a.selectedChallengeTrack();
-    a.selectChallengeTrack("black"); a._setBeltSectionOpen("black", true);
-    return { before, after: a.selectedChallengeTrack(), open: a._beltSectionOpen("black"), worn: a.wornBelt().id };
+    const a = (window as any).__neural;
+    a.selectChallengeTrack("black");
+    return { after: a.selectedChallengeTrack(), open: a._beltSectionOpen("black"), worn: a.wornBelt().id };
   });
-  expect(guard.after, "P1-B: action-level unlock guard").toBe(guard.before);
-  expect(guard.open).toBe(false); expect(guard.worn).toBe("blue");
+  expect(guard.after, "U163 c: a later belt can be selected").toBe("black");
+  expect(guard.open).toBe(true); expect(guard.worn, "the belt itself is untouched").toBe("blue");
   await page.locator("[data-earlier-belts]").scrollIntoViewIfNeeded();
   await j.clickByMouse("[data-earlier-belts]", "show earlier belts");
   await expect(page.locator('[data-belt="white"] [data-track="white"]')).toHaveCount(1);
@@ -121,8 +171,8 @@ test("P1-B: only earned belt sections open; earlier work is revealable; direct s
   }), "P1-E: hidden lessons never receive input").toBeNull();
 });
 
-test("P1-C: explicit new practice reaches 21 before the due queue is cleared @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+test("P1-C: explicit new practice reaches 21 before the due queue is cleared", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   await seed(page, 2, 20); await door(page, j);
@@ -137,9 +187,9 @@ test("P1-C: explicit new practice reaches 21 before the due queue is cleared @cu
   expect(await page.evaluate(() => (window as any).__p1More), "P1-F: one continuation event per deliberate press").toBe(1);
   await expect(page.locator('[data-session-row][aria-expanded="true"]')).toHaveAttribute("data-practice-kind", "new");
   await page.locator('[data-mini-reveal]:visible').scrollIntoViewIfNeeded();
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "reveal new card after goal");
+  await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "reveal new card after goal");
   await page.locator('[data-mini-again]:visible').scrollIntoViewIfNeeded();
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-again]', "a mistake still counts once");
+  await j.clickByMouse('[data-master-bar] [data-mini-again]', "a mistake still counts once");
   await expect(page.locator('[data-practice-goal]')).toHaveText("Daily goal: 21 of 20 today ✓");
   const state = await page.evaluate(() => {
     const a = (window as any).__neural;
@@ -151,16 +201,16 @@ test("P1-C: explicit new practice reaches 21 before the due queue is cleared @cu
   expect(await page.evaluate(() => (window as any).__neural.practiceToday().done), "P1-C: repeated/shared grade earns no second daily credit").toBe(21);
 });
 
-test("P1-D: a late planner preserves a revealed answer and in-flight press, then appends new work @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+test("P1-D: a late planner preserves a revealed answer and in-flight press, then appends new work", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   let held = 0, release!: () => void;
   const gate = new Promise<void>(r => { release = r; });
   await page.route("**/app/gameplan.js*", async route => { held++; await gate; await route.continue(); });
-  await seed(page, 2); await door(page, j);
+  await seed(page, 2); await door(page, j, false, false, false, true);
   try {
     await expect.poll(() => held).toBe(1);
-    await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "reveal while planner is held");
+    await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "reveal while planner is held");
     await page.evaluate(() => {
       (window as any).__practiceIdentity = { s: (window as any).__neural._session, answer: document.querySelector("[data-mini-a]"), button: document.querySelector("[data-mini-got]") };
     });
@@ -179,9 +229,9 @@ test("P1-D: a late planner preserves a revealed answer and in-flight press, then
   } finally { release(); await page.mouse.up(); }
 });
 
-for (const paused of [false, true]) test(`P1-E: card arrows, Space, swipe and close preserve pause ownership (${paused}) @curated`, async ({ page }) => {
+for (const paused of [false, true]) test(`P1-E: card arrows, Space, swipe and close preserve pause ownership (${paused})`, async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 631 });
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 0);
   await page.evaluate((p) => (window as any).__neural.setPaused(p), paused);
@@ -208,8 +258,8 @@ for (const paused of [false, true]) test(`P1-E: card arrows, Space, swipe and cl
   expect(await page.evaluate(() => (window as any).__neural.paused), "P1-E: close restores only its own pause").toBe(paused);
 });
 
-test("P1-E: detached card registry entries never receive input @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+test("P1-E: detached card registry entries never receive input", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1); await door(page, j);
   await expect(page.locator('[data-mini-q]:visible'), "P1-A: first question opens").toHaveCount(1);
@@ -225,8 +275,8 @@ test("P1-E: detached card registry entries never receive input @curated", async 
   expect(await page.evaluate(() => (window as any).__neural.practiceToday().done)).toBe(0);
 });
 
-test("P1-D: both real cold indexes preserve the Practice answer and keyboard focus @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+test("P1-D: both real cold indexes preserve the Practice answer and keyboard focus", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 2);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
@@ -252,9 +302,9 @@ test("P1-D: both real cold indexes preserve the Practice answer and keyboard foc
   } finally { releases.forEach(r => r()); }
 });
 
-for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { width: 1440, height: 900 }]) test(`P1-A/D: recognition at ${viewport.width}×${viewport.height} keeps options, selected answer and focus through the late planner @curated`, async ({ page }) => {
+for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }, { width: 1440, height: 900 }]) test(`P1-A/D: recognition at ${viewport.width}×${viewport.height} keeps options, selected answer and focus through the late planner`, async ({ page }) => {
   await page.setViewportSize(viewport);
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 0);
   await j.rig("practice-mc-pick", Array(100).fill(.31)); await j.rig("practice-mc-shuffle", Array(100).fill(.56));
@@ -271,7 +321,7 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }
   const gate = new Promise<void>(r => { release = r; });
   await page.route("**/app/gameplan.js*", async route => { held++; await gate; await route.continue(); });
   try {
-    await door(page, j);
+    await door(page, j, false, false, false, true);
     await expect.poll(() => held).toBe(1);
     const options = page.locator('[data-practice-mc-opt]:visible');
     await expect(options).toHaveCount(3);
@@ -292,8 +342,10 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 390, height: 844 }
   } finally { release(); }
 });
 
-test("P1-F: Practice retains comparison, rewards, Path and one deliberate visit event @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+// v1.287.0 (SET1 slice B): "Path" left this title with the Path row ("P1-F: temporary Path destination remains" pinned it, and
+// `neural_challenges_viewed` was its visit event). Its corridor is Practice's own now, and only Practice's event is sent.
+test("P1-F: Practice retains comparison, rewards and one deliberate visit event", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1);
   await page.evaluate(async () => {
@@ -303,7 +355,7 @@ test("P1-F: Practice retains comparison, rewards, Path and one deliberate visit 
     a.track = (name: string, data: any) => { if (["neural_practice_opened", "neural_challenges_viewed"].includes(name)) (window as any).__p1Visits.push(name); track(name, data); };
     await a._ensureGameplanRuntime();
   });
-  await door(page, j);
+  await door(page, j, false, false, true);
   await expect(page.locator("[data-practice-keys]"), "P1-F: the key legend stays").toHaveText("←→ card·↑↓ technique·space flip");
   await expect(page.locator('[data-rewards-shelf]'), "P1-F: earned rewards have a destination").toContainText("Clean Checkpoint");
   await expect(page.locator('[data-rewards-shelf]')).toContainText("Houdini");
@@ -315,15 +367,14 @@ test("P1-F: Practice retains comparison, rewards, Path and one deliberate visit 
   await j.clickByMouse('[data-gameplan-refresh]', "request the comparison deliberately");
   await expect(page.locator('[data-game-study-controls]'), "P1-F: comparison form loads after Refresh").toHaveCount(1, { timeout: 30_000 });
   await j.clickByMouse('[data-pane-back]', "Back to the drawer");
-  await expect(page.locator('[data-view="challenges"]'), "P1-F: temporary Path destination remains").toBeVisible();
-  await j.clickByMouse('[data-view="challenges"]', "open Path deliberately");
+  await expect(page.locator('[data-view="challenges"]'), "P1-F: the temporary Path destination is gone (v1.287.0)").toHaveCount(0);
   await page.evaluate(() => (window as any).__neural.renderExplorer());
-  expect(await page.evaluate(() => (window as any).__p1Visits), "P1-F: one event per deliberate surface visit")
-    .toEqual(["neural_practice_opened", "neural_challenges_viewed"]);
+  expect(await page.evaluate(() => (window as any).__p1Visits), "P1-F: one event per deliberate surface visit, and no Path's")
+    .toEqual(["neural_practice_opened"]);
 });
 
-test("P1-F: a Practice unit still starts its evidence-gated checkpoint @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+test("P1-F: a Practice unit still starts its evidence-gated checkpoint", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1);
   const unit = await page.evaluate(() => {
@@ -333,7 +384,7 @@ test("P1-F: a Practice unit still starts its evidence-gated checkpoint @curated"
   });
   await j.rig("checkpoint-pick", Array(30).fill(.5));
   await j.rig("mc-pick", Array(100).fill(.31)); await j.rig("mc-shuffle", Array(100).fill(.56));
-  await door(page, j);
+  await door(page, j, false, false, true);
   const sel = `[data-checkpoint="${unit}"]`;
   await page.locator(sel).evaluate(el => { const d = el.closest("details") as HTMLDetailsElement; d.open = true; });
   await page.locator(sel).scrollIntoViewIfNeeded();
@@ -342,8 +393,36 @@ test("P1-F: a Practice unit still starts its evidence-gated checkpoint @curated"
     { message: "P1-F: checkpoint action starts a real quiz" }).toBeGreaterThan(0);
 });
 
-test("P1-E: an unpoolable recognition card falls back to keyboard recall @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+/** Open the card `qh` (of deck `deck`) the way a player reaches a later row: by its row's button in the session queue, then
+ *  the deck's own arrows. The row is the plan's when the plan holds the card (filed under any deck that shares it), else the
+ *  deck is appended through Practice's own append (the seam "Keep practising" and a Path lesson use). Since v1.278.0 the
+ *  day's queue is what is worth most (U171 a), so a seeded card is no longer the first; the list is scrolled back to its top
+ *  so a claim about scrolling after this still has to earn its scroll. */
+async function openCard(page: any, j: any, deck: string, qh: string) {
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.order || null), { message: "the worth plan lands" }).toBe("worth");
+  const row = await page.evaluate(({ deck, qh }: any) => {
+    const a = (window as any).__neural, s = a._session;
+    const held = s.plan.due.concat(s.plan.fresh).find((r: any) => r.questions.includes(qh));
+    if (held) return held.key;
+    a._practiceAppend(s, s.plan, [{ key: deck, questions: [qh], pending: 0, reason: "The card under test." }]);
+    return deck;
+  }, { deck, qh });
+  await page.locator("[data-practice-details] > summary").scrollIntoViewIfNeeded();
+  await j.clickByMouse("[data-practice-details] > summary", "Practice details & session queue");
+  await page.evaluate((k: string) => { document.querySelector("[data-open-card-jump]")?.removeAttribute("data-open-card-jump");
+    const b = [...document.querySelectorAll("[data-practice-queue] button")].find((x) => x.textContent === k.replace("|", " \u00b7 ")); if (b) b.setAttribute("data-open-card-jump", "1"); }, row);
+  await page.locator("[data-open-card-jump]").scrollIntoViewIfNeeded();
+  await j.clickByMouse("[data-open-card-jump]", "the queue's button for the card's row");
+  await expect(page.locator('[data-session-row][aria-expanded="true"]')).toHaveAttribute("data-session-row", row);
+  const on = () => page.evaluate(({ row, qh }: any) => { const a = (window as any).__neural, q = document.querySelector('[data-session-row][aria-expanded="true"] + div [data-mini-q]');
+    const c = (a._cardsOf(a.flashcards.decks[row]) || []).find((x: any) => a.qhash(x.q) === qh); return !!q && !!c && q.textContent!.includes(c.q.slice(0, 40)); }, { row, qh });
+  for (let i = 0; i < 8 && !(await on()); i++) { await page.keyboard.press("ArrowRight"); await page.waitForTimeout(150); }
+  expect(await on(), "the card under test is the open one").toBe(true);
+  await page.evaluate(() => { (window as any).__neural.drillListRef.current.scrollTop = 0; });
+}
+
+test("P1-E: an unpoolable recognition card falls back to keyboard recall", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 0);
   await j.rig("practice-mc-pick", Array(100).fill(.31)); await j.rig("practice-mc-shuffle", Array(100).fill(.56));
@@ -351,13 +430,25 @@ test("P1-E: an unpoolable recognition card falls back to keyboard recall @curate
     const a = (window as any).__neural;
     a.settings.mcMode = "mc";
     await a.hydrateDeck("Mount|Top");
-    const c = a._cardsOf(a.flashcards.decks["Mount|Top"])[0];
-    c.a = "Yes."; // controlled micro-answer: the real length-ratio guard rejects distractors
-    a.srs = { "Mount|Top": { [a.qhash(c.q)]: [a._epochDay() - 1, 3, a._epochDay() - 4] } };
-    await a._warmMcPool(c, "Mount|Top", "practice");
+    const c = a._cardsOf(a.flashcards.decks["Mount|Top"])[0], qh = a.qhash(c.q);
+    // ANKI1: this question is shared (Mount|Bottom carries it too), and under the owner's Anki rule the plan asks this one
+    // owed card first, filed under its home deck, the first of its decks: Mount|Bottom. Until then the order never asked it,
+    // so `openCard` appended Mount|Top's row, and only Mount|Top's copy wore the controlled answer. Now EVERY copy does and
+    // each is warmed, so whichever row holds the card, it is the unpoolable one
+    const keys = (a._sharedQ && a._sharedQ.get(qh)) || ["Mount|Top"];
+    for (const k of keys) {
+      await a.hydrateDeck(k);
+      for (const x of a._cardsOf(a.flashcards.decks[k]) || []) if (a.qhash(x.q) === qh) x.a = "Yes."; // controlled micro-answer: the real length-ratio guard rejects distractors
+    }
+    a.srs = { "Mount|Top": { [qh]: [a._epochDay() - 1, 3, a._epochDay() - 4] } };
+    for (const k of keys) { const x = (a._cardsOf(a.flashcards.decks[k]) || []).find((y: any) => a.qhash(y.q) === qh); if (x) await a._warmMcPool(x, k, "practice"); }
     await a._ensureGameplanRuntime();
+    (window as any).__unpoolable = a.qhash(c.q);
   });
   await door(page, j);
+  // Until v1.278.0 the one owed card opened the queue (most overdue first); the day's queue is now what is worth most
+  // (U171 a), so the card is opened the way a player reaches a later row (`openCard`)
+  await openCard(page, j, "Mount|Top", await page.evaluate(() => (window as any).__unpoolable));
   await expect(page.locator('[data-mini-reveal]:visible')).toContainText("Reveal");
   await expect(page.locator('[data-mini-reveal]:visible')).toBeEnabled();
   await expect(page.locator('[data-practice-mc-opt]:visible')).toHaveCount(0);
@@ -368,13 +459,13 @@ test("P1-E: an unpoolable recognition card falls back to keyboard recall @curate
   expect(await page.evaluate(() => (window as any).__neural.practiceToday().done), "P1-E: fallback Enter grades once").toBe(1);
 });
 
-test("P1-E: Back restores the origin URL, title, selection and drawer focus @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+test("P1-E: Back restores the origin URL, title, selection and drawer focus", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   const origin = { url: page.url(), title: await page.title(), node: await page.evaluate(() => (window as any).__neural.focusIdx) };
-  await door(page, j);
+  await door(page, j, false, false, true);
   const key = await page.locator('[data-belt="white"] [data-lesson]').first().getAttribute("data-lesson");
   const selector = `[data-belt="white"] [data-lesson="${key}"]`;
   await page.locator(selector).scrollIntoViewIfNeeded();
@@ -387,9 +478,9 @@ test("P1-E: Back restores the origin URL, title, selection and drawer focus @cur
   await expect(page.locator('[data-explore-stats] [data-b="due"]'), "P1-E: Back restores the Practice opener").toBeFocused();
 });
 
-test("P1-A: long authored answers and enlarged text scroll to an operable grade @curated", async ({ page }) => {
+test("P1-A: long authored answers and enlarged text scroll to an operable grade", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 631 });
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 0);
   const length = await page.evaluate(async () => {
@@ -400,39 +491,46 @@ test("P1-A: long authored answers and enlarged text scroll to an operable grade 
       .sort((x: any, y: any) => y.a.length - x.a.length)[0];
     a.srs = { [chosen.key]: { [a.qhash(chosen.q)]: [a._epochDay() - 1, 3, a._epochDay() - 4] } };
     await a._ensureGameplanRuntime();
+    (window as any).__longCard = { key: chosen.key, qh: a.qhash(chosen.q) };
     return chosen.a.length;
   });
   // Authored short answers top out at 160 characters in this corpus.
   expect(length, "P1-A: a long authored answer was selected").toBeGreaterThanOrEqual(150);
   await page.addStyleTag({ content: '[data-practice-page] [data-mini-q], [data-practice-page] [data-mini-a] { font-size: 30px !important; }' });
   await door(page, j);
+  // until v1.278.0 the one owed card opened the queue; it is now opened as a player reaches a later row (U171 a)
+  const long = await page.evaluate(() => (window as any).__longCard);
+  await openCard(page, j, long.key, long.qh);
   await page.locator('[data-mini-reveal]:visible').scrollIntoViewIfNeeded();
-  await j.clickByMouse('[data-session] [data-mini-reveal]', "reveal with enlarged text");
+  await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "reveal with enlarged text");
   await expect(page.locator('[data-mini-a]:visible')).toHaveCSS("font-size", "30px");
   await page.locator('[data-mini-again]:visible').scrollIntoViewIfNeeded();
   const geometry = await page.locator('[data-mini-again]:visible').evaluate((el: HTMLElement) => {
     const r = el.getBoundingClientRect(), hit = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2);
-    return { top: r.top, bottom: r.bottom, hit: hit === el || !!hit && el.contains(hit), scroll: (window as any).__neural.drillListRef.current.scrollTop };
+    return { top: r.top, bottom: r.bottom, hit: hit === el || !!hit && el.contains(hit), foot: !!el.closest("[data-master-dock]") };
   });
-  expect(geometry.scroll, "P1-A: long enlarged text scrolls naturally").toBeGreaterThan(0);
+  // L1-R0 (v1.290.0): the grades sit in the drawer's foot, one bar for the open ask, so a long answer no longer pushes them
+  // below the fold and the page need not scroll to reach them (until then: "long enlarged text scrolls naturally", scroll > 0)
+  expect(geometry.foot, "P1-A: the grade is the foot's, under any length of answer").toBe(true);
   expect(geometry.top).toBeGreaterThanOrEqual(0);
   expect(geometry.bottom).toBeLessThanOrEqual(631);
   expect(geometry.hit, "P1-A: no pinned chrome covers the long-answer grade").toBe(true);
-  await j.clickByMouse('[data-session] [data-mini-again]', "grade after reading a long answer");
+  await j.clickByMouse('[data-master-bar] [data-mini-again]', "grade after reading a long answer");
   expect(await page.evaluate(() => (window as any).__neural.practiceToday().done)).toBe(1);
 });
 
-test("P1-E: Back restores keyboard focus to Path's maintenance opener @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+// v1.287.0 (SET1 slice B): the opener was the Path's maintenance band until the band left with the Path; the claim (Back
+// gives focus back to what opened Practice, across the list's rebuild) is held on the opener that remains, the row
+test("P1-E: Back restores keyboard focus to the Master the game row", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await seed(page, 1);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   await j.clickByMouse('.ng-logo', "open the drawer");
-  await j.clickByMouse('[data-view="challenges"]', "open Path");
-  await j.clickByMouse('[data-maintenance]', "start Practice from Path");
+  await j.clickByMouse('[data-explore-stats] [data-b="due"]', "start Practice from its row");
   await expect(page.locator('[data-practice-page]')).toHaveCount(1);
-  await j.clickByMouse('[data-pane-back]', "return to Path");
-  await expect(page.locator('[data-maintenance]'), "P1-E: the rebuilt maintenance opener regains focus").toBeFocused();
+  await j.clickByMouse('[data-pane-back]', "return to the drawer");
+  await expect(page.locator('[data-explore-stats] [data-b="due"]'), "P1-E: the rebuilt opener regains focus").toBeFocused();
 });
 
 // ── The fix round on PR #336 (REV336). Each pin is killed by a named mutant in ladder_p1_mutants.md. ──
@@ -453,57 +551,71 @@ async function pressLesson(page: any, j: any, key: string) {
   await expect(page.locator(`[data-mini-deck="${key}"] [data-mini-q]`), "P1-F: the lesson's card opens").toBeVisible({ timeout: 15_000 });
 }
 
-test("P1-F: a lesson finished in Practice opens its checkpoint without leaving the page @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+test("P1-F: a lesson finished in Practice opens its checkpoint without leaving the page", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   await seed(page, 0);
   const { unit, last } = await lessonFixture(page);
-  await door(page, j);
+  await door(page, j, false, false, true);
   const button = page.locator(`[data-checkpoint="${unit}"]`);
   await expect(button, "P1-F: the unit starts one lesson short").toBeDisabled();
   await pressLesson(page, j, last);
   const deck = `[data-mini-deck="${last}"]`;
-  await page.locator(`${deck} [data-mini-reveal]`).scrollIntoViewIfNeeded();
-  await j.clickByMouse(`${deck} [data-mini-reveal]`, "reveal the lesson's last card");
-  await page.locator(`${deck} [data-mini-got]`).scrollIntoViewIfNeeded();
-  await j.clickByMouse(`${deck} [data-mini-got]`, "grade the lesson's last card");
+  await page.locator("[data-master-bar] [data-mini-reveal]").scrollIntoViewIfNeeded();
+  await j.clickByMouse("[data-master-bar] [data-mini-reveal]", "reveal the lesson's last card");
+  await page.locator("[data-master-bar] [data-mini-got]").scrollIntoViewIfNeeded();
+  await j.clickByMouse("[data-master-bar] [data-mini-got]", "grade the lesson's last card");
   expect(await page.evaluate((k: string) => (window as any).__neural.lessonDone(k), last), "P1-F: the grade finished the lesson").toBe(true);
   await expect(button, "P1-F: the finished lesson's checkpoint is live in place").toBeEnabled();
   await expect(button).toHaveText("Start checkpoint");
 });
 
-test("P1-E: the open card's title row never blanks the card @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+test("P1-E: the open card's title row never blanks the card", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   await seed(page, 2); await door(page, j);
-  await j.clickByMouse('[data-session-row][aria-expanded="true"]', "the card's own title row");
+  // L1-R0 (v1.290.0): the card's title row is its place's row in Master the game's list (the deck row that only repeats the
+  // place is not drawn); a press on it keeps the card, as a press on the deck row did
+  await j.clickByMouse('[data-master-row][data-on]', "the card's own title row, its place's");
   await expect(page.locator('[data-mini-q]:visible'), "P1-E: the title row keeps the card").toHaveCount(1);
-  await expect(page.locator('[data-session-row]:visible'), "P1-E: and its title").toHaveCount(1);
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "reveal under the same title");
+  await expect(page.locator('[data-master-row][data-on]'), "P1-E: and its title").toHaveCount(1);
+  await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "reveal under the same title");
   await expect(page.locator('[data-mini-a]:visible'), "P1-E: the card still answers").toHaveCount(1);
 });
 
-for (const viewport of [{ width: 390, height: 631 }, { width: 1440, height: 900 }]) test(`P1-C: finishing at ${viewport.width}×${viewport.height} puts the end card and Keep practising on screen @curated`, async ({ page }) => {
+for (const viewport of [{ width: 390, height: 631 }, { width: 1440, height: 900 }]) test(`P1-C: finishing at ${viewport.width}×${viewport.height} puts the end card and Keep practising on screen`, async ({ page }) => {
   await page.setViewportSize(viewport);
-  const j = journey(page); await j.boot("/");
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
-  await seed(page, 1, 20); await door(page, j);
-  await page.locator('[data-mini-reveal]:visible').scrollIntoViewIfNeeded();
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "reveal the last owed card");
-  await page.locator('[data-mini-got]:visible').scrollIntoViewIfNeeded();
-  await page.evaluate(() => { (window as any).__endCard = document.querySelector('[data-session-row][aria-expanded="true"]'); });
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-got]', "grade the last owed card");
+  // Until v1.278.0: 20 answered today and one owed card, so grading that card finished the session. With the goal met,
+  // Practice now deals another round by worth (U171 a: a goal, never a cap), so the day here has ONE card left of its
+  // goal: the session is that card (until ANKI1 also the floor's one new card if it was a review), graded through its controls
+  await seed(page, 1, 19); await door(page, j);
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.order || null)).toBe("worth");
+  const held = await page.evaluate(() => (window as any).__neural._session.plan.total);
+  expect(held, "a card or two: what is left of the goal").toBeLessThanOrEqual(2);
+  for (let i = 0; i < held; i++) {
+    await expect(page.locator('[data-master-bar] [data-mini-reveal]:visible')).toHaveCount(1, { timeout: 5_000 });
+    await page.locator('[data-mini-reveal]:visible').scrollIntoViewIfNeeded();
+    await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "reveal");
+    await page.locator('[data-mini-got]:visible').scrollIntoViewIfNeeded();
+    await page.evaluate(() => { (window as any).__endCard = document.querySelector('[data-session-row][aria-expanded="true"]'); });
+    await j.clickByMouse('[data-master-bar] [data-mini-got]', i === held - 1 ? "grade the last card" : "grade");
+    if (i < held - 1) await page.waitForTimeout(700);
+  }
   await expect(page.locator("[data-session-complete]")).toHaveCount(1);
   await page.locator("[data-session-complete]").evaluate(el => Promise.all(el.getAnimations().map(a => a.finished)));   // it rises in on a transform
   const view = await page.evaluate(() => {
-    const list = (document.querySelector("[data-session]") as HTMLElement).parentElement as HTMLElement, box = list.getBoundingClientRect();
+    // the drawer's scrolling list (L1, v1.290.0: `[data-session]`'s parent is now the open card's own block, under its row)
+    const list = (document.querySelector("[data-session]") as HTMLElement).closest(".ng-pane-drillhead + div") as HTMLElement, box = list.getBoundingClientRect();
     const rect = (sel: string) => document.querySelector(sel)!.getBoundingClientRect();
     const inside = (sel: string) => rect(sel).top >= box.top && rect(sel).bottom <= box.bottom + 1;
     return { end: inside("[data-session-complete]"), more: inside("[data-plan-more]"), kept: (window as any).__endCard.isConnected,
-      gap: rect("[data-session-complete]").top - rect(".ng-practice-nav").bottom };
+      // until v1.290.0 the two technique buttons sat between the card and its end; they moved to the drawer's foot (L1)
+      gap: rect("[data-session-complete]").top - rect("[data-practice-keys]").bottom };
   });
   expect(view.kept, "P1-C: finishing never rebuilds the card").toBe(true);
   expect(view.gap, "P1-C: the end stands directly under the card").toBeLessThan(80);
@@ -513,8 +625,8 @@ for (const viewport of [{ width: 390, height: 631 }, { width: 1440, height: 900 
   await expect(page.locator("[data-session-complete]"), "P1-C: continuation reopens the session").toHaveCount(0);
 });
 
-test("P1-F: one owed card, one stripe and an unplanned visit read as plain counts @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+test("P1-F: one owed card, one stripe and an unplanned visit read as plain counts", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   let release!: () => void;
   const gate = new Promise<void>(r => { release = r; });
@@ -528,18 +640,25 @@ test("P1-F: one owed card, one stripe and an unplanned visit read as plain count
     }
   });
   try {
-    await door(page, j);
+    await door(page, j, false, false, false, true);
     const count = page.locator('[data-session-section="Practice"]');
     await expect(page.locator("[data-practice-section]")).toHaveText("Due reviews \u00b7 1 card");
     await expect(page.locator("[data-practice-belt]")).toHaveText("White belt \u00b7 1 stripe \u00b7 Gi");
     await expect(count, "P1-F: no plan means no claim about new work").toHaveText("1 card to review across 1 technique");
     release();
-    await expect(count).toHaveText(/^1 card to review across 1 technique \u00b7 \d+ new across \d+ techniques?, weakest first$/);
+    // until v1.278.0 the landed plan read "1 card to review across 1 technique · N new across K techniques, weakest first";
+    // the untouched queue now becomes the worth plan whole (U171 a), and its count line prints the plan's own figures
+    await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.order || null)).toBe("worth");
+    const p = await page.evaluate(() => { const p = (window as any).__neural._session.plan; return { n: p.visits.length, due: p.dueCards, fresh: p.newCards }; });
+    // ANKI1: new cards only when nothing is due (until then "N new, by how often they come up in your rolls and how close you are
+    // to forgetting them")
+    await expect(count).toHaveText(p.n + (p.n === 1 ? " position: " : " positions: ") + (p.due ? p.due + (p.due === 1 ? " card" : " cards") + " to review \u00b7 " : "") +
+      (p.fresh ? p.fresh + " new, by how often they come up in your rolls" : "new cards come when nothing is due"));
   } finally { release(); }
 });
 
-test("P1-E: an answered recognition card offers Next card to the mouse @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+test("P1-E: an answered recognition card offers Next card to the mouse", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());
   await seed(page, 0);
@@ -561,25 +680,25 @@ test("P1-E: an answered recognition card offers Next card to the mouse @curated"
   const next = page.locator('[data-mini-reveal]:visible');
   await expect(next, "P1-E: the answered card offers the next one").toHaveText("Next card");
   await expect(next).toBeEnabled();
-  await j.clickByMouse('[data-session-row][aria-expanded="true"] + div [data-mini-reveal]', "Next card");
+  await j.clickByMouse('[data-master-bar] [data-mini-reveal]', "Next card");
   await expect(page.locator('[data-mini-q]:visible'), "P1-E: Next card moves on").not.toHaveText(question!);
 });
 
-test("P1-F: with no planner a corridor lesson still opens, and the fallback says so @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+test("P1-F: with no planner a corridor lesson still opens, and the fallback says so", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await page.route("**/app/gameplan.js*", route => route.abort());
   await seed(page, 1);
   const { last } = await lessonFixture(page);
-  await door(page, j);
+  await door(page, j, false, false, true, true);
   await expect.poll(() => page.evaluate(() => (window as any).__neural._gameplanLoadState)).toBe("failed");
   await pressLesson(page, j, last);
   const beats = await page.evaluate(() => (window as any).__neural.beats.filter((b: any) => b.beat === "practice_lesson_unplanned"));
   expect(beats.map((b: any) => [b.deckKey, b.planner]), "P1-F: the fallback names itself").toEqual([[last, false]]);
 });
 
-test("P1-F: the graph follows the queue beside the page, and rings it @curated", async ({ page }) => {
-  const j = journey(page); await j.boot("/");
+test("P1-F: the graph follows the queue beside the page, and rings it", async ({ page }) => {
+  const j = journey(page, CLASSIC); await j.boot("/");
   await page.waitForFunction(() => !!(window as any).__neural.curriculum);
   await j.land("Mount Top");   // a landed board: on a bare boot, advance() starts the roll that retires the session
   await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime());

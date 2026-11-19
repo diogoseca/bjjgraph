@@ -46,8 +46,8 @@ description: "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, ba
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Jeff Glover explains low grip and high grip for deep half guard",
-      "description": "Deep Half Guard film study: Jeff Glover explains low grip and high grip for deep half guard.",
+      "name": "Low grip and high grip for deep half guard",
+      "description": "Deep Half Guard film study: Low grip and high grip for deep half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_IGB9jEvXfo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_IGB9jEvXfo",
       "url": "https://www.youtube.com/watch?v=_IGB9jEvXfo",
@@ -114,7 +114,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 ![](https://www.youtube.com/watch?v=_IGB9jEvXfo)
 
-<p class="clip-credit"><strong>Jeff Glover explains low grip and high grip for deep half guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Low grip and high grip for deep half guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -267,7 +267,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 - Posture Maintenance: Keep good posture and avoid being flattened or broken down
 
-- Base Widening: Use free leg to establish wide base that makes you difficult to off-balance. In this example, the narrator describes Gordon Ryan first trying to flatten the deep-half player with a crossface; if that fails, he points his trailing leg toward their far hip to make it harder for them to rise or use the old school sweep. Narration: [Less Impressed More Involved BJJ, 13:51.959–14:11.579](https://www.youtube.com/watch?v=XGBHXO-EMk0&t=831s).
+- Base Widening: Use free leg to establish wide base that makes you difficult to off-balance. In this example, the narrator describes the top player first trying to flatten the deep-half player with a crossface; if that fails, the top player points the trailing leg toward their far hip to make it harder for them to rise or use the old school sweep. Narration: [Less Impressed More Involved BJJ, 13:51.959–14:11.579](https://www.youtube.com/watch?v=XGBHXO-EMk0&t=831s).
 
 - Grips: Prevent opponent from establishing sweep grips on belt or pants
 

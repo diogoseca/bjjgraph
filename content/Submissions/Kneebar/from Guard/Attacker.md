@@ -190,8 +190,8 @@ description: "How to execute Kneebar from Guard in BJJ. Attacking perspective wi
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "BJJ No-Gi Kneebar Technique \ud83e\udd4b | Jiu Jitsu Matrix Tutorial \ud83c\udfc6",
-      "description": "Kneebar from Guard (Attacker) film study: BJJ No-Gi Kneebar Technique \ud83e\udd4b | Jiu Jitsu Matrix Tutorial \ud83c\udfc6.",
+      "name": "BJJ No-Gi Kneebar Technique \ud83e\udd4b | Tutorial \ud83c\udfc6",
+      "description": "Kneebar from Guard (Attacker) film study: BJJ No-Gi Kneebar Technique \ud83e\udd4b | Tutorial \ud83c\udfc6.",
       "thumbnailUrl": "https://i.ytimg.com/vi/12rNXPlqVXo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/12rNXPlqVXo",
       "url": "https://www.youtube.com/watch?v=12rNXPlqVXo",
@@ -200,8 +200,8 @@ description: "How to execute Kneebar from Guard in BJJ. Attacking perspective wi
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Matrix-Kneebar-Heel Hook by Mickey Musumeci",
-      "description": "Kneebar from Guard (Attacker) film study: Matrix-Kneebar-Heel Hook by Mickey Musumeci.",
+      "name": "Matrix-Kneebar-Heel Hook",
+      "description": "Kneebar from Guard (Attacker) film study: Matrix-Kneebar-Heel Hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HQSxxYL1Aew/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HQSxxYL1Aew",
       "url": "https://www.youtube.com/watch?v=HQSxxYL1Aew",
@@ -244,7 +244,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 ![](https://www.youtube.com/watch?v=12rNXPlqVXo)
 
-<p class="clip-credit"><strong>BJJ No-Gi Kneebar Technique 🥋 | Jiu Jitsu Matrix Tutorial 🏆</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=12rNXPlqVXo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ No-Gi Kneebar Technique 🥋 | Tutorial 🏆</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=12rNXPlqVXo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -252,7 +252,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 ![](https://www.youtube.com/watch?v=HQSxxYL1Aew)
 
-<p class="clip-credit"><strong>Matrix-Kneebar-Heel Hook by Mickey Musumeci</strong> · 0:26 · <a href="https://www.youtube.com/watch?v=HQSxxYL1Aew" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Matrix-Kneebar-Heel Hook</strong> · 0:26 · <a href="https://www.youtube.com/watch?v=HQSxxYL1Aew" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

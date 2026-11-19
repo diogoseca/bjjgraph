@@ -161,33 +161,30 @@ description: "Rotate to Carni (defender): A leg clearing the head with an overho
       "@type": "VideoObject",
       "position": 1,
       "name": "Omoplata escape to front headlock",
-      "description": "Rotate to Carni (Defender) film study: Omoplata escape to front headlock, taught by Asaf Mich.",
+      "description": "Rotate to Carni (Defender) film study: Omoplata escape to front headlock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0-SG9igq40E/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0-SG9igq40E",
       "url": "https://www.youtube.com/watch?v=0-SG9igq40E",
-      "creator": { "@type": "Person", "name": "Asaf Mich" },
       "duration": "PT14S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Simple but risky rubber guard escape",
-      "description": "Rotate to Carni (Defender) film study: Simple but risky rubber guard escape, taught by BJJ4Breakfast.",
+      "description": "Rotate to Carni (Defender) film study: Simple but risky rubber guard escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
       "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT131S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Troubleshooting the Lockdown from rubber guard",
-      "description": "Rotate to Carni (Defender) film study: Troubleshooting the Lockdown from rubber guard, taught by Eddie Bravo.",
+      "description": "Rotate to Carni (Defender) film study: Troubleshooting the Lockdown from rubber guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FkthdKIbacI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FkthdKIbacI",
       "url": "https://www.youtube.com/watch?v=FkthdKIbacI",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     }
   ]
@@ -200,7 +197,7 @@ description: "Rotate to Carni (defender): A leg clearing the head with an overho
 
 <section id="overview" class="content-section">
 
-The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled. Richie Martinez demonstrates the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone.
+The bottom guard player begins in New York with a safe neck-clearing angle, facing a top player whose posture is controlled. The cited demonstration shows the shoulder-lock mechanics through Jersey from Z guard. A direct New York entry is a positional adaptation, not established by that lesson alone.
 
 A leg clearing the head with an overhook is an upper-body trap, even if a butterfly hook remains below. Avoid reaching away while the opponent sets the triceps control. Maintain a balanced base and a safe inside frame before the shoulder becomes clamped.
 
@@ -226,7 +223,7 @@ An early escape removes the triceps and leg connections before the shoulder is f
 
 ![](https://www.youtube.com/watch?v=0-SG9igq40E)
 
-<p class="clip-credit"><strong>Omoplata escape to front headlock</strong> — taught by Asaf Mich · 0:14 · <a href="https://www.youtube.com/watch?v=0-SG9igq40E" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata escape to front headlock</strong> · 0:14 · <a href="https://www.youtube.com/watch?v=0-SG9igq40E" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,7 +231,7 @@ An early escape removes the triceps and leg connections before the shoulder is f
 
 ![](https://www.youtube.com/watch?v=AvivOVuYcCk)
 
-<p class="clip-credit"><strong>Simple but risky rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple but risky rubber guard escape</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -242,7 +239,7 @@ An early escape removes the triceps and leg connections before the shoulder is f
 
 ![](https://www.youtube.com/watch?v=FkthdKIbacI)
 
-<p class="clip-credit"><strong>Troubleshooting the Lockdown from rubber guard</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=FkthdKIbacI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Troubleshooting the Lockdown from rubber guard</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=FkthdKIbacI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

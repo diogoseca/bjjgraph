@@ -75,6 +75,7 @@ npm run regenerate:build
 
 # neural app  (npm run build does NOT rebuild the bundle — a stale one makes
 #              journeys time out at 240s and look like contention. See §6.4)
+#              test:curated is the deploy smoke; the PR's e2e-full runs the whole suite
 npm run dev:neural:app && npm run test:curated
 
 # anything touching source/quartz
@@ -86,6 +87,10 @@ cd source && npm run check
 
 **Push is the owner's call.** Commit locally as much as you like; `git push origin dev` waits for
 their go-ahead — they test locally first, especially anything touching the app.
+
+**Promote to production only a commit whose push-run `e2e-full.yml` is green.** The deploy gate runs
+only what a deploy can break (`tests/artifacts/deploy_gate.json`), and no PR run sees main's tree.
+`deploy.yaml`'s first gate refuses any other; its message says how to get a run for an older commit.
 
 **End a delivery with the literal command to run it**, and say plainly what is blocked on them.
 
@@ -267,7 +272,8 @@ with the `<snapshot />` receiver).
 (**the one you want after editing `neural/src/*`**) · `dev:neural` also regenerates the payload ·
 `regenerate:neural` the full payload emit.
 
-**Test** — `test` full core suite · `test:curated` the `@curated` deployment gate (45-min ceiling) ·
+**Test** — `test` full core suite · `test:curated` the `@curated` deploy gate: what a deploy can break plus
+one smoke per surface, a row each in `tests/artifacts/deploy_gate.json` ·
 `test:units` pure node --test · `e2e:gen` generated suite · `npm run e2e -- --headed` for a visible
 browser (ports: §8). `pree2e` and both `test*` scripts run
 `scripts/check_no_raw_random.sh` first.
@@ -342,7 +348,7 @@ carries its traps' trigger tokens.
 - …add, move or hide a fixed overlay, or touch `attachInput` → **§6.1** in
   `.claude/rules/traps-neural.md`: `setPointerCapture` · `opacity:0` · `_dockLandCard` ·
   `_dockLandFilm` · `_dockLandMore` · `_landDatum` · `_bandBot` · `position:fixed` · `z-index` ·
-  `style.color = ""`
+  `style.color = ""` · Quartz's bare `header` / `img` rules
 - …change the canvas draw path, a node coordinate, or the camera → **§6.2**, same file: `n.y` vs
   `LY(n)` / `pairMid(n)` · `camTarget` · `this.now` · `halfW(n)` vs `n.r * scale`
 - …write — or trust — a Playwright assertion → **§6.3** in `.claude/rules/traps-playwright.md`:
@@ -393,9 +399,9 @@ here because a rename can start anywhere.
 - **LOOKS DELETABLE, IS NOT.** `AuthUI.tsx` + `source/quartz/components/scripts/authUI.inline.ts` render NOTHING but are the only static importer of `supabase.ts` (which installs the `window.__bjjAuth` façade at module top-level) and the only code that completes a Google OAuth redirect-back — delete either and signed-in users break while every headless test stays green. `CategoryNav.tsx` is the site's only persistent static nav and **NO gate guards it**: `check_seo_parity.py` extracts from the `<article>` only, and `#sidebar-overlay` is a sibling of `#quartz-root`. `openListSession` has exactly ONE caller left (`[data-shared-drill]`, `app.src.jsx`) and it is the received-class study path.
   <br>_(3)_
 
-- **LOOKS ALIVE, IS DEAD — do not debug through it.** `renderDossier` and its subtree (`dossierSheetRef`, `_renderNodeQuestion`, `nodeQuestionFor`, `askFormat`, `jumpToState`) are unreachable from the app: `_dossierIdx` is assigned `null` at four sites and a node index at NONE, so the guarded call at `app.src.jsx` can never fire and only `first-impression.spec.ts` reaches `renderDossier` directly. The Forward catalog (`forward/shared/*`) is a DESIGN MOCK with no parity gate — `check_forward_catalog.mjs` only checks frames render, so retired rows survive there by default.
+- **LOOKS ALIVE, IS DEAD — do not debug through it.** The Forward catalog (`forward/shared/*`) is a DESIGN MOCK with no parity gate — `check_forward_catalog.mjs` only checks frames render, so retired rows survive there by default (it still lists the node dossier, whose code went in v1.255.1).
   **And `neural/src/` contains untracked design dumps that grep exactly like the app:** `Neural Graph.dc.html` (288KB, touched as recently as HEAD) still defines `movePopularity`, `_hash01`, `_freqMap` and the retired `orderScore` fork, and `neural/src/graph-data.json` is a stale 1899-node copy of a 1467-node wire. **Scope every "is this gone?" grep to the build inputs, and read the shipped wire from `source/quartz/static/neural/`.**
-  <br>_(4)_
+  <br>_(4; the node dossier, one of them, deleted in v1.255.1)_
 
 
 ### 6.9 Before you quote a number, cite a gate, or claim something is covered
@@ -436,7 +442,7 @@ Follow `templates/Systems.json` and `docs/Content.md`: independent source-ground
 no filler quotas, unsupported mechanics, mastery timelines or invented review credentials.
 Preserve graph membership; related cards are references, not a proficiency test. No reader
 homework or `start_here`. Course-first layout renders overview once and Sources last; verified
-previews mount immediately without autoplay. Alternatives resolve exact System names to local pages.
+previews mount immediately and play muted, with visible controls. Alternatives resolve exact System names to local pages.
 
 - Products use verified canonical `course_url`; never commit tracking queries or placeholders.
   Only `link_status: live` renders; `link_checked` records actual listing verification.
@@ -475,6 +481,7 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 | `e2e/gen/ledger.json` | `scripts/check_gen_specs.sh`, `e2e/gen-ledger-reporter.ts` | one row per spec; `known-red` = tolerated |
 | `tests/artifacts/ruleset_availability.json` | `validate:availability` | DERIVED, never authored — regenerate, never hand-edit |
 | `tests/artifacts/ruleset_surfaces.json` | `validate:surfaces` | one row per enumeration that deliberately skips the mask, each with a REASON; a row matching nothing fails |
+| `tests/artifacts/deploy_gate.json` | `tests/deploy_gate.test.mjs`, e2e-full's listing step, `posttest:curated` | one row per `@curated` test, with its tier and reason: a tag with no row fails, a row with no test fails, and so does a gate run whose passed tests are not exactly the rows; `tests/artifacts/deploy_gate_budget.json` holds the line, which both deploys' tripwire reads after the upload |
 | `tests/artifacts/wikilink_ambiguity_baseline.json` | `regenerate:md` | bare names no family decides; a new one fails, a cleared one fails `--all`; move with `--accept-ambiguity --reason` |
 
 **Suites own dedicated ports** (core :8133, gen :8127, share :8129, replay :8151), all with
@@ -497,9 +504,9 @@ content are inputs to what the bots write, and a change here changes their outpu
 | workflow | trigger | what it does |
 |---|---|---|
 | `ci-validate.yml` | PR, push to dev | schemas, units, ordinals, MC viability, graph ratchet, **this file's budget + refs** |
-| `e2e-full.yml` | PR, weekly, manual | the core suite in four shards, plus `e2e:gen` vs its ledger |
+| `e2e-full.yml` | PR, push to dev, weekly, manual | the core suite in four shards, plus `e2e:gen` vs its ledger |
 | `e2e-gen.yml` | weekly, manual | `e2e:gen` on **dev**, judged by its ledger |
-| `deploy.yaml` / `deploy-dev.yaml` | push | build, stamp deploy-time values, all gates, Cloudflare Pages, Lighthouse, IndexNow |
+| `deploy.yaml` / `deploy-dev.yaml` | push | build, stamp deploy-time values, all gates, Cloudflare Pages, the gate's time, Lighthouse, IndexNow |
 | `content-improvement-bot.yml` † | Sat 18:00 UTC | improves 2 content files: select by git age → validate → Claude fills TODOs → revalidate (3 tries) → regenerate → PR |
 | `analytics-content-improvement.yml` † | Sun 06:00 UTC | PostHog-driven content work |
 | `proofread-bot.yml` | Sun 18:00 UTC | LLM audit of graph edges and probabilities |

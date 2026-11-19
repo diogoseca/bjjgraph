@@ -154,22 +154,20 @@ description: "Control point hierarchy helps you choose which grip or contact mat
       "@type": "VideoObject",
       "position": 1,
       "name": "The positional hierarchy explained",
-      "description": "Control Point Hierarchy film study: The positional hierarchy explained, taught by Lachlan Giles.",
+      "description": "Control Point Hierarchy film study: The positional hierarchy explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OVNThMHxY4k/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OVNThMHxY4k",
       "url": "https://www.youtube.com/watch?v=OVNThMHxY4k",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT275S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Positional guide: ranking control positions",
-      "description": "Control Point Hierarchy film study: Positional guide: ranking control positions, taught by Will Brooks.",
+      "description": "Control Point Hierarchy film study: Positional guide: ranking control positions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/x_IrC_-zzYU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/x_IrC_-zzYU",
       "url": "https://www.youtube.com/watch?v=x_IrC_-zzYU",
-      "creator": { "@type": "Person", "name": "Will Brooks" },
       "duration": "PT598S"
     }
   ]
@@ -199,7 +197,7 @@ Identify the movement you need to stop, then choose a control that stops it. Hea
 
 ![](https://www.youtube.com/watch?v=OVNThMHxY4k)
 
-<p class="clip-credit"><strong>The positional hierarchy explained</strong> — taught by Lachlan Giles · 4:35 · <a href="https://www.youtube.com/watch?v=OVNThMHxY4k" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The positional hierarchy explained</strong> · 4:35 · <a href="https://www.youtube.com/watch?v=OVNThMHxY4k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -207,7 +205,7 @@ Identify the movement you need to stop, then choose a control that stops it. Hea
 
 ![](https://www.youtube.com/watch?v=x_IrC_-zzYU)
 
-<p class="clip-credit"><strong>Positional guide: ranking control positions</strong> — taught by Will Brooks · 9:58 · <a href="https://www.youtube.com/watch?v=x_IrC_-zzYU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Positional guide: ranking control positions</strong> · 9:58 · <a href="https://www.youtube.com/watch?v=x_IrC_-zzYU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

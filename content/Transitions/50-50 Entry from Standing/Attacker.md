@@ -186,8 +186,8 @@ description: "How to execute 50-50 Entry from Standing in BJJ. Attacking perspec
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rob Mudrak 50/50 guard entry from standing",
-      "description": "50-50 Entry from Standing (Attacker) film study: Rob Mudrak 50/50 guard entry from standing.",
+      "name": "50/50 guard entry from standing",
+      "description": "50-50 Entry from Standing (Attacker) film study: 50/50 guard entry from standing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hTHrjyV62nU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hTHrjyV62nU",
       "url": "https://www.youtube.com/watch?v=hTHrjyV62nU",
@@ -223,7 +223,7 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 ![](https://www.youtube.com/watch?v=hTHrjyV62nU)
 
-<p class="clip-credit"><strong>Rob Mudrak 50/50 guard entry from standing</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=hTHrjyV62nU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>50/50 guard entry from standing</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=hTHrjyV62nU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

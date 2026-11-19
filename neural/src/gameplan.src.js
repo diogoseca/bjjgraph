@@ -2,6 +2,11 @@
 // writer or game probability lives here. Units are distinct question hashes, not
 // deck copies, prep credits, or predicted real-world wins.
 import { ngGameplanReviewed, ngGameplanDebt } from "./gameplan-debt.src.js";
+import { ngPracticeOrder } from "./practice-queue.src.js";
+// Master the game's list (L1, v1.290.0) rides this deferred bundle: the runtime the page already waits for
+export { ngMasterRows, ngMasterStart, ngMasterWhen, ngMasterPaint } from "./master-list.src.js";
+// the cloze (L2, v1.292.0): a position's moves, asked in the list; the app calls these through the runtime
+export { ngClozeGo, ngClozeStep, ngClozeClose, ngClozeResume, ngClozeLeads, ngClozeBack, ngClozeSay, ngClozeLeadsOf } from "./master-cloze.src.js";
 export const NG_GAMEPLAN_VERSION = 1;
 
 function ngGameplanFreeze(value) {
@@ -34,6 +39,8 @@ export function ngGameplanRecommendations(provider, stamp, decks) {
   for (const [key, d] of Object.entries(decks)) {
     if (d.allowed === false || !d.count || !(d.headroom > 0)) continue;
     const r = byKey.get(key);
+    // a deck the known moves fill (stage 2) has nothing for a comparison to rank: not missing, so never "partial"
+    if (!r && d.oddsFull) continue;
     if (!r || r.status !== "ready" || !Number.isFinite(r.score) || !Number.isFinite(r.exposure) || r.exposure < 0 ||
         !Number.isFinite(r.headroom) || r.headroom <= 0 || r.headroom > d.headroom + 1e-9 ||
         typeof r.reason !== "string" || !r.reason.trim() || !r.role || r.role !== key.split("|")[1]) {
@@ -126,17 +133,53 @@ const NG_PRACTICE_REVIEWS_PER_NEW = 4;
 // cards and 77 owed the whole goal again). Goal 20: 20 new on a clear day, 4 once 16 or more are owed.
 const ngPracticeRoom = (left, due) => Math.max(0, Math.min(left, Math.max(left - due, Math.ceil(left / (NG_PRACTICE_REVIEWS_PER_NEW + 1)))));
 
-// Deck descriptors: {count, questions:[hash], exact, allowed, headroom}.
+// the presenter's sentence for withheld material, verbatim (gameplan-study-presenter.src.js TEXT.limited)
+const NG_GAMEPLAN_LIMITED = "Some compared material isn't in today's new cards; its effect is not counted in this plan.";
+// MOVES ANSWERED TODAY (Stage 4 S0, v1.286.0): only when the caller asks for moves (`worth.moveSeats`), every answer counts 1
+// toward the day's goal, a move's as a card's: a row of the `moves` record written today (an escape's too: an answer is an
+// answer). The eager count (`practiceToday`, gameplan-debt.src.js) still counts cards only; S1 adds moves there, by this rule.
+function ngGameplanMovesToday(moves, day) {
+  let n = 0;
+  for (const rows of Object.values(moves || {})) {
+    for (const r of Object.values(rows || {})) if (Array.isArray(r) && r.length >= 4 && r.slice(0, 4).every(Number.isFinite) && r[1] > 0 && r[2] === day) n++;
+  }
+  return n;
+}
+// what the moves add to a plan's overrun once asked (S0): today's move answers and the moves the order asked; 0 for a
+// plan built without moves, so every cards-only figure is today's. Every place that recomputes `overrun` adds it (the
+// independent read of S0, its finding 2: the binds dropped it)
+const ngGameplanMoveTerms = (p) => (p.movesToday || 0) + (p.moves ? p.moves.length : 0);
+// Deck descriptors: {count, questions:[hash], exact, allowed, headroom, oddsFull?}.
 // A manifest supplies shared hashes + stored SRS hashes before hydration. The
 // remainder is counted as pending, never treated as already reviewed.
-export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, decks = {}, srs = {}, provider, fallback }) {
+export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, decks = {}, srs = {}, provider, fallback, worth }) {
   const debt = ngGameplanDebt({ srs, day, decks });
   const reviewed = ngGameplanReviewed(srs, day);
   let ranking = ngGameplanRecommendations(provider, stamp, decks);
   const comparison = ranking.status;
   if (fallback && ["unavailable", "pending", "stale"].includes(comparison)) ranking = ngGameplanWeakSpots(fallback, decks);
-  const budget = Math.max(0, Math.floor(Number.isFinite(target) ? target : 20)), left = budget - reviewed.length;
-  const room = ngPracticeRoom(left, debt.count);
+  // STAGE 2 (v1.256.0, review STAGE2E): a deck whose game odds the known moves already fill (`oddsFull`) has no in-game
+  // headroom left for a comparison to rank (the presenter withholds it), while its flashcards are still new. It keeps
+  // its weak-spots place AFTER every deck the comparison ranked, so a comparison never takes away what Practice offers.
+  else if (fallback) {
+    const ranked = new Set(ranking.rows.map((r) => r.key));
+    const kept = ngGameplanWeakSpots(fallback, decks).rows.filter((r) => decks[r.key].oddsFull && !ranked.has(r.key));
+    if (kept.length) ranking = { ...ranking, rows: ranking.rows.concat(kept) };
+  }
+  const movesAsked = !!(worth && worth.moveSeats != null && typeof worth.moveSeats === "object");   // the builder's own test
+  const movesToday = movesAsked ? ngGameplanMovesToday(worth.moves, day) : 0;
+  const budget = Math.max(0, Math.floor(Number.isFinite(target) ? target : 20)), left = budget - reviewed.length - movesToday;
+  // WHAT IS WORTH MOST (U171 a, v1.278.0): the day's rows come from practice-queue.src.js when the app hands it the game:
+  // what is due first, worth most first, and a new card only when nothing is due (the owner's Anki rule, ANKI1).
+  // Anything else (no game, no seat map, a record with no answer) is today's order below, and the plan says why.
+  // a goal, never a cap: with nothing left of today's goal, Practice deals another round of the goal's size, by worth
+  const order = worth ? ngGameplanOrder({ day, goal: left > 0 ? left : budget, srs, decks, revision, ...worth }) : null;
+  if (order && order.status === "ok") return ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, reviewed, ranking, comparison, order, movesToday });
+  // the owner's Anki rule holds here too (ANKI1-R1, the reader's finding 3): when the worth order was asked for and the game
+  // is not ready yet (no weights, no hands, no seat map), today's order serves, and a session mounted on it keeps it. Its
+  // room for new cards is what the due cards leave of the goal, never ngPracticeRoom's fifth of it, and its new decks come
+  // after every review (below), never slipped in between them
+  const room = worth ? Math.max(0, left - debt.count) : ngPracticeRoom(left, debt.count);
   const used = new Set([...reviewed, ...debt.questions]);
   const dueKeys = new Set(debt.rows.map((r) => r.key));
   const fresh = [], more = [];
@@ -167,22 +210,137 @@ export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 20, de
   const queue = [];
   let reviews = 0, learned = 0, next = 0;
   for (const r of debt.rows) {
-    while (next < fresh.length && reviews >= NG_PRACTICE_REVIEWS_PER_NEW * (learned + 1)) { learned += fresh[next].count; queue.push(fresh[next++].key); }
+    // with the worth order asked for (the game not ready yet), the owner's Anki rule: no new deck before the reviews (ANKI1-R1)
+    while (!worth && next < fresh.length && reviews >= NG_PRACTICE_REVIEWS_PER_NEW * (learned + 1)) { learned += fresh[next].count; queue.push(fresh[next++].key); }
     queue.push(r.key); reviews += r.count;
   }
   for (const r of fresh.slice(next)) queue.push(r.key);
+  // WHERE TODAY'S NEW DECKS CAME FROM (v1.256.2), read by the summary and by Practice's count line, so the two
+  // cannot disagree: all from the weak spots, all from the comparison, or the comparison's then the weak spots'
+  // (decks the known moves fill, kept after the ranked ones).
+  const kept = fresh.filter((r) => r.source === "weak-spots").length;
+  const newFrom = !kept ? "comparison" : kept === fresh.length ? "weak-spots" : "mixed";
+  // "Some compared material isn't in today's new cards" (the presenter's, when it withheld a deck: its file is in the
+  // study bundle's law hashes, so it is matched here, never edited). A deck the moves fill is withheld AND kept, so
+  // when EVERY withheld deck is in today's new cards the line is untrue and dropped; it stays while any is not
+  // (the orchestrator's call, STAGE2H B a).
+  const withheld = ((provider && provider.study && provider.study.groups) || []).filter((g) => g.status === "beneficial")
+    .flatMap((g) => (g.members || []).filter((m) => m.withheld).map((m) => m.deck && m.deck.deckKey));
+  const today = new Set(fresh.map((r) => r.key));
+  const assumptions = withheld.length && withheld.every((k) => today.has(k))
+    ? ranking.assumptions.filter((a) => a !== NG_GAMEPLAN_LIMITED) : ranking.assumptions;
   return ngGameplanFreeze({
     version: NG_GAMEPLAN_VERSION, day, ruleset, revision, stamp, target: budget, queue,
     reviewed, due: debt.rows, fresh, more, blocked: debt.blocked,
-    dueQuestions: debt.questions, status: ranking.status, comparison, assumptions: ranking.assumptions,
+    dueQuestions: debt.questions, status: ranking.status, comparison, assumptions, newFrom, order: "oldest", orderStatus: order ? order.status : "off",
     missing: ranking.missing, room, newCards: spent, dueCards: debt.count,
-    total: debt.count + spent, overrun: Math.max(0, reviewed.length + debt.count + spent - budget),
+    total: debt.count + spent, overrun: Math.max(0, reviewed.length + debt.count + spent + movesToday - budget),
+    // S0: today's order (the game not ready) asks cards only, but with moves asked their answers today count toward the goal
+    ...(movesAsked ? { movesToday } : {}),
   });
+}
+
+// THE ORDER, KEPT FOR ITS INPUTS. The drawer's Practice row asks for a plan on every refresh (a grade, a payload), and the
+// order walks every deck: ~20 ms a call where today's plan takes ~6. A grade or a pull replaces `srs` and `stage` and bumps
+// the knowledge revision; a deck that loads flips `exact`; a ruleset flip or a new manifest is a new game. Any of them, or a
+// new day or goal, or the rating's live set landing (ANKI1-R1), builds it again; nothing else can change what it holds. THE REVISION
+// IS LOAD-BEARING: `_schedule` (the reveal-unanswered path) edits `srs` IN PLACE, so the object alone would serve a stale
+// order (the reader's R9; pinned in tests/practice_queue.test.mjs).
+let ngGameplanOrderAt = null;
+function ngGameplanOrder(input) {
+  const exact = Object.values(input.decks).reduce((n, d) => n + (d.exact ? 1 : 0), 0);
+  // S0: the moves record is edited IN PLACE by its writer (`_gradeMove`), like `srs` by `_schedule`, so its revision is a key
+  const key = [input.srs, input.stage, input.game, input.seats, input.day, input.goal, input.revision, exact, input.live,
+    input.moves, input.moveSeats, input.movesRev];
+  const c = ngGameplanOrderAt;
+  if (c && c.key.every((v, i) => v === key[i])) return c.order;
+  const order = ngPracticeOrder(input);
+  ngGameplanOrderAt = { key, order };
+  return order;
+}
+
+// THE WORTH PLAN (U171 a): the law's rows in the shape the page plays. A row that holds an owed card is a review row (its
+// `owed` lists those cards; any new card of the same deck rides along), a row of new cards only is a new row. "Keep practising
+// · more new cards" keeps today's ranking (the comparison, else the weak spots), whole decks, as it always has.
+function ngGameplanWorth({ day, ruleset, revision, stamp, budget, decks, debt, reviewed, ranking, comparison, order, movesToday = 0 }) {
+  const card = (n) => n + (n === 1 ? " card" : " cards");
+  const rows = order.rows.map((r) => ({ ...r, kind: r.owed.length ? "due" : "new",
+    reason: !r.owed.length ? "New cards, picked for how often this comes up in your rolls." : r.count > r.owed.length
+      ? card(r.owed.length) + " due for review, so you keep what you've learned, and " + (r.count - r.owed.length) + " new." : undefined }));
+  const due = rows.filter((r) => r.kind === "due"), fresh = rows.filter((r) => r.kind === "new"), keys = new Set(rows.map((r) => r.key));
+  const used = new Set([...reviewed, ...rows.flatMap((r) => r.questions)]), more = [];
+  for (const [index, r] of ranking.rows.entries()) {
+    const d = decks[r.key];
+    if (keys.has(r.key) || !d) continue;
+    const questions = [...new Set(d.questions || [])].filter((q) => !used.has(q)), pending = d.exact ? 0 : Math.max(0, d.count - (d.questions || []).length);
+    if (questions.length + pending) more.push({ ...r, rank: index + 1, questions, pending, count: questions.length + pending, kind: "optional" });
+  }
+  for (const r of rows) {
+    r.related = ranking.rows.filter((other) => other.key !== r.key && (decks[other.key].questions || []).some((q) => r.questions.includes(q)))
+      .map((other) => ({ key: other.key, role: other.role, reason: other.reason }));
+  }
+  const dueQuestions = [...new Set(due.flatMap((r) => r.owed))];
+  const newCards = rows.reduce((n, r) => n + r.count - r.owed.length, 0), total = dueQuestions.length + newCards;
+  // THE GUARD IS WHOLE only when every one of the three due longest was known to be answerable (R409, the reader's finding
+  // 1): built before the rating's live set landed, it guards the shared questions alone, so the sentence is not said and the
+  // app plans an untouched session again when the set lands (`_practiceGuard`)
+  const guarded = !order.counts.law.short;
+  return ngGameplanFreeze({
+    version: NG_GAMEPLAN_VERSION, day, ruleset, revision, stamp, target: budget, queue: rows.map((r) => r.key),
+    reviewed, due, fresh, more, blocked: debt.blocked, dueQuestions, status: ranking.status, comparison,
+    assumptions: ranking.assumptions, newFrom: "worth", order: "worth", orderStatus: "ok",
+    visits: order.visits, counts: order.counts, guarded, missing: ranking.missing, room: newCards, newCards, dueCards: dueQuestions.length,
+    total, overrun: Math.max(0, reviewed.length + total + ngGameplanMoveTerms({ movesToday, moves: order.moves }) - budget),
+    // S0: the asked moves pass through as the order listed them (each visit's `moves` too), with today's move answers. The
+    // card figures above stay the cards' (`total`, `dueCards`, `newCards`); only `overrun` counts the moves, and only when asked
+    ...(order.moves ? { moves: order.moves, movesToday } : {}),
+    // ANKI1-R1: "at most 6" is a visit's, not the page's (a position comes round again while its cards are due, the
+    // reader's finding 4); "nothing is due" is this ruleset's game (a card in a deck it hides waits in "Everything owed",
+    // finding 1); and "Keep practising" deals the next round, "More new cards" adds whole techniques (finding 5)
+    // the view's name since v1.276.0 (owner U169 c), "Master the game": the deferred planner cannot see app.src.jsx's
+    // NG_PRACTICE_NAME, so the words are here; tests/practice_queue.test.mjs pins the two equal
+    why: "Master the game asks the cards that are due first, position by position, starting where it is worth most: what comes up most in " +
+      "your rolls and what you are closest to forgetting. It asks about six at a position at a time, and a position comes round again " +
+      "while its cards are due. " + (guarded ? "The three cards due longest come every day, " + (order.moves ? "moves among them, " : "") + "so none waits forever. " : "") + "New cards come only when nothing " +
+      "due in this game is left; a card due in a deck this ruleset leaves out waits in \u201cEverything owed, oldest first\u201d. " +
+      "Correct answers make your moves more likely to work in the game; that is not a measure of real grappling. A question two decks " +
+      "share counts once. \u201cKeep practising\u201d deals the next round; \u201cMore new cards\u201d adds whole new techniques: " +
+      ranking.assumptions.join(" "),
+  });
+}
+
+// THE PAGE'S TWO LINES FOR A WORTH PLAN (the heading over the open card, the count in "Practice details"), here so the eager
+// bundle carries none of their copy. `live` is ngGameplanProgress's; `key` the open row's deck.
+// A row the ORDER placed carries a numeric `visit`; a row appended by "More new cards" or a Path lesson does not (STAGE3-R1,
+// the reader's finding 3: it printed "NaN"), so it is named apart, and its cards are counted apart, by how they were picked.
+export function ngGameplanLines(plan, live, key) {
+  if (!plan || plan.order !== "worth") return null;
+  const rows = plan.due.concat(plan.fresh), row = rows.find((r) => r.key === key), n = plan.visits.length;
+  const placed = (r) => typeof r.visit === "number" && r.visit >= 0, lesson = (r) => r.source === "lesson";
+  // a place the list opened with nothing due there (L1, `openMasterAt`: free review) is named by its place, never counted as new
+  const place = (r) => r.source === "place";
+  // a belt lesson the player opened rides in the session apart from "More new cards" (STAGE3-R2 d): named and counted by how it came;
+  // "From the Path" and "from the Path" until v1.287.0, when the Path left the drawer (O4): "Belt lessons", "from belt lessons" (5 B shorter, v1.287.0: the deferred ceiling dev v1.286.0 set)
+  const apart = (keep) => rows.filter((r) => !placed(r) && keep(r)).reduce((k, r) => k + r.count - (r.owed ? r.owed.length : 0), 0);
+  const extra = apart((r) => !lesson(r) && !place(r)), path = apart(lesson), outside = (plan.counts && plan.counts.built && plan.counts.built.outsideDue) || 0;
+  const cards = (k) => k + (k === 1 ? " card" : " cards"), name = (seat) => (seat ? seat.replace("|", " \u00b7 ") : "Other cards");
+  // new cards only when nothing is due (ANKI1): a day of reviews says so instead of "0 new"
+  const fresh = plan.newCards - extra - path;
+  return { heading: !row ? "Master the game" : placed(row) ? name(row.seat) + " \u00b7 position " + (row.visit + 1) + " of " + n : lesson(row) ? "Belt lessons" : place(row) ? name(row.seat || row.key) + (row.owed && row.owed.length ? "" : " \u00b7 free review") : "More new cards",
+    count: n + (n === 1 ? " position" : " positions") + ": " + (live.dueCards ? cards(live.dueCards) + " to review \u00b7 " : "") +
+      (fresh ? fresh + " new, by how often they come up in your rolls" : "new cards come when nothing is due") +
+      (extra ? "; " + extra + " more new, " + (plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") : "") +
+      (path ? "; " + path + " from belt lessons" : "") +
+      // a card due in a deck this ruleset hides or does not price never stops new cards (ANKI1-R1, finding 1): the line says
+      // how many, and where they are, in the words the polite line uses for content that is not available
+      (outside ? "; " + outside + (outside === 1 ? " due card isn't in this game; it stays due in " : " due cards aren't in this game; they stay due in ") +
+        "\u201cEverything owed, oldest first\u201d" : "") };
 }
 
 // Hydration binds unknown question identities without reranking the plan. Known
 // identities never change underneath an answer. New content requires a refresh.
-export function ngGameplanBind(plan, decks) {
+export function ngGameplanBind(plan, decks, srs) {
+  if (plan.order === "worth") return ngGameplanBindWorth(plan, decks, srs);
   const used = new Set([...plan.reviewed, ...plan.dueQuestions]);
   const bind = (r) => {
     const d = decks[r.key];
@@ -195,24 +353,51 @@ export function ngGameplanBind(plan, decks) {
   if (fresh.every((r, i) => r === plan.fresh[i])) return plan;
   const newCards = fresh.reduce((n, r) => n + r.count, 0);
   return ngGameplanFreeze({ ...plan, fresh, newCards, total: plan.dueCards + newCards,
-    overrun: Math.max(0, plan.reviewed.length + plan.dueCards + newCards - plan.target) });
+    overrun: Math.max(0, plan.reviewed.length + plan.dueCards + newCards + ngGameplanMoveTerms(plan) - plan.target) });
+}
+
+// A worth row's placeholders become the deck's first cards with no row, once its cards land: never a card answered before,
+// never one another row holds, and never more than the row asked for (U171 a's "at most 6 per position").
+function ngGameplanBindWorth(plan, decks, srs) {
+  const rows = plan.due.concat(plan.fresh), used = new Set([...plan.reviewed, ...rows.flatMap((r) => r.questions)]);
+  const bind = (r) => {
+    const d = decks[r.key];
+    if (!r.pending || !d || !d.exact) return r;
+    const answered = (srs && srs[r.key]) || {};
+    const add = ngGameplanUnique(d.questions).filter((q) => !used.has(q) && !answered[q]).slice(0, r.pending);
+    add.forEach((q) => used.add(q));
+    return { ...r, questions: r.questions.concat(add), count: r.questions.length + add.length, pending: 0 };
+  };
+  const due = plan.due.map(bind), fresh = plan.fresh.map(bind);
+  if (due.every((r, i) => r === plan.due[i]) && fresh.every((r, i) => r === plan.fresh[i])) return plan;
+  const newCards = due.concat(fresh).reduce((n, r) => n + r.count - (r.owed ? r.owed.length : 0), 0), total = plan.dueCards + newCards;
+  return ngGameplanFreeze({ ...plan, due, fresh, newCards, total, overrun: Math.max(0, plan.reviewed.length + total + ngGameplanMoveTerms(plan) - plan.target) });
 }
 
 export function ngGameplanProgress(plan, { srs = {}, day, decks = {} }) {
   const debt = ngGameplanDebt({ srs, day, decks });
   const owed = new Set(debt.questions), reviewed = new Set(ngGameplanReviewed(srs, plan.day));
+  // ANKI1-R1 (the reader's finding 2): a question its loaded deck no longer holds can never be answered here; it is
+  // dropped from what the session waits for the moment that is known (it stays due, counted in `blocked`: the polite line
+  // says so), so the session completes and "Keep practising" is reachable
+  const gone = (r, q) => decks[r.key] && decks[r.key].exact && !decks[r.key].questions.includes(q);
+  const dead = new Set(plan.due.concat(plan.fresh).flatMap((r) => r.questions.filter((q) => gone(r, q))));
   const rows = plan.due.concat(plan.fresh).map((r) => {
     // Deleted/ reset schedule entries do not prove a review. Both success and a
     // recorded failure resolve today's obligation; revealing an answer does not.
-    const remaining = r.questions.filter((q) => !reviewed.has(q) || owed.has(q));
+    const remaining = r.questions.filter((q) => !dead.has(q) && (!reviewed.has(q) || owed.has(q)));
     return { key: r.key, remaining, count: r.count, pending: r.pending,
       done: !remaining.length && !r.pending, completed: r.questions.length - remaining.length };
   });
-  const complete = day === plan.day && !debt.count && rows.every((r) => r.done) && plan.dueQuestions.every((q) => reviewed.has(q));
-  const required = ngGameplanUnique(plan.dueQuestions.concat(plan.fresh.flatMap((r) => r.questions)));
-  const missing = rows.flatMap((r) => r.remaining.filter((q) => decks[r.key] && decks[r.key].exact && !decks[r.key].questions.includes(q)));
-  return { rows, complete, dayChanged: day !== plan.day, dueCards: debt.count,
-    newDebt: debt.questions.filter((q) => !plan.dueQuestions.includes(q)),
+  // a worth plan is done when what it asked is answered: the owed pile beyond it is not the day's debt (U171 a)
+  const worth = plan.order === "worth";
+  const complete = day === plan.day && (worth || !debt.count) && rows.every((r) => r.done) && plan.dueQuestions.every((q) => reviewed.has(q) || (worth && dead.has(q)));
+  const required = ngGameplanUnique(plan.dueQuestions.concat(plan.due.concat(plan.fresh).flatMap((r) => r.questions)));
+  const missing = [...dead];
+  return { rows, complete, dayChanged: day !== plan.day, dueCards: worth ? plan.dueQuestions.filter((q) => !dead.has(q) && (!reviewed.has(q) || owed.has(q))).length : debt.count,
+    // a worth plan claims no new debt: a card that came due after it was built joins the next round by worth, or
+    // "Everything owed", never this session (STAGE3-R1: a refresh no longer re-plans a session in progress)
+    newDebt: worth ? [] : debt.questions.filter((q) => !plan.dueQuestions.includes(q)),
     completed: required.filter((q) => reviewed.has(q) && !owed.has(q)).length, total: plan.total,
     blocked: ngGameplanUnique(debt.blocked.concat(missing)) };
 }
@@ -222,7 +407,12 @@ export function ngGameplanProgress(plan, { srs = {}, day, decks = {} }) {
 // also the Explore cell's tooltip.
 export function ngGameplanSummary(plan) {
   const cards = (n) => n + (n === 1 ? " card" : " cards");
-  const source = {
+  // v1.256.1 (STAGE2G): when EVERY new deck was kept from the weak spots (decks the known moves fill, which a
+  // comparison cannot rank), the line says where they came from, never the comparison's "nothing new worth adding".
+  // v1.256.2 (STAGE2H A a): ranked decks THEN kept ones read "ranked by your study comparison, then your weakest
+  // spots", the partial status keeping its second sentence. A plan with no kept deck reads as it always did.
+  const from = plan.status === "weak-spots" ? "comparison" : plan.newFrom;
+  const source = plan.order === "worth" ? "Positions come in order of what is worth most: what comes up most in your rolls and what you are closest to forgetting." : {
     "weak-spots": "New techniques are your weakest spots first.",
     ready: "New techniques are ranked by your study comparison.",
     partial: "New techniques are ranked by your study comparison. Some could not be compared, which does not mean you've mastered them.",
@@ -230,11 +420,14 @@ export function ngGameplanSummary(plan) {
     unavailable: "There is no ranking for new techniques yet. Reviews still count.",
     pending: "The ranking for new techniques is loading. Reviews still count.",
     stale: "The ranking for new techniques is out of date: refresh the plan. Reviews still count.",
-  }[plan.status];
+    "ready+kept": "New techniques are ranked by your study comparison, then your weakest spots.",
+    "partial+kept": "New techniques are ranked by your study comparison, then your weakest spots. Some could not be compared, which does not mean you've mastered them.",
+  }[from === "weak-spots" ? "weak-spots" : from === "mixed" ? plan.status + "+kept" : plan.status];
   // Frozen with the plan, so it speaks of the time BEFORE it opened: the session heading below counts
   // what happens after (a live "you've answered 0 today" read wrong once the session was done).
-  return "Your daily goal is " + cards(plan.target) +
+  // L2 (the guard's two sentences, Part A2 §4, ruled): once the plan asks moves, a move IS one of the cards the goal counts
+  return "Your daily goal is " + cards(plan.target) + (plan.moves ? ", a move from a position counting as one" : "") +
     (plan.reviewed.length ? "; the " + cards(plan.reviewed.length) + " you'd already answered today count toward it." : ".") +
     (plan.overrun ? " Today's session runs " + cards(plan.overrun) + " over the goal." : "") +
-    (plan.fresh.some((r) => r.pending) ? " Card counts settle as decks load." : "") + " " + source;
+    (plan.due.concat(plan.fresh).some((r) => r.pending) ? " Card counts settle as decks load." : "") + " " + source;
 }

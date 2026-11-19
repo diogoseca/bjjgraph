@@ -6,8 +6,8 @@ import { curriculumMid, CURRICULUM } from "./personas"
 /**
  * FOG SET IGNORES PROGRESS AND TRACK SELECTION — the canvas fog-of-war and the study
  * economy are separate systems that must NOT leak into each other. For a mid-curriculum
- * white belt, Path renders the eligible White section and locks Blue's progression
- * controls (U87), yet Blue's lesson nodes glow undimmed on the canvas: the fog answers "is this on the curriculum?",
+ * white belt, Path renders the White section open and Blue folded (until v1.270.0 Blue was locked, U87; U163 c opened
+ * it), yet Blue's lesson nodes glow undimmed on the canvas: the fog answers "is this on the curriculum?",
  * never "is this rendered / studied yet?".
  *
  * Mechanism under test (neural/src/app.src.jsx):
@@ -71,29 +71,37 @@ test("curriculum-mid: unselected blue lesson's node sits INSIDE the fog set; mem
   await j.boot("/", { initialState: curriculumMid() })
   await j.land("Mount Top") // built-in rigs (ai-skill/role/max-moves) cover every draw; path render draws none
 
-  // open the explorer — curriculum loaded → CHALLENGES is the default face;
   // challenges_opened fires synchronously inside renderChallenges
-  // v1.242.0: the drawer opens on its list; its Path row is the Challenges corridor
+  // v1.242.0: the drawer opens on its list. v1.287.0: the Path row left it; the corridor is Master the game's, opened by
+  // its row (the DSL's one door), and its draw arms the fog as the Path's did (P19)
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
-  await page.locator('[data-view="challenges"]').click()
+  await j.openCorridor({ allBelts: false })
   await j.expectBeat("challenges_opened")
 
   // ── preconditions: fog is ARMED (this is the state in which membership decides dimming) ──
   const pre = await page.evaluate(() => {
     const a = (window as any).__neural
-    return { viewMode: a._viewMode, pathDim: !!a._pathDim, setSize: a._curriculumIdxSet ? a._curriculumIdxSet.size : 0 }
+    return { practice: !!a._practiceInDrawer(), pathDim: !!a._pathDim, setSize: a._curriculumIdxSet ? a._curriculumIdxSet.size : 0 }
   })
-  expect(pre.viewMode, "explorer opens on the challenges view").toBe("challenges")
-  expect(pre.pathDim, "the challenges view arms the canvas fog gate").toBe(true)
+  expect(pre.practice, "the drawer is on Master the game, with its corridor").toBe(true)
+  expect(pre.pathDim, "the corridor's draw arms the canvas fog gate").toBe(true)
   expect(pre.setSize, "fog set is substantial").toBeGreaterThan(50)
 
   // ── selection evidence: blue is genuinely UNSELECTED (and thus unrendered) for this persona ──
+  // Until v1.270.0 (P1-B, U87) Blue was LOCKED for this white persona: no selectable header (count 0), `[data-belt-locked]`,
+  // and no lesson DOM at all. U163 c (owner, 13 Nov, "everything opens") opened it: Blue has its header, unselected, and
+  // its lessons sit FOLDED, out of sight. Membership must stay blind to that as it was to the lock.
   const blueCard = page.locator(`.ng-track-card[data-track="${BLUE.id}"]`)
-  expect(await blueCard.count(), "P1-B: an unearned Blue section has no selectable header").toBe(0)
-  await expect(page.locator(`[data-belt="${BLUE.id}"][data-belt-locked]`)).toHaveCount(1)
-  expect(await page.locator(`[data-track-curriculum="${BLUE.id}"] [data-lesson="${TARGET.l.deckKey}"]`).count(),
-    "P1-B: locked progression has no lesson DOM; its graph membership still survives below").toBe(0)
+  expect(await blueCard.count(), "U163 c: Blue has its header").toBe(1)
+  await expect(blueCard, "…unselected").toHaveAttribute("aria-pressed", "false")
+  await expect(page.locator(`[data-belt="${BLUE.id}"]`), "…and folded").toHaveAttribute("data-collapsed", "true")
+  // two claims, told apart (the read of PR #404, finding 6): the row EXISTS (the old claim was that it did not), and it is
+  // out of sight (folded)
+  const blueLesson = page.locator(`[data-track-curriculum="${BLUE.id}"] [data-lesson="${TARGET.l.deckKey}"]`)
+  expect(await blueLesson.count(), "U163 c: its lesson row is in the DOM (until v1.270.0 there was none)").toBeGreaterThan(0)
+  expect(await blueLesson.first().isVisible(),
+    "…and out of sight, folded; its graph membership still survives below").toBe(false)
 
   // ── the four membership claims, read off the live instance the way the fog draw does ──
   const verdict = await page.evaluate(

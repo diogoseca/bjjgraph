@@ -47,33 +47,30 @@ description: "Crackhead Control Entry reinforces the Mission Control clinch by r
       "@type": "VideoObject",
       "position": 1,
       "name": "Crackhead Control to Invisible Collar Tie",
-      "description": "Crackhead Control Entry film study: Crackhead Control to Invisible Collar Tie, taught by Fletcher Kirwan.",
+      "description": "Crackhead Control Entry film study: Crackhead Control to Invisible Collar Tie.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_3pJ2tPI0gY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_3pJ2tPI0gY",
       "url": "https://www.youtube.com/watch?v=_3pJ2tPI0gY",
-      "creator": { "@type": "Person", "name": "Fletcher Kirwan" },
       "duration": "PT16S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Armbar from Crackhead Control",
-      "description": "Crackhead Control Entry film study: Armbar from Crackhead Control, taught by Clinton.",
+      "description": "Crackhead Control Entry film study: Armbar from Crackhead Control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rpsvedaYKUY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rpsvedaYKUY",
       "url": "https://www.youtube.com/watch?v=rpsvedaYKUY",
-      "creator": { "@type": "Person", "name": "Clinton" },
       "duration": "PT96S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Basic entries into rubber guard",
-      "description": "Crackhead Control Entry film study: Basic entries into rubber guard, taught by BJJ4Breakfast.",
+      "description": "Crackhead Control Entry film study: Basic entries into rubber guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WliTCjEDA-8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WliTCjEDA-8",
       "url": "https://www.youtube.com/watch?v=WliTCjEDA-8",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT106S"
     }
   ]
@@ -132,7 +129,7 @@ Instructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplane
 
 ![](https://www.youtube.com/watch?v=_3pJ2tPI0gY)
 
-<p class="clip-credit"><strong>Crackhead Control to Invisible Collar Tie</strong> — taught by Fletcher Kirwan · 0:16 · <a href="https://www.youtube.com/watch?v=_3pJ2tPI0gY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crackhead Control to Invisible Collar Tie</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=_3pJ2tPI0gY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -140,7 +137,7 @@ Instructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplane
 
 ![](https://www.youtube.com/watch?v=rpsvedaYKUY)
 
-<p class="clip-credit"><strong>Armbar from Crackhead Control</strong> — taught by Clinton · 1:36 · <a href="https://www.youtube.com/watch?v=rpsvedaYKUY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar from Crackhead Control</strong> · 1:36 · <a href="https://www.youtube.com/watch?v=rpsvedaYKUY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -148,7 +145,7 @@ Instructional sources: [Eddie Bravo — MTS 169: the Pump](https://www.10thplane
 
 ![](https://www.youtube.com/watch?v=WliTCjEDA-8)
 
-<p class="clip-credit"><strong>Basic entries into rubber guard</strong> — taught by BJJ4Breakfast · 1:46 · <a href="https://www.youtube.com/watch?v=WliTCjEDA-8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Basic entries into rubber guard</strong> · 1:46 · <a href="https://www.youtube.com/watch?v=WliTCjEDA-8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

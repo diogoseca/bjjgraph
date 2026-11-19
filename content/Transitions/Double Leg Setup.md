@@ -56,8 +56,8 @@ description: "Learn Double Leg Setup in BJJ. Step-by-step execution from Standin
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Snap Down Set Up to Double Leg Wrestling Takedown | Coach Bauer",
-      "description": "Double Leg Setup film study: Snap Down Set Up to Double Leg Wrestling Takedown | Coach Bauer.",
+      "name": "Snap Down Set Up to Double Leg Wrestling Takedown",
+      "description": "Double Leg Setup film study: Snap Down Set Up to Double Leg Wrestling Takedown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Rh2SRMwN0y0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Rh2SRMwN0y0",
       "url": "https://www.youtube.com/watch?v=Rh2SRMwN0y0",
@@ -121,7 +121,7 @@ Borrowed from folkstyle and freestyle wrestling and refined for the grip-heavy, 
 
 ![](https://www.youtube.com/watch?v=Rh2SRMwN0y0)
 
-<p class="clip-credit"><strong>Snap Down Set Up to Double Leg Wrestling Takedown | Coach Bauer</strong> · 1:39 · <a href="https://www.youtube.com/watch?v=Rh2SRMwN0y0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Snap Down Set Up to Double Leg Wrestling Takedown</strong> · 1:39 · <a href="https://www.youtube.com/watch?v=Rh2SRMwN0y0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

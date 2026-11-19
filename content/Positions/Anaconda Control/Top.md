@@ -148,33 +148,30 @@ description: "Master offensive control from Anaconda Control Top position. Learn
       "@type": "VideoObject",
       "position": 1,
       "name": "Anaconda Choke BJJ",
-      "description": "Anaconda Control (Top) film study: Anaconda Choke BJJ, taught by Ninja Pinto.",
+      "description": "Anaconda Control (Top) film study: Anaconda Choke BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RbkOnRb2lvA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RbkOnRb2lvA",
       "url": "https://www.youtube.com/watch?v=RbkOnRb2lvA",
-      "creator": { "@type": "Person", "name": "Ninja Pinto" },
       "duration": "PT48S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur",
-      "description": "Anaconda Control (Top) film study: How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur, taught by Brandon McCaghren.",
+      "name": "How to do an Anaconda Choke",
+      "description": "Anaconda Control (Top) film study: How to do an Anaconda Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EbhWFWp-B6s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EbhWFWp-B6s",
       "url": "https://www.youtube.com/watch?v=EbhWFWp-B6s",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT81S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Difference Between The ANACONDA CHOKE and D\u2019ARCE CHOKE in Jiu Jitsu!",
-      "description": "Anaconda Control (Top) film study: Difference Between The ANACONDA CHOKE and D\u2019ARCE CHOKE in Jiu Jitsu!, taught by Matt Arroyo.",
+      "description": "Anaconda Control (Top) film study: Difference Between The ANACONDA CHOKE and D\u2019ARCE CHOKE in Jiu Jitsu!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6d6Wkgh9imU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6d6Wkgh9imU",
       "url": "https://www.youtube.com/watch?v=6d6Wkgh9imU",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
       "duration": "PT66S"
     }
   ]
@@ -207,7 +204,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 ![](https://www.youtube.com/watch?v=RbkOnRb2lvA)
 
-<p class="clip-credit"><strong>Anaconda Choke BJJ</strong> — taught by Ninja Pinto · 0:48 · <a href="https://www.youtube.com/watch?v=RbkOnRb2lvA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda Choke BJJ</strong> · 0:48 · <a href="https://www.youtube.com/watch?v=RbkOnRb2lvA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -215,7 +212,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 ![](https://www.youtube.com/watch?v=EbhWFWp-B6s)
 
-<p class="clip-credit"><strong>How to do an Anaconda Choke - 10th Planet Jiu Jitsu Decatur</strong> — taught by Brandon McCaghren · 1:21 · <a href="https://www.youtube.com/watch?v=EbhWFWp-B6s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to do an Anaconda Choke</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=EbhWFWp-B6s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -223,7 +220,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 ![](https://www.youtube.com/watch?v=6d6Wkgh9imU)
 
-<p class="clip-credit"><strong>Difference Between The ANACONDA CHOKE and D’ARCE CHOKE in Jiu Jitsu!</strong> — taught by Matt Arroyo · 1:06 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Difference Between The ANACONDA CHOKE and D’ARCE CHOKE in Jiu Jitsu!</strong> · 1:06 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

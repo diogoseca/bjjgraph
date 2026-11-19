@@ -36,7 +36,8 @@ import { journey } from "../dsl"
  * red at the left end and on the fitting hand; the end test off by one (`x <= max`) — red at the right
  * end at both widths; the glide creeping again — red at both widths (the wheel never reaches the end).
  * Non-kill, recorded: at 390 the phone stylesheet's `!important` padding still pads the end, so the
- * unowned-inset mutant survives there; 1440 kills it.
+ * unowned-inset mutant survives there. 1440 killed it until v1.253.0, whose desktop row (beside the article, the only view
+ * now) has no inset to pin: it survives at both widths, recorded here (#354's review, finding 6).
  */
 
 const FADE_PX = 36
@@ -60,20 +61,23 @@ async function settle(page: Page) {
   return ends(page)
 }
 
+// v1.253.0 (U114 a, #354's review finding 6): the inset claims at 1440 were the map view's (Book off), retired; beside the article a
+// desktop row shares the grid's edges and has no inset (article-order.spec.ts). 1440 keeps the wheel, drag, focus and fade claims.
 for (const [width, height] of [[1440, 900], [390, 844]]) {
   test(`the tray pads its last card and fades only toward hidden cards, wheel, drag and focus, at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = journey(page)
-    // Beside the article a desktop row has no inset, because it shares the grid's edges (article-order.spec.ts). The
-    // inset this journey pins is the one a desktop row wears with the article put away.
-    await j.boot("/Positions/Closed-Guard/Bottom", width > 640 ? { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } } : {})
+    const inset = width <= 640 // the phone's row is the one with insets now
+    await j.boot("/Positions/Closed-Guard/Bottom")
     await j.advance(4000)
     const start = await settle(page)
     expect(start.max, "closed guard bottom overflows the tray, so both ends exist").toBeGreaterThan(400)
     expect(start.x, "the deal starts at the left end").toBe(0)
     // LEFT END: the first card one leading inset in; only the right side fades
-    expect(start.padL, "the row has a leading inset").toBeGreaterThan(0)
-    expect(Math.abs(start.firstGap - start.padL), "first card starts one inset in").toBeLessThanOrEqual(1)
+    if (inset) {
+      expect(start.padL, "the row has a leading inset").toBeGreaterThan(0)
+      expect(Math.abs(start.firstGap - start.padL), "first card starts one inset in").toBeLessThanOrEqual(1)
+    }
     expect([start.lead, start.trail], "at the left end only the right edge fades: " + start.mask).toEqual([0, FADE_PX])
 
     // RIGHT END, by the mouse wheel (the tray's glide owns the scroll)
@@ -82,8 +86,10 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     await expect.poll(async () => { await page.mouse.wheel(0, 2500); return (await ends(page)).x }, { timeout: 30_000 }).toBeGreaterThanOrEqual(start.max - 1)
     const end = await settle(page)
     expect(end.x, "reached the right end").toBeGreaterThanOrEqual(end.max - 1)
-    expect(end.lastGap, "the last card has trailing padding").toBeGreaterThan(0)
-    expect(Math.abs(end.lastGap - start.firstGap), `trailing inset ${end.lastGap} == leading inset ${start.firstGap}`).toBeLessThanOrEqual(1)
+    if (inset) {
+      expect(end.lastGap, "the last card has trailing padding").toBeGreaterThan(0)
+      expect(Math.abs(end.lastGap - start.firstGap), `trailing inset ${end.lastGap} == leading inset ${start.firstGap}`).toBeLessThanOrEqual(1)
+    }
     expect([end.lead, end.trail], "at the right end only the left edge fades: " + end.mask).toEqual([FADE_PX, 0])
 
     // THE MIDDLE, by a mouse drag (and its fling)

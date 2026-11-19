@@ -167,33 +167,30 @@ description: "Defensive guide for escaping modified scarf hold. Learn arm recove
       "@type": "VideoObject",
       "position": 1,
       "name": "Kesa Gatame escape",
-      "description": "Kuzure Kesa Gatame (Bottom) film study: Kesa Gatame escape, taught by SBG Australia.",
+      "description": "Kuzure Kesa Gatame (Bottom) film study: Kesa Gatame escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
       "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
       "duration": "PT42S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing",
-      "description": "Kuzure Kesa Gatame (Bottom) film study: Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing, taught by Kohbukan Sisu.",
+      "name": "Kesa Gatame Pressure Defense Using Proper Framing",
+      "description": "Kuzure Kesa Gatame (Bottom) film study: Kesa Gatame Pressure Defense Using Proper Framing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
       "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
-      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
       "duration": "PT83S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Kesa Gatame - Basic Scarf Hold",
-      "description": "Kuzure Kesa Gatame (Bottom) film study: Kesa Gatame - Basic Scarf Hold, taught by Grappler Station.",
+      "description": "Kuzure Kesa Gatame (Bottom) film study: Kesa Gatame - Basic Scarf Hold.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TfNpVcekHGg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/TfNpVcekHGg",
       "url": "https://www.youtube.com/watch?v=TfNpVcekHGg",
-      "creator": { "@type": "Person", "name": "Grappler Station" },
       "duration": "PT120S"
     }
   ]
@@ -231,7 +228,7 @@ The position also demands exceptional conditioning and mental resilience. The co
 
 ![](https://www.youtube.com/watch?v=2M_6VytUaus)
 
-<p class="clip-credit"><strong>Kesa Gatame escape</strong> — taught by SBG Australia · 0:42 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame escape</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -239,7 +236,7 @@ The position also demands exceptional conditioning and mental resilience. The co
 
 ![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
 
-<p class="clip-credit"><strong>Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing</strong> — taught by Kohbukan Sisu · 1:23 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense Using Proper Framing</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -247,7 +244,7 @@ The position also demands exceptional conditioning and mental resilience. The co
 
 ![](https://www.youtube.com/watch?v=TfNpVcekHGg)
 
-<p class="clip-credit"><strong>Kesa Gatame - Basic Scarf Hold</strong> — taught by Grappler Station · 2:00 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame - Basic Scarf Hold</strong> · 2:00 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

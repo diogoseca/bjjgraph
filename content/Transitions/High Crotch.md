@@ -46,8 +46,8 @@ description: "Master the High Crotch takedown in BJJ. Complete guide to penetrat
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "High Crotch Attack - The School of Wrestling",
-      "description": "High Crotch film study: High Crotch Attack - The School of Wrestling.",
+      "name": "High Crotch Attack",
+      "description": "High Crotch film study: High Crotch Attack.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NkMeJDR7nN8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/NkMeJDR7nN8",
       "url": "https://www.youtube.com/watch?v=NkMeJDR7nN8",
@@ -56,8 +56,8 @@ description: "Master the High Crotch takedown in BJJ. Complete guide to penetrat
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "TMG Clips #165 - Simple Post High Crotch Takedown!",
-      "description": "High Crotch film study: TMG Clips #165 - Simple Post High Crotch Takedown!.",
+      "name": "Simple Post High Crotch Takedown!",
+      "description": "High Crotch film study: Simple Post High Crotch Takedown!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AJzijsw8iWY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AJzijsw8iWY",
       "url": "https://www.youtube.com/watch?v=AJzijsw8iWY",
@@ -117,7 +117,7 @@ In the context of BJJ competition, the High Crotch has gained prominence due to 
 
 ![](https://www.youtube.com/watch?v=NkMeJDR7nN8)
 
-<p class="clip-credit"><strong>High Crotch Attack - The School of Wrestling</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=NkMeJDR7nN8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>High Crotch Attack</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=NkMeJDR7nN8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -125,7 +125,7 @@ In the context of BJJ competition, the High Crotch has gained prominence due to 
 
 ![](https://www.youtube.com/watch?v=AJzijsw8iWY)
 
-<p class="clip-credit"><strong>TMG Clips #165 - Simple Post High Crotch Takedown!</strong> · 2:51 · <a href="https://www.youtube.com/watch?v=AJzijsw8iWY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple Post High Crotch Takedown!</strong> · 2:51 · <a href="https://www.youtube.com/watch?v=AJzijsw8iWY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

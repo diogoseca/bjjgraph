@@ -154,43 +154,39 @@ description: "Build and preserve positional control when attacking, and change c
       "@type": "VideoObject",
       "position": 1,
       "name": "Position before submission explained",
-      "description": "Position-Over-Submission Approach film study: Position before submission explained, taught by Straight Talking Leadership.",
+      "description": "Position-Over-Submission Approach film study: Position before submission explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MP06_BxtJkU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MP06_BxtJkU",
       "url": "https://www.youtube.com/watch?v=MP06_BxtJkU",
-      "creator": { "@type": "Person", "name": "Straight Talking Leadership" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "What position over submission means",
-      "description": "Position-Over-Submission Approach film study: What position over submission means, taught by Stephan Kesting.",
+      "description": "Position-Over-Submission Approach film study: What position over submission means.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DmA6Lay6vt4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/DmA6Lay6vt4",
-      "url": "https://www.youtube.com/watch?v=DmA6Lay6vt4",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" }
+      "url": "https://www.youtube.com/watch?v=DmA6Lay6vt4"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Position before submission",
-      "description": "Position-Over-Submission Approach film study: Position before submission, taught by Marcelo Garcia.",
+      "description": "Position-Over-Submission Approach film study: Position before submission.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HxLJTGnVsMo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HxLJTGnVsMo",
       "url": "https://www.youtube.com/watch?v=HxLJTGnVsMo",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT159S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Position before submission for beginners",
-      "description": "Position-Over-Submission Approach film study: Position before submission for beginners, taught by Budo Brothers.",
+      "description": "Position-Over-Submission Approach film study: Position before submission for beginners.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aJrAulixy9Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aJrAulixy9Y",
       "url": "https://www.youtube.com/watch?v=aJrAulixy9Y",
-      "creator": { "@type": "Person", "name": "Budo Brothers" },
       "duration": "PT228S"
     }
   ]
@@ -220,7 +216,7 @@ Before attacking, identify the contact that keeps the opponent from escaping. Ma
 
 ![](https://www.youtube.com/watch?v=MP06_BxtJkU)
 
-<p class="clip-credit"><strong>Position before submission explained</strong> — taught by Straight Talking Leadership · 1:01 · <a href="https://www.youtube.com/watch?v=MP06_BxtJkU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Position before submission explained</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=MP06_BxtJkU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Before attacking, identify the contact that keeps the opponent from escaping. Ma
 
 ![](https://www.youtube.com/watch?v=DmA6Lay6vt4)
 
-<p class="clip-credit"><strong>What position over submission means</strong> — taught by Stephan Kesting · <a href="https://www.youtube.com/watch?v=DmA6Lay6vt4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>What position over submission means</strong> · <a href="https://www.youtube.com/watch?v=DmA6Lay6vt4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Before attacking, identify the contact that keeps the opponent from escaping. Ma
 
 ![](https://www.youtube.com/watch?v=HxLJTGnVsMo)
 
-<p class="clip-credit"><strong>Position before submission</strong> — taught by Marcelo Garcia · 2:39 · <a href="https://www.youtube.com/watch?v=HxLJTGnVsMo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Position before submission</strong> · 2:39 · <a href="https://www.youtube.com/watch?v=HxLJTGnVsMo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Before attacking, identify the contact that keeps the opponent from escaping. Ma
 
 ![](https://www.youtube.com/watch?v=aJrAulixy9Y)
 
-<p class="clip-credit"><strong>Position before submission for beginners</strong> — taught by Budo Brothers · 3:48 · <a href="https://www.youtube.com/watch?v=aJrAulixy9Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Position before submission for beginners</strong> · 3:48 · <a href="https://www.youtube.com/watch?v=aJrAulixy9Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

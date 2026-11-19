@@ -20,7 +20,7 @@
     "nogi": 58
   },
   "summary": "The Mir Lock from Side Control is a straight-arm shoulder lock that hyperextends and externally rotates the glenohumeral joint, applied from top side control by isolating the opponent's near arm and driving body weight through the trapped shoulder.",
-  "overview": "From dominant top side control, the Mir Lock weaponizes the same arm isolation that sets up the Americana but trades the bent-arm figure-four for a straight-arm finish that attacks the shoulder far more aggressively. Named after UFC Hall of Famer Frank Mir, who famously used this technique to break Tim Sylvia's arm at UFC 48, this submission represents a devastating variation of the traditional Americana position. The mechanics involve isolating the opponent's arm while applying rotational pressure that combines external rotation with backward leverage against the shoulder's natural range of motion. Unlike the standard Americana which emphasizes figure-four control and lateral rotation, the Mir Lock utilizes a straight-arm position with the attacker's body weight driving the shoulder into dangerous hyperextension. This submission is most commonly applied from top control positions like side control, north-south, or modified mount, where the attacker has superior positioning and can effectively isolate one of the opponent's arms. The technique requires precise understanding of shoulder anatomy and careful application due to its potential for catastrophic injury. The Mir Lock exemplifies the principle that submissions should control the position first, establish the grip structure second, and only then apply finishing pressure with proper safety awareness.",
+  "overview": "From dominant top side control, the Mir Lock weaponizes the same arm isolation that sets up the Americana but trades the bent-arm figure-four for a straight-arm finish that attacks the shoulder far more aggressively. Named after UFC Hall of Famer Frank Mir, who famously used this technique to break an opponent's arm at UFC 48, this submission represents a devastating variation of the traditional Americana position. The mechanics involve isolating the opponent's arm while applying rotational pressure that combines external rotation with backward leverage against the shoulder's natural range of motion. Unlike the standard Americana which emphasizes figure-four control and lateral rotation, the Mir Lock utilizes a straight-arm position with the attacker's body weight driving the shoulder into dangerous hyperextension. This submission is most commonly applied from top control positions like side control, north-south, or modified mount, where the attacker has superior positioning and can effectively isolate one of the opponent's arms. The technique requires precise understanding of shoulder anatomy and careful application due to its potential for catastrophic injury. The Mir Lock exemplifies the principle that submissions should control the position first, establish the grip structure second, and only then apply finishing pressure with proper safety awareness.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -162,7 +162,7 @@
   "attacker": {
     "name": "Mir Lock Attacker",
     "description": "How to execute Mir Lock in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
-    "overview": "The Mir Lock is a powerful shoulder lock submission that targets the glenohumeral joint through hyperextension and rotation. Named after UFC Hall of Famer Frank Mir, who famously used this technique to break Tim Sylvia's arm at UFC 48, this submission represents a devastating variation of the traditional Americana position. The mechanics involve isolating the opponent's arm while applying rotational pressure that combines external rotation with backward leverage against the shoulder's natural range of motion. Unlike the standard Americana which emphasizes figure-four control and lateral rotation, the Mir Lock utilizes a straight-arm position with the attacker's body weight driving the shoulder into dangerous hyperextension. This submission is most commonly applied from top control positions like side control, north-south, or modified mount, where the attacker has superior positioning and can effectively isolate one of the opponent's arms. The technique requires precise understanding of shoulder anatomy and careful application due to its potential for catastrophic injury. The Mir Lock exemplifies the principle that submissions should control the position first, establish the grip structure second, and only then apply finishing pressure with proper safety awareness.",
+    "overview": "The Mir Lock is a powerful shoulder lock submission that targets the glenohumeral joint through hyperextension and rotation. Named after UFC Hall of Famer Frank Mir, who famously used this technique to break an opponent's arm at UFC 48, this submission represents a devastating variation of the traditional Americana position. The mechanics involve isolating the opponent's arm while applying rotational pressure that combines external rotation with backward leverage against the shoulder's natural range of motion. Unlike the standard Americana which emphasizes figure-four control and lateral rotation, the Mir Lock utilizes a straight-arm position with the attacker's body weight driving the shoulder into dangerous hyperextension. This submission is most commonly applied from top control positions like side control, north-south, or modified mount, where the attacker has superior positioning and can effectively isolate one of the opponent's arms. The technique requires precise understanding of shoulder anatomy and careful application due to its potential for catastrophic injury. The Mir Lock exemplifies the principle that submissions should control the position first, establish the grip structure second, and only then apply finishing pressure with proper safety awareness.",
     "key_principles": [
       "Isolate the arm completely before attempting any rotational pressure on the shoulder",
       "Control the opponent's body position to prevent rolling or escaping the angle",
@@ -501,7 +501,7 @@
     "clips": [
       {
         "id": "-Zq8zXCtIlg",
-        "title": "MMA Demo | Mir Lock From Side Control | Laura Sanko",
+        "title": "MMA Demo | Mir Lock From Side Control",
         "channel": "One On One | MMA",
         "duration": 179,
         "vertical": false,
@@ -511,7 +511,7 @@
       },
       {
         "id": "QeHT5SvHad8",
-        "title": "Marcus Douithitt- arm bundle Mir lock from side control",
+        "title": "Arm bundle Mir lock from side control",
         "channel": "Firehouse Fit",
         "duration": 235,
         "vertical": false,
@@ -713,7 +713,7 @@
     "clips": [
       {
         "id": "URSGCnHSVVY",
-        "title": "Corey - Defend Mir Lock and escape half guard",
+        "title": "Defend Mir Lock and escape half guard",
         "channel": "BJJ Techniques",
         "duration": 73,
         "vertical": false,

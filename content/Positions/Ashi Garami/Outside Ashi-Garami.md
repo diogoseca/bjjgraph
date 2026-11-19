@@ -47,11 +47,10 @@ description: "Master Outside Ashi-Garami position in BJJ. Strategic guide coveri
       "@type": "VideoObject",
       "position": 1,
       "name": "Ashi Garami + Heel Hook",
-      "description": "Outside Ashi-Garami film study: Ashi Garami + Heel Hook, taught by The Coop BJJ.",
+      "description": "Outside Ashi-Garami film study: Ashi Garami + Heel Hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pRqoNs4K7cI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pRqoNs4K7cI",
       "url": "https://www.youtube.com/watch?v=pRqoNs4K7cI",
-      "creator": { "@type": "Person", "name": "The Coop BJJ" },
       "duration": "PT82S"
     }
   ]
@@ -105,7 +104,7 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 
 ![](https://www.youtube.com/watch?v=pRqoNs4K7cI)
 
-<p class="clip-credit"><strong>Ashi Garami + Heel Hook</strong> — taught by The Coop BJJ · 1:22 · <a href="https://www.youtube.com/watch?v=pRqoNs4K7cI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi Garami + Heel Hook</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=pRqoNs4K7cI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -16,7 +16,7 @@ const READY = '[data-reader][data-reader-ready="true"]'
 const rows = (page: Page) => page.locator('[data-list-surface="explore"][data-list-add]').evaluateAll(es => es.map(e => e.getAttribute('data-list-add')))
 
 for (const width of [1440, 390]) for (const action of ['click', 'leave', 'press'] as const) {
-  test(`@curated Browse keeps the hovered result through late aliases at ${width}px: ${action}`, async ({ page }, info) => {
+  test(`Browse keeps the hovered result through late aliases at ${width}px: ${action}`, async ({ page }, info) => {
     await page.setViewportSize({ width, height: 900 })
     const j = journey(page)
     // Rear also inserts Back Control via its non-primary "Rear Mount" alias;

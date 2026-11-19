@@ -63,9 +63,12 @@ test('real app paint method uses Suggested in badge and accessible label through
   a._choiceValueRuntime={ngChoiceValueView};a.choiceLabel=()=> 'Move';
   // D-318: the card's move button is painted through the DOM collection API.
   // Keep the same visible-badge and accessible-label assertions below.
+  // v1.272.0: the painter names every card through `_cardAria` (the seal's words follow the move's name), which reads
+  // the card's own attributes; a card with none is face up and unsealed, so the label is the painter's own, unchanged.
   a._optionCards=[{opt,card:{
     querySelector:s=>s==='[data-choice-recommended]'?badge:s==='[data-choice-execute]'?execute:null,
     querySelectorAll:s=>s==='[data-choice-execute]'?[execute]:[],
+    hasAttribute:()=>false,getAttribute:()=>null,
   }}];
   a.paintChoiceValues();assert.equal(badge.textContent,'Suggested');assert.match(execute['aria-label'],/Suggested/);assert.doesNotMatch(execute['aria-label'],/Best/);
 });

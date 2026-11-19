@@ -80,10 +80,10 @@ description: "Aoki Lock from Aoki Lock Control (defender): Treat an outward-turn
     },
     {
       "@type": "Question",
-      "name": "Aoki from Control defense: how does Kesting protect the outside foot while holding standard ashi?",
+      "name": "Aoki from Control defense: how do you protect the outside foot while holding standard ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep the inside knee close to that outside foot. His preventive detail closes access to the outside foot before an Aoki grip is established. It is not an escape to apply after the foot is already locked."
+        "text": "Keep the inside knee close to that outside foot. This preventive detail closes access to the outside foot before an Aoki grip is established. It is not an escape to apply after the foot is already locked."
       }
     },
     {
@@ -169,22 +169,20 @@ description: "Aoki Lock from Aoki Lock Control (defender): Treat an outward-turn
       "@type": "VideoObject",
       "position": 1,
       "name": "Roll out counter to the calf slicer",
-      "description": "Aoki Lock from Aoki Lock Control (Defender) film study: Roll out counter to the calf slicer, taught by Charlie Cosens.",
+      "description": "Aoki Lock from Aoki Lock Control (Defender) film study: Roll out counter to the calf slicer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KOz3WqQJ3Tk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KOz3WqQJ3Tk",
       "url": "https://www.youtube.com/watch?v=KOz3WqQJ3Tk",
-      "creator": { "@type": "Person", "name": "Charlie Cosens" },
       "duration": "PT55S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Ankle lock counter to calf cutter",
-      "description": "Aoki Lock from Aoki Lock Control (Defender) film study: Ankle lock counter to calf cutter, taught by Pathfinder Jiu-Jitsu.",
+      "description": "Aoki Lock from Aoki Lock Control (Defender) film study: Ankle lock counter to calf cutter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/VFM9JGQrLYk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/VFM9JGQrLYk",
       "url": "https://www.youtube.com/watch?v=VFM9JGQrLYk",
-      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu" },
       "duration": "PT97S"
     }
   ]
@@ -224,7 +222,7 @@ Begin an escape while the hand enclosure and hip connection are still loose. Rel
 
 ![](https://www.youtube.com/watch?v=KOz3WqQJ3Tk)
 
-<p class="clip-credit"><strong>Roll out counter to the calf slicer</strong> — taught by Charlie Cosens · 0:55 · <a href="https://www.youtube.com/watch?v=KOz3WqQJ3Tk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Roll out counter to the calf slicer</strong> · 0:55 · <a href="https://www.youtube.com/watch?v=KOz3WqQJ3Tk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -232,7 +230,7 @@ Begin an escape while the hand enclosure and hip connection are still loose. Rel
 
 ![](https://www.youtube.com/watch?v=VFM9JGQrLYk)
 
-<p class="clip-credit"><strong>Ankle lock counter to calf cutter</strong> — taught by Pathfinder Jiu-Jitsu · 1:37 · <a href="https://www.youtube.com/watch?v=VFM9JGQrLYk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ankle lock counter to calf cutter</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=VFM9JGQrLYk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

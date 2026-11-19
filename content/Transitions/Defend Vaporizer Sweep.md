@@ -46,8 +46,8 @@ description: "Master Vaporizer sweep defense in BJJ. Learn to counter lockdown w
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Nullify the Vaporizer - Houston BJJ Team Caique",
-      "description": "Defend Vaporizer Sweep film study: Nullify the Vaporizer - Houston BJJ Team Caique.",
+      "name": "Nullify the Vaporizer",
+      "description": "Defend Vaporizer Sweep film study: Nullify the Vaporizer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0urKvFXZ4FU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0urKvFXZ4FU",
       "url": "https://www.youtube.com/watch?v=0urKvFXZ4FU",
@@ -107,7 +107,7 @@ Successful execution requires reading the bottom player's specific sweep attempt
 
 ![](https://www.youtube.com/watch?v=0urKvFXZ4FU)
 
-<p class="clip-credit"><strong>Nullify the Vaporizer - Houston BJJ Team Caique</strong> · 12:04 · <a href="https://www.youtube.com/watch?v=0urKvFXZ4FU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Nullify the Vaporizer</strong> · 12:04 · <a href="https://www.youtube.com/watch?v=0urKvFXZ4FU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

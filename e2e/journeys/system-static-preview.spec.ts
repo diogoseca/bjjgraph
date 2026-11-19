@@ -39,7 +39,7 @@ async function geometry(page: Page) {
 }
 
 for (const width of [390, 1440]) {
-  test(`@curated static intro keeps its cover until provider ready and reserves one video box at ${width}px`, async ({ page }) => {
+  test(`static intro keeps its cover until provider ready and reserves one video box at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     await staticFallback(page);
     let releaseSDK!: () => void;

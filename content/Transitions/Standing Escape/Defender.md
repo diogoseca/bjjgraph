@@ -161,22 +161,20 @@ description: "Standing Escape (defender): Use the remaining high leg and knee hu
       "@type": "VideoObject",
       "position": 1,
       "name": "Countering the Back Escape into Lat Juji",
-      "description": "Standing Escape (Defender) film study: Countering the Back Escape into Lat Juji, taught by Brian Glick.",
+      "description": "Standing Escape (Defender) film study: Countering the Back Escape into Lat Juji.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3AC2nQiMNhQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3AC2nQiMNhQ",
       "url": "https://www.youtube.com/watch?v=3AC2nQiMNhQ",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
       "duration": "PT234S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "8 Back Control Tips to Keep the Back",
-      "description": "Standing Escape (Defender) film study: 8 Back Control Tips to Keep the Back, taught by Jordan Preisinger.",
+      "description": "Standing Escape (Defender) film study: 8 Back Control Tips to Keep the Back.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CFDVh9EVgPA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/CFDVh9EVgPA",
       "url": "https://www.youtube.com/watch?v=CFDVh9EVgPA",
-      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
       "duration": "PT443S"
     }
   ]
@@ -215,7 +213,7 @@ Your high Invisible Collar enclosure can still apply vascular choke pressure dur
 
 ![](https://www.youtube.com/watch?v=3AC2nQiMNhQ)
 
-<p class="clip-credit"><strong>Countering the Back Escape into Lat Juji</strong> — taught by Brian Glick · 3:54 · <a href="https://www.youtube.com/watch?v=3AC2nQiMNhQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Countering the Back Escape into Lat Juji</strong> · 3:54 · <a href="https://www.youtube.com/watch?v=3AC2nQiMNhQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -223,7 +221,7 @@ Your high Invisible Collar enclosure can still apply vascular choke pressure dur
 
 ![](https://www.youtube.com/watch?v=CFDVh9EVgPA)
 
-<p class="clip-credit"><strong>8 Back Control Tips to Keep the Back</strong> — taught by Jordan Preisinger · 7:23 · <a href="https://www.youtube.com/watch?v=CFDVh9EVgPA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>8 Back Control Tips to Keep the Back</strong> · 7:23 · <a href="https://www.youtube.com/watch?v=CFDVh9EVgPA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -144,8 +144,8 @@ description: "Recognize Buggy Choke from Buggy Choke and interrupt its required 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Who\u0027s Next Ep. 5 | How To Defend the Buggy Choke, with Jansen Gomes",
-      "description": "Buggy Choke from Buggy Choke (Defender) film study: Who\u0027s Next Ep. 5 | How To Defend the Buggy Choke, with Jansen Gomes.",
+      "name": "How To Defend the Buggy Choke",
+      "description": "Buggy Choke from Buggy Choke (Defender) film study: How To Defend the Buggy Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Huv5wYwC3_o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Huv5wYwC3_o?start=28",
       "url": "https://www.youtube.com/watch?v=Huv5wYwC3_o",
@@ -182,7 +182,7 @@ Practice cooperatively with controlled movement. Stop at any tap, verbal signal,
 
 ![](https://www.youtube.com/watch?v=Huv5wYwC3_o&start=28)
 
-<p class="clip-credit"><strong>Who&#39;s Next Ep. 5 | How To Defend the Buggy Choke, with Jansen Gomes</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Huv5wYwC3_o&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
+<p class="clip-credit"><strong>How To Defend the Buggy Choke</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=Huv5wYwC3_o&t=28s" rel="noopener">Watch on YouTube from 0:28</a></p>
 
 </div>
 

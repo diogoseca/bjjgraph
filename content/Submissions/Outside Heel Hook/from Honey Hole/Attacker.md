@@ -186,8 +186,8 @@ description: "Master outside heel hook attacking technique from Honey Hole. Grip
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "GE Online Series - Episode 29 - Saddle To Outside Heel Hook",
-      "description": "Outside Heel Hook from Honey Hole (Attacker) film study: GE Online Series - Episode 29 - Saddle To Outside Heel Hook.",
+      "name": "Saddle To Outside Heel Hook",
+      "description": "Outside Heel Hook from Honey Hole (Attacker) film study: Saddle To Outside Heel Hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7ZrKaOZhGnU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7ZrKaOZhGnU",
       "url": "https://www.youtube.com/watch?v=7ZrKaOZhGnU",
@@ -222,7 +222,7 @@ Attacking with the outside heel hook from Honey Hole requires mastery of grip tr
 
 ![](https://www.youtube.com/watch?v=7ZrKaOZhGnU)
 
-<p class="clip-credit"><strong>GE Online Series - Episode 29 - Saddle To Outside Heel Hook</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=7ZrKaOZhGnU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Saddle To Outside Heel Hook</strong> · 2:50 · <a href="https://www.youtube.com/watch?v=7ZrKaOZhGnU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

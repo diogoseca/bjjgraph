@@ -46,8 +46,8 @@ description: "Learn Triangle from Mount in BJJ. Step-by-step setup from 3-4 Moun
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mounted Triangle Setup | Fish x BloomBJJ",
-      "description": "Triangle from Mount film study: Mounted Triangle Setup | Fish x BloomBJJ.",
+      "name": "Mounted Triangle Setup",
+      "description": "Triangle from Mount film study: Mounted Triangle Setup.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FPpTdENZrcE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FPpTdENZrcE?start=89",
       "url": "https://www.youtube.com/watch?v=FPpTdENZrcE",
@@ -117,7 +117,7 @@ At competition level, the mounted triangle is devastating because it combines po
 
 ![](https://www.youtube.com/watch?v=FPpTdENZrcE&start=89)
 
-<p class="clip-credit"><strong>Mounted Triangle Setup | Fish x BloomBJJ</strong> · 3:07 · <a href="https://www.youtube.com/watch?v=FPpTdENZrcE&t=89s" rel="noopener">Watch on YouTube from 1:29</a></p>
+<p class="clip-credit"><strong>Mounted Triangle Setup</strong> · 3:07 · <a href="https://www.youtube.com/watch?v=FPpTdENZrcE&t=89s" rel="noopener">Watch on YouTube from 1:29</a></p>
 
 </div>
 

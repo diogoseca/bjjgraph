@@ -186,8 +186,8 @@ description: "Master the leg extraction escape from Inside Ashi-Garami. Step-by-
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond",
-      "description": "Leg Extraction from Inside Ashi (Attacker) film study: Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond.",
+      "name": "Escaping Ashi Garami- Leg Lock Defense.",
+      "description": "Leg Extraction from Inside Ashi (Attacker) film study: Escaping Ashi Garami- Leg Lock Defense..",
       "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
       "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
@@ -221,7 +221,7 @@ As the person executing the leg extraction, your primary objective is to systema
 
 ![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
 
-<p class="clip-credit"><strong>Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Ashi Garami- Leg Lock Defense.</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"lifetime-journeys","L":"legacy-corrupt-blob","F":"challenges","B":"error-fallback"} @invariant "Malformed unknown-owner legacy bytes stay untouched while a separate guest opens Challenges: all five belt sections are visible, only earned sections selectable, no capstone is available without checkpoint evidence, and Game Knowledge remains zero." */
+/* @hyperspace {"theme":"lifetime-journeys","L":"legacy-corrupt-blob","F":"challenges","B":"error-fallback"} @invariant "Malformed unknown-owner legacy bytes stay untouched while a separate guest opens Challenges: all five belt sections are visible and (since U163 c, v1.270.0) selectable, no capstone is available without checkpoint evidence, and Game Knowledge remains zero." */
 import { test, expect } from "@playwright/test";
 import { journey } from "../dsl";
 import { CORRUPT_BLOB_RAW, CURRICULUM } from "./personas";
@@ -58,25 +58,21 @@ test("corrupt legacy progress stays untouched while guest Challenges opens five 
   });
 
   await j.land("Mount Top");
-  // v1.242.0: the drawer opens on its list; its Path row is the Challenges corridor
+  // v1.242.0: the drawer opens on its list. v1.287.0: the Path row left it; the corridor is Master the game's, opened by its
+  // row (the DSL's one door), and Master the game is what is on screen
   await page.evaluate(() => (window as any).__neural.toggleExplorer());
-  await expect(page.locator('[data-view="challenges"]')).toBeVisible();
-  await page.locator('[data-view="challenges"]').click();
-  expect(await page.evaluate(() => (window as any).__neural._viewMode)).toBe(
-    "challenges",
-  );
+  await j.openCorridor();
+  expect(await page.evaluate(() => (window as any).__neural._practiceInDrawer())).toBe(true);
   // v1.162.0: the tab's head paragraph is gone; the corridor itself is the render proof
   expect(await page.locator(".ng-challenge-ladder").count()).toBe(1);
   expect(await page.locator(".ng-belt-section").count()).toBe(TRACKS.length);
   expect(await page.locator(".ng-challenge-group").count()).toBeGreaterThan(0);
 
+  // Until v1.270.0 every track but white was LOCKED here (`[data-belt-locked]`, no `[data-track]`) and skipped. U163 c (owner,
+  // 13 Nov, "everything opens"): every track is an ordinary section, selectable, its capstone still behind its own evidence.
   for (const track of TRACKS) {
-    if (track.id !== "white") {
-      await expect(page.locator(`[data-belt="${track.id}"][data-belt-locked]`)).toHaveCount(1);
-      await expect(page.locator(`[data-track="${track.id}"]`)).toHaveCount(0);
-      continue;
-    }
     const card = page.locator(`.ng-track-card[data-track="${track.id}"]`);
+    await card.scrollIntoViewIfNeeded();
     await expect(card).toBeVisible();
     await card.click();
     expect(await card.getAttribute("aria-pressed")).toBe("true");

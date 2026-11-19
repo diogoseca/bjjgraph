@@ -186,8 +186,8 @@ description: "How to execute Triangle from Guard in BJJ. Attacking perspective w
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Ferro Academy BJJ No Gi Triangle from Rubber Guard",
-      "description": "Triangle from Guard (Attacker) film study: Ferro Academy BJJ No Gi Triangle from Rubber Guard.",
+      "name": "No Gi Triangle from Rubber Guard",
+      "description": "Triangle from Guard (Attacker) film study: No Gi Triangle from Rubber Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ekg3PrW62Ts/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Ekg3PrW62Ts",
       "url": "https://www.youtube.com/watch?v=Ekg3PrW62Ts",
@@ -235,7 +235,7 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 
 ![](https://www.youtube.com/watch?v=Ekg3PrW62Ts)
 
-<p class="clip-credit"><strong>Ferro Academy BJJ No Gi Triangle from Rubber Guard</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=Ekg3PrW62Ts" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No Gi Triangle from Rubber Guard</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=Ekg3PrW62Ts" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

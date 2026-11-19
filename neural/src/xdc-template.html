@@ -17,10 +17,10 @@
   .ng-logo:hover span{color:#fff;}
   .ng-logo:hover .ng-kbd{opacity:1;color:#9fb0d8;}
   .ng-logo .ng-kbd span{color:inherit;}
+  .ng-logo[aria-busy="true"],.ng-search[aria-busy="true"]{color:#fff!important;background:rgba(120,160,255,.16)!important;}
   @keyframes ngSpin{to{transform:rotate(360deg);}}
   @keyframes ngCount{from{transform:scaleX(1);}to{transform:scaleX(0);}}
   @keyframes ngCardIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
-  @keyframes ngDeckExpire{0%{filter:grayscale(0) brightness(1);opacity:1;}55%{filter:grayscale(.35) brightness(.92);opacity:.92;}100%{filter:grayscale(1) brightness(.5);opacity:.34;}}
   @keyframes ngPulseChip{0%,100%{box-shadow:0 0 0 0 rgba(120,170,255,.5);}50%{box-shadow:0 0 0 6px rgba(120,170,255,0);}}
   .ng-acctwrap{flex:none;display:flex;align-items:center;gap:8px;padding:8px 10px 12px;border-top:1px solid rgba(150,170,210,.1);background:rgba(15,17,30,.35);}
   .ngAcctChip{flex:1;min-width:0;min-height:54px;display:flex;align-items:center;gap:12px;padding:0 8px;border:0;border-radius:12px;background:transparent;color:inherit;font-family:"Plus Jakarta Sans",sans-serif;text-align:left;cursor:pointer;}
@@ -54,14 +54,6 @@
 <div ref="{{ wrapRef }}" style="position:fixed;inset:0;background:#1a1a2e;overflow:hidden;font-family:'Plus Jakarta Sans',sans-serif;cursor:grab;touch-action:none;">
   <canvas ref="{{ canvasRef }}" style="position:absolute;inset:0;display:block;width:100%;height:100%;"></canvas>
 
-  <!-- semantic zoom: the dossier lives inside the node once you zoom close enough -->
-  <!-- in-node dossier card. z-index 5 (was 3) is LOAD-BEARING: the card is centred on the node
-       and its action row reaches the bottom-centre transport pill (z-index 4), which then
-       intercepted every mouse click on "Roll from here" / "Add to today's class list" — the
-       card was visible, enabled, stable, and dead to the mouse. Keyboard paths masked it, the
-       same way they masked the coach button before v1.69.1. -->
-  <div ref="{{ nodeCardRef }}" style="display:none;position:absolute;left:0;top:0;width:560px;height:560px;z-index:5;transform-origin:50% 50%;will-change:transform,opacity;pointer-events:none;"></div>
-
   <div ref="{{ loaderRef }}" role="status" aria-live="polite" style="position:absolute;inset:0;display:flex;flex-direction:column;gap:12px;align-items:center;justify-content:center;pointer-events:none;">
     <div style="width:26px;height:26px;border:2px solid rgba(255,255,255,.15);border-top-color:rgba(120,160,255,.9);border-radius:50%;animation:ngSpin .9s linear infinite;"></div>
     <div style="font-size:11px;font-weight:600;letter-spacing:.06em;color:#8b97b0;">Loading the graph&#8230;</div>
@@ -89,6 +81,12 @@
     <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="3"></rect><path d="M9.5 4.5v15"></path></svg>
     <span data-drawer-dot="1" style="display:none;position:absolute;top:9px;right:8px;width:8px;height:8px;border-radius:50%;background:#e9bd70;box-shadow:0 0 0 2px #10131f;"></span>
   </button>
+  <!-- SEARCH (v1.254.0, owner, 2026-11-10: "a search icon on the right of the dashboard, next to the open drawer icon"). The drawer's
+       own search box, the path "/" and Cmd/Ctrl+K take (`openSearchPane`); the old search modal is retired (v1.254.1). 6px from the
+       drawer button, the drawer head's own gap; hidden with it while the drawer is open (its box sits under the drawer's head). -->
+  <button type="button" aria-label="Search" title="Search (/)" class="ng-search" onClick="{{ openSearchPane }}" style="position:absolute;top:18px;left:72px;pointer-events:auto;cursor:pointer;z-index:9;border:0;background:transparent;padding:0;width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;color:#cbd4e6;">
+    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"></circle><path d="m20 20-4.35-4.35"></path></svg>
+  </button>
 
   <!-- transport controls (bottom center) -->
   <!-- THE TRANSPORT IS RETIRED (v1.134.0, owner): with the hesitation branch gone the game is
@@ -96,11 +94,9 @@
        nothing a player needed. The question clock never pauses (that is the test); restart is
        free roam (background click twice) + click any node. -->
 
-  <!-- mobile dossier sheet: drops from the top, leaves options + win bar + drill row visible below -->
-  <div ref="{{ dossierSheetRef }}" style="display:none;position:absolute;top:0;left:0;right:0;height:70%;z-index:8;background:linear-gradient(180deg,rgba(18,21,38,.985),rgba(13,15,28,.985));border-bottom:1px solid rgba(130,150,190,.24);border-radius:0 0 20px 20px;box-shadow:0 20px 54px rgba(0,0,0,.55);overflow-y:auto;pointer-events:auto;padding-top:44px;box-sizing:border-box;transform:translateY(-102%);transition:transform .34s cubic-bezier(.2,.7,.2,1);"></div>
-
-  <!-- event toast (top of play area) -->
-  <div ref="{{ evRef }}" class="ng-evtoast" style="position:absolute;top:30px;left:50%;transform:translateX(-50%);pointer-events:none;opacity:0;transition:opacity .45s ease;text-align:center;width:min(540px,64vw);">
+  <!-- event toast (top of play area). z 7 (v1.280.3, STAR1): never under the reader or a card (5) or the hand (4); the drawer
+       (8) and the logo (9) stay above it. The round-end centre below takes z 7 only while the round's end is up (`showCenter`) -->
+  <div ref="{{ evRef }}" class="ng-evtoast" style="position:absolute;z-index:7;top:30px;left:50%;transform:translateX(-50%);pointer-events:none;opacity:0;transition:opacity .45s ease;text-align:center;width:min(540px,64vw);">
     <div ref="{{ evKickerRef }}" style="font-size:10.5px;letter-spacing:.34em;text-transform:uppercase;font-weight:700;color:#7b97aa;margin-bottom:7px;">&nbsp;</div>
     <!-- 18px here is a FIRST-FRAME GUESS ONLY: `_applyTypeScale` (app.src.jsx) overwrites it from
          `announcerPx()` on the first resize, because the phone step (15px) is a breakpoint this
@@ -137,9 +133,10 @@
        Carries BOTH classes: .ng-drill (pane rails + drilltab specs) and .ng-explorer
        (learning-panel visibility specs). Visibility is display-based (flex/none). -->
   <div ref="{{ drillRef }}" class="ng-drill ng-explorer" role="complementary" aria-label="Sidebar" style="display:none;position:absolute;top:0;left:0;bottom:0;width:360px;z-index:8;background:linear-gradient(180deg,rgba(18,21,38,.985),rgba(13,15,28,.985));border-right:1px solid rgba(130,150,190,.16);box-shadow:14px 0 44px rgba(0,0,0,.5);flex-direction:column;pointer-events:auto;">
-    <!-- THE DRAWER HEAD (owner A5/E1, v1.242.0). The tab nav is gone: Explore, Train (Practice ·
-         Path), your lists and Last rolls are ONE list (renderExplorer). The brand is the way home
-         from Path or Last rolls ("‹ Path"), so it carries `data-view="explore"` (_paintDrawerHead). -->
+    <!-- THE DRAWER HEAD (owner A5/E1, v1.242.0). The tab nav is gone: Explore, Train (Master the
+         game; the Path row left in v1.287.0), your lists and Last rolls are ONE list (renderExplorer).
+         The brand is the way home from Master the game or Last rolls ("‹ Last rolls"), so it carries
+         `data-view="explore"` (_paintDrawerHead). -->
     <div class="ng-drawer-head">
       <button ref="{{ viewToggleRef }}" type="button" data-view="explore" class="ng-drawer-brand" onClick="{{ drawerHome }}"></button>
       <button onClick="{{ closeDeck }}" class="ng-explorer-close" type="button" title="Close panel" aria-label="Close panel"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="3"></rect><path d="M9.5 4.5v15"></path></svg></button>
@@ -178,6 +175,8 @@
   </div>
 
   <!-- legend (bottom left) -->
+  <!-- v1.253.0: reader.src.js docks this legend 8px off the bottom where the win bar falls under the grid, and restores the 30px
+       below BY VALUE elsewhere (deleting the inline declaration sends it to the top). Change one, change the other. -->
   <div class="ng-legend" style="position:absolute;bottom:30px;left:38px;z-index:1;display:flex;flex-direction:column;gap:16px;pointer-events:none;">
     <div ref="{{ legendRef }}" class="ng-legendkey" style="display:flex;flex-direction:column;gap:11px;opacity:0;transition:opacity .6s ease;">
       <div style="display:flex;align-items:center;gap:11px;">

@@ -125,10 +125,12 @@ function labelApp() {
   a.trail = [];
   a.ripples = [];
   a.anim = (_key, fallback) => fallback;
-  a.updateNodeCard = () => {};
   // This harness records canvas text without a DOM. Seat-star DOM placement and input
   // are covered by e2e/journeys/seat-star.spec.ts, while the canvas labels stay real here.
   a._syncSeatStars = () => {};
+  // ...and the same for the controls the map's names keep clear of (`_nameBlocks`, v1.275.0: DOM boxes): none here, the
+  // whole canvas free. What it measures, and the names' layout against it, is e2e/journeys/map-names.spec.ts.
+  a._nameBlocks = () => ({ blocks: [], l: 0, r: a.W, b: a.H, v: "" });
   a.cam = { cx: focus.x, cy: (focus.y + partner.y) / 2, vw: a.W / 3 };
   return { a, texts };
 }
@@ -164,10 +166,10 @@ test("the announcer never outranks the name of the state it is describing", () =
   );
 });
 
-test("the phone keeps the label size its @curated width bound was measured at", () => {
+test("the phone keeps the label size its width bound was measured at", () => {
   // e2e/journeys/dual-pair.spec.ts asserts `labelRight < W` at 320/360/390 from the UNTRIMMED
   // `_labelWidthPx`, and measured (tests/artifacts/_label_size_probe.mjs) 320px admits at most
-  // 19px before that deploy gate goes red. Growing this without re-running that probe is the
+  // 19px before that journey goes red (in e2e-full; it left the deploy gate at v1.263.0). Growing this without re-running that probe is the
   // failure this test exists to make loud.
   assert.ok(
     at(320).nameFontPx() <= 19,

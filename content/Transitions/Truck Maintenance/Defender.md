@@ -170,8 +170,8 @@ description: "Learn to escape and survive the Truck position in BJJ. Systematic 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "TMG Clips #166 - Reverse The Truck!!",
-      "description": "Truck Maintenance (Defender) film study: TMG Clips #166 - Reverse The Truck!!.",
+      "name": "Reverse The Truck!!",
+      "description": "Truck Maintenance (Defender) film study: Reverse The Truck!!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dWAZQ2VQcjw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dWAZQ2VQcjw",
       "url": "https://www.youtube.com/watch?v=dWAZQ2VQcjw",
@@ -213,7 +213,7 @@ Defending against truck maintenance requires a systematic approach to dismantlin
 
 ![](https://www.youtube.com/watch?v=dWAZQ2VQcjw)
 
-<p class="clip-credit"><strong>TMG Clips #166 - Reverse The Truck!!</strong> · 3:49 · <a href="https://www.youtube.com/watch?v=dWAZQ2VQcjw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse The Truck!!</strong> · 3:49 · <a href="https://www.youtube.com/watch?v=dWAZQ2VQcjw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

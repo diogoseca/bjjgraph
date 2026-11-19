@@ -36,6 +36,27 @@ description: "Master the Transition to Z-Guard from Knee Shield Half Guard. Lear
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield Half Guard to Z-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter the Z-Guard + Knee-Shield",
+      "description": "Knee Shield Half Guard to Z-Guard film study: Counter the Z-Guard + Knee-Shield.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BNb_ZIq6JhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BNb_ZIq6JhE",
+      "url": "https://www.youtube.com/watch?v=BNb_ZIq6JhE",
+      "duration": "PT139S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ The mechanical key to the transition lies in generating hip elevation through a 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield Half Guard to Z-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=BNb_ZIq6JhE)
+
+<p class="clip-credit"><strong>Counter the Z-Guard + Knee-Shield</strong> · 2:19 · <a href="https://www.youtube.com/watch?v=BNb_ZIq6JhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

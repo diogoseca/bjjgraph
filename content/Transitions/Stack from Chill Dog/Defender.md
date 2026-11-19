@@ -161,33 +161,30 @@ description: "Stack from Chill Dog (defender): Keep the opposing hand on the mat
       "@type": "VideoObject",
       "position": 1,
       "name": "Shoulder lock defending the double under stack pass",
-      "description": "Stack from Chill Dog (Defender) film study: Shoulder lock defending the double under stack pass, taught by Tony Casarez.",
+      "description": "Stack from Chill Dog (Defender) film study: Shoulder lock defending the double under stack pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dH6Cj-nv3vU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dH6Cj-nv3vU",
       "url": "https://www.youtube.com/watch?v=dH6Cj-nv3vU",
-      "creator": { "@type": "Person", "name": "Tony Casarez" },
       "duration": "PT62S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Stack Attack: dealing with the stack in rubber guard",
-      "description": "Stack from Chill Dog (Defender) film study: Stack Attack: dealing with the stack in rubber guard, taught by Submissions101 coach.",
+      "description": "Stack from Chill Dog (Defender) film study: Stack Attack: dealing with the stack in rubber guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/12F5eAkrS4s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/12F5eAkrS4s",
       "url": "https://www.youtube.com/watch?v=12F5eAkrS4s",
-      "creator": { "@type": "Person", "name": "Submissions101 coach" },
       "duration": "PT105S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Prison Guard breakdown from rubber guard",
-      "description": "Stack from Chill Dog (Defender) film study: Prison Guard breakdown from rubber guard, taught by Eddie Bravo.",
+      "description": "Stack from Chill Dog (Defender) film study: Prison Guard breakdown from rubber guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
       "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT59S"
     }
   ]
@@ -226,7 +223,7 @@ When the high connection must open, use a supported hip escape and a knee return
 
 ![](https://www.youtube.com/watch?v=dH6Cj-nv3vU)
 
-<p class="clip-credit"><strong>Shoulder lock defending the double under stack pass</strong> — taught by Tony Casarez · 1:02 · <a href="https://www.youtube.com/watch?v=dH6Cj-nv3vU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shoulder lock defending the double under stack pass</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=dH6Cj-nv3vU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,7 +231,7 @@ When the high connection must open, use a supported hip escape and a knee return
 
 ![](https://www.youtube.com/watch?v=12F5eAkrS4s)
 
-<p class="clip-credit"><strong>Stack Attack: dealing with the stack in rubber guard</strong> — taught by Submissions101 coach · 1:45 · <a href="https://www.youtube.com/watch?v=12F5eAkrS4s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Stack Attack: dealing with the stack in rubber guard</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=12F5eAkrS4s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -242,7 +239,7 @@ When the high connection must open, use a supported hip escape and a knee return
 
 ![](https://www.youtube.com/watch?v=gFYyMkaMz34)
 
-<p class="clip-credit"><strong>Prison Guard breakdown from rubber guard</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Prison Guard breakdown from rubber guard</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

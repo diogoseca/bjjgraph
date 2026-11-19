@@ -104,7 +104,7 @@ const exploreAddFor = async (page: Page, tech: { id: string; name: string }) => 
 
 // ─────────────────────────────────────── 1. the bug, and its regression proof
 
-test("with two lists the star asks WHERE — and the list you choose is the one that gets it @curated", async ({
+test("with two lists the star asks WHERE — and the list you choose is the one that gets it", async ({
   page,
 }) => {
   const j = journey(page);
@@ -170,7 +170,7 @@ test("with two lists the star asks WHERE — and the list you choose is the one 
 
 // ─────────────────────────────────────── 2. the check doubles as remove
 
-test("the picker's checks mirror real membership, and tapping a checked row removes @curated", async ({
+test("the picker's checks mirror real membership, and tapping a checked row removes", async ({
   page,
 }) => {
   const j = journey(page);
@@ -240,7 +240,7 @@ test("the picker's checks mirror real membership, and tapping a checked row remo
 
 // ─────────────────────────────────────── 3. inline create
 
-test("New list names and files in one action — the YouTube 'new playlist' row @curated", async ({
+test("New list names and files in one action — the YouTube 'new playlist' row", async ({
   page,
 }) => {
   const j = journey(page);
@@ -285,7 +285,7 @@ test("New list names and files in one action — the YouTube 'new playlist' row 
 
 // ─────────────────────────────────────── 4. zero and one list still ask
 
-test("the star ALWAYS asks — nothing is filed into a list the reader did not choose @curated", async ({
+test("the star ALWAYS asks — nothing is filed into a list the reader did not choose", async ({
   page,
 }) => {
   const j = journey(page);
@@ -367,7 +367,7 @@ test("the star ALWAYS asks — nothing is filed into a list the reader did not c
 
 // ─────────────────────────────────────── 5. the clock
 
-test("the picker never stops the clock, and never sits over the option hand past a decision @curated", async ({
+test("the picker never stops the clock, and never sits over the option hand past a decision", async ({
   page,
 }) => {
   const j = journey(page);
@@ -390,7 +390,8 @@ test("the picker never stops the clock, and never sits over the option hand past
   expect(before.paused, "premise: the roll is running").toBe(false);
 
   await optAdd.click();
-  await expect(page.locator("[data-list-picker]")).toBeVisible();
+  await j.advance(1000); // drawn frames before the read (v1.281.1, STAR3: the next frame used to close it)
+  await expect(page.locator("[data-list-picker]"), "still open a second of frames after the press").toBeVisible();
   expect(
     await page.evaluate(() => (window as any).__neural.paused),
     "capture NEVER stops the clock — canon, and the reason the picker is chrome not a screen",
@@ -447,7 +448,7 @@ const pickerRows = (page: Page) =>
   );
 const paintsNothing = (after: string) => after === "none" || after === "normal";
 
-test("no list is the default — the picker's rows are the Lists panel's recency order, and nothing files until one is picked @curated", async ({
+test("no list is the default — the picker's rows are the Lists panel's recency order, and nothing files until one is picked", async ({
   page,
 }) => {
   const j = journey(page);
@@ -571,6 +572,10 @@ test.describe("in the 390px drawer", () => {
 
     // Capture now belongs to the graph seat. Dismiss the independently earned reward first:
     // on a phone its temporary View Collection button can cover the upper seat label.
+    // v1.280.0 (GOLD1-R1): the reward card is OPAQUE over the seat here, so the position's name and
+    // its star are not written under it (`_hides`); the card's close draws the map at once, which is
+    // what brings the star back before the look below (challenge-feedback.src.js). Mutant R1c (the
+    // close without that draw) is red at this test: the star is not found.
     const rewardClose = page.locator("[data-reward-close]");
     if (await rewardClose.isVisible()) await rewardClose.click();
     const optAdd = page.locator('[data-list-add="Positions/Mount"][data-list-surface="seat"]');

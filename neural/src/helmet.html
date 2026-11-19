@@ -42,8 +42,14 @@
   @media (prefers-reduced-motion: reduce){.ng-film-arrow,.ng-film-arrow[data-off]{transition:none;}}
   .ng-optionrow::-webkit-scrollbar{height:0;display:none;}
   [data-reader-pending]{visibility:hidden!important;}
-  .ng-logo{transition:background .14s,color .14s;filter:drop-shadow(0 1px 3px rgba(0,0,0,.7));}
-  .ng-logo:hover{background:rgba(255,255,255,.07)!important;color:#fff!important;}
+  .ng-logo,.ng-search{transition:background .14s,color .14s;filter:drop-shadow(0 1px 3px rgba(0,0,0,.7));}
+  .ng-logo:hover,.ng-search:hover{background:rgba(255,255,255,.07)!important;color:#fff!important;}
+  /* v1.254.0: the legend's key shows on the map alone, and the win bar steps aside for the index (updateUiShift, the one writer).
+     Hidden, never removed: visibility takes each out of hit-testing and the accessibility tree, and the bar keeps its one painter.
+     The key's !importants outrank its inline opacity (the hand's fade) and its inline .6s transition. */
+  .ng-legendkey[data-away]{opacity:0!important;visibility:hidden;transition:opacity .3s ease,visibility 0s .3s!important;}
+  .ng-winbar{transition:opacity .3s ease;}
+  .ng-winbar[data-away]{opacity:0;visibility:hidden;transition:opacity .3s ease,visibility 0s .3s;}
   @keyframes ngSpin{to{transform:rotate(360deg);}}
   @keyframes ngCount{from{transform:scaleX(1);}to{transform:scaleX(0);}}
   @keyframes ngCardIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
@@ -52,7 +58,6 @@
      snaps into place when the animation ends. Anything centred that way needs this variant. */
   @keyframes ngCardInX{from{opacity:0;transform:translate(-50%,8px);}to{opacity:1;transform:translate(-50%,0);}}
   @keyframes ngNudge{0%,100%{transform:translateX(0);}50%{transform:translateX(5px);}}
-  @keyframes ngDeckExpire{0%{filter:grayscale(0) brightness(1);opacity:1;}55%{filter:grayscale(.35) brightness(.92);opacity:.92;}100%{filter:grayscale(1) brightness(.5);opacity:.34;}}
   @keyframes ngPulseChip{0%,100%{box-shadow:0 0 0 0 rgba(120,170,255,.5);}50%{box-shadow:0 0 0 6px rgba(120,170,255,0);}}
   /* ---------- THE DRAWER (v1.242.0, owner A5 / E1 / T-b) ----------
      rows read as one list: a 19px stroked glyph, the name, a quiet tail; the Explore categories
@@ -71,11 +76,25 @@
   .ng-dr-label{width:100%;display:flex;align-items:center;margin:14px 0 2px;padding:0 10px;min-height:28px;border:0;background:transparent;font:600 12.5px/1 "Plus Jakarta Sans",sans-serif;color:#959db6;text-align:left;}
   button.ng-dr-label{cursor:pointer;border-radius:8px;}
   button.ng-dr-label:hover{background:rgba(255,255,255,.04);color:#cbd4e6;}
-  .ng-dr-pill{height:20px;padding:0 8px;border-radius:10px;background:#3a2f1c;color:#f0c987;font-size:11.5px;font-weight:700;display:inline-flex;align-items:center;}
   .ng-dr-bar{position:relative;width:40px;height:4px;border-radius:2px;background:#33375a;overflow:hidden;}
   .ng-dr-bar>i{position:absolute;left:0;top:0;bottom:0;border-radius:2px;background:#9ea3ff;}
-  .ng-dr-belt{margin:-4px 12px 4px 41px;}
-  .ng-dr-belt .ng-tab-belt{width:100%;}
+  /* THE BELT YOU WEAR (v1.276.0): the drawn row (design/practice-r2, the dip frame): a 12px woven belt in its colour,
+     the dark sleeve with 4px stripes on a 3px gap and the next one an empty dashed slot, the number at its end, the line(s)
+     under it. Black wears a red bar and no slots. The number's box holds a hidden "0000" while it waits, so nothing jumps. */
+  .ng-dr-rank{margin:-2px 12px 8px 41px;}
+  .ng-dr-rank-top{display:flex;align-items:center;gap:9px;}
+  .ng-belt{position:relative;flex:1;min-width:0;display:flex;justify-content:flex-end;height:12px;border-radius:2px;overflow:hidden;background:linear-gradient(180deg,#ffffff2e,rgba(255,255,255,0) 32%,rgba(0,0,0,0) 60%,#00000042),repeating-linear-gradient(180deg,#0003 0 1px,#ffffff0f 1px 2px,transparent 2px 5px),repeating-linear-gradient(63deg,#ffffff12 0 1px,transparent 1px 3px),repeating-linear-gradient(117deg,#00000017 0 1px,transparent 1px 3px),var(--belt);}
+  .ng-belt::after{content:"";position:absolute;left:0;top:0;right:0;bottom:0;box-shadow:inset 0 2px 1px -1px #ffffff40,inset 0 -2px 1px -1px #0006,inset 0 0 0 1px #00000047;}
+  .ng-belt>span{flex:none;display:flex;gap:3px;width:33px;box-sizing:border-box;padding:0 4px;background:linear-gradient(180deg,#2a2a31,#17171b 45%,#0f0f12);box-shadow:inset 1px 0 0 #0008,inset -1px 0 0 #0008;}
+  .ng-belt[data-belt="black"]>span{background:linear-gradient(180deg,#c43a40,#a3262c 45%,#82181e);}
+  .ng-belt>span>b{flex:none;width:4px;background:linear-gradient(180deg,#f6f3ea,#bdb6a4);box-shadow:0 0 0 .5px rgba(0,0,0,.4);}
+  .ng-belt>span>s{flex:none;width:4px;box-sizing:border-box;border-left:1px dashed rgba(246,243,234,.75);border-right:1px dashed rgba(246,243,234,.75);background:rgba(246,243,234,.09);}
+  .ng-belt>span>u{flex:none;width:4px;}
+  .ng-belt>em{flex:none;width:9px;}
+  .ng-belt-num{flex:none;text-align:right;font-size:14px;line-height:1;font-weight:700;color:#eef1f6;font-variant-numeric:tabular-nums;}
+  .ng-belt-num[aria-hidden="true"]{visibility:hidden;}
+  .ng-dr-rank-line{margin-top:7px;display:flex;flex-direction:column;gap:2px;font-size:12px;line-height:1.45;color:#9aa2bd;text-wrap:pretty;}
+  .ng-dr-rank-line b{font-weight:700;color:#eef1f6;font-variant-numeric:tabular-nums;}
   .ng-dr-dot{flex:none;width:8px;height:8px;margin:0 5.5px;border-radius:50%;}
   .ng-dr-none{padding:4px 10px 8px 40px;font-size:12.5px;color:#7e8aa3;}
   /* THE BADGE: your name and today's numbers at the drawer's foot; the guest's save offer beside it */
@@ -87,11 +106,39 @@
   .ng-badge-who>*{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
   .ng-badge-who b{font-size:14px;font-weight:600;color:#f0f2fa;}
   .ng-badge-who small{font-size:11.5px;color:#9aa2bd;}
+  .ngAcctChip .ph-no-capture{pointer-events:none;}
   /* the guest's calmer save offer (round 4, after G7 e): quiet outline, not a shouting gradient */
   .ngSignupCta{flex:none;min-height:34px;padding:0 14px;cursor:pointer;font:700 12px/1 "Plus Jakarta Sans",sans-serif;color:#dce4ff;background:rgba(110,140,255,.12);border:1px solid rgba(140,165,255,.36);border-radius:999px;}
   .ngSignupCta:hover{background:rgba(110,140,255,.22);}
   /* the badge's menu, portaled to the root above the badge; the small line carries the secondary links */
   .ng-account-menu{position:absolute;right:0;bottom:calc(100% + 10px);width:236px;flex-direction:column;background:linear-gradient(180deg,rgba(26,30,52,.99),rgba(18,21,38,.99));border:1px solid rgba(130,150,190,.22);border-radius:14px;box-shadow:0 14px 44px rgba(0,0,0,.55);padding:5px;animation:ngCardIn .18s ease both;}
+  /* LEGAL3 (v1.264.0): the legal boxes (openLegal). Head, text, footer: the text scrolls between them, so "Extended version" and the
+     close stay on screen on any phone (390x631 pinned). Every rule names its element under .ng-legal, because Quartz styles bare
+     h2/p/ul/table site-wide (CLAUDE.md 6.1) and these come from the page's own article. */
+  .ng-legal{display:flex;flex-direction:column;max-height:min(calc(100dvh - 24px),820px);color:#9aa6bd;font-size:12.5px;line-height:1.6;}
+  .ng-legal[data-open]{height:min(calc(100dvh - 24px),820px);}
+  [data-legal-head]{display:flex;justify-content:space-between;padding:14px 8px 0 22px;}
+  [data-legal-head] h2{margin:8px 0 0;font-size:20px;color:#eef1f6;}
+  .ng-legal button{border:0;padding:0;background:none;font:inherit;cursor:pointer;}
+  [data-legal-close]{flex:none;width:44px;height:44px;color:#8b97b0;font-size:22px!important;}
+  [data-legal-sub]{padding:0 22px;font-size:11.5px;color:#7e8aa8;}
+  [data-legal-body]{flex:1;min-height:0;overflow-y:auto;padding:14px 22px 16px;}
+  [data-legal-body] :is(p,li,td,th){color:inherit;font-size:inherit;line-height:inherit;}
+  [data-legal-body] :is(p,ul,ol,table,blockquote){margin:0 0 12px;}
+  [data-legal-body] strong{color:#c4cde0;}
+  [data-legal-body] a{color:#a9b8ff;}
+  [data-legal-short]>ul{list-style:none;padding:0;display:grid;gap:14px;}
+  [data-lead]{display:block;margin-bottom:5px;font-size:13px;color:#dbe2f0!important;}
+  [data-legal-short]>h2{margin:0 0 6px;font-size:13px;font-weight:700;color:#dbe2f0;}
+  [data-legal=terms] [data-legal-short]>ul>li:first-child{border:1px solid #e8746b4d;background:#e8746b12;border-radius:11px;padding:12px 14px;}
+  [data-legal-ext] :is(h2,h3){margin:18px 0 6px;font-size:14px;font-weight:700;color:#dbe2f0;}
+  [data-legal-ext] table{display:block;overflow-x:auto;font-size:12px;}
+  [data-legal-ext] blockquote{padding-left:12px;border-left:2px solid #e8746b73;}
+  [data-legal-foot]{display:flex;padding:0 22px;border-top:1px solid #96aad224;}
+  [data-legal-foot][hidden]{display:none;}
+  [data-legal-more]{min-height:48px;color:#a9b8ff;font-weight:600!important;}
+  [data-legal-more] span{display:inline-block;transition:transform .15s;}
+  .ng-legal[data-open] [data-legal-more] span{transform:rotate(90deg);}
   .ng-menu-small{display:flex;flex-wrap:wrap;gap:0 12px;padding:6px 13px 7px;border-top:1px solid rgba(150,170,210,.1);margin-top:4px;}
   .ng-menu-small>*{min-height:30px;padding:0;border:0;background:none;cursor:pointer;font:600 11px/30px "Plus Jakarta Sans",sans-serif;color:#7e8aa3;text-decoration:none;}
   .ng-menu-small>*:hover{color:#cbd4e6;}
@@ -141,6 +188,17 @@
   .ng-histctl:active{transform:translateY(1px);}
   .ng-histctl:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-2px;}
   .ng-histctl[data-replaying]{background:rgba(126,224,168,.16);color:#9fe8c0;}
+  /* ---------- Last rolls: a place's two actions (L3, v1.293.0) ----------
+     A row is a place you went through; a press shows these two under it, where its deck used to open (app.src.jsx,
+     `_histRow`). They wear what that deck's own buttons wore, so the row reads as it did: "Show on the map" the quiet
+     outline of its ‹ ›, "Practise here" the blue of its Reveal. 44px tall: a thumb presses them on a phone, where the
+     drawer is the screen. The key each answers to (Space, Enter: ruling 2) is its tooltip, not a chip: two buttons
+     share a 360px drawer, and a chip beside the words wrapped "Show on the map" onto two lines. */
+  .ng-hact{gap:8px;padding:2px 8px 12px 26px;animation:ngCardIn .22s ease both;}
+  .ng-hact button{flex:1;min-width:0;min-height:44px;cursor:pointer;font:inherit;font-size:12px;font-weight:700;border:1px solid rgba(150,170,210,.2);border-radius:9px;background:rgba(255,255,255,.03);color:#aab4c8;}
+  .ng-hact [data-hist-go]{border-color:rgba(120,150,255,.4);background:rgba(74,108,255,.16);color:#dbe6ff;}
+  .ng-hact button:hover{filter:brightness(1.3);}
+  .ng-hact button:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:2px;}
   /* ---------- Settings: the tab row (v1.196.1) ----------
      Owner, with a desktop screenshot: "settings doesnt have room for all tabs". The row was five
      bare spans with NO overflow behaviour, so "Shortcuts" ran 22.5px past the 440px card's
@@ -197,6 +255,7 @@
   @media (max-width:640px){
     .ng-sharecue{bottom:84px!important;right:14px!important;}
     .ng-logo{top:16px!important;left:10px!important;}
+    .ng-search{top:16px!important;left:60px!important;}
     .ng-drill{width:88vw!important;}
     .ng-evtoast{width:86vw!important;}
     .ng-optionrow{padding-top:10px!important;padding-bottom:6px!important;gap:9px!important;}
@@ -207,7 +266,7 @@
     .ng-landcard{bottom:206px!important;max-height:34vh!important;}
     .ng-landcard{width:calc(100vw - 20px)!important;padding:11px 12px 10px!important;}
     /* the replay bar shares the card's dock, at every width — see its rule above */
-    .ng-replaybar{bottom:206px!important;width:calc(100vw - 20px)!important;padding:8px 10px!important;}
+    .ng-replaybar{bottom:206px!important;width:calc(100vw - 20px)!important;max-width:none!important;padding:8px 10px!important;}
     /* ── THE BOTTOM THUMB BAND HAS THREE TENANTS ──────────────────────────────────────────
        legend (left:14), transport (centred), drill pill (right:14) — all anchored at 28px.
        The share cue's two buttons widen the pill LEFTWARD until, at 390px, it sat on top of
@@ -290,7 +349,8 @@
   @media (prefers-reduced-motion: reduce){.ng-cause,.ng-hitpop{animation:ngRiseFade 1.3s linear both!important;}.ng-hit-bad,.ng-hit-good{animation:ngHitStill .42s ease-out!important;}}
   /* ══ THE Z LADDER (v1.95.1) — root overlay plane: direct children of #neural-root. ══
      The app wrap is position:fixed = its OWN stacking context, so its internal z values
-     (pane 8, tray/backs 4, landing card/film/guides 5, logo 9, seat stars 3) never compete out here;
+     (pane 8, tray/backs 4, landing card/film/guides 5, the reader 5, the announcer 7 and the centre's verdict 7 while
+     the round's end is up (v1.280.3: never under anything ambient; an opening's heading keeps its place under the board), logo 9, seat stars 3) never compete out here;
      landing content stays below the pane. The wrap paints at level 0 and
      any root-level sibling with z ≥ 1 covers ALL of it — which is why graph chrome that must stay
      UNDER the cards (the seat stars, v1.221.0) lives in the wrap, not out here. Bands, bottom to top:
@@ -338,9 +398,36 @@
   .ng-chev:focus-visible{outline:2px solid #9cbcff;outline-offset:-4px;border-radius:8px;}
   @media(hover:hover){.ng-chev:hover{color:#e0e9ff;}}
   .ng-landnav button{position:absolute;top:calc(var(--guide-y,50%) - 22px);}
-  .ng-landnav [data-land-prev]{right:calc(100% + 8px);}
-  .ng-landnav [data-land-next]{left:calc(100% + 8px);}
+  /* CARDWIDTH (owner, 2026-11-12): each arrow's 44px target abuts the face, and its glyph rides 6px toward it, to the middle of
+     the 32px lane the reader leaves it inside the card's section (reader.src.js, `arrowLanes`); the target's other 12px reach past the
+     section's edge. WIDTH2 (U152 b): where the margins hold the target the face is the section and the arrows stand outside it,
+     the same 44px against the face and the glyph the same 16px from it, so the arrows look alike at every width. WAS: 8px clear
+     of the face, glyph centred in the target. The index's own lane rule went with it (#346's review,
+     finding 1, kept Previous out of the index column by stacking it over Next): Previous is inside the grid now, on its own side. */
+  .ng-landnav [data-land-prev]{right:100%;}
+  .ng-landnav [data-land-next]{left:100%;}
+  .ng-landnav svg{translate:6px;}
+  .ng-landnav [data-land-next] svg{translate:-6px;}
+  /* WIDTH4 (owner, 2026-11-12 18:18, p5): on a phone the face is the Moves row's whole width and the arrows stand INSIDE it, each
+     44px target over the face's own 44px side padding (its 32px lane, then the phone's 12px gutter before the text, so the 1.5x foot
+     stays 18) and reaching 12px past its edge into the row's gutter; its glyph centred in the free space (WIDTH5, below). The answers stand
+     exactly where they stood in v1.264.1, 13px clear of each target (the 12px gutter and the face's 1px border); only the face's box widens to the moves. An asking line
+     keeps its own padding (it carries the deck class too). 599px is the reader's flush threshold (`flush`, 600px free) on a phone,
+     where the free width is the viewport's. WAS (v1.264.1): the face was the row less two 32px lanes, the arrows outside it.
+     WIDTH5 (the owner's U154 e, 13 Nov 2026: "make sure the left and right arrows are centered in the left available and right
+     available space inside the card"): each glyph stands in the middle of the space free on its side inside the face, from the face's
+     edge to the answers', which is its 1px border and 44px padding, so 22.5px in; the target's centre is 10px in (-12 to 32), so the glyph
+     rides 12.5px toward the answers. WAS 6px, the lane's ride: 16px in, 6.5px off that middle (p2's shot had 36px of padding, 2.5px off).
+     Pinned by card-section.spec.ts, the drawn chevron against the midpoint, both sides, each phone size. */
+  @media(max-width:599px){
+    [data-landcard].ng-landcard.ng-land-deck:not([data-land-ask]){padding-left:44px!important;padding-right:44px!important;}
+    .ng-landnav [data-land-prev]{right:auto;left:-12px;}
+    .ng-landnav [data-land-next]{left:auto;right:-12px;}
+    .ng-landnav svg{translate:12.5px;}
+    .ng-landnav [data-land-next] svg{translate:-12.5px;}
+  }
   .ng-landnav button[hidden]{display:none;}
+  .ng-landnav [aria-disabled=true]{opacity:.3;cursor:default;color:#8797b3;}
   .ng-land-deck [data-land-q]>div:first-child{font-size:14px!important;line-height:1.4!important;}
   .ng-land-deck [data-land-mc-opt]{min-height:44px;font-size:13px!important;white-space:normal!important;overflow-wrap:anywhere;padding:10px 12px!important;}
   .ng-land-deck [data-land-recall]{font-size:13px;overflow-wrap:anywhere;}
@@ -401,11 +488,13 @@
      narrow screen keeps the rules above, because its two-line question stands apart from the cards. A question short
      enough to share one line with its link does not, and there the old box still lies 8px over the choice above: no
      question at 430px, about 1% at 540px and 600px (of 21,269, measured 2026-11-05). With the film closed the hang
-     meets the article's ✕, so the ✕ takes that corner: the link keeps its 44px and the press goes to the nearer control.
-     Pinned by ask-line.spec.ts and panic-card.spec.ts. */
+     meets the first open tile's ✕ (v1.253.0 retired the article's ✕ that met it before), and took 328px² of that ✕'s 1,936px² at
+     390x631 on Side Control Bottom (ask-line.spec.ts: every point of the ✕ sampled with elementsFromPoint, counted where the
+     link is on top). So the reader gives that ✕ an inline z-index:6 where the hang meets it and the card's own ✕ does not
+     (reader.src.js, after the pass's game height): the link keeps its 44px and the press goes to the nearer control. Pinned by
+     ask-line.spec.ts and panic-card.spec.ts. */
   @media(min-width:641px),(max-height:699px){
     .ng-landcard[data-land-ask]{border-bottom-width:calc(1px + var(--section-gap,6px))!important;}
-    .ng-reader [data-reader-close]{position:relative;z-index:6;}
     [data-land-ask-go]{position:relative;margin:-5px -6px -23px;padding:5px 6px 23px;}
     [data-land-ask-go]:focus-visible{outline:0;}
     [data-land-ask-go]:focus-visible::before{content:"";position:absolute;inset:1px 10px 19px;outline:2px solid #9cbcff;}
@@ -427,7 +516,22 @@
      not take the input a modal scrim takes. `pointer-events:auto` is load-bearing on every fixed
      overlay here (the property is inherited and the canvas hit-tests above anything that does not
      re-enable it) — without it the ✕ is visible and dead. */
-  .ng-replaybar{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:8;display:flex;align-items:center;gap:11px;width:min(520px,calc(100vw - 32px));background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-left:3px solid #7ee0a8;border-radius:13px;padding:9px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .24s cubic-bezier(.2,.7,.2,1);}
+  .ng-replaybar{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:8;display:flex;align-items:center;gap:11px;width:calc(100vw - 32px);max-width:520px;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-left:3px solid #7ee0a8;border-radius:13px;padding:9px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .24s cubic-bezier(.2,.7,.2,1);}
+  /* ITS WIDTH ON THE MAP IS `max-width` (FOLLOW2-R1): the rule above read `width:min(520px, 100vw - 32px)`; it is the same
+     box written as a width and a cap, so that `_seatReplayBar` can READ the cap in whichever seat the bar is (it asks
+     whether the bar can stand whole beside the open drawer). The phone's rule lifts the cap (`max-width:none`): its bar
+     is the screen's width less 20 px up to 640.
+     IN THE DRAWER (FOLLOW1, v1.293.1; `_seatReplayBar` in app.src.jsx moves it and sets the attribute): a row of
+     the drawer at its foot, after the list and above the account's foot, in the flow: nothing of the list can lie under it,
+     and no row moves when it comes or goes (the list gives its height at its own end). `!important` on width only: the
+     phone rule above carries one. The entry animation is a fixed card's (it animates the transform this rule takes away),
+     so it does not run here. The inline `left` and `bottom` the dock wrote while it stood on the map mean nothing to a
+     static box. NO `z-index` IS SET HERE, ON PURPOSE: a `z-index:auto` stood in this rule "so the bar would not paint over
+     the drawer's menus", and its mutant survived twice (the reader of PR #441, then mine): the account's menu, the one
+     thing that opens over this row, is drawn on the root plane (`renderAccountMenu` moves it there) and stands over the
+     bar whatever the bar's own z is. A declaration nothing can read is gone; that the menu's items are reached over the
+     bar is pinned by history-replay.spec.ts. */
+  .ng-replaybar[data-in-drawer]{position:static;transform:none;animation:none;flex:none;width:auto!important;margin:0 12px 8px;box-shadow:none;}
   .ng-replaybar .ng-replay-dot{flex:none;width:8px;height:8px;border-radius:50%;background:#7ee0a8;box-shadow:0 0 8px rgba(126,224,168,.7);animation:ngReplayPulse 1.6s ease-in-out infinite;}
   @keyframes ngReplayPulse{0%,100%{opacity:1;}50%{opacity:.35;}}
   .ng-replaybar .ng-replay-txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px;}
@@ -496,6 +600,6 @@
   .ng-clip{isolation:isolate;}
   .ng-clip::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.13) 50%,transparent 58%);background-size:230% 100%;background-position:120% 0;animation:ngShimmer 2.2s ease-out .4s 2;pointer-events:none;}
   @keyframes ngShimmer{to{background-position:-130% 0}}
-  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-combo-pop,.ng-momentum,.ng-challenge-continue,.ng-challenge-lesson[data-frontier],.ng-belt-bar>b,.ng-belt-bar>b[data-new],.ng-account-menu,.ng-replaybar,.ng-replaybar .ng-replay-dot{animation:none!important}}
+  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-combo-pop,.ng-momentum,.ng-challenge-lesson[data-frontier],.ng-account-menu,.ng-replaybar,.ng-replaybar .ng-replay-dot{animation:none!important}}
 </style>
 <script src="technique-content.js"></script>

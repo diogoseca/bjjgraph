@@ -40,7 +40,9 @@ print(json.dumps(out['clips']))
   assert.deepEqual(JSON.parse(result.stdout), [
     { id: "bbbbbbbbbbb", title: "First Short", vertical: true },
     { id: "ccccccccccc", title: "Second Short", vertical: true },
-    { id: "aaaaaaaaaaa", title: "Long lesson", by: "Teacher", start: 20, end: 50, vertical: false },
+    // v1.288.0 (owner U196 b): this claimed `by: "Teacher"` was a player field and reached the body. `by` names who
+    // teaches, which nothing renders any more, so the claim is now that it is DROPPED (the input above still has it).
+    { id: "aaaaaaaaaaa", title: "Long lesson", start: 20, end: 50, vertical: false },
     { id: "ddddddddddd", title: "Second lesson" },
   ]);
 });
@@ -67,9 +69,11 @@ test("every authored principle's clips reach its emitted body, never the lightwe
     for (const clip of emitted) {
       if (!clip.vertical) landscapeSeen = true;
       else assert.equal(landscapeSeen, false, `${c.id}: Shorts precede longer videos`);
-      for (const field of ["id", "title", "by", "start", "end", "vertical"]) {
+      for (const field of ["id", "title", "start", "end", "vertical"]) {
         assert.equal(clip[field], authored.find((source) => source.id === clip.id)[field], `${c.id}: ${field}`);
       }
+      // v1.288.0 (owner U196 b): `by` was compared here as a player field; it is now provenance only, never shipped.
+      assert.equal(Object.hasOwn(clip, "by"), false, `${c.id}: no \`by\` on the wire`);
       assert.equal(Object.hasOwn(clip, "verified"), false);
       assert.equal(Object.hasOwn(clip, "channel"), false);
     }
@@ -86,9 +90,12 @@ test("film thumbnails escape fetched titles and expose keyboard button names", (
   const app = Object.create(Component.prototype);
   const html = app.filmStudyHTML([{ id: "aaaaaaaaaaa", title: '<img onerror="bad">', by: "A & B" }]);
   assert.match(html, /type="button"/);
-  // The U2 control opens the viewer without autoplay; retain exact escaping
-  // and the accessible name under its current Watch action.
-  assert.match(html, /aria-label="Watch: &lt;img onerror=&quot;bad&quot;&gt; — A &amp; B"/);
+  // The U2 control opens the theater, which plays at once since VID1; retain exact escaping
+  // and the accessible name under its current Watch action. v1.288.0 (owner U196 b): this claimed the
+  // name ended " — A &amp; B" (the clip's `by`); it now claims the name is the title alone, with `by`
+  // still in the input so the name is proved not printed even when a clip arrives with one.
+  assert.match(html, /aria-label="Watch: &lt;img onerror=&quot;bad&quot;&gt;"/);
+  assert.doesNotMatch(html, /A &amp; B|A & B/);
   assert.doesNotMatch(html, /<img onerror/);
   assert.equal(app.filmStudyHTML([]), "");
 });

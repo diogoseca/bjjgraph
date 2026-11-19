@@ -23,7 +23,9 @@ test.beforeAll(async ({ request }) => {
 })
 
 for (const width of [1440, 390]) {
-  test(`@curated real MDP values reach the first playable hand at ${width}px`, async ({ page }, info) => {
+  // The deploy gate (@curated) runs ONE of these, 390px: one quick test per surface (U147 a, v1.263.0).
+  // Every case runs in e2e-full's core shards on each PR and each merge to dev; tests/artifacts/deploy_gate.json.
+  test(`${width === 390 ? '@curated ' : ''}real MDP values reach the first playable hand at ${width}px`, async ({ page }, info) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.addInitScript(() => {
       ;(window as any).__NEURAL_RIG = { 'start-pos': [0], role: [0], 'ai-skill': [0.5], 'max-moves': [0.5] }
@@ -78,7 +80,9 @@ for (const width of [1440, 390]) {
       .filter(card => (card.querySelector('[data-choice-recommended]')?.textContent || '') !== '')
       .map(card => card.querySelector('[data-choice-win]')?.textContent))
     expect(suggested, 'exactly one suggested card, printing V(s) under the percent heading').toEqual([legend!.replace(/%/g, '')])
-    await expect(own.locator('[data-choice-value-status]')).toBeEmpty()
+    // v1.258.0: the one status slot. Before, the status was EMPTY once the values landed; now the untouched hand,
+    // which sorted itself, says so. The claim is unchanged: nothing pending, nothing unavailable.
+    await expect(own.locator('[data-choice-value-status]'), 'values in, the untouched hand sorted itself, and the slot says so').toHaveText('Sorted by win chance')
     await expect(own.locator('[data-choice-execute]').first()).toBeEnabled()
     expect(errors).toEqual([])
     writeFileSync(info.outputPath('actual-game-value-receipt.json'), JSON.stringify(receipt, null, 2))
@@ -129,13 +133,14 @@ for (const width of [1440, 390]) {
     await expect(own.locator('[data-choice-value-status]')).toHaveText('Win chance unavailable')
     expect((await own.locator('[data-choice-win]').allTextContents()).every(value => value === '—')).toBe(true)
     await expect(own.locator('[data-choice-execute]').first()).toBeEnabled()
-    await expect(own.locator('[data-choice-value-retry]')).toBeHidden()
+    // a live-graph mismatch is not retryable: the slot offers no Retry (v1.258.0; before, the bold button was hidden)
+    await expect(own.locator('[data-choice-value-press]')).toBeHidden()
   })
 }
 
 // This case fails the actual importScripts dependency. It never replaces Worker,
 // the native provider, the profile, a worker reply, or a displayed model value.
-test('@curated failed shared-core startup retires its worker; explicit retry restores real values and usable controls', async ({ page }, info) => {
+test('failed shared-core startup retires its worker; explicit retry restores real values and usable controls', async ({ page }, info) => {
   const workers: { url: string; closed: boolean }[] = []
   const coreRequests: string[] = [], errors: { message: string; stack: string }[] = []
   let failCore = true
@@ -166,8 +171,10 @@ test('@curated failed shared-core startup retires its worker; explicit retry res
   await expect.poll(() => page.evaluate(() => (window as any).__neural?._gameValueReason)).toBe('worker-error')
   await expect.poll(() => workers.map(worker => worker.closed)).toEqual([true])
   await expect(own.locator('[data-choice-value-status]')).toHaveText('Win chance unavailable')
-  const retry = own.locator('[data-choice-value-retry]')
+  // the slot's Retry (v1.258.0; before, the bold "Retry win chances" button): "Win chance unavailable · Retry"
+  const retry = own.locator('[data-choice-value-press][data-act="retry"]')
   await expect(retry).toBeVisible(); await expect(retry).toBeEnabled()
+  await expect(retry).toHaveAccessibleName('Retry win chances')
   const failed = await page.evaluate(() => {
     const app = (window as any).__neural
     // Retain a reference solely to inspect its real retirement guard after retry.
@@ -214,7 +221,10 @@ test('@curated failed shared-core startup retires its worker; explicit retry res
   expect(recovered.snapshot.actions.map((action: any) => action.actionId)).toEqual(recovered.snapshot.request.requestedActionIds)
   expect(recovered.snapshot.actions.length).toBe(failed.ids.length)
   expect(await own.locator('.ngodds').allTextContents()).toEqual(immediate)
-  await expect(own.locator('[data-choice-value-status]')).toBeEmpty()
+  // v1.258.0: before, the status was EMPTY after the recovery. Now it reads "Sorted by win chance": a press on Retry
+  // is a press on the title, not a reach into the hand, so the hand still sorted itself when the real values landed
+  // (before v1.258.0 the Retry press latched "touched" and this hand stayed in dealt order).
+  await expect(own.locator('[data-choice-value-status]'), 'after Retry the hand sorted itself, and the slot says so').toHaveText('Sorted by win chance')
   const displayed = await own.locator('[data-choice-win]').allTextContents()
   expect(displayed.every(value => value !== '—' && !/%/.test(value))).toBe(true)
   await expect(own.locator('.ng-choice-stat:last-child > span')).toHaveText(displayed.map(() => 'Win %'))

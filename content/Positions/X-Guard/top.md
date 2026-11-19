@@ -167,22 +167,20 @@ description: "Master X-Guard Top in BJJ. Comprehensive guide for passing X-Guard
       "@type": "VideoObject",
       "position": 1,
       "name": "Five passes vs Single Leg X-Guard",
-      "description": "X-Guard (Top) film study: Five passes vs Single Leg X-Guard, taught by Oneonta Jiu Jitsu.",
+      "description": "X-Guard (Top) film study: Five passes vs Single Leg X-Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/v2thEjJ0ES0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/v2thEjJ0ES0",
       "url": "https://www.youtube.com/watch?v=v2thEjJ0ES0",
-      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
       "duration": "PT121S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Counter X-Guard: knee pull to heel hook",
-      "description": "X-Guard (Top) film study: Counter X-Guard: knee pull to heel hook, taught by ZeGrapplez.",
+      "description": "X-Guard (Top) film study: Counter X-Guard: knee pull to heel hook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/noPXosvgzA0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/noPXosvgzA0",
       "url": "https://www.youtube.com/watch?v=noPXosvgzA0",
-      "creator": { "@type": "Person", "name": "ZeGrapplez" },
       "duration": "PT83S"
     }
   ]
@@ -214,7 +212,7 @@ X-Guard Top represents the top player's position when facing an opponent who has
 
 ![](https://www.youtube.com/watch?v=v2thEjJ0ES0)
 
-<p class="clip-credit"><strong>Five passes vs Single Leg X-Guard</strong> — taught by Oneonta Jiu Jitsu · 2:01 · <a href="https://www.youtube.com/watch?v=v2thEjJ0ES0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Five passes vs Single Leg X-Guard</strong> · 2:01 · <a href="https://www.youtube.com/watch?v=v2thEjJ0ES0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -222,7 +220,7 @@ X-Guard Top represents the top player's position when facing an opponent who has
 
 ![](https://www.youtube.com/watch?v=noPXosvgzA0)
 
-<p class="clip-credit"><strong>Counter X-Guard: knee pull to heel hook</strong> — taught by ZeGrapplez · 1:23 · <a href="https://www.youtube.com/watch?v=noPXosvgzA0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Counter X-Guard: knee pull to heel hook</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=noPXosvgzA0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

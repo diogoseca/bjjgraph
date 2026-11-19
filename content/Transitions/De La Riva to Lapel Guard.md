@@ -47,8 +47,8 @@ description: "Learn the De La Riva to Lapel Guard entry in BJJ. Extract the oppo
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lapelapalooza Lapel Guard System - Setting up The Worm Position from De La\u2026",
-      "description": "De La Riva to Lapel Guard film study: Lapelapalooza Lapel Guard System - Setting up The Worm Position from De La\u2026.",
+      "name": "Lapel Guard System - Setting up The Worm Position from De La\u2026",
+      "description": "De La Riva to Lapel Guard film study: Lapel Guard System - Setting up The Worm Position from De La\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/n5_uWP0hc_c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/n5_uWP0hc_c?start=246",
       "url": "https://www.youtube.com/watch?v=n5_uWP0hc_c",
@@ -88,7 +88,7 @@ description: "Learn the De La Riva to Lapel Guard entry in BJJ. Extract the oppo
 
 **The De La Riva to Lapel Guard entry is a gi-specific guard transition where the bottom player, controlling a De La Riva hook, extracts the opponent's same-side lapel and feeds it behind their hooked knee to establish worm-style lapel control.**
 
-The De La Riva to Lapel Guard entry is the canonical, most commonly-taught pathway into the modern lapel guard system, popularized through Keenan Cornelius's worm guard. From a strong De La Riva hook on the bottom, the player frees the opponent's same-side lapel, threads it under their own De La Riva leg, and feeds it behind the opponent's hooked knee so the fabric itself becomes a persistent control point that does not depend on continuous grip strength.
+The De La Riva to Lapel Guard entry is the canonical, most commonly-taught pathway into the modern lapel guard system, popularized through the worm guard. From a strong De La Riva hook on the bottom, the player frees the opponent's same-side lapel, threads it under their own De La Riva leg, and feeds it behind the opponent's hooked knee so the fabric itself becomes a persistent control point that does not depend on continuous grip strength.
 
 The transition works because De La Riva already establishes the exact geometry the lapel wrap requires: the bottom player's hook is wrapped around the outside of the opponent's lead leg, and the opponent's posture is committed forward over that hook. This gives a clear window to pull the lapel free of the belt, pass it under the leg, and re-grip it on the far side of the opponent's knee. Once the lapel is threaded and the De La Riva hook is replaced by the fabric, the player has entered worm guard, the primary configuration of lapel guard, with the opponent's leg trapped by their own gi.
 
@@ -111,7 +111,7 @@ Strategically this entry converts a dynamic, grip-dependent open guard into a lo
 
 ![](https://www.youtube.com/watch?v=n5_uWP0hc_c&start=246)
 
-<p class="clip-credit"><strong>Lapelapalooza Lapel Guard System - Setting up The Worm Position from De La…</strong> · 11:10 · <a href="https://www.youtube.com/watch?v=n5_uWP0hc_c&t=246s" rel="noopener">Watch on YouTube from 4:06</a></p>
+<p class="clip-credit"><strong>Lapel Guard System - Setting up The Worm Position from De La…</strong> · 11:10 · <a href="https://www.youtube.com/watch?v=n5_uWP0hc_c&t=246s" rel="noopener">Watch on YouTube from 4:06</a></p>
 
 </div>
 

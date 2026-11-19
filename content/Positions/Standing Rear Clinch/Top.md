@@ -165,8 +165,8 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique| Pearson\u2026",
-      "description": "Standing Rear Clinch (Top) film study: 3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique| Pearson\u2026.",
+      "name": "3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique",
+      "description": "Standing Rear Clinch (Top) film study: 3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lF5kkB2rq5Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lF5kkB2rq5Y",
       "url": "https://www.youtube.com/watch?v=lF5kkB2rq5Y",
@@ -202,7 +202,7 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 ![](https://www.youtube.com/watch?v=lF5kkB2rq5Y)
 
-<p class="clip-credit"><strong>3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique| Pearson…</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=lF5kkB2rq5Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>3 Wrestling Entries to a Standing Rear Body Lock | No-Gi Technique</strong> · 3:14 · <a href="https://www.youtube.com/watch?v=lF5kkB2rq5Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

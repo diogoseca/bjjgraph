@@ -198,7 +198,7 @@ The primary challenge from the top position is the mechanical disadvantage creat
 
 Strategically, escaping Ringworm Guard requires understanding the mechanical principles of lapel control and developing specific counters to the most common attacks. The top player must balance the urgency of escaping the position with the need to maintain defensive integrity, as hasty movements often lead to sweeps or worse positions. Success depends on systematic grip breaking, careful base management, and patience in working through the extraction sequence.
 
-This position is primarily encountered in gi-based competition and training environments, particularly against opponents trained in Keenan Cornelius's lapel guard system. Understanding Ringworm Guard Top defense is essential for complete guard passing skill development in modern BJJ.
+This position is primarily encountered in gi-based competition and training environments, particularly against opponents trained in lapel guard systems. Understanding Ringworm Guard Top defense is essential for complete guard passing skill development in modern BJJ.
 
 </section>
 
@@ -397,7 +397,7 @@ Partner in Ringworm Guard attempts various sweeps and back-taking attacks while 
 ## Related Positions and Techniques
 
 - **[[Positions/Worm Guard]]** - Related defensive challenge - similar lapel-based control requiring comparable extraction principles
-- **[[Positions/Squid Guard]]** - Sister position defense - another Keenan Cornelius lapel guard requiring related defensive concepts
+- **[[Positions/Squid Guard]]** - Sister position defense - another lapel guard from the same family requiring related defensive concepts
 - **[[Positions/Lapel Guard]]** - General defensive category - Ringworm is a specific variation requiring specialized counters
 - **[[Positions/Open Guard]]** - Target position after successful extraction - neutral position to restart passing game
 - **[[Positions/Combat Base]]** - Intermediate defensive position - common stage in extraction sequence

@@ -46,12 +46,11 @@ description: "Master Technical Mount in BJJ. Advanced mount variation with stepp
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Position Mount a\u0300 Technical Mount | Coach Danny Fung | Jiu-Jitsu | BJJ",
-      "description": "Technical Mount film study: Position Mount a\u0300 Technical Mount | Coach Danny Fung | Jiu-Jitsu | BJJ, taught by Danny Fung.",
+      "name": "Position Mount \u00e0 Technical Mount | Jiu-Jitsu | BJJ",
+      "description": "Technical Mount film study: Position Mount \u00e0 Technical Mount | Jiu-Jitsu | BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pNp2-2-r2Ec/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/pNp2-2-r2Ec",
       "url": "https://www.youtube.com/watch?v=pNp2-2-r2Ec",
-      "creator": { "@type": "Person", "name": "Danny Fung" },
       "duration": "PT174S"
     }
   ]
@@ -105,7 +104,7 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 
 ![](https://www.youtube.com/watch?v=pNp2-2-r2Ec)
 
-<p class="clip-credit"><strong>Position Mount à Technical Mount | Coach Danny Fung | Jiu-Jitsu | BJJ</strong> — taught by Danny Fung · 2:54 · <a href="https://www.youtube.com/watch?v=pNp2-2-r2Ec" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Position Mount à Technical Mount | Jiu-Jitsu | BJJ</strong> · 2:54 · <a href="https://www.youtube.com/watch?v=pNp2-2-r2Ec" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

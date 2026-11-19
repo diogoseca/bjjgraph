@@ -186,8 +186,8 @@ description: "Complete guide to executing the backstep from De La Riva Guard. Ma
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "De La Riva back step pass and variations by Samir Chantre and Osvaldo Moizinho",
-      "description": "Backstep from De La Riva (Attacker) film study: De La Riva back step pass and variations by Samir Chantre and Osvaldo Moizinho.",
+      "name": "De La Riva back step pass and variations",
+      "description": "Backstep from De La Riva (Attacker) film study: De La Riva back step pass and variations.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0-QhNJY5UQ0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0-QhNJY5UQ0",
       "url": "https://www.youtube.com/watch?v=0-QhNJY5UQ0",
@@ -231,7 +231,7 @@ The attacker in the backstep from De La Riva is the top player attempting to pas
 
 ![](https://www.youtube.com/watch?v=0-QhNJY5UQ0)
 
-<p class="clip-credit"><strong>De La Riva back step pass and variations by Samir Chantre and Osvaldo Moizinho</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=0-QhNJY5UQ0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De La Riva back step pass and variations</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=0-QhNJY5UQ0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -182,6 +182,27 @@ description: "How to execute Step Over Escape in BJJ. Attacking perspective with
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Step Over Escape (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Step Over Darce Choke Escape (week 5)",
+      "description": "Step Over Escape (Attacker) film study: Step Over Darce Choke Escape (week 5).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fan5vBze4Lg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fan5vBze4Lg",
+      "url": "https://www.youtube.com/watch?v=Fan5vBze4Lg",
+      "duration": "PT292S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -198,6 +219,24 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Step Over Escape (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fan5vBze4Lg)
+
+<p class="clip-credit"><strong>Step Over Darce Choke Escape (week 5)</strong> · 4:52 · <a href="https://www.youtube.com/watch?v=Fan5vBze4Lg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

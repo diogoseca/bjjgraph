@@ -75,7 +75,7 @@ const distantSubject = (page: Page) => page.evaluate(() => {
   return best
 })
 
-test("a manually panned paused view moves with the pane and restores across resizing @curated", async ({ page }) => {
+test("a manually panned paused view moves with the pane and restores across resizing", async ({ page }) => {
   const { j, idx } = await bootPaused(page)
   const initial = await screen(page, idx)
   // Seed the same camera state a completed pan leaves: the user's view owns both positions,
@@ -127,7 +127,7 @@ test("a manually panned paused view moves with the pane and restores across resi
   expect((await screen(page, idx)).x).toBeCloseTo(before.x, 1)
 })
 
-test("a leased selection zoom retains its subject while the pane opens, closes and resizes @curated", async ({ page }) => {
+test("a leased selection zoom retains its subject while the pane opens, closes and resizes", async ({ page }) => {
   const { j, idx: current } = await bootPaused(page)
   const subject = await distantSubject(page)
   expect(subject).not.toBe(current)

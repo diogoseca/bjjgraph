@@ -27,6 +27,8 @@ jobs:
     permissions:
       contents: read
       deployments: write
+      # the gate-time tripwire reads this run's own jobs API (scripts/deploy_gate.mjs)
+      actions: read
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
@@ -70,19 +72,35 @@ jobs:
       - name: Build-chain and Python provisioning contract
         run: python3 scripts/check_build_chains.py
 
+      # THE PUBLISHING TOOL, FROM A LOCKFILE (v1.266.1): see deploy.yaml's step of the same name, which also serves the
+      # digest Worker there. Here it is the tool the Pages step publishes the preview with. Same text in both deploys
+      # (scripts/check_build_chains.py pins it; tests/bot_workflows_test.py checks the pin agrees everywhere).
+      - name: Install Wrangler (pinned)
+        id: wrangler
+        run: |
+          (cd .github/tools/wrangler && npm ci --ignore-scripts)
+          .github/tools/wrangler/node_modules/.bin/wrangler --version
+
       # The Neural app bundle + its data payloads live under source/quartz/static/neural/,
       # which is GITIGNORED (build artifacts, 13.5MB+ payloads). Without this step the built
       # site — and therefore the deployed preview AND the journey gate — contains no Neural
       # front-end at all. Regenerate from the committed sources (neural/src, scripts/, graph
       # + content JSON) so what we test is what we ship.
+      #
+      # INSTALLS, ONE RULE FOR BOTH TREES THIS DEPLOY INSTALLS (v1.265.1): `npm ci --ignore-scripts`, with the flag ON THE COMMAND LINE. `npm ci`
+      # installs exactly the committed lockfile or fails (the lockfile is the promise; `npm install` may re-resolve it), and
+      # no package's install script runs. Never in .npmrc or npm_config_ignore_scripts: those reach `npm run` as well, and
+      # npm skips the deploy gate's count (`posttest:curated`) under them. Nothing here needs its script: esbuild and
+      # @parcel/watcher load their prebuilt platform packages at run time, and a scratch clone installed this way built the
+      # site to the committed census. This install also serves Build Quartz, which used to install source/ a second time.
+      # Pinned by tests/deploy_gate.test.mjs (INSTALLS); scripts/check_build_chains.py pins this step's text.
       - name: Regenerate Neural app + data
         run: |
-          (cd source && npm install)
+          (cd source && npm ci --ignore-scripts)
           npm run regenerate:neural
 
       - name: Build Quartz
         run: |
-          npm install
           npx quartz build -d ../content
           python3 ../scripts/regenerate_redirects.py
           python3 ../scripts/regenerate_headers.py
@@ -156,6 +174,16 @@ jobs:
       - name: App titles match every built node and reference page
         run: npm run validate:page-titles
 
+      # NO NAMES (v1.288.0, owner U195 a + U196 b): the BUILT pages carry no "taught by" credit and no
+      # JSON-LD creator, and the served payload no clip `by`. Positive counts; it fails when it saw nothing.
+      # Since v1.289.0 it also holds the name and label lists in titles and credits, and since v1.291.0 the prose
+      # check (owner U203 a + U206 a): no listed person, nor a listed person's surname, in the source's prose and
+      # cards, in the served cards, in a clip title or in a credit, outside the allowed kinds the script names.
+      # A shared build step (also the last of `npm run build`), so it sits with the other final-output checks,
+      # before the deploy-only gates (scripts/check_build_chains.py).
+      - name: No person's name in clip credits, structured data or the served payload
+        run: npm run validate:no-names:built
+
       # Every displayed placeholder fails, with or without a configured ref.
       - name: Systems payload gate (dead highlights + dead affiliate links)
         env:
@@ -197,8 +225,10 @@ jobs:
       - name: Analytics surface — the keyless direction (fixture build)
         run: npm run validate:analytics:nokey
 
+      # The same rule (see "Regenerate Neural app + data"). --ignore-scripts also skips root's own `postinstall`
+      # (`cd source && npm install`), which would re-resolve source/ after the build; source/ is installed above.
       - name: Install root dependencies (Playwright test runner)
-        run: npm install
+        run: npm ci --ignore-scripts
 
       # Key the browser cache on the PLAYWRIGHT VERSION, never on the lockfile hash.
       # This repo bumps package.json on every commit and package-lock.json mirrors that
@@ -246,15 +276,23 @@ jobs:
         if: steps.pw-cache.outputs.cache-hit == 'true'
         run: npx playwright install-deps chromium
 
-      # Fast representative gate. The complete suite runs sharded before merges to main.
+      # THE DEPLOY GATE: WHAT ONLY A DEPLOY CAN BREAK, PLUS ONE QUICK TEST PER SURFACE (v1.263.0, the owner's
+      # U147 a). Every `@curated` journey has one row in tests/artifacts/deploy_gate.json with its reason: tier D, a
+      # test that reads what only a deploy build has (the keyed Supabase and PostHog config in postscript.js, or this
+      # checkout's own history; the build stamp is not one: every build writes it); tier S, re-run on the tree that ships while
+      # reading nothing a PR build lacks (one quick test per surface, plus the sign-in and account seams kept whole).
+      # v1.263.3 moved 28 rows from D to S whose fixtures supply the config or stub PostHog, and dropped "the
+      # affiliate stamp" from D: no row reads a stamped link (the static gates above check the stamp). Every other
+      # journey runs in e2e-full.yml, on every PR and on every push to dev beside this deploy; a promotion takes only
+      # a commit whose push-run e2e-full is green, and deploy.yaml now enforces that.
+      # History. Until v1.263.0 this was "a fast representative gate" and the tag grew with every spec: 250 tests
+      # (229 reached in 12 minutes), 427 (timeout 20 -> 30 at v1.208.3, after run 36813354975 timed out at test 401
+      # of 427, all green), 914 by 12 Nov at 33.6-36.8 minutes of a 45-minute timeout, about 2.6 minutes more a day
+      # (the GATE1 plan, outside the repo). The timeout only bounds a hang now; the time itself is judged by the tripwire at the
+      # end of this job against tests/artifacts/deploy_gate_budget.json, whose timeout_min this value must equal
+      # (tests/deploy_gate.test.mjs). Match the other deploy workflow: both re-list this step (CLAUDE.md §6.7).
       - name: Curated journey gate (Playwright E2E)
-        # The 250-test serial suite reached only 229 tests in 12 minutes on CI.
-        # Keep every test and the single worker; allow the full suite to finish.
-        # Raised 20 -> 30 (v1.208.3): 427 tests on one worker. The first full-game deploy
-        # (run 36813354975, dev 55c238ade) timed out at test 401 of 427 with all 401 green, after
-        # 20m05s; the suite was 381 tests in 18m15s before. The 26 remaining run ~1 min more.
-        # Match the other deploy workflow: both re-list this step (CLAUDE.md §6.7).
-        timeout-minutes: 45
+        timeout-minutes: 20
         run: npm run test:curated
 
       - name: Upload journey artifacts (on failure)
@@ -267,16 +305,26 @@ jobs:
             test-results/
           if-no-files-found: ignore
 
-      # v4 is the first wrangler-action major that runs on Node 24 (v3 got no backport).
-      # Its one behaviour change: the Wrangler CLI it installs defaults to v4 (`latest`)
-      # instead of v3. Same note as deploy.yaml — pin with `wranglerVersion:` if needed.
-      # This preview deploy is the FIRST place a Wrangler-v4 regression would surface.
+      # The Pages action runs the Wrangler its probe finds (`npx --no-install wrangler --version`, in the repository root),
+      # and installs `wrangler@<wranglerVersion>` itself only when that probe finds no copy of exactly that version. This
+      # step links the copy installed from the lockfile above into the root's node_modules/.bin, where the probe looks, and
+      # runs the probe first: it prints the pinned version, or the step fails. Here and not with the install: the root's
+      # `npm ci` above starts from an empty node_modules. Same text in both deploys (scripts/check_build_chains.py).
+      - name: Link the pinned Wrangler for the Pages action
+        run: |
+          ln -sfn ../../.github/tools/wrangler/node_modules/wrangler/bin/wrangler.js node_modules/.bin/wrangler
+          npx --no-install wrangler --version
+
+      # v4 is the first wrangler-action major that runs on Node 24 (v3 got no backport). `wranglerVersion` is the
+      # version in .github/tools/wrangler/package.json (tests/bot_workflows_test.py), so the step above satisfies the
+      # action's probe and the action installs nothing.
       - name: Deploy to Cloudflare Pages (preview)
         id: cf
         uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4.159.0"
           command: pages deploy source/public --project-name=bjjgraph --branch=dev
 
       # THE DEPLOYED PAGE, IN A REAL BROWSER (CONSOLE0, 2026-10-05). Every gate above runs against a
@@ -296,3 +344,22 @@ jobs:
       # unseen. It retries a fresh deployment for a minute and fails on zero probes.
       - name: Live redirects answer (gate)
         run: python3 scripts/check_redirect_limits.py --probe "${{ steps.cf.outputs.deployment-url }}"
+
+      # THE GATE'S OWN TIME (v1.263.0, GATE5). Reads the curated step's start and end from this run attempt's jobs
+      # API, requires exactly one step of that name (zero or two must not read as fast), warns over the budget's
+      # target and goes red over its line (tests/artifacts/deploy_gate_budget.json). It sits AFTER the deploy on
+      # purpose: a slow but green gate still ships the preview, and this red says the gate needs trimming. It reads
+      # the API rather than timing the gate's own command because scripts/check_build_chains.py compares every step
+      # before the Pages boundary across both deploys. Mechanism and history: scripts/deploy_gate.mjs.
+      # AND THE GATE'S COUNT (v1.264.2, GATE7): it also goes red when the count `posttest:curated` leaves in
+      # e2e/test-results is missing (npm skips post-hooks under ignore-scripts, so the count could be switched off
+      # with the gate still green) or differs from the ledger. It reads that file, not the gate step's log: the
+      # job-logs API serves a job's log only after the whole job completes, and this step is part of that job.
+      # WHAT THAT CATCHES, AND WHEN (GATE8): a switched-off count is caught HERE, after the upload. The preview is
+      # already serving the build; this run goes red and names it; nothing is rolled back. What blocks before the
+      # upload is the count itself, whenever the hook runs, which is every deploy today (tests/deploy_gate.test.mjs
+      # pins that no tracked .npmrc and no deploy env sets ignore-scripts).
+      - name: Deploy gate time and count (tripwire)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/deploy_gate.mjs tripwire

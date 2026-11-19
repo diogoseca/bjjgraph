@@ -29,7 +29,7 @@ async function earnedTracks(page: any) {
   });
 }
 
-test.describe("Challenges UI @curated", () => {
+test.describe("Challenges UI", () => {
   test("earned content tracks and lessons open while capstones still require evidence", async ({
     page,
   }) => {
@@ -40,12 +40,13 @@ test.describe("Challenges UI @curated", () => {
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
 
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
     // the knowledge header is gone (v1.96.0 — the belt lives at the top of Explore)
     await expect(page.locator(".ng-drawer-head")).toBeVisible();
     await expect(page.locator(".ng-knowledge-header")).toHaveCount(0);
-    // v1.242.0: the tabs became the drawer's rows; Path (this corridor) says where you are in the brand
-    await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Path");
+    // v1.242.0: the tabs became the drawer's rows; the view holding this corridor says where you are in the brand (the
+    // Path's until v1.287.0, Master the game's since)
+    await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Master the game");
 
     const tracks = page.locator(".ng-track-card");
     await expect(tracks).toHaveCount(5);
@@ -80,9 +81,9 @@ test.describe("Challenges UI @curated", () => {
       page.locator(".ng-challenge-checkpoint").first(),
     ).toBeDisabled();
     await expect(page.locator("[data-capstone='black'] button")).toBeDisabled();
-    // v1.162.0 (owner): NOTHING renders above the corridor but the sticky maintenance
-    // band — the two prose lines that used to open the tab are gone, so the belt
-    // sections are the first thing in the scrollport.
+    // v1.162.0 (owner): NOTHING renders above the corridor — the two prose lines that used to open the tab are gone,
+    // and the sticky maintenance band that rode above it left with the Path (v1.287.0) — so the belt sections are the
+    // first thing in the corridor's slot.
     await expect(page.locator(".ng-ladder-note")).toHaveCount(0);
     await expect(page.locator(".ng-challenge-distinction")).toHaveCount(0);
     expect(
@@ -93,9 +94,6 @@ test.describe("Challenges UI @curated", () => {
         const before: string[] = [];
         for (const el of Array.from(host.children)) {
           if (el === list) break;
-          // the sticky maintenance band is the ONE thing allowed above the corridor,
-          // and it only mounts while cards are actually due
-          if (el.classList.contains("ng-maint-band")) continue;
           before.push(el.className || el.tagName.toLowerCase());
         }
         return before;
@@ -112,7 +110,7 @@ test.describe("Challenges UI @curated", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
 
     // v1.99.2 (owner: "what's that pinning about?") — no pin affordance anywhere; the
     // corridor derives its one target from progress instead
@@ -153,7 +151,7 @@ test.describe("Challenges UI @curated", () => {
     // the cue follows the frontier belt too
     // v1.133.0: the cue card is retired — the corridor's frontier shows in the pane, not a cue
     await expect(page.locator("[data-challenge-cue]")).toHaveCount(0);
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
     await expect(white).toHaveAttribute("data-collapsed", "true");
     await expect(blue).toHaveAttribute("data-collapsed", "false");
     await expect(
@@ -179,7 +177,7 @@ test.describe("Challenges UI @curated", () => {
     // v1.99.1 (owner: "I don't see the point" of the zero-state): a fresh player sees NO
     // shelf — no "0 patches · 0 mat coins", no placeholder grid spoiling the joke coins
     await j.boot("/", { keepTutorial: true });
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
     await expect(page.locator(".ng-challenge-ladder")).toBeVisible();
     await expect(page.locator("[data-rewards-shelf]")).toHaveCount(0);
     await expect(page.locator(".ng-drill")).not.toContainText("Available to earn");
@@ -192,7 +190,7 @@ test.describe("Challenges UI @curated", () => {
         coins: { houdini: { t: 100 } },
       }),
     });
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
     const shelf = page.locator("[data-rewards-shelf]");
     await expect(shelf.locator("summary")).toContainText("1 patch · 1 mat coin");
     await expect(shelf.locator("summary")).toContainText(
@@ -223,7 +221,7 @@ test.describe("Challenges UI @curated", () => {
       initialState: progressBlob({ tut: { done } }),
     });
 
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
     // v1.162.0 (owner): the one-off "Tutorial is now White Challenges" line is retired
     // along with the rest of the tab's head prose — the migration is silent, and the
     // ledger below is the only thing that has to be true.
@@ -249,7 +247,7 @@ test.describe("Challenges UI @curated", () => {
       "the seeded legacy steps migrated, plus pane-open and challenges-opened",
     ).toBe(9);
     await page.locator("[data-view='explore']").click();
-    await page.locator("[data-view='challenges']").click();
+    await j.openCorridor();
     await expect(page.locator(".ng-challenge-distinction")).toHaveCount(0);
   });
 
@@ -257,7 +255,11 @@ test.describe("Challenges UI @curated", () => {
   // and offline progress still behave identically — they were never explained anywhere
   // but that line, and `challengeEnvironmentNotice()` is deleted, not merely unrendered.
 
-  test("legacy tree, path, and collection preferences migrate to Explore and Challenges", async ({
+  // O2 (v1.287.0, SET1 slice B): until v1.287.0 a stored `path` or `collection` restored onto the Path, and the restore wrote the
+  // migrated `challengeView` back at boot. The Path left the drawer: every legacy value lands on the drawer's list, and the
+  // retired Path values are NOT written back: both keys stay exactly as the player left them (a settings key is never
+  // rewritten to retire a value, CLAUDE.md 6.6). `tree` keeps its old migration to `explore`, written as before.
+  test("legacy tree, path, and collection preferences land on the drawer's list; the retired Path ones are not written back", async ({
     page,
   }) => {
     const j = journey(page);
@@ -272,27 +274,27 @@ test.describe("Challenges UI @curated", () => {
         localStorage.setItem("bjj_view_mode", legacyView);
       }, view);
     };
+    const restored = () => page.evaluate(() => {
+      const app = (window as any).__neural;
+      return { view: app._viewMode, setting: app.settings.challengeView ?? null, local: localStorage.getItem("bjj_view_mode") };
+    });
 
-    await setLegacyView("path");
-    await j.boot("/", { keepTutorial: true, preserveStorage: true });
-    // v1.242.0: the drawer opens on its list; the restored view id is what a deep open lands on
-    expect(await page.evaluate(() => (window as any).__neural._viewMode)).toBe("challenges");
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
+    for (const legacy of ["path", "collection"] as const) {
+      await setLegacyView(legacy);
+      await j.boot("/", { keepTutorial: true, preserveStorage: true });
+      await expect.poll(() => page.evaluate(() => !!(window as any).__neural.curriculum)).toBe(true);
+      expect(await restored(), `a stored ${legacy} lands on the list and nothing is written back`)
+        .toEqual({ view: "explore", setting: null, local: legacy });
+      await j.clickByMouse(".ng-logo", "open the drawer");
+      await expect(page.locator("[data-drawer-explore]"), `${legacy}: the drawer opens on its list`).toBeVisible();
+      await expect(page.locator(".ng-drawer-brand"), `${legacy}: no Path to name`).not.toContainText("Path");
+      await j.clickByMouse(".ng-explorer-close", "close the drawer");
+    }
 
-    await page.locator(".ng-explorer-close").click();
     await setLegacyView("tree");
     await j.boot("/", { keepTutorial: true, preserveStorage: true });
-    // v1.242.0: the drawer opens on its list; the restored view id is what a deep open lands on
-    expect(await page.evaluate(() => (window as any).__neural._viewMode)).toBe("explore");
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
-
-    // the retired Collection tab lands on Challenges (its content lives on the rewards shelf)
-    await page.locator(".ng-explorer-close").click();
-    await setLegacyView("collection");
-    await j.boot("/", { keepTutorial: true, preserveStorage: true });
-    // v1.242.0: the drawer opens on its list; the restored view id is what a deep open lands on
-    expect(await page.evaluate(() => (window as any).__neural._viewMode)).toBe("challenges");
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
+    await expect.poll(() => page.evaluate(() => !!(window as any).__neural.curriculum)).toBe(true);
+    expect(await restored(), "tree keeps its migration to explore, written as before").toEqual({ view: "explore", setting: "explore", local: "tree" });
   });
 
   test("a Mat Coin acknowledgement links to its permanent rewards-shelf entry", async ({
@@ -310,9 +312,34 @@ test.describe("Challenges UI @curated", () => {
     const reward = page.locator(".ng-challenge-reward[data-reward='coin']");
     await expect(reward).toContainText("MAT COIN MINTED");
     await expect(reward).toContainText("Houdini");
+    // v1.280.0 (GOLD1-R3): the card's close draws the map AFTER View Collection's own work, and never before the frame clock's
+    // first tick (this journey closes it there: a frame drawn inside `dismiss` threw and stopped the handler, and the Path did
+    // not open). Mutant R3m (that draw back inside `dismiss`) is red here; R3g (the clock precondition removed) is a non-kill:
+    // the frame then throws after the handler's work, and nothing here reads the page error.
+    // O1 (v1.287.0, SET1 slice B): View Collection opened the Path with the shelf open; the Path left the drawer, and the same
+    // shelf sits at the foot of Master the game's corridor, open and scrolled into view
     await reward.locator("[data-reward-collection]").click();
-    await expect(page.locator(".ng-drawer-brand"), "View Collection opens Path").toHaveText("\u2039 Path");
-    await expect(page.locator("[data-rewards-shelf]")).toHaveAttribute("open", "");
+    await expect(page.locator(".ng-drawer-brand"), "View Collection opens Master the game").toHaveText("\u2039 Master the game");
+    await expect(page.locator("[data-practice-page] [data-rewards-shelf]")).toHaveAttribute("open", "");
+    await expect.poll(() => page.evaluate(() => {
+      // Master the game scrolls in the drawer's study list (`drillListRef`), not the home list: read the shelf off the screen
+      const shelf = document.querySelector("[data-rewards-shelf]")!.getBoundingClientRect();
+      return shelf.height > 0 && shelf.top >= 0 && shelf.top < innerHeight;
+    }), { message: "the shelf is scrolled into view" }).toBe(true);
+    // ...and it STAYS there once Master the game has opened its first card: that card's own scroll (`_scrollFocusedDeck`)
+    // yields while View Collection's is pending (v1.287.0). A poll above passes on the first moment the shelf is in view,
+    // so this is one read after the card is open. Mutant B5 (the yield removed) is red in this test: on 17 Nov at the poll above
+    // (that run's first card scrolled first); this read is for the run where the shelf is in view at first and then leaves it.
+    // L1 (v1.290.0): Master the game opens as a list and no card opens by itself (the button opens one), so the arrival has
+    // no first card to scroll the page; the read is taken once the plan has landed and the page has repainted (the moment a
+    // repaint could move it). Mutant B5 (the yield removed) is therefore a NON-KILL here since L1: no arrival scroll reaches it
+    await expect.poll(() => page.evaluate(() => !!(window as any).__neural._session?.plan), { message: "premise: the plan has landed", timeout: 20_000 }).toBe(true);
+    await page.evaluate(() => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(() => setTimeout(r, 300)))));
+    await expect(page.locator("[data-practice-page] [data-mini-q]:visible"), "no card opened by itself (L1)").toHaveCount(0);
+    expect(await page.evaluate(() => {
+      const shelf = document.querySelector("[data-rewards-shelf]")!.getBoundingClientRect();
+      return shelf.height > 0 && shelf.top >= 0 && shelf.top < innerHeight;
+    }), "the shelf is still in view once the plan has landed").toBe(true);
     await expect(
       page
         .locator(".ng-mat-coin[data-earned='true']")
@@ -320,8 +347,8 @@ test.describe("Challenges UI @curated", () => {
     ).toHaveCount(1);
   });
 
-  // SIDECX4: real Tab/Enter from the opener through Path, Black belt and Close. Hold both cold
-  // indexes, then land each while Path has focus; fire the old 80ms search timer in that gap too.
+  // SIDECX4: real Tab/Enter from the opener through Master the game (the Path row until it left the drawer, v1.287.0), Black
+  // belt and Close. Hold both cold indexes, then land each while the row has focus; fire the old 80ms search timer in that gap.
   // The DSL's empty dossier bodies are irrelevant: this reads real index and curriculum controls.
   // Source controls and kill receipts: sidebar_keyboard_mutants.json / sidebar_mutants.md.
   // No new non-kills; this does not claim keyboard reachability of every lesson or reference page.
@@ -356,16 +383,21 @@ test.describe("Challenges UI @curated", () => {
       await page.keyboard.press(entry === "drawer" ? "Enter" : "/");
       await expect(page.locator(".ng-explorer")).toBeVisible();
       await expect.poll(() => [...held].sort(), { message: "both real cold index requests are held" }).toEqual(["concepts", "systems-index"]);
-      const path = await tabTo("[data-view='challenges']", "Path");
+      const path = await tabTo('[data-explore-stats] [data-b="due"]', "Master the game");
       await page.clock.runFor(100);
-      await expect(path, "opening search cannot steal the next Path key").toBeFocused();
+      await expect(path, "opening search cannot steal the next key from the row").toBeFocused();
       for (const [i, field] of ["systems", "concepts"].entries()) {
         releases[i]();
         await expect.poll(() => page.evaluate(key => (window as any).__neural[key]?.length || 0, field), { message: `${field} landed` }).toBeGreaterThan(0);
-        await expect(path, `${field} landing preserves the keyboard-selected Path`).toBeFocused();
+        await expect(path, `${field} landing preserves the keyboard-selected row`).toBeFocused();
       }
       await page.keyboard.press("Enter");
-      await expect(page.locator(".ng-track-card"), "Enter on Path opens all five tracks").toHaveCount(5);
+      // Master the game's corridor opens at the belt you wear (Black here), the earlier ones one press away; the Path drew all five
+      await expect(page.locator("[data-practice-page] .ng-track-card[data-track='black']"), "Enter on the row opens the corridor").toHaveCount(1);
+      // L1 (v1.290.0): the corridor sits folded under "Belt lessons", the list's last row; the keyboard opens it there first
+      const belts = await tabTo("[data-master-belts]", "Belt lessons");
+      await page.keyboard.press("Enter");
+      await expect(belts, "Enter unfolds the shelf").toHaveAttribute("aria-expanded", "true");
       const black = await tabTo("[data-track='black']", "Black belt");
       await expect(black).toHaveAttribute("aria-pressed", "false");
       await page.keyboard.press("Enter");
@@ -428,16 +460,17 @@ test.describe("Challenges UI @curated", () => {
       .toBe("none");
   });
 
+  // v1.287.0: on a fresh (white) player, so Master the game's corridor draws the five in order on one rail; a black belt
+  // holder's earlier belts sit below the worn one there (until v1.287.0 this ran on `earnedTracks`, in the Path's corridor)
   test("belt headers read as plain belts riding one corridor with a knot at each boundary", async ({
     page,
   }) => {
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
-    await earnedTracks(page);
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
 
     // the verbose "White Foundations · WHITE CONTENT TRACK" phrasing is display-retired:
     // ladder headers are the belts themselves (track ids and data names unchanged)
@@ -471,7 +504,7 @@ test.describe("Challenges UI @curated", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
     await expect(page.locator(".ng-challenge-ladder")).toBeVisible();
 
     // v1.137.0, owner: "we should remove the whole tutorial section". Renderer, card, head,
@@ -498,7 +531,12 @@ test.describe("Challenges UI @curated", () => {
     expect(prog.total, "the twenty definitions are still live in the engine").toBe(20);
   });
 
-  test("Continue is gone; opening Challenges lands on the frontier's belt section", async ({
+  // v1.287.0 (SET1 slice B): until then this pinned the PATH's arrival scroll (P18): opening it scrolled the drawer's list to the
+  // frontier belt's header, kept the frontier row in view, and a re-render kept the reading position. The Path left the drawer,
+  // and its scroll went with it: Master the game's corridor STARTS at the belt you wear, so there is nothing to scroll to. What
+  // stands is what the scroll was for: the frontier's belt is the corridor's first section, its frontier row marked, and the
+  // earlier belts one press away.
+  test("Continue is gone; Master the game's corridor starts at the frontier's belt section with the earlier tests won", async ({
     page,
   }) => {
     const j = journey(page);
@@ -507,69 +545,35 @@ test.describe("Challenges UI @curated", () => {
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
 
-    // complete everything above BLACK so the frontier lives far down the corridor —
-    // the scroll must be earned (pinning is gone, v1.99.2: progress IS the target)
+    // complete everything above BLACK so the frontier lives at the far end of the belts, their tests WON: an earlier belt whose
+    // test can still be started is drawn in the first draw (PATH-R1, ruling 3; corridor-reach pins it), and this journey's
+    // subject is where the corridor starts, so the earlier belts here are finished ones (the seed changed, no assertion did)
     await page.evaluate(() => {
       const a = (window as any).__neural;
       a.prep = a.prep || {};
+      a.belts = a.belts || { won: {} };
+      a.belts.won = a.belts.won || {};
       for (const belt of a.curriculum.belts) {
         if (belt.id === "black") continue;
         for (const unit of belt.units) {
           a.units[belt.id + "/" + unit.id] = { checkpoint: true, t: 1 };
           for (const lesson of unit.lessons) a.prep[lesson.deckKey] = 99;
         }
+        a.belts.won[belt.id] = { moves: 12, dominance: 5, byPoints: false };
       }
+      a._syncBelt();
     });
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
+    await j.openCorridor({ allBelts: false });
     await expect(page.locator(".ng-challenge-ladder")).toBeVisible();
 
-    // the button is dead (v1.98.1) — arrival positioning replaced it
+    // the button is dead (v1.98.1)
     await expect(page.locator("[data-challenge-continue]")).toHaveCount(0);
-
-    const arrived = await page.evaluate(() => {
-      const list = document.querySelector(".ng-learning-list") as HTMLElement;
-      const sec = document.querySelector(
-        ".ng-belt-section[data-belt='black']",
-      ) as HTMLElement;
-      const lr = list.getBoundingClientRect();
-      const sr = sec.getBoundingClientRect();
-      return {
-        scrollTop: list.scrollTop,
-        headOffset: sr.top - lr.top,
-        secBottom: sr.bottom - lr.top,
-      };
-    });
-    expect(arrived.scrollTop, "the tab opened scrolled, not at the top").toBeGreaterThan(100);
-    // the header rides AT the top — or above it only by what the frontier row needs
-    // (black's section opens with a principles group taller than one viewport, so header
-    // and frontier cannot always share the screen; the row wins, minimally). Never below.
     expect(
-      arrived.headOffset,
-      "landed inside the pinned belt's section, at or past its header",
-    ).toBeLessThanOrEqual(2);
-    expect(arrived.secBottom, "and not scrolled past the section").toBeGreaterThan(0);
-    // the frontier row is marked (the existing glow) and FULLY in view
-    const frontier = page.locator(".ng-challenge-lesson[data-frontier]");
-    await expect(frontier).toHaveCount(1);
-    expect(
-      await frontier.evaluate((el) => {
-        const list = document.querySelector(".ng-learning-list")!.getBoundingClientRect();
-        const r = el.getBoundingClientRect();
-        return r.top >= list.top - 2 && r.bottom <= list.bottom + 2;
-      }),
-      "the frontier row is fully inside the viewport",
-    ).toBe(true);
-
-    // a re-render (roll beats, evidence refresh) must NOT yank the scroll while reading
-    await page.evaluate(() => {
-      const list = document.querySelector(".ng-learning-list") as HTMLElement;
-      list.scrollTop = list.scrollTop + 120; // the user read further down
-      (window as any).__neural.renderExplorer();
-    });
-    const after = await page.evaluate(
-      () => (document.querySelector(".ng-learning-list") as HTMLElement).scrollTop,
-    );
-    expect(after, "re-renders preserve the reading position").toBeGreaterThan(arrived.scrollTop + 80);
+      await page.evaluate(() => [...document.querySelectorAll(".ng-challenge-ladder > .ng-belt-section")].map((el) => el.getAttribute("data-belt"))),
+      "the corridor starts at the frontier's belt, and the belts above it are not drawn",
+    ).toEqual(["black"]);
+    await expect(page.locator(".ng-belt-section[data-belt='black'] .ng-challenge-lesson[data-frontier]"), "its frontier row is marked").toHaveCount(1);
+    await expect(page.locator("[data-earlier-belts]"), "the earlier belts are one press away").toHaveText("Show earlier belts");
   });
 
   test("belt sections collapse independently and the choice survives a reload", async ({
@@ -581,7 +585,7 @@ test.describe("Challenges UI @curated", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
 
     // defaults: the frontier belt (white, topmost incomplete) rides open, the rest fold
     const white = page.locator(".ng-belt-section[data-belt='white']");
@@ -608,7 +612,7 @@ test.describe("Challenges UI @curated", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-    await page.locator(".ng-logo").click(); await page.locator("[data-view='challenges']").click(); // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is a row away
+    await j.openCorridor(); // v1.287.0: the Path row left the drawer; its corridor is Master the game's (the DSL's one door)
     await expect(
       page.locator(".ng-belt-section[data-belt='white']"),
     ).toHaveAttribute("data-collapsed", "true");
@@ -642,5 +646,72 @@ test.describe("Challenges UI @curated", () => {
     // transport for the same band (the repo's old STILL OPEN collision). Now nothing mounts.
     await expect(page.locator("[data-challenge-cue]")).toHaveCount(0);
     await expect(page.locator(".ng-tut")).toHaveCount(0);
+  });
+});
+
+// THE OBJECTIVE ROW'S BUTTON OPENS SOMETHING, OR IS NOT DRAWN (v1.287.0, SET1 slice B). A study / checkpoint / capstone action
+// whose belt has no live lesson (here: no curriculum, a 404) used to call `openHomeToLatest`, a method deleted in v1.174.0
+// and defined nowhere since: the press threw a TypeError and nothing happened (found by another seat, 16 Nov).
+// `_challengeActionTarget` now resolves the action once, for the row and for the press, and such a row draws no button; the
+// corridor's repaint when the curriculum lands brings it back. The control: with the curriculum, the same row's button opens
+// the belt's next lesson in Master the game (Blue's "Complete three lessons": Study the curriculum).
+// Mutant: the old branch back (the button drawn, the press calling `openHomeToLatest`) → red at "no button on a row with
+// nothing to open".
+test.describe("an objective's action", () => {
+  // White's twenty objectives are the tutorial and draw no rows; the corridor draws the SELECTED advanced belt's, so the
+  // journeys select Blue by its head card, by mouse
+  const BLUE = '.ng-track-card[data-track="blue"]';
+  const selectBlue = async (page: any, j: any) => {
+    await page.locator(BLUE).scrollIntoViewIfNeeded();
+    await j.clickByMouse(BLUE, "the Blue belt");
+  };
+  test("with nothing to open (a curriculum 404), the row draws no button and nothing throws", async ({ page }) => {
+    const errors: string[] = [];
+    page.on("pageerror", (e) => errors.push(e.message));
+    const j = journey(page);
+    await j.boot("/", { noCurriculum: true });
+    await j.openCorridor({ curriculum: false });
+    expect(await page.evaluate(() => { const a = (window as any).__neural; return { curriculum: a.curriculum ?? null, blue: a.beltUnlocked("blue") }; }),
+      "premise: no curriculum, and the Blue belt open").toEqual({ curriculum: null, blue: true });
+    await selectBlue(page, j);
+    for (const id of ["blue.lesson-three", "blue.checkpoint"]) {
+      const row = page.locator(`[data-challenge-id="${id}"]`);
+      await expect(row, `premise: ${id} is drawn without a curriculum`).toHaveCount(1);
+      await expect(row.locator(".ng-challenge-action"), "no button on a row with nothing to open").toHaveCount(0);
+    }
+    // a row whose action needs no lesson keeps its button ("Start a roll here" closes the drawer onto the map)
+    await expect(page.locator('[data-challenge-id="blue.roll-three"] .ng-challenge-action'), "the other rows keep their buttons").toHaveCount(1);
+    expect(errors, "no pageerror").toEqual([]);
+  });
+
+  // THE CORRIDOR REPAINTS ON NEW EVIDENCE, where it lives (v1.287.0): an objective's count moves on screen while Master the
+  // game is open, with no other repaint asked for. Mutant B2 (`noteChallenges`' repaint removed) is red here: until this
+  // journey no spec pinned it (the slice B mutant run, 17 Nov).
+  test("Master the game's corridor repaints when evidence moves an objective", async ({ page }) => {
+    const j = journey(page);
+    await j.boot("/");
+    await j.openCorridor();
+    await selectBlue(page, j);
+    const count = page.locator('[data-challenge-id="blue.roll-three"] small');
+    await expect(count, "premise: Blue's \"Finish three complete rolls\" at 0").toHaveText("0 of 3");
+    await page.evaluate(() => (window as any).__neural.fx("roll_end", { outcome: "win", moves: 5 }));
+    await expect(count, "the corridor's row reads the new count in place").toHaveText("1 of 3");
+  });
+
+  test("with the curriculum, Study the curriculum opens the belt's next lesson", async ({ page }) => {
+    const errors: string[] = [];
+    page.on("pageerror", (e) => errors.push(e.message));
+    const j = journey(page);
+    await j.boot("/");
+    await j.openCorridor();
+    await selectBlue(page, j);
+    const sel = '[data-challenge-id="blue.lesson-three"] .ng-challenge-action';
+    await expect(page.locator(sel), "the row's button is drawn when it can open a lesson").toHaveCount(1);
+    const next = await page.evaluate(() => (window as any).__neural.challengeFrontier("blue")?.lesson?.deckKey ?? null);
+    expect(next, "premise: the Blue belt has a next lesson").toBeTruthy();
+    await page.locator(sel).scrollIntoViewIfNeeded();
+    await j.clickByMouse(sel, "Study the curriculum");
+    await expect(page.locator(`[data-mini-deck="${next}"]`).first(), "the next lesson's deck opens in Master the game").toBeVisible({ timeout: 20_000 });
+    expect(errors, "no pageerror").toEqual([]);
   });
 });

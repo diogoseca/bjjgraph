@@ -47,33 +47,30 @@ description: "Carni is a rubber-guard shoulder-lock configuration in which the b
       "@type": "VideoObject",
       "position": 1,
       "name": "The Carni attack chain",
-      "description": "Carni film study: The Carni attack chain, taught by Johnny Jitsu.",
+      "description": "Carni film study: The Carni attack chain.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iRTWyAmw5vQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/iRTWyAmw5vQ",
       "url": "https://www.youtube.com/watch?v=iRTWyAmw5vQ",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
       "duration": "PT139S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "The Carni from the mount explained",
-      "description": "Carni film study: The Carni from the mount explained, taught by Alder Hampel.",
+      "description": "Carni film study: The Carni from the mount explained.",
       "thumbnailUrl": "https://i.ytimg.com/vi/79CUU4afTj4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/79CUU4afTj4",
       "url": "https://www.youtube.com/watch?v=79CUU4afTj4",
-      "creator": { "@type": "Person", "name": "Alder Hampel" },
       "duration": "PT200S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Rubber guard overview and core positions",
-      "description": "Carni film study: Rubber guard overview and core positions, taught by Eddie Bravo.",
+      "description": "Carni film study: Rubber guard overview and core positions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RJ7Iutti8cY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RJ7Iutti8cY",
       "url": "https://www.youtube.com/watch?v=RJ7Iutti8cY",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT521S"
     }
   ]
@@ -109,7 +106,7 @@ description: "Carni is a rubber-guard shoulder-lock configuration in which the b
 
 The guard player has a high leg and an overhook-side shoulder connection. The controlling leg has cleared around the head while the knee stays close to the torso. The guard player turns partly belly down and anchors the foot to limit posture recovery. Triceps and wrist control isolate the captured arm for a controlled shoulder-lock threat.
 
-Richie Martinez demonstrates the configuration from Z guard through Jersey. The legs help anchor the upper body, but the submission target is the shoulder; a calf slicer, heel hook, or kneebar requires a separate lower-body capture. Terminology: Carnie, Carni shoulder-lock control.
+The demonstration shows the configuration from Z guard through Jersey. The legs help anchor the upper body, but the submission target is the shoulder; a calf slicer, heel hook, or kneebar requires a separate lower-body capture. Terminology: Carnie, Carni shoulder-lock control.
 
 Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
@@ -131,7 +128,7 @@ Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](ht
 
 ![](https://www.youtube.com/watch?v=iRTWyAmw5vQ)
 
-<p class="clip-credit"><strong>The Carni attack chain</strong> — taught by Johnny Jitsu · 2:19 · <a href="https://www.youtube.com/watch?v=iRTWyAmw5vQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Carni attack chain</strong> · 2:19 · <a href="https://www.youtube.com/watch?v=iRTWyAmw5vQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -139,7 +136,7 @@ Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](ht
 
 ![](https://www.youtube.com/watch?v=79CUU4afTj4)
 
-<p class="clip-credit"><strong>The Carni from the mount explained</strong> — taught by Alder Hampel · 3:20 · <a href="https://www.youtube.com/watch?v=79CUU4afTj4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Carni from the mount explained</strong> · 3:20 · <a href="https://www.youtube.com/watch?v=79CUU4afTj4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -147,7 +144,7 @@ Instructional sources: [Richie Martinez — Carni shoulder lock from Z guard](ht
 
 ![](https://www.youtube.com/watch?v=RJ7Iutti8cY)
 
-<p class="clip-credit"><strong>Rubber guard overview and core positions</strong> — taught by Eddie Bravo · 8:41 · <a href="https://www.youtube.com/watch?v=RJ7Iutti8cY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rubber guard overview and core positions</strong> · 8:41 · <a href="https://www.youtube.com/watch?v=RJ7Iutti8cY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

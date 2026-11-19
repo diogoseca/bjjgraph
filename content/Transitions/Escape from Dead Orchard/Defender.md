@@ -162,22 +162,20 @@ description: "Escape from Dead Orchard (defender): Treat a high leg triangle con
       "@type": "VideoObject",
       "position": 1,
       "name": "Following the gator roll defense off the guillotine",
-      "description": "Escape from Dead Orchard (Defender) film study: Following the gator roll defense off the guillotine, taught by Drew Darce.",
+      "description": "Escape from Dead Orchard (Defender) film study: Following the gator roll defense off the guillotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/VVjEXr-X3hg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/VVjEXr-X3hg",
       "url": "https://www.youtube.com/watch?v=VVjEXr-X3hg",
-      "creator": { "@type": "Person", "name": "Drew Darce" },
       "duration": "PT183S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Arm-in guillotine finish from front headlock",
-      "description": "Escape from Dead Orchard (Defender) film study: Arm-in guillotine finish from front headlock, taught by Neil Melanson.",
+      "description": "Escape from Dead Orchard (Defender) film study: Arm-in guillotine finish from front headlock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IL04RCsCrac/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IL04RCsCrac",
       "url": "https://www.youtube.com/watch?v=IL04RCsCrac",
-      "creator": { "@type": "Person", "name": "Neil Melanson" },
       "duration": "PT61S"
     }
   ]
@@ -217,7 +215,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=VVjEXr-X3hg)
 
-<p class="clip-credit"><strong>Following the gator roll defense off the guillotine</strong> — taught by Drew Darce · 3:03 · <a href="https://www.youtube.com/watch?v=VVjEXr-X3hg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Following the gator roll defense off the guillotine</strong> · 3:03 · <a href="https://www.youtube.com/watch?v=VVjEXr-X3hg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +223,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=IL04RCsCrac)
 
-<p class="clip-credit"><strong>Arm-in guillotine finish from front headlock</strong> — taught by Neil Melanson · 1:01 · <a href="https://www.youtube.com/watch?v=IL04RCsCrac" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm-in guillotine finish from front headlock</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=IL04RCsCrac" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

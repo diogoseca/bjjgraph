@@ -154,32 +154,29 @@ description: "Flow rolling is cooperative sparring that keeps movement continuou
       "@type": "VideoObject",
       "position": 1,
       "name": "How to flow and play roll",
-      "description": "Flow Rolling film study: How to flow and play roll, taught by Nick Albin.",
+      "description": "Flow Rolling film study: How to flow and play roll.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kjCFTtUPghc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kjCFTtUPghc",
-      "url": "https://www.youtube.com/watch?v=kjCFTtUPghc",
-      "creator": { "@type": "Person", "name": "Nick Albin" }
+      "url": "https://www.youtube.com/watch?v=kjCFTtUPghc"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "What flow rolling is and how to do it",
-      "description": "Flow Rolling film study: What flow rolling is and how to do it, taught by Chasen Hill.",
+      "description": "Flow Rolling film study: What flow rolling is and how to do it.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OGI90-g4pOg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OGI90-g4pOg",
       "url": "https://www.youtube.com/watch?v=OGI90-g4pOg",
-      "creator": { "@type": "Person", "name": "Chasen Hill" },
       "duration": "PT332S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Calling your submission: a flow rolling game",
-      "description": "Flow Rolling film study: Calling your submission: a flow rolling game, taught by Chewjitsu.",
+      "description": "Flow Rolling film study: Calling your submission: a flow rolling game.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yoKvYc7yU30/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yoKvYc7yU30",
       "url": "https://www.youtube.com/watch?v=yoKvYc7yU30",
-      "creator": { "@type": "Person", "name": "Chewjitsu" },
       "duration": "PT211S"
     }
   ]
@@ -209,7 +206,7 @@ Agree on the pace and purpose before starting. Offer enough structure for techni
 
 ![](https://www.youtube.com/watch?v=kjCFTtUPghc)
 
-<p class="clip-credit"><strong>How to flow and play roll</strong> — taught by Nick Albin · <a href="https://www.youtube.com/watch?v=kjCFTtUPghc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to flow and play roll</strong> · <a href="https://www.youtube.com/watch?v=kjCFTtUPghc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -217,7 +214,7 @@ Agree on the pace and purpose before starting. Offer enough structure for techni
 
 ![](https://www.youtube.com/watch?v=OGI90-g4pOg)
 
-<p class="clip-credit"><strong>What flow rolling is and how to do it</strong> — taught by Chasen Hill · 5:32 · <a href="https://www.youtube.com/watch?v=OGI90-g4pOg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>What flow rolling is and how to do it</strong> · 5:32 · <a href="https://www.youtube.com/watch?v=OGI90-g4pOg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -225,7 +222,7 @@ Agree on the pace and purpose before starting. Offer enough structure for techni
 
 ![](https://www.youtube.com/watch?v=yoKvYc7yU30)
 
-<p class="clip-credit"><strong>Calling your submission: a flow rolling game</strong> — taught by Chewjitsu · 3:31 · <a href="https://www.youtube.com/watch?v=yoKvYc7yU30" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Calling your submission: a flow rolling game</strong> · 3:31 · <a href="https://www.youtube.com/watch?v=yoKvYc7yU30" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

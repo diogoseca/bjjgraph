@@ -58,7 +58,7 @@ async function ownerFrame(page: Page, name: string) {
   writeFileSync(join(out, name + '.json'), JSON.stringify({ name, legend: await page.locator('[data-legend-win]').textContent(), styles }, null, 2) + '\n')
 }
 
-for (const width of [1440, 390]) test(`@curated article grid ${width}px preserves content, packing and hidden-section controls`, async ({ page }) => {
+for (const width of [1440, 390]) test(`article grid ${width}px preserves content, packing and hidden-section controls`, async ({ page }) => {
   await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
   await page.emulateMedia({ colorScheme: 'dark', reducedMotion: 'reduce' })
   const j = journey(page)
@@ -81,6 +81,14 @@ for (const width of [1440, 390]) test(`@curated article grid ${width}px preserve
       overflow: card.scrollWidth - card.clientWidth }
   }))
   expect(geometry.length).toBeGreaterThan(4)
+  // The Moves row's content box, the box the article's sections share on a phone (U154 e, below).
+  const row = await page.evaluate(() => {
+    const r = (window as any).__neural.optionsRef.current as HTMLElement | null
+    if (!r || !r.getClientRects().length) return null
+    const b = r.getBoundingClientRect(), s = getComputedStyle(r)
+    return { l: b.left + parseFloat(s.paddingLeft), r: b.right - parseFloat(s.paddingRight) }
+  })
+  if (width < 600) expect(row, "premise: the Moves row is laid out").not.toBeNull()
   for (const [i, card] of geometry.entries()) {
     expect(card.rendered, card.type + ': every open content section is rendered').toBe(true)
     expect(card.fill).toBe('rgb(20, 27, 43)'); expect(card.border).toBe('0px')
@@ -90,7 +98,11 @@ for (const width of [1440, 390]) test(`@curated article grid ${width}px preserve
     expect(card.filter).toBe('none'); expect(card.backdrop).toBe('none')
     expect(card.webkit, 'missing WebKit support is explicit, never an ignored field').toBe(card.webkitSupported ? 'none' : '')
     expect(card.overflow, card.type + ' has no horizontal overflow').toBeLessThanOrEqual(1)
-    expect(card.left).toBeGreaterThanOrEqual(24); expect(card.right).toBeLessThanOrEqual(width - 24)
+    // The owner's U154 e (13 Nov 2026, WIDTH4's p5): on a phone (under 600px) every open section shares the Moves row's two edges, 12..378
+    // at 390. WAS (to v1.264.5): every section at least 24px inside the screen, 32..358 at 390. From 600px up the rule is unchanged: at
+    // least 24px inside the screen (1440: the grid's two lanes). Control: width5-article-grid-gutter-lost (article_sections_mutants.mjs), killed here.
+    if (width < 600) expect([card.left - row!.l, card.right - row!.r].map(Math.round), `${card.type} shares the Moves row's two edges (${card.left}..${card.right} / ${row!.l}..${row!.r})`).toEqual([0, 0])
+    else { expect(card.left).toBeGreaterThanOrEqual(24); expect(card.right).toBeLessThanOrEqual(width - 24) }
     if (i) expect(card.top).toBeGreaterThanOrEqual(geometry[i - 1].top - 1)
     for (const other of geometry.slice(0, i)) expect(card.left >= other.right - 1 || card.right <= other.left + 1 || card.top >= other.bottom - 1, 'cards never overlap').toBe(true)
   }
@@ -112,25 +124,22 @@ for (const width of [1440, 390]) test(`@curated article grid ${width}px preserve
     await expect(page.locator('[data-reward-close]')).toBeHidden({ timeout: 15000 })
     await j.clickByMouse(selector)
     await expect(page.locator(selector)).toHaveAttribute('aria-expanded', 'false')
+    // WAS (U25 a, the owner's frames hidden-collapsed-390 and hidden-expanded-390): at 390 the three waited in "Hidden sections (3)",
+    // a 48px summary with no border or shadow and its arrow 6px after its text, opened to reopen each from its label.
+    // NOW (U131 b2, HIDESEC2): no fold; each closed section's message stands in its place, and at 390 its Undo reopens it here.
+    await expect(page.locator(`[data-hidesec-notice=${type}]`), `${type}: its message stands in its place`).toBeVisible()
+    if (width === 390) {
+      await j.clickByMouse(`[data-hidesec-notice=${type}] [data-hidesec-undo]`, `${type}'s Undo`)
+      await expect(page.locator(selector)).toHaveAttribute('aria-expanded', 'true')
+      await expect(page.locator(selector), 'Undo gives focus back to its close').toBeFocused()
+    }
   }
-  const summary = page.locator('.ng-reader-hidden>summary')
-  if (width === 390) {
-    await summary.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-    await expect(summary).toHaveText('Hidden sections (3)›')
-    const style = await summary.evaluate(el => { const s = getComputedStyle(el), [text, arrow] = [...el.children].map(e => e.getBoundingClientRect()); return { border: s.borderWidth, shadow: s.boxShadow, gap: arrow.left - text.right, height: el.getBoundingClientRect().height } })
-    expect(style.border).toBe('0px'); expect(style.shadow).toBe('none'); expect(style.gap).toBe(6); expect(style.height).toBeGreaterThanOrEqual(48)
-    await ownerFrame(page, 'hidden-collapsed-390')
-    await j.clickByMouse('.ng-reader-hidden>summary', 'open hidden sections')
-    await expect(page.locator('.ng-reader-hidden')).toHaveAttribute('open', '')
-    await page.locator(READY).evaluate(el => el.scrollTop = el.scrollHeight); await j.readerLayoutSettled()
-    await ownerFrame(page, 'hidden-expanded-390')
-  } else await expect(summary).toBeHidden()
-  for (const type of ['principles', 'prerequisites', 'mistakes']) {
-    const selector = width === 390 ? `[data-section-toggle=${type}]` : `[data-toc-type=${type}] a`
+  await expect(page.locator('.ng-reader-hidden'), 'no Hidden sections fold').toBeHidden()
+  if (width !== 390) for (const type of ['principles', 'prerequisites', 'mistakes']) {
+    const selector = `[data-toc-type=${type}] a`
     await page.locator(selector).scrollIntoViewIfNeeded(); await j.readerLayoutSettled(); await j.clickByMouse(selector)
     await expect(page.locator(`[data-section-toggle=${type}]`)).toHaveAttribute('aria-expanded', 'true')
     await expect(page.locator(`[data-section-toggle=${type}]`)).toBeFocused()
   }
-  await expect(summary).toBeHidden()
   expect(await page.locator('[data-reader-body]').textContent(), 'full source text and order return unchanged').toBe(original)
 })

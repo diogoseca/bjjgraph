@@ -160,8 +160,8 @@ description: "How to defend against Single Leg Takedown in BJJ. Recognition cues
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "RTC NoGi BJJ | Single Leg Defense Technique",
-      "description": "Single Leg Takedown (Defender) film study: RTC NoGi BJJ | Single Leg Defense Technique.",
+      "name": "NoGi BJJ | Single Leg Defense Technique",
+      "description": "Single Leg Takedown (Defender) film study: NoGi BJJ | Single Leg Defense Technique.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KT91bdZtBU4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KT91bdZtBU4",
       "url": "https://www.youtube.com/watch?v=KT91bdZtBU4",
@@ -195,7 +195,7 @@ Defending the Single Leg Takedown requires a layered defensive framework that be
 
 ![](https://www.youtube.com/watch?v=KT91bdZtBU4)
 
-<p class="clip-credit"><strong>RTC NoGi BJJ | Single Leg Defense Technique</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=KT91bdZtBU4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>NoGi BJJ | Single Leg Defense Technique</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=KT91bdZtBU4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

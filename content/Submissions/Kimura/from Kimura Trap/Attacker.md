@@ -186,8 +186,8 @@ description: "Learn to finish the Kimura from Kimura Trap as the attacker. Step-
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026",
-      "description": "Kimura from Kimura Trap (Attacker) film study: Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle\u2026.",
+      "name": "Technique Breakdown: Kimura Half Guard Bottom",
+      "description": "Kimura from Kimura Trap (Attacker) film study: Technique Breakdown: Kimura Half Guard Bottom.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dgYwflmcxKk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dgYwflmcxKk",
       "url": "https://www.youtube.com/watch?v=dgYwflmcxKk",
@@ -222,7 +222,7 @@ Executing the Kimura from Kimura Trap means finishing a shoulder lock from under
 
 ![](https://www.youtube.com/watch?v=dgYwflmcxKk)
 
-<p class="clip-credit"><strong>Georges St-Pierre | Technique Breakdown: Kimura Half Guard Bottom | The Gentle…</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique Breakdown: Kimura Half Guard Bottom</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

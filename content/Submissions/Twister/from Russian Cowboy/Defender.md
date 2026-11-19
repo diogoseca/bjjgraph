@@ -160,8 +160,8 @@ description: "How to defend against the Twister Finish in BJJ. Recognition cues,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escape and counter the Twister! - Matrix Jiu Jitsu",
-      "description": "Twister from Russian Cowboy (Defender) film study: Escape and counter the Twister! - Matrix Jiu Jitsu.",
+      "name": "Escape and counter the Twister!",
+      "description": "Twister from Russian Cowboy (Defender) film study: Escape and counter the Twister!.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Va1YNgx2E6M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Va1YNgx2E6M",
       "url": "https://www.youtube.com/watch?v=Va1YNgx2E6M",
@@ -170,8 +170,8 @@ description: "How to defend against the Twister Finish in BJJ. Recognition cues,
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Breakdown DEFENSE ESCAPE TWISTER Korean Zombie  first  HISTORY of UFC\u2026",
-      "description": "Twister from Russian Cowboy (Defender) film study: Breakdown DEFENSE ESCAPE TWISTER Korean Zombie  first  HISTORY of UFC\u2026.",
+      "name": "Twister defense and escape breakdown",
+      "description": "Twister from Russian Cowboy (Defender) film study: Twister defense and escape breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/oNCcwLYDM_g/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oNCcwLYDM_g",
       "url": "https://www.youtube.com/watch?v=oNCcwLYDM_g",
@@ -210,7 +210,7 @@ Critically, the Twister is a submission where tapping early is not optional but 
 
 ![](https://www.youtube.com/watch?v=Va1YNgx2E6M)
 
-<p class="clip-credit"><strong>Escape and counter the Twister! - Matrix Jiu Jitsu</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escape and counter the Twister!</strong> · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +218,7 @@ Critically, the Twister is a submission where tapping early is not optional but 
 
 ![](https://www.youtube.com/watch?v=oNCcwLYDM_g)
 
-<p class="clip-credit"><strong>Breakdown DEFENSE ESCAPE TWISTER Korean Zombie  first  HISTORY of UFC…</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=oNCcwLYDM_g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister defense and escape breakdown</strong> · 3:21 · <a href="https://www.youtube.com/watch?v=oNCcwLYDM_g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -196,8 +196,8 @@ description: "How to execute Stack Defense in BJJ. Attacking perspective with se
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "16_P1_Matt Sera Nogi - Defending Stack Pass",
-      "description": "Stack Defense (Attacker) film study: 16_P1_Matt Sera Nogi - Defending Stack Pass.",
+      "name": "16_P1_Nogi - Defending Stack Pass",
+      "description": "Stack Defense (Attacker) film study: 16_P1_Nogi - Defending Stack Pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Y6R29wW_KrU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Y6R29wW_KrU",
       "url": "https://www.youtube.com/watch?v=Y6R29wW_KrU",
@@ -239,7 +239,7 @@ As the guard player executing stack defense, your objective is to prevent the to
 
 ![](https://www.youtube.com/watch?v=Y6R29wW_KrU)
 
-<p class="clip-credit"><strong>16_P1_Matt Sera Nogi - Defending Stack Pass</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=Y6R29wW_KrU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>16_P1_Nogi - Defending Stack Pass</strong> · 2:38 · <a href="https://www.youtube.com/watch?v=Y6R29wW_KrU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

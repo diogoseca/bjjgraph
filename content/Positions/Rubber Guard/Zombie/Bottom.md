@@ -148,33 +148,30 @@ description: "Zombie bottom perspective: Maintain posture control while freeing 
       "@type": "VideoObject",
       "position": 1,
       "name": "Prison Guard Homie X",
-      "description": "Zombie (Bottom) film study: Prison Guard Homie X, taught by Eddie Bravo.",
+      "description": "Zombie (Bottom) film study: Prison Guard Homie X.",
       "thumbnailUrl": "https://i.ytimg.com/vi/G9g3ZOJaQHA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/G9g3ZOJaQHA",
       "url": "https://www.youtube.com/watch?v=G9g3ZOJaQHA",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Lockdown Entries",
-      "description": "Zombie (Bottom) film study: Lockdown Entries, taught by Eddie Bravo.",
+      "description": "Zombie (Bottom) film study: Lockdown Entries.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2ajPv8XKfvY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2ajPv8XKfvY",
       "url": "https://www.youtube.com/watch?v=2ajPv8XKfvY",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT115S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Lockdown Strategies",
-      "description": "Zombie (Bottom) film study: Lockdown Strategies, taught by Eddie Bravo.",
+      "description": "Zombie (Bottom) film study: Lockdown Strategies.",
       "thumbnailUrl": "https://i.ytimg.com/vi/oSQ7BHerIow/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oSQ7BHerIow",
       "url": "https://www.youtube.com/watch?v=oSQ7BHerIow",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     }
   ]
@@ -211,7 +208,7 @@ Once the pummel puts the hand outside, wrap over the cleared upper arm and hug t
 
 ![](https://www.youtube.com/watch?v=G9g3ZOJaQHA)
 
-<p class="clip-credit"><strong>Prison Guard Homie X</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=G9g3ZOJaQHA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Prison Guard Homie X</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=G9g3ZOJaQHA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -219,7 +216,7 @@ Once the pummel puts the hand outside, wrap over the cleared upper arm and hug t
 
 ![](https://www.youtube.com/watch?v=2ajPv8XKfvY)
 
-<p class="clip-credit"><strong>Lockdown Entries</strong> — taught by Eddie Bravo · 1:55 · <a href="https://www.youtube.com/watch?v=2ajPv8XKfvY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lockdown Entries</strong> · 1:55 · <a href="https://www.youtube.com/watch?v=2ajPv8XKfvY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -227,7 +224,7 @@ Once the pummel puts the hand outside, wrap over the cleared upper arm and hug t
 
 ![](https://www.youtube.com/watch?v=oSQ7BHerIow)
 
-<p class="clip-credit"><strong>Lockdown Strategies</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=oSQ7BHerIow" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lockdown Strategies</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=oSQ7BHerIow" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

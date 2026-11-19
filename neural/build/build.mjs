@@ -101,6 +101,9 @@ const systemsDemand = stripExports("systems-demand.src.js");
 // merge. A real module for the codec's reason: the unit suite and the digest Worker (which names
 // the next belt in the training-day email) import the identical source.
 const beltRule = stripExports("belt.src.js");
+// rating.src.js (v1.269.0): the ONE definition of the rating — the share of the game recalled now, its points and
+// the belt lines (table a). Pure and shared like the belt rule: the unit suite imports the identical source.
+const ratingRule = stripExports("rating.src.js");
 {
   // EVERY top-level binding form, not just function/const: two `let NGL_FOO` in one scope is
   // the same SyntaxError, and it would delete the same whole app. (The guard used to scan
@@ -111,7 +114,7 @@ const beltRule = stripExports("belt.src.js");
         (m) => m[1],
       ),
     );
-  const groups = [["lists-codec.src.js", listsCodec], ["lists.src.js", listsStore], ["flow.src.js", flowKernel], ["wire-keys.src.js", wireKeys], ["knowledge-profile.src.js", knowledgeProfile], ["gameplan-debt.src.js", gameplanDebt], ["progress-owner.src.js", progressOwner], ["systems-demand.src.js", systemsDemand], ["belt.src.js", beltRule]];
+  const groups = [["lists-codec.src.js", listsCodec], ["lists.src.js", listsStore], ["flow.src.js", flowKernel], ["wire-keys.src.js", wireKeys], ["knowledge-profile.src.js", knowledgeProfile], ["gameplan-debt.src.js", gameplanDebt], ["progress-owner.src.js", progressOwner], ["systems-demand.src.js", systemsDemand], ["belt.src.js", beltRule], ["rating.src.js", ratingRule]];
   const clash = [];
   for (let a = 0; a < groups.length; a++) {
     for (let b = a + 1; b < groups.length; b++) {
@@ -275,6 +278,10 @@ ${gameplanDebt}
 ${beltRule}
 /* ---- end belt.src.js ---- */
 
+/* ---- begin rating.src.js (the rating: share of the game recalled now, points, belt lines) ---- */
+${ratingRule}
+/* ---- end rating.src.js ---- */
+
 /* ---- begin challenge definitions + pure engine ---- */
 ${challengeDefinitions}
 ${challengeEngine}
@@ -399,7 +406,10 @@ function __mountNeuralOnce() {
   return (window).__neural
 }
 const __progressHost = ngProgressCreateHost({
-  storage: { getItem: key => localStorage.getItem(key), setItem: (key, value) => localStorage.setItem(key, value) },
+  // removeItem (L2-R1, v1.292.0): an Undo of the confirm that made a browser's first journal takes that key away again
+  // (the owner host's unjournal). Found by master-cloze.spec.ts on the built page: the unit's storage had it, this one
+  // did not, and the owner host fell back to leaving the key behind, empty.
+  storage: { getItem: key => localStorage.getItem(key), setItem: (key, value) => localStorage.setItem(key, value), removeItem: key => localStorage.removeItem(key) },
   resolveUser: async () => {
     const auth = window.__bjjAuth
     if (!auth) {
@@ -473,7 +483,10 @@ await build({
 // pay for U109 to U111: the last four were renamed from common words (serial, tiles, article, lead) so the gate can scan them.
 // mediaSlot (U113 b's label paid for): the two specs that read it take the slot by its data-reader-media-slot attribute now.
 // tests/artifacts/article_sections_mutants.mjs spells some of them, but it edits the source before this build, so that is not a read.
-const READER_ONLY_PROPS = /^(?:mediaSlot|sortColumns|readingInteraction|gameHomes|renderSerial|tileSizer|pageArticle|leadCells|placeTop|gridW|gameKey|selecting|seating|extract|gameInput|closedRow|referenceClips|lightReference|bookClose|highlightReference|syncSections|mediaOrigin|hiddenSections|gamePage|bookScroll|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|shelfState|partEl|roleLinks|ownsMedia|indexBest|held|heldAt|heldY)$/;
+// HIDESEC2 (U131 b2): closedRow and hiddenSections left with the Hidden sections fold; the closed-part message's eleven names (noticeMap
+// to shields) pay part of its own cost. Its method is noticeHeld, not held: `held` is the reader's held line, assigned in layoutNow, and
+// a method by that name was overwritten by it (measured: a message never left, "this.a is not a function").
+const READER_ONLY_PROPS = /^(?:teaseDrop|mediaSlot|sortColumns|readingInteraction|gameHomes|renderSerial|tileSizer|pageArticle|leadCells|placeTop|gridW|gameKey|selecting|seating|extract|gameInput|referenceClips|lightReference|highlightReference|syncSections|mediaOrigin|gamePage|splitSections|syncIndex|mediaNext|readingOrder|chromeActive|partEl|roleLinks|ownsMedia|indexBest|held|heldAt|heldY|noticeMap|noticeHome|noticeHeld|holdNotice|armNotice|leaveNotice|closeNotices|dropNotice|undoNotice|dropNotices|swallowing|shields)$/;
 await build({
   entryPoints: [R("src/reader.src.js")], bundle: true, format: "esm", target: "es2019",
   minify: true, mangleProps: READER_ONLY_PROPS, legalComments: "none", outfile: R("dist/reader.js"), logLevel: "info",

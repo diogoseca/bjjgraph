@@ -46,8 +46,8 @@ description: "Master the Bow and Arrow Choke from Harness position in BJJ. Learn
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kyle fogel - bow and arrow - seatbelt",
-      "description": "Bow and Arrow Choke from Harness film study: Kyle fogel - bow and arrow - seatbelt.",
+      "name": "Bow and arrow - seatbelt",
+      "description": "Bow and Arrow Choke from Harness film study: Bow and arrow - seatbelt.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rsrA1GOcywM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rsrA1GOcywM",
       "url": "https://www.youtube.com/watch?v=rsrA1GOcywM",
@@ -105,7 +105,7 @@ The Bow and Arrow Choke from Harness is one of the highest-percentage gi submiss
 
 What distinguishes the harness entry from other Bow and Arrow setups is the seamless grip transition. The seatbelt configuration provides a stable platform where the attacker can release one hand to secure the collar while the remaining underhook arm maintains positional control. Once the collar grip is established, the free hand hooks under the opponent's far-side knee or pants leg, and the attacker falls to the choking-arm side while extending the opponent's body in opposite directions — the collar pulling toward the head while the leg hook stretches toward the feet. This creates the characteristic bow-and-arrow shape that generates tremendous choking pressure through skeletal leverage rather than muscular effort.
 
-Strategically, this submission capitalizes on common defensive reactions to back control. When opponents prioritize defending the rear naked choke by fighting the choking arm, they often neglect collar defense, creating the opening for the lapel grip. The Bow and Arrow from Harness is particularly effective because the attacker maintains back control throughout the setup, giving them the option to abandon the attempt and return to standard back attacks if the collar grip is defended. Competition data shows this remains one of the most successful submissions at black belt level, with elite competitors like Roger Gracie having built entire finishing systems around the collar grip from back control.
+Strategically, this submission capitalizes on common defensive reactions to back control. When opponents prioritize defending the rear naked choke by fighting the choking arm, they often neglect collar defense, creating the opening for the lapel grip. The Bow and Arrow from Harness is particularly effective because the attacker maintains back control throughout the setup, giving them the option to abandon the attempt and return to standard back attacks if the collar grip is defended. Competition data shows this remains one of the most successful submissions at black belt level, with elite competitors having built entire finishing systems around the collar grip from back control.
 
 **Starting Position**: [[Positions/Harness]] · **From**: [[Positions/Harness]] (Top)
 
@@ -123,7 +123,7 @@ Strategically, this submission capitalizes on common defensive reactions to back
 
 ![](https://www.youtube.com/watch?v=rsrA1GOcywM)
 
-<p class="clip-credit"><strong>Kyle fogel - bow and arrow - seatbelt</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=rsrA1GOcywM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bow and arrow - seatbelt</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=rsrA1GOcywM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

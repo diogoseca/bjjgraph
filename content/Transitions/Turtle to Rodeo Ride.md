@@ -36,6 +36,27 @@ description: "Master the Transition to Rodeo Ride from turtle top in BJJ. Learn 
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Rodeo Ride \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "TOP RIDE TO SEATED RODEO RIDE AGAINST TURTLE POSITION",
+      "description": "Turtle to Rodeo Ride film study: TOP RIDE TO SEATED RODEO RIDE AGAINST TURTLE POSITION.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EWDM-ozukW8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EWDM-ozukW8",
+      "url": "https://www.youtube.com/watch?v=EWDM-ozukW8",
+      "duration": "PT409S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ This transition is particularly valuable because it converts a position with lim
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Rodeo Ride in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EWDM-ozukW8)
+
+<p class="clip-credit"><strong>TOP RIDE TO SEATED RODEO RIDE AGAINST TURTLE POSITION</strong> · 6:49 · <a href="https://www.youtube.com/watch?v=EWDM-ozukW8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

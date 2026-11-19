@@ -4,8 +4,9 @@ import { journey, type Journey } from "../dsl"
 /**
  * PANE & CHROME (v1.93.0, re-pinned for the v1.242.0 drawer, owner A5 / E1 / T-b):
  *
- *   1. One drawer icon (top-left) opens the drawer, and its rows are live: Path opens the corridor,
- *      the brand ("‹ Path") leads back to the list and its search. The tabs are gone.
+ *   1. One drawer icon (top-left) opens the drawer, and its rows are live: Master the game opens the corridor (the Path
+ *      row did until it left the drawer, v1.287.0), the brand ("‹ Master the game") leads back to the list and its search.
+ *      The tabs are gone.
  *   2. The score belt is RETIRED as a visual: no .ng-knowledge-header, no [data-knowledge], no
  *      meter anywhere; the score's one exposure is the badge menu's "Mastered" line.
  *   3. A study takeover owns the drawer body; its ‹ Back hands the list back.
@@ -34,9 +35,9 @@ test("the drawer icon opens a drawer whose rows are live", async ({
   await openViaLogo(page, j)
 
   await expect(page.locator(".ng-learning-nav"), "the tab bar is gone").toHaveCount(0)
-  await j.clickByMouse('[data-view="challenges"]', "the Path row")
-  await expect(page.locator(".ng-challenge-ladder"), "Path renders the corridor").toBeVisible()
-  await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Path")
+  await j.openCorridor({ allBelts: false })
+  await expect(page.locator(".ng-challenge-ladder"), "Master the game renders the corridor").toBeVisible()
+  await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Master the game")
 
   await j.clickByMouse('[data-view="explore"]', "the brand, home")
   await expect(
@@ -54,8 +55,8 @@ test("the GI/NO-GI choice lives in Settings → Rolling and nowhere else", async
   // v1.95.3, owner: the pill rendered on BOTH Explore and Challenges (`.ng-explorer-tools`,
   // hidden only on History) — one fact, one home. The pane carries no pill on any tab.
   await expect(page.locator(".ng-gi-toggle"), "no pill on History").toHaveCount(0)
-  await j.clickByMouse('[data-view="challenges"]', "the Challenges tab")
-  await expect(page.locator(".ng-gi-toggle"), "no pill on Challenges").toHaveCount(0)
+  await j.openCorridor({ allBelts: false })
+  await expect(page.locator(".ng-gi-toggle"), "no pill on the corridor (Master the game's since v1.287.0)").toHaveCount(0)
   await j.clickByMouse('[data-view="explore"]', "the Explore tab")
   await expect(page.locator(".ng-gi-toggle"), "no pill on Explore").toHaveCount(0)
 
@@ -130,8 +131,12 @@ test("settings carries Terms · Privacy — the Learn More submenu that never wa
   await j.clickByMouse("[data-menu-settings]", "Settings, from the badge")
   await expect(page.locator("[data-settings-legal]"), "legal links in the first overlay").toBeVisible()
   await j.clickByMouse('[data-settings-legal] [data-legal="terms"]', "the Terms link")
-  await expect(page.locator("body")).toContainText("Terms of Use")
-  await expect(page.locator("body"), "the real terms, not a stub").toContainText("Safety first")
+  // LEGAL3 (v1.264.0): this found the typed box's "Terms of Use" and its "Safety first". The box now reads the Terms page itself:
+  // "the real terms, not a stub" is its title and opening, as the server sends them.
+  const served = await (await page.request.get("/terms")).text()
+  const title = /<h1 class="article-title">([^<]*)<\/h1>/.exec(served)![1]
+  await expect(page.locator('.ng-legal[data-legal="terms"] #ng-legal-h'), "the real terms, not a stub").toHaveText(title)
+  await expect(page.locator('.ng-legal[data-legal="terms"] [data-legal-short]')).not.toBeEmpty()
 })
 
 test("the drill pill is GONE on every form factor; the share cue renders only with a cue", async ({
@@ -233,7 +238,8 @@ test.describe("deliberate screens outrank ambient overlays", () => {
     // for the control to exist; the reachability claim itself is unchanged.
     await expect(page.locator('[data-settings-legal] [data-legal="terms"]'), "Settings has rendered").toBeVisible()
     await j.clickByMouse('[data-settings-legal] [data-legal="terms"]', "Terms inside Settings")
-    await expect(page.locator("body")).toContainText("Terms of Use")
+    // LEGAL3 (v1.264.0): the typed box's "Terms of Use" -> the Terms page's own box
+    await expect(page.locator('.ng-legal[data-legal="terms"] [data-legal-short]')).not.toBeEmpty()
     hit = await hitReport(page)
     expect(hit.inLandcard, "same rule under the Terms screen").toBe(false)
     expect(hit.inModal).toBe(true)
@@ -294,8 +300,9 @@ for (const width of [1440, 1024]) {
     expect(open!.x, "the card moves toward the available space").toBeGreaterThan(before!.x + 80)
     // U104, U110 a (owner, 2026-11-09): the card is no longer one fixed width. In columns it is its column's face, so the pane narrows
     // it with the grid, and under 1,024px free it joins the one stacked box, at most 496px. Readable is the claim: never under a
-    // phone's 286px face, and never past the stacked cap.
-    expect(open!.width, "opening the pane keeps a readable card").toBeGreaterThanOrEqual(286)
+    // phone's 286px face, and never past the stacked cap. #346's review (finding 8): 286 would pass a card the pane crushed at 1440, so
+    // the floor is the card's own width before the pane opened, less the grid's narrowing (968 to 902px at 1440: 92%); 85% is the bound.
+    expect(open!.width, "opening the pane keeps a readable card").toBeGreaterThanOrEqual(Math.max(286, before!.width * 0.85))
     expect(open!.width, "opening the pane keeps a readable card, within the stacked cap").toBeLessThanOrEqual(Math.max(before!.width, 496))
     expect(open!.x + open!.width, "the card stays on screen").toBeLessThanOrEqual(width)
     const next = await page.locator("[data-land-next]").boundingBox()

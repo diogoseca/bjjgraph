@@ -47,22 +47,16 @@ const seedFilm = (page: any) =>
 
 // RETIRED in part (D-338, no View menu): the article view has no Book minimize. Book off survives
 // only as a saved state, whose shelf keeps the restore control; that half keeps its claim.
-test("Book restore keeps a readable, reachable control @curated", async ({ page }) => {
-  const j = journey(page);
-  await j.boot("/", { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } });
-  await j.land("Mount Top");
-  await expect(page.locator('.ng-reader-article')).toBeHidden();
-  const color = await page.locator('[data-layer-show="book"]').evaluate(el => getComputedStyle(el).color);
-  expect(color, "the restore control is never the UA default black").not.toBe("rgb(0, 0, 0)");
-  await j.clickByMouse('[data-layer-show="book"]');
-  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
-  await expect(page.locator('.ng-reader-article')).toBeVisible();
-});
+// v1.253.0 (U114 a): "Book restore keeps a readable, reachable control" went with the shelf and the article-away view.
 
 test("the question corner keeps its close button and count; capture belongs to the seat", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
+  // v1.280.0 (POSNAME): the position's own name, and the seat star beside its role, are never written under a control. The
+  // landing can mint White Foundations, whose opaque phone card (rgba 18,22,37 at 0.98) covers the node band here: the
+  // star used to be drawn under it, unseen; dismissed first, as article-sections.spec.ts dismisses it
+  if (await page.locator("[data-reward-close]").isVisible()) await j.clickByMouse("[data-reward-close]");
   await seedFilm(page);
   await page.waitForTimeout(300);
   await j.openQuestion(); // U47 d: the deck count shows on the card, once the question is taken up
@@ -87,6 +81,10 @@ test("the question corner keeps its close button and count; capture belongs to t
   expect(m.countBelow).toBe(true);
   expect(m.hit).toBe(true);
   expect(m.stars).toBe(0);
+  // v1.280.0 (POSNAME): the seat's name, and its star, are placed frame by frame and never under a control; the frame this
+  // test last pumped was drawn while the reader still scrolled the card over the node band (probed: nothing covers it now,
+  // and one fresh frame places the name and its star). A player's app draws every frame; the harness draws when pumped
+  await j.advance(34);
   await expect(page.locator('[data-seat-star][data-list-add="Positions/Mount"]')).toHaveCount(1);
   await expect(page.locator('[data-seat-star][data-list-add="Positions/Mount"]')).toBeVisible();
 });

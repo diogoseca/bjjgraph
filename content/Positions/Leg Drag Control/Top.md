@@ -165,8 +165,8 @@ description: "Master leg drag control from top position. Complete strategic guid
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rafael Mendes | Leg Drag Transitions When Opponent Defends | artofjiujitsu.com",
-      "description": "Leg Drag Control (Top) film study: Rafael Mendes | Leg Drag Transitions When Opponent Defends | artofjiujitsu.com.",
+      "name": "Leg Drag Transitions When Opponent Defends",
+      "description": "Leg Drag Control (Top) film study: Leg Drag Transitions When Opponent Defends.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9CkRlTtnYOk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9CkRlTtnYOk",
       "url": "https://www.youtube.com/watch?v=9CkRlTtnYOk",
@@ -214,7 +214,7 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 ![](https://www.youtube.com/watch?v=9CkRlTtnYOk)
 
-<p class="clip-credit"><strong>Rafael Mendes | Leg Drag Transitions When Opponent Defends | artofjiujitsu.com</strong> · 9:57 · <a href="https://www.youtube.com/watch?v=9CkRlTtnYOk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg Drag Transitions When Opponent Defends</strong> · 9:57 · <a href="https://www.youtube.com/watch?v=9CkRlTtnYOk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -186,8 +186,8 @@ description: "Learn to attack with the Kimura from overhook control. Step-by-ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin",
-      "description": "Kimura from Overhook Control (Attacker) film study: New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin.",
+      "name": "Kimura From The Overhook | NoGi",
+      "description": "Kimura from Overhook Control (Attacker) film study: Kimura From The Overhook | NoGi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/67Meai2C0LQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/67Meai2C0LQ",
       "url": "https://www.youtube.com/watch?v=67Meai2C0LQ",
@@ -196,8 +196,8 @@ description: "Learn to attack with the Kimura from overhook control. Step-by-ste
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy",
-      "description": "Kimura from Overhook Control (Attacker) film study: Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy.",
+      "name": "Side Control Over Hook to Kimura Submission",
+      "description": "Kimura from Overhook Control (Attacker) film study: Side Control Over Hook to Kimura Submission.",
       "thumbnailUrl": "https://i.ytimg.com/vi/v3f_RYd1W4s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/v3f_RYd1W4s?start=44",
       "url": "https://www.youtube.com/watch?v=v3f_RYd1W4s",
@@ -232,7 +232,7 @@ Attacking with the Kimura from Overhook Control requires converting your existin
 
 ![](https://www.youtube.com/watch?v=67Meai2C0LQ)
 
-<p class="clip-credit"><strong>New Concept BJJ | Kimura From The Overhook | NoGi Coach Caleb Flippin</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=67Meai2C0LQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura From The Overhook | NoGi</strong> · 3:11 · <a href="https://www.youtube.com/watch?v=67Meai2C0LQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -240,7 +240,7 @@ Attacking with the Kimura from Overhook Control requires converting your existin
 
 ![](https://www.youtube.com/watch?v=v3f_RYd1W4s&start=44)
 
-<p class="clip-credit"><strong>Side Control Over Hook to Kimura Submission - Jiu-Jitsu Tech with Matt Darcy</strong> · 4:51 · <a href="https://www.youtube.com/watch?v=v3f_RYd1W4s&t=44s" rel="noopener">Watch on YouTube from 0:44</a></p>
+<p class="clip-credit"><strong>Side Control Over Hook to Kimura Submission</strong> · 4:51 · <a href="https://www.youtube.com/watch?v=v3f_RYd1W4s&t=44s" rel="noopener">Watch on YouTube from 0:44</a></p>
 
 </div>
 

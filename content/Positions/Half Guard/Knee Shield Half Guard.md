@@ -47,11 +47,10 @@ description: "Master Knee Shield Half Guard in BJJ. Strategic guide covering set
       "@type": "VideoObject",
       "position": 1,
       "name": "Knee Shield Half Guard Basics",
-      "description": "Knee Shield Half Guard film study: Knee Shield Half Guard Basics, taught by MMA Leech.",
+      "description": "Knee Shield Half Guard film study: Knee Shield Half Guard Basics.",
       "thumbnailUrl": "https://i.ytimg.com/vi/q_ND-09HiWg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/q_ND-09HiWg",
       "url": "https://www.youtube.com/watch?v=q_ND-09HiWg",
-      "creator": { "@type": "Person", "name": "MMA Leech" },
       "duration": "PT263S"
     }
   ]
@@ -107,7 +106,7 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 ![](https://www.youtube.com/watch?v=q_ND-09HiWg)
 
-<p class="clip-credit"><strong>Knee Shield Half Guard Basics</strong> — taught by MMA Leech · 4:23 · <a href="https://www.youtube.com/watch?v=q_ND-09HiWg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Shield Half Guard Basics</strong> · 4:23 · <a href="https://www.youtube.com/watch?v=q_ND-09HiWg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

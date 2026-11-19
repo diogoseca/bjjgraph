@@ -15,8 +15,7 @@ test("white-capstone holder: Blue checkpoint evidence progresses its unit withou
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
 
-  await expect(page.locator('[data-view="challenges"]')).toBeVisible()
-  await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await page.locator(`.ng-track-card[data-track="${BLUE.id}"]`).click()
   expect(await page.locator(".ng-belt-section").count()).toBe(CURRICULUM.belts.length)
   await expect(page.locator(`[data-checkpoint="${U1_KEY}"]`)).toBeVisible()
@@ -41,8 +40,7 @@ test("white-capstone holder: Blue checkpoint evidence progresses its unit withou
   await j.expectBeat("checkpoint_passed")
 
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await expect(page.locator('[data-view="challenges"]')).toBeVisible()
-  await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await page.locator(`.ng-track-card[data-track="${BLUE.id}"]`).click()
   expect(await page.locator(`[data-checkpoint="${U1_KEY}"]`).isDisabled()).toBe(false)
   expect(await page.locator(`[data-checkpoint="${U2_KEY}"]`).isDisabled()).toBe(true)

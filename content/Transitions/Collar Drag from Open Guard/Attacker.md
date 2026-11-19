@@ -186,8 +186,8 @@ description: "Execute the collar drag from open guard to achieve front headlock 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Open guard - Renzo\u0027s techniques: Back-take via collar drag | Renzo Gracie\u2026",
-      "description": "Collar Drag from Open Guard (Attacker) film study: Open guard - Renzo\u0027s techniques: Back-take via collar drag | Renzo Gracie\u2026.",
+      "name": "Open guard: back take via collar drag",
+      "description": "Collar Drag from Open Guard (Attacker) film study: Open guard: back take via collar drag.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hOM67NwKXqE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hOM67NwKXqE",
       "url": "https://www.youtube.com/watch?v=hOM67NwKXqE",
@@ -223,7 +223,7 @@ The collar drag rewards patience and reading ability over explosiveness. The bes
 
 ![](https://www.youtube.com/watch?v=hOM67NwKXqE)
 
-<p class="clip-credit"><strong>Open guard - Renzo&#39;s techniques: Back-take via collar drag | Renzo Gracie…</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=hOM67NwKXqE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Open guard: back take via collar drag</strong> · 1:33 · <a href="https://www.youtube.com/watch?v=hOM67NwKXqE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

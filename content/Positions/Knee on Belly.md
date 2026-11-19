@@ -48,11 +48,10 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
       "@type": "VideoObject",
       "position": 1,
       "name": "BJJ | How To Escape The Knee On Belly Position",
-      "description": "Knee on Belly film study: BJJ | How To Escape The Knee On Belly Position, taught by Evolve MMA.",
+      "description": "Knee on Belly film study: BJJ | How To Escape The Knee On Belly Position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
       "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
-      "creator": { "@type": "Person", "name": "Evolve MMA" },
       "duration": "PT40S"
     }
   ]
@@ -105,7 +104,7 @@ Within the BJJ positional hierarchy, Knee on Belly occupies a distinctive role b
 
 ![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
 
-<p class="clip-credit"><strong>BJJ | How To Escape The Knee On Belly Position</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ | How To Escape The Knee On Belly Position</strong> · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

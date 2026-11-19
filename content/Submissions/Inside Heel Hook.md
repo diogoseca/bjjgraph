@@ -47,44 +47,40 @@ description: "Master Inside Heel Hook in BJJ. Complete guide with safety protoco
       "@type": "VideoObject",
       "position": 1,
       "name": "Honey Hole Heel Hook Finish",
-      "description": "Inside Heel Hook film study: Honey Hole Heel Hook Finish, taught by JitzLive.",
+      "description": "Inside Heel Hook film study: Honey Hole Heel Hook Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3KAO2Ck4HRg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3KAO2Ck4HRg",
       "url": "https://www.youtube.com/watch?v=3KAO2Ck4HRg",
-      "creator": { "@type": "Person", "name": "JitzLive" },
       "duration": "PT52S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Honey Hole to Heel Hook Finish",
-      "description": "Inside Heel Hook film study: Honey Hole to Heel Hook Finish, taught by Ilya Bodnya.",
+      "description": "Inside Heel Hook film study: Honey Hole to Heel Hook Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PGQ7YYfu76Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PGQ7YYfu76Q",
       "url": "https://www.youtube.com/watch?v=PGQ7YYfu76Q",
-      "creator": { "@type": "Person", "name": "Ilya Bodnya" },
       "duration": "PT65S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Inside Heel Hook Finish",
-      "description": "Inside Heel Hook film study: Inside Heel Hook Finish, taught by Craig Jones.",
+      "description": "Inside Heel Hook film study: Inside Heel Hook Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
       "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT18S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Heel Hook Breaking Mechanics",
-      "description": "Inside Heel Hook film study: Heel Hook Breaking Mechanics, taught by Craig Jones.",
+      "description": "Inside Heel Hook film study: Heel Hook Breaking Mechanics.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
       "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT77S"
     }
   ]
@@ -152,7 +148,7 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 ![](https://www.youtube.com/watch?v=3KAO2Ck4HRg)
 
-<p class="clip-credit"><strong>Honey Hole Heel Hook Finish</strong> — taught by JitzLive · 0:52 · <a href="https://www.youtube.com/watch?v=3KAO2Ck4HRg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Honey Hole Heel Hook Finish</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=3KAO2Ck4HRg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -160,7 +156,7 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 ![](https://www.youtube.com/watch?v=PGQ7YYfu76Q)
 
-<p class="clip-credit"><strong>Honey Hole to Heel Hook Finish</strong> — taught by Ilya Bodnya · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Honey Hole to Heel Hook Finish</strong> · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -168,7 +164,7 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 ![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
 
-<p class="clip-credit"><strong>Inside Heel Hook Finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inside Heel Hook Finish</strong> · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -176,7 +172,7 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 ![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
 
-<p class="clip-credit"><strong>Heel Hook Breaking Mechanics</strong> — taught by Craig Jones · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Heel Hook Breaking Mechanics</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

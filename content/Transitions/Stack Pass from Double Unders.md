@@ -46,8 +46,8 @@ description: "Master the Stack Pass from Double Unders in BJJ. Learn to stack op
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown",
-      "description": "Stack Pass from Double Unders film study: No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown.",
+      "name": "No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu",
+      "description": "Stack Pass from Double Unders film study: No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wBZrTpuXV50/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wBZrTpuXV50",
       "url": "https://www.youtube.com/watch?v=wBZrTpuXV50",
@@ -117,7 +117,7 @@ This technique fits within the broader pressure passing system as a direct finis
 
 ![](https://www.youtube.com/watch?v=wBZrTpuXV50)
 
-<p class="clip-credit"><strong>No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu BJJ Middletown</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No-Gi Double Under Guard Pass | Brazilian Jiu-Jitsu</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

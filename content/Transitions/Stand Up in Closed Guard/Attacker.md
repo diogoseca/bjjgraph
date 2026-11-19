@@ -192,8 +192,8 @@ description: "Master the standing guard break from closed guard top. Step-by-ste
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "RLVT \"Carlson Gracie\" Vale Tudo Standing Guard Pass",
-      "description": "Stand Up in Closed Guard (Attacker) film study: RLVT \"Carlson Gracie\" Vale Tudo Standing Guard Pass.",
+      "name": "Vale Tudo Standing Guard Pass",
+      "description": "Stand Up in Closed Guard (Attacker) film study: Vale Tudo Standing Guard Pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/E4UjJi0n0mM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/E4UjJi0n0mM",
       "url": "https://www.youtube.com/watch?v=E4UjJi0n0mM",
@@ -237,7 +237,7 @@ As the attacker executing the stand up in closed guard, your objective is to tra
 
 ![](https://www.youtube.com/watch?v=E4UjJi0n0mM)
 
-<p class="clip-credit"><strong>RLVT &#34;Carlson Gracie&#34; Vale Tudo Standing Guard Pass</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=E4UjJi0n0mM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Vale Tudo Standing Guard Pass</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=E4UjJi0n0mM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

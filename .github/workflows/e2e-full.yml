@@ -3,6 +3,12 @@ name: Complete Playwright E2E
 on:
   pull_request:
     branches: ["main", "dev"]
+  # EVERY MERGED DEV TIP (v1.263.0, the owner's U147 a). The deploy gate runs only what a deploy can break plus one
+  # quick test per surface (tests/artifacts/deploy_gate.json), so two PRs that pass alone and break together would
+  # otherwise reach the preview untested. This run sits beside deploy-dev and blocks nothing; a promotion to
+  # production takes only a commit whose push-run here is green (CLAUDE.md, Shipping).
+  push:
+    branches: ["dev"]
   schedule:
     - cron: "0 3 * * 6"
   workflow_dispatch:
@@ -10,6 +16,8 @@ on:
 permissions:
   contents: read
 
+# A PR's runs share its number; pushes to dev share refs/heads/dev, so a burst of merges cancels the older runs and
+# costs one full run, of the newest tip.
 concurrency:
   group: complete-e2e-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
@@ -19,6 +27,17 @@ jobs:
     name: Build tested site
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    # THE SHARDS RUN WHENEVER THE SITE BUILT (v1.263.3, GATE6; the reviewer's finding 2 on #388). `test` and `gen`
+    # wait on this output, the tested site's upload, not on the job's success: a red in a post-build gate below (the
+    # postprocessor contract, the census, the deploy-gate ledger, the keyless analytics fixture) keeps THIS job red
+    # and no longer skips the 1,474 core journeys and the generated suite. That matters most on a push to dev, whose
+    # run is what a promotion relies on and which has no PR to fix the drift in first. None of those gates writes
+    # into the tree the shards download (build-shape writes only under --update, the keyless check builds in a temp
+    # dir, the other two only read), so a shard never tests a file a red gate refused. A content PR therefore sees its
+    # full suite before its capture: the census stays red until the re-seed, the journeys report on their own. Each
+    # post-build gate also runs whenever the site built, so one red no longer hides the next.
+    outputs:
+      site: ${{ steps.upload-site.outcome }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
@@ -42,8 +61,15 @@ jobs:
       - name: Build-chain and Python provisioning contract
         run: python3 scripts/check_build_chains.py
 
+      # INSTALLS, THE DEPLOYS' RULE (v1.266.1): each tree once, as `npm ci --ignore-scripts` with the flag on the command
+      # line, so the lockfile decides every package and no package's install script runs. source/ is installed explicitly
+      # because the flag also skips the root's own `postinstall` (`cd source && npm install`, which a contributor's
+      # `npm install` still runs). Chromium is installed by its own step wherever a job runs a browser. Pinned by
+      # tests/deploy_gate.test.mjs (CI INSTALLS).
       - name: Install dependencies
-        run: npm ci
+        run: |
+          (cd source && npm ci --ignore-scripts)
+          npm ci --ignore-scripts
 
       - name: Regenerate Neural app and data
         run: npm run regenerate:neural
@@ -54,6 +80,7 @@ jobs:
         run: npm run build
 
       - name: Postprocessor input contract
+        if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         # Exit 2 is pending only with the exact completed-verdict marker.
         # Python also exits 2 before execution (missing file/bad arguments).
         run: |
@@ -104,7 +131,17 @@ jobs:
       # contract tests/corpus_census.test.mjs already has with `npm run census:update`.
       # On a deploy there is no such opportunity, so it would only ever be a tripwire.
       - name: Build shape (tier-0 floors + committed census)
+        if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         run: npm run validate:build-shape
+
+      # THE DEPLOY GATE'S LEDGER, TITLE FOR TITLE (v1.263.0, GATE5). Playwright's own `--list --grep @curated`, which is
+      # exactly what the deploy gate runs, must equal tests/artifacts/deploy_gate.json's rows. It runs here and not in
+      # ci-validate because 9 spec files read built files while Playwright collects them. test:units checks the same
+      # ledger from the sources, but cannot expand a parametrised title: this step is what catches a condition widened
+      # to tag more cases. Mechanism: scripts/deploy_gate.mjs.
+      - name: Deploy gate ledger matches the gate's own selection
+        if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
+        run: node scripts/deploy_gate.mjs check --listed
 
       # THE KEYLESS HALF OF THE ANALYTICS CONTRACT, AND THE ONLY PLACE ON A PR IT CAN RUN.
       # `validate:analytics` grades the built site against the key its build ran with, and every
@@ -115,6 +152,7 @@ jobs:
       # This step builds its own one-file fixture with the key REMOVED (~1s, not the 10-min corpus)
       # and grades that, so the mutant turns this job red on the PR that introduces it.
       - name: Analytics surface — the keyless direction (fixture build)
+        if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         run: npm run validate:analytics:nokey
 
       - name: Package tested site
@@ -144,16 +182,23 @@ jobs:
           tar -czf complete-e2e-site.tgz source/public neural/dist source/quartz/static/neural/graph-data.json source/quartz/.neural-internal/systems.json
 
       - name: Upload tested site
+        id: upload-site
         if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
         with:
           name: complete-e2e-site
           path: complete-e2e-site.tgz
           retention-days: 1
+          # v1.264.2 (GATE7, the reviewer's new 6 on #392): a failed "Package tested site" leaves no tgz. The
+          # default `warn` would conclude this step success, set outputs.site, and let every shard fail at its
+          # download, the reds pointing at the wrong step. `error` fails HERE, so the shards and gen skip instead.
+          if-no-files-found: error
 
   test:
     name: E2E shard ${{ matrix.shard }}/4
     needs: build
+    # whenever the site built and uploaded, even if a post-build gate is red (the build job's comment)
+    if: ${{ !cancelled() && needs.build.outputs.site == 'success' }}
     runs-on: ubuntu-latest
     # History, at 25; the limit today and its reason are at the end of this comment.
     # Ceiling lowered 45 -> 25 so a hung shard fails in under half an hour instead of
@@ -179,7 +224,17 @@ jobs:
     # shard job's alone. Build and gen keep 25, and gen is the closer of the two: 5m50s on run
     # 42266283562, but 20m55s on run 42222522276, and cancelled at 25 twice on 2026-10-28 on one
     # sick branch (runs 40766387204, 40790056850).
-    timeout-minutes: 35
+    #
+    # v1.293.2: raised 35 -> 45. Two shards on dev were cancelled at 35 with nothing failed, and both times a network
+    # step, not the suite, ate the margin. Run 44309956298 (8b0191f97) shard 1: cancelled at 35m06s, 1.2s after
+    # Playwright printed "4 skipped, 507 passed (24.8m)", so its whole quarter had passed; "Download tested site" took
+    # 7m39s (13:13:40 to 13:21:19) for the 109 MiB artifact the other four jobs fetched in 3-4s. Run 44191810640
+    # (609e3a0d7) shard 2: cancelled at 35m15s with 437 of 470 reported and none failed; its checkout took 12m06s.
+    # On the ten green dev runs 44013553537 to 44286779127 the longest shard job was 25m57s and the longest suite step
+    # 24m43s (both on run 44286779127), so a full suite step plus a 7-12 minute stall lands near 37 minutes. 45 sits
+    # above that and still bounds a hang. Build and gen keep 25: on those ten runs build peaked at 8m25s and gen at
+    # 10m06s (4m56s of it apt).
+    timeout-minutes: 45
     strategy:
       fail-fast: false
       matrix:
@@ -201,9 +256,10 @@ jobs:
 
       # Publication journeys import the real Quartz parser/renderer and its native Git
       # oracle. Root --ignore-scripts intentionally skips the source/ postinstall.
-      # Install their locked dependencies explicitly; keep serving the build job's artifact.
+      # Install their locked dependencies explicitly, the same way (the build job's INSTALLS note); keep serving the
+      # build job's artifact.
       - name: Install source dependencies for publication journeys
-        run: npm ci --no-audit --no-fund
+        run: npm ci --ignore-scripts
         working-directory: source
 
       # download-artifact v8 fails the job on a digest mismatch (v4 only warned), and it
@@ -295,6 +351,8 @@ jobs:
   gen:
     name: Generated suite (e2e:gen vs its ledger)
     needs: build
+    # whenever the site built and uploaded, even if a post-build gate is red (the build job's comment)
+    if: ${{ !cancelled() && needs.build.outputs.site == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:

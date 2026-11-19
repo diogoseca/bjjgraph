@@ -186,8 +186,8 @@ description: "Learn to attack with the Bow and Arrow Choke from Seat Belt back c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kyle fogel - bow and arrow - seatbelt",
-      "description": "Bow and Arrow Choke from Seat Belt Control Back (Attacker) film study: Kyle fogel - bow and arrow - seatbelt.",
+      "name": "Bow and arrow - seatbelt",
+      "description": "Bow and Arrow Choke from Seat Belt Control Back (Attacker) film study: Bow and arrow - seatbelt.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rsrA1GOcywM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rsrA1GOcywM",
       "url": "https://www.youtube.com/watch?v=rsrA1GOcywM",
@@ -242,7 +242,7 @@ Attacking with the Bow and Arrow Choke from Seat Belt Control Back requires a pr
 
 ![](https://www.youtube.com/watch?v=rsrA1GOcywM)
 
-<p class="clip-credit"><strong>Kyle fogel - bow and arrow - seatbelt</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=rsrA1GOcywM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bow and arrow - seatbelt</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=rsrA1GOcywM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

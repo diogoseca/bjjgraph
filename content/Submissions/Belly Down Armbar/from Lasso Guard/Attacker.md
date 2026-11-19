@@ -192,8 +192,8 @@ description: "Learn to attack the belly down armbar from lasso guard. Step-by-st
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Nathiely De Jesus - Lasso of Truth - Lasso to Armlock / Belly Down Armbar\u2026",
-      "description": "Belly Down Armbar from Lasso Guard (Attacker) film study: Nathiely De Jesus - Lasso of Truth - Lasso to Armlock / Belly Down Armbar\u2026.",
+      "name": "Lasso of Truth - Lasso to Armlock / Belly Down Armbar\u2026",
+      "description": "Belly Down Armbar from Lasso Guard (Attacker) film study: Lasso of Truth - Lasso to Armlock / Belly Down Armbar\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tWjTkBq_Fgc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/tWjTkBq_Fgc",
       "url": "https://www.youtube.com/watch?v=tWjTkBq_Fgc",
@@ -228,7 +228,7 @@ Attacking the belly down armbar from lasso guard leverages the pre-existing arm 
 
 ![](https://www.youtube.com/watch?v=tWjTkBq_Fgc)
 
-<p class="clip-credit"><strong>Nathiely De Jesus - Lasso of Truth - Lasso to Armlock / Belly Down Armbar…</strong> · 7:05 · <a href="https://www.youtube.com/watch?v=tWjTkBq_Fgc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lasso of Truth - Lasso to Armlock / Belly Down Armbar…</strong> · 7:05 · <a href="https://www.youtube.com/watch?v=tWjTkBq_Fgc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

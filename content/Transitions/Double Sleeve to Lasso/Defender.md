@@ -152,8 +152,8 @@ description: "Learn to prevent and counter the Double Sleeve to Lasso guard tran
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lasso \u0026 Spider Guard Defense | Binder BJJ Technique Breakdown",
-      "description": "Double Sleeve to Lasso (Defender) film study: Lasso \u0026 Spider Guard Defense | Binder BJJ Technique Breakdown.",
+      "name": "Lasso \u0026 Spider Guard Defense | Technique Breakdown",
+      "description": "Double Sleeve to Lasso (Defender) film study: Lasso \u0026 Spider Guard Defense | Technique Breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GOzoDB10XkY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GOzoDB10XkY",
       "url": "https://www.youtube.com/watch?v=GOzoDB10XkY",
@@ -187,7 +187,7 @@ Defending the Double Sleeve to Lasso transition requires awareness of the bottom
 
 ![](https://www.youtube.com/watch?v=GOzoDB10XkY)
 
-<p class="clip-credit"><strong>Lasso &amp; Spider Guard Defense | Binder BJJ Technique Breakdown</strong> · 4:04 · <a href="https://www.youtube.com/watch?v=GOzoDB10XkY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lasso &amp; Spider Guard Defense | Technique Breakdown</strong> · 4:04 · <a href="https://www.youtube.com/watch?v=GOzoDB10XkY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

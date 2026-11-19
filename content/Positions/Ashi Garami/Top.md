@@ -165,8 +165,8 @@ description: "Master defensive strategies against Ashi Garami leg entanglements 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond",
-      "description": "Ashi Garami (Top) film study: Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond.",
+      "name": "Escaping Ashi Garami- Leg Lock Defense.",
+      "description": "Ashi Garami (Top) film study: Escaping Ashi Garami- Leg Lock Defense..",
       "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
       "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
@@ -206,7 +206,7 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 ![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
 
-<p class="clip-credit"><strong>Escaping Ashi Garami- Leg Lock Defense. Scott Elliott, 10th Planet Richmond</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Ashi Garami- Leg Lock Defense.</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

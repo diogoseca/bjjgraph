@@ -69,7 +69,7 @@ for (const [path, hub] of [
   ["/Submissions/Americana/from-Side-Control", "/Submissions/Americana/from-Side-Control"],
   ["/Submissions/Americana", "/Submissions/Americana"],
 ] as const) {
-  test(`@curated U111, U112 a: a submission's guide is its injury risks, then one closing line, on the page and in the reader: ${path}`, async ({ page }) => {
+  test(`U111, U112 a: a submission's guide is its injury risks, then one closing line, on the page and in the reader: ${path}`, async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 })
     const m = await read(page, path, hub)
     expect(m.builtRows.length, "control: the built hub has an injury table").toBeGreaterThan(2)
@@ -88,13 +88,37 @@ for (const [path, hub] of [
   })
 }
 
-test("@curated U111: a transition keeps its whole guide and gets no closing line", async ({ page }) => {
+test("U111: a transition keeps its whole guide and gets no closing line", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const path = "/Transitions/Knee-Slice-Pass/Attacker"
   const m = await read(page, path, path) // a transition's guide is on its seat's own page
   expect(m.builtText.length, "control: the transition's page has a guide").toBeGreaterThan(200)
   expect(m.shownText, "the transition's guide is whole in the reader").toBe(m.builtText)
   expect(m.notes, "no closing line on a transition").toBe(0)
+  // #346's review (finding 8): the tile and its index row keep "Safety guides" off a Submission, which an unconditional rename would break.
+  expect([m.tileTitle, m.indexRow], 'a transition keeps "Safety guides", tile and index').toEqual(['Safety guides', 'Safety guides'])
+})
+
+// No position page authors a safety section today (0 of the corpus), so the position case is a fixture: Mount Top's own page with one
+// authored section, read by the reader's real code. It pins the label, not the corpus.
+test("U113 b: a position's safety section keeps \"Safety guides\", tile and index", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 })
+  const path = "/Positions/Mount/Top"
+  const j = journey(page)
+  await j.boot(path, { initialState: QUIET, beforeNavigate: async p => {
+    // The reader fetches the page with a query (?ngb=1), so the route matches the path, not the URL.
+    await p.route(url => new URL(url).pathname.replace(/\.html$/, "") === path, async route => {
+      const res = await route.fetch(), html = await res.text()
+      const section = '<section id="safety-considerations" class="content-section"><h2 id="safety">Safety</h2><p>Fixture: keep the neck out of a crossface.</p></section>'
+      await route.fulfill({ response: res, body: html.replace("</article>", section + "</article>") })
+    })
+  } })
+  await expect(page.locator(READY)).toHaveAttribute("data-reader-path", path)
+  await j.readerLayoutSettled()
+  const titles = await page.evaluate(() => [
+    document.querySelector('[data-reader-body] > .ng-section-card[data-section-type="safety"] .ng-section-title')?.textContent,
+    document.querySelector('.ng-reader-toc-row[data-toc-type="safety"] a')?.textContent])
+  expect(titles, "a position keeps \"Safety guides\", tile and index").toEqual(["Safety guides", "Safety guides"])
 })
 
 // Red-proof (v1.252.0, tests/artifacts/article_sections_mutants.mjs on the served reader.js, against a green baseline):

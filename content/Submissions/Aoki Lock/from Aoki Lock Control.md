@@ -46,34 +46,41 @@ description: "Aoki Lock from Aoki Lock Control uses the turned-out foot and hip 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Aoki lock breakdown",
-      "description": "Aoki Lock from Aoki Lock Control film study: Aoki lock breakdown, taught by Escuela de Grappling.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qRH7g21c6xQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/qRH7g21c6xQ",
-      "url": "https://www.youtube.com/watch?v=qRH7g21c6xQ",
-      "creator": { "@type": "Person", "name": "Escuela de Grappling" },
-      "duration": "PT199S"
+      "name": "Aoki Lock",
+      "description": "Aoki Lock from Aoki Lock Control film study: Aoki Lock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/47RpYri32QE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/47RpYri32QE",
+      "url": "https://www.youtube.com/watch?v=47RpYri32QE",
+      "duration": "PT121S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Rolling no-gi calf slicer",
-      "description": "Aoki Lock from Aoki Lock Control film study: Rolling no-gi calf slicer, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vMhOsw3wRQg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vMhOsw3wRQg",
-      "url": "https://www.youtube.com/watch?v=vMhOsw3wRQg",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT110S"
+      "name": "Aoki lock breakdown",
+      "description": "Aoki Lock from Aoki Lock Control film study: Aoki lock breakdown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qRH7g21c6xQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qRH7g21c6xQ",
+      "url": "https://www.youtube.com/watch?v=qRH7g21c6xQ",
+      "duration": "PT199S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
+      "name": "Rolling no-gi calf slicer",
+      "description": "Aoki Lock from Aoki Lock Control film study: Rolling no-gi calf slicer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vMhOsw3wRQg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vMhOsw3wRQg",
+      "url": "https://www.youtube.com/watch?v=vMhOsw3wRQg",
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
       "name": "Bear trap into calf slicer",
-      "description": "Aoki Lock from Aoki Lock Control film study: Bear trap into calf slicer, taught by Revolution BJJ.",
+      "description": "Aoki Lock from Aoki Lock Control film study: Bear trap into calf slicer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6M0HvIFfc-w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6M0HvIFfc-w",
       "url": "https://www.youtube.com/watch?v=6M0HvIFfc-w",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
       "duration": "PT119S"
     }
   ]
@@ -136,9 +143,17 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 <div class="film-clip">
 
+![](https://www.youtube.com/watch?v=47RpYri32QE)
+
+<p class="clip-credit"><strong>Aoki Lock</strong> · 2:01 · <a href="https://www.youtube.com/watch?v=47RpYri32QE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
 ![](https://www.youtube.com/watch?v=qRH7g21c6xQ)
 
-<p class="clip-credit"><strong>Aoki lock breakdown</strong> — taught by Escuela de Grappling · 3:19 · <a href="https://www.youtube.com/watch?v=qRH7g21c6xQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Aoki lock breakdown</strong> · 3:19 · <a href="https://www.youtube.com/watch?v=qRH7g21c6xQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +161,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 ![](https://www.youtube.com/watch?v=vMhOsw3wRQg)
 
-<p class="clip-credit"><strong>Rolling no-gi calf slicer</strong> — taught by Factory Fresh Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=vMhOsw3wRQg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rolling no-gi calf slicer</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=vMhOsw3wRQg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -154,7 +169,7 @@ Instructional sources: [Stephan Kesting and Rob Biernacki — the Aoki lock](htt
 
 ![](https://www.youtube.com/watch?v=6M0HvIFfc-w)
 
-<p class="clip-credit"><strong>Bear trap into calf slicer</strong> — taught by Revolution BJJ · 1:59 · <a href="https://www.youtube.com/watch?v=6M0HvIFfc-w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bear trap into calf slicer</strong> · 1:59 · <a href="https://www.youtube.com/watch?v=6M0HvIFfc-w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

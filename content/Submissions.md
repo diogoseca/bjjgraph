@@ -2831,7 +2831,7 @@ The high-elbow guillotine raises the supporting elbow over the shoulder. Changin
 
 ### [[Submissions/Hindulotine|Hindulotine]]
 
-The Hindulotine is Ben Eddy's leg-in guillotine from Hindu Control, using an arm loop over the raised rubber-guard foot and around the shoulder to close a neck enclosure.
+The Hindulotine is a leg-in guillotine from Hindu Control, using an arm loop over the raised rubber-guard foot and around the shoulder to close a neck enclosure.
 
 ### [[Submissions/Hindulotine/from Hindulotine|Hindulotine from Hindulotine]]
 

@@ -46,8 +46,8 @@ description: "Master the Deep Half Sweep in BJJ. Step-by-step guide to hip-lift 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kris\u0027 Deep Half Guard Sweep",
-      "description": "Deep Half Sweep film study: Kris\u0027 Deep Half Guard Sweep.",
+      "name": "Deep Half Guard Sweep",
+      "description": "Deep Half Sweep film study: Deep Half Guard Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZQzg3TnzMJI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ZQzg3TnzMJI",
       "url": "https://www.youtube.com/watch?v=ZQzg3TnzMJI",
@@ -56,8 +56,8 @@ description: "Master the Deep Half Sweep in BJJ. Step-by-step guide to hip-lift 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Deep half guard sweep 3 || One Minute On The Mat || No Gi Jiu Jitsu",
-      "description": "Deep Half Sweep film study: Deep half guard sweep 3 || One Minute On The Mat || No Gi Jiu Jitsu.",
+      "name": "Deep half guard sweep 3 || No Gi Jiu Jitsu",
+      "description": "Deep Half Sweep film study: Deep half guard sweep 3 || No Gi Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/v7MopqNBzwY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/v7MopqNBzwY",
       "url": "https://www.youtube.com/watch?v=v7MopqNBzwY",
@@ -66,8 +66,8 @@ description: "Master the Deep Half Sweep in BJJ. Step-by-step guide to hip-lift 
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Deep Half Sweep - Faria Sweep",
-      "description": "Deep Half Sweep film study: Deep Half Sweep - Faria Sweep.",
+      "name": "Deep Half Sweep",
+      "description": "Deep Half Sweep film study: Deep Half Sweep.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4EpYNsTwjWY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4EpYNsTwjWY",
       "url": "https://www.youtube.com/watch?v=4EpYNsTwjWY",
@@ -127,7 +127,7 @@ The Deep Half Sweep is most effective when the opponent commits their weight for
 
 ![](https://www.youtube.com/watch?v=ZQzg3TnzMJI)
 
-<p class="clip-credit"><strong>Kris&#39; Deep Half Guard Sweep</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deep Half Guard Sweep</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -135,7 +135,7 @@ The Deep Half Sweep is most effective when the opponent commits their weight for
 
 ![](https://www.youtube.com/watch?v=v7MopqNBzwY)
 
-<p class="clip-credit"><strong>Deep half guard sweep 3 || One Minute On The Mat || No Gi Jiu Jitsu</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=v7MopqNBzwY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deep half guard sweep 3 || No Gi Jiu Jitsu</strong> · 0:52 · <a href="https://www.youtube.com/watch?v=v7MopqNBzwY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -143,7 +143,7 @@ The Deep Half Sweep is most effective when the opponent commits their weight for
 
 ![](https://www.youtube.com/watch?v=4EpYNsTwjWY)
 
-<p class="clip-credit"><strong>Deep Half Sweep - Faria Sweep</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=4EpYNsTwjWY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Deep Half Sweep</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=4EpYNsTwjWY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

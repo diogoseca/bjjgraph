@@ -152,8 +152,8 @@ description: "How to prevent Posture Recovery in BJJ. Recognition cues, grip ret
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Breaking someone\u2019s posture in closed guard! #graciewestchase #Q\u0026A #closedguard\u2026",
-      "description": "Posture Recovery (Defender) film study: Breaking someone\u2019s posture in closed guard! #graciewestchase #Q\u0026A #closedguard\u2026.",
+      "name": "Breaking someone\u2019s posture in closed guard! #Q\u0026A #closedguard\u2026",
+      "description": "Posture Recovery (Defender) film study: Breaking someone\u2019s posture in closed guard! #Q\u0026A #closedguard\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dTWJ181R4uo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dTWJ181R4uo",
       "url": "https://www.youtube.com/watch?v=dTWJ181R4uo",
@@ -189,7 +189,7 @@ Your primary tools are grip retention, leg pressure, and attack timing. Deep col
 
 ![](https://www.youtube.com/watch?v=dTWJ181R4uo)
 
-<p class="clip-credit"><strong>Breaking someone’s posture in closed guard! #graciewestchase #Q&amp;A #closedguard…</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=dTWJ181R4uo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Breaking someone’s posture in closed guard! #Q&amp;A #closedguard…</strong> · 1:21 · <a href="https://www.youtube.com/watch?v=dTWJ181R4uo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

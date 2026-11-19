@@ -25,8 +25,9 @@ async function setup(page: Page, recall = false) {
       // A due, proven deck is the production recall entry.
       for (const c of cards) a._bumpStage(key, c.q, 2, 2)
       a._cardDue = () => true
-      // a BLUE belt — the worn belt since v1.211.0, seeded as its persisted high-water mark
-      a.belts.held = { id: "blue", t: Date.now() }
+      // Until v1.270.0 the entry here was a BLUE belt (`a.belts.held = { id: "blue", t: Date.now() }`), which switched timed recall
+      // on; from U163 c ("everything opens", 13 Nov) to v1.282.0 it was the Recall Mode switch (`a.set("recallInPlay", true)`).
+      // Since v1.282.0 nothing switches: Auto (the default) asks a card right twice front and back, so there is no entry to set.
       a._landQ = null
       a.renderLandCard(a.nodes[a.currentPos], "land", null)
     }
@@ -78,7 +79,7 @@ function gestureWheel(page: Page) {
 
 for (const width of [1440, 390]) {
   for (const recall of [false, true]) {
-    test(`@curated ${width}px ${recall ? "recall" : "MC"}: deck pages with stable docking and readable faces`, async ({ page }) => {
+    test(`${width}px ${recall ? "recall" : "MC"}: deck pages with stable docking and readable faces`, async ({ page }) => {
       await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
       const { j, total } = await setup(page, recall)
       await expect(page.locator("[data-land-count]")).toHaveText(`1/${total}`)
@@ -117,7 +118,14 @@ for (const width of [1440, 390]) {
       // Backwards navigation restores the real cached card and its stack.
       await page.keyboard.press("ArrowLeft")
       await expect(page.locator("[data-land-back]")).toHaveCount(1)
-      await j.clickByMouse("[data-land-close]")
+      // FOLD1 (owner U136 a): this card is open and unanswered, so the first ✕ folds it back to its one line, as a fresh landing
+      // asks: no backs, the arrows hidden. WAS: one ✕ put the card away, stack and arrows with it; that is now the second ✕.
+      await j.clickByMouse("[data-land-close]", "the open card's ✕")
+      await expect(page.locator("[data-land-ask-go]"), "the first ✕ folds it to its line").toBeVisible()
+      await expect(page.locator("[data-land-back]"), "no backs under the line").toHaveCount(0)
+      await expect(page.locator("[data-land-next]"), "no arrows on the line").toBeHidden()
+      await j.readerLayoutSettled()
+      await j.clickByMouse("[data-land-close]", "the line's ✕")
       await expect(page.locator(".ng-landstack")).toHaveCount(0)
       await expect(page.locator("[data-land-nav]")).toHaveCount(0)
     })
@@ -133,7 +141,7 @@ for (const width of [1440, 390]) {
   // STALE CONTRACT (D-338): Questions follows Moves in the article view, so the deck sits tight
   // UNDER the tray (the one 16px deck gap) and its backs, which peek 3px per remaining card below
   // the face, stay clear of the article that follows. The face's own claims are unchanged.
-  test(`@curated ${width}px: the deck face keeps its 1.5x foot and sits tight under the choices`, async ({ page }) => {
+  test(`${width}px: the deck face keeps its 1.5x foot and sits tight under the choices`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await setup(page)
     const m = await page.evaluate(() => {
@@ -158,7 +166,10 @@ for (const width of [1440, 390]) {
       }
     })
     expect(m.sizing, "the floor below is a BORDER-box height").toBe("border-box")
-    expect(m.foot, "the foot is 1.5x the side gutter").toBeCloseTo(m.side * 1.5, 1)
+    // WIDTH4 (p5): on a phone the arrows stand inside the face, in a 32px lane of its side padding, so the side GUTTER (the owner's
+    // word: the edge beside the text) is the padding less that lane: 44 - 32 = 12, the phone's gutter as before, and the foot still 18.
+    const gutter = width < 600 ? m.side - 32 : m.side
+    expect(m.foot, "the foot is 1.5x the side gutter").toBeCloseTo(gutter * 1.5, 1)
     // The face is its content plus its own padding, floored only by NG_LAND_DECK_MIN_H — which
     // an MC face always clears. Raising that floor back towards the retired fixed height, or
     // reintroducing any other reserved band under the answers, moves this by ~20px.
@@ -191,7 +202,7 @@ for (const width of [1440, 390]) {
   })
 }
 
-test("@curated wheel momentum advances once; a fresh gesture advances again", async ({ page }) => {
+test("wheel momentum advances once; a fresh gesture advances again", async ({ page }) => {
   await setup(page)
   const wheel = gestureWheel(page)
   const card = await page.locator("[data-landcard]").boundingBox()
@@ -206,7 +217,7 @@ test("@curated wheel momentum advances once; a fresh gesture advances again", as
   expect(await page.evaluate(() => !!(window as any).__neural._reader.interacting), "paging a replaced face remains game input").toBe(false)
 })
 
-test("@curated answering the entire deck celebrates once, without paying extra roll rewards", async ({ page }) => {
+test("answering the entire deck celebrates once, without paying extra roll rewards", async ({ page }) => {
   const { j, total } = await setup(page)
   for (let index = 0; index < total; index++) {
     const correct = await page.evaluate(() => (window as any).__neural._mc.correct)
@@ -243,7 +254,7 @@ test("recall keeps its keyboard controls when revisited, including with reduced 
 // Mutant, recorded 2026-09-29: without the film strip's ResizeObserver re-dock (`_renderLandFilm`,
 // v1.207.7) this goes red 3 of 3 on the landscape rotation — the resize dock reads the strip
 // mid-transition, clamps it and parks it 4px inside the (18px taller) hand, 121 > 110.
-test("@curated responsive deck stays readable in the shared scrollport and rotates back", async ({ page }) => {
+test("responsive deck stays readable in the shared scrollport and rotates back", async ({ page }) => {
   const { j } = await setup(page)
   // Resize the SAME mounted deck: rotation must release the landscape column and keep the
   // selected card, rather than accidentally passing by rebuilding a fresh screen each time.
@@ -294,10 +305,14 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
     expect(stageTop - layout.hand.bottom, 'the stage follows Moves at the parts\' step').toBeCloseTo(16, 0)
     if (layout.beside) {
       // U104, U108 a (owner, 2026-11-09, replacing the film 60px left of the face): the question left and the video right, each a
-      // column of the article grid, so the film starts past the open face's 52px arrow lane and is that face and lane wide.
+      // column of the article grid, so the film starts past the open face's arrow lane and is as wide as that face and its lanes.
+      // CARDWIDTH (v1.263.1): one 32px lane each side of the face, inside its column (WAS one 52px lane on its right).
       expect(layout.film.left - layout.card.right, 'beside: the film is right of the face, past its arrows\' lane').toBeGreaterThanOrEqual(52)
-      expect(layout.film.width - layout.card.width, 'beside: equal columns, the face and its arrows\' lane').toBeCloseTo(52, 0)
-      expect(layout.film.top, 'beside: tops aligned').toBeCloseTo(layout.card.top, 0)
+      expect(layout.film.width - layout.card.width, 'beside: equal columns, the face and its arrows\' two lanes').toBeCloseTo(64, 0)
+      // v1.253.0 (owner, 2026-11-09): the one-line tease spans the row and the film starts under it, where it stays as the question
+      // opens (tease-width.spec.ts pins that it does not move): beside the opened face it starts one tease line lower, never above it.
+      expect(layout.film.top - layout.card.top, 'beside: the film starts within one tease line under the question\'s top').toBeGreaterThanOrEqual(0)
+      expect(layout.film.top - layout.card.top, 'beside: the film starts within one tease line under the question\'s top').toBeLessThanOrEqual(30)
     } else expect(layout.film.top - (layout.card.bottom + 3 * layout.backs), 'stacked: the current card follows the question\'s backs at the parts\' step').toBeCloseTo(16, 0)
   }
 })
@@ -305,7 +320,7 @@ test("@curated responsive deck stays readable in the shared scrollport and rotat
 test.describe("phone input", () => {
   test.use({ hasTouch: true })
 
-  test("@curated long mobile choices remain readable without an internal scrollport", async ({ page }) => {
+  test("long mobile choices remain readable without an internal scrollport", async ({ page }) => {
     await page.setViewportSize({ width: 320, height: 568 })
     const { j } = await setup(page)
     await page.evaluate(() => {
@@ -367,7 +382,7 @@ test.describe("phone input", () => {
 
 
 for (const target of ["[data-land-q]>div:first-child", "[data-land-mc-opt='0']"]) {
-  test(`@curated three quick horizontal scrolls work without moving the cursor over ${target}`, async ({ page }) => {
+  test(`three quick horizontal scrolls work without moving the cursor over ${target}`, async ({ page }) => {
     const { j, total } = await setup(page)
     const wheel = gestureWheel(page)
     const box = await page.locator(target).boundingBox()
@@ -410,7 +425,7 @@ test("sustained horizontal scrolling keeps advancing with a stationary cursor", 
 })
 
 for (const recall of [false, true]) {
-  test(`@curated paging resets the ${recall ? "recall" : "MC"} countdown and clears the old warning`, async ({ page }) => {
+  test(`paging resets the ${recall ? "recall" : "MC"} countdown and clears the old warning`, async ({ page }) => {
     const { j } = await setup(page, recall)
     if (recall) await page.evaluate(() => {
       const a = (window as any).__neural
@@ -470,7 +485,7 @@ for (const recall of [false, true]) {
   })
 }
 
-test("@curated loading the next card pauses expiry, then starts its full countdown", async ({ page }) => {
+test("loading the next card pauses expiry, then starts its full countdown", async ({ page }) => {
   const { j } = await setup(page)
   await j.engage()
   await page.evaluate(() => {
@@ -511,29 +526,48 @@ test("a gentle second scroll can build gradually out of the previous momentum ta
 })
 
 for (const width of [1440, 390, 320]) {
-  test(`@curated ${width}px chevrons are clickable, keep focus, and disappear at deck boundaries`, async ({ page }) => {
+  // v1.253.0 (owner, 2026-11-09): at a deck boundary an arrow stays, disabled; hidden, a second press there reached the map and
+  // closed the card and the film. deck-boundary.spec.ts pins what that press does.
+  test(`${width}px chevrons are clickable, keep focus, and stand disabled at deck boundaries`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     const { j, total } = await setup(page)
     const prev = page.locator("[data-land-prev]"), next = page.locator("[data-land-next]")
     await expect(page.locator("[data-land-nav]")).toHaveCount(1)
-    await expect(prev).toBeHidden()
-    await expect(next).toBeVisible()
+    await expect(prev).toHaveAttribute("aria-disabled", "true")
+    await expect(next).toHaveAttribute("aria-disabled", "false")
     await expect(page.locator("[data-landcard] [data-land-nav]")).toHaveCount(0)
     const box = await next.boundingBox()
     const face = await page.locator("[data-landcard]").boundingBox()
-    expect(box!.x).toBeGreaterThan(face!.x + face!.width)
+    // CARDWIDTH (v1.263.1): the target abuts the face (WAS 8px clear of it, so this read toBeGreaterThan), never over it. WIDTH4
+    // (p5): on a phone it stands over the face's own right padding, its outer 12px past the edge (card-section.spec.ts pins the rest).
+    if (width < 600) expect(box!.x + box!.width - (face!.x + face!.width), "phone: Next reaches 12px past the face's right edge").toBeCloseTo(12, 0)
+    else expect(box!.x).toBeGreaterThanOrEqual(face!.x + face!.width - 0.5)
     expect(box!.x + box!.width).toBeLessThanOrEqual(width)
     expect(box!.y + box!.height / 2).toBeCloseTo(face!.y + face!.height / 2, 0)
     expect(box!.width).toBeGreaterThanOrEqual(44)
     expect(box!.height).toBeGreaterThanOrEqual(44)
     await j.clickByMouse("[data-land-next]")
-    await expect(prev).toBeVisible()
+    await expect(prev).toHaveAttribute("aria-disabled", "false")
+    // DECK1 (v1.265.2): every aim that follows a page waits for the reader to lay that page out (see the walk below).
+    await j.readerLayoutSettled()
     const left = await prev.boundingBox()
-    expect(left!.x).toBeGreaterThanOrEqual(0)
-    expect(left!.x + left!.width).toBeLessThan(face!.x)
+    if (width === 1440) {
+      // v1.252.1, #346's review (finding 1): from 1,350px free the reader's index holds the margin left of the face, and Previous sat
+      // 40px inside it; it then took the right lane, one target above Next. CARDWIDTH (v1.263.1): the face stands one lane inside the
+      // grid, so Previous is back on its own side, in that lane, clear of the index (deck-arrows-index.spec.ts).
+      await expect(page.locator(".ng-reader-toc"), "premise: the index stands beside the grid at 1440").toBeVisible()
+      const toc = await page.locator(".ng-reader-toc").boundingBox()
+      expect(left!.x, "Previous right of the index").toBeGreaterThanOrEqual(toc!.x + toc!.width - 0.5)
+      expect(left!.x + left!.width, "Previous in the face's left lane").toBeLessThanOrEqual(face!.x + 0.5)
+      expect(left!.y, "Previous level with Next").toBeCloseTo(box!.y, 0)
+    } else {
+      expect(left!.x).toBeGreaterThanOrEqual(0)
+      // CARDWIDTH: abutting the face (WAS toBeLessThan, 8px clear). WIDTH4 (p5): on a phone over the face's left padding, 12px out.
+      expect(face!.x - left!.x, "phone: Previous reaches 12px past the face's left edge").toBeCloseTo(12, 0)
+    }
     await expect(page.locator("[data-land-position]")).toHaveAttribute("data-land-position", `2/${total}`)
     await j.clickByMouse("[data-land-prev]")
-    await expect(prev).toBeHidden()
+    await expect(prev).toHaveAttribute("aria-disabled", "true")
     // Focus is handed to the remaining arrow. Enter activates it through native button behavior.
     await expect(next).toBeFocused()
     await page.keyboard.press("Enter")
@@ -545,20 +579,35 @@ for (const width of [1440, 390, 320]) {
       return el.contains(document.elementFromPoint(b.x + b.width / 2, b.y + b.height / 2))
     })).toBe(false)
     await page.evaluate(() => (window as any).__neural._suppressLand(false))
+    // DECK1 (v1.265.2): AIM AT THE PAGE THAT IS LAID OUT. A Next press mounts the new card in its own task, so the wait below passes
+    // at once (waitForFunction tests before any frame), while the arrows' place for that card (the nav's height and --guide-y) is
+    // written by the reader's NEXT frame (reader.src.js layoutNow). Without the settle, clickByMouse could measure Next where the
+    // previous card had it and press after that frame moved it: CLAUDE.md §6.3, "a spot no frame ever paints". At 320 the third card
+    // (the tall draw of its unrigged answers) puts Next's top at 646 against the second card's 621, 25px, more than half its 44px, so
+    // the press at y 643 landed on the card, 3px above Next, and the wait for page 3 ran out. Recorded over 100 unrigged runs (496
+    // presses): 16 aims came before the new card's layout, the layout always landed before the press, and only the +25px one missed
+    // (aimed 14.5ms after the page changed, pressed 27ms after the press before); the 15 others moved 8 to 17px and still hit. 2 of 16
+    // runs on 13 Nov, and dev's push-run 43361724381 the same night (card 3 of 8, "Upright posture decides the pin" on two lines: the
+    // tall draw). Rigged (the pass held, released right after the measure, the draws pinned to the tall card): 10 of 10 red here,
+    // always the card at y 643; released right before it, 10 of 10 green. This press aims at a spot no frame painted for the card:
+    // the spec's timing. NOT pinned here: a thumb that taps twice at ONE spot, 150 or 300ms apart, also misses on the tall draw
+    // (the arrow moved 25px), 12 of 12, mouse and touch; that is where the arrows stand, an owner's call (docs/Changelog-Archive.md).
     for (let index = 2; index < total; index++) {
+      await j.readerLayoutSettled()
       await j.clickByMouse("[data-land-next]")
       await page.waitForFunction((index) => (window as any).__neural._landPage === index, index)
     }
-    await expect(next).toBeHidden()
-    await expect(prev).toBeVisible()
+    await expect(next).toHaveAttribute("aria-disabled", "true")
+    await expect(prev).toHaveAttribute("aria-disabled", "false")
     await expect(prev).toBeFocused()
+    await j.readerLayoutSettled()
     await j.clickByMouse("[data-land-prev]")
-    await expect(next).toBeVisible()
+    await expect(next).toHaveAttribute("aria-disabled", "false")
     expect((await j.beats()).filter(b => b.beat === "land_q_answered")).toHaveLength(0)
   })
 }
 
-test("@curated long recall answers grow the card and scroll with the whole column", async ({ page }) => {
+test("long recall answers grow the card and scroll with the whole column", async ({ page }) => {
   await page.setViewportSize({ width: 320, height: 568 })
   const { j } = await setup(page, true)
   await page.evaluate(() => {
@@ -596,5 +645,5 @@ test("@curated long recall answers grow the card and scroll with the whole colum
   // Paging restores the next face to the start of the column.
   await page.keyboard.press("ArrowLeft")
   await expect.poll(async () => (await geometry(page)).top).toBeGreaterThan(0)
-  await expect(page.locator("[data-land-prev]")).toBeHidden()
+  await expect(page.locator("[data-land-prev]")).toHaveAttribute("aria-disabled", "true")
 })

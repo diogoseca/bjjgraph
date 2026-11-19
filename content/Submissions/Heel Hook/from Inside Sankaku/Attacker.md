@@ -197,8 +197,8 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inside Sankaku Double Trouble Heelhook - Matrix Jiu Jitsu Headcoach Rene Becker",
-      "description": "Heel Hook from Inside Sankaku (Attacker) film study: Inside Sankaku Double Trouble Heelhook - Matrix Jiu Jitsu Headcoach Rene Becker.",
+      "name": "Inside Sankaku Double Trouble Heelhook",
+      "description": "Heel Hook from Inside Sankaku (Attacker) film study: Inside Sankaku Double Trouble Heelhook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mBjjFZy-w-0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mBjjFZy-w-0",
       "url": "https://www.youtube.com/watch?v=mBjjFZy-w-0",
@@ -207,8 +207,8 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Craig Jones  - Heel Hook Breaking Mechanics",
-      "description": "Heel Hook from Inside Sankaku (Attacker) film study: Craig Jones  - Heel Hook Breaking Mechanics.",
+      "name": "Heel Hook Breaking Mechanics",
+      "description": "Heel Hook from Inside Sankaku (Attacker) film study: Heel Hook Breaking Mechanics.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
       "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
@@ -246,7 +246,7 @@ Attacking the heel hook from Inside Sankaku demands systematic positional develo
 
 ![](https://www.youtube.com/watch?v=mBjjFZy-w-0)
 
-<p class="clip-credit"><strong>Inside Sankaku Double Trouble Heelhook - Matrix Jiu Jitsu Headcoach Rene Becker</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=mBjjFZy-w-0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inside Sankaku Double Trouble Heelhook</strong> · 2:10 · <a href="https://www.youtube.com/watch?v=mBjjFZy-w-0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -254,7 +254,7 @@ Attacking the heel hook from Inside Sankaku demands systematic positional develo
 
 ![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
 
-<p class="clip-credit"><strong>Craig Jones  - Heel Hook Breaking Mechanics</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Heel Hook Breaking Mechanics</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

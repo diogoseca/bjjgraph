@@ -46,8 +46,8 @@ description: "Master the Arm Triangle from Shoulder of Justice. Learn how intens
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Professor Aaron head and arm triangle from closed guard",
-      "description": "Arm Triangle from Shoulder of Justice film study: Professor Aaron head and arm triangle from closed guard.",
+      "name": "Head and arm triangle from closed guard",
+      "description": "Arm Triangle from Shoulder of Justice film study: Head and arm triangle from closed guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hSo_Km-MOtQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hSo_Km-MOtQ",
       "url": "https://www.youtube.com/watch?v=hSo_Km-MOtQ",
@@ -133,7 +133,7 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 
 ![](https://www.youtube.com/watch?v=hSo_Km-MOtQ)
 
-<p class="clip-credit"><strong>Professor Aaron head and arm triangle from closed guard</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=hSo_Km-MOtQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Head and arm triangle from closed guard</strong> · 1:31 · <a href="https://www.youtube.com/watch?v=hSo_Km-MOtQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

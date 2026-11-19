@@ -46,45 +46,41 @@ description: "Master the Loop Choke in BJJ - deceptive collar choke from guard, 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Alexandre Vieira\u0027s Famous Loop Choke",
-      "description": "Loop Choke film study: Alexandre Vieira\u0027s Famous Loop Choke, taught by Alexandre Vieira.",
+      "name": "Loop Choke",
+      "description": "Loop Choke film study: Loop Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ruk0kdlr-Qw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ruk0kdlr-Qw",
       "url": "https://www.youtube.com/watch?v=ruk0kdlr-Qw",
-      "creator": { "@type": "Person", "name": "Alexandre Vieira" },
       "duration": "PT85S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Loop Choke from Closed Guard",
-      "description": "Loop Choke film study: Loop Choke from Closed Guard, taught by Mat Life Training Center.",
+      "description": "Loop Choke film study: Loop Choke from Closed Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7MTvWfHIHtc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7MTvWfHIHtc",
       "url": "https://www.youtube.com/watch?v=7MTvWfHIHtc",
-      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
       "duration": "PT89S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Loop Choke from Closed Guard",
-      "description": "Loop Choke film study: Loop Choke from Closed Guard, taught by ICON Jiu-Jitsu Team.",
+      "description": "Loop Choke film study: Loop Choke from Closed Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hBKRP0Ss8qk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hBKRP0Ss8qk",
       "url": "https://www.youtube.com/watch?v=hBKRP0Ss8qk",
-      "creator": { "@type": "Person", "name": "ICON Jiu-Jitsu Team" },
       "duration": "PT15S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Loop Choke from Half Guard",
-      "description": "Loop Choke film study: Loop Choke from Half Guard, taught by Sickness Ferro.",
+      "description": "Loop Choke film study: Loop Choke from Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3sprDpHbCdM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3sprDpHbCdM",
       "url": "https://www.youtube.com/watch?v=3sprDpHbCdM",
-      "creator": { "@type": "Person", "name": "Sickness Ferro" },
       "duration": "PT197S"
     }
   ]
@@ -156,7 +152,7 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 
 ![](https://www.youtube.com/watch?v=ruk0kdlr-Qw)
 
-<p class="clip-credit"><strong>Alexandre Vieira&#39;s Famous Loop Choke</strong> — taught by Alexandre Vieira · 1:25 · <a href="https://www.youtube.com/watch?v=ruk0kdlr-Qw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Loop Choke</strong> · 1:25 · <a href="https://www.youtube.com/watch?v=ruk0kdlr-Qw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -164,7 +160,7 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 
 ![](https://www.youtube.com/watch?v=7MTvWfHIHtc)
 
-<p class="clip-credit"><strong>Loop Choke from Closed Guard</strong> — taught by Mat Life Training Center · 1:29 · <a href="https://www.youtube.com/watch?v=7MTvWfHIHtc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Loop Choke from Closed Guard</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=7MTvWfHIHtc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -172,7 +168,7 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 
 ![](https://www.youtube.com/watch?v=hBKRP0Ss8qk)
 
-<p class="clip-credit"><strong>Loop Choke from Closed Guard</strong> — taught by ICON Jiu-Jitsu Team · 0:15 · <a href="https://www.youtube.com/watch?v=hBKRP0Ss8qk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Loop Choke from Closed Guard</strong> · 0:15 · <a href="https://www.youtube.com/watch?v=hBKRP0Ss8qk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -180,7 +176,7 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 
 ![](https://www.youtube.com/watch?v=3sprDpHbCdM)
 
-<p class="clip-credit"><strong>Loop Choke from Half Guard</strong> — taught by Sickness Ferro · 3:17 · <a href="https://www.youtube.com/watch?v=3sprDpHbCdM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Loop Choke from Half Guard</strong> · 3:17 · <a href="https://www.youtube.com/watch?v=3sprDpHbCdM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

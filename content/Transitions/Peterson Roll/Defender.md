@@ -160,8 +160,8 @@ description: "How to defend against Peterson Roll in BJJ. Recognition cues, defe
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mike Baldi (TRN \u0026 CBA) Defending Peterson Roll",
-      "description": "Peterson Roll (Defender) film study: Mike Baldi (TRN \u0026 CBA) Defending Peterson Roll.",
+      "name": "Defending Peterson Roll",
+      "description": "Peterson Roll (Defender) film study: Defending Peterson Roll.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Va6feldqmRk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Va6feldqmRk",
       "url": "https://www.youtube.com/watch?v=Va6feldqmRk",
@@ -205,7 +205,7 @@ Defending the Peterson Roll requires the turtle top player to recognize the earl
 
 ![](https://www.youtube.com/watch?v=Va6feldqmRk)
 
-<p class="clip-credit"><strong>Mike Baldi (TRN &amp; CBA) Defending Peterson Roll</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=Va6feldqmRk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending Peterson Roll</strong> · 0:53 · <a href="https://www.youtube.com/watch?v=Va6feldqmRk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -161,33 +161,30 @@ description: "Crackhead Control to Mission Control (defender): Avoid extending a
       "@type": "VideoObject",
       "position": 1,
       "name": "Simple rubber guard escape",
-      "description": "Crackhead Control to Mission Control (Defender) film study: Simple rubber guard escape, taught by BJJ4Breakfast.",
+      "description": "Crackhead Control to Mission Control (Defender) film study: Simple rubber guard escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
       "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT131S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Over/under control against rubber guard",
-      "description": "Crackhead Control to Mission Control (Defender) film study: Over/under control against rubber guard, taught by Eddie Bravo.",
+      "description": "Crackhead Control to Mission Control (Defender) film study: Over/under control against rubber guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5fp5Nh_9jE4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5fp5Nh_9jE4",
       "url": "https://www.youtube.com/watch?v=5fp5Nh_9jE4",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT216S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Rubber guard passing to mount walkthrough",
-      "description": "Crackhead Control to Mission Control (Defender) film study: Rubber guard passing to mount walkthrough, taught by Eddie Bravo.",
+      "description": "Crackhead Control to Mission Control (Defender) film study: Rubber guard passing to mount walkthrough.",
       "thumbnailUrl": "https://i.ytimg.com/vi/c2BJaM0gd6g/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/c2BJaM0gd6g",
       "url": "https://www.youtube.com/watch?v=c2BJaM0gd6g",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT344S"
     }
   ]
@@ -226,7 +223,7 @@ Use the opening between the two high-leg configurations as an early escape oppor
 
 ![](https://www.youtube.com/watch?v=AvivOVuYcCk)
 
-<p class="clip-credit"><strong>Simple rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple rubber guard escape</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,7 +231,7 @@ Use the opening between the two high-leg configurations as an early escape oppor
 
 ![](https://www.youtube.com/watch?v=5fp5Nh_9jE4)
 
-<p class="clip-credit"><strong>Over/under control against rubber guard</strong> — taught by Eddie Bravo · 3:36 · <a href="https://www.youtube.com/watch?v=5fp5Nh_9jE4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Over/under control against rubber guard</strong> · 3:36 · <a href="https://www.youtube.com/watch?v=5fp5Nh_9jE4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -242,7 +239,7 @@ Use the opening between the two high-leg configurations as an early escape oppor
 
 ![](https://www.youtube.com/watch?v=c2BJaM0gd6g)
 
-<p class="clip-credit"><strong>Rubber guard passing to mount walkthrough</strong> — taught by Eddie Bravo · 5:44 · <a href="https://www.youtube.com/watch?v=c2BJaM0gd6g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rubber guard passing to mount walkthrough</strong> · 5:44 · <a href="https://www.youtube.com/watch?v=c2BJaM0gd6g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

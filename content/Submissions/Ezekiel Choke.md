@@ -48,44 +48,40 @@ description: "Master the Ezekiel Choke in BJJ. Complete guide to sleeve-based bl
       "@type": "VideoObject",
       "position": 1,
       "name": "Ezekiel Choke from Closed Guard with a Twist",
-      "description": "Ezekiel Choke film study: Ezekiel Choke from Closed Guard with a Twist, taught by BJJ After Forty.",
+      "description": "Ezekiel Choke film study: Ezekiel Choke from Closed Guard with a Twist.",
       "thumbnailUrl": "https://i.ytimg.com/vi/U0bEVMh07b0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/U0bEVMh07b0",
       "url": "https://www.youtube.com/watch?v=U0bEVMh07b0",
-      "creator": { "@type": "Person", "name": "BJJ After Forty" },
       "duration": "PT149S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "The Ezekiel To End All Ezekiels (No Gi)",
-      "description": "Ezekiel Choke film study: The Ezekiel To End All Ezekiels (No Gi), taught by Henry Akins.",
+      "description": "Ezekiel Choke film study: The Ezekiel To End All Ezekiels (No Gi).",
       "thumbnailUrl": "https://i.ytimg.com/vi/B7_MjC4WAoI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/B7_MjC4WAoI",
       "url": "https://www.youtube.com/watch?v=B7_MjC4WAoI",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
       "duration": "PT87S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Ezekiel Choke from Mount",
-      "description": "Ezekiel Choke film study: Ezekiel Choke from Mount, taught by Procel BJJ.",
+      "description": "Ezekiel Choke film study: Ezekiel Choke from Mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/omNMiDmWt5w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/omNMiDmWt5w",
       "url": "https://www.youtube.com/watch?v=omNMiDmWt5w",
-      "creator": { "@type": "Person", "name": "Procel BJJ" },
       "duration": "PT110S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Sneaky Easy Ezekiel Choke",
-      "description": "Ezekiel Choke film study: Sneaky Easy Ezekiel Choke, taught by Johnny Jitsu.",
+      "description": "Ezekiel Choke film study: Sneaky Easy Ezekiel Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/73ukcOj5s74/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/73ukcOj5s74",
       "url": "https://www.youtube.com/watch?v=73ukcOj5s74",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
       "duration": "PT59S"
     }
   ]
@@ -157,7 +153,7 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 ![](https://www.youtube.com/watch?v=U0bEVMh07b0)
 
-<p class="clip-credit"><strong>Ezekiel Choke from Closed Guard with a Twist</strong> — taught by BJJ After Forty · 2:29 · <a href="https://www.youtube.com/watch?v=U0bEVMh07b0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ezekiel Choke from Closed Guard with a Twist</strong> · 2:29 · <a href="https://www.youtube.com/watch?v=U0bEVMh07b0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -165,7 +161,7 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 ![](https://www.youtube.com/watch?v=B7_MjC4WAoI)
 
-<p class="clip-credit"><strong>The Ezekiel To End All Ezekiels (No Gi)</strong> — taught by Henry Akins · 1:27 · <a href="https://www.youtube.com/watch?v=B7_MjC4WAoI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Ezekiel To End All Ezekiels (No Gi)</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=B7_MjC4WAoI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -173,7 +169,7 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 ![](https://www.youtube.com/watch?v=omNMiDmWt5w)
 
-<p class="clip-credit"><strong>Ezekiel Choke from Mount</strong> — taught by Procel BJJ · 1:50 · <a href="https://www.youtube.com/watch?v=omNMiDmWt5w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ezekiel Choke from Mount</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=omNMiDmWt5w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -181,7 +177,7 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 ![](https://www.youtube.com/watch?v=73ukcOj5s74)
 
-<p class="clip-credit"><strong>Sneaky Easy Ezekiel Choke</strong> — taught by Johnny Jitsu · 0:59 · <a href="https://www.youtube.com/watch?v=73ukcOj5s74" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sneaky Easy Ezekiel Choke</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=73ukcOj5s74" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

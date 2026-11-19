@@ -47,33 +47,30 @@ description: "Master the Spinning Armbar in BJJ. Dynamic rotational submission t
       "@type": "VideoObject",
       "position": 1,
       "name": "Armbar from Closed Guard",
-      "description": "Spinning Armbar film study: Armbar from Closed Guard, taught by Gracie Barra Boston.",
+      "description": "Spinning Armbar film study: Armbar from Closed Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/D2tutut1zio/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/D2tutut1zio",
       "url": "https://www.youtube.com/watch?v=D2tutut1zio",
-      "creator": { "@type": "Person", "name": "Gracie Barra Boston" },
       "duration": "PT103S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Closed Guard Pull to Armbar",
-      "description": "Spinning Armbar film study: Closed Guard Pull to Armbar, taught by Satori BJJ.",
+      "description": "Spinning Armbar film study: Closed Guard Pull to Armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/F4Ns40AnI3Q/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/F4Ns40AnI3Q",
       "url": "https://www.youtube.com/watch?v=F4Ns40AnI3Q",
-      "creator": { "@type": "Person", "name": "Satori BJJ" },
       "duration": "PT41S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Armbar from Closed Guard: Hand Positioning",
-      "description": "Spinning Armbar film study: Armbar from Closed Guard: Hand Positioning, taught by Jean Jacques Machado.",
+      "description": "Spinning Armbar film study: Armbar from Closed Guard: Hand Positioning.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FBDG7u5lOjk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/FBDG7u5lOjk",
       "url": "https://www.youtube.com/watch?v=FBDG7u5lOjk",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
       "duration": "PT138S"
     }
   ]
@@ -142,7 +139,7 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 ![](https://www.youtube.com/watch?v=D2tutut1zio)
 
-<p class="clip-credit"><strong>Armbar from Closed Guard</strong> — taught by Gracie Barra Boston · 1:43 · <a href="https://www.youtube.com/watch?v=D2tutut1zio" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar from Closed Guard</strong> · 1:43 · <a href="https://www.youtube.com/watch?v=D2tutut1zio" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -150,7 +147,7 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 ![](https://www.youtube.com/watch?v=F4Ns40AnI3Q)
 
-<p class="clip-credit"><strong>Closed Guard Pull to Armbar</strong> — taught by Satori BJJ · 0:41 · <a href="https://www.youtube.com/watch?v=F4Ns40AnI3Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Closed Guard Pull to Armbar</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=F4Ns40AnI3Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -158,7 +155,7 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 ![](https://www.youtube.com/watch?v=FBDG7u5lOjk)
 
-<p class="clip-credit"><strong>Armbar from Closed Guard: Hand Positioning</strong> — taught by Jean Jacques Machado · 2:18 · <a href="https://www.youtube.com/watch?v=FBDG7u5lOjk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar from Closed Guard: Hand Positioning</strong> · 2:18 · <a href="https://www.youtube.com/watch?v=FBDG7u5lOjk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

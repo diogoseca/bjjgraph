@@ -154,43 +154,39 @@ description: "Forward pressure uses connected weight and movement to take space,
       "@type": "VideoObject",
       "position": 1,
       "name": "Using your head to create passing pressure",
-      "description": "Forward Pressure film study: Using your head to create passing pressure, taught by Nick Albin.",
+      "description": "Forward Pressure film study: Using your head to create passing pressure.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_ADiyj3T7nw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_ADiyj3T7nw",
-      "url": "https://www.youtube.com/watch?v=_ADiyj3T7nw",
-      "creator": { "@type": "Person", "name": "Nick Albin" }
+      "url": "https://www.youtube.com/watch?v=_ADiyj3T7nw"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Pressure: the science behind your jiu jitsu",
-      "description": "Forward Pressure film study: Pressure: the science behind your jiu jitsu, taught by RVV BJJ.",
+      "description": "Forward Pressure film study: Pressure: the science behind your jiu jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mzAgY0QUtnc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mzAgY0QUtnc",
       "url": "https://www.youtube.com/watch?v=mzAgY0QUtnc",
-      "creator": { "@type": "Person", "name": "RVV BJJ" },
       "duration": "PT785S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Gordon Ryan\u0027s no-gi pressure passing system",
-      "description": "Forward Pressure film study: Gordon Ryan\u0027s no-gi pressure passing system, taught by Gordon Ryan.",
+      "name": "No-gi pressure passing system",
+      "description": "Forward Pressure film study: No-gi pressure passing system.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OdscGUlottI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OdscGUlottI",
       "url": "https://www.youtube.com/watch?v=OdscGUlottI",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT761S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
-      "name": "Danaher on driving forward into the opponent",
-      "description": "Forward Pressure film study: Danaher on driving forward into the opponent, taught by John Danaher.",
+      "name": "Driving forward into the opponent",
+      "description": "Forward Pressure film study: Driving forward into the opponent.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GZbesQUVTao/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GZbesQUVTao",
       "url": "https://www.youtube.com/watch?v=GZbesQUVTao",
-      "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT15S"
     }
   ]
@@ -220,7 +216,7 @@ Connect before driving, and change direction when a frame blocks your path. Keep
 
 ![](https://www.youtube.com/watch?v=_ADiyj3T7nw)
 
-<p class="clip-credit"><strong>Using your head to create passing pressure</strong> — taught by Nick Albin · <a href="https://www.youtube.com/watch?v=_ADiyj3T7nw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Using your head to create passing pressure</strong> · <a href="https://www.youtube.com/watch?v=_ADiyj3T7nw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Connect before driving, and change direction when a frame blocks your path. Keep
 
 ![](https://www.youtube.com/watch?v=mzAgY0QUtnc)
 
-<p class="clip-credit"><strong>Pressure: the science behind your jiu jitsu</strong> — taught by RVV BJJ · 13:05 · <a href="https://www.youtube.com/watch?v=mzAgY0QUtnc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pressure: the science behind your jiu jitsu</strong> · 13:05 · <a href="https://www.youtube.com/watch?v=mzAgY0QUtnc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Connect before driving, and change direction when a frame blocks your path. Keep
 
 ![](https://www.youtube.com/watch?v=OdscGUlottI)
 
-<p class="clip-credit"><strong>Gordon Ryan&#39;s no-gi pressure passing system</strong> — taught by Gordon Ryan · 12:41 · <a href="https://www.youtube.com/watch?v=OdscGUlottI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No-gi pressure passing system</strong> · 12:41 · <a href="https://www.youtube.com/watch?v=OdscGUlottI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Connect before driving, and change direction when a frame blocks your path. Keep
 
 ![](https://www.youtube.com/watch?v=GZbesQUVTao)
 
-<p class="clip-credit"><strong>Danaher on driving forward into the opponent</strong> — taught by John Danaher · 0:15 · <a href="https://www.youtube.com/watch?v=GZbesQUVTao" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Driving forward into the opponent</strong> · 0:15 · <a href="https://www.youtube.com/watch?v=GZbesQUVTao" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

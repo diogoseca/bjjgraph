@@ -7,7 +7,7 @@ import { journey } from "../dsl"
 // Mutants in tests/artifacts/tab_title_mutants.json: dropped-title-write is killed
 // by "native map"; hub-title-for-role is killed by "dual pair" (also native map).
 const READY = '[data-reader-ready="true"]'
-const QUIET = { v: 2, settings: { landFilm: false, landCard: false, landHand: false, landFeedback: false, readerBook: false }, settingsAt: {} }
+const QUIET = { v: 2, settings: { landFilm: false, landCard: false, landHand: false, landFeedback: false }, settingsAt: {} }
 
 async function exactTitle(page: Page, step: string) {
   const row = await page.evaluate(async () => {
@@ -37,7 +37,8 @@ async function clickNode(page: Page, j: ReturnType<typeof journey>, id: string) 
   await page.mouse.click(point.x, point.y)
 }
 
-test("@curated VIDEO2 native map click, Back/Forward and reader open/close keep exact titles", async ({ page }) => {
+// v1.253.0 (U114 a): the reader open/close steps went with the article's ✕ and the shelf's Book button.
+test("VIDEO2 native map click, Back/Forward and the dual pair keep exact titles", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Mount", { initialState: QUIET })
   await expect(page.locator(READY)).toHaveCount(1); await j.advance(8000)
@@ -50,18 +51,15 @@ test("@curated VIDEO2 native map click, Back/Forward and reader open/close keep 
   expect((await exactTitle(page, "Back")).title).toBe(initial.title)
   await page.goForward(); await expect(page.locator(READY)).toHaveCount(1)
   await exactTitle(page, "Forward")
-  await j.clickByMouse('[data-layer-show="book"]'); await exactTitle(page, "reader open")
-  await page.locator('[data-reader-close]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-  await j.clickByMouse('[data-reader-close]'); await exactTitle(page, "reader close")
   for (const side of ["Bottom", "Top"]) {
     await j.readingOtherHalf()
     await expect.poll(() => new URL(page.url()).pathname).toBe(`/Positions/Half-Guard/${side}`)
     await exactTitle(page, `dual pair ${side}`)
   }
-  console.log("VIDEO2 native navigation: 8 exact built titles asserted")
+  console.log("VIDEO2 native navigation: 6 exact built titles asserted")
 })
 
-test("@curated VIDEO2 dual pair titles name the selected role, never the hub", async ({ page }) => {
+test("VIDEO2 dual pair titles name the selected role, never the hub", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Half-Guard/Bottom", { initialState: QUIET })
   await expect(page.locator(READY)).toHaveCount(1)
@@ -151,4 +149,30 @@ test("VIDEO2 a failed non-indexed article retains its pending URL/title on Retry
   await expect(page.locator(READY)).toHaveCount(1)
   expect(requests).toBe(2)
   await exactTitle(page, "successful reader retry")
+})
+
+// #331's review (R1), v1.254.1: Retry reopened the normalised path, so a pending non-indexed article lost its #section. The corpus
+// has no such link today (the review's scan), so an authored-link fixture points the page's own Systems link at a real section.
+// Red-proof: tests/artifacts/article_sections_mutants.mjs `retry-drops-fragment` (Retry back on `path`) is killed at the claim.
+test("VIDEO2 a failed non-indexed article keeps its #section on Retry", async ({ page }) => {
+  const j = journey(page), from = "/Systems/10th-Planet-Half-Guard-Bottom-System"
+  let requests = 0
+  await j.boot(from, { beforeNavigate: async () => {
+    await page.route('**/Systems', route => ++requests === 1
+      ? route.fulfill({ status: 503, body: "Temporarily unavailable" }) : route.continue())
+  } })
+  await expect(page.locator(READY)).toHaveCount(1)
+  const link = page.locator('[data-reader-body] a[href$="/Systems"]').first()
+  await link.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
+  await link.evaluate(e => { e.setAttribute("href", "/Systems#guard-system"); e.setAttribute("data-title-target", "") })
+  await j.clickByMouse('[data-title-target]')
+  await expect(page.locator('[data-reader-retry]'), "premise: the first fetch failed").toBeVisible()
+  await j.clickByMouse('[data-reader-retry]')
+  await expect(page.locator(READY)).toHaveCount(1)
+  expect(requests, "premise: Retry fetched again").toBe(2)
+  await expect.poll(() => { const u = new URL(page.url()); return u.pathname + u.hash }, { message: "Retry keeps the address's #section" }).toBe("/Systems#guard-system")
+  await expect.poll(() => page.evaluate(() => {
+    const t = document.querySelector('[data-source-id="guard-system"]'), card = t?.closest(".ng-section-card"), f = document.activeElement
+    return !!t && (f === t || !!card && card.contains(f))
+  }), { message: "and goes to that section" }).toBe(true)
 })

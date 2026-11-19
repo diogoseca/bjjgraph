@@ -39,18 +39,19 @@
 .ng-choice-card button:hover { background-color:rgba(150,180,255,.08); }
 .ng-choice-card .ng-choice-watch:hover { background:#293b5a; }
 .ng-choice-card button:focus-visible { outline:2px solid #c5d6ff; outline-offset:-3px; }
-.ng-choice-viewer { width:min(620px,calc(100vw - 24px)); padding:12px; box-sizing:border-box; border:1px solid #637392; border-radius:14px; background:#151a2b; color:#eef1f6; }
-.ng-choice-viewer::backdrop { background:rgba(3,6,14,.75); }
-/* The top-layer player keeps the card's header, footer and layout at home. */
+/* The top-layer player keeps the card's header, footer and layout at home. Every video a press opens plays here
+   (VID1, owner 15 Nov): the move's 620px modal and its rules (.ng-choice-viewer) are retired. */
 .ng-video-theater { position:fixed; inset:0; margin:auto; padding:0; border:0; max-width:none; max-height:none; width:min(95vw,calc(95vh * var(--film-ratio))); height:min(calc(95vw / var(--film-ratio)),95vh); background:#000; color:#eef1f6; z-index:96; overflow:hidden; }
 .ng-video-theater::backdrop { background:rgba(0,0,0,.6); }
-.ng-choice-viewer header { display:flex; align-items:center; justify-content:space-between; gap:12px; font-size:14px; }
-.ng-choice-viewer header button { width:44px; height:44px; flex:none; border:0; background:none; color:inherit; cursor:pointer; }
-.ng-choice-viewer .ng-clip { width:100%!important; height:auto!important; aspect-ratio:16/9; }
 /* One full clip + ten percent of the next. The header and score stay fixed;
    only this row scrolls. 400px -> 241px high; 358px -> 220px high. */
 .ng-landfilm.ng-current-card { padding:0!important; box-sizing:border-box; border:1px solid rgba(150,170,210,.28); border-radius:12px; background:#171d2e; overflow:hidden; color:#eef1f6; --film-fade:0px!important; }
-.ng-current-card .ng-current-title { position:absolute; top:0; left:0; right:0; z-index:3; display:flex; align-items:center; gap:7px; padding:10px 46px 12px 12px; font-size:14px; font-weight:600; background:linear-gradient(#101627e8,#101627a0,transparent); pointer-events:none; }
+/* margin:0 (v1.256.4, owner 2026-11-11: "doesn't go all the way to the top of the video card, leaving like the top
+   10% of the video without that dark transparent overlay"). Quartz's index.css styles every bare `header` with
+   `margin:2rem 0`, and an absolutely placed box still honours its margin, so `top:0` landed this band 32px down the
+   video: 18% of a 178px frame at 390, 14% of 236px at 1440, with the band's darkest edge drawn across the picture.
+   Same leak as U8's poster margin (D-338) and the footer's margin:0 below. Pinned by film-overlay-play.spec.ts. */
+.ng-current-card .ng-current-title { position:absolute; top:0; left:0; right:0; z-index:3; margin:0; display:flex; align-items:center; gap:7px; padding:10px 46px 12px 12px; font-size:14px; font-weight:600; background:linear-gradient(#101627e8,#101627a0,transparent); pointer-events:none; }
 .ng-landfilm.ng-current-card .ng-cliprow { padding:0!important; margin:0!important; gap:8px!important; scroll-snap-type:x mandatory; mask-image:none!important; -webkit-mask-image:none!important; }
 .ng-landfilm.ng-current-card .ng-cliprow .ng-clip { flex:0 0 calc(90.9090909% - 7.272727px); width:calc(90.9090909% - 7.272727px)!important; height:auto!important; aspect-ratio:16/9; border:0!important; border-radius:0; transition:none; }
 .ng-landfilm.ng-current-card[data-single-video] .ng-clip { flex-basis:100%; width:100%!important; }
@@ -67,4 +68,76 @@
 .ng-current-card .ng-film-arrow { top:calc(50% - 42px); }
 .ng-current-card [data-film-prev] { left:0; }
 .ng-current-card [data-film-next] { right:0; }
-.ng-current-card .ng-clip::after, .ng-choice-viewer .ng-clip::after { display:none; }
+.ng-current-card .ng-clip::after { display:none; }
+/* HIDDEN MOVES (v1.255.0, owner U115 b + U116). The back covers the FILM slot only; the name is
+   hidden in place; Works % and Win % stay. The back takes no hit: the face below still plays. */
+.ng-choice-back { position:absolute; left:0; right:0; top:44px; height:86px; display:none; place-items:center; pointer-events:none; border-top:1px solid rgba(150,170,210,.14);
+  background: repeating-linear-gradient(45deg,rgba(179,198,234,.06) 0 1px,transparent 1px 5px), repeating-linear-gradient(-45deg,rgba(179,198,234,.06) 0 1px,transparent 1px 5px), radial-gradient(130% 100% at 50% 35%,#252d49,#141829); }
+.ng-choice-card[data-hide]:not([data-revealed]) .ng-choice-back { display:grid; }
+.ng-choice-back .ng-choice-shape { width:44px; height:44px; color:rgba(179,198,234,.3); }
+.ng-choice-back .ng-choice-shape svg { stroke-width:1; }
+.ng-choice-card[data-hide]:not([data-revealed]) .ngchoice-title, .ng-choice-card[data-hide]:not([data-revealed]) .ng-choice-watch { visibility:hidden; }
+.ng-choice-card[data-hide] .ng-choice-badge { z-index:1; }
+/* "Hover to reveal" where the Suggested badge sits, while its card is down; the badge's own text is untouched */
+.ng-choice-card[data-hide=badge]:not([data-revealed]) .ng-choice-badge:not(:empty) { font-size:0; }
+.ng-choice-card[data-hide=badge]:not([data-revealed]) .ng-choice-badge:not(:empty)::after { content:"Hover to reveal"; font-size:9px; }
+@media (hover:none) { .ng-choice-card[data-hide=badge]:not([data-revealed]) .ng-choice-badge:not(:empty)::after { content:"Tap to reveal"; } }
+/* held face down by an open cloze (L2-R1): no badge at all: a hover or a tap reveals nothing there, and "Suggested" would single one card out */
+.ng-choice-card[data-hide=cz]:not([data-revealed]) .ng-choice-badge { visibility:hidden; }
+/* the card under the pointer stands out: a transform on the card alone (no layout shift), a faint cool glow kept inside the row's 8px padding */
+.ng-choice-card[data-hide] { transition:transform .16s ease-out, box-shadow .16s ease-out; }
+.ng-choice-card[data-hover] { z-index:1; transform:scale(1.035); border-color:rgba(197,214,255,.55); box-shadow:0 0 7px rgba(150,185,255,.3); }
+/* THE CARD BEING ASKED wears that same outline, by touch too (v1.272.0): a tap turns a card up with no hover, so on a
+   phone the asked card had no outline at all. The owner's frame for the seal: "the move being asked is the only thing
+   with a strong outline". No scale (a tapped card does not stand out from under a finger). */
+.ng-choice-card[data-asking] { border-color:rgba(197,214,255,.55); box-shadow:0 0 7px rgba(150,185,255,.3); }
+/* the film button's OWN animation: it lifts and rings, the card does not; hovering the card leaves it still */
+.ng-choice-card[data-hide] .ng-choice-watch { transition:transform .14s ease-out, box-shadow .14s ease-out; }
+.ng-choice-card[data-hide] .ng-choice-watch:hover { transform:scale(1.14); box-shadow:0 0 0 4px rgba(179,198,234,.22); }
+.ng-choice-card[data-hide] .ng-choice-watch:active { transform:scale(.94); }
+/* THE SEAL (v1.272.0, the owner's pick a: "A small filled seal: you answered Yes here. A hollow one: its flashcards are
+   learned"; `_sealCard`; its kinds since v1.280.0 below). It replaces the thin/thick gold outline (U116, U122 a), which read as the selected card: the
+   card keeps its ordinary border. Sized and placed in the card's own unit, its 9px side padding (the title's and the
+   numbers'): 2 units across, 1 unit in from the right edge, 1 unit below the 44px title band, so it sits in the film's
+   top corner, clear of the title (0-44), the play circle (65-109 across), the grade strip (86/96 down) and the numbers
+   (130 down) at every width (the card is 174 x 176 everywhere). A dark rim keeps it legible on a light poster frame.
+   Filled = a gold disc (a struck coin: a lit face, a fine engraved grain) with a dark tick; hollow = a gold ring and
+   tick on dark. The shape differs, not only the colour. pointer-events: its words show on hover (`title`). */
+.ng-choice-seal { position:absolute; top:53px; right:9px; width:18px; height:18px; box-sizing:border-box; border-radius:50%; pointer-events:auto; box-shadow:0 0 0 1.5px rgba(8,10,16,.85), 0 1px 3px rgba(0,0,0,.6); }
+.ng-choice-seal::after { content:""; position:absolute; left:6px; top:3.5px; width:3.5px; height:7.5px; border:solid; border-width:0 2px 2px 0; transform:rotate(40deg); }
+/* v1.280.0 (GOLD1, ruled): the seal tells the map's story (NG_MAP_MARKS): a RING = recalled here (a Yes: the map's line
+   outside the orb); a DISC = its questions answered (the map's gold inside); BOTH = the disc inside the ring, a dark gap
+   between, the tick smaller on the disc. Until v1.278.1 the disc meant a Yes and the ring flashcards learned; no seal had
+   reached production. */
+[data-seal=recalled] > .ng-choice-seal { background:rgba(8,10,16,.85); box-shadow:inset 0 0 0 1.5px #e8c46a, 0 0 0 1.5px rgba(8,10,16,.85), 0 1px 3px rgba(0,0,0,.6); }
+[data-seal=recalled] > .ng-choice-seal::after { border-color:#e8c46a; }
+[data-seal=answered] > .ng-choice-seal { background:repeating-radial-gradient(circle,rgba(255,244,210,.13) 0 .6px,transparent .6px 1.6px), radial-gradient(circle at 34% 28%,#fff0c4,#efcb75 34%,#c8973a 76%,#8e6220); }
+[data-seal=answered] > .ng-choice-seal::after { border-color:#2a1c05; }
+[data-seal=both] > .ng-choice-seal { background:radial-gradient(circle at 50% 50%, #f3d488 0, #e2b55a 3.6px, #b48332 5.4px, rgba(8,10,16,.85) 5.6px); box-shadow:inset 0 0 0 1.5px #e8c46a, 0 0 0 1.5px rgba(8,10,16,.85), 0 1px 3px rgba(0,0,0,.6); }
+[data-seal=both] > .ng-choice-seal::after { border-color:#2a1c05; left:6.6px; top:5px; width:2.8px; height:6px; border-width:0 1.6px 1.6px 0; }
+/* the strip takes no press (review R3): its text and background pass the press to the card; only its buttons answer */
+.ng-choice-grade { pointer-events:none; position:absolute; left:0; right:0; top:96px; height:34px; display:none; align-items:center; gap:6px; padding:0 6px 0 9px; box-sizing:border-box; background:rgba(10,13,22,.9); font-size:10.5px; color:#dbe2f0; }
+.ng-choice-card[data-asking] .ng-choice-grade { display:flex; }
+.ng-choice-grade > span { flex:1; white-space:nowrap; }
+.ng-choice-card .ng-choice-grade button { pointer-events:auto; flex:none; height:26px; padding:0 11px; border-radius:6px; font-size:11px; font-weight:700; }
+.ng-choice-grade [data-grade=yes] { background:rgba(126,224,168,.16); color:#a6efc4; }
+.ng-choice-grade [data-grade=no] { background:rgba(239,133,133,.16); color:#f4b0b0; }
+.ng-choice-card[data-asking] .ng-choice-watch { top:46px; }
+/* touch: the strip grows to a 44px target and the film button steps up out of its way */
+@media (pointer:coarse) { .ng-choice-grade { top:86px; height:44px; gap:4px; padding:0 4px 0 7px; font-size:10px; } .ng-choice-grade > span { min-width:0; overflow:hidden; text-overflow:ellipsis; } .ng-choice-card .ng-choice-grade button { height:44px; min-width:44px; padding:7px 4px; background-clip:content-box; } .ng-choice-card[data-asking] .ng-choice-watch { top:40px; } }
+/* THE SWITCH beside "Your moves" (v1.258.0, the owner's pick d; U121's eye before it): one word, "· Hidden" / "· Shown",
+   in the title's own type at full strength, a dotted underline marking it as a press. 40px tall: the whole free band,
+   the row's 8px padding above the 24px line and the 8px gap below it; taller would be clipped by the row above or sit
+   over card 1's top edge (a press stolen from the card). Negative margins keep the line at 24px. The word's box reserves
+   "Hidden" (::after, height 0), the wider word, so a press moves nothing beside it; the underline is on the word alone.
+   No transition. */
+.ng-hide-switch { pointer-events:auto; cursor:pointer; border:0; background:none; font:inherit; letter-spacing:inherit; color:inherit; display:inline-flex; align-items:center; gap:4px; flex:none; min-width:44px; min-height:40px; margin:-8px 0; padding:0 4px; }
+.ng-hide-word { display:inline-flex; flex-direction:column; }
+.ng-hide-word::after { content:"Hidden"; height:0; overflow:hidden; visibility:hidden; }
+.ng-hide-word > span, .ng-value-press-word { text-decoration:underline dotted color-mix(in srgb, currentColor 60%, transparent); text-underline-offset:3px; }
+/* THE STATUS SLOT's one press (v1.258.0, s2): "Sort by win chance" or "Retry" after the status, in the status's own quiet
+   type (regular, no tracking), the same dotted underline; the same 40px band and negative margins as the switch. */
+.ng-value-press { pointer-events:auto; cursor:pointer; border:0; background:none; flex:none; font:inherit; font-weight:400; letter-spacing:0; color:inherit; white-space:nowrap; min-width:44px; min-height:40px; margin:-8px 0 -8px -4px; padding:0 4px; }
+.ng-hide-switch:focus-visible, .ng-value-press:focus-visible { outline:2px solid #c5d6ff; outline-offset:-8px; }
+.ng-hide-hint { margin-left:8px; font-weight:400; letter-spacing:0; color:#8f9cba; }
+@media (prefers-reduced-motion:reduce) { .ng-choice-card[data-hide], .ng-choice-card[data-hide] .ng-choice-watch { transition:none; } .ng-choice-card[data-hover], .ng-choice-card[data-hide] .ng-choice-watch:hover { transform:none; } }

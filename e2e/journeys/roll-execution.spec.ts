@@ -96,7 +96,7 @@ async function transition(page: Page) {
 // both. Choose stays a real mouse action, with the hand groups kept apart, and the empty-media click is kept
 // with the approved U8 expectation: on the next hand it commits its card, exactly once.
 for (const [width, height] of [[1440, 900], [390, 844]]) {
-  test(`@curated Choose is a real mouse action and the hand groups stay apart at ${width}px`, async ({ page }) => {
+  test(`Choose is a real mouse action and the hand groups stay apart at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = await ready(page), opt = await transition(page)
     const sel = `[data-tech="${opt.name}"]`
@@ -148,7 +148,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
   })
 }
 
-test("@curated shifted digits are inert, plain digits commit, and hidden hands ignore both", async ({ page }) => {
+test("shifted digits are inert, plain digits commit, and hidden hands ignore both", async ({ page }) => {
   const j = await ready(page), before = await commits(page)
   await page.keyboard.press("Shift+Digit1")
   await expect(page.locator("[data-go]")).toHaveCount(0)
@@ -166,7 +166,7 @@ test("@curated shifted digits are inert, plain digits commit, and hidden hands i
 })
 
 for (const [outcome, result] of [[0, "failed"], [.999, "countered"]] as const) {
-  test(`@curated the card reports the actual ${result} outcome and yields at opponent handoff`, async ({ page }) => {
+  test(`the card reports the actual ${result} outcome and yields at opponent handoff`, async ({ page }) => {
     const j = await ready(page), opt = await transition(page)
     const title = await page.locator(`[data-tech="${opt.name}"] .ngchoice-title`).textContent()
     await j.rig("resolve", [.999]); await j.rig("outcome", [outcome, ...Array(32).fill(0)])
@@ -182,7 +182,7 @@ for (const [outcome, result] of [[0, "failed"], [.999, "countered"]] as const) {
   })
 }
 
-test("@curated pause holds the sweep and teardown prevents a stale verdict", async ({ page }) => {
+test("pause holds the sweep and teardown prevents a stale verdict", async ({ page }) => {
   const j = await ready(page), opt = await transition(page)
   await j.rig("resolve", [0]); await j.rig("outcome", Array(32).fill(0))
   await j.pick(opt.name)
@@ -207,7 +207,7 @@ test("@curated pause holds the sweep and teardown prevents a stale verdict", asy
   expect((await j.beats()).filter(b => b.beat === "sweep_land")).toHaveLength(0)
 })
 
-test("@curated a modal owns digits and Enter until dismissed", async ({ page }) => {
+test("a modal owns digits and Enter until dismissed", async ({ page }) => {
   await ready(page)
   const before = await commits(page)
   await page.evaluate(() => (window as any).__neural.openModal())
@@ -254,7 +254,7 @@ test("@curated submission entry retains its printed odds and reaches Finish with
 // run keeps its trace (file-level: Playwright allows `trace` only there). No bound, step or fixture changed.
 for (const [width, height, pane, scrolled] of [[390, 844, false, false], [390, 844, false, true], [1440, 900, false, false], [1440, 900, true, false], [1440, 900, false, true]] as const) {
 for (const reduced of [false, true]) {
-  test(`@curated execution camera frames the technique at ${width}px; pane ${pane}; reduced motion ${reduced}${scrolled ? (width > 640 ? " after native wheel" : " scrolled to the top") : ""}`, async ({ page }) => {
+  test(`execution camera frames the technique at ${width}px; pane ${pane}; reduced motion ${reduced}${scrolled ? (width > 640 ? " after native wheel" : " scrolled to the top") : ""}`, async ({ page }) => {
     await page.addInitScript(paintProbe)
     await page.setViewportSize({ width, height })
     const j = await ready(page), opt = await transition(page)
@@ -476,7 +476,7 @@ for (const height of [844, 631]) {
 // never dropped. A full-width phone notice (x12-378, y82-184) left the execution
 // camera nowhere to frame the move. Both real earn paths run: a notice already
 // showing at the click, and a coin minted mid-execution, as a move lands.
-test("@curated 390px a reward notice yields while a move executes and shows once it lands", async ({ page }) => {
+test("390px a reward notice yields while a move executes and shows once it lands", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   const j = await ready(page), opt = await transition(page)
   await j.rig("resolve", [0]); await j.rig("outcome", Array(32).fill(0))

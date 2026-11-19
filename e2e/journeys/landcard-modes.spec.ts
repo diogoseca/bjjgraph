@@ -127,7 +127,7 @@ const answerCorrect = async (page: any) => {
 }
 
 // ── 1. paging (keys) + the one-per-landing economy ───────────────────────────────────────────
-test("arrows page the deck; only the first answer pays; commit fires no ignore @curated", async ({
+test("arrows page the deck; only the first answer pays; commit fires no ignore", async ({
   page,
 }) => {
   const j = journey(page)
@@ -377,7 +377,7 @@ test("the generic defending card pages its own deck with the same arrows", async
 })
 
 // ── 5. a technique URL lands ON the technique ────────────────────────────────────────────────
-test("a technique page keeps its URL and stages the exchange, card standard @curated", async ({
+test("a technique page keeps its URL and stages the exchange, card standard", async ({
   page,
 }) => {
   const j = journey(page)
@@ -506,17 +506,26 @@ test("the owner's Americana page asks MULTIPLE CHOICE — recognition first, alw
   expect(s.recall, "no stage-0 recall — flashcards are the earned graduation").toBe(false)
 })
 
-// ── 5c. recall comes with rank (v1.133.0) ────────────────────────────────────────────────────
-test("from blue belt up, a proven card asks as recall in play — below, MC holds", async ({
+// ── 5c. a card right twice asks front and back in a roll (the answer mode, v1.282.0) ──────────────────────────────────
+// Until v1.270.0 a blue belt switched timed recall on ("recall comes with rank", v1.133.0); from v1.270.0 to v1.282 it was
+// Recall mode's switch alone (U163 c). Since v1.282.0 (rulings R2, SET1-GO) the ANSWER MODE decides, one switch for every
+// card: Auto, the default for nothing stored, asks a card right twice (stage 2) front and back in a roll, which is what
+// Recall mode On did here; a belt still decides nothing; Multiple choice keeps it multiple choice. The stored-value cases
+// (Front Back cards on a new card, the old switch stored Off) are answer-mode.spec.ts's.
+test("a card right twice asks front and back in a roll under Auto; a belt decides nothing; Multiple choice keeps it multiple choice", async ({
   page,
 }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
   await j.openQuestion() // U47 d: exercise the shown card in this existing journey.
+  const shape = () => page.evaluate(() => ({
+    mc: !!document.querySelector("[data-land-mc-opt]"),
+    recall: !!document.querySelector("[data-land-recall]"),
+  }))
+  expect(await shape(), "a new card asks multiple choice first, under Auto").toEqual({ mc: true, recall: false })
 
-  // prove the current card to stage 2 (the MC cap), then re-mount: still a WHITE-belt profile,
-  // so recognition-first MC must hold even on a proven card
+  // prove the current card to stage 2 (the MC cap), then re-mount: a WHITE belt, nothing stored for the mode
   await page.evaluate(() => {
     const a = (window as W).__neural
     const q = a._landQ
@@ -528,16 +537,17 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })
   await j.landQuestion()
-  const white = await page.evaluate(() => ({
+  await j.openQuestion()
+  const auto = await page.evaluate(() => ({
     mc: !!document.querySelector("[data-land-mc-opt]"),
     recall: !!document.querySelector("[data-land-recall]"),
+    armed: (window as W).__neural._decision?.remaining != null,
   }))
-  expect(white.mc, "below blue, a proven card still asks MC").toBe(true)
-  expect(white.recall).toBe(false)
+  expect(auto.recall, "Auto: a card right twice asks front and back in a roll, a white belt included").toBe(true)
+  expect(auto.mc).toBe(false)
+  expect(auto.armed, "…and the question is on the clock").toBe(true)
 
-  // the same card under a BLUE belt: the in-play format graduates to timed recall Q/A
-  // ("for blue belts at least … flashcard Q/A, not MC" — owner). The rank is the WORN belt since
-  // v1.211.0 (earned in the Challenges, never a Game Knowledge band): seed its high-water mark.
+  // the same card under a BLUE belt earned now: the belt decides nothing
   await page.evaluate(() => {
     const a = (window as W).__neural
     a.belts.held = { id: "blue", t: Date.now() }
@@ -545,15 +555,17 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })
   await j.landQuestion()
-  await j.openQuestion()
-  const blue = await page.evaluate(() => ({
-    mc: !!document.querySelector("[data-land-mc-opt]"),
-    recall: !!document.querySelector("[data-land-recall]"),
-    armed: (window as W).__neural._decision?.remaining != null,
-  }))
-  expect(blue.recall, "blue belt: the proven card asks as recall").toBe(true)
-  expect(blue.mc).toBe(false)
-  expect(blue.armed, "…and the recall question is on the clock").toBe(true)
+  expect(await shape(), "a blue belt changes nothing").toEqual({ mc: false, recall: true })
+
+  // Multiple choice, pressed: the card right twice stays multiple choice
+  await page.evaluate(() => {
+    const a = (window as W).__neural
+    a.set("mcMode", "mc")
+    a._landQ = null
+    a.renderLandCard(a.nodes[a.currentPos], "land", null)
+  })
+  await j.landQuestion()
+  expect(await shape(), "Multiple choice keeps it multiple choice in a roll").toEqual({ mc: true, recall: false })
 })
 
 // ── 6. v1.134.0 arrival rush superseded: every content arrival starts calm ───────────────────
@@ -562,7 +574,7 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
 // on BOTH 79f7e09c4 and bd87d42d4; reversing the fetch order passes it on both. Neither head
 // changes that assignment. Check both orders, the authored question, the mounted MC truth,
 // and the real mouse grade. Never warm everything to conceal a wrong-deck race.
-for (const cold of [true, false]) test(`a defender content arrival stays calm after an answer (${cold ? "cold" : "warm"} deck) @curated`, async ({ page }) => {
+for (const cold of [true, false]) test(`a defender content arrival stays calm after an answer (${cold ? "cold" : "warm"} deck)`, async ({ page }) => {
   const j = journey(page)
   const key = "Kimura from Knee on Belly|Defender"
   // Emitted qhash(key) chunk, served by the DSL's real per-deck residency path.
@@ -672,8 +684,18 @@ for (const cold of [true, false]) test(`a defender content arrival stays calm af
     return { reading: a._readerIntent, paused: a.paused, vignette: !!document.querySelector('.ng-vignette'), catches: a.beats.filter((b: any) => b.beat === 'defend_start').length }
   })).toEqual({ reading: false, paused: false, vignette: false, catches: 0 })
   // the ✕ hides the drill by MOUSE (§6.1: the card is a fixed overlay under attachInput's
-  // capture) — the catch stays live and the escapes stay dealt
-  await j.clickByMouse("[data-land-close]")
+  // capture) — the catch stays live and the escapes stay dealt.
+  // FOLD1 (owner U136 a): the right answer dealt the drill's next question on the same card (_defenseAnswered), open and
+  // unanswered, so the first ✕ folds it back to its one line; the second hides the drill. WAS: one ✕ hid it.
+  await j.clickByMouse("[data-land-close]", "the drill's ✕ on its next, open question")
+  const folded = await page.evaluate(() => {
+    const a = (window as W).__neural
+    return { card: !!document.querySelector('[data-landcard="defense"][data-land-ask]'), defense: a._defendSub != null, escapes: (a.optionIdxs || []).length }
+  })
+  expect([folded.card, folded.defense], "the first ✕ folds the drill's open question to its line, still caught").toEqual([true, true])
+  expect(folded.escapes, "…and the escapes stay dealt").toBeGreaterThan(0)
+  await j.readerLayoutSettled()
+  await j.clickByMouse("[data-land-close]", "the drill's line's ✕")
   const closed = await page.evaluate(() => {
     const a = (window as W).__neural
     return { card: !!document.querySelector('[data-landcard="defense"]'), defense: a._defendSub != null, escapes: (a.optionIdxs || []).length }
@@ -695,7 +717,7 @@ for (const cold of [true, false]) test(`a defender content arrival stays calm af
  * The camera half reads the node through `pairMid` (§6.2) and requires it ABOVE the docked
  * card's top edge — the differential the owner saw, not a camTarget read.
  */
-test("arriving on a TRANSITION's defending side is a calm staged landing — no rush, state above the card @curated", async ({ page }) => {
+test("arriving on a TRANSITION's defending side is a calm staged landing — no rush, state above the card", async ({ page }) => {
   const j = journey(page)
   // `Kuzure Kesa Gatame to Kesa Gatame`, the same node the owner reported as `Modified Scarf to
   // Kesa Gatame` — its position was one of three filed twice and collapsed onto the judo name
@@ -747,7 +769,7 @@ test("arriving on a TRANSITION's defending side is a calm staged landing — no 
 })
 
 // ── 7. the finishing side = Finish it, in the hand ───────────────────────────────────────────
-test("a staged technique's own card is the go — highlighted, then committed in place @curated", async ({
+test("a staged technique's own card is the go — highlighted, then committed in place", async ({
   page,
 }) => {
   const j = journey(page)
@@ -812,7 +834,7 @@ test("a family-hub URL lands on the family, not on a random weighted start", asy
  * (3) The last three seconds pulse the card itself — ng-clock-hot goes on at ≤3s
  *     and comes off with the disarm. Kills: dropping the hot-class add.
  */
-test("@curated the meter mirrors Win-left, and the clock drains through pause into the hot pulse", async ({
+test("the meter mirrors Win-left, and the clock drains through pause into the hot pulse", async ({
   page,
 }) => {
   const j = journey(page)

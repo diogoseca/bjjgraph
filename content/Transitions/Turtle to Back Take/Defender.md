@@ -160,8 +160,8 @@ description: "How to defend against Turtle to Back Take in BJJ. Recognition cues
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Turtle hand fighting, sit out and back prevention @Burybjj",
-      "description": "Turtle to Back Take (Defender) film study: Turtle hand fighting, sit out and back prevention @Burybjj.",
+      "name": "Turtle hand fighting, sit out and back prevention",
+      "description": "Turtle to Back Take (Defender) film study: Turtle hand fighting, sit out and back prevention.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4XBkuhgMhUI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/4XBkuhgMhUI",
       "url": "https://www.youtube.com/watch?v=4XBkuhgMhUI",
@@ -197,7 +197,7 @@ The defender's priority hierarchy is clear: first prevent seatbelt grip establis
 
 ![](https://www.youtube.com/watch?v=4XBkuhgMhUI)
 
-<p class="clip-credit"><strong>Turtle hand fighting, sit out and back prevention @Burybjj</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=4XBkuhgMhUI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle hand fighting, sit out and back prevention</strong> · 2:34 · <a href="https://www.youtube.com/watch?v=4XBkuhgMhUI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

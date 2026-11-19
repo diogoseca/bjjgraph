@@ -72,7 +72,7 @@ async function seat(page: Page, kind: Kind) {
 }
 
 for (const kind of ["transition", "entry", "finish", "escape"] as Kind[]) {
-  test(`@curated ${kind}: no Inspect or Read, and the card title executes`, async ({ page }) => {
+  test(`${kind}: no Inspect or Read, and the card title executes`, async ({ page }) => {
     const errors: string[] = []; page.on("pageerror", (e) => errors.push(e.message))
     const j = await seat(page, kind)
     const title = await mark(page, kind)
@@ -100,7 +100,7 @@ for (const kind of ["transition", "entry", "finish", "escape"] as Kind[]) {
   })
 }
 
-test("@curated a threat is the opponent's move: its title is inert and no execute or Read control exists", async ({ page }) => {
+test("a threat is the opponent's move: its title is inert and no execute or Read control exists", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Submissions/Triangle-Choke/from-Triangle-Control/Attacker")
   await j.advance(4000)
@@ -124,12 +124,21 @@ test("@curated a threat is the opponent's move: its title is inert and no execut
 })
 
 for (const [width, height] of [[1440, 900], [390, 844]]) {
-  test(`@curated a chosen escape stays on the table, where it was, until its result (${width}px)`, async ({ page }) => {
+  test(`a chosen escape stays on the table, where it was, until its result (${width}px)`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = await seat(page, "escape")
     // Posture up's authored destination is open guard, on top: a clean escape, so the result is "Escaped!"
     const title = await mark(page, "escape", "Posture up")
     await atRest(page)
+    // A STALE INSET IS NOT WHERE THE CARD IS (RED367, v1.256.7; CLAUDE.md §6.3 "clickByMouse before a layout settles").
+    // The row's left padding is the tray inset (24px) unless the reader's `trayFlush` (reader.src.js; true at 1440) takes
+    // it away, and the app writes that padding in `updateUiShift`, which under the harness runs only inside `advance()`.
+    // A reader layout landing after the seat's last advance therefore left the card painted 24px right of where the
+    // app's next padding write puts it, and the pick's own `_applyLayers` -> `updateUiShift(0)` is that write: PR #367's
+    // shard 1 read the card at x 260 and its stand-in at x 236. So: let the reader settle, give the app one frame to
+    // apply its decision, settle again, and only then read where the card is. Proven on dev's bundle and #367's, same
+    // count, by tests/artifacts/_escape_seat_probe.spec.ts (a forced late reader layout: 24px off before, 0 after).
+    await j.readerLayoutSettled(); await j.advance(17); await j.readerLayoutSettled()
     await j.rig("escape", [0])
     const before = await state(page)
     await j.clickByMouse("[data-cc-target] .ngchoice-title", `the escape "${title}"`)
@@ -155,7 +164,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
   })
 }
 
-test("@curated with the pane open the stand-in is where the clicked card was, not the pane's width to the right", async ({ page }) => {
+test("with the pane open the stand-in is where the clicked card was, not the pane's width to the right", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = await seat(page, "transition")
   await page.evaluate(() => (window as any).__neural.setDeckOpen(true))
@@ -173,7 +182,7 @@ test("@curated with the pane open the stand-in is where the clicked card was, no
   }
 })
 
-test("@curated a card scrolled into the row's left fade keeps its place when chosen", async ({ page }) => {
+test("a card scrolled into the row's left fade keeps its place when chosen", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = await seat(page, "transition")
   const title = await mark(page, "transition")

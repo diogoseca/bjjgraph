@@ -4,10 +4,13 @@
 SECURITY: runs in a NON-agent CI step so neither the PostHog key nor the step's
 CLAUDE_CODE_OAUTH_TOKEN is reachable by the Claude agent (which improves content and
 must not be able to run arbitrary code to exfiltrate secrets). The agent only reads
-the JSON this writes.
+the JSON this writes. Every row's URL is visitor-written text, so each is reduced to
+one of the site's own routes before it is written, and rows naming no page are
+dropped and counted (scripts/_site_routes.py, v1.265.1): the agent reads only our paths.
 
-Writes {available, pageviews, session_duration, bounce_rate, search_entry} as JSON.
-Never raises — degrades to {"available": false, "note": ...}.
+Writes {available, pageviews, session_duration, bounce_rate, search_entry, dropped} as
+JSON, each metric a list of [site path, number]. Never raises — degrades to
+{"available": false, "note": ...}.
 
 Env:
   POSTHOG_PERSONAL_API_KEY  PostHog personal key (phx_) — the Query API rejects the
@@ -24,6 +27,14 @@ import json
 import os
 import sys
 import urllib.request
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _site_routes import clean_rows, route_index  # noqa: E402
+
+# "Never looked" must not read as "found nothing": an answer with no results list (an error body, an async answer, a
+# renamed key) is counted as that metric's error, with fixed text, never as an empty metric.
+NO_RESULTS_NOTE = "PostHog answered without a results list"
 
 QUERIES = {
     "pageviews": (
@@ -50,7 +61,7 @@ QUERIES = {
 }
 
 
-def run_query(pid: str, key: str, hogql: str) -> list:
+def run_query(pid: str, key: str, hogql: str) -> list | None:
     req = urllib.request.Request(
         f"https://us.posthog.com/api/projects/{pid}/query/",
         data=json.dumps({"query": {"kind": "HogQLQuery", "query": hogql}}).encode("utf-8"),
@@ -58,7 +69,8 @@ def run_query(pid: str, key: str, hogql: str) -> list:
         method="POST",
     )
     with urllib.request.urlopen(req, timeout=90) as resp:
-        return json.loads(resp.read().decode("utf-8")).get("results", [])
+        payload = json.loads(resp.read().decode("utf-8"))
+    return payload.get("results") if isinstance(payload, dict) else None
 
 
 def main() -> None:
@@ -76,13 +88,23 @@ def main() -> None:
         write({"available": False, "note": "PostHog unavailable (POSTHOG_PERSONAL_API_KEY not set)"})
         return
 
-    result: dict = {"available": True}
+    routes = route_index()
+    if not routes:
+        # Fail closed: with no routes to match, every row would be dropped, or worse, a later edit would pass them raw.
+        write({"available": False, "note": "PostHog unavailable (no site routes found under content/)"})
+        return
+    result: dict = {"available": True, "dropped": {}}
     for name, hogql in QUERIES.items():
         try:
-            result[name] = run_query(pid, key, hogql)
+            rows = run_query(pid, key, hogql)
         except Exception as e:  # noqa: BLE001 — degrade per-query, never fail the job
-            result[name] = []
+            rows = []
             result.setdefault("errors", {})[name] = str(e)
+        if not isinstance(rows, list):
+            rows = []
+            result.setdefault("errors", {})[name] = NO_RESULTS_NOTE
+        result[name], result["dropped"][name] = clean_rows(rows, routes)
+        print(f"{name}: kept {len(result[name])} rows naming a site page, dropped {result['dropped'][name]}")
     write(result)
 
 

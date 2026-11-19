@@ -158,6 +158,27 @@ description: "Defend the Ghost Escape to guard from side control top. Recognitio
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ghost Escape from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stop The Ghost Escape For Good | BJJ Side Control",
+      "description": "Ghost Escape from Side Control (Defender) film study: Stop The Ghost Escape For Good | BJJ Side Control.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uxXAQgtNzgY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uxXAQgtNzgY",
+      "url": "https://www.youtube.com/watch?v=uxXAQgtNzgY",
+      "duration": "PT285S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -170,6 +191,24 @@ Defending the Ghost Escape to open guard means preventing the bottom player from
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ghost Escape from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uxXAQgtNzgY)
+
+<p class="clip-credit"><strong>Stop The Ghost Escape For Good | BJJ Side Control</strong> · 4:45 · <a href="https://www.youtube.com/watch?v=uxXAQgtNzgY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="recognition-cues" class="content-section">

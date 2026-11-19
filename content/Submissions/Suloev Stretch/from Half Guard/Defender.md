@@ -168,7 +168,7 @@ description: "Suloev Stretch from Rear Tripod (defender): A hand reaching from y
 </aside>
 <section id="overview" class="content-section">
 
-The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.
+The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. The breakdown distinguishes the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.
 
 A hand reaching from your back toward the ankle is an early cue to protect the leg. Use hand fighting before the ankle and torso are controlled together. Maintain a stable base and address the rear attachment before raising the hips with a leg available.
 

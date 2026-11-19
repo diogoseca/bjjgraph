@@ -46,8 +46,8 @@ description: "Master the Rear Naked Choke from Harness in BJJ. Complete guide to
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "TMG Clips #9 - RNC Details From Seatbelt",
-      "description": "Rear Naked Choke from Harness film study: TMG Clips #9 - RNC Details From Seatbelt.",
+      "name": "RNC Details From Seatbelt",
+      "description": "Rear Naked Choke from Harness film study: RNC Details From Seatbelt.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3H5ZyHEHfpI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3H5ZyHEHfpI",
       "url": "https://www.youtube.com/watch?v=3H5ZyHEHfpI",
@@ -56,8 +56,8 @@ description: "Master the Rear Naked Choke from Harness in BJJ. Complete guide to
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Craig Jones: details on finishing the rear naked choke",
-      "description": "Rear Naked Choke from Harness film study: Craig Jones: details on finishing the rear naked choke.",
+      "name": "Details on finishing the rear naked choke",
+      "description": "Rear Naked Choke from Harness film study: Details on finishing the rear naked choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8tdVE2zgjXw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8tdVE2zgjXw",
       "url": "https://www.youtube.com/watch?v=8tdVE2zgjXw",
@@ -123,7 +123,7 @@ Strategically, this creates a cascading dilemma system. The opponent must commit
 
 ![](https://www.youtube.com/watch?v=3H5ZyHEHfpI)
 
-<p class="clip-credit"><strong>TMG Clips #9 - RNC Details From Seatbelt</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=3H5ZyHEHfpI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>RNC Details From Seatbelt</strong> · 2:13 · <a href="https://www.youtube.com/watch?v=3H5ZyHEHfpI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -131,7 +131,7 @@ Strategically, this creates a cascading dilemma system. The opponent must commit
 
 ![](https://www.youtube.com/watch?v=8tdVE2zgjXw)
 
-<p class="clip-credit"><strong>Craig Jones: details on finishing the rear naked choke</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Details on finishing the rear naked choke</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

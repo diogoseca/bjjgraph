@@ -37,6 +37,7 @@ jobs:
       console: ${{ steps.console.outcome }}
       stamp: ${{ steps.stamp.outcome }}
       redirects: ${{ steps.redirects.outcome }}
+      gatetime: ${{ steps.gatetime.outcome }}
     env:
       POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
       POSTHOG_API_HOST: ${{ secrets.POSTHOG_API_HOST }}
@@ -45,6 +46,8 @@ jobs:
     permissions:
       contents: read
       deployments: write
+      # the gate-time tripwire reads this run's own jobs API (scripts/deploy_gate.mjs)
+      actions: read
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
@@ -55,6 +58,19 @@ jobs:
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
         with:
           node-version: "22"
+
+      # THE PROMOTION RULE, ENFORCED (v1.263.3, GATE6; the reviewer's finding 1 on #388). This deploy runs only the
+      # deploy gate (what a deploy can break, plus one smoke per surface), so the full suite must already have passed on
+      # the exact tree it ships. A promotion is a --no-ff merge of a preview-verified dev commit with no PR, so the only
+      # full run of that tree is the dev commit's push-run of e2e-full. This fails unless an e2e-full run (push or manual
+      # dispatch) on the commit that vouches for this push concluded success: the merge's dev parent, whose tree must be
+      # main's except for .github/keepalive.txt; for a single-parent push, the pushed commit itself; any other shape
+      # fails closed. Before the build on purpose: a refusal costs a minute, not the 46-minute job. Production-only
+      # (named in scripts/check_build_chains.py); the mechanism and the burst caveat are in scripts/deploy_gate.mjs.
+      - name: Promoted commit passed the full suite (gate)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/deploy_gate.mjs promotion
 
       - name: Setup Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
@@ -82,13 +98,37 @@ jobs:
       - name: Build-chain and Python provisioning contract
         run: python3 scripts/check_build_chains.py
 
+      # THE PUBLISHING TOOL, FROM A LOCKFILE (v1.266.1): Wrangler, one exact version, from
+      # .github/tools/wrangler/package-lock.json, installed with `npm ci --ignore-scripts` like every tree this deploy
+      # installs. It publishes the site (the Pages step, through the link made before it) and the digest Worker with its
+      # secrets (called by its path), so both run the bytes the lockfile names and no step fetches a CLI of its own.
+      # No package in that tree needs its install script: esbuild and workerd ship their binaries as platform packages,
+      # and their scripts only check them. Before the build, so the digest step has it whatever fails later; the digest
+      # step runs only when this step succeeded (steps.wrangler.outcome), so a refusal before it skips the Worker cleanly.
+      # MOVING THE PIN: set the version in .github/tools/wrangler/package.json and in `wranglerVersion` on the Pages
+      # step of both deploys, run (cd .github/tools/wrangler && npm install --package-lock-only --ignore-scripts), and
+      # commit both files. tests/bot_workflows_test.py checks that they agree; scripts/check_build_chains.py pins this text.
+      - name: Install Wrangler (pinned)
+        id: wrangler
+        run: |
+          (cd .github/tools/wrangler && npm ci --ignore-scripts)
+          .github/tools/wrangler/node_modules/.bin/wrangler --version
+
       # The Neural app bundle + its data payloads live under source/quartz/static/neural/,
       # which is GITIGNORED (build artifacts, 13.5MB+ payloads). Without this step the built
       # site — and therefore production AND the journey gate — contains no Neural front-end
       # at all. Regenerate from the committed sources so what we test is what we ship.
+      #
+      # INSTALLS, ONE RULE FOR BOTH TREES THIS DEPLOY INSTALLS (v1.265.1): `npm ci --ignore-scripts`, with the flag ON THE COMMAND LINE. `npm ci`
+      # installs exactly the committed lockfile or fails (the lockfile is the promise; `npm install` may re-resolve it), and
+      # no package's install script runs. Never in .npmrc or npm_config_ignore_scripts: those reach `npm run` as well, and
+      # npm skips the deploy gate's count (`posttest:curated`) under them. Nothing here needs its script: esbuild and
+      # @parcel/watcher load their prebuilt platform packages at run time, and a scratch clone installed this way built the
+      # site to the committed census. This install also serves Build Quartz, which used to install source/ a second time.
+      # Pinned by tests/deploy_gate.test.mjs (INSTALLS); scripts/check_build_chains.py pins this step's text.
       - name: Regenerate Neural app + data
         run: |
-          (cd source && npm install)
+          (cd source && npm ci --ignore-scripts)
           npm run regenerate:neural
 
       - name: Build Quartz
@@ -98,7 +138,6 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: |
-          npm install
           npx quartz build -d ../content
           python3 ../scripts/regenerate_redirects.py
           python3 ../scripts/regenerate_headers.py
@@ -170,6 +209,16 @@ jobs:
       - name: App titles match every built node and reference page
         run: npm run validate:page-titles
 
+      # NO NAMES (v1.288.0, owner U195 a + U196 b): the BUILT pages carry no "taught by" credit and no
+      # JSON-LD creator, and the served payload no clip `by`. Positive counts; it fails when it saw nothing.
+      # Since v1.289.0 it also holds the name and label lists in titles and credits, and since v1.291.0 the prose
+      # check (owner U203 a + U206 a): no listed person, nor a listed person's surname, in the source's prose and
+      # cards, in the served cards, in a clip title or in a credit, outside the allowed kinds the script names.
+      # A shared build step (also the last of `npm run build`), so it sits with the other final-output checks,
+      # before the deploy-only gates (scripts/check_build_chains.py).
+      - name: No person's name in clip credits, structured data or the served payload
+        run: npm run validate:no-names:built
+
       # Every displayed placeholder fails, with or without a configured ref.
       - name: Systems payload gate (dead highlights + dead affiliate links)
         env:
@@ -217,8 +266,10 @@ jobs:
       - name: Analytics surface — the keyless direction (fixture build)
         run: npm run validate:analytics:nokey
 
+      # The same rule (see "Regenerate Neural app + data"). --ignore-scripts also skips root's own `postinstall`
+      # (`cd source && npm install`), which would re-resolve source/ after the build; source/ is installed above.
       - name: Install root dependencies (Playwright test runner)
-        run: npm install
+        run: npm ci --ignore-scripts
 
       # Key the browser cache on the PLAYWRIGHT VERSION, never on the lockfile hash.
       # This repo bumps package.json on every commit and package-lock.json mirrors that
@@ -266,14 +317,20 @@ jobs:
         if: steps.pw-cache.outputs.cache-hit == 'true'
         run: npx playwright install-deps chromium
 
-      # Fast representative gate. The complete suite runs sharded before merges to main.
+      # THE DEPLOY GATE: WHAT ONLY A DEPLOY CAN BREAK, PLUS ONE QUICK TEST PER SURFACE (v1.263.0, the owner's
+      # U147 a). Every `@curated` journey has one row in tests/artifacts/deploy_gate.json with its reason: tier D, a
+      # test that reads what only a deploy build has (the keyed config in postscript.js, or this checkout's own
+      # history; not the build stamp, which every build writes); tier S, re-run on the exact tree that ships while reading nothing a PR build lacks
+      # (one quick test per surface, plus the sign-in and account seams kept whole). v1.263.3 moved 28 rows from D to
+      # S and dropped "the affiliate stamp" from D, which no row reads. The rest of the suite does not run here: it
+      # runs in e2e-full.yml on every PR and every push to dev, and a promotion takes only a commit whose push-run
+      # e2e-full is green, which the first gate of this job enforces, because no PR run sees main's tree. History: until v1.263.0 "a fast representative gate", 250 tests, then 427 (timeout 20 -> 30 at
+      # v1.208.3, run 36813354975), then 914 at 33.6-36.8 minutes of a 45-minute timeout on 12 Nov
+      # (the GATE1 plan, outside the repo). The timeout only bounds a hang; the time is judged by the tripwire after the live
+      # checks, against tests/artifacts/deploy_gate_budget.json, whose timeout_min this value must equal
+      # (tests/deploy_gate.test.mjs). Match the other deploy workflow: both re-list this step (CLAUDE.md §6.7).
       - name: Curated journey gate (Playwright E2E)
-        # Match preview: the 250-test serial suite needs more than 12 minutes.
-        # Raised 20 -> 30 (v1.208.3): 427 tests on one worker. The first full-game deploy
-        # (run 36813354975, dev 55c238ade) timed out at test 401 of 427 with all 401 green, after
-        # 20m05s; the suite was 381 tests in 18m15s before. The 26 remaining run ~1 min more.
-        # Match the other deploy workflow: both re-list this step (CLAUDE.md §6.7).
-        timeout-minutes: 45
+        timeout-minutes: 20
         run: npm run test:curated
 
       - name: Upload journey artifacts (on failure)
@@ -286,27 +343,26 @@ jobs:
             test-results/
           if-no-files-found: ignore
 
-      # wrangler-action v3 never got a Node-24 build, so retiring the Node-20 runtime
-      # warning here REQUIRES the v4 major, and v4's one behaviour change is that the
-      # Wrangler CLI it installs defaults to v4 (`latest`) instead of v3. `pages deploy`
-      # itself is unchanged across that major.
-      #
-      # THIS IS THE ONE REAL BEHAVIOUR CHANGE IN THE ACTION SWEEP, AND IT IS UNVERIFIED
-      # HERE. An earlier draft of this comment claimed the `npx wrangler` steps below
-      # "already run the v4 CLI against this account", which reads as evidence and is not:
-      # nothing in this repo pins a wrangler version (no dependency in either package.json),
-      # so those steps resolve whatever npm's `latest` dist-tag serves at run time. That is
-      # very likely the v4 line today, but it is an inference about npm's registry state on
-      # some future morning, not a fact this repo controls or can gate (CLAUDE.md 6.9).
-      # If a Pages deploy starts failing right after this pin moved, suspect the CLI major
-      # first: the v4.0.0 notes give the escape hatch, set `wranglerVersion` on this step
-      # (their example is "3.90.0") to hold the CLI on the v3 line.
+      # The Pages action runs the Wrangler its probe finds (`npx --no-install wrangler --version`, in the repository root),
+      # and installs `wrangler@<wranglerVersion>` itself only when that probe finds no copy of exactly that version. This
+      # step links the copy installed from the lockfile above into the root's node_modules/.bin, where the probe looks, and
+      # runs the probe first: it prints the pinned version, or the step fails. Here and not with the install: the root's
+      # `npm ci` above starts from an empty node_modules. Same text in both deploys (scripts/check_build_chains.py).
+      - name: Link the pinned Wrangler for the Pages action
+        run: |
+          ln -sfn ../../.github/tools/wrangler/node_modules/wrangler/bin/wrangler.js node_modules/.bin/wrangler
+          npx --no-install wrangler --version
+
+      # wrangler-action v3 never got a Node-24 build, so this is the v4 major. `wranglerVersion` is the version in
+      # .github/tools/wrangler/package.json (tests/bot_workflows_test.py), so the step above satisfies the action's probe
+      # and the action installs nothing.
       - name: Deploy to Cloudflare Pages
         id: cf
         uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4.159.0"
           command: pages deploy source/public --project-name=bjjgraph
 
       # THE DEPLOYED PAGE, IN A REAL BROWSER (CONSOLE0, 2026-10-05): see deploy-dev.yaml's step of
@@ -340,40 +396,62 @@ jobs:
         continue-on-error: true
         run: python3 scripts/check_headers_cache.py --live https://bjjgraph.org
 
+      # THE GATE'S OWN TIME (v1.263.0, GATE5): see deploy-dev.yaml's step of the same purpose and
+      # scripts/deploy_gate.mjs. Like console, the site is already live, so it does not fail this job (Lighthouse,
+      # IndexNow and the release still run); its verdict turns `deployed-console` red when the gate passed its line,
+      # or (v1.264.2, GATE7) when the count posttest:curated leaves is missing or differs from the ledger. PLAINLY
+      # (GATE8): a switched-off count is caught only after the upload. Production is already serving the build when
+      # this goes red; it blocks nothing and rolls nothing back, and Lighthouse, IndexNow and the release still run.
+      # What blocks before the upload is the count itself, whenever the hook runs: every deploy today.
+      - name: Deploy gate time and count (tripwire)
+        id: gatetime
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/deploy_gate.mjs tripwire
+
       # ── Training-day digest (v1.105.7): the Worker + its secrets, and the unsubscribe
       #    Function's Pages secrets — ALL flowing from GitHub secrets, so there is exactly one
       #    place a credential lives. Skips loudly (never fails the deploy) until the owner adds
       #    SUPABASE_SERVICE_ROLE_KEY; UNSUB_HMAC_SECRET was generated and set 2026-08-17.
+      #    The CLI is the pinned Wrangler ("Install Wrangler (pinned)", before the build), called by its path. It runs
+      #    whatever failed after that install (always()), and is skipped when the install itself did not succeed, so a
+      #    refusal before it (the promotion rule, validation, the chain contract) deploys no Worker. Pinned by
+      #    tests/deploy_gate.test.mjs (INSTALLS).
       - name: Deploy digest Worker + sync secrets
-        if: always()
+        if: always() && steps.wrangler.outcome == 'success'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           UNSUB_HMAC_SECRET: ${{ secrets.UNSUB_HMAC_SECRET }}
+          WRANGLER: ${{ github.workspace }}/.github/tools/wrangler/node_modules/.bin/wrangler
         run: |
           if [ -z "$SUPABASE_SERVICE_ROLE_KEY" ] || [ -z "$UNSUB_HMAC_SECRET" ]; then
             echo "::notice::digest Worker NOT deployed — add SUPABASE_SERVICE_ROLE_KEY (and UNSUB_HMAC_SECRET) to repo secrets to enable"
             exit 0
           fi
           cd workers/digest
-          npx wrangler deploy
-          printf '%s' "$SUPABASE_URL"              | npx wrangler secret put SUPABASE_URL
-          printf '%s' "$SUPABASE_SERVICE_ROLE_KEY" | npx wrangler secret put SUPABASE_SERVICE_ROLE_KEY
-          printf '%s' "$UNSUB_HMAC_SECRET"         | npx wrangler secret put UNSUB_HMAC_SECRET
+          "$WRANGLER" deploy
+          printf '%s' "$SUPABASE_URL"              | "$WRANGLER" secret put SUPABASE_URL
+          printf '%s' "$SUPABASE_SERVICE_ROLE_KEY" | "$WRANGLER" secret put SUPABASE_SERVICE_ROLE_KEY
+          printf '%s' "$UNSUB_HMAC_SECRET"         | "$WRANGLER" secret put UNSUB_HMAC_SECRET
           cd ../..
           # the unsubscribe Pages Function reads the SAME three from the Pages project
-          printf '%s' "$SUPABASE_URL"              | npx wrangler pages secret put SUPABASE_URL --project-name=bjjgraph
-          printf '%s' "$SUPABASE_SERVICE_ROLE_KEY" | npx wrangler pages secret put SUPABASE_SERVICE_ROLE_KEY --project-name=bjjgraph
-          printf '%s' "$UNSUB_HMAC_SECRET"         | npx wrangler pages secret put UNSUB_HMAC_SECRET --project-name=bjjgraph
+          printf '%s' "$SUPABASE_URL"              | "$WRANGLER" pages secret put SUPABASE_URL --project-name=bjjgraph
+          printf '%s' "$SUPABASE_SERVICE_ROLE_KEY" | "$WRANGLER" pages secret put SUPABASE_SERVICE_ROLE_KEY --project-name=bjjgraph
+          printf '%s' "$UNSUB_HMAC_SECRET"         | "$WRANGLER" pages secret put UNSUB_HMAC_SECRET --project-name=bjjgraph
 
   # Post-deploy verdicts get their own red; observations are in the corresponding deploy steps.
   deployed-console:
     needs: deploy
     runs-on: ubuntu-latest
+    # Least privilege (v1.265.1): it reads only the deploy job's outputs, so its token gets no scope. Until then this job
+    # and lighthouse-ci declared no permissions of their own.
+    permissions: {}
     steps:
-      - name: Deployed console, stamp cache header and live redirects are clean (gate)
+      - name: Deployed console, stamp cache header, live redirects and the gate's time are clean (gate)
         run: |
           if [ "${{ needs.deploy.outputs.console }}" != "success" ]; then
             echo "::error::The deployed console check did not pass (outcome: ${{ needs.deploy.outputs.console }}). Its offenders are in the deploy job's 'Deployed console check' step and summary."
@@ -390,10 +468,18 @@ jobs:
             exit 1
           fi
           echo "live redirects answer"
+          if [ "${{ needs.deploy.outputs.gatetime }}" != "success" ]; then
+            echo "::error::The curated gate passed its line, its time could not be read, or its count is missing or differs from the ledger (outcome: ${{ needs.deploy.outputs.gatetime }}). See the deploy job's 'Deploy gate time and count (tripwire)' step; the budget is tests/artifacts/deploy_gate_budget.json."
+            exit 1
+          fi
+          echo "the curated gate's time is inside its line, and its count equals the ledger"
 
   lighthouse-ci:
     needs: deploy
     runs-on: ubuntu-latest
+    # Least privilege (v1.265.1): a checkout and a public Lighthouse upload; nothing writes to the repository.
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:

@@ -65,22 +65,22 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 
 | what you are doing | seams |
 |---|---|
-| overlays, hit-testing | `attachInput` · `_suppressLand` · `_landHidden` · `_tapBackground` |
+| overlays, hit-testing | `attachInput` · `_suppressLand` · `_landHidden` · `_tapBackground` · `_mapAlone` (the legend's key) |
 | docking fixed chrome | `_dockLandCard` · `_dockLandFilm` · `_dockLandMore` · `_landDatum` · `_bandBot` |
-| the three bottom layers (film · card · hand), sticky by setting | `setLayer` · `_layerOn` · `_handShown` · `_applyLayers` · `_renderLayerDock` — a collapsed card is NOT BUILT, a collapsed hand is dealt and hidden; the complete article is independent of the card; `neural/src/reader.src.js` owns reading intent and the labeled shelf |
+| the three bottom layers (film · card · hand), sticky by setting | `setLayer` · `_layerOn` · `_handShown` · `_applyLayers` · `_renderLayerDock` — a collapsed card is NOT BUILT, a collapsed hand is dealt and hidden; the complete article is independent of the card; `neural/src/reader.src.js` owns reading intent, each closed part's message (`notice`, U131 b2) and the one-landing label (its shelf is retired, v1.253.0) |
 | node coordinates, camera | `pairMid` · `_LY` · `headPos` · `rollCamTarget` · `holdCamera` · `frameNodes` |
 | starting/staging a roll | `rollFromPosition` · `techniqueOrigin` · `confirmPlayFrom` · `seatRole` · `_seatMember` · `stageRollAt` |
 | the hand and its numbers | `optionsFor` · `edgeMark` · `orderScore` · `moveChance` · `movePotential` (escape tray only) |
 | outcomes | `drawOutcome` · `resolve` · `opponentDefend` · `momentumSkew` |
 | roles and values | `valIdx` · `roleIdx` · `myColor` · `displayName` · `graphName` |
-| naming a node on ANY surface | `graphName` (the one name — a position's `"… Top"` title suffix is a rendering artifact and comes off everywhere, canvas and DOM) · `nodeQual` (the dim second line: `from <origin>`, or an own/family alias) · `nodeMatches` (all aliases; `_ensureAliases` defers the index) — a SEAT is named beside a name, never inside it: the node card's badge, the row's role chip, the canvas sub-line |
-| decks, grading, score | `_cardsOf` · `deckMastery` · `gameScore` · `_bumpStageVer` · `_warmMcPool` · `_schedule` · `ngWireDecks` · `ngWireScoreWeights` (the ordinal-keyed manifest + score wire) |
+| naming a node on ANY surface | `graphName` (the one name — a position's `"… Top"` title suffix is a rendering artifact and comes off everywhere, canvas and DOM) · `nodeQual` (the dim second line: `from <origin>`, or an own/family alias) · `nodeMatches` (all aliases; `_ensureAliases` defers the index) — a SEAT is named beside a name, never inside it: the row's role chip, the canvas sub-line |
+| decks, grading, score | `_cardsOf` · `deckMastery` · `gameScore` · `_bumpStageVer` · `_warmMcPool` · `_schedule` · `_gradeMoves` (a move; the cloze) · `ngWireDecks` · `ngWireScoreWeights` (the ordinal-keyed manifest + score wire) |
 | lists and sharing | `siteIdOf` · `captureNode` · `ngListEncodeOrdinals` · `_openSharedListFromUrl` |
 | a page-shaped entry (Principle · Learning · System): its body, its panel, its URL | `_docBody` · `_bodyDocHTML` · `NG_DOC_LABELS` · `_seedPageFromUrl` — and **never `_ngc` here**: it caches a miss as an answer, which is right for a node and wrong for an entry whose index promises a body |
 | persistence | `_pullAndMerge` · `ngMergeLists` · `_saveProgress` |
 | randomness | `rng(tag)` — **never `Math.random`**; `scripts/check_no_raw_random.sh` gates it |
 | the tray | `_trayStop` · `_trayGlideBy` · `_trayFling` |
-| the drawer: its list, views, badge | `NG_PANE_TABS` · `setViewMode` · `drawerHome` · `_renderTrain` · `_paintBadge` |
+| the drawer: its list, views, badge, search | `NG_PANE_TABS` · `setViewMode` · `drawerHome` · `_renderTrain` · `_paintBadge` · `openSearchPane` |
 | keys on an inline deck (history · session · corridor) | `_miniReg` · `_focusRow` · `_challengeInline` · `challengeLessonNav` · `_lessonRows` — one registry for all three; a deck that takes focus takes it on the deck BOX, never a button (Space/⏎ are activation keys, §6.1) |
 | gi / no-gi exclusion | `giAllows` · `rsAllows` · `_rulesetMask` · `setGiMode` · `cal.avail` · `frame_reachable` |
 | build-side joins | `_tech_keys` · `fnv1a32` (in `scripts/_neural_content.py`) |

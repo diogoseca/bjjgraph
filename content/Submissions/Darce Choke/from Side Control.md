@@ -47,44 +47,40 @@ description: "Learn the D'Arce head-and-arm choke from Side Control, including t
       "@type": "VideoObject",
       "position": 1,
       "name": "Side Control D\u0027Arce Choke (No Gi)",
-      "description": "Darce Choke from Side Control film study: Side Control D\u0027Arce Choke (No Gi), taught by ZombieProofBJJ.",
+      "description": "Darce Choke from Side Control film study: Side Control D\u0027Arce Choke (No Gi).",
       "thumbnailUrl": "https://i.ytimg.com/vi/ukb_hx28qsM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ukb_hx28qsM",
       "url": "https://www.youtube.com/watch?v=ukb_hx28qsM",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
       "duration": "PT74S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "1 Minute Jiu-Jitsu Hack: Marce Choke",
-      "description": "Darce Choke from Side Control film study: 1 Minute Jiu-Jitsu Hack: Marce Choke, taught by Brandon McCaghren.",
+      "name": "Marce Choke: a one-minute tip",
+      "description": "Darce Choke from Side Control film study: Marce Choke: a one-minute tip.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hCiHjCbhGyE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hCiHjCbhGyE",
       "url": "https://www.youtube.com/watch?v=hCiHjCbhGyE",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT67S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Marce Choke",
-      "description": "Darce Choke from Side Control film study: Marce Choke, taught by Colemans Electric.",
+      "description": "Darce Choke from Side Control film study: Marce Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1jsDC-jaPoU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/1jsDC-jaPoU",
       "url": "https://www.youtube.com/watch?v=1jsDC-jaPoU",
-      "creator": { "@type": "Person", "name": "Colemans Electric" },
       "duration": "PT78S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Knee Flare Marce Choke Detail",
-      "description": "Darce Choke from Side Control film study: Knee Flare Marce Choke Detail, taught by Drew Darce.",
+      "description": "Darce Choke from Side Control film study: Knee Flare Marce Choke Detail.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Mp7Ffm85k0A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Mp7Ffm85k0A",
       "url": "https://www.youtube.com/watch?v=Mp7Ffm85k0A",
-      "creator": { "@type": "Person", "name": "Drew Darce" },
       "duration": "PT113S"
     }
   ]
@@ -147,7 +143,7 @@ The same family is taught from front headlock and half-guard exchanges. This ent
 
 ![](https://www.youtube.com/watch?v=ukb_hx28qsM)
 
-<p class="clip-credit"><strong>Side Control D&#39;Arce Choke (No Gi)</strong> — taught by ZombieProofBJJ · 1:14 · <a href="https://www.youtube.com/watch?v=ukb_hx28qsM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control D&#39;Arce Choke (No Gi)</strong> · 1:14 · <a href="https://www.youtube.com/watch?v=ukb_hx28qsM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -155,7 +151,7 @@ The same family is taught from front headlock and half-guard exchanges. This ent
 
 ![](https://www.youtube.com/watch?v=hCiHjCbhGyE)
 
-<p class="clip-credit"><strong>1 Minute Jiu-Jitsu Hack: Marce Choke</strong> — taught by Brandon McCaghren · 1:07 · <a href="https://www.youtube.com/watch?v=hCiHjCbhGyE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Marce Choke: a one-minute tip</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=hCiHjCbhGyE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -163,7 +159,7 @@ The same family is taught from front headlock and half-guard exchanges. This ent
 
 ![](https://www.youtube.com/watch?v=1jsDC-jaPoU)
 
-<p class="clip-credit"><strong>Marce Choke</strong> — taught by Colemans Electric · 1:18 · <a href="https://www.youtube.com/watch?v=1jsDC-jaPoU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Marce Choke</strong> · 1:18 · <a href="https://www.youtube.com/watch?v=1jsDC-jaPoU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -171,7 +167,7 @@ The same family is taught from front headlock and half-guard exchanges. This ent
 
 ![](https://www.youtube.com/watch?v=Mp7Ffm85k0A)
 
-<p class="clip-credit"><strong>Knee Flare Marce Choke Detail</strong> — taught by Drew Darce · 1:53 · <a href="https://www.youtube.com/watch?v=Mp7Ffm85k0A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Flare Marce Choke Detail</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=Mp7Ffm85k0A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

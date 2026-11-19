@@ -154,33 +154,30 @@ description: "Compression locks fold a limb around a wedge, creating pressure in
       "@type": "VideoObject",
       "position": 1,
       "name": "Bicep slicer mechanics",
-      "description": "Compression Locks film study: Bicep slicer mechanics, taught by bjjtaro.",
+      "description": "Compression Locks film study: Bicep slicer mechanics.",
       "thumbnailUrl": "https://i.ytimg.com/vi/j3vxcRC51m4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/j3vxcRC51m4",
       "url": "https://www.youtube.com/watch?v=j3vxcRC51m4",
-      "creator": { "@type": "Person", "name": "bjjtaro" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Reverse calf slicer breakdown from a UFC finish",
-      "description": "Compression Locks film study: Reverse calf slicer breakdown from a UFC finish, taught by Jiu Jitsu Diagnostic.",
+      "description": "Compression Locks film study: Reverse calf slicer breakdown from a UFC finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wlWBHgv5Txw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wlWBHgv5Txw",
       "url": "https://www.youtube.com/watch?v=wlWBHgv5Txw",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu Diagnostic" },
       "duration": "PT221S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Bicep slicer from closed guard",
-      "description": "Compression Locks film study: Bicep slicer from closed guard, taught by Marcelo Mattos.",
+      "description": "Compression Locks film study: Bicep slicer from closed guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wwl97QswDn4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wwl97QswDn4",
       "url": "https://www.youtube.com/watch?v=wwl97QswDn4",
-      "creator": { "@type": "Person", "name": "Marcelo Mattos" },
       "duration": "PT124S"
     }
   ]
@@ -210,7 +207,7 @@ Recognize the wedge and the controlled limb before any folding pressure develops
 
 ![](https://www.youtube.com/watch?v=j3vxcRC51m4)
 
-<p class="clip-credit"><strong>Bicep slicer mechanics</strong> — taught by bjjtaro · 1:01 · <a href="https://www.youtube.com/watch?v=j3vxcRC51m4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bicep slicer mechanics</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=j3vxcRC51m4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +215,7 @@ Recognize the wedge and the controlled limb before any folding pressure develops
 
 ![](https://www.youtube.com/watch?v=wlWBHgv5Txw)
 
-<p class="clip-credit"><strong>Reverse calf slicer breakdown from a UFC finish</strong> — taught by Jiu Jitsu Diagnostic · 3:41 · <a href="https://www.youtube.com/watch?v=wlWBHgv5Txw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse calf slicer breakdown from a UFC finish</strong> · 3:41 · <a href="https://www.youtube.com/watch?v=wlWBHgv5Txw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,7 +223,7 @@ Recognize the wedge and the controlled limb before any folding pressure develops
 
 ![](https://www.youtube.com/watch?v=wwl97QswDn4)
 
-<p class="clip-credit"><strong>Bicep slicer from closed guard</strong> — taught by Marcelo Mattos · 2:04 · <a href="https://www.youtube.com/watch?v=wwl97QswDn4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bicep slicer from closed guard</strong> · 2:04 · <a href="https://www.youtube.com/watch?v=wwl97QswDn4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

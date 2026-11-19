@@ -154,8 +154,8 @@ description: "Learn to defend against the Seat Belt Peel Escape from top back co
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Maintaining Back Control:Seatbelt Grip - The Philosophy Behind Oga\u0027s Jiu-Jitsu",
-      "description": "Seat Belt Peel Escape (Defender) film study: Maintaining Back Control:Seatbelt Grip - The Philosophy Behind Oga\u0027s Jiu-Jitsu.",
+      "name": "Maintaining Back Control:Seatbelt Grip - The Philosophy Behind Jiu-Jitsu",
+      "description": "Seat Belt Peel Escape (Defender) film study: Maintaining Back Control:Seatbelt Grip - The Philosophy Behind Jiu-Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/eioeT2_os88/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/eioeT2_os88",
       "url": "https://www.youtube.com/watch?v=eioeT2_os88",
@@ -197,7 +197,7 @@ Defending the Seat Belt Peel Escape means maintaining your seat belt grip integr
 
 ![](https://www.youtube.com/watch?v=eioeT2_os88)
 
-<p class="clip-credit"><strong>Maintaining Back Control:Seatbelt Grip - The Philosophy Behind Oga&#39;s Jiu-Jitsu</strong> · 8:44 · <a href="https://www.youtube.com/watch?v=eioeT2_os88" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Maintaining Back Control:Seatbelt Grip - The Philosophy Behind Jiu-Jitsu</strong> · 8:44 · <a href="https://www.youtube.com/watch?v=eioeT2_os88" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

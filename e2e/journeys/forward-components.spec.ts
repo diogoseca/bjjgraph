@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-test.describe("Forward Components development library @curated", () => {
+test.describe("Forward Components development library", () => {
   test("components expose reusable variants and device frames", async ({
     page,
   }) => {
@@ -420,7 +420,7 @@ test.describe("Forward Components development library @curated", () => {
     );
   });
 
-  test("the dev hub links all four libraries and the production sound lab", async ({
+  test("@curated the dev hub links all four libraries and the production sound lab", async ({
     page,
   }) => {
     await page.goto("/dev/");

@@ -46,8 +46,8 @@ description: "Master the Half Guard to Back Take in BJJ. Complete guide to under
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Joe Rogan inspired backtake from half guard | BJJ passes",
-      "description": "Half Guard to Back Take film study: Joe Rogan inspired backtake from half guard | BJJ passes.",
+      "name": "Backtake from half guard | BJJ passes",
+      "description": "Half Guard to Back Take film study: Backtake from half guard | BJJ passes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XqH1Bt0-AgY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XqH1Bt0-AgY",
       "url": "https://www.youtube.com/watch?v=XqH1Bt0-AgY",
@@ -84,7 +84,7 @@ description: "Master the Half Guard to Back Take in BJJ. Complete guide to under
 
 **Half Guard to Back Take is a bottom half guard transition that uses a deep far-side underhook to create a perpendicular angle, block the opponent's hip, and climb onto their back to establish dominant back control.**
 
-Half Guard to Back Take represents an advanced positional transition that transforms a defensive half guard position into the highly dominant back control. This transition is fundamental to modern half guard systems and represents one of the highest-percentage paths to dominance from bottom position. The technique relies on establishing an underhook, creating a perpendicular angle to the opponent, and systematically climbing to their back while they attempt to maintain top pressure. This transition is particularly effective because it exploits the opponent's forward pressure against them, using their own weight commitment to facilitate the back take. Mastery of this transition is essential for any serious half guard player and represents a key component of offensive half guard systems developed by experts like Bernardo Faria and Craig Jones.
+Half Guard to Back Take represents an advanced positional transition that transforms a defensive half guard position into the highly dominant back control. This transition is fundamental to modern half guard systems and represents one of the highest-percentage paths to dominance from bottom position. The technique relies on establishing an underhook, creating a perpendicular angle to the opponent, and systematically climbing to their back while they attempt to maintain top pressure. This transition is particularly effective because it exploits the opponent's forward pressure against them, using their own weight commitment to facilitate the back take. Mastery of this transition is essential for any serious half guard player and represents a key component of offensive half guard systems.
 
 **From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 43%
@@ -103,7 +103,7 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 ![](https://www.youtube.com/watch?v=XqH1Bt0-AgY)
 
-<p class="clip-credit"><strong>Joe Rogan inspired backtake from half guard | BJJ passes</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=XqH1Bt0-AgY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Backtake from half guard | BJJ passes</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=XqH1Bt0-AgY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

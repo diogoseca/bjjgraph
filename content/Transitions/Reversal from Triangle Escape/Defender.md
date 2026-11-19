@@ -152,8 +152,8 @@ description: "Complete guide to defending the reversal from triangle escape in B
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The EDGE Technique 5: How to Stop from being Stacked off a Triangle Choke.mp4",
-      "description": "Reversal from Triangle Escape (Defender) film study: The EDGE Technique 5: How to Stop from being Stacked off a Triangle Choke.mp4.",
+      "name": "How to Stop from being Stacked off a Triangle Choke",
+      "description": "Reversal from Triangle Escape (Defender) film study: How to Stop from being Stacked off a Triangle Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RiVzzip_7ls/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RiVzzip_7ls",
       "url": "https://www.youtube.com/watch?v=RiVzzip_7ls",
@@ -187,7 +187,7 @@ As the defender against the Reversal from Triangle Escape, you are the triangle 
 
 ![](https://www.youtube.com/watch?v=RiVzzip_7ls)
 
-<p class="clip-credit"><strong>The EDGE Technique 5: How to Stop from being Stacked off a Triangle Choke.mp4</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=RiVzzip_7ls" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Stop from being Stacked off a Triangle Choke</strong> · 1:50 · <a href="https://www.youtube.com/watch?v=RiVzzip_7ls" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

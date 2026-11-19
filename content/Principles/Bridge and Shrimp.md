@@ -154,33 +154,30 @@ description: "Bridging shifts an opponent’s weight; shrimping moves your hips 
       "@type": "VideoObject",
       "position": 1,
       "name": "How to shrimp",
-      "description": "Bridge and Shrimp film study: How to shrimp, taught by BJJ Fanatics.",
+      "description": "Bridge and Shrimp film study: How to shrimp.",
       "thumbnailUrl": "https://i.ytimg.com/vi/w_0fqd8aQco/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/w_0fqd8aQco",
       "url": "https://www.youtube.com/watch?v=w_0fqd8aQco",
-      "creator": { "@type": "Person", "name": "BJJ Fanatics" },
       "duration": "PT39S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Introduction to the defensive BJJ system",
-      "description": "Bridge and Shrimp film study: Introduction to the defensive BJJ system, taught by Priit Mihkelson.",
+      "name": "Introduction to the defensive system",
+      "description": "Bridge and Shrimp film study: Introduction to the defensive system.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vHDqBGNTnfY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vHDqBGNTnfY",
       "url": "https://www.youtube.com/watch?v=vHDqBGNTnfY",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
       "duration": "PT325S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Why the power shrimp is essential to escapes",
-      "description": "Bridge and Shrimp film study: Why the power shrimp is essential to escapes, taught by SBG PDX.",
+      "description": "Bridge and Shrimp film study: Why the power shrimp is essential to escapes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/VSdnYRHtCpc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/VSdnYRHtCpc",
       "url": "https://www.youtube.com/watch?v=VSdnYRHtCpc",
-      "creator": { "@type": "Person", "name": "SBG PDX" },
       "duration": "PT247S"
     }
   ]
@@ -210,7 +207,7 @@ Use the bridge to make the opponent adjust, then move your hips into the opening
 
 ![](https://www.youtube.com/watch?v=w_0fqd8aQco)
 
-<p class="clip-credit"><strong>How to shrimp</strong> — taught by BJJ Fanatics · 0:39 · <a href="https://www.youtube.com/watch?v=w_0fqd8aQco" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to shrimp</strong> · 0:39 · <a href="https://www.youtube.com/watch?v=w_0fqd8aQco" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +215,7 @@ Use the bridge to make the opponent adjust, then move your hips into the opening
 
 ![](https://www.youtube.com/watch?v=vHDqBGNTnfY)
 
-<p class="clip-credit"><strong>Introduction to the defensive BJJ system</strong> — taught by Priit Mihkelson · 5:25 · <a href="https://www.youtube.com/watch?v=vHDqBGNTnfY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Introduction to the defensive system</strong> · 5:25 · <a href="https://www.youtube.com/watch?v=vHDqBGNTnfY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,7 +223,7 @@ Use the bridge to make the opponent adjust, then move your hips into the opening
 
 ![](https://www.youtube.com/watch?v=VSdnYRHtCpc)
 
-<p class="clip-credit"><strong>Why the power shrimp is essential to escapes</strong> — taught by SBG PDX · 4:07 · <a href="https://www.youtube.com/watch?v=VSdnYRHtCpc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Why the power shrimp is essential to escapes</strong> · 4:07 · <a href="https://www.youtube.com/watch?v=VSdnYRHtCpc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -126,10 +126,34 @@ async function installControlledProvider(page: Page, fixedImmediate?: number, wa
 }
 
 const names = (page: Page) => page.locator('[data-choice-group="you"] [data-tech]').evaluateAll(cards => cards.map(c => c.getAttribute('data-tech')))
+// THE ONE STATUS SLOT (v1.258.0, the owner's note on U130, s2): the status line beside "Your moves" and its one press
+// ("Sort by win chance" or "Retry"), which replaced the bold "Sort by win chance" / "Retry win chances" buttons. Read
+// off the DOM the player sees: its text, the press, and where the line ENDS against the hand's ✕ (and the screen
+// edge), with the title's line height. Every state that can be the widest is asserted clear of the ✕ at 390 below:
+// "Win chance unavailable · Retry" (the native-failure test), "Calculating win chances…", "Sort by win chance" and
+// "Sorted by win chance" (the explicit-sort test). "Updating…" and "Preparing…" are narrower than "Calculating…".
+// What changed and what it claimed before: the explicit-sort test pressed the bold button ('[data-choice-value-sort]')
+// and now presses the slot's "Sort by win chance"; the re-solve test's "status empty" now also reads the press that
+// offers the sort; the native-failure test gains the slot's Retry and the clearance.
+// ONE NON-KILL, recorded so nobody reads it as covered: the slot asks ngChoiceValueOrder(…, true) whether the hand stands in a
+// ranking; dropping the `true` ("the order came back unchanged") changes nothing these journeys can
+// see, because the only READY hand with no ranking is a certified value whose interval straddles a display bin, which
+// this fixture (exact-rational) cannot produce — a missing card makes the snapshot "partial", which reads "Win chance
+// unavailable". The helper itself is pinned by tests/choice_value.test.mjs (null for an ambiguous or partial hand).
+const slot = (page: Page) => page.evaluate(() => {
+  const t = document.querySelector('[data-choice-group="you"] > div') as HTMLElement
+  const st = t.querySelector('[data-choice-value-status]')!, pr = t.querySelector('[data-choice-value-press]') as HTMLElement
+  const shown = getComputedStyle(pr).display !== 'none'
+  const end = (el: Element) => { const g = document.createRange(); g.selectNodeContents(el); return g.getBoundingClientRect().right }
+  const x = (window as any).__neural._handCloseEl, xr = x && x.isConnected && getComputedStyle(x).visibility !== 'hidden' ? x.getBoundingClientRect() : null
+  return { status: st.textContent, press: shown ? pr.textContent!.replace('\u00a0·\u00a0', '') : null, act: shown ? pr.getAttribute('data-act') : null,
+    end: Math.round(Math.max(end(st), shown ? end(pr) : 0)), limit: Math.round(Math.min(xr && xr.width ? xr.left : innerWidth, innerWidth)), line: t.getBoundingClientRect().height }
+})
+const clearOfClose = (s: { end: number, limit: number, line: number }) => s.end <= s.limit && s.line === 24
 const wins = (page: Page) => page.locator('[data-choice-group="you"] [data-choice-win]').allTextContents()
 
 for (const [width, height] of [[390, 844], [1440, 900]]) {
-  test(`@curated native model module failure leaves honest unavailable values and usable choices at ${width}px`, async ({ page }) => {
+  test(`native model module failure leaves honest unavailable values and usable choices at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const errors: string[] = []; page.on('pageerror', e => errors.push(e.message))
     const j = await ready(page, false, { runtime: false })
@@ -137,6 +161,10 @@ for (const [width, height] of [[390, 844], [1440, 900]]) {
     expect((await wins(page)).length).toBeGreaterThan(1)
     expect((await wins(page)).every(v => v === '—')).toBe(true)
     await expect(own.locator('[data-choice-value-status]')).toHaveText('Win chance unavailable')
+    const failed = await slot(page)
+    expect([failed.press, failed.act], 'the slot offers Retry after the status, in its own type').toEqual(['Retry', 'retry'])
+    await expect(own.locator('[data-choice-value-press]'), 'Retry is named in full').toHaveAccessibleName('Retry win chances')
+    expect(clearOfClose(failed), `"Win chance unavailable · Retry" ends clear of the ✕ on one 24px line: ${JSON.stringify(failed)}`).toBe(true)
     await expect(own.locator('[data-choice-read], footer')).toHaveCount(0)
     await page.keyboard.press('Shift+Digit1')
     await expect(page.locator('[data-choice-value-detail], [data-go]')).toHaveCount(0)
@@ -145,7 +173,7 @@ for (const [width, height] of [[390, 844], [1440, 900]]) {
     expect(errors).toEqual([])
   })
 
-  test(`@curated async values repaint without moving the focused hand; sorting is explicit at ${width}px`, async ({ page }) => {
+  test(`async values repaint without moving the focused hand; sorting is explicit at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height })
     const j = await ready(page)
     await installControlledProvider(page)
@@ -157,6 +185,8 @@ for (const [width, height] of [[390, 844], [1440, 900]]) {
     await first.focus()
     const origin = await page.locator('[data-choice-group="you"] [data-tech]').first().boundingBox()
     await expect(page.locator('[data-choice-value-status]')).toHaveText('Calculating win chances…')
+    const calculating = await slot(page)
+    expect([calculating.press, clearOfClose(calculating)], `"Calculating win chances…" alone in the slot, clear of the ✕: ${JSON.stringify(calculating)}`).toEqual([null, true])
     await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(0))
     await expect.poll(() => wins(page)).toContain('65')
     expect(await names(page)).toEqual(before)
@@ -171,8 +201,16 @@ for (const [width, height] of [[390, 844], [1440, 900]]) {
       return { height: r.height, winBottom: win.bottom, bottom, clipped: card.scrollHeight > card.clientHeight + 1, scroll: card.scrollHeight, client: card.clientHeight, children: [...card.children].map(c => ({ tag: c.tagName, cls: c.className, h: c.getBoundingClientRect().height })) }
     }))
     for (const r of rects) { expect(r.height).toBeCloseTo(176, 0); expect(r.winBottom).toBeLessThanOrEqual(r.bottom - 1); expect(r.clipped, JSON.stringify(r)).toBe(false) }
-    await j.clickByMouse('[data-choice-value-sort]', 'explicit score sorting')
+    // the touched hand did not sort itself: the slot offers the sort, quietly, where the status was
+    const offered = await slot(page)
+    expect([offered.status, offered.press, offered.act], 'a hand touched before its values landed is offered "Sort by win chance"').toEqual(['', 'Sort by win chance', 'sort'])
+    expect(clearOfClose(offered), `...clear of the ✕: ${JSON.stringify(offered)}`).toBe(true)
+    await expect(page.locator('[data-choice-value-press]')).toHaveAccessibleName('Sort by win chance')
+    await j.clickByMouse('[data-choice-value-press]', 'explicit score sorting ("Sort by win chance")')
     expect((await names(page))[0]).toBe(before[1])
+    const sorted = await slot(page)
+    expect([sorted.status, sorted.press], 'pressed: the slot says the hand is sorted, and offers nothing').toEqual(['Sorted by win chance', null])
+    expect(clearOfClose(sorted), `...clear of the ✕: ${JSON.stringify(sorted)}`).toBe(true)
     const next = page.locator('[data-choice-group="you"] [data-choice-execute]').first()
     await expect(next).toBeFocused()
     await expect(next).toHaveAccessibleName(/Win chance 65%/)
@@ -184,7 +222,7 @@ for (const [width, height] of [[390, 844], [1440, 900]]) {
   })
 }
 
-test('@curated completed MC updates immediate odds, requests one new value snapshot and rejects the pre-grade reply', async ({ page }) => {
+test('completed MC updates immediate odds, requests one new value snapshot and rejects the pre-grade reply', async ({ page }) => {
   const j = await ready(page)
   const question = await j.landQuestion()
   expect(question).toBeTruthy()
@@ -223,7 +261,7 @@ test('@curated completed MC updates immediate odds, requests one new value snaps
 // NOT a kill, by design: removing the per-hand reset in `_choiceShownMemo` alone stays green, because
 // the pairing is keyed by the card OBJECT and a new deal never reuses one; the reset is a second guard.
 // "a new deal starts from —" below guards the first one (a pairing by title or position would fail it).
-test('@curated a re-solve after an answer keeps each card\'s last Win chance, dimmed, and never treats it as current', async ({ page }) => {
+test('a re-solve after an answer keeps each card\'s last Win chance, dimmed, and never treats it as current', async ({ page }) => {
   const j = await ready(page)
   const question = await j.landQuestion()
   expect(question).toBeTruthy()
@@ -261,6 +299,8 @@ test('@curated a re-solve after an answer keeps each card\'s last Win chance, di
   expect(fresh.after, 'a current number has no ellipsis').toBe('none')
   expect(fresh.aria).not.toContain('updating')
   await expect(page.locator('[data-choice-value-status]')).toHaveText('')
+  // ...and the new best is OFFERED, not applied: the slot reads "Sort by win chance" (v1.258.0; before, the bold button)
+  expect([(await slot(page)).press, (await slot(page)).act], 'a re-solve that changes the best offers the sort, it never applies it').toEqual(['Sort by win chance', 'sort'])
   expect(await names(page)).toEqual(sorted)
   // a new deal has no previous numbers: it starts from "—"
   await page.keyboard.press('1')
@@ -270,8 +310,67 @@ test('@curated a re-solve after an answer keeps each card\'s last Win chance, di
   await expect(stale).toHaveCount(0)
 })
 
+// A PRESS ON THE TITLE IS NOT A REACH INTO THE HAND (v1.258.0, hidetoggle round 2's finding). The word and the
+// slot's press sit in the title row inside the tray, whose pointerdown/key/focus latch "touched" and stop the hand
+// sorting itself when its values land. Before, two presses on the switch (Hidden, then Shown) before the values landed
+// left the hand in dealt order. The control is the explicit-sort test above: a FOCUSED card still freezes the hand.
+test('a press on the word before the values land does not stop the hand sorting itself', async ({ page }) => {
+  const j = await ready(page)
+  await installControlledProvider(page)
+  const before = await names(page)
+  await j.clickByMouse('[data-hide-switch]', 'the word (to Hidden)')
+  await j.clickByMouse('[data-hide-switch]', 'the word (back to Shown)')
+  expect(await page.evaluate(() => (window as any).__neural._handTouched), 'two presses on the title, and the hand is not touched').toBe(false)
+  const pending = await page.evaluate(() => (window as any).__neural._choiceFixture.pending.length)
+  await page.evaluate((i) => (window as any).__neural._choiceFixture.resolve(i), pending - 1)
+  await expect.poll(() => wins(page)).toContain('65')
+  await expect.poll(() => names(page), { message: 'the hand sorted itself: the 65% card first' }).not.toEqual(before)
+  const s = await slot(page)
+  expect([s.status, s.press], 'and the slot says so').toEqual(['Sorted by win chance', null])
+})
+
+// THE KEY'S SHOW STEP IS A REACH INTO THE HAND (FOLLOW2-R1, v1.293.3; the reader of PR #443, its mutant M3). A digit whose
+// card is scrolled out of the row shows and marks it and plays nothing; the same digit again plays it
+// (option-reach.spec.ts). That second press is safe only if the hand cannot sort itself between the two. What stops it
+// is the mark itself: the keyboard's focus on the card reaches the tray's `focusin` latch. Nothing pinned that (every
+// reach journey pressed its first 7 after the hand had sorted): with the latch undone after the show, the values
+// landing re-sorted the hand and the second 7 played ANOTHER card than the one shown (the reader: 2 of 2). The values
+// here are dealt so that a sort would turn the hand right round (the last card the best), so the seventh place holds
+// another card after one.
+// Mutant, in the served bundle: `_showCard` ends by undoing the latch (`_handTouched = false; _autoSortedHand = null`)
+// → red at "the hand did not sort itself between the two presses".
+test('a digit that shows a card before the values land freezes the hand: the same digit again plays the card that was shown', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 })
+  await ready(page)
+  await installControlledProvider(page)
+  const before = await names(page)
+  expect(before.length, 'premise: the hand has a seventh card').toBeGreaterThanOrEqual(7)
+  const seventh = () => page.evaluate(() => {
+    const a = (window as any).__neural, card = a._optionCards[6].card as HTMLElement, r = card.getBoundingClientRect()
+    const at = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2)
+    return { tech: card.getAttribute('data-tech'), seen: !!at && card.contains(at), marked: document.activeElement === card.querySelector('[data-choice-execute]'), touched: !!a._handTouched }
+  })
+  const first = await seventh()
+  expect([first.tech, first.seen, first.marked, first.touched], 'premise: the seventh card is out of view, nothing is marked and the hand is untouched').toEqual([before[6], false, false, false])
+  expect((await slot(page)).status, 'premise: the win chances have not landed').not.toBe('Sorted by win chance')
+  await page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur())
+  await page.keyboard.press('7')
+  await expect.poll(async () => { const c = await seventh(); return [c.seen, c.marked] }, { message: 'the first 7 shows the seventh card and marks it' }).toEqual([true, true])
+  await expect(page.locator('[data-executing-tech]'), 'and plays nothing').toHaveCount(0)
+  // the win chances land now, between the two presses: the last card the best, so a sort would turn the hand round
+  const n = before.length, pending = await page.evaluate(() => (window as any).__neural._choiceFixture.pending.length)
+  await page.evaluate(({ i, values }) => (window as any).__neural._choiceFixture.resolve(i, values), { i: pending - 1, values: before.map((_, i) => 0.1 + 0.7 * i / (n - 1)) })
+  await expect.poll(() => wins(page), { message: 'premise: the values landed (the last card reads 80)' }).toContain('80')
+  expect(await names(page), 'the hand did not sort itself between the two presses').toEqual(before)
+  const s = await slot(page)
+  expect([s.press, s.act], 'the sort is offered, not applied').toEqual(['Sort by win chance', 'sort'])
+  await page.keyboard.press('7')
+  await expect(page.locator('[data-executing-tech]'), 'the same digit again plays a card').toHaveCount(1)
+  expect(await page.evaluate(() => { const a = (window as any).__neural, x = a._execution; return x && a.nodes[x.idx] ? a.nodes[x.idx].t : null }), 'and it is the card that was shown').toBe(before[6])
+})
+
 for (const mutate of ['role', 'ruleset', 'clock', 'profile']) {
-  test(`@curated ${mutate} changed before refresh makes an old result inert`, async ({ page }) => {
+  test(`${mutate} changed before refresh makes an old result inert`, async ({ page }) => {
     await ready(page); await installControlledProvider(page)
     await page.evaluate((kind) => {
       const a = (window as any).__neural
@@ -287,7 +386,7 @@ for (const mutate of ['role', 'ruleset', 'clock', 'profile']) {
 }
 
 for (const width of [390, 1440]) {
-  test(`@curated defender card preserves its own odds and escape identity at ${width}px`, async ({ page }) => {
+  test(`defender card preserves its own odds and escape identity at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     const j = await ready(page, true)
     await installControlledProvider(page)
@@ -312,7 +411,7 @@ for (const width of [390, 1440]) {
   })
 }
 
-test('@curated committing while scoring retires the worker; a late reply cannot alter selected-card status', async ({ page }) => {
+test('committing while scoring retires the worker; a late reply cannot alter selected-card status', async ({ page }) => {
   const j = await ready(page)
   await installControlledProvider(page)
   await page.keyboard.press('1')
@@ -329,7 +428,7 @@ test('@curated committing while scoring retires the worker; a late reply cannot 
 })
 
 for (const defense of [false, true]) {
-  test(`@curated unchanged refresh preserves Works and tiny immediate values; defense ${defense}`, async ({ page }) => {
+  test(`unchanged refresh preserves Works and tiny immediate values; defense ${defense}`, async ({ page }) => {
     await ready(page, defense)
     await installControlledProvider(page, .001)
     await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(0))
@@ -361,7 +460,7 @@ for (const defense of [false, true]) {
   })
 }
 
-test('@curated a failed calculation explains the error while keeping the move executable', async ({ page }) => {
+test('a failed calculation explains the error while keeping the move executable', async ({ page }) => {
   await ready(page); await installControlledProvider(page)
   await page.evaluate(() => (window as any).__neural._choiceFixture.pending[0].reject(new Error('test worker failure')))
   await expect(page.locator('[data-choice-value-status]')).toHaveText('Win chance unavailable')
@@ -373,7 +472,7 @@ test('@curated a failed calculation explains the error while keeping the move ex
   await expect(page.locator('[data-executing-tech] .ngchoice-title')).not.toBeEmpty()
 })
 
-test('@curated late runtime survives load failure, retries and replacement without moving the hand', async ({ page }) => {
+test('late runtime survives load failure, retries and replacement without moving the hand', async ({ page }) => {
   const j = await ready(page), before = await names(page)
   await page.evaluate(() => {
     const a = (window as any).__neural
@@ -411,7 +510,7 @@ test('@curated late runtime survives load failure, retries and replacement witho
   await j.advance(100)
 })
 
-test('@curated unmount makes a late runtime and its old solve inert', async ({ page }) => {
+test('unmount makes a late runtime and its old solve inert', async ({ page }) => {
   await ready(page); await installControlledProvider(page)
   const errors: string[] = []; page.on('pageerror', e => errors.push(e.message))
   const after = await page.evaluate(async () => {
@@ -428,7 +527,7 @@ test('@curated unmount makes a late runtime and its old solve inert', async ({ p
 
 test.describe('touch choice controls', () => {
   test.use({ hasTouch: true, isMobile: true, viewport: { width: 390, height: 844 } })
-  test('@curated touch the empty media region commits its move and preserves an inert status card', async ({ page }) => {
+  test('touch the empty media region commits its move and preserves an inert status card', async ({ page }) => {
     const j = await ready(page)
     const card = page.locator('[data-choice-group="you"] [data-tech]').first()
     const name = await card.locator('.ngchoice-title').textContent()
@@ -447,7 +546,7 @@ test.describe('touch choice controls', () => {
 })
 
 
-test('@curated Enter on the focused card commits its move; choice groups remain separate', async ({ page }) => {
+test('Enter on the focused card commits its move; choice groups remain separate', async ({ page }) => {
   await ready(page)
   const card = page.locator('[data-choice-group="you"] [data-tech]').first()
   const name = await card.locator('.ngchoice-title').textContent()

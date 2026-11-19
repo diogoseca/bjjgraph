@@ -47,33 +47,30 @@ description: "Master the Inverted Triangle choke in BJJ. Complete guide covering
       "@type": "VideoObject",
       "position": 1,
       "name": "Inverted Triangle",
-      "description": "Inverted Triangle film study: Inverted Triangle, taught by Bristol Jiu Jitsu.",
+      "description": "Inverted Triangle film study: Inverted Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xAW3spYg9vE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/xAW3spYg9vE",
       "url": "https://www.youtube.com/watch?v=xAW3spYg9vE",
-      "creator": { "@type": "Person", "name": "Bristol Jiu Jitsu" },
       "duration": "PT51S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Inverted Triangle Finish",
-      "description": "Inverted Triangle film study: Inverted Triangle Finish, taught by BJJ Lotus Club.",
+      "description": "Inverted Triangle film study: Inverted Triangle Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/i2l9Gx72DU0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/i2l9Gx72DU0",
       "url": "https://www.youtube.com/watch?v=i2l9Gx72DU0",
-      "creator": { "@type": "Person", "name": "BJJ Lotus Club" },
       "duration": "PT25S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Inverted Triangle Choke Finish",
-      "description": "Inverted Triangle film study: Inverted Triangle Choke Finish, taught by MMAYHEM.",
+      "description": "Inverted Triangle film study: Inverted Triangle Choke Finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RCzCmK7AeVU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RCzCmK7AeVU",
       "url": "https://www.youtube.com/watch?v=RCzCmK7AeVU",
-      "creator": { "@type": "Person", "name": "MMAYHEM" },
       "duration": "PT60S"
     }
   ]
@@ -138,7 +135,7 @@ As a chaining attack born from scrambles and failed-finish situations, the Inver
 
 ![](https://www.youtube.com/watch?v=xAW3spYg9vE)
 
-<p class="clip-credit"><strong>Inverted Triangle</strong> — taught by Bristol Jiu Jitsu · 0:51 · <a href="https://www.youtube.com/watch?v=xAW3spYg9vE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inverted Triangle</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=xAW3spYg9vE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +143,7 @@ As a chaining attack born from scrambles and failed-finish situations, the Inver
 
 ![](https://www.youtube.com/watch?v=i2l9Gx72DU0)
 
-<p class="clip-credit"><strong>Inverted Triangle Finish</strong> — taught by BJJ Lotus Club · 0:25 · <a href="https://www.youtube.com/watch?v=i2l9Gx72DU0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inverted Triangle Finish</strong> · 0:25 · <a href="https://www.youtube.com/watch?v=i2l9Gx72DU0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -154,7 +151,7 @@ As a chaining attack born from scrambles and failed-finish situations, the Inver
 
 ![](https://www.youtube.com/watch?v=RCzCmK7AeVU)
 
-<p class="clip-credit"><strong>Inverted Triangle Choke Finish</strong> — taught by MMAYHEM · 1:00 · <a href="https://www.youtube.com/watch?v=RCzCmK7AeVU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inverted Triangle Choke Finish</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=RCzCmK7AeVU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

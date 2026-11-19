@@ -20,7 +20,7 @@ async function role(page: Page, slug: string, side: string) {
 }
 
 for (const slug of positions) {
-  test(`@curated VIDEO1 ${slug}: native pair clicks during map play keep both role URLs`, async ({ page }) => {
+  test(`VIDEO1 ${slug}: native pair clicks during map play keep both role URLs`, async ({ page }) => {
     const j = journey(page)
     await j.boot("/")
     await j.land(slug.replaceAll("-", " ") + " Top")
@@ -33,7 +33,7 @@ for (const slug of positions) {
     console.log(`VIDEO1 ${slug}: 2 native map role clicks asserted`)
   })
 
-  test(`@curated VIDEO1 ${slug}: native pair clicks keep the role URL in both directions`, async ({ page }) => {
+  test(`VIDEO1 ${slug}: native pair clicks keep the role URL in both directions`, async ({ page }) => {
     const j = journey(page)
     await j.boot(`/Positions/${slug}/Bottom`)
     await expect(page.locator(ready)).toBeVisible()

@@ -56,8 +56,8 @@ description: "Master the Omoplata Sweep from closed guard in BJJ. Step-by-step e
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Omoplata and Log Roll Sweep #bjj #pacjiujitsu #riganmachado",
-      "description": "Omoplata Sweep film study: Omoplata and Log Roll Sweep #bjj #pacjiujitsu #riganmachado.",
+      "name": "Omoplata and Log Roll Sweep #bjj",
+      "description": "Omoplata Sweep film study: Omoplata and Log Roll Sweep #bjj.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GDXF6brOcjw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GDXF6brOcjw",
       "url": "https://www.youtube.com/watch?v=GDXF6brOcjw",
@@ -125,7 +125,7 @@ This technique is particularly valuable in competition because it transitions se
 
 ![](https://www.youtube.com/watch?v=GDXF6brOcjw)
 
-<p class="clip-credit"><strong>Omoplata and Log Roll Sweep #bjj #pacjiujitsu #riganmachado</strong> · 1:47 · <a href="https://www.youtube.com/watch?v=GDXF6brOcjw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Omoplata and Log Roll Sweep #bjj</strong> · 1:47 · <a href="https://www.youtube.com/watch?v=GDXF6brOcjw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

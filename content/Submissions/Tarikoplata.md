@@ -47,33 +47,30 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
       "@type": "VideoObject",
       "position": 1,
       "name": "The Power of the Tarikoplata",
-      "description": "Tarikoplata film study: The Power of the Tarikoplata, taught by Miha Perhavec.",
+      "description": "Tarikoplata film study: The Power of the Tarikoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/jpNqecvfuFg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/jpNqecvfuFg",
       "url": "https://www.youtube.com/watch?v=jpNqecvfuFg",
-      "creator": { "@type": "Person", "name": "Miha Perhavec" },
       "duration": "PT63S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Tarikoplata quick demo",
-      "description": "Tarikoplata film study: Tarikoplata quick demo, taught by bjjtaro.",
+      "description": "Tarikoplata film study: Tarikoplata quick demo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hVXGAvOrwyA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hVXGAvOrwyA",
       "url": "https://www.youtube.com/watch?v=hVXGAvOrwyA",
-      "creator": { "@type": "Person", "name": "bjjtaro" },
       "duration": "PT8S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Tarikoplata finishes + switch to Baratoplata",
-      "description": "Tarikoplata film study: Tarikoplata finishes + switch to Baratoplata, taught by Sam Bahador.",
+      "description": "Tarikoplata film study: Tarikoplata finishes + switch to Baratoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZbFNUmyWQkM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ZbFNUmyWQkM",
       "url": "https://www.youtube.com/watch?v=ZbFNUmyWQkM",
-      "creator": { "@type": "Person", "name": "Sam Bahador" },
       "duration": "PT60S"
     }
   ]
@@ -138,7 +135,7 @@ Named after its innovator Tarik Hopstock, who showcased it across modern no-gi c
 
 ![](https://www.youtube.com/watch?v=jpNqecvfuFg)
 
-<p class="clip-credit"><strong>The Power of the Tarikoplata</strong> — taught by Miha Perhavec · 1:03 · <a href="https://www.youtube.com/watch?v=jpNqecvfuFg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Power of the Tarikoplata</strong> · 1:03 · <a href="https://www.youtube.com/watch?v=jpNqecvfuFg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -146,7 +143,7 @@ Named after its innovator Tarik Hopstock, who showcased it across modern no-gi c
 
 ![](https://www.youtube.com/watch?v=hVXGAvOrwyA)
 
-<p class="clip-credit"><strong>Tarikoplata quick demo</strong> — taught by bjjtaro · 0:08 · <a href="https://www.youtube.com/watch?v=hVXGAvOrwyA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Tarikoplata quick demo</strong> · 0:08 · <a href="https://www.youtube.com/watch?v=hVXGAvOrwyA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -154,7 +151,7 @@ Named after its innovator Tarik Hopstock, who showcased it across modern no-gi c
 
 ![](https://www.youtube.com/watch?v=ZbFNUmyWQkM)
 
-<p class="clip-credit"><strong>Tarikoplata finishes + switch to Baratoplata</strong> — taught by Sam Bahador · 1:00 · <a href="https://www.youtube.com/watch?v=ZbFNUmyWQkM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Tarikoplata finishes + switch to Baratoplata</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=ZbFNUmyWQkM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

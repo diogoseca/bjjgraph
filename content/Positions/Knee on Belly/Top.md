@@ -166,8 +166,8 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mauricio explains the knee on belly position",
-      "description": "Knee on Belly (Top) film study: Mauricio explains the knee on belly position.",
+      "name": "The knee on belly position",
+      "description": "Knee on Belly (Top) film study: The knee on belly position.",
       "thumbnailUrl": "https://i.ytimg.com/vi/7vz2X2cGiOs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/7vz2X2cGiOs",
       "url": "https://www.youtube.com/watch?v=7vz2X2cGiOs",
@@ -202,7 +202,7 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 ![](https://www.youtube.com/watch?v=7vz2X2cGiOs)
 
-<p class="clip-credit"><strong>Mauricio explains the knee on belly position</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=7vz2X2cGiOs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The knee on belly position</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=7vz2X2cGiOs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

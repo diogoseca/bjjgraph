@@ -30,8 +30,9 @@ export async function installNeuralAuthSDK(page: Page) {
     const sdkBlockedKey = '__authOwnerSdkBlocked'
     const order: string[] = []
     const session = () => user ? { user: copy(user), access_token: 'synthetic-token-only' } : null
-    const emit = (event: string, id: string | null, profile?: { email?: string, name?: string }) => {
-      user = id ? { id, email: profile?.email || id + '@example.invalid', user_metadata: { full_name: profile?.name || id } } : null
+    // `name: null` is an email-and-password account: no name in user_metadata, so the app derives one from the address
+    const emit = (event: string, id: string | null, profile?: { email?: string, name?: string | null }) => {
+      user = id ? { id, email: profile?.email || id + '@example.invalid', user_metadata: profile?.name === null ? {} : { full_name: profile?.name || id } } : null
       if (user) localStorage.setItem(tokenKey, JSON.stringify(session()))
       else localStorage.removeItem(tokenKey)
       events.push({ event, userId: user?.id || null })
@@ -129,7 +130,7 @@ export async function waitNeuralAuthOwner(page: Page, id: string | null) {
 // A real in-page sign-in goes through the facade (account menu -> signIn / Google), which loads
 // the SDK first. Since QREV7 M1 a guest boot creates no client, so an SDK event fired with no
 // client has no listener: initialise through the REAL facade, exactly as signIn does, then emit.
-export async function signInNeuralAuthSDK(page: Page, id: string, profile?: { email?: string, name?: string }) {
+export async function signInNeuralAuthSDK(page: Page, id: string, profile?: { email?: string, name?: string | null }) {
   await page.evaluate(async ({ id, profile }) => {
     const w = window as any
     await w.__bjjAuth.ensureClientInitialized()

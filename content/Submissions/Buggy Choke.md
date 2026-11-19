@@ -46,8 +46,8 @@ description: "Master the Buggy Choke in BJJ. Powerful half guard compression cho
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Buggy choke from half guard: Moncaio Brothers JiuJitsu",
-      "description": "Buggy Choke film study: Buggy choke from half guard: Moncaio Brothers JiuJitsu.",
+      "name": "Buggy choke from half guard",
+      "description": "Buggy Choke film study: Buggy choke from half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZBOagHWTCFw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ZBOagHWTCFw",
       "url": "https://www.youtube.com/watch?v=ZBOagHWTCFw",
@@ -133,7 +133,7 @@ For the purple-to-brown belt grappler, the value of the Buggy Choke is less abou
 
 ![](https://www.youtube.com/watch?v=ZBOagHWTCFw)
 
-<p class="clip-credit"><strong>Buggy choke from half guard: Moncaio Brothers JiuJitsu</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=ZBOagHWTCFw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Buggy choke from half guard</strong> · 0:33 · <a href="https://www.youtube.com/watch?v=ZBOagHWTCFw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

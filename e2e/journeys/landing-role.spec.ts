@@ -5,7 +5,7 @@ import { journey } from "../dsl";
 // Reads the intro DOM and draw()'s published label; deleting startRoll's seat resolution
 // must fail the Bottom cases. The DSL omits dossier content; none is needed for identity.
 for (const role of ["bottom", "top"] as const) {
-  test(`@curated a ${role} opening keeps its seat from intro to landing and Carni restart`, async ({ page }) => {
+  test(`a ${role} opening keeps its seat from intro to landing and Carni restart`, async ({ page }) => {
     const j = journey(page);
     await j.boot("/", { seedRolls: { role: [role === "bottom" ? 0.9 : 0], "start-pos": [0] } });
 

@@ -668,10 +668,26 @@
       },
       {
         "id": "UaZdeo4ro3E",
-        "title": "Professor Queixinho Teaches a Highly Effective Omoplata Escape!",
+        "title": "Highly Effective Omoplata Escape!",
         "channel": "Quiexinho Online Ares BJJ Goodyear",
         "duration": 141,
         "vertical": false
+      }
+    ],
+    "escape_clips": [
+      {
+        "escape": "Forward roll escape",
+        "clips": [
+          {
+            "id": "Qoh8cXdCIlU",
+            "title": "Omoplata escape forward roll to side control!",
+            "channel": "Adriano",
+            "duration": 21,
+            "vertical": false,
+            "front": true,
+            "verified": "2026-11-17"
+          }
+        ]
       }
     ]
   }

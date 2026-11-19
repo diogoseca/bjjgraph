@@ -192,8 +192,8 @@ description: "How to execute Deashi Harai in BJJ. Attacking perspective with set
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "John Danaher Shows a Beautiful Foot Sweep on Giancarlo Bodoni! (De Ashi Harai)",
-      "description": "Deashi Harai (Attacker) film study: John Danaher Shows a Beautiful Foot Sweep on Giancarlo Bodoni! (De Ashi Harai).",
+      "name": "A Beautiful Foot Sweep! (De Ashi Harai)",
+      "description": "Deashi Harai (Attacker) film study: A Beautiful Foot Sweep! (De Ashi Harai).",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ckv5xkIoWUk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Ckv5xkIoWUk",
       "url": "https://www.youtube.com/watch?v=Ckv5xkIoWUk",
@@ -241,7 +241,7 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 ![](https://www.youtube.com/watch?v=Ckv5xkIoWUk)
 
-<p class="clip-credit"><strong>John Danaher Shows a Beautiful Foot Sweep on Giancarlo Bodoni! (De Ashi Harai)</strong> · 0:34 · <a href="https://www.youtube.com/watch?v=Ckv5xkIoWUk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>A Beautiful Foot Sweep! (De Ashi Harai)</strong> · 0:34 · <a href="https://www.youtube.com/watch?v=Ckv5xkIoWUk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

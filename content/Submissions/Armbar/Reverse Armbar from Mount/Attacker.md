@@ -170,6 +170,27 @@ description: "How to execute Reverse Armbar in BJJ. Attacking perspective with s
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Armbar from Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse armbar from mount",
+      "description": "Reverse Armbar from Mount (Attacker) film study: Reverse armbar from mount.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I2pZaO8QRCE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I2pZaO8QRCE",
+      "url": "https://www.youtube.com/watch?v=I2pZaO8QRCE",
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -183,6 +204,24 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Armbar from Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I2pZaO8QRCE)
+
+<p class="clip-credit"><strong>Reverse armbar from mount</strong> · 1:45 · <a href="https://www.youtube.com/watch?v=I2pZaO8QRCE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="key-principles" class="content-section">

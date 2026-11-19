@@ -154,43 +154,39 @@ description: "Dealing with pressure means protecting your neck and arms, buildin
       "@type": "VideoObject",
       "position": 1,
       "name": "How to prevent getting crushed",
-      "description": "Dealing with Pressure film study: How to prevent getting crushed, taught by Rory Van Vliet.",
+      "description": "Dealing with Pressure film study: How to prevent getting crushed.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gymff0hcYhQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/gymff0hcYhQ",
-      "url": "https://www.youtube.com/watch?v=gymff0hcYhQ",
-      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+      "url": "https://www.youtube.com/watch?v=gymff0hcYhQ"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Defending top pressure and transitioning to attack",
-      "description": "Dealing with Pressure film study: Defending top pressure and transitioning to attack, taught by Firas Zahabi.",
+      "description": "Dealing with Pressure film study: Defending top pressure and transitioning to attack.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EOJsjsYYmX0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EOJsjsYYmX0",
       "url": "https://www.youtube.com/watch?v=EOJsjsYYmX0",
-      "creator": { "@type": "Person", "name": "Firas Zahabi" },
       "duration": "PT62S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Defensive BJJ: the five position system",
-      "description": "Dealing with Pressure film study: Defensive BJJ: the five position system, taught by Priit Mihkelson.",
+      "name": "The five-position defensive system",
+      "description": "Dealing with Pressure film study: The five-position defensive system.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HYON7oAvB2s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/HYON7oAvB2s",
       "url": "https://www.youtube.com/watch?v=HYON7oAvB2s",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
       "duration": "PT982S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "How to breathe when trapped and getting crushed",
-      "description": "Dealing with Pressure film study: How to breathe when trapped and getting crushed, taught by Stephan Kesting.",
+      "description": "Dealing with Pressure film study: How to breathe when trapped and getting crushed.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Vf07y7rmsxE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Vf07y7rmsxE",
       "url": "https://www.youtube.com/watch?v=Vf07y7rmsxE",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
       "duration": "PT545S"
     }
   ]
@@ -220,7 +216,7 @@ Address immediate submission threats, then build a frame and an angle before try
 
 ![](https://www.youtube.com/watch?v=gymff0hcYhQ)
 
-<p class="clip-credit"><strong>How to prevent getting crushed</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=gymff0hcYhQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to prevent getting crushed</strong> · <a href="https://www.youtube.com/watch?v=gymff0hcYhQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Address immediate submission threats, then build a frame and an angle before try
 
 ![](https://www.youtube.com/watch?v=EOJsjsYYmX0)
 
-<p class="clip-credit"><strong>Defending top pressure and transitioning to attack</strong> — taught by Firas Zahabi · 1:02 · <a href="https://www.youtube.com/watch?v=EOJsjsYYmX0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending top pressure and transitioning to attack</strong> · 1:02 · <a href="https://www.youtube.com/watch?v=EOJsjsYYmX0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Address immediate submission threats, then build a frame and an angle before try
 
 ![](https://www.youtube.com/watch?v=HYON7oAvB2s)
 
-<p class="clip-credit"><strong>Defensive BJJ: the five position system</strong> — taught by Priit Mihkelson · 16:22 · <a href="https://www.youtube.com/watch?v=HYON7oAvB2s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The five-position defensive system</strong> · 16:22 · <a href="https://www.youtube.com/watch?v=HYON7oAvB2s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Address immediate submission threats, then build a frame and an angle before try
 
 ![](https://www.youtube.com/watch?v=Vf07y7rmsxE)
 
-<p class="clip-credit"><strong>How to breathe when trapped and getting crushed</strong> — taught by Stephan Kesting · 9:05 · <a href="https://www.youtube.com/watch?v=Vf07y7rmsxE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to breathe when trapped and getting crushed</strong> · 9:05 · <a href="https://www.youtube.com/watch?v=Vf07y7rmsxE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

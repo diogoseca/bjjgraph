@@ -54,8 +54,20 @@ const WIDTHS: [number, number][] = [
   [1440, 900],
 ];
 
+/**
+ * THE LONGEST ROW THE APP DRAWS. From v1.261.1 (owner U139 a, DIGEST1/2) Notifications is drawn, while
+ * the training-day email is not live, only for an account whose stored switch is on, so a guest sees
+ * four tabs. This spec's subject is the longest row (its tripwire is "the shipped five fit"), so every
+ * opening here seats that one case first: an identity the way `_applyUser` would, and the switch stored
+ * on. Which tabs each player sees is notifications-tab.spec.ts's claim, not this one's.
+ */
 const openSettings = (page: Page, tab?: string) =>
-  page.evaluate((t) => (window as any).__neural.openSettings(t), tab);
+  page.evaluate((t) => {
+    const a = (window as any).__neural;
+    a.user = a.user || { name: "Player", initial: "P", email: "player@example.com" };
+    a.settings.emailDigest = true;
+    return a.openSettings(t);
+  }, tab);
 
 type Box = { l: number; r: number; t: number; b: number };
 type Geo = {
@@ -192,7 +204,7 @@ const settled = async (page: Page) => {
 };
 
 for (const [w, h] of WIDTHS) {
-  test(`@curated at ${w}px no tab is clipped by the panel, the row cannot overflow, and the fade is honest`, async ({ page }) => {
+  test(`at ${w}px no tab is clipped by the panel, the row cannot overflow, and the fade is honest`, async ({ page }) => {
     await page.setViewportSize({ width: w, height: h });
     const j = journey(page);
     await j.boot("/");
@@ -230,7 +242,7 @@ for (const [w, h] of WIDTHS) {
   });
 }
 
-test("@curated a sixth and seventh tab do not re-break it: the panel keeps its width and the row scrolls", async ({ page }) => {
+test("a sixth and seventh tab do not re-break it: the panel keeps its width and the row scrolls", async ({ page }) => {
   // The shipped list cannot be extended from a spec, so the row is given two more CHILDREN in
   // the DOM: this tests the CSS contract (the row cannot push the card) and the published fade,
   // on the real rendered row. The fade listener is driven by a REAL scroll, not a synthetic event.
@@ -281,7 +293,7 @@ test("@curated a sixth and seventh tab do not re-break it: the panel keeps its w
   expect((await geo(page)).list.fade, "a vertical wheel over the row scrolled it back to the start").toBe("r");
 });
 
-test("@curated desktop: every tab, Shortcuts included, is reachable by a real mouse", async ({ page }) => {
+test("desktop: every tab, Shortcuts included, is reachable by a real mouse", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await openSettings(page, "flashcards");
@@ -312,7 +324,7 @@ test("@curated desktop: every tab, Shortcuts included, is reachable by a real mo
 test.describe("phone", () => {
   test.use({ viewport: { width: 390, height: 844 }, hasTouch: true });
 
-  test("@curated a hidden tab is INERT until scrolled in, then a tap reaches it; the deep link lands in view", async ({ page }) => {
+  test("a hidden tab is INERT until scrolled in, then a tap reaches it; the deep link lands in view", async ({ page }) => {
     const j = journey(page);
     await j.boot("/");
     await openSettings(page, "flashcards");
@@ -385,7 +397,7 @@ test.describe("phone", () => {
   });
 });
 
-test("@curated a resize with Settings open re-derives the fade (a phone rotated, a window narrowed)", async ({ page }) => {
+test("a resize with Settings open re-derives the fade (a phone rotated, a window narrowed)", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await openSettings(page, "flashcards");
@@ -401,7 +413,7 @@ test("@curated a resize with Settings open re-derives the fade (a phone rotated,
   expect((await geo(page)).list.fade, "widened again: the fade goes away").toBe("");
 });
 
-test("@curated keyboard: the row is a tablist — arrows, Home and End move and wrap, nothing leaks to the game, Esc closes", async ({ page }) => {
+test("keyboard: the row is a tablist — arrows, Home and End move and wrap, nothing leaks to the game, Esc closes", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   // everything that reaches `window` is what `_onKey` would see: record the arrows that get there

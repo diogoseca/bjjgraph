@@ -160,8 +160,8 @@ description: "Defend and escape the triangle choke from mounted triangle. Recogn
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping Mounted And Front Triangle(intheclassroom.nickortizjiujitsu.com)",
-      "description": "Triangle Choke from Mounted Triangle (Defender) film study: Escaping Mounted And Front Triangle(intheclassroom.nickortizjiujitsu.com).",
+      "name": "Escaping Mounted And Front Triangle",
+      "description": "Triangle Choke from Mounted Triangle (Defender) film study: Escaping Mounted And Front Triangle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0Cife1Nv_9c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0Cife1Nv_9c",
       "url": "https://www.youtube.com/watch?v=0Cife1Nv_9c",
@@ -170,8 +170,8 @@ description: "Defend and escape the triangle choke from mounted triangle. Recogn
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How To Escape a Triangle Choke w/ Rener \u0026 Ryron Gracie",
-      "description": "Triangle Choke from Mounted Triangle (Defender) film study: How To Escape a Triangle Choke w/ Rener \u0026 Ryron Gracie.",
+      "name": "How To Escape a Triangle Choke",
+      "description": "Triangle Choke from Mounted Triangle (Defender) film study: How To Escape a Triangle Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
       "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
@@ -216,7 +216,7 @@ Defending the triangle choke from mounted triangle is among the most challenging
 
 ![](https://www.youtube.com/watch?v=0Cife1Nv_9c)
 
-<p class="clip-credit"><strong>Escaping Mounted And Front Triangle(intheclassroom.nickortizjiujitsu.com)</strong> · 7:07 · <a href="https://www.youtube.com/watch?v=0Cife1Nv_9c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Mounted And Front Triangle</strong> · 7:07 · <a href="https://www.youtube.com/watch?v=0Cife1Nv_9c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -224,7 +224,7 @@ Defending the triangle choke from mounted triangle is among the most challenging
 
 ![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
 
-<p class="clip-credit"><strong>How To Escape a Triangle Choke w/ Rener &amp; Ryron Gracie</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How To Escape a Triangle Choke</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

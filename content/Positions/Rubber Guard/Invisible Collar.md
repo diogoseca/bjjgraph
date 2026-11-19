@@ -46,34 +46,31 @@ description: "Invisible Collar is a high rubber-guard clinch in which the bottom
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Invisible Collar (MTS 134)",
-      "description": "Invisible Collar film study: Invisible Collar (MTS 134), taught by Eddie Bravo.",
+      "name": "Invisible Collar",
+      "description": "Invisible Collar film study: Invisible Collar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
       "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Sorcerer from the invisible collar",
-      "description": "Invisible Collar film study: Sorcerer from the invisible collar, taught by Eddie Bravo.",
+      "description": "Invisible Collar film study: Sorcerer from the invisible collar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GPWBygTM1b0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GPWBygTM1b0",
       "url": "https://www.youtube.com/watch?v=GPWBygTM1b0",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT97S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Invisible collar no-gi choke walkthrough",
-      "description": "Invisible Collar film study: Invisible collar no-gi choke walkthrough, taught by 10th Planet coach.",
+      "description": "Invisible Collar film study: Invisible collar no-gi choke walkthrough.",
       "thumbnailUrl": "https://i.ytimg.com/vi/efFII9gjTrY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/efFII9gjTrY",
       "url": "https://www.youtube.com/watch?v=efFII9gjTrY",
-      "creator": { "@type": "Person", "name": "10th Planet coach" },
       "duration": "PT186S"
     }
   ]
@@ -131,7 +128,7 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 
 ![](https://www.youtube.com/watch?v=KCyIwacRKu8)
 
-<p class="clip-credit"><strong>Invisible Collar (MTS 134)</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible Collar</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -139,7 +136,7 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 
 ![](https://www.youtube.com/watch?v=GPWBygTM1b0)
 
-<p class="clip-credit"><strong>Sorcerer from the invisible collar</strong> — taught by Eddie Bravo · 1:37 · <a href="https://www.youtube.com/watch?v=GPWBygTM1b0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sorcerer from the invisible collar</strong> · 1:37 · <a href="https://www.youtube.com/watch?v=GPWBygTM1b0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -147,7 +144,7 @@ Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](http
 
 ![](https://www.youtube.com/watch?v=efFII9gjTrY)
 
-<p class="clip-credit"><strong>Invisible collar no-gi choke walkthrough</strong> — taught by 10th Planet coach · 3:06 · <a href="https://www.youtube.com/watch?v=efFII9gjTrY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible collar no-gi choke walkthrough</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=efFII9gjTrY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

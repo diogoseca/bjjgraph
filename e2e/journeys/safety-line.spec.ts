@@ -30,7 +30,19 @@ async function open(page: Page, path: string, width: number, height = 900) {
   await j.readerLayoutSettled()
   return j
 }
-const openTypes = (page: Page) => page.locator(BODY + ' > .ng-section-card').evaluateAll(cards => cards.map(c => c.getAttribute('data-section-type')!))
+// RED4 (PR #372 shard 4). WAS: every tile directly in the body, since a close MOVED its tile into the "Hidden sections" fold.
+// NOW (U131 b2, owner 2026-11-11): a closed tile stays where it is, holding only its message for 5s and then hidden, so it never
+// leaves the body. A tile is open when it AND its content are rendered (no client rect = hidden, display:none or under one).
+const openTypes = (page: Page) => page.locator(BODY + ' > .ng-section-card').evaluateAll(cards => cards
+  .filter(c => c.getClientRects().length > 0 && [...c.querySelectorAll(':scope > .ng-section-body')].some(b => b.getClientRects().length > 0))
+  .map(c => c.getAttribute('data-section-type')!))
+const tile = (type: string) => BODY + ` > .ng-section-card[data-section-type="${type}"]`
+/** b2: a closed tile first holds its message, then leaves nothing. Move the mouse off it: a hovered message never leaves. */
+async function messageGoes(page: Page, type: string) {
+  await expect(page.locator(tile(type) + ' [data-hidesec-notice]'), 'only its message stands in its place').toHaveCount(1)
+  await page.mouse.move(page.viewportSize()!.width - 8, 8)
+  await expect(page.locator(tile(type)), 'and nothing is left once its message has gone').toBeHidden({ timeout: 15000 })
+}
 const indexTypes = (page: Page) => page.locator('.ng-reader-toc-row[data-toc-type]').evaluateAll(rows => rows.map(r => r.getAttribute('data-toc-type')!))
 function guideIsLast(types: string[], what: string) {
   expect(types, `${what}: the guide exists`).toContain('safety')
@@ -64,20 +76,26 @@ const guideInView = (page: Page) => page.evaluate(() => {
 })
 
 for (const path of [ATTACKER, DEFENDER, HUB, FAMILY]) {
-  test(`@curated the guide is the last teaching section, in the page and its index: ${path}`, async ({ page }) => {
+  test(`the guide is the last teaching section, in the page and its index: ${path}`, async ({ page }) => {
     const j = await open(page, path, 1440)
     guideIsLast(await openTypes(page), 'page')
     guideIsLast(await indexTypes(page), 'index')
-    // A DOM move survives idle and resize, then snaps back here: syncSections re-sorts from this.sections.
-    await j.clickByMouse('[data-section-toggle="overview"]', 'close a section so syncSections re-sorts')
+    // WAS: a close moved the tile into the fold and syncSections re-sorted the body from this.sections (a DOM move survives idle and
+    // resize, then snapped back here). NOW (U131 b2): nothing moves on a close, so the order is read at both of b2's moments: while
+    // the message stands, and once the place is gone. The closed section's content leaves at once.
+    await j.clickByMouse('[data-section-toggle="overview"]', 'close a section')
     await j.readerLayoutSettled()
+    const held = await openTypes(page)
+    expect(held, 'the closed section left').not.toContain('overview')
+    guideIsLast(held, 'while its message stands')
+    await messageGoes(page, 'overview')
     const open_ = await openTypes(page)
-    expect(open_, 'the closed section left').not.toContain('overview')
-    guideIsLast(open_, 'after a re-sort')
+    expect(open_, 'the closed section stays gone').not.toContain('overview')
+    guideIsLast(open_, 'once its place is gone')
   })
 }
 
-test('@curated a transition shares the section id and keeps its guide in place', async ({ page }) => {
+test('a transition shares the section id and keeps its guide in place', async ({ page }) => {
   await open(page, '/Transitions/Knee-Slice-Pass/Attacker', 1440)
   const types = await openTypes(page)
   expect(types).toEqual(expect.arrayContaining(['options', 'safety', 'mistakes']))
@@ -86,7 +104,7 @@ test('@curated a transition shares the section id and keeps its guide in place',
 })
 
 for (const width of [390, 1440]) {
-  test(`@curated neither top notice survives and the seat's line sits on its steps at ${width}`, async ({ page }) => {
+  test(`neither top notice survives and the seat's line sits on its steps at ${width}`, async ({ page }) => {
     await open(page, ATTACKER, width)
     const seat = () => page.locator(BODY).evaluate(body => {
       const quotes = [...body.querySelectorAll('blockquote')].filter(q => !q.closest('[data-source-id="safety-considerations"]'))
@@ -113,7 +131,7 @@ for (const width of [390, 1440]) {
   })
 }
 
-test('@curated the hub carries each seat\'s line, and a family carries none', async ({ page }) => {
+test('the hub carries each seat\'s line, and a family carries none', async ({ page }) => {
   await open(page, HUB, 1440)
   const hub = await page.locator(BODY + ' blockquote').evaluateAll(quotes => quotes.filter(q => !q.closest('[data-source-id="safety-considerations"]')).map(q => ({
     text: (q.textContent || '').trim(), next: q.nextElementSibling?.getAttribute('data-source-id'),
@@ -138,7 +156,7 @@ test('@curated the hub carries each seat\'s line, and a family carries none', as
 })
 
 for (const width of [360, 390, 1440]) for (const path of [ATTACKER, DEFENDER]) {
-  test(`@curated the line's real click reaches the guide and keeps the seat at ${width}: ${path}`, async ({ page }) => {
+  test(`the line's real click reaches the guide and keeps the seat at ${width}: ${path}`, async ({ page }) => {
     const j = await open(page, path, width, width === 390 ? 631 : 900)
     const before = await page.evaluate(() => history.length)
     await clickOwnBox(page, j, GUIDE_LINK)
@@ -153,13 +171,18 @@ for (const width of [360, 390, 1440]) for (const path of [ATTACKER, DEFENDER]) {
   })
 }
 
-test('@curated the line opens a closed guide, and a reload lands on it', async ({ page }) => {
+test('the line opens a closed guide, and a reload lands on it', async ({ page }) => {
   const j = await open(page, ATTACKER, 1440)
   const close = page.locator('[data-section-toggle="safety"]')
   await close.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
   await j.clickByMouse('[data-section-toggle="safety"]', 'close the guide')
   await j.readerLayoutSettled()
-  expect(await openTypes(page)).not.toContain('safety')
+  expect(await openTypes(page), 'the guide closed').not.toContain('safety')
+  // WAS: the line was pressed at once, the guide sitting closed in the fold. NOW (U131 b2): the closed guide's steady state is
+  // its tile hidden, so the line is pressed once the message has gone. Under the old openTypes this reopen was vacuous on b2:
+  // the hidden tile was still a child of the body (safety-anchor-no-reopen, foot of this file).
+  await messageGoes(page, 'safety')
+  expect(await openTypes(page), 'the guide stays closed').not.toContain('safety')
   await clickOwnBox(page, j, GUIDE_LINK)
   await expect.poll(() => openTypes(page), 'the click reopened it').toContain('safety')
   guideIsLast(await openTypes(page), 'reopened')
@@ -180,7 +203,7 @@ test('@curated the line opens a closed guide, and a reload lands on it', async (
 // Three lines show on a hub. The first is the Attacker fragment's, whose link names the hub. The other two are the
 // hub's own, in-page links, the only ones the no-JS hub has.
 for (const [line, section] of [['guide fragment', 'options'], ['own attacker', 'attacker-summary'], ['own defender', 'defender-summary']] as const) {
-  test(`@curated the hub's ${line} line reaches the guide`, async ({ page }) => {
+  test(`the hub's ${line} line reaches the guide`, async ({ page }) => {
     const j = await open(page, HUB, 390, 631)
     await clickOwnBox(page, j, `${BODY} [data-section-type="${section}"] blockquote a[data-reader-anchor]`)
     await expect.poll(() => new URL(page.url()).hash).toBe('#safety-considerations')
@@ -199,7 +222,7 @@ const lineBoxes = (page: Page) => page.locator(BODY + ' blockquote').first().eva
     linkBoxes: a.getClientRects().length, hyphens: [getComputedStyle(p).hyphens, getComputedStyle(a).hyphens] }
 })
 
-test('@curated a wrapped line never hyphenates and keeps its link whole', async ({ page }) => {
+test('a wrapped line never hyphenates and keeps its link whole', async ({ page }) => {
   // The reader floors its text box at 198px, so 240 wraps both lines in any face. One box means the label never broke.
   for (const [path, text] of [[ATTACKER, ATTACKER_LINE], [DEFENDER, DEFENDER_LINE]]) {
     await open(page, path, 240, 631)
@@ -210,7 +233,12 @@ test('@curated a wrapped line never hyphenates and keeps its link whole', async 
 })
 
 test('in the real font the lines take the shape the owner chose', async ({ page }) => {
-  for (const [width, attacker, defender] of [[360, 2, 2], [390, 2, 1], [1440, 1, 1]] as const) {
+  // The owner's U154 e (13 Nov 2026): on a phone the article's sections take the Moves row's width (12px gutters), so at 360 the text box
+  // grows 242 -> 282px and the defender's line, "Tap early and often. Injury risks ↓", fits on one. WAS (S2 b's widths, to v1.264.5):
+  // [360, 2, 2]: the defender's line in two at 360. The form he chose (the plain rule, only the label a link, kept whole) is unchanged;
+  // the attacker's stays two lines at 360 and 390, the defender's one at 390 (it had about 3px to spare there), both one at 1440.
+  // Control: width5-safety-line-gutter-lost (tests/artifacts/article_sections_mutants.mjs, p5's grid line put back), killed at Defender at 360.
+  for (const [width, attacker, defender] of [[360, 2, 1], [390, 2, 1], [1440, 1, 1]] as const) {
     for (const [path, text, lines] of [[ATTACKER, ATTACKER_LINE, attacker], [DEFENDER, DEFENDER_LINE, defender]] as const) {
       await open(page, path, width, 640)
       await page.route(/fonts\.(googleapis|gstatic)\.com/, route => route.continue())
@@ -228,7 +256,7 @@ test('in the real font the lines take the shape the owner chose', async ({ page 
 })
 
 for (const path of [ATTACKER, DEFENDER]) {
-  test(`@curated without the app the seat's link still reaches the hub's guide: ${path}`, async ({ page }) => {
+  test(`without the app the seat's link still reaches the hub's guide: ${path}`, async ({ page }) => {
     await open(page, path, 1440)
     const proof = await page.evaluate(async path => {
       const load = async (p: string) => { const r = await fetch(p); if (r.status !== 200) throw new Error(p + ': ' + r.status); return new DOMParser().parseFromString(await r.text(), 'text/html') }
@@ -264,5 +292,14 @@ for (const path of [ATTACKER, DEFENDER]) {
 //   hub-defender-link-dead        the hub's own defender line reaches the guide
 //   reload-does-not-anchor        the line opens a closed guide, and a reload lands on it
 //   reload-past-the-guide         the line opens a closed guide, and a reload lands on it (the 24px tolerance)
+// RED4 (2026-11-11, U131 b2, PR #372 shard 4): the two closed-section tests were red on b2 because openTypes counted a closed tile
+// that no longer leaves the body (measured: it holds its 44px message, then is hidden at 0px). Rewritten above (WAS/NOW); the
+// controls that reach them now live in tests/artifacts/article_sections_mutants.mjs, each killed at its own assertion against a
+// green baseline on the own build:
+//   safety-order-removed           order-removed, ported: nothing teaches after the guide
+//   safety-closed-content-stays    the closed section left (the guide's content left on screen under its message)
+//   safety-closed-tile-stays       nothing is left once its message has gone
+//   safety-anchor-no-reopen        the click reopened it (the old openTypes could not tell a reopened guide from a hidden one)
+//   safety-reload-does-not-anchor  reload-does-not-anchor, ported: the reload landed on the guide
 // Not a control here: article_sections_mutants.mjs defender-hub-leak covers the selector the reader keeps.
 // Partially pinned: one DUAL page and one family page. The corpus-wide counts are a grep of the Markdown, not a gate.

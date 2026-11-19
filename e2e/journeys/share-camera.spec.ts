@@ -200,7 +200,7 @@ const arrive = async (page: Page, count = 5) => {
 
 // ═══════════════════════════════ 1. THE BLOCKER: the flight has to still be there
 
-test("the class a link lit is STILL ON SCREEN seconds after arrival, with the roll running @curated", async ({
+test("the class a link lit is STILL ON SCREEN seconds after arrival, with the roll running", async ({
   page,
 }) => {
   const { j, want } = await arrive(page);
@@ -262,7 +262,7 @@ test("the class a link lit is STILL ON SCREEN seconds after arrival, with the ro
   ).toBeGreaterThan(1);
 });
 
-test("tapping ◉ re-lights the class AND brings the camera back, mid-roll @curated", async ({
+test("tapping ◉ re-lights the class AND brings the camera back, mid-roll", async ({
   page,
 }) => {
   const { j, want } = await arrive(page);
@@ -340,7 +340,7 @@ test("a drag hands the camera straight back to the user — the app never fights
 
 // ═══════════════════════════════ 2. THE MAJOR: the thumb band's tenants stay reachable
 
-test("the share cue and Class opener stay reachable in the 390x844 thumb band @curated", async ({ page }) => {
+test("the share cue and Class opener stay reachable in the 390x844 thumb band", async ({ page }) => {
   await arrive(page);
 
   // v1.134.0: the transport is RETIRED — the band's tenants are now the share cue, the Class

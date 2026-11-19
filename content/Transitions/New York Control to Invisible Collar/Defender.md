@@ -155,33 +155,30 @@ description: "New York Control to Invisible Collar (defender): The free leg movi
       "@type": "VideoObject",
       "position": 1,
       "name": "Two rubber guard tips and counters",
-      "description": "New York Control to Invisible Collar (Defender) film study: Two rubber guard tips and counters, taught by Brandon McCaghren.",
+      "description": "New York Control to Invisible Collar (Defender) film study: Two rubber guard tips and counters.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cY1xCIx-9-I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cY1xCIx-9-I",
       "url": "https://www.youtube.com/watch?v=cY1xCIx-9-I",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT57S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Invisible Collar Details",
-      "description": "New York Control to Invisible Collar (Defender) film study: Invisible Collar Details, taught by Eddie Bravo.",
+      "description": "New York Control to Invisible Collar (Defender) film study: Invisible Collar Details.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
       "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Invisible Collar Choke from Rubber Guard",
-      "description": "New York Control to Invisible Collar (Defender) film study: Invisible Collar Choke from Rubber Guard, taught by JitsHappens.",
+      "description": "New York Control to Invisible Collar (Defender) film study: Invisible Collar Choke from Rubber Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8wYsegjBqRA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8wYsegjBqRA",
       "url": "https://www.youtube.com/watch?v=8wYsegjBqRA",
-      "creator": { "@type": "Person", "name": "JitsHappens" },
       "duration": "PT57S"
     }
   ]
@@ -218,7 +215,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=cY1xCIx-9-I)
 
-<p class="clip-credit"><strong>Two rubber guard tips and counters</strong> — taught by Brandon McCaghren · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Two rubber guard tips and counters</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,7 +223,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=KCyIwacRKu8)
 
-<p class="clip-credit"><strong>Invisible Collar Details</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible Collar Details</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,7 +231,7 @@ Move through available space with a stable base. Stop and release any trapped ne
 
 ![](https://www.youtube.com/watch?v=8wYsegjBqRA)
 
-<p class="clip-credit"><strong>Invisible Collar Choke from Rubber Guard</strong> — taught by JitsHappens · 0:57 · <a href="https://www.youtube.com/watch?v=8wYsegjBqRA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Invisible Collar Choke from Rubber Guard</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=8wYsegjBqRA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

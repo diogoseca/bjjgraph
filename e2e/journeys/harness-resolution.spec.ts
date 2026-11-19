@@ -20,7 +20,8 @@ import path from "node:path";
  * redirect and nothing to signal the substitution.
  *
  * WHY THIS SPEC AND NOT A PROBE: a probe is evidence for a commit message; only a spec is a gate
- * (CLAUDE.md 6.3). It is `@curated` because an untagged test is invisible to the deployment gate.
+ * (CLAUDE.md 6.3). It runs in e2e-full on every PR and every merge to dev. It was `@curated` until v1.263.0, when the
+ * deploy gate became what a deploy can break plus one quick test per surface (U147 a); a harness fault reaches every PR.
  *
  * THE ORACLE IS THE DOCUMENT'S OWN SELF-REPORT: `<body data-slug>`, written by renderPage.tsx
  * from the page's own slug. The folder copy says `X/index`, the flat one says `X`. Nothing here
@@ -59,7 +60,7 @@ function inventory() {
 
 const slugOf = (html: string) => html.match(/data-slug="([^"]*)"/)?.[1] ?? null;
 
-test("@curated the harness resolves a bare duplicated route to the FLAT file, like production", async ({
+test("the harness resolves a bare duplicated route to the FLAT file, like production", async ({
   request,
 }) => {
   const { dupes, flatOnly } = inventory();
@@ -122,7 +123,7 @@ test("@curated the harness resolves a bare duplicated route to the FLAT file, li
   }
 });
 
-test("@curated the block the folder copy lacks is served at the canonical url", async ({
+test("the block the folder copy lacks is served at the canonical url", async ({
   browser,
 }) => {
   // The consequence, not the mechanism: the flat document carries `#page-graph-data` and the

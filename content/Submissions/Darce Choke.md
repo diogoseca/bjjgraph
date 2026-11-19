@@ -47,44 +47,40 @@ description: "Master the Darce Choke in BJJ. Complete guide covering setup requi
       "@type": "VideoObject",
       "position": 1,
       "name": "Side Control D\u0027Arce Choke (No Gi)",
-      "description": "Darce Choke film study: Side Control D\u0027Arce Choke (No Gi), taught by ZombieProofBJJ.",
+      "description": "Darce Choke film study: Side Control D\u0027Arce Choke (No Gi).",
       "thumbnailUrl": "https://i.ytimg.com/vi/ukb_hx28qsM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ukb_hx28qsM",
       "url": "https://www.youtube.com/watch?v=ukb_hx28qsM",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
       "duration": "PT74S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Side control to north-south D\u0027Arce",
-      "description": "Darce Choke film study: Side control to north-south D\u0027Arce, taught by Gracie Westchase.",
+      "description": "Darce Choke film study: Side control to north-south D\u0027Arce.",
       "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
       "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
-      "creator": { "@type": "Person", "name": "Gracie Westchase" },
       "duration": "PT75S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "1 Minute Jiu-Jitsu Hack: Marce Choke",
-      "description": "Darce Choke film study: 1 Minute Jiu-Jitsu Hack: Marce Choke, taught by Brandon McCaghren.",
+      "name": "Marce Choke",
+      "description": "Darce Choke film study: Marce Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hCiHjCbhGyE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/hCiHjCbhGyE",
       "url": "https://www.youtube.com/watch?v=hCiHjCbhGyE",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT67S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Knee Flare Marce Choke Detail",
-      "description": "Darce Choke film study: Knee Flare Marce Choke Detail, taught by Drew Darce.",
+      "description": "Darce Choke film study: Knee Flare Marce Choke Detail.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Mp7Ffm85k0A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Mp7Ffm85k0A",
       "url": "https://www.youtube.com/watch?v=Mp7Ffm85k0A",
-      "creator": { "@type": "Person", "name": "Drew Darce" },
       "duration": "PT113S"
     }
   ]
@@ -156,7 +152,7 @@ The Marce Choke is a named rolling D'Arce variation, available in both gi and no
 
 ![](https://www.youtube.com/watch?v=ukb_hx28qsM)
 
-<p class="clip-credit"><strong>Side Control D&#39;Arce Choke (No Gi)</strong> — taught by ZombieProofBJJ · 1:14 · <a href="https://www.youtube.com/watch?v=ukb_hx28qsM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Control D&#39;Arce Choke (No Gi)</strong> · 1:14 · <a href="https://www.youtube.com/watch?v=ukb_hx28qsM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -164,7 +160,7 @@ The Marce Choke is a named rolling D'Arce variation, available in both gi and no
 
 ![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
 
-<p class="clip-credit"><strong>Side control to north-south D&#39;Arce</strong> — taught by Gracie Westchase · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side control to north-south D&#39;Arce</strong> · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -172,7 +168,7 @@ The Marce Choke is a named rolling D'Arce variation, available in both gi and no
 
 ![](https://www.youtube.com/watch?v=hCiHjCbhGyE)
 
-<p class="clip-credit"><strong>1 Minute Jiu-Jitsu Hack: Marce Choke</strong> — taught by Brandon McCaghren · 1:07 · <a href="https://www.youtube.com/watch?v=hCiHjCbhGyE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Marce Choke</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=hCiHjCbhGyE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -180,7 +176,7 @@ The Marce Choke is a named rolling D'Arce variation, available in both gi and no
 
 ![](https://www.youtube.com/watch?v=Mp7Ffm85k0A)
 
-<p class="clip-credit"><strong>Knee Flare Marce Choke Detail</strong> — taught by Drew Darce · 1:53 · <a href="https://www.youtube.com/watch?v=Mp7Ffm85k0A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee Flare Marce Choke Detail</strong> · 1:53 · <a href="https://www.youtube.com/watch?v=Mp7Ffm85k0A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

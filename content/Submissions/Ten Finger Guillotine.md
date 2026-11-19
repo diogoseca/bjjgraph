@@ -47,44 +47,40 @@ description: "Master the Ten Finger Guillotine in BJJ. Comprehensive guide cover
       "@type": "VideoObject",
       "position": 1,
       "name": "Leg Grab Ten Finger Guillotine (No-Gi)",
-      "description": "Ten Finger Guillotine film study: Leg Grab Ten Finger Guillotine (No-Gi), taught by ZombieProofBJJ.",
+      "description": "Ten Finger Guillotine film study: Leg Grab Ten Finger Guillotine (No-Gi).",
       "thumbnailUrl": "https://i.ytimg.com/vi/vNjdZQOI-cs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/vNjdZQOI-cs",
       "url": "https://www.youtube.com/watch?v=vNjdZQOI-cs",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
       "duration": "PT89S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "10 Finger Grip Guillotine choke",
-      "description": "Ten Finger Guillotine film study: 10 Finger Grip Guillotine choke, taught by Big Dan.",
+      "description": "Ten Finger Guillotine film study: 10 Finger Grip Guillotine choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rYKci9GFisg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rYKci9GFisg",
       "url": "https://www.youtube.com/watch?v=rYKci9GFisg",
-      "creator": { "@type": "Person", "name": "Big Dan" },
       "duration": "PT20S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Front Headlock / Ten Finger Guillotine",
-      "description": "Ten Finger Guillotine film study: Front Headlock / Ten Finger Guillotine, taught by Torres Jiu-Jitsu.",
+      "description": "Ten Finger Guillotine film study: Front Headlock / Ten Finger Guillotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GpP5UslUIGo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GpP5UslUIGo",
       "url": "https://www.youtube.com/watch?v=GpP5UslUIGo",
-      "creator": { "@type": "Person", "name": "Torres Jiu-Jitsu" },
       "duration": "PT131S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Guillotine Finishing Mechanics",
-      "description": "Ten Finger Guillotine film study: Guillotine Finishing Mechanics, taught by John Combs.",
+      "description": "Ten Finger Guillotine film study: Guillotine Finishing Mechanics.",
       "thumbnailUrl": "https://i.ytimg.com/vi/k_j0NLNwKDA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/k_j0NLNwKDA",
       "url": "https://www.youtube.com/watch?v=k_j0NLNwKDA",
-      "creator": { "@type": "Person", "name": "John Combs" },
       "duration": "PT71S"
     }
   ]
@@ -151,7 +147,7 @@ The submission works through a combination of blood restriction and airway compr
 
 ![](https://www.youtube.com/watch?v=vNjdZQOI-cs)
 
-<p class="clip-credit"><strong>Leg Grab Ten Finger Guillotine (No-Gi)</strong> — taught by ZombieProofBJJ · 1:29 · <a href="https://www.youtube.com/watch?v=vNjdZQOI-cs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg Grab Ten Finger Guillotine (No-Gi)</strong> · 1:29 · <a href="https://www.youtube.com/watch?v=vNjdZQOI-cs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -159,7 +155,7 @@ The submission works through a combination of blood restriction and airway compr
 
 ![](https://www.youtube.com/watch?v=rYKci9GFisg)
 
-<p class="clip-credit"><strong>10 Finger Grip Guillotine choke</strong> — taught by Big Dan · 0:20 · <a href="https://www.youtube.com/watch?v=rYKci9GFisg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>10 Finger Grip Guillotine choke</strong> · 0:20 · <a href="https://www.youtube.com/watch?v=rYKci9GFisg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -167,7 +163,7 @@ The submission works through a combination of blood restriction and airway compr
 
 ![](https://www.youtube.com/watch?v=GpP5UslUIGo)
 
-<p class="clip-credit"><strong>Front Headlock / Ten Finger Guillotine</strong> — taught by Torres Jiu-Jitsu · 2:11 · <a href="https://www.youtube.com/watch?v=GpP5UslUIGo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front Headlock / Ten Finger Guillotine</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=GpP5UslUIGo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -175,7 +171,7 @@ The submission works through a combination of blood restriction and airway compr
 
 ![](https://www.youtube.com/watch?v=k_j0NLNwKDA)
 
-<p class="clip-credit"><strong>Guillotine Finishing Mechanics</strong> — taught by John Combs · 1:11 · <a href="https://www.youtube.com/watch?v=k_j0NLNwKDA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine Finishing Mechanics</strong> · 1:11 · <a href="https://www.youtube.com/watch?v=k_j0NLNwKDA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -48,7 +48,7 @@ import { journey } from '../dsl'
 //   read-more-focus-to-top Tab carries on past it (focus thrown back to the first tile)
 //   columns-end-apart      the columns end together (the last phase made tall, with the rule that places tiles untouched)
 //   training-one-tile-columns the phases stand in both columns (the split removed)
-//   training-closed-rows   one section closes as one (each phase listed in Hidden sections)
+//   training-closed-rows   one section closes as one (one message, one setting, one Settings box; U131 b2 retired its fold)
 //   training-close-scrolls closing leaves the reader where it is (the close writes a scroll)
 //   training-head-not-back reopening brings the head back without moveBefore (the closed row keeps it)
 //   training-closed-stays  a closed phase leaves no tile (an empty box per phase stays in the columns)
@@ -64,6 +64,8 @@ import { journey } from '../dsl'
 //   u59-tab-rtl            Tab walks the tiles in the order the eye does (the columns mirrored)
 //   u59-measure-unset      prose lines keep a readable measure (the 46ch column removed)
 //   line-dom-first         opening Explore keeps the topmost line of EITHER column (the first block in source order)
+//   (v1.253.0, #354's review finding 2: line-dom-first, line-keyed-on-grid and reader-clipped-block-anchored were retargeted after
+//   U114 a and the half-pixel anchor moved their targets, and killed again against a green baseline)
 //   u59-pill-covers        the reader ends above the corner cue (its reserve measured over the old column only)
 // SIDECX5 integration: U46 b moved the account badge into the drawer. The four desktop cases
 // now create a real conditional share cue in its old corner and retain the obstruction claim.
@@ -76,7 +78,7 @@ import { journey } from '../dsl'
 //   u59-phone-pairs        the phone keeps its stacked flow (the desktop's half width applied at 390px)
 // DASH-R4 (the independent review of R3, scratch/review-323): each control below breaks one claim added for it.
 //   u59r4-anchor-arrival   the stage holds still when Explore opens or the window turns at the arrival (no gate)
-//   u59r4-reopen-ungated   putting the article away and back keeps the line (the anchor without its gate)
+//   u59r4-reopen-ungated   RETIRED in v1.253.0 with its journey, putting the article away and back (U114 a)
 //   u59r4-table-measured   a wide table shows every column at 1920 (its article kept the 46ch column)
 //   u59r4-table-margin     a tablet table fits inside the padded tile (the static table margin restored)
 //   u59r4-press-full       an article arriving under a held press still shows two lanes (the default width the whole grid)
@@ -190,6 +192,8 @@ function wholeContent(d: Dash) {
 // stage". The slide below: ask-fit-late (tests/artifacts/neural_app_mutants.mjs), the asking line fitted a frame late again,
 // killed at "the asking line stays one line on every pass of the slide" (26 / 43). Its first catch, the line's drift, moved off
 // every page once the tables' top padding changed their heights, which is why the fix now has a claim of its own.
+// NOT KILLED since v1.253.0: the tease spans the row (owner, 2026-11-09), and no authored question needs fitting at that width, so
+// a late fit leaves the line one line on every pass. The fit's column path has no live claim now; ask-line.spec.ts says so too.
 function columns(d: Dash) {
   const lanes = [...new Set(d.tiles.map(t => Math.round(t.box.left)))].sort((x, y) => x - y)
   expect(lanes, 'two columns').toHaveLength(2)
@@ -243,7 +247,7 @@ function measure(d: Dash, wide: boolean) {
 
 // Owner (2026-11-01): the grid is centred and shares both edges with the choices row, so it no longer runs to the right edge.
 for (const [width, height, wide] of [[1440, 900, false], [1920, 1080, true], [1600, 900, true], [1366, 768, false], [1152, 900, false]] as const) {
-  test(`${width === 1440 ? '@curated ' : ''}at ${width}x${height} the article is two columns, shows every tile whole and keeps the node band clear`, async ({ page }) => {
+  test(`at ${width}x${height} the article is two columns, shows every tile whole and keeps the node band clear`, async ({ page }) => {
     const j = await boot(page, width, height)
     await page.evaluate(() => {
       const a = (window as any).__neural, id = a.newList()
@@ -341,6 +345,8 @@ async function expectAskGap(page: Page) {
 // tile's own 46ch column, not the grid's edge. The edge only met text in a narrow tile, and a tile ends at its content
 // (U65 b), so a depth could land on a gap with nothing wrong. v1.251.0: two columns have no one line, because the source
 // order no longer runs down the page, so the line is the nearer of the two lanes' first lines.
+// v1.253.0: with the article's ✕ gone (U114 a) a line sat 0.14px above the reader's top at 1152 (30%); the reader's anchor now takes a
+// line within half a pixel. Control: anchor-line-strict-top (article_sections_mutants.mjs), killed at "keeps its place" (73.86 -> 426.73).
 for (const [width, height] of [[1440, 900], [1152, 900]] as const) for (const depth of [0.3, 0.6]) {
   test(`U59 c: at ${width}x${height} opening Explore keeps the line at the reader's top (${depth * 100}% down)`, async ({ page }) => {
     const j = await boot(page, width, height)
@@ -503,46 +509,9 @@ test('U59 c: a phone turned to landscape and back (390x844, 844x390, 390x844) le
   expect(await stage(page), 'back upright, the Moves row and the question are where they were').toEqual(before)
 })
 
-// DASH-R4 (review finding 2): the article's own close and the shelf's Book button. sync() restores the reader's scroll
-// into the reopened article; on R3 the anchor then held whatever line the never-shown narrow grid had put at the top,
-// 113-293px off. The line under a fixed point must come back to the same place, as on dev.
-for (const offset of [40, 300]) {
-  test(`U59 c: at 1440x900 putting the article away and back (its close ${offset}px below the top) returns the same line`, async ({ page }) => {
-    const j = await boot(page, 1440, 900)
-    await page.locator(READY).evaluate((e, off) => {
-      const x = e.querySelector('[data-reader-close]')!
-      e.scrollTop += x.getBoundingClientRect().top - e.getBoundingClientRect().top - off
-    }, offset)
-    await j.readerLayoutSettled()
-    const mark = () => page.evaluate(() => {
-      const r = (window as any).__neural._reader, rt = r.root.getBoundingClientRect()
-      const w = window as any
-      if (!w.__testLine) {
-        // At the 300px depth a point 140px below the reader top is still above the article.
-        // Select a rendered paragraph first, then retain the character under that fixed point.
-        const paragraph = ([...r.body.querySelectorAll('p,li')] as HTMLElement[]).find(e => {
-          const b = e.getBoundingClientRect(); return b.width > 0 && b.top >= rt.top && b.top + 20 < rt.bottom
-        })
-        if (!paragraph) throw Error('premise: a paragraph is visible in the article')
-        const b = paragraph.getBoundingClientRect(), pos = (document as any).caretRangeFromPoint(b.left + 10, b.top + 12), range = document.createRange()
-        if (!pos || pos.startContainer.nodeType !== Node.TEXT_NODE || !r.body.contains(pos.startContainer)) throw Error('premise: the point names article text')
-        range.setStart(pos.startContainer, pos.startOffset); range.setEnd(pos.startContainer, Math.min((pos.startContainer as Text).length ?? 0, pos.startOffset + 1))
-        w.__testLine = range
-      }
-      const b = w.__testLine.getBoundingClientRect()
-      return { scrollTop: Math.round(r.root.scrollTop), line: Math.round(b.top), rendered: !!w.__testLine.toString() && b.height > 0 && b.top >= rt.top && b.bottom <= rt.bottom }
-    })
-    const before = await mark()
-    expect(before.rendered, 'premise: the saved range is visible article text, not an empty caret on the map').toBe(true)
-    await j.clickByMouse('[data-reader-close]', 'the article\'s own close')
-    for (let i = 0; i < 6; i++) await j.advance(100)
-    expect(await page.evaluate(() => (window as any).__neural._reader.articleEl.hidden), 'premise: the article is put away').toBe(true)
-    await j.clickByMouse('[data-reader-part="book"]', 'the shelf\'s Book button')
-    for (let i = 0; i < 6; i++) await j.advance(100)
-    await j.readerLayoutSettled()
-    expect(await mark(), 'the same line is back under the same point').toEqual(before)
-  })
-}
+// v1.253.0 (U114 a): "U59 c: at 1440x900 putting the article away and back returns the same line" (DASH-R4, review finding 2)
+// went with the article's ✕ and the shelf's Book button.
+
 
 // DASH-R4 (review finding 3): the 6-column Top/Bottom comparison on every position hub needs ~520-566px, and a tile is 712px
 // wide at 1920. UNGUARDED BELOW THAT, and a known cost of two columns: Mount's table hides 135px behind a sideways scroll at
@@ -578,6 +547,14 @@ for (const path of ['/Transitions/Knee-Slice-Pass/Defender', '/Submissions/Ameri
   })
 }
 
+// U131 b2 (HIDESEC2): a closed part's message stands in its place for five seconds, then the place closes. Claims about what a close
+// leaves are read once it has gone: the mouse that pressed the ✕ is moved off it first, since a mouse over a message holds it.
+const messageGone = async (page: Page, j: any, type: string) => {
+  await page.mouse.move(2, 450)
+  await page.waitForFunction(t => !document.querySelector(`[data-hidesec-notice="${t}"]`), type, { timeout: 15000 })
+  await j.readerLayoutSettled()
+}
+
 // Closing a tile reflows only what follows it, because a tile's place depends only on the tiles before it, and those heads
 // all start at or above the closed tile's head: nothing above the reader's line moves. columns-close-reorders.
 test('closing a tile moves nothing before it, reflows what follows, and reopening restores the layout', async ({ page }) => {
@@ -589,7 +566,7 @@ test('closing a tile moves nothing before it, reflows what follows, and reopenin
   expect(at, 'premise: tiles sit on both sides of the closed one').toBeGreaterThan(2)
   expect(at, 'premise: tiles sit on both sides of the closed one').toBeLessThan(before.dom.length - 2)
   await j.clickByMouse('[data-section-toggle=mistakes]', 'the tile\'s own close')
-  await j.readerLayoutSettled()
+  await messageGone(page, j, 'mistakes')
   const after = await dashboard(page)
   expect(after.scrollTop, 'the reader stays where it was').toBe(before.scrollTop)
   expect(after.dom, 'the closed tile left, the order did not change').toEqual(before.dom.filter((_, i) => i !== at))
@@ -627,25 +604,30 @@ for (const atomic of [true, false]) {
     const j = await boot(page, 1024, 900, KNEE)
     await expect(page.locator(READY)).not.toHaveAttribute('data-indexed', '')
     expect(await page.evaluate(() => typeof (Element.prototype as any).moveBefore === 'function'), 'premise: the branch under test').toBe(atomic)
-    const close = page.locator('[data-section-toggle=training]'), summary = page.locator('.ng-reader-hidden>summary')
+    const close = page.locator('[data-section-toggle=training]')
     const before = await dashboard(page)
     expect(before.dom.filter(t => t === 'training').length, 'premise: six phases').toBe(6)
     await close.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
     const place = (await dashboard(page)).scrollTop
     await j.clickByMouse('[data-section-toggle=training]', 'the ✕ on the first tile')
     await j.readerLayoutSettled()
+    await expect(page.locator('[data-hidesec-notice]'), 'one message, for the one section').toHaveCount(1)
+    await messageGone(page, j, 'training')
     const after = await dashboard(page), end = await page.locator(READY).evaluate(e => e.scrollHeight - e.clientHeight)
     expect(after.dom.filter(t => t === 'training'), 'no phase stays, open or empty').toEqual([])
     // Training is this page's last section, so closing it can end the article above the place.
     expect(after.scrollTop, `the reader stays, up to the article's new end (${place}, end ${end})`).toBe(Math.min(place, end))
-    await expect(summary, 'one section').toHaveText('Hidden sections (1)›')
+    // WAS (U25 a): "one section" was its one row in "Hidden sections (1)", reopened from its one label there.
+    // NOW (U131 b2): no fold; one section is one saved setting and one Settings box, which brings every phase back.
+    await expect(page.locator('.ng-reader-hidden'), 'no Hidden sections fold').toBeHidden()
     expect(await page.evaluate(() => (window as any).__neural.get('readerSection.training', true)), 'one saved setting, by type').toBe(false)
     columns(after)
-    await summary.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-    await j.clickByMouse('.ng-reader-hidden>summary', 'reveal the closed label')
-    await expect(close, 'one label').toHaveCount(1)
-    await close.scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-    await j.clickByMouse('[data-section-toggle=training]', 'reopen from the label')
+    await page.evaluate(() => (window as any).__neural.openSettings('rolling'))
+    const box = page.locator('[data-section-setting=training]')
+    await expect(box, 'one Settings box').toHaveCount(1)
+    await box.scrollIntoViewIfNeeded()
+    await j.clickByMouse('[data-section-setting=training]', 'reopen from its Settings box')
+    await page.keyboard.press('Escape')
     await j.readerLayoutSettled()
     const back = await dashboard(page)
     expect(back.dom, 'every phase is back, in order').toEqual(before.dom)
@@ -710,13 +692,23 @@ test('a held line whose tile closes is let go, and the pane closing leaves the r
   await j.clickByMouse('[data-section-toggle=training]', 'Training\'s ✕, with the pane open')
   await j.readerLayoutSettled()
   await expect(page.locator('[data-reader-body]>[data-section-type=training]:not([data-collapsed=true])'), 'premise: every phase closed').toHaveCount(0)
+  // U131 b2: Training's message holds its place for five seconds; the place is read once it has gone, before the pane closes.
+  await messageGone(page, j, 'training')
   const scrollTop = await page.locator(READY).evaluate(e => e.scrollTop)
+  // The line at the reader's top, as the player sees it (U59 c holds it through a pane slide).
+  const line = await page.locator(READY).evaluate(e => { const top = e.getBoundingClientRect().top; const l = ([...e.querySelectorAll('[data-reader-body] p,[data-reader-body] li')] as HTMLElement[]).filter(x => x.getClientRects().length && x.getBoundingClientRect().top >= top - 0.5).sort((x, y) => x.getBoundingClientRect().top - y.getBoundingClientRect().top)[0]; (window as any).__heldLine = l; return l.getBoundingClientRect().top })
   await j.clickByMouse('.ng-explorer-close', 'the pane\'s close button')
   for (let i = 0; i < 24; i++) await j.advance(60)
   await j.readerLayoutSettled()
   // Training is this page's last section, so the wider grid can end the article above the old place: the claim is the place or that end.
-  const now = await page.locator(READY).evaluate(e => ({ top: e.scrollTop, end: e.scrollHeight - e.clientHeight }))
-  expect(Math.abs(now.top - Math.min(scrollTop, now.end)), `the reader stays where it was, up to the article's end (${scrollTop} -> ${now.top}, end ${now.end})`).toBeLessThanOrEqual(8)
+  // LOOSENED (U131 b2, HIDESEC2), stated: the place may also be the LINE the player was reading, held where it was on screen. WAS: only
+  // the scroll position, within 8px of the place or the end. With "Hidden sections" gone nothing stands below Training, so the place sat
+  // at the article's very end and the held line (U59 c) put the reader 29px above the new end, with that line 0.03px from where it was
+  // (measured: 3882 -> 3780, end 3809; the line at 147.39 then 147.42). The bug this pins threw the reader by the held height on every
+  // pass, which neither half allows: hold-closed-line still kills it (tests/artifacts/article_sections_mutants.mjs).
+  const now = await page.locator(READY).evaluate(e => ({ top: e.scrollTop, end: e.scrollHeight - e.clientHeight, line: (window as any).__heldLine.getBoundingClientRect().top }))
+  const atPlace = Math.abs(now.top - Math.min(scrollTop, now.end)) <= 8, lineHeld = Math.abs(now.line - line) <= 1
+  expect(atPlace || lineHeld, `the reader stays where it was, up to the article's end, or holds the line the player was reading (${scrollTop} -> ${now.top}, end ${now.end}; line ${line} -> ${now.line})`).toBe(true)
 })
 
 // U101 b: "Read more" opens the rest in place, one way, by real input. A tile's place depends only on the tiles before it, so nothing
@@ -854,11 +846,10 @@ for (const [width, height] of [[1024, 900], [390, 844]]) test(`U65: native Video
   await page.locator('[data-film-close]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
   await j.clickByMouse('[data-film-close]', 'close the stage film')
   await expect(film).toBeHidden()
-  await page.locator('.ng-reader-hidden>summary').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-  await j.clickByMouse('.ng-reader-hidden>summary', 'open the native Hidden sections disclosure')
-  await expect(page.locator('.ng-reader-hidden')).toHaveAttribute('open', '')
-  await page.locator('[data-section-toggle=videos]').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-  await j.clickByMouse('[data-section-toggle=videos]', 'reopen Videos from its surviving closed control')
+  // WAS (U25 a): reopened from the Videos row in the "Hidden sections" disclosure. NOW (U131 b2): the video's message stands in the
+  // film's place, and its Undo reopens it there.
+  await j.readerLayoutSettled()
+  await j.clickByMouse('[data-hidesec-notice=videos] [data-hidesec-undo]', 'reopen Videos from its message\'s Undo')
   // No helper scroll after reopening: visibility alone also passes with the film 14,000px above the reader.
   await j.readerLayoutSettled()
   const arrival = await film.evaluate(el => {
@@ -898,6 +889,10 @@ test('U65 b: the space below the shorter column remains reader input', async ({ 
   await page.mouse.click(point.x, point.y)
   expect(await page.evaluate(() => ({ paused: (window as any).__neural.paused, reading: (window as any).__neural._reader.interacting, dragging: !!(window as any).__neural.dragging }))).toEqual({ paused: true, reading: true, dragging: false })
 })
+
+// RETIRED (U131 b2, HIDESEC2): "#346 review, finding 2: a closed tile carries no column margin into Hidden sections". Its subject, the
+// "Hidden sections" fold, is gone: a closed tile is never painted once its message has left, so no margin it keeps can show. Its control
+// closed-tile-keeps-column-margin is retired with it (tests/artifacts/article_sections_mutants.mjs).
 
 // DASH-R4 (review finding 5): without the index the grid is narrower and the columns are the same rule. U110 a (owner,
 // 2026-11-09) moved where that applies: the index shows from 1,350px free and the columns begin at 1,024px, so 1,024 to 1,349
@@ -945,7 +940,7 @@ test('at 1920x1080 an article that arrives under a held press still shows two la
   columns(await dashboard(page))
 })
 
-test('@curated U55 b: at 1440x900 a click on a section tile does nothing; its links and its close still work', async ({ page }) => {
+test('U55 b: at 1440x900 a click on a section tile does nothing; its links and its close still work', async ({ page }) => {
   const j = await boot(page, 1440, 900)
   // This fixture's pre-completed track can mint a temporary reward over the right lane's title
   // as well as its close. Wait for its ordinary lifetime before measuring either mouse target.

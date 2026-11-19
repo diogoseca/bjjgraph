@@ -165,23 +165,21 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville",
-      "description": "Armbar Control (Top) film study: Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville, taught by Gracie Charlottesville.",
+      "name": "Straight Arm Lock From Guard (Armbar)",
+      "description": "Armbar Control (Top) film study: Straight Arm Lock From Guard (Armbar).",
       "thumbnailUrl": "https://i.ytimg.com/vi/I8f9wkX7n4Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/I8f9wkX7n4Y",
       "url": "https://www.youtube.com/watch?v=I8f9wkX7n4Y",
-      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
       "duration": "PT29S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Top side armbar finish",
-      "description": "Armbar Control (Top) film study: Top side armbar finish, taught by Way of BJJ.",
+      "description": "Armbar Control (Top) film study: Top side armbar finish.",
       "thumbnailUrl": "https://i.ytimg.com/vi/BFmncj84lNE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/BFmncj84lNE",
       "url": "https://www.youtube.com/watch?v=BFmncj84lNE",
-      "creator": { "@type": "Person", "name": "Way of BJJ" },
       "duration": "PT73S"
     }
   ]
@@ -216,7 +214,7 @@ Jiu-Jitsu Breakdowns describes an armbar grip-break phase in which the attacker'
 
 ![](https://www.youtube.com/watch?v=I8f9wkX7n4Y)
 
-<p class="clip-credit"><strong>Straight Arm Lock From Guard (Armbar) by Gracie Charlottesville</strong> — taught by Gracie Charlottesville · 0:29 · <a href="https://www.youtube.com/watch?v=I8f9wkX7n4Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Straight Arm Lock From Guard (Armbar)</strong> · 0:29 · <a href="https://www.youtube.com/watch?v=I8f9wkX7n4Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -224,7 +222,7 @@ Jiu-Jitsu Breakdowns describes an armbar grip-break phase in which the attacker'
 
 ![](https://www.youtube.com/watch?v=BFmncj84lNE)
 
-<p class="clip-credit"><strong>Top side armbar finish</strong> — taught by Way of BJJ · 1:13 · <a href="https://www.youtube.com/watch?v=BFmncj84lNE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Top side armbar finish</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=BFmncj84lNE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

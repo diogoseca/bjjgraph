@@ -219,9 +219,57 @@ NEURAL_TARGET = {
     # bring it to 506_825. The history is budget_site.json's deferred_raw_note.
     # U16 b / U14 b (owner, 2026-10-24): band-only catch plus centred dividers measure 506_817.
     # The exact ceiling steps down by 8 bytes; the 506_835 authorized maximum is unchanged.
-    # U100 a (owner, 2026-11-06): he approved up to 507_117. v1.252.0 stands at exactly 507_056, measured on the tree merged with #350.
-    # The ledger is budget_site.json's note.
-    "deferred_raw_bytes": 507_056,
+    # U100 a (owner, 2026-11-06): he approved up to 507_117. v1.253.0 stands at exactly 504_252: the shelf's retirement (U114 a) paid
+    # back 4,466 B, and #354's two review rounds took 1,274 B of it. v1.254.0: 504_371, +119 B (the reader's free-space list names the
+    # search icon; a reader button's pointer click counts only if its own pointerdown was on it). v1.254.1: 504_376, +5 B (Retry keeps the
+    # address's #section). The ledger is budget_site.json's note.
+    # v1.255.0: 504_652, +276 B (hidden moves' settings row, settings-ui.js), on v1.254.1's 504_376.
+    # v1.259.0 (HIDESEC2, owner U131 b2): 510_977, exactly the build merged with #373 (v1.258.0, f998a1473; 505_644 on its own), +5_333 B
+    # of this PR's (a closed part's message and its press rule, Settings at its switch, free roam taking it away, #372's review fixes).
+    # The owner, 11 Nov 2026, briefing answer U134 b, approved up to 512_000 B for that day's fixes; 1_023 B of it are left.
+    # v1.262.10 (PAYBASE3): 510_981, +4 B: one more character of the version in 4 deferred files (game-study.js,
+    # game-study.worker.js, game-values.js, settings-ui.js, +1 B each), no code. Under U134 b's 512_000, 1_019 B remain;
+    # at v1.263.0 the set is 4 B smaller again.
+    # v1.266.0 (knownshown, the owner's must of 13 Nov): 511_007, +44 B on dev v1.265.2's 510_963: Settings' hidden-moves
+    # line says a move you know stays face up until it is due (settings-ui.js only, 22_113 -> 22_157 B); under the
+    # standing 512_000 B ruling (U134 b), 993 B remain.
+    # v1.268.0 (KS2, the owner's U166 b): 511_043, +36 B on dev v1.266.0's 511_007: Settings' line names a move whose
+    # flashcards you have learned beside a move you know (settings-ui.js only, 22_157 -> 22_193 B); 957 B of 512_000 remain.
+    # v1.278.0 (STAGE3, the owner's U170 a: "its own file, loaded when you open the drawer", up to about 550_000, each PR
+    # moving it to exactly its measured use): 519_911, +9_642 B on dev v1.272.0's 510_269 (as v1.270.2's), all of it gameplan.js (the order
+    # Practice asks in, practice-queue.src.js, and the plan built from it; 9_716 -> 19_358 B); 30_089 B of 550_000 remain.
+    # v1.278.0 STAGE3-R1 (the independent read's fixes): 520_149, +238 B more in gameplan.js (19_358 -> 19_596: the rows
+    # "More new cards" adds named apart in the lines, no re-plan claim, the day's floor); 29_851 B of 550_000 remain.
+    # v1.278.0 STAGE3-R2 (the delta read's small items): 520_258, +109 B more in gameplan.js (19_596 -> 19_705: a Path lesson
+    # named "From the Path" and counted apart in the lines); 29_742 B of 550_000 remain.
+    # v1.278.0 on dev v1.273.0 (DEV405, PR #405 merged in): 520_300, +42 B in gameplan.js (19_705 -> 19_747: it bundles
+    # rating.src.js, which #405 grew); 29_700 B of 550_000 remain.
+    # v1.278.0 ANKI1 (the owner's Anki rule): 520_499, +199 B in gameplan.js (19_747 -> 19_946: the law's due-first visits,
+    # the guard and the new-only-when-nothing-is-due step); 29_501 B of 550_000 remain.
+    # v1.278.0 on dev v1.276.1 (GO409, ANKI1-R1 merged in): 521_639, +1_140 B in gameplan.js (19_946 -> 21_086: ANKI1-R1's
+    # code, and rating.src.js, which gameplan.js bundles and PR #412 grew); dev's own use is 510_269; 28_361 B of 550_000 remain.
+    # v1.278.2 (R409, on dev v1.278.1): 521_758, +119 B in gameplan.js (21_086 -> 21_205: the law counting the due-longest
+    # cards its guard could not take, and the plan saying whether its guard is whole); dev's own use is 521_639; 28_242 B
+    # of 550_000 remain.
+    # v1.279.0 (SRS-GO, the owner's ladder, on dev v1.278.2): 522_012, +254 B, +127 B each in game-study.js (78_719 ->
+    # 78_846) and the game worker's shared core (70_245 -> 70_372): both bundle knowledge-profile.src.js, and its new
+    # ladder (NG_KNOWLEDGE_LADDER, built at load) rides along; dev's own use is 521_758; 27_988 B of 550_000 remain.
+    # v1.279.0 SRS-R1 (the independent read's fixes): 522_091, +79 B more in gameplan.js (21_205 -> 21_284: it bundles
+    # rating.src.js, whose read of a row is now its true interval and whose shared-question row choice, ngRatingNewerRow,
+    # the Practice order now shares); dev's own use is 521_758; 27_909 B of 550_000 remain.
+    # v1.286.0 (STAGE4 S0, the Practice order builds moves, on dev v1.280.2): 522_888, +1_571 B in gameplan.js (21_284 ->
+    # 22_855: practice-queue.src.js builds the moves the rating prices, and the plan passes them through; the app asks
+    # for none yet); dev's own use is 521_317; 27_112 B of 550_000 remain.
+    # v1.286.0 (STAGE4 S0's final head, on dev v1.282.2): 522_323, -565 B on the branch's last ceiling: gameplan.js 21_885 ->
+    # 23_457 (+1_572, S0's own: the Practice order builds moves; the rest of dev's deferred set is smaller since PR #423);
+    # dev's own use is 520_751; 27_677 B of 550_000 remain.
+    # v1.290.0 (L1, Master the game's list, on dev v1.287.0): 529_853, +7_530 B on the last ceiling: gameplan.js 23_460 -> 30_990,
+    # L1's own (master-list.src.js, kept out of the eager core); 20_147 B of 550_000 remain.
+    # v1.290.0 L1-R0 (on dev v1.288.0): 530_216, +363 B: the open place's count and its rules (master-list.src.js); 19_784 B remain.
+    # v1.290.0 L1-R1 (the reader's findings on PR #434): 531_246, +1_030 B: what a place owes, read for every row, and "Keep practising" when the plan runs out (master-list.src.js); 18_754 B remain.
+    # v1.290.0 L1-R2 (the second reader's findings on PR #434): 531_733, +487 B: a row for every place that owes, and the open place's own figure (master-list.src.js); 18_267 B remain.
+    # v1.292.0 L2 (the cloze, master-cloze.src.js in gameplan.js: the builder, the rows, where a move leads, the foot, the steps, Undo, its style sheet): 549_777, +18_044 B; 223 B remain of the owner's 550,000.
+    "deferred_raw_bytes": 549_777,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one

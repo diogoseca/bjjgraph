@@ -54,6 +54,13 @@ DEPLOY_ONLY = {
     ('python3', 'scripts/check_analytics_surface.py'): 'deploy PostHog environment',
     ('node', 'scripts/check_analytics_nokey.mjs'): 'independent keyless fixture',
 }
+# Production only, and BEFORE the build (v1.263.3, GATE6): the promotion rule. deploy.yaml runs only the deploy gate,
+# so the commit that vouches for a push to main must already have a green full-suite run (scripts/deploy_gate.mjs
+# promotion). It reads the runs API, not the built tree, so it is no part of the build chain; a preview has nothing to
+# promote, so deploy-dev.yaml must NOT carry it. Exactly once in deploy.yaml, unconditional, as written here.
+PRODUCTION_ONLY = {
+    'node scripts/deploy_gate.mjs promotion': 'the promotion rule: the full suite passed on the commit that vouches for this push to main',
+}
 GATE = ('python3', 'scripts/check_build_chains.py')
 AFFILIATE = ('python3', 'scripts/apply_affiliate_ref.py')
 DISCOVERY = ('python3', 'scripts/regenerate_agent_discovery.py')
@@ -104,7 +111,14 @@ def commands(root, body, cwd='.', stack=()):
                     raise ContractError('unsupported shell: cd arguments')
                 cwd = rel(cwd, args[1])
                 continue
-            if args == ['npm', 'install']:
+            if args == ['npm', 'install'] or args[:2] == ['npm', 'ci']:
+                # `npm ci` runs the same lifecycle hooks as `npm install`, so it expands them the same way, unless
+                # --ignore-scripts is ON ITS COMMAND LINE: then no hook runs and it adds no command (v1.265.1, both
+                # deploys install that way). Any other npm ci argument fails closed rather than being guessed at.
+                if args[1] == 'ci' and args[2:] not in ([], ['--ignore-scripts']):
+                    raise ContractError(f'unsupported shell: npm ci arguments {args[2:]}')
+                if args[2:] == ['--ignore-scripts']:
+                    continue
                 key = (cwd, '<install>')
                 if key in stack:
                     raise ContractError('npm install lifecycle cycle')
@@ -170,6 +184,7 @@ def deploy_commands(root, path):
     default_cwd = run_defaults.get('working-directory', '.')
     started = False
     result = []
+    production_only = Counter()
     for step in job['steps'][:boundary]:
         if step.get('name') == 'Build Quartz':
             if started:
@@ -195,6 +210,9 @@ def deploy_commands(root, path):
                 continue
             if body.strip() == 'python3 scripts/check_build_chains.py' and cwd == '.' and 'if' not in step and not step.get('continue-on-error'):
                 continue
+            if body.strip() in PRODUCTION_ONLY and path.name == 'deploy.yaml' and cwd == '.' and 'if' not in step and not step.get('continue-on-error'):
+                production_only[body.strip()] += 1
+                continue
             raise ContractError(f'{path.name}: unreviewed preparation command before Build Quartz: {step.get("name")}')
         if body.strip() in ('npx playwright install --with-deps chromium', 'npx playwright install-deps chromium') and cwd == '.':
             continue
@@ -202,18 +220,33 @@ def deploy_commands(root, path):
             if hashlib.sha256(body.encode()).hexdigest() != PLAYWRIGHT_VERSION_SHA or cwd != '.':
                 raise ContractError(f'{path.name}: changed browser provisioning program; review its exclusion')
             continue
+        if step.get('name') == WRANGLER_LINK[0]:
+            if hashlib.sha256(body.encode()).hexdigest() != WRANGLER_LINK[1] or cwd != '.' or 'if' in step or step.get('continue-on-error'):
+                raise ContractError(f'{path.name}: changed publishing-tool link program; review its exclusion')
+            continue
         if 'if' in step or step.get('continue-on-error'):
             raise ContractError(f'{path.name}: conditional/ignored build step {step.get("name")}')
         result.extend(commands(root, body, cwd))
     if not started or not result:
         raise ContractError(f'{path.name}: empty/zero build chain')
+    if path.name == 'deploy.yaml':
+        for body, reason in PRODUCTION_ONLY.items():
+            if production_only[body] != 1:
+                raise ContractError(f'{path.name}: production-only gate {body!r} must run exactly once, unconditionally, before Build Quartz; found {production_only[body]}')
+            print(f'{path.name}: production-only gate before the build: {body} ({reason})')
     return result
 
 
-# Exact non-build preparation: validation inputs and Neural payload prelude.
-PREPARATION_PROGRAMS = {'cbed484932482deabbebdc48fa4e12a52fa5ae870bfbf3675fffb436a5864c32': 'Validate content (gate)', 'f7948a7f40ea7738ffd03b6c79c7ffe06c0c804d95c27d4f2c0780ed0dfc9be0': 'Regenerate Neural app + data'}
+# Exact non-build preparation: validation inputs, the Neural payload prelude, and the publishing tool's install. The
+# prelude's text moved at v1.265.1 (`(cd source && npm ci --ignore-scripts)`, was `npm install`); re-review it, never
+# re-hash it blind. The Wrangler install (v1.266.1) writes only under .github/tools/wrangler, never the site.
+PREPARATION_PROGRAMS = {'cbed484932482deabbebdc48fa4e12a52fa5ae870bfbf3675fffb436a5864c32': 'Validate content (gate)', '6e23a8c0adf6efb44dc4f21a811daeee575bb4e144e4706331dc83b68061ebc3': 'Regenerate Neural app + data', '87dc8163fec316c6cca050c49a3dc1068598afccfb04d3bf0cef993c6a564b3a': 'Install Wrangler (pinned)'}
 
 PLAYWRIGHT_VERSION_SHA = 'eeadbffb36217d7c3108123efcb99d54a10ce62592f9102a5de400c83ea6433a'
+# After the build, before the upload (v1.266.1): the link that puts the pinned Wrangler where the Pages action's probe
+# looks, and the probe itself. It writes one symlink under node_modules/.bin and nothing under source/public, so it is
+# no part of the build chain; its program is pinned in full, by name and hash, like the browser provisioning above.
+WRANGLER_LINK = ('Link the pinned Wrangler for the Pages action', '90420b09d70302ef3f55550f0a17fac6065adc25e6cb0a89d0c89fcfa59b79c0')
 
 
 def affiliate_interval(chain, context):

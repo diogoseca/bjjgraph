@@ -162,8 +162,8 @@ description: "Defend the guard pass from flattened half guard. Recognition cues,
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "BJJ BASICS: Tips To Recover When Flattened In Half Guard by Jason Scully",
-      "description": "Complete Pass from Flattened Half (Defender) film study: BJJ BASICS: Tips To Recover When Flattened In Half Guard by Jason Scully.",
+      "name": "BJJ BASICS: Tips To Recover When Flattened In Half Guard",
+      "description": "Complete Pass from Flattened Half (Defender) film study: BJJ BASICS: Tips To Recover When Flattened In Half Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/k74zyEn_Z_0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/k74zyEn_Z_0",
       "url": "https://www.youtube.com/watch?v=k74zyEn_Z_0",
@@ -205,7 +205,7 @@ As the defender against the Complete Pass from Flattened Half Guard, you are in 
 
 ![](https://www.youtube.com/watch?v=k74zyEn_Z_0)
 
-<p class="clip-credit"><strong>BJJ BASICS: Tips To Recover When Flattened In Half Guard by Jason Scully</strong> · 6:36 · <a href="https://www.youtube.com/watch?v=k74zyEn_Z_0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ BASICS: Tips To Recover When Flattened In Half Guard</strong> · 6:36 · <a href="https://www.youtube.com/watch?v=k74zyEn_Z_0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

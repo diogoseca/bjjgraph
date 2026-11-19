@@ -375,7 +375,7 @@
     "clips": [
       {
         "id": "WV3PwrFShU0",
-        "title": "Passing K-guard (Lachlan Giles)",
+        "title": "Passing K-guard",
         "channel": "Absolute MMA St Kilda - Melbourne",
         "duration": 430,
         "vertical": false,
@@ -545,6 +545,16 @@
         "description": "Full positional sparring from K-Guard bottom against partners of varying sizes and passing styles. Apply retention, counter-attacks, and guard transitions in combination against unpredictable full resistance. Track which passes give you the most difficulty and develop specific counter-strategies for each."
       }
     ],
-    "clips": []
+    "clips": [
+      {
+        "id": "7nIC9V7U3gk",
+        "title": "How to Defend Guard Passes from K-Guard",
+        "channel": "KadiBJJ",
+        "duration": 113,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-16"
+      }
+    ]
   }
 }

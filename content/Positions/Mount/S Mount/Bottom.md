@@ -154,11 +154,10 @@ description: "Defend against S Mount attacks in BJJ. Critical escape techniques,
       "@type": "VideoObject",
       "position": 1,
       "name": "Goathook escape from mount: dealing with the switch to S-mount",
-      "description": "S Mount (Bottom) film study: Goathook escape from mount: dealing with the switch to S-mount, taught by Revolution BJJ coach.",
+      "description": "S Mount (Bottom) film study: Goathook escape from mount: dealing with the switch to S-mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WKqvJLpq7nc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WKqvJLpq7nc",
       "url": "https://www.youtube.com/watch?v=WKqvJLpq7nc",
-      "creator": { "@type": "Person", "name": "Revolution BJJ coach" },
       "duration": "PT72S"
     }
   ]
@@ -195,7 +194,7 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 
 ![](https://www.youtube.com/watch?v=WKqvJLpq7nc)
 
-<p class="clip-credit"><strong>Goathook escape from mount: dealing with the switch to S-mount</strong> — taught by Revolution BJJ coach · 1:12 · <a href="https://www.youtube.com/watch?v=WKqvJLpq7nc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Goathook escape from mount: dealing with the switch to S-mount</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=WKqvJLpq7nc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

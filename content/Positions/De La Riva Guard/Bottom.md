@@ -166,12 +166,11 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mikey Musumeci deals with that Bernardo Faria pressure",
-      "description": "De La Riva Guard (Bottom) film study: Mikey Musumeci deals with that Bernardo Faria pressure, taught by Chase Namba.",
+      "name": "Dealing with pressure passing",
+      "description": "De La Riva Guard (Bottom) film study: Dealing with pressure passing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ErsvmCAGxnA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ErsvmCAGxnA",
       "url": "https://www.youtube.com/watch?v=ErsvmCAGxnA",
-      "creator": { "@type": "Person", "name": "Chase Namba" },
       "duration": "PT77S"
     }
   ]
@@ -209,7 +208,7 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 
 ![](https://www.youtube.com/watch?v=ErsvmCAGxnA)
 
-<p class="clip-credit"><strong>Mikey Musumeci deals with that Bernardo Faria pressure</strong> — taught by Chase Namba · 1:17 · <a href="https://www.youtube.com/watch?v=ErsvmCAGxnA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Dealing with pressure passing</strong> · 1:17 · <a href="https://www.youtube.com/watch?v=ErsvmCAGxnA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

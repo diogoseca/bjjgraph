@@ -49,41 +49,37 @@ description: "Master the Triangle Choke in BJJ. Complete safety guide with setup
       "@type": "VideoObject",
       "position": 1,
       "name": "Triangle from closed guard",
-      "description": "Triangle Choke film study: Triangle from closed guard, taught by Nicholas Meregali.",
+      "description": "Triangle Choke film study: Triangle from closed guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rM8HMq3o9yY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rM8HMq3o9yY",
-      "url": "https://www.youtube.com/watch?v=rM8HMq3o9yY",
-      "creator": { "@type": "Person", "name": "Nicholas Meregali" }
+      "url": "https://www.youtube.com/watch?v=rM8HMq3o9yY"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Surprising triangle from guard",
-      "description": "Triangle Choke film study: Surprising triangle from guard, taught by Giancarlo Bodoni.",
+      "description": "Triangle Choke film study: Surprising triangle from guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MbdpOmzThpQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MbdpOmzThpQ",
-      "url": "https://www.youtube.com/watch?v=MbdpOmzThpQ",
-      "creator": { "@type": "Person", "name": "Giancarlo Bodoni" }
+      "url": "https://www.youtube.com/watch?v=MbdpOmzThpQ"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "No-gi triangle from guard",
-      "description": "Triangle Choke film study: No-gi triangle from guard, taught by Chewjitsu.",
+      "description": "Triangle Choke film study: No-gi triangle from guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9pjdpFCr4UI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9pjdpFCr4UI",
-      "url": "https://www.youtube.com/watch?v=9pjdpFCr4UI",
-      "creator": { "@type": "Person", "name": "Chewjitsu" }
+      "url": "https://www.youtube.com/watch?v=9pjdpFCr4UI"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Triangle off the overhook",
-      "description": "Triangle Choke film study: Triangle off the overhook, taught by Jon Thomas \u00b7 Grapplearts.",
+      "description": "Triangle Choke film study: Triangle off the overhook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aR7JafPJ1lw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/aR7JafPJ1lw",
-      "url": "https://www.youtube.com/watch?v=aR7JafPJ1lw",
-      "creator": { "@type": "Person", "name": "Jon Thomas \u00b7 Grapplearts" }
+      "url": "https://www.youtube.com/watch?v=aR7JafPJ1lw"
     }
   ]
 }
@@ -154,7 +150,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 ![](https://www.youtube.com/watch?v=rM8HMq3o9yY&end=26)
 
-<p class="clip-credit"><strong>Triangle from closed guard</strong> — taught by Nicholas Meregali · <a href="https://www.youtube.com/watch?v=rM8HMq3o9yY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle from closed guard</strong> · <a href="https://www.youtube.com/watch?v=rM8HMq3o9yY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -162,7 +158,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 ![](https://www.youtube.com/watch?v=MbdpOmzThpQ)
 
-<p class="clip-credit"><strong>Surprising triangle from guard</strong> — taught by Giancarlo Bodoni · <a href="https://www.youtube.com/watch?v=MbdpOmzThpQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Surprising triangle from guard</strong> · <a href="https://www.youtube.com/watch?v=MbdpOmzThpQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -170,7 +166,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 ![](https://www.youtube.com/watch?v=9pjdpFCr4UI)
 
-<p class="clip-credit"><strong>No-gi triangle from guard</strong> — taught by Chewjitsu · <a href="https://www.youtube.com/watch?v=9pjdpFCr4UI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No-gi triangle from guard</strong> · <a href="https://www.youtube.com/watch?v=9pjdpFCr4UI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -178,7 +174,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 ![](https://www.youtube.com/watch?v=aR7JafPJ1lw)
 
-<p class="clip-credit"><strong>Triangle off the overhook</strong> — taught by Jon Thomas · Grapplearts · <a href="https://www.youtube.com/watch?v=aR7JafPJ1lw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle off the overhook</strong> · <a href="https://www.youtube.com/watch?v=aR7JafPJ1lw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

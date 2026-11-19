@@ -170,8 +170,8 @@ description: "Learn to defend and escape the Inverted Triangle from Triangle Con
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape",
-      "description": "Inverted Triangle from Triangle Control (Defender) film study: Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape.",
+      "name": "Inverted Triangle Choke Escape",
+      "description": "Inverted Triangle from Triangle Control (Defender) film study: Inverted Triangle Choke Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AptNwQLD_EQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AptNwQLD_EQ",
       "url": "https://www.youtube.com/watch?v=AptNwQLD_EQ",
@@ -224,7 +224,7 @@ Defending the inverted triangle from triangle control requires recognizing the t
 
 ![](https://www.youtube.com/watch?v=AptNwQLD_EQ)
 
-<p class="clip-credit"><strong>Relson Gracie Jiu-Jitsu Team HK: Inverted Triangle Choke Escape</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=AptNwQLD_EQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Inverted Triangle Choke Escape</strong> · 1:57 · <a href="https://www.youtube.com/watch?v=AptNwQLD_EQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

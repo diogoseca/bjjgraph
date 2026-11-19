@@ -13,7 +13,7 @@ import { journey } from "../dsl"
 
 // v1.230.0 reverses v1.218.1/v1.220.0 Inspect. Late media belongs to its
 // existing card; the landing question and the hand's scroll position must survive.
-test("@curated a cold choice gains its approved video without replacing the landing question or hand scroll", async ({ page }) => {
+test("a cold choice gains its approved video without replacing the landing question or hand scroll", async ({ page }) => {
   const j = journey(page)
   await j.boot()
   await j.land("Mount Top")
@@ -75,7 +75,7 @@ for (const path of [
   "/Submissions/Armbar",
   "/Learning/Position-Over-Submission", "/Systems/10th-Planet-No-Gi-Guard-System",
 ]) {
-  test(`@curated complete published article: ${path}`, async ({ page }) => {
+  test(`complete published article: ${path}`, async ({ page }) => {
     const j = journey(page)
     await j.boot(path, { initialState: readingState })
     await j.advance(5000)
@@ -107,7 +107,7 @@ for (const path of [
   })
 }
 
-test("@curated role reading retains hub safety and never creates duplicate IDs", async ({ page }) => {
+test("role reading retains hub safety and never creates duplicate IDs", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Submissions/Rear-Naked-Choke/from-Back-Control/Defender", { initialState: readingState })
   await j.advance(5000)
@@ -120,7 +120,7 @@ test("@curated role reading retains hub safety and never creates duplicate IDs",
   for (const id of readerIds) expect(ids.filter(x => x === id)).toHaveLength(1)
 })
 
-test("@curated a failed article request has a real Retry path", async ({ page }) => {
+test("a failed article request has a real Retry path", async ({ page }) => {
   const j = journey(page)
   let requests = 0
   let release!: () => void
@@ -144,7 +144,7 @@ test("@curated a failed article request has a real Retry path", async ({ page })
   await expect(page.locator('[data-reader-body]')).toContainText("Training Progressions")
 })
 
-test("@curated Back retires an in-flight article instead of repainting the current page", async ({ page }) => {
+test("Back retires an in-flight article instead of repainting the current page", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Transitions/Knee-Slice-Pass", { initialState: readingState })
   await j.advance(5000)
@@ -174,7 +174,7 @@ test("@curated Back retires an in-flight article instead of repainting the curre
   expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(['/Transitions/Knee-Slice-Pass/Attacker'])
 })
 
-test("@curated a slower article never replaces a later Browse selection in the same reader", async ({ page }) => {
+test("a slower article never replaces a later Browse selection in the same reader", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Transitions/Knee-Slice-Pass", { initialState: readingState })
   await j.advance(5000)
@@ -230,7 +230,7 @@ test("@curated a slower article never replaces a later Browse selection in the s
   expect(await page.locator('[data-reader-article="guide"]').evaluateAll(es => [...new Set(es.map(e => e.getAttribute("data-source-path")))])).toEqual(["/Positions/Mount/Top"])
 })
 
-test("@curated a failed reader module remains retryable without substituting another page", async ({ page }) => {
+test("a failed reader module remains retryable without substituting another page", async ({ page }) => {
   const j = journey(page)
   let requests = 0
   await j.boot("/Transitions/Knee-Slice-Pass", { initialState: readingState, beforeNavigate: async () => {
@@ -246,7 +246,7 @@ test("@curated a failed reader module remains retryable without substituting ano
 
 // Ported from neural_reading_content.test.mjs when the unreachable Inspect renderer retired.
 for (const role of ["Attacker", "Defender"]) {
-  test(`@curated the published ${role} reader preserves a complete long overview and authored outcomes`, async ({ page }) => {
+  test(`the published ${role} reader preserves a complete long overview and authored outcomes`, async ({ page }) => {
     const j = journey(page), path = "/Transitions/Knee-Slice-Pass/" + role
     const overview = "First sentence. " + "Further authored context. ".repeat(30) + "FINAL OVERVIEW SENTENCE."
     const outcome = role === "Defender" ? "Authored escape destination" : "Authored attack destination"

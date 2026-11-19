@@ -294,7 +294,7 @@ const principleStudyState = (page: Page) => page.evaluate(() => {
   };
 });
 
-test("opening a reference before the landing prefetch runs leaves the roll retired @curated", async ({ page }) => {
+test("opening a reference before the landing prefetch runs leaves the roll retired", async ({ page }) => {
   const errors = watchErrors(page);
   const j = journey(page);
   await j.boot("/");
@@ -366,7 +366,7 @@ async function readerStudyTools(page: Page, j: ReturnType<typeof journey>) {
   await j.clickByMouse("[data-reader-study]", "open the page's related practice");
 }
 
-test("Explore lists every authored principle, and opening one opens content — never a search @curated", async ({
+test("@curated Explore lists every authored principle, and opening one opens content — never a search", async ({
   page,
 }) => {
   const errors = watchErrors(page);
@@ -600,7 +600,7 @@ test("Explore lists every authored Learning entry, and opening one opens content
   expect(errors, "no page error across the journey").toEqual([]);
 });
 
-test("arriving on a principle's own page opens it and starts NOTHING @curated", async ({
+test("arriving on a principle's own page opens it and starts NOTHING", async ({
   page,
 }) => {
   const errors = watchErrors(page);
@@ -764,7 +764,7 @@ for (const viewport of [
   { width: 1440, height: 700 },
   { width: 390, height: 844 },
 ]) {
-  test(`principle film study hydrates, plays on request, and stops on leaving at ${viewport.width}px @curated`, async ({ page }) => {
+  test(`principle film study hydrates, plays on request, and stops on leaving at ${viewport.width}px`, async ({ page }) => {
     await page.setViewportSize(viewport);
     const errors = watchErrors(page);
     const j = journey(page);
@@ -821,8 +821,11 @@ for (const viewport of [
     await expect(film).toContainText("Film study");
     await expect(film.locator(".ng-clip")).toHaveCount(4);
     await expect(film.locator(".ng-clip").first()).toContainText(clips[0].title);
-    // STALE SPEC (v1.230.0, feat/video-cards): a clip's control is its play button, named "Watch: title — by".
-    await expect(film.locator(".ng-clip").first().locator("[data-film-play]")).toHaveAccessibleName(`Watch: ${clips[0].title} — ${clips[0].by}`);
+    // STALE SPEC (v1.230.0, feat/video-cards): a clip's control is its play button, named "Watch: title".
+    // v1.288.0 (owner U196 b: no person's name in our own text): this claimed the name ended "— <by>". It now
+    // claims the opposite, and the fixture above STILL carries `by`, so the name is proved not printed even when
+    // a clip arrives with one (the wire no longer ships it at all: scripts/check_no_names.py).
+    await expect(film.locator(".ng-clip").first().locator("[data-film-play]")).toHaveAccessibleName(`Watch: ${clips[0].title}`);
     expect(await film.evaluate((el) => {
       const detail = document.querySelector("[data-concept-detail]")!;
       const body = document.querySelector("[data-concept-body]")!;
@@ -849,30 +852,26 @@ for (const viewport of [
     await stubPrincipleVideos(page);
 
     const first = `[data-concept-film="${concept.id}"] .ng-clip[data-i="0"]`;
-    // STALE CONTRACT (v1.230.0, feat/video-cards): the play button opens the player on its own controls and
-    // never autoplays, so the viewer's own play, once the player is ready, goes through its handle. The
-    // player has no mute control; its close button is what must fit inside the pane.
+    // VID1 (owner, 15 Nov: "i'd rather show the video only on top of everything, and dim the rest, and start it
+    // immediately"): a Principle's clip plays in the theater over the drawer. WAS (v1.230.0 to v1.280.0): the card grew
+    // inside the drawer, the player waited for its own Play (driven here through its handle), a press outside it closed
+    // it (one capture listener) and the grown portrait had to fit the pane. On the VID1 build that block failed at
+    // `film .ngPlayerHost` (count 0: the player is in the theater). Kept: one player, this clip, it plays from the press,
+    // and every way of leaving below stops it. video-viewer.spec.ts holds the theater's own rules from the drawer.
     const play = async () => {
       await page.locator(first).scrollIntoViewIfNeeded();
+      const card = await page.locator(first).boundingBox();
       if (viewport.width > 600) await j.clickByMouse(`${first} [data-film-play]`);
       else { await page.locator(`${first} [data-film-play]`).focus(); await page.keyboard.press("Enter"); }
-      await expect(film.locator(".ngPlayerHost")).toHaveCount(1);
-      await expect.poll(() => page.evaluate(() => !!(window as any).__neural._expandedClip?._playerReady), "premise: the player is ready").toBe(true);
-      await page.evaluate(() => (window as any).__neural._expandedClip._player.playVideo());
+      await expect(page.locator(".ng-video-theater .ngPlayerHost")).toHaveCount(1);
+      await expect(film.locator(".ngPlayerHost"), "the drawer's card hosts no player").toHaveCount(0);
       await expect.poll(() => page.evaluate(() => {
         const players = (window as any).__principlePlayers;
         return players.length && players[players.length - 1].plays > 0;
-      })).toBe(true);
+      }), { message: "the press played it, with no second Play" }).toBe(true);
       expect(await page.evaluate(() => (window as any).__principlePlayers.at(-1).id)).toBe(clips[0].id);
-      expect(await page.evaluate(() => (window as any).__principleVideoListeners.size)).toBe(1);
-      await expect.poll(() => page.locator(first).evaluate((card) => {
-        const pane = (window as any).__neural.explorerListRef.current.getBoundingClientRect();
-        const rect = card.getBoundingClientRect();
-        const finalHeight = parseFloat((card as HTMLElement).style.height);
-        const close = card.querySelector(".ngClipX")!.getBoundingClientRect();
-        return Math.abs(rect.height - finalHeight) < 1 && rect.top >= pane.top
-          && rect.bottom <= pane.bottom && close.bottom <= pane.bottom;
-      }), { message: "the expanded portrait and its close button fit inside the reading pane" }).toBe(true);
+      expect(await page.evaluate(() => (window as any).__principleVideoListeners.size), "no press-outside listener: the dim closes it").toBe(0);
+      expect(await page.locator(first).boundingBox(), "the clip's card keeps its place and size in the drawer").toEqual(card);
     };
     const stopped = async () => {
       await expect(page.locator(".ngPlayerHost")).toHaveCount(0);
@@ -884,8 +883,8 @@ for (const viewport of [
     };
 
     await play();
-    const close = `${first} .ngClipX`;
-    await page.locator(close).scrollIntoViewIfNeeded();
+    const close = ".ng-video-theater .ngClipX";
+    await page.locator(".ng-video-theater").evaluate(async (d) => { await Promise.all(d.getAnimations().map((a) => a.finished)) });
     if (viewport.width > 600) await j.clickByMouse(close);
     else { await page.locator(close).focus(); await page.keyboard.press("Enter"); }
     await stopped();
@@ -900,10 +899,9 @@ for (const viewport of [
     await stopped();
     await page.evaluate((id) => (window as any).__neural.openConcept(id), concept.id);
     await play();
-    const related = page.locator(`[data-concept-link="${longer.id}"]`);
-    await related.scrollIntoViewIfNeeded();
-    await related.focus();
-    await page.keyboard.press("Enter");
+    // VID1: WAS a keyboard press on the related Principle's link while the clip played. The link is now under the dim and
+    // takes no press (video-viewer.spec.ts); the app's own way there (the row's handler) still stops the clip.
+    await page.evaluate((id) => (window as any).__neural.openConcept(id), longer.id);
     await expect(page.locator(`[data-concept-detail="${longer.id}"]`)).toBeVisible();
     await stopped();
 
@@ -912,12 +910,13 @@ for (const viewport of [
     await expect(longFilm).toContainText(clips[2].title);
     await longFilm.locator(".ng-clip [data-film-play]").focus();
     await page.keyboard.press("Enter");
-    await expect(longFilm.locator(".ngPlayerHost")).toHaveCount(1);
+    await expect(page.locator(".ng-video-theater .ngPlayerHost")).toHaveCount(1);
     expect(await page.evaluate(() => (window as any).__principlePlayers.at(-1).id)).toBe(clips[2].id);
     await page.keyboard.press("Escape");
     await stopped();
-    // Escape collapses a principle's film and returns focus to its clip card (the app's Escape ladder), as before.
-    await expect(longFilm.locator(".ng-clip")).toBeFocused();
+    // Escape closes the theater first (the app's Escape ladder; the drawer stays) and returns focus to the clip's Play,
+    // the theater's rule. WAS: focus to the clip card (the in-place player's own Escape branch, retired in VID1).
+    await expect(longFilm.locator(".ng-clip [data-film-play]")).toBeFocused();
     await expect(page.locator(`[data-concept-detail="${longer.id}"]`)).toBeVisible();
     const noVideo = page.locator(`[data-concept-link="${empty.id}"]`);
     await noVideo.focus();
@@ -937,7 +936,7 @@ for (const viewport of [
     expect(errors).toEqual([]);
   });
 
-  test(`principle sections expand independently and keep related concepts first at ${viewport.width}px @curated`, async ({ page }) => {
+  test(`principle sections expand independently and keep related concepts first at ${viewport.width}px`, async ({ page }) => {
     await page.setViewportSize(viewport);
     const j = journey(page);
     const errors = watchErrors(page);
@@ -1042,7 +1041,7 @@ for (const viewport of [
     expect(errors).toEqual([]);
   });
 
-  test(`principle overview fits the whole map and highlights both roles at ${viewport.width}px @curated`, async ({
+  test(`principle overview fits the whole map and highlights both roles at ${viewport.width}px`, async ({
     page,
   }) => {
     await page.setViewportSize(viewport);
@@ -1149,7 +1148,7 @@ for (const viewport of [
 // published videos. Classification: /home/user/bjj-orchestrator/scratch/article-sections/
 // ci-e26/reference-retirement-classification.md (old host disconnected before new host).
 for (const [category, reference] of [["Principles", null], ["Systems", null], ["Learning", null], ["Principles", "Principles/Microing"]] as const) {
-  test(`clicking ${reference || category} retires the current node and its surfaces @curated`, async ({ page }) => {
+  test(`clicking ${reference || category} retires the current node and its surfaces`, async ({ page }) => {
     const errors = watchErrors(page);
     const j = journey(page);
     await j.boot("/");
@@ -1263,7 +1262,7 @@ for (const [category, reference] of [["Principles", null], ["Systems", null], ["
  * NOT COVERED, declared: the address bar. Like ‹ Back, going home leaves the page path where the
  * page put it; a reload reopens the page. The swipe path is untouched and not re-asserted here.
  */
-test("clicking the pressed Explore tab returns a drilled Principle, then a System, to the Explore root @curated", async ({ page }) => {
+test("clicking the pressed Explore tab returns a drilled Principle, then a System, to the Explore root", async ({ page }) => {
   const errors = watchErrors(page);
   const principles = of("Principle");
   const j = journey(page);
@@ -1311,11 +1310,11 @@ test("clicking the pressed Explore tab returns a drilled Principle, then a Syste
   await expect(rows, "the root list is back").toHaveCount(principles.length);
   expect(await page.evaluate(() => (window as any).__neural._systemId), "no System owns the list").toBeNull();
 
-  // ── v1.242.0: Path is a row of the list (no pressed tab to re-press); its brand leads home again ──
-  await page.locator("[data-view='challenges']").scrollIntoViewIfNeeded();   // below the expanded Principles
-  await j.clickByMouse("[data-view='challenges']", "the Path row");
-  await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Path");
-  await j.clickByMouse(tab, "the brand, from Path");
+  // ── v1.242.0: Path was a row of the list (no pressed tab to re-press); its brand led home again. v1.287.0: the Path row
+  // left the drawer, and the same claim holds of Master the game, which holds its corridor ──
+  await j.openCorridor({ allBelts: false });
+  await expect(page.locator(".ng-drawer-brand")).toHaveText("\u2039 Master the game");
+  await j.clickByMouse(tab, "the brand, from Master the game");
   await expect(rows, "the root list is back").toHaveCount(principles.length);
   expect(errors, "no page errors along the way").toEqual([]);
 });

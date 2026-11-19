@@ -160,8 +160,8 @@ description: "Defend takedown attempts from standing in BJJ. Complete guide cove
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Jordan Burroughs: Sprawl Technique",
-      "description": "Takedown from Bottom (Defender) film study: Jordan Burroughs: Sprawl Technique.",
+      "name": "Sprawl Technique",
+      "description": "Takedown from Bottom (Defender) film study: Sprawl Technique.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LiRrlPGboK8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/LiRrlPGboK8",
       "url": "https://www.youtube.com/watch?v=LiRrlPGboK8",
@@ -195,7 +195,7 @@ Defending a takedown attempt from a standing opponent requires early recognition
 
 ![](https://www.youtube.com/watch?v=LiRrlPGboK8)
 
-<p class="clip-credit"><strong>Jordan Burroughs: Sprawl Technique</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=LiRrlPGboK8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sprawl Technique</strong> · 2:02 · <a href="https://www.youtube.com/watch?v=LiRrlPGboK8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -56,8 +56,8 @@ description: "Master posture recovery from Williams Guard in BJJ. Complete guide
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Setting up an omoplata from the Nino Schembri/Shawn Williams guard",
-      "description": "Posture from Williams Guard film study: Setting up an omoplata from the Nino Schembri/Shawn Williams guard.",
+      "name": "Setting up an omoplata from the Williams Guard",
+      "description": "Posture from Williams Guard film study: Setting up an omoplata from the Williams Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/P4MZrC6752A/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/P4MZrC6752A",
       "url": "https://www.youtube.com/watch?v=P4MZrC6752A",
@@ -125,7 +125,7 @@ Success depends on recognizing that the shoulder lock and guard structure are me
 
 ![](https://www.youtube.com/watch?v=P4MZrC6752A)
 
-<p class="clip-credit"><strong>Setting up an omoplata from the Nino Schembri/Shawn Williams guard</strong> · 1:09 · <a href="https://www.youtube.com/watch?v=P4MZrC6752A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Setting up an omoplata from the Williams Guard</strong> · 1:09 · <a href="https://www.youtube.com/watch?v=P4MZrC6752A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

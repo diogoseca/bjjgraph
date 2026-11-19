@@ -47,33 +47,30 @@ description: "Master the Straight Ankle Lock in BJJ. Complete guide with safety 
       "@type": "VideoObject",
       "position": 1,
       "name": "Backside Foot Finish Mechanics",
-      "description": "Straight Ankle Lock film study: Backside Foot Finish Mechanics, taught by Mikey Musumeci.",
+      "description": "Straight Ankle Lock film study: Backside Foot Finish Mechanics.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-VpByetjzqs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/-VpByetjzqs",
       "url": "https://www.youtube.com/watch?v=-VpByetjzqs",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
       "duration": "PT84S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Straight Ankle Lock",
-      "description": "Straight Ankle Lock film study: Straight Ankle Lock, taught by bjjtaro.",
+      "description": "Straight Ankle Lock film study: Straight Ankle Lock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PsyAVXfRhyY/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PsyAVXfRhyY",
       "url": "https://www.youtube.com/watch?v=PsyAVXfRhyY",
-      "creator": { "@type": "Person", "name": "bjjtaro" },
       "duration": "PT16S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Fast Straight Ankle Lock (No-Gi)",
-      "description": "Straight Ankle Lock film study: Fast Straight Ankle Lock (No-Gi), taught by Everythingbjj.",
+      "description": "Straight Ankle Lock film study: Fast Straight Ankle Lock (No-Gi).",
       "thumbnailUrl": "https://i.ytimg.com/vi/GVwnRuiKk-Y/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/GVwnRuiKk-Y",
       "url": "https://www.youtube.com/watch?v=GVwnRuiKk-Y",
-      "creator": { "@type": "Person", "name": "Everythingbjj" },
       "duration": "PT64S"
     }
   ]
@@ -141,7 +138,7 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 
 ![](https://www.youtube.com/watch?v=-VpByetjzqs)
 
-<p class="clip-credit"><strong>Backside Foot Finish Mechanics</strong> — taught by Mikey Musumeci · 1:24 · <a href="https://www.youtube.com/watch?v=-VpByetjzqs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Backside Foot Finish Mechanics</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=-VpByetjzqs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -149,7 +146,7 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 
 ![](https://www.youtube.com/watch?v=PsyAVXfRhyY)
 
-<p class="clip-credit"><strong>Straight Ankle Lock</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=PsyAVXfRhyY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Straight Ankle Lock</strong> · 0:16 · <a href="https://www.youtube.com/watch?v=PsyAVXfRhyY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -157,7 +154,7 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 
 ![](https://www.youtube.com/watch?v=GVwnRuiKk-Y)
 
-<p class="clip-credit"><strong>Fast Straight Ankle Lock (No-Gi)</strong> — taught by Everythingbjj · 1:04 · <a href="https://www.youtube.com/watch?v=GVwnRuiKk-Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Fast Straight Ankle Lock (No-Gi)</strong> · 1:04 · <a href="https://www.youtube.com/watch?v=GVwnRuiKk-Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

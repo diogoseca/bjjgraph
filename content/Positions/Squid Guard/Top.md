@@ -165,8 +165,8 @@ description: "Master Squid Guard Top in BJJ. Learn guard passing strategies, lap
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing The Squid Guard Concepts w/ Pablo Mantovani",
-      "description": "Squid Guard (Top) film study: Passing The Squid Guard Concepts w/ Pablo Mantovani.",
+      "name": "Passing The Squid Guard Concepts",
+      "description": "Squid Guard (Top) film study: Passing The Squid Guard Concepts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zmy16f69rb4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/zmy16f69rb4",
       "url": "https://www.youtube.com/watch?v=zmy16f69rb4",
@@ -202,7 +202,7 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 ![](https://www.youtube.com/watch?v=zmy16f69rb4)
 
-<p class="clip-credit"><strong>Passing The Squid Guard Concepts w/ Pablo Mantovani</strong> · 10:08 · <a href="https://www.youtube.com/watch?v=zmy16f69rb4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing The Squid Guard Concepts</strong> · 10:08 · <a href="https://www.youtube.com/watch?v=zmy16f69rb4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

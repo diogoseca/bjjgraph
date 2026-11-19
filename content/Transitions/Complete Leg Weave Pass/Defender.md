@@ -161,22 +161,20 @@ description: "Complete Leg Weave Pass (defender): The passer's arm connecting yo
       "@type": "VideoObject",
       "position": 1,
       "name": "Defeating the leg weave pass with the underhook",
-      "description": "Complete Leg Weave Pass (Defender) film study: Defeating the leg weave pass with the underhook, taught by Lachlan Giles.",
+      "description": "Complete Leg Weave Pass (Defender) film study: Defeating the leg weave pass with the underhook.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZXt2yzy0BL0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ZXt2yzy0BL0",
       "url": "https://www.youtube.com/watch?v=ZXt2yzy0BL0",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT249S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Defending the leg weave pass",
-      "description": "Complete Leg Weave Pass (Defender) film study: Defending the leg weave pass, taught by Jon Thomas.",
+      "description": "Complete Leg Weave Pass (Defender) film study: Defending the leg weave pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PKvaosk3gGc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/PKvaosk3gGc",
       "url": "https://www.youtube.com/watch?v=PKvaosk3gGc",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
       "duration": "PT197S"
     }
   ]
@@ -215,7 +213,7 @@ Use a shoulder frame and a short shrimp to make an early escape before the last 
 
 ![](https://www.youtube.com/watch?v=ZXt2yzy0BL0)
 
-<p class="clip-credit"><strong>Defeating the leg weave pass with the underhook</strong> — taught by Lachlan Giles · 4:09 · <a href="https://www.youtube.com/watch?v=ZXt2yzy0BL0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defeating the leg weave pass with the underhook</strong> · 4:09 · <a href="https://www.youtube.com/watch?v=ZXt2yzy0BL0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -223,7 +221,7 @@ Use a shoulder frame and a short shrimp to make an early escape before the last 
 
 ![](https://www.youtube.com/watch?v=PKvaosk3gGc)
 
-<p class="clip-credit"><strong>Defending the leg weave pass</strong> — taught by Jon Thomas · 3:17 · <a href="https://www.youtube.com/watch?v=PKvaosk3gGc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending the leg weave pass</strong> · 3:17 · <a href="https://www.youtube.com/watch?v=PKvaosk3gGc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

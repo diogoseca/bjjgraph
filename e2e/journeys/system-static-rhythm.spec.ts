@@ -29,7 +29,7 @@ const rhythm = (starts: string) => {
 };
 
 for (const width of [1440, 390]) {
-  test(`@curated static System sections sit two body lines apart at ${width}px, as a ratio of the line-height token`, async ({ page }) => {
+  test(`static System sections sit two body lines apart at ${width}px, as a ratio of the line-height token`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     await page.route("**/static/neural/app/neural.js*", route => route.fulfill({ status: 404, body: "Bundle unavailable" }));
     await page.route(/mediadelivery\.net|youtube/, route => route.abort());

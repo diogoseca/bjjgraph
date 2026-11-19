@@ -1,0 +1,8 @@
+{
+  "note": "THE DEPLOY GATE'S NUMBERS, read by scripts/deploy_gate.mjs (the tripwire in both deploys, and the row sum in tests/deploy_gate.test.mjs); nothing in prose repeats them. target_min: over it the tripwire warns and the run stays green. line_min: over it the run goes red AFTER the deploy went out (a slow but green gate still ships; blocking at the line would only move the cliff). timeout_min: the gate step's own timeout-minutes in deploy-dev.yaml and deploy.yaml, which the unit holds equal to this value; it bounds a hang. startup_s: Playwright's start and the server, measured 8 s from the step's start to the first test on runs 43210168114 and 43196894885, plus 0.016-0.021 s between tests. Set at v1.263.0 (GATE5) by the orchestrator under the owner's U147 a: target 5, line 10, timeout 20 (it was 45 with no target and no line, and the gate stood at 36.8 min on the slow runner). With the 56 tests of that trim the rows sum to about 2.7 min on a slow runner. Move a number only in its own justified commit.",
+  "step": "Curated journey gate (Playwright E2E)",
+  "target_min": 5,
+  "line_min": 10,
+  "timeout_min": 20,
+  "startup_s": 10
+}

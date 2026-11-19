@@ -46,8 +46,8 @@ description: "Master the backstep from De La Riva Guard. Learn to clear the DLR 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "De La Riva back step pass and variations by Samir Chantre and Osvaldo Moizinho",
-      "description": "Backstep from De La Riva film study: De La Riva back step pass and variations by Samir Chantre and Osvaldo Moizinho.",
+      "name": "De La Riva back step pass and variations",
+      "description": "Backstep from De La Riva film study: De La Riva back step pass and variations.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0-QhNJY5UQ0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0-QhNJY5UQ0",
       "url": "https://www.youtube.com/watch?v=0-QhNJY5UQ0",
@@ -117,7 +117,7 @@ However, the backstep carries inherent risk that distinguishes it from safer pas
 
 ![](https://www.youtube.com/watch?v=0-QhNJY5UQ0)
 
-<p class="clip-credit"><strong>De La Riva back step pass and variations by Samir Chantre and Osvaldo Moizinho</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=0-QhNJY5UQ0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>De La Riva back step pass and variations</strong> · 0:36 · <a href="https://www.youtube.com/watch?v=0-QhNJY5UQ0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

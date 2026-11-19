@@ -180,8 +180,8 @@ description: "Defend the arm triangle from high mount. Recognize the setup, prev
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Gracie Barra Jupiter- Head and arm choke escape",
-      "description": "Arm Triangle from High Mount (Defender) film study: Gracie Barra Jupiter- Head and arm choke escape.",
+      "name": "Head and arm choke escape",
+      "description": "Arm Triangle from High Mount (Defender) film study: Head and arm choke escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N7SC93aEOIA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/N7SC93aEOIA",
       "url": "https://www.youtube.com/watch?v=N7SC93aEOIA",
@@ -232,7 +232,7 @@ Defending the arm triangle from high mount requires recognizing the setup before
 
 ![](https://www.youtube.com/watch?v=N7SC93aEOIA)
 
-<p class="clip-credit"><strong>Gracie Barra Jupiter- Head and arm choke escape</strong> · 2:54 · <a href="https://www.youtube.com/watch?v=N7SC93aEOIA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Head and arm choke escape</strong> · 2:54 · <a href="https://www.youtube.com/watch?v=N7SC93aEOIA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

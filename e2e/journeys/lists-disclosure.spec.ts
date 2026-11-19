@@ -31,7 +31,7 @@ import { journey } from "../dsl";
  *  7. It works in the 390px drawer: names truncate, controls stay thumb-sized, no scroll trap.
  *  8. Expansion is SESSION state (a Set, not a settings map) — a reload comes back collapsed.
  *
- * Rails: __neural.lists, .listsArray(), ._listExpanded(id), ._focusIdxSet, ._dossierIdx,
+ * Rails: __neural.lists, .listsArray(), ._listExpanded(id), ._focusIdxSet,
  *        .addToList, .removeListItem
  * Handles: [data-list-open] (the toggle), [data-list-items], [data-list-item],
  *          [data-list-item-remove], [data-list-empty], [data-list-count], [data-list-chevron]
@@ -106,7 +106,7 @@ const seedList = (page: Page, name: string, ids: string[]) =>
 
 // ─────────────────────────────────────────────── 1. the disclosure itself
 
-test("a list's techniques live behind its count line — the chevron opens them in place @curated", async ({
+test("a list's techniques live behind its count line — the chevron opens them in place", async ({
   page,
 }) => {
   const j = journey(page);
@@ -194,7 +194,7 @@ test("a list's techniques live behind its count line — the chevron opens them 
 
 // ─────────────────────────────────────────────── 2. the name a coach used
 
-test("an expanded item is named the way a coach named it: WITH the position it comes from @curated", async ({
+test("an expanded item is named the way a coach named it: WITH the position it comes from", async ({
   page,
 }) => {
   const j = journey(page);
@@ -246,14 +246,11 @@ test("clicking a listed technique opens its dossier — the same move as a share
     "a listed technique",
   );
   // v1.132.0: opening a technique NAVIGATES — the exchange stages on it and the card arrives
-  // with the landing (~0.6s sim), so the read pumps the clock first. `_dossierIdx` stays null
-  // because nothing separate was "opened"; the game's own card is the surface.
+  // with the landing (~0.6s sim), so the read pumps the clock first. The game's own card is the surface. (v1.255.1: the
+  // `_dossierIdx` read that stood here went with the dossier, §6.8: it was null by construction, and there is no separate
+  // surface left to open.)
   await j.advance(1500);
   await j.landQuestion();
-  expect(
-    await page.evaluate(() => (window as any).__neural._dossierIdx ?? null),
-    "no separate dossier surface is opened",
-  ).toBeNull();
   expect(
     await page.evaluate(() => {
       const a = (window as any).__neural;
@@ -271,7 +268,7 @@ test("clicking a listed technique opens its dossier — the same move as a share
 
 // ─────────────────────────────────────────────── 4. removing one
 
-test("× removes that technique from THAT list: count, storage and the lit graph all follow @curated", async ({
+test("× removes that technique from THAT list: count, storage and the lit graph all follow", async ({
   page,
 }) => {
   const j = journey(page);
@@ -331,7 +328,7 @@ test("× removes that technique from THAT list: count, storage and the lit graph
 
 // ─────────────────────────────────────────────── 5. auto-expand: the actual ask
 
-test("the list you just made, and the list you just added to, are already open @curated", async ({
+test("the list you just made, and the list you just added to, are already open", async ({
   page,
 }) => {
   const j = journey(page);

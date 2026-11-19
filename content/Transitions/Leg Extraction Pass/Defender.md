@@ -152,8 +152,8 @@ description: "Complete defensive guide against the Leg Extraction Pass. Learn to
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Counter to the Ashi Garami Defense, PAMA, Raleigh NC",
-      "description": "Leg Extraction Pass (Defender) film study: Counter to the Ashi Garami Defense, PAMA, Raleigh NC.",
+      "name": "Counter to the Ashi Garami Defense",
+      "description": "Leg Extraction Pass (Defender) film study: Counter to the Ashi Garami Defense.",
       "thumbnailUrl": "https://i.ytimg.com/vi/p0dFynBvQZw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/p0dFynBvQZw?start=25",
       "url": "https://www.youtube.com/watch?v=p0dFynBvQZw",
@@ -187,7 +187,7 @@ As the defender against the Leg Extraction Pass, your objective is to maintain t
 
 ![](https://www.youtube.com/watch?v=p0dFynBvQZw&start=25)
 
-<p class="clip-credit"><strong>Counter to the Ashi Garami Defense, PAMA, Raleigh NC</strong> · 2:24 · <a href="https://www.youtube.com/watch?v=p0dFynBvQZw&t=25s" rel="noopener">Watch on YouTube from 0:25</a></p>
+<p class="clip-credit"><strong>Counter to the Ashi Garami Defense</strong> · 2:24 · <a href="https://www.youtube.com/watch?v=p0dFynBvQZw&t=25s" rel="noopener">Watch on YouTube from 0:25</a></p>
 
 </div>
 

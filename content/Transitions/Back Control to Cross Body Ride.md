@@ -36,6 +36,27 @@ description: "Master the transition from back control to cross body ride in BJJ.
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Control to Cross Body Ride \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No Escape: Keep the Back (and Hip Lock!) with the Cross-Body Ride (NO GI\u2026",
+      "description": "Back Control to Cross Body Ride film study: No Escape: Keep the Back (and Hip Lock!) with the Cross-Body Ride (NO GI\u2026.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBXtR-UefWE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBXtR-UefWE",
+      "url": "https://www.youtube.com/watch?v=DBXtR-UefWE",
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
 
 
 <script type="application/ld+json">
@@ -74,6 +95,24 @@ Execution requires precise timing and weight distribution awareness. The top pla
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Control to Cross Body Ride in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBXtR-UefWE)
+
+<p class="clip-credit"><strong>No Escape: Keep the Back (and Hip Lock!) with the Cross-Body Ride (NO GI…</strong> · 3:27 · <a href="https://www.youtube.com/watch?v=DBXtR-UefWE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="possible-outcomes" class="content-section">

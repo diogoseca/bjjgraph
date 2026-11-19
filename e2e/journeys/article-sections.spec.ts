@@ -49,7 +49,9 @@ for (const path of [
   '/Principles/Frames', '/Learning/Position-Over-Submission',
   '/Systems/Danaher-Pin-Escape-Fundamentals-System',
 ]) {
-  test(`@curated semantic sections preserve every published source block: ${path}`, async ({ page }) => {
+  // The deploy gate (@curated) runs ONE of these, the first route, /Positions/Mount: one quick test per surface (U147 a, v1.263.0).
+  // Every case runs in e2e-full's core shards on each PR and each merge to dev; tests/artifacts/deploy_gate.json.
+  test(`${path === '/Positions/Mount' ? '@curated ' : ''}semantic sections preserve every published source block: ${path}`, async ({ page }) => {
     const j = journey(page)
     await j.boot(path, { initialState: QUIET })
     await expect(page.locator(READY)).toBeVisible()
@@ -105,7 +107,7 @@ for (const width of [1366, 390]) {
   // STALE CONTRACT (D-368, layout C): nothing is lifted above Moves any more. Moves lead the flow at the
   // parts' own step after the node band; the current card, when a film exists, sits in the stage beside
   // or above the question, and the Videos section reads with the article.
-  test(`@curated ${width}px choices precede section cards and preserve the six-pixel token`, async ({ page }) => {
+  test(`${width}px choices precede section cards and preserve the six-pixel token`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 768 })
     const j = journey(page)
     await j.boot(LOOP)
@@ -131,7 +133,6 @@ for (const width of [1366, 390]) {
         // empty and ends at the question's top line, so the right column runs up beside the question.
         lanes: new Set(cards.map(c => Math.round(c.getBoundingClientRect().left))).size, cardTop: card.top, cardBottom: card.bottom,
         filmBottom: a._landFilmEl?.getClientRects().length ? a._landFilmEl.getBoundingClientRect().bottom : null, articleTop: r.articleEl.getBoundingClientRect().top,
-        closeRow: first.top - (r.root.querySelector('[data-reader-close]')?.getBoundingClientRect().bottom ?? NaN),
         headInArticle: r.head.parentElement === r.game && r.head.contains(r.tools) && r.head.hasAttribute('data-bare'),
         sectionHeaders: labels, step: a._landEl.classList.contains('ng-land-deck') ? 16 : a.isMobile() ? 8 : 12,
         backs: 3 * (a._landStackEl?.childElementCount || 0),
@@ -169,7 +170,7 @@ for (const width of [1366, 390]) {
       expect(normal.articleTop - shorter, 'U104: the article follows the stage\'s shorter cell at the six-pixel token').toBeCloseTo(6, 0)
     } else expect(normal.sectionGap, 'the article follows Questions (and its backs) at the six-pixel token').toBeCloseTo(normal.backs + 6, 0)
     // U12 a (D-355): the article's own ✕ is its top row; the first section follows it directly.
-    expect(normal.closeRow, 'the first section follows the article\'s ✕ row').toBeCloseTo(0, 0)
+    // v1.253.0 (U114 a): the article's ✕ row this checked the first section against is retired.
     const gapScale = width < 600 ? 3 : 4
     expect(normal.gaps.length).toBeGreaterThan(0)
     expect(normal.gaps.every(g => Math.abs(g - 6 * gapScale) < 1)).toBe(true)
@@ -196,7 +197,7 @@ for (const width of [1366, 390]) {
   })
 }
 
-test('@curated optional chrome frame preserves the node band and every flow gap', async ({ page }) => {
+test('optional chrome frame preserves the node band and every flow gap', async ({ page }) => {
   await page.setViewportSize({ width: 1366, height: 1600 })
   const j = journey(page)
   await j.boot(LOOP)
@@ -231,28 +232,14 @@ test('@curated optional chrome frame preserves the node band and every flow gap'
     a.readerChromeFrame = () => ({ headBottom, offset, bottomReserve: readingReserve })
     r.layoutNow(); const readingReserved = { geometry: measure(), end: r.root.getBoundingClientRect().bottom }
     a.readerChromeFrame = () => ({ headBottom, offset })
-    // Book off retains the compact fixed-game fit. Exercise its bottom clamp
-    // separately: a scrollable article must not squeeze the reserved node band.
-    a.set('readerBook', false); r.sync(); r.root.scrollTop = 0; r.gameTop = 100000
-    r.layoutNow()
-    const clamped = { bottom: r.game.getBoundingClientRect().bottom, end: r.dock.getBoundingClientRect().top - 8 }
-    // Chrome supplies the entire bottom exclusion, including shelf clearance
-    // and its existing 8px gap. The clamp must not count those twice.
-    const bottomReserve = innerHeight - (r.dock.getBoundingClientRect().top - 8) - 40
-    a.readerChromeFrame = () => ({ headBottom, offset, bottomReserve })
-    r.layoutNow()
-    const reserved = { bottom: r.game.getBoundingClientRect().bottom, end: innerHeight - bottomReserve,
-      rootEnd: r.root.getBoundingClientRect().bottom, geometry: measure() }
-    a.readerChromeFrame = () => ({ headBottom, offset, bottomReserve: 0 })
-    r.layoutNow()
-    const zeroReserve = { bottom: r.game.getBoundingClientRect().bottom, end: innerHeight }
-    a.set('readerBook', true); r.sync(); r.gameTop = 180; delete a.readerChromeFrame
+    // v1.253.0 (U114 a): the Book-off clamp this exercised (against the shelf's top) is retired with the article-away view.
+    r.gameTop = 180; delete a.readerChromeFrame
     r.layoutNow()
     const after = measure()
     a.readerChromeFrame = () => null; r.layoutNow(); const nullHook = measure()
     a.readerChromeFrame = () => undefined; r.layoutNow(); const undefinedHook = measure()
     delete a.readerChromeFrame
-    return { before, after, nullHook, undefinedHook, ownTop, expectedStart, headLead, headBottom, offset, hooked, readingEnd, readingReserved, clamped, reserved, zeroReserve, sameHead }
+    return { before, after, nullHook, undefinedHook, ownTop, expectedStart, headLead, headBottom, offset, hooked, readingEnd, readingReserved, sameHead }
   })
   expect(result.before.top).toBeCloseTo(result.ownTop, 2)
   expect(result.before.start).toBeCloseTo(result.expectedStart, 2)
@@ -266,12 +253,6 @@ test('@curated optional chrome frame preserves the node band and every flow gap'
   for (const [i, gap] of result.hooked.gaps.entries()) expect(gap).toBeCloseTo(result.before.gaps[i], 1)
   expect(result.readingReserved.geometry).toEqual(result.hooked)
   expect(result.readingReserved.end - result.readingEnd).toBeCloseTo(40, 1)
-  expect(result.clamped.bottom).toBeCloseTo(result.clamped.end, 1)
-  expect(result.reserved.bottom).toBeCloseTo(result.reserved.end, 1)
-  expect(result.reserved.bottom - result.clamped.bottom).toBeCloseTo(40, 1)
-  expect(result.reserved.rootEnd).toBeCloseTo(result.reserved.end, 1)
-  expect(result.reserved.geometry.cardGap).toBe(16)
-  expect(result.zeroReserve.bottom).toBeCloseTo(result.zeroReserve.end, 1)
   // Within Chromium's 1/64px layout unit: a card at U90 a's depth rounds to a neighbouring unit on a later pass.
   for (const geometry of [result.after, result.nullHook, result.undefinedHook]) for (const key of Object.keys(result.before) as (keyof typeof result.before)[]) {
     if (key === 'gaps') for (const [i, gap] of result.before.gaps.entries()) expect(geometry.gaps[i]).toBeCloseTo(gap, 1)
@@ -295,7 +276,7 @@ test('@curated optional chrome frame preserves the node band and every flow gap'
 })
 
 for (const width of [1366, 390]) {
-  test(`@curated ${width}px chrome keeps the same controls in their approved homes`, async ({ page }) => {
+  test(`${width}px chrome keeps the same controls in their approved homes`, async ({ page }) => {
     await page.setViewportSize({ width, height: 1000 })
     const j = journey(page)
     await j.boot(LOOP)
@@ -325,7 +306,7 @@ for (const width of [1366, 390]) {
 }
 
 for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768 }, { width: 1152, height: 900 }, { width: 1151, height: 900 }, { width: 1024, height: 768 }, { width: 768, height: 1024 }, { width: 641, height: 844 }, { width: 640, height: 844 }, { width: 390, height: 844 }, { width: 844, height: 390 }]) {
-  test(`@curated contents and header targets at ${viewport.width}x${viewport.height}`, async ({ page }) => {
+  test(`contents and header targets at ${viewport.width}x${viewport.height}`, async ({ page }) => {
     await page.setViewportSize(viewport); await page.emulateMedia({ reducedMotion: 'reduce' })
     const j = journey(page)
     await j.boot(KNEE + '/Attacker', { initialState: QUIET })
@@ -347,54 +328,40 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
     await expect(header).toHaveAttribute('aria-expanded', 'false'); await expect(body).toBeHidden()
     expect(await header.getAttribute('aria-controls')).toBe(await body.getAttribute('id'))
     await expect(page.locator('.ng-reader .ng-section-glyph'), 'sections no longer have icons').toHaveCount(0)
+    // WAS (U25 a, D-338, D-475, U16B-S1): without the index, the closed section waited in "Hidden sections (1)" at the article's end
+    // as a light label (no box, no shadow, no border), one compact 44px line with "Show", at 7:1 contrast, reopened by Space.
+    // NOW (U131 b2, HIDESEC2): it leaves nothing; its message stands in its place for five seconds and Undo brings it back (the
+    // keyboard path here: focus Undo, Space). The 7:1 claim is carried to the message's sentence. hidden-sections.spec.ts pins the rest.
+    const message = page.locator('[data-hidesec-notice=principles]')
     if (!hasToc) {
       await expect(page.locator('.ng-reader-toc')).toBeHidden()
-      // U25 a supersedes the in-flow placeholder: reveal the SAME closed label in the disclosure.
       await expect(header).toBeHidden()
-      await expect(page.locator('.ng-reader-hidden>summary')).toHaveText('Hidden sections (1)›')
-      await page.locator('.ng-reader-hidden>summary').scrollIntoViewIfNeeded(); await j.readerLayoutSettled()
-      await j.clickByMouse('.ng-reader-hidden>summary', 'reveal the closed labels')
-      await expect(header).toBeVisible()
-      await expect(body, 'revealing a closed label does not reveal its article body').toBeHidden()
-      // D-338 / D-475: a closed section is a light label with no box. A zero-width border
-      // draws nothing even when its computed color is currentColor; the open-card glow must vanish too.
-      const closed = await page.locator('[data-section-type=principles]').evaluate(e => {
-        const cs = getComputedStyle(e)
-        return { background: cs.backgroundColor, shadow: cs.boxShadow,
-          borders: ['top', 'right', 'bottom', 'left'].map(side => ({ side,
-            width: parseFloat(cs.getPropertyValue(`border-${side}-width`)),
-            color: cs.getPropertyValue(`border-${side}-color`) })) }
-      })
-      expect(closed.background, 'D-338: no background around a closed section').toBe('rgba(0, 0, 0, 0)')
-      expect(closed.shadow, 'D-475: no shadow around a closed section').toBe('none')
-      for (const { side, width, color } of closed.borders) {
-        const transparent = color === 'transparent' || /^rgba\(.+,\s*0(?:\.0+)?\s*\)$/.test(color)
-        expect(width === 0 || transparent, `D-338: no visible ${side} border around a closed section`).toBe(true)
-      }
-      const line = await header.evaluate(e => { const label = e.querySelector('.ng-section-closed')!, s = getComputedStyle(label)
-        return { height: Math.round(e.getBoundingClientRect().height), display: s.display, align: s.alignItems, action: getComputedStyle(label, '::after').content } })
-      expect(line, 'U25: one compact line, section name and Show action').toEqual({ height: 44, display: 'flex', align: 'center', action: '"Show"' })
-      // The resting label, not its hover: the mouse that closed it is still over it.
+      await expect(page.locator('.ng-reader-hidden'), 'no Hidden sections fold').toBeHidden()
+      await expect(message, 'its message stands in its place').toBeVisible()
+      await expect(body, 'and its body stays hidden').toBeHidden()
+      // The resting message, not its hover: the mouse that closed it is still over it.
       await page.mouse.move(viewport.width - 2, viewport.height - 2)
-      const contrast = await header.evaluate(e => {
+      const contrast = await message.evaluate(e => {
         const lum = (color: string) => { const c = color.match(/\d+/g)!.slice(0, 3).map(x => { const n = +x / 255; return n <= .04045 ? n / 12.92 : ((n + .055) / 1.055) ** 2.4 }); return c[0] * .2126 + c[1] * .7152 + c[2] * .0722 }
-        const fg = lum(getComputedStyle(e).color), bg = lum(getComputedStyle(e.closest('.ng-section-card')!).backgroundColor)
+        const fg = lum(getComputedStyle(e).color), bg = lum(getComputedStyle(e).backgroundColor)
         return (Math.max(fg, bg) + .05) / (Math.min(fg, bg) + .05)
       })
-      expect(contrast, 'U16B-S1: the closed section label retains 7:1 contrast').toBeGreaterThanOrEqual(7)
-      await header.focus(); await page.keyboard.press('Space')
+      expect(contrast, 'U16B-S1, carried to the message: its sentence keeps 7:1 contrast').toBeGreaterThanOrEqual(7)
+      await message.locator('[data-hidesec-undo]').focus(); await page.keyboard.press('Space')
     } else {
       await expect(page.locator('.ng-reader-toc')).toBeVisible()
       await expect(page.locator('.ng-reader-toc button')).toHaveCount(0)
       const toc = await page.locator('.ng-reader-toc').boundingBox()
       expect(column!.x - toc!.x - toc!.width, 'the index sits left of the column').toBeGreaterThanOrEqual(12)
       expect(toc!.x, 'at the 24px inset').toBe(24)
-      await expect(page.locator('[data-section-type=principles]'), 'no placeholder where the index carries it').toBeHidden()
+      // WAS (U11): "no placeholder where the index carries it". NOW (U131 b2): its message stands in its place for five seconds here too.
+      await expect(message, 'its message stands in its place').toBeVisible()
       await expect(page.locator('[data-toc-type=principles]'), 'the index shows the section closed').toHaveAttribute('data-collapsed', 'true')
       await expect(page.locator('[data-toc-type=principles] .ng-section-eye'), 'with its eye').toBeVisible()
       await page.locator(READY).evaluate(e => { e.scrollTop = 0 })
       await j.clickByMouse('[data-toc-type=principles] a', 'the index row reopens the closed section')
       await expect(header).toBeFocused()
+      await expect(message, 'and its message goes with it').toHaveCount(0)
     }
     await expect(body).toBeVisible(); await expect(header).toHaveAttribute('aria-expanded', 'true')
     const before = await state(page); await j.advance(20000); expect(await state(page)).toEqual(before)
@@ -403,16 +370,22 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1366, height: 768
 
 // Measure this frame's published label strings/baselines with their actual font,
 // and both drawn seats through LY. Never use the camera target or stored n.y.
-const tocCanvasGeometry = (page: Page) => page.evaluate(() => {
+// GOLD1-R4 (the map reader's D5), mutants on 605a2d744: P1, the position's name exempt from the rule, red at "1152px: the
+// position's name goes where the rule says" (written on its usual side where the article paints over it); R1a, the box rule
+// again, a NON-KILL here (every reading frame has the article's paint on both sides and every at-rest frame a clear usual
+// side, so the two rules agree in these frames): map-names.spec.ts's see-through fixture and lists-picker.spec.ts hold it.
+// v1.280.0 (POSNAME): the position's own name is never written under a control, so with the article across the node it is
+// not written that frame; `needLabel` false lets the reading frame have none (`labels` empty, `named` false)
+const tocCanvasGeometry = (page: Page, needLabel = true) => page.evaluate((needLabel) => {
   const a = (window as any).__neural, n = a.nodes[a.focusIdx], scale = a.W / a.cam.vw
   const pair = a._lastPairLabel, rich = a._lastRichLabel
   const group = pair && pair.focused && [n.idx, n.pi].includes(pair.idx) ? pair : null
-  const label = group || rich
-  if (!label || !group && (!rich.big || rich.idx !== n.idx)) throw Error('The current node must have a drawn label')
+  const label = group || (rich && rich.big && rich.idx === n.idx ? rich : null)
+  if (!label && needLabel) throw Error('The current node must have a drawn label')
   const ctx = document.createElement('canvas').getContext('2d')!, fam = a._displayFam || "'Space Grotesk'"
-  const rows = group ? [[group.main, group.nameY, group.namePx, 700], [group.qual, group.qualY, 11.5, 600], [group.sub, group.subY, 12, 700]]
+  const rows = !label ? [] : group ? [[group.main, group.nameY, group.namePx, 700], [group.qual, group.qualY, 11.5, 600], [group.sub, group.subY, 12, 700]]
     : [[rich.name, rich.nameY, rich.namePx, 700], [rich.qual, rich.qualY, 11.5, 600], [rich.kicker.toUpperCase(), rich.roleY, 11, 700]]
-  const labels = rows.filter(([text]) => text).map(([text, y, size, weight]) => {
+  const labels = !label ? [] : rows.filter(([text]) => text).map(([text, y, size, weight]) => {
     ctx.font = `${weight} ${size}px ${fam}, sans-serif`
     const m = ctx.measureText(text as string)
     return { left: label.ox - m.actualBoundingBoxLeft, right: label.ox + m.actualBoundingBoxRight,
@@ -429,15 +402,25 @@ const tocCanvasGeometry = (page: Page) => page.evaluate(() => {
   const toc = { left: t.left, right: t.right, top: t.top, bottom: t.bottom }
   const intersections = [...labels, ...orbs].filter(r => r.left < toc.right && r.right > toc.left && r.top < toc.bottom && r.bottom > toc.top)
   const bounds = [...labels, ...orbs], mid = a.pairMid(n)
-  return { toc, labels, orbs, intersections, map: a._graphInputOn(), reading: !!a._reader.interacting,
-    center: (Math.min(...bounds.map(r => r.left)) + Math.max(...bounds.map(r => r.right))) / 2,
+  // THE RULE, as the frame states it (GOLD1-R4, the map reader's D5): the two boxes the position's name tried this frame
+  // (`_lastPosCand`) judged by the narrowed rule: inside the map (4 px in) and under no control that PAINTS over the box padded
+  // 3 px (`_nameBlocks`, `_hides` with `part`); its usual side, else the mirror, else not written. Whether the frame names
+  // the seat is then determinate, not a branch the spec skips
+  const c = a._lastPosCand, NB = a._nameBlocks()
+  const ok = (b: any) => { const o = { l: b.l - c.pad, r: b.r + c.pad, t: b.t - c.pad, b: b.b + c.pad }
+    return b.l >= NB.l + 4 && b.r <= a.W - 4 && b.t >= 4 && b.b <= a.H - 4
+      && !NB.blocks.some((q: any) => o.l < q.r && o.r > q.l && o.t < q.b && o.b > q.t && a._hides(q, o, 'name', true)) }
+  const rule = !c ? null : { at: c.at, claims: c.claims, ruleAt: ok(c.usual) ? 'usual' : ok(c.mirror) ? 'mirror' : null }
+  return { toc, labels, orbs, intersections, map: a._graphInputOn(), reading: !!a._reader.interacting, rule,
+    center: (Math.min(...bounds.map(r => r.left)) + Math.max(...bounds.map(r => r.right))) / 2, named: !!label,
+    orbCenter: (Math.min(...orbs.map(r => r.left)) + Math.max(...orbs.map(r => r.right))) / 2,
     point: { x: a.W / 2 + (mid.x - a.cam.cx) * scale, y: a.H / 2 + (mid.y - a.cam.cy) * scale },
     firstTop: a._reader.head.getBoundingClientRect().top }
-})
+}, needLabel)
 
 // STALE CONTRACT: D-318 U4a replaces the free-gutter correction with centred
 // arrival and native occlusion. Restoring that correction must fail this claim.
-test('@curated current node stays centred while the native article crosses it at every width', async ({ page }) => {
+test('current node stays centred while the native article crosses it at every width', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   await page.emulateMedia({ reducedMotion: 'reduce' })
   const j = journey(page)
@@ -465,9 +448,20 @@ test('@curated current node stays centred while the native article crosses it at
       await page.locator('[data-section-type=overview]').scrollIntoViewIfNeeded()
     }
     await j.advance(3000); await page.evaluate(() => document.body.offsetHeight); await j.advance(3000)
-    const reading = await tocCanvasGeometry(page)
+    const reading = await tocCanvasGeometry(page, false)
     expect(reading).toMatchObject({ map: true, reading: true })
-    expect(Math.abs(reading.center - board.center)).toBeLessThan(1)
+    // v1.280.0 (POSNAME): was "the composition (labels and orbs) keeps its centre"; with the article across the node the
+    // seat's name is not written where paint hides both its sides, so the orbs keep their centre, and a name written keeps it
+    // too. GOLD1-R4 (the map reader's D5): whether it is written is DETERMINATE, the narrowed rule's answer for this frame
+    // (was `if (reading.named)`, which passed a name refused with nothing painting over it: PR 417's shard-3 fault)
+    expect(board.named, width + 'px: at rest above the article the seat is named').toBe(true)
+    expect([board.rule && board.rule.at, board.rule && board.rule.claims], width + 'px: at rest, the position\'s name goes where the rule says (' + JSON.stringify(board.rule) + ')').toEqual([board.rule && board.rule.ruleAt, 0])
+    expect(reading.rule, width + 'px: the reading frame tried to place the position\'s name (its two boxes are published)').not.toBeNull()
+    expect(reading.rule.claims, width + 'px: the position\'s name claims first (nothing claimed before it)').toBe(0)
+    expect([reading.rule.at, reading.named], width + 'px: the position\'s name goes where the rule says (' + JSON.stringify(reading.rule) + ')').toEqual([reading.rule.ruleAt, reading.rule.ruleAt != null])
+    expect(Math.abs(reading.orbCenter - board.orbCenter)).toBeLessThan(1)
+    if (reading.named) expect(Math.abs(reading.center - board.center)).toBeLessThan(1)
+    console.log(`[article-sections] ${width}px reading frame: the position's name ${reading.rule.at || 'not written'} (the rule: ${reading.rule.ruleAt || 'not written'})`)
     expect(Math.abs(reading.point.y - board.point.y)).toBeLessThan(1)
     // NOT CLICKABLE THERE (DASH-R4, review finding 9d): the node seen through a row's gutter is dead to the mouse. The
     // gutter is the reader's grid, so a press there is reading: it pauses the game and, with a mouse, declines an
@@ -492,17 +486,17 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
   // STALE CONTRACT (D-355, U9 b and U11): the index sits LEFT of the column; where it shows, a closed part
   // leaves no label in the content and its index row (closed, with its eye) reopens it. Without the index
   // the compact label keeps its 44px target, its contrast and the surface it names.
-  test(`@curated D-338 ${viewport.width}px Questions and Moves close with their own ✕ and the other node half changes role`, async ({ page }) => {
+  test(`D-338 ${viewport.width}px Questions and Moves close with their own ✕ and the other node half changes role`, async ({ page }) => {
     await page.setViewportSize(viewport)
     const j = journey(page); await j.boot(LOOP)
     await expect(page.locator(READY)).toBeVisible()
     await j.readerLayoutSettled()
-    await expect(page.locator('.ng-reader-shelf')).toBeHidden()
     await expect(page.locator('[aria-label="Reading perspectives"]')).toHaveCount(0)
     await expect(page.locator('.ng-reader-toc h2')).toHaveText('Escaping Loop Choke from Half Guard')
     expect(await page.locator('.ng-reader-toc h2 small').evaluate(e => getComputedStyle(e).display), 'the qualifier stays in the phrase').toBe('inline')
     // U104, U108 a (owner, 2026-11-09, as built): the index reads as the screen does, Moves, the question, the video, the article.
-    expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Moves', 'Questions', 'Videos', 'How it works'])
+    // v1.253.0 (owner, 2026-11-09): "it's just Video on the index right?"
+    expect((await page.locator('.ng-reader-toc-row a').allTextContents()).slice(0, 4)).toEqual(['Moves', 'Questions', 'Video', 'How it works'])
     const hasToc = viewport.width >= 1350 // U97 b
     for (const [part, close] of [['card', '[data-land-close]'], ['hand', '[data-hand-close]']]) {
       const label = page.locator(`[data-game-open="${part}"]`)
@@ -545,27 +539,38 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
         if (part === 'card') await expect(page.locator('[data-landcard]'), 'the Questions row restores a visible card').toBeVisible()
         continue
       }
-      await expect(label).toBeVisible()
-      expect((await label.boundingBox())!.height, 'the label keeps a 44px target').toBeGreaterThanOrEqual(44)
-      const contrast = await label.evaluate(el => {
+      // WAS (D-338): a closed Moves or Questions left its label here (a 44px target, 7:1 contrast), which reopened it.
+      // NOW (U131 b2, HIDESEC2): no label is left; its message stands in its place, and its Undo (44px) reopens it.
+      const message = page.locator(`[data-hidesec-notice="${part}"]`)
+      await expect(label, 'no label left behind').toBeHidden()
+      await expect(message, 'its message stands in its place').toBeVisible()
+      // U104 (v1.252.0): at 1,024 to 1,349px the article once started at the closed question's old top. The message is raised over
+      // the article's body box (the film's cell needs it), so a press cannot tell; the rectangles can: no tile overlaps the message.
+      const overlap = await message.evaluate(m => { const b = m.getBoundingClientRect(); return [...document.querySelectorAll('[data-reader-body]>.ng-section-card')]
+        .filter(t => t.getClientRects().length).map(t => t.getBoundingClientRect()).reduce((n, r) => n + Math.max(0, Math.min(b.right, r.right) - Math.max(b.left, r.left)) * Math.max(0, Math.min(b.bottom, r.bottom) - Math.max(b.top, r.top)), 0) })
+      expect(overlap, 'no article tile overlaps the message (px²)').toBe(0)
+      expect((await message.locator('[data-hidesec-undo]').boundingBox())!.height, 'Undo keeps a 44px target').toBeGreaterThanOrEqual(44)
+      await page.mouse.move(viewport.width - 2, viewport.height - 2)
+      const contrast = await message.evaluate(el => {
         const luminance = (color: string) => {
           const c = color.match(/\d+/g)!.slice(0, 3).map(x => { const n = +x / 255; return n <= .04045 ? n / 12.92 : ((n + .055) / 1.055) ** 2.4 })
           return c[0] * .2126 + c[1] * .7152 + c[2] * .0722
         }
-        const fg = luminance(getComputedStyle(el).color), bg = luminance(getComputedStyle((window as any).__neural.wrapRef.current).backgroundColor)
+        const fg = luminance(getComputedStyle(el).color), bg = luminance(getComputedStyle(el).backgroundColor)
         return (Math.max(fg, bg) + .05) / (Math.min(fg, bg) + .05)
       })
-      expect(contrast, 'a closed game part leaves a legible label').toBeGreaterThanOrEqual(7)
+      expect(contrast, 'a closed game part leaves a legible message').toBeGreaterThanOrEqual(7)
       expect(await page.evaluate(part => {
         const a = (window as any).__neural
         return part === 'card' ? !a._landEl : getComputedStyle(a.optionsRef.current).visibility === 'hidden'
       }, part)).toBe(true)
-      // U104 (v1.252.0): at 1,024 to 1,349px the article once started at the closed question's old top and covered this label.
-      // Control: u104-label-under-article (tests/artifacts/article_sections_mutants.mjs), killed here at 1152px.
-      await j.clickByMouse(`[data-game-open="${part}"]`, `reopen ${part} from its label`)
+      // U104 (v1.252.0): at 1,024 to 1,349px the article once started at the closed question's old top and covered this place
+      // (then its label, now its message). Control: u104-label-under-article (tests/artifacts/article_sections_mutants.mjs).
+      await j.clickByMouse(`[data-hidesec-notice="${part}"] [data-hidesec-undo]`, `reopen ${part} from its message's Undo`)
+      await expect(message).toHaveCount(0)
       await expect(label).toBeHidden()
       // D-336: the restore half shows the card, not only the control's state (D-318's reader gate).
-      if (part === 'card') await expect(page.locator('[data-landcard]'), 'the Questions label restores a visible card').toBeVisible()
+      if (part === 'card') await expect(page.locator('[data-landcard]'), 'Undo restores a visible card').toBeVisible()
     }
     await page.locator(READY).evaluate(e => { e.scrollTop = 0 })
     await j.advance(6000)
@@ -594,7 +599,7 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 1152, height: 900
 // A normal cold run exposed this missing ID, but the old sync-only writer can
 // pass when its network ordering differs. Deliver the real backfill after the
 // reader has published; assert its new shell and unchanged question together.
-test('@curated a late question backfill retains the closed label\'s target', async ({ page }) => {
+test('a late question backfill retains the closed label\'s target', async ({ page }) => {
   const j = journey(page)
   await j.boot('/Positions/Mount/Top')
   await expect(page.locator(READY)).toBeVisible()
@@ -610,7 +615,7 @@ test('@curated a late question backfill retains the closed label\'s target', asy
 })
 
 for (const theme of ['light', 'dark'] as const) {
-  test(`@curated floating contents owns real mouse input and preserves the centred article in ${theme}`, async ({ page }) => {
+  test(`floating contents owns real mouse input and preserves the centred article in ${theme}`, async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 })
     await page.emulateMedia({ colorScheme: theme, reducedMotion: 'reduce' })
     const j = journey(page)
@@ -684,7 +689,7 @@ for (const theme of ['light', 'dark'] as const) {
   })
 }
 
-test('@curated section settings carry to another type, reload and the Settings editor', async ({ page }) => {
+test('section settings carry to another type, reload and the Settings editor', async ({ page }) => {
   const j = journey(page); await j.boot(KNEE + '/Attacker', { initialState: QUIET })
   await expect(page.locator(READY)).toBeVisible()
   await page.locator('[data-section-toggle=principles]').scrollIntoViewIfNeeded(); await j.clickByMouse('[data-section-toggle=principles]')
@@ -702,7 +707,7 @@ test('@curated section settings carry to another type, reload and the Settings e
 })
 
 
-test('@curated independent section preferences merge per key and preserve stale keys', async ({ page }) => {
+test('independent section preferences merge per key and preserve stale keys', async ({ page }) => {
   const j = journey(page); await j.boot(KNEE + '/Attacker', { initialState: QUIET })
   await expect(page.locator(READY)).toBeVisible()
   await page.locator('[data-section-toggle=principles]').scrollIntoViewIfNeeded()
@@ -724,7 +729,7 @@ test('@curated independent section preferences merge per key and preserve stale 
 
 // VIDEO2 CI control `drop-reader-anchor-url` in title_ci_mutants.json is killed
 // at #legacy-notes at BOTH widths; the camera control remains green.
-for (const width of [1440, 390]) test(`@curated ${width}px unknown authored sections and cross-section anchors survive regrouping`, async ({ page }) => {
+for (const width of [1440, 390]) test(`${width}px unknown authored sections and cross-section anchors survive regrouping`, async ({ page }) => {
   await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
   const j = journey(page)
   await j.boot(KNEE + '/Attacker', { initialState: QUIET })
@@ -769,8 +774,9 @@ for (const width of [1440, 390]) test(`@curated ${width}px unknown authored sect
   const body = page.locator('[data-section-type=additional] .ng-section-body')
   await body.evaluate(e => { (e as HTMLElement).tabIndex = 0; (e as HTMLElement).focus() })
   await page.evaluate(() => { const a = (window as any).__neural; a.set('readerSection.additional', false); a._applyLayers() })
-  // U11 / U25 a: closing moves focus to the index or the phone disclosure summary.
-  await expect(page.locator(width === 1440 ? '[data-toc-type=additional] a' : '.ng-reader-hidden>summary')).toBeFocused()
+  // WAS (U11 / U25 a): closing moved focus to the index row or the phone's "Hidden sections" summary.
+  // NOW (U131 b2): there is no fold, so on a phone focus goes to the reader itself; the index row still takes it at 1440.
+  await expect(page.locator(width === 1440 ? '[data-toc-type=additional] a' : '[data-reader]')).toBeFocused()
   await expect(body).toBeHidden()
   expect(await body.evaluate(e => (e as HTMLElement).inert)).toBe(true)
   // REAL BREAK (D-482): the old anchor path measured a closed, hidden control.
@@ -847,41 +853,8 @@ test('D-351: an exchange whose article lands late never moves the new card or ha
   }
 })
 
-// D-352 S1: a landing laid out with the article put away is live (its hand and card play in the
-// map view). Showing the article while that landing's page is still loading must not hide the live
-// hand again: it publishes pinned at once, as the ceiling does, so the late article cannot move it
-// either. Review-claude measured the failure: the hand pending (hidden, digits inert) for 49 frames,
-// t63 to t859, while its card stayed live.
-test('D-352: showing the article while its page loads never hides the live hand again', async ({ page }) => {
-  const j = journey(page)
-  await j.boot('/', { initialState: { v: 2, settings: { readerBook: false }, settingsAt: {} } })
-  const held: string[] = []
-  await page.route((url) => url.pathname === '/Positions/Mount/Top', async (route) => {
-    if (route.request().resourceType() === 'fetch') { held.push(new URL(route.request().url()).pathname); await new Promise((r) => setTimeout(r, 2500)) }
-    await route.continue()
-  })
-  await j.land('Mount Top')
-  await expect.poll(() => held.length, { message: 'premise: the landing asked for its article, and it is held' }).toBeGreaterThan(0)
-  const before = await page.evaluate(() => { const a = (window as any).__neural, r = a._reader; return { book: a.get('readerBook', true), ready: r.root.dataset.readerReady === 'true' && r.path === '/Positions/Mount/Top', hand: !!a.optionsRef.current?.querySelector('[data-tech]') } })
-  expect(before, 'premise: the hand is live in the map view and its article has not rendered').toEqual({ book: false, ready: false, hand: true })
-  await page.evaluate(() => {
-    const w = window as any, out: any[] = (w.__d352 = [])
-    const tick = () => {
-      const a = w.__neural, r = a._reader, row = a.optionsRef.current, box = row?.getBoundingClientRect()
-      out.push({ book: a.get('readerBook', true) !== false, ready: r.root.dataset.readerReady === 'true' && r.path === '/Positions/Mount/Top', pending: !!row?.hasAttribute('data-reader-pending'), shown: !!row && !!box!.height && getComputedStyle(row).visibility !== 'hidden', top: box ? Math.round(box.top * 2) / 2 : null })
-      if (!w.__d352stop) requestAnimationFrame(tick)
-    }
-    requestAnimationFrame(tick)
-  })
-  await j.clickByMouse('[data-layer-show="book"]', 'show the article while its page is still loading')
-  await expect.poll(() => page.evaluate(() => (window as any).__d352.filter((x: any) => x.ready).length), { timeout: 10_000, message: 'the held article rendered' }).toBeGreaterThan(10)
-  const S = await page.evaluate(() => { (window as any).__d352stop = true; return (window as any).__d352 as any[] })
-  const book = S.filter((x) => x.book)
-  expect(book.some((x) => !x.ready), 'premise: the article was shown while its page was still loading').toBe(true)
-  expect(book.filter((x) => x.pending || !x.shown), 'the live hand is never hidden again').toEqual([])
-  const i = S.findIndex((x) => x.ready)
-  expect(S.slice(i, i + 10).map((x) => x.top), 'and the late article does not move it').toEqual(Array(Math.min(10, S.length - i)).fill(S[i - 1].top))
-})
+// v1.253.0 (U114 a): "D-352: showing the article while its page loads never hides the live hand again" pressed the shelf's Book
+// button from the map view; both are retired.
 
 // D-352 N2: D5-S2's clamp and N3's order, each gated. At arrival the reader sits above the question,
 // so Home and PageUp never move the view down; and the hand comes before the closed Questions label in

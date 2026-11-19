@@ -9,17 +9,24 @@ import { journey } from "../dsl"
 // v1.229.0: suppressing Mount's star after panel close fails the final visibility
 // assertion even while Kimura's legitimate hover star remains. The scoped journey
 // passed five repetitions on both viewports; its save/remove assertions stay intact.
+// v1.280.3 (STAR1): the star withheld while the drawer is open again (`deckShown` back in `_syncSeatStars`, v1.182.0's rule)
+// is red at "desktop seat star › gold means saved…" (the restated drawer step) and at the three "the drawer open" tests below
+// ("the seat's star is beside it"); on dev's own bundle (87d1e17ee) the same four are red.
 for (const mobile of [false, true]) {
   test.describe(mobile ? "phone seat star" : "desktop seat star", () => {
     test.use({ viewport: mobile ? { width: 390, height: 844 } : { width: 1440, height: 900 }, hasTouch: mobile })
 
-    test("both seats of each node type carry their star beside the role @curated", async ({ page }) => {
+    test("both seats of each node type carry their star beside the role", async ({ page }) => {
       const j = journey(page)
       await j.boot("/Positions/Mount/Top")
       // Graph ingest precedes the deferred reader that seats this URL. Simulation
       // time cannot finish that fetch: wait for the rendered article before pumping.
       await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
       await j.advance(6500)
+      // v1.280.0 (POSNAME): the position's own name, and the star beside its role, are never written under a control. The
+      // reading arrival can mint White Foundations, whose phone card covers the node band (the name used to be drawn under
+      // it, unreadable): dismissed here, as article-sections.spec.ts dismisses it
+      if (await page.locator("[data-reward-close]").isVisible()) await j.clickByMouse("[data-reward-close]")
       const nodes = await page.evaluate(() => {
         const a = (window as any).__neural
         return ["positions", "transitions", "submissions"].flatMap((ty) => {
@@ -59,7 +66,7 @@ for (const mobile of [false, true]) {
       }
     })
 
-    test("gold means saved; the seat star works after hiding the flashcard @curated", async ({ page }) => {
+    test("gold means saved; the seat star works after hiding the flashcard", async ({ page }) => {
       const j = journey(page)
       await j.boot("/Positions/Mount/Bottom")
       await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
@@ -67,6 +74,8 @@ for (const mobile of [false, true]) {
       await page.waitForTimeout(350) // the deferred article and card CSS use wall time
       await page.evaluate(() => document.body.getBoundingClientRect().top)
       await j.advance(2500) // finish the camera's continuous approach to the settled band
+      // v1.280.0 (POSNAME): the White Foundations card covers the node band on a phone; dismissed as above
+      if (await page.locator("[data-reward-close]").isVisible()) { await j.clickByMouse("[data-reward-close]"); await j.advance(600) }
       await page.evaluate(() => (window as any).__neural.newList())
       await expect(page.locator("[data-seat-star]")).toHaveCount(1)
       // STALE SPEC (sections-claude, 2026-10-19): after the pane closes, the pointer rests
@@ -81,11 +90,14 @@ for (const mobile of [false, true]) {
       const sel = `[data-seat-star="${seat}"][data-list-add="Positions/Mount/Bottom"]`
       const star = page.locator(sel)
       await expect(star).toHaveCount(1)
+      // v1.281.1 (STAR3): a second of DRAWN frames after every press, before anything reads the menu: the harness draws only on
+      // `j.advance`, and a menu the next frame closes (v1.280.0 to v1.280.3) read as open with no frame in between
       const activate = async () => {
         if (mobile) {
           const b = await j.boxOf(sel, "the seat star")
           await page.touchscreen.tap(b.x + b.width / 2, b.y + b.height / 2)
         } else await j.clickByMouse(sel, "the seat star")
+        await j.advance(1000); await page.evaluate(() => document.body.getBoundingClientRect().top)
       }
       await expect(star).toHaveAttribute("data-list-saved", "false")
       await expect(star.locator("svg")).toHaveAttribute("fill", "none")
@@ -124,16 +136,324 @@ for (const mobile of [false, true]) {
 
       await star.focus()
       await page.keyboard.press("Enter")
+      await j.advance(1000)   // frames before the read (STAR3)
       await expect(page.locator("[data-list-picker]")).toBeVisible()
       await page.keyboard.press("Escape")
       await expect(page.locator("[data-list-picker]")).toHaveCount(0)
       await expect(star).toBeFocused()
 
       await j.clickByMouse(".ng-logo", "open the learning panel")
-      await expect(page.locator("[data-seat-star]")).toHaveCount(0)
+      if (mobile) await expect(page.locator("[data-seat-star]")).toHaveCount(0)   // the phone's drawer covers the map: no name, no star
+      else {
+        // v1.280.3 (STAR1; RESTATED from `toHaveCount(0)` at both sizes): the owner's "missing" star was his open drawer. A
+        // desktop's drawer leaves the map beside it, the map still writes the seat's role and name there, and the star now goes
+        // with them: beside the role, wholly right of the drawer, taking the mouse (the list menu opens and closes on it)
+        await j.advance(1500)
+        await page.evaluate(() => document.body.getBoundingClientRect().top)
+        await j.advance(100)
+        await expect(star).toBeVisible()
+        const g = await page.evaluate((sel) => {
+          const a = (window as any).__neural, b = document.querySelector(sel) as HTMLElement, r = b.getBoundingClientRect(), cr = a.canvas.getBoundingClientRect()
+          const label = a._lastPairLabel || a._lastRichLabel, drawer = (document.querySelector(".ng-drill") as HTMLElement).getBoundingClientRect()
+          return { left: r.left, x: r.x + r.width / 2 - cr.left, y: r.y + r.height / 2 - cr.top, roleX: label.ox, roleY: label.subY ?? label.roleY, drawerRight: drawer.right, deck: !!a.deckShown }
+        }, sel)
+        expect(g.deck, "the drawer is open").toBe(true)
+        expect(g.left, "the star is wholly right of the drawer").toBeGreaterThanOrEqual(g.drawerRight)
+        expect(g.x).toBeGreaterThan(g.roleX + 20)
+        expect(Math.abs(g.y - (g.roleY - 4))).toBeLessThan(1)
+        await activate()
+        await expect(page.locator("[data-list-picker]")).toBeVisible()
+        await page.keyboard.press("Escape")
+        await expect(page.locator("[data-list-picker]")).toHaveCount(0)
+      }
       await j.clickByMouse(".ng-explorer-close", "close the learning panel")
       await j.advance(500)
       await expect(star).toBeVisible()
     })
   })
 }
+
+// THE DRAWER OPEN ON A DESKTOP (v1.280.3, STAR1, ruled STAR1-GO). The owner's "missing" star was his open drawer: from v1.182.0
+// every seat star was withheld while it was open ("graph controls must not float over the learning pane") although the map beside
+// it still wrote the seat's role and name. The ruling keeps that rule in its real meaning: nothing of the map is drawn OVER the
+// drawer. So at 1440, 1280 and 1024 wide, drawer open: the seat's star is beside its role and takes the press (the list menu opens
+// on it, and the drawer stays open), and neither the star's box nor the position's name box ever meets the drawer's box, at rest
+// and in every frame of a drag that walks the seat toward and under the drawer (the frame's own published boxes,
+// `_lastNameBoxes`, `w` "position" and "star", and the star buttons' own rects).
+for (const width of [1440, 1280, 1024]) {
+  test.describe(`desktop ${width}x900, the drawer open`, () => {
+    test.use({ viewport: { width, height: 900 } })
+    test("the seat's star stays beside its name and off the drawer, at rest and through a drag; its press keeps the drawer open", async ({ page }) => {
+      const j = journey(page)
+      await j.boot("/Positions/Mount/Top")
+      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
+      await j.advance(6500)
+      if (await page.locator("[data-reward-close]").isVisible()) { await j.clickByMouse("[data-reward-close]"); await j.advance(600) }
+      await j.clickByMouse(".ng-logo", "open the learning panel")
+      await j.advance(1500)
+      await page.evaluate(() => document.body.getBoundingClientRect().top)
+      await j.advance(100)
+      const look = () => page.evaluate(() => {
+        const a = (window as any).__neural, d = (document.querySelector(".ng-drill") as HTMLElement).getBoundingClientRect(), cr = a.canvas.getBoundingClientRect()
+        const boxes = (a._lastNameBoxes || []).filter((b: any) => b.w === "position" || b.w === "star" && b.i === a.focusIdx)
+          .map((b: any) => ({ w: b.w, l: b.l + cr.left, r: b.r + cr.left, t: b.t + cr.top, b: b.b + cr.top }))
+        const stars = [...document.querySelectorAll("[data-seat-star]")].map((s) => {
+          const r = s.getBoundingClientRect(), e = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2)
+          return { w: "button", l: r.left, r: r.right, t: r.top, b: r.bottom, live: e === s || s.contains(e), seat: +s.getAttribute("data-seat-star")! === a.focusIdx }
+        })
+        return { drawer: { l: d.left, r: d.right, t: d.top, b: d.bottom }, boxes, stars, deck: !!a.deckShown }
+      })
+      const meets = (p: any, q: any) => p.l < q.r && p.r > q.l && p.t < q.b && p.b > q.t
+      const rest = await look()
+      expect(rest.deck, "the drawer is open").toBe(true)
+      expect(rest.boxes.filter((b) => b.w === "position"), "the position's name is written").toHaveLength(1)
+      const seatStar = rest.stars.filter((s) => s.seat)
+      expect(seatStar, "the seat's star is beside it").toHaveLength(1)
+      expect(seatStar[0].live, "the star takes the press where it sits").toBe(true)
+      for (const b of [...rest.boxes, ...rest.stars]) expect(meets(b, rest.drawer), `at rest: the ${b.w} box meets the drawer`).toBe(false)
+      const seat = await page.evaluate(() => (window as any).__neural.focusIdx)
+      const sel = `[data-seat-star="${seat}"]`
+      await j.clickByMouse(sel, "the seat star, the drawer open")
+      await j.advance(1000); await page.evaluate(() => document.body.getBoundingClientRect().top)   // frames before the read (STAR3)
+      await expect(page.locator("[data-list-picker]"), "still open a second of frames after the press").toBeVisible()
+      expect(await page.evaluate(() => (window as any).__neural.deckShown), "the press keeps the drawer open").toBe(true)
+      await expect(page.locator(".ng-drill")).toBeVisible()
+      await page.keyboard.press("Escape")
+      await expect(page.locator("[data-list-picker]")).toHaveCount(0)
+      expect(await page.evaluate(() => (window as any).__neural.deckShown), "closing the menu keeps the drawer open").toBe(true)
+      // the drag: grab bare map right of the drawer and walk the seat left, toward and under the drawer, a frame per step
+      const grab = await page.evaluate(() => {
+        const a = (window as any).__neural, d = (document.querySelector(".ng-drill") as HTMLElement).getBoundingClientRect()
+        for (let y = innerHeight * 0.2; y < innerHeight * 0.6; y += 20) for (let x = innerWidth - 40; x > d.right + 40; x -= 20)
+          if (document.elementFromPoint(x, y) === a.canvas) return { x, y }
+        return null
+      })
+      expect(grab, "a bare point of the map right of the drawer").not.toBeNull()
+      await page.mouse.move(grab!.x, grab!.y)
+      await page.mouse.down()
+      let frames = 0, written = 0, near = Infinity
+      for (let k = 1; k <= 40; k++) {
+        await page.mouse.move(grab!.x - k * 22, grab!.y)
+        await j.advance(16)
+        await page.evaluate(() => document.body.getBoundingClientRect().top)
+        const f = await look()
+        frames++
+        const pos = f.boxes.find((b) => b.w === "position")
+        if (pos) { written++; near = Math.min(near, pos.l - f.drawer.r) }
+        for (const b of [...f.boxes, ...f.stars]) expect(meets(b, f.drawer), `drag frame ${k}: the ${b.w} box meets the drawer`).toBe(false)
+        if (!pos) expect(f.stars.filter((s) => s.seat), `drag frame ${k}: no name, no seat star`).toHaveLength(0)
+      }
+      await page.mouse.up()
+      expect(frames).toBe(40)
+      expect(written, "the name was written in some dragged frames").toBeGreaterThan(0)
+      expect(written, "and refused in others: the drag took the seat under the drawer").toBeLessThan(frames)
+      expect(near, "the case occurred: the name came within 40 px of the drawer").toBeLessThan(40)
+    })
+  })
+}
+
+// A PRESS ON THE STAR OPENS THE LIST MENU, AND IT STAYS OPEN (v1.280.4, STAR2, ruled: "a picker that is open keeps what it is
+// anchored to"). From v1.280.0 to v1.280.3 a fresh visitor's press opened the menu and the NEXT drawn frame closed it: the
+// menu's own paint refused the name it was opened from (#417's rule), the star went with its name, and `_syncSeatStars` closed
+// the menu anchored to it. This file's older test stayed green because the harness draws a frame only on `j.advance`, and it
+// picked from the menu with no frame in between; here frames run (`j.advance`) between the press and every check. A fresh
+// visitor's URL arrival (the clock held), the star pressed by mouse at 1440 and by touch at 390x631.
+// Red-proof: MS1 (the star removed under its open menu, `_syncSeatStars`) and MS2 (the menu's paint counted against the name
+// it was opened from again: the regression) are red at "still open two seconds after the press".
+for (const v of [{ name: "1440x900 mouse", vp: { width: 1440, height: 900 }, touch: false }, { name: "390x631 touch", vp: { width: 390, height: 631 }, touch: true }]) {
+  test.describe(`${v.name}, a fresh visitor`, () => {
+    test.use({ viewport: v.vp, hasTouch: v.touch })
+    test("a press on the seat's star opens the list menu and it stays open; a list made there; Esc and a press outside close it", async ({ page }) => {
+      const j = journey(page)
+      await j.boot("/Positions/Mount/Top")
+      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
+      await j.advance(6500); await j.readerLayoutSettled(); await j.advance(100)
+      if (await page.locator("[data-reward-close]").isVisible()) { await j.clickByMouse("[data-reward-close]", "dismiss the earned patch"); await j.advance(600) }
+      expect(await page.evaluate(() => (window as any).__neural.paused), "a URL arrival holds the clock").toBe(true)
+      const seat = await page.evaluate(() => (window as any).__neural.focusIdx)
+      const sel = `[data-seat-star="${seat}"]`
+      const star = page.locator(sel)
+      await expect(star).toHaveCount(1)
+      await expect(star).toHaveAttribute("data-list-saved", "false")
+      const press = async (s: string, what: string) => {
+        if (!v.touch) { await j.clickByMouse(s, what); return }
+        const b = await j.boxOf(s, what)
+        await page.touchscreen.tap(b.x + b.width / 2, b.y + b.height / 2)
+      }
+      const frames = async (ms: number) => { for (let t = 0; t < ms; t += 250) { await j.advance(250); await page.evaluate(() => document.body.getBoundingClientRect().top) } }
+      // the press, then two seconds of drawn frames: the menu is open, anchored, and its star is still there
+      await press(sel, "the seat's star")
+      await frames(2000)
+      await expect(page.locator("[data-list-picker]"), "still open two seconds after the press").toBeVisible()
+      await expect(star, "its star is still there").toHaveCount(1)
+      await expect(star).toHaveAttribute("aria-expanded", "true")
+      // a fresh visitor has no list: the menu's create row makes one and files the position there
+      await press("[data-list-pick-create]", "Create the list")
+      await frames(500)
+      await expect(page.locator("[data-list-picker]"), "creating closes the menu").toHaveCount(0)
+      await expect(star, "the star is gold: saved").toHaveAttribute("data-list-saved", "true")
+      // Esc closes it
+      await press(sel, "the seat's star again")
+      await frames(1000)
+      await expect(page.locator("[data-list-picker]"), "open again").toBeVisible()
+      await page.keyboard.press("Escape")
+      await frames(250)
+      await expect(page.locator("[data-list-picker]"), "Esc closes it").toHaveCount(0)
+      // a press outside closes it: bare map, owned by the canvas, no orb there
+      await press(sel, "the seat's star once more")
+      await frames(1000)
+      await expect(page.locator("[data-list-picker]"), "open again").toBeVisible()
+      const out = await page.evaluate(() => {
+        const a = (window as any).__neural, was = a._hover, pk = document.querySelector("[data-list-picker]")!.getBoundingClientRect()
+        try {
+          for (let fy = 0.15; fy <= 0.6; fy += 0.05) for (let fx = 0.1; fx <= 0.9; fx += 0.05) {
+            const x = innerWidth * fx, y = innerHeight * fy
+            if (x > pk.left - 10 && x < pk.right + 10 && y > pk.top - 10 && y < pk.bottom + 10) continue
+            if (document.elementFromPoint(x, y) !== a.canvas) continue
+            a._hover = null; a._updateHover({ type: "pointerup", clientX: x, clientY: y })
+            if (!a._hover || a._hover.idx < 0) return { x, y }
+          }
+        } finally { a._hover = was }
+        return null
+      })
+      expect(out, "a bare point of the map outside the menu").not.toBeNull()
+      if (v.touch) await page.touchscreen.tap(out!.x, out!.y); else await page.mouse.click(out!.x, out!.y)
+      await frames(250)
+      await expect(page.locator("[data-list-picker]"), "a press outside closes it").toHaveCount(0)
+    })
+  })
+}
+
+// STAR3 (v1.281.1, the reader of #422): D1, the pointer's pair. A hovered pair's group carries a star too (`pairGroup(_hovNode, …)`,
+// placed by `side()`); a press on it opens the menu anchored to that star. RULED: only the label whose OWN star opened the menu
+// does not count the menu (`own` in `clear`). So that group keeps its side and its star stays where it was pressed; while a menu
+// is open the pointer's group is pinned to the menu's anchor (`heldStar`), so an orb hovered meanwhile gets no label at all.
+// And N2: a menu left open across a resize from desktop to phone stood at its desktop box, off the phone's screen; it closes.
+// Desktop only: a touch has no hover (a tap stages the node, which then carries the SEAT's star, held by the tests above).
+// STAR3-R1 (the reader of #424, ruled): `clearP` takes the same test (`seatPick`): a hovered pair's star carries
+// `data-seat-star` too, and its menu left the SEAT's name written under it (4 of 5 pages by real mouse, since #422). And each
+// test picks its pair by the property it needs, read at the press before any frame (`premise`), and its star well inside
+// the hover's 0.5 s life: the first version read after 500 ms of frames, so the pair it pressed varied by run and MS2b was
+// green 4 of 4 in the reader's hands.
+// Red-proof: MS2b (`clear` counts the menu for its own group again: the group flips to its mirror) red at "its star stays
+// where it was pressed"; MP (`clearP` ignores the menu for any seat star, v1.281.0's code) red at "the seat's name is not
+// written under"; MH (the held star no longer pins the pointer's group) red at "no label for an
+// orb hovered while the menu is open"; MR (no close on the breakpoint) red at "the menu closes at the crossing". Named
+// NON-KILL: MS2c (`own` ignored, every pointer group exempt) is green, and equivalent while the pin holds: with a menu open
+// no other group is drawn for `clear` to place.
+// WHY THE RESIZE IS READ BEFORE ANY FRAME. Without the close, the first frame drawn at 390 decides by a race: if it places no
+// name (traced: `pos` null, no anchors), the star goes and `_syncSeatStars` closes its menu; if it places the name, the menu
+// stays at its desktop box, off the phone (traced [631,63,903,175], the reader's N2). A read after frames was green under MR.
+test.describe("1440x900, a hovered pair's star and a resize", () => {
+  test.use({ viewport: { width: 1440, height: 900 } })
+  const settle = async (j: ReturnType<typeof journey>, page: any, ms: number) => { for (let t = 0; t < ms; t += 250) { await j.advance(250); await page.evaluate(() => document.body.getBoundingClientRect().top) } }
+  const arrive = async (page: any) => {
+    const j = journey(page)
+    await j.boot("/Positions/Mount/Top")
+    await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
+    await j.advance(6500); await j.readerLayoutSettled(); await j.advance(100)
+    if (await page.locator("[data-reward-close]").isVisible()) { await j.clickByMouse("[data-reward-close]", "dismiss the earned patch"); await j.advance(600) }
+    return j
+  }
+  /** Non-seat pair orbs on the canvas, nearest the seat first, each where the app's own picker finds it. */
+  const pairOrbs = (page: any) => page.evaluate(() => {
+    const a = (window as any).__neural, rect = a.canvas.getBoundingClientRect(), s = a.W / a.cam.vw, LY = a._LY || ((n: any) => n.y), was = a._hover
+    const seat = a.nodes[a.focusIdx], P = (n: any) => ({ x: rect.left + a.W / 2 + (n.x - a.cam.cx) * s, y: rect.top + a.H / 2 + (LY(n) - a.cam.cy) * s })
+    const c = P(seat), out: any[] = []
+    try {
+      for (const n of a.nodes) {
+        if (n.pi < 0 || n.idx === seat.idx || n.idx === seat.pi || n.rep === false || !a.rsAllows(n)) continue
+        const p = P(n); if (p.x < 60 || p.y < 60 || p.x > innerWidth - 300 || p.y > innerHeight - 60) continue
+        if (document.elementFromPoint(p.x, p.y) !== a.canvas) continue
+        a._hover = null; a._updateHover({ type: "pointerup", clientX: p.x, clientY: p.y })
+        if (a._hover?.idx === n.idx) out.push({ idx: n.idx, t: n.t, x: p.x, y: p.y, d: Math.hypot(p.x - c.x, p.y - c.y) })
+      }
+    } finally { a._hover = was }
+    return out.sort((u, v) => u.d - v.d).slice(0, 8)
+  })
+
+  /** Hover an orb and wait, in drawn frames, for its group's star; read well inside the hover's 0.5 s life (`draw()`:
+   *  `now - _hover.t < 0.5`), so whether a star "mounts" never depends on the frame timing (STAR3-R1, the reader of #424). */
+  const hoverStar = async (j: ReturnType<typeof journey>, page: any, o: any) => {
+    await page.mouse.move(o.x, o.y)
+    for (let t = 0; t < 400; t += 50) { await j.advance(50); if (await page.locator(`[data-seat-star="${o.idx}"]`).count()) return true }
+    return false
+  }
+  /** Read at the press, BEFORE any frame is drawn on the open menu: the menu's box against the boxes the last frame drew
+   *  (`_lastNameBoxes`): does it touch the pressed group's own label (the `clear` margin, 3 px)? does it hide the seat's name
+   *  (the app's own `_hides`, the box padded 3 px, as `clearP` asks it)? */
+  const premise = (page: any, idx: number) => page.evaluate((idx: number) => {
+    const a = (window as any).__neural, m = a._pickEl; if (!m) return null
+    const cv = a.canvas.getBoundingClientRect(), r = m.getBoundingClientRect()
+    const menu = { l: r.left - cv.left, r: r.right - cv.left, t: r.top - cv.top, b: r.bottom - cv.top }
+    const near = (p: any, q: any) => p.l < q.r + 3 && p.r > q.l - 3 && p.t < q.b + 3 && p.b > q.t - 3
+    const q = a._nameBlocks().blocks.find((b: any) => b.el === m), boxes = a._lastNameBoxes || []
+    const own = boxes.filter((b: any) => b.w === "hover" && b.i === idx), pos = boxes.filter((b: any) => b.w === "position")
+    return {
+      menu: [menu.l, menu.t, menu.r, menu.b].map(Math.round), counted: !!q,
+      touchesOwn: own.some((p: any) => near(p, menu)),
+      hidesSeat: !!q && pos.some((p: any) => near(p, q) && a._hides(q, { l: p.l - 3, r: p.r + 3, t: p.t - 3, b: p.b + 3 }, "name", true)),
+    }
+  }, idx)
+  /** The seat's name boxes this frame drew that the open menu hides, by the app's own `_hides`. */
+  const seatNameUnderMenu = (page: any) => page.evaluate(() => {
+    const a = (window as any).__neural, m = a._pickEl, q = m && a._nameBlocks().blocks.find((b: any) => b.el === m); if (!q) return -1
+    return (a._lastNameBoxes || []).filter((p: any) => p.w === "position" && p.l < q.r + 3 && p.r > q.l - 3 && p.t < q.b + 3 && p.b > q.t - 3
+      && a._hides(q, { l: p.l - 3, r: p.r + 3, t: p.t - 3, b: p.b + 3 }, "name", true)).length
+  })
+  /** Press orbs' stars, nearest first, until one's menu meets `want` at the press; close the others (Esc, then the focus off
+   *  the star, which would otherwise hold the pointer's label). Fails naming every pair tried when none qualifies. */
+  const pressPairWhere = async (j: ReturnType<typeof journey>, page: any, want: (p: any) => boolean, why: string) => {
+    const tried: string[] = []
+    for (const o of await pairOrbs(page)) {
+      if (await page.locator("[data-list-picker]").count()) { await page.keyboard.press("Escape"); await page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur()); await settle(j, page, 500) }
+      if (!(await hoverStar(j, page, o))) { tried.push(`${o.t}: no star`); continue }
+      const sel = `[data-seat-star="${o.idx}"]`, at0 = await j.boxOf(sel, "the hovered pair's star")
+      await j.clickByMouse(sel, "the hovered pair's star")
+      const p = await premise(page, o.idx)
+      tried.push(`${o.t}: ${JSON.stringify(p)}`)
+      if (p && want(p)) return { o, sel, at0, p }
+    }
+    throw new Error(`no hovered pair whose menu ${why} (tried: ${tried.join(" · ")})`)
+  }
+
+  test("a hovered pair's star whose menu touches its own label: the menu stays, its star where it was pressed; an orb hovered meanwhile gets no label", async ({ page }) => {
+    const j = await arrive(page)
+    const { o: hit, sel, at0 } = await pressPairWhere(j, page, (p) => p.touchesOwn && !p.hidesSeat, "touches its own label and leaves the seat's name alone")
+    await settle(j, page, 2000)
+    await expect(page.locator("[data-list-picker]"), "still open two seconds after the press").toBeVisible()
+    await expect(page.locator(sel), "its star is still there").toHaveCount(1)
+    const at1 = await j.boxOf(sel, "the hovered pair's star")
+    expect(Math.hypot(at1.x - at0.x, at1.y - at0.y), `its star stays where it was pressed (${hit.t}: ${Math.round(at0.x)},${Math.round(at0.y)} -> ${Math.round(at1.x)},${Math.round(at1.y)})`).toBeLessThan(3)
+    // the pointer over another orb, the menu open: no label is drawn for that orb
+    const other = (await pairOrbs(page)).find((o: any) => o.idx !== hit.idx && Math.hypot(o.x - hit.x, o.y - hit.y) > 40)
+    expect(other, "another orb to hover").toBeTruthy()
+    await page.mouse.move(other.x, other.y); await settle(j, page, 500)
+    const hovers = await page.evaluate(() => ((window as any).__neural._lastNameBoxes || []).filter((b: any) => b.w === "hover").map((b: any) => b.i))
+    expect(hovers.filter((i: number) => i === other.idx), "no label for an orb hovered while the menu is open").toEqual([])
+    await expect(page.locator("[data-list-picker]"), "hovering elsewhere leaves the menu open").toBeVisible()
+  })
+
+  test("a hovered pair's menu over the SEAT's name: the seat's name is not written under it, and the menu stays", async ({ page }) => {
+    const j = await arrive(page)
+    const { o: hit, sel } = await pressPairWhere(j, page, (p) => p.hidesSeat, "hides the seat's name")
+    await settle(j, page, 2000)
+    await expect(page.locator("[data-list-picker]"), "the pair's menu is still open two seconds after the press").toBeVisible()
+    await expect(page.locator(sel), "its star (the menu's anchor) is still there").toHaveCount(1)
+    expect(await seatNameUnderMenu(page), `the seat's name is not written under ${hit.t}'s menu (the app's own _hides)`).toBe(0)
+  })
+
+  test("a menu open on the seat's star closes when the window crosses to a phone", async ({ page }) => {
+    const j = await arrive(page)
+    const seat = await page.evaluate(() => (window as any).__neural.focusIdx)
+    await j.clickByMouse(`[data-seat-star="${seat}"]`, "the seat's star")
+    await settle(j, page, 1000)
+    await expect(page.locator("[data-list-picker]"), "open at 1440").toBeVisible()
+    await page.setViewportSize({ width: 390, height: 844 })
+    // the app has taken the resize (`resize()` sets W) and, in test mode, drawn no frame since: the crossing alone decides
+    await expect.poll(() => page.evaluate(() => (window as any).__neural.W), { message: "the app took the resize" }).toBe(390)
+    await expect(page.locator("[data-list-picker]"), "the menu closes at the crossing, before any frame is drawn").toHaveCount(0)
+    await settle(j, page, 750)
+    await expect(page.locator("[data-list-picker]"), "...and stays closed through the frames after it").toHaveCount(0)
+  })
+})

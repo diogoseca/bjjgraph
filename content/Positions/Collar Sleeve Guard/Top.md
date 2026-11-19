@@ -166,22 +166,20 @@ description: "Defend and pass collar sleeve guard from top position. Learn grip 
       "@type": "VideoObject",
       "position": 1,
       "name": "Two Ways to Pass the Collar and Sleeve",
-      "description": "Collar Sleeve Guard (Top) film study: Two Ways to Pass the Collar and Sleeve, taught by Carpio Jiu Jitsu.",
+      "description": "Collar Sleeve Guard (Top) film study: Two Ways to Pass the Collar and Sleeve.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N4M0VWhDkMA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/N4M0VWhDkMA",
       "url": "https://www.youtube.com/watch?v=N4M0VWhDkMA",
-      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
       "duration": "PT102S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Passing Collar Sleeve Guard - BJJ OPEN GUARD",
-      "description": "Collar Sleeve Guard (Top) film study: Passing Collar Sleeve Guard - BJJ OPEN GUARD, taught by Ultra Jiu Jitsu Academy.",
+      "description": "Collar Sleeve Guard (Top) film study: Passing Collar Sleeve Guard - BJJ OPEN GUARD.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WJ25wu9Ioks/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WJ25wu9Ioks",
       "url": "https://www.youtube.com/watch?v=WJ25wu9Ioks",
-      "creator": { "@type": "Person", "name": "Ultra Jiu Jitsu Academy" },
       "duration": "PT104S"
     }
   ]
@@ -224,7 +222,7 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 ![](https://www.youtube.com/watch?v=N4M0VWhDkMA)
 
-<p class="clip-credit"><strong>Two Ways to Pass the Collar and Sleeve</strong> — taught by Carpio Jiu Jitsu · 1:42 · <a href="https://www.youtube.com/watch?v=N4M0VWhDkMA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Two Ways to Pass the Collar and Sleeve</strong> · 1:42 · <a href="https://www.youtube.com/watch?v=N4M0VWhDkMA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -232,7 +230,7 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 ![](https://www.youtube.com/watch?v=WJ25wu9Ioks)
 
-<p class="clip-credit"><strong>Passing Collar Sleeve Guard - BJJ OPEN GUARD</strong> — taught by Ultra Jiu Jitsu Academy · 1:44 · <a href="https://www.youtube.com/watch?v=WJ25wu9Ioks" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Collar Sleeve Guard - BJJ OPEN GUARD</strong> · 1:44 · <a href="https://www.youtube.com/watch?v=WJ25wu9Ioks" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

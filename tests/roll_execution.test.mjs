@@ -47,10 +47,12 @@ test("own activation commits once; threats, viewers, hidden hands and checkpoint
   const pick = opt => { committed.push(opt); a.startExecution(opt); };
   a.activateOption({ threat: true }, pick, card);
   assert.equal(committed.length, 0);
-  a._choiceWatch = {};
+  // VID1 (v1.283.0): any open video is the theater, and it owns input (WAS `_choiceWatch`, the move's own modal; on the
+  // VID1 build the old line failed, "viewer owns input", 1 for 0: the field is no longer read).
+  a._filmTheater = {};
   a.activateOption(own, pick, card);
   assert.equal(committed.length, 0, "viewer owns input");
-  a._choiceWatch = null;
+  a._filmTheater = null;
   a._rollHand = { mounted: false };
   a.activateOption(own, pick, card);
   assert.equal(committed.length, 0, "an unmounted forecast hand cannot commit");
@@ -282,7 +284,8 @@ test("the actual canvas sweep uses the lifted orb and freezes its needle during 
   });
   Object.assign(a, { W: 495, H: 600, dpr: 1, alpha: 1, startTime: 0, focusIdx: n.idx,
     currentPos: n.idx, playerRole: "top", pulse: null, activeMove: null, optionIdxs: [], trail: [], ripples: [] });
-  a.anim = (_key, fallback) => fallback; a.updateNodeCard = a._syncSeatStars = () => {};
+  a.anim = (_key, fallback) => fallback; a._syncSeatStars = () => {};
+  a._nameBlocks = () => ({ blocks: [], l: 0, r: a.W, b: a.H, v: "" });   // no DOM here: no controls over the map (v1.275.0)
   a.cam = { cx: n.x, cy: a.nodes[n.pi].y, vw: 165 };
   const sw = a._sweep = { idx: n.idx, hold: .38, dur: .7, band: .6, roll: .8, t0: a.now,
     timer: a.after(1.08, () => assert.fail("a paused sweep must not finish")) };
@@ -305,17 +308,36 @@ test("the actual canvas sweep uses the lifted orb and freezes its needle during 
 });
 
 // v1.230.0: the Watch dialog replaces Inspect; borrowing pause keeps the same contract.
-test("closing Watch returns only the pause it took and restores its source focus", () => {
-  for (const wasPaused of [false, true]) {
-    const a = app(); let closed = 0, removed = 0, focused = 0;
-    a.paused = true;
-    a._choiceWatch = { wasPaused,
-      dialog: { close() { closed++; }, remove() { removed++; } },
-      source: { isConnected: true, focus() { focused++; } } };
-    a._closeChoiceWatch();
-    assert.equal(a.paused, wasPaused);
-    assert.equal(a._choiceWatch, null);
-    assert.deepEqual([closed, removed, focused], [1, 1, 1]);
+// VID1 (v1.283.0): the move's video is the theater (`_filmTheater`, `move: true`), closed by collapseClip, which gives
+// back the opener's own `onClose` and destroys the player. WAS: `_choiceWatch = { wasPaused, dialog, source }`, which
+// `_closeChoiceWatch` read itself; on the VID1 build that old test failed, `paused` true for false (the field is no longer
+// read). VID1-R1 (the reader of #427): `onClose` is no longer written out here. `_openChoiceWatch` runs for real, with
+// `expandClip` replaced by a recorder (the real one builds the player's DOM, which this unit has none of), and the theater
+// carries the closure it built. The current node's closure lives inside expandClip itself, so this unit cannot reach it:
+// video-viewer.spec's paused journeys pin it (close-always-unpauses, red there at both halves).
+// Added: a hand that ended (`_closeChoiceWatch(false)`, clearOptions) gives back no pause and takes no focus.
+// Mutants (VID1, 16 Nov, on app.src.jsx in place, restored by sha256): activate-ignores-theater is red at the test above
+// ("viewer owns input"); quiet-close-restores, close-keeps-pause, player-not-destroyed and (VID1-R1) the move half of
+// close-always-unpauses are red here, each at its own message; each control (the other test) green.
+test("closing Watch returns only the pause it took and restores its source focus; a hand that ended gives back nothing", () => {
+  for (const restore of [true, false]) for (const wasPaused of [false, true]) {
+    const a = app(); let closed = 0, removed = 0, focused = 0, destroyed = 0, own = null;
+    a.paused = wasPaused;
+    a.pauseTimers = a.resumeTimers = () => {}; // no clock in this unit
+    a._declineLandQ = () => {}; // no landing question in this unit
+    a.showNextChallengeReward = () => {};
+    a.expandClip = (card, clip, o) => { own = o; };
+    const media = { querySelector: () => null, _player: { destroy() { destroyed++; } } };
+    const source = { isConnected: true, focus() { focused++; }, closest: () => ({ querySelector: () => media }) };
+    a._openChoiceWatch({ id: "aaaaaaaaaaa" }, { node: { t: "Fixture move" } }, source);
+    assert.equal(a.paused, true, "watching pauses the game");
+    assert.equal(own?.source, source, "the opener hands the theater its own source");
+    a._filmTheater = { card: media, move: true, quiet: false, onClose: own.onClose, source,
+      dialog: { getAnimations: () => [], close() { closed++; }, remove() { removed++; } } };
+    a._closeChoiceWatch(restore);
+    assert.equal(a.paused, restore ? wasPaused : true, restore ? "the pause it took, given back" : "a hand that ended: no pause given back");
+    assert.equal(a._filmTheater, null);
+    assert.deepEqual([closed, removed, focused, destroyed], [1, 1, restore ? 1 : 0, 1], "closed, removed, focus back only when restored, player destroyed");
   }
 });
 

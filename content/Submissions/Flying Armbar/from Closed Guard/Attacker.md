@@ -196,8 +196,8 @@ description: "How to execute Flying Armbar in BJJ. Attacking perspective with se
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "BJJ - How to Safely Practice the Flying Armbar - Firas Zahabi",
-      "description": "Flying Armbar from Closed Guard (Attacker) film study: BJJ - How to Safely Practice the Flying Armbar - Firas Zahabi.",
+      "name": "BJJ - How to Safely Practice the Flying Armbar",
+      "description": "Flying Armbar from Closed Guard (Attacker) film study: BJJ - How to Safely Practice the Flying Armbar.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RgZdYVZqbwA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/RgZdYVZqbwA?start=48",
       "url": "https://www.youtube.com/watch?v=RgZdYVZqbwA",
@@ -254,7 +254,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 ![](https://www.youtube.com/watch?v=RgZdYVZqbwA&start=48)
 
-<p class="clip-credit"><strong>BJJ - How to Safely Practice the Flying Armbar - Firas Zahabi</strong> · 4:08 · <a href="https://www.youtube.com/watch?v=RgZdYVZqbwA&t=48s" rel="noopener">Watch on YouTube from 0:48</a></p>
+<p class="clip-credit"><strong>BJJ - How to Safely Practice the Flying Armbar</strong> · 4:08 · <a href="https://www.youtube.com/watch?v=RgZdYVZqbwA&t=48s" rel="noopener">Watch on YouTube from 0:48</a></p>
 
 </div>
 

@@ -91,7 +91,7 @@ async function modalOpen(page: Page) {
 
 // U67 a: one form, one text box, current-page context, both existing telemetry streams.
 // The capture stub observes the real submit path; it does not replace openFeedback or track.
-test("U67 a: the merged form submits both feedback kinds with the current page @curated", async ({ page }) => {
+test("U67 a: the merged form submits both feedback kinds with the current page", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 631 });
   const j = journey(page);
   await j.boot("/");
@@ -137,7 +137,7 @@ for (const vp of [
   { width: 1440, height: 900 },
   { width: 390, height: 844 },
 ]) {
-  test(`feedback modal at ${vp.width}: one form for both kinds, no privacy hint, an even column, every control by mouse @curated`, async ({
+  test(`feedback modal at ${vp.width}: one form for both kinds, no privacy hint, an even column, every control by mouse`, async ({
     page,
   }) => {
     await page.setViewportSize(vp);

@@ -166,22 +166,20 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
       "@type": "VideoObject",
       "position": 1,
       "name": "Jiu Jitsu Quick Fix #1: Seatbelt Grip",
-      "description": "Seat Belt Control Back (Top) film study: Jiu Jitsu Quick Fix #1: Seatbelt Grip, taught by Ben Kool.",
+      "description": "Seat Belt Control Back (Top) film study: Jiu Jitsu Quick Fix #1: Seatbelt Grip.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
       "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
-      "creator": { "@type": "Person", "name": "Ben Kool" },
       "duration": "PT61S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Back Attacks 3.0 - #12: Deep Seatbelt // Tom Halpin",
-      "description": "Seat Belt Control Back (Top) film study: Back Attacks 3.0 - #12: Deep Seatbelt // Tom Halpin, taught by Tom Halpin.",
+      "name": "Back Attacks 3.0 - #12: Deep Seatbelt",
+      "description": "Seat Belt Control Back (Top) film study: Back Attacks 3.0 - #12: Deep Seatbelt.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rvh8MFq_tb0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rvh8MFq_tb0",
       "url": "https://www.youtube.com/watch?v=rvh8MFq_tb0",
-      "creator": { "@type": "Person", "name": "Tom Halpin" },
       "duration": "PT111S"
     }
   ]
@@ -214,7 +212,7 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ![](https://www.youtube.com/watch?v=MwxnveKrlxU)
 
-<p class="clip-credit"><strong>Jiu Jitsu Quick Fix #1: Seatbelt Grip</strong> — taught by Ben Kool · 1:01 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Quick Fix #1: Seatbelt Grip</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -222,7 +220,7 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ![](https://www.youtube.com/watch?v=rvh8MFq_tb0)
 
-<p class="clip-credit"><strong>Back Attacks 3.0 - #12: Deep Seatbelt // Tom Halpin</strong> — taught by Tom Halpin · 1:51 · <a href="https://www.youtube.com/watch?v=rvh8MFq_tb0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Attacks 3.0 - #12: Deep Seatbelt</strong> · 1:51 · <a href="https://www.youtube.com/watch?v=rvh8MFq_tb0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

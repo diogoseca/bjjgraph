@@ -186,8 +186,8 @@ description: "How to execute Triangle to Armbar in BJJ. Attacking perspective wi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armory - Blue Belt Series - Transition from Triangle to Armbar  II",
-      "description": "Triangle to Armbar (Attacker) film study: Armory - Blue Belt Series - Transition from Triangle to Armbar  II.",
+      "name": "Blue Belt Series - Transition from Triangle to Armbar  II",
+      "description": "Triangle to Armbar (Attacker) film study: Blue Belt Series - Transition from Triangle to Armbar  II.",
       "thumbnailUrl": "https://i.ytimg.com/vi/r8rBt5Mp3B4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/r8rBt5Mp3B4",
       "url": "https://www.youtube.com/watch?v=r8rBt5Mp3B4",
@@ -196,8 +196,8 @@ description: "How to execute Triangle to Armbar in BJJ. Attacking perspective wi
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Triangle to Arm Bar Transition with Professor Keith Florian",
-      "description": "Triangle to Armbar (Attacker) film study: Triangle to Arm Bar Transition with Professor Keith Florian.",
+      "name": "Triangle to Arm Bar Transition",
+      "description": "Triangle to Armbar (Attacker) film study: Triangle to Arm Bar Transition.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5fuUTE9QN3U/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5fuUTE9QN3U",
       "url": "https://www.youtube.com/watch?v=5fuUTE9QN3U",
@@ -231,7 +231,7 @@ The Triangle to Armbar transition represents one of the most fundamental and hig
 
 ![](https://www.youtube.com/watch?v=r8rBt5Mp3B4)
 
-<p class="clip-credit"><strong>Armory - Blue Belt Series - Transition from Triangle to Armbar  II</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=r8rBt5Mp3B4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Blue Belt Series - Transition from Triangle to Armbar  II</strong> · 0:47 · <a href="https://www.youtube.com/watch?v=r8rBt5Mp3B4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -239,7 +239,7 @@ The Triangle to Armbar transition represents one of the most fundamental and hig
 
 ![](https://www.youtube.com/watch?v=5fuUTE9QN3U)
 
-<p class="clip-credit"><strong>Triangle to Arm Bar Transition with Professor Keith Florian</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=5fuUTE9QN3U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Triangle to Arm Bar Transition</strong> · 0:51 · <a href="https://www.youtube.com/watch?v=5fuUTE9QN3U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

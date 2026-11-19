@@ -263,7 +263,7 @@
         }
       },
       {
-        "question": "Aoki from Control: where does Kesting place the looping hand for a deep arm connection?",
+        "question": "Aoki from Control: where does the looping hand go for a deep arm connection?",
         "answer": "Around the back of the opposite triceps. The written lesson distinguishes a deep hold behind the other upper arm from merely resting the hand on the biceps. Learn the connection without adding finishing rotation.",
         "answer_line": "Behind the opposite triceps",
         "distractors": {
@@ -320,7 +320,7 @@
         "safety_critical": true
       },
       {
-        "question": "Aoki from Control: which opposing post is collected in Kesting's counter-leglock example?",
+        "question": "Aoki from Control: which opposing post is collected in the counter-leglock example?",
         "answer": "The foot pressing against the holder's hip. The example catches the foot that was pinning the defender's hip in standard ashi. A named dominant entanglement does not prevent that foot from being exposed.",
         "answer_line": "The foot posted on the holder's hip",
         "distractors": {
@@ -378,6 +378,15 @@
       }
     ],
     "clips": [
+      {
+        "id": "47RpYri32QE",
+        "title": "Aoki Lock",
+        "channel": "Mat Morris",
+        "duration": 121,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-16"
+      },
       {
         "id": "qRH7g21c6xQ",
         "title": "Aoki lock breakdown",
@@ -529,8 +538,8 @@
         }
       },
       {
-        "question": "Aoki from Control defense: how does Kesting protect the outside foot while holding standard ashi?",
-        "answer": "Keep the inside knee close to that outside foot. His preventive detail closes access to the outside foot before an Aoki grip is established. It is not an escape to apply after the foot is already locked.",
+        "question": "Aoki from Control defense: how do you protect the outside foot while holding standard ashi?",
+        "answer": "Keep the inside knee close to that outside foot. This preventive detail closes access to the outside foot before an Aoki grip is established. It is not an escape to apply after the foot is already locked.",
         "answer_line": "Keep inside knee near outside foot",
         "distractors": {
           "plausible": [

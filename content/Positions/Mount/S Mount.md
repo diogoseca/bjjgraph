@@ -47,11 +47,10 @@ description: "Master S Mount in BJJ - the ultimate armbar setup position. Comple
       "@type": "VideoObject",
       "position": 1,
       "name": "Goathook escape from mount: dealing with the switch to S-mount",
-      "description": "S Mount film study: Goathook escape from mount: dealing with the switch to S-mount, taught by Revolution BJJ coach.",
+      "description": "S Mount film study: Goathook escape from mount: dealing with the switch to S-mount.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WKqvJLpq7nc/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/WKqvJLpq7nc",
       "url": "https://www.youtube.com/watch?v=WKqvJLpq7nc",
-      "creator": { "@type": "Person", "name": "Revolution BJJ coach" },
       "duration": "PT72S"
     }
   ]
@@ -91,7 +90,7 @@ The strategic value of S Mount lies in its dual nature as both a controlling pos
 
 From the bottom perspective, S Mount represents an extremely dangerous position that requires immediate defensive action. The bottom practitioner faces the dual threat of submission and positional advancement, with limited defensive options once proper control is established. Understanding S Mount defense is crucial for survival in competition and training, as the position naturally flows from standard mount control and appears frequently in high-level competition.
 
-The transition mechanics into S Mount typically originate from mount or side control, with the top practitioner moving into perpendicular alignment to attack the arm. This position features prominently in the games of submission specialists like Demian Maia, Roger Gracie, and Renzo Gracie, who have demonstrated its effectiveness at the highest levels of competition. The position exemplifies the principle of position before submission, as proper S Mount control makes the armbar nearly inevitable.
+The transition mechanics into S Mount typically originate from mount or side control, with the top practitioner moving into perpendicular alignment to attack the arm. This position features prominently in the games of submission specialists, who have demonstrated its effectiveness at the highest levels of competition. The position exemplifies the principle of position before submission, as proper S Mount control makes the armbar nearly inevitable.
 
 Historically, S Mount has been a fundamental component of Japanese judo groundwork (newaza) and was adopted early in Brazilian Jiu-Jitsu's development. The position showcases the art's emphasis on positional dominance and technical submission execution, rather than relying purely on strength or athleticism. Modern competitors continue to refine S Mount mechanics, developing increasingly sophisticated control methods and submission chains that make the position even more dominant in contemporary grappling.
 
@@ -109,7 +108,7 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 
 ![](https://www.youtube.com/watch?v=WKqvJLpq7nc)
 
-<p class="clip-credit"><strong>Goathook escape from mount: dealing with the switch to S-mount</strong> — taught by Revolution BJJ coach · 1:12 · <a href="https://www.youtube.com/watch?v=WKqvJLpq7nc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Goathook escape from mount: dealing with the switch to S-mount</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=WKqvJLpq7nc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

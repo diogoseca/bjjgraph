@@ -56,8 +56,8 @@ description: "Master the Lasso Sweep in BJJ. Step-by-step guide to sweeping from
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Sweep from Leg Lasso with One Jiu Jitsu Black Belt Leslie Gardineer at De Boa\u2026",
-      "description": "Lasso Sweep film study: Sweep from Leg Lasso with One Jiu Jitsu Black Belt Leslie Gardineer at De Boa\u2026.",
+      "name": "Sweep from Leg Lasso",
+      "description": "Lasso Sweep film study: Sweep from Leg Lasso.",
       "thumbnailUrl": "https://i.ytimg.com/vi/42uccYQUAgE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/42uccYQUAgE",
       "url": "https://www.youtube.com/watch?v=42uccYQUAgE",
@@ -125,7 +125,7 @@ Strategically, the Lasso Sweep serves as a constant background threat that shape
 
 ![](https://www.youtube.com/watch?v=42uccYQUAgE)
 
-<p class="clip-credit"><strong>Sweep from Leg Lasso with One Jiu Jitsu Black Belt Leslie Gardineer at De Boa…</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=42uccYQUAgE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sweep from Leg Lasso</strong> · 1:24 · <a href="https://www.youtube.com/watch?v=42uccYQUAgE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

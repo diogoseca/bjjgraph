@@ -175,8 +175,8 @@ description: "Master Deep Half Guard Bottom with powerful sweeps, back takes, an
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Jeff Glover explains low grip and high grip for deep half guard",
-      "description": "Deep Half Guard (Bottom) film study: Jeff Glover explains low grip and high grip for deep half guard.",
+      "name": "Low grip and high grip for deep half guard",
+      "description": "Deep Half Guard (Bottom) film study: Low grip and high grip for deep half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_IGB9jEvXfo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_IGB9jEvXfo",
       "url": "https://www.youtube.com/watch?v=_IGB9jEvXfo",
@@ -220,7 +220,7 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 
 ![](https://www.youtube.com/watch?v=_IGB9jEvXfo)
 
-<p class="clip-credit"><strong>Jeff Glover explains low grip and high grip for deep half guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Low grip and high grip for deep half guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

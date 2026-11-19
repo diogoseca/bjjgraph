@@ -166,33 +166,30 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
       "@type": "VideoObject",
       "position": 1,
       "name": "How to Pass the Spider Guard in Jiu-Jitsu",
-      "description": "Spider Guard (Top) film study: How to Pass the Spider Guard in Jiu-Jitsu, taught by Jon Thomas.",
+      "description": "Spider Guard (Top) film study: How to Pass the Spider Guard in Jiu-Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XK-wLG3B0xU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XK-wLG3B0xU",
       "url": "https://www.youtube.com/watch?v=XK-wLG3B0xU",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
       "duration": "PT204S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Lasso spider guard passing concepts",
-      "description": "Spider Guard (Top) film study: Lasso spider guard passing concepts, taught by Alec Baulding.",
+      "description": "Spider Guard (Top) film study: Lasso spider guard passing concepts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XnpPaSpf5QM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/XnpPaSpf5QM",
       "url": "https://www.youtube.com/watch?v=XnpPaSpf5QM",
-      "creator": { "@type": "Person", "name": "Alec Baulding" },
       "duration": "PT163S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Spider Guard Passing #JiuJitsu #SpiderGuard #Pragma #Hutto #Texas",
-      "description": "Spider Guard (Top) film study: Spider Guard Passing #JiuJitsu #SpiderGuard #Pragma #Hutto #Texas, taught by Christopher Frazier.",
+      "name": "Spider Guard Passing #JiuJitsu #SpiderGuard #Hutto #Texas",
+      "description": "Spider Guard (Top) film study: Spider Guard Passing #JiuJitsu #SpiderGuard #Hutto #Texas.",
       "thumbnailUrl": "https://i.ytimg.com/vi/w5zek2cOaYA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/w5zek2cOaYA",
       "url": "https://www.youtube.com/watch?v=w5zek2cOaYA",
-      "creator": { "@type": "Person", "name": "Christopher Frazier" },
       "duration": "PT142S"
     }
   ]
@@ -221,7 +218,7 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 ![](https://www.youtube.com/watch?v=XK-wLG3B0xU)
 
-<p class="clip-credit"><strong>How to Pass the Spider Guard in Jiu-Jitsu</strong> — taught by Jon Thomas · 3:24 · <a href="https://www.youtube.com/watch?v=XK-wLG3B0xU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to Pass the Spider Guard in Jiu-Jitsu</strong> · 3:24 · <a href="https://www.youtube.com/watch?v=XK-wLG3B0xU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -229,7 +226,7 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 ![](https://www.youtube.com/watch?v=XnpPaSpf5QM)
 
-<p class="clip-credit"><strong>Lasso spider guard passing concepts</strong> — taught by Alec Baulding · 2:43 · <a href="https://www.youtube.com/watch?v=XnpPaSpf5QM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lasso spider guard passing concepts</strong> · 2:43 · <a href="https://www.youtube.com/watch?v=XnpPaSpf5QM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -237,7 +234,7 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 ![](https://www.youtube.com/watch?v=w5zek2cOaYA)
 
-<p class="clip-credit"><strong>Spider Guard Passing #JiuJitsu #SpiderGuard #Pragma #Hutto #Texas</strong> — taught by Christopher Frazier · 2:22 · <a href="https://www.youtube.com/watch?v=w5zek2cOaYA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Spider Guard Passing #JiuJitsu #SpiderGuard #Hutto #Texas</strong> · 2:22 · <a href="https://www.youtube.com/watch?v=w5zek2cOaYA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

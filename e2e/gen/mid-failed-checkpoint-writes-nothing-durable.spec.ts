@@ -111,8 +111,8 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
       .locator(`.ng-challenge-group:has([data-checkpoint="${uk}"])`)
       .first()
       .evaluate((el) => ((el as HTMLDetailsElement).open = true))
-  // Drawer (U51 e / U56 e): select Path explicitly; opening alone shows the home list.
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
+  // Drawer (U51 e / U56 e): open the corridor explicitly; opening the drawer alone shows the home list.
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK1}"]`).first().textContent(),
@@ -160,7 +160,9 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
 
   // ── beat shape of the bombed sitting: all wrong, one fail, zero pass-side beats ──
   const b1 = (await j.beats()) as any[]
-  const n1 = b1.map((b) => b.beat)
+  // v1.287.0: the corridor is Master the game's, whose own open card shows multiple choice on the practice surface under Auto (an
+  // mc_shown of ITS surface, outside the quiz); a quiz card is presented on the deck surface, so the census leaves that one out
+  const n1 = b1.filter((b: any) => !(b.beat === "mc_shown" && b.surface === "practice")).map((b) => b.beat)
   expect(n1.filter((n) => n === "mc_shown").length, "every quiz card presented").toBe(CP.cards)
   expect(n1.filter((n) => n === "mc_wrong").length, "every quiz card answered wrong").toBe(CP.cards)
   expect(n1.filter((n) => n === "mc_correct").length, "no accidental correct answer").toBe(0)
@@ -228,7 +230,7 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
       .locator(`.ng-challenge-group:has([data-checkpoint="${uk}"])`)
       .first()
       .evaluate((el) => ((el as HTMLDetailsElement).open = true))
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
     await page.locator(`[data-checkpoint="${UK2}"]`).first().textContent(),

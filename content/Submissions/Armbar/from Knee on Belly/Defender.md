@@ -146,8 +146,8 @@ description: "Master defending the armbar from knee on belly. Recognition cues, 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armbar Escape To Side Control With Valdir Rodrigues.",
-      "description": "Armbar from Knee on Belly (Defender) film study: Armbar Escape To Side Control With Valdir Rodrigues..",
+      "name": "Armbar Escape To Side Control.",
+      "description": "Armbar from Knee on Belly (Defender) film study: Armbar Escape To Side Control..",
       "thumbnailUrl": "https://i.ytimg.com/vi/fRhm4gy-kxo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fRhm4gy-kxo",
       "url": "https://www.youtube.com/watch?v=fRhm4gy-kxo",
@@ -182,7 +182,7 @@ Defending the armbar from knee on belly requires understanding the attack's trig
 
 ![](https://www.youtube.com/watch?v=fRhm4gy-kxo)
 
-<p class="clip-credit"><strong>Armbar Escape To Side Control With Valdir Rodrigues.</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=fRhm4gy-kxo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar Escape To Side Control.</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=fRhm4gy-kxo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -171,8 +171,8 @@ description: "How to defend against Ouchi Gari in BJJ. Recognition cues, defensi
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Counter To Ouchi Gari | Grappling University",
-      "description": "Ouchi Gari (Defender) film study: Counter To Ouchi Gari | Grappling University.",
+      "name": "Counter To Ouchi Gari",
+      "description": "Ouchi Gari (Defender) film study: Counter To Ouchi Gari.",
       "thumbnailUrl": "https://i.ytimg.com/vi/qEV8CKGqwWE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/qEV8CKGqwWE",
       "url": "https://www.youtube.com/watch?v=qEV8CKGqwWE",
@@ -217,7 +217,7 @@ Defending Ouchi Gari requires recognizing the attack early and responding with t
 
 ![](https://www.youtube.com/watch?v=qEV8CKGqwWE)
 
-<p class="clip-credit"><strong>Counter To Ouchi Gari | Grappling University</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=qEV8CKGqwWE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Counter To Ouchi Gari</strong> · 3:06 · <a href="https://www.youtube.com/watch?v=qEV8CKGqwWE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

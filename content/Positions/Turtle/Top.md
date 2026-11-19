@@ -165,8 +165,8 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "John Danaher`s Back System - Turtle Top Control - Focus Points  (week 21)",
-      "description": "Turtle (Top) film study: John Danaher`s Back System - Turtle Top Control - Focus Points  (week 21).",
+      "name": "Back System - Turtle Top Control - Focus Points (week 21)",
+      "description": "Turtle (Top) film study: Back System - Turtle Top Control - Focus Points (week 21).",
       "thumbnailUrl": "https://i.ytimg.com/vi/I3tKiknIR70/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/I3tKiknIR70",
       "url": "https://www.youtube.com/watch?v=I3tKiknIR70",
@@ -198,7 +198,7 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 
 ![](https://www.youtube.com/watch?v=I3tKiknIR70)
 
-<p class="clip-credit"><strong>John Danaher`s Back System - Turtle Top Control - Focus Points  (week 21)</strong> · 5:29 · <a href="https://www.youtube.com/watch?v=I3tKiknIR70" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back System - Turtle Top Control - Focus Points (week 21)</strong> · 5:29 · <a href="https://www.youtube.com/watch?v=I3tKiknIR70" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -181,33 +181,30 @@ description: "Advance to Chill Dog (attacker): Keep the opposing hand on the mat
       "@type": "VideoObject",
       "position": 1,
       "name": "Meathook to Chill Dog to kimura finishes",
-      "description": "Advance to Chill Dog (Attacker) film study: Meathook to Chill Dog to kimura finishes, taught by Marshall Stamper.",
+      "description": "Advance to Chill Dog (Attacker) film study: Meathook to Chill Dog to kimura finishes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Q2aYW-20B44/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Q2aYW-20B44",
       "url": "https://www.youtube.com/watch?v=Q2aYW-20B44",
-      "creator": { "@type": "Person", "name": "Marshall Stamper" },
       "duration": "PT73S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Closed guard entry to Chill Dog to omoplata",
-      "description": "Advance to Chill Dog (Attacker) film study: Closed guard entry to Chill Dog to omoplata, taught by Marshall Stamper.",
+      "description": "Advance to Chill Dog (Attacker) film study: Closed guard entry to Chill Dog to omoplata.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2zillrf6gGs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2zillrf6gGs",
       "url": "https://www.youtube.com/watch?v=2zillrf6gGs",
-      "creator": { "@type": "Person", "name": "Marshall Stamper" },
       "duration": "PT195S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Rubber guard positions: Zombie, New York, Chill Dog",
-      "description": "Advance to Chill Dog (Attacker) film study: Rubber guard positions: Zombie, New York, Chill Dog, taught by Submissions101.",
+      "description": "Advance to Chill Dog (Attacker) film study: Rubber guard positions: Zombie, New York, Chill Dog.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wUDqbU2jwxg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wUDqbU2jwxg",
       "url": "https://www.youtube.com/watch?v=wUDqbU2jwxg",
-      "creator": { "@type": "Person", "name": "Submissions101" },
       "duration": "PT278S"
     }
   ]
@@ -246,7 +243,7 @@ Retain the New York overhook around the isolated arm while the other arm clears 
 
 ![](https://www.youtube.com/watch?v=Q2aYW-20B44)
 
-<p class="clip-credit"><strong>Meathook to Chill Dog to kimura finishes</strong> — taught by Marshall Stamper · 1:13 · <a href="https://www.youtube.com/watch?v=Q2aYW-20B44" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Meathook to Chill Dog to kimura finishes</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=Q2aYW-20B44" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -254,7 +251,7 @@ Retain the New York overhook around the isolated arm while the other arm clears 
 
 ![](https://www.youtube.com/watch?v=2zillrf6gGs)
 
-<p class="clip-credit"><strong>Closed guard entry to Chill Dog to omoplata</strong> — taught by Marshall Stamper · 3:15 · <a href="https://www.youtube.com/watch?v=2zillrf6gGs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Closed guard entry to Chill Dog to omoplata</strong> · 3:15 · <a href="https://www.youtube.com/watch?v=2zillrf6gGs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -262,7 +259,7 @@ Retain the New York overhook around the isolated arm while the other arm clears 
 
 ![](https://www.youtube.com/watch?v=wUDqbU2jwxg)
 
-<p class="clip-credit"><strong>Rubber guard positions: Zombie, New York, Chill Dog</strong> — taught by Submissions101 · 4:38 · <a href="https://www.youtube.com/watch?v=wUDqbU2jwxg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rubber guard positions: Zombie, New York, Chill Dog</strong> · 4:38 · <a href="https://www.youtube.com/watch?v=wUDqbU2jwxg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

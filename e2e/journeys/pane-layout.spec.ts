@@ -89,7 +89,7 @@ const geometry = (page: Page) => page.evaluate(() => {
 })
 
 for (const width of [1440, 1024]) {
-  test(`@curated ${width}px pane moves film, card, article and the projected current node together`, async ({ page }) => {
+  test(`${width}px pane moves film, card, article and the projected current node together`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     const j = await setup(page)
     await j.clickByMouse("[data-land-next]", "next flashcard before opening the pane")
@@ -115,19 +115,23 @@ for (const width of [1440, 1024]) {
       expect(open[surface].right).toBeLessThanOrEqual(width)
       if (!reflow) {
         // U104, U108 a (owner, 2026-11-09, replacing a fixed 390px face beside a 400px film): in columns the question and the
-        // film are the article grid's two columns, so the pane narrows both with the grid. The open face keeps its 52px lane
-        // for the deck's arrows, the film stays right of it, and each keeps its vertical dock.
+        // film are the article grid's two columns, so the pane narrows both with the grid. The open face keeps a 32px lane each
+        // side for the deck's arrows (CARDWIDTH, v1.263.1; WAS one 52px lane), the film stays right of it, and each keeps its
+        // vertical dock.
         if (surface === "card") {
-          expect(open.film.width - open.card.width, "equal columns: the film is the face and its arrows' lane").toBeCloseTo(52, 0)
+          expect(open.film.width - open.card.width, "equal columns: the film is the face and its arrows' two lanes").toBeCloseTo(64, 0)
           expect(open.film.x, 'the film stays right of the question').toBeGreaterThan(open.card.right)
         }
         expect(open[surface].y, `${surface} keeps its vertical dock`).toBeCloseTo(before[surface].y, 0)
       }
     }
     if (open.layout === 'stacked') {
-      // U110 a: stacked, the film and the card share one box of at most 496px.
-      expect(open.film.width).toBe(Math.min(496, width - open.pane.width - 32))
-      expect(open.card.width).toBe(Math.min(496, width - open.pane.width - 104))
+      // U110 a: stacked, the film and the card's section share one box of at most 496px, the grid. CARDWIDTH (v1.263.1) and WIDTH2
+      // (U152 b): where both margins beside the grid hold a 44px arrow the face is the grid, its arrows outside; where they do not,
+      // the face is the grid less a 32px lane per arrow (WAS the free width less 104, its arrows outside).
+      const free = width - open.pane.width, grid = Math.min(496, free - 64)
+      expect(open.film.width).toBe(Math.min(496, free - 32))
+      expect(open.card.width).toBe(free - grid >= 88 ? grid : grid - 64)
       expect(open.card.y - open.hand.bottom, 'the question follows Moves at the deck gap').toBeCloseTo(16, 0)
       expect(open.film.y - (open.card.bottom + 3 * open.backs), "the current card follows the question's backs at the deck gap").toBeCloseTo(16, 0)
     }
@@ -155,7 +159,7 @@ for (const width of [1440, 1024]) {
 for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 }]) {
   // D-338: Browse and Focus are gone; the logo's pane is the one Browse opened, and focusing the
   // prose is the reading interaction that Focus used to stand in for.
-  test(`@curated ${viewport.width}px the pane overlays the article and preserves its place`, async ({ page }) => {
+  test(`${viewport.width}px the pane overlays the article and preserves its place`, async ({ page }) => {
     await page.setViewportSize(viewport)
     const j = await setup(page)
     await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
@@ -209,7 +213,7 @@ async function articleEnd(page: Page, path: string) {
 }
 const readerTop = (page: Page) => page.locator("[data-reader]").evaluate(e => e.scrollTop)
 for (const path of ["/Positions/Mount/Top", "/Transitions/50-50-Entry/Attacker"]) {
-  test(`@curated 768px the pane opened and closed at the end of ${path} restores the reader's place`, async ({ page }) => {
+  test(`768px the pane opened and closed at the end of ${path} restores the reader's place`, async ({ page }) => {
     const j = await articleEnd(page, path)
     const before = await readerTop(page)
     await openPane(page, j)
@@ -218,7 +222,8 @@ for (const path of ["/Positions/Mount/Top", "/Transitions/50-50-Entry/Attacker"]
     expect(await readerTop(page), "the close lands on the place the open left").toBe(before)
   })
 }
-// At 768 the only exact pin on U59 c's hold while the pane is open: article-dashboard pins 1440 and 1152. pane-open-hold-lost.
+// At 768 the only exact pin on U59 c's hold while the pane is open: article-dashboard pins 1440 and 1152. pane-open-hold-lost
+// (retargeted in v1.253.0 after U114 a moved its target, and killed again: #354's review, finding 2).
 // On screen coordinates, from the landed start with an open question. UNGUARDED: from a direct boot the slide's last pass shifts
 // the stage about 18px with no change of grid, so the anchor has no reason to fire and the line ends that much higher while the
 // pane is open: 17-18px on the four position pages measured, on v1.249.1 and v1.249.2 alike. The close still lands exactly.
@@ -310,7 +315,7 @@ test("1440px a small wheel while the pane is open is the reader's new place, and
   expect(Math.abs(now - held), `the line the wheel left keeps its place (${held} -> ${now}, moved ${moved})`).toBeLessThanOrEqual(8)
 })
 
-test("@curated exposed cards, videos and reading take real mouse input while the pane is open", async ({ page }) => {
+test("exposed cards, videos and reading take real mouse input while the pane is open", async ({ page }) => {
   await page.setViewportSize({ width: 1024, height: 900 })
   const j = await setup(page)
   // D-338: Questions follows Videos and Moves and can start below the fold: scroll to it first.
@@ -396,7 +401,7 @@ test("@curated exposed cards, videos and reading take real mouse input while the
   expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)
 })
 
-test("@curated resizing an open pane preserves the card through the stacked landscape flow", async ({ page }) => {
+test("resizing an open pane preserves the card through the stacked landscape flow", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = await setup(page)
   await j.clickByMouse("[data-land-next]")

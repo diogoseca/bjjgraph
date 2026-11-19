@@ -47,11 +47,10 @@ description: "Master Reverse X-Guard in BJJ. Strategic guide covering when to us
       "@type": "VideoObject",
       "position": 1,
       "name": "Technique Talk: The Reverse X-Guard Entry",
-      "description": "Reverse X-Guard film study: Technique Talk: The Reverse X-Guard Entry, taught by Black Flag Submission Company.",
+      "description": "Reverse X-Guard film study: Technique Talk: The Reverse X-Guard Entry.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dISye8G6dpU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/dISye8G6dpU",
       "url": "https://www.youtube.com/watch?v=dISye8G6dpU",
-      "creator": { "@type": "Person", "name": "Black Flag Submission Company" },
       "duration": "PT190S"
     }
   ]
@@ -91,7 +90,7 @@ Developed as an evolution of traditional X-Guard, Reverse X-Guard offers unique 
 
 The position requires significant core strength, flexibility, and timing to execute effectively. While beginners may struggle with the inverted mechanics and spatial awareness required, intermediate and advanced practitioners can use Reverse X-Guard as a high-percentage sweeping position that flows naturally into dominant positions or submission attacks. From the top perspective, this position requires understanding of leg entanglement defense, base management, and systematic passing approaches to navigate safely while avoiding sweep and submission threats.
 
-Reverse X-Guard has gained prominence in modern competition BJJ as athletes like Marcelo Garcia and the Miyao brothers demonstrated the effectiveness of X-Guard variations at the highest levels. The position serves as a critical node in the modern guard system, connecting De La Riva entries to leg entanglement attacks and high-amplitude sweeps. Understanding both perspectives is essential for any serious competitor or hobbyist who trains against modern guard systems.
+Reverse X-Guard has gained prominence in modern competition BJJ as competitors demonstrated the effectiveness of X-Guard variations at the highest levels. The position serves as a critical node in the modern guard system, connecting De La Riva entries to leg entanglement attacks and high-amplitude sweeps. Understanding both perspectives is essential for any serious competitor or hobbyist who trains against modern guard systems.
 
 </section>
 
@@ -107,7 +106,7 @@ Reverse X-Guard has gained prominence in modern competition BJJ as athletes like
 
 ![](https://www.youtube.com/watch?v=dISye8G6dpU)
 
-<p class="clip-credit"><strong>Technique Talk: The Reverse X-Guard Entry</strong> — taught by Black Flag Submission Company · 3:10 · <a href="https://www.youtube.com/watch?v=dISye8G6dpU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Technique Talk: The Reverse X-Guard Entry</strong> · 3:10 · <a href="https://www.youtube.com/watch?v=dISye8G6dpU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

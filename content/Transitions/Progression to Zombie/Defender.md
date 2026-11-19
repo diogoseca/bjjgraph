@@ -161,33 +161,30 @@ description: "Progression to Zombie (defender): Keep a useful forearm between th
       "@type": "VideoObject",
       "position": 1,
       "name": "Simple rubber guard escape",
-      "description": "Progression to Zombie (Defender) film study: Simple rubber guard escape, taught by BJJ4Breakfast.",
+      "description": "Progression to Zombie (Defender) film study: Simple rubber guard escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
       "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
-      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT131S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Passing the rubber guard",
-      "description": "Progression to Zombie (Defender) film study: Passing the rubber guard, taught by Marcelo Garcia.",
+      "description": "Progression to Zombie (Defender) film study: Passing the rubber guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ANxiPpAzACU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ANxiPpAzACU",
       "url": "https://www.youtube.com/watch?v=ANxiPpAzACU",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT443S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Why your Rubber Guard never works - counters",
-      "description": "Progression to Zombie (Defender) film study: Why your Rubber Guard never works - counters, taught by Brandon Mccaghren.",
+      "description": "Progression to Zombie (Defender) film study: Why your Rubber Guard never works - counters.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5jKZpFnxYbE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/5jKZpFnxYbE",
       "url": "https://www.youtube.com/watch?v=5jKZpFnxYbE",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
       "duration": "PT307S"
     }
   ]
@@ -226,7 +223,7 @@ The early escape keeps the elbow inside and denies the knee hug. Treat completed
 
 ![](https://www.youtube.com/watch?v=AvivOVuYcCk)
 
-<p class="clip-credit"><strong>Simple rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple rubber guard escape</strong> · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,7 +231,7 @@ The early escape keeps the elbow inside and denies the knee hug. Treat completed
 
 ![](https://www.youtube.com/watch?v=ANxiPpAzACU)
 
-<p class="clip-credit"><strong>Passing the rubber guard</strong> — taught by Marcelo Garcia · 7:23 · <a href="https://www.youtube.com/watch?v=ANxiPpAzACU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing the rubber guard</strong> · 7:23 · <a href="https://www.youtube.com/watch?v=ANxiPpAzACU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -242,7 +239,7 @@ The early escape keeps the elbow inside and denies the knee hug. Treat completed
 
 ![](https://www.youtube.com/watch?v=5jKZpFnxYbE)
 
-<p class="clip-credit"><strong>Why your Rubber Guard never works - counters</strong> — taught by Brandon Mccaghren · 5:07 · <a href="https://www.youtube.com/watch?v=5jKZpFnxYbE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Why your Rubber Guard never works - counters</strong> · 5:07 · <a href="https://www.youtube.com/watch?v=5jKZpFnxYbE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

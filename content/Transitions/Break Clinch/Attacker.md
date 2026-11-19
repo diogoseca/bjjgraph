@@ -192,8 +192,8 @@ description: "Complete guide to executing the clinch break in BJJ. Learn frame c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "CSW - Neck Clearing",
-      "description": "Break Clinch (Attacker) film study: CSW - Neck Clearing.",
+      "name": "Neck Clearing",
+      "description": "Break Clinch (Attacker) film study: Neck Clearing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yEGyEjjgkKU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/yEGyEjjgkKU",
       "url": "https://www.youtube.com/watch?v=yEGyEjjgkKU",
@@ -227,7 +227,7 @@ Executing the clinch break requires a systematic approach that combines grip fig
 
 ![](https://www.youtube.com/watch?v=yEGyEjjgkKU)
 
-<p class="clip-credit"><strong>CSW - Neck Clearing</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=yEGyEjjgkKU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Neck Clearing</strong> · 1:22 · <a href="https://www.youtube.com/watch?v=yEGyEjjgkKU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

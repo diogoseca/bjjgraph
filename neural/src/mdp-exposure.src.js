@@ -176,9 +176,32 @@ function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity
   //     (mdp-adapter.src.js), and no study read names an answer event. Measured: regenerated before and
   //     after, every MDP shard part is byte-identical; only provenance hashes and the variants'
   //     mechanicsHash moved.
+  //   - SRS-GO (v1.279.0), the KNOWLEDGE pin (from 17c12c…): the schedule row writer (`ngKnowledgeScheduleRow`: the owner's
+  //     ladder, proportional credit for an early right answer, the cell floored to the seven rungs), its helpers and the pull's
+  //     srs merge (`ngKnowledgeMergeRow`). Label-neutral: the worker binds eight knowledge laws (bonus, sharpness, advance,
+  //     outcome weights, skew, the two explanations, calAt; game-bundles.mjs `knowledgeNames`) and this adapter one
+  //     (override), none of them changed, and no study read names a schedule row (the MDP never schedules a card). Measured:
+  //     regenerated before and after, every MDP shard part byte-identical; only provenance hashes and the variants'
+  //     mechanicsHash moved (docs/Changelog-Archive.md, v1.279.0).
+  //   - SRS-R1 (v1.279.0, the independent read), the KNOWLEDGE pin again (from 79a642…): the same writer files an answer on a
+  //     day before the row's last on its last (a clock set back), and the header's claims about daily answers and the pull's
+  //     clamp say what is true. Label-neutral for the same reason: no knowledge law the worker or this adapter binds changed.
+  //     Measured again against dev v1.278.2's own regeneration (docs/Changelog-Archive.md, v1.279.0, SRS-R1).
+  //   - LIN1 (v1.281.0), the KNOWLEDGE pin (from 9ef88c…): the schedule's credit for an early right answer is the owner's
+  //     own formula, linear in the days waited since the card's last full step, carried exactly in a pair at the row's end
+  //     (`ngKnowledgeScheduleRow`, `ngKnowledgeAnchor`, `ngKnowledgeStep`, `ngKnowledgeLinear`, `ngKnowledgeDueDay`) and read
+  //     by the pull's srs merge (`ngKnowledgeMergeRow`). Label-neutral for SRS-GO's reason: none of the eight knowledge laws
+  //     the worker binds nor the adapter's override changed, and no study read names a schedule row. Measured: regenerated
+  //     before and after, every MDP shard part byte-identical; only provenance hashes and the variants' mechanicsHash
+  //     moved (docs/Changelog-Archive.md, v1.281.0).
+  //   - ANSWER MODE (v1.282.0, ruling R1), the KNOWLEDGE pin again (from LIN1's ab2997…, after merging it; first written against 9ef88c…; and once more for a comment's version label, 1.283.0 -> 1.282.0, SET1-R2: nothing the law computes changed; then after merging LIN2's rung anchors, dev's d9e4f2…, SET1-LAND): `ngKnowledgeApplyGrade`'s stage floor at 2
+  //     (no answer takes a card below 2 once there; 3 -> 2 and 4 -> 3 unchanged). Label-neutral: the grade is the app's alone
+  //     (its only caller is app.src.jsx; the worker binds none of the grade's code, game-bundles.mjs `knowledgeNames`), so no
+  //     knowledge law the worker or this adapter binds changed. Measured: regenerated with dev's file and with this one, every MDP
+  //     shard part byte-identical (again on the merge with v1.281.0) (docs/Changelog-Archive.md, v1.282.0).
   // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
   // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
-  const expected={adapter:'b9ebcf843218a48d7b8cc196460428da945fbd64d9360016a6f31c70d3ef4ef0',knowledge:'17c12cbf48e37e4cb00f5c57f16e18e06168a4967e76e21d6bc168a9b48ba879',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
+  const expected={adapter:'b9ebcf843218a48d7b8cc196460428da945fbd64d9360016a6f31c70d3ef4ef0',knowledge:'19460dc51c7c4a57885457bbf3ddc7e07f96d143af95acaa79e652df6d13b955',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
   if(Object.entries(expected).some(([key,hash])=>lawHashes?.[key]!==hash))ngMdpExposureFail('unsupported-exposure-label-law');
   if(metadata?.coverage?.status!=='COMPLETE'||metadata.ruleset!==request.ruleset||profile?.status!=='ready'||profile.fingerprint!==request.profileHash||typeof knowledge.ngKnowledgeOverride!=='function')ngMdpExposureFail('incomplete-exposure-adapter-context');
   const contractHash=M.ngMdpContractHash(request),metadataHash=M.ngMdpDigest(metadata);

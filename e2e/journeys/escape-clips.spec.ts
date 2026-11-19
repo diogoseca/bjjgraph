@@ -86,7 +86,7 @@ async function bootEscapes(page: Page, role: "Attacker" | "Defender", kind: Case
 }
 
 for (const [role, title] of [["Defender", "own cards"], ["Attacker", "opponent threats"]] as const) {
-  test(`@curated escape clips: ${title} show the exact first clip and watch its start`, async ({ page }) => {
+  test(`escape clips: ${title} show the exact first clip and watch its start`, async ({ page }) => {
     const { j, group, card, errors } = await bootEscapes(page, role)
     const before = await page.evaluate(() => {
       const a = (window as any).__neural
@@ -101,13 +101,18 @@ for (const [role, title] of [["Defender", "own cards"], ["Attacker", "opponent t
       await expect(choice.locator("[data-choice-media]")).not.toContainText("Video unavailable")
       await expect(choice.locator("[data-choice-watch]")).toBeVisible()
       await j.clickByMouse(`[data-choice-group="${group}"] [data-choice-watch][aria-label="Play video: ${label}"]`, `Watch ${label}`)
-      await expect(page.locator("[data-choice-viewer]")).toBeVisible()
+      // VID1: the escape's own clip plays at once in the theater (WAS: the move's modal, autoplay 0; on the VID1 build that
+      // assertion failed at `[data-choice-viewer]`). The clip rule itself (this escape's clip, from its start) is unchanged.
+      await expect(page.locator(".ng-video-theater")).toBeVisible()
       await expect.poll(() => page.evaluate(() => {
         const p = (window as any).__players.at(-1)
         return p && { id: p.id, start: p.vars.start, autoplay: p.vars.autoplay }
-      })).toEqual({ id: clip.id, start: clip.start, autoplay: 0 })
-      await j.clickByMouse("[data-watch-close]", "Close the escape video")
-      await expect(page.locator("[data-choice-viewer]")).toHaveCount(0)
+      })).toEqual({ id: clip.id, start: clip.start, autoplay: 1 })
+      // The theater zooms in over 360ms; a ✕ measured mid-zoom is pressed where it no longer is (on the video, which
+      // takes it), so the press waits for the zoom to finish, as openChoiceVideo's does (e2e/fixtures/video-cards.ts).
+      await page.locator(".ng-video-theater").evaluate(async d => { await Promise.all(d.getAnimations().map(a => a.finished)) })
+      await j.clickByMouse(".ng-video-theater .ngClipX", "Close the escape video")
+      await expect(page.locator(".ng-video-theater")).toHaveCount(0)
       await expect(choice.locator("[data-choice-watch]")).toBeFocused()
     }
     expect(await page.evaluate(() => {
@@ -119,7 +124,7 @@ for (const [role, title] of [["Defender", "own cards"], ["Attacker", "opponent t
 }
 
 for (const kind of ["no escapes", "no label entry", "unapproved first", "approved later", "truthy front"] as const) {
-  test(`@curated escape clips: ${kind} keeps the placeholder, never the defender reel`, async ({ page }) => {
+  test(`escape clips: ${kind} keeps the placeholder, never the defender reel`, async ({ page }) => {
     const { card, errors } = await bootEscapes(page, "Defender", kind)
     const choice = card(POSTURE)
     await expect(choice).toHaveCount(1)

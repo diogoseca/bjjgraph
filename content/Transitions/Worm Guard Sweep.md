@@ -46,8 +46,8 @@ description: "Master the Worm Guard Sweep in BJJ. Complete guide to this advance
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lucas Lima - Sweep from Worm Guard",
-      "description": "Worm Guard Sweep film study: Lucas Lima - Sweep from Worm Guard.",
+      "name": "Sweep from Worm Guard",
+      "description": "Worm Guard Sweep film study: Sweep from Worm Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rCFiQeV6aHU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rCFiQeV6aHU",
       "url": "https://www.youtube.com/watch?v=rCFiQeV6aHU",
@@ -117,7 +117,7 @@ Strategically, the worm guard sweep serves as the highest-reward option within t
 
 ![](https://www.youtube.com/watch?v=rCFiQeV6aHU)
 
-<p class="clip-credit"><strong>Lucas Lima - Sweep from Worm Guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=rCFiQeV6aHU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sweep from Worm Guard</strong> · 0:41 · <a href="https://www.youtube.com/watch?v=rCFiQeV6aHU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

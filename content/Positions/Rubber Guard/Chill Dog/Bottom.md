@@ -154,22 +154,20 @@ description: "Chill Dog bottom perspective: Keep the opposing hand on the mat an
       "@type": "VideoObject",
       "position": 1,
       "name": "Standing-up escape from turtle",
-      "description": "Chill Dog (Bottom) film study: Standing-up escape from turtle, taught by Priit Mihkelson.",
+      "description": "Chill Dog (Bottom) film study: Standing-up escape from turtle.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
       "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
       "duration": "PT114S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The London and Why It Left the 10th Planet System",
-      "description": "Chill Dog (Bottom) film study: The London and Why It Left the 10th Planet System, taught by Submissions101 coach.",
+      "name": "The London and Why It Left the System",
+      "description": "Chill Dog (Bottom) film study: The London and Why It Left the System.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kaVklKMW3aw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kaVklKMW3aw",
       "url": "https://www.youtube.com/watch?v=kaVklKMW3aw",
-      "creator": { "@type": "Person", "name": "Submissions101 coach" },
       "duration": "PT94S"
     }
   ]
@@ -206,7 +204,7 @@ The knee-hugging arm maintains an overhook around the isolated upper arm as the 
 
 ![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
 
-<p class="clip-credit"><strong>Standing-up escape from turtle</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Standing-up escape from turtle</strong> · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -214,7 +212,7 @@ The knee-hugging arm maintains an overhook around the isolated upper arm as the 
 
 ![](https://www.youtube.com/watch?v=kaVklKMW3aw)
 
-<p class="clip-credit"><strong>The London and Why It Left the 10th Planet System</strong> — taught by Submissions101 coach · 1:34 · <a href="https://www.youtube.com/watch?v=kaVklKMW3aw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The London and Why It Left the System</strong> · 1:34 · <a href="https://www.youtube.com/watch?v=kaVklKMW3aw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

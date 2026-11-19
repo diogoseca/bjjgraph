@@ -56,8 +56,8 @@ description: "Master the Kimura shoulder lock from Quarter Guard top. Expert gui
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Fabio Holanda | Jiu Jitsu Technique: Kimura from Half Guard Top Variation\u2026",
-      "description": "Kimura from Quarter Guard film study: Fabio Holanda | Jiu Jitsu Technique: Kimura from Half Guard Top Variation\u2026.",
+      "name": "Jiu Jitsu Technique: Kimura from Half Guard Top Variation\u2026",
+      "description": "Kimura from Quarter Guard film study: Jiu Jitsu Technique: Kimura from Half Guard Top Variation\u2026.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9DGzMd9VjqE/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9DGzMd9VjqE",
       "url": "https://www.youtube.com/watch?v=9DGzMd9VjqE",
@@ -131,7 +131,7 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 
 ![](https://www.youtube.com/watch?v=9DGzMd9VjqE)
 
-<p class="clip-credit"><strong>Fabio Holanda | Jiu Jitsu Technique: Kimura from Half Guard Top Variation…</strong> · 2:14 · <a href="https://www.youtube.com/watch?v=9DGzMd9VjqE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Jiu Jitsu Technique: Kimura from Half Guard Top Variation…</strong> · 2:14 · <a href="https://www.youtube.com/watch?v=9DGzMd9VjqE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

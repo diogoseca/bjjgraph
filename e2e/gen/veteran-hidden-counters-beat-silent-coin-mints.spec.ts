@@ -36,7 +36,7 @@ async function openSheet(page: Page, technique: string, cycle: number) {
   await journey(page).watchChoice(technique)
 }
 async function closeSheet(page: Page) {
-  await expect(page.locator("[data-choice-viewer]")).toHaveCount(0)
+  await expect(page.locator(".ng-video-theater")).toHaveCount(0)
 }
 
 /** Everything the invariant watches, in one evaluate: the hidden counter's live progress,

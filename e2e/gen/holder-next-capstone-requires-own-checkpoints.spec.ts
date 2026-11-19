@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"lifetime-journeys","L":"white-capstone-holder","F":"content-capstone","B":"guard-limit"} @invariant "A White-capstone holder opens the earned White and Blue sections while Purple stays an inert section (U87); Blue's own capstone remains unavailable until every Blue unit checkpoint carries evidence." */
+/* @hyperspace {"theme":"lifetime-journeys","L":"white-capstone-holder","F":"content-capstone","B":"guard-limit"} @invariant "A White-capstone holder opens White, Blue and (since U163 c, v1.270.0) every later section too; Blue's own capstone remains unavailable until every Blue unit checkpoint carries evidence." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { whiteBeltHolder, CURRICULUM } from "./personas"
@@ -11,15 +11,15 @@ test("white capstone does not gate Blue content; Blue capstone needs Blue checkp
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
 
-  await expect(page.locator('[data-view="challenges"]')).toBeVisible()
-  await page.locator('[data-view="challenges"]').click() // v1.242.0: the drawer opens on its list; Path (the old Challenges tab) is one row away
+  await j.openCorridor() // v1.287.0: the Path row left the drawer; its corridor is Master the game's, opened by its row (the DSL's one door)
   expect(await page.locator(".ng-belt-section").count()).toBe(CURRICULUM.belts.length)
   for (const track of [WHITE, BLUE]) {
     await expect(page.locator(`.ng-track-card[data-track="${track.id}"]`)).toBeVisible()
   }
 
-  await expect(page.locator(`[data-belt="${PURPLE.id}"][data-belt-locked]`)).toHaveCount(1)
-  await expect(page.locator(`[data-track="${PURPLE.id}"]`)).toHaveCount(0)
+  // Until v1.270.0 Purple stayed an inert section (U87): `[data-belt-locked]`, no `[data-track]`. U163 c (owner, 13 Nov,
+  // "everything opens"): Purple is an ordinary section with its own header
+  await expect(page.locator(`[data-belt="${PURPLE.id}"] .ng-track-card[data-track="${PURPLE.id}"]`)).toBeVisible()
 
   await page.locator(`.ng-track-card[data-track="${WHITE.id}"]`).click()
   expect(await page.locator(`[data-capstone="${WHITE.id}"] button`).isDisabled()).toBe(true)

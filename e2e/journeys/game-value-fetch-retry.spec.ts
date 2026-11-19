@@ -82,7 +82,8 @@ test("a part that never arrives is retried a bounded number of times, and the he
   await page.waitForTimeout(1500)
   expect(attempts.get(target()!), "and nothing retries it after the bound").toBe(4)
   await expect(page.locator("[data-choice-value-status]").first()).toHaveText("Win chance unavailable")
-  await expect(page.locator("[data-choice-value-retry]").first(), "the player keeps a way out").toBeVisible()
+  // the slot's Retry (v1.258.0; before, the bold "Retry win chances" button)
+  await expect(page.locator('[data-choice-value-press][data-act="retry"]').first(), "the player keeps a way out").toBeVisible()
 })
 
 test("a part that answers 404 is never retried, and the held reason says so", async ({ page }) => {

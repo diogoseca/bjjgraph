@@ -47,11 +47,10 @@ description: "Buggy Choke control is a bottom-side-control head-and-arm enclosur
       "@type": "VideoObject",
       "position": 1,
       "name": "BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more",
-      "description": "Buggy Choke film study: BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more, taught by Arroyo Grappling.",
+      "description": "Buggy Choke film study: BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mUwBihCvZl8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/mUwBihCvZl8",
       "url": "https://www.youtube.com/watch?v=mUwBihCvZl8",
-      "creator": { "@type": "Person", "name": "Arroyo Grappling" },
       "duration": "PT140S"
     }
   ]
@@ -109,7 +108,7 @@ Instructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.you
 
 ![](https://www.youtube.com/watch?v=mUwBihCvZl8)
 
-<p class="clip-credit"><strong>BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more</strong> — taught by Arroyo Grappling · 2:20 · <a href="https://www.youtube.com/watch?v=mUwBihCvZl8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Buggy Choke OVERHAUL - mechanics, troubleshooting, defense, and more</strong> · 2:20 · <a href="https://www.youtube.com/watch?v=mUwBihCvZl8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

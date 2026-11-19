@@ -47,33 +47,30 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
       "@type": "VideoObject",
       "position": 1,
       "name": "Whizzer from Half Guard.  How to win \"Dog Fight\"",
-      "description": "Dogfight Position film study: Whizzer from Half Guard.  How to win \"Dog Fight\", taught by Wrecking Crew BJJ.",
+      "description": "Dogfight Position film study: Whizzer from Half Guard.  How to win \"Dog Fight\".",
       "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
       "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
-      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
       "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The Base BJJ Technique of the Week: Half Guard to the Dogfight",
-      "description": "Dogfight Position film study: The Base BJJ Technique of the Week: Half Guard to the Dogfight, taught by The Base Jiu Jitsu.",
+      "name": "BJJ Technique of the Week: Half Guard to the Dogfight",
+      "description": "Dogfight Position film study: BJJ Technique of the Week: Half Guard to the Dogfight.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X4jR2wWOy2M/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/X4jR2wWOy2M",
       "url": "https://www.youtube.com/watch?v=X4jR2wWOy2M",
-      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
       "duration": "PT79S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "DOG FIGHT BASICS (Plan B \u0026 Oldschool Sweep)",
-      "description": "Dogfight Position film study: DOG FIGHT BASICS (Plan B \u0026 Oldschool Sweep), taught by Brandon Mccaghren.",
+      "description": "Dogfight Position film study: DOG FIGHT BASICS (Plan B \u0026 Oldschool Sweep).",
       "thumbnailUrl": "https://i.ytimg.com/vi/fjDBmFzfhgI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fjDBmFzfhgI",
       "url": "https://www.youtube.com/watch?v=fjDBmFzfhgI",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
       "duration": "PT144S"
     }
   ]
@@ -127,7 +124,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
 
-<p class="clip-credit"><strong>Whizzer from Half Guard.  How to win &#34;Dog Fight&#34;</strong> — taught by Wrecking Crew BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Whizzer from Half Guard.  How to win &#34;Dog Fight&#34;</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -135,7 +132,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ![](https://www.youtube.com/watch?v=X4jR2wWOy2M)
 
-<p class="clip-credit"><strong>The Base BJJ Technique of the Week: Half Guard to the Dogfight</strong> — taught by The Base Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>BJJ Technique of the Week: Half Guard to the Dogfight</strong> · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -143,7 +140,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ![](https://www.youtube.com/watch?v=fjDBmFzfhgI)
 
-<p class="clip-credit"><strong>DOG FIGHT BASICS (Plan B &amp; Oldschool Sweep)</strong> — taught by Brandon Mccaghren · 2:24 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>DOG FIGHT BASICS (Plan B &amp; Oldschool Sweep)</strong> · 2:24 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

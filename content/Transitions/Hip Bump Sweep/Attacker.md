@@ -181,8 +181,8 @@ description: "How to execute the Hip Bump Sweep in BJJ. Attacking perspective wi
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Grand Union Comp Tips Hip Bump Sweep",
-      "description": "Hip Bump Sweep (Attacker) film study: Grand Union Comp Tips Hip Bump Sweep.",
+      "name": "Hip Bump Sweep: competition tips",
+      "description": "Hip Bump Sweep (Attacker) film study: Hip Bump Sweep: competition tips.",
       "thumbnailUrl": "https://i.ytimg.com/vi/O1hBu9yZkX0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/O1hBu9yZkX0",
       "url": "https://www.youtube.com/watch?v=O1hBu9yZkX0",
@@ -243,7 +243,7 @@ The Hip Bump Sweep is also an excellent technique for developing timing, hip mob
 
 ![](https://www.youtube.com/watch?v=O1hBu9yZkX0)
 
-<p class="clip-credit"><strong>Grand Union Comp Tips Hip Bump Sweep</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=O1hBu9yZkX0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Hip Bump Sweep: competition tips</strong> · 0:38 · <a href="https://www.youtube.com/watch?v=O1hBu9yZkX0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

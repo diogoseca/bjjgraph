@@ -56,8 +56,8 @@ description: "Master the rear naked choke from back control. Complete guide to h
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week)",
-      "description": "Rear Naked Choke from Back Control film study: Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week).",
+      "name": "Rear Naked Choke",
+      "description": "Rear Naked Choke from Back Control film study: Rear Naked Choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/70jECxFfCSA",
       "url": "https://www.youtube.com/watch?v=70jECxFfCSA",
@@ -141,7 +141,7 @@ The finishing mechanics rely on chest expansion and shoulder rotation rather tha
 
 ![](https://www.youtube.com/watch?v=70jECxFfCSA)
 
-<p class="clip-credit"><strong>Gordon Ryan - Rear Naked Choke (Control Jiu-Jitsu Submission of The Week)</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rear Naked Choke</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -367,7 +367,17 @@
       }
     ],
     "safety_considerations": "This transition involves manipulating the elbow joint into a hyperextension position, which carries significant injury risk if applied too quickly or forcefully. During training, execute the hip pivot and arm extension gradually, giving your partner adequate time to tap before full extension pressure is applied. Never explosively straighten the arm upon completing the transition. Be especially cautious when the opponent is defending vigorously, as their sudden defensive movement combined with your finishing pressure can create joint stress faster than either person anticipates. Always maintain controlled pressure and listen for verbal or physical tap signals immediately.",
-    "clips": []
+    "clips": [
+      {
+        "id": "47YDP98Ostc",
+        "title": "Tri-Bar ArmBar From Rear Triangle",
+        "channel": "10th Planet Royal oak",
+        "duration": 156,
+        "vertical": false,
+        "front": true,
+        "verified": "2026-11-16"
+      }
+    ]
   },
   "defender": {
     "name": "Rear Triangle to Armbar Defender",

@@ -24,7 +24,7 @@ type W = Window & { __neural: any }
  * That second rule is DERIVED (`wrap.isConnected`), never latched — the branch this came from
  * latched it and would have toggled a card the player could no longer see.
  *
- * Rails: __neural._recall · .settings.recallInPlay · .stage
+ * Rails: __neural._recall · .stage (`.settings.recallInPlay` was a rail until v1.282.0, when the switch stopped deciding)
  * Surface: [data-land-recall] / [data-land-reveal] / [data-land-hide] / [data-land-answer]
  *
  * Mutants:
@@ -37,15 +37,13 @@ type W = Window & { __neural: any }
  * M5 SURVIVES AND IS NOT A HOLE. `_recallLive` refuses a torn-down block by two independent
  * clauses, and for the only REACHABLE surface the other one gets there first: `_landHidden()`
  * leads with `!this._landEl`, so a cleared landing card is already refused without consulting
- * `isConnected`. The liveness clause earns its keep only on `_recallBlock`'s other caller,
- * `_renderNodeQuestion`, which §6.8 records as unreachable (re-derived while writing this:
- * `_dossierIdx` is assigned null at four sites and a node index at none). Journey 4 therefore
+ * `isConnected`. The liveness clause earned its keep only on `_recallBlock`'s other caller,
+ * `_renderNodeQuestion`, which was unreachable and is retired with the dossier (v1.255.1). Journey 4 therefore
  * pins the BEHAVIOUR — Space never moves a block that has left the screen — without being able
  * to say which clause delivered it. Do not cite it for `isConnected`.
  *
  * NON-KILLS, recorded so nobody reads this file as covering them (§6.3):
- *   · the `"node"` surface. `_recallBlock`'s other caller renders the same block from the same
- *     code, but no journey here drives it, so this file is evidence about `"land"` only.
+ *   · the `"node"` surface: its caller is retired (v1.255.1), so this file is evidence about `"land"` only.
  *   · Space's `!this._detailCtx` gate is UNCHANGED and deliberately so — see the app comment.
  *     Nothing here fails if that gate is relaxed; there is simply no reachable recall block
  *     behind an open option sheet on this build to relax it for.
@@ -64,7 +62,8 @@ async function landOnRecall(j: ReturnType<typeof journey>, page: Page) {
     a.stage[key] = { [a.qhash(cards[0].q)]: 3 }
     const today = a._epochDay()
     a.srs[key] = { [a.qhash(cards[0].q)]: [today - 1, 3, today - 4] }
-    a.settings.recallInPlay = true
+    // (`a.settings.recallInPlay = true` stood here until v1.282.0; the switch decides nothing, and Auto asks this stage-3 card
+    // front and back by itself)
     a._landQ = null
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })
@@ -87,7 +86,7 @@ const pressSpace = async (page: Page) => {
 }
 
 // ── 1. Hide puts the answer back ───────────────────────────────────────────────────────────────
-test("a revealed answer can be hidden again, and Show comes back @curated", async ({ page }) => {
+test("a revealed answer can be hidden again, and Show comes back", async ({ page }) => {
   const j = journey(page)
   await landOnRecall(j, page)
 
@@ -109,7 +108,7 @@ test("a revealed answer can be hidden again, and Show comes back @curated", asyn
 })
 
 // ── 2. Space toggles it ────────────────────────────────────────────────────────────────────────
-test("Space reveals and conceals the live recall block @curated", async ({ page }) => {
+test("Space reveals and conceals the live recall block", async ({ page }) => {
   const j = journey(page)
   await landOnRecall(j, page)
 

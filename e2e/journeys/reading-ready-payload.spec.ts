@@ -7,7 +7,7 @@ import { gzipSync } from "node:zlib"
  * changed or inferred from the result. Third parties are blocked, as in the game
  * first-hand gate. It exercises real boot and delivery, without the gameplay DSL.
  */
-test("@curated reading-ready payload counts delivery with dormant controls", async ({ page }, info) => {
+test("reading-ready payload counts delivery with dormant controls", async ({ page }, info) => {
   await page.setViewportSize({ width: 1366, height: 768 })
   await page.addInitScript(() => {
     // D-338 retired Focus: the quiet article view is seeded through the game layers it overrode.

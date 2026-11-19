@@ -120,7 +120,7 @@ const openExplore = async (page: Page, expandCategories = true) => {
 // The DSL serves empty dossier chunks here; this checks tree navigation, not dossier prose.
 // Mutation coverage for this journey has not yet been measured.
 for (const width of [1440, 390]) {
-  test(`Systems topics expand as independent subtrees at ${width}px @curated`, async ({ page }) => {
+  test(`Systems topics expand as independent subtrees at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     const errors = watchErrors(page);
     const data = catalog();
@@ -196,7 +196,7 @@ for (const width of [1440, 390]) {
 }
 
 
-test("guide gives course identity, fit, evidence and working internal alternatives @curated", async ({ page }) => {
+test("guide gives course identity, fit, evidence and working internal alternatives", async ({ page }) => {
   const errors = watchErrors(page);
   const j = await bootFixtures(page);
   await openFirst(page);
@@ -233,7 +233,7 @@ test("guide gives course identity, fit, evidence and working internal alternativ
   expect(errors).toEqual([]);
 });
 
-test("Explore searches stable names, display titles, aliases, instructors and courses without a roll @curated", async ({ page }) => {
+test("Explore searches stable names, display titles, aliases, instructors and courses without a roll", async ({ page }) => {
   await bootFixtures(page); await openExplore(page);
   for (const query of ["Stable Fixture Octopus", "Octopus choices", "Seated decision study", "Fixture Instructor", "Exact Fixture Course"]) {
     await page.locator(".ng-explorer-search input").fill(query);
@@ -292,7 +292,7 @@ for (const mode of ["canonical", "legacy-placeholder", "legacy-ref-placeholder",
   });
 }
 
-test("deferred guide survives stale 200 and 502, with one neutral reference while loading @curated", async ({ page }) => {
+test("deferred guide survives stale 200 and 502, with one neutral reference while loading", async ({ page }) => {
   await bootFixtures(page);
   let release!: () => void; const held = new Promise<void>(r => release = r); let attempts = 0;
   await page.route("**/static/neural/content/*.json", async r => {
@@ -435,7 +435,7 @@ test("opening a System from scrolled search results starts at the top", async ({
   expect(await list.evaluate(el => el.querySelector("[data-system-back]")!.getBoundingClientRect().top - el.getBoundingClientRect().top)).toBeGreaterThanOrEqual(0);
 });
 
-test("index preview starts before its guide loads and survives hydration and unrelated renders @curated", async ({ page }) => {
+test("index preview starts before its guide loads and survives hydration and unrelated renders", async ({ page }) => {
   const data = catalog(), dossier = body();
   dossier.guide.preview = preview();
   (data.systems[0] as any).preview = { ...dossier.guide.preview };
@@ -635,7 +635,7 @@ for (const legacy of [false, true]) {
 }
 
 for (const width of [390, 1440]) {
-  test(`video-first hierarchy, wrapping chips and Sources last at ${width}px @curated`, async ({ page }) => {
+  test(`video-first hierarchy, wrapping chips and Sources last at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     const data = catalog();
     data.systems[0].type = "Guard transitions and positional connections";

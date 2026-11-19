@@ -67,7 +67,7 @@ description: "Posture Recovery from Zombie (defender): Maintain posture control 
       "name": "Posture Recovery from Zombie (bottom): In the hand-first pummel, where is the opening?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Eddy's demonstrated option attacks beneath the hand rather than forcing the strongly clamped elbow open."
+        "text": "The demonstrated option attacks beneath the hand rather than forcing the strongly clamped elbow open."
       }
     },
     {
@@ -161,22 +161,20 @@ description: "Posture Recovery from Zombie (defender): Maintain posture control 
       "@type": "VideoObject",
       "position": 1,
       "name": "Lockdown clinches to keep the top man broken down",
-      "description": "Posture Recovery from Zombie (Defender) film study: Lockdown clinches to keep the top man broken down, taught by Eddie Bravo.",
+      "description": "Posture Recovery from Zombie (Defender) film study: Lockdown clinches to keep the top man broken down.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
       "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT60S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Lockdown strategies from bottom half guard",
-      "description": "Posture Recovery from Zombie (Defender) film study: Lockdown strategies from bottom half guard, taught by Eddie Bravo.",
+      "description": "Posture Recovery from Zombie (Defender) film study: Lockdown strategies from bottom half guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/oSQ7BHerIow/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/oSQ7BHerIow",
       "url": "https://www.youtube.com/watch?v=oSQ7BHerIow",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     }
   ]
@@ -215,7 +213,7 @@ If posture control is lost, use a short hip escape behind your shoulder frame to
 
 ![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
 
-<p class="clip-credit"><strong>Lockdown clinches to keep the top man broken down</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lockdown clinches to keep the top man broken down</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -223,7 +221,7 @@ If posture control is lost, use a short hip escape behind your shoulder frame to
 
 ![](https://www.youtube.com/watch?v=oSQ7BHerIow)
 
-<p class="clip-credit"><strong>Lockdown strategies from bottom half guard</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=oSQ7BHerIow" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lockdown strategies from bottom half guard</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=oSQ7BHerIow" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

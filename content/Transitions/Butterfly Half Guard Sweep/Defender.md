@@ -152,8 +152,8 @@ description: "Complete guide to defending and countering the Butterfly Half Guar
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Brazilian Jiu-Jitsu: Pedro Sauer Half Guard Butterfly Hook Counter",
-      "description": "Butterfly Half Guard Sweep (Defender) film study: Brazilian Jiu-Jitsu: Pedro Sauer Half Guard Butterfly Hook Counter.",
+      "name": "Brazilian Jiu-Jitsu: Half Guard Butterfly Hook Counter",
+      "description": "Butterfly Half Guard Sweep (Defender) film study: Brazilian Jiu-Jitsu: Half Guard Butterfly Hook Counter.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Cr_5TyQu_k8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Cr_5TyQu_k8",
       "url": "https://www.youtube.com/watch?v=Cr_5TyQu_k8",
@@ -187,7 +187,7 @@ Defending the Butterfly Half Guard Sweep requires the top player to recognize th
 
 ![](https://www.youtube.com/watch?v=Cr_5TyQu_k8)
 
-<p class="clip-credit"><strong>Brazilian Jiu-Jitsu: Pedro Sauer Half Guard Butterfly Hook Counter</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=Cr_5TyQu_k8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Brazilian Jiu-Jitsu: Half Guard Butterfly Hook Counter</strong> · 1:27 · <a href="https://www.youtube.com/watch?v=Cr_5TyQu_k8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -119,8 +119,9 @@ const SOURCES = {
       "neural/src/app.src.jsx",
       "neural/src/helmet.html",
     ],
-    symbols: ["renderDossier", "openDossier"],
-    handles: ["nodeCardRef", "dossierRef", "dossierSheetRef"],
+    // v1.255.1: renderDossier, the in-node card and the dossier sheet are retired; openDossier stages the game card.
+    symbols: ["openDossier"],
+    handles: ["dossierRef"],
   },
   settings: {
     files: ["neural/src/app.src.jsx"],

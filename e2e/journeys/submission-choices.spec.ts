@@ -9,7 +9,7 @@ import { journey } from '../dsl'
 // turns the first journey red on its poll ("—" forever). While you DEFEND, the finish card is the
 // decision you are in and prints V(s), the legend's number (it printed EDGE's -100 before v1.207.0).
 
-test('@curated submission choices distinguish switching attacks, finishing, and opponent threats', async ({page})=>{
+test('submission choices distinguish switching attacks, finishing, and opponent threats', async ({page})=>{
   const errors:string[]=[]; page.on('pageerror', e=>errors.push(e.message))
   const j=journey(page)
   await j.boot('/Submissions/Triangle-Choke/from-Triangle-Control/Attacker')
@@ -56,7 +56,7 @@ test('@curated submission choices distinguish switching attacks, finishing, and 
   expect(errors).toEqual([])
 })
 
-test('@curated triangle defender sees escape actions and can preview the opponent finish without executing it',async({page})=>{
+test('triangle defender sees escape actions and can preview the opponent finish without executing it',async({page})=>{
   const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message))
   const j=journey(page)
   await j.boot('/Submissions/Triangle-Choke/from-Triangle-Control/Defender')
@@ -105,7 +105,7 @@ test('@curated triangle defender sees escape actions and can preview the opponen
 })
 
 // A late response must not put the player back into a submission they already left.
-test('@curated a slow submission payload holds its choices and cannot overwrite a later landing',async({page})=>{
+test('a slow submission payload holds its choices and cannot overwrite a later landing',async({page})=>{
   const j=journey(page), pattern='**/submission-details/*.json'
   await j.boot('/Submissions/Triangle-Choke/from-Triangle-Control/Defender',{payloads:{[pattern]:{never:true}}})
   await j.advance(4000)

@@ -154,33 +154,30 @@ description: "Coordinate an overhook, hip angle, and stance to counter an underh
       "@type": "VideoObject",
       "position": 1,
       "name": "Generating pressure with the whizzer",
-      "description": "Whizzer Control film study: Generating pressure with the whizzer, taught by Coach Brian.",
+      "description": "Whizzer Control film study: Generating pressure with the whizzer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/rM6_ocxyhng/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/rM6_ocxyhng",
       "url": "https://www.youtube.com/watch?v=rM6_ocxyhng",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
       "duration": "PT406S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Essential whizzer mechanics and control",
-      "description": "Whizzer Control film study: Essential whizzer mechanics and control, taught by Coach Brian.",
+      "description": "Whizzer Control film study: Essential whizzer mechanics and control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/QzJvPmdjjFU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/QzJvPmdjjFU",
       "url": "https://www.youtube.com/watch?v=QzJvPmdjjFU",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
       "duration": "PT267S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Whizzer from half guard: winning the dogfight",
-      "description": "Whizzer Control film study: Whizzer from half guard: winning the dogfight, taught by Wrecking Crew BJJ.",
+      "description": "Whizzer Control film study: Whizzer from half guard: winning the dogfight.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
       "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
-      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
       "duration": "PT60S"
     }
   ]
@@ -210,7 +207,7 @@ The arm wrap needs support from the hips and stance. Use it to check the underho
 
 ![](https://www.youtube.com/watch?v=rM6_ocxyhng)
 
-<p class="clip-credit"><strong>Generating pressure with the whizzer</strong> — taught by Coach Brian · 6:46 · <a href="https://www.youtube.com/watch?v=rM6_ocxyhng" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Generating pressure with the whizzer</strong> · 6:46 · <a href="https://www.youtube.com/watch?v=rM6_ocxyhng" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -218,7 +215,7 @@ The arm wrap needs support from the hips and stance. Use it to check the underho
 
 ![](https://www.youtube.com/watch?v=QzJvPmdjjFU)
 
-<p class="clip-credit"><strong>Essential whizzer mechanics and control</strong> — taught by Coach Brian · 4:27 · <a href="https://www.youtube.com/watch?v=QzJvPmdjjFU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Essential whizzer mechanics and control</strong> · 4:27 · <a href="https://www.youtube.com/watch?v=QzJvPmdjjFU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -226,7 +223,7 @@ The arm wrap needs support from the hips and stance. Use it to check the underho
 
 ![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
 
-<p class="clip-credit"><strong>Whizzer from half guard: winning the dogfight</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Whizzer from half guard: winning the dogfight</strong> · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

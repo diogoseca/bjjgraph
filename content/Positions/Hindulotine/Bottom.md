@@ -94,7 +94,7 @@ description: "Hindulotine bottom perspective: Hug the knee and turn onto the hip
       "name": "What happens if you skipping the checkpoint: connect a controlled grip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The intended control is not established before the next movement; the missing requirement is: Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration. The correct approach is: Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration."
+        "text": "The intended control is not established before the next movement; the missing requirement is: Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration. The correct approach is: Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration."
       }
     },
     {
@@ -165,7 +165,7 @@ The bottom player is responsible for maintaining the control. The bottom player 
 
 Hug the knee and turn onto the hip to create room for the arm path. Bring the elbow above the raised foot and the hand around the shoulder rather than forcing it straight through a closed gap. Hold the head and leg enclosure without finishing pressure before seeking the second hand.
 
-Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration. Do not assume the choke has disappeared merely because the opponent clears the lower leg. Open the hands and move the controlling leg away immediately when a partner taps or stops responding normally.
+Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration. Do not assume the choke has disappeared merely because the opponent clears the lower leg. Open the hands and move the controlling leg away immediately when a partner taps or stops responding normally.
 
 Hindu Control is the holding configuration; Hindulotine names the choke applied from it. The raised leg contributes to head control, so an ordinary front-headlock guillotine does not by itself establish this position. A choke can impair consciousness quickly. Drill the entry without neck pressure, never add a neck twist, and release both hands and the high leg on any tap or loss of normal responsiveness.
 
@@ -209,7 +209,7 @@ Hindu Control is the holding configuration; Hindulotine names the choke applied 
 - Keep the knee supported: Hug the knee and turn onto the hip to create room for the arm path.
 - Loop around the foot: Bring the elbow above the raised foot and the hand around the shoulder rather than forcing it straight through a closed gap.
 - Establish Hindu Control: Hold the head and leg enclosure without finishing pressure before seeking the second hand.
-- Connect a controlled grip: Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration.
+- Connect a controlled grip: Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration.
 - Treat a pass as a new check: Do not assume the choke has disappeared merely because the opponent clears the lower leg.
 - Release the entire enclosure: Open the hands and move the controlling leg away immediately when a partner taps or stops responding normally.
 
@@ -261,8 +261,8 @@ Hindu Control is the holding configuration; Hindulotine names the choke applied 
 
 ### 4. Skipping the checkpoint: connect a controlled grip
 
-- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration.
-- ✅ **Correction**: Use the grip taught by your instructor; Ben Eddy's later S-grip teaching differs from his early reverse-gable demonstration.
+- ❌ **Consequence**: The intended control is not established before the next movement; the missing requirement is: Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration.
+- ✅ **Correction**: Use the grip taught by your instructor; the later S-grip teaching differs from the early reverse-gable demonstration.
 
 ### 5. Skipping the checkpoint: treat a pass as a new check
 

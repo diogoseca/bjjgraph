@@ -186,8 +186,8 @@ description: "Master the Estima Lock attack from Saddle with step-by-step execut
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "AET Head Coach Ninos: 50/50 Estima Lock",
-      "description": "Estima Lock from Saddle (Attacker) film study: AET Head Coach Ninos: 50/50 Estima Lock.",
+      "name": "50/50 Estima Lock",
+      "description": "Estima Lock from Saddle (Attacker) film study: 50/50 Estima Lock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/I-Jb4qHOFZA/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/I-Jb4qHOFZA",
       "url": "https://www.youtube.com/watch?v=I-Jb4qHOFZA",
@@ -232,7 +232,7 @@ Attacking with the Estima Lock from Saddle requires precise transition from heel
 
 ![](https://www.youtube.com/watch?v=I-Jb4qHOFZA)
 
-<p class="clip-credit"><strong>AET Head Coach Ninos: 50/50 Estima Lock</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=I-Jb4qHOFZA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>50/50 Estima Lock</strong> · 1:26 · <a href="https://www.youtube.com/watch?v=I-Jb4qHOFZA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

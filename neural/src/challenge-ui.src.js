@@ -48,59 +48,29 @@ const NG_CHALLENGE_UI_METHODS = {
   // v1.96.0 if a home is ever wanted again. gameScore() and the Challenges tab belt are
   // untouched; the score's one exposure is the Explore tab subtitle below.
 
-  // ── tab subtitles (v1.95.0) ── each pane tab is a title over one plain second line:
-  //  · Explore — the Game Knowledge score as "Mastered N%" (a percentage — it names no belt);
-  //  · Challenges — THE BELT YOU WEAR (v1.211.0, owner ruling 2026-09-30): `wornBelt()`, the
-  //    belt after the last belt whose units are all proven, never below the persisted
-  //    high-water mark, wearing 0-4 stripes from ITS proven units (unitComplete: lessons done +
-  //    checkpoint — v1.95.3; objectives were too generous, a guest wore unearned stripes).
-  //    Until v1.211.0 the colour was the FRONTIER (first belt with lessons left), which moved on
-  //    lessons alone and painted a finished player WHITE (the frontier falls back to the
-  //    corridor's top). The frontier still drives navigation — the open section, the arrival
-  //    scroll, the glow, the cue — and never the belt. Game Knowledge is a percentage only.
-  //  · Last rolls — static copy from the template ("History reads as the history of BJJ",
-  //    owner). The internal view id and settings keys stay `history`.
-  // THE PATH ROW (v1.242.0, owner T-b): the Challenges tab became Train's Path row, so the worn belt
-  // that was the tab's subtitle is drawn under the row and its stripes are the row's tail. Explore's
-  // "Mastered N%" subtitle moved to the badge's menu. Rules unchanged: stripes = the worn belt's
-  // PROVEN UNITS (lessons done + checkpoint passed) over its unit count, 0-4 — never objectives
-  // (v1.95.3: a guest must wear 0).
-  renderTabSubtitles() {
-    const root = this.drillRef && this.drillRef.current;
-    const ch = root && root.querySelector('[data-tab-sub="challenges"]');
-    if (!ch) return;
-    const worn = this.wornBelt();
-    const pinned = worn.id, done = worn.done, total = worn.total, stripes = worn.stripes;
-    let tape = "";
-    for (let i = 0; i < stripes; i++) tape += "<b></b>";
-    ch.textContent = stripes + (stripes === 1 ? " stripe" : " stripes");
-    const belt = root.querySelector("[data-path-belt]");
-    if (belt)
-      belt.innerHTML =
-        '<i class="ng-tab-belt" data-tab-belt="' + pinned + '" data-tab-stripes="' + stripes + '" style="--tb:' +
-        (NG_CHALLENGE_TRACK_COLORS[pinned] || NG_CHALLENGE_TRACK_COLORS.white) + ';" aria-hidden="true"><span>' + tape + "</span></i>";
-    ch.closest("button").setAttribute(
-      "aria-label",
-      "Path: " + done + " of " + total + " units proven on the " + pinned + " track, " + stripes + (stripes === 1 ? " stripe" : " stripes"),
-    );
-  },
-
+  // THE PATH ROW LEFT THE DRAWER (v1.287.0, owner 15 Nov: "it's time to remove the Path section from the sidebar"; SET1
+  // slice B, his four small losses accepted 16 Nov). Its tail, the worn track's proven units in words ("2 of 6 units", the
+  // first loss), went with it, and so did `renderTabSubtitles`, which painted nothing else. The belt the player wears is
+  // the "Master the game" row's (`beltWorn()`); `wornBelt()` still names the Path's own course for the corridor.
 
   noteLearningViewOpen(view) {
-    // A render is not a visit: setGiMode can repaint the remembered Path behind a closed
-    // drawer or a study surface. Reject it BEFORE consuming the per-open dedupe flag, so
-    // both the objective beat and analytics belong to the next visible Path visit (SIDECX3).
-    if (view === "challenges" && (!this.deckShown || this._viewMode !== view || this._paneStudyActive())) return;
+    // A render is not a visit: setGiMode can repaint the corridor behind a closed drawer or a deck over it. Reject it
+    // BEFORE consuming the per-open dedupe flag, so the beat belongs to the next visible visit (SIDECX3). Since v1.287.0
+    // the corridor is drawn only in Master the game, so its visit is Master the game's: the drawer shown and Practice on it.
+    if (view === "challenges" && (!this.deckShown || !this._practiceInDrawer())) return;
     this._learningViewsTracked = this._learningViewsTracked || {};
     if (this._learningViewsTracked[view]) return;
     this._learningViewsTracked[view] = true;
     if (view === "challenges") {
-      // v1.162.0: the migration-notice gate went with the notice itself — the beat now
-      // fires on every first open of the tab, with nothing left to stay quiet for.
+      // THE WHITE OBJECTIVE'S BEAT MOVED WITH THE CORRIDOR (P22, v1.287.0, SET1 slice B). "Open Challenges"
+      // (`white.challenges`) completes on it, and the White Foundations patch needs all 20 White objectives: until v1.287.0
+      // only the Path's first visible visit fired it, so without this line nobody new could earn the patch. It fires on
+      // the first visible draw of Master the game's corridor in each drawer opening (the dedupe resets on close), as it
+      // did for the Path. `neural_challenges_viewed` ENDED with the Path (the fourth small loss, accepted; a data-loss
+      // event, CLAUDE.md 6.7): its series stops on the ship day, and `neural_practice_opened` carries on.
       this.fx("challenges_opened", {
         tracks: NG_CHALLENGE_TRACKS.length,
       });
-      this.track("neural_challenges_viewed", {});
     } else if (view === "history") {
       this.track("neural_history_viewed", {});
     }
@@ -118,28 +88,40 @@ const NG_CHALLENGE_UI_METHODS = {
 
   // THE BLACK BELT ADVERTISES ITS REWARD UP FRONT (v1.105.1, owner: "we can see it in the
   // challenges"). Same idiom as the capstone's "Earns a patch": a visible row on the Black
-  // section so the elite format is something you can see yourself walking toward. It reads
-  // "earned" once the badge exists — the mint (and the auto-flip) happen in the reward loop.
+  // section. It reads "earned" once the badge exists — the mint happens in the reward loop. Since U163 c (v1.270.0) the
+  // patch is a patch and nothing more. Until v1.282.0 the row also said where the Recall Mode switch was ("turn it on in
+  // Settings → Flashcards"); that switch left Settings (Auto does its job, R2), so the row says only how the patch is earned.
   _recallRewardRow() {
     const earned = !!(this.badges && this.badges["recall-in-play"]);
     const rw = document.createElement("div");
     rw.className = "ng-challenge-capstone";
-    rw.setAttribute("data-recall-reward", earned ? "earned" : "locked");
+    rw.setAttribute("data-recall-reward", earned ? "earned" : "unearned");
     rw.innerHTML =
-      "<small>BLACK-BELT REWARD</small><b>Recall Mode</b><p>" +
-      (earned
-        ? "Earned. In play, proven cards are pure recall \u2014 flip it in Settings \u2192 Flashcards."
-        : "Reach black belt and proven cards stop being multiple choice in play \u2014 no options, just the question and your memory.") +
-      "</p>";
+      // the patch's own name (NG_BADGE_DEFINITIONS, "Black Belt" since v1.282.0; "Recall Mode" before, after a switch that left)
+      "<small>BLACK-BELT PATCH</small><b>" + ngChallengeHTML((NG_BADGE_DEFINITIONS.find((d) => d.id === "recall-in-play") || {}).name) + "</b><p>" +
+      (earned ? "Earned." : "Reach black belt to earn it.") + "</p>";
     return rw;
   },
 
-  // Progression entry only (U87). Due reviews, Explore, games and saved work never
-  // consult this guard. wornBelt includes the retained/grandfathered entitlement;
-  // a selected track, completed lesson or frontier is not an earned belt.
+  // EVERYTHING OPENS (U163 c, owner, 13 Nov: "the belt only shows"). Until v1.270.0 this was the progression lock (U87):
+  // a section, a lesson, a checkpoint, a capstone and a track pick were open only up to the worn belt. It now asks one
+  // thing, "is this a belt", so every caller stays (one seam, §6.5) and every section is open; the Path's own evidence
+  // gates (a checkpoint after its lessons, a capstone after its checkpoints) are not belt locks and stay where they are.
+  // e2e/journeys/everything-opens.spec.ts and tests/belt_worn.test.mjs (P1-B, rewritten) pin it.
   beltUnlocked(id) {
-    const rank = ngBeltRank(id);
-    return rank >= 0 && rank <= this.wornBelt().rank;
+    return ngBeltRank(id) >= 0;
+  },
+
+  // A BELT TEST THAT CAN BE STARTED IS NEVER BEHIND "SHOW EARLIER BELTS" (PATH-R1, ruling 3; the reader of #430 finding 3).
+  // A capstone is startable when every unit of its belt is complete, which is the very thing that moves `wornBelt()` past
+  // that belt, so with the corridor drawing earlier belts behind the reveal, every startable test lived there, at the foot
+  // of the page. Startable = the curriculum's belt has a test, it is not won, and every unit is complete (the capstone
+  // row's own `ready && !won`, `challengeCurriculumElement`).
+  _beltTestStartable(id) {
+    const belt = this.curriculum && this.curriculum.belts.find((item) => item.id === id);
+    if (!belt || !belt.test) return false;
+    if (this.belts && this.belts.won && this.belts.won[id]) return false;
+    return belt.units.every((unit) => this.unitComplete(id, unit));
   },
 
   _repaintBeltCorridor() {
@@ -159,7 +141,7 @@ const NG_CHALLENGE_UI_METHODS = {
   },
 
   // Eligible corridor sections keep independent presentation folds in ONE settings map.
-  // Future sections are gated separately by beltUnlocked. The worn belt opens by default. The map may still carry a
+  // Every section can fold (U163 c: none is locked). The worn belt opens by default. The map may still carry a
   // "tutorial" key from before v1.137.0 — nothing reads it, and a settings key can never
   // be deleted (CLAUDE.md §6.6), so it simply sits there.
   _beltSectionOpen(id) {
@@ -259,12 +241,25 @@ const NG_CHALLENGE_UI_METHODS = {
       (this._settingsAt = this._settingsAt || {}).challengeSelectedTrack =
         Date.now();
     }
+    // THE PATH'S DOOR (v1.287.0, SET1 slice B): "challenges" opens Master the game, where the corridor lives
+    // (`setViewMode` → `openCorridor`), and must not be followed by `openExplorer`, whose `openPane` would leave the
+    // session it just opened. View Collection (O1) comes through here.
+    // "collection" is the corridor's rewards shelf (O3; PATH-R1 5a, the reader of #430 nit a: it fell through to
+    // `openExplorer` and landed on the drawer's list): Master the game with the shelf open, as View Collection does
+    if (view === "collection") this._scrollRewardsShelf = true;
     this.setViewMode(view);
-    this.openExplorer(); // openPane renders the active tab's body (and hides any in-pane dossier)
+    if (view !== "challenges" && view !== "collection") this.openExplorer(); // openPane renders the active view's body (and hides any in-pane dossier)
   },
 
-  challengeAction(definition, trackId) {
-    if (!this.beltUnlocked(trackId)) return;
+  // WHAT AN OBJECTIVE'S ACTION OPENS (v1.287.0, SET1 slice B). One resolver, read by the row (is there anything to press?) and
+  // by the press: a function that does the action, or null when there is nothing to open. A study / checkpoint / capstone
+  // action opens the ready checkpoint, the capstone, or a live lesson of its belt; with no live lesson at all (the
+  // curriculum not here yet or failed to load, or none of the belt's lessons in this ruleset) it has nothing to open, so its
+  // row draws no button, and the corridor's repaint when the curriculum lands brings it back. Until v1.287.0 that case
+  // called `openHomeToLatest`, deleted with the History tab's study home in v1.174.0 and defined nowhere since: the press
+  // threw a TypeError and nothing happened (found by another seat, 16 Nov). Any other action closes the drawer onto the
+  // map, as before. Pinned by challenges-ui's "an objective with nothing to open draws no button".
+  _challengeActionTarget(definition, trackId) {
     const action = String((definition && definition.action) || "").toLowerCase();
     const belt =
       this.curriculum &&
@@ -285,31 +280,25 @@ const NG_CHALLENGE_UI_METHODS = {
         const live = unit.lessons.filter((lesson) => this._lessonLive(lesson));
         return live.length && live.every((lesson) => this.lessonDone(lesson.deckKey));
       });
-      if (readyUnit) {
-        this.startCheckpoint(belt.id, readyUnit);
-        return;
-      }
+      if (readyUnit) return () => this.startCheckpoint(belt.id, readyUnit);
     }
     if (action.includes("capstone") && belt) {
-      if (belt.units.every((unit) => this.unitComplete(belt.id, unit))) {
-        this.startBeltTest(belt.id);
-        return;
-      }
+      if (belt.units.every((unit) => this.unitComplete(belt.id, unit))) return () => this.startBeltTest(belt.id);
     }
     if (
       action.includes("study") ||
       action.includes("checkpoint") ||
       action.includes("capstone")
     ) {
-      if (nextLesson) {
-        this.openLessonStudy(nextLesson.lesson, nextLesson.unit, nextLesson.belt);
-      } else {
-        this.closeExplorerIfOpen();
-        this.openHomeToLatest();
-      }
-      return;
+      return nextLesson ? () => this.openLessonStudy(nextLesson.lesson, nextLesson.unit, nextLesson.belt) : null;
     }
-    this.closeExplorerIfOpen();
+    return () => this.closeExplorerIfOpen();
+  },
+
+  challengeAction(definition, trackId) {
+    if (!this.beltUnlocked(trackId)) return;
+    const go = this._challengeActionTarget(definition, trackId);
+    if (go) go();
   },
 
   challengeObjectiveElement(definition, trackId) {
@@ -338,14 +327,14 @@ const NG_CHALLENGE_UI_METHODS = {
       (entry.done
         ? "Complete"
         : entry.progress + " of " + definition.target) +
-      '</small><button type="button" class="ng-challenge-action">' +
-      ngChallengeHTML(definition.action) +
-      "</button></div>";
-    article
-      .querySelector(".ng-challenge-action")
-      .addEventListener("click", () =>
-        this.challengeAction(definition, trackId),
-      );
+      "</small>" +
+      // the button only where its action can open something (`_challengeActionTarget`); a locked belt's row keeps it, as before
+      (!this.beltUnlocked(trackId) || this._challengeActionTarget(definition, trackId)
+        ? '<button type="button" class="ng-challenge-action">' + ngChallengeHTML(definition.action) + "</button>"
+        : "") +
+      "</div>";
+    const button = article.querySelector(".ng-challenge-action");
+    if (button) button.addEventListener("click", () => this.challengeAction(definition, trackId));
     return article;
   },
 
@@ -366,36 +355,9 @@ const NG_CHALLENGE_UI_METHODS = {
     return null;
   },
 
-  // ── THE CORRIDOR'S ↑/↓ (v1.175.0, owner: "keys navigation especially for the flashcards in
-  // the challenges") ── walks the lesson rows the ladder is showing and opens the target's
-  // inline deck, which is also what hands it the rest of the keyboard (`openMini` sets
-  // `_focusRow`, so ←/→/Space/⏎ land on the deck you just walked to). Same contract as
-  // `sessionNav`: returns false when there is nowhere to go, so a caller can fall through.
-  //
-  // VISIBILITY IS ASKED OF THE DOM, never re-derived from `_beltSectionOpen` (§6.3): a collapsed
-  // belt is `display:none` on `.ng-belt-body`, so `offsetParent === null` is the render's own
-  // answer to "can the player see this row", and it stays right if the CSS changes.
-  //
-  // Cold start (nothing open yet) opens the FRONTIER row rather than the top of the corridor:
-  // the tab already scrolled there on arrival, so the first ↓ must not yank the reader five
-  // belts up. With no frontier (everything proven) it takes the first/last row for the direction.
-  challengeLessonNav(dir) {
-    const rows = (this._lessonRows || []).filter(
-      (entry) => entry.row && entry.row.offsetParent !== null,
-    );
-    if (!rows.length) return false;
-    const at = rows.findIndex((entry) => entry.rid === this._focusRow);
-    let next;
-    if (at < 0) {
-      const front = rows.findIndex((entry) => entry.frontier);
-      next = front >= 0 ? front : dir > 0 ? 0 : rows.length - 1;
-    } else {
-      next = Math.max(0, Math.min(rows.length - 1, at + (dir > 0 ? 1 : -1)));
-      if (next === at) return false; // at the end of the corridor — nothing to walk to
-    }
-    rows[next].open(true);
-    return true;
-  },
+  // THE CORRIDOR'S OWN KEYBOARD LEFT WITH THE PATH (v1.287.0): `challengeLessonNav` walked the Path's lesson rows and
+  // opened their inline decks; in Master the game a lesson opens as a session row, and ↑/↓/←/→/Space/⏎ are the
+  // session's own (`sessionNav`, `_miniDeck`).
 
   challengeCurriculumElement(trackId) {
     const section = document.createElement("section");
@@ -479,18 +441,15 @@ const NG_CHALLENGE_UI_METHODS = {
           (lessonComplete
             ? '<i class="ng-lesson-check" aria-hidden="true">✓</i>'
             : "");
-        // Navigate just like a graph click: replace the selected node and update its URL.
-        // Keep the corridor and its inline cards open while the graph stages the technique.
+        // A LESSON OPENS IN MASTER THE GAME (v1.287.0, SET1 slice B): its cards come up as a session row
+        // (`_practiceLesson`) and the map points at it, the drawer staying open. Until v1.287.0 the Path's own tap staged a
+        // roll on the technique (the second small loss, accepted: the orb on the map and its Explore row still stage one),
+        // and its ▸ opened an inline deck here, with its own keyboard; the corridor is now drawn only in Master the game.
+        const open = () => { if (this.beltUnlocked(trackId)) this._practiceLesson(lesson.deckKey); };
         button.addEventListener("click", () => {
-          openMini(true); // never closes — clicking an open lesson's name focuses it, v1.105.2
+          open();
           const ni = this._lessonNodeIdx(lesson.deckKey);
-          if (ni >= 0) {
-            if (this._session?.practice) { this.focusIdx = ni; this.locateNode(ni); this._syncUrl(ni); return; }
-            this.stageRollAt(ni);
-            // Keep the pane-aware flight instead of letting the staged roll reframe it.
-            this._stagedCamFree = false;
-            this.locateNode(ni);
-          }
+          if (ni >= 0) { this.focusIdx = ni; this.locateNode(ni); this._syncUrl(ni); }
         });
         const lessonIdx = this._lessonNodeIdx ? this._lessonNodeIdx(lesson.deckKey) : -1;
         const lessonNode = lessonIdx >= 0 && this.nodes ? this.nodes[lessonIdx] : null;
@@ -514,135 +473,18 @@ const NG_CHALLENGE_UI_METHODS = {
         const lessonRow = document.createElement("div");
         lessonRow.className = "ng-challenge-lessonrow";
         lessonRow.appendChild(button);
-        // inline mini deck — the History pattern on the ladder: the disclosure reveals the
-        // deck IN PLACE (no study takeover); the row also navigates to the technique
-        const deckBox = document.createElement("div");
-        deckBox.className = "ng-lesson-deckbox";
-        deckBox.style.display = "none";
-        // tabindex -1: the deck box is where focus GOES when the deck opens, and it must not be
-        // a <button>/<summary> — those own Space and ⏎ as activation keys (see openMini).
-        deckBox.setAttribute("tabindex", "-1");
-        deckBox.setAttribute("data-lesson-deckbox", lesson.deckKey);
         const toggle = document.createElement("button");
         toggle.type = "button";
         toggle.className = "ng-lesson-decktoggle";
         toggle.setAttribute("data-lesson-deck-toggle", lesson.deckKey);
-        toggle.setAttribute("aria-expanded", "false");
-        toggle.setAttribute(
-          "aria-label",
-          "Show this lesson's cards inline",
-        );
+        // it says what it does (PATH-R1 5b; the reader of #430 nit b): nothing expands here since the Path's inline deck left
+        // (v1.287.0), so no `aria-expanded`; the press opens the lesson's cards as the session's first row, at the top of
+        // Master the game, in the app's own verb ("Study the curriculum")
+        toggle.setAttribute("aria-label", "Study this lesson's cards");
         toggle.innerHTML = '<span aria-hidden="true">▸</span>';
-        const rid = "lesson:" + lesson.deckKey;
-        const closeSelf = () => {
-          deckBox.style.display = "none";
-          toggle.setAttribute("aria-expanded", "false");
-          toggle.querySelector("span").textContent = "▸";
-          if (this._openLessonMini && this._openLessonMini.rid === rid) {
-            this._openLessonMini = null;
-          }
-          // give the keyboard back: a closed deck must not keep answering ←/→/Space/⏎
-          if (this._openLessonRid === rid) this._openLessonRid = null;
-          if (this._focusRow === rid) this._focusRow = null;
-        };
-        let built = false;
-        // openMini: the ▸ body, hoisted so the ROW's own click can share it (v1.105.2). The
-        // owner's law for lesson rows: no pane takeover and no leaving the pane — "we want to
-        // see the inline question and answer... if you went to the actual technique but kept the
-        // sidebar open". `toggleMini` keeps the ▸'s open/close semantics; the row click is
-        // open-or-focus (clicking the name of an already-open lesson does not slam it shut).
-        //
-        // `focus` is the KEYBOARD half (v1.175.0). Two separate things, both load-bearing:
-        //  · `_focusRow = rid` (ALWAYS, focus or not) hands this deck to `_onKey`'s challenge
-        //    branch — ←/→ page its cards, Space flips, ⏎ grades — through the SAME `_miniReg`
-        //    handles the roll history and the inline session use. One keyboard, not three (§6.5).
-        //  · DOM focus MOVES onto the deck box only when `focus` is true. It has to move at all
-        //    because the corridor is built entirely from buttons: leave focus on the ▸ (or on the
-        //    row) and Space/⏎ are THAT button's activation keys, which `_onKey` deliberately
-        //    yields to (v1.113.4) — so the next Space would slam the deck shut instead of
-        //    flipping the card. `preventScroll`, because the scroll is ours on the next line.
-        // A corridor repaint re-opens with focus FALSE (see the foot of this loop): evidence
-        // beats repaint this tab, and stealing focus on a background repaint is its own bug.
-        const openMini = (focus) => {
-          if (!this.beltUnlocked(trackId)) return;
-          if (this._session?.practice) { this._practiceLesson(lesson.deckKey); return; }
-          if (this._openLessonMini && this._openLessonMini.rid !== rid) {
-            this._openLessonMini.close(); // accordion — one inline deck at a time
-          }
-          const decks = (this.flashcards && this.flashcards.decks) || {};
-          const deck = decks[lesson.deckKey];
-          const ncards = this._deckCardCount(deck);
-          const resident = !!this._cardsOf(deck);
-          if (!built) {
-            built = true;
-            deckBox.appendChild(
-              ncards && resident
-                ? this._miniDeck(lesson.deckKey, deck, false, rid)
-                : this._miniDeckEmpty({ key: lesson.deckKey }),
-            );
-            // authored but not here yet: this click IS the request for it
-            if (ncards && !resident) {
-              this.hydrateDeck(lesson.deckKey).then(() => {
-                if (
-                  !this._cardsOf(this.flashcards.decks[lesson.deckKey]) ||
-                  deckBox.style.display === "none"
-                ) {
-                  return;
-                }
-                deckBox.innerHTML = "";
-                deckBox.appendChild(
-                  this._miniDeck(
-                    lesson.deckKey,
-                    this.flashcards.decks[lesson.deckKey],
-                    false,
-                    rid,
-                  ),
-                );
-              });
-            }
-          }
-          deckBox.style.display = "block";
-          toggle.setAttribute("aria-expanded", "true");
-          toggle.querySelector("span").textContent = "▾";
-          this._openLessonMini = { rid: rid, el: deckBox, close: closeSelf };
-          this._openLessonRid = rid;
-          this._focusRow = rid;
-          if (focus) {
-            try {
-              deckBox.focus({ preventScroll: true });
-            } catch (e) {
-              deckBox.focus();
-            }
-            // the shared minimum-motion scroll (app.src.jsx), on THIS surface's scroller and
-            // handle — the row above the deck is `lessonRow`, which is what it reads for the block
-            this._scrollFocusedDeck(this.explorerListRef && this.explorerListRef.current, deckBox);
-          }
-        };
-        const toggleMini = () => { if (deckBox.style.display !== "none") closeSelf(); else openMini(true); };
-        toggle.addEventListener("click", toggleMini);
-
+        toggle.addEventListener("click", open);
         lessonRow.appendChild(toggle);
         lessons.appendChild(lessonRow);
-        lessons.appendChild(deckBox);
-        // THE ROW REGISTRY the corridor's ↑/↓ walks (challengeLessonNav), in ladder order.
-        this._lessonRows = this._lessonRows || [];
-        this._lessonRows.push({
-          rid: rid,
-          key: lesson.deckKey,
-          row: lessonRow,
-          frontier: isFrontier,
-          open: openMini,
-        });
-        // AN OPEN DECK SURVIVES A REPAINT (v1.175.0) — the `_histRow` pattern, and here it is
-        // not a nicety: `gradeRecall` fires beats, `noteChallenges` repaints this tab whenever
-        // one advances, so grading a card used to close the deck you were working out from under
-        // you. `_deckState[key]` lives on the component, so the rebuilt deck resumes on the same
-        // card. No focus steal: the repaint is not the user asking for one.
-        // A FOLDED belt is no exception, and deliberately so: the fold leaves every row in the
-        // DOM at `display:none`, so the deck stays open and registered, just invisible — and
-        // `_focusedMini` refuses an invisible row, which is what gives the keyboard back while
-        // folded and hands it straight back on unfold. Nothing is thrown away to achieve it.
-        if (!this._session?.practice && this._openLessonRid === rid) openMini(false);
       }
       const checkpoint = document.createElement("button");
       checkpoint.type = "button";
@@ -698,58 +540,20 @@ const NG_CHALLENGE_UI_METHODS = {
     return section;
   },
 
-  renderChallenges(list, practice = false) {
+  // THE CORRIDOR, DRAWN IN MASTER THE GAME ONLY (v1.287.0, SET1 slice B): its one caller is `_practiceCorridor`, into the
+  // session's own corridor slot. The Path drew it into the drawer's list too, with a sticky band over it ("8 of 20 today",
+  // the third small loss, accepted: the Master the game row is the same door with the same count) and an arrival scroll to
+  // the worn belt (Master the game's corridor starts at the worn belt, so nothing to scroll to).
+  renderChallenges(list) {
     this._renderingChallengeView = true;
     try {
-      if (!practice) this.noteLearningViewOpen("challenges");
-      // THE ROW REGISTRY IS REBUILT WITH THE ROWS IT INDEXES (v1.175.0) — exactly as
-      // renderDrillHome and renderSession rebuild `_miniReg`. It is what ↑/↓ walks AND what
-      // `_focusedMini` scopes the keyboard by, so a row that no longer renders (a gi switch
-      // drops a gi-only lesson) takes its keys with it instead of leaving them pointed at a
-      // detached deck. `_openLessonRid` is deliberately NOT cleared: it is what re-opens the
-      // deck the player is working, at the foot of the lesson loop.
-      this._lessonRows = [];
+      this.noteLearningViewOpen("challenges");
+      // THE MAP'S CURRICULUM DIMMING (P19): set by the corridor's draw, now Master the game's
       this._pathDim = !!this.curriculum;
       const selectedId = this.selectedChallengeTrack();
       const selected =
         NG_CHALLENGE_TRACKS.find((track) => track.id === selectedId) ||
         NG_CHALLENGE_TRACKS[0];
-      // MAINTENANCE FIRST (v1.105.0, owner: "maintenance should come first before learning new
-      // techniques"). When cards are due, the corridor opens with the daily dosage — one press
-      // starts the due session. Rendered ONLY while something is owed: a permanent zero-count
-      // band would be one more thing to read on a tab that already explains itself once.
-      //
-      // v1.137.0, owner: "it takes a lot of space right now; it should be a little bit more
-      // discreet and convincing". Three changes, all in this block:
-      //  · STICKY (position:sticky in .ng-maint-band, so it survives the arrival scroll and
-      //    every scroll after it — "maintenance should always appear on top ... but
-      //    maintenance should still show"). It must therefore be OPAQUE: the corridor slides
-      //    UNDER it, and the .5-alpha gradient it used to wear let belt headers read through.
-      //  · ~41px instead of ~53px, and the styling left the innerHTML for .ng-maint-band
-      //    in challenge-ui.css — a sticky element's own box is not an inline-style concern;
-      //  · the copy dropped its "Maintenance first" eyebrow: it labelled a thing the person
-      //    can already see. `n cards due` is the fact, `keep what you've earned` the reason.
-      // `maintBand` is read again by the arrival positioning at the foot of this function:
-      // a sticky header must be subtracted from the scroll target or it eats the belt head.
-      let maintBand = null;
-      if (!practice && typeof this.dueCount === "function" && this.dueCount() > 0) {
-        const maint = document.createElement("button");
-        maint.type = "button";
-        maint.className = "ng-maint-band";
-        maint.setAttribute("data-maintenance", "1");
-        const n = this.dueCount();
-        maint.setAttribute(
-          "aria-label",
-          n + " card" + (n === 1 ? "" : "s") + " due \u2014 start the maintenance session",
-        );
-        maint.innerHTML =
-          '<b>' + n + ' card' + (n === 1 ? '' : 's') + ' due</b>' +
-          '<span>keep what you\u2019ve earned</span>' +
-          '<em>Start</em>';
-        maint.addEventListener("click", () => this.openDueSession());   // ONE door, one label (app.src.jsx)
-        list.appendChild(maint);
-        maintBand = maint;
-      }
       // v1.162.0, owner: the two prose lines that used to open this tab (.ng-challenge-
       // distinction — guest/offline/migration state; .ng-ladder-note — "Every lesson is
       // open …") are GONE. Both sat ABOVE the corridor, so the arrival scroll below pushed
@@ -760,22 +564,23 @@ const NG_CHALLENGE_UI_METHODS = {
       // BY CEASING TO READ IT, never deleted (CLAUDE.md §6.6 — a deleted settings key is
       // re-added by the first pull from any device that still carries it).
       // The CONTINUE button is dead (v1.98.1, owner) — arrival positioning replaced it:
-      // opening the tab scrolls the corridor to the frontier belt (the topmost belt still
-      // left to complete; below, after the ladder mounts). The glow marks "do this next".
-      const pinnedId = this.wornBelt().id;
+      // the arrival scroll that replaced it left with the Path (v1.287.0); the glow still marks "do this next".
 
       // THE BELT CORRIDOR (v1.96.0) — one continuous woven belt runs down the left, white
       // through black, a knot tied at every boundary; lesson rows hang off it. Belt headers
       // carry selection (still .ng-track-card / data-track / aria-pressed). Eligible
-      // sections fold independently; locked sections contain no progression controls.
+      // sections fold independently (none is locked since U163 c, v1.270.0).
       const ladder = document.createElement("section");
       ladder.className = "ng-track-list ng-challenge-ladder ng-corridor";
       ladder.setAttribute("aria-label", "Belt corridor");
       const earlier = document.createElement("div");
       const rank = this.wornBelt().rank;
+      // an earlier belt whose test can be started is drawn in the first draw, in belt order (`_beltTestStartable`); a won
+      // one stays behind the reveal, as every other earlier belt does
+      const behind = (index) => index < rank && !this._beltTestStartable(NG_CHALLENGE_TRACKS[index].id);
       for (let index = 0; index < NG_CHALLENGE_TRACKS.length; index += 1) {
         const track = NG_CHALLENGE_TRACKS[index];
-        if (practice && index < rank && !this._session.earlier) continue;
+        if (behind(index) && !this._session.earlier) continue;
         const unlocked = this.beltUnlocked(track.id);
         const color = NG_CHALLENGE_TRACK_COLORS[track.id];
         const summary = this.challengeTrackProgress(track.id);
@@ -805,17 +610,9 @@ const NG_CHALLENGE_UI_METHODS = {
         rail.className = "ng-corridor-rail";
         rail.setAttribute("aria-hidden", "true");
         beltSection.appendChild(rail);
-        if (!unlocked) {
-          beltSection.setAttribute("data-belt-locked", "1");
-          const locked = document.createElement("div");
-          locked.className = "ng-belt-locked";
-          locked.innerHTML = "<b>" + ngBeltDisplayName(track.id) + "</b><small>Locked · progress through the earlier belts</small>";
-          beltSection.appendChild(locked);
-          // Text only, so the section stays inert. A locked Black is the whole audience of this row.
-          if (track.id === "black") beltSection.appendChild(this._recallRewardRow());
-          ladder.appendChild(beltSection);
-          continue; // no button, chevron, lesson or keyboard registration
-        }
+        // (the LOCKED section, "Locked · progress through the earlier belts" with no button, chevron or lesson, went with
+        // U163 c in v1.270.0: a later belt is now an ordinary section, folded until opened, like any belt not worn)
+        if (!unlocked) continue; // not a belt id: nothing to draw
         if (index > 0) {
           // the knot: a simple tie marking where one belt ends and the next begins
           const knot = document.createElement("i");
@@ -915,13 +712,13 @@ const NG_CHALLENGE_UI_METHODS = {
         curriculum.style.setProperty("--ng-track", color);
         body.appendChild(curriculum);
         beltSection.appendChild(body);
-        (practice && index < rank ? earlier : ladder).appendChild(beltSection);
+        (behind(index) ? earlier : ladder).appendChild(beltSection);
       }
       list.appendChild(ladder);
       const shelf = this.renderRewardsShelf();
       if (shelf) list.appendChild(shelf); // null until something is earned (v1.99.1)
-      if (practice) list.appendChild(this._session.support);
-      if (practice && rank > 0) {
+      list.appendChild(this._session.support);
+      if (NG_CHALLENGE_TRACKS.some((t, index) => behind(index))) {
         const reveal = document.createElement("button");
         reveal.type = "button"; reveal.className = "ng-earlier-belts";
         reveal.setAttribute("data-earlier-belts", "1");
@@ -929,45 +726,6 @@ const NG_CHALLENGE_UI_METHODS = {
         reveal.textContent = this._session.earlier ? "Hide earlier belts" : "Show earlier belts";
         reveal.onclick = () => { this._session.earlier = !this._session.earlier; this._practiceCorridor(); };
         list.append(earlier, reveal);
-      }
-      // ── ARRIVAL POSITIONING (v1.98.1, replaces the Continue button) ── opening the tab
-      // lands the corridor where the person is: the frontier belt's header at the top of
-      // the view, its frontier row (already glow-marked) in sight. INSTANT, on OPEN only —
-      // reduced-motion identical; re-renders never touch the scroll (renderExplorer
-      // preserves it, the History-body gate precedent). No frontier (everything proven) =
-      // that belt's top. Since v1.162.0 there is nothing above the corridor at all except
-      // the sticky maintenance band, so a white-belt frontier lands at scrollTop 0.
-      if (!practice && this._challengeScrollPending) {
-        this._challengeScrollPending = false;
-        const sec = ladder.querySelector(
-          '.ng-belt-section[data-belt="' + pinnedId + '"]',
-        );
-        if (sec) {
-          const lr = list.getBoundingClientRect();
-          if (lr.height > 0) {
-            // the sticky maintenance band owns the top of the scrollport: aim BELOW it, or
-            // the belt header this scroll exists to reveal arrives underneath it. Measured
-            // live off the band, never a CSS constant — it is one wrapping line from being
-            // taller than it looks (CLAUDE.md §6.1, _dockLandCard's rule).
-            const stick =
-              maintBand && maintBand.getBoundingClientRect().height > 0
-                ? maintBand.getBoundingClientRect().height + 8
-                : 0;
-            list.scrollTop += sec.getBoundingClientRect().top - lr.top - stick;
-            const row = ladder.querySelector(
-              ".ng-challenge-lesson[data-frontier]",
-            );
-            if (row) {
-              // keep the frontier row in view with the MINIMUM extra motion: when the
-              // section opens with more content (principles, units) than one viewport
-              // holds above the frontier, the header cedes only what the row needs
-              const lr2 = list.getBoundingClientRect();
-              const rr = row.getBoundingClientRect();
-              if (rr.bottom > lr2.bottom)
-                list.scrollTop += rr.bottom - lr2.bottom + 20;
-            }
-          }
-        }
       }
     } finally {
       this._renderingChallengeView = false;
@@ -1020,7 +778,12 @@ const NG_CHALLENGE_UI_METHODS = {
     const shelf = document.createElement("details");
     shelf.className = "ng-rewards-shelf";
     shelf.setAttribute("data-rewards-shelf", "1");
-    if (this._scrollRewardsShelf) shelf.open = true;
+    // THE SHELF STAYS AS THE PLAYER LEFT IT ACROSS A REPAINT (v1.287.0, SET1 slice B). Its one home is Master the game's
+    // corridor now, which repaints whenever the plan lands or evidence moves, and the Path's view rarely did: View
+    // Collection (O1) opened it, and the plan's landing a moment later closed it again. Its state rides on the session,
+    // and only a closed-to-open change is a visit (`neural_collection_opened`), so a repaint of an open shelf sends nothing.
+    const s = this._session;
+    if (this._scrollRewardsShelf || (s && s.shelfOpen)) shelf.open = true;
     const summary = document.createElement("summary");
     summary.innerHTML =
       "<small>REWARDS</small><b>" +
@@ -1028,8 +791,17 @@ const NG_CHALLENGE_UI_METHODS = {
       coins + " mat coin" + (coins === 1 ? "" : "s") +
       "</b><em>Patches mark milestones. Mat Coins are just for laughs. They do not buy anything.</em>";
     shelf.appendChild(summary);
+    // A VISIT IS AN OPENING THE PLAYER CAN SEE (PATH-R1, ruling 1, the reader of #430 finding 1). `toggle` is ASYNC: a shelf
+    // drawn open fires it a task later, by which time a warm plan's re-render (`openPlanSession` → `_afterPress(adopt)` →
+    // `renderSession`) had already drawn the next shelf from a flag nobody had set yet: closed, while the stale one's late
+    // toggle set the flag and counted a visit nobody saw. So the door's opening sets the flag and counts in the SAME turn
+    // (below, where View Collection's request is read), and a toggle counts only a closed-to-open change of the shelf on the
+    // page: a detached one writes and counts nothing.
     shelf.addEventListener("toggle", () => {
-      if (shelf.open) {
+      if (!shelf.isConnected) return;
+      const was = !!(s && s.shelfOpen);
+      if (s) s.shelfOpen = shelf.open;
+      if (shelf.open && !was) {
         this.track("neural_collection_opened", { patches: patches, coins: coins });
       }
     });
@@ -1062,10 +834,20 @@ const NG_CHALLENGE_UI_METHODS = {
       }
       shelf.appendChild(coinSection);
     }
+    // VIEW COLLECTION'S SCROLL OUTLIVES A REPAINT TOO (v1.287.0): Master the game lays its page out again when the plan lands,
+    // which put the shelf View Collection had scrolled to back below the fold. The request rides on the session until the
+    // player moves the page themselves (a wheel, a touch, a press, a key), and each repaint until then scrolls to the shelf.
     if (this._scrollRewardsShelf) {
       this._scrollRewardsShelf = false;
-      requestAnimationFrame(() => { try { shelf.scrollIntoView({ block: "start" }); } catch (e) {} });
+      if (s) {
+        // the door's opening, counted once, in the turn it opens the shelf (ruling 1 above): every later draw reads it open
+        if (!s.shelfOpen) { s.shelfOpen = true; this.track("neural_collection_opened", { patches: patches, coins: coins }); }
+        s.shelfScroll = true;
+        const host = this.drillListRef && this.drillListRef.current;
+        if (host) for (const t of ["wheel", "touchstart", "pointerdown", "keydown"]) host.addEventListener(t, () => { s.shelfScroll = false; }, { once: true, passive: true });
+      } else requestAnimationFrame(() => { try { shelf.scrollIntoView({ block: "start" }); } catch (e) {} });
     }
+    if (s && s.shelfScroll) requestAnimationFrame(() => { try { if (shelf.isConnected && s.shelfScroll) shelf.scrollIntoView({ block: "start" }); } catch (e) {} });
     return shelf;
   },
 };

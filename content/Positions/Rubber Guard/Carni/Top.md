@@ -136,11 +136,10 @@ description: "Carni top perspective: A leg clearing the head with an overhook is
       "@type": "VideoObject",
       "position": 1,
       "name": "Butterfly Guard to Carni Shoulder Lock",
-      "description": "Carni (Top) film study: Butterfly Guard to Carni Shoulder Lock, taught by DanTheWolfman.",
+      "description": "Carni (Top) film study: Butterfly Guard to Carni Shoulder Lock.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_QBVfCG5tBg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_QBVfCG5tBg",
       "url": "https://www.youtube.com/watch?v=_QBVfCG5tBg",
-      "creator": { "@type": "Person", "name": "DanTheWolfman" },
       "duration": "PT59S"
     }
   ]
@@ -159,7 +158,7 @@ A leg clearing the head with an overhook is an upper-body trap, even if a butter
 
 Create slack around the shoulder and elbow before moving the hips past the legs. Do not force a forward roll when the triceps and wrist are fixed; tap if pressure has already engaged. Raise the head and chest only after the arm and head-side leg are clear.
 
-Richie Martinez demonstrates the configuration from Z guard through Jersey. The legs help anchor the upper body, but the submission target is the shoulder; a calf slicer, heel hook, or kneebar requires a separate lower-body capture. Shoulder pressure can arrive before a large movement is visible. Stop at control during drills, tap early, and never combine a fixed wrist with an explosive roll or a forced stack.
+The demonstration shows the configuration from Z guard through Jersey. The legs help anchor the upper body, but the submission target is the shoulder; a calf slicer, heel hook, or kneebar requires a separate lower-body capture. Shoulder pressure can arrive before a large movement is visible. Stop at control during drills, tap early, and never combine a fixed wrist with an explosive roll or a forced stack.
 
 </section>
 
@@ -175,7 +174,7 @@ Richie Martinez demonstrates the configuration from Z guard through Jersey. The 
 
 ![](https://www.youtube.com/watch?v=_QBVfCG5tBg)
 
-<p class="clip-credit"><strong>Butterfly Guard to Carni Shoulder Lock</strong> — taught by DanTheWolfman · 0:59 · <a href="https://www.youtube.com/watch?v=_QBVfCG5tBg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Butterfly Guard to Carni Shoulder Lock</strong> · 0:59 · <a href="https://www.youtube.com/watch?v=_QBVfCG5tBg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

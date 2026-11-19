@@ -175,8 +175,8 @@ description: "Defend twister side control with systematic escape strategies. Lea
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Twister Side Control Escape | Gi Class | Pearson Brazilian Jiu-Jitsu",
-      "description": "Twister Side Control (Bottom) film study: Twister Side Control Escape | Gi Class | Pearson Brazilian Jiu-Jitsu.",
+      "name": "Twister Side Control Escape | Gi Class",
+      "description": "Twister Side Control (Bottom) film study: Twister Side Control Escape | Gi Class.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0-Ht2pQtWRs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/0-Ht2pQtWRs",
       "url": "https://www.youtube.com/watch?v=0-Ht2pQtWRs",
@@ -236,7 +236,7 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 ![](https://www.youtube.com/watch?v=0-Ht2pQtWRs)
 
-<p class="clip-credit"><strong>Twister Side Control Escape | Gi Class | Pearson Brazilian Jiu-Jitsu</strong> · 3:48 · <a href="https://www.youtube.com/watch?v=0-Ht2pQtWRs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister Side Control Escape | Gi Class</strong> · 3:48 · <a href="https://www.youtube.com/watch?v=0-Ht2pQtWRs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

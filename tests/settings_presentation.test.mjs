@@ -48,10 +48,16 @@ function fromParsed(n) { const e = new Element(n.tagName || "#text"); if (n.node
 const document = { activeElement: null, createElement: tag => new Element(tag), createTextNode: text => Object.assign(new Element("#text"), { _text: text }), removeEventListener(){} };
 const window = { removeEventListener(){} };
 globalThis.document = document; globalThis.window = window;
-const Component = new Function("DCLogic","React","NG_SETTINGS_UI_BUILD", source + "\nreturn Component;")(class {}, {createRef:()=>({current:null})}, build);
+const makeComponent = (text) => new Function("DCLogic","React","NG_SETTINGS_UI_BUILD", text + "\nreturn Component;")(class {}, {createRef:()=>({current:null})}, build);
+const Component = makeComponent(source);
+// THE SAME APP WITH THE TRAINING-DAY EMAIL LIVE (NG_DIGEST_LIVE flipped, its only edit). The swap must
+// match exactly once, or the "flipped" tests would be testing the shipped constant and pass by absence.
+const LIVE_OFF = "const NG_DIGEST_LIVE = false;", LIVE_ON = "const NG_DIGEST_LIVE = true;";
+assert.equal(source.split(LIVE_OFF).length, 2, "the app declares NG_DIGEST_LIVE = false exactly once");
+const LiveComponent = makeComponent(source.replace(LIVE_OFF, LIVE_ON));
 
-function fixture() {
-  const app = Object.create(Component.prototype), calls = {loads:[], saved:0, changed:[], events:[], layers:0};
+function fixture(Comp = Component) {
+  const app = Object.create(Comp.prototype), calls = {loads:[], saved:0, changed:[], events:[], layers:0};
   const card = new Element(), modal = new Element(); modal.style.display = "none";
   Object.assign(app, { modalCardRef:{current:card}, modalRef:{current:modal}, explorerListRef:{current:null},
     _progressOwnerStamp:{}, _progressCurrent:()=>true, settings:{}, _settingsAt:{}, now:123,
@@ -102,11 +108,13 @@ test("load failure has real Retry; explicit retry uses fresh attempt and real co
 });
 
 test("close, competing modal, owner change, replaced card and unmount reject late rendering", async () => {
-  for (const kind of ["close","legal","owner","not-current","card","unmount"]) {
+  // LEGAL3 (v1.264.0): "feedback" was "legal". The legal box now reads its page (a document or a fetch this fixture does not have);
+  // the claim needs only a real competing modal, and the Feedback form is one.
+  for (const kind of ["close","feedback","owner","not-current","card","unmount"]) {
     const {app,card,modal} = fixture(), gate = deferred(); app._fetchSettingsPresentation=()=>gate.promise;
     const pending=app.openSettings("rolling"); await flush();
     if(kind==="close") app.closeModal();
-    if(kind==="legal") app.openLegal("privacy");
+    if(kind==="feedback") app.openFeedback();
     if(kind==="owner") app._progressOwnerStamp={};
     if(kind==="not-current") app._progressCurrent=()=>false;
     if(kind==="card") app.modalCardRef.current=new Element();
@@ -117,19 +125,21 @@ test("close, competing modal, owner change, replaced card and unmount reject lat
     const before=card.textContent; gate.resolve(runtime); assert.equal(await pending,false,kind);
     assert.equal(card.textContent,before,kind); assert.equal(card.querySelector('[role="tab"]'),null,kind);
     if(kind==="close") assert.equal(modal.style.display,"none");
-    if(kind==="legal") assert.match(card.textContent,/Privacy Policy/);
+    if(kind==="feedback") assert.ok(card.querySelector("[data-feedback-title]"),"the Feedback modal stays");
   }
 });
 
 test("latest Settings tab intent wins shared import; dismissed error Retry is inert", async () => {
   const {app,card,calls} = fixture(), gate=deferred(); app._fetchSettingsPresentation=attempt=>{calls.loads.push(attempt);return gate.promise;};
-  const first=app.openSettings("flashcards"); await flush(); const second=app.openSettings("notifications");
+  // v1.261.1 (U139 a, DIGEST2): a guest has no Notifications tab while the email is not live, so the second,
+  // winning intent names Shortcuts; the claim is which intent wins, not which tab.
+  const first=app.openSettings("flashcards"); await flush(); const second=app.openSettings("shortcuts");
   gate.resolve(runtime); assert.equal(await first,false); assert.equal(await second,true); assert.deepEqual(calls.loads,[1]);
-  assert.equal(card.querySelector('[role="tabpanel"]').getAttribute("aria-labelledby"),"ng-stab-notifications");
-  assert.match(card.textContent,/signed-in account/);
+  assert.equal(card.querySelector('[role="tabpanel"]').getAttribute("aria-labelledby"),"ng-stab-shortcuts");
+  assert.match(card.textContent,/Pan the graph/);
   const failed=fixture(); failed.app._fetchSettingsPresentation=()=>Promise.reject(Error("offline")); await failed.app.openSettings();
-  const retry=failed.card.querySelector("[data-settings-retry]"); failed.app.openLegal("terms"); const before=failed.card.textContent;
-  retry.click(); await flush(); assert.equal(failed.card.textContent,before); assert.match(before,/Terms of Use/);
+  const retry=failed.card.querySelector("[data-settings-retry]"); failed.app.openFeedback(); const before=failed.card.textContent;
+  retry.click(); await flush(); assert.equal(failed.card.textContent,before); assert.ok(failed.card.querySelector("[data-feedback-title]"));
 });
 
 test("installer rejects wrong build without changing target; app offers retry", async () => {
@@ -154,7 +164,9 @@ test("unchanged real controls retain settings keys, effects, direct tabs and key
   const row=card.querySelector('[role="tablist"]'), event=row.fire("keydown",{key:"End"});
   assert.equal(event.stopped,true); assert.equal(event.defaultPrevented,true); assert.equal(app._settingsTab,"shortcuts"); assert.equal(document.activeElement.getAttribute("data-settings-tab"),"shortcuts");
   const current=card.querySelector('[role="tablist"]'); current.fire("keydown",{key:"ArrowRight"}); assert.equal(app._settingsTab,"flashcards");
-  app.user={email:"test@example.invalid"}; assert.equal(app.openSettings("notifications"),true); clickText(card,"On"); assert.equal(app.get("emailDigest"),true);
+  // U139 a (v1.261.1): a signed-in player reaches the email switch only while it is stored on, so this
+  // presses Off; pressing On is the flipped tests' claim below (the email live, v1.259.1's Settings).
+  app.user={email:"test@example.invalid"}; app.settings.emailDigest=true; assert.equal(app.openSettings("notifications"),true); clickText(card,"Off"); assert.equal(app.get("emailDigest"),false);
   assert.equal(app.openSettings("modifiers"),true); assert.match(card.textContent,/No modifiers yet/);
   assert.equal(app._session,session); assert.equal(app._landQ,question);
 });
@@ -183,4 +195,128 @@ test("actual build loader pins URL identity and retry, and rejects cross-origin 
   assert.equal(first.pathname,"/static/neural/app/settings-ui.js"); assert.equal(first.searchParams.get("v"),build);
   assert.equal(first.searchParams.get("attempt"),"1"); assert.equal(second.searchParams.get("attempt"),"2");
   await assert.rejects(load.call({_dataBase:()=>"https://other.test/"},3),/same-origin/); assert.equal(imported.length,2);
+});
+
+// ── THE TRAINING-DAY EMAIL WHILE IT IS NOT LIVE (owner U139 a, 12 Nov 2026: "Hide it while the digest is off").
+// NG_DIGEST_LIVE (app.src.jsx) is false: `openSettings` drops Notifications for a signed-in player whose stored
+// `emailDigest` is off, and for every guest (DIGEST2); an account with it on keeps the tab and the row (saying no
+// email is sent yet) so it can turn it off, and the choice is made once per opening. The browser half, pressed
+// by mouse and by a touch tap at 390, is e2e/journeys/notifications-tab.spec.ts.
+const tabIds = (card) => card.querySelectorAll('[role="tab"]').map((t) => t.getAttribute("data-settings-tab"));
+const selectedTab = (card) => card.querySelector('[role="tab"][aria-selected="true"]').getAttribute("data-settings-tab");
+const panelOf = (card) => card.querySelector('[role="tabpanel"]').getAttribute("aria-labelledby");
+const key = (card, k) => card.querySelector('[role="tablist"]').fire("keydown", { key: k });
+const FIVE = ["flashcards", "rolling", "modifiers", "notifications", "shortcuts"];
+const FOUR = ["flashcards", "rolling", "modifiers", "shortcuts"];
+// v1.259.1's own words, copied from that version's settings-ui.src.js, so "to the letter" has a fixed oracle.
+const V1259_ROW = "After a day you reviewed something: your techniques, your Game Knowledge, your streak — mailed to player@example.com.";
+const V1259_GUEST = "The training-day email needs a signed-in account — that’s where it would be sent. Sign in from the badge at the foot of the sidebar to turn it on.";
+const UNSENT = "No email is being sent yet.";
+const rowSub = (card) => card.querySelector("[data-digest-setting]").children[0].children[1].textContent;
+
+test("U139 a: signed in with the email off, Settings has no Notifications tab, a link to it opens the first tab, and nothing is written", async () => {
+  const { app, card, calls } = fixture();
+  app.user = { email: "player@example.com" };
+  assert.equal(await app.openSettings(), true);
+  assert.deepEqual(tabIds(card), FOUR, "four tabs: Notifications is not drawn");
+  assert.equal(card.querySelector("[data-digest-setting]"), null);
+  // a deep link (and any saved tab) naming the hidden tab opens the first one, with its own panel
+  assert.equal(app.openSettings("notifications"), true);
+  assert.equal(app._settingsTab, "flashcards"); assert.equal(selectedTab(card), "flashcards"); assert.equal(panelOf(card), "ng-stab-flashcards");
+  assert.equal(card.querySelector("[data-digest-setting]"), null); assert.equal(card.querySelector("[data-notif-signedout]"), null);
+  // the arrow keys walk the four drawn tabs and never land on the hidden one
+  app.openSettings("modifiers"); key(card, "ArrowRight"); assert.equal(app._settingsTab, "shortcuts", "Modifiers → Shortcuts, skipping the hidden tab");
+  key(card, "ArrowLeft"); assert.equal(app._settingsTab, "modifiers");
+  key(card, "End"); assert.equal(app._settingsTab, "shortcuts"); key(card, "ArrowRight"); assert.equal(app._settingsTab, "flashcards", "and wraps over four");
+  for (const t of FOUR) { app.openSettings(t); assert.equal(selectedTab(card), t); assert.equal(card.querySelector("[data-digest-setting]"), null, t); }
+  // NOTHING STORED CHANGES: no key, no timestamp, no save, and the recorder still reads the stored setting
+  assert.equal("emailDigest" in app.settings, false); assert.equal("emailDigest" in app._settingsAt, false); assert.equal(calls.saved, 0);
+  assert.equal(app.get("emailDigest", false), false);
+});
+
+test("U139 a: an account with the email stored on keeps the tab and the row, is told no email is sent, and Off hides them from the next opening", async () => {
+  const { app, card, calls } = fixture();
+  app.user = { email: "player@example.com" }; app.settings.emailDigest = true;
+  assert.equal(await app.openSettings(), true);
+  assert.deepEqual(tabIds(card), FIVE, "five tabs while the stored setting is on");
+  // the row delegates clicks (this DOM adapter does not bubble), so press the tab where the row hears it
+  card.querySelector('[role="tablist"]').fire("click", { target: card.querySelector('[data-settings-tab="notifications"]') });
+  assert.equal(selectedTab(card), "notifications"); assert.equal(panelOf(card), "ng-stab-notifications");
+  assert.equal(rowSub(card), V1259_ROW + " " + UNSENT, "the row says, in plain words, that no email is sent yet");
+  assert.equal(calls.saved, 0, "opening and choosing the tab write nothing"); assert.equal(app._settingsAt.emailDigest, undefined);
+  clickText(card, "Off");
+  assert.equal(app.get("emailDigest"), false); assert.equal(calls.saved, 1, "the player's own press is the only write");
+  // this opening keeps the row, so the press visibly took; the tab is gone from the next opening on
+  assert.deepEqual(tabIds(card), FIVE); assert.ok(card.querySelector("[data-digest-setting]"), "the row stays until Settings closes");
+  app.closeModal(); assert.equal(await app.openSettings("notifications"), true);
+  assert.deepEqual(tabIds(card), FOUR, "reopened: no Notifications tab"); assert.equal(selectedTab(card), "flashcards");
+  assert.equal(card.querySelector("[data-digest-setting]"), null);
+});
+
+test("U139 a: a guest has no Notifications tab, whatever this device stored, and a link to it opens the first tab", async () => {
+  // DIGEST2: the guest's line ("Sign in … to turn it on") would send them to sign in for a switch that is not
+  // there, so while the email is not live the tab shows for ONE case only, an account with it stored on.
+  for (const stored of [undefined, false, true]) {
+    const { app, card, calls } = fixture();
+    if (stored !== undefined) app.settings.emailDigest = stored;
+    assert.equal(await app.openSettings(), true, String(stored));
+    assert.deepEqual(tabIds(card), FOUR, "a guest sees four tabs, stored " + stored);
+    assert.equal(app.openSettings("notifications"), true);
+    assert.equal(selectedTab(card), "flashcards", "the link opens the first tab, stored " + stored); assert.equal(panelOf(card), "ng-stab-flashcards");
+    assert.equal(card.querySelector("[data-notif-signedout]"), null, String(stored)); assert.equal(card.querySelector("[data-digest-setting]"), null, String(stored));
+    app.openSettings("modifiers"); key(card, "ArrowRight"); assert.equal(app._settingsTab, "shortcuts", "the keys skip it, stored " + stored);
+    assert.equal(app.settings.emailDigest, stored, "nothing stored changes"); assert.equal(calls.saved, 0);
+  }
+});
+
+test("flipped: with NG_DIGEST_LIVE true, Settings are v1.259.1's to the letter", async () => {
+  for (const stored of [undefined, false, true]) {
+    const { app, card } = fixture(LiveComponent);
+    app.user = { email: "player@example.com" };
+    if (stored !== undefined) app.settings.emailDigest = stored;
+    assert.equal(await app.openSettings(), true, String(stored));
+    assert.deepEqual(tabIds(card), FIVE, "every signed-in player sees five tabs, stored " + stored);
+    assert.equal(app.openSettings("notifications"), true); assert.equal(selectedTab(card), "notifications");
+    assert.equal(rowSub(card), V1259_ROW, "the row's words, with no not-sent sentence, stored " + stored);
+    assert.ok(!card.textContent.includes(UNSENT), "nowhere on the card");
+    key(card, "ArrowLeft"); assert.equal(app._settingsTab, "modifiers"); key(card, "ArrowRight"); assert.equal(app._settingsTab, "notifications");
+    key(card, "End"); key(card, "ArrowLeft"); assert.equal(app._settingsTab, "notifications", "Shortcuts → Notifications");
+  }
+  const { app, card } = fixture(LiveComponent);
+  app.user = { email: "player@example.com" };
+  await app.openSettings("notifications"); clickText(card, "On"); assert.equal(app.get("emailDigest"), true, "On stores the key the worker reads");
+  app.closeModal(); assert.equal(app.openSettings("notifications"), true); clickText(card, "Off"); assert.equal(app.get("emailDigest"), false);
+  assert.deepEqual(tabIds(card), FIVE, "Off hides nothing while the email is live");
+  const guest = fixture(LiveComponent);
+  assert.equal(await guest.app.openSettings("notifications"), true); assert.deepEqual(tabIds(guest.card), FIVE);
+  assert.equal(guest.card.querySelector("[data-notif-signedout]").textContent, V1259_GUEST);
+});
+
+// v1.282.0 (owner 15 Nov; rulings R2, SET1-GO; U190 c, 16 Nov): THE FLASHCARDS TAB, REFORMED. Daily goal, then Answer mode;
+// Answer mode reads Auto / Front Back cards / Multiple choice with its words saying where it applies, and Auto is what a
+// player who pressed nothing sees, without anything being written; "Recall mode (in play)" and "Show flashcards on pages"
+// are gone, and so is Focus (the owner, U190 c: "Take the row off the screen"; `focus` was read by nothing). A press writes
+// the choice. Mutants: the default back to Classic recall (Auto not chosen), a row still drawn, a write at render (mcMode present),
+// and the old label each turn an assertion here red. Layout, hit-testing and the press by mouse and touch:
+// e2e/journeys/answer-mode.spec.ts.
+test("the Flashcards tab: Daily goal, Answer mode (Auto chosen for nothing stored, no write); the three retired rows gone", async () => {
+  const {app,card}=fixture();
+  assert.equal(await app.openSettings("flashcards"),true);
+  const text = card.textContent;
+  const at = (s) => { const i = text.indexOf(s); assert.ok(i >= 0, "drawn: " + s); return i; };
+  assert.ok(at("Daily goal") < at("Answer mode"), "in that order");
+  assert.ok(text.includes("How a card asks you, in Practice and in a roll."), "the words say where it applies");
+  assert.ok(!/HERE|study surface|Classic recall/.test(text), "no old words, no old label");
+  const row = card.querySelector("[data-answer-mode]"); assert.ok(row, "the row is marked");
+  assert.deepEqual(row.querySelectorAll("button").map((b) => b.textContent), ["Auto", "Front Back cards", "Multiple choice"]);
+  const chosen = row.querySelectorAll("button").map((b) => /rgba\(74,108,255,\.26\)/.test(b.style.cssText.replace(/\s/g, "")));
+  assert.deepEqual(chosen, [true, false, false], "Auto is chosen for a player who pressed nothing");
+  assert.ok(text.includes("multiple choice until you get a card right twice, then front and back from then on"), "Auto's line");
+  assert.equal(card.querySelector("[data-recall-mode]"), null, "Recall mode (in play) is gone");
+  assert.ok(!text.includes("Recall mode") && !text.includes("Show flashcards on pages"), "and both retired rows' words");
+  assert.ok(!/Focus|Shore up weaknesses|Antifragile|Converge/.test(text), "Focus is gone, its words with it (U190 c)");
+  assert.deepEqual(card.querySelectorAll("button").map((b) => b.textContent).filter((t) => /Antifragile|Converge/.test(t)), [], "and its buttons");
+  assert.equal("mcMode" in app.settings, false, "rendering wrote nothing");
+  clickText(card, "Multiple choice"); assert.equal(app.get("mcMode"), "mc", "a press writes the choice");
+  clickText(card, "Front Back cards"); assert.equal(app.get("mcMode"), "classic", "Front Back cards is the stored classic");
 });

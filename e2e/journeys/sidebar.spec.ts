@@ -8,13 +8,13 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  * markers, their rects) or what the frame PUBLISHED (`_fogLow`), never recomputed here:
  *   1. One drawer icon opens it, and nothing on screen is labelled "Menu".
  *   2. The order: Search, Explore (expandable: Positions, Transitions, Submissions, Systems,
- *      Principles, Learning), Practice then Path (U60 b: no Train header), Your lists, Last rolls,
- *      the badge.
+ *      Principles, Learning), Practice (U60 b: no Train header; the Path row under it left in v1.287.0, owner 15 Nov,
+ *      SET1 slice B), Your lists, Last rolls, the badge.
  *   3. It draws over the map, the legend included, and the legend never moves.
  *   4. The badge shows today's cards and rolls before it is opened, a real grade moves it, and the
  *      day's rolls survive a reload (SIDE-R2 M4).
- *   5. Practice's row carries the owed reviews and the day's goal; Path's row carries the worn
- *      belt; both, and Last rolls, open their views, and the brand leads back to the list.
+ *   5. Practice's row carries the day's goal and the worn belt under it; it and Last rolls open their views, and the
+ *      brand leads back to the list (Path's row and its units words left with the Path, v1.287.0).
  *   6. A lit page (a principle) fades the rest of the map to ~20%, smoothly, not at once.
  *   7. Keyboard: real Tab presses reach the badge, Enter opens its menu WITH focus inside it, the arrows
  *      walk its items to a small link that works by key, and Esc hands focus back (SIDE-R2 M7).
@@ -24,13 +24,16 @@ import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } fr
  *      guards, re-pinned on the gesture that replaced it).
  *  10. On a phone, the tap on the exposed strip that closes the drawer does only that: over a node it
  *      stages nothing, over the background it dismisses nothing (SIDE-R2 P1).
- *  11. The closed drawer's icon wears an amber dot while reviews are owed, and none when nothing is.
+ *  11. The closed drawer's icon wears an amber dot while reviews are owed and today's goal is not met, and none when
+ *      nothing is owed or the goal is met (until 13 Nov: "while reviews are owed", the goal not read; the orchestrator's
+ *      decision, 13 Nov, after the owner's U171 a).
  *  12. Explore's fold survives a reload.
  *  13. SIDE-R3 N1: held concept headers reserve their height; Practice stays within 1px and a
  *      press aimed before the index lands still opens it (phone touch and desktop mouse).
  *  14. SIDE-R3 N3: a finger opens the badge without moving focus into its menu.
  *  10 also covers N2: closing the drawer leaves a replay running; a subsequent graph input stops it.
- * Claims 2, 3, 4 and 7 are @curated, so the deploy gate covers the drawer.
+ * Claims 2 and 5 are @curated: the deploy gate's quick tests of the drawer and of the views it opens (U147 a, v1.263.0;
+ * claim 5 since GATE6). Claims 3, 4 and 7 were too until v1.263.0; every claim runs in e2e-full, on each PR and each merge to dev.
  *
  * Harness: the DSL serves `{}` for dossier chunks; no claim here reads one. Systems and concepts
  * payloads are real, so the six categories are awaited, not assumed. No gameplay rng branch is
@@ -43,7 +46,7 @@ const drawer = (page: Page) => page.evaluate(() => !!(window as W).__neural.deck
 
 for (const width of [390, 1440]) test.describe(`index landing ${width}`, () => {
   test.use({ viewport: { width, height: width === 390 ? 844 : 900 }, hasTouch: width === 390 })
-  test("Practice stays under the arriving press when concepts land (SIDE-R3 N1) @curated", async ({ page }) => {
+  test("Practice stays under the arriving press when concepts land (SIDE-R3 N1)", async ({ page }) => {
     const j = journey(page)
     await j.boot("/")
     let release!: () => void, held = 0
@@ -64,7 +67,8 @@ for (const width of [390, 1440]) test.describe(`index landing ${width}`, () => {
       const x = before.x + before.width / 2, y = before.y + before.height / 2
       if (width === 390) await page.touchscreen.tap(x, y)
       else await page.mouse.click(x, y)
-      await expect(page.locator(".ng-pane-drillhead"), "the press aimed before landing opens Practice").toContainText("Practice")
+      // v1.261.0 (owner U135 a): Practice is a view in the drawer and the brand names it, as it names Path
+      await expect(page.locator(".ng-drawer-brand"), "the press aimed before landing opens Master the game (before: ‹ Practice)").toHaveText("‹ Master the game")
     } finally { release() }
   })
 })
@@ -74,6 +78,8 @@ async function openDrawer(j: any, page: Page) {
   await expect(page.locator(".ng-drawer-head")).toBeVisible()
 }
 /** A press on a deck control that a deck landing may repaint: located afresh if a repaint replaced it. */
+// L1-R0 (v1.290.0): the open card's buttons (Reveal, Review again, Got it, ‹ ›) are moved into the drawer's foot, one bar
+// for the open ask (`_masterDock`): pressed there, `[data-master-bar]`, the same buttons with the same handlers
 async function pressDeck(page: Page, j: any, sel: string, what: string) {
   for (let i = 0; ; i++) {
     try { await expect(page.locator(sel).first()).toBeVisible(); await page.locator(sel).first().scrollIntoViewIfNeeded(); await j.clickByMouse(sel, what); return }
@@ -111,7 +117,7 @@ test("an open that names no view lands on the drawer's list, never on Path", asy
   await expect(page.locator(".ng-track-card")).toHaveCount(0)
 })
 
-test("the drawer lists Search, Explore, Practice, Path, your lists and Last rolls, in that order @curated", async ({ page }) => {
+test("the drawer lists Search, Explore, Practice, your lists and Last rolls, in that order, and no Path row @curated", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await openDrawer(j, page)
@@ -122,7 +128,7 @@ test("the drawer lists Search, Explore, Practice, Path, your lists and Last roll
   const order = await page.evaluate(() => {
     const pane = document.querySelector(".ng-drill")!
     const marks: [string, string][] = [["search", ".ng-explorer-search"], ["explore", "[data-drawer-explore]"],
-      ["practice", '[data-explore-stats] [data-b="due"]'], ["path", '[data-explore-stats] [data-view="challenges"]'],
+      ["practice", '[data-explore-stats] [data-b="due"]'],
       ["lists", '[data-explore-section="Your lists"]'], ["rolls", 'button[data-view="history"]'], ["badge", ".ngAcctChip"]]
     return marks.map(([k, sel]) => {
       const els = pane.querySelectorAll(sel)
@@ -131,7 +137,9 @@ test("the drawer lists Search, Explore, Practice, Path, your lists and Last roll
   })
   for (const m of order) expect(m.n, m.k + " is there exactly once").toBe(1)
   for (let i = 1; i < order.length; i++) expect(order[i].top, order[i].k + " sits below " + order[i - 1].k).toBeGreaterThan(order[i - 1].top)
-  await expect(page.locator("[data-explore-stats] .ng-dr-row"), "Practice then Path are the only two rows").toHaveCount(2)
+  // v1.287.0 (owner 15 Nov: "it's time to remove the Path section from the sidebar"): Practice was one of two rows here
+  await expect(page.locator("[data-explore-stats] .ng-dr-row"), "Practice is the only row").toHaveCount(1)
+  await expect(page.locator('[data-view="challenges"], [data-tab-sub]'), "no Path row anywhere in the drawer").toHaveCount(0)
   await expect(page.locator("[data-explore-stats] .ng-dr-label"), "U60 b: no Train header").toHaveCount(0)
   // THE WORD GAP (orchestrator SIDE-R1): Plus Jakarta Sans draws its space at 0.143em, so "Your lists"
   // read as one word. The harness aborts the Google font request, so the face here is a fallback with a
@@ -158,7 +166,7 @@ test("the drawer lists Search, Explore, Practice, Path, your lists and Last roll
   await expect(cats).toHaveCount(6)
 })
 
-test("the drawer draws over the map and the legend, and the legend never moves @curated", async ({ page }) => {
+test("the drawer draws over the map and the legend, and the legend never moves", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -170,9 +178,10 @@ test("the drawer draws over the map and the legend, and the legend never moves @
   expect(covered, "the drawer is on top of the legend").toBe(true)
 })
 
-test("the badge shows today's cards and rolls before it is opened, a real grade moves it, and the rolls survive a reload @curated", async ({ page }) => {
+test("the badge shows today's cards and rolls before it is opened, a real grade moves it, and the rolls survive a reload", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
+  await j.answerMode("classic")   // v1.282.0: written under Classic recall; Reveal and Got it below are its front and back
   await page.evaluate(async () => {
     const a = (window as W).__neural, day = a._epochDay()
     a.setPaused(true)
@@ -191,9 +200,11 @@ test("the badge shows today's cards and rolls before it is opened, a real grade 
   await expect(today, "today, on the badge, unopened").toHaveText("Today: 3 of 20 cards · 1 roll")
   expect(await page.evaluate(() => document.querySelector(".ng-account-menu")!.getAttribute("data-open")), "the menu is shut").toBeNull()
   // Practice: grade the owed review, then come home by the brand
+  await j.knowsPlanMoves()   // L2 (v1.292.0): a place's moves come before its cards; this journey is about the cards
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice")
-  await pressDeck(page, j, "[data-mini-reveal]", "Reveal")   // the pane chose the row; the mouse is measured
-  await pressDeck(page, j, "[data-mini-got]", "Got it")
+  await j.startMaster()   // L1 (v1.290.0): the list's button opens the day's first card, as the row did by itself before
+  await pressDeck(page, j, "[data-master-bar] [data-mini-reveal]", "Reveal")   // the pane chose the row; the mouse is measured
+  await pressDeck(page, j, "[data-master-bar] [data-mini-got]", "Got it")
   await j.clickByMouse(".ng-drawer-brand", "the brand, home")
   await expect(page.locator("[data-drawer-explore]")).toBeVisible()
   await expect(today, "the grade moved the badge").toHaveText("Today: 4 of 20 cards · 1 roll")
@@ -206,7 +217,7 @@ test("the badge shows today's cards and rolls before it is opened, a real grade 
   await expect(today, "the day's roll survived the reload").toHaveText(/ · 1 roll$/)
 })
 
-test("Practice, Path and Last rolls open their views, and the brand leads back", async ({ page }) => {
+test("@curated Practice and Last rolls open their views, and the brand leads back", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await page.evaluate(async () => {
@@ -218,42 +229,50 @@ test("Practice, Path and Last rolls open their views, and the brand leads back",
   })
   await openDrawer(j, page)
   const practice = page.locator('[data-explore-stats] [data-b="due"]')
-  await expect(practice.locator(".ng-dr-pill"), "the owed reviews, on the row").toHaveText("2 due")
-  await expect(practice.locator(".ng-dr-tail"), "and the day's goal").toContainText("1/20")
-  const path = page.locator('[data-explore-stats] [data-view="challenges"]')
-  await expect(path.locator("[data-tab-sub='challenges']")).toHaveText("0 stripes")
-  await expect(page.locator("[data-path-belt] .ng-tab-belt[data-tab-belt='white'][data-tab-stripes='0']"), "the worn belt under Path").toHaveCount(1)
-
-  await j.clickByMouse('[data-explore-stats] [data-view="challenges"]', "Path")
-  await expect(page.locator(".ng-drawer-brand")).toHaveText("‹ Path")
-  await expect(page.locator(".ng-track-card").first()).toBeVisible()
-  await j.clickByMouse(".ng-drawer-brand", "‹ Path, home")
-  await expect(page.locator("[data-drawer-explore]")).toBeVisible()
+  // until v1.278.0 the row also carried the owed reviews ("2 due"); the owner took that count out of the drawer (U171 a)
+  await expect(practice.locator(".ng-dr-pill"), "no due count on the row (U171 a)").toHaveCount(0)
+  await expect(practice.locator(".ng-dr-tail"), "the day's goal, up front").toHaveText("1/20")
+  // v1.276.0 (ruled STAGE2-GO 3, one belt in the drawer): the worn belt is the "Master the game" row's (before:
+  // `[data-path-belt] .ng-tab-belt[data-tab-belt='white'][data-tab-stripes='0']`). v1.287.0: the Path row that said its
+  // course's units in words ("0 of 6 units") left the drawer with the Path (the first small loss, accepted)
+  await expect(page.locator("[data-belt-row] .ng-belt[data-belt='white'][data-stripes='0']"), "the worn belt, on the Master the game row").toHaveCount(1)
+  await expect(page.locator("[data-path-belt], .ng-tab-belt"), "one belt in the drawer").toHaveCount(0)
 
   await j.clickByMouse('button[data-view="history"]', "Last rolls")
   await expect(page.locator(".ng-drawer-brand")).toHaveText("‹ Last rolls")
   await expect(page.locator("[data-hist-empty]")).toBeVisible()
   await j.clickByMouse(".ng-drawer-brand", "‹ Last rolls, home")
 
+  await j.knowsPlanMoves()   // L2 (v1.292.0): a place's moves come before its cards; this journey is about the cards
+
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice")
-  // titled by what it holds: v1.248.0's compact head carries the belt, so the owed reviews head the card
-  // section instead (practice-mix.spec pins the mix)
-  await expect(page.locator(".ng-pane-drillhead"), "Practice opens the session").toContainText("Practice")
-  await expect(page.locator("[data-practice-section]"), "titled by the owed reviews").toHaveText("Due reviews \u00b7 2 cards")
-  // the study head's ‹ Back is a real button (SIDE-R2 P2): it takes focus, and Enter takes it home
+  // titled by what it holds: the compact head carries the belt, so the owed reviews head the card
+  // section instead (practice-mix.spec pins the mix). v1.261.0 (owner U135 a): Practice is a view in the
+  // drawer, as Path was, so "Practice" is in the brand ("‹ Practice"), no longer in the study head.
+  await expect(page.locator(".ng-drawer-brand"), "the row opens the session (before: ‹ Practice; v1.276.0, owner U169 c)").toHaveText("‹ Master the game")
+  // until v1.278.0 titled by the owed reviews ("Due reviews · 2 cards"); Practice now goes position by position (U171 a),
+  // so the card section is titled by the open card's position, the first of the plan's
+  await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { message: "the worth plan lands" }).toBe("worth")
+  const first = await page.evaluate(() => { const p = (window as W).__neural._session.plan; return p.visits[0].seat.replace("|", " \u00b7 ") + " \u00b7 position 1 of " + p.visits.length })
+  // L1-R1 (the reader of PR #434, its finding 2): the slim line holds no text until the press, so the press comes first, as a player's does
+  await j.startMaster()
+  await expect(page.locator("[data-practice-section]"), "titled by the open card's position").toHaveText(first)
+  // Practice's ‹ Back is the brand, a real button (SIDE-R2 P2): it takes focus, and Enter takes it home
   await page.locator("[data-pane-back]").focus()
   expect(await page.evaluate(() => document.activeElement?.getAttribute("data-pane-back")), "‹ Back takes focus").toBe("1")
   await page.keyboard.press("Enter")
   await expect(page.locator("[data-drawer-explore]"), "Enter on ‹ Back leaves the session").toBeVisible()
   await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice, again")
-  await expect(page.locator(".ng-pane-drillhead")).toContainText("Practice")
+  await expect(page.locator(".ng-drawer-brand"), "before: ‹ Practice").toHaveText("‹ Master the game")
   await j.clickByMouse(".ng-drawer-brand", "the brand, out of the session")
   await expect(page.locator("[data-drawer-explore]")).toBeVisible()
 })
 
 // A REPAINT MID-PRESS MUST NOT SWALLOW THE PRESS (SIDE-R2 M10, FGD13's class): a residency or planner
-// refresh repaints the Practice row in place, and a pill rewritten between pointerdown and pointerup
+// refresh repaints the Practice row in place, and a tail rewritten between pointerdown and pointerup
 // leaves the browser no common target, so no click is dispatched at all. Nothing changed, nothing is written.
+// Until v1.278.0 the press landed on the "N due" pill; the pill left the drawer (U171 a), so it lands on the row's
+// count, the part `_paintTrain` rewrites.
 test("a repaint between pressing Practice and releasing it does not swallow the press", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
@@ -264,12 +283,12 @@ test("a repaint between pressing Practice and releasing it does not swallow the 
     a.srs = { [key]: { [a.qhash(a._cardsOf(a.flashcards.decks[key])[0].q)]: [day - 1, 3, day - 4] } }
   })
   await openDrawer(j, page)
-  const pill = (await j.boxOf('[data-explore-stats] [data-b="due"] .ng-dr-pill', "Practice's due pill"))
+  const pill = (await j.boxOf('[data-explore-stats] [data-b="due"] .ng-dr-tail', "Practice's count, the part a repaint rewrites"))
   await page.mouse.move(pill.x + pill.width / 2, pill.y + pill.height / 2)
   await page.mouse.down()
   await page.evaluate(() => (window as W).__neural._paintTrain())
   await page.mouse.up()
-  await expect(page.locator(".ng-pane-drillhead"), "the press opened Practice").toContainText("Practice")
+  await expect(page.locator(".ng-drawer-brand"), "the press opened the session").toHaveText("‹ Master the game") // v1.261.0: the brand names the view; v1.276.0: "Master the game" (before: ‹ Practice)
 })
 
 test("a principle lights its places and fades the rest of the map to ~20%, smoothly", async ({ page }) => {
@@ -300,7 +319,7 @@ test("a principle lights its places and fades the rest of the map to ~20%, smoot
   expect(levels[levels.length - 1], "and settles at ~20%").toBeCloseTo(0.2, 2)
 })
 
-test("keyboard: Tab reaches the badge, Enter opens its menu with focus inside it, the arrows walk it, and its links work by key @curated", async ({ page }) => {
+test("keyboard: Tab reaches the badge, Enter opens its menu with focus inside it, the arrows walk it, and its links work by key", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await openDrawer(j, page)
@@ -340,7 +359,8 @@ test("keyboard: Tab reaches the badge, Enter opens its menu with focus inside it
   await page.keyboard.press("End"); await page.keyboard.press("ArrowUp"); await page.keyboard.press("ArrowUp")
   expect(await focused()).toBe("data-menu-terms")
   await page.keyboard.press("Enter")
-  await expect(page.locator("body")).toContainText("Terms of Use")
+  // LEGAL3 (v1.264.0): this found the typed box's "Terms of Use"; the box now shows the Terms page's own short version
+  await expect(page.locator('.ng-legal[data-legal="terms"] [data-legal-short]')).not.toBeEmpty()
 })
 
 test("a guest's badge offers to save; a signed-in player gets neither it nor the save toast", async ({ page }) => {
@@ -444,8 +464,11 @@ test.describe("phone 390x844", () => {
       a.srs = { [key]: { [a.qhash(a._cardsOf(a.flashcards.decks[key])[0].q)]: [day - 1, 3, day - 4] } }
     })
     await openDrawer(j, page)
+      await j.knowsPlanMoves()   // L2 (v1.292.0): a place's moves come before its cards; this journey is about the cards
       await j.clickByMouse('[data-explore-stats] [data-b="due"]', "Practice")
-    await expect(page.locator("[data-session-row]").first()).toBeVisible()
+    await j.startMaster()   // L1 (v1.290.0): the list's button opens the day's first card, as the row did by itself before
+    // L1-R0: the open card's deck row is not drawn when it only repeats its place, so the open session shows by its card
+    await expect(page.locator("[data-mini-q]:visible")).toHaveCount(1)
     await page.evaluate(() => { (window as any).__practice = (window as W).__neural._session })
     const box = (await page.locator(".ng-drill").boundingBox())!
     await swipe(page, ".ng-drill", box.x + 260, box.y + box.height * 0.6, box.x + 60, box.y + box.height * 0.6 + 4)
@@ -484,11 +507,12 @@ test.describe("phone 390x844", () => {
     const strip = (await page.locator("[data-test-hscroll]").boundingBox())!
     await swipe(page, "[data-test-hscroll]", strip.x + strip.width - 20, strip.y + 40, strip.x + 20, strip.y + 42)
     expect(await drawer(page), "the scroller kept its own gesture").toBe(true)
-    // A SWIPE IS NOT A TAP: a drag that closes nothing (vertical-dominant) and lifts over the Path row
-    // must not press it with the click the browser synthesises after it…
-    const path = (await page.locator('[data-explore-stats] [data-view="challenges"]').boundingBox())!
+    // A SWIPE IS NOT A TAP: a drag that closes nothing (vertical-dominant) and lifts over a drawer row
+    // must not press it with the click the browser synthesises after it… (the row was the Path's until it left the
+    // drawer in v1.287.0; Last rolls, the other row that opens a view, stands in)
+    const path = (await page.locator('button[data-view="history"]').boundingBox())!
     await page.evaluate(([x, y1, y2]) => {
-      const el = document.querySelector('[data-explore-stats] [data-view="challenges"]') as HTMLElement
+      const el = document.querySelector('button[data-view="history"]') as HTMLElement
       const mk = (yy: number) => new Touch({ identifier: 1, target: el, clientX: x, clientY: yy })
       el.dispatchEvent(new TouchEvent("touchstart", { touches: [mk(y1)], changedTouches: [mk(y1)], bubbles: true }))
       el.dispatchEvent(new TouchEvent("touchend", { changedTouches: [mk(y2)], bubbles: true }))
@@ -497,13 +521,13 @@ test.describe("phone 390x844", () => {
     expect(await page.evaluate(() => (window as W).__neural._viewMode), "the swipe pressed nothing").toBe("explore")
     // …while a 10px wobble is still a press (the browser's own tap slop is ~8-10px)
     await page.evaluate(([x, yy]) => {
-      const el = document.querySelector('[data-explore-stats] [data-view="challenges"]') as HTMLElement
+      const el = document.querySelector('button[data-view="history"]') as HTMLElement
       const mk = (dx: number) => new Touch({ identifier: 1, target: el, clientX: x + dx, clientY: yy })
       el.dispatchEvent(new TouchEvent("touchstart", { touches: [mk(0)], changedTouches: [mk(0)], bubbles: true }))
       el.dispatchEvent(new TouchEvent("touchend", { changedTouches: [mk(-10)], bubbles: true }))
       el.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true }))
     }, [path.x + path.width / 2, path.y + path.height / 2] as const)
-    expect(await page.evaluate(() => (window as W).__neural._viewMode), "a 10px wobble is a press").toBe("challenges")
+    expect(await page.evaluate(() => (window as W).__neural._viewMode), "a 10px wobble is a press").toBe("history")
   })
 
   test("the tap on the exposed strip that closes the drawer does only that (SIDE-R2 P1)", async ({ page }) => {
@@ -569,7 +593,7 @@ test.describe("phone 390x844", () => {
     expect(await page.evaluate(() => !!(window as W).__neural._replay), "a subsequent graph input still stops the replay").toBe(false)
   })
 
-  for (const gesture of ["mouse pan", "touch pan", "touch pinch"]) test(`D2: a continuous closing ${gesture} stops replay @curated`, async ({ page }) => {
+  for (const gesture of ["mouse pan", "touch pan", "touch pinch"]) test(`D2: a continuous closing ${gesture} stops replay`, async ({ page }) => {
     const j = journey(page)
     await j.boot("/")
     await j.land("Mount Top")
@@ -618,7 +642,7 @@ test.describe("phone 390x844", () => {
     expect((await j.beats()).filter((b: any) => b.beat === "roll_replay_end")).toHaveLength(1)
   })
 
-  test("the closed drawer's icon wears an amber dot while reviews are owed, and none when nothing is", async ({ page }) => {
+  test("the closed drawer's icon wears an amber dot while reviews are owed and the goal is not met, and none otherwise", async ({ page }) => {
     const j = journey(page)
     await j.boot("/")
     const dot = page.locator(".ng-logo [data-drawer-dot]")
@@ -633,6 +657,16 @@ test.describe("phone 390x844", () => {
     await expect(dot, "a review owed: the dot").toBeVisible()
     const [r, g, bl] = (await dot.evaluate((el) => getComputedStyle(el).backgroundColor)).match(/\d+/g)!.map(Number)
     expect(r > 200 && r > g && g > bl + 40, "amber: warm, red over green over blue").toBe(true)
+    // the goal met (20 answered today), the review still owed: no dot. Until 13 Nov it stayed lit while anything was owed;
+    // the orchestrator's decision, after the owner's U171 a, is "lit until today's goal is met" (practice-order.spec.ts pins
+    // the edge, one answer short and at the goal, by real presses)
+    await page.evaluate(() => {
+      const a = (window as W).__neural, day = a._epochDay()
+      a.srs["Seed|Top"] = Object.fromEntries(Array.from({ length: 20 }, (_, i) => ["today" + i, [day + 1, 1, day]]))
+      a.updateAccountUI()
+    })
+    expect(await page.evaluate(() => (window as W).__neural.dueCount()), "premise: the review is still owed").toBeGreaterThan(0)
+    await expect(dot, "the goal met: no dot, owed or not").toBeHidden()
     await page.evaluate(() => { const a = (window as W).__neural; a.srs = {}; a.updateAccountUI() })
     await expect(dot, "paid off: gone").toBeHidden()
   })

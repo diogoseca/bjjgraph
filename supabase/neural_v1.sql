@@ -17,9 +17,9 @@ ALTER TABLE public.user_training_data
   ADD COLUMN IF NOT EXISTS neural JSONB DEFAULT '{}'::jsonb;
 
 -- RLS: no policy changes needed. The existing policies on user_training_data
--- (documented in schema.sql: users_read_own_data / users_insert_own_data /
--- users_update_own_data / users_delete_own_data — production names may differ
--- cosmetically, semantics match) are ROW-level: SELECT/DELETE filter with
+-- (documented in schema.sql under production's names since v1.253.1: "Users read own
+-- data" / "Users insert own data" / "Users update own data" / users_delete_own_data)
+-- are ROW-level: SELECT/DELETE filter with
 -- USING (auth.uid() = user_id) and INSERT/UPDATE additionally pin the written
 -- row with WITH CHECK (auth.uid() = user_id). Row policies cover every column
 -- in the row, including new ones, so the neural blob is automatically readable

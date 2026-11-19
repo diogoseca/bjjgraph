@@ -8,13 +8,15 @@ import { journey } from "../dsl";
  *
  * The design under test:
  *   · srs = {deckKey: {qhash: [due, ivl, last]}} in the v2 blob, epoch DAYS (LOCAL)
- *   · one writer `_schedule` fed by BOTH grade chokes; success climbs [1,3,7,14,30,60,120],
- *     any failure resets to 1
+ *   · one writer `_schedule` fed by BOTH grade chokes (`ngKnowledgeScheduleRow`); success climbs the owner's ladder
+ *     (v1.279.0: 1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922 days, then doubling; an early answer earns the share
+ *     of a rung that passed; the stored cell is the largest of [1,3,7,14,30,60,120] at or below due − last), any failure
+ *     resets to 1. The on-time rows this file seeds climb the same first rungs either way (3 → 7 below)
  *   · duePool = due <= today && last < today  — a failed card leaves the pool until tomorrow,
  *     so the count DRAINS on failure instead of re-serving the card all day
  *   · questionFor asks due cards FIRST, any stage — maintenance before learning, mid-roll too
- *   · merge: later `last` wins; same-day tie → smaller ivl (a failure is never erased by an
- *     earlier same-day success); success keeps the larger ivl (grade-before-pull heals)
+ *   · merge: later `last` wins; same-day tie → smaller ivl, then (v1.279.0) the earlier due (a failure is never
+ *     erased by an earlier same-day success); success keeps the larger TRUE interval (grade-before-pull heals)
  *   · due-ness never touches stage/gameScore — the belt cannot drop because time passed
  *   · ONE due number per pane (v1.172.0): the stat cell, the Challenges band and the session
  *     header all print `dueCount()` (distinct CARDS); `bucketTechniques("due")` is a COVER of
@@ -38,7 +40,7 @@ const seeded = (page: any, extra: any = {}) =>
     return { day: a._epochDay(), srs: a.srs, stage: a.stage };
   });
 
-test("a due card is asked FIRST on landing — any stage, before new cards @curated", async ({
+test("a due card is asked FIRST on landing — any stage, before new cards", async ({
   page,
 }) => {
   const j = journey(page);
@@ -72,7 +74,7 @@ test("a due card is asked FIRST on landing — any stage, before new cards @cura
   expect(asked).not.toBe(plant!.firstQ);
 });
 
-test("grading moves the schedule: success climbs the ladder, failure resets — and the pool drains @curated", async ({
+test("grading moves the schedule: success climbs the ladder, failure resets — and the pool drains", async ({
   page,
 }) => {
   const j = journey(page);
@@ -246,7 +248,7 @@ test("merge: the later review wins; a same-day failure beats a success; mature i
   expect(r.clockClamp[2]).toBeLessThanOrEqual(today);
 });
 
-test("the maintenance surfaces: every due figure is the CARD count, the session lists a cover of it, and the band starts it", async ({
+test("the maintenance surfaces: every due figure is the CARD count, and the session lists a cover of it", async ({
   page,
 }) => {
   const j = journey(page);
@@ -298,9 +300,14 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   await expect(cell).toBeVisible();
   // THE CELL PRINTS CARDS (v1.172.0, owner: "18 cards due" on the band over "35 due" here —
   // "the due cards should be consistent"). The technique count is the tooltip's second figure.
-  await expect(cell).toContainText("2 due");
-  await expect(cell).toHaveAttribute("title", /^2 cards due · 1 technique · /);
+  // until v1.278.0 the cell printed the owed CARD count ("2 due", and "2 cards due · 1 technique · " in its tooltip); the
+  // owner took the due count out of the drawer (U171 a), so the cell carries today's count and no due figure at all
+  await expect(cell.locator(".ng-dr-pill"), "no due count on the cell (U171 a)").toHaveCount(0);
+  await expect(cell).not.toHaveAttribute("title", /due/);
+  // v1.276.0 (STAGE2-GO 7): the tooltip opens with what a tap does
+  await expect(cell).toHaveAttribute("title", /^Start today's session · /);
 
+  await j.knowsPlanMoves();   // L2 (v1.292.0): a place's moves come before its cards; this journey is about the cards
   await j.clickByMouse('.ngStat[data-b="due"]', "the maintenance cell");
   await page.waitForTimeout(400);
   // THE EAGER REVIEW QUEUE (v1.207.0, full game). The due cell no longer waits for a planner:
@@ -317,7 +324,8 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
     return {
       session: !!s, practice: !!s.practice, anchor: s && s.anchor, keys: s && s.keys,
       review: s && s.review && { count: s.review.count, rows: s.review.rows.map((x: any) => [x.key, x.count]) },
-      header: a.drillHeadRef.current.innerText as string,
+      // v1.261.0 (owner U135 a): Practice is a view in the drawer, so the brand names it ("‹ Practice"), as it names Path
+      header: (document.querySelector(".ng-drawer-brand") as HTMLElement).innerText as string,
     };
   });
   expect(queue, "the queue is the review debt, and its rows are the cover").toEqual({
@@ -325,7 +333,9 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
     review: { count: 2, rows: [[r.other, 2]] },
   });
   // the RENDERED header repeats the cell's number in the cell's unit, and the foot counts progress
-  expect(header).toContain("Practice");
+  expect(header).toBe("‹ Master the game");   // before: "‹ Practice" (v1.276.0, owner U169 c)
+  // L1-R1 (the reader of PR #434, its finding 2): the slim line holds no text until the press, so the press comes first, as a player's does
+  await j.startMaster();
   await expect(page.locator("[data-practice-section]"), "P1-F: first review section repeats the drawer debt").toHaveText("Due reviews · 2 cards");
   await expect(page.locator("[data-plan-goal-progress]"), "the compact goal counts the same cards").toHaveText("Reviewed 0/2");
   // ...and the one row is narrowed to what is OWED — both cards, not its whole deck. Read off
@@ -344,24 +354,44 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   // THE PLAN SURFACE (where the untouched queue goes once the planner lands, SIDE-R2 B1; before v1.242.0
   // the queue's own "Open / retry study plan" button): the review rows are still the cover, and the
   // Practice head repeats the card count and the technique count (each row says its kind).
+  // THE PLAN MUST LAND BEFORE ANYTHING BELOW READS IT (v1.270.2). Until then nothing here waited for it:
+  // the fold's line below already reads "2 cards to review across 1 technique" from the eager queue
+  // (`_paintPractice` counts `s.review.rows` when there is no plan), so its wait was met before the
+  // released chunk had even arrived, and the read under it took `_session.plan` once. PR #406's
+  // shard 4 read `plan: false`; holding the chunk 400 ms after `release()` made that 10 of 10.
+  // The wait goes BEFORE the fold is opened: the plan's arrival re-renders the untouched queue, and until v1.278.0 the
+  // re-render closed the fold. Since FOLD1 it keeps the fold as the player left it (practice-order.spec.ts pins that by a
+  // real tap and click), so the order is no longer needed for the fold; it stays because what this test reads below is the
+  // PLAN, and a fold opened first would show the eager queue's line until it lands. Measured on the dev
+  // box, release to plan is about 1 s, network ~30 ms of it, and 3.7 to 5.7 s at 4x CPU, past the 5 s
+  // default, hence the bound practice-drawer.spec.ts uses.
+  // Until v1.278.0 the plan's review rows were the same whole cover ([other], 2 cards) and its count line read "2 cards to
+  // review across 1 technique". Practice now asks what is worth most, position by position (U171 a): the owed cards it
+  // reaches today are its choice, so what is pinned is that its review rows are still a COVER of what it asks (each owed
+  // card once, one row per deck) and that every figure it prints is that CARD count.
   release();
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._session?.plan?.order || null), { message: "the worth plan lands", timeout: 30_000 }).toBe("worth");
   await page.locator("[data-practice-details] > summary").click();
   await expect(page.locator('[data-session-section="Practice"]')).toBeVisible();
-  await expect(page.locator('[data-session-section="Practice"]')).toHaveText(/^2 cards to review across 1 technique( \u00b7 |$)/);
-  expect(await page.evaluate(() => {
-    const s = (window as any).__neural._session;
-    return { plan: !!s.plan, practice: !!s.practice, anchor: s.anchor, dueRows: s.plan && s.plan.due.length, first: s.keys[0], dueCards: s.plan && s.plan.dueCards };
-  }), "the plan's review rows are the same cover and the same card count").toEqual({
-    plan: true, practice: true, anchor: "due", dueRows: 1, first: r.other, dueCards: 2,
+  const plan = await page.evaluate(() => {
+    const s = (window as any).__neural._session, p = s.plan;
+    return { practice: !!s.practice, anchor: s.anchor, dueCards: p.dueCards, owed: p.due.flatMap((x: any) => x.owed || []), keys: p.due.map((x: any) => x.key), positions: p.visits.length, newCards: p.newCards };
   });
-  await expect(page.locator(`[data-session-row="${r.other}"]`)).toHaveAttribute("data-practice-kind", "due");
+  expect({ practice: plan.practice, anchor: plan.anchor }).toEqual({ practice: true, anchor: "due" });
+  expect(new Set(plan.owed).size, "a cover: each owed card the plan asks, once").toBe(plan.owed.length);
+  expect(new Set(plan.keys).size, "one review row per deck").toBe(plan.keys.length);
+  expect(plan.dueCards, "its review figure is the CARD count").toBe(plan.owed.length);
+  const cards = (n: number) => n + (n === 1 ? " card" : " cards");
+  await expect(page.locator('[data-session-section="Practice"]'), "and the count line prints those CARD counts").toHaveText(
+    plan.positions + (plan.positions === 1 ? " position: " : " positions: ") + (plan.dueCards ? cards(plan.dueCards) + " to review \u00b7 " : "") +
+    // ANKI1: new cards only when nothing is due (until then "N new, by how often they come up in your rolls and how close you
+    // are to forgetting them")
+    (plan.newCards ? plan.newCards + " new, by how often they come up in your rolls" : "new cards come when nothing is due"));
   await expect(page.locator("[data-plan-goal-progress]"), "the session heading counts cards too").toContainText("Reviewed 0/");
 
-  // and the Challenges band prints the SAME number while something is owed
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"));
-  await page.waitForTimeout(400);
-  await expect(page.locator("[data-maintenance]")).toBeVisible();
-  await expect(page.locator("[data-maintenance]")).toContainText("2 cards due");
+  // (the Challenges band printed today's count here while something was owed, as the Practice row does; it left the drawer
+  // with the Path in v1.287.0, SET1 slice B, the third small loss the owner accepted: the row is that door, and its count is
+  // pinned by practice-order.spec.ts, "the row: today's count, no due")
 });
 
 test("due-ness NEVER moves the score — the belt cannot drop because time passed", async ({

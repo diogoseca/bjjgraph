@@ -5,7 +5,7 @@ import { journey } from '../dsl'
 // Exercise the production group/card renderer with controlled choice labels. These
 // assertions cover text geometry and font/viewport refitting, not gameplay outcomes.
 for (const width of [390, 1440]) {
-  test(`@curated choice titles fit two lines and odds stay at the bottom at ${width}px`, async ({ page }) => {
+  test(`choice titles fit two lines and odds stay at the bottom at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     const j = journey(page)
     await j.boot('/')

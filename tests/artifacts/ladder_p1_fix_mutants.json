@@ -1,5 +1,8 @@
 [
  {
+  "_note": "v1.270.0 (U163 c, everything opens) removed the code row S3-belt-silent names (`this.fx(\"practice_belt_unfiltered\", {});`, with Practice's worn-belt filter); a replay cannot apply that row. The record stands as history."
+ },
+ {
   "id": "B1-stale-corridor",
   "file": "neural/src/app.src.jsx",
   "before": "if (this._session?.practice && this._sessionInline()) this._afterPress(() => this._practiceCorridor());",

@@ -127,13 +127,18 @@ type PageState = {
   navs: NavEvent[];
   /** navigations a journey declared it causes on purpose (`allowNavigation`) */
   navAllow: Array<{ re: RegExp; why: string }>;
+  /** the last one-trip hydrateAll(): decks asked for, files planned, carried in the trip and left to a payload rule; then, by
+   *  file name, those answered in the page, and what the answer met: cold, already in flight, or landed since the plan */
+  lastDeckTrip: { keys: number; files: number; carried: number; ruled: number; served: string[]; cold: string[]; inflight: string[]; landed: string[] } | null;
 };
 
 /** One navigation the PAGE started (never the harness's own goto/reload), as the page saw it. */
 type NavEvent = { url: string; type: string; userInitiated: boolean; source: string | null; stack: string; allowed: string | null };
 
 export class Journey {
-  constructor(private page: Page) {}
+  /** `opts.answerMode`: the answer mode a FILE of journeys was written under (v1.282.0, see `answerMode` below), written
+   *  after every boot that reaches a ready app, the way the Settings row writes it. */
+  constructor(private page: Page, private opts: { answerMode?: "auto" | "classic" | "mc" } = {}) {}
   private get st(): PageState {
     const p = this.page as any;
     return (p.__ngState =
@@ -149,6 +154,7 @@ export class Journey {
         noCurriculum: false,
         navs: [],
         navAllow: [],
+        lastDeckTrip: null,
       } as PageState));
   }
 
@@ -531,6 +537,7 @@ export class Journey {
       for (const [tag, values] of Object.entries(opts.seedRolls))
         await this.rig(tag, values);
     }
+    if (this.opts.answerMode) await this.answerMode(this.opts.answerMode);
     return this;
   }
 
@@ -549,13 +556,103 @@ export class Journey {
     );
     return this;
   }
-  /** Full residency, for journeys whose subject is not residency (a deck scan, a corpus pick). */
-  async hydrateAll() {
-    const keys = await this.page.evaluate(() =>
-      Object.keys(((window as W).__neural.flashcards || {}).decks || {}),
+  /**
+   * Full residency, for journeys whose subject is not residency (a deck scan, a corpus pick).
+   *
+   * ONE TRIP (v1.262.4, GATE2). This used to be `hydrate(every key)`: 2,862 one-deck fetches, each
+   * crossing the browser's network stack and the routes above, at 10.2 s a call on the dev box
+   * (12.8-16.6 s in a scratch probe; about 6 s on a CI runner). 26 @curated tests call it, so it was
+   * about 2.6 of the deploy gate's 36.7 minutes (reports/gatetime.md, measured on deploy-dev run
+   * 43165143504). Now the chunks travel in ONE evaluate, from the same per-worker buffers the deck
+   * route serves, and an in-page `fetch` answers the app's own request for each file from them.
+   *
+   * WHAT STILL RUNS, unchanged: `a.hydrateDecks(keys)` → `hydrateDeck` for every key: its own file
+   * name (`d.file || qhash(key) + ".json"` under `_dataBase()`, read back from the app below, never
+   * re-derived here), its `fetch`, `r.json()`, the fill in place, `_pruneStaleGrades` and
+   * `_onDeckHydrated`. Pinned by harness-deck-trip.spec.ts: every deck's cards hash the same both ways,
+   * `_onDeckHydrated` runs once per filled deck, and no deck the trip fetches reaches the route.
+   * WHAT NO LONGER HAPPENS for these calls: the chunks of the decks the trip itself fetches never cross
+   * the network stack or this harness's routes. A deck the app was ALREADY fetching on its own (a dealt
+   * option's prefetch) is joined by hydrateDeck, not asked again, so it still travels the wire as
+   * before: 10 beside 2,851 answered in the page on the first run. The normal path is still every boot's own landing deck and every deck the app
+   * asks for by itself; url-arrival.spec.ts's held-deck case proves such a fetch crosses
+   * the delay layer, and harness-deck-trip.spec.ts's `via: "route"` control proves it reaches the route.
+   * LEFT ON THE ROUTE, so nothing changes for them: a chunk under an armed payload rule (it keeps its
+   * timing) and a chunk the buffers do not hold (the route's 404). A spec that routes deck chunks
+   * ITSELF must pass `{ via: "route" }`: an in-page fetch never reaches its handler. None does today
+   * (checked: every caller of hydrateAll in e2e/, 2026-11-12).
+   */
+  async hydrateAll(opts: { via?: "trip" | "route" } = {}) {
+    const plan = await this.page.evaluate(() => {
+      const a = (window as W).__neural;
+      const decks = ((a.flashcards || {}).decks || {}) as Record<string, any>;
+      const keys = Object.keys(decks);
+      const files = keys
+        .filter((k) => !a._cardsOf(decks[k]))
+        .map((k) => decks[k].file || a.qhash(k) + ".json");
+      return {
+        keys,
+        files: [...new Set(files)] as string[],
+        base: new URL(a._dataBase() + "flashcards/", location.href).href,
+      };
+    });
+    if (opts.via === "route") {
+      this.st.lastDeckTrip = null;
+      return this.hydrate(plan.keys);
+    }
+    const bodies: Record<string, string> = {};
+    let ruled = 0;
+    for (const f of plan.files) {
+      if (this.ruleFor(plan.base + f)) { ruled++; continue; }
+      try {
+        bodies[f] = payload("flashcards/" + f).toString("utf8");
+      } catch {} // not in the buffers: the route answers it (404), exactly as before
+    }
+    const trip = await this.page.evaluate(
+      async ({ keys, base, bodies }) => {
+        const a = (window as W).__neural, real = window.fetch;
+        const decks = a.flashcards.decks, waits = a._deckWaits || {};
+        const fileOf = (k: string) => decks[k].file || a.qhash(k) + ".json";
+        // The app keeps fetching on its own (a dealt option's deck, the landing's prefetch), so decks the
+        // plan saw as cold can be in flight, or landed, by now. hydrateDeck joins an in-flight fetch
+        // instead of asking again, so only the COLD ones below can reach the answer; the split is
+        // returned so harness-deck-trip.spec.ts can account for every file.
+        const cold = new Set<string>(), inflight = new Set<string>(), landed = new Set<string>();
+        for (const k of keys) {
+          if (a._cardsOf(decks[k])) { if (Object.prototype.hasOwnProperty.call(bodies, fileOf(k))) landed.add(fileOf(k)); }
+          else if (waits[k]) inflight.add(fileOf(k));
+          else cold.add(fileOf(k));
+        }
+        const hits: string[] = [];
+        window.fetch = function (input: RequestInfo | URL, init?: RequestInit) {
+          const url = new URL(input instanceof Request ? input.url : String(input), location.href).href;
+          const file = url.startsWith(base) ? url.slice(base.length) : "";
+          if (file && Object.prototype.hasOwnProperty.call(bodies, file)) {
+            hits.push(file);
+            return Promise.resolve(
+              new Response(bodies[file], { status: 200, headers: { "content-type": "application/json" } }),
+            );
+          }
+          return real.call(window, input, init);
+        } as typeof fetch;
+        try {
+          await a.hydrateDecks(keys);
+        } finally {
+          window.fetch = real;
+        }
+        return { served: hits, cold: [...cold], inflight: [...inflight], landed: [...landed] };
+      },
+      { keys: plan.keys, base: plan.base, bodies },
     );
-    await this.hydrate(keys);
+    this.st.lastDeckTrip = {
+      keys: plan.keys.length, files: plan.files.length, carried: Object.keys(bodies).length, ruled,
+      served: trip.served, cold: trip.cold, inflight: trip.inflight, landed: trip.landed,
+    };
     return this;
+  }
+  /** What the last one-trip `hydrateAll()` on this page did (null after a `via: "route"` call or none). */
+  get lastDeckTrip() {
+    return this.st.lastDeckTrip;
   }
   /**
    * Wait until the LANDING QUESTION HAS STOPPED MOVING — mounted, or definitively not coming.
@@ -581,7 +678,8 @@ export class Journey {
       if (!a || typeof a.landSettled !== "function") return null;
       const published = await a.landSettled();
       const r = a._reader;
-      return published === false && !!r && a.get("readerBook", true) !== false && !r.root.hasAttribute("data-reference") ? a._landIdx : null;
+      // v1.253.0 (U114 a): the article is always shown, so readerBook is no longer asked.
+      return published === false && !!r && !r.root.hasAttribute("data-reference") ? a._landIdx : null;
     });
     expect.soft(stalled, `landSettled: landing ${stalled} is still unpublished 1.5s after its question settled (land_publish_stalled)`).toBeNull();
     return this;
@@ -605,6 +703,28 @@ export class Journey {
         previous = !r.layoutFrame && !r.laying && !animating ? geometry : "";
       }
     });
+    return this;
+  }
+
+  /** A WHEEL'S SCROLL CAN STILL BE MOVING WHEN A FIXED WAIT ENDS (FLAKE1, v1.270.1): mastery-gold.spec.ts:282 wheeled 800 px in
+   *  Settings, waited 150 ms and pressed at a measured point, and once in 247 the press measured the row before the scroll had
+   *  moved it, over the modal's foot. Shortening that wait to 0 failed it 10 of 10 on the unchanged app. Press only once the
+   *  target holds still: the same rect AND the same own scrollTop on three animation frames in a row (the way
+   *  `readerLayoutSettled` waits for a layout), so a row inside the scroller and the scroller itself both work as targets.
+   *  A target that is absent or never holds still within ~10 s is an error, never a silent pass. */
+  async scrollSettled(selector: string) {
+    await this.page.evaluate(async (sel) => {
+      let previous = "", still = 0;
+      for (let n = 0; n < 600; n++) {
+        await new Promise(requestAnimationFrame);
+        const el = document.querySelector(sel);
+        const now = el ? JSON.stringify([el.getBoundingClientRect().toJSON(), el.scrollTop]) : "";
+        still = now && now === previous ? still + 1 : 0;
+        previous = now;
+        if (still >= 2) return;
+      }
+      throw Error("scrollSettled: " + sel + " never held still");
+    }, selector);
     return this;
   }
 
@@ -690,6 +810,17 @@ export class Journey {
     return this;
   }
 
+  /** THE ANSWER MODE A JOURNEY WAS WRITTEN UNDER (v1.282.0). Nothing stored is Auto since then (multiple choice until a
+   *  card is at stage 2, front and back from there, in Master the game and a roll's question); until then it was
+   *  "classic" (front and back in the sidebar, multiple choice in a roll). A journey whose subject is NOT the format but
+   *  whose steps press Reveal / Got it, or answer a roll's question as multiple choice on a proven card, states the mode it
+   *  was written under here, the way a player does: the Settings row's own writer (`set`). Never a way to loosen an
+   *  assertion: the format journeys (answer-mode.spec.ts, landcard-modes 5c) leave it at the default or press it. */
+  async answerMode(mode: "auto" | "classic" | "mc") {
+    await this.page.evaluate((m) => (window as W).__neural.set("mcMode", m), mode);
+    return this;
+  }
+
   /** Queue deterministic values for a tagged RNG site. */
   async rig(tag: string, values: number[]) {
     await this.page.evaluate(
@@ -699,6 +830,44 @@ export class Journey {
     return this;
   }
 
+  /**
+   * THE PLAYER KNOWS THE MOVES TODAY'S PLAN WOULD ASK (L2, v1.292.0). Master the game asks a position's MOVES before its
+   * cards, as a cloze, in every answer mode but "Multiple choice" (`_asksMoves`): up to six due ones a visit, and up to two
+   * new ones where none is due, so a player whose record holds an answer meets a cloze at each place the plan visits (a
+   * record with no answer at all gets the older order and cards only, until its first answer). A journey whose subject
+   * is the CARDS runs a player who knows those moves (a Yes on each, not due): no cloze stands before a card and nothing of
+   * it counts toward the day. Call it after boot and BEFORE Master the game opens. It loads the planner as the page does,
+   * reads the plan the app itself builds (`planSummary`) and marks every move dealt at the places that plan asks moves at,
+   * again and again until the plan asks none (knowing a place's moves can change which places are worth most). Returns how
+   * many moves it marked. A journey about the moves (master-cloze.spec.ts) does not call it; and a journey that calls it
+   * says nothing about a new player's first day, where the cloze comes first. A planner that does not land (a journey
+   * that holds or fails its chunk on purpose) marks nothing and returns -1: such a journey does not call this at all.
+   */
+  async knowsPlanMoves(): Promise<number> {
+    return this.page.evaluate(async () => {
+      const a = (window as any).__neural, day = a._epochDay();
+      const landed = await Promise.race([a._ensureGameplanRuntime(), new Promise((r) => setTimeout(() => r(false), 8_000))]);
+      if (!landed || !a._gameplanRuntime) return -1;
+      let marked = 0;
+      for (let round = 0; round < 16; round++) {
+        const plan = a.planSummary(), asked = (plan && plan.moves) || [];
+        if (!asked.length) return marked;
+        const seats = new Set(asked.map((m: any) => m.seat)), game = a._ratingGame(a._giMode === "nogi" ? "nogi" : "gi"), at = a._practiceSeatsAt.mseats;
+        a.moves = a.moves || {};
+        for (const [st, hand] of game.seats) {
+          if (!seats.has(at[st])) continue;
+          for (const [mv, w] of hand) {
+            if (typeof w !== "number") continue;
+            const row = (a.moves[st] = a.moves[st] || {}), r = row[mv];
+            if (Array.isArray(r) && r[3] === 1 && r[0] > day) continue;
+            row[mv] = [day + 30, 30, day - 1, 1]; marked++;
+          }
+        }
+        a._movesRev = (a._movesRev || 0) + 1;
+      }
+      throw new Error("knowsPlanMoves: the plan still asks moves after 16 rounds");
+    });
+  }
   /** Pump simulated time through the app in fixed ticks. */
   async advance(ms: number) {
     await this.page.evaluate((m) => (window as W).__neural.advance(m), ms);
@@ -853,8 +1022,72 @@ export class Journey {
    * the drawer's foot, so a shut drawer is opened first, by its icon, the way a player does it.
    */
   async openAccountMenu(what = "the badge") {
-    if (!(await this.page.locator(".ngAcctChip").isVisible())) await this.clickByMouse(".ng-logo", "the drawer icon");
+    if (!(await this.page.locator(".ngAcctChip").isVisible())) {
+      // shut: the drawer icon; shown on a view without the badge (Master the game, which holds the corridor since v1.287.0, a
+      // deck): the brand, the way back to the list, since the drawer icon sits under it then
+      if (await this.page.evaluate(() => !!(window as W).__neural.deckShown)) await this.clickByMouse(".ng-drawer-brand", "back to the drawer's list");
+      else await this.clickByMouse(".ng-logo", "the drawer icon");
+    }
     await this.clickByMouse(".ngAcctChip", what);
+  }
+
+  /**
+   * MASTER THE GAME'S BUTTON (L1, v1.290.0): Master the game opens as a list with one button, and its first card opens only on
+   * the press. Journeys that open Practice and then answer its first card press it here, by mouse, once the page is open;
+   * returns when a card is open. `touch` taps it at its measured centre instead.
+   */
+  async startMaster(touch = false) {
+    const sel = "[data-master-start]"
+    await expect(this.page.locator(sel), "Master the game's button").toBeVisible({ timeout: 30_000 })
+    await expect(this.page.locator(sel), "the button is ready").toBeEnabled({ timeout: 30_000 })
+    if (touch) {
+      const b = await this.page.locator(sel).boundingBox()
+      await this.page.touchscreen.tap(b!.x + b!.width / 2, b!.y + b!.height / 2)
+    } else await this.clickByMouse(sel, "Master the game's button")
+    await expect(this.page.locator("[data-master-dock]"), "the press opens a card: the navigation shows").toBeVisible({ timeout: 30_000 })
+    return this
+  }
+
+  /**
+   * THE CORRIDOR'S ONE DOOR (v1.287.0, SET1 slice B). The Path row left the drawer (owner, 15 Nov), and its corridor (belts,
+   * units, lessons, checkpoints, capstones, objectives, the rewards shelf) is reached through Master the game, by its row,
+   * the way a player opens it: the drawer icon if the drawer is shut, then the row. Returns once the corridor is drawn and
+   * the curriculum is in (a corridor drawn before it carries no belts). Already on Master the game: nothing is pressed.
+   * Journeys that opened the Path by `openPane("challenges")` / `setViewMode("challenges")` / its row come through here.
+   * `allBelts` (the default): Master the game's corridor starts at the belt you wear, with the earlier ones one press away
+   * ("Show earlier belts", pressed here by mouse), where the Path drew all five; the earlier belts then sit BELOW the worn
+   * one's. A journey about Master the game's own first screen passes `{ allBelts: false }`; one whose curriculum never
+   * arrives (a 404) passes `{ curriculum: false }` (the corridor still draws, and names the outage).
+   */
+  async openCorridor(opts: { allBelts?: boolean; curriculum?: boolean; what?: string } = {}) {
+    const what = opts.what || "Master the game"
+    if (opts.curriculum !== false) await this.page.waitForFunction(() => !!(window as W).__neural?.curriculum, null, { timeout: 30_000 })
+    const onIt = await this.page.evaluate(() => { const a = (window as W).__neural; return !!(a.deckShown && a._practiceInDrawer()) })
+    if (!onIt) {
+      if (!(await this.page.locator('[data-explore-stats] [data-b="due"]').isVisible())) {
+        // shut: the drawer icon; shown on something else (Last rolls, a deck, a checkpoint): the brand, the way back to the list
+        if (await this.page.evaluate(() => !!(window as W).__neural.deckShown)) await this.clickByMouse(".ng-drawer-brand", "back to the drawer's list")
+        else await this.clickByMouse(".ng-logo", "the drawer icon")
+      }
+      await this.page.locator('[data-explore-stats] [data-b="due"]').scrollIntoViewIfNeeded()
+      await this.clickByMouse('[data-explore-stats] [data-b="due"]', what)
+    }
+    await expect(this.page.locator("[data-practice-page] .ng-corridor"), "the corridor is drawn in Master the game").toHaveCount(1, { timeout: 30_000 })
+    // L1 (v1.290.0): the shelf sits folded under Master the game's "Belt lessons" row, the list's last; its row unfolds it,
+    // pressed here by mouse the way a player does (a corridor door, `openCorridor`, opens it unfolded: nothing is pressed)
+    const folded = this.page.locator('[data-master-belts][aria-expanded="false"]')
+    if (await folded.count()) {
+      await folded.scrollIntoViewIfNeeded()
+      await this.clickByMouse('[data-master-belts][aria-expanded="false"]', "Belt lessons")
+      await expect(this.page.locator('[data-master-belts][aria-expanded="true"]')).toHaveCount(1)
+    }
+    const earlier = this.page.locator('[data-earlier-belts][aria-expanded="false"]')
+    if (opts.allBelts !== false && await earlier.count()) {
+      await earlier.scrollIntoViewIfNeeded()
+      await this.clickByMouse('[data-earlier-belts][aria-expanded="false"]', "Show earlier belts")
+      await expect(this.page.locator('[data-earlier-belts][aria-expanded="true"]')).toHaveCount(1)
+    }
+    return this
   }
 
   /** U104 (v1.252.0): at 1440x900 an opened question can end below the reader's scrollport, so its last answer needs a scroll
@@ -1029,17 +1262,40 @@ export class Journey {
     throw new Error(`next hand not dealt within ${capMs}ms of sim time`);
   }
 
-  /** Pump sim time in small steps until a beat appears — for sequences whose exact duration
-   *  varies (travel legs, opponent turns) but whose expiry would fire under one long advance. */
+  /**
+   * Pump `stepMs` at a time until `beat` has been emitted since boot, at most `capMs` of sim time: for
+   * sequences whose exact duration varies (travel legs, opponent turns) but whose expiry would fire under
+   * one long advance.
+   *
+   * THE CHECK IS ASKED IN THE PAGE (v1.262.7, GATE3). It used to be `(await this.beats()).some(...)`,
+   * which copies the whole beat log (up to 4,000 entries, `fx()` trims at 4,000) back to Node on EVERY
+   * step: 31 ms a call against 4.3 ms for an empty evaluate on the dev box, 1,777 calls and 54.9 s in
+   * GATE1's 138-test sample of the deploy gate (reports/gatetime.md, c2). `sawBeat()` runs the same
+   * predicate where the log lives and returns one boolean.
+   * DELIBERATELY STILL TWO ROUND TRIPS PER STEP (advance, then the check), as before: folding the
+   * check into advance()'s evaluate would read the log in the same task as the pump, so a beat that
+   * lands in a microtask or a network callback between the two would be seen one step LATER, and the
+   * journey would stop 400 ms further on. Same steps, same order, same predicate; only the copy is gone.
+   * Measured in an A/B on the same tree: the check fell from 26.6-51.5 ms a call to 17.4-25.7 ms.
+   * Pinned by harness-advance-until.spec.ts: it returns right after the step that brought the beat; it
+   * throws at the cap having pumped exactly the cap; it reads the log since boot, after one step.
+   */
   async advanceUntil(beat: string, capMs = 16000, stepMs = 400) {
     let spent = 0;
     while (spent < capMs) {
       await this.advance(stepMs);
       spent += stepMs;
-      const bs = await this.beats();
-      if (bs.some((b) => b.beat === beat)) return this;
+      if (await this.sawBeat(beat)) return this;
     }
     throw new Error(`beat "${beat}" not seen within ${capMs}ms of sim time`);
+  }
+
+  /** Has `beat` been emitted since boot? Asked in the page, so the beat log never crosses to Node. */
+  async sawBeat(beat: string): Promise<boolean> {
+    return this.page.evaluate(
+      (b) => ((window as W).__neural.beats || []).some((x: { beat: string }) => x.beat === b),
+      beat,
+    );
   }
 
   /** The visible option cards (bottom tray), by title. */
@@ -1062,12 +1318,13 @@ export class Journey {
   }
 
   /** D-318 retires Read. Research/economy fixtures use an approved video via the
-   * real dossier fetch and a real play-circle click, then close without playback. */
+   * real dossier fetch and a real play-circle click, then close it by its ✕. VID1: the
+   * press opens the theater and the video plays at once (WAS: closed without playback). */
   async watchChoice(technique: string) {
     const { openChoiceVideo } = await import("./fixtures/video-cards");
     await openChoiceVideo(this.page, technique);
-    await this.clickByMouse("[data-watch-close]", "Close the video viewer");
-    await expect(this.page.locator("[data-choice-viewer]")).toHaveCount(0);
+    await this.clickByMouse(".ng-video-theater .ngClipX", "Close the video");
+    await expect(this.page.locator(".ng-video-theater")).toHaveCount(0);
     return this;
   }
 
@@ -1240,4 +1497,4 @@ export class Journey {
   navigations(): NavEvent[] { return this.st.navs.slice(); }
 }
 
-export const journey = (page: Page) => new Journey(page);
+export const journey = (page: Page, opts: { answerMode?: "auto" | "classic" | "mc" } = {}) => new Journey(page, opts);

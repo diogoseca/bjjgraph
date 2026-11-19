@@ -135,20 +135,21 @@ test("shared credit completing a mounted plan paints completion without a local 
   assert.equal(a.events.filter((e) => e.event === "neural_session_completed").length, 1);
 });
 
-// §6.6: the belt scope needs the curriculum, and a plan built without it deals every belt. That is
-// the right offer on a 404, so it stands, and it says so: once per outage, whatever repaints it.
-test("a plan dealt with no belt to scope it says so, once until the curriculum lands", () => {
+// EVERYTHING OPENS (U163 c, owner, 13 Nov; v1.270.0): Practice's new cards come from every family. Until then this test was
+// "a plan dealt with no belt to scope it says so, once until the curriculum lands": new cards were limited to the worn
+// belt's families, and a plan built with no curriculum dealt every belt and fired `practice_belt_unfiltered` once per
+// outage. There is no scope any more, so there is no fallback to name. Mutant OPEN-M7 (the family filter restored in
+// `planSummary`) turns the first assertion red.
+test("U163 c: new cards come from every family, with a curriculum or without one", () => {
   const a = app([{ q: "first", a: "one" }]), beats = [];
+  a.flashcards.decks["Other|Attacker"] = { cat: "Transition", cards: [{ q: "other", a: "two" }] };
   a.fx = (beat) => beats.push(beat);
-  const unfiltered = () => beats.filter((b) => b === "practice_belt_unfiltered").length;
-  a.planSummary(); a.planSummary();
-  assert.equal(unfiltered(), 1, "named once, not per paint");
-  a.curriculum = { belts: [{ id: "white", units: [] }] };
-  a.planSummary();
-  assert.equal(unfiltered(), 1, "a scoped plan is not the fallback");
+  // the worn belt (white) lists only Move: Other is a later family
+  a.curriculum = { belts: [{ id: "white", units: [{ id: "u", lessons: [{ deckKey: "Move|Defender" }] }] }] };
+  assert.deepEqual(a.planSummary().fresh.map((r) => r.key).sort(), ["Move|Defender", "Other|Attacker"], "OPEN-M7: a later family is new material too");
   a.curriculum = null;
-  a.planSummary();
-  assert.equal(unfiltered(), 2, "a second outage is a second fallback");
+  assert.deepEqual(a.planSummary().fresh.map((r) => r.key).sort(), ["Move|Defender", "Other|Attacker"], "the same plan without a curriculum");
+  assert.equal(beats.filter((b) => b === "practice_belt_unfiltered").length, 0, "no scope, so no fallback to name");
 });
 
 test("a valid empty FLOW ranking stays distinct from a cold kernel", () => {

@@ -65,7 +65,7 @@ const geo = (page: any) =>
 
 // STALE CONTRACT (D-338, CI 11e7f83ff): "above the escape hand" was the pre-D-338 order; the claim kept is
 // that the drill is a landing card clear of the escape hand, in whichever order the view stacks them.
-test("the panic drill is a landing card, clear of the escape hand @curated", async ({ page }) => {
+test("the panic drill is a landing card, clear of the escape hand", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.hydrateAll();
@@ -118,7 +118,11 @@ test("grading the drill in time pumps the escape odds and spends the window (v1.
       : null;
   });
   if (mcIdx != null) {
-    await j.clickByMouse(`[data-panic-mc-opt="${mcIdx}"]`, "the correct MC option");
+    // v1.252.1 (cobbler's round-5 item): the correct option is a draw (mc-shuffle is not rigged here), and at 1440x900 the third sits
+    // with its centre at 883 or 901, below the reader's scrollport (880): 5 of 20 isolated runs, all five the third option, and all
+    // fifteen others above 880, so a race it is not. U99 b only asks that answers be reachable by scrolling; pressAnswer wheels it up
+    // over the question, game input, as a player does.
+    await j.pressAnswer(`[data-panic-mc-opt="${mcIdx}"]`, "the correct MC option");
   } else {
     await j.clickByMouse("[data-panic-reveal]", "Show answer");
     await page.waitForTimeout(150);

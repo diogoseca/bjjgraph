@@ -10,8 +10,8 @@
   {
     "name": "suppress-staged-camera-retarget",
     "file": "neural/src/app.src.jsx",
-    "from": "if (this.introDone && (this.paused || this._dossierIdx != null) && !stagedIdle) tgt = null;",
-    "to": "if (this.introDone && (this.paused || this._dossierIdx != null)) tgt = null;",
+    "from": "if (this.introDone && this.paused && !stagedIdle) tgt = null;",
+    "to": "if (this.introDone && this.paused) tgt = null;",
     "killedBy": "the node it navigates to is framed clear of the landing card",
     "assertion": "the staged camera was re-aimed once the card existed"
   }

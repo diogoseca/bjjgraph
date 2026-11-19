@@ -152,8 +152,8 @@ description: "Defend the kneebar from straight ankle lock control. Recognition c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu\u2026",
-      "description": "Kneebar from Straight Ankle Lock Control (Defender) film study: Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu\u2026.",
+      "name": "Kneebar Escape",
+      "description": "Kneebar from Straight Ankle Lock Control (Defender) film study: Kneebar Escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3zJthP57wXw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/3zJthP57wXw",
       "url": "https://www.youtube.com/watch?v=3zJthP57wXw",
@@ -198,7 +198,7 @@ Defending the kneebar from straight ankle lock control requires recognizing the 
 
 ![](https://www.youtube.com/watch?v=3zJthP57wXw)
 
-<p class="clip-credit"><strong>Kneebar Escape by Darren Branch | High Rollerz Academy - Jiu Jitsu…</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=3zJthP57wXw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kneebar Escape</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=3zJthP57wXw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

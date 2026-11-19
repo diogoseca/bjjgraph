@@ -154,43 +154,39 @@ description: "Blood chokes compress blood vessels in the neck; placement, positi
       "@type": "VideoObject",
       "position": 1,
       "name": "A detail for tighter chokes",
-      "description": "Blood Chokes film study: A detail for tighter chokes, taught by Jordan Preisinger.",
+      "description": "Blood Chokes film study: A detail for tighter chokes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ITjheLKk7-w/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ITjheLKk7-w",
-      "url": "https://www.youtube.com/watch?v=ITjheLKk7-w",
-      "creator": { "@type": "Person", "name": "Jordan Preisinger" }
+      "url": "https://www.youtube.com/watch?v=ITjheLKk7-w"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "The science of the blood choke",
-      "description": "Blood Chokes film study: The science of the blood choke, taught by Josiah Shoon.",
+      "description": "Blood Chokes film study: The science of the blood choke.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IrT8myY3jTQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/IrT8myY3jTQ",
       "url": "https://www.youtube.com/watch?v=IrT8myY3jTQ",
-      "creator": { "@type": "Person", "name": "Josiah Shoon" },
       "duration": "PT73S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "How the rear naked choke works anatomically",
-      "description": "Blood Chokes film study: How the rear naked choke works anatomically, taught by Catalyst University.",
+      "description": "Blood Chokes film study: How the rear naked choke works anatomically.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SiBG3CXr3vQ/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SiBG3CXr3vQ",
       "url": "https://www.youtube.com/watch?v=SiBG3CXr3vQ",
-      "creator": { "@type": "Person", "name": "Catalyst University" },
       "duration": "PT556S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "Choking mechanics: darce, anaconda, arm-in guillotine",
-      "description": "Blood Chokes film study: Choking mechanics: darce, anaconda, arm-in guillotine, taught by Jordan Teaches Jiujitsu.",
+      "description": "Blood Chokes film study: Choking mechanics: darce, anaconda, arm-in guillotine.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wtgggEGnMOo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/wtgggEGnMOo",
       "url": "https://www.youtube.com/watch?v=wtgggEGnMOo",
-      "creator": { "@type": "Person", "name": "Jordan Teaches Jiujitsu" },
       "duration": "PT1021S"
     }
   ]
@@ -220,7 +216,7 @@ Position and contact determine whether a choke becomes effective pressure or a n
 
 ![](https://www.youtube.com/watch?v=ITjheLKk7-w)
 
-<p class="clip-credit"><strong>A detail for tighter chokes</strong> — taught by Jordan Preisinger · <a href="https://www.youtube.com/watch?v=ITjheLKk7-w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>A detail for tighter chokes</strong> · <a href="https://www.youtube.com/watch?v=ITjheLKk7-w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Position and contact determine whether a choke becomes effective pressure or a n
 
 ![](https://www.youtube.com/watch?v=IrT8myY3jTQ)
 
-<p class="clip-credit"><strong>The science of the blood choke</strong> — taught by Josiah Shoon · 1:13 · <a href="https://www.youtube.com/watch?v=IrT8myY3jTQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The science of the blood choke</strong> · 1:13 · <a href="https://www.youtube.com/watch?v=IrT8myY3jTQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Position and contact determine whether a choke becomes effective pressure or a n
 
 ![](https://www.youtube.com/watch?v=SiBG3CXr3vQ)
 
-<p class="clip-credit"><strong>How the rear naked choke works anatomically</strong> — taught by Catalyst University · 9:16 · <a href="https://www.youtube.com/watch?v=SiBG3CXr3vQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How the rear naked choke works anatomically</strong> · 9:16 · <a href="https://www.youtube.com/watch?v=SiBG3CXr3vQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Position and contact determine whether a choke becomes effective pressure or a n
 
 ![](https://www.youtube.com/watch?v=wtgggEGnMOo)
 
-<p class="clip-credit"><strong>Choking mechanics: darce, anaconda, arm-in guillotine</strong> — taught by Jordan Teaches Jiujitsu · 17:01 · <a href="https://www.youtube.com/watch?v=wtgggEGnMOo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Choking mechanics: darce, anaconda, arm-in guillotine</strong> · 17:01 · <a href="https://www.youtube.com/watch?v=wtgggEGnMOo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -148,11 +148,10 @@ description: "Carni bottom perspective: Use the guard and shoulder connection to
       "@type": "VideoObject",
       "position": 1,
       "name": "Top lock clinch for the leglock control",
-      "description": "Carni (Bottom) film study: Top lock clinch for the leglock control, taught by Eddie Bravo.",
+      "description": "Carni (Bottom) film study: Top lock clinch for the leglock control.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EMyodFAwXZk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/EMyodFAwXZk",
       "url": "https://www.youtube.com/watch?v=EMyodFAwXZk",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
     }
   ]
@@ -171,7 +170,7 @@ Use the guard and shoulder connection to bring the opponent close before moving 
 
 Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder. Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly. Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.
 
-Richie Martinez demonstrates the configuration from Z guard through Jersey. The legs help anchor the upper body, but the submission target is the shoulder; a calf slicer, heel hook, or kneebar requires a separate lower-body capture. Shoulder pressure can arrive before a large movement is visible. Stop at control during drills, tap early, and never combine a fixed wrist with an explosive roll or a forced stack.
+The demonstration shows the configuration from Z guard through Jersey. The legs help anchor the upper body, but the submission target is the shoulder; a calf slicer, heel hook, or kneebar requires a separate lower-body capture. Shoulder pressure can arrive before a large movement is visible. Stop at control during drills, tap early, and never combine a fixed wrist with an explosive roll or a forced stack.
 
 </section>
 
@@ -187,7 +186,7 @@ Richie Martinez demonstrates the configuration from Z guard through Jersey. The 
 
 ![](https://www.youtube.com/watch?v=EMyodFAwXZk)
 
-<p class="clip-credit"><strong>Top lock clinch for the leglock control</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=EMyodFAwXZk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Top lock clinch for the leglock control</strong> · 1:01 · <a href="https://www.youtube.com/watch?v=EMyodFAwXZk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

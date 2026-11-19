@@ -15,6 +15,22 @@ function ngAuthIsGuest(auth) {
 // rising above "Your options". true = variant B: the same hits plus a central bubble over the hand.
 // The owner chooses from the demo; both paths are the same seam (`_outcomeCause`).
 const NG_OUTCOME_BUBBLE = false;
+// v1.255.2: a sign-in this browser started (see _signinCompleted), and how long it may take to complete: 30 minutes for a log-in or
+// Google's round trip, 24 hours for a sign-up's email confirmation. One localStorage key per browser, never per account: no owner.
+const NG_SIGNIN_INTENT_KEY = "bjj-neural-signin-intent", NG_SIGNIN_INTENT_MS = 30 * 60 * 1000, NG_SIGNIN_CREATE_MS = 24 * 60 * 60 * 1000;
+// THE SIGNED-IN NAME, ITS INITIAL AND THE ADDRESS NEVER REACH ANALYTICS (v1.261.2). The app never calls identify(), but it PRINTS the
+// identity, and PostHog's autocapture and session replay read what is printed. posthog-js 1.447.12, as the site loads it: a click's
+// target and every ancestor to <body> go into `$elements_chain` with ALL their attributes (`attr__title`, `attr__aria-label`, data-*)
+// and, for a/button/label/form/input, their text: a button's text is its own text nodes plus its nested <span>s' (getNestedSpanText),
+// which is how the avatar's initial rode every badge click; a press ON the name made the <b> the target, and its text went in as
+// `$el_text`. getSafeText returns "" under an ancestor with this class, and a chain holding it drops the whole click
+// (explicitNoCapture), as dead clicks and rage clicks do. The replay's rrweb runs with blockClass 'ph-no-capture': a blocked element is
+// recorded as an empty box (its class and size, no children, no later text or attribute mutation). So every element that prints the
+// identity carries this class, set BEFORE the identity is written, and holds it in its own text (or its own `title`) only, never in an
+// ancestor's attribute. A mark INSIDE a control is also `pointer-events:none` (helmet.html, `.ngAcctChip .ph-no-capture`), so a press on
+// the name lands on the control and is still counted, without the name. Settings' address line takes its span from `_addressMarkup`.
+// Pinned by e2e/journeys/no-identity-in-analytics.spec.ts, whose mirror of autocapture is transcribed from that version.
+const NG_NO_CAPTURE = "ph-no-capture";
 // EVERY CARD ANSWERED IN ONE LANDING MOVES THIS EXCHANGE AGAIN, BY A SMALLER STEP (v1.221.0, owner
 // 2026-10-05: "answering more flashcards should increase/decrease choices proba further, it's not a 1
 // slot thing, but many"). Row k-1 is the k-th card RESOLVED in one landing (answered, or run out of
@@ -36,6 +52,9 @@ const NG_LAND_ANSWER_STEPS = Object.freeze([
 // The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
 // added on the left only). The template's inline 24px is the same value for the first paint.
 const NG_TRAY_INSET = 24;
+// The drawer search draws its first 40 rows on a keystroke and the rest as the list scrolls (`_renderSearch`, v1.257.0).
+// Pinned by e2e/journeys/search-rank.spec.ts, which also holds the per-keystroke budget this was sized for.
+const NG_SEARCH_PAGE = 40;
 // U99 b (owner, 2026-11-06, over the first build's "never hiding"): a taller map, 43% at 900px tall, knowing that half of all
 // cards then need a scroll to reach their last answer. The room a live question needs under the map, from the map's bottom to the
 // window's, at the median: on 136 real cards from 16 pages (1440x900, real fonts) the bottom answer lands 486px below the map at
@@ -47,6 +66,47 @@ const NG_LIVE_ANSWER_ROOM = 514;
 // The chosen card's lift (`_placeOnTable`): a twelfth of its own height (12px on the 144px card),
 // over NG_CARD_LIFT_MS: rise, set down, settle.
 const NG_CARD_LIFT = 1 / 12, NG_CARD_LIFT_MS = 440;
+// HIDDEN MOVES (v1.255.0, owner U115-U116). A hover turns a hidden card face up, and counts as a
+// peek, the moment the pointer is on it (v1.256.7: the 250 ms dwell, NG_PEEK_DWELL_MS, is gone —
+// owner, 11 Nov: "i'd like for it to be instant"; `_hideCard`). NG_HIDE_HINT says where "reveal" is offered:
+// "badge" turns the Suggested badge into "Hover to reveal" / "Tap to reveal" while its card is
+// down; "header" writes a hint beside "Your moves" instead (the owner chooses from screens of both).
+// NG_HIDE_GRADE_NO puts a No beside EVERY "Did you get it?" — off: he wrote Yes only for a move you
+// do not know yet; the No lives on a known move that is due ("Still got it?", HIDE1A, `_peek`).
+// NG_GRADE_ARM_MS (review R3): the strip's buttons answer only a press that BEGAN this long after the strip
+// appeared — it appears where the pointer already is (on the hover's first frame, or under the revealing tap), so an
+// earlier press was aimed at the card, not at a button the player had not seen yet. With the reveal instant (v1.256.7)
+// this is the ONLY wait left on a hidden card, and it guards a press, never what the player sees.
+const NG_HIDE_HINT = "badge", NG_HIDE_GRADE_NO = false, NG_GRADE_ARM_MS = 500;
+// THE SEAL's words (v1.272.0, `_sealCard`): its hover and, after the move's name, the card's accessible name. The app's
+// own voice: the account menu's "Moves known", Settings' "moves you know or whose flashcards you have learned".
+// v1.280.0 (GOLD1): the seal tells the map's story, so its kinds are the map's marks (`_sealCard`).
+const NG_SEAL_WORDS = { recalled: "You recalled this move here", answered: "Its questions are answered", both: "Recalled here, and its questions answered" };
+// THE MAP'S GOLD (v1.280.0, GOLD1; the owner's U183 a, 14 Nov: "Gold outlines on the map: is this what you meant? a, Yes:
+// build it as drawn"; his words the night before: "a thin outline inside, in case we answer questions, and outside, in
+// case we guess it from the current node [...] The color should still be there so we can differentiate blue from red from
+// purple [...] the border, and there should be a golden outline outside that border and a golden filling inside the
+// border"). The design he approved is the designer's pick "e" (design/outline, "Geometry and colours of the pick"):
+//   OUTSIDE, a Yes in the row (`_movesGold`): gold, `line` px wide, hugging the silhouette from its edge outward, no gap,
+//     round corners, at every size.
+//   INSIDE, the move's questions answered (`_answered`: its own deck all learned): gold over the silhouette with the orb's
+//     OWN colour kept as a border inside the edge, `borderK` of the drawn radius `rs`, held between `borderMin` and
+//     `borderMax` px; full from `inFull` px of `rs`, none at `inFrom` or less, linear between (`k`, used as its alpha):
+//     below about 6 px across a triangle has under 1 px inside a 1.2 px border, so a small orb keeps its whole colour.
+//   The two are independent (his drawing: Kimura outside only, Americana both, Cross Collar Choke inside only).
+//   Gold 240,192,90 at `goldA` of the orb's own alpha factors (the dot's and the old outline's gold); the border in the
+//   orb's own fill colour, laid over the fill at `borderA` (0.62 + 0.38 x 0.87 = 0.95 of it, the design's border; the
+//   fill itself stays 0.62).
+// THE ONE CLAIM all of this exists for, and every proof hits: THE ORB'S OWN COLOUR IS VISIBLE IN EVERY STATE AT EVERY SIZE
+// (the old outline and the "Turn what you know gold" recolour both lost it, which is why he asked). So the gold lies only
+// INSIDE the border (the shape inset by it, `_insetPath`) and the border is the orb's own colour over its own fill: no gold
+// under it at any `k`. The first build stroked the border over a full gold fill, both at alpha `k`, and at rs 2.8 (k 0.5)
+// the gold showed through the half-opaque border (the band read 160,137,117 on a 103,92,103 orb, map-gold.spec.ts).
+// Drawn BATCHED and with no clip in the ordinary frame: the outside line is an outset path (`_outsetPath`), so it never lies
+// on its own orb; one clip only when two outside-marked shapes come within reach (`draw()`). Clips are what cost: measured on
+// the shared box (tests/artifacts/_map_names_frametime.mjs --ab marks, paired frames, every dealt orb marked both ways, 4x
+// CPU throttle), a clip per orb cost +0.4 to +0.5 ms a held frame, and so did the first build's clip per overlapping shape.
+const NG_MAP_MARKS = { gold: { r: 240, g: 192, b: 90 }, goldA: 0.95, borderA: 0.87, line: 1, borderK: 0.32, borderMin: 1.2, borderMax: 2.2, inFrom: 2.4, inFull: 3.2 };
 // The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
 // by `_dockLandFilm` (the end padding is 1 of the same unit). helmet.html `.ng-landfilm`.
 const NG_FILM_FADE_RATIO = 3;
@@ -111,6 +171,8 @@ const NG_LAND_DECK_MIN_H = 236;
 // OWNERQ1: content URLs select their node with dormant game controls. A move or
 // landing-card answer starts play; reading and minimizing never arm the clock.
 const NG_READING_DEFAULT_ON_CONTENT_URL = true;
+// LEGAL3 (v1.264.0): the site's two legal pages, bare, with a slash or ".html". Arriving on one opens its box (openLegal).
+const NG_LEGAL_PAGE = /^\/(privacy|terms)(?:\.html|\/)?$/;
 const NG_LAYER_KEYS = { film: "landFilm", card: "landCard", hand: "landHand" };
 const NG_LAYER_ORDER = ["film", "card", "hand"];
 // THE CAMERA'S MOTION (v1.219.0; see `_camStep`). Module scope, so an app built without its
@@ -167,15 +229,17 @@ const NG_CAM_OPEN_HOMED = "[data-reader-game-part],[data-reader-game-media],[dat
 const NG_CAM_OPEN_CSS = "@property --ng-open-o{syntax:'<number>';inherits:false;initial-value:1}"
   + "@property --ng-open-y{syntax:'<length>';inherits:false;initial-value:0px}"
   + "[data-ng-open] .ng-reader{opacity:var(--ng-open-o);translate:0 var(--ng-open-y)}"
-  + "[data-ng-open] .ng-reader-shelf{opacity:var(--ng-open-o)}"
   + "[data-ng-open] :is(" + NG_CAM_OPEN_ROWS + "):not(" + NG_CAM_OPEN_HOMED + "){opacity:var(--ng-open-o)!important}"
-  + "[data-ng-open][data-ng-book=off] :is(" + NG_CAM_OPEN_ROWS + "):not(" + NG_CAM_OPEN_HOMED + "){translate:0 var(--ng-open-y)!important}"
-  + "[data-ng-open=faint] :is(" + NG_CAM_OPEN_ROWS + ",.ng-reader-shelf){visibility:hidden}"
+  + "[data-ng-open=faint] :is(" + NG_CAM_OPEN_ROWS + "){visibility:hidden}"
   // the film in the reader's media home keeps reading.css's `visibility:visible!important`; a faint board outranks it
   + "[data-ng-open=faint] .ng-reader :is([data-reader-media],[data-reader-game-media]){visibility:hidden!important}"
   // ...and the section's own controls (article links, tools, section labels) take no tap or focus while faint
   + "[data-ng-open=faint] .ng-reader :is(a,button,input,select,textarea,summary,[tabindex]:not([tabindex='-1'])){visibility:hidden!important}"
-  + "[data-ng-open=release] :is(.ng-reader,.ng-reader-shelf," + NG_CAM_OPEN_ROWS + "){transition:opacity .2s ease,translate .2s ease}";
+  // ...and the reader itself with its index (the wrap's own child, z 6, outside the reader): at faint the article is under 10%,
+  // the index was not faded at all, and either still takes the wheel, which pauses the game as reading (v1.280.3, STAR1: a
+  // round's end board held so under its verdict); hidden, the map takes it
+  + "[data-ng-open=faint] :is(.ng-reader,.ng-reader-toc){visibility:hidden}"
+  + "[data-ng-open=release] :is(.ng-reader," + NG_CAM_OPEN_ROWS + "){transition:opacity .2s ease,translate .2s ease}";
 // Below this the board's rows and shelf are HIDDEN, not merely transparent: an opacity-0 row still takes a
 // tap and focus (CLAUDE.md 6.1; review m3 measured a tap on the first card at effective opacity 0.066). The
 // rise passes it in its first ~0.24s, and a restart's breath out in its last ~0.3s.
@@ -210,15 +274,25 @@ function ngOpenZoom(u, v0, up) {
 // first (v1.101.1); the film ✕, the hand ✕ and the dock glyphs share it so they cannot drift.
 const NG_GHOST_BTN_CSS = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:24px;height:24px;border:none;border-radius:7px;background:none;color:#8b97b0;font-size:12px;line-height:1;display:flex;align-items:center;justify-content:center;transition:color .15s,background .15s;";
 // SPACED-REPETITION INTERVAL LADDER (v1.105.0, owner directive — reverses the old "forgetting is
-// tested, not timed" canon). No ease factor: fewer fields, fewer merge cases. A success climbs one
-// rung; any failure resets to rung 0 (1 day).
-const NG_SRS_IVLS = [1, 3, 7, 14, 30, 60, 120];
+// tested, not timed" canon). No ease factor: fewer fields, fewer merge cases. The ladder, the cell an
+// older client reads and what an early or late answer earns live in knowledge-profile.src.js
+// (`NG_KNOWLEDGE_LADDER`, `ngKnowledgeScheduleRow`, v1.279.0); the copy that stood here (`NG_SRS_IVLS`)
+// was read by nothing and went with it.
 // THE DAILY GOAL, in cards (owner U56 e, 2026-10-28: "The goal today is to do 20 flashcards"). A goal,
 // never a cap: reviews and new cards both count, and it is also the day's NEW-card quota — the planner
 // stops dealing new cards once the day's answers reach it, and never stops dealing reviews
 // (NG_PRACTICE_REVIEWS_PER_NEW in gameplan.src.js has the ratio and the reasoning). The `dailyGoal`
 // setting overrides it; Settings' own default repeats the 20.
 const NG_PRACTICE_GOAL = 20;
+// THE FEATURE'S NAME (owner U169 c, 13 Nov; v1.276.0): the drawer row, its view's title and back, and its aria say
+// "Master the game", and the row's tooltip and aria say what it does, "Start today's session". ONLY the words: nothing
+// stored, no analytics event id, no selector and no URL is renamed (`data-session-section="Practice"` is a VALUE that
+// 14 spec lines select on, and `neural_practice_opened` an event id), and identifiers keep "practice".
+const NG_PRACTICE_NAME = "Master the game";
+const NG_PRACTICE_START = "Start today's session";
+// The drawer row's belt colours (v1.276.0): the drawn belt's (its blue is the design's #2c5299), deeper than the Path's
+// UI tints (NG_CHALLENGE_TRACK_COLORS), under the same woven texture (helmet.html `.ng-belt`). Black wears a red bar.
+const NG_BELT_ROW_COLORS = Object.freeze({ white: "#e6e2d6", blue: "#2c5299", purple: "#673c98", brown: "#77492b", black: "#1d1d22" });
 // How long a landing question may be "still settling" before readers stop waiting on it. A stalled
 // deck fetch must not make the app look hung; the fetch itself is never cancelled. See v1.104.8.
 const NG_LAND_WARM_CEILING_MS = 8000;
@@ -295,14 +369,15 @@ const NG_RESIDENCY_MAX_HOLD_MS = 2000;
 // runs ~4x slower.
 const NG_READER_FIRST_LAYOUT_MS = 3000;
 // THE PANE'S VIEWS — `setViewMode` validates against this set. Since v1.242.0 (owner A5/E1) they are no
-// longer tabs: "explore" is the drawer's home list, and Path (`challenges`) and Last rolls
-// (`history`) open from its rows, the brand leading back ("‹ Path"). The view ids never migrated.
-const NG_PANE_TABS = ["explore", "challenges", "history"];
+// longer tabs: "explore" is the drawer's home list, and Last rolls (`history`) opens from its row, the brand leading
+// back ("‹ Last rolls"). THE PATH (`challenges`) LEFT THE DRAWER in v1.287.0 (owner 15 Nov: "it's time to remove the Path
+// section from the sidebar"; SET1 slice B): its corridor's one home is Master the game, and a request for the retired
+// view, or its older alias `collection`, opens it there (`openCorridor`). The view ids never migrated.
+const NG_PANE_TABS = ["explore", "history"];
 // The drawer's glyphs (owner board E1 / T-b): stroked 24px paths, drawn by `ngIcon`.
 const NG_IC = {
   explore: '<circle cx="12" cy="12" r="8.5"/><path d="M15.4 8.6l-2.1 4.7-4.7 2.1 2.1-4.7z"/>',
   practice: '<rect x="4.5" y="5" width="15" height="14.5" rx="2.5"/><path d="M4.5 9.5h15M9 3v3.5M15 3v3.5M9.5 14.2l1.8 1.8 3.4-3.6"/>',
-  path: '<path d="M8 4h8v4a4 4 0 01-8 0zM5 5h3v3a3 3 0 01-3-3zM19 5h-3v3a3 3 0 003-3zM12 12v4m-4 4h8"/>',
 };
 function ngIcon(d) { return '<svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + d + '</svg>'; }
 const NG_DRAWER_LOGO = '<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24"><path d="M6.5 16.5l5-9 6 7" stroke="#9ea3ff" stroke-width="1.8" fill="none" stroke-linecap="round"/><circle cx="6.5" cy="16.5" r="2.6" fill="#9ea3ff"/><path d="M11.5 4.6l2.6 2.9-2.6 2.9-2.6-2.9z" fill="#d5d9ea"/><path d="M17.5 11.9l3 5.1h-6z" fill="#e8c070"/></svg>';
@@ -310,7 +385,8 @@ const NG_DRAWER_LOGO = '<svg aria-hidden="true" width="22" height="22" viewBox="
 // gold off. Opposite technique poles therefore share a purple-grey site colour.
 const NG_MIX_SITES_BY_DEFAULT = true;
 // THE SETTINGS TABS, IN ROW ORDER: [id, label]. The row, its one click handler and its arrow keys
-// all read this, and nothing else names a tab (v1.196.1). It replaced five hand-built spans with
+// all read this, through `_settingsTabs` (the part of it one opening shows, NG_DIGEST_LIVE below),
+// and nothing else names a tab (v1.196.1). It replaced five hand-built spans with
 // five class names (.t-fc .t-rl .t-md .t-nt .t-kb) and five listeners, i.e. the same list written
 // three times. The id is what `openSettings(tab)` takes and what `_settingsTab` holds, so a
 // deep link such as the account menu's "Keyboard shortcuts" row keeps working through a rename
@@ -318,6 +394,31 @@ const NG_MIX_SITES_BY_DEFAULT = true;
 // `.ng-stabs`), and settings-tabs.spec.ts's ">= 768 all fit" assertion goes red on purpose so that
 // somebody looks at the desktop row before it ships.
 const NG_SETTINGS_TABS = [["flashcards", "Flashcards"], ["rolling", "Rolling"], ["modifiers", "Modifiers"], ["notifications", "Notifications"], ["shortcuts", "Shortcuts"]];
+// IS THE TRAINING-DAY EMAIL LIVE? Not yet (v1.261.1). Owner, 12 Nov 2026, briefing answer U139 a:
+// "Hide it while the digest is off." The digest cannot send: the owner decided on 11 Nov 2026 that it
+// stays off, and its two tables, `digest_sent` and `digest_suppress` (supabase/digest_v1.sql), do not
+// exist in production (supabase/schema.sql's header). Turning the switch on sent nothing; it only
+// started recording the per-day `dayLog` that syncs with the account. A read-only check of production
+// on 12 Nov found no account with `emailDigest` on and none with a day log.
+// WHILE THIS IS false, `openSettings` draws the Notifications tab in exactly ONE case: a signed-in
+// account whose stored `emailDigest` is on, so it can turn it off (the row then says no email is being
+// sent yet). Everyone else gets no tab: a signed-in player with it off would find an empty tab, and a
+// guest's one line ("Sign in … to turn it on") would send them to sign in for a switch that is not there
+// (the orchestrator's round-2 correction, DIGEST2: a guest included, whatever is stored on the device).
+// The decision is made ONCE PER OPENING, so pressing Off leaves the row where it is until Settings
+// closes and it is gone from the next opening on; a deep link to the hidden tab opens the first tab.
+// NOTHING STORED CHANGES: nothing here writes, renames or deletes `emailDigest` (the digest worker
+// selects on that key, and a settings key can never be deleted, CLAUDE.md §6.6), and `noteCardDone`
+// still records the day log by the stored setting alone, exactly as before.
+// BEFORE ANYONE FLIPS THIS TO true, all three must hold:
+//   1. both tables exist in production (digest_v1.sql applied, and schema.sql's header says so);
+//   2. the digest worker (workers/digest) is deployed and has sent a real digest;
+//   3. the privacy page (content/privacy.md) describes the training-day email. On 12 Nov 2026 it says
+//      nothing about it: its email lines are about signing in only.
+// Flipped to true, Settings is v1.259.1's to the letter: five tabs for everyone, the row for every
+// signed-in player, the guest's line, no "not sent yet" words (tests/settings_presentation.test.mjs,
+// "flipped", and the DIGEST1 differential in docs/Changelog-Archive.md).
+const NG_DIGEST_LIVE = false;
 // THE FOLD-MAP KEY FOR EXPLORE'S "YOUR LISTS" SECTION (v1.196.1), and its header's
 // `data-explore-section` handle — the same label-is-key-is-handle rule the other six follow. A
 // settings key can never be deleted (CLAUDE.md §6.6), so once written this string is permanent:
@@ -358,7 +459,6 @@ class Component extends DCLogic {
   optionsRef = React.createRef();
   fxRef = React.createRef();
   drillRef = React.createRef();
-  drillTitleRef = React.createRef();
   drillHeadRef = React.createRef();
   drillListRef = React.createRef();
   drillFootRef = React.createRef();
@@ -416,11 +516,9 @@ class Component extends DCLogic {
   explorerSearchWrapRef = React.createRef();
   explorerToolsRef = React.createRef();
   dossierRef = React.createRef();
-  dossierSheetRef = React.createRef();
   viewToggleRef = React.createRef();
   ghChipRef = React.createRef();
   _viewMode = "explore";   // the drawer's list: an open that names no view lands home (SIDE-R2 M8)
-  nodeCardRef = React.createRef();
   evCenterRef = React.createRef();
   evcKickerRef = React.createRef();
   evcTextRef = React.createRef();
@@ -431,16 +529,15 @@ class Component extends DCLogic {
       canvasRef: this.canvasRef, wrapRef: this.wrapRef, loaderRef: this.loaderRef,
       evRef: this.evRef, evKickerRef: this.evKickerRef, evTextRef: this.evTextRef,
       optionsRef: this.optionsRef, fxRef: this.fxRef,
-      drillRef: this.drillRef, drillTitleRef: this.drillTitleRef, drillHeadRef: this.drillHeadRef, drillListRef: this.drillListRef, drillFootRef: this.drillFootRef, drillCountRef: this.drillCountRef,
+      drillRef: this.drillRef, drillHeadRef: this.drillHeadRef, drillListRef: this.drillListRef, drillFootRef: this.drillFootRef, drillCountRef: this.drillCountRef,
       shareCueRef: this.shareCueRef,
       closeDeck: () => this.setDeckOpen(false), drawerHome: () => this.drawerHome(), openSignup: () => this.openAuth("create"),
-      statusRef: this.statusRef, legendMarkRef: this.legendMarkRef,
+      legendMarkRef: this.legendMarkRef,
       accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, acctCtaRef: this.acctCtaRef, toggleAccountMenu: () => this.toggleAccountMenu(),
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
-      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef,
-      toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
+      explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef,  viewToggleRef: this.viewToggleRef,
+      toggleExplorer: () => this.toggleExplorer(), openSearchPane: () => this.openSearchPane("icon"),
       legendPointRef: this.legendPointRef, legendRef: this.legendRef,
-      togglePause: () => this.setPaused(!this.paused), resetRoll: () => this.resetRoll(),
       evCenterRef: this.evCenterRef, evcKickerRef: this.evcKickerRef, evcTextRef: this.evcTextRef, evcSubRef: this.evcSubRef,
     };
   }
@@ -490,10 +587,6 @@ class Component extends DCLogic {
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; }
     if (this._onPageHide) window.removeEventListener("pagehide", this._onPageHide);
     if (this._onVisHide) document.removeEventListener("visibilitychange", this._onVisHide);
-    if (this._onChallengeConnectivity) {
-      window.removeEventListener("online", this._onChallengeConnectivity);
-      window.removeEventListener("offline", this._onChallengeConnectivity);
-    }
     if (this._raf) cancelAnimationFrame(this._raf);
     if (this._ro) this._ro.disconnect();
     if (this._onChoiceFonts) document.fonts.removeEventListener("loadingdone", this._onChoiceFonts);
@@ -512,7 +605,18 @@ class Component extends DCLogic {
   }
 
   // ---------- timers (pause-aware) ----------
-  clearTimers() { (this._timers || []).forEach((t) => { if (t.id) clearTimeout(t.id); }); this._timers = []; this._retireCamOpen(); this._camOpenManual = false; }
+  // THE ROUND'S END LIVES EXACTLY AS LONG AS THE TIMER THAT ENDS IT (v1.280.3, STAR1). `endRound` sets `endZoom` (the wide end
+  // framing), the verdict and the "New roll in Ns…" countdown, and only its own restart timer lifted them; a node clicked in
+  // that hold (`rollFromPosition`, also free roam and a reference page) clears the timers, so `endZoom` stayed true and
+  // `updateCamera` aimed every later frame at the end framing. The owner, 15 Nov: "when i click a node in the graph, it seems
+  // like it always zooms me out instead of zooming me in and panning ... maybe it stops working well after restarting".
+  // Measured by real mouse at 1440: x1.52 and x1.41 wider, the clicked orb 3 px, the camera stuck wide and the countdown line
+  // still up with no roll coming; the same on v1.279.0 and v1.273.1 (an old fault, not #410's or #417's). So whatever clears
+  // the timer ends the hold too: its LIFTERS are this line and the timer's own. Pinned by e2e/journeys/restart-notice.spec.ts.
+  clearTimers() {
+    (this._timers || []).forEach((t) => { if (t.id) clearTimeout(t.id); }); this._timers = []; this._retireCamOpen(); this._camOpenManual = false;
+    if (this.endZoom) { this.endZoom = false; this.hideCenter(); if (this.evRef.current) this.evRef.current.style.opacity = "0"; }
+  }
   /** Cancel ONE timer handed back by `after()` — the replay steps its own film and must be able to
    *  stop it without `clearTimers()`, which would also disarm the paused roll waiting underneath. */
   _cancelTimer(it) {
@@ -744,12 +848,94 @@ class Component extends DCLogic {
    * pane, and the stale latch resumes a roll the user had just paused by hand. The promise
    * inverted. A deliberate pause/resume clears the pane, dossier and background claims. */
   _clearPauseLatches() {
-    this._paneAutoPaused = false; this._dossierAutoPaused = false;
+    this._paneAutoPaused = false;
     this._bgAutoPaused = false;
+  }
+  /**
+   * SHOW ON THE MAP IS A LOOK, NOT A RETURN TO PLAY (L3 ruling 1, v1.293.0). A Last rolls row's "Show on the map" frames the
+   * place it holds as a session's row frames its node (`locateNode`: the visible map, through `pairMid`, lit for a moment),
+   * takes the camera's 7 s lease (`holdCamera`), and NAMES it (`_shown`, below): the first real screens showed the place
+   * in the middle of the map with no name on it, and on a phone the row that named it is gone with the drawer. On a
+   * desktop the drawer stays beside the map and nothing else moves. ON A PHONE THE DRAWER IS THE SCREEN, so the press has
+   * to shut it, and by pane law shutting it resumes a roll the drawer stopped: the player would watch the place while the
+   * roll moved on without them. So the drawer's pause is handed
+   * to a latch of its own, `_lookAutoPaused`, exactly as a film takes it (`_replayAutoPaused`, `applyDeckVisibility`): one
+   * latch a pauser, so letting go gives back only a pause that was taken (§6.5). It is taken ONLY when the drawer is what
+   * stopped the game (`_paneAutoPaused`): a board that was already still (staged, read, ended, roamed) is not the look's.
+   *
+   * WRITER: `_showPlace`, on a phone. Beat `look_held`.
+   * LIFTERS, the complete set (`_lookEnd(by)`, beat `look_ended` with `by`, so no end is silent, §6.6):
+   *   "map"    the player's next hand on the map: `attachInput`'s pointerdown (tap, pan, the first finger of a pinch) and its
+   *            wheel, the same hands that end a film. The roll resumes, and THAT PRESS DOES NOTHING ELSE: it is consumed
+   *            there, as the press that closes the drawer is (it used to go on into the tap router and end the roll).
+   *            AND THE PRESS LEAVES THE PLACE NAMED FOR THE CAMERA'S HOLD TIME (L3-R2; `_lookEnd`'s second argument): the
+   *            press after it is the one that opens the place, and the name is what tells it which half (T7).
+   *   "drawer" the drawer opening again, by any door (`applyDeckVisibility`): the pause goes back to the drawer's own latch,
+   *            so shutting it resumes as it always does.
+   *   "clock"  the roll resumed by another hand (`setPaused(false)`: a move played from the hand, a modal shut with the
+   *            drawer shut). The look has nothing left to give back. A PAUSE by another hand does not end it (a clip watched
+   *            and closed restores the pause it found, `_choiceLearn`; ending the look there would leave a roll nothing resumes).
+   *   "roll"   a new journey (`clearEngagement`: a new roll, a staged place, free roam, a reference page). The roll the
+   *            look was holding is gone, so nothing is resumed; without this the next hand on the map would start a staged
+   *            board's clock or wake a page's dormant one.
+   * Each is pinned in e2e/journeys/last-rolls-places.spec.ts, which names the mutant of each (M8 to M15, M33).
+   */
+  _showPlace(i) {
+    if (this._replay) this.stopReplay("input");   // a film owns the camera; asking to see a place ends it, as a hand on the map does
+    if (this.isMobile()) {
+      const held = this._paneAutoPaused;
+      this._paneAutoPaused = false;               // before the drawer shuts: its close would resume
+      this.setDeckOpen(false);
+      if (held) { this._lookAutoPaused = true; this.fx("look_held", {}); }
+    }
+    this.locateNode(i); this.holdCamera();
+    this._shown = { i, t: this._camHoldTarget };
+  }
+  // THE PLACE "SHOW ON THE MAP" SHOWED, NAMED ON THE MAP the way a node under the pointer is (`draw()`'s hover label reads this
+  // when nothing is under the pointer). No lifters of its own to forget (§6.5): it lasts exactly as long as what it rides,
+  // the look's hold on a phone (`_lookAutoPaused`: however long the player looks) and the camera's lease ON THIS FLIGHT
+  // (`camHeld()` with the lease's own target: 7 s, a pan, pinch or wheel, any other flight, a move played, any
+  // go-elsewhere). Nothing clears it by hand: a line that did, in `_lookEnd`, survived its own mutant (the lease had
+  // already said no).
+  _shownNode() {
+    const s = this._shown;
+    return s && (this._lookAutoPaused || (this.camHeld() && this._camHoldTarget === s.t)) ? this.nodes[s.i] || null : (this._shown = null);
+  }
+  // `press`: THE PRESS ON THE MAP THAT ENDS A LOOK TAKES THE CAMERA'S LEASE AGAIN, SO THE PLACE STAYS NAMED FOR THE CAMERA'S
+  // HOLD TIME (L3-R2, the reader's re-read of PR #440 at 6ce6a6f03). That press is consumed (above), so on a phone the door
+  // to the place is the press AFTER it, and the name is what tells that press which half is meant (T7, `attachInput`'s tap
+  // router: at 390 a pair's two halves are drawn on one pixel). But the name rode the look and the first lease only, and a
+  // look of more than 7 s had spent the lease: the press that ended the look ended the name with it, and the next one,
+  // made 2 px above the place, opened the DEFENDER's card from a row about attacking (the reader, 1 of 1; 4 of 5 doors
+  // after a 10 s look, 5 of 5 made at once). The lease rather than a second clock of the name's own, for what a lease
+  // already knows how to end: its 7 s, a pan (the same press, dragged), a pinch, a wheel, a move played, any go-elsewhere.
+  // And it keeps the map still under the second press: the roll runs again, and the follow-cam would otherwise leave for
+  // where it stands. The wheel passes no `press`: it takes the camera for itself (`releaseCamera`), as it always did.
+  _lookEnd(by, press) {
+    if (!this._lookAutoPaused) return;
+    if (press && this._shown) { this.holdCamera(); this._shown.t = this._camHoldTarget; }
+    this._lookAutoPaused = false;
+    this.fx("look_ended", { by });
+    if (by === "drawer") this._paneAutoPaused = true;
+    else if (by === "map") this.setPaused(false);
   }
   setPaused(p) {
     if (!p && this._readerIntent) return; // reading/minimizing never resumes a dormant board
     if (this.paused === p) return;
+    if (!p) this._lookEnd("clock");        // resumed by another hand: a look has nothing left to give back (`_showPlace`)
+    // A CLOCK THAT RUNS IS NOBODY'S (FOLLOW1, v1.293.1). The drawer's latch is a claim on a STOPPED clock ("close = resume,
+    // only if the pane is what stopped it"), and nothing ended that claim when another hand started the clock: with the
+    // drawer open beside the board a move played from the hand (a press on its card, or its digit: one road,
+    // `activateOption`) left the roll running with `_paneAutoPaused` still set, measured on dev v1.292.1 and on v1.293.0 at
+    // 1440 and 1024, 1 of 1 each by mouse and by key. Shutting the drawer then "resumed" a roll that was already running
+    // and beat `pane_resumed` for it (the "Close them" objective's event), and a phone's look took a hold over a running
+    // clock (`_showPlace` reads the latch). v1.113.4 met the same fault from the pause toggle and cleared the latch in the
+    // toggle (`_clearPauseLatches`); the toggle went in v1.134.0 and every other resumer kept the hole. It is closed HERE,
+    // at the one writer, for every resumer there is or will be: the latch can only be set while the clock is stopped
+    // (its three setters all run stopped: the drawer's opening, a film handing its pause back, a look handing its hold
+    // back), and the only thing that starts the clock clears it. The drawer's own closing clears it first, so this line
+    // changes nothing there.
+    if (!p) this._paneAutoPaused = false;
     // PRESSING PLAY ENDS THE FILM. A replay holds the clock on purpose; resuming the roll under it
     // would leave two things moving the same camera and the same pulse. `stopReplay` nulls
     // `_replay` before it can call back in here, so this cannot recurse.
@@ -758,11 +944,10 @@ class Component extends DCLogic {
 
     this.paused = p;
     if (p) this.pauseTimers(); else this.resumeTimers();
+    if (this.endZoom) this._endBoard(!p);   // the round's end: the board away only while its timer runs (`_endBoard`)
     // The option countdown bars need nothing here since v1.114.1: they are no longer CSS
     // animations but a width written by `_tickDecision`, which is `gdt`-driven — so a paused
     // clock freezes them by construction, and a refund moves them, which an animation could not.
-    const list = this.drillListRef.current;
-    if (list) list.querySelectorAll(".ngCurExpire").forEach((w) => { w.style.animationPlayState = p ? "paused" : "running"; });
   }
   resetRoll() {
     // Restart is a request for a new camera flight, even immediately after a pan or click.
@@ -776,6 +961,7 @@ class Component extends DCLogic {
   // reroute odds refreshes to escape math, and a cancelled sweep never haunts the canvas.
   clearEngagement() {
     this.clearExecution();
+    this._lookEnd("roll");   // a new journey: the roll a look was holding is not there to resume (`_showPlace`)
     // v1.227.0, owner 2026-10-15: navigation starts a NEW journey, even if a roll
     // was already running. This seam covers restaging, reader links and resets.
     // Capture the identity before opponent travel; neither a later fetch nor play
@@ -843,7 +1029,7 @@ class Component extends DCLogic {
     this.ctx = this.canvas.getContext("2d");
     this._ro = new ResizeObserver(() => this.resize());
     this._ro.observe(this.wrapRef.current);
-    this._onChoiceFonts = () => this.fitChoiceTitles();
+    this._onChoiceFonts = () => { this._inkM = this._nm = null; this.fitChoiceTitles(); };   // a font that lands changes every map name's width (`_planNames`)
     document.fonts.addEventListener("loadingdone", this._onChoiceFonts);
     this._onWinResize = () => this.resize();
     window.addEventListener("resize", this._onWinResize);
@@ -926,6 +1112,20 @@ class Component extends DCLogic {
         if (dragMoved > 6) { e.stopPropagation(); e.preventDefault(); }
         dragMoved = 0;
       }, true);
+      // THE SLIVER BESIDE THE OPEN DRAWER BEHAVES AS ONE THING (FOLLOW2, v1.293.3). On a phone the drawer is the screen
+      // and leaves a strip of the board showing. A touch on the MAP there is the drawer's way out: it shuts the drawer,
+      // the roll it held resumes, and that is all it does (`closeDeckIfStudying`, pane law). The ends of two of the hand's
+      // cards show in that strip too, and a touch on one PLAYED it, the drawer still open over the board (the reader of
+      // PR #441 at (365,339); measured again on v1.293.1). A press on the hand there now does what the map does beside
+      // it, by the map's own function, and nothing else: no card is played, turned up or opened. Capture phase, on the
+      // row, so it holds for a card, its buttons and the row's own controls alike. Not a key (`detail` 0: Enter on a
+      // focused card goes on to `activateOption`, which refuses it), and never on a desktop, where the drawer stands
+      // beside the hand (`sbOffset`): a press beside it plays, as it always did.
+      orow.addEventListener("click", (e) => {
+        if (e.detail === 0 || !this.deckShown || this.sbOffset() !== 0) return;
+        e.stopPropagation(); e.preventDefault();
+        this.closeDeckIfStudying();
+      }, true);
     }
     // modal: card blocks pan + wheel; backdrop click closes
     if (this.modalCardRef.current) { this.modalCardRef.current.addEventListener("pointerdown", (e) => e.stopPropagation()); this.modalCardRef.current.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
@@ -935,8 +1135,8 @@ class Component extends DCLogic {
     // where its 95 outranks every ambient overlay (landcard 5, combo pop 72).
     // Listeners above survive the move; the account menu portals the same way when opened.
     if (this.modalRef.current && this.__ngRoot && this.modalRef.current.parentElement !== this.__ngRoot) this.__ngRoot.appendChild(this.modalRef.current);
-    const logoEl = this.wrapRef.current.querySelector(".ng-logo");
-    if (logoEl) {
+    // The drawer button and the search icon beside it (v1.254.0): a press must not reach attachInput's capture on the wrap (§6.1).
+    for (const logoEl of this.wrapRef.current.querySelectorAll(".ng-logo,.ng-search")) {
       logoEl.addEventListener("pointerdown", (e) => e.stopPropagation());
       logoEl.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false });
     }
@@ -944,14 +1144,13 @@ class Component extends DCLogic {
     this._onKey = (e) => {
       const t = e.target, typing = t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
       if (this._filmTheater) { if (e.key === "Escape") { e.preventDefault(); this.collapseClip(this._filmTheater.card); } return; }
-      if (this._choiceWatch) { if (e.key === "Escape") { e.preventDefault(); this._closeChoiceWatch(); } return; }
       if (e.key !== "Escape" && this.modalRef.current?.style.display === "flex") return;
       if (e.key !== "Escape" && this._readKey(e)) return;
-      if (((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing)) {
+      if (this._isSearchKey(e)) {
         e.preventDefault();
-        this.openPane("explore");
-        this.explorerSearchRef.current?.focus();
+        this.openSearchPane("key");
       } else if (e.key === "Escape") {
+        if (this._earlyOpen) { e.preventDefault(); this._setEarlyOpen(null); return; }   // "not that", before the data (EARLY1-R1)
         // Esc walks the Z LADDER top-down: deliberate screens first (modal 95, menu 90),
         // then temporary gameplay screens, then the pane above the landing reading column.
         // The "Start a fresh roll" confirm is the newest deliberate screen whenever it is up (it
@@ -961,29 +1160,21 @@ class Component extends DCLogic {
         if (this.closeModalIfOpen()) return;
         if (this.closeListPicker()) return; // anchored chooser, same deliberate band as the menu
         if (this.closeAccountMenu()) return;
-        if (this._expandedClip && this._expandedClip.closest("[data-concept-film]")) {
-          e.preventDefault(); const clip = this._expandedClip; this.collapseClip(clip); clip.focus(); return;
-        }
-        if (this.closeNodeDossier()) return; // in-node dossier open (desktop) — fly back out
         if (this.stopReplay("esc")) return;  // a film is ambient chrome: it stops before the pane closes
-        const sh = this.dossierSheetRef.current;
-        if (sh && sh.style.display === "block") { this.closeDossierSheet(); }
-        else if (this.deckShown) {
-          if (this._dossierIdx != null) this.showExplorerList();
-          else this.setDeckOpen(false);
-        }
+        if (this.deckShown) this.setDeckOpen(false);
       } else if (!typing && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
+        // LAST ROLLS' KEYS (L3, ruling 2): ↑ ↓ walk the places; ← → do nothing here (they paged the deck a row held until
+        // v1.293.0), and are still taken, so they never reach the branches below. ⏎ and Space are further down (`_placeOpen`).
         e.preventDefault();
         const f = (this._rollFocus == null ? (this.rollLog ? this.rollLog.length - 1 : 0) : this._rollFocus);
         if (e.key === "ArrowUp") this.focusRollItem(f - 1);
         else if (e.key === "ArrowDown") this.focusRollItem(f + 1);
-        else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (!typing && this._sessionInline() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         // THE INLINE SESSION'S TWO AXES (v1.137.0, owner: "I can go back and forth between
         // techniques and between flashcards"). Same shape as the History-home branch above and
         // the same `_focusedMini` handle — ←/→ page the open deck's cards, ↑/↓ walk the queue.
         e.preventDefault();
-        if (e.key === "ArrowUp" || e.key === "ArrowDown") this.sessionNav(e.key === "ArrowDown" ? 1 : -1);
+        if (e.key === "ArrowUp" || e.key === "ArrowDown") this.sessionNav(e.key === "ArrowDown" ? 1 : -1, true);
         else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (!typing && this.isDrillOpen() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         e.preventDefault();
@@ -999,23 +1190,12 @@ class Component extends DCLogic {
         else if (e.key === "ArrowRight") this.drillNext();
         else if (e.key === "ArrowDown") { if (!this.drillTechNav(1)) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); } }
         else if (e.key === "ArrowUp") { if (!this.drillTechNav(-1)) { if (this.revealed) this.drillGrade(false); else this.drillReveal(); } }
-      } else if (!typing && this._challengeInline() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
-        // THE CORRIDOR'S TWO AXES (v1.175.0, owner: "keys navigation especially for the
-        // flashcards in the challenges … up arrow down arrow left right space enter"). Identical
-        // in shape to the History-home and inline-session branches above, on the same `_miniReg`
-        // handles: ←/→ page the open lesson deck's cards, ↑/↓ walk the ladder's lesson rows,
-        // opening each one as it arrives (`challengeLessonNav`, challenge-ui.src.js).
-        // ORDER: BELOW the drill branch, so a checkpoint quiz or a lesson study — both
-        // `_paneStudyActive`, which `_challengeInline` excludes — keeps the keys it already had;
-        // ABOVE the landing card's ←/→, for the reason that branch states about itself.
-        e.preventDefault();
-        if (e.key === "ArrowUp" || e.key === "ArrowDown") this.challengeLessonNav(e.key === "ArrowDown" ? 1 : -1);
-        else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (e.key === "Enter" && !typing) {
         // ── ⏎ COMMITS THE CARD IN FRONT OF YOU (v1.175.0) ─────────────────────────────────────
         // Space FLIPS a card, ⏎ says "got it" and walks on (`doEnter` in `_miniDeck` owns the
         // three-state rule), so a deck is workable without leaving the home row. Below the option
         // sheet's Enter, which executes the staged technique and must keep the key.
+        // On an open Last rolls row ⏎ is "Practise here" (L3, ruling 2; `_placeOpen`), where the place has one.
         //
         // THE ACTIVATION GUARD IS SPACE'S, FOR SPACE'S REASON (v1.113.4): ⏎ activates every
         // focused <button>/<summary>/<a> too, and the Challenges corridor is built entirely out
@@ -1023,8 +1203,9 @@ class Component extends DCLogic {
         // to the browser instead — which is exactly why an opening inline deck moves focus onto
         // its deck BOX, a container that owns neither key (see `openMini`).
         if (t && t.closest && t.closest("button,summary,a[href],select,[role='button'],[contenteditable]")) return;
-        const mini = this._focusedMini();
-        if (mini) { e.preventDefault(); mini.enter(); }
+        const mini = this._focusedMini(), place = this._placeOpen();
+        if (place) { e.preventDefault(); if (place.go) place.go(); }
+        else if (mini) { e.preventDefault(); mini.enter(); }
         else if (this.isDrillOpen()) {
           // the study takeover reads back the same way, so ⏎ means the same thing there as ↓ —
           // and, like ↓, never during an open checkpoint quiz (see the drill arrows above)
@@ -1052,6 +1233,7 @@ class Component extends DCLogic {
         // `_focusedMini()` is the surface scope, not just a registry hit: it is what keeps Space
         // off a deck that belongs to another tab (see its own header).
         else if (e.key === " " && this._focusedMini()) { this._focusedMini().reveal(); }
+        else if (e.key === " " && this._placeOpen()) this._placeOpen().show();   // an open Last rolls row: Show on the map (L3, ruling 2)
         // SPACE TOGGLES A LIVE RECALL BLOCK (ported from journey/defend-wt, v1.91.0). LAST of the
         // three, so an open study surface and a focused mini-row both keep the key they already
         // had — this only claims Space when nothing else wanted it. `_recallLive()` is the whole
@@ -1074,6 +1256,14 @@ class Component extends DCLogic {
       } else if (!typing && this.optionKeyIndex(e) >= 0 && this._optPick && this._optList && (!this._rollHand || this._rollHand.mounted) && !this._checkpoint && this.get("cardNumbers", true) && this._handShown() && !this.optionsRef.current?.hasAttribute("data-reader-pending")) {
         // A hidden hand cannot act, nor one the reader has not published (D-351); a checkpoint
         // owns the keys even above its answer count.
+        // A KEY TAKES THE ROAD ITS PRESS TAKES (FOLLOW1, v1.293.1). The digits are the only keys that act on the roll while
+        // the drawer holds it (the survey, at v1.293.1: 14 key listeners in the build inputs and this ladder's 14 branches,
+        // read whole; FOLLOW2-R1 added a fifteenth listener, the keyup that ends a repeat, which acts on nothing;
+        // A to C, Enter, Space, P, the arrows and the paging keys are each scoped to the drawer's own surface or stand down
+        // with the landing card). Where the drawer stands BESIDE the board the card can be pressed, the press plays it, and
+        // so does its digit: one function, and the drawer's claim on the clock ends with the move (`setPaused`).
+        // WHETHER A DIGIT PLAYS ITS CARD IS ASKED BY REACH, AT `activateOption` (FOLLOW2, v1.293.3; `_optionReach`): PR
+        // #441 refused it here by width (640 and under), and the reader showed where width is not reach.
         // Q007: an open checkpoint quiz owns the keyboard — digits above the MC option
         // count must never fall through to the roll's option-card openers (a '5' opened
         // the expand sheet and Enter then COMMITTED the roll under the live quiz)
@@ -1081,14 +1271,19 @@ class Component extends DCLogic {
         // card plays through the reader's activateOption (beginPlay), so an intent gate left only the keyboard dead
         // there: the plain digit is the owner's play (v1.218.1; submission-choices' triangle defender).
         const opt = this._optList[this.optionKeyIndex(e)];
-        if (opt && !this._reader?.interacting) { e.preventDefault(); const oc = (this._optionCards || []).find((c) => c.opt === opt); this.activateOption(opt, this._optPick, oc && oc.card); }
+        if (opt && !this._reader?.interacting) { e.preventDefault(); const oc = (this._optionCards || []).find((c) => c.opt === opt); this.activateOption(opt, this._optPick, oc && oc.card, undefined, true); }
       }
     };
     window.addEventListener("keydown", this._onKey);
     // LAST INPUT MODALITY, one latch, two writers. Capture phase so no stopPropagation can starve
     // it — several overlays swallow pointerdown on purpose (§6.1). Read by the pane's focus
     // restore above; keep it that cheap, it runs on every event.
-    window.addEventListener("keydown", () => { this._kbNav = true; }, true);
+    // ...and whether the key now down is a REPEAT (`_keyRepeat`): Enter on a focused card is a click with no pointer, and
+    // a click carries no `repeat`, so the card's own listener asks here (FOLLOW2-R1: a held Enter must not play the
+    // card it has just shown, nor play on into the next hand). LIFTERS: the next keydown (it writes the flag again) and
+    // any keyup, so the flag is set only while a key is held and repeating.
+    window.addEventListener("keydown", (e) => { this._kbNav = true; this._keyRepeat = !!e.repeat; }, true);
+    window.addEventListener("keyup", () => { this._keyRepeat = false; }, true);
     window.addEventListener("pointerdown", (event) => {
       this._kbNav = false;
       // Track before the deferred reader exists too: adopting or resizing a
@@ -1200,6 +1395,10 @@ class Component extends DCLogic {
       // Pinned by share-mobile's held Systems response during a native capture touch.
       let paneTouch = false;
       drill.addEventListener("pointerdown", (e) => { this._panePress = true; paneTouch = e.pointerType === "touch"; }, true);
+      // The pointer that last ENTERED the drawer, for `_afterPress`'s hover hold: a finger has no hover
+      // to protect (see there). pointerover fires for a touch before its pointerdown, and for a mouse
+      // or pen as it moves in, so a hybrid device's mouse gets its hold back the moment it returns.
+      drill.addEventListener("pointerover", (e) => { this._paneHoverTouch = e.pointerType === "touch"; }, true);
       const release = () => {
         if (!this._panePress) return;
         this._panePress = false;
@@ -1220,18 +1419,7 @@ class Component extends DCLogic {
     this.settings = this.settings || {};
     this._loadProgress(); // restore prep / daily history / settings (guest persistence)
     this._renderLayerDock(); // a layer put away last visit shows its dock glyph from the first frame
-    this._onChallengeConnectivity = () => {
-      const explorer = this.explorerRef.current;
-      if (
-        this._viewMode === "challenges" &&
-        explorer &&
-        explorer.style.display === "flex"
-      ) {
-        this.renderExplorer();
-      }
-    };
-    window.addEventListener("online", this._onChallengeConnectivity);
-    window.addEventListener("offline", this._onChallengeConnectivity);
+    // (the Path's repaint on going online or offline left with the Path, v1.287.0)
     // THE AFFILIATE FUNNEL'S ONE EVENT, RE-EMITTED (v1.106.7). `affiliateTracking.inline.ts` —
     // the only `affiliate_clickout` delegate — died with the legacy front-end in v1.80.0, and
     // v1.83.0 restored the ATTRIBUTES but not the listener, so the documented funnel (CLAUDE.md
@@ -1259,6 +1447,8 @@ class Component extends DCLogic {
     this._initAuth();     // signed-in? real identity + merge-on-pull cloud sync (facade-gated)
     this.paused = false;
     this.applyFont();
+    // LEGAL3: on /privacy or /terms the box is the page. It opens here, from the article the server sent, before the graph is fetched.
+    { const k = NG_LEGAL_PAGE.exec(location.pathname); if (k) { this._legalHold = true; this.openLegal(k[1], { arrival: true, hash: location.hash }); } }
     let data = null, graphBytes = null;
     for (let attempt = 0; attempt < 5 && !data; attempt++) {
       try {
@@ -1355,6 +1545,9 @@ class Component extends DCLogic {
     // reload is armed in _csArmHide(), called from _csInit() at the TOP of boot — registering it
     // here left the whole cold-load window (loader up, nothing playable) unmeasurable.
     this._csArmHide();
+    // a press made before the data landed is honoured HERE, after the share link and the URL have seeded the page: a
+    // reading arrival shuts the drawer, so an earlier honour was undone in the same task on every content page (EARLY1-R1)
+    this._honourEarlyOpen();
     this.startLoop();
   }
 
@@ -2041,7 +2234,9 @@ class Component extends DCLogic {
     this.pulse = { path, seg: 0, t: 0, onArrive, done: false, t0: this.now, tint: this.activeMove ? this.activeMove.col : null };
   }
   /** `amp` scales the bloom this node gets; the places the roll STOPS pass ARRIVE_BLOOM. */
-  flare(idx, amp) { const n = this.nodes[idx]; if (n) { n.lit = this.now; n.litK = amp || 1; } }
+  // `trail` (v1.275.0): one of MANY lit together (a path, a cascade, a wide replay beat, the ripple): its name is best effort.
+  // Without it the node is the one the player was sent to or shown, and the map names it as acted on (`draw()`, LIT NODES).
+  flare(idx, amp, trail) { const n = this.nodes[idx]; if (n) { n.lit = this.now; n.litK = amp || 1; n.litT = !!trail; } }
   /**
    * WHERE THE PULSE IS, IN THE COORDINATES IT IS DRAWN IN (v1.129.7).
    *
@@ -2098,7 +2293,7 @@ class Component extends DCLogic {
         // passed through. The arrival bloom belongs where the roll STOPS: `enterLand`, and the
         // submission that ends a round. (Measured: without this, "Sweep from Meathook" bloomed
         // as hard as the position it swept you into.)
-        this.flare(p.path[p.seg + 1]); p.seg++;
+        this.flare(p.path[p.seg + 1], 0, 1); p.seg++;
       } else { p.t += advance / segTime; advance = 0; }
     }
     const h = this.headPos(); this.camFocus = { x: h.x, y: h.y };
@@ -2190,13 +2385,6 @@ class Component extends DCLogic {
   }
   /** True for the "Top"/"Attacker" half of a deck key — the `primary` side seatWord() asks about. */
   seatIsPrimary(role) { const r = String(role || "").toLowerCase(); return r === "top" || r === "attacker"; }
-  advLabel(d) {
-    if (d >= 0.55) return "Dominant";
-    if (d >= 0.18) return "Winning";
-    if (d > -0.18) return "Even";
-    if (d > -0.55) return "Losing";
-    return "In trouble";
-  }
   // The legend marker is the current decision's WIN CHANCE (`_paintWinThermometer`, v1.207.0), not
   // this node's dominance. A landing only means the shown value belongs to the previous decision.
   setStatus(node) {
@@ -2230,6 +2418,156 @@ class Component extends DCLogic {
     if (!n._searchNames) n._searchNames = [n.t, n.aka || "", ...(n.aliases || [])].filter(Boolean).map((s) => this._foldSearch(s));
     return n._searchNames.some((s) => s.includes(this._aliasQueryFold));
   }
+  // ── SEARCH RANKS ITS RESULTS (v1.257.0, owner, 11 Nov: "when i search for something like Side Control i was
+  // expecting to see matches according to their relevance ... instead they apear like as item n20 which makes it look
+  // too unsorted. also, when i search guillotine, the guillotine choke should show first"). Until this version the
+  // drawer's search was `nodes.filter(nodeMatches).slice(0, 120)`: NO order at all, node-array order, and the 120 cap
+  // cut in that order, so "guard" (320 sites) showed an arbitrary 120 (a cap over an unordered list is a random
+  // sample, CLAUDE.md §6.6). Side Control the position was row 17 of 56 under its own name.
+  //
+  // THE ORDER IS ONE STRICT TOTAL ORDER, ranked BEFORE any cap (`_rankCmp`), keys in this order:
+  //   1. band (`_rankTier`): 0 the NAME matches (it is the query, an alias is the query, it starts with it, or every
+  //      query word starts one of its words) · 1 the query is inside a word · 2 only together with where it starts
+  //      from ("Armbar from Side Control" for "side control") · 3 an alias matches in part · 4 one typo (opt-in);
+  //   2. head: an exact name leads band 0, then an exact nickname, of ANY kind (review D2b, v1.257.0: kind used to come
+  //      first, so "triangle escape" put Triangle Escape Position above the transition named exactly that);
+  //   3. kind: submission, position, transition, System. A finish before the place it is finished from, because the
+  //      corpus names its control positions after the finish ("Guillotine Control", "Armbar Control", "Triangle
+  //      Control"), and before its setups, whose bare names often EQUAL the query ("Guillotine from Turtle" is a
+  //      transition whose printed name is "Guillotine"). A player typing "guillotine" means the choke (owner's example).
+  //      Measured: 7 of 77 submission names carry a word a position query starts (Mounted Crucifix Armbar, North-South
+  //      Choke, Kesa Gatame Arm Crush, Far Side Armbar, Triangle Choke Side, Kneebar x2, Can Opener); the head key keeps
+  //      an exact name first over all of them;
+  //   4. a TRANSITION with no "from <origin>" tail before the "from X" ones ("Knee Slice Pass" before "Knee Slice from
+  //      Half", "Scissor Sweep" before "Sweep from Saddle"). NOT for submissions (review D2): every family start is
+  //      titled "X from Y", so the key put the five stand-alone submissions above every family ("choke" opened on Buggy
+  //      Choke, importance 0, above Rear Naked Choke). Any technique's "from X" variant PRINTS its bare stem ("Sweep from
+  //      Electric Chair" prints "Sweep"), so it is never an exact name, only a match that starts the name;
+  //   5. exactness inside band 0: the name, an alias, the name starts with it, a later word does;
+  //   6. importance: how much of the game passes through it in THIS ruleset (`_searchWeights`);
+  //   7. the shorter title; 8. the folded title; 9. the id (unique, stable content: never the node index).
+  //   (A position family's hub before its members was tried as key 4 and dropped: every family-less position then
+  //   beat every member, so "mount" listed Reverse Mount (7.4) above High Mount (28.2), and "guard" put Open Guard,
+  //   the third most-occupied guard, behind seven family hubs. Importance orders positions on its own.)
+  //
+  // FOLDING: accents off, case off, and every run of anything that is not a letter or a digit is ONE word break, so
+  // "arm bar" finds Armbar, "x guard" finds X-Guard, "50/50" finds 50-50 Guard, "mata leao" finds Mata Leão. Every word
+  // of a multi-word query must match, in any order ("control side" finds Side Control). What the old substring test
+  // matched, this still matches (deleting the same characters from both strings keeps a substring a substring); the
+  // one narrowing is a query with no letter or digit at all ("-", "/"), which now lists nothing. KNOWN, AND NOTHING IS LOST
+  // TODAY: a letter outside a-z after the accent strip (ß, ø, CJK) folds to a word break, so such a query lists nothing
+  // where the old substring test matched it; the corpus's only non-ASCII letter is the "ã" of Mata Leão, which folds.
+  _rankFold(s) {
+    const t = this._foldSearch(s).replace(/[^a-z0-9]+/g, " ").trim();
+    const w = t ? t.split(" ") : [];
+    const starts = []; let c = "";
+    for (const x of w) { starts.push(c.length); c += x; }
+    return { w, c, starts };
+  }
+  /** How a query meets ONE name: 0 it IS the name · 1 the name starts with it · 2 every query word starts a word of
+   *  the name, in any order (or the query, spaces folded, starts at a word: "arm bar" in "Reverse Armbar") · 3 it is
+   *  inside a word · 9 no match. */
+  _rankField(f, q) {
+    if (!f || !f.c || !q.c) return 9;
+    if (f.c === q.c) return 0;
+    if (f.c.startsWith(q.c)) return 1;
+    if (q.w.every((x) => f.w.some((y) => y.startsWith(x)))) return 2;
+    for (let i = 1; i < f.starts.length; i++) if (f.c.startsWith(q.c, f.starts[i])) return 2;
+    return f.c.includes(q.c) ? 3 : 9;
+  }
+  /** ONE TYPO, the last band (opt-in): every query word of 4+ letters is within one edit (insert, delete, change, or
+   *  two neighbours swapped) of a word of the name or of that word's start; shorter words must start a word. */
+  _rankTypo(f, q) {
+    if (!f || !f.w.length || !q.w.some((x) => x.length >= 4)) return false;
+    const near = (a, b) => {           // optimal string alignment distance <= 1, linear
+      if (a === b) return true;
+      const la = a.length, lb = b.length; if (Math.abs(la - lb) > 1) return false;
+      let i = 0; while (i < la && i < lb && a[i] === b[i]) i++;
+      if (la === lb) return a.slice(i + 1) === b.slice(i + 1) || (a[i] === b[i + 1] && a[i + 1] === b[i] && a.slice(i + 2) === b.slice(i + 2));
+      return la > lb ? a.slice(i + 1) === b.slice(i) : a.slice(i) === b.slice(i + 1);
+    };
+    return q.w.every((x) => f.w.some((y) => x.length < 4 ? y.startsWith(x)
+      : near(x, y) || near(x, y.slice(0, x.length)) || near(x, y.slice(0, x.length + 1)) || near(x, y.slice(0, x.length - 1))));
+  }
+  /** The folded fields one node is ranked on, cached on the node and dropped when aliases land (`_ensureAliases`).
+   *  `m` the name a row prints (graphName: no role, no "from" tail) · `t` the whole title, origin included · `a` every
+   *  aka and alias · `v` 1 for a technique's "from X" variant · `canon` the same for a TRANSITION only (key 4). */
+  _rankKey(n) {
+    if (n._rk) return n._rk;
+    const m = this.graphName(n), sp = this.splitName(n.t);
+    const v = n.ty !== "positions" && sp.from ? 1 : 0, canon = n.ty === "transitions" ? v : 0;
+    const kind = n.ty === "submissions" ? 0 : n.ty === "positions" ? 1 : 2;
+    return (n._rk = { m: this._rankFold(m), t: sp.from ? this._rankFold(n.t) : null, v,
+      a: [n.aka, ...(n.aliases || [])].filter(Boolean).map((s) => this._rankFold(s)),
+      canon, kind, len: n.t.length, name: this._foldSearch(n.t), id: n.id });
+  }
+  /** `{band, ex}` for one ranked entry (`m` names, `a` aliases, `t` the whole title or null, `p` alias-like extras).
+   *  band 9 = not a result. `ex` orders band 0: 0 the name IS the query, 1 an alias is, 2 it starts the name, 3 a word. */
+  _rankTier(k, q, typo) {
+    const ms = Array.isArray(k.m) ? k.m : [k.m];
+    const m = Math.min(...ms.map((f) => this._rankField(f, q)));
+    if (m === 0 && !k.v) return { band: 0, ex: 0 };
+    if (k.a.some((f) => f.c === q.c)) return { band: 0, ex: 1 };
+    if (m <= 2) return { band: 0, ex: Math.max(2, m + 1) };
+    if (m === 3) return { band: 1, ex: 0 };
+    if (k.t && this._rankField(k.t, q) < 9) return { band: 2, ex: 0 };
+    if (k.a.concat(k.p || []).some((f) => this._rankField(f, q) < 9)) return { band: 3, ex: 0 };
+    if (typo && ms.concat(k.t ? [k.t] : [], k.a, k.p || []).some((f) => this._rankTypo(f, q))) return { band: 4, ex: 0 };
+    return { band: 9, ex: 0 };
+  }
+  /** IMPORTANCE = how much of the game passes through a site in the CURRENT ruleset, from the table `gameScore`
+   *  already sums (curriculum.json `scoreWeightsByOrd`, on the boot payload, so ranking fetches nothing): a position
+   *  is the stationary occupancy of its two seats added, a technique the visit rate of its attempt. The two are one
+   *  unit (`build_score_weights`), but this only ever compares like with like: kind sorts first.
+   *  Distinct values over the sites each ruleset allows, measured on the v1.256.2 wire: gi 1,026 over 1,419 sites
+   *  (1,400 non-zero), no-gi 964 over 1,276 (all non-zero); `tests/search_rank.test.mjs` floors it at 900.
+   *  ABSENT CURRICULUM IS SAID, NOT GUESSED (§6.6): every weight reads 0, so the order falls to length and name, and a
+   *  `search_rank_cold` beat fires once per frame so the fallback cannot pass as a ranking. */
+  _searchWeights() {
+    const fr = this._giMode === "nogi" ? "nogi" : "gi", W = this.scoreWeights(fr);
+    const memo = this._rankW;
+    if (memo && memo.fr === fr && memo.W === W && memo.n === this.nodes.length) return memo.v;
+    const v = new Float64Array(this.nodes.length);
+    if (W) {
+      for (const n of this.nodes) {
+        if (!n.rep || !this.rsAllows(n)) continue;   // the frame's own sites: the only rows `searchRank` reads
+        let x = W[this.deckKeyFor(n).key] || 0;
+        const p = n.ty === "positions" && n.pi >= 0 ? this.nodes[n.pi] : null;
+        if (p) x += W[this.deckKeyFor(p).key] || 0;
+        v[n.idx] = x;
+      }
+    } else if (!(this._rankCold || (this._rankCold = {}))[fr]) { this._rankCold[fr] = true; this.fx("search_rank_cold", { frame: fr }); }
+    this._rankW = { fr, W, n: this.nodes.length, v };
+    return v;
+  }
+  _rankCmp(a, b) {
+    return a.band - b.band || a.head - b.head || a.kind - b.kind || a.canon - b.canon || a.ex - b.ex || b.w - a.w ||
+      a.len - b.len || (a.name < b.name ? -1 : a.name > b.name ? 1 : 0) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+  }
+  /** THE ONE SEARCH (v1.257.0): every rep site this ruleset allows plus every System, in one strict total order.
+   *  `rows` are `{n}` (a node) or `{s}` (a System) with the rank fields beside. A System ranks as kind 3 on its title
+   *  and name; its aliases are aliases, and a product or an instructor ("danaher") counts as an alias in part.
+   *  `opts.typo` admits the one-typo band; `opts.systems === false` leaves Systems out. */
+  searchRank(raw, opts = {}) {
+    const q = this._rankFold(raw), rows = [];
+    if (!q.c) return { q, rows };
+    const W = this._searchWeights();
+    const push = (r, t, kind) => { r.band = t.band; r.ex = t.ex; r.kind = kind; r.head = t.band === 0 && t.ex <= 1 ? t.ex : 2; rows.push(r); };
+    for (const n of this.nodes) {
+      if (!n.rep || !this.rsAllows(n)) continue;
+      const k = this._rankKey(n), t = this._rankTier(k, q, opts.typo);
+      if (t.band < 9) push({ n, canon: k.canon, w: W[n.idx], len: k.len, name: k.name, id: k.id }, t, k.kind);
+    }
+    if (opts.systems !== false) for (const s of this.systems || []) {
+      if (!s._rk) s._rk = { m: [s.display_title, s.name].filter(Boolean).map((x) => this._rankFold(x)),
+        a: (s.aliases || []).map((x) => this._rankFold(x)), t: null,
+        p: (s.products || []).flatMap((p) => [p.name, p.instructor]).filter(Boolean).map((x) => this._rankFold(x)) };
+      const t = this._rankTier(s._rk, q, opts.typo), title = s.display_title || s.name || "";
+      if (t.band < 9) push({ s, canon: 0, w: 0, len: title.length, name: this._foldSearch(title), id: s.id }, t, 3);
+    }
+    rows.sort((a, b) => this._rankCmp(a, b));
+    return { q, rows };
+  }
   /** The shortest name that is still unambiguous: "Triangle from Back" when "Triangle" is shared
    *  by more than one node, plain "Gogoplata" when it is not. Compact surfaces only — the share
    *  surfaces, lists and dossier always render the FULL authored name by canon.
@@ -2259,14 +2597,14 @@ class Component extends DCLogic {
   // AND SO DOES THE DOM (v1.171.0). Owner, on the aka rows: "those trailing Top vs aka without
   // top is weird. actually the top shouldn't appear there trailing, only in those subtitles."
   // Every DOM surface printed `splitName(n.t).main`, which for a position IS the whole title —
-  // so the canvas said "Kesa Gatame", the node card said "Kesa Gatame" (it strips, and hands the
-  // seat to its badge — see openDossier), and the Explore row, the search row, the list drawer,
+  // so the canvas said "Kesa Gatame", the node card said "Kesa Gatame" (the node card is retired,
+  // v1.255.1), and the Explore row, the search row, the list drawer,
   // the systems row and every naming prose line said "Kesa Gatame Top". Two answers to one
   // question (§6.5), and the row's answer is WRONG twice over: `_deriveDualPairs` gives both pair
   // members the hub's title, so a BOTTOM seat's row read "Top" too, and Explore lists SITES
   // (`if (!n.rep) continue`), where no seat is being named at all.
-  // THIS IS THE ONE NAME, on every surface. A seat is named beside it, never inside it: the node
-  // card's badge, the systems/concept row's role chip, the canvas rich label's role word.
+  // THIS IS THE ONE NAME, on every surface. A seat is named beside it, never inside it: the
+  // systems/concept row's role chip, the canvas rich label's role word.
   graphName(n) { return n.ty === "positions" ? this.posFamily(n.t) : this.splitName(n.t).main; }
   // Binary-search the longest prefix that fits, then ellipsize. `ctx.font` must already be set —
   // the caller owns it, because every label site draws at its own size.
@@ -2280,7 +2618,10 @@ class Component extends DCLogic {
     }
     return lo > 0 ? text.slice(0, lo).replace(/\s+$/, "") + "\u2026" : "";
   }
-  setEvent(kicker, text, tone, owner) {
+  // `whole` (v1.262.0): the text is a SENTENCE, printed as it is. Without it the text is read as a node's name and cut at
+  // " from " into a name and a dim origin line ("Kimura" / "from Mount"), which is right for every name and wrong for a
+  // sentence: "Your practice from before you signed in is saved" printed as a title "Your practice" over a dim line.
+  setEvent(kicker, text, tone, owner, whole) {
     // A live attempt owns this sentence until its result, handoff or teardown. A replay
     // temporarily borrows the slot and restores it; it must not consume the live stamp.
     if (this._execution && this._evExecution === this._execution && owner !== this._execution && !this._replay) return;
@@ -2293,7 +2634,7 @@ class Component extends DCLogic {
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
     if (k) { k.textContent = kicker; k.style.color = this.toneColor(tone); }
     if (t) {
-      const sp = this.splitName(text);
+      const sp = whole ? { main: text, from: "" } : this.splitName(text);
       t.innerHTML = sp.from
         // .72em, not .66em (v1.138.0): this row is em-relative so it tracked the parent down from
         // 22px, and at the phone's 15px announcer .66em is 9.9px at weight 500 and 60% opacity —
@@ -2301,32 +2642,35 @@ class Component extends DCLogic {
         // "Kimura". .72em holds it at 13px desktop / 10.8px phone.
         ? sp.main + '<div style="opacity:.6;font-weight:500;font-size:.72em;letter-spacing:0;margin-top:3px;">' + sp.from + '</div>'
         : sp.main;
+      if (t.style && t.style.paddingTop) t.style.paddingTop = "";   // a whole sentence's step (below) is that sentence's only
+      if (whole) this._evStepBelowControls(t);
     }
     if (box) box.style.opacity = "1";
   }
+  // A WHOLE SENTENCE IS WIDE (v1.262.0). A node's name is short and centred; "Your practice from before you signed in is
+  // saved" is not, and at 390 its first line (x 48-342, y 49-66) sat on the phone's top-left "Open the sidebar" and
+  // "Search" targets (x 10-54 and 60-104, y 16-60), measured the same at 360 and 430. Docked off MEASURED rects, never a
+  // constant (CLAUDE.md §6.1): the sentence steps down below the lowest control its lines meet (to y 64 there), and the
+  // next sentence clears the step. Pinned by e2e/journeys/guest-join.spec.ts ("covers no control", 390 by touch).
+  _evStepBelowControls(t) {
+    try {
+      const range = document.createRange(); range.selectNodeContents(t);
+      const lines = [...range.getClientRects()].filter((r) => r.width > 0 && r.height > 0);
+      if (!lines.length) return;
+      const top = Math.min(...lines.map((r) => r.top)), box = this.evRef.current;
+      let low = -Infinity;
+      for (const el of document.querySelectorAll('button, a[href], [role="button"], [role="menuitem"], [role="tab"], input, select, textarea')) {
+        if (box && box.contains(el)) continue;
+        const b = el.getBoundingClientRect();
+        if (b.width > 0 && b.height > 0 && lines.some((r) => r.left < b.right && r.right > b.left && r.top < b.bottom && r.bottom > b.top)) low = Math.max(low, b.bottom);
+      }
+      // PADDING, not margin: a margin collapses with the kicker's 7px margin-bottom, and the first build stepped the
+      // sentence 8px for a 15px ask, leaving it 3px over the targets (measured at 360, 390 and 430)
+      if (low > top) t.style.paddingTop = Math.ceil(low - top + 4) + "px";
+    } catch (e) { /* no layout (unit harness): the sentence stays where it is */ }
+  }
   // ---------- drill deck (flashcards) + dominance flash ----------
   deckCat(node) { return node.ty === "positions" ? "Position" : (node.ty === "submissions" ? "Submission" : "Transition"); }
-  richContentFor(n) {
-    // A POSITION HAS NO RICH CONTENT, AND ASKING COST EVERY VISITOR A 404 (CLAUDE.md §6.2).
-    // This hashed `n.t` for every node type. Technique dossiers ARE keyed by the bare title, so
-    // those hit; position dossiers are keyed "<Family>|<Role>" — and all 136 position hub titles
-    // end "… Top" as an artifact of the visual collapse, so `qhash("Gogoplata Control Top")`
-    // (9395f3c1) named a chunk that does not exist while the real one is `qhash("Gogoplata
-    // Control|Top")` (2bcdc86d). Measured: 136 of 136 position nodes missed, 0 of 1,331 technique
-    // nodes did. `_ngc` FETCHES on a miss, so the first landing of every session pulled a 404 —
-    // 27,788 B decoded / ~5,708 B on the wire, served `no-store` so the browser cache never
-    // suppressed the repeat, and it sits on the critical path before the first hand.
-    //
-    // AND THE FETCH COULD NEVER HAVE PAID OFF. This returns non-null only when the dossier carries
-    // `perspectives`, and NO position dossier does — 0 of 272, against 1,326 of 1,326 technique
-    // dossiers (counted over all 1,598 entries in static/neural/content/). Fixing the KEY instead
-    // would have been worse: it would fetch a real 3.7 KB chunk and still return null here.
-    // So the honest fix is to stop asking. Two other callers (:1606, :10226) already spell the
-    // position key correctly for their own purposes and warm the cache themselves.
-    if (!n || n.ty === "positions") return null;
-    const rc = this._ngc(n.t);
-    return (rc && rc.perspectives) ? rc : null;
-  }
   fmtDur(s) { s = Math.max(0, Math.round(s)); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); }
   /**
    * `compact` is the landing card's variant (v1.101.0). The full strip is 170px of thumbnail
@@ -2345,11 +2689,14 @@ class Component extends DCLogic {
       const w = compact ? (c.vertical ? 62 : 148) : (c.vertical ? 126 : 210), ht = compact ? 92 : 170;
       const dur = c.duration != null ? this.fmtDur(c.duration) : (c.end != null && c.start != null) ? this.fmtDur(c.end - c.start) : "Video";
       h += '<div class="ng-clip" tabindex="-1" data-i="' + i + '" style="scroll-snap-align:start;flex:none;position:relative;width:' + w + 'px;height:' + ht + 'px;border-radius:13px;overflow:hidden;border:1px solid rgba(150,170,210,.16);background:#0c0f17;cursor:pointer;padding:0;display:block;transition:width .34s cubic-bezier(.4,0,.2,1),height .34s cubic-bezier(.4,0,.2,1);">' +
-        '<button type="button" data-film-play aria-label="' + this.escHTML('Watch: ' + (c.title || 'Technique video') + (c.by ? ' — ' + c.by : '')) + '" style="position:absolute;inset:0;width:100%;height:100%;border:0;padding:0;color:inherit;background:none;cursor:pointer;"><img alt="" src="https://i.ytimg.com/vi/' + c.id + '/hqdefault.jpg" loading="lazy" referrerpolicy="no-referrer" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.92;transition:transform .18s ease,opacity .3s ease;">' +
+        // v1.288.0, owner U196 b with U195 a: NO PERSON'S OR GYM'S NAME IN OUR OWN TEXT. The button is named by the
+        // title alone, and the thumbnail no longer prints a second line with the clip's `by` (the wire stops shipping
+        // it too: scripts/_neural_content.py, gated by scripts/check_no_names.py and tests/principle_clips.test.mjs).
+        '<button type="button" data-film-play aria-label="' + this.escHTML('Watch: ' + (c.title || 'Technique video')) + '" style="position:absolute;inset:0;width:100%;height:100%;border:0;padding:0;color:inherit;background:none;cursor:pointer;"><img alt="" src="https://i.ytimg.com/vi/' + c.id + '/hqdefault.jpg" loading="lazy" referrerpolicy="no-referrer" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.92;transition:transform .18s ease,opacity .3s ease;">' +
         '<span style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,10,16,0) 38%,rgba(8,10,16,.88) 100%);"></span>' +
         '<span class="ngPlay" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:' + (compact ? 30 : 44) + 'px;height:' + (compact ? 30 : 44) + 'px;border-radius:50%;background:rgba(12,14,22,.6);backdrop-filter:blur(3px);border:1.5px solid rgba(255,255,255,.9);display:flex;align-items:center;justify-content:center;transition:transform .16s ease,background .16s ease;"><svg width="15" height="15" viewBox="0 0 24 24" fill="#fff" style="margin-left:2px;"><polygon points="6 4 20 12 6 20 6 4"></polygon></svg></span>' +
         '<span style="position:absolute;top:8px;right:8px;font-size:9px;font-weight:700;color:#eef1f6;background:rgba(8,10,16,.72);border-radius:6px;padding:2px 6px;letter-spacing:.02em;">' + dur + '</span>' +
-        '<span style="position:absolute;left:10px;right:10px;bottom:9px;text-align:left;"><span style="display:block;font-size:' + (compact ? 10 : 11.5) + 'px;font-weight:700;color:#fff;line-height:1.25;text-shadow:0 1px 6px rgba(0,0,0,.65);">' + this.escHTML(c.title) + '</span>' + (c.by ? '<span style="display:block;font-size:10px;color:#c3cce0;margin-top:2px;text-shadow:0 1px 5px rgba(0,0,0,.6);">' + this.escHTML(c.by) + '</span>' : '') + '</span>' +
+        '<span style="position:absolute;left:10px;right:10px;bottom:9px;text-align:left;"><span style="display:block;font-size:' + (compact ? 10 : 11.5) + 'px;font-weight:700;color:#fff;line-height:1.25;text-shadow:0 1px 6px rgba(0,0,0,.65);">' + this.escHTML(c.title) + '</span>' + '</span>' +
         '</button></div>';
     });
     h += '</div>';
@@ -2361,62 +2708,44 @@ class Component extends DCLogic {
   _stopConceptFilm() {
     if (this._expandedClip && this._expandedClip.closest("[data-concept-film]")) this.clearClipLoops();
   }
-  expandClip(card, clip, resume = false) {
+  // ONE VIEWER FOR EVERY VIDEO A PRESS OPENS (VID1, owner 15 Nov: "i'd rather show the video only on top of everything,
+  // and dim the rest, and start it immediately, and have a discrete x on the corner, and people can either click the
+  // suroundings or the x or press esc to close it ... use the same mechanism the video card for the current node uses,
+  // it's perfect"). Every caller gets the theater: the current node's card, a reference page's film in the reader, a
+  // Principle's film in the drawer, a move's play circle (through `_openChoiceWatch`) and the reader's Resume.
+  // `_openFilmTheater` portals the player into a modal <dialog>; the card stays exactly where it was.
+  // WAS, to v1.280.0: only the current node's card zoomed and asked YouTube to play (`autoplay: theater ? 1 : 0`). A
+  // reference or Principle clip grew inside its card (and closed on a press outside it), and a move opened a 620px
+  // modal whose title row carried Quartz's 32px header margins above and below (CLAUDE.md §6.1) and a second ✕, the
+  // player's own, which closed the PLAYER and left the modal open on a poster. Each of those waited for YouTube's Play.
+  // `own` is a move's: { node, source, poster, label, onClose }. `card` is then the move's media region (the zoom
+  // starts from its poster), `source` its play circle (focus returns there), `node` the move a playback credits.
+  // Pinned by video-viewer.spec.ts (every surface, by mouse and by touch) and video-theater.spec.ts.
+  expandClip(card, clip, own = null) {
     if (!card || !clip || card._expanded) return;
     // D-354 N1's slot placement is retired with the Videos lift (D-368, layout C): a game film stays in the
     // game's media home, so a play never leaves an empty Videos slot to fill.
     if (this._expandedClip && this._expandedClip !== card) this.collapseClip(this._expandedClip);
-    if (card.closest(".ng-landfilm,.ng-choice-viewer")) this._choiceLearn();
+    // Watching is reading (`_choiceLearn`: the hand touched, its question declined, the game paused), and closing gives
+    // back the pause it found: VID1 asks every way out to leave the app as it was. A move's opener does this itself,
+    // reading the pause before its own `_choiceLearn`. (WAS, VIDEO1 to v1.280.0: the current card's theater left the
+    // game paused after it closed; only the move's modal gave the pause back.)
+    let restore = own ? own.onClose : null;
+    if (!own && card.closest(".ng-landfilm")) { const was = this.paused; this._choiceLearn(); restore = () => this.setPaused(was === true); }
     card._expanded = true; card._mediaPaused = false; card._mediaStale = false; card._mediaClip = clip;
     card._playerReady = false; this._expandedClip = card;
     const generation = card._mediaGeneration = (card._mediaGeneration || 0) + 1;
     const live = () => card.isConnected && card._expanded && card._mediaGeneration === generation;
-    const row = card.parentElement;
-    const framed = card.closest(".ng-landfilm,.ng-choice-viewer");
-    if (!framed) {
-      card._bw = card.offsetWidth; card._bh = card.offsetHeight;
-      // v1.230.0, restored with the video cards' merge (its player had dropped it): a principle's film plays inside the
-      // scrolling Learning pane, so its height is capped by the pane, a portrait keeping its shape, and its final
-      // rectangle is revealed there (concepts-surface: the expanded portrait and its close button fit the pane).
-      const list = card.closest("[data-concept-film]") && this.explorerListRef.current;
-      let width = Math.min(496, (row?.clientWidth || 460) * .96), height = Math.min(460, width * (clip.vertical ? 16 / 9 : 9 / 16));
-      if (list && height > list.clientHeight - 16) { height = Math.max(1, list.clientHeight - 16); width = Math.min(width, height * (clip.vertical ? 9 / 16 : 16 / 9)); }
-      card.style.setProperty("width", width + "px", "important");
-      card.style.setProperty("height", height + "px", "important");
-      // The reveal runs again when the height transition ends: on the first frame the card is still its row
-      // height, so the list may not yet be tall enough to scroll the final rectangle into view (H136: 1440, the
-      // card's bottom at 700 against the pane's 678, the scroll clamped at the row-height content).
-      const reveal = () => {
-        if (!live()) return;
-        const view = list.getBoundingClientRect(), top = card.getBoundingClientRect().top;
-        if (top + height > view.bottom - 8) list.scrollTop += top + height - view.bottom + 8;
-        else if (top < view.top + 8) list.scrollTop += top - view.top - 8;
-      };
-      if (list) {
-        requestAnimationFrame(reveal);
-        const grown = e => { if (e.target !== card || e.propertyName !== "height") return; card.removeEventListener("transitionend", grown); reveal(); };
-        card.addEventListener("transitionend", grown);
-      }
-    }
-    card.style.cursor = "default";
     const launch = card.querySelector("[data-film-play]"); if (launch) launch.hidden = true;
     const ph = document.createElement("div"); ph.className = "ngPlayerHost";
     ph.style.cssText = "position:absolute;inset:0;background:#000;z-index:2;";
-    const vhost = document.createElement("div"); ph.appendChild(vhost); card.appendChild(ph);
+    const vhost = document.createElement("div"); ph.appendChild(vhost);
+    // The theater's ONE ✕ (the owner: "a discrete x on the corner"). Focus returns to `source` in collapseClip.
     const close = document.createElement("button"); close.type = "button"; close.className = "ngClipX";
     close.textContent = "✕"; close.setAttribute("aria-label", "Close video");
     close.style.cssText = "position:absolute;top:0;right:0;z-index:7;width:44px;height:44px;background:rgba(8,10,16,.85);border:0;border-radius:8px;color:#eef1f6;cursor:pointer;";
-    close.onclick = e => { e.stopPropagation(); this.collapseClip(card); launch?.focus({ preventScroll: true }); };
-    card.appendChild(close);
-    const theater = card.closest("[data-land-film]:not([data-reference-film])");
-    if (theater) this._openFilmTheater(card, clip, ph, close, launch);
-    // An outside activation of a section control is a pause/move, never a close.
-    // This listener only closes a non-current reference clip; current media keeps
-    // its identity until its own Close or a real node/role teardown.
-    if (!framed) {
-      card._outside = e => { if (live() && !card.contains(e.target)) this.collapseClip(card); };
-      document.addEventListener("pointerdown", card._outside, true);
-    }
+    close.onclick = e => { e.stopPropagation(); this.collapseClip(card); };
+    this._openFilmTheater(card, clip, ph, close, own ? own.source : launch, own, restore);
     // §6.6: the fallback says it fired. `e` is the player's onError; no `e` means the script itself failed.
     const fail = e => {
       if (!live()) return;
@@ -2427,12 +2756,13 @@ class Component extends DCLogic {
       link.style.cssText = "display:grid;place-items:center;height:100%;color:#dce6ff;font-size:13px;";
       ph.replaceChildren(link);
     };
+    let mutedStart = false;
     this.ytApiReady().then(YT => {
       if (!live()) return;
       if (!YT?.Player) { fail(); return; }
       const player = new YT.Player(vhost, {
         width: "100%", height: "100%", videoId: clip.id,
-        playerVars: { autoplay: theater ? 1 : 0, controls: 1, start: clip.start || 0, end: clip.end || undefined, rel: 0, playsinline: 1 },
+        playerVars: { autoplay: 1, controls: 1, start: clip.start || 0, end: clip.end || undefined, rel: 0, playsinline: 1 },
         events: {
           onReady: e => {
             if (!live()) return;
@@ -2440,9 +2770,17 @@ class Component extends DCLogic {
             const iframe = e.target.getIframe?.();
             if (iframe) { iframe.title = clip.title || "Technique video"; iframe.setAttribute("allow", "autoplay; encrypted-media; picture-in-picture; fullscreen"); }
             if (card._mediaPaused || card.closest("[hidden],[inert]")) e.target.pauseVideo();
-            // A fallback move discards the old handle. Only an explicit Resume
-            // may start its replacement, after this fresh player's ready event.
-            else if (resume || theater) e.target.playVideo();
+            else e.target.playVideo();
+          },
+          // A browser that refuses sound a script starts (iPhone Safari: a play must come from a tap INSIDE the
+          // provider's frame) refuses this one. Start it muted at once instead, with YouTube's own unmute control:
+          // one tap for sound, never a second Play (VID1). Once per open, so a refused muted play cannot loop; the beat
+          // says it fired (§6.6). Chromium plays with sound from the press that opened the theater (measured, VID1).
+          onAutoplayBlocked: e => {
+            if (!live() || mutedStart || card._mediaPaused) return;
+            mutedStart = true;
+            this.fx("video_autoplay_muted", { id: clip.id });
+            try { e.target.mute(); e.target.playVideo(); } catch (err) { /* the player's own Play remains */ }
           },
           onStateChange: e => {
             if (!live()) return;
@@ -2451,7 +2789,7 @@ class Component extends DCLogic {
             // the position/technique study surfaces (sections: a reference page earns no gameplay credit).
             if (e.data === 1 && !card._watched && !card.closest("[data-concept-film],[data-reference-film]")) {
               card._watched = true; this.fx("short_watched", { id: clip.id });
-              this._filmFirstLook(card.closest("[data-land-film],[data-choice-viewer]")?._ngVideoNode);
+              this._filmFirstLook(own ? own.node : card.closest("[data-land-film]")?._ngVideoNode);
             }
           },
           onError: fail,
@@ -2461,54 +2799,83 @@ class Component extends DCLogic {
     });
     this._dockLandFilm();
   }
-  // Portal only the player rectangle. Its card stays in the reader's measured flow;
+  // Portal only the player rectangle. Its card stays in the reader's measured flow, the drawer or the hand;
   // the iframe is created in its final home, so opening never reloads a live player.
-  _openFilmTheater(card, clip, host, close, source) {
+  _openFilmTheater(card, clip, host, close, source, own, onClose) {
     const from = card.getBoundingClientRect(), dialog = document.createElement("dialog");
     dialog.className = "ng-video-theater";
-    dialog.setAttribute("aria-label", clip.title || "Technique video");
+    dialog.setAttribute("aria-label", own?.label || clip.title || "Technique video");
     dialog.style.setProperty("--film-ratio", clip.vertical ? 9 / 16 : 16 / 9);
-    host.style.background = "#000 url(\"" + source.querySelector("img").src + "\") center/cover";
+    const poster = own ? own.poster : source?.querySelector("img")?.src;
+    host.style.background = "#000" + (poster ? " url(\"" + poster + "\") center/cover" : "");
     dialog.append(close, host);
     (this.__ngRoot || document.body).appendChild(dialog);
-    this._filmTheater = { dialog, card, source };
+    this._filmTheater = { dialog, card, source, onClose, move: !!own, quiet: false };
     this.holdChallengeReward?.(); // after the line above: the hold's own dismiss must not re-show it
     this._cancelGraphInput?.(); this._readStop();
+    let zooming = !this._reducedMotion(); // VID1-R1: while it zooms no press closes it by the dim or moves focus (below)
     dialog.oncancel = e => { e.preventDefault(); this.collapseClip(card); };
-    dialog.onclick = e => { if (e.target === dialog) this.collapseClip(card); };
+    dialog.onclick = e => { if (e.target === dialog && !zooming) this.collapseClip(card); };
+    dialog.addEventListener("mousedown", e => { if (zooming) e.preventDefault(); });
+    // Moved here from the move's retired modal (v1.231.0's wrap, VID1): the provider's keys do not bubble here, so this
+    // sees only the parent's ✕, and Shift+Tab from it goes into the player instead of out of the dialog.
+    dialog.addEventListener("keydown", e => {
+      if (e.key !== "Tab" || e.altKey || e.ctrlKey || e.metaKey) return;
+      const stops = [...dialog.querySelectorAll("button, a[href], iframe")].filter(el => el.tabIndex >= 0 && !el.disabled && el.getClientRects().length);
+      const first = stops[0], last = stops[stops.length - 1];
+      if (document.activeElement === (e.shiftKey ? first : last)) { e.preventDefault(); (e.shiftKey ? last : first)?.focus(); }
+    });
     dialog.showModal(); close.focus({ preventScroll: true });
     const to = dialog.getBoundingClientRect();
-    if (!this._reducedMotion()) dialog.animate([
+    if (this._reducedMotion()) return;
+    // THE PLAYER TAKES NO PRESS UNTIL ITS ZOOM HAS SETTLED (VID1-R1, the reader of #427: a quick double press on a play
+    // circle put its second press inside the player while it zoomed in; focus went into the provider's frame and Esc,
+    // which the owner asked for ("pressing esc should close the video"), no longer closed it). For the 360ms a bare layer
+    // over the player, under the ✕, owns every press over the frame: nothing reaches the player, nothing closes the
+    // theater (its target is not the dialog). And the dim closes nothing until then: at 390x631 the current node's frame
+    // zooms off the point of a double tap, whose second tap then fell on the dim and shut the video it had just opened.
+    // Whatever is pressed, the dialog's mousedown keeps focus on the ✕ while it zooms. The ✕ and Esc work throughout. A press inside the player after the zoom is the player's,
+    // and Esc then stays in its frame until focus leaves it; the ✕ and the dim still close it (docs/Neural.md).
+    const guard = document.createElement("div");
+    guard.style.cssText = "position:absolute;inset:0;z-index:3;";
+    dialog.append(guard);
+    const settled = () => { zooming = false; guard.remove(); };
+    dialog.animate([
       { transform: `translate(${from.x + from.width / 2 - to.x - to.width / 2}px,${from.y + from.height / 2 - to.y - to.height / 2}px) scale(${from.width / to.width},${from.height / to.height})` },
       { transform: "none" },
-    ], { duration: 360, easing: "cubic-bezier(.2,.7,.2,1)" });
+    ], { duration: 360, easing: "cubic-bezier(.2,.7,.2,1)" }).finished.then(settled, settled);
   }
   collapseClip(card) {
     if (!card) return;
     card._mediaGeneration = (card._mediaGeneration || 0) + 1; card._playerReady = false;
     card.querySelector("[data-film-resume]")?.remove();
     const launch = card.querySelector("[data-film-play]"); if (launch) launch.hidden = false;
+    let restore = null;
     if (this._filmTheater?.card === card) {
-      const { dialog, source } = this._filmTheater; this._filmTheater = null;
+      const { dialog, source, onClose, quiet } = this._filmTheater; this._filmTheater = null;
       dialog.getAnimations().forEach(a => a.cancel()); dialog.close(); dialog.remove();
-      if (source.isConnected) source.focus({ preventScroll: true });
+      // A hand that ended closes its move's theater quietly (`_closeChoiceWatch(false)`): no pause restored, no focus.
+      if (!quiet) { restore = onClose; if (source.isConnected) source.focus({ preventScroll: true }); }
       // D-326's release, the same microtask as clearExecution's: the held notice gets its full time now.
       if (this.showNextChallengeReward) queueMicrotask(() => this._challengeRewardActive || this.showNextChallengeReward());
     }
     if (card._loop) { clearInterval(card._loop); card._loop = null; }
     if (card._player) { try { card._player.destroy(); } catch (e) {} card._player = null; }
-    const ph = card.querySelector(".ngPlayerHost"); if (ph) ph.remove();
-    const mb = card.querySelector(".ngMuteBtn"); if (mb) mb.remove();
-    const cx = card.querySelector(".ngClipX"); if (cx) cx.remove();
-    if (card._outside) { document.removeEventListener("pointerdown", card._outside, true); card._outside = null; }
-    const glyph = card.querySelector(".ngPlay"); if (glyph) glyph.style.display = "";
-    if (card._bw) { card.style.setProperty("width", card._bw + "px", "important"); card.style.setProperty("height", card._bh + "px", "important"); }
-    card.style.cursor = "pointer";
+    // NO WRITE TO THE PLAY GLYPH HERE (v1.256.4, owner 2026-11-11: "after i click the play button and close it ...
+    // it seems floating a bit up"). The glyph is hidden and shown by its parent `[data-film-play]`'s `hidden` (above
+    // and in expandClip) and nothing else. Until v1.231.0 expandClip wrote `glyph.style.display = "none"` and this line
+    // undid it with `= ""`; v1.231.0 moved the hide to `launch.hidden`, and the orphaned `= ""` then only DELETED the
+    // `display:flex` the glyph is built with (filmStudyHTML), so after every close the triangle fell into inline
+    // flow, 6.5px above the circle's centre (CLAUDE.md §6.1: `style.color = ""` deletes, it does not restore). The
+    // hover pair in wireClips restores explicit values. Pinned by film-overlay-play.spec.ts, by mouse and by touch.
+    // (VID1: the card no longer hosts the player, its ✕ or a grown size, so nothing else here is put back.)
     card._expanded = false;
     if (this._expandedClip === card) this._expandedClip = null;
     { const fx = this._landFilmEl && this._landFilmEl.querySelector("[data-film-close]"); if (fx) fx.style.visibility = ""; }
     // the strip just shrank back — re-anchor it, or it stays parked where the player left it
     if (this._landFilmEl && this._landFilmEl.contains(card)) requestAnimationFrame(() => this._dockLandFilm());
+    // last, as the move's modal did: the pause comes back after the player is gone
+    restore?.();
   }
   ytApiReady() {
     if (this._ytPromise) return this._ytPromise;
@@ -2609,7 +2976,377 @@ class Component extends DCLogic {
   }
   // ── P3 economy: permanent mastery + decaying sharpness. Drilling stays valuable forever
   // (mastery), but recency matters (sharpness fades as the roll moves on). ──
-  mastery(key) { return key ? ngKnowledgeMastery((this.prep && this.prep[key]) || 0) : 0; }
+  // STAGE 2 OF THE MASTERY REFORM (v1.256.0, owner U124 a): A MOVE YOU KNOW COUNTS LIKE A FULLY LEARNED DECK. A
+  // technique deck gets +0.15 when its pair's last answer was a Yes ("Did you get it?" / "Still got it?", `_gradeMove`);
+  // a position deck gets 0.15 x the share of that seat's dealt moves (this ruleset) whose last answer was a Yes. Both
+  // sit under the one 0.15 cap with the flashcards (U119 c: the flashcards keep theirs, the moves add theirs), so
+  // knowing every move from a seat is worth exactly what maxing its flashcards is worth and the +30 ceiling (seat +
+  // move) stands.
+  // ONE EFFECTIVE COUNT PER DECK, AND BOTH SIDES APPLY THE LAW TO IT (review STAGE2E). The value provider compares the
+  // card's chance with the worker's with `!==` (game-value-provider.src.js, `live-knowledge-probability-mismatch`), and
+  // one card that differs makes every card of the hand print "—". The first build computed min(0.15, 0.03p + 0.15s)
+  // here and handed the worker (that) / 0.03, which does not round-trip: 29 of 6,648 partly known gi seat states were an
+  // ulp apart (Back Control Top, 7 of 17 known, no flashcards). So the moves are counted in flashcard COUNTS
+  // (`_knowCount`: the stored prep plus 5 for a known pair, 5 x share for a seat; 5 is the count at the cap) and this
+  // returns `ngKnowledgeMastery` of that count, the very function `ngKnowledgeBuildProfile` applies to the count
+  // `_knowledgePrep` hands it: the same double in, the same double out. IT CAN ONLY ADD: the count is at least the
+  // stored prep, and x -> min(0.15, 0.03x) is monotone in floating point too; with no `moves` the count IS the stored
+  // prep and the figure is v1.255.2's to the bit (tests/moves_account_safety.test.mjs, exact). IT CAN DROP AGAIN, unlike a
+  // flashcard's credit: known means the LAST answer was a Yes, so "Still got it? No" takes the move's +0.15, its share
+  // of the seat, and its gold back until the next Yes (e2e/journeys/moves-mastery.spec.ts). The copy that prints
+  // these figures prints totals (`updateDrillCount`, the drill header and its done line, the card's practice lines),
+  // never a nominal step, so it reads the true figure with the moves in it.
+  mastery(key) { return key ? ngKnowledgeMastery(this._knowCount(key)) : 0; }
+  _knowCount(key) {
+    const p = (this.prep && this.prep[key]) || 0, x = this._movesCount(key);
+    return x ? p + x : p;
+  }
+  // THE FLASHCARD-ONLY FIGURE, for Practice: its headroom (`_gameplanDecks(true)`), its belt scope, and the weak spots
+  // that rank its new decks (FLOW). With the moves in it a known pair leaves its deck no headroom, FLOW scores the deck
+  // 0 and drops it, and Practice stops offering that deck's detail cards as new: the flashcards would lose their worth.
+  _flashMastery(key) { return key ? ngKnowledgeMastery((this.prep && this.prep[key]) || 0) : 0; }
+  // What the `moves` record knows. A technique deck is known when ANY of its pairs' last answer was a Yes (a technique
+  // dealt from several seats through `alsoFrom` is one deck: 68 techniques in gi, 83 in no-gi). A threat files under
+  // the opponent's seat, so its Yes marks that technique's Attacker deck known (your odds when YOU use it) and counts
+  // toward that seat's share; an escape ("e" + hash) has no deck and no ordinal in any hand: gold, no odds.
+  // KEYED ON THE RECORD, NOT ON `_stageVer` (review STAGE2F): the known set, the seats and their shares are rebuilt
+  // when the record is replaced (a pull, another tab, a remount: its identity), when a grade rewrites a row in place
+  // (`_movesRev`, bumped by `_gradeMove`), and on a ruleset switch; otherwise a read is three compares. `_stageVer`
+  // moves on every deck landing, every move played and every grade, and keying the whole index on it re-dealt every
+  // known seat's hand on the next frame (13 to 43 ms with half of every seat known); only the gold's LEVEL reads
+  // flashcards, so only the level is keyed on it (`_movesGold`).
+  // AND ON THE GRAPH (v1.256.1, STAGE2G): the index maps ordinals through `_ordToId` / `_idIndex` and walks `this.nodes`,
+  // and progress hydrates at mount, before `ingest`. Before the graph is in nothing is built or cached (a transient,
+  // empty index: every reader gets the flashcard figure, as on dev), and the graph's own map is part of the key.
+  _movesIdx() {
+    if (!this._ordToId || !this.nodes || !this.nodes.length) return { tech: new Set(), seats: new Map(), share: new Map(), transient: true };
+    const c = this._movesCache;
+    if (c && c.src === this.moves && c.rev === this._movesRev && c.gi === this._giMode && c.ord === this._ordToId) return c;
+    const tech = new Set(), seats = new Map();
+    for (const st in this.moves || {}) for (const mv in this.moves[st]) {
+      const r = this.moves[st][mv];
+      if (!r || r[3] !== 1) continue;
+      (seats.get(st) || seats.set(st, new Set()).get(st)).add(mv);
+      const id = mv[0] === "e" || !this._ordToId ? null : this._ordToId.get(+mv), i = id != null && this._idIndex ? this._idIndex.get(id) : null;
+      if (i != null) tech.add(this.deckKeyFor(this.nodes[i]).key);
+    }
+    return (this._movesCache = { src: this.moves, rev: this._movesRev, gi: this._giMode, ord: this._ordToId, tech, seats, share: new Map(), goldAt: null, gold: null });
+  }
+  // a seat's dealt moves (this ruleset) as the share-ordinal strings `_moveKey` files them under. `optionsFor` ranks by
+  // moveChance -> mastery, so the moves part is held at 0 meanwhile (`_movesBusy`): that can reorder a hand, never
+  // change which moves are in it. It also reads the opponent where the roll STANDS for that order, and before the
+  // first landing nothing stands anywhere: the draw path reaches here (`_movesGold`) from the first frame, and threw on
+  // every frame for an account with a known move until the seat stood in for this one synchronous call
+  // (moves-mastery.spec.ts). A hand that cannot be dealt says so once (`moves_hand_failed`) and counts as unknown.
+  _dealtOrds(i, role) {
+    return this._dealtOpts(i, role, (d) => String(this._ordById.get(this.siteIdOf(this.nodes[d.idx].id))));
+  }
+  // the dealt hand itself (or `map` over it), under the same guard: the rating (`_ratingGame`) prices each card by its
+  // node index from the ruleset's own hand table, and must deal exactly the hand the moves record is filed against
+  _dealtOpts(i, role, map) {
+    const at = this.currentPos;
+    this._movesBusy = true;
+    try {
+      if (!this.nodes[at]) this.currentPos = i;
+      const opts = this.optionsFor(i, role);
+      return map ? opts.map(map) : opts;
+    } catch (e) {
+      if (!this._movesHandBeat) { this._movesHandBeat = 1; this.fx("moves_hand_failed", { seat: this.nodes[i] && this.nodes[i].id, role, error: String(e && e.message) }); }
+      return null;
+    } finally { this._movesBusy = false; this.currentPos = at; }
+  }
+  _seatOf(st) {
+    const k = st.indexOf("/"), id = this._ordToId && this._ordToId.get(+st.slice(0, k)), i = id != null && this._idIndex ? this._idIndex.get(id) : null;
+    return i != null && this.nodes[i].ty === "positions" ? { i, role: st.slice(k + 1) } : null;
+  }
+  _seatShare(key) {
+    const c = this._movesIdx();
+    let share = c.share.get(key);
+    if (share != null) return share;
+    share = 0;
+    const i = this.nodeForKey(key), role = key.endsWith("|Bottom") ? "bottom" : "top";
+    const known = i >= 0 && this.nodes[i].ty === "positions" && this._ordById ? c.seats.get(this._ordById.get(this.siteIdOf(this.nodes[i].id)) + "/" + role) : null;
+    if (known) {
+      const d = this._dealtOrds(i, role);
+      // a hand that failed to deal reads as unknown THIS once and is never kept (v1.256.1): the next read deals again
+      if (!d) { c.failed = true; return 0; }
+      if (d.length) share = d.filter((o) => known.has(o)).length / d.length;
+    }
+    c.share.set(key, share);
+    return share;
+  }
+  // what the moves add, in flashcard counts: 5 (the count at which the law caps, 0.15 / 0.03) for a known pair, 5 x the
+  // share known for a seat
+  _movesCount(key) {
+    if (this._movesBusy || !this.moves) return 0;
+    const c = this._movesIdx();
+    if (!c.seats.size) return 0;
+    if (c.tech.has(key)) return 5;
+    return key.endsWith("|Top") || key.endsWith("|Bottom") ? 5 * this._seatShare(key) : 0;
+  }
+  // THE MAP'S KNOWN MOVES (U122 a; the seal's dot from v1.272.0; the gold line OUTSIDE the orb since v1.280.0, NG_MAP_MARKS): a technique known through the
+  // moves (any of its pairs), a seat whose every dealt move is known. Defender halves have no moves of their own. WHICH
+  // nodes depends on the record alone and is found once per index (`goldAt`: every node, a hand per known seat), so the
+  // draw path reads one Map.has per node. U122 a's LEVEL 2 (its deck's flashcards learned too: an outline twice as
+  // thick, re-read on every `_stageVer`) went with the outline: every entry is 1, and the flashcards are read nowhere
+  // here. (The opt-in colour shift `masteryGold` was retired in v1.280.0: the map's gold is the outlines.)
+  // THE MAP'S INSIDE GOLD and the cards' disc (v1.280.0, GOLD1, one test for both so they tell one story): a node whose OWN
+  // half's deck is all learned, `deckMastery` 1, every card at stage 3 or more (the test U122 a's thick outline read until
+  // v1.272.0, from 3bef94e14^1, now WITHOUT its Yes: the owner's drawing has Cross Collar Choke inside only). Its own half,
+  // never the player's seat (`ngWireDeckName` and the node's role: the rule the retired recolour kept, so a player's seat
+  // never decides another half's paint); never a defender twin; the ruleset's mask. Asked per node as it is drawn and kept
+  // until `_stageVer` moves (a grade, a deck landing), the ruleset or the graph does: a held map reads one Map.
+  // HIDDEN MOVES: every dealt orb whose card is face down, with its pair partner. NO map label may name one — the always-on
+  // option labels, the roaming pair group and the single hover label all ask this set (review R2: the hover labels did not,
+  // so pointing at an orb named the move its card hides) — and NO MARK may sit on one (GOLD1-R2, the map reader of PR 417:
+  // the outside line on a recalled move come due and the inside gold on a move whose deck is learned with a card due both
+  // showed on the orb of a face-down card, so the map said what its card withholds; dev's dot did the first). A card left
+  // face up because its move is known (v1.266.0, `_applyHide`) is face up here too: the map asks the card, never the rule
+  // again (§6.5, one question in one place), so the row and the map cannot disagree. Asked once per drawn frame (`draw()`).
+  // `face` (GOLD1-R4, the map reader's D1): THE MARKS ask the card's FACE alone, as its seal does (`_sealCard`: `data-hide`,
+  // turned up to be asked or not). A face-down card LOOKED AT (a hover, a tap, a move staged from the map: `_hmLit`) keeps no
+  // seal, so its orb keeps no mark; its NAME shows, as the card being asked does, so the labels keep the lit set.
+  _hmDownSet(face) {
+    const cz = this._czDown();   // an open cloze's hidden moves (L2): never named, never marked, whatever a look lit
+    if (!(this.optionIdxs && this.optionIdxs.length && this._hideMoves())) return cz;
+    const down = new Set(cz || []), lit = new Set(face ? [] : this._hmLit || []);
+    for (const oc of this._optionCards || []) if (oc.card && !oc.card.hasAttribute("data-hide")) { lit.add(oc.opt.idx); if (oc.opt.res != null) lit.add(oc.opt.res); }
+    for (const i of this.optionIdxs) if (!lit.has(i)) { down.add(i); const q = this.nodes[i]; if (q && q.pi >= 0) down.add(q.pi); }
+    return down;
+  }
+  _answered(n) {
+    let c = this._ansC;
+    if (!c || c.sv !== this._stageVer || c.n !== this.nodes || c.gi !== this._giMode) c = this._ansC = { sv: this._stageVer, n: this.nodes, gi: this._giMode, m: new Map() };
+    let v = c.m.get(n.idx);
+    if (v === undefined) {
+      const role = { top: "Top", bottom: "Bottom", attacker: "Attacker" }[n.role];
+      v = !!role && this.rsAllowsIdx(n.idx) && this.deckMastery(ngWireDeckName(n) + "|" + role) >= 1;
+      c.m.set(n.idx, v);
+    }
+    return v;
+  }
+  /**
+   * WHAT YOU REMEMBER AT A PLACE, ONE FUNCTION FOR BOTH LISTS (U199 a; L3 ruling 5, v1.293.0). Of the moves dealt at a place,
+   * those the map paints gold: outside (`_movesGold`, a Yes in the moves record) or inside (`_answered`, its deck learned);
+   * their shapes, as the map draws them. Master the game's rows and Last rolls' rows both read it, so the two lists cannot
+   * disagree about a place, as the map and the card cannot (§6.5). It was `ngMasterGoldIn` in the deferred list bundle
+   * (master-list.src.js) while only that list read it; Last rolls is eager, so it lives here, beside the map's own.
+   * A key that is not a position (a submission a roll passed through) has none: [].
+   */
+  _placeGold(k) {
+    const i = this.nodeForKey(k); if (i < 0 || this.nodes[i].ty !== "positions") return [];
+    let c = this._placeGoldC;
+    if (!c || c.gi !== this._giMode || c.sv !== this._stageVer || c.mr !== this._movesRev || c.n !== this.nodes) c = this._placeGoldC = { gi: this._giMode, sv: this._stageVer, mr: this._movesRev, n: this.nodes, m: new Map() };
+    let g = c.m.get(k);
+    if (!g) {
+      const hand = this._dealtOpts(i, k.endsWith("|Bottom") ? "bottom" : "top") || [], gold = this._movesGold();
+      c.m.set(k, (g = hand.filter((o) => gold.has(o.idx) || this._answered(this.nodes[o.idx])).map((o) => (this.nodes[o.idx].ty === "submissions" ? "tri" : "dia"))));
+    }
+    return g;
+  }
+  // THE MARK A ROW DRAWS FROM IT: at most eight shapes, then the number (never a total); nothing at all when nothing is gold.
+  // Master the game hands in its row's own marks and number (`ngMasterRows`, pinned by tests/master_list.test.mjs); Last
+  // rolls hands in the place's shapes. Styled by `.ng-mgold` (challenge-ui.css, eager).
+  _goldMark(shapes, n = shapes.length) {
+    return n ? '<span class="ng-mgold" data-master-gold="' + n + '" aria-label="' + n + (n === 1 ? " move" : " moves") + ' in gold">' +
+      shapes.slice(0, 8).map((k) => '<svg width="10" height="10" viewBox="-1 -1 12 12"><path d="' + (k === "tri" ? "M5 .6L9.6 9.2H.4z" : "M5 .3L9.7 5L5 9.7L.3 5z") + '"/></svg>').join("") + "<b>" + n + "</b></span>" : "";
+  }
+  _movesGold() {
+    const c = this._movesIdx();
+    if (c.gold) return c.gold;
+    let at = c.goldAt;
+    if (!at) {
+      at = []; c.failed = false;
+      if (c.seats.size) for (const n of this.nodes) {
+        if (!this.rsAllowsIdx(n.idx)) continue;   // a node this ruleset cannot produce is never drawn
+        const key = n.ty === "positions" ? this.posFamily(n.t) + "|" + (n.role === "bottom" ? "Bottom" : "Top") : n.role === "defender" ? null : this.deckKeyFor(n).key;
+        if (key && (n.ty === "positions" ? this._seatShare(key) >= 1 : c.tech.has(key))) at.push(n.idx);
+      }
+      if (!c.failed && !c.transient) c.goldAt = at;   // a list read through a failed deal is used once, never kept
+    }
+    const g = new Map(at.map((i) => [i, 1]));
+    if (c.goldAt) c.gold = g;
+    return g;
+  }
+  // "Moves known N of M" (U124), under "Mastered N · X%": the pairs dealt in this ruleset over every position seat the
+  // ruleset can deal (`rsAllowsIdx`), deduped by site and role as `_moveKey` files them, and how many of them your last
+  // answer was a Yes. The mask leaves out the 12 stateAlias "…-Control" seats (their hand is the submission's, filed
+  // under the submission) and, in no-gi, the seats no no-gi roll reaches; counting them, as the prep did, gave 1,394 and
+  // 1,361. M is counted once per ruleset: 1,350 in gi, 1,206 in no-gi today (tests/_census.mjs `movePairs`,
+  // `movePairsNogi`). A submission's finish and its escapes are in neither N nor M. NULL, and the menu prints no line,
+  // while the graph is not in (the menu can open first) or when a hand failed to deal: a count that missed a hand is
+  // not the corpus, and "Moves known 0 of …" would be a false zero (review STAGE2F).
+  _movesKnownLine() {
+    if (!this.nodes || !this.nodes.length || !this._ordById) return null;
+    const c = this._movesIdx(), T = (this._movesTotals = this._movesTotals || {});
+    if (!T[this._giMode]) {
+      let total = 0, whole = true;
+      const seen = new Set();
+      for (const n of this.nodes) {
+        const o = n.ty === "positions" && this._ordById && this.rsAllowsIdx(n.idx) ? this._ordById.get(this.siteIdOf(n.id)) : null;
+        if (o != null) for (const role of ["top", "bottom"]) if (!seen.has(o + "/" + role)) { seen.add(o + "/" + role); const d = this._dealtOrds(n.idx, role); if (d) total += d.length; else whole = false; }
+      }
+      if (!whole) return null;   // never cached either
+      T[this._giMode] = total;
+    }
+    let known = 0;
+    for (const [st, set] of c.seats) {
+      const s = this._seatOf(st);
+      if (!s || !this.rsAllowsIdx(s.i)) continue;
+      const d = this._dealtOrds(s.i, s.role);
+      if (!d) return null;
+      for (const o of d) if (set.has(o)) known++;
+    }
+    return { known, total: T[this._giMode] };
+  }
+  // THE RATING (v1.269.0, owner 13 Nov: method C, table a, the top at 2000) — STAGE 1: computed, cached, shown
+  // NOWHERE. No setting, no storage, no paint; `window.__neural.rating()` is how a spec (rating-reader.spec.ts) and a
+  // person read it on a built page. The law is neural/src/rating.src.js (pure, shared with the unit suite); this is
+  // its ONE reader in the app, and all it adds is the join to this app's own state:
+  //   · the game (`_ratingGame`): the manifest's decks and card counts, `scoreWeights(frame)`, the shared-question
+  //     index, and every seat this ruleset deals with its DEALT hand (`_dealtOpts`, the hand the moves record is
+  //     filed against) priced from the ruleset's OWN hand table: `_evGi` in gi, `_ev` in no-gi (the table FLOW reads;
+  //     a card's `ev` is the no-gi EDGE row in both rulesets and would price a gi-only move at nothing). Seats are
+  //     deduped by site ordinal and role exactly as `_movesKnownLine` counts them, and the walk asks `rsAllowsIdx`.
+  //     Rebuilt only when the graph, the manifest, the weights or the shared index is replaced, or the ruleset flips;
+  //     a hand that fails to deal makes it "hand-failed" and is never kept (a game short one seat is not the game).
+  //   · the record: `srs`, `stage` and `moves` AS STORED, read and never written — no row is touched, no save is
+  //     asked for. Cached on those three objects, the moves and knowledge revisions, `_stageVer`, the day, the game
+  //     and the live check, so a grade, a pull, a new day or the check landing recomputes and a repaint does not.
+  //   · THE LIVE CHECK (v1.273.0): a card row counts only while its deck still holds its question. `rating()` never
+  //     fetches; `ratingCheck()` does, once per deck manifest and fingerprint: both `flashcards/live-<i>.json` at once,
+  //     asked for under the fingerprint curriculum.json carries (`ratingLive`; `_ratingStamp`) (the files say
+  //     how many there are; more than two are fetched after), decoded by `ngRatingLiveDecode` into a derived set per
+  //     deck kept in memory only (`_ratingLive`, ~20,000 small numbers; losing it loses nothing, the next check
+  //     rebuilds it). Until it lands, or if it cannot (offline, a failed file, a file built for another deck list),
+  //     every card row that needs it is `unchecked` and the answer is `final: false` with no number.
+  // Before the graph, the manifest or the weights are in, the answer is a status with `points: null`, never 1000.
+  rating() {
+    const frame = this._giMode === "nogi" ? "nogi" : "gi", day = this._epochDay();
+    const game = this._ratingGame(frame);
+    const live = this._ratingLiveNow();
+    const c = this._ratingCache;
+    if (c && c.game === game && c.day === day && c.srs === this.srs && c.stage === this.stage && c.moves === this.moves
+      && c.mrev === this._movesRev && c.krev === this._knowledgeRevision && c.sv === this._stageVer && c.live === live) return c.out;
+    const r = ngRatingShare(game, { srs: this.srs, stage: this.stage, moves: this.moves }, day, live);
+    const out = Object.freeze(Object.assign({ frame, day }, r, { counts: Object.freeze(r.counts) }));
+    if (game.status === "ok") this._ratingCache = { game, day, srs: this.srs, stage: this.stage, moves: this.moves,
+      mrev: this._movesRev, krev: this._knowledgeRevision, sv: this._stageVer, live, out };
+    return out;
+  }
+  // the deck list the live files must match: every manifest deck and its card count, in the manifest's NAME order (the
+  // order `_ingestDeckManifest` builds `flashcards.decks` in, and the one `shared` indexes into)
+  _ratingDeckList() {
+    const decks = this.flashcards && this.flashcards.decks;
+    return decks ? Object.keys(decks).map((k) => [k, decks[k].n || 0]) : [];
+  }
+  // THE FINGERPRINT OF THE LIVE FILES this build emitted. It rides curriculum.json (`ratingLive`), never the deck
+  // manifest: the study bundles pin `flashcards/_index.json` byte for byte, and the fingerprint moves with every card
+  // rewording, so carried there every rewording deploy would cost a returning player their study plan (v1.273.0, LIVE3;
+  // the emitter's write_flashcards says it in full). null: no curriculum yet, or one from before the live files.
+  _ratingStamp() {
+    const c = this.curriculum, s = c && c.ratingLive;
+    return typeof s === "string" ? s : null;
+  }
+  // what the live check knows now, for THIS manifest and THIS fingerprint: its decoded result, {status: "checking"} while
+  // in flight, or undefined (never asked). A result for another manifest or another fingerprint is not used (both are
+  // the key), so a check made before curriculum.json landed is never kept once it has.
+  _ratingLiveNow() {
+    const L = this._ratingLive, P = this._ratingLiveP, decks = this.flashcards && this.flashcards.decks, fp = this._ratingStamp();
+    if (P && P.manifest === decks && P.fp === fp) return NG_RATING_CHECKING;   // a retry in flight beats an old failure
+    return L && L.manifest === decks && L.fp === fp ? L.result : undefined;
+  }
+  // decode files already in hand (the fetch below, or a unit's own read of the payload) and keep the result, against
+  // the fingerprint they were asked for under
+  _ratingLiveFrom(files, fp = this._ratingStamp()) {
+    const decks = this.flashcards && this.flashcards.decks;
+    const result = Object.freeze(ngRatingLiveDecode(files, this._ratingDeckList(), fp));
+    this._ratingLive = { manifest: decks, fp, result };
+    return result;
+  }
+  /** Start the live check (one fetch per manifest, coalesced) and resolve to `rating()` once it has landed or failed. */
+  ratingCheck() {
+    const decks = this.flashcards && this.flashcards.decks;
+    // before the manifest or curriculum.json is in there is nothing to check against (nor weights to price with): the
+    // reading says so itself, and nothing is fetched or kept
+    if (!decks || !this.curriculum) return Promise.resolve(this.rating());
+    const fp = this._ratingStamp(), L = this._ratingLive, P = this._ratingLiveP;
+    if (L && L.manifest === decks && L.fp === fp && L.result.status === "ok") return Promise.resolve(this.rating());
+    if (P && P.manifest === decks && P.fp === fp) return P;
+    // no fingerprint in curriculum.json (one from before the live files): nothing can be checked, so nothing is fetched
+    if (!fp) { this._ratingLiveFrom(null, null); return Promise.resolve(this.rating()); }
+    // the files are asked for UNDER the fingerprint, so a browser cache can never hand back another build's
+    const get = (i) => fetch(this._dataBase() + "flashcards/live-" + i + ".json?live=" + encodeURIComponent(fp))
+      .then((r) => (r.ok ? r.json() : null)).catch(() => null);
+    const p = Promise.all([get(0), get(1)])
+      .then((two) => {
+        const n = two[0] && Number.isInteger(two[0].files) ? two[0].files : 2;
+        // never more than the emitter can write (NG_RATING_LIVE_MAX_FILES): a file claiming 400 is refused, not followed
+        if (n <= 2 || n > NG_RATING_LIVE_MAX_FILES) return two;
+        const rest = [];
+        for (let i = 2; i < n; i++) rest.push(get(i));
+        return Promise.all(rest).then((more) => two.concat(more));
+      })
+      .then((files) => { this._ratingLiveFrom(files, fp); })
+      .finally(() => { if (this._ratingLiveP === p) this._ratingLiveP = null; })
+      .then(() => { this._practiceGuard(this._guardWait, true); return this.rating(); });   // a plan built without it (R409)
+    p.manifest = decks; p.fp = fp;
+    this._ratingLiveP = p;
+    return p;
+  }
+  _ratingGame(frame) {
+    // a game that could not be read is a STATUS, kept nowhere: `ngRatingShare` turns it into `points: null`. The graph
+    // is checked FIRST (READ402 F7): `scoreWeights` expands the table through the nodes and memoises it, so asked with
+    // no graph it would keep an empty table for good and announce a `wire_key_unresolved` that is not one
+    const fail = (status) => ({ status, total: 0, counts: {} });
+    if (!this.nodes || !this.nodes.length || !this._ordById) return fail("no-graph");
+    const decks = this.flashcards && this.flashcards.decks, weights = this.scoreWeights(frame);
+    const c = this._ratingGameCache;
+    if (c && c.frame === frame && c.nodes === this.nodes && c.ord === this._ordToId && c.decks === decks
+      && c.weights === weights && c.shared === this._sharedQ) return c.game;
+    if (!decks || !Object.keys(decks).length) return fail("no-manifest");
+    if (!weights || !Object.keys(weights).length) return fail("no-weights");
+    const tab = frame === "gi" ? this._evGi : this._ev;
+    const seats = {};
+    let whole = true;
+    if (tab && tab.size) for (const n of this.nodes) {
+      const o = n.ty === "positions" && this.rsAllowsIdx(n.idx) ? this._ordById.get(this.siteIdOf(n.id)) : null;
+      if (o == null) continue;
+      for (const role of ["top", "bottom"]) {
+        const st = o + "/" + role;
+        if (seats[st]) continue;
+        const opts = this._dealtOpts(n.idx, role);
+        if (!opts) { whole = false; continue; }
+        const key = this.posFamily(n.t) + "|" + (role === "bottom" ? "Bottom" : "Top");
+        const rows = tab.get(this.canonicalState(n.idx, role) + "/" + role), hand = {};
+        for (const d of opts) {
+          const r = rows && rows.get(d.idx);
+          hand[String(this._ordById.get(this.siteIdOf(this.nodes[d.idx].id)))] = r && typeof r.att === "number" ? r.att : null;
+        }
+        seats[st] = { w: Object.prototype.hasOwnProperty.call(weights, key) ? weights[key] : 0, hand };
+      }
+    }
+    if (!whole) return fail("hand-failed");
+    const game = ngRatingUniverse({ decks, weights, shared: this._sharedQ, seats });
+    this._ratingGameCache = { frame, nodes: this.nodes, ord: this._ordToId, decks, weights, shared: this._sharedQ, game };
+    return game;
+  }
+  // THE WIN % READS THE SAME FIGURE. The worker's profile computes `permanent` from `prep` itself
+  // (`ngKnowledgeBuildProfile` in knowledge-profile.src.js, a law-hashed file pinned by worker-core.mjs, game-bundles.mjs
+  // and study-bundles.mjs, so it stays byte-identical) as `ngKnowledgeMastery(count)`, for any finite count. So it is
+  // handed, for each deck the moves lift, the same count `mastery(key)` applies the same function to (`_knowCount`), and
+  // the two figures are one double. The stored `prep` is never touched, and with no known move this returns `this.prep`
+  // itself, so the profile is v1.255.2's byte for byte. The study presenter checks `_gameplanDecks()`' headroom against
+  // this profile's (to its own 1e-12), which is why that default stays moves-aware and only Practice asks for the
+  // flashcard-only figure.
+  _knowledgePrep() {
+    const c = this._movesIdx();
+    if (!this.moves || !c.seats.size) return this.prep;
+    const out = Object.assign({}, this.prep || {}), keys = new Set(c.tech);
+    for (const st of c.seats.keys()) { const s = this._seatOf(st); if (s) keys.add(this.posFamily(this.nodes[s.i].t) + "|" + (s.role === "bottom" ? "Bottom" : "Top")); }
+    for (const k of keys) { const n = this._knowCount(k); if (n > (out[k] || 0)) out[k] = n; }
+    return out;
+  }
   sharpness(key) { return (key && this._sharp && this._sharp[key]) || 0; }
   stateBonus(key) { return this.mastery(key) + this.sharpness(key); }
   bumpSharp(key) { if (key) { (this._sharp = this._sharp || {})[key] = 0.10; this._gameValueChanged("sharpness"); } }
@@ -2633,10 +3370,14 @@ class Component extends DCLogic {
     this._knowledgeRevision = revision == null ? (this._knowledgeRevision || 0) + 1 : revision;
     this._stageVer = (this._stageVer || 0) + 1;
     this._scoreCache = null; this._flowScoreCache = null; this._flowCache = null;
-    this._knowledgeEffect("map-paint", () => this._rebuildMapPaint());
-    // the belt BEFORE the tab repaints, so the tab never paints a belt that is not yet persisted
+    // (the map's paint was rebuilt here, "map-paint", while it read the decks; since v1.280.0 it is the nodes' own colours
+    // and the site mix, fixed at ingest, and what knowledge shows is the marks, which read `_answered` per `_stageVer`)
+    // each dealt card's seal and face, from one read (`_paintCard`): a Yes seals a card and turns it up, a No or a new
+    // day's due date takes the seal off and turns it down (v1.266.0, the seal v1.272.0)
+    this._knowledgeEffect("moves-card", () => this._paintHand());
+    // the belt synced and persisted before the observers below (the Path row's tail, `renderTabSubtitles`, painted here
+    // until it left with the Path in v1.287.0)
     this._knowledgeEffect("belt-sync", () => this._syncBelt(reason));
-    if (this.renderTabSubtitles) this._knowledgeEffect("renderTabSubtitles", () => this.renderTabSubtitles());
     // A landing answer also changes combo/qMod in its synchronous onDone callback.
     // Notify once after that whole turn, never launch a solve on half a grade.
     // `onlyHydration`: every publish coalesced into this notice was a deck landing (FGHYD1). One
@@ -2673,7 +3414,7 @@ class Component extends DCLogic {
     // No reference-only memo: imports and test rails can replace/mutate legacy maps.
     // The day and complete evidence fingerprint cover expiry/failure with unchanged odds.
     const day = this._checkKnowledgeDay();
-    return ngKnowledgeBuildProfile({ prep: this.prep, sharp: this._sharp, userMods: this.userMods,
+    return ngKnowledgeBuildProfile({ prep: this._knowledgePrep(), sharp: this._sharp, userMods: this.userMods,
       filmLook: this._filmLook, flowCounts: this.flowCounts(), revision: this._knowledgeRevision || 0,
       contentRevision: this._knowledgeContentRevision || "", day: day,
       evidenceRevision: ngKnowledgeFingerprint({ stage: this.stage || {}, rec: this.rec || {}, srs: this.srs || {} }) });
@@ -2693,6 +3434,9 @@ class Component extends DCLogic {
     this.prep = next.prep; this.stage = next.stage; this.rec = next.rec; this.srs = next.srs;
     this._sharp = next.sharp; this._days = next.days; this.cardDone = new Set(next.creditedQuestions);
     this._knowledgeAttempts = next.attempts; this.cardsToday = this._days[this._dayKey()] || 0;
+    // v1.280.2: the rows this answer wrote join the owner's undelivered answers (progress-owner.src.js, `ngProgressReplay`)
+    const at = next.attempts && next.attempts[id];
+    if (at) this._journal(result.changedDecks.map((dk) => [0, dk, at.qh, result.effects.correct ? 1 : 0, at.day, (this.srs[dk] || {})[at.qh]]));
     this._publishKnowledge("grade:" + mode, next.revision);
     if (result.effects.recallProven) this._knowledgeEffect("recall_proven", () => this.fx("recall_proven", { deckKey: key }));
     if (correct) {
@@ -2747,27 +3491,63 @@ class Component extends DCLogic {
   // `regenerate_graph.py` walks an unsorted rglob, so one new content file renumbers every
   // index and an index-keyed ledger would silently re-point at a different technique
   // (§6.6, the same reason `node_ordinals.json` exists).
-  get NG_FLOW_DEVICES() { return 6; }    // LRU cap; a coach on a phone, a tablet and a laptop
+  // LRU cap on the partitions minted since v1.262.11 (one per browser and owner, a new one per storage lifetime); the
+  // number lives in progress-owner.src.js (`NG_FLOW_CAP`, 32 since v1.262.11, was 6), beside the guest join that uses it
+  get NG_FLOW_DEVICES() { return NG_FLOW_CAP; }
   get NG_FLOW_DAYS() { return 180; }     // hard window, not decay — counters must stay monotone
   /**
-   * This browser's ledger partition. Minted once; a settings key can never be deleted (§6.6),
-   * which is exactly the durability this needs.
+   * This browser's ledger partition FOR THE OWNER WHOSE PROGRESS IS LIVE (v1.262.11, FLOW1).
+   *
+   * Until v1.262.10 this was the SETTING `flowDevice`, "minted once" and durable because a
+   * settings key can never be deleted (§6.6). That durability was the fault: settings sync
+   * per key, last writer wins, so the first pull on every other browser of the account
+   * handed it the same code, and every browser wrote ONE partition. MAX across a partition
+   * with several writers keeps only the larger tally (two browsers rolling one move between
+   * syncs read 11 for 12), which is the whole reason the ledger is partitioned. Production,
+   * 12 Nov: every one of the 48 accounts with a ledger had exactly one partition.
+   *
+   * Now the code lives in this browser, per owner, beside the owner's local copy and never in
+   * the blob (`flowDevice` in progress-owner.src.js keeps it). The rule, whole:
+   *   - minted at the owner's first roll in this browser, kept for good in its storage;
+   *   - never adopted from anywhere: not the old setting (several browsers hold it), and never
+   *     an id this owner's ledger already holds (the loop below);
+   *   - the setting `flowDevice` is DORMANT, read and written by nothing: still in old blobs,
+   *     re-added by every pull (no tombstone, §6.6), harmless. The partition filed under it is
+   *     never renamed or merged, is never evicted by the cap and takes no slot (it is not a
+   *     `b` + 16 hex id: `ngFlowCapped`), and each of its rows counts while ANY partition rolls
+   *     that move within NG_FLOW_DAYS (`ngFlowTrim`, `ngFlowWindowView`): what the old rule gave
+   *     it, where every roll refreshed its one row. Only a move nobody rolls for NG_FLOW_DAYS
+   *     drops, as before. Nobody writes it again (a tab still on an older build does, until
+   *     reloaded; such a tab also trims by the old rule, cap 6 by row, until then);
+   *   - a browser that loses its storage loses its code and mints another at its next roll:
+   *     one more slot of NG_FLOW_DEVICES; the old partition stays, frozen, counting as above,
+   *     and is the first the cap evicts. At the switch each browser's GUEST mints a code too,
+   *     so a guest who plays again brings two partitions to its next join (its old one takes
+   *     no slot, its new one does); a private session that rolls as a guest and then signs in
+   *     takes two slots, the guest's and the account's.
    *
    * NOT a raw random draw: `check_no_raw_random.sh` pins the app to exactly one, the passthrough
    * inside `rng()`, and a device id must not consume a tagged draw either — journeys rig those
-   * tags, so an id that moved the draw count would change replay behaviour. `qhash` (FNV-1a) over
-   * the clock plus whatever the environment happens to expose is enough: two devices colliding
-   * would need the same millisecond AND the same screen and agent string.
+   * tags, so an id that moved the draw count would change replay behaviour. Two `qhash`es
+   * (FNV-1a) over the clock, the page's own high-resolution clock and whatever the environment
+   * exposes give 64 bits; a collision needs the same instant to the microsecond on the same
+   * agent and screen, and even then the second mint steps past an id the ledger already holds.
    */
   _flowDevice() {
-    let d = this.get("flowDevice", null);
-    if (!d) {
+    if (this._flowDev) return this._flowDev;
+    const mint = () => {
       let ent = String(Date.now());
+      try { ent += "|" + performance.now(); } catch (e) { /* no high-resolution clock */ }
       try { ent += "|" + (navigator.userAgent || "") + "|" + screen.width + "x" + screen.height + "|" + new Date().getTimezoneOffset(); } catch (e) { /* non-browser */ }
-      d = "d" + this.qhash(ent);
-      this.set("flowDevice", d);
-    }
-    return d;
+      const held = this.flow || {};
+      for (let i = 0; ; i++) {
+        const d = "b" + this.qhash(ent + "|" + i) + this.qhash(i + "|" + ent);
+        if (!Object.prototype.hasOwnProperty.call(held, d)) return d;
+      }
+    };
+    const host = this._progressHost;
+    // the host answers null only for a stale instance or unreadable storage: this page keeps its own code then
+    return (this._flowDev = (host && host.flowDevice && host.flowDevice(this, mint)) || mint());
   }
   /**
    * Record one exchange. Called from `resolve()` — the ONLY point in the app where the
@@ -2819,7 +3599,9 @@ class Component extends DCLogic {
   flowCounts() {
     const ver = this._flowVer || 0, day = this._epochDay(), source = this.flow;
     if (this._flowCache && this._flowCache.v === ver && this._flowCache.day === day && this._flowCache.source === source) return this._flowCache.out;
-    const out = ngKnowledgeFlowCounts(source, day, this.NG_FLOW_DAYS);
+    // the window is the CELL's (FLOW2 M1, `ngFlowWindowView`): a frozen partition's row counts while any partition
+    // rolls that move. An empty ledger never reaches the view (harnesses without the blob module boot with one).
+    const out = ngKnowledgeFlowCounts(source && Object.keys(source).length ? ngFlowWindowView(source) : source, day, this.NG_FLOW_DAYS);
     this._flowCache = { v: ver, day: day, source: source, out: out };
     return out;
   }
@@ -2831,29 +3613,17 @@ class Component extends DCLogic {
     return n;
   }
   /**
-   * Trim: newest NG_FLOW_DEVICES partitions, rows touched within NG_FLOW_DAYS. A hard
-   * window rather than a decay, so every surviving counter stays monotone and MAX-mergeable.
-   * Eviction PRINTS — a silent trim reads exactly like "you never rolled there" (§6.6).
+   * Trim, in place: rows whose (state, move) no partition rolled within NG_FLOW_DAYS, empty
+   * partitions, and the partitions minted since v1.262.11 beyond the NG_FLOW_DEVICES newest
+   * (ties by id). A partition from before (the account's old shared one) is never evicted.
+   * The rule is `ngFlowTrim` (progress-owner.src.js), the one the guest join's room count
+   * uses too. A hard window rather than a decay, so every surviving counter stays monotone
+   * and MAX-mergeable. Eviction PRINTS — a silent trim reads exactly like "you never rolled
+   * there" (§6.6) — though only in this page: it reaches no analytics (F7, known).
    */
   _trimFlow(f) {
-    const cut = this._epochDay() - this.NG_FLOW_DAYS;
-    const seen = [];
-    let dropped = 0;
-    for (const dev in f) {
-      let newest = 0;
-      const D = f[dev];
-      for (const pk in D) {
-        const P = D[pk];
-        for (const ord in P) {
-          if ((P[ord][2] || 0) < cut) { delete P[ord]; dropped++; continue; }
-          if (P[ord][2] > newest) newest = P[ord][2];
-        }
-        if (!Object.keys(P).length) delete D[pk];
-      }
-      seen.push([dev, newest]);
-    }
-    seen.sort((a, b) => b[1] - a[1]);
-    for (const [dev] of seen.slice(this.NG_FLOW_DEVICES)) { delete f[dev]; dropped++; }
+    if (!f || !Object.keys(f).length) return f;
+    const dropped = ngFlowTrim(f, this._epochDay(), this.NG_FLOW_DAYS, this.NG_FLOW_DEVICES);
     if (dropped) this.fx("flow_trimmed", { dropped: dropped, devices: Object.keys(f).length });
     return f;
   }
@@ -2917,11 +3687,8 @@ class Component extends DCLogic {
   }
   setDrillHeader(title, sub, countText, role, roleColor) {
     const head = this.drillHeadRef.current; if (!head) return;
-    if (this._session?.practice && !this._checkpoint && !this.deck) {
-      head.innerHTML = '<button type="button" class="ngBack" data-pane-back="1">‹ Back</button><b>Practice</b><small data-practice-belt="1"></small>';
-      head.querySelector(".ngBack").onclick = () => this._exitStudyTo();
-      return;
-    }
+    // Practice's way back is the brand, "‹ Practice" (`_paintDrawerHead`), as Path's is, so its head is the belt line alone
+    if (this._practiceInDrawer()) { head.innerHTML = '<small data-practice-belt="1"></small>'; return; }
     head.innerHTML =
       '<div style="display:flex;align-items:center;height:40px;margin-bottom:12px;">' +
         // a real button (SIDE-R2 P2): Tab reaches it and Enter or Space takes it, as every drawer row does
@@ -2936,7 +3703,7 @@ class Component extends DCLogic {
         (countText ? '<span style="flex:none;margin-top:3px;font-size:11px;font-weight:700;color:#7ee0a8;letter-spacing:.02em;">' + countText + '</span>' : '') +
       '</div>' +
       (sub ? '<div style="font-size:11.5px;color:#93a0bd;margin-top:7px;line-height:1.45;">' + sub + '</div>' : '');
-    head.querySelector(".ngBack").addEventListener("click", () => this._exitStudyTo(this._paneReturnTab)); // ‹ Back returns to the tab the study came from
+    head.querySelector(".ngBack").addEventListener("click", () => this._paneBack()); // ‹ Back returns to the tab the study came from (`_paneBack`)
     { const b = head.querySelector(".ngBack"); if (b) { b.addEventListener("mouseenter", () => { b.style.background = "rgba(255,255,255,.09)"; b.style.color = "#eef1f6"; }); b.addEventListener("mouseleave", () => { b.style.background = "rgba(255,255,255,.05)"; b.style.color = "#aeb9d2"; }); } }
   }
   updateDrillCount() {
@@ -2954,7 +3721,24 @@ class Component extends DCLogic {
     return b;
   }
 
-  buildDrillPanel(posIdx, deckKeyOverride) {
+  buildDrillPanel(posIdx, deckKeyOverride, first) {
+    // A ROLL'S FIRST LANDING UNDER A SESSION THE PLAYER HAS OPEN keeps the session (the roll's own start already ended any
+    // session it was to end: `_sessionShown`) AND LEAVES THE PAGE AS A SESSION OPENED AFTER THE LANDING FINDS IT
+    // (REFSEARCH-R1; the reader of #436, finding 1: the first build returned here at once, so the position's key stayed
+    // unset in 40 of 40 kept runs and `moveChance` priced that hand without the position's mastery). Every write below,
+    // and whether it runs under a kept session:
+    //   · `drillEntries`, `_posKey`, the game-value restart: RUN. They are the position's own; a practice session keeps
+    //     its cards in `_session`, not in this slot. Not when a study opened FROM the kept session holds the slot
+    //     (`_studyOpen`: `openStudy` put its own deck and key there), as it would after a late landing too.
+    //   · `activeDrill`, `deckIdx`, `revealed`: SKIPPED. The study deck's own card state; a late session opens after
+    //     their reset, so resetting them under an open one could only move a study card the player is on.
+    //   · `_session = null`: SKIPPED, the point of the keep. `_studyOpen = null`: SKIPPED, a study the player opened.
+    //   · `_drillView = "home"`: SKIPPED, and it changes nothing: "home" is the only value it is ever given.
+    //   · the History tab's repaint: never runs under a session (`!_paneStudyActive()`).
+    //   · `_lastHomeRollLen`: RUN, the History tab's scroll bookkeeping for when the session ends.
+    //   · `deckReady`, `applyDeckVisibility()`: SKIPPED. The panel is shown already; applying again would close a list
+    //     picker the player has open and repaint the session's card.
+    const kept = !!first && this._sessionShown();
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const entryFor = (node) => {
       const info = this.deckKeyFor(node);
@@ -2969,14 +3753,17 @@ class Component extends DCLogic {
     } else {
       firstEntry = entryFor(this.nodes[posIdx]);
     }
-    this.drillEntries = [firstEntry];
-    const priorPosKey = this._posKey;
-    this._posKey = this.drillEntries[0].info.key;
-    // `onFlashcardsReady` rebuilds this panel on every hydration refresh with the SAME key: inside a
-    // hydration burst that is the burst's trailing restart's job, not a fresh one (FGHYD1, the fourth
-    // path: 28 of 33 restarts in one corpus hydration). A changed key, or no burst, restarts as before.
-    if (this._residencyHold && priorPosKey === this._posKey) this._residencyHold.dirty = true;
-    else this._gameValueChanged("position-key");
+    if (!(kept && this._studyOpen)) {
+      this.drillEntries = [firstEntry];
+      const priorPosKey = this._posKey;
+      this._posKey = this.drillEntries[0].info.key;
+      // `onFlashcardsReady` rebuilds this panel on every hydration refresh with the SAME key: inside a
+      // hydration burst that is the burst's trailing restart's job, not a fresh one (FGHYD1, the fourth
+      // path: 28 of 33 restarts in one corpus hydration). A changed key, or no burst, restarts as before.
+      if (this._residencyHold && priorPosKey === this._posKey) this._residencyHold.dirty = true;
+      else this._gameValueChanged("position-key");
+    }
+    if (kept) { this._lastHomeRollLen = this.rollLog ? this.rollLog.length : 0; return; }
     this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
     this._session = null;
     this._studyOpen = null;   // a new roll state retires any study surface (see _paneStudyActive)
@@ -3005,6 +3792,7 @@ class Component extends DCLogic {
     }
     this.deckOpen = !!open;       // sticky: once opened it stays open across lands until closed
     this.applyDeckVisibility();
+    if (!open && this._session && this._session.cz) { this._czSync(); this._undoRelease(); }   // L2: the map as it is today; a held push goes
     this.lastInteract = this.now;
   }
   applyDeckVisibility() {
@@ -3013,14 +3801,18 @@ class Component extends DCLogic {
     const open = this.deckReady && this.deckOpen;
     const wasShown = this.deckShown;
     this.deckShown = open;
+    if (open !== wasShown) this._seatReplayBar();   // a film's bar stands in the drawer where it cannot stand whole beside it, on the map otherwise (FOLLOW1; FOLLOW2-R1)
+    if (!open) this._searchAsked = false;   // the search row's "asked for" ends with the panel (`_syncExploreTools`)
     // The pane owns landing shortcuts until it closes; exposed pointer controls remain live.
     // Lifter: every close path passes through this same visibility seam, including study.
     this._landPaneHid = !!open;
     // ── PANE LAW ── the pane showing STOPS the game; hiding it resumes ONLY if the pane is what
     // stopped it (a hand-paused roll stays paused when you close it). One latch for the whole
-    // merged pane (any tab, any study surface) — _dossierAutoPaused stays separate for the node
-    // dossier. Latched here, not in setDeckOpen, because study, session and checkpoint entry
+    // merged pane (any tab, any study surface). Latched here, not in setDeckOpen, because study, session and checkpoint entry
     // points also assign deckOpen directly.
+    // `_paneAutoPaused`'S LIFTERS, the complete set (§6.5): the close branch below (it resumes, or hands the pause to a film
+    // that is running); `_showPlace` (hands it to a look, on a phone); `_clearPauseLatches` (a reference page takes the roll
+    // away); and `setPaused(false)`, any other hand that starts the clock (FOLLOW1: a clock that runs is nobody's).
     // _paneTransition: the open/close beats run challenge-evidence processing, whose refresh
     // tail re-renders the pane body — mid-transition that's a double render that eats one-shot
     // state (migration notice, shelf scroll). The flag makes the refresh skip it; the caller's
@@ -3038,13 +3830,15 @@ class Component extends DCLogic {
       // fetched when the drawer opens, the moment its Practice row is in front of the player, so the
       // press deals the interleaved queue rather than the owed reviews alone. Never on the boot path.
       void this._ensureGameplanRuntime();
-      // arrival positioning (v1.98.1): opening the pane onto Challenges lands the corridor
-      // where the person is — renderChallenges consumes this once, instantly
-      if (this._viewMode === "challenges") this._challengeScrollPending = true;
+      // THE BELT ROW READS ON OPEN (v1.276.0): the rating's live check is asked here, never on the boot path, and a check
+      // that landed is never fetched again (`_askBeltRow`, `ratingCheck`)
+      this._askBeltRow();
+      this._lookEnd("drawer");   // a look's hold comes back to the drawer that took the pause (`_showPlace`)
       if (!this.paused) { this.setPaused(true); this._paneAutoPaused = true; this.fx("pane_paused", {}); }
       const active = document.activeElement;
       this._explorerReturnFocus = active && active !== document.body ? active : null;
     } else if (!open && wasShown) {
+      this._histBack = null;   // the way back to a Last rolls row is for a drawer that stayed open (`renderDrillHome`, L3-R2)
       this._handBackMc("pane", true); // exposed landing pages may have changed while the pane owned the keys
       // ── CLOSING THE PANE WHILE A FILM IS RUNNING HANDS THE CLOCK OVER, IT DOES NOT RESUME ──
       // On a phone the 88vw drawer IS the screen, so closing it is how you WATCH the replay you
@@ -3084,7 +3878,8 @@ class Component extends DCLogic {
     }
     const panel = this.drillRef.current;
     if (panel) { panel.style.display = open ? "flex" : "none"; panel.style.pointerEvents = open ? "auto" : "none"; }
-    if (open) this._syncSeatStars([]); // graph controls must not float over the learning pane
+    // a phone's drawer takes the screen: its star goes with the names (`covered` in draw()); a desktop's keeps it (`_syncSeatStars`)
+    if (open && this.isMobile()) this._syncSeatStars([]);
     // the drill pill is DELETED (v1.99.0) — the share cue is a standalone conditional
     // control; every apply re-renders it (it hides while the pane owns its corner)
     this._renderShareCue();
@@ -3092,7 +3887,7 @@ class Component extends DCLogic {
     // share a corner, so the chip keeps its normal look. On a phone the drawer takes the screen
     // and the chip fades (updateUiShift) — close its menu so it can't linger over the drawer.
     if (!open) this.closeAccountMenu();   // the badge's menu lives in the drawer (v1.242.0)
-    { const o = this.wrapRef.current && this.wrapRef.current.querySelector(".ng-logo"); if (o) o.style.visibility = open ? "hidden" : ""; }   // the drawer's head owns the corner while open
+    for (const o of this.wrapRef.current?.querySelectorAll(".ng-logo,.ng-search") || []) o.style.visibility = open ? "hidden" : "";   // the drawer's head owns the corner while open
     // Landing surfaces share the wrap's stacking context with the pane. They remain readable
     // and interactive beside it; at narrow widths the pane covers the overlap naturally.
     if (open && !wasShown) this._declineLandQ("pane"); // studying instead of answering = declining (v1.134.0)
@@ -3112,6 +3907,17 @@ class Component extends DCLogic {
   // post-hydration refresh ran buildDrillPanel and stomped the very surface the user opened —
   // the same class of bug as onFlashcardsReady's, one layer down.
   _paneStudyActive() { return !!(this.deck || this._session || this._checkpoint || this._studyOpen); }
+  // PRACTICE IS A VIEW INSIDE THE DRAWER, AT THE DRAWER'S WIDTH, AS PATH IS (owner U135 a, v1.261.0). The brand reads
+  // "‹ Practice" and is the way back (`drawerHome`), the map stays beside the drawer, and each card's technique is
+  // flown to the free map with its ring. From v1.248.0 (PR #336) to v1.260.0 Practice was its own 760 px page centred
+  // over the map: the 11-04 build plan's "readable study column instead of remaining a narrow map-side drawer", which
+  // nobody asked for. It hid the map that follows each card (the card's technique was flown under the page, to a
+  // 340 px strip at the right edge) and went against the owner's own words when the inline session was built
+  // (v1.137.0): "the idea isn't for the whole technique to take up the entire space of the sidebar". Owner, 11 Nov:
+  // it "changes the page completely, hiding the graph instead of opening that up inside the drawer as Path does".
+  // The card's text is 283 px wide in the 360 px drawer (266 px on a phone), about what a phone always showed.
+  // Pinned by e2e/journeys/practice-drawer.spec.ts (the width, the technique beside it, the Back, the 44 px answers).
+  _practiceInDrawer() { return !!this._session?.practice && !this._checkpoint && !this.deck; }
   // Does a System or Concept detail view own the Explore body right now? The SAME predicate
   // renderExplorer branches on (a live query outranks either), kept here so the chrome above
   // the list and the list itself cannot disagree about what is showing.
@@ -3120,22 +3926,39 @@ class Component extends DCLogic {
     return !!(this._systemId ||
               (this._conceptId && this._conceptsById && this._conceptsById[this._conceptId]));
   }
-  // THE ONE WRITER of the search row's visibility. It shows on the Explore ROOT only — not on
+  // THE ONE WRITER of the search row's visibility. It shows on the Explore ROOT — not on
   // another tab, not under a study takeover, and not while a Principle / Learning / System
   // detail owns the list (owner: "I should only see that in explore tab root"). Three callers
   // (_layoutPane, styleViewToggle, renderExplorer) because the detail id is set AFTER openPane
   // has already laid the pane out, so the render is the only site that sees the final answer.
+  // AND WHEN SEARCH WAS ASKED FOR, WHATEVER THE PAGE SHOWS (REFSEARCH; the orchestrator's rule on the third
+  // read of #432, its finding 2: on a principle, system or learning page the search button opened the page's entry with
+  // no search row and nothing focused, 6 of 6). `_searchAsked` is set by `_askSearch`: from `openSearchPane` (the search
+  // button, "/", Cmd/Ctrl+K, and their early forms replayed), and from the search field itself when the PLAYER puts
+  // the caret in it or types (REFSEARCH-R1, the orchestrator's ruling 4: a caret they put there is never taken by a
+  // landing; before, the page's record landing under it hid the row and what they typed next went nowhere, 4 of 4).
+  // NOT from the logo's own handing of the keys to the search on a desktop (`toggleExplorer`): the owner's rule above
+  // stands for the logo (pinned by concepts-surface.spec.ts, "no search row while a principle owns the pane"). The row
+  // shows over the page's own entry, the caret in it, and the entry gives way to results as soon as something is typed
+  // (a query already outranks an entry). ITS ONE LIFTER: the panel shutting (`applyDeckVisibility`, the seam every
+  // close passes through). Nothing else needs one: every way to another entry (a row, a result, a link, Back) goes
+  // through `_readArticle`, which shuts the panel first.
+  _askSearch() { if (!this._searchAsked) { this._searchAsked = true; this._syncExploreTools(); } }
   _syncExploreTools(study) {
     const tools = this.explorerToolsRef.current; if (!tools) return;
-    const show = this._viewMode === "explore" && !(study == null ? this._paneStudyActive() : study) && !this._exploreDetailOwnsList();
+    const show = this._viewMode === "explore" && !(study == null ? this._paneStudyActive() : study) && (this._searchAsked || !this._exploreDetailOwnsList());
     tools.style.display = show ? "flex" : "none";
+    // a row that hides takes its caret with it, at once: the browser moves the focus off a hidden field only at its next
+    // rendering step, and until then the page still read as "the caret is in the search" (an early logo press on a
+    // reference page: the root list's search had the caret when the entry replaced the list)
+    if (!show && document.activeElement === this.explorerSearchRef.current) this.explorerSearchRef.current.blur();
   }
   _layoutPane() {
     const panel = this.drillRef.current; if (!panel) return;
     const study = this._paneStudyActive();
     if (study && !this._paneWasStudy) this._paneReturnTab = this._viewMode; // remember where ‹ Back goes
     this._paneWasStudy = study;
-    panel.toggleAttribute("data-practice-page", !!this._session?.practice && !this._checkpoint && !this.deck);
+    panel.toggleAttribute("data-practice-page", this._practiceInDrawer());   // the marker every Practice spec waits on
     if (study) panel.setAttribute("data-pane-study", "1"); else panel.removeAttribute("data-pane-study");
     this._paintDrawerHead();
     this._syncExploreTools(study);
@@ -3156,9 +3979,77 @@ class Component extends DCLogic {
     if (!this.deckShown || this._paneStudyActive()) return;
     this._paintBadge(); // exiting a study surface repaints today's numbers
     if (this._viewMode === "history") { this._pathDim = false; this.clearFocus(); this.renderDrillHome(); }
-    else this.renderExplorer();
+    else { this.renderExplorer(); this._showFilmDoor(); }
+  }
+  /**
+   * WHILE A FILM'S BAR STANDS IN THE DRAWER, THE HOME VIEW SHOWS ITS WAY BACK TO THE FILM'S LIST (FOLLOW2, v1.293.3). The
+   * drawer opens on its home view, and the bar takes its room at the foot of whatever list shows (`_seatReplayBar`). At
+   * 390x631 that is exactly where the "Last rolls" door stands (the reader of PR #441: 5 of its 28 px showed and a touch
+   * at its middle landed on the bar; in the real app the door lay wholly under it), and that door is the way back to the
+   * list the film was started from. When the home view comes up during a film (the drawer's opening, the way home from a
+   * view), its list is scrolled just far enough to show that door whole. No finger is on a row then.
+   * NOT WHEN A PAYLOAD REDRAWS THE LIST (`renderExplorer` runs for those too): a player who has scrolled elsewhere is
+   * left there. NO ROW MOVES WHEN THE FILM STOPS: the list gets the bar's room back at its end and keeps its scroll; the
+   * rolls listed under the door are more than that room, so the browser has nothing to pull back (pinned on the home
+   * view by history-replay.spec.ts).
+   * ONLY WHEN THE BAR'S COMING IS WHAT HIDES THE DOOR (FOLLOW2-R1; the reader of PR #443 read it in the code, then
+   * measured here): the door is brought up when it would stand whole in the list without the bar's room, that is above
+   * the account's foot. A list the player left with a long section open has its door thousands of px down, bar or no
+   * bar: the first cut scrolled all that way, and the way home during a film came up at the list's FOOT (390x631,
+   * Positions open: scrolled 3,614 px, the "Explore" head 3,494 px above the screen; on dev at its top). That list is
+   * left where the home view puts it. It matters more since the bar also sits in the drawer beside a board too narrow
+   * for it (`_seatReplayBar`), where sections are left open as a matter of course.
+   */
+  _showFilmDoor() {
+    const bar = this._replayEl, list = this.explorerListRef.current;
+    if (!bar || !bar.hasAttribute("data-in-drawer") || !list || list.offsetParent === null) return;
+    const door = list.querySelector('[data-view="history"]'); if (!door) return;
+    const d = door.getBoundingClientRect(), l = list.getBoundingClientRect(), foot = bar.nextElementSibling;
+    if (foot && d.bottom > foot.getBoundingClientRect().top) return;   // not the bar's doing: it was out of view without it
+    // (whole pixels, and 6 px of air: a scroll offset is an integer, and a door flush against the bar reads as cut)
+    if (d.bottom + 6 > l.bottom) list.scrollTop += Math.ceil(d.bottom + 6 - l.bottom);
+    else if (d.top < l.top) list.scrollTop -= Math.ceil(l.top - d.top);
   }
   // exit an active study surface back to tabs mode on the given (or remembered) tab
+  // ‹ BACK FROM A CHECKPOINT STARTED IN MASTER THE GAME'S CORRIDOR RETURNS THERE (PATH-R1, ruling 4; the reader of #430
+  // finding 4). The Path's quiz came back to the Path; a quiz started in Master the game ran `_exitStudyTo` with the tab
+  // remembered when Master the game itself opened ("explore"), which ended the session and landed on the drawer's list. Now
+  // the quiz is abandoned as any Back abandons it, the session stays, Master the game is drawn again, and the unit's
+  // checkpoint row is brought into view and held there until the player moves the page (the first card's own scroll yields,
+  // `_scrollFocusedDeck`, as it does for View Collection's shelf). A belt test has no Back: it plays on the map. A FINISHED
+  // quiz closes the drawer as before.
+  _paneBack() {
+    const cp = this._checkpoint, s = this._session;
+    if (cp && cp.fromPractice && s && s.practice) {
+      this._cancelCheckpoint();
+      this.revealed = false; this._drillView = "home";
+      s.backTo = cp.uk;
+      const host = this.drillListRef && this.drillListRef.current;
+      if (host) for (const t of ["wheel", "touchstart", "pointerdown", "keydown"]) host.addEventListener(t, () => { s.backTo = null; }, { once: true, passive: true });
+      this.renderSession();
+      this._layoutPane(); this._paintDrawerHead();
+      // THE KEYS STAY IN THE PAGE (L1-R1b, the reader's smaller 7, both sizes): with a card open the card holds the focus; in
+      // the list (L1) nothing did, and the focus was left outside the page with the Back button gone, so no key lifted the
+      // hold (its keydown listener is on the page). The focus goes to what the player came from: the checkpoint's row, or
+      // the button when the row is not drawn
+      const keys = () => {
+        const h = this.drillListRef.current;
+        if (!s.list || !h || h.contains(document.activeElement)) return;
+        const to = h.querySelector('[data-checkpoint="' + CSS.escape(cp.uk) + '"]:not(:disabled)') || h.querySelector("[data-master-start]:not(:disabled)");
+        if (to) to.focus({ preventScroll: true });
+      };
+      keys();
+      const bring = () => {
+        if (this._session !== s || !s.backTo) return;
+        keys();
+        const row = this.drillListRef.current && this.drillListRef.current.querySelector('[data-checkpoint="' + CSS.escape(s.backTo) + '"]');
+        if (row) row.scrollIntoView({ block: "center" });
+      };
+      requestAnimationFrame(() => { bring(); requestAnimationFrame(bring); });
+      return;
+    }
+    this._exitStudyTo(this._paneReturnTab);
+  }
   _exitStudyTo(view) {
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // leaving the card view cancels the pending advance
     if (this._checkpoint) this._cancelCheckpoint();
@@ -3172,7 +4063,7 @@ class Component extends DCLogic {
       this.focusIdx = origin.node;
       this._writeUrl(origin.path, {}, true, origin.title);
       this.explorerListRef.current.scrollTop = origin.scroll;
-      const focus = origin.focus?.isConnected ? origin.focus : this.explorerListRef.current?.querySelector('[data-maintenance], [data-b="due"], [data-track]');
+      const focus = origin.focus?.isConnected ? origin.focus : this.explorerListRef.current?.querySelector('[data-b="due"], [data-track]');
       focus?.focus({ preventScroll: true });
     }
   }
@@ -3201,20 +4092,6 @@ class Component extends DCLogic {
   }
   // (v1.94.0) the chip's old toggleMenu — open the pane / close the pane — is gone: the chip
   // opens the ACCOUNT MENU now (toggleAccountMenu), and the pane opener is the top-left logo.
-  openMenu(latest) {
-    if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // leaving the card view cancels the pending advance
-    this._drillView = "home";
-    if (this._checkpoint) this._cancelCheckpoint(); // walking home mid-quiz abandons it (same as ✕/Esc)
-    this.deck = null; this._studyOpen = null; this._session = null; // home = tabs mode, not study takeover
-    if (this._viewMode !== "history") this.setViewMode("history");
-    if (latest) this._openRow = this._focusRow = "c" + (this._rollFocus = this.rollLog.length - 1);
-    this.deckReady = true; this.deckOpen = true;
-    this.applyDeckVisibility();
-    this.renderDrillHome();
-    if (latest) this._scrollFocusedDeck();
-    this.lastInteract = this.now;
-  }
-  closeMenu() { this.setDeckOpen(false); }
   _deckHasCards(key) { const d = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null; return !!(d && d.cards && d.cards.length); }
   // ONE accessor for a deck's cards. A deck entry can be PRESENT but not hydrated: the
   // on-demand chunk path boots from a manifest stub ({n} with no `cards`) and fills
@@ -3533,7 +4410,7 @@ class Component extends DCLogic {
             if (!n) continue; // a cached graph may predate a newly authored site
             const aliases = [...meta.aka, ...(meta.family ? meta.family.aka : [])];
             for (const member of [n, this.nodes[n.pi]]) if (member) {
-              member.aliasMeta = meta; member.aliases = aliases; member._searchNames = null;
+              member.aliasMeta = meta; member.aliases = aliases; member._searchNames = null; member._rk = null;
             }
           }
           this._aliasesReady = true;
@@ -3672,10 +4549,20 @@ class Component extends DCLogic {
   // its target before pointerdown either. Each job re-asks its own active/connected condition;
   // a user input renders immediately, so typing/closing cannot resurrect an obsolete result.
   // Lifter: pointerleave re-enters this seam, preserving the press guard on a drag out.
+  // A FINGER DOES NOT HOVER (practicetap). After a tap Chrome keeps the list `:hover` for about 0.1 s
+  // (measured 88 to 115 ms at 390x844 and 768x1024), while the finger's own pointerleave has ALREADY
+  // fired, at its pointerup. Practice's plan is adopted through here about 100 ms after the tap (the
+  // click, then gameplan.js), so the hold waited for a leave that had happened, and the hover then
+  // cleared with no event at all: a tap on Practice got the cold one-deck queue and an empty count
+  // line for good, while a mouse recovered because its browser fires pointerleave when the list hides.
+  // Broken from v1.248.0 (Practice's adoption moved behind this seam) to v1.256.5, production
+  // included. The hold now applies only while the pointer that last entered the drawer can hover; a
+  // finger is still covered by `_panePress` above, which owes its jobs until the tap's click lands.
+  // Pinned by e2e/journeys/practice-tap-plan.spec.ts (a tap and a click must give the same plan).
   _afterPress(job) {
     const list = this.explorerListRef && this.explorerListRef.current;
     if (this._panePress) (this._paneOwed || (this._paneOwed = [])).push(job);
-    else if (list && list.matches(":hover"))
+    else if (list && !this._paneHoverTouch && list.matches(":hover"))
       list.addEventListener("pointerleave", () => this._afterPress(job), { once: true });
     else job();
   }
@@ -3801,26 +4688,14 @@ class Component extends DCLogic {
   // bytes-to-first-hand bill (measured: it did). The read sites fetch it, and the Explore tab
   // re-renders when it lands — one click's worth of latency, once.
   focusRollItem(idx) {
-    // arrow up/down moves the focus through THIS ROLL, opening the focused state's deck (collapsing the rest)
+    // arrow up/down moves the focus through THIS ROLL, opening the focused place's two actions (collapsing the rest)
     const rl = this.rollLog || [];
     if (!rl.length) return;
     idx = Math.max(0, Math.min(rl.length - 1, idx));
     this._rollFocus = idx;
-    this._openRow = null;
-    this._focusRow = null;
-    const key = rl[idx].key;
-    if (this._deckHasCards(key)) { this._openRow = "c" + idx; this._focusRow = "c" + idx; }
+    this._openRow = this._focusRow = "c" + idx;
     this.renderDrillHome();
     this._scrollFocusedDeck();
-  }
-  _armDeckExpire() {
-    // gray-out the OPEN current-state flashcard box over the decision window; it fully grays as time runs out, then the roll moves on
-    const list = this.drillListRef.current; if (!list) return;
-    const w = list.querySelector(".ngCurExpire"); if (!w) return;
-    const dsec = this._decisionDsec || 10;
-    w.style.animation = "none"; void w.offsetWidth;
-    w.style.animation = "ngDeckExpire " + dsec + "s linear forwards";
-    w.style.animationPlayState = this.paused ? "paused" : "running";
   }
   /**
    * Bring the OPEN inline deck fully into the pane's scroller — row header, question and Reveal.
@@ -3849,6 +4724,9 @@ class Component extends DCLogic {
    */
   _scrollFocusedDeck(scroller, deckEl) {
     requestAnimationFrame(() => {
+      // View Collection's scroll to the rewards shelf holds the page until the player moves it (v1.287.0, `renderRewardsShelf`):
+      // Master the game opening its first card must not scroll the player back up past the shelf they asked to see
+      if (this._session?.shelfScroll || this._session?.backTo) return;   // ...and ‹ Back's checkpoint row (PATH-R1, ruling 4, `_paneBack`)
       const list = scroller || this.drillListRef.current; if (!list) return;
       let deck = deckEl || (this._openMini && this._openMini.el);
       if (!deck || !deck.isConnected || deck.style.display === "none") {
@@ -3858,25 +4736,16 @@ class Component extends DCLogic {
       }
       const row = deck.previousElementSibling;
       const dr = deck.getBoundingClientRect();
-      const top = Math.min(dr.top, row ? row.getBoundingClientRect().top : dr.top);
+      // a row not drawn (L1-R0: the deck row that only repeats its place) has no top of its own: the card's is used
+      const top = Math.min(dr.top, row && row.offsetParent !== null ? row.getBoundingClientRect().top : dr.top);
       const lr = list.getBoundingClientRect();
-      // A STICKY header inside the scroller owns the top of the scrollport and must be subtracted,
-      // MEASURED off the element and never as a CSS constant (§6.1, `_dockLandCard`): the corridor
-      // carries the maintenance band, which is one wrapping line from being taller than it looks.
-      // Absent on the History/session lists, where this query finds nothing and the inset is 0.
-      const band = list.querySelector("[data-maintenance]");
-      const pad = 12 + (band ? band.getBoundingClientRect().height : 0);
+      // (the Path's sticky maintenance band was subtracted here; it left with the Path in v1.287.0.) Master the game's slim
+      // line is the one sticky band now (L1): a card scrolled to the top stays below it
+      const band = this._session && this._session.slim, pad = 12 + (band && band.isConnected && !band.hidden ? band.offsetHeight : 0);
       const room = lr.height - pad - 12;
       if (dr.bottom - top > room || top < lr.top + pad) list.scrollTop += top - (lr.top + pad);
       else if (dr.bottom > lr.bottom - 12) list.scrollTop += dr.bottom - (lr.bottom - 12);
     });
-  }
-  menuBtn(label, active, onClick) {
-    const b = document.createElement("button");
-    b.textContent = label;
-    b.style.cssText = "flex:1;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:600;padding:7px 4px;border-radius:8px;transition:none;border:1px solid " + (active ? "rgba(150,180,255,.6)" : "rgba(150,170,210,.16)") + ";background:" + (active ? "rgba(74,108,255,.26)" : "rgba(255,255,255,.03)") + ";color:" + (active ? "#eef1f6" : "#aeb6c8") + ";";
-    b.addEventListener("click", onClick);
-    return b;
   }
   applyFont() {
     const stack = "'Space Grotesk'";
@@ -3906,6 +4775,8 @@ class Component extends DCLogic {
   }
   _hydrateProgressBlob(p) {
     if (p !== null) ngProgressValidateBlob(p);
+    // a pull or another tab can flip `hideMoves` under a dealt hand (review R9): the row and the map re-sync below
+    const hideWas = this._optionCards && this._optionCards.length ? this._hideMoves() : null;
     p = p === null ? { v: 2 } : JSON.parse(JSON.stringify(p));
     this._progressExtras = Object.assign({}, p);
     this._progressAt = p.updatedAt || 0;
@@ -3923,10 +4794,16 @@ class Component extends DCLogic {
       // per-card review schedule (v1.105.0): {deckKey: {qhash: [due, ivl, last]}} in epoch DAYS.
       // Rides the v2 blob without a version bump (the `lists` precedent); absent on old blobs.
       this.srs = Object.assign({}, p.srs || {});
+      // the moves you recalled from each state (v1.255.0, `_gradeMove`); absent on older blobs
+      this.moves = Object.assign({}, p.moves || {});
       this.stage = Object.assign({}, p.stage || {});
       this.units = Object.assign({}, p.units || {});
       this.belts = Object.assign({ won: {} }, p.belts || {});
       this.belts.won = Object.assign({}, (p.belts || {}).won || {});
+      // when the open rule (U163 c) first ran for this account, and the carry-over's fact; absent on older blobs
+      // (`_syncBelt`, `_recallCarryLive`)
+      this._openAt = ngOpenAt(p.openAt);
+      this._recallCarry = p.recallCarry === true;
       this.tut = { done: Object.assign({}, (p.tut || {}).done || {}) };
       this.challenges = Object.assign({}, p.challenges || {});
       this.badges = Object.assign({}, p.badges || {});
@@ -3937,7 +4814,10 @@ class Component extends DCLogic {
       // only until now, which is why the "very weak" tier emptied on every reload.
       this.flow = this._trimFlow(Object.assign({}, p.flow || {}));
       this._flowVer = (this._flowVer || 0) + 1;
-      this._exploredKeys = new Set(Array.isArray(p.explored) ? p.explored : []);
+      // THE LOAD (L1-R3's invariant, progress-owner.src.js above `ngProgressExploredKeys`): `explored` holds unique strings,
+      // each a place's key, and nothing else, for good. A damaged entry stopped the app before it drew (L1-R1): the places
+      // are the strings, the rest is counted (`_exploredBad`) and is gone at the next save, which writes the strings only
+      { const ex = ngProgressExploredKeys(p.explored); this._exploredKeys = new Set(ex.keys); this._exploredBad = ex.bad; }
       // `activeListId` IS RETIRED — READ BY NOTHING (the default-list retirement, v1.196.1). It
       // was "the list you last created or filed into": the picker's marked "default" row and the
       // silent destination of `addToList(nodeId)` with no list. Nothing files without a pick
@@ -3953,6 +4833,7 @@ class Component extends DCLogic {
       this.cardsToday = this._days[this._dayKey()] || 0;
     this._publishKnowledge("progress-load");
     this._syncDangerAnimation(); // live cloud/other-tab receipt; staged merge has no pressure
+    if (hideWas != null && hideWas !== this._hideMoves()) this._syncHideMoves();
   }
   /** last-30-keys trim, shared by `days` and `dayLog` */
   _trimDays(m) { const out = {}; for (const k of Object.keys(m).sort().slice(-30)) out[k] = m[k]; return out; }
@@ -3964,7 +4845,19 @@ class Component extends DCLogic {
     this._progressAt = Date.now();
     // `flow` and `explored` ride the EXISTING v2 blob, the way `lists` and `srs` did — a roll
     // ledger is not worth a schema migration, and `neural` is free-form JSONB on the cloud side.
-    return { ...(this._progressExtras || {}), v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), rollDays: this._trimDays(this._rollDays || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, flow: this._trimFlow(this.flow || {}), explored: [...(this._exploredKeys || [])], days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    // THE SAVE WRITES `explored` AS UNIQUE STRINGS ONLY (L1-R3's invariant; the full text is in progress-owner.src.js above
+    // `ngProgressExploredKeys`): each a place's key, and nothing else, for good. A build that needs more stores it under a
+    // new key: every validator shipped before v1.290.0 refuses anything else here, so a non-string kept in this list
+    // locks older devices out of their own record. `_exploredKeys` is a Set of strings by construction (the load, the
+    // merge, a landing), so this line cannot write anything else.
+    const out = { ...(this._progressExtras || {}), v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), rollDays: this._trimDays(this._rollDays || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, flow: this._trimFlow(this.flow || {}), explored: [...(this._exploredKeys || [])], days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    // `moves` (v1.255.0) is written only once it holds a cell (review R4): an account that never graded a move
+    // saves exactly the blob v1.254.0 saves, and an open older tab is never handed a `moves` copy to push back.
+    if (Object.values(this.moves || {}).some(row => row && Object.keys(row).length)) out.moves = this.moves; else delete out.moves;
+    // `openAt` and `recallCarry` (v1.270.0, U163 c) once set; an older client keeps both through `_progressExtras`
+    if (this._openAt > 0) out.openAt = this._openAt;
+    if (this._recallCarry) out.recallCarry = true;
+    return out;
   }
   _saveProgress() {
     clearTimeout(this._saveT);
@@ -3984,7 +4877,7 @@ class Component extends DCLogic {
     const saved = this._progressHost.persist(this, this._progressBlob());
     if (saved.status === "saved" && this._pushCloud) this._pushCloud();
   }
-  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; (this._settingsAt = this._settingsAt || {})[k] = Date.now(); this._saveProgress(); if (k === "masteryGold") this._rebuildMapPaint(); if (k === "dangerAnimation") this._syncDangerAnimation(); }
+  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; (this._settingsAt = this._settingsAt || {})[k] = Date.now(); this._saveProgress(); if (k === "dangerAnimation") this._syncDangerAnimation(); if (k === "hideMoves") { this._hideVia = this._hideViaNext || "settings"; this._hideViaNext = null; this._syncHideMoves(); } }
   // deferred-payload hooks: refresh whatever is open when the heavy files land post-boot
   onFlashcardsReady() {
     try {
@@ -4006,9 +4899,6 @@ class Component extends DCLogic {
     if (this.__ngDestroyed) return;
     const changed = keys == null ? null : (Array.isArray(keys) ? keys : [keys]);
     try {
-      const node = this.nodes && this.nodes[this._nodeCardIdx];
-      const key = node && (node.ty === "positions" ? this.deckKeyFor(node).key : node.t);
-      if (this._nodeCardOn && (!changed || changed.includes(key))) { this._nodeCardIdx = null; this.updateNodeCard(this.W / this.cam.vw); }
       this._refreshReadingContent(changed);
     } catch (e) { /* non-fatal */ }
   }
@@ -4176,8 +5066,17 @@ class Component extends DCLogic {
     const flush = () => { try { if (this._progressLoaded) this._flushSave(); } catch (e) { /* durability is best-effort */ } };
     this._onPageHide = () => { flush(); this._stopSystemPreview(); this._csAbandon("pagehide"); };
     this._onVisHide = () => {
-      if (document.visibilityState === "hidden") { flush(); this._stopSystemPreview(); this._csAbandon("hidden"); }
-      else if (this._systemId && this.deckShown) this._renderPaneBody();
+      // (L2-R1: an Undo offered when the tab is hidden is withdrawn BEFORE the flush that pushes: `_undoEnd`)
+      if (document.visibilityState === "hidden") { this._undoRelease(); flush(); this._stopSystemPreview(); this._csAbandon("hidden"); }
+      else {
+        // A TAB LEFT OPEN OVERNIGHT (v1.266.0): a known move dealt face up yesterday may be due today, and its answer
+        // must not sit face up when the player comes back. Nothing else may re-read the day before the next deal, so
+        // coming back re-reads each card's face. Directly, never through `_checkKnowledgeDay`: that publishes only
+        // against a day it has already read, and before the hand's first value request it has read none (a quick
+        // return measured exactly that: the card stayed up, known-moves-shown.spec.ts, touch).
+        this._paintHand();   // its seal too (v1.272.0): a move that came due loses its seal as it turns down
+        if (this._systemId && this.deckShown) this._renderPaneBody();
+      }
     };
     window.addEventListener("pagehide", this._onPageHide);
     document.addEventListener("visibilitychange", this._onVisHide);
@@ -4324,7 +5223,7 @@ class Component extends DCLogic {
           shortlist: 0,
           start: st,
           counts: this.flowN() > 0 ? this.flowCounts() : null,
-          mastery: (k) => this.mastery(k),   // the app's own drilling channel, min(0.15, 0.03*prep)
+          mastery: (k) => this._flashMastery(k),   // Practice's channel, min(0.15, 0.03*prep): flashcards only (stage 2)
         });
       }
     } catch (e) { out = null; }   // a partial payload must degrade LOUDLY, never to a table of zeros
@@ -4467,8 +5366,24 @@ class Component extends DCLogic {
 
     list.innerHTML = "";
     this._miniReg = {};
-    // grouped roll history — the current roll's CURRENT row expands to an inline flashcard deck
+    // COMING BACK FROM "PRACTISE HERE" (L3-R1, R6: after "‹ Master the game" no row was open, 7 of 7): the row it was pressed
+    // on is open again and where it was. Remembered by the press (`_histRow`'s `go`), used by the first draw after it.
+    // BY WHAT THE ROW IS, NOT WHERE IT WAS (L3-R2, the reader's re-read): the memory held a row's id alone, and the id of a
+    // row of the roll in play is its INDEX ("c0"), so it was good for whatever stood there at the next draw, whenever that
+    // was (Practise here, Esc, a move, the logo, Last rolls: the old row open, 1 of 1; after a new roll, a row never
+    // pressed). It holds the row's key and its roll (the log itself for the roll in play, which every new roll replaces;
+    // a filed roll's `ts` is in its id), and it opens a row only if that row of that roll still holds that key.
+    // LIFTERS: this draw (used or refused, it is spent), and the drawer's shutting (`applyDeckVisibility`).
+    let back = this._histBack; this._histBack = null;
+    if (back) {
+      const m = /^p(\d+)_(\d+)$/.exec(back.rid);
+      const log = m ? ((this._pastRolls || []).find((r) => String(r.ts) === m[1]) || {}).log : back.log === this.rollLog && back.log;
+      if (((log || [])[m ? +m[2] : +back.rid.slice(1)] || {}).key !== back.key) back = null;
+    }
+    if (back) this._openRow = this._focusRow = this._histBackRid = back.rid;
+    // grouped roll history: a row opens the two actions of the place it holds (`_histRow`, L3)
     this.renderRollHistory(list);
+    if (back) { this._histBackRid = null; list.scrollTop = back.y; this._scrollFocusedDeck(); }
   }
 
   _agoLabel(ts) {
@@ -4478,15 +5393,28 @@ class Component extends DCLogic {
     if (s < 86400) return Math.floor(s / 3600) + "h ago";
     return Math.floor(s / 86400) + "d ago";
   }
-  _histRow(h, decks, opts) {
+  /**
+   * A LAST ROLLS ROW IS A PLACE YOU WENT THROUGH (L3, v1.293.0). The owner, 16 Nov: "I absolutely love the interface of
+   * Lastrolls, but I think Lastrolls should stop being about answering … The idea is for last rolls to be about going
+   * through the [nodes] that were visited, not necessarily answering flashcards." Answering lives in Master the game (the
+   * list since v1.290.0, the cloze since v1.292.0), so a row no longer holds a deck. A press shows its two actions under it,
+   * one row open at a time, as the deck opened:
+   *   · SHOW ON THE MAP (`_showPlace`): the camera frames the place; on a phone the drawer shuts and the clock is held.
+   *   · PRACTISE HERE: `openMasterAt(key)`, the place opened as Master the game's own row press opens it (its moves as a
+   *     cloze when they are owed, else its cards). Only a POSITION has it: Master the game lists positions, and a key its
+   *     list does not hold opens the list and says nothing (`openMasterAt`'s contract). A submission a roll passed through
+   *     is a row here too; it has Show on the map alone, and its cards are asked at the position it is played from.
+   *   · A place this ruleset does not draw (the ruleset switched since the roll) has neither: the map cannot show it.
+   * THE SUB LINE says the side and then what you remember there, the gold marks and the number, from the function Master
+   * the game's rows use (`_placeGold`, `_goldMark`): nothing when nothing is remembered, never a card count or a total (the
+   * owner's U199 a). It was "3/8 cards" or "mastered", `prep` over the deck's manifest count.
+   * NOTHING IS WRITTEN HERE: no card is answered in Last rolls, so it writes no `srs` and no `stage`; neither press writes
+   * to the stored record (pinned by e2e/journeys/last-rolls-places.spec.ts, the record compared whole).
+   * What left with the deck, and where it went, is in that spec's header and docs/Changelog-Archive.md (v1.293.0).
+   */
+  _histRow(h, opts) {
     const isCurrent = !!opts.isCurrent;
     const dot = h.actor === "you" ? "#5b8cff" : (h.actor === "opp" ? "#d8607a" : "#7e8aa3");
-    const deck = decks[h.key];
-    // the count is the manifest's `n` (the corpus truth); residency only decides whether the
-    // inline Q&A card can be built yet, and a cold deck is fetched when the row is opened
-    const ncards = this._deckCardCount(deck);
-    const resident = !!this._cardsOf(deck);
-    const prep = Math.min((this.prep && this.prep[h.key]) || 0, ncards);
     const r = document.createElement("div");
     // journey handles: the pane's roll history is a first-class surface (it is what the pane IS)
     r.setAttribute("data-hist", h.key);
@@ -4502,42 +5430,46 @@ class Component extends DCLogic {
       '</span>' +
       '<div style="flex:1;min-width:0;">' +
       (h.intend ? '<div style="font-size:9px;color:#5d6680;font-weight:600;letter-spacing:.01em;margin-bottom:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (h.actor === "opp" ? "they aimed for" : "you aimed for") + ' <span style="color:#7e8aa3;">' + h.intend.val + ' ' + h.intend.name + '</span></div>' : '') +
-      '<div style="display:flex;align-items:baseline;gap:6px;"><span style="font-size:12.5px;font-weight:' + (isCurrent ? 700 : 500) + ';color:' + (isCurrent ? "#eef1f6" : "#9aa6bd") + ';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (h.intend ? "\u21b3 " : "") + h.name + '</span>' + (h.val != null && parseInt(h.val, 10) !== 0 ? '<span style="flex:none;font-size:10px;font-weight:700;color:' + valColor + ';font-family:\'Space Grotesk\',sans-serif;">' + h.val + '</span>' : '') + '</div>' +
-      '<div style="font-size:9.5px;color:#6b7691;font-weight:600;letter-spacing:.02em;">' + h.role + (ncards ? " \u00b7 " + (prep >= ncards && ncards ? "mastered" : prep + "/" + ncards + " cards") : "") + '</div></div>' +
-      (isCurrent ? '<span style="flex:none;font-size:8.5px;letter-spacing:.12em;font-weight:800;color:#7ee0a8;border:1px solid rgba(126,224,168,.4);border-radius:5px;padding:2px 5px;">LATEST</span>' : '<span class="hplay" style="flex:none;cursor:pointer;width:24px;height:24px;border-radius:7px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.04);color:' + (ncards ? "#8b97b0" : "#586378") + ';transition:background .12s,color .12s;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5v14l12-7z"></path></svg></span>');
+      '<div style="display:flex;align-items:baseline;gap:6px;"><span style="font-size:12.5px;font-weight:' + (isCurrent ? 700 : 500) + ';color:' + (isCurrent ? "#eef1f6" : "#9aa6bd") + ';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (h.intend ? "↳ " : "") + h.name + '</span>' + (h.val != null && parseInt(h.val, 10) !== 0 ? '<span style="flex:none;font-size:10px;font-weight:700;color:' + valColor + ';font-family:\'Space Grotesk\',sans-serif;">' + h.val + '</span>' : '') + '</div>' +
+      '<div data-hist-sub="1" style="display:flex;align-items:center;gap:7px;font-size:9.5px;color:#6b7691;font-weight:600;letter-spacing:.02em;">' + h.role + this._goldMark(this._placeGold(h.key)) + '</div></div>' +
+      (isCurrent ? '<span style="flex:none;font-size:8.5px;letter-spacing:.12em;font-weight:800;color:#7ee0a8;border:1px solid rgba(126,224,168,.4);border-radius:5px;padding:2px 5px;">LATEST</span>' : '<span class="hplay" style="flex:none;cursor:pointer;width:24px;height:24px;border-radius:7px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.04);color:#8b97b0;transition:background .12s,color .12s;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5v14l12-7z"></path></svg></span>');
     const box = document.createElement("div");
     const detail = document.createElement("div");
-    detail.style.cssText = "display:none;margin:0 -8px;";
-    let built = false;
+    detail.className = "ng-hact"; detail.style.display = "none";
     const rid = opts.rid != null ? opts.rid : ("c" + (opts.rollIndex != null ? opts.rollIndex : h.key));
     {
       const play = r.querySelector(".hplay"); // null on the CURRENT row (v1.134.0): the live board takes no transport action
+      // the place's node, by its key (the node both of a position's sides answer to, `nodeForKey`); the two actions it can take
+      const ni = this.nodeForKey(h.key), drawn = ni >= 0 && this.rsAllowsIdx(ni);
+      // ...and THE HALF THE ROW IS ABOUT (L3-R1): a position's key resolves to its top orb for both of its sides, and a roll
+      // stands on that orb whichever side it plays (the side is the row's `role`), so "Show on the map" from a Bottom row named
+      // the place TOP. `_seatMember` is the one seam for "the orb that plays this side" (a technique's key is its own half)
+      const own = this._seatMember(ni, /bottom/i.test(h.role || "") ? "bottom" : "top");
+      const show = drawn ? () => this._showPlace(own) : null;
+      // (R6: the row is remembered, so "‹ Master the game" comes back to it open and where it was: `renderDrillHome`)
+      const go = drawn && this.nodes[ni].ty === "positions" ? () => { const l = this.drillListRef.current; this._histBack = { rid, key: h.key, log: this.rollLog, y: l ? l.scrollTop : 0 }; this.openMasterAt(h.key, "lastrolls"); } : null;
       const closeSelf = () => { detail.style.display = "none"; if (this._openRow === rid) this._openRow = null; if (this._focusRow === rid) this._focusRow = null; if (this._openMini && this._openMini.rid === rid) this._openMini = null; };
       const openD = () => {
         if (this._openMini && this._openMini.rid !== rid) this._openMini.close();   // accordion: only one box open at a time
-        if (!built) {
-          built = true;
-          detail.appendChild(ncards && resident ? this._miniDeck(h.key, deck, isCurrent, rid) : this._miniDeckEmpty(h));
-          // authored but not here yet: this click IS the request for it (and, after a dropped
-          // chunk, the retry). Swap the placeholder for the real card when it lands.
-          if (ncards && !resident) {
-            this.hydrateDeck(h.key).then(() => {
-              if (!this._cardsOf(this.flashcards.decks[h.key]) || detail.style.display === "none") return;
-              detail.innerHTML = "";
-              detail.appendChild(this._miniDeck(h.key, decks[h.key], isCurrent, rid));
-            });
-          }
+        if (!detail.firstChild) {
+          // the key each answers to (ruling 2) is its tooltip: printed on the button as the deck's Reveal printed "space", it
+          // wrapped "Show on the map" onto two lines in the 360 px drawer (the first real screen at 1440)
+          const act = (attr, label, key, fn) => { const b = document.createElement("button"); b.type = "button"; b.setAttribute(attr, "1"); b.textContent = label; b.title = key; b.onclick = (ev) => { ev.stopPropagation(); fn(); }; detail.appendChild(b); };
+          act("data-hist-show", "Show on the map", "Space", show);
+          if (go) act("data-hist-go", "Practise here", "Enter", go);
         }
-        detail.style.display = "block";
+        detail.style.display = "flex";
         this._openRow = rid; this._focusRow = rid;
-        this._openMini = { rid: rid, el: detail, close: closeSelf };
+        this._openMini = { rid: rid, el: detail, close: closeSelf, show: show, go: go };
       };
       const toggle = () => {
         if (detail.style.display !== "none") closeSelf();
-        else { this._rollFocus = (opts.rollIndex != null ? opts.rollIndex : this._rollFocus); openD(); }
+        // R10: a row opened near the list's end had its two actions under the panel's foot (the last row of 19 at 390x631:
+        // 12 of 44 px showing). The list scrolls just enough to show the row and both actions whole, and not at all
+        // when they already are (`_scrollFocusedDeck`: the smallest scroll, as the arrows always did)
+        else { this._rollFocus = (opts.rollIndex != null ? opts.rollIndex : this._rollFocus); openD(); this._scrollFocusedDeck(); }
       };
-      r.style.cursor = "pointer";
-      r.addEventListener("click", () => toggle());
+      if (show) { r.style.cursor = "pointer"; r.addEventListener("click", () => toggle()); }
       // v1.134.0: the play/pause transport is retired everywhere — every archived row is a
       // gray "roll from here", and the current row carries no button at all.
       if (play) {
@@ -4545,12 +5477,11 @@ class Component extends DCLogic {
         play.title = lbl;
         play.setAttribute("aria-label", lbl);   // a title is not an accessible name (v1.106.5)
         play.addEventListener("mouseenter", () => { play.style.background = "rgba(74,108,255,.3)"; play.style.color = "#dbe6ff"; });
-        play.addEventListener("mouseleave", () => { play.style.background = "rgba(255,255,255,.04)"; play.style.color = ncards ? "#8b97b0" : "#586378"; });
+        play.addEventListener("mouseleave", () => { play.style.background = "rgba(255,255,255,.04)"; play.style.color = "#8b97b0"; });
         play.addEventListener("click", (ev) => {
         ev.stopPropagation();
         // start another roll from this position (current roll archived into Previous rolls)
         this._openLatestOnLand = true;
-        const ni = this.nodeForKey(h.key);
         // ...ON THE SIDE THIS ROW WAS PLAYED FROM (v1.106.5). Without the override
         // `rollFromPosition` derives the role from the node TITLE, and every position hub is
         // titled "… Top" in the visual layer — so rolling from a Bottom row put you on top, in
@@ -4565,25 +5496,39 @@ class Component extends DCLogic {
           this.setDeckOpen(false);
         });
       }
-      if (this._openRow === rid) openD();
+      if (show && this._openRow === rid) openD();
     }
-    r.addEventListener("mouseenter", () => r.style.background = "rgba(255,255,255,.03)");
-    r.addEventListener("mouseleave", () => r.style.background = "transparent");
+    // (lit under the pointer only when a press does something: a place this ruleset does not draw has no actions, R5)
+    if (r.style.cursor) {
+      r.addEventListener("mouseenter", () => r.style.background = "rgba(255,255,255,.03)");
+      r.addEventListener("mouseleave", () => r.style.background = "transparent");
+    }
     box.appendChild(r); box.appendChild(detail);
     return box;
   }
   /**
+   * THE INLINE DECK OF A SESSION ROW. Last rolls' rows held one too until v1.293.0 (L3: a row there is a place, `_histRow`);
+   * with it went their own answer surface ("inline": its option handle `data-inline-mc-opt`, its rng tags, its guard in
+   * `_mcBlock`) and the greying of the latest row's card over the question's clock (`_armDeckExpire`, `.ngCurExpire`).
    * @param onGrade  optional: fired AFTER a grade goes through `gradeRecall`. The inline
-   *   session uses it to repaint its own row and walk the queue on; the roll history passes
-   *   nothing, so its rows keep their existing behaviour exactly.
+   *   session uses it to repaint its own row and walk the queue on.
+   * @param _unused  the old `isCurrent` (Last rolls' latest row): kept so the callers' argument order does not move.
    */
-  _miniDeck(key, deck, isCurrent, rid, onGrade, cardsOverride) {
+  _miniDeck(key, deck, _unused, rid, onGrade, cardsOverride) {
     // `cardsOverride` narrows the deck without narrowing the DECK: a maintenance row shows only
     // what is due, and grading still credits through the same `gradeRecall` choke.
     const cards = cardsOverride || this._cardsOf(deck) || [], total = cards.length; // caller gates on ncards; belt AND braces
     this._deckState = this._deckState || {};
     const st = this._deckState[key] || (this._deckState[key] = { idx: 0, revealed: false });
     if (st.idx >= total) st.idx = 0;
+    if (st.idx < 0) st.idx = Math.max(0, total - 1);   // entered from the next deck by ‹ (L1-R0): its last card
+    // A REVEAL BELONGS TO THE CARD IT WAS MADE ON (v1.293.0, found by answer-mode.spec.ts re-pointed for L3, 2 of 2). `st`
+    // remembers a place in the deck by INDEX, and what a session asks of a deck is a SUBSET that changes from one session to
+    // the next (a place asked again leaves out what was answered): the same index is then another card, and it was drawn
+    // with the last card's `revealed`, its answer on the screen before the question was asked. Each visit from Last rolls
+    // ("Practise here") is a new session, so the second press on a place met it. The remembered reveal stands only while
+    // the remembered card is the card drawn (`st.q`, written by every draw).
+    if (st.revealed && st.q !== (cards[st.idx] || {}).q) st.revealed = false;
     this._answered = this._answered || {};
     const ansSet = this._answered[key] || (this._answered[key] = new Set());
     // Stable question/day identity survives subset reordering and expires at midnight.
@@ -4597,12 +5542,15 @@ class Component extends DCLogic {
     };
     this.prep = this.prep || {};
     const wrap = document.createElement("div");
-    if (isCurrent) wrap.className = "ngCurExpire";
-    wrap.setAttribute("data-mini-deck", key); // shared inline card; Practice honors the answer-mode setting
-    wrap.style.cssText = "padding:0 8px 12px 26px;animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;";
+    wrap.setAttribute("data-mini-deck", key); // shared inline card; every one honours the answer mode (v1.282.0, `_answerMode`)
+    // a card laid out again in place (Practice's plan taken again, `_practiceGuard`) does not fade in a second time
+    wrap.style.cssText = "padding:0 8px 12px 26px;" + (this._noCardIn ? "" : "animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;");
     const navBtn = (cls, d) => '<button class="' + cls + '" style="flex:none;width:42px;height:36px;cursor:pointer;border:1px solid rgba(150,170,210,.2);border-radius:9px;background:rgba(255,255,255,.03);color:#aab4c8;display:flex;align-items:center;justify-content:center;transition:background .12s,color .12s;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="' + d + '"></path></svg></button>';
     let recallFallback;
-    const recognition = () => this._session?.practice && cards[st.idx] !== recallFallback && this.mcActive(key, cards[st.idx]) && !graded(cards[st.idx]);
+    // THE ANSWER MODE ON EVERY INLINE DECK (v1.282.0, R2: everywhere a card is asked): a session's deck asks it on the surface
+    // "practice". (Last rolls' decks asked it on a surface of their own, "inline", from v1.282.0 until they left in v1.293.0.)
+    const surf = "practice";
+    const recognition = () => cards[st.idx] !== recallFallback && this.mcActive(key, cards[st.idx]) && !graded(cards[st.idx]);
     const doPrev = () => { st.idx = (st.idx - 1 + total) % total; st.revealed = false; render(); };
     const doNext = () => { st.idx = (st.idx + 1) % total; st.revealed = false; render(); };
     const doReveal = () => {
@@ -4649,8 +5597,9 @@ class Component extends DCLogic {
       gradeMini(true);
     };
     const render = () => {
-      if (this._mc?.surface === "practice") { this._mc.spent = true; this._mc = null; }
+      if (this._mc?.surface === surf) { this._mc.spent = true; this._mc = null; }
       const card = cards[st.idx] || {};
+      st.q = card.q;   // the card this state is about (see above)
       const tabs = cards.map((c, i) => {
         const active = i === st.idx, done = ansSet.has(identity(c));
         const bg = active ? "#5b8cff" : (done ? "#6ed6a0" : "rgba(150,170,210,.22)");
@@ -4693,7 +5642,7 @@ class Component extends DCLogic {
         mr.disabled = true; mr.textContent = "Choose an answer";
         if (!this.mcPoolWarm(key, card)) {
           mr.textContent = "Loading answers…";
-          this._warmMcPool(card, key, "practice").then(() => this._afterPress(() => {
+          this._warmMcPool(card, key, surf).then(() => this._afterPress(() => {
             if (wrap.isConnected && cards[st.idx] === card && recognition()) render();
           }));
         } else {
@@ -4702,20 +5651,22 @@ class Component extends DCLogic {
             mr.disabled = false; mr.textContent = "Next card"; mr.onclick = doNext;
             if (onGrade) onGrade();
             this._refreshGameplanUI();
-          }, "practice");
+          }, surf);
           if (choices) wrap.insertBefore(choices, mr.parentElement);
           else { recallFallback = card; render(); }
         }
       }
+      if (this._session && this._session.dock) this._masterDock(this._session);
     };
     this._miniReg = this._miniReg || {};
-    this._miniReg[rid != null ? rid : key] = { reveal: doReveal, prev: doPrev, next: doNext, enter: doEnter };
+    // `at`: the open card's place in its deck, for Master the game's foot (L1-R0, `_masterStep`: its ‹ › cross decks at the ends)
+    this._miniReg[rid != null ? rid : key] = { reveal: doReveal, prev: doPrev, next: doNext, enter: doEnter, at: () => [st.idx, total], draw: () => render() };
     render();
     return wrap;
   }
   _miniDeckEmpty(h) {
     const wrap = document.createElement("div");
-    wrap.style.cssText = "padding:0 8px 12px 26px;animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;";
+    wrap.style.cssText = "padding:0 8px 12px 26px;" + (this._noCardIn ? "" : "animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;");
     // Three different truths used to render as one sentence about authoring. A deck whose cards
     // are on the way, and a deck whose chunk did not arrive, are NOT "being authored".
     const st = this.deckStatus(h && h.key);
@@ -4760,7 +5711,7 @@ class Component extends DCLogic {
     b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); onClick(); });
     return b;
   }
-  _pastRollRow(roll, decks) {
+  _pastRollRow(roll) {
     const log = roll.log || [];
     const start = log[0];   // `end` lives in `replayEnds` now — the row prints what that returns
     const oc = { win: { c: "#7ee0a8", t: "won" }, lose: { c: "#e8889e", t: "tapped" }, reset: { c: "#7e8aa3", t: "reset" } }[roll.outcome] || { c: "#7e8aa3", t: "ended" };
@@ -4842,29 +5793,31 @@ class Component extends DCLogic {
     let built = false;
     r.addEventListener("mouseenter", () => r.style.background = "rgba(255,255,255,.03)");
     r.addEventListener("mouseleave", () => r.style.background = "transparent");
-    r.addEventListener("click", () => {
+    const fold = () => {
       const open = detail.style.display === "none";
-      if (open && !built) { built = true; log.forEach((h, i) => detail.appendChild(this._histRow(h, decks, { isFirst: i === 0, isLast: i === log.length - 1, rid: "p" + roll.ts + "_" + i }))); }
+      if (open && !built) { built = true; log.forEach((h, i) => detail.appendChild(this._histRow(h, { isFirst: i === 0, isLast: i === log.length - 1, rid: "p" + roll.ts + "_" + i }))); }
       detail.style.display = open ? "flex" : "none";
       const chev = r.querySelector(".pchev"); if (chev) chev.style.transform = open ? "rotate(90deg)" : "none";
-    });
+    };
+    r.addEventListener("click", fold);
+    // coming back from "Practise here" to a state of this roll: the roll is drawn unfolded, so the row is there to open (R6)
+    if (String(this._histBackRid || "").startsWith("p" + roll.ts + "_")) fold();
     box.appendChild(r); box.appendChild(detail);
     return box;
   }
   renderRollHistory(list) {
-    const decks = (this.flashcards && this.flashcards.decks) || {};
     const label = (txt) => { const d = document.createElement("div"); d.style.cssText = "font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#6b7691;font-weight:700;padding:12px 8px 4px;margin:0 -8px;white-space:nowrap;"; d.textContent = txt; return d; };
     const box = document.createElement("div");
     const cur = this.rollLog || [];
     const past = this._pastRolls || [];
     if (past.length) {
       box.appendChild(label("Previous rolls"));
-      past.forEach((roll) => box.appendChild(this._pastRollRow(roll, decks)));
+      past.forEach((roll) => box.appendChild(this._pastRollRow(roll)));
     }
     if (cur.length) {
       box.appendChild(label("This roll"));
       const wrap = document.createElement("div"); wrap.style.cssText = "display:flex;flex-direction:column;";
-      cur.forEach((h, i) => wrap.appendChild(this._histRow(h, decks, { isCurrent: i === cur.length - 1, isFirst: i === 0, isLast: i === cur.length - 1, rollIndex: i, rid: "c" + i })));
+      cur.forEach((h, i) => wrap.appendChild(this._histRow(h, { isCurrent: i === cur.length - 1, isFirst: i === 0, isLast: i === cur.length - 1, rollIndex: i, rid: "c" + i })));
       box.appendChild(wrap);
     }
     if (box.children.length) {
@@ -4881,7 +5834,7 @@ class Component extends DCLogic {
     empty.textContent = "No rolls yet — press play and your roll shows up here, state by state.";
     list.appendChild(empty);
   }
-  openModal() { this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); const m = this.modalRef.current; if (m) m.style.display = "flex"; this.lastInteract = this.now; }
+  openModal() { if (this._legal && !this._legalOpening) this._legalClosed(); this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); const m = this.modalRef.current; if (m) m.style.display = "flex"; this.lastInteract = this.now; }
   /**
    * FEEDBACK GOES TO POSTHOG (v1.105.5, owner: "using post hoc. It should not be done using
    * GitHub"). U67 a: one Feedback row and form for both kinds. An optional technique-request
@@ -4898,7 +5851,8 @@ class Component extends DCLogic {
    * `e2e/journeys/feedback-modal.spec.ts` pins the copy, the column and every control by mouse.
    */
   // U109 b: `video` is the node a no-video card asks about. The form is the same, its context is that node, and the report says so.
-  openFeedback(video) {
+  // #346's review (finding 4): the no-video card is per half, so the report names the half too (`seat`, the film's own role).
+  openFeedback(video, seat) {
     const card = this.modalCardRef.current; if (!card) return;
     card.style.width = "min(440px,92vw)";
     card.innerHTML = "";
@@ -4949,7 +5903,7 @@ class Component extends DCLogic {
         node: ctxOn && node ? node.id : null,
         signed_in: !!this.user,
         app_version: (typeof NG_APP_VERSION !== "undefined" ? NG_APP_VERSION : null),
-        ...(video && { kind: "video" }),
+        ...(video && { kind: "video", seat }),
       });
       this.closeModal();
       this.setEvent("Sent \u2014 thank you", isTech ? "We read every request" : "Reports like this decide what gets fixed next", "good");
@@ -4987,40 +5941,100 @@ class Component extends DCLogic {
         .catch(() => { /* plain link is the fallback state */ });
     } catch (e) { /* fetch unavailable — plain link */ }
   }
-  openLegal(kind) {
-    const card = this.modalCardRef.current; if (!card) return;
-    card.style.width = "min(520px,92vw)";
-    card.innerHTML = "";
-    const head = document.createElement("div");
-    head.style.cssText = "padding:20px 22px 0;";
-    const title = kind === "privacy" ? "Privacy Policy" : "Terms of Use";
-    head.innerHTML = '<div style="display:flex;align-items:center;justify-content:space-between;"><div style="font-size:20px;font-weight:700;color:#eef1f6;letter-spacing:-.01em;">' + title + '</div><span class="x" style="cursor:pointer;color:#8b97b0;font-size:20px;">&times;</span></div><div style="font-size:11.5px;color:#7e8aa8;margin-top:5px;">bjjgraph.org &middot; Last updated July 2026</div>';
-    head.querySelector(".x").addEventListener("click", () => this.closeModal());
-    card.appendChild(head);
-    const body = document.createElement("div");
-    body.style.cssText = "padding:16px 22px 22px;overflow-y:auto;max-height:min(62vh,540px);display:flex;flex-direction:column;gap:14px;";
-    const sec = (h, t) => '<div><div style="font-size:13px;font-weight:700;color:#dbe2f0;margin-bottom:5px;">' + h + '</div><div style="font-size:12.5px;line-height:1.6;color:#9aa6bd;">' + t + '</div></div>';
-    if (kind === "privacy") {
-      body.innerHTML =
-        sec("What we collect", "Your study progress (flashcards answered, techniques mastered, roll history) and, if you create an account, your email address. Guest progress is stored locally on your device.") +
-        sec("How we use it", "To sync your progress across devices, personalize which cards are surfaced, and improve the graph. We do not sell your data or share it with advertisers.") +
-        sec("Cookies & analytics", "We use minimal, privacy-respecting analytics to understand aggregate usage. No cross-site tracking.") +
-        sec("Your rights", "You can export or delete your account and all associated data at any time from Settings, or by contacting us.") +
-        sec("Contact", "Questions about this policy: privacy@bjjgraph.org");
-    } else {
-      body.innerHTML =
-        '<div style="border:1px solid rgba(232,116,107,.3);background:rgba(232,116,107,.07);border-radius:11px;padding:12px 14px;font-size:12.5px;line-height:1.6;color:#c4cde0;"><b style="color:#eda49c;">Safety first.</b> Brazilian Jiu-Jitsu is a contact sport with inherent risk of serious injury. bjjgraph.org is a study companion for practitioners who already train at an academy under qualified instruction. It is not a substitute for in-person coaching, and it is not a self-teaching program.</div>' +
-        sec("What this service is", "An interactive knowledge base and study tool: positions, transitions, submissions, flashcards, and a simulated \u201croll\u201d for reviewing decision-making. The simulation, including any success percentages or modifiers, is a gameplay estimate for study purposes only \u2014 it does not predict real outcomes.") +
-        sec("Assumption of risk", "Only practice techniques under the supervision of a qualified instructor, with a willing, informed partner, and at an intensity appropriate to your level. You assume all risk arising from your training. Never practice chokes or joint locks outside supervised training.") +
-        sec("No warranties", "Content is provided \u201cas is\u201d, without warranty of accuracy or completeness. Technique descriptions may contain errors, and what works varies by body type, skill, and context.") +
-        sec("Limitation of liability", "To the maximum extent permitted by law, bjjgraph.org and its contributors are not liable for any injury, loss, or damage arising from use of this service or from training decisions informed by it.") +
-        sec("Your account", "You are responsible for activity under your account. We may suspend accounts that abuse the service.") +
-        sec("Contact", "Questions about these terms: legal@bjjgraph.org");
-    }
-    card.appendChild(body);
-    this.openModal();
+  /** THE LEGAL BOXES (LEGAL3, v1.264.0). Owner, U140 b (12 Nov 2026): "i really much like the short versions. the /privacy page /
+   *  terms page should be viewed with a toggle that reads 'Extended version [chevron icon >]' ... that reveals the extended versions
+   *  with a click. users going to /privacy /terms land in the shortened version modal too with the bjjgraph as usual in the bg ... the
+   *  bjjgraph loading in the bg should load after the modal content which is the most important".
+   *  ONE SOURCE. The box carries no words of its own: until v1.263 they were typed here, apart from the pages, and drifted ("export or
+   *  delete ... from Settings", another contact address). It reads the PAGE: on the page itself (body[data-slug]) the <article> the
+   *  server sent, which is already in the DOM under the app (no request); anywhere else one fetch of the page's HTML, kept for the visit
+   *  (a failed fetch says so; pressing the entry again retries). The short part is the page's "In short" section; a page without one
+   *  (Terms on dev, until its own lands) shows its first section, never its opening, which names the operator. "Extended version" opens the rest of the
+   *  article in the box and folds it back. A link to the other legal page opens it in the box; any other link opens a new tab, so no
+   *  press inside the box can end a roll. tests/legal_boxes.test.mjs fails if a sentence of either page appears in neural/src, and
+   *  e2e/journeys/legal-pages.spec.ts owns the behaviour.
+   *  THE BOX NEVER TOUCHES THE PAUSE. Every way to it from a roll already holds the roll: the account menu lives in the drawer (pane
+   *  law), and Settings reached from a hidden part's message comes after a press on the article, which is reading, and reading pauses
+   *  (reader.src.js readingInteraction). A latch of its own was built and measured unreachable by any press, so it is not here. ON
+   *  ARRIVAL there is no roll yet: the box holds the intro's hand-over instead (`_legalHold`, read in updateCamera), so the map plays its opening behind it
+   *  and nothing is dealt; closing lets that same hand-over run, exactly as on "/", and the first landing PUSHES its address
+   *  (`_legalPushNext`, read in _syncUrl) so Back comes here again. Back itself needs nothing here: Quartz's router answers every
+   *  Back by fetching the page and morphing the body, which re-mounts the app, so Back onto /privacy is a fresh arrival (measured on dev:
+   *  a Back between two node pages also hands over a new instance). Their one lifter is `_legalClosed`: every close goes through
+   *  closeModal, and another surface taking the modal (openModal) ends the box the same way. */
+  openLegal(kind, opts = {}) {
+    const card = this.modalCardRef.current, m = this.modalRef.current; if (!card || !m || this.__ngDestroyed) return null;
+    const was = m.style.display === "flex" && this._legal;
+    const L = { kind, arrival: !!(opts.arrival || was?.arrival) };
+    if (!was) { this._legalOpening = true; this.openModal(); this._legalOpening = false; }
+    this._legal = L;
+    card.style.width = "min(560px,92vw)";
+    card.innerHTML = '<div class="ng-legal" role="dialog" aria-modal="true" aria-labelledby="ng-legal-h" data-legal="' + kind + '"><div data-legal-head><h2 id="ng-legal-h"></h2>' +
+      '<button type="button" aria-label="Close" data-legal-close>×</button></div><div data-legal-sub></div><div data-legal-body><div data-legal-short></div>' +
+      '<div id="ng-legal-ext" data-legal-ext hidden></div></div><div data-legal-foot hidden><button type="button" aria-expanded="false" aria-controls="ng-legal-ext" data-legal-more>' +
+      'Extended version <span aria-hidden="true">›</span></button></div></div>';
+    const q = (a) => card.querySelector("[data-legal-" + a + "]");
+    Object.assign(L, { box: card.firstChild, body: q("body"), short: q("short"), ext: q("ext"), foot: q("foot"), more: q("more"), title: card.querySelector("h2"), sub: q("sub") });
+    q("close").onclick = () => this.closeModal();
+    L.more.onclick = () => this._legalToggle(L);
+    L.body.onclick = (e) => { const a = e.target.closest("[data-legal-link]"); if (a) { e.preventDefault(); this.openLegal(a.dataset.legalLink, { hash: a.hash }); } };
+    const rec = this._legalRecs?.[kind] || document.body?.dataset.slug === kind && this._legalParse(document, kind);
+    if (rec) return this._legalFill(L, rec, opts.hash), L;
+    L.sub.textContent = "Loading…";
+    fetch("/" + kind, { credentials: "same-origin" }).then((r) => (r.ok ? r.text() : "")).catch(() => "").then((html) => {
+      const r = html && this._legalParse(new DOMParser().parseFromString(html, "text/html"), kind);
+      if (this._legal === L) r ? this._legalFill(L, r, opts.hash) : L.sub.textContent = "This page could not be loaded.";
+    });
+    return L;
   }
-  closeModal() { this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); const m = this.modalRef.current; if (m) m.style.display = "none"; }
+  // The page as the box shows it, from a CLONE of its article (the server's stays whole for crawlers and the no-JS page): its title,
+  // effective date, short part and the rest. Ids become data-legal-id, so the clone repeats no id the hidden article holds, and a link
+  // to a section (/privacy#your-rights) is found inside the box. Kept per page for the visit (`_legalRecs`).
+  _legalParse(doc, kind) {
+    const src = doc.querySelector("#quartz-root article") || doc.querySelector("article"); if (!src) return null;
+    const art = src.cloneNode(true), base = new URL("/" + kind, location.origin), at = (n) => n.textContent.trim();
+    art.querySelectorAll("script,style,svg,a[role=anchor]").forEach((n) => n.remove());
+    art.querySelectorAll("[id]").forEach((n) => { n.dataset.legalId = n.id; n.removeAttribute("id"); });
+    art.querySelectorAll("a[href]").forEach((a) => {
+      const u = new URL(a.getAttribute("href"), base), k = u.origin === location.origin && NG_LEGAL_PAGE.exec(u.pathname);
+      a.href = u.href; if (k) a.dataset.legalLink = k[1]; else if (u.protocol !== "mailto:") { a.target = "_blank"; a.rel = "noopener"; }
+    });
+    const kids = [...art.children], date = kids.find((n) => n.tagName === "P" && /^effective date/i.test(at(n)));
+    let i = kids.findIndex((n) => n.tagName === "H2" && /^in short$/i.test(at(n))), short = [];
+    if (i >= 0) { kids[i].remove(); while (kids[++i] && kids[i].tagName !== "H2") short.push(kids[i]); }
+    // no "In short" yet: the page's first section, heading and all. Never its opening paragraphs, which name the operator (the owner's
+    // note on U150, 12 Nov: the short box never prints that name or "an individual"; legal-pages.spec.ts derives the name and pins it)
+    else if ((i = kids.findIndex((n) => n.tagName === "H2")) >= 0) do short.push(kids[i]); while (kids[++i] && kids[i].tagName !== "H2");
+    // an item that OPENS with a bold phrase ("**What we keep.** ...") shows it as the item's heading; a bold word inside a sentence stays
+    short.forEach((n) => { n.remove(); n.querySelectorAll(":scope>li").forEach((li) => { const f = [...li.childNodes].find((c) => c.nodeType == 1 || at(c)); if (f?.tagName == "STRONG") f.dataset.lead = ""; }); });
+    date?.remove();
+    return (this._legalRecs = this._legalRecs || {})[kind] = { title: at(doc.querySelector("h1.article-title") || { textContent: doc.title }),
+      date: date ? at(date).replace(/^effective date:?\s*/i, "") : "", short, ext: [...art.children] };
+  }
+  _legalFill(L, rec, hash) {
+    L.title.textContent = rec.title;
+    L.sub.textContent = "bjjgraph.org" + (rec.date && " · Effective " + rec.date);
+    L.short.replaceChildren(...rec.short.map((n) => n.cloneNode(true)));
+    L.ext.replaceChildren(...rec.ext.map((n) => n.cloneNode(true)));
+    L.foot.hidden = !rec.ext.length;
+    // the arrival's box owns the address, and a link from one legal page to the other moves it along (Back returns, see _legalClosed)
+    if (L.arrival && location.pathname !== "/" + L.kind) this._writeUrl("/" + L.kind, { ngLegal: L.kind }, false, rec.title);
+    let id = (hash || "").slice(1); try { id = decodeURIComponent(id); } catch (e) { /* the raw spelling */ }
+    const t = id && L.ext.querySelector('[data-legal-id="' + CSS.escape(id) + '"]');
+    if (t) this._legalToggle(L, true, t);
+  }
+  // "Extended version": opens the rest of the page in the box, at its start or at a section; pressed again, folds it back
+  _legalToggle(L, open = L.ext.hidden, at = L.ext) {
+    L.ext.hidden = !open;
+    L.box.toggleAttribute("data-open", open);
+    L.more.setAttribute("aria-expanded", open);
+    L.body.scrollTop = open ? at.offsetTop - L.body.offsetTop - 8 : 0;
+  }
+  _legalClosed() {
+    const L = this._legal; this._legal = null;
+    if (L.arrival) { this._legalHold = false; this._legalPushNext = true; }
+  }
+  closeModal() { this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); const m = this.modalRef.current; if (m) m.style.display = "none"; if (this._legal) this._legalClosed(); }
   // Esc seam (v1.95.1): close the topmost deliberate screen and report. Pause state is
   // deliberately NOT touched here — if the pane (or the user's hand) froze the clock,
   // dismissing a modal ABOVE it must not resume anything (the backdrop-click path keeps
@@ -5041,7 +6055,13 @@ class Component extends DCLogic {
   }
   openSettings(tab) {
     if (this.__ngDestroyed || !this._progressCurrent()) return false;
-    this._settingsTab = tab || "flashcards"; this._settingsRowX = null;
+    // The tabs this opening shows, decided once here (NG_DIGEST_LIVE). The truthiness is noteCardDone's,
+    // so an ACCOUNT whose setting is recording a day log always sees the switch that stops it (a guest's
+    // device-only setting mails nobody, and its switch would need the sign-in the line asks for). Every
+    // write of `_settingsTab` after this one is a press on a tab the row drew, so it never names a hidden tab.
+    const notif = NG_DIGEST_LIVE || !!this.user && !!this.get("emailDigest", false);
+    this._settingsTabs = notif ? NG_SETTINGS_TABS : NG_SETTINGS_TABS.filter((t) => t[0] !== "notifications");
+    this._settingsTab = tab && (notif || tab !== "notifications") ? tab : "flashcards"; this._settingsRowX = null;
     this.track("neural_settings_opened", { tab: this._settingsTab }); this.openModal();
     this._settingsIntent = { owner: this._progressOwnerStamp, modal: this._modalGeneration,
       card: this.modalCardRef.current, focus: true };
@@ -5078,7 +6098,7 @@ class Component extends DCLogic {
           if (this.__ngDestroyed || !this._progressCurrent()) throw new Error("Settings owner changed");
           return runtime.ngInstallSettingsPresentation(this, {
             expectedBuild: NG_SETTINGS_UI_BUILD,
-            NG_SETTINGS_TABS, NG_START_FROM,
+            NG_START_FROM, NG_DIGEST_LIVE,
           });
         }).catch((error) => { this._settingsPresentationLoad = null; throw error; });
     }
@@ -5315,7 +6335,9 @@ class Component extends DCLogic {
       const note = document.createElement("p"); note.textContent = "No complete study comparison is available yet."; list.appendChild(note);
     }
   }
-  _gameplanDecks() {
+  // `flash`: Practice's own call, the flashcard-only headroom (`_flashMastery`). The default is moves-aware because the
+  // study host (gameplan-study-host.src.js, law-hashed) captures it and its presenter checks it against the profile.
+  _gameplanDecks(flash) {
     const src = (this.flashcards && this.flashcards.decks) || {}, shared = new Map();
     for (const [qh, keys] of this._sharedQ || []) for (const key of keys) {
       if (!shared.has(key)) shared.set(key, []);
@@ -5325,7 +6347,9 @@ class Component extends DCLogic {
       const cards = this._cardsOf(d), i = this.nodeForKey(key);
       return [key, { count: this._deckCardCount(d), exact: !!cards,
         questions: cards ? cards.filter((c) => c.q).map((c) => this.qhash(c.q)) : [...new Set([...(shared.get(key) || []), ...Object.keys((this.srs || {})[key] || {})])],
-        allowed: i < 0 || this.rsAllowsIdx(i), headroom: Math.max(0, 0.15 - this.mastery(key)) }];
+        allowed: i < 0 || this.rsAllowsIdx(i), headroom: Math.max(0, 0.15 - (flash ? this._flashMastery(key) : this.mastery(key))),
+        // Practice's own call marks a deck the moves fill (no comparison can rank it) whose flashcards are still new
+        ...(flash && this.mastery(key) >= 0.15 && this._flashMastery(key) < 0.15 ? { oddsFull: true } : {}) }];
     }));
   }
   _gameplanStamp() {
@@ -5336,17 +6360,69 @@ class Component extends DCLogic {
   }
   planSummary() {
     if (!this._gameplanRuntime) return null;
-    const stamp = this._gameplanStamp(), belt = this.curriculum?.belts.find(b => b.id === this.wornBelt().id);
-    const families = new Set(belt?.units.flatMap(u => u.lessons.map(l => l.deckKey.split("|")[0])));
-    // §6.6: with no curriculum there is no belt to scope new cards by, so they come from every belt. That
-    // is the right offer on a 404, and it says so, once per outage. Lifter: the next plan that has a belt.
-    if (belt) this._planUnscoped = false;
-    else if (!this._planUnscoped) { this._planUnscoped = true; this.fx("practice_belt_unfiltered", {}); }
-    return this._gameplanRuntime.ngGameplanBuild({ day: this._epochDay(), ruleset: this._giMode || "gi",
+    // EVERYTHING OPENS (U163 c, owner, 13 Nov): new cards come from every family. Until v1.270.0 a deck outside the worn
+    // belt's families got no headroom (and a plan built with no curriculum said so once, `practice_belt_unfiltered`); the
+    // belt now only shows. e2e/journeys/everything-opens.spec.ts and tests/gameplan_runtime.test.mjs pin it.
+    // WHAT IS WORTH MOST (U171 a, v1.278.0): the order is neural/src/practice-queue.src.js (deferred, in gameplan.js); it
+    // prices every question with the rating's own game (`_ratingGame`: one table, one answer) and asks it at the position
+    // its deck belongs to: what is due first, and a new card only when nothing is due (the owner's Anki rule, ANKI1). A plan
+    // that could not use it (no game yet, a record with no answer) is today's order, and says so once per reason
+    // (`practice_order_fallback`), never as a worth plan.
+    const stamp = this._gameplanStamp(), game = this._ratingGame(this._giMode === "nogi" ? "nogi" : "gi");
+    const plan = this._gameplanRuntime.ngGameplanBuild({ day: this._epochDay(), ruleset: this._giMode || "gi",
       revision: this._knowledgeRevision || this._stageVer || 0, stamp,
-      target: this.practiceGoal(), decks: Object.fromEntries(Object.entries(this._gameplanDecks()).map(([key, d]) =>
-        [key, belt && !families.has(key.split("|")[0]) ? { ...d, headroom: 0 } : d])), srs: this.srs,
-      provider: this._gameplanProvider, fallback: this._gameplanWeakFallback() });
+      target: this.practiceGoal(), decks: this._gameplanDecks(true), srs: this.srs,
+      provider: this._gameplanProvider, fallback: this._gameplanWeakFallback(),
+      // the rating's live set, only when it is already in hand (never fetched for this): a question its deck no longer has
+      // is dropped and counted, and only a card known to be answerable takes one of the guard's places (ANKI1-R1, finding 2)
+      worth: { game, seats: this._practiceSeats(game), stage: this.stage, live: this._ratingLiveNow(),
+        // L2: the moves record and the seats its moves are asked at; never on "Multiple choice" (`_asksMoves`)
+        ...(this._asksMoves() ? { moves: this.moves || {}, moveSeats: this._practiceSeatsAt.mseats, movesRev: this._movesRev || 0 } : {}) } });
+    if (plan.orderStatus !== "ok" && this._orderBeat !== plan.orderStatus) { this._orderBeat = plan.orderStatus; this.fx("practice_order_fallback", { reason: plan.orderStatus }); }
+    return plan;
+  }
+  // POSITION BY POSITION (U171 a): the seat each deck is asked at, read off the rating's own dealt hands (no deal of its
+  // own): a position's deck, the attacking deck of every move it deals, and the defending half of each of those at the
+  // other seat. The first seat to claim a deck keeps it; the 12 stateAlias "…-Control" seats claim nothing (their hand is
+  // a submission's); a deck no seat claims is asked as a loose card.
+  _practiceSeats(game) {
+    const c = this._practiceSeatsAt;
+    if (c && c.game === game) return c.map;
+    // the rating's walk already asked the mask; asked again here so this enumeration says so itself (validate:surfaces)
+    // `mseats` (L2, v1.292.0): the position each of the game's seats is asked at, for its MOVES ("<ordinal>/<role>" → the same
+    // string a card's deck gets), so a position's moves and cards are one visit (practice-queue.src.js, `moveSeats`)
+    const map = {}, mseats = {}, at = (o) => { const id = this._ordToId.get(+o), i = id == null ? null : this._idIndex.get(id); return i == null || !this.rsAllowsIdx(i) ? null : this.nodes[i]; };
+    for (const [st, hand] of game.seats || []) {
+      const k = st.indexOf("/"), p = at(st.slice(0, k)), top = st.slice(k + 1) === "top", f = p && this.posFamily(p.t);
+      if (!p || p.cal?.stateAlias) continue;
+      const seat = f + (top ? "|Top" : "|Bottom");
+      map[seat] ??= seat; mseats[st] = seat;
+      for (const mv of hand.keys()) {
+        const n = at(mv), dk = n && this.deckKeyFor(n).key;
+        if (dk) { map[dk] ??= seat; map[dk.replace(/\|Attacker$/, "|Defender")] ??= f + (top ? "|Bottom" : "|Top"); }
+      }
+    }
+    this._practiceSeatsAt = { game, map, mseats };
+    return map;
+  }
+  // MOVES JOIN THE DAY (L2, v1.292.0; the owner's U198 and U200, 17 Nov: the cloze, and "if there are six techniques in
+  // cloze, then we should be rewarded 6 points"). The plan asks a position's moves (S0's law, practice-queue.src.js: the due
+  // ones, at most six a visit; up to two new ones when nothing is due) and Master the game asks them as a cloze
+  // (master-list.src.js). NOT on "Multiple choice" (U194 a: it means it everywhere, and a self-graded cloze is not multiple
+  // choice): that player's plan is the cards', as before L2, until the pick form ships (L4). ONE test, read by the plan's
+  // input and by the day's count, so the two cannot disagree.
+  _asksMoves() { return this._answerMode() !== "mc"; }
+  // move rows answered today, by the plan's own rule (`ngGameplanMovesToday`, gameplan.src.js: a whole row, a positive
+  // interval, last answered today), wherever they were answered (the cloze, a roll's hidden card): each is one of the
+  // day's 20 (U200). The eager copy of a deferred rule: tests/master_cloze.test.mjs pins the two equal.
+  _movesToday() {
+    const day = this._epochDay(), c = this._movesTodayAt;
+    if (c && c.m === this.moves && c.rev === this._movesRev && c.day === day) return c.n;
+    let n = 0;
+    for (const rows of Object.values(this.moves || {})) for (const r of Object.values(rows || {}))
+      if (Array.isArray(r) && r.length >= 4 && r.slice(0, 4).every(Number.isFinite) && r[1] > 0 && r[2] === day) n++;
+    this._movesTodayAt = { m: this.moves, rev: this._movesRev, day, n };
+    return n;
   }
   /**
    * D1 (owner, 2026-09-30): "when no study comparison exists, fall back to the weak-spots ranking so
@@ -5669,6 +6745,21 @@ class Component extends DCLogic {
    * (and a spec pinned one of them byte-for-byte). One seam, per \u00a76.5, before a third door exists.
    * The empty case degrades to the browse modal rather than opening an empty session.
    */
+  // THE PATH'S DOORS LAND IN MASTER THE GAME (v1.287.0, owner 15 Nov: "it's time to remove the Path section from the
+  // sidebar"; SET1 slice B). The Path's corridor (belts, units, lessons, checkpoints, capstones, objectives, the rewards
+  // shelf) was already drawn in Master the game by the same renderer (`_practiceCorridor`), so every door that opened the
+  // Path opens it there. Already open: the corridor repaints in place, which is where View Collection's shelf flag is read
+  // (`renderRewardsShelf`). A deck or a checkpoint over it, or another study surface: that is left first, as the Path's
+  // door did (`openPane` → `_exitStudyTo`).
+  openCorridor() {
+    if (this.deckShown && this._practiceInDrawer()) { if (this._session.belts) this._masterBelts(this._session, true); this._practiceCorridor(); return; }
+    if (this._paneStudyActive()) this._exitStudyTo("explore");
+    // ITS OWN SURFACE (PATH-R1, ruling 2, the reader of #430 finding 2): `neural_practice_opened` with surface "practice"
+    // stays what it was, a deliberate opening by Master the game's own row or badge. A corridor door (View Collection, an
+    // objective's action, `setViewMode`, `openLearningView`, `openPane("challenges")`) opens it with surface "corridor";
+    // already open (above), a corridor door opens nothing and sends nothing.
+    this.openPlanSession("due", undefined, "corridor");
+  }
   openDueSession() {
     if (!this.dueCount()) { this.openFlashBrowser("due", "Due Today"); return; }
     this.openPlanSession("due");   // v1.138.0: one surface, anchored on Maintenance
@@ -5685,7 +6776,7 @@ class Component extends DCLogic {
    * Maintenance first is not a layout preference: reviews are the debt, new cards are the
    * throttle that creates tomorrow's reviews.
    */
-  openPlanSession(anchor, studyIntent) {
+  openPlanSession(anchor, studyIntent, surface) {
     this._ensureGameplanClock();
     if (studyIntent !== false && (anchor !== "due" || studyIntent)) void this._requestGameplanStudy(studyIntent || "open-plan");
     // One visit owns one session. Refresh and cold completion append to it; neither
@@ -5695,18 +6786,21 @@ class Component extends DCLogic {
       const review = { ...ngGameplanDebt({ srs: this.srs, day: this._epochDay(), decks: this._gameplanDecks() }), day: this._epochDay() };
       const keys = review.rows.map(r => r.key);
       if (!keys.length) {
+        // a STARTING POINT, not a gate (U163 c kept it): with nothing owed and the planner not here yet, the first open
+        // lesson of the belt you wear; the planner then appends new cards from every family (`planSummary`)
         const belt = this.curriculum?.belts.find(b => b.id === this.wornBelt().id);
         const lesson = belt?.units.flatMap(u => u.lessons).find(l => this._lessonLive(l) && !this.lessonDone(l.deckKey));
         if (lesson) keys.push(lesson.deckKey);
       }
       const list = this.explorerListRef.current;
-      s = this._session = { practice: true, keys, review, idx: 0, anchor, bucket: "plan",
+      // it opens as the list (L1, `s.list`); a corridor door opens it with the belt shelf unfolded (`openCorridor`)
+      s = this._session = { practice: true, list: true, beltsOpen: surface === "corridor", keys, review, idx: 0, anchor, bucket: "plan",
         origin: { view: this._viewMode, scroll: list?.scrollTop || 0, node: this.focusIdx, path: location.href, title: document.title, focus: document.activeElement } };
       this._stopSystemPreview(); this._stopConceptFilm();
       this.closeModal();
       this.renderSession();
       this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
-      this.track("neural_practice_opened", { surface: "practice" });
+      this.track("neural_practice_opened", { surface: surface || "practice" });   // "corridor" from `openCorridor` (PATH-R1)
     }
     const session = s;
     const adopt = () => {
@@ -5721,25 +6815,46 @@ class Component extends DCLogic {
   // Extend the obligation, never replace it. Distinct question IDs are reserved
   // across reviews, new rows and explicit continuation before the shared renderer
   // sees them. Already graded cards still count in the original session ledger.
-  _practiceAppend(s, incoming, chosen) {
-    if (this._session !== s || !incoming) return;
-    const old = s.plan, due = (old ? old.due : s.review.rows).map(r => ({ ...r, questions: r.questions.slice() }));
-    const fresh = old ? old.fresh.slice() : [];
-    for (const r of incoming.due) {
-      const prior = due.find(x => x.key === r.key);
-      if (prior) { prior.questions = [...new Set(prior.questions.concat(r.questions))]; prior.count = prior.questions.length; }
-      else due.push(r);
+  _practiceAppend(s, incoming, chosen, round) {
+    // "Everything owed" is a session of its own: no plan lands on it (STAGE3-R1)
+    if (this._session !== s || !incoming || s.owed) return;
+    const old = s.plan;
+    // A SESSION IN PROGRESS IS NOT RE-PLANNED UNDER THE PLAYER (STAGE3-R1, the reader's finding 4): a study comparison or a
+    // refresh landing on a mounted worth plan merged the new plan's rows in (22 cards grew to 28, one position to 12). Now it
+    // changes only what the NEXT steps read: "More new cards" (`more`) and the plan's own summary; the rows stay.
+    if (old && old.order === "worth" && !round && !(chosen && chosen.length)) {
+      const held = new Set(s.keys);
+      s.plan = { ...old, more: incoming.more.filter(r => !held.has(r.key)), status: incoming.status, comparison: incoming.comparison,
+        assumptions: incoming.assumptions, missing: incoming.missing, why: (incoming.guarded === old.guarded && incoming.why) || old.why };
+      this._paintGameplanProgress(s);
+      return;
     }
     // A cold fallback can already be revealed/graded before the planner arrives.
     // Reserve that exact deck's cards so it cannot become a second shared copy.
     const active = s.keys[s.idx], engaged = this._deckState?.[active]?.revealed || this.practiceToday().done !== s.started;
+    // an untouched cold queue (every owed card, oldest first) gives way to a worth plan whole (U171 a); a touched one stays
+    const due = (old ? old.due : incoming.order === "worth" && !engaged ? [] : s.review.rows).map(r => ({ ...r, questions: r.questions.slice() }));
+    const fresh = old ? old.fresh.map(r => ({ ...r, questions: r.questions.slice() })) : [];   // copies: a bound plan is frozen
+    // THE NEXT ROUND (STAGE3-R1, "Keep practising" on the completion card): its positions number on after this session's
+    // (`off`), and a deck it asks again takes its new cards into the row it already has
+    const off = round && old ? old.visits.length : 0;
+    for (const r0 of round ? incoming.due.concat(incoming.fresh) : incoming.due) {
+      const r = off && typeof r0.visit === "number" ? { ...r0, visit: r0.visit + off } : r0;
+      const prior = due.find(x => x.key === r.key) || (round && fresh.find(x => x.key === r.key));
+      if (prior) {
+        if (r.owed) prior.owed = [...new Set((prior.owed || prior.questions).concat(r.owed))];
+        prior.questions = [...new Set(prior.questions.concat(r.questions))]; prior.pending = (prior.pending || 0) + (round ? r.pending || 0 : 0);
+        prior.count = prior.questions.length + (prior.pending || 0);
+        if (prior.owed && prior.owed.length && fresh.includes(prior)) { fresh.splice(fresh.indexOf(prior), 1); due.push({ ...prior, kind: "due" }); }
+      } else (r.owed && r.owed.length || !round ? due : fresh).push(r);
+    }
     if (!old && engaged && active && !due.some(r => r.key === active)) {
       const d = this._gameplanDecks()[active];
       if (d) fresh.push({ key: active, kind: "new", questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length), count: d.count, reason: "Practice this lesson." });
     }
     const used = new Set(ngGameplanReviewed(this.srs, this._epochDay()).concat(due.concat(fresh).flatMap(r => r.questions)));
     const keys = new Set(due.concat(fresh).map(r => r.key));
-    for (const r of (chosen || incoming.fresh)) {
+    for (const r of (chosen || (round ? [] : incoming.fresh))) {
       if (keys.has(r.key)) continue;
       const questions = r.questions.filter(q => !used.has(q));
       keys.add(r.key);
@@ -5747,34 +6862,133 @@ class Component extends DCLogic {
       questions.forEach(q => used.add(q));
       fresh.push({ ...r, kind: "new", questions, count: questions.length + r.pending });
     }
-    const dueQuestions = [...new Set(due.flatMap(r => r.questions))];
-    const newCards = fresh.reduce((n, r) => n + r.count, 0);
+    // THE PAGE NUMBERS WHAT IT SHOWS (STAGE3-R2 a, the reader's "1 … 6, 8, 9"). A deck has one row in a session (its key is the
+    // row), so a next round's cards of a deck already on the page join that row, under its heading; a position of the round
+    // left with no row of its own is not shown, so it is not counted either, and the rest are numbered on without a gap,
+    // the queue's labels and the open card's "position N of M" alike
+    let visits = round && old ? old.visits.concat(incoming.visits) : incoming.visits;
+    if (round && old) {
+      const shown = [...new Set(due.concat(fresh).map(r => r.visit).filter(v => typeof v === "number"))].sort((x, y) => x - y);
+      const rank = new Map(shown.map((v, i) => [v, i]));
+      const renum = (r) => (rank.has(r.visit) && rank.get(r.visit) !== r.visit ? { ...r, visit: rank.get(r.visit) } : r);
+      due.splice(0, due.length, ...due.map(renum)); fresh.splice(0, fresh.length, ...fresh.map(renum));
+      visits = visits.filter((_, i) => rank.has(i));
+    }
+    // a worth plan's review row lists its owed cards (`owed`); a new card of the same deck rides in it and counts as new
+    const dueQuestions = [...new Set(due.flatMap(r => r.owed || r.questions))];
+    const newCards = fresh.concat(due).reduce((n, r) => n + (r.owed ? r.count - r.owed.length : r.kind === "due" ? 0 : r.count), 0);
     s.plan = { ...incoming, due, fresh, dueQuestions,
       dueCards: dueQuestions.length, newCards, total: dueQuestions.length + newCards,
-      more: incoming.more.filter(r => !keys.has(r.key)) };
+      more: incoming.more.filter(r => !keys.has(r.key)), visits };
     s.review = null;
     // Untouched cold queues can take the normal interleaving. Once a card has been
     // used, append at the end without moving any existing opener or focus handle.
+    const order = (incoming.queue || []).concat(due.concat(fresh).map(r => r.key));
     if ((!old || !s.keys.length) && !engaged) {
+      // the open deck is kept only if the PLAYER moved to it (STAGE3-R1, the reader's finding 2): the cold queue's own first
+      // deck is the oldest debt, never chosen, and keeping it opened Practice at position 3 or 4 of 5
       const first = s.keys[s.idx];
-      s.keys = incoming.queue.filter(k => keys.has(k));
-      for (const r of due.concat(fresh)) if (!s.keys.includes(r.key)) s.keys.push(r.key);
-      if (first && s.keys.includes(first)) s.idx = s.keys.indexOf(first);
+      s.keys = [];
+      for (const k of order) if (keys.has(k) && !s.keys.includes(k)) s.keys.push(k);
+      // ... and a plan taken again under an untouched player keeps the row open too (`_practiceGuard`'s `keepOpen`, R409-R1)
+      s.idx = first && (s.moved || s.keepOpen) && s.keys.includes(first) ? s.keys.indexOf(first) : 0;
       s.required = s.keys.length;
       this.renderSession();
     } else {
-      for (const r of due.concat(fresh)) if (!s.keys.includes(r.key)) s.keys.push(r.key);
+      for (const k of order) if (keys.has(k) && !s.keys.includes(k)) s.keys.push(k);
       s.required = s.keys.length;
       this._practiceRows(s);
       this._paintGameplanProgress(s);
     }
+    // a plan that becomes worth here asks whether its guard is whole: mounted, or today's order turning worth (a slow first
+    // visit, where the curriculum lands after the tap: R409-R1, the reader's finding 2)
+    if (!old || old.order !== "worth") this._practiceGuard(s);
     this.hydrateDecks(s.keys).then(() => {
       if (this._session !== s || !this._sessionInline()) return;
-      s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks());
+      s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks(), this.srs);
       this._paintGameplanProgress(s);
     });
   }
 
+  // THE GUARD AND THE LIVE SET (R409, the reader's finding 1). A worth plan built while the rating's live set is still being
+  // checked can guard only the cards known to be answerable (`guarded: false`, practice-queue's `counts.short`), so the three
+  // due longest may not be among the 20. Nobody waits for the set: a session takes its plan at the tap, and when the check
+  // lands an UNTOUCHED session (no card revealed or answered, no row opened: the cold queue's rule) takes its plan again,
+  // ONCE (`guardSettled`), after any press in flight (`_afterPress`). Touched is read against the open card as it was when
+  // the plan was mounted (`guardFace`: its deck, card and side; a deck's inline state outlives a session).
+  // THE CARD ON SCREEN NEVER CHANGES under a player who has not touched the session (R409-R1, the reader's finding 1 of #415:
+  // the new plan's guard can lead the open position with another deck's card, 6 of 135 sampled re-plans, 12 of 12 built to
+  // do it). So the open row stays open (`keepOpen`), and the open card in it, wherever the new plan holds them; the guard's
+  // cards join the session around them, which is all the law asks (the three AMONG the 20, not first). The scroll is kept
+  // and the card is not faded in a second time (`_noCardIn`). A new plan that holds neither is not taken.
+  // ONE `neural_practice_unguarded` (docs/SEO.md, counts and a word only) for each plan kept or taken without a whole guard:
+  //   touched   the player touched the session before the set landed; its plan stays (never re-planned under a player)
+  //   reading   untouched, but the new plan does not hold the open row or the card on screen; the plan stays
+  //   short     taken (or mounted) with the set in hand and still short: a deck the live files do not list
+  //   failed    the check landed and could not read the files      unasked  no check for this deck list and fingerprint
+  //   fallback  the plan at landing is not a worth plan (the game left), so there is nothing to take
+  //   ended     the session was closed before the set landed
+  // A session still open but not on screen when the set lands (the drawer shut, the Path open) keeps its plan and sends
+  // nothing (the archive's "Not covered", v1.278.2). Called when a plan becomes worth (`_practiceAppend`: mounted, or
+  // today's order turning worth, finding 2) and when the check settles (`ratingCheck`, `landed`, the session it left waiting).
+  _practiceGuard(s, landed) {
+    const p = s && s.plan, live = this._ratingLiveNow(), st = live ? live.status : "unasked";
+    if (!p || p.order !== "worth" || p.guarded !== false || s.guardSettled) return;
+    const face = () => { const k = s.keys[s.idx], d = this._deckState && this._deckState[k]; return k + "|" + (d ? d.idx : 0) + "|" + !!(d && d.revealed); };
+    if (st === "checking") { this._guardWait = s; s.guardFace ??= face(); return; }
+    s.guardSettled = true;
+    const send = (reason, plan) => this.track("neural_practice_unguarded", { reason, short: plan.counts.law.short, owed: plan.counts.law.owed });
+    const word = st === "ok" ? "short" : st === "unasked" ? "unasked" : "failed";
+    if (!landed) { send(word, p); return; }   // nothing in flight to wait for: the set in hand (still short), or no check
+    this._afterPress(() => {
+      if (this._session !== s) { send("ended", p); return; }
+      if (!this._sessionInline()) return;
+      // a card shown answered is touched whenever it was turned (and `_practiceAppend` would keep the rows for it)
+      const touched = s.moved || face() !== s.guardFace || face().endsWith("|true") || this.practiceToday().done !== s.started;
+      if (st !== "ok") { send(word, s.plan); return; }
+      if (touched) { send("touched", s.plan); return; }
+      const next = this.planSummary();
+      if (next.order !== "worth") { send("fallback", s.plan); return; }
+      const k = s.keys[s.idx], deck = this.flashcards && this.flashcards.decks && this.flashcards.decks[k], d = this._deckState && this._deckState[k];
+      const rowIn = (plan) => plan.due.concat(plan.fresh).find((r) => r.key === k);
+      const cardsIn = (row) => (row ? (this._cardsOf(deck) || []).filter((c) => row.questions.includes(this.qhash(c.q))) : []);
+      const open = cardsIn(rowIn(s.plan))[d ? d.idx : 0], row = rowIn(next), at = open ? cardsIn(row).indexOf(open) : 0;
+      if (!row || at < 0) { send("reading", s.plan); return; }
+      if (open) (this._deckState = this._deckState || {})[k] = { ...d, idx: at, revealed: false };
+      const list = this.drillListRef && this.drillListRef.current, top = list ? list.scrollTop : 0;
+      this._noCardIn = true; s.keepOpen = true;
+      try { s.plan = null; this._practiceAppend(s, next); } finally { this._noCardIn = false; s.keepOpen = false; }
+      if (list) list.scrollTop = top;
+      if (next.guarded === false) send("short", next);
+    });
+  }
+
+  // EVERYTHING OWED, OLDEST FIRST (STAGE3-R1: the door the reader found missing; the orchestrator's words). One level down,
+  // inside "Practice details & session queue": dev's own order over the WHOLE owed pile, through the eager cover
+  // (`ngGameplanDebt`: one question one row, most overdue first) over every deck the manifest has, priced or not, so the 38
+  // gi decks the gi table gives no weight (Buggy Choke, the heel hooks) are reachable here. A session of its own that goes
+  // on as long as the player does: no plan lands on it (`_practiceAppend`), and its count stays inside the fold.
+  _openOwedPractice() {
+    const prev = this._session, day = this._epochDay();
+    const review = { ...ngGameplanDebt({ srs: this.srs, day, decks: this._gameplanDecks() }), day };
+    this._session = { practice: true, owed: true, keys: review.rows.map((r) => r.key), review, idx: 0, anchor: "due", bucket: "plan", origin: prev && prev.origin };
+    this.renderSession();
+    this.hydrateDecks(this._session.keys);
+    this.track("neural_practice_opened", { surface: "owed" });
+  }
+
+  _practiceNextRound(s) {
+    const plan = this._session === s && this.planSummary();
+    if (!plan) return;
+    const at = s.keys.length;
+    this._practiceAppend(s, plan, null, true);
+    const first = s.keys.indexOf(plan.queue[0]);
+    s.moved = true;
+    this._sessionOpeners[first >= 0 ? first : at]?.(); this._scrollFocusedDeck();
+  }
+
+  // a Path lesson opened into Practice adds its cards at the player's own press, due cards or not (ANKI1-R1, finding 6: the
+  // owner's rule is about what Practice deals by itself)
   _practiceLesson(key) {
     const s = this._session;
     if (!s?.practice || !this.beltUnlocked(this._lessonIndex?.[key]?.belt)) return;
@@ -5783,14 +6997,14 @@ class Component extends DCLogic {
       if (!s.keys.includes(key)) {
         const d = this._gameplanDecks()[key], planner = !!this._gameplanRuntime;
         if (planner && d?.allowed && d.count) {
-          const row = { key, questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length), reason: "Practice this lesson." };
+          const row = { key, questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length), reason: "Practice this lesson.", source: "lesson" };
           this._practiceAppend(s, s.plan || this.planSummary(), [row]);
         } else this.fx("practice_lesson_unplanned", { deckKey: key, planner });   // §6.6: it still opens, outside the session's ledger
         // Already graded/shared lessons remain readable without a second obligation.
         if (!s.keys.includes(key)) { s.keys.push(key); this._practiceRows(s); }
       }
       const at = s.keys.indexOf(key);
-      if (at >= 0) { this._sessionOpeners[at]?.(); this._scrollFocusedDeck(); }
+      if (at >= 0) { s.moved = true; this._sessionOpeners[at]?.(); this._scrollFocusedDeck(); }
     };
     this._ensureGameplanRuntime().then(() => this._afterPress(go));
   }
@@ -5812,7 +7026,7 @@ class Component extends DCLogic {
         complete: day === snapshot.day && !debt.count && completed === snapshot.count,
         newDebt: debt.questions.filter((q) => !snapshot.questions.includes(q)), blocked: debt.blocked });
     }
-    s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, decks);
+    s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, decks, this.srs);
     return (s.live = this._gameplanRuntime.ngGameplanProgress(s.plan, { srs: this.srs, day: this._epochDay(), decks }));
   }
   _sessionRowDone(s, key) {
@@ -5841,8 +7055,10 @@ class Component extends DCLogic {
     this._paintGameStudyPanel();
     if (s.practice) this._paintPractice(s);
     const complete = this.drillListRef.current && this.drillListRef.current.querySelector("[data-session-complete]");
-    if (complete && !p.complete) complete.remove();
-    if (!complete && p.complete && p.total > 0) s.completion.appendChild(this._sessionDoneCard(s));
+    // L2: a session whose cards are answered is not done while its plan still has a move to ask (a position's cloze)
+    const done = p.complete && !(s.plan && s.plan.moves && this._asksMoves() && s.plan.moves.some((m) => { const r = this.moves && this.moves[m.key] && this.moves[m.key][m.move]; return !(r && r[2] === this._epochDay()); }));
+    if (complete && !done) complete.remove();
+    if (!complete && done && p.total > 0) s.completion.appendChild(this._sessionDoneCard(s));
   }
   /**
    * TODAY AGAINST THE DAILY GOAL (owner U56 e: "the goal today is to do 20 flashcards"). `done` is the
@@ -5854,8 +7070,14 @@ class Component extends DCLogic {
   // bar, the planner and the Settings field (a separate chunk, which cannot see the constant), clamped to
   // the field's own 5-200 so a stored oddity can never print what the planner does not play.
   practiceGoal(v = this.get("dailyGoal", NG_PRACTICE_GOAL)) { v = Math.floor(Number(v)); return Number.isFinite(v) ? Math.max(5, Math.min(200, v)) : NG_PRACTICE_GOAL; }
-  practiceToday() { return { done: ngGameplanReviewed(this.srs, this._epochDay()).length, goal: this.practiceGoal() }; }
+  practiceToday() { return { done: ngGameplanReviewed(this.srs, this._epochDay()).length + (this._asksMoves() ? this._movesToday() : 0), goal: this.practiceGoal() }; }
   _practiceGoalText(t) { t = t || this.practiceToday(); return t.done + " of " + t.goal + " today" + (t.done >= t.goal ? " \u2713" : ""); }
+  // the order of today's new decks, for Practice's count line: the plan's own `newFrom` (gameplan.src.js), the same
+  // answer the summary line reads (v1.256.2, STAGE2H A a)
+  _newOrderText(plan) {
+    return plan.status === "weak-spots" || plan.newFrom === "weak-spots" ? "weakest first"
+      : plan.newFrom === "mixed" ? "ranked by your study comparison, then your weakest spots" : "ranked by your study comparison";
+  }
   /** Planner state and all comparison controls live below the active card. */
   _gameplanIntro(s) {
     const box = document.createElement("div"); box.setAttribute("data-gameplan-summary", "1");
@@ -5867,7 +7089,7 @@ class Component extends DCLogic {
       const details = document.createElement("details");
       details.innerHTML = '<summary>Why these decks?</summary><p></p>';
       // PLAIN COPY (item 9, owner 2026-09-30): what the order means, then the ranking's own caveats.
-      details.lastChild.textContent = "Reviews come back on your memory schedule, most overdue first. New techniques, ranked by how much practising them would help your game, are mixed in: a new technique after every few reviews. " +
+      details.lastChild.textContent = s.plan.why || "Reviews come back on your memory schedule, most overdue first. New techniques, ranked by how much practising them would help your game, are mixed in: a new technique after every few reviews. " +
         "Correct answers make your moves more likely to work in the game; that is not a measure of real grappling. A question two decks share counts once. " +
         s.plan.assumptions.join(" ");
       box.appendChild(details);
@@ -5885,46 +7107,60 @@ class Component extends DCLogic {
    * its own `_session` literal and calls `renderSession` directly, gets the keyboard for free.
    */
   _sessionInline() { return !!(this.deckShown && this._session && !this.deck && !this._checkpoint); }
-  /**
-   * Is the CHALLENGES CORRIDOR the thing on screen — the third inline-deck surface, and the one
-   * the owner found keyless (v1.175.0)? Same shape as `_sessionInline`: read the screen, never a
-   * flag. `_paneStudyActive()` excludes the takeovers the corridor launches (a lesson study, a
-   * checkpoint quiz, a capstone) — those are `isDrillOpen()`'s, and its branch already has them.
-   */
-  _challengeInline() { return !!(this.deckShown && this._viewMode === "challenges" && !this._paneStudyActive()); }
+  // A SESSION THE PLAYER HAS OPEN IN FRONT OF THEM IS NEVER ENDED BY WHAT THE PAGE DOES BY ITSELF ON ARRIVAL.
+  // · THE HOME PAGE (EARLY1, v1.288.1; the reader of PR #430, finding 4b, proven by real presses: lost 6 of 6 on "/"). The
+  //   intro hands over at 3.2 s of its own clock, which runs while the panel's pause holds the game, and deals the first
+  //   roll (`startRoll`); that deal's reset ended Master the game opened in the first seconds after a load, its opening
+  //   already counted. That one deal keeps a session the panel shows: an ARGUMENT of that one call (`keepShownSession`),
+  //   not a flag, so no later roll can inherit it (EARLY1-R1).
+  // · A POSITION, TECHNIQUE OR SUBMISSION PAGE (REFSEARCH-2; the orchestrator's probe on the preview, 3 of 6 in
+  //   one run: #432 held on the home page only). There the page's own first landing is the READER's: when its file has
+  //   landed it seats the board with `rollFromPosition`, the function a press on the map uses, and a staged landing does
+  //   not wait for the panel's pause. That call ended the session twice: in its own reset, and when its landing rebuilt
+  //   the panel (`buildDrillPanel`, which also took the session's deck slot for the position's). Now the two arrivals'
+  //   callers say so, again by an argument (`pageArrival`: the reader's seat, and the intro's URL seat, which no page
+  //   reaches while reading is the default), and a roll's FIRST landing leaves a shown session's panel alone.
+  // WHICH CALLERS ARE THE PLAYER'S: every other `rollFromPosition` (a press on the map through `stageRollAt`, a row's ▶
+  // through `playFrom`, a Last rolls row, a belt test, Back and Forward) and every other `startRoll`. They end the
+  // session at their own start, as before; a landing after a MOVE ends it as before; and so does the first landing
+  // once the drawer is shut. The reader's seat also serves an article the PLAYER opened (a result, a link, Back): there
+  // `_readArticle` shut the panel when the page was asked for, so a session shown when the seat lands is younger than
+  // the request, and the newer choice stands.
+  _sessionShown() { return !!(this.deckShown && this._session); }
   /**
    * THE FOCUSED INLINE DECK — SCOPED TO THE SURFACE THAT IS ACTUALLY SHOWING (v1.175.0).
    *
-   * `_focusRow` + `_miniReg` are ONE registry shared by three surfaces (roll history `c<n>`,
-   * inline session `s<i>`, challenge corridor `lesson:<deckKey>`), and nothing clears the row
-   * handle when you change tabs. So a rid left behind by one surface stays resolvable from
-   * another: without this, ←/→ on Challenges would page a deck sitting on the History tab, and
-   * ⏎ would GRADE a card nobody is looking at — credit for an answer never given (§6.6).
+   * `_focusRow` + `_miniReg` are ONE registry shared by the inline-deck surfaces (the inline session `s<i>`; roll history
+   * `c<n>` held decks until v1.293.0, L3, and the Path's corridor `lesson:<deckKey>` left with the Path, v1.287.0), and
+   * nothing clears the row handle when you change views. So a rid left behind by one surface stays resolvable from
+   * another: without this, ←/→ on the drawer's list would page a deck sitting in a session you left, and
+   * ⏎ would GRADE a card nobody is looking at — credit for an answer never given (§6.6). Last rolls registers no deck now
+   * (its rows hold places; their keys are `_placeOpen`'s), so a handle is only ever a session's.
    *
-   * The corridor answers through `_lessonRows`, which is rebuilt with the rows it indexes, and
-   * through `offsetParent` — the CSS's own answer to "can the player see this row". That is what
-   * makes a FOLDED belt give the keyboard back: a fold is `display:none` on `.ng-belt-body` and
-   * leaves every row in the DOM, so the deck is still open and still registered, just invisible.
-   * Unfolding hands the keys straight back, because nothing was thrown away to achieve it.
+   * The session answers through `offsetParent`, the CSS's own answer to "can the player see this deck".
    *
    * One resolver, five callers (the three arrow branches, Space, ⏎) — the alternative was a
    * fourth copy of `_focusRow && _miniReg && _miniReg[this._focusRow]`, which is where §6.5 says
    * to stop and name the seam.
    */
   _focusedMini() {
+    // an open cloze is the ask in front of the player (L2): Space shows or hides, ⏎ confirms, ← → step (master-list.src.js)
+    const cz = this._session && this._session.czOpen != null && this._sessionInline() ? this._session.czReg : null;
+    if (cz) return cz;
     const rid = this._focusRow;
     const reg = rid && this._miniReg ? this._miniReg[rid] : null;
     if (!reg) return null;
-    const lesson = typeof rid === "string" && rid.indexOf("lesson:") === 0;
-    if (this._challengeInline()) {
-      if (!lesson) return null;
-      const row = (this._lessonRows || []).find((entry) => entry.rid === rid);
-      return row && row.row && row.row.offsetParent !== null ? reg : null;
-    }
-    if (lesson) return null; // and a corridor row is not drivable from another tab either
     if (this._sessionInline()) return this._openMini?.rid === rid && this._openMini.el.isConnected && this._openMini.el.offsetParent !== null ? reg : null;
-    if (this.deckShown && this._viewMode === "history" && this._drillView === "home") return reg;
     return null;
+  }
+  // THE OPEN LAST ROLLS ROW, for the keys (L3, ruling 2): its two actions (`show`, and `go` where the place is a position),
+  // only while Last rolls is the view on screen and its row is still there. The scope a deck's keys have (`_focusedMini`),
+  // for the same reason: `_openMini` is one slot shared with the session's rows, and a row left behind must not take a key.
+  _placeOpen() {
+    const m = this._openMini;
+    // ...and its row is LAID OUT (`offsetParent`, as a deck's is): a past roll folded again hides its rows without removing
+    // them, and the open one still took Space and ⏎ (the reader of PR #440, finding 2: a place nothing on screen showed)
+    return m && m.show && m.el.offsetParent !== null && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() ? m : null;
   }
   /**
    * THE SESSION IS AN INLINE DECK LIST, NOT A TAKEOVER (v1.137.0). Owner: "I love this inline UI
@@ -5973,19 +7209,40 @@ class Component extends DCLogic {
 
   _renderPractice(s, list) {
     s.started ??= this.practiceToday().done;
+    // FOLD1 (v1.278.0): a plan that lands late re-renders an untouched queue (`_practiceAppend`), and that rebuilt "Practice
+    // details & session queue" shut under a player who had opened it in the meantime; it keeps what the player left
+    const kept = s.support?.firstChild?.open;
     this._gameplanProgress(s);
-    this.setDrillHeader("Practice", "", "");
-    // This fixed skeleton is owned by the page; the shared card renderer fills its first section.
-    list.innerHTML = '<div data-plan-goal="1" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;font-size:11.5px;font-weight:600"><span data-plan-goal-progress="1" aria-live="polite" style="color:#9ab0e0;white-space:nowrap"></span><span data-practice-goal="1"></span></div><section data-session="1" class="ng-practice-cards"><div data-practice-section="1"></div></section><div class="ng-practice-nav"></div><div data-practice-keys="1"></div><div data-practice-end="1"><div></div></div><div></div><div><details data-practice-details="1"><summary>Practice details &amp; session queue</summary><div data-practice-queue="1"></div><p data-session-section="Practice"></p><div></div></details></div>';
-    const [goal, wrap, nav, keys, end, corridor, support] = list.children, details = support.firstChild;
-    s.goal = goal; s.rows = wrap; s.heading = wrap.firstChild; s.corridor = corridor; s.support = support; s.end = end;
-    s.queue = details.children[1]; s.count = details.children[2]; s.explanation = details.children[3]; s.completion = end.firstChild;
+    this.setDrillHeader(NG_PRACTICE_NAME, "", "");
+    // This fixed skeleton is owned by the page; the shared card renderer fills its session section.
+    // MASTER THE GAME IS A LIST WITH ONE BUTTON (L1, v1.290.0; the owner's U197 b, 17 Nov: "I want a call to action here. When
+    // we click that button, we should go for the first item on the list and then reveal the navigation buttons. I don't want
+    // to have the section which reads 'Places you have been'"). As it opens (`s.list`): the belt you wear, ONE button, the
+    // day's bar, then the positions with no heading (the plan's in its own order, a rule, every other place in `explored`),
+    // then "Belt lessons" (the shelf the Path's corridor left here in v1.287.0). The press (or a row, or `openMasterAt`)
+    // opens a position in place on its first ask; only then the button becomes the slim line (the open card's heading and
+    // the day's count, today's two lines) and the navigation shows in the drawer's pinned foot, in thumb reach on a phone.
+    // The rows, their words and the button's are master-list.src.js's (deferred); `_masterPaint` paints them.
+    list.innerHTML = '<div data-master-top="1"><div class="ng-dr-rank" data-belt-row="1"></div></div><div data-master-cta="1" class="ng-mcta"></div>' +
+      '<div data-master-slim="1" class="ng-mslim"><div data-practice-section="1"></div><div data-plan-goal="1" style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;font-size:11.5px;font-weight:600"><span data-plan-goal-progress="1" aria-live="polite" style="color:#9ab0e0;white-space:nowrap"></span><span data-practice-goal="1"></span></div></div>' +
+      '<div data-master-ask="1"><section data-session="1" class="ng-practice-cards"></section><div data-practice-keys="1"></div><div data-practice-end="1"><div></div></div></div>' +
+      '<div data-master-rows="1"></div><p data-master-note="1" class="ng-mnote"></p><button type="button" class="ng-mrow" data-master-belts="1"></button><div data-master-shelf="1"></div>' +
+      '<div><details data-practice-details="1"><summary>Session details &amp; queue</summary><div data-practice-queue="1"></div><p data-session-section="Practice"></p><div></div></details></div>';
+    const [top, cta, slim, ask, rows, note, belts, corridor, support] = list.children, details = support.firstChild, [wrap, keys, end] = ask.children;
+    if (kept) details.open = true;
+    s.goal = slim.lastChild; s.rows = wrap; s.heading = slim.firstChild; s.corridor = corridor; s.support = support; s.end = end;
+    Object.assign(s, { top, cta, slim, ask, rowsEl: rows, note, belts, rowEls: null, rowSig: null });
+    this._masterSkeleton(s);
+    s.queue = details.children[1]; s.count = details.children[2]; s.explanation = details.children[3]; s.completion = end.firstChild; s.visitShown = null;
+    // the door to everything owed, one level down (STAGE3-R1); painted with its count in `_paintPractice`
+    const owed = s.owedDoor = this.drillBtn("Everything owed, oldest first"); owed.setAttribute("data-practice-owed", "1");
+    owed.onclick = () => this._openOwedPractice(); details.insertBefore(owed, s.queue);
     keys.innerHTML = this._keyLegend();
-    for (const [text, dir] of [["‹ Previous technique", -1], ["Next technique →", 1]]) {
-      const b = this.drillBtn(text); b.onclick = () => this.sessionNav(dir); nav.appendChild(b);
-    }
     s.explanation.appendChild(this._gameplanIntro(s));
-    const more = s.more = this.drillBtn("Keep practising · more new cards", true);
+    // "More new cards" (and a Path lesson, `_practiceLesson`) add new cards while cards are due, at the PLAYER's own press:
+    // the owner's Anki rule is about what Practice deals by itself, and a daily goal is a goal, never a limit (ANKI1-R1,
+    // the orchestrator's ruling on the reader's finding 6)
+    const more = s.more = this.drillBtn("More new cards", true);
     more.setAttribute("data-plan-more", "1");
     more.onclick = () => {
       if (!s.plan) { this.openPlanSession(s.anchor, "open-plan"); return; }
@@ -5996,13 +7253,20 @@ class Component extends DCLogic {
     };
     end.appendChild(more);
     this._practiceCorridor(); this._practiceRows(s);
-    this._sessionOpeners[Math.max(0, Math.min(s.keys.length - 1, s.idx || 0))]?.();
+    // as it opens, nothing is open: the list waits for the press (L1); after it, the open card stays open across a re-render
+    if (!s.list) {
+      // L2: a session drawn again keeps its open cloze (the page's DOM is new, the cloze's answers are the session's); and
+      // a plan landing under an untouched player opens its first place on its cloze, as the button would
+      const i = Math.max(0, Math.min(s.keys.length - 1, s.idx || 0)), R = this._gameplanRuntime;
+      if (!(R && R.ngClozeResume && R.ngClozeResume(this, s, s.moved ? null : this._masterSeatOf(s, s.keys[i])))) this._sessionOpeners[i]?.();
+    }
     if (!s.keys.length) {
       const empty = document.createElement("p"); empty.setAttribute("data-session-empty", "1");
       empty.textContent = s.plan ? "Nothing to practise here right now." : this._gameplanLoadState === "failed" ? "Open study plan to retry." : "Loading cards…";
       wrap.appendChild(empty);
     }
     const foot = this.drillFootRef.current; if (foot) foot.style.display = "none";
+    this._masterMode(s);
     this._paintGameplanProgress(s);
   }
 
@@ -6011,12 +7275,278 @@ class Component extends DCLogic {
     for (let i = this._sessionOpeners.length; i < s.keys.length; i++) {
       const key = s.keys[i], row = this._sessionRow(key, i, s, this.flashcards?.decks || {});
       s.rows.appendChild(row.el); this._sessionOpeners.push(row.open);
+      // a worth plan's queue names each position before its decks (U171 a: position by position)
+      // a row "More new cards" or a Path lesson appended has no position (STAGE3-R1, finding 3: it read "NaN · Other cards"),
+      // and each is named by how it came (STAGE3-R2 d: a lesson the player opened from the Path is not "More new cards")
+      const v = s.plan?.order === "worth" && s.plan.due.concat(s.plan.fresh).find((r) => r.key === key);
+      const pos = v && (typeof v.visit === "number" ? v.visit : v.source === "lesson" ? "lesson" : v.source === "place" ? "place" : "more");
+      if (v && pos !== s.visitShown) {
+        s.visitShown = pos;
+        const at = document.createElement("p"); at.setAttribute("data-practice-visit", pos);
+        at.textContent = pos === "more" ? "More new cards" : pos === "lesson" ? "Belt lessons" : pos === "place" ? key.replace("|", " \u00b7 ") + (v.owed && v.owed.length ? "" : " \u00b7 free review") : pos + 1 + " \u00b7 " + (v.seat ? v.seat.replace("|", " \u00b7 ") : "Other cards"); s.queue.appendChild(at);
+      }
       const jump = document.createElement("button"); jump.type = "button";
       jump.textContent = key.replace("|", " · ");
-      jump.onclick = () => { row.open(); this._scrollFocusedDeck(); }; s.queue.appendChild(jump);
+      jump.onclick = () => { s.moved = true; row.open(); this._scrollFocusedDeck(); }; s.queue.appendChild(jump);
     }
     this._sessionNodes = s.keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // camera + rings: never aim at an orb this ruleset does not draw
     if (s.keys.length) s.rows.querySelector("[data-session-empty]")?.remove();
+  }
+
+  // ── MASTER THE GAME'S LIST (L1, v1.290.0): see `_renderPractice` for what the page is; master-list.src.js for its rows ──
+  _masterSkeleton(s) {
+    s.cta.innerHTML = '<button type="button" class="ng-mstart" data-master-start="1"><span class="ng-mpl"></span><span><b></b><small></small></span></button>' +
+      '<div class="ng-mgoal"><span class="ng-dr-bar"><i></i></span><span data-master-count="1"></span></div><button type="button" class="ng-mkeep" data-master-keep="1">Keep practising</button>';
+    const [start, , keep] = s.cta.children;
+    start.onclick = () => this._masterStart(s);
+    keep.onclick = () => this._practiceNextRound(s);
+    // the navigation, shown only after the press, in the drawer's pinned foot (`_masterMode`): ≡ back to the list, then the
+    // OPEN CARD'S OWN buttons, moved in (`_masterDock`; L1-R0, the orchestrator's ruling: one bar for the open ask, in the foot)
+    const dock = s.dock = document.createElement("div"); dock.className = "ng-mdock"; dock.setAttribute("data-master-dock", "1");
+    dock.innerHTML = '<button type="button" data-master-list="1" aria-label="Back to the list"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 7h14M5 12h14M5 17h14"/></svg></button>' +
+      '<span class="ng-mbar" data-master-bar="1"></span>';
+    dock.firstChild.onclick = () => this._masterList(s);
+    // one handler for every row, so a row repainted in place never loses its press (FGD13's class)
+    s.rowsEl.onclick = (e) => { const b = e.target.closest && e.target.closest("[data-master-row]"); if (b) this._masterGo(s, b.getAttribute("data-master-row"), true); };
+    s.belts.innerHTML = '<span class="ng-mtrophy"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h8v4a4 4 0 01-8 0zM5 5h3v3a3 3 0 01-3-3zM19 5h-3v3a3 3 0 003-3zM12 12v4m-4 4h8"/></svg></span><span class="ng-mbody"><span class="ng-mname">Belt lessons</span><small>' + ngBeltDisplayName(this.wornBelt().id) + ' · units, checkpoints, belt tests, rewards</small></span><span class="ng-mchev">›</span>';
+    s.belts.onclick = () => this._masterBelts(s, !s.beltsOpen);
+    this._masterBelts(s, !!s.beltsOpen);
+    if (this._beltReading) this._paintBeltRow(s.top); else this._askBeltRow();
+  }
+  // the shelf the Path's corridor left here (v1.287.0), folded under its row; every corridor door opens it (`openCorridor`)
+  _masterBelts(s, open) {
+    s.beltsOpen = open; s.corridor.hidden = !open; s.belts.setAttribute("aria-expanded", String(open));
+  }
+  // as it opens (`s.list`) the belt and the button; after the press the slim line, the open card and the navigation
+  _masterMode(s) {
+    const L = !!s.list;
+    s.top.hidden = s.cta.hidden = !L; s.slim.hidden = s.ask.hidden = L;
+    if (L) for (const r of s.rowEls ? s.rowEls.values() : []) r.removeAttribute("data-on");   // as it opens nothing is open
+    const foot = this.drillFootRef.current; if (!foot) return;
+    if (L) foot.style.display = "none";
+    else { if (s.dock.parentNode !== foot) foot.replaceChildren(s.dock); foot.style.display = "flex"; }
+  }
+  // the list's row for a deck in this session: a position the plan visits, the place a free review opened, or none (a row
+  // "More new cards" added or a belt lesson). "" is the plan's cards that no position holds ("Other cards").
+  _masterSeatOf(s, k) {
+    const r = s.plan && s.plan.due.concat(s.plan.fresh).find((x) => x.key === k);
+    if (r && s.plan.order === "worth") return typeof r.visit === "number" ? r.seat || "" : r.source === "place" ? r.seat || k : null;
+    return r && r.source === "lesson" ? null : k;
+  }
+  // the rows, the note and the button's words are master-list.src.js's (`ngMasterPaint`, deferred: the eager core carries only
+  // the skeleton, the press and the navigation); before that bundle is in, the button opens the day's first card, as before L1
+  _masterPaint(s) {
+    if (this._session !== s || !s.cta || !s.cta.isConnected) return;
+    const R = this._gameplanRuntime, t = this.practiceToday(), p = R && R.ngMasterPaint ? R.ngMasterPaint(this, s) : null;
+    if (s.rowsNew) { s.rowsNew = false; for (const paint of Object.values(this._sessionPaint || {})) paint(); }
+    const w = p ? p.w : { title: t.done ? "Continue today's session" : "Start today's session", sub: "Loading your positions\u2026" };
+    const [start, goal, keep] = s.cta.children, words = start.children[1];
+    start.toggleAttribute("data-met", !!w.met);
+    start.disabled = !(p ? p.open : s.keys.length > 0);
+    start.firstChild.textContent = w.met ? "\u2713" : "\u25b6";
+    if (words.firstChild.textContent !== w.title) words.firstChild.textContent = w.title;
+    if (words.lastChild.textContent !== w.sub) words.lastChild.textContent = w.sub;
+    goal.firstChild.firstChild.style.width = Math.min(100, Math.round((100 * t.done) / Math.max(1, t.goal))) + "%";
+    goal.lastChild.textContent = this._practiceGoalText(t);
+    keep.hidden = !(w.met && s.plan && s.plan.order === "worth");
+    this._masterDock(s);
+  }
+  // the open card sits under its own row, in place, and that row is marked; a card no place holds sits above the rows.
+  // `soft` (a repaint, not the player's own opening): while a press is held in the drawer the card is not moved, since a
+  // button detached between its pointerdown and its pointerup gets no click (P1-D in practice-page.spec.ts, FGD13's class);
+  // it moves when the press has landed (`_paneOwed`). A move keeps the focus where it was (the keys follow the card).
+  _masterPlace(s, soft) {
+    if (soft && this._panePress) { (this._paneOwed || (this._paneOwed = [])).push(() => this._session === s && !s.list && this._masterPlace(s)); return; }
+    const seat = s.czOpen != null ? s.czOpen : this._masterSeatOf(s, s.keys[s.idx]), el = seat != null && s.rowEls ? s.rowEls.get(seat) : null;
+    for (const r of s.rowEls ? s.rowEls.values() : []) r.toggleAttribute("data-on", r === el);
+    const had = s.ask.contains(document.activeElement) ? document.activeElement : null;
+    if (el) { if (el.nextSibling !== s.ask) el.after(s.ask); } else if (s.ask.nextSibling !== s.rowsEl) s.rowsEl.before(s.ask);
+    if (had && had.isConnected && document.activeElement !== had) had.focus({ preventScroll: true });
+  }
+  _masterStart(s) {
+    const first = s.view && s.first;
+    if (first) this._masterGo(s, first.seat || "", false);
+    else if (s.view && s.plan && s.plan.order === "worth") this._practiceNextRound(s);   // nothing left before the goal (L1-R1)
+    else if (s.keys.length) this._sessionOpeners[0]?.();   // the planner not in yet: the day's first card, as before L1
+  }
+  /**
+   * OPEN A PLACE (L1): the button, a press on a row and `openMasterAt` all come here, so a row opens exactly as the button
+   * opens the first. Its first unanswered card, else its first; a place with nothing in today's session (nothing due there)
+   * opens its own deck as a FREE REVIEW (L1-SEAM: its answers count toward today like any other).
+   */
+  _masterGo(s, seat, chose) {
+    if (this._session !== s) return;
+    clearTimeout(this._sessionAdvance);   // the player opens a place: a walk still pending from the last answer does not override it
+    // L2: the position's moves first, as a cloze (moves before cards at a position, S0's law); its cards after
+    const R = this._gameplanRuntime;
+    if (R && R.ngClozeGo && R.ngClozeGo(this, s, seat, chose)) return;
+    const at = s.keys.map((k, i) => (this._masterSeatOf(s, k) === seat ? i : -1)).filter((i) => i >= 0);
+    if (!at.length) { if (seat) this._masterFree(s, seat); return; }
+    let i = at.find((j) => !this._sessionRowDone(s, s.keys[j]));
+    // A ROW'S COUNT IS REACHABLE BY ITS OWN PRESS (L1-R2, the second reader of PR #434, its one finding, 4 of 4): a place the
+    // day's goal cut says "3 due" while the plan asked 2 there; with those 2 answered the press reopened an ANSWERED card and
+    // the card still owed was never asked. Every deck the session holds for the place is answered and the place still owes:
+    // what it owes joins the session now (`_masterOwed`) and its first card opens.
+    if (i == null && seat && this._masterOwed(s, seat)) i = s.keys.findIndex((k) => this._masterSeatOf(s, k) === seat && !this._sessionRowDone(s, k));
+    if (i < 0) i = null;
+    if (chose) s.moved = true;
+    const k = s.keys[i != null ? i : at[0]];
+    this._sessionOpeners[s.keys.indexOf(k)]?.();   // (its first card not yet answered: the opener's own rule, L1-R3)
+    this._masterShow(s);
+  }
+  /**
+   * WHAT A PLACE STILL OWES JOINS THE SESSION (L1-R2), as due cards: at most six at a press (the law's size of a visit,
+   * practice-queue.src.js: "about six at a position at a time"; the row counts down and the next press asks the next), by
+   * deck, as the plan counts them (`s.owedAt`, master-list.src.js). A deck the session already holds takes them INTO ITS ROW
+   * (the plan asked part of what the place owes there: the reader's case); a deck it does not hold gets a row. One merge,
+   * `_practiceAppend`'s own (the one a next round uses: "a deck it asks again takes its new cards into the row it already
+   * has"), so the plan's sums, the rows and the session's keys stay its. False when there is nothing owed to add.
+   */
+  _masterOwed(s, seat) {
+    const owed = s.owedAt && s.owedAt.get(seat);
+    if (!this._gameplanRuntime || !owed || !owed.size) return false;
+    const held = new Set((s.plan ? s.plan.due.concat(s.plan.fresh) : []).flatMap((r) => r.questions));
+    let room = 6;
+    const rows = [];
+    for (const [dk, all] of owed) {
+      const q = all.filter((x) => !held.has(x)).slice(0, room);
+      if (!q.length) continue;
+      room -= q.length;
+      rows.push({ key: dk, seat, questions: q, owed: q, pending: 0, count: q.length, kind: "due", source: "place",
+        reason: q.length + (q.length === 1 ? " card" : " cards") + " due for review, so you keep what you've learned." });
+    }
+    if (!rows.length) return false;
+    if (s.plan) this._practiceAppend(s, { ...s.plan, due: rows, fresh: [], visits: [], queue: [] }, undefined, true);
+    else { this._practiceAppend(s, this.planSummary(), rows); const keys = rows.map((r) => r.key).filter((k) => !s.keys.includes(k)); if (keys.length) { s.keys.push(...keys); this._practiceRows(s); } }
+    return true;
+  }
+  // a deck never opens on an answered card while it holds an unanswered one (L1-R2): its remembered card, if answered today,
+  // gives way to its first card not answered today; a card left unanswered (revealed or not) is kept as the player left it.
+  // Called by the row's own opener and nowhere else (L1-R3); true when it moved the deck.
+  _masterUnanswered(s, k) {
+    const cards = this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[k]);
+    if (!cards) return false;
+    const row = (s.plan ? s.plan.due.concat(s.plan.fresh) : s.review ? s.review.rows : []).find((r) => r.key === k);
+    const only = row ? cards.filter((c) => row.questions.includes(this.qhash(c.q))) : cards, day = this._epochDay(), rows = (this.srs && this.srs[k]) || {};
+    const done = (c) => { const r = c && rows[this.qhash(c.q)]; return !!(r && r[2] === day); };
+    const st = this._deckState && this._deckState[k], at = only.findIndex((c) => !done(c));
+    // (the remembered index as the card reads it: past the end is its first card, below zero its last, `_miniDeck`)
+    const now = !st ? 0 : st.idx >= only.length ? 0 : st.idx < 0 ? Math.max(0, only.length - 1) : st.idx;
+    if (at < 0 || !done(only[now])) return false;
+    (this._deckState = this._deckState || {})[k] = { idx: at, revealed: false };
+    return true;
+  }
+  // A PLACE OUTSIDE TODAY'S PLAN THAT OWES CARDS ASKS THEM AS DUE CARDS (L1-R1, the reader's finding 1): its owed cards,
+  // by deck, as the plan counts them (`s.owedAt`, master-list.src.js), graded and counted like any other, under no "free
+  // review"; the free review is only for a place that owes nothing
+  _masterFree(s, key) {
+    // (L1-R2: through `_masterOwed`, the one merge; until then this branch added only the deck keys the session did not hold)
+    if (this._masterOwed(s, key)) {
+      const i = s.keys.findIndex((k) => this._masterSeatOf(s, k) === key && !this._sessionRowDone(s, k));
+      s.moved = true;
+      if (i >= 0) { this._sessionOpeners[i]?.(); this._masterShow(s); return; }
+    }
+    const d = this._gameplanDecks()[key];
+    if (this._gameplanRuntime && d && d.allowed && d.count) {
+      this._practiceAppend(s, s.plan || this.planSummary(), [{ key, seat: key, questions: d.questions, pending: d.exact ? 0 : Math.max(0, d.count - d.questions.length),
+        reason: "Nothing is due here: a free review, and every answer counts toward today.", source: "place" }]);
+    } else this.fx("master_free_unplanned", { deckKey: key });   // §6.6: it still opens, outside the session's ledger
+    if (!s.keys.includes(key)) { s.keys.push(key); this._practiceRows(s); }
+    s.moved = true;
+    this._sessionOpeners[s.keys.indexOf(key)]?.();
+    this._masterShow(s);
+  }
+  // the opened place's row into view, under the slim line, only when it is not in view already (a first place at the top
+  // opens with the page unscrolled: P1-A in practice-page.spec.ts); then its card (`_scrollFocusedDeck`)
+  _masterShow(s) {
+    const l = this.drillListRef.current, el = s.rowEls && s.rowEls.get(s.czOpen != null ? s.czOpen : this._masterSeatOf(s, s.keys[s.idx]));
+    if (l && el) {
+      const r = el.getBoundingClientRect(), lr = l.getBoundingClientRect(), band = s.slim.hidden ? 0 : s.slim.offsetHeight;
+      if (r.top < lr.top + band || r.bottom > lr.bottom) l.scrollTop += r.top - lr.top - band - 8;
+    }
+    this._scrollFocusedDeck();
+  }
+  // ≡ in the navigation: back to the list as it opened, the session and every answer kept; the belt reads again
+  _masterList(s) {
+    if (this._session !== s) return;
+    clearTimeout(this._sessionAdvance);   // ≡: the list shows, and nothing opens by itself (L1-R2)
+    this._czClose(s);
+    if (this._openMini) this._openMini.close();
+    // A, B, C answer the live multiple-choice block (`_onKey`): a card that has left the screen must not keep one (L1-R1, the
+    // reader's finding 4; Esc and the drawer's own exits already clear it)
+    if (this._mc && this._mc.surface === "practice") { this._mc.spent = true; this._mc = null; }
+    this._openRow = this._focusRow = null;
+    s.list = true; this._masterMode(s); this._masterPaint(s);
+    const l = this.drillListRef.current; if (l) l.scrollTop = 0;
+    this._askBeltRow();
+  }
+  /**
+   * ONE BAR FOR THE OPEN ASK, IN THE FOOT (L1-R0, the orchestrator's ruling on the pictures of PR #434: "TWO Reveal buttons",
+   * the card's own row and the foot's). The open card draws its row as every inline card does (`_miniDeck`); here its SAME
+   * buttons (their data attributes, their handlers) are moved into the foot after ≡: ‹, Reveal (or what a multiple-choice
+   * card's row shows: "Choose an answer", then "Next card"), ›; once revealed and not graded, Review again and Got it in
+   * Reveal's place. The card's emptied rows go. The keys are the card's own (← → Space ⏎, ↑ ↓ the techniques). ‹ and › walk
+   * the asks in the plan's order and cross from a deck's last card to the next deck's first (`_masterStep`), so "Previous
+   * technique" and "Next technique" are no longer buttons of their own. Pinned by master-list.spec.ts ("one Reveal on the page").
+   */
+  _masterDock(s) {
+    if (!s.dock || s.list || !this._practiceInDrawer() || s.czOpen != null) return;   // never a card of another surface (Last rolls' own); an open cloze draws its own bar (L2)
+    const bar = s.dock.lastChild, w = this._openMini && this._openMini.el && this._openMini.el.querySelector("[data-mini-deck]");
+    const mr = w && w.querySelector(".mr");
+    // a card opened again without being drawn again (a session with no plan keeps its cards): drawn, so its buttons move in
+    if (w && !mr && bar._from !== w) { const reg = this._miniReg && this._miniReg[this._openMini.rid]; if (reg && reg.draw) { reg.draw(); return; } }
+    if (mr) {   // a card drawn afresh: its row moves in, its emptied rows go
+      bar._from = w;
+      const row = mr.parentElement, got = w.querySelector("[data-mini-got]"), grades = got && got.parentElement, mp = row.querySelector(".mp"), mn = row.querySelector(".mn");
+      bar.replaceChildren(mp, ...(got ? [w.querySelector("[data-mini-again]"), got] : [mr]), mn);
+      row.remove(); if (grades) grades.remove();   // the grades' own row, taken before the move (after it, their parent is the bar)
+      mp.onclick = () => this._masterStep(s, -1); mn.onclick = () => this._masterStep(s, 1);
+    } else if (!w) bar.replaceChildren();
+    const at = this._focusedMini()?.at?.(), [mp, mn] = [bar.querySelector(".mp"), bar.querySelector(".mn")];
+    if (at && mp) { mp.disabled = !s.idx && at[0] <= 0; mn.disabled = s.idx >= s.keys.length - 1 && at[0] >= at[1] - 1; }
+  }
+  // ‹ › in the foot: the deck's previous or next card, and past its ends the neighbouring deck at its first (or last) card
+  _masterStep(s, dir) {
+    const m = this._focusedMini(), at = m && m.at && m.at();
+    if (at && (dir > 0 ? at[0] < at[1] - 1 : at[0] > 0)) { (dir > 0 ? m.next : m.prev)(); return; }
+    // L2: a position's cloze is one of the asks, before its cards: ‹ › step onto it and off it
+    const R = this._gameplanRuntime;
+    if (R && R.ngClozeStep && R.ngClozeStep(this, s, dir)) return;
+    const k = s.keys[(s.idx || 0) + dir];
+    if (k == null) return;
+    (this._deckState = this._deckState || {})[k] = { idx: dir > 0 ? 0 : -1, revealed: false };
+    this.sessionNav(dir);
+  }
+  /**
+   * L1-SEAM (the orchestrator, 17 Nov, for Last rolls as places, L3): open Master the game, or use it if it is open, at the
+   * place a Last rolls row holds (a deck key, "Mount|Top"): that row scrolled into view and opened on its first ask, exactly
+   * as the button opens the first row (`_masterGo`); a place with nothing due opens as a free review. A key the list does not
+   * hold opens the list as it is, says nothing, and beats `master_at_unheld` (§6.6). Pinned by e2e/journeys/master-list.spec.ts.
+   * Its one caller in the app is a Last rolls row's "Practise here" (`_histRow`, v1.293.0), which offers it only for a position.
+   */
+  openMasterAt(deckKey, surface) {
+    // an "Everything owed" session is a session of its own: replaced by today's (L1-R1, the reader's finding 5), its way back kept
+    const owed = this._session && this._session.owed ? this._session : null;
+    // FROM ANY STATE (L1-R1b, the reader's finding 2, measured 5 of 5): Esc and ✕ shut the drawer and KEEP `_session`, which
+    // every way back in retires (the logo and the brand, through `_exitStudyTo`), so a session the drawer does not show is
+    // not Master the game: it goes as an owed one goes, and the new one opens the drawer and the page (`openPlanSession`);
+    // a checkpoint or a card study the drawer shows over it ends as Esc ends it
+    const shut = !!this._session && !this._sessionInline();
+    if (shut || this.deck || this._checkpoint) { if (this._checkpoint) this._cancelCheckpoint(); this.deck = null; this._studyOpen = null; }
+    if (owed || shut) { this._session = null; this._sessionNodes = null; this._inSession = false; }
+    // `surface`: which door opened it, for `neural_practice_opened` ("lastrolls" from a Last rolls row's "Practise here", L3 ruling 4)
+    if (!this._practiceInDrawer() || !this._session) this.openPlanSession("due", undefined, surface || "place");
+    if (owed && this._session && owed.origin) this._session.origin = owed.origin;
+    const s = this._session;
+    this._ensureGameplanRuntime().then(() => this._afterPress(() => {
+      // given up only for a reason, and said (§6.6): another call or the player's own move came first
+      if (this._session !== s || !this._sessionInline()) { this.fx("master_at_dropped", { deckKey, why: this._session !== s ? "replaced" : "shut" }); return; }
+      this._masterPaint(s);
+      const v = s.view;
+      if (v && v.rows.concat(v.owing || [], v.rest).some((r) => r.seat === deckKey)) { this._masterGo(s, deckKey, true); return; }
+      this.fx("master_at_unheld", { deckKey, ready: !!v });
+      if (!s.list) this._masterList(s);
+    }));
   }
 
   _paintPractice(s) {
@@ -6027,18 +7557,38 @@ class Component extends DCLogic {
     goal.style.color = today.done >= today.goal ? "#7ee0a8" : "#7e8aa3";
     progress.textContent = p.total ? "Reviewed " + p.completed + "/" + p.total : "Nothing left to review";
     const due = s.plan ? s.plan.due : s.review.rows, row = due.find(r => r.key === s.keys[s.idx]);
-    const label = row ? "Due reviews · " + cards(p.dueCards) : ngBeltDisplayName(worn.id) + " practice";
+    const lines = s.plan && this._gameplanRuntime.ngGameplanLines?.(s.plan, p, s.keys[s.idx]);
+    // a worth plan names the open card's position; otherwise the owed queue or the worn belt's lessons (v1.276.0's word)
+    const label = lines ? lines.heading : row ? "Due reviews · " + cards(p.dueCards) : ngBeltDisplayName(worn.id) + " lessons";
     s.heading.textContent = label;
+    // the slim line is hidden while the list shows (L1): nothing is written into it then, so no text a player cannot see is
+    // there to be read (L1-R1, the reader's finding 2: four journeys passed on it); the press writes it (`open` paints)
+    if (s.list) goal.textContent = progress.textContent = s.heading.textContent = "";
     s.rows.style.setProperty("--practice-belt", NG_CHALLENGE_TRACK_COLORS[worn.id]);
     // Each half only when it has something to say (SIDE-R2 M6): no plan makes no claim about new work.
-    s.count.textContent = [p.dueCards ? cards(p.dueCards) + " to review across " + techs(due.length) : "", s.plan?.fresh.length ? s.plan.newCards + " new across " + techs(s.plan.fresh.length) + ", " +
-      (s.plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") : ""].filter(Boolean).join(" \u00b7 ");
+    s.count.textContent = lines ? lines.count : [p.dueCards ? cards(p.dueCards) + " to review across " + techs(due.length) : "", s.plan?.fresh.length ? s.plan.newCards + " new across " + techs(s.plan.fresh.length) + ", " +
+      this._newOrderText(s.plan) : ""].filter(Boolean).join(" \u00b7 ");
     const more = s.more;
     more.disabled = !!s.plan && !s.plan.more.length;
+    // "Keep practising" on the completion card deals the next round by worth; this button keeps its own meaning, the ranked
+    // new decks, under a label true of a worth plan (STAGE3-R1); an owed session has neither. Today's order (the fallback)
+    // reads the same since R409-6 (the orchestrator, seen live at 10:40 on 14 Nov): it does the same thing there, and its
+    // "Keep practising · more new cards" was left over, not chosen. With no plan yet it opens one: "More new cards" alone.
+    // written only when changed: a repaint between a press and its release must not swallow it (FGD13's class)
+    const moreLabel = s.plan ? "More new cards \u00b7 " + this._newOrderText(s.plan) : "More new cards";
+    if (more.textContent !== moreLabel) more.textContent = moreLabel;
+    more.hidden = !!s.owed;
+    const n = this.dueCount(), door = "Everything owed, oldest first \u00b7 " + n + (n === 1 ? " card" : " cards");
+    s.owedDoor.hidden = !!s.owed || !n;
+    if (s.owedDoor.textContent !== door) s.owedDoor.textContent = door;
     if (s.plan && !s.explanation.querySelector("[data-gameplan-refresh]")) s.explanation.replaceChildren(this._gameplanIntro(s));
     if (s.plan) s.explanation.firstChild.firstChild.textContent = this._gameplanRuntime.ngGameplanSummary(s.plan);
     const title = this.drillHeadRef.current.querySelector("[data-practice-belt]");
-    if (title) title.textContent = ngBeltDisplayName(worn.id) + " · " + count(worn.stripes, "stripe") + " · " + (this._giMode === "nogi" ? "No-gi" : "Gi");
+    // the belt you wear, as the drawer row wears it (v1.276.0: `beltWorn()`, the one function); the lesson heading and its
+    // colour above stay the Path's own (`wornBelt()`): they name the course the lesson belongs to
+    const bw = this.beltWorn();
+    if (title) title.textContent = ngBeltDisplayName(bw.id) + (bw.id === "black" ? "" : " · " + count(bw.stripes, "stripe")) + " · " + (this._giMode === "nogi" ? "No-gi" : "Gi");
+    this._masterPaint(s);
   }
 
   _practiceCorridor() {
@@ -6047,6 +7597,9 @@ class Component extends DCLogic {
     s.belt = this.wornBelt().id;
     s.corridor.replaceChildren();
     this.renderChallenges(s.corridor, true);
+    // the shelf draws "Session details & queue" after its belts; since L1 the shelf folds under "Belt lessons", so the fold is
+    // put back after the shelf, at the page's foot, where it stays reachable with the shelf folded
+    if (s.support && s.support.parentNode === s.corridor) s.corridor.after(s.support);
   }
 
   /** Due work resolves by reviewed questions; curriculum lessons retain their own credit goal. */
@@ -6081,18 +7634,22 @@ class Component extends DCLogic {
       const open = detail.style.display !== "none";
       if (done) r.setAttribute("data-session-done", "1"); else r.removeAttribute("data-session-done");
       r.setAttribute("aria-expanded", String(open));
+      // A DECK ROW THAT ONLY REPEATS ITS PLACE IS NOT DRAWN (L1-R0, the orchestrator's ruling): under an open place in Master the
+      // game the place's own deck ("Open Guard|Bottom" under Open Guard, bottom) keeps its card and its dots, its count goes to
+      // the place's row (master-list.src.js) and its fold is the place's; a lesson's or a move's deck keeps its row
+      const own = s.practice && !!s.rowEls && s.rowEls.has(key) && this._masterSeatOf(s, key) === key;
       r.style.cssText = "width:100%;min-height:44px;text-align:left;font-family:inherit;display:flex;align-items:center;gap:10px;padding:10px 11px;border-radius:10px;cursor:pointer;margin-bottom:7px;transition:background .14s,border-color .14s;border:1px solid " +
         (done ? "rgba(110,214,160,.42)" : open ? "rgba(150,180,255,.5)" : "rgba(150,170,210,.12)") + ";background:" +
-        (done ? "rgba(28,58,44,.5)" : open ? "rgba(58,72,118,.5)" : "rgba(255,255,255,.025)") + ";";
+        (done ? "rgba(28,58,44,.5)" : open ? "rgba(58,72,118,.5)" : "rgba(255,255,255,.025)") + ";" + (own ? "display:none;" : "");   // last: the row's own display:flex is above
       const label = this._deckCountLabel(key, true);
       // PRACTICE'S MIX, said per row (U56 e): a review or a new deck, read from the plan's own rows
-      const kind = s.plan ? s.plan.due.some((x) => x.key === key) ? "due" : s.plan.fresh.some((x) => x.key === key) ? "new" : "" : s.review ? s.review.rows.some(x => x.key === key) ? "due" : "new" : "";
+      const kind = s.plan ? s.plan.due.some((x) => x.key === key) ? "due" : s.plan.fresh.some((x) => x.key === key) ? ((f) => (f.owed && f.owed.length ? "due" : f.source === "place" ? "free" : "new"))(s.plan.fresh.find((x) => x.key === key)) : "" : s.review ? s.review.rows.some(x => x.key === key) ? "due" : "new" : "";
       if (kind) r.setAttribute("data-practice-kind", kind);
       r.innerHTML =
         '<span style="width:9px;height:9px;border-radius:' + (cat === "Position" ? "50%" : "2px") + ';background:' + (done ? "#7ee0a8" : (catCol[cat] || "#9fb0d8")) + ';flex:none;"></span>' +
         '<div style="flex:1;min-width:0;"><div style="font-size:13px;font-weight:600;color:' + (done ? "#bff0d2" : "#eef1f6") + ';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + fam + '</div>' +
         '<div style="font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:1px;">' + cat + ' · ' + role +
-        (kind ? ' · <span style="color:' + (kind === "due" ? "#e9bd70" : "#9ab0e0") + ';">' + (kind === "due" ? "Review" : "New") + '</span>' : '') + '</div></div>' +
+        (kind ? ' · <span style="color:' + (kind === "due" ? "#e9bd70" : "#9ab0e0") + ';">' + (kind === "due" ? "Review" : kind === "free" ? "Free review" : "New") + '</span>' : '') + '</div></div>' +
         (done
           ? '<span data-session-tick="1" style="flex:none;color:#7ee0a8;font-size:13px;font-weight:700;">✓</span>'
           : !ncards
@@ -6129,7 +7686,7 @@ class Component extends DCLogic {
         why.style.cssText = "font-size:12px;line-height:1.5;color:#aab9d5;padding:0 12px;overflow-wrap:anywhere;";
         // ONE PLAIN SENTENCE PER CARD (item 9, owner 2026-09-30); the caveats live once, under
         // "Why these decks?". The row's own subtitle already names the role.
-        why.textContent = planned && planned.kind === "due"
+        why.textContent = planned && planned.kind === "due" && !planned.reason
           ? planned.count + (planned.count === 1 ? " card" : " cards") + " due for review, so you keep what you've learned."
           : planned.reason;
         explanation.appendChild(why);
@@ -6158,13 +7715,23 @@ class Component extends DCLogic {
           if (detail.style.display === "none") return;
           if (!this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key])) return;
           if (s.plan || s.review) this._gameplanProgress(s);
+          if (s.practice) this._masterUnanswered(s, key);   // its cards have landed: the same rule, now that they can be read (L1-R3)
           build();
           this._scrollFocusedDeck();   // the real deck is taller than its placeholder; keep it in view
         });
       }
     };
     const open = () => {
+      this._czClose(s);   // a card opening takes the cloze's place in the ask (L2)
       if (this._openMini && this._openMini.rid !== rid) this._openMini.close();  // accordion: one at a time
+      // EVERY DOOR INTO A PLACE OPENS ON A CARD THAT IS NOT YET ANSWERED (L1-R3, the third read of PR #434, 2 of 2: "Keep
+      // practising" dealt a place that owed three and opened it on the card just answered, Reveal offered). The rule was
+      // kept by two callers (`_masterGo`, `_masterFree`, L1-R2) and missed by the others; it is HERE now, in the one opener
+      // every door of a Master the game session passes through (twelve call sites: the button, a row, `openMasterAt`,
+      // "Keep practising", "More new cards", a lesson, the queue's jump buttons, ↑ ↓, ‹ › crossing into another deck, the
+      // walk after a deck's last answer, a session drawn again), so a later door cannot miss it. A deck drawn already is
+      // drawn again when the rule moved it.
+      if (s.practice && this._masterUnanswered(s, key)) built = false;
       if (!built || s.plan) { built = true; build(); }
       detail.style.display = "block";
       box.hidden = false;
@@ -6174,12 +7741,15 @@ class Component extends DCLogic {
       paint();
       if (s.practice) {
         if (s.belt !== this.wornBelt().id) { s.earlier = false; this._practiceCorridor(); }
+        // an opened card is the press (L1): the list gives way to the slim line and the navigation, the card under its row
+        if (s.list) { s.list = false; this._masterMode(s); }
+        this._masterPlace(s);
         detail.tabIndex = -1; detail.focus({ preventScroll: true }); this._paintPractice(s);
       }
       const ni = this.nodeForKey(key); if (ni >= 0) this.locateNode(ni);   // the graph follows the queue
     };
     // Practice shows one row, so collapsing it would take its own title away: there it only ever opens.
-    r.addEventListener("click", () => { if (detail.style.display === "none") { open(); this._scrollFocusedDeck(); } else if (!s.practice) closeSelf(); });
+    r.addEventListener("click", () => { if (detail.style.display === "none") { s.moved = true; open(); this._scrollFocusedDeck(); } else if (!s.practice) closeSelf(); });
     paint();
     box.appendChild(r); box.appendChild(detail);
     this._sessionPaint = this._sessionPaint || {};
@@ -6212,9 +7782,14 @@ class Component extends DCLogic {
     if (nextAt < 0) return;
     clearTimeout(this._sessionAdvance);
     this._sessionAdvance = setTimeout(() => {
-      if (!this._sessionInline() || this._session !== s || s.idx !== i) return;
+      // NOTHING OPENS BY ITSELF ONCE THE PLAYER HAS MOVED (L1-R2, found by the cut place's journey: 2 of 4 red on clean code).
+      // The walk to the next unfinished deck waits 520 ms; until L1 the open row's index said whether the player had moved.
+      // Master the game's list (≡) and a press on the same place again leave that index where it was, so a card opened by
+      // itself from the list, or the walk pulled the player off the card just chosen. LIFTERS of the pending walk (§6.5):
+      // `_masterList` (≡) and `_masterGo` (a place opened by the player) clear it; the list showing stops it here.
+      if (!this._sessionInline() || this._session !== s || s.idx !== i || s.list || s.czOpen != null) return;   // nor over an open cloze (L2: it has no row index of its own)
       const op = this._sessionOpeners && this._sessionOpeners[nextAt];
-      if (op) { op(); this._scrollFocusedDeck(); }
+      if (op) { if (!this._czEnter(s, nextAt)) op(); this._scrollFocusedDeck(); }
       if (s.plan || s.review) this._paintGameplanProgress(s);
       else {
         const f = this.drillFootRef.current; if (f) f.replaceChildren(this._sessionFoot(s));
@@ -6264,13 +7839,14 @@ class Component extends DCLogic {
     done.style.cssText = "margin-top:auto;background:rgba(28,46,38,.5);border:1px solid rgba(110,224,168,.35);border-radius:12px;padding:20px 16px;text-align:center;animation:ngCardIn .3s ease both;";
     // Completion describes this obligation. Practice keeps its separate continuation
     // control available before and after completion, including beyond the daily goal.
-    const due = this.dueCount();
+    // It names no owed count: "N cards are due now" left this card with the drawer's count (the orchestrator's decision,
+    // 13 Nov, after the owner's U171 a): the owed pile is no longer the day's debt, and a figure that only grows tells the
+    // player nothing. What the card says is what was done today; "Keep practising" under it says what comes next.
     done.innerHTML =
       '<div style="font-size:26px;margin-bottom:10px;">\uD83C\uDF89</div>' +
       '<div data-session-done-title="1" style="font-size:15px;font-weight:700;color:#bff0d2;margin-bottom:6px;">' + (!valid ? 'Reviews still need attention' : 'Session complete') + '</div>' +
       '<div style="font-size:11.5px;color:#9ab3a4;line-height:1.5;margin-bottom:14px;">' +
-      (!live ? 'The lesson goals in this session are complete. ' : live.total ? 'You reviewed ' + live.completed + ' of ' + live.total + ' cards today. ' : "You've met today's goal. ") +
-      (due ? due + (due === 1 ? ' card is' : ' cards are') + ' due now.' : '') + '</div>';
+      (!live ? 'The lesson goals in this session are complete.' : live.total ? 'You reviewed ' + live.completed + ' of ' + live.total + ' cards today.' : "You've met today's goal.") + '</div>';
     // 7-day progress sparkline — REAL history from the persisted daily counts
     const dk7 = []; for (let i = 6; i >= 0; i--) { const d = new Date(); d.setDate(d.getDate() - i); dk7.push(d); }
     const week = dk7.map((d) => (this._days || {})[this._dayKey(d)] || 0);
@@ -6283,19 +7859,62 @@ class Component extends DCLogic {
     plot.style.cssText = "background:rgba(255,255,255,.03);border:1px solid rgba(150,170,210,.12);border-radius:12px;padding:14px 12px 10px;margin-bottom:14px;";
     plot.innerHTML = '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin-bottom:10px;">This week</div>' + bars;
     done.appendChild(plot);
+    // GOING ON, IN PLACE (STAGE3-R1, the reader's finding 5; a goal is never a cap): a worth session that is done deals the
+    // next round by worth into this same session, its positions numbered on after this one's; today's count keeps counting
+    if (live && valid && ses.practice && ses.plan && ses.plan.order === "worth") {
+      const next = this.drillBtn("Keep practising", true); next.setAttribute("data-plan-next", "1");
+      next.addEventListener("click", () => this._practiceNextRound(ses));
+      done.appendChild(next);
+    }
     const close = this.drillBtn("Close");
     close.addEventListener("click", () => { this._session = null; this._sessionNodes = null; this._inSession = false; this.setDeckOpen(false); });
     done.appendChild(close);
     return done;
   }
-  /** ↑/↓ walk the QUEUE. Returns false when there is nowhere to go, so the caller can fall through. */
-  sessionNav(dir) {
+  /** ↑/↓ walk the QUEUE. Returns false when there is nowhere to go, so the caller can fall through. `key`: the press IS ↑ or ↓
+   *  (the foot's ‹ › pass here too, crossing decks, and stay "previous ask, next ask": they may show an answered card). */
+  sessionNav(dir, key) {
     const s = this._session; if (!this._sessionInline() || !s || !s.keys.length) return false;
-    const at = Math.max(0, Math.min(s.keys.length - 1, (s.idx || 0) + dir));
-    if (at === s.idx && this._openRow) return false;
+    if (s.list) { this._masterStart(s); return true; }   // Master the game as it opens (L1): ↑ ↓ are its button, never a second card
+    if (s.czOpen != null) { this._masterStep(s, dir); return true; }   // an open cloze (L2): ↑ ↓ step as ‹ › do
+    let at = Math.max(0, Math.min(s.keys.length - 1, (s.idx || 0) + dir));
+    if (key && s.practice) at = this._masterKeyRow(s, dir, at);
+    if (at < 0 || (at === s.idx && this._openRow)) return false;
     const op = this._sessionOpeners && this._sessionOpeners[at];
     if (!op) return false;
-    op(); this._scrollFocusedDeck(); return true;
+    s.moved = true;
+    if (!(key && this._czEnter(s, at))) op();
+    this._scrollFocusedDeck(); return true;
+  }
+  /**
+   * ↑ ↓ ARE THE KEYS' FORM OF A TAP ON A ROW (L2 item 12: the fourth read of PR #434, 18 of 18, and the orchestrator's
+   * ruling on it): the deck they open holds a card that is due and not answered while the place it belongs to owes one.
+   * L1 walked what the session already held, so on a place the plan took part of, ↑ ↓ opened a card answered a minute
+   * ago beside a row reading "3 due". The row a key lands on, in its direction: the next deck with a card still to answer;
+   * a deck all answered whose place owes more than the session holds takes what it owes first (`_masterOwed`, the step
+   * the row's own press takes in `_masterGo`), and the opener's rule then lands on the first owed card. With nothing to
+   * ask that way the key opens the neighbouring deck to look at, as before, unless that deck's place still holds an
+   * unanswered card in the session (then that card; a dead key when the player is on it already).
+   * NOT in the opener (the reader's caution): a session drawn again and the walk after a deck's last answer pass through
+   * the opener, and would deal a place's cards without a press. Returns the deck's index, or -1 for nowhere to go.
+   */
+  _masterKeyRow(s, dir, at) {
+    const done = (j) => this._sessionRowDone(s, s.keys[j]), seat = (j) => this._masterSeatOf(s, s.keys[j]);
+    const first = (st) => s.keys.findIndex((k, j) => this._masterSeatOf(s, k) === st && !done(j));
+    for (let j = (s.idx || 0) + dir; j >= 0 && j < s.keys.length; j += dir) {
+      if (!done(j)) return j;
+      if (seat(j) && this._masterOwed(s, seat(j))) { const f = first(seat(j)); return f < 0 ? j : f; }
+    }
+    if (at === s.idx || seat(at) == null) return at;
+    const f = first(seat(at));
+    return f < 0 ? at : f === s.idx ? -1 : f;
+  }
+  // L2: A PLACE ENTERED FROM ANOTHER ASKS ITS MOVES FIRST (S0's law: moves before cards at a position), whichever way it is
+  // entered without its row's press: ↑ ↓ and the walk after a deck's last answer land on a DECK; when that deck is another
+  // place's and that place's moves are still to ask, its cloze opens in the card's stead (the row's press: `_masterGo`).
+  _czEnter(s, at) {
+    const R = this._gameplanRuntime, seat = this._masterSeatOf(s, s.keys[at]);
+    return !!(seat && s.practice && R && R.ngClozeGo && seat !== this._masterSeatOf(s, s.keys[s.idx]) && R.ngClozeGo(this, s, seat, false));
   }
   studyFromSession(key) {
     // A study surface IS its cards, so if they are not here yet, fetch and rebuild when they
@@ -6479,7 +8098,7 @@ class Component extends DCLogic {
   }
   _invalidateCloudSync() {
     this._authEpoch = (this._authEpoch || 0) + 1;
-    this._pulled = false; this._pulledUserId = null; this._pullToken = null;
+    this._pulled = false; this._pulledUserId = null; this._pullToken = null; this._cloudSeen = null;
     clearTimeout(this._pushT); this._pushT = null;
   }
   _clearAuthUser() {
@@ -6505,7 +8124,7 @@ class Component extends DCLogic {
           if (this._authDisposed || revision !== this._authEventRevision) return;
           if (event === "SIGNED_IN" || !this._pulled) this._pullAndMerge();
         }, 0);
-        if (event === "SIGNED_IN") this.track("neural_signin_completed", { method: this._authMethod || "session" });
+        if (event === "SIGNED_IN") this._signinCompleted();
       });
     }
     const revision = this._authEventRevision || 0, epoch = this._authEpoch || 0;
@@ -6517,6 +8136,9 @@ class Component extends DCLogic {
       if (user === null) { this._clearAuthUser(); return; }
       if (user && typeof user.id === "string" && user.id) {
         this._applyUser(user);
+        // #360's review (E2): the tab that returns from Google may subscribe after auth-js has fired its start-up SIGNED_IN, so a
+        // verified identity here spends an intent too. The intent is taken once, so it never counts twice.
+        this._signinCompleted();
         await this._pullAndMerge();
       }
     } catch (e) {
@@ -6524,6 +8146,36 @@ class Component extends DCLogic {
       this._invalidateCloudSync(); this._cloudSyncError = "identity-unavailable";
     }
   }
+  // v1.255.2: ONE COUNT PER SIGN-IN. auth-js 2.119 fires SIGNED_IN on every page load that restores a stored session (_initialize ->
+  // _recoverAndRefresh), on every tab return (_onVisibilityChanged) and, re-sent over its BroadcastChannel, in every other open tab, so
+  // `neural_signin_completed` counted visits. It now counts the sign-ins this browser started: Log in, Create account and Google write
+  // an intent ({method, mode, at}) to localStorage, which outlives Google's redirect (a new page load) and reaches the tab an email
+  // confirmation opens. The first SIGNED_IN within 30 minutes counts it and removes it, so the other tabs find none. NOT COUNTED: a
+  // sign-up confirmed on another device, which has no intent. GoTrue's `last_sign_in_at` cannot stand in for one: it belongs to the user,
+  // not the session, and a refresh on any device returns the newest, so a second device would count the first one's sign-in.
+  _signinIntent(method, mode) {
+    try { localStorage.setItem(NG_SIGNIN_INTENT_KEY, JSON.stringify({ method, mode, at: Date.now() })); } catch (e) { /* private mode */ }
+  }
+  // #360's review: the read-and-remove runs under a Web Lock where the browser has one (E3: storage reaches another tab on its own
+  // path, so two tabs could both read the intent); `intent_at` rides the event so a double count can still be removed in analysis.
+  // The window is 24 hours for a sign-up, whose confirmation email may be opened much later, and 30 minutes otherwise (E4).
+  _signinCompleted() {
+    const take = () => {
+      let intent = null;
+      try {
+        intent = JSON.parse(localStorage.getItem(NG_SIGNIN_INTENT_KEY) || "null");
+        if (intent) localStorage.removeItem(NG_SIGNIN_INTENT_KEY);
+      } catch (e) { intent = null; }
+      const age = intent && Date.now() - intent.at;
+      if (!intent || !(age >= 0 && age < (intent.mode === "create" ? NG_SIGNIN_CREATE_MS : NG_SIGNIN_INTENT_MS))) return;
+      this.track("neural_signin_completed", { method: intent.method, mode: intent.mode, intent_at: intent.at });
+    };
+    const locks = typeof navigator !== "undefined" && navigator.locks;
+    if (!locks || typeof locks.request !== "function") { take(); return; }
+    let ran = false;
+    Promise.resolve().then(() => locks.request(NG_SIGNIN_INTENT_KEY, () => { ran = true; take(); })).catch(() => { if (!ran) take(); });
+  }
+  _signinAbandoned() { try { localStorage.removeItem(NG_SIGNIN_INTENT_KEY); } catch (e) { /* private mode */ } }
   _applyUser(u) {
     if (!u || typeof u.id !== "string" || !u.id || !this._progressCurrent()) return;
     const changed = this._progressHost.authenticate(this, u);
@@ -6534,6 +8186,36 @@ class Component extends DCLogic {
     const name = (u.user_metadata && (u.user_metadata.full_name || u.user_metadata.name)) || (email ? email.split("@")[0] : "You");
     this.user = { name: name, initial: (name[0] || "Y").toUpperCase(), email: email }; // email feeds the account menu's identity row
     this.updateAccountUI();
+  }
+  // GUEST PRACTICE JOINS THE ACCOUNT AT SIGN-IN (v1.262.0, owner U138 a, "Always automatic"; the rule and its reasons are
+  // in progress-owner.src.js above `ngProgressGuestMerge`). It replaces the menu row "Review guest progress" and its
+  // Import dialog, which every signed-in player saw for good (the owner, 11 Nov: "seems like AI slop/bloat pls fix").
+  // WHEN: at the end of the account's first SUCCESSFUL pull (`_pullAndMerge`), never before it (ORDER1, above there).
+  // THE LINE, once per guest copy and account: the announcer, which is `pointer-events:none` and sits at the top centre
+  // (`.ng-evtoast`), printed WHOLE (never cut at its " from " like a node's name) and stepped below any control its lines
+  // meet (`_evStepBelowControls`: at 390 the top-left icons; e2e/journeys/guest-join.spec.ts pins "covers no control"
+  // at 390 by touch and 1440 by mouse). No kicker: one line. It is HELD for the landing
+  // (`_announceArrival`) and stays until the board's next sentence replaces it: the player's next move, the next
+  // landing or the roll's end. It never overwrites another held arrival sentence (a shared link's): that visit's join
+  // is silent.
+  _joinGuestPractice() {
+    const host = this._progressHost;
+    if (this._guestJoinTried || !this._progressCurrent() || !host || !host.joinGuest) return;
+    // the account's own carry, frozen before a guest's earlier open-rule stamp joins the merge (`ngProgressGuestMerge`):
+    // without it a pre-rule belt of the account's would read as after the joined stamp whenever no belt sync has run since
+    // the pull (the curriculum still in flight). tests/guest_join_safety.test.mjs R3.
+    if (!this._recallCarry && this._recallCarryLive()) this._recallCarry = true;
+    const r = host.joinGuest(this);
+    // once per mounted account: a definite answer ends it; a refusal (a failure) leaves it for the next pull
+    if (r.status !== "unavailable") this._guestJoinTried = true;
+    if (r.status !== "joined") return;
+    this._hydrateProgressBlob(r.blob);
+    this._applyLayers(); this._refreshChallengeEvidence();
+    this._saveProgress();   // persists; pushes once the pull has run (`_pushCloud` pulls first otherwise)
+    this.updateAccountUI();
+    if (this._arrivalSay) return;
+    this._announceArrival("", "Your practice from before you signed in is saved", "muted", true);   // whole: a sentence
+    if (this._decision) this._sayArrivalIfPending();   // already landed: say it now, not at the next landing
   }
   // merge-on-pull: per-key max for prep/days (monotonic counters), settings LWW by updatedAt.
   _mergeProgressBlobs(local, incoming) {
@@ -6583,17 +8265,17 @@ class Component extends DCLogic {
           this._flowVer = (this._flowVer || 0) + 1;
         }
         // explored states: a UNION, like every other durable-proof field
-        if (Array.isArray(cloud.explored)) { const e = (this._exploredKeys = this._exploredKeys || new Set()); for (const k of cloud.explored) e.add(k); }
+        // THE MERGE (L1-R3's invariant): the union of the two copies' STRINGS, this copy's first, so two devices settle on
+        // one list; an entry of the other copy that is not a string is counted and never kept (a non-string kept here
+        // locks older devices out of the record: progress-owner.src.js)
+        if (Array.isArray(cloud.explored)) { const e = (this._exploredKeys = this._exploredKeys || new Set()), ex = ngProgressExploredKeys(cloud.explored); for (const k of ex.keys) e.add(k); this._exploredBad = Math.max(this._exploredBad || 0, ex.bad); }
         // srs merge (v1.105.0): per-card, the LATER review wins its schedule — the freshest grade
-        // knows the memory best. Ties are the COMMON case (`last` is a day; two devices studying
-        // the same day tie constantly), so the tie rule IS the rule: the SMALLER interval wins —
-        // showing a card early is cheap, hiding a demonstrably-forgotten card for 30 days is not.
-        // When the winner was a SUCCESS (ivl > 1; failures always write ivl 1) it keeps the larger
-        // of the two intervals, which heals the grade-before-pull race (a fresh device's 1→3 would
-        // otherwise erase a mature cloud schedule through nothing but recency). Ingested `last` is
-        // clamped to today so a fast clock cannot win merges forever. NB `stage` merges MAX while
-        // this merges by recency — post-merge they can disagree (proven stage, relearn schedule);
-        // benign and deliberate: stage is proof, srs is memory freshness.
+        // knows the memory best; on one day the smaller cell, then (v1.279.0) the earlier due, so two
+        // devices converge; a winning success keeps the longer TRUE interval it beat (`due − last`,
+        // v1.279.0). The rule and its reasons are `ngKnowledgeMergeRow` (knowledge-profile.src.js),
+        // pinned in tests/knowledge_profile.test.mjs. NB `stage` merges MAX while this merges by
+        // recency — post-merge they can disagree (proven stage, relearn schedule); benign and
+        // deliberate: stage is proof, srs is memory freshness.
         {
           const srs = (this.srs = this.srs || {});
           const today = this._epochDay();
@@ -6601,19 +8283,15 @@ class Component extends DCLogic {
             const l = (srs[dk] = srs[dk] || {});
             const cs = cloud.srs[dk] || {};
             for (const qh in cs) {
-              const c = cs[qh], m = l[qh];
+              const c = cs[qh];
               if (!Array.isArray(c) || c.length < 3) continue;
-              const cc = [c[0] | 0, c[1] | 0, Math.min(today, c[2] | 0)];
-              if (!m) { l[qh] = cc; continue; }
-              let w, o;
-              if (cc[2] > m[2]) { w = cc; o = m; }
-              else if (m[2] > cc[2]) { w = m; o = cc; }
-              else if (cc[1] < m[1]) { w = cc; o = m; }
-              else { w = m; o = cc; }
-              if (w[1] > 1 && o[1] > w[1]) w = [w[2] + o[1], o[1], w[2]];
-              l[qh] = w;
+              l[qh] = ngKnowledgeMergeRow(l[qh], c, today);
             }
           }
+          // `moves` merges by the same recency rule, cell by cell, carrying the winner's answer
+          // (progress-owner.src.js). A device on an older build keeps the field whole in its
+          // extras and can push a stale copy; the next pull here heals it cell by cell.
+          this.moves = ngProgressMergeMoves(this.moves || {}, cloud.moves || {}, today);
         }
         // dayLog merge (v1.105.7): per-day, union of technique keys, latest score snapshot
         {
@@ -6640,9 +8318,24 @@ class Component extends DCLogic {
         // it; see ngMergeBeltGrandfather.
         const held = ngMergeHeldBelt((this.belts || {}).held, (cloud.belts || {}).held);
         const gf = ngMergeBeltGrandfather((this.belts || {}).gf, (cloud.belts || {}).gf);
+        // THE HELD LEVEL (v1.276.0): the HIGHER of the two, whatever the stamps (a tie keeps the earlier stamp). Load-bearing
+        // for the same reason as `held`: the assign below keeps only LOCAL keys of `belts`. It is monotone, so no stamp and
+        // no order of pulls can race it: nothing is written from a stale copy. The guest join runs this merge too, so a
+        // guest's level joins the account as the higher one. An OLDER client has no line here: its merge keeps its local
+        // copy's value (dropping or lowering the cloud's) and pushes that, until a current device pulls and MAXes it back.
+        const lvl = ngRatingMergeHeld((this.belts || {}).lvl, (cloud.belts || {}).lvl);
         this.belts = Object.assign({ won: {} }, this.belts || {}, { won: won, attempts: att });
         if (held) this.belts.held = held; else delete this.belts.held;
         if (gf) this.belts.gf = gf; else delete this.belts.gf;
+        if (lvl) this.belts.lvl = lvl; else delete this.belts.lvl;
+        // the open rule began when it first ran on ANY device (U163 c): the earlier stamp, never local-wins. An OLDER client
+        // merges top-level fields local-wins (`_progressExtras` above), so one holding a later `openAt` in its own copy can
+        // push it back; the next new client's MIN repairs it, and a belt earned between the two stamps may be carried (a
+        // gift; the read of PR #404, finding 4). The carry's fact `recallCarry` is an OR, written here so that it holds by
+        // code: the extras merge above is local-wins, so a local copy holding anything but `true` would otherwise beat the
+        // cloud's `true` (the delta read's D4). No client order can lower it.
+        this._openAt = ngMergeOpenAt(this._openAt, cloud.openAt);
+        this._recallCarry = this._recallCarry === true || cloud.recallCarry === true;
         const tutDone = Object.assign(
           {},
           ((cloud.tut || {}).done || {}),
@@ -6687,6 +8380,9 @@ class Component extends DCLogic {
     // An older cached facade cannot distinguish a failed read from an empty account.
     if (!A || A.neuralSyncVersion !== 2 || !A.pullNeural || !userId || this._authDisposed || !this._progressCurrent() || this._pullToken || this._progressLocalOnly) return false;
     const token = { epoch: this._authEpoch || 0, userId };
+    // A push in flight at any moment of this pull (one already in flight, or one starting or finishing meanwhile) may land at the
+    // server after the read, so what this pull read is not what the cloud holds: record nothing then, and the save after it pushes.
+    const pushesAtStart = this._pushesInFlight ? -1 : (this._pushEvents || 0);
     this._pullToken = token; this._pulled = false; this._pulledUserId = null;
     clearTimeout(this._pushT); this._pushT = null;
     const current = () => this._progressCurrent() && !this._authDisposed && this._pullToken === token
@@ -6700,17 +8396,30 @@ class Component extends DCLogic {
       // payloads are not an empty account and must never be overwritten by this client.
       const empty = cloud === null || (cloud && typeof cloud === "object" && !Array.isArray(cloud) && Object.keys(cloud).length === 0);
       if (!empty && (!cloud || typeof cloud !== "object" || Array.isArray(cloud) || ![1, 2].includes(cloud.v))) throw new Error("Unsupported cloud progress");
+      // v1.255.2: what the cloud holds now, for _pushCloud's "nothing changed" test. An empty account holds nothing to match.
+      const seen = empty ? null : { userId, key: ngProgressCloudKey(cloud) };
       if (!empty) {
-        const next = this._mergeProgressBlobs(this._progressBlob(), cloud);
+        // v1.280.2: the cards this copy answered and has not yet delivered are rebuilt on the cloud's rows, never merged
+        // (a first right answer given before this pull no longer turns a mature card into one day): `ngProgressReplay`
+        const merged = this._mergeProgressBlobs(this._progressBlob(), cloud), host = this._progressHost;
+        const next = host && typeof host.replayCloud === "function" ? host.replayCloud(this, merged, cloud) : merged;
         if (!current()) return false;
         this._hydrateProgressBlob(next);
         this._applyLayers();
         this._refreshChallengeEvidence();
       }
       if (!current()) return false;
-      this._pulled = true; this._pulledUserId = userId;
+      this._pulled = true; this._pulledUserId = userId; this._pushSeq = (this._pushSeq || 0) + 1;
+      try { this._afterPullLevel(empty ? null : cloud); } catch (e) { /* a held-back promotion's beat never fails a merged pull (N5) */ }
+      this._cloudSeen = pushesAtStart === (this._pushEvents || 0) ? seen : null;
       this._cloudSyncError = null;
-      this._saveProgress();         // persist verified merge; only then allow this account's push
+      // v1.262.0 (ORDER1): guest practice joins only HERE, after a successful pull, so the rule meets the CLOUD's rows
+      // and not only this browser's copy. Joined before the pull, a guest's later or same-day "No" went in unprotected
+      // on a browser whose copy lacked the cloud's "Yes", then beat that Yes in this very merge and was pushed
+      // (tests/guest_join_safety.test.mjs 11). A failed or offline pull therefore joins nothing, marks nothing and
+      // pushes nothing of the guest's; the next successful pull joins. Below: the push carries the joined practice.
+      this._joinGuestPractice();
+      this._saveProgress();         // persist verified merge; then push only if the merge differs from what the cloud gave
       return true;
     } catch (e) {
       if (current()) { this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "pull-failed"; }
@@ -6725,6 +8434,7 @@ class Component extends DCLogic {
     // progress. Belt-and-braces with the verified-user gate (`userId` is null while local-only).
     if (!A || A.neuralSyncVersion !== 2 || !A.pushNeural || !userId || this._authDisposed || !this._progressCurrent() || this._progressLocalOnly) return;
     try { if (!A.isAuthenticated()) return; } catch (e) { return; }
+    if (this._undoHeld()) return;   // an Undo of a cloze's confirm is on screen: the push waits for it (`_undoRelease`)
     if (!this._pulled || this._pulledUserId !== userId) { this._pullAndMerge(); return; }
     const epoch = this._authEpoch || 0;
     const current = () => this._progressCurrent() && !this._authDisposed && this._auth() === A && this._authUserId === userId
@@ -6732,12 +8442,32 @@ class Component extends DCLogic {
     clearTimeout(this._pushT);
     this._pushT = setTimeout(async () => {
       this._pushT = null;
-      if (!current()) return;
+      if (!current() || this._undoHeld()) return;   // a push already on its way when a confirm was made waits too (the blob is read here)
       try {
         if (!A.isAuthenticated()) return;
+        // v1.255.2: NO ECHO. auth-js answers every tab return with SIGNED_IN, every SIGNED_IN pulls, and every pull saved and pushed
+        // the merged blob back, changed or not (Supabase check, 2026-11-10: 18% or more of all saves). A blob equal, without its
+        // write stamp (ngProgressCloudKey), to the one this tab last pushed or pulled for this account is not sent. The record is
+        // what the cloud held WHEN THIS TAB LAST LOOKED, not what it holds: another device may have written since, and then this
+        // tab's unchanged blob waits for its next pull or change (a conditional push is the real fix; #360's report). Never while a
+        // push is in flight: that push may carry what was since undone here (a list added, then removed). Only a push that
+        // returned true and ran alone, start to finish, is remembered (`_pushSeq`, `_pushesInFlight`): two in flight could land at the
+        // server in either order, so after an overlap (or a pull meanwhile) nothing is trusted and the next save pushes. A failed push
+        // is remembered as nothing and, as before, forces a re-pull, which records what the cloud really holds.
+        const snap = this._progressHost.cloudSnapshot(this), key = ngProgressCloudKey(snap), seen = this._cloudSeen;
+        if (!this._pushesInFlight && seen && seen.userId === userId && seen.key === key) return;
+        const seq = this._pushSeq = (this._pushSeq || 0) + 1, solo = !this._pushesInFlight;
+        this._pushesInFlight = (this._pushesInFlight || 0) + 1; this._pushEvents = (this._pushEvents || 0) + 1;
+        let ok;
         // The facade pins this exact account at its awaited SDK/session boundary too.
-        if (!await A.pushNeural(this._progressHost.cloudSnapshot(this), userId) && current()) {
+        try { ok = await A.pushNeural(snap, userId); } finally { this._pushesInFlight--; this._pushEvents++; }
+        if (!ok && current()) {
           this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "push-failed";
+        } else if (ok && current()) {
+          this._cloudSeen = solo && seq === this._pushSeq ? { userId, key } : null;
+          // v1.280.2: what that copy holds is delivered: those answers leave the journal (`ngProgressReplay`). Only a push
+          // that ran alone: two in flight can land in either order, and the rows are then proven at the next pull instead.
+          if (this._cloudSeen && typeof this._progressHost.delivered === "function") this._progressHost.delivered(this, snap);
         }
       } catch (e) {
         if (current()) { this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "push-failed"; }
@@ -6751,6 +8481,8 @@ class Component extends DCLogic {
     const name = chip.querySelector("b"), av = chip.querySelector(".ng-badge-av");
     // An account's progress, played unverified: never "Guest", and no create-account nudge.
     const offline = !this.user && this._progressLocalOnly;
+    // marked while they print the identity, BEFORE it is written (NG_NO_CAPTURE); "Guest" and "Offline" stay readable to analytics
+    name.classList.toggle(NG_NO_CAPTURE, !!this.user); av.classList.toggle(NG_NO_CAPTURE, !!this.user);
     name.textContent = offline ? "Offline" : this.user ? this.user.name : "Guest";
     av.textContent = offline ? "!" : this.user ? this.user.initial : "G";
     av.style.background = this.user ? "linear-gradient(135deg,#1f8a5b,#2a6fdb)" : "";
@@ -6759,16 +8491,11 @@ class Component extends DCLogic {
     if (cta) cta.style.display = this.user || offline ? "none" : "";
     this._paintBadge();
     if (this._acctMenuOpen) this.renderAccountMenu(); // …and the menu's auth rows, if it's up
-    const explorer = this.explorerRef.current;
-    if (
-      this._viewMode === "challenges" &&
-      explorer &&
-      explorer.style.display === "flex" &&
-      !this._renderingChallengeView
-    ) {
-      this.renderExplorer();
-    }
   }
+  /** Settings' training-day line names the address inside the analytics mark (NG_NO_CAPTURE). The markup is built HERE, in the
+   *  eager app, because the deferred Settings presentation sits at its byte ceiling (#378 left it 2 B of room, and the span cost
+   *  33 B there); Settings carries only this call. HTML, because settingRow writes its line as HTML, as it always has for the address. */
+  _addressMarkup() { return "<span class=" + NG_NO_CAPTURE + ">" + ((this.user && this.user.email) || "your account email") + "</span>"; }
   // ── account menu (v1.94.0) ── compact chrome anchored above the bottom-right chip. It is
   // CHROME, not gameplay: opening it never opens/closes the pane, never touches the pause
   // latch, never freezes the roll clock. Esc closes it FIRST (before any gameplay overlay),
@@ -6829,36 +8556,6 @@ class Component extends DCLogic {
     if (this._acctMenuAway) { document.removeEventListener("pointerdown", this._acctMenuAway, true); this._acctMenuAway = null; }
     return true;
   }
-  openProgressImport(kind) {
-    if (!this._progressCurrent()) return;
-    const host = this._progressHost, preview = host.previewImport(this, kind);
-    if (preview.status !== "preview") return;
-    this.openModal();
-    const card = this.modalCardRef.current; if (!card) return;
-    card.innerHTML = "";
-    const box = document.createElement("section");
-    box.style.cssText = "padding:24px;color:#dbe2f0;line-height:1.5";
-    box.setAttribute("data-progress-import", kind);
-    const title = document.createElement("h2"); title.textContent = "Import saved practice";
-    const target = this._progressOwner.kind === "account" ? (this.user && this.user.email) : "guest progress on this device";
-    // A verified account without display email is not a sufficiently clear import target.
-    if (!target) { this.closeModal(); return; }
-    const detail = document.createElement("p");
-    detail.textContent = "Guest progress is kept separately. " +
-      "Import practice evidence, saved lists and achievements into " + target + "? Account settings and email consent stay unchanged. The original copy is kept.";
-    const error = document.createElement("p"); error.setAttribute("role", "status");
-    const cancel = document.createElement("button"); cancel.type = "button"; cancel.textContent = "Keep separate";
-    cancel.onclick = () => this.closeModal();
-    const confirm = document.createElement("button"); confirm.type = "button"; confirm.textContent = "Import into " + target;
-    confirm.setAttribute("data-progress-import-confirm", "1");
-    confirm.onclick = () => {
-      if (!this._progressCurrent()) return;
-      const result = host.confirmImport(this, preview);
-      if (result.status !== "ready" && result.status !== "held") error.textContent = "Import could not be completed. Nothing was replaced. Close this review and try again.";
-    };
-    for (const button of [cancel, confirm]) button.style.cssText = "display:block;width:100%;min-height:44px;margin-top:12px;cursor:pointer";
-    box.append(title, detail, error, cancel, confirm); card.appendChild(box);
-  }
   renderAccountMenu() {
     const m = this.acctMenuRef.current; if (!m) return;
     m.innerHTML = "";
@@ -6877,6 +8574,9 @@ class Component extends DCLogic {
       // the signed-in identity, readable but not a control
       const em = document.createElement("div");
       em.setAttribute("data-menu-email", "1");
+      // the identity in its own text and its own tooltip only, under the mark (NG_NO_CAPTURE): no ancestor carries it, and a click on
+      // the row, which is not a control, is dropped by autocapture rather than counted with the address
+      em.className = NG_NO_CAPTURE;
       em.textContent = this.user.email || this.user.name;
       em.title = this.user.email || this.user.name;
       em.style.cssText = "min-height:44px;display:flex;align-items:center;padding:0 13px;font-size:12px;font-weight:600;color:#8b97b0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:default;";
@@ -6894,9 +8594,8 @@ class Component extends DCLogic {
     } else {
       auth.push(row("data-menu-create", "Create account", () => this.openAuth("create")), row("data-menu-login", "Log in", () => this.openAuth("login")));
     }
-    // Owner removed the legacy row (2026-10-09); the data layer still supports legacy import.
-    const source = this._progressHost && this._progressHost.previewImport(this, "guest");
-    if (source && source.status === "preview") m.appendChild(row("data-menu-import-guest", "Review guest progress", () => this.openProgressImport("guest")));
+    // NO IMPORT ROW: the owner removed "Review older saved progress" (2026-10-09) and "Review guest progress" (v1.262.0);
+    // guest practice joins at sign-in (`_joinGuestPractice`). The data layer keeps its explicit legacy import, unused.
     if (this._progressStorageError) {
       const status = document.createElement("p"); status.setAttribute("role", "status");
       status.textContent = "Progress could not be saved on this device. Keep this page open and free some browser storage.";
@@ -6914,6 +8613,14 @@ class Component extends DCLogic {
     // After opening, more detail is fine (U46 b): the Mastered figure the stat row printed leads it.
     const gs = this.gameScore(), mastered = row("data-menu-mastered", "Mastered " + this.masteredCount() + " \u00b7 " + Math.round((gs && gs.score ? gs.score : 0) * 100) + "%", () => this.openFlashBrowser("mastered", "Mastered"));
     m.insertBefore(mastered, sep);
+    // "Moves known N of M" (U124), under Mastered: a readable line, not a control (nothing opens from it), styled as
+    // the signed-in identity line, so the menu keeps its buttons
+    const l = this._movesKnownLine();
+    if (l) { const mk = document.createElement("div");
+      mk.setAttribute("data-menu-moves", "1");
+      mk.textContent = "Moves known " + l.known.toLocaleString("en") + " of " + l.total.toLocaleString("en");
+      mk.style.cssText = "min-height:32px;margin-top:-6px;display:flex;align-items:center;padding:0 13px;font-size:12px;font-weight:600;color:#8b97b0;cursor:default;";
+      m.insertBefore(mk, sep); }
     m.appendChild(row("data-menu-settings", "Settings", () => this.openSettings()));
     m.appendChild(row("data-menu-feedback", "Feedback", () => this.openFeedback()));
     m.append(...auth);
@@ -6960,13 +8667,14 @@ class Component extends DCLogic {
       const email = inp.value.trim(), pass = pw.value;
       if (!email || !pass) { showErr("Enter your email and password."); return; }
       err.style.display = "none"; cont.disabled = true; const label = cont.textContent; cont.textContent = "\u2026";
-      this._authMethod = "email"; this.track("neural_signin_started", { method: "email", mode: mode });
+      this._signinIntent("email", mode); this.track("neural_signin_started", { method: "email", mode: mode });
       try {
         const result = mode === "create" ? await A.signUp(email, pass) : await A.signIn(email, pass);
         if (result && result.error) throw new Error(result.error);
         this.closeModal(); // SIGNED_IN handler applies identity + pulls; sign-up may require email confirm
         if (mode === "create") this.showCenter && this.showCenter("Check your inbox", "Confirm your email to finish creating the account", "", "muted", true);
       } catch (e2) {
+        this._signinAbandoned();   // #360's review (E5): an attempt that failed in place never completes
         showErr((e2 && e2.message) || "Sign-in failed \u2014 check your details and try again.");
         cont.disabled = false; cont.textContent = label;
       }
@@ -6983,8 +8691,8 @@ class Component extends DCLogic {
       sb.style.cssText = "width:100%;margin-bottom:9px;cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:600;padding:12px;border-radius:11px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.03);color:#dbe2f0;";
       sb.addEventListener("click", async () => {
         if (!A) { showErr("Accounts aren\u2019t available right now \u2014 your progress is saved on this device."); return; }
-        this._authMethod = "google"; this.track("neural_signin_started", { method: "google", mode: mode });
-        try { const result = await A.signInWithGoogle(); if (result && result.error) throw new Error(result.error); } catch (e2) { showErr((e2 && e2.message) || "Google sign-in failed."); } // PKCE redirect navigates away on success
+        this._signinIntent("google", mode); this.track("neural_signin_started", { method: "google", mode: mode });
+        try { const result = await A.signInWithGoogle(); if (result && result.error) throw new Error(result.error); } catch (e2) { this._signinAbandoned(); showErr((e2 && e2.message) || "Google sign-in failed."); } // PKCE redirect navigates away on success
       });
       b.appendChild(sb);
     }
@@ -7019,16 +8727,14 @@ class Component extends DCLogic {
     if (!stored) {
       try { stored = localStorage.getItem("bjj_view_mode"); } catch (e) {}
     }
-    // History replaced the Collection tab (v1.76.0) — stored `collection` (and legacy `path`)
-    // land on challenges; `tree` stays explore. Nothing stored lands on the drawer's list (v1.242.0).
-    const migrated =
-      !stored || stored === "tree" || stored === "explore"
-        ? "explore"
-        : stored === "history"
-          ? "history"
-          : "challenges";
+    // History replaced the Collection tab (v1.76.0); `tree` stays explore; nothing stored lands on the drawer's list
+    // (v1.242.0). THE PATH LEFT THE DRAWER (O2, v1.287.0, SET1 slice B): a stored `challenges` (and the older `collection`
+    // and `path`) lands on the drawer's list too, and that value is NOT written back. Both keys stay as the player left
+    // them, written from then on only by the player's own navigation (`setViewMode`); a settings key is never rewritten
+    // to retire a value (CLAUDE.md 6.6), and a boot that writes is not a fixpoint (holder-passive-boot-blob-fixpoint).
+    const migrated = stored === "history" ? "history" : "explore";
     this._viewMode = migrated;
-    if (stored && currentView !== migrated) {
+    if (stored && currentView !== migrated && !/^(challenges|collection|path)$/.test(stored)) {
       this.set("challengeView", migrated);
     }
     this.styleViewToggle();
@@ -7051,14 +8757,16 @@ class Component extends DCLogic {
     });
   }
   setViewMode(m) {
-    if (m === "collection") m = "challenges"; // retired tab — its content lives in Challenges now
+    // THE PATH AND ITS OLDER ALIAS (v1.287.0, SET1 slice B; O3): the view left the drawer, and a request for it lands
+    // where its corridor lives, Master the game (`openCorridor`): View Collection (O1, through `openLearningView`), and
+    // anything still asking for it by name
+    if (m === "challenges" || m === "collection") { this.openCorridor(); return; }
     if (NG_PANE_TABS.indexOf(m) < 0) return;
     if (this._viewMode === m) return;
     // a focus set belongs to the tab that lit it: leaving Explore drops the highlight, so the
     // Challenges tab's curriculum fog is never fighting a stale System selection for the graph
     this.clearFocus();
     this._viewMode = m;
-    if (m === "challenges") this._challengeScrollPending = true; // arrival positioning on tab open (v1.98.1)
     // a TAB SWITCH starts the incoming body at its top — without this, Explore inherits
     // the corridor's deep arrival scroll and its Lists head renders buried under the nav
     // (in-tab re-renders never come through here, so browsing/search scroll is untouched)
@@ -7093,6 +8801,7 @@ class Component extends DCLogic {
     if (this._conceptId || this._systemId) this.clearFocus();   // a page owned the list; a lit list is not a page
     this.showExplorerList();
     { const l = this.explorerListRef.current; if (l) l.scrollTop = 0; } // home is the top of the list
+    this._showFilmDoor();   // ...unless a film's bar stands in the drawer: then its way back to the film's list shows (FOLLOW2)
     this.fx("pane_tab_home", { tab: "explore" });
     this.lastInteract = this.now;
     return true;
@@ -7102,22 +8811,28 @@ class Component extends DCLogic {
 
   // ═══ THE DRAWER (owner A5 / E1 / T-b, U45–U56, v1.242.0) ═══════════════════════════════════
   // One list replaces the three tabs, in the owner's order: Search, Explore (an expandable list of six
-  // categories), Train (Practice, then Path — nothing under them), your lists, Last rolls, and the badge
-  // at the foot. It overlays the map, the legend included; nothing moves when it opens. The VIEW model is
-  // unchanged, so every seam that opens a view (setViewMode, openPane(view), the URL arrivals) still
-  // lands: "explore" IS the home list, and Path / Last rolls open as views whose way back is the brand.
+  // categories), Train (Master the game and the belt you wear; the Path row under them left in v1.287.0, owner 15 Nov,
+  // SET1 slice B), your lists, Last rolls, and the badge at the foot. It overlays the map, the legend included; nothing
+  // moves when it opens. The VIEW model is unchanged, so every seam that opens a view (setViewMode, openPane(view), the
+  // URL arrivals) still lands: "explore" IS the home list, Last rolls opens as a view whose way back is the brand, and a
+  // request for the Path opens Master the game (`openCorridor`).
   styleViewToggle() { if (!this.viewToggleRef?.current) return; this._paintDrawerHead(); this._syncExploreTools(); }
   drawerHome() {
-    if (this._paneStudyActive()) this._exitStudyTo("explore");
+    if (this.deckShown) this._askBeltRow();   // back to the list: the row reads again (`_askBeltRow`)
+    if (this._practiceInDrawer()) this._exitStudyTo();   // "‹ Master the game" is its view's Back: it restores where Practice was opened from (address, title, the map's selection, the opener's focus)
+    else if (this._paneStudyActive()) this._exitStudyTo("explore");
     else if (this._viewMode !== "explore") this.setViewMode("explore");
     else this._exploreHome();
   }
   _paintDrawerHead() {
     const b = this.viewToggleRef?.current; if (!b) return;
-    const sub = !this._paneStudyActive() && { challenges: "Path", history: "Last rolls" }[this._viewMode];
+    const sub = this._practiceInDrawer() ? NG_PRACTICE_NAME : !this._paneStudyActive() && this._viewMode === "history" && "Last rolls";
     const html = sub ? "\u2039 " + sub : NG_DRAWER_LOGO + "BJJGraph";
     if (b._ngHead !== html) { b._ngHead = html; b.innerHTML = html; }
     b.setAttribute("aria-label", sub ? "Back to the sidebar" : "BJJGraph: the top of the sidebar");
+    // Practice's only Back is this brand, so it carries the study Back's marker while Practice is open: one
+    // `[data-pane-back]` on screen either way (a deck's or a checkpoint's own ‹ Back sits in the drill head).
+    if (sub === NG_PRACTICE_NAME) b.setAttribute("data-pane-back", "1"); else b.removeAttribute("data-pane-back");
   }
   _drawerRow(icon, label, tail, onClick) {
     const b = document.createElement("button"); b.type = "button"; b.className = "ng-dr-row";
@@ -7126,7 +8841,7 @@ class Component extends DCLogic {
     return b;
   }
   /**
-   * PRACTICE AND PATH (owner U56 e, U60 b): two rows, without a Train header. Practice is the
+   * PRACTICE (owner U56 e, U60 b): one row, without a Train header (the Path row beside it left in v1.287.0). Practice is the
    * mixed session (openPlanSession: reviews + new gap cards); its row carries today's goal and what is
    * owed. It keeps the stat row's handles (`data-explore-stats`, `data-b="due"`) because it IS that
    * row's due cell, grown up; "N new" and "Mastered" moved (into Practice, and onto the badge).
@@ -7141,16 +8856,18 @@ class Component extends DCLogic {
       // comparison (SIDE-R2 M9, measured at 390x844 under a 4x CPU throttle: asking fetched game-study.js,
       // 78,719 B, and added one or two long tasks, ~160 ms, while the comparison had not started 8 s later,
       // so the first session ranked new cards by weak spots either way). "Open study plan" still asks.
-      const pr = this._drawerRow(ngIcon(NG_IC.practice), "Practice", "", () => this.openPlanSession("due"));
+      const pr = this._drawerRow(ngIcon(NG_IC.practice), NG_PRACTICE_NAME, "", () => this.openPlanSession("due"));
       pr.className += " ngStat"; pr.setAttribute("data-b", "due");
-      const path = this._drawerRow(ngIcon(NG_IC.path), "Path", '<small data-tab-sub="challenges"></small>', () => this.setViewMode("challenges"));
-      path.setAttribute("data-view", "challenges");
-      const belt = document.createElement("div"); belt.className = "ng-dr-belt"; belt.setAttribute("data-path-belt", "1");
-      box.append(pr, path, belt);
+      // THE BELT YOU WEAR (v1.276.0): under the row, beside it in the list and not inside it, so the row's hit target and
+      // what a tap opens are unchanged. The Path's own woven bar went (ruled, STAGE2-GO 3: one belt in the drawer).
+      const rank = document.createElement("div"); rank.className = "ng-dr-rank"; rank.setAttribute("data-belt-row", "1");
+      // THE PATH ROW LEFT HERE (v1.287.0, owner 15 Nov: "it's time to remove the Path section from the sidebar"; SET1
+      // slice B, his four small losses accepted 16 Nov): its corridor lives in Master the game, the row above
+      box.append(pr, rank);
     }
     list.appendChild(box);
     this._paintTrain(box);
-    this.renderTabSubtitles();
+    this._paintBeltRow(box);
   }
   // PAINTED IN PLACE (FGD13's rule for the stat row this replaces): `_refreshGameplanUI` lands whenever
   // a payload or a grade does, and a rebuild between a press and its release would swallow the click.
@@ -7159,19 +8876,17 @@ class Component extends DCLogic {
     const pr = box && box.querySelector('[data-b="due"]'); if (!pr) return;
     this._ensureGameplanClock();
     const plan = this.planSummary(), t = this.practiceToday();
-    const debt = plan ? null : ngGameplanDebt({ srs: this.srs, day: this._epochDay(), decks: this._gameplanDecks() });
-    const due = plan ? plan.dueCards : debt.count, techs = plan ? plan.due.length : debt.rows.length;
     box.setAttribute("data-gameplan-status", this._gameStudyState?.phase || (plan ? plan.status : this._gameplanLoadState || "not-loaded"));
-    pr.setAttribute("data-due-decks", techs);
     if (plan) pr.setAttribute("data-new", plan.fresh.length); else pr.removeAttribute("data-new");
-    // the stat cells' tooltip, kept whole: what is owed, what was answered, and the plan's new count or state
-    const tip = due + (due === 1 ? " card" : " cards") + " due \u00b7 " + techs + (techs === 1 ? " technique" : " techniques") + " \u00b7 " +
-      t.done + " answered today \u00b7 " + this._gameStudyStatText(plan, (v) => v);
-    pr.title = tip; pr.setAttribute("aria-label", "Practice, daily goal " + this._practiceGoalText(t) + ": " + tip);
+    // "N DUE" LEFT THE DRAWER (owner U171 a, 13 Nov): the owed pile is no longer the day's debt, so the row and its tooltip
+    // say what was answered against today's goal and the plan's state, never a due count; and the row says what a tap does
+    // (v1.276.0, ruled STAGE2-GO 7): "Start today's session", in the name the view now has, "Master the game"
+    const tip = t.done + " answered today \u00b7 " + this._gameStudyStatText(plan, (v) => v);
+    pr.title = NG_PRACTICE_START + " \u00b7 " + tip;
+    pr.setAttribute("aria-label", NG_PRACTICE_NAME + ": " + NG_PRACTICE_START + ", daily goal " + this._practiceGoalText(t) + ": " + tip);
     // WRITTEN ONLY WHEN IT CHANGED (SIDE-R2 M10): a residency refresh rewrote the pill under a pointer,
     // and a press whose target is replaced before its release dispatches no click (FGD13's class).
-    const tail = pr.querySelector(".ng-dr-tail"), html = (due ? '<span class="ng-dr-pill">' + due + ' due</span>' : '') +
-      '<span class="ng-dr-bar"><i style="width:' + Math.min(100, Math.round(100 * t.done / Math.max(1, t.goal))) + '%"></i></span>' + t.done + '/' + t.goal;
+    const tail = pr.querySelector(".ng-dr-tail"), html = '<span class="ng-dr-bar"><i style="width:' + Math.min(100, Math.round(100 * t.done / Math.max(1, t.goal))) + '%"></i></span>' + t.done + '/' + t.goal;
     if (tail._ngHtml !== html) { tail._ngHtml = html; tail.innerHTML = html; }
   }
   /** LAST ROLLS on the home list: this roll and the three before it, each opening the full view. */
@@ -7197,7 +8912,11 @@ class Component extends DCLogic {
    * THE BADGE SHOWS TODAY BEFORE IT IS OPENED (owner U46 b: "before I even click on my badge, I want to
    * see my progress today… 12 out of 20 cards, 2 rolls"). Cards are the goal's own count; rolls are the
    * day's, kept per local day beside `days` (`_rollDays`, SIDE-R2 M4), plus the roll in progress. The closed
-   * drawer's dot is the same refresh: lit while reviews are owed.
+   * drawer's dot is the same refresh: lit while there is practice left for today, i.e. cards are owed AND today's goal
+   * is not met (the orchestrator's decision, 13 Nov, after the owner's U171 a took the "N due" count out of the drawer: a
+   * dot lit while anything is owed would be lit nearly always, the same growing figure with no number). With the goal met
+   * it goes out, owed cards or not; Practice still opens and deals (goals, never limits). A player with nothing stored
+   * owes nothing, so it stays dark, as before.
    */
   _paintBadge() {
     const chip = this.acctChipRef?.current; if (!chip) return;
@@ -7206,7 +8925,7 @@ class Component extends DCLogic {
     const line = chip.querySelector("[data-badge-today]");
     if (line) line.textContent = "Today: " + t.done + " of " + t.goal + " cards \u00b7 " + rolls + (rolls === 1 ? " roll" : " rolls");
     const dot = this.wrapRef?.current?.querySelector("[data-drawer-dot]");
-    if (dot) dot.style.display = this.dueCount() ? "block" : "none";
+    if (dot) dot.style.display = t.done < t.goal && this.dueCount() ? "block" : "none";
   }
 
   // A deck's lesson goal is min(3, its card count) — and the manifest's `n` is that count even
@@ -7237,9 +8956,9 @@ class Component extends DCLogic {
   // ── THE BELT YOU WEAR (v1.211.0, owner ruling 2026-09-30) ── The rule, the stripes and the
   // cross-device merge live in neural/src/belt.src.js; this is the app's half: reading the
   // Challenges evidence into it, persisting the high-water mark, and the one-time grandfather.
-  // READERS — every one of them, so a new reader is added here or not at all: the Challenges tab
-  // belt (`renderTabSubtitles`), timed recall in play from blue (`_recallInPlayNow`), the Recall
-  // Mode patch at black (`_noteBlackBelt`), the Settings lock (settings-ui.src.js) and the
+  // READERS — every one of them, so a new reader is added here or not at all (the Path row's tail, `renderTabSubtitles`,
+  // left with the Path in v1.287.0): the Recall Mode patch at black (`_noteBlackBelt`), the carry-over of timed recall
+  // (`_recallCarryLive`, which reads the HELD belt and, since v1.282.0, only stamps the kept fact) and the
   // training-day email's belt line (`dayLog e.b`, read by workers/digest). Game Knowledge —
   // `gameScore()` — decides none of them any more; its bands are read once, by the grandfather.
   _beltCleared(belt) {
@@ -7263,6 +8982,171 @@ class Component extends DCLogic {
     const total = belt ? belt.units.length : 0;
     if (belt) for (const u of belt.units) if (this.unitComplete(belt.id, u)) done += 1;
     return { id: w.id, rank: w.rank, done: done, total: total, stripes: ngBeltStripes(done, total) };
+  }
+  // ── THE BELT YOU WEAR IN THE DRAWER (v1.276.0, STAGE2; owner U159 a, U160 a, U162 a, U169 c; rulings STAGE2-GO) ──
+  // ONE belt in the drawer: the "Master the game" row wears it, the view's belt heading reads it, and the Path row says its
+  // course's progress in words (the woven bar under it went: two identical belts 40 px apart read as a fault). What it
+  // wears is `beltWorn()`: the HELD LEVEL (`belts.lvl = {n, t}`, rating.src.js's rules), which rises to the higher of itself,
+  // the Path's own level as read now and the number's level, and never falls; one value for both rulesets.
+  // `wornBelt()` above stays the PATH's own: its navigation, the Recall Mode patch at black (`_noteBlackBelt`) and the
+  // email's belt line read it, so the number reaching black mints no patch: the Path awards exactly as it did.
+  // READERS of `beltWorn()`, every one: `_paintBeltRow` (the row) and `_paintPractice` (the view's title).
+  _heldLevel() {
+    const h = ngRatingHeld(this.belts && this.belts.lvl);
+    return h ? h.n : -1;
+  }
+  _pathLevel() {
+    const w = this.wornBelt();
+    return ngRatingPathLevel(w.rank, w.stripes);
+  }
+  /** The belt the drawer row wears: the held level, never below the Path's own level as read now. */
+  beltWorn() {
+    const level = Math.max(0, this._heldLevel(), this._pathLevel()), b = ngRatingBeltOf(level);
+    return { level: level, rank: b.belt, id: NG_BELT_IDS[b.belt], stripes: b.stripes };
+  }
+  /**
+   * RAISE THE HELD LEVEL to `n` (never lower it). The first run SEEDS it, at 0 too: from then on the value exists, and
+   * everything that enumerates the blob (`ngProgressPracticeKey`, the merge, the guest join) meets it on every account.
+   * Writes memory only: the caller decides whether this saves (a raise from the Path rides the next save, as `belts.gf`
+   * does, so a passive boot writes nothing it did not change; a raise by the number saves at once with its beat).
+   */
+  _raiseLevel(n) {
+    if (!this.belts || !Number.isInteger(n) || n < 0) return false;
+    const L = Math.min(NG_RATING_BLACK, n);
+    if (this._heldLevel() >= L) return false;   // -1 when absent or malformed, so the first run seeds
+    this.belts.lvl = { n: L, t: Date.now() };
+    return true;
+  }
+  /**
+   * A PROMOTION BY THE NUMBER (ruled, STAGE2-GO 4): when a FINAL reading's own level is above everything worn, the held
+   * level rises to it, saved at once with ONE silent beat (`level_reached`; no sound: a sound or a celebration is a later
+   * design job) and one analytics line, written with the level, so it fires once per level per tab or device in the usual
+   * order (the exceptions are listed under ONCE PER LEVEL below). Only here, on the
+   * device whose own number raised it: a level that arrives by a merge (`_mergeProgressFields`) or from the Path
+   * (`_syncBelt`) fires nothing.
+   */
+  // ONCE PER LEVEL ACROSS TABS AND UNTIL A PULL HAS MERGED (R1, finding 2): the level is always raised (it is monotone) and
+  // written at once, but nothing fires when the STORED copy, which every tab of this browser saves to, already holds it
+  // (another tab got there first), and on an account nothing fires until a pull has merged (any pull in flight, or after
+  // a failed pull or push, holds it back too): then it fires only if the cloud did not bring it (`_afterPullLevel`). A
+  // guest, or an account playing local-only, fires at once. NOT COVERED (the second read of PR #412, ruled text only), so
+  // `neural_level_reached` can under-count and, rarely, count twice:
+  //   · a held-back promotion is LOST when no pull succeeds before the session ends (N1);
+  //   · two tabs of one account, one holding it back while its pulls fail, the other pushing it: nobody fires (N1);
+  //   · after a failed push it fires at the next save once the connection is back, not when the row showed it (N1);
+  //   · a level a guest already fired can fire again on the account after sign-in, when the drawer read that level
+  //     before the first pull landed (`_afterPullLevel` runs before the guest join and checks only the cloud) (N2);
+  //   · unreadable storage (or another owner's copy under this key) reads as no level: each tab fires once;
+  //   · after an older client lowered the cloud, a fresh device can fire a level again;
+  //   · the beat's `from` is this tab's level in memory, not what another tab stored, and two promotions held back
+  //     before one pull collapse into the last (`_levelPending` is one slot) (N7).
+  _noteRatingLevel(r) {
+    if (!this._progressLoaded || !this.belts || !r || r.final !== true || r.status !== "ok") return false;
+    const L = ngRatingLevel(r.points), was = this.beltWorn().level;
+    if (L == null || L <= was) return false;
+    const fresh = L > this._storedLevel(), o = this._progressOwner;
+    const early = !!o && o.kind === "account" && !this._progressLocalOnly && !(this._pulled === true && this._pulledUserId === o.id);
+    if (!this._raiseLevel(L)) return false;
+    this._flushSave();
+    const b = ngRatingBeltOf(L), ev = { level: L, belt: NG_BELT_IDS[b.belt], stripes: b.stripes, from: was, rating: Math.floor(r.points) };
+    if (!fresh) return false;
+    if (early) { this._levelPending = ev; return false; }
+    this._fireLevel(ev);
+    return true;
+  }
+  _storedLevel() {
+    try { const f = this._progressHost && this._progressHost.store.read(this._progressOwner), h = ngRatingHeld(f && f.blob && f.blob.belts && f.blob.belts.lvl); return h ? h.n : -1; }
+    catch (e) { return -1; }
+  }
+  _fireLevel(ev) {
+    this.fx("level_reached", ev);
+    this.track("neural_level_reached", { belt: ev.belt, stripes: ev.stripes, rating: ev.rating });
+  }
+  /** after this session's first successful pull: a promotion held back for it fires only if the merge did not bring it */
+  _afterPullLevel(cloud) {
+    const ev = this._levelPending, h = ngRatingHeld(cloud && cloud.belts && cloud.belts.lvl);
+    this._levelPending = null;
+    if (ev && ev.level > (h ? h.n : -1)) this._fireLevel(ev);
+  }
+  /**
+   * THE ROW'S READING. Opening the drawer asks (`applyDeckVisibility`), and so does coming back to the list
+   * (`drawerHome`); nothing else moves it, so the number on screen never moves by itself. The number is shown only when
+   * the reading is FINAL (`ratingCheck()`, the live check of v1.273.0): until then the row wears the belt held and a quiet
+   * placeholder of the number's width. A reading in hand is used at once (a check that landed is never fetched again);
+   * otherwise the row waits, asks, and paints what lands. A check that failed (offline) is asked once more at the next
+   * open, by `ratingCheck()`'s own rule. A reading asked for and then superseded by a newer ask is dropped.
+   */
+  _askBeltRow() {
+    const now = this.rating();
+    const seq = (this._beltAsk = (this._beltAsk || 0) + 1);
+    // THE GAME NOT IN YET (a drawer opened before the deck manifest, the weights or the curriculum landed: "no-manifest",
+    // "no-weights", "no-hands", "hand-failed", "no-day") is not an answer: the row waits, and the belt sync that runs when
+    // those land (`_syncBelt`) asks once more while the drawer is shown. A failed live check is NOT this: it waits for the
+    // next open (`ratingCheck`'s rule), so no grade can turn into a fetch.
+    const early = (r) => !!r && r.final === true && r.points == null && (/^no-/.test(r.status) || r.status === "hand-failed");
+    this._beltAskLater = early(now);
+    if (now.final && !this._beltAskLater) { this._beltReading = now; this._noteRatingLevel(now); this._paintBeltRow(); return Promise.resolve(now); }
+    this._beltReading = null; this._paintBeltRow();
+    if (this._beltAskLater) return Promise.resolve(now);
+    return this.ratingCheck().then((r) => {
+      if (seq !== this._beltAsk) return r;
+      if (early(r)) { this._beltAskLater = true; return r; }
+      this._beltReading = r && r.final ? r : null;
+      this._noteRatingLevel(this._beltReading);
+      this._paintBeltRow();
+      return r;
+    }, () => null);
+  }
+  _paintBeltRow(box) {
+    // EVERY BELT ROW THERE IS CARRIES THE READING (v1.292.1, BELTROW). Two rows can stand in the panel at once: the
+    // drawer's own (in its list) and Master the game's (above its button, L1: "the belt and its number as today"), and
+    // one of them is on screen. Until now a repaint with no `box` took "the drawer's row, or Master the game's": the
+    // FIRST of the two in the page, which with Master the game open is the drawer's, hidden. So the list button's
+    // reading (`_masterList` → `_askBeltRow`) was painted where nobody looks, and the row on screen kept the number from
+    // when the page opened: after a card's answer as after a cloze's, on dev since v1.290.0 (measured by a probe,
+    // L2-R2: the number 1009.21 → 1004.44, the list's row still "1009"). "WHICH ROW?" WAS ANSWERED IN TWO PLACES (a
+    // caller's `box`, this default; §6.5): it is answered once now, and the answer is all of them.
+    // `box`: a row built a moment ago that may not be in the panel yet (`_renderTrain`, `_masterBuild`).
+    const rows = new Set(this.drillRef?.current?.querySelectorAll("[data-belt-row]") || []);
+    const own = box && box.querySelector("[data-belt-row]");
+    if (own) rows.add(own);
+    if (!rows.size) return;
+    // a reading taken in the other ruleset is never painted: the row wears the belt held and waits (R1, finding 1)
+    const r = this._beltReading, frame = this._giMode === "nogi" ? "nogi" : "gi";
+    const v = ngRatingRow(this.beltWorn().level, r && r.frame === frame ? r : null), html = this._beltRowHTML(v);
+    for (const el of rows) {
+      el.setAttribute("data-belt-state", v.state);
+      // written only when it changed (SIDE-R2 M10, as the row's tail): a rewrite under a pointer swallows a press
+      if (el._ngHtml !== html) { el._ngHtml = html; el.innerHTML = html; }
+    }
+  }
+  /** The row's markup for an `ngRatingRow` result: the belt, its stripes, the next slot, the number, the line(s). */
+  _beltRowHTML(v) {
+    const id = NG_BELT_IDS[v.belt], nth = ["1st", "2nd", "3rd", "4th"], b = (n) => "<b>" + n + "</b>";
+    const name = id.charAt(0).toUpperCase() + id.slice(1) + " belt" + (id === "black" ? "" : ", " + v.stripes + (v.stripes === 1 ? " stripe" : " stripes"));
+    // the sleeve: earned stripes, then the next one as an empty slot (none on black, which has no stripes)
+    let bar = "";
+    if (id !== "black") for (let i = 0; i < 4; i++) bar += i < v.stripes ? "<b></b>" : i === v.stripes ? "<s></s>" : "<u></u>";
+    const belt = '<i class="ng-belt" role="img" aria-label="' + name + '" data-belt="' + id + '" data-stripes="' + v.stripes +
+      '" style="--belt:' + NG_BELT_ROW_COLORS[id] + ';"><span>' + bar + "</span><em></em></i>";
+    // no number yet: an INVISIBLE "0000" in the same font and tabular figures holds the box at exactly a number's width (every
+    // number is four digits, 1000..2000), so nothing jumps when one lands. `min-width: 4ch` measured the plain "0", 1 px
+    // narrower than four tabular digits at 14px: e2e/journeys/belt-row.spec.ts caught the belt moving by that pixel.
+    const num = '<span class="ng-belt-num" data-belt-number="' + (v.number == null ? "" : v.number) + '"' +
+      (v.number == null ? ' aria-hidden="true">0000</span>' : ">" + v.number + "</span>");
+    const lines = [];
+    if (v.state === "ok") {
+      if (v.top) lines.push(v.top.to > 0 ? b(v.top.to) + " to the top of the scale" : "The top of the scale");
+      else if (v.next.level % 5) lines.push(b(v.next.to) + " to your " + nth[(v.next.level % 5) - 1] + " stripe" + (v.belt2 ? " · " + b(v.belt2.to) + " to " + NG_BELT_IDS[v.belt2.belt] : ""));
+      else lines.push(b(v.next.to) + " to " + NG_BELT_IDS[Math.min(4, v.next.level / 5)]);
+      // THE DIP (ruled, STAGE2-GO 5): any number below the floor of what is worn prints the second line
+      if (v.dip) {
+        const k = v.dip.level % 5;
+        lines.push(b(v.dip.to) + " under " + (v.dip.level < NG_RATING_BLACK && k ? "your " + nth[k - 1] + " stripe · stripes stay" : NG_BELT_IDS[Math.floor(v.dip.level / 5)] + " · your belt stays"));
+      }
+    } else if (v.state === "none" && this._beltReading && this._beltReading.status === "empty") lines.push("Answer a few cards to get your number");
+    return '<div class="ng-dr-rank-top">' + belt + num + '</div><div class="ng-dr-rank-line" data-belt-line="1">' +
+      (lines.length ? lines.map((l, i) => "<div" + (i ? ' data-belt-dip="1"' : "") + ">" + l + "</div>").join("") : "<div> </div>") + "</div>";
   }
   /**
    * PERSIST A PROMOTION THE MOMENT THE EVIDENCE SHOWS IT, so nothing computed later can lower what
@@ -7303,10 +9187,26 @@ class Component extends DCLogic {
       dirty = true;
       this.fx("belt_promoted", { belt: NG_BELT_IDS[target], from: NG_BELT_IDS[before], via: via });
     }
-    if (dirty) {
-      this._saveProgress();
-      if (this.renderTabSubtitles) this.renderTabSubtitles();
-    }
+    // EVERYTHING OPENS (U163 c, v1.270.0). `openAt` is the moment the open rule first ran for this account: stamped once
+    // the grandfather has run and AFTER any promotion this call made (that belt's evidence is older than the rule), merged
+    // as the EARLIER of two devices (`_mergeProgressFields`), and it rides the next save as the grandfather's mark does.
+    if (this.belts.gf && !(this._openAt > 0)) this._openAt = Date.now();
+    // The carry-over, kept as its own fact (`recallCarry`, an added top-level `true`, OR across devices), NEVER written
+    // into the switch: the only writer of `recallInPlay` is the player's press, so no carry can beat a choice, in any
+    // order, on any device. (PR #404's first version wrote `recallInPlay: true` stamped at this device's `openAt`; a device
+    // that ran this before its pull then beat another device's later Off and pushed it back: the read of PR #404, finding
+    // 1, OPEN2.) It rides the next save, as the stamp above does. See `_recallCarryLive`; since v1.282.0 the fact is kept and read by nothing.
+    if (!this._recallCarry && this._openAt > 0 && this._recallCarryLive()) this._recallCarry = true;
+    // THE HELD LEVEL RISES TO THE PATH'S (v1.276.0, ruled STAGE2-GO 1), read now, AFTER any belt raised above: so a
+    // stripe the Path gives today is held, and neither a ruleset flip nor a curriculum edit lowers what the drawer row
+    // wears. It seeds the value on the first run and RIDES THE NEXT SAVE, as `gf` does (a passive boot writes nothing it
+    // did not change: e2e/gen/holder-passive-boot-blob-fixpoint.spec.ts); a belt raised above saves at once and carries it.
+    // It fires nothing: only the number's own rise is a promotion (`_noteRatingLevel`).
+    const lifted = this._raiseLevel(this._pathLevel());
+    // the drawer opened before the game was in: it asks once more now that an input landed (`_askBeltRow`)
+    if (this._beltAskLater && this.deckShown) { this._beltAskLater = false; this._askBeltRow(); }
+    if (dirty) this._saveProgress();
+    if (lifted) this._paintBeltRow();
     this._noteBlackBelt();
   }
   /**
@@ -7648,7 +9548,9 @@ class Component extends DCLogic {
     this._listsRevealed = true;
   }
   toggleExplorer() {
-    // the logo (and legacy callers) toggle the merged pane
+    // the logo (and legacy callers) toggle the merged pane; before the data lands its press is remembered, and a second
+    // press takes it back (EARLY1, `openPane`)
+    if (!Array.isArray(this.nodes)) { this._setEarlyOpen(this._earlyOpen ? null : { call: "logo" }); return; }
     if (this.deckShown) { this.setDeckOpen(false); }
     else {
       // the drawer opens on its list (v1.242.0), never on the sub-view it last showed; search takes the
@@ -7665,15 +9567,109 @@ class Component extends DCLogic {
   // open the merged pane in tabs mode, optionally jumping to a tab. A live study surface is
   // exited first — browsing intent (logo, "/", cue) always lands on the tab bar.
   openPane(view) {
+    // THE CORRIDOR'S NAMES GO THROUGH ITS ONE DOOR (PATH-R2; the re-read of #430, finding 2). On an already-open Master the
+    // game, `_exitStudyTo` ended the session here and `setViewMode` → `openCorridor` opened a new one: a restart and a
+    // second "corridor" opening, where ruling 2 says an open corridor door sends none. `openCorridor` repaints it in place;
+    // "collection" asks for the shelf, as `openLearningView` does
+    if (view === "challenges" || view === "collection") {
+      if (view === "collection") this._scrollRewardsShelf = true;
+      this.openCorridor();
+      return;
+    }
+    // A PRESS BEFORE THE MAP'S DATA HAS LANDED IS NEVER LOST AND NEVER THROWS (EARLY1, v1.288.1; found on production by
+    // the orchestrator's probes). The logo is on screen before the graph is ingested; a press then ran the list's build
+    // over `this.nodes` (undefined: "this.nodes is not iterable") and the panel stayed shut, and `ingest` resets the
+    // drawer anyway. Now the press is remembered (`_earlyOpen`: the call, and the page it was made on) and replayed once
+    // the data lands (`_honourEarlyOpen`, at the end of boot), as if pressed then; a second press on the logo or Esc
+    // meanwhile takes it back, and a navigation (another page by then) drops it.
+    if (!Array.isArray(this.nodes)) { this._setEarlyOpen({ call: "pane", view: view || "explore" }); return; }
     if (this._paneStudyActive()) this._exitStudyTo(view || this._viewMode);
     else if (view) this.setViewMode(view);
-    { const sh = this.dossierSheetRef.current; if (sh && sh.style.display === "block") this.closeDossierSheet(); } // the pane replaces the mobile sheet
     // no _wirePaneControls here: applyDeckVisibility is the one wiring seam for every open path
     this._drillView = "home";
     this.deckReady = true; this.deckOpen = true;
     this.applyDeckVisibility();
     this._renderPaneBody();
     this.lastInteract = this.now;
+  }
+  // THE PRESS MADE BEFORE THE DATA, REPLAYED (EARLY1, EARLY1-R1). It runs once, at the end of boot: after the share link
+  // and the URL have seeded the page (a reading arrival shuts the drawer: honoured before it, the panel opened and shut
+  // in one task on every content page, and the funnel counted a `pane_opened` nobody saw). It replays the very call the
+  // press made (the logo's toggle, the search, an open), so it ends where a late press on the same page ends. Not on
+  // another page, which is its PATHNAME alone (EARLY1-R2): the sign-in's redirect-back carries `?code=` (PKCE) and the
+  // auth SDK strips it with `replaceState`, maybe before the data lands, and that is the same page; the one query that
+  // picks content, a share link's `?l=`, is never moved between a press and here. And not when the page has opened the
+  // panel itself (a hub, a share link on a desktop): the press asked for what is already there. EXCEPT A SEARCH
+  // (REFSEARCH): it asked for the search, which an open panel is not, so it is replayed there too, as a late one is.
+  _honourEarlyOpen() {
+    const p = this._earlyOpen; if (!p) return;
+    this._setEarlyOpen(null);
+    if (p.page !== location.pathname || (this.deckShown && p.call !== "search")) return;
+    if (p.call === "search") this.openSearchPane(p.via);
+    else if (p.call === "logo") this.toggleExplorer();
+    else this.openPane(p.view);
+  }
+  // THE READER'S REFERENCE PAGE HAS ITS RECORD (reader.src.js, its reference highlight, after the concepts or the system record
+  // are fetched): its id is set and the map lit, as before. AND AN OPEN DRAWER ON EXPLORE'S ROOT TURNS TO THE PAGE'S OWN
+  // ENTRY (EARLY1-R2; the reader of #432, its re-read: on a principle, a system and a learning page the early press ended
+  // on the root list where a late press ends on the entry, 6 of 6, the state contradicting itself with the id set under
+  // the list). A drawer opened before the id landed (an early press honoured at the end of boot, or a press in the first
+  // moments after the data: a race dev has too) had built the root list and stayed on it. So when the drawer shows that
+  // list, with no query typed and no entry the player opened, it is drawn again with the id. A query typed by then is
+  // kept, results and all, whenever it was typed: since REFSEARCH the reader no longer empties the query of an open
+  // panel (`_referenceArrives`; until then one typed before the reader's file landed was wiped, and this took its
+  // results for the root list). Here and not in the reader, whose file is a deferred payload at its ceiling.
+  _referenceLanded(system, id, light) {
+    this._refEntry = { system, id, light };   // the page's own entry, for a query emptied later (`_referenceEntryBack`)
+    const list = this.explorerListRef.current;
+    const onRoot = !!(this.deckShown && this._viewMode === "explore" && !this._paneStudyActive() && !(this._exQ || "").trim() &&
+      list && !list.querySelector("[data-concept-detail], [data-system-detail]"));
+    if (system) { this._systemId = id; this._systemRecordStatus = "ready"; }
+    else this._conceptId = id;
+    light();   // the reader's own map light (a reader-only method, its name mangled in that bundle: handed over)
+    if (onRoot) this.renderExplorer();
+  }
+  // AN EMPTY QUERY ON A REFERENCE PAGE SHOWS THAT PAGE'S ENTRY, HOWEVER IT BECAME EMPTY (REFSEARCH-R1, the orchestrator's
+  // ruling 5: the state follows the page and the query, not the history). Any render with a query clears the page's
+  // ids (`clearFocus`), so a query typed and deleted again fell back to the ROOT list (30 of 30 in the reader's runs).
+  // Now the search field's own listener calls this when its query empties: while the reader stands on a reference page
+  // whose record has landed (`_refEntry`, from `_referenceLanded`), the ids and the map's light are that page's again,
+  // and the render that follows draws its entry under the search row. Only there: an entry opened in the panel on any
+  // other page (`openConcept`, `openSystem`) is not the reader's page, and its case is unchanged. The entry's own back
+  // row still leads to the root list: that is the player leaving the entry, not a query becoming empty.
+  _referenceEntryBack() {
+    const r = this._refEntry, reader = this._reader;
+    if (!r || !reader || !reader.intent || !reader.reference) return;
+    if (r.system) { this._systemId = r.id; this._systemRecordStatus = "ready"; }
+    else this._conceptId = r.id;
+    r.light();
+  }
+  // WHAT THE PLAYER TYPED, AND WHERE THEY PUT THE FOCUS, ARE NOT TAKEN BY A READER THAT LANDS LATER (REFSEARCH;
+  // the third read of #432, finding 1: after an early search press on a principle, system or learning page, "arm" typed
+  // before the reader's own file landed was emptied when it landed, and the focus jumped to the article's heading, 4 of
+  // 4). The reader asks these two when a reference page arrives in it. `_readArticle` shuts the panel when a page is
+  // ASKED for, so a panel that is open when the page LANDS was opened by the player since: its query is theirs and
+  // stays. And the article's heading takes the focus only while they have not put it somewhere themselves: the panel
+  // shut, and no text field focused. A plain arrival (no press) still ends on the heading, for a screen-reader user.
+  // (`clearFocus` rides in the same call since REFSEARCH-R1: the reader's file is a deferred payload at its ceiling, and
+  // one call there is 21 B less than two.)
+  _referenceArrives() {
+    this.clearFocus();
+    if (this.deckShown) return;
+    this._exQ = ""; if (this.explorerSearchRef.current) this.explorerSearchRef.current.value = "";
+  }
+  _readerMayFocus() {
+    const at = document.activeElement;
+    return !this.deckShown && !(at && at.closest && at.closest("input,textarea,select,[contenteditable]"));
+  }
+  // the remembered press, and the pressed look of the control that took it (`aria-busy`) until it is honoured or taken
+  // back: a press that seems dead invites the second press that takes it back (the reader of #432, its note)
+  _setEarlyOpen(p) {
+    this._earlyOpen = p ? { ...p, page: location.pathname } : null;
+    for (const el of this.wrapRef.current?.querySelectorAll(".ng-logo,.ng-search") || []) {
+      if (p && el.classList.contains(p.call === "search" ? "ng-search" : "ng-logo")) el.setAttribute("aria-busy", "true");
+      else el.removeAttribute("aria-busy");
+    }
   }
   // legacy name kept — challenge-ui's openLearningView calls openExplorer()+showExplorerList()
   openExplorer() { this.openPane(); }
@@ -7682,8 +9678,13 @@ class Component extends DCLogic {
     if (inp && !inp._wired) {
       inp.placeholder = "Search techniques and Systems…";
       inp._wired = true;
-      inp.addEventListener("input", () => { this._exQ = inp.value; this.showExplorerList(); });
-      inp.addEventListener("pointerdown", (e) => e.stopPropagation());
+      // typing asks for search, and a query emptied again shows the reference page's own entry (`_askSearch`, `_referenceEntryBack`)
+      inp.addEventListener("input", () => {
+        const had = (this._exQ || "").trim(); this._exQ = inp.value; this._askSearch();
+        if (had && !this._exQ.trim()) this._referenceEntryBack();
+        this.showExplorerList();
+      });
+      inp.addEventListener("pointerdown", (e) => { e.stopPropagation(); this._askSearch(); });   // ...and so does the player's own press into it
     }
     // the GI/NO-GI pill left the pane for Settings → Rolling (v1.95.3); the stored preference is
     // hydrated at ingest now (see _hydrateGiMode) — this call is the belt-and-braces for a pane
@@ -7723,6 +9724,10 @@ class Component extends DCLogic {
     this._flowScoreCache = null;
     this._rebuildRulesetMask();
     this._syncBelt("ruleset");
+    // the drawer's number is per ruleset: a flip (Settings is a modal over the open drawer) asks again; the live check is
+    // the same for both rulesets, so this fetches nothing once a check has LANDED. After a FAILED check each flip with the
+    // drawer open asks for both files again, as an open does (v1.276.0 R1, finding 1; the second read's N3)
+    if (this.deckShown) this._askBeltRow();
     const concept = this._conceptsById && this._conceptsById[this._conceptId];
     if (concept) this.focusConcept(concept, true);
     // NOT released, each for a reason, so the next reader sees this was checked not forgotten:
@@ -7730,6 +9735,12 @@ class Component extends DCLogic {
     // until the next curriculum load) and an excluded node is not drawn at all, so its fog
     // membership is moot; `_keyNode` and `_qkDecks` are keyed by deck key and card text, not by
     // node set; `_scoreW`/`_scoreCache` are already per-frame.
+    // the corridor's one home since v1.287.0 is Master the game: a flip with it open repaints it there (a gi-only lesson goes, its
+    // evidence stays), as the Path view's list repaint below did for the Path
+    if (this._session?.practice && this._sessionInline()) this._practiceCorridor();
+    // Last rolls open under the flip (Settings is a modal over the drawer): a row's gold is the ruleset's own hand, and a
+    // place this ruleset does not draw offers no actions (`_histRow`, L3-R1 T2), so its rows are drawn again
+    this._refreshHistoryRows();
     const list = this.explorerListRef.current;
     if (list && list.style.display !== "none") this.renderExplorer();
   }
@@ -7798,9 +9809,6 @@ class Component extends DCLogic {
   }
   rsAllowsIdx(i) { const n = this.nodes && this.nodes[i]; return !!n && this._rulesetMask()[i] === 1; }
   showExplorerList() {
-    const sh = this.dossierSheetRef.current;
-    if (sh && sh.style.display === "block") this.closeDossierSheet();
-    this._dossierIdx = null;
     const dos = this.dossierRef.current; if (dos) dos.style.display = "none";
     const list = this.explorerListRef.current; if (list) list.style.display = "block";
     this.renderExplorer();
@@ -7820,20 +9828,17 @@ class Component extends DCLogic {
     // defensive: legacy callers (setGiMode, selectChallengeTrack) call this
     // directly — route the History tab to its own renderer instead of the explorer list
     if (this._viewMode === "history") {
-      if (this.renderTabSubtitles) this.renderTabSubtitles();
       if (this.deckShown && !this._paneStudyActive()) this.renderDrillHome();
       return;
     }
     const list = this.explorerListRef.current; if (!list) return;
-    // A cold index rebuild detaches even the cached Practice/Path block. Retain a keyboard user's
+    // A cold index rebuild detaches even the cached Practice block. Retain a keyboard user's
     // chosen row across that synchronous rebuild; the next Enter must still activate that row.
     const trainFocus = this._trainBox?.contains(document.activeElement) ? document.activeElement : null;
-    // corridor re-renders (evidence beats, pin/select/fold clicks) must not yank the
-    // scroll while the user reads (the History-body gate precedent) — keep it unless an
-    // arrival reposition is pending (v1.98.1)
+    // a System page's re-render keeps its scroll (the Path's corridor kept its own here too until v1.287.0)
     const keepSystem = this._viewMode === "explore" && !this._exQ && this._systemId &&
       this._systemMedia && this._systemMedia.key === this._systemId && this._systemMedia.el.parentNode === list;
-    const keepScroll = keepSystem || (this._viewMode === "challenges" && !this._challengeScrollPending) ? list.scrollTop : null;
+    const keepScroll = keepSystem ? list.scrollTop : null;
     // v1.192.1 (merge): the System media guard (v1.190.0) and the concept teardown +
     // disclosure snapshot (v1.192.0) were written against the same base preamble and
     // conflicted textually, not in intent. Both run. ORDER IS LOAD-BEARING: the snapshot
@@ -7863,13 +9868,7 @@ class Component extends DCLogic {
     if (keepSystem) {
       for (const child of [...list.children]) if (child !== this._systemMedia.el) child.remove();
     } else { this._stopSystemPreview(); list.innerHTML = ""; }
-    if (this.renderTabSubtitles) this.renderTabSubtitles();
     this._syncExploreTools();
-    if (this._viewMode === "challenges") {
-      this.renderChallenges(list);
-      if (keepScroll != null) list.scrollTop = keepScroll;
-      return;
-    }
     const data = this.buildExplorer();
     // v1.99.3: `g` (the section-open set, which pre-opened Systems + Submissions) is gone —
     // section folds live in the persisted `exploreOpenSections` settings map, all-collapsed
@@ -7934,19 +9933,12 @@ class Component extends DCLogic {
       const ki = this.listIdxs(keepList);
       if (ki.length) this.setFocusIdxSet(ki, true);
     }
-    // search mode: flat ranked results across all nodes
+    // search mode: ONE RANKED LIST (v1.257.0, `searchRank` orders it, `_renderSearch` lays it out)
     if (q) {
-      // SEARCH LISTS SITES TOO (v1.126.0). `buildExplorer` filters `rep`; this walks `this.nodes`
-      // DIRECTLY — a query renders flat ranked results before any section exists — so it never
-      // inherited that filter. Both halves of a pair carry the SAME title, so every hit was
-      // DOUBLED with nothing to tell the duplicates apart, and under the 120 cap that HALVED how
-      // many distinct techniques a search could ever reach: "guard" matches 320 sites and could
-      // only ever show 60 of them. `rep` is true for every unpaired node, so this is a no-op on
-      // the pre-split graph.
-      // …and the same argument applies to the RULESET filter, which `buildExplorer` applies and
-      // this path likewise never inherited (v1.153.0): searching "lapel" in no-gi returned a full
-      // page of results for states no no-gi session can enter.
-      const matches = this.nodes.filter((n) => n.rep && this.rsAllows(n) && this.nodeMatches(n, q)).slice(0, 120);
+      // SEARCH LISTS SITES TOO (v1.126.0), and only the ones this ruleset allows (v1.153.0). This path walks `this.nodes`
+      // directly, so it never inherited `buildExplorer`'s filters: both halves of a pair carry the SAME title, so every
+      // hit was DOUBLED, and "lapel" in no-gi listed states no no-gi session can enter. Both filters (`rep`, `rsAllows`)
+      // live in `searchRank` now, and tests/search_rank.test.mjs asserts every row passes them, in both rulesets.
       // escHTML(q), NOT q: `mk()` is `d.innerHTML = html`, so the raw query was PARSED as
       // markup here — proven live, an `<img src=x onerror=…>` typed into the search box ran
       // its handler in this origin (localStorage holds the Supabase session). `.toLowerCase()`
@@ -7960,27 +9952,16 @@ class Component extends DCLogic {
       // for a share link pasted onto any page. What IS true, and is what v1.158.1 bought, is that
       // after `?dual=` was deleted NO query parameter can change how the graph RENDERS: `?l=`
       // opens a shared list and can do nothing else, and it is validated by `nglValidCode`.)
-      // so there is no link-delivered and no stored vector. `hl(text, q)` is not a second sink:
-      // it slices the trusted title and uses q only for indexOf/length.
-      // Pinned by e2e/journeys/explore-search-escape.spec.ts (drop this call and it goes red).
+      // so there is no link-delivered and no stored vector. The empty state escapes the query and
+      // `_hlRank` escapes every slice of the name it marks, using the query only for offsets.
+      // Pinned by e2e/journeys/explore-search-escape.spec.ts (drop the escape and it goes red).
       this._ensureSystems();
       if (!(this.systems || []).length) this._renderSystemsStatus(list, mk);
-      const systems = (this.systems || []).filter((s) => [s.name, s.display_title, ...(s.aliases || []),
-        ...(s.products || []).flatMap((p) => [p.name, p.instructor])].filter(Boolean).join(" ").toLowerCase().includes(q));
-      for (const s of systems) {
-        const hit = mk('<span>' + this.escHTML(s.display_title || s.name) + '</span><small style="margin-left:auto;">System</small>', 12, () => this._readArticle("/" + s.id));
-        hit.setAttribute("data-system-row", s.id); hit.style.pointerEvents = "auto"; list.appendChild(hit);
-      }
-      if (!matches.length && systems.length) return;
-      if (!matches.length) { if (this._aliasesReady) list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match \u201c' + this.escHTML(q) + '\u201d</span>', 12)); return; }
-      list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
-      for (const n of matches) {
-        const cat = ({ positions: "Pos", transitions: "Trans", submissions: "Sub" })[n.ty];
-        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this._readArticle(this._nodeUrlPath(n.idx), true, true, "search"));
-        list.appendChild(this._withListAdd(hit, n, "explore"));
-      }
+      this._renderSearch(list, mk, this._exQ || "");
       return;
     }
+    // no query: the last search's pager stops and forgets its page (review D3: its observer outlived the cleared query)
+    if (this._searchPage) { this._searchPage.stop(); this._searchPage = null; this._searchUiQ = null; }
     // ── PRINCIPLES + LEARNING ── every authored concept, and a click that OPENS it.
     //
     // What was here until v1.152.0: `curatedMap`, ten hardcoded rows whose click handler wrote a
@@ -8254,6 +10235,9 @@ class Component extends DCLogic {
     this._closeRoll();
     this._endArrival();
     this._beltTest = null; this._staged = null; this._stagedCamFree = false;
+    // `_roam` here is the REFERENCE LAW's guard as well (U123, 2026-11-11): free roam puts the article away, and a page opened on
+    // purpose is not a place to roam from, so a background tap on it stops at `_enterRoam`'s first line and the page stays.
+    // Pinned by e2e/journeys/free-roam-article.spec.ts (the reference case).
     this._played = false; this._roam = true; this.endZoom = false;
     this.currentPos = null; this.focusIdx = -1; this.activeMove = null; this.pulse = null;
     this.trail = []; this.ripples = [];
@@ -8840,6 +10824,13 @@ class Component extends DCLogic {
    * Lists still hold whole sites: use the shared writer/readers so either seat keeps its
    * existing share ordinal and both seats honestly show the same saved state.
    */
+  // THE STAR GOES WHERE THE POSITION'S NAME GOES (v1.280.3, STAR1). The owner, 15 Nov: "i'm missing a star outline icon next to
+  // bottom / top or wtv node role we're in", and "it's also strange that the favorite star now appears in another browser". It
+  // was his DRAWER: from v1.182.0 every star was skipped while it was open ("graph controls must not float over the learning
+  // pane"), while a desktop's map, beside the drawer, still wrote "TOP / Mount" (measured per frame at 1440, drawer open: 51
+  // frames named, 0 with a star; his other browser had it shut). Since v1.275.0 the name is never written under the drawer (it
+  // paints: `_nameBlocks`, `_hides`), so its star, anchored to the drawn role line, cannot float over it either; a phone's drawer
+  // covers the map and writes no name at all (`covered` in draw()), so it has no star. Pinned by e2e/journeys/seat-star.spec.ts.
   _syncSeatStars(anchors) {
     const buttons = this._seatStarButtons || (this._seatStarButtons = new Map());
     const rect = this.canvas ? this.canvas.getBoundingClientRect() : { left: 0, top: 0 };
@@ -8847,7 +10838,7 @@ class Component extends DCLogic {
     const visible = new Set();
     this._seatStarAnchors = [];
     for (const a of anchors) {
-      if (this.deckShown || this.pulse || a.alpha < 0.15 || a.x < size / 2 || a.x > this.W - size / 2 ||
+      if (this.pulse || a.alpha < 0.15 || a.x < size / 2 || a.x > this.W - size / 2 ||
           a.y < size / 2 || a.y > this.H - size / 2) continue;
       const node = this.nodes[a.idx]; if (!node) continue;
       visible.add(a.idx);
@@ -8968,47 +10959,12 @@ class Component extends DCLogic {
     wrap.appendChild(this._listAddButton(node.id, surface));
     return wrap;
   }
-  /** Wire the .dsList row emitted by BOTH dossier renderers (pane/sheet and the in-node card). */
-  _wireDossierListButton(dos, n, surface) {
-    const lb = dos ? dos.querySelector(".dsList") : null; if (!lb) return;
-    lb.setAttribute("data-list-add", n.id);
-    lb.setAttribute("data-list-surface", surface || "dossier");
-    lb.style.pointerEvents = "auto"; // inherited property; the canvas hit-tests above anything that doesn't re-enable it
-    // set ONCE, beside the button \u2014 never inside paint(), which runs on every list mutation and
-    // would stomp aria-expanded to "false" under an open picker
-    lb.setAttribute("aria-haspopup", "menu");
-    if (!lb.hasAttribute("aria-expanded")) lb.setAttribute("aria-expanded", "false");
-    const paint = () => {
-      const c = this._captureCopy(n.id), on = c.on;
-      const g = lb.querySelector(".dsListGlyph"), t = lb.querySelector(".dsListTxt");
-      // THE SECOND GLYPH PAINTER, TRADED WITH THE FIRST (v1.129.8). This row is unreachable from
-      // the app (v1.101.5) but it is live code that `_refreshListSurfaces` dispatches to, so
-      // leaving it on `+`/`\u2713` would let the two painters drift.
-      if (g) { g.innerHTML = this._starHTML(on, 15); g.style.color = on ? "#a9c2ff" : "#9ab0e0"; }
-      // the VISIBLE words stay short and fixed-width. The destination goes in the accessible
-      // name, not into this row's text: the in-node dossier card is laid out at the node's own
-      // screen point, and a longer label grew it far enough to slide this control under the
-      // landing card's MC options — measured, and it cost the dossier capture entirely. The
-      // "Adding to <list>" line in the Lists head is where the destination is READ.
-      // ONE PROMISE PER CONTROL (v1.113.5): the visible words said "today's class list" while
-      // the title said "a class list" — two different promises on one button, and the picker
-      // has asked WHICH list since v1.102.0, so "today's" was never true anyway.
-      if (t) t.textContent = on ? "In a list" : "Add to a list";
-      // same split as _styleListAdd: no title OFF (it would duplicate the name), STATUS only ON
-      if (on) lb.title = c.status; else lb.removeAttribute("title");
-      lb.setAttribute("aria-label", c.label);
-    };
-    paint();
-    lb._ngPaint = paint; // the picker's refresh repaints this row too
-    lb.addEventListener("click", (e) => { e.stopPropagation(); this.captureNode(n.id, surface || "dossier", lb); });
-  }
   _refreshListSurfaces() {
     const root = this.__ngRoot || document;
     try {
       root.querySelectorAll("[data-list-add]").forEach((el) => {
-        // the dossier's .dsList row has its own painter (glyph + words in child spans); the
-        // plain buttons take _styleListAdd. One loop, so no surface can be left stale.
-        if (el._ngPaint) el._ngPaint(); else this._styleListAdd(el, el.getAttribute("data-list-add"));
+        // One loop, so no surface can be left stale (the dossier's own painter went with the dossier, v1.255.1).
+        this._styleListAdd(el, el.getAttribute("data-list-add"));
       });
     } catch (e) { /* non-fatal */ }
     // re-render the Explore body so the Lists section's counts follow the model. Safe while a
@@ -10037,11 +11993,11 @@ class Component extends DCLogic {
    * A timer cannot do this job: `startRoll()` calls `clearTimers()` at the end of the intro, so
    * an `after()` scheduled at t=0 for t=5 is dropped at t=3.2 without ever firing.
    */
-  _announceArrival(kicker, text, tone) { this._arrivalSay = { k: kicker, t: text, tone: tone }; }
+  _announceArrival(kicker, text, tone, whole) { this._arrivalSay = { k: kicker, t: text, tone: tone, whole: !!whole }; }
   _sayArrivalIfPending() {
     const s = this._arrivalSay; if (!s) return;
     this._arrivalSay = null;
-    this.setEvent(s.k, s.t, s.tone);
+    this.setEvent(s.k, s.t, s.tone, undefined, s.whole);
   }
   /**
    * Present an arrival. THE VIEWPORT DECIDES THE TERMINAL STATE, and it is the one design rule
@@ -10799,63 +12755,13 @@ class Component extends DCLogic {
     // current node again (owner 2026-10-15, v1.227.0). Keeping the old position's
     // live engagement here let a sidebar/list restage inherit its prior roll.
     this.stageRollAt(idx);
-    this._dossierIdx = null;                   // no dossier opened; the standard landing surfaces mounted
     if (this.deckShown) this.setDeckOpen(false);
-    if (!this.paused) { this.setPaused(true); this._dossierAutoPaused = true; }
+    // v1.255.1: no latch of its own. `_dossierAutoPaused` was released only by the dossier's close, which no path reached,
+    // so it was written and never read; it went with the dossier. The pause itself is unchanged.
+    if (!this.paused) this.setPaused(true);
     this.lastInteract = this.now; this.flare(idx);
   }
-  /**
-   * Leave the desktop reading sheet: restore the camera it interrupted and resume the roll if
-   * opening it is what paused us. Since v1.101.0 there is no in-node card to dismiss, so this is
-   * simply "put the reading surface away" — but it keeps its name and its return value because
-   * the Esc ladder, the ✕ and the empty-canvas click all read it to decide whether they consumed
-   * the gesture.
-   */
-  closeNodeDossier() {
-    if (this.isMobile()) return false;
-    if (this._dossierIdx == null) return false;
-    this._dossierIdx = null;
-    this._clearNodeQ();
-    this.closeDossierSheet();
-    const cb = this._camBefore; this._camBefore = null;
-    this.releaseCamera();
-    if (cb) this.camTarget = cb;
-    if (this._dossierAutoPaused) { this.setPaused(false); this._dossierAutoPaused = false; }
-    this.lastInteract = this.now;
-    return true;
-  }
-  closeDossierSheet() {
-    const sh = this.dossierSheetRef.current;
-    this._dossierIdx = null;
-    this._clearNodeQ();
-    // ...and the landing card comes back with it — unless the in-node card is what owns the
-    // screen (`_traySup`), which happens on the desktop empty-canvas path where this runs
-    // alongside closeNodeDossier and would otherwise pop the card back over a still-visible node.
-    if (!this._traySup) this._suppressLand(false);
-    if (sh && sh.style.display === "block") {
-      sh.style.transform = "translateY(-102%)";
-      clearTimeout(this._shT);
-      this._shT = setTimeout(() => { if (this._dossierIdx == null) sh.style.display = "none"; }, 360);
-    }
-  }
-  /**
-   * RETIRED (v1.101.0): the in-node "fuller container". Zooming into a node used to mount the
-   * whole dossier inside the node's own shape; the standard timed card and independent article
-   * sibling now carry that material without either growing inside the graph. The method stays as
-   * the ONE place that guarantees the retired surface stays down — `draw()` calls it every frame,
-   * and a hidden element with a stale `_nodeCardOn` would keep the options tray faded and the canvas
-   * glyph crossfaded out with nothing drawn in their place.
-   */
-  updateNodeCard() {
-    const el = this.nodeCardRef && this.nodeCardRef.current;
-    if (el && el.style.display !== "none") { el.style.display = "none"; el.innerHTML = ""; }
-    if (this._nodeCardOn || this._nodeCardIdx != null || this._nodeCardO) {
-      this._nodeCardOn = false; this._nodeCardIdx = null; this._nodeCardO = 0;
-      this._suppressTray(false);
-    }
-  }
 
-  // keep the in-node dossier readable: fade the options tray under it while the card is up
   /** ── TAPPING EMPTY GRAPH IS A REAL GESTURE (v1.113.6) ──────────────────────────────────────
    *
    * Owner: "when I click the graph background and I'm not clicking any node it should close, and
@@ -10886,21 +12792,40 @@ class Component extends DCLogic {
   // close the card, clicking it again will deselect and zoom out a little." Click 1: the card
   // closes — the question declined, free, the hand stays. Click 2: FREE ROAM — the roll archives
   // (if played), the tray clears, and the camera pulls back centred on where you stood, using
-  // the whole screen (no card band to dodge). Clicking any node stages fresh, as always.
+  // the whole screen (no card band to dodge). Clicking any node stages fresh, as always. Since U123 (2026-11-11) click 2 also
+  // puts the article and its index away (`_enterRoam`): the map stands alone.
   // This replaces the v1.129.5 stand-down/restore latch pair (_standDown/_bgRestore/_bgDown):
   // a background tap now CLOSES rather than suppresses, so there is nothing to restore.
   _tapBackground() {
-    this.closeNodeDossier();
-    this.closeDossierSheet();
+    // v1.255.1: the dossier sheet and the in-node card are retired (§6.8); this was the one live line of their close, and it
+    // stays: the landing card comes back with the tap, unless the tray's own suppression holds it.
+    if (!this._traySup) this._suppressLand(false);
     this.closeDeckIfStudying();        // mobile-only by design (the drawer owns the screen there)
     if (this._landEl) {
       const n = this._landIdx != null && this.nodes ? this.nodes[this._landIdx] : null;
       this._declineLandQ("bg");
       this.fx("land_dismissed", { node: n ? n.t : null, answered: !!(this._landQ && this._landQ.answered) });
+      this._landDismissed = { idx: this._landIdx, mode: this._landMode, pos: this.currentPos, decision: this._decision };
       this.clearLandCard();
+      this._reader?.sync(); // the rows read closed now
       return;
     }
     this._enterRoam();
+  }
+  // v1.253.0 (the owner's note 3, #354's review finding 1): the background tap closes THIS landing's card and film (v1.134.0) and
+  // leaves their preferences on, so nothing brought them back: the index rows read open and did nothing until the next landing.
+  // The dismissal is kept for the decision it belongs to; the reader's index row or Questions label restores it, through the same
+  // `_applyLayers` rebuild a label uses mid-landing, and is scored exactly as ✕ then label is: the decline resolved nothing, so the
+  // rebuilt card's first answer is this landing's question (no double credit, no fresh-landing reset), it re-arms a full window, and
+  // it emits land_q_shown and land_q_unseen again, as that rebuild does (round 7's review, nit 4). Only for a live decision: after a
+  // commit, through the flight and endRound's hold, `_decision` is null, and null === null would restore a finished roll (finding 2).
+  _landAway() { const d = this._landDismissed; return !!d && !!d.decision && !this._landEl && d.decision === this._decision && d.pos === this.currentPos; }
+  restoreLanding() {
+    if (!this._landAway()) return false;
+    const d = this._landDismissed; this._landDismissed = null;
+    this._landIdx = d.idx; this._landMode = d.mode;
+    this._applyLayers();
+    return true;
   }
   _enterRoam() {
     if (this._roam) return;
@@ -10913,6 +12838,11 @@ class Component extends DCLogic {
     this._closeRoll();
     this._played = false;
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
+    // ...AND THE ARTICLE GOES WITH THE NODE (owner, U123, 2026-11-10: "in free roam there wouldn't be any article to show, nor
+    // ToC"; 2026-11-11: "take care of it"). clearOptions took the card, the film and the hand; the reader kept the left node's
+    // article and its index on screen. Put away, not cleared: the next landing on this node shows it where it was read to.
+    // The latch and all its writers: `_putReaderAway`. A page never gets here (`_leaveRollForReference`).
+    this._putReaderAway(true);
     this.setPaused(true);
     this.focusIdx = -1; this.pulse = null; this.activeMove = null;
     // centred on where you stood, in the visible graph rect, pulled back a little
@@ -10987,182 +12917,217 @@ class Component extends DCLogic {
       else { t.style.removeProperty("opacity"); t.style.pointerEvents = t._ngRestPointerEvents || ""; t.style.removeProperty("visibility"); }
     }
   }
-  // role badge colored by the advantage the seat gives you (app's dominance model): blue = ahead, red = behind
-  badgePill(b, fs, pad) {
-    if (!b) return "";
-    const c = b.tone === "ahead" ? ["#7fb4ff", "rgba(90,155,240,.13)", "rgba(90,155,240,.34)"]
-      : b.tone === "behind" ? ["#ff9a8f", "rgba(242,104,95,.13)", "rgba(242,104,95,.34)"]
-      : ["#cfd6e4", "rgba(150,170,210,.12)", "rgba(150,170,210,.3)"];
-    return '<span data-dossier-badge title="blue = you\u2019re ahead \u00b7 red = you\u2019re behind" style="font-size:' + fs + 'px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:' + c[0] + ';background:' + c[1] + ';border:1px solid ' + c[2] + ';border-radius:999px;padding:' + pad + ';">' + b.label + '</span>';
-  }
-  _zoomOpenCheck(vw) {
-    if (!this.isMobile() || !this.nodes || !this.cam) return;
-    const deep = this.graphW * 0.05, rearm = this.graphW * 0.085;
-    if (vw > rearm) { this._zoomArmed = true; return; }
-    if (vw > deep || this._zoomArmed === false || this._dossierIdx != null) return;
-    let best = -1, bd = 1e9;
-    // the mobile zoom-open picks the nearest orb and opens its dossier — the same rule the pointer
-    // hit-test obeys: an orb the ruleset does not draw must not be pickable by proximity either.
-    for (const n of this.nodes) { if (!this.rsAllows(n)) continue; const d = Math.hypot(n.x - this.cam.cx, n.y - this.cam.cy); if (d < bd) { bd = d; best = n.idx; } }
-    if (best >= 0 && bd * (this.W / vw) < this.W * 0.5) { this._zoomArmed = false; this.openDossier(best, true); }
-  }
-  /**
-   * The reading surface for a node that is NOT the one you are standing in. Since v1.101.0 it is
-   * the dossier SHEET on every form factor (a top sheet on a phone, a right-docked reading column
-   * on a desktop) — the in-node container is retired, and `dossierRef` cannot be used because it
-   * is a child of the explorer pane, which pane law says only the user may open.
-   */
-  renderDossier(n) {
-    const mob = this.isMobile();
-    const dos = this.dossierSheetRef.current; if (!dos) return;
-    const sp = this.splitName(n.t), cat = this.deckCat(n), col = this.hex(n.col);
-    const rc = this.richContentFor(n);
-    // authored decks are keyed "Name|Role" — fall back across role variants so content always surfaces
-    const fam = n.ty === "positions" ? this.posFamily(n.t) : sp.main;
-    let legacy = null, legacyKey = "";
-    for (const k of [this.deckKeyFor(n).key, fam + "|Bottom", fam + "|Top", fam + "|Attacker", fam + "|Defender", fam, sp.main]) {
-      const cand = this._ngc(k);
-      if (cand) { legacy = cand; legacyKey = k; break; }
-    }
-    const persp = rc ? rc.perspectives.attacker : null;
-    const isCur = n.idx === this.currentPos;
-    // the dossier is shared by option/reference sheets, so it must not name the other side: for the
-    // state in play `playedRole` is the true side, and for anything else the title is all there is
-    let role = this.playedRole(n);
-    // authored copy is side-specific; if it came from the other side, don't contradict it with a badge
-    const lm = legacyKey.match(/\|(Top|Bottom)$/i);
-    if (role && lm && lm[1].toLowerCase() !== role.toLowerCase()) role = null;
-    // THE HEADLINE IS A NAME, never a statement about the side. Every one of the 136 collapsed
-    // position hubs is titled "… Top" by graph-data.json, so that suffix is a rendering artifact and
-    // comes off for EVERY position, whichever side is in play — naming the side is the badge's job.
-    // Stripping `role` instead coupled the two, and it only looked right while `role` was the (always
-    // "Top") title suffix: once it became the side actually being played, `\s+Bottom\s*$` could not
-    // match "Mount Top", so a bottom landing's dossier read "Mount Top" next to a "Bottom" badge —
-    // and the same hole opened whenever the badge was suppressed for other-side authored copy.
-    const title = this.graphName(n);
-    const dom0 = n.dom || 0;
-    const badge = n.ty === "positions"
-      ? (role ? { label: role, tone: dom0 >= 0.18 ? "ahead" : dom0 <= -0.18 ? "behind" : "even" } : null)
-      : (dom0 > 0.02 ? { label: "Attacking", tone: "ahead" } : dom0 < -0.02 ? { label: "Defending", tone: "behind" } : null);
-    const overview = (rc && rc.def) || (legacy && legacy.def) || "";
-    const clips = ((rc && rc.clips) || (legacy && legacy.clips) || []).slice(0, 3);
-    const principles = ((persp && persp.principles) || (legacy && legacy.principles) || []).slice(0, 4);
-    const defence = ((legacy && legacy.counters) || (persp && persp.counters) || []).slice(0, 3);
-    const adj = (this.adj && this.adj[n.idx]) || [];
-    const attacks = adj.filter((k) => this.nodes[k].ty !== "positions").slice(0, 4);
-    const relPos = adj.filter((k) => this.nodes[k].ty === "positions").slice(0, 4);
-    const mistakes = ((legacy && legacy.mistakes) || (persp && persp.mistakes) || []).slice(0, 3);
-    const secHead = (txt, c2) => '<div style="font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:' + (c2 || "#96a3bf") + ';margin-bottom:7px;">' + txt + '</div>';
-    const bullet = (txt, dot) => '<div style="display:flex;gap:8px;align-items:flex-start;font-size:12px;line-height:1.45;color:#c4cde0;margin-bottom:6px;"><span style="flex:none;width:5px;height:5px;border-radius:50%;background:' + dot + ';margin-top:6px;"></span><span>' + txt + '</span></div>';
-    const pct = (k) => { try { const nd = this.nodes[k]; const cs = this.calSuccess(nd); const p = cs != null ? Math.round(cs * 100) : Math.round(this.moveChance(nd) * 100); return isFinite(p) && p > 0 && p < 100 ? " \u00b7 " + p + "%" : ""; } catch (e) { return ""; } };
-
-    // the sheet is the reading surface on BOTH form factors now, so it always carries a way out
-    let h = '<div style="display:flex;align-items:center;padding:6px 16px 8px;">' +
-      (mob ? '<span class="dsBack" style="cursor:pointer;font-size:12px;font-weight:600;color:#8b97b0;padding:6px 0;">\u2039 All techniques</span>' : '') +
-      '<span class="dsClose" style="cursor:pointer;margin-left:auto;width:32px;height:32px;border-radius:10px;border:1px solid rgba(150,170,210,.2);background:rgba(255,255,255,.04);color:#8b97b0;font-size:16px;display:flex;align-items:center;justify-content:center;">\u00d7</span></div>';
-    h += '<div style="padding:2px 18px 22px;">';
-    h += '<div style="display:flex;align-items:center;gap:7px;">' +
-      (isCur
-        ? '<span style="width:8px;height:8px;border-radius:50%;background:#5a9bf0;box-shadow:0 0 8px rgba(90,155,240,.7);flex:none;"></span><span style="font-size:9px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#7fb4ff;">Your current position</span>'
-        : this.nodeGlyph(n.ty, col, 9) + '<span style="font-size:9px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#9fb0d8;">' + cat + '</span>') +
-      '</div>';
-    h += '<div style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:7px;">' +
-      '<span data-dossier-title style="font-family:\'Space Grotesk\',sans-serif;font-size:22px;font-weight:600;letter-spacing:-.01em;line-height:1.1;color:#eef1f6;">' + title + '</span>' +
-      this.badgePill(badge, 9.5, "2.5px 10px") +
-      // the phone reads a node here, so the familiarity counter belongs here too — same chip,
-      // same handle as the in-node card's plate (the two are never on screen together)
-      (mob ? this.familiarityChip(this.deckKeyFor(n).key, "data-node-count", { style: "margin-left:auto;" }).html : "") +
-      '</div>';
-    if (sp.from && (!role || sp.from.toLowerCase() !== role.toLowerCase())) h += '<div style="font-size:12px;color:#8b97b0;margin-top:3px;">' + sp.from + '</div>';
-    const pills = [["Overview", "ov"]];
-    if (clips.length) pills.push(["Film", "film"]);
-    if (principles.length) pills.push(["Principles", "pr"]);
-    if (defence.length) pills.push(["Defence", "df"]);
-    if (attacks.length) pills.push(["Attacks", "at"]);
-    h += '<div style="display:flex;gap:5px;flex-wrap:wrap;margin-top:12px;">' + pills.map((p, i) =>
-      '<span class="dsPill" data-t="' + p[1] + '" style="cursor:pointer;font-size:8.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:' + (i === 0 ? "#0e1630" : "#9aa6bd") + ';background:' + (i === 0 ? "#7fb4ff" : "rgba(150,170,210,.12)") + ';border-radius:999px;padding:3px 10px;">' + p[0] + '</span>').join("") + '</div>';
-    let ov = overview;
-    if (!ov) {
-      if (sp.from && !role) ov = 'A ' + cat.toLowerCase() + ' from ' + sp.from.replace(/^from\s+/i, '') + '.';
-      else {
-        const na = attacks.length, np = relPos.length, parts = [];
-        if (na) parts.push(na + ' attack' + (na > 1 ? 's' : ''));
-        if (np) parts.push(np + ' connected position' + (np > 1 ? 's' : ''));
-        ov = parts.length ? 'Links to ' + parts.join(' and ') + ' on the map.' : '';
-      }
-    }
-    if (ov) h += '<div data-ds="ov" style="margin-top:12px;"><p style="margin:0;font-size:12px;line-height:1.55;color:#9aa6bd;">' + ov + '</p></div>';
-    if (clips.length) {
-      h += '<div data-ds="film" style="display:flex;gap:6px;margin-top:12px;">' + clips.map((c) =>
-        '<a href="https://www.youtube.com/watch?v=' + c.id + (c.start ? '&t=' + c.start + 's' : '') + '" target="_blank" rel="noopener" title="' + (c.title || "") + '" style="position:relative;flex:1;aspect-ratio:16/10;border-radius:7px;overflow:hidden;border:1px solid rgba(150,170,210,.16);background:linear-gradient(135deg,#2b2336,#1b1b30);display:block;">' +
-          '<img src="https://i.ytimg.com/vi/' + c.id + '/hqdefault.jpg" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85;">' +
-          '<span style="position:absolute;top:50%;left:50%;transform:translate(-45%,-50%);width:0;height:0;border-left:8px solid rgba(255,255,255,.9);border-top:5px solid transparent;border-bottom:5px solid transparent;filter:drop-shadow(0 1px 3px rgba(0,0,0,.6));"></span>' +
-        '</a>').join("") + '</div>';
-    }
-    // ── THE PHONE GETS THE QUESTION ON THE SHEET, NOT IN THE NODE ──
-    // openDossier forks on isMobile(): a phone reads a node in the 70%-tall sheet, and the in-node
-    // card is a desktop object — 700-780 CSS px of shape, which the fit cap would squeeze to ~0.45
-    // on a 390x844 screen, turning 12px option rows into 5px ones. So the sheet carries it: same
-    // builder, same surface tag, same economy, in a scrollable column at full text size.
-    // the question host, on BOTH form factors — the sheet is the reading surface now (v1.101.0)
-    h += '<div data-node-q style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(150,170,210,.14);"></div>';
-    if (principles.length) h += '<div data-ds="pr" style="margin-top:15px;">' + secHead("Essential principles") + principles.map((p) => bullet(p, "#96a3bf")).join("") + '</div>';
-    if (defence.length) h += '<div data-ds="df" style="margin-top:13px;">' + secHead("Defence", "#7fb4ff") + defence.map((p) => bullet(p, "#5a9bf0")).join("") + '</div>';
-    if (attacks.length) {
-      h += '<div data-ds="at" style="margin-top:13px;">' + secHead("Attacks from here", "#ff8a7e") +
-        '<div style="display:flex;gap:5px;flex-wrap:wrap;">' + attacks.map((k) =>
-          '<span class="dsAtk" data-i="' + k + '" style="cursor:pointer;font-size:10px;font-weight:700;color:#ff8a7e;background:rgba(242,104,95,.14);border-radius:999px;padding:4px 10px;">' + this.graphName(this.nodes[k]) + pct(k) + '</span>').join("") + '</div></div>';
-    }
-    const hasFold = mistakes.length || relPos.length || (rc && rc.context);
-    if (hasFold) {
-      h += '<div class="dsSeam" style="cursor:pointer;display:flex;align-items:center;gap:8px;margin:16px -18px 0;padding:9px 18px;background:rgba(150,170,210,.05);border-top:1px dashed rgba(150,170,210,.26);border-bottom:1px dashed rgba(150,170,210,.26);white-space:nowrap;"><span class="dsSeamTxt" style="font-size:9.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#b8c2d8;">More details \u2193</span></div>';
-      h += '<div class="dsFold" style="display:none;padding-top:14px;">';
-      if (rc && rc.context) h += '<p style="margin:0 0 13px;font-size:11.5px;line-height:1.55;color:#9aa6bd;">' + rc.context + '</p>';
-      if (mistakes.length) h += '<div style="margin-bottom:13px;">' + secHead("Common mistakes", "#6b7691") + mistakes.map((m) => bullet('<b style="color:#dbe2f0;font-weight:600;">' + m.err + '</b> \u2014 ' + m.fix, "#8b97b0")).join("") + '</div>';
-      if (relPos.length) h += '<div>' + secHead("Related positions", "#6b7691") + '<div style="display:flex;gap:5px;flex-wrap:wrap;">' + relPos.map((k) =>
-        '<span class="dsAtk" data-i="' + k + '" style="cursor:pointer;font-size:10px;font-weight:600;color:#c4cde0;background:rgba(150,170,210,.12);border:1px solid rgba(150,170,210,.2);border-radius:7px;padding:4px 10px;">' + this.graphName(this.nodes[k]) + '</span>').join("") + '</div></div>';
-      h += '</div>';
-    }
-    h += '<div class="dsRoll" style="cursor:pointer;display:flex;align-items:center;gap:10px;margin-top:16px;background:linear-gradient(135deg,rgba(74,108,255,.18),rgba(74,108,255,.07));border:1px solid rgba(110,160,255,.35);border-radius:12px;padding:11px 14px;">' +
-      '<span style="flex:none;width:26px;height:26px;border-radius:8px;background:rgba(74,108,255,.22);color:#9ab0e0;display:flex;align-items:center;justify-content:center;"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>' +
-      '<div style="display:flex;flex-direction:column;gap:1px;"><span style="font-size:12.5px;font-weight:700;color:#eef1f6;">Roll from here</span><span style="font-size:10.5px;color:#9aa6bd;">make this the current state</span></div>' +
-      '<span style="margin-left:auto;font-size:13px;color:#9ab0e0;">\u2192</span></div>';
-    // add-to-a-list, right where a coach is already reading about the technique. This static
-    // markup is only the pre-paint frame \u2014 `_wireDossierListButton` overwrites both spans
-    // immediately \u2014 but it is traded with the rest so the two can never disagree, and the
-    // "today's class list" promise died with the picker's arrival (v1.102.0 asks WHICH list).
-    h += '<div class="dsList" style="cursor:pointer;display:flex;align-items:center;gap:10px;margin-top:8px;border:1px solid rgba(150,170,210,.2);border-radius:12px;padding:10px 14px;">' +
-      '<span class="dsListGlyph" style="flex:none;width:26px;height:26px;border-radius:8px;background:rgba(150,170,210,.14);color:#9ab0e0;display:flex;align-items:center;justify-content:center;line-height:1;">' + this._starHTML(false, 15) + '</span>' +
-      '<div style="display:flex;flex-direction:column;gap:1px;"><span class="dsListTxt" style="font-size:12.5px;font-weight:700;color:#eef1f6;">Add to a list</span><span style="font-size:10.5px;color:#9aa6bd;">share the class as one link</span></div></div>';
-    h += '</div>';
-    dos.innerHTML = h;
-    // clear only on a CHANGE of node: re-rendering the sheet for the node already open must not
-    // reset a question the reader has already answered (that is the freeze rule)
-    // the state's own question, on every form factor — the sheet is the reading surface now, and
-    // it was only ever gated on `mob` because the desktop read happened in the node instead
-    if (!this._nodeQ || this._nodeQ.idx !== n.idx) this._clearNodeQ();
-    this._renderNodeQuestion(n, dos.querySelector("[data-node-q]"));
-    this._wireDossierListButton(dos, n, "dossier");
-    const back = dos.querySelector(".dsBack"); if (back) back.addEventListener("click", () => { if (mob) { this.closeDossierSheet(); this.openExplorer(); this.showExplorerList(); } else this.showExplorerList(); });
-    const xb = dos.querySelector(".dsClose"); if (xb) xb.addEventListener("click", () => this.closeDossierSheet());
-    dos.querySelectorAll(".dsAtk").forEach((el) => el.addEventListener("click", () => this.openDossier(parseInt(el.getAttribute("data-i"), 10), false, "node_link")));
-    const seam = dos.querySelector(".dsSeam"), fold = dos.querySelector(".dsFold");
-    if (seam && fold) seam.addEventListener("click", () => { const open = fold.style.display !== "none"; fold.style.display = open ? "none" : "block"; seam.querySelector(".dsSeamTxt").innerHTML = open ? "More details \u2193" : "Less \u2191"; });
-    const roll = dos.querySelector(".dsRoll"); if (roll) roll.addEventListener("click", () => { if (mob) this.closeDossierSheet(); this.jumpToState(n.idx); });
-    const pillEls = dos.querySelectorAll(".dsPill");
-    pillEls.forEach((p) => p.addEventListener("click", () => {
-      pillEls.forEach((q) => { q.style.background = "rgba(150,170,210,.12)"; q.style.color = "#9aa6bd"; });
-      p.style.background = "#7fb4ff"; p.style.color = "#0e1630";
-      const sec = dos.querySelector('[data-ds="' + p.getAttribute("data-t") + '"]');
-      if (sec) dos.scrollTo({ top: Math.max(0, sec.offsetTop - 10), behavior: "smooth" });
-    }));
-  }
   hl(text, q) {
     if (!q) return text;
     const i = text.toLowerCase().indexOf(q); if (i < 0) return text;
     return text.slice(0, i) + '<span style="background:rgba(120,160,255,.32);border-radius:3px;padding:0 1px;">' + text.slice(i, i + q.length) + '</span>' + text.slice(i + q.length);
   }
-  openSearch() { this._searchQ = ""; this._searchSel = null; this.openModal(); this.renderSearch(); }
+  /** The ranked search's highlight: the part of `text` the FOLDED query met, so "arm bar" marks "Armbar" and
+   *  "control side" marks both words. Every slice of `text` is escaped and the query only supplies lengths and
+   *  offsets, so this is no sink for the query (explore-search-escape.spec.ts). */
+  _hlRank(text, q) {
+    const idx = [];
+    let c = "";
+    for (let i = 0; i < text.length; i++) for (const ch of this._foldSearch(text[i])) if (/[a-z0-9]/.test(ch)) { idx.push(i); c += ch; }
+    const start = (k) => k === 0 || idx[k] - idx[k - 1] > 1;
+    let spans = [];
+    const at = (k, len) => { if (k >= 0 && len > 0) spans.push([idx[k], idx[k + len - 1] + 1]); };
+    if (q.c && c.startsWith(q.c)) at(0, q.c.length);
+    else {
+      let k = -1;
+      for (let j = 1; j < c.length && k < 0; j++) if (start(j) && c.startsWith(q.c, j)) k = j;
+      if (k >= 0) at(k, q.c.length);
+      else if (q.w.every((w) => { for (let j = 0; j < c.length; j++) if (start(j) && c.startsWith(w, j)) { at(j, w.length); return true; } return false; })) { /* each word marked */ }
+      else { spans = []; at(c.indexOf(q.c), q.c.length); }
+    }
+    spans.sort((a, b) => a[0] - b[0]);
+    let out = "", p = 0;
+    for (const [a, b] of spans) {
+      if (a < p) continue;
+      out += this.escHTML(text.slice(p, a)) + '<span style="background:rgba(120,160,255,.32);border-radius:3px;padding:0 1px;">' + this.escHTML(text.slice(a, b)) + '</span>';
+      p = b;
+    }
+    return out + this.escHTML(text.slice(p));
+  }
+  /** A position's two seats as two presses, each opening that seat's page (the Top member is the row's own node). */
+  _seatPresses(n) {
+    const g = document.createElement("span");
+    g.style.cssText = "display:inline-flex;gap:4px;flex:none;";
+    for (const [label, idx] of [["Top", n.idx], ["Bottom", n.pi]]) {
+      if (idx == null || idx < 0) continue;
+      const b = document.createElement("button");
+      b.type = "button"; b.className = "ng-actchip"; b.textContent = label;
+      b.setAttribute("data-seat-press", label.toLowerCase());
+      b.setAttribute("aria-label", this.graphName(n) + ", " + label);
+      b.style.cssText = "width:auto;padding:0 8px;font-size:11px;pointer-events:auto;";
+      b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this._readArticle(this._nodeUrlPath(idx), true, true, "search"); });
+      g.appendChild(b);
+    }
+    return g;
+  }
+  /** RANKED SEARCH RESULTS (v1.257.0, owner's pick U132 c). `searchRank` decides the order; this lays it out as ONE
+   *  list in that order, with three things on top of it:
+   *  · EVERY SUBMISSION FAMILY IS ONE ROW ("Guillotine Choke · 5 starts"), at the rank of its best start. The top-ranked
+   *    family opens on its five most-travelled starts with "All N starts" under them; the others open on a press. "rnc"
+   *    is one row instead of 12, "armbar" one instead of 15, so the next distinct things come into view.
+   *  · EVERY POSITION ROW CARRIES ITS TWO SEATS as Top and Bottom presses, on a line of their own under the name (beside
+   *    it they squeezed "Side Control" onto two lines at 390). The row itself still opens the Top page, as before.
+   *  · ONE TYPO IS FORGIVEN as the last band (`_rankTypo`), always on. Known near-misses, kept LAST on purpose: "knee
+   *    slice" also lists the three "Knee Slide from …" at the bottom, and "crank" its two Crackhead Control rows.
+   *  FORTY ROWS FIRST, THE REST ON SCROLL. Drawing ~120 rows was what a keystroke cost (measured on this box, 390x844 at
+   *  4x CPU throttle: ~150 ms a keystroke, of which the ranking is 11-16 ms), so the first `NG_SEARCH_PAGE` rows draw on
+   *  the keystroke and the next batch draws when the end of the list comes within 600px of view (an IntersectionObserver
+   *  on a sentinel row), or when ↓ walks past the last drawn row. Nothing is capped any more: every result is reachable,
+   *  where the old list stopped at 120. A re-render (a family opened) keeps every block already drawn.
+   *  The ruleset and `rep` filters are `searchRank`'s; the query is escaped (`_hlRank`, the empty state). */
+  _renderSearch(list, mk, raw) {
+    const { q, rows } = this.searchRank(raw, { typo: true });
+    if (this._searchUiQ !== q.c) { this._searchUiQ = q.c; this._searchOpen = new Set(); this._searchDrawn = 0; }
+    if (this._searchPage) this._searchPage.stop();
+    this._searchPage = null;
+    const open = this._searchOpen;
+    const SHORT = ["Sub", "Pos", "Trans", "System"];
+    const rerender = (focusSel) => {
+      const sc = list.scrollTop; this.renderExplorer(); list.scrollTop = sc;
+      const f = focusSel && list.querySelector(focusSel); if (f) f.focus({ preventScroll: true });
+    };
+    const sysRow = (s) => {
+      const hit = mk('<span style="font-size:13px;color:#dbe2f0;">' + this._hlRank(s.display_title || s.name, q) + '</span><small style="margin-left:auto;font-size:10px;color:#7e8aa3;">System</small>', 12, () => this._readArticle("/" + s.id));
+      hit.setAttribute("data-system-row", s.id); hit.setAttribute("data-search-row", s.id); hit.style.pointerEvents = "auto";
+      return hit;
+    };
+    const nodeRow = (n, o = {}) => {
+      const k = this._rankKey(n), qual = o.text ? "" : this.nodeQual(n);
+      const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="min-width:0;font-size:13px;color:#dbe2f0;">' + this._hlRank(o.text || this.graphName(n), q) +
+        (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + '</span>' : "") + '</span><span style="margin-left:auto;flex:none;font-size:10px;color:#7e8aa3;">' + SHORT[k.kind] + '</span>',
+        o.pad || 12, () => this._readArticle(this._nodeUrlPath(n.idx), true, true, "search"));
+      hit.setAttribute("data-search-row", n.id);
+      const wrap = this._withListAdd(hit, n, "explore");
+      if (n.ty === "positions" && n.pi >= 0 && !o.text) {
+        const g = this._seatPresses(n);
+        wrap.style.flexWrap = "wrap";
+        g.style.flexBasis = "100%"; g.style.order = "3"; g.style.margin = "-6px 0 4px"; g.style.paddingLeft = "29px";
+        wrap.appendChild(g);
+      }
+      return wrap;
+    };
+    if (!rows.length) {
+      if (this._aliasesReady) list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match “' + this.escHTML(raw.trim()) + '”</span>', 12));
+      return;
+    }
+    list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + rows.length + ' result' + (rows.length === 1 ? "" : "s") + '</span>', 12));
+    // BLOCKS: one per result in rank order (a family and its open starts are one block); each appends its rows and
+    // returns how many it appended, so the page counts ROWS drawn, not results.
+    const famOf = (r) => { if (!r.n || r.n.ty !== "submissions") return null; const p = r.n.id.split("/"); return p.length === 3 ? p[1] : null; };
+    const fams = new Map();
+    for (const r of rows) { const f = famOf(r); if (f) { if (!fams.has(f)) fams.set(f, []); fams.get(f).push(r); } }
+    const blocks = [];
+    for (const r of rows) {
+      const f = famOf(r), mem = f && fams.get(f);
+      if (!(mem && mem.length > 1)) { blocks.push(() => { list.appendChild(r.s ? sysRow(r.s) : nodeRow(r.n)); return 1; }); continue; }
+      if (mem[0] !== r) continue;
+      const top = !blocks.length;
+      blocks.push(() => {
+        // the family's printed name: what most of its starts print ("Armbar" over "Reverse Armbar")
+        const tally = new Map();
+        for (const m of mem) { const g = this.graphName(m.n); tally.set(g, (tally.get(g) || 0) + 1); }
+        const fname = [...tally].sort((a, b) => b[1] - a[1] || a[0].length - b[0].length || (a[0] < b[0] ? -1 : 1))[0][0];
+        const isOpen = top !== open.has("f" + f);
+        const hit = mk(this.nodeGlyph("submissions", this.hex(r.n.col), 9) + '<span style="min-width:0;font-size:13px;color:#dbe2f0;">' + this._hlRank(fname, q) +
+          ' <span style="color:#6b7691;font-size:11px;">' + mem.length + ' starts</span></span><span style="margin-left:auto;flex:none;font-size:10px;color:#7e8aa3;">Sub</span><span style="flex:none;color:#5d6883;font-size:11px;">' + this._caretHTML(isOpen) + '</span>',
+          12, () => { if (open.has("f" + f)) open.delete("f" + f); else open.add("f" + f); rerender('[data-search-fam="' + f + '"]'); });
+        hit.setAttribute("data-search-fam", f); hit.setAttribute("aria-expanded", isOpen ? "true" : "false"); hit.style.pointerEvents = "auto";
+        // Enter in the search box opens the FIRST RESULT, and for a family that is its best start, never the fold:
+        // pressing the header toggles it, so Enter used to SHUT the open guillotine family and open nothing (review D1).
+        hit._ngOpenFirst = () => this._readArticle(this._nodeUrlPath(mem[0].n.idx), true, true, "search");
+        list.appendChild(hit);
+        let n = 1;
+        if (isOpen) {
+          const some = open.has("m" + f) ? mem : mem.slice(0, 5);
+          for (const m of some) {
+            const t = m.n.t, lead = fname + " from ";
+            list.appendChild(nodeRow(m.n, { pad: 26, text: t.indexOf(lead) === 0 ? "from " + t.slice(lead.length) : t })); n++;
+          }
+          if (some.length < mem.length) {
+            const more = mk('<span style="font-size:12px;color:#9ab0e0;">All ' + mem.length + ' starts</span>', 26, () => { open.add("m" + f); rerender('[data-search-row="' + CSS.escape(mem[5].n.id) + '"]'); });
+            more.setAttribute("data-search-more", "m" + f); more.style.pointerEvents = "auto";
+            list.appendChild(more); n++;
+          }
+        }
+        return n;
+      });
+    }
+    const sentinel = document.createElement("div");
+    sentinel.setAttribute("data-search-sentinel", ""); sentinel.setAttribute("aria-hidden", "true"); sentinel.style.cssText = "height:1px;flex:none;";
+    let bi = 0, io = null;
+    const page = { more: () => draw(NG_SEARCH_PAGE), left: () => blocks.length - bi, stop: () => { if (io) { io.disconnect(); io = null; } } };
+    // A PAGE DRAWS ONLY WHILE IT IS THE LIVE ONE (review D3). An IntersectionObserver entry already queued when the next
+    // keystroke re-renders can still be delivered after `stop()`; without this it appended the OLD query's rows to the
+    // new list and overwrote `_searchDrawn`. The same holds for any stale `more()`.
+    const draw = (want, minBlocks = 0) => {
+      if (this._searchPage !== page) { page.stop(); return 0; }
+      if (sentinel.parentNode) sentinel.parentNode.removeChild(sentinel);
+      let drawn = 0;
+      while (bi < blocks.length && (drawn < want || bi < minBlocks)) drawn += blocks[bi++]();
+      this._searchDrawn = bi;
+      if (bi < blocks.length) list.appendChild(sentinel);
+      return drawn;
+    };
+    this._searchPage = page;
+    draw(NG_SEARCH_PAGE, this._searchDrawn || 0);
+    if (bi < blocks.length && typeof IntersectionObserver === "function") {
+      io = new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) { draw(NG_SEARCH_PAGE); if (io && bi < blocks.length) { io.unobserve(sentinel); io.observe(sentinel); } else page.stop(); } },
+        { root: list, rootMargin: "0px 0px 600px 0px" });
+      io.observe(sentinel);
+    }
+    this._wireSearchKeys(list);
+  }
+  /** THE ARROWS WALK THE RESULTS IN THE ORDER SHOWN (v1.257.0). Before this, only Tab reached the rows (and the ▶/+
+   *  chips between them); the arrow keys did nothing in the list. ↓ from the box enters the first result, ↑/↓ move one
+   *  result (a row, a family row or an "All N starts"), ↓ past the last drawn row draws the next page, ↑ from the first
+   *  returns to the box, and Enter in the box opens the first result. Wired once per element; the rows are re-read on
+   *  every press, so a re-render cannot strand it. */
+  _wireSearchKeys(list) {
+    const items = () => [...list.querySelectorAll("[data-search-row],[data-search-fam],[data-search-more]")];
+    const inp = this.explorerSearchRef?.current;
+    if (inp && !inp._ngRankKeys) {
+      inp._ngRankKeys = true;
+      inp.addEventListener("keydown", (e) => {
+        if (!(this._exQ || "").trim()) return;
+        const it = items(); if (!it.length) return;
+        if (e.key === "ArrowDown") { e.preventDefault(); e.stopPropagation(); it[0].focus(); }
+        else if (e.key === "Enter") { e.preventDefault(); e.stopPropagation(); if (it[0]._ngOpenFirst) it[0]._ngOpenFirst(); else it[0].click(); }
+      });
+    }
+    if (!list._ngRankKeys) {
+      list._ngRankKeys = true;
+      list.addEventListener("keydown", (e) => {
+        if ((e.key !== "ArrowDown" && e.key !== "ArrowUp") || !(this._exQ || "").trim()) return;
+        let it = items();
+        const i = it.indexOf(document.activeElement);
+        if (i < 0) return;
+        e.preventDefault(); e.stopPropagation();
+        if (e.key === "ArrowDown") {
+          if (i + 1 >= it.length && this._searchPage && this._searchPage.left()) { this._searchPage.more(); it = items(); }
+          if (i + 1 < it.length) it[i + 1].focus();
+        }
+        else if (i > 0) it[i - 1].focus();
+        else if (inp) inp.focus();
+      });
+    }
+  }
+  /** ONE WAY INTO SEARCH (v1.254.0): the search icon beside the drawer button, "/" and Cmd/Ctrl+K open the drawer on its list
+   *  with its search box focused. Phones too, unlike the drawer button: a search press asks for the keyboard. v1.254.1: the old
+   *  search modal (`openSearch`, `renderSearch`, `locateNode2`), which no control and no key opened, is retired; its journeys
+   *  (alias-search, seat-word-and-search) drive this search by real input now. */
+  openSearchPane(via) {
+    // before the data lands: remembered with its search, and its beat sent when the panel really opens (EARLY1)
+    if (!Array.isArray(this.nodes)) { this._setEarlyOpen({ call: "search", via }); return; }
+    this.openPane("explore");
+    this._askSearch();   // search opens search, on every page kind (`_syncExploreTools`)
+    this.explorerSearchRef.current?.focus();
+    this.fx("search_open", { via });
+  }
   // ── ONE "START A ROLL HERE" (v1.104.5, owner: "why wasn't this calling the same method as
   // when navigation happens? or wtv. i thought this had been streamlined") ──
   //
@@ -11229,6 +13194,7 @@ class Component extends DCLogic {
   }
   _syncUrl(idx, replace = false) {
     if (this._readerIntent || this._urlRestoring) return; // reader/popstate own their canonical entry
+    if (this._legalPushNext) { this._legalPushNext = false; replace = false; }   // LEGAL3: Back from the first landing returns to the page
     const path = this._nodeUrlPath(idx); if (!path) return;
     this._pushUrl(path, { ngNode: this.nodes[idx].id }, replace);
   }
@@ -11379,6 +13345,7 @@ class Component extends DCLogic {
    */
   _seedFromUrl() {
     if (/^\/l\//.test(location.pathname)) return false;
+    if (NG_LEGAL_PAGE.test(location.pathname)) return false;   // LEGAL3: the box owns this arrival (opened in boot, before the graph), not the reader
     if (/^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)\/?$/i.test(location.pathname))
       return this._seedPageFromUrl(location.pathname);
     const content = /^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)(?:\/|$)/i.test(location.pathname);
@@ -11589,7 +13556,7 @@ class Component extends DCLogic {
    *
    *  · WHAT YOU WILL BE, in the vocabulary the rest of the app already uses for that node type:
    *    Attacker / Defender for a technique (the option sheet's own perspective toggle), Top /
-   *    Bottom for a position (the search modal's "Play as Top"). A technique's Defender is the
+   *    Bottom for a position (the retired search modal's "Play as Top"). A technique's Defender is the
    *    OTHER side of the SAME origin position — you are the one defending it — and the hint line
    *    says so, because "Defender" alone does not say where you are standing.
    *  · THE SEAT IS NAMED BESIDE THE NAME, NEVER INSIDE IT (`graphName`, §5): the title is
@@ -11732,112 +13699,11 @@ class Component extends DCLogic {
     const c = this._playConfirmClose;
     return !!(c && c());
   }
-  renderSearch() {
-    const card = this.modalCardRef.current; if (!card) return;
-    card.style.width = "min(1000px,93vw)";
-    card.innerHTML = "";
-    const top = document.createElement("div");
-    top.style.cssText = "padding:16px 20px;border-bottom:1px solid rgba(150,170,210,.12);display:flex;gap:12px;align-items:center;";
-    top.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8b97b0" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>';
-    const inp = document.createElement("input");
-    inp.placeholder = "Search positions, transitions, submissions\u2026"; inp.value = this._searchQ || "";
-    inp.setAttribute("data-search-input", "");
-    inp.style.cssText = "flex:1;font-family:inherit;font-size:16px;color:#eef1f6;background:transparent;border:none;outline:none;";
-    const x = document.createElement("span"); x.textContent = "\u00d7"; x.style.cssText = "cursor:pointer;color:#8b97b0;font-size:21px;";
-    x.addEventListener("click", () => this.closeModal());
-    top.appendChild(inp); top.appendChild(x); card.appendChild(top);
-
-    const body = document.createElement("div"); body.style.cssText = "display:flex;height:min(560px,68vh);";
-    const results = document.createElement("div"); results.style.cssText = "width:312px;border-right:1px solid rgba(150,170,210,.12);overflow-y:auto;padding:8px;flex:none;";
-    results.setAttribute("data-search-results", "");
-    const detail = document.createElement("div"); detail.style.cssText = "flex:1;overflow-y:auto;padding:24px 28px;";
-    body.appendChild(results); body.appendChild(detail); card.appendChild(body);
-
-    const renderDetail = () => {
-      detail.innerHTML = "";
-      const n = this.nodes.find((z) => z.idx === this._searchSel && this.rsAllows(z));
-      if (!n) { detail.innerHTML = '<div style="color:#7e8aa3;font-size:14px;">Search and pick a technique to see details.</div>'; return; }
-      const cat = this.deckCat(n), isPos = n.ty === "positions";
-      const deckKey = this.deckKeyFor(n).key;
-      const deck = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[deckKey] : null;
-      let html = '<div style="font-size:26px;font-weight:700;color:#eef1f6;letter-spacing:-.01em;font-family:\'Space Grotesk\',sans-serif;">' + this.graphName(n) + '</div>';
-      if (this.nodeQual(n)) html += '<div style="font-size:14px;color:#8b97b0;margin-top:2px;">' + this.escHTML(this.nodeQual(n)) + '</div>';
-      html += '<div style="display:inline-block;margin-top:11px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#8094b4;border:1px solid rgba(150,170,210,.25);border-radius:6px;padding:4px 9px;">' + cat + '</div>';
-      detail.innerHTML = html;
-      const btns = document.createElement("div"); btns.style.cssText = "display:flex;gap:10px;margin:18px 0 6px;flex-wrap:wrap;";
-      if (isPos) {
-        const mkPlay = (lbl, role) => { const b = document.createElement("button"); b.textContent = lbl; b.style.cssText = "cursor:pointer;font-family:inherit;font-size:13px;font-weight:600;padding:9px 16px;border-radius:10px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#dbe2f0;"; b.addEventListener("click", () => this.playFrom(n.idx, role)); return b; };
-        btns.appendChild(mkPlay("Play as Bottom", "bottom"));
-        btns.appendChild(mkPlay("Play as Top", "top"));
-      }
-      const loc = document.createElement("button"); loc.textContent = "Locate on graph";
-      loc.style.cssText = "cursor:pointer;font-family:inherit;font-size:13px;font-weight:600;padding:9px 16px;border-radius:10px;border:1px solid rgba(110,160,255,.4);background:rgba(74,108,255,.2);color:#dbe6ff;";
-      loc.addEventListener("click", () => { this.closeModal(); this.locateNode2(n.idx); });
-      btns.appendChild(loc);
-      detail.appendChild(btns);
-      const desc = document.createElement("div"); desc.style.cssText = "margin-top:18px;font-size:14px;color:#c2ccde;line-height:1.65;";
-      const neighbors = this.adj[n.idx].slice(0, 6).map((k) => this.graphName(this.nodes[k]));
-      const deckCards = this._cardsOf(deck);
-      if (deckCards && deckCards.length) {
-        desc.innerHTML = '<div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin-bottom:8px;">Key question</div><div style="font-weight:600;color:#eef1f6;margin-bottom:6px;">' + deckCards[0].q + '</div>' + deckCards[0].a;
-      } else {
-        desc.innerHTML = (isPos ? "A " + this.roleLabelOf(n) + " state in the graph. " : "A " + cat.toLowerCase() + " linking positions. ") +
-          (neighbors.length ? 'It connects to <b style="color:#dbe2f0;">' + neighbors.join('</b>, <b style="color:#dbe2f0;">') + '</b>.' : "") +
-          '<div style="margin-top:12px;font-size:12.5px;color:#7e8aa3;">Full write-up is authored on bjjgraph.org.</div>';
-      }
-      detail.appendChild(desc);
-    };
-    const renderResults = () => {
-      const q = (this._searchQ || "").toLowerCase().trim();
-      results.innerHTML = "";
-      this._aliasStatus(results, refreshAliases, searchActive);
-      // FILTER TO `rep`, or every hit doubles. `_deriveDualPairs` gives both members of a pair the
-      // hub's own title (`t: h.t`, :862), so a title match resolves to the site TWICE and the 100-cap
-      // below then shows 50 sites. The Explore pane's search (:6015) has always filtered; this one
-      // never did, so the modal listed 202 rows for "mount" where the rep set is 101. Same rule for
-      // the empty-query branch: `slice(0, 80)` over an interleaved [rep, partner, rep, …] node list
-      // is 40 sites shown twice, not 80 results. (CLAUDE.md §6.6 — one question answered in two
-      // places; the pane's spelling is the correct one.)
-      // RULESET (v1.153.0): same argument as `rep` one paragraph up — this walks `this.nodes`
-      // directly, so it inherited neither filter.
-      const repd = this.nodes.filter((n) => n.rep && this.rsAllows(n));
-      let matches = q ? repd.filter((n) => this.nodeMatches(n, q)) : repd.slice(0, 80);
-      matches = matches.slice(0, 100);
-      if ((this._searchSel == null || !matches.some((m) => m.idx === this._searchSel)) && matches.length) this._searchSel = matches[0].idx;
-      for (const n of matches) {
-        const r = document.createElement("div"); const active = n.idx === this._searchSel;
-        r.style.cssText = "cursor:pointer;padding:10px 12px;border-radius:9px;margin-bottom:2px;font-size:13.5px;background:" + (active ? "rgba(74,108,255,.18)" : "transparent") + ";color:" + (active ? "#eef1f6" : "#aeb6c8") + ";";
-        r.innerHTML = '<span style="display:inline-flex;width:12px;justify-content:center;margin-right:8px;vertical-align:middle;">' + this.nodeGlyph(n.ty, this.hex(n.col), 9) + '</span>' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11.5px;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "");
-        r.addEventListener("click", () => { this._searchSel = n.idx; renderResults(); renderDetail(); });
-        results.appendChild(r);
-      }
-      if (!matches.length && this._aliasesReady) results.innerHTML = '<div style="padding:16px;color:#7e8aa3;font-size:13px;">No matches.</div>';
-    };
-    // Update the live result/detail closures, never rebuild the input or resurrect a closed modal.
-    const searchActive = () => inp.isConnected && this.modalRef.current.style.display !== "none";
-    const refreshAliases = () => {
-      const scroll = results.scrollTop, detailScroll = detail.scrollTop;
-      renderResults(); renderDetail();
-      results.scrollTop = scroll; detail.scrollTop = detailScroll;
-    };
-    inp.addEventListener("input", () => { this._searchQ = inp.value; this._searchSel = null; renderResults(); renderDetail(); });
-    renderResults(); renderDetail();
-    setTimeout(() => { try { if (searchActive()) inp.focus(); } catch (e) {} }, 60);
-  }
-  locateNode2(idx) {
-    // search "Locate" takes the same unified prezi path as explorer rows and canvas clicks
-    this.openDossier(idx, false, "search");
-  }
   nodeGlyph(ty, col, sz) {
     const s = sz || 8;
     if (ty === "positions") return '<span style="width:' + s + 'px;height:' + s + 'px;border-radius:50%;background:' + col + ';flex:none;"></span>';
     if (ty === "submissions") return '<span style="width:0;height:0;border-left:' + (s * .62) + 'px solid transparent;border-right:' + (s * .62) + 'px solid transparent;border-bottom:' + (s * 1.05) + 'px solid ' + col + ';flex:none;"></span>';
     return '<span style="width:' + (s * .82) + 'px;height:' + (s * .82) + 'px;background:' + col + ';transform:rotate(45deg);flex:none;margin:0 ' + (s * .09) + 'px;"></span>';
-  }
-  drillGlyph(cat, col) {
-    if (cat === "Submission") return '<span style="width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-bottom:7px solid ' + col + ';flex:none;"></span>';
-    if (cat === "Transition") return '<span style="width:7px;height:7px;background:' + col + ';transform:rotate(45deg);flex:none;"></span>';
-    return '<span style="width:8px;height:8px;border-radius:50%;background:' + col + ';flex:none;"></span>';
   }
   drillPrev() { if (this.deck && this.deckIdx > 0) { this.deckIdx--; this.revealed = false; this.renderDrill(); } }
   drillNext() { if (this.deck) { this.deckIdx++; this.revealed = false; this.renderDrill(); } }
@@ -11851,7 +13717,20 @@ class Component extends DCLogic {
     const idx = this.nodeForKey(key); if (idx >= 0) this.locateNode(idx);
     this.studyFromSession(key); return true;
   }
-  drillReveal() { if (this.deck && !this.revealed && this.deckIdx < this.deck.length) { this.revealed = true; this.renderDrill(); } }
+  drillReveal() {
+    if (!this.deck || this.revealed || this.deckIdx >= this.deck.length) return;
+    // A CARD THAT ASKS MULTIPLE CHOICE IS ANSWERED BY PICKING, NEVER BY A REVEAL (D4, the reader of #423; v1.282.0). Space
+    // and ⏎ reach this from the key handler; under Auto (the new default) a new card in the full-pane study view asks multiple
+    // choice, and two Space presses graded it "Got it" as a recall answer with no option picked, minting recall credit. As the
+    // inline decks' `doReveal` refuses it: while the card's options are on screen (or on their way), there is nothing to
+    // reveal. A card whose options cannot be built (`_mcBlock` returned none) asks front and back, and reveals as before.
+    const card = this.deck[this.deckIdx], key = this._deckInfo && this._deckInfo.key;
+    if (key && card && this.flashcards && this.mcActive(key, card)) {
+      if (!this.mcPoolWarm(key, card)) return;
+      if (this._mc && this._mc.surface === "deck" && this._mc.key === key && this._mc.qhash === this.qhash(card.q)) return;
+    }
+    this.revealed = true; this.renderDrill();
+  }
   // ═══ P2: MC flashcards graduating to recall (owner's fusion rule) ═══
   qhash(q) { // FNV-1a over the question text — the per-card stage key
     let h = 0x811c9dc5;
@@ -11871,7 +13750,7 @@ class Component extends DCLogic {
   /**
    * THE ONE SCHEDULE WRITER (v1.105.0). Called from BOTH grade chokes (`gradeRecall`,
    * `_mcAnswer`) — scheduling is about MEMORY, not format, so an MC answer moves the clock even
-   * though it cannot move the stage past 2. Success climbs one rung of NG_SRS_IVLS; ANY failure
+   * though it cannot move the stage past 2. Success climbs the ladder (ngKnowledgeScheduleRow); ANY failure
    * resets to rung 0 (due again, but not before tomorrow — see duePool's `last < today`, which is
    * what lets the pool DRAIN on a failure instead of re-serving the card all day).
    * Mirrors `noteCardDone`'s cross-deck credit: the same question text in N decks is ONE fact,
@@ -11881,11 +13760,11 @@ class Component extends DCLogic {
    * the harness's drill rail writes prep directly and must keep an empty srs.
    */
   _schedule(key, q, ok) {
-    const today = this._epochDay();
+    const today = this._epochDay(), qh = this.qhash(q), written = [];
     const write = (dk) => {
       const m = (this.srs[dk] = this.srs[dk] || {});
-      const qh = this.qhash(q);
       m[qh] = ngKnowledgeScheduleRow(m[qh], ok, today);
+      written.push([0, dk, qh, ok ? 1 : 0, today, m[qh]]);
     };
     write(key);
     // NB _sharedDecksFor returns null when unshared, and the list INCLUDES the origin deck —
@@ -11893,8 +13772,19 @@ class Component extends DCLogic {
     // two rungs (1→3 on a first answer), which the srs-due spec caught on its first run.
     const shared = this._sharedDecksFor(q, key);
     if (shared) for (const k of shared) { if (k !== key) write(k); }
+    this._journal(written);   // v1.280.2: the owner's undelivered answers
     this._publishKnowledge("schedule");
     this._saveProgress();
+  }
+  // THE SCHEDULE'S WRITER as the progress host replays an undelivered answer with it (v1.280.2, `ngProgressReplay`: the host
+  // file cannot import knowledge-profile, whose bytes the study engine pins)
+  // (`at`: where the row keeps the schedule's pair, 3 on an srs row, 4 on a moves row, v1.281.0)
+  _scheduleWrite(prior, ok, day, at) { return ngKnowledgeScheduleRow(prior, ok, day, at); }
+  // the rows an answer wrote, [[field (0 srs, 1 moves), bucket, item, ok, day, row], …], kept until a copy the cloud holds
+  // has them; a host without the journal (a test rail) records nothing
+  _journal(rows) {
+    const h = this._progressHost;
+    return h && typeof h.journal === "function" && rows && rows.length ? h.journal(this, rows) : [];   // its entry ids (L2: an Undo takes them back out)
   }
   /** Cards past due and NOT yet reviewed today — `last < today` is what lets a failed card leave
    *  the pool until tomorrow. Returns [{key, qh}]; `dueCount()` dedupes by qhash (one FACT due
@@ -11937,9 +13827,11 @@ class Component extends DCLogic {
     // on a right answer, and gradeRecall's `wasProven` guard then re-minted `rec` for the same
     // card. Latent while the landing only asked stage<2 cards; due-first selection asks any
     // stage, so maintenance answers would have fired it constantly.
+    // NO APP CALLER since the grade moved to `ngKnowledgeApplyGrade`; the journeys seed and demote stages through it. It
+    // keeps the grade's floor at 2 (v1.282.0, R1) so no writer of the stage can take a card back to multiple choice.
     const cur = s[qh] || 0;
     const lim = cap == null ? 4 : cap;
-    s[qh] = d > 0 ? Math.max(cur, Math.min(lim, cur + d)) : Math.max(0, Math.min(lim, cur + d));
+    s[qh] = d > 0 ? Math.max(cur, Math.min(lim, cur + d)) : Math.max(cur >= 2 ? 2 : 0, Math.min(lim, cur + d));
     this._bumpStageVer();
     this._saveProgress();
     return s[qh];
@@ -12087,16 +13979,32 @@ class Component extends DCLogic {
     }
     return { options: opts, correctIdx: opts.findIndex((o) => o.tier === "correct") };
   }
-  // MC is the IN-PLAY format (the landing card asks it under a clock); the side pane is the
-  // study surface and reads back as classic Q&A unless the user opts in. Hence the default flip
-  // auto -> classic: nobody meets multiple choice in the sidebar by accident.
-  mcActive(key, card) {
-    if (this._checkpoint) return true;                        // the quiz is always MC
-    const mode = this.get("mcMode", "classic");
-    if (mode === "classic") return false;
-    if (mode === "mc") return true;
-    return this.cardStage(key, card.q) < 2;                   // auto: MC until graduated
+  // ── ANSWER MODE: ONE SWITCH, ONE MEANING, EVERYWHERE A CARD IS ASKED (v1.282.0, owner 15 Nov; rulings R1/R2, SET1-GO) ──
+  // Owner: "by default we use the Auto, not Classic (which should be called Front Back cards, or the Multiple Choice).
+  // after a player dominates MC for a card he is shown FC crds, and never again the multiple choice". `mcMode` keeps its
+  // three stored values, labelled in Settings as Auto ("auto"), Front Back cards ("classic") and Multiple choice ("mc").
+  // NOTHING STORED IS AUTO, BY THE READER'S DEFAULT, NEVER BY A WRITE: a player who pressed nothing has no `mcMode`, and
+  // nothing here writes one (until v1.282.0 the default was "classic", so a stored "classic" is a press, `set` being the
+  // only writer). One reader for every surface: Practice's cards and the full-pane study view (`mcActive`), the inline decks
+  // of Last rolls (`_miniDeck`), and a roll's landing question (`_mountLandQ`, the page cache, the warm gate). Checkpoints
+  // (a test) and the defence drill stay multiple choice. Auto: multiple choice until the card is at stage 2 (two right
+  // answers), then front and back for good: `ngKnowledgeApplyGrade`'s floor keeps a card at 2 once it got there.
+  // RETIRED BY CEASING TO READ (CLAUDE.md 6.6): `recallInPlay` (the "Recall mode (in play)" switch, U163 c) and the
+  // account's `recallCarry` fact are kept, stored, synced and merged exactly as before, and decide nothing: Auto's rule IS
+  // what Recall mode On did in a roll, and the screen must say what plays (R2: no hidden switch deciding rolls).
+  _answerMode() { const v = this.get("mcMode", null); return v === "classic" || v === "mc" ? v : "auto"; }
+  _cardAsksMc(key, card) { const m = this._answerMode(); return m === "mc" || (m === "auto" && this._cardStageShared(key, card.q) < 2); }
+  // "NEVER AGAIN" IS PER QUESTION, NOT PER DECK (D2, the reader of #423; v1.282.0). The grade writes a card's stage to the
+  // deck it was asked from (`ngKnowledgeBucket`), its schedule to every deck sharing the question; so a shared question right
+  // twice in one deck read stage 0 from its other decks and asked multiple choice again there (397 questions in 919 deck
+  // slots). Auto reads the highest stage the question holds in any of its decks, as the rating does (rating.src.js), through
+  // the same index the grade files shared credit by (`_sharedDecksFor`).
+  _cardStageShared(key, q) {
+    let st = this.cardStage(key, q);
+    for (const k of this._sharedDecksFor(q, key) || []) if (k !== key) st = Math.max(st, this.cardStage(k, q));
+    return st;
   }
+  mcActive(key, card) { return !!this._checkpoint || this._cardAsksMc(key, card); }   // the quiz is always MC
   get MC_KEYS() { return ["A", "B", "C", "D", "E"]; }
   // the shared MC renderer. Truth (correct index, tier map) lives ONLY in this closure +
   // this._mc — never in a DOM attribute (cheat vector). Never calls setBeacon (one-beacon law).
@@ -12120,16 +14028,28 @@ class Component extends DCLogic {
     // The rule is "every surface EXCEPT the sidebar deck draws on its own tag", stated once.
     // It was a 3-way chain that had to grow a branch per surface, and the JIT was the fourth —
     // a surface that forgot its branch silently drew on the bare mc-* stream (§6.5).
-    const mc = this.mcDistractors(card, key, this.MC_DISTRACTORS, surface && surface !== "deck" ? surface : null);
+    // THE OPEN CARD KEEPS ITS DEAL ACROSS A RE-RENDER (D3, the reader of #423; v1.282.0). A session laid out again under a
+    // player who touched nothing (#415's re-plan when the live set lands, a plan or corridor repaint) re-mounts its open card,
+    // and `mcDistractors` deals and shuffles afresh on every call: under Auto, where a new card asks multiple choice, the
+    // three answers the player was reading moved under them (9 of 10 runs). The card on screen does not change, its answers
+    // and their order included. So an inline surface's deal is kept for the same card (surface, deck, question) until it is
+    // answered (`knowledgeAttempt`) or another card is dealt there; `spent` cannot end it, since every repaint of `_miniDeck`
+    // spends the block it replaces, the same card's included. A kept deal draws nothing from the rng.
+    // (the one inline surface is a session's, "practice"; Last rolls' own, "inline", left with its decks in v1.293.0)
+    const pinId = surface === "practice" ? surface + "|" + key + "|" + this.qhash(card.q) : null;
+    const pin = this._mcPin;
+    const mc = pinId && pin && pin.id === pinId && !pin.truth.knowledgeAttempt ? pin.mc
+      : this.mcDistractors(card, key, this.MC_DISTRACTORS, surface && surface !== "deck" ? surface : null);
     // a surface that cannot build options must not disarm another surface's live block
     if (!mc) { if (!this._mc || this._mc.surface === (surface || "deck")) this._mc = null; return null; }
     const qh = this.qhash(card.q);
     const truth = { key: key, qhash: qh, correct: mc.correctIdx, tiers: mc.options.map((o) => o.tier), n: mc.options.length, surface: surface || "deck" };
+    if (pinId) this._mcPin = { id: pinId, mc: mc, truth: truth };
     // Exposed landing controls may page while the pane studies another card. Their own
     // closures still answer mouse clicks; the pane keeps the shared keyboard slot.
     if ((truth.surface !== "land" && truth.surface !== "panic") || !this.deckShown) this._mc = truth;
     const wrap = document.createElement("div");
-    wrap.__ngMc = truth;   // so a surface that took the keyboard can hand it back (see _clearNodeQ)
+    wrap.__ngMc = truth;   // so a surface that took the keyboard can hand it back (see _handBackMc)
     wrap.setAttribute("role", "radiogroup");
     wrap.setAttribute("aria-label", "Answer options");
     wrap.style.cssText = "position:relative;display:flex;flex-direction:column;gap:7px;";
@@ -12361,10 +14281,9 @@ class Component extends DCLogic {
    * block still real?" is asked of the DOM rather than remembered. BE HONEST ABOUT WHAT THIS
    * BUYS: for `land` it is redundant — `_landHidden()` already covers teardown — and a mutant
    * that deletes it survives the suite. It earns its keep only on a surface with no such holder,
-   * which today means `_recallBlock`'s other caller, `_renderNodeQuestion`. That one is
-   * UNREACHABLE (§6.8, re-derived at v1.154.0: `_dossierIdx` is assigned null at four sites and a
-   * node index at none), so the clause is deliberate defence for a surface nobody can open yet,
-   * not a gated claim. Delete it the day that surface comes back with a holder of its own.
+   * which was `_recallBlock`'s other caller, the dossier's `_renderNodeQuestion`, retired with the
+   * dossier in v1.255.1 (it had been unreachable since v1.101.0). The clause is deliberate defence
+   * for any later surface without a holder of its own, not a gated claim.
    */
   _recallLive() {
     const r = this._recall;
@@ -12398,7 +14317,8 @@ class Component extends DCLogic {
     const picks = [];
     const order = pool.slice();
     while (picks.length < want && order.length) picks.push(order.splice((this.rng("checkpoint-pick") * order.length) | 0, 1)[0]);
-    this._checkpoint = { belt: beltId, unit: unit, uk: uk, picks: picks, i: 0, firstTry: 0, pass: (unit.checkpoint && unit.checkpoint.pass) || 5 };
+    this._checkpoint = { belt: beltId, unit: unit, uk: uk, picks: picks, i: 0, firstTry: 0, pass: (unit.checkpoint && unit.checkpoint.pass) || 5,
+      fromPractice: !!this._session?.practice };   // started in Master the game's corridor: ‹ Back returns there (`_paneBack`); a flag, never the session object
     this.fx("checkpoint_start", { unit: uk, cards: picks.length });
     this._checkpointShow();
   }
@@ -12543,7 +14463,16 @@ class Component extends DCLogic {
 
     // MC stage: fresh cards answer as seeded multiple-choice, graduating to recall at stage 2
     this._mc = null;
-    if (!this.revealed && this.flashcards && this.mcActive(info.key, card) && !this.mcPoolWarm(info.key, card)) {
+    // ONE GATE FOR EVERY WAY OF REVEALING (SET1-R2, the reader's re-read of #423, finding 4; v1.282.0). While a multiple-choice
+    // card's options are on their way, NO reveal control is drawn: the footer shows what the inline decks show while they
+    // load, a disabled "Loading answers…" (until v1.282.0 it drew "Reveal answer", whose click set `revealed` itself, round
+    // `drillReveal`'s guard, and led to a recall "Got it" with no option picked). When the options land the card is multiple
+    // choice. A FAILED load ends here too: `_warmMcPool` never rejects (hydrateDeck catches every failed fetch and resolves
+    // null) and leaves the pool as warm as it will get, so the card deals from the decks that did land or, when that cannot
+    // make the answers (`_mcBlock` returns none), asks front and back with its Reveal, the same rule as every other surface:
+    // a card is never left with nothing to press.
+    const mcLoading = !this.revealed && this.flashcards && this.mcActive(info.key, card) && !this.mcPoolWarm(info.key, card);
+    if (mcLoading) {
       // The distractor pool is not resident yet (manifest boot). Fetch it and re-render this
       // same card, rather than dealing options from whatever happens to have arrived — that
       // would make the option set a function of network timing. Falling back to classic reveal
@@ -12577,10 +14506,14 @@ class Component extends DCLogic {
     const foot = this.drillFootRef.current; if (foot) {
       foot.style.display = "flex"; foot.innerHTML = "";
       const acts = document.createElement("div"); acts.style.cssText = "display:flex;gap:8px;";
-      if (!this.revealed) {
+      if (!this.revealed && mcLoading) {
+        const wait = this.drillBtn("Loading answers\u2026", true);
+        wait.disabled = true; wait.style.cursor = "default"; wait.style.opacity = ".7"; wait.setAttribute("data-mc-loading", "1");
+        acts.appendChild(wait);
+      } else if (!this.revealed) {
         const show = this.drillBtn("Reveal answer", true);
         show.setAttribute("data-reveal", "1");
-        show.addEventListener("click", () => { this.revealed = true; this.renderDrill(); });
+        show.addEventListener("click", () => this.drillReveal());   // the one gate, as the keys and the swipe
         acts.appendChild(show);
       } else {
         const again = this.drillBtn("Review again", false);
@@ -12650,8 +14583,9 @@ class Component extends DCLogic {
   _paneLayout(target = false) {
     const W = this.W || window.innerWidth;
     const panel = this.drillRef && this.drillRef.current;
-    // Its RIGHT EDGE, which is its width while it is docked left: Practice's page stands centred, and the
-    // graph the camera aims at is what shows beside it.
+    // Its RIGHT EDGE, which is its width while it is docked left: the graph the camera aims at is what shows
+    // beside it. (It read the edge for Practice's centred 760 px page, v1.248.0 to v1.260.0; Practice is in the
+    // drawer now, and the edge is still the honest measure for any panel that is not.)
     if (panel && panel.offsetWidth) this._paneWidth = panel.getBoundingClientRect().right;
     const progress = target ? (this.deckShown ? 1 : 0) : (this.uiShift || 0);
     const left = this.isMobile() ? 0 : Math.min(W, this._paneWidth || this.sbOffset()) * progress;
@@ -12677,16 +14611,21 @@ class Component extends DCLogic {
   // pane, where a bottom control would be unreachable; there they centre on the free area
   // instead, which is the viewport's centre whenever the pane is shut, i.e. where they were.
   // Pinned by `e2e/journeys/layer-dock-centre.spec.ts`.
+  /** the air root-plane chrome keeps at the screen's edge: the 10 / 16 px the stylesheet's own widths leave (`100vw - 20px` on a phone, `100vw - 32px`) */
+  _chromeEdge() { return this.isMobile() ? 10 : 16; }
   _layoutLandHorizontal() {
-    // The native article and its shelf share one coalesced layout writer. The
+    // (CARDWIDTH retired the deck nav's `data-index` flag that stood here: Previous no longer moves to the right lane beside the
+    // index, because it sits inside the grid on its own side now; helmet.html, .ng-landnav.)
+    // The native article has one coalesced layout writer (its shelf is retired, U114 a). The
     // fixed replay bar still follows this frame's legacy column geometry.
     this._reader?.layout();
     const W = this.W || window.innerWidth, card = this._landEl, film = this._landFilmEl;
-    const chrome = [this._layerDockEl, this._replayEl].filter(el => el && el !== this._reader?.dock);
+    const chrome = [this._layerDockEl, this._replayEl].filter(Boolean);
     if (!card && !film && !chrome.length) return;
     const compact = this._compactLandDeck();
     const anchor = card || film;
-    const gutter = card && card.classList.contains("ng-land-deck") ? 52 : (this.isMobile() ? 10 : 16);
+    const edge = this._chromeEdge();
+    const gutter = card && card.classList.contains("ng-land-deck") ? 52 : edge;
     // Every width is READ before any `left` is written, so a frame costs one layout, not one per
     // element. An element that has not laid out yet measures 0 wide: that is SKIP (no clamp),
     // never a constraint.
@@ -12695,7 +14634,20 @@ class Component extends DCLogic {
     // The short-landscape composition already fills the viewport's width. Its two columns
     // travel as a group, so there is no horizontal slack; the pane covers its left column.
     const center = compact ? W * .28 : anchor ? fit(anchor) : 0;
-    const chromeAt = chrome.map((el) => (anchor && !compact ? center : fit(el)));
+    // CHROME FOLLOWS THE COLUMN, AND IS NEVER OFF THE SCREEN (FOLLOW2, v1.293.3). The column's centre is clamped for the
+    // CARD: a deck card keeps 52 px at its right for its paging control, so on a phone the column stands left of the
+    // middle (390 wide, a 358 px card: 159, not 195). The film's bar rode that centre with its own width (370 px, the
+    // phone's `100vw - 20px`) and stood at -26 to 344: its left end, the dot and the border, off the screen, in every
+    // board state that has a landing card (measured at 390x631 and 390x844 on dev v1.293.0 and v1.293.1: a deck card, a
+    // staged board, a technique's card, a place with no cards, the hand put away; whole only with the card dismissed).
+    // And the card it was following is the reader's there (`data-reader-game-part`): this function no longer moves it,
+    // so the legacy column moved nothing but the chrome. One clamp, by the element's OWN width and the screen's edge
+    // (the 10 / 16 px the stylesheet's own widths leave), wherever the column is: where chrome was whole it does not
+    // move (a desktop: measured the same before and after), and a width of 0 is still SKIP.
+    const chromeAt = chrome.map((el) => {
+      const at = anchor && !compact ? center : fit(el), half = el.offsetWidth / 2;
+      return half ? Math.max(edge + half, Math.min(at, W - edge - half)) : at;
+    });
     for (const el of [card, this._landStackEl, this._landNavEl]) {
       if (el && !el.hasAttribute("data-reader-game-part")) el.style.left = center + "px";
     }
@@ -12729,8 +14681,24 @@ class Component extends DCLogic {
     // Left to the reader's next frame, a click measured just after the pane opened landed on the moved
     // card (its next arrow's point became an answer: pane-keyboard:103, 10 of 75 isolated runs red).
     if (this.uiShift !== previous) this._reader?.layoutNow();
-    // fade the legend out only while option cards actually overlap it; fade back in otherwise
-    const leg = this.legendRef.current;
+    // THE LEGEND'S ONE WRITER, every frame, from what is on screen. v1.254.0 (owner, 2026-11-10): the key (Position, Transition,
+    // Submission) is "only revealed at the beginning ... a node or an article has not yet been selected and revealed", so it shows on
+    // the map alone (`_mapAlone`) and nowhere else; the win bar stays. And "the table of contents/index is way more important": where
+    // the bar meets the index's box or comes within its 12px clearance, the bar steps aside until there is room. Hidden, not removed:
+    // `_paintWinThermometer` stays its one writer, `_readerReserve` already skips a hidden bar, and the film's seat row keeps the
+    // figure (`currentWinView`). Nothing here moves either box (the key keeps its place above the bar; the index's height is the
+    // reader's), so the answer cannot feed back into itself.
+    // WINBAR1 (owner, 2026-11-11): and where the bar falls under the reader's column (`barUnder`, measured by the reader's own layout)
+    // it is away too, so the column runs to the bottom edge. Only while that column is on screen: the map alone keeps the bar. Away is
+    // hidden, never unpainted: `_paintWinThermometer` writes it on every decision, so a resize that brings it back shows today's number.
+    const leg = this.legendRef.current, bar = this.legendMarkRef.current?.closest(".ng-winbar"), alone = this._mapAlone();
+    if (leg) leg.toggleAttribute("data-away", !alone);
+    if (bar) {
+      const toc = this._readerTocEl?.isConnected && this._readerTocEl.getBoundingClientRect(), b = bar.getBoundingClientRect();
+      bar.toggleAttribute("data-away", !!toc && toc.height > 0 && b.left < toc.right && b.right > toc.left && b.top < toc.bottom + 12
+        || !alone && !!this._reader?.barUnder);
+    }
+    // fade the key out only while option cards actually overlap it; fade back in otherwise
     if (leg && op) {
       let overlap = false;
       if (op.children.length && this._handShown()) {   // a put-away hand (v1.171.0) covers nothing
@@ -12796,7 +14764,11 @@ class Component extends DCLogic {
     // the text/sub in with inline opacity, and `_centerHandoff` stretches the box's fade to the
     // hand-off length; if a verdict or capstone writes next while either is mid-flight, it must
     // get the stock instant text and .55s box fade back, not the arrival's leftovers.
-    if (box) { box.style.transitionDuration = ""; box.style.top = "0px"; box.style.bottom = "0px"; box.firstElementChild.style.transform = ""; }
+    // ...and its LAYER (v1.280.3, STAR1-R1): over everything ambient (z 7 in the wrap) only while the round's end is up, whose
+    // notice must never be under anything (the board is away then, or the verdict docked clear of it: `_endBoard`); every other
+    // write (an opening's heading) keeps its old place UNDER the board, as before: at z 7 an ordinary opening's heading crossed
+    // the article's own text at 390 ("Flattened Half Guard" over "Also known as"), where the article used to cover it
+    if (box) { box.style.transitionDuration = ""; box.style.top = "0px"; box.style.bottom = "0px"; box.firstElementChild.style.transform = ""; box.style.zIndex = this.endZoom ? "7" : ""; }
     for (const el of [t, s]) if (el) { el.style.transition = ""; el.style.opacity = ""; }
     if (k) { k.textContent = kicker; k.style.color = col; }
     if (t) { t.textContent = text; t.style.color = tone === "good" ? "#cfe6ff" : tone === "bad" ? "#ffd6d6" : "#eef1f6"; t.style.fontSize = small ? "clamp(26px,3.2vw,38px)" : "clamp(40px,6vw,68px)"; }
@@ -12804,6 +14776,22 @@ class Component extends DCLogic {
     if (box) box.style.opacity = "1";
   }
   hideCenter() { const box = this.evCenterRef.current; if (box) box.style.opacity = "0"; }
+  // THE ARTICLE IS NEVER HIDDEN UNLESS SOMETHING ON ITS WAY WILL BRING IT BACK (v1.280.3, STAR1-Q1, ruled). The round's end puts
+  // the board away (the reader, its index and controls: the opening's faint board) only while its timer runs, the one that
+  // ends in a new roll and the rise that brings the board back. Its timers are wall-clock and stop only with the clock
+  // (`after`, `pauseTimers`), so every pause during the hold (the drawer by the pane law, the choice viewer, a replay) comes
+  // through `setPaused` here: the board comes back at once and the verdict goes into the map's free band above the reader
+  // (`_frameArrivalHeading`, scaled to fit), clear of the article; the clock running again puts it away and the verdict back in
+  // the centre. Measured before the ruling: as a fresh visitor arriving by URL (a position, a transition and a submission
+  // page, attacker and defender, 1440 and 390), the press that starts play releases the clock, so every round ended with it
+  // running; a pause DURING the hold (the drawer) left the article hidden until the drawer closed.
+  _endBoard(away) {
+    const wrap = this.wrapRef?.current, box = this.evCenterRef?.current; if (!wrap) return;
+    if (away) {
+      wrap.dataset.ngOpen = "faint"; this._openStamp("0", "0px"); this._openO = 0; this._openY = 0;
+      if (box) { box.style.top = box.style.bottom = "0px"; box.firstElementChild.style.transform = ""; }
+    } else { this._openBoardEnd(true); this._frameArrivalHeading(); }
+  }
   /** Beat 2 of the staged arrival: the name and the role fade into the already-showing centre
    *  block. Inline opacity + transition, both reset by the next showCenter (see above). */
   _frameArrivalHeading(rise) {
@@ -12885,7 +14873,7 @@ class Component extends DCLogic {
       // victory cascade: flares hop the roll trail 110ms apart, hard-capped at 1.5s total
       const rows = (this.rollLog || []).slice(-13);
       const hops = Math.max(1, rows.length);
-      for (let ci = 0; ci < rows.length; ci++) { const cidx = rows[ci].idx; this.after(ci * 0.11, () => this.flare(cidx)); }
+      for (let ci = 0; ci < rows.length; ci++) { const cidx = rows[ci].idx; this.after(ci * 0.11, () => this.flare(cidx, 0, 1)); }
       this.fx("victory_cascade", { hops: hops, durMs: hops * 110 });
       this.ladderMove(1);
     } else if (kind === "lose") {
@@ -12914,9 +14902,19 @@ class Component extends DCLogic {
     };
     const m = map[kind] || map.reset;
     if (this.evRef.current) this.evRef.current.style.opacity = "0";
+    this.endZoom = true;   // before the verdict is written: `showCenter` lifts the round's end's notice over everything ambient
     this.showCenter(m.k, m.big, name || "", m.tone);
     this.endCenter = { x: this.nodes[this.currentPos].x, y: this.nodes[this.currentPos].y };
-    this.endZoom = true;
+    // THE BOARD STEPS ASIDE FOR THE NOTICE (v1.280.3, STAR1). The owner, 15 Nov: "the restarting is often hidden behind the
+    // article sections (which should be hidden when restarting happens!)". `clearOptions` above takes the hand, the reader
+    // re-lays out with the article jumped up by its height (1440x900: its top 654 -> 432; 390x631: 768 -> 296), and the
+    // verdict, then the next roll's "Restarting the roll", sat under its section cards (1 of 5 points of "You finished it"
+    // showing at 1440, 0 of 5 at 390); a wheel over that article PAUSED the clock (reading), holding both there. Put away
+    // through the opening's own board (faint, at 0; faint also hides the reader, NG_CAM_OPEN_CSS): the restart's breath out
+    // takes it over where it stands (`_openHandOff`, `o0`) and the new roll's board comes back with its rise; whatever
+    // clears the timers first gives it back (`_retireCamOpen`), and so does the restart under reduced motion (`startRoll`).
+    // ONLY WHILE ITS TIMER RUNS (`_endBoard`, from `setPaused` as well). Pinned by e2e/journeys/restart-notice.spec.ts.
+    this._endBoard(!this.paused);
     // "New roll in 3s… 2s… 1s…" rides the verdict's tail. Plain setEvent on purpose: the
     // announcer is ONE slot and any later writer wins (§6.5) — a capstone banner or a share
     // arrival simply overwrites a tick, and the next tick concedes the same way.
@@ -13402,20 +15400,12 @@ class Component extends DCLogic {
       }
       if (label) label.textContent = view.immediateLabel === "Finish" ? "Submit" : view.immediateLabel;
       const execute = oc.card.querySelector("[data-choice-execute]");
-      if (execute) oc.card.querySelectorAll("[data-choice-execute]").forEach(button => button.setAttribute("aria-label", this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + "."));
+      if (execute) oc.card.querySelectorAll("[data-choice-execute]").forEach(button => { button._ngFull = this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + "."; this._cardAria(oc.card); });
       const best = oc.card.querySelector("[data-choice-recommended]");
       if (best) best.textContent = view.recommended ? (view.recommendationLabel || "Recommended") : "";
     }
-    const row = this.optionsRef.current, status = row?.querySelector("[data-choice-value-status]");
-    if (status) status.textContent = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading" || this._readerAwaited()) ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
-    const retry = row?.querySelector("[data-choice-value-retry]");
-    if (retry) retry.style.display = !/^live-graph-/.test(this._gameValueReason || "") && !["scheduled", "loading", "preparing"].includes(this._gameValueState) && (this._gameValueRetryable || (this._gameValueRuntime && ["unavailable", "error"].includes(snapshot?.status))) ? "inline-block" : "none";
-    const sort = row?.querySelector("[data-choice-value-sort]");
-    if (sort) {
-      const ids = (this._optionCards || []).filter(c => !c.opt.threat).map(c => (this._choiceValueBindings || []).find(b => b.opt === c.opt)?.actionId);
-      const order = this.choiceValueRuntime()?.ngChoiceValueOrder(ids, snapshot) || ids;
-      sort.style.display = ids.some((id, i) => id !== order[i]) ? "inline-block" : "none";
-    }
+    const title = this.optionsRef.current?.querySelector('[data-choice-group="you"] > div');
+    if (title) this._paintValueSlot(title, snapshot, updating);
     const complete = ["ready", "bounded"].includes(snapshot?.status) && (this._optionCards || []).some(c => !c.opt.threat)
       && (this._optionCards || []).every(c => c.opt.threat || ["ready", "bounded"].includes(this.choiceValueView(c.opt).status));
     this._paintWinThermometer(complete ? snapshot : null);
@@ -13447,6 +15437,7 @@ class Component extends DCLogic {
     const label = bar && bar.querySelector("[data-legend-win]");
     if (!root || !runtime || !root.outcomes || typeof root.outcomes.win !== "number") {
       if (this.adv.shown) this.adv.stale = true;
+      this._winView = null;
       if (label) { label.textContent = "Win"; label.removeAttribute("data-win-chance"); }
       return;
     }
@@ -13460,7 +15451,42 @@ class Component extends DCLogic {
     if (!this.adv.shown) this.adv.cur = this.adv.target;
     this.adv.shown = true; this.adv.stale = false;
     if (prev != null && Math.abs(win - prev) >= 0.02) { this.adv.glow = 1; this.adv.sign = win > prev ? 1 : -1; this.adv.glowMag = Math.min(1, Math.abs(win - prev) * 2.8); }
+    this._winView = { text, handId: snapshot.handId };
     if (label) { label.textContent = "Win " + text; label.setAttribute("data-win-chance", text); }
+  }
+  // The state's own Win %, V(s), exactly as the win bar prints it: _paintWinThermometer is the one place it is worked out, and this
+  // only hands its view on (§6.5). The film's seat row has asked for it since v1.231.0, and nothing defined it, so the row printed
+  // "—" on every film until v1.253.0 (owner, 2026-11-09: "where's my Win% off of this state i'm in?").
+  currentWinView() { return this._winView || { text: "—", handId: this._choiceHandId }; }
+  // THE ONE STATUS SLOT (v1.258.0, the owner's note on U130: "'calculating win chances' shouldn't come into conflict
+  // with 'sort by win chances' ... it should only show as a replacement for 'calculating win chances' and should say
+  // 'sorted by win chances'"; hidetoggle round 2, s2). Beside "Your moves" and its switch there is ONE line in the
+  // status's quiet type, and at most one press after it, in the same type with a dotted underline:
+  //   "Preparing…" / "Calculating…" / "Updating win chances…"   while a value is being worked out (as before)
+  //   "Sorted by win chance"                                     the hand stands in its win-chance ranking
+  //   "Sort by win chance" (a press)                             it does not: a hand touched before its values landed
+  //                                                              never re-sorts itself (§5), so this is the way back
+  //   "Win chance unavailable · Retry" (Retry a press)           a failed load
+  //   nothing                                                    values in, but the hand has no ranking to report
+  // The bold "Sort by win chance" and "Retry win chances" buttons are gone. "Sorted" is asked of
+  // ngChoiceValueOrder's `ranked` form (null for a hand with no ranking), never read off "the order came back
+  // unchanged": an unrankable hand returns its dealt order there, and the line would claim a sort that never happened. The status span stays the live region, so a hand
+  // sorting itself is announced; the press is its own button ("Sort by win chance", "Retry win chances").
+  _paintValueSlot(title, snapshot, updating) {
+    const status = title.querySelector("[data-choice-value-status]"), press = title.querySelector("[data-choice-value-press]");
+    if (!status || !press) return;
+    const said = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading" || this._readerAwaited()) ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
+    const retryable = !/^live-graph-/.test(this._gameValueReason || "") && !["scheduled", "loading", "preparing"].includes(this._gameValueState) && (this._gameValueRetryable || (this._gameValueRuntime && ["unavailable", "error"].includes(snapshot?.status)));
+    const ids = (this._optionCards || []).filter(c => !c.opt.threat).map(c => (this._choiceValueBindings || []).find(b => b.opt === c.opt)?.actionId);
+    const ranked = said ? null : this.choiceValueRuntime()?.ngChoiceValueOrder(ids, snapshot, true) || null;
+    let text = said, act = null, word = "";
+    if (said === "Win chance unavailable" && retryable) { act = "retry"; word = "Retry"; }
+    else if (ranked) { if (ranked.every((id, i) => id === ids[i])) text = "Sorted by win chance"; else { act = "sort"; word = "Sort by win chance"; } }
+    if (status.textContent !== text) status.textContent = text;
+    press.innerHTML = word ? (text ? '<span aria-hidden="true">\u00a0·\u00a0</span>' : "") + '<span class="ng-value-press-word">' + word + "</span>" : "";
+    press.style.display = word ? "" : "none";
+    if (act) press.setAttribute("data-act", act); else press.removeAttribute("data-act");
+    if (act === "retry") press.setAttribute("aria-label", "Retry win chances"); else press.removeAttribute("aria-label");
   }
   sortChoiceValues(auto = false) {
     // An explicit player action is a safe reorder boundary, and so is the ONE automatic sort when
@@ -13499,6 +15525,7 @@ class Component extends DCLogic {
     // ...and its own overflow: `startExecution` lets the stand-in's lift out of the row (v1.220.0)
     el.style.overflowX = "auto"; el.style.overflowY = "hidden";
     this._handEscape = !!escape;
+    this._hmLit = new Set(); this._hmPeeks = new Set(); this._hmAt = this.currentPos;
     this._choiceHandId = "hand-" + (this._choiceHandSerial = (this._choiceHandSerial || 0) + 1);
     const add = (label, list, threat) => {
       if (!list.length) return;
@@ -13515,25 +15542,28 @@ class Component extends DCLogic {
         status.setAttribute("role", "status");
         status.style.cssText = "margin-left:8px;font-weight:400;letter-spacing:0;overflow:hidden;text-overflow:ellipsis;min-width:0;";
         title.appendChild(status);
-        const sort = document.createElement("button");
-        sort.type = "button"; sort.textContent = "Sort by win chance";
-        sort.setAttribute("data-choice-value-sort", "1");
-        sort.style.cssText = "display:none;flex:none;pointer-events:auto;cursor:pointer;border:0;background:none;color:#bdcce4;font:inherit;font-size:10px;margin:-10px 0 -10px 8px;padding:0 4px;min-height:44px;";
-        sort.onclick = () => this.sortChoiceValues();
-        title.appendChild(sort);
-        const retry = document.createElement("button");
-        retry.type = "button"; retry.textContent = "Retry win chances";
-        retry.setAttribute("data-choice-value-retry", "1");
-        retry.style.cssText = sort.style.cssText;
-        retry.onclick = (e) => { e.stopPropagation(); this._retryGameValues(); };
-        title.appendChild(retry);
+        // the slot's one press (`_paintValueSlot`): "Sort by win chance" or "Retry"
+        const press = document.createElement("button");
+        press.type = "button"; press.className = "ng-value-press"; press.setAttribute("data-choice-value-press", "");
+        press.style.display = "none";
+        press.addEventListener("pointerdown", e => e.stopPropagation());
+        press.onclick = e => {
+          e.stopPropagation();
+          const act = press.getAttribute("data-act");
+          if (act === "retry") this._retryGameValues(); else if (act === "sort") this.sortChoiceValues();
+        };
+        title.appendChild(press);
+        this._hideSwitch(title);
       }
       const row = document.createElement("div");
       row.style.cssText = "display:flex;gap:9px;align-items:stretch;";
       list.forEach((o, i) => row.appendChild(this.buildOptionCard(o, pick, seconds, threat ? null : i + 1, escape && !threat ? "escape" : null)));
       group.appendChild(row); el.appendChild(group);
     };
-    add("Your move", own, false);
+    // The row's title (owner, 11 Nov: "'Your move' (which should become 'Your moves')", v1.256.7): it heads every
+    // move you can make. A sentence that means "it is your move" (the settings' clock line, the map's YOUR MOVE tag on
+    // one orb) stays singular.
+    add("Your moves", own, false);
     add("Opponent threats", threats, true);
     // THE DEALT ORDER IS THE VALUE REQUEST'S ORDER (v1.207.7). A sort (the automatic one, or the
     // button) reorders the tray, and the request is keyed by action order, so capturing in TRAY order
@@ -13544,9 +15574,13 @@ class Component extends DCLogic {
     // hand re-orders itself by it exactly once — unless the player has already reached into it
     // (pointer, key, wheel, focus, or an activate via a shortcut), because moving a card the player
     // is aiming at is the one thing a hand must never do (frozen deal order, CLAUDE.md §5). After
-    // that it never re-sorts; the "Sort by win chance" button stays for a hand that was touched.
+    // that it never re-sorts; the status slot offers "Sort by win chance" for a hand that was touched.
+    // A PRESS ON THE TITLE IS NOT A REACH INTO THE HAND (v1.258.0, hidetoggle round 2's finding): the switch and the
+    // slot's press (Retry) sit in the title row inside this tray, so their pointerdown, key and focus used to latch
+    // "touched" and a hand whose values had not landed yet never sorted itself, after nothing but a Hidden/Shown press
+    // or a Retry. Those three are skipped for the title's controls; a wheel anywhere still counts (it scrolls the hand).
     this._handTouched = false;
-    const touched = () => { this._handTouched = true; };
+    const touched = e => { if (e.type !== "wheel" && e.target?.closest?.("[data-hide-switch], [data-choice-value-press]")) return; this._handTouched = true; };
     for (const type of ["pointerdown", "keydown", "wheel", "touchstart", "focusin"]) el.addEventListener(type, touched, { capture: true, passive: true });
     this.fitChoiceTitles();
     this._observeChoiceMedia();
@@ -13770,44 +15804,27 @@ class Component extends DCLogic {
     }, { root: this.optionsRef.current, threshold: .01 });
     cards.forEach(card => this._choiceMediaObserver.observe(card));
   }
+  // A MOVE'S PLAY CIRCLE OPENS THE CURRENT NODE'S THEATER (VID1, owner 15 Nov: "use the same mechanism the video card
+  // for the current node uses, it's perfect"). The zoom starts from the move's own poster, the one ✕, the dim and Esc
+  // close it, and focus comes back to this circle. What stays here is the move's own work: the hand is touched, its
+  // question declined as reading and the game paused (`_choiceLearn`), the evidence beat, and on close the pause it
+  // found is given back. WAS, v1.231.0 to v1.280.0: a 620px `<dialog class="ng-choice-viewer">` with a title row and a
+  // one-clip strip whose player waited for YouTube's Play (Part A of VID1 in docs/Changelog-Archive.md).
   _openChoiceWatch(clip, target, source) {
     this._closeChoiceWatch(false);
+    const media = source.closest(".ng-choice-card")?.querySelector("[data-choice-media]");
+    if (!media) return;
     const wasPaused = this.paused;
     this._choiceLearn();
-    const dialog = document.createElement("dialog");
-    dialog.className = "ng-choice-viewer"; dialog.setAttribute("data-choice-viewer", "");
-    dialog.setAttribute("aria-label", "Watch " + target.node.t);
-    dialog.innerHTML = '<header><strong>' + this.choiceEscape(target.node.t) + '</strong><button type="button" data-watch-close aria-label="Close video viewer">✕</button></header>' + this.filmStudyHTML([clip], true);
-    (this.__ngRoot || document.body).appendChild(dialog);
-    dialog._ngVideoNode = target.node;
-    this._choiceWatch = { dialog, source, wasPaused };
     this.fx("sheet_opened", { technique: target.node.t, surface: "watch" }); // legacy evidence id; no sheet is rendered
-    for (const type of ["pointerdown", "wheel", "click"]) dialog.addEventListener(type, e => e.stopPropagation());
-    dialog.addEventListener("cancel", e => { e.preventDefault(); this._closeChoiceWatch(); });
-    dialog.addEventListener("click", e => { if (e.target === dialog) this._closeChoiceWatch(); });
-    // Iframe keys do not bubble here. Close precedes the player, so browser
-    // traversal can reach it; explicitly wrap the parent controls at both ends.
-    dialog.addEventListener("keydown", e => {
-      if (e.key !== "Tab" || e.altKey || e.ctrlKey || e.metaKey) return;
-      const stops = [...dialog.querySelectorAll("button, a[href], iframe")].filter(el => el.tabIndex >= 0 && !el.disabled && el.getClientRects().length);
-      const first = stops[0], last = stops[stops.length - 1];
-      if (document.activeElement === (e.shiftKey ? first : last)) {
-        e.preventDefault(); (e.shiftKey ? last : first)?.focus();
-      }
-    });
-    dialog.querySelector("[data-watch-close]").onclick = () => this._closeChoiceWatch();
-    this.wireClips(dialog, [clip]);
-    dialog.showModal();
-    this.expandClip(dialog.querySelector(".ng-clip"), clip);
-    dialog.querySelector("[data-watch-close]").focus();
+    this.expandClip(media, clip, { node: target.node, source, poster: media.querySelector("img")?.src || "",
+      label: "Watch " + target.node.t, onClose: () => this.setPaused(wasPaused === true) });
   }
+  // A move's theater only. `restore = false` is a hand that ended (clearOptions): nothing is given back.
   _closeChoiceWatch(restore = true) {
-    const current = this._choiceWatch; if (!current) return;
-    this._choiceWatch = null;
-    if (this._expandedClip && current.dialog.contains(this._expandedClip)) this.clearClipLoops();
-    current.dialog.close(); current.dialog.remove();
-    this.setPaused(current.wasPaused === true);
-    if (restore && current.source.isConnected) current.source.focus({ preventScroll: true });
+    const shown = this._filmTheater; if (!shown?.move) return;
+    if (!restore) shown.quiet = true;
+    this.collapseClip(shown.card);
   }
   buildOptionCard(opt, onPick, decisionSec, num, mode) {
     const n = opt.node, isThreat = !!opt.threat, isEsc = mode === "escape";
@@ -13818,7 +15835,7 @@ class Component extends DCLogic {
     card.dataset.choiceFront = "suppressed";
     if (isThreat) card.setAttribute("data-opponent-threat", "1");
     const value = isThreat ? null : this.choiceValueShown(opt), target = this._choiceMediaTarget(opt);
-    card._choiceOpt = opt; card._choiceTarget = target;
+    card._choiceOpt = opt; card._choiceTarget = target; card._place = num;
     const chance = isThreat ? this.choiceChance(opt) : null;
     const immediateLabel = opt.action === "escape" ? "Escape" : opt.action === "finish" ? "Submit" : n.ty === "submissions" ? "Works" : "Move";
     const execute = isThreat ? 'div' : 'button';
@@ -13828,9 +15845,471 @@ class Component extends DCLogic {
       + '<span class="ngcv-card" data-choice-value data-status="' + (value?.status || 'pending') + '">' + (value ? this.choiceStatsHTML(value) : '<span class="ng-choice-stat"><span><span data-immediate-label>' + immediateLabel + '</span> %</span><strong class="ngodds">' + (chance == null ? '—' : Math.round(chance * 100)) + '</strong></span><span class="ng-choice-stat"><span>Win %</span><strong data-threat-win>—</strong></span>') + '</span></' + execute + '>'
       + '<span class="ng-choice-badge" data-choice-recommended></span>'
       + '<div class="ngbar"></div>';
-    card.addEventListener("click", () => this.activateOption(opt, onPick, card));
+    // its seal (a move you know, or one whose flashcards are learned) and, with moves hidden, its face: one read (`_paintCard`)
+    this._paintCard(card);
+    // A HIDDEN CARD'S FIRST TOUCH REVEALS, ITS SECOND PLAYS. The gate sits HERE, in front of
+    // activateOption, so keys 1-9 (which call activateOption directly) still play blind and the
+    // reader's beginPlay wrapper never sees a reveal as a play. Read at click time: the setting
+    // can be switched on under a dealt hand (`_syncHideMoves`).
+    card.addEventListener("click", (e) => {
+      const key = e.detail === 0;   // Enter or Space on the focused card: a click with no pointer
+      if (key && this._keyRepeat) return;   // a held key's repeat never acts (`_keyRepeat`, attachInput)
+      if (card.hasAttribute("data-hide") && this._hideTap(card, e)) return;
+      this.activateOption(opt, onPick, card, undefined, key);
+    });
     (this._optionCards = this._optionCards || []).push({ node: n, card, bar: card.querySelector(".ngbar"), opt, num, esc: isEsc });
     return card;
+  }
+  // ═══ HIDDEN MOVES (v1.255.0, owner U115 b + U116, 10 Nov) ═══
+  // "Hide moves until I look" (Rolling settings, off by default) hides each dealt card's NAME and
+  // FILM — Works % and Win % stay (U115 b) — and the map's names of the dealt moves until a card is
+  // face up. Hover a card (at once, v1.256.7) or tap it to turn it face up; the switch beside "Your moves" (v1.258.0; the eye before it, U121)
+  // switches the whole mode from the row (U121); keys 1-9 still play blind. Face up, it asks "Did you get it?", and a Yes
+  // files the move in `moves` as MASTERED (`_gradeMove`).
+  // HIDING IS CSS ON AN ATTRIBUTE, NEVER A REBUILT FACE: every reader of this card — the docks,
+  // fitChoiceTitles, the value painter, `_gameValuePlayable`, the specs' text — sees the same DOM
+  // as an open card, and the back is pointer-events:none, so the face below still takes the hit.
+  // The card's own `textContent` therefore still holds the name: a spec proves hiddenness with
+  // computed visibility or elementFromPoint, never with text.
+  _hideMoves() { return this.get("hideMoves", false) === true; }
+  // ── A MOVE YOU KNOW STAYS FACE UP (v1.266.0, the owner, 13 Nov 2026, "a must implement": "moves which are golden /
+  // mastered and not yet up for review show visible instead of hidden in the choices row by default ok? that reduces
+  // the necessity of hidding everything including our mastered techniques"). The first step of Practice as recall over
+  // a position's row: hide what has to be recalled, show what is already known.
+  // ONE STATE, FROM THE MOVE'S OWN ROW `[due, ivl, last, ok]` (`_moveRow`), read by every surface that asks:
+  //   "new"    no row, or the last answer a No     face down; face up it asks "Did you get it?"   no seal
+  //   "known"  the last answer a Yes, not due      FACE UP with moves hidden; asks nothing        FILLED seal
+  //   "due"    the last answer a Yes, due today or before and not answered today
+  //                                                face down; face up it asks "Still got it?"     FILLED seal when face
+  //                                                                                                up (moves shown), none
+  //                                                                                                face down (`_sealCard`)
+  // His two words are ONE fact here: a card is gold (since v1.272.0, sealed) when its row's last answer is a Yes, and "up
+  // for review" is that same row's due date. So "gold and not up for review" is "known", and a due card goes face down
+  // to be asked; face down it wears no seal, so nothing on a card being asked says "you know this".
+  // AND A MOVE WHOSE FLASHCARDS ARE ALL LEARNED (v1.268.0, KS2: he chose the other reading too, 13 Nov 05:47: "b, Also
+  // a move whose flashcards are all learned"):
+  //   "learned" no row, its deck learned, none of its cards due   FACE UP with moves hidden; asks nothing   HOLLOW seal
+  // THE ROW RULES WHEREVER IT EXISTS: a No puts the move face down whatever its flashcards say, and a Yes makes it "known"
+  // or "due" by the row's own date. Kind 2 is only for a move never answered in this row (`_deckLearned`).
+  // It is never a known move: no row, so `_movesIdx`, the odds' moves part and "Moves known" cannot see it; its seal is
+  // the hollow one (v1.272.0), the owner's own word for it: "its flashcards are learned".
+  // Nothing stored changes: the state is read, never written; "Did you get it?" / "Still got it?" keep their
+  // meaning and their schedule (`_peek` asks the same three-way question it always did, now through this one seam).
+  _moveState(opt) {
+    const row = this._moveRow(opt);
+    if (!row) return this._deckLearned(opt) ? "learned" : "new";
+    if (row[3] !== 1) return "new";
+    const day = this._epochDay();
+    return row[0] <= day && row[2] < day ? "due" : "known";
+  }
+  // "ALL LEARNED" IS THE TEST THE MAP'S LEVEL 2 READ (`_movesGold`) and the card's thick gold read until v1.272.0:
+  // `deckMastery(key) >= 1`, every card at stage 3 or more, on the move's own deck (an escape has none: false).
+  // A DECK WITH NO CARDS IS NOT LEARNED: deckMastery returns 0 for a missing deck and for zero cards in both of its
+  // branches (`if (!n) return 0`), so zero of zero never reads 1 (pinned over every technique deck by
+  // known-moves-shown.spec.ts, with stale grades planted so a 0/0 would bite).
+  // "NOT YET UP FOR REVIEW": no card of the deck is due, by the formula `duePool` and `_cardDue` use (`due <= today`
+  // and not answered today), over the deck's own cards when they are resident (a reworded card's old row is not this
+  // deck's, as `ngGameplanDebt` skips it), else over every row the deck holds. One due card puts the move face down,
+  // and a look asks "Did you get it?" (it has no row); the flashcard's own review brings it back up.
+  _deckLearned(opt) {
+    if (opt.action === "escape") return false;
+    const key = this.deckKeyFor(opt.node).key;
+    if (!(this.deckMastery(key) >= 1)) return false;
+    const day = this._epochDay(), rows = (this.srs && this.srs[key]) || {}, d = this.flashcards && this.flashcards.decks && this.flashcards.decks[key];
+    const cards = d && this._cardsOf(d), live = cards && cards.length ? new Set(cards.map((c) => this.qhash(c.q))) : null;
+    for (const qh in rows) { const e = rows[qh]; if (e && e[0] <= day && e[2] < day && (!live || live.has(qh))) return false; }
+    return true;
+  }
+  // THE ONE PLACE a dealt card is put face down or left face up, at the deal and on every knowledge publish
+  // (`_paintCard`), and when the setting flips under a hand (`_syncHideMoves`): a Yes turns its card up for
+  // good, a No or a pull's No turns it down, and a new day that makes a known move due turns it down to be asked;
+  // a flashcard grade, a deck landing or a new day moves a "learned" card the same way (v1.268.0).
+  // A card already where it belongs is not touched, so a card turned up by a look stays up.
+  _applyHide(card, st = this._moveState(card._choiceOpt)) {
+    const down = this._czHand() || (this._hideMoves() && st !== "known" && st !== "learned");
+    if (down === card.hasAttribute("data-hide")) {
+      // A CARD THAT STAYS DOWN CARRIES WHAT `_hideCard` WOULD WRITE NOW, IN BOTH DIRECTIONS (L2-R2, the reader's re-read
+      // of PR #438, its one fix). The value was written only when a card was TURNED down, so a player whose own setting
+      // hides their moves (every card already down) still read "Hover to reveal" on a card an open cloze holds down,
+      // where a hover reveals nothing; and a hand dealt during a hidden cloze under that setting kept "cz" after Show,
+      // so its "Hover to reveal" never came back though a hover then works.
+      if (down && card.getAttribute("data-hide") !== this._hideHow()) card.setAttribute("data-hide", this._hideHow());
+      return;
+    }
+    if (down) this._hideCard(card);
+    else { this._unhideCard(card); this._cardAria(card); }
+  }
+  // what a card that is down says about a look, NOW: "cz" while an open cloze holds the hand down (no reveal is offered,
+  // and no badge is worn: choice-value.css), else the hint's own place ("badge": "Hover to reveal" / "Tap to reveal")
+  _hideHow() { return this._czHand() ? "cz" : NG_HIDE_HINT; }
+  // ── THE SEAL (v1.272.0, the owner, 13 Nov, his pick "a, A gold seal in the corner", over: "The mastered cards show
+  // up with a golden outline, and this is confusing. It seems like this is the selected technique, and we're trying to
+  // guess this technique."). His option read: "A small filled seal: you answered Yes here. A hollow one: its flashcards
+  // are learned. It reads as a stamp on the card"; the question: "Whatever you pick replaces the gold outline
+  // everywhere a move wears it today" and "the move being asked is the only thing with a strong outline".
+  // SINCE v1.280.0 (GOLD1, ruled) THE SEAL TELLS THE MAP'S STORY (NG_MAP_MARKS): its kinds are the map's two marks.
+  //   a FACE-UP card whose row's last answer is a Yes ("known" or "due")   data-seal="recalled"  a gold RING (the map's
+  //                                                                                              outside line)
+  //   a face-up card whose questions are answered (`_answered`, the map's  data-seal="answered"  a gold DISC (the map's
+  //   own test: its deck all learned; a Yes or not)                                               inside gold)
+  //   both                                                                 data-seal="both"      the disc inside the ring,
+  //                                                                                              a dark gap between
+  //   any FACE-DOWN card (`data-hide`, revealed or not), or neither        no seal, no attribute
+  // Until v1.278.1 it was the other way round (filled = a Yes, hollow = flashcards learned, and a Yes on a learned deck
+  // "known", filled): no seal had reached production (v1.252.0), so no player learned that meaning. The FACE still reads
+  // `_deckLearned` (a learned deck with a card due is asked); the disc reads the map's test, so a card and its orb agree.
+  // SEAL2 (v1.272.0, the orchestrator's correction of its own brief, 13 Nov): the filled seal is TODAY'S GOLD moved from
+  // the border, a Yes DUE OR NOT ("A small filled seal: you answered Yes here"; his standing rule: a redesign never takes
+  // away what an account earned). The first build sealed "known" only, so with moves SHOWN, where nothing ever asks
+  // "Still got it?", every seal faded as its interval ran out. The FACE is what takes it off: with moves hidden a due
+  // card is face down (to be asked), and a face-down card wears none, revealed or not, so a card being asked never says
+  // "you know this"; after a Yes it is face up and filled, after a No it is "new" and bare.
+  // ONE QUESTION, ONE ANSWER: `_paintCard` reads `_moveState` once, `_applyHide` sets the face from it, and the seal
+  // reads that state AND the face `_applyHide` just set (the card's `data-hide`); nothing else decides either. Filled against hollow is a SHAPE (a disc against a
+  // ring), never only a colour. It is a real element, so a pointer over it gets its words (`title`) and the card's
+  // accessible name says them after the move's name (`_cardAria`). The card's border stays its ordinary one: the
+  // strong outlines in the row are the card under the pointer ([data-hover]), the focused one (:focus-visible) and a
+  // staged one (`_highlightStagedCard`); none is gold and none is a corner disc. The thin/thick gold outline (U116,
+  // U122 a: `data-mastered`, "" or "2") is gone with it: the seal has two kinds, and a move both answered Yes and
+  // learned is "known" (the row rules). Nothing stored changes; this is paint over the one state above.
+  _sealCard(card, st) {
+    const opt = card._choiceOpt, yes = st === "known" || st === "due", ans = !!opt && opt.action !== "escape" && !!opt.node && this._answered(opt.node);
+    const kind = card.hasAttribute("data-hide") ? null : yes ? (ans ? "both" : "recalled") : ans ? "answered" : null;
+    let el = card.querySelector("[data-choice-seal]");
+    if (kind === card.getAttribute("data-seal") && (!kind || el)) return;
+    if (kind) {
+      card.setAttribute("data-seal", kind);
+      if (!el) { el = card.ownerDocument.createElement("span"); el.className = "ng-choice-seal"; el.setAttribute("data-choice-seal", ""); card.appendChild(el); }
+      el.title = NG_SEAL_WORDS[kind];
+    } else { card.removeAttribute("data-seal"); el?.remove(); }
+    this._cardAria(card);
+  }
+  // THE CARD'S ONE READ: its face, then its seal, from a single `_moveState`, so the two cannot disagree (a card turned
+  // down by a new day loses its seal in the same call). At the deal, on every knowledge publish ("moves-card"), when the
+  // tab comes back to the front (`_onVisHide`) and when the setting flips under a hand (`_syncHideMoves`). Moves shown,
+  // `_applyHide` finds nothing to turn.
+  _paintCard(card) {
+    const st = this._moveState(card._choiceOpt);
+    this._applyHide(card, st);
+    this._sealCard(card, st);
+  }
+  _paintHand() { for (const oc of this._optionCards || []) if (oc.card && oc.opt) this._paintCard(oc.card); }
+  _hideCard(card) {
+    // (L2-R1, ruling 6: a card an open cloze holds down is not offered to a hover or a tap, so it does not say so: `_hideHow`)
+    card.setAttribute("data-hide", this._hideHow());
+    this._cardAria(card);
+    if (card._hm) return;
+    card._hm = 1;
+    const back = document.createElement("div");
+    back.className = "ng-choice-back"; back.setAttribute("aria-hidden", "true");
+    back.innerHTML = this.choiceShape(card._choiceOpt.node);
+    card.appendChild(back);
+    card.addEventListener("pointerdown", e => { card._pt = e.pointerType; });
+    // THE POINTER ON THE CARD IS THE LOOK: it stands out and turns face up in the same handler, so the
+    // first frame after pointerenter paints the name and the film's picture (owner, 11 Nov: "i'd like for
+    // it to be instant to show it, what's taking it so long? isn't it cached in and in the dom and just
+    // hidden"). It was: the name was always in the DOM and the picture fetched at the deal
+    // (`_drainChoiceMedia`, under the back); the only delay was a 250 ms dwell (NG_PEEK_DWELL_MS,
+    // v1.255.0), kept so a pointer sweeping across the row to card 5 would not turn up cards 1 to 4.
+    // His words reverse that rule. What a sweep does now (measured, v1.256.7, docs/Changelog-Archive.md):
+    // each card it crosses turns up and back down as the pointer leaves — no grade, no save and no strip
+    // left open (`_peek(card, false)` closes its "Did you get it?"), the strip's buttons still arm only
+    // NG_GRADE_ARM_MS after it appears — and, as any peek, it touches the hand, so a hand swept before
+    // its win chances land keeps its dealt order ("Sort by win chance" stays offered), and the move's
+    // `neural_move_picked` says peeked. Pinned by hidden-moves.spec.ts ("hover: the card turns up the moment the pointer is on it").
+    card.addEventListener("pointerenter", e => {
+      if (e.pointerType !== "mouse" || !card.hasAttribute("data-hide")) return;
+      card.setAttribute("data-hover", "");
+      this._peek(card, true);
+    });
+    card.addEventListener("pointerleave", e => {
+      if (e.pointerType !== "mouse") return;
+      card.removeAttribute("data-hover");
+      this._peek(card, false);
+    });
+  }
+  _unhideCard(card) {
+    for (const a of ["data-hide", "data-revealed", "data-hover", "data-asking"]) card.removeAttribute(a);
+  }
+  // THE CARD'S ACCESSIBLE NAME, its one writer after the deal: "Hidden move N" until the card is face up; face up, the
+  // painter's full label (`_ngFull`), with the seal's words after the move's name (v1.272.0): "Americana. You know this
+  // move. Win chance ...". The value painter, a seal change and every face change call it.
+  _cardAria(card) {
+    const b = card.querySelector("[data-choice-execute]"); if (!b) return;
+    const down = card.hasAttribute("data-hide") && !card.hasAttribute("data-revealed");
+    // the number is the card's PLACE in its row (review R8): the printed digit stops at 9, and is absent with numbers off.
+    // Built but not yet mounted (buildOptionCard), the place is the dealt one it was built with; the painter re-reads it.
+    const row = card.parentElement, place = row ? [...row.children].indexOf(card) + 1 : card._place;
+    const name = this.choiceLabel(card._choiceOpt), full = b._ngFull || name, seal = NG_SEAL_WORDS[card.getAttribute("data-seal")];
+    b.setAttribute("aria-label", down ? "Hidden move " + (place || "") : seal ? name + ". " + seal + (full.startsWith(name + ". ") ? full.slice(name.length) : ".") : full);
+  }
+  // Touch or pen on a face-down card: turn it up (closing the one turned up before) and consume
+  // the tap. A face-up card falls through and plays; a threat has nothing to play, so it toggles.
+  // ENTER OR SPACE ON A FOCUSED CARD (a click with no pointer: detail 0) HAS ONE RULE, whatever pointer
+  // pressed last (review R7): face down, it turns up; face up, it plays. A mouse click plays (the hover
+  // already turned it up); keys 1-9 never come here and still play blind.
+  _hideTap(card, e) {
+    const key = e.detail === 0;
+    if (!key && card._pt === "mouse") return false;
+    if (card.hasAttribute("data-revealed")) {
+      if (key || !card._choiceOpt.threat) return false;
+      this._peek(card, false, true); return true;
+    }
+    for (const c of this._optionCards || []) if (c.card !== card) this._peek(c.card, false, true);
+    this._peek(card, true);
+    e.stopPropagation();
+    return true;
+  }
+  // Face up or down. `force` closes a touch-revealed card (no pointerleave ever comes for it).
+  _peek(card, on, force) {
+    const opt = card._choiceOpt, lit = this._hmLit || (this._hmLit = new Set());
+    if (!on) {
+      card.removeAttribute("data-asking");
+      if (!force && card._pt && card._pt !== "mouse") return;
+      card.removeAttribute("data-revealed");
+      lit.delete(opt.idx); lit.delete(opt.res);
+      this._cardAria(card);
+      return;
+    }
+    if (!card.hasAttribute("data-hide") || this._czHand()) return;   // an open cloze's hand is not turned up by a look (L2)
+    card.setAttribute("data-revealed", "");
+    lit.add(opt.idx); if (opt.res != null) lit.add(opt.res);
+    this._cardAria(card);
+    // A PEEK IS A TOUCH. The hand sorts itself once when its win chances land, unless touched; a
+    // hover is not one of the latch's events, and with every card face down the reorder is
+    // invisible — a blind `3` would then play a different move from the one peeked at as 3.
+    this._handTouched = true;
+    (this._hmPeeks || (this._hmPeeks = new Set())).add(opt);
+    // WHAT A FACE-UP CARD ASKS (owner U116, HIDE1A: "breaks … when he answers again No, similar to
+    // Anki"; "what matters most is the last time he answered it"):
+    //   a move you do not know yet     "Did you get it?"  Yes      (a peek without a Yes records nothing)
+    //   a move you know, and it is DUE "Still got it?"    Yes / No (No takes its gold away and reschedules it)
+    //   a move you know, not due       nothing
+    // (a known card is face up with moves hidden since v1.266.0, so it never reaches here; the case stays for a card
+    // the day has not yet been re-read for)
+    const state = this._moveState(opt), due = state === "due";
+    if (state === "known" || !this._moveKey(opt)) return;
+    let strip = card.querySelector("[data-choice-grade]");
+    if (!strip) {
+      strip = document.createElement("div");
+      strip.className = "ng-choice-grade"; strip.setAttribute("data-choice-grade", "");
+      // The strip is pointer-events:none, so a press on its text reaches the card as any press on the card
+      // does; only its buttons take input. A button answers a press that BEGAN once it was armed
+      // (NG_GRADE_ARM_MS after the strip appeared, review R3); an earlier press does nothing at all — no
+      // grade and no play — because it was aimed before the button was there to be seen.
+      strip.addEventListener("pointerdown", ev => { ev.stopPropagation(); strip._press = performance.now() >= strip._armAt; });
+      strip.addEventListener("click", ev => {
+        ev.stopPropagation();
+        const b = ev.target.closest("[data-grade]"), armed = ev.detail === 0 ? performance.now() >= strip._armAt : strip._press === true;
+        strip._press = null;
+        if (!b || !armed) return;
+        card.removeAttribute("data-asking");
+        this._gradeMove(opt, b.dataset.grade === "yes", card);
+      });
+      card.appendChild(strip);
+    }
+    if (!card.hasAttribute("data-asking")) strip._armAt = performance.now() + NG_GRADE_ARM_MS;
+    strip.innerHTML = '<span>' + (due ? "Still got it?" : "Did you get it?") + '</span><button type="button" data-grade="yes">Yes</button>' + (due || NG_HIDE_GRADE_NO ? '<button type="button" data-grade="no">No</button>' : "");
+    card.setAttribute("data-asking", "");
+  }
+  // THE SWITCH (v1.258.0, owner's pick d on U130, 11 Nov; it replaces U121's eye). After "Your moves" on every dealt
+  // row, one word says the state and a press flips it: "Your moves · Hidden" / "· Shown", in the title's own type at
+  // full strength (6.5:1 on the map at both widths, where a word at 50% measured 2.6:1 and at 75% 4.2:1, hidetoggle
+  // round 1), a dotted underline marking it as a press. The same `hideMoves` the Settings switch writes, in place under
+  // the dealt hand (`set` -> `_syncHideMoves`). A press is not a peek (it turns no card up and records nothing) and not
+  // a reach into the hand (the `touched` latch skips it, renderChoiceGroups). Its own pointerdown stop keeps the press
+  // out of the map's input (attachInput, §6.1). Its 40px target is the whole free band and rides negative margins, so
+  // the title's 24px line does not grow; the word's box reserves "Hidden", so a press moves nothing beside it. The
+  // state is in the NAME ("Moves hidden" / "Moves shown"), not in aria-pressed: a pressed "Shown" would read as a
+  // contradiction. No transition, so reduced motion has nothing to remove.
+  _hideSwitch(title) {
+    const sw = document.createElement("button");
+    sw.type = "button"; sw.className = "ng-hide-switch"; sw.setAttribute("data-hide-switch", "");
+    sw.addEventListener("pointerdown", e => e.stopPropagation());
+    sw.onclick = e => { e.stopPropagation(); this._hideViaNext = "row"; this.set("hideMoves", !this._hideMoves()); };
+    title.insertBefore(sw, title.firstChild.nextSibling);
+    this._paintHideSwitch(title);
+  }
+  // the switch's word, and the header hint's (NG_HIDE_HINT = "header", not shipped)
+  _paintHideSwitch(title) {
+    const sw = title && title.querySelector("[data-hide-switch]"); if (!sw) return;
+    // THE MAP SAYS WHAT IT IS DOING WHILE A CLOZE IS HIDDEN (L2-R1, ruling 6; design round 3; the reader's f and g: the
+    // title read "Your moves · Shown" over a hand held face down, and its switch wrote the setting while no card moved).
+    // In its place, words and no press; after Show and after the place closes the roll's own switch is back (`_czSync`).
+    const cz = this._czHand();
+    sw.disabled = cz; sw.style.cursor = cz ? "default" : "";
+    if (cz) {
+      sw.setAttribute("aria-label", "Moves face down while you answer"); sw.removeAttribute("title");
+      sw.innerHTML = '<span aria-hidden="true">\u00b7</span><span data-cz-words>face down while you answer</span>';
+      title.querySelector("[data-hide-hint]")?.remove();
+      return;
+    }
+    const on = this._hideMoves(), word = on ? "Hidden" : "Shown";
+    sw.setAttribute("aria-label", "Moves " + word.toLowerCase());
+    sw.title = on ? "Show moves" : "Hide moves until I look";
+    sw.innerHTML = '<span aria-hidden="true">\u00b7</span><span class="ng-hide-word"><span>' + word + '</span></span>';
+    title.querySelector("[data-hide-hint]")?.remove();
+    if (on && NG_HIDE_HINT === "header") {
+      const hint = document.createElement("span");
+      hint.className = "ng-hide-hint"; hint.setAttribute("data-hide-hint", "");
+      hint.textContent = (window.matchMedia?.("(hover: none)").matches ? "Tap" : "Hover") + " a card to reveal it";
+      title.appendChild(hint);
+    }
+  }
+  // the setting switched under a dealt hand (the switch, Settings, a pull): hide or show the row in place, no redeal.
+  // The face-up set starts over: a card left face up before the switch must not leave its orb named after it.
+  _syncHideMoves() {
+    this._hmLit = new Set();
+    for (const c of this._optionCards || []) if (c.card && c.opt) this._paintCard(c.card);   // the face, and the seal it allows (SEAL2)
+    this._paintHideSwitch(this.optionsRef.current?.querySelector('[data-choice-group="you"] > div'));
+  }
+  // ── THE `moves` RECORD (v1.255.0, owner U116) ──────────────────────────────────────────────
+  // moves[state][move] = [due, ivl, last, ok]: the schedule row `srs` keeps (ngKnowledgeScheduleRow),
+  // plus the LAST answer. ok = 1 is MASTERED and stays mastered whatever its due date — "what
+  // matters most is the last time he answered it" — while the schedule is still written so Phase 2
+  // can bring the move back for review.
+  //   state = "<site ordinal>/<role>": the state the hand was dealt at, by its permanent share
+  //           ordinal (node_ordinals.json), never an index or a name; a threat is the OPPONENT's
+  //           move from here, so it files under the opponent's role — the same fact.
+  //   move  = the technique's site ordinal; an escape is "e" + qhash(label), because two escapes
+  //           of one submission can share a destination and differ only by name.
+  // A SEPARATE FIELD, NEVER `stage` OR `srs`: deckMastery's unhydrated branch sums every graded
+  // hash in stage[deck] over the manifest's count (a synthetic hash inflates mastery), and
+  // practiceToday / duePool count every srs cell while the planner binds rows to manifest cards
+  // (a due "move" row would open nothing, CLAUDE.md §6.6). It changes no score in this phase.
+  _moveKey(opt) {
+    const at = this.nodes[this._hmAt != null ? this._hmAt : this.currentPos], node = this.nodes[opt.idx];
+    const ord = n => n && this._ordById ? this._ordById.get(this.siteIdOf(n.id)) : undefined;
+    const so = ord(at), mo = opt.action === "escape" ? "e" + this.qhash(opt.label) : ord(node);
+    if (so == null || mo == null) {
+      // a dealt move with no share ordinal cannot be filed: say so once, never file it by name
+      if (!this._moveKeyBeat) { this._moveKeyBeat = 1; this.fx("moves_key_missing", { state: at && at.id, move: node && node.id }); }
+      return null;
+    }
+    const role = opt.threat ? (this.playerRole === "top" ? "bottom" : "top") : this.playerRole;
+    return [so + "/" + role, String(mo)];
+  }
+  /**
+   * THE MAP MUST NOT GIVE THE CLOZE AWAY (L2, v1.292.0, the orchestrator's ruling 7). On a computer the map stands beside
+   * the open position: while a cloze is open and not shown, nothing on the map names, lights or singles out one of its
+   * hidden moves. `_czDown`: their orbs (and their pair twins), which join the face-down set every name, hover label and
+   * gold mark already asks (`_hmDownSet`: the dealt moves' names, the lit trail's, the hover label, `_lastMapMarks`).
+   * `_czHand`: the dealt hand is face down, whole, when it holds one of them (the roll stands at that position), and a
+   * look does not turn a card up (`_peek`). After Show the map is as it is today. LIFTERS (§6.5): Show, Done, the place
+   * left, the list, the drawer shut (`_sessionInline`): each runs `_czSync`, which paints the hand and the names again.
+   * NOT COVERED: a move's own page, opened by the player's own press on its orb, still names it.
+   * Pinned by e2e/journeys/master-cloze.spec.ts (the hand face up → red).
+   */
+  _czDown() {
+    const s = this._session, c = s && s.czOpen != null && s.cz && this._sessionInline() ? s.cz.get(s.czOpen) : null;
+    return c && !c.shown && !c.done ? c.down : null;
+  }
+  _czHand() { const d = this._czDown(); return !!d && (this.optionIdxs || []).some((i) => d.has(i)); }
+  _czSync() {
+    this._hmLit = new Set(); this._nm = null;
+    // a card a tap or a key turned up BEFORE the cloze opened goes down again while the cloze holds the hand (L2-R2: under
+    // "moves hidden" such a card kept its face up beside the bars, since no pointer leaves it; a look during the cloze
+    // was already refused, `_peek`)
+    const held = this._czHand();
+    for (const c of this._optionCards || []) if (c.card && c.opt) { if (held && c.card.hasAttribute("data-revealed")) this._peek(c.card, false, true); this._paintCard(c.card); }
+    this._paintHideSwitch(this.optionsRef.current?.querySelector('[data-choice-group="you"] > div'));
+  }
+  // the cloze's view goes when a card opens or the place is left; its own code is master-list.src.js (deferred)
+  _czClose(s) { const R = this._gameplanRuntime; if (s && s.czOpen != null && R && R.ngClozeClose) R.ngClozeClose(this, s); }
+  _moveRow(opt) { const k = this._moveKey(opt); return k && this.moves && this.moves[k[0]] ? this.moves[k[0]][k[1]] : null; }
+  _moveMastered(opt) { const r = this._moveRow(opt); return !!(r && r[3] === 1); }
+  // (the card's thin/thick gold outline, `_goldCard` and `_paintHandGold`, was here until v1.272.0: the seal replaced it,
+  // `_sealCard`; a known escape wears the filled seal as any known move, it has no deck so it is never "learned")
+  _gradeMove(opt, ok, card) {
+    const k = this._moveKey(opt); if (!k) return;
+    this._gradeMoves([[k[0], k[1], ok]]);
+    this._sealCard(card, this._moveState(opt));
+    this.track("neural_move_recalled", { technique: opt.node.t, got: ok, threat: !!opt.threat, escape: opt.action === "escape", via: this._hideVia || "saved" });
+  }
+  /**
+   * THE ONE BODY OF EVERY ANSWER TO A MOVE (L2, v1.292.0): a roll's hidden card hands it one answer (`_gradeMove`, the seat
+   * read off where the roll stands), the cloze hands it a position's answers at once, the seat and the side given
+   * (master-list.src.js, at Done: one write per move per day). `list`: [[state "<site ordinal>/<role>", move, ok], …].
+   * The row, the journal line, the revision and the republish are here and nowhere else, ONCE for the whole list.
+   * Returns what an Undo needs (`_ungradeMoves`): each cell as it was (and whether it and its state existed), the rows
+   * written, and the journal's entry ids.
+   */
+  _gradeMoves(list) {
+    const m = (this.moves = this.moves || {}), day = this._epochDay(), lines = [], prior = [], own = (o, k) => Object.prototype.hasOwnProperty.call(o, k);
+    // WHETHER A SEAT EXISTED IS DECIDED ONCE, BEFORE THE LOOP (L2-R1, the reader of PR #438, finding 1, 2 of 2). Read per
+    // answer, the second answer of a confirm at a new seat found the seat the first had made, so its Undo left that seat
+    // behind, empty: two new moves at a new place is the ordinary first cloze of any place. And the journal as it is
+    // stored now, for the Undo to put back whole (`unjournal`).
+    const had = new Set(Object.keys(m)), h = this._progressHost;
+    const mark = h && typeof h.journalMark === "function" ? h.journalMark(this) : undefined;
+    for (const [st, mv, ok] of list) {
+      const state = had.has(st), row = own(m, st) ? m[st] : (m[st] = {}), cell = own(row, mv), was = row[mv];
+      // the writer builds the whole row: the answer at [3], the schedule's pair at [4] (v1.281.0), and the cells a later
+      // build added after the pair riding along (review R5)
+      row[mv] = ngKnowledgeScheduleRow(was, ok, day, 4);
+      lines.push([1, st, mv, ok ? 1 : 0, day, row[mv]]); prior.push([st, mv, state, cell, was]);
+    }
+    const ids = this._journal(lines);   // v1.280.2: the owner's undelivered answers
+    // the record changed in place: a new revision for the moves index (its identity did not move), then republish:
+    // the odds, the worker's profile, the map's gold and the account line all read it (a Yes adds, a No takes back)
+    this._movesRev = (this._movesRev || 0) + 1;
+    this._publishKnowledge("moves");
+    this._saveProgress();
+    return { prior, ids, mark, wrote: lines.map((l) => [l[1], l[2], l[5]]) };
+  }
+  /**
+   * UNDO OF THE LAST CONFIRM (L2, the orchestrator's ruling 4: "A mis-tap at Done must not send a year-old move back to
+   * one day with no way back: his rule that no account loses progress"). Every cell `_gradeMoves` wrote goes back to what
+   * it was, exactly: a cell or a state that did not exist is gone again, and the answers leave the journal (or the next
+   * merge would give them again), which goes back whole: no key where the confirm made the first. ONLY while each row is
+   * still the row that confirm wrote: a pull or another tab's merge that rebuilt one has taken it out of this copy's
+   * hands, and then nothing is undone (false). The cloud never saw the confirm: the push waits while the Undo is offered
+   * (`_undoHold`). WHAT "EXACTLY" LEAVES OUT, and nothing else: the two times of the save an Undo makes (the record's
+   * `updatedAt`, the stored envelope's `savedAt`). tests/master_cloze.test.mjs and master-cloze.spec.ts compare the rest whole.
+   */
+  _ungradeMoves(u) {
+    const m = this.moves || {}, same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+    if (!u || !u.wrote.every(([st, mv, row]) => m[st] && same(m[st][mv], row))) return false;
+    for (const [st, mv, state, cell, was] of u.prior) {
+      if (cell) m[st][mv] = was; else delete m[st][mv];
+      if (!state && m[st] && !Object.keys(m[st]).length) delete m[st];
+    }
+    const h = this._progressHost;
+    if (h && typeof h.unjournal === "function" && u.ids && u.ids.length) h.unjournal(this, u.ids, u.mark);
+    this._movesRev = (this._movesRev || 0) + 1;
+    this._publishKnowledge("moves");
+    this._undoing = true;   // the cloze draws itself after its own Undo (`_undoEnd` repaints only a hold that lapsed)
+    try { this._undoRelease(); } finally { this._undoing = false; }
+    this._saveProgress();
+    return true;
+  }
+  // THE CLOUD PUSH WAITS WHILE AN UNDO IS OFFERED (L2): the push is a whole-blob upsert about one second after a save, and a
+  // row the cloud holds beats the older row an Undo restores at the next pull (the merge keeps the later answer), so an
+  // undone confirm would come back. LIFTERS, all of them (§6.5): the Undo itself; the cloze's own moves on (the next
+  // confirm, the place left, the list: master-list.src.js); the drawer shut or another session (`_pushCloud` reads it);
+  // the page hidden (`_onVisHide`, before its flush). The local save is not held: a tab that dies keeps the confirm.
+  // WHEN THE HOLD ENDS, FOR ANY REASON, THE UNDO IS WITHDRAWN FIRST (L2-R1, the orchestrator's ruling on the reader's
+  // finding 2): the hold lapsed in a hidden tab while the Undo stayed on the line, so a confirm could reach the cloud and
+  // then be undone here. One way out for every lifter, `_undoEnd`: each confirm of that session loses its Undo (the line
+  // is drawn again without it, and the confirm is final), and only then may a push go.
+  // NOT COVERED: another tab or device that took the confirm in before the Undo gives it back at the next merge.
+  _undoEnd() {
+    const s = this._undoHold;
+    if (!s) return false;
+    this._undoHold = null;
+    let n = 0;
+    if (s.cz) for (const c of s.cz.values()) if (c.done && c.done.u) { c.done.u = null; n++; }
+    if (n && !this._undoing && this._session === s && this._sessionInline()) this._paintPractice(s);
+    return true;
+  }
+  _undoRelease() { if (this._undoEnd() && this._pushCloud) this._pushCloud(); }
+  // held only while that session's drawer is on screen: a hold whose session, drawer or page is gone ends here (its Undo
+  // with it), so nothing can hold a push for good
+  _undoHeld() {
+    if (!this._undoHold) return false;
+    if (this._undoHold === this._session && this.deckShown && !document.hidden) return true;
+    this._undoEnd();
+    return false;
   }
   // repaint ONE dealt card's EDGE channel in place — corner number, glyph and clock bar, all three
   // from the same `edgeMark`, so they cannot drift apart between a deal and a refresh.
@@ -13928,80 +16407,6 @@ class Component extends DCLogic {
     for (const c of cards) if (this.cardStage(key, c.q) < 2) return c;
     return null;
   }
-  // ═══════════════ THE NODE DOSSIER'S QUESTION (v1.100.0) ═══════════════
-  //
-  // The dossier is a state you WALKED INTO — on desktop by flying the camera into the node
-  // itself, on a phone by the sheet. So it asks. Three rules make it a study surface rather than
-  // a second landing card:
-  //
-  //  · IT KEEPS ASKING TO THE RECALL GATE. questionFor() stops at stage 2 because the landing
-  //    question is the in-play format and MC caps there. Here the ladder is the point: a card met
-  //    by recognition comes back as recall, which is the only route past 0.667 mastery.
-  //  · ITS ECONOMY IS STUDY-ONLY. See _renderNodeQuestion.
-  //  · IT IS NOT GATED BY `landQuestions`. That setting is "Questions while you roll" — it gates
-  //    the question that interrupts a TIMED decision. Opening a dossier stops the clock
-  //    (openDossier -> setPaused + _dossierAutoPaused); there is no decision to interrupt, and
-  //    silencing the surface a reader deliberately opened would delete a feature nobody
-  //    turned off.
-  //
-  // `skip` holds the qhashes already asked in THIS visit, so "Next card" advances instead of
-  // re-serving the card whose stage just moved from 0 to 1 (still under the gate, still first).
-  nodeQuestionFor(key, skip) {
-    const cards = this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key]);
-    if (!cards || !cards.length) return null;
-    for (const c of cards) {
-      if (skip && skip.has(this.qhash(c.q))) continue;
-      if (this._cardDue(key, c.q)) return c;               // due first (v1.105.0)
-    }
-    for (const c of cards) {
-      if (skip && skip.has(this.qhash(c.q))) continue;
-      if (this.cardStage(key, c.q) < 3) return c;
-    }
-    return null;
-  }
-  /**
-   * Recognition below the gate, recall at or above it.
-   *
-   * This is mcActive()'s `auto` branch stated explicitly, because the node card is deliberately
-   * NOT governed by `mcMode`: that setting chooses how the SIDEBAR reads a card back (default
-   * classic), and honouring it here would mean a default-settings user never meets a multiple
-   * choice on the one surface built to teach the ladder. The checkpoint quiz is MC always for
-   * the same kind of reason.
-   */
-  askFormat(key, card) { return this.cardStage(key, card.q) < 2 ? "mc" : "recall"; }
-  /** The live [data-node-q] host. The in-node card is retired (v1.101.0); this is the sheet. */
-  _nodeQHost() {
-    const card = this.nodeCardRef && this.nodeCardRef.current;
-    if (card && card.style.display !== "none") { const h = card.querySelector("[data-node-q]"); if (h) return h; }
-    const sh = this.dossierSheetRef && this.dossierSheetRef.current;
-    return sh && sh.style.display === "block" ? sh.querySelector("[data-node-q]") : null;
-  }
-  /** A payload this question needs is in flight — dock the question when it lands, once. */
-  _nodeWarm(n, fn) {
-    const idx = n.idx;
-    const p = Promise.resolve()
-      .then(fn)
-      .then(() => {
-        if (!this._nodeQ || this._nodeQ.idx !== idx || this._nodeQ.answered) return;
-        const host = this._nodeQHost();
-        if (host) this._renderNodeQuestion(this.nodes[idx], host);
-      })
-      .catch(() => {});
-    this._nodeWarmP = p;
-    p.then(() => { if (this._nodeWarmP === p) this._nodeWarmP = null; });
-  }
-  /** Is the node card's question settled — mounted, or definitively not coming? */
-  nodeQuestionReady() { return !this._nodeWarmP; }
-  /** Resolves once it is. Chases the chain (deck chunk → distractor pool → render). */
-  async nodeSettled() {
-    for (let i = 0; i < 8; i++) {
-      const p = this._nodeWarmP;
-      if (!p) return;
-      await p.catch(() => {});
-      if (this._nodeWarmP === p) return;
-    }
-  }
-  /** Forget this visit's question — a different node, or the card going away. */
   /**
    * A TEMPORARY SURFACE GIVES THE KEYBOARD BACK (§6.5 — a single-slot resource with many writers).
    *
@@ -14017,7 +16422,6 @@ class Component extends DCLogic {
    */
   _handBackMc(fromSurface, declinedOnEntry) {
     if (fromSurface === "pane") {
-      if (this._dossierIdx != null) return; // a temporary question still owns its keys
       const recall = this._landEl && this._landEl.querySelector("[data-land-recall]");
       const truth = recall && recall.__ngRecall;
       this._recall = truth && !truth.spent && !(this._landQ && this._landQ.revealed) ? truth : null;
@@ -14026,120 +16430,6 @@ class Component extends DCLogic {
     const back = opt && opt.parentNode ? opt.parentNode.__ngMc : null;
     const askable = declinedOnEntry || !(this._landQ && this._landQ.answered);
     this._mc = back && askable ? back : null;
-  }
-  _clearNodeQ() {
-    this._nodeQ = null; this._nodeAsked = null; this._nodeWarmP = null;
-    this._handBackMc("node");
-  }
-  /**
-   * Fill the dossier's question section.
-   *
-   * ECONOMY — deliberately NARROWER than the landing card's. Answering here mints the ORDINARY
-   * card credit and nothing else: stage (_bumpStage, MC capped at the recall gate), prep,
-   * sharpness, cross-deck credit and the daily counter, all via the shared _mcAnswer/gradeRecall
-   * paths. It does NOT call refundDecision (there is no clock — the dossier paused it),
-   * _comboUp (momentum is a roll mechanic, and a paused screen would farm it) or touch _qMod
-   * (that penalty prices an exchange that is not being taken). Those three are the landing
-   * question's own onDone (_landAnswered); this surface simply does not wire them.
-   *
-   * A SCORED QUESTION IS FROZEN. Re-mounting one would reshuffle it under the reader and hand out
-   * a second attempt at credit already given — so an answered card is restated read-only if the
-   * card around it is ever rebuilt, and never re-blocked.
-   */
-  _renderNodeQuestion(n, host) {
-    if (!host) return;
-    const key = this.deckKeyFor(n).key;
-    const qHead = (txt) => '<div data-node-qtext="1" style="font-size:1em;font-weight:600;color:#dbe2f0;line-height:1.35;margin-bottom:.6em;">' + txt + '</div>';
-    // A QUESTION ALREADY ON THE TABLE IS RE-PARENTED, NEVER REBUILT — the landing card's `reuse`
-    // rule, and for the same two reasons. Every render draws a fresh shuffle, so rebuilding moves
-    // the correct answer under the reader's cursor mid-read; and rebuilding a SCORED block hands
-    // out a second attempt at credit already given. The same element, the same closure, moved.
-    const prior = this._nodeQ;
-    if (prior && prior.idx === n.idx && prior.card && prior.el) {
-      if (host.contains(prior.el)) return;                    // still on screen — leave it alone
-      host.innerHTML = qHead(prior.card.q);
-      host.appendChild(prior.el);
-      if (prior.el.__ngMc && !prior.answered) this._mc = prior.el.__ngMc;   // A-D still grades it
-      return;
-    }
-    const say = (reason, txt) => {
-      host.innerHTML = '<div data-node-q-empty="' + reason + '" style="font-size:.95em;line-height:1.45;color:#8b97b0;">' + txt + '</div>';
-      this._nodeQ = { idx: n.idx, key: key, card: null, answered: false, format: null, reason: reason, el: null };
-      this.fx("node_q_skipped", { deckKey: key, reason: reason, node: n.t });
-    };
-    const wait = (txt) => {
-      host.innerHTML = '<div data-node-q-empty="loading" style="font-size:.95em;line-height:1.45;color:#8b97b0;">' + txt + '</div>';
-      this._nodeQ = { idx: n.idx, key: key, card: null, answered: false, format: null, reason: "loading", el: null };
-    };
-    const status = this.deckStatus(key);
-    // NAME THE GAP. A dossier that asks nothing is legitimate; a dossier that shows an empty
-    // section is a bug the reader has to guess at.
-    if (status === "missing" || status === "empty") return say("no_cards_authored", "No flashcards are written for this state yet.");
-    if (status === "failed") return say("deck_unavailable", "These cards could not be loaded — close and reopen to try again.");
-    if (status === "pending" || status === "loading") { wait("Loading this state’s cards…"); this._nodeWarm(n, () => this.hydrateDeck(key)); return; }
-    const card = this.nodeQuestionFor(key, this._nodeAsked);
-    if (!card) return say(this._nodeAsked && this._nodeAsked.size ? "visit_complete" : "deck_proven",
-      this._nodeAsked && this._nodeAsked.size ? "That’s every card this state still owed you." : "Every card here is recall-proven.");
-    const format = this.askFormat(key, card);
-    // MC RESIDENCY (v1.80.4 rule): the distractor pool must be resident before we draw, or which
-    // neighbour chunks happened to arrive would decide the options — and therefore the RNG stream.
-    if (format === "mc" && !this.mcPoolWarm(key, card)) { wait("Loading this state’s cards…"); this._nodeWarm(n, () => this._warmMcPool(card, key, "node")); return; }
-    host.innerHTML = qHead(card.q);
-    const done = (correct, tier) => {
-      const q = this._nodeQ;
-      if (q) q.answered = true;
-      (this._nodeAsked = this._nodeAsked || new Set()).add(this.qhash(card.q));
-      this.fx("node_q_answered", { deckKey: key, node: n.t, format: fmt, correct: !!correct, tier: tier || null });
-      this._refreshNodeCount();
-      // one deliberate step onward — the counter just moved, and a dead card is a dead surface
-      if (this.nodeQuestionFor(key, this._nodeAsked)) {
-        const nx = document.createElement("button");
-        nx.type = "button";
-        nx.setAttribute("data-node-next", "1");
-        nx.style.cssText = "align-self:center;margin-top:.7em;cursor:pointer;font-family:inherit;font-size:.9em;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.6em 1.2em;min-height:2.8em;border-radius:.66em;border:1px solid rgba(150,170,210,.26);background:rgba(255,255,255,.04);color:#9ab0e0;";
-        nx.textContent = "Next card ▸";
-        nx.addEventListener("click", () => { this._nodeQ = null; this._renderNodeQuestion(n, host); });
-        host.appendChild(nx);
-      }
-    };
-    // FALL BACK TO RECALL, DO NOT FALL SILENT. mcDistractors returns null when fewer than two
-    // usable distractors survive its length/similarity filters — routine for a long or unusual
-    // answer, and measured here on a submission node. The landing card can only skip in that case
-    // (multiple choice IS the in-play format), but recall is this surface's other native format
-    // and works for any card at all, so a state that cannot be recognised is still studied.
-    let fmt = format;
-    let block = fmt === "mc" ? this._mcBlock(card, key, done, "node") : null;
-    if (!block) { fmt = "recall"; block = this._recallBlock(card, key, done, "node"); }
-    if (!block) return say("no_question", "This card cannot be asked here yet.");
-    this._styleNodeBlock(block);
-    host.appendChild(block);
-    this._nodeQ = { idx: n.idx, key: key, card: card, answered: false, format: fmt, reason: null, el: block };
-    this.fx("node_q_shown", { deckKey: key, node: n.t, format: fmt, asked: format, stage: this.cardStage(key, card.q) });
-  }
-  /**
-   * _mcBlock styles its options in fixed px (it was written for the pane, which has one text
-   * size). The node card is em-driven — ONE root font-size scales every dimension with the shape
-   * — so a 12px option inside a triangle whose root em is 14.8px reads as fine print. Re-express
-   * the block's own sizes in em; nothing about its behaviour is touched.
-   */
-  _styleNodeBlock(block) {
-    block.style.gap = ".5em";
-    block.querySelectorAll("button").forEach((b) => {
-      b.style.fontSize = "1em";
-      b.style.lineHeight = "1.4";
-      if (b.hasAttribute("data-node-mc-opt")) { b.style.padding = ".6em .75em"; b.style.borderRadius = ".6em"; b.style.minHeight = "2.4em"; }
-    });
-  }
-  /** Repaint the header's familiarity chip in place — the count is what an answer just moved. */
-  _refreshNodeCount() {
-    const host = this.nodeCardRef && this.nodeCardRef.current;
-    const chip = host ? host.querySelector("[data-node-count]") : null;
-    if (!chip || this._nodeCardIdx == null || !this.nodes[this._nodeCardIdx]) return;
-    const key = this.deckKeyFor(this.nodes[this._nodeCardIdx]).key;
-    const box = document.createElement("div");
-    box.innerHTML = this.familiarityChip(key, "data-node-count", { fs: ".82em", gs: ".9em" }).html;
-    const fresh = box.firstChild;
-    if (fresh && chip.parentNode) chip.parentNode.replaceChild(fresh, chip);
   }
   // ○ new to you · ◐ met some · ● recall-proven — the "have you done this" marker
   seenGlyph(key) {
@@ -14172,15 +16462,38 @@ class Component extends DCLogic {
    * Glyph-only when nothing is authored yet; `total` reads the manifest `n` until the chunk lands,
    * so an unhydrated deck reports the user's real progress instead of "no cards".
    */
-  // ── RECALL COMES WITH RANK (v1.133.0, owner) ── "for blue belts at least the technique
-  // should have a limited time to answer in flashcard Q/A, not MC." From BLUE up, a stage-2+
-  // card asks as timed recall in play; below blue (or below stage 2) recognition-first MC holds.
-  // The black-belt badge still force-enables the toggle (a floor-lowerer, no longer the only gate).
-  _recallInPlayNow() {
-    if (this.get("recallInPlay", false)) return true;
-    // the WORN belt since v1.211.0 (owner): "from blue" means blue in the Challenges, never a
-    // Game Knowledge band — see wornBelt()
-    try { return this.wornBelt().rank >= 1; } catch (e) { return false; }
+  // ── TIMED RECALL IN A ROLL WAS A SWITCH (U163 c, v1.270.0 to v1.282): `recallInPlay`, else the carry-over below, decided
+  // whether a stage-2+ card asked as timed recall in a roll. SINCE v1.282.0 THE ANSWER MODE DECIDES IT (`_answerMode`,
+  // beside `mcActive`; rulings R2/SET1-GO): Auto asks exactly what Recall mode On asked. `_recallInPlayNow`, the switch's
+  // reader, is deleted; the key `recallInPlay` is kept (a settings key can never be deleted, CLAUDE.md 6.6) and read by
+  // nothing. The carry-over's FACT is still stamped and merged as before (`recallCarry`, an added top-level `true`, OR
+  // across devices), so it stays true to what an older client reads; it decides nothing here.
+  // THE CARRY-OVER: a player whose roll questions were timed recall because of their belt keeps them, until they choose.
+  // Carried = the account's fact `recallCarry` (set once by `_syncBelt`, merged as OR, never cleared: a promotion under the
+  // rule re-stamps `belts.held` and cannot take it back), or, before that fact is written, the live reading below: the belt
+  // held (`belts.held`, MAX across devices, its stamp the moment it was first earned) is blue or above AND was earned no
+  // later than the moment the open rule first ran for this account (`openAt`; none yet means the rule has not run, so
+  // anything held predates it). A belt earned after `openAt` switches nothing on. (Until v1.282.0 Settings showed this as
+  // the switch's value until the player pressed one; nothing here ever wrote the switch, and nothing reads it now.)
+  // CLOCKS: both stamps come from device clocks, compared as they are, except that a held stamp in this device's future is
+  // clamped to its now (the srs merge clamps `last` the same way). What that holds: a belt already in this device's copy
+  // when it first runs the rule is carried, however far behind its clock (tests/belt_worn.test.mjs, the clock test). What
+  // it does not (named, measured by the delta read's D3): a pre-rule belt that arrives by the pull AFTER a device whose clock
+  // is behind took its stamp is clamped to that device's now, later than the stamp, so it is not carried (a loss); a belt
+  // earned UNDER the rule on a device whose clock is behind can carry a stamp earlier than the account's, so it is carried,
+  // for good through the OR (a gift); a belt stamped by a clock that ran ahead, on an account whose rule began earlier,
+  // reads as after it (a loss). OTHER EDGES (named, no machinery): a promotion in an old tab left open after another device
+  // ran the rule follows the old tab's rule, and an old tab reaching black mints the patch and writes the switch On over an
+  // earlier Off (its own mint); an old tab that pulled before the fact existed can push a whole copy without it, and a
+  // device holding the fact puts it back at its next save (the general stale-tab lost update); a belt earned on an offline
+  // old device between a guest's stamp and the account's, seen by no new client before the guest join, is judged against
+  // the earlier stamp and not carried; a blue re-stamped purple on an old client, on an account whose only new-code device
+  // ran first offline without that blue, is not carried (the fact was never set).
+  // (`_recallCarried`, the fact's reading for the switch, went with `_recallInPlayNow` in v1.282.0: its one reader.)
+  _recallCarryLive() {
+    const h = this.belts && this.belts.held, at = this._openAt || 0;
+    if (!h || ngBeltRank(h.id) < 1) return false;
+    return !(at > 0 && Math.min(Number(h.t) || 0, Date.now()) > at);
   }
   /** done/total for one deck, the manifest `n` standing in until the chunk lands (see above).
    *  ONE reader for the node card's chip and the landing card's corner count (v1.175.0). */
@@ -14189,17 +16502,6 @@ class Component extends DCLogic {
     const total = this._deckCardCount(deckD);
     const done = Math.min((this.prep && this.prep[key]) || 0, total);
     return { total: total, done: done, full: total > 0 && done >= total };
-  }
-  familiarityChip(key, attr, opts) {
-    const o = opts || {};
-    const glyph = this.seenGlyph(key);
-    const { total, done, full } = this._deckProgress(key);
-    const title = glyph[2] + (total ? " · " + done + " of " + total + " cards recall-proven" : "");
-    const html = '<span ' + attr + '="' + (total ? done + "/" + total : "") + '" title="' + title + '" role="img" aria-label="' + title + '" style="flex:none;' + (o.style || "") + 'display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);font-size:' + (o.fs || "10.5px") + ';font-weight:700;font-family:\'Space Grotesk\',sans-serif;color:' + (full ? "#7ee0a8" : "#9ab0e0") + ';">' +
-      '<span style="font-size:' + (o.gs || "11px") + ';line-height:1;color:' + glyph[1] + ';">' + glyph[0] + '</span>' +
-      (total ? '<span>' + done + "/" + total + '</span>' : '') +
-    '</span>';
-    return { html: html, total: total, done: done, glyph: glyph, full: full };
   }
   ngContentFor(node) {
     return this._ngc(node.ty === "positions" ? this.deckKeyFor(node).key : node.t);
@@ -14307,7 +16609,9 @@ class Component extends DCLogic {
   _clearLandFilm() {
     // D-354 N3: the film's only remover also ends the reader's media-home observation (D-353), which
     // otherwise held every replaced film until the reader was destroyed.
-    if (this._landFilmEl) { this.clearClipLoops(); if (this._landFilmEl._ngRO) this._landFilmEl._ngRO.disconnect(); this._reader?.resize.unobserve(this._landFilmEl); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
+    // VID1: only a clip OF this film stops with it. A move's or a Principle's video plays in the same theater and is not
+    // this film's to close (a deck landing behind a move's video re-renders the film: coldstart-backfill.spec.ts).
+    if (this._landFilmEl) { if (this._expandedClip && this._landFilmEl.contains(this._expandedClip)) this.clearClipLoops(); if (this._landFilmEl._ngRO) this._landFilmEl._ngRO.disconnect(); this._reader?.resize.unobserve(this._landFilmEl); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
   }
   /** Full card-slot teardown; a same-question repaint preserves its scroll offset. */
   clearLandCard(preserveScroll, preserveMedia) {
@@ -14405,7 +16709,7 @@ class Component extends DCLogic {
     // The shared face does not change the defensive drill's v1.135.0 MC rule,
     // RNG stream or knowledge ledger. "panic" remains its grading/telemetry ID.
     const defense = mode === "defense", surface = defense ? "panic" : "land";
-    const landRecall = !defense && !!(this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
+    const landRecall = !defense && !this._cardAsksMc(key, card);   // the answer mode (`_answerMode`); defence stays MC
     const qh = this.qhash(card.q);
     const rec = { key: key, card: card, mode: mode || "land", answered: false };
     const qw = document.createElement("div");
@@ -14522,6 +16826,7 @@ class Component extends DCLogic {
     const el = this._landEl, q = this._landQ;
     if (!this._landAsk || !el || !q || this._landHidden(true)) return;
     this._landAsk = false;
+    q.seen = true;                         // SHORT4: the tap that takes it up is on its card, so it faces the player (`_offTick`)
     this._landTakenAt = performance.now(); // opens the double-tap guard (_landTapGuard)
     this._landOptIn();                     // U52 b: later landings show the full card directly
     // The quiet line had `animation:none`; dropping it would replay the card's entry fade on the question just
@@ -14572,6 +16877,52 @@ class Component extends DCLogic {
       if (qt.getBoundingClientRect().height <= max) lo = mid; else hi = mid - 1;
     }
     tx.textContent = full.slice(0, lo).trimEnd() + "\u2026";
+  }
+  /** FOLD1 (owner, U136 a, 2026-11-11: "Yes: the first ✕ folds it back to the one-line question"; his report that started it,
+   *  CARDGAP1: "i was expecting it to go back into being a question"). The ✕ on an OPENED card whose question is still open
+   *  folds it back to the one-line question, "Answer for Points" and all; returns false where there is nothing to fold (the
+   *  line itself, an answered or timed-out question, no question), and the ✕ then hides Questions as b2 does (U131 b2:
+   *  setLayer's "x", the message in place, reader.src.js notice). A fold hides nothing, so it raises no message. Nothing is
+   *  declined and nothing is graded: the question stays on the table, its clock parks with what is left (q.left, paging's
+   *  rule, so taking it up again resumes that window, never a fresh one; a hide and its Undo keep it too, _applyLayers), and
+   *  later landings ask with the line again (the take-up memory is cleared). The line is built as _mountLandQ builds it;
+   *  that block is pinned by minified-source mutants (neural_app_mutants.mjs), so it is copied here, not shared.
+   *  Pinned by e2e/journeys/card-fold.spec.ts. */
+  _landFold() {
+    const el = this._landEl, q = this._landQ, qw = el && el.querySelector("[data-land-q]");
+    if (!el || !q || !qw || this._landAsk || q.answered || q.revealed || this._landHidden(true)) return false;
+    const d = this._decision;
+    if (d && d.remaining != null) q.left = d.remaining;
+    this._disarmLandClock();
+    this._landAsk = true;
+    this._landOpted = false;
+    try { sessionStorage.removeItem(NG_LAND_ASK_KEY); } catch (e) { /* page-long, then */ }
+    const qt = qw.firstElementChild, block = qw.lastElementChild;
+    block.inert = true;
+    qt.textContent = "";
+    const tx = document.createElement("span");
+    tx.setAttribute("data-land-ask-text", "");
+    tx.textContent = q.card.q;
+    const go = document.createElement("button");
+    go.type = "button";
+    go.setAttribute("data-land-ask-go", "");
+    go.textContent = "Answer for Points";
+    go.style.pointerEvents = "auto";
+    qt.append(tx, " ", go);
+    if (!qt._ngFold) { qt._ngFold = true; qt.addEventListener("click", () => this._landReveal()); }
+    const ro = new ResizeObserver(() => {
+      if (!qt.isConnected || !this._landAsk) { ro.disconnect(); return; }
+      if (qt.clientWidth !== ro.w) { ro.w = qt.clientWidth; this._fitAskLine(qt); }
+    });
+    ro.observe(qt);
+    el.style.animation = "none";
+    el.setAttribute("data-land-ask", "");
+    this.fx("land_q_folded", { deckKey: q.key || null, mode: this._landMode || "land" });
+    this._updateLandDeck();
+    this._reader?.layoutNow();
+    this._dockLandCard(el);
+    go.focus({ preventScroll: true });
+    return true;
   }
   _landOptedIn() {
     if (NG_LAND_ASK_MEMORY === "never") return false;
@@ -14657,13 +17008,18 @@ class Component extends DCLogic {
     }
     const prev = nav.querySelector("[data-land-prev]"), next = nav.querySelector("[data-land-next]");
     const focused = document.activeElement;
-    prev.hidden = !!this._landAsk || this._landPage === 0;
-    next.hidden = !!this._landAsk || this._landPage === total - 1;
-    // Do not strand keyboard focus on a control that disappeared at a deck boundary.
-    if ((focused === prev && prev.hidden) || (focused === next && next.hidden)) {
-      const available = prev.hidden ? next : prev;
+    // v1.253.0 (owner, 2026-11-09): at a deck boundary the arrow stays where it was, disabled. Hidden, a second press there fell
+    // through to the map, whose background tap closes the card and the film (land_q_declined, land_dismissed); the deck ending
+    // is no reason for either to go. _landSurfaces() holds the nav, so a press on a disabled arrow never reaches the map.
+    prev.hidden = next.hidden = !!this._landAsk;
+    prev.setAttribute("aria-disabled", this._landPage === 0);
+    next.setAttribute("aria-disabled", this._landPage === total - 1);
+    const off = (b) => b.hidden || b.getAttribute("aria-disabled") === "true";
+    // Do not strand keyboard focus on a control that went off at a deck boundary.
+    if ((focused === prev && off(prev)) || (focused === next && off(next))) {
+      const available = focused === prev ? next : prev;
       // Asking hides both (U52 b): keyboard focus goes to Answer for Points, never to the page (APTS-R4).
-      (available.hidden ? el.querySelector("[data-land-ask-go]") : available)?.focus({ preventScroll: true });
+      (off(available) ? el.querySelector("[data-land-ask-go]") : available)?.focus({ preventScroll: true });
     }
     if (!this._landStackEl) {
       const stack = document.createElement("div");
@@ -14705,7 +17061,8 @@ class Component extends DCLogic {
     // If it exceeds the available band, start at the top and move the entire column to read.
     // Expanding a video keeps the thumbnail's reservation; playback must not squash the deck.
     const film = this._landFilmEl;
-    const filmHeight = film ? (this._expandedClip ? (this._expandedClip._bh || 92) + 6 : Math.ceil(film.getBoundingClientRect().height)) : 0;
+    // 92 + 6, as before VID1 (a framed clip never carried `_bh`; since VID1 no card grows, so none does).
+    const filmHeight = film ? (this._expandedClip ? 98 : Math.ceil(film.getBoundingClientRect().height)) : 0;
     const filmSpace = !this._compactLandDeck() && filmHeight ? filmHeight + 8 : 0;
     // The persistent article/shelf can make the full phone stack taller than the
     // viewport. Keep a visible graph band and use the existing column scroll for
@@ -14798,7 +17155,7 @@ class Component extends DCLogic {
       mount(cached.el);
       return true;
     }
-    const recallable = this._landMode !== "defense" && !!(this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
+    const recallable = this._landMode !== "defense" && !this._cardAsksMc(key, card);
     if (!recallable && !this.mcPoolWarm(key, card)) {
       // cold distractor pool: warm it through _landWarmP (replace-not-clear, so landSettled()
       // still means settled), and only mount if the player has not paged again meanwhile
@@ -14895,13 +17252,12 @@ class Component extends DCLogic {
     //   · cards absent            -> hydrate this deck
     //   · cards here, MC in play  -> warm the distractor pool first, so the options are not a
     //                                function of which neighbour chunks happened to arrive
-    // THE IN-PLAY FORMAT (v1.105.1). MC by design, whatever mcMode says (that setting governs
-    // the sidebar) — EXCEPT under the black-belt badge: `recallInPlay` (a reward toggle, locked
-    // until the knowledge band reaches black) renders a stage-2+ card as the classic
-    // reveal/self-grade block instead. Per-card, exactly as the owner specified: "after the
-    // player gets the multiple choice right, the second time we show the card... Q and A, and we
-    // hide the answer." A stage-0/1 card stays MC even with the badge on — recognition first.
-    const landRecall = !defense && !!(card && this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
+    // THE IN-PLAY FORMAT is the answer mode's (v1.282.0, `_answerMode`, beside `mcActive`): Auto asks a stage-0/1 card as
+    // multiple choice and a stage-2+ card as the reveal/self-grade block, which is what Recall mode On did here from
+    // v1.105.1 to v1.282 (owner, then: "after the player gets the multiple choice right, the second time we show the
+    // card... Q and A, and we hide the answer"); Front Back cards asks every card front and back, Multiple choice none.
+    // `recallInPlay` and the carried belt no longer decide it (R2: one switch, and the screen says which).
+    const landRecall = !defense && !!card && !this._cardAsksMc(key, card);
     let warm = null, warmKind = null;
     if (wantQ && !card && !this._deckResident(key)) { warm = () => this.hydrateDeck(key); warmKind = "deck"; }
     // the warm gate is FORMAT-AWARE: a recall block needs no distractor pool, and holding its
@@ -14941,7 +17297,7 @@ class Component extends DCLogic {
     // The deferred reader must publish the first rectangle before an answer can
     // paint or take input. Released by layoutNow, or by the module failure path;
     // a pending question neither arms its clock nor consumes a keyboard answer.
-    if (this.get("readerBook", true) && !this._readerFailed) el.setAttribute("data-reader-pending", "");
+    if (!this._readerFailed) el.setAttribute("data-reader-pending", "");
     this.wrapRef.current.appendChild(el);
     this._landEl = el;
     this._landIdx = node.idx; this._landMode = mode || "land"; // what _landBackfill is allowed to refill
@@ -15018,10 +17374,14 @@ class Component extends DCLogic {
       // resolution: dock → land_q_shown; failure or landing over → the skip, then (see the warm
       // .then and _flushLandSkipDebt). A missing MANIFEST stays an immediate skip: nothing is
       // even requestable, and the funnel must name that silence while it lasts.
+      // A BACKFILL NEVER REPEATS THE SKIP BEAT (v1.282.2, FLAKE2; the card layer's rule above): a landing whose manifest
+      // arrived late recorded its skip when it rendered, and `onFlashcardsReady` → `_landBackfill` re-renders the SAME landing
+      // (`_landLate`), still before its deck is requested; recording the skip again counted one landing as two drop-offs in the
+      // funnel (`question_skipped`). One landing is one drop-off; the question that then docks is the backfill's own beat
       if (warmKind === "pool") { /* pending, never skipped — mc_pool_cold names the wait */ }
       else if (reason === "decks_in_flight" && this.flashcards && this._deckWaits && this._deckWaits[key])
         this._landSkipDebt = { key: key, mode: mode };
-      else this._landQSkip(key, reason, mode);
+      else if (!this._landLate) this._landQSkip(key, reason, mode);
     }
 
     el.toggleAttribute("data-land-ask", !!this._landAsk && !!this._landQ);
@@ -15159,7 +17519,7 @@ class Component extends DCLogic {
     // clearance above the dealt choices.
     this._dockLandCard(el);
     // a fresh card born while the reading sheet owns the screen must not pop over it
-    if (this._traySup || this._dossierIdx != null) this._suppressLand(true);
+    if (this._traySup) this._suppressLand(true);
     return el;
   }
   // The deferred reader owns a page, never the question DOM. Automatic game arrivals
@@ -15203,14 +17563,34 @@ class Component extends DCLogic {
     const key = n.ty === "positions" ? this.deckKeyFor(n).key : n.t, C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
     return !Object.prototype.hasOwnProperty.call(C, key) && !!this._contentWaits?.[key];
   }
-  _readerHold(r, shown, W, H) {
+  /** FREE ROAM PUTS THE ARTICLE AWAY (owner, U123, 2026-11-10: "in free roam there wouldn't be any article to show, nor ToC";
+   *  2026-11-11: "take care of it"). Until then free roam left the node's article and its index on screen: U114 a had retired
+   *  the one control that put them away. `_readerAway` is a latch, so all of its writers are named here (§6.5):
+   *   SET      by `_enterRoam` (the background tap's second step, or its first once the card is closed: the only way in).
+   *   LIFTED   by `_readArticle`, as each request reaches the reader: the next landing's own (`_queueReader`), or one asked for
+   *            on purpose (a row, a search hit, a link, a URL, Back/Forward). An automatic request that reaches the reader while
+   *            the board is still in free roam is the ended landing's, late (the module's first load) and keeps it away.
+   *   BACKSTOP `_readerHold`, on every reader layout: a landing that publishes is never hidden, even one that asked for no article
+   *            (that one shows what the reader holds, as before); while away it repaints, because a render builds a new index.
+   *  Visibility only on the reader: no box moves, so its place, the closed sections and every measurement hold, and the next
+   *  landing on the same node shows its article where it was left (the reader's same-path open keeps it). The index, outside the
+   *  reader, loses its box; `data-indexed` is left alone, since it reflows the article. `_mapAlone` reads the visibility, so the
+   *  key shows. A page (Principle, Learning, System) is never put away: `_leaveRollForReference` leaves `_roam` set, so
+   *  `_enterRoam` returns first. Here in the eager app, not in reader.src.js, because the deferred bundle's ceiling is exact. */
+  _putReaderAway(away) {
+    this._readerAway = away;
+    const r = this._reader; if (!r) return;
+    r.root.style.visibility = away ? "hidden" : "";
+    if (this._readerTocEl) this._readerTocEl.style.display = away ? "none" : "";
+  }
+  _readerHold(r, W, H) {
     const q = this._readerQueued, pin = this._readerPin, card = this._landEl;
     // the landing's first layout: the hand is adopted and held (or not) by the time this layout returns, so the
     // Win chance it waited for (`_readerAwaited`) is asked again then, held or not
     if (q && !q.laid && q.idx === this._landIdx) { q.laid = true; queueMicrotask(() => this._ensureGameValues()); }
     // Settled: graded (the event: a reading decline also marks the question answered, and must not
     // release live parts), the card or hand closed, the next landing, the article put away, a new viewport.
-    if (pin && (pin.q !== q || !shown || pin.W !== W || pin.H !== H || !this._handShown() || pin.graded || card && !this._layerOn("card"))) {
+    if (pin && (pin.q !== q || pin.W !== W || pin.H !== H || !this._handShown() || pin.graded || card && !this._layerOn("card"))) {
       this._readerPin = null; setTimeout(() => r.sync());
     }
     let hold = 0;
@@ -15218,9 +17598,8 @@ class Component extends DCLogic {
       // the reader's own cleanPath: a URL arrival may carry a hash, a trailing slash or ".html"
       const path = decodeURI(new URL(q.path, location.href).pathname).replace(/\.html$/, "").replace(/\/$/, "") || "/";
       if (q.skip || r.root.dataset.readerReady === "true" && r.path === path) q.pub = true;
-      else if (!shown) q.live = true;
       else {
-        const age = q.live ? 800 : performance.now() - (q.at || (q.at = performance.now()));
+        const age = performance.now() - (q.at || (q.at = performance.now()));
         if (age < 800) { hold = 801 - age; clearTimeout(this._readerHoldT); this._readerHoldT = setTimeout(() => r.layout(), hold); }
         else { q.pub = true; this._readerPin = { q, W, H }; hold = -1; }
       }
@@ -15230,7 +17609,7 @@ class Component extends DCLogic {
     // mounting until the player's own input (D-352 S2).
     if (card && this._filmHold?.card !== card) this._filmHold = { card, at: performance.now() };
     const F = card && this._filmHold;
-    if (F && !F.done && hold <= 0 && shown && !this._readerPin && this._filmPending()) {
+    if (F && !F.done && hold <= 0 && !this._readerPin && this._filmPending()) {
       const age = performance.now() - F.at;
       if (age < 800) { hold = 801 - age; clearTimeout(this._readerHoldT); this._readerHoldT = setTimeout(() => r.layout(), hold); }
       else { this._readerPin = { q, W, H }; hold = -1; }
@@ -15242,6 +17621,7 @@ class Component extends DCLogic {
     // hidden, so an activation that came while the hold kept it pending went idle with nothing to retry it:
     // the Win chance never started. Publication starts it (idempotent once loading, loaded or failed).
     if (held && hold <= 0) this._ensureGameValues();
+    if (this._readerAway) this._putReaderAway(hold > 0 || this._landIdx == null);   // the free-roam latch's backstop and repaint
     return hold;
   }
   /** D-351: a graded card (answered or expired) settles a pinned landing. A correct defense answer
@@ -15283,7 +17663,11 @@ class Component extends DCLogic {
         retry.setAttribute("data-reader-load-retry", ""); card.append(retry); this.openModal();
       });
     return this._readerLoad.then(() => {
-      if (!this.__ngDestroyed && request === this._readerRequest) return this._reader?.open(request);
+      if (this.__ngDestroyed || request !== this._readerRequest) return;
+      // The free-roam latch's lift (`_putReaderAway`). Outside free roam nothing is written: the ordinary path is as it was.
+      const away = !intent && !!this._roam;
+      if (away || this._readerAway) this._putReaderAway(away);
+      return this._reader?.open(request);
     });
   }
 
@@ -15310,7 +17694,9 @@ class Component extends DCLogic {
     // collapsed". `setLayer` declines this question (free), names the dismissal, takes the card
     // (film stays: its own layer) and persists the choice; the dock brings it back. On the panic
     // drill — same chrome, same seam — it hides the drill and the escapes stay dealt.
-    xb.addEventListener("click", (e) => { e.stopPropagation(); this.setLayer("card", false, "x"); });
+    // FOLD1 (owner, U136 a): on an opened card whose question is still open the ✕ folds it back to its one line (_landFold); on the
+    // line, or once answered, it hides Questions with b2's message (U131 b2).
+    xb.addEventListener("click", (e) => { e.stopPropagation(); if (!this._landFold()) this.setLayer("card", false, "x"); });
     btns.appendChild(xb);
     corner.appendChild(btns);
     // ── THE DECK COUNT, UNDER THE BUTTONS (v1.175.0, owner) ── "kept only as gray text under
@@ -15334,6 +17720,14 @@ class Component extends DCLogic {
   // Tall questions scroll the landing column. Docks measure in its home frame;
   // `_readApply` restores the offset and returns the hand to its tray at the end.
   _readOffset() { return this._readMax ? (this._readS || 0) : 0; }
+  // THE SEARCH'S KEYS: "/" outside a text field, and Cmd or Ctrl with K anywhere. One predicate, read by this handler and by
+  // the reader's root (reader.src.js), which stops every other key while the focus is in the article: until REFSEARCH
+  // it stopped these too, so on a principle, system or learning page, where the reader puts the focus on the
+  // article's heading, a late "/" did nothing (3 of 3, the third read of #432) while an early one opened the panel.
+  _isSearchKey(e) {
+    const t = e.target, typing = t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
+    return ((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing);
+  }
   _readKey(e) {
     const target = e.target;
     if (this.deckShown || !this._readMax || this._landHidden() || e.metaKey || e.ctrlKey || e.altKey || !target ||
@@ -15450,25 +17844,6 @@ class Component extends DCLogic {
     el.addEventListener("touchcancel", end, { passive: true });
     el.addEventListener("click", (e) => { if (moved > 6) { e.stopPropagation(); e.preventDefault(); } moved = 0; }, true);
   }
-  /**
-   * The DEFINITION, with the page-title sentence taken off the front.
-   *
-   * 1144 of the 1598 authored `def` strings (72%) open with "Master <thing> in BJJ." — an SEO
-   * lead-in for the static page — and `mcClip` clips to the FIRST SENTENCE, so the reader was
-   * shown the marketing line and denied the definition behind it. In every one of those 1144 there
-   * IS content after it ("Deep underhook half guard variant with excellent sweeping and back-take
-   * options…"). Owner, on seeing "Master the Estima Lock Bottom Position in BJJ." under More:
-   * "this is kinda pointless info". It was — but the fix is to skip the lead-in, not to drop the
-   * field: the useful half was one sentence away the whole time.
-   */
-  definitionOf(raw) {
-    let t = String(raw == null ? "" : raw).trim();
-    if (!t) return "";
-    t = t.replace(/^\s*(?:master|learn|discover)\b[^.!?]{0,90}?\bin (?:bjj|brazilian jiu-?jitsu)\b[.!?]\s*/i, "");
-    t = t.trim();
-    if (!t) return "";                       // it was ONLY the lead-in: say nothing
-    return this.mcClip(t) || t.slice(0, 220);
-  }
   /** Article styles load on reading intent, or after the real
    * hand for a game preview. A failed fetch drops the promise so retry can work;
    * callers await this before painting prose to avoid an unstyled frame. */
@@ -15484,8 +17859,6 @@ class Component extends DCLogic {
       document.head.appendChild(l);
     }));
   }
-  /** Is the landing question settled — mounted, or definitively not coming? */
-  landQuestionReady() { return !this._landWarmP; }
   /**
    * Resolves once the landing question is settled. Chases the chain (deck fetch -> distractor
    * pool fetch -> render), so one await is enough however many hops the card needs. Safe to call
@@ -15561,6 +17934,12 @@ class Component extends DCLogic {
     const n = this._landIdx != null && this.nodes ? this.nodes[this._landIdx] : null;
     if (!this._layerOn("card")) {
       if (this._landEl) {
+        // FOLD1 (owner, U136 a, 2026-11-11: "the timer pauses with the time left and carries on when you open it again"). A folded
+        // question's parked window (q.left, _landFold) goes away with the card and comes back with it when Undo or Settings rebuilds
+        // this landing's card below, or ✕-then-Undo would buy a fresh window. Kept for THIS landing only: the page cache is replaced
+        // at every new landing (renderLandCard), so a kept window from an earlier one never matches.
+        const q = this._landQ;
+        this._landKept = q && !q.answered && q.left != null ? { cache: this._landPageCache, q: q.card.q, left: q.left } : null;
         this._declineLandQ("collapsed");
         this.fx("land_dismissed", { node: n ? n.t : null, answered: !!(this._landQ && this._landQ.answered) });
         this._clearLandCardOnly();
@@ -15571,6 +17950,11 @@ class Component extends DCLogic {
       // was put away grades the fresh one as extra (the economy law), an unanswered landing is
       // scored on this one and re-arms the clock through `_mountLandQ`.
       this.renderLandCard(n, this._landMode, null, { el: null });
+      // FOLD1: the same question back on the same landing carries on from what was left. It comes back as its one line, as it went:
+      // the reuse path keeps _landAsk, and the fold cleared the take-up memory.
+      const k = this._landKept, q = this._landQ;
+      this._landKept = null;
+      if (k && q && !q.answered && k.cache === this._landPageCache && k.q === q.card.q) q.left = k.left;
     }
     if (!this._layerOn("film")) {
       if (this._reader && this._landFilmEl) { this.pauseLandFilm(); this._landFilmEl.hidden = true; }
@@ -15608,7 +17992,8 @@ class Component extends DCLogic {
     // once mounted. Both paths measure the same existing bottom chrome.
     const W = this.W || 1200, H = this.H || 800, center = this._paneLayout().center;
     const half = (W <= 640 ? 318 : 360) / 2;
-    const cold = this.get("readerBook", true) ? this._readerShelfBottom({ left: center - half, right: center + half }) + 78 + Math.min(128, H * .15) : 84;
+    // v1.253.0: the cold figure keeps the retired shelf's 12px inset and 78px height; the reader's first layout replaces it.
+    const cold = Math.max(12, this._readerReserve({ left: center - half, right: center + half })) + 78 + Math.min(128, H * .15);
     const TRAY_BOTTOM = this._executionDock()?.bottom ?? (this._reader?.trayBottom || cold);
     const row = this.optionsRef.current;
     if (!this._reader && row && !this._readMax) row.style.bottom = TRAY_BOTTOM + "px";
@@ -15621,15 +18006,35 @@ class Component extends DCLogic {
     const dock = this._execution?.card?._ngDock;
     return dock && dock.w === window.innerWidth && dock.h === window.innerHeight && !this._reader?.interacting ? dock : null;
   }
-  _readerShelfBottom(horizontal) {
-    let bottom = 12;
-    for (const el of [this.shareCueRef.current, this.wrapRef.current.querySelector(".ng-winbar")]) {
+  // What the bottom chrome takes from the reader's column: the share cue's top plus one 8px gap, where it falls under it, else nothing
+  // (v1.253.0: the 12px floor was the retired shelf's inset, and it cut the article 20px above the fold). WINBAR1 (owner, 2026-11-11:
+  // "why isnt the article content flowing all the way down? ... the win-lose bar shouldn't show for such screens"): the win bar no
+  // longer counts. It reserved its top plus 8 (41px on every phone and tablet) exactly where it fell under the column, and that is
+  // now exactly where it is put away (`barUnder`, reader.src.js; updateUiShift), so counting it could only ever cut the article. Its
+  // computed visibility was no guard: `.ng-winbar[data-away]` turns hidden 0.3s late, and a layout inside that delay kept the 41px.
+  // The share cue stays: it shows only on a shared link's arrival, and the column ends above it there.
+  _readerReserve(horizontal) {
+    let bottom = 0;
+    for (const el of [this.shareCueRef.current]) {
       if (!el || getComputedStyle(el).visibility === "hidden") continue;
       const box = el.getBoundingClientRect();
       if (box.height && box.top > 0 && box.left < horizontal.right && box.right > horizontal.left)
         bottom = Math.max(bottom, (this.H || 800) - box.top + 8);
     }
     return Math.round(bottom);
+  }
+  /** THE MAP ALONE (v1.254.0, owner, 2026-11-10): no node's landing card, film or article is on screen. The legend key's one answer
+   *  (updateUiShift). Read from the screen, not from game state: at "/" that is the boot before the first landing, and free roam,
+   *  which puts the left node's article and its index away (U123, `_putReaderAway`: hidden, not collapsed, so the article keeps its
+   *  box and only the computed visibility below tells) until the next landing or an article opened on purpose. A page (Principle,
+   *  Learning, System) is never put away, so the key stays away while one is open. */
+  _mapAlone() {
+    const H = this.H || window.innerHeight;
+    return ![this._landEl, this._landFilmEl, this._reader?.articleEl].some((el) => {
+      if (!el?.isConnected) return false;
+      const r = el.getBoundingClientRect();
+      return r.width > 0 && r.height > 0 && r.bottom > 0 && r.top < H && getComputedStyle(el).visibility !== "hidden";
+    });
   }
   /** WHICH PERSPECTIVE THIS CARD SPEAKS FROM — one seam, because two callers ask it (v1.173.0).
    *  The film picks its reel with it and the automatic article picks its guide; when
@@ -15659,16 +18064,17 @@ class Component extends DCLogic {
   // The media owner supplies width and spacing; Sections measures its natural height.
   // Below 1152px of free pane, the film fills the 680px reading column (16px phone
   // gutters). Above it, 400px leaves room for the deck, arrows and Contents lane.
-  filmLayout(width, height, paired, card, row, column) {
+  filmLayout(width, height, paired, card, row, column, tease = column) {
     const wide = width >= 1152, ask = row && card?.hasAttribute("data-land-ask");
     const css = ask && getComputedStyle(card);
     const gap = ask && parseFloat(css.getPropertyValue("--section-gap"));
-    const hint = ask && width >= 1024 && this._handShown() && this._reader?.on("book");
-    // U104: in columns an asking card is the column's width, and its height feeds the Moves band and the article's columns. The line
+    const hint = ask && width >= 1024 && this._handShown() && !!this._reader;
+    // U104: in columns an asking card is the column's width (v1.253.0: the grid's, `tease`, under an open Moves row), and its height feeds
+    // the Moves band and the article's columns. The line
     // is fitted to one line by its ResizeObserver, a frame after its width changes, so a pane slide read a wrapped line, 17px taller:
     // the columns flipped between passes and the reader's line jumped 11.8px on Mount Bottom at 1440. Size and fit it here first.
     if (ask && column) {
-      if (card.style.width !== column + "px") card.style.setProperty("width", column + "px", "important");
+      if (card.style.width !== tease + "px") card.style.setProperty("width", tease + "px", "important");
       const qt = card.querySelector("[data-land-ask-text]").parentNode;
       if (qt.clientWidth !== qt._fitW) this._fitAskLine(qt, qt._fitW = qt.clientWidth);
     }
@@ -15687,11 +18093,10 @@ class Component extends DCLogic {
   currentFilmHeight() { return this._landFilmEl?.getBoundingClientRect().height || 0; }
   _paintCurrentFilmWin() {
     const footer = this._landFilmEl?.querySelector("[data-current-film-win]"); if (!footer) return;
-    const view = this.currentWinView?.() || { text: "—", stale: false, handId: this._choiceHandId };
-    footer.textContent = view.text;
-    footer.toggleAttribute("data-choice-stale", !!view.stale);
+    const view = this.currentWinView();
+    footer.textContent = this.choiceNumber(view.text);
     footer.dataset.handId = view.handId || "";
-    footer.setAttribute("aria-label", "Win " + view.text + (view.stale ? ", updating" : ""));
+    footer.setAttribute("aria-label", "Win " + view.text);
   }
   // FILM RIDES ITS OWN STRIP, OUTSIDE THE CARD (v1.101.1, owner: "place the film study row aka
   // the videos outside the ng-landcard ... should be outside, immediately above it"). It is a
@@ -15724,7 +18129,7 @@ class Component extends DCLogic {
       + (this.filmStudyHTML(filmClips, true) || '<div class="ng-choice-media ng-film-none" data-choice-media><b>No video of this move yet</b><span>We only show a video that teaches exactly this move. Know one?</span><button data-film-suggest>Suggest a video</button></div>')
       + (seat ? '<footer><span>' + this.choiceEscape(seat[0].toUpperCase() + seat.slice(1)) + '</span><span class="ng-current-stat"><span>Win %</span><strong data-current-film-win>—</strong></span></footer>' : "");
     film.toggleAttribute("data-single-video", filmClips.length === 1);
-    film.querySelector("[data-film-suggest]")?.addEventListener("click", (e) => { e.stopPropagation(); this.openFeedback(shown); });
+    film.querySelector("[data-film-suggest]")?.addEventListener("click", (e) => { e.stopPropagation(); this.openFeedback(shown, film._ngMediaRole); });
     // ARROWS (v1.217.0, owner 2026-10-02): the deck's chevrons, one at each end of the row, shown only
     // toward hidden clips (`_syncFilmEdges`), so the left one is hidden at the start. Appended before
     // the ✕, which therefore paints over an arrow wherever the two could ever touch.
@@ -15829,7 +18234,7 @@ class Component extends DCLogic {
    *  `_layoutLandHorizontal` (every frame, and once here so the first frame is already right),
    *  which is what keeps it under the card while the pane is open or animating (v1.196.1). */
   _renderLayerDock() {
-    if (this._reader) { this._reader.shelf(); return; }
+    if (this._reader) return;
     const wrap = this.wrapRef && this.wrapRef.current; if (!wrap) return;
     const off = NG_LAYER_ORDER.filter((l) => !this._layerOn(l));
     let dock = this._layerDockEl;
@@ -16394,10 +18799,7 @@ class Component extends DCLogic {
   }
 
   // ── CHALLENGES: permanent evidence tracks, separate from Game Knowledge ──
-  get CHALLENGE_TRACKS() { return NG_CHALLENGE_TRACKS; }
   get CHALLENGES() { return NG_CHALLENGES; }
-  get PATCHES() { return NG_BADGE_DEFINITIONS; }
-  get MAT_COINS() { return NG_MAT_COINS; }
   get TUTORIAL() {
     // Transitional test/API rail: older clients and journeys keep the same twenty IDs.
     return NG_WHITE_CHALLENGES.map((challenge) => ({
@@ -16413,18 +18815,6 @@ class Component extends DCLogic {
   }
   challengeTrackProgress(trackId) {
     return ngTrackSummary(this.challenges || {}, trackId);
-  }
-  challengeDoneCount(trackId) {
-    return this.challengeTrackProgress(trackId || "white").done;
-  }
-  challengeCurrent(trackId) {
-    const track = trackId || "white";
-    for (const definition of NG_CHALLENGES) {
-      if (definition.track === track && !this.challengeProgress(definition.id).done) {
-        return definition;
-      }
-    }
-    return null;
   }
   _challengeSnapshot() {
     let lessonCount = 0;
@@ -16532,10 +18922,10 @@ class Component extends DCLogic {
         if (trackId === "white") this.fx("tutorial_done", {});
       }
       for (const id of rewards.newBadges) {
-        // THE AUTO-FLIP LIVES HERE AND NOWHERE ELSE (v1.105.1): flipping on the MINT (a
-        // once-per-account event) means turning the toggle off later STICKS — a flip driven by
-        // "belt is black" would re-enable recall on every device forever through settings LWW.
-        if (id === "recall-in-play") this.set("recallInPlay", true);
+        // NO AUTO-FLIP ANY MORE (U163 c, v1.270.0). From v1.105.1 the Recall Mode patch's mint set `recallInPlay` on here
+        // (once per account, so turning it off stuck). Recall Mode is now a switch anyone turns on and no belt switches it
+        // on, so the patch still mints at black and leaves the switch where the player put it. A player who already has
+        // the patch keeps it and the setting it gave them (nothing stored is touched). tests/belt_worn.test.mjs pins it.
         this.fx("patch_earned", { id });
         this.track("neural_patch_earned", { patch_id: id });
         if (this.queueChallengeReward) this.queueChallengeReward("patch", id);
@@ -16555,27 +18945,15 @@ class Component extends DCLogic {
       this.renderTutorial();
     }
     if (this.renderChallengeCue) this.renderChallengeCue();
-    if (
-      this.deckShown &&
-      !this._paneTransition &&
-      !this._renderingChallengeView &&
-      !this._paneStudyActive() &&
-      this._viewMode === "challenges"
-    ) {
-      this.renderExplorer();
-    }
+    // THE CORRIDOR REPAINTS ON NEW EVIDENCE, where it lives (v1.287.0, SET1 slice B): the Path view did this here (a checkpoint
+    // cleared, an objective's count, a crown); since the Path left the drawer the corridor is Master the game's, so it is that
+    // view's corridor that repaints, after any press in flight (`_afterPress`, FGD13: a repaint between a press and its release
+    // swallows the click)
+    if (this.deckShown && !this._renderingChallengeView && this._session?.practice && this._sessionInline())
+      this._afterPress(() => { if (this._session?.practice && this._sessionInline()) this._practiceCorridor(); });
   }
   tutDoneCount() { const d = (this.tut && this.tut.done) || {}; let n = 0; for (const s of this.TUTORIAL) if (d[s.id]) n++; return n; }
   tutCurrent() { const d = (this.tut && this.tut.done) || {}; for (const s of this.TUTORIAL) if (!d[s.id]) return s; return null; }
-  noteTutorial(beat, props) {
-    if (this._inChallenges) return;
-    this._inChallenges = true;
-    try {
-      this.noteChallenges(beat, props || {});
-    } finally {
-      this._inChallenges = false;
-    }
-  }
   restartTutorial() {
     this.tut = { done: {} };
     this.challenges = ngResetWhiteChallenges(this.challenges);
@@ -16673,7 +19051,7 @@ class Component extends DCLogic {
   }
 
   // ---------- roll state machine ----------
-  rollFromPosition(nodeIdx, staged, roleOverride) {
+  rollFromPosition(nodeIdx, staged, roleOverride, pageArrival) {
     nodeIdx = this.canonicalState(nodeIdx, roleOverride || (this.nodes[nodeIdx] && this.nodes[nodeIdx].role));
     // THE SEAT FUNNEL, AND THEREFORE THE RULESET GUARD (v1.167.0). Every path that puts a player
     // somewhere arrives here: the ▶ on a list row, a dossier's "Roll from here", a belt capstone's
@@ -16720,7 +19098,7 @@ class Component extends DCLogic {
     this._closeRoll();
     this._roam = false; // any fresh roll leaves free roam
     this._lastActor = null; this._currentDeckKey = null;
-    this._sessionNodes = null; this._session = null; this._inSession = false;
+    if (!(pageArrival && this._sessionShown())) { this._sessionNodes = null; this._session = null; this._inSession = false; }   // REFSEARCH-2
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
     this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14;
     // ROLE: an explicit request wins. Deriving from the title is a CONSTANT for positions — the
@@ -16768,6 +19146,12 @@ class Component extends DCLogic {
       // from another state may enable pressure. Play/answer alone cannot do it.
       this.camTarget = this.rollCamTarget(this.camFocus, false, chosen);
     }
+    // THE KEPT SESSION REMEMBERS THE PAGE IT NOW STANDS ON (REFSEARCH-R1; the reader of #436, finding 2). A session's Back
+    // restores where it was opened from (`origin`, `_exitStudyTo`); one opened before the page's own landing remembered
+    // "no node selected", and its Back put that over the landing: the map's selection gone, 6 of 6, where a late
+    // session's Back leaves the page's node selected.
+    if (pageArrival && this._sessionShown() && this._session.origin)
+      Object.assign(this._session.origin, { node: this.focusIdx, path: location.href, title: document.title });
   }
   // ── ROAM & STAGE ── clicking any node takes you there and STAGES a roll: the camera flies,
   // the state lands, the options deal — and the clock stays stopped. Click somewhere else and
@@ -16782,6 +19166,11 @@ class Component extends DCLogic {
     const target = this.nodes[st.idx];
     const oc = this._optionCards.find((c) => c.opt && (c.opt.idx === st.idx || (target && target.pairId && c.node && c.node.pairId === target.pairId)));
     if (!oc || !oc.card) return;
+    if (oc.card.hasAttribute("data-hide")) {
+      oc.card.setAttribute("data-revealed", "");
+      (this._hmLit || (this._hmLit = new Set())).add(oc.opt.idx);
+      this._cardAria(oc.card);
+    }
     oc.card.style.borderColor = "rgba(126,160,255,.65)";
     oc.card.style.boxShadow = "0 0 0 1px rgba(126,160,255,.35), 0 6px 22px rgba(74,108,255,.18)";
     const eyebrow = oc.card.querySelector("[data-cat]");
@@ -16839,13 +19228,13 @@ class Component extends DCLogic {
   /** The one announcer slot, saved and put back — a film borrows it, it does not own it. */
   _evSnapshot() {
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
-    return { k: k ? k.textContent : "", col: k ? k.style.color : "", html: t ? t.innerHTML : "", op: box ? box.style.opacity : "" };
+    return { k: k ? k.textContent : "", col: k ? k.style.color : "", html: t ? t.innerHTML : "", pt: t && t.style ? t.style.paddingTop : "", op: box ? box.style.opacity : "" };
   }
   _restoreEvent(s) {
     if (!s) return;
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
     if (k) { k.textContent = s.k; k.style.color = s.col; }
-    if (t) t.innerHTML = s.html;
+    if (t) { t.innerHTML = s.html; if (t.style) t.style.paddingTop = s.pt || ""; }
     if (box) box.style.opacity = s.op;
   }
   /**
@@ -17011,7 +19400,7 @@ class Component extends DCLogic {
       dur = R.reduced ? 0.8 : 1.4;
       this._replayAim(s.nodes, dur);
       this.setEvent("Replay", s.name, "info");
-      for (const k of s.nodes) this.flare(k);
+      for (const k of s.nodes) this.flare(k, 0, 1);
     } else if (s.kind === "land") {
       dur = R.reduced ? 0.85 : 1.15;
       this.focusIdx = s.to;
@@ -17078,6 +19467,11 @@ class Component extends DCLogic {
    *  `_closeRoll` (a roll leaving `rollLog` for `_pastRolls`). Guarded, not conditional on the
    *  caller: an open Explore search or Challenges scroll must never be stomped, and a study
    *  takeover owns the pane. `buildDrillPanel` carries the same guard for the roll loop. */
+  // THE LIST KEEPS ITS PLACE ACROSS THIS REPAINT, BY ITSELF (FOLLOW1-R1): a film's start, stop and own end each redraw the
+  // rows, and the press that started the film is on one of them. The rows are rebuilt in one task, with no layout read
+  // while the list is empty, so its scroll is where it was (pinned by history-replay.spec.ts on a scrolled list; a line
+  // that put the scroll back by hand here survived its own mutant and is gone). A layout read added inside
+  // `renderDrillHome` would lose it: that journey is what says so.
   _refreshHistoryRows() {
     if (this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive()) this.renderDrillHome();
   }
@@ -17105,7 +19499,6 @@ class Component extends DCLogic {
         '<span class="ng-replay-dot" aria-hidden="true"></span>' +
         '<span class="ng-replay-txt"><b>REPLAY</b><small data-replay-label></small></span>' +
         '<button type="button" class="ng-replay-stop" data-replay-stop="1" aria-label="Stop replay">✕</button>';
-      (this.__ngRoot || document.body).appendChild(el);
       el.querySelector("[data-replay-stop]").addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.stopReplay("stopped"); });
       this._replayEl = el;
     }
@@ -17113,7 +19506,53 @@ class Component extends DCLogic {
     const n = R.steps.length, at = Math.min(n, Math.max(1, R.i + 1));
     if (lab) lab.textContent = R.label + (R.done ? " · end" : " · " + at + "/" + n);
     el.setAttribute("data-replay-step", String(at));
-    requestAnimationFrame(() => { if (this._replayEl) this._dockLandCard(this._replayEl); });
+    this._seatReplayBar();
+  }
+  /**
+   * WHERE THE FILM'S BAR STANDS: ONE WRITER (FOLLOW1, v1.293.1). On the map it is root-plane chrome, docked where the landing
+   * card docks (above). ON A PHONE WITH THE DRAWER OPEN the drawer is the screen, and that dock put the bar across the
+   * middle of the drawer's list (y 248 to 292 of a list running from 58 to 556 at 390x631, measured on dev v1.292.1 and
+   * on v1.293.0): whatever row content fell there was covered, a Last rolls row's first action included. There the bar is
+   * a row of the drawer itself, in the flow, AT THE DRAWER'S FOOT: after the list, above the account's foot. In the flow,
+   * so nothing of the list can lie under it and nothing is measured, padded or kept in step. AT THE FOOT, SO THAT NO ROW
+   * MOVES when a film starts, stops or ends by itself: the list gives the bar's 44 px at its own end, and its scroll
+   * stays where it was across the repaint (`_refreshHistoryRows`).
+   * IT STOOD UNDER THE DRAWER'S HEAD FIRST (ruled, built, and taken back after the reader of PR #441 pressed it): the
+   * bar's coming and going then moved every row by 44 px, and the past rolls' rows are 43 px apart, so the neighbour's
+   * control landed where the pressed one was. The replay control stopped being a toggle (a second touch at the same
+   * point ran the film on, 3 of 3; on the second row it started the FIRST roll's film, 3 of 3), and when a film ended by
+   * itself with a row open the next state's row stood under both of its actions (3 of 3). A row at the list's foot
+   * when the bar comes leaves the view (the list ends 44 px sooner); it is never under the bar.
+   * Its ✕ is then a drawer control like any other (the drawer's own press and swipe rules).
+   * AND WHEREVER THE BAR CANNOT STAND WHOLE BESIDE THE OPEN DRAWER (FOLLOW2-R1, ruled after the reader of PR #443): a
+   * window wider than a phone whose board beside the drawer is narrower than the bar and its two margins. There the
+   * dock put the bar across the drawer: at 641 wide over 255 of the drawer's 360 px (156 on dev, where its ✕ was wholly
+   * off the screen instead). Asked by geometry, with no second breakpoint: the screen's width less the drawer's
+   * (`sbOffset`) against the bar's own width on the map, which is READ from the stylesheet (`max-width`, whichever seat
+   * the bar is in) and its margins (`_chromeEdge`, the dock's own). With a 360 px drawer and a 520 px bar that is 911 px
+   * and under. From 912 up the bar is on the map as it was (a bar following a wide card's column can still lie a few px
+   * over the drawer's edge up to 919, as on dev: the dock's own question, left as it is).
+   * CALLED BY every change of what decides it: the bar's render (a film's start and each of its steps), the drawer's
+   * opening and closing (`applyDeckVisibility`), and every `resize`. `data-in-drawer` is what the stylesheet reads
+   * (helmet.html, `.ng-replaybar[data-in-drawer]`); the dock never runs on a bar in the drawer (an element in the flow
+   * has no `bottom` to measure).
+   */
+  _seatReplayBar() {
+    const el = this._replayEl; if (!el) return;
+    const pane = this.drillRef.current, foot = pane && pane.querySelector(".ng-acctwrap"), root = this.__ngRoot || document.body;
+    // A new bar has no style to read until it is in the page: asked before, it would find no cap and take the open
+    // drawer's seat at any width. (Today the film's start renders the bar twice in one task, so that seat would be put
+    // right before a frame is drawn, and no journey can see this line: its mutant survives, recorded in
+    // history-replay.spec.ts. It is kept so that the seat is right at the first call, not by a second.)
+    if (!el.isConnected) root.appendChild(el);
+    const W = this.W || window.innerWidth, edge = this._chromeEdge();
+    const wide = Math.min(parseFloat(getComputedStyle(el).maxWidth) || W, W - 2 * edge);   // the bar's width on the map ("none" on a phone: the screen's)
+    const noRoom = this.isMobile() || W - this.sbOffset() < wide + 2 * edge;
+    const inDrawer = !!foot && foot.parentNode === pane && this.deckShown && noRoom;
+    if (inDrawer) { if (foot.previousElementSibling !== el) foot.before(el); }
+    else if (el.parentNode !== root) root.appendChild(el);
+    el.toggleAttribute("data-in-drawer", inDrawer);
+    if (!inDrawer) requestAnimationFrame(() => { const b = this._replayEl; if (b && !b.hasAttribute("data-in-drawer")) this._dockLandCard(b); });
   }
   _clearReplayBar() {
     if (!this._replayEl) return;
@@ -17335,7 +19774,7 @@ class Component extends DCLogic {
     this._refreshHistoryRows();
   }
 
-  startRoll(opening) {
+  startRoll(opening, keepShownSession) {
     // THE ARRIVAL IS DIRECTED (NG_CAM_OPEN_*): updateCamera passes the first opening's token, and
     // every later staged restart mints its own below. Without one (a first roll under a camera lease)
     // the staged arrival below keeps its own beats.
@@ -17366,7 +19805,7 @@ class Component extends DCLogic {
     this._roam = false; // any fresh roll leaves free roam
     this._lastActor = null;
     this._startSpot = null; // the crack a weak-spots opening is about, for the toast below
-    this._sessionNodes = null; this._session = null; this._inSession = false;
+    if (!(keepShownSession && this._sessionShown())) { this._sessionNodes = null; this._session = null; this._inSession = false; }   // EARLY1
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
     this.playerRole = this.rng("role") < 0.5 ? "top" : "bottom"; // you start either side
     this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14; // opponent resistance, gated by difficulty
@@ -17465,7 +19904,8 @@ class Component extends DCLogic {
       opening && !opening.cancelled ? this.posFamily(this.nodes[this.currentPos].t) : "",
       opening && !opening.cancelled ? this.roleLabel() : "", "muted", true);
     if (opening?.cancelled) this.hideCenter();
-    if (this._openHandOff && !opening?.restart) this._openBoardEnd(true);   // nobody took the board over: release it
+    // nobody took the board over: release it (a reduced-motion restart has no breath out to take a round's end board over)
+    if (this._openHandOff && (!opening?.restart || this._reducedMotion())) this._openBoardEnd(true);
     this._openHandOff = false;
     this.focusIdx = -1; this.pulse = null;
     this.camFocus = this.pairMid(this.nodes[this.currentPos]);
@@ -17509,7 +19949,7 @@ class Component extends DCLogic {
   updateRipples() {
     if (!this.ripples || !this.ripples.length) return;
     for (const r of this.ripples) {
-      if (!r.done && this.now >= r.t0 + r.dur) { r.done = true; this.flare(r.b); }
+      if (!r.done && this.now >= r.t0 + r.dur) { r.done = true; this.flare(r.b, 0, 1); }
     }
     const last = this.ripples[this.ripples.length - 1];
     if (this.now - (last.t0 + last.dur) > 1.9) this.ripples = [];
@@ -17595,7 +20035,7 @@ class Component extends DCLogic {
     if (!ek.has(hkey)) { ek.add(hkey); this._saveFlowSoon(); }
     // append to the roll history log (skip exact consecutive dupes)
     this.rollLog = this.rollLog || [];
-    // was the OPEN flashcard box the latest (current-state) row? if so, carry it forward to the new latest row
+    // was the OPEN row the latest (current-state) row? if so, carry it forward to the new latest row (its two actions, L3)
     const prevLatest = this.rollLog.length - 1;
     const wasLatestOpen = this._openLatestOnLand || (prevLatest >= 0 && this._openRow === ("c" + prevLatest));
     const lastLog = this.rollLog[this.rollLog.length - 1];
@@ -17617,7 +20057,7 @@ class Component extends DCLogic {
       if (this.rollLog.length > 24) this.rollLog.shift();
 
     }
-    // carry the open current-state box forward to the new latest row (also opens it after a "roll from here")
+    // carry the open latest row forward to the new latest row (also opens it after a "roll from here")
     if (wasLatestOpen) { const L = this.rollLog.length - 1; this._openRow = "c" + L; this._focusRow = "c" + L; }
     // PANE LAW: a new roll NEVER opens the pane. If the user already has it open, focus the
     // seeded state's row so what they are reading follows the roll; otherwise leave it shut.
@@ -17631,7 +20071,7 @@ class Component extends DCLogic {
     }
     this._openLatestOnLand = false;
     this._lastActor = null;
-    this.buildDrillPanel(this.currentPos);
+    this.buildDrillPanel(this.currentPos, undefined, first);
     if (this._stagedDefense != null) {
       // the deferred catch (above): the chosen transition's card and no hand until play
       this.optionIdxs = [];
@@ -17753,7 +20193,6 @@ class Component extends DCLogic {
     this._landClockEl = clockEl || null;
     if (clockEl) { clockEl.style.transition = ""; this._clockBase = clockEl.style.background; } // frame-driven writes must not lag through a leftover reset transition
     this._barF = null; // the >0.002 dedupe latch must not skip the first write
-    this._armDeckExpire();
   }
   _disarmLandClock() {
     this._cwArm = null; // a parked arm dies with its window
@@ -17794,6 +20233,62 @@ class Component extends DCLogic {
     q.answered = true;
     this._landPending = false;
     this.fx("land_q_declined", { deckKey: q.key || null, reason: reason || null });
+  }
+  // SHORT1 (owner, 11 Nov: half of all cards need a scroll for their last answer, and reaching for an answer by scrolling
+  // must never decline, expire or skip a question the player has taken up). Where does a TAKEN-UP, still open question
+  // stand? null when there is none (asking, answered, a reading arrival, a hidden card); else `on` (its card meets the
+  // reader's visible box) and `all` (every answer it shows lies wholly inside it). The reader asks this when a finger or
+  // a wheel starts a scroll on the ARTICLE (reader.src.js, readingInteraction): with the card on screen and an answer
+  // out of view, that scroll is the player reaching for it, not reading. Until v1.262.3 it was reading at touch-down,
+  // so it declined the question, dropped its clock and paused the game. Measured on a real roll from "/", by touch, on
+  // the preview (v1.259.1) and production (v1.252.0) at 390x631, 360x640, 375x667 and 390x844: overshoot the card so its
+  // first answers go above the top and the article fills the bottom, then drag back from the article: declined every
+  // time (since v1.236.0, U47 d; before it every question declined so). With every answer in view the same scroll is
+  // reading and declines as before, "a free pause, not a loss" (reading-mode.spec.ts). Both the landing and a catch's
+  // drill build their answers as the last child of `[data-land-q]`. No height = not laid out: SKIP, never a verdict.
+  // SHORT4: `answers` asks for `all` too; the per-frame check (`_offTick`) needs only `on`, two rects. `on` is any overlap
+  // beyond half a pixel (a sub-pixel sliver is not something a player can see).
+  _landView(answers) {
+    const q = this._landQ, el = this._landEl;
+    if (!q || q.answered || this._landAsk || this._readerIntent || !el || !el.isConnected || this._landHidden()) return null;
+    const r = el.getBoundingClientRect();
+    // SHORT5 (review of #389): no height = not laid out, and that frame judges nothing. `skip` lets `_offTick` tell it from a
+    // card it saw; `on: true` keeps the reach's old reading (a card it cannot see is not a reason to decline at touch-down).
+    if (!(r.height > 0)) return { on: true, all: false, skip: true };
+    const v = this._reader ? this._reader.root.getBoundingClientRect() : null;
+    const top = Math.max(0, v ? v.top : 0), bot = Math.min(innerHeight, v ? v.bottom : innerHeight);
+    const on = r.bottom > top + 0.5 && r.top < bot - 0.5;
+    if (!answers) return { on, all: false };
+    const ans = [...(el.querySelector("[data-land-q]")?.lastElementChild?.querySelectorAll("button") || [])].filter((b) => b.getClientRects().length);
+    return { on, all: ans.every((b) => { const a = b.getBoundingClientRect(); return a.top >= top - 0.5 && a.bottom <= bot + 0.5; }) };
+  }
+  // SHORT1: the reader asks this (`_rch`) when a wheel, touch or pen scroll starts on the article. True = the player is
+  // reaching for an answer out of view on a card still on screen: not reading, so no decline at touch-down, no pause, and
+  // the clock runs. Where that scroll then takes the card is `_offTick`'s to judge, as for every other scroll (SHORT4).
+  _rch() { // four letters because the reader's call of it is paid for in capped deferred bytes
+    const v = this._landView(true);
+    return !!v && v.on && !v.all;
+  }
+  // SHORT4 (owner, U146 a, 2026-11-12: "One rule, however the scroll began: a question you can no longer see is put down
+  // without a miss. The same thing a scroll on the article already does."). Every frame (`_tickDecision`, before it writes
+  // the clock bar): a taken-up, open question whose card has been on screen and now has no part of its border box inside
+  // the reader's visible box is declined, free (`land_q_declined`, reason "off_screen"), whatever moved it: a finger on the
+  // card, on the moves or on the article, a wheel, a key, a scroll the app made for the player, the layout. "Wholly left"
+  // is 0 px of overlap (half a pixel of tolerance, `_landView`): a sliver still showing is the card the player can see, and
+  // a card partly off screen is untouched. "Has been on screen" (`q.seen`) keeps the app's own scroll to the top at a new
+  // landing, which can land a frame after the card mounts below a scrolled reader, from declining the question it brings.
+  // Until v1.263.1 a scroll begun on the game carried the card off with its clock running, and the question expired out
+  // of sight as a miss (measured at 390x631 on the preview, v1.259.1, and production, v1.252.0). The escape drill shares
+  // the check: its decline stops its clock (`_declineLandQ` keeps a drill un-pending), and `q.gone` makes that once. `seen` is
+  // set by a frame that finds the card on screen, or by the take-up tap (`_landReveal`), which is on the card.
+  // Coming back resurrects nothing: a declined question is answered for good, and a drill's clock stays down.
+  _offTick() {
+    const q = this._landQ, v = this._landView();
+    if (!v || q.gone || v.skip) return; // SHORT5: a frame that cannot see the card never counts it as seen, nor as gone
+    if (v.on) { q.seen = true; return; }
+    if (!q.seen) return;
+    q.gone = true;
+    this._declineLandQ("off_screen");
   }
   _expireLandQ() {
     this._disarmLandClock();
@@ -17871,6 +20366,7 @@ class Component extends DCLogic {
   // sites and the ~5s frame-loop age-out — retired in v1.218.0: no outcome writes the announcer
   // any more, and a card hit cannot pin, it is gone in ~1.3s of wall clock.)
   _tickDecision(gdt) {
+    this._offTick(); // SHORT4: a taken-up question whose card has left the screen is put down, free
     if (this._readerIntent) return;
     // Only a scroll leaves the reader interacting with a question still pending: every other
     // reading gesture declined it as it happened (reader.src.js readingInteraction).
@@ -17909,12 +20405,89 @@ class Component extends DCLogic {
     if (d.remaining <= 0) this._expireLandQ();
   }
   // v1.230.0 reverses v1.218.1's shifted-digit Inspect route.
+  // A REPEAT NEVER ACTS (FOLLOW2-R1; the reader of PR #443, finding 2). A key held down sends `keydown` again and again
+  // with `repeat` set, and nothing on the digit's road read it: the digit that had just SHOWN its card played it at the
+  // first auto-repeat (40, 250 and 500 ms after the first: 3 of 3), so the second press was not a press. It also ends a
+  // habit dev had: a digit held a little long played on into the next hand, and into the deck's next question (this
+  // function names both). No journey holds a key down (`keyboard.down`: 0 in e2e).
   optionKeyIndex(e) {
-    if (e.shiftKey || e.altKey || e.ctrlKey || e.metaKey) return -1;
+    if (e.repeat || e.shiftKey || e.altKey || e.ctrlKey || e.metaKey) return -1;
     return /^[1-9]$/.test(e.key || "") ? Number(e.key) - 1 : -1;
   }
-  activateOption(opt, pick, card) {
-    if (!opt || opt.threat || this._choiceWatch || this._execution || this._checkpoint || (this._rollHand && !this._rollHand.mounted)) return;
+  /**
+   * AN OPTION IS PLAYED ONLY WHEN THE PLAYER CAN SEE WHAT THEY ARE PLAYING (FOLLOW2, v1.293.3). One condition, asked where
+   * every road that plays an option meets (`_playState`, below: `activateOption` asks it, and the reader's wrapper of it
+   * asks `_canPlay`, the same question's yes or no).
+   * THE ROADS, surveyed (`grep` over the build inputs, each read): the digits 1 to 9 (the window's key ladder); a click on
+   * the card (a mouse, a touch's click, and Enter or Space on the focused card: a click with no pointer, `detail` 0);
+   * nothing else. (`pickFirstEscape` has no caller in the app; there is no "suggested" button.)
+   *   · NOT WHILE THE DRAWER IS THE SCREEN (a phone's width, the drawer open): the hand is under it, and what shows beside
+   *     it is the drawer's way out, not a hand. By any road. (A PRESS there never gets this far: the row's own capture
+   *     listener shuts the drawer, as a touch on the map's sliver does; `attachInput`.)
+   *   · NOT WHILE A FILM HAS PUT THE HAND AWAY (`_traySup`: the row at a tenth of its strength, `pointer-events:none`). The
+   *     stylesheet gives a card's buttons `pointer-events:auto`, so a touch on a dim card's title reached it and played
+   *     the move, ending the film (measured on v1.293.1 at 390x844 and 390x631, 1 of 1 each). By any road.
+   *   · BY KEY, ONLY WHEN THE CARD'S MIDDLE IS IN REACH: what `elementFromPoint` finds there is the card. Not under the
+   *     drawer (at 641 wide a card with its middle under it), not under a menu or a modal. PR #441 had this by WIDTH
+   *     (640 and under: nothing); the reader showed where width is not reach.
+   *   · A KEY WHOSE CARD IS SCROLLED OUT OF THE HAND'S OWN ROW SHOWS IT FIRST (FOLLOW2-R0, the orchestrator's ruling). The
+   *     row scrolls sideways and clips: at 1440 five of a hand's cards show, and the digits 6 to 9 played cards nobody
+   *     could see. Refusing them would take a road a keyboard player has today, so: the key brings its card whole into
+   *     the row's view and MARKS it, and plays nothing; the same key again, the card now seen, plays it. One press when
+   *     the card is in view, as ever. THE MARK is the keyboard's own focus on the card's play button (the outline the
+   *     stylesheet already draws for it, `.ng-choice-card button:focus-visible`), so it lasts as long as a focus does:
+   *     until another key moves it or plays, a pointer takes it, or the hand is dealt again (the card is rebuilt).
+   *     FOR ANY CARD THE ROW'S OWN SCROLL CAN BRING BACK (FOLLOW2-R1, ruled after the reader of PR #443): its middle
+   *     outside the part of the row its cards are dealt into (`_handView`: the row's box less its side padding, within
+   *     the screen). With the drawer open beside the board the row's own box starts UNDER the drawer, and its left
+   *     padding is what keeps the hand clear of it; this was first asked against the row's border box, so the key's own
+   *     show step, scrolling the row, pushed the first card half under the drawer into a strip that was "inside the
+   *     row": its digit then did nothing at all (1440, 1024, 641: 3 of 3), where on dev it played. Such a card is shown:
+   *     brought clear and marked; the same key again plays it. REFUSED stays for what scrolling the row cannot cure: a
+   *     menu or a modal over a card that stands where it is dealt, and the drawer being the screen.
+   *   · A PRESS IS ITS OWN PROOF: the pointer is on the card. A desktop's press on a card beside the drawer plays as it
+   *     always did, a card half under the drawer's edge included (the hand is in plain view there).
+   * The answer: "play", "show" (the key's card is scrolled out of the row: `_showCard`), or "" (refused).
+   */
+  _optionReach(card, key) {
+    if ((this.deckShown && this.sbOffset() === 0) || this._traySup) return "";
+    if (!key) return "play";
+    if (!card || !card.isConnected) return "";
+    const r = card.getBoundingClientRect(), x = r.left + r.width / 2, at = document.elementFromPoint(x, r.top + r.height / 2);
+    if (at && card.contains(at)) return "play";
+    const row = this.optionsRef.current, v = row && row.contains(card) ? this._handView(row) : null;
+    return v && (x < v.lo || x > v.hi) ? "show" : "";
+  }
+  /** the part of the hand's row its cards are dealt into: the row's box less its side padding, within the screen */
+  _handView(row) {
+    const b = row.getBoundingClientRect(), cs = getComputedStyle(row);
+    return { lo: b.left + parseFloat(cs.paddingLeft), hi: Math.min(b.right, window.innerWidth) - parseFloat(cs.paddingRight) };
+  }
+  /** what this road may do with this option now (`key`: a digit, or Enter or Space on the focused card) */
+  _playState(opt, card, key) {
+    if (!opt || opt.threat || this._filmTheater || this._execution || this._checkpoint || (this._rollHand && !this._rollHand.mounted)) return "";
+    return this._optionReach(card, key);
+  }
+  _canPlay(opt, card, key) { return this._playState(opt, card, key) === "play"; }
+  /**
+   * The card brought whole into the row's view by the row's own scroll (the nearest edge, no further), and marked.
+   * THE MARK IS ALSO WHAT FREEZES THE HAND. The focus it puts on the card reaches the tray's own `focusin` listener
+   * (`_handTouched`, where the hand is dealt): a hand whose win chances have not landed yet does not sort itself after
+   * it, so the card the second press plays is the card the first one showed. No line here says so, on purpose (it
+   * would be a second writer of that latch, and one that survives its own removal); it is pinned instead, by
+   * choice-value.spec.ts: with the latch undone after a show, the values landing re-sorted the hand and the second 7
+   * played ANOTHER card than the one shown (the reader of PR #443, its mutant M3: 2 of 2).
+   */
+  _showCard(card) {
+    const row = this.optionsRef.current, { lo, hi } = this._handView(row), r = card.getBoundingClientRect();
+    this._trayStop();   // the row's scroll has one owner at a time (§6.5): a glide still running is stopped first
+    row.scrollLeft += r.right > hi ? r.right - hi : r.left < lo ? r.left - lo : 0;
+    card.querySelector("[data-choice-execute]")?.focus({ preventScroll: true });
+  }
+  activateOption(opt, pick, card, inspect, key) {
+    const how = this._playState(opt, card, key);
+    if (how === "show") this._showCard(card);
+    if (how !== "play") return;
     this._handTouched = true;
     if (pick) { this.setPaused(false); pick(opt); }
   }
@@ -17943,12 +20516,17 @@ class Component extends DCLogic {
       // Keep that dock and its preview reservation through teardown and flight;
       // otherwise clearLandCard moves the stand-in, then reader layout moves it again.
       card._ngDock = { bottom: parseFloat(cs.bottom), w: window.innerWidth, h: window.innerHeight };
-      const x = shown.card.getBoundingClientRect().left - row.getBoundingClientRect().left - padL;
+      // the card's LAYOUT left: a hidden card hovered to its pick stands out (scaled about its
+      // centre), and its scaled rect would seat the stand-in a few px left of the card you clicked
+      const cr = shown.card.getBoundingClientRect(), x = cr.left + (cr.width - shown.card.offsetWidth) / 2 - row.getBoundingClientRect().left - padL;
       card.style.marginLeft = "clamp(" + -Math.min(padL, padR) + "px, " + x + "px, calc(100% - " + shown.card.offsetWidth + "px + " + padR + "px))";
     }
     face.removeAttribute("data-tech");
     face.removeAttribute("data-choice-action");
     face.removeAttribute("tabindex");
+    // a blind pick (a number key) still shows the move it played: the stand-in is always face up
+    for (const a of ["data-hide", "data-revealed", "data-hover", "data-asking"]) face.removeAttribute(a);
+    face.querySelectorAll(".ng-choice-back, [data-choice-grade]").forEach(el => el.remove());
     card.setAttribute("data-executing-tech", this.choiceLabel(opt));
     card.setAttribute("role", "status");
     card.setAttribute("aria-live", "polite");
@@ -18085,7 +20663,10 @@ class Component extends DCLogic {
     // dedupes consecutive landings on the same state, so an attempt that fails and leaves you
     // exactly where you stood adds no row. Cleared by `_closeRoll` with the log it belongs to.
     this._rollActed = true;
-    this.track("neural_move_picked", { technique: act.t, node_type: act.ty });
+    // hidden moves: was this move played face down, and had the player looked at it first
+    // (`shown`, v1.266.0: the mode was on and this move was dealt face up because it is known and not due; with
+    // `flashcards` (v1.268.0) because its flashcards are all learned and none is due)
+    this.track("neural_move_picked", { technique: act.t, node_type: act.ty, ...(this._hideMoves() ? { hidden: true, peeked: !!(this._hmPeeks && this._hmPeeks.has(opt)), via: this._hideVia || "saved", ...((st) => st === "known" ? { shown: true } : st === "learned" ? { shown: true, flashcards: true } : {})(this._moveState(opt)) } : {}) });
     // `via` IS THE EDGE, AND A REPLAY CANNOT BE RECONSTRUCTED WITHOUT IT (v1.106.5). The roll log
     // records the STATES you passed through; a film of the roll has to show HOW — which technique
     // node the exchange travelled over. That fact exists only here, at the moment of the commit,
@@ -18170,21 +20751,6 @@ class Component extends DCLogic {
   // a per-technique success override (0..1) set via the card steppers / Your modifiers panel, or null if none active
   successOverride(act) {
     return ngKnowledgeOverride(this.userMods, act);
-  }
-  // bump the player's success rate for this technique by dir*5, creating a modifier if none exists; persists + shows in Settings
-  bumpCardSuccess(node, dir) {
-    this.ensureMods();
-    let m = this.userMods.find((x) => x.name === node.t);
-    if (!m) {
-      const cat = node.ty === "submissions" ? "Submission" : node.ty === "transitions" ? "Transition" : "Position";
-      const cs = this.calSuccess(node); // seed from the calibrated (or raw base) rate — moveChance would fossilize transient sharpness/film/opponent modifiers into a permanent override
-      const seed = cs != null ? cs : Math.max(0.05, Math.min(0.95, (node.ty === "submissions" ? 0.36 : 0.56) + (node.dom || 0) * 0.1));
-      m = { name: node.t, cat: cat, pct: Math.round(seed * 100), on: true };
-      this.userMods.push(m);
-    }
-    m.on = true;
-    m.pct = Math.max(5, Math.min(95, Math.round(m.pct / 5) * 5 + dir * 5));
-    this._knowledgeModifiersChanged();
   }
   // colour a signed value on the -100..100 scale: vivid red when negative, blue when positive,
   // neutral in the ±1 deadband. `sat` = the magnitude at which the palette tops out; EDGE passes
@@ -18694,7 +21260,7 @@ class Component extends DCLogic {
     // lease TIMING: an escape picked inside that window keeps the framing it was picked from, one
     // picked after it is followed (camera-continuity 380/427, DEVMV31-CAM; CI 48be3a910). No target
     // is captured: at a URL arrival camTarget can still be the intro's overview.
-    if (live || !this.get("readerBook", true)) this.frameNodes(nodes); else this._calmCatchUntil = Number.isFinite(this.now) ? this.now + this.camHoldSec : -1;
+    if (live) this.frameNodes(nodes); else this._calmCatchUntil = Number.isFinite(this.now) ? this.now + this.camHoldSec : -1;
     this._optPick = pick; this._optList = escapes;
     if (live) this._startDefensePressure(catchArrival);
     // The drill runs on the shared card's question clock; the ESCAPES are
@@ -18884,7 +21450,7 @@ class Component extends DCLogic {
     // reading bias ("every name hanging off a node runs left-to-right FROM it") which nothing
     // here has any reason to overturn.
     let cx = f.x + 0.06 * vw;
-    if ((this.isMobile() || this.get("readerBook", true) && !moving && !ahead && !this._execution) && n) {
+    if ((this.isMobile() || !moving && !ahead && !this._execution) && n) {
       const labelW = this._labelWidthPx(n);
       if (labelW > 0) {
         // centre the orb+label block…
@@ -18960,7 +21526,7 @@ class Component extends DCLogic {
     const W = this.W || 1200, H = this.H || 800;
     const pane = this._paneLayout();
     const horizontal = { left: pane.left, right: W, width: Math.max(1, W - pane.left) };
-    if (this.get("readerBook", true) && !this._refPage && !this._execution && !opts?.ahead) {
+    if (!this._refPage && !this._execution && !opts?.ahead) {
       return { ...horizontal, ...(this._reader?.nodeBand || this._readerBand()), measured: true, predicted: false, band: true };
     }
     let top = 16;
@@ -18988,7 +21554,7 @@ class Component extends DCLogic {
           // container, not the viewport. Read its actual visible rectangle.
           const dock = this._readerEl?.contains(el) ? NaN : parseFloat(css.bottom);
           // ...and without the directed arrival's ride (NG_CAM_OPEN_CSS), or the band would move with the board
-          const ride = this.wrapRef?.current?.dataset.ngOpen && (this._readerEl?.contains(el) || !this.get("readerBook", true)) ? this._openY || 0 : 0;
+          const ride = this.wrapRef?.current?.dataset.ngOpen && this._readerEl?.contains(el) ? this._openY || 0 : 0;
           const y = Number.isFinite(dock) ? H - dock - el.offsetHeight : el.getBoundingClientRect().top - ride;
           if (y > top + 32) { bottom = Math.min(bottom, y - 12); measured = on = true; }
         }
@@ -19025,7 +21591,7 @@ class Component extends DCLogic {
     if (!want[0] && !want[1] && !want[2]) return H - 16;
     // A later question can need more space than any one already measured. Keep
     // the book's conservative reserve when forecasting the next landing.
-    const prior = (want[0] || want[1]) && this.get("readerBook", true) ? H * .1 : Infinity;
+    const prior = want[0] || want[1] ? H * .1 : Infinity;
     const memo = this._bandMemo || {}, pre = W + "x" + H + "|";
     const exact = memo[pre + want.map((w) => (w ? "1" : "0")).join("")];
     if (exact != null) return Math.min(exact, prior);
@@ -19036,7 +21602,7 @@ class Component extends DCLogic {
       if (want.every((w, i) => !w || rows[i] === "1")) best = best == null ? memo[k] : Math.min(best, memo[k]);
     }
     if (best != null) return best;
-    return want[0] || want[1] ? H * (this.get("readerBook", true) ? 0.1 : 0.19) : H * 0.6;
+    return want[0] || want[1] ? H * 0.1 : H * 0.6;
   }
   /** Make room for a landing that has not mounted yet: move framing `t` the least distance that
    *  puts node `idx` (both pair members, drawn size) inside the band that landing will have. The
@@ -19060,9 +21626,11 @@ class Component extends DCLogic {
     return dy ? { ...t, cy: t.cy + dy / s } : t;
   }
   // Shared drawn silhouette: camera exclusions and labels must clear the same shape/rings.
-  _nodeHalfW(n, scale, nodeK, kLOD) {
+  // `bare` (v1.275.0): the silhouette alone, without the rings it wears: what another move's name must not cross.
+  _nodeHalfW(n, scale, nodeK, kLOD, bare) {
     const rr = (n.z && n.rep) ? n.rSite + (n.r - n.rSite) * kLOD : n.r;
     const f = n.ty === "submissions" ? 1.242 : n.ty === "positions" ? 1 : 1.18;
+    if (bare) return rr * nodeK * f * scale;
     // ...and it must clear whatever the node is WEARING, not just its own silhouette. The
     // focus mark and the three ring passes are all concentric circles centred on it, and the
     // widest wins: measured on screen, an option's name started INSIDE its own 2.4x ring.
@@ -19255,13 +21823,9 @@ class Component extends DCLogic {
       o = op.rise ?? 0; y = op.riseDy || 0;
       if (op.art) { op.art.style.translate = op.artPrev || ""; op.art = null; }   // the new board has laid out
     }
-    if (!document.getElementById("ng-open-css")) {
-      const st = document.createElement("style"); st.id = "ng-open-css"; st.textContent = NG_CAM_OPEN_CSS; document.head.appendChild(st);
-    }
     this._openStamp(String(Math.round(o * 1e4) / 1e4), y.toFixed(2) + "px");
     // the wrap's state attributes are written only when they change: each write is a style invalidation
-    const book = this.get("readerBook", true) ? "on" : "off", was = wrap.dataset.ngOpen, state = o < NG_CAM_OPEN_FAINT ? "faint" : "board";
-    if (wrap.dataset.ngBook !== book) wrap.dataset.ngBook = book;
+    const was = wrap.dataset.ngOpen, state = o < NG_CAM_OPEN_FAINT ? "faint" : "board";
     if (was !== state) wrap.dataset.ngOpen = state;
     // a hand refused while faint (hidden, `_gameValuePlayable`) is asked again the frame it shows: nothing else would
     if (was === "faint" && wrap.dataset.ngOpen === "board") this._ensureGameValues();
@@ -19278,6 +21842,10 @@ class Component extends DCLogic {
    *  wrap (the state record), the reader section, its shelf and the three rows. A row mounted between frames reads
    *  the initial values (shown) until the next frame stamps it; `_openUnstamp` takes every stamp off at the end. */
   _openStamp(ov, yv) {
+    // the board's stylesheet, installed by the first stamp (the opening's, or a round's end putting the board away)
+    if (!document.getElementById("ng-open-css")) {
+      const st = document.createElement("style"); st.id = "ng-open-css"; st.textContent = NG_CAM_OPEN_CSS; document.head.appendChild(st);
+    }
     const S = this._openStamped || (this._openStamped = new Set());
     for (const el of [this.wrapRef?.current, this._readerEl || this._reader?.root, this._layerDockEl, this._landFilmEl, this._landEl, this.optionsRef?.current]) {
       if (!el || !el.style) continue;
@@ -19298,20 +21866,20 @@ class Component extends DCLogic {
     if (op?.art) { op.art.style.translate = op.artPrev || ""; op.art = null; }
     if (!wrap || !wrap.dataset.ngOpen) return;
     const clear = () => {
-      delete wrap.dataset.ngOpen; delete wrap.dataset.ngBook;
+      delete wrap.dataset.ngOpen;
       this._openUnstamp();
       this._openO = 1; this._openY = 0;
       this._ensureGameValues();   // the board is the player's now: a refusal during the entrance is asked again
     };
     // a release needs something actually fading, or no transitionend would ever come to clear it
-    const fading = [...wrap.querySelectorAll(".ng-reader,.ng-reader-shelf," + NG_CAM_OPEN_ROWS)]
+    const fading = [...wrap.querySelectorAll(".ng-reader," + NG_CAM_OPEN_ROWS)]
       .some((el) => el.offsetHeight && parseFloat(getComputedStyle(el).opacity) < 0.999);
     if (!fade || !fading || ((this._openO ?? 1) >= 0.999 && !this._openY)) { clear(); return; }
     this._openStamp("1", "0px");
     wrap.dataset.ngOpen = "release"; this._openO = 1; this._openY = 0;
     const id = (this._openRelease = (this._openRelease || 0) + 1);
     const done = (e) => {
-      if (e && (e.propertyName !== "opacity" || !e.target.matches?.(".ng-reader,.ng-reader-shelf," + NG_CAM_OPEN_ROWS))) return;
+      if (e && (e.propertyName !== "opacity" || !e.target.matches?.(".ng-reader," + NG_CAM_OPEN_ROWS))) return;
       wrap.removeEventListener("transitionend", done); wrap.removeEventListener("transitioncancel", done);
       if (this._openRelease === id && wrap.dataset.ngOpen === "release") clear();
     };
@@ -19356,7 +21924,8 @@ class Component extends DCLogic {
     if (this._camHoldTarget) Object.assign(this._camHoldTarget, this._paneCameraTarget(this._camHoldTarget));
     const el = this.now - this.startTime;
     const directed = opening && !opening.cancelled && !this._reducedMotion();
-    if (this._arriveGlideUntil != null && !this._arriveWide && !this._camOpenManual && !directed) this._frameArrivalHeading();
+    // ...and a round's end held by a pause, its verdict in the band above the reader as the reader re-lays out (`_endBoard`)
+    if (this._arriveGlideUntil != null && !this._arriveWide && !this._camOpenManual && !directed || this.endZoom && this.paused) this._frameArrivalHeading();
     // a lease taken before there was a clock starts counting now (see holdCamera)
     if (this._camHoldUntil === -1) this._camHoldUntil = this.now + (this._camHoldSecs || this.camHoldSec);
     // ...and so does a calm reading catch's window (D-332 D2-S1), on the first frame with a clock
@@ -19380,7 +21949,8 @@ class Component extends DCLogic {
         // A URL ARRIVAL'S ROWS MOUNT WHEN THE INTRO HANDS OVER (3.2s, below). Make room for them
         // during the parting overview, so they mount over a node that is already clear (v1.219.0).
         if (this._urlSeeded && this._urlSeedIdx >= 0) tgt = this._liftForLanding(tgt, this._urlSeedIdx);
-        if (el > 3.2) {
+        // LEGAL3: while a legal page's box is up on arrival the intro does not hand over (nothing is dealt); closing it lets this run
+        if (el > 3.2 && !this._legalHold) {
           this.introDone = true;
           // HAND THE INTRO'S CAMERA TO A FLIGHT THAT WAS ASKED FOR DURING IT. A share link is
           // decoded at ingest — t=0, 3.2 seconds before this line — so its frameNodes() ran while
@@ -19398,7 +21968,7 @@ class Component extends DCLogic {
           // Typing an address is not that, and crediting it would be the same false tick the
           // retired coach used to hand out.
           if (this._urlSeeded && this._urlSeedIdx >= 0) {
-            this.rollFromPosition(this._urlSeedIdx, true, this._urlSeedRole);
+            this.rollFromPosition(this._urlSeedIdx, true, this._urlSeedRole, true);   // the page's own arrival (`_sessionShown`)
             this._staged = this.currentPos;
             tgt = null;   // ...and the intro's parting overview must not overwrite that framing
           } else if (this._refPage) {
@@ -19414,7 +21984,7 @@ class Component extends DCLogic {
             // starting a fresh roll here moved the map to a random start while the article still
             // read the chosen node, leaving D-318's role change (its other half) off-screen.
           } else {
-            this.startRoll(opening);
+            this.startRoll(opening, true);   // the first roll's deal keeps a session the panel shows (EARLY1, `_sessionShown`)
           }
         }
       }
@@ -19459,7 +22029,7 @@ class Component extends DCLogic {
     // card top of 366, the node 5px INSIDE the card, permanently. A board that has never played
     // therefore keeps tracking — and the moment the user pans (`userActiveNow`), takes a lease,
     // or presses play, every one of the guards around this line takes the camera back.
-    if (this.introDone && (this.paused || this._dossierIdx != null) && !stagedIdle) tgt = null;
+    if (this.introDone && this.paused && !stagedIdle) tgt = null;
     // …and a live focus lease outranks every AUTOMATIC retarget there is — follow, overview, the
     // end-of-round zoom. This is the line the whole camera-ownership fix comes down to: without
     // it the follow-cam re-aims camTarget at the current roll node on the very next frame and the
@@ -19490,7 +22060,7 @@ class Component extends DCLogic {
       ctx.trackW = 3; ctx.dur = () => clamp(this._arriveWideUntil - 0.75 - this.now, 0.6, 1.6);
     } else if (arriveGlide) {
       ctx.trackW = 3; ctx.dur = () => clamp(this._arriveGlideUntil - 0.3 - this.now, 1.0, 4.0);
-    } else if (this._dossierIdx != null || execution) {
+    } else if (execution) {
       // an exchange: the camera keeps up with the attempt (it used to ease at tau 0.28s)
       ctx.trackW = 9; ctx.dur = (S) => clamp(0.35 + 0.15 * S, 0.45, 0.9);
     }
@@ -19802,7 +22372,13 @@ class Component extends DCLogic {
   resize() {
     const el = this.wrapRef.current; if (!el) return;
     if (!el.clientWidth || !el.clientHeight) return;   // mid-mount: never seed a 0-size viewport
+    const phone = this.isMobile();
     this.W = el.clientWidth; this.H = el.clientHeight;
+    // A LIST MENU DOES NOT OUTLIVE A CHANGE OF FORM FACTOR (v1.281.1, STAR3; the reader of #422, N2, as on dev): it is placed
+    // once, at its open (`_placeListPicker`), against a layout a crossing of the phone's breakpoint replaces, and left open
+    // across a resize from 1440 to 390 it stood at its desktop box, off the phone's screen. It closes, as when the seat changes.
+    if (this._pickEl && phone !== this.isMobile()) this.closeListPicker();
+    this._seatReplayBar();   // ...and a film's bar changes seat with the room beside the drawer, at any width (FOLLOW1; FOLLOW2-R1)
     this.dpr = Math.min(window.devicePixelRatio || 1, 2);
     this.canvas.width = this.W * this.dpr; this.canvas.height = this.H * this.dpr;
     this._applyTypeScale();
@@ -19836,34 +22412,18 @@ class Component extends DCLogic {
     if (t) t.style.fontSize = this.announcerPx() + "px";
   }
 
-  jumpToState(idx) {
-    const n = this.nodes[idx]; if (!n) return;
-    this.clearEngagement();
-    // resolve to a position: positions go directly; actions resolve to a connected position
-    let posIdx = idx;
-    if (n.ty !== "positions") {
-      let p = -1;
-      for (const k of this.adj[idx]) { if (this.nodes[k].ty === "positions" && this.rsAllowsIdx(k)) { p = k; break; } }
-      posIdx = p >= 0 ? p : -1;
-    }
-    if (posIdx < 0) return;
-    this.clearTimers(); this.clearOptions();
-    this._session = null; this._sessionNodes = null; this._inSession = false;
-    this.activeMove = null; this.pulse = null; this.ripples = [];
-    // keep role sensible: derive from the node's name if it encodes one
-    const t = (this.nodes[posIdx].t || "");
-    if (/\bbottom\b/i.test(t)) this.playerRole = "bottom"; else if (/\btop\b/i.test(t)) this.playerRole = "top";
-    this.currentPos = posIdx;
-    this.focusIdx = posIdx;
-    this.camFocus = this.pairMid(this.nodes[posIdx]);
-    this.flare(posIdx);
-    this.hideCenter();
-    this.setPaused(true);            // freeze with a fresh decision timer; Play resumes
-    this.enterLand(false);           // build options for the new state (no restart toast)
-  }
-  _graphInputOn() { return !this._filmTheater && (!this._reader || this._reader.on("map")); }
+  // v1.253.0 (U114 a): the map can no longer be hidden, so only the film's theater turns graph input off.
+  _graphInputOn() { return !this._filmTheater; }
   _updateHover(e) {
-    if (!this._graphInputOn()) { this._hover = null; return; }
+    // TWO ANSWERS TO "IS THE POINTER ON THE MAP?", KNOWN (R1 finding 11): this asks the hit-test target; the names ask
+    // `_nameBlocks`' boxes (an opacity floor, no pointer-events test). They differ on pointer-events:none chrome (the legend,
+    // the landing stack and nav: no name there, but the hover passes) and on a control under 5% opacity (names allowed, no
+    // hover). And the pointer's own label has its own fit (`draw()`'s `clear`: no orb test) and keeps its usual place,
+    // under a control or trimmed at the edge, when neither side is clear.
+    // ...and a MOVE hovers only when the pointer is ON the map: over a card, the row or any control it is not (v1.275.0; it
+    // used to hover the node under a card and name it under the card). A seat star belongs to its label and hovers its pair
+    // itself. Never the tap's pointerup: the wrap holds the pointer captured then, so its target is the wrap (attachInput).
+    if (!this._graphInputOn() || e.type === "pointermove" && e.target !== this.canvas && !e.target.closest?.("[data-seat-star]")) { this._hover = null; return; }
     if (!this.cam || !this.nodes) return;
     const rect = this.canvas.getBoundingClientRect();
     if (e.type === "pointermove") {
@@ -19916,29 +22476,10 @@ class Component extends DCLogic {
     const mid = () => { const a = [...ptrs.values()]; return { x: (a[0].x + a[1].x) / 2, y: (a[0].y + a[1].y) / 2 }; };
     el.addEventListener("pointerdown", (e) => {
       if (!this._graphInputOn()) { this._cancelGraphInput(); return; }
-      // ── the in-node dossier owns gestures that START inside it ──
-      // Below, pointerdown calls el.setPointerCapture(). Capture RETARGETS every later pointer
-      // event to `el`, so (a) pointerup's `inCard` guard saw the wrap div instead of the card
-      // and dismissed the dossier mid-gesture, and (b) the browser computed the click event's
-      // target from the down/up common ancestor — also the wrap div. Net effect: EVERY button
-      // inside the desktop in-node dossier ("Roll from here", the attack pills, and now "Add to
-      // today's class list") was visible, enabled, stable — and dead to the mouse. Keyboard and
-      // programmatic paths masked it, exactly like the retired coach's button in v1.69.1. Found by
-      // Playwright: pointerdown hit .dsListTxt, mouseup and click hit a DIV.
-      // Panning the graph from inside the card was never a gesture anyone wanted.
+      // A control inside an overlay must not hand its press to the capture below (§6.1): setPointerCapture retargets pointerup,
+      // the click resolves on the wrap, and the control is dead to the mouse while keys and scripts still work. v1.255.1: the
+      // in-node dossier card and the dossier sheet, the first two surfaces that taught this, are retired with the dossier.
       if (e.target && e.target.closest && e.target.closest("[data-seat-star]")) return;
-      const nc = this.nodeCardRef && this.nodeCardRef.current;
-      if (nc && nc.style.display !== "none" && e.target && nc.contains(e.target)) return;
-      // ...AND THE READING SHEET, which since v1.101.0 is a desktop surface too. Same bug, same
-      // shape: the sheet's "Add to today's class list" row was visible, enabled, hit-testable —
-      // `elementFromPoint` at its centre returned its own `.dsListTxt` — and its click listener
-      // never fired. Traced: `doc-down:dsListTxt` followed by `doc-click:` on an element with NO
-      // class, i.e. this wrap. The capture above retargets pointerup, the browser computes the
-      // click target from the down/up common ancestor, and the row's handler is skipped entirely.
-      // The mobile sheet was exposed to this all along; it only surfaced when the desktop read
-      // moved out of the node and into the sheet.
-      const dsh = this.dossierSheetRef && this.dossierSheetRef.current;
-      if (dsh && dsh.style.display === "block" && e.target && dsh.contains(e.target)) return;
       // ...AND EVERY GAME-CARD SIBLING. `_landSurfaces()` is the one list for the
       // timed card and film; a new sibling cannot fix suppression while remaining
       // dead to a real mouse. The option sheet, minimized-layer dock and hand ✕ complete the
@@ -19960,6 +22501,15 @@ class Component extends DCLogic {
       // drawer (SIDE-R3 N2): on a phone that is how you WATCH the replay you just started.
       // A closing gesture that becomes a pan or pinch ends it in pointermove below (SIDECX5 D2).
       if (this._replay && !closing) this.stopReplay("input");
+      // ...and it ends a look: the roll it was holding resumes (`_showPlace`). THAT PRESS DOES THAT AND NOTHING ELSE
+      // (L3-R1, the reader of PR #440, finding 1: 8 of 9 taps in the visible map during a hold ended the live roll). It
+      // went on into the tap router at pointerup, exactly as the tap that closes the drawer once did (above): over a node it
+      // staged a roll there or opened the technique, the shown place included, and over the background it declined the
+      // question or went to free roam. At the look's framing nearly every point of a phone's map is inside some node's pick
+      // radius, so "press the map to go on" took the roll away. It is consumed the same way; a drag begun with it still pans.
+      const looked = this._lookAutoPaused;
+      this._lookEnd("map", true);
+      if (looked && ptrs.size === 0) closing = true;
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       try { el.setPointerCapture(e.pointerId); } catch (err) {}
       if (ptrs.size === 2) {
@@ -20015,8 +22565,6 @@ class Component extends DCLogic {
       if (ptrs.size < 2) pinch = null;
       if (ptrs.size === 1) { const r = [...ptrs.values()][0]; dragging = true; lx = r.x; ly = r.y; moved = 99; }
       else if (ptrs.size === 0) {
-        const card = this.nodeCardRef && this.nodeCardRef.current;
-        const inCard = card && card.style.display !== "none" && e && card.contains(e.target);
         // ── A TAP IS ROUTED BY WHAT YOU TAPPED (v1.129.1) ──────────────────────────────────
         // Owner: "Can't seem to be able to click any submissions or transitions in the graph. When
         // I click it, it seems to always go to an adjacent or nearby position."
@@ -20032,9 +22580,9 @@ class Component extends DCLogic {
         // `openDossier` has carried the right three-way rule since v1.101.5 (technique -> the
         // "attempt" card; another position -> stage; your own node -> rebuild), so a TECHNIQUE
         // simply routes there. A POSITION deliberately keeps calling `stageRollAt` directly:
-        // going through `openDossier` would also unfold the card and take a `_dossierAutoPaused`
-        // latch on every roam, which is a different feature from the one being fixed.
-        if (dragging && moved < 5 && e && !inCard && !closing) {
+        // going through `openDossier` would also unfold the card and pause the roll on every roam,
+        // which is a different feature from the one being fixed.
+        if (dragging && moved < 5 && e && !closing) {
           this._updateHover(e);
           if (this._hover && this._hover.idx >= 0) {
             // ── TAPPING A NODE IS COMING BACK (v1.129.5) ─────────────────────────────────────
@@ -20043,6 +22591,14 @@ class Component extends DCLogic {
             // "when i click some other positions … i see the choices row but not the MC landcard".
             //
             // (v1.134.0: the stand-down latch is gone — a background tap CLOSES, a node tap stages)
+            // THE PLACE THE MAP IS SHOWING IS PRESSED AS NAMED (L3-R1, T7, taken for ruling). "Show on the map" names one half
+            // of a pair ("ATTACKER · Kimura"), and at the look's zoom on a phone the two halves are drawn on the same
+            // pixel: measured at 390 wide, a press on a submission's place picked its DEFENDING half every time, so a row
+            // about attacking opened the card about being caught. While that name is on the map (`_shownNode`) and the two
+            // halves are under 8 px apart on screen, a press that picks the other half takes the named one. Further apart
+            // (14 to 28 px at 1440) the two orbs can be told apart, and the half pressed is the half meant, as everywhere.
+            const sh = this._shownNode(), op = sh && sh.pi >= 0 && this._hover.idx === sh.pi ? this.nodes[sh.pi] : null, ly = this._LY || ((q) => q.y);
+            if (op && Math.hypot(sh.x - op.x, ly(sh) - ly(op)) * this.W / this.cam.vw < 8) this._hover.idx = sh.idx;
             const hitNode = this.nodes[this._hover.idx];
             if (e.type === "pointerup") this._trackExplore(this._hover.idx, "graph");
             if (this._hover.idx === this.currentPos) this.openDossier(this._hover.idx);
@@ -20065,8 +22621,7 @@ class Component extends DCLogic {
       const wx = this.cam.cx + (sx - this.W / 2) / sb, wy = this.cam.cy + (sy - this.H / 2) / sb;
       let vw = this.cam.vw * Math.exp(e.deltaY * 0.0012);
       // ONE zoom floor. The second one existed to stop a wheel overshooting past the in-node
-      // dossier's sweet spot; that surface was retired in v1.101.0 and `_dossierIdx` has only
-      // been assigned null since, so the branch has been dead — and reading a node by zooming
+      // dossier's sweet spot; that surface was retired in v1.101.0 (its last code in v1.255.1), so the branch had been dead — and reading a node by zooming
       // into it is exactly the behaviour v1.114.0 retired ("to see details on a node we click
       // on it. We don't zoom in anymore"). Zoom is a camera; it decides how many nodes you see.
       vw = Math.max(this.graphW * 0.006, Math.min(this.graphW * 2.6, vw));
@@ -20076,14 +22631,217 @@ class Component extends DCLogic {
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy; this.camTarget.vw = vw;
       this._cancelCamOpen(); this.releaseCamera(); this._stagedCamFree = false; // wheel-zoom is the desktop equivalent of a pinch
       if (this._replay) this.stopReplay("input");   // ...and so it ends a film, for the same reason
+      this._lookEnd("map");                         // and a look (`_showPlace`)
       this.lastInteract = this.now;
     }, { passive: false });
+  }
+
+  // THE SEAL'S DOT ON THE MAP (v1.272.0 to v1.278.1, `_mapSeal` / `_sealGeo` / `_lastMapSeals`) is gone: since v1.280.0 a
+  // recalled move wears a gold line outside its orb and a move whose questions are answered gold inside it (NG_MAP_MARKS,
+  // `draw()`, published as `_lastMapMarks`).
+
+  // ══ NAMES NEVER SIT ON EACH OTHER (v1.275.0) ═══════════════════════════════════════════════════════════════════════════════
+  // The owner, 13 Nov, looking at the map pulled back: "dunno why in the graph there are many techniques showing but they are
+  // unreadable like this you know, when they overlap, avoid that pls". Until now every dealt move whose orb was within 60 px of
+  // the screen was named at one fixed place (right of the orb, raised 7 px), and NOTHING tested one name against another, a
+  // name against the screen's edge or a name against a control: measured on 40 seats (tests/artifacts/_map_names_survey.mjs),
+  // pulled back 9 times at 390x844 the map wrote names on top of each other in hundreds of pairs, and at the usual zoom names
+  // ran off the screen and under the "Your moves" row.
+  //
+  // THE RULE: a name is written only where it can be read. In ORDER OF CLAIM (`draw()`): the move in flight's label during a
+  // move, else the position's own label (both are never moved or refused); the pointer's label (its usual place, or the
+  // mirror side of its orb when that place is not clear: `side`, its own fit, below); then, through this planner, a node the
+  // player was just pointed at (`flare` without `trail`, pass "point"); the dealt moves (pass "move"); the lit trail (pass
+  // "lit", best effort). Each candidate takes the first of its places whose ink box, grown by its air, touches none of: a
+  // name already claimed this frame (one box per label); a control over the map (`_nameBlocks`); the map's edge; the orb of
+  // another dealt move or of the position's pair, with that orb's shoulders where a gold dot can sit (every dealt orb,
+  // known or not, so a grade never moves a name). No place passes: the name is not written. The places are `_nameAt`'s.
+  // Only an orb whose silhouette is on the canvas is a candidate. Within a pass:
+  //   1. what the player is ACTING ON (the card under the pointer, the card holding keyboard focus, a card turned up by
+  //      touch; every "point" node): 24 places, and as a last resort across another orb. Named unless every place is on a
+  //      name claimed before it, under a control or off the map.
+  //   2. the names WRITTEN LAST TIME, in the row's order, each at its old place first: they keep it down to 3 px of air.
+  //   3. the rest, in the row's order (the cards left to right, as the player reads them, `draw()`), with 6 px of air,
+  //      and only a move whose orb stands 6 px clear of every other dealt orb (3 px to keep a name): a name must belong to
+  //      ONE orb (the designer's rule 5, practice-r6 section 4).
+  // A DECISION PER CAMERA STATE, NOT A RE-DEAL EVERY FRAME (the brief's "names must not blink while the camera eases"): a
+  // written name is tested first, with less air than a newcomer, so it is never bumped by a neighbour whose turn came first
+  // and cannot toggle at a boundary (it leaves at 3 px, comes back only at 6); and while the camera MOVES (pan or zoom, per
+  // second: `admit` false, `draw()`), a written name keeps its own place or leaves, never changes side, and a name the layout
+  // refused comes back only at rest and no sooner than half a second after it left (one whose orb left the canvas follows
+  // the orb back: R2 D2, as ruled); a newcomer (an orb sliding into view) may come in while it moves. Measured: an ease from 4
+  // times out re-dealt names every frame without this, one leaving and coming back within 3 frames on another side; a slow
+  // drag, 2 to 7. Measured over 12 recorded drags (240 frames, 3 px a frame) against "nothing comes in until rest": the same
+  // 0 returns and 0 changes of side, and more names on screen while moving (1440 dragging down: 7.4 a frame against 3.4,
+  // never under 3 against down to none); docs/Changelog-Archive.md v1.275.0 R1. A frame whose inputs are
+  // unchanged (camera, hand, cards, pointer, controls, the names before it) reuses the last plan: no layout work.
+  // The trail ("lit") is admitted while moving (the camera follows a travelling move) and may change place: best effort.
+  // Nothing is lost: a move whose name is not written is named the moment the pointer is on its orb or on its card (step
+  // 1, and the hover label), a tap stages it as before, and its card in the row carries its name as before.
+  // Published: `_lastNameBoxes`, every box written this frame in order of claim (`g` its label, so the claim's sequence,
+  // `w` its kind: position, travel, hover, star, point, move, lit; `i` its node; `k` a planned name's place).
+  _planNames(pass, ctx, cands, claims, orbs, sig, admit, A) {
+    const nm = this._nm || (this._nm = {}), memo = nm[pass] || (nm[pass] = { prev: new Map(), gone: new Map() }), gone = memo.gone, t = this.now;
+    // a name the layout REFUSED waits: while the camera moves until it rests, and at rest until half a second after it left
+    // (R1: no such name leaves and comes back within half a second); the live waits are in the key, so a held camera
+    // re-plans as one ends
+    sig += A.v + A.l + "|" + [...gone.values()].filter((g) => t - g < 0.5).length;
+    if (memo.sig !== sig) {
+      const plan = new Map(), prev = memo.prev, G = claims.length, K24 = [...Array(24).keys()], K = K24.slice(0, 8);
+      // the box may be written with air `m`: inside the map, clear of every claim and control, and (`o`) of other orbs
+      const fits = (c, b, m, o) => b.l >= A.l + m - 2 && b.r <= A.r - m + 2 && b.t >= m - 2 && b.b <= A.b - m + 2
+        && !claims.concat(A.blocks).some((q) => b.l < q.r + m && b.r > q.l - m && b.t < q.b + m && b.b > q.t - m)
+        && !(o && orbs.some((q) => q.i !== c.i && q.i !== c.n.pi && Math.max(b.l - q.x, 0, q.x - b.r) ** 2 + Math.max(b.t - q.y, 0, q.y - b.b) ** 2 < q.reach ** 2));
+      const place = (c, ks, m, o) => ks.map((k) => this._nameAt(ctx, c, k)).find((b) => fits(c, b, m, o));
+      // the gap from this orb to the nearest other dealt orb (not its own pair's), silhouette to silhouette
+      const room = (c) => Math.min(1e9, ...orbs.filter((q) => q.i !== c.i && q.i !== c.n.pi).map((q) => Math.hypot(q.x - c.sx, q.y - c.sy) - q.r - c.r));
+      for (const step of [0, 1, 2]) for (const c of cands) {
+        const inc = prev.has(c.i); let b;
+        if (step !== (c.act ? 0 : inc ? 1 : 2)) continue;
+        if (!step) b = place(c, K24, 6, 1) || place(c, K24, 3, 1) || place(c, K24, 3, 0);
+        else if ((inc || !(admit ? t - gone.get(c.i) < 0.5 : gone.has(c.i))) && room(c) >= (inc ? 3 : 6)) b = place(c, inc ? [prev.get(c.i)].concat(admit ? K : []) : K, inc ? 3 : 6, 1);
+        if (b) { b.g = G + plan.size; b.w = pass; b.i = c.i; claims.push(b); plan.set(c.i, b); }
+      }
+      // only a name the LAYOUT refused waits; one that is no longer a candidate (turned face down, its orb off the canvas,
+      // named by the pointer instead) is back the moment it is one again (hidden-moves: a pull flipping the setting twice)
+      for (const c of cands) if (prev.has(c.i) && !plan.has(c.i)) gone.set(c.i, t);
+      if (admit) for (const [i, g] of gone) if (t - g >= 0.5) gone.delete(i);
+      memo.prev = new Map([...plan].map(([i, b]) => [i, b.k]));
+      memo.sig = sig; memo.plan = plan;
+    } else for (const b of memo.plan.values()) claims.push(b);
+    return memo.plan;
+  }
+  // A name's place `k` beside its orb, as the ink box it would have (textBaseline "bottom", left-aligned, `ctx.font` set by the
+  // caller; widths cached per string, dropped when a font lands). 0 is where every move's name has always sat (right of the
+  // drawn ring, raised 7 px); 1-2 the same side level and lowered; 3-5 the left side; 6-7 centred above and below. 8-15 and
+  // 16-23 are the same eight 10 and 20 px further out: a move being acted on may need them to clear the position's name.
+  _nameAt(ctx, c, k) {
+    const M = this._inkM || (this._inkM = new Map());
+    let m = M.get(c.s);
+    if (!m) { const t = ctx.measureText(c.s); M.set(c.s, m = [t.actualBoundingBoxLeft, t.actualBoundingBoxRight, t.actualBoundingBoxAscent, t.actualBoundingBoxDescent]); }
+    const [L, R, a, d] = m, f = (k >> 3) * 10, j = k & 7, g = c.hw + 9 + f, side = j < 3 ? 1 : j < 6 ? -1 : 0, v = j < 6 ? j % 3 : j - 6;
+    const x = side > 0 ? c.sx + g : side < 0 ? c.sx - g - R : c.sx - (R - L) / 2;
+    const y = side ? (v ? v > 1 ? c.sy + 7 + f + a : c.sy + (a - d) / 2 : c.sy - 7 - f) : v ? c.sy + c.hw + 4 + f + a : c.sy - c.hw - 4 - f - d;
+    return { x, y, k, l: x - L, r: x + R, t: y - a, b: y + d };
+  }
+  // THE CONTROLS OVER THE MAP, as canvas-px boxes a name must not run under (v1.275.0), with the map's free left edge (an open
+  // drawer on a desktop). DERIVED, not listed by name: every visible child of the app's wrap and of its root plane (the top
+  // bar's icons, the announcer while it speaks, the index, the legend, the drawer, a toast, the hand's close), and the reader's
+  // own parts (the row with its header and cards, the question, the film, a closed part's label, the article and its body,
+  // which is wider than the article: two columns of sections at 1440); the canvas, the
+  // reader's transparent section and the seat stars (each belongs to a name and is claimed with it) excepted, and anything under
+  // 5% opacity (a layer at rest), read from its INLINE opacity first: that is where it is going, so the arrival's centre block,
+  // fading out over NG_ARRIVE_HANDOFF on the wall clock, hands the band to the names as the canvas label takes it, and a pumped
+  // clock never meets a stale fade. The phone's drawer is opaque and covers the map, so it refuses every name.
+  // MEASURED ONCE PER DRAWN FRAME (`draw()` hands the one answer to both passes and the pointer's label), never on a timer:
+  // a 250 ms memo let two draws in one task see two different sets after a pause had moved the DOM, and a name sit under a
+  // control that had just appeared. About twenty box reads on a clean layout. `v` is the boxes to the pixel, so a plan keyed
+  // on it (`_planNames`) is redone exactly when a control moves and not otherwise.
+  _nameBlocks() {
+    const wrap = this.wrapRef.current, root = this.__ngRoot, rd = this._reader, cv = this.canvas.getBoundingClientRect(), blocks = [];
+    for (const el of [...wrap.children, ...(root && root !== wrap ? root.children : []), ...(rd && this._readerEl?.isConnected ? [...rd.game.children, rd.articleEl, ...rd.articleEl.children] : [])]) {
+      if (el === this.canvas || el === this._readerEl || el === wrap || el.hidden || el.hasAttribute("data-seat-star")) continue;
+      const r = el.getBoundingClientRect(), cs = getComputedStyle(el);
+      const o = +(el.style.opacity || cs.opacity);
+      // A PICKER KEEPS WHAT IT IS ANCHORED TO (v1.280.4, STAR2, ruled): the list menu opened from a seat's star is tagged `pick`, and
+      // the two placements whose label carries that star (the position's own, `clearP`; the pointer's, `clear`) do not count it.
+      // Since v1.280.0 (#417) the menu's own paint refused the name it was opened from: the star went with its name the next frame
+      // and `_syncSeatStars` closed the menu with the star (a press opened it, the next frame shut it; v1.279.0 kept it open).
+      // Every other name still keeps clear of the menu, and a star whose label goes for any other reason (the seat changing,
+      // other paint) is still removed with its menu, so a menu is never left open over a position that is no longer the seat.
+      if (r.width > 0 && r.height > 0 && cs.display !== "none" && cs.visibility !== "hidden" && o >= 0.05) blocks.push({ l: r.left - cv.left, r: r.right - cv.left, t: r.top - cv.top, b: r.bottom - cv.top, el, o, cv, pick: el === this._pickEl && !!this._pickAnchor?.hasAttribute("data-seat-star") });
+    }
+    return { blocks, l: this._paneLayout().left, r: this.W, b: this.H, v: blocks.map((b) => [b.l, b.t, b.r, b.b].map(Math.round)).join(";") };
+  }
+  // DOES CONTROL `q` HIDE THE ORB whose silhouette box is `o` (canvas px, already wholly inside `q`)? Only where it PAINTS
+  // over it (v1.278.1, NEXT1 part 2; the reader's last check of #410: a box alone hid orbs the player sees, 17 names lost at
+  // 1440 Standing over 45 cameras): the control or a descendant whose box holds `o` whole and paints it out, by a background
+  // colour at alpha x opacity (the control's own, inline first as `_nameBlocks` reads it, times each one down) of 0.5 or
+  // more, a background image or gradient, a backdrop filter, or as an image, video or canvas. Text, borders and line icons
+  // do not hide an orb: the top bar's buttons, the reader's table of contents, the row's strip above its cards and the
+  // landing's nav are see-through; the cards, the article's sections, the hand's close (alpha 0.72) and the drawer are
+  // not. Derived from the DOM, as the boxes are; the walk goes down only through boxes that hold `o` (paint that covers it
+  // must), so it reads a few elements per orb, and only for an orb a control's box holds whole. A name is still never
+  // written UNDER any control (`_planNames` clears every box). A colour's alpha is read after its slash (`color(display-p3
+  // r g b / a)`, `lab(... / a)`) or as rgba's fourth argument; a colour with neither is opaque (the reader of #414: taking
+  // the fourth number of any colour read an opaque display-p3 colour as transparent). NOT READ: an ancestor's opacity ABOVE
+  // the control (the wrap's, the root's): a control faded by its parent still counts as painting (fewer names, never a
+  // wrong one).
+  // THE ANSWER IS KEPT (CACHE414, the orchestrator's ruling: measured +1.2 ms on every HELD frame at 1440 under a 4x CPU
+  // throttle, 76 box and 17 style reads a frame, for a check that runs when nothing moves): per control (`_hidC`, a WeakMap
+  // on its element), by orb and its on-canvas box to the pixel; the control's whole store goes when its box (as
+  // `_nameBlocks` measured it) or its OWN scroll moves (the row is its own scroller), and every answer expires half a
+  // second of the frame clock after it was asked, so one made stale by paint changing in place (a card restyled or turned,
+  // a fade) heals by itself. Each element's box and style, read once, are kept in the same store (`c.mm`) and go with it,
+  // and the whole store is remade half a second after it was made: a drag (every orb's box new each frame) walks from
+  // memory, not the DOM (measured at 1440, 4x throttle: a per-FRAME memo still spent 0.7 to 0.8 ms a dragged frame
+  // inside this walk; CACHE414).
+  // PART (v1.280.0, GOLD1-R1): the same question for a NAME's box `o`, which a control's paint must not touch at all ("no
+  // part of the name's ink under a card"): the walk goes down through every box that TOUCHES `o` (not only those holding
+  // it whole), and any of them that paints answers yes. The row's see-through strip touches a name in the gap between two
+  // cards and paints nothing; a card it holds paints, and refuses a name that reaches under it.
+  _hides(q, o, i, part) {
+    const C = this._hidC || (this._hidC = new WeakMap()), el = q.el, k = [q.l, q.t, q.r, q.b].map(Math.round) + "," + el.scrollLeft + "," + el.scrollTop;
+    let c = C.get(el);
+    if (!c || c.k !== k || this.now - c.t >= 0.5) C.set(el, c = { k, t: this.now, m: new Map(), mm: new Map() });
+    const ok = (part ? "part:" : "") + i + ":" + [o.l, o.t, o.r, o.b].map(Math.round), e = c.m.get(ok);
+    if (e && this.now - e.t < 0.5) return e.h;
+    const box = (d) => { let m = c.mm.get(d); if (!m) { const r = d.getBoundingClientRect(); c.mm.set(d, m = { x: r.left - q.cv.left, y: r.top - q.cv.top, w: r.width, h: r.height }); } return m; };
+    const look = (m, d) => {
+      if (!m.s) {
+        const s = getComputedStyle(d), bg = s.backgroundColor, j = bg.lastIndexOf("/");
+        m.s = { op: +s.opacity, gone: s.display === "none", seen: s.visibility !== "hidden",
+          al: j > 0 ? parseFloat(bg.slice(j + 1)) / (bg.endsWith("%)") ? 100 : 1) : /^rgba\(/.test(bg) ? parseFloat(bg.split(",")[3]) : bg === "transparent" ? 0 : 1,
+          paint: s.backgroundImage !== "none" || (s.backdropFilter || "none") !== "none" || /^(IMG|VIDEO|CANVAS)$/.test(d.tagName) };
+      }
+      return m.s;
+    };
+    const walk = (d, op) => {
+      const m = box(d);
+      if (part ? !(m.x < o.r && m.x + m.w > o.l && m.y < o.b && m.y + m.h > o.t) : !(m.x <= o.l && m.x + m.w >= o.r && m.y <= o.t && m.y + m.h >= o.b)) return false;
+      const s = look(m, d);
+      op *= d === el ? q.o : s.op;
+      if (s.gone || op < 0.05) return false;
+      if (s.seen && (s.al * op >= 0.5 || s.paint)) return true;
+      for (const x of d.children) if (walk(x, op)) return true;
+      return false;
+    };
+    const h = walk(el, 1);
+    c.m.set(ok, { h, t: this.now });
+    return h;
   }
 
   shapePath(ctx, ty, x, y, r) {
     if (ty === "positions") { ctx.moveTo(x + r, y); ctx.arc(x, y, r, 0, 6.2832); }
     else if (ty === "submissions") { const h = r * 1.35; ctx.moveTo(x, y - h); ctx.lineTo(x + h * 0.92, y + h * 0.72); ctx.lineTo(x - h * 0.92, y + h * 0.72); ctx.closePath(); }
     else { const h = r * 1.18; ctx.moveTo(x, y - h); ctx.lineTo(x + h, y); ctx.lineTo(x, y + h); ctx.lineTo(x - h, y); ctx.closePath(); }
+  }
+  // THE SAME SHAPE INSET BY `d` ON EVERY SIDE (v1.280.0, the inside mark's gold, NG_MAP_MARKS): `shapePath` scaled about the
+  // shape's INCENTRE, the one point equally far from every side, so each side moves in by exactly `d`. A circle's is its
+  // centre (radius r); the diamond's too (inradius 1.18 r / sqrt 2 = 0.8344 r, so r - 1.1985 d); the triangle's lies
+  // 0.2278 r below (x, y) (apex 1.35 r up, base 0.972 r down, half-base 1.242 r: inradius 0.7442 r), so its r loses
+  // 1.3438 d and its (x, y) moves down 0.3061 d. Clamped at nothing left.
+  _insetPath(ctx, ty, x, y, r, d) {
+    if (ty === "positions") return this.shapePath(ctx, ty, x, y, Math.max(0, r - d));
+    if (ty === "submissions") { const r2 = Math.max(0, r - 1.34376 * d); return this.shapePath(ctx, ty, x, y + 0.30613 * (r - r2) / 1.34376, r2); }
+    return this.shapePath(ctx, ty, x, y, Math.max(0, r - 1.19849 * d));
+  }
+  // THE SAME SHAPE GROWN BY `h` ON EVERY SIDE, ROUND AT THE CORNERS (v1.280.0, the outside mark's line, NG_MAP_MARKS): each
+  // side of `shapePath`'s polygon moved out by h along its own outward normal, joined by an arc of radius h about each
+  // corner (a circle: radius r + h). Stroked 2h wide it covers exactly the band from the silhouette to h x 2 out, round at
+  // the corners: the outside line with no clip, never on its own orb.
+  _outsetPath(ctx, ty, x, y, r, h) {
+    if (ty === "positions") { ctx.moveTo(x + r + h, y); ctx.arc(x, y, r + h, 0, 6.2832); return; }
+    const k = r * (ty === "submissions" ? 1.35 : 1.18);
+    const V = ty === "submissions" ? [[x, y - k], [x + k * 0.92, y + k * 0.72], [x - k * 0.92, y + k * 0.72]] : [[x, y - k], [x + k, y], [x, y + k], [x - k, y]];
+    const N = V.map((p, i) => { const q = V[(i + 1) % V.length], dx = q[0] - p[0], dy = q[1] - p[1], l = Math.hypot(dx, dy); return [dy / l, -dx / l]; });
+    for (let i = 0; i < V.length; i++) {
+      const q = V[(i + 1) % V.length], n = N[i], m = N[(i + 1) % V.length];
+      if (!i) ctx.moveTo(V[0][0] + n[0] * h, V[0][1] + n[1] * h);
+      ctx.lineTo(q[0] + n[0] * h, q[1] + n[1] * h);
+      ctx.arc(q[0], q[1], h, Math.atan2(n[1], n[0]), Math.atan2(m[1], m[0]), false);
+    }
+    ctx.closePath();
   }
 
   // Warm only after a playable hand paints, then at idle. Ingest and progress
@@ -20109,10 +22867,12 @@ class Component extends DCLogic {
   // grades, load and merged progress). An import holds no owner/progress snapshot:
   // completion re-reads the CURRENT setting and evidence, including a late Off.
   // Failed imports retain base paint and retry on the next enable/publication.
+  // v1.280.0 (GOLD1, ruled): "Turn what you know gold" is retired; the stored `masteryGold` stays stored, synced and
+  // readable and is never read here (a settings key is retired by ceasing to read it, CLAUDE.md 6.6): the map's gold is the
+  // outlines (NG_MAP_MARKS). What is left is the site mix of a merged pair, exactly as it painted with the switch Off.
   _rebuildMapPaint() {
-    const on = this.get("masteryGold", false);
-    if ((!on && !NG_MIX_SITES_BY_DEFAULT) || !this._mapPaintReady || !this.nodes || this.__ngDestroyed) { this._mapPaint = null; return; }
-    if (this._goldModule) { this._mapPaint = this._goldModule.ngGoldCache(this, on); return; }
+    if (!NG_MIX_SITES_BY_DEFAULT || !this._mapPaintReady || !this.nodes || this.__ngDestroyed) { this._mapPaint = null; return; }
+    if (this._goldModule) { this._mapPaint = this._goldModule.ngGoldCache(this); return; }
     this._mapPaint = null;
     if (!this._goldLoading) {
       this._goldLoading = this._fetchMasteryGold(this._goldAttempt = (this._goldAttempt || 0) + 1).then(module => {
@@ -20134,7 +22894,6 @@ class Component extends DCLogic {
   _mapFocusColor(n) {
     const e = this._mapPaint && this._mapPaint[n.idx];
     if (!e) return this.myColor(n);
-    if (this.get("masteryGold", false)) return this._mapColor(n);
     const half = this.myColor(n), k = this._lodK == null ? 1 : this._lodK;
     return k === 1 ? half : k === 0 ? e.sitePaint : this.lerp3(e.sitePaint, half, k);
   }
@@ -20164,7 +22923,7 @@ class Component extends DCLogic {
     const nodeK = Math.max(0.4, Math.min(1, this.cam.vw / (this.graphW * 0.5)));
     const kRaw = (scale - 1.15) / (2.20 - 1.15);          // px per world unit: MERGE 1.15, SPLIT 2.20
     const kLOD = kRaw <= 0 ? 0 : kRaw >= 1 ? 1 : kRaw * kRaw * (3 - 2 * kRaw);   // smoothstep
-    this._lodK = kLOD;
+    this._lodK = kLOD; this._nodeK = nodeK;   // published, as the lift is: a spec reads a node's drawn width through `_nodeHalfW`
     const lift = nodeK * kLOD;
     const LY = (n) => (n.z ? n.y + n.z * n.h * (1 - lift) : n.y);
     this._LY = LY;   // ONE definition — `pairMid` reads the same lift the frame just drew with
@@ -20319,7 +23078,6 @@ class Component extends DCLogic {
       const NN = this.nodes.length;
       const lit = [];
       if (drawFocus >= 0) lit.push(drawFocus);
-      if (this._dossierIdx != null && this._dossierIdx !== drawFocus) lit.push(this._dossierIdx);
       for (const li of lit) {
         const cn = this.nodes[li]; if (!cn || !this.adj[li]) continue;
         const mw = (this._maxW && this._maxW[li]) || 0;
@@ -20470,7 +23228,19 @@ class Component extends DCLogic {
     // Position is collapsed continuously by LY(), so the fade only ever finishes on top of a
     // coincident pair — nothing pops, and no crossfade is needed.
     const cullPad = 60 / scale, cxv = this.cam.cx, cyv = this.cam.cy, halfVW = this.cam.vw / 2, halfVH = (H / scale) / 2;
-    const spec = this._hasGround ? [] : null;
+    // the map's gold (NG_MAP_MARKS), collected per drawn orb and drawn after the loop, batched: `insG` inside, `outG` outside
+    const spec = this._hasGround ? [] : null, gold = this._movesGold(), insG = [], outG = [], MK = NG_MAP_MARKS, hmDownF = this._hmDownSet(), hmFaceF = this._hmDownSet(true);
+    // AT A DEVICE PIXEL RATIO OF 1 (GOLD1-R2, the map reader of PR 417: a plain desktop screen at 100%), a 1.2 px border is one
+    // device pixel and the gold tints it from both sides, so an orb with both marks read as a gold coin with a brown rim (182
+    // of 4,464 cases between rs 2.6 and 5 had no pixel on the edge's normal in the orb's own colour). So: the border is never
+    // under 2 DEVICE pixels; where a device pixel is a whole CSS pixel the outside line starts half a device pixel beyond the
+    // silhouette (`gap`), so its edge never tints the orb's own edge pixel, and is 1.5 wide (`lw`: 1 px on a 45-degree face
+    // never covers a whole pixel, and on the smallest diamonds it read 76,65,57, not gold); and there the inside is drawn only
+    // where its gold has at least one device pixel of room inside the border (`fit`), reaching full at two. At dpr 2 all
+    // four are as before. BELOW 2, not only at 1 (GOLD1-R4, the map reader's D4: at 1.5, a laptop at 150%, the dpr-2 rules left
+    // five diamonds of 4,464 with no pixel of their own colour, a warm tint at 0.13 to 0.15 gold); 1.25, 1.5 and 1.75 take them.
+    const mdpr = this.dpr || 1, gap = mdpr < 2 ? 0.5 / mdpr : 0, bwMin = Math.max(MK.borderMin, 2 / mdpr), lw = Math.max(MK.line, 1.5 / mdpr);
+    this._lastMapMarks = [];
     for (const n of this.nodes) {
       // RULESET CULL, first and hardest: a state this ruleset cannot produce is not dimmed, it is
       // absent. Every other cull below is a rendering decision; this one is the graph's content.
@@ -20489,8 +23259,56 @@ class Component extends DCLogic {
       const rD = rr * nodeK * bk;
       ctx.fillStyle = this.rgba(this._mapColor(n, true), 0.62 * A * dim * fogK * aK);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, ny, rD); ctx.fill();
+      // THE MAP'S GOLD (v1.280.0): which orbs wear it is the dot's old gate (a member, never the defender twin, drawn at more
+      // than 0.55 of its alpha); the seat wears its outside line on its mark below, and no inside mark
+      if (aK > 0.55 && n.role !== "defender" && n.idx !== drawFocus && !(hmFaceF && hmFaceF.has(n.idx))) {
+        const out = gold.has(n.idx), rs = rD * scale, bw = Math.max(bwMin, Math.min(MK.borderMax, MK.borderK * rs));
+        // the gold's room inside the border, from the shape's incentre (`_insetPath`): circle 1, diamond 0.8344, triangle 0.7442 r
+        const fit = gap ? Math.max(0, Math.min(1, ((n.ty === "positions" ? 1 : n.ty === "submissions" ? 0.7442 : 0.8344) * rs - bw) * mdpr - 1)) : 1;
+        const k = this._answered(n) ? Math.min(fit, Math.max(0, Math.min(1, (rs - MK.inFrom) / (MK.inFull - MK.inFrom)))) : 0;
+        if (out || k > 0) {
+          const a0 = A * dim * fogK * aK;
+          if (k > 0) insG.push([n, ny, rD, a0 * k, bw]);
+          if (out) outG.push([n, ny, rD, a0]);
+          this._lastMapMarks.push({ idx: n.idx, x: (n.x - this.cam.cx) * scale + W / 2, y: (ny - this.cam.cy) * scale + H / 2, rs, ty: n.ty, out, inK: k, seat: false });
+        }
+      }
       // one light direction for the whole scene — collected here, painted in a single batch below
       if (spec && rD * scale > 7 && aK > 0.55 && fogK > 0.5) spec.push(n.x - rD * 0.3, ny - rD * 0.3, rD * 0.4);
+    }
+    // THE MARKS, BATCHED (v1.280.0, NG_MAP_MARKS), after every orb's fill, with no clip in the ordinary frame. INSIDE: each orb's
+    // border band (the shape minus the shape inset by the border, even-odd) in its own colour over its own fill, then the gold
+    // of every inset shape, one fill per alpha; both lie within the orb's own silhouette, and no gold is ever under a band.
+    // Where two inside-marked orbs overlap, the one drawn later lays its band and its gold over its neighbour's part of the
+    // overlap (the marks come after every fill): shown in the owner's pictures (GOLD1-GO 5; the first build's union clip and
+    // stroked border gave a half-border there). OUTSIDE: each shape's outset path (`_outsetPath`), stroked the line's width,
+    // one stroke per alpha: the line never lies on its own orb, so no clip is needed; only when two outside-marked shapes
+    // come within reach of each other is ONE even-odd clip taken (the view's box and every outside-marked shape), so a line
+    // never shows inside a neighbour. The first build stroked each shape's own edge 2 lines wide under that clip, and so needed
+    // one more clip per overlapping shape (its own complement, the view's box and the shape): a clip over the whole view each,
+    // +0.4 / +0.5 ms on a held frame at 390 with every dealt orb marked (GOLD1 part B). Why one even-odd clip is now enough:
+    // a line lies outside its own shape, so where it crosses into ONE neighbour it is inside exactly one shape, odd, and the
+    // clip leaves it out; only where three marked shapes meet could a line be inside two at once (even) and show.
+    const byAlpha = (gs) => { const m = new Map(); for (const g of gs) { const k = Math.round(g[3] * 20) / 20; (m.get(k) || m.set(k, []).get(k)).push(g); } return m; };
+    for (const [n, y, r, al, bw] of insG) {
+      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, y, r); this._insetPath(ctx, n.ty, n.x, y, r, bw / scale);
+      ctx.fillStyle = this.rgba(this._mapColor(n, true), MK.borderA * al); ctx.fill("evenodd");
+    }
+    for (const [al, gs] of byAlpha(insG)) {
+      ctx.beginPath(); for (const [n, y, r, , bw] of gs) this._insetPath(ctx, n.ty, n.x, y, r, bw / scale);
+      ctx.fillStyle = this.rgba(MK.gold, MK.goldA * al); ctx.fill();
+    }
+    if (outG.length) {
+      const h = (gap + lw / 2) / scale, reachL = (gap + lw) / scale, ext = (n) => n.ty === "submissions" ? 1.578 : n.ty === "positions" ? 1 : 1.18;
+      const lap = outG.some(([n, y, r], i) => outG.some(([m, y2, r2], j) => j > i && Math.hypot(m.x - n.x, y2 - y) < ext(n) * r + ext(m) * r2 + 2 * reachL));
+      ctx.save();
+      if (lap) {
+        const vx = cxv - halfVW - cullPad, vy = cyv - halfVH - cullPad;
+        ctx.beginPath(); ctx.rect(vx, vy, 2 * (halfVW + cullPad), 2 * (halfVH + cullPad)); for (const [n, y, r] of outG) this.shapePath(ctx, n.ty, n.x, y, r); ctx.clip("evenodd");
+      }
+      ctx.lineWidth = lw / scale;
+      for (const [al, gs] of byAlpha(outG)) { ctx.beginPath(); for (const [n, y, r] of gs) this._outsetPath(ctx, n.ty, n.x, y, r, h); ctx.strokeStyle = this.rgba(MK.gold, MK.goldA * al); ctx.stroke(); }
+      ctx.restore();
     }
     // ── LIGHT IS WHAT THE EYE READS DEPTH FROM (v1.113.2) ──────────────────────────────────────
     // An affine shear with no shading is invisible — that is the whole reason the iso build did
@@ -20540,6 +23358,13 @@ class Component extends DCLogic {
       // recolor the current node to YOUR perspective (red when you're losing, blue when winning)
       ctx.fillStyle = this.rgba(pc, 0.98 * A);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), rM); ctx.fill();
+      // A RECALLED SEAT (every dealt move a Yes) wears the outside line OUTSIDE the mark's rim (NG_MAP_MARKS; no inside mark on
+      // the seat): the rim below is 2 px wide on the mark's edge, so 1 px out; the line is the band from 1 to 2 px out
+      if (gold.has(n.idx)) {
+        const y = LY(n);
+        ctx.beginPath(); this._outsetPath(ctx, n.ty, n.x, y, rM, (1 + gap + lw / 2) / scale); ctx.lineWidth = lw / scale; ctx.strokeStyle = this.rgba(MK.gold, MK.goldA * A); ctx.stroke();
+        this._lastMapMarks.push({ idx: n.idx, x: (n.x - this.cam.cx) * scale + W / 2, y: (y - this.cam.cy) * scale + H / 2, rs: rM * scale, ty: n.ty, out: true, inK: 0, seat: true });
+      }
       // the rim was the SAME colour as the fill, i.e. invisible — a "selected" outline has to
       // contrast with what it outlines, so it is lightened toward white.
       ctx.strokeStyle = this.rgba(this.lerpCol(pc, { r: 255, g: 255, b: 255 }, 0.55), 0.95 * A);
@@ -20614,7 +23439,6 @@ class Component extends DCLogic {
     }
     ctx.globalCompositeOperation = "source-over";
 
-    this.updateNodeCard(scale);
 
     // ── NOTHING IS WRITTEN INSIDE A NODE (v1.114.0) ──────────────────────────────────────────
     //
@@ -20640,8 +23464,11 @@ class Component extends DCLogic {
     //    label both halves, that is a label-side decision, not an in-node one.
 
     const seatStars = [];
-    // labels
-    if (cfg.showLabels) {
+    // labels — none while a phone's drawer is open: it takes the screen (`applyDeckVisibility`), and a name under it cannot be
+    // read, the position's own included (v1.275.0; measured: 343 of 390 px, the rest too narrow for any name)
+    const covered = cfg.showLabels && this.deckShown && this.isMobile();
+    if (covered) this._lastPairLabel = this._lastRichLabel = this._lastHoverLabel = this._lastOptLabels = this._lastOptBoxes = null, this._lastNameBoxes = [];
+    if (cfg.showLabels && !covered) {
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       // HOW FAR RIGHT A NODE'S SILHOUETTE ACTUALLY REACHES, in screen px (v1.114.0). Every label
       // here anchored on `n.r * scale`, which stopped being the drawn radius twice over: `nodeK`
@@ -20650,21 +23477,47 @@ class Component extends DCLogic {
       // 1.18r. Now that the label is THE naming design at every zoom it has to sit against the
       // edge it is naming, not against a number that only agreed with it at one camera.
       const halfW = n => this._nodeHalfW(n, scale, nodeK, kLOD);
-      // transient names on recently-lit nodes (excluding the focus, which gets a rich label)
-      ctx.textBaseline = "bottom";
-      ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
-      for (const n of this.nodes) {
-        if (!rsOk[n.idx]) continue;
-        const age = this.now - n.lit; if (age > 3.2 || n.idx === drawFocus) continue;
-        if (this.activeMove && n.idx === this.activeMove.idx) continue;
-        if (this.optionIdxs.indexOf(n.idx) >= 0) continue; // outgoing nodes get persistent labels below
-        const k = Math.max(0, 1 - age / 3.2);
-        const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
-        if (sx < -60 || sx > W + 60 || sy < 0 || sy > H + 20) continue;
-        ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
-        ctx.fillStyle = this.rgba({ r: 238, g: 241, b: 246 }, 0.8 * k * A);
-        ctx.fillText(this.graphName(n), sx + halfW(n) + 9, sy - 7); ctx.shadowBlur = 0;
-      }
+      // EVERY NAME THIS FRAME WRITES CLAIMS ITS INK BOX, in order of claim (v1.275.0, `_planNames`): the position's own label
+      // first, then what the pointer names, then the dealt moves, then the lit trail. `ink` grows the box of the label `gid`
+      // by a line just written with `ctx`'s font and baseline: ONE box per label, so no name is written between a position's
+      // name and its side; a seat star claims its button, which is a control.
+      const claims = [], starPx = this.isMobile() ? 44 : 28;
+      let gid = 0, what = "position", whom = drawFocus;
+      const ink = (s, x, y) => {
+        const m = ctx.measureText(s), l = x - m.actualBoundingBoxLeft, r = x + m.actualBoundingBoxRight, t = y - m.actualBoundingBoxAscent, b = y + m.actualBoundingBoxDescent, q = claims.find((q) => q.g === gid && q.w === what);
+        if (q) Object.assign(q, { l: Math.min(q.l, l), r: Math.max(q.r, r), t: Math.min(q.t, t), b: Math.max(q.b, b) }); else claims.push({ l, r, t, b, g: gid, w: what, i: whom });
+      };
+      const star = (s) => { seatStars.push(s); claims.push({ l: s.x - starPx / 2, r: s.x + starPx / 2, t: s.y - starPx / 2, b: s.y + starPx / 2, g: gid, w: "star", i: s.idx }); };
+      // the pointer's label: written from x0 (right of its orb) unless that box is not clear and the mirror ending at x1 is
+      const NB = this._nameBlocks(), wid = (f, s) => s ? (ctx.font = f, ctx.measureText(s).width) : 0;
+      // `own` (v1.281.1, STAR3, the reader of #422's D1, ruled): only the group whose OWN star opened the list menu does not count
+      // the menu (STAR2's `pick`); every other pointer label keeps clear of it, as move names do
+      const clear = (l, r, t, b, own) => l >= NB.l + 4 && r <= W - 4 && t >= 4 && b <= H - 4 && !claims.concat(NB.blocks).some((q) => !(q.pick && own) && l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3);
+      const side = (x0, w, t, b, x1, own) => clear(x0, x0 + w, t, b, own) || !clear(x1 - w, x1, t, b, own) ? x0 : x1 - w;
+      // THE POSITION'S OWN NAME (v1.280.0, POSNAME; narrowed by GOLD1-R1, ruled: "refused ONLY where it would be under paint
+      // that hides it (the rule `_hides` already knows, from #414) or cut by the screen. A control's box that paints nothing
+      // there does not refuse it: there it is written as on dev"): its usual side, else the mirror beside its orb, else not
+      // written THAT frame, and its seat star goes with it (`_syncSeatStars` removes a star no name anchored). It still claims
+      // first, so nothing else moves. Found live on v1.278.1 (1440 Standing, pulled back and dragged: its name under the row's
+      // cards, a letter between two cards): no part of its ink is under a card (`_hides` with `part`, the box padded 3 px).
+      // The first build refused it under ANY control's box, as a move's name is, and so on a 390 phone landed at Mount the
+      // seat star (the phone's way to save the position to a list) was gone (PR 417's shard 3, lists-picker.spec.ts).
+      // ...and the list menu is not counted against it only when the menu's star is the SEAT's own (`seatPick`, v1.281.1, STAR3-R1,
+      // the reader of #424, ruled as `clear`'s `own`): a hovered pair's star carries `data-seat-star` too, and a menu opened from it
+      // left the seat's name written under the menu (by real mouse at 1440, 4 of 5 pages, since #422). Compared as strings: an
+      // anchor without the attribute gives null, and Number(null) is node 0.
+      const pickStar = this._pickAnchor?.getAttribute("data-seat-star"), seatPick = pickStar != null && (pickStar === String(drawFocus) || pickStar === String(this.nodes[drawFocus]?.pi));
+      const clearP = (l, r, t, b) => l >= NB.l + 4 && r <= W - 4 && t >= 4 && b <= H - 4
+        && !claims.some((q) => l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3)
+        && !NB.blocks.some((q) => !(q.pick && seatPick) && l < q.r + 3 && r > q.l - 3 && t < q.b + 3 && b > q.t - 3 && this._hides(q, { l: l - 3, r: r + 3, t: t - 3, b: b + 3 }, "name", true));
+      // PUBLISHED (GOLD1-R4, the map reader's D5): the two boxes the position's name tried THIS frame and where it went
+      // (`_lastPosCand`: usual, mirror, the 3 px pad `_hides` is asked with, the claims before it, `at`), so a spec can hold the placement to the rule
+      // the frame states, whether or not the name was written
+      const place = (x0, w, t, b, x1) => {
+        const pu = clearP(x0, x0 + w, t, b), pm = !pu && clearP(x1 - w, x1, t, b);
+        this._lastPosCand = { usual: { l: x0, r: x0 + w, t, b }, mirror: { l: x1 - w, r: x1, t, b }, pad: 3, claims: claims.length, at: pu ? "usual" : pm ? "mirror" : null };
+        return pu ? x0 : pm ? x1 - w : null;
+      };
       // Rich labels own the graph's naming structure: role + short headline + optional qualifier.
       // Callers cannot pass a pre-composed name; that is how the merge-scale fallback used to put
       // "from Mount" back into the headline while the split pair rendered it as a subtitle.
@@ -20673,11 +23526,21 @@ class Component extends DCLogic {
         const lA = big ? A * arriveA : A; // big = the focused state's label — it rides the arrival ramp
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         if (sx < -120 || sx > W + 260 || sy < -30 || sy > H + 50) return;
-        const ox = sx + halfW(n) + 11;
-        const maxW = Math.max(60, W - ox - 12);
         const sp = this.splitName(n.t);
         const main = this.graphName(n);
         const qual = n.ty === "positions" ? "" : sp.from || "";
+        const dfam0 = this._displayFam || "'Space Grotesk'", rNamePx0 = big ? this.nameFontPx() : 13;
+        let ox = sx + halfW(n) + 11;
+        if (big) {   // the position's own: placed (POSNAME); its width as it will be drawn, trimmed to the room its side has
+          const lift0 = qual ? this.NG_LABEL_LEAD / 2 : 0, t0 = sy - 7 - lift0 - 11, b0 = sy + 11 - lift0 + (qual ? this.NG_LABEL_LEAD : 0) + 4;
+          const wBlock = (room) => Math.max(wid("700 11px " + dfam0 + ", sans-serif", role.toUpperCase()) + 15 + starPx / 2, Math.min(room, wid("700 " + rNamePx0 + "px " + dfam0 + ", sans-serif", main)), Math.min(room, wid("600 11.5px " + dfam0 + ", sans-serif", qual)));
+          const x1 = sx - halfW(n) - 11, wR = wBlock(Math.max(60, W - ox - 12)), wL = wBlock(Math.max(60, x1 - 12));
+          const pu = clearP(ox, ox + wR, t0, b0), pm = !pu && clearP(x1 - wL, x1, t0, b0);
+          this._lastPosCand = { idx, usual: { l: ox, r: ox + wR, t: t0, b: b0 }, mirror: { l: x1 - wL, r: x1, t: t0, b: b0 }, pad: 3, claims: claims.length, at: pu ? "usual" : pm ? "mirror" : null };
+          ox = pu ? ox : pm ? x1 - wL : null;
+          if (ox == null) return;
+        }
+        const maxW = Math.max(60, ox > sx ? W - ox - 12 : sx - halfW(n) - 11 - ox);
         // Shift the existing role/name pair together by half a row when a qualifier appears, so
         // adding the third line does not move the visual centre of the whole merged label.
         const lift = qual ? this.NG_LABEL_LEAD / 2 : 0;
@@ -20689,19 +23552,19 @@ class Component extends DCLogic {
         const dfam = this._displayFam || "'Space Grotesk'";
         ctx.font = "700 " + (big ? 11 : 10) + "px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba(roleCol, lA);
-        ctx.fillText(role.toUpperCase(), ox, roleY);
-        if (big) seatStars.push({ idx, roleX: ox, x: ox + ctx.measureText(role.toUpperCase()).width + 15, y: roleY - 4, alpha: lA });
+        ctx.fillText(role.toUpperCase(), ox, roleY); ink(role.toUpperCase(), ox, roleY);
+        if (big) star({ idx, roleX: ox, x: ox + ctx.measureText(role.toUpperCase()).width + 15, y: roleY - 4, alpha: lA });
         const rNamePx = big ? this.nameFontPx() : 13;
         ctx.font = (big ? "700 " : "600 ") + rNamePx + "px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, lA);
         const drawnMain = this._fitText(ctx, main, maxW);
-        ctx.fillText(drawnMain, ox, nameY);
+        ctx.fillText(drawnMain, ox, nameY); ink(drawnMain, ox, nameY);
         let drawnQual = "";
         if (qual) {
           ctx.font = "600 " + (big ? "11.5px " : "10.5px ") + dfam + ", sans-serif";
           drawnQual = this._fitText(ctx, qual, maxW);
           ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, lA * 0.62);
-          ctx.fillText(drawnQual, ox, qualY);
+          ctx.fillText(drawnQual, ox, qualY); ink(drawnQual, ox, qualY);
         }
         ctx.shadowBlur = 0;
         // Published draw output: canvas has no DOM, and `ox`/baselines are draw-local geometry.
@@ -20714,27 +23577,10 @@ class Component extends DCLogic {
         // small travel label over it was the owner's "just 'armbar', tiny" report
         const fn = drawFocus >= 0 ? this.nodes[drawFocus] : null;
         const dup = fn && (am.idx === drawFocus || (fn.pairId && this.nodes[am.idx] && this.nodes[am.idx].pairId === fn.pairId));
-        if (!dup) richLabel(am.idx, am.verb, am.col, false);
+        if (!dup) { gid++; what = "travel"; whom = am.idx; richLabel(am.idx, am.verb, am.col, false); }
       }
-      // persistent labels on the outgoing option nodes while a decision is open
-      this._lastOptLabels = null; // published like _lastPairLabel: "what did THIS frame draw"
-      if (this.optionIdxs && this.optionIdxs.length && !this.pulse) {
-        this._lastOptLabels = [];
-        ctx.textBaseline = "bottom"; ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
-        for (const idx of this.optionIdxs) {
-          const n = this.nodes[idx]; if (!n) continue;
-          // a staged exchange makes a dealt option THE FOCUS (v1.132.0) — the pair group already
-          // names it, and an option label on the same orb is the "printed twice" defect the
-          // in-node pass was deleted for. Never possible before: an option was never the focus.
-          if (idx === drawFocus || (drawFocus >= 0 && n.pairId && this.nodes[drawFocus].pairId === n.pairId)) continue;
-          const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
-          if (sx < -60 || sx > W + 60 || sy < 0 || sy > H + 20) continue;
-          ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
-          ctx.fillStyle = this.rgba(n.col, 0.95 * A);
-          ctx.fillText(this.graphName(n), sx + halfW(n) + 9, sy - 7); ctx.shadowBlur = 0;
-          this._lastOptLabels.push(idx);
-        }
-      }
+      // HIDDEN MOVES: the frame's one set (`_hmDownSet`, asked before the orbs: the marks ask it too, GOLD1-R2)
+      const hmDown = hmDownF;
       // THE ONE LABELLING DESIGN, AT EVERY ZOOM (v1.114.0). This used to be suppressed the moment
       // the node grew past 20px, because above that the in-node pass took over and drawing both
       // printed the state's name twice. That pass is gone, so the suppression goes with it: the
@@ -20782,8 +23628,7 @@ class Component extends DCLogic {
         const _sp = this.splitName(n.t);
         const nm = this.graphName(n);
         const qual = n.ty === "positions" ? "" : _sp.from || "";
-        const ox = sx + Math.max(halfW(n), halfW(partner)) + 11;
-        const gMaxW = Math.max(60, W - ox - 12);
+        const hw2 = Math.max(halfW(n), halfW(partner));
         const above = act.z > 0;
         // ── THE ROLE WORD IS THE ONE THE CATEGORY ACTUALLY USES (v1.129.4) ──────────────────
         // The vocabulary itself now lives in seatWord() — it had a second caller (the drill
@@ -20822,23 +23667,6 @@ class Component extends DCLogic {
         const nameY = sy + 6 - lift;
         const qualY = nameY + this.NG_LABEL_LEAD;
         const namePx = focused ? this.nameFontPx() : 15;
-        ctx.font = "700 " + namePx + "px " + dfam + ", sans-serif";
-        const drawnMain = this._fitText(ctx, nm, gMaxW);
-        ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF);
-        ctx.fillText(drawnMain, ox, nameY);
-        let drawnQual = "";
-        if (qual) {
-          ctx.font = "600 " + (focused ? "11.5px " : "10.5px ") + dfam + ", sans-serif";
-          drawnQual = this._fitText(ctx, qual, gMaxW);
-          ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF * 0.62);
-          ctx.fillText(drawnQual, ox, qualY);
-        }
-        // PUBLISH WHAT WAS ACTUALLY DRAWN — the `this._LY = LY` pattern. `ox` comes from `halfW`,
-        // a draw-local closure, so a spec that recomputes it measures the wrong strip: chasing the
-        // "prints the inline long name" mutant, a pixel window derived from `r + 11` landed over
-        // the name's BODY instead of its tail and the mutant survived three different oracles.
-        // Reading the strings the frame passed to `fillText` is not a re-implementation of the
-        // render — it IS the render's output.
         // THE ROLE WORD RIDES ITS ORB (v1.135.0) unless that tears apart two adjacent subtitle
         // rows (v1.173.2). Above roles still sit beside their upper member, and an unqualified
         // lower role still follows its lower member. A qualified lower role instead sits exactly
@@ -20855,15 +23683,41 @@ class Component extends DCLogic {
           : qual
             ? qualY + this.NG_LABEL_LEAD
             : Math.max(nameY + nameClr, syAct + 4);
+        // THE POINTER'S GROUP TAKES THE OTHER SIDE OF ITS PAIR when its own is off the map, under a control or on the position's
+        // name (v1.275.0, `side`); the position's own group never moves ("the name never moves").
+        const fN = "700 " + namePx + "px " + dfam + ", sans-serif", fQ = "600 " + (focused ? "11.5px " : "10.5px ") + dfam + ", sans-serif", fS = "700 " + (focused ? 12 : 11) + "px " + dfam + ", sans-serif";
+        const gw = Math.max(wid(fN, nm), wid(fQ, qual), wid(fS, sub) + 15 + starPx / 2), gt = Math.min(nameY, subY) - namePx, gb = Math.max(qualY, subY) + 4;
+        // the position's own group is placed (POSNAME): its usual side, the mirror, or not this frame (`true`: named, nothing
+        // else stands in for it); the pointer's group mirrors once as before (`side`)
+        const ox = focused ? place(sx + hw2 + 11, Math.min(gw, Math.max(60, W - sx - hw2 - 23)), gt, gb, sx - hw2 - 11) : side(sx + hw2 + 11, gw, gt, gb, sx - hw2 - 11, this._pickAnchor?.getAttribute("data-seat-star") === String(act.idx));
+        if (ox == null) { this._lastPairLabel = null; return true; }
+        const gMaxW = Math.max(60, ox > sx ? W - ox - 12 : sx - hw2 - 11 - ox);
+        ctx.font = fN;
+        const drawnMain = this._fitText(ctx, nm, gMaxW);
+        ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF);
+        ctx.fillText(drawnMain, ox, nameY); ink(drawnMain, ox, nameY);
+        let drawnQual = "";
+        if (qual) {
+          ctx.font = fQ;
+          drawnQual = this._fitText(ctx, qual, gMaxW);
+          ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF * 0.62);
+          ctx.fillText(drawnQual, ox, qualY); ink(drawnQual, ox, qualY);
+        }
+        // PUBLISH WHAT WAS ACTUALLY DRAWN — the `this._LY = LY` pattern. `ox` comes from `halfW`,
+        // a draw-local closure, so a spec that recomputes it measures the wrong strip: chasing the
+        // "prints the inline long name" mutant, a pixel window derived from `r + 11` landed over
+        // the name's BODY instead of its tail and the mutant survived three different oracles.
+        // Reading the strings the frame passed to `fillText` is not a re-implementation of the
+        // render — it IS the render's output.
         // `namePx` rides along for the same reason the strings do: the size lives in a draw-local
         // and there is no DOM to read it back from, so a spec asserting the type hierarchy would
         // otherwise have to re-type the number and agree with a broken build by construction
         // (CLAUDE.md 6.3). Read by e2e/journeys/announcer-coherence.spec.ts.
         this._lastPairLabel = { idx: n.idx, ox: ox, sy: sy, main: drawnMain, qual: drawnQual, sub: sub, above: above, focused: focused, midY: sy, nameY: nameY, qualY: qual ? qualY : null, subY: subY, namePx: namePx };
-        ctx.font = "700 " + (focused ? 12 : 11) + "px " + dfam + ", sans-serif";
+        ctx.font = fS;
         ctx.fillStyle = this.rgba(subCol, aF);
-        ctx.fillText(sub, ox, subY);
-        seatStars.push({ idx: act.idx, roleX: ox, x: ox + ctx.measureText(sub).width + 15, y: subY - 4, alpha: aF });
+        ctx.fillText(sub, ox, subY); ink(sub, ox, subY);
+        star({ idx: act.idx, roleX: ox, x: ox + ctx.measureText(sub).width + 15, y: subY - 4, alpha: aF });
         ctx.shadowBlur = 0;
         return true;
       };
@@ -20871,12 +23725,13 @@ class Component extends DCLogic {
       // what a merge-scale assertion needs; a sticky value would report the last time it drew.
       this._lastPairLabel = null;
       this._lastRichLabel = null;
+      this._lastPosCand = null;
       // the live hover, resolved once — both the focus group and the roaming one read it
       const heldStar = this._seatStarButtons && [...this._seatStarButtons.values()].find((b) =>
         b === this._pickAnchor || b.matches(":hover, :focus-visible"));
       const _hovNode = heldStar ? this.nodes[Number(heldStar.getAttribute("data-seat-star"))]
         : (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5)
-          ? this.nodes[this._hover.idx] : null;
+          ? this.nodes[this._hover.idx] : this._shownNode();   // ...else the place "Show on the map" showed (L3, `_showPlace`)
       if (drawFocus >= 0 && !this.pulse) {
         const n = this.nodes[drawFocus];
         const partner = n.pi >= 0 ? this.nodes[n.pi] : null;
@@ -20904,10 +23759,11 @@ class Component extends DCLogic {
       }
       // ...and the SAME group for whatever pair the cursor is over, when it is not the focus's.
       let _hovPairDrawn = false;
+      if (_hovNode) { gid++; what = "hover"; whom = _hovNode.idx; }   // the pointer's name claims second (v1.275.0)
       if (_hovNode && _hovNode.pi >= 0) {
         const inFocusPair = drawFocus >= 0 &&
           (_hovNode.idx === drawFocus || _hovNode.idx === this.nodes[drawFocus].pi);
-        if (!inFocusPair) _hovPairDrawn = pairGroup(_hovNode, _hovNode, false);
+        if (!inFocusPair && !(hmDown && hmDown.has(_hovNode.idx))) _hovPairDrawn = pairGroup(_hovNode, _hovNode, false);
       }
       // hover: nearest node label (brighter + "your move" tag if it's an outgoing option)
       // ...but NOT for a member of the focused pair: the label group above already names it, and
@@ -20915,14 +23771,25 @@ class Component extends DCLogic {
       // orb would be the "printed twice" problem the in-node pass had (v1.114.0), on hover.
       const _hovIsPairHalf = _hovNode && drawFocus >= 0 &&
         (_hovNode.idx === drawFocus || _hovNode.idx === this.nodes[drawFocus].pi);
-      if (_hovNode && !_hovIsPairHalf && !_hovPairDrawn) {
+      this._lastHoverLabel = null;   // published, like _lastPairLabel: the single hover label THIS frame drew
+      if (_hovNode && !_hovIsPairHalf && !_hovPairDrawn && !(hmDown && hmDown.has(_hovNode.idx))) {
         const n = _hovNode;
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         const isOpt = this.optionIdxs && this.optionIdxs.indexOf(n.idx) >= 0;
-        const hx = sx + halfW(n) + 10;
+        const sp = this.splitName(n.t);
+        const qual = n.ty === "positions" ? "" : sp.from || "";
+        const main = this.graphName(n);
+        // with a qualifier the block straddles the node's line; without one nothing moves.
+        // SAME RULE, SAME CONSTANT (v1.129.4): the two-row block straddles its anchor rather than
+        // pinning the first row to it. No qualifier -> `hLift` is 0 and the baseline is the
+        // long-standing `sy - 8`; with one, the rows sit either side of the node's line.
+        const hLift = qual ? this.NG_LABEL_LEAD / 2 : 0;
+        const hNameY = sy - 8 - hLift;
+        // right of the orb, or the other side when that is not clear (v1.275.0, `side`)
+        const P = "px 'Plus Jakarta Sans', sans-serif", hx = side(sx + halfW(n) + 10, Math.max(wid("700 10" + P, isOpt && "YOUR MOVE"), wid("600 13" + P, main), wid("600 10.5" + P, qual)), (isOpt ? sy - 22 : hNameY) - 13, hNameY + (qual ? this.NG_LABEL_LEAD : 0), sx - halfW(n) - 10);
         ctx.textBaseline = "bottom";
         ctx.shadowColor = "rgba(0,0,0,0.9)"; ctx.shadowBlur = 7;
-        if (isOpt) { ctx.font = "700 10px 'Plus Jakarta Sans', sans-serif"; ctx.fillStyle = this.rgba(n.col, A); ctx.fillText("YOUR MOVE", hx, sy - 22); }
+        if (isOpt) { ctx.font = "700 10px 'Plus Jakarta Sans', sans-serif"; ctx.fillStyle = this.rgba(n.col, A); ctx.fillText("YOUR MOVE", hx, sy - 22); ink("YOUR MOVE", hx, sy - 22); }
         // ── THE QUALIFIER IS ITS OWN LINE (v1.129.0) ──────────────────────────────────────
         // Owner, on names running off a phone: "probably a great idea to do wrapping in that
         // case". Measured at 390x844, technique labels reach 388px (transitions) and 444px
@@ -20934,26 +23801,121 @@ class Component extends DCLogic {
         // bold-over-dimmer in `setEvent`, in Explore rows and in every list surface. Putting the
         // graph label on the same idiom halves the widest line AND makes the canvas read as part
         // of the app rather than as a second naming system.
-        const sp = this.splitName(n.t);
         const maxW = Math.max(60, W - hx - 12);
         ctx.font = "600 13px 'Plus Jakarta Sans', sans-serif";
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A);
-        const qual = n.ty === "positions" ? "" : sp.from || "";
-        const main = this.graphName(n);
-        // with a qualifier the block straddles the node's line; without one nothing moves.
-        // SAME RULE, SAME CONSTANT (v1.129.4): the two-row block straddles its anchor rather than
-        // pinning the first row to it. No qualifier -> `hLift` is 0 and the baseline is the
-        // long-standing `sy - 8`; with one, the rows sit either side of the node's line.
-        const hLift = qual ? this.NG_LABEL_LEAD / 2 : 0;
-        const hNameY = sy - 8 - hLift;
-        ctx.fillText(this._fitText(ctx, main, maxW), hx, hNameY);
+        const hMain = this._fitText(ctx, main, maxW);
+        ctx.fillText(hMain, hx, hNameY); ink(hMain, hx, hNameY);
         if (qual) {
           ctx.font = "600 10.5px 'Plus Jakarta Sans', sans-serif";
           ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A * 0.62);
-          ctx.fillText(this._fitText(ctx, qual, maxW), hx, hNameY + this.NG_LABEL_LEAD);
+          const hQual = this._fitText(ctx, qual, maxW);
+          ctx.fillText(hQual, hx, hNameY + this.NG_LABEL_LEAD); ink(hQual, hx, hNameY + this.NG_LABEL_LEAD);
         }
         ctx.shadowBlur = 0;
+        this._lastHoverLabel = { idx: n.idx, main };
       }
+      // THE DEALT MOVES' NAMES, then the lit trail's, each through `_planNames` against everything claimed above (v1.275.0).
+      // The orbs a name must not cross: every dealt move's and the position's pair, as drawn (`LY`, the bare silhouette), each
+      // with the outside gold line's reach (NG_MAP_MARKS.line beyond the silhouette, v1.280.0; the dot's reach before),
+      // whether it wears one or not, so a grade never moves a name.
+      const orbs = [];
+      for (const i of (this.optionIdxs || []).concat(drawFocus >= 0 ? [drawFocus, this.nodes[drawFocus].pi] : [])) {
+        const n = this.nodes[i]; if (!n || !rsOk[i] || (n.z && !n.rep && kLOD < 0.5)) continue;   // a twin counts once split (`pairGroup`'s threshold)
+        // the reach a name keeps from it: the outside line's (the silhouette, the gap, the line); the SEAT's is its focus mark
+        // (1.28 of the orb), the mark's rim (1 px out) and the line beyond that (GOLD1-R2, the map reader of PR 417: a name came
+        // 2.3 px from the focus mark, 0.3 px from where its line ends)
+        const r = this._nodeHalfW(n, scale, nodeK, kLOD, true);
+        orbs.push({ i, x: (n.x - this.cam.cx) * scale + W / 2, y: (LY(n) - this.cam.cy) * scale + H / 2, r, reach: (i === drawFocus ? r * 1.28 + 1 : r) + lw + gap });
+      }
+      // THE CAMERA MOVES OR RESTS, PER SECOND of the frame clock (v1.275.0; R1 findings 7 and 9). Moving: the zoom changing
+      // faster than 0.12 (log units) a second, or the map sliding faster than 30 px a second, since the last drawn frame
+      // (0.2% and 0.5 px at 60 Hz, so 30 Hz and 120 Hz screens agree). While it moves a written name keeps ITS place or
+      // leaves (`_planNames`' `admit`). A pan
+      // counts, not only a zoom: on a slow drag 4 times out the zoom-only rule let 2 to 7 names leave and come back within
+      // half a second, and at the usual zoom names hopped side 5 to 53 times as the chrome came near. A name the LAYOUT
+      // refused comes back only at rest, and no sooner than half a second after it left; a name whose orb left the canvas
+      // (or went under a control) follows its orb back, and an orb that slides into view may be named while it moves.
+      // A FRAME DRAWN AGAIN AT THE SAME INSTANT (no time passed: a redraw as a control closes, GOLD1-R1) cannot judge motion:
+      // nothing moved repeats the last frame's call, anything moved is moving. It used to read as at rest (0 <= 0), so the
+      // reward card closing itself mid-drag ended names' waits in a frame no one saw move (map-names.spec.ts, the drag).
+      const zk = Math.log(this.cam.vw), cp = this._camPrev, dtD = cp ? this.now - cp.t : 0;
+      const moved = !!cp && (Math.abs(zk - cp.z) > 0.12 * dtD || Math.hypot(this.cam.cx - cp.x, this.cam.cy - cp.y) * scale > 30 * dtD);
+      const still = !cp || (dtD > 0 || moved ? !moved : this._camStill !== false);
+      this._camPrev = { z: zk, x: this.cam.cx, y: this.cam.cy, t: this.now }; this._camStill = still;   // published: the frame's own call
+      const cand = (n, sx, sy, extra) => ({ i: n.idx, n, sx, sy, hw: halfW(n), r: this._nodeHalfW(n, scale, nodeK, kLOD, true), s: this.graphName(n), ...extra });
+      // a name only for an orb whose own silhouette is on the canvas (R1 finding 5: a far-side place could name an orb
+      // drawn wholly off the screen, at the edge, where it reads as the name of whatever orb is nearest), and neither wholly
+      // left of the map's free edge nor wholly under one control's PAINT (R2 D4: an open desktop drawer, the row's cards;
+      // v1.278.1: a box alone, see-through, hides nothing, `_hides`)
+      // (the part of it ON the canvas: an orb hanging off the edge is hidden when what shows of it is under paint)
+      const on = (c) => {
+        const o = { l: Math.max(0, c.sx - c.r), r: Math.min(W, c.sx + c.r), t: Math.max(0, c.sy - c.r), b: Math.min(H, c.sy + c.r) };
+        return c.sx + c.r > NB.l && o.l < o.r && o.t < o.b && !NB.blocks.some((q) => o.l >= q.l && o.r <= q.r && o.t >= q.t && o.b <= q.b && this._hides(q, o, c.i));
+      };
+      // the node the pointer's label names (or its pair partner, which carries the same name) is named once (R2 D3: a lit
+      // node under the pointer was written by the pointer's label and again by the lit pass; dealt moves are skipped alike)
+      const hovd = (n) => _hovNode && (n.idx === _hovNode.idx || n.pi === _hovNode.idx) && claims.some((q) => q.w === "hover");
+      // plan one pass (`_planNames`, keyed on everything its answer depends on) and write what it placed
+      const write = (pass, cands, col) => {
+        ctx.textBaseline = "bottom"; ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
+        const plan = this._planNames(pass, ctx, cands, claims, orbs, [Math.round(zk * 1e3), Math.round(this.cam.cx * scale * 2), Math.round(this.cam.cy * scale * 2), W, H, orbs.length, drawFocus, still || pass, cands.map((c) => c.i + (c.act ? "*" : "")), claims.map((q) => [q.l, q.t, q.r].map(Math.round))].join("|"), still || pass === "lit", NB);
+        ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
+        for (const c of cands) { const b = plan.get(c.i); if (b) { ctx.fillStyle = col(c); ctx.fillText(c.s, b.x, b.y); } }
+        ctx.shadowBlur = 0;
+        return plan;
+      };
+      // LIT NODES (`flare`). ONE node the player was just sent to or shown (a locate, the move just played and its
+      // outcome, a replay's outcome, the submission that caught you, the opponent's move) is ACTED ON: named before the
+      // dealt moves, at 24 places (R1 finding 4, the owner's rule "a redesign keeps every capability": a node the player
+      // was pointed at is named). A TRAIL of many (`flare(…, …, true)`: the travel path, the end-of-round cascade, a replay's
+      // wide beat, the ripple to the dealt orbs) is best effort and named last: writing every name of a trail is the
+      // pile-up the owner asked us to end. Never a dealt move (named below) nor a face-down move's pair partner, which
+      // carries the hidden move's name (R1 finding 10, an old leak in this loop), nor the node the pointer names.
+      // A pointed node claims BEFORE the dealt moves, so for its 3.2 s of light it can push a written move's name off; when
+      // the light fades that name comes back at its old place if it still has 3 px of air, else it is a newcomer needing 6
+      // (measured at 1440 x4: 5 of 15 pointed nodes pushed one name each, 4 came back, 1 stayed off; R2 D5, as ruled).
+      const point = [], trail = [], litCol = (c) => this.rgba({ r: 238, g: 241, b: 246 }, 0.8 * c.k * A);
+      for (const n of this.nodes) {
+        if (!rsOk[n.idx]) continue;
+        const age = this.now - n.lit; if (age > 3.2 || n.idx === drawFocus) continue;
+        if (this.activeMove && n.idx === this.activeMove.idx) continue;
+        if (this.optionIdxs.indexOf(n.idx) >= 0 || (hmDown && hmDown.has(n.idx)) || hovd(n)) continue;
+        const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { k: Math.max(0, 1 - age / 3.2), act: !n.litT });
+        if (on(c)) (c.act ? point : trail).push(c);
+      }
+      if (point.length) write("point", point, litCol);
+      // persistent labels on the outgoing option nodes while a decision is open
+      this._lastOptLabels = null; // published like _lastPairLabel: "what did THIS frame draw"
+      this._lastOptBoxes = null;  // ...and where (CSS px), so the seal's dot is held off every name (v1.272.0)
+      if (this.optionIdxs && this.optionIdxs.length && !this.pulse) {
+        // THE ROW'S ORDER: the cards left to right (sorted by win chance, or frozen), then any dealt orb no card carries; a card
+        // names its orb by `opt.idx`, or by `opt.res` on an escape. ACTED ON: the card under the pointer, the one holding keyboard
+        // focus, one turned up by touch (hidden moves).
+        const dealt = new Set(this.optionIdxs), acted = new Set(), row = [], cands = [];
+        for (const c of this._optionCards || []) {
+          const i = dealt.has(c.opt.idx) ? c.opt.idx : c.opt.res; row.push(i);
+          if (c.card && (c.card.matches(":hover") || c.card.hasAttribute("data-revealed") || (this._kbNav && c.card.contains(document.activeElement)))) acted.add(i);
+        }
+        for (const idx of new Set(row.concat(this.optionIdxs))) {
+          const n = this.nodes[idx]; if (!n || !dealt.has(idx)) continue;
+          if (hmDown && hmDown.has(idx)) continue;   // hidden moves: a face-down card's orb is not named
+          // a staged exchange makes a dealt option THE FOCUS (v1.132.0) — the pair group already
+          // names it, and an option label on the same orb is the "printed twice" defect the
+          // in-node pass was deleted for. Never possible before: an option was never the focus.
+          if (idx === drawFocus || (drawFocus >= 0 && n.pairId && this.nodes[drawFocus].pairId === n.pairId)) continue;
+          // ...and the same for the orb the pointer names (it used to be printed twice, the option's name under the hover's)
+          if (hovd(n)) continue;
+          const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { act: acted.has(idx) });
+          if (on(c)) cands.push(c);
+        }
+        const plan = write("move", cands, (c) => this.rgba(c.n.col, 0.95 * A));
+        this._lastOptLabels = cands.filter((c) => plan.has(c.i)).map((c) => c.i);
+        // the name's INK box, not a guessed pad
+        this._lastOptBoxes = this._lastOptLabels.map((idx) => { const b = plan.get(idx); return { idx, l: b.l, r: b.r, t: b.t, b: b.b }; });
+      }
+      if (trail.length) write("lit", trail, litCol);
+      this._lastNameBoxes = claims;
     }
     this._syncSeatStars(seatStars);
   }

@@ -180,8 +180,8 @@ description: "How to execute Berimbolo Entry in BJJ. Attacking perspective with 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Como fazer Berimbolo da De La Riva com Mikey Musumeci - LEGENDADO",
-      "description": "Berimbolo Entry (Attacker) film study: Como fazer Berimbolo da De La Riva com Mikey Musumeci - LEGENDADO.",
+      "name": "Como fazer Berimbolo da De La Riva - LEGENDADO",
+      "description": "Berimbolo Entry (Attacker) film study: Como fazer Berimbolo da De La Riva - LEGENDADO.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kk5yC5phq5s/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/kk5yC5phq5s",
       "url": "https://www.youtube.com/watch?v=kk5yC5phq5s",
@@ -217,7 +217,7 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 
 ![](https://www.youtube.com/watch?v=kk5yC5phq5s)
 
-<p class="clip-credit"><strong>Como fazer Berimbolo da De La Riva com Mikey Musumeci - LEGENDADO</strong> · 3:42 · <a href="https://www.youtube.com/watch?v=kk5yC5phq5s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Como fazer Berimbolo da De La Riva - LEGENDADO</strong> · 3:42 · <a href="https://www.youtube.com/watch?v=kk5yC5phq5s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

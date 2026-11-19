@@ -29,7 +29,7 @@ import { journey } from "../dsl";
 const KEY = "bjj-neural-progress";
 const SENTINEL = '{"v":2,"prep":{{{ definitely-not-json';
 
-test("boot() leaves no in-flight progress write, even when curriculum.json lands late @curated", async ({
+test("boot() leaves no in-flight progress write, even when curriculum.json lands late", async ({
   page,
 }) => {
   const j = journey(page);

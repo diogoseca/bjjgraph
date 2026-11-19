@@ -160,8 +160,8 @@ description: "Master the defensive perspective against RDLR to Crab Ride in BJJ.
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kiss The Dragon Defense | Train Brazilian Jiu Jitsu | Hawaii JiuJitsu",
-      "description": "RDLR to Crab Ride (Defender) film study: Kiss The Dragon Defense | Train Brazilian Jiu Jitsu | Hawaii JiuJitsu.",
+      "name": "Kiss The Dragon Defense | Train Brazilian Jiu Jitsu",
+      "description": "RDLR to Crab Ride (Defender) film study: Kiss The Dragon Defense | Train Brazilian Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JTEoohJ9mGM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JTEoohJ9mGM",
       "url": "https://www.youtube.com/watch?v=JTEoohJ9mGM",
@@ -205,7 +205,7 @@ Defending against RDLR to Crab Ride requires recognizing inversion attempts earl
 
 ![](https://www.youtube.com/watch?v=JTEoohJ9mGM)
 
-<p class="clip-credit"><strong>Kiss The Dragon Defense | Train Brazilian Jiu Jitsu | Hawaii JiuJitsu</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=JTEoohJ9mGM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kiss The Dragon Defense | Train Brazilian Jiu Jitsu</strong> · 1:12 · <a href="https://www.youtube.com/watch?v=JTEoohJ9mGM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

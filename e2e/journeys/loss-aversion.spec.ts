@@ -44,7 +44,7 @@ const WALK = `(() => {
   return out;
 })()`;
 
-test("@curated the retired dial is gone from Settings, and the wire ships only the default block", async ({ page }) => {
+test("the retired dial is gone from Settings, and the wire ships only the default block", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await page.evaluate(() => (window as any).__neural.openSettings("rolling"));
@@ -60,7 +60,7 @@ test("@curated the retired dial is gone from Settings, and the wire ships only t
   expect(await page.evaluate(() => (window as any).__neural._evLam), "one EDGE block on the wire: the owner's default").toEqual([2]);
 });
 
-test("@curated a stored Self-defence choice changes no dealt hand and nothing EDGE reads", async ({ page }) => {
+test("a stored Self-defence choice changes no dealt hand and nothing EDGE reads", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   const before = await page.evaluate(WALK);

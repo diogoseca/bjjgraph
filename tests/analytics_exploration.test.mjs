@@ -55,7 +55,7 @@ function input(a) {
   const handlers = {};
   const el = { style: {}, addEventListener: (name, f) => { handlers[name] = f; }, setPointerCapture: noop, releasePointerCapture: noop, closest: () => null };
   globalThis.document = { addEventListener: noop };
-  a.wrapRef = { current: el }; a.nodeCardRef = a.dossierSheetRef = { current: null };
+  a.wrapRef = { current: el };
   a.canvas = { getBoundingClientRect: () => ({ left: 0, top: 0 }) };
   a.W = 1000; a.H = 800; a.graphW = 2000;
   a.cam = { cx: 0, cy: 0, vw: 1000 }; a.camTarget = { ...a.cam };
@@ -196,7 +196,8 @@ test("map partner redirect through the production reader wrapper does not duplic
 test("pan, wheel, cancellation, background and disabled graph are not exploration", () => {
   for (const gesture of ["pan", "wheel", "cancel", "background", "disabled"]) {
     const { a, events } = fixture(); const dispatch = input(a);
-    if (gesture === "disabled") a._reader.on = () => false;
+    // v1.253.0 (U114 a): the map can no longer be hidden, so the film's theater is the graph's one off-switch (_graphInputOn).
+    if (gesture === "disabled") a._filmTheater = true;
     if (gesture === "wheel") dispatch("wheel", 500, 400, { deltaY: -20 });
     else {
       const x = gesture === "background" ? 980 : 500;
@@ -208,13 +209,13 @@ test("pan, wheel, cancellation, background and disabled graph are not exploratio
   }
 });
 
-test("list/reference navigation counts, generic dossier calls and automatic zoom do not", () => {
+// v1.255.1: "automatic zoom" went with `_zoomOpenCheck`, the phone zoom-open that nothing in the app called (§6.8).
+test("list/reference navigation counts, generic dossier calls do not", () => {
   const { a, events } = fixture(); dossier(a);
   a.openDossier(4, false, "list");
   a.openDossier(4, false, "reference");
   assert.equal(exploration(events).length, 2);
   a.openDossier(4); a.openDossier(4, true, "list");
-  a.W = 390; a.graphW = 2000; a.cam = { cx: 0, cy: 0, vw: 50 }; a._zoomOpenCheck(50);
   assert.equal(exploration(events).length, 2);
 });
 

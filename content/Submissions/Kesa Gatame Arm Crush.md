@@ -47,22 +47,20 @@ description: "Master the Kesa Gatame Arm Crush in BJJ. Complete guide covering e
       "@type": "VideoObject",
       "position": 1,
       "name": "12 Kesa Gatame attacks",
-      "description": "Kesa Gatame Arm Crush film study: 12 Kesa Gatame attacks, taught by Johnny Jitsu.",
+      "description": "Kesa Gatame Arm Crush film study: 12 Kesa Gatame attacks.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
       "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
       "duration": "PT88S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "High-percentage Kesa Gatame submissions",
-      "description": "Kesa Gatame Arm Crush film study: High-percentage Kesa Gatame submissions, taught by Stephan Kesting.",
+      "description": "Kesa Gatame Arm Crush film study: High-percentage Kesa Gatame submissions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nKITSItbeyM/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/nKITSItbeyM",
       "url": "https://www.youtube.com/watch?v=nKITSItbeyM",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
       "duration": "PT220S"
     }
   ]
@@ -131,7 +129,7 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 ![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
 
-<p class="clip-credit"><strong>12 Kesa Gatame attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>12 Kesa Gatame attacks</strong> · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -139,7 +137,7 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 ![](https://www.youtube.com/watch?v=nKITSItbeyM)
 
-<p class="clip-credit"><strong>High-percentage Kesa Gatame submissions</strong> — taught by Stephan Kesting · 3:40 · <a href="https://www.youtube.com/watch?v=nKITSItbeyM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>High-percentage Kesa Gatame submissions</strong> · 3:40 · <a href="https://www.youtube.com/watch?v=nKITSItbeyM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

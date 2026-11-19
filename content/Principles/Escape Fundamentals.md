@@ -154,43 +154,39 @@ description: "Escape fundamentals combine threat defense, frames, hip movement, 
       "@type": "VideoObject",
       "position": 1,
       "name": "Forearms versus hands when escaping tight positions",
-      "description": "Escape Fundamentals film study: Forearms versus hands when escaping tight positions, taught by Nick Albin.",
+      "description": "Escape Fundamentals film study: Forearms versus hands when escaping tight positions.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9PSw0CLEbFw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/9PSw0CLEbFw",
-      "url": "https://www.youtube.com/watch?v=9PSw0CLEbFw",
-      "creator": { "@type": "Person", "name": "Nick Albin" }
+      "url": "https://www.youtube.com/watch?v=9PSw0CLEbFw"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Key detail for escaping mount bottom",
-      "description": "Escape Fundamentals film study: Key detail for escaping mount bottom, taught by SBG PDX.",
+      "description": "Escape Fundamentals film study: Key detail for escaping mount bottom.",
       "thumbnailUrl": "https://i.ytimg.com/vi/g0G7LYfW9Y8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/g0G7LYfW9Y8",
       "url": "https://www.youtube.com/watch?v=g0G7LYfW9Y8",
-      "creator": { "@type": "Person", "name": "SBG PDX" },
       "duration": "PT118S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "The one principle behind every side control escape",
-      "description": "Escape Fundamentals film study: The one principle behind every side control escape, taught by Jon Thomas.",
+      "description": "Escape Fundamentals film study: The one principle behind every side control escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JiqEETm20Wo/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/JiqEETm20Wo",
       "url": "https://www.youtube.com/watch?v=JiqEETm20Wo",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
       "duration": "PT1287S"
     },
     {
       "@type": "VideoObject",
       "position": 4,
       "name": "The first five escapes you need to know",
-      "description": "Escape Fundamentals film study: The first five escapes you need to know, taught by Knight Jiu-Jitsu.",
+      "description": "Escape Fundamentals film study: The first five escapes you need to know.",
       "thumbnailUrl": "https://i.ytimg.com/vi/775gXyYzB08/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/775gXyYzB08",
       "url": "https://www.youtube.com/watch?v=775gXyYzB08",
-      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
       "duration": "PT521S"
     }
   ]
@@ -220,7 +216,7 @@ Remove the control that blocks your next movement rather than trying to move you
 
 ![](https://www.youtube.com/watch?v=9PSw0CLEbFw)
 
-<p class="clip-credit"><strong>Forearms versus hands when escaping tight positions</strong> — taught by Nick Albin · <a href="https://www.youtube.com/watch?v=9PSw0CLEbFw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Forearms versus hands when escaping tight positions</strong> · <a href="https://www.youtube.com/watch?v=9PSw0CLEbFw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -228,7 +224,7 @@ Remove the control that blocks your next movement rather than trying to move you
 
 ![](https://www.youtube.com/watch?v=g0G7LYfW9Y8)
 
-<p class="clip-credit"><strong>Key detail for escaping mount bottom</strong> — taught by SBG PDX · 1:58 · <a href="https://www.youtube.com/watch?v=g0G7LYfW9Y8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Key detail for escaping mount bottom</strong> · 1:58 · <a href="https://www.youtube.com/watch?v=g0G7LYfW9Y8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -236,7 +232,7 @@ Remove the control that blocks your next movement rather than trying to move you
 
 ![](https://www.youtube.com/watch?v=JiqEETm20Wo)
 
-<p class="clip-credit"><strong>The one principle behind every side control escape</strong> — taught by Jon Thomas · 21:27 · <a href="https://www.youtube.com/watch?v=JiqEETm20Wo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The one principle behind every side control escape</strong> · 21:27 · <a href="https://www.youtube.com/watch?v=JiqEETm20Wo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -244,7 +240,7 @@ Remove the control that blocks your next movement rather than trying to move you
 
 ![](https://www.youtube.com/watch?v=775gXyYzB08)
 
-<p class="clip-credit"><strong>The first five escapes you need to know</strong> — taught by Knight Jiu-Jitsu · 8:41 · <a href="https://www.youtube.com/watch?v=775gXyYzB08" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The first five escapes you need to know</strong> · 8:41 · <a href="https://www.youtube.com/watch?v=775gXyYzB08" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

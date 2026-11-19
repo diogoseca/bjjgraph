@@ -48,33 +48,30 @@ description: "Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering c
       "@type": "VideoObject",
       "position": 1,
       "name": "Kesa Gatame escape",
-      "description": "Kesa Gatame film study: Kesa Gatame escape, taught by SBG Australia.",
+      "description": "Kesa Gatame film study: Kesa Gatame escape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
       "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
-      "creator": { "@type": "Person", "name": "SBG Australia" },
       "duration": "PT42S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing",
-      "description": "Kesa Gatame film study: Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing, taught by Kohbukan Sisu.",
+      "name": "Kesa Gatame Pressure Defense Using Proper Framing",
+      "description": "Kesa Gatame film study: Kesa Gatame Pressure Defense Using Proper Framing.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
       "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
-      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
       "duration": "PT83S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "5 basic judo hold downs and pins (osaekomi)",
-      "description": "Kesa Gatame film study: 5 basic judo hold downs and pins (osaekomi), taught by Shintaro Higashi.",
+      "description": "Kesa Gatame film study: 5 basic judo hold downs and pins (osaekomi).",
       "thumbnailUrl": "https://i.ytimg.com/vi/jwArJKRlJ8o/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/jwArJKRlJ8o",
       "url": "https://www.youtube.com/watch?v=jwArJKRlJ8o",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
       "duration": "PT211S"
     }
   ]
@@ -113,7 +110,7 @@ description: "Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering c
 
 Kesa Gatame, also known as Scarf Hold, represents one of judo's most effective pinning positions adapted for Brazilian Jiu-Jitsu. This position creates a unique control dynamic where the top practitioner sits perpendicular to their supine opponent, wrapping one arm around the opponent's head while controlling the near arm. The position's defining characteristic is the trade-off between offensive control and defensive vulnerability—while offering exceptional upper body immobilization and powerful submission opportunities, it simultaneously exposes the top player's back to potential attacks if proper awareness is not maintained.
 
-Historically, Kesa Gatame has been a cornerstone of judo newaza and was prominently featured in early Brazilian Jiu-Jitsu through the Gracie family's judo background. The position excels at immobilizing larger opponents through superior leverage and weight distribution rather than pure pressure. Modern BJJ has seen the position evolve with variations addressing the traditional back exposure weakness while maintaining offensive potency. Understanding both perspectives—the oppressive control from top and the systematic escape mechanics from bottom—is essential for complete positional mastery.
+Historically, Kesa Gatame has been a cornerstone of judo newaza and was prominently featured in early Brazilian Jiu-Jitsu through its founders' judo background. The position excels at immobilizing larger opponents through superior leverage and weight distribution rather than pure pressure. Modern BJJ has seen the position evolve with variations addressing the traditional back exposure weakness while maintaining offensive potency. Understanding both perspectives—the oppressive control from top and the systematic escape mechanics from bottom—is essential for complete positional mastery.
 
 The strategic uniqueness of Kesa Gatame lies in its geometric relationship: the perpendicular body angle creates biomechanical advantages for control but also creates specific vulnerabilities that can be exploited through proper technique. From the top, practitioners must balance aggressive submission attacks with defensive awareness of back takes. From the bottom, practitioners must recognize that standard side control escapes are ineffective and employ specialized bridge-and-turn mechanics or capitalize on the opponent's back exposure.
 
@@ -133,7 +130,7 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 
 ![](https://www.youtube.com/watch?v=2M_6VytUaus)
 
-<p class="clip-credit"><strong>Kesa Gatame escape</strong> — taught by SBG Australia · 0:42 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame escape</strong> · 0:42 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -141,7 +138,7 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 
 ![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
 
-<p class="clip-credit"><strong>Troubleshooting Tuesday - Kesa Gatame Pressure Defense Using Proper Framing</strong> — taught by Kohbukan Sisu · 1:23 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense Using Proper Framing</strong> · 1:23 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -149,7 +146,7 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 
 ![](https://www.youtube.com/watch?v=jwArJKRlJ8o)
 
-<p class="clip-credit"><strong>5 basic judo hold downs and pins (osaekomi)</strong> — taught by Shintaro Higashi · 3:31 · <a href="https://www.youtube.com/watch?v=jwArJKRlJ8o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>5 basic judo hold downs and pins (osaekomi)</strong> · 3:31 · <a href="https://www.youtube.com/watch?v=jwArJKRlJ8o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

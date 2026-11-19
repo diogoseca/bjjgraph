@@ -72,7 +72,7 @@ description: "Crackhead Control to New York (defender): Keep a useful forearm be
     },
     {
       "@type": "Question",
-      "name": "Crackhead to New York (top): Which cue marks the start of Eddy's hand-first pummel?",
+      "name": "Crackhead to New York (top): Which cue marks the start of the hand-first pummel?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hand entering beneath yours is an early cue to recover inside position before arm coverage and the knee hug close."
@@ -161,33 +161,30 @@ description: "Crackhead Control to New York (defender): Keep a useful forearm be
       "@type": "VideoObject",
       "position": 1,
       "name": "2 simple rubber guard tips",
-      "description": "Crackhead Control to New York (Defender) film study: 2 simple rubber guard tips, taught by Brandon McCaghren.",
+      "description": "Crackhead Control to New York (Defender) film study: 2 simple rubber guard tips.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cY1xCIx-9-I/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cY1xCIx-9-I",
       "url": "https://www.youtube.com/watch?v=cY1xCIx-9-I",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT57S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
       "name": "Passing the Rubber Guard",
-      "description": "Crackhead Control to New York (Defender) film study: Passing the Rubber Guard, taught by Marcelo Garcia.",
+      "description": "Crackhead Control to New York (Defender) film study: Passing the Rubber Guard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ANxiPpAzACU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ANxiPpAzACU",
       "url": "https://www.youtube.com/watch?v=ANxiPpAzACU",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT443S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
       "name": "Why Rubber Guard Doesn\u0027t Work: Countering It",
-      "description": "Crackhead Control to New York (Defender) film study: Why Rubber Guard Doesn\u0027t Work: Countering It, taught by Brandon McCaghren.",
+      "description": "Crackhead Control to New York (Defender) film study: Why Rubber Guard Doesn\u0027t Work: Countering It.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iwcfKUPNZNs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/iwcfKUPNZNs",
       "url": "https://www.youtube.com/watch?v=iwcfKUPNZNs",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT792S"
     }
   ]
@@ -226,7 +223,7 @@ The early escape restores the hand and elbow inside before the knee hug fixes th
 
 ![](https://www.youtube.com/watch?v=cY1xCIx-9-I)
 
-<p class="clip-credit"><strong>2 simple rubber guard tips</strong> — taught by Brandon McCaghren · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>2 simple rubber guard tips</strong> · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -234,7 +231,7 @@ The early escape restores the hand and elbow inside before the knee hug fixes th
 
 ![](https://www.youtube.com/watch?v=ANxiPpAzACU)
 
-<p class="clip-credit"><strong>Passing the Rubber Guard</strong> — taught by Marcelo Garcia · 7:23 · <a href="https://www.youtube.com/watch?v=ANxiPpAzACU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing the Rubber Guard</strong> · 7:23 · <a href="https://www.youtube.com/watch?v=ANxiPpAzACU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -242,7 +239,7 @@ The early escape restores the hand and elbow inside before the knee hug fixes th
 
 ![](https://www.youtube.com/watch?v=iwcfKUPNZNs)
 
-<p class="clip-credit"><strong>Why Rubber Guard Doesn&#39;t Work: Countering It</strong> — taught by Brandon McCaghren · 13:12 · <a href="https://www.youtube.com/watch?v=iwcfKUPNZNs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Why Rubber Guard Doesn&#39;t Work: Countering It</strong> · 13:12 · <a href="https://www.youtube.com/watch?v=iwcfKUPNZNs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

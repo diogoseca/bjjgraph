@@ -129,7 +129,10 @@ test("a proven deck asks nothing — the landing keeps only its remaining contro
   await expect(page.locator("[data-landcard] [data-land-count]"), "the corner count remains without a question").toHaveCount(1)
 })
 
-test("the sidebar reads back as classic recall — multiple choice is the in-roll format", async ({
+// v1.282.0 (rulings R2, SET1-GO): until then this pinned the shipped default "classic" (the sidebar read back as recall, a
+// roll asked multiple choice). Since then nothing stored is Auto, one rule for every card: a new card asks multiple choice
+// in a roll AND in the sidebar, and the default is the reader's, never a write.
+test("nothing stored is Auto: a new card asks multiple choice in the roll and in the sidebar alike, and nothing is written", async ({
   page,
 }) => {
   const j = journey(page)
@@ -138,25 +141,24 @@ test("the sidebar reads back as classic recall — multiple choice is the in-rol
   await j.openQuestion() // U47 d: this journey deliberately answers/times the question.
 
   expect(
-    await page.evaluate(() => (window as any).__neural.get("mcMode", "classic")),
-    "shipped default",
-  ).toBe("classic")
+    await page.evaluate(() => (window as any).__neural.get("mcMode", null)),
+    "nothing stored: Auto is the reader's default",
+  ).toBe(null)
+  await expect(page.locator("[data-land-mc-opt]"), "the roll asks the new card as multiple choice").toHaveCount(3)
 
-  // open the sidebar: its cards must reveal, not offer options. Scoped to the pane — the
-  // LANDING card legitimately has [data-mc-opt] buttons of its own, which is the whole point.
   await page.locator(".ng-logo").click()
   await page.locator('[data-view="history"]').click()
-  await expect(
-    page.locator(".ng-drill [data-mc-opt]"),
-    "no multiple choice in the study pane",
-  ).toHaveCount(0)
   const paneMc = await page.evaluate(() => {
     const a = (window as any).__neural
     const key = a.deckKeyFor(a.nodes[a.currentPos]).key
-    const card = a.flashcards.decks[key].cards[0]
+    const card = a.flashcards.decks[key].cards.find((c: any) => a.cardStage(key, c.q) < 2)
     return a.mcActive(key, card)
   })
-  expect(paneMc, "the study surface does not quiz you multiple-choice by default").toBe(false)
+  expect(paneMc, "the sidebar asks the same new card as multiple choice too").toBe(true)
+  expect(
+    await page.evaluate(() => (window as any).__neural.get("mcMode", null)),
+    "and still nothing is written",
+  ).toBe(null)
 })
 
 test("shifted digits leave the live landing question and hand untouched", async ({ page }) => {
@@ -236,7 +238,7 @@ test("the corner shows card position as bare text that opens nothing", async ({ 
  * revealed-only on purpose: a DECLINED question (sheet, pane, bg) is un-revealed, and answering
  * it after backing out still pays — keyboard.spec.ts pins that.
  */
-test("@curated a timed-out question is spent — a late click grades nothing", async ({ page }) => {
+test("a timed-out question is spent — a late click grades nothing", async ({ page }) => {
   const j = journey(page)
   await gameBoard(page, j)
   await j.advance(6000)
@@ -334,7 +336,7 @@ test("@curated a timed-out question is spent — a late click grades nothing", a
  * the base color it was armed with.
  * Mutants that must die: dropping the JS pulse write; snapping the bar (no transition).
  */
-test("@curated expiry is fluid — no re-entry replay, the bar eases home", async ({ page }) => {
+test("expiry is fluid — no re-entry replay, the bar eases home", async ({ page }) => {
   const j = journey(page)
   await gameBoard(page, j)
   await j.advance(6000)
@@ -393,7 +395,7 @@ test("@curated expiry is fluid — no re-entry replay, the bar eases home", asyn
  * Mutants that must die: arming immediately (gate dropped); the 1.5× grace dropped; the
  * document-level latch removed (a real mouse move must arm it).
  */
-test("@curated no clock before Answer for Points — engagement alone is free; taking it up keeps new-user grace", async ({
+test("no clock before Answer for Points — engagement alone is free; taking it up keeps new-user grace", async ({
   page,
 }) => {
   const j = journey(page)

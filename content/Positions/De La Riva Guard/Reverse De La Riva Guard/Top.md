@@ -165,23 +165,21 @@ description: "Master Reverse De La Riva Guard Top passing in BJJ. Complete guide
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse Dela Riva Guard Pass with Frankie Roberts, Silver Fox BJJ Black Belt.",
-      "description": "Reverse De La Riva Guard (Top) film study: Reverse Dela Riva Guard Pass with Frankie Roberts, Silver Fox BJJ Black Belt., taught by Frankie Roberts.",
+      "name": "Reverse Dela Riva Guard Pass",
+      "description": "Reverse De La Riva Guard (Top) film study: Reverse Dela Riva Guard Pass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cOUEcFxDtL8/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/cOUEcFxDtL8",
       "url": "https://www.youtube.com/watch?v=cOUEcFxDtL8",
-      "creator": { "@type": "Person", "name": "Frankie Roberts" },
       "duration": "PT58S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "RTC | Passing Reverse De La Riva",
-      "description": "Reverse De La Riva Guard (Top) film study: RTC | Passing Reverse De La Riva, taught by Ronin Training Center.",
+      "name": "Passing Reverse De La Riva",
+      "description": "Reverse De La Riva Guard (Top) film study: Passing Reverse De La Riva.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ynFpOlFWdLw/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/ynFpOlFWdLw",
       "url": "https://www.youtube.com/watch?v=ynFpOlFWdLw",
-      "creator": { "@type": "Person", "name": "Ronin Training Center" },
       "duration": "PT67S"
     }
   ]
@@ -214,7 +212,7 @@ The top player must navigate multiple decision points throughout the passing seq
 
 ![](https://www.youtube.com/watch?v=cOUEcFxDtL8)
 
-<p class="clip-credit"><strong>Reverse Dela Riva Guard Pass with Frankie Roberts, Silver Fox BJJ Black Belt.</strong> — taught by Frankie Roberts · 0:58 · <a href="https://www.youtube.com/watch?v=cOUEcFxDtL8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse Dela Riva Guard Pass</strong> · 0:58 · <a href="https://www.youtube.com/watch?v=cOUEcFxDtL8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -222,7 +220,7 @@ The top player must navigate multiple decision points throughout the passing seq
 
 ![](https://www.youtube.com/watch?v=ynFpOlFWdLw)
 
-<p class="clip-credit"><strong>RTC | Passing Reverse De La Riva</strong> — taught by Ronin Training Center · 1:07 · <a href="https://www.youtube.com/watch?v=ynFpOlFWdLw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing Reverse De La Riva</strong> · 1:07 · <a href="https://www.youtube.com/watch?v=ynFpOlFWdLw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
