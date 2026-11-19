@@ -57,6 +57,8 @@ import { journey } from "../dsl"
  *      nothing: a repeat is not a second press"
  *   R12 a held Enter's repeat acts on the focused card (`_keyRepeat` not read) → "Enter on a focused card…" at "held,
  *      Enter's repeat plays nothing"
+ *   N5 (v1.293.4; the reader's own, which survived PR #443's journeys) the keyup that lifts `_keyRepeat` does nothing → "Space
+ *      held on the marked card is one press…" at "released, the card is played: the key's release lifts the repeat"
  *   R13 the show step scrolls to the row's box, not to the part its cards are dealt into (the reader's M12, which
  *      survived the first cut: the card "shown" stays under the drawer, marked) → "the key's own show step does not strand
  *      the first card…" at "the first card is brought back clear of the drawer and takes the mark", and "…a card half
@@ -234,6 +236,39 @@ test.describe("1440x900, the drawer shut", () => {
     await j.advance(300)
     const after = await game(page)
     expect(after.moves > 0 || after.running, "released and pressed again, it plays").toBe(true)
+  })
+
+  // THE KEY'S RELEASE LIFTS THE REPEAT (N5, v1.293.4; the reader's re-read of PR #443, its mutant N5). `_keyRepeat` is set
+  // while a key is held and repeating; its lifters are the next keydown and any keyup. With the keyup doing nothing every
+  // journey stayed green (14 of 14): each one that held a key pressed a fresh key afterwards, and a fresh keydown writes
+  // the flag again. Space is the key that needs the keyup: on a focused button its click comes at the RELEASE, with no
+  // keydown in between, so a flag the repeats left set would swallow the press itself and a held Space would play nothing
+  // at all. Held, Space plays nothing (and neither do its repeats); released, the card is played.
+  test("Space held on the marked card is one press: its two repeats play nothing, and its release plays the card", async ({ page }) => {
+    const j = journey(page)
+    await j.boot("/")
+    await j.land("Mount Top")
+    expect((await cardAt(page, 7))!.inReach, "premise: the seventh card is out of view").toBe(false)
+    await rigged(j)
+    await noFocus(page)
+    await page.keyboard.press("7")
+    await j.advance(300)
+    const seventh = (await cardAt(page, 7))!
+    expect([(await inRow(page, 7)).marked, seventh.inReach, (await game(page)).moves], "premise: 7 showed and marked the seventh card (in reach now), and played nothing").toEqual([true, true, 0])
+    const was = await game(page)
+    await page.evaluate(() => { (window as W).__keys = []; for (const type of ["keydown", "keyup"]) window.addEventListener(type, (e) => (window as W).__keys.push([e.type, (e as KeyboardEvent).key, (e as KeyboardEvent).repeat]), true) })
+    await page.keyboard.down("Space")
+    await page.keyboard.down("Space") // the key still held: the keyboard sends it again, as a repeat
+    await page.keyboard.down("Space") // and again
+    await j.advance(700)
+    expect(await page.evaluate(() => (window as W).__keys), "premise: one keydown and two repeats, the key not yet let go").toEqual([["keydown", " ", false], ["keydown", " ", true], ["keydown", " ", true]])
+    expect(await game(page), "held, Space plays nothing, and neither do its two repeats").toEqual(was)
+    expect((await inRow(page, 7)).marked, "and the mark is still on the seventh card").toBe(true)
+    await page.keyboard.up("Space")
+    await j.advance(300)
+    const after = await game(page)
+    expect(after.moves > 0 || after.running, "released, the card is played: the key's release lifts the repeat").toBe(true)
+    expect(await page.evaluate(() => { const a = (window as W).__neural, x = a._execution; return x && a.nodes[x.idx] ? (a.nodes[x.idx].t as string) : null }), "and it is the marked card").toBe(seventh.tech)
   })
 
   test("on a reading arrival a digit whose card is out of view begins nothing", async ({ page }) => {
