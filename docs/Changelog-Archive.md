@@ -20598,3 +20598,32 @@ first belt sync, manifest or not, so the two land in either order (the orchestra
 way, 4 the other; equal values). The comparison is by value now, at every depth, arrays keeping their order, and a
 difference names the field with both values (`recordDiff`, e2e/dsl.ts). A record's key order means nothing to the app,
 the merge or the cloud, so the app is not changed.
+
+**After the reader (BGCLOSE-R1, the same PR).** The reader of PR #446: the core held (one press closed the page whole in every
+state it tried, at four sizes, on three page kinds), MERGE AFTER 7 fixes, all at the edges the PR opened. Each its own commit.
+
+- **F4, Back erased the roll the close filed.** Last rolls is the app instance's memory, and Back and Forward mount a new
+  instance: closed `[3]`, after Back `[]` (the reader, by real presses). This visit's shelf now outlives the instance: the one
+  leaving leaves it in the document's memory (`ngShelf`), and the next takes it at its boot when it is the same owner's. A
+  sign-in or a sign-out mounts another owner's instance, which takes nothing, as before. Nothing is stored: a reload empties
+  it, as before. Back does not resume the live roll; it brings the page as a fresh arrival, and the roll is in Last rolls.
+  The journey's reload step had passed whatever the app did, because the harness wipes local and session storage at every
+  load: the mutant that kept the shelf in sessionStorage survived until the step kept storage as a real reload does.
+- **F7, a page still loading pushed its address after the close** (the reader: `/`, then `/Submissions/Americana` 5 s later,
+  a 4th entry, nothing on screen). The close ends the reader's request: one whose module is loading never opens, one in
+  flight is aborted and its serial moved on (`cancel`). The late-article journey's premise ("the late article arrives") is
+  re-pointed: the request never renders now, and the free-roam latch's keep-away for a late automatic request is reachable
+  only by a request made after a close, which no landing makes: two rows of free_roam_mutants.mjs are no longer killed.
+- **F3, a touch the system cancels was taken for a tap** (`pointercancel` shares the map's end handler with `pointerup`): it
+  closed the page. On v1.293.4 the same cancel took the ladder's first step: a fault older than BGCLOSE. A cancelled pointer
+  is never a press now; it still ends the gesture (the capture released, the pointer forgotten, a pinch or pan ended).
+- **F2, Practice's Back stripped the close's mark** (a replace on the closed entry through the one writer): Back onto that
+  entry later dealt the root's roll and pushed over the forward history. The mark is dropped only on a new entry or a new
+  address. Of the replaces that exist, Practice's Back is the only one that can run on the closed entry.
+- **F5, F6, F1: tests only.** The reference page's step reads the browser's address and title (the reader's K1 survived it);
+  a press on a node with a menu open or during a film is pinned to stage the node (K2 survived); url_sync's P1-E keeps the
+  observed-title case on a page the app cannot name (U1 survived it).
+- **Forward's flash:** the outgoing app read "/" as an article for ~0.3 s before the remount (`_readerIntent` still set). One
+  condition: onto the closed entry the outgoing app opens nothing.
+- **Two of my steps the neutral control found red** before any mutant counted: the staged node read on its own half (during
+  a film the press takes the named half of a close pair), and the phone's strip asked once for a bare point (it is 46 px).
