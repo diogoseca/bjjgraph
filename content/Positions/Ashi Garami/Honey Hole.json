@@ -1,6 +1,10 @@
 {
   "name": "Honey Hole",
   "slug": "honey-hole",
+  "bot_metadata": {
+    "last_improved": "2026-08-08",
+    "optimization_pass": "ai_seo_v1"
+  },
   "description": "Master Honey Hole position in BJJ. Advanced leg entanglement with inside control, heel hook access, and systematic defense protocols. Complete perspective analysis.",
   "variant_uniqueness": "Inside leg triangle creates control asymmetry",
   "summary": "Honey Hole is a dominant inside leg entanglement (inside sankaku) where one player traps the opponent's leg in an inside leg triangle, pinning the hip and unlocking direct heel hook, kneebar, and toe hold attacks.",
@@ -62,6 +66,16 @@
     {
       "name": "Leg Entanglement",
       "relationship": "Conceptual framework governing all leg lock positions"
+    }
+  ],
+  "disambiguations": [
+    {
+      "name": "Outside Ashi-Garami",
+      "reason": "it captures the leg on the outside line and exposes the outer heel, whereas Honey Hole is an inside-line entanglement (inside sankaku) that turns the inner heel toward the attacker for the inside heel hook"
+    },
+    {
+      "name": "50-50 Guard",
+      "reason": "50-50 is a symmetric mutual entanglement where both players share identical control and risk, whereas Honey Hole is strongly asymmetric and heavily favors the entangling player"
     }
   ],
   "top": {
