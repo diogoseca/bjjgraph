@@ -24,6 +24,8 @@
 //      device (MOVE-R1 F1: both were reader's mutants that every unit let through).
 //  14. a delete's Undo UNIONS its snapshot into a list a merge brought back meanwhile (another device's adds and its move
 //      into the list stay; MOVE-R1 F4, a loss dev already had).
+//  15. an add into a list with an order record extends the record on the adding device, and two devices that each add
+//      after a reorder end with one order (MOVE-R1 F2: the record's, then what it does not name by id).
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -339,4 +341,26 @@ test('14. a delete\'s Undo unions its snapshot into a list a merge brought back:
   await flush();
   const pushed = h.pushes.at(-1).value;
   assert.deepEqual(itemsOf(pushed.lists), { S: ['E'], T: ['A', 'B', 'C', 'D'] }, 'and the push carries them all');
+}));
+
+test('15. an add into a list with a record extends the record; two devices that each add after a reorder end with one order', () => fakeTimers(async ({ flush }) => {
+  const h = harness(); await h.boot(); const a = h.switchTo('A');
+  a.prep.local = 1; await a._pullAndMerge(); await flush();
+  const ids = ['Transitions/A', 'Transitions/B', 'Transitions/C', 'Transitions/D'];
+  a.nodes = ids.map(id => ({ id, t: id.slice(12), ty: 'transitions', rep: true })); a._idIndex = new Map(ids.map((id, i) => [id, i]));
+  const [A, B, C, D] = ids;
+  a.lists = { T: L([A, B], 100, 'Guard') };
+  assert.equal(a.moveListItemBy('T', B, -1), true);                           // Guard: B A, recorded
+  const rec0 = a.listOrderAt.T.slice();
+  assert.equal(a.addToList(C, 'T').added, true);                              // then this device adds C
+  assert.deepEqual(a.listOrderAt.T[1], [B, A, C], 'the record now names C, where it was added');
+  assert.ok(a.listOrderAt.T[0] > rec0[0], 'later than the reorder');
+  a._flushSave(); await flush();
+  const mine = a._progressBlob();
+  // the other device saw only the reorder, and added D, later: its record names D, not C
+  const theirs = blobOf({ T: L([B, A, D], a.listOrderAt.T[0] + 5, 'Guard') }, null, { T: [a.listOrderAt.T[0] + 5, [B, A, D]] });
+  const here = a._mergeProgressBlobs(mine, theirs), there = a._mergeProgressBlobs(theirs, mine);
+  assert.deepEqual(here.lists.T.items, [B, A, D, C], "the winning record's order, then C (not named by it)");
+  assert.deepEqual(there.lists.T.items, here.lists.T.items, 'the same order on both devices');
+  assert.deepEqual(here.listOrderAt, there.listOrderAt, 'and the same record');
 }));

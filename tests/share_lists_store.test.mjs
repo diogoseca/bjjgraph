@@ -441,10 +441,10 @@ test("an older build's stale order is never adopted: the order is derived from t
   assert.deepEqual(ordered(ngListsApplyOrder(older, A.order)), { S: ["Z", "X", "Y"] }, "and on a plain load of that copy");
 });
 
-test("the order only sorts: nothing is dropped, and items the record lacks keep their order after it", () => {
+test("the order only sorts: nothing is dropped, and items the record does not name come after it, by id", () => {
   const order = ngListOrderSet({}, "S", 300, ["Z", "X", "GONE"]);
-  const lists = { S: L(["A1", "X", "B1", "Z"], 1) };
-  assert.deepEqual(ordered(ngListsApplyOrder(lists, order)), { S: ["Z", "X", "A1", "B1"] });
+  const lists = { S: L(["B1", "X", "A1", "Z"], 1) };
+  assert.deepEqual(ordered(ngListsApplyOrder(lists, order)), { S: ["Z", "X", "A1", "B1"] }, "the record's, then the rest by id (not this copy's B1, A1)");
   assert.equal(ngListsApplyOrder(lists, order).S.items.length, 4);
   // with the move's cells: X moved out of S to T; the order applies to what is left
   const marks = ngListMarksSet(ngListMarksSet({}, "S", "X", 400, 0), "T", "X", 400, 1);
@@ -508,4 +508,17 @@ test("the no-loss guard walks the lists in id order: an item whose every place s
   assert.deepEqual(one.T.items, ["X", "Z"]);
   // and through the merge, in both orders
   assert.deepEqual(ngMergeLists(lists, {}, ngListMarksMerge(st, {})), ngMergeLists(lists, {}, ngListMarksMerge({}, ts)));
+});
+
+// MOVE-R1, F2: what the winning record does not name (two devices adding at once, an older build appending) follows it in
+// one order on every device, by id. Before, it kept each copy's own order, and the no-echo key (items as a set) never
+// settled it: the reader's tail.mjs, the record [B, A], one device [B, A, C, D], the other [B, A, D, C].
+test("two devices that each add after a reorder end with one order: the record's, then the rest by id, in both merge orders", () => {
+  const order = ngListOrderSet({}, "T", 300, ["B", "A"]);
+  const one = { T: L(["B", "A", "D"], 400, "Guard") }, two = { T: L(["B", "A", "C"], 401, "Guard") };
+  const ab = ordered(ngMergeLists(one, two, {}, order)), ba = ordered(ngMergeLists(two, one, {}, order));
+  assert.deepEqual(ab, { T: ["B", "A", "C", "D"] });
+  assert.deepEqual(ab, ba, "the same order whichever copy is local");
+  // and a plain load of either copy, holding the union in its own order, derives the same
+  assert.deepEqual(ordered(ngListsApplyOrder({ T: L(["B", "A", "D", "C"], 1) }, order)), { T: ["B", "A", "C", "D"] });
 });

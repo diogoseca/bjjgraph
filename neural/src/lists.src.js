@@ -331,9 +331,14 @@ export function ngShareOgDescription(names, total) {
 // the list's whole order in a new top-level key of the progress blob, `listOrderAt`:
 //   { "<listId>": [t, ["<nodeId>", …]] }
 // ONE REGISTER PER LIST: the later `t` wins; on an exact tie the record whose array is first in string order wins, so
-// every device keeps the same one. Written ONLY by a reorder. A list's shown order is DERIVED from its winning record
-// (`ngListsApplyOrder`): its items, the union's and the move cells' result, sorted by their place in the record; items the
-// record does not hold keep their relative order after it, so an add made after a reorder lands at the end, as adds do.
+// every device keeps the same one. Written by a reorder, and by an insertion into a list that has a record (the app's
+// `_keepListOrder`: the adding device's record names what it holds). A list's shown order is DERIVED from its winning
+// record (`ngListsApplyOrder`): its items, the union's and the move cells' result, sorted by their place in the record;
+// items the record does not name come after it IN ID ORDER (MOVE-R1, F2). They are what two devices added at once, or
+// what an older build appended, and the union holds them in each copy's own order: "their own order after it" kept a
+// different order on each device for good (the reader's tail.mjs: the record [B, A], one device [B, A, C, D], the other
+// [B, A, D, C], 354 of 3,000 runs), and the no-echo key, which compares a list's items as a set, never settled it. One
+// rule every device computes alike settles it with no write.
 // Nothing is ever dropped: the derivation only sorts. The `lists` order is then a cache every current build re-derives, so
 // an older build's stale order (it merges local first and keeps this key untouched through `_progressExtras`) is never
 // adopted. WHY THE ORDER ITSELF AND NOT A STAMP ALONE: with a stamp alone an older build pushes its old order under the
@@ -398,7 +403,7 @@ export function ngListOrderNewest(order) {
   return hi;
 }
 
-/** Lists in their derived order (a copy): each list's items sorted by their place in its record; the rest after, in order. */
+/** Lists in their derived order (a copy): each list's items sorted by their place in its record; the rest after, by id. */
 export function ngListsApplyOrder(lists, order) {
   const O = ngListOrderNormalize(order), out = {};
   for (const id of Object.keys(lists || {})) {
@@ -406,7 +411,9 @@ export function ngListsApplyOrder(lists, order) {
     let items = l.items.slice();
     if (rec) {
       const pos = new Map(rec[1].map((nid, i) => [nid, i]));
-      items = items.map((nid, i) => [nid, pos.has(nid) ? pos.get(nid) : rec[1].length + i]).sort((x, y) => x[1] - y[1]).map((x) => x[0]);
+      const named = items.filter((nid) => pos.has(nid)).sort((x, y) => pos.get(x) - pos.get(y));
+      const rest = items.filter((nid) => !pos.has(nid)).sort();   // by id: one order on every device, whatever its copy held
+      items = named.concat(rest);
     }
     out[id] = { name: l.name, items: items, t: l.t };
   }

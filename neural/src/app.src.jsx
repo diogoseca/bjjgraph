@@ -10550,7 +10550,7 @@ class Component extends DCLogic {
     // a re-add into a list a MOVE once took this item out of: its cell must say "in" now, later than that "out", or the
     // next merge takes it out again (LISTS-R). Only where a cell exists: an ordinary add writes none.
     if (this.listItemAt && this.listItemAt[id] && this.listItemAt[id][nodeId]) this.listItemAt = ngListMarksSet(this.listItemAt, id, nodeId, this._listMarkStamp(), 1);
-    this._keepListOrder(id);   // an item its order record still names stays where it was added (the end)
+    this._keepListOrder(id);   // a list with an order record: the record names the added item, where it was added (the end)
     this._saveProgress();
     // AUTO-EXPAND THE LIST YOU JUST ADDED TO. The owner's ask is literally "see the listed
     // techniques AFTER ADDING": a + pressed while the pane is open has to land somewhere the
@@ -10599,7 +10599,7 @@ class Component extends DCLogic {
     to.t = t + 1;   // the target sorts first (`listsArray`): it is where the item went
     from.items.splice(at, 1); from.t = t;
     this.listItemAt = ngListMarksSet(ngListMarksSet(this.listItemAt, fromId, nodeId, t, 0), toId, nodeId, t, 1);
-    if (!had) this._keepListOrder(toId);   // moved back into a list whose record names it: it stays at the end
+    if (!had) this._keepListOrder(toId);   // a target with an order record: the record names the moved item, at the end
     if (!from.items.length) delete m[fromId];
     if (this._listFocusId === fromId) this.clearFocus();
     this._saveProgress();
@@ -11466,19 +11466,23 @@ class Component extends DCLogic {
     return url;
   }
   /**
-   * A LIST WITH AN ORDER RECORD SHOWS ITS RECORD'S ORDER, ALWAYS (LISTS-R Slice 2). Every device derives a list's order from
-   * its record (`ngListsApplyOrder`), and a remove keeps that true by itself (taking an item out of a sorted run leaves it
-   * sorted). An INSERTION can break it: an item the record still names, added back at the end (the star's add, a move into
-   * the list) or put back at a place (an Undo after a merge changed the record), would jump to its recorded place at the next
-   * load or merge, here and on every other device. So each insertion site calls this: when the list's own order is not the
-   * one its record derives, the record is rewritten to what the player sees, later than every record and cell held. A list
-   * with no record is left alone (no record is ever written by an add). Returns whether it wrote.
+   * A LIST WITH AN ORDER RECORD SHOWS ITS RECORD'S ORDER, ALWAYS, AND THE RECORD NAMES ALL OF IT (LISTS-R Slice 2;
+   * MOVE-R1, F2). Every device derives a list's order from its record (`ngListsApplyOrder`), and a remove keeps that true by
+   * itself (taking an item out of a sorted run leaves it sorted). An INSERTION into a list that has a record rewrites the
+   * record to the list's items, later than every record and cell held, so the adding device's record names everything it
+   * holds, in the order the player sees:
+   *   - an item the record still names, added back at the end (the star's add, a move into the list) or put back at a place
+   *     (an Undo after a merge changed the record), would otherwise jump to its recorded place at the next load or merge;
+   *   - an item it does not name would otherwise fall into the derived tail, which is ordered by id (one order on every
+   *     device: two devices adding at once, or an older build appending, must not leave two orders for good).
+   * THE COST, last-writer-wins on one register, ruled (MOVE-R, MOVE-R1): a reorder made on another device that this one
+   * has not seen yet loses to this insertion. A list with no record is left alone: an add never creates one. A delete's
+   * Undo never calls this (it takes the record's order). Returns whether it wrote.
    */
   _keepListOrder(listId) {
     const rec = this.listOrderAt && this.listOrderAt[listId], l = this._listsMap()[listId];
     if (!rec || !l) return false;
-    const derived = ngListsApplyOrder({ [listId]: l }, { [listId]: rec })[listId].items;
-    if (derived.length === l.items.length && derived.every((n, i) => n === l.items[i])) return false;
+    if (rec[1].length === l.items.length && rec[1].every((n, i) => n === l.items[i])) return false;
     this.listOrderAt = ngListOrderSet(this.listOrderAt, listId, this._listMarkStamp(), l.items);
     return true;
   }
