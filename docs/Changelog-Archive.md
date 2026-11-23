@@ -20644,3 +20644,101 @@ state it tried, at four sizes, on three page kinds), MERGE AFTER 7 fixes, all at
   (the queue and the close in one task, then 2.5 s).
 - Whether a close or a Back counts as a PostHog page view stays unproven: the library's default says no, an older line of
   this archive says otherwise (v1.104.5), and no test build carries a key.
+
+## v1.295.1 — A list's actions behind three dots: Rename · Duplicate · Share link · Delete (LISTS-MENU; the owner, 23 Nov 2026)
+
+**Why.** The owner, 23 Nov, after trying v1.293.5's pencil on production: "the pencil edit isn't ideal, maybe a cogwheel
+or what do you suggest?, i may want to delete it and the pencil edit just gives me that option. what about 3 vertical
+dots? i think that's more like list options for this, which is like CRUD, so duplicate, share, rename, delete, anything
+else makes sense?". The orchestrator ruled on his words: one ⋮ control (not a cogwheel, which reads as settings); a press
+on the name lights the list (the open question U208, its option a).
+
+**What changed** (`renderLists`, `openListMenu`, `_listMenuChoose`, `duplicateList` in `neural/src/app.src.jsx`):
+- **One control on a list's row, ⋮** (`[data-list-menu]`), always visible, in Share's old ink; 44 px on a phone (its box
+  in the row's empty right padding, where the × sat), 24 px on a desktop. The pencil, the Share icon and the two-step ×
+  are gone from the row.
+- **Its menu** (`[data-list-menu-open]`): Rename · Duplicate · Share link · Delete, Delete last and in its own ink.
+  - It is the star's picker's kind of thing and lives in the picker's own slot (`_pickEl`, `_pickAnchor`, `_pickAway`).
+    So every place that closes an anchored chooser closes it too, by the one seam `closeListPicker`: Esc's ladder, a
+    press outside, the pane's visibility, a hand resolving, a resize across the phone's breakpoint, an unmount.
+  - Placed by the picker's rule (`_placeListPicker`: above if there is room, clamped whole to the screen, never over the
+    hand).
+  - Root plane, z 90, a sibling of the wrap, so `attachInput`'s capture never sees its presses; no early-return entry
+    (the mouse journeys press it).
+  - Keys: a key opens it on its first item; ↑ ↓ (wrapping), Home, End; Enter chooses; Esc and Tab close it with focus
+    back on ⋮; Esc does not also close the pane. A second press of ⋮ shuts it.
+- **Rename** opens the name editor (focused, name selected); Enter or Esc hands focus back to ⋮.
+- **Duplicate** makes "<name> copy" (the base cut so the whole fits 60 characters), the same techniques in the same order,
+  stamped now, opened in its name editor. It refuses nothing: no cap on the number of lists (ruled).
+- **Share link** is `shareList`, unchanged.
+- **Delete is one press**, then the 90-second Undo (ruling 1). The two-step "Delete?" guarded a 24 px × that sat 12 px
+  from Share; in a menu Delete is already the second deliberate press, set apart from Share link, and the Undo puts the
+  list back exactly.
+- **The name is text**: a press on it, or anywhere on the row but the count and ⋮, lights the list. The count opens the
+  techniques; on a phone it is a 44 px box (ruling 4).
+- Telemetry, counts only: `neural_list_renamed` `via: "menu"`; `neural_list_duplicated {items}`; `neural_list_deleted
+  {items, via}` (there was no delete event); `neural_list_menu_opened {lists}`.
+
+**Measured** (the orchestrator's probe on this build, a 2 px grid over a list row with `elementFromPoint`; "lights" is the share
+of the row where a press lights the list, the name included now; before = v1.294.0, the pencil's row):
+
+| | v1.293.3 | v1.294.0 (pencil) | this build (⋮) |
+|---|---|---|---|
+| 390x631, lights: long · short name | 62% · 68% | 41% · 41% | **73% · 72%** |
+| 1440, lights: long · short name | 62% · 70% | 61% · 65% | **90% · 90%** |
+| 390x631, the name's width: long · "Thursday open mat" | 168 · whole | 114 · cut | **180 · whole (126)** |
+| 390x631, the row's controls | share 24, × 24, count 32x24 | pencil, Share, × 44; count 32x24 | **⋮ 44, count 44x44** |
+
+The menu at 390x631 opens above its row and whole on the screen (x 110, 272 x 239), and for the LAST of nine lists at the
+drawer's foot too (its top at 183). At 1440 it sits beside the row (x 177, y 246). Mutant N8 (the menu placed under ⋮,
+unclamped) is red at the last row's journey.
+
+**The journeys.** `e2e/journeys/lists-menu.spec.ts` (new):
+- 1440 by mouse: the row's one control and each item doing its thing;
+- the name's press lights (no control answers a point outside its box; the name is not a control);
+- the menu's keys, and its closes;
+- Duplicate at the 60-character limit;
+- 390x631 by touch: the count and ⋮ as 44 px targets, every item by touch, and the menu whole on screen for a long
+  list's LAST row, both at the drawer's foot and in a scrolled drawer (ruling 5).
+
+Rewritten to reach the same things as a player does now:
+- `lists-rename.spec.ts`: Rename through ⋮; the pencil-era half moved to `lists-menu.spec.ts`;
+- `share-lists.spec.ts`: Share link through ⋮; "deleting a list is one press in its menu, and can be taken back", with
+  the ledger row `core-080` retitled with it. The removed assertion is "Delete sits ≥10 px clear of Share": neither is on
+  the row any more, and "Delete is the menu's last item" stands in its place;
+- `play-from-row.spec.ts`: the row carries ⋮ and no Share or ×.
+
+**Mutants** (each rebuilt for real with `npm run dev:neural:app` and run against its journeys; a neutral control first,
+a comment edit, stayed green, 5 of 5):
+
+| | what it breaks | red at |
+|---|---|---|
+| N1 | the name renames again | the name's press (1440, 390) |
+| N2 | Delete without its Undo | the 1440 items; share-lists' delete; the 390 items |
+| N3 | Duplicate loses an item | the 1440 items; the 60-character Duplicate; the 390 items |
+| N4 | Duplicate reorders | the same three |
+| N5 | a press outside does not close the menu | the menu's keys and closes |
+| N6 | the arrow keys dead | the menu's keys |
+| N7 | ⋮ at 24 px on a phone | the 390 targets |
+| N8 | the menu placed under ⋮, unclamped | the last row at the drawer's foot |
+| N9 | the count at 30 px on a phone | the 390 targets |
+| N10 | a second press of ⋮ does not shut it | the menu's keys and closes |
+| N11 | Esc also walks the pane's ladder (the pane closes) | the menu's keys |
+| N12 | Rename's Enter leaves focus nowhere | the 1440 items |
+
+All 12 red; none survived.
+
+**Bytes** (gzip -9, like the gate): the eager set 377,733 B, **+301 B** on dev's level 377,432 B (the orchestrator's figure
+for v1.294.0); `neural.js` 752,397 B raw, 238,228 B gzip; `neural.css` unchanged; deferred unchanged at 548,310 B. +4,260 B
+since the 373,473 B baseline, under the 5,000 cap; the map seat's PAY-L3 checkpoint lands before this.
+
+**Runs, all local, under the lock:**
+- the lists area plus `seat-star` (118 of 118) on the first build;
+- after the last change (the ⋮'s hover wash taken off a phone, where a tap left it tinted), `lists-menu`, `lists-rename`,
+  `share-lists` and `play-from-row`: 32 of 32.
+
+**Not covered:**
+- a row lights by mouse and touch, not by keyboard (as before: the row is not focusable, and the name never was a
+  way to light);
+- the row's own hover wash still stays after a tap on a phone (it predates this; only ⋮'s was taken off);
+- the menu stays where it opened if a late payload re-renders the list under it (the star's picker does the same).
