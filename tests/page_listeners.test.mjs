@@ -6,11 +6,12 @@
 // unless it is one of the few that are once a page and hold no instance, each listed below with its reason. A listed one that
 // matches nothing fails too, so the list cannot rot.
 // MUTANT (each red here after a clean control): G1 a direct `window.addEventListener` in app.src.jsx; G2 a once-a-page entry
-// whose line is gone.
+// whose line is gone; G3 the sound engine's fallback removed (`app._on` alone, as PR #457's first head shipped it).
 // The journey that counts what really stays after two remounts: e2e/journeys/page-listeners.spec.ts.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readdirSync, readFileSync } from "node:fs";
+import { runInNewContext } from "node:vm";
 
 const DIR = new URL("../neural/src/", import.meta.url);
 // the build inputs (`.gitignore` admits only these names under neural/src: the design dumps beside them are not read)
@@ -42,4 +43,27 @@ test("no page-wide listener is added outside an instance's life, but the listed 
   assert.ok(viaLife >= 30, `premise: the instances' own listeners were found going through their life (${viaLife})`);
   assert.deepEqual(stray, [], "a page-wide listener added outside an instance's life: add it through `_on` (the app) or `on` / `this.life` (the reader), or list it here as once a page, with its reason");
   for (const [e, n] of hits) assert.equal(n, 1, `a once-a-page entry matches exactly one line (${e.file}: "${e.has}" matched ${n})`);
+});
+
+// LEAK1-RED: A HOST WITHOUT THE HELPER STAYS SUPPORTED. The sound engine is built by more than the app: the Forward sound lab
+// (forward/sounds/app.js, the /dev sound lab) and sound.spec.ts's own engines each pass only `{ isTest, get }`. PR #457's first
+// head called `app._on` alone and both broke (sound.spec.ts:34, and the lab's preview and narrow-route rail in
+// forward-components.spec.ts). The engine takes its host's life where the host has one, and otherwise a plain add that its
+// own destroy() removes. Read here from the source itself, so a stale built lab cannot hide it.
+test("the sound engine supports a host without `_on` (the Forward lab, a spec's own engine) and uses the app's life where there is one", () => {
+  const load = () => {
+    const win = { adds: [], removes: [], addEventListener(type) { this.adds.push(type); }, removeEventListener(type) { this.removes.push(type); } };
+    const sb = { console, setTimeout, clearTimeout, window: win };
+    sb.globalThis = sb;
+    runInNewContext(readFileSync(new URL("sound.src.js", DIR), "utf8"), sb, { filename: "sound.src.js" });
+    return { Engine: sb.NGSound, win };
+  };
+  const lab = load(), host = { isTest: () => false, get: (_k, fallback) => fallback };
+  const engine = new lab.Engine(host);   // the Forward lab's own host: no `_on` (it threw before the fix)
+  assert.deepEqual(lab.win.adds.sort(), ["keydown", "pointerdown"], "a host without `_on`: the engine's two listeners are a plain add");
+  engine.destroy();
+  assert.deepEqual(lab.win.removes.sort(), ["keydown", "pointerdown"], "…which its own destroy() removes");
+  const app = load(), via = [];
+  new app.Engine({ ...host, _on: (_t, type) => via.push(type) });
+  assert.deepEqual([via.sort(), app.win.adds], [["keydown", "pointerdown"], []], "the app's host: both through its life (`_on`), none added plainly");
 });
