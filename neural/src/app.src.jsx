@@ -403,16 +403,18 @@ const NG_DRAWER_LOGO = '<svg aria-hidden="true" width="22" height="22" viewBox="
 // Owner, 2026-10-15: always mix both halves in the overview, even with mastery
 // gold off. Opposite technique poles therefore share a purple-grey site colour.
 const NG_MIX_SITES_BY_DEFAULT = true;
-// THE SETTINGS TABS, IN ROW ORDER: [id, label]. The row, its one click handler and its arrow keys
+// THE SETTINGS GROUPS, IN ORDER: [id, label]. The group list, its one click handler and its arrow keys
 // all read this, through `_settingsTabs` (the part of it one opening shows, NG_DIGEST_LIVE below),
-// and nothing else names a tab (v1.196.1). It replaced five hand-built spans with
-// five class names (.t-fc .t-rl .t-md .t-nt .t-kb) and five listeners, i.e. the same list written
-// three times. The id is what `openSettings(tab)` takes and what `_settingsTab` holds, so a
-// deep link such as the account menu's "Keyboard shortcuts" row keeps working through a rename
-// of the LABEL. Adding a sixth is one row here: the row scrolls rather than breaks (helmet.html
-// `.ng-stabs`), and settings-tabs.spec.ts's ">= 768 all fit" assertion goes red on purpose so that
-// somebody looks at the desktop row before it ships.
-const NG_SETTINGS_TABS = [["flashcards", "Flashcards"], ["rolling", "Rolling"], ["modifiers", "Modifiers"], ["notifications", "Notifications"], ["shortcuts", "Shortcuts"]];
+// and nothing else names a group (v1.196.1, when they were tabs). The id is what `openSettings(tab)` takes
+// and what `_settingsTab` holds, so a deep link keeps working through a rename of the LABEL.
+// SINCE SET1 (v1.295.3, the owner, 23 Nov 2026) THEY ARE GROUPS OF ONE PAGE, filed by what a setting is ABOUT:
+// Practice (cards) · Rolling (the game) · Articles (what an article shows, read with or without a roll; they
+// were inside Rolling) · General (gi/no-gi and sound, which act everywhere) · Your odds · Email · Keyboard.
+// The five old ids are kept, with new labels, and `reading` and `app` are new; ids only, no settings key moves
+// (CLAUDE.md §6.6). The order is load-bearing: Practice first is what the badge menu opens on, and Rolling
+// before General keeps "where the roll starts" above the gi/no-gi choice (start-from.spec.ts). A new group is
+// one row here and one branch in settings-ui.src.js; settings-tabs.spec.ts measures the list at every size.
+const NG_SETTINGS_TABS = [["flashcards", "Practice"], ["rolling", "Rolling"], ["reading", "Articles"], ["app", "General"], ["modifiers", "Your odds"], ["notifications", "Email"], ["shortcuts", "Keyboard"]];
 // IS THE TRAINING-DAY EMAIL LIVE? Not yet (v1.261.1). Owner, 12 Nov 2026, briefing answer U139 a:
 // "Hide it while the digest is off." The digest cannot send: the owner decided on 11 Nov 2026 that it
 // stays off, and its two tables, `digest_sent` and `digest_suppress` (supabase/digest_v1.sql), do not
@@ -5966,7 +5968,7 @@ class Component extends DCLogic {
     empty.textContent = "No rolls yet — press play and your roll shows up here, state by state.";
     list.appendChild(empty);
   }
-  openModal() { if (this._legal && !this._legalOpening) this._legalClosed(); this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); const m = this.modalRef.current; if (m) m.style.display = "flex"; this.lastInteract = this.now; }
+  openModal() { if (this._legal && !this._legalOpening) this._legalClosed(); this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); this.modalCardRef.current?.removeAttribute("data-settings-card"); const m = this.modalRef.current; if (m) m.style.display = "flex"; this.lastInteract = this.now; }
   /**
    * FEEDBACK GOES TO POSTHOG (v1.105.5, owner: "using post hoc. It should not be done using
    * GitHub"). U67 a: one Feedback row and form for both kinds. An optional technique-request
@@ -6249,7 +6251,8 @@ class Component extends DCLogic {
   _renderSettingsLoadState(intent, failed) {
     if (!this._settingsIntentCurrent(intent)) return;
     const card = intent.card;
-    card.style.width = "min(440px,92vw)"; card.innerHTML = "";
+    // The loaded card's width (SET1: at most 760 px), so the card does not jump wider when the drawing arrives.
+    card.style.width = "min(760px,calc(100vw - 64px))"; card.innerHTML = "";
     const body = document.createElement("div");
     body.style.cssText = "padding:22px;color:#eef1f6;";
     body.setAttribute("data-settings-load", failed ? "error" : "loading");
@@ -8118,7 +8121,7 @@ class Component extends DCLogic {
     const shownCount = this.userMods.filter(matches).length;
 
     const list = document.createElement("div");
-    list.style.cssText = "display:flex;flex-direction:column;gap:8px;max-height:300px;overflow-y:auto;margin:0 -4px;padding:0 4px;";
+    list.style.cssText = "display:flex;flex-direction:column;gap:8px;";
     this.userMods.forEach((m, i) => {
       if (!matches(m)) return;
       const r = document.createElement("div");

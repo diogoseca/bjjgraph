@@ -56,11 +56,11 @@
   {
     "name": "u60-notifications-lost",
     "file": "neural/src/app.src.jsx",
-    "a": "[\"notifications\", \"Notifications\"], ",
+    "a": "[\"notifications\", \"Email\"], ",
     "b": "",
     "spec": "journeys/notifications-tab\\.spec",
     "grep": "an account with the email stored on keeps the tab",
-    "claim": "five tabs while it is stored on"
+    "claim": "seven groups while it is stored on (SET1: the Email group)"
   },
   {
     "name": "u66-icon-hidden",
