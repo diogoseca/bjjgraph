@@ -355,7 +355,9 @@ function ngClozeHead(app, s, c) {
   const vi = s.plan && s.plan.order === "worth" ? s.plan.visits.findIndex((v) => v.seat === c.seat) : -1;
   const h = c.seat.replace("|", " · ") + (vi >= 0 ? " · position " + (vi + 1) + " of " + s.plan.visits.length : "");
   if (s.heading && s.heading.textContent !== h) s.heading.textContent = h;
-  ngClozeMapPress(app, s, app.isMobile() && !c.done && s.czOpen === c.seat);
+  // (`isMobile` reads the window's width before the map's first layout: a cloze is also drawn where there is no window, by
+  // the progress units, tests/progress_owner.integration.test.mjs, and a phone's look means nothing there)
+  ngClozeMapPress(app, s, typeof window !== "undefined" && app.isMobile() && !c.done && s.czOpen === c.seat);
 }
 function ngClozeMapPress(app, s, on) {
   const slim = s.slim;
