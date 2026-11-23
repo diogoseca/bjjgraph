@@ -47,6 +47,8 @@ import { journey } from "../dsl"
  *       "nothing is lit before Show"
  *   W18 such a pointer still keeps the focus from lighting → "the keyboard…" at "the focused row lights its way"
  * S4-R1 (23 Nov 2026; the reader of PR #456 and the orchestrator's ruling):
+ *   W19 a mouse move does not give the hover back after a touch → "after a touch, a mouse move gives the hover back…" at "a
+ *       mouse move onto row 1 gives the hover back"; M15 (the reader's: once touched, touched for good) red at the same step
  *   W20 the teardown keeps the tablet's tap listener (`_czTap`)  → "a remount leaves none of the old app's listeners…" at "the
  *       old app's listeners went with it"; W21 the same for the text's fit (`_czFit`, window resize) at the same step
  * The tablet's Hide, Done and leaving are pressed by a MOUSE (a tablet's trackpad) on purpose: a tap there is "the next
@@ -374,6 +376,21 @@ test.describe("1440x900, mouse", () => {
 
 test.describe("820x1180, touch (a tablet)", () => {
   test.use({ viewport: { width: 820, height: 1180 }, hasTouch: true, isMobile: true })
+
+  test("after a touch, a mouse move gives the hover back (a touch laptop: S4-R1's ruling)", async ({ page }) => {
+    const j = await setup(page, { at: "Half Guard|Top" })
+    await openCloze(page, true)
+    await settle(j, page)
+    await press(page, "[data-master-bar] [data-cz-show]", "Show", true, false)
+    await settle(j, page)
+    const [r0, r1] = await rowsOf(page)
+    await page.touchscreen.tap(r0.x, r0.y)
+    await j.advance(500)
+    expect((await lit(page)).L?.way?.move, "premise: a tap on row 0's name lit its way").toBe(r0.idx)
+    await page.mouse.move(r1.x, r1.y)
+    await j.advance(500)
+    expect((await lit(page)).L?.way?.move, "a mouse move onto row 1 gives the hover back: row 1 lights (W19, M15)").toBe(r1.idx)
+  })
 
   test("a tablet: a tap on a row's name lights its way until the next tap, Hide, Done or the cloze leaving", async ({ page }) => {
     const j = await setup(page, { at: "Half Guard|Top" })

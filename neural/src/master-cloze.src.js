@@ -95,7 +95,9 @@ function ngClozeLook(app, s) {
 // line, undrawn), none for a move that is itself the finish or that keeps the place (S4-GO 1 and 2).
 // ON TOUCH ONLY THE TAP COUNTS: a touch screen leaves `:hover` (and the focus) on the element last tapped, which would light a
 // row the player tapped off, or one whose "Had it?" was pressed; the last pointer's kind and where it went down are kept,
-// page-wide (`ngCzTouch`, `ngCzDown`: a press that travels is a drag, never a tap)
+// page-wide (`ngCzTouch`, `ngCzDown`: a press that travels is a drag, never a tap). A MOUSE MOVE GIVES THE HOVER BACK (S4-R1, the
+// orchestrator's ruling, for a touch laptop: one touch used to silence the hover until the next mouse press): a pointermove of
+// the mouse to a new point lifts `ngCzTouch` (a touch's own compatibility events never move it from where the touch went down)
 // A PLACE OPENED UNDER THE POINTER WAITS FOR ITS FIRST MOVE (S4-R0, the orchestrator's ruling, 23 Nov 2026: "a light should
 // follow intent, not a press that happened to land there"): the press on a place's row opens its cloze where the row was,
 // under a pointer that has not moved, and its first bar lit at once. Until the pointer moves after the place opens
@@ -104,7 +106,11 @@ function ngClozeLook(app, s) {
 let ngCzTouch = false, ngCzDown = null, ngCzPt = null, ngCzMoves = 0;
 if (typeof document !== "undefined" && document.addEventListener) {
   document.addEventListener("pointerdown", (e) => { ngCzTouch = e.pointerType === "touch"; ngCzDown = ngCzPt = [e.clientX, e.clientY]; }, true);
-  document.addEventListener("pointermove", (e) => { if (e.pointerType === "touch") return; if (!ngCzPt || e.clientX !== ngCzPt[0] || e.clientY !== ngCzPt[1]) ngCzMoves++; ngCzPt = [e.clientX, e.clientY]; }, true);
+  document.addEventListener("pointermove", (e) => {
+    if (e.pointerType === "touch") return;
+    if (!ngCzPt || e.clientX !== ngCzPt[0] || e.clientY !== ngCzPt[1]) { ngCzMoves++; if (e.pointerType === "mouse") ngCzTouch = false; }
+    ngCzPt = [e.clientX, e.clientY];
+  }, true);
 }
 export function ngClozeWay(app, z) {
   const s = app._session, c = s && ngCzNow(s), host = s && s.czHost;
