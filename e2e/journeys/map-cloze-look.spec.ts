@@ -40,6 +40,8 @@ import { journey } from "../dsl"
  * S3-R1 (23 Nov 2026; the reader of PR #453):
  *   M18 the pill never hides (the reader's P5)          → "Map before Show…", "after Show…" and "a narrow window…", at "the pill
  *       is gone" after each way back
+ *   M19 a wheel ends the look (the reader's P13)        → "a narrow window with a mouse…" at "a wheel moves the map and the look
+ *       stays"
  *   M15 60 ms of work a frame while a cloze holds the map → "the look's framing costs a frame…" at "a frame at the look's
  *       framing"
  *   M12 the press at the practice page's 44 px floor   → "Map before Show…" at "the Map press is small and clear of the day's goal
@@ -387,6 +389,14 @@ test.describe("390x631, mouse", () => {
     v = await look(page)
     expect(v.on, "premise: looking again").toBe(true)
     pill = { x: v.pill!.x, y: v.pill!.y }
+    // a wheel over the map only moves the map (the ruling): the look stays, lit, the clock held
+    const free = await mapPoint(page, false)
+    expect(free, "premise: a free point of the map").not.toBeNull()
+    await page.mouse.move(free!.x, free!.y)
+    await page.mouse.wheel(0, 240)
+    await j.advance(300)
+    v = await look(page)
+    expect([v.drawer, v.on, v.paused, v.light && v.light.k], "a wheel moves the map and the look stays, lit, the clock held (M19)").toEqual([false, true, true, 1])
     await page.keyboard.press("Escape")
     await j.advance(400)
     v = await look(page)
