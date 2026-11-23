@@ -46,6 +46,9 @@ import { journey } from "../dsl"
  *       at "nothing lights under a pointer that has not moved"; and map-cloze-place.spec.ts's "opening a place's cloze…" at
  *       "nothing is lit before Show"
  *   W18 such a pointer still keeps the focus from lighting → "the keyboard…" at "the focused row lights its way"
+ * S4-R1 (23 Nov 2026; the reader of PR #456 and the orchestrator's ruling):
+ *   W20 the teardown keeps the tablet's tap listener (`_czTap`)  → "a remount leaves none of the old app's listeners…" at "the
+ *       old app's listeners went with it"; W21 the same for the text's fit (`_czFit`, window resize) at the same step
  * The tablet's Hide, Done and leaving are pressed by a MOUSE (a tablet's trackpad) on purpose: a tap there is "the next
  * tap" and ends the light by itself, so only a press that is no tap shows each lifter on its own.
  * NOT COVERED HERE: a move that keeps the place or is itself the finish (none at Mount, bottom; the unit's,
@@ -310,6 +313,41 @@ test.describe("1440x900, mouse", () => {
     await page.mouse.move(2, 2)
     await j.advance(300)
     expect((await lit(page)).L?.way?.move, "the pointer away again: the focused row").toBe(rows[at].idx)
+  })
+
+  test("a remount leaves none of the old app's listeners: the teardown takes the cloze's tap (document) and fit (window) with it", async ({ page }) => {
+    await setup(page, { at: "Half Guard|Top" })
+    const cdp = await page.context().newCDPSession(page)
+    expect(await page.evaluate(() => [typeof (window as W).__neural._czTap, typeof (window as W).__neural._czFit]), "premise: before a cloze opens, neither listener exists").toEqual(["undefined", "undefined"])
+    await openCloze(page, false)
+    // the cloze's two page-wide listeners, told by their own code's place (CDP gives a listener's script, line and column, and
+    // no handler object here): the tablet's tap (`app._czTap`, capture pointerup on document) and the text's fit (`app._czFit`,
+    // resize on window). An old app's copy is the same code, so it sits at the same place.
+    const at = async (expr: string) => {
+      const { result } = await cdp.send("Runtime.evaluate", { expression: expr })
+      const { internalProperties } = await cdp.send("Runtime.getProperties", { objectId: result.objectId!, ownProperties: true })
+      const loc = (internalProperties as W[]).find((p) => p.name === "[[FunctionLocation]]").value.value
+      return loc.scriptId + ":" + loc.lineNumber + ":" + loc.columnNumber
+    }
+    const tapAt = await at("window.__neural._czTap"), fitAt = await at("window.__neural._czFit")
+    const ours = async () => {
+      const n = { tap: 0, fit: 0 }
+      for (const [target, type, want] of [["document", "pointerup", tapAt], ["window", "resize", fitAt]] as const) {
+        const { result } = await cdp.send("Runtime.evaluate", { expression: target })
+        const { listeners } = await cdp.send("DOMDebugger.getEventListeners", { objectId: result.objectId! })
+        for (const l of listeners as W[]) if (l.type === type && l.scriptId + ":" + l.lineNumber + ":" + l.columnNumber === want) n[type === "pointerup" ? "tap" : "fit"]++
+      }
+      return n
+    }
+    expect(await ours(), "a cloze opened: one of each, counted (a count that ran on nothing would read zero here)").toEqual({ tap: 1, fit: 1 })
+    // a new app twice: Quartz's own router to a page, then Back (each mounts a new app, map-press-closes-page.spec.ts)
+    for (const step of ["to a page", "Back"] as const) {
+      await page.evaluate(() => { (window as W).__neural.__s4old = true })
+      if (step === "to a page") await page.evaluate(() => (window as W).spaNavigate(new URL("/Positions/Mount", location.href)))
+      else await page.goBack()
+      await expect.poll(() => page.evaluate(() => { const a = (window as W).__neural; return !!a && !a.__s4old && !!a.nodes && !!a.cam }), { message: `premise: ${step} mounted a new app`, timeout: 30_000 }).toBe(true)
+    }
+    expect(await ours(), "two remounts on, the old app's listeners went with it (W20, W21)").toEqual({ tap: 0, fit: 0 })
   })
 
   test("moving from row to row keeps the layer on: only the row's own way changes", async ({ page }) => {

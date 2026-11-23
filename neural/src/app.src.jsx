@@ -626,6 +626,11 @@ class Component extends DCLogic {
     if (this._onChoiceFonts) document.fonts.removeEventListener("loadingdone", this._onChoiceFonts);
     if (this._onWinResize) window.removeEventListener("resize", this._onWinResize);
     if (this._onKey) window.removeEventListener("keydown", this._onKey);
+    // THE CLOZE'S TWO PAGE-WIDE LISTENERS GO WITH THEIR APP (S4-R1, the reader of PR #456): a tablet's tap (`_czTap`, capture
+    // pointerup on document, S4) and the cloze text's fit (`_czFit`, resize on window, L2's, found by the same survey) were
+    // added once an app and never removed, so every app a remount left behind stayed alive with its graph and answered taps
+    if (this._czTap) document.removeEventListener("pointerup", this._czTap, true);
+    if (this._czFit) window.removeEventListener("resize", this._czFit);
     this.clearTimers();
   }
 
