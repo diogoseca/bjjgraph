@@ -801,8 +801,8 @@ inside it stay there. A graph tap
 needs no sheet: the pair's two orbs are the seat choice.
 
 **Last rolls** — a roll's places, in memory: per row ▶ (stage a roll there, side as played, clock
-held), ⟲ (replay), its gold, Show on the map (`Space`; a phone holds the clock) and Practise here
-(`⏎`; a focused button keeps its own key).
+held), ⟲ (replay), its gold, Show on the map (`Space`, lit; a phone holds the clock) and Practise here
+(`⏎`; a focused button keeps its key).
 
 **Every roll you played reaches the shelf, and the shelf repaints when it does (v1.174.0).**
 `_closeRoll()` is the ONE seam the three roll-enders call — `startRoll`, `rollFromPosition`,
