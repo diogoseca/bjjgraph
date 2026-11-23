@@ -10617,7 +10617,8 @@ class Component extends DCLogic {
     if (at < 0) return { moved: false, reason: "not_in_source" };
     const had = to.items.indexOf(nodeId) >= 0;
     if (!had && to.items.length >= NG_LIST_ITEM_CAP) return { moved: false, reason: "full" };
-    const undo = { kind: "move", node: nodeId, from: fromId, to: toId, at, had, fromName: from.name, toName: to.name,
+    // fromT / toT: the two lists' recency before the move, which its Undo puts back (MOVE-R1, F6), as a delete's Undo does
+    const undo = { kind: "move", node: nodeId, from: fromId, to: toId, at, had, fromName: from.name, toName: to.name, fromT: from.t, toT: to.t,
       source: from.items.length === 1 ? { name: from.name, items: from.items.slice(), t: from.t } : null };
     const t = this._listMarkStamp();
     if (!had) to.items.push(nodeId);
@@ -10648,20 +10649,24 @@ class Component extends DCLogic {
     const u = this._undoList; if (!u || u.kind !== "move") return false;
     this._undoList = null;
     const m = this._listsMap(), t = this._listMarkStamp();
+    // THE RECENCY GOES BACK TOO (MOVE-R1, F6): a source the move emptied comes back with its own `t`, and a source or a
+    // target it touched takes the `t` it had before, so the Undo leaves Your lists in the order it was, as a delete's Undo
+    // does (before, an emptied source came back at the top, and the two lists tied on one stamp). Harmless to the merge:
+    // a list's presence is add-wins and its name did not change; the cells below carry the Undo's own, later stamp.
     if (!m[u.from]) {
       if (!u.source) return false;
-      m[u.from] = { name: u.source.name, items: u.source.items.slice(), t: t };
+      m[u.from] = { name: u.source.name, items: u.source.items.slice(), t: u.source.t };
     } else if (m[u.from].items.indexOf(u.node) < 0) {
       if (m[u.from].items.length >= NG_LIST_ITEM_CAP) return false;
-      m[u.from].items.splice(Math.min(u.at, m[u.from].items.length), 0, u.node); m[u.from].t = t;
+      m[u.from].items.splice(Math.min(u.at, m[u.from].items.length), 0, u.node); m[u.from].t = u.fromT || t;
     }
     let marks = ngListMarksSet(this.listItemAt, u.from, u.node, t, 1);
     this._keepListOrder(u.from);   // back at its place: a record a merge changed meanwhile follows what is shown
     const to = m[u.to];
     if (!u.had) {
       marks = ngListMarksSet(marks, u.to, u.node, t, 0);
-      if (to) { const i = to.items.indexOf(u.node); if (i >= 0) { to.items.splice(i, 1); to.t = t; } if (!to.items.length) delete m[u.to]; }
-    }
+      if (to) { const i = to.items.indexOf(u.node); if (i >= 0) { to.items.splice(i, 1); to.t = u.toT || t; } if (!to.items.length) delete m[u.to]; }
+    } else if (to && u.toT) to.t = u.toT;   // it had the item already: the move only lifted it to the top of Your lists
     this.listItemAt = marks;
     this._saveProgress();
     this._expandList(u.from);

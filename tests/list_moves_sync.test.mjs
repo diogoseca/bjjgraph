@@ -26,6 +26,8 @@
 //      into the list stay; MOVE-R1 F4, a loss dev already had).
 //  15. an add into a list with an order record extends the record on the adding device, and two devices that each add
 //      after a reorder end with one order (MOVE-R1 F2: the record's, then what it does not name by id).
+//  16. a move's Undo puts both lists' recency back (MOVE-R1 F6): a source the move emptied comes back with its own `t`, and
+//      a source or a target it touched takes its `t` from before the move.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -363,4 +365,22 @@ test('15. an add into a list with a record extends the record; two devices that 
   assert.deepEqual(here.lists.T.items, [B, A, D, C], "the winning record's order, then C (not named by it)");
   assert.deepEqual(there.lists.T.items, here.lists.T.items, 'the same order on both devices');
   assert.deepEqual(here.listOrderAt, there.listOrderAt, 'and the same record');
+}));
+
+test('16. a move\'s Undo puts both lists\' recency back: an emptied source, a touched source, and a target', () => fakeTimers(async ({ flush }) => {
+  const h = harness(); await h.boot(); const a = h.switchTo('A');
+  a.prep.local = 1; await a._pullAndMerge(); await flush();
+  // an emptied source: Solo held only X
+  a.lists = { Solo: L(['X'], 100, 'Solo'), T: L(['Z'], 90, 'Guard'), U: L(['W'], 95, 'Open mat') };
+  assert.equal(a.moveListItem('X', 'Solo', 'T', 'menu').emptied, true);
+  assert.equal(a.undoMoveListItem(), true);
+  assert.equal(a.lists.Solo.t, 100, 'the emptied source comes back with its own t (not at the top)');
+  assert.equal(a.lists.T.t, 90, "and the target's t is its own again");
+  // a source it did not empty, and a target that had the item already
+  a.lists = { S: L(['X', 'Y'], 100, 'Monday'), T: L(['Z', 'X'], 90, 'Guard') };
+  assert.equal(a.moveListItem('X', 'S', 'T', 'menu').already, true);
+  assert.ok(a.lists.T.t > 100, 'premise: the move lifted the target to the top');
+  assert.equal(a.undoMoveListItem(), true);
+  assert.deepEqual([a.lists.S.t, a.lists.T.t], [100, 90], 'both back where recency had them');
+  assert.deepEqual(itemsOf(a.lists), { S: ['X', 'Y'], T: ['X', 'Z'] });
 }));
