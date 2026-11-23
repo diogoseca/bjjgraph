@@ -37,6 +37,9 @@ import { journey } from "../dsl"
  *       need a resize to a smaller phone that pushes a move into the band between the ordinary foot (37 px) and the look's (64)
  *   M16 a glide with no room (`ngLightFrame` without its 48 px floor) → the same test, at "the camera stays as it was" (it
  *       pulled back some 900 times the roll's zoom into a 1 px box)
+ * S3-R1 (23 Nov 2026; the reader of PR #453):
+ *   M18 the pill never hides (the reader's P5)          → "Map before Show…", "after Show…" and "a narrow window…", at "the pill
+ *       is gone" after each way back
  *   M15 60 ms of work a frame while a cloze holds the map → "the look's framing costs a frame…" at "a frame at the look's
  *       framing"
  *   M12 the press at the practice page's 44 px floor   → "Map before Show…" at "the Map press is small and clear of the day's goal
@@ -188,6 +191,11 @@ const realFrames = (page: Page) => page.evaluate(async () => {
   const med = (d: number[]) => { const s = [...d].sort((x, y) => x - y); return +s[s.length >> 1].toFixed(1) }
   return { lag: med(lag), frame: med(iv), n: lag.length, zoom: +(a.cam.vw / (a.graphW * a.ROLL_ZOOM)).toFixed(2) }
 })
+/** the pill gone from where it stood: hidden, and nothing of it at its old centre (a pill left standing lay over the drawer) */
+const pillGone = (page: Page, at: { x: number; y: number }) => page.evaluate((at) => {
+  const p = document.querySelector("[data-cz-back]") as HTMLElement | null
+  return !p || (getComputedStyle(p).display === "none" && !p.contains(document.elementFromPoint(at.x, at.y)))
+}, at)
 const beats = (page: Page, name: string) => page.evaluate((n) => ((window as W).__neural.beats || []).filter((b: W) => b.beat === n).map((b: W) => ({ ...b })), name)
 /** the roll as a player would know it (last-rolls-places.spec.ts's): where it stands, its hand, its card, what is staged */
 const theRoll = (page: Page) => page.evaluate(() => {
@@ -261,12 +269,13 @@ test.describe("390x631, touch", () => {
     expect([v.drawer, v.on, v.paused, (v.light && v.light.k) === 1, !!v.pill], "a drag moves the map and the look stays").toEqual([false, true, true, true, true])
     expect(Math.hypot((await view(page)).placePt.x - p0.x, (await view(page)).placePt.y - p0.y), "premise: the map moved").toBeGreaterThan(10)
     // a tap on the map: the way back, and nothing else (no roll staged, no card or page closed, the address as it was)
-    const was = await theRoll(page)
+    const was = await theRoll(page), pill1 = { x: v.pill!.x, y: v.pill!.y }
     const tap = await mapPoint(page, false)
     await page.touchscreen.tap(tap!.x, tap!.y)
     await j.advance(450)
     v = await look(page)
     expect([v.drawer, v.on], "a tap on the map brings the drawer back").toEqual([true, false])
+    expect(await pillGone(page, pill1), "and the pill is gone, nothing of it over the drawer (M18)").toBe(true)
     expect([v.same, v.open, v.bars], "on the same cloze, its bars as they were").toEqual([true, SEAT, 5])
     expect([v.paused, v.pane, v.held], "the pause is the drawer's again").toEqual([true, true, false])
     expect((await beats(page, "look_ended")).map((b: W) => b.by), "the look says how it ended").toEqual(["drawer"])
@@ -289,21 +298,25 @@ test.describe("390x631, touch", () => {
     expect([v.on, v.shown], "premise: a look after Show").toEqual([true, true])
     expect(v.light!.marks.filter((m: W) => m.pale), "nothing is hidden now: no pale mark").toEqual([])
     expect(v.names.filter((b: W) => b.w === "cloze").length, "the shown moves are named where a name fits").toBeGreaterThan(0)
-    const was = await theRoll(page)
+    const was = await theRoll(page), pill2 = { x: v.pill!.x, y: v.pill!.y }
     const node = await mapPoint(page, true)
     expect(node, "premise: a place on the map under a finger").not.toBeNull()
     await page.touchscreen.tap(node!.x, node!.y)
     await j.advance(450)
     v = await look(page)
     expect([v.drawer, v.on, v.same, v.shown], "a tap on a place brings the drawer back on the same shown cloze").toEqual([true, false, true, true])
+    expect(await pillGone(page, pill2), "and the pill is gone (M18)").toBe(true)
     expect(await theRoll(page), "and opens nothing, stages nothing, closes nothing").toEqual(was)
     await press(page, "[data-cz-map]", "Map", true)
     await j.advance(400)
-    expect((await look(page)).on, "premise: looking again").toBe(true)
+    v = await look(page)
+    expect(v.on, "premise: looking again").toBe(true)
+    const pill3 = { x: v.pill!.x, y: v.pill!.y }
     await press(page, "[data-cz-back]", "the pill", true, false)
     await j.advance(450)
     v = await look(page)
     expect([v.drawer, v.on, v.same, v.shown], "the pill brings the drawer back on the same shown cloze").toEqual([true, false, true, true])
+    expect(await pillGone(page, pill3), "and the pill is gone, nothing of it over the drawer (M18)").toBe(true)
     await press(page, "[data-master-bar] [data-cz-done]", "Done", true, false)
     await j.advance(400)
     expect(await page.evaluate(() => { const m = document.querySelector("[data-cz-map]") as HTMLElement | null; return !!m && !m.hidden }), "after Done there is no Map").toBe(false)
@@ -322,7 +335,6 @@ test.describe("390x631, touch: turned, and its frames", () => {
     expect([v.on, v.light && v.light.k, !!v.pill], "premise: a look, lit, its pill up").toEqual([true, 1, true])
     const zoom0 = (await page.evaluate(() => { const a = (window as W).__neural; return a.cam.vw / (a.graphW * a.ROLL_ZOOM) }))
     // landscape: the map is a strip (64 px at 844x390, under the look's own insets), too short to frame anything in
-    await page.setViewportSize({ width: 844, height: 390 })
     await settle(j, page)
     await j.advance(600)
     v = await look(page)
@@ -363,17 +375,23 @@ test.describe("390x631, mouse", () => {
     await openCloze(page, false)
     await press(page, "[data-cz-map]", "Map", false)
     await j.advance(400)
-    expect((await look(page)).on, "the mouse opens the look").toBe(true)
+    let v = await look(page)
+    expect(v.on, "the mouse opens the look").toBe(true)
+    let pill = { x: v.pill!.x, y: v.pill!.y }
     await press(page, "[data-cz-back]", "the pill", false, false)
     await j.advance(400)
     expect((await look(page)).drawer, "the pill by the mouse brings the drawer back").toBe(true)
+    expect(await pillGone(page, pill), "and the pill is gone (M18)").toBe(true)
     await press(page, "[data-cz-map]", "Map", false)
     await j.advance(400)
-    expect((await look(page)).on, "premise: looking again").toBe(true)
+    v = await look(page)
+    expect(v.on, "premise: looking again").toBe(true)
+    pill = { x: v.pill!.x, y: v.pill!.y }
     await page.keyboard.press("Escape")
     await j.advance(400)
-    const v = await look(page)
+    v = await look(page)
     expect([v.drawer, v.on, v.open], "Esc brings the drawer back, on the cloze").toEqual([true, false, SEAT])
+    expect(await pillGone(page, pill), "and the pill is gone (M18)").toBe(true)
   })
 })
 
