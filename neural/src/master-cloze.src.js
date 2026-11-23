@@ -30,6 +30,8 @@
 // Pure where it can be (`ngClozeLeads`, `ngClozeBack`, `ngClozeSay`: tests/master_cloze.test.mjs); the rest paints through
 // the app's own readers, as master-list.src.js does. Pinned by e2e/journeys/master-cloze.spec.ts.
 
+import { ngLightFrame } from "./map-light.src.js";
+
 const NG_CLOZE_CAP = 6;   // a visit's moves at most (the law's own cap, NG_PQ_CAP)
 const NG_CLOZE_NUM = ["No", "One", "Two", "Three", "Four", "Five", "Six"];
 const NG_CLOZE_DAY = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -64,6 +66,20 @@ export function ngClozeSay({ hide, solid = 0, shown = false, had = 0, goal = 20 
 
 // the open cloze, or none
 const ngCzNow = (s) => (s.czOpen != null && s.cz ? s.cz.get(s.czOpen) : null) || null;
+// THE MAP GOES TO THE PLACE (L2b S2, v1.296.0; the orchestrator's ruling (d)): the place's pair (the half its seat plays and
+// its twin) and every move the cloze lists, in one glide (`ngLightFrame`, map-light.src.js), on a computer, where the map
+// stands beside the drawer; a phone's drawer is the screen (its look is S3). The app holds it there while the cloze is open
+// (`_czAt`). Called as a cloze opens and at Show; at Show it glides only if the player has moved the map off them.
+// THE HELD PLACE FRAMED AGAIN WHEN THE VIEW CHANGES SIZE (S2-R1, the reader's finding 6: at 1024x768 three of its eight points
+// fell outside). The app asks a frame at a time (`updateCamera`), since the view's height is the reader's band, which settles a
+// frame after a resize; a glide only when they are not in view (`ngLightFrame`)
+export function ngClozeFrame(app) { const s = app._session, c = s && ngCzNow(s); if (c) ngClozeMap(app, c); }
+function ngClozeMap(app, c) {
+  if (c) c.free = false;   // the next Show, or the place opened again, takes the map back from free roam (S2-R1, `_czAt`)
+  const z = c && app._czAt ? app._czAt() : null;   // (a computer, the drawer showing this cloze: `_czAt` says, and only it)
+  if (!z || z.c !== c) return;
+  ngLightFrame(app, [z.n.idx].concat(z.n.pi >= 0 ? [z.n.pi] : [], c.rows.map((r) => r.idx)));
+}
 const ngCzEsc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 const ngCzToday = (app, m) => { const r = app.moves && app.moves[m.key] && app.moves[m.key][m.move]; return Array.isArray(r) && r[2] === app._epochDay(); };
 
@@ -325,6 +341,7 @@ function ngClozeFlip(app, s, on) {
   c.shown = on;   // a view, never a grade: nothing is written, and the taps are kept across Hide
   ngClozeDraw(app, s, c, on);
   app._czSync();
+  if (on) ngClozeMap(app, c);   // at Show, one glide holds the place and its shown moves (none when they are in view)
 }
 function ngClozeTap(app, s, id) {
   const c = ngCzNow(s);
@@ -361,6 +378,7 @@ function ngClozeUndo(app, s) {
 function ngClozeShow(app, s, seat, mine) {
   const c = ngClozeFor(app, s, seat);
   if (!c) return;
+  const fresh = s.czOpen !== seat;   // a place opened, not the open one drawn again (a plan that landed, `ngClozeResume`)
   if (!document.getElementById("ng-cloze-css")) { const st = document.createElement("style"); st.id = "ng-cloze-css"; st.textContent = NG_CLOZE_CSS; document.head.appendChild(st); }
   if (s.czOpen != null && s.czOpen !== seat) ngClozeLeave(app, s);
   clearTimeout(app._sessionAdvance);   // a walk to the next deck still pending from a card's last answer must not open a card over the cloze (L1-R2's fault, its third lifter)
@@ -385,6 +403,7 @@ function ngClozeShow(app, s, seat, mine) {
   if (mine) { app._masterShow(s); s.czHost.focus({ preventScroll: true }); }
   app._czSync();
   app._paintPractice(s);
+  if (fresh || mine) ngClozeMap(app, c);   // the map goes to the place and its moves (L2b S2)
 }
 // a repaint of the page (a plan that landed, a grade elsewhere): the open cloze is drawn again only when what it shows changed
 export function ngClozePaint(app, s) {

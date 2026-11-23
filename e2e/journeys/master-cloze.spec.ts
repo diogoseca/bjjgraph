@@ -17,7 +17,8 @@ import { journey } from "../dsl"
  *     finish is two lines high with its triangle and no role; what gives way, on the longest real rows (spec.md);
  *     reduced motion; the accessible name; the "Had it?" toggle and the name are different targets;
  *   · the map beside an open cloze (1440): the hand face down, no name, hover label or gold mark on a hidden move, read
- *     from the DOM and from what the frame drew (`_lastOptLabels`, `_lastHoverLabel`, `_lastMapMarks`); after Show, as today.
+ *     from the DOM and from what the frame drew (`_lastOptLabels`, `_lastHoverLabel`, `_lastMapMarks`); after Show the hand
+ *     is face up again (the place lit and its shown moves named since v1.296.0: e2e/journeys/map-cloze-place.spec.ts).
  *   · a place the day's goal cuts asks the plan's share of its moves, then what it still owes, at its row's press, until
  *     nothing is due; a place entered from another asks its moves first, by ↓ and by the walk after a deck's last answer;
  *     no arrow key steps off a cloze between Show and Done.
@@ -72,8 +73,8 @@ import { journey } from "../dsl"
  *          (the step that reads what each down card carries: "badge" again)
  *   L2-R2f a card turned up before the cloze stays up      → at "a card turned up before the cloze opened is face down again"
  * NOT COVERED here: a player on "Multiple choice" (no cloze until L4: tests/practice_queue.test.mjs pins the plan); a player
- *   with no stored answer at all (the plan is the older order until a first answer: cards only); the camera at Show and a
- *   row lighting its way (L2b); another tab or device taking a confirm in before its Undo; the push itself (a journey's
+ *   with no stored answer at all (the plan is the older order until a first answer: cards only); a row lighting its way (L2b S4;
+ *   the camera at a cloze is map-cloze-place.spec.ts's); another tab or device taking a confirm in before its Undo; the push itself (a journey's
  *   player is a guest: the units hold a cloud); the page's own article and clip titles beside the list, which can name a
  *   move; which font face was drawn for the give-way measure; hit targets at 1440 beyond the ones measured here.
  */
