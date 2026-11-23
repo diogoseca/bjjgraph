@@ -10681,6 +10681,8 @@ class Component extends DCLogic {
     // target it touched takes the `t` it had before, so the Undo leaves Your lists in the order it was, as a delete's Undo
     // does (before, an emptied source came back at the top, and the two lists tied on one stamp). Harmless to the merge:
     // a list's presence is add-wins and its name did not change; the cells below carry the Undo's own, later stamp.
+    // KNOWN (MOVE-R2 R5, the reader's f6c.mjs): if another device pulled the move before this Undo, the next sync lifts
+    // both lists again (a list's `t` merges by the later), on both devices. The order of Your lists only, never an item.
     if (!m[u.from]) {
       if (!u.source) return false;
       m[u.from] = { name: u.source.name, items: u.source.items.slice(), t: u.source.t };
