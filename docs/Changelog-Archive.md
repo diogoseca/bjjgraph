@@ -21474,6 +21474,25 @@ The gate's G1 (a direct window add in the app) and G2 (a once-a-page line gone) 
   messages, so they are not this change.
 - The shelf handover (`ngShelf`) still crosses: Last rolls' places are among the 1,411.
 
-**Bytes** (the served app folders emptied first, against PAY-L5, dev v1.297.1's own level): eager gzip 384,770 B, +491
-(+116 on v1.298.0); first-hand core 404,243 B, +512 (+115 on v1.298.0); deferred 560,576 B, +197 B on 560,379 (reader.js
-+219, gameplan.js -22), the ceiling moved in its own commit (39,424 B remain of the owner's 600,000).
+**LEAK1-RED (23 Nov 2026; PR #457's shards 2 and 4 red on its first head, 131bffd27).**
+- **The break:** the sound engine called its host's `_on` unconditionally, but it is built by more than the app.
+  - `sound.spec.ts`'s own engines and the Forward sound lab (`forward/sounds/app.js`, the /dev sound lab, a shipped page)
+    pass only `{ isTest, get }`.
+  - So the engine threw (`p._on is not a function`) at `sound.spec.ts:34`, and at `forward-components.spec.ts:451` (the
+    lab's preview) and `:716` (its narrow-route rail).
+- **The fix:** the engine takes its host's life where the host has one, and otherwise a plain add that its own `destroy()`
+  removes, as before.
+- **Callers, the whole list:** the app (has `_on`); `sound.spec.ts`'s `playScene` and the Forward lab (no `_on`); and
+  `scripts/build_forward_components.mjs`, which only checks that the engine exists.
+- **Pinned:**
+  - a unit builds the engine from its own source with the lab's host and with the app's (G3, the fallback removed, is red);
+  - in the browser, with the lab rebuilt by `build:forward`, the three tests are green on the fix and red with CI's own
+    messages on the head as shipped.
+- **Why the first local run missed it:** `sound.spec.ts` was not in that run, whose grep chose files by navigation and the
+  reader, not by what the change touched. And this box's built lab (`/dev/sounds/sound-engine.js`) was from 10 Nov, so even
+  the lab's own test there ran the old engine.
+- **The full core suite then:** 2,046 tests, 2,032 passed, 5 skipped, and the same 9 reds of the stale built site.
+
+**Bytes** (the served app folders emptied first, against PAY-L5, dev v1.297.1's own level): eager gzip 384,795 B, +516
+(+141 on v1.298.0); first-hand core 404,270 B, +539; deferred 560,576 B, +197 B on 560,379 (reader.js +219, gameplan.js
+-22), the ceiling moved in its own commit (39,424 B remain of the owner's 600,000).
