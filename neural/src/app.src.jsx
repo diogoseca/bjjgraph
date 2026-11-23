@@ -22046,7 +22046,7 @@ class Component extends DCLogic {
     // From the app's own top, not a chrome frame's: D-318 keeps the reservation's height when chrome moves the head.
     const height = this.H > 500 ? this.W <= 640 ? this._phoneCatch() ? this.H < 700 ? 80 : 144 : 186
       : Math.max(144, Math.min(Math.round(this.H / 2), this.H - NG_LIVE_ANSWER_ROOM) - own) : 64;
-    return { top, bottom: top + height, height, w: this.W, h: this.H };   // (the size it was measured for: `_viewRect` reads no other's)
+    return { top, bottom: top + height, height };
   }
   // U16 b, extended by D-433: only a LIVE phone catch uses the smaller band. A calm defender
   // landing keeps 186. The predicate holds through the pick, whose clearLandCard also clears
@@ -22081,10 +22081,11 @@ class Component extends DCLogic {
     if (!this._refPage && !this._execution && !opts?.ahead) {
       // A BAND MEASURED FOR ANOTHER SIZE IS NOT THIS VIEW'S (S3-R1, the reader of PR #453, finding 3): the reader keeps its band
       // from its last layout, a frame after a resize, so on the frame between a phone turned to landscape and that layout the
-      // look framed against the portrait band (186 px tall where the map is a 64 px strip) and pulled back some 11 times. Read
-      // fresh until the reader's own is measured for this size
-      const nb = this._reader?.nodeBand;
-      return { ...horizontal, ...(nb && nb.w === W && nb.h === H ? nb : this._readerBand()), measured: true, predicted: false, band: true };
+      // look framed against the portrait band (186 px tall where the map is a 64 px strip) and pulled back some 11 times. The
+      // reader records the size it laid out for (`nodeBandAt`, beside the band: the band's own shape is pinned by
+      // tests/reader_handoff.test.mjs); until it is this size's, the band is read fresh
+      const rd = this._reader, nb = rd?.nodeBand;
+      return { ...horizontal, ...(nb && rd.nodeBandAt === this.W + "x" + this.H ? nb : this._readerBand()), measured: true, predicted: false, band: true };
     }
     let top = 16;
     const ev = this.evRef && this.evRef.current;

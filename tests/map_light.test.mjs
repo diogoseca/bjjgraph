@@ -354,9 +354,9 @@ test("the clock's hold follows the look: a look that ends by no lifter (the sess
 test("a band measured for another size is not this view's: a phone turned to landscape frames against its own strip", () => {
   const { a } = looked();
   a.W = 844; a.H = 390;
-  a._reader = { nodeBand: { top: 72, bottom: 258, height: 186, w: 390, h: 631 } };   // the portrait band, its layout not run yet
+  a._reader = { nodeBand: { top: 72, bottom: 258, height: 186 }, nodeBandAt: "390x631" };   // the portrait band, its layout not run yet
   assert.equal(a._viewRect().height, 64, "the reader's band was measured at 390x631: the view reads its own, 64 px");
-  a._reader.nodeBand = { top: 70, bottom: 134, height: 64, w: 844, h: 390 };
+  a._reader.nodeBand = { top: 70, bottom: 134, height: 64 }; a._reader.nodeBandAt = "844x390";
   assert.equal(a._viewRect().top, 70, "measured for this size, the reader's band is the view's");
 });
 

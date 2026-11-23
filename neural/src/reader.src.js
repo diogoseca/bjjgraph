@@ -1364,6 +1364,7 @@ class Reader {
       root.toggleAttribute("data-reference", reference);
       for (const s of [...this.gameSections, this.sections.find(s => s.type === "videos")]) if (s) this.paintPart(s);
       this.nodeBand = reference ? null : a._readerBand(top);
+      this.nodeBandAt = a.W + "x" + a.H;   // the size it was laid out for (S3-R1: `_viewRect` reads no other size's band)
       const band = this.nodeBand?.height || 0;
       if (reference) { this.restoreGame(); this.syncIndex(); return; }
       const card = a._landEl, row = a.optionsRef.current, showCard = card && this.on("card"), showHand = row && a._handShown();
