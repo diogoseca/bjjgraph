@@ -21292,7 +21292,7 @@ step holds it to the board's own plus 15 ms (M15). Deferred 557,990 B, +2,027 on
   place gone under the shut drawer) hands the clock back as its pill would, the drawer back with it (`_czLookSync`,
   every tick; LK8). The latch's setters and lifters were surveyed whole: 11 lines.
 
-## vNEXT — Drag an item onto another list, on a desktop (LISTS-R Slice 3; the owner, 19 Nov 2026)
+## v1.297.1 — Drag an item onto another list, on a desktop (LISTS-R Slice 3; the owner, 19 Nov 2026)
 
 "move items between lists like drag and drop?" Ruling 4: native drag, a lease against a rebuild, Esc the browser's own,
 no phone drag. A desktop's item row is draggable (a six-dot grip takes its glyph's place on hover); another list's row or
