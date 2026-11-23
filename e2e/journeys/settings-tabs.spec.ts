@@ -18,7 +18,7 @@ import { journey } from "../dsl";
  *  2. the group list is always in view: a rail beside the panel on a wide screen, every group wholly inside it with no scroll;
  *     a row of chips above the panel on a phone, whose fade is honest (published exactly on the side that hides a chip);
  *  3. every control in the card is at least 40x40 (44x44 on a phone), the article rows included (their whole row is the target);
- *  4. help lines are at most 80 characters long on a wide screen; 5. the owner's note is first, word for word, and on a phone
+ *  4. help lines are at most 76 characters long on a wide screen (every line of prose is held to 60ch); 5. the owner's note is first, word for word, and on a phone
  *     it is in the panel (it scrolls with the page), not the head;
  *  6. a press on a group, by a real mouse and by a touch tap, brings that group's heading to the panel's top and lights it;
  *     scrolling lights the group in view; an old id still opens on its own group; a redraw keeps the panel where it was;
@@ -252,8 +252,8 @@ for (const [w, h, touch] of SIZES) {
       // 4. help lines that read (a wide screen; a phone's lines are as long as the phone)
       if (!touch) {
         expect(g.helps.length, `${where}: help lines measured`).toBeGreaterThan(10);
-        const long = g.helps.filter((x) => x.cpl > 80).map((x) => `${x.text}… ${x.cpl.toFixed(0)}`);
-        expect(long, `${where}: no help line runs past 80 characters`).toEqual([]);
+        const long = g.helps.filter((x) => x.cpl > 76).map((x) => `${x.text}… ${x.cpl.toFixed(0)}`);
+        expect(long, `${where}: no help line runs past 76 characters`).toEqual([]);
       }
       // 5. the owner's note, word for word, first; on a phone in the panel, where it scrolls with the settings
       const shown = g.notes.filter((n) => n.shown);

@@ -13,7 +13,7 @@ export const NG_SETTINGS_PRESENTATION_BUILD = NG_SETTINGS_UI_BUILD;
 // Right/Left/Home/End), and `#ng-stab-panel` stays the one scroll container; aria-selected names the group at the top.
 // SPACING IS ONE TOKEN, 4 px: every gap below is a whole multiple of it (4 8 12 16 24 32 40 48), and every target is
 // 40 px (10 tokens) on a wide screen and 44 px (11) on a phone. The frame: at most 760 px wide (a 176 px rail and a
-// column whose help lines are held to 60ch, 59-78 characters a line, measured), 48 px from the browser's edges at 900 px
+// column whose prose is held to 60ch: at most 76 characters a line, pinned by settings-tabs.spec.ts), 48 px from the browser's edges at 900 px
 // and up, 32 px below that, and a full-screen sheet under 600 px. The look stays the app's: dark, a faint grain over the
 // card's own gradient, no emoji. Settings keys: none added, renamed or deleted (CLAUDE.md §6.6).
 // The modifiers' own controls are drawn by `buildModifiers` (eager, app.src.jsx) with inline sizes under the target; the
@@ -29,7 +29,7 @@ background:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wi
 .ng-set-top h2{margin:0;font-size:20px;font-weight:700;letter-spacing:-.01em;color:#eef1f6}\
 .ng-set-x{flex:none;width:44px;height:44px;margin:-12px -12px -12px 0;border:none;border-radius:12px;background:transparent;color:#8b97b0;font:inherit;font-size:24px;line-height:1;cursor:pointer}\
 .ng-set-x:hover{color:#c4cde0}.ng-set-x:focus-visible{outline:2px solid rgba(160,185,255,.85)}\
-.ng-set-note{margin-top:8px;padding-left:12px;border-left:2px solid rgba(232,184,107,.55);font-size:12.5px;line-height:1.5;color:#d9bf9a;max-width:62ch}\
+.ng-set-note{margin-top:8px;padding-left:12px;border-left:2px solid rgba(232,184,107,.55);font-size:12.5px;line-height:1.5;color:#d9bf9a;max-width:60ch}\
 #ng-stab-panel .ng-set-note{display:none;margin:0 0 24px}\
 .ng-set-body{flex:1;min-height:0;display:flex}\
 .ng-stabs.ng-set-nav{flex:none;width:176px;flex-direction:column;justify-content:flex-start;gap:4px;margin:0;padding:24px 12px;overflow-x:hidden;overflow-y:auto;border-right:1px solid rgba(150,170,210,.1);background:rgba(8,10,20,.22)}\
@@ -39,7 +39,7 @@ background:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wi
 #ng-stab-panel{position:relative;flex:1;min-width:0;overflow-y:auto;overscroll-behavior:contain;padding:24px 24px 0}\
 .ng-set-grp{padding-bottom:40px}\
 .ng-set-grp>h3{margin:0;font-size:17px;font-weight:700;letter-spacing:-.005em;color:#eef1f6}\
-.ng-set-grp>p,.ng-set-sub>p{margin:4px 0 12px;font-size:13px;line-height:1.5;color:#8b97b0;max-width:62ch}\
+.ng-set-grp>p,.ng-set-sub>p{margin:4px 0 12px;font-size:13px;line-height:1.5;color:#8b97b0;max-width:60ch}\
 .ng-set-sub{padding-top:16px;border-top:1px solid rgba(150,170,210,.09)}\
 .ng-set-sub>div{font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#7f8aa6}\
 .ng-set-row{position:relative;padding:16px 0;border-top:1px solid rgba(150,170,210,.09)}\
@@ -51,7 +51,7 @@ background:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wi
 .ng-set-seg{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}\
 .ng-set-row.side>.ng-set-seg{margin-top:0;flex-wrap:nowrap}\
 .ng-set-seg>button,.ng-set-num{min-height:40px;min-width:40px}\
-.ng-set-cn{margin-top:12px;padding:8px 12px;font-size:12.5px;line-height:1.5;color:#93a0bd;background:rgba(255,255,255,.03);border:1px solid rgba(150,170,210,.12);border-radius:10px;max-width:62ch}\
+.ng-set-cn{margin-top:12px;padding:8px 12px;font-size:12.5px;line-height:1.5;color:#93a0bd;background:rgba(255,255,255,.03);border:1px solid rgba(150,170,210,.12);border-radius:10px;max-width:60ch}\
 .ng-set-num{width:80px;box-sizing:border-box;font:inherit;font-size:14px;font-weight:600;color:#eef1f6;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.25);border-radius:10px;text-align:center}\
 .ng-set-tick{flex:none;width:40px;height:40px;margin:-8px -8px 0 0;display:flex;align-items:center;justify-content:center;border:none;background:transparent;cursor:pointer}\
 .ng-set-tick>span{width:24px;height:24px;box-sizing:border-box;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#fff;border:1px solid rgba(150,170,210,.3)}\
