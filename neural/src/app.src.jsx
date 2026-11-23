@@ -172,6 +172,22 @@ const NG_LAND_DECK_MIN_H = 236;
 // landing-card answer starts play; reading and minimizing never arm the clock.
 const NG_READING_DEFAULT_ON_CONTENT_URL = true;
 // LEGAL3 (v1.264.0): the site's two legal pages, bare, with a slash or ".html". Arriving on one opens its box (openLegal).
+// THE SITE'S OWN TITLE, the root page's (BGCLOSE, v1.294.0): the words `content/index.md` authors. The app writes it when a
+// press on the bare map closes a page and the address goes to the root (`_closePage`); `_pageTitle` answers it for "/".
+// Two places hold these words, so a gate holds them equal: `scripts/check_page_titles.py` compares `_pageTitle("/")`
+// with the built root page's own head title, beside every node's.
+const NG_SITE_TITLE = "BJJ Graph - Free BJJ Study App and Technique Map";
+// App instances booted in this document (BGCLOSE). Quartz's router answers every Back and Forward by fetching the entry
+// and REMOUNTING the app, and the bundle stays resident across those, so this counts them: 1 is the document's own load.
+let ngBoots = 0;
+// THIS VISIT'S SHELF OUTLIVES THE APP INSTANCE (BGCLOSE-R1, F4; the reader of PR #446). Last rolls is the instance's memory
+// (`_pastRolls`), and Back and Forward mount a new instance (above): one press closed a roll and filed it, Back brought the
+// page back and an empty Last rolls, and the roll was lost by the very press offered to get the page back. An instance
+// leaving (`componentWillUnmount`) leaves its shelf here, with its owner; the next instance in this document takes it at
+// its boot when it is the SAME owner (`_takeShelf`), whole: the rolls, their states, their order. A sign-in or a sign-out
+// mounts another owner's instance, which takes nothing: the shelf is lost there exactly as before (the host replaced the
+// instance then too). Document memory only, never storage: a reload empties it, as before; nothing is stored or synced.
+let ngShelf = null;
 const NG_LEGAL_PAGE = /^\/(privacy|terms)(?:\.html|\/)?$/;
 const NG_LAYER_KEYS = { film: "landFilm", card: "landCard", hand: "landHand" };
 const NG_LAYER_ORDER = ["film", "card", "hand"];
@@ -543,8 +559,19 @@ class Component extends DCLogic {
   }
 
   componentDidMount() { return this.boot(); }
+  /** this instance's shelf, left in the document for the next instance, with its owner (`ngShelf`, F4) */
+  _leaveShelf() { ngShelf = this._pastRolls && this._pastRolls.length ? { owner: this._progressOwner, rolls: this._pastRolls } : null; }
+  /** the shelf the instance before this one left in this document, when it was the same owner's (`ngShelf`, F4) */
+  _takeShelf() {
+    const left = ngShelf; ngShelf = null;
+    let same = false;
+    try { same = !!left && ngProgressSameOwner(left.owner, this._progressOwner); } catch (e) { /* no owner: nothing is handed over */ }
+    if (same) this._pastRolls = left.rolls.map((r) => ({ ...r, log: (r.log || []).slice() }));
+    return same;
+  }
   componentWillUnmount() {
     this.__ngDestroyed = true;
+    this._leaveShelf();
     this._reader?.destroy();
     this._motionQuery?.removeEventListener("change", this._motionChanged);
     if (this._settingsRowRO) this._settingsRowRO.disconnect();
@@ -1016,6 +1043,7 @@ class Component extends DCLogic {
 
   // ---------- boot + data ----------
   async boot() {
+    this._takeShelf();
     this._csInit(); // cold-start funnel: armed before anything can emit a beat    // PRE-BOOT RIG — same family of rail as rig()/rigStart()/advance(), but readable before the
     // app instance exists. A page can pin the draws the FIRST roll makes (start-pos, role,
     // ai-skill, max-moves), which is the only way a measurement that must use the real network
@@ -1501,6 +1529,17 @@ class Component extends DCLogic {
       this._onNeuralPopstate = () => {
         if (!this._progressCurrent()) return;
         this._writeUrl();
+        // A HISTORY STEP FILES THE ROLL THAT WAS PLAYED, WHATEVER ENTRY IT LANDS ON (BGCLOSE-R2, F8; the reader of PR #446). The step
+        // remounts the app, and this visit's shelf goes on to the next instance (`_leaveShelf`), but only what is FILED goes: a step
+        // onto a node page filed the roll under way (below, `rollFromPosition` → `_closeRoll`), a step onto the closed map returned
+        // first and the roll was lost (close; Back; two moves; Forward: the shelf held the first roll only). `_closeRoll` is the one
+        // filing, with its own rule for what counts as played and its one stored effect (the day's count). It is idempotent (it
+        // empties the roll it files), so the node page's own filing that follows finds nothing and nothing is filed twice.
+        this._closeRoll();
+        // Onto the entry a closed page wrote (BGCLOSE-R1; the reader of PR #446): nothing for this instance to open. Quartz's router
+        // mounts the next app on it, whose boot stands the map alone (`_seedFromUrl`); opened here, "/" was read as an article and
+        // the reader's loading line showed for the ~0.3 s before that (`_readerIntent` still set from the page that was closed).
+        if (history.state?.ngMap) return;
         if (history.state?.ngReading || this._readerIntent) { this._readArticle(location.pathname + location.hash, true, false); return; }
         const hit = this._nodeAndRoleForPath(location.pathname);
         if (hit.idx >= 0) {
@@ -8536,6 +8575,7 @@ class Component extends DCLogic {
     this._acctMenuAway = (e) => {
       const wrap = this.accountRef.current;
       if ((wrap && wrap.contains(e.target)) || m.contains(e.target)) return;
+      this._pressAway = e.timeStamp;   // this press closed the menu: on the bare map it does nothing more (`attachInput`, `spent`)
       this.closeAccountMenu();
     };
     document.addEventListener("pointerdown", this._acctMenuAway, true);
@@ -10247,7 +10287,7 @@ class Component extends DCLogic {
     this._endArrival();
     this._beltTest = null; this._staged = null; this._stagedCamFree = false;
     // `_roam` here is the REFERENCE LAW's guard as well (U123, 2026-11-11): free roam puts the article away, and a page opened on
-    // purpose is not a place to roam from, so a background tap on it stops at `_enterRoam`'s first line and the page stays.
+    // purpose is not a place to roam from, so a press on the bare map stops at `_closePage`'s first line and the page stays.
     // Pinned by e2e/journeys/free-roam-article.spec.ts (the reference case).
     this._played = false; this._roam = true; this.endZoom = false;
     this.currentPos = null; this.focusIdx = -1; this.activeMove = null; this.pulse = null;
@@ -11193,6 +11233,7 @@ class Component extends DCLogic {
     this._placeListPicker(el, anchor);
     this._pickAway = (e) => {
       if (el.contains(e.target) || (anchor && anchor.contains(e.target))) return;
+      this._pressAway = e.timeStamp;   // this press closed the menu: on the bare map it does nothing more (`attachInput`, `spent`)
       this.closeListPicker();
     };
     document.addEventListener("pointerdown", this._pickAway, true);
@@ -13026,43 +13067,66 @@ class Component extends DCLogic {
    *  · AND IT REMEMBERS. `_syncUrl` already records the last node the USER chose (deliberate
    *    navigation only), so pressing play flies back to it rather than wherever the roll drifted.
    */
-  // ── THE BACKGROUND LADDER (v1.134.0, owner) ── "clicking once on the bg of the graph will
-  // close the card, clicking it again will deselect and zoom out a little." Click 1: the card
-  // closes — the question declined, free, the hand stays. Click 2: FREE ROAM — the roll archives
-  // (if played), the tray clears, and the camera pulls back centred on where you stood, using
-  // the whole screen (no card band to dodge). Clicking any node stages fresh, as always. Since U123 (2026-11-11) click 2 also
-  // puts the article and its index away (`_enterRoam`): the map stands alone.
-  // This replaces the v1.129.5 stand-down/restore latch pair (_standDown/_bgRestore/_bgDown):
-  // a background tap now CLOSES rather than suppresses, so there is nothing to restore.
+  // ── ONE PRESS ON THE BARE MAP CLOSES THE PAGE, WHOLE (BGCLOSE, v1.294.0; the owner, 19 Nov 2026) ──
+  // "i don't want some closed sections i want all article to be removed from the UI and the url to lose the
+  // "/Positions/X-Guard/Bottom" part ... if the user clicks outside it's like clicking outside a playing video = closing it."
+  // IT WAS A LADDER OF TWO (v1.134.0, his own word then: "clicking once on the bg of the graph will close the card,
+  // clicking it again will deselect and zoom out a little"): the first press declined the question and took the card and
+  // the videos, leaving the hand and every section of the article (the half state he met); the second went to free roam
+  // (the roll archived if played, the hand cleared, the camera pulled back; since U123 the article and its index put
+  // away too). And the address never moved: nothing on this road wrote it. Now one press does both steps, in their
+  // order and with their beats (`land_q_declined`, `land_dismissed`, then `roll_archived` or `roll_discarded`,
+  // `roam_entered`), and the address becomes the site's root (`_closePage`). No press on the map leaves a half state.
+  // WHAT RETIRED WITH THE FIRST STEP: the record that let the article's index bring "this landing's" card back after
+  // it (`_landDismissed`, `_landAway`, `restoreLanding`, v1.253.0; three reads in reader.src.js). Its one writer was
+  // that step, so with one press it could never be read again.
+  // (The v1.129.5 stand-down/restore latch pair, _standDown/_bgRestore/_bgDown, went in v1.134.0: a press on the map
+  // CLOSES rather than suppresses, so there is nothing to restore.)
   _tapBackground() {
     // v1.255.1: the dossier sheet and the in-node card are retired (§6.8); this was the one live line of their close, and it
     // stays: the landing card comes back with the tap, unless the tray's own suppression holds it.
     if (!this._traySup) this._suppressLand(false);
     this.closeDeckIfStudying();        // mobile-only by design (the drawer owns the screen there)
+    this._closePage();
+  }
+  /**
+   * THE PAGE OF A PLACE, CLOSED: the map alone, and the address the site's root (BGCLOSE). One caller: a press on the
+   * bare map (`_tapBackground`).
+   *  · NOT WHEN NOTHING OF A PLACE IS UP (`_roam`): free roam already, or a Principle, a Learning entry or a System,
+   *    which is a page opened on purpose and stays (reference law, U123: `_leaveRollForReference` sets the same flag).
+   *  · A ROLL UNDER WAY is closed with it and filed in Last rolls exactly as free roam always filed it (`_closeRoll`,
+   *    inside `_enterRoam`); nothing new is stored.
+   *  · THE ADDRESS is PUSHED, so the browser's Back brings the page back and Forward closes it again. Quartz's router
+   *    answers both by remounting the app on the entry it lands on: Back is a fresh arrival on the page, and Forward
+   *    boots on this entry, which carries `ngMap` so that the boot stands the map alone instead of dealing the root's
+   *    roll (`_seedFromUrl`). The title is the site's own (`_pageTitle` answers the root). Already at the root, only the
+   *    title is written. A reload there does what the root does. On a share preview (/l/) the address stays, as for
+   *    every push.
+   *    Analytics hears nothing new: the address writer sends no event, here or anywhere.
+   */
+  _closePage() {
+    if (this._roam) return false;
     if (this._landEl) {
       const n = this._landIdx != null && this.nodes ? this.nodes[this._landIdx] : null;
       this._declineLandQ("bg");
       this.fx("land_dismissed", { node: n ? n.t : null, answered: !!(this._landQ && this._landQ.answered) });
-      this._landDismissed = { idx: this._landIdx, mode: this._landMode, pos: this.currentPos, decision: this._decision };
       this.clearLandCard();
-      this._reader?.sync(); // the rows read closed now
-      return;
     }
+    // F7 (BGCLOSE-R1; the reader of PR #446): THE CLOSE ENDS A PAGE STILL LOADING. A page whose HTML was still on its way
+    // pushed its address after the close (the reader: `/`, then 5 s later `/Submissions/Americana` with its title, a 4th
+    // entry, nothing on screen; reader.src.js `open` pushes when its page arrives). Ended here: a request whose module is
+    // still loading never opens (`_readerRequest`), and one in flight is aborted and its serial moved on (`cancel`), so
+    // nothing of it renders or writes an address.
+    this._readerRequest = null;
+    this._reader?.cancel();
+    // F9 (BGCLOSE-R2; the reader of PR #446): AND THE LANDING'S QUEUED REQUEST. A landing queues its article a frame and a task
+    // later (`_queueReader`); a press in that window ran the close first, and the queued request went on as a NEW request that
+    // F7's line could not reach (an arrival by URL asks for it hand or no hand). Forgotten here, its deferral finds it is not
+    // the queued one and skips. With this, no request without intent can reach the reader after a close: the free-roam latch's
+    // keep-away for one is retired (`_readArticle`), and this line is what free-roam-article.spec.ts's fixture pins.
+    this._readerQueued = null;
     this._enterRoam();
-  }
-  // v1.253.0 (the owner's note 3, #354's review finding 1): the background tap closes THIS landing's card and film (v1.134.0) and
-  // leaves their preferences on, so nothing brought them back: the index rows read open and did nothing until the next landing.
-  // The dismissal is kept for the decision it belongs to; the reader's index row or Questions label restores it, through the same
-  // `_applyLayers` rebuild a label uses mid-landing, and is scored exactly as ✕ then label is: the decline resolved nothing, so the
-  // rebuilt card's first answer is this landing's question (no double credit, no fresh-landing reset), it re-arms a full window, and
-  // it emits land_q_shown and land_q_unseen again, as that rebuild does (round 7's review, nit 4). Only for a live decision: after a
-  // commit, through the flight and endRound's hold, `_decision` is null, and null === null would restore a finished roll (finding 2).
-  _landAway() { const d = this._landDismissed; return !!d && !!d.decision && !this._landEl && d.decision === this._decision && d.pos === this.currentPos; }
-  restoreLanding() {
-    if (!this._landAway()) return false;
-    const d = this._landDismissed; this._landDismissed = null;
-    this._landIdx = d.idx; this._landMode = d.mode;
-    this._applyLayers();
+    this._pushUrl("/", { ngMap: true });
     return true;
   }
   _enterRoam() {
@@ -13450,6 +13514,7 @@ class Component extends DCLogic {
   // The built-site gate compares every wire hub/role and reference index entry.
   _pageTitle(path) {
     const id = this._decodePath(new URL(path, location.href).pathname).replace(/\.html$/, "");
+    if (!id) return NG_SITE_TITLE;   // the root: the map alone (BGCLOSE)
     const role = /\/(Top|Bottom|Attacker|Defender)$/.exec(id)?.[1] || "";
     const base = role ? id.slice(0, -role.length - 1) : id;
     const n = this.nodes?.[this._idIndex?.get(base)];
@@ -13479,7 +13544,13 @@ class Component extends DCLogic {
       // supplies the title, keeping the history entry and tab text atomic.
       if (!title && state) return false;
       if (title) document.title = title;
-      if (state) history[replace ? "replaceState" : "pushState"]({ ...history.state, ...state }, "", path);
+      // `ngMap` marks the ONE entry a closed page wrote (`_closePage`); every entry carries its predecessor's state forward, so
+      // without this the next page pushed from the root would carry the mark too, and Back onto it would close it.
+      // KEPT ON A REPLACE OF THE SAME ADDRESS (BGCLOSE-R1, F2; the reader of PR #446): Practice's way back puts its origin back
+      // with a replace (`_exitStudyTo`), and on the closed map that replace stripped the mark, so Back onto that entry later
+      // booted the root's own roll and pushed its address over the forward history. Dropped only on a new entry or a new path.
+      const kept = replace && new URL(path, location.href).pathname === location.pathname;
+      if (state) history[replace ? "replaceState" : "pushState"]({ ...history.state, ...(kept ? {} : { ngMap: undefined }), ...state }, "", path);
       return true;
     } catch (e) { document.title = before; this._urlFault("push", path, e); }
   }
@@ -13582,6 +13653,15 @@ class Component extends DCLogic {
    * `/` is untouched, so the first-impression weighted draw (v1.82.3) still owns the front door.
    */
   _seedFromUrl() {
+    // THE CLOSED PAGE'S OWN ENTRY (BGCLOSE, v1.294.0): Forward, or Back, onto the entry a press on the bare map wrote
+    // (`_closePage`: `ngMap`). A history step remounts the app (above, `ngBoots`), so it is THIS boot that answers it, and
+    // by default it would do what the root does: deal a roll at a start position and push that position's address over
+    // the forward history. Instead the map stands alone, as the press left it: nothing is started (the reference
+    // posture, `_refPage`: no seat, no hand, no roll until a node is pressed) and the board is in free roam.
+    // ONLY ON A REMOUNT: history's state outlives a reload, and a reload at the root, like a first load that lands on
+    // this entry, does what the root always did.
+    const again = ++ngBoots > 1;
+    if (again && typeof history !== "undefined" && history.state?.ngMap) { this._refPage = true; this._roam = true; return false; }
     if (/^\/l\//.test(location.pathname)) return false;
     if (NG_LEGAL_PAGE.test(location.pathname)) return false;   // LEGAL3: the box owns this arrival (opened in boot, before the graph), not the reader
     if (/^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)\/?$/i.test(location.pathname))
@@ -17247,8 +17327,8 @@ class Component extends DCLogic {
     const prev = nav.querySelector("[data-land-prev]"), next = nav.querySelector("[data-land-next]");
     const focused = document.activeElement;
     // v1.253.0 (owner, 2026-11-09): at a deck boundary the arrow stays where it was, disabled. Hidden, a second press there fell
-    // through to the map, whose background tap closes the card and the film (land_q_declined, land_dismissed); the deck ending
-    // is no reason for either to go. _landSurfaces() holds the nav, so a press on a disabled arrow never reaches the map.
+    // through to the map, whose background tap closed the card and the film (it closes the whole page since BGCLOSE); the deck
+    // ending is no reason for anything to go. _landSurfaces() holds the nav, so a press on a disabled arrow never reaches the map.
     prev.hidden = next.hidden = !!this._landAsk;
     prev.setAttribute("aria-disabled", this._landPage === 0);
     next.setAttribute("aria-disabled", this._landPage === total - 1);
@@ -17804,10 +17884,11 @@ class Component extends DCLogic {
   /** FREE ROAM PUTS THE ARTICLE AWAY (owner, U123, 2026-11-10: "in free roam there wouldn't be any article to show, nor ToC";
    *  2026-11-11: "take care of it"). Until then free roam left the node's article and its index on screen: U114 a had retired
    *  the one control that put them away. `_readerAway` is a latch, so all of its writers are named here (§6.5):
-   *   SET      by `_enterRoam` (the background tap's second step, or its first once the card is closed: the only way in).
+   *   SET      by `_enterRoam` (a press on the bare map, which closes the page whole since BGCLOSE: the only way in).
    *   LIFTED   by `_readArticle`, as each request reaches the reader: the next landing's own (`_queueReader`), or one asked for
-   *            on purpose (a row, a search hit, a link, a URL, Back/Forward). An automatic request that reaches the reader while
-   *            the board is still in free roam is the ended landing's, late (the module's first load) and keeps it away.
+   *            on purpose (a row, a search hit, a link, a URL, Back/Forward). (Until BGCLOSE-R2 an automatic request reaching the
+   *            reader in free roam, the ended landing's, late, kept it away; the close now ends or forgets every such request
+   *            first, F7 and F9, so that keep-away is retired.)
    *   BACKSTOP `_readerHold`, on every reader layout: a landing that publishes is never hidden, even one that asked for no article
    *            (that one shows what the reader holds, as before); while away it repaints, because a render builds a new index.
    *  Visibility only on the reader: no box moves, so its place, the closed sections and every measurement hold, and the next
@@ -17903,8 +17984,11 @@ class Component extends DCLogic {
     return this._readerLoad.then(() => {
       if (this.__ngDestroyed || request !== this._readerRequest) return;
       // The free-roam latch's lift (`_putReaderAway`). Outside free roam nothing is written: the ordinary path is as it was.
-      const away = !intent && !!this._roam;
-      if (away || this._readerAway) this._putReaderAway(away);
+      // ITS KEEP-AWAY IS RETIRED (BGCLOSE-R2, F9): it kept a request WITHOUT intent away while the board roamed. Every such
+      // request is a landing's queued one (`_queueReader`, the only caller with `intent` false, surveyed), and the close ends or
+      // forgets each before it can open (`_closePage`: `_readerRequest`, `cancel()`, `_readerQueued`); a landing after a close
+      // comes only through a stage, which ends free roam first. So what reaches here in free roam is a request on purpose: it lifts.
+      if (this._readerAway) this._putReaderAway(false);
       return this._reader?.open(request);
     });
   }
@@ -22702,7 +22786,7 @@ class Component extends DCLogic {
         document.addEventListener(ev, eng, { once: true, capture: true });
     }
     const el = this.wrapRef.current;
-    let dragging = false, lx = 0, ly = 0, dsx = 0, dsy = 0, moved = 0, closing = false;
+    let dragging = false, lx = 0, ly = 0, dsx = 0, dsy = 0, moved = 0, closing = false, spent = false;
     const ptrs = new Map();
     let pinch = null;
     this._cancelGraphInput = () => {
@@ -22738,6 +22822,14 @@ class Component extends DCLogic {
       // root-plane sibling of this wrap, so its own ✕ never reaches here. NOT the tap that closes the
       // drawer (SIDE-R3 N2): on a phone that is how you WATCH the replay you just started.
       // A closing gesture that becomes a pan or pinch ends it in pointermove below (SIDECX5 D2).
+      // A PRESS THAT HAS CLOSED SOMETHING ELSE DOES NOT ALSO CLOSE THE PAGE (BGCLOSE, v1.294.0; `spent`). Three presses
+      // close a thing of their own and then go on into the tap router: the one that ends a film (the next line), the one
+      // outside the account's menu and the one outside a list menu (`_pressAway`, written by those two as they close on
+      // this same event). On the bare map each of them used to take the ladder's first step as well (the film stopped
+      // AND the question was declined: measured on v1.293.3); with one press closing the page they would have closed the
+      // menu, or the film, and the whole page with its roll. On the bare map that press now does its one thing; on a
+      // node it does what it always did (the film ends and the node is staged).
+      if (ptrs.size === 0) spent = this._pressAway === e.timeStamp || (!!this._replay && !closing);
       if (this._replay && !closing) this.stopReplay("input");
       // ...and it ends a look: the roll it was holding resumes (`_showPlace`). THAT PRESS DOES THAT AND NOTHING ELSE
       // (L3-R1, the reader of PR #440, finding 1: 8 of 9 taps in the visible map during a hold ended the live roll). It
@@ -22820,7 +22912,12 @@ class Component extends DCLogic {
         // simply routes there. A POSITION deliberately keeps calling `stageRollAt` directly:
         // going through `openDossier` would also unfold the card and pause the roll on every roam,
         // which is a different feature from the one being fixed.
-        if (dragging && moved < 5 && e && !closing) {
+        // A CANCELLED POINTER IS NEVER A PRESS (BGCLOSE-R1, F3; the reader of PR #446). `pointercancel` shares this handler
+        // with `pointerup`, and a touch the system took (an edge swipe, the notification shade, a call, palm rejection) that
+        // had not moved was routed as a tap: on the bare map it closed the page and a roll under way (on v1.293.4 it took the
+        // ladder's first step, the question: a fault older than BGCLOSE), on a node it opened that node. It ends the gesture
+        // and presses nothing: the capture is released, the pointer forgotten, a pinch or a pan ended, as above and below.
+        if (dragging && moved < 5 && e && e.type !== "pointercancel" && !closing) {
           this._updateHover(e);
           if (this._hover && this._hover.idx >= 0) {
             // ── TAPPING A NODE IS COMING BACK (v1.129.5) ─────────────────────────────────────
@@ -22841,9 +22938,9 @@ class Component extends DCLogic {
             if (e.type === "pointerup") this._trackExplore(this._hover.idx, "graph");
             if (this._hover.idx === this.currentPos) this.openDossier(this._hover.idx);
             else this.stageRollAt(this._hover.idx);
-          } else { this._tapBackground(); }
+          } else if (!spent) { this._tapBackground(); }
         }
-        dragging = false; closing = false; el.style.cursor = "grab";
+        dragging = false; closing = false; spent = false; el.style.cursor = "grab";
       }
       this.lastInteract = this.now;
     };

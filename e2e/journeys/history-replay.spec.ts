@@ -987,12 +987,12 @@ test.describe("a window 600 px wide by mouse, the drawer shut", () => {
  * On the map the bar followed the landing card's column, and a deck card's column stands left of the middle of a phone
  * (it keeps 52 px at its right for its paging control): the bar, wider than the card, stood at -26 to 344 of 390, its dot
  * and border off the screen. Measured on dev v1.293.0 and on v1.293.1 at 390x631 and 390x844 in every board state that
- * has a landing card; whole only with the card dismissed. One clamp at the dock it rides (`_layoutLandHorizontal`,
+ * has a landing card; whole only with the card dismissed (the page closed, since BGCLOSE). One clamp at the dock it rides (`_layoutLandHorizontal`,
  * app.src.jsx): chrome follows the column and is never off the screen.
  *
  * THE PLACES, from the survey (what decides where the bar stands: is there a landing card, is the hand shown, which
  * hand): a deck card on a live roll · a staged board (a technique's card) · the hand put away (the bar then docks at the
- * foot) · the card dismissed (no column to follow) · a roll from the bottom (the escapes' hand). Each at the film's first
+ * foot) · the page closed (no column to follow) · a roll from the bottom (the escapes' hand). Each at the film's first
  * step and at its last ("· end": the label is the only thing a step changes, and the bar's width is the stylesheet's).
  *
  * WHAT LIES UNDER THE BAR, named: only the film's own put-away hand (`_suppressTray`: the row at a tenth of its strength
@@ -1008,7 +1008,7 @@ test.describe("a window 600 px wide by mouse, the drawer shut", () => {
  *
  * Mutants (each alone, in the served bundle, a clean control first):
  *   G1 the clamp out (`chromeAt` rides the column as before) → every place with a landing card at "the bar is whole on the
- *      screen"; "the card dismissed" stays green, as it should (there is no column to follow)
+ *      screen"; "the page closed" (was "the card dismissed") stays green, as it should (there is no column to follow)
  *   G2 the clamp with no air at the edge (the element's half width alone) → the same places at "with the same air on
  *      both sides"
  * NOT COVERED: a real catch (a submission's escape tray: not produced here; it is a landing card like the others to
@@ -1026,7 +1026,9 @@ const PLACES: Record<string, (j: any, page: Page) => Promise<void>> = {
     await page.evaluate(() => (window as any).__neural.setLayer("hand", false, "settings")) // the layer's one writer (its ✕ and the Settings switch both call it)
     await j.advance(300)
   },
-  "the card dismissed": async (j, page) => {
+  // BGCLOSE (v1.294.0): this place was "the card dismissed" (the first step of the background ladder: the card closed, the hand
+  // left). A press on the map closes the whole page now, so the place with no column to follow is the page closed.
+  "the page closed": async (j, page) => {
     await page.evaluate(() => { const a: App = (window as any).__neural; a.rollFromPosition(a.nodeForKey("Mount|Top"), false, "top") })
     await j.advance(2500)
     await page.evaluate(() => (window as any).__neural._tapBackground()) // what a tap on the empty map does

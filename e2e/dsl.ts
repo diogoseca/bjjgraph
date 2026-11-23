@@ -1498,3 +1498,24 @@ export class Journey {
 }
 
 export const journey = (page: Page, opts: { answerMode?: "auto" | "classic" | "mc" } = {}) => new Journey(page, opts);
+
+/**
+ * TWO STORED RECORDS, COMPARED BY VALUE (ORDER1, v1.294.0).
+ *
+ * Three journeys compared two records field by field with `JSON.stringify(x[k]) !== JSON.stringify(y[k])`, which reads the
+ * ORDER a field's keys were written in. One went red on dev's own full run (a6b9160c1, option-reach.spec.ts: "belts"): the
+ * boot writes two marks into `belts`, the grandfather's (`gf`, when the deck manifest is in) and the held level's seed
+ * (`lvl`, at the first belt sync, manifest or not), so which lands first is a race between that manifest and the first
+ * sync, and two visits with equal records held `{won, lvl, gf}` and `{won, gf, lvl}` (the orchestrator, on the preview:
+ * 2 visits of 6 one way, 4 the other). The order of a record's keys means nothing to the app, the merge or the cloud.
+ *  · `canonical` writes a value with its keys in order at every depth. ARRAYS KEEP THEIR ORDER: it means something.
+ *  · `recordDiff` names every field that differs WITH BOTH VALUES, so a red proves itself from the log (the first one
+ *    printed the field's name and nothing else). [] when the two are the same record.
+ */
+export const canonical = (v: unknown): string =>
+  JSON.stringify(v, (_k, x) => (x && typeof x === "object" && !Array.isArray(x)
+    ? Object.fromEntries(Object.entries(x as Record<string, unknown>).sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0))) : x)) ?? "undefined";
+export const recordDiff = (x: Record<string, unknown>, y: Record<string, unknown>): string[] => {
+  const cut = (t: string) => (t.length > 600 ? t.slice(0, 600) + "… (" + t.length + " characters)" : t);
+  return Object.keys({ ...x, ...y }).sort().filter((k) => canonical(x[k]) !== canonical(y[k])).map((k) => `${k}: ${cut(canonical(x[k]))} != ${cut(canonical(y[k]))}`);
+};
