@@ -16,7 +16,9 @@
 //      record heals the order and pushes the record back;
 //   9. an item added back to a list whose record still names it stays where it was added, through a reload and a merge
 //      (`_keepListOrder`), and a delete's Undo takes the record's newer order rather than overwriting it;
-//  10. an account that never reorders writes no `listOrderAt`.
+//  10. an account that never reorders writes no `listOrderAt`;
+//  11. THE GUEST JOIN, the third merge path (`ngProgressGuestMerge`; the guest part keeps both fields): a guest's move and
+//      reorder join the account at sign-in, and an account's move survives a guest copy that holds the old lists.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -27,8 +29,8 @@ const strip = text => text.replace(/^export (function|const|let|var|class) /gm, 
 const dependencies = ['lists-codec', 'lists', 'belt', 'rating', 'challenge-definitions', 'challenge-engine'].map(name => strip(read('../neural/src/' + name + '.src.js'))).join('\n');
 const ownerSource = strip(read('../neural/src/progress-owner.src.js'));
 const source = read('../neural/src/app.src.jsx');
-const Component = new Function('DCLogic', 'React', ownerSource + '\n' + dependencies + '\n' + source + '\nreturn { Component, ngProgressCreateHost, ngProgressCloudKey };')(class {}, { createRef: () => ({ current: null }) });
-const { ngProgressCreateHost, ngProgressCloudKey } = Component;
+const Component = new Function('DCLogic', 'React', ownerSource + '\n' + dependencies + '\n' + source + '\nreturn { Component, ngProgressCreateHost, ngProgressCloudKey, ngProgressGuestMerge };')(class {}, { createRef: () => ({ current: null }) });
+const { ngProgressCreateHost, ngProgressCloudKey, ngProgressGuestMerge } = Component;
 
 function memory() { const rows = new Map(); return { rows, getItem: k => rows.get(k) ?? null, setItem: (k, v) => rows.set(k, String(v)), removeItem: k => rows.delete(k) }; }
 function harness(mem = memory()) {
@@ -264,4 +266,22 @@ test('10. an account that never reorders writes no listOrderAt', () => fakeTimer
   a._saveProgress(); await flush();
   for (const p of h.pushes) assert.equal('listOrderAt' in p.value, false);
   for (const v of h.mem.rows.values()) assert.equal(String(v).includes('listOrderAt'), false);
+}));
+
+test('11. the guest join: a guest\'s move and order join the account; an account\'s move survives a guest copy holding the old lists', () => fakeTimers(async ({ flush }) => {
+  const h = harness(); await h.boot(); const a = h.switchTo('A');
+  a.prep.local = 1; await a._pullAndMerge(); await flush();
+  const merge = (l, i) => a._mergeProgressBlobs(l, i);
+  const old = { S: L(['X', 'Y'], 100, 'Monday'), T: L(['Z'], 90, 'Guard') };
+  const moved = { S: L(['Y'], 201, 'Monday'), T: L(['Z', 'X'], 202, 'Guard') };
+  const cells = { S: { X: [201, 0] }, T: { X: [201, 1] } }, order = { T: [203, ['X', 'Z']] };
+  // the guest moved X into Guard and put it first; the account still holds the old lists
+  const joined = ngProgressGuestMerge(merge, blobOf(old), blobOf(moved, cells, order));
+  assert.deepEqual(joined.lists.S.items, ['Y'], "the guest's move joins: out of Monday");
+  assert.deepEqual(joined.lists.T.items, ['X', 'Z'], "…into Guard, in the guest's order");
+  assert.deepEqual(joined.listItemAt, cells); assert.deepEqual(joined.listOrderAt, order);
+  // the account moved it; a guest copy made before (the old lists, no records) does not bring it back
+  const kept = ngProgressGuestMerge(merge, blobOf(moved, cells, order), blobOf(old));
+  assert.deepEqual(kept.lists.S.items, ['Y'], "the account's move stands");
+  assert.deepEqual(kept.lists.T.items, ['X', 'Z']);
 }));
