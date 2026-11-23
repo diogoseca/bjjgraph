@@ -8652,7 +8652,16 @@ class Component extends DCLogic {
         // had added, and its re-push then waited as a "heal" (the reader's seed 12163). So a heal also needs the cloud to
         // be behind in nothing but `listItemAt` and `listOrderAt` (`_onlyListFieldsBehind`); anything else it lacks (an
         // item in a list, an answer, a setting) goes at once.
-        const last = this._pushedLast, heal = !!(last && last.userId === userId && last.key === key) && this._onlyListFieldsBehind(userId, key);
+        // AND A BOUND (MOVE-R2, mine, flagged for a ruling): a push of an UNCHANGED state that the test above calls real
+        // goes at once twice in a row (`_restoreRun`; R1's case, a racing write erasing a real change twice, needs exactly
+        // two); from the third in a row it is a heal (that one at once, then the doubling waits). Without it, two current
+        // devices that disagree about a moved item while an older build strips both their cells from the cloud each see
+        // "more than the two fields behind", push at once, and never stop: the older-device fuzz had 20 of 3,000 runs that
+        // never settled (3 pushes a round), none before R1. A real change here resets the count (and the wait) as before.
+        const last = this._pushedLast, same = !!(last && last.userId === userId && last.key === key);
+        const fieldsOnly = same && this._onlyListFieldsBehind(userId, key);
+        this._restoreRun = same && !fieldsOnly ? (this._restoreRun || 0) + 1 : 0;
+        const heal = same && (fieldsOnly || this._restoreRun > 2);
         if (heal) {
           const now = Date.now();
           if (now < (this._healNext || 0)) return;

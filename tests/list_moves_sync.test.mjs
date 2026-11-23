@@ -36,6 +36,9 @@
 //      move's "out" would lose to an older "in" at the next merge, and the move would come back as a copy);
 //  19. A REAL CHANGE IS NEVER TAKEN FOR A HEAL (MOVE-R2 R1): a racing write that erased a technique this tab added, twice in
 //      a row, is re-pushed at once both times (the cloud lacked more than the two list fields), with the clock stopped.
+//  20. AND A BOUND (MOVE-R2, flagged): from the third re-push in a row an unchanged state backs off like a heal (that heal
+//      at once, then the waits), so two devices that keep overwriting each other's view can never push for ever; a real
+//      change resets the count.
 // NOT KILLED HERE, and why (MOVE-R1, the reader's mutants.py): M13, the source cell stamped one LATER than the target's,
 // survives every unit. It is equivalent in effect: both cells are still later than everything this device holds, so the
 // move stands either way. Nothing here covers it; nothing needs to.
@@ -485,5 +488,29 @@ test('19. a real change is never taken for a heal: two racing overwrites in a ro
       assert.ok(h.pushes.at(-1).value.lists.T.items.includes('H'));
     }
     assert.deepEqual(itemsOf(a.lists), { S: ['Y'], T: ['H', 'X', 'Z'] }, 'nothing lost on this device');
+  } finally { Date.now = realNow; }
+}));
+
+test('20. the bound: from the third re-push in a row an unchanged state backs off like a heal; a real change resets the count', () => fakeTimers(async ({ flush }) => {
+  const realNow = Date.now; let now = 1795400000000; Date.now = () => now;
+  try {
+    const h = harness(); await h.boot(); const a = h.switchTo('A');
+    a.prep.local = 1; await a._pullAndMerge(); await flush();
+    a.lists = { S: L(['X', 'Y'], 100, 'Monday') }; a._saveProgress(); await flush();
+    // a cloud that keeps holding a view without Y (another writer's, which this tab never merges away: more than the two
+    // list fields behind, every time)
+    const other = olderCopyOf(h.pushes.at(-1).value, { S: ['X'] });
+    h.facade.pullNeural = async id => ({ userId: id, blob: JSON.parse(JSON.stringify(other)) });
+    const pushesAfter = async (ms) => { now += ms; const n = h.pushes.length; await a._pullAndMerge(); await flush(); return h.pushes.length - n; };
+    await pushesAfter(1000);                                                   // (belts settle)
+    assert.equal(await pushesAfter(1000), 1, 'a re-push at once');
+    assert.equal(await pushesAfter(1000), 1, 'a second in a row, at once');
+    assert.equal(await pushesAfter(1000), 1, 'a third in a row is a heal now: the first heal goes at once');
+    assert.equal(await pushesAfter(1000), 0, 'a fourth waits');
+    assert.equal(await pushesAfter(60000), 1, 'and goes after the minute');
+    // a real change resets it: the next re-push of the new state goes at once again
+    a.lists.S.items.push('Z'); a._saveProgress(); await flush();
+    assert.equal(await pushesAfter(1000), 1, 'after a real change, at once again');
+    assert.deepEqual(itemsOf(a.lists), { S: ['X', 'Y', 'Z'] }, 'nothing lost on this device');
   } finally { Date.now = realNow; }
 }));
