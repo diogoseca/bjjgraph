@@ -36,9 +36,22 @@ import { journey } from "../dsl"
  *       place…" at "no orb is named twice" (there the hand is the cloze's own moves)
  *   K9  the lit place's session ring drawn                → "…wears no session ring" at "the place's ring is not drawn"
  *   K11 the place taken on a phone too (`_czAt`)          → "on a phone…" at "the cloze moves nothing on the map"
- * NOT COVERED HERE: a lit row (S4); the phone's look (S3); a live roll's own camera under an open cloze (the drawer holds
- * the game, so nothing but a staged board's framing ever moves it: the staged board is the case taken). The harness serves
- * `{}` for dossiers: nothing here reads a film or an article.
+ * S2-R1 (23 Nov 2026; the reader of PR #449 and the orchestrator's rulings 1 and 2):
+ *   KH1 the hold kept while the game runs (`updateCamera` without `paused`) → "a move played beside an open cloze…" (both)
+ *       at "the camera is the roll's again"
+ *   S8  the cloze's names over a running game (`czLit` without `paused`, the reader's) → "…after Show" at "none of the
+ *       cloze's names stay while the roll runs"
+ *   KF1 the close does not let the cloze go (`c.free` never set)  → "a press on the bare map with a cloze lit…" at "the cloze
+ *       is open and unlit"
+ *   KZ1 a resize does not frame the place again                    → "a resize frames the held place again" at "in the calm area"
+ *   KT1 60 ms of work a frame while a cloze holds the map (a busy wait in `draw`) → "the cloze's framing costs a frame what the
+ *       roll's own view costs" at "a frame at the cloze's framing" (so the step can see a slow frame there; its first form read
+ *       the ping lag's median, which let the mutant through)
+ * NOT KILLED, AND WHAT WOULD: the reader's S11 (the glide only on the player's own press, `fresh ||` dropped) is equivalent on
+ * every door tried: Practise here and a row's press are both `mine`. It needs a door that opens a place's cloze without the
+ * player's press on that place (a plan that lands and opens the next place by itself, `ngClozeResume`), read for the glide.
+ * NOT COVERED HERE: a lit row (S4); the phone's look (S3). The harness serves `{}` for dossiers: nothing here reads a film or
+ * an article.
  */
 
 type W = any
@@ -139,6 +152,59 @@ const view = (page: Page) => page.evaluate((seat) => {
     solid: c ? c.rows.filter((r: W) => !r.ask).map((r: W) => r.idx) : [], boxes, czAt: !!a._czAt(), shown: !!(c && c.shown), done: !!(c && c.done) }
 }, SEAT)
 const moved = (a: { x: number; y: number }, b: { x: number; y: number }) => Math.hypot(a.x - b.x, a.y - b.y)
+/** the roll: where it stands, whether its place is on the visible map (through the frame's own camera), the clock, and the
+ *  names the frame wrote for its hand ("move") and for the cloze ("cloze") */
+const theRoll = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural, n = a.nodes[a.currentPos], p = a.pairMid(n), sc = a.W / a.cam.vw, R = a._viewRect()
+  const x = a.W / 2 + (p.x - a.cam.cx) * sc, y = a.H / 2 + (p.y - a.cam.cy) * sc, b = (a._lastNameBoxes || []) as W[]
+  const hp = a.headPos(), hx = a.W / 2 + (hp.x - a.cam.cx) * sc, hy = a.H / 2 + (hp.y - a.cam.cy) * sc, s = a._session
+  return { at: a.currentPos as number, inView: x >= R.left && x <= R.left + R.width && y >= R.top && y <= R.top + R.height, paused: !!a.paused, open: s ? s.czOpen : null,
+    headInView: hx >= R.left && hx <= R.left + R.width && hy >= R.top && hy <= R.top + R.height,
+    dealt: (a.optionIdxs || []).length, hand: b.filter((e) => e.w === "move").length, cloze: b.filter((e) => e.w === "cloze").length, czAt: !!a._czAt() }
+})
+/** a free point of the visible map beside the drawer (no node under it, the app's own hover test) */
+const freePoint = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural, c = a.canvas.getBoundingClientRect(), R = a._viewRect()
+  for (let y = c.top + R.top + 60; y < c.top + R.top + R.height - 60; y += 17) for (let x = c.left + R.left + 80; x < c.left + R.left + R.width - 80; x += 23) {
+    if (document.elementFromPoint(x, y) !== a.canvas) continue
+    a._updateHover({ clientX: x, clientY: y }); const h = a._hover && a._hover.idx >= 0; a._hover = null
+    if (!h) return { x, y }
+  }
+  return null
+})
+/** REAL FRAMES (S2-R1, the orchestrator's blocker): one draw a `requestAnimationFrame`, as the app runs, for 90 frames, with a
+ *  ping through a MessageChannel every 4 ms: how late each arrives is how long the main thread was busy, how long a press in
+ *  the drawer waits. NOT frames drawn back to back in one task (`advance` in a loop): there the canvas pays several frames'
+ *  raster on one call, a 250 ms "frame" one in 12 at a wide view, which is the harness, not the app
+ *  (tests/artifacts/_map_names_frametime.mjs --wide measures all three ways). Medians, so a busy box cancels inside the pair. */
+const realFrames = (page: Page) => page.evaluate(async () => {
+  const a = (window as W).__neural, raf = () => new Promise((r) => requestAnimationFrame(() => r(0)))
+  for (let k = 0; k < 15; k++) { await raf(); a.advance(1000 / 60) }
+  const ch = new MessageChannel(), lag: number[] = []
+  let sent = 0, live = true
+  ch.port1.onmessage = () => { lag.push(performance.now() - sent); if (live) setTimeout(() => { sent = performance.now(); ch.port2.postMessage(0) }, 4) }
+  sent = performance.now(); ch.port2.postMessage(0)
+  const iv: number[] = []
+  let last = performance.now()
+  for (let k = 0; k < 90; k++) { await raf(); const t = performance.now(); iv.push(t - last); last = t; a.advance(1000 / 60) }
+  live = false
+  const med = (d: number[]) => { const s = [...d].sort((x, y) => x - y); return +s[s.length >> 1].toFixed(1) }
+  return { lag: med(lag), frame: med(iv), n: lag.length, zoom: +(a.cam.vw / (a.graphW * a.ROLL_ZOOM)).toFixed(2) }
+})
+/** play a move of the hand beside the open drawer: the first whose card the mouse can reach where it sits (a real click) */
+async function playAMove(j: W, page: Page) {
+  const t = await page.evaluate(() => {
+    const a = (window as W).__neural
+    for (const i of a.optionIdxs || []) {
+      const e = document.querySelector(`[data-tech="${a.nodes[i].t}"] .ng-choice-title-button`) as HTMLElement | null, r = e && e.getBoundingClientRect()
+      if (r && r.left >= 0 && r.right <= innerWidth && r.top >= 0 && r.bottom <= innerHeight) return a.nodes[i].t as string
+    }
+    return ""
+  })
+  expect(t, "premise: a card of the hand dealt beside the drawer, where the mouse reaches it").not.toBe("")
+  await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01])
+  await j.pick(t)
+}
 
 test.describe("1440x900, mouse", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
@@ -222,6 +288,89 @@ test.describe("1440x900, mouse", () => {
     expect(d.done, "premise: confirmed").toBe(true)
     expect(d.light, "Done: the light is out").toBeNull()
     expect(d.czAt, "the cloze still open: the place is still held").toBe(true)
+  })
+
+  for (const when of ["before Show", "after Show"] as const) {
+    test(`a move played beside an open cloze, ${when}: the game runs, the camera is the roll's again, and the names are the roll's`, async ({ page }) => {
+      const j = await setup(page, { at: "Half Guard|Top" })
+      await openCloze(page, false)
+      await settle(j, page)
+      if (when === "after Show") {
+        await press(page, "[data-master-bar] [data-cz-show]", "Show", false, false)
+        await j.advance(1000)
+        expect((await view(page)).clozeNames.length, "premise: lit, its shown moves named").toBeGreaterThan(0)
+      }
+      expect((await theRoll(page)).inView, "premise: held at the cloze's place, the roll's own is off the map").toBe(false)
+      await playAMove(j, page)
+      // while the move travels (the landing comes about 2 s on, and may close the cloze), read every 200 ms for 1.6 s
+      const seen: W[] = []
+      for (let k = 0; k < 8; k++) { await j.advance(200); seen.push(await theRoll(page)) }
+      expect([seen[0].paused, seen[0].open], "premise: the roll runs, the cloze still open in the drawer").toEqual([false, SEAT])
+      expect(seen.some((r) => r.headInView), "the game runs: the camera is the roll's again, the move comes onto the map as it travels (KH1)").toBe(true)
+      expect(seen.filter((r) => r.open === SEAT).map((r) => r.cloze), "none of the cloze's names stay while the roll runs (S8)").toEqual(seen.filter((r) => r.open === SEAT).map(() => 0))
+      for (let i = 0; i < 12 && !(await theRoll(page)).dealt; i++) await j.advance(500)
+      // (the names planner gives a held name back half a second after the camera rests, `_planNames`: up to 4 s here)
+      for (let i = 0; i < 8 && !(await theRoll(page)).hand; i++) await j.advance(500)
+      const d = await theRoll(page)
+      expect([d.dealt > 0, d.hand > 0], "and once the roll's next hand is dealt, it is named").toEqual([true, true])
+    })
+  }
+
+  test("a press on the bare map with a cloze lit closes the page and lets the map go: the cloze stays open and unlit, and Show takes the map back", async ({ page }) => {
+    const j = await setup(page, { at: "Half Guard|Top" })
+    await openCloze(page, false)
+    await settle(j, page)
+    await press(page, "[data-master-bar] [data-cz-show]", "Show", false, false)
+    await j.advance(1000)
+    expect((await view(page)).light?.k, "premise: lit").toBe(1)
+    const p = await freePoint(page)
+    expect(p, "premise: a free point of the map").not.toBeNull()
+    await page.mouse.click(p!.x, p!.y)
+    await page.mouse.move(2, 2)
+    await j.advance(600)
+    const st = await page.evaluate((seat) => { const a = (window as W).__neural, s = a._session; return { url: location.pathname, roam: !!a._roam, open: s && s.czOpen, drawer: !!a.deckShown } }, SEAT)
+    expect(st, "premise: the page closed (v1.294.0), the drawer and its cloze as they were (pane law)").toEqual({ url: "/", roam: true, open: SEAT, drawer: true })
+    const v = await view(page)
+    expect([v.czAt, v.light, v.clozeNames], "the cloze is open and unlit: it holds the map no more and lights nothing (KF1)").toEqual([false, null, []])
+    await j.advance(8000)
+    expect((await view(page)).light, "nor later (the reader: still lit at +8.5 s)").toBeNull()
+    // Hide, then Show again: the map is taken back
+    await press(page, "[data-master-bar] [data-cz-hide]", "Hide", false, false)
+    await j.advance(300)
+    await press(page, "[data-master-bar] [data-cz-show]", "Show", false, false)
+    await settle(j, page)
+    const back = await view(page)
+    expect([back.czAt, back.light?.k, back.out], "the next Show takes the map back: held, lit, the place and its moves in the calm area").toEqual([true, 1, []])
+  })
+
+  test("the cloze's framing costs a frame what the roll's own view costs (real frames: the main thread is free for a press)", async ({ page }) => {
+    const j = await setup(page, { at: "Half Guard|Top" })
+    await press(page, ".ng-logo", "open the drawer", false, false)
+    await j.advance(600)
+    const roll = await realFrames(page)
+    await press(page, '[data-explore-stats] [data-b="due"]', "the Master the game row", false)
+    await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+    await press(page, `[data-master-row="${SEAT}"]`, "the place's row", false)
+    await settle(j, page)
+    const cz = await realFrames(page)
+    console.log("[frames] the board's own view", JSON.stringify(roll), "the cloze's framing", JSON.stringify(cz))
+    expect(cz.zoom >= 2 * roll.zoom, `premise: the cloze's framing (${cz.zoom} times the roll's zoom) at least twice as far out as the board's own (${roll.zoom})`).toBe(true)
+    // (measured 23 Nov on this box: here a frame takes 56 to 60 ms at the board's own view, the drawer open, and 35 at the
+    // cloze's framing; on the frame-time script's lighter page 17 and 20 ms, tests/artifacts/_map_names_frametime.mjs --wide.
+    // The bound is the board's own plus 15 ms; KT1's 60 ms of work a frame read 93. The main thread's lag, how long a press
+    // waits, is the frame's work and is printed beside it)
+    expect(cz.frame, `a frame at the cloze's framing (median ${cz.frame} ms, a press waiting ${cz.lag} ms) costs what the board's own view costs (${roll.frame} ms, ${roll.lag} ms), plus 15 ms at most (KT1)`).toBeLessThanOrEqual(roll.frame + 15)
+  })
+
+  test("a resize frames the held place again", async ({ page }) => {
+    const j = await setup(page, { at: "Half Guard|Top" })
+    await openCloze(page, false)
+    await settle(j, page)
+    expect((await view(page)).out, "premise: in the calm area at 1440x900").toEqual([])
+    await page.setViewportSize({ width: 1024, height: 768 })
+    await settle(j, page)
+    const v = await view(page)
+    expect([v.czAt, v.out], `1024x768: the place and its moves in the calm area again (${v.n} read) (KZ1)`).toEqual([true, []])
   })
 
   test("standing at the place: after Show no orb is named twice (the hand and the cloze are the same moves)", async ({ page }) => {

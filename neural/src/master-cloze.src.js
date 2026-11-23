@@ -86,7 +86,13 @@ function ngClozeLook(app, s) {
   }
   ngClozeMap(app, c, NG_LIGHT.lookCalm);   // (nothing lit under the pill)
 }
+// THE HELD PLACE FRAMED AGAIN WHEN THE VIEW CHANGES SIZE (S2-R1, the reader's finding 6: at 1024x768 three of its eight points
+// fell outside). The app asks a frame at a time (`updateCamera`), since the view's height is the reader's band, which settles a
+// frame after a resize; a glide only when they are not in view (`ngLightFrame`). A phone's look keeps its own calm area (S3:
+// turned to landscape and back, nothing lit under the pill)
+export function ngClozeFrame(app) { const s = app._session, c = s && ngCzNow(s); if (c) ngClozeMap(app, c, app._czLookOn && app._czLookOn() ? NG_LIGHT.lookCalm : undefined); }
 function ngClozeMap(app, c, calm) {
+  if (c) c.free = false;   // the next Show, or the place opened again, takes the map back from free roam (S2-R1, `_czAt`)
   const z = c && app._czAt ? app._czAt() : null;   // (a computer, the drawer showing this cloze: `_czAt` says, and only it)
   if (!z || z.c !== c) return;
   ngLightFrame(app, [z.n.idx].concat(z.n.pi >= 0 ? [z.n.pi] : [], c.rows.map((r) => r.idx)), calm);

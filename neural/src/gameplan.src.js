@@ -6,7 +6,7 @@ import { ngPracticeOrder } from "./practice-queue.src.js";
 // Master the game's list (L1, v1.290.0) rides this deferred bundle: the runtime the page already waits for
 export { ngMasterRows, ngMasterStart, ngMasterWhen, ngMasterPaint } from "./master-list.src.js";
 // the cloze (L2, v1.292.0): a position's moves, asked in the list; the app calls these through the runtime
-export { ngClozeGo, ngClozeStep, ngClozeClose, ngClozeResume, ngClozeLeads, ngClozeBack, ngClozeSay, ngClozeLeadsOf } from "./master-cloze.src.js";
+export { ngClozeGo, ngClozeStep, ngClozeClose, ngClozeResume, ngClozeFrame, ngClozeLeads, ngClozeBack, ngClozeSay, ngClozeLeadsOf } from "./master-cloze.src.js";
 // the light (L2b S1, v1.295.0): what the map shows where; `draw()` calls it through the runtime (`_drawLight`)
 export { ngLightDraw } from "./map-light.src.js";
 export const NG_GAMEPLAN_VERSION = 1;

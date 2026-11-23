@@ -38,6 +38,7 @@
 //   ML16 the look not tied to its row (`_shownRow` always yes)          → "the look ends with its row…"
 //   ML17 Last rolls not read (`_viewMode` dropped from `_shownRow`)      → "the look ends with its row…", at "Explore"
 //   ML18 (S2) the drawer shut not read on a computer                    → "the look ends with its row…", at "the drawer shut"
+//   ML19 (S2-R1) the look's place read from the width, not where it began → the same test, at "turned to landscape"
 // ML6 SINCE S1-R1 SURVIVES, AND IS COVERED TWICE: with `paused` dropped from `_lightOf`, ruling 4's own line in `_drawLight`
 // (`running`: the game runs, so the strength is 0) still puts out a light over a running game; ML14 is that line's killer.
 // Both guards stay: `_lightOf` also decides which place the fade keeps (`_lightAt`) and when `light_cold` is said.
@@ -164,8 +165,13 @@ test("the look ends with its row, or with Last rolls: the name goes, and the lig
   e.a.deckShown = false;
   assert.equal(e.a._shownNode(), null, "a computer, the drawer shut: Last rolls is out of sight, the look is over");
   const f = lit({ W: 390 });
-  f.a._viewMode = "history"; f.a._openRow = "c0"; f.a._shown.rid = "c0";
+  f.a._viewMode = "history"; f.a._openRow = "c0"; f.a._shown.rid = "c0"; f.a._shown.phone = true;   // (`_showPlace` marks a look begun on a phone)
   assert.equal(f.frame(400).k, 1, "a phone, the drawer shut: that is its look, lit");
+  // S2-R1 (ruling 3): a look begun on a phone keeps its place whatever the width (turned to 844x390 it is no longer "mobile")
+  f.a.W = 844;
+  assert.equal(f.frame(16).k, 1, "turned to landscape, the look begun on a phone is still lit");
+  f.a.W = 390;
+  assert.equal(f.frame(16).k, 1, "and turned back");
 });
 
 test("the planner arriving late: the light comes in over its quarter second from when it can first be drawn", () => {
