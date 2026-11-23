@@ -119,8 +119,13 @@ class NGSound {
     this._voiceTimers = []
     if (!app.isTest()) {
       this._unlock = () => this._ensureCtx()
-      window.addEventListener("pointerdown", this._unlock, { once: true, passive: true })
-      window.addEventListener("keydown", this._unlock, { once: true })
+      // WITH ITS HOST'S LIFE WHERE THE HOST HAS ONE (LEAK1: the app's `_on`); A HOST WITHOUT IT GETS A PLAIN ADD, WHICH
+      // `destroy()` REMOVES, AS BEFORE (LEAK1-RED: the engine is built by more than the app, and each host is only
+      // `{ isTest, get }`: the Forward sound lab, forward/sounds/app.js, and sound.spec.ts's own engines; `app._on` alone
+      // threw in both)
+      const on = typeof app._on === "function" ? (t, type, fn, o) => app._on(t, type, fn, o) : (t, type, fn, o) => t.addEventListener(type, fn, o)
+      on(window, "pointerdown", this._unlock, { once: true, passive: true })
+      on(window, "keydown", this._unlock, { once: true })
     }
   }
 

@@ -281,7 +281,9 @@ NEURAL_TARGET = {
     # v1.298.0 L2b S4 (a row lights its way: ngClozeWay and the tablet's tap, master-cloze.src.js; the line, map-light.src.js):
     # 560_127, +2_109 B on S3's 558_018 (dev 2a340a5ce); S4-R0: 560_344, +217 B (a place opened under the pointer waits for
     # its first move, master-cloze.src.js); S4-R1: 560_379, +35 B (a mouse move gives the hover back after a touch).
-    "deferred_raw_bytes": 560_379,
+    # v1.298.1 LEAK1 (every page-wide listener of an app or a reader goes with it): 560_576, +197 B (reader.js +219: its own
+    # AbortController, `on` and the cleared `downOn`; gameplan.js -22: the cloze's two adds through `_on`).
+    "deferred_raw_bytes": 560_576,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one

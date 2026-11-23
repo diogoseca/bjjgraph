@@ -576,8 +576,20 @@ class Component extends DCLogic {
     if (same) this._pastRolls = left.rolls.map((r) => ({ ...r, log: (r.log || []).slice() }));
     return same;
   }
+  // EVERY PAGE-WIDE LISTENER OF AN APP GOES WITH IT (LEAK1, v1.298.1; the reader of PR #456 counted 22, on document and
+  // window, that grew by one a remount, each keeping a dead app or reader alive with its graph). One AbortController a life
+  // (`_life`), aborted first in `componentWillUnmount`; every listener on document, window or document.fonts is added
+  // through `_on`, which passes its signal, so one a later change adds goes with the app by default. A named removal
+  // (`removeEventListener`) still closes one sooner. tests/page_listeners.test.mjs fails on a direct add in instance code.
+  _on(target, type, fn, opts) {
+    if (this.__ngDestroyed) return;
+    const o = typeof opts === "boolean" ? { capture: opts } : { ...opts };
+    o.signal = (this._life || (this._life = new AbortController())).signal;
+    target.addEventListener(type, fn, o);
+  }
   componentWillUnmount() {
     this.__ngDestroyed = true;
+    this._life?.abort();   // every page-wide listener this app added (`_on`)
     this._leaveShelf();
     this._reader?.destroy();
     this._motionQuery?.removeEventListener("change", this._motionChanged);
@@ -626,11 +638,6 @@ class Component extends DCLogic {
     if (this._onChoiceFonts) document.fonts.removeEventListener("loadingdone", this._onChoiceFonts);
     if (this._onWinResize) window.removeEventListener("resize", this._onWinResize);
     if (this._onKey) window.removeEventListener("keydown", this._onKey);
-    // THE CLOZE'S TWO PAGE-WIDE LISTENERS GO WITH THEIR APP (S4-R1, the reader of PR #456): a tablet's tap (`_czTap`, capture
-    // pointerup on document, S4) and the cloze text's fit (`_czFit`, resize on window, L2's, found by the same survey) were
-    // added once an app and never removed, so every app a remount left behind stayed alive with its graph and answered taps
-    if (this._czTap) document.removeEventListener("pointerup", this._czTap, true);
-    if (this._czFit) window.removeEventListener("resize", this._czFit);
     this.clearTimers();
   }
 
@@ -1189,9 +1196,9 @@ class Component extends DCLogic {
     this._ro = new ResizeObserver(() => this.resize());
     this._ro.observe(this.wrapRef.current);
     this._onChoiceFonts = () => { this._inkM = this._nm = null; this.fitChoiceTitles(); };   // a font that lands changes every map name's width (`_planNames`)
-    document.fonts.addEventListener("loadingdone", this._onChoiceFonts);
+    this._on(document.fonts, "loadingdone", this._onChoiceFonts);
     this._onWinResize = () => this.resize();
-    window.addEventListener("resize", this._onWinResize);
+    this._on(window, "resize", this._onWinResize);
     this.resize();
     this.attachInput();
     // block pan when interacting with overlay controls
@@ -1217,7 +1224,7 @@ class Component extends DCLogic {
     // over the graph, film or timed card.
     // Surfaces that scroll THEMSELVES keep it — the hand (its own horizontal glide, above), the
     // pane, article and modal (`_readOwnScroll`).
-    document.addEventListener("wheel", (e) => {
+    this._on(document, "wheel", (e) => {
       if (this._landHidden(true) || !this._readMax || this._readOwnScroll(e.target)) return;
       if (Math.abs(e.deltaX) > Math.abs(e.deltaY) || !e.deltaY) return;   // a trackpad's real horizontal gesture is not ours
       e.preventDefault(); e.stopPropagation();
@@ -1434,7 +1441,7 @@ class Component extends DCLogic {
         if (opt && !this._reader?.interacting) { e.preventDefault(); const oc = (this._optionCards || []).find((c) => c.opt === opt); this.activateOption(opt, this._optPick, oc && oc.card, undefined, true); }
       }
     };
-    window.addEventListener("keydown", this._onKey);
+    this._on(window, "keydown", this._onKey);
     // LAST INPUT MODALITY, one latch, two writers. Capture phase so no stopPropagation can starve
     // it — several overlays swallow pointerdown on purpose (§6.1). Read by the pane's focus
     // restore above; keep it that cheap, it runs on every event.
@@ -1442,15 +1449,15 @@ class Component extends DCLogic {
     // a click carries no `repeat`, so the card's own listener asks here (FOLLOW2-R1: a held Enter must not play the
     // card it has just shown, nor play on into the next hand). LIFTERS: the next keydown (it writes the flag again) and
     // any keyup, so the flag is set only while a key is held and repeating.
-    window.addEventListener("keydown", (e) => { this._kbNav = true; this._keyRepeat = !!e.repeat; }, true);
-    window.addEventListener("keyup", () => { this._keyRepeat = false; }, true);
-    window.addEventListener("pointerdown", (event) => {
+    this._on(window, "keydown", (e) => { this._kbNav = true; this._keyRepeat = !!e.repeat; }, true);
+    this._on(window, "keyup", () => { this._keyRepeat = false; }, true);
+    this._on(window, "pointerdown", (event) => {
       this._kbNav = false;
       // Track before the deferred reader exists too: adopting or resizing a
       // pressed control changes pointerup's target and loses the native click.
       this._readerPress = this._landEl?.contains(event.target) || this.optionsRef.current?.contains(event.target);
     }, true);
-    for (const type of ["pointerup", "pointercancel", "blur"]) window.addEventListener(type, () => {
+    for (const type of ["pointerup", "pointercancel", "blur"]) this._on(window, type, () => {
       if (!this._readerPress) return;
       this._readerPress = false;
       this._reader?.layout(); // RAF runs after this release's native click.
@@ -1569,9 +1576,9 @@ class Component extends DCLogic {
           for (const job of owed) job();
         }, 0);
       };
-      window.addEventListener("pointerup", () => { if (!paneTouch) release(); }, true);
+      this._on(window, "pointerup", () => { if (!paneTouch) release(); }, true);
       for (const type of ["click", "pointercancel", "touchcancel", "contextmenu", "blur"])
-        window.addEventListener(type, release, true);
+        this._on(window, type, release, true);
       drill.addEventListener("touchend", () => { if (moved > 16) release(); }, { passive: true });
     }
     this.mastered = new Set();
@@ -1601,7 +1608,7 @@ class Component extends DCLogic {
         placement: a.getAttribute("data-placement") || null,
       });
     };
-    document.addEventListener("click", this._onAffiliateClick);
+    this._on(document, "click", this._onAffiliateClick);
     try { if (typeof NGSound !== "undefined") this.sound = new NGSound(this); } catch (e) { /* silent app */ }
     this.updateAccountUI();  // local-only play: the banner and the Offline chip first, then one re-verify attempt
     this._initAuth();     // signed-in? real identity + merge-on-pull cloud sync (facade-gated)
@@ -1686,7 +1693,7 @@ class Component extends DCLogic {
         // whatever it was showing before.
         else if (hit.idx < 0) this._seedPageFromUrl(location.pathname);
       };
-      window.addEventListener("popstate", this._onNeuralPopstate);
+      this._on(window, "popstate", this._onNeuralPopstate);
     } catch (e) { /* non-fatal */ }
     // DECKS: boot from the MANIFEST, fetch each deck on demand (v1.80.4). The monolith was
     // 16.4MB raw / 4.4MB gzip of flashcards — every card for all 2,924 decks — pulled before
@@ -5259,8 +5266,8 @@ class Component extends DCLogic {
         if (this._systemId && this.deckShown) this._renderPaneBody();
       }
     };
-    window.addEventListener("pagehide", this._onPageHide);
-    document.addEventListener("visibilitychange", this._onVisHide);
+    this._on(window, "pagehide", this._onPageHide);
+    this._on(document, "visibilitychange", this._onVisHide);
   }
   // ms since NAVIGATION start (not since boot) — the honest number for "how long until the user
   // could do anything". NB in test mode this is wall clock; the `funnel` beat's own `t` is sim time.
@@ -6696,7 +6703,7 @@ class Component extends DCLogic {
     };
     this._gameplanClock = setInterval(check, 30000);
     this._gameplanVisible = check;
-    document.addEventListener("visibilitychange", check);
+    this._on(document, "visibilitychange", check);
   }
   openFlashBrowser(bucket, label) {
     if (this._deferSystemBucket(bucket, () => this.openFlashBrowser(bucket, label))) return;
@@ -8265,7 +8272,7 @@ class Component extends DCLogic {
       bar.append(text, retry);
       (this.__ngRoot || document.body).appendChild(bar);
     }
-    if (!this._localOnlyOnline) { this._localOnlyOnline = () => { this._retryOnline(); }; window.addEventListener("online", this._localOnlyOnline); }
+    if (!this._localOnlyOnline) { this._localOnlyOnline = () => { this._retryOnline(); }; this._on(window, "online", this._localOnlyOnline); }
   }
   _retryOnline() {
     if (!this._progressLocalOnly || this.__ngDestroyed) return null;
@@ -8778,7 +8785,7 @@ class Component extends DCLogic {
       this._pressAway = e.timeStamp;   // this press closed the menu: on the bare map it does nothing more (`attachInput`, `spent`)
       this.closeAccountMenu();
     };
-    document.addEventListener("pointerdown", this._acctMenuAway, true);
+    this._on(document, "pointerdown", this._acctMenuAway, true);
     // THE MENU IS REACHED BY KEYS (SIDE-R2 M7): it is portaled out of the drawer, so Tab from the badge
     // never arrived in it. Opening moves focus to its first item; the arrows, Home and End walk the items
     // (`role=menu`'s own keys), Tab leaves it, and closing hands focus back to the badge.
@@ -11482,7 +11489,7 @@ class Component extends DCLogic {
       if (el.contains(e.target) || (anchor && anchor.contains(e.target))) return;
       this.closeListPicker();
     };
-    document.addEventListener("pointerdown", this._pickAway, true);
+    this._on(document, "pointerdown", this._pickAway, true);
     // the first item takes the keys at once when a KEY opened the menu (the APG menu button); a mouse or a tap leaves focus
     // on the anchor, where the arrows still reach the menu's first (or last) item
     if (byKey) { const first = live()[0]; if (first) first.focus(); }
@@ -11743,7 +11750,7 @@ class Component extends DCLogic {
       this._pressAway = e.timeStamp;   // this press closed the menu: on the bare map it does nothing more (`attachInput`, `spent`)
       this.closeListPicker();
     };
-    document.addEventListener("pointerdown", this._pickAway, true);
+    this._on(document, "pointerdown", this._pickAway, true);
     this.track("neural_list_picker_opened", { surface: surface || "unknown", lists: this.listsArray().length });
     return el;
   }
@@ -11969,7 +11976,7 @@ class Component extends DCLogic {
     try { e.dataTransfer.effectAllowed = "move"; e.dataTransfer.setData("text/plain", this.listItemName(nodeId)); } catch (_) { /* non-fatal */ }
     this._listDragT = setTimeout(() => this._listDragRelease(), 15000);
     this._listDragVis = () => { if (document.hidden) this._listDragRelease(); };
-    document.addEventListener("visibilitychange", this._listDragVis);
+    this._on(document, "visibilitychange", this._listDragVis);
     const root = this.explorerListRef.current;
     if (root) root.setAttribute("data-list-dragging", listId);
   }
@@ -16030,7 +16037,7 @@ class Component extends DCLogic {
       || typeof window === "undefined" || typeof Worker === "undefined" || typeof requestAnimationFrame !== "function") return;
     if (!this._gameValueVisible) {
       this._gameValueVisible = () => this._ensureGameValues();
-      document.addEventListener("visibilitychange", this._gameValueVisible);
+      this._on(document, "visibilitychange", this._gameValueVisible);
     }
     if (!this._gameValuePlayable()) return;
     if (this._gameValueFirstHandAt == null) this._gameValueFirstHandAt = performance.now();
@@ -18785,13 +18792,23 @@ class Component extends DCLogic {
   _ensureReadCSS() {
     if (this._readCssP) return this._readCssP;
     return (this._readCssP = new Promise((res) => {
-      const l = document.createElement("link");
-      l.rel = "stylesheet";
-      l.href = this._appAsset("reading.css");
-      l.setAttribute("spa-preserve", "");   // survive head-patching across SPA navs
-      l.onload = () => res(1);
-      l.onerror = () => { l.remove(); this._readCssP = null; res(0); };
-      document.head.appendChild(l);
+      // ONE LINK A PAGE, NOT ONE AN APP (LEAK1, v1.298.1). It is spa-preserve, so it outlives the app that made it: an app
+      // after it finds it and waits on it (each used to add another), and nothing of an app is left on it. Its `onload`, set
+      // once and never dropped, held its app for the page's life after every remount: the heap's shortest path to a dead
+      // app ran through this link. The waits go through `_on` and `once`, so they leave with the load or with the app.
+      let l = document.head.querySelector("link[data-ng-reading]");
+      if (l && l.sheet) { res(1); return; }
+      if (!l) {
+        l = document.createElement("link");
+        l.rel = "stylesheet";
+        l.href = this._appAsset("reading.css");
+        l.setAttribute("spa-preserve", "");   // survive head-patching across SPA navs
+        l.setAttribute("data-ng-reading", "");
+        document.head.appendChild(l);
+      }
+      const link = l;
+      this._on(link, "load", () => res(1), { once: true });
+      this._on(link, "error", () => { link.remove(); this._readCssP = null; res(0); }, { once: true });
     }));
   }
   /**
@@ -23410,7 +23427,7 @@ class Component extends DCLogic {
     {
       const eng = () => this._engage();
       for (const ev of ["pointerdown", "pointermove", "keydown"])
-        document.addEventListener(ev, eng, { once: true, capture: true });
+        this._on(document, ev, eng, { once: true, capture: true });
     }
     const el = this.wrapRef.current;
     let dragging = false, lx = 0, ly = 0, dsx = 0, dsy = 0, moved = 0, closing = false, spent = false, czTap = false;   // czTap: a press that may be a cloze look's way back (S3)

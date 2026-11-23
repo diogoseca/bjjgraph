@@ -231,12 +231,16 @@ export async function installReader(app) {
   // Putting the article away takes every message with it, at once and with no window: nothing visible moves under a hidden reader.
   const putAway = app._putReaderAway;
   if (putAway) app._putReaderAway = function (away) { if (away) reader.dropNotices(); return putAway.apply(this, arguments); };
-  document.addEventListener("keydown", () => { byKey = true; }, true);
-  document.addEventListener("pointerdown", () => { byKey = false; }, true);
+  // THE READER'S PAGE-WIDE LISTENERS GO WITH IT (LEAK1, v1.298.1): one AbortController a reader (`reader.life`), aborted in
+  // `destroy()`; every listener this reader adds to document or window passes its signal (`on`, and `this.life` in the class)
+  const life = reader.life = new AbortController();
+  const on = (target, type, fn, opts) => target.addEventListener(type, fn, { ...(typeof opts === "boolean" ? { capture: opts } : opts), signal: life.signal });
+  on(document, "keydown", () => { byKey = true; }, true);
+  on(document, "pointerdown", () => { byKey = false; }, true);
   for (const type of ["pointerdown", "mousedown", "touchstart", "pointerup", "mouseup", "touchend", "click"]) {
     // #372's review (D4): a window touch listener that is not passive holds every touch scroll on the page for the main thread. Only
     // the click and the pointer's own events are cancelled; a touch event is stopped, never cancelled, so it can stay passive.
-    window.addEventListener(type, event => reader.shield(event), { capture: true, passive: type.startsWith("touch") });
+    on(window, type, event => reader.shield(event), { capture: true, passive: type.startsWith("touch") });
   }
   reader.hooked = true; reader.publishCard(app._landEl);
 }
@@ -816,7 +820,7 @@ class Reader {
     if (type === "pointerdown") {
       this.selecting = true;
       this.selectionEnd = () => { this.selecting = false; if (!this.app.__ngDestroyed) this.sync(); };
-      listen(document, "pointerup", this.selectionEnd, { once: true });
+      listen(document, "pointerup", this.selectionEnd, { once: true, signal: this.life?.signal });
     }
     this.sync();
   }
@@ -890,7 +894,7 @@ class Reader {
     listen(box, "pointerleave", e => { if (e.pointerType === "mouse") this.holdNotice(n, "over", false); });
     listen(box, "pointerdown", () => {
       this.holdNotice(n, "down", true);
-      for (const type of ["pointerup", "pointercancel"]) listen(document, type, up, { once: true });
+      for (const type of ["pointerup", "pointercancel"]) listen(document, type, up, { once: true, signal: this.life?.signal });
     });
     // Focus holds it only when a key put it there: a tap's click focuses the button it lands on (measured: a tap on the leaving place
     // focused Undo) and a finger never takes focus back, so that hold never lifted.
@@ -1632,6 +1636,8 @@ class Reader {
     }
   }
   destroy() {
+    this.life?.abort();   // every page-wide listener this reader added (LEAK1)
+    downOn = null;   // (the module's last pressed element: it can be this app's, and hold it)
     cancelAnimationFrame(this.layoutFrame);
     for (const n of this.noticeMap.values()) clearTimeout(n.timer);
     this.live?.remove();

@@ -21407,3 +21407,129 @@ one), 15 and 16 a row after Show at 1440, 17 and 18 a tablet's tap at 820x1180.
 level, the first commit after that merge): eager gzip 384,654 B, +375 on 384,279; first-hand core 404,128 B, +397 on
 403,731; deferred 560,379 B, +2,361 B on S3's 558,018 (560,127, then +217 in S4-R0 and +35 in S4-R1), the ceiling moved to
 it in its own commits (39,621 B remain of the owner's 600,000).
+
+## v1.298.1 — An app and its reader leave nothing behind (LEAK1; found by the reader of PR #456, 23 Nov 2026)
+
+**What a player sees: nothing.** Every Quartz navigation (a page, Back, Forward, a closed page) mounts a new app. The old
+app and its reader stayed alive, each with its whole graph, so the page's memory grew with every remount and every dead
+app still answered every tap and key. Now nothing of them is left.
+
+**The survey** (from source, the 55 build inputs; the table is in the seat's report under "LEAK1, survey"):
+- **The 22 the reader counted** were all anonymous, so nothing could remove them:
+  - 13 in the app's `boot()`: document wheel; window keydown, keyup, pointerdown, pointerup, pointercancel and blur; the
+    drill's pointerup plus click, pointercancel, touchcancel, contextmenu and blur.
+  - 9 in `installReader()`: document keydown and pointerdown; seven window types for the shield.
+- **Five more of the same kind**, left behind only in some states: the local-only bar's `online`, a drag's
+  visibilitychange, the never-fired members of the first-gesture trio and of the reader's `up`, and the reader's
+  module-level `downOn` (the last pressed element, which can be a dead app's).
+- **Removed today by name**, and left as they were: the app's resize, keydown, popstate, pagehide and visibility listeners,
+  the account menu's and the list picker's outside press, sound's unlock, the cloze's tap and fit (v1.298.0), and the
+  reader's `selectionEnd`. Observers, the interval, the worker and the main frame loop were already ended at teardown.
+- **Once a page, holding no instance**, left as they are: the cloze's module-level pointerdown and pointermove, the
+  reader's `down` (one function), and the glue's DOMContentLoaded. `ngShelf`, the handover, crosses on purpose and is
+  untouched.
+
+**The fix: one mechanism, so a new listener is covered by default.**
+- The app adds every page-wide listener through `_on(target, type, fn, opts)`, which passes the signal of one
+  AbortController a life (`_life`). `componentWillUnmount` aborts it first. All 22 of the app's direct adds go through it,
+  and so do sound's and the cloze's.
+- The reader has its own (`reader.life`): the hook's listeners pass it (`on`), and so do its two `listen(document, …)`
+  waits. `destroy()` aborts it and clears `downOn`.
+- **The gate:** `tests/page_listeners.test.mjs` scans the build inputs and fails on any direct page-wide add outside an
+  instance's life that is not listed as once a page with its reason. A listed one that matches nothing fails too, so the
+  list cannot rot (CLAUDE.md §6.7).
+
+**The heap check found two more holders, each enough alone to keep a dead app** (the shortest strong path from the GC
+roots, walked in a heap snapshot with a marker object on the old app):
+- **The reading stylesheet's link.** It is spa-preserve, so it outlives its app. Its `onload`, set once and never dropped,
+  kept its app through the closure's context, and every app added another link. Now there is one link a page: an app finds
+  it and waits on it, and the waits go through `_on` with `once`.
+- **The mount glue's `__ngRefs`.** It was a module-level array of every ref every app ever made, read by nothing. A dead
+  app's `ng-sharecue` element, through its listener, kept the app. Each ref now lives with its app alone.
+
+**Pinned.** `e2e/journeys/page-listeners.spec.ts`, by real navigation (Quartz's router to a page, then Back):
+- every listener on document and window from our own scripts, keyed by its code place, stays one a place, with the same
+  places at the end as at the start (66 in all, 33 ours, at each step);
+- one reading link;
+- the first app and its reader collected after a forced GC.
+
+Mutants, each built alone after a green control, each red at its named step:
+- L1: the app's abort dropped.
+- L2: the reader's abort dropped.
+- L3: a link per app.
+- L4: the glue's ref array back.
+- L5: the link's `onload` kept.
+
+The gate's G1 (a direct window add in the app) and G2 (a once-a-page line gone) are red in the unit.
+
+**Runs (local, under the lock).**
+- Every journey that remounts, closes a page, uses Back or Forward, signs in, or opens the reader: 108 files, 1,421 tests
+  (grepped whole: goBack, goForward, spaNavigate, remount, `__ngDestroyed`, `_closePage`, sign-in and `__bjjAuth`,
+  `_reader`, `ngShelf`, Last rolls, reload).
+- 1,411 passed and one was skipped. Nine went red in two files, at two premises that read the built site, not the bundle:
+  - `legal-pages.spec.ts`, 8, at "the privacy page names its data controller": this box's privacy page was built on 10 Nov,
+    before the content change of 12 Nov;
+  - `bundle-version.spec.ts`, 1, at "/postscript.js carries no stamp": only a full site build writes the stamp.
+- The same two files on dev's own sources and version (4e32f0f2e), in the same site, give the same 9 reds and the same two
+  messages, so they are not this change.
+- The shelf handover (`ngShelf`) still crosses: Last rolls' places are among the 1,411.
+
+**LEAK1-RED (23 Nov 2026; PR #457's shards 2 and 4 red on its first head, 131bffd27).**
+- **The break:** the sound engine called its host's `_on` unconditionally, but it is built by more than the app.
+  - `sound.spec.ts`'s own engines and the Forward sound lab (`forward/sounds/app.js`, the /dev sound lab, a shipped page)
+    pass only `{ isTest, get }`.
+  - So the engine threw (`p._on is not a function`) at `sound.spec.ts:34`, and at `forward-components.spec.ts:451` (the
+    lab's preview) and `:716` (its narrow-route rail).
+- **The fix:** the engine takes its host's life where the host has one, and otherwise a plain add that its own `destroy()`
+  removes, as before.
+- **Callers, the whole list:** the app (has `_on`); `sound.spec.ts`'s `playScene` and the Forward lab (no `_on`); and
+  `scripts/build_forward_components.mjs`, which only checks that the engine exists.
+- **Pinned:**
+  - a unit builds the engine from its own source with the lab's host and with the app's (G3, the fallback removed, is red);
+  - in the browser, with the lab rebuilt by `build:forward`, the three tests are green on the fix and red with CI's own
+    messages on the head as shipped.
+- **Why the first local run missed it:** `sound.spec.ts` was not in that run, whose grep chose files by navigation and the
+  reader, not by what the change touched. And this box's built lab (`/dev/sounds/sound-engine.js`) was from 10 Nov, so even
+  the lab's own test there ran the old engine.
+- **The full core suite then:** 2,046 tests, 2,032 passed, 5 skipped, and the same 9 reds of the stale built site.
+
+**LEAK1-R1 (23 Nov 2026; the reader of PR #457, MERGE AFTER 1 FIX, test only, and the orchestrator's ruling).**
+- **The reader's `downOn` clearing is pinned.**
+  - The journey never pressed, so `downOn` was null and its clearing in `destroy()` went unseen. The reader's L7 left
+    everything green, yet a real press keeps the first app and its reader alive until the next press anywhere.
+  - The journey now presses the first app's logo by the mouse and shuts the drawer with Esc, so the logo stays the page's
+    last pressed element.
+  - It counts the places on each app as it lands, with the deferred bundle brought in first by the app's own loader (its
+    two module listeners are once a page).
+  - L7 and the reader's L6 (the reduced-motion query's removal dropped) are red at "the first app is collected".
+- **The gate sees more, and says what it cannot.**
+  - It strips comments first, which removes a false red.
+  - It sees `window.visualViewport`, `document.body` / `documentElement` / `head`, any `on<event> =` on window or
+    document, and a stored media query's add. G4 to G7 are red.
+  - The reduced-motion query is listed as removed by name, with its removal line checked (L6 red there too).
+  - **UNGUARDED** by the scan, written in its header: an alias, and `EventTarget.prototype.addEventListener.call`. The
+    journey's heap step is the backstop.
+  - Widening found no real direct add.
+- **Missed by the first survey:** the reduced-motion query, which was already removed by name.
+
+**LEAK1-R3 (23 Nov 2026; shard 3 red once on 2c2b860d0, `mc-flashcards.spec.ts:576`, "locator.scrollIntoViewIfNeeded:
+Element is not attached to the DOM" in `openCorridor`).**
+- **The cause is the DSL, not the app.** The press that opens Master the game draws its list (`openPlanSession` →
+  `renderSession`). The press's own deferred step (`_afterPress` → `_practiceAppend` → `renderSession`) draws it again
+  50 to 490 ms later, with a new Belt lessons row in the old one's place. `openCorridor` counted the folded row, then
+  scrolled the same locator, and once the scroll's stability wait met the old row detached.
+- **LEAK1 does not move it.** The second render is dev's own, and the gap between the two renders is the same on dev
+  4e32f0f2e and on this head (median 72 against 80 ms fast, 415 against 360 ms throttled 6x).
+- **Not reproduced naturally here:** 0 of 100 fast and 0 of 100 throttled 6x on dev's own bundle, and the same on this
+  head.
+- **The frame sought:** the app's own redraw forced once, in the act's next frame. It gives CI's exact error with the old
+  step (3 of 20 fast, 1 of 10 throttled) and none with the new one (20 of 20, 10 of 10).
+- **The fix:** a DSL step, `unfold(sel, what)`, used for both folded rows. It looks the row up fresh and is taken again,
+  whole, when a redraw replaced it under the act, and the claim is kept: exactly one expanded at the end.
+- **Runs with it:** the 16 journey files that go through `openCorridor`, 154 of 154; the test 100 of 100 fast and 100 of 100 throttled 6x.
+- **Said for a ruling, not changed:** the list is drawn twice within half a second of the press, the second time whole,
+  so a player's press on a row in that window meets a row that is about to be replaced.
+
+**Bytes** (the served app folders emptied first, against PAY-L5, dev v1.297.1's own level): eager gzip 384,795 B, +516
+(+141 on v1.298.0); first-hand core 404,270 B, +539; deferred 560,576 B, +197 B on 560,379 (reader.js +219, gameplan.js
+-22), the ceiling moved in its own commit (39,424 B remain of the owner's 600,000).
