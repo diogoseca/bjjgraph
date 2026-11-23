@@ -44,6 +44,9 @@ import { journey } from "../dsl"
  *   KF1 the close does not let the cloze go (`c.free` never set)  → "a press on the bare map with a cloze lit…" at "the cloze
  *       is open and unlit"
  *   KZ1 a resize does not frame the place again                    → "a resize frames the held place again" at "in the calm area"
+ *   KT1 60 ms of work a frame while a cloze holds the map (a busy wait in `draw`) → "the cloze's framing costs a frame what the
+ *       roll's own view costs" at "a frame at the cloze's framing" (so the step can see a slow frame there; its first form read
+ *       the ping lag's median, which let the mutant through)
  * NOT KILLED, AND WHAT WOULD: the reader's S11 (the glide only on the player's own press, `fresh ||` dropped) is equivalent on
  * every door tried: Practise here and a row's press are both `mine`. It needs a door that opens a place's cloze without the
  * player's press on that place (a plan that lands and opens the next place by itself, `ngClozeResume`), read for the glide.
@@ -168,6 +171,25 @@ const freePoint = (page: Page) => page.evaluate(() => {
     if (!h) return { x, y }
   }
   return null
+})
+/** REAL FRAMES (S2-R1, the orchestrator's blocker): one draw a `requestAnimationFrame`, as the app runs, for 90 frames, with a
+ *  ping through a MessageChannel every 4 ms: how late each arrives is how long the main thread was busy, how long a press in
+ *  the drawer waits. NOT frames drawn back to back in one task (`advance` in a loop): there the canvas pays several frames'
+ *  raster on one call, a 250 ms "frame" one in 12 at a wide view, which is the harness, not the app
+ *  (tests/artifacts/_map_names_frametime.mjs --wide measures all three ways). Medians, so a busy box cancels inside the pair. */
+const realFrames = (page: Page) => page.evaluate(async () => {
+  const a = (window as W).__neural, raf = () => new Promise((r) => requestAnimationFrame(() => r(0)))
+  for (let k = 0; k < 15; k++) { await raf(); a.advance(1000 / 60) }
+  const ch = new MessageChannel(), lag: number[] = []
+  let sent = 0, live = true
+  ch.port1.onmessage = () => { lag.push(performance.now() - sent); if (live) setTimeout(() => { sent = performance.now(); ch.port2.postMessage(0) }, 4) }
+  sent = performance.now(); ch.port2.postMessage(0)
+  const iv: number[] = []
+  let last = performance.now()
+  for (let k = 0; k < 90; k++) { await raf(); const t = performance.now(); iv.push(t - last); last = t; a.advance(1000 / 60) }
+  live = false
+  const med = (d: number[]) => { const s = [...d].sort((x, y) => x - y); return +s[s.length >> 1].toFixed(1) }
+  return { lag: med(lag), frame: med(iv), n: lag.length, zoom: +(a.cam.vw / (a.graphW * a.ROLL_ZOOM)).toFixed(2) }
 })
 /** play a move of the hand beside the open drawer: the first whose card the mouse can reach where it sits (a real click) */
 async function playAMove(j: W, page: Page) {
@@ -319,6 +341,25 @@ test.describe("1440x900, mouse", () => {
     await settle(j, page)
     const back = await view(page)
     expect([back.czAt, back.light?.k, back.out], "the next Show takes the map back: held, lit, the place and its moves in the calm area").toEqual([true, 1, []])
+  })
+
+  test("the cloze's framing costs a frame what the roll's own view costs (real frames: the main thread is free for a press)", async ({ page }) => {
+    const j = await setup(page, { at: "Half Guard|Top" })
+    await press(page, ".ng-logo", "open the drawer", false, false)
+    await j.advance(600)
+    const roll = await realFrames(page)
+    await press(page, '[data-explore-stats] [data-b="due"]', "the Master the game row", false)
+    await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+    await press(page, `[data-master-row="${SEAT}"]`, "the place's row", false)
+    await settle(j, page)
+    const cz = await realFrames(page)
+    console.log("[frames] the board's own view", JSON.stringify(roll), "the cloze's framing", JSON.stringify(cz))
+    expect(cz.zoom >= 2 * roll.zoom, `premise: the cloze's framing (${cz.zoom} times the roll's zoom) at least twice as far out as the board's own (${roll.zoom})`).toBe(true)
+    // (measured 23 Nov on this box: here a frame takes 56 to 60 ms at the board's own view, the drawer open, and 35 at the
+    // cloze's framing; on the frame-time script's lighter page 17 and 20 ms, tests/artifacts/_map_names_frametime.mjs --wide.
+    // The bound is the board's own plus 15 ms; KT1's 60 ms of work a frame read 93. The main thread's lag, how long a press
+    // waits, is the frame's work and is printed beside it)
+    expect(cz.frame, `a frame at the cloze's framing (median ${cz.frame} ms, a press waiting ${cz.lag} ms) costs what the board's own view costs (${roll.frame} ms, ${roll.lag} ms), plus 15 ms at most (KT1)`).toBeLessThanOrEqual(roll.frame + 15)
   })
 
   test("a resize frames the held place again", async ({ page }) => {
