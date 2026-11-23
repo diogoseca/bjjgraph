@@ -21373,17 +21373,22 @@ never draws gold on a face-down move; unit WY2), `ngClozeWay`'s own Done guard (
 `_lastLight`, `_lastNameBoxes`, `_lastOptLabels`, `_lastHoverLabel`, `_lastMapMarks`, `data-cz`, `czOpen`, `_czAt`, `openCloze`,
 `data-cloze`, `master-bar`, `_lightOf`, `_shownNode`; plus graph-naming and keyboard), 451 tests: 450 green and one red,
 S2's own "opening a place's cloze… lights nothing", every run. The press that opens a cloze leaves the pointer on one of its
-bars, which now lights: the test moves the pointer off first, its claim unchanged. On the tree with dev 6f507b78c in, the
-six closest files (map-row-way, map-cloze-place, map-light, master-cloze, map-cloze-look, lists-drag) 66 of 66.
+bars, which lit (until S4-R0, below, made it wait). On the tree with dev 6f507b78c in, the six closest files
+(map-row-way, map-cloze-place, map-light, master-cloze, map-cloze-look, lists-drag) 66 of 66.
 
-**Said for a ruling:** a mouse press on a place's row opens its cloze under the pointer, so its first bar lights at once
-(where that move lives, nothing more), before the player has moved. As ruled for a bar under the pointer; a rule that
-waits for the pointer to move first is one line if wanted.
+**S4-R0 (23 Nov 2026; the orchestrator's ruling: "a light should follow intent, not a press that happened to land
+there").** A mouse press on a place's row opened its cloze under the pointer, and the bar that came to lie under it lit at
+once, before the player had moved. A place opened now waits for the pointer's first move: until then the pointer is no
+pointer at all (`ngCzMoves`, counted page-wide at each move to a new point; `c.mv0`, the count when the place opened), so
+nothing lights under it, and the keyboard's focus lights as it does with the pointer away. S2's own "opening a place's
+cloze… lights nothing" is back to its own text and holds unchanged. W17 (the unmoved pointer read) is red in the new test
+and in S2's; W18 (an unmoved pointer still keeping the focus from lighting) is red in the keyboard test, which now leaves
+the pointer where the press put it; a control green. Deferred +217 B.
 
 **Screens** 13 to 18 in the briefing's `img/maplight/`: 13 and 14 a bar under the pointer at 1440 (dev's bundle, this
 one), 15 and 16 a row after Show at 1440, 17 and 18 a tablet's tap at 820x1180.
 
 **Bytes** (the served app folders emptied first, on the tree with dev 6f507b78c in, against PAY-L5, dev v1.297.1's own
 level, the first commit after that merge): eager gzip 384,603 B, +324 on 384,279; first-hand core 404,082 B, +351 on
-403,731; deferred 560,127 B, +2,109 B on S3's 558,018, the ceiling moved to it in its own commit (39,873 B remain of the
-owner's 600,000).
+403,731; deferred 560,344 B, +2,326 B on S3's 558,018 (560,127, then +217 in S4-R0), the ceiling moved to it in its own
+commits (39,656 B remain of the owner's 600,000).
