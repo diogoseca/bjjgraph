@@ -14,6 +14,8 @@
 // `addEventListener` / `addListener`); and the reader's `listen(document|window, …)`.
 // UNGUARDED by the scan; the heap step of page-listeners.spec.ts is the backstop: an alias (`const w = window;
 // w.addEventListener(…)`) and `EventTarget.prototype.addEventListener.call(window, …)`. A text scan cannot follow a value.
+// And that backstop catches only adds on the path the journey runs (it lands, presses once, remounts twice): an alias or a
+// `.call` on any other path is UNGUARDED outright.
 //
 // MUTANTS (each red here after a clean control; LEAK1, LEAK1-RED and LEAK1-R1): G1 a direct `window.addEventListener` in
 // app.src.jsx; G2 a once-a-page entry whose line is gone; G3 the sound engine's fallback removed; G4
@@ -21,6 +23,8 @@
 // `window.onresize =`; G7 a stored media query's `addEventListener`; L6 (the reader's) the reduced-motion query's removal
 // dropped, red here at "removed by name" and in the journey at "the first app is collected". A comment quoting
 // `window.addEventListener(` is green (C1).
+// LEAK1-R2: the stripper reading a template from one backtick to the next (as before) turns its fixtures red: the reader's
+// trap (a), a nested template's `//` hiding an add; trap (b), its `/*` blanking the lines after it; and three deep.
 // The journey that counts what really stays after two remounts: e2e/journeys/page-listeners.spec.ts.
 import { test } from "node:test";
 import assert from "node:assert/strict";
@@ -51,16 +55,27 @@ const DIRECT = new RegExp([
 const VIA_LIFE = /\b(this|app)\._on\((document\.fonts|document|window)\b|(^|[^\w.$])on\((document|window)\b|signal: (this\.life|life)\b/;
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-/** comments out, strings and newlines kept, so a line number is the source's (strings, template literals and regex
- *  literals are walked so that a `//` or a quote inside one is not taken for a comment or a string's end) */
+/** comments out, strings and newlines kept, so a line number is the source's. Strings, regex literals and template literals
+ *  are walked so that a `//`, a `/*` or a quote inside one is not taken for a comment or a string's end, and a template's
+ *  `${…}` is followed as code (LEAK1-R2, the reader of PR #457: reading a template from one backtick to the next let a
+ *  nested template's `//` hide an add on its line, and its `/*` blank every line to the next `*\/`). A stack holds what is
+ *  open: a template, or an expression inside one with its own brace depth, so templates nest to any depth. */
 function stripComments(src) {
   let out = "", i = 0, prev = "";
-  const n = src.length, regexAfter = /[(,=:[!&|?{};+\-*%<>~^]|^$/;
+  const n = src.length, open = [], regexAfter = /[(,=:[!&|?{};+\-*%<>~^]|^$/;
   while (i < n) {
-    const c = src[i], d = src[i + 1];
-    if (c === '"' || c === "'" || c === "`") {
+    const top = open[open.length - 1], c = src[i], d = src[i + 1];
+    if (top && top.kind === "template") {   // inside a template's text: its end, an escape, or `${` into code
+      if (c === "\\") { out += src.slice(i, i + 2); i += 2; continue; }
+      if (c === "`") { out += c; i++; open.pop(); prev = "`"; continue; }
+      if (c === "$" && d === "{") { out += "${"; i += 2; open.push({ kind: "expr", depth: 0 }); prev = "{"; continue; }
+      out += c; i++; continue;
+    }
+    // code: at the top, or inside a template's `${…}`
+    if (c === "`") { out += c; i++; open.push({ kind: "template" }); continue; }
+    if (c === '"' || c === "'") {
       let j = i + 1;
-      while (j < n && src[j] !== c) { if (src[j] === "\\") j++; j++; }
+      while (j < n && src[j] !== c && src[j] !== "\n") { if (src[j] === "\\") j++; j++; }
       out += src.slice(i, j + 1); i = j + 1; prev = c; continue;
     }
     if (c === "/" && d === "/") { while (i < n && src[i] !== "\n") i++; continue; }
@@ -69,6 +84,10 @@ function stripComments(src) {
       let j = i + 1, cls = false;
       while (j < n && src[j] !== "\n" && (cls || src[j] !== "/")) { if (src[j] === "\\") j++; else if (src[j] === "[") cls = true; else if (src[j] === "]") cls = false; j++; }
       out += src.slice(i, j + 1); i = j + 1; prev = "/"; continue;
+    }
+    if (top && top.kind === "expr") {   // the expression's own braces; its last `}` goes back to the template
+      if (c === "{") top.depth++;
+      else if (c === "}") { if (top.depth === 0) { out += c; i++; open.pop(); prev = "}"; continue; } top.depth--; }
     }
     out += c; if (!/\s/.test(c)) prev = c; i++;
   }
@@ -104,6 +123,12 @@ test("the scanner itself: a comment is not an add, a string's // is not a commen
   assert.equal(one('// window.addEventListener("resize", f)\n/* document.addEventListener("x", g) */\nconst a = 1;\n'), 0, "C1: comments quoting an add are not adds");
   assert.equal(one('const u = "http://x/"; window.addEventListener("resize", f)\n'), 1, "a string's // does not hide the add after it");
   assert.equal(one('const r = /["\'`]/g; window.addEventListener("resize", f)\n'), 1, "a regex literal's quote does not swallow the add after it");
+  // LEAK1-R2 (the reader's traps): a template's `${…}` is code, so a nested template's `//` or `/*` is text, not a comment
+  assert.equal(one('const t9 = `a ${ `//` } b`; window.addEventListener("resize", f)\n'), 1, "a nested template's // does not hide the add after it (trap a)");
+  assert.equal(one('const t9 = `a ${ `/*` } b`;\nwindow.addEventListener("resize", f)\nconst z = 1; /* a real comment */\n'), 1, "a nested template's /* does not blank the lines after it (trap b)");
+  assert.equal(one('const t9 = `a ${ `b ${ `c ${ `//` } d` } e` } f`; window.addEventListener("resize", f)\n'), 1, "templates nested three deep: the add after them is seen");
+  assert.equal(one('const t9 = `x ${ { a: 1 }.a } y ${ "}" } z`; window.addEventListener("resize", f)\n'), 1, "an expression's own braces and a quoted } do not end it early");
+  assert.equal(one('const t9 = `x ${ y } z`; // window.addEventListener("resize", f)\n'), 0, "a comment after a template is still a comment");
   assert.equal(one('window.visualViewport.addEventListener("resize", f)\n'), 1, "G4: visualViewport");
   assert.equal(one('document.body.addEventListener("click", f)\ndocument.documentElement.addEventListener("click", f)\n'), 2, "G5: body, documentElement");
   assert.equal(one('window.onresize = () => {}\ndocument.onkeydown = f\nif (window.onload == null) x()\n'), 2, "G6: on<event> = (a comparison is not one)");
