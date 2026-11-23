@@ -33,7 +33,9 @@
 //      v1.296.1 does) gets the first heal at once, then one only after 1 min, 2 min …; a real change pushes at once and
 //      starts the waits over;
 //  18. a move is stamped later than every cell this device holds, one stamped by a clock an hour ahead included (else the
-//      move's "out" would lose to an older "in" at the next merge, and the move would come back as a copy).
+//      move's "out" would lose to an older "in" at the next merge, and the move would come back as a copy);
+//  19. A REAL CHANGE IS NEVER TAKEN FOR A HEAL (MOVE-R2 R1): a racing write that erased a technique this tab added, twice in
+//      a row, is re-pushed at once both times (the cloud lacked more than the two list fields), with the clock stopped.
 // NOT KILLED HERE, and why (MOVE-R1, the reader's mutants.py): M13, the source cell stamped one LATER than the target's,
 // survives every unit. It is equivalent in effect: both cells are still later than everything this device holds, so the
 // move stands either way. Nothing here covers it; nothing needs to.
@@ -90,6 +92,9 @@ async function synced(h) {
 // list surfaces through `document`, which node has not. Nothing here reads a surface.
 globalThis.document = globalThis.document || { querySelectorAll: () => [], querySelector: () => null, body: null, activeElement: null };
 
+/** What a build older than v1.296.1 pushes over this tab: this tab's last push as that build merged it (every other field
+ *  the same), its lists re-unioned (`lists`), and the two list fields it never took (its own, here none). */
+const olderCopyOf = (pushed, lists) => { const b = JSON.parse(JSON.stringify(pushed)); delete b.listItemAt; delete b.listOrderAt; for (const k of Object.keys(lists)) b.lists[k].items = lists[k]; return b; };
 const blobOf = (lists, cells, order) => ({ v: 2, lists, ...(cells ? { listItemAt: cells } : {}), ...(order ? { listOrderAt: order } : {}), updatedAt: 1 });
 /** The ACCOUNT's stored record (the envelope's `blob` under `…:account:<id>:progress`; the guest's row is another). */
 const stored = (mem, id = 'A') => { const v = mem.rows.get('bjj-neural-owner:account:' + id + ':progress'); return v ? JSON.parse(v).blob : null; };
@@ -408,8 +413,9 @@ test('17. a heal-only push backs off: once at once, then after 1 min, 2 min …;
     a.prep.local = 1; await a._pullAndMerge(); await flush();
     a.lists = { S: L(['X', 'Y'], 100, 'Monday'), T: L(['Z'], 90, 'Guard') };
     assert.equal(a.moveListItem('X', 'S', 'T', 'menu').moved, true); await flush();
-    // the cloud goes back, for good, to a copy without the move (an older build pushing its own copy on every pull)
-    const stale = blobOf({ S: L(['X', 'Y'], 100, 'Monday'), T: L(['Z'], 90, 'Guard') });
+    // the cloud goes back, for good, to what an older build pushes on every pull: its union (X back in Monday, and in Guard,
+    // where it pulled it from) without the move's cells, which it never took. Only the two list fields are behind.
+    const stale = olderCopyOf(h.pushes.at(-1).value, { S: ['X', 'Y'], T: ['Z', 'X'] });
     h.facade.pullNeural = async id => ({ userId: id, blob: JSON.parse(JSON.stringify(stale)) });
     const pushesAfter = async (ms) => { now += ms; const n = h.pushes.length; assert.equal(await a._pullAndMerge(), true); await flush(); return h.pushes.length - n; };
     // the first pull after a change also settles `belts` (`_afterPullLevel`): its push carries something new, as it should
@@ -425,6 +431,9 @@ test('17. a heal-only push backs off: once at once, then after 1 min, 2 min …;
     // a real change on this device pushes at once, and the waits start over
     a.lists.T.items.push('W'); a._saveProgress(); await flush();
     assert.ok(h.pushes.at(-1).value.lists.T.items.includes('W'), 'a real change goes at once');
+    // the older build pulls that, re-unions it (W comes with it), and pushes its copy over it again
+    const withW = olderCopyOf(h.pushes.at(-1).value, { S: ['X', 'Y'], T: h.pushes.at(-1).value.lists.T.items.concat(['X']).filter((v, i, a) => a.indexOf(v) === i) });
+    h.facade.pullNeural = async id => ({ userId: id, blob: JSON.parse(JSON.stringify(withW)) });
     assert.equal(await pushesAfter(1000), 1, 'and the next heal is a first one again: at once');
     assert.equal(await pushesAfter(1000), 0, 'then it waits again');
     assert.deepEqual(itemsOf(a.lists), { S: ['Y'], T: ['W', 'X', 'Z'] }, 'nothing is lost on this device throughout');
@@ -442,4 +451,32 @@ test('18. a move is stamped later than every cell held, one from a clock an hour
   assert.ok(a.listItemAt.S.X[0] > ahead, 'the move is later than the cell from the clock ahead');
   const back = a._mergeProgressBlobs(a._progressBlob(), blobOf({ S: L(['X', 'Y'], 100, 'Monday'), T: L(['Z'], 90, 'Guard') }, { S: { X: [ahead, 1] } }));
   assert.deepEqual(itemsOf(back.lists), { S: ['Y'], T: ['X', 'Z'] }, 'so the move stands against that copy');
+}));
+
+test('19. a real change is never taken for a heal: two racing overwrites in a row, each re-pushed at once, the clock stopped', () => fakeTimers(async ({ flush }) => {
+  const realNow = Date.now; const now = 1795400000000; Date.now = () => now;   // the clock never moves: no wait can expire
+  try {
+    const h = harness(); await h.boot(); const a = h.switchTo('A');
+    a.prep.local = 1; await a._pullAndMerge(); await flush();
+    a.lists = { S: L(['X', 'Y'], 100, 'Monday'), T: L(['Z'], 90, 'Guard') };
+    assert.equal(a.moveListItem('X', 'S', 'T', 'menu').moved, true); await flush();
+    // first, a cloud that is behind ONLY in the two fields takes this tab's immediate heal (so the next would wait)
+    const union = olderCopyOf(h.pushes.at(-1).value, { S: ['X', 'Y'], T: ['Z', 'X'] });
+    h.facade.pullNeural = async id => ({ userId: id, blob: JSON.parse(JSON.stringify(union)) });
+    await a._pullAndMerge(); await flush();                                     // (belts settle)
+    let n = h.pushes.length; await a._pullAndMerge(); await flush();
+    assert.equal(h.pushes.length - n, 1, 'premise: the first heal went at once');
+    n = h.pushes.length; await a._pullAndMerge(); await flush();
+    assert.equal(h.pushes.length - n, 0, 'premise: the next heal waits');
+    // now a REAL change: H added to Guard, pushed
+    a.lists.T.items.push('H'); a._saveProgress(); await flush();
+    assert.ok(h.pushes.at(-1).value.lists.T.items.includes('H'));
+    // an older build, from a read taken before H landed, pushes over it: the cloud lacks H (and the move's cells)
+    for (const round of [1, 2]) {
+      n = h.pushes.length; await a._pullAndMerge(); await flush();
+      assert.equal(h.pushes.length - n, 1, 'overwrite ' + round + ': H is re-pushed at once, never held as a heal');
+      assert.ok(h.pushes.at(-1).value.lists.T.items.includes('H'));
+    }
+    assert.deepEqual(itemsOf(a.lists), { S: ['Y'], T: ['H', 'X', 'Z'] }, 'nothing lost on this device');
+  } finally { Date.now = realNow; }
 }));

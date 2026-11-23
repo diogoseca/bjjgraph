@@ -8565,6 +8565,8 @@ class Component extends DCLogic {
       this._pulled = true; this._pulledUserId = userId; this._pushSeq = (this._pushSeq || 0) + 1;
       try { this._afterPullLevel(empty ? null : cloud); } catch (e) { /* a held-back promotion's beat never fails a merged pull (N5) */ }
       this._cloudSeen = pushesAtStart === (this._pushEvents || 0) ? seen : null;
+      // ...and the copy itself, for `_onlyListFieldsBehind` (MOVE-R2 R1): is a push that sends nothing new a heal?
+      this._cloudPulled = empty ? null : { userId, blob: JSON.parse(JSON.stringify(cloud)) };
       this._cloudSyncError = null;
       // v1.262.0 (ORDER1): guest practice joins only HERE, after a successful pull, so the rule meets the CLOUD's rows
       // and not only this browser's copy. Joined before the pull, a guest's later or same-day "No" went in unprotected
@@ -8580,6 +8582,22 @@ class Component extends DCLogic {
     } finally {
       if (this._pullToken === token) this._pullToken = null;
     }
+  }
+  /**
+   * IS THE CLOUD BEHIND THIS TAB ONLY IN `listItemAt` / `listOrderAt`? (MOVE-R2 R1, the reader's test.) Take the copy this
+   * tab last pulled, put this tab's two list fields in place of its own, and derive it as a load would
+   * (`_mergeProgressBlobs` re-applies the cells and the order records to its lists): if that is exactly what this tab
+   * would push (`key`), the cloud differs only in what an older build pins, and a push would only restore it. Anything
+   * else, or any doubt (no copy, another account, a throw), answers no: a real change, pushed at once.
+   */
+  _onlyListFieldsBehind(userId, key) {
+    const c = this._cloudPulled;
+    if (!c || c.userId !== userId || !c.blob) return false;
+    try {
+      const mine = this._progressBlob(), blob = Object.assign({}, c.blob);
+      for (const f of ["listItemAt", "listOrderAt"]) { if (mine[f]) blob[f] = mine[f]; else delete blob[f]; }
+      return ngProgressCloudKey(this._mergeProgressBlobs(blob, { v: 2 })) === key;
+    } catch (e) { return false; }
   }
   _pushCloud() {
     const A = this._auth(), userId = this._authUserId;
@@ -8624,7 +8642,12 @@ class Component extends DCLogic {
         // signing in sees the moves as copies and the old orders until the next heal or its own next real change; no
         // technique is lost on any device (each holds its own fields, and the merge only adds). Per tab, in memory: a
         // reload starts with an immediate heal.
-        const last = this._pushedLast, heal = !!(last && last.userId === userId && last.key === key);
+        // A HEAL needs BOTH (MOVE-R2 R1, ruled): nothing new since this tab's last push, AND the cloud behind it in nothing
+        // but the two list fields an older build pins (`_onlyListFieldsBehind`). The first half alone took a real change
+        // for a heal: an older build pushing over this tab twice in a row, each time from a read made just before this
+        // tab's write landed, erased a technique this tab had added, and its re-push then waited a minute as a "heal"
+        // (the reader's seed 12163). Anything else the cloud lacks (an item in a list, an answer, a setting) goes at once.
+        const last = this._pushedLast, heal = !!(last && last.userId === userId && last.key === key) && this._onlyListFieldsBehind(userId, key);
         if (heal) {
           const now = Date.now();
           if (now < (this._healNext || 0)) return;
