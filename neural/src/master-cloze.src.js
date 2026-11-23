@@ -71,6 +71,7 @@ const ngCzNow = (s) => (s.czOpen != null && s.cz ? s.cz.get(s.czOpen) : null) ||
 // stands beside the drawer; a phone's drawer is the screen (its look is S3). The app holds it there while the cloze is open
 // (`_czAt`). Called as a cloze opens and at Show; at Show it glides only if the player has moved the map off them.
 function ngClozeMap(app, c) {
+  if (c) c.free = false;   // the next Show, or the place opened again, takes the map back from free roam (S2-R1, `_czAt`)
   const z = c && app._czAt ? app._czAt() : null;   // (a computer, the drawer showing this cloze: `_czAt` says, and only it)
   if (!z || z.c !== c) return;
   ngLightFrame(app, [z.n.idx].concat(z.n.pi >= 0 ? [z.n.pi] : [], c.rows.map((r) => r.idx)));

@@ -41,6 +41,8 @@ import { journey } from "../dsl"
  *       at "the camera is the roll's again"
  *   S8  the cloze's names over a running game (`czLit` without `paused`, the reader's) → "…after Show" at "none of the
  *       cloze's names stay while the roll runs"
+ *   KF1 the close does not let the cloze go (`c.free` never set)  → "a press on the bare map with a cloze lit…" at "the cloze
+ *       is open and unlit"
  * NOT KILLED, AND WHAT WOULD: the reader's S11 (the glide only on the player's own press, `fresh ||` dropped) is equivalent on
  * every door tried: Practise here and a row's press are both `mine`. It needs a door that opens a place's cloze without the
  * player's press on that place (a plan that lands and opens the next place by itself, `ngClozeResume`), read for the glide.
@@ -155,6 +157,16 @@ const theRoll = (page: Page) => page.evaluate(() => {
   return { at: a.currentPos as number, inView: x >= R.left && x <= R.left + R.width && y >= R.top && y <= R.top + R.height, paused: !!a.paused, open: s ? s.czOpen : null,
     headInView: hx >= R.left && hx <= R.left + R.width && hy >= R.top && hy <= R.top + R.height,
     dealt: (a.optionIdxs || []).length, hand: b.filter((e) => e.w === "move").length, cloze: b.filter((e) => e.w === "cloze").length, czAt: !!a._czAt() }
+})
+/** a free point of the visible map beside the drawer (no node under it, the app's own hover test) */
+const freePoint = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural, c = a.canvas.getBoundingClientRect(), R = a._viewRect()
+  for (let y = c.top + R.top + 60; y < c.top + R.top + R.height - 60; y += 17) for (let x = c.left + R.left + 80; x < c.left + R.left + R.width - 80; x += 23) {
+    if (document.elementFromPoint(x, y) !== a.canvas) continue
+    a._updateHover({ clientX: x, clientY: y }); const h = a._hover && a._hover.idx >= 0; a._hover = null
+    if (!h) return { x, y }
+  }
+  return null
 })
 /** play a move of the hand beside the open drawer: the first whose card the mouse can reach where it sits (a real click) */
 async function playAMove(j: W, page: Page) {
@@ -280,6 +292,33 @@ test.describe("1440x900, mouse", () => {
       expect([d.dealt > 0, d.hand > 0], "and once the roll's next hand is dealt, it is named").toEqual([true, true])
     })
   }
+
+  test("a press on the bare map with a cloze lit closes the page and lets the map go: the cloze stays open and unlit, and Show takes the map back", async ({ page }) => {
+    const j = await setup(page, { at: "Half Guard|Top" })
+    await openCloze(page, false)
+    await settle(j, page)
+    await press(page, "[data-master-bar] [data-cz-show]", "Show", false, false)
+    await j.advance(1000)
+    expect((await view(page)).light?.k, "premise: lit").toBe(1)
+    const p = await freePoint(page)
+    expect(p, "premise: a free point of the map").not.toBeNull()
+    await page.mouse.click(p!.x, p!.y)
+    await page.mouse.move(2, 2)
+    await j.advance(600)
+    const st = await page.evaluate((seat) => { const a = (window as W).__neural, s = a._session; return { url: location.pathname, roam: !!a._roam, open: s && s.czOpen, drawer: !!a.deckShown } }, SEAT)
+    expect(st, "premise: the page closed (v1.294.0), the drawer and its cloze as they were (pane law)").toEqual({ url: "/", roam: true, open: SEAT, drawer: true })
+    const v = await view(page)
+    expect([v.czAt, v.light, v.clozeNames], "the cloze is open and unlit: it holds the map no more and lights nothing (KF1)").toEqual([false, null, []])
+    await j.advance(8000)
+    expect((await view(page)).light, "nor later (the reader: still lit at +8.5 s)").toBeNull()
+    // Hide, then Show again: the map is taken back
+    await press(page, "[data-master-bar] [data-cz-hide]", "Hide", false, false)
+    await j.advance(300)
+    await press(page, "[data-master-bar] [data-cz-show]", "Show", false, false)
+    await settle(j, page)
+    const back = await view(page)
+    expect([back.czAt, back.light?.k, back.out], "the next Show takes the map back: held, lit, the place and its moves in the calm area").toEqual([true, 1, []])
+  })
 
   test("standing at the place: after Show no orb is named twice (the hand and the cloze are the same moves)", async ({ page }) => {
     const j = await setup(page, { at: SEAT })

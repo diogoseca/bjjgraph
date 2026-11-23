@@ -13111,6 +13111,10 @@ class Component extends DCLogic {
     // the queued one and skips. With this, no request without intent can reach the reader after a close: the free-roam latch's
     // keep-away for one is retired (`_readArticle`), and this line is what free-roam-article.spec.ts's fixture pins.
     this._readerQueued = null;
+    // AN OPEN CLOZE LETS THE MAP GO (S2-R1, the orchestrator's ruling 2 on the reader's finding 2): the close takes the camera
+    // for free roam, and the cloze kept holding it and lighting its place over the map the press took away (still lit at
+    // +8.5 s). It stays open in the drawer as it is (pane law: a press on the map does not touch the drawer), unlit.
+    { const z = this._czAt(); if (z) z.c.free = true; }
     this._enterRoam();
     this._pushUrl("/", { ngMap: true });
     return true;
@@ -16524,9 +16528,11 @@ class Component extends DCLogic {
    *   - `draw()`: the place is named (the pointer's label, when nothing is under the pointer), and while lit its shown
    *     moves are named where a name fits; its session ring is not drawn while it is lit.
    */
+  // `c.free` (S2-R1, ruling 2): a press on the bare map closed the page (`_closePage`), so the map is free roam's and the cloze
+  // holds it no more and lights nothing, until the next Show or the place opened again takes it back (`ngClozeMap` clears it)
   _czAt() {
     const s = this._session, c = s && s.czOpen != null && s.cz && !this.isMobile() && this._sessionInline() ? s.cz.get(s.czOpen) : null;
-    if (!c || !c.seat) return null;
+    if (!c || !c.seat || c.free) return null;
     const i = this.nodeForKey(c.seat), n = i >= 0 && this.rsAllowsIdx(i) ? this.nodes[this._seatMember(i, c.side)] : null;
     return n ? { n, c } : null;
   }
