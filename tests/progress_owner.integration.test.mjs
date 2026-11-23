@@ -483,12 +483,17 @@ test("a full pull of rows dev wrote leaves every srs and moves row as dev's own 
 // Why not keep the rest (measured by the third read of PR #434): every older build's validator refuses a non-string
 // here, so a record saved with one locks those devices out ("pull-failed", nothing pushed), and repeats never settled
 // between two devices. The fake cloud HOLDS a record (a pull returns it, a push replaces it). The older validators are
-// the captured ones (tests/artifacts/progress_validators.json: v1.280.4 and production v1.252.0; dev v1.289.0's line for
-// `explored` is the same text).
+// the captured ones (tests/artifacts/progress_validators.json: v1.280.4, v1.252.0 (production until 19 Nov), and since
+// v1.296.1 v1.293.3 and v1.294.0 (production since 19 Nov; one file, the same sha256); dev v1.289.0's line for `explored` is
+// the same text).
 // MUTANTS (each applied alone to progress-owner.src.js, red on the named test; the clean file green before and after):
 //   L1-R3a the reader keeping a non-string as a key (so the save writes it)  → "a pull, a new place and a push…"
 //   L1-R3b the empty string kept as a place                                  → "a guest's damaged record…"
 const OLDER = Object.entries(JSON.parse(read('./artifacts/progress_validators.json')).clients).map(([name, v]) => [name, new Function(v.validator + '\nreturn ngProgressValidateBlob;')()]);
+// THE TWO THAT REFUSE a damaged `explored` list, by name: the premise is about them (v1.293.3 and v1.294.0, captured since
+// v1.296.1, accept it, so they are only READERS here: every "reads it" line runs over all four, every "refuses it" premise
+// over exactly these two, as strict as when they were the only rows)
+const REFUSING = OLDER.filter(([name]) => name === 'v1.280.4' || name === 'v1.252.0');
 const DAMAGED = [42, 42, 'Mount|Top', 'Mount|Top', { k: 1 }, ''];
 function cloudOf(h, cloud) {
   h.facade.pullNeural = async id => ({ userId: id, blob: cloud.blob === null ? null : JSON.parse(JSON.stringify(cloud.blob)) });
@@ -497,8 +502,9 @@ function cloudOf(h, cloud) {
 }
 async function fixedClock(run) { const now = Date.now; Date.now = () => 1795000000000; try { return await run(); } finally { Date.now = now; } }
 test('a pull, a new place and a push: the cloud holds the unique strings only, every other key as the control\'s, and every older validator reads it (L1-R3)', async () => fakeTimers(async ({ flush }) => fixedClock(async () => {
-  assert.equal(OLDER.length, 2, 'premise: the captured older validators are here');
-  for (const [name, validate] of OLDER) assert.throws(() => validate(blob({}, { explored: DAMAGED })), /Invalid explored history/, 'premise: ' + name + ' refuses the damaged list');
+  assert.equal(OLDER.length, 4, 'premise: the captured older validators are here');
+  assert.equal(REFUSING.length, 2, 'premise: the two that refuse a damaged list are among them');
+  for (const [name, validate] of REFUSING) assert.throws(() => validate(blob({}, { explored: DAMAGED })), /Invalid explored history/, 'premise: ' + name + ' refuses the damaged list');
   const visit = async (explored) => {
     const cloud = { blob: blob({ 'Mount|Top': 3 }, { explored, futureField: { keep: [1, 2] } }), pushes: 0 };
     const h = cloudOf(harness(), cloud); await h.boot(); const a = h.switchTo('A');
@@ -542,7 +548,8 @@ test('two devices, one holding repeats: both settle on the union of the strings,
 test("a guest's damaged record is healed at its first save: the unique strings only, which every older validator reads (L1-R3)", async () => {
   const mem = memory(), key = ngProgressLocalKey(guest), was = blob({}, { explored: ['', 'Mount|Top', 42, 'Mount|Top'] });
   mem.rows.set(key, JSON.stringify({ format: 'bjj-progress-owner-v1', owner: guest, blob: was, savedAt: 0 }));
-  for (const [name, validate] of OLDER) assert.throws(() => validate(was), /Invalid explored history/, 'premise: ' + name + ' refuses it as stored');
+  assert.equal(REFUSING.length, 2, 'premise: the two that refuse a damaged list are captured');
+  for (const [name, validate] of REFUSING) assert.throws(() => validate(was), /Invalid explored history/, 'premise: ' + name + ' refuses it as stored');
   const h = harness(mem); await h.boot(); const a = h.get();
   assert.equal(h.mounted.length, 1, 'the app boots on it (L1-R1)');
   assert.deepEqual([...a._exploredKeys], ['Mount|Top']);

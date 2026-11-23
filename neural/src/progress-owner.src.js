@@ -20,9 +20,11 @@ function ngProgressClone(value) { return JSON.parse(JSON.stringify(value)); }
 // an unchanged value look newer than another device's real edit. The white-challenge migration stamps what it migrates with it.
 // Three arrays are SETS (#360's review): the merge unions them, the local order first, so two devices hold one set in two orders
 // and, compared in order, pushed the whole blob on every pull. They are compared as sets here, in the key only (the stored blob keeps
-// its order): `explored`, each day's `dayLog[d].k`, and each list's `items` (nothing reorders a list; add and remove only). Every
-// other array is ORDERED and compared in order: the srs, moves and flow rows (positional tuples), `dayLog[d].b`, the belt
-// grandfather, and any array a setting holds (settings merge by whole value).
+// its order): `explored`, each day's `dayLog[d].k`, and each list's `items`. A list's ORDER is not lost by that: since v1.296.1
+// it travels in `listOrderAt` ({ list: [t, [ids]] }, LISTS-R Slice 2), an ordered array compared in order, so a reorder alone
+// still changes this key and is pushed (tests/list_moves_sync.test.mjs, 6). Every other array is ORDERED and compared in
+// order: the srs, moves and flow rows (positional tuples), `dayLog[d].b`, the belt grandfather, `listOrderAt`, and any array
+// a setting holds (settings merge by whole value).
 export function ngProgressCloudKey(blob) {
   const sorted = (v) => Array.isArray(v) ? v.map(sorted)
     : ngProgressObject(v) ? Object.keys(v).sort().reduce((out, k) => { out[k] = sorted(v[k]); return out; }, {}) : v;

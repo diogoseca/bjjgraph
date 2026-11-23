@@ -103,7 +103,7 @@ focuses its close button.
 Reference pages keep their Videos tile and player.
 
 One close icon (D-338): the card's and hand's ghost ✕, on every section's corner. **U131 b2:** a closed part leaves
-only its message, 5 s (bold name, Settings link, Undo; press rule in `reader.src.js`); Settings → Rolling
+only its message, 5 s (bold name, Settings link, Undo; press rule in `reader.src.js`); Settings → Articles
 (`readerSection.*`, per key) or its Contents row restores it; a one-landing tap keeps its label. Contents floats left, taking no space, hidden at height ≤500px or under 1,350px free
 width (U97 b); its rows navigate and dim what is closed, its heading reads role first ("Escaping Loop Choke from Half
 Guard"); the Moves tray ends short of it. Arrival centres the node above sections; scrolled prose covers it.
@@ -801,8 +801,8 @@ inside it stay there. A graph tap
 needs no sheet: the pair's two orbs are the seat choice.
 
 **Last rolls** — a roll's places, in memory: per row ▶ (stage a roll there, side as played, clock
-held), ⟲ (replay), its gold, Show on the map (`Space`; a phone holds the clock) and Practise here
-(`⏎`; a focused button keeps its own key).
+held), ⟲ (replay), its gold, Show on the map (`Space`, lit; a phone holds the clock) and Practise here
+(`⏎`; a focused button keeps its key).
 
 **Every roll you played reaches the shelf, and the shelf repaints when it does (v1.174.0).**
 `_closeRoll()` is the ONE seam the three roll-enders call — `startRoll`, `rollFromPosition`,

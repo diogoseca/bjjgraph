@@ -20644,3 +20644,766 @@ state it tried, at four sizes, on three page kinds), MERGE AFTER 7 fixes, all at
   (the queue and the close in one task, then 2.5 s).
 - Whether a close or a Back counts as a PostHog page view stays unproven: the library's default says no, an older line of
   this archive says otherwise (v1.104.5), and no test build carries a key.
+## v1.295.0 — The light: "Show on the map" lights the place it shows (L2b S1; the owner's U202 a, U173 d, U175; 19 Nov 2026)
+
+**What a player sees.** In Last rolls, "Show on the map" flew to the place and named it (v1.293.0); nothing tied the name
+to its orb at a glance (the L3 ruling: the map "names the shown place but does not yet LIGHT it"). Now, for as long as
+the place is named and the game is held, the map steps back under one dark layer and the place's two orbs and every
+move it deals stand clear of it. On a phone that is the whole look; on a computer the camera's 7 s hold. The press that
+ends a phone's look lets the roll run: the light goes, and the name stays for the camera's hold (L3-R2, untouched).
+
+**The owner's words and the rulings.** U202 a (17 Nov): "The list is where you answer; the map shows where." U173 d:
+"i liked the spotlight/dimming a little then restores after the necessary thing but not as much as B maybe at most 50%
+of that effect". U175: "the nodes connected to or outbound from this node should stand clear alongside the names, the
+goal dots, the pair, its line". Design round 6 settled the strength (one layer of rgb(7, 8, 16) at 40%, half of B) and
+his rule as drawn (`design/practice-r6/REPORT-7-his-rule.md`). The orchestrator ruled L2b Part A's point (c) on
+19 Nov "as you recommend, all five" (`reports/mapshows.md`): the place's pair in a soft hole with a faint halo; every
+move standing clear, a hole while drawn 2.5 px wide or more, a 4 px mark above the layer below that (gold only where
+the map's own outside line is gold and the card is not face down); in over 250 ms, out over 400 ms, on the clock that
+moved more, at once under reduced motion; never over a running game; derived each frame, nothing stored.
+
+**How.**
+- `neural/src/map-light.src.js` (new, deferred, in gameplan.js through `gameplan.src.js`'s exports): `NG_LIGHT`,
+  `ngLightPlan` (a hole or a mark, pure), `ngLightAlpha` (two fills that compose to the layer's 40%), `ngLightDraw`.
+- `app.src.jsx`: `_lightOf` (what is lit: the place `_shownNode` holds, only while `paused`, never under a phone's open
+  drawer), `_lightMoves` (the hand `_dealtOpts` deals there, per place, ruleset and graph), `_drawLight` (the fade, the
+  cold path, `_lastLight`), and ONE call in `draw()` after the pulse head and before the first name.
+- **The holes are cut by clips, one per hole per fill, intersected.** One even-odd path with every hole in it fills the
+  overlap of two holes again (inside three shapes is odd), and a place's moves overlap at every zoom the look uses. A
+  second canvas was measured on 16 Nov at +5 to +13 ms a frame: out.
+- **A fault found by a unit mutant passing for the wrong reason.** The first cut's fade stepped down whenever it did not
+  step up, so a full light lost a frame's worth (1 to 0.96 at 60 Hz) and won it back the next: a flicker. ML6 ("the light
+  over a running game") stayed green because the fault dropped the light anyway; the fade now holds at its target, and
+  "a full light stays full, frame after frame" pins it (ML13).
+- A film is not lit with no clause of the light's own: it takes the camera's lease (`_replayFrame`), which ends the
+  shown place. The pulsing session ring for a lit place (ruling (c), point 2) is not drawn in S1: Last rolls never shows
+  a place while a Master the game session's rings are up (the view change retires the session); it lands with S2, where
+  a cloze's place is both.
+
+**Tests.** `tests/map_light.test.mjs` (13; the rules, and the light's when and how on the app class with this payload).
+`e2e/journeys/map-light.spec.ts` (7; by the ink against a control frame drawn at the same instant with nothing shown:
+1440 at dpr 1 and 2 by mouse, 390x631 at dpr 2 by touch).
+
+**Mutants** (19 Nov, under the lock, each alone; the clean files green before and after; the served bundle byte-identical
+after each batch's clean rebuild):
+- Unit (`tests/map_light.test.mjs`), 07:02 to 07:03: a control (a pale mark one step bluer) green 13 of 13; ML1 a narrow move a
+  hole, ML2 the place a mark, ML3 a face-down move's mark gold, ML4 a hole without its 12 px floor, ML5 each fill at the
+  whole alpha, ML6 the light over a running game, ML7 under a phone's open drawer, ML8 the fade at once, ML9 the fade
+  kept under reduced motion, ML10 a light that never goes out, ML11 the cold path silent, ML12 three of the hand lit,
+  ML13 the first cut's fade at its target: all red at their named tests (ML6 only after the fade's fix, above).
+- Journey (`e2e/journeys/map-light.spec.ts`), 07:34 to 07:58: a control green 7 of 7; J1 the layer at 0.8 (red 3 of 3
+  at "the map steps back to 40%": a plain point read 31,43,64 against a control of 128,185,255); J2 no hole for the
+  place (3 of 3 at "the place's orbs are not dimmed", 73,92,132 against 116,149,208); J3 the layer after the names (3 of
+  3 at "the place's name is not dimmed"); J4 no hole for the moves (3 of 3); J5 the light over a running game (red on
+  the desktop's Esc step and the phone's look); J6 under a phone's open drawer; J7 the cold path silent ("said once").
+  J2 and J3 were first red at a premise and at 390 only: the place's orbs are now read where the frame draws them and
+  its name outside every hole, and both are red 3 of 3 at their own steps.
+- **Not a kill in the journey, said in its header:** the fade kept under reduced motion (a real press takes some tenths
+  of a second, which the fade may already have run through); its killer is the unit.
+
+**Runs (local, under the lock).** `map-light.spec.ts` 7 of 7; the six journey files that reach "Show on the map"
+(map-light, last-rolls-places, history-replay, pane-history, newcomer-story, keyboard) 93 of 93 on a clean build with
+the served app folders emptied first (07:48 to 07:52). The full suites are the PR's.
+
+**Frame time** (the committed script, `--ab light`: no light against the light at the seat with every dealt move lit;
+Standing Position, top, 36 dealt; paired frames, 1,200 pairs, the median of B − A; 4x CPU throttle): 390x631 (a phone's
+canvas at dpr 2) held +0.6 ms (p95 9.3), dragged +0.1 ms (p95 6.8), 27 holes lit, frames without the light 7.2 and 5.6
+ms. 1440x900 (dpr 1): held +0.7 ms (p95 15.3), dragged +0.4 ms (p95 10.0), 25 holes, frames without the light 7.3 and
+7.1 ms. The clips cost what the earlier measure of a hard layer with soft rings did (+0.4 to +0.6, 16 Nov): no figure here
+is a second canvas's.
+
+**Bytes** (this tree, the served app folders emptied first): eager gzip 377,381 B, +510 on dev's 376,871 (+3,908 of
+5,000 against the baseline 373,473); eager raw 1,467,920 B (+1,260); deferred 550,412 B (+1,763 on 548,649), the
+ceiling moved to it in its own commit (549,777 to 550,412; the owner's limit is 600,000 since U207 a). The first-hand
+core figure is the PR's (a seat's site copy is an older build's pages).
+
+**On the merged tree (23 Nov 2026, after v1.293.5 and v1.294.0 landed; dev 70c45db51).** The first commit after the merge
+is PAY-L3: both gzip baselines at dev v1.294.0's own level, read in dev's push-run e2e-full 44542416101 (eager 373,473 to
+377,432 B; first-hand core 392,987 to 396,890 B), the orchestrator's call under the owner's standing rule (Q7, D-327).
+Then S1 measured alone on top: eager gzip 377,925 B, +493; deferred 550,073 B, under its ceiling, which does not move.
+v1.294.0 (one press on the bare map closes the page, the address the root) meets the light in two places, and nothing of
+the light's own decides either; both are pinned in `map-light.spec.ts` because the light rides them:
+- the press that ends a phone's look is consumed (`attachInput`, `closing`), so it closes nothing: the page, its address
+  and its card stay; the light goes and the name stays for the camera's hold (L3-R2). J8 (the press not consumed) is red
+  at "the press that ends the look closes nothing";
+- the press after it, on the bare map, closes the page, and the close takes the camera for free roam (`_enterRoam`), so
+  `_shownNode` lets the place go: the name and the light go with the page and do not come back inside the 7 s; at 1440
+  the press after Esc does the same. J9 (the name kept by any camera hold, not its own) is red at "the name goes with it"
+  in both tests.
+A control first (8 of 8 green); the six files that reach "Show on the map" and v1.294.0's own spec, 123 of 123 green.
+
+**S1-R1 (23 Nov 2026; the reader of PR #447, MERGE AFTER 3 FIXES, and the orchestrator's rulings 2 and 4).**
+- **The light belongs to the look (ruling 2).** On a computer, collapsing the row or switching the drawer to Explore left
+  the place lit and named for the rest of the camera's 7 s. Now the row it was shown from rides the show, and the look
+  ends when that row is collapsed, when Last rolls is left, or when the hold ends; the name goes with it and the light
+  fades over 400 ms (`_shownRow`, read every frame). On a phone the drawer a player opens over a look opens on Explore,
+  which ends it, so J6's case (a light under a phone's open drawer) is no longer reachable; the unit ML7 holds it.
+- **Out at once when the game starts again (ruling 4).** A move played, ▶ on a row, a film and the countdown let go each
+  left the layer fading over the running roll for 17 to 23 frames; now the strength is 0 on the first running frame. The
+  fade is for the ways out that leave the game held. ML6 and J5 (`paused` dropped from `_lightOf`) now survive, covered
+  twice: the new line holds the same claim, and ML14 and JR4 are its killers.
+- **The fade in waits for the planner (finding 5):** with gameplan.js late, the strength is held at 0 (ML15).
+- **The journey reads every move the place deals (finding 3):** every dealt move on the visible map lit and nothing else,
+  the ruleset switched while lit, a second place after the first, the marks pulled back, the holes' soft edge (one fill:
+  0.23 of the way to rgb(7, 8, 16), not 0.4). The reader's R1, R2, R3, R5, R6 each red at its step after a control (14 of
+  14); R4 (the partner orb) is equivalent where measured, the pair inside one hole; it needs a frame closer than the
+  roll's zoom.
+- **The deferred ceiling (finding 1):** 550,412 was S1's measure before dev's merge took 339 B out of reader.js; now
+  550,073 B, measured again on the final tree.
+- Units 16 of 16 (ML14 to ML17 red, a control green); `map-light.spec.ts` 14 of 14, JR2a, JR2b and JR4 red; the seven
+  files that reach "Show on the map", 129 of 129. Eager gzip 377,995 B (+563 on PAY-L3's 377,432).
+## v1.295.1 — A list's actions behind three dots: Rename · Duplicate · Share link · Delete (LISTS-MENU; the owner, 23 Nov 2026)
+
+**Why.** The owner, 23 Nov, after trying v1.293.5's pencil on production: "the pencil edit isn't ideal, maybe a cogwheel
+or what do you suggest?, i may want to delete it and the pencil edit just gives me that option. what about 3 vertical
+dots? i think that's more like list options for this, which is like CRUD, so duplicate, share, rename, delete, anything
+else makes sense?". The orchestrator ruled on his words: one ⋮ control (not a cogwheel, which reads as settings); a press
+on the name lights the list (the open question U208, its option a).
+
+**What changed** (`renderLists`, `openListMenu`, `_listMenuChoose`, `duplicateList` in `neural/src/app.src.jsx`):
+- **One control on a list's row, ⋮** (`[data-list-menu]`), always visible, in Share's old ink; 44 px on a phone (its box
+  in the row's empty right padding, where the × sat), 24 px on a desktop. The pencil, the Share icon and the two-step ×
+  are gone from the row.
+- **Its menu** (`[data-list-menu-open]`): Rename · Duplicate · Share link · Delete, Delete last and in its own ink.
+  - It is the star's picker's kind of thing and lives in the picker's own slot (`_pickEl`, `_pickAnchor`, `_pickAway`).
+    So every place that closes an anchored chooser closes it too, by the one seam `closeListPicker`: Esc's ladder, a
+    press outside, the pane's visibility, a hand resolving, a resize across the phone's breakpoint, an unmount.
+  - Placed by the picker's rule (`_placeListPicker`: above if there is room, clamped whole to the screen, never over the
+    hand).
+  - Root plane, z 90, a sibling of the wrap, so `attachInput`'s capture never sees its presses; no early-return entry
+    (the mouse journeys press it).
+  - Keys: a key opens it on its first item; ↑ ↓ (wrapping), Home, End; Enter chooses; Esc and Tab close it with focus
+    back on ⋮; Esc does not also close the pane. A second press of ⋮ shuts it.
+- **Rename** opens the name editor (focused, name selected); Enter or Esc hands focus back to ⋮.
+- **Duplicate** makes "<name> copy" (the base cut so the whole fits 60 characters), the same techniques in the same order,
+  stamped now, opened in its name editor. It refuses nothing: no cap on the number of lists (ruled).
+- **Share link** is `shareList`, unchanged.
+- **Delete is one press**, then the 90-second Undo (ruling 1). The two-step "Delete?" guarded a 24 px × that sat 12 px
+  from Share; in a menu Delete is already the second deliberate press, set apart from Share link, and the Undo puts the
+  list back exactly.
+- **The name is text**: a press on it, or anywhere on the row but the count and ⋮, lights the list. The count opens the
+  techniques; on a phone it is a 44 px box (ruling 4).
+- Telemetry, counts only: `neural_list_renamed` `via: "menu"`; `neural_list_duplicated {items}`; `neural_list_deleted
+  {items, via}` (there was no delete event); `neural_list_menu_opened {lists}`.
+
+**Measured** (the orchestrator's probe on this build, a 2 px grid over a list row with `elementFromPoint`; "lights" is the share
+of the row where a press lights the list, the name included now; before = v1.294.0, the pencil's row):
+
+| | v1.293.3 | v1.294.0 (pencil) | this build (⋮) |
+|---|---|---|---|
+| 390x631, lights: long · short name | 62% · 68% | 41% · 41% | **73% · 72%** |
+| 1440, lights: long · short name | 62% · 70% | 61% · 65% | **90% · 90%** |
+| 390x631, the name's width: long · "Thursday open mat" | 168 · whole | 114 · cut | **180 · whole (126)** |
+| 390x631, the row's controls | share 24, × 24, count 32x24 | pencil, Share, × 44; count 32x24 | **⋮ 44, count 44x44** |
+
+The menu at 390x631 opens above its row and whole on the screen (x 110, 272 x 239), and for the LAST of nine lists at the
+drawer's foot too (its top at 183). At 1440 it sits beside the row (x 177, y 246). Mutant N8 (the menu placed under ⋮,
+unclamped) is red at the last row's journey.
+
+**The journeys.** `e2e/journeys/lists-menu.spec.ts` (new):
+- 1440 by mouse: the row's one control and each item doing its thing;
+- the name's press lights (no control answers a point outside its box; the name is not a control);
+- the menu's keys, and its closes;
+- Duplicate at the 60-character limit;
+- 390x631 by touch: the count and ⋮ as 44 px targets, every item by touch, and the menu whole on screen for a long
+  list's LAST row, both at the drawer's foot and in a scrolled drawer (ruling 5).
+
+Rewritten to reach the same things as a player does now:
+- `lists-rename.spec.ts`: Rename through ⋮; the pencil-era half moved to `lists-menu.spec.ts`;
+- `share-lists.spec.ts`: Share link through ⋮; "deleting a list is one press in its menu, and can be taken back", with
+  the ledger row `core-080` retitled with it. The removed assertion is "Delete sits ≥10 px clear of Share": neither is on
+  the row any more, and "Delete is the menu's last item" stands in its place;
+- `play-from-row.spec.ts`: the row carries ⋮ and no Share or ×.
+
+**Mutants** (each rebuilt for real with `npm run dev:neural:app` and run against its journeys; a neutral control first,
+a comment edit, stayed green, 5 of 5):
+
+| | what it breaks | red at |
+|---|---|---|
+| N1 | the name renames again | the name's press (1440, 390) |
+| N2 | Delete without its Undo | the 1440 items; share-lists' delete; the 390 items |
+| N3 | Duplicate loses an item | the 1440 items; the 60-character Duplicate; the 390 items |
+| N4 | Duplicate reorders | the same three |
+| N5 | a press outside does not close the menu | the menu's keys and closes |
+| N6 | the arrow keys dead | the menu's keys |
+| N7 | ⋮ at 24 px on a phone | the 390 targets |
+| N8 | the menu placed under ⋮, unclamped | the last row at the drawer's foot |
+| N9 | the count at 30 px on a phone | the 390 targets |
+| N10 | a second press of ⋮ does not shut it | the menu's keys and closes |
+| N11 | Esc also walks the pane's ladder (the pane closes) | the menu's keys |
+| N12 | Rename's Enter leaves focus nowhere | the 1440 items |
+
+All 12 red; none survived.
+
+**Bytes** (gzip -9, like the gate): the eager set 377,733 B, **+301 B** on dev's level 377,432 B (the orchestrator's figure
+for v1.294.0); `neural.js` 752,397 B raw, 238,228 B gzip; `neural.css` unchanged; deferred unchanged at 548,310 B. +4,260 B
+since the 373,473 B baseline, under the 5,000 cap; the map seat's PAY-L3 checkpoint lands before this.
+
+**Runs, all local, under the lock:**
+- the lists area plus `seat-star` (118 of 118) on the first build;
+- after the last change (the ⋮'s hover wash taken off a phone, where a tap left it tinted), `lists-menu`, `lists-rename`,
+  `share-lists` and `play-from-row`: 32 of 32.
+
+**Not covered:**
+- a row lights by mouse and touch, not by keyboard (as before: the row is not focusable, and the name never was a
+  way to light);
+- the row's own hover wash still stays after a tap on a phone (it predates this; only ⋮'s was taken off);
+- the menu stays where it opened if a late payload re-renders the list under it (the star's picker does the same).
+
+### v1.295.1, LISTS-MENU-2 part 1: the row opens and shuts; its chevron in Explore's column (23 Nov 2026)
+
+The owner, looking at the rows on production: "pressing the list name is the same as pressing the expand colpase icon
+(chervrons is it? yep it is) i also checked up this image and sometimes the chverons are on the lef tsometime right".
+
+- **A press on the name, or anywhere on the row's line but ⋮, opens or shuts the list**, as its chevron does. His rule
+  replaced the orchestrator's of the same day (the name lighting the list).
+- **The light is kept** (the orchestrator's ruling): an open list is lit on the map, and shutting it puts the light out.
+  With several lists open, **the last one opened is lit**: a press is a question about that list, and the map answers
+  the newest. Shutting a list that is not the lit one leaves the light. A list that opened itself (made, added to,
+  restored) is open and not lit: only a player's press lights (`_toggleListOpen`).
+- A press among an open list's items (between their controls) does not shut it: the row's line only.
+- **The chevron moved to the row's right edge**, the same glyph and ink as Explore's (`_caretHTML`), pointing right shut
+  and down open. Its glyph's right edge is the section heads' column, **25 px in from the panel's edge at 1440 and at
+  390**, measured; `lists-menu.spec.ts` pins the two equal. ⋮ is the control just left of it; on a phone both are 44 px
+  boxes, centres 44 px apart. The count is text beside the name.
+- **Measured** (the orchestrator's probe on this build; "opens" = the share of the row where a press opens or shuts the
+  list):
+  - 1440: 95% of the row, both names (⋮ the other 4%);
+  - 390x631: 86% and 87% (⋮ 13%);
+  - the long name 223 px at 1440 and 186 px at 390; "Thursday open mat" whole.
+- **The other chevrons in the panel, left as they are (reported, not changed):**
+  - the Explore head's glyph ends 23 px in, 2 px right of the section heads' column;
+  - Last rolls uses a text "›" (23 px), a different glyph that does not turn;
+  - Master the game has no chevron.
+  - All point right shut and down open; none sits on the left.
+- **Mutants**, each rebuilt for real, a control green; red:
+  - the name renaming again; the row's press lighting only (the first build);
+  - opening not lighting; shutting leaving the light on; the first list opened keeping the light;
+  - the chevron off the column; a press among the items shutting the list;
+  - the chevron, or ⋮, at 24 px on a phone.
+- **SURVIVED, recorded:** the editor's just-closed latch removed. In Chromium the editor's commit re-renders the row
+  between the press's down and up, so the click never reaches a row; the latch is a second guard this test cannot reach.
+  It is named in the spec's header.
+- **Bytes:** the eager set is 377,767 B, **+335 B** on dev's level of 377,432 B (the first build of this PR was +301).
+  `neural.css` and deferred are unchanged.
+- **The first runs of 5 of these mutants proved nothing.** Port 8133 was held when they started, so no test ran; the
+  runner now waits for the port and names the holder. They were run again and are counted only from that run.
+
+## v1.295.2 — An item's actions behind three dots: Share · Move up · Move down · Remove from list (LISTS-MENU-2 part 2; the owner, 23 Nov 2026)
+
+**Why.** The owner, 23 Nov, looking at a list's items on production: "tat x icon on the list items is very consufing too,
+make it a 3 dots icon ads well which includes sharing, remove from list, move up, move down (the list order)".
+
+**What changed** (`_listItemRow`, `openItemMenu`, `_itemMenuChoose`, `shareListItem`, `moveListItemBy`, `removeListItem`'s
+Undo; `_openAnchoredMenu` is now the one builder of both menus):
+- **Each item's × is a ⋮** (`[data-list-item-menu]`), 44 px on a phone, 24 px on a desktop. ▶ stays on the row; on a
+  phone it is a 44 px box with its 24 px chip drawn inside (`.ng-actchip.ng-thumb`, helmet.html).
+- **Its menu** (`[data-list-item-menu-open]`, the same builder as the list's, in the star picker's slot):
+  Share · Move up · Move down · Remove from list. Remove is last, in the warning ink; Move up and Move down are disabled
+  at the list's ends, shown, and skipped by the keys. The move step's "Move to…" takes its place before Remove when it
+  lands.
+- **Share** shares the technique's own page, `location.origin + _nodeUrlPath(idx)` (e.g. `/Transitions/<name>`; a
+  position's `/Top` page): the share sheet on a phone, else the clipboard and "Link copied", else a selectable box under
+  the item.
+- **Remove from list gains a way back.** It is two presses deep now, not a stray ×: the Undo row (one slot, its kind
+  "remove", 90 s) puts the item back at its place. Emptying the list keeps the delete's own Undo, which brings the
+  whole list back.
+- **Move up / Move down reorder the list ON THIS DEVICE ONLY.** The rule that syncs an order is ruled (ORDER-OK: a
+  per-list order stamp, top-level `listOrderAt`, the order following the later stamp) and lands WITH the move step's
+  `listItemAt`, under the same proofs. Until then nothing writes a stamp and the list's `t` is not bumped (`t` is the
+  panel's recency order; a Move up must not make the list jump under the finger). The account's other devices keep
+  their own order; the cloud holds whichever order is pushed with the next other change.
+- Telemetry, counts only: `neural_list_item_shared {}`, `neural_list_item_reordered {dir}`,
+  `neural_list_item_removed {via}`.
+
+**The journeys.** `e2e/journeys/lists-item-menu.spec.ts` (new):
+- 1440 by mouse: the × gone and ▶ kept; the menu's four items; Move up disabled first, Move down disabled last; a reorder
+  with no `t` and no stamp; Share's link is the technique's page; Remove, then Undo back at its place;
+- keys: a key opens it on Share; the arrows skip a disabled item; a reorder by key keeps focus on the item's ⋮;
+- 390x631 by touch: ▶ and ⋮ as 44 px targets, overlapping nothing, centres 44 px apart; the last item's menu whole on
+  the screen; every item by touch; Undo a thumb tall.
+
+`lists-disclosure.spec.ts` removes through the menu: "Remove from list, in the item's ⋮, takes that technique out of
+THAT list…".
+
+**Mutants** (each rebuilt for real and run against its journeys; a neutral control green, 3 of 3). All 11 red:
+- the item's ⋮ opening nothing;
+- Move up enabled at the top; Move down moving up;
+- a reorder bumping the list's `t`;
+- Remove without its Undo; the Undo putting the item back at the end;
+- Share sharing the list's link instead of the technique's page;
+- the item's ⋮ at 24 px on a phone; ▶ without its thumb box on a phone;
+- the keys landing on a disabled item;
+- a key-made reorder dropping the focus.
+None survived.
+
+**Bytes** (gzip -9, like the gate; dev v1.295.1's bundle and this one, both built here from source):
+- `neural.js` 238,848 → 239,954 B (+1,106) and `neural.css` 12,989 → 13,047 B (+58): **+1,164 B** eager.
+- The gate reads 379,517 B, +2,085 B over the PAY-L3 baseline of 377,432 B (dev v1.295.1's own share is +921).
+- No baseline moved.
+
+**One gate artifact touched, with its reason.** `validate:surfaces` stopped the first `ci:validate`: `shareListItem` looks
+up a node (`this._idIndex.get(`) without the ruleset mask. It is named in `tests/artifacts/ruleset_surfaces.json` beside its
+six sibling list entries, on that file's own rule: a player's list is their record, not material the app deals; the row
+stays in every ruleset and so does the page it shares. 26 of 26 after.
+
+**Runs, all local, under the lock:**
+- dev 705e9bde4 merged in, the lists area plus `seat-star`: **122 of 122**;
+- before the merge, with the list menu's journeys: 44 of 44.
+
+## v1.295.3 — Settings, one page of groups with room to breathe (SET1; the owner, 23 Nov 2026)
+
+**The owner, 23 Nov 2026:** "in settings, why is article settings inside rolling? one can just have landed in an article and not
+be rolling, please improve the org of settings, and also the UX and filling and distance to the browser edge max width ofc but
+currently it's too thin and doesnt allow breathing very much". Part A (the plan, with real screens:
+`artifacts/briefing/img/settings/today-*`, `new-*`, `alt-*`, `row-*`) was ruled SET1-GO: pick A, one PR.
+
+**Measured before (the preview, v1.294.0–v1.295.0):**
+- a 440 px card at every desktop width: 500 px from each side at 1440, 317 at 1074 (his window), 180 at 800;
+- the Rolling tab 3,048 px tall in a 509–560 px window (8 screens on a phone), 1,415 px of it the 30 article sections, sitting
+  flush against the bottom-layer rows with no gap or rule;
+- help lines of 34–64 characters;
+- 23 controls under 44 px at every size (choices 34, the ✓ boxes 24, the slider 16);
+- at 390x631 the card 667 px tall, running 18 px off the top and the bottom of the screen, with a boxed ⚠️ note taking about
+  95 of the 631 px.
+
+**What changed:**
+- **Groups by what a setting is about** (`NG_SETTINGS_TABS`, app.src.jsx; ruled names): Practice (daily goal, answer mode) ·
+  Rolling (Opponent, where the roll starts, hide moves, questions while you roll, answer time, danger animation; "On screen
+  during a roll": question card, your moves) · **Articles** (the 30 sections) · **General** (gi / no-gi, sound, volume) · Your
+  odds (modifiers) · Email (as before, only when drawn) · Keyboard. The five old ids are kept, `reading` and `app` are new, and
+  no settings key is added, renamed or deleted (§6.6).
+- **One page, its group list always in view:** a 176 px rail beside the panel from 600 px, a row of chips (the old tab row's
+  element, fades and keys) under 600. A press scrolls to its group, the group in view is the lit one (`aria-selected`), an
+  opening by any id lands on its group, and a redraw keeps the panel where it was. The press HOLDS its light until the
+  player's own next scroll: without that, a short group ("Your odds", "Email") lost its light on arrival to the next heading
+  sharing the top third of the panel (mutant `hold-ends-on-arrival`).
+- **The frame:**
+
+  | | 1440 | 1074 | 800 | 390 |
+  |---|---|---|---|---|
+  | width | 760 | 760 | 736 | 390 (a full-screen sheet) |
+  | from the sides | 340 | 157 | 32 | 0 |
+  | from the top / bottom | 48 | 48 | 32 | 0 |
+
+  Height is min(880, the window − 2 × edge). The spacing token is 4 px. Every control is 40 px (44 on a phone); the article
+  rows are 40/44 px with the whole row the target. All prose is held to 60ch: at most 76 characters a line on a wide screen, pinned. There is a faint
+  grain over the card's own gradient, and no emoji.
+- **One Video switch** (SET1-GO 2): "Videos during play" (HIDESEC2 had made it write `readerSection.videos`) and the Articles'
+  Video box were two switches for one key. The Video row under Articles is the one switch, says "also the film during a
+  roll", and with no reader built yet writes `landFilm` too, as the retired row did.
+- **The owner's note stays first, word for word** (SET1-GO 4), as a quiet amber-ruled line. On a phone it is in the panel
+  and scrolls with the settings.
+- **Opponent** is the row once called "Rolling simulation" (its two lines merged, words kept).
+- **The reader's "Settings" in a hidden part's message** opens on Articles, or on Rolling for Moves and Questions.
+
+**Corrections and findings:**
+- **Back does not close the phone sheet** (correction of Part A's claim): Back steps the page history, and Quartz's router
+  remounts the app on that entry, as it did before SET1. A Back that only closes Settings needs a history entry of its own
+  and a popstate that pre-empts the router's: the history seam BGCLOSE (#446) just shipped. It is not in this PR (SET1-PUSH 1;
+  noted for a follow-up). The sheet closes by its 44 px close button and Esc.
+- **Two findings, NOT in this PR** (SET1-GO 6; the orchestrator takes them to the owner): modifiers are never saved
+  (`userMods` lives in memory; gone on reload), and "Off" for the opponent sets its resistance to 0 rather than turning the
+  roll off.
+
+**Bytes** (`check_payload_budget.py`, dev v1.295.1 merged, the served app folder holding this build only):
+- eager gzip 378,399 B: +967 on the checkpoint, about +46 of it this PR's;
+- first-hand core 397,883 B (+993, dev's own growth with it); both warn and pass;
+- deferred raw 555,121 B: +5,048. `settings-ui.js` goes from 19,998 to 25,034 B (trimmed once, −205 B) and `reader.js` +12 B.
+  The ceiling moved 550,073 → 555,121 in its own commit, a measured step under U207 a; 44,879 B remain of 600,000.
+
+**Proof** (all local, under the build lock):
+- **Units:** `tests/settings_presentation.test.mjs` 15 of 15, two of them new: one page in its order, each old id lighting its
+  own; Articles holding the sections, General holding gi / no-gi; no film row; the note word for word; Opponent; the Video
+  row's two writes.
+- **`settings-tabs.spec.ts`, rewritten, 12 of 12:**
+  - the frame at the four sizes;
+  - the list (rail and chips, with an honest fade);
+  - every control at 40/44 px, measured from rects;
+  - lines of at most 76 characters;
+  - the note's place;
+  - presses by mouse and by touch tap;
+  - the lit group when scrolling;
+  - old ids;
+  - a redraw keeping the scroll;
+  - resize;
+  - keys;
+  - another dialog keeping its own frame.
+- **The 30 files that read Settings,** narrowed to the tests that open it in the eight large article and catch files:
+  - 168 of 177 on the first run. All nine reds were press timing in specs: a press mid-glide after a group press, or during
+    the card's entrance on the phone sheet. Answer-mode's `shown()` passed on a missing element. Fixed with
+    `j.settingsAtRest()` and a stricter `shown()`; no assertion was loosened.
+  - After dev's merge, 84 of 86 green.
+  - The two reds are `legal-pages`' privacy premise at both sizes. The hard-linked local site's privacy page dates from
+    10 Nov, before U151 a (12 Nov), so it does not carry the data-controller line the test reads. Their Settings steps
+    passed. The PR's e2e-full builds the site fresh.
+- **Answer-mode's race test,** 3 of 3 green with the stricter wait.
+- **Mutants:**
+  - `tests/artifacts/settings_layout_mutants.mjs`: 19 of 19 killed by their named tests, against green baselines (the
+    frame at each size, the sheet, the rail, three target sizes, the line length, the note's place and words, the jump
+    by mouse and by touch, the hold, the spy, the old id, the redraw, ↓, and the frame leaking to other dialogs).
+    `help-unbounded` survived the first bound of 80 characters; the bound is 76 now.
+  - `article_sections_mutants.mjs`' three film-row controls, retargeted: 3 of 3 killed ("the film goes", "the film is
+    back in its place", "Settings opens at its switch").
+- **`ci:validate`:** 29 of 29 steps. Two notes:
+  - The CLAUDE.md budget step first read `docs/Neural.md` 42 characters over its ceiling; my two edits there were trimmed,
+    not the ceiling raised.
+  - actionlint was replayed with the box's pinned binary.
+- **SET1-RED (PR #451's first CI run, shard 4):** "at least 32 px from the bottom" read 30.68 at 800x900, and "the
+  full-screen sheet" read [0, 1, 390, 632] at 390x631. The frame step read the card while its entrance (ngCardIn, 0.28 s,
+  an 8 px slide) was still moving it: `settled()` waited for the scroll alone.
+  - Seeking that animation to 150 ms gives 30.69 and [0, 1, 390, 632]; finished, exactly 32 and [0, 0, 390, 631].
+  - With the entrance slowed to 1.2 s, the step as shipped goes red on CI's two assertions; the step that waits for the
+    card's animations holds. On the shipped entrance both are green on this box.
+  - The tolerance is unchanged. Two must-stay-green controls (slow-entrance-800, slow-entrance-390) join the mutant runner.
+- **SET1-SYNC, dev v1.295.2 (6f00d6325) merged:**
+  - deferred re-measured, again exactly 555,121 B (the ceiling stays at its measured use, in its own commit);
+  - app rows re-seeded;
+  - `ci:validate` 26 of 26 replayed steps;
+  - settings-tabs 12 of 12; the frame mutants 3 of 3 and both controls held.
+- **Back, measured on the built page at 390:** Settings open on /Positions/Mount/Top, then Back, goes to "/" and Settings
+  is gone with the page. On a first visit, Back leaves the site.
+
+## v1.296.0 — A cloze's place on the map (L2b S2; the owner's U202 a; the orchestrator's rulings (d) and (c), 19 Nov 2026)
+
+**What a player sees, on a computer.** Opening a place's cloze in Master the game takes the map beside the drawer to the
+place and the moves the cloze lists, in one glide, never closer than the roll's own zoom, and the map names the place.
+It stays there for as long as the cloze is open, whatever the board would otherwise do with its camera (a staged board's
+own framing used to take it back within seconds). At Show the place is lit as "Show on the map" lights a place (S1), its
+shown moves are named where a name fits, and the camera does not move if they are all in view; Hide or Done puts the
+light out, and leaving the place lets the camera go. A phone is unchanged: its drawer is the screen, and its look at the
+map is the next slice (S3).
+
+**The rulings.** (d): "When a place's cloze opens, the map goes to the place and its moves … At Show, one glide holds
+the place and its SHOWN moves (not where they lead): never closer than the roll's zoom, held for as long as the cloze
+shows (a hold of its own, beside `_conceptId`'s; released at once when the cloze goes), with the light on from Show until
+Hide, Done or the place is left, the shown moves named where a name fits. A lit row moves no camera, ever" (that last is
+S4's). It replaced the brief's "every place its shown moves lead to are in view": measured in Part A (5.4), holding where
+the moves lead is the whole map at the median place. (c), point 2: no pulsing session ring for the lit place while the
+light is on (built here: in S1 it could not happen).
+
+**How.**
+- `app.src.jsx`: `_czAt()` is the open cloze's place, `{n, c}` (the half its seat plays), on a computer, while the
+  drawer shows the cloze; derived on every read, so the cloze closing, the list, a card opening, the drawer shut or Esc
+  end it with no lifter of its own. `updateCamera` holds the camera while it is set, beside `_conceptId`'s hold. The
+  camera's 7 s lease would not have done: it runs on the frame clock, which runs under a pause, and a staged board's own
+  framing is exempt from the pause (Part A, 5.5). `_lightOf` lights the place from Show until Hide or Done. `draw()` names
+  the place (the pointer's label when nothing is under the pointer), names the shown moves in a pass of their own BEFORE
+  the roll's hand (the moves being answered claim their places first; an orb named there is not named again, as the
+  roll can stand at the same place), and draws no session ring on the lit place.
+- `map-light.src.js`: `ngLightFrame`, one glide into the calm area (the visible map inset 34 / 38 / 34 / 37 px, design
+  round 6), none when every node is inside it already at a zoom no closer than the roll's, read where the camera is
+  GOING so a glide in flight is not begun again. `master-cloze.src.js` calls it as a cloze opens (not when the open one
+  is drawn again) and at Show.
+
+**The map's own names step back while a cloze is lit** (design round 6, section 4, rule 6: "The map's own names stay off
+while Practice is on"). The first build named the roll's own hand there too: with the board at Half Guard, "Half Guard to
+Triangle Escape Position" was written bright over its dimmed orb among Mount's escapes. The pointer's label, a point and
+the roll's own place are named as ever.
+
+**Found by a mutant that survived.** The hold's mutant (K2) first stayed green: the journey's board was a roll made from a
+place with the clock held (`rollFromPosition(…, true)`), which never sets `_staged`, so nothing under the drawer's pause
+moves its camera and no hold is needed there. The journey now stages its board as a press on the map does
+(`stageRollAt`), whose own framing takes the camera back (`stagedIdle`), and K2 is red. The release (K3) was first red only
+at a premise that read the mutated function itself; it is now read where the camera goes (the staged place back in view
+after Esc).
+
+**Tests.** `tests/map_light.test.mjs` +4 (17): `_czAt` (the seat's half, a computer, the drawer showing the cloze), the
+light from Show to Hide or Done, the glide's two rules. `e2e/journeys/map-cloze-place.spec.ts` (5): the opening, the hold
+and its release on a staged board; Show, Hide and Done with the names and nothing moving; standing at the place, no orb
+named twice; no session ring on the lit place (four frames at one instant: lit or not, rings or none); a phone unchanged.
+
+**Mutants** (19 Nov, each alone; the clean files green before and after): units CZ1 to CZ6 red at 08:32 (the place on a
+phone, with the drawer shut, lit before Show, lit after Done, the glide every time, the glide closer than the roll's
+zoom), a control green. Journey 09:24 to 09:34: K1 no glide as a cloze opens, K2 no hold, K3 the hold kept with the drawer
+shut, K4 lit before Show, K5 lit after Done, K6 a glide at Show with everything in view, K7 the shown moves not named, K9
+the lit place's session ring drawn, K10 the place not named, K11 the place on a phone too, K12 the cloze's moves named
+before Show, K13 the roll's own hand named while lit (red at two steps): all red at their named steps; a control green.
+
+**Runs (local, under the lock).** The cloze's place, the light and the cloze journeys 32 of 32 (09:33); the 13 other
+journey files that open a cloze or read the map's names, rings or labels (grepped: 16 files, the whole list read) 266 of
+266 (08:49 to 08:59, before the names stepped back, which acts only while a cloze is lit). The full suites are the PR's.
+
+**Bytes** (this tree, stacked on S1): eager gzip 377,716 B (+335 on S1's 377,381), eager raw 1,468,822 B (+902);
+deferred 551,167 B (+755), its ceiling moved to it in its own commit. **Not measured:** the frame time of the names pass
+at a lit cloze (at most seven candidates through the memoised planner, which reuses its plan while nothing moves).
+
+**After PR #447 (23 Nov 2026).** S2 took S1-R1 and then dev (ab9532b34, #447 merged) by merge. Rulings 2 and 4 hold for the
+cloze's light too: it shares `_drawLight`, so it goes out at once when the game starts again (the drawer shut, a move
+played, a film). Ruling 2 changes nothing there: the cloze's light already belonged to its cloze (`_czAt`), and Hide, Done
+or the place left end it with the game held, so it fades over 400 ms. The deferred ceiling was measured again on S1-R1's
+corrected figure: 550,828 B, +755 on 550,073.
+**The drawer-shut rule** (the orchestrator's ruling on the reader's re-read of PR #447): on a computer, with a still board,
+Show then Esc shut the drawer and the place stayed lit and named for the 7 s with Last rolls out of sight. On a computer
+the look now also ends when the drawer is shut (`_shownRow` reads `deckShown` there); a phone keeps its look, which is the
+drawer shut. Unit: ML18 red (the drawer not read). Journey: the desktop's Esc step now reads the name gone, and a still
+board (staged, its clock held) reads the look ended at once and the light out over 400 ms (there the shown place is where
+the board stands, which the board names by itself, so the look is read, not the name); JD1 red at both, a control first.
+
+**S2-R1 (23 Nov 2026; the reader of PR #449, MERGE AFTER 4 FIXES, and the orchestrator's rulings and blocker).**
+- **The hold only while the game is held (ruling 1):** a move played beside the open drawer ran the roll with the camera
+  held on the cloze. The journey reads the move coming onto the map (KH1) and none of the cloze's names (the reader's S8).
+- **The bare-map press lets the cloze's map go (ruling 2):** the close marks it free, unlit and unheld, the cloze still
+  open; the next Show takes the map back (KF1).
+- **A look begun on a phone keeps its place whatever the width (ruling 3):** turned to 844x390 it lost its light for
+  good, a regression of the drawer-shut rule (ML19, JR3).
+- **A resize frames the held place again (finding 6),** read a frame at a time: the view's height is the reader's band,
+  which settles a frame after the resize (KZ1).
+- **The frames (the blocker).** The 360 ms frames were the test harness: frames drawn back to back in one task let the
+  canvas pay a dozen frames' raster on one call (a CPU profile: 70% `fill`, 17% `stroke`, one orb's fill taking 250 to
+  300 ms one frame in 12). In real frames at 1440x900 the cloze's framing (6.65 times out) costs 20 ms of the main thread
+  a frame, p95 26.2, under 33: no cap. `tests/artifacts/_map_names_frametime.mjs --wide` measures the three ways; the
+  journey pins a frame at the cloze's framing to the board's own view plus 15 ms (35 against 57 ms there; KT1's 60 ms of
+  work read 94). At 390 every view of this box costs 17 to 49 ms (software raster at dpr 3), the roll's own included.
+
+## v1.296.1 — Move an item to another list, and a list's order, on every device (LISTS-R Slice 2, PR #452; the owner, 19 Nov 2026)
+
+**Why.** "how can i rename a list? or move items between lists like drag and drop?" Rename shipped in v1.293.5 and v1.295.1;
+this is the move ("Move to…" in an item's ⋮, the star's menu in a move mode, keys included), and Move up / Move down now sync.
+
+**Records, not the lists.** Lists merge add-wins, so a move came back as a copy from any device still holding the item, and
+an order never left its device. Two top-level fields, design in `lists.src.js` above `NG_LIST_MARK_CAP` / `NG_LIST_ORDER_CAP`:
+`listItemAt` (a cell per moved list and item, later stamp wins, a tie to "in", never removing an item's last place, trimmed
+to 200 by one total order) and `listOrderAt` (one record per list holding its whole order; a list's order is derived from
+it). Rejected: a stamp alone (an older build launders a stale order) and a stamp plus a fingerprint (two current devices
+re-claim under one stamp and push for ever). An insertion into a list with a record rewrites it (`_keepListOrder`, ruled,
+last-writer-wins); what the winning record does not name follows by id. Older builds keep both fields byte for byte
+(`_progressExtras`); the next current device heals their union.
+
+**The first journeys' red:** the move menu's row method was named `_moveRow`, which the class already had; the later
+definition won silently. Renamed `_pickMoveRow`.
+
+**MOVE-R1, the reader's round (verdict MERGE AFTER 3 FIXES; 37,000 interleavings held the core).**
+- F1: four mutants passed every unit (the trim's tie-break, the guard's id-order walk, the load applying the cells, a star
+  re-add's "in" cell): a case each.
+- F2: items added after a reorder kept a different order per device for good (354 of 3,000 runs): the insertion rule and
+  the tail by id above. 0 of 3,000 after, cur2 and cur3.
+- F3 (ruled): a build older than this pins its first copy of both fields and puts it back on every pull, so it and a
+  current device pushed at each other on every pull. A heal-only push now backs off (at once, then 1 min, 2, 4 … a day;
+  reset by a real change). Measured, v1.294.0's source and this build pulling every 30 s or 5 min: 120 + 120 pushes an
+  hour before, 13 + 13 a day after. Between heals the cloud holds the older copy.
+- F4: a delete's Undo replaced a list a merge had brought back (dev's own loss, 48 of 48 in the sweeps): it now unions.
+- F5: a stamp of 2^53 or more froze a cell or record: safe integers only, and a list's `t` capped.
+- F6: a move's Undo puts both lists' recency back.
+
+**MOVE-R2 (verdict MERGE AFTER 1 FIX).** A heal also needs the cloud behind only in the two fields (a real change could
+wait a minute), bounded to two at-once re-pushes of an unchanged state (else 20 of 3,000 older-device runs looped); the cap
+is an hour (31 + 31 pushes a day); an insertion rewrites the record only if the shown order would differ; stamps are
+integers below 2^52.
+
+**Proofs.** `share_lists_store` 34, `list_moves_sync` 20 (a fake cloud holding lists, cells, orders and stamps). The
+reader's fuzzer as regression, 35,000 runs in 12 configs: current devices alone, no loss and no divergence beyond lists
+with no record (dev's); with an older device, no run that never settles (2,838 of 3,000 before). Mutants: the reader's 13,
+12 killed (M13 equivalent); this round's 12, all killed. Older builds run for real (v1.294.0, v1.293.3, v1.252.0).
+
+**Bytes:** after PAY-L4 (dev v1.296.0's own level, the first commit after the merge), the gate reads eager 382,677 B,
++2,621 of the 5,000 cap, and the first-hand core 402,158 B, +2,643 of 6,000. No other baseline moved.
+
+## v1.297.0 — A phone's look from the cloze (L2b S3; the owner's U202 a and U179; the orchestrator's ruling (b), 19 Nov 2026)
+
+**What a player sees, on a phone.** A small "Map" press at the right of the open place's heading line, while the cloze is
+not confirmed. It shuts the drawer on the cloze and the map glides to the place and its moves, lit for as long as the
+look lasts: the place named, its hidden moves pale marks (where, never what: not their shape, colour or gold), its shown
+moves named where a name fits, the map's own names stepped back. The roll's clock is held, as "Show on the map" holds it.
+"‹ Back to your moves", a tap on the map, or Esc brings the drawer back on the same cloze, its bars or names as they were;
+a drag, a pinch or the wheel only move the map. A computer is unchanged: its map stands beside the drawer (S2).
+
+**The ruling.** (b): "A 'Map' control in the cloze's foot (measure the fit on a real 390x631 screen first; if Done's
+words do not fit beside it, the small press at the right of the place's heading line); the panel shuts, the session is
+kept, the clock held by the look's own latch with the same lifters; the map frames the place and its moves; the light on
+for as long as the look lasts; hidden moves pale marks, shown moves named where a name fits. Back by the pill '‹ Back to
+your moves' AND by a tap on the map, consumed; a drag or a pinch moves the map and does not end this look. Offered before
+Done only. The roll's own rows stay where they are during the look … the look's tap is consumed and must never be the
+press that closes the page." **Measured first** at 390x631: the foot's bar is 242 px; beside Show and its key, Show is
+cut to 76 px; beside Hide and Done, Done to 14 px with no word left. So "Map" is the heading line's press.
+
+**How.**
+- `app.src.jsx`: `_czLookOn()`, DERIVED on every read (its own session and seat, the drawer shut, the game held, the
+  cloze not confirmed), so a lifter it does not name cannot leave it standing; every lifter of the look's latch
+  (`_lookEnd`) also drops its marker. `_czLookOpen` hands the drawer's pause to the look's latch (only when the drawer is
+  what stopped the game) and shuts the drawer keeping the session; `_czLookBack` opens it again (the pause goes back to
+  the drawer, `_lookEnd("drawer")`). `_czAt` and `_czDown` hold through the look (the place held on the map and lit; the
+  hand a cloze holds down stays down: without it the drawer's close let the cards up). `attachInput`: during a cloze's
+  look a press is a TAP, its way back, consumed at the press's end before the tap router (never a press on a place, never
+  the press that closes a page), or a drag, a pinch or the wheel, which move the map and keep the look. Esc goes back. The
+  pill is shown and seated each frame while the look is on (`_drawLight`), on the root plane at the foot of the visible map.
+- `map-light.src.js`: a look's hidden moves are pale marks at any size and never gold (`pale`); `NG_LIGHT.lookCalm`, the
+  look's calm area, its foot clear of the pill. `master-cloze.src.js`: the press, the look, the pill.
+
+**Found on the way.**
+- The first screens put a lit move under the pill (the ordinary calm area's foot is 37 px; the pill stands 52 px up and
+  44 tall): the look's glide now keeps its moves 64 px up (M11).
+- The press drew 44 px tall over the day's goal line: the practice page gives every button a 44 px floor
+  (`[data-practice-page] button`, challenge-ui.css), which one class does not outrank, so the press's own `min-height:0`
+  lost (read from its computed style). `.ng-mslim .ng-czmap` sets it, two classes as the cloze's Undo (`.ngz .un`): now
+  20 px to the eye, 44 px to the touch (M12).
+- A reward card the session can mint lies over the drawer's top, over the heading line and its press; the journey puts it
+  away first, as a player does (and as Last rolls' own journey does).
+- The ci-validate replay found the cloze's head asking `isMobile` where the progress units draw a cloze with a document
+  and no window (`window.innerWidth`, three tests red): asked only where there is a window.
+- The names were read on the first still frame and its control went red once: the planner holds a refused name back
+  until half a second after the camera rests (`_planNames`); the journey reads them after that.
+
+**Where it meets v1.294.0 and S1-R1.** The look's tap is consumed before the tap router, so it is never the press on the
+bare map that closes the page (the journey's "the tap did nothing else" reads the address and free roam; M7 red). The
+look's light shares `_drawLight`: since S1-R1 a move played during the look (the roll's own rows stay) ends it with the
+light out at once.
+
+**Mutants** (each built alone into the served bundle, a control first, on the tree with S1-R1 in; the table is in the
+journey's header): a control green (4 of 4), then M1 no Map press, M2 the session dropped as the drawer shuts, M3 the look not lit, M4 a
+hidden move drawn as a hole, M5 no pill, M6 a drag ends the look, M7 the tap not consumed, M8 Map after Done, M9 Esc not
+the way back, M10 a computer shows Map, M11 the look framed in the ordinary calm area (a lit move under the pill), M12 the
+press at the practice page's floor: each red at the step the header names (23 Nov, 03:13 to 03:15). Units: LK1 to LK7 red, 38 of 38 with S1 and S2's.
+
+**Runs (local, under the lock).** `map-cloze-look.spec.ts` 12 of 12 three times over; its five neighbours (map-cloze-place,
+map-light, master-cloze, last-rolls-places, map-press-closes-page) 105 of 105; the 13 other files that open a cloze or
+read the map's names 266 of 266; `ci:validate` 26 of 26, the tree clean after (all on the tree with dev v1.295.0 in).
+Screens 09 to 12 at 390x631 (09 dev's bundle, 10 to 12 this one) in the briefing's `img/maplight/`.
+
+**Bytes** (the served app folders emptied first): eager gzip 378,802 B (+1,370 on PAY-L3's 377,432, of 5,000); deferred
+552,772 B, +1,944 on S2's 550,828, the ceiling moved to it in its own commits (47,228 B remain of the owner's 600,000).
+**Not measured:** the frame time of a look (the same layer as S1's, plus the pill's position written when it moves).
+
+**One fault of my own, on the way.** A "dry check" of the mutant runner's anchors imported the runner, whose last line ran
+it: three mutant builds and a Playwright run outside the build lock (23 Nov, 02:55 to 02:57), and my next held run was
+void (its build met a mutated source, its browser the port). Stopped by PID, the source restored from the commit, the run
+taken again; the runner now runs only when it is run.
+
+**S2-R1 carried (23 Nov 2026).** S3 took S2 with S2-R1 and dev fc050d9e4 in. The look keeps the cloze's hold only while
+the game is held (it is: the look holds it) and takes S2-R1's free mark; a resize re-frames a look in its own calm area.
+Ruling 3: a look turned to landscape and back keeps its light and its pill (M13). Found there: at 844x390 the map is a
+64 px strip under the look's own insets, and the glide fitted the place into a 1 px box, pulling back some 900 times the
+roll's zoom; the glide now leaves the camera as it was where the calm area has under 48 px either way (M16). M14 (a resize
+in the ordinary calm area) is not killed, said in the spec's header with what would. Ruling 5: the look's framing on a
+phone (5.08 times the roll's zoom) costs a frame 16.8 ms against the board's own 19.8 here, in real frames: no cap; the
+step holds it to the board's own plus 15 ms (M15). Deferred 557,990 B, +2,027 on S2's 555,963.
+
+**S3-R1 (23 Nov 2026; the reader of PR #453, MERGE AFTER 3 FIXES, and the orchestrator's ruling).**
+- **The pill gone after each way back** (the reader's P5 left it standing over the reopened drawer): M18.
+- **A wheel only moves the map** (the reader's P13 ended the look): M19.
+- **The landscape step's one red in 22 runs was the app.** The reader measures its band in an animation frame after a
+  resize, and `_viewRect` read it: on the frame between the turn and that layout the look framed against the portrait
+  band (186 px where the map is a 64 px strip), passed the 48 px floor and pulled back 10.97 times the roll's zoom, held
+  there by the floor after. The reader now records the size it laid out for beside its band (`nodeBandAt`: the band's own
+  shape is pinned by a unit, which a stamp inside it broke, caught by the ci-validate replay); `_viewRect` reads the band
+  only when that is this size, a fresh one otherwise. The step seeks that frame by holding the page's animation frames across the
+  turn: M17 red at 10.97 times (the reader's own figure), 5.08 with the fix; the landscape test 201 of 201 after.
+- **The clock's hold follows the look (ruling):** a cloze's look that ends by no lifter of its own (the session or its
+  place gone under the shut drawer) hands the clock back as its pill would, the drawer back with it (`_czLookSync`,
+  every tick; LK8). The latch's setters and lifters were surveyed whole: 11 lines.
+
+## v1.297.1 — Drag an item onto another list, on a desktop (LISTS-R Slice 3; the owner, 19 Nov 2026)
+
+"move items between lists like drag and drop?" Ruling 4: native drag, a lease against a rebuild, Esc the browser's own,
+no phone drag. A desktop's item row is draggable (a six-dot grip takes its glyph's place on hover); another list's row or
+its open items take the drop ("Move here"), never its own list nor a full one; the drop is "Move to…"'s own move and
+after-step (via "drag"). The lease holds `renderExplorer` while an item is in the hand; its lifters are the drop, dragend
+(Esc), the view changing, the drawer closing, the page hidden, and 15 s. Found by its journey: a bare `moveListItem` on
+drop left the drawer stale until the next rebuild. Proofs: lists-drag.spec.ts, 6 journeys, 8 of 8 mutants (the 15 s expiry
+not covered); the reader's three follow-ups (R1m2, B2, B4) as sync 21-23, each red on its mutant. Bytes: +868 B eager.
+
+## v1.298.0 — A row lights its way (L2b S4; the owner's U202 a; the orchestrator's rulings (d) and (a), 19 Nov 2026, and S4-GO, 23 Nov 2026)
+
+**What a player sees, on a computer.** With a place's cloze open beside the map:
+- **After Show**, the row under the pointer, or the one holding the keyboard's focus while the pointer is away from the
+  cloze, lights its way: its move is named first, and ONE pale line runs from the place to the move and on toward the
+  first place the move leads to (the more likely: a row with two keeps its second on its own second line, undrawn). That
+  place stands clear and is named where the visible map shows it; where it does not, the line runs on off the edge of
+  the view toward it. A move that keeps the place, or that is itself the finish, draws place to move only. The rest of
+  the shown hand stays lit as at Show (S2); moving from row to row keeps the layer on, and only the way changes.
+- **Before Show**, a bar under the pointer lights WHERE its move lives: the layer, the place and that one orb standing
+  clear, with no name, no gold and no line. The hand stays face down (ruling 7 of L2 holds, with this one exception).
+- **A lit row never moves the camera.** Nothing lights over a running game, for a cloze the bare-map close let go
+  (`c.free`), or on a phone (its look, S3, is the phone's way to the map).
+- **A tablet** (S4-GO 4, measured first: the map stands beside the drawer at 820x1180, map 460 by 516 px from x 360; at
+  1180x820, 820 by 232; at 768x1024, 408 wide): a tap on a row's name lights its way until the next tap anywhere (on
+  another name: that row; on the same name: off), Hide, Done or the cloze leaving. Held in memory only, on the cloze's
+  own object; nothing reaches the stored record.
+
+**The rulings.** (d): "A lit row moves no camera, ever. It writes its move's name first and draws ONE line, place → move
+→ on toward where it leads. Where the destination is in view it stands clear and is named; where it is not, the line
+simply runs off the edge of the view toward it, and the row's own second line is where the player reads its name." (a):
+"Before Show, a bar lights WHERE its move lives … the layer, the place and that one move's orb standing clear; no name,
+no gold on it even where it is recalled, no line onward, no destination." S4-GO: (1) two destinations, ONE line, to the
+first; (2) a move that keeps the place: place to move only; (3) the pointer's row while the pointer is over the rows,
+else the focused row; (4) the tablet, measured first, its lifters surveyed and derived where they can be.
+
+**How.**
+- `master-cloze.src.js`: `ngClozeWay(app, z)` says which row is lit, read from the DOM each time it is asked (`:hover`,
+  the host's own `:hover`, `document.activeElement`), so nothing can stay lit when the pointer leaves or the rows are
+  drawn again. On touch, hover and focus are not read (a touch screen leaves both on the element last tapped): the
+  tablet's tap is `c.tap = {id, show}`. Its lifters: Hide and Show again by DERIVATION (`c.showN` counts each Show, a tap
+  is only its own Show's), Done by derivation (`c.done`), the cloze leaving in `ngClozeLeave` (the one that cannot be
+  derived: a cloze opened again is the same object, still shown), the next tap in `ngClozeTapName`, read for every
+  touch on the page (`app._czTap`, a capture listener; a press that travels over 10 px is a drag, never a tap).
+- `app.src.jsx`: `_czWay()` asks once a frame (`_frameN`); `_lightOf` lights the place for a bar before Show;
+  `_drawLight` keeps what this light showed while it fades (`_lightSet`: a bar's one move, a row's way), so the 400 ms
+  fade after a bar never shows the place's whole hand; a bar is drawn with no gold and no way. The "row" names pass runs
+  before the cloze's, so the lit move and its destination claim their room first.
+- `map-light.src.js`: the line, `NG_LIGHT.way` 0.8 and `wayW` 1.6 px, rgb(226,232,246), drawn above the layer and under
+  every name, each end held 2 px off its orb's drawn edge; `_lastLight.way` publishes `{move, dest, seg, to}`.
+
+**Found on the way.**
+- **The cloze's pin read only the cards' labels.** `master-cloze.spec.ts`'s "the frame drew no name on a hidden move"
+  read `_lastOptLabels`, and since v1.296.0 the map's own names planner names moves too (`_lastNameBoxes`): a bar's move
+  named by the planner passed it. It reads both now; W4 is red there.
+- **A fade can say more than the light did.** The first build faded a bar's light out over the place's whole hand (the
+  fade asked `_lightMoves` again with no row lit): for 400 ms after the pointer left a bar, every hidden move stood
+  clear. What a light showed is now kept while it fades (unit WY1; the journey's "while it fades" step).
+- **"The next tap" is any tap.** The first build ended a tablet's lit row only at a tap on another name; the ruling's
+  words are "until the next tap". A tap anywhere ends it now (W14).
+- **Not changed:** a mouse press on Show rebuilds the cloze's bar, and the focus falls to the page's body, so a keyboard
+  user who pressed Show with the mouse starts Tab from the top of the page. The keyboard's own way (the opened cloze
+  holds the focus, Space shows it, Tab walks the rows' toggles) is what the journey takes.
+
+**Tests.** Units: `tests/master_cloze.test.mjs` CW1 to CW5 (`ngClozeWay` against a DOM of its own), `tests/map_light.test.mjs`
+"a row lights its way (S4)" (WY1, WY2), each red at its named test after a control (UC3), 46 of 46. Journey:
+`e2e/journeys/map-row-way.spec.ts`, 6 tests (1440 by a real mouse and by Tab, 820x1180 by touch). Its mutants, each built
+alone into the served bundle after a green control (WC0, 6 of 6 and the pin 1 of 1), all red at the step its header
+names: W1 no hole for the destination, W2 the line under the map, W3 the lit row kept in a stored field, W4 a bar's move
+named (and in the pin), W5 a bar's line drawn (and in the pin), W6 the camera moved for a row, W7 focus ignored, W8 the
+layer dropping between two rows, W9 no row pass, W10 the second place drawn, W11 a tablet's tap kept across Hide, W12
+hover read after a touch, W14 only a tap on a name ends it, W16 the cloze's leaving not ending it (23 Nov, 13:19 to 13:29,
+on the final code). W8b (the layer only while a row is lit) is red here only at the line's ink step, whose control frame
+then has no layer either; the rows touch, so the row-to-row step cannot see it. It is S2's claim: `map-cloze-place.spec.ts` is red under it, 5 of 10, at "Show: the place is lit" among others.
+Not seen by any journey, said in the header: a bar's move given gold (its card is face down before Show, and the light
+never draws gold on a face-down move; unit WY2), `ngClozeWay`'s own Done guard (`_lightOf` ends the light first; CW4).
+
+**Runs (local, under the lock).** The 27 journey files that read the light, the map's names or a cloze (grepped whole:
+`_lastLight`, `_lastNameBoxes`, `_lastOptLabels`, `_lastHoverLabel`, `_lastMapMarks`, `data-cz`, `czOpen`, `_czAt`, `openCloze`,
+`data-cloze`, `master-bar`, `_lightOf`, `_shownNode`; plus graph-naming and keyboard), 451 tests: 450 green and one red,
+S2's own "opening a place's cloze… lights nothing", every run. The press that opens a cloze leaves the pointer on one of its
+bars, which lit (until S4-R0, below, made it wait). On the tree with dev 6f507b78c in, the six closest files
+(map-row-way, map-cloze-place, map-light, master-cloze, map-cloze-look, lists-drag) 66 of 66.
+
+**S4-R0 (23 Nov 2026; the orchestrator's ruling: "a light should follow intent, not a press that happened to land
+there").** A mouse press on a place's row opened its cloze under the pointer, and the bar that came to lie under it lit at
+once, before the player had moved. A place opened now waits for the pointer's first move: until then the pointer is no
+pointer at all (`ngCzMoves`, counted page-wide at each move to a new point; `c.mv0`, the count when the place opened), so
+nothing lights under it, and the keyboard's focus lights as it does with the pointer away. S2's own "opening a place's
+cloze… lights nothing" is back to its own text and holds unchanged. W17 (the unmoved pointer read) is red in the new test
+and in S2's; W18 (an unmoved pointer still keeping the focus from lighting) is red in the keyboard test, which now leaves
+the pointer where the press put it; a control green. Deferred +217 B.
+
+**S4-R1 (23 Nov 2026; the reader of PR #456, MERGE AFTER 1 FIX, and the orchestrator's ruling).**
+- **The cloze's two page-wide listeners go with their app.** The tablet's tap (`_czTap`, capture pointerup on document, S4)
+  and the cloze text's fit (`_czFit`, resize on window: L2's, v1.292.0, found by the same survey) were added once an app
+  and never removed. The reader counted 0, 1, 2, 3 over rounds of a close, Back and a cloze again: every app a remount left
+  behind stayed alive with its graph and answered every tap. `componentWillUnmount` removes both. The journey counts them by
+  their code's own place through CDP (`[[FunctionLocation]]`; CDP gives a listener no handler object here): one of each
+  after a cloze opens, none of the old app's after two remounts (W20, W21). The survey: S1 to S4 add no other document or
+  window listener; the cloze's module-level pointerdown and pointermove are once a page and hold no app.
+- **A mouse move gives the hover back after a touch** (ruled, for a touch laptop: one touch silenced the hover until the
+  next mouse press). A pointermove of the mouse to a new point lifts it (W19; the reader's M15, once touched for good, red
+  at the same step).
+- **S4-R0's own case** is S2's test as it was ("lights nothing" with no pointer move) and the new "a place opened under the
+  pointer…" (W17 red in both).
+Deferred +35 B, eager +51 B.
+
+**Screens** 13 to 18 in the briefing's `img/maplight/`: 13 and 14 a bar under the pointer at 1440 (dev's bundle, this
+one), 15 and 16 a row after Show at 1440, 17 and 18 a tablet's tap at 820x1180.
+
+**Bytes** (the served app folders emptied first, on the tree with dev 6f507b78c in, against PAY-L5, dev v1.297.1's own
+level, the first commit after that merge): eager gzip 384,654 B, +375 on 384,279; first-hand core 404,128 B, +397 on
+403,731; deferred 560,379 B, +2,361 B on S3's 558,018 (560,127, then +217 in S4-R0 and +35 in S4-R1), the ceiling moved to
+it in its own commits (39,621 B remain of the owner's 600,000).

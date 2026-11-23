@@ -106,6 +106,9 @@ const NG_SEAL_WORDS = { recalled: "You recalled this move here", answered: "Its 
 // on its own orb; one clip only when two outside-marked shapes come within reach (`draw()`). Clips are what cost: measured on
 // the shared box (tests/artifacts/_map_names_frametime.mjs --ab marks, paired frames, every dealt orb marked both ways, 4x
 // CPU throttle), a clip per orb cost +0.4 to +0.5 ms a held frame, and so did the first build's clip per overlapping shape.
+// THE LIGHT'S FADE (L2b S1, v1.295.0; `_drawLight`): in over a quarter of a second, out over four tenths (design round 6's
+// figures, ruled with the rest of L2b Part A (c), 19 Nov 2026). What it draws is neural/src/map-light.src.js (`NG_LIGHT`).
+const NG_LIGHT_IN_MS = 250, NG_LIGHT_OUT_MS = 400;
 const NG_MAP_MARKS = { gold: { r: 240, g: 192, b: 90 }, goldA: 0.95, borderA: 0.87, line: 1, borderK: 0.32, borderMin: 1.2, borderMax: 2.2, inFrom: 2.4, inFull: 3.2 };
 // The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
 // by `_dockLandFilm` (the end padding is 1 of the same unit). helmet.html `.ng-landfilm`.
@@ -400,16 +403,20 @@ const NG_DRAWER_LOGO = '<svg aria-hidden="true" width="22" height="22" viewBox="
 // Owner, 2026-10-15: always mix both halves in the overview, even with mastery
 // gold off. Opposite technique poles therefore share a purple-grey site colour.
 const NG_MIX_SITES_BY_DEFAULT = true;
-// THE SETTINGS TABS, IN ROW ORDER: [id, label]. The row, its one click handler and its arrow keys
+// THE SETTINGS GROUPS, IN ORDER: [id, label]. The group list, its one click handler and its arrow keys
 // all read this, through `_settingsTabs` (the part of it one opening shows, NG_DIGEST_LIVE below),
-// and nothing else names a tab (v1.196.1). It replaced five hand-built spans with
-// five class names (.t-fc .t-rl .t-md .t-nt .t-kb) and five listeners, i.e. the same list written
-// three times. The id is what `openSettings(tab)` takes and what `_settingsTab` holds, so a
-// deep link such as the account menu's "Keyboard shortcuts" row keeps working through a rename
-// of the LABEL. Adding a sixth is one row here: the row scrolls rather than breaks (helmet.html
-// `.ng-stabs`), and settings-tabs.spec.ts's ">= 768 all fit" assertion goes red on purpose so that
-// somebody looks at the desktop row before it ships.
-const NG_SETTINGS_TABS = [["flashcards", "Flashcards"], ["rolling", "Rolling"], ["modifiers", "Modifiers"], ["notifications", "Notifications"], ["shortcuts", "Shortcuts"]];
+// and nothing else names a group (v1.196.1, when they were tabs). The id is what `openSettings(tab)` takes
+// and what `_settingsTab` holds, so a deep link keeps working through a rename of the LABEL.
+// SINCE SET1 (v1.295.3, the owner, 23 Nov 2026) THEY ARE GROUPS OF ONE PAGE, filed by what a setting is ABOUT:
+// Practice (cards) · Rolling (the game) · Articles (what an article shows, read with or without a roll; they
+// were inside Rolling) · General (gi/no-gi and sound, which act everywhere) · Your odds · Email · Keyboard.
+// The five old ids are kept, with new labels, and `reading` and `app` are new; ids only, no settings key moves
+// (CLAUDE.md §6.6). The order is load-bearing: Practice first is what the badge menu opens on, and Rolling
+// before General keeps "where the roll starts" above the gi/no-gi choice (start-from.spec.ts). A new group is
+// one row here and one branch in settings-ui.src.js; settings-tabs.spec.ts measures the list at every size.
+// THE HEAL-ONLY PUSH BACKS OFF (MOVE-R1, F3): the first wait and its ceiling. See `_pushCloud`.
+const NG_HEAL_WAIT_MIN = 60000, NG_HEAL_WAIT_MAX = 3600000;   // 1 min, doubling to at most an hour (MOVE-R2 R2)
+const NG_SETTINGS_TABS = [["flashcards", "Practice"], ["rolling", "Rolling"], ["reading", "Articles"], ["app", "General"], ["modifiers", "Your odds"], ["notifications", "Email"], ["shortcuts", "Keyboard"]];
 // IS THE TRAINING-DAY EMAIL LIVE? Not yet (v1.261.1). Owner, 12 Nov 2026, briefing answer U139 a:
 // "Hide it while the digest is off." The digest cannot send: the owner decided on 11 Nov 2026 that it
 // stays off, and its two tables, `digest_sent` and `digest_suppress` (supabase/digest_v1.sql), do not
@@ -619,6 +626,11 @@ class Component extends DCLogic {
     if (this._onChoiceFonts) document.fonts.removeEventListener("loadingdone", this._onChoiceFonts);
     if (this._onWinResize) window.removeEventListener("resize", this._onWinResize);
     if (this._onKey) window.removeEventListener("keydown", this._onKey);
+    // THE CLOZE'S TWO PAGE-WIDE LISTENERS GO WITH THEIR APP (S4-R1, the reader of PR #456): a tablet's tap (`_czTap`, capture
+    // pointerup on document, S4) and the cloze text's fit (`_czFit`, resize on window, L2's, found by the same survey) were
+    // added once an app and never removed, so every app a remount left behind stayed alive with its graph and answered taps
+    if (this._czTap) document.removeEventListener("pointerup", this._czTap, true);
+    if (this._czFit) window.removeEventListener("resize", this._czFit);
     this.clearTimers();
   }
 
@@ -882,7 +894,8 @@ class Component extends DCLogic {
    * SHOW ON THE MAP IS A LOOK, NOT A RETURN TO PLAY (L3 ruling 1, v1.293.0). A Last rolls row's "Show on the map" frames the
    * place it holds as a session's row frames its node (`locateNode`: the visible map, through `pairMid`, lit for a moment),
    * takes the camera's 7 s lease (`holdCamera`), and NAMES it (`_shown`, below): the first real screens showed the place
-   * in the middle of the map with no name on it, and on a phone the row that named it is gone with the drawer. On a
+   * in the middle of the map with no name on it, and on a phone the row that named it is gone with the drawer. Since
+   * v1.295.0 it also LIGHTS it, for as long as it names it and the game is held (`_lightOf`, L2b S1). On a
    * desktop the drawer stays beside the map and nothing else moves. ON A PHONE THE DRAWER IS THE SCREEN, so the press has
    * to shut it, and by pane law shutting it resumes a roll the drawer stopped: the player would watch the place while the
    * roll moved on without them. So the drawer's pause is handed
@@ -907,7 +920,7 @@ class Component extends DCLogic {
    *            board's clock or wake a page's dormant one.
    * Each is pinned in e2e/journeys/last-rolls-places.spec.ts, which names the mutant of each (M8 to M15, M33).
    */
-  _showPlace(i) {
+  _showPlace(i, rid) {
     if (this._replay) this.stopReplay("input");   // a film owns the camera; asking to see a place ends it, as a hand on the map does
     if (this.isMobile()) {
       const held = this._paneAutoPaused;
@@ -916,7 +929,7 @@ class Component extends DCLogic {
       if (held) { this._lookAutoPaused = true; this.fx("look_held", {}); }
     }
     this.locateNode(i); this.holdCamera();
-    this._shown = { i, t: this._camHoldTarget };
+    this._shown = { i, t: this._camHoldTarget, rid, phone: this.isMobile() };   // `rid`: the Last rolls row it was shown from (S1-R1, `_shownNode`); `phone`: begun on a phone (S2-R1)
   }
   // THE PLACE "SHOW ON THE MAP" SHOWED, NAMED ON THE MAP the way a node under the pointer is (`draw()`'s hover label reads this
   // when nothing is under the pointer). No lifters of its own to forget (§6.5): it lasts exactly as long as what it rides,
@@ -924,9 +937,126 @@ class Component extends DCLogic {
   // (`camHeld()` with the lease's own target: 7 s, a pan, pinch or wheel, any other flight, a move played, any
   // go-elsewhere). Nothing clears it by hand: a line that did, in `_lookEnd`, survived its own mutant (the lease had
   // already said no).
+  // AND NO LONGER THAN ITS ROW (S1-R1, the orchestrator's ruling 2 on the reader's finding 2, PR #447): the look ends when its
+  // row is collapsed, when Last rolls is left, or when the hold ends, whichever comes first, and the name and the light go
+  // with it. On a computer the row and the drawer stand beside the map, and collapsing the row or switching the drawer to
+  // Explore left the place lit and named for the rest of the camera's 7 s (the reader: still lit at +2.8 s). Read, like
+  // the rest, every frame (`_shownRow`): the row the show came from still open (`_openRow`, which only Last rolls writes and
+  // which the drawer's shutting leaves as it is, so a phone's look keeps it), and Last rolls the drawer's view, with no
+  // study surface over it. Another row opened (one at a time), the arrows, a new roll (`_closeRoll` drops its rows) or
+  // Practise here (Master the game's list takes the drawer) each leave it.
+  // AND ON A COMPUTER, THE DRAWER SHUT (S2; the orchestrator's ruling on the reader's re-read of PR #447): Show, then Esc on a
+  // still board, left the place lit and named for the 7 s with Last rolls out of sight. On a computer the drawer stands
+  // beside the map, so shutting it is leaving Last rolls; a phone's look IS the drawer shut, and it keeps its look.
   _shownNode() {
     const s = this._shown;
-    return s && (this._lookAutoPaused || (this.camHeld() && this._camHoldTarget === s.t)) ? this.nodes[s.i] || null : (this._shown = null);
+    return s && (this._lookAutoPaused || (this.camHeld() && this._camHoldTarget === s.t)) && this._shownRow(s) ? this.nodes[s.i] || null : (this._shown = null);
+  }
+  // (A LOOK BEGUN ON A PHONE keeps its place whatever the width, S2-R1, ruling 3: turned to 844x390 a phone stopped counting
+  // as one, its look's drawer is shut, and the show was dropped for good; dev kept it lit at all three sizes)
+  _shownRow(s) { return s.rid == null || ((s.phone || this.deckShown) && this._viewMode === "history" && !this._paneStudyActive() && this._openRow === s.rid); }
+  /**
+   * THE LIGHT (L2b S1, v1.295.0): what "Show on the map" shows, lit. Until now the map NAMED the shown place and lit
+   * nothing, so the name was tied to its orb by nothing at a glance (L3 ruling, v1.293.0: "names, does not yet LIGHT").
+   * The map now steps back under one dark layer, and the place's pair and every move it deals stand clear of it (the owner's
+   * U175 rule; what is drawn, and why so, is neural/src/map-light.src.js, deferred in gameplan.js). The orchestrator's
+   * ruling on L2b Part A (c), 19 Nov 2026, as recommended.
+   * WHAT IS LIT is DERIVED EACH FRAME from what it rides, so it has no lifters of its own to forget (§6.5): the place
+   * `_shownNode()` holds (the look's hold on a phone, the camera's lease on this flight), and only
+   *   - while the game is held (`paused`): NEVER OVER A RUNNING GAME. A desktop's drawer holds it while it is open (pane
+   *     law), a phone's look holds it while it lasts, a staged board is still from birth; the press that ends a look lets
+   *     the roll run, so the light goes and the name stays for the camera's hold (L3-R2, untouched);
+   *   - and never under a phone's open drawer, which is the screen there and under which no name is written either
+   *     (`covered`, `draw()`): reopened inside the camera's hold, the place would still be "shown".
+   * A FILM takes the camera's lease (`_replayFrame`, `holdCamera`), which is a new flight: `_shownNode` lets the place go,
+   * so a film is never lit, with no clause of its own here.
+   */
+  _lightOf() {
+    if (!this.paused || (this.deckShown && this.isMobile())) return null;
+    // an open cloze is what the map shows beside it (S2): lit from Show until Hide, Done or the place left, and nothing else
+    // but a bar under the pointer or the keyboard's focus before Show, which lights where its one move lives (S4, `_czWay`)
+    const z = this._czAt();
+    if (z) return ((z.c.shown || z.look) && !z.c.done) || this._czWay()?.bar ? z.n : null;   // (a phone's look lights it for as long as it lasts, S3)
+    const n = this._shownNode();
+    return n && this.rsAllowsIdx(n.idx) ? n : null;
+  }
+  // the moves a lit place deals in this ruleset (a position's hand as the rating deals it, `_dealtOpts`); a submission or a
+  // transition a roll passed through deals none: its pair alone is lit. Kept per place, ruleset and graph; a hand that
+  // failed to deal (`moves_hand_failed`, said once) lights the pair alone this frame and is asked again the next.
+  _lightMoves(n) {
+    if (n.ty !== "positions") return [];
+    const c = this._lightC;
+    if (c && c.i === n.idx && c.gi === this._giMode && c.n === this.nodes) return c.m;
+    const d = this._dealtOpts(n.idx, n.role === "bottom" ? "bottom" : "top");
+    if (!d) return [];
+    const m = [...new Set(d.map((o) => o.idx))].filter((i) => this.rsAllowsIdx(i));
+    this._lightC = { i: n.idx, gi: this._giMode, n: this.nodes, m };
+    return m;
+  }
+  /**
+   * ONE FRAME OF THE LIGHT, from `draw()`, after the pulse head and before the first name (`F`: the frame's own camera, lift
+   * and sets). IT COMES AND GOES: in over NG_LIGHT_IN_MS, out over NG_LIGHT_OUT_MS, on whichever clock moved more since the
+   * last frame (the fog's rule: the wall clock while the game is held, the frame clock a test pumps), keeping the last
+   * place while it goes out; under reduced motion, on and off at once. Published: `_lastLight`, what this frame drew
+   * (`k`, the place, its holes and marks), null when nothing was. GAMEPLAN.JS NOT IN YET (the drawer fetches it as it
+   * opens, and every "Show on the map" is pressed in an open drawer): nothing is drawn, and that is said once per show
+   * (`light_cold`, §6.6); the name is there as before.
+   * A LIGHT AT ITS TARGET STAYS THERE. The first cut stepped down whenever it was not stepping up, so a full light lost a
+   * frame's worth (1 to 0.96 at 60 Hz) and won it back the next: a flicker, found when a unit mutant (ML6) passed for the
+   * wrong reason. Pinned by "a full light stays full, frame after frame" (tests/map_light.test.mjs).
+   */
+  // OUT AT ONCE WHEN THE GAME STARTS AGAIN (S1-R1, the orchestrator's ruling 4 on the reader's finding 4): "never over a
+  // running game" beats "out over 400 ms". Every way the game resumes (a move played, ▶ on a row, the countdown let go) and
+  // a film taking the map left the layer fading over the running roll for 17 to 23 frames (the reader, at 60 Hz). The fade
+  // out is for the ways out that leave the game held: the row collapsed, Last rolls left, the hold's end.
+  // THE FADE IN STARTS WHEN THE LAYER CAN FIRST BE DRAWN (S1-R1, the reader's finding 5): with gameplan.js not in, the
+  // strength is held at 0, so the light comes in over its quarter second when the planner lands, not at full in one frame.
+  // A ROW LIGHTS ITS WAY (L2b S4, v1.298.0; the orchestrator's rulings (d) and (a), 19 Nov, and S4-GO, 23 Nov). On a computer,
+  // the open cloze's row under the pointer, else the one holding the keyboard's focus, else the row a tablet's tap lit
+  // (`ngClozeWay`, master-cloze.src.js, read from the DOM each frame, so nothing can be left lit when the pointer leaves):
+  //   after Show: the row's move is named first (the "row" pass, `draw()`) and ONE line runs place → move → on to the first
+  //   place it leads to, which stands clear and is named where the visible map shows it (else the line runs off the view);
+  //   before Show: a bar lights where its move lives, the place and that one move's orb standing clear, no name, no gold,
+  //   no line (a).
+  // A lit row never moves the camera. Never over a running game (`_lightOf`, `running`), never on a phone (`_czAt`), never
+  // for a cloze the bare-map close let go (`c.free`). Read once a frame (`_frameN`), as `_lightOf` and the names both ask.
+  _czWay() {
+    const f = this._frameN, m = this._czWayM;
+    if (m && m.f === f) return m.v;
+    const z = this.paused && this._czAt(), R = this._gameplanRuntime;
+    const v = z && !z.look && R && R.ngClozeWay ? R.ngClozeWay(this, z) : null;
+    this._czWayM = { f, v };
+    return v;
+  }
+  _drawLight(ctx, F) {
+    const n = this._lightOf(), wall = performance.now(), game = (this.now || 0) * 1000, look = this._czLookOn();
+    // A CLOZE'S LOOK'S WAY BACK (S3): the pill is shown exactly while the look is on, seated at the foot of the visible map
+    // (`_viewRect`, centred), above the roll's own rows; it is the deferred bundle's element (`ngClozeLook`)
+    const P = this._czPillEl;
+    if (P) {
+      if (P.hidden === look) P.hidden = !look;
+      if (look) { const R = this._viewRect(), cv = this.canvas.getBoundingClientRect(), t = Math.round(cv.top + R.top + R.height - 52), l = Math.round(cv.left + R.left + R.width / 2); if (P._t !== t || P._l !== l) { P._t = t; P._l = l; P.style.top = t + "px"; P.style.left = l + "px"; } }
+    }
+    // what this light shows is kept while it fades (S4): the moves a bar or a row lit stay what they were, never the place's
+    // whole hand for 400 ms after a bar (that would show where every hidden move lives)
+    if (n) { const w = this._czWay(); this._lightAt = n.idx; this._lightSet = w ? { bar: !!w.bar, move: w.move, dest: w.bar ? null : w.dest } : null; }
+    const dt = Math.max(wall - (this._lightT == null ? wall : this._lightT), game - (this._lightS == null ? game : this._lightS));
+    this._lightT = wall; this._lightS = game;
+    this._lastLight = null;
+    const R = this._gameplanRuntime;
+    if (!R || typeof R.ngLightDraw !== "function") {
+      this._lightK = 0;
+      const s = this._shown;
+      if (n && s && !s.cold) { s.cold = 1; this.fx("light_cold", { place: n.id }); }
+      return;
+    }
+    const was = this._lightK || 0, to = n ? 1 : 0, running = !this.paused || !!this._replay;
+    const k = this._lightK = running ? 0 : this._reducedMotion() ? to : to > was ? Math.min(1, was + dt / NG_LIGHT_IN_MS) : to < was ? Math.max(0, was - dt / NG_LIGHT_OUT_MS) : was;
+    const at = k > 0.001 && this._lightAt != null ? this.nodes[this._lightAt] : null;
+    if (!at) return;
+    const L = this._lightSet, moves = L && L.bar ? [L.move] : L && L.dest != null ? this._lightMoves(at).concat([L.dest]) : this._lightMoves(at);
+    this._lastLight = R.ngLightDraw(this, ctx, { ...F, k, place: at, moves, paleDown: look,   // a look's hidden moves: pale marks (S3)
+      gold: L && L.bar ? null : F.gold, way: L && !L.bar ? { move: L.move, dest: L.dest } : null });   // a bar: no gold, no line (S4)
   }
   // `press`: THE PRESS ON THE MAP THAT ENDS A LOOK TAKES THE CAMERA'S LEASE AGAIN, SO THE PLACE STAYS NAMED FOR THE CAMERA'S
   // HOLD TIME (L3-R2, the reader's re-read of PR #440 at 6ce6a6f03). That press is consumed (above), so on a phone the door
@@ -939,6 +1069,7 @@ class Component extends DCLogic {
   // And it keeps the map still under the second press: the roll runs again, and the follow-cam would otherwise leave for
   // where it stands. The wheel passes no `press`: it takes the camera for itself (`releaseCamera`), as it always did.
   _lookEnd(by, press) {
+    this._czLook = null;   // a cloze's look ends by any of these lifters too (S3, `_czLookOn`)
     if (!this._lookAutoPaused) return;
     if (press && this._shown) { this.holdCamera(); this._shown.t = this._camHoldTarget; }
     this._lookAutoPaused = false;
@@ -1189,6 +1320,7 @@ class Component extends DCLogic {
         if (this.closeListPicker()) return; // anchored chooser, same deliberate band as the menu
         if (this.closeAccountMenu()) return;
         if (this.stopReplay("esc")) return;  // a film is ambient chrome: it stops before the pane closes
+        if (this._czLookBack("esc")) return;   // a cloze's look: back to its drawer (S3)
         if (this.deckShown) this.setDeckOpen(false);
       } else if (!typing && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         // LAST ROLLS' KEYS (L3, ruling 2): ↑ ↓ walk the places; ← → do nothing here (they paged the deck a row held until
@@ -2148,7 +2280,7 @@ class Component extends DCLogic {
     // share-link ordinal manifest, both directions, built once per ingest
     this._sharedIncoming = null; // "no share link on this URL" is a value, not an absence
     this._sharedStale = null;    // …and "a valid link this build is too old for" is a third value
-    this._undoList = null; this._delArm = null;
+    this._undoList = null;
     this._ordById = new Map(); this._ordToId = new Map();
     for (const n of nodes) {
       if (typeof n.o !== "number") continue;
@@ -3826,6 +3958,7 @@ class Component extends DCLogic {
   setDeckOpen(open) {
     if (open && !this.deckOpen) this.track("neural_drill_opened", { deck_key: this._posKey || null });
     if (!open) {
+      this._listDragRelease();   // a lifter of the list drag's lease (`_listDragStart`): the drawer is closing
       if (this._checkpoint) this._cancelCheckpoint(); // abandoning the quiz cancels it (natural completion nulled it first)
       if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // a closed deck must not auto-advance
     }
@@ -4848,7 +4981,12 @@ class Component extends DCLogic {
       this.badges = Object.assign({}, p.badges || {});
       this.coins = Object.assign({}, p.coins || {});
       // lists ride the EXISTING v2 blob: a coach's class list is not worth a schema migration
-      this.lists = ngListsNormalize(p.lists);
+      // A MOVE'S CELLS (LISTS-R, `listItemAt`; lists.src.js above `NG_LIST_MARK_CAP`): read, then applied to the lists
+      // read with them, so an older client's re-union (X back in the source) is healed even on a plain load
+      this.listItemAt = ngListMarksNormalize(p.listItemAt);
+      // ...and a list's ORDER is derived from its record (ORDER-OK, `listOrderAt`; lists.src.js above NG_LIST_ORDER_CAP)
+      this.listOrderAt = ngListOrderNormalize(p.listOrderAt);
+      this.lists = ngListsApplyOrder(ngListsApplyMarks(ngListsNormalize(p.lists), this.listItemAt), this.listOrderAt);
       // the roll ledger (v1.137.0) and the visited-state set. `_exploredKeys` was in memory
       // only until now, which is why the "very weak" tier emptied on every reload.
       this.flow = this._trimFlow(Object.assign({}, p.flow || {}));
@@ -4893,6 +5031,10 @@ class Component extends DCLogic {
     // `moves` (v1.255.0) is written only once it holds a cell (review R4): an account that never graded a move
     // saves exactly the blob v1.254.0 saves, and an open older tab is never handed a `moves` copy to push back.
     if (Object.values(this.moves || {}).some(row => row && Object.keys(row).length)) out.moves = this.moves; else delete out.moves;
+    // `listItemAt` (LISTS-R) the same way: written once it holds a cell, so an account that never moved an item saves
+    // the blob it saved before (and the extras copy of an older shape never outlives the read above)
+    if (ngListMarksCount(this.listItemAt)) out.listItemAt = this.listItemAt; else delete out.listItemAt;
+    if (Object.keys(this.listOrderAt || {}).length) out.listOrderAt = this.listOrderAt; else delete out.listOrderAt;
     // `openAt` and `recallCarry` (v1.270.0, U163 c) once set; an older client keeps both through `_progressExtras`
     if (this._openAt > 0) out.openAt = this._openAt;
     if (this._recallCarry) out.recallCarry = true;
@@ -5484,7 +5626,7 @@ class Component extends DCLogic {
       // stands on that orb whichever side it plays (the side is the row's `role`), so "Show on the map" from a Bottom row named
       // the place TOP. `_seatMember` is the one seam for "the orb that plays this side" (a technique's key is its own half)
       const own = this._seatMember(ni, /bottom/i.test(h.role || "") ? "bottom" : "top");
-      const show = drawn ? () => this._showPlace(own) : null;
+      const show = drawn ? () => this._showPlace(own, rid) : null;
       // (R6: the row is remembered, so "‹ Master the game" comes back to it open and where it was: `renderDrillHome`)
       const go = drawn && this.nodes[ni].ty === "positions" ? () => { const l = this.drillListRef.current; this._histBack = { rid, key: h.key, log: this.rollLog, y: l ? l.scrollTop : 0 }; this.openMasterAt(h.key, "lastrolls"); } : null;
       const closeSelf = () => { detail.style.display = "none"; if (this._openRow === rid) this._openRow = null; if (this._focusRow === rid) this._focusRow = null; if (this._openMini && this._openMini.rid === rid) this._openMini = null; };
@@ -5873,7 +6015,7 @@ class Component extends DCLogic {
     empty.textContent = "No rolls yet — press play and your roll shows up here, state by state.";
     list.appendChild(empty);
   }
-  openModal() { if (this._legal && !this._legalOpening) this._legalClosed(); this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); const m = this.modalRef.current; if (m) m.style.display = "flex"; this.lastInteract = this.now; }
+  openModal() { if (this._legal && !this._legalOpening) this._legalClosed(); this._modalGeneration = (this._modalGeneration || 0) + 1; if (this._settingsRowRO) this._settingsRowRO.disconnect(); this.modalCardRef.current?.removeAttribute("data-settings-card"); const m = this.modalRef.current; if (m) m.style.display = "flex"; this.lastInteract = this.now; }
   /**
    * FEEDBACK GOES TO POSTHOG (v1.105.5, owner: "using post hoc. It should not be done using
    * GitHub"). U67 a: one Feedback row and form for both kinds. An optional technique-request
@@ -6156,7 +6298,8 @@ class Component extends DCLogic {
   _renderSettingsLoadState(intent, failed) {
     if (!this._settingsIntentCurrent(intent)) return;
     const card = intent.card;
-    card.style.width = "min(440px,92vw)"; card.innerHTML = "";
+    // The loaded card's width (SET1: at most 760 px), so the card does not jump wider when the drawing arrives.
+    card.style.width = "min(760px,calc(100vw - 64px))"; card.innerHTML = "";
     const body = document.createElement("div");
     body.style.cssText = "padding:22px;color:#eef1f6;";
     body.setAttribute("data-settings-load", failed ? "error" : "loading");
@@ -8025,7 +8168,7 @@ class Component extends DCLogic {
     const shownCount = this.userMods.filter(matches).length;
 
     const list = document.createElement("div");
-    list.style.cssText = "display:flex;flex-direction:column;gap:8px;max-height:300px;overflow-y:auto;margin:0 -4px;padding:0 4px;";
+    list.style.cssText = "display:flex;flex-direction:column;gap:8px;";
     this.userMods.forEach((m, i) => {
       if (!matches(m)) return;
       const r = document.createElement("div");
@@ -8395,7 +8538,15 @@ class Component extends DCLogic {
         );
         // ADD-WINS, beside the collectibles' UNION: union of lists, union of their items. A
         // delete loses to a stale device — deliberate (see ngMergeLists).
-        this.lists = ngMergeLists(this.lists || {}, cloud.lists || {});
+        // ...and a MOVE stays a move (LISTS-R): the two copies' cells first (per cell the later stamp, a tie to "in"),
+        // then the union with them applied (lists.src.js, `ngListsApplyMarks`: the no-loss guard). An older client that
+        // pushed the union alone is healed here; one that pushed a stale copy of the cells loses only the cells this
+        // copy does not hold, and this copy's push puts them back (the merge differs from the cloud).
+        this.listItemAt = ngListMarksMerge(this.listItemAt || {}, cloud.listItemAt);
+        // ...and an ORDER stays an order (ORDER-OK): the two copies' records first (per list the later stamp), then every
+        // list's order derived from the winning record, so an older build's stale `lists` order is never adopted
+        this.listOrderAt = ngListOrderMerge(this.listOrderAt || {}, cloud.listOrderAt);
+        this.lists = ngMergeLists(this.lists || {}, cloud.lists || {}, this.listItemAt, this.listOrderAt);
         this._syncWhiteChallengeCompatibility(cloud.updatedAt || 0);
         const localAt = this._progressAt || 0;
         if (cloud.settings) {
@@ -8451,6 +8602,8 @@ class Component extends DCLogic {
       this._pulled = true; this._pulledUserId = userId; this._pushSeq = (this._pushSeq || 0) + 1;
       try { this._afterPullLevel(empty ? null : cloud); } catch (e) { /* a held-back promotion's beat never fails a merged pull (N5) */ }
       this._cloudSeen = pushesAtStart === (this._pushEvents || 0) ? seen : null;
+      // ...and the copy itself, for `_onlyListFieldsBehind` (MOVE-R2 R1): is a push that sends nothing new a heal?
+      this._cloudPulled = empty ? null : { userId, blob: JSON.parse(JSON.stringify(cloud)) };
       this._cloudSyncError = null;
       // v1.262.0 (ORDER1): guest practice joins only HERE, after a successful pull, so the rule meets the CLOUD's rows
       // and not only this browser's copy. Joined before the pull, a guest's later or same-day "No" went in unprotected
@@ -8466,6 +8619,22 @@ class Component extends DCLogic {
     } finally {
       if (this._pullToken === token) this._pullToken = null;
     }
+  }
+  /**
+   * IS THE CLOUD BEHIND THIS TAB ONLY IN `listItemAt` / `listOrderAt`? (MOVE-R2 R1, the reader's test.) Take the copy this
+   * tab last pulled, put this tab's two list fields in place of its own, and derive it as a load would
+   * (`_mergeProgressBlobs` re-applies the cells and the order records to its lists): if that is exactly what this tab
+   * would push (`key`), the cloud differs only in what an older build pins, and a push would only restore it. Anything
+   * else, or any doubt (no copy, another account, a throw), answers no: a real change, pushed at once.
+   */
+  _onlyListFieldsBehind(userId, key) {
+    const c = this._cloudPulled;
+    if (!c || c.userId !== userId || !c.blob) return false;
+    try {
+      const mine = this._progressBlob(), blob = Object.assign({}, c.blob);
+      for (const f of ["listItemAt", "listOrderAt"]) { if (mine[f]) blob[f] = mine[f]; else delete blob[f]; }
+      return ngProgressCloudKey(this._mergeProgressBlobs(blob, { v: 2 })) === key;
+    } catch (e) { return false; }
   }
   _pushCloud() {
     const A = this._auth(), userId = this._authUserId;
@@ -8495,6 +8664,47 @@ class Component extends DCLogic {
         // is remembered as nothing and, as before, forces a re-pull, which records what the cloud really holds.
         const snap = this._progressHost.cloudSnapshot(this), key = ngProgressCloudKey(snap), seen = this._cloudSeen;
         if (!this._pushesInFlight && seen && seen.userId === userId && seen.key === key) return;
+        // A HEAL-ONLY PUSH BACKS OFF (MOVE-R1, F3, ruled). A push is a HEAL when what this tab would send is exactly what
+        // it last sent and the cloud took (`_pushedLast`), AND the cloud is behind it only in the two list fields (below):
+        // nothing new here, the cloud went back. One cause is ordinary (a
+        // stale device's push landed over ours once) and one is not: a build older than v1.296.1 keeps its own first copy
+        // of `listItemAt` and `listOrderAt` for good (unknown top-level keys merge local-wins in `_progressExtras`) and puts
+        // it back on every pull, while every current device puts the newer one back on its next pull: before this, two
+        // builds on one account pushed at each other on every pull, for as long as the older one ran (the reader's
+        // old_carry.mjs: 2 pushes a round, every round). So the FIRST heal goes at once (a fresh device still finds the
+        // cloud healed), and the next only after a doubling wait, 1 min, 2, 4 … at most an HOUR (NG_HEAL_WAIT_MIN/_MAX;
+        // MOVE-R2 R2: a day's cap left a fresh device wrong for up to a day after the older build was gone); any push that
+        // carries something new resets it. The older build goes quiet once the cloud holds its copy (its merge then
+        // equals the cloud). MEASURED, v1.294.0's source and this build on one account, a pull by each every 30 s or 5 min
+        // of simulated time (old_hours.mjs; the reader's hours.mjs): 8 + 8 pushes in the first hour, then about one an
+        // hour by each current device and two by the older build (31 + 31 in a day), against 120 + 120 every hour before.
+        // THE COST, stated plainly: while an older build is in use on the account, the cloud holds its copy most of the
+        // time (the newest move missing 98.8% of the day at 30 s pulls), so a device signing in meanwhile shows a move as a
+        // copy, and two current devices can disagree about a moved item, for up to an hour after the older build is gone
+        // (stopped at h6: the cloud healed in h7, stale 25% of the day). No technique is lost on any device: each holds its
+        // own fields, and the merge only adds. Per tab, in memory: a reload starts with an immediate heal, so a tab that
+        // reloads every 20 min pushes about 18 times an hour while an older build runs (the reader's measure).
+        // BOTH HALVES (MOVE-R2 R1, ruled): the first alone took a real change for a heal. An older build pushing over this
+        // tab twice in a row, each time from a read made just before this tab's write landed, erased a technique this tab
+        // had added, and its re-push then waited as a "heal" (the reader's seed 12163). So a heal also needs the cloud to
+        // be behind in nothing but `listItemAt` and `listOrderAt` (`_onlyListFieldsBehind`); anything else it lacks (an
+        // item in a list, an answer, a setting) goes at once.
+        // AND A BOUND (MOVE-R2, mine, flagged for a ruling): a push of an UNCHANGED state that the test above calls real
+        // goes at once twice in a row (`_restoreRun`; R1's case, a racing write erasing a real change twice, needs exactly
+        // two); from the third in a row it is a heal (that one at once, then the doubling waits). Without it, two current
+        // devices that disagree about a moved item while an older build strips both their cells from the cloud each see
+        // "more than the two fields behind", push at once, and never stop: the older-device fuzz had 20 of 3,000 runs that
+        // never settled (3 pushes a round), none before R1. A real change here resets the count (and the wait) as before.
+        const last = this._pushedLast, same = !!(last && last.userId === userId && last.key === key);
+        const fieldsOnly = same && this._onlyListFieldsBehind(userId, key);
+        this._restoreRun = same && !fieldsOnly ? (this._restoreRun || 0) + 1 : 0;
+        const heal = same && (fieldsOnly || this._restoreRun > 2);
+        if (heal) {
+          const now = Date.now();
+          if (now < (this._healNext || 0)) return;
+          this._healWait = this._healWait ? Math.min(this._healWait * 2, NG_HEAL_WAIT_MAX) : NG_HEAL_WAIT_MIN;
+          this._healNext = now + this._healWait;
+        } else { this._healWait = 0; this._healNext = 0; }
         const seq = this._pushSeq = (this._pushSeq || 0) + 1, solo = !this._pushesInFlight;
         this._pushesInFlight = (this._pushesInFlight || 0) + 1; this._pushEvents = (this._pushEvents || 0) + 1;
         let ok;
@@ -8503,6 +8713,7 @@ class Component extends DCLogic {
         if (!ok && current()) {
           this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "push-failed";
         } else if (ok && current()) {
+          this._pushedLast = { userId, key };   // what the cloud took from this tab last: a later push of the same is a heal
           this._cloudSeen = solo && seq === this._pushSeq ? { userId, key } : null;
           // v1.280.2: what that copy holds is delivered: those answers leave the journal (`ngProgressReplay`). Only a push
           // that ran alone: two in flight can land in either order, and the rows are then proven at the next pull instead.
@@ -8797,6 +9008,7 @@ class Component extends DCLogic {
     });
   }
   setViewMode(m) {
+    this._listDragRelease();   // a lifter of the list drag's lease (`_listDragStart`): the view is about to be rebuilt
     // THE PATH AND ITS OLDER ALIAS (v1.287.0, SET1 slice B; O3): the view left the drawer, and a request for it lands
     // where its corridor lives, Master the game (`openCorridor`): View Collection (O1, through `openLearningView`), and
     // anything still asking for it by name
@@ -9865,6 +10077,8 @@ class Component extends DCLogic {
     if (this.deckOpen && this.sbOffset() === 0) { this.setDeckOpen(false); this._session = null; this._sessionNodes = null; this._inSession = false; }
   }
   renderExplorer() {
+    // HELD WHILE A LIST ITEM IS IN THE HAND (LISTS-R Slice 3, the lease: `_listDragStart`): it runs once when the drag ends
+    if (this._listDrag) { this._listDragHeld = true; return; }
     // defensive: legacy callers (setGiMode, selectChallengeTrack) call this
     // directly — route the History tab to its own renderer instead of the explorer list
     if (this._viewMode === "history") {
@@ -10385,6 +10599,23 @@ class Component extends DCLogic {
   // …and the SECTION around it opens too (v1.196.1): a list opened inside a folded Your lists is
   // a list nobody can see. Made, added to, restored — every caller of this means "show it".
   _expandList(id) { if (id) { this._listExpand().add(id); this._revealLists(); } }
+  /**
+   * OPEN OR SHUT A LIST, AND ITS LIGHT WITH IT (LISTS-MENU-2): the row's press and its chevron's. The owner's rule (the name
+   * opens and shuts, as the chevron does) with the orchestrator's (an open list is lit on the map; shutting it puts the
+   * light out), so the row's older use survives. With several lists open, THE LAST ONE OPENED is the lit one: a press is
+   * a question about that list, and the map answers the newest question. Shutting a list that is not the lit one leaves
+   * the light where it is. A list that opened itself (made, added to, restored: `_expandList`) is open and NOT lit: only a
+   * player's press lights. The light is set BEFORE the one render `_toggleListExpand` makes, so a chevron pressed by key
+   * keeps the focus (`_listOpenFocusPending`) and the camera's flight is the light's own (`setFocusIdxSet`).
+   */
+  _toggleListOpen(id) {
+    if (!this._listsMap()[id]) return;
+    if (!this._listExpanded(id)) {
+      const idxs = this.listIdxs(id);
+      if (idxs.length) { this.clearFocus(); this._listFocusId = id; this.setFocusIdxSet(idxs); }
+    } else if (this._listFocusId === id) this.clearFocus();
+    this._toggleListExpand(id);
+  }
   _toggleListExpand(id) {
     const s = this._listExpand();
     if (s.has(id)) s.delete(id); else s.add(id);
@@ -10418,6 +10649,10 @@ class Component extends DCLogic {
     if (l.items.indexOf(nodeId) >= 0) return { added: false, listId: id, reason: "already" };
     if (l.items.length >= NG_LIST_ITEM_CAP) return { added: false, listId: id, reason: "full" };
     l.items.push(nodeId); l.t = this._listStamp();
+    // a re-add into a list a MOVE once took this item out of: its cell must say "in" now, later than that "out", or the
+    // next merge takes it out again (LISTS-R). Only where a cell exists: an ordinary add writes none.
+    if (this.listItemAt && this.listItemAt[id] && this.listItemAt[id][nodeId]) this.listItemAt = ngListMarksSet(this.listItemAt, id, nodeId, this._listMarkStamp(), 1);
+    this._keepListOrder(id);   // a list with an order record: rewritten only if the shown order would differ from its record's
     this._saveProgress();
     // AUTO-EXPAND THE LIST YOU JUST ADDED TO. The owner's ask is literally "see the listed
     // techniques AFTER ADDING": a + pressed while the pane is open has to land somewhere the
@@ -10439,6 +10674,85 @@ class Component extends DCLogic {
     if (this._listFocusId === id && !m[id]) this.clearFocus();
     return true;
   }
+  /** A cell's stamp: a list stamp (`_listStamp`, above every list's `t`) that is also later than every cell held, so a
+   *  move or an undo made after seeing another device's cells is later than each of them. */
+  _listMarkStamp() { return Math.max(this._listStamp(), ngListMarksNewest(this.listItemAt) + 1, ngListOrderNewest(this.listOrderAt) + 1); }
+  /**
+   * MOVE one item from one list to another (LISTS-R; the owner, 19 Nov: "or move items between lists"). ONE step, in this
+   * order: refuse first (no such list, not in the source, the target full), ADD to the target, then TAKE OUT of the
+   * source, one stamp, ONE save (one persist, one push), so no moment ever holds the item in no list. Two cells record it
+   * (`listItemAt`: out of the source, into the target), which is what keeps it a move on every other device (lists.src.js,
+   * `ngListsApplyMarks`). A target that already holds the item only loses the source copy. A source the move empties is
+   * gone, as an emptied list always is, and its Undo brings it back. `via` rides the event: "menu" | "drag".
+   */
+  moveListItem(nodeId, fromId, toId, via) {
+    nodeId = this.siteIdOf(nodeId);   // a list holds SITES — see siteIdOf
+    const m = this._listsMap(), from = m[fromId], to = m[toId];
+    if (!from || !to) return { moved: false, reason: "no_list" };
+    if (fromId === toId) return { moved: false, reason: "same" };
+    const at = from.items.indexOf(nodeId);
+    if (at < 0) return { moved: false, reason: "not_in_source" };
+    const had = to.items.indexOf(nodeId) >= 0;
+    if (!had && to.items.length >= NG_LIST_ITEM_CAP) return { moved: false, reason: "full" };
+    // fromT / toT: the two lists' recency before the move, which its Undo puts back (MOVE-R1, F6), as a delete's Undo does
+    const undo = { kind: "move", node: nodeId, from: fromId, to: toId, at, had, fromName: from.name, toName: to.name, fromT: from.t, toT: to.t,
+      source: from.items.length === 1 ? { name: from.name, items: from.items.slice(), t: from.t } : null };
+    const t = this._listMarkStamp();
+    if (!had) to.items.push(nodeId);
+    to.t = t + 1;   // the target sorts first (`listsArray`): it is where the item went
+    from.items.splice(at, 1); from.t = t;
+    this.listItemAt = ngListMarksSet(ngListMarksSet(this.listItemAt, fromId, nodeId, t, 0), toId, nodeId, t, 1);
+    if (!had) this._keepListOrder(toId);   // a target with an order record: rewritten only if the shown order would differ
+    if (!from.items.length) delete m[fromId];
+    if (this._listFocusId === fromId) this.clearFocus();
+    this._saveProgress();
+    this._expandList(toId);
+    this._landList = { id: toId, node: nodeId };   // the next render brings the moved item into view
+    this._armMoveUndo(undo);
+    this.track("neural_list_item_moved", { via: via === "drag" ? "drag" : "menu", count: to.items.length });
+    return { moved: true, already: had, count: to.items.length, emptied: !m[fromId] };
+  }
+  /** The move's Undo (the one slot `_undoList` the delete uses: the newest offer wins and the row names what it undoes).
+   *  It writes NEWER cells, so it syncs like the move: back into the source at its old place, out of the target unless
+   *  the target held it before; a source the move emptied comes back whole. */
+  _armMoveUndo(rec) {
+    this._undoList = Object.assign({ t: Date.now() }, rec);
+    if (this._undoT) clearTimeout(this._undoT);
+    const mine = this._undoList;
+    // real setTimeout, not the sim clock: this is UI patience, not game time (the delete's 90 s)
+    this._undoT = setTimeout(() => { if (this._undoList === mine) { this._undoList = null; this._refreshListSurfaces(); } }, 90000);
+  }
+  undoMoveListItem() {
+    const u = this._undoList; if (!u || u.kind !== "move") return false;
+    this._undoList = null;
+    const m = this._listsMap(), t = this._listMarkStamp();
+    // THE RECENCY GOES BACK TOO (MOVE-R1, F6): a source the move emptied comes back with its own `t`, and a source or a
+    // target it touched takes the `t` it had before, so the Undo leaves Your lists in the order it was, as a delete's Undo
+    // does (before, an emptied source came back at the top, and the two lists tied on one stamp). Harmless to the merge:
+    // a list's presence is add-wins and its name did not change; the cells below carry the Undo's own, later stamp.
+    // KNOWN (MOVE-R2 R5, the reader's f6c.mjs): if another device pulled the move before this Undo, the next sync lifts
+    // both lists again (a list's `t` merges by the later), on both devices. The order of Your lists only, never an item.
+    if (!m[u.from]) {
+      if (!u.source) return false;
+      m[u.from] = { name: u.source.name, items: u.source.items.slice(), t: u.source.t };
+    } else if (m[u.from].items.indexOf(u.node) < 0) {
+      if (m[u.from].items.length >= NG_LIST_ITEM_CAP) return false;
+      m[u.from].items.splice(Math.min(u.at, m[u.from].items.length), 0, u.node); m[u.from].t = u.fromT || t;
+    }
+    let marks = ngListMarksSet(this.listItemAt, u.from, u.node, t, 1);
+    this._keepListOrder(u.from);   // back at its place: a record a merge changed meanwhile follows what is shown
+    const to = m[u.to];
+    if (!u.had) {
+      marks = ngListMarksSet(marks, u.to, u.node, t, 0);
+      if (to) { const i = to.items.indexOf(u.node); if (i >= 0) { to.items.splice(i, 1); to.t = u.toT || t; } if (!to.items.length) delete m[u.to]; }
+    } else if (to && u.toT) to.t = u.toT;   // it had the item already: the move only lifted it to the top of Your lists
+    this.listItemAt = marks;
+    this._saveProgress();
+    this._expandList(u.from);
+    this.setEvent("Moved back", "to “" + m[u.from].name + "”", "good");
+    this._refreshListSurfaces();
+    return true;
+  }
   /**
    * Arm the "Undo" offer for a list that is about to stop existing. ONE seam, two callers:
    * the explicit two-step delete, and the removal that empties a list (removeFromList drops a
@@ -10446,6 +10760,27 @@ class Component extends DCLogic {
    * v1.99.4 per-item × puts that one click from a list you are reading). `t` is when the OFFER
    * was made — it expires (an undo row is a reaction, not a permanent record).
    */
+  /** An item's removal's Undo (LISTS-MENU-2 part 2): the one slot `_undoList`, kind "remove"; 90 s, the delete's patience. */
+  _armItemUndo(rec) {
+    this._undoList = Object.assign({ t: Date.now() }, rec);
+    if (this._undoT) clearTimeout(this._undoT);
+    const mine = this._undoList;
+    // real setTimeout, not the sim clock: this is UI patience, not game time
+    this._undoT = setTimeout(() => { if (this._undoList === mine) { this._undoList = null; this._refreshListSurfaces(); } }, 90000);
+  }
+  undoRemoveListItem() {
+    const u = this._undoList; if (!u || u.kind !== "remove") return false;
+    this._undoList = null;
+    const l = this._listsMap()[u.list];
+    if (!l || l.items.indexOf(u.node) >= 0 || l.items.length >= NG_LIST_ITEM_CAP) { this._refreshListSurfaces(); return false; }
+    l.items.splice(Math.min(u.at, l.items.length), 0, u.node); l.t = this._listStamp();
+    this._keepListOrder(u.list);   // back at its place: a record a merge changed meanwhile follows what is shown
+    this._saveProgress();
+    this._expandList(u.list);
+    this.setEvent("Put back", this.listItemName(u.node), "good");
+    this._refreshListSurfaces();
+    return true;
+  }
   _armListUndo(id, snapshot) {
     this._undoList = { id: id, t: Date.now(), list: { name: snapshot.name, items: snapshot.items.slice(), t: snapshot.t } };
     if (this._undoT) clearTimeout(this._undoT);
@@ -10726,7 +11061,7 @@ class Component extends DCLogic {
    * instead of removing it from the one being read. An explicit × addressed to `listId` is the
    * only affordance that says what it does.
    */
-  removeListItem(nodeId, listId) {
+  removeListItem(nodeId, listId, withUndo) {
     nodeId = this.siteIdOf(nodeId);
     const m = this._listsMap();
     const id = listId; // always named by the caller — there is no active list to fall back on
@@ -10739,8 +11074,13 @@ class Component extends DCLogic {
     // removeFromList DELETES a list whose last item just left; snapshot first so that deletion
     // is takeable back through the same undo row the two-step delete uses
     const snapshot = l.items.length === 1 ? { name: l.name, items: l.items.slice(), t: l.t } : null;
+    const at = l.items.indexOf(nodeId);
     if (!this.removeFromList(nodeId, id)) return false;
     if (snapshot && !m[id]) this._armListUndo(id, snapshot);
+    // REMOVE FROM LIST, FROM AN ITEM'S MENU, GAINS A WAY BACK (LISTS-MENU-2 part 2): it is two presses deep now, not a stray
+    // ×, and the Undo row puts the item back at its place (the one slot `_undoList`, its kind "remove"; the newest offer
+    // wins). Emptying the list keeps the delete's own Undo above, which brings the whole list back.
+    else if (withUndo) this._armItemUndo({ kind: "remove", node: nodeId, list: id, at, listName: l.name });
     this.setEvent("Removed from " + where, name, "bad");
     // the lit graph follows the list it is lighting. noFrame: a removal must not fly the camera
     // — the user is reading a row, not asking to be taken somewhere. (removeFromList already
@@ -11069,12 +11409,243 @@ class Component extends DCLogic {
   // annotation, why is there a default in the first place? … we always select the list to
   // add/favorite something to right?" — yes, since v1.102.0. The picker now offers its rows in
   // `listsArray()` order, the Lists panel's own, and marks none of them.
+  /**
+   * A LIST'S OWN MENU (LISTS-MENU): Rename · Duplicate · Share link · Delete, from the row's ⋮. It is the star's picker's
+   * kind of thing and it lives in the picker's own slot (`_pickEl`, `_pickAnchor`, `_pickAway`), so every place that
+   * closes an anchored chooser closes it too, by the one seam `closeListPicker`: Esc's ladder, a press outside, the pane's
+   * visibility changing, a hand resolving, a resize across the phone's breakpoint, an unmount. Placed by the picker's rule
+   * (`_placeListPicker`: above if there is room, clamped whole to the screen, never over the hand), so it ends whole on a
+   * 390x631 phone for a list's LAST row in a scrolled drawer too (the orchestrator's ruling 5; `lists-menu.spec.ts`).
+   * Root plane, z 90: a sibling of the wrap, so `attachInput`'s capture never sees its presses (the picker's case; no
+   * early-return entry). It never stops the clock. Keys: ↑ ↓ Home End move, Enter chooses, Esc and Tab close (focus back on ⋮).
+   */
+  openListMenu(listId, anchor, byKey) {
+    const l = this._listsMap()[listId]; if (!l) return null;
+    const el = this._openAnchoredMenu({ open: ["data-list-menu-open", listId], menuKey: listId, label: "Actions for “" + l.name + "”",
+      kicker: "List", title: l.name, anchor, byKey,
+      // Delete is last and in its own ink: set apart from Share link, the press a coach makes in front of the class
+      items: [["rename", "Rename"], ["duplicate", "Duplicate"], ["share", "Share link"], ["delete", "Delete", { warn: true }]],
+      choose: (k) => this._listMenuChoose(listId, k) });
+    this.track("neural_list_menu_opened", { lists: this.listsArray().length });
+    return el;
+  }
+  /**
+   * ONE BUILDER FOR THE ANCHORED MENUS (a list's ⋮ and an item's ⋮; LISTS-MENU-2): the picker's look (`.ng-listpicker`), its
+   * slot (`_pickEl`, `_pickAnchor`, `_pickAway`, closed by the one seam `closeListPicker`), its placement (`_placeListPicker`)
+   * and the keys: a key opens it on its first item; ↑ ↓ (wrapping) Home End move among the items that can be chosen;
+   * Enter chooses; Esc and Tab close it, focus back on the anchor. A disabled item (an item's Move up at the top) is shown
+   * and skipped. `menuKey` is what a second press of the same anchor compares (`_pickMenu`), to shut its own menu.
+   */
+  _openAnchoredMenu({ open, menuKey, label, kicker, title, items, anchor, byKey, choose }) {
+    this.closeListPicker();
+    this.closeAccountMenu();
+    const root = this.__ngRoot || document.body;
+    const el = document.createElement("div");
+    el.className = "ng-listpicker";
+    el.setAttribute(open[0], open[1]);
+    el.setAttribute("role", "menu");
+    el.setAttribute("aria-label", label);
+    el.style.cssText = "position:fixed;z-index:90;pointer-events:auto;display:flex;flex-direction:column;";
+    el.innerHTML = '<div class="ng-listpicker-head" data-picker-head="1"><b>' + this.escHTML(kicker) + "</b><small>" + this.escHTML(title) + "</small></div>";
+    const body = document.createElement("div");
+    body.className = "ng-listpicker-body";
+    for (const [k, text, o] of items) {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute("role", "menuitem");
+      b.setAttribute("data-list-menu-item", k);
+      b.className = "ng-listpicker-row";
+      b.tabIndex = -1;
+      if (o && o.disabled) { b.disabled = true; b.setAttribute("aria-disabled", "true"); b.style.opacity = ".45"; b.style.cursor = "default"; }
+      b.innerHTML = '<span class="ng-listpicker-name"' + (o && o.warn ? ' style="color:#ff9c92;"' : "") + ">" + this.escHTML(text) + "</span>";
+      b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); if (!b.disabled) choose(k, e.detail === 0); });
+      body.appendChild(b);
+    }
+    el.appendChild(body);
+    const live = () => [...body.querySelectorAll("[data-list-menu-item]")].filter((r) => !r.disabled);
+    el.addEventListener("keydown", (e) => {
+      const rows = live(), at = rows.indexOf(document.activeElement);
+      const go = (i) => { e.preventDefault(); const r = rows[(i + rows.length) % rows.length]; if (r) r.focus(); };
+      if (e.key === "ArrowDown") go(at + 1);
+      else if (e.key === "ArrowUp") go(at < 0 ? rows.length - 1 : at - 1);
+      else if (e.key === "Home") go(0);
+      else if (e.key === "End") go(rows.length - 1);
+      else if (e.key === "Escape" || e.key === "Tab") { e.preventDefault(); this.closeListPicker(); }
+      else return;
+      e.stopPropagation();   // the menu owns these keys: Esc must not also walk the pane's ladder
+    });
+    root.appendChild(el);
+    this._pickEl = el; this._pickNode = null; this._pickAnchor = anchor || null; this._pickMenu = menuKey;
+    if (anchor) anchor.setAttribute("aria-expanded", "true");
+    this._placeListPicker(el, anchor);
+    this._pickAway = (e) => {
+      if (el.contains(e.target) || (anchor && anchor.contains(e.target))) return;
+      this.closeListPicker();
+    };
+    document.addEventListener("pointerdown", this._pickAway, true);
+    // the first item takes the keys at once when a KEY opened the menu (the APG menu button); a mouse or a tap leaves focus
+    // on the anchor, where the arrows still reach the menu's first (or last) item
+    if (byKey) { const first = live()[0]; if (first) first.focus(); }
+    else if (anchor) anchor.addEventListener("keydown", (e) => {
+      if (this._pickEl !== el || (e.key !== "ArrowDown" && e.key !== "ArrowUp")) return;
+      e.preventDefault(); e.stopPropagation();
+      const rows = live();
+      const r = rows[e.key === "ArrowDown" ? 0 : rows.length - 1]; if (r) r.focus();
+    });   // each opening's listener answers only while ITS menu is the open one (`this._pickEl !== el`)
+    return el;
+  }
+  /** One of the list menu's items, chosen: the menu gets out of the way first, then the action runs on THAT list. */
+  _listMenuChoose(listId, k) {
+    this.closeListPicker();
+    const l = this._listsMap()[listId]; if (!l) return false;
+    if (k === "rename") { this.startListRename(listId, "menu"); return true; }
+    if (k === "duplicate") return !!this.duplicateList(listId);
+    if (k === "share") { void this.shareList(listId); return true; }
+    if (k === "delete") {
+      // ONE PRESS, THEN UNDO (LISTS-MENU, ruling 1). The row's two-step "Delete?" guarded a 24px × that sat 12px from
+      // Share; inside a menu Delete is already the second deliberate press, set apart from Share link, and the Undo row
+      // (`_undoRow`, 90 s) puts the list back exactly: its items, its name, its `t`.
+      const n = l.items.length;
+      this.deleteList(listId);
+      this.track("neural_list_deleted", { items: n, via: "menu" });
+      return true;
+    }
+    return false;
+  }
+  /**
+   * AN ITEM'S OWN MENU (LISTS-MENU-2 part 2; the owner, 23 Nov: "tat x icon on the list items is very consufing too, make it a
+   * 3 dots icon ads well which includes sharing, remove from list, move up, move down (the list order)"): Share · Move up ·
+   * Move down · Move to… · Remove from list, Remove last in the warning ink, Move up and Move down disabled at the list's
+   * ends. "Move to…" (LISTS-R Slice 2) opens the star's own picker in its move mode, anchored to this ⋮: the move step's
+   * control lives in this menu, not on the row (it was a ⇄ on the row until the item menu took the row's last place).
+   */
+  openItemMenu(nodeId, listId, anchor, byKey) {
+    const l = this._listsMap()[listId]; if (!l) return null;
+    const at = l.items.indexOf(nodeId); if (at < 0) return null;
+    return this._openAnchoredMenu({ open: ["data-list-item-menu-open", nodeId], menuKey: "item|" + listId + "|" + nodeId,
+      // the kicker names the KIND, as the list's menu does ("List"): opened inside the list, the list is in view already, and a
+      // long list name in the kicker's capitals wrapped to two lines at 390 (the first screens)
+      label: "Actions for " + this.listItemName(nodeId), kicker: "Technique", title: this.listItemName(nodeId), anchor, byKey,
+      items: [["share", "Share"], ["up", "Move up", { disabled: at === 0 }], ["down", "Move down", { disabled: at === l.items.length - 1 }],
+        ["move", "Move to…"], ["remove", "Remove from list", { warn: true }]],
+      choose: (k, key) => this._itemMenuChoose(nodeId, listId, k, key, anchor) });
+  }
+  _itemMenuChoose(nodeId, listId, k, byKey, anchor) {
+    this.closeListPicker();
+    const l = this._listsMap()[listId]; if (!l || l.items.indexOf(nodeId) < 0) return false;
+    if (k === "share") { void this.shareListItem(nodeId, listId); return true; }
+    if (k === "up" || k === "down") return this.moveListItemBy(listId, nodeId, k === "up" ? -1 : 1, byKey);
+    if (k === "move") return !!this.openListPicker(nodeId, "move", anchor && anchor.isConnected ? anchor : null, { moveFrom: listId, byKey: byKey });
+    if (k === "remove") {
+      const ok = this.removeListItem(nodeId, listId, true);
+      if (ok) this.track("neural_list_item_removed", { via: "menu" });
+      return ok;
+    }
+    return false;
+  }
+  /**
+   * SHARE ONE TECHNIQUE: its own page, `origin + _nodeUrlPath(idx)` (e.g. https://bjjgraph.org/Transitions/Armbar-from-Mount;
+   * a position's is its /Top page, the page the list's item opens). The share sheet on a phone, else the clipboard and
+   * "Link copied", else a selectable box under the item (the list's Share link's own fallback order).
+   */
+  async shareListItem(nodeId, listId) {
+    const i = this._idIndex ? this._idIndex.get(this.siteIdOf(nodeId)) : null;
+    const path = i != null ? this._nodeUrlPath(i) : null;
+    if (!path) { this.setEvent("Nothing to share", "This technique is not in this version of the graph", "bad"); return ""; }
+    let origin = ""; try { origin = location.origin; } catch (e) { origin = ""; }
+    const url = origin + path, name = this.listItemName(nodeId);
+    this._lastItemShareUrl = url;
+    this.track("neural_list_item_shared", {});
+    try { if (navigator.share && this.isMobile()) { await navigator.share({ title: name, url: url }); return url; } } catch (e) { /* dismissed: the clipboard */ }
+    try {
+      await navigator.clipboard.writeText(url);
+      this.setEvent("Link copied", name, "good");
+    } catch (e) {
+      const row = (this.__ngRoot || document).querySelector('[data-list-items="' + listId + '"] [data-list-itemrow="' + nodeId + '"]');
+      if (row) {
+        let out = row.parentElement.querySelector('[data-list-item-url="' + nodeId + '"]');
+        if (!out) {
+          out = document.createElement("input"); out.readOnly = true; out.setAttribute("data-list-item-url", nodeId);
+          out.style.cssText = "width:100%;margin:2px 0 6px 10px;font-family:inherit;font-size:11px;color:#dbe2f0;background:rgba(255,255,255,.05);border:1px solid rgba(150,170,210,.22);border-radius:7px;padding:5px 7px;pointer-events:auto;";
+          row.after(out);
+        }
+        out.value = url; try { out.select(); } catch (e2) { /* non-fatal */ }
+      }
+    }
+    return url;
+  }
+  /**
+   * A LIST WITH AN ORDER RECORD SHOWS WHAT ITS RECORD DERIVES, ALWAYS (LISTS-R Slice 2; MOVE-R1 F2; MOVE-R2 R3). Every
+   * device derives a list's order from its record (`ngListsApplyOrder`: the items it names in its order, then the rest BY
+   * ID), so one record and one set of items show one order everywhere. A remove keeps that true by itself. An INSERTION
+   * rewrites the record, later than every record and cell held, ONLY when the order the player now sees is not the one
+   * the record derives:
+   *   - an item the record still names, added back at the end (the star's add, a move into the list) or put back at a place
+   *     (an Undo after a merge changed the record), would otherwise jump to its recorded place;
+   *   - an item added among items the record does not name may not be where the id order puts it.
+   * A plain add of an item the record does not name, landing where the id order puts it (the usual case: one new
+   * technique at the end), writes nothing, so it can no longer undo a reorder another device made unseen (the reader's
+   * cost.mjs; MOVE-R1's rule rewrote on every insertion). THE COST that remains, last-writer-wins on one register, ruled:
+   * when this does write, a reorder made on another device that this one has not seen yet loses to it. A list with no
+   * record is left alone: an add never creates one. A delete's Undo never calls this (it takes the record's order).
+   * Returns whether it wrote.
+   */
+  _keepListOrder(listId) {
+    const rec = this.listOrderAt && this.listOrderAt[listId], l = this._listsMap()[listId];
+    if (!rec || !l) return false;
+    const derived = ngListsApplyOrder({ [listId]: l }, { [listId]: rec })[listId].items;
+    if (derived.length === l.items.length && derived.every((n, i) => n === l.items[i])) return false;
+    this.listOrderAt = ngListOrderSet(this.listOrderAt, listId, this._listMarkStamp(), l.items);
+    return true;
+  }
+  /**
+   * MOVE AN ITEM UP OR DOWN ITS LIST, AND THE ORDER SYNCS (LISTS-MENU-2 part 2; ORDER-OK, landed with the move step, LISTS-R
+   * Slice 2). The reorder records the list's whole order in `listOrderAt` (lists.src.js above NG_LIST_ORDER_CAP), later
+   * than every record and cell held (`_listMarkStamp`), and every device derives the list's order from the winning record.
+   * The list's `t` is NOT bumped: `t` is the panel's recency order, and a Move up must not make the list jump under the
+   * finger; the record is what the no-echo key sees, so the reorder is pushed. (v1.295.2 reordered on this device only.)
+   */
+  moveListItemBy(listId, nodeId, delta, byKey) {
+    const l = this._listsMap()[listId]; if (!l) return false;
+    const at = l.items.indexOf(nodeId), to = at + delta;
+    if (at < 0 || to < 0 || to >= l.items.length) return false;
+    l.items.splice(at, 1); l.items.splice(to, 0, nodeId);
+    this.listOrderAt = ngListOrderSet(this.listOrderAt, listId, this._listMarkStamp(), l.items);
+    this._saveProgress();
+    this.track("neural_list_item_reordered", { dir: delta < 0 ? "up" : "down" });
+    // a KEY that moved the item follows it: focus on its ⋮ in its new place (the anchor was rebuilt by the render)
+    if (byKey) this._itemMenuFocus = { node: nodeId, list: listId };
+    this._refreshListSurfaces();
+    this._itemMenuFocus = null;
+    return true;
+  }
+  /**
+   * DUPLICATE a list (LISTS-MENU): a new list with the same techniques in the same order, named "<name> copy" (the base cut
+   * so the whole fits NG_LIST_NAME_MAX), stamped now (so it sorts first), opened in the name editor. It refuses nothing:
+   * there is no cap on the number of lists (ruled), and a copy holds at most its source's items, which are within the cap.
+   */
+  duplicateList(listId) {
+    const src = this._listsMap()[listId]; if (!src) return "";
+    const suffix = " copy";
+    const name = String(src.name || "").slice(0, NG_LIST_NAME_MAX - suffix.length).replace(/\s+$/, "") + suffix;
+    const id = this.newList(name);
+    const copy = this._listsMap()[id];
+    copy.items = src.items.slice(0, NG_LIST_ITEM_CAP);
+    copy.t = this._listStamp();
+    this._saveProgress();
+    this.track("neural_list_duplicated", { items: copy.items.length });
+    // opened in the name editor, as a list made with + is: the copy's name is offered, never demanded
+    this._listEditId = id; this._listEditVia = "menu"; this._listEditDraft = null; this._listEditFocusPending = true;
+    this._listFocusId = null;
+    this.renderExplorer();
+    return id;
+  }
   closeListPicker() {
     if (!this._pickEl) return false;
     try { this._pickEl.remove(); } catch (e) { /* non-fatal */ }
     this._pickEl = null;
     if (this._pickAway) { document.removeEventListener("pointerdown", this._pickAway, true); this._pickAway = null; }
-    const a = this._pickAnchor; this._pickAnchor = null; this._pickNode = null;
+    const a = this._pickAnchor; this._pickAnchor = null; this._pickNode = null; this._pickMove = null; this._pickMenu = null;
     if (a) { try { a.setAttribute("aria-expanded", "false"); a.focus(); } catch (e) { /* non-fatal */ } }
     return true;
   }
@@ -11112,9 +11683,13 @@ class Component extends DCLogic {
     el.style.left = left + "px";
     el.style.top = top + "px";
   }
-  openListPicker(nodeId, surface, anchor) {
+  openListPicker(nodeId, surface, anchor, opts) {
     nodeId = this.siteIdOf(nodeId);   // the picker's ✓ must read the id the list will hold
     this.closeListPicker();
+    // THE SAME MENU MOVES AN ITEM (LISTS-R): opened from an item's ⇄ inside a list it is the star's own menu in a move
+    // mode (`_pickMove` = the list the item leaves), so a phone, where a drag fights the scroll and the drawer's swipe,
+    // moves an item with the control it already knows. A move is one verb; copying stays with the star.
+    const moveFrom = opts && opts.moveFrom && this._listsMap()[opts.moveFrom] ? opts.moveFrom : null;
     this.closeAccountMenu();
     const root = this.__ngRoot || document.body;
     const el = document.createElement("div");
@@ -11122,13 +11697,14 @@ class Component extends DCLogic {
     el.setAttribute("data-list-picker", nodeId);
     el.setAttribute("data-list-surface", surface || "unknown");
     el.setAttribute("role", "menu");
-    el.setAttribute("aria-label", "Add to list");
+    el.setAttribute("aria-label", moveFrom ? "Move to list" : "Add to list");
+    if (moveFrom) el.setAttribute("data-list-picker-move", moveFrom);
     // Z LADDER (helmet.html): 90-99 is the deliberate-temporary-screen band. The picker is a
     // screen the user asked for, so it must not be underdrawn by the landing card (5), the
     // option sheet; it sits with the account menu at 90, under the modal 95.
     el.style.cssText = "position:fixed;z-index:90;pointer-events:auto;display:flex;flex-direction:column;";
     root.appendChild(el);
-    this._pickEl = el; this._pickNode = nodeId; this._pickAnchor = anchor || null;
+    this._pickEl = el; this._pickNode = nodeId; this._pickAnchor = anchor || null; this._pickMove = moveFrom;
     // ZERO LISTS AND ONE LIST ARE NOT DEFAULTS — THEY ARE THE ABSENCE OF A CHOICE. With no list
     // the create row IS the picker (the name field opens prefilled "Class · <date>", offered and
     // never demanded); with one list, that list is the only row beside "New list". Neither files
@@ -11142,6 +11718,26 @@ class Component extends DCLogic {
     if (anchor) anchor.setAttribute("aria-expanded", "true");
     this.renderListPicker();
     this._placeListPicker(el, anchor);
+    // THE MOVE MODE TAKES KEYS (LISTS-R Slice 2): it hangs off the item menu's "Move to…", whose own keys (↑ ↓ Home End,
+    // Enter, Esc) a player has just used, and the picker sits at the end of the page, so Tab from the drawer never reached
+    // it (the first journeys' finding). A key opens it on its first row that can be chosen; ↑ ↓ Home End move among those
+    // rows and "New list"; Esc and Tab close it, focus back on the anchor.
+    if (moveFrom) {
+      const live = () => [...el.querySelectorAll("[data-list-pick], [data-list-pick-new]")].filter((r) => !r.disabled);
+      el.addEventListener("keydown", (e) => {
+        if (e.target && e.target.matches && e.target.matches("input")) return;   // the New list field keeps its own keys
+        const rows = live(), at = rows.indexOf(document.activeElement);
+        const go = (i) => { e.preventDefault(); const r = rows[(i + rows.length) % rows.length]; if (r) r.focus(); };
+        if (e.key === "ArrowDown") go(at + 1);
+        else if (e.key === "ArrowUp") go(at < 0 ? rows.length - 1 : at - 1);
+        else if (e.key === "Home") go(0);
+        else if (e.key === "End") go(rows.length - 1);
+        else if (e.key === "Escape" || e.key === "Tab") { e.preventDefault(); this.closeListPicker(); }
+        else return;
+        e.stopPropagation();
+      });
+      if (opts && opts.byKey) { const first = live()[0]; if (first) first.focus(); }
+    }
     this._pickAway = (e) => {
       if (el.contains(e.target) || (anchor && anchor.contains(e.target))) return;
       this._pressAway = e.timeStamp;   // this press closed the menu: on the bare map it does nothing more (`attachInput`, `spent`)
@@ -11161,7 +11757,8 @@ class Component extends DCLogic {
     head.className = "ng-listpicker-head";
     // the technique being filed, named in FULL — the picker is where a mis-file is prevented,
     // so it cannot be vague about which of the 35 Kimuras is going where
-    head.innerHTML = '<b>Add to list</b><small>' + this.escHTML(this.listItemName(nodeId)) + '</small>';
+    const moveFrom = this._pickMove;
+    head.innerHTML = '<b>' + (moveFrom ? "Move to list" : "Add to list") + '</b><small>' + this.escHTML(this.listItemName(nodeId)) + '</small>';
     el.appendChild(head);
     const body = document.createElement("div");
     body.className = "ng-listpicker-body";
@@ -11170,6 +11767,7 @@ class Component extends DCLogic {
     for (const id of this.listsArray()) {
       const l = m[id]; if (!l) continue;
       const on = l.items.indexOf(nodeId) >= 0;
+      if (moveFrom) { body.appendChild(this._pickMoveRow(id, l, nodeId, moveFrom, on)); continue; }
       const b = document.createElement("button");
       b.type = "button";
       b.setAttribute("role", "menuitemcheckbox");
@@ -11200,7 +11798,7 @@ class Component extends DCLogic {
       let done = false;
       const commit = () => {
         if (done) return; done = true;
-        this.createListWith(inp.value, nodeId);
+        if (moveFrom) this.createListMove(inp.value, nodeId); else this.createListWith(inp.value, nodeId);
       };
       inp.addEventListener("keydown", (e) => {
         e.stopPropagation(); // the editor owns the keyboard: A/B/C, digits, and Esc
@@ -11233,6 +11831,53 @@ class Component extends DCLogic {
       });
       el.appendChild(nb);
     }
+  }
+  /** A row of the picker in its MOVE mode. The list the item is in now is shown and cannot be chosen ("here"); a list
+   *  that holds the item already is chosen all the same (the move then only takes it out of here); a full one cannot be. */
+  _pickMoveRow(id, l, nodeId, moveFrom, on) {
+    const here = id === moveFrom, full = !on && l.items.length >= NG_LIST_ITEM_CAP;
+    const b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("role", "menuitem");
+    b.setAttribute("data-list-pick", id);
+    b.className = "ng-listpicker-row";
+    const note = here ? "here" : on ? "has it" : full ? "full" : "";
+    if (note) b.setAttribute("data-list-pick-note", note);
+    if (here || full) { b.disabled = true; b.setAttribute("aria-disabled", "true"); b.style.opacity = ".5"; b.style.cursor = "default"; }
+    b.setAttribute("aria-label", here ? l.name + ", where it is now" : full ? l.name + ", full" : "Move to " + l.name + (on ? ", which has it already" : ""));
+    b.innerHTML =
+      '<span class="ng-listpicker-box" aria-hidden="true">' + (here ? "•" : on ? "✓" : "") + '</span>' +
+      '<span class="ng-listpicker-name">' + this.escHTML(l.name) + '</span>' +
+      '<span class="ng-listpicker-n">' + (note || l.items.length) + '</span>';
+    if (!here && !full) b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.pickMove(id, nodeId, e.detail === 0); });
+    return b;
+  }
+  /** A move's pick: the item leaves the list it was opened from and lands in THAT one; the menu gets out of the way. */
+  pickMove(toId, nodeId, byKey) {
+    const from = this._pickMove; if (!from) return false;
+    this.closeListPicker();
+    return this._afterMove(this.moveListItem(nodeId, from, toId, "menu"), nodeId, toId, byKey);
+  }
+  /** The move mode's "New list": the list is made and the item moved into it, in one action. */
+  createListMove(name, nodeId) {
+    const from = this._pickMove; if (!from) return "";
+    this.closeListPicker();
+    const id = this.newList(String(name == null ? "" : name).replace(/\s+/g, " ").trim() || undefined);
+    this.track("neural_list_created", { surface: "move" });
+    const r = this.moveListItem(nodeId, from, id, "menu");
+    if (!r.moved) { delete this._listsMap()[id]; this._saveProgress(); }   // never leave an empty list behind
+    this._afterMove(r, nodeId, id, true);
+    return r.moved ? id : "";
+  }
+  _afterMove(r, nodeId, toId, byKey) {
+    const to = this._listsMap()[toId];
+    if (r.moved) this.setEvent("Moved to “" + (to ? to.name : "") + "”", this.listItemName(nodeId) + (r.already ? " · it was there already" : ""), "good");
+    else if (r.reason === "full") this.setEvent("List is full", "A share link holds " + NG_LIST_ITEM_CAP + " techniques", "bad");
+    // a key that moved the item follows it: focus lands on its ⋮ in the list it went to (the anchor it left is gone)
+    if (r.moved && byKey) this._listMoveFocus = { node: this.siteIdOf(nodeId), list: toId };
+    this._refreshListSurfaces();
+    this._listMoveFocus = null;   // used by that render, or not at all: a later render must not take focus
+    return !!r.moved;
   }
   /** A row in the picker: toggle THIS node's membership of THAT list, then get out of the way. */
   pickList(listId, nodeId) {
@@ -11307,6 +11952,56 @@ class Component extends DCLogic {
    * different techniques here and "Americana" 16, so main-only would make your own class as
    * unreadable as a share link that dropped the qualifier.
    */
+  // ── DRAG AN ITEM ONTO ANOTHER LIST'S ROW, ON A DESKTOP (LISTS-R Slice 3; the owner, 19 Nov: "move items between lists
+  // like drag and drop?"; ruled in prompts/lists-2.md, ruling 4). It calls the same `moveListItem` as "Move to…" (via
+  // "drag"), so the cells, the Undo row and the sync are the move's own. Native HTML5 drag: Esc is the browser's own
+  // cancel, and the drawer's scroller scrolls near its edges by itself. No drag on a phone (a touch drag would fight the
+  // drawer's scroll and its closing swipe): a phone, and the keyboard, have "Move to…" in the item's ⋮.
+  // THE LEASE (§6.5, a single-slot resource with many writers): `renderExplorer` rebuilds the whole drawer, and it is called
+  // from timers, late data, another tab's write and a cloud pull, so a rebuild mid-drag would destroy the row in the hand
+  // and every target. While a drag is held (`_listDrag`, keyed by (node, from), never by an element) a rebuild is HELD and
+  // runs once when the drag ends. Its LIFTERS: the drop, dragend (Esc included), the view changing (`setViewMode`), the
+  // drawer closing (`setDeckOpen`), the page hidden (visibilitychange), and 15 s.
+  _listDragOk() { return !this.isMobile() && !(window.matchMedia && window.matchMedia("(pointer: coarse)").matches); }
+  _listDragStart(e, nodeId, listId) {
+    this._listDragRelease();
+    this._listDrag = { node: nodeId, from: listId, t: Date.now() };
+    try { e.dataTransfer.effectAllowed = "move"; e.dataTransfer.setData("text/plain", this.listItemName(nodeId)); } catch (_) { /* non-fatal */ }
+    this._listDragT = setTimeout(() => this._listDragRelease(), 15000);
+    this._listDragVis = () => { if (document.hidden) this._listDragRelease(); };
+    document.addEventListener("visibilitychange", this._listDragVis);
+    const root = this.explorerListRef.current;
+    if (root) root.setAttribute("data-list-dragging", listId);
+  }
+  /** Can the held item drop on this list? Not the one it is in, and not a full one unless it is in it already. */
+  _listDropOk(toId) {
+    const d = this._listDrag, to = d && this._listsMap()[toId];
+    return !!(to && toId !== d.from && (to.items.indexOf(d.node) >= 0 || to.items.length < NG_LIST_ITEM_CAP));
+  }
+  _listDragMark(toId) {
+    const root = this.explorerListRef.current; if (!root) return;
+    for (const r of root.querySelectorAll("[data-list-drop-target]")) if (r.getAttribute("data-list-row") !== toId) r.removeAttribute("data-list-drop-target");
+    if (toId) { const r = root.querySelector('[data-list-row="' + toId + '"]'); if (r) r.setAttribute("data-list-drop-target", "1"); }
+  }
+  _listDragRelease() {
+    if (!this._listDrag) return false;
+    this._listDrag = null;
+    clearTimeout(this._listDragT); this._listDragT = null;
+    if (this._listDragVis) { document.removeEventListener("visibilitychange", this._listDragVis); this._listDragVis = null; }
+    this._listDragMark(null);
+    const root = this.explorerListRef.current; if (root) root.removeAttribute("data-list-dragging");
+    if (this._listDragHeld) { this._listDragHeld = false; this.renderExplorer(); }
+    return true;
+  }
+  _listDrop(e, toId) {
+    e.preventDefault(); e.stopPropagation();
+    const d = this._listDrag, ok = this._listDropOk(toId);
+    this._listDragHeld = this._listDragHeld && !ok;   // a move rebuilds the drawer itself
+    this._listDragRelease();
+    // the move's own after-step, as "Move to…" takes it: the toast, and the drawer drawn again (a bare `moveListItem`
+    // left the rows as they were until the next rebuild: the lease journey's finding)
+    if (d && ok) this._afterMove(this.moveListItem(d.node, d.from, toId, "drag"), d.node, toId, false);
+  }
   _listItemRow(nodeId, listId) {
     const i = this._idIndex ? this._idIndex.get(nodeId) : null;
     const n = i != null ? this.nodes[i] : null;
@@ -11317,11 +12012,26 @@ class Component extends DCLogic {
     // ladder as if this were a sibling row) put the glyph 60px from the pane edge and the ×
     // 12px inboard of the list's own ×. 10px is Explore's header→family step (12→22); 0 on
     // the right lines the × up under the list row's ×. Same 8px gap and hover wash as Explore.
-    item.style.cssText = "display:flex;align-items:center;gap:8px;min-width:0;padding:7px 0 7px 10px;border-radius:7px;";
+    // A PHONE'S ITEM ROW IS A THUMB'S (LISTS-MENU-2 part 2, ruling 5): ▶ and ⋮ are 44px boxes at an even 44px pitch, so the
+    // row gives its 7px of vertical padding to them (44px tall against 30). A desktop keeps 24px.
+    const thumb = this.isMobile();
+    item.style.cssText = "display:flex;align-items:center;gap:8px;min-width:0;padding:" + (thumb ? "0 0 0 10px" : "7px 0 7px 10px") + ";border-radius:7px;";
     item.addEventListener("mouseenter", () => item.style.background = "rgba(255,255,255,.045)");
     item.addEventListener("mouseleave", () => item.style.background = "transparent");
     // the category shape, same vocabulary as the canvas and as Explore's own rows
-    if (n) { const g = document.createElement("span"); g.style.cssText = "flex:none;display:inline-flex;align-items:center;"; g.innerHTML = this.nodeGlyph(n.ty, this.hex(n.col), 7); item.appendChild(g); }
+    if (n) { const g = document.createElement("span"); g.className = "ng-gl"; g.style.cssText = "flex:none;display:inline-flex;align-items:center;"; g.innerHTML = this.nodeGlyph(n.ty, this.hex(n.col), 7); item.appendChild(g); }
+    // A DESKTOP DRAGS THE ROW (LISTS-R Slice 3, `_listDragStart`): a six-dot grip takes the glyph's place while the row is
+    // hovered or focused (helmet.html, `.ng-dragrow`), and the row's own cursor is a grab.
+    if (!thumb && this._listDragOk()) {
+      item.draggable = true;
+      item.classList.add("ng-dragrow");
+      const grip = document.createElement("span");
+      grip.className = "ng-grip"; grip.setAttribute("aria-hidden", "true");
+      grip.innerHTML = '<svg width="7" height="11" viewBox="0 0 7 11" fill="currentColor"><circle cx="1.5" cy="1.5" r="1.2"/><circle cx="5.5" cy="1.5" r="1.2"/><circle cx="1.5" cy="5.5" r="1.2"/><circle cx="5.5" cy="5.5" r="1.2"/><circle cx="1.5" cy="9.5" r="1.2"/><circle cx="5.5" cy="9.5" r="1.2"/></svg>';
+      item.appendChild(grip);
+      item.addEventListener("dragstart", (e) => this._listDragStart(e, nodeId, listId));
+      item.addEventListener("dragend", () => this._listDragRelease());
+    }
     const nameBtn = document.createElement("button");
     nameBtn.type = "button";
     nameBtn.setAttribute("data-list-item", nodeId);
@@ -11342,21 +12052,33 @@ class Component extends DCLogic {
     }
     if (i != null) nameBtn.addEventListener("click", (e) => { e.stopPropagation(); this.openDossier(i, false, "list"); });
     item.appendChild(nameBtn);
-    if (n) item.appendChild(this._playButton(n));   // ▶ is the technique's, on every surface
-    const rm = document.createElement("button");
-    rm.type = "button";
-    rm.setAttribute("data-list-item-remove", nodeId);
-    rm.setAttribute("data-list-of", listId);
-    rm.textContent = "×";
-    rm.title = "Remove from this list";
-    rm.setAttribute("aria-label", "Remove " + (n ? n.t : nodeId) + " from this list");
-    // 22px, not 44 — a 44px control inside a 30px row IS the row's height, which is what made
-    // these read as cards among Explore's rows. The pane is a scroller, not a thumb band.
-    rm.style.cssText = "flex:none;width:24px;height:24px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:13px;line-height:1;border:0;border-radius:7px;background:transparent;color:#6b7691;display:inline-flex;align-items:center;justify-content:center;";
-    rm.addEventListener("mouseenter", () => { rm.style.background = "rgba(255,255,255,.08)"; rm.style.color = "#dbe2f0"; });
-    rm.addEventListener("mouseleave", () => { rm.style.background = "transparent"; rm.style.color = "#6b7691"; });
-    rm.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.removeListItem(nodeId, listId); });
-    item.appendChild(rm);
+    if (n) {
+      const play = this._playButton(n);   // ▶ is the technique's, on every surface
+      if (thumb) play.classList.add("ng-thumb");   // its 24px chip drawn inside a 44px box (`.ng-actchip.ng-thumb`)
+      item.appendChild(play);
+    }
+    // ⋮ IN PLACE OF THE × (LISTS-MENU-2 part 2; the owner: "tat x icon on the list items is very consufing too"): the item's
+    // own menu, Share · Move up · Move down · Remove from list (`openItemMenu`). A second press of it shuts the menu.
+    const dots = document.createElement("button");
+    dots.type = "button";
+    dots.setAttribute("data-list-item-menu", nodeId);
+    dots.setAttribute("data-list-of", listId);
+    dots.setAttribute("aria-haspopup", "menu");
+    dots.setAttribute("aria-expanded", "false");
+    dots.setAttribute("aria-label", "Actions for " + (n ? n.t : nodeId));
+    dots.title = "Share, move or remove";
+    dots.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="5" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="12" cy="19" r="2"></circle></svg>';
+    dots.style.cssText = "flex:none;width:" + (thumb ? 44 : 24) + "px;height:" + (thumb ? 44 : 24) + "px;" + (thumb ? (n ? "margin-left:-8px;" : "") + "margin-right:-10px;" : "") + "pointer-events:auto;cursor:pointer;font-family:inherit;padding:0;border:0;border-radius:" + (thumb ? 11 : 7) + "px;background:transparent;color:#6b7691;display:inline-flex;align-items:center;justify-content:center;line-height:1;";
+    if (!thumb) {
+      dots.addEventListener("mouseenter", () => { dots.style.background = "rgba(255,255,255,.08)"; dots.style.color = "#dbe2f0"; });
+      dots.addEventListener("mouseleave", () => { dots.style.background = "transparent"; dots.style.color = "#6b7691"; });
+    }
+    dots.addEventListener("click", (e) => {
+      e.stopPropagation(); e.preventDefault();
+      if (this._pickMenu === "item|" + listId + "|" + nodeId && this._pickEl) { this.closeListPicker(); return; }
+      this.openItemMenu(nodeId, listId, dots, e.detail === 0);
+    });
+    item.appendChild(dots);
     return item;
   }
 
@@ -11458,6 +12180,7 @@ class Component extends DCLogic {
     const body = document.createElement("div");
     body.id = bodyId;
     body.setAttribute("data-lists-body", "1");
+    body.addEventListener("dragover", () => { if (this._listDrag) this._listDragMark(null); });
     sec.appendChild(body);
 
     // "AND BE VISIBLE UP TOP" (owner, v1.99.5). With one list the + files in one tap and never
@@ -11502,34 +12225,38 @@ class Component extends DCLogic {
       // same type ramp (14/700 → 13/600 #c4cde0 → 12 #9aa6bd). The 44px min-heights that used to
       // sit on these buttons are what made the spacing feel foreign: nothing else in this pane is
       // 44px tall, and the pane is a scroller, not a thumb band.
-      // A THUMB'S ROW (LISTS-R, ruling 5). On a phone the row's three actions (✎ · share · ×) are 44px targets that
-      // overlap no other target, so the ROW gives its 7px of vertical padding to them: one line of 44px boxes, 44px
-      // tall, against 38px with the 24px desktop glyphs. A desktop keeps its sizes. `isMobile()` is the house's thumb
-      // test (the star's own `_listAddButton` sizes by it).
+      // A THUMB'S ROW (LISTS-R, ruling 5; LISTS-MENU). On a phone the row's controls (the count and ⋮) are 44px targets
+      // that overlap no other target, so the ROW gives its 7px of vertical padding to them: one line, 44px tall, against
+      // 38px with the 24px desktop figure. A desktop keeps its sizes. `isMobile()` is the house's thumb test (the star's
+      // own `_listAddButton` sizes by it).
       const thumb = this.isMobile();
       row.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:" + (thumb ? "0 22px" : "7px 22px") + ";border-radius:7px;cursor:pointer;border:0;background:" + (lit ? "rgba(58,72,118,.45)" : "transparent") + ";";
       if (!lit) {
         row.addEventListener("mouseenter", () => { if (this._listFocusId !== id) row.style.background = "rgba(255,255,255,.045)"; });
         row.addEventListener("mouseleave", () => { if (this._listFocusId !== id) row.style.background = "transparent"; });
       }
-      // THE ROW lights the list; THE NAME renames it (v1.99.3, owner: "I can't seem to
-      // click to rename my lists"). Controls own their clicks (the closest() guard), and a
-      // click that lands while — or just after — the editor is open must NOT light: blur
-      // fires before click, so by click time the editor is already committed and gone, and
-      // without the closed-at latch the same click would light the list under the caret.
+      // A PRESS ON THE ROW, ITS NAME INCLUDED, OPENS OR SHUTS THE LIST, EXACTLY AS ITS CHEVRON DOES (LISTS-MENU-2; the
+      // owner, 23 Nov: "pressing the list name is the same as pressing the expand colpase icon"). His rule replaced the
+      // orchestrator's of the same day (the name lighting the list); the light is kept by `_toggleListOpen`: an open list is
+      // lit, shutting it puts the light out. The name renamed from v1.99.3 ("I can't seem to click to rename my lists") to
+      // v1.294.0, then the pencil; rename is the first item of the row's ⋮ menu now.
+      // Controls own their clicks (the closest() guard), and a click that lands while, or just after, the editor is open
+      // must NOT light: blur fires before click, so by click time the editor is already committed and gone, and without
+      // the closed-at latch the same click would light the list under the caret.
       row.addEventListener("click", (e) => {
         const t = e.target;
         if (t && t.closest && t.closest("button,input")) return;
+        // the row's own LINE only: a press on an open list's items (between their controls) must not shut the list under
+        // the finger that is reading it
+        if (t && t.closest && t.closest("[data-list-items]")) return;
         if (this._listEditId === id) return;
         if (Date.now() - (this._listEditClosedAt || 0) < 400) return;
-        this.focusList(id);
+        this._toggleListOpen(id);
       });
       const main = document.createElement("div");
-      // THE NAME'S TARGET IS ITS TEXT, ON PURPOSE (LISTS-S1-R1). The first build of LISTS-R stretched it to the row's
-      // height, and the orchestrator measured what that took (a 2px grid over the row, `elementFromPoint`): the share of
-      // a row that LIGHTS the list fell from about two thirds to 18% on a phone, reachable only through the 21px left
-      // inset. Lighting the list is the row's own press (the first thing a row does), so it keeps every point that is
-      // not a control; rename's proper target is the pencil, and the name's own press stays the shortcut it was.
+      // LIGHTING THE LIST IS THE ROW'S OWN PRESS, so the row keeps every point that is not a control (LISTS-S1-R1 measured
+      // what a control in its way takes: a stretched name left 18% of a phone's row lighting). The name is text now, not a
+      // control: with ⋮ the only action besides the count, 73% of a phone's row lights (89% at 1440; the plan's mock).
       main.style.cssText = "flex:1;min-width:0;display:flex;align-items:center;gap:8px;";
       if (this._listEditId === id) {
         // ── INLINE RENAME: Enter/blur commits, Esc cancels, empty reverts ──
@@ -11558,7 +12285,7 @@ class Component extends DCLogic {
           // the editor owns the keyboard: stopPropagation keeps A/B/C, digits and —
           // critically — Escape (the pane's Esc ladder) out of the global handler
           e.stopPropagation();
-          // a KEY that closes the editor hands focus back to the row's pencil (`_listEditReturn`, read at the end of
+          // a KEY that closes the editor hands focus back to the row's ⋮ (`_listEditReturn`, read at the end of
           // this render): the editor is rebuilt away, and focus would otherwise fall to <body>, a Tab walk from here
           // (the same keyboard continuity `_listOpenFocusPending` gives the count). A blur never does: the press that
           // caused it chose where focus goes.
@@ -11580,130 +12307,72 @@ class Component extends DCLogic {
         inp.addEventListener("pointerdown", (e) => e.stopPropagation());
         main.appendChild(inp);
       } else {
-        const nameBtn = document.createElement("button");
-        nameBtn.type = "button";
-        nameBtn.setAttribute("data-list-name", id);
-        nameBtn.title = "Rename this list";
-        nameBtn.setAttribute("aria-label", "Rename “" + l.name + "”");
-        // 13px/600 #c4cde0 — the weight Explore gives a FAMILY row ("Armbar", "Half Guard"); its box is its text (`main`)
-        nameBtn.style.cssText = "display:block;min-width:0;pointer-events:auto;cursor:text;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:13px;font-weight:600;color:#c4cde0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
-        nameBtn.textContent = l.name;
-        nameBtn.addEventListener("click", () => this.startListRename(id, "name"));
-        main.appendChild(nameBtn);
-        // THE COUNT LINE IS THE DISCLOSURE (v1.99.4). It used to be a second way to light the
-        // list — a duplicate of the row's own click, which is still there. "3 techniques" is
-        // the natural place to ask *which* three, so it now opens the list in place: chevron,
-        // aria-expanded, aria-controls, and a real band to press.
-        const open = document.createElement("button");
-        open.type = "button";
-        open.setAttribute("data-list-open", id);
-        open.setAttribute("aria-expanded", expanded ? "true" : "false");
-        open.setAttribute("aria-controls", itemsId);
-        open.setAttribute("aria-label", (expanded ? "Hide" : "Show") + " the techniques in “" + l.name + "”");
-        open.title = expanded ? "Hide these techniques" : "Show these techniques";
-        // the count reads like Explore's "(6)", and the chevron sits where its sections put it
-        // a family row prints its count bare (10.5px) and puts the chevron last, at 10px.
-        // THE GLYPHS STAY SMALL, THE HIT AREA GROWS (`.ng-lists-new`'s pattern): 10.5px text and
-        // a 10px chevron are an 18x12 target if you let them size the button, which is under the
-        // pane's own 24px figure and under WCAG 2.2 AA. The padding buys the target without
-        // touching the type, and costs the row nothing — its 24px controls already set 38px.
-        open.style.cssText = "display:flex;align-items:center;gap:7px;flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;padding:6px 5px;margin:-6px -5px;border-radius:7px;";
-        open.innerHTML = '<span data-list-count="' + l.items.length + '" style="font-size:10.5px;color:#7e8aa3;">' + l.items.length + '</span>' +
-          '<span data-list-chevron="1" style="flex:none;display:inline-flex;">' + this._caretHTML(expanded) + '</span>';
-        open.addEventListener("click", () => this._toggleListExpand(id));
-        main.appendChild(open);
+        // THE NAME IS TEXT (LISTS-MENU): a press on it is the row's own press (it lights the list). 13px/600 #c4cde0 — the
+        // weight Explore gives a FAMILY row ("Armbar", "Half Guard"). The full name rides `title` past the ellipsis.
+        const nameEl = document.createElement("span");
+        nameEl.setAttribute("data-list-name", id);
+        nameEl.title = l.name;
+        nameEl.style.cssText = "display:block;min-width:0;font-size:13px;font-weight:600;color:#c4cde0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
+        nameEl.textContent = l.name;
+        main.appendChild(nameEl);
+        // THE COUNT STAYS BESIDE THE NAME, as Explore's family rows print theirs (10.5px, bare); it is text now. Its
+        // chevron moved to the row's right edge, where Explore's sit (LISTS-MENU-2, `chev` below).
+        const count = document.createElement("span");
+        count.setAttribute("data-list-count", String(l.items.length));
+        count.style.cssText = "flex:none;font-size:10.5px;color:#7e8aa3;";
+        count.textContent = String(l.items.length);
+        main.appendChild(count);
       }
       row.appendChild(main);
 
-      // ── THREE ICONS ON THE RIGHT (v1.103.4) ────────────────────────────────────────────────
-      // Owner: "a play + share icon + close icon on the right of it". Two word-buttons made every
-      // list row a toolbar; a section header carries glyphs. Same handles, same actions, same
-      // accessible names — a `title` is not a name, so each carries a real `aria-label`.
-      const icon = (attr, glyph, label, tint) => {
-        const b = document.createElement("button");
-        b.type = "button";
-        b.setAttribute(attr, id);
-        b.setAttribute("aria-label", label);
-        b.title = label;
-        b.innerHTML = glyph;
-        // 24px on a desktop (unchanged); a 44px box on a phone, the glyph the same 12px in its centre (`thumb`, above)
-        b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:" + (thumb ? 44 : 24) + "px;height:" + (thumb ? 44 : 24) + "px;padding:0;border:0;border-radius:" + (thumb ? 11 : 7) + "px;background:transparent;color:" + tint + ";display:inline-flex;align-items:center;justify-content:center;font-size:12px;line-height:1;transition:background .15s,color .15s;";
-        b.addEventListener("mouseenter", () => { b.style.background = "rgba(255,255,255,.08)"; b.style.color = "#eef1f6"; });
-        b.addEventListener("mouseleave", () => { b.style.background = "transparent"; b.style.color = tint; });
-        return b;
-      };
-      // NO DRILL CONTROL ON A LIST ROW (v1.103.7, owner). v1.103.6 kept the action and only
-      // changed its glyph off ▶; the owner then deleted the button outright. A list row is now
-      // exactly three things — light it (the row), read it (the count line), share it — plus
-      // the ×. Every technique inside it carries its own ▶ and its own ✕, which is where the
-      // per-item verbs belong. `openListSession` is NOT dead: `[data-shared-drill]` ("Drill
-      // these") still runs it on a RECEIVED class, which is the case that needs a one-press
-      // study path before the list has even been saved.
-
-      // THE PENCIL (LISTS-R, ruling 1; the owner, 19 Nov: "how can i rename a list?", the second time after v1.99.3's
-      // "I can't seem to click to rename my lists"). The name's press has renamed since v1.99.3, and nothing on screen
-      // said so: measured on the preview, a desktop had an I-beam over the name and a tooltip after a pause, a phone
-      // nothing at all, and the name wears Explore's family-row type, where a press on a name OPENS it. So rename gets
-      // its own glyph among the row's actions, ALWAYS visible (hover-only is exactly what hid it), in Share's ink:
-      // both are verbs, and only × is dimmed on purpose. The name's own press still renames and the row's still
-      // lights. Not drawn while this row's editor is open: the input is the rename then, and a pencil beside it
-      // would be a second way into a state the row is already in.
-      let pencil = null;
-      if (this._listEditId !== id) {
-        pencil = icon("data-list-edit", '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.85 0 0 1 4 4L7.5 20.5 2 22l1.5-5.5z"></path></svg>',
-          "Rename “" + l.name + "”", "#9ab0e0");
-        pencil.addEventListener("click", () => this.startListRename(id, "pencil"));
-        row.appendChild(pencil);
+      // ── ONE CONTROL ON THE RIGHT: ⋮, THE LIST'S OWN ACTIONS (LISTS-MENU) ─────────────────────────────────────────
+      // The owner, 23 Nov: "the pencil edit isn't ideal, maybe a cogwheel or what do you suggest?, i may want to delete it
+      // and the pencil edit just gives me that option. what about 3 vertical dots? … duplicate, share, rename, delete".
+      // The row carried a pencil, Share and a two-step × (v1.103.4: "a play + share icon + close icon on the right";
+      // v1.293.5's pencil); they all move into one menu (`openListMenu`): Rename · Duplicate · Share link · Delete.
+      // Not a cogwheel: that reads as settings. Always visible (hover-only is what hid rename), Share's ink, 44px on a
+      // phone with its box in the row's empty right padding (the glyph where the × sat), 24px on a desktop.
+      // NO DRILL CONTROL ON A LIST ROW (v1.103.7, owner), and none in the menu either. `openListSession` is NOT dead:
+      // `[data-shared-drill]` ("Drill these") still runs it on a RECEIVED class.
+      const menuOpen = this._pickMenu === id && !!this._pickEl;
+      const dots = document.createElement("button");
+      dots.type = "button";
+      dots.setAttribute("data-list-menu", id);
+      dots.setAttribute("aria-haspopup", "menu");
+      dots.setAttribute("aria-expanded", menuOpen ? "true" : "false");
+      dots.setAttribute("aria-label", "Actions for “" + l.name + "”");
+      dots.title = "Rename, duplicate, share or delete";
+      dots.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="5" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="12" cy="19" r="2"></circle></svg>';
+      dots.style.cssText = "flex:none;width:" + (thumb ? 44 : 24) + "px;height:" + (thumb ? 44 : 24) + "px;" + (thumb ? "margin-right:-8px;" : "") + "pointer-events:auto;cursor:pointer;font-family:inherit;padding:0;border:0;border-radius:" + (thumb ? 11 : 7) + "px;background:transparent;color:#9ab0e0;display:inline-flex;align-items:center;justify-content:center;line-height:1;transition:background .15s,color .15s;";
+      // the hover wash on a pointer that hovers only: a phone emulates the mouse's enter at a tap and never its leave, so
+      // the tint stayed on ⋮ after its menu had closed (seen in the first build's screens)
+      if (!thumb) {
+        dots.addEventListener("mouseenter", () => { dots.style.background = "rgba(255,255,255,.08)"; dots.style.color = "#eef1f6"; });
+        dots.addEventListener("mouseleave", () => { dots.style.background = "transparent"; dots.style.color = "#9ab0e0"; });
       }
-      const share = icon("data-list-share", '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"></path><path d="M12 16V3"></path><path d="M8 7l4-4 4 4"></path></svg>',
-        "Share “" + l.name + "” as a link", "#9ab0e0");
-      share.addEventListener("click", () => { void this.shareList(id); });
-      // on a phone the pencil's 44px box and Share's ABUT (the row's 8px gap taken back), as Share's and ×'s do below:
-      // the glyphs sit 44px apart, centre to centre, and no box reaches into another
-      if (thumb && pencil) share.style.marginLeft = "-8px";
-      row.appendChild(share);
-
-      // DELETE: two steps, then undoable. It sits next to Share — the one button a coach
-      // presses in front of the class — so a single stray click may not destroy the list the
-      // whole session was spent building. `margin-left` buys the miss-distance.
-      const armed = this._delArm === id;
-      const del = document.createElement("button");
-      del.type = "button";
-      del.setAttribute("data-list-delete", id);
-      if (armed) del.setAttribute("data-list-delete-armed", "1");
-      del.textContent = armed ? "Delete?" : "×";
-      del.title = armed ? "Click again to delete this list" : "Delete this list";
-      del.setAttribute("aria-label", armed ? "Confirm deleting “" + l.name + "”" : "Delete “" + l.name + "”");
-      // still 12px clear of Share — the button a coach presses in front of the class — so a stray
-      // click cannot destroy the list the session was spent building (the two-step is unchanged)
-      const delLook = "font-size:" + (armed ? "10.5px;font-weight:700;" : "13px;") + "line-height:1;border-radius:7px;border:" + (armed ? "1px solid rgba(242,104,95,.5)" : "0") + ";background:" + (armed ? "rgba(242,104,95,.16)" : "transparent") + ";color:" + (armed ? "#ff9c92" : "#6b7691") + ";";
-      if (thumb) {
-        // A PHONE'S × IS A 44px BOX, its look on a chip inside (armed or not), so the box can be transparent and as big as
-        // a thumb while "Delete?" stays the small red chip it is. It ABUTS Share's box (-8px takes the row's gap back): the
-        // three actions sit at an even 44px pitch. The desktop's 12px (above) was the miss-distance of two 24px targets,
-        // centres 36px apart; 44px boxes put the centres 44px apart, further than that, and delete is two steps anyway,
-        // so the gap bought nothing and cost the name 12px ("Thursday open mat" read "Thursday ope…" at 390: the
-        // orchestrator's LISTS-S1-GO). -10px on the right lets the box use the row's empty right padding, so the
-        // glyph sits where it always sat.
-        del.style.cssText = "flex:none;margin-left:-8px;margin-right:-10px;pointer-events:auto;cursor:pointer;font-family:inherit;min-width:44px;height:44px;padding:0;border:0;background:transparent;display:inline-flex;align-items:center;justify-content:center;";
-        del.innerHTML = '<span style="display:inline-flex;align-items:center;justify-content:center;' + (armed ? "padding:5px 8px;" : "width:24px;height:24px;") + delLook + '">' + (armed ? "Delete?" : "×") + "</span>";
-      } else {
-        del.style.cssText = "flex:none;margin-left:12px;pointer-events:auto;cursor:pointer;font-family:inherit;" + (armed ? "padding:5px 8px;width:auto;height:auto;" : "padding:0;width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;") + delLook;
-      }
-      del.addEventListener("click", () => {
-        if (this._delArm !== id) {
-          this._delArm = id;
-          if (this._delArmT) clearTimeout(this._delArmT);
-          // real setTimeout, not the sim clock: this is UI patience, not game time
-          this._delArmT = setTimeout(() => { if (this._delArm === id) { this._delArm = null; this._refreshListSurfaces(); } }, 8000);
-          this._refreshListSurfaces();
-          return;
-        }
-        this._delArm = null;
-        if (this._delArmT) { clearTimeout(this._delArmT); this._delArmT = null; }
-        this.deleteList(id);
+      // a second press on the open menu's own ⋮ shuts it (the APG menu button); `_pickAway` lets a press on the anchor through
+      dots.addEventListener("click", (e) => {
+        e.stopPropagation(); e.preventDefault();
+        if (this._pickMenu === id && this._pickEl) { this.closeListPicker(); return; }
+        this.openListMenu(id, dots, e.detail === 0);
       });
-      row.appendChild(del);
+      row.appendChild(dots);
+      // THE CHEVRON AT THE ROW'S RIGHT EDGE, WHERE EXPLORE'S SIT (LISTS-MENU-2; the owner: "sometimes the chverons are on the
+      // lef tsometime right"). The same glyph and ink (`_caretHTML`, `.ng-caret`), pointing right shut and down open. Its
+      // glyph's right edge is the section heads' column: 25px in from the panel's right edge at 1440 and at 390 (measured;
+      // lists-menu.spec.ts pins the two equal), which is the row's 22px right padding less 10px here and, on a phone,
+      // a 44px box reaching the row's edge with its glyph 12px inside it. The ⋮ is the control just left of it.
+      const chev = document.createElement("button");
+      chev.type = "button";
+      chev.setAttribute("data-list-open", id);
+      chev.setAttribute("aria-expanded", expanded ? "true" : "false");
+      chev.setAttribute("aria-controls", itemsId);
+      chev.setAttribute("aria-label", (expanded ? "Hide" : "Show") + " the techniques in “" + l.name + "”");
+      chev.title = expanded ? "Hide these techniques" : "Show these techniques";
+      chev.innerHTML = this._caretHTML(expanded);
+      chev.style.cssText = "flex:none;display:inline-flex;align-items:center;justify-content:flex-end;pointer-events:auto;cursor:pointer;font-family:inherit;border:0;background:transparent;color:#5d6883;border-radius:7px;" + (thumb ? "width:44px;height:44px;padding:0 12px 0 0;margin-right:-22px;" : "width:24px;height:24px;padding:0;margin-right:-10px;");
+      chev.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this._toggleListOpen(id); });
+      row.appendChild(chev);
       // ── the disclosure body: the techniques themselves ──
       // A CHILD of the row (which is flex-wrap), not a sibling, so the list reads as one card
       // and Drill / Share / × keep their own line above it. No overflow of its own: the pane
@@ -11737,6 +12406,15 @@ class Component extends DCLogic {
         }
         row.appendChild(items);
       }
+      // A DROP TARGET (LISTS-R Slice 3): the row and its open items, for any list but the one the item is in. Over it the
+      // row is outlined, "Move here" (helmet.html, `[data-list-drop-target]`); anywhere else in the lists the outline goes.
+      row.addEventListener("dragover", (e) => {
+        if (!this._listDrag || !this._listDropOk(id)) return;   // not a target: the body's own handler clears the mark
+        e.preventDefault(); e.stopPropagation();
+        try { e.dataTransfer.dropEffect = "move"; } catch (_) { /* non-fatal */ }
+        this._listDragMark(id);
+      });
+      row.addEventListener("drop", (e) => this._listDrop(e, id));
       body.appendChild(row);
     }
     list.appendChild(sec);
@@ -11747,9 +12425,21 @@ class Component extends DCLogic {
       this._listOpenFocusPending = null;
       if (back) { try { back.focus(); } catch (e) { /* non-fatal */ } }
     }
-    // ...and an editor a KEY closed hands focus to its row's pencil (see the editor's keydown)
+    // ...a move made by KEY follows the item: focus on its ⋮ in the list it went to (`_afterMove`)
+    if (this._listMoveFocus) {
+      const f = this._listMoveFocus; this._listMoveFocus = null;
+      const back = sec.querySelector('[data-list-item-menu="' + f.node + '"][data-list-of="' + f.list + '"]');
+      if (back) { try { back.focus({ preventScroll: true }); } catch (e) { /* non-fatal */ } }
+    }
+    // ...an item a KEY moved up or down keeps the keys: focus on its ⋮ in its new place (`moveListItemBy`)
+    if (this._itemMenuFocus) {
+      const f = this._itemMenuFocus;
+      const back = sec.querySelector('[data-list-item-menu="' + f.node + '"][data-list-of="' + f.list + '"]');
+      if (back) { try { back.focus({ preventScroll: true }); } catch (e) { /* non-fatal */ } }
+    }
+    // ...and an editor a KEY closed hands focus to its row's ⋮, where Rename was chosen (see the editor's keydown)
     if (this._listEditReturn && !this._listEditId) {
-      const back = sec.querySelector('[data-list-edit="' + this._listEditReturn + '"]');
+      const back = sec.querySelector('[data-list-menu="' + this._listEditReturn + '"]');
       this._listEditReturn = null;
       if (back) { try { back.focus({ preventScroll: true }); } catch (e) { /* non-fatal */ } }
     }
@@ -11792,24 +12482,40 @@ class Component extends DCLogic {
     box.style.cssText = "display:flex;align-items:center;gap:8px;margin:0 6px 6px;padding:7px 9px;border-radius:9px;border:1px solid rgba(150,170,210,.2);background:rgba(255,255,255,.03);";
     const txt = document.createElement("span");
     txt.style.cssText = "flex:1;min-width:0;font-size:11.5px;color:#aeb9d4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
-    txt.textContent = "Deleted “" + u.list.name + "” · " + u.list.items.length + " technique" + (u.list.items.length === 1 ? "" : "s");
+    // ONE SLOT, THREE KINDS: a list's delete, an item's removal (LISTS-MENU-2) and a move (LISTS-R). The newest wins, so the
+    // row says which one it takes back.
+    const move = u.kind === "move", removed = u.kind === "remove";
+    txt.textContent = move
+      ? "Moved “" + this.listItemName(u.node) + "” to “" + u.toName + "”"
+      : removed
+      ? "Removed “" + this.listItemName(u.node) + "” from “" + u.listName + "”"
+      : "Deleted “" + u.list.name + "” · " + u.list.items.length + " technique" + (u.list.items.length === 1 ? "" : "s");
     box.appendChild(txt);
     const undo = document.createElement("button");
     undo.type = "button";
-    undo.setAttribute("data-list-undo", u.id);
+    undo.setAttribute(move ? "data-list-undo-move" : removed ? "data-list-undo-remove" : "data-list-undo", move || removed ? u.node : u.id);
     undo.textContent = "Undo";
-    undo.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 10px;border-radius:7px;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.05);color:#dbe2f0;";
-    undo.addEventListener("click", () => this.undoDeleteList());
+    // a thumb's height on a phone, its 9px of the row's padding taken back so the row does not grow (`.ng-lists-new`'s trade)
+    undo.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 10px;border-radius:7px;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.05);color:#dbe2f0;" + (this.isMobile() ? "min-height:44px;margin:-9px 0;" : "");
+    undo.addEventListener("click", () => { if (move) this.undoMoveListItem(); else if (removed) this.undoRemoveListItem(); else this.undoDeleteList(); });
     box.appendChild(undo);
     return box;
   }
   undoDeleteList() {
-    const u = this._undoList; if (!u) return false;
+    const u = this._undoList; if (!u || u.kind === "move" || u.kind === "remove") return false;
     this._undoList = null;
-    this._listsMap()[u.id] = u.list;
+    // A MERGE MAY HAVE BROUGHT THE LIST BACK meanwhile (MOVE-R1, F4; dev's own loss, which a move could now reach too):
+    // add-wins, so another device that still held it brought it back, perhaps with techniques added or MOVED into it.
+    // The snapshot is UNIONED into that list, its own items first, never put in its place (putting it in place dropped
+    // those techniques here, and the next push dropped them everywhere: the reader's repro_undodelete.mjs).
+    const m = this._listsMap(), now = m[u.id];
+    m[u.id] = now ? ngMergeLists({ [u.id]: u.list }, { [u.id]: now })[u.id] : u.list;
+    // then the cells and the order records over the whole map, as a load does: a move another device made since stands,
+    // and the list takes its record's order (the newer knowledge: `_keepListOrder`'s one exception, it never writes here)
+    this.lists = ngListsApplyOrder(ngListsApplyMarks(m, this.listItemAt), this.listOrderAt);
     this._expandList(u.id); // it came back — show what came back with it
-    // restored EXACTLY, `t` included: an undo puts the list back where recency had it, it is not
-    // a fresh touch that should promote it to the top of the panel and the picker
+    // restored EXACTLY, `t` included (the later of the two when a merge brought it back): an undo puts the list back
+    // where recency had it, it is not a fresh touch that should promote it to the top of the panel and the picker
     this._saveProgress();
     this.setEvent("Restored", u.list.name, "good");
     this._refreshListSurfaces();
@@ -12949,6 +13655,10 @@ class Component extends DCLogic {
     // the queued one and skips. With this, no request without intent can reach the reader after a close: the free-roam latch's
     // keep-away for one is retired (`_readArticle`), and this line is what free-roam-article.spec.ts's fixture pins.
     this._readerQueued = null;
+    // AN OPEN CLOZE LETS THE MAP GO (S2-R1, the orchestrator's ruling 2 on the reader's finding 2): the close takes the camera
+    // for free roam, and the cloze kept holding it and lighting its place over the map the press took away (still lit at
+    // +8.5 s). It stays open in the drawer as it is (pane law: a press on the map does not touch the drawer), unlit.
+    { const z = this._czAt(); if (z) z.c.free = true; }
     this._enterRoam();
     this._pushUrl("/", { ngMap: true });
     return true;
@@ -16343,10 +17053,89 @@ class Component extends DCLogic {
    * Pinned by e2e/journeys/master-cloze.spec.ts (the hand face up → red).
    */
   _czDown() {
-    const s = this._session, c = s && s.czOpen != null && s.cz && this._sessionInline() ? s.cz.get(s.czOpen) : null;
+    const s = this._session, c = s && s.czOpen != null && s.cz && (this._sessionInline() || this._czLookOn()) ? s.cz.get(s.czOpen) : null;   // (and through a cloze's look, S3)
     return c && !c.shown && !c.done ? c.down : null;
   }
   _czHand() { const d = this._czDown(); return !!d && (this.optionIdxs || []).some((i) => d.has(i)); }
+  /**
+   * THE OPEN CLOZE'S PLACE ON THE MAP (L2b S2, v1.296.0; the orchestrator's ruling (d) on L2b Part A, 19 Nov 2026): `{n, c}`,
+   * the node of the half the cloze's seat plays (`_seatMember`) and the cloze, while a cloze is open in Master the game on
+   * screen BESIDE the map: a computer (on a phone the drawer is the screen; its look is S3), the session in the drawer
+   * (`_sessionInline`), the place drawn in this ruleset. Else null. Derived on every read, so it has no lifters of its own
+   * (§6.5): the cloze closed, the list, a card opening, the drawer shut, Esc, another session, each ends it as it ends the
+   * cloze. Read by:
+   *   - `updateCamera`: THE HOLD. While it is set no automatic writer takes the camera (the roll's follow-cam, a staged
+   *     board's tracking), beside `_conceptId`'s hold; released the moment the cloze goes. The camera's 7 s lease would not
+   *     do: it runs on the frame clock, which runs under a pause, and a staged board's tracking is exempt from the pause
+   *     (measured: reports/mapshows.md, 5.5). The glide that puts it there is `ngLightFrame` (map-light.src.js).
+   *   - `_lightOf`: the place is lit from Show until Hide, Done or the place left.
+   *   - `draw()`: the place is named (the pointer's label, when nothing is under the pointer), and while lit its shown
+   *     moves are named where a name fits; its session ring is not drawn while it is lit.
+   */
+  // `c.free` (S2-R1, ruling 2): a press on the bare map closed the page (`_closePage`), so the map is free roam's and the cloze
+  // holds it no more and lights nothing, until the next Show or the place opened again takes it back (`ngClozeMap` clears it)
+  _czAt() {
+    const s = this._session, look = this._czLookOn(), c = s && s.czOpen != null && s.cz && (look || (!this.isMobile() && this._sessionInline())) ? s.cz.get(s.czOpen) : null;
+    if (!c || !c.seat || c.free) return null;
+    const i = this.nodeForKey(c.seat), n = i >= 0 && this.rsAllowsIdx(i) ? this.nodes[this._seatMember(i, c.side)] : null;
+    return n ? { n, c, look } : null;
+  }
+  /**
+   * A CLOZE'S LOOK (L2b S3, v1.297.0; the orchestrator's ruling (b) on L2b Part A, 19 Nov 2026). On a phone the drawer is the
+   * screen, so the map shows where when the drawer is SHUT: "Map" in the cloze's foot (master-cloze.src.js, `ngClozeLook`)
+   * shuts it, keeps the session and its cloze, and holds the clock with the look's own latch, as "Show on the map" does
+   * (`_lookAutoPaused`, taken only from the drawer's pause: `_czLookOpen`). For as long as the look lasts the place is held
+   * on the map (`_czAt`), lit with its hidden moves as pale marks and its shown moves named where a name fits, and the hand
+   * a cloze holds down stays down (`_czDown`). ITS WAY BACK (`_czLookBack`): the pill "‹ Back to your moves", a TAP on the
+   * map (consumed: `attachInput`, at the press's end; it is never the press that closes a page) and Esc; each opens the
+   * drawer on the same cloze, and the pause is the drawer's again (`_lookEnd("drawer")`). A DRAG, A PINCH OR THE WHEEL
+   * MOVE THE MAP AND DO NOT END IT: the player is looking, mid-answer. Offered before Done only.
+   * DERIVED on every read, so a lifter it does not name cannot leave it standing (§6.5): the look's own session and seat
+   * (another session, the cloze closed or left), the drawer shut (any door that opens it: the pill, a tap, Esc, the logo),
+   * the game held (a move played starts the clock: `_lookEnd("clock")`), the cloze not confirmed. `_lookEnd` also drops the
+   * marker, by any of its lifters.
+   */
+  _czLookOn() {
+    const L = this._czLook, s = this._session;
+    if (!L || L.s !== s || this.deckShown || !this.paused || s.czOpen !== L.seat) return false;
+    const c = s.cz && s.cz.get(L.seat);
+    return !!c && !c.done;
+  }
+  // `ngClozeLook`'s first step: on a phone, with the drawer showing an open cloze not yet confirmed, the drawer shuts and the
+  // look takes the drawer's pause (when the drawer is what stopped the game: a board already still is not the look's)
+  _czLookOpen(s) {
+    const c = s && this._session === s && s.czOpen != null && s.cz ? s.cz.get(s.czOpen) : null;
+    if (!c || c.done || !this.isMobile() || !this._sessionInline()) return false;
+    if (this._replay) this.stopReplay("input");
+    const held = this._paneAutoPaused;
+    this._paneAutoPaused = false;               // before the drawer shuts: its close would resume
+    this._czLook = { s, seat: s.czOpen };       // before it too: the drawer's close repaints the hand (`_czSync`), which asks the look
+    this.setDeckOpen(false);
+    if (held) { this._lookAutoPaused = true; this.fx("look_held", { cloze: 1 }); }
+    this.fx("cz_look", { seat: s.czOpen, shown: !!c.shown });
+    return true;
+  }
+  // the way back: the drawer on the same cloze (`by`: "pill", "map", "esc"); false when no cloze's look is on
+  // THE CLOCK'S HOLD FOLLOWS THE LOOK (S3-R1, the orchestrator's ruling on the reader's simulation): the look is derived on every
+  // read, but its hold on the clock was a latch with lifters, and a look that ended by none of them (the session or its open
+  // place gone under the shut drawer) left the clock held, the light and the pill gone and nothing on screen saying why. Read
+  // every tick (`_tick`): a look that is no longer on hands the clock back the way its pill would, the drawer back with it
+  _czLookSync() {
+    if (!this._czLook || this._czLookOn()) return;
+    this._czLook = null;
+    this.fx("cz_look_lost", {});
+    this._lookEnd("drawer");
+    this.setDeckOpen(true);
+  }
+  _czLookBack(by) {
+    if (!this._czLookOn()) return false;
+    const s = this._session;
+    this._czLook = null;
+    this.fx("cz_look_back", { by });
+    this.setDeckOpen(true);
+    if (s.czHost && s.czHost.isConnected) s.czHost.focus({ preventScroll: true });
+    return true;
+  }
   _czSync() {
     this._hmLit = new Set(); this._nm = null;
     // a card a tap or a key turned up BEFORE the cloze opened goes down again while the cloze holds the hand (L2-R2: under
@@ -21673,7 +22462,13 @@ class Component extends DCLogic {
     const pane = this._paneLayout();
     const horizontal = { left: pane.left, right: W, width: Math.max(1, W - pane.left) };
     if (!this._refPage && !this._execution && !opts?.ahead) {
-      return { ...horizontal, ...(this._reader?.nodeBand || this._readerBand()), measured: true, predicted: false, band: true };
+      // A BAND MEASURED FOR ANOTHER SIZE IS NOT THIS VIEW'S (S3-R1, the reader of PR #453, finding 3): the reader keeps its band
+      // from its last layout, a frame after a resize, so on the frame between a phone turned to landscape and that layout the
+      // look framed against the portrait band (186 px tall where the map is a 64 px strip) and pulled back some 11 times. The
+      // reader records the size it laid out for (`nodeBandAt`, beside the band: the band's own shape is pinned by
+      // tests/reader_handoff.test.mjs); until it is this size's, the band is read fresh
+      const rd = this._reader, nb = rd?.nodeBand;
+      return { ...horizontal, ...(nb && rd.nodeBandAt === this.W + "x" + this.H ? nb : this._readerBand()), measured: true, predicted: false, band: true };
     }
     let top = 16;
     const ev = this.evRef && this.evRef.current;
@@ -22180,7 +22975,14 @@ class Component extends DCLogic {
     // end-of-round zoom. This is the line the whole camera-ownership fix comes down to: without
     // it the follow-cam re-aims camTarget at the current roll node on the very next frame and the
     // flight the user asked for never happens. See holdCamera().
-    if (this.introDone && (this.camHeld() || this._conceptId)) tgt = null;
+    // …and an open cloze's place (S2, `_czAt`), ONLY WHILE THE GAME IS HELD (S2-R1, the reader's finding 1: on a computer a
+    // move can be played from the hand beside the open drawer, and the hold kept the follow-cam off the running roll)
+    if (this.introDone && (this.camHeld() || this._conceptId || (this.paused && this._czAt()))) tgt = null;
+    // a held cloze's place framed again when the view changes size (S2-R1, finding 6; `ngClozeFrame`): read a frame at a time
+    if (this.paused && this._czAt()) {
+      const R = this._viewRect(), k = [this.W, this.H, R.left, R.top, R.width, R.height].map((v) => Math.round(v)).join();
+      if (this._czRect !== k) { const was = this._czRect; this._czRect = k; if (was) this._gameplanRuntime?.ngClozeFrame?.(this); }
+    } else this._czRect = null;
     // An escape (camera false) picked inside a calm reading catch's lease window keeps its framing
     // through its whole travel, even past the window (`calmHeld`, latched at the pick).
     if (this.introDone && this._execution && this._execution.camera === false && this._execution.calmHeld) tgt = null;
@@ -22506,6 +23308,7 @@ class Component extends DCLogic {
         this.updateFlash();
         this.updateRipples();
         this.updateUiShift(dt);
+        this._czLookSync();   // a cloze's look that ended by no lifter hands the clock back (S3-R1)
         // camera runs on the REAL clock — pausing the sim must not freeze the tween
         // (the prezi flight into a dossier happens while the roll is auto-paused)
         this.updateCamera(dt);
@@ -22610,12 +23413,12 @@ class Component extends DCLogic {
         document.addEventListener(ev, eng, { once: true, capture: true });
     }
     const el = this.wrapRef.current;
-    let dragging = false, lx = 0, ly = 0, dsx = 0, dsy = 0, moved = 0, closing = false, spent = false;
+    let dragging = false, lx = 0, ly = 0, dsx = 0, dsy = 0, moved = 0, closing = false, spent = false, czTap = false;   // czTap: a press that may be a cloze look's way back (S3)
     const ptrs = new Map();
     let pinch = null;
     this._cancelGraphInput = () => {
       for (const id of ptrs.keys()) { try { el.releasePointerCapture(id); } catch (err) {} }
-      ptrs.clear(); pinch = null; dragging = false; moved = 0;
+      ptrs.clear(); pinch = null; dragging = false; moved = 0; czTap = false;
       this._hover = null; el.style.cursor = "grab";
     };
     const dist = () => { const a = [...ptrs.values()]; return Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y); };
@@ -22661,12 +23464,17 @@ class Component extends DCLogic {
       // staged a roll there or opened the technique, the shown place included, and over the background it declined the
       // question or went to free roam. At the look's framing nearly every point of a phone's map is inside some node's pick
       // radius, so "press the map to go on" took the roll away. It is consumed the same way; a drag begun with it still pans.
-      const looked = this._lookAutoPaused;
-      this._lookEnd("map", true);
-      if (looked && ptrs.size === 0) closing = true;
+      // A CLOZE'S LOOK (S3) IS NOT ENDED BY A PRESS: a drag or a pinch moves the map; a TAP is its way back (`end`, below)
+      if (this._czLookOn()) { if (ptrs.size === 0) czTap = true; }
+      else {
+        const looked = this._lookAutoPaused;
+        this._lookEnd("map", true);
+        if (looked && ptrs.size === 0) closing = true;
+      }
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       try { el.setPointerCapture(e.pointerId); } catch (err) {}
       if (ptrs.size === 2) {
+        czTap = false;   // a second finger: a pinch, never the look's tap
         dragging = false; const m = mid();
         pinch = { d0: dist() || 1, vw0: this.cam ? this.cam.vw : 1, mx: m.x, my: m.y };
       } else if (ptrs.size === 1) {
@@ -22719,6 +23527,12 @@ class Component extends DCLogic {
       if (ptrs.size < 2) pinch = null;
       if (ptrs.size === 1) { const r = [...ptrs.values()][0]; dragging = true; lx = r.x; ly = r.y; moved = 99; }
       else if (ptrs.size === 0) {
+        // A CLOZE'S LOOK'S TAP (S3): its way back, and that is all it does (it is consumed here, before the router, so it is
+        // never a press on a place nor the press on the bare map that closes the page). A drag or a pinch is not a tap.
+        if (czTap) {
+          czTap = false;
+          if (dragging && moved < 5 && e && e.type === "pointerup" && this._czLookBack("map")) { dragging = false; closing = false; spent = false; el.style.cursor = "grab"; return; }
+        }
         // ── A TAP IS ROUTED BY WHAT YOU TAPPED (v1.129.1) ──────────────────────────────────
         // Owner: "Can't seem to be able to click any submissions or transitions in the graph. When
         // I click it, it seems to always go to an adjacent or nearby position."
@@ -22790,7 +23604,7 @@ class Component extends DCLogic {
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy; this.camTarget.vw = vw;
       this._cancelCamOpen(); this.releaseCamera(); this._stagedCamFree = false; // wheel-zoom is the desktop equivalent of a pinch
       if (this._replay) this.stopReplay("input");   // ...and so it ends a film, for the same reason
-      this._lookEnd("map");                         // and a look (`_showPlace`)
+      if (!this._czLookOn()) this._lookEnd("map");  // and a look (`_showPlace`); a cloze's look is only moved by it (S3)
       this.lastInteract = this.now;
     }, { passive: false });
   }
@@ -23059,6 +23873,7 @@ class Component extends DCLogic {
 
   draw() {
     const ctx = this.ctx; if (!ctx || !this.nodes) return;
+    this._frameN = (this._frameN || 0) + 1;   // (what is asked once a frame: `_czWay`)
     this._warmMapPaint();
     const W = this.W, H = this.H, dpr = this.dpr;
     // A directed arrival lights the chosen seat from the pick, without focusing or dealing it before enterLand.
@@ -23322,9 +24137,10 @@ class Component extends DCLogic {
     // are the authored proportions, now honoured at every camera.
     // session highlight rings (from "Suggested for you" etc.)
     if (this._sessionNodes && this._sessionNodes.length) {
-      const pulse = 0.5 + 0.5 * Math.sin(this.now * 2.6);
+      // (L2b S2, the ruling (c) point 2: the lit place wears no pulsing ring while the light is on: it would pulse in its hole)
+      const pulse = 0.5 + 0.5 * Math.sin(this.now * 2.6), litN = this._lightOf();
       for (const k of this._sessionNodes) {
-        const n = this.nodes[k]; if (!n) continue;
+        const n = this.nodes[k]; if (!n || (litN && (k === litN.idx || k === litN.pi))) continue;
         ctx.strokeStyle = this.rgba(this._mapColor(n), (0.45 + 0.4 * pulse) * A);
         ctx.lineWidth = 2 / scale;
         ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 3, 0, 6.2832); ctx.stroke();
@@ -23597,6 +24413,10 @@ class Component extends DCLogic {
       ctx.fillStyle = g; ctx.beginPath(); ctx.arc(h.x, h.y, hr, 0, 6.2832); ctx.fill();
     }
     ctx.globalCompositeOperation = "source-over";
+    // THE LIGHT (L2b S1, v1.295.0, `_drawLight`): the one place a layer can sit, over every line, orb, mark and glow and
+    // under every name, so a name is never dimmed. `ox`/`oy` are this frame's own offset (the shake included), so a hole
+    // sits exactly on the orb as drawn.
+    this._drawLight(ctx, { scale, nodeK, kLOD, LY, ox, oy, W, H, dpr, gold, face: hmFaceF });
 
 
     // ── NOTHING IS WRITTEN INSIDE A NODE (v1.114.0) ──────────────────────────────────────────
@@ -23886,11 +24706,12 @@ class Component extends DCLogic {
       this._lastRichLabel = null;
       this._lastPosCand = null;
       // the live hover, resolved once — both the focus group and the roaming one read it
+      const cz = this._czAt(), czLit = !!cz && (cz.c.shown || cz.look) && !cz.c.done && this.paused;   // an open cloze's place, and lit (L2b S2; a look, S3)
       const heldStar = this._seatStarButtons && [...this._seatStarButtons.values()].find((b) =>
         b === this._pickAnchor || b.matches(":hover, :focus-visible"));
       const _hovNode = heldStar ? this.nodes[Number(heldStar.getAttribute("data-seat-star"))]
         : (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5)
-          ? this.nodes[this._hover.idx] : this._shownNode();   // ...else the place "Show on the map" showed (L3, `_showPlace`)
+          ? this.nodes[this._hover.idx] : this._shownNode() || (cz && cz.n);   // ...else the place "Show on the map" showed (L3, `_showPlace`), else an open cloze's (L2b S2, `_czAt`)
       if (drawFocus >= 0 && !this.pulse) {
         const n = this.nodes[drawFocus];
         const partner = n.pi >= 0 ? this.nodes[n.pi] : null;
@@ -23979,7 +24800,7 @@ class Component extends DCLogic {
       // with the outside gold line's reach (NG_MAP_MARKS.line beyond the silhouette, v1.280.0; the dot's reach before),
       // whether it wears one or not, so a grade never moves a name.
       const orbs = [];
-      for (const i of (this.optionIdxs || []).concat(drawFocus >= 0 ? [drawFocus, this.nodes[drawFocus].pi] : [])) {
+      for (const i of new Set((this.optionIdxs || []).concat(drawFocus >= 0 ? [drawFocus, this.nodes[drawFocus].pi] : [], czLit ? [cz.n.idx, cz.n.pi].concat(cz.c.rows.map((r) => r.idx)) : []))) {   // (and a lit cloze's place and moves, S2)
         const n = this.nodes[i]; if (!n || !rsOk[i] || (n.z && !n.rep && kLOD < 0.5)) continue;   // a twin counts once split (`pairGroup`'s threshold)
         // the reach a name keeps from it: the outside line's (the silhouette, the gap, the line); the SEAT's is its focus mark
         // (1.28 of the orb), the mark's rim (1 px out) and the line beyond that (GOLD1-R2, the map reader of PR 417: a name came
@@ -24043,11 +24864,40 @@ class Component extends DCLogic {
         const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { k: Math.max(0, 1 - age / 3.2), act: !n.litT });
         if (on(c)) (c.act ? point : trail).push(c);
       }
-      if (point.length) write("point", point, litCol);
+      const pointPlan = point.length ? write("point", point, litCol) : null;
+      // THE OPEN CLOZE'S SHOWN MOVES (L2b S2; the ruling (d): "the shown moves named where a name fits"), while its place is lit
+      // (Show until Hide, Done or the place left), and in their place THE MAP'S OWN NAMES STEP BACK: the roll's hand and its
+      // trail are not named while a cloze is lit (design round 6, section 4, rule 6: "The map's own names stay off while
+      // Practice is on"; the first build named the roll's hand there too, bright over orbs the light had dimmed, among the
+      // place's own moves: one of Half Guard's read as one of Mount's). The pointer's label, a point and the roll's own
+      // place are named as ever. An orb a point named just now is not named again here. Never a face-down move (`hmDown`).
+      const czNamed = new Set(pointPlan ? pointPlan.keys() : []);
+      // THE LIT ROW'S NAMES FIRST (S4): its move, then the place it leads to where the visible map shows it, both acted on
+      const way = czLit && this._czWay();
+      if (way && !way.bar) {
+        const rc = [];
+        for (const idx of [way.move, way.dest]) {
+          const n = idx != null ? this.nodes[idx] : null; if (!n || !rsOk[idx] || czNamed.has(idx) || hovd(n)) continue;
+          const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { act: true });
+          if (on(c)) rc.push(c);
+        }
+        const rowPlan = rc.length ? write("row", rc, (c) => this.rgba(c.n.col, A)) : null;
+        if (rowPlan) for (const i of rowPlan.keys()) czNamed.add(i);
+      }
+      if (czLit) {
+        const cc = [];
+        for (const idx of new Set(cz.c.rows.map((r) => r.idx))) {
+          const n = this.nodes[idx]; if (!n || !rsOk[idx] || czNamed.has(idx) || (hmDown && hmDown.has(idx)) || hovd(n)) continue;
+          if (idx === drawFocus || (drawFocus >= 0 && n.pairId && this.nodes[drawFocus].pairId === n.pairId)) continue;
+          const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { act: false });
+          if (on(c)) cc.push(c);
+        }
+        write("cloze", cc, (c) => this.rgba(c.n.col, 0.95 * A));
+      }
       // persistent labels on the outgoing option nodes while a decision is open
       this._lastOptLabels = null; // published like _lastPairLabel: "what did THIS frame draw"
       this._lastOptBoxes = null;  // ...and where (CSS px), so the seal's dot is held off every name (v1.272.0)
-      if (this.optionIdxs && this.optionIdxs.length && !this.pulse) {
+      if (this.optionIdxs && this.optionIdxs.length && !this.pulse && !czLit) {   // (not while a cloze is lit: S2, above)
         // THE ROW'S ORDER: the cards left to right (sorted by win chance, or frozen), then any dealt orb no card carries; a card
         // names its orb by `opt.idx`, or by `opt.res` on an escape. ACTED ON: the card under the pointer, the one holding keyboard
         // focus, one turned up by touch (hidden moves).
@@ -24073,7 +24923,7 @@ class Component extends DCLogic {
         // the name's INK box, not a guessed pad
         this._lastOptBoxes = this._lastOptLabels.map((idx) => { const b = plan.get(idx); return { idx, l: b.l, r: b.r, t: b.t, b: b.b }; });
       }
-      if (trail.length) write("lit", trail, litCol);
+      if (trail.length && !czLit) write("lit", trail, litCol);
       this._lastNameBoxes = claims;
     }
     this._syncSeatStars(seatStars);

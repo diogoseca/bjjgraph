@@ -126,12 +126,12 @@ async function bootPlayer(page: Page, opts: { withoutGiHands?: boolean } = {}) {
   return { j, stripped };
 }
 
-/** Settings, by mouse: the account chip → Settings → a tab; act; Esc closes the modal (and only it). */
+/** Settings, by mouse: the account chip → Settings → a group; act; Esc closes the modal (and only it). */
 async function inSettings(j: any, page: Page, tab: string | null, act: () => Promise<void>) {
   if (await page.locator("[data-practice-page]").count()) await j.clickByMouse("[data-pane-back]", "Back to drawer account controls");
   await j.openAccountMenu();
   await j.clickByMouse("[data-menu-settings]", "Settings in the account menu");
-  if (tab) await j.clickByMouse(`[data-settings-tab="${tab}"]`, `the ${tab} tab`);
+  if (tab) { await j.clickByMouse(`[data-settings-tab="${tab}"]`, `the ${tab} group`); await j.settingsAtRest(); }
   await act();
   await page.keyboard.press("Escape");
   await expect.poll(() => page.evaluate(() => (window as any).__neural.modalRef.current.style.display),
@@ -149,7 +149,8 @@ async function setDailyGoal(j: any, page: Page, n: number) {
 }
 
 async function setUniform(j: any, page: Page, label: "Gi" | "No-gi") {
-  await inSettings(j, page, "rolling", async () => {
+  // SET1 (v1.295.3): gi / no-gi is under General, the group a press on "General" brings to the top
+  await inSettings(j, page, "app", async () => {
     const nth = label === "Gi" ? 1 : 2, sel = `[data-settings-gi] > :nth-child(${nth})`;
     await expect(page.locator(sel), `the uniform row's ${label} button`).toHaveText(label);
     await j.clickByMouse(sel, `the ${label} button`);

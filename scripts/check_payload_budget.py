@@ -269,7 +269,19 @@ NEURAL_TARGET = {
     # v1.290.0 L1-R1 (the reader's findings on PR #434): 531_246, +1_030 B: what a place owes, read for every row, and "Keep practising" when the plan runs out (master-list.src.js); 18_754 B remain.
     # v1.290.0 L1-R2 (the second reader's findings on PR #434): 531_733, +487 B: a row for every place that owes, and the open place's own figure (master-list.src.js); 18_267 B remain.
     # v1.292.0 L2 (the cloze, master-cloze.src.js in gameplan.js: the builder, the rows, where a move leads, the foot, the steps, Undo, its style sheet): 549_777, +18_044 B; 223 B remain of the owner's 550,000.
-    "deferred_raw_bytes": 549_777,
+    # v1.295.0 L2b S1 (the light, map-light.src.js in gameplan.js: the plan, the two fills, the holes, the marks): 550_073, +296 B over
+    # L2's 549_777 (the light's +1,763 less L3's -987, dev's -141 and dev v1.294.0's -339 in reader.js since); measured on the tree with
+    # dev v1.294.0 in (S1-R1, 23 Nov 2026: S1's 550_412 of 19 Nov was measured before that merge, so it let 339 B through unasked).
+    # The owner's limit is 600,000 now (U207 a, 19 Nov 2026).
+    # v1.296.0 L2b S2 (a cloze's place on the map: the glide, ngLightFrame, master-cloze.src.js's two calls, and S2-R1's
+    # ngClozeFrame): 555_963, +842 B on dev v1.295.3's 555,121 (Settings' SET1, which moved the ceiling in budget_site.json).
+    # v1.297.0 L2b S3 (a phone's look from the cloze: the Map press, the look, the pill, master-cloze.src.js; the pale marks, the
+    # look's calm area and the glide's no-room floor, map-light.src.js): 557_990, +2_027 B on S2's 555_963 (dev v1.295.3 in);
+    # S3-R1: 558_018, +28 B (reader.js records the size it laid out for, `nodeBandAt`).
+    # v1.298.0 L2b S4 (a row lights its way: ngClozeWay and the tablet's tap, master-cloze.src.js; the line, map-light.src.js):
+    # 560_127, +2_109 B on S3's 558_018 (dev 2a340a5ce); S4-R0: 560_344, +217 B (a place opened under the pointer waits for
+    # its first move, master-cloze.src.js); S4-R1: 560_379, +35 B (a mouse move gives the hover back after a touch).
+    "deferred_raw_bytes": 560_379,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one

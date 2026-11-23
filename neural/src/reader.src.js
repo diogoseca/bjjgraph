@@ -877,8 +877,10 @@ class Reader {
     requestAnimationFrame(() => { if (this.live) this.live.textContent = said; });
     const box = element("div", { class: "ng-hidesec-notice", "data-hidesec-notice": key, "data-phase": "on" });
     const line = element("span", { class: "ng-hidesec-line" });
+    // SET1: Settings opens on the group that holds this part's switch: the moves and the question card are the roll's, every
+    // section (the video too) is the article's.
     line.append(element("b", {}, title), " hidden. You can show it again in ",
-      button("Settings", () => { a._settingsAim = key; a.openSettings("rolling"); }, { "data-hidesec-settings": key, "aria-label": "Open Settings at " + title }), ".");
+      button("Settings", () => { a._settingsAim = key; a.openSettings(part ? "rolling" : "reading"); }, { "data-hidesec-settings": key, "aria-label": "Open Settings at " + title }), ".");
     const undo = button("Undo", () => this.undoNotice(key), { "data-hidesec-undo": key, "aria-label": "Undo: show " + title + " again" });
     box.append(line, undo);
     const n = { key, home, box, hold: {} };
@@ -1362,6 +1364,7 @@ class Reader {
       root.toggleAttribute("data-reference", reference);
       for (const s of [...this.gameSections, this.sections.find(s => s.type === "videos")]) if (s) this.paintPart(s);
       this.nodeBand = reference ? null : a._readerBand(top);
+      this.nodeBandAt = a.W + "x" + a.H;   // the size it was laid out for (S3-R1: `_viewRect` reads no other size's band)
       const band = this.nodeBand?.height || 0;
       if (reference) { this.restoreGame(); this.syncIndex(); return; }
       const card = a._landEl, row = a.optionsRef.current, showCard = card && this.on("card"), showHand = row && a._handShown();

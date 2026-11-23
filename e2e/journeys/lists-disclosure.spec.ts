@@ -34,7 +34,8 @@ import { journey } from "../dsl";
  * Rails: __neural.lists, .listsArray(), ._listExpanded(id), ._focusIdxSet,
  *        .addToList, .removeListItem
  * Handles: [data-list-open] (the toggle), [data-list-items], [data-list-item],
- *          [data-list-item-remove], [data-list-empty], [data-list-count], [data-list-chevron]
+ *          [data-list-item-menu] (the item's ⋮; its × until LISTS-MENU-2 part 2), [data-list-empty], [data-list-count] (text beside the name since
+ *          LISTS-MENU-2; the chevron is [data-list-open] itself, at the row's right edge)
  */
 
 const SHOTS = resolve(__dirname, "../../tests/artifacts/chrome");
@@ -268,7 +269,7 @@ test("clicking a listed technique opens its dossier — the same move as a share
 
 // ─────────────────────────────────────────────── 4. removing one
 
-test("× removes that technique from THAT list: count, storage and the lit graph all follow", async ({
+test("Remove from list, in the item's ⋮, takes that technique out of THAT list: count, storage and the lit graph all follow", async ({
   page,
 }) => {
   const j = journey(page);
@@ -283,13 +284,15 @@ test("× removes that technique from THAT list: count, storage and the lit graph
   expect(await page.evaluate(() => (window as any).__neural._focusIdxSet.size)).toBe(3);
 
   const victim = picks[1];
-  const rm = `[data-list-items="${id}"] [data-list-item-remove="${victim.id}"]`;
-  const rmBox = await j.boxOf(rm, "the item remove button");   // pane figure, see the note above
+  // the × is the item's ⋮ menu's last item since LISTS-MENU-2 part 2 ("Remove from list")
+  const dots = `[data-list-items="${id}"] [data-list-item-menu="${victim.id}"]`;
+  const rmBox = await j.boxOf(dots, "the item's ⋮");   // pane figure, see the note above
   expect(rmBox.width, "pane-sized target").toBeGreaterThanOrEqual(24);
   expect(rmBox.height, "pane-sized target").toBeGreaterThanOrEqual(24);
-  await expect(page.locator(rm)).toHaveAttribute("aria-label", `Remove ${victim.name} from this list`);
+  await expect(page.locator(dots)).toHaveAttribute("aria-label", `Actions for ${victim.name}`);
 
-  await j.clickByMouse(rm, "the item's ×");
+  await j.clickByMouse(dots, "the item's ⋮");
+  await j.clickByMouse(`[data-list-item-menu-open="${victim.id}"] [data-list-menu-item="remove"]`, "Remove from list");
 
   await expect(
     page.locator(`[data-list-items="${id}"] [data-list-item]`),
@@ -457,7 +460,7 @@ test.describe("in the 390px drawer", () => {
         items.querySelectorAll("[data-list-item]"),
       ) as HTMLElement[];
       const rms = Array.from(
-        items.querySelectorAll("[data-list-item-remove]"),
+        items.querySelectorAll("[data-list-item-menu]"),
       ) as HTMLElement[];
       const cs = getComputedStyle(items);
       return {
@@ -501,11 +504,13 @@ test.describe("in the 390px drawer", () => {
   const tb = await j.boxOf(`[data-list-open="${id}"]`, "the drawer toggle");
   expect(tb.height).toBeGreaterThanOrEqual(24);
 
-  // and a real touch on the × removes, at MEASURED coordinates (never locator.click())
+  // and a real touch removes, at MEASURED coordinates (never locator.click()): the item's ⋮, then Remove from list
   const rb = (await page
-    .locator(`[data-list-items="${id}"] [data-list-item-remove="${picks[0].id}"]`)
+    .locator(`[data-list-items="${id}"] [data-list-item-menu="${picks[0].id}"]`)
     .boundingBox())!;
   await page.touchscreen.tap(rb.x + rb.width / 2, rb.y + rb.height / 2);
+  const rr = (await page.locator(`[data-list-item-menu-open="${picks[0].id}"] [data-list-menu-item="remove"]`).boundingBox())!;
+  await page.touchscreen.tap(rr.x + rr.width / 2, rr.y + rr.height / 2);
   await expect(page.locator(`[data-list-items="${id}"] [data-list-item]`)).toHaveCount(2);
 
   await page.locator(".ng-drill").screenshot({ path: resolve(SHOTS, "lists-expanded-390.png") });

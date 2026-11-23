@@ -19,6 +19,19 @@ import {
   NG_LIST_CODE_CHAR_CAP,
   ngListsNormalize,
   ngMergeLists,
+  NG_LIST_MARK_CAP,
+  ngListMarksNormalize,
+  ngListMarksMerge,
+  ngListMarksSet,
+  ngListMarksCount,
+  ngListMarksNewest,
+  ngListsApplyMarks,
+  NG_LIST_ORDER_CAP,
+  ngListOrderNormalize,
+  ngListOrderMerge,
+  ngListOrderSet,
+  ngListOrderNewest,
+  ngListsApplyOrder,
   ngListDefaultName,
   ngListParseSharePath,
   ngShareOgTitle,
@@ -268,4 +281,248 @@ test("og text is PLAIN TEXT with markup characters stripped, never pre-escaped",
     );
     assert.ok(!/\s{2,}/.test(s), "whitespace collapsed — a name is one line");
   }
+});
+
+
+// ─────────────────────────────────────────────── a MOVE between lists: the item cells (LISTS-R, ruling 2)
+// Two devices in sync hold S = {X, Y} and T = {Z}. Device A moves X from S to T (one stamp: out of S, into T). Before
+// these cells, B's next pull put X back in S (the union), and A's next pull took it from B's push: a move became a copy
+// (LISTS-A measured it with this very function). Each case below is one of the orchestrator's invariants.
+const L = (items, t, name = "L") => ({ name, items, t });
+const synced = () => ({ S: L(["X", "Y"], 100, "Monday"), T: L(["Z"], 90, "Guard") });
+const moveOnA = () => {
+  const lists = synced();
+  lists.T.items.push("X"); lists.T.t = 201;
+  lists.S.items = ["Y"]; lists.S.t = 201;
+  let marks = ngListMarksSet({}, "S", "X", 201, 0);
+  marks = ngListMarksSet(marks, "T", "X", 201, 1);
+  return { lists, marks };
+};
+const items = (lists) => Object.fromEntries(Object.keys(lists).sort().map((k) => [k, lists[k].items.slice().sort()]));
+
+test("a move stays a move on the other device: X in the target only, in both merge orders", () => {
+  const A = moveOnA();
+  const B = synced(); // B never saw the move: its copy still holds X in S
+  for (const [l, c] of [[B, A.lists], [A.lists, B]]) {
+    const merged = ngMergeLists(l, c, A.marks);
+    assert.deepEqual(items(merged), { S: ["Y"], T: ["X", "Z"] });
+  }
+  // and the union alone (no cells) is today's add-wins: the move would have come back as a copy
+  assert.deepEqual(items(ngMergeLists(B, A.lists)), { S: ["X", "Y"], T: ["X", "Z"] });
+});
+
+test("an older build's union is healed by the next current merge (it re-adds X to S and pushes that)", () => {
+  const A = moveOnA();
+  const older = ngMergeLists(synced(), A.lists); // an older client: no cells read, X back in S, and it pushes this
+  const healed = ngMergeLists(A.lists, older, A.marks);
+  assert.deepEqual(items(healed), { S: ["Y"], T: ["X", "Z"] });
+});
+
+test("moving a list's last item: the source is gone on every device, not resurrected by a stale copy", () => {
+  const before = { S: L(["X"], 100), T: L(["Z"], 90) };
+  const after = { T: L(["Z", "X"], 201) }; // removeFromList drops an emptied list
+  let marks = ngListMarksSet({}, "S", "X", 201, 0);
+  marks = ngListMarksSet(marks, "T", "X", 201, 1);
+  assert.deepEqual(items(ngMergeLists(before, after, marks)), { T: ["X", "Z"] });
+  assert.deepEqual(items(ngMergeLists(after, before, marks)), { T: ["X", "Z"] });
+});
+
+test("THE NO-LOSS GUARD: an 'out' never removes an item's last place", () => {
+  // the target is gone on every device (deleted twice): X stays in the source
+  const lists = { S: L(["X", "Y"], 100) };
+  const marks = ngListMarksSet(ngListMarksSet({}, "S", "X", 201, 0), "T", "X", 201, 1);
+  assert.deepEqual(items(ngListsApplyMarks(lists, marks)), { S: ["X", "Y"] });
+  // the target was capped by the union (both devices filled it): X is not in T, so it stays in S
+  const full = Array.from({ length: NG_LIST_ITEM_CAP }, (_, i) => "n" + i);
+  const a = { S: L(["X"], 100), T: L(full, 300) };
+  const b = { S: L(["X"], 100), T: L(["X"], 201) };
+  const merged = ngMergeLists(a, b, marks);
+  assert.equal(merged.T.items.length, NG_LIST_ITEM_CAP);
+  assert.equal(merged.T.items.indexOf("X"), -1, "the cap kept the earlier picks");
+  assert.deepEqual(merged.S.items, ["X"], "X keeps its last place");
+});
+
+test("a re-add after a move beats the old 'out'; a tie goes to 'in'", () => {
+  const out = ngListMarksSet({}, "S", "X", 201, 0);
+  const back = ngListMarksSet(out, "S", "X", 305, 1);
+  const lists = { S: L(["X", "Y"], 305), T: L(["X"], 201) };
+  assert.deepEqual(items(ngListsApplyMarks(lists, ngListMarksMerge(out, back))), { S: ["X", "Y"], T: ["X"] });
+  assert.deepEqual(items(ngListsApplyMarks(lists, ngListMarksMerge(back, out))), { S: ["X", "Y"], T: ["X"] });
+  const tieOut = ngListMarksSet({}, "S", "X", 400, 0), tieIn = ngListMarksSet({}, "S", "X", 400, 1);
+  assert.deepEqual(ngListMarksMerge(tieOut, tieIn), { S: { X: [400, 1] } });
+  assert.deepEqual(ngListMarksMerge(tieIn, tieOut), { S: { X: [400, 1] } });
+});
+
+test("two devices moving different items at once both land", () => {
+  const base = { S: L(["X", "Y"], 100), T: L(["Z"], 90), U: L(["W"], 80) };
+  const a = JSON.parse(JSON.stringify(base)); a.S.items = ["Y"]; a.T.items.push("X");
+  const b = JSON.parse(JSON.stringify(base)); b.S.items = ["X"]; b.U.items.push("Y");
+  const ma = ngListMarksSet(ngListMarksSet({}, "S", "X", 201, 0), "T", "X", 201, 1);
+  const mb = ngListMarksSet(ngListMarksSet({}, "S", "Y", 202, 0), "U", "Y", 202, 1);
+  const marks = ngListMarksMerge(ma, mb);
+  // S loses both items, so S is gone; X in T, Y in U
+  assert.deepEqual(items(ngMergeLists(a, b, marks)), { T: ["X", "Z"], U: ["W", "Y"] });
+  assert.deepEqual(items(ngMergeLists(b, a, marks)), { T: ["X", "Z"], U: ["W", "Y"] });
+});
+
+test("an Undo writes newer cells, so it syncs like the move did", () => {
+  const A = moveOnA();
+  // undo on A: X back in S, out of T (T had no X before)
+  let marks = ngListMarksSet(A.marks, "S", "X", 250, 1);
+  marks = ngListMarksSet(marks, "T", "X", 250, 0);
+  const aUndone = { S: L(["X", "Y"], 250), T: L(["Z"], 250) };
+  const bMoved = A.lists; // B had pulled the move before the undo
+  assert.deepEqual(items(ngMergeLists(bMoved, aUndone, marks)), { S: ["X", "Y"], T: ["Z"] });
+  assert.deepEqual(items(ngMergeLists(aUndone, bMoved, ngListMarksMerge(A.marks, marks))), { S: ["X", "Y"], T: ["Z"] });
+});
+
+test("the cells merge commutatively and idempotently, and the trim keeps the same set on every device", () => {
+  const mk = (n, base, f, p) => { let m = {}; for (let i = 0; i < n; i++) m = ngListMarksSet(m, "L" + (i % 7), p + i, base + i, f); return m; };
+  const a = mk(150, 1000, 0, "a"), b = mk(150, 1100, 1, "b"); // 300 distinct cells between them
+  const ab = ngListMarksMerge(a, b), ba = ngListMarksMerge(b, a);
+  assert.deepEqual(ab, ba);
+  assert.deepEqual(ngListMarksMerge(ab, ab), ab);
+  assert.equal(ngListMarksCount(ab), NG_LIST_MARK_CAP, "trimmed to the cap");
+  assert.equal(ngListMarksNewest(ab), 1249);
+  // the oldest go first: every kept stamp is above every dropped one
+  const kept = []; for (const l of Object.keys(ab)) for (const n of Object.keys(ab[l])) kept.push(ab[l][n][0]);
+  // the 200 newest of 1000..1149 and 1100..1249 start at 1100 (b's 150, and a's 50 newest)
+  assert.equal(Math.min(...kept), 1100);
+  // equal stamps: the order is total (list id, then item id), so a trim of a tie is the same on both sides
+  let ties = {}; for (let i = 0; i < NG_LIST_MARK_CAP + 5; i++) ties = ngListMarksSet(ties, "L" + (i % 3), "t" + i, 777, 0);
+  const t1 = ngListMarksMerge(ties, {}), t2 = ngListMarksMerge({}, ties);
+  assert.deepEqual(t1, t2);
+  assert.equal(ngListMarksCount(t1), NG_LIST_MARK_CAP);
+  // a trimmed 'out' cell returns its pair to add-wins: it never removes anything
+  const lists = { S: L(["X"], 1), T: L(["X"], 1) };
+  assert.deepEqual(items(ngListsApplyMarks(lists, {})), { S: ["X"], T: ["X"] });
+});
+
+test("junk cells are dropped, never thrown on, and an unsafe key never reaches a prototype", () => {
+  const raw = JSON.parse('{"S":{"X":[201,0],"Y":[0,0],"Z":[201,2],"W":"x","V":[NaN,1]},"__proto__":{"X":[1,1]},"T":[],"U":{"__proto__":[5,0]}}'.replace("NaN", "null"));
+  const m = ngListMarksNormalize(raw);
+  assert.deepEqual(m, { S: { X: [201, 0] } });
+  assert.equal(({}).X, undefined);
+  for (const junk of [null, undefined, 3, "x", [], [[1, 0]]]) assert.deepEqual(ngListMarksNormalize(junk), {});
+  assert.deepEqual(items(ngMergeLists({ S: L(["X"], 1) }, {}, "junk")), { S: ["X"] });
+});
+
+test("without cells the merge is exactly today's add-wins (an account that never moved is untouched)", () => {
+  const a = { S: L(["X", "Y"], 100), T: L(["Z"], 90) }, b = { S: L(["Y", "Q"], 120), T: L(["Z"], 95) };
+  assert.deepEqual(ngMergeLists(a, b, {}), ngMergeLists(a, b));
+  assert.deepEqual(ngMergeLists(a, b, undefined), ngMergeLists(a, b));
+});
+
+
+// ─────────────────────────────────────────────── a list's ORDER: the record (ORDER-OK)
+// A and B in sync hold S = [X, Y, Z]. A moves Z up twice: [Z, X, Y], recorded as listOrderAt.S = [t, [Z, X, Y]].
+const ordered = (lists) => Object.fromEntries(Object.keys(lists).sort().map((k) => [k, lists[k].items.slice()]));
+const reorderA = () => ({ lists: { S: L(["Z", "X", "Y"], 100, "Monday") }, order: ngListOrderSet({}, "S", 300, ["Z", "X", "Y"]) });
+
+test("a reorder stays a reorder on the other device, in both merge orders", () => {
+  const A = reorderA(), B = { S: L(["X", "Y", "Z"], 100, "Monday") };
+  for (const [l, c] of [[B, A.lists], [A.lists, B]]) assert.deepEqual(ordered(ngMergeLists(l, c, {}, A.order)), { S: ["Z", "X", "Y"] });
+  // and without the record, today's rule: each copy keeps its own order
+  assert.deepEqual(ordered(ngMergeLists(B, A.lists)), { S: ["X", "Y", "Z"] });
+});
+
+test("an add made on the other device at the same time lands after the reorder (the later t alone would have lost it)", () => {
+  const A = reorderA();
+  const B = { S: L(["X", "Y", "Z", "W"], 400, "Monday") }; // B added W, LATER than A's reorder, without having seen it
+  for (const [l, c] of [[B, A.lists], [A.lists, B]]) assert.deepEqual(ordered(ngMergeLists(l, c, {}, A.order)), { S: ["Z", "X", "Y", "W"] });
+});
+
+test("an older build's stale order is never adopted: the order is derived from the record, not the copy", () => {
+  const A = reorderA();
+  // an older build: it merged local first (its old order) and kept the record untouched through its extras, then pushed
+  const older = { S: L(["X", "Y", "Z"], 500, "Monday") };
+  const third = { S: L(["X", "Y", "Z"], 100, "Monday") }; // a current device that never held the reorder
+  assert.deepEqual(ordered(ngMergeLists(third, older, {}, A.order)), { S: ["Z", "X", "Y"] });
+  assert.deepEqual(ordered(ngListsApplyOrder(older, A.order)), { S: ["Z", "X", "Y"] }, "and on a plain load of that copy");
+});
+
+test("the order only sorts: nothing is dropped, and items the record does not name come after it, by id", () => {
+  const order = ngListOrderSet({}, "S", 300, ["Z", "X", "GONE"]);
+  const lists = { S: L(["B1", "X", "A1", "Z"], 1) };
+  assert.deepEqual(ordered(ngListsApplyOrder(lists, order)), { S: ["Z", "X", "A1", "B1"] }, "the record's, then the rest by id (not this copy's B1, A1)");
+  assert.equal(ngListsApplyOrder(lists, order).S.items.length, 4);
+  // with the move's cells: X moved out of S to T; the order applies to what is left
+  const marks = ngListMarksSet(ngListMarksSet({}, "S", "X", 400, 0), "T", "X", 400, 1);
+  const merged = ngMergeLists({ S: L(["A1", "X", "B1", "Z"], 1), T: L(["Q"], 1) }, { T: L(["Q", "X"], 400) }, marks, order);
+  assert.deepEqual(ordered(merged), { S: ["Z", "A1", "B1"], T: ["Q", "X"] });
+});
+
+test("the records merge by the later stamp; an exact tie goes the same way on both sides; the trim keeps the newest", () => {
+  const a = ngListOrderSet({}, "S", 300, ["Z", "X", "Y"]), b = ngListOrderSet({}, "S", 400, ["Y", "X", "Z"]);
+  assert.deepEqual(ngListOrderMerge(a, b), { S: [400, ["Y", "X", "Z"]] });
+  assert.deepEqual(ngListOrderMerge(b, a), { S: [400, ["Y", "X", "Z"]] });
+  const t1 = ngListOrderSet({}, "S", 500, ["Z", "X"]), t2 = ngListOrderSet({}, "S", 500, ["X", "Z"]);
+  assert.deepEqual(ngListOrderMerge(t1, t2), ngListOrderMerge(t2, t1));
+  assert.deepEqual(ngListOrderMerge(t1, t1), t1, "idempotent");
+  let many = {}; for (let i = 0; i < NG_LIST_ORDER_CAP + 7; i++) many = ngListOrderSet(many, "L" + i, 1000 + i, ["x"]);
+  assert.equal(Object.keys(many).length, NG_LIST_ORDER_CAP);
+  assert.equal(many.L0, undefined, "the oldest record goes first");
+  assert.equal(ngListOrderNewest(many), 1000 + NG_LIST_ORDER_CAP + 6);
+});
+
+test("junk records are dropped, never thrown on; no record means today's merge", () => {
+  assert.deepEqual(ngListOrderNormalize({ S: [0, ["x"]], T: [5, "x"], U: [5, []], V: "x", __proto__: [5, ["x"]], W: [7, ["a", "a", 3, "b"]] }), { W: [7, ["a", "b"]] });
+  for (const junk of [null, 3, "x", [], [[1, ["a"]]]]) assert.deepEqual(ngListOrderNormalize(junk), {});
+  const a = { S: L(["X", "Y"], 100) }, b = { S: L(["Y", "Q"], 120) };
+  assert.deepEqual(ngMergeLists(a, b, {}, {}), ngMergeLists(a, b));
+});
+
+// MOVE-R1 F5, MOVE-R2 R4: one stamp rule for a list's `t`, the cells and the records: a positive integer below 2^52. At
+// 2^53 or more `t + 1 === t`, so a damaged stamp could never be beaten; and since every later stamp of a device is the
+// newest list `t` + 1, a non-integer or a 2^53 - 1 list `t` would make every later cell a stamp the readers drop (the
+// reader's frac.mjs: the move holds here and silently does not sync).
+test("a stamp must be an integer below 2^52, for a list's t, a cell and a record alike", () => {
+  const top = 2 ** 52;
+  for (const t of [top, 2 ** 53 - 1, 2 ** 53, 1e308, 1.5, 1795500000000.5, -1, 0]) {
+    assert.deepEqual(ngListMarksNormalize({ S: { X: [t, 1] } }), {}, "a cell stamped " + t);
+    assert.deepEqual(ngListOrderNormalize({ S: [t, ["X"]] }), {}, "a record stamped " + t);
+    assert.equal(ngListsNormalize({ S: { name: "Monday", items: ["X"], t } }).S.t, 0, "a list's t of " + t + " reads as 0");
+  }
+  for (const t of [1, 1795400000000, top - 1]) {
+    assert.deepEqual(ngListMarksNormalize({ S: { X: [t, 1] } }), { S: { X: [t, 1] } }, t + " is a stamp");
+    assert.deepEqual(ngListOrderNormalize({ S: [t, ["X"]] }), { S: [t, ["X"]] });
+    assert.equal(ngListsNormalize({ S: { name: "Monday", items: ["X"], t } }).S.t, t);
+  }
+  // and a later write beats what is left: a merge of a dropped damaged cell with a real one keeps the real one
+  assert.deepEqual(ngListMarksMerge({ S: { X: [2 ** 53, 1] } }, { S: { X: [1795400000000, 0] } }), { S: { X: [1795400000000, 0] } });
+});
+
+// MOVE-R1, F1: two of the reader's mutants left every unit green. Each case below is the same data in two key orders, and
+// the result must not depend on the order (a device's copy and the cloud's hold their keys in different orders).
+test("the cell trim breaks a tie at its cutoff by list and item id, so a merge is the same in both orders (a move's two cells share one stamp)", () => {
+  const side = (lid, n) => { const m = { [lid]: {} }; for (let i = 0; i < n; i++) m[lid][lid.toLowerCase() + String(i).padStart(3, "0")] = [1000, 1]; return m; };
+  const a = side("A", 150), b = side("B", 150);                     // 300 cells, every stamp equal: the cutoff is a tie
+  const ab = ngListMarksMerge(a, b), ba = ngListMarksMerge(b, a);
+  assert.equal(ngListMarksCount(ab), NG_LIST_MARK_CAP);
+  assert.deepEqual(ab, ba, "the same 200 cells whichever copy comes first");
+  assert.equal(Object.keys(ab.A).length, 150, "list A sorts first: all of it, then B's first 50");
+  assert.deepEqual(Object.keys(ab.B).sort(), Array.from({ length: 50 }, (_, i) => "b" + String(i).padStart(3, "0")));
+});
+test("the no-loss guard walks the lists in id order: an item whose every place says 'out' ends in the same list whatever the key order", () => {
+  const lists = { S: { name: "S", items: ["X", "Y"], t: 1 }, T: { name: "T", items: ["X", "Z"], t: 1 } };
+  const st = { S: { X: [5, 0] }, T: { X: [5, 0] } }, ts = { T: { X: [5, 0] }, S: { X: [5, 0] } };   // one content, two orders
+  const one = ngListsApplyMarks(lists, st), two = ngListsApplyMarks(lists, ts);
+  assert.deepEqual(one, two, "one result for one set of cells");
+  assert.deepEqual(one.S.items, ["Y"], "S comes first by id, so X leaves S; it stays in T, its last place");
+  assert.deepEqual(one.T.items, ["X", "Z"]);
+  // and through the merge, in both orders
+  assert.deepEqual(ngMergeLists(lists, {}, ngListMarksMerge(st, {})), ngMergeLists(lists, {}, ngListMarksMerge({}, ts)));
+});
+
+// MOVE-R1, F2: what the winning record does not name (two devices adding at once, an older build appending) follows it in
+// one order on every device, by id. Before, it kept each copy's own order, and the no-echo key (items as a set) never
+// settled it: the reader's tail.mjs, the record [B, A], one device [B, A, C, D], the other [B, A, D, C].
+test("two devices that each add after a reorder end with one order: the record's, then the rest by id, in both merge orders", () => {
+  const order = ngListOrderSet({}, "T", 300, ["B", "A"]);
+  const one = { T: L(["B", "A", "D"], 400, "Guard") }, two = { T: L(["B", "A", "C"], 401, "Guard") };
+  const ab = ordered(ngMergeLists(one, two, {}, order)), ba = ordered(ngMergeLists(two, one, {}, order));
+  assert.deepEqual(ab, { T: ["B", "A", "C", "D"] });
+  assert.deepEqual(ab, ba, "the same order whichever copy is local");
+  // and a plain load of either copy, holding the union in its own order, derives the same
+  assert.deepEqual(ordered(ngListsApplyOrder({ T: L(["B", "A", "D", "C"], 1) }, order)), { T: ["B", "A", "C", "D"] });
 });

@@ -375,7 +375,9 @@ test("sharing produces a canonical, WhatsApp-short link that decodes back to the
     page.locator(`[data-list-row="${listId}"] [data-list-count]`),
   ).toHaveText(/5/);
 
-  await page.locator(`[data-list-row="${listId}"] [data-list-share]`).click();
+  // Share link is in the row's ⋮ menu since LISTS-MENU (the Share icon left the row)
+  await page.locator(`[data-list-menu="${listId}"]`).click();
+  await page.locator(`[data-list-menu-open="${listId}"] [data-list-menu-item="share"]`).click();
 
   const share = await page.evaluate((lid: string) => {
     const a = (window as any).__neural;
@@ -748,7 +750,7 @@ test("Lists never contradicts itself in front of a first-time recipient", async 
   ).toMatch(/Your lists\s*\(0\)/);
 });
 
-test("deleting a list asks first, and can be taken back", async ({ page }) => {
+test("deleting a list is one press in its menu, and can be taken back", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
@@ -759,36 +761,20 @@ test("deleting a list asks first, and can be taken back", async ({ page }) => {
   );
   await openExplore(page);
   const listId = await page.evaluate(() => (window as any).__neural.listsArray()[0]); // the only list
-  const del = page.locator(`[data-list-row="${listId}"] [data-list-delete]`);
-  const share = page.locator(`[data-list-row="${listId}"] [data-list-share]`);
-
-  const gap = await page.evaluate(
-    ([a, b]: string[]) => {
-      const r1 = (document.querySelector(a) as HTMLElement).getBoundingClientRect();
-      const r2 = (document.querySelector(b) as HTMLElement).getBoundingClientRect();
-      return Math.round(r2.left - r1.right);
-    },
-    [`[data-list-row="${listId}"] [data-list-share]`, `[data-list-row="${listId}"] [data-list-delete]`],
-  );
-  expect(
-    gap,
-    `delete sits ${gap}px from Share — one slip destroys the class the coach just built`,
-  ).toBeGreaterThanOrEqual(10);
-
-  // first click ARMS, it does not destroy
-  await del.click();
-  expect(
-    await page.evaluate(() => Object.keys((window as any).__neural.lists).length),
-    "one click on × must not delete a coach's class outright",
-  ).toBe(1);
-  await expect(del, "…it asks").toHaveAttribute("data-list-delete-armed", "1");
-
-  // second click deletes — and leaves a way back
-  await del.click();
-  expect(await page.evaluate(() => Object.keys((window as any).__neural.lists).length)).toBe(0);
+  // LISTS-MENU (ruling 1): the row's two-step × is gone. It guarded a 24px × that sat 12px from Share, the button a coach
+  // presses in front of the class; Delete is now the LAST item of the row's ⋮ menu, set apart from Share link, so it is
+  // already the second deliberate press, and the 90-second Undo is the way back. So: one press deletes, Undo restores.
+  const openMenu = () => j.clickByMouse(`[data-list-menu="${listId}"]`, "the list's ⋮");
+  const del = `[data-list-menu-open="${listId}"] [data-list-menu-item="delete"]`;
+  await openMenu();
+  const items = await page.locator(`[data-list-menu-open="${listId}"] [data-list-menu-item]`).evaluateAll((els) => els.map((e) => e.getAttribute("data-list-menu-item")));
+  expect(items.indexOf("delete"), "Delete is the menu's last item").toBe(items.length - 1);
+  expect(items.indexOf("delete") - items.indexOf("share"), "…not next to Share link's press unless it must be").toBeGreaterThanOrEqual(1);
+  await j.clickByMouse(del, "Delete");
+  expect(await page.evaluate(() => Object.keys((window as any).__neural.lists).length), "one press deletes").toBe(0);
   const undo = page.locator("[data-list-undo]");
-  await expect(undo, "a delete with no undo is a trap next to a Share button").toBeVisible();
-  await undo.click();
+  await expect(undo, "a delete with no undo is a trap").toBeVisible();
+  await j.clickByMouse("[data-list-undo]", "Undo");
   expect(
     await page.evaluate(() => {
       const a = (window as any).__neural;
@@ -803,8 +789,8 @@ test("deleting a list asks first, and can be taken back", async ({ page }) => {
   // top of Lists — above the user's own lists, above a shared class — for the whole session. The
   // window is 90s of real time; the predicate is what is asserted here (a test that sleeps 90
   // seconds is a test nobody runs).
-  await del.click();
-  await del.click();
+  await openMenu();
+  await j.clickByMouse(del, "Delete");
   await expect(page.locator("[data-list-undo]"), "offered right after the delete").toBeVisible();
   await page.evaluate(() => {
     const a = (window as any).__neural;
@@ -1056,8 +1042,8 @@ test("the + beside Your lists creates a class list — the one deliberate creati
   expect(state.name).toMatch(/^Class · /);
   expect(state.focused, "and its row is the selected one").toBe(true);
 
-  // per-list sharing is untouched: the newborn row still carries its Share button
-  await expect(row.locator("[data-list-share]")).toBeVisible();
+  // per-list sharing is untouched: the newborn row carries its ⋮, whose menu holds Share link (LISTS-MENU)
+  await expect(row.locator("[data-list-menu]")).toBeVisible();
 });
 
 test("the + works at 390px inside the drawer", async ({ page }) => {

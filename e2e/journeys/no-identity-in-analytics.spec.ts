@@ -125,6 +125,7 @@ test("signed in, the name, the initial and the address are printed only inside p
   await j.clickByMouse("[data-menu-settings]", "Settings");
   await expect(page.locator("#ng-stab-notifications"), "Settings is up (its presentation loads on demand)").toBeVisible();
   await j.clickByMouse("#ng-stab-notifications", "Notifications in Settings");
+  await j.settingsAtRest(); // SET1: the press glides the one page to the Email group
   const line = page.locator("[data-digest-setting] > div > div").nth(1);
   await expect(line, "the line reads as it always did").toContainText("After a day you reviewed something: your techniques, your Game Knowledge, your streak — mailed to " + EMAIL + ".");
   await expectNothingOutsideMarks(page, "Settings, Notifications", EMAIL);
@@ -164,6 +165,7 @@ test("what autocapture reads for a mouse press on the badge, the name, the avata
   expect((await pressed(page, n, "the menu's Settings row")).captured, "the Settings row is counted").toBe(true);
   await expect(page.locator("#ng-stab-notifications"), "Settings is up (its presentation loads on demand)").toBeVisible();
   await j.clickByMouse("#ng-stab-notifications", "Notifications in Settings");
+  await j.settingsAtRest(); // SET1: the press glides the one page to the Email group
   await expect(page.locator("[data-digest-setting] .ph-no-capture")).toHaveText(EMAIL);
   n = (await mirrorEvents(page)).length;
   await j.clickByMouse("[data-digest-setting] button", "the Training-day email's On");
