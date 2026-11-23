@@ -24,6 +24,10 @@ import { journey } from "../dsl"
  *   L3 a link of the reading stylesheet an app                         → at "one link of the reading stylesheet"
  *   L4 the glue keeps every ref (`__ngRefs` back)                      → at "the first app is collected"
  *   L5 the link's `onload` kept (as it was)                            → at "the first app is collected"
+ * LEAK1-R1 (the reader of PR #457):
+ *   L6 (the reader's) the reduced-motion query's removal dropped       → at "the first app is collected" (and in the unit)
+ *   L7 (the reader's) `downOn` not cleared in the reader's `destroy()` → at "the first app is collected": the first app's
+ *       logo, pressed for real before the remounts, is the page's last pressed element, which the reader module keeps
  * NOT SEEN HERE: a listener left only in a state this walk does not reach (the local-only bar's `online`, a drag's
  * visibilitychange, a never-fired once): they go through `_on` like the rest, and the unit holds that.
  */
@@ -56,7 +60,28 @@ test.describe("1440x900", () => {
       return at
     }
     const links = () => page.evaluate(() => document.querySelectorAll('link[href*="/static/neural/app/reading.css"]').length)
+    // the places counted on the app as it lands, before any press: the app at the end lands the same way (an app a press has
+    // engaged has dropped its once-listeners of the first gesture and armed others; that is its state, not a leak). The
+    // deferred bundle (gameplan.js) is brought in first by the app's own loader, as a press on the drawer would: its two
+    // module-level listeners are once a page, so they stand at the start and at the end alike
+    await page.evaluate(() => (window as W).__neural._ensureGameplanRuntime())
+    await expect.poll(() => page.evaluate(() => !!(window as W).__neural._gameplanRuntime), { message: "premise: the deferred bundle is in", timeout: 30_000 }).toBe(true)
     const start = await ours()
+    // A REAL PRESS ON THE FIRST APP (LEAK1-R1, the reader of PR #457): the reader module's once-a-page press listener keeps the
+    // page's last pressed element (`downOn`), so a press on the first app's own logo leaves that element, and through its
+    // listeners the app, to outlive the app, unless the reader's `destroy()` clears it (L7). The logo pressed by the mouse at
+    // its measured point opens the drawer, and Esc (a key, no press) shuts it: the app stands as it did and its places compare,
+    // and the logo stays the page's last pressed element
+    const was = await page.evaluate(() => !!(window as W).__neural.deckShown)
+    expect(was, "premise: the drawer is shut as the page lands").toBe(false)
+    const p = await page.evaluate(() => { const el = document.querySelector(".ng-logo") as HTMLElement, b = el.getBoundingClientRect(), x = b.left + b.width / 2, y = b.top + b.height / 2; return { x, y, on: el.contains(document.elementFromPoint(x, y)) } })
+    expect(p.on, "premise: the press lands on the first app's logo").toBe(true)
+    await page.mouse.click(p.x, p.y)
+    await j.advance(400)
+    expect(await page.evaluate(() => !!(window as W).__neural.deckShown), "premise: the press opened the drawer").toBe(true)
+    await page.keyboard.press("Escape")
+    await j.advance(400)
+    expect(await page.evaluate(() => !!(window as W).__neural.deckShown), "premise: Esc shut it, as it was").toBe(false)
     expect(start.size, "premise: our listeners on document and window are read (a count that ran on nothing would read none)").toBeGreaterThanOrEqual(20)
     expect(await page.evaluate(() => !!(window as W).__neural._reader), "premise: the page's reader is up").toBe(true)
     await page.evaluate(() => { const a = (window as W).__neural; (window as W).__lkApp = new WeakRef(a); (window as W).__lkReader = new WeakRef(a._reader) })
@@ -75,6 +100,6 @@ test.describe("1440x900", () => {
     expect(n, "premise: the reading stylesheet was asked for").toBeGreaterThanOrEqual(1)
     expect(n, "one link of the reading stylesheet, whatever the number of apps (L3)").toBe(1)
     for (let i = 0; i < 3; i++) await cdp.send("HeapProfiler.collectGarbage")
-    expect(await page.evaluate(() => [!!(window as W).__lkApp.deref(), !!(window as W).__lkReader.deref()]), "the first app is collected, and its reader (L4, L5)").toEqual([false, false])
+    expect(await page.evaluate(() => [!!(window as W).__lkApp.deref(), !!(window as W).__lkReader.deref()]), "the first app is collected, and its reader (L4, L5, L6, L7)").toEqual([false, false])
   })
 })
