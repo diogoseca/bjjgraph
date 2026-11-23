@@ -119,8 +119,8 @@ class NGSound {
     this._voiceTimers = []
     if (!app.isTest()) {
       this._unlock = () => this._ensureCtx()
-      window.addEventListener("pointerdown", this._unlock, { once: true, passive: true })
-      window.addEventListener("keydown", this._unlock, { once: true })
+      app._on(window, "pointerdown", this._unlock, { once: true, passive: true })   // (with the app's life, LEAK1)
+      app._on(window, "keydown", this._unlock, { once: true })
     }
   }
 

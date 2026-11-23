@@ -490,8 +490,8 @@ function ngClozeShow(app, s, seat, mine) {
       if (t && t.className === "un") ngClozeUndo(app, s); else if (t) ngClozeTap(app, s, t.getAttribute("data-cz-had"));
     };
     s.ask.prepend(host);
-    if (!app._czTap) { app._czTap = (e) => { const x = app._session; if (x && x.czHost && x.czOpen != null) ngClozeTapName(x, e); }; document.addEventListener("pointerup", app._czTap, true); }
-    if (!app._czFit) { app._czFit = () => { const x = app._session, o = x && ngCzNow(x); if (o && (o.shown || o.done)) ngClozeFit(o); }; window.addEventListener("resize", app._czFit); if (document.fonts && document.fonts.ready) document.fonts.ready.then(app._czFit); }
+    if (!app._czTap) { app._czTap = (e) => { const x = app._session; if (x && x.czHost && x.czOpen != null) ngClozeTapName(x, e); }; app._on(document, "pointerup", app._czTap, true); }   // (with the app's life: LEAK1)
+    if (!app._czFit) { app._czFit = () => { const x = app._session, o = x && ngCzNow(x); if (o && (o.shown || o.done)) ngClozeFit(o); }; app._on(window, "resize", app._czFit); if (document.fonts && document.fonts.ready) document.fonts.ready.then(app._czFit); }
   }
   s.czOpen = seat; s.czHost.hidden = false; s.ask.setAttribute("data-cz", "");
   s.czReg = { reveal: () => ngClozeFlip(app, s, !ngCzNow(s).shown), enter: () => { const o = ngCzNow(s); if (o.done) app._masterStep(s, 1); else if (o.shown) ngClozeDone(app, s); else ngClozeFlip(app, s, true); },
