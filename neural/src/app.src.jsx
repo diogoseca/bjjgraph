@@ -10539,6 +10539,7 @@ class Component extends DCLogic {
     // a re-add into a list a MOVE once took this item out of: its cell must say "in" now, later than that "out", or the
     // next merge takes it out again (LISTS-R). Only where a cell exists: an ordinary add writes none.
     if (this.listItemAt && this.listItemAt[id] && this.listItemAt[id][nodeId]) this.listItemAt = ngListMarksSet(this.listItemAt, id, nodeId, this._listMarkStamp(), 1);
+    this._keepListOrder(id);   // an item its order record still names stays where it was added (the end)
     this._saveProgress();
     // AUTO-EXPAND THE LIST YOU JUST ADDED TO. The owner's ask is literally "see the listed
     // techniques AFTER ADDING": a + pressed while the pane is open has to land somewhere the
@@ -10587,6 +10588,7 @@ class Component extends DCLogic {
     to.t = t + 1;   // the target sorts first (`listsArray`): it is where the item went
     from.items.splice(at, 1); from.t = t;
     this.listItemAt = ngListMarksSet(ngListMarksSet(this.listItemAt, fromId, nodeId, t, 0), toId, nodeId, t, 1);
+    if (!had) this._keepListOrder(toId);   // moved back into a list whose record names it: it stays at the end
     if (!from.items.length) delete m[fromId];
     if (this._listFocusId === fromId) this.clearFocus();
     this._saveProgress();
@@ -10618,6 +10620,7 @@ class Component extends DCLogic {
       m[u.from].items.splice(Math.min(u.at, m[u.from].items.length), 0, u.node); m[u.from].t = t;
     }
     let marks = ngListMarksSet(this.listItemAt, u.from, u.node, t, 1);
+    this._keepListOrder(u.from);   // back at its place: a record a merge changed meanwhile follows what is shown
     const to = m[u.to];
     if (!u.had) {
       marks = ngListMarksSet(marks, u.to, u.node, t, 0);
@@ -10651,6 +10654,7 @@ class Component extends DCLogic {
     const l = this._listsMap()[u.list];
     if (!l || l.items.indexOf(u.node) >= 0 || l.items.length >= NG_LIST_ITEM_CAP) { this._refreshListSurfaces(); return false; }
     l.items.splice(Math.min(u.at, l.items.length), 0, u.node); l.t = this._listStamp();
+    this._keepListOrder(u.list);   // back at its place: a record a merge changed meanwhile follows what is shown
     this._saveProgress();
     this._expandList(u.list);
     this.setEvent("Put back", this.listItemName(u.node), "good");
@@ -11449,6 +11453,23 @@ class Component extends DCLogic {
       }
     }
     return url;
+  }
+  /**
+   * A LIST WITH AN ORDER RECORD SHOWS ITS RECORD'S ORDER, ALWAYS (LISTS-R Slice 2). Every device derives a list's order from
+   * its record (`ngListsApplyOrder`), and a remove keeps that true by itself (taking an item out of a sorted run leaves it
+   * sorted). An INSERTION can break it: an item the record still names, added back at the end (the star's add, a move into
+   * the list) or put back at a place (an Undo after a merge changed the record), would jump to its recorded place at the next
+   * load or merge, here and on every other device. So each insertion site calls this: when the list's own order is not the
+   * one its record derives, the record is rewritten to what the player sees, later than every record and cell held. A list
+   * with no record is left alone (no record is ever written by an add). Returns whether it wrote.
+   */
+  _keepListOrder(listId) {
+    const rec = this.listOrderAt && this.listOrderAt[listId], l = this._listsMap()[listId];
+    if (!rec || !l) return false;
+    const derived = ngListsApplyOrder({ [listId]: l }, { [listId]: rec })[listId].items;
+    if (derived.length === l.items.length && derived.every((n, i) => n === l.items[i])) return false;
+    this.listOrderAt = ngListOrderSet(this.listOrderAt, listId, this._listMarkStamp(), l.items);
+    return true;
   }
   /**
    * MOVE AN ITEM UP OR DOWN ITS LIST, AND THE ORDER SYNCS (LISTS-MENU-2 part 2; ORDER-OK, landed with the move step, LISTS-R
@@ -12284,7 +12305,9 @@ class Component extends DCLogic {
   undoDeleteList() {
     const u = this._undoList; if (!u || u.kind === "move" || u.kind === "remove") return false;
     this._undoList = null;
-    this._listsMap()[u.id] = u.list;
+    // in its record's order if it has one (another device may have reordered it meanwhile: that order is the newer
+    // knowledge, so the list takes it rather than overwriting it, `_keepListOrder`'s one exception)
+    this._listsMap()[u.id] = this.listOrderAt && this.listOrderAt[u.id] ? ngListsApplyOrder({ [u.id]: u.list }, this.listOrderAt)[u.id] : u.list;
     this._expandList(u.id); // it came back — show what came back with it
     // restored EXACTLY, `t` included: an undo puts the list back where recency had it, it is not
     // a fresh touch that should promote it to the top of the panel and the picker
