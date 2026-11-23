@@ -10575,7 +10575,7 @@ class Component extends DCLogic {
     // a re-add into a list a MOVE once took this item out of: its cell must say "in" now, later than that "out", or the
     // next merge takes it out again (LISTS-R). Only where a cell exists: an ordinary add writes none.
     if (this.listItemAt && this.listItemAt[id] && this.listItemAt[id][nodeId]) this.listItemAt = ngListMarksSet(this.listItemAt, id, nodeId, this._listMarkStamp(), 1);
-    this._keepListOrder(id);   // a list with an order record: the record names the added item, where it was added (the end)
+    this._keepListOrder(id);   // a list with an order record: rewritten only if the shown order would differ from its record's
     this._saveProgress();
     // AUTO-EXPAND THE LIST YOU JUST ADDED TO. The owner's ask is literally "see the listed
     // techniques AFTER ADDING": a + pressed while the pane is open has to land somewhere the
@@ -10625,7 +10625,7 @@ class Component extends DCLogic {
     to.t = t + 1;   // the target sorts first (`listsArray`): it is where the item went
     from.items.splice(at, 1); from.t = t;
     this.listItemAt = ngListMarksSet(ngListMarksSet(this.listItemAt, fromId, nodeId, t, 0), toId, nodeId, t, 1);
-    if (!had) this._keepListOrder(toId);   // a target with an order record: the record names the moved item, at the end
+    if (!had) this._keepListOrder(toId);   // a target with an order record: rewritten only if the shown order would differ
     if (!from.items.length) delete m[fromId];
     if (this._listFocusId === fromId) this.clearFocus();
     this._saveProgress();
@@ -11496,23 +11496,26 @@ class Component extends DCLogic {
     return url;
   }
   /**
-   * A LIST WITH AN ORDER RECORD SHOWS ITS RECORD'S ORDER, ALWAYS, AND THE RECORD NAMES ALL OF IT (LISTS-R Slice 2;
-   * MOVE-R1, F2). Every device derives a list's order from its record (`ngListsApplyOrder`), and a remove keeps that true by
-   * itself (taking an item out of a sorted run leaves it sorted). An INSERTION into a list that has a record rewrites the
-   * record to the list's items, later than every record and cell held, so the adding device's record names everything it
-   * holds, in the order the player sees:
+   * A LIST WITH AN ORDER RECORD SHOWS WHAT ITS RECORD DERIVES, ALWAYS (LISTS-R Slice 2; MOVE-R1 F2; MOVE-R2 R3). Every
+   * device derives a list's order from its record (`ngListsApplyOrder`: the items it names in its order, then the rest BY
+   * ID), so one record and one set of items show one order everywhere. A remove keeps that true by itself. An INSERTION
+   * rewrites the record, later than every record and cell held, ONLY when the order the player now sees is not the one
+   * the record derives:
    *   - an item the record still names, added back at the end (the star's add, a move into the list) or put back at a place
-   *     (an Undo after a merge changed the record), would otherwise jump to its recorded place at the next load or merge;
-   *   - an item it does not name would otherwise fall into the derived tail, which is ordered by id (one order on every
-   *     device: two devices adding at once, or an older build appending, must not leave two orders for good).
-   * THE COST, last-writer-wins on one register, ruled (MOVE-R, MOVE-R1): a reorder made on another device that this one
-   * has not seen yet loses to this insertion. A list with no record is left alone: an add never creates one. A delete's
-   * Undo never calls this (it takes the record's order). Returns whether it wrote.
+   *     (an Undo after a merge changed the record), would otherwise jump to its recorded place;
+   *   - an item added among items the record does not name may not be where the id order puts it.
+   * A plain add of an item the record does not name, landing where the id order puts it (the usual case: one new
+   * technique at the end), writes nothing, so it can no longer undo a reorder another device made unseen (the reader's
+   * cost.mjs; MOVE-R1's rule rewrote on every insertion). THE COST that remains, last-writer-wins on one register, ruled:
+   * when this does write, a reorder made on another device that this one has not seen yet loses to it. A list with no
+   * record is left alone: an add never creates one. A delete's Undo never calls this (it takes the record's order).
+   * Returns whether it wrote.
    */
   _keepListOrder(listId) {
     const rec = this.listOrderAt && this.listOrderAt[listId], l = this._listsMap()[listId];
     if (!rec || !l) return false;
-    if (rec[1].length === l.items.length && rec[1].every((n, i) => n === l.items[i])) return false;
+    const derived = ngListsApplyOrder({ [listId]: l }, { [listId]: rec })[listId].items;
+    if (derived.length === l.items.length && derived.every((n, i) => n === l.items[i])) return false;
     this.listOrderAt = ngListOrderSet(this.listOrderAt, listId, this._listMarkStamp(), l.items);
     return true;
   }

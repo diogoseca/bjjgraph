@@ -24,8 +24,9 @@
 //      device (MOVE-R1 F1: both were reader's mutants that every unit let through).
 //  14. a delete's Undo UNIONS its snapshot into a list a merge brought back meanwhile (another device's adds and its move
 //      into the list stay; MOVE-R1 F4, a loss dev already had).
-//  15. an add into a list with an order record extends the record on the adding device, and two devices that each add
-//      after a reorder end with one order (MOVE-R1 F2: the record's, then what it does not name by id).
+//  15. a plain add into a list with an order record writes nothing, so another device's unseen Move up survives it; an add
+//      that the id order would put elsewhere rewrites the record; two devices that each add after a reorder end with one
+//      order (MOVE-R1 F2, MOVE-R2 R3: the record's, then what it does not name by id).
 //  16. a move's Undo puts both lists' recency back (MOVE-R1 F6): a source the move emptied comes back with its own `t`, and
 //      a source or a target it touched takes its `t` from before the move.
 //  17. A HEAL-ONLY PUSH BACKS OFF (MOVE-R1 F3): a cloud that keeps going back to a stale copy (what a build older than
@@ -353,26 +354,32 @@ test('14. a delete\'s Undo unions its snapshot into a list a merge brought back:
   assert.deepEqual(itemsOf(pushed.lists), { S: ['E'], T: ['A', 'B', 'C', 'D'] }, 'and the push carries them all');
 }));
 
-test('15. an add into a list with a record extends the record; two devices that each add after a reorder end with one order', () => fakeTimers(async ({ flush }) => {
+test('15. a plain add writes no record, so an unseen Move up survives it; an add out of id order does write; one order for two adds', () => fakeTimers(async ({ flush }) => {
   const h = harness(); await h.boot(); const a = h.switchTo('A');
   a.prep.local = 1; await a._pullAndMerge(); await flush();
-  const ids = ['Transitions/A', 'Transitions/B', 'Transitions/C', 'Transitions/D'];
+  const ids = ['Transitions/A', 'Transitions/B', 'Transitions/C', 'Transitions/D', 'Transitions/E', 'Transitions/F'];
   a.nodes = ids.map(id => ({ id, t: id.slice(12), ty: 'transitions', rep: true })); a._idIndex = new Map(ids.map((id, i) => [id, i]));
-  const [A, B, C, D] = ids;
-  a.lists = { T: L([A, B], 100, 'Guard') };
-  assert.equal(a.moveListItemBy('T', B, -1), true);                           // Guard: B A, recorded
-  const rec0 = a.listOrderAt.T.slice();
-  assert.equal(a.addToList(C, 'T').added, true);                              // then this device adds C
-  assert.deepEqual(a.listOrderAt.T[1], [B, A, C], 'the record now names C, where it was added');
-  assert.ok(a.listOrderAt.T[0] > rec0[0], 'later than the reorder');
-  a._flushSave(); await flush();
-  const mine = a._progressBlob();
-  // the other device saw only the reorder, and added D, later: its record names D, not C
-  const theirs = blobOf({ T: L([B, A, D], a.listOrderAt.T[0] + 5, 'Guard') }, null, { T: [a.listOrderAt.T[0] + 5, [B, A, D]] });
-  const here = a._mergeProgressBlobs(mine, theirs), there = a._mergeProgressBlobs(theirs, mine);
-  assert.deepEqual(here.lists.T.items, [B, A, D, C], "the winning record's order, then C (not named by it)");
-  assert.deepEqual(there.lists.T.items, here.lists.T.items, 'the same order on both devices');
-  assert.deepEqual(here.listOrderAt, there.listOrderAt, 'and the same record');
+  const [A, B, C, D, E, F] = ids;
+  // (a) both devices hold Guard = C A B under one record; the OTHER device moves B up (C B A), unseen here; this one adds F
+  a.lists = { T: L([C, A], 100, 'Guard') };
+  a.listOrderAt = { T: [200, [C, A, B]] }; a.lists.T.items.push(B);
+  const before = JSON.stringify(a.listOrderAt);
+  assert.equal(a.addToList(F, 'T').added, true);
+  assert.equal(JSON.stringify(a.listOrderAt), before, 'a plain add that lands where the id order puts it writes no record');
+  const theirs = blobOf({ T: L([C, B, A], 100, 'Guard') }, null, { T: [300, [C, B, A]] });
+  const here = a._mergeProgressBlobs(a._progressBlob(), theirs), there = a._mergeProgressBlobs(theirs, a._progressBlob());
+  assert.deepEqual(here.lists.T.items, [C, B, A, F], "the other device's Move up survives the add");
+  assert.deepEqual(there.lists.T.items, here.lists.T.items, 'one order on both devices');
+  // (b) an add among items the record does not name, out of id order: Guard = B A E under [B, A]; adding D shows B A E D,
+  //     which [B, A] derives as B A D E: the record is rewritten to what is shown
+  a.lists = { T: L([B, A, E], 100, 'Guard') }; a.listOrderAt = { T: [400, [B, A]] };
+  assert.equal(a.addToList(D, 'T').added, true);
+  assert.deepEqual(a.listOrderAt.T[1], [B, A, E, D], 'the record follows what is shown');
+  assert.ok(a.listOrderAt.T[0] > 400);
+  // (c) two devices each add one after the reorder, neither writing: one order, the record's then by id
+  const mine = blobOf({ T: L([B, A, C], 100, 'Guard') }, null, { T: [500, [B, A]] }), other = blobOf({ T: L([B, A, F], 100, 'Guard') }, null, { T: [500, [B, A]] });
+  assert.deepEqual(a._mergeProgressBlobs(mine, other).lists.T.items, [B, A, C, F]);
+  assert.deepEqual(a._mergeProgressBlobs(other, mine).lists.T.items, [B, A, C, F]);
 }));
 
 test('16. a move\'s Undo puts both lists\' recency back: an emptied source, a touched source, and a target', () => fakeTimers(async ({ flush }) => {
