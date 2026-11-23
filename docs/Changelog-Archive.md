@@ -21198,3 +21198,13 @@ with no record (dev's); with an older device, no run that never settles (2,838 o
 
 **Bytes:** after PAY-L4 (dev v1.296.0's own level, the first commit after the merge), the gate reads eager 382,677 B,
 +2,621 of the 5,000 cap, and the first-hand core 402,158 B, +2,643 of 6,000. No other baseline moved.
+
+## vNEXT — Drag an item onto another list, on a desktop (LISTS-R Slice 3; the owner, 19 Nov 2026)
+
+"move items between lists like drag and drop?" Ruling 4: native drag, a lease against a rebuild, Esc the browser's own,
+no phone drag. A desktop's item row is draggable (a six-dot grip takes its glyph's place on hover); another list's row or
+its open items take the drop ("Move here"), never its own list nor a full one; the drop is "Move to…"'s own move and
+after-step (via "drag"). The lease holds `renderExplorer` while an item is in the hand; its lifters are the drop, dragend
+(Esc), the view changing, the drawer closing, the page hidden, and 15 s. Found by its journey: a bare `moveListItem` on
+drop left the drawer stale until the next rebuild. Proofs: lists-drag.spec.ts, 6 journeys, 8 of 8 mutants (the 15 s expiry
+not covered); the reader's three follow-ups (R1m2, B2, B4) as sync 21-23, each red on its mutant. Bytes: +868 B eager.
