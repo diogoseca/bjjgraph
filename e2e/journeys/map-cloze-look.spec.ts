@@ -29,6 +29,8 @@ import { journey } from "../dsl"
  *   M9  Esc does not bring the drawer back             → "a narrow window with a mouse…" at "Esc brings the drawer back"
  *   M10 a computer shows Map                           → "a computer has no Map" at "no Map press at 1440"
  *   M11 the look framed in the ordinary calm area       → "Map before Show…" at "nothing the look shows is under the pill"
+ *   M12 the press at the practice page's 44 px floor   → "Map before Show…" at "the Map press is small and clear of the day's goal
+ *       (`.ng-mslim .ng-czmap{min-height:0}` gone)          line"
  * NOT COVERED HERE: a real pinch (Playwright sends one finger; the pinch's start resets the tap, `czTap`); the hand held
  * down during the look when the roll stands at the place (the unit's, LK6); a film during a look (a film is started in
  * the drawer, whose opening ends the look). The harness serves `{}` for dossiers: nothing here reads a film or an article.
