@@ -1,5 +1,5 @@
 // THE OLDER CLIENTS' BLOB VALIDATORS, CAPTURED (v1.281.3, LIN2-R1): `ngProgressValidateBlob` as v1.280.4 (dev ed701b3b5)
-// and v1.252.0 (the tag v2026.11.09, production until 19 Nov) run it, and since v1.298.0 (LISTS-R Slice 2) v1.293.3 (the tag
+// and v1.252.0 (the tag v2026.11.09, production until 19 Nov) run it, and since v1.295.4 (LISTS-R Slice 2) v1.293.3 (the tag
 // v2026.11.19) and v1.294.0 (the tag v2026.11.19.1, production since 19 Nov 17:41), with the one helper it calls, cut out of git's own copy of
 // neural/src/progress-owner.src.js at each revision (never re-typed), with the file's sha256. Writes
 // tests/artifacts/progress_validators.json. tests/schedule_rung.test.mjs runs every row the writer emits through each, so an

@@ -484,14 +484,14 @@ test("a full pull of rows dev wrote leaves every srs and moves row as dev's own 
 // here, so a record saved with one locks those devices out ("pull-failed", nothing pushed), and repeats never settled
 // between two devices. The fake cloud HOLDS a record (a pull returns it, a push replaces it). The older validators are
 // the captured ones (tests/artifacts/progress_validators.json: v1.280.4, v1.252.0 (production until 19 Nov), and since
-// v1.298.0 v1.293.3 and v1.294.0 (production since 19 Nov; one file, the same sha256); dev v1.289.0's line for `explored` is
+// v1.295.4 v1.293.3 and v1.294.0 (production since 19 Nov; one file, the same sha256); dev v1.289.0's line for `explored` is
 // the same text).
 // MUTANTS (each applied alone to progress-owner.src.js, red on the named test; the clean file green before and after):
 //   L1-R3a the reader keeping a non-string as a key (so the save writes it)  → "a pull, a new place and a push…"
 //   L1-R3b the empty string kept as a place                                  → "a guest's damaged record…"
 const OLDER = Object.entries(JSON.parse(read('./artifacts/progress_validators.json')).clients).map(([name, v]) => [name, new Function(v.validator + '\nreturn ngProgressValidateBlob;')()]);
 // THE TWO THAT REFUSE a damaged `explored` list, by name: the premise is about them (v1.293.3 and v1.294.0, captured since
-// v1.298.0, accept it, so they are only READERS here: every "reads it" line runs over all four, every "refuses it" premise
+// v1.295.4, accept it, so they are only READERS here: every "reads it" line runs over all four, every "refuses it" premise
 // over exactly these two, as strict as when they were the only rows)
 const REFUSING = OLDER.filter(([name]) => name === 'v1.280.4' || name === 'v1.252.0');
 const DAMAGED = [42, 42, 'Mount|Top', 'Mount|Top', { k: 1 }, ''];

@@ -21066,7 +21066,7 @@ currently it's too thin and doesnt allow breathing very much". Part A (the plan,
 - **Back, measured on the built page at 390:** Settings open on /Positions/Mount/Top, then Back, goes to "/" and Settings
   is gone with the page. On a first visit, Back leaves the site.
 
-## v1.298.0 — Move an item to another list, and the order of a list, on every device (LISTS-R Slice 2; the owner, 19 Nov 2026)
+## v1.295.4 — Move an item to another list, and the order of a list, on every device (LISTS-R Slice 2; the owner, 19 Nov 2026)
 
 **Why.** The owner, 19 Nov: "how can i rename a list? or move items between lists like drag and drop?". Rename was Slice 1
 (v1.293.5, then the list's ⋮ in v1.295.1). This is the move, by the control a phone can use, and since the item menu
