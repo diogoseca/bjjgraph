@@ -3,9 +3,9 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "ed5b202218666a4ac3a2efb4786006ee73fee1f7",
+   "git_head": "9330387c793936e48f7c3deb50f9ceb70cd157f0",
    "inputs": {
-    "tree": "0696d879a7866d44bdfb1112f91f8eee7793f26c"
+    "tree": "c38e1c7865d9c8bab603c3bf88393f16e1fa74bd"
    },
    "package_version": "1.297.0",
    "rows_from": "neural/dist",
@@ -66,21 +66,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "e17875395d765a0d462b36ce5a0357f9a9239ace63422f344e13f1af90b33849"
+    "sha256": "c419ca14793f59c42d100ffdd5e4d5d0e4e4e80fb6600f671a71b09ce98328f0"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78861,
-    "sha256": "8f3fbc4497c923a0283de057fd99f3d33a1a99e3195bb4a2cb0121ec84a22e81",
+    "sha256": "e856334b6368a22a1bc99f52e6b3a3a3447d18fda23d215792330f190cefe572",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "420b69b714d3ddb41abd2bf34eb33782e9261c3834b4d5149985840ef5c52ca0",
+    "sha256": "7fc67b1b751de665ab2664bae9306ceee412c02baf405115f98c1a0356144a39",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 28182,
-    "sha256": "d98cb989c6e2e5869d7eb351fc48cdb1c4ccafff6ac0a1c303b07dff004ab235",
+    "sha256": "29952ac770221e1f858e727bc30008f58d51e6f23e168275a84f2386c6374ad9",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-ab54a23e94cdfb0f1edc4c26d60943aa80e08ec94f6f4749b193411ce6f28c35.js": {
@@ -100,8 +100,8 @@
     "sha256": "6fbdfcea5d5f7ba607c6c0865219c4d43988363db3b2f8fa3616a687b4892e63"
    },
    "static/neural/app/neural.js": {
-    "bytes": 761436,
-    "sha256": "8e1a7647b974270f8de7e39983be44615741abdb319c043541b9bf8ec5c4490f",
+    "bytes": 761638,
+    "sha256": "0cb119cb60ac28328f86e995535e55b2e70b33fff4c7e5649bf73f44536884a8",
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
