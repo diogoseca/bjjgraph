@@ -360,6 +360,30 @@ test("a band measured for another size is not this view's: a phone turned to lan
   assert.equal(a._viewRect().top, 70, "measured for this size, the reader's band is the view's");
 });
 
+test("a row lights its way (S4): a bar before Show lights its one move, no gold, no line; after Show a row adds its destination and its way; what was lit is kept while it fades", () => {
+  const mk = (way, shown) => {
+    const x = clozed({ W: 1440 }); x.a.paused = true; x.c.shown = shown;
+    const drawn = [];
+    x.a._gameplanRuntime = { ngClozeWay: () => way, ngLightDraw: (_a, _c, F) => { drawn.push(F); return { k: F.k, place: F.place.idx, holes: [], marks: [] }; } };
+    x.a._frameN = 0; x.a.now = 10; x.a._reducedMotion = () => false;
+    const frame = (ms) => { x.a._frameN++; x.a.now += ms / 1000; x.a._drawLight(null, { gold: new Set([5]) }); return drawn[drawn.length - 1]; };
+    return { ...x, frame, drawn };
+  };
+  const bar = mk({ bar: true, move: 7 }, false);
+  bar.frame(0); const F = bar.frame(400);
+  assert.ok(F && F.place, "before Show a bar lights the place");
+  assert.deepEqual([F.moves, F.gold, F.way], [[7], null, null], "its one move, no gold, no line");
+  bar.a._gameplanRuntime.ngClozeWay = () => null;   // the pointer leaves the bar
+  const G = bar.frame(100);
+  assert.ok(G && G.k < 1 && G.k > 0, "the light fades");
+  assert.deepEqual(G.moves, [7], "and while it fades it is still that one move: never the place's whole hand");
+  const row = mk({ bar: false, move: 7, dest: 9, row: "r" }, true);
+  row.frame(0); const H = row.frame(400);
+  assert.ok(H.moves.includes(9) && H.moves.length > 1, "after Show: the hand and the row's destination stand clear");
+  assert.deepEqual(H.way, { move: 7, dest: 9 }, "and the row's way: its move, then the place it leads to");
+  assert.ok(H.gold, "the hand's gold as ever");
+});
+
 test("the look lasts while the drawer is shut, the game held and the cloze not confirmed: and only while", () => {
   const mk = () => { const x = looked(); x.a._czLookOpen(x.a._session); return x; };
   let x = mk(); x.a.deckShown = true;

@@ -19,6 +19,9 @@ import { journey } from "../dsl"
  *   · the map beside an open cloze (1440): the hand face down, no name, hover label or gold mark on a hidden move, read
  *     from the DOM and from what the frame drew (`_lastOptLabels`, `_lastHoverLabel`, `_lastMapMarks`); after Show the hand
  *     is face up again (the place lit and its shown moves named since v1.296.0: e2e/journeys/map-cloze-place.spec.ts).
+ *     Since v1.298.0 (L2b S4, ruling (a)) a bar under the pointer lights where its move lives, the place and that orb
+ *     alone, with no name (the map's names read too, `_lastNameBoxes`), gold, hover label or line: e2e/journeys/
+ *     map-row-way.spec.ts's W4 and W5 are red here too.
  *   · a place the day's goal cuts asks the plan's share of its moves, then what it still owes, at its row's press, until
  *     nothing is due; a place entered from another asks its moves first, by ↓ and by the walk after a deck's last answer;
  *     no arrow key steps off a cloze between Show and Done.
@@ -620,7 +623,8 @@ for (const touch of [true, false]) {
 test.describe("1440x900, mouse: the map beside an open cloze", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
 
-  // ruling 7: while a cloze is open and not shown, nothing on the map names, lights or singles out one of its hidden moves
+  // ruling 7: while a cloze is open and not shown, nothing on the map names, lights or singles out one of its hidden moves;
+  // but a bar under the pointer lights where its move lives, and that alone (L2b S4, ruling (a))
   test("the hand is face down, and the map draws no name, hover label or gold mark on a hidden move; after Show, as today", async ({ page }) => {
     const { j } = await setup(page, { at: "Mount|Bottom" })
     for (let i = 0; i < 16; i++) { await j.advance(1000); if (await page.evaluate(() => ((window as W).__neural.optionIdxs || []).length > 0)) break }
@@ -630,7 +634,7 @@ test.describe("1440x900, mouse: the map beside an open cloze", () => {
       const hidden = new Set<number>(c ? c.rows.filter((r: W) => r.ask).map((r: W) => r.idx) : [])
       return { hand: (a._optionCards || []).length, down: (a._optionCards || []).filter((x: W) => x.card.hasAttribute("data-hide") && !x.card.hasAttribute("data-revealed")).length,
         cardNames: (a._optionCards || []).filter((x: W) => hidden.has(x.opt.idx) && !x.card.hasAttribute("data-hide")).length,
-        named: (a._lastOptLabels || []).filter((l: W) => hidden.has(l.idx)).length, marks: (a._lastMapMarks || []).filter((m: W) => hidden.has(m.idx)).length,
+        named: (a._lastOptLabels || []).filter((l: W) => hidden.has(l.idx)).length, boxes: (a._lastNameBoxes || []).filter((b: W) => hidden.has(b.i)).length, marks: (a._lastMapMarks || []).filter((m: W) => hidden.has(m.idx)).length,
         hover: a._lastHoverLabel ? hidden.has(a._lastHoverLabel.idx) : false, hidden: hidden.size, labels: (a._lastOptLabels || []).length, allMarks: (a._lastMapMarks || []).length }
     })
     const open = await page.evaluate(() => { const a = (window as W).__neural; return { hand: (a._optionCards || []).length, down: (a._optionCards || []).filter((x: W) => x.card.hasAttribute("data-hide")).length } })
@@ -653,7 +657,7 @@ test.describe("1440x900, mouse: the map beside an open cloze", () => {
     let m = await map()
     expect(m.hidden, "premise: six hidden moves").toBe(6)
     expect([m.down, m.cardNames], "the hand is face down, whole").toEqual([m.hand, 0])
-    expect([m.named, m.marks], "the frame drew no name and no gold mark on a hidden move").toEqual([0, 0])
+    expect([m.named, m.boxes, m.marks], "the frame drew no name (a card's label or the map's names) and no gold mark on a hidden move").toEqual([0, 0, 0])
     // the map says what it is doing: words in the switch's place, nothing to press, and no card offers a reveal a hover
     // cannot give (nor does one card wear a badge the others do not)
     let w = await words()
@@ -672,6 +676,22 @@ test.describe("1440x900, mouse: the map beside an open cloze", () => {
     await page.mouse.move(card.x, card.y); await j.advance(400)
     m = await map()
     expect([m.down, m.named], "a pointer on a card turns nothing up and names nothing").toEqual([m.hand, 0])
+    // A BAR UNDER THE POINTER (L2b S4, ruling (a)): the map lights WHERE its move lives, the place and that one orb standing
+    // clear, and singles it out no further: no name, no gold, no hover label, no line, the hand still face down
+    const bar = await page.evaluate(() => {
+      const el = document.querySelector('[data-cz-row="ask"]') as HTMLElement, b = (el.querySelector(".br") as HTMLElement).getBoundingClientRect(), x = b.left + b.width / 2, y = b.top + b.height / 2
+      return { x, y, i: [...document.querySelectorAll("[data-cz-row]")].indexOf(el), on: el.contains(document.elementFromPoint(x, y)) }
+    })
+    expect(bar.on, "premise: the point is on the bar").toBe(true)
+    await page.mouse.move(bar.x, bar.y); await j.advance(400)
+    m = await map()
+    const lit = await page.evaluate((i) => {
+      const a = (window as W).__neural, L = a._lastLight, c = a._session.cz.get(a._session.czOpen)
+      return { move: c.rows[i].idx, L: L ? { k: L.k, moves: L.holes.filter((h: W) => !h.place).map((h: W) => h.i).concat(L.marks.map((x: W) => x.i)), gold: L.marks.filter((x: W) => x.gold).length, way: L.way } : null }
+    }, bar.i)
+    expect(lit.L && [lit.L.k, lit.L.moves], "a bar lights where its move lives: that one orb").toEqual([1, [lit.move]])
+    expect([lit.L!.gold, lit.L!.way], "no gold on it, no line").toEqual([0, null])
+    expect([m.down, m.named, m.boxes, m.marks, m.hover], "and still no name, no gold mark, no hover label, the hand face down").toEqual([m.hand, 0, 0, 0, false])
     await page.mouse.move(200, 400)
     // after Show the map is as it is today
     await press(page, "[data-master-bar] [data-cz-show]", "Show", false, false)

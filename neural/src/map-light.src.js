@@ -36,9 +36,11 @@ export const NG_LIGHT = {
   markR: 2,          // a mark's radius (px): a 4 px dot, design 7's far rule
   halo: 0.1,         // the halo's alpha at the orb's edge, fading to nothing at the hole's radius
   calm: [34, 38, 34, 37],   // the calm area (S2): the visible map inset left, top, right, foot (design round 6, section 3)
+  way: 0.8,                 // a lit row's line (S4): its strength at full light,
+  wayW: 1.6,                // …and its width in CSS px
   lookCalm: [34, 38, 34, 64],   // …in a phone's look (S3): its foot clear of the pill (52 px up from the band's foot, 44 tall)
 };
-const NG_LIGHT_GOLD = "240,192,90", NG_LIGHT_PALE = "214,222,240", NG_LIGHT_HALO = "200,215,255";
+const NG_LIGHT_GOLD = "240,192,90", NG_LIGHT_PALE = "214,222,240", NG_LIGHT_HALO = "200,215,255", NG_LIGHT_WAY = "226,232,246";
 
 /**
  * WHICH LIT NODE IS A HOLE AND WHICH A MARK. `pts`: one per lit node on screen, `{i, x, y, hw, place, gold, down, pale}`: its
@@ -105,8 +107,27 @@ export function ngLightDraw(app, ctx, F) {
     ctx.fillStyle = "rgba(" + (m.gold ? NG_LIGHT_GOLD + "," + 0.95 * k : NG_LIGHT_PALE + "," + 0.85 * k) + ")";
     ctx.beginPath(); ctx.arc(m.x, m.y, NG_LIGHT.markR, 0, 6.2832); ctx.fill();
   }
+  // A LIT ROW'S WAY (S4): ONE line, place → move → on to the place it leads to, above the layer and under every name (the names
+  // are drawn after the light), run between the orbs, not over them (each end held off its orb's drawn edge by 2 px). Where the
+  // destination is off the canvas the line runs on toward it and the canvas's edge ends it ("runs off the edge of the view")
+  let seg = null, to = null;
+  if (F.way) {
+    const at = (i) => { const p = pts.find((q) => q.i === i); if (p) return p; const n = app.nodes[i]; return n ? { i, x: n.x * scale + ox, y: LY(n) * scale + oy, hw: 0 } : null; };
+    const d = F.way.dest != null ? at(F.way.dest) : null, vs = [at(place.idx), at(F.way.move), d].filter(Boolean);
+    if (d) to = { x: d.x, y: d.y };
+    seg = [];
+    for (let j = 0; j + 1 < vs.length; j++) {
+      const a = vs[j], b = vs[j + 1], d = Math.hypot(b.x - a.x, b.y - a.y) || 1, ux = (b.x - a.x) / d, uy = (b.y - a.y) / d, ra = a.hw + 2, rb = b.hw + 2;
+      if (d > ra + rb) seg.push([a.x + ux * ra, a.y + uy * ra, b.x - ux * rb, b.y - uy * rb]);
+    }
+    ctx.strokeStyle = "rgba(" + NG_LIGHT_WAY + "," + NG_LIGHT.way * k + ")"; ctx.lineWidth = NG_LIGHT.wayW; ctx.lineCap = "round";
+    ctx.beginPath();
+    for (const q of seg) { ctx.moveTo(q[0], q[1]); ctx.lineTo(q[2], q[3]); }
+    ctx.stroke();
+  }
   ctx.restore();
-  return { k, place: place.idx, holes: P.holes.map((h) => ({ i: h.i, x: h.x, y: h.y, r: h.r, hw: h.hw, place: h.place })), marks: P.marks };
+  return { k, place: place.idx, holes: P.holes.map((h) => ({ i: h.i, x: h.x, y: h.y, r: h.r, hw: h.hw, place: h.place })), marks: P.marks,
+    way: F.way ? { move: F.way.move, dest: F.way.dest, seg, to } : null };
 }
 
 /**

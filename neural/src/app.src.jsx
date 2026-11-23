@@ -969,8 +969,9 @@ class Component extends DCLogic {
   _lightOf() {
     if (!this.paused || (this.deckShown && this.isMobile())) return null;
     // an open cloze is what the map shows beside it (S2): lit from Show until Hide, Done or the place left, and nothing else
+    // but a bar under the pointer or the keyboard's focus before Show, which lights where its one move lives (S4, `_czWay`)
     const z = this._czAt();
-    if (z) return (z.c.shown || z.look) && !z.c.done ? z.n : null;   // (a phone's look lights it for as long as it lasts, S3)
+    if (z) return ((z.c.shown || z.look) && !z.c.done) || this._czWay()?.bar ? z.n : null;   // (a phone's look lights it for as long as it lasts, S3)
     const n = this._shownNode();
     return n && this.rsAllowsIdx(n.idx) ? n : null;
   }
@@ -1005,6 +1006,23 @@ class Component extends DCLogic {
   // out is for the ways out that leave the game held: the row collapsed, Last rolls left, the hold's end.
   // THE FADE IN STARTS WHEN THE LAYER CAN FIRST BE DRAWN (S1-R1, the reader's finding 5): with gameplan.js not in, the
   // strength is held at 0, so the light comes in over its quarter second when the planner lands, not at full in one frame.
+  // A ROW LIGHTS ITS WAY (L2b S4, v1.298.0; the orchestrator's rulings (d) and (a), 19 Nov, and S4-GO, 23 Nov). On a computer,
+  // the open cloze's row under the pointer, else the one holding the keyboard's focus, else the row a tablet's tap lit
+  // (`ngClozeWay`, master-cloze.src.js, read from the DOM each frame, so nothing can be left lit when the pointer leaves):
+  //   after Show: the row's move is named first (the "row" pass, `draw()`) and ONE line runs place → move → on to the first
+  //   place it leads to, which stands clear and is named where the visible map shows it (else the line runs off the view);
+  //   before Show: a bar lights where its move lives, the place and that one move's orb standing clear, no name, no gold,
+  //   no line (a).
+  // A lit row never moves the camera. Never over a running game (`_lightOf`, `running`), never on a phone (`_czAt`), never
+  // for a cloze the bare-map close let go (`c.free`). Read once a frame (`_frameN`), as `_lightOf` and the names both ask.
+  _czWay() {
+    const f = this._frameN, m = this._czWayM;
+    if (m && m.f === f) return m.v;
+    const z = this.paused && this._czAt(), R = this._gameplanRuntime;
+    const v = z && !z.look && R && R.ngClozeWay ? R.ngClozeWay(this, z) : null;
+    this._czWayM = { f, v };
+    return v;
+  }
   _drawLight(ctx, F) {
     const n = this._lightOf(), wall = performance.now(), game = (this.now || 0) * 1000, look = this._czLookOn();
     // A CLOZE'S LOOK'S WAY BACK (S3): the pill is shown exactly while the look is on, seated at the foot of the visible map
@@ -1014,7 +1032,9 @@ class Component extends DCLogic {
       if (P.hidden === look) P.hidden = !look;
       if (look) { const R = this._viewRect(), cv = this.canvas.getBoundingClientRect(), t = Math.round(cv.top + R.top + R.height - 52), l = Math.round(cv.left + R.left + R.width / 2); if (P._t !== t || P._l !== l) { P._t = t; P._l = l; P.style.top = t + "px"; P.style.left = l + "px"; } }
     }
-    if (n) this._lightAt = n.idx;
+    // what this light shows is kept while it fades (S4): the moves a bar or a row lit stay what they were, never the place's
+    // whole hand for 400 ms after a bar (that would show where every hidden move lives)
+    if (n) { const w = this._czWay(); this._lightAt = n.idx; this._lightSet = w ? { bar: !!w.bar, move: w.move, dest: w.bar ? null : w.dest } : null; }
     const dt = Math.max(wall - (this._lightT == null ? wall : this._lightT), game - (this._lightS == null ? game : this._lightS));
     this._lightT = wall; this._lightS = game;
     this._lastLight = null;
@@ -1029,7 +1049,9 @@ class Component extends DCLogic {
     const k = this._lightK = running ? 0 : this._reducedMotion() ? to : to > was ? Math.min(1, was + dt / NG_LIGHT_IN_MS) : to < was ? Math.max(0, was - dt / NG_LIGHT_OUT_MS) : was;
     const at = k > 0.001 && this._lightAt != null ? this.nodes[this._lightAt] : null;
     if (!at) return;
-    this._lastLight = R.ngLightDraw(this, ctx, { ...F, k, place: at, moves: this._lightMoves(at), paleDown: look });   // a look's hidden moves: pale marks (S3)
+    const L = this._lightSet, moves = L && L.bar ? [L.move] : L && L.dest != null ? this._lightMoves(at).concat([L.dest]) : this._lightMoves(at);
+    this._lastLight = R.ngLightDraw(this, ctx, { ...F, k, place: at, moves, paleDown: look,   // a look's hidden moves: pale marks (S3)
+      gold: L && L.bar ? null : F.gold, way: L && !L.bar ? { move: L.move, dest: L.dest } : null });   // a bar: no gold, no line (S4)
   }
   // `press`: THE PRESS ON THE MAP THAT ENDS A LOOK TAKES THE CAMERA'S LEASE AGAIN, SO THE PLACE STAYS NAMED FOR THE CAMERA'S
   // HOLD TIME (L3-R2, the reader's re-read of PR #440 at 6ce6a6f03). That press is consumed (above), so on a phone the door
@@ -23770,6 +23792,7 @@ class Component extends DCLogic {
 
   draw() {
     const ctx = this.ctx; if (!ctx || !this.nodes) return;
+    this._frameN = (this._frameN || 0) + 1;   // (what is asked once a frame: `_czWay`)
     this._warmMapPaint();
     const W = this.W, H = this.H, dpr = this.dpr;
     // A directed arrival lights the chosen seat from the pick, without focusing or dealing it before enterLand.
@@ -24768,6 +24791,18 @@ class Component extends DCLogic {
       // place's own moves: one of Half Guard's read as one of Mount's). The pointer's label, a point and the roll's own
       // place are named as ever. An orb a point named just now is not named again here. Never a face-down move (`hmDown`).
       const czNamed = new Set(pointPlan ? pointPlan.keys() : []);
+      // THE LIT ROW'S NAMES FIRST (S4): its move, then the place it leads to where the visible map shows it, both acted on
+      const way = czLit && this._czWay();
+      if (way && !way.bar) {
+        const rc = [];
+        for (const idx of [way.move, way.dest]) {
+          const n = idx != null ? this.nodes[idx] : null; if (!n || !rsOk[idx] || czNamed.has(idx) || hovd(n)) continue;
+          const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { act: true });
+          if (on(c)) rc.push(c);
+        }
+        const rowPlan = rc.length ? write("row", rc, (c) => this.rgba(c.n.col, A)) : null;
+        if (rowPlan) for (const i of rowPlan.keys()) czNamed.add(i);
+      }
       if (czLit) {
         const cc = [];
         for (const idx of new Set(cz.c.rows.map((r) => r.idx))) {
