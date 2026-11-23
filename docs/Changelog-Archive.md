@@ -20742,3 +20742,40 @@ since the 373,473 B baseline, under the 5,000 cap; the map seat's PAY-L3 checkpo
   way to light);
 - the row's own hover wash still stays after a tap on a phone (it predates this; only ⋮'s was taken off);
 - the menu stays where it opened if a late payload re-renders the list under it (the star's picker does the same).
+
+### v1.295.1, LISTS-MENU-2 part 1: the row opens and shuts; its chevron in Explore's column (23 Nov 2026)
+
+The owner, looking at the rows on production: "pressing the list name is the same as pressing the expand colpase icon
+(chervrons is it? yep it is) i also checked up this image and sometimes the chverons are on the lef tsometime right".
+
+- **A press on the name, or anywhere on the row's line but ⋮, opens or shuts the list**, as its chevron does. His rule
+  replaced the orchestrator's of the same day (the name lighting the list).
+- **The light is kept** (the orchestrator's ruling): an open list is lit on the map, and shutting it puts the light out.
+  With several lists open, **the last one opened is lit**: a press is a question about that list, and the map answers
+  the newest. Shutting a list that is not the lit one leaves the light. A list that opened itself (made, added to,
+  restored) is open and not lit: only a player's press lights (`_toggleListOpen`).
+- A press among an open list's items (between their controls) does not shut it: the row's line only.
+- **The chevron moved to the row's right edge**, the same glyph and ink as Explore's (`_caretHTML`), pointing right shut
+  and down open. Its glyph's right edge is the section heads' column, **25 px in from the panel's edge at 1440 and at
+  390**, measured; `lists-menu.spec.ts` pins the two equal. ⋮ is the control just left of it; on a phone both are 44 px
+  boxes, centres 44 px apart. The count is text beside the name.
+- **Measured** (the orchestrator's probe on this build; "opens" = the share of the row where a press opens or shuts the
+  list):
+  - 1440: 95% of the row, both names (⋮ the other 4%);
+  - 390x631: 86% and 87% (⋮ 13%);
+  - the long name 223 px at 1440 and 186 px at 390; "Thursday open mat" whole.
+- **The other chevrons in the panel, left as they are (reported, not changed):**
+  - the Explore head's glyph ends 23 px in, 2 px right of the section heads' column;
+  - Last rolls uses a text "›" (23 px), a different glyph that does not turn;
+  - Master the game has no chevron.
+  - All point right shut and down open; none sits on the left.
+- **Mutants**, each rebuilt for real, a control green; red:
+  - the name renaming again; the row's press lighting only (the first build);
+  - opening not lighting; shutting leaving the light on; the first list opened keeping the light;
+  - the chevron off the column; a press among the items shutting the list;
+  - the chevron, or ⋮, at 24 px on a phone.
+- **SURVIVED, recorded:** the editor's just-closed latch removed. In Chromium the editor's commit re-renders the row
+  between the press's down and up, so the click never reaches a row; the latch is a second guard this test cannot reach.
+  It is named in the spec's header.
+- **The first runs of 5 of these mutants proved nothing.** Port 8133 was held when they started, so no test ran; the
+  runner now waits for the port and names the holder. They were run again and are counted only from that run.
