@@ -14,8 +14,11 @@ import { journey } from "../dsl";
  * Every press is a player's: the mouse at 1440 (`clickByMouse`), a touch tap at 390x631 at a measured centre, or keys.
  * Lists are SEEDED through the app's own model (setup only).
  *
- * Mutants, each red here on a real rebuild, a control green: see the archive's entry for this version and the list at
- * the end of this header once they have run.
+ * Mutants, each red here on a real rebuild, a neutral control green (the archive's v1.295.2 entry has the table): the
+ * item's ⋮ opening nothing; Move up enabled at the top; Move down moving up; a reorder bumping the list's `t`; Remove
+ * without its Undo; the Undo putting the item back at the end; Share sharing the list's link; the item's ⋮ at 24px on a
+ * phone; ▶ without its thumb box on a phone; the keys landing on a disabled item; a key-made reorder dropping the focus.
+ * NONE SURVIVED.
  */
 
 type W = any;
