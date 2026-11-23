@@ -20752,3 +20752,62 @@ A control first (8 of 8 green); the six files that reach "Show on the map" and v
   550,073 B, measured again on the final tree.
 - Units 16 of 16 (ML14 to ML17 red, a control green); `map-light.spec.ts` 14 of 14, JR2a, JR2b and JR4 red; the seven
   files that reach "Show on the map", 129 of 129. Eager gzip 377,995 B (+563 on PAY-L3's 377,432).
+
+## v1.295.2 — Settings, one page of groups with room to breathe (SET1; the owner, 23 Nov 2026)
+
+**The owner, 23 Nov 2026:** "in settings, why is article settings inside rolling? one can just have landed in an article and not
+be rolling, please improve the org of settings, and also the UX and filling and distance to the browser edge max width ofc but
+currently it's too thin and doesnt allow breathing very much". Part A (the plan, with real screens:
+`artifacts/briefing/img/settings/today-*`, `new-*`, `alt-*`, `row-*`) was ruled SET1-GO: pick A, one PR.
+
+**Measured before (the preview, v1.294.0–v1.295.0):**
+- a 440 px card at every desktop width: 500 px from each side at 1440, 317 at 1074 (his window), 180 at 800;
+- the Rolling tab 3,048 px tall in a 509–560 px window (8 screens on a phone), 1,415 px of it the 30 article sections, sitting
+  flush against the bottom-layer rows with no gap or rule;
+- help lines of 34–64 characters;
+- 23 controls under 44 px at every size (choices 34, the ✓ boxes 24, the slider 16);
+- at 390x631 the card 667 px tall, running 18 px off the top and the bottom of the screen, with a boxed ⚠️ note taking about
+  95 of the 631 px.
+
+**What changed:**
+- **Groups by what a setting is about** (`NG_SETTINGS_TABS`, app.src.jsx; ruled names): Practice (daily goal, answer mode) ·
+  Rolling (Opponent, where the roll starts, hide moves, questions while you roll, answer time, danger animation; "On screen
+  during a roll": question card, your moves) · **Articles** (the 30 sections) · **General** (gi / no-gi, sound, volume) · Your
+  odds (modifiers) · Email (as before, only when drawn) · Keyboard. The five old ids are kept, `reading` and `app` are new, and
+  no settings key is added, renamed or deleted (§6.6).
+- **One page, its group list always in view:** a 176 px rail beside the panel from 600 px, a row of chips (the old tab row's
+  element, fades and keys) under 600. A press scrolls to its group, the group in view is the lit one (`aria-selected`), an
+  opening by any id lands on its group, and a redraw keeps the panel where it was. The press HOLDS its light until the
+  player's own next scroll: without that, a short group ("Your odds", "Email") lost its light on arrival to the next heading
+  sharing the top third of the panel (mutant `hold-ends-on-arrival`).
+- **The frame:**
+
+  | | 1440 | 1074 | 800 | 390 |
+  |---|---|---|---|---|
+  | width | 760 | 760 | 736 | 390 (a full-screen sheet) |
+  | from the sides | 340 | 157 | 32 | 0 |
+  | from the top / bottom | 48 | 48 | 32 | 0 |
+
+  Height is min(880, the window − 2 × edge). The spacing token is 4 px. Every control is 40 px (44 on a phone); the article
+  rows are 40/44 px with the whole row the target. Help is held to 60ch (TODO-cpl characters a line at 1440). There is a faint
+  grain over the card's own gradient, and no emoji.
+- **One Video switch** (SET1-GO 2): "Videos during play" (HIDESEC2 had made it write `readerSection.videos`) and the Articles'
+  Video box were two switches for one key. The Video row under Articles is the one switch, says "also the film during a
+  roll", and with no reader built yet writes `landFilm` too, as the retired row did.
+- **The owner's note stays first, word for word** (SET1-GO 4), as a quiet amber-ruled line. On a phone it is in the panel
+  and scrolls with the settings.
+- **Opponent** is the row once called "Rolling simulation" (its two lines merged, words kept).
+- **The reader's "Settings" in a hidden part's message** opens on Articles, or on Rolling for Moves and Questions.
+
+**Corrections and findings:**
+- **Back does not close the phone sheet** (correction of Part A's claim): Back steps the page history, and Quartz's router
+  remounts the app on that entry, as it did before SET1. A Back that only closes Settings needs a history entry of its own
+  and a popstate that pre-empts the router's: the history seam BGCLOSE (#446) just shipped. It was left out of this PR and
+  reported to the orchestrator. The sheet closes with its 44 px ✕ (and Esc).
+- **Two findings, NOT in this PR** (SET1-GO 6; the orchestrator takes them to the owner): modifiers are never saved
+  (`userMods` lives in memory; gone on reload), and "Off" for the opponent sets its resistance to 0 rather than turning the
+  roll off.
+
+**Bytes:** TODO.
+
+**Proof:** TODO.

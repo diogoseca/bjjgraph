@@ -706,6 +706,30 @@ export class Journey {
     return this;
   }
 
+  /** SETTINGS AT REST (SET1, v1.295.2). Settings is one page of groups: a press on a group GLIDES the panel to it, and the card
+   *  itself enters with a 0.28 s fade that starts it 8 px low. A control measured before both have stopped is measured where no
+   *  frame will leave it (the panel read a button at y=3,254 on a 900 px screen). This waits, as a player does, until the card's
+   *  entrance has finished and the panel's scroll has held still for 150 ms. Settings must be open: an absent panel is an error. */
+  async settingsAtRest() {
+    await this.page.waitForFunction(() => {
+      const c = (window as any).__neural?.modalCardRef?.current as HTMLElement | undefined;
+      return !!c && !!c.querySelector('[role="tabpanel"]') && c.getAnimations().every((a) => a.playState === "finished");
+    }, null, { timeout: 10_000 });
+    await this.page.evaluate(() => new Promise<void>((res, rej) => {
+      const p = (window as any).__neural.modalCardRef.current.querySelector('[role="tabpanel"]') as HTMLElement;
+      const t0 = performance.now();
+      let y = p.scrollTop, since = t0;
+      const tick = () => {
+        const now = performance.now();
+        if (p.scrollTop !== y) { y = p.scrollTop; since = now; }
+        if (now - since >= 150) return res();
+        if (now - t0 > 5000) return rej(new Error("the Settings panel never held still"));
+        requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    }));
+    return this;
+  }
   /** A WHEEL'S SCROLL CAN STILL BE MOVING WHEN A FIXED WAIT ENDS (FLAKE1, v1.270.1): mastery-gold.spec.ts:282 wheeled 800 px in
    *  Settings, waited 150 ms and pressed at a measured point, and once in 247 the press measured the row before the scroll had
    *  moved it, over the modal's foot. Shortening that wait to 0 failed it 10 of 10 on the unchanged app. Press only once the

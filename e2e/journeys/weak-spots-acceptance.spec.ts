@@ -131,7 +131,7 @@ async function inSettings(j: any, page: Page, tab: string | null, act: () => Pro
   if (await page.locator("[data-practice-page]").count()) await j.clickByMouse("[data-pane-back]", "Back to drawer account controls");
   await j.openAccountMenu();
   await j.clickByMouse("[data-menu-settings]", "Settings in the account menu");
-  if (tab) await j.clickByMouse(`[data-settings-tab="${tab}"]`, `the ${tab} group`);
+  if (tab) { await j.clickByMouse(`[data-settings-tab="${tab}"]`, `the ${tab} group`); await j.settingsAtRest(); }
   await act();
   await page.keyboard.press("Escape");
   await expect.poll(() => page.evaluate(() => (window as any).__neural.modalRef.current.style.display),

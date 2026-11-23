@@ -198,6 +198,7 @@ test("U139 a: an account with the email stored on keeps the tab and row to turn 
   await expect(page.locator(`[data-settings-group="notifications"] ${ROW}`), "the switch is in the Email group").toHaveCount(1);
   await expect(page.locator(ROW)).toHaveCount(1);
   await j.clickByMouse("#ng-stab-notifications", "Notifications");
+  await j.settingsAtRest(); // SET1: the press glides the one page to the Email group
   await expect(page.locator(ROW)).toBeVisible();
   await expect(page.locator(ROW)).toContainText("mailed to player@example.com.");
   await expect(page.locator(ROW), "the row says no email is sent yet").toContainText(UNSENT);
@@ -226,6 +227,7 @@ test.describe("at 390, by touch", () => {
     await bringChip(page, "notifications");
     await tap(page, "#ng-stab-notifications", "the Email chip", '[role="tablist"][data-settings-tabs]');
     await expect.poll(() => selected(page)).toBe("notifications");
+    await j.settingsAtRest();
     await expect(page.locator(ROW)).toBeVisible();
     await expect(page.locator(ROW)).toContainText(UNSENT);
     await expect(page.locator(OFF)).toHaveText("Off");
@@ -298,6 +300,7 @@ test("flipped: with NG_DIGEST_LIVE true, a signed-in player's Settings are v1.25
   await openSettingsFromMenu(page, j);
   expect(await tabIds(page), "seven groups, setting off").toEqual(["flashcards", "rolling", "reading", "app", "modifiers", "notifications", "shortcuts"]);
   await j.clickByMouse("#ng-stab-notifications", "Notifications");
+  await j.settingsAtRest();
   await expect(page.locator(ROW)).toBeVisible();
   const sub = await page.locator(ROW).evaluate((el) => (el.firstElementChild!.children[1] as HTMLElement).textContent);
   expect(sub, "the row's words are v1.259.1's, with no not-sent sentence").toBe(V1259_ROW);
