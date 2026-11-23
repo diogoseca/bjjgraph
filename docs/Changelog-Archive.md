@@ -21512,6 +21512,24 @@ The gate's G1 (a direct window add in the app) and G2 (a once-a-page line gone) 
   - Widening found no real direct add.
 - **Missed by the first survey:** the reduced-motion query, which was already removed by name.
 
+**LEAK1-R3 (23 Nov 2026; shard 3 red once on 2c2b860d0, `mc-flashcards.spec.ts:576`, "locator.scrollIntoViewIfNeeded:
+Element is not attached to the DOM" in `openCorridor`).**
+- **The cause is the DSL, not the app.** The press that opens Master the game draws its list (`openPlanSession` →
+  `renderSession`). The press's own deferred step (`_afterPress` → `_practiceAppend` → `renderSession`) draws it again
+  50 to 490 ms later, with a new Belt lessons row in the old one's place. `openCorridor` counted the folded row, then
+  scrolled the same locator, and once the scroll's stability wait met the old row detached.
+- **LEAK1 does not move it.** The second render is dev's own, and the gap between the two renders is the same on dev
+  4e32f0f2e and on this head (median 72 against 80 ms fast, 415 against 360 ms throttled 6x).
+- **Not reproduced naturally here:** 0 of 100 fast and 0 of 100 throttled 6x on dev's own bundle, and the same on this
+  head.
+- **The frame sought:** the app's own redraw forced once, in the act's next frame. It gives CI's exact error with the old
+  step (3 of 20 fast, 1 of 10 throttled) and none with the new one (20 of 20, 10 of 10).
+- **The fix:** a DSL step, `unfold(sel, what)`, used for both folded rows. It looks the row up fresh and is taken again,
+  whole, when a redraw replaced it under the act, and the claim is kept: exactly one expanded at the end.
+- **Runs with it:** the 16 journey files that go through `openCorridor`, 154 of 154; the test 100 of 100 fast and 100 of 100 throttled 6x.
+- **Said for a ruling, not changed:** the list is drawn twice within half a second of the press, the second time whole,
+  so a player's press on a row in that window meets a row that is about to be replaced.
+
 **Bytes** (the served app folders emptied first, against PAY-L5, dev v1.297.1's own level): eager gzip 384,795 B, +516
 (+141 on v1.298.0); first-hand core 404,270 B, +539; deferred 560,576 B, +197 B on 560,379 (reader.js +219, gameplan.js
 -22), the ceiling moved in its own commit (39,424 B remain of the owner's 600,000).
