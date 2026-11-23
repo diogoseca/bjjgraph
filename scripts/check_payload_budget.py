@@ -276,7 +276,7 @@ NEURAL_TARGET = {
     # v1.296.0 L2b S2 (a cloze's place on the map: the glide, ngLightFrame, and master-cloze.src.js's two calls): 550_828, +755 B on
     # S1's 550_073 (measured again once S1-R1 corrected S1's figure; 551_167 was +755 on S1's old 550_412).
     # v1.297.0 L2b S3 (a phone's look from the cloze: the Map press, the look, the pill, master-cloze.src.js; the pale marks and
-    # the look's calm area, map-light.src.js): 552_744, +1_577 B, on the tree with S1, S2 and dev v1.294.0 in.
+    # the look's calm area, map-light.src.js): 552_744, +1_916 B on S2's 550_828, on the tree with S1, S2 and dev v1.294.0 in.
     "deferred_raw_bytes": 552_744,
 }
 
