@@ -37,8 +37,14 @@ import { journey } from "../dsl"
  *                                                                     → "on a phone, after a look…" at "the press that ends the
  *                                                                        look closes nothing"
  *   J9  the name kept past a new camera hold (`_shownNode` reading `camHeld()` alone: the close's own hold for free roam
- *       then keeps the place named, and lit, over the closed map)    → "on a phone, after a look…" and "…the drawer shut by
- *                                                                        Esc…", each at "the name goes with it"
+ *       then keeps the place named, and lit, over the closed map)    → "on a phone, after a look…" at "the name goes with it"
+ *       (the desktop's Esc step read it too until S2, where the drawer shut ends the look before any close)
+ * S2 (the orchestrator's ruling on the reader's re-read of PR #447): on a computer the look also ends when the drawer is shut.
+ *   JR3 (S2-R1, ruling 3) the look's place read from the width, not from where it began → "on a phone a look keeps its place
+ *       when the phone is turned…" at "turned to landscape…"
+ *   JD1 the drawer shut not read (`_shownRow` without `deckShown`)    → "on a desktop…Esc…" at "the drawer shut on a computer:
+ *                                                                        the place is no longer named", and "…a still board…"
+ *                                                                        at "ends the look at once"
  * S1-R1 (23 Nov 2026; the reader of PR #447, `reports/review-pr447.md`, and the orchestrator's rulings 2 and 4). The reader's
  * own mutants, verbatim, after a neutral control (one comment character, 14 of 14 green):
  *   R1  the hand's cache forgets which place it was kept for          → "every move the place deals, and only those…" at "a
@@ -329,7 +335,7 @@ for (const [label, vp] of [["mouse 1440x900 dpr 1", { viewport: { width: 1440, h
 test.describe("mouse 1440x900", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
 
-  test("on a desktop the light lasts while the drawer holds the game; the drawer shut by Esc lets the game run, and the light is out", async ({ page }) => {
+  test("on a desktop the light lasts while the drawer holds the game; the drawer shut by Esc lets the game run, the light is out and the place no longer named", async ({ page }) => {
     const j = await rolled(page, false)
     await show(page, false)
     await j.advance(1200)
@@ -339,15 +345,45 @@ test.describe("mouse 1440x900", () => {
     await j.advance(450)
     expect((await state(page)).paused, "premise: the drawer shut, the game runs").toBe(false)
     expect(await light(page), "the game runs: the light is out").toBeNull()
-    // v1.294.0: the next press on the bare map closes the page, and the place it named goes with it (J9)
-    expect(await named(page), "premise: the place is still named, for the camera's hold").toBe(true)
+    // S2 (the orchestrator's ruling on the reader's re-read of PR #447): on a computer the drawer shut is Last rolls out of
+    // sight, and the look ends with it, the name too (until S2 the name stayed for the camera's 7 s) (JD1)
+    expect([await named(page), await shownAt(page)], "the drawer shut on a computer: the place is no longer named").toEqual([false, false])
+    // v1.294.0: the next press on the bare map closes the page; nothing of the place comes back with it
     const p = await emptyMapPoint(page)
     expect(p, "premise: a point of the map with nothing on it").not.toBeNull()
     await page.mouse.click(p!.x, p!.y)
     await j.advance(450)
     expect(await where(page), "the press on the bare map closes the page: the map alone, the address the root").toMatchObject({ url: "/", roam: true, card: false })
-    expect([await named(page), await shownAt(page)], "the name goes with it").toEqual([false, false])
-    expect(await light(page), "and nothing is lit").toBeNull()
+    expect([await named(page), await shownAt(page), await light(page)], "nothing named, nothing lit").toEqual([false, false, null])
+  })
+
+  test("on a computer with a still board, Show then Esc: the game stays held, and the look ends with the drawer at once, the light out over 400 ms", async ({ page }) => {
+    const j = await rolled(page, false)
+    // the board staged again, so it is still from birth (the roll filed in Last rolls), as the reader's re-read had it
+    await page.evaluate(() => { const a = (window as W).__neural; a.rollFromPosition(a.currentPos, true) })
+    await j.advance(1500)
+    await dismissReward(page, false)
+    await press(page, ".ng-logo", "open the drawer", false)
+    if (!(await page.locator("[data-hist-current]").first().isVisible())) await press(page, '[data-view="history"]', "Last rolls", false)
+    const key = await page.evaluate(() => document.querySelector("[data-hist-current]")?.getAttribute("data-hist") || "")
+    expect(key, "premise: the staged board has its row").not.toBe("")
+    await show(page, false, key)
+    await j.advance(1200)
+    // (the place shown here is where the board stands, which the board names by its own label whatever is shown, so the name
+    // cannot tell the look from the board: what is read is the look itself, `_shownNode`, and the light; the desktop's Esc
+    // step above reads the name, Mount, away from the board)
+    expect([(await light(page))?.k, await shownAt(page)], "premise: lit, the place shown").toEqual([1, true])
+    await watch(page)
+    await j.advance(17)
+    await page.keyboard.press("Escape")
+    const f = await watched(page)
+    expect([(await state(page)).drawer, (await state(page)).paused], "premise: the drawer shut, the board still held").toEqual([false, true])
+    expect(await shownAt(page), "the drawer shut on a computer ends the look at once: the place is no longer shown").toBe(false)
+    const out = f.find((r) => r[3] === 0)
+    expect(out && out[0], "premise: the frame that let the place go, with the game still held").toBe(1)
+    expect(out![2] > 0 && out![2] < 1, `the light fades out, the game held (${out![2]})`).toBe(true)
+    await j.advance(450)
+    expect(await light(page), "and is out after 400 ms").toBeNull()
   })
 
   test("every move the place deals, and only those: the ruleset switched while lit, a second place shown after the first, and the marks when the map is pulled back", async ({ page }) => {
@@ -509,6 +545,19 @@ test.describe("touch 390x631", () => {
     expect(await light(page), "and nothing is lit").toBeNull()
     await j.advance(3000)
     expect([await named(page), await light(page)], "nor does either come back inside the camera's 7 s").toEqual([false, null])
+  })
+
+  test("on a phone a look keeps its place when the phone is turned: lit and shown at 844x390, and again at 390x631", async ({ page }) => {
+    const j = await rolled(page, true)
+    await show(page, true)
+    await j.advance(1200)
+    expect([(await state(page)).look, (await light(page))?.k, await shownAt(page)], "premise: a look, lit, the place shown").toEqual([true, 1, true])
+    await page.setViewportSize({ width: 844, height: 390 })
+    await j.advance(600)
+    expect([(await state(page)).look, (await light(page))?.k, await shownAt(page)], "turned to landscape (no longer 'mobile' by width), the look keeps its place, lit (JR3)").toEqual([true, 1, true])
+    await page.setViewportSize({ width: 390, height: 631 })
+    await j.advance(600)
+    expect([(await state(page)).look, (await light(page))?.k, await shownAt(page)], "and turned back").toEqual([true, 1, true])
   })
 
   test("on a phone the light lasts as long as the look; the press that ends it puts the light out and leaves the name; the drawer opened over a look opens on Explore, which ends the look: no name, no light", async ({ page }) => {

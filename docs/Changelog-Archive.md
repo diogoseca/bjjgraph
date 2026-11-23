@@ -20752,8 +20752,6 @@ A control first (8 of 8 green); the six files that reach "Show on the map" and v
   550,073 B, measured again on the final tree.
 - Units 16 of 16 (ML14 to ML17 red, a control green); `map-light.spec.ts` 14 of 14, JR2a, JR2b and JR4 red; the seven
   files that reach "Show on the map", 129 of 129. Eager gzip 377,995 B (+563 on PAY-L3's 377,432).
-
-
 ## v1.295.1 — A list's actions behind three dots: Rename · Duplicate · Share link · Delete (LISTS-MENU; the owner, 23 Nov 2026)
 
 **Why.** The owner, 23 Nov, after trying v1.293.5's pencil on production: "the pencil edit isn't ideal, maybe a cogwheel
@@ -21065,3 +21063,95 @@ currently it's too thin and doesnt allow breathing very much". Part A (the plan,
   - settings-tabs 12 of 12; the frame mutants 3 of 3 and both controls held.
 - **Back, measured on the built page at 390:** Settings open on /Positions/Mount/Top, then Back, goes to "/" and Settings
   is gone with the page. On a first visit, Back leaves the site.
+
+## v1.296.0 — A cloze's place on the map (L2b S2; the owner's U202 a; the orchestrator's rulings (d) and (c), 19 Nov 2026)
+
+**What a player sees, on a computer.** Opening a place's cloze in Master the game takes the map beside the drawer to the
+place and the moves the cloze lists, in one glide, never closer than the roll's own zoom, and the map names the place.
+It stays there for as long as the cloze is open, whatever the board would otherwise do with its camera (a staged board's
+own framing used to take it back within seconds). At Show the place is lit as "Show on the map" lights a place (S1), its
+shown moves are named where a name fits, and the camera does not move if they are all in view; Hide or Done puts the
+light out, and leaving the place lets the camera go. A phone is unchanged: its drawer is the screen, and its look at the
+map is the next slice (S3).
+
+**The rulings.** (d): "When a place's cloze opens, the map goes to the place and its moves … At Show, one glide holds
+the place and its SHOWN moves (not where they lead): never closer than the roll's zoom, held for as long as the cloze
+shows (a hold of its own, beside `_conceptId`'s; released at once when the cloze goes), with the light on from Show until
+Hide, Done or the place is left, the shown moves named where a name fits. A lit row moves no camera, ever" (that last is
+S4's). It replaced the brief's "every place its shown moves lead to are in view": measured in Part A (5.4), holding where
+the moves lead is the whole map at the median place. (c), point 2: no pulsing session ring for the lit place while the
+light is on (built here: in S1 it could not happen).
+
+**How.**
+- `app.src.jsx`: `_czAt()` is the open cloze's place, `{n, c}` (the half its seat plays), on a computer, while the
+  drawer shows the cloze; derived on every read, so the cloze closing, the list, a card opening, the drawer shut or Esc
+  end it with no lifter of its own. `updateCamera` holds the camera while it is set, beside `_conceptId`'s hold. The
+  camera's 7 s lease would not have done: it runs on the frame clock, which runs under a pause, and a staged board's own
+  framing is exempt from the pause (Part A, 5.5). `_lightOf` lights the place from Show until Hide or Done. `draw()` names
+  the place (the pointer's label when nothing is under the pointer), names the shown moves in a pass of their own BEFORE
+  the roll's hand (the moves being answered claim their places first; an orb named there is not named again, as the
+  roll can stand at the same place), and draws no session ring on the lit place.
+- `map-light.src.js`: `ngLightFrame`, one glide into the calm area (the visible map inset 34 / 38 / 34 / 37 px, design
+  round 6), none when every node is inside it already at a zoom no closer than the roll's, read where the camera is
+  GOING so a glide in flight is not begun again. `master-cloze.src.js` calls it as a cloze opens (not when the open one
+  is drawn again) and at Show.
+
+**The map's own names step back while a cloze is lit** (design round 6, section 4, rule 6: "The map's own names stay off
+while Practice is on"). The first build named the roll's own hand there too: with the board at Half Guard, "Half Guard to
+Triangle Escape Position" was written bright over its dimmed orb among Mount's escapes. The pointer's label, a point and
+the roll's own place are named as ever.
+
+**Found by a mutant that survived.** The hold's mutant (K2) first stayed green: the journey's board was a roll made from a
+place with the clock held (`rollFromPosition(…, true)`), which never sets `_staged`, so nothing under the drawer's pause
+moves its camera and no hold is needed there. The journey now stages its board as a press on the map does
+(`stageRollAt`), whose own framing takes the camera back (`stagedIdle`), and K2 is red. The release (K3) was first red only
+at a premise that read the mutated function itself; it is now read where the camera goes (the staged place back in view
+after Esc).
+
+**Tests.** `tests/map_light.test.mjs` +4 (17): `_czAt` (the seat's half, a computer, the drawer showing the cloze), the
+light from Show to Hide or Done, the glide's two rules. `e2e/journeys/map-cloze-place.spec.ts` (5): the opening, the hold
+and its release on a staged board; Show, Hide and Done with the names and nothing moving; standing at the place, no orb
+named twice; no session ring on the lit place (four frames at one instant: lit or not, rings or none); a phone unchanged.
+
+**Mutants** (19 Nov, each alone; the clean files green before and after): units CZ1 to CZ6 red at 08:32 (the place on a
+phone, with the drawer shut, lit before Show, lit after Done, the glide every time, the glide closer than the roll's
+zoom), a control green. Journey 09:24 to 09:34: K1 no glide as a cloze opens, K2 no hold, K3 the hold kept with the drawer
+shut, K4 lit before Show, K5 lit after Done, K6 a glide at Show with everything in view, K7 the shown moves not named, K9
+the lit place's session ring drawn, K10 the place not named, K11 the place on a phone too, K12 the cloze's moves named
+before Show, K13 the roll's own hand named while lit (red at two steps): all red at their named steps; a control green.
+
+**Runs (local, under the lock).** The cloze's place, the light and the cloze journeys 32 of 32 (09:33); the 13 other
+journey files that open a cloze or read the map's names, rings or labels (grepped: 16 files, the whole list read) 266 of
+266 (08:49 to 08:59, before the names stepped back, which acts only while a cloze is lit). The full suites are the PR's.
+
+**Bytes** (this tree, stacked on S1): eager gzip 377,716 B (+335 on S1's 377,381), eager raw 1,468,822 B (+902);
+deferred 551,167 B (+755), its ceiling moved to it in its own commit. **Not measured:** the frame time of the names pass
+at a lit cloze (at most seven candidates through the memoised planner, which reuses its plan while nothing moves).
+
+**After PR #447 (23 Nov 2026).** S2 took S1-R1 and then dev (ab9532b34, #447 merged) by merge. Rulings 2 and 4 hold for the
+cloze's light too: it shares `_drawLight`, so it goes out at once when the game starts again (the drawer shut, a move
+played, a film). Ruling 2 changes nothing there: the cloze's light already belonged to its cloze (`_czAt`), and Hide, Done
+or the place left end it with the game held, so it fades over 400 ms. The deferred ceiling was measured again on S1-R1's
+corrected figure: 550,828 B, +755 on 550,073.
+**The drawer-shut rule** (the orchestrator's ruling on the reader's re-read of PR #447): on a computer, with a still board,
+Show then Esc shut the drawer and the place stayed lit and named for the 7 s with Last rolls out of sight. On a computer
+the look now also ends when the drawer is shut (`_shownRow` reads `deckShown` there); a phone keeps its look, which is the
+drawer shut. Unit: ML18 red (the drawer not read). Journey: the desktop's Esc step now reads the name gone, and a still
+board (staged, its clock held) reads the look ended at once and the light out over 400 ms (there the shown place is where
+the board stands, which the board names by itself, so the look is read, not the name); JD1 red at both, a control first.
+
+**S2-R1 (23 Nov 2026; the reader of PR #449, MERGE AFTER 4 FIXES, and the orchestrator's rulings and blocker).**
+- **The hold only while the game is held (ruling 1):** a move played beside the open drawer ran the roll with the camera
+  held on the cloze. The journey reads the move coming onto the map (KH1) and none of the cloze's names (the reader's S8).
+- **The bare-map press lets the cloze's map go (ruling 2):** the close marks it free, unlit and unheld, the cloze still
+  open; the next Show takes the map back (KF1).
+- **A look begun on a phone keeps its place whatever the width (ruling 3):** turned to 844x390 it lost its light for
+  good, a regression of the drawer-shut rule (ML19, JR3).
+- **A resize frames the held place again (finding 6),** read a frame at a time: the view's height is the reader's band,
+  which settles a frame after the resize (KZ1).
+- **The frames (the blocker).** The 360 ms frames were the test harness: frames drawn back to back in one task let the
+  canvas pay a dozen frames' raster on one call (a CPU profile: 70% `fill`, 17% `stroke`, one orb's fill taking 250 to
+  300 ms one frame in 12). In real frames at 1440x900 the cloze's framing (6.65 times out) costs 20 ms of the main thread
+  a frame, p95 26.2, under 33: no cap. `tests/artifacts/_map_names_frametime.mjs --wide` measures the three ways; the
+  journey pins a frame at the cloze's framing to the board's own view plus 15 ms (35 against 57 ms there; KT1's 60 ms of
+  work read 94). At 390 every view of this box costs 17 to 49 ms (software raster at dpr 3), the roll's own included.
