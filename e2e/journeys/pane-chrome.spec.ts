@@ -46,7 +46,7 @@ test("the drawer icon opens a drawer whose rows are live", async ({
   ).toBeVisible()
 })
 
-test("the GI/NO-GI choice lives in Settings → Rolling and nowhere else", async ({ page }) => {
+test("the GI/NO-GI choice lives in Settings → General and nowhere else", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -67,10 +67,12 @@ test("the GI/NO-GI choice lives in Settings → Rolling and nowhere else", async
   // "Loading settings…", so the tab exists only once the presentation installs. Wait for it —
   // clickByMouse deliberately does not wait — and then the claim is the same: a real mouse at
   // the tab's measured centre reaches it.
-  await expect(page.locator('[data-settings-tab="rolling"]'), "the lazy Settings UI has loaded").toBeVisible()
-  await j.clickByMouse('[data-settings-tab="rolling"]', "the Rolling tab")
-  const gi = page.locator("[data-settings-gi]")
-  await expect(gi, "the one home: Settings → Rolling").toBeVisible()
+  await expect(page.locator('[data-settings-tab="app"]'), "the lazy Settings UI has loaded").toBeVisible()
+  // SET1 (v1.295.3): the one home is Settings → General (it was Rolling); a press on the group brings it to the top
+  await j.clickByMouse('[data-settings-tab="app"]', "the General group")
+  const gi = page.locator('[data-settings-group="app"] [data-settings-gi]')
+  await expect(gi, "the one home: Settings → General").toBeVisible()
+  await expect(page.locator("[data-settings-gi]"), "and only there").toHaveCount(1)
   // placement only — the same behavior seam still flips the whole app's frame
   await gi.locator("button", { hasText: "No-gi" }).click()
   expect(await page.evaluate(() => (window as any).__neural._giMode)).toBe("nogi")
