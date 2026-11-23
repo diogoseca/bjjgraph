@@ -20731,3 +20731,24 @@ the light's own decides either; both are pinned in `map-light.spec.ts` because t
   the press after Esc does the same. J9 (the name kept by any camera hold, not its own) is red at "the name goes with it"
   in both tests.
 A control first (8 of 8 green); the six files that reach "Show on the map" and v1.294.0's own spec, 123 of 123 green.
+
+**S1-R1 (23 Nov 2026; the reader of PR #447, MERGE AFTER 3 FIXES, and the orchestrator's rulings 2 and 4).**
+- **The light belongs to the look (ruling 2).** On a computer, collapsing the row or switching the drawer to Explore left
+  the place lit and named for the rest of the camera's 7 s. Now the row it was shown from rides the show, and the look
+  ends when that row is collapsed, when Last rolls is left, or when the hold ends; the name goes with it and the light
+  fades over 400 ms (`_shownRow`, read every frame). On a phone the drawer a player opens over a look opens on Explore,
+  which ends it, so J6's case (a light under a phone's open drawer) is no longer reachable; the unit ML7 holds it.
+- **Out at once when the game starts again (ruling 4).** A move played, ▶ on a row, a film and the countdown let go each
+  left the layer fading over the running roll for 17 to 23 frames; now the strength is 0 on the first running frame. The
+  fade is for the ways out that leave the game held. ML6 and J5 (`paused` dropped from `_lightOf`) now survive, covered
+  twice: the new line holds the same claim, and ML14 and JR4 are its killers.
+- **The fade in waits for the planner (finding 5):** with gameplan.js late, the strength is held at 0 (ML15).
+- **The journey reads every move the place deals (finding 3):** every dealt move on the visible map lit and nothing else,
+  the ruleset switched while lit, a second place after the first, the marks pulled back, the holes' soft edge (one fill:
+  0.23 of the way to rgb(7, 8, 16), not 0.4). The reader's R1, R2, R3, R5, R6 each red at its step after a control (14 of
+  14); R4 (the partner orb) is equivalent where measured, the pair inside one hole; it needs a frame closer than the
+  roll's zoom.
+- **The deferred ceiling (finding 1):** 550,412 was S1's measure before dev's merge took 339 B out of reader.js; now
+  550,073 B, measured again on the final tree.
+- Units 16 of 16 (ML14 to ML17 red, a control green); `map-light.spec.ts` 14 of 14, JR2a, JR2b and JR4 red; the seven
+  files that reach "Show on the map", 129 of 129. Eager gzip 377,995 B (+563 on PAY-L3's 377,432).
