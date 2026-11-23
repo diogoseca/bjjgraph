@@ -21301,3 +21301,109 @@ after-step (via "drag"). The lease holds `renderExplorer` while an item is in th
 (Esc), the view changing, the drawer closing, the page hidden, and 15 s. Found by its journey: a bare `moveListItem` on
 drop left the drawer stale until the next rebuild. Proofs: lists-drag.spec.ts, 6 journeys, 8 of 8 mutants (the 15 s expiry
 not covered); the reader's three follow-ups (R1m2, B2, B4) as sync 21-23, each red on its mutant. Bytes: +868 B eager.
+
+## v1.298.0 — A row lights its way (L2b S4; the owner's U202 a; the orchestrator's rulings (d) and (a), 19 Nov 2026, and S4-GO, 23 Nov 2026)
+
+**What a player sees, on a computer.** With a place's cloze open beside the map:
+- **After Show**, the row under the pointer, or the one holding the keyboard's focus while the pointer is away from the
+  cloze, lights its way: its move is named first, and ONE pale line runs from the place to the move and on toward the
+  first place the move leads to (the more likely: a row with two keeps its second on its own second line, undrawn). That
+  place stands clear and is named where the visible map shows it; where it does not, the line runs on off the edge of
+  the view toward it. A move that keeps the place, or that is itself the finish, draws place to move only. The rest of
+  the shown hand stays lit as at Show (S2); moving from row to row keeps the layer on, and only the way changes.
+- **Before Show**, a bar under the pointer lights WHERE its move lives: the layer, the place and that one orb standing
+  clear, with no name, no gold and no line. The hand stays face down (ruling 7 of L2 holds, with this one exception).
+- **A lit row never moves the camera.** Nothing lights over a running game, for a cloze the bare-map close let go
+  (`c.free`), or on a phone (its look, S3, is the phone's way to the map).
+- **A tablet** (S4-GO 4, measured first: the map stands beside the drawer at 820x1180, map 460 by 516 px from x 360; at
+  1180x820, 820 by 232; at 768x1024, 408 wide): a tap on a row's name lights its way until the next tap anywhere (on
+  another name: that row; on the same name: off), Hide, Done or the cloze leaving. Held in memory only, on the cloze's
+  own object; nothing reaches the stored record.
+
+**The rulings.** (d): "A lit row moves no camera, ever. It writes its move's name first and draws ONE line, place → move
+→ on toward where it leads. Where the destination is in view it stands clear and is named; where it is not, the line
+simply runs off the edge of the view toward it, and the row's own second line is where the player reads its name." (a):
+"Before Show, a bar lights WHERE its move lives … the layer, the place and that one move's orb standing clear; no name,
+no gold on it even where it is recalled, no line onward, no destination." S4-GO: (1) two destinations, ONE line, to the
+first; (2) a move that keeps the place: place to move only; (3) the pointer's row while the pointer is over the rows,
+else the focused row; (4) the tablet, measured first, its lifters surveyed and derived where they can be.
+
+**How.**
+- `master-cloze.src.js`: `ngClozeWay(app, z)` says which row is lit, read from the DOM each time it is asked (`:hover`,
+  the host's own `:hover`, `document.activeElement`), so nothing can stay lit when the pointer leaves or the rows are
+  drawn again. On touch, hover and focus are not read (a touch screen leaves both on the element last tapped): the
+  tablet's tap is `c.tap = {id, show}`. Its lifters: Hide and Show again by DERIVATION (`c.showN` counts each Show, a tap
+  is only its own Show's), Done by derivation (`c.done`), the cloze leaving in `ngClozeLeave` (the one that cannot be
+  derived: a cloze opened again is the same object, still shown), the next tap in `ngClozeTapName`, read for every
+  touch on the page (`app._czTap`, a capture listener; a press that travels over 10 px is a drag, never a tap).
+- `app.src.jsx`: `_czWay()` asks once a frame (`_frameN`); `_lightOf` lights the place for a bar before Show;
+  `_drawLight` keeps what this light showed while it fades (`_lightSet`: a bar's one move, a row's way), so the 400 ms
+  fade after a bar never shows the place's whole hand; a bar is drawn with no gold and no way. The "row" names pass runs
+  before the cloze's, so the lit move and its destination claim their room first.
+- `map-light.src.js`: the line, `NG_LIGHT.way` 0.8 and `wayW` 1.6 px, rgb(226,232,246), drawn above the layer and under
+  every name, each end held 2 px off its orb's drawn edge; `_lastLight.way` publishes `{move, dest, seg, to}`.
+
+**Found on the way.**
+- **The cloze's pin read only the cards' labels.** `master-cloze.spec.ts`'s "the frame drew no name on a hidden move"
+  read `_lastOptLabels`, and since v1.296.0 the map's own names planner names moves too (`_lastNameBoxes`): a bar's move
+  named by the planner passed it. It reads both now; W4 is red there.
+- **A fade can say more than the light did.** The first build faded a bar's light out over the place's whole hand (the
+  fade asked `_lightMoves` again with no row lit): for 400 ms after the pointer left a bar, every hidden move stood
+  clear. What a light showed is now kept while it fades (unit WY1; the journey's "while it fades" step).
+- **"The next tap" is any tap.** The first build ended a tablet's lit row only at a tap on another name; the ruling's
+  words are "until the next tap". A tap anywhere ends it now (W14).
+- **Not changed:** a mouse press on Show rebuilds the cloze's bar, and the focus falls to the page's body, so a keyboard
+  user who pressed Show with the mouse starts Tab from the top of the page. The keyboard's own way (the opened cloze
+  holds the focus, Space shows it, Tab walks the rows' toggles) is what the journey takes.
+
+**Tests.** Units: `tests/master_cloze.test.mjs` CW1 to CW5 (`ngClozeWay` against a DOM of its own), `tests/map_light.test.mjs`
+"a row lights its way (S4)" (WY1, WY2), each red at its named test after a control (UC3), 46 of 46. Journey:
+`e2e/journeys/map-row-way.spec.ts`, 6 tests (1440 by a real mouse and by Tab, 820x1180 by touch). Its mutants, each built
+alone into the served bundle after a green control (WC0, 6 of 6 and the pin 1 of 1), all red at the step its header
+names: W1 no hole for the destination, W2 the line under the map, W3 the lit row kept in a stored field, W4 a bar's move
+named (and in the pin), W5 a bar's line drawn (and in the pin), W6 the camera moved for a row, W7 focus ignored, W8 the
+layer dropping between two rows, W9 no row pass, W10 the second place drawn, W11 a tablet's tap kept across Hide, W12
+hover read after a touch, W14 only a tap on a name ends it, W16 the cloze's leaving not ending it (23 Nov, 13:19 to 13:29,
+on the final code). W8b (the layer only while a row is lit) is red here only at the line's ink step, whose control frame
+then has no layer either; the rows touch, so the row-to-row step cannot see it. It is S2's claim: `map-cloze-place.spec.ts` is red under it, 5 of 10, at "Show: the place is lit" among others.
+Not seen by any journey, said in the header: a bar's move given gold (its card is face down before Show, and the light
+never draws gold on a face-down move; unit WY2), `ngClozeWay`'s own Done guard (`_lightOf` ends the light first; CW4).
+
+**Runs (local, under the lock).** The 27 journey files that read the light, the map's names or a cloze (grepped whole:
+`_lastLight`, `_lastNameBoxes`, `_lastOptLabels`, `_lastHoverLabel`, `_lastMapMarks`, `data-cz`, `czOpen`, `_czAt`, `openCloze`,
+`data-cloze`, `master-bar`, `_lightOf`, `_shownNode`; plus graph-naming and keyboard), 451 tests: 450 green and one red,
+S2's own "opening a place's cloze… lights nothing", every run. The press that opens a cloze leaves the pointer on one of its
+bars, which lit (until S4-R0, below, made it wait). On the tree with dev 6f507b78c in, the six closest files
+(map-row-way, map-cloze-place, map-light, master-cloze, map-cloze-look, lists-drag) 66 of 66.
+
+**S4-R0 (23 Nov 2026; the orchestrator's ruling: "a light should follow intent, not a press that happened to land
+there").** A mouse press on a place's row opened its cloze under the pointer, and the bar that came to lie under it lit at
+once, before the player had moved. A place opened now waits for the pointer's first move: until then the pointer is no
+pointer at all (`ngCzMoves`, counted page-wide at each move to a new point; `c.mv0`, the count when the place opened), so
+nothing lights under it, and the keyboard's focus lights as it does with the pointer away. S2's own "opening a place's
+cloze… lights nothing" is back to its own text and holds unchanged. W17 (the unmoved pointer read) is red in the new test
+and in S2's; W18 (an unmoved pointer still keeping the focus from lighting) is red in the keyboard test, which now leaves
+the pointer where the press put it; a control green. Deferred +217 B.
+
+**S4-R1 (23 Nov 2026; the reader of PR #456, MERGE AFTER 1 FIX, and the orchestrator's ruling).**
+- **The cloze's two page-wide listeners go with their app.** The tablet's tap (`_czTap`, capture pointerup on document, S4)
+  and the cloze text's fit (`_czFit`, resize on window: L2's, v1.292.0, found by the same survey) were added once an app
+  and never removed. The reader counted 0, 1, 2, 3 over rounds of a close, Back and a cloze again: every app a remount left
+  behind stayed alive with its graph and answered every tap. `componentWillUnmount` removes both. The journey counts them by
+  their code's own place through CDP (`[[FunctionLocation]]`; CDP gives a listener no handler object here): one of each
+  after a cloze opens, none of the old app's after two remounts (W20, W21). The survey: S1 to S4 add no other document or
+  window listener; the cloze's module-level pointerdown and pointermove are once a page and hold no app.
+- **A mouse move gives the hover back after a touch** (ruled, for a touch laptop: one touch silenced the hover until the
+  next mouse press). A pointermove of the mouse to a new point lifts it (W19; the reader's M15, once touched for good, red
+  at the same step).
+- **S4-R0's own case** is S2's test as it was ("lights nothing" with no pointer move) and the new "a place opened under the
+  pointer…" (W17 red in both).
+Deferred +35 B, eager +51 B.
+
+**Screens** 13 to 18 in the briefing's `img/maplight/`: 13 and 14 a bar under the pointer at 1440 (dev's bundle, this
+one), 15 and 16 a row after Show at 1440, 17 and 18 a tablet's tap at 820x1180.
+
+**Bytes** (the served app folders emptied first, on the tree with dev 6f507b78c in, against PAY-L5, dev v1.297.1's own
+level, the first commit after that merge): eager gzip 384,654 B, +375 on 384,279; first-hand core 404,128 B, +397 on
+403,731; deferred 560,379 B, +2,361 B on S3's 558,018 (560,127, then +217 in S4-R0 and +35 in S4-R1), the ceiling moved to
+it in its own commits (39,621 B remain of the owner's 600,000).

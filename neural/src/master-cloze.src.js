@@ -86,6 +86,57 @@ function ngClozeLook(app, s) {
   }
   ngClozeMap(app, c, NG_LIGHT.lookCalm);   // (nothing lit under the pill)
 }
+// WHICH ROW LIGHTS ITS WAY (L2b S4, v1.298.0; the rulings (d) and (a), and S4-GO), asked by the app once a frame (`_czWay`),
+// from the DOM, so nothing stays lit when the pointer leaves or a row is drawn again: the open cloze's row under the pointer;
+// else, while the pointer is not over the cloze, the row holding the keyboard's focus; else, after Show, the row a tablet's
+// tap lit (`c.tap`, in memory only: the next tap on a row's name, a Hide, Done or the cloze leaving end it; Hide and Done by
+// derivation, `showN` and `done`, leaving in `ngClozeLeave`). Before Show only a bar (an asked move) lights, where its move
+// lives. After Show, the way goes to the FIRST place the row leads to (the more likely; a second stays on the row's second
+// line, undrawn), none for a move that is itself the finish or that keeps the place (S4-GO 1 and 2).
+// ON TOUCH ONLY THE TAP COUNTS: a touch screen leaves `:hover` (and the focus) on the element last tapped, which would light a
+// row the player tapped off, or one whose "Had it?" was pressed; the last pointer's kind and where it went down are kept,
+// page-wide (`ngCzTouch`, `ngCzDown`: a press that travels is a drag, never a tap). A MOUSE MOVE GIVES THE HOVER BACK (S4-R1, the
+// orchestrator's ruling, for a touch laptop: one touch used to silence the hover until the next mouse press): a pointermove of
+// the mouse to a new point lifts `ngCzTouch` (a touch's own compatibility events never move it from where the touch went down)
+// A PLACE OPENED UNDER THE POINTER WAITS FOR ITS FIRST MOVE (S4-R0, the orchestrator's ruling, 23 Nov 2026: "a light should
+// follow intent, not a press that happened to land there"): the press on a place's row opens its cloze where the row was,
+// under a pointer that has not moved, and its first bar lit at once. Until the pointer moves after the place opens
+// (`ngCzMoves`, counted page-wide at each move to a new point; `c.mv0`, the count at the open) it is no pointer at all:
+// no row lights under it, and the keyboard's focus lights as it does with the pointer away
+let ngCzTouch = false, ngCzDown = null, ngCzPt = null, ngCzMoves = 0;
+if (typeof document !== "undefined" && document.addEventListener) {
+  document.addEventListener("pointerdown", (e) => { ngCzTouch = e.pointerType === "touch"; ngCzDown = ngCzPt = [e.clientX, e.clientY]; }, true);
+  document.addEventListener("pointermove", (e) => {
+    if (e.pointerType === "touch") return;
+    if (!ngCzPt || e.clientX !== ngCzPt[0] || e.clientY !== ngCzPt[1]) { ngCzMoves++; if (e.pointerType === "mouse") ngCzTouch = false; }
+    ngCzPt = [e.clientX, e.clientY];
+  }, true);
+}
+export function ngClozeWay(app, z) {
+  const s = app._session, c = s && ngCzNow(s), host = s && s.czHost;
+  if (!c || c !== z.c || c.done || !host || !host.isConnected) return null;
+  const els = [...host.querySelectorAll("[data-cz-row]")];
+  const live = !ngCzTouch && (c.mv0 == null || ngCzMoves > c.mv0);   // a pointer that has moved since the place opened
+  let el = live ? host.querySelector("[data-cz-row]:hover") : null;
+  if (!el && !ngCzTouch && !(live && host.matches(":hover"))) { const f = document.activeElement; el = f && host.contains(f) && f.closest ? f.closest("[data-cz-row]") : null; }
+  let r = el ? c.rows[els.indexOf(el)] : null;
+  if (!r && c.shown && c.tap && c.tap.show === c.showN) r = c.rows.find((x) => x.id === c.tap.id) || null;
+  if (!r) return null;
+  if (!c.shown) return r.ask ? { bar: true, move: r.idx } : null;
+  const lead = r.leads && r.leads[0], p = z.n;
+  const dest = !lead || lead.idx === r.idx || lead.idx === p.idx || lead.idx === p.pi ? null : lead.idx;
+  return { bar: false, move: r.idx, dest, row: r.id };
+}
+// A TABLET'S TAP ON A ROW'S NAME (S4-GO 4: measured, the map stands beside the drawer at 820x1180, 1180x820 and 768x1024):
+// it lights that row's way until the next tap, anywhere on the page (on another row's name: that row; on the same name:
+// off), a Hide, Done or the cloze leaving. Every tap is read here, before the page's own handlers (`app._czTap`, capture)
+function ngClozeTapName(s, e) {
+  const c = ngCzNow(s);
+  if (!c || e.pointerType !== "touch" || !ngCzDown || Math.hypot(e.clientX - ngCzDown[0], e.clientY - ngCzDown[1]) > 10) return;
+  const nm = e.target.closest ? e.target.closest(".nm") : null, row = nm && s.czHost.contains(nm) ? nm.closest("[data-cz-row]") : null;
+  const r = row && c.shown && !c.done ? c.rows[[...s.czHost.querySelectorAll("[data-cz-row]")].indexOf(row)] : null;
+  c.tap = r && !(c.tap && c.tap.id === r.id && c.tap.show === c.showN) ? { id: r.id, show: c.showN } : null;
+}
 // THE HELD PLACE FRAMED AGAIN WHEN THE VIEW CHANGES SIZE (S2-R1, the reader's finding 6: at 1024x768 three of its eight points
 // fell outside). The app asks a frame at a time (`updateCamera`), since the view's height is the reader's band, which settles a
 // frame after a resize; a glide only when they are not in view (`ngLightFrame`). A phone's look keeps its own calm area (S3:
@@ -230,6 +281,7 @@ export function ngClozeResume(app, s, seat) {
 // the Undo is over, and the push it held goes (app.src.jsx, `_undoHold`'s lifters)
 function ngClozeLeave(app, s) {
   const c = ngCzNow(s);
+  if (c) c.tap = null;   // a tablet's lit row goes with its cloze (S4; the one lifter that is not derived, `ngClozeWay`)
   if (c && c.done) c.done.u = null;
   app._undoRelease();
 }
@@ -383,6 +435,7 @@ function ngClozeFlip(app, s, on) {
   const c = ngCzNow(s);
   if (!c || c.done || c.shown === on) return;
   c.shown = on;   // a view, never a grade: nothing is written, and the taps are kept across Hide
+  if (on) c.showN = (c.showN || 0) + 1;   // (each Show is its own: a tablet's lit row from an earlier one is not this one's, S4)
   ngClozeDraw(app, s, c, on);
   app._czSync();
   if (on) ngClozeMap(app, c);   // at Show, one glide holds the place and its shown moves (none when they are in view)
@@ -423,6 +476,7 @@ function ngClozeShow(app, s, seat, mine) {
   const c = ngClozeFor(app, s, seat);
   if (!c) return;
   const fresh = s.czOpen !== seat;   // a place opened, not the open one drawn again (a plan that landed, `ngClozeResume`)
+  if (fresh) c.mv0 = ngCzMoves;   // its rows wait for the pointer's first move (S4-R0, `ngClozeWay`)
   if (!document.getElementById("ng-cloze-css")) { const st = document.createElement("style"); st.id = "ng-cloze-css"; st.textContent = NG_CLOZE_CSS; document.head.appendChild(st); }
   if (s.czOpen != null && s.czOpen !== seat) ngClozeLeave(app, s);
   clearTimeout(app._sessionAdvance);   // a walk to the next deck still pending from a card's last answer must not open a card over the cloze (L1-R2's fault, its third lifter)
@@ -436,6 +490,7 @@ function ngClozeShow(app, s, seat, mine) {
       if (t && t.className === "un") ngClozeUndo(app, s); else if (t) ngClozeTap(app, s, t.getAttribute("data-cz-had"));
     };
     s.ask.prepend(host);
+    if (!app._czTap) { app._czTap = (e) => { const x = app._session; if (x && x.czHost && x.czOpen != null) ngClozeTapName(x, e); }; document.addEventListener("pointerup", app._czTap, true); }
     if (!app._czFit) { app._czFit = () => { const x = app._session, o = x && ngCzNow(x); if (o && (o.shown || o.done)) ngClozeFit(o); }; window.addEventListener("resize", app._czFit); if (document.fonts && document.fonts.ready) document.fonts.ready.then(app._czFit); }
   }
   s.czOpen = seat; s.czHost.hidden = false; s.ask.setAttribute("data-cz", "");

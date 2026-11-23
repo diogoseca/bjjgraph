@@ -25,7 +25,7 @@
 //   L2-11 Undo leaving the answers in the journal                     → "Undo takes the confirm back exactly…"
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { ngClozeLeads, ngClozeBack, ngClozeSay, ngClozeLeadsOf } from "../neural/src/master-cloze.src.js";
+import { ngClozeLeads, ngClozeBack, ngClozeSay, ngClozeLeadsOf, ngClozeWay } from "../neural/src/master-cloze.src.js";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { ngKnowledgeScheduleRow } from "../neural/src/knowledge-profile.src.js";
@@ -260,4 +260,53 @@ test("over the whole wire, both rulesets: a row's second line agrees with its ou
     assert.ok(n.control > 0, frame + ": and control positions among the places");
     assert.equal(n.lost, 0, frame + ": every outcome of a dealt move resolves on this wire");
   }
+});
+
+// ── WHICH ROW LIGHTS ITS WAY (L2b S4): `ngClozeWay`, against a DOM of its own (the rows, the pointer, the focus) ──
+// The cloze's rows are elements in its own order; `:hover` is the row under the pointer, `host:hover` the pointer over the
+// cloze at all, `document.activeElement` the focus. What is read: which row, a bar or a row, and where its line goes.
+//   CW1 a bar's way given a line (no `bar` mode)                      → "before Show only a bar lights…"
+//   CW2 the second lead drawn (the last, not the first)               → "after Show the way goes to the FIRST place…"
+//   CW3 a move that keeps the place given a destination               → "a move that keeps the place…"
+//   CW4 the focused row read while the pointer is over the cloze      → "the pointer's row, else the focused row…"
+//   CW5 a tablet's tap kept across Hide (`showN` not read)            → "a tablet's tap lights its row…"
+function wayOf(o = {}) {
+  const P = { idx: 100, pi: 101 }, rows = o.rows || [
+    { id: "a", idx: 1, ask: true, leads: [{ idx: 50, sub: false }] },
+    { id: "b", idx: 2, ask: false, leads: [{ idx: 60, sub: false }, { idx: 61, sub: false }] },
+    { id: "c", idx: 3, ask: true, leads: [{ idx: 100, sub: false }] },
+    { id: "d", idx: 4, ask: true, leads: [{ idx: 4, sub: true }] },
+  ];
+  const els = rows.map((r) => ({ r })), c = { seat: "S", rows, shown: !!o.shown, done: o.done || null, tap: o.tap || null, showN: o.showN || 0 };
+  let hover = o.hover == null ? null : els[o.hover], over = !!o.over || hover != null, focus = o.focus == null ? null : els[o.focus];
+  for (const e of els) e.closest = () => e;
+  const host = { isConnected: true, querySelectorAll: () => els, querySelector: () => hover, matches: () => over, contains: (x) => els.includes(x) };
+  globalThis.document = { activeElement: focus };
+  const s = { czOpen: "S", cz: new Map([["S", c]]), czHost: host };
+  const app = { _session: s };
+  return ngClozeWay(app, { n: P, c });
+}
+test("before Show only a bar lights, where its move lives: a solid row lights nothing", () => {
+  assert.deepEqual(wayOf({ hover: 0 }), { bar: true, move: 1 });
+  assert.equal(wayOf({ hover: 1 }), null, "a remembered row is no bar: nothing before Show");
+});
+test("after Show the way goes to the FIRST place the row leads to; a second stays undrawn", () => {
+  assert.deepEqual(wayOf({ shown: true, hover: 0 }), { bar: false, move: 1, dest: 50, row: "a" });
+  assert.equal(wayOf({ shown: true, hover: 1 }).dest, 60, "two places: the first, the more likely");
+});
+test("a move that keeps the place, or that is itself the finish, runs its line place to move only", () => {
+  assert.equal(wayOf({ shown: true, hover: 2 }).dest, null, "it leads back to the place");
+  assert.equal(wayOf({ shown: true, hover: 3 }).dest, null, "it is the finish");
+});
+test("the pointer's row while the pointer is over the cloze, else the focused row; after Done nothing", () => {
+  assert.equal(wayOf({ shown: true, hover: 0, focus: 1 }).move, 1, "the pointer's row wins");
+  assert.equal(wayOf({ shown: true, over: true, focus: 1 }), null, "the pointer over the cloze but on no row: not the focused one");
+  assert.equal(wayOf({ shown: true, focus: 1 }).move, 2, "the pointer away: the focused row");
+  assert.equal(wayOf({ shown: true, hover: 0, done: { rows: new Map() } }), null, "after Done no row lights");
+});
+test("a tablet's tap lights its row after Show, until the next Show, Done or the cloze leaving", () => {
+  assert.equal(wayOf({ shown: true, tap: { id: "b", show: 2 }, showN: 2 }).move, 2, "the tapped row, this Show's");
+  assert.equal(wayOf({ shown: true, tap: { id: "b", show: 1 }, showN: 2 }), null, "a tap from an earlier Show (a Hide since) lights nothing");
+  assert.equal(wayOf({ shown: false, tap: { id: "b", show: 2 }, showN: 2 }), null, "hidden: nothing");
+  assert.equal(wayOf({ shown: true, hover: 0, tap: { id: "b", show: 2 }, showN: 2 }).move, 1, "the pointer's row wins over a tap");
 });
