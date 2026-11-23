@@ -38,7 +38,10 @@
 //      a row, is re-pushed at once both times (the cloud lacked more than the two list fields), with the clock stopped.
 //  20. AND A BOUND (MOVE-R2, flagged): from the third re-push in a row an unchanged state backs off like a heal (that heal
 //      at once, then the waits), so two devices that keep overwriting each other's view can never push for ever; a real
-//      change resets the count.
+//      change resets the count;
+//  21-23. THE READER'S THIRD READ (three mutants with no visible effect in 3,000 runs, pinned here): a cloud behind only in
+//      the ORDER record is a heal (R1m2); a fields-only heal resets the run (B2); and a real change resets it, so a real
+//      change erased twice right after the bound was hit is re-pushed at once both times (B4).
 // NOT KILLED HERE, and why (MOVE-R1, the reader's mutants.py): M13, the source cell stamped one LATER than the target's,
 // survives every unit. It is equivalent in effect: both cells are still later than everything this device holds, so the
 // move stands either way. Nothing here covers it; nothing needs to.
@@ -513,4 +516,64 @@ test('20. the bound: from the third re-push in a row an unchanged state backs of
     assert.equal(await pushesAfter(1000), 1, 'after a real change, at once again');
     assert.deepEqual(itemsOf(a.lists), { S: ['X', 'Y', 'Z'] }, 'nothing lost on this device');
   } finally { Date.now = realNow; }
+}));
+
+// a tab whose pulls the test controls, its clock stepped by hand
+async function scripted(fn) {
+  const realNow = Date.now; let now = 1795400000000; Date.now = () => now;
+  try {
+    await fakeTimers(async ({ flush }) => {
+      const h = harness(); await h.boot(); const a = h.switchTo('A');
+      a.prep.local = 1; await a._pullAndMerge(); await flush();
+      let cloud = null; h.facade.pullNeural = async id => ({ userId: id, blob: JSON.parse(JSON.stringify(cloud)) });
+      const serve = blob => { cloud = blob; };
+      const pushesAfter = async (ms) => { now += ms; const n = h.pushes.length; await a._pullAndMerge(); await flush(); return h.pushes.length - n; };
+      await fn({ h, a, flush, serve, pushesAfter });
+    });
+  } finally { Date.now = realNow; }
+}
+
+test('21. a cloud behind only in the ORDER record is a heal: the first at once, the next waits (R1m2)', () => scripted(async ({ h, a, flush, serve, pushesAfter }) => {
+  a.lists = { T: L(['X', 'Y', 'Z'], 90, 'Guard') }; a._saveProgress(); await flush();
+  assert.equal(a.moveListItemBy('T', 'Z', -2), true); await flush();          // Guard: Z X Y, recorded
+  assert.ok(h.pushes.at(-1).value.listOrderAt, 'premise: the record was pushed');
+  // an older build's copy: this tab's push, its own order of the list, and no record (it never took one)
+  serve(olderCopyOf(h.pushes.at(-1).value, { T: ['X', 'Y', 'Z'] }));
+  await pushesAfter(1000);                                                     // (belts settle)
+  assert.equal(await pushesAfter(1000), 1, 'the first heal goes at once');
+  assert.equal(await pushesAfter(1000), 0, 'the next waits: behind only in the order record is a heal, not a real change');
+  assert.deepEqual(a.lists.T.items, ['Z', 'X', 'Y'], "this tab's order stands");
+}));
+
+test('22. a fields-only heal resets the run: real, real, fields-only, then real goes at once as run 1 (B2)', () => scripted(async ({ h, a, flush, serve, pushesAfter }) => {
+  a.lists = { S: L(['X', 'Y'], 100, 'Monday'), T: L(['Z'], 90, 'Guard'), U: L(['Q'], 80, 'Open mat') }; a._saveProgress(); await flush();
+  assert.equal(a.moveListItem('X', 'S', 'T', 'menu').moved, true); await flush();
+  const pushed = h.pushes.at(-1).value;
+  const realBehind = JSON.parse(JSON.stringify(pushed)); delete realBehind.lists.U;   // lacks a list: a real difference
+  const fieldsBehind = olderCopyOf(pushed, { S: ['X', 'Y'], T: ['Z', 'X'] });         // only the two fields behind
+  serve(realBehind); await pushesAfter(1000);                                  // (belts settle)
+  assert.equal(await pushesAfter(1000), 1, 'a real re-push, at once (run 1)');
+  assert.equal(await pushesAfter(1000), 1, 'a real re-push, at once (run 2: one more would be a heal)');
+  serve(fieldsBehind);
+  assert.equal(await pushesAfter(1000), 1, 'a fields-only heal: the first heal at once, and it resets the run');
+  serve(realBehind);
+  assert.equal(await pushesAfter(1000), 1, 'so the next real re-push is run 1 again: at once');
+}));
+
+test('23. a real change resets the run: after the bound was hit, a real change erased twice is re-pushed at once both times (B4)', () => scripted(async ({ h, a, flush, serve, pushesAfter }) => {
+  a.lists = { S: L(['X', 'Y'], 100, 'Monday'), U: L(['Q'], 80, 'Open mat') }; a._saveProgress(); await flush();
+  let behind = JSON.parse(JSON.stringify(h.pushes.at(-1).value)); delete behind.lists.U;
+  serve(behind); await pushesAfter(1000);                                      // (belts settle)
+  assert.equal(await pushesAfter(1000), 1);
+  assert.equal(await pushesAfter(1000), 1);
+  assert.equal(await pushesAfter(1000), 1, 'the third in a row is a heal, its first at once');
+  assert.equal(await pushesAfter(1000), 0, 'the bound holds the fourth');
+  // a real change: a new technique in Open mat, pushed at once
+  a.lists.U.items.push('R'); a._saveProgress(); await flush();
+  assert.ok(h.pushes.at(-1).value.lists.U.items.includes('R'));
+  // and a racing write erases it, twice in a row: both re-pushes go at once (the run started over)
+  behind = JSON.parse(JSON.stringify(h.pushes.at(-1).value)); delete behind.lists.U; serve(behind);
+  assert.equal(await pushesAfter(1000), 1, 'erased once: re-pushed at once');
+  assert.equal(await pushesAfter(1000), 1, 'erased twice: re-pushed at once again');
+  assert.deepEqual(a.lists.U.items, ['Q', 'R'], 'nothing lost here');
 }));
