@@ -29,6 +29,14 @@ import { journey } from "../dsl"
  *   J6  the light under a phone's open drawer                         → "on a phone…" at "the drawer opened over the look: no
  *                                                                        light under it"
  *   J7  the planner's bundle not in, and nothing said                 → "the planner's bundle not in yet…" at "said once"
+ * WHERE IT MEETS v1.294.0 (BGCLOSE: one press on the bare map closes the page and the address goes to the root), on the merged
+ * tree, 23 Nov 2026. Nothing of the light's own decides either; each is pinned here because the light rides both:
+ *   J8  the press that ends a look not consumed (`attachInput`: `closing` not set by `looked`)
+ *                                                                     → "on a phone, after a look…" at "the press that ends the
+ *                                                                        look closes nothing"
+ *   J9  the name kept past a new camera hold (`_shownNode` reading `camHeld()` alone: the close's own hold for free roam
+ *       then keeps the place named, and lit, over the closed map)    → "on a phone, after a look…" and "…the drawer shut by
+ *                                                                        Esc…", each at "the name goes with it"
  * NOT A KILL HERE: the fade kept under reduced motion. The step "under reduced motion the light is full on the first frame"
  * reads the frame after the press, and the press takes a real mouse some tenths of a second, which the fade (on the clock
  * that moved more) may already have run through; its killer is the unit ("under reduced motion it is on and off at once",
@@ -105,6 +113,9 @@ const named = (page: Page) => page.evaluate(() => {
   const a = (window as W).__neural, i = a.nodeForKey("Mount|Top"), n = a.nodes[i], want = a.graphName(n)
   return [a._lastPairLabel, a._lastHoverLabel].some((l: W) => !!l && (l.idx === i || l.idx === n.pi) && String(l.main || "").includes(want))
 })
+/** the page: its address, free roam (a closed page), the landing card (v1.294.0's three marks of a page that was closed) */
+const where = (page: Page) => page.evaluate(() => { const a = (window as W).__neural; return { url: location.pathname, roam: !!a._roam, card: !!a._landEl } })
+const shownAt = (page: Page) => page.evaluate(() => !!(window as W).__neural._shownNode())
 const beats = (page: Page, name: string) => page.evaluate((n) => ((window as W).__neural.beats || []).filter((b: W) => b.beat === n).length, name)
 /** a point of the map no node and no control is under, found with the app's own hover test */
 const emptyMapPoint = (page: Page) => page.evaluate(() => {
@@ -230,6 +241,15 @@ test.describe("mouse 1440x900", () => {
     await j.advance(450)
     expect((await state(page)).paused, "premise: the drawer shut, the game runs").toBe(false)
     expect(await light(page), "the game runs: the light is out").toBeNull()
+    // v1.294.0: the next press on the bare map closes the page, and the place it named goes with it (J9)
+    expect(await named(page), "premise: the place is still named, for the camera's hold").toBe(true)
+    const p = await emptyMapPoint(page)
+    expect(p, "premise: a point of the map with nothing on it").not.toBeNull()
+    await page.mouse.click(p!.x, p!.y)
+    await j.advance(450)
+    expect(await where(page), "the press on the bare map closes the page: the map alone, the address the root").toMatchObject({ url: "/", roam: true, card: false })
+    expect([await named(page), await shownAt(page)], "the name goes with it").toEqual([false, false])
+    expect(await light(page), "and nothing is lit").toBeNull()
   })
 
   test("under reduced motion the light is full on the first frame after the press", async ({ page }) => {
@@ -261,6 +281,30 @@ test.describe("mouse 1440x900", () => {
 
 test.describe("touch 390x631", () => {
   test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })
+
+  test("on a phone, after a look (v1.294.0: a press on the bare map closes the page): the press that ends the look closes nothing; the next one closes the page, and the name and the light go with it", async ({ page }) => {
+    const j = await rolled(page, true)
+    const was = await where(page)
+    expect(was, "premise: a page of a place, its card up").toMatchObject({ roam: false, card: true })
+    await show(page, true)
+    await j.advance(1200)
+    expect([await state(page), (await light(page))?.k], "premise: a look, lit").toEqual([{ paused: true, drawer: false, look: true }, 1])
+    let p = await emptyMapPoint(page)
+    expect(p, "premise: a point of the map with nothing on it").not.toBeNull()
+    await page.touchscreen.tap(p!.x, p!.y)
+    await j.advance(450)
+    expect(await where(page), "the press that ends the look closes nothing: the page, its address and its card stay (J8)").toEqual(was)
+    expect([(await state(page)).look, await light(page), await named(page)], "it ends the look: the light goes, the name stays (L3-R2)").toEqual([false, null, true])
+    p = await emptyMapPoint(page)
+    expect(p, "premise: a point of the map with nothing on it").not.toBeNull()
+    await page.touchscreen.tap(p!.x, p!.y)
+    await j.advance(450)
+    expect(await where(page), "the next press on the bare map closes the page: the map alone, the address the root").toMatchObject({ url: "/", roam: true, card: false })
+    expect([await named(page), await shownAt(page)], "the name goes with it").toEqual([false, false])
+    expect(await light(page), "and nothing is lit").toBeNull()
+    await j.advance(3000)
+    expect([await named(page), await light(page)], "nor does either come back inside the camera's 7 s").toEqual([false, null])
+  })
 
   test("on a phone the light lasts as long as the look; the press that ends it puts the light out and leaves the name; the drawer opened over a look has no light under it", async ({ page }) => {
     const j = await rolled(page, true)
