@@ -21225,3 +21225,12 @@ Screens 09 to 12 at 390x631 (09 dev's bundle, 10 to 12 this one) in the briefing
 it: three mutant builds and a Playwright run outside the build lock (23 Nov, 02:55 to 02:57), and my next held run was
 void (its build met a mutated source, its browser the port). Stopped by PID, the source restored from the commit, the run
 taken again; the runner now runs only when it is run.
+
+**S2-R1 carried (23 Nov 2026).** S3 took S2 with S2-R1 and dev fc050d9e4 in. The look keeps the cloze's hold only while
+the game is held (it is: the look holds it) and takes S2-R1's free mark; a resize re-frames a look in its own calm area.
+Ruling 3: a look turned to landscape and back keeps its light and its pill (M13). Found there: at 844x390 the map is a
+64 px strip under the look's own insets, and the glide fitted the place into a 1 px box, pulling back some 900 times the
+roll's zoom; the glide now leaves the camera as it was where the calm area has under 48 px either way (M16). M14 (a resize
+in the ordinary calm area) is not killed, said in the spec's header with what would. Ruling 5: the look's framing on a
+phone (5.08 times the roll's zoom) costs a frame 16.8 ms against the board's own 19.8 here, in real frames: no cap; the
+step holds it to the board's own plus 15 ms (M15). Deferred 557,990 B, +2,027 on S2's 555,963.
