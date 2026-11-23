@@ -911,7 +911,7 @@ class Component extends DCLogic {
    *            board's clock or wake a page's dormant one.
    * Each is pinned in e2e/journeys/last-rolls-places.spec.ts, which names the mutant of each (M8 to M15, M33).
    */
-  _showPlace(i) {
+  _showPlace(i, rid) {
     if (this._replay) this.stopReplay("input");   // a film owns the camera; asking to see a place ends it, as a hand on the map does
     if (this.isMobile()) {
       const held = this._paneAutoPaused;
@@ -920,7 +920,7 @@ class Component extends DCLogic {
       if (held) { this._lookAutoPaused = true; this.fx("look_held", {}); }
     }
     this.locateNode(i); this.holdCamera();
-    this._shown = { i, t: this._camHoldTarget };
+    this._shown = { i, t: this._camHoldTarget, rid };   // `rid`: the Last rolls row it was shown from (S1-R1, `_shownNode`)
   }
   // THE PLACE "SHOW ON THE MAP" SHOWED, NAMED ON THE MAP the way a node under the pointer is (`draw()`'s hover label reads this
   // when nothing is under the pointer). No lifters of its own to forget (§6.5): it lasts exactly as long as what it rides,
@@ -928,10 +928,19 @@ class Component extends DCLogic {
   // (`camHeld()` with the lease's own target: 7 s, a pan, pinch or wheel, any other flight, a move played, any
   // go-elsewhere). Nothing clears it by hand: a line that did, in `_lookEnd`, survived its own mutant (the lease had
   // already said no).
+  // AND NO LONGER THAN ITS ROW (S1-R1, the orchestrator's ruling 2 on the reader's finding 2, PR #447): the look ends when its
+  // row is collapsed, when Last rolls is left, or when the hold ends, whichever comes first, and the name and the light go
+  // with it. On a computer the row and the drawer stand beside the map, and collapsing the row or switching the drawer to
+  // Explore left the place lit and named for the rest of the camera's 7 s (the reader: still lit at +2.8 s). Read, like
+  // the rest, every frame (`_shownRow`): the row the show came from still open (`_openRow`, which only Last rolls writes and
+  // which the drawer's shutting leaves as it is, so a phone's look keeps it), and Last rolls the drawer's view, with no
+  // study surface over it. Another row opened (one at a time), the arrows, a new roll (`_closeRoll` drops its rows) or
+  // Practise here (Master the game's list takes the drawer) each leave it.
   _shownNode() {
     const s = this._shown;
-    return s && (this._lookAutoPaused || (this.camHeld() && this._camHoldTarget === s.t)) ? this.nodes[s.i] || null : (this._shown = null);
+    return s && (this._lookAutoPaused || (this.camHeld() && this._camHoldTarget === s.t)) && this._shownRow(s) ? this.nodes[s.i] || null : (this._shown = null);
   }
+  _shownRow(s) { return s.rid == null || (this._viewMode === "history" && !this._paneStudyActive() && this._openRow === s.rid); }
   /**
    * THE LIGHT (L2b S1, v1.295.0): what "Show on the map" shows, lit. Until now the map NAMED the shown place and lit
    * nothing, so the name was tied to its orb by nothing at a glance (L3 ruling, v1.293.0: "names, does not yet LIGHT").
@@ -981,22 +990,29 @@ class Component extends DCLogic {
    * frame's worth (1 to 0.96 at 60 Hz) and won it back the next: a flicker, found when a unit mutant (ML6) passed for the
    * wrong reason. Pinned by "a full light stays full, frame after frame" (tests/map_light.test.mjs).
    */
+  // OUT AT ONCE WHEN THE GAME STARTS AGAIN (S1-R1, the orchestrator's ruling 4 on the reader's finding 4): "never over a
+  // running game" beats "out over 400 ms". Every way the game resumes (a move played, ▶ on a row, the countdown let go) and
+  // a film taking the map left the layer fading over the running roll for 17 to 23 frames (the reader, at 60 Hz). The fade
+  // out is for the ways out that leave the game held: the row collapsed, Last rolls left, the hold's end.
+  // THE FADE IN STARTS WHEN THE LAYER CAN FIRST BE DRAWN (S1-R1, the reader's finding 5): with gameplan.js not in, the
+  // strength is held at 0, so the light comes in over its quarter second when the planner lands, not at full in one frame.
   _drawLight(ctx, F) {
     const n = this._lightOf(), wall = performance.now(), game = (this.now || 0) * 1000;
     if (n) this._lightAt = n.idx;
     const dt = Math.max(wall - (this._lightT == null ? wall : this._lightT), game - (this._lightS == null ? game : this._lightS));
     this._lightT = wall; this._lightS = game;
-    const was = this._lightK || 0, to = n ? 1 : 0;
-    const k = this._lightK = this._reducedMotion() ? to : to > was ? Math.min(1, was + dt / NG_LIGHT_IN_MS) : to < was ? Math.max(0, was - dt / NG_LIGHT_OUT_MS) : was;
     this._lastLight = null;
-    const at = k > 0.001 && this._lightAt != null ? this.nodes[this._lightAt] : null;
-    if (!at) return;
     const R = this._gameplanRuntime;
     if (!R || typeof R.ngLightDraw !== "function") {
+      this._lightK = 0;
       const s = this._shown;
-      if (n && s && !s.cold) { s.cold = 1; this.fx("light_cold", { place: at.id }); }
+      if (n && s && !s.cold) { s.cold = 1; this.fx("light_cold", { place: n.id }); }
       return;
     }
+    const was = this._lightK || 0, to = n ? 1 : 0, running = !this.paused || !!this._replay;
+    const k = this._lightK = running ? 0 : this._reducedMotion() ? to : to > was ? Math.min(1, was + dt / NG_LIGHT_IN_MS) : to < was ? Math.max(0, was - dt / NG_LIGHT_OUT_MS) : was;
+    const at = k > 0.001 && this._lightAt != null ? this.nodes[this._lightAt] : null;
+    if (!at) return;
     this._lastLight = R.ngLightDraw(this, ctx, { ...F, k, place: at, moves: this._lightMoves(at) });
   }
   // `press`: THE PRESS ON THE MAP THAT ENDS A LOOK TAKES THE CAMERA'S LEASE AGAIN, SO THE PLACE STAYS NAMED FOR THE CAMERA'S
@@ -5555,7 +5571,7 @@ class Component extends DCLogic {
       // stands on that orb whichever side it plays (the side is the row's `role`), so "Show on the map" from a Bottom row named
       // the place TOP. `_seatMember` is the one seam for "the orb that plays this side" (a technique's key is its own half)
       const own = this._seatMember(ni, /bottom/i.test(h.role || "") ? "bottom" : "top");
-      const show = drawn ? () => this._showPlace(own) : null;
+      const show = drawn ? () => this._showPlace(own, rid) : null;
       // (R6: the row is remembered, so "‹ Master the game" comes back to it open and where it was: `renderDrillHome`)
       const go = drawn && this.nodes[ni].ty === "positions" ? () => { const l = this.drillListRef.current; this._histBack = { rid, key: h.key, log: this.rollLog, y: l ? l.scrollTop : 0 }; this.openMasterAt(h.key, "lastrolls"); } : null;
       const closeSelf = () => { detail.style.display = "none"; if (this._openRow === rid) this._openRow = null; if (this._focusRow === rid) this._focusRow = null; if (this._openMini && this._openMini.rid === rid) this._openMini = null; };
