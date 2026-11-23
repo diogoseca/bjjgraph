@@ -151,6 +151,12 @@
    "file": "neural/src/app.src.jsx",
    "snippet": "this._idIndex.get(",
    "reason": "THE PLAYER'S OWN RECORD, not dealt material: it maps the `moves` record's share ordinals back to the deck they file under. A move known in one ruleset stays known in the other, as a flashcard's credit does; what the ruleset decides is which hands are dealt, and the share (`_seatShare`), the gold (`_movesGold`) and the line (`_movesKnownLine`) read the dealt hand through `optionsFor` and `rsAllowsIdx`."
+  },
+  "neural/src/app.src.jsx::shareListItem::this._idIndex.get(": {
+   "fn": "shareListItem",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "this._idIndex.get(",
+   "reason": "List content — see `siteIdOf`. An item's ⋮ › Share (LISTS-MENU-2 part 2) shares the page of a technique the player saved to their own list: the record, not material the app deals. The row stays shown in every ruleset (`_listItemRow`), and the page it links to exists in both; refusing to share it under today's ruleset would make one of the row's own actions vanish with no reason the player can see."
   }
  }
 }
