@@ -20944,6 +20944,11 @@ None survived.
 - The gate reads 379,517 B, +2,085 B over the PAY-L3 baseline of 377,432 B (dev v1.295.1's own share is +921).
 - No baseline moved.
 
+**One gate artifact touched, with its reason.** `validate:surfaces` stopped the first `ci:validate`: `shareListItem` looks
+up a node (`this._idIndex.get(`) without the ruleset mask. It is named in `tests/artifacts/ruleset_surfaces.json` beside its
+six sibling list entries, on that file's own rule: a player's list is their record, not material the app deals; the row
+stays in every ruleset and so does the page it shares. 26 of 26 after.
+
 **Runs, all local, under the lock:**
 - dev 705e9bde4 merged in, the lists area plus `seat-star`: **122 of 122**;
 - before the merge, with the list menu's journeys: 44 of 44.
