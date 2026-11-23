@@ -2818,12 +2818,12 @@
   {
    "id": "core-080",
    "file": "e2e/journeys/share-lists.spec.ts",
-   "title": "deleting a list asks first, and can be taken back",
+   "title": "deleting a list is one press in its menu, and can be taken back",
    "theme": "acquisition",
    "L": "casual-week1",
    "F": "share-lists",
    "B": "guard-limit",
-   "invariant": "Delete sits >=10px clear of Share; the first click only arms it ([data-list-delete-armed], list intact); the second deletes and leaves [data-list-undo] which restores the list with its exact items.",
+   "invariant": "Delete is the last item of the list's menu ([data-list-menu] then [data-list-menu-item=delete], LISTS-MENU); one press deletes and leaves [data-list-undo] which restores the list with its exact items; the offer expires after 90 s.",
    "origin": "core",
    "status": "accepted"
   },
