@@ -269,7 +269,11 @@ NEURAL_TARGET = {
     # v1.290.0 L1-R1 (the reader's findings on PR #434): 531_246, +1_030 B: what a place owes, read for every row, and "Keep practising" when the plan runs out (master-list.src.js); 18_754 B remain.
     # v1.290.0 L1-R2 (the second reader's findings on PR #434): 531_733, +487 B: a row for every place that owes, and the open place's own figure (master-list.src.js); 18_267 B remain.
     # v1.292.0 L2 (the cloze, master-cloze.src.js in gameplan.js: the builder, the rows, where a move leads, the foot, the steps, Undo, its style sheet): 549_777, +18_044 B; 223 B remain of the owner's 550,000.
-    "deferred_raw_bytes": 549_777,
+    # v1.295.0 L2b S1 (the light, map-light.src.js in gameplan.js: the plan, the two fills, the holes, the marks): 550_073, +296 B over
+    # L2's 549_777 (the light's +1,763 less L3's -987, dev's -141 and dev v1.294.0's -339 in reader.js since); measured on the tree with
+    # dev v1.294.0 in (S1-R1, 23 Nov 2026: S1's 550_412 of 19 Nov was measured before that merge, so it let 339 B through unasked).
+    # The owner's limit is 600,000 now (U207 a, 19 Nov 2026).
+    "deferred_raw_bytes": 550_073,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
