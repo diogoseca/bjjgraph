@@ -18792,13 +18792,23 @@ class Component extends DCLogic {
   _ensureReadCSS() {
     if (this._readCssP) return this._readCssP;
     return (this._readCssP = new Promise((res) => {
-      const l = document.createElement("link");
-      l.rel = "stylesheet";
-      l.href = this._appAsset("reading.css");
-      l.setAttribute("spa-preserve", "");   // survive head-patching across SPA navs
-      l.onload = () => res(1);
-      l.onerror = () => { l.remove(); this._readCssP = null; res(0); };
-      document.head.appendChild(l);
+      // ONE LINK A PAGE, NOT ONE AN APP (LEAK1, v1.298.1). It is spa-preserve, so it outlives the app that made it: an app
+      // after it finds it and waits on it (each used to add another), and nothing of an app is left on it. Its `onload`, set
+      // once and never dropped, held its app for the page's life after every remount: the heap's shortest path to a dead
+      // app ran through this link. The waits go through `_on` and `once`, so they leave with the load or with the app.
+      let l = document.head.querySelector("link[data-ng-reading]");
+      if (l && l.sheet) { res(1); return; }
+      if (!l) {
+        l = document.createElement("link");
+        l.rel = "stylesheet";
+        l.href = this._appAsset("reading.css");
+        l.setAttribute("spa-preserve", "");   // survive head-patching across SPA navs
+        l.setAttribute("data-ng-reading", "");
+        document.head.appendChild(l);
+      }
+      const link = l;
+      this._on(link, "load", () => res(1), { once: true });
+      this._on(link, "error", () => { link.remove(); this._readCssP = null; res(0); }, { once: true });
     }));
   }
   /**
