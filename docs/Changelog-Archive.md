@@ -21155,3 +21155,46 @@ the board stands, which the board names by itself, so the look is read, not the 
   a frame, p95 26.2, under 33: no cap. `tests/artifacts/_map_names_frametime.mjs --wide` measures the three ways; the
   journey pins a frame at the cloze's framing to the board's own view plus 15 ms (35 against 57 ms there; KT1's 60 ms of
   work read 94). At 390 every view of this box costs 17 to 49 ms (software raster at dpr 3), the roll's own included.
+
+## v1.296.1 — Move an item to another list, and a list's order, on every device (LISTS-R Slice 2, PR #452; the owner, 19 Nov 2026)
+
+**Why.** "how can i rename a list? or move items between lists like drag and drop?" Rename shipped in v1.293.5 and v1.295.1;
+this is the move ("Move to…" in an item's ⋮, the star's menu in a move mode, keys included), and Move up / Move down now sync.
+
+**Records, not the lists.** Lists merge add-wins, so a move came back as a copy from any device still holding the item, and
+an order never left its device. Two top-level fields, design in `lists.src.js` above `NG_LIST_MARK_CAP` / `NG_LIST_ORDER_CAP`:
+`listItemAt` (a cell per moved list and item, later stamp wins, a tie to "in", never removing an item's last place, trimmed
+to 200 by one total order) and `listOrderAt` (one record per list holding its whole order; a list's order is derived from
+it). Rejected: a stamp alone (an older build launders a stale order) and a stamp plus a fingerprint (two current devices
+re-claim under one stamp and push for ever). An insertion into a list with a record rewrites it (`_keepListOrder`, ruled,
+last-writer-wins); what the winning record does not name follows by id. Older builds keep both fields byte for byte
+(`_progressExtras`); the next current device heals their union.
+
+**The first journeys' red:** the move menu's row method was named `_moveRow`, which the class already had; the later
+definition won silently. Renamed `_pickMoveRow`.
+
+**MOVE-R1, the reader's round (verdict MERGE AFTER 3 FIXES; 37,000 interleavings held the core).**
+- F1: four mutants passed every unit (the trim's tie-break, the guard's id-order walk, the load applying the cells, a star
+  re-add's "in" cell): a case each.
+- F2: items added after a reorder kept a different order per device for good (354 of 3,000 runs): the insertion rule and
+  the tail by id above. 0 of 3,000 after, cur2 and cur3.
+- F3 (ruled): a build older than this pins its first copy of both fields and puts it back on every pull, so it and a
+  current device pushed at each other on every pull. A heal-only push now backs off (at once, then 1 min, 2, 4 … a day;
+  reset by a real change). Measured, v1.294.0's source and this build pulling every 30 s or 5 min: 120 + 120 pushes an
+  hour before, 13 + 13 a day after. Between heals the cloud holds the older copy.
+- F4: a delete's Undo replaced a list a merge had brought back (dev's own loss, 48 of 48 in the sweeps): it now unions.
+- F5: a stamp of 2^53 or more froze a cell or record: safe integers only, and a list's `t` capped.
+- F6: a move's Undo puts both lists' recency back.
+
+**MOVE-R2 (verdict MERGE AFTER 1 FIX).** A heal also needs the cloud behind only in the two fields (a real change could
+wait a minute), bounded to two at-once re-pushes of an unchanged state (else 20 of 3,000 older-device runs looped); the cap
+is an hour (31 + 31 pushes a day); an insertion rewrites the record only if the shown order would differ; stamps are
+integers below 2^52.
+
+**Proofs.** `share_lists_store` 34, `list_moves_sync` 20 (a fake cloud holding lists, cells, orders and stamps). The
+reader's fuzzer as regression, 35,000 runs in 12 configs: current devices alone, no loss and no divergence beyond lists
+with no record (dev's); with an older device, no run that never settles (2,838 of 3,000 before). Mutants: the reader's 13,
+12 killed (M13 equivalent); this round's 12, all killed. Older builds run for real (v1.294.0, v1.293.3, v1.252.0).
+
+**Bytes:** after PAY-L4 (dev v1.296.0's own level, the first commit after the merge), the gate reads eager 382,677 B,
++2,621 of the 5,000 cap, and the first-hand core 402,158 B, +2,643 of 6,000. No other baseline moved.

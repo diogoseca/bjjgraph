@@ -414,6 +414,8 @@ const NG_MIX_SITES_BY_DEFAULT = true;
 // (CLAUDE.md §6.6). The order is load-bearing: Practice first is what the badge menu opens on, and Rolling
 // before General keeps "where the roll starts" above the gi/no-gi choice (start-from.spec.ts). A new group is
 // one row here and one branch in settings-ui.src.js; settings-tabs.spec.ts measures the list at every size.
+// THE HEAL-ONLY PUSH BACKS OFF (MOVE-R1, F3): the first wait and its ceiling. See `_pushCloud`.
+const NG_HEAL_WAIT_MIN = 60000, NG_HEAL_WAIT_MAX = 3600000;   // 1 min, doubling to at most an hour (MOVE-R2 R2)
 const NG_SETTINGS_TABS = [["flashcards", "Practice"], ["rolling", "Rolling"], ["reading", "Articles"], ["app", "General"], ["modifiers", "Your odds"], ["notifications", "Email"], ["shortcuts", "Keyboard"]];
 // IS THE TRAINING-DAY EMAIL LIVE? Not yet (v1.261.1). Owner, 12 Nov 2026, briefing answer U139 a:
 // "Hide it while the digest is off." The digest cannot send: the owner decided on 11 Nov 2026 that it
@@ -4942,7 +4944,12 @@ class Component extends DCLogic {
       this.badges = Object.assign({}, p.badges || {});
       this.coins = Object.assign({}, p.coins || {});
       // lists ride the EXISTING v2 blob: a coach's class list is not worth a schema migration
-      this.lists = ngListsNormalize(p.lists);
+      // A MOVE'S CELLS (LISTS-R, `listItemAt`; lists.src.js above `NG_LIST_MARK_CAP`): read, then applied to the lists
+      // read with them, so an older client's re-union (X back in the source) is healed even on a plain load
+      this.listItemAt = ngListMarksNormalize(p.listItemAt);
+      // ...and a list's ORDER is derived from its record (ORDER-OK, `listOrderAt`; lists.src.js above NG_LIST_ORDER_CAP)
+      this.listOrderAt = ngListOrderNormalize(p.listOrderAt);
+      this.lists = ngListsApplyOrder(ngListsApplyMarks(ngListsNormalize(p.lists), this.listItemAt), this.listOrderAt);
       // the roll ledger (v1.137.0) and the visited-state set. `_exploredKeys` was in memory
       // only until now, which is why the "very weak" tier emptied on every reload.
       this.flow = this._trimFlow(Object.assign({}, p.flow || {}));
@@ -4987,6 +4994,10 @@ class Component extends DCLogic {
     // `moves` (v1.255.0) is written only once it holds a cell (review R4): an account that never graded a move
     // saves exactly the blob v1.254.0 saves, and an open older tab is never handed a `moves` copy to push back.
     if (Object.values(this.moves || {}).some(row => row && Object.keys(row).length)) out.moves = this.moves; else delete out.moves;
+    // `listItemAt` (LISTS-R) the same way: written once it holds a cell, so an account that never moved an item saves
+    // the blob it saved before (and the extras copy of an older shape never outlives the read above)
+    if (ngListMarksCount(this.listItemAt)) out.listItemAt = this.listItemAt; else delete out.listItemAt;
+    if (Object.keys(this.listOrderAt || {}).length) out.listOrderAt = this.listOrderAt; else delete out.listOrderAt;
     // `openAt` and `recallCarry` (v1.270.0, U163 c) once set; an older client keeps both through `_progressExtras`
     if (this._openAt > 0) out.openAt = this._openAt;
     if (this._recallCarry) out.recallCarry = true;
@@ -8490,7 +8501,15 @@ class Component extends DCLogic {
         );
         // ADD-WINS, beside the collectibles' UNION: union of lists, union of their items. A
         // delete loses to a stale device — deliberate (see ngMergeLists).
-        this.lists = ngMergeLists(this.lists || {}, cloud.lists || {});
+        // ...and a MOVE stays a move (LISTS-R): the two copies' cells first (per cell the later stamp, a tie to "in"),
+        // then the union with them applied (lists.src.js, `ngListsApplyMarks`: the no-loss guard). An older client that
+        // pushed the union alone is healed here; one that pushed a stale copy of the cells loses only the cells this
+        // copy does not hold, and this copy's push puts them back (the merge differs from the cloud).
+        this.listItemAt = ngListMarksMerge(this.listItemAt || {}, cloud.listItemAt);
+        // ...and an ORDER stays an order (ORDER-OK): the two copies' records first (per list the later stamp), then every
+        // list's order derived from the winning record, so an older build's stale `lists` order is never adopted
+        this.listOrderAt = ngListOrderMerge(this.listOrderAt || {}, cloud.listOrderAt);
+        this.lists = ngMergeLists(this.lists || {}, cloud.lists || {}, this.listItemAt, this.listOrderAt);
         this._syncWhiteChallengeCompatibility(cloud.updatedAt || 0);
         const localAt = this._progressAt || 0;
         if (cloud.settings) {
@@ -8546,6 +8565,8 @@ class Component extends DCLogic {
       this._pulled = true; this._pulledUserId = userId; this._pushSeq = (this._pushSeq || 0) + 1;
       try { this._afterPullLevel(empty ? null : cloud); } catch (e) { /* a held-back promotion's beat never fails a merged pull (N5) */ }
       this._cloudSeen = pushesAtStart === (this._pushEvents || 0) ? seen : null;
+      // ...and the copy itself, for `_onlyListFieldsBehind` (MOVE-R2 R1): is a push that sends nothing new a heal?
+      this._cloudPulled = empty ? null : { userId, blob: JSON.parse(JSON.stringify(cloud)) };
       this._cloudSyncError = null;
       // v1.262.0 (ORDER1): guest practice joins only HERE, after a successful pull, so the rule meets the CLOUD's rows
       // and not only this browser's copy. Joined before the pull, a guest's later or same-day "No" went in unprotected
@@ -8561,6 +8582,22 @@ class Component extends DCLogic {
     } finally {
       if (this._pullToken === token) this._pullToken = null;
     }
+  }
+  /**
+   * IS THE CLOUD BEHIND THIS TAB ONLY IN `listItemAt` / `listOrderAt`? (MOVE-R2 R1, the reader's test.) Take the copy this
+   * tab last pulled, put this tab's two list fields in place of its own, and derive it as a load would
+   * (`_mergeProgressBlobs` re-applies the cells and the order records to its lists): if that is exactly what this tab
+   * would push (`key`), the cloud differs only in what an older build pins, and a push would only restore it. Anything
+   * else, or any doubt (no copy, another account, a throw), answers no: a real change, pushed at once.
+   */
+  _onlyListFieldsBehind(userId, key) {
+    const c = this._cloudPulled;
+    if (!c || c.userId !== userId || !c.blob) return false;
+    try {
+      const mine = this._progressBlob(), blob = Object.assign({}, c.blob);
+      for (const f of ["listItemAt", "listOrderAt"]) { if (mine[f]) blob[f] = mine[f]; else delete blob[f]; }
+      return ngProgressCloudKey(this._mergeProgressBlobs(blob, { v: 2 })) === key;
+    } catch (e) { return false; }
   }
   _pushCloud() {
     const A = this._auth(), userId = this._authUserId;
@@ -8590,6 +8627,47 @@ class Component extends DCLogic {
         // is remembered as nothing and, as before, forces a re-pull, which records what the cloud really holds.
         const snap = this._progressHost.cloudSnapshot(this), key = ngProgressCloudKey(snap), seen = this._cloudSeen;
         if (!this._pushesInFlight && seen && seen.userId === userId && seen.key === key) return;
+        // A HEAL-ONLY PUSH BACKS OFF (MOVE-R1, F3, ruled). A push is a HEAL when what this tab would send is exactly what
+        // it last sent and the cloud took (`_pushedLast`), AND the cloud is behind it only in the two list fields (below):
+        // nothing new here, the cloud went back. One cause is ordinary (a
+        // stale device's push landed over ours once) and one is not: a build older than v1.296.1 keeps its own first copy
+        // of `listItemAt` and `listOrderAt` for good (unknown top-level keys merge local-wins in `_progressExtras`) and puts
+        // it back on every pull, while every current device puts the newer one back on its next pull: before this, two
+        // builds on one account pushed at each other on every pull, for as long as the older one ran (the reader's
+        // old_carry.mjs: 2 pushes a round, every round). So the FIRST heal goes at once (a fresh device still finds the
+        // cloud healed), and the next only after a doubling wait, 1 min, 2, 4 … at most an HOUR (NG_HEAL_WAIT_MIN/_MAX;
+        // MOVE-R2 R2: a day's cap left a fresh device wrong for up to a day after the older build was gone); any push that
+        // carries something new resets it. The older build goes quiet once the cloud holds its copy (its merge then
+        // equals the cloud). MEASURED, v1.294.0's source and this build on one account, a pull by each every 30 s or 5 min
+        // of simulated time (old_hours.mjs; the reader's hours.mjs): 8 + 8 pushes in the first hour, then about one an
+        // hour by each current device and two by the older build (31 + 31 in a day), against 120 + 120 every hour before.
+        // THE COST, stated plainly: while an older build is in use on the account, the cloud holds its copy most of the
+        // time (the newest move missing 98.8% of the day at 30 s pulls), so a device signing in meanwhile shows a move as a
+        // copy, and two current devices can disagree about a moved item, for up to an hour after the older build is gone
+        // (stopped at h6: the cloud healed in h7, stale 25% of the day). No technique is lost on any device: each holds its
+        // own fields, and the merge only adds. Per tab, in memory: a reload starts with an immediate heal, so a tab that
+        // reloads every 20 min pushes about 18 times an hour while an older build runs (the reader's measure).
+        // BOTH HALVES (MOVE-R2 R1, ruled): the first alone took a real change for a heal. An older build pushing over this
+        // tab twice in a row, each time from a read made just before this tab's write landed, erased a technique this tab
+        // had added, and its re-push then waited as a "heal" (the reader's seed 12163). So a heal also needs the cloud to
+        // be behind in nothing but `listItemAt` and `listOrderAt` (`_onlyListFieldsBehind`); anything else it lacks (an
+        // item in a list, an answer, a setting) goes at once.
+        // AND A BOUND (MOVE-R2, mine, flagged for a ruling): a push of an UNCHANGED state that the test above calls real
+        // goes at once twice in a row (`_restoreRun`; R1's case, a racing write erasing a real change twice, needs exactly
+        // two); from the third in a row it is a heal (that one at once, then the doubling waits). Without it, two current
+        // devices that disagree about a moved item while an older build strips both their cells from the cloud each see
+        // "more than the two fields behind", push at once, and never stop: the older-device fuzz had 20 of 3,000 runs that
+        // never settled (3 pushes a round), none before R1. A real change here resets the count (and the wait) as before.
+        const last = this._pushedLast, same = !!(last && last.userId === userId && last.key === key);
+        const fieldsOnly = same && this._onlyListFieldsBehind(userId, key);
+        this._restoreRun = same && !fieldsOnly ? (this._restoreRun || 0) + 1 : 0;
+        const heal = same && (fieldsOnly || this._restoreRun > 2);
+        if (heal) {
+          const now = Date.now();
+          if (now < (this._healNext || 0)) return;
+          this._healWait = this._healWait ? Math.min(this._healWait * 2, NG_HEAL_WAIT_MAX) : NG_HEAL_WAIT_MIN;
+          this._healNext = now + this._healWait;
+        } else { this._healWait = 0; this._healNext = 0; }
         const seq = this._pushSeq = (this._pushSeq || 0) + 1, solo = !this._pushesInFlight;
         this._pushesInFlight = (this._pushesInFlight || 0) + 1; this._pushEvents = (this._pushEvents || 0) + 1;
         let ok;
@@ -8598,6 +8676,7 @@ class Component extends DCLogic {
         if (!ok && current()) {
           this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "push-failed";
         } else if (ok && current()) {
+          this._pushedLast = { userId, key };   // what the cloud took from this tab last: a later push of the same is a heal
           this._cloudSeen = solo && seq === this._pushSeq ? { userId, key } : null;
           // v1.280.2: what that copy holds is delivered: those answers leave the journal (`ngProgressReplay`). Only a push
           // that ran alone: two in flight can land in either order, and the rows are then proven at the next pull instead.
@@ -10530,6 +10609,10 @@ class Component extends DCLogic {
     if (l.items.indexOf(nodeId) >= 0) return { added: false, listId: id, reason: "already" };
     if (l.items.length >= NG_LIST_ITEM_CAP) return { added: false, listId: id, reason: "full" };
     l.items.push(nodeId); l.t = this._listStamp();
+    // a re-add into a list a MOVE once took this item out of: its cell must say "in" now, later than that "out", or the
+    // next merge takes it out again (LISTS-R). Only where a cell exists: an ordinary add writes none.
+    if (this.listItemAt && this.listItemAt[id] && this.listItemAt[id][nodeId]) this.listItemAt = ngListMarksSet(this.listItemAt, id, nodeId, this._listMarkStamp(), 1);
+    this._keepListOrder(id);   // a list with an order record: rewritten only if the shown order would differ from its record's
     this._saveProgress();
     // AUTO-EXPAND THE LIST YOU JUST ADDED TO. The owner's ask is literally "see the listed
     // techniques AFTER ADDING": a + pressed while the pane is open has to land somewhere the
@@ -10549,6 +10632,85 @@ class Component extends DCLogic {
     if (!l.items.length) delete m[id];
     this._saveProgress();
     if (this._listFocusId === id && !m[id]) this.clearFocus();
+    return true;
+  }
+  /** A cell's stamp: a list stamp (`_listStamp`, above every list's `t`) that is also later than every cell held, so a
+   *  move or an undo made after seeing another device's cells is later than each of them. */
+  _listMarkStamp() { return Math.max(this._listStamp(), ngListMarksNewest(this.listItemAt) + 1, ngListOrderNewest(this.listOrderAt) + 1); }
+  /**
+   * MOVE one item from one list to another (LISTS-R; the owner, 19 Nov: "or move items between lists"). ONE step, in this
+   * order: refuse first (no such list, not in the source, the target full), ADD to the target, then TAKE OUT of the
+   * source, one stamp, ONE save (one persist, one push), so no moment ever holds the item in no list. Two cells record it
+   * (`listItemAt`: out of the source, into the target), which is what keeps it a move on every other device (lists.src.js,
+   * `ngListsApplyMarks`). A target that already holds the item only loses the source copy. A source the move empties is
+   * gone, as an emptied list always is, and its Undo brings it back. `via` rides the event: "menu" | "drag".
+   */
+  moveListItem(nodeId, fromId, toId, via) {
+    nodeId = this.siteIdOf(nodeId);   // a list holds SITES — see siteIdOf
+    const m = this._listsMap(), from = m[fromId], to = m[toId];
+    if (!from || !to) return { moved: false, reason: "no_list" };
+    if (fromId === toId) return { moved: false, reason: "same" };
+    const at = from.items.indexOf(nodeId);
+    if (at < 0) return { moved: false, reason: "not_in_source" };
+    const had = to.items.indexOf(nodeId) >= 0;
+    if (!had && to.items.length >= NG_LIST_ITEM_CAP) return { moved: false, reason: "full" };
+    // fromT / toT: the two lists' recency before the move, which its Undo puts back (MOVE-R1, F6), as a delete's Undo does
+    const undo = { kind: "move", node: nodeId, from: fromId, to: toId, at, had, fromName: from.name, toName: to.name, fromT: from.t, toT: to.t,
+      source: from.items.length === 1 ? { name: from.name, items: from.items.slice(), t: from.t } : null };
+    const t = this._listMarkStamp();
+    if (!had) to.items.push(nodeId);
+    to.t = t + 1;   // the target sorts first (`listsArray`): it is where the item went
+    from.items.splice(at, 1); from.t = t;
+    this.listItemAt = ngListMarksSet(ngListMarksSet(this.listItemAt, fromId, nodeId, t, 0), toId, nodeId, t, 1);
+    if (!had) this._keepListOrder(toId);   // a target with an order record: rewritten only if the shown order would differ
+    if (!from.items.length) delete m[fromId];
+    if (this._listFocusId === fromId) this.clearFocus();
+    this._saveProgress();
+    this._expandList(toId);
+    this._landList = { id: toId, node: nodeId };   // the next render brings the moved item into view
+    this._armMoveUndo(undo);
+    this.track("neural_list_item_moved", { via: via === "drag" ? "drag" : "menu", count: to.items.length });
+    return { moved: true, already: had, count: to.items.length, emptied: !m[fromId] };
+  }
+  /** The move's Undo (the one slot `_undoList` the delete uses: the newest offer wins and the row names what it undoes).
+   *  It writes NEWER cells, so it syncs like the move: back into the source at its old place, out of the target unless
+   *  the target held it before; a source the move emptied comes back whole. */
+  _armMoveUndo(rec) {
+    this._undoList = Object.assign({ t: Date.now() }, rec);
+    if (this._undoT) clearTimeout(this._undoT);
+    const mine = this._undoList;
+    // real setTimeout, not the sim clock: this is UI patience, not game time (the delete's 90 s)
+    this._undoT = setTimeout(() => { if (this._undoList === mine) { this._undoList = null; this._refreshListSurfaces(); } }, 90000);
+  }
+  undoMoveListItem() {
+    const u = this._undoList; if (!u || u.kind !== "move") return false;
+    this._undoList = null;
+    const m = this._listsMap(), t = this._listMarkStamp();
+    // THE RECENCY GOES BACK TOO (MOVE-R1, F6): a source the move emptied comes back with its own `t`, and a source or a
+    // target it touched takes the `t` it had before, so the Undo leaves Your lists in the order it was, as a delete's Undo
+    // does (before, an emptied source came back at the top, and the two lists tied on one stamp). Harmless to the merge:
+    // a list's presence is add-wins and its name did not change; the cells below carry the Undo's own, later stamp.
+    // KNOWN (MOVE-R2 R5, the reader's f6c.mjs): if another device pulled the move before this Undo, the next sync lifts
+    // both lists again (a list's `t` merges by the later), on both devices. The order of Your lists only, never an item.
+    if (!m[u.from]) {
+      if (!u.source) return false;
+      m[u.from] = { name: u.source.name, items: u.source.items.slice(), t: u.source.t };
+    } else if (m[u.from].items.indexOf(u.node) < 0) {
+      if (m[u.from].items.length >= NG_LIST_ITEM_CAP) return false;
+      m[u.from].items.splice(Math.min(u.at, m[u.from].items.length), 0, u.node); m[u.from].t = u.fromT || t;
+    }
+    let marks = ngListMarksSet(this.listItemAt, u.from, u.node, t, 1);
+    this._keepListOrder(u.from);   // back at its place: a record a merge changed meanwhile follows what is shown
+    const to = m[u.to];
+    if (!u.had) {
+      marks = ngListMarksSet(marks, u.to, u.node, t, 0);
+      if (to) { const i = to.items.indexOf(u.node); if (i >= 0) { to.items.splice(i, 1); to.t = u.toT || t; } if (!to.items.length) delete m[u.to]; }
+    } else if (to && u.toT) to.t = u.toT;   // it had the item already: the move only lifted it to the top of Your lists
+    this.listItemAt = marks;
+    this._saveProgress();
+    this._expandList(u.from);
+    this.setEvent("Moved back", "to “" + m[u.from].name + "”", "good");
+    this._refreshListSurfaces();
     return true;
   }
   /**
@@ -10572,6 +10734,7 @@ class Component extends DCLogic {
     const l = this._listsMap()[u.list];
     if (!l || l.items.indexOf(u.node) >= 0 || l.items.length >= NG_LIST_ITEM_CAP) { this._refreshListSurfaces(); return false; }
     l.items.splice(Math.min(u.at, l.items.length), 0, u.node); l.t = this._listStamp();
+    this._keepListOrder(u.list);   // back at its place: a record a merge changed meanwhile follows what is shown
     this._saveProgress();
     this._expandList(u.list);
     this.setEvent("Put back", this.listItemName(u.node), "good");
@@ -11312,8 +11475,9 @@ class Component extends DCLogic {
   /**
    * AN ITEM'S OWN MENU (LISTS-MENU-2 part 2; the owner, 23 Nov: "tat x icon on the list items is very consufing too, make it a
    * 3 dots icon ads well which includes sharing, remove from list, move up, move down (the list order)"): Share · Move up ·
-   * Move down · Remove from list, Remove last in the warning ink, Move up and Move down disabled at the list's ends. The
-   * move step's "Move to…" takes its place between Move down and Remove when that step lands.
+   * Move down · Move to… · Remove from list, Remove last in the warning ink, Move up and Move down disabled at the list's
+   * ends. "Move to…" (LISTS-R Slice 2) opens the star's own picker in its move mode, anchored to this ⋮: the move step's
+   * control lives in this menu, not on the row (it was a ⇄ on the row until the item menu took the row's last place).
    */
   openItemMenu(nodeId, listId, anchor, byKey) {
     const l = this._listsMap()[listId]; if (!l) return null;
@@ -11323,14 +11487,15 @@ class Component extends DCLogic {
       // long list name in the kicker's capitals wrapped to two lines at 390 (the first screens)
       label: "Actions for " + this.listItemName(nodeId), kicker: "Technique", title: this.listItemName(nodeId), anchor, byKey,
       items: [["share", "Share"], ["up", "Move up", { disabled: at === 0 }], ["down", "Move down", { disabled: at === l.items.length - 1 }],
-        ["remove", "Remove from list", { warn: true }]],
-      choose: (k, key) => this._itemMenuChoose(nodeId, listId, k, key) });
+        ["move", "Move to…"], ["remove", "Remove from list", { warn: true }]],
+      choose: (k, key) => this._itemMenuChoose(nodeId, listId, k, key, anchor) });
   }
-  _itemMenuChoose(nodeId, listId, k, byKey) {
+  _itemMenuChoose(nodeId, listId, k, byKey, anchor) {
     this.closeListPicker();
     const l = this._listsMap()[listId]; if (!l || l.items.indexOf(nodeId) < 0) return false;
     if (k === "share") { void this.shareListItem(nodeId, listId); return true; }
     if (k === "up" || k === "down") return this.moveListItemBy(listId, nodeId, k === "up" ? -1 : 1, byKey);
+    if (k === "move") return !!this.openListPicker(nodeId, "move", anchor && anchor.isConnected ? anchor : null, { moveFrom: listId, byKey: byKey });
     if (k === "remove") {
       const ok = this.removeListItem(nodeId, listId, true);
       if (ok) this.track("neural_list_item_removed", { via: "menu" });
@@ -11370,18 +11535,42 @@ class Component extends DCLogic {
     return url;
   }
   /**
-   * MOVE AN ITEM UP OR DOWN ITS LIST, ON THIS DEVICE ONLY (LISTS-MENU-2 part 2). The order is NOT synced yet, on purpose:
-   * the merge keeps each copy's own order (`ngMergeLists`, local first) and the no-echo key compares items as a set, so a
-   * reorder is not pushed by itself and the account's other devices keep their order. The rule that syncs it is RULED
-   * (ORDER-OK, 23 Nov: a per-list order stamp, top-level `listOrderAt`, the order following the later stamp) and lands
-   * WITH the move step's `listItemAt`, under the same proofs. Until then nothing here writes a stamp, and the list's `t`
-   * is NOT bumped either: `t` is the panel's recency order, and a Move up must not make the list jump under the finger.
+   * A LIST WITH AN ORDER RECORD SHOWS WHAT ITS RECORD DERIVES, ALWAYS (LISTS-R Slice 2; MOVE-R1 F2; MOVE-R2 R3). Every
+   * device derives a list's order from its record (`ngListsApplyOrder`: the items it names in its order, then the rest BY
+   * ID), so one record and one set of items show one order everywhere. A remove keeps that true by itself. An INSERTION
+   * rewrites the record, later than every record and cell held, ONLY when the order the player now sees is not the one
+   * the record derives:
+   *   - an item the record still names, added back at the end (the star's add, a move into the list) or put back at a place
+   *     (an Undo after a merge changed the record), would otherwise jump to its recorded place;
+   *   - an item added among items the record does not name may not be where the id order puts it.
+   * A plain add of an item the record does not name, landing where the id order puts it (the usual case: one new
+   * technique at the end), writes nothing, so it can no longer undo a reorder another device made unseen (the reader's
+   * cost.mjs; MOVE-R1's rule rewrote on every insertion). THE COST that remains, last-writer-wins on one register, ruled:
+   * when this does write, a reorder made on another device that this one has not seen yet loses to it. A list with no
+   * record is left alone: an add never creates one. A delete's Undo never calls this (it takes the record's order).
+   * Returns whether it wrote.
+   */
+  _keepListOrder(listId) {
+    const rec = this.listOrderAt && this.listOrderAt[listId], l = this._listsMap()[listId];
+    if (!rec || !l) return false;
+    const derived = ngListsApplyOrder({ [listId]: l }, { [listId]: rec })[listId].items;
+    if (derived.length === l.items.length && derived.every((n, i) => n === l.items[i])) return false;
+    this.listOrderAt = ngListOrderSet(this.listOrderAt, listId, this._listMarkStamp(), l.items);
+    return true;
+  }
+  /**
+   * MOVE AN ITEM UP OR DOWN ITS LIST, AND THE ORDER SYNCS (LISTS-MENU-2 part 2; ORDER-OK, landed with the move step, LISTS-R
+   * Slice 2). The reorder records the list's whole order in `listOrderAt` (lists.src.js above NG_LIST_ORDER_CAP), later
+   * than every record and cell held (`_listMarkStamp`), and every device derives the list's order from the winning record.
+   * The list's `t` is NOT bumped: `t` is the panel's recency order, and a Move up must not make the list jump under the
+   * finger; the record is what the no-echo key sees, so the reorder is pushed. (v1.295.2 reordered on this device only.)
    */
   moveListItemBy(listId, nodeId, delta, byKey) {
     const l = this._listsMap()[listId]; if (!l) return false;
     const at = l.items.indexOf(nodeId), to = at + delta;
     if (at < 0 || to < 0 || to >= l.items.length) return false;
     l.items.splice(at, 1); l.items.splice(to, 0, nodeId);
+    this.listOrderAt = ngListOrderSet(this.listOrderAt, listId, this._listMarkStamp(), l.items);
     this._saveProgress();
     this.track("neural_list_item_reordered", { dir: delta < 0 ? "up" : "down" });
     // a KEY that moved the item follows it: focus on its ⋮ in its new place (the anchor was rebuilt by the render)
@@ -11416,7 +11605,7 @@ class Component extends DCLogic {
     try { this._pickEl.remove(); } catch (e) { /* non-fatal */ }
     this._pickEl = null;
     if (this._pickAway) { document.removeEventListener("pointerdown", this._pickAway, true); this._pickAway = null; }
-    const a = this._pickAnchor; this._pickAnchor = null; this._pickNode = null; this._pickMenu = null;
+    const a = this._pickAnchor; this._pickAnchor = null; this._pickNode = null; this._pickMove = null; this._pickMenu = null;
     if (a) { try { a.setAttribute("aria-expanded", "false"); a.focus(); } catch (e) { /* non-fatal */ } }
     return true;
   }
@@ -11454,9 +11643,13 @@ class Component extends DCLogic {
     el.style.left = left + "px";
     el.style.top = top + "px";
   }
-  openListPicker(nodeId, surface, anchor) {
+  openListPicker(nodeId, surface, anchor, opts) {
     nodeId = this.siteIdOf(nodeId);   // the picker's ✓ must read the id the list will hold
     this.closeListPicker();
+    // THE SAME MENU MOVES AN ITEM (LISTS-R): opened from an item's ⇄ inside a list it is the star's own menu in a move
+    // mode (`_pickMove` = the list the item leaves), so a phone, where a drag fights the scroll and the drawer's swipe,
+    // moves an item with the control it already knows. A move is one verb; copying stays with the star.
+    const moveFrom = opts && opts.moveFrom && this._listsMap()[opts.moveFrom] ? opts.moveFrom : null;
     this.closeAccountMenu();
     const root = this.__ngRoot || document.body;
     const el = document.createElement("div");
@@ -11464,13 +11657,14 @@ class Component extends DCLogic {
     el.setAttribute("data-list-picker", nodeId);
     el.setAttribute("data-list-surface", surface || "unknown");
     el.setAttribute("role", "menu");
-    el.setAttribute("aria-label", "Add to list");
+    el.setAttribute("aria-label", moveFrom ? "Move to list" : "Add to list");
+    if (moveFrom) el.setAttribute("data-list-picker-move", moveFrom);
     // Z LADDER (helmet.html): 90-99 is the deliberate-temporary-screen band. The picker is a
     // screen the user asked for, so it must not be underdrawn by the landing card (5), the
     // option sheet; it sits with the account menu at 90, under the modal 95.
     el.style.cssText = "position:fixed;z-index:90;pointer-events:auto;display:flex;flex-direction:column;";
     root.appendChild(el);
-    this._pickEl = el; this._pickNode = nodeId; this._pickAnchor = anchor || null;
+    this._pickEl = el; this._pickNode = nodeId; this._pickAnchor = anchor || null; this._pickMove = moveFrom;
     // ZERO LISTS AND ONE LIST ARE NOT DEFAULTS — THEY ARE THE ABSENCE OF A CHOICE. With no list
     // the create row IS the picker (the name field opens prefilled "Class · <date>", offered and
     // never demanded); with one list, that list is the only row beside "New list". Neither files
@@ -11484,6 +11678,26 @@ class Component extends DCLogic {
     if (anchor) anchor.setAttribute("aria-expanded", "true");
     this.renderListPicker();
     this._placeListPicker(el, anchor);
+    // THE MOVE MODE TAKES KEYS (LISTS-R Slice 2): it hangs off the item menu's "Move to…", whose own keys (↑ ↓ Home End,
+    // Enter, Esc) a player has just used, and the picker sits at the end of the page, so Tab from the drawer never reached
+    // it (the first journeys' finding). A key opens it on its first row that can be chosen; ↑ ↓ Home End move among those
+    // rows and "New list"; Esc and Tab close it, focus back on the anchor.
+    if (moveFrom) {
+      const live = () => [...el.querySelectorAll("[data-list-pick], [data-list-pick-new]")].filter((r) => !r.disabled);
+      el.addEventListener("keydown", (e) => {
+        if (e.target && e.target.matches && e.target.matches("input")) return;   // the New list field keeps its own keys
+        const rows = live(), at = rows.indexOf(document.activeElement);
+        const go = (i) => { e.preventDefault(); const r = rows[(i + rows.length) % rows.length]; if (r) r.focus(); };
+        if (e.key === "ArrowDown") go(at + 1);
+        else if (e.key === "ArrowUp") go(at < 0 ? rows.length - 1 : at - 1);
+        else if (e.key === "Home") go(0);
+        else if (e.key === "End") go(rows.length - 1);
+        else if (e.key === "Escape" || e.key === "Tab") { e.preventDefault(); this.closeListPicker(); }
+        else return;
+        e.stopPropagation();
+      });
+      if (opts && opts.byKey) { const first = live()[0]; if (first) first.focus(); }
+    }
     this._pickAway = (e) => {
       if (el.contains(e.target) || (anchor && anchor.contains(e.target))) return;
       this._pressAway = e.timeStamp;   // this press closed the menu: on the bare map it does nothing more (`attachInput`, `spent`)
@@ -11503,7 +11717,8 @@ class Component extends DCLogic {
     head.className = "ng-listpicker-head";
     // the technique being filed, named in FULL — the picker is where a mis-file is prevented,
     // so it cannot be vague about which of the 35 Kimuras is going where
-    head.innerHTML = '<b>Add to list</b><small>' + this.escHTML(this.listItemName(nodeId)) + '</small>';
+    const moveFrom = this._pickMove;
+    head.innerHTML = '<b>' + (moveFrom ? "Move to list" : "Add to list") + '</b><small>' + this.escHTML(this.listItemName(nodeId)) + '</small>';
     el.appendChild(head);
     const body = document.createElement("div");
     body.className = "ng-listpicker-body";
@@ -11512,6 +11727,7 @@ class Component extends DCLogic {
     for (const id of this.listsArray()) {
       const l = m[id]; if (!l) continue;
       const on = l.items.indexOf(nodeId) >= 0;
+      if (moveFrom) { body.appendChild(this._pickMoveRow(id, l, nodeId, moveFrom, on)); continue; }
       const b = document.createElement("button");
       b.type = "button";
       b.setAttribute("role", "menuitemcheckbox");
@@ -11542,7 +11758,7 @@ class Component extends DCLogic {
       let done = false;
       const commit = () => {
         if (done) return; done = true;
-        this.createListWith(inp.value, nodeId);
+        if (moveFrom) this.createListMove(inp.value, nodeId); else this.createListWith(inp.value, nodeId);
       };
       inp.addEventListener("keydown", (e) => {
         e.stopPropagation(); // the editor owns the keyboard: A/B/C, digits, and Esc
@@ -11575,6 +11791,53 @@ class Component extends DCLogic {
       });
       el.appendChild(nb);
     }
+  }
+  /** A row of the picker in its MOVE mode. The list the item is in now is shown and cannot be chosen ("here"); a list
+   *  that holds the item already is chosen all the same (the move then only takes it out of here); a full one cannot be. */
+  _pickMoveRow(id, l, nodeId, moveFrom, on) {
+    const here = id === moveFrom, full = !on && l.items.length >= NG_LIST_ITEM_CAP;
+    const b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("role", "menuitem");
+    b.setAttribute("data-list-pick", id);
+    b.className = "ng-listpicker-row";
+    const note = here ? "here" : on ? "has it" : full ? "full" : "";
+    if (note) b.setAttribute("data-list-pick-note", note);
+    if (here || full) { b.disabled = true; b.setAttribute("aria-disabled", "true"); b.style.opacity = ".5"; b.style.cursor = "default"; }
+    b.setAttribute("aria-label", here ? l.name + ", where it is now" : full ? l.name + ", full" : "Move to " + l.name + (on ? ", which has it already" : ""));
+    b.innerHTML =
+      '<span class="ng-listpicker-box" aria-hidden="true">' + (here ? "•" : on ? "✓" : "") + '</span>' +
+      '<span class="ng-listpicker-name">' + this.escHTML(l.name) + '</span>' +
+      '<span class="ng-listpicker-n">' + (note || l.items.length) + '</span>';
+    if (!here && !full) b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.pickMove(id, nodeId, e.detail === 0); });
+    return b;
+  }
+  /** A move's pick: the item leaves the list it was opened from and lands in THAT one; the menu gets out of the way. */
+  pickMove(toId, nodeId, byKey) {
+    const from = this._pickMove; if (!from) return false;
+    this.closeListPicker();
+    return this._afterMove(this.moveListItem(nodeId, from, toId, "menu"), nodeId, toId, byKey);
+  }
+  /** The move mode's "New list": the list is made and the item moved into it, in one action. */
+  createListMove(name, nodeId) {
+    const from = this._pickMove; if (!from) return "";
+    this.closeListPicker();
+    const id = this.newList(String(name == null ? "" : name).replace(/\s+/g, " ").trim() || undefined);
+    this.track("neural_list_created", { surface: "move" });
+    const r = this.moveListItem(nodeId, from, id, "menu");
+    if (!r.moved) { delete this._listsMap()[id]; this._saveProgress(); }   // never leave an empty list behind
+    this._afterMove(r, nodeId, id, true);
+    return r.moved ? id : "";
+  }
+  _afterMove(r, nodeId, toId, byKey) {
+    const to = this._listsMap()[toId];
+    if (r.moved) this.setEvent("Moved to “" + (to ? to.name : "") + "”", this.listItemName(nodeId) + (r.already ? " · it was there already" : ""), "good");
+    else if (r.reason === "full") this.setEvent("List is full", "A share link holds " + NG_LIST_ITEM_CAP + " techniques", "bad");
+    // a key that moved the item follows it: focus lands on its ⇄ in the list it went to (the anchor it left is gone)
+    if (r.moved && byKey) this._listMoveFocus = { node: this.siteIdOf(nodeId), list: toId };
+    this._refreshListSurfaces();
+    this._listMoveFocus = null;   // used by that render, or not at all: a later render must not take focus
+    return !!r.moved;
   }
   /** A row in the picker: toggle THIS node's membership of THAT list, then get out of the way. */
   pickList(listId, nodeId) {
@@ -12050,6 +12313,12 @@ class Component extends DCLogic {
       this._listOpenFocusPending = null;
       if (back) { try { back.focus(); } catch (e) { /* non-fatal */ } }
     }
+    // ...a move made by KEY follows the item: focus on its ⋮ in the list it went to (`_afterMove`)
+    if (this._listMoveFocus) {
+      const f = this._listMoveFocus; this._listMoveFocus = null;
+      const back = sec.querySelector('[data-list-item-menu="' + f.node + '"][data-list-of="' + f.list + '"]');
+      if (back) { try { back.focus({ preventScroll: true }); } catch (e) { /* non-fatal */ } }
+    }
     // ...an item a KEY moved up or down keeps the keys: focus on its ⋮ in its new place (`moveListItemBy`)
     if (this._itemMenuFocus) {
       const f = this._itemMenuFocus;
@@ -12101,29 +12370,40 @@ class Component extends DCLogic {
     box.style.cssText = "display:flex;align-items:center;gap:8px;margin:0 6px 6px;padding:7px 9px;border-radius:9px;border:1px solid rgba(150,170,210,.2);background:rgba(255,255,255,.03);";
     const txt = document.createElement("span");
     txt.style.cssText = "flex:1;min-width:0;font-size:11.5px;color:#aeb9d4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
-    // ONE SLOT, TWO KINDS (LISTS-MENU-2): a list's delete and an item's removal. The newest wins, so the row says which.
-    const removed = u.kind === "remove";
-    txt.textContent = removed
+    // ONE SLOT, THREE KINDS: a list's delete, an item's removal (LISTS-MENU-2) and a move (LISTS-R). The newest wins, so the
+    // row says which one it takes back.
+    const move = u.kind === "move", removed = u.kind === "remove";
+    txt.textContent = move
+      ? "Moved “" + this.listItemName(u.node) + "” to “" + u.toName + "”"
+      : removed
       ? "Removed “" + this.listItemName(u.node) + "” from “" + u.listName + "”"
       : "Deleted “" + u.list.name + "” · " + u.list.items.length + " technique" + (u.list.items.length === 1 ? "" : "s");
     box.appendChild(txt);
     const undo = document.createElement("button");
     undo.type = "button";
-    undo.setAttribute(removed ? "data-list-undo-remove" : "data-list-undo", removed ? u.node : u.id);
+    undo.setAttribute(move ? "data-list-undo-move" : removed ? "data-list-undo-remove" : "data-list-undo", move || removed ? u.node : u.id);
     undo.textContent = "Undo";
     // a thumb's height on a phone, its 9px of the row's padding taken back so the row does not grow (`.ng-lists-new`'s trade)
     undo.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 10px;border-radius:7px;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.05);color:#dbe2f0;" + (this.isMobile() ? "min-height:44px;margin:-9px 0;" : "");
-    undo.addEventListener("click", () => { if (removed) this.undoRemoveListItem(); else this.undoDeleteList(); });
+    undo.addEventListener("click", () => { if (move) this.undoMoveListItem(); else if (removed) this.undoRemoveListItem(); else this.undoDeleteList(); });
     box.appendChild(undo);
     return box;
   }
   undoDeleteList() {
-    const u = this._undoList; if (!u || u.kind === "remove") return false;
+    const u = this._undoList; if (!u || u.kind === "move" || u.kind === "remove") return false;
     this._undoList = null;
-    this._listsMap()[u.id] = u.list;
+    // A MERGE MAY HAVE BROUGHT THE LIST BACK meanwhile (MOVE-R1, F4; dev's own loss, which a move could now reach too):
+    // add-wins, so another device that still held it brought it back, perhaps with techniques added or MOVED into it.
+    // The snapshot is UNIONED into that list, its own items first, never put in its place (putting it in place dropped
+    // those techniques here, and the next push dropped them everywhere: the reader's repro_undodelete.mjs).
+    const m = this._listsMap(), now = m[u.id];
+    m[u.id] = now ? ngMergeLists({ [u.id]: u.list }, { [u.id]: now })[u.id] : u.list;
+    // then the cells and the order records over the whole map, as a load does: a move another device made since stands,
+    // and the list takes its record's order (the newer knowledge: `_keepListOrder`'s one exception, it never writes here)
+    this.lists = ngListsApplyOrder(ngListsApplyMarks(m, this.listItemAt), this.listOrderAt);
     this._expandList(u.id); // it came back — show what came back with it
-    // restored EXACTLY, `t` included: an undo puts the list back where recency had it, it is not
-    // a fresh touch that should promote it to the top of the panel and the picker
+    // restored EXACTLY, `t` included (the later of the two when a merge brought it back): an undo puts the list back
+    // where recency had it, it is not a fresh touch that should promote it to the top of the panel and the picker
     this._saveProgress();
     this.setEvent("Restored", u.list.name, "good");
     this._refreshListSurfaces();
