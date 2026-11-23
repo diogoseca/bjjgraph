@@ -32,6 +32,8 @@
 //   LK5 the look lit only after Show                                   → "during the look the place is lit before Show too…"
 //   LK6 the hand let up during the look (`_czDown` without the look)   → the same test
 //   LK7 the look taken without the drawer's pause handed over (`_paneAutoPaused` kept) → "opening the look: the drawer shuts…"
+// S3-R1 (23 Nov 2026; the reader of PR #453 and the orchestrator's ruling 4):
+//   LK9 a band measured for another size read as this view's (`_viewRect` without the size check) → "a band measured for…"
 // S1-R1 (23 Nov 2026, the reader of PR #447 and the orchestrator's rulings 2 and 4):
 //   ML14 the fade kept over a running game (no "out at once")           → "out at once when the game starts again…"
 //   ML15 the cold path ramps the strength (the planner lands at full)   → "the planner arriving late…"
@@ -333,6 +335,15 @@ test("opening the look: the drawer shuts, the session and its cloze are kept, th
   assert.equal(!!still.a._lookAutoPaused, false, "a board that was already still is not the look's");
   assert.equal(still.a._czLookOn(), true, "and the look is on there all the same");
 });
+test("a band measured for another size is not this view's: a phone turned to landscape frames against its own strip", () => {
+  const { a } = looked();
+  a.W = 844; a.H = 390;
+  a._reader = { nodeBand: { top: 72, bottom: 258, height: 186, w: 390, h: 631 } };   // the portrait band, its layout not run yet
+  assert.equal(a._viewRect().height, 64, "the reader's band was measured at 390x631: the view reads its own, 64 px");
+  a._reader.nodeBand = { top: 70, bottom: 134, height: 64, w: 844, h: 390 };
+  assert.equal(a._viewRect().top, 70, "measured for this size, the reader's band is the view's");
+});
+
 test("the look lasts while the drawer is shut, the game held and the cloze not confirmed: and only while", () => {
   const mk = () => { const x = looked(); x.a._czLookOpen(x.a._session); return x; };
   let x = mk(); x.a.deckShown = true;

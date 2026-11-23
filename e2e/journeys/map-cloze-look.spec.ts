@@ -38,6 +38,9 @@ import { journey } from "../dsl"
  *   M16 a glide with no room (`ngLightFrame` without its 48 px floor) → the same test, at "the camera stays as it was" (it
  *       pulled back some 900 times the roll's zoom into a 1 px box)
  * S3-R1 (23 Nov 2026; the reader of PR #453):
+ *   M17 a band measured for another size read as this view's (`_viewRect` without its size check) → "a look turned to
+ *       landscape…" at "on the frame between the turn and the reader's layout" (the reader's one red in 22 runs: that frame,
+ *       held here by holding the page's animation frames, framed the look against the portrait band, 10.97 times out)
  *   M18 the pill never hides (the reader's P5)          → "Map before Show…", "after Show…" and "a narrow window…", at "the pill
  *       is gone" after each way back
  *   M19 a wheel ends the look (the reader's P13)        → "a narrow window with a mouse…" at "a wheel moves the map and the look
@@ -336,6 +339,19 @@ test.describe("390x631, touch: turned, and its frames", () => {
     let v = await look(page)
     expect([v.on, v.light && v.light.k, !!v.pill], "premise: a look, lit, its pill up").toEqual([true, 1, true])
     const zoom0 = (await page.evaluate(() => { const a = (window as W).__neural; return a.cam.vw / (a.graphW * a.ROLL_ZOOM) }))
+    // THE FRAME BETWEEN THE TURN AND THE READER'S LAYOUT (S3-R1, the reader's one red in 22 runs). The reader measures its band
+    // in an animation frame after a resize; the page's animation frames are held back here, so the app's own ticks run on the
+    // new size with the reader's band not yet measured for it: the look must not frame against the old band (M17)
+    await page.evaluate(() => { const w = window as W; w.__rafQ = []; w.__rafO = w.requestAnimationFrame; w.requestAnimationFrame = (cb: W) => { w.__rafQ.push(cb); return w.__rafQ.length } })
+    await page.setViewportSize({ width: 844, height: 390 })
+    const between = await page.evaluate(() => {
+      const a = (window as W).__neural, roll = a.graphW * a.ROLL_ZOOM
+      for (let k = 0; k < 4; k++) a.advance(1000 / 60)
+      return { W: a.W, held: (window as W).__rafQ.length, aim: Math.max(a.cam.vw, a.camTarget ? a.camTarget.vw : 0) / roll }
+    })
+    await page.evaluate(() => { const w = window as W, q = w.__rafQ; w.requestAnimationFrame = w.__rafO; w.__rafQ = null; for (const cb of q) { try { cb(performance.now()) } catch (e) {} } })
+    expect([between.W, between.held > 0], "premise: the app has the new width, the reader's layout not yet run").toEqual([844, true])
+    expect(between.aim, `on the frame between the turn and the reader's layout the look does not frame against the old band (aims at ${between.aim.toFixed(2)} times the roll's zoom, against ${zoom0.toFixed(2)}) (M17)`).toBeLessThanOrEqual(zoom0 * 1.2)
     // landscape: the map is a strip (64 px at 844x390, under the look's own insets), too short to frame anything in
     await settle(j, page)
     await j.advance(600)
