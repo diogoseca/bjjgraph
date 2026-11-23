@@ -70,6 +70,10 @@ const ngCzNow = (s) => (s.czOpen != null && s.cz ? s.cz.get(s.czOpen) : null) ||
 // its twin) and every move the cloze lists, in one glide (`ngLightFrame`, map-light.src.js), on a computer, where the map
 // stands beside the drawer; a phone's drawer is the screen (its look is S3). The app holds it there while the cloze is open
 // (`_czAt`). Called as a cloze opens and at Show; at Show it glides only if the player has moved the map off them.
+// THE HELD PLACE FRAMED AGAIN WHEN THE VIEW CHANGES SIZE (S2-R1, the reader's finding 6: at 1024x768 three of its eight points
+// fell outside). The app asks a frame at a time (`updateCamera`), since the view's height is the reader's band, which settles a
+// frame after a resize; a glide only when they are not in view (`ngLightFrame`)
+export function ngClozeFrame(app) { const s = app._session, c = s && ngCzNow(s); if (c) ngClozeMap(app, c); }
 function ngClozeMap(app, c) {
   if (c) c.free = false;   // the next Show, or the place opened again, takes the map back from free roam (S2-R1, `_czAt`)
   const z = c && app._czAt ? app._czAt() : null;   // (a computer, the drawer showing this cloze: `_czAt` says, and only it)

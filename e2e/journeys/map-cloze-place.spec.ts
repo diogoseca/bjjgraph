@@ -43,6 +43,7 @@ import { journey } from "../dsl"
  *       cloze's names stay while the roll runs"
  *   KF1 the close does not let the cloze go (`c.free` never set)  → "a press on the bare map with a cloze lit…" at "the cloze
  *       is open and unlit"
+ *   KZ1 a resize does not frame the place again                    → "a resize frames the held place again" at "in the calm area"
  * NOT KILLED, AND WHAT WOULD: the reader's S11 (the glide only on the player's own press, `fresh ||` dropped) is equivalent on
  * every door tried: Practise here and a row's press are both `mine`. It needs a door that opens a place's cloze without the
  * player's press on that place (a plan that lands and opens the next place by itself, `ngClozeResume`), read for the glide.
@@ -318,6 +319,17 @@ test.describe("1440x900, mouse", () => {
     await settle(j, page)
     const back = await view(page)
     expect([back.czAt, back.light?.k, back.out], "the next Show takes the map back: held, lit, the place and its moves in the calm area").toEqual([true, 1, []])
+  })
+
+  test("a resize frames the held place again", async ({ page }) => {
+    const j = await setup(page, { at: "Half Guard|Top" })
+    await openCloze(page, false)
+    await settle(j, page)
+    expect((await view(page)).out, "premise: in the calm area at 1440x900").toEqual([])
+    await page.setViewportSize({ width: 1024, height: 768 })
+    await settle(j, page)
+    const v = await view(page)
+    expect([v.czAt, v.out], `1024x768: the place and its moves in the calm area again (${v.n} read) (KZ1)`).toEqual([true, []])
   })
 
   test("standing at the place: after Show no orb is named twice (the hand and the cloze are the same moves)", async ({ page }) => {

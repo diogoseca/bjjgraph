@@ -22374,6 +22374,11 @@ class Component extends DCLogic {
     // …and an open cloze's place (S2, `_czAt`), ONLY WHILE THE GAME IS HELD (S2-R1, the reader's finding 1: on a computer a
     // move can be played from the hand beside the open drawer, and the hold kept the follow-cam off the running roll)
     if (this.introDone && (this.camHeld() || this._conceptId || (this.paused && this._czAt()))) tgt = null;
+    // a held cloze's place framed again when the view changes size (S2-R1, finding 6; `ngClozeFrame`): read a frame at a time
+    if (this.paused && this._czAt()) {
+      const R = this._viewRect(), k = [this.W, this.H, R.left, R.top, R.width, R.height].map((v) => Math.round(v)).join();
+      if (this._czRect !== k) { const was = this._czRect; this._czRect = k; if (was) this._gameplanRuntime?.ngClozeFrame?.(this); }
+    } else this._czRect = null;
     // An escape (camera false) picked inside a calm reading catch's lease window keeps its framing
     // through its whole travel, even past the window (`calmHeld`, latched at the pick).
     if (this.introDone && this._execution && this._execution.camera === false && this._execution.calmHeld) tgt = null;
