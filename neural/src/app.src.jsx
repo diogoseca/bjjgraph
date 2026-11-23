@@ -11224,7 +11224,9 @@ class Component extends DCLogic {
     const l = this._listsMap()[listId]; if (!l) return null;
     const at = l.items.indexOf(nodeId); if (at < 0) return null;
     return this._openAnchoredMenu({ open: ["data-list-item-menu-open", nodeId], menuKey: "item|" + listId + "|" + nodeId,
-      label: "Actions for " + this.listItemName(nodeId), kicker: "In “" + l.name + "”", title: this.listItemName(nodeId), anchor, byKey,
+      // the kicker names the KIND, as the list's menu does ("List"): opened inside the list, the list is in view already, and a
+      // long list name in the kicker's capitals wrapped to two lines at 390 (the first screens)
+      label: "Actions for " + this.listItemName(nodeId), kicker: "Technique", title: this.listItemName(nodeId), anchor, byKey,
       items: [["share", "Share"], ["up", "Move up", { disabled: at === 0 }], ["down", "Move down", { disabled: at === l.items.length - 1 }],
         ["remove", "Remove from list", { warn: true }]],
       choose: (k, key) => this._itemMenuChoose(nodeId, listId, k, key) });
