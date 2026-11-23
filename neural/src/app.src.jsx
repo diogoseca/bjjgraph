@@ -106,6 +106,9 @@ const NG_SEAL_WORDS = { recalled: "You recalled this move here", answered: "Its 
 // on its own orb; one clip only when two outside-marked shapes come within reach (`draw()`). Clips are what cost: measured on
 // the shared box (tests/artifacts/_map_names_frametime.mjs --ab marks, paired frames, every dealt orb marked both ways, 4x
 // CPU throttle), a clip per orb cost +0.4 to +0.5 ms a held frame, and so did the first build's clip per overlapping shape.
+// THE LIGHT'S FADE (L2b S1, v1.295.0; `_drawLight`): in over a quarter of a second, out over four tenths (design round 6's
+// figures, ruled with the rest of L2b Part A (c), 19 Nov 2026). What it draws is neural/src/map-light.src.js (`NG_LIGHT`).
+const NG_LIGHT_IN_MS = 250, NG_LIGHT_OUT_MS = 400;
 const NG_MAP_MARKS = { gold: { r: 240, g: 192, b: 90 }, goldA: 0.95, borderA: 0.87, line: 1, borderK: 0.32, borderMin: 1.2, borderMax: 2.2, inFrom: 2.4, inFull: 3.2 };
 // The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
 // by `_dockLandFilm` (the end padding is 1 of the same unit). helmet.html `.ng-landfilm`.
@@ -882,7 +885,8 @@ class Component extends DCLogic {
    * SHOW ON THE MAP IS A LOOK, NOT A RETURN TO PLAY (L3 ruling 1, v1.293.0). A Last rolls row's "Show on the map" frames the
    * place it holds as a session's row frames its node (`locateNode`: the visible map, through `pairMid`, lit for a moment),
    * takes the camera's 7 s lease (`holdCamera`), and NAMES it (`_shown`, below): the first real screens showed the place
-   * in the middle of the map with no name on it, and on a phone the row that named it is gone with the drawer. On a
+   * in the middle of the map with no name on it, and on a phone the row that named it is gone with the drawer. Since
+   * v1.295.0 it also LIGHTS it, for as long as it names it and the game is held (`_lightOf`, L2b S1). On a
    * desktop the drawer stays beside the map and nothing else moves. ON A PHONE THE DRAWER IS THE SCREEN, so the press has
    * to shut it, and by pane law shutting it resumes a roll the drawer stopped: the player would watch the place while the
    * roll moved on without them. So the drawer's pause is handed
@@ -907,7 +911,7 @@ class Component extends DCLogic {
    *            board's clock or wake a page's dormant one.
    * Each is pinned in e2e/journeys/last-rolls-places.spec.ts, which names the mutant of each (M8 to M15, M33).
    */
-  _showPlace(i) {
+  _showPlace(i, rid) {
     if (this._replay) this.stopReplay("input");   // a film owns the camera; asking to see a place ends it, as a hand on the map does
     if (this.isMobile()) {
       const held = this._paneAutoPaused;
@@ -916,7 +920,7 @@ class Component extends DCLogic {
       if (held) { this._lookAutoPaused = true; this.fx("look_held", {}); }
     }
     this.locateNode(i); this.holdCamera();
-    this._shown = { i, t: this._camHoldTarget };
+    this._shown = { i, t: this._camHoldTarget, rid };   // `rid`: the Last rolls row it was shown from (S1-R1, `_shownNode`)
   }
   // THE PLACE "SHOW ON THE MAP" SHOWED, NAMED ON THE MAP the way a node under the pointer is (`draw()`'s hover label reads this
   // when nothing is under the pointer). No lifters of its own to forget (§6.5): it lasts exactly as long as what it rides,
@@ -924,9 +928,89 @@ class Component extends DCLogic {
   // (`camHeld()` with the lease's own target: 7 s, a pan, pinch or wheel, any other flight, a move played, any
   // go-elsewhere). Nothing clears it by hand: a line that did, in `_lookEnd`, survived its own mutant (the lease had
   // already said no).
+  // AND NO LONGER THAN ITS ROW (S1-R1, the orchestrator's ruling 2 on the reader's finding 2, PR #447): the look ends when its
+  // row is collapsed, when Last rolls is left, or when the hold ends, whichever comes first, and the name and the light go
+  // with it. On a computer the row and the drawer stand beside the map, and collapsing the row or switching the drawer to
+  // Explore left the place lit and named for the rest of the camera's 7 s (the reader: still lit at +2.8 s). Read, like
+  // the rest, every frame (`_shownRow`): the row the show came from still open (`_openRow`, which only Last rolls writes and
+  // which the drawer's shutting leaves as it is, so a phone's look keeps it), and Last rolls the drawer's view, with no
+  // study surface over it. Another row opened (one at a time), the arrows, a new roll (`_closeRoll` drops its rows) or
+  // Practise here (Master the game's list takes the drawer) each leave it.
   _shownNode() {
     const s = this._shown;
-    return s && (this._lookAutoPaused || (this.camHeld() && this._camHoldTarget === s.t)) ? this.nodes[s.i] || null : (this._shown = null);
+    return s && (this._lookAutoPaused || (this.camHeld() && this._camHoldTarget === s.t)) && this._shownRow(s) ? this.nodes[s.i] || null : (this._shown = null);
+  }
+  _shownRow(s) { return s.rid == null || (this._viewMode === "history" && !this._paneStudyActive() && this._openRow === s.rid); }
+  /**
+   * THE LIGHT (L2b S1, v1.295.0): what "Show on the map" shows, lit. Until now the map NAMED the shown place and lit
+   * nothing, so the name was tied to its orb by nothing at a glance (L3 ruling, v1.293.0: "names, does not yet LIGHT").
+   * The map now steps back under one dark layer, and the place's pair and every move it deals stand clear of it (the owner's
+   * U175 rule; what is drawn, and why so, is neural/src/map-light.src.js, deferred in gameplan.js). The orchestrator's
+   * ruling on L2b Part A (c), 19 Nov 2026, as recommended.
+   * WHAT IS LIT is DERIVED EACH FRAME from what it rides, so it has no lifters of its own to forget (§6.5): the place
+   * `_shownNode()` holds (the look's hold on a phone, the camera's lease on this flight), and only
+   *   - while the game is held (`paused`): NEVER OVER A RUNNING GAME. A desktop's drawer holds it while it is open (pane
+   *     law), a phone's look holds it while it lasts, a staged board is still from birth; the press that ends a look lets
+   *     the roll run, so the light goes and the name stays for the camera's hold (L3-R2, untouched);
+   *   - and never under a phone's open drawer, which is the screen there and under which no name is written either
+   *     (`covered`, `draw()`): reopened inside the camera's hold, the place would still be "shown".
+   * A FILM takes the camera's lease (`_replayFrame`, `holdCamera`), which is a new flight: `_shownNode` lets the place go,
+   * so a film is never lit, with no clause of its own here.
+   */
+  _lightOf() {
+    if (!this.paused || (this.deckShown && this.isMobile())) return null;
+    const n = this._shownNode();
+    return n && this.rsAllowsIdx(n.idx) ? n : null;
+  }
+  // the moves a lit place deals in this ruleset (a position's hand as the rating deals it, `_dealtOpts`); a submission or a
+  // transition a roll passed through deals none: its pair alone is lit. Kept per place, ruleset and graph; a hand that
+  // failed to deal (`moves_hand_failed`, said once) lights the pair alone this frame and is asked again the next.
+  _lightMoves(n) {
+    if (n.ty !== "positions") return [];
+    const c = this._lightC;
+    if (c && c.i === n.idx && c.gi === this._giMode && c.n === this.nodes) return c.m;
+    const d = this._dealtOpts(n.idx, n.role === "bottom" ? "bottom" : "top");
+    if (!d) return [];
+    const m = [...new Set(d.map((o) => o.idx))].filter((i) => this.rsAllowsIdx(i));
+    this._lightC = { i: n.idx, gi: this._giMode, n: this.nodes, m };
+    return m;
+  }
+  /**
+   * ONE FRAME OF THE LIGHT, from `draw()`, after the pulse head and before the first name (`F`: the frame's own camera, lift
+   * and sets). IT COMES AND GOES: in over NG_LIGHT_IN_MS, out over NG_LIGHT_OUT_MS, on whichever clock moved more since the
+   * last frame (the fog's rule: the wall clock while the game is held, the frame clock a test pumps), keeping the last
+   * place while it goes out; under reduced motion, on and off at once. Published: `_lastLight`, what this frame drew
+   * (`k`, the place, its holes and marks), null when nothing was. GAMEPLAN.JS NOT IN YET (the drawer fetches it as it
+   * opens, and every "Show on the map" is pressed in an open drawer): nothing is drawn, and that is said once per show
+   * (`light_cold`, §6.6); the name is there as before.
+   * A LIGHT AT ITS TARGET STAYS THERE. The first cut stepped down whenever it was not stepping up, so a full light lost a
+   * frame's worth (1 to 0.96 at 60 Hz) and won it back the next: a flicker, found when a unit mutant (ML6) passed for the
+   * wrong reason. Pinned by "a full light stays full, frame after frame" (tests/map_light.test.mjs).
+   */
+  // OUT AT ONCE WHEN THE GAME STARTS AGAIN (S1-R1, the orchestrator's ruling 4 on the reader's finding 4): "never over a
+  // running game" beats "out over 400 ms". Every way the game resumes (a move played, ▶ on a row, the countdown let go) and
+  // a film taking the map left the layer fading over the running roll for 17 to 23 frames (the reader, at 60 Hz). The fade
+  // out is for the ways out that leave the game held: the row collapsed, Last rolls left, the hold's end.
+  // THE FADE IN STARTS WHEN THE LAYER CAN FIRST BE DRAWN (S1-R1, the reader's finding 5): with gameplan.js not in, the
+  // strength is held at 0, so the light comes in over its quarter second when the planner lands, not at full in one frame.
+  _drawLight(ctx, F) {
+    const n = this._lightOf(), wall = performance.now(), game = (this.now || 0) * 1000;
+    if (n) this._lightAt = n.idx;
+    const dt = Math.max(wall - (this._lightT == null ? wall : this._lightT), game - (this._lightS == null ? game : this._lightS));
+    this._lightT = wall; this._lightS = game;
+    this._lastLight = null;
+    const R = this._gameplanRuntime;
+    if (!R || typeof R.ngLightDraw !== "function") {
+      this._lightK = 0;
+      const s = this._shown;
+      if (n && s && !s.cold) { s.cold = 1; this.fx("light_cold", { place: n.id }); }
+      return;
+    }
+    const was = this._lightK || 0, to = n ? 1 : 0, running = !this.paused || !!this._replay;
+    const k = this._lightK = running ? 0 : this._reducedMotion() ? to : to > was ? Math.min(1, was + dt / NG_LIGHT_IN_MS) : to < was ? Math.max(0, was - dt / NG_LIGHT_OUT_MS) : was;
+    const at = k > 0.001 && this._lightAt != null ? this.nodes[this._lightAt] : null;
+    if (!at) return;
+    this._lastLight = R.ngLightDraw(this, ctx, { ...F, k, place: at, moves: this._lightMoves(at) });
   }
   // `press`: THE PRESS ON THE MAP THAT ENDS A LOOK TAKES THE CAMERA'S LEASE AGAIN, SO THE PLACE STAYS NAMED FOR THE CAMERA'S
   // HOLD TIME (L3-R2, the reader's re-read of PR #440 at 6ce6a6f03). That press is consumed (above), so on a phone the door
@@ -5484,7 +5568,7 @@ class Component extends DCLogic {
       // stands on that orb whichever side it plays (the side is the row's `role`), so "Show on the map" from a Bottom row named
       // the place TOP. `_seatMember` is the one seam for "the orb that plays this side" (a technique's key is its own half)
       const own = this._seatMember(ni, /bottom/i.test(h.role || "") ? "bottom" : "top");
-      const show = drawn ? () => this._showPlace(own) : null;
+      const show = drawn ? () => this._showPlace(own, rid) : null;
       // (R6: the row is remembered, so "‹ Master the game" comes back to it open and where it was: `renderDrillHome`)
       const go = drawn && this.nodes[ni].ty === "positions" ? () => { const l = this.drillListRef.current; this._histBack = { rid, key: h.key, log: this.rollLog, y: l ? l.scrollTop : 0 }; this.openMasterAt(h.key, "lastrolls"); } : null;
       const closeSelf = () => { detail.style.display = "none"; if (this._openRow === rid) this._openRow = null; if (this._focusRow === rid) this._focusRow = null; if (this._openMini && this._openMini.rid === rid) this._openMini = null; };
@@ -23816,6 +23900,10 @@ class Component extends DCLogic {
       ctx.fillStyle = g; ctx.beginPath(); ctx.arc(h.x, h.y, hr, 0, 6.2832); ctx.fill();
     }
     ctx.globalCompositeOperation = "source-over";
+    // THE LIGHT (L2b S1, v1.295.0, `_drawLight`): the one place a layer can sit, over every line, orb, mark and glow and
+    // under every name, so a name is never dimmed. `ox`/`oy` are this frame's own offset (the shake included), so a hole
+    // sits exactly on the orb as drawn.
+    this._drawLight(ctx, { scale, nodeK, kLOD, LY, ox, oy, W, H, dpr, gold, face: hmFaceF });
 
 
     // ── NOTHING IS WRITTEN INSIDE A NODE (v1.114.0) ──────────────────────────────────────────
