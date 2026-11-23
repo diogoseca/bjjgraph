@@ -59,13 +59,15 @@ import { journey } from "../dsl"
  * roll's zoom, where "Show on the map" never frames), read at the partner's own orb. J5 (`paused` dropped from `_lightOf`)
  * survives since S1-R1 and is covered twice: ruling 4's own line in `_drawLight` (`running`) puts out a light over a
  * running game, and JR4 is its killer (the unit file says the same of ML6).
- * NOT A KILL HERE: the fade kept under reduced motion. The step "under reduced motion the light is full on the first frame"
- * reads the frame after the press, and the press takes a real mouse some tenths of a second, which the fade (on the clock
- * that moved more) may already have run through; its killer is the unit ("under reduced motion it is on and off at once",
- * tests/map_light.test.mjs). The step here is the wiring: the player's setting reaches the light.
- * NOT COVERED HERE: a mark above the layer (an orb drawn under 2.5 px: at the look's zoom no move of Mount is that small;
- * the rule is the unit's); a film (it takes the camera's lease, `_replayFrame`, so the place is no longer shown: no clause
- * of the light's own to mutate). The harness serves `{}` for dossiers: no claim here reads a film or an article.
+ * NOT A KILL HERE: the fade kept under reduced motion. THE UNIT HOLDS THAT CLAIM ("under reduced motion it is on and off at
+ * once", tests/map_light.test.mjs). The step here, "under reduced motion: the player's setting reaches the light", proves the
+ * wiring only: the frame after a real press carries the press's own wall time (tenths of a second), which the fade, on the
+ * clock that moved more, may already have run through, so it reads full with the fade or without it (the reader's finding 6).
+ * NOT COVERED HERE: a mark's GOLD when pulled back (every move read pulled back is pale; the rule is the unit's ML3). AND,
+ * NOT THIS PR'S CODE (the reader's aside): at 390, after a look ended by its tap during the round's countdown, the place
+ * stayed NAMED some 6 s into the next roll (L3's camera lease, which `startRoll` does not release). Since S1-R1 the name
+ * also ends with its row, and a new roll drops the current roll's rows (`_closeRoll`), which may end it there; not run here.
+ * The harness serves `{}` for dossiers: no claim here reads an article; the film read is a filed roll's own (⟲).
  */
 
 type W = any
@@ -455,7 +457,7 @@ test.describe("mouse 1440x900", () => {
     })
   }
 
-  test("under reduced motion the light is full on the first frame after the press", async ({ page }) => {
+  test("under reduced motion: the player's setting reaches the light (the unit holds the claim that it is on and off at once)", async ({ page }) => {
     await page.emulateMedia({ reducedMotion: "reduce" })
     const j = await rolled(page, false)
     await dismissReward(page, false)
@@ -466,7 +468,7 @@ test.describe("mouse 1440x900", () => {
     await j.advance(17)
     await press(page, "[data-hist-show]", "Show on the map", false)
     await j.advance(17)
-    expect((await light(page))?.k, "under reduced motion the light is full on the first frame after the press").toBe(1)
+    expect((await light(page))?.k, "the setting reaches the light: full on the first frame drawn after the press").toBe(1)
   })
 
   test("the planner's bundle not in yet: nothing is drawn and that is said once; the place is still named", async ({ page }) => {
