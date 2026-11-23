@@ -29,6 +29,16 @@ import { journey } from "../dsl"
  *   M9  Esc does not bring the drawer back             → "a narrow window with a mouse…" at "Esc brings the drawer back"
  *   M10 a computer shows Map                           → "a computer has no Map" at "no Map press at 1440"
  *   M11 the look framed in the ordinary calm area       → "Map before Show…" at "nothing the look shows is under the pill"
+ * S2-R1 CARRIED HERE (23 Nov 2026; the orchestrator's rulings 3 and 5 for S3):
+ *   M13 the look ended by the width (`_czLookOn` refused at a computer's width) → "a look turned to landscape…" at "keeps
+ *       its light and its pill"
+ *   M14 a resize framing the look in the ordinary calm area (`ngClozeFrame` without `lookCalm`): NOT KILLED. Since M16's floor
+ *       the camera stays in landscape, so the turn back finds the place still framed from portrait and needs no glide; it would
+ *       need a resize to a smaller phone that pushes a move into the band between the ordinary foot (37 px) and the look's (64)
+ *   M16 a glide with no room (`ngLightFrame` without its 48 px floor) → the same test, at "the camera stays as it was" (it
+ *       pulled back some 900 times the roll's zoom into a 1 px box)
+ *   M15 60 ms of work a frame while a cloze holds the map → "the look's framing costs a frame…" at "a frame at the look's
+ *       framing"
  *   M12 the press at the practice page's 44 px floor   → "Map before Show…" at "the Map press is small and clear of the day's goal
  *       (`.ng-mslim .ng-czmap{min-height:0}` gone)          line"
  * NOT COVERED HERE: a real pinch (Playwright sends one finger; the pinch's start resets the tap, `czTap`); the hand held
@@ -154,6 +164,30 @@ const look = (page: Page) => page.evaluate((seat) => {
     pill: pr ? { x: pr.left + pr.width / 2, y: pr.top + pr.height / 2, h: pr.height, top: pr.top, bottom: pr.bottom, inMap: pr.top >= cv.top + R.top && pr.bottom <= cv.top + R.top + R.height && pr.left >= cv.left + R.left && pr.right <= cv.left + R.left + R.width, hit: document.elementFromPoint(pr.left + pr.width / 2, pr.top + pr.height / 2) === pill } : null,
     bars: document.querySelectorAll(`[data-cloze="${seat}"] [data-cz-row="ask"] .br`).length, shown: !!(c && c.shown), place: a._seatMember(a.nodeForKey(seat), "bottom") }
 }, SEAT)
+/** the place and its moves on screen against the look's calm area (`NG_LIGHT.lookCalm`: 34 / 38 / 34 / 64, its foot clear of
+ *  the pill), through the frame's own camera */
+const lookView = (page: Page) => page.evaluate((seat) => {
+  const a = (window as W).__neural, s = a._session, c = s && s.cz && s.cz.get(seat), place = a._seatMember(a.nodeForKey(seat), "bottom")
+  const sc = a.W / a.cam.vw, R = a._viewRect(), at = (i: number) => { const p = a.pairMid(a.nodes[i]); return { i, x: a.W / 2 + (p.x - a.cam.cx) * sc, y: a.H / 2 + (p.y - a.cam.cy) * sc } }
+  const calm = { l: R.left + 34, t: R.top + 38, r: R.left + R.width - 34, b: R.top + R.height - 64 }
+  const pts = [place, a.nodes[place].pi].filter((i) => i >= 0).concat(c ? c.rows.map((r: W) => r.idx) : []).map(at)
+  return { out: pts.filter((p: W) => p.x < calm.l || p.x > calm.r || p.y < calm.t || p.y > calm.b).map((p: W) => p.i), n: pts.length, W: a.W, H: a.H }
+}, SEAT)
+/** REAL FRAMES (as map-cloze-place.spec.ts's, S2-R1): one draw a `requestAnimationFrame` for 90 frames; the frame's median and
+ *  the main thread's lag (a ping every 4 ms through a MessageChannel: how long a press waits) */
+const realFrames = (page: Page) => page.evaluate(async () => {
+  const a = (window as W).__neural, raf = () => new Promise((r) => requestAnimationFrame(() => r(0)))
+  for (let k = 0; k < 15; k++) { await raf(); a.advance(1000 / 60) }
+  const ch = new MessageChannel(), lag: number[] = [], iv: number[] = []
+  let sent = 0, live = true
+  ch.port1.onmessage = () => { lag.push(performance.now() - sent); if (live) setTimeout(() => { sent = performance.now(); ch.port2.postMessage(0) }, 4) }
+  sent = performance.now(); ch.port2.postMessage(0)
+  let last = performance.now()
+  for (let k = 0; k < 90; k++) { await raf(); const t = performance.now(); iv.push(t - last); last = t; a.advance(1000 / 60) }
+  live = false
+  const med = (d: number[]) => { const s = [...d].sort((x, y) => x - y); return +s[s.length >> 1].toFixed(1) }
+  return { lag: med(lag), frame: med(iv), n: lag.length, zoom: +(a.cam.vw / (a.graphW * a.ROLL_ZOOM)).toFixed(2) }
+})
 const beats = (page: Page, name: string) => page.evaluate((n) => ((window as W).__neural.beats || []).filter((b: W) => b.beat === n).map((b: W) => ({ ...b })), name)
 /** the roll as a player would know it (last-rolls-places.spec.ts's): where it stands, its hand, its card, what is staged */
 const theRoll = (page: Page) => page.evaluate(() => {
@@ -273,6 +307,51 @@ test.describe("390x631, touch", () => {
     await press(page, "[data-master-bar] [data-cz-done]", "Done", true, false)
     await j.advance(400)
     expect(await page.evaluate(() => { const m = document.querySelector("[data-cz-map]") as HTMLElement | null; return !!m && !m.hidden }), "after Done there is no Map").toBe(false)
+  })
+})
+
+test.describe("390x631, touch: turned, and its frames", () => {
+  test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })
+
+  test("a look turned to landscape and back keeps its light and its pill; turned back, the place framed clear of the pill", async ({ page }) => {
+    const j = await setup(page, { live: "Half Guard Top" })
+    await openCloze(page, true)
+    await press(page, "[data-cz-map]", "Map", true)
+    await settle(j, page)
+    let v = await look(page)
+    expect([v.on, v.light && v.light.k, !!v.pill], "premise: a look, lit, its pill up").toEqual([true, 1, true])
+    const zoom0 = (await page.evaluate(() => { const a = (window as W).__neural; return a.cam.vw / (a.graphW * a.ROLL_ZOOM) }))
+    // landscape: the map is a strip (64 px at 844x390, under the look's own insets), too short to frame anything in
+    await page.setViewportSize({ width: 844, height: 390 })
+    await settle(j, page)
+    await j.advance(600)
+    v = await look(page)
+    expect([v.on, v.light && v.light.k, !!v.pill], "turned to landscape: the look keeps its light and its pill (M13)").toEqual([true, 1, true])
+    const zoomL = (await page.evaluate(() => { const a = (window as W).__neural; return a.cam.vw / (a.graphW * a.ROLL_ZOOM) }))
+    expect(zoomL, `and with no room to frame in, the camera stays as it was (${zoomL.toFixed(2)} times the roll's zoom, against ${zoom0.toFixed(2)}) (M16)`).toBeLessThanOrEqual(zoom0 * 1.2)
+    // turned back: the place and its moves framed clear of the pill again
+    await page.setViewportSize({ width: 390, height: 631 })
+    await settle(j, page)
+    await j.advance(600)
+    v = await look(page)
+    expect([v.on, v.light && v.light.k, !!v.pill && v.pill.inMap], "turned back: the look, lit, its pill in the map").toEqual([true, 1, true])
+    const lv = await lookView(page)
+    expect(lv.out, `turned back (${lv.W}x${lv.H}): the place and its moves framed in the visible map, clear of the pill`).toEqual([])
+  })
+
+  test("the look's framing costs a frame what the board's own view costs (real frames)", async ({ page }) => {
+    const j = await setup(page, { live: "Half Guard Top" })
+    await j.advance(600)
+    const board = await realFrames(page)
+    await openCloze(page, true)
+    await press(page, "[data-cz-map]", "Map", true)
+    await settle(j, page)
+    expect((await look(page)).on, "premise: a look").toBe(true)
+    const lk = await realFrames(page)
+    console.log("[frames] the board's own view", JSON.stringify(board), "the look's framing", JSON.stringify(lk))
+    // (S2-R1, ruling 5 for S3: on this box a phone's raster costs 17 to 49 ms a frame at every view, the roll's own included,
+    // tests/artifacts/_map_names_frametime.mjs --wide; the look's framing is held to the board's own view plus 15 ms)
+    expect(lk.frame, `a frame at the look's framing (median ${lk.frame} ms, ${lk.zoom} times the roll's zoom, a press waiting ${lk.lag} ms) costs what the board's own view costs (${board.frame} ms, ${board.lag} ms), plus 15 ms at most (M15)`).toBeLessThanOrEqual(board.frame + 15)
   })
 })
 

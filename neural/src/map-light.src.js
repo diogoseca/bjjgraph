@@ -123,6 +123,9 @@ export function ngLightDraw(app, ctx, F) {
 export function ngLightFrame(app, idxs, calm) {
   const T = app.camTarget, R = app._viewRect(), W = app.W || 1, H = app.H || 1, [l, t, r, b] = calm || NG_LIGHT.calm, minW = app.graphW * app.ROLL_ZOOM;
   const box = { left: R.left + l, top: R.top + t, width: Math.max(1, R.width - l - r), height: Math.max(1, R.height - t - b) };
+  // NO ROOM, NO GLIDE (S3, carrying S2-R1's ruling 3): a phone turned to landscape leaves the map a 64 px strip, under the calm
+  // area's own insets; the fit then took a 1 px box and pulled back some 900 times the roll's zoom. The camera stays as it was
+  if (box.width < 48 || box.height < 48) return false;
   const pts = idxs.map((i) => app.nodes[i]).filter(Boolean).map((n) => app.pairMid(n));
   if (!pts.length) return false;
   if (T && T.vw >= minW * 0.999) {
