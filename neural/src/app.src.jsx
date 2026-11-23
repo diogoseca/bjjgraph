@@ -10385,6 +10385,23 @@ class Component extends DCLogic {
   // …and the SECTION around it opens too (v1.196.1): a list opened inside a folded Your lists is
   // a list nobody can see. Made, added to, restored — every caller of this means "show it".
   _expandList(id) { if (id) { this._listExpand().add(id); this._revealLists(); } }
+  /**
+   * OPEN OR SHUT A LIST, AND ITS LIGHT WITH IT (LISTS-MENU-2): the row's press and its chevron's. The owner's rule (the name
+   * opens and shuts, as the chevron does) with the orchestrator's (an open list is lit on the map; shutting it puts the
+   * light out), so the row's older use survives. With several lists open, THE LAST ONE OPENED is the lit one: a press is
+   * a question about that list, and the map answers the newest question. Shutting a list that is not the lit one leaves
+   * the light where it is. A list that opened itself (made, added to, restored: `_expandList`) is open and NOT lit: only a
+   * player's press lights. The light is set BEFORE the one render `_toggleListExpand` makes, so a chevron pressed by key
+   * keeps the focus (`_listOpenFocusPending`) and the camera's flight is the light's own (`setFocusIdxSet`).
+   */
+  _toggleListOpen(id) {
+    if (!this._listsMap()[id]) return;
+    if (!this._listExpanded(id)) {
+      const idxs = this.listIdxs(id);
+      if (idxs.length) { this.clearFocus(); this._listFocusId = id; this.setFocusIdxSet(idxs); }
+    } else if (this._listFocusId === id) this.clearFocus();
+    this._toggleListExpand(id);
+  }
   _toggleListExpand(id) {
     const s = this._listExpand();
     if (s.has(id)) s.delete(id); else s.add(id);
@@ -11621,19 +11638,23 @@ class Component extends DCLogic {
         row.addEventListener("mouseenter", () => { if (this._listFocusId !== id) row.style.background = "rgba(255,255,255,.045)"; });
         row.addEventListener("mouseleave", () => { if (this._listFocusId !== id) row.style.background = "transparent"; });
       }
-      // THE ROW LIGHTS THE LIST, ITS NAME INCLUDED (LISTS-MENU, U208 a; the owner, 23 Nov: "3 vertical dots? i think
-      // that's more like list options for this, which is like CRUD, so duplicate, share, rename, delete"). The name
-      // renamed from v1.99.3 ("I can't seem to click to rename my lists") to v1.294.0, then the pencil; both are gone:
-      // rename is the first item of the row's ⋮ menu, and a press on the name does what a press on the row does.
+      // A PRESS ON THE ROW, ITS NAME INCLUDED, OPENS OR SHUTS THE LIST, EXACTLY AS ITS CHEVRON DOES (LISTS-MENU-2; the
+      // owner, 23 Nov: "pressing the list name is the same as pressing the expand colpase icon"). His rule replaced the
+      // orchestrator's of the same day (the name lighting the list); the light is kept by `_toggleListOpen`: an open list is
+      // lit, shutting it puts the light out. The name renamed from v1.99.3 ("I can't seem to click to rename my lists") to
+      // v1.294.0, then the pencil; rename is the first item of the row's ⋮ menu now.
       // Controls own their clicks (the closest() guard), and a click that lands while, or just after, the editor is open
       // must NOT light: blur fires before click, so by click time the editor is already committed and gone, and without
       // the closed-at latch the same click would light the list under the caret.
       row.addEventListener("click", (e) => {
         const t = e.target;
         if (t && t.closest && t.closest("button,input")) return;
+        // the row's own LINE only: a press on an open list's items (between their controls) must not shut the list under
+        // the finger that is reading it
+        if (t && t.closest && t.closest("[data-list-items]")) return;
         if (this._listEditId === id) return;
         if (Date.now() - (this._listEditClosedAt || 0) < 400) return;
-        this.focusList(id);
+        this._toggleListOpen(id);
       });
       const main = document.createElement("div");
       // LIGHTING THE LIST IS THE ROW'S OWN PRESS, so the row keeps every point that is not a control (LISTS-S1-R1 measured
@@ -11697,30 +11718,13 @@ class Component extends DCLogic {
         nameEl.style.cssText = "display:block;min-width:0;font-size:13px;font-weight:600;color:#c4cde0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
         nameEl.textContent = l.name;
         main.appendChild(nameEl);
-        // THE COUNT LINE IS THE DISCLOSURE (v1.99.4). It used to be a second way to light the
-        // list — a duplicate of the row's own click, which is still there. "3 techniques" is
-        // the natural place to ask *which* three, so it now opens the list in place: chevron,
-        // aria-expanded, aria-controls, and a real band to press.
-        const open = document.createElement("button");
-        open.type = "button";
-        open.setAttribute("data-list-open", id);
-        open.setAttribute("aria-expanded", expanded ? "true" : "false");
-        open.setAttribute("aria-controls", itemsId);
-        open.setAttribute("aria-label", (expanded ? "Hide" : "Show") + " the techniques in “" + l.name + "”");
-        open.title = expanded ? "Hide these techniques" : "Show these techniques";
-        // the count reads like Explore's "(6)", and the chevron sits where its sections put it
-        // a family row prints its count bare (10.5px) and puts the chevron last, at 10px.
-        // THE GLYPHS STAY SMALL, THE HIT AREA GROWS (`.ng-lists-new`'s pattern): 10.5px text and
-        // a 10px chevron are an 18x12 target if you let them size the button, which is under the
-        // pane's own 24px figure and under WCAG 2.2 AA. The padding buys the target without
-        // touching the type, and costs the row nothing — its 24px controls already set 38px.
-        // On a phone a 44px box of its own (LISTS-MENU, the orchestrator's ruling 4; first ruled for Slice 2): the row is
-        // 44px tall there, so the box takes its full height and no negative margin; the count and chevron keep their size.
-        open.style.cssText = "display:flex;align-items:center;gap:7px;flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;" + (thumb ? "justify-content:center;min-width:44px;height:44px;padding:0 6px;margin:0;" : "padding:6px 5px;margin:-6px -5px;") + "border-radius:7px;";
-        open.innerHTML = '<span data-list-count="' + l.items.length + '" style="font-size:10.5px;color:#7e8aa3;">' + l.items.length + '</span>' +
-          '<span data-list-chevron="1" style="flex:none;display:inline-flex;">' + this._caretHTML(expanded) + '</span>';
-        open.addEventListener("click", () => this._toggleListExpand(id));
-        main.appendChild(open);
+        // THE COUNT STAYS BESIDE THE NAME, as Explore's family rows print theirs (10.5px, bare); it is text now. Its
+        // chevron moved to the row's right edge, where Explore's sit (LISTS-MENU-2, `chev` below).
+        const count = document.createElement("span");
+        count.setAttribute("data-list-count", String(l.items.length));
+        count.style.cssText = "flex:none;font-size:10.5px;color:#7e8aa3;";
+        count.textContent = String(l.items.length);
+        main.appendChild(count);
       }
       row.appendChild(main);
 
@@ -11742,7 +11746,7 @@ class Component extends DCLogic {
       dots.setAttribute("aria-label", "Actions for “" + l.name + "”");
       dots.title = "Rename, duplicate, share or delete";
       dots.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="5" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="12" cy="19" r="2"></circle></svg>';
-      dots.style.cssText = "flex:none;width:" + (thumb ? 44 : 24) + "px;height:" + (thumb ? 44 : 24) + "px;" + (thumb ? "margin-right:-10px;" : "") + "pointer-events:auto;cursor:pointer;font-family:inherit;padding:0;border:0;border-radius:" + (thumb ? 11 : 7) + "px;background:transparent;color:#9ab0e0;display:inline-flex;align-items:center;justify-content:center;line-height:1;transition:background .15s,color .15s;";
+      dots.style.cssText = "flex:none;width:" + (thumb ? 44 : 24) + "px;height:" + (thumb ? 44 : 24) + "px;" + (thumb ? "margin-right:-8px;" : "") + "pointer-events:auto;cursor:pointer;font-family:inherit;padding:0;border:0;border-radius:" + (thumb ? 11 : 7) + "px;background:transparent;color:#9ab0e0;display:inline-flex;align-items:center;justify-content:center;line-height:1;transition:background .15s,color .15s;";
       // the hover wash on a pointer that hovers only: a phone emulates the mouse's enter at a tap and never its leave, so
       // the tint stayed on ⋮ after its menu had closed (seen in the first build's screens)
       if (!thumb) {
@@ -11756,6 +11760,22 @@ class Component extends DCLogic {
         this.openListMenu(id, dots, e.detail === 0);
       });
       row.appendChild(dots);
+      // THE CHEVRON AT THE ROW'S RIGHT EDGE, WHERE EXPLORE'S SIT (LISTS-MENU-2; the owner: "sometimes the chverons are on the
+      // lef tsometime right"). The same glyph and ink (`_caretHTML`, `.ng-caret`), pointing right shut and down open. Its
+      // glyph's right edge is the section heads' column: 25px in from the panel's right edge at 1440 and at 390 (measured;
+      // lists-menu.spec.ts pins the two equal), which is the row's 22px right padding less 10px here and, on a phone,
+      // a 44px box reaching the row's edge with its glyph 12px inside it. The ⋮ is the control just left of it.
+      const chev = document.createElement("button");
+      chev.type = "button";
+      chev.setAttribute("data-list-open", id);
+      chev.setAttribute("aria-expanded", expanded ? "true" : "false");
+      chev.setAttribute("aria-controls", itemsId);
+      chev.setAttribute("aria-label", (expanded ? "Hide" : "Show") + " the techniques in “" + l.name + "”");
+      chev.title = expanded ? "Hide these techniques" : "Show these techniques";
+      chev.innerHTML = this._caretHTML(expanded);
+      chev.style.cssText = "flex:none;display:inline-flex;align-items:center;justify-content:flex-end;pointer-events:auto;cursor:pointer;font-family:inherit;border:0;background:transparent;color:#5d6883;border-radius:7px;" + (thumb ? "width:44px;height:44px;padding:0 12px 0 0;margin-right:-22px;" : "width:24px;height:24px;padding:0;margin-right:-10px;");
+      chev.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this._toggleListOpen(id); });
+      row.appendChild(chev);
       // ── the disclosure body: the techniques themselves ──
       // A CHILD of the row (which is flex-wrap), not a sibling, so the list reads as one card
       // and Drill / Share / × keep their own line above it. No overflow of its own: the pane
