@@ -987,13 +987,17 @@ class Component extends DCLogic {
    * frame's worth (1 to 0.96 at 60 Hz) and won it back the next: a flicker, found when a unit mutant (ML6) passed for the
    * wrong reason. Pinned by "a full light stays full, frame after frame" (tests/map_light.test.mjs).
    */
+  // OUT AT ONCE WHEN THE GAME STARTS AGAIN (S1-R1, the orchestrator's ruling 4 on the reader's finding 4): "never over a
+  // running game" beats "out over 400 ms". Every way the game resumes (a move played, ▶ on a row, the countdown let go) and
+  // a film taking the map left the layer fading over the running roll for 17 to 23 frames (the reader, at 60 Hz). The fade
+  // out is for the ways out that leave the game held: the row collapsed, Last rolls left, the hold's end.
   _drawLight(ctx, F) {
     const n = this._lightOf(), wall = performance.now(), game = (this.now || 0) * 1000;
     if (n) this._lightAt = n.idx;
     const dt = Math.max(wall - (this._lightT == null ? wall : this._lightT), game - (this._lightS == null ? game : this._lightS));
     this._lightT = wall; this._lightS = game;
-    const was = this._lightK || 0, to = n ? 1 : 0;
-    const k = this._lightK = this._reducedMotion() ? to : to > was ? Math.min(1, was + dt / NG_LIGHT_IN_MS) : to < was ? Math.max(0, was - dt / NG_LIGHT_OUT_MS) : was;
+    const was = this._lightK || 0, to = n ? 1 : 0, running = !this.paused || !!this._replay;
+    const k = this._lightK = running ? 0 : this._reducedMotion() ? to : to > was ? Math.min(1, was + dt / NG_LIGHT_IN_MS) : to < was ? Math.max(0, was - dt / NG_LIGHT_OUT_MS) : was;
     this._lastLight = null;
     const at = k > 0.001 && this._lightAt != null ? this.nodes[this._lightAt] : null;
     if (!at) return;

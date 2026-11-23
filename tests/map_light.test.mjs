@@ -18,8 +18,12 @@
 //   ML12 three of a lit position's hand, not all of it                → "a lit position's moves are the hand it deals…"
 //   ML13 a light at its target steps down (the first cut's flicker)     → "a full light stays full, frame after frame"
 // S1-R1 (23 Nov 2026, the reader of PR #447 and the orchestrator's rulings 2 and 4):
+//   ML14 the fade kept over a running game (no "out at once")           → "out at once when the game starts again…"
 //   ML16 the look not tied to its row (`_shownRow` always yes)          → "the look ends with its row…"
 //   ML17 Last rolls not read (`_viewMode` dropped from `_shownRow`)      → "the look ends with its row…", at "Explore"
+// ML6 SINCE S1-R1 SURVIVES, AND IS COVERED TWICE: with `paused` dropped from `_lightOf`, ruling 4's own line in `_drawLight`
+// (`running`: the game runs, so the strength is 0) still puts out a light over a running game; ML14 is that line's killer.
+// Both guards stay: `_lightOf` also decides which place the fade keeps (`_lightAt`) and when `light_cold` is said.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { resolve, dirname } from "node:path";
@@ -102,6 +106,18 @@ test("never under a phone's open drawer (it is the screen there, and no name is 
   assert.equal(phone.frame(500), null, "a phone with its drawer open: nothing");
   const desk = lit({ W: 1440, drawer: true });
   assert.equal(desk.frame(500).k, 1, "a computer's drawer stands beside the map: lit");
+});
+
+test("out at once when the game starts again, and when a film takes the map; the fade out is for a hold that ends held", () => {
+  const { a, frame } = lit();
+  assert.equal(frame(400).k, 1, "premise: held, lit in full");
+  a.paused = false;
+  assert.equal(frame(16), null, "the game runs: out on the very next frame, not over 400 ms");
+  assert.equal(a._lightK, 0, "and its strength is 0, so nothing fades back in from where it was");
+  const f = lit();
+  assert.equal(f.frame(400).k, 1, "premise: lit again");
+  f.a._replay = { ts: 1 };
+  assert.equal(f.frame(16), null, "a film plays: out at once (the clock is held for the film)");
 });
 
 test("the look ends with its row, or with Last rolls: the name goes, and the light fades out over 400 ms", () => {

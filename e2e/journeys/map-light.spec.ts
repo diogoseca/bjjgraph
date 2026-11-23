@@ -205,6 +205,8 @@ const watch = (page: Page) => page.evaluate(() => {
   a._drawLight = (ctx: W, F: W) => { f(ctx, F); a.__lk.push([a.paused ? 1 : 0, a._replay ? 1 : 0, a._lastLight ? +a._lastLight.k.toFixed(3) : 0, a._shown ? 1 : 0]) }
 })
 const watched = (page: Page) => page.evaluate(() => { const a = (window as W).__neural; a.advance(1000 / 60); return a.__lk as number[][] })
+/** the first frame of the running game (or of a film) and the frame before it, from what `watch` saw */
+const atResume = (f: number[][]) => { const i = f.findIndex((r) => r[0] === 0 || r[1] === 1); return { before: i > 0 ? f[i - 1] : null, first: i >= 0 ? f[i] : null } }
 
 for (const [label, vp] of [["mouse 1440x900 dpr 1", { viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1 }],
   ["mouse 1440x900 dpr 2", { viewport: { width: 1440, height: 900 }, deviceScaleFactor: 2 }],
@@ -289,6 +291,49 @@ test.describe("mouse 1440x900", () => {
     await j.advance(450)
     expect(await light(page), "and the light is out").toBeNull()
   })
+
+  for (const how of ["a move played from the hand", "▶ on a row", "a film started", "the round's countdown let go"] as const) {
+    test(`the light goes out AT ONCE when the game starts again: ${how}`, async ({ page }) => {
+      let j: W, ts = 0
+      if (how === "a film started") {
+        j = await rolled(page, false)
+        // a roll filed in Last rolls has a film (its ⟲): the roll is filed as the board is staged again (as history-replay's)
+        await page.evaluate(() => { const a = (window as W).__neural; a.rollFromPosition(a.currentPos, true) })
+        await j.advance(1500)
+        await dismissReward(page, false)
+        ts = await page.evaluate(() => ((window as W).__neural._pastRolls || [])[0]?.ts || 0)
+        expect(ts, "premise: a roll is filed, with its film").toBeGreaterThan(0)
+      } else j = await rolled(page, false)
+      if (how === "the round's countdown let go") {
+        await page.evaluate(() => (window as W).__neural.endRound("win", "Armbar"))
+        await j.advance(3800)
+      }
+      // (the film's case shows the staged board's own row: a filed roll's rows sit in its group; its key is read once Last
+      // rolls is drawn)
+      let key = "Mount|Top"
+      if (how === "a film started") {
+        await press(page, ".ng-logo", "open the drawer", false)
+        if (!(await page.locator("[data-hist-current]").first().isVisible())) await press(page, '[data-view="history"]', "Last rolls", false)
+        key = await page.evaluate(() => document.querySelector("[data-hist-current]")?.getAttribute("data-hist") || "")
+        expect(key, "premise: the staged board has its row").not.toBe("")
+      }
+      await show(page, false, key)
+      await j.advance(1200)
+      expect((await light(page))?.k, "premise: lit in full, the game held").toBe(1)
+      await watch(page)
+      await j.advance(17)
+      if (how === "a move played from the hand") {
+        const t = await page.evaluate(() => { const a = (window as W).__neural; return (a.optionIdxs || []).map((i: number) => a.nodes[i].t as string)[0] || "" })
+        await j.pick(t)
+      } else if (how === "▶ on a row") await press(page, '[data-hist="Mount|Top"] .hplay', "▶, roll from Mount", false)
+      else if (how === "a film started") await press(page, `[data-replay-roll="${ts}"]`, "the filed roll's film", false)
+      else await page.keyboard.press("Escape")
+      const r = atResume(await watched(page))
+      expect(r.first, "premise: the game runs again (or a film plays)").not.toBeNull()
+      expect(r.before && r.before[2], "lit in full up to the last frame of the held game").toBe(1)
+      expect(r.first![2], `${how}: out on the first frame, not fading over the running game`).toBe(0)
+    })
+  }
 
   test("under reduced motion the light is full on the first frame after the press", async ({ page }) => {
     await page.emulateMedia({ reducedMotion: "reduce" })
