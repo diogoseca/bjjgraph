@@ -103,7 +103,7 @@ focuses its close button.
 Reference pages keep their Videos tile and player.
 
 One close icon (D-338): the card's and hand's ghost ✕, on every section's corner. **U131 b2:** a closed part leaves
-only its message, 5 s (bold name, Settings link, Undo; press rule in `reader.src.js`); Settings → Rolling
+only its message, 5 s (bold name, Settings link, Undo; press rule in `reader.src.js`); Settings → Articles
 (`readerSection.*`, per key) or its Contents row restores it; a one-landing tap keeps its label. Contents floats left, taking no space, hidden at height ≤500px or under 1,350px free
 width (U97 b); its rows navigate and dim what is closed, its heading reads role first ("Escaping Loop Choke from Half
 Guard"); the Moves tray ends short of it. Arrival centres the node above sections; scrolled prose covers it.

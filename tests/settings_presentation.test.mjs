@@ -166,7 +166,8 @@ test("unchanged real controls retain settings keys, effects, direct tabs and key
   const current=card.querySelector('[role="tablist"]'); current.fire("keydown",{key:"ArrowRight"}); assert.equal(app._settingsTab,"flashcards");
   // U139 a (v1.261.1): a signed-in player reaches the email switch only while it is stored on, so this
   // presses Off; pressing On is the flipped tests' claim below (the email live, v1.259.1's Settings).
-  app.user={email:"test@example.invalid"}; app.settings.emailDigest=true; assert.equal(app.openSettings("notifications"),true); clickText(card,"Off"); assert.equal(app.get("emailDigest"),false);
+  // SET1: every group is on the one page, so "Off" is pressed in the email's own row (the opponent's comes first).
+  app.user={email:"test@example.invalid"}; app.settings.emailDigest=true; assert.equal(app.openSettings("notifications"),true); clickText(card.querySelector("[data-digest-setting]"),"Off"); assert.equal(app.get("emailDigest"),false);
   assert.equal(app.openSettings("modifiers"),true); assert.match(card.textContent,/No modifiers yet/);
   assert.equal(app._session,session); assert.equal(app._landQ,question);
 });
@@ -206,8 +207,10 @@ const tabIds = (card) => card.querySelectorAll('[role="tab"]').map((t) => t.getA
 const selectedTab = (card) => card.querySelector('[role="tab"][aria-selected="true"]').getAttribute("data-settings-tab");
 const panelOf = (card) => card.querySelector('[role="tabpanel"]').getAttribute("aria-labelledby");
 const key = (card, k) => card.querySelector('[role="tablist"]').fire("keydown", { key: k });
-const FIVE = ["flashcards", "rolling", "modifiers", "notifications", "shortcuts"];
-const FOUR = ["flashcards", "rolling", "modifiers", "shortcuts"];
+// SET1 (v1.295.3): seven groups of one page, the five old ids kept and `reading` and `app` added (NG_SETTINGS_TABS).
+const FIVE = ["flashcards", "rolling", "reading", "app", "modifiers", "notifications", "shortcuts"];
+const FOUR = ["flashcards", "rolling", "reading", "app", "modifiers", "shortcuts"];
+const digest = (card) => card.querySelector("[data-digest-setting]");
 // v1.259.1's own words, copied from that version's settings-ui.src.js, so "to the letter" has a fixed oracle.
 const V1259_ROW = "After a day you reviewed something: your techniques, your Game Knowledge, your streak — mailed to player@example.com.";
 const V1259_GUEST = "The training-day email needs a signed-in account — that’s where it would be sent. Sign in from the badge at the foot of the sidebar to turn it on.";
@@ -244,7 +247,7 @@ test("U139 a: an account with the email stored on keeps the tab and the row, is 
   assert.equal(selectedTab(card), "notifications"); assert.equal(panelOf(card), "ng-stab-notifications");
   assert.equal(rowSub(card), V1259_ROW + " " + UNSENT, "the row says, in plain words, that no email is sent yet");
   assert.equal(calls.saved, 0, "opening and choosing the tab write nothing"); assert.equal(app._settingsAt.emailDigest, undefined);
-  clickText(card, "Off");
+  clickText(digest(card), "Off");
   assert.equal(app.get("emailDigest"), false); assert.equal(calls.saved, 1, "the player's own press is the only write");
   // this opening keeps the row, so the press visibly took; the tab is gone from the next opening on
   assert.deepEqual(tabIds(card), FIVE); assert.ok(card.querySelector("[data-digest-setting]"), "the row stays until Settings closes");
@@ -284,8 +287,8 @@ test("flipped: with NG_DIGEST_LIVE true, Settings are v1.259.1's to the letter",
   }
   const { app, card } = fixture(LiveComponent);
   app.user = { email: "player@example.com" };
-  await app.openSettings("notifications"); clickText(card, "On"); assert.equal(app.get("emailDigest"), true, "On stores the key the worker reads");
-  app.closeModal(); assert.equal(app.openSettings("notifications"), true); clickText(card, "Off"); assert.equal(app.get("emailDigest"), false);
+  await app.openSettings("notifications"); clickText(digest(card), "On"); assert.equal(app.get("emailDigest"), true, "On stores the key the worker reads");
+  app.closeModal(); assert.equal(app.openSettings("notifications"), true); clickText(digest(card), "Off"); assert.equal(app.get("emailDigest"), false);
   assert.deepEqual(tabIds(card), FIVE, "Off hides nothing while the email is live");
   const guest = fixture(LiveComponent);
   assert.equal(await guest.app.openSettings("notifications"), true); assert.deepEqual(tabIds(guest.card), FIVE);
@@ -319,4 +322,49 @@ test("the Flashcards tab: Daily goal, Answer mode (Auto chosen for nothing store
   assert.equal("mcMode" in app.settings, false, "rendering wrote nothing");
   clickText(card, "Multiple choice"); assert.equal(app.get("mcMode"), "mc", "a press writes the choice");
   clickText(card, "Front Back cards"); assert.equal(app.get("mcMode"), "classic", "Front Back cards is the stored classic");
+});
+
+// SET1 (v1.295.3; the owner, 23 Nov 2026: "why is article settings inside rolling? one can just have landed in an article and not be
+// rolling"; ruled SET1-GO): SETTINGS IS ONE PAGE OF GROUPS, filed by what a setting is about. Whatever group an opening names, every
+// group is drawn into the one panel, in NG_SETTINGS_TABS' order, the opening's group is the lit one, and the article's sections sit
+// in Articles, not under Rolling. The owner's note is first and word for word, with no emoji. Video is ONE switch (the film's row
+// under Rolling is gone): it writes the Video section's own setting, and with no reader yet `landFilm` too, as the retired row did.
+// Layout, the rail and the chips, the presses by mouse and by touch and the edges at four sizes: e2e/journeys/settings-tabs.spec.ts.
+const NOTE = "BJJ Graph is still being actively built — the success rates and probabilities you see are being continuously fine-tuned and will keep improving.";
+test("SET1: one page of groups in their order, each old id lighting its own; articles under Articles; the note word for word", async () => {
+  const {app,card}=fixture();
+  for (const id of FOUR) {
+    assert.equal(await app.openSettings(id), true, id);
+    const groups = card.querySelectorAll("[data-settings-group]").map((g) => g.getAttribute("data-settings-group"));
+    assert.deepEqual(groups, FOUR, "every group on the page, in order, opened at " + id);
+    assert.equal(selectedTab(card), id, "the opening's group is lit"); assert.equal(panelOf(card), "ng-stab-" + id);
+    assert.equal(card.querySelectorAll('[role="tabpanel"]').length, 1, "one panel");
+  }
+  const group = (id) => card.querySelector('[data-settings-group="' + id + '"]');
+  const inGroup = (sel) => FOUR.find((id) => group(id).querySelector(sel));
+  assert.equal(inGroup("[data-section-settings]"), "reading", "the article's sections are under Articles");
+  assert.equal(group("rolling").querySelector("[data-section-setting]"), null, "and nothing of them under Rolling");
+  assert.equal(inGroup("[data-settings-gi]"), "app", "gi / no-gi under General");
+  assert.equal(inGroup("[data-answer-mode]"), "flashcards"); assert.equal(inGroup("[data-settings-start]"), "rolling");
+  assert.equal(inGroup('[data-layer-toggle="card"]'), "rolling"); assert.equal(inGroup('[data-layer-toggle="hand"]'), "rolling");
+  assert.equal(card.querySelector('[data-layer-toggle="film"]'), null, "the film's own row is gone: Video is the one switch");
+  assert.deepEqual(card.querySelectorAll('[role="tab"]').map((t) => t.textContent), ["Practice", "Rolling", "Articles", "General", "Your odds", "Keyboard"]);
+  const notes = card.querySelectorAll(".ng-set-note").map((n) => n.textContent);
+  assert.deepEqual(notes, [NOTE, NOTE], "the owner's note, word for word: the head's copy and the phone's, which scrolls");
+  assert.ok(!/⚠/.test(card.textContent), "no emoji");
+  assert.ok(/Opponent/.test(group("rolling").textContent) && !/Rolling simulation/.test(card.textContent), "the row is called Opponent");
+});
+test("SET1: the Video row is one switch for the article's video and the film during a roll", async () => {
+  const {app,card,calls}=fixture();
+  await app.openSettings("reading");
+  const box = () => card.querySelector('[data-section-setting="videos"]');
+  assert.ok(box().closest("label").textContent.includes("also the film during a roll"));
+  box().checked = false; box().fire("change");
+  assert.equal(app.get("readerSection.videos"), false, "the Video section's own setting");
+  assert.equal(app.get("landFilm"), false, "and, with no reader built yet, the film's, as the retired row wrote then");
+  const layers = calls.layers;
+  app._reader = { sync(){ calls.synced = (calls.synced || 0) + 1; }, wantsMedia: () => false };
+  await app.openSettings("reading"); box().checked = true; app._readerGraded = () => { calls.graded = 1; }; box().fire("change");
+  assert.equal(app.get("readerSection.videos"), true); assert.equal(app.get("landFilm"), false, "with a reader, the film's key is left alone");
+  assert.equal(calls.synced, 1); assert.equal(calls.graded, 1, "turning it on settles a pinned landing"); assert.equal(calls.layers, layers);
 });

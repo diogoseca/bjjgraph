@@ -20889,6 +20889,181 @@ The owner, looking at the rows on production: "pressing the list name is the sam
 - **The first runs of 5 of these mutants proved nothing.** Port 8133 was held when they started, so no test ran; the
   runner now waits for the port and names the holder. They were run again and are counted only from that run.
 
+## v1.295.2 — An item's actions behind three dots: Share · Move up · Move down · Remove from list (LISTS-MENU-2 part 2; the owner, 23 Nov 2026)
+
+**Why.** The owner, 23 Nov, looking at a list's items on production: "tat x icon on the list items is very consufing too,
+make it a 3 dots icon ads well which includes sharing, remove from list, move up, move down (the list order)".
+
+**What changed** (`_listItemRow`, `openItemMenu`, `_itemMenuChoose`, `shareListItem`, `moveListItemBy`, `removeListItem`'s
+Undo; `_openAnchoredMenu` is now the one builder of both menus):
+- **Each item's × is a ⋮** (`[data-list-item-menu]`), 44 px on a phone, 24 px on a desktop. ▶ stays on the row; on a
+  phone it is a 44 px box with its 24 px chip drawn inside (`.ng-actchip.ng-thumb`, helmet.html).
+- **Its menu** (`[data-list-item-menu-open]`, the same builder as the list's, in the star picker's slot):
+  Share · Move up · Move down · Remove from list. Remove is last, in the warning ink; Move up and Move down are disabled
+  at the list's ends, shown, and skipped by the keys. The move step's "Move to…" takes its place before Remove when it
+  lands.
+- **Share** shares the technique's own page, `location.origin + _nodeUrlPath(idx)` (e.g. `/Transitions/<name>`; a
+  position's `/Top` page): the share sheet on a phone, else the clipboard and "Link copied", else a selectable box under
+  the item.
+- **Remove from list gains a way back.** It is two presses deep now, not a stray ×: the Undo row (one slot, its kind
+  "remove", 90 s) puts the item back at its place. Emptying the list keeps the delete's own Undo, which brings the
+  whole list back.
+- **Move up / Move down reorder the list ON THIS DEVICE ONLY.** The rule that syncs an order is ruled (ORDER-OK: a
+  per-list order stamp, top-level `listOrderAt`, the order following the later stamp) and lands WITH the move step's
+  `listItemAt`, under the same proofs. Until then nothing writes a stamp and the list's `t` is not bumped (`t` is the
+  panel's recency order; a Move up must not make the list jump under the finger). The account's other devices keep
+  their own order; the cloud holds whichever order is pushed with the next other change.
+- Telemetry, counts only: `neural_list_item_shared {}`, `neural_list_item_reordered {dir}`,
+  `neural_list_item_removed {via}`.
+
+**The journeys.** `e2e/journeys/lists-item-menu.spec.ts` (new):
+- 1440 by mouse: the × gone and ▶ kept; the menu's four items; Move up disabled first, Move down disabled last; a reorder
+  with no `t` and no stamp; Share's link is the technique's page; Remove, then Undo back at its place;
+- keys: a key opens it on Share; the arrows skip a disabled item; a reorder by key keeps focus on the item's ⋮;
+- 390x631 by touch: ▶ and ⋮ as 44 px targets, overlapping nothing, centres 44 px apart; the last item's menu whole on
+  the screen; every item by touch; Undo a thumb tall.
+
+`lists-disclosure.spec.ts` removes through the menu: "Remove from list, in the item's ⋮, takes that technique out of
+THAT list…".
+
+**Mutants** (each rebuilt for real and run against its journeys; a neutral control green, 3 of 3). All 11 red:
+- the item's ⋮ opening nothing;
+- Move up enabled at the top; Move down moving up;
+- a reorder bumping the list's `t`;
+- Remove without its Undo; the Undo putting the item back at the end;
+- Share sharing the list's link instead of the technique's page;
+- the item's ⋮ at 24 px on a phone; ▶ without its thumb box on a phone;
+- the keys landing on a disabled item;
+- a key-made reorder dropping the focus.
+None survived.
+
+**Bytes** (gzip -9, like the gate; dev v1.295.1's bundle and this one, both built here from source):
+- `neural.js` 238,848 → 239,954 B (+1,106) and `neural.css` 12,989 → 13,047 B (+58): **+1,164 B** eager.
+- The gate reads 379,517 B, +2,085 B over the PAY-L3 baseline of 377,432 B (dev v1.295.1's own share is +921).
+- No baseline moved.
+
+**One gate artifact touched, with its reason.** `validate:surfaces` stopped the first `ci:validate`: `shareListItem` looks
+up a node (`this._idIndex.get(`) without the ruleset mask. It is named in `tests/artifacts/ruleset_surfaces.json` beside its
+six sibling list entries, on that file's own rule: a player's list is their record, not material the app deals; the row
+stays in every ruleset and so does the page it shares. 26 of 26 after.
+
+**Runs, all local, under the lock:**
+- dev 705e9bde4 merged in, the lists area plus `seat-star`: **122 of 122**;
+- before the merge, with the list menu's journeys: 44 of 44.
+
+## v1.295.3 — Settings, one page of groups with room to breathe (SET1; the owner, 23 Nov 2026)
+
+**The owner, 23 Nov 2026:** "in settings, why is article settings inside rolling? one can just have landed in an article and not
+be rolling, please improve the org of settings, and also the UX and filling and distance to the browser edge max width ofc but
+currently it's too thin and doesnt allow breathing very much". Part A (the plan, with real screens:
+`artifacts/briefing/img/settings/today-*`, `new-*`, `alt-*`, `row-*`) was ruled SET1-GO: pick A, one PR.
+
+**Measured before (the preview, v1.294.0–v1.295.0):**
+- a 440 px card at every desktop width: 500 px from each side at 1440, 317 at 1074 (his window), 180 at 800;
+- the Rolling tab 3,048 px tall in a 509–560 px window (8 screens on a phone), 1,415 px of it the 30 article sections, sitting
+  flush against the bottom-layer rows with no gap or rule;
+- help lines of 34–64 characters;
+- 23 controls under 44 px at every size (choices 34, the ✓ boxes 24, the slider 16);
+- at 390x631 the card 667 px tall, running 18 px off the top and the bottom of the screen, with a boxed ⚠️ note taking about
+  95 of the 631 px.
+
+**What changed:**
+- **Groups by what a setting is about** (`NG_SETTINGS_TABS`, app.src.jsx; ruled names): Practice (daily goal, answer mode) ·
+  Rolling (Opponent, where the roll starts, hide moves, questions while you roll, answer time, danger animation; "On screen
+  during a roll": question card, your moves) · **Articles** (the 30 sections) · **General** (gi / no-gi, sound, volume) · Your
+  odds (modifiers) · Email (as before, only when drawn) · Keyboard. The five old ids are kept, `reading` and `app` are new, and
+  no settings key is added, renamed or deleted (§6.6).
+- **One page, its group list always in view:** a 176 px rail beside the panel from 600 px, a row of chips (the old tab row's
+  element, fades and keys) under 600. A press scrolls to its group, the group in view is the lit one (`aria-selected`), an
+  opening by any id lands on its group, and a redraw keeps the panel where it was. The press HOLDS its light until the
+  player's own next scroll: without that, a short group ("Your odds", "Email") lost its light on arrival to the next heading
+  sharing the top third of the panel (mutant `hold-ends-on-arrival`).
+- **The frame:**
+
+  | | 1440 | 1074 | 800 | 390 |
+  |---|---|---|---|---|
+  | width | 760 | 760 | 736 | 390 (a full-screen sheet) |
+  | from the sides | 340 | 157 | 32 | 0 |
+  | from the top / bottom | 48 | 48 | 32 | 0 |
+
+  Height is min(880, the window − 2 × edge). The spacing token is 4 px. Every control is 40 px (44 on a phone); the article
+  rows are 40/44 px with the whole row the target. All prose is held to 60ch: at most 76 characters a line on a wide screen, pinned. There is a faint
+  grain over the card's own gradient, and no emoji.
+- **One Video switch** (SET1-GO 2): "Videos during play" (HIDESEC2 had made it write `readerSection.videos`) and the Articles'
+  Video box were two switches for one key. The Video row under Articles is the one switch, says "also the film during a
+  roll", and with no reader built yet writes `landFilm` too, as the retired row did.
+- **The owner's note stays first, word for word** (SET1-GO 4), as a quiet amber-ruled line. On a phone it is in the panel
+  and scrolls with the settings.
+- **Opponent** is the row once called "Rolling simulation" (its two lines merged, words kept).
+- **The reader's "Settings" in a hidden part's message** opens on Articles, or on Rolling for Moves and Questions.
+
+**Corrections and findings:**
+- **Back does not close the phone sheet** (correction of Part A's claim): Back steps the page history, and Quartz's router
+  remounts the app on that entry, as it did before SET1. A Back that only closes Settings needs a history entry of its own
+  and a popstate that pre-empts the router's: the history seam BGCLOSE (#446) just shipped. It is not in this PR (SET1-PUSH 1;
+  noted for a follow-up). The sheet closes by its 44 px close button and Esc.
+- **Two findings, NOT in this PR** (SET1-GO 6; the orchestrator takes them to the owner): modifiers are never saved
+  (`userMods` lives in memory; gone on reload), and "Off" for the opponent sets its resistance to 0 rather than turning the
+  roll off.
+
+**Bytes** (`check_payload_budget.py`, dev v1.295.1 merged, the served app folder holding this build only):
+- eager gzip 378,399 B: +967 on the checkpoint, about +46 of it this PR's;
+- first-hand core 397,883 B (+993, dev's own growth with it); both warn and pass;
+- deferred raw 555,121 B: +5,048. `settings-ui.js` goes from 19,998 to 25,034 B (trimmed once, −205 B) and `reader.js` +12 B.
+  The ceiling moved 550,073 → 555,121 in its own commit, a measured step under U207 a; 44,879 B remain of 600,000.
+
+**Proof** (all local, under the build lock):
+- **Units:** `tests/settings_presentation.test.mjs` 15 of 15, two of them new: one page in its order, each old id lighting its
+  own; Articles holding the sections, General holding gi / no-gi; no film row; the note word for word; Opponent; the Video
+  row's two writes.
+- **`settings-tabs.spec.ts`, rewritten, 12 of 12:**
+  - the frame at the four sizes;
+  - the list (rail and chips, with an honest fade);
+  - every control at 40/44 px, measured from rects;
+  - lines of at most 76 characters;
+  - the note's place;
+  - presses by mouse and by touch tap;
+  - the lit group when scrolling;
+  - old ids;
+  - a redraw keeping the scroll;
+  - resize;
+  - keys;
+  - another dialog keeping its own frame.
+- **The 30 files that read Settings,** narrowed to the tests that open it in the eight large article and catch files:
+  - 168 of 177 on the first run. All nine reds were press timing in specs: a press mid-glide after a group press, or during
+    the card's entrance on the phone sheet. Answer-mode's `shown()` passed on a missing element. Fixed with
+    `j.settingsAtRest()` and a stricter `shown()`; no assertion was loosened.
+  - After dev's merge, 84 of 86 green.
+  - The two reds are `legal-pages`' privacy premise at both sizes. The hard-linked local site's privacy page dates from
+    10 Nov, before U151 a (12 Nov), so it does not carry the data-controller line the test reads. Their Settings steps
+    passed. The PR's e2e-full builds the site fresh.
+- **Answer-mode's race test,** 3 of 3 green with the stricter wait.
+- **Mutants:**
+  - `tests/artifacts/settings_layout_mutants.mjs`: 19 of 19 killed by their named tests, against green baselines (the
+    frame at each size, the sheet, the rail, three target sizes, the line length, the note's place and words, the jump
+    by mouse and by touch, the hold, the spy, the old id, the redraw, ↓, and the frame leaking to other dialogs).
+    `help-unbounded` survived the first bound of 80 characters; the bound is 76 now.
+  - `article_sections_mutants.mjs`' three film-row controls, retargeted: 3 of 3 killed ("the film goes", "the film is
+    back in its place", "Settings opens at its switch").
+- **`ci:validate`:** 29 of 29 steps. Two notes:
+  - The CLAUDE.md budget step first read `docs/Neural.md` 42 characters over its ceiling; my two edits there were trimmed,
+    not the ceiling raised.
+  - actionlint was replayed with the box's pinned binary.
+- **SET1-RED (PR #451's first CI run, shard 4):** "at least 32 px from the bottom" read 30.68 at 800x900, and "the
+  full-screen sheet" read [0, 1, 390, 632] at 390x631. The frame step read the card while its entrance (ngCardIn, 0.28 s,
+  an 8 px slide) was still moving it: `settled()` waited for the scroll alone.
+  - Seeking that animation to 150 ms gives 30.69 and [0, 1, 390, 632]; finished, exactly 32 and [0, 0, 390, 631].
+  - With the entrance slowed to 1.2 s, the step as shipped goes red on CI's two assertions; the step that waits for the
+    card's animations holds. On the shipped entrance both are green on this box.
+  - The tolerance is unchanged. Two must-stay-green controls (slow-entrance-800, slow-entrance-390) join the mutant runner.
+- **SET1-SYNC, dev v1.295.2 (6f00d6325) merged:**
+  - deferred re-measured, again exactly 555,121 B (the ceiling stays at its measured use, in its own commit);
+  - app rows re-seeded;
+  - `ci:validate` 26 of 26 replayed steps;
+  - settings-tabs 12 of 12; the frame mutants 3 of 3 and both controls held.
+- **Back, measured on the built page at 390:** Settings open on /Positions/Mount/Top, then Back, goes to "/" and Settings
+  is gone with the page. On a first visit, Back leaves the site.
+
 ## v1.296.0 — A cloze's place on the map (L2b S2; the owner's U202 a; the orchestrator's rulings (d) and (c), 19 Nov 2026)
 
 **What a player sees, on a computer.** Opening a place's cloze in Master the game takes the map beside the drawer to the
