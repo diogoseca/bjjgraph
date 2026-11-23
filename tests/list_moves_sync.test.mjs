@@ -30,7 +30,12 @@
 //      a source or a target it touched takes its `t` from before the move.
 //  17. A HEAL-ONLY PUSH BACKS OFF (MOVE-R1 F3): a cloud that keeps going back to a stale copy (what a build older than
 //      v1.296.1 does) gets the first heal at once, then one only after 1 min, 2 min …; a real change pushes at once and
-//      starts the waits over.
+//      starts the waits over;
+//  18. a move is stamped later than every cell this device holds, one stamped by a clock an hour ahead included (else the
+//      move's "out" would lose to an older "in" at the next merge, and the move would come back as a copy).
+// NOT KILLED HERE, and why (MOVE-R1, the reader's mutants.py): M13, the source cell stamped one LATER than the target's,
+// survives every unit. It is equivalent in effect: both cells are still later than everything this device holds, so the
+// move stands either way. Nothing here covers it; nothing needs to.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -379,6 +384,7 @@ test('16. a move\'s Undo puts both lists\' recency back: an emptied source, a to
   assert.equal(a.undoMoveListItem(), true);
   assert.equal(a.lists.Solo.t, 100, 'the emptied source comes back with its own t (not at the top)');
   assert.equal(a.lists.T.t, 90, "and the target's t is its own again");
+  assert.deepEqual([a.listItemAt.Solo.X[1], a.listItemAt.T.X[1]], [1, 0], "the Undo's cells: in the source again, out of the target");
   // a source it did not empty, and a target that had the item already
   a.lists = { S: L(['X', 'Y'], 100, 'Monday'), T: L(['Z', 'X'], 90, 'Guard') };
   assert.equal(a.moveListItem('X', 'S', 'T', 'menu').already, true);
@@ -416,4 +422,17 @@ test('17. a heal-only push backs off: once at once, then after 1 min, 2 min …;
     assert.equal(await pushesAfter(1000), 0, 'then it waits again');
     assert.deepEqual(itemsOf(a.lists), { S: ['Y'], T: ['W', 'X', 'Z'] }, 'nothing is lost on this device throughout');
   } finally { Date.now = realNow; }
+}));
+
+test('18. a move is stamped later than every cell held, one from a clock an hour ahead included', () => fakeTimers(async ({ flush }) => {
+  const h = harness(); await h.boot(); const a = h.switchTo('A');
+  a.prep.local = 1; await a._pullAndMerge(); await flush();
+  const ahead = Date.now() + 3_600_000;
+  // another device, its clock an hour ahead, moved X INTO Monday; this device then moves it out again
+  a.lists = { S: L(['X', 'Y'], 100, 'Monday'), T: L(['Z'], 90, 'Guard') };
+  a.listItemAt = { S: { X: [ahead, 1] } };
+  assert.equal(a.moveListItem('X', 'S', 'T', 'menu').moved, true);
+  assert.ok(a.listItemAt.S.X[0] > ahead, 'the move is later than the cell from the clock ahead');
+  const back = a._mergeProgressBlobs(a._progressBlob(), blobOf({ S: L(['X', 'Y'], 100, 'Monday'), T: L(['Z'], 90, 'Guard') }, { S: { X: [ahead, 1] } }));
+  assert.deepEqual(itemsOf(back.lists), { S: ['Y'], T: ['X', 'Z'] }, 'so the move stands against that copy');
 }));
