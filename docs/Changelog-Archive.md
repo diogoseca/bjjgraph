@@ -21241,8 +21241,9 @@ step holds it to the board's own plus 15 ms (M15). Deferred 557,990 B, +2,027 on
 - **The landscape step's one red in 22 runs was the app.** The reader measures its band in an animation frame after a
   resize, and `_viewRect` read it: on the frame between the turn and that layout the look framed against the portrait
   band (186 px where the map is a 64 px strip), passed the 48 px floor and pulled back 10.97 times the roll's zoom, held
-  there by the floor after. The band now carries the size it was measured for; `_viewRect` reads a fresh one until the
-  reader's own is measured for this size. The step seeks that frame by holding the page's animation frames across the
+  there by the floor after. The reader now records the size it laid out for beside its band (`nodeBandAt`: the band's own
+  shape is pinned by a unit, which a stamp inside it broke, caught by the ci-validate replay); `_viewRect` reads the band
+  only when that is this size, a fresh one otherwise. The step seeks that frame by holding the page's animation frames across the
   turn: M17 red at 10.97 times (the reader's own figure), 5.08 with the fix; the landscape test 201 of 201 after.
 - **The clock's hold follows the look (ruling):** a cloze's look that ends by no lifter of its own (the session or its
   place gone under the shut drawer) hands the clock back as its pill would, the drawer back with it (`_czLookSync`,
