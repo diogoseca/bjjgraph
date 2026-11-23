@@ -367,10 +367,13 @@ test("while editing, the row's focus/light behavior does not fire — and fires 
   // seedList made the list the active add target, not a lit selection
   expect(await page.evaluate(() => (window as any).__neural._listFocusId)).toBe(null);
 
+  // the row is its one line (seeding opened the list): the press below lands on the row's own line, which since
+  // LISTS-MENU-2 opens or shuts the list, so it is the editor's just-closed latch that must stop it, not the items' guard
+  await page.evaluate(() => { const a = (window as any).__neural; a._listExpand().clear(); a.renderExplorer(); });
   await renameViaMenu(j, id);
   await expect(page.locator(`[data-list-rename="${id}"]`)).toBeVisible();
 
-  // a click inside the row while the editor is open: commits via blur, but must NOT light
+  // a click inside the row while the editor is open: commits via blur, but must NOT light (nor open the list)
   const row = page.locator(`[data-list-row="${id}"]`);
   // the deferred systems.json arrival re-renders the Explore body (replacing the row element)
   // at an arbitrary moment — measure against the SETTLED element, not a detached one
@@ -389,6 +392,7 @@ test("while editing, the row's focus/light behavior does not fire — and fires 
     await page.evaluate(() => (window as any).__neural._listFocusId),
     "the click that closed the editor did not light the list",
   ).toBe(null);
+  await expect(page.locator(`[data-list-items="${id}"]`), "…nor open it").toHaveCount(0);
   expect(
     await page.evaluate(() => (window as any).__neural._focusIdxSet),
     "…and nothing lit on the graph",
@@ -399,14 +403,16 @@ test("while editing, the row's focus/light behavior does not fire — and fires 
   await page.keyboard.press("Escape");
   expect(await page.evaluate(() => (window as any).__neural._listFocusId)).toBe(null);
 
-  // positive control: with no editor open, the same row click DOES light the list
+  // positive control: with no editor open, a press on the row's line (its name) OPENS the list and lights it
+  // (LISTS-MENU-2: the row opens and shuts as its chevron does; an open list is lit). Shut it first: seeding opened it.
   await page.waitForTimeout(500); // clear of the editor's just-closed click guard
-  const r2 = await settledBox();
-  await page.mouse.click(r2.x + r2.width / 2, r2.y + r2.height - 3);
+  await page.evaluate(() => { const a = (window as any).__neural; a._listExpand().clear(); a.renderExplorer(); });
+  await j.clickByMouse(`[data-list-name="${id}"]`, "the list's name, nothing being edited");
   expect(
     await page.evaluate(() => (window as any).__neural._listFocusId),
-    "the row is still the way to light a list when nothing is being edited",
+    "the row opens the list and lights it when nothing is being edited",
   ).toBe(id);
+  await expect(page.locator(`[data-list-items="${id}"]`), "…open").toHaveCount(1);
   expect(
     await page.evaluate(() => {
       const a = (window as any).__neural;

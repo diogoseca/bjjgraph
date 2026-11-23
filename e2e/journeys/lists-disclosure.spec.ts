@@ -34,7 +34,8 @@ import { journey } from "../dsl";
  * Rails: __neural.lists, .listsArray(), ._listExpanded(id), ._focusIdxSet,
  *        .addToList, .removeListItem
  * Handles: [data-list-open] (the toggle), [data-list-items], [data-list-item],
- *          [data-list-item-remove], [data-list-empty], [data-list-count], [data-list-chevron]
+ *          [data-list-item-remove], [data-list-empty], [data-list-count] (text beside the name since
+ *          LISTS-MENU-2; the chevron is [data-list-open] itself, at the row's right edge)
  */
 
 const SHOTS = resolve(__dirname, "../../tests/artifacts/chrome");
