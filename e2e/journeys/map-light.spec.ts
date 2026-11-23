@@ -59,6 +59,16 @@ import { journey } from "../dsl"
  *   JR2b Last rolls not read                                          → the same test, at "Last rolls left for Explore…"
  *   JR4 the fade kept over a running game (no "out at once")          → "the light goes out AT ONCE…", all four, at "out on the
  *                                                                        first frame"
+ * ML-RED (23 Nov 2026; the orchestrator's token: one red on PR #454's shard, "premise: an orb of the place's pair is read").
+ *   THE TEST, NOT THE APP. The hand's order was a race (its win chances land from a worker in real time; an untouched hand
+ *   sorts itself, a touched one keeps its dealt order), and in the sorted order the map names "Short Choke from Gift Wrap"
+ *   11 px and Mount itself 10 px from Mount's orbs at 390, where both halves are drawn on one point 3.4 px in half width: the
+ *   12 px every reading keeps from a name left no pixel of the place. Here: 0 of 200 red as it was, 100 of 100 with the CPU
+ *   throttled 6x (the band, the camera and every block the names avoid the same in both). Now `rolled()` waits for the
+ *   sorted hand (every run reads one state), and the place's orbs keep the 8 px a name's ink reaches (its 6 px shadow and its
+ *   edge); the moves keep 12.
+ *   MLR1 the place's orbs kept 12 px from names                       → "…lights the place" at "premise: an orb of the place's
+ *                                                                        pair is read" (390)
  * NOT KILLED, AND WHAT WOULD: R4 (the partner orb not added to the holes). Wherever it was measured the pair's two orbs lie in
  * ONE hole (the place's own radius takes in its partner at the roll's zoom and further out), so it is equivalent there; it
  * would need a frame zoomed in far enough that the pair's two orbs stand more than a hole's radius apart (closer than the
@@ -118,6 +128,14 @@ async function rolled(page: Page, touch: boolean, beforeNavigate?: (p: Page) => 
   await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01])
   await j.pick(t)
   await j.nextHand()
+  // THE HAND'S ORDER DECIDED (ML-RED, 23 Nov 2026). The map names a hand's moves in its cards' order, and that order was a
+  // RACE: the win chances come from a worker in real time, an untouched hand sorts itself when they land, and a hand touched
+  // first keeps its dealt order for good (§5 of `_paintValueSlot`'s note). This file's own presses usually came first, so the
+  // map named "Rear Naked Choke from Gift Wrap" below Mount; on a loaded runner the values came first and the sorted order
+  // named "Short Choke from Gift Wrap" 11 px left of Mount's orbs (PR #454's shard, once; here 100 of 100 with the CPU
+  // throttled 6x, 0 of 200 without; the band, the camera and every block the names avoid were the same). Every test here
+  // starts from the hand as a player who has not touched it sees it: sorted.
+  await expect(page.locator("[data-choice-value-status]").first(), "premise: the hand's win chances landed and it sorted itself").toHaveText("Sorted by win chance", { timeout: 30_000 })
   await dismissReward(page, touch)
   expect(await page.evaluate(() => ((window as W).__neural.rollLog || [])[0]?.key), "premise: the roll started at Mount, top").toBe("Mount|Top")
   expect(await page.evaluate(() => !!(window as W).__neural.paused), "premise: the roll is live").toBe(false)
@@ -207,7 +225,11 @@ const ink = (page: Page) => page.evaluate(() => {
   // that cut no hole for the place cannot pass by having nothing to read
   const sc = a.W / a.cam.vw, shown = a.nodes[L.place], at = (n: W) => ({ x: a.W / 2 + (n.x - a.cam.cx) * sc, y: a.H / 2 + (a._LY(n) - a.cam.cy) * sc })
   const holes = L.holes.filter((h: W) => !h.place && !nearName(h.x, h.y, 12)).map((h: W) => read(h.i, h.x, h.y, false))
-  for (const n of [shown, shown.pi >= 0 ? a.nodes[shown.pi] : null]) if (n) { const o = at(n); if (!nearName(o.x, o.y, 12)) holes.push(read(n.idx, o.x, o.y, true)) }
+  // each orb of the place at its centre, kept clear of every name by what a name's ink reaches, 8 px: its shadow (`write` in
+  // draw(): shadowBlur 6, in canvas pixels, so 6 CSS px at dpr 1 and 3 at dpr 2) and its glyphs' edge. Not the 12 px the moves
+  // keep (ML-RED, 23 Nov 2026): at 390 the place's orb is 3.4 px in half width, both halves drawn on one point, and the sorted
+  // hand names a move 11 px from it and the place itself 10 px from it, so 12 px left no pixel of the place to read
+  for (const n of [shown, shown.pi >= 0 ? a.nodes[shown.pi] : null]) if (n) { const o = at(n); if (!nearName(o.x, o.y, 8)) holes.push(read(n.idx, o.x, o.y, true)) }
   // the place's own name, its brightest pixel OUTSIDE every hole's soft edge: its first letters can sit in the place's own
   // hole, where a layer drawn over the names would leave them bright anyway
   const own = lit.names.find((b: W) => (b.i === L.place || b.i === shown.pi) && b.w === "hover")
