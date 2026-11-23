@@ -3922,6 +3922,7 @@ class Component extends DCLogic {
   setDeckOpen(open) {
     if (open && !this.deckOpen) this.track("neural_drill_opened", { deck_key: this._posKey || null });
     if (!open) {
+      this._listDragRelease();   // a lifter of the list drag's lease (`_listDragStart`): the drawer is closing
       if (this._checkpoint) this._cancelCheckpoint(); // abandoning the quiz cancels it (natural completion nulled it first)
       if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // a closed deck must not auto-advance
     }
@@ -8971,6 +8972,7 @@ class Component extends DCLogic {
     });
   }
   setViewMode(m) {
+    this._listDragRelease();   // a lifter of the list drag's lease (`_listDragStart`): the view is about to be rebuilt
     // THE PATH AND ITS OLDER ALIAS (v1.287.0, SET1 slice B; O3): the view left the drawer, and a request for it lands
     // where its corridor lives, Master the game (`openCorridor`): View Collection (O1, through `openLearningView`), and
     // anything still asking for it by name
@@ -10039,6 +10041,8 @@ class Component extends DCLogic {
     if (this.deckOpen && this.sbOffset() === 0) { this.setDeckOpen(false); this._session = null; this._sessionNodes = null; this._inSession = false; }
   }
   renderExplorer() {
+    // HELD WHILE A LIST ITEM IS IN THE HAND (LISTS-R Slice 3, the lease: `_listDragStart`): it runs once when the drag ends
+    if (this._listDrag) { this._listDragHeld = true; return; }
     // defensive: legacy callers (setGiMode, selectChallengeTrack) call this
     // directly — route the History tab to its own renderer instead of the explorer list
     if (this._viewMode === "history") {
@@ -11833,7 +11837,7 @@ class Component extends DCLogic {
     const to = this._listsMap()[toId];
     if (r.moved) this.setEvent("Moved to “" + (to ? to.name : "") + "”", this.listItemName(nodeId) + (r.already ? " · it was there already" : ""), "good");
     else if (r.reason === "full") this.setEvent("List is full", "A share link holds " + NG_LIST_ITEM_CAP + " techniques", "bad");
-    // a key that moved the item follows it: focus lands on its ⇄ in the list it went to (the anchor it left is gone)
+    // a key that moved the item follows it: focus lands on its ⋮ in the list it went to (the anchor it left is gone)
     if (r.moved && byKey) this._listMoveFocus = { node: this.siteIdOf(nodeId), list: toId };
     this._refreshListSurfaces();
     this._listMoveFocus = null;   // used by that render, or not at all: a later render must not take focus
@@ -11912,6 +11916,56 @@ class Component extends DCLogic {
    * different techniques here and "Americana" 16, so main-only would make your own class as
    * unreadable as a share link that dropped the qualifier.
    */
+  // ── DRAG AN ITEM ONTO ANOTHER LIST'S ROW, ON A DESKTOP (LISTS-R Slice 3; the owner, 19 Nov: "move items between lists
+  // like drag and drop?"; ruled in prompts/lists-2.md, ruling 4). It calls the same `moveListItem` as "Move to…" (via
+  // "drag"), so the cells, the Undo row and the sync are the move's own. Native HTML5 drag: Esc is the browser's own
+  // cancel, and the drawer's scroller scrolls near its edges by itself. No drag on a phone (a touch drag would fight the
+  // drawer's scroll and its closing swipe): a phone, and the keyboard, have "Move to…" in the item's ⋮.
+  // THE LEASE (§6.5, a single-slot resource with many writers): `renderExplorer` rebuilds the whole drawer, and it is called
+  // from timers, late data, another tab's write and a cloud pull, so a rebuild mid-drag would destroy the row in the hand
+  // and every target. While a drag is held (`_listDrag`, keyed by (node, from), never by an element) a rebuild is HELD and
+  // runs once when the drag ends. Its LIFTERS: the drop, dragend (Esc included), the view changing (`setViewMode`), the
+  // drawer closing (`setDeckOpen`), the page hidden (visibilitychange), and 15 s.
+  _listDragOk() { return !this.isMobile() && !(window.matchMedia && window.matchMedia("(pointer: coarse)").matches); }
+  _listDragStart(e, nodeId, listId) {
+    this._listDragRelease();
+    this._listDrag = { node: nodeId, from: listId, t: Date.now() };
+    try { e.dataTransfer.effectAllowed = "move"; e.dataTransfer.setData("text/plain", this.listItemName(nodeId)); } catch (_) { /* non-fatal */ }
+    this._listDragT = setTimeout(() => this._listDragRelease(), 15000);
+    this._listDragVis = () => { if (document.hidden) this._listDragRelease(); };
+    document.addEventListener("visibilitychange", this._listDragVis);
+    const root = this.explorerListRef.current;
+    if (root) root.setAttribute("data-list-dragging", listId);
+  }
+  /** Can the held item drop on this list? Not the one it is in, and not a full one unless it is in it already. */
+  _listDropOk(toId) {
+    const d = this._listDrag, to = d && this._listsMap()[toId];
+    return !!(to && toId !== d.from && (to.items.indexOf(d.node) >= 0 || to.items.length < NG_LIST_ITEM_CAP));
+  }
+  _listDragMark(toId) {
+    const root = this.explorerListRef.current; if (!root) return;
+    for (const r of root.querySelectorAll("[data-list-drop-target]")) if (r.getAttribute("data-list-row") !== toId) r.removeAttribute("data-list-drop-target");
+    if (toId) { const r = root.querySelector('[data-list-row="' + toId + '"]'); if (r) r.setAttribute("data-list-drop-target", "1"); }
+  }
+  _listDragRelease() {
+    if (!this._listDrag) return false;
+    this._listDrag = null;
+    clearTimeout(this._listDragT); this._listDragT = null;
+    if (this._listDragVis) { document.removeEventListener("visibilitychange", this._listDragVis); this._listDragVis = null; }
+    this._listDragMark(null);
+    const root = this.explorerListRef.current; if (root) root.removeAttribute("data-list-dragging");
+    if (this._listDragHeld) { this._listDragHeld = false; this.renderExplorer(); }
+    return true;
+  }
+  _listDrop(e, toId) {
+    e.preventDefault(); e.stopPropagation();
+    const d = this._listDrag, ok = this._listDropOk(toId);
+    this._listDragHeld = this._listDragHeld && !ok;   // a move rebuilds the drawer itself
+    this._listDragRelease();
+    // the move's own after-step, as "Move to…" takes it: the toast, and the drawer drawn again (a bare `moveListItem`
+    // left the rows as they were until the next rebuild: the lease journey's finding)
+    if (d && ok) this._afterMove(this.moveListItem(d.node, d.from, toId, "drag"), d.node, toId, false);
+  }
   _listItemRow(nodeId, listId) {
     const i = this._idIndex ? this._idIndex.get(nodeId) : null;
     const n = i != null ? this.nodes[i] : null;
@@ -11929,7 +11983,19 @@ class Component extends DCLogic {
     item.addEventListener("mouseenter", () => item.style.background = "rgba(255,255,255,.045)");
     item.addEventListener("mouseleave", () => item.style.background = "transparent");
     // the category shape, same vocabulary as the canvas and as Explore's own rows
-    if (n) { const g = document.createElement("span"); g.style.cssText = "flex:none;display:inline-flex;align-items:center;"; g.innerHTML = this.nodeGlyph(n.ty, this.hex(n.col), 7); item.appendChild(g); }
+    if (n) { const g = document.createElement("span"); g.className = "ng-gl"; g.style.cssText = "flex:none;display:inline-flex;align-items:center;"; g.innerHTML = this.nodeGlyph(n.ty, this.hex(n.col), 7); item.appendChild(g); }
+    // A DESKTOP DRAGS THE ROW (LISTS-R Slice 3, `_listDragStart`): a six-dot grip takes the glyph's place while the row is
+    // hovered or focused (helmet.html, `.ng-dragrow`), and the row's own cursor is a grab.
+    if (!thumb && this._listDragOk()) {
+      item.draggable = true;
+      item.classList.add("ng-dragrow");
+      const grip = document.createElement("span");
+      grip.className = "ng-grip"; grip.setAttribute("aria-hidden", "true");
+      grip.innerHTML = '<svg width="7" height="11" viewBox="0 0 7 11" fill="currentColor"><circle cx="1.5" cy="1.5" r="1.2"/><circle cx="5.5" cy="1.5" r="1.2"/><circle cx="1.5" cy="5.5" r="1.2"/><circle cx="5.5" cy="5.5" r="1.2"/><circle cx="1.5" cy="9.5" r="1.2"/><circle cx="5.5" cy="9.5" r="1.2"/></svg>';
+      item.appendChild(grip);
+      item.addEventListener("dragstart", (e) => this._listDragStart(e, nodeId, listId));
+      item.addEventListener("dragend", () => this._listDragRelease());
+    }
     const nameBtn = document.createElement("button");
     nameBtn.type = "button";
     nameBtn.setAttribute("data-list-item", nodeId);
@@ -12078,6 +12144,7 @@ class Component extends DCLogic {
     const body = document.createElement("div");
     body.id = bodyId;
     body.setAttribute("data-lists-body", "1");
+    body.addEventListener("dragover", () => { if (this._listDrag) this._listDragMark(null); });
     sec.appendChild(body);
 
     // "AND BE VISIBLE UP TOP" (owner, v1.99.5). With one list the + files in one tap and never
@@ -12303,6 +12370,15 @@ class Component extends DCLogic {
         }
         row.appendChild(items);
       }
+      // A DROP TARGET (LISTS-R Slice 3): the row and its open items, for any list but the one the item is in. Over it the
+      // row is outlined, "Move here" (helmet.html, `[data-list-drop-target]`); anywhere else in the lists the outline goes.
+      row.addEventListener("dragover", (e) => {
+        if (!this._listDrag || !this._listDropOk(id)) return;   // not a target: the body's own handler clears the mark
+        e.preventDefault(); e.stopPropagation();
+        try { e.dataTransfer.dropEffect = "move"; } catch (_) { /* non-fatal */ }
+        this._listDragMark(id);
+      });
+      row.addEventListener("drop", (e) => this._listDrop(e, id));
       body.appendChild(row);
     }
     list.appendChild(sec);

@@ -177,6 +177,16 @@
   .ng-actchip.ng-thumb{position:relative;width:44px;height:44px;border-color:transparent;background:transparent;border-radius:11px;}
   .ng-actchip.ng-thumb::before{content:"";position:absolute;inset:10px;box-sizing:border-box;border:1px solid rgba(150,170,210,.28);border-radius:7px;background:rgba(255,255,255,.05);pointer-events:none;}
   .ng-actchip.ng-thumb>svg{position:relative;}
+  /* THE LIST DRAG (LISTS-R Slice 3; app.src.jsx `_listDragStart`): a desktop's item row is draggable. Hovered or focused, a
+     six-dot grip takes its glyph's place and the row's cursor is a grab. The list it can drop on is outlined, "Move here",
+     and the other rows dim a little. All inside the drawer: nothing is mounted outside it (§6.1). */
+  .ng-dragrow{cursor:grab;}
+  .ng-dragrow .ng-grip{display:none;flex:none;align-items:center;color:#7e8aa3;}
+  .ng-dragrow:hover .ng-grip,.ng-dragrow:focus-within .ng-grip{display:inline-flex;}
+  .ng-dragrow:hover .ng-gl,.ng-dragrow:focus-within .ng-gl{display:none!important;}   /* over the glyph's inline display */
+  [data-list-dragging] [data-list-row]:not([data-list-drop-target]){opacity:.72;}
+  [data-list-drop-target]{position:relative;outline:1px dashed rgba(150,180,255,.75);outline-offset:-2px;border-radius:8px;background:rgba(120,150,255,.06);}
+  [data-list-drop-target]::after{content:"Move here";position:absolute;top:9px;right:58px;padding:1px 6px;border-radius:4px;background:rgba(16,20,32,.92);font-size:10.5px;font-weight:700;color:#b9c8f0;pointer-events:none;}
   .ng-actchip.ng-thumb:hover{background:transparent;border-color:transparent;}
   .ng-actchip.ng-thumb:hover::before{background:rgba(255,255,255,.1);border-color:rgba(150,180,255,.5);}
   .ng-caret{flex:none;display:inline-flex;align-items:center;justify-content:center;color:#5d6883;}
