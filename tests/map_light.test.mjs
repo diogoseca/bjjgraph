@@ -19,6 +19,7 @@
 //   ML13 a light at its target steps down (the first cut's flicker)     → "a full light stays full, frame after frame"
 // S1-R1 (23 Nov 2026, the reader of PR #447 and the orchestrator's rulings 2 and 4):
 //   ML14 the fade kept over a running game (no "out at once")           → "out at once when the game starts again…"
+//   ML15 the cold path ramps the strength (the planner lands at full)   → "the planner arriving late…"
 //   ML16 the look not tied to its row (`_shownRow` always yes)          → "the look ends with its row…"
 //   ML17 Last rolls not read (`_viewMode` dropped from `_shownRow`)      → "the look ends with its row…", at "Explore"
 // ML6 SINCE S1-R1 SURVIVES, AND IS COVERED TWICE: with `paused` dropped from `_lightOf`, ruling 4's own line in `_drawLight`
@@ -140,6 +141,15 @@ test("the look ends with its row, or with Last rolls: the name goes, and the lig
   assert.equal(c.a._shownNode(), null, "a study surface over Last rolls: no longer shown");
   const d = lit();
   assert.equal(d.frame(400).k, 1, "a place shown with no row (a test's own call) is not tied to one");
+});
+
+test("the planner arriving late: the light comes in over its quarter second from when it can first be drawn", () => {
+  const { a, frame } = lit({ cold: true });
+  frame(300); frame(300); frame(300);
+  assert.equal(a._lightK, 0, "while it cannot be drawn its strength waits at 0");
+  a._gameplanRuntime = { ngLightDraw: (_app, _ctx, F) => ({ k: F.k, place: F.place.idx, holes: [], marks: [] }) };
+  const l = frame(100);
+  assert.ok(l && Math.abs(l.k - 0.4) < 0.02, "the first frame it can be drawn: 100 ms of 250, 0.4, not full (" + (l && l.k) + ")");
 });
 
 test("it comes in over a quarter of a second on the frame clock", () => {

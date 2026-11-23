@@ -991,22 +991,25 @@ class Component extends DCLogic {
   // running game" beats "out over 400 ms". Every way the game resumes (a move played, ▶ on a row, the countdown let go) and
   // a film taking the map left the layer fading over the running roll for 17 to 23 frames (the reader, at 60 Hz). The fade
   // out is for the ways out that leave the game held: the row collapsed, Last rolls left, the hold's end.
+  // THE FADE IN STARTS WHEN THE LAYER CAN FIRST BE DRAWN (S1-R1, the reader's finding 5): with gameplan.js not in, the
+  // strength is held at 0, so the light comes in over its quarter second when the planner lands, not at full in one frame.
   _drawLight(ctx, F) {
     const n = this._lightOf(), wall = performance.now(), game = (this.now || 0) * 1000;
     if (n) this._lightAt = n.idx;
     const dt = Math.max(wall - (this._lightT == null ? wall : this._lightT), game - (this._lightS == null ? game : this._lightS));
     this._lightT = wall; this._lightS = game;
-    const was = this._lightK || 0, to = n ? 1 : 0, running = !this.paused || !!this._replay;
-    const k = this._lightK = running ? 0 : this._reducedMotion() ? to : to > was ? Math.min(1, was + dt / NG_LIGHT_IN_MS) : to < was ? Math.max(0, was - dt / NG_LIGHT_OUT_MS) : was;
     this._lastLight = null;
-    const at = k > 0.001 && this._lightAt != null ? this.nodes[this._lightAt] : null;
-    if (!at) return;
     const R = this._gameplanRuntime;
     if (!R || typeof R.ngLightDraw !== "function") {
+      this._lightK = 0;
       const s = this._shown;
-      if (n && s && !s.cold) { s.cold = 1; this.fx("light_cold", { place: at.id }); }
+      if (n && s && !s.cold) { s.cold = 1; this.fx("light_cold", { place: n.id }); }
       return;
     }
+    const was = this._lightK || 0, to = n ? 1 : 0, running = !this.paused || !!this._replay;
+    const k = this._lightK = running ? 0 : this._reducedMotion() ? to : to > was ? Math.min(1, was + dt / NG_LIGHT_IN_MS) : to < was ? Math.max(0, was - dt / NG_LIGHT_OUT_MS) : was;
+    const at = k > 0.001 && this._lightAt != null ? this.nodes[this._lightAt] : null;
+    if (!at) return;
     this._lastLight = R.ngLightDraw(this, ctx, { ...F, k, place: at, moves: this._lightMoves(at) });
   }
   // `press`: THE PRESS ON THE MAP THAT ENDS A LOOK TAKES THE CAMERA'S LEASE AGAIN, SO THE PLACE STAYS NAMED FOR THE CAMERA'S
