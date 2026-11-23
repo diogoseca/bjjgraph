@@ -20927,7 +20927,7 @@ currently it's too thin and doesnt allow breathing very much". Part A (the plan,
   | from the top / bottom | 48 | 48 | 32 | 0 |
 
   Height is min(880, the window − 2 × edge). The spacing token is 4 px. Every control is 40 px (44 on a phone); the article
-  rows are 40/44 px with the whole row the target. Help is held to 60ch (TODO-cpl characters a line at 1440). There is a faint
+  rows are 40/44 px with the whole row the target. All prose is held to 60ch: at most 76 characters a line on a wide screen, pinned. There is a faint
   grain over the card's own gradient, and no emoji.
 - **One Video switch** (SET1-GO 2): "Videos during play" (HIDESEC2 had made it write `readerSection.videos`) and the Articles'
   Video box were two switches for one key. The Video row under Articles is the one switch, says "also the film during a
@@ -20946,6 +20946,48 @@ currently it's too thin and doesnt allow breathing very much". Part A (the plan,
   (`userMods` lives in memory; gone on reload), and "Off" for the opponent sets its resistance to 0 rather than turning the
   roll off.
 
-**Bytes:** TODO.
+**Bytes** (`check_payload_budget.py`, dev v1.295.1 merged, the served app folder holding this build only):
+- eager gzip 378,399 B: +967 on the checkpoint, about +46 of it this PR's;
+- first-hand core 397,883 B (+993, dev's own growth with it); both warn and pass;
+- deferred raw 555,121 B: +5,048. `settings-ui.js` goes from 19,998 to 25,034 B (trimmed once, −205 B) and `reader.js` +12 B.
+  The ceiling moved 550,073 → 555,121 in its own commit, a measured step under U207 a; 44,879 B remain of 600,000.
 
-**Proof:** TODO.
+**Proof** (all local, under the build lock):
+- **Units:** `tests/settings_presentation.test.mjs` 15 of 15, two of them new: one page in its order, each old id lighting its
+  own; Articles holding the sections, General holding gi / no-gi; no film row; the note word for word; Opponent; the Video
+  row's two writes.
+- **`settings-tabs.spec.ts`, rewritten, 12 of 12:**
+  - the frame at the four sizes;
+  - the list (rail and chips, with an honest fade);
+  - every control at 40/44 px, measured from rects;
+  - lines of at most 76 characters;
+  - the note's place;
+  - presses by mouse and by touch tap;
+  - the lit group when scrolling;
+  - old ids;
+  - a redraw keeping the scroll;
+  - resize;
+  - keys;
+  - another dialog keeping its own frame.
+- **The 30 files that read Settings,** narrowed to the tests that open it in the eight large article and catch files:
+  - 168 of 177 on the first run. All nine reds were press timing in specs: a press mid-glide after a group press, or during
+    the card's entrance on the phone sheet. Answer-mode's `shown()` passed on a missing element. Fixed with
+    `j.settingsAtRest()` and a stricter `shown()`; no assertion was loosened.
+  - After dev's merge, 84 of 86 green.
+  - The two reds are `legal-pages`' privacy premise at both sizes. The hard-linked local site's privacy page dates from
+    10 Nov, before U151 a (12 Nov), so it does not carry the data-controller line the test reads. Their Settings steps
+    passed. The PR's e2e-full builds the site fresh.
+- **Answer-mode's race test,** 3 of 3 green with the stricter wait.
+- **Mutants:**
+  - `tests/artifacts/settings_layout_mutants.mjs`: 19 of 19 killed by their named tests, against green baselines (the
+    frame at each size, the sheet, the rail, three target sizes, the line length, the note's place and words, the jump
+    by mouse and by touch, the hold, the spy, the old id, the redraw, ↓, and the frame leaking to other dialogs).
+    `help-unbounded` survived the first bound of 80 characters; the bound is 76 now.
+  - `article_sections_mutants.mjs`' three film-row controls, retargeted: 3 of 3 killed ("the film goes", "the film is
+    back in its place", "Settings opens at its switch").
+- **`ci:validate`:** 29 of 29 steps. Two notes:
+  - The CLAUDE.md budget step first read `docs/Neural.md` 42 characters over its ceiling; my two edits there were trimmed,
+    not the ceiling raised.
+  - actionlint was replayed with the box's pinned binary.
+- **Back, measured on the built page at 390:** Settings open on /Positions/Mount/Top, then Back, goes to "/" and Settings
+  is gone with the page. On a first visit, Back leaves the site.
