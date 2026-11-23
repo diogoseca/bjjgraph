@@ -96,14 +96,23 @@ function ngClozeLook(app, s) {
 // ON TOUCH ONLY THE TAP COUNTS: a touch screen leaves `:hover` (and the focus) on the element last tapped, which would light a
 // row the player tapped off, or one whose "Had it?" was pressed; the last pointer's kind and where it went down are kept,
 // page-wide (`ngCzTouch`, `ngCzDown`: a press that travels is a drag, never a tap)
-let ngCzTouch = false, ngCzDown = null;
-if (typeof document !== "undefined" && document.addEventListener) document.addEventListener("pointerdown", (e) => { ngCzTouch = e.pointerType === "touch"; ngCzDown = [e.clientX, e.clientY]; }, true);
+// A PLACE OPENED UNDER THE POINTER WAITS FOR ITS FIRST MOVE (S4-R0, the orchestrator's ruling, 23 Nov 2026: "a light should
+// follow intent, not a press that happened to land there"): the press on a place's row opens its cloze where the row was,
+// under a pointer that has not moved, and its first bar lit at once. Until the pointer moves after the place opens
+// (`ngCzMoves`, counted page-wide at each move to a new point; `c.mv0`, the count at the open) it is no pointer at all:
+// no row lights under it, and the keyboard's focus lights as it does with the pointer away
+let ngCzTouch = false, ngCzDown = null, ngCzPt = null, ngCzMoves = 0;
+if (typeof document !== "undefined" && document.addEventListener) {
+  document.addEventListener("pointerdown", (e) => { ngCzTouch = e.pointerType === "touch"; ngCzDown = ngCzPt = [e.clientX, e.clientY]; }, true);
+  document.addEventListener("pointermove", (e) => { if (e.pointerType === "touch") return; if (!ngCzPt || e.clientX !== ngCzPt[0] || e.clientY !== ngCzPt[1]) ngCzMoves++; ngCzPt = [e.clientX, e.clientY]; }, true);
+}
 export function ngClozeWay(app, z) {
   const s = app._session, c = s && ngCzNow(s), host = s && s.czHost;
   if (!c || c !== z.c || c.done || !host || !host.isConnected) return null;
   const els = [...host.querySelectorAll("[data-cz-row]")];
-  let el = ngCzTouch ? null : host.querySelector("[data-cz-row]:hover");
-  if (!el && !ngCzTouch && !host.matches(":hover")) { const f = document.activeElement; el = f && host.contains(f) && f.closest ? f.closest("[data-cz-row]") : null; }
+  const live = !ngCzTouch && (c.mv0 == null || ngCzMoves > c.mv0);   // a pointer that has moved since the place opened
+  let el = live ? host.querySelector("[data-cz-row]:hover") : null;
+  if (!el && !ngCzTouch && !(live && host.matches(":hover"))) { const f = document.activeElement; el = f && host.contains(f) && f.closest ? f.closest("[data-cz-row]") : null; }
   let r = el ? c.rows[els.indexOf(el)] : null;
   if (!r && c.shown && c.tap && c.tap.show === c.showN) r = c.rows.find((x) => x.id === c.tap.id) || null;
   if (!r) return null;
@@ -461,6 +470,7 @@ function ngClozeShow(app, s, seat, mine) {
   const c = ngClozeFor(app, s, seat);
   if (!c) return;
   const fresh = s.czOpen !== seat;   // a place opened, not the open one drawn again (a plan that landed, `ngClozeResume`)
+  if (fresh) c.mv0 = ngCzMoves;   // its rows wait for the pointer's first move (S4-R0, `ngClozeWay`)
   if (!document.getElementById("ng-cloze-css")) { const st = document.createElement("style"); st.id = "ng-cloze-css"; st.textContent = NG_CLOZE_CSS; document.head.appendChild(st); }
   if (s.czOpen != null && s.czOpen !== seat) ngClozeLeave(app, s);
   clearTimeout(app._sessionAdvance);   // a walk to the next deck still pending from a card's last answer must not open a card over the cloze (L1-R2's fault, its third lifter)

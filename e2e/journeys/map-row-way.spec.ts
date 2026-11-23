@@ -22,8 +22,7 @@ import { journey } from "../dsl"
  * named (the table and its date: docs/Changelog-Archive.md, v1.298.0):
  *   W1  no hole for the destination                    → "after Show…" at "the place it leads to stands clear"
  *   W2  the line under the map (drawn behind it)       → "after Show…" at "the line is drawn above the layer"
- *   W3  the lit row kept in a stored field             → "before Show…" at "the pointer away from the rows: nothing lit
- *       before Show" (the bar the opening press left under the pointer, kept)
+ *   W3  the lit row kept in a stored field             → "before Show…" at "leaving puts the light out"
  *   W4  a bar's move named                             → "before Show…" at "no name for it"; and master-cloze.spec.ts's
  *       "the hand is face down…" at "and still no name…" (it reads the map's names, `_lastNameBoxes`, since v1.298.0)
  *   W5  a bar's line drawn                             → "before Show…" at "no line"; and master-cloze.spec.ts's at
@@ -42,6 +41,11 @@ import { journey } from "../dsl"
  *   W12 hover read after a touch                       → "a tablet…" at "the same name again: off"
  *   W14 only a tap on a name ends it                   → "a tablet…" at "the next tap, anywhere: a row's Had it?"
  *   W16 the cloze's leaving not ending it              → "a tablet…" at "the cloze left and opened again: not lit"
+ * S4-R0 (23 Nov 2026, the orchestrator's ruling: "a light should follow intent, not a press that happened to land there"):
+ *   W17 a pointer that has not moved since the place opened lights the bar under it → "a place opened under the pointer…"
+ *       at "nothing lights under a pointer that has not moved"; and map-cloze-place.spec.ts's "opening a place's cloze…" at
+ *       "nothing is lit before Show"
+ *   W18 such a pointer still keeps the focus from lighting → "the keyboard…" at "the focused row lights its way"
  * The tablet's Hide, Done and leaving are pressed by a MOUSE (a tablet's trackpad) on purpose: a tap there is "the next
  * tap" and ends the light by itself, so only a press that is no tap shows each lifter on its own.
  * NOT COVERED HERE: a move that keeps the place or is itself the finish (none at Mount, bottom; the unit's,
@@ -193,9 +197,9 @@ test.describe("1440x900, mouse", () => {
     await openCloze(page, false)
     await settle(j, page)
     const rows = await rowsOf(page), bar = rows.find((r) => r.ask)!
-    await page.mouse.move(2, 2)   // (the press that opened the cloze left the pointer over its rows)
+    await page.mouse.move(2, 2)
     await j.advance(500)
-    expect((await lit(page)).L, "the pointer away from the rows: nothing lit before Show (W3)").toBeNull()
+    expect((await lit(page)).L, "premise: the pointer away from the rows, nothing lit before Show").toBeNull()
     await page.mouse.move(bar.x, bar.y)
     await j.advance(400)
     const v = await lit(page)
@@ -209,6 +213,25 @@ test.describe("1440x900, mouse", () => {
     expect(f.L && f.L.moves, "while it fades, still that one move: never the place's whole hand").toEqual([bar.idx])
     await j.advance(400)
     expect((await lit(page)).L, "leaving puts the light out (W3)").toBeNull()
+  })
+
+  test("a place opened under the pointer: nothing lights until the pointer moves; its first move lights the bar under it", async ({ page }) => {
+    const j = await setup(page, { at: "Half Guard|Top" })
+    await openCloze(page, false)
+    await settle(j, page)
+    const under = await page.evaluate(() => {
+      const el = document.querySelector("[data-cz-row]:hover") as HTMLElement | null
+      if (!el) return null
+      const b = (el.querySelector(".br") || el).getBoundingClientRect()
+      return { ask: el.getAttribute("data-cz-row") === "ask", i: [...document.querySelectorAll("[data-cz-row]")].indexOf(el), x: b.left + b.width / 2, y: b.top + b.height / 2 }
+    })
+    expect(under && under.ask, "premise: the press that opened the place left the pointer on one of its bars").toBe(true)
+    await j.advance(600)
+    expect((await lit(page)).L, "nothing lights under a pointer that has not moved since the place opened (W17)").toBeNull()
+    await page.mouse.move(under!.x + 1, under!.y)   // its first move, inside the same bar
+    await j.advance(400)
+    const rows = await rowsOf(page)
+    expect((await lit(page)).L?.moves, "its first move lights the bar under it").toEqual([rows[under!.i].idx])
   })
 
   test("after Show, a row under the pointer lights its way: its move named first, one line place → move → on, the place it leads to standing clear and named where the map shows it; the camera never moves", async ({ page }) => {
@@ -263,7 +286,9 @@ test.describe("1440x900, mouse", () => {
     const j = await setup(page, { at: "Half Guard|Top" })
     await openCloze(page, false)
     await settle(j, page)
-    await page.mouse.move(2, 2)
+    // the pointer is left where the press put it, over the cloze, and never moves: since S4-R0 it is no pointer, and the
+    // keyboard lights as it does with the pointer away
+    expect(await page.evaluate(() => !!document.querySelector(".ngz:hover")), "premise: the pointer rests over the cloze, where the opening press left it").toBe(true)
     // the keyboard's way: the opened cloze holds the focus, Space shows it, Tab walks its rows' toggles
     expect(await page.evaluate(() => !!document.activeElement?.closest(".ngz")), "premise: the opened cloze holds the focus").toBe(true)
     await page.keyboard.press("Space")

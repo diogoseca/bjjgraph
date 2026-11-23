@@ -214,9 +214,6 @@ test.describe("1440x900, mouse", () => {
     const before = await view(page)
     expect(before.out.length, "premise: the place and its moves are not on the staged board's map").toBeGreaterThan(0)
     await openCloze(page, false)
-    // the press that opened the cloze leaves the pointer on one of its bars, and since v1.298.0 (L2b S4, ruling (a)) a bar
-    // under the pointer lights where its move lives (e2e/journeys/map-row-way.spec.ts): this test's claims are for no bar under it
-    await page.mouse.move(2, 2)
     await settle(j, page)
     const v = await view(page)
     expect([v.hidden.length, v.solid.length], "premise: five moves asked, one remembered").toEqual([5, 1])
