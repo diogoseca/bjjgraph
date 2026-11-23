@@ -20777,5 +20777,7 @@ The owner, looking at the rows on production: "pressing the list name is the sam
 - **SURVIVED, recorded:** the editor's just-closed latch removed. In Chromium the editor's commit re-renders the row
   between the press's down and up, so the click never reaches a row; the latch is a second guard this test cannot reach.
   It is named in the spec's header.
+- **Bytes:** the eager set is 377,767 B, **+335 B** on dev's level of 377,432 B (the first build of this PR was +301).
+  `neural.css` and deferred are unchanged.
 - **The first runs of 5 of these mutants proved nothing.** Port 8133 was held when they started, so no test ran; the
   runner now waits for the port and names the holder. They were run again and are counted only from that run.
