@@ -20827,3 +20827,73 @@ the look now also ends when the drawer is shut (`_shownRow` reads `deckShown` th
 drawer shut. Unit: ML18 red (the drawer not read). Journey: the desktop's Esc step now reads the name gone, and a still
 board (staged, its clock held) reads the look ended at once and the light out over 400 ms (there the shown place is where
 the board stands, which the board names by itself, so the look is read, not the name); JD1 red at both, a control first.
+
+## v1.297.0 — A phone's look from the cloze (L2b S3; the owner's U202 a and U179; the orchestrator's ruling (b), 19 Nov 2026)
+
+**What a player sees, on a phone.** A small "Map" press at the right of the open place's heading line, while the cloze is
+not confirmed. It shuts the drawer on the cloze and the map glides to the place and its moves, lit for as long as the
+look lasts: the place named, its hidden moves pale marks (where, never what: not their shape, colour or gold), its shown
+moves named where a name fits, the map's own names stepped back. The roll's clock is held, as "Show on the map" holds it.
+"‹ Back to your moves", a tap on the map, or Esc brings the drawer back on the same cloze, its bars or names as they were;
+a drag, a pinch or the wheel only move the map. A computer is unchanged: its map stands beside the drawer (S2).
+
+**The ruling.** (b): "A 'Map' control in the cloze's foot (measure the fit on a real 390x631 screen first; if Done's
+words do not fit beside it, the small press at the right of the place's heading line); the panel shuts, the session is
+kept, the clock held by the look's own latch with the same lifters; the map frames the place and its moves; the light on
+for as long as the look lasts; hidden moves pale marks, shown moves named where a name fits. Back by the pill '‹ Back to
+your moves' AND by a tap on the map, consumed; a drag or a pinch moves the map and does not end this look. Offered before
+Done only. The roll's own rows stay where they are during the look … the look's tap is consumed and must never be the
+press that closes the page." **Measured first** at 390x631: the foot's bar is 242 px; beside Show and its key, Show is
+cut to 76 px; beside Hide and Done, Done to 14 px with no word left. So "Map" is the heading line's press.
+
+**How.**
+- `app.src.jsx`: `_czLookOn()`, DERIVED on every read (its own session and seat, the drawer shut, the game held, the
+  cloze not confirmed), so a lifter it does not name cannot leave it standing; every lifter of the look's latch
+  (`_lookEnd`) also drops its marker. `_czLookOpen` hands the drawer's pause to the look's latch (only when the drawer is
+  what stopped the game) and shuts the drawer keeping the session; `_czLookBack` opens it again (the pause goes back to
+  the drawer, `_lookEnd("drawer")`). `_czAt` and `_czDown` hold through the look (the place held on the map and lit; the
+  hand a cloze holds down stays down: without it the drawer's close let the cards up). `attachInput`: during a cloze's
+  look a press is a TAP, its way back, consumed at the press's end before the tap router (never a press on a place, never
+  the press that closes a page), or a drag, a pinch or the wheel, which move the map and keep the look. Esc goes back. The
+  pill is shown and seated each frame while the look is on (`_drawLight`), on the root plane at the foot of the visible map.
+- `map-light.src.js`: a look's hidden moves are pale marks at any size and never gold (`pale`); `NG_LIGHT.lookCalm`, the
+  look's calm area, its foot clear of the pill. `master-cloze.src.js`: the press, the look, the pill.
+
+**Found on the way.**
+- The first screens put a lit move under the pill (the ordinary calm area's foot is 37 px; the pill stands 52 px up and
+  44 tall): the look's glide now keeps its moves 64 px up (M11).
+- The press drew 44 px tall over the day's goal line: the practice page gives every button a 44 px floor
+  (`[data-practice-page] button`, challenge-ui.css), which one class does not outrank, so the press's own `min-height:0`
+  lost (read from its computed style). `.ng-mslim .ng-czmap` sets it, two classes as the cloze's Undo (`.ngz .un`): now
+  20 px to the eye, 44 px to the touch (M12).
+- A reward card the session can mint lies over the drawer's top, over the heading line and its press; the journey puts it
+  away first, as a player does (and as Last rolls' own journey does).
+- The ci-validate replay found the cloze's head asking `isMobile` where the progress units draw a cloze with a document
+  and no window (`window.innerWidth`, three tests red): asked only where there is a window.
+- The names were read on the first still frame and its control went red once: the planner holds a refused name back
+  until half a second after the camera rests (`_planNames`); the journey reads them after that.
+
+**Where it meets v1.294.0 and S1-R1.** The look's tap is consumed before the tap router, so it is never the press on the
+bare map that closes the page (the journey's "the tap did nothing else" reads the address and free roam; M7 red). The
+look's light shares `_drawLight`: since S1-R1 a move played during the look (the roll's own rows stay) ends it with the
+light out at once.
+
+**Mutants** (each built alone into the served bundle, a control first, on the tree with S1-R1 in; the table is in the
+journey's header): a control green (4 of 4), then M1 no Map press, M2 the session dropped as the drawer shuts, M3 the look not lit, M4 a
+hidden move drawn as a hole, M5 no pill, M6 a drag ends the look, M7 the tap not consumed, M8 Map after Done, M9 Esc not
+the way back, M10 a computer shows Map, M11 the look framed in the ordinary calm area (a lit move under the pill), M12 the
+press at the practice page's floor: each red at the step the header names (23 Nov, 03:13 to 03:15). Units: LK1 to LK7 red, 38 of 38 with S1 and S2's.
+
+**Runs (local, under the lock).** `map-cloze-look.spec.ts` 12 of 12 three times over; its five neighbours (map-cloze-place,
+map-light, master-cloze, last-rolls-places, map-press-closes-page) 105 of 105; the 13 other files that open a cloze or
+read the map's names 266 of 266; `ci:validate` 26 of 26, the tree clean after (all on the tree with dev v1.295.0 in).
+Screens 09 to 12 at 390x631 (09 dev's bundle, 10 to 12 this one) in the briefing's `img/maplight/`.
+
+**Bytes** (the served app folders emptied first): eager gzip 378,802 B (+1,370 on PAY-L3's 377,432, of 5,000); deferred
+552,772 B, +1,944 on S2's 550,828, the ceiling moved to it in its own commits (47,228 B remain of the owner's 600,000).
+**Not measured:** the frame time of a look (the same layer as S1's, plus the pill's position written when it moves).
+
+**One fault of my own, on the way.** A "dry check" of the mutant runner's anchors imported the runner, whose last line ran
+it: three mutant builds and a Playwright run outside the build lock (23 Nov, 02:55 to 02:57), and my next held run was
+void (its build met a mutated source, its browser the port). Stopped by PID, the source restored from the commit, the run
+taken again; the runner now runs only when it is run.
