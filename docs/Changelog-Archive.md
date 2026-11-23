@@ -21051,5 +21051,17 @@ currently it's too thin and doesnt allow breathing very much". Part A (the plan,
   - The CLAUDE.md budget step first read `docs/Neural.md` 42 characters over its ceiling; my two edits there were trimmed,
     not the ceiling raised.
   - actionlint was replayed with the box's pinned binary.
+- **SET1-RED (PR #451's first CI run, shard 4):** "at least 32 px from the bottom" read 30.68 at 800x900, and "the
+  full-screen sheet" read [0, 1, 390, 632] at 390x631. The frame step read the card while its entrance (ngCardIn, 0.28 s,
+  an 8 px slide) was still moving it: `settled()` waited for the scroll alone.
+  - Seeking that animation to 150 ms gives 30.69 and [0, 1, 390, 632]; finished, exactly 32 and [0, 0, 390, 631].
+  - With the entrance slowed to 1.2 s, the step as shipped goes red on CI's two assertions; the step that waits for the
+    card's animations holds. On the shipped entrance both are green on this box.
+  - The tolerance is unchanged. Two must-stay-green controls (slow-entrance-800, slow-entrance-390) join the mutant runner.
+- **SET1-SYNC, dev v1.295.2 (6f00d6325) merged:**
+  - deferred re-measured, again exactly 555,121 B (the ceiling stays at its measured use, in its own commit);
+  - app rows re-seeded;
+  - `ci:validate` 26 of 26 replayed steps;
+  - settings-tabs 12 of 12; the frame mutants 3 of 3 and both controls held.
 - **Back, measured on the built page at 390:** Settings open on /Positions/Mount/Top, then Back, goes to "/" and Settings
   is gone with the page. On a first visit, Back leaves the site.
