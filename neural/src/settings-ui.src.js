@@ -2,7 +2,7 @@
 // gameplay laws, owner/auth control and general modal primitives remain eager.
 // Build identity is injected by build.mjs and verified before any instance is changed.
 export const NG_SETTINGS_PRESENTATION_BUILD = NG_SETTINGS_UI_BUILD;
-// ── SETTINGS IS ONE PAGE OF GROUPS (SET1, v1.295.2; the owner, 23 Nov 2026: "why is article settings inside rolling? one can
+// ── SETTINGS IS ONE PAGE OF GROUPS (SET1, v1.295.3; the owner, 23 Nov 2026: "why is article settings inside rolling? one can
 // just have landed in an article and not be rolling … it's too thin and doesnt allow breathing very much"; ruled SET1-GO). ──
 // It was five tabs in a 440 px card, and the Rolling tab held the article sections (1,415 of its 3,048 px), sound and the
 // gi/no-gi choice. Now every group is drawn into ONE scrolling panel, filed by what a setting is ABOUT (NG_SETTINGS_TABS,

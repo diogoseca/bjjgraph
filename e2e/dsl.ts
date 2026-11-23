@@ -706,7 +706,7 @@ export class Journey {
     return this;
   }
 
-  /** SETTINGS AT REST (SET1, v1.295.2). Settings is one page of groups: a press on a group GLIDES the panel to it, and the card
+  /** SETTINGS AT REST (SET1, v1.295.3). Settings is one page of groups: a press on a group GLIDES the panel to it, and the card
    *  itself enters with a 0.28 s fade that starts it 8 px low. A control measured before both have stopped is measured where no
    *  frame will leave it (the panel read a button at y=3,254 on a 900 px screen). This waits, as a player does, until the card's
    *  entrance has finished and the panel's scroll has held still for 150 ms. Settings must be open: an absent panel is an error. */

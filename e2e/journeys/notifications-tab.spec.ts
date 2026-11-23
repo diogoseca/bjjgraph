@@ -50,7 +50,7 @@ const SETTINGS_TABS = '[role="tablist"][data-settings-tabs] [role="tab"]';
 const ROW = "[data-digest-setting]";
 const OFF = "[data-digest-setting] button:nth-of-type(2)";
 const ON = "[data-digest-setting] button:nth-of-type(1)";
-// SET1 (v1.295.2): Settings is one page of groups (Practice, Rolling, Articles, General, Your odds, Email, Keyboard); the ids are
+// SET1 (v1.295.3): Settings is one page of groups (Practice, Rolling, Articles, General, Your odds, Email, Keyboard); the ids are
 // the tabs' were, so "notifications" is the Email group and "modifiers" Your odds. At 390 the list is a row of chips wider than
 // the phone, so a chip off the row is brought in by a real horizontal wheel over the row before it is tapped.
 async function bringChip(page: Page, id: string) {

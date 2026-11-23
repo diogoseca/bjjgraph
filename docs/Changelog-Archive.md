@@ -20891,7 +20891,7 @@ The owner, looking at the rows on production: "pressing the list name is the sam
 - **The first runs of 5 of these mutants proved nothing.** Port 8133 was held when they started, so no test ran; the
   runner now waits for the port and names the holder. They were run again and are counted only from that run.
 
-## v1.295.2 — Settings, one page of groups with room to breathe (SET1; the owner, 23 Nov 2026)
+## v1.295.3 — Settings, one page of groups with room to breathe (SET1; the owner, 23 Nov 2026)
 
 **The owner, 23 Nov 2026:** "in settings, why is article settings inside rolling? one can just have landed in an article and not
 be rolling, please improve the org of settings, and also the UX and filling and distance to the browser edge max width ofc but
@@ -20940,8 +20940,8 @@ currently it's too thin and doesnt allow breathing very much". Part A (the plan,
 **Corrections and findings:**
 - **Back does not close the phone sheet** (correction of Part A's claim): Back steps the page history, and Quartz's router
   remounts the app on that entry, as it did before SET1. A Back that only closes Settings needs a history entry of its own
-  and a popstate that pre-empts the router's: the history seam BGCLOSE (#446) just shipped. It was left out of this PR and
-  reported to the orchestrator. The sheet closes with its 44 px ✕ (and Esc).
+  and a popstate that pre-empts the router's: the history seam BGCLOSE (#446) just shipped. It is not in this PR (SET1-PUSH 1;
+  noted for a follow-up). The sheet closes by its 44 px close button and Esc.
 - **Two findings, NOT in this PR** (SET1-GO 6; the orchestrator takes them to the owner): modifiers are never saved
   (`userMods` lives in memory; gone on reload), and "Off" for the opponent sets its resistance to 0 rather than turning the
   roll off.

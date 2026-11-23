@@ -433,7 +433,7 @@ for (const touch of [false, true]) {
       expect(await goal(), "premise: not yet proven from memory").toBe(false)
       // the account menu and Settings fade in, and `press` refuses a control under effective opacity 0.5 (the neutral
       // control met it once in two): wait until the control is fully shown, then press it where it is
-      // A MISSING ELEMENT IS NOT SHOWN (SET1, v1.295.2): this read 1 for no element at all, so on Settings' first opening it passed
+      // A MISSING ELEMENT IS NOT SHOWN (SET1, v1.295.3): this read 1 for no element at all, so on Settings' first opening it passed
       // before the lazy Settings drawing existed, and the press that follows then met the group button mid-way through the card's
       // 0.28 s fade-in ("effective opacity 0.00"). It now waits for the element itself, then for it to be fully shown.
       const shown = (sel: string) => expect.poll(() => page.evaluate((s) => {

@@ -207,7 +207,7 @@ const tabIds = (card) => card.querySelectorAll('[role="tab"]').map((t) => t.getA
 const selectedTab = (card) => card.querySelector('[role="tab"][aria-selected="true"]').getAttribute("data-settings-tab");
 const panelOf = (card) => card.querySelector('[role="tabpanel"]').getAttribute("aria-labelledby");
 const key = (card, k) => card.querySelector('[role="tablist"]').fire("keydown", { key: k });
-// SET1 (v1.295.2): seven groups of one page, the five old ids kept and `reading` and `app` added (NG_SETTINGS_TABS).
+// SET1 (v1.295.3): seven groups of one page, the five old ids kept and `reading` and `app` added (NG_SETTINGS_TABS).
 const FIVE = ["flashcards", "rolling", "reading", "app", "modifiers", "notifications", "shortcuts"];
 const FOUR = ["flashcards", "rolling", "reading", "app", "modifiers", "shortcuts"];
 const digest = (card) => card.querySelector("[data-digest-setting]");
@@ -324,7 +324,7 @@ test("the Flashcards tab: Daily goal, Answer mode (Auto chosen for nothing store
   clickText(card, "Front Back cards"); assert.equal(app.get("mcMode"), "classic", "Front Back cards is the stored classic");
 });
 
-// SET1 (v1.295.2; the owner, 23 Nov 2026: "why is article settings inside rolling? one can just have landed in an article and not be
+// SET1 (v1.295.3; the owner, 23 Nov 2026: "why is article settings inside rolling? one can just have landed in an article and not be
 // rolling"; ruled SET1-GO): SETTINGS IS ONE PAGE OF GROUPS, filed by what a setting is about. Whatever group an opening names, every
 // group is drawn into the one panel, in NG_SETTINGS_TABS' order, the opening's group is the lit one, and the article's sections sit
 // in Articles, not under Rolling. The owner's note is first and word for word, with no emoji. Video is ONE switch (the film's row

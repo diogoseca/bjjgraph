@@ -123,7 +123,7 @@ for (const vp of VIEWPORTS) test.describe(`${vp.width}`, () => {
       await press(page, j, `${msg} [data-hidesec-settings]`, vp.touch, `${p.name}'s Settings`)
       const aimed = page.locator("[data-settings-aimed]")
       await expect(aimed, `${p.name}: Settings opens at its switch`).toBeVisible({ timeout: 10000 })
-      // SET1 (v1.295.2): the video's switch is the Video row under Articles, the one switch for the article's video and the film.
+      // SET1 (v1.295.3): the video's switch is the Video row under Articles, the one switch for the article's video and the film.
       const control = ["card", "hand"].includes(p.key) ? `[data-layer-toggle="${p.key}"]` : `[data-section-setting="${p.key}"]`
       await expect(aimed.locator(control), `${p.name}: the aimed row is its own`).toHaveCount(1)
       await expect(page.locator(control), `${p.name}: focused`).toBeFocused()
@@ -267,7 +267,7 @@ test("several closed in a row: one message per part, in place, and none moves wh
 })
 })
 
-// SET1 (v1.295.2, ruled SET1-GO 2): "Videos during play" (HIDESEC2 made it write the Video section's setting) and the Articles' Video
+// SET1 (v1.295.3, ruled SET1-GO 2): "Videos during play" (HIDESEC2 made it write the Video section's setting) and the Articles' Video
 // box were two switches for one setting; the Video row under Articles is now the one, and its second line says it is the film too.
 test("the Video row under Articles is the one switch for the film during a roll (1440, by mouse)", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })

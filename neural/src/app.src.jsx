@@ -407,7 +407,7 @@ const NG_MIX_SITES_BY_DEFAULT = true;
 // all read this, through `_settingsTabs` (the part of it one opening shows, NG_DIGEST_LIVE below),
 // and nothing else names a group (v1.196.1, when they were tabs). The id is what `openSettings(tab)` takes
 // and what `_settingsTab` holds, so a deep link keeps working through a rename of the LABEL.
-// SINCE SET1 (v1.295.2, the owner, 23 Nov 2026) THEY ARE GROUPS OF ONE PAGE, filed by what a setting is ABOUT:
+// SINCE SET1 (v1.295.3, the owner, 23 Nov 2026) THEY ARE GROUPS OF ONE PAGE, filed by what a setting is ABOUT:
 // Practice (cards) · Rolling (the game) · Articles (what an article shows, read with or without a roll; they
 // were inside Rolling) · General (gi/no-gi and sound, which act everywhere) · Your odds · Email · Keyboard.
 // The five old ids are kept, with new labels, and `reading` and `app` are new; ids only, no settings key moves

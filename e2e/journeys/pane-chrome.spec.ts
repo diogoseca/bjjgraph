@@ -68,7 +68,7 @@ test("the GI/NO-GI choice lives in Settings → General and nowhere else", async
   // clickByMouse deliberately does not wait — and then the claim is the same: a real mouse at
   // the tab's measured centre reaches it.
   await expect(page.locator('[data-settings-tab="app"]'), "the lazy Settings UI has loaded").toBeVisible()
-  // SET1 (v1.295.2): the one home is Settings → General (it was Rolling); a press on the group brings it to the top
+  // SET1 (v1.295.3): the one home is Settings → General (it was Rolling); a press on the group brings it to the top
   await j.clickByMouse('[data-settings-tab="app"]', "the General group")
   const gi = page.locator('[data-settings-group="app"] [data-settings-gi]')
   await expect(gi, "the one home: Settings → General").toBeVisible()

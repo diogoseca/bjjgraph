@@ -485,7 +485,7 @@ for (const width of [390, 1440]) test.describe(`catch drawer ${width}`, () => {
     await expect(page.locator('#ng-stab-rolling')).toBeVisible()
     const backdrop = { x: width - 4, y: 4 }
     if (width === 390) {
-      // SET1 (v1.295.2, ruled SET1-GO 5): on a phone Settings is a full-screen sheet, so there is no backdrop to tap; its 44 px close
+      // SET1 (v1.295.3, ruled SET1-GO 5): on a phone Settings is a full-screen sheet, so there is no backdrop to tap; its 44 px close
       // is the way out, and it closes as the backdrop does, through `closeModal`, leaving the pause where it was.
       // measured at rest: the card's entrance (ngCardIn, 0.28 s) starts it 8 px low, which leaves the backdrop under the corner meanwhile
       await page.waitForFunction(() => (window as any).__neural.modalCardRef.current.getAnimations().every((a: Animation) => a.playState === "finished"))

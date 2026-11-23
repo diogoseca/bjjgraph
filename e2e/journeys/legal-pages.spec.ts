@@ -260,7 +260,7 @@ for (const vp of [VIEWPORTS[0], VIEWPORTS[2]]) {
       await j.readerLayoutSettled()
       await press(page, j, '[data-hidesec-notice="principles"] [data-hidesec-settings]', vp.touch, "its message's Settings")
       await expect(page.locator('[data-settings-legal] [data-legal="terms"]'), "Settings is up").toBeVisible({ timeout: 10_000 })
-      // SET1 (v1.295.2): on a phone Settings is a full-height sheet whose foot sits on the screen's bottom edge, and the card's entrance
+      // SET1 (v1.295.3): on a phone Settings is a full-height sheet whose foot sits on the screen's bottom edge, and the card's entrance
       // (ngCardIn, 0.28 s) starts it 8 px low: the press is measured once the card is at rest, as a finger meets it
       await page.waitForFunction(() => (window as W).__neural.modalCardRef.current.getAnimations().every((a: Animation) => a.playState === "finished"))
       expect(await page.evaluate(() => !!(window as W).__neural.deckShown), "premise: the drawer is shut").toBe(false)

@@ -2,7 +2,7 @@ import { expect, test, type Page } from "@playwright/test";
 import { journey } from "../dsl";
 
 /**
- * SETTINGS IS ONE PAGE OF GROUPS, WITH ITS GROUP LIST ALWAYS IN VIEW, IN A FRAME THAT BREATHES (SET1, v1.295.2).
+ * SETTINGS IS ONE PAGE OF GROUPS, WITH ITS GROUP LIST ALWAYS IN VIEW, IN A FRAME THAT BREATHES (SET1, v1.295.3).
  *
  * The owner, 23 Nov 2026: "in settings, why is article settings inside rolling? one can just have landed in an article and
  * not be rolling, please improve the org of settings, and also the UX and filling and distance to the browser edge max width
@@ -31,8 +31,8 @@ import { journey } from "../dsl";
  * NOT covered: a modifier's own row (its dot, − / +, delete): it exists only after one is added in this visit, and is not lifted
  * to the target (modifiers are not saved; the orchestrator's finding). The search's clear button exists only while typing. That the
  * grain and the fade look right (a pixel check of a mask is theatre here). Real touch-drag scrolling (Playwright has no touch-move,
- * so the phone scrolls with a wheel, which is also real input). Back closing the phone sheet: Back steps the page history, as it
- * did before SET1 (see the archive's SET1 entry).
+ * so the phone scrolls with a wheel, which is also real input). Back closing only the phone sheet: NOT in this PR (SET1-PUSH 1,
+ * noted for a follow-up). The sheet closes by its close button and Esc; Back steps the page history, as it did before SET1.
  *
  * MUTANTS (tests/artifacts/settings_layout_mutants.mjs) name the test each kills.
  */
