@@ -21065,3 +21065,107 @@ currently it's too thin and doesnt allow breathing very much". Part A (the plan,
   - settings-tabs 12 of 12; the frame mutants 3 of 3 and both controls held.
 - **Back, measured on the built page at 390:** Settings open on /Positions/Mount/Top, then Back, goes to "/" and Settings
   is gone with the page. On a first visit, Back leaves the site.
+
+## v1.298.0 — Move an item to another list, and the order of a list, on every device (LISTS-R Slice 2; the owner, 19 Nov 2026)
+
+**Why.** The owner, 19 Nov: "how can i rename a list? or move items between lists like drag and drop?". Rename was Slice 1
+(v1.293.5, then the list's ⋮ in v1.295.1). This is the move, by the control a phone can use, and since the item menu
+(v1.295.2) gave Move up and Move down, the order too. The drag on a desktop is Slice 3.
+
+**What a player sees.**
+- An item's ⋮ menu: Share · Move up · Move down · **Move to…** · Remove from list. Move to… opens the star's own menu in its
+  MOVE mode (`[data-list-picker-move]`), anchored to that ⋮: the list the item is in is shown ("here") and cannot be
+  chosen; a list that has it already can be (the move then only takes it out of here); a full one cannot; "New list"
+  makes a list and moves the item into it.
+- The move mode takes keys: a key opens it on its first row that can be chosen; ↑ ↓ Home End; Enter picks; Esc and Tab
+  close it, focus back on the ⋮. A key-made move puts focus on the item's ⋮ in the list it went to.
+- One Undo row, three kinds (a list's delete, an item's removal, a move); the newest offer wins and says what it takes
+  back. A move's Undo puts the item back at its place, and a list the move emptied comes back whole.
+- Move up and Move down now sync (v1.295.2 reordered on that device only).
+
+**Why records, not the lists.** Lists merge add-wins: a union, the local order first. So a move alone comes back from the
+next device that still held the item, and a reorder never leaves the device. Two top-level fields, both pure code in
+`neural/src/lists.src.js` (the comment blocks above `NG_LIST_MARK_CAP` and `NG_LIST_ORDER_CAP` carry the design):
+- **`listItemAt`** `{list: {node: [t, 0|1]}}`: one cell per list and item a move touched. Per cell the later stamp wins;
+  a tie goes to "in". Applied after the union, never removing an item's last place. Trimmed to 200 by one total order
+  (t desc, list, node), so every device trims the same set. Written by a move (two cells, one stamp), by its Undo, and by
+  an add into a list holding a cell for that item.
+- **`listOrderAt`** `{list: [t, [ids]]}` (ORDER-OK): one register per list, written by a reorder with the list's whole
+  order. The later stamp wins; an exact tie goes to the array first by string order. A list's order is DERIVED from its
+  record on load and on every merge: items the record does not name come after it in their own order. Trimmed to the
+  100 most recently reordered lists. A reorder never bumps the list's `t` (the panel's recency order).
+- **Rejected on the way: a stamp alone, and a fingerprint.** A per-list stamp without the order lets an older build launder
+  a stale order (it keeps the stamp as an extra and writes its own order). A fingerprint of the order under the stamp
+  lets two current devices each re-claim "their" order under one stamp after a merge: no loss, but a push loop. The
+  record holding the order itself converges.
+- **One clock for both:** `_listMarkStamp` is later than every list stamp, every cell and every record held, so a device
+  whose clock is behind still writes later than what it has seen (a record stamped an hour ahead is in the units).
+- **An insertion keeps the record true** (`_keepListOrder`): an item a record still names, added back at the end (the
+  star's add, a move back in) or put back by an Undo after a merge changed the record, would jump to its old place at
+  the next load or merge, on every device. The insertion rewrites the record to what is shown. A delete's Undo is the one
+  exception: it takes the record's order (another device may have reordered the list meanwhile, and that is the newer
+  knowledge). Found by reading the reorder writer, not by a red; pinned by sync unit 9.
+- **Older builds keep both, byte for byte.** Every build since v1.207.0 keeps an unknown top-level key (`_progressExtras`,
+  local-wins), so an older build carries the cells and the record through its own load and save while showing its own
+  union. The next current device heals the lists from them.
+- **Neither field is written by an account that never moves or reorders**, so its saved, pushed and hashed record is the
+  one it had (`ngProgressCloudKey`: both are compared in order, so a reorder alone changes the key and is pushed).
+- Not added to `ngProgressValidateBlob`'s object-typed keys: a damaged value there would make the whole record invalid
+  and hold the app before it draws (L1-R1). The readers (`ngListMarksNormalize`, `ngListOrderNormalize`) drop junk.
+
+**A collision found by the first journeys.** The move menu's row method was first named `_moveRow`, which the moves record
+already defines. The class has no duplicate-method guard: the later definition wins silently, so the picker called the
+moves record's method and threw after drawing its head (five journeys red). Renamed `_pickMoveRow`; mutant J8 puts the
+collision back and the journeys go red.
+
+**Older builds, run for real** (each a detached worktree at its tag, its own payload and bundle, a private port):
+v1.294.0 (tag v2026.11.19.1, production; its `neural.js` sha256 equal to production's served file, 76ad9ae8094eadb0),
+v1.293.3 (tag v2026.11.19), v1.252.0 (tag v2026.11.09), run against this build's final bundle. For each, 3 of 3, no page
+error on either side:
+- (a) a record holding moved lists, cells and an order record loads with no page error, and survives the older build's
+  own save byte for byte (cells and record both);
+- (b) the older build's own merge re-unions the moved item into its source and keeps both fields; the current build
+  heals it, by a plain load and by a merge (the item out of the source; the record's order);
+- (c) an older device holding a stale copy of the cells keeps its own (local-wins extras); the current build's merge
+  restores the newer cells and lists.
+The older builds' validators are captured too: `tests/artifacts/progress_validators.json` gains v1.293.3 and v1.294.0 (one
+progress-owner file, one sha256); the v1.252.0 row is named by its version. The L1-R3 integration premises now name the two
+clients that refuse a damaged `explored` list (v1.280.4, v1.252.0); the newer two accept it, so they are readers only.
+
+**Proofs.**
+- `tests/share_lists_store.test.mjs`: 30 of 30 (16 for the two fields: the move in both merge orders, an older union
+  healed, the last item, the guard, a re-add, the tie, two moves at once, the Undo's cells, commutative, idempotent, the
+  trim; a reorder in both orders, a concurrent add after it, an older build's order never adopted, the order only sorts,
+  records merge/tie/trim, junk).
+- `tests/list_moves_sync.test.mjs`: 10 of 10, the real app class and progress host against a fake cloud that HOLDS another
+  device's lists, cells, orders and stamps (cases listed in its header).
+- `e2e/journeys/lists-move.spec.ts`: five journeys (1440 by mouse; the menu's row states and New list; keys; 390x631 by
+  touch, both menus whole on screen for the last row of a 12-item list; two browsers on one account: the move, and a
+  Move up in the other browser coming back through `listOrderAt`).
+- Units mutants (10, against the two unit files): add keeps no order · delete's Undo overwrites the record · a reorder
+  writes no record · the merge ignores the order · the load ignores the order · the save drops the record · the stamp
+  not past the records · the merge keeps the older record · a move back in keeps no order · the key blind to the record.
+  **10 killed.** Two first survived and were missing cases, now pinned: the merge's own output order (another tab of the
+  browser stores it as it is, and an older build open there reads `lists` only) and a move back into a list.
+- Journey mutants (11 plus a control, each built and run against `lists-move.spec.ts` and `lists-item-menu.spec.ts`, 8
+  journeys): the control (a comment edit) 8 of 8 green; Move to… absent from the item menu (7 red); Move to… opening
+  nothing (5); the picker row method colliding by name again (5); the move mode taking no keys (1); a key-made move
+  dropping the focus (1); a move writing no cells (2); a reorder writing no record (2); the merge and the load ignoring the
+  order (1, the two-browser journey); the move's Undo putting the item at the end (1; the touch journey moves the LAST
+  item, whose place is the end either way); a full list choosable (1); the list it is in choosable (1). **11 killed**, each
+  on the journeys it was expected to turn red.
+
+**Bytes** (gzip -9, like the gate; dev fc050d9e4's bundle built in a detached tree of it, and this one):
+- `neural.js` 239,999 → 242,449 B (**+2,450**; raw 758,637 → 768,090) and `neural.css` 13,047 → 13,047 B (0).
+- The gate (`check_payload_budget.py`, exit 0) reads eager 382,012 B: **+4,580 over the PAY-L3 baseline** of 377,432 B
+  against a delta cap of 5,000 (dev's own share +2,130). 420 B are left before the cap: the next eager change needs a
+  checkpoint first.
+- `payload-first-hand.spec.ts` (1 of 1): the first-hand core 401,491 B, **+4,601 over its baseline** of 396,890 B against a
+  cap of 6,000 (1,399 B left).
+- No baseline, ceiling or gate moved.
+
+**Runs, all local, under the lock:**
+- the 40 journeys that touch lists (`| wc -l` first): **447 of 447** before dev fc050d9e4 came in; after it, the 22 of the
+  lists area again: **179 of 179**;
+- `npm run test:units` on the merged tree: **1853 passed, 0 failed**;
+- the three older builds against this build's final bundle: 3 of 3 each.
