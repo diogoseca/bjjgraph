@@ -54,6 +54,10 @@ function nglClamp(s, max) {
 // Items are NODE IDS, never ordinals and never array indices — ordinals are a wire detail and
 // indices are unstable. `t` is the last-touched time; it settles name conflicts on merge.
 
+/** A stamp every reader accepts: a positive integer below 2^52 (MOVE-R2 R4). Lists, cells and records share one rule, so a
+ * stamp one of them writes is never dropped by another, and `+ 1` on the newest is always a new, larger integer. */
+export function ngListStampOk(t) { return Number.isSafeInteger(t) && t > 0 && t < 4503599627370496; }
+
 /** Sanitize an untrusted lists blob (localStorage is user-writable; cloud rows outlive
  *  schemas). Never throws; drops what it cannot understand. */
 export function ngListsNormalize(raw) {
@@ -76,7 +80,11 @@ export function ngListsNormalize(raw) {
     out[id] = {
       name: nglClamp(entry.name, NG_LIST_NAME_MAX) || "Class list",
       items: items,
-      t: Number.isFinite(t) && t > 0 ? t : 0,
+      // an integer below 2^52 (MOVE-R1 F5, MOVE-R2 R4): `_listStamp` adds 1 to the newest `t`, and every later list, cell
+      // and record stamp of this device is built on it. A non-integer would make them non-integers, and 2^53 - 1 would make
+      // them 2^53: the cell and record readers drop both, so every later move would hold here and silently not sync. Every
+      // build writes Date.now()-scale integers (about 2^40.7 today); nothing real is near it.
+      t: ngListStampOk(t) ? t : 0,
     };
   }
   return out;
@@ -88,9 +96,17 @@ export function ngListsNormalize(raw) {
  *
  * The documented cost: a DELETE loses to a stale device that still has the list. That is the
  * deliberate trade — deleting again is trivial; losing the list a class was built from (and
- * that is already posted in a WhatsApp group) is not.
+ * that is already posted in a WhatsApp group) is not. It reaches further than "stale" suggests:
+ * every other device that holds the list carries its own copy into its next merge, so on an
+ * account used on two devices a × or a delete comes back at the other's next pull, unless both
+ * did it (measured with this function, LISTS-A).
+ *
+ * `marks` (optional): the item cells of a MOVE (`listItemAt`, below). With them, an item that left
+ * a list by a move stays out of it, however many devices still hold the old copy.
+ * `order` (optional): the ORDER records (`listOrderAt`, below), the merged ones. With them, a list's order is derived
+ * from its record, not from whichever copy the union started from.
  */
-export function ngMergeLists(local, cloud) {
+export function ngMergeLists(local, cloud, marks, order) {
   const a = ngListsNormalize(local);
   const b = ngListsNormalize(cloud);
   const out = {};
@@ -110,6 +126,118 @@ export function ngMergeLists(local, cloud) {
       items: items,
       t: Math.max(l.t, c.t),
     };
+  }
+  const moved = marks ? ngListsApplyMarks(out, marks) : out;
+  return order ? ngListsApplyOrder(moved, order) : moved;
+}
+
+// ─────────────────────────────────────────────────────────────── a MOVE between lists (LISTS-R, ruling 2)
+// The owner, 19 Nov: "how can i rename a list? or move items between lists like drag and drop?". A move is "add there,
+// take out here", and the take-out is what the add-wins union above cannot keep: the other device still holds the item
+// in the source, so the union put it back and a move became a copy (if the source was emptied, the whole source came
+// back). So a move records itself in a new top-level key of the progress blob, `listItemAt`:
+//   { "<listId>": { "<nodeId>": [t, 0|1] } }
+// one CELL per (list, item) that a move touched: the last time that item ENTERED (1) or LEFT (0) that list.
+//   · WRITTEN by a move (out of the source, into the target, one stamp), and by an add into a list that already has a
+//     cell for that item (so a re-add after a move beats the old "out"). Nothing else writes one: × and a list's
+//     delete keep the add-wins rule above, deliberately.
+//   · MERGED per cell: the later `t` wins; a tie goes to "in" (add-wins, like everything else here).
+//   · READ after the union (`ngListsApplyMarks`): an item whose winning cell for a list says "out" is taken out of
+//     that list, UNLESS it would then stand in no list at all (THE NO-LOSS GUARD: a target capped by the union, a
+//     target deleted on every device). A list the cells empty is gone, as an empty list always is.
+//   · TRIMMED to the NG_LIST_MARK_CAP newest cells, by a total order every device computes alike. A trimmed cell only
+//     returns its (list, item) to the add-wins rule above; it can never take an item out.
+// TOP LEVEL, NOT INSIDE A LIST: `ngListsNormalize` rebuilds each list as {name, items, t}, so a field inside a list is
+// dropped on load by every build ever shipped; an unknown top-level key is kept whole by every build since v1.207.0
+// (`_progressExtras`), which is how an older client carries the cells it cannot read.
+export const NG_LIST_MARK_CAP = 200;
+const NGLM_UNSAFE = ["__proto__", "constructor", "prototype"];
+
+function nglmTrim(m) {
+  const all = [];
+  for (const lid of Object.keys(m)) for (const nid of Object.keys(m[lid])) all.push([m[lid][nid][0], lid, nid]);
+  if (all.length <= NG_LIST_MARK_CAP) return m;
+  // newest first; equal stamps by list id, then item id: one order on every device, so two devices keep one set
+  all.sort((a, b) => b[0] - a[0] || (a[1] < b[1] ? -1 : a[1] > b[1] ? 1 : 0) || (a[2] < b[2] ? -1 : a[2] > b[2] ? 1 : 0));
+  const out = {};
+  for (const [, lid, nid] of all.slice(0, NG_LIST_MARK_CAP)) (out[lid] = out[lid] || {})[nid] = m[lid][nid];
+  return out;
+}
+
+/** Sanitize an untrusted `listItemAt` (user-writable storage; a cloud row from any build). Never throws; a fresh copy. */
+export function ngListMarksNormalize(raw) {
+  const out = {};
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return out;
+  for (const lid of Object.keys(raw)) {
+    const row = raw[lid];
+    if (!lid || NGLM_UNSAFE.indexOf(lid) >= 0 || !row || typeof row !== "object" || Array.isArray(row)) continue;
+    for (const nid of Object.keys(row)) {
+      const c = row[nid];
+      if (!nid || NGLM_UNSAFE.indexOf(nid) >= 0 || !Array.isArray(c) || c.length < 2) continue;
+      const t = c[0], f = c[1];
+      // an integer below 2^52 only (MOVE-R1 F5, MOVE-R2 R4, `ngListStampOk`): at 2^53 or more `t + 1 === t`, so no later
+      // write could ever beat a damaged stamp and the cell would be frozen for good (the reader's freeze.mjs).
+      if (!ngListStampOk(t) || (f !== 0 && f !== 1)) continue;
+      (out[lid] = out[lid] || {})[nid] = [t, f];
+    }
+  }
+  return nglmTrim(out);
+}
+
+/** Two copies' cells: per cell the later stamp wins, a tie goes to "in". Commutative, idempotent, trimmed alike. */
+export function ngListMarksMerge(a, b) {
+  const A = ngListMarksNormalize(a), B = ngListMarksNormalize(b), out = {};
+  for (const M of [A, B]) for (const lid of Object.keys(M)) for (const nid of Object.keys(M[lid])) {
+    const c = M[lid][nid], row = (out[lid] = out[lid] || {}), o = row[nid];
+    if (!o || c[0] > o[0] || (c[0] === o[0] && c[1] > o[1])) row[nid] = [c[0], c[1]];
+  }
+  return nglmTrim(out);
+}
+
+/** One cell written (a copy; `f` 1 = entered, 0 = left). */
+export function ngListMarksSet(marks, lid, nid, t, f) {
+  const out = ngListMarksNormalize(marks);
+  if (!lid || !nid || NGLM_UNSAFE.indexOf(lid) >= 0 || NGLM_UNSAFE.indexOf(nid) >= 0 || !(t > 0)) return out;
+  (out[lid] = out[lid] || {})[nid] = [t, f ? 1 : 0];
+  return nglmTrim(out);
+}
+
+/** How many cells, and the newest stamp among them (a new cell must be later than every cell held). */
+export function ngListMarksCount(marks) {
+  let n = 0;
+  for (const lid of Object.keys(marks || {})) n += Object.keys(marks[lid] || {}).length;
+  return n;
+}
+export function ngListMarksNewest(marks) {
+  let hi = 0;
+  for (const lid of Object.keys(marks || {})) for (const nid of Object.keys(marks[lid] || {})) {
+    const c = marks[lid][nid];
+    if (Array.isArray(c) && c[0] > hi) hi = c[0];
+  }
+  return hi;
+}
+
+/**
+ * The cells applied to normalized lists (a copy). Lists in id order, so every device takes the same item out of the
+ * same list when the guard has to choose. THE NO-LOSS GUARD: an "out" never removes an item's last place.
+ */
+export function ngListsApplyMarks(lists, marks) {
+  const M = ngListMarksNormalize(marks), out = {};
+  for (const id of Object.keys(lists || {})) out[id] = { name: lists[id].name, items: lists[id].items.slice(), t: lists[id].t };
+  const elsewhere = (lid, nid) => {
+    for (const k of Object.keys(out)) if (k !== lid && out[k].items.indexOf(nid) >= 0) return true;
+    return false;
+  };
+  for (const lid of Object.keys(M).sort()) {
+    const l = out[lid];
+    if (!l) continue;
+    for (const nid of Object.keys(M[lid]).sort()) {
+      if (M[lid][nid][1] !== 0) continue;
+      const at = l.items.indexOf(nid);
+      if (at < 0 || !elsewhere(lid, nid)) continue;
+      l.items.splice(at, 1);
+    }
+    if (!l.items.length) delete out[lid];
   }
   return out;
 }
@@ -200,4 +328,100 @@ export function ngShareOgDescription(names, total) {
   const joined = nglJoinWithin(list, head + " from this class: ", NGL_OG_DESC_MAX - tail.length - 2);
   const body = joined.used ? (joined.used < n ? joined.text + " …" : joined.text) : head + " from this class";
   return nglClamp(body + tail, NGL_OG_DESC_MAX);
+}
+
+
+// ─────────────────────────────────────────────────────────────── a list's ORDER (ORDER-OK, 23 Nov 2026)
+// Move up / Move down change a list's order. The union above keeps THIS copy's order and appends the other's extras, and
+// the no-echo key compares a list's items as a set, so before this an order never synced on purpose. A reorder records
+// the list's whole order in a new top-level key of the progress blob, `listOrderAt`:
+//   { "<listId>": [t, ["<nodeId>", …]] }
+// ONE REGISTER PER LIST: the later `t` wins; on an exact tie the record whose array is first in string order wins, so
+// every device keeps the same one. Written by a reorder, and by an insertion into a list that has a record (the app's
+// `_keepListOrder`: the adding device's record names what it holds). A list's shown order is DERIVED from its winning
+// record (`ngListsApplyOrder`): its items, the union's and the move cells' result, sorted by their place in the record;
+// items the record does not name come after it IN ID ORDER (MOVE-R1, F2). They are what two devices added at once, or
+// what an older build appended, and the union holds them in each copy's own order: "their own order after it" kept a
+// different order on each device for good (the reader's tail.mjs: the record [B, A], one device [B, A, C, D], the other
+// [B, A, D, C], 354 of 3,000 runs), and the no-echo key, which compares a list's items as a set, never settled it. One
+// rule every device computes alike settles it with no write.
+// Nothing is ever dropped: the derivation only sorts. The `lists` order is then a cache every current build re-derives, so
+// an older build's stale order (it merges local first and keeps this key untouched through `_progressExtras`) is never
+// adopted. WHY THE ORDER ITSELF AND NOT A STAMP ALONE: with a stamp alone an older build pushes its old order under the
+// new stamp and a third device adopts it; with a stamp plus a fingerprint, two current devices each recompute a valid
+// claim under one stamp and push them back and forth (both worked through before this was written; the report's
+// "## Order, a hole in my own plan" and its correction). Trimmed to the NG_LIST_ORDER_CAP most recently reordered lists;
+// a trimmed list falls back to the union's order.
+export const NG_LIST_ORDER_CAP = 100;
+
+function ngloTrim(m) {
+  const ids = Object.keys(m);
+  if (ids.length <= NG_LIST_ORDER_CAP) return m;
+  ids.sort((a, b) => m[b][0] - m[a][0] || (a < b ? -1 : a > b ? 1 : 0));
+  const out = {};
+  for (const id of ids.slice(0, NG_LIST_ORDER_CAP)) out[id] = m[id];
+  return out;
+}
+
+/** Sanitize an untrusted `listOrderAt`. Never throws; a fresh copy. */
+export function ngListOrderNormalize(raw) {
+  const out = {};
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return out;
+  for (const lid of Object.keys(raw)) {
+    const rec = raw[lid];
+    if (!lid || NGLM_UNSAFE.indexOf(lid) >= 0 || !Array.isArray(rec) || rec.length < 2) continue;
+    const t = rec[0];
+    if (!ngListStampOk(t) || !Array.isArray(rec[1])) continue;   // an integer below 2^52, as the cells (F5, R4)
+    const ids = [];
+    for (const nid of rec[1]) {
+      if (typeof nid !== "string" || !nid || ids.indexOf(nid) >= 0) continue;
+      ids.push(nid);
+      if (ids.length >= NG_LIST_ITEM_CAP) break;
+    }
+    if (ids.length) out[lid] = [t, ids];
+  }
+  return ngloTrim(out);
+}
+
+/** Two copies' records: per list the later stamp; an exact tie, the array first in string order. Commutative. */
+export function ngListOrderMerge(a, b) {
+  const A = ngListOrderNormalize(a), B = ngListOrderNormalize(b), out = {};
+  for (const M of [A, B]) for (const lid of Object.keys(M)) {
+    const r = M[lid], o = out[lid];
+    if (!o || r[0] > o[0] || (r[0] === o[0] && JSON.stringify(r[1]) < JSON.stringify(o[1]))) out[lid] = [r[0], r[1].slice()];
+  }
+  return ngloTrim(out);
+}
+
+/** A reorder's record: the list's whole order now (a copy). */
+export function ngListOrderSet(order, lid, t, ids) {
+  const out = ngListOrderNormalize(order);
+  if (!lid || NGLM_UNSAFE.indexOf(lid) >= 0 || !(t > 0) || !Array.isArray(ids)) return out;
+  const clean = ngListOrderNormalize({ x: [t, ids] }).x;
+  if (clean) out[lid] = clean;
+  return ngloTrim(out);
+}
+
+/** The newest stamp among the records (a new record must be later than every record held). */
+export function ngListOrderNewest(order) {
+  let hi = 0;
+  for (const lid of Object.keys(order || {})) { const r = order[lid]; if (Array.isArray(r) && r[0] > hi) hi = r[0]; }
+  return hi;
+}
+
+/** Lists in their derived order (a copy): each list's items sorted by their place in its record; the rest after, by id. */
+export function ngListsApplyOrder(lists, order) {
+  const O = ngListOrderNormalize(order), out = {};
+  for (const id of Object.keys(lists || {})) {
+    const l = lists[id], rec = O[id];
+    let items = l.items.slice();
+    if (rec) {
+      const pos = new Map(rec[1].map((nid, i) => [nid, i]));
+      const named = items.filter((nid) => pos.has(nid)).sort((x, y) => pos.get(x) - pos.get(y));
+      const rest = items.filter((nid) => !pos.has(nid)).sort();   // by id: one order on every device, whatever its copy held
+      items = named.concat(rest);
+    }
+    out[id] = { name: l.name, items: items, t: l.t };
+  }
+  return out;
 }
