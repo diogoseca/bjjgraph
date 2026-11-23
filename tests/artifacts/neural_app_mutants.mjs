@@ -304,9 +304,8 @@ const controls = [
   // v1.253.0: the film's seat row prints the win bar's own number.
   ['seat-win-unwired', 'state-win.spec.ts', 'seat row prints',
     [['currentWinView(){return this._winView||', 'currentWinView(){return null||']], 'the seat row agrees with the win bar'],
-  // v1.253.0 (#354's review, finding 1): a landing the background tap took away comes back from its index row.
-  ['land-away-unrestored', 'index-reveal.spec.ts', 'after a background tap the Questions',
-    [['restoreLanding(){if(!this._landAway())return!1;', 'restoreLanding(){return!1;if(!this._landAway())return!1;']], 'the row brings this landing\'s card and film back'],
+  // BGCLOSE (v1.294.0) RETIRED land-away-unrestored with its subject (v1.253.0, #354's review, finding 1: a landing the background
+  // tap took away comes back from its index row): one press on the map closes the whole page; restoreLanding is gone.
   // v1.253.0 (U114 a): with the shelf retired, nothing reserves the bottom where no chrome falls under the grid.
   ['reader-reserve-shelf-floor', 'reader-fold.spec.ts', '1440x900',
     [['_readerReserve(e){let t=0', '_readerReserve(e){let t=12']], 'the reader runs to the fold'],

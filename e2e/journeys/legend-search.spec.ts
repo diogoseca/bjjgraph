@@ -73,19 +73,16 @@ for (const [width, height, touch] of [[1440, 900, false], [768, 1024, true]] as 
       // A patch earned at this landing shows its notice at the top; put it away first, so no tap below lands on it.
       const reward = await page.evaluate(() => { const b = document.querySelector("[data-reward-close]"), r = b?.getBoundingClientRect(); return r && r.width ? [r.left + r.width / 2, r.top + r.height / 2] as [number, number] : null })
       if (reward) { if (touch) await page.touchscreen.tap(...reward); else await page.mouse.click(...reward); await j.advance(600); await j.readerLayoutSettled() }
-      // Free roam: the background ladder closes the card and the film, then roams, and the article goes with it (U123).
-      for (let i = 0; i < 2; i++) {
-        // picked afresh: closing the card moves the article up, over a point that was map before
-        await j.advance(600)
-        const tap = await emptyMap(page); expect(tap, "premise: an empty point on the map").not.toBeNull()
-        await page.evaluate(() => { const w = window as W; w.__tapClick = null; document.addEventListener("click", e => { w.__tapClick ??= (e.target as Element).closest?.("[data-game-open]")?.getAttribute("data-game-open") || (e.target as Element).outerHTML.slice(0, 160) }, { capture: true, once: true }) })
-        if (touch) await page.touchscreen.tap(...tap!); else await page.mouse.click(...tap!)
-        await j.readerLayoutSettled(); await frame(j)
-        if (i) continue
-        // v1.254.0, the ghost press: the label takes the card's place at once, and a touch tap's click is hit-tested after that
-        if (touch) expect(await page.evaluate(() => (window as W).__tapClick), "premise: the tap's own click landed on the Questions label").toBe("card")
-        expect((await key(page)).card, "the tap that closed the card does not reopen it through the label that took its place").toBe(false)
-      }
+      // Free roam: one press on the bare map closes the page, and the article goes with it (U123; BGCLOSE, v1.294.0). It was a
+      // ladder of two taps here, and the first carried v1.254.0's ghost press: the "Questions" label took the card's place at
+      // once and a touch tap's own click, hit-tested after that, landed on it ("premise: the tap's own click landed on the
+      // Questions label"). That label showed only for a card the tap had taken away and is never on screen now, so the premise
+      // is gone with it; what is kept is the claim: the press that closed the card does not bring it back.
+      await j.advance(600)
+      const tap = await emptyMap(page); expect(tap, "premise: an empty point on the map").not.toBeNull()
+      if (touch) await page.touchscreen.tap(...tap!); else await page.mouse.click(...tap!)
+      await j.readerLayoutSettled(); await frame(j)
+      expect((await key(page)).card, "the tap that closed the card does not reopen it").toBe(false)
       // U123 (owner, 2026-11-11): free roam puts the article and its index away too, so it is the map alone, and the key is back.
       const roam = await key(page)
       expect({ card: roam.card, film: roam.film, roam: roam.roam, article: roam.article }, "premise: free roam, the card, the film and the article off the screen").toEqual({ card: false, film: false, roam: true, article: false })

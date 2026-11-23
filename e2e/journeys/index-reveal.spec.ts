@@ -57,35 +57,19 @@ for (const [type, close, what] of CASES) {
   })
 }
 
-// #354's review (finding 1), and very likely the owner's own note 3: a background tap on the map closes THIS landing's card and film
-// (v1.134.0) and leaves their preferences on, so the rows read open and did nothing (reproduced on production v1.252.0 at 1440).
-// The rows read closed now, and a press brings the landing's card and film back. Entered here by the background tap itself.
-const parts = (page: Page) => page.evaluate(() => {
-  const a = (window as any).__neural, on = (e: Element | null) => !!e && e.isConnected && e.getClientRects().length > 0 && getComputedStyle(e).visibility !== "hidden" && !e.closest("[hidden]")
-  return { card: on(a._landEl), film: on(a._landFilmEl) }
-})
-for (const [type, what] of [["card", "Questions"], ["videos", "Video"]] as const) {
-  test(`v1.253.0: after a background tap the ${what} index row brings this landing's card and film back (1440, by mouse)`, async ({ page }) => {
-    const j = await boot(page)
-    const tap = await page.evaluate(() => { for (const [x, y] of [[1320, 160], [1300, 320], [1380, 640], [1260, 90], [1000, 120]]) { const e = document.elementFromPoint(x, y); if (e?.tagName === "CANVAS") return [x, y] as [number, number] } return null })
-    expect(tap, "premise: an empty point on the map").not.toBeNull()
-    const before = (await j.beats()).length
-    await page.mouse.click(...tap!); await j.readerLayoutSettled()
-    expect((await j.beats()).slice(before).map(b => b.beat), "premise: a background tap").toContain("land_dismissed")
-    expect(await parts(page), "premise: it took the card and the film away").toEqual({ card: false, film: false })
-    const row = page.locator(`.ng-reader-toc-row[data-toc-type="${type}"]`)
-    await expect(row, "the row reads closed").toHaveAttribute("data-collapsed", "true")
-    await j.clickByMouse(`.ng-reader-toc-row[data-toc-type="${type}"] a`, `the ${what} index row`)
-    await j.readerLayoutSettled()
-    expect(await parts(page), "the row brings this landing's card and film back").toEqual({ card: true, film: true })
-    await expect(row, "and reads open again").toHaveAttribute("data-collapsed", "false")
-  })
-}
-
+// RETIRED WITH ITS SUBJECT (BGCLOSE, v1.294.0; the owner, 19 Nov 2026): two journeys of v1.253.0 stood here, "after a background tap
+// the Questions index row brings this landing's card and film back" and the same for the Video row (#354's review, finding 1). A
+// background tap closed THIS landing's card and film and left the hand, the article and its index, and the row brought them back.
+// One press on the bare map closes the whole page now, the index with it: there is no row left to press and no "this landing" to
+// bring back (`_landDismissed`, `_landAway` and `restoreLanding` are gone from the app and the reader). What a press on the map
+// does is map-press-closes-page.spec.ts's; that an index row reopens a part closed by its own ✕ is the three journeys above.
 // #354's review, round 7 (finding 1, nit 6): a part's label, index row, aria and Hide/Show text read ONE answer, painted on every layout
-// pass: closed by its preference, or taken away with this landing (_landAway). Before, they were written at sync only, so after a
-// second tap (free roam) they still read closed with nothing to restore; and a press on a label that reads closed now only ever
-// opens. Entered as the review describes: wheel the article (reading), then tap empty map twice.
+// pass: closed by its preference (and, until BGCLOSE, "or taken away with this landing", `_landAway`). Before, they were written at
+// sync only, so after a second tap (free roam) they still read closed with nothing to restore; and a press on a label that reads
+// closed only ever opens. Entered as the review describes: wheel the article (reading), then press the empty map.
+// BGCLOSE (v1.294.0): ONE press is free roam now, so the first half of the old journey ("after a background tap the Questions
+// control reads closed") has no state left to read; the half that outlives it is kept: after the press that closes the page
+// nothing reads closed and no layer was turned off.
 const emptyMap = (page: Page) => page.evaluate(() => { for (const [x, y] of [[1320, 160], [1100, 140], [1300, 320], [1380, 640], [1000, 120], [1040, 300]]) { if (x > innerWidth) continue; const e = document.elementFromPoint(x, y); if (e?.tagName === "CANVAS") return [x, y] as [number, number] } return null })
 const look = (page: Page) => page.evaluate(() => {
   const a = (window as any).__neural, s = a._reader.gameSections.find((g: any) => g.part === "card")
@@ -103,66 +87,36 @@ async function wheelThenTap(page: Page, j: any) {
   return tap!
 }
 for (const width of [1152, 1440]) {
-  test(`v1.253.0: after a background tap the Questions control reads closed, and after a second (free roam) it reads open again (${width}, by mouse)`, async ({ page }) => {
+  test(`after the press on the map that closes the page the Questions control reads open: no label, no row closed, the layer still on (${width}, by mouse)`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     const j = journey(page)
     await j.boot(PATH, { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", route => route.continue()) } })
     await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible(); await j.readerLayoutSettled()
-    const tap = await wheelThenTap(page, j)
-    const away = await look(page)
-    expect(away, "away: the control reads closed, its aria too").toMatchObject({ collapsed: "true", aria: "false", text: "Show Questions" })
-    if (width < 1350) expect(away.label, "no index here: the Questions label shows").toBe(true)
-    else expect(away.row, "the index row reads closed").toBe("true")
-    await page.mouse.click(...tap); await j.advance(300); await j.readerLayoutSettled()
-    expect(await page.evaluate(() => !!(window as any).__neural._roam), "premise: the second tap is free roam").toBe(true)
+    await wheelThenTap(page, j)
+    await j.advance(300); await j.readerLayoutSettled()
+    expect(await page.evaluate(() => !!(window as any).__neural._roam), "premise: one press is free roam").toBe(true)
     const roam = await look(page)
-    expect(roam, "in free roam nothing can come back: it reads open again, label hidden, the layer still on")
+    expect(roam, "in free roam nothing can come back: it reads open, label hidden, the layer still on")
       .toMatchObject({ label: false, collapsed: "false", aria: "true", text: "Hide Questions", landCard: true, off: 0 })
     if (width >= 1350) expect(roam.row, "and the row reads open").toBe("false")
   })
 }
-test("v1.253.0: a press on a Questions label still reading closed never turns the card layer off (the rule)", async ({ page }) => {
+// The rule itself, kept: the label's handler only ever OPENS. Its old premise ("the label reads closed and shows", after a background
+// tap) cannot be made any more: the label showed only for a card the tap had taken away, and is never on screen now. The handler is
+// still the button's, so it is pressed as the old journey pressed it (`.click()`: about the handler, not reach), with the layer on.
+test("v1.253.0: a press on the Questions label never turns the card layer off (the rule)", async ({ page }) => {
   await page.setViewportSize({ width: 1152, height: 900 })
   const j = journey(page)
   await j.boot(PATH, { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", route => route.continue()) } })
   await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible(); await j.readerLayoutSettled()
-  await wheelThenTap(page, j)
-  expect((await look(page)).label, "premise: the label reads closed and shows").toBe(true)
-  // The stale frame, made on purpose: roam begins and the label is pressed before any layout repaints it. A real mouse never lands in
-  // that frame now; the rule is what holds if one ever does (round 7's review, finding 1). .click() here is about the handler, not reach.
-  const after = await page.evaluate(() => { const a = (window as any).__neural; a._enterRoam(); (document.querySelector('[data-game-open="card"]') as HTMLElement).click(); return { landCard: a.get("landCard", true) } })
+  expect((await look(page)).landCard, "premise: the card layer is on").toBe(true)
+  const after = await page.evaluate(() => { const a = (window as any).__neural; (document.querySelector('[data-game-open="card"]') as HTMLElement).click(); return { landCard: a.get("landCard", true) } })
   await j.readerLayoutSettled()
   expect(after.landCard, "the card layer stays on").toBe(true)
   expect((await look(page)).off, "and no land_layer turned it off").toBe(0)
 })
-// Round 7's review (finding 3): a restore from the index row left the reader reading, so the question's clock never armed (and a live
-// question would be declined again on the next frame). The owner's rule: the question clock never pauses.
-// A played landing, not a URL arrival: a URL arrival is reading intent (_readerIntent), under which the clock never runs at all.
-test("v1.253.0: after a row restore the question's clock runs and nothing is declined again (1440, by mouse)", async ({ page }) => {
-  await page.setViewportSize({ width: 1440, height: 900 })
-  const j = journey(page)
-  await j.boot("/", { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", route => route.continue()) } })
-  await j.land("Mount Top")
-  await expect(page.locator('[data-reader][data-reader-ready="true"]')).toBeVisible()
-  await expect(page.locator(".ng-reader-toc"), "premise: the index stands beside the grid").toBeVisible()
-  await j.readerLayoutSettled()
-  await j.openQuestion() // taken up: the clock runs, and later cards in this tab show their question directly (U52 b)
-  expect(await page.evaluate(() => (window as any).__neural._decision?.remaining), "premise: the clock runs before the tap").not.toBeNull()
-  const tap = await emptyMap(page); await page.mouse.click(...tap!); await j.readerLayoutSettled()
-  const before = (await j.beats()).length
-  await j.clickByMouse('.ng-reader-toc-row[data-toc-type="card"] a', "the Questions index row")
-  await j.readerLayoutSettled()
-  expect(await parts(page), "premise: restored").toEqual({ card: true, film: true })
-  expect(await page.evaluate(() => (window as any).__neural._reader.interacting), "the restore stops reading").toBe(false)
-  // The card mounts inside the press, while reading still held the gate, so its arm is parked (_cwArm) and taken on the next tick.
-  await j.advance(200)
-  const r0 = await page.evaluate(() => (window as any).__neural._decision?.remaining)
-  await j.advance(1500)
-  const r1 = await page.evaluate(() => (window as any).__neural._decision?.remaining)
-  expect(r0, "the restored question's clock is armed").not.toBeNull()
-  expect(r1, "and it runs").toBeLessThan(r0)
-  expect((await j.beats()).slice(before).filter(b => b.beat === "land_q_declined"), "nothing is declined again").toEqual([])
-})
+// RETIRED WITH ITS SUBJECT (BGCLOSE): "v1.253.0: after a row restore the question's clock runs and nothing is declined again" (round
+// 7's review, finding 3). There is no row restore: see the note above the first retired pair.
 
 // Red-proof (v1.253.0, tests/artifacts/article_sections_mutants.mjs on the served reader.js, against a green baseline):
 //   index-reveal-lost ... the index row no longer reopens its section ... killed: the index row shows it again

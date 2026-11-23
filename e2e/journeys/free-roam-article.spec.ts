@@ -6,8 +6,10 @@ import { journey } from "../dsl"
  * conflicting space with the ToC / index, but it's already shown once and we like keeping it elegant". Free roam kept the last
  * node's article and its index on screen (U114 a had retired the control that put them away); on 2026-11-11: "take care of it".
  *
- * THE WAYS INTO FREE ROAM (surveyed on v1.256.2: `_enterRoam` has one caller, `_tapBackground`): two taps on bare map (the first
- * closes the card and keeps the hand, the second roams), or one tap once the card is closed by its own ✕. Ending a roll does not
+ * BGCLOSE (v1.294.0): the first way in below is ONE press now. A press on the bare map closes the page whole; it no longer
+ * stops at a first step that closed the card alone. The rest of this file's claims are as they were.
+ * THE WAYS INTO FREE ROAM (surveyed on v1.256.2: `_enterRoam` has one caller, `_tapBackground`): one press on bare map, with the
+ * card up (it was two taps until BGCLOSE) or with the card closed by its own ✕. Ending a roll does not
  * roam (a new roll follows its countdown); the drawer, Esc and a URL never do (a node's URL stages it, "/" deals a roll, and a
  * Principle, Learning entry or System is a page, which `_leaveRollForReference` keeps out of free roam).
  *
@@ -158,17 +160,12 @@ for (const [width, height, touch] of [[390, 844, false], [390, 844, true], [1440
       if (wide) expect(landed.index, "premise: at 1440 its index stands beside it").not.toBeNull()
       expect(landed.scroll, "premise: the reader is read into").toBeGreaterThan(100)
 
-      // WAY 1: two taps on bare map. The first closes the card and is not free roam: the article stays.
+      // WAY 1: ONE press on bare map, the card up (BGCLOSE, v1.294.0). It was two: the first closed the card and was not free
+      // roam, the article staying ("premise: the first tap closes the card, and the article stays"); that half state is gone.
       await j.advance(600)
       let at = await bareMap(page); expect(at, "premise: bare map").not.toBeNull()
       await tap(page, touch, at!)
-      await settle(j)
-      const first = await screenOf(page)
-      expect({ roam: first.roam, article: first.articleVisibility }, "premise: the first tap closes the card, and the article stays").toEqual({ roam: false, article: "visible" })
-      await j.advance(600)
-      at = await bareMap(page); expect(at, "premise: bare map after the card closed").not.toBeNull()   // picked afresh: the article moved up
-      await tap(page, touch, at!)
-      await roamed(page, j, touch, first, "the second tap", wide)
+      await roamed(page, j, touch, landed, "one press, the card up", wide)
 
       // Claim 3: land again on the node free roam left.
       await landAgain(page, j, touch)
@@ -195,7 +192,6 @@ for (const [width, height, touch] of [[390, 844, false], [390, 844, true], [1440
 
       // Claim 4: from free roam, an article opened on purpose shows (a Principle's row in the drawer).
       at = await bareMap(page); await tap(page, touch, at!); await settle(j)
-      at = await bareMap(page); await tap(page, touch, at!); await settle(j)
       expect((await screenOf(page)).roam, "premise: free roam again").toBe(true)
       await press(page, j, touch, ".ng-logo", "the drawer button")
       // The drawer's home list is Explore (v1.242.0), open by default; its six categories start closed.
@@ -220,6 +216,9 @@ for (const [width, height, touch] of [[390, 844, false], [390, 844, true], [1440
       const start = await screenOf(page)
       expect(start.articleVisibility === "visible" && !!start.article, `premise: the page's article is on screen ${JSON.stringify(start)}`).toBe(true)
       if (wide) expect(start.index, "premise: at 1440 its index stands beside it").not.toBeNull()
+      const named = () => page.evaluate(() => ({ address: location.pathname, title: document.title, entries: history.length }))
+      const own = await named()
+      expect(own.address, "premise: the address is the page's").toBe("/Principles/Base")
       for (let i = 0; i < 2; i++) {
         await j.advance(600)
         const at = await bareMap(page); expect(at, "premise: bare map beside the page").not.toBeNull()
@@ -230,12 +229,24 @@ for (const [width, height, touch] of [[390, 844, false], [390, 844, true], [1440
       expect({ path: after.path, visibility: after.articleVisibility, shown: !!after.article }, "a page stays: the background tap leaves its article on screen")
         .toEqual({ path: "/Principles/Base", visibility: "visible", shown: true })
       if (wide) expect(after.index, "a page stays: its index too").not.toBeNull()
+      // BGCLOSE-R1 (F5; the reader of PR #446, its surviving mutant K1): the page stays WHOLE, its name with it. The step read the
+      // reader's own path, so a press that wrote the root's address and title while the page stayed on screen passed it: a half
+      // state of the kind the owner asked to end. The address, the title and the history are read from the browser itself.
+      expect(await named(), "a page stays: its address, its title and its history are the page's, after the presses").toEqual(own)
     })
   })
 }
 
 // A late article: the first landing's article request waits on the reader module's first load (held here), and the player roams
-// before it arrives. The ended landing's article must not appear on the map alone (open() meets free roam and keeps it away).
+// before it arrives. The ended landing's article must not appear on the map alone.
+// BGCLOSE-R1 (F7): THE CLOSE ENDS THAT REQUEST. It used to reach the reader when the module arrived, render, and be kept away by the
+// free-roam latch (`_readArticle`'s `away`, and `_readerHold`'s repaint); this journey's premise was "the late article arrives". The
+// close now ends a request whose module is still loading (`_closePage`: `_readerRequest`), so it never renders at all: the premise
+// is re-pointed to that ("the ended landing's article never renders"), and the claims are as they were.
+// BGCLOSE-R2 (F9): the one request without intent that could still come after a close was the landing's QUEUED one (a frame and
+// a task later, `_queueReader`); the close forgets it now, so the latch's keep-away for such a request is retired with its subject
+// (free_roam_mutants.mjs's late-article-shows row with it), and the close's forgetting is pinned by the journey below.
+// Mutant R7 (the close does not end the request) → red at "the ended landing's article never renders".
 test.describe("1440x900, by mouse, a late article", () => {
   test.use({ viewport: { width: 1440, height: 900 } })
   test("U123: an article that arrives after free roam began stays away, and the next landing shows it (1440, by mouse)", async ({ page }) => {
@@ -245,20 +256,56 @@ test.describe("1440x900, by mouse, a late article", () => {
     await j.boot("/", { beforeNavigate: async () => { await page.route("**/static/neural/app/reader.js*", async route => { await held; await route.continue() }) } })
     await j.land("Mount Top")
     expect(await page.evaluate(() => !(window as W).__neural._reader), "premise: the reader module has not arrived").toBe(true)
-    for (let i = 0; i < 2; i++) {
-      await j.advance(600)
-      const at = await bareMap(page); expect(at, "premise: bare map").not.toBeNull()
-      await page.mouse.click(...at!)
-    }
+    await j.advance(600)
+    const at = await bareMap(page); expect(at, "premise: bare map").not.toBeNull()
+    await page.mouse.click(...at!)   // one press closes the page (BGCLOSE; it was two taps)
     expect(await page.evaluate(() => !!(window as W).__neural._roam), "premise: free roam, before the article arrived").toBe(true)
     release()
-    await expect.poll(() => page.evaluate(() => { const r = (window as W).__neural._reader; return !!r && r.root.dataset.readerReady === "true" }), { message: "premise: the late article arrives" }).toBe(true)
-    await settle(j)
+    await expect.poll(() => page.evaluate(() => !!(window as W).__neural._reader), { message: "premise: the reader module arrives" }).toBe(true)
+    await settle(j); await page.waitForTimeout(500); await settle(j)
+    expect(await page.evaluate(() => (window as W).__neural._reader.root.dataset.readerReady === "true"), "the ended landing's article never renders: the close ended its request").toBe(false)
     const late = await screenOf(page)
     expect({ visibility: late.articleVisibility, index: late.index }, "free roam: the article is not on screen (a late article)").toEqual({ visibility: "hidden", index: null })
     await landAgain(page, j, false)
     const back = await screenOf(page)
     expect({ visibility: back.articleVisibility, shown: !!back.article, index: !!back.index }, "landing again: the late article shows, with its index").toEqual({ visibility: "visible", shown: true, index: true })
+  })
+})
+
+// F9 (BGCLOSE-R2; the reader of PR #446, its probe11): A LANDING'S QUEUED ARTICLE IS FORGOTTEN BY THE CLOSE. A landing queues its
+// article a frame and a task later; a press in that window closed the page first, and the queued request went on (an arrival by
+// URL asks for it hand or no hand) and was kept off the map only by the free-roam latch. The fixture is the reader's: the
+// landing's own queue call and the close in ONE task (the frame a press can fall into; no real press can be timed into it), after
+// a real move, then 2.5 s. Mutant R9 (the close does not forget the queued request) → red at "the queued article never shows".
+test.describe("1074x796, by mouse, a landing's queued article", () => {
+  test.use({ viewport: { width: 1074, height: 796 } })
+  test("BGCLOSE-R2: a close in the frame after a landing queued its article: the article never shows over the map alone", async ({ page }) => {
+    const j = journey(page)
+    await j.boot("/Positions/X-Guard/Bottom", { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", (route) => route.continue()) } })
+    await expect(page.locator(READY)).toBeVisible()
+    await settle(j)
+    await j.rig("resolve", [0.01]); await j.rig("outcome", [0.01])
+    const titles = await j.optionTitles()
+    expect(titles.length, "premise: a hand is dealt").toBeGreaterThan(0)
+    await j.pick(titles[0])
+    await j.nextHand()
+    await settle(j)
+    const inTask = await page.evaluate(() => {
+      const a = (window as W).__neural, n = a.nodes[a.currentPos]
+      a._queueReader(n, a._landPerspSide(n))
+      const queued = !!a._readerQueued, closed = a._closePage()
+      return { queued, closed, roams: (a.rollLog || []).length === 0 && !!a._roam, urlSeeded: !!a._urlSeeded }
+    })
+    expect(inTask, "premise: the landing's article was queued, the close ran in the same task, the board roams, and the arrival was by URL (it asks hand or no hand)").toEqual({ queued: true, closed: true, roams: true, urlSeeded: true })
+    await page.waitForTimeout(2500)
+    await settle(j)
+    const after = await page.evaluate(() => {
+      const r = (window as W).__neural._reader.root as HTMLElement
+      let shown = 0
+      for (const e of r.querySelectorAll("p,li,h2,h3")) { const b = e.getBoundingClientRect(); if (b.width > 1 && b.height > 1 && getComputedStyle(e).visibility !== "hidden") shown++ }
+      return { visibility: getComputedStyle(r).visibility, shown, address: location.pathname }
+    })
+    expect(after, "the queued article never shows: the reader stays put away, no text over the map alone").toEqual({ visibility: "hidden", shown: 0, address: "/" })
   })
 })
 

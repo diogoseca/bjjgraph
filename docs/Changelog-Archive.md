@@ -20435,6 +20435,215 @@ the card is played, and it is the marked card. **Proof, 19 Nov 06:15 to 06:17, u
 15 green; N5 planted in the served bundle, 14 green and 1 red, at "released, the card is played: the key's release
 lifts the repeat"; the bundle rebuilt byte-identical and the file clean again, 15 of 15 green.
 
+## v1.293.5 — Rename you can find: a pencil on every list row (LISTS-R, Slice 1; the owner, 19 Nov 2026)
+
+**A fix, not a feature:** renaming a list existed (since v1.99.3) and could not be found.
+
+**Why.** The owner, 19 Nov: "how can i rename a list? or move items between lists like drag and drop?". Rename had
+existed since v1.99.3 (a press on the list's name; that version quotes him: "I can't seem to click to rename my lists"),
+so this was the second time he could not find it. Measured on the preview (v1.293.3), a fresh guest, by real input: the
+name's press opened the editor at 1440 by mouse and at 390x631 by touch; the name's target was its text alone, 87x16 px,
+and a 44 px thumb centred on it was the name for 48 of 144 sample points (33%), the rest lit the list (the row) or opened
+it (the count). The only tells were an I-beam cursor and a tooltip after a pause on a desktop, nothing on a phone, and the
+name wears Explore's family-row type, where a press on a name OPENS it. Moving an item (the second half of his question)
+is Slice 2 and Slice 3, after the orchestrator's rulings on the stored field it needs (LISTS-R).
+
+**What changed** (`renderLists`, `startListRename`, `renameList`, in `neural/src/app.src.jsx`):
+- A **pencil** on every list row (`[data-list-edit]`), always visible, in Share's ink, between the count and Share. Its
+  press opens the same editor the name opens; it lights nothing. Not drawn beside its own open editor.
+- The **name's target is its text, as on dev** (the shortcut it always was; the pencil is rename's own target). The first
+  build of this PR stretched it to the row's height; the orchestrator measured what that took and took it back
+  (LISTS-S1-R1, below).
+- **On a phone** (`isMobile()`, the house's thumb test) the row's three actions (pencil, Share, ×) are 44x44 boxes on
+  one line, at an even 44 px pitch, overlapping nothing: the three boxes abut, and ×'s box uses the row's empty right
+  padding so its glyph stays where it was. (The first build kept the desktop's 12 px between Share and ×; the
+  orchestrator took it back for the name, LISTS-S1-GO: it was the miss-distance of two 24 px targets whose centres sat
+  36 px apart, and 44 px boxes put the centres 44 px apart, with delete two steps anyway.) The row gives up its vertical padding for them: 44 px tall on a
+  phone, against 38. The armed "Delete?" is a small red chip inside the same 44 px box. A desktop keeps its sizes.
+  History, so it is not a surprise: the row's old 44 px min-heights were taken out in v1.103.5 because the owner found
+  the spacing foreign beside Explore's rows. These boxes are transparent and the glyphs stay where they were; only the
+  row's height moves, by 6 px, and only on a phone.
+- A **key** that closes the editor (Enter, Esc) hands focus back to the row's pencil; a blur does not.
+- The **empty-list hint** named two surfaces that no longer carry the star ("the card you land on", "a move's detail
+  sheet"). It now names the three that do: the seat's star beside a name on the map, every row in Explore, and search.
+- `neural_list_renamed` gains `via`: "pencil", "name", "new" (the + then rename), or "other". A count, no name.
+
+**Measured** (the same two lists; before = the preview, after = this build; the "lights" rows are the share of a list
+row's area where a press lights the list, sampled on a 2 px grid with `elementFromPoint` by the orchestrator's probe,
+both lists' insides shut):
+
+| | before | first build (stretched name) | after |
+|---|---|---|---|
+| 1440, row height | 38 | 38 | 38 |
+| 1440, the name's target (long name) | 185 x 15 | 153 x 38 | 153 x 15 (its text) |
+| 1440, lights: short name · long name | 70% · 62% | 44% · 35% | **65% · 61%** |
+| 390x631, row height | 38 | 44 | 44 |
+| 390x631, the name's width | 168 | 102 (with 12 px between Share and ×) | 114 |
+| 390x631, pencil · Share · × | none · 24x24 · 24x24 | 44x44 each | 44x44 each, 44 px apart |
+| 390x631, lights: short name · long name | 68% · 62% | 18% · 18% | **41% · 41%** |
+| 390x631, the longest stretch of the row's middle line that lights | 48 / 22 px | 21 px | 21 px |
+
+**What the drop is made of.** At 1440 the row lights 5 points less than before: the pencil's own box (4 to 5%), and
+nothing else. At 390 it lights 27 points less: the pencil's 44 px box (13.8%), and Share's and ×'s growth from 24 to
+44 px boxes (the orchestrator's ruling 5), less what the row gains by being 44 px tall. On a phone the row still lights
+in the bands above and below the name and count, and in the 21 px left inset; its middle line is the controls'. On a
+phone, "Thursday open mat", whole before, reads "Thursday open …" at 114 px. The editor shows the whole name.
+
+**LISTS-S1-R1, the take-back.** The first build stretched the name's target to the row's height (the orchestrator's
+ruling 1, which my plan proposed). The orchestrator pressed the PR's CI build and measured the row: the share of it that
+lights the list fell from about two thirds to 18% on a phone, reachable only through the 21 px left inset; a 44 px thumb
+centred on the name renamed 83% (1440) / 92% (390) of the time. Neither of us had measured what the stretch took from the
+row's own press. The name's target went back to its text; the journey that pinned the stretch was replaced by the one
+below.
+
+**By touch the browser widens every button, on dev as here.** Chromium's touch adjustment moves a tap that lands near a
+control onto it. Measured with real taps at 390x631 on the preview (dev v1.293.4) and on this build, at the name's text:
+a tap up to 6 to 8 px above or below it RENAMES, though `elementFromPoint` at that point says "row"; from 10 px it
+lights. So the "lights" shares above (sampled with `elementFromPoint`) say more than a thumb gets: on a phone's 44 px row
+the band past the browser's reach is about 5 px above and below the name. The touch journey therefore presses 2 px inside
+the row's top edge (about 12 px above the text), and the mouse journey 4 px above the text.
+
+**The journeys.** `e2e/journeys/lists-rename.spec.ts`, five new:
+- the pencil at 1440 by mouse: on every row, opaque at rest, its whole box its own by `elementFromPoint`; it opens the
+  editor focused and selected and lights nothing; Enter and Esc hand focus back, and Esc keeps the pane;
+- at 390x631 by touch, on a 57-character name: the three actions are 44 px boxes on one line, centres at least 44 px
+  apart, overlapping no other target (each other, the name, the count), armed or not;
+- a tap on the pencil and a tap on the name's text both rename and light nothing (the first touch test of the name);
+- (R1) at 1440 by mouse AND at 390x631 by touch: the name's box is its text; no control answers a point outside its own
+  box, so every point of the row outside the controls lights; the row lights at least as much as it does with the pencil
+  taken out, less the pencil's own area; a press above the name's text lights the list and opens no editor (by mouse
+  4 px above it; by touch 2 px inside the row's top edge, past the browser's touch adjustment), and a press on the text
+  renames. Each run prints its own figures.
+
+`lists-disclosure.spec.ts`'s empty-list journey checks the new words and finds a star on each surface they name.
+
+**Mutants** (each rebuilt for real with `npm run dev:neural:app` and run against the journeys above; a neutral control
+first, a comment edit, stayed green):
+
+| mutant | what it breaks | result |
+|---|---|---|
+| C0 | control: a comment edit (the source hash moves, behaviour does not) | green, 5 of 5 |
+| M1 | the pencil's press does nothing | red: the pencil at 1440; the tap at 390 |
+| M2 | no pencil on a phone | red: the 44 px test; the tap test |
+| M3 | the phone's boxes back to 24 px | red: the 44 px test |
+| M4 | a button's press reaches the row (the row's button guard removed) | **survives, equivalent**: the pencil's press opens the editor synchronously, and the row's second guard (an editor open on this row) stops the light. Two guards hold one claim |
+| M4b | both row guards removed | red: the pencil at 1440; the tap at 390 |
+| M5i | (R1) the name stretched to the row's height again (the first build's code; its M5, inverted) | red: both R1 journeys |
+| M5, M6 | (first build) the name not stretched; the name grown by padding | gone with the code they guarded (R1) |
+| M7 | Enter does not hand focus back to the pencil | red: the pencil at 1440 |
+| M8 | the pencil's and Share's boxes overlap | red: the 44 px test |
+| M9 | × drawn over Share's box | red. (In the first build, which kept a 12 px gap, M9 was "the 12 px gone", and it SURVIVED a test that checked overlap only; the 12 px was then asserted. LISTS-S1-GO removed the gap itself, so the test now pins what it was for: centres at least 44 px apart and no overlap, armed or not.) |
+| M10 | search results lose their star | red: the empty-list hint |
+| M11 | the map's seat loses its star | red: the empty-list hint |
+| M12 | the armed "Delete?" shrinks on a phone | red: the 44 px test |
+| M13 | the pencil shows only on hover | red: the pencil at 1440 |
+
+**Bytes** (gzip -9, like the gate; dev's own bundle built here from HEAD's source): `neural.js` 749,450 → 750,730 B raw,
+237,366 → 237,686 B gzip (+320; the first push was +343); `neural.css` unchanged. The eager set 377,191 B, +3,718 B
+since the 373,473 B baseline (the 5,000 cap; dev stood at +3,398); deferred unchanged at 548,649 B. No baseline moved.
+
+**Not covered.** An empty list made with + is gone at the next reload (`ngListsNormalize` drops it; unchanged, the
+orchestrator's ruling). The count button stays 30x25 on a phone: it joins the item row's controls (▶, ×, the move
+control) in Slice 2, where all of them become thumb targets.
+A touch screen wider than 640 px gets the desktop sizes (`isMobile()` is width only, as for the star).
+
+### v1.294.0, BGCLOSE: one press on the bare map closes the page, and the address goes to the root (19 Nov 2026)
+
+The owner, on `/Positions/X-Guard/Bottom`, with two screenshots: *"when i click the graph in the bg this happens instead of
+clearing all sections in the article and just revealing the graph in the bg. i don't want some closed sections i want all
+article to be removed from the UI and the url to lose the "/Positions/X-Guard/Bottom" part as irrelevant right? i think it
+makes sense cos if the user clicks outside it's like clicking outside a playing video = closing it."*
+
+**What it was.** A ladder of two, his own word of v1.134.0 ("clicking once on the bg of the graph will close the card,
+clicking it again will deselect and zoom out a little"). Measured on v1.293.3 at 1074x796 by mouse and 390x631 by touch:
+the first press declined the question and took the card and the videos, leaving the hand and every section; the second
+filed or discarded the roll, cleared the hand and put the article and its index away (free roam; U123); a third did
+nothing; the address never moved (nothing on that road wrote it). The first step was not guarding a fault: it let a
+player look at the map without losing the hand.
+
+**What it is.** One press does both steps, in their order and with their beats (`land_q_declined`, `land_dismissed`,
+`roll_archived` or `roll_discarded`, `roam_entered`), and the address becomes the site's root, PUSHED, with the site's own
+title (`_closePage`). A roll under way is filed exactly as free roam filed it; the close stores what the second press
+stored and nothing else (the day's count of rolls and the record's clocks: compared leaf by leaf, dev's two presses
+against the one). Analytics hears nothing new: the address writer sends no event, and PostHog is started with its
+defaults (one page view at load).
+
+**Back and Forward remount the app**, which the survey first got wrong. Quartz's router answers every history step by
+fetching the entry and morphing the page, and the loader mounts a new app on it. So Back is a fresh arrival on the page
+(nothing to build), and Forward is a BOOT on the entry the close wrote, which by default would deal the root's own roll
+and push its address over the forward history. The entry carries a mark (`ngMap`), the one address writer drops it from
+every later entry, and the boot of a remount that finds it stands the map alone (`_seedFromUrl`, `ngBoots`). A reload, or
+a first load that lands on that entry, does what the root does, as ruled (history's state outlives a reload; only a
+remount in the same document is the traversal).
+
+**What retired with the first step.** `_landDismissed`, `_landAway`, `restoreLanding` (v1.253.0: the index row that
+brought "this landing's" card and film back), their three reads in the reader, the unit that pinned the predicate, and
+the "Questions" label with the struck eye: it showed only for a card closed while its preference was on, and the first
+press was the one way into that. A question closed by its own ✕ leaves its message and comes back by Undo, Settings or
+its index row, as before. The reader's deferred bundle is smaller for it.
+
+**Three presses that closed something else and then went on to the map** took the ladder's first step as well: the one
+that ends a film (measured: the film stopped AND the question was declined), the one outside the account's menu and the
+one outside a list menu. With one press closing the page they would have closed the menu, or the film, and the whole page
+with its roll. On the bare map that press now does its one thing (`spent`); on a node it does what it always did.
+
+**The root's title has two homes now** (`content/index.md` and the app's `NG_SITE_TITLE`), so the title gate holds them
+equal: `scripts/check_page_titles.py` compares `_pageTitle("/")` with the built root page, beside every node's (4,466
+pages).
+
+**ORDER1, landed with it (tests only).** One of FOLLOW2's journeys went red on dev's own full run (a6b9160c1,
+`option-reach.spec.ts`, "belts"). Three journeys compared two records with `JSON.stringify` of each field, which reads
+the ORDER a field's keys were written in; the boot writes `belts.gf` when the deck manifest is in and `belts.lvl` at the
+first belt sync, manifest or not, so the two land in either order (the orchestrator, on the preview: 2 visits of 6 one
+way, 4 the other; equal values). The comparison is by value now, at every depth, arrays keeping their order, and a
+difference names the field with both values (`recordDiff`, e2e/dsl.ts). A record's key order means nothing to the app,
+the merge or the cloud, so the app is not changed.
+
+**After the reader (BGCLOSE-R1, the same PR).** The reader of PR #446: the core held (one press closed the page whole in every
+state it tried, at four sizes, on three page kinds), MERGE AFTER 7 fixes, all at the edges the PR opened. Each its own commit.
+
+- **F4, Back erased the roll the close filed.** Last rolls is the app instance's memory, and Back and Forward mount a new
+  instance: closed `[3]`, after Back `[]` (the reader, by real presses). This visit's shelf now outlives the instance: the one
+  leaving leaves it in the document's memory (`ngShelf`), and the next takes it at its boot when it is the same owner's. A
+  sign-in or a sign-out mounts another owner's instance, which takes nothing, as before. Nothing is stored: a reload empties
+  it, as before. Back does not resume the live roll; it brings the page as a fresh arrival, and the roll is in Last rolls.
+  The journey's reload step had passed whatever the app did, because the harness wipes local and session storage at every
+  load: the mutant that kept the shelf in sessionStorage survived until the step kept storage as a real reload does.
+- **F7, a page still loading pushed its address after the close** (the reader: `/`, then `/Submissions/Americana` 5 s later,
+  a 4th entry, nothing on screen). The close ends the reader's request: one whose module is loading never opens, one in
+  flight is aborted and its serial moved on (`cancel`). The late-article journey's premise ("the late article arrives") is
+  re-pointed: the request never renders now, and the free-roam latch's keep-away for a late automatic request is reachable
+  only by a request made after a close, which no landing makes: two rows of free_roam_mutants.mjs are no longer killed.
+- **F3, a touch the system cancels was taken for a tap** (`pointercancel` shares the map's end handler with `pointerup`): it
+  closed the page. On v1.293.4 the same cancel took the ladder's first step: a fault older than BGCLOSE. A cancelled pointer
+  is never a press now; it still ends the gesture (the capture released, the pointer forgotten, a pinch or pan ended).
+- **F2, Practice's Back stripped the close's mark** (a replace on the closed entry through the one writer): Back onto that
+  entry later dealt the root's roll and pushed over the forward history. The mark is dropped only on a new entry or a new
+  address. Of the replaces that exist, Practice's Back is the only one that can run on the closed entry.
+- **F5, F6, F1: tests only.** The reference page's step reads the browser's address and title (the reader's K1 survived it);
+  a press on a node with a menu open or during a film is pinned to stage the node (K2 survived); url_sync's P1-E keeps the
+  observed-title case on a page the app cannot name (U1 survived it).
+- **Forward's flash:** the outgoing app read "/" as an article for ~0.3 s before the remount (`_readerIntent` still set). One
+  condition: onto the closed entry the outgoing app opens nothing.
+- **Two of my steps the neutral control found red** before any mutant counted: the staged node read on its own half (during
+  a film the press takes the named half of a close pair), and the phone's strip asked once for a bare point (it is 46 px).
+
+**The reader's re-read (BGCLOSE-R2).** All seven confirmed; two more at the edges that round added, both fixed:
+
+- **F8, a roll played after Back was dropped by the next history step onto the closed map.** F4 handed the shelf on, but only
+  what was filed: a step onto a node page filed the roll under way, a step onto the closed map returned first. A history step
+  now files the roll that was played, whatever entry it lands on: the one filing (`_closeRoll`), its own rule for what counts
+  as played, its one stored effect (the day's count); idempotent, so the node page's own filing finds nothing and nothing is
+  filed twice. Found on the way: a roll that ENDS in an instance (a submission's attempt ends the round) is filed by the
+  instance itself, so the journeys compare the shelf with the roll under way plus what was there.
+- **F9, the landing's queued article was not forgotten by the close** (`_readerQueued`): queued a frame and a task later, it
+  went on past F7's line, and only the free-roam latch kept it off the map. The close forgets it now. Surveyed: the queue is
+  the only caller of `_readArticle` without intent, and every landing after a close comes through a stage, which ends free
+  roam first; so no request without intent can reach the reader in free roam, and the latch's keep-away for one is RETIRED
+  with its subject (and free_roam_mutants.mjs's late-article-shows row). The forgetting is pinned by the reader's own fixture
+  (the queue and the close in one task, then 2.5 s).
+- Whether a close or a Back counts as a PostHog page view stays unproven: the library's default says no, an older line of
+  this archive says otherwise (v1.104.5), and no test build carries a key.
 ## v1.295.0 — The light: "Show on the map" lights the place it shows (L2b S1; the owner's U202 a, U173 d, U175; 19 Nov 2026)
 
 **What a player sees.** In Last rolls, "Show on the map" flew to the place and named it (v1.293.0); nothing tied the name
@@ -20508,6 +20717,20 @@ is a second canvas's.
 ceiling moved to it in its own commit (549,777 to 550,412; the owner's limit is 600,000 since U207 a). The first-hand
 core figure is the PR's (a seat's site copy is an older build's pages).
 
+**On the merged tree (23 Nov 2026, after v1.293.5 and v1.294.0 landed; dev 70c45db51).** The first commit after the merge
+is PAY-L3: both gzip baselines at dev v1.294.0's own level, read in dev's push-run e2e-full 44542416101 (eager 373,473 to
+377,432 B; first-hand core 392,987 to 396,890 B), the orchestrator's call under the owner's standing rule (Q7, D-327).
+Then S1 measured alone on top: eager gzip 377,925 B, +493; deferred 550,073 B, under its ceiling, which does not move.
+v1.294.0 (one press on the bare map closes the page, the address the root) meets the light in two places, and nothing of
+the light's own decides either; both are pinned in `map-light.spec.ts` because the light rides them:
+- the press that ends a phone's look is consumed (`attachInput`, `closing`), so it closes nothing: the page, its address
+  and its card stay; the light goes and the name stays for the camera's hold (L3-R2). J8 (the press not consumed) is red
+  at "the press that ends the look closes nothing";
+- the press after it, on the bare map, closes the page, and the close takes the camera for free roam (`_enterRoam`), so
+  `_shownNode` lets the place go: the name and the light go with the page and do not come back inside the 7 s; at 1440
+  the press after Esc does the same. J9 (the name kept by any camera hold, not its own) is red at "the name goes with it"
+  in both tests.
+A control first (8 of 8 green); the six files that reach "Show on the map" and v1.294.0's own spec, 123 of 123 green.
 
 ## v1.296.0 — A cloze's place on the map (L2b S2; the owner's U202 a; the orchestrator's rulings (d) and (c), 19 Nov 2026)
 
@@ -20572,4 +20795,3 @@ journey files that open a cloze or read the map's names, rings or labels (greppe
 **Bytes** (this tree, stacked on S1): eager gzip 377,716 B (+335 on S1's 377,381), eager raw 1,468,822 B (+902);
 deferred 551,167 B (+755), its ceiling moved to it in its own commit. **Not measured:** the frame time of the names pass
 at a lit cloze (at most seven candidates through the memoised planner, which reuses its plan while nothing moves).
-

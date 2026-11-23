@@ -153,7 +153,7 @@ Submission-choice waits preserve it and reject stale callbacks, even after same-
 Deferred alias defense cannot create a catch. Live MC mechanics and timing remain unchanged:
 `_panicKey` freezes the existing residency-based odds bonus independently of the displayed deck.
 
-The sticky ✕ persists `landCard`; a background dismissal lasts one landing. Counts open nothing;
+The sticky ✕ persists `landCard`; a press on the bare map closes the page. Counts open nothing;
 Master the game is the study route. The generic defending card uses `_landCardChrome`, reads the
 Defender article, and hydrates its own deck. Hiding the question leaves catch and escapes live.
 
@@ -357,10 +357,10 @@ A move needs an explicit commit. There is no transport or Space-to-pause control
 rows have no pause button. `setPaused` controls internal motion: staging pauses, committing
 unpauses, and an open pane freezes travel.
 
-Click empty sky once to decline the card freely while retaining the hand; click again to
-archive a played roll, clear the tray, hide the article and Contents (not a page; U123) and roam
-centred where you stood (`_enterRoam`, `roam_entered`). A node click stages fresh. This gesture affects only the current
-landing (`clearLandCard`); the layer ✕ handles persist preferences through `setLayer`.
+One press on empty sky closes the page whole: the card is declined freely, a played roll is
+archived, the tray cleared, the article and Contents hidden (not a page; U123), and you roam
+centred where you stood (`_enterRoam`, `roam_entered`); the address becomes the root's, pushed, so Back
+restores the page. A node click stages fresh; the layer ✕ handles persist through `setLayer`.
 
 A staged technique's own option gets the action accent and commit verb ("Finish it" for a
 submission, "Execute" otherwise), with its deal position preserved (`_highlightStagedCard`).
