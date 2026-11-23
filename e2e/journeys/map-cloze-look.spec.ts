@@ -45,6 +45,8 @@ import { journey } from "../dsl"
  *       is gone" after each way back
  *   M19 a wheel ends the look (the reader's P13)        → "a narrow window with a mouse…" at "a wheel moves the map and the look
  *       stays"
+ *   M20 the tick does not ask (`_tick` without `_czLookSync()`; the reader's P14) → "a look ended from underneath…" (both)
+ *       at "the clock is handed back"
  *   M15 60 ms of work a frame while a cloze holds the map → "the look's framing costs a frame…" at "a frame at the look's
  *       framing"
  *   M12 the press at the practice page's 44 px floor   → "Map before Show…" at "the Map press is small and clear of the day's goal
@@ -383,6 +385,36 @@ test.describe("390x631, touch: turned, and its frames", () => {
     // tests/artifacts/_map_names_frametime.mjs --wide; the look's framing is held to the board's own view plus 15 ms)
     expect(lk.frame, `a frame at the look's framing (median ${lk.frame} ms, ${lk.zoom} times the roll's zoom, a press waiting ${lk.lag} ms) costs what the board's own view costs (${board.frame} ms, ${board.lag} ms), plus 15 ms at most (M15)`).toBeLessThanOrEqual(board.frame + 15)
   })
+})
+
+test.describe("390x631, touch: a look ended from underneath", () => {
+  test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true })
+
+  // THE CLOCK'S HOLD FOLLOWS THE LOOK (S3-R1, the orchestrator's ruling 4; S3-R2 pins its wiring). No press a player can
+  // make reaches these under a shut drawer here, so each is the app's own state changed in the page, as the reader's
+  // stand-ins: the day's session ending (dropped), and the plan taken again (a new session object, as a sign-out would).
+  // What is read is what the app's own ticks do next (`j.advance`, `_tick`): the unit LK8 calls `_czLookSync` directly
+  // and cannot see the tick's call
+  for (const how of ["the session dropped", "the plan taken again"] as const) {
+    test(`a look ended from underneath (${how}): the app's own ticks hand the clock back as the pill would`, async ({ page }) => {
+      const j = await setup(page, { live: "Half Guard Top" })
+      await openCloze(page, true)
+      await press(page, "[data-cz-map]", "Map", true)
+      await settle(j, page)
+      let v = await look(page)
+      expect([v.on, v.drawer, v.paused, v.held, !!v.pill], "premise: a look holding the clock, the drawer shut, its pill up").toEqual([true, false, true, true, true])
+      const pill = { x: v.pill!.x, y: v.pill!.y }
+      await page.evaluate((how) => { const a = (window as W).__neural; a._session = how === "the session dropped" ? null : { ...a._session } }, how)
+      await j.advance(300)
+      const st = await page.evaluate(() => { const a = (window as W).__neural; return { drawer: !!a.deckShown, paused: !!a.paused, held: !!a._lookAutoPaused, pane: !!a._paneAutoPaused, on: !!a._czLookOn() } })
+      expect(st, "the clock is handed back as the pill would: the drawer open and holding it, the look's latch gone (M20)").toEqual({ drawer: true, paused: true, held: false, pane: true, on: false })
+      expect((await beats(page, "cz_look_lost")).length, "said once (`cz_look_lost`)").toBe(1)
+      expect(await pillGone(page, pill), "and the pill is gone").toBe(true)
+      await page.keyboard.press("Escape")
+      await j.advance(300)
+      expect(await page.evaluate(() => { const a = (window as W).__neural; return [!!a.deckShown, !!a.paused] }), "the drawer shut by Esc: the roll runs, nothing left held").toEqual([false, false])
+    })
+  }
 })
 
 test.describe("390x631, mouse", () => {
