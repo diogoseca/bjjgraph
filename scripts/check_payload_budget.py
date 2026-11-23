@@ -269,9 +269,12 @@ NEURAL_TARGET = {
     # v1.290.0 L1-R1 (the reader's findings on PR #434): 531_246, +1_030 B: what a place owes, read for every row, and "Keep practising" when the plan runs out (master-list.src.js); 18_754 B remain.
     # v1.290.0 L1-R2 (the second reader's findings on PR #434): 531_733, +487 B: a row for every place that owes, and the open place's own figure (master-list.src.js); 18_267 B remain.
     # v1.292.0 L2 (the cloze, master-cloze.src.js in gameplan.js: the builder, the rows, where a move leads, the foot, the steps, Undo, its style sheet): 549_777, +18_044 B; 223 B remain of the owner's 550,000.
-    # v1.295.0 L2b S1 (the light, map-light.src.js in gameplan.js: the plan, the two fills, the holes, the marks): 550_412, +635 B over
-    # L2's 549_777 (the light's +1,763 less L3's -987 and dev's -141 since); the owner's limit is 600,000 now (U207 a, 19 Nov 2026).
-    # v1.296.0 L2b S2 (a cloze's place on the map: the glide, ngLightFrame, and master-cloze.src.js's two calls): 551_167, +755 B.
+    # v1.295.0 L2b S1 (the light, map-light.src.js in gameplan.js: the plan, the two fills, the holes, the marks): 550_073, +296 B over
+    # L2's 549_777 (the light's +1,763 less L3's -987, dev's -141 and dev v1.294.0's -339 in reader.js since); measured on the tree with
+    # dev v1.294.0 in (S1-R1, 23 Nov 2026: S1's 550_412 of 19 Nov was measured before that merge, so it let 339 B through unasked).
+    # The owner's limit is 600,000 now (U207 a, 19 Nov 2026).
+    # v1.296.0 L2b S2 (a cloze's place on the map: the glide, ngLightFrame, and master-cloze.src.js's two calls): 550_828, +755 B on
+    # S1's 550_073 (measured again once S1-R1 corrected S1's figure; 551_167 was +755 on S1's old 550_412).
     # v1.297.0 L2b S3 (a phone's look from the cloze: the Map press, the look, the pill, master-cloze.src.js; the pale marks and
     # the look's calm area, map-light.src.js): 552_744, +1_577 B, on the tree with S1, S2 and dev v1.294.0 in.
     "deferred_raw_bytes": 552_744,
