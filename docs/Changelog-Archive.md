@@ -20716,3 +20716,18 @@ is a second canvas's.
 5,000 against the baseline 373,473); eager raw 1,467,920 B (+1,260); deferred 550,412 B (+1,763 on 548,649), the
 ceiling moved to it in its own commit (549,777 to 550,412; the owner's limit is 600,000 since U207 a). The first-hand
 core figure is the PR's (a seat's site copy is an older build's pages).
+
+**On the merged tree (23 Nov 2026, after v1.293.5 and v1.294.0 landed; dev 70c45db51).** The first commit after the merge
+is PAY-L3: both gzip baselines at dev v1.294.0's own level, read in dev's push-run e2e-full 44542416101 (eager 373,473 to
+377,432 B; first-hand core 392,987 to 396,890 B), the orchestrator's call under the owner's standing rule (Q7, D-327).
+Then S1 measured alone on top: eager gzip 377,925 B, +493; deferred 550,073 B, under its ceiling, which does not move.
+v1.294.0 (one press on the bare map closes the page, the address the root) meets the light in two places, and nothing of
+the light's own decides either; both are pinned in `map-light.spec.ts` because the light rides them:
+- the press that ends a phone's look is consumed (`attachInput`, `closing`), so it closes nothing: the page, its address
+  and its card stay; the light goes and the name stays for the camera's hold (L3-R2). J8 (the press not consumed) is red
+  at "the press that ends the look closes nothing";
+- the press after it, on the bare map, closes the page, and the close takes the camera for free roam (`_enterRoam`), so
+  `_shownNode` lets the place go: the name and the light go with the page and do not come back inside the 7 s; at 1440
+  the press after Esc does the same. J9 (the name kept by any camera hold, not its own) is red at "the name goes with it"
+  in both tests.
+A control first (8 of 8 green); the six files that reach "Show on the map" and v1.294.0's own spec, 123 of 123 green.
