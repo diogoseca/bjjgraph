@@ -36,19 +36,22 @@ export const NG_LIGHT = {
   markR: 2,          // a mark's radius (px): a 4 px dot, design 7's far rule
   halo: 0.1,         // the halo's alpha at the orb's edge, fading to nothing at the hole's radius
   calm: [34, 38, 34, 37],   // the calm area (S2): the visible map inset left, top, right, foot (design round 6, section 3)
+  lookCalm: [34, 38, 34, 64],   // …in a phone's look (S3): its foot clear of the pill (52 px up from the band's foot, 44 tall)
 };
 const NG_LIGHT_GOLD = "240,192,90", NG_LIGHT_PALE = "214,222,240", NG_LIGHT_HALO = "200,215,255";
 
 /**
- * WHICH LIT NODE IS A HOLE AND WHICH A MARK. `pts`: one per lit node on screen, `{i, x, y, hw, place, gold, down}`: its
+ * WHICH LIT NODE IS A HOLE AND WHICH A MARK. `pts`: one per lit node on screen, `{i, x, y, hw, place, gold, down, pale}`: its
  * screen point, its drawn half-width in px, whether it is the place (an orb of the pair), whether the map's own outside
- * line is gold on it, whether its card is face down. The place is always a hole, at any size.
+ * line is gold on it, whether its card is face down, and `pale`: a hidden move a phone's look shows (S3: "hidden moves pale
+ * marks", the ruling (b)), a mark at any size and never gold, so the look says where and nothing more (not its shape, nor
+ * its colour). The place is always a hole, at any size.
  */
 export function ngLightPlan(pts) {
   const holes = [], marks = [];
   for (const p of pts) {
-    if (p.place || 2 * p.hw >= NG_LIGHT.markBelow) holes.push({ i: p.i, x: p.x, y: p.y, hw: p.hw, r: Math.max(NG_LIGHT.holeMin, NG_LIGHT.holeK * p.hw), place: !!p.place });
-    else marks.push({ i: p.i, x: p.x, y: p.y, gold: !!p.gold && !p.down });
+    if (p.place || (!p.pale && 2 * p.hw >= NG_LIGHT.markBelow)) holes.push({ i: p.i, x: p.x, y: p.y, hw: p.hw, r: Math.max(NG_LIGHT.holeMin, NG_LIGHT.holeK * p.hw), place: !!p.place });
+    else marks.push({ i: p.i, x: p.x, y: p.y, gold: !!p.gold && !p.down && !p.pale, pale: !!p.pale });
   }
   return { holes, marks };
 }
@@ -59,11 +62,12 @@ export function ngLightAlpha(k) { return 1 - Math.sqrt(1 - NG_LIGHT.a * Math.max
  * DRAW THE LIGHT on the map's context, in screen px. `F` is the frame's own (`draw()`): `k` the light's strength (0 to 1,
  * the fade), `place` the lit place's node, `moves` the indexes of the moves it deals, and the frame's camera and lift:
  * `scale`, `nodeK`, `kLOD`, `LY`, `ox`, `oy` (the frame's own offset, so a hole sits exactly on the orb as drawn), `W`,
- * `H`, `dpr`, `gold` (the map's outside-gold set, `_movesGold`) and `face` (the face-down set the marks ask, `_hmDownSet`).
+ * `H`, `dpr`, `gold` (the map's outside-gold set, `_movesGold`), `face` (the face-down set the marks ask, `_hmDownSet`) and
+ * `paleDown` (a phone's look at a cloze, S3: its face-down moves are pale marks).
  * Returns what it drew, which the app publishes as `_lastLight`.
  */
 export function ngLightDraw(app, ctx, F) {
-  const { k, place, moves, scale, nodeK, kLOD, LY, ox, oy, W, H, dpr, gold, face } = F;
+  const { k, place, moves, scale, nodeK, kLOD, LY, ox, oy, W, H, dpr, gold, face, paleDown } = F;
   const pts = [], seen = new Set();
   const add = (n, isPlace) => {
     if (!n || seen.has(n.idx)) return;
@@ -71,7 +75,8 @@ export function ngLightDraw(app, ctx, F) {
     // the orb as drawn: through the frame's lift (`LY`, never `n.y`: CLAUDE.md 6.2) and its bare silhouette (`_nodeHalfW`)
     const x = n.x * scale + ox, y = LY(n) * scale + oy, hw = app._nodeHalfW(n, scale, nodeK, kLOD, true);
     if (x < -60 || x > W + 60 || y < -60 || y > H + 60) return;
-    pts.push({ i: n.idx, x, y, hw, place: isPlace, gold: !!gold && gold.has(n.idx) && n.role !== "defender", down: !!face && face.has(n.idx) });
+    const down = !!face && face.has(n.idx);
+    pts.push({ i: n.idx, x, y, hw, place: isPlace, gold: !!gold && gold.has(n.idx) && n.role !== "defender", down, pale: !!paleDown && down });
   };
   add(place, true);
   if (place.pi >= 0) add(app.nodes[place.pi], true);
@@ -115,9 +120,12 @@ export function ngLightDraw(app, ctx, F) {
  * The glide takes the camera from any lease (`releaseCamera`, as a row's own flight does, `locateNode`); what keeps it there
  * while the cloze is open is the app's own hold (`_czAt`, read by `updateCamera`). Returns true when it glided.
  */
-export function ngLightFrame(app, idxs) {
-  const T = app.camTarget, R = app._viewRect(), W = app.W || 1, H = app.H || 1, [l, t, r, b] = NG_LIGHT.calm, minW = app.graphW * app.ROLL_ZOOM;
+export function ngLightFrame(app, idxs, calm) {
+  const T = app.camTarget, R = app._viewRect(), W = app.W || 1, H = app.H || 1, [l, t, r, b] = calm || NG_LIGHT.calm, minW = app.graphW * app.ROLL_ZOOM;
   const box = { left: R.left + l, top: R.top + t, width: Math.max(1, R.width - l - r), height: Math.max(1, R.height - t - b) };
+  // NO ROOM, NO GLIDE (S3, carrying S2-R1's ruling 3): a phone turned to landscape leaves the map a 64 px strip, under the calm
+  // area's own insets; the fit then took a 1 px box and pulled back some 900 times the roll's zoom. The camera stays as it was
+  if (box.width < 48 || box.height < 48) return false;
   const pts = idxs.map((i) => app.nodes[i]).filter(Boolean).map((n) => app.pairMid(n));
   if (!pts.length) return false;
   if (T && T.vw >= minW * 0.999) {

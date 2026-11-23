@@ -24,6 +24,17 @@
 //   CZ4 lit after Done                                                 → the same test
 //   CZ5 the glide every time (no "already in view")                    → "the glide: none when the place and its moves are in view…"
 //   CZ6 the glide closer than the roll's zoom                          → "…and never closer than the roll's zoom"
+// S3 (v1.297.0, a phone's look from the cloze):
+//   LK1 a hidden move a hole in the look (no pale rule)                → "a phone's look: a hidden move is a pale mark at any size…"
+//   LK2 the look not ended by its drawer opening (`_czLookOn` without `deckShown`) → "the look lasts while…: and only while"
+//   LK3 …nor by the game running                                       → the same test
+//   LK4 …nor by Done                                                   → the same test
+//   LK5 the look lit only after Show                                   → "during the look the place is lit before Show too…"
+//   LK6 the hand let up during the look (`_czDown` without the look)   → the same test
+//   LK7 the look taken without the drawer's pause handed over (`_paneAutoPaused` kept) → "opening the look: the drawer shuts…"
+// S3-R1 (23 Nov 2026; the reader of PR #453 and the orchestrator's ruling 4):
+//   LK8 a look lost with no lifter keeps the clock (`_czLookSync` doing nothing) → "the clock's hold follows the look…"
+//   LK9 a band measured for another size read as this view's (`_viewRect` without the size check) → "a band measured for…"
 // S1-R1 (23 Nov 2026, the reader of PR #447 and the orchestrator's rulings 2 and 4):
 //   ML14 the fade kept over a running game (no "out at once")           → "out at once when the game starts again…"
 //   ML15 the cold path ramps the strength (the planner lands at full)   → "the planner arriving late…"
@@ -233,6 +244,7 @@ function clozed(opts = {}) {
   const seat = opts.seat || "Mount|Bottom", hub = a.nodeForKey(seat), side = seat.endsWith("|Bottom") ? "bottom" : "top";
   const hand = [...new Set((a._dealtOpts(hub, side) || []).map((o) => o.idx))];
   const c = { seat, side, shown: false, done: null, rows: hand.slice(0, 6).map((idx, k) => ({ id: "m" + k, idx, ask: true })) };
+  c.down = new Set(c.rows.flatMap((r) => [r.idx, a.nodes[r.idx].pi].filter((i) => i >= 0)));   // as the builder makes it (master-cloze.src.js)
   a._session = { czOpen: seat, cz: new Map([[seat, c]]) };
   return { a, c, hub, hand };
 }
@@ -293,4 +305,82 @@ test("…and never closer than the roll's zoom", () => {
   a.camTarget = { cx: n.x, cy: n.y, vw: a.graphW * 0.05 };
   assert.equal(ngLightFrame(a, [hub, near.idx]), true, "in view but closer than the roll's zoom: it glides out to it");
   assert.ok(a.camTarget.vw >= a.graphW * 0.085 - 1e-9);
+});
+
+// ── S3 (v1.297.0): A PHONE'S LOOK FROM THE CLOZE ──
+test("a phone's look: a hidden move is a pale mark at any size, never gold; a shown move as before", () => {
+  const P = ngLightPlan([pt(1, 4, { down: true, pale: true, gold: true }), pt(2, 4, { gold: true }), pt(3, 0.5, { gold: true })]);
+  assert.deepEqual(P.holes.map((h) => h.i), [2], "a shown move drawn 8 px wide: a hole");
+  assert.deepEqual(P.marks.map((m) => [m.i, m.gold, m.pale]), [[1, false, true], [3, true, false]], "the hidden one a pale mark (8 px wide or not), the small shown one gold");
+});
+function looked(opts = {}) {
+  const x = clozed({ W: 390, ...opts });
+  x.a.fx = function (beat, props) { (this.beats = this.beats || []).push({ beat, ...(props || {}) }); };
+  x.a.setDeckOpen = function (open) { this.deckOpen = !!open; this.deckShown = !!open; };   // the drawer's own seam, without its DOM
+  x.a._paneAutoPaused = opts.held !== false;
+  return x;
+}
+test("opening the look: the drawer shuts, the session and its cloze are kept, the clock is the look's", () => {
+  const { a, c } = looked();
+  const s = a._session;
+  assert.equal(a._czLookOpen(s), true);
+  assert.equal(a.deckShown, false, "the drawer is shut");
+  assert.equal(a._session, s, "the session is the same");
+  assert.equal(s.czOpen, c.seat, "and its cloze is open");
+  assert.equal([a.paused, a._lookAutoPaused, a._paneAutoPaused].join(), "true,true,false", "the drawer's pause is the look's");
+  assert.equal(a._czLookOn(), true);
+  const desk = looked({ W: 1440 });
+  assert.equal(desk.a._czLookOpen(desk.a._session), false, "a computer has no look: the map is beside the drawer");
+  const still = looked({ held: false });
+  still.a._czLookOpen(still.a._session);
+  assert.equal(!!still.a._lookAutoPaused, false, "a board that was already still is not the look's");
+  assert.equal(still.a._czLookOn(), true, "and the look is on there all the same");
+});
+test("the clock's hold follows the look: a look that ends by no lifter (the session dropped under it) hands the clock back as its pill would", () => {
+  const x = looked(); x.a._czLookOpen(x.a._session);
+  assert.equal([x.a.paused, x.a._lookAutoPaused, x.a._czLookOn()].join(), "true,true,true", "premise: a look holding the clock");
+  x.a._session = null;   // the day's session ending under the shut drawer (the reader's stand-in)
+  assert.equal(x.a._czLookOn(), false, "premise: the look is off");
+  x.a._czLookSync();
+  assert.equal(x.a._lookAutoPaused, false, "the look's hold on the clock goes with it");
+  assert.equal([x.a.deckShown, x.a._paneAutoPaused, x.a.paused].join(), "true,true,true", "handed back as the pill hands it: the drawer back, its pause the drawer's");
+  assert.ok((x.a.beats || []).some((b) => b.beat === "cz_look_lost"), "and said (`cz_look_lost`)");
+  const y = looked(); y.a._czLookOpen(y.a._session); y.a._czLookSync();
+  assert.equal([y.a._lookAutoPaused, y.a.deckShown].join(), "true,false", "a look still on is left as it is");
+  const z = looked(); z.a._czLookOpen(z.a._session); z.a._session.czOpen = "Side Control|Bottom"; z.a._czLookSync();
+  assert.equal([z.a._lookAutoPaused, z.a.deckShown].join(), "false,true", "nor does another place opened under it keep the clock");
+});
+
+test("a band measured for another size is not this view's: a phone turned to landscape frames against its own strip", () => {
+  const { a } = looked();
+  a.W = 844; a.H = 390;
+  a._reader = { nodeBand: { top: 72, bottom: 258, height: 186 }, nodeBandAt: "390x631" };   // the portrait band, its layout not run yet
+  assert.equal(a._viewRect().height, 64, "the reader's band was measured at 390x631: the view reads its own, 64 px");
+  a._reader.nodeBand = { top: 70, bottom: 134, height: 64 }; a._reader.nodeBandAt = "844x390";
+  assert.equal(a._viewRect().top, 70, "measured for this size, the reader's band is the view's");
+});
+
+test("the look lasts while the drawer is shut, the game held and the cloze not confirmed: and only while", () => {
+  const mk = () => { const x = looked(); x.a._czLookOpen(x.a._session); return x; };
+  let x = mk(); x.a.deckShown = true;
+  assert.equal(x.a._czLookOn(), false, "the drawer opened, by any door");
+  x = mk(); x.a.paused = false;
+  assert.equal(x.a._czLookOn(), false, "the game runs");
+  x = mk(); x.c.done = { u: null, rows: new Map() };
+  assert.equal(x.a._czLookOn(), false, "the cloze confirmed");
+  x = mk(); x.a._session = { czOpen: x.c.seat, cz: new Map([[x.c.seat, x.c]]) };
+  assert.equal(x.a._czLookOn(), false, "another session");
+  x = mk(); x.a._lookEnd("roll");
+  assert.equal(x.a._czLookOn(), false, "any lifter of the look's latch ends it too");
+});
+test("during the look the place is lit before Show too, its hidden moves held down; the way back opens the drawer", () => {
+  const { a, c } = looked();
+  a._czLookOpen(a._session);
+  assert.equal(c.shown, false, "premise: before Show");
+  assert.equal(a._lightOf()?.idx, a._czAt().n.idx, "lit for as long as the look lasts");
+  assert.ok(a._czDown() && c.rows.every((r) => a._czDown().has(r.idx)), "its hidden moves stay down while the drawer is shut");
+  assert.equal(a._czLookBack("pill"), true);
+  assert.equal(a.deckShown, true, "the way back opens the drawer");
+  assert.equal(a._czLookOn(), false, "and the look is over");
+  assert.equal(a._czLookBack("pill"), false, "a second way back finds no look");
 });

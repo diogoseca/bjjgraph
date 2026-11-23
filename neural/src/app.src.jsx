@@ -970,7 +970,7 @@ class Component extends DCLogic {
     if (!this.paused || (this.deckShown && this.isMobile())) return null;
     // an open cloze is what the map shows beside it (S2): lit from Show until Hide, Done or the place left, and nothing else
     const z = this._czAt();
-    if (z) return z.c.shown && !z.c.done ? z.n : null;
+    if (z) return (z.c.shown || z.look) && !z.c.done ? z.n : null;   // (a phone's look lights it for as long as it lasts, S3)
     const n = this._shownNode();
     return n && this.rsAllowsIdx(n.idx) ? n : null;
   }
@@ -1006,7 +1006,14 @@ class Component extends DCLogic {
   // THE FADE IN STARTS WHEN THE LAYER CAN FIRST BE DRAWN (S1-R1, the reader's finding 5): with gameplan.js not in, the
   // strength is held at 0, so the light comes in over its quarter second when the planner lands, not at full in one frame.
   _drawLight(ctx, F) {
-    const n = this._lightOf(), wall = performance.now(), game = (this.now || 0) * 1000;
+    const n = this._lightOf(), wall = performance.now(), game = (this.now || 0) * 1000, look = this._czLookOn();
+    // A CLOZE'S LOOK'S WAY BACK (S3): the pill is shown exactly while the look is on, seated at the foot of the visible map
+    // (`_viewRect`, centred), above the roll's own rows; it is the deferred bundle's element (`ngClozeLook`)
+    const P = this._czPillEl;
+    if (P) {
+      if (P.hidden === look) P.hidden = !look;
+      if (look) { const R = this._viewRect(), cv = this.canvas.getBoundingClientRect(), t = Math.round(cv.top + R.top + R.height - 52), l = Math.round(cv.left + R.left + R.width / 2); if (P._t !== t || P._l !== l) { P._t = t; P._l = l; P.style.top = t + "px"; P.style.left = l + "px"; } }
+    }
     if (n) this._lightAt = n.idx;
     const dt = Math.max(wall - (this._lightT == null ? wall : this._lightT), game - (this._lightS == null ? game : this._lightS));
     this._lightT = wall; this._lightS = game;
@@ -1022,7 +1029,7 @@ class Component extends DCLogic {
     const k = this._lightK = running ? 0 : this._reducedMotion() ? to : to > was ? Math.min(1, was + dt / NG_LIGHT_IN_MS) : to < was ? Math.max(0, was - dt / NG_LIGHT_OUT_MS) : was;
     const at = k > 0.001 && this._lightAt != null ? this.nodes[this._lightAt] : null;
     if (!at) return;
-    this._lastLight = R.ngLightDraw(this, ctx, { ...F, k, place: at, moves: this._lightMoves(at) });
+    this._lastLight = R.ngLightDraw(this, ctx, { ...F, k, place: at, moves: this._lightMoves(at), paleDown: look });   // a look's hidden moves: pale marks (S3)
   }
   // `press`: THE PRESS ON THE MAP THAT ENDS A LOOK TAKES THE CAMERA'S LEASE AGAIN, SO THE PLACE STAYS NAMED FOR THE CAMERA'S
   // HOLD TIME (L3-R2, the reader's re-read of PR #440 at 6ce6a6f03). That press is consumed (above), so on a phone the door
@@ -1035,6 +1042,7 @@ class Component extends DCLogic {
   // And it keeps the map still under the second press: the roll runs again, and the follow-cam would otherwise leave for
   // where it stands. The wheel passes no `press`: it takes the camera for itself (`releaseCamera`), as it always did.
   _lookEnd(by, press) {
+    this._czLook = null;   // a cloze's look ends by any of these lifters too (S3, `_czLookOn`)
     if (!this._lookAutoPaused) return;
     if (press && this._shown) { this.holdCamera(); this._shown.t = this._camHoldTarget; }
     this._lookAutoPaused = false;
@@ -1285,6 +1293,7 @@ class Component extends DCLogic {
         if (this.closeListPicker()) return; // anchored chooser, same deliberate band as the menu
         if (this.closeAccountMenu()) return;
         if (this.stopReplay("esc")) return;  // a film is ambient chrome: it stops before the pane closes
+        if (this._czLookBack("esc")) return;   // a cloze's look: back to its drawer (S3)
         if (this.deckShown) this.setDeckOpen(false);
       } else if (!typing && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         // LAST ROLLS' KEYS (L3, ruling 2): ↑ ↓ walk the places; ← → do nothing here (they paged the deck a row held until
@@ -17017,7 +17026,7 @@ class Component extends DCLogic {
    * Pinned by e2e/journeys/master-cloze.spec.ts (the hand face up → red).
    */
   _czDown() {
-    const s = this._session, c = s && s.czOpen != null && s.cz && this._sessionInline() ? s.cz.get(s.czOpen) : null;
+    const s = this._session, c = s && s.czOpen != null && s.cz && (this._sessionInline() || this._czLookOn()) ? s.cz.get(s.czOpen) : null;   // (and through a cloze's look, S3)
     return c && !c.shown && !c.done ? c.down : null;
   }
   _czHand() { const d = this._czDown(); return !!d && (this.optionIdxs || []).some((i) => d.has(i)); }
@@ -17039,10 +17048,66 @@ class Component extends DCLogic {
   // `c.free` (S2-R1, ruling 2): a press on the bare map closed the page (`_closePage`), so the map is free roam's and the cloze
   // holds it no more and lights nothing, until the next Show or the place opened again takes it back (`ngClozeMap` clears it)
   _czAt() {
-    const s = this._session, c = s && s.czOpen != null && s.cz && !this.isMobile() && this._sessionInline() ? s.cz.get(s.czOpen) : null;
+    const s = this._session, look = this._czLookOn(), c = s && s.czOpen != null && s.cz && (look || (!this.isMobile() && this._sessionInline())) ? s.cz.get(s.czOpen) : null;
     if (!c || !c.seat || c.free) return null;
     const i = this.nodeForKey(c.seat), n = i >= 0 && this.rsAllowsIdx(i) ? this.nodes[this._seatMember(i, c.side)] : null;
-    return n ? { n, c } : null;
+    return n ? { n, c, look } : null;
+  }
+  /**
+   * A CLOZE'S LOOK (L2b S3, v1.297.0; the orchestrator's ruling (b) on L2b Part A, 19 Nov 2026). On a phone the drawer is the
+   * screen, so the map shows where when the drawer is SHUT: "Map" in the cloze's foot (master-cloze.src.js, `ngClozeLook`)
+   * shuts it, keeps the session and its cloze, and holds the clock with the look's own latch, as "Show on the map" does
+   * (`_lookAutoPaused`, taken only from the drawer's pause: `_czLookOpen`). For as long as the look lasts the place is held
+   * on the map (`_czAt`), lit with its hidden moves as pale marks and its shown moves named where a name fits, and the hand
+   * a cloze holds down stays down (`_czDown`). ITS WAY BACK (`_czLookBack`): the pill "‹ Back to your moves", a TAP on the
+   * map (consumed: `attachInput`, at the press's end; it is never the press that closes a page) and Esc; each opens the
+   * drawer on the same cloze, and the pause is the drawer's again (`_lookEnd("drawer")`). A DRAG, A PINCH OR THE WHEEL
+   * MOVE THE MAP AND DO NOT END IT: the player is looking, mid-answer. Offered before Done only.
+   * DERIVED on every read, so a lifter it does not name cannot leave it standing (§6.5): the look's own session and seat
+   * (another session, the cloze closed or left), the drawer shut (any door that opens it: the pill, a tap, Esc, the logo),
+   * the game held (a move played starts the clock: `_lookEnd("clock")`), the cloze not confirmed. `_lookEnd` also drops the
+   * marker, by any of its lifters.
+   */
+  _czLookOn() {
+    const L = this._czLook, s = this._session;
+    if (!L || L.s !== s || this.deckShown || !this.paused || s.czOpen !== L.seat) return false;
+    const c = s.cz && s.cz.get(L.seat);
+    return !!c && !c.done;
+  }
+  // `ngClozeLook`'s first step: on a phone, with the drawer showing an open cloze not yet confirmed, the drawer shuts and the
+  // look takes the drawer's pause (when the drawer is what stopped the game: a board already still is not the look's)
+  _czLookOpen(s) {
+    const c = s && this._session === s && s.czOpen != null && s.cz ? s.cz.get(s.czOpen) : null;
+    if (!c || c.done || !this.isMobile() || !this._sessionInline()) return false;
+    if (this._replay) this.stopReplay("input");
+    const held = this._paneAutoPaused;
+    this._paneAutoPaused = false;               // before the drawer shuts: its close would resume
+    this._czLook = { s, seat: s.czOpen };       // before it too: the drawer's close repaints the hand (`_czSync`), which asks the look
+    this.setDeckOpen(false);
+    if (held) { this._lookAutoPaused = true; this.fx("look_held", { cloze: 1 }); }
+    this.fx("cz_look", { seat: s.czOpen, shown: !!c.shown });
+    return true;
+  }
+  // the way back: the drawer on the same cloze (`by`: "pill", "map", "esc"); false when no cloze's look is on
+  // THE CLOCK'S HOLD FOLLOWS THE LOOK (S3-R1, the orchestrator's ruling on the reader's simulation): the look is derived on every
+  // read, but its hold on the clock was a latch with lifters, and a look that ended by none of them (the session or its open
+  // place gone under the shut drawer) left the clock held, the light and the pill gone and nothing on screen saying why. Read
+  // every tick (`_tick`): a look that is no longer on hands the clock back the way its pill would, the drawer back with it
+  _czLookSync() {
+    if (!this._czLook || this._czLookOn()) return;
+    this._czLook = null;
+    this.fx("cz_look_lost", {});
+    this._lookEnd("drawer");
+    this.setDeckOpen(true);
+  }
+  _czLookBack(by) {
+    if (!this._czLookOn()) return false;
+    const s = this._session;
+    this._czLook = null;
+    this.fx("cz_look_back", { by });
+    this.setDeckOpen(true);
+    if (s.czHost && s.czHost.isConnected) s.czHost.focus({ preventScroll: true });
+    return true;
   }
   _czSync() {
     this._hmLit = new Set(); this._nm = null;
@@ -22370,7 +22435,13 @@ class Component extends DCLogic {
     const pane = this._paneLayout();
     const horizontal = { left: pane.left, right: W, width: Math.max(1, W - pane.left) };
     if (!this._refPage && !this._execution && !opts?.ahead) {
-      return { ...horizontal, ...(this._reader?.nodeBand || this._readerBand()), measured: true, predicted: false, band: true };
+      // A BAND MEASURED FOR ANOTHER SIZE IS NOT THIS VIEW'S (S3-R1, the reader of PR #453, finding 3): the reader keeps its band
+      // from its last layout, a frame after a resize, so on the frame between a phone turned to landscape and that layout the
+      // look framed against the portrait band (186 px tall where the map is a 64 px strip) and pulled back some 11 times. The
+      // reader records the size it laid out for (`nodeBandAt`, beside the band: the band's own shape is pinned by
+      // tests/reader_handoff.test.mjs); until it is this size's, the band is read fresh
+      const rd = this._reader, nb = rd?.nodeBand;
+      return { ...horizontal, ...(nb && rd.nodeBandAt === this.W + "x" + this.H ? nb : this._readerBand()), measured: true, predicted: false, band: true };
     }
     let top = 16;
     const ev = this.evRef && this.evRef.current;
@@ -23210,6 +23281,7 @@ class Component extends DCLogic {
         this.updateFlash();
         this.updateRipples();
         this.updateUiShift(dt);
+        this._czLookSync();   // a cloze's look that ended by no lifter hands the clock back (S3-R1)
         // camera runs on the REAL clock — pausing the sim must not freeze the tween
         // (the prezi flight into a dossier happens while the roll is auto-paused)
         this.updateCamera(dt);
@@ -23314,12 +23386,12 @@ class Component extends DCLogic {
         document.addEventListener(ev, eng, { once: true, capture: true });
     }
     const el = this.wrapRef.current;
-    let dragging = false, lx = 0, ly = 0, dsx = 0, dsy = 0, moved = 0, closing = false, spent = false;
+    let dragging = false, lx = 0, ly = 0, dsx = 0, dsy = 0, moved = 0, closing = false, spent = false, czTap = false;   // czTap: a press that may be a cloze look's way back (S3)
     const ptrs = new Map();
     let pinch = null;
     this._cancelGraphInput = () => {
       for (const id of ptrs.keys()) { try { el.releasePointerCapture(id); } catch (err) {} }
-      ptrs.clear(); pinch = null; dragging = false; moved = 0;
+      ptrs.clear(); pinch = null; dragging = false; moved = 0; czTap = false;
       this._hover = null; el.style.cursor = "grab";
     };
     const dist = () => { const a = [...ptrs.values()]; return Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y); };
@@ -23365,12 +23437,17 @@ class Component extends DCLogic {
       // staged a roll there or opened the technique, the shown place included, and over the background it declined the
       // question or went to free roam. At the look's framing nearly every point of a phone's map is inside some node's pick
       // radius, so "press the map to go on" took the roll away. It is consumed the same way; a drag begun with it still pans.
-      const looked = this._lookAutoPaused;
-      this._lookEnd("map", true);
-      if (looked && ptrs.size === 0) closing = true;
+      // A CLOZE'S LOOK (S3) IS NOT ENDED BY A PRESS: a drag or a pinch moves the map; a TAP is its way back (`end`, below)
+      if (this._czLookOn()) { if (ptrs.size === 0) czTap = true; }
+      else {
+        const looked = this._lookAutoPaused;
+        this._lookEnd("map", true);
+        if (looked && ptrs.size === 0) closing = true;
+      }
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       try { el.setPointerCapture(e.pointerId); } catch (err) {}
       if (ptrs.size === 2) {
+        czTap = false;   // a second finger: a pinch, never the look's tap
         dragging = false; const m = mid();
         pinch = { d0: dist() || 1, vw0: this.cam ? this.cam.vw : 1, mx: m.x, my: m.y };
       } else if (ptrs.size === 1) {
@@ -23423,6 +23500,12 @@ class Component extends DCLogic {
       if (ptrs.size < 2) pinch = null;
       if (ptrs.size === 1) { const r = [...ptrs.values()][0]; dragging = true; lx = r.x; ly = r.y; moved = 99; }
       else if (ptrs.size === 0) {
+        // A CLOZE'S LOOK'S TAP (S3): its way back, and that is all it does (it is consumed here, before the router, so it is
+        // never a press on a place nor the press on the bare map that closes the page). A drag or a pinch is not a tap.
+        if (czTap) {
+          czTap = false;
+          if (dragging && moved < 5 && e && e.type === "pointerup" && this._czLookBack("map")) { dragging = false; closing = false; spent = false; el.style.cursor = "grab"; return; }
+        }
         // ── A TAP IS ROUTED BY WHAT YOU TAPPED (v1.129.1) ──────────────────────────────────
         // Owner: "Can't seem to be able to click any submissions or transitions in the graph. When
         // I click it, it seems to always go to an adjacent or nearby position."
@@ -23494,7 +23577,7 @@ class Component extends DCLogic {
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy; this.camTarget.vw = vw;
       this._cancelCamOpen(); this.releaseCamera(); this._stagedCamFree = false; // wheel-zoom is the desktop equivalent of a pinch
       if (this._replay) this.stopReplay("input");   // ...and so it ends a film, for the same reason
-      this._lookEnd("map");                         // and a look (`_showPlace`)
+      if (!this._czLookOn()) this._lookEnd("map");  // and a look (`_showPlace`); a cloze's look is only moved by it (S3)
       this.lastInteract = this.now;
     }, { passive: false });
   }
@@ -24595,7 +24678,7 @@ class Component extends DCLogic {
       this._lastRichLabel = null;
       this._lastPosCand = null;
       // the live hover, resolved once — both the focus group and the roaming one read it
-      const cz = this._czAt(), czLit = !!cz && cz.c.shown && !cz.c.done && this.paused;   // an open cloze's place, and lit (L2b S2)
+      const cz = this._czAt(), czLit = !!cz && (cz.c.shown || cz.look) && !cz.c.done && this.paused;   // an open cloze's place, and lit (L2b S2; a look, S3)
       const heldStar = this._seatStarButtons && [...this._seatStarButtons.values()].find((b) =>
         b === this._pickAnchor || b.matches(":hover, :focus-visible"));
       const _hovNode = heldStar ? this.nodes[Number(heldStar.getAttribute("data-seat-star"))]
