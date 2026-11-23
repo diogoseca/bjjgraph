@@ -16733,6 +16733,17 @@ class Component extends DCLogic {
     return true;
   }
   // the way back: the drawer on the same cloze (`by`: "pill", "map", "esc"); false when no cloze's look is on
+  // THE CLOCK'S HOLD FOLLOWS THE LOOK (S3-R1, the orchestrator's ruling on the reader's simulation): the look is derived on every
+  // read, but its hold on the clock was a latch with lifters, and a look that ended by none of them (the session or its open
+  // place gone under the shut drawer) left the clock held, the light and the pill gone and nothing on screen saying why. Read
+  // every tick (`_tick`): a look that is no longer on hands the clock back the way its pill would, the drawer back with it
+  _czLookSync() {
+    if (!this._czLook || this._czLookOn()) return;
+    this._czLook = null;
+    this.fx("cz_look_lost", {});
+    this._lookEnd("drawer");
+    this.setDeckOpen(true);
+  }
   _czLookBack(by) {
     if (!this._czLookOn()) return false;
     const s = this._session;
@@ -22913,6 +22924,7 @@ class Component extends DCLogic {
         this.updateFlash();
         this.updateRipples();
         this.updateUiShift(dt);
+        this._czLookSync();   // a cloze's look that ended by no lifter hands the clock back (S3-R1)
         // camera runs on the REAL clock — pausing the sim must not freeze the tween
         // (the prezi flight into a dossier happens while the roll is auto-paused)
         this.updateCamera(dt);

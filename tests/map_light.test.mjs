@@ -33,6 +33,7 @@
 //   LK6 the hand let up during the look (`_czDown` without the look)   → the same test
 //   LK7 the look taken without the drawer's pause handed over (`_paneAutoPaused` kept) → "opening the look: the drawer shuts…"
 // S3-R1 (23 Nov 2026; the reader of PR #453 and the orchestrator's ruling 4):
+//   LK8 a look lost with no lifter keeps the clock (`_czLookSync` doing nothing) → "the clock's hold follows the look…"
 //   LK9 a band measured for another size read as this view's (`_viewRect` without the size check) → "a band measured for…"
 // S1-R1 (23 Nov 2026, the reader of PR #447 and the orchestrator's rulings 2 and 4):
 //   ML14 the fade kept over a running game (no "out at once")           → "out at once when the game starts again…"
@@ -335,6 +336,21 @@ test("opening the look: the drawer shuts, the session and its cloze are kept, th
   assert.equal(!!still.a._lookAutoPaused, false, "a board that was already still is not the look's");
   assert.equal(still.a._czLookOn(), true, "and the look is on there all the same");
 });
+test("the clock's hold follows the look: a look that ends by no lifter (the session dropped under it) hands the clock back as its pill would", () => {
+  const x = looked(); x.a._czLookOpen(x.a._session);
+  assert.equal([x.a.paused, x.a._lookAutoPaused, x.a._czLookOn()].join(), "true,true,true", "premise: a look holding the clock");
+  x.a._session = null;   // the day's session ending under the shut drawer (the reader's stand-in)
+  assert.equal(x.a._czLookOn(), false, "premise: the look is off");
+  x.a._czLookSync();
+  assert.equal(x.a._lookAutoPaused, false, "the look's hold on the clock goes with it");
+  assert.equal([x.a.deckShown, x.a._paneAutoPaused, x.a.paused].join(), "true,true,true", "handed back as the pill hands it: the drawer back, its pause the drawer's");
+  assert.ok((x.a.beats || []).some((b) => b.beat === "cz_look_lost"), "and said (`cz_look_lost`)");
+  const y = looked(); y.a._czLookOpen(y.a._session); y.a._czLookSync();
+  assert.equal([y.a._lookAutoPaused, y.a.deckShown].join(), "true,false", "a look still on is left as it is");
+  const z = looked(); z.a._czLookOpen(z.a._session); z.a._session.czOpen = "Side Control|Bottom"; z.a._czLookSync();
+  assert.equal([z.a._lookAutoPaused, z.a.deckShown].join(), "false,true", "nor does another place opened under it keep the clock");
+});
+
 test("a band measured for another size is not this view's: a phone turned to landscape frames against its own strip", () => {
   const { a } = looked();
   a.W = 844; a.H = 390;
