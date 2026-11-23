@@ -2238,7 +2238,7 @@ class Component extends DCLogic {
     // share-link ordinal manifest, both directions, built once per ingest
     this._sharedIncoming = null; // "no share link on this URL" is a value, not an absence
     this._sharedStale = null;    // …and "a valid link this build is too old for" is a third value
-    this._undoList = null; this._delArm = null;
+    this._undoList = null;
     this._ordById = new Map(); this._ordToId = new Map();
     for (const n of nodes) {
       if (typeof n.o !== "number") continue;
@@ -10475,6 +10475,23 @@ class Component extends DCLogic {
   // …and the SECTION around it opens too (v1.196.1): a list opened inside a folded Your lists is
   // a list nobody can see. Made, added to, restored — every caller of this means "show it".
   _expandList(id) { if (id) { this._listExpand().add(id); this._revealLists(); } }
+  /**
+   * OPEN OR SHUT A LIST, AND ITS LIGHT WITH IT (LISTS-MENU-2): the row's press and its chevron's. The owner's rule (the name
+   * opens and shuts, as the chevron does) with the orchestrator's (an open list is lit on the map; shutting it puts the
+   * light out), so the row's older use survives. With several lists open, THE LAST ONE OPENED is the lit one: a press is
+   * a question about that list, and the map answers the newest question. Shutting a list that is not the lit one leaves
+   * the light where it is. A list that opened itself (made, added to, restored: `_expandList`) is open and NOT lit: only a
+   * player's press lights. The light is set BEFORE the one render `_toggleListExpand` makes, so a chevron pressed by key
+   * keeps the focus (`_listOpenFocusPending`) and the camera's flight is the light's own (`setFocusIdxSet`).
+   */
+  _toggleListOpen(id) {
+    if (!this._listsMap()[id]) return;
+    if (!this._listExpanded(id)) {
+      const idxs = this.listIdxs(id);
+      if (idxs.length) { this.clearFocus(); this._listFocusId = id; this.setFocusIdxSet(idxs); }
+    } else if (this._listFocusId === id) this.clearFocus();
+    this._toggleListExpand(id);
+  }
   _toggleListExpand(id) {
     const s = this._listExpand();
     if (s.has(id)) s.delete(id); else s.add(id);
@@ -11159,12 +11176,121 @@ class Component extends DCLogic {
   // annotation, why is there a default in the first place? … we always select the list to
   // add/favorite something to right?" — yes, since v1.102.0. The picker now offers its rows in
   // `listsArray()` order, the Lists panel's own, and marks none of them.
+  /**
+   * A LIST'S OWN MENU (LISTS-MENU): Rename · Duplicate · Share link · Delete, from the row's ⋮. It is the star's picker's
+   * kind of thing and it lives in the picker's own slot (`_pickEl`, `_pickAnchor`, `_pickAway`), so every place that
+   * closes an anchored chooser closes it too, by the one seam `closeListPicker`: Esc's ladder, a press outside, the pane's
+   * visibility changing, a hand resolving, a resize across the phone's breakpoint, an unmount. Placed by the picker's rule
+   * (`_placeListPicker`: above if there is room, clamped whole to the screen, never over the hand), so it ends whole on a
+   * 390x631 phone for a list's LAST row in a scrolled drawer too (the orchestrator's ruling 5; `lists-menu.spec.ts`).
+   * Root plane, z 90: a sibling of the wrap, so `attachInput`'s capture never sees its presses (the picker's case; no
+   * early-return entry). It never stops the clock. Keys: ↑ ↓ Home End move, Enter chooses, Esc and Tab close (focus back on ⋮).
+   */
+  openListMenu(listId, anchor, byKey) {
+    const l = this._listsMap()[listId]; if (!l) return null;
+    this.closeListPicker();
+    this.closeAccountMenu();
+    const root = this.__ngRoot || document.body;
+    const el = document.createElement("div");
+    el.className = "ng-listpicker";
+    el.setAttribute("data-list-menu-open", listId);
+    el.setAttribute("role", "menu");
+    el.setAttribute("aria-label", "Actions for “" + l.name + "”");
+    el.style.cssText = "position:fixed;z-index:90;pointer-events:auto;display:flex;flex-direction:column;";
+    el.innerHTML = '<div class="ng-listpicker-head" data-picker-head="1"><b>List</b><small>' + this.escHTML(l.name) + "</small></div>";
+    const body = document.createElement("div");
+    body.className = "ng-listpicker-body";
+    const items = [["rename", "Rename"], ["duplicate", "Duplicate"], ["share", "Share link"], ["delete", "Delete"]];
+    for (const [k, label] of items) {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute("role", "menuitem");
+      b.setAttribute("data-list-menu-item", k);
+      b.className = "ng-listpicker-row";
+      b.tabIndex = -1;
+      // Delete is last and in its own ink: set apart from Share link, the press a coach makes in front of the class
+      b.innerHTML = '<span class="ng-listpicker-name"' + (k === "delete" ? ' style="color:#ff9c92;"' : "") + ">" + label + "</span>";
+      b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this._listMenuChoose(listId, k); });
+      body.appendChild(b);
+    }
+    el.appendChild(body);
+    el.addEventListener("keydown", (e) => {
+      const rows = [...body.querySelectorAll("[data-list-menu-item]")], at = rows.indexOf(document.activeElement);
+      const go = (i) => { e.preventDefault(); const r = rows[(i + rows.length) % rows.length]; if (r) r.focus(); };
+      if (e.key === "ArrowDown") go(at + 1);
+      else if (e.key === "ArrowUp") go(at < 0 ? rows.length - 1 : at - 1);
+      else if (e.key === "Home") go(0);
+      else if (e.key === "End") go(rows.length - 1);
+      else if (e.key === "Escape" || e.key === "Tab") { e.preventDefault(); this.closeListPicker(); }
+      else return;
+      e.stopPropagation();   // the menu owns these keys: Esc must not also walk the pane's ladder
+    });
+    root.appendChild(el);
+    this._pickEl = el; this._pickNode = null; this._pickAnchor = anchor || null; this._pickMenu = listId;
+    if (anchor) anchor.setAttribute("aria-expanded", "true");
+    this._placeListPicker(el, anchor);
+    this._pickAway = (e) => {
+      if (el.contains(e.target) || (anchor && anchor.contains(e.target))) return;
+      this.closeListPicker();
+    };
+    document.addEventListener("pointerdown", this._pickAway, true);
+    // the first item takes the keys at once when a KEY opened the menu (the APG menu button); a mouse or a tap leaves focus
+    // on ⋮, where the arrows still reach the menu's first item
+    if (byKey) { const first = body.querySelector("[data-list-menu-item]"); if (first) first.focus(); }
+    else if (anchor) anchor.addEventListener("keydown", this._pickMenuKeys = (e) => {
+      if (this._pickEl !== el || (e.key !== "ArrowDown" && e.key !== "ArrowUp")) return;
+      e.preventDefault(); e.stopPropagation();
+      const rows = [...body.querySelectorAll("[data-list-menu-item]")];
+      const r = rows[e.key === "ArrowDown" ? 0 : rows.length - 1]; if (r) r.focus();
+    });   // each opening's listener answers only while ITS menu is the open one (`this._pickEl !== el`)
+    this.track("neural_list_menu_opened", { lists: this.listsArray().length });
+    return el;
+  }
+  /** One of the list menu's items, chosen: the menu gets out of the way first, then the action runs on THAT list. */
+  _listMenuChoose(listId, k) {
+    this.closeListPicker();
+    const l = this._listsMap()[listId]; if (!l) return false;
+    if (k === "rename") { this.startListRename(listId, "menu"); return true; }
+    if (k === "duplicate") return !!this.duplicateList(listId);
+    if (k === "share") { void this.shareList(listId); return true; }
+    if (k === "delete") {
+      // ONE PRESS, THEN UNDO (LISTS-MENU, ruling 1). The row's two-step "Delete?" guarded a 24px × that sat 12px from
+      // Share; inside a menu Delete is already the second deliberate press, set apart from Share link, and the Undo row
+      // (`_undoRow`, 90 s) puts the list back exactly: its items, its name, its `t`.
+      const n = l.items.length;
+      this.deleteList(listId);
+      this.track("neural_list_deleted", { items: n, via: "menu" });
+      return true;
+    }
+    return false;
+  }
+  /**
+   * DUPLICATE a list (LISTS-MENU): a new list with the same techniques in the same order, named "<name> copy" (the base cut
+   * so the whole fits NG_LIST_NAME_MAX), stamped now (so it sorts first), opened in the name editor. It refuses nothing:
+   * there is no cap on the number of lists (ruled), and a copy holds at most its source's items, which are within the cap.
+   */
+  duplicateList(listId) {
+    const src = this._listsMap()[listId]; if (!src) return "";
+    const suffix = " copy";
+    const name = String(src.name || "").slice(0, NG_LIST_NAME_MAX - suffix.length).replace(/\s+$/, "") + suffix;
+    const id = this.newList(name);
+    const copy = this._listsMap()[id];
+    copy.items = src.items.slice(0, NG_LIST_ITEM_CAP);
+    copy.t = this._listStamp();
+    this._saveProgress();
+    this.track("neural_list_duplicated", { items: copy.items.length });
+    // opened in the name editor, as a list made with + is: the copy's name is offered, never demanded
+    this._listEditId = id; this._listEditVia = "menu"; this._listEditDraft = null; this._listEditFocusPending = true;
+    this._listFocusId = null;
+    this.renderExplorer();
+    return id;
+  }
   closeListPicker() {
     if (!this._pickEl) return false;
     try { this._pickEl.remove(); } catch (e) { /* non-fatal */ }
     this._pickEl = null;
     if (this._pickAway) { document.removeEventListener("pointerdown", this._pickAway, true); this._pickAway = null; }
-    const a = this._pickAnchor; this._pickAnchor = null; this._pickNode = null;
+    const a = this._pickAnchor; this._pickAnchor = null; this._pickNode = null; this._pickMenu = null;
     if (a) { try { a.setAttribute("aria-expanded", "false"); a.focus(); } catch (e) { /* non-fatal */ } }
     return true;
   }
@@ -11592,34 +11718,38 @@ class Component extends DCLogic {
       // same type ramp (14/700 → 13/600 #c4cde0 → 12 #9aa6bd). The 44px min-heights that used to
       // sit on these buttons are what made the spacing feel foreign: nothing else in this pane is
       // 44px tall, and the pane is a scroller, not a thumb band.
-      // A THUMB'S ROW (LISTS-R, ruling 5). On a phone the row's three actions (✎ · share · ×) are 44px targets that
-      // overlap no other target, so the ROW gives its 7px of vertical padding to them: one line of 44px boxes, 44px
-      // tall, against 38px with the 24px desktop glyphs. A desktop keeps its sizes. `isMobile()` is the house's thumb
-      // test (the star's own `_listAddButton` sizes by it).
+      // A THUMB'S ROW (LISTS-R, ruling 5; LISTS-MENU). On a phone the row's controls (the count and ⋮) are 44px targets
+      // that overlap no other target, so the ROW gives its 7px of vertical padding to them: one line, 44px tall, against
+      // 38px with the 24px desktop figure. A desktop keeps its sizes. `isMobile()` is the house's thumb test (the star's
+      // own `_listAddButton` sizes by it).
       const thumb = this.isMobile();
       row.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:" + (thumb ? "0 22px" : "7px 22px") + ";border-radius:7px;cursor:pointer;border:0;background:" + (lit ? "rgba(58,72,118,.45)" : "transparent") + ";";
       if (!lit) {
         row.addEventListener("mouseenter", () => { if (this._listFocusId !== id) row.style.background = "rgba(255,255,255,.045)"; });
         row.addEventListener("mouseleave", () => { if (this._listFocusId !== id) row.style.background = "transparent"; });
       }
-      // THE ROW lights the list; THE NAME renames it (v1.99.3, owner: "I can't seem to
-      // click to rename my lists"). Controls own their clicks (the closest() guard), and a
-      // click that lands while — or just after — the editor is open must NOT light: blur
-      // fires before click, so by click time the editor is already committed and gone, and
-      // without the closed-at latch the same click would light the list under the caret.
+      // A PRESS ON THE ROW, ITS NAME INCLUDED, OPENS OR SHUTS THE LIST, EXACTLY AS ITS CHEVRON DOES (LISTS-MENU-2; the
+      // owner, 23 Nov: "pressing the list name is the same as pressing the expand colpase icon"). His rule replaced the
+      // orchestrator's of the same day (the name lighting the list); the light is kept by `_toggleListOpen`: an open list is
+      // lit, shutting it puts the light out. The name renamed from v1.99.3 ("I can't seem to click to rename my lists") to
+      // v1.294.0, then the pencil; rename is the first item of the row's ⋮ menu now.
+      // Controls own their clicks (the closest() guard), and a click that lands while, or just after, the editor is open
+      // must NOT light: blur fires before click, so by click time the editor is already committed and gone, and without
+      // the closed-at latch the same click would light the list under the caret.
       row.addEventListener("click", (e) => {
         const t = e.target;
         if (t && t.closest && t.closest("button,input")) return;
+        // the row's own LINE only: a press on an open list's items (between their controls) must not shut the list under
+        // the finger that is reading it
+        if (t && t.closest && t.closest("[data-list-items]")) return;
         if (this._listEditId === id) return;
         if (Date.now() - (this._listEditClosedAt || 0) < 400) return;
-        this.focusList(id);
+        this._toggleListOpen(id);
       });
       const main = document.createElement("div");
-      // THE NAME'S TARGET IS ITS TEXT, ON PURPOSE (LISTS-S1-R1). The first build of LISTS-R stretched it to the row's
-      // height, and the orchestrator measured what that took (a 2px grid over the row, `elementFromPoint`): the share of
-      // a row that LIGHTS the list fell from about two thirds to 18% on a phone, reachable only through the 21px left
-      // inset. Lighting the list is the row's own press (the first thing a row does), so it keeps every point that is
-      // not a control; rename's proper target is the pencil, and the name's own press stays the shortcut it was.
+      // LIGHTING THE LIST IS THE ROW'S OWN PRESS, so the row keeps every point that is not a control (LISTS-S1-R1 measured
+      // what a control in its way takes: a stretched name left 18% of a phone's row lighting). The name is text now, not a
+      // control: with ⋮ the only action besides the count, 73% of a phone's row lights (89% at 1440; the plan's mock).
       main.style.cssText = "flex:1;min-width:0;display:flex;align-items:center;gap:8px;";
       if (this._listEditId === id) {
         // ── INLINE RENAME: Enter/blur commits, Esc cancels, empty reverts ──
@@ -11648,7 +11778,7 @@ class Component extends DCLogic {
           // the editor owns the keyboard: stopPropagation keeps A/B/C, digits and —
           // critically — Escape (the pane's Esc ladder) out of the global handler
           e.stopPropagation();
-          // a KEY that closes the editor hands focus back to the row's pencil (`_listEditReturn`, read at the end of
+          // a KEY that closes the editor hands focus back to the row's ⋮ (`_listEditReturn`, read at the end of
           // this render): the editor is rebuilt away, and focus would otherwise fall to <body>, a Tab walk from here
           // (the same keyboard continuity `_listOpenFocusPending` gives the count). A blur never does: the press that
           // caused it chose where focus goes.
@@ -11670,130 +11800,72 @@ class Component extends DCLogic {
         inp.addEventListener("pointerdown", (e) => e.stopPropagation());
         main.appendChild(inp);
       } else {
-        const nameBtn = document.createElement("button");
-        nameBtn.type = "button";
-        nameBtn.setAttribute("data-list-name", id);
-        nameBtn.title = "Rename this list";
-        nameBtn.setAttribute("aria-label", "Rename “" + l.name + "”");
-        // 13px/600 #c4cde0 — the weight Explore gives a FAMILY row ("Armbar", "Half Guard"); its box is its text (`main`)
-        nameBtn.style.cssText = "display:block;min-width:0;pointer-events:auto;cursor:text;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:13px;font-weight:600;color:#c4cde0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
-        nameBtn.textContent = l.name;
-        nameBtn.addEventListener("click", () => this.startListRename(id, "name"));
-        main.appendChild(nameBtn);
-        // THE COUNT LINE IS THE DISCLOSURE (v1.99.4). It used to be a second way to light the
-        // list — a duplicate of the row's own click, which is still there. "3 techniques" is
-        // the natural place to ask *which* three, so it now opens the list in place: chevron,
-        // aria-expanded, aria-controls, and a real band to press.
-        const open = document.createElement("button");
-        open.type = "button";
-        open.setAttribute("data-list-open", id);
-        open.setAttribute("aria-expanded", expanded ? "true" : "false");
-        open.setAttribute("aria-controls", itemsId);
-        open.setAttribute("aria-label", (expanded ? "Hide" : "Show") + " the techniques in “" + l.name + "”");
-        open.title = expanded ? "Hide these techniques" : "Show these techniques";
-        // the count reads like Explore's "(6)", and the chevron sits where its sections put it
-        // a family row prints its count bare (10.5px) and puts the chevron last, at 10px.
-        // THE GLYPHS STAY SMALL, THE HIT AREA GROWS (`.ng-lists-new`'s pattern): 10.5px text and
-        // a 10px chevron are an 18x12 target if you let them size the button, which is under the
-        // pane's own 24px figure and under WCAG 2.2 AA. The padding buys the target without
-        // touching the type, and costs the row nothing — its 24px controls already set 38px.
-        open.style.cssText = "display:flex;align-items:center;gap:7px;flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;padding:6px 5px;margin:-6px -5px;border-radius:7px;";
-        open.innerHTML = '<span data-list-count="' + l.items.length + '" style="font-size:10.5px;color:#7e8aa3;">' + l.items.length + '</span>' +
-          '<span data-list-chevron="1" style="flex:none;display:inline-flex;">' + this._caretHTML(expanded) + '</span>';
-        open.addEventListener("click", () => this._toggleListExpand(id));
-        main.appendChild(open);
+        // THE NAME IS TEXT (LISTS-MENU): a press on it is the row's own press (it lights the list). 13px/600 #c4cde0 — the
+        // weight Explore gives a FAMILY row ("Armbar", "Half Guard"). The full name rides `title` past the ellipsis.
+        const nameEl = document.createElement("span");
+        nameEl.setAttribute("data-list-name", id);
+        nameEl.title = l.name;
+        nameEl.style.cssText = "display:block;min-width:0;font-size:13px;font-weight:600;color:#c4cde0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
+        nameEl.textContent = l.name;
+        main.appendChild(nameEl);
+        // THE COUNT STAYS BESIDE THE NAME, as Explore's family rows print theirs (10.5px, bare); it is text now. Its
+        // chevron moved to the row's right edge, where Explore's sit (LISTS-MENU-2, `chev` below).
+        const count = document.createElement("span");
+        count.setAttribute("data-list-count", String(l.items.length));
+        count.style.cssText = "flex:none;font-size:10.5px;color:#7e8aa3;";
+        count.textContent = String(l.items.length);
+        main.appendChild(count);
       }
       row.appendChild(main);
 
-      // ── THREE ICONS ON THE RIGHT (v1.103.4) ────────────────────────────────────────────────
-      // Owner: "a play + share icon + close icon on the right of it". Two word-buttons made every
-      // list row a toolbar; a section header carries glyphs. Same handles, same actions, same
-      // accessible names — a `title` is not a name, so each carries a real `aria-label`.
-      const icon = (attr, glyph, label, tint) => {
-        const b = document.createElement("button");
-        b.type = "button";
-        b.setAttribute(attr, id);
-        b.setAttribute("aria-label", label);
-        b.title = label;
-        b.innerHTML = glyph;
-        // 24px on a desktop (unchanged); a 44px box on a phone, the glyph the same 12px in its centre (`thumb`, above)
-        b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:" + (thumb ? 44 : 24) + "px;height:" + (thumb ? 44 : 24) + "px;padding:0;border:0;border-radius:" + (thumb ? 11 : 7) + "px;background:transparent;color:" + tint + ";display:inline-flex;align-items:center;justify-content:center;font-size:12px;line-height:1;transition:background .15s,color .15s;";
-        b.addEventListener("mouseenter", () => { b.style.background = "rgba(255,255,255,.08)"; b.style.color = "#eef1f6"; });
-        b.addEventListener("mouseleave", () => { b.style.background = "transparent"; b.style.color = tint; });
-        return b;
-      };
-      // NO DRILL CONTROL ON A LIST ROW (v1.103.7, owner). v1.103.6 kept the action and only
-      // changed its glyph off ▶; the owner then deleted the button outright. A list row is now
-      // exactly three things — light it (the row), read it (the count line), share it — plus
-      // the ×. Every technique inside it carries its own ▶ and its own ✕, which is where the
-      // per-item verbs belong. `openListSession` is NOT dead: `[data-shared-drill]` ("Drill
-      // these") still runs it on a RECEIVED class, which is the case that needs a one-press
-      // study path before the list has even been saved.
-
-      // THE PENCIL (LISTS-R, ruling 1; the owner, 19 Nov: "how can i rename a list?", the second time after v1.99.3's
-      // "I can't seem to click to rename my lists"). The name's press has renamed since v1.99.3, and nothing on screen
-      // said so: measured on the preview, a desktop had an I-beam over the name and a tooltip after a pause, a phone
-      // nothing at all, and the name wears Explore's family-row type, where a press on a name OPENS it. So rename gets
-      // its own glyph among the row's actions, ALWAYS visible (hover-only is exactly what hid it), in Share's ink:
-      // both are verbs, and only × is dimmed on purpose. The name's own press still renames and the row's still
-      // lights. Not drawn while this row's editor is open: the input is the rename then, and a pencil beside it
-      // would be a second way into a state the row is already in.
-      let pencil = null;
-      if (this._listEditId !== id) {
-        pencil = icon("data-list-edit", '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.85 0 0 1 4 4L7.5 20.5 2 22l1.5-5.5z"></path></svg>',
-          "Rename “" + l.name + "”", "#9ab0e0");
-        pencil.addEventListener("click", () => this.startListRename(id, "pencil"));
-        row.appendChild(pencil);
+      // ── ONE CONTROL ON THE RIGHT: ⋮, THE LIST'S OWN ACTIONS (LISTS-MENU) ─────────────────────────────────────────
+      // The owner, 23 Nov: "the pencil edit isn't ideal, maybe a cogwheel or what do you suggest?, i may want to delete it
+      // and the pencil edit just gives me that option. what about 3 vertical dots? … duplicate, share, rename, delete".
+      // The row carried a pencil, Share and a two-step × (v1.103.4: "a play + share icon + close icon on the right";
+      // v1.293.5's pencil); they all move into one menu (`openListMenu`): Rename · Duplicate · Share link · Delete.
+      // Not a cogwheel: that reads as settings. Always visible (hover-only is what hid rename), Share's ink, 44px on a
+      // phone with its box in the row's empty right padding (the glyph where the × sat), 24px on a desktop.
+      // NO DRILL CONTROL ON A LIST ROW (v1.103.7, owner), and none in the menu either. `openListSession` is NOT dead:
+      // `[data-shared-drill]` ("Drill these") still runs it on a RECEIVED class.
+      const menuOpen = this._pickMenu === id && !!this._pickEl;
+      const dots = document.createElement("button");
+      dots.type = "button";
+      dots.setAttribute("data-list-menu", id);
+      dots.setAttribute("aria-haspopup", "menu");
+      dots.setAttribute("aria-expanded", menuOpen ? "true" : "false");
+      dots.setAttribute("aria-label", "Actions for “" + l.name + "”");
+      dots.title = "Rename, duplicate, share or delete";
+      dots.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="5" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="12" cy="19" r="2"></circle></svg>';
+      dots.style.cssText = "flex:none;width:" + (thumb ? 44 : 24) + "px;height:" + (thumb ? 44 : 24) + "px;" + (thumb ? "margin-right:-8px;" : "") + "pointer-events:auto;cursor:pointer;font-family:inherit;padding:0;border:0;border-radius:" + (thumb ? 11 : 7) + "px;background:transparent;color:#9ab0e0;display:inline-flex;align-items:center;justify-content:center;line-height:1;transition:background .15s,color .15s;";
+      // the hover wash on a pointer that hovers only: a phone emulates the mouse's enter at a tap and never its leave, so
+      // the tint stayed on ⋮ after its menu had closed (seen in the first build's screens)
+      if (!thumb) {
+        dots.addEventListener("mouseenter", () => { dots.style.background = "rgba(255,255,255,.08)"; dots.style.color = "#eef1f6"; });
+        dots.addEventListener("mouseleave", () => { dots.style.background = "transparent"; dots.style.color = "#9ab0e0"; });
       }
-      const share = icon("data-list-share", '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"></path><path d="M12 16V3"></path><path d="M8 7l4-4 4 4"></path></svg>',
-        "Share “" + l.name + "” as a link", "#9ab0e0");
-      share.addEventListener("click", () => { void this.shareList(id); });
-      // on a phone the pencil's 44px box and Share's ABUT (the row's 8px gap taken back), as Share's and ×'s do below:
-      // the glyphs sit 44px apart, centre to centre, and no box reaches into another
-      if (thumb && pencil) share.style.marginLeft = "-8px";
-      row.appendChild(share);
-
-      // DELETE: two steps, then undoable. It sits next to Share — the one button a coach
-      // presses in front of the class — so a single stray click may not destroy the list the
-      // whole session was spent building. `margin-left` buys the miss-distance.
-      const armed = this._delArm === id;
-      const del = document.createElement("button");
-      del.type = "button";
-      del.setAttribute("data-list-delete", id);
-      if (armed) del.setAttribute("data-list-delete-armed", "1");
-      del.textContent = armed ? "Delete?" : "×";
-      del.title = armed ? "Click again to delete this list" : "Delete this list";
-      del.setAttribute("aria-label", armed ? "Confirm deleting “" + l.name + "”" : "Delete “" + l.name + "”");
-      // still 12px clear of Share — the button a coach presses in front of the class — so a stray
-      // click cannot destroy the list the session was spent building (the two-step is unchanged)
-      const delLook = "font-size:" + (armed ? "10.5px;font-weight:700;" : "13px;") + "line-height:1;border-radius:7px;border:" + (armed ? "1px solid rgba(242,104,95,.5)" : "0") + ";background:" + (armed ? "rgba(242,104,95,.16)" : "transparent") + ";color:" + (armed ? "#ff9c92" : "#6b7691") + ";";
-      if (thumb) {
-        // A PHONE'S × IS A 44px BOX, its look on a chip inside (armed or not), so the box can be transparent and as big as
-        // a thumb while "Delete?" stays the small red chip it is. It ABUTS Share's box (-8px takes the row's gap back): the
-        // three actions sit at an even 44px pitch. The desktop's 12px (above) was the miss-distance of two 24px targets,
-        // centres 36px apart; 44px boxes put the centres 44px apart, further than that, and delete is two steps anyway,
-        // so the gap bought nothing and cost the name 12px ("Thursday open mat" read "Thursday ope…" at 390: the
-        // orchestrator's LISTS-S1-GO). -10px on the right lets the box use the row's empty right padding, so the
-        // glyph sits where it always sat.
-        del.style.cssText = "flex:none;margin-left:-8px;margin-right:-10px;pointer-events:auto;cursor:pointer;font-family:inherit;min-width:44px;height:44px;padding:0;border:0;background:transparent;display:inline-flex;align-items:center;justify-content:center;";
-        del.innerHTML = '<span style="display:inline-flex;align-items:center;justify-content:center;' + (armed ? "padding:5px 8px;" : "width:24px;height:24px;") + delLook + '">' + (armed ? "Delete?" : "×") + "</span>";
-      } else {
-        del.style.cssText = "flex:none;margin-left:12px;pointer-events:auto;cursor:pointer;font-family:inherit;" + (armed ? "padding:5px 8px;width:auto;height:auto;" : "padding:0;width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;") + delLook;
-      }
-      del.addEventListener("click", () => {
-        if (this._delArm !== id) {
-          this._delArm = id;
-          if (this._delArmT) clearTimeout(this._delArmT);
-          // real setTimeout, not the sim clock: this is UI patience, not game time
-          this._delArmT = setTimeout(() => { if (this._delArm === id) { this._delArm = null; this._refreshListSurfaces(); } }, 8000);
-          this._refreshListSurfaces();
-          return;
-        }
-        this._delArm = null;
-        if (this._delArmT) { clearTimeout(this._delArmT); this._delArmT = null; }
-        this.deleteList(id);
+      // a second press on the open menu's own ⋮ shuts it (the APG menu button); `_pickAway` lets a press on the anchor through
+      dots.addEventListener("click", (e) => {
+        e.stopPropagation(); e.preventDefault();
+        if (this._pickMenu === id && this._pickEl) { this.closeListPicker(); return; }
+        this.openListMenu(id, dots, e.detail === 0);
       });
-      row.appendChild(del);
+      row.appendChild(dots);
+      // THE CHEVRON AT THE ROW'S RIGHT EDGE, WHERE EXPLORE'S SIT (LISTS-MENU-2; the owner: "sometimes the chverons are on the
+      // lef tsometime right"). The same glyph and ink (`_caretHTML`, `.ng-caret`), pointing right shut and down open. Its
+      // glyph's right edge is the section heads' column: 25px in from the panel's right edge at 1440 and at 390 (measured;
+      // lists-menu.spec.ts pins the two equal), which is the row's 22px right padding less 10px here and, on a phone,
+      // a 44px box reaching the row's edge with its glyph 12px inside it. The ⋮ is the control just left of it.
+      const chev = document.createElement("button");
+      chev.type = "button";
+      chev.setAttribute("data-list-open", id);
+      chev.setAttribute("aria-expanded", expanded ? "true" : "false");
+      chev.setAttribute("aria-controls", itemsId);
+      chev.setAttribute("aria-label", (expanded ? "Hide" : "Show") + " the techniques in “" + l.name + "”");
+      chev.title = expanded ? "Hide these techniques" : "Show these techniques";
+      chev.innerHTML = this._caretHTML(expanded);
+      chev.style.cssText = "flex:none;display:inline-flex;align-items:center;justify-content:flex-end;pointer-events:auto;cursor:pointer;font-family:inherit;border:0;background:transparent;color:#5d6883;border-radius:7px;" + (thumb ? "width:44px;height:44px;padding:0 12px 0 0;margin-right:-22px;" : "width:24px;height:24px;padding:0;margin-right:-10px;");
+      chev.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this._toggleListOpen(id); });
+      row.appendChild(chev);
       // ── the disclosure body: the techniques themselves ──
       // A CHILD of the row (which is flex-wrap), not a sibling, so the list reads as one card
       // and Drill / Share / × keep their own line above it. No overflow of its own: the pane
@@ -11837,9 +11909,9 @@ class Component extends DCLogic {
       this._listOpenFocusPending = null;
       if (back) { try { back.focus(); } catch (e) { /* non-fatal */ } }
     }
-    // ...and an editor a KEY closed hands focus to its row's pencil (see the editor's keydown)
+    // ...and an editor a KEY closed hands focus to its row's ⋮, where Rename was chosen (see the editor's keydown)
     if (this._listEditReturn && !this._listEditId) {
-      const back = sec.querySelector('[data-list-edit="' + this._listEditReturn + '"]');
+      const back = sec.querySelector('[data-list-menu="' + this._listEditReturn + '"]');
       this._listEditReturn = null;
       if (back) { try { back.focus({ preventScroll: true }); } catch (e) { /* non-fatal */ } }
     }

@@ -69,8 +69,9 @@ test("▶ rides every technique row — and never the list itself", async ({ pag
   // the per-item verbs live on the items. `openListSession` stays reachable from a RECEIVED
   // class's "Drill these", which is the case that needs a study path before anything is saved.
   await expect(page.locator("[data-list-drill]")).toHaveCount(0);
-  await expect(page.locator("[data-list-share]")).toHaveCount(1);
-  await expect(page.locator("[data-list-delete]")).toHaveCount(1);
+  // its actions are behind its ⋮ since LISTS-MENU (Rename · Duplicate · Share link · Delete), never a ▶
+  await expect(page.locator("[data-list-menu]")).toHaveCount(1);
+  await expect(page.locator("[data-list-share], [data-list-delete]")).toHaveCount(0);
   expect(
     await page.evaluate(() => typeof (window as any).__neural.openListSession === "function"),
     "the received-class drill path must not have been deleted with the button",
