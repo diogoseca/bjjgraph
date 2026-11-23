@@ -202,9 +202,10 @@ const props = Object.fromEntries(
 // 4) compose the entry
 const entry = `
 // ---- minimal dc-runtime shim (no React, no eval) ----
-const __ngRefs = []
+// (LEAK1, v1.298.1: a module-level \`__ngRefs\` once kept every ref every app ever made, read by nothing, so a dead app's
+// elements, and through their listeners the app, lived for the page's life: each ref now lives with its app alone)
 const React = {
-  createRef() { const r = { current: null }; __ngRefs.push(r); return r },
+  createRef() { return { current: null } },
   Component: class {},
 }
 ;(globalThis).React = React
