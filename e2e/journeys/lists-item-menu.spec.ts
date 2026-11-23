@@ -60,7 +60,7 @@ const overlap = (a: Box, b: Box) =>
 const dotsSel = (node: string, lid: string) => `[data-list-item-menu="${node}"][data-list-of="${lid}"]`;
 const itemSel = (node: string, k: string) => `[data-list-item-menu-open="${node}"] [data-list-menu-item="${k}"]`;
 
-test("1440 by mouse: an item's ⋮ offers Share, Move up, Move down, Remove from list; each does its thing", async ({ page, context }) => {
+test("1440 by mouse: an item's ⋮ offers Share, Move up, Move down, Move to…, Remove from list; each does its thing (Move to…: lists-move.spec.ts)", async ({ page, context }) => {
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
   const j = journey(page);
   await j.boot("/");

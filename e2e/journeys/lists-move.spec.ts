@@ -286,7 +286,7 @@ const sorted = (l: W) => Object.fromEntries(Object.keys(l).sort().map((k) => [l[
 const cloudBlob = (page: Page) => page.evaluate((id) => (window as W).__authOwnerFixture.cloudOf(id), ACC);
 
 test("two browsers, one account: a move in one stays a move in the other, and comes back intact; a reorder in the other is taken back", async ({ browser }) => {
-  test.setTimeout(240_000);
+  test.setTimeout(120_000);   // it passes in about 10 s; a mutant that stalls a browser must not hold the lock for 4 min
   const X = await browserAt(browser), Y = await browserAt(browser);
   try {
     await signInNeuralAuthSDK(X.page, ACC);
