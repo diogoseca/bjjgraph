@@ -275,7 +275,10 @@ NEURAL_TARGET = {
     # The owner's limit is 600,000 now (U207 a, 19 Nov 2026).
     # v1.296.0 L2b S2 (a cloze's place on the map: the glide, ngLightFrame, master-cloze.src.js's two calls, and S2-R1's
     # ngClozeFrame): 555_963, +842 B on dev v1.295.3's 555,121 (Settings' SET1, which moved the ceiling in budget_site.json).
-    "deferred_raw_bytes": 555_963,
+    # v1.297.0 L2b S3 (a phone's look from the cloze: the Map press, the look, the pill, master-cloze.src.js; the pale marks, the
+    # look's calm area and the glide's no-room floor, map-light.src.js): 557_990, +2_027 B on S2's 555_963 (dev v1.295.3 in);
+    # S3-R1: 558_018, +28 B (reader.js records the size it laid out for, `nodeBandAt`).
+    "deferred_raw_bytes": 558_018,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
