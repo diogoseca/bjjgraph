@@ -15,6 +15,11 @@ import { journey } from "../dsl";
  *   · a phone has no drag: its rows are not draggable ("Move to…" in the ⋮ is its way, and the keyboard's).
  * Every drag is a real mouse: `page.mouse` down, moved in steps, up, at measured centres. Lists are SEEDED through the app's
  * own model (setup only); the lists and cells are read back from the app's record.
+ * HARNESS NOTE: in this harness a second `mouse.move` inside a held drag sends no drag events, so each drag here is checked
+ * where its one move ends. MUTANTS (each built and run against this file): the lease removed; the list it is in a target;
+ * a full list a target; the drop without its after-step; a phone dragging; dragend not ending the drag; the grip not
+ * replacing the glyph; closing the drawer not lifting the lease: 8 of 8 red. NOT KILLED HERE: the lease's 15 s expiry
+ * (a journey would hold the suite 15 s); nothing covers it.
  */
 
 type W = any;
