@@ -936,11 +936,14 @@ class Component extends DCLogic {
   // which the drawer's shutting leaves as it is, so a phone's look keeps it), and Last rolls the drawer's view, with no
   // study surface over it. Another row opened (one at a time), the arrows, a new roll (`_closeRoll` drops its rows) or
   // Practise here (Master the game's list takes the drawer) each leave it.
+  // AND ON A COMPUTER, THE DRAWER SHUT (S2; the orchestrator's ruling on the reader's re-read of PR #447): Show, then Esc on a
+  // still board, left the place lit and named for the 7 s with Last rolls out of sight. On a computer the drawer stands
+  // beside the map, so shutting it is leaving Last rolls; a phone's look IS the drawer shut, and it keeps its look.
   _shownNode() {
     const s = this._shown;
     return s && (this._lookAutoPaused || (this.camHeld() && this._camHoldTarget === s.t)) && this._shownRow(s) ? this.nodes[s.i] || null : (this._shown = null);
   }
-  _shownRow(s) { return s.rid == null || (this._viewMode === "history" && !this._paneStudyActive() && this._openRow === s.rid); }
+  _shownRow(s) { return s.rid == null || ((this.deckShown || this.isMobile()) && this._viewMode === "history" && !this._paneStudyActive() && this._openRow === s.rid); }
   /**
    * THE LIGHT (L2b S1, v1.295.0): what "Show on the map" shows, lit. Until now the map NAMED the shown place and lit
    * nothing, so the name was tied to its orb by nothing at a glance (L3 ruling, v1.293.0: "names, does not yet LIGHT").

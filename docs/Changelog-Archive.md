@@ -20815,3 +20815,15 @@ journey files that open a cloze or read the map's names, rings or labels (greppe
 **Bytes** (this tree, stacked on S1): eager gzip 377,716 B (+335 on S1's 377,381), eager raw 1,468,822 B (+902);
 deferred 551,167 B (+755), its ceiling moved to it in its own commit. **Not measured:** the frame time of the names pass
 at a lit cloze (at most seven candidates through the memoised planner, which reuses its plan while nothing moves).
+
+**After PR #447 (23 Nov 2026).** S2 took S1-R1 and then dev (ab9532b34, #447 merged) by merge. Rulings 2 and 4 hold for the
+cloze's light too: it shares `_drawLight`, so it goes out at once when the game starts again (the drawer shut, a move
+played, a film). Ruling 2 changes nothing there: the cloze's light already belonged to its cloze (`_czAt`), and Hide, Done
+or the place left end it with the game held, so it fades over 400 ms. The deferred ceiling was measured again on S1-R1's
+corrected figure: 550,828 B, +755 on 550,073.
+**The drawer-shut rule** (the orchestrator's ruling on the reader's re-read of PR #447): on a computer, with a still board,
+Show then Esc shut the drawer and the place stayed lit and named for the 7 s with Last rolls out of sight. On a computer
+the look now also ends when the drawer is shut (`_shownRow` reads `deckShown` there); a phone keeps its look, which is the
+drawer shut. Unit: ML18 red (the drawer not read). Journey: the desktop's Esc step now reads the name gone, and a still
+board (staged, its clock held) reads the look ended at once and the light out over 400 ms (there the shown place is where
+the board stands, which the board names by itself, so the look is read, not the name); JD1 red at both, a control first.

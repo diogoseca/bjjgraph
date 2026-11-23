@@ -37,6 +37,7 @@
 //   ML15 the cold path ramps the strength (the planner lands at full)   → "the planner arriving late…"
 //   ML16 the look not tied to its row (`_shownRow` always yes)          → "the look ends with its row…"
 //   ML17 Last rolls not read (`_viewMode` dropped from `_shownRow`)      → "the look ends with its row…", at "Explore"
+//   ML18 (S2) the drawer shut not read on a computer                    → "the look ends with its row…", at "the drawer shut"
 // ML6 SINCE S1-R1 SURVIVES, AND IS COVERED TWICE: with `paused` dropped from `_lightOf`, ruling 4's own line in `_drawLight`
 // (`running`: the game runs, so the strength is 0) still puts out a light over a running game; ML14 is that line's killer.
 // Both guards stay: `_lightOf` also decides which place the fade keeps (`_lightAt`) and when `light_cold` is said.
@@ -137,25 +138,34 @@ test("out at once when the game starts again, and when a film takes the map; the
 });
 
 test("the look ends with its row, or with Last rolls: the name goes, and the light fades out over 400 ms", () => {
-  const { a, frame } = lit();
+  const { a, frame } = lit({ drawer: true });
   a._viewMode = "history"; a._openRow = "c0"; a._shown.rid = "c0";
   assert.equal(frame(400).k, 1, "premise: shown from an open row of Last rolls, lit");
   a._openRow = null;   // the row pressed again: collapsed
   assert.equal(a._shownNode(), null, "the row collapsed: the place is no longer shown (and so not named)");
   const l = frame(100);
   assert.ok(l && Math.abs(l.k - 0.75) < 0.02, "the game is still held: out over 400 ms (100 ms: 0.75, " + (l && l.k) + ")");
-  const b = lit();
+  const b = lit({ drawer: true });
   b.a._viewMode = "history"; b.a._openRow = "c0"; b.a._shown.rid = "c0";
   assert.equal(b.frame(400).k, 1, "premise: lit again");
   b.a._viewMode = "explore";   // the drawer switched to Explore
   assert.equal(b.a._shownNode(), null, "Last rolls left for Explore: no longer shown");
-  const c = lit();
+  const c = lit({ drawer: true });
   c.a._viewMode = "history"; c.a._openRow = "c0"; c.a._shown.rid = "c0";
   assert.equal(c.frame(400).k, 1, "premise: lit again");
   c.a._session = { keys: [] };   // Practise here: Master the game takes the drawer
   assert.equal(c.a._shownNode(), null, "a study surface over Last rolls: no longer shown");
   const d = lit();
   assert.equal(d.frame(400).k, 1, "a place shown with no row (a test's own call) is not tied to one");
+  // S2 (the orchestrator's ruling on the reader's re-read of PR #447): on a computer the drawer shut ends it; a phone keeps it
+  const e = lit({ drawer: true });
+  e.a._viewMode = "history"; e.a._openRow = "c0"; e.a._shown.rid = "c0";
+  assert.equal(e.frame(400).k, 1, "premise: a computer, the drawer open on Last rolls: lit");
+  e.a.deckShown = false;
+  assert.equal(e.a._shownNode(), null, "a computer, the drawer shut: Last rolls is out of sight, the look is over");
+  const f = lit({ W: 390 });
+  f.a._viewMode = "history"; f.a._openRow = "c0"; f.a._shown.rid = "c0";
+  assert.equal(f.frame(400).k, 1, "a phone, the drawer shut: that is its look, lit");
 });
 
 test("the planner arriving late: the light comes in over its quarter second from when it can first be drawn", () => {
