@@ -29,9 +29,9 @@
 //      order (MOVE-R1 F2, MOVE-R2 R3: the record's, then what it does not name by id).
 //  16. a move's Undo puts both lists' recency back (MOVE-R1 F6): a source the move emptied comes back with its own `t`, and
 //      a source or a target it touched takes its `t` from before the move.
-//  17. A HEAL-ONLY PUSH BACKS OFF (MOVE-R1 F3): a cloud that keeps going back to a stale copy (what a build older than
-//      v1.296.1 does) gets the first heal at once, then one only after 1 min, 2 min …; a real change pushes at once and
-//      starts the waits over;
+//  17. A HEAL-ONLY PUSH BACKS OFF (MOVE-R1 F3, MOVE-R2 R2): a cloud that keeps going back to a stale copy (what a build
+//      older than v1.296.1 does) gets the first heal at once, then one only after 1 min, 2, 4 … up to an hour, then hourly;
+//      a real change pushes at once and starts the waits over;
 //  18. a move is stamped later than every cell this device holds, one stamped by a clock an hour ahead included (else the
 //      move's "out" would lose to an older "in" at the next merge, and the move would come back as a copy);
 //  19. A REAL CHANGE IS NEVER TAKEN FOR A HEAL (MOVE-R2 R1): a racing write that erased a technique this tab added, twice in
@@ -428,6 +428,13 @@ test('17. a heal-only push backs off: once at once, then after 1 min, 2 min …;
     assert.equal(await pushesAfter(61000), 0, 'the wait is now 2 min');
     assert.equal(await pushesAfter(60000), 1, 'after 2 min: one heal');
     assert.equal(await pushesAfter(1000), 0);
+    // the waits double up to an HOUR and stay there (MOVE-R2 R2: a day's cap left a fresh device wrong for up to a day)
+    let since = 1000;                                                          // ms since the last heal
+    for (const min of [4, 8, 16, 32, 60, 60]) {
+      assert.equal(await pushesAfter(min * 60000 - since - 1000), 0, 'nothing before ' + min + ' min');
+      assert.equal(await pushesAfter(1000), 1, 'one heal after ' + min + ' min');
+      since = 0;
+    }
     // a real change on this device pushes at once, and the waits start over
     a.lists.T.items.push('W'); a._saveProgress(); await flush();
     assert.ok(h.pushes.at(-1).value.lists.T.items.includes('W'), 'a real change goes at once');

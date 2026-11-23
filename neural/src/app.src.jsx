@@ -415,7 +415,7 @@ const NG_MIX_SITES_BY_DEFAULT = true;
 // before General keeps "where the roll starts" above the gi/no-gi choice (start-from.spec.ts). A new group is
 // one row here and one branch in settings-ui.src.js; settings-tabs.spec.ts measures the list at every size.
 // THE HEAL-ONLY PUSH BACKS OFF (MOVE-R1, F3): the first wait and its ceiling. See `_pushCloud`.
-const NG_HEAL_WAIT_MIN = 60000, NG_HEAL_WAIT_MAX = 86400000;
+const NG_HEAL_WAIT_MIN = 60000, NG_HEAL_WAIT_MAX = 3600000;   // 1 min, doubling to at most an hour (MOVE-R2 R2)
 const NG_SETTINGS_TABS = [["flashcards", "Practice"], ["rolling", "Rolling"], ["reading", "Articles"], ["app", "General"], ["modifiers", "Your odds"], ["notifications", "Email"], ["shortcuts", "Keyboard"]];
 // IS THE TRAINING-DAY EMAIL LIVE? Not yet (v1.261.1). Owner, 12 Nov 2026, briefing answer U139 a:
 // "Hide it while the digest is off." The digest cannot send: the owner decided on 11 Nov 2026 that it
@@ -8628,25 +8628,30 @@ class Component extends DCLogic {
         const snap = this._progressHost.cloudSnapshot(this), key = ngProgressCloudKey(snap), seen = this._cloudSeen;
         if (!this._pushesInFlight && seen && seen.userId === userId && seen.key === key) return;
         // A HEAL-ONLY PUSH BACKS OFF (MOVE-R1, F3, ruled). A push is a HEAL when what this tab would send is exactly what
-        // it last sent and the cloud took (`_pushedLast`): nothing new here, the cloud went back. One cause is ordinary (a
+        // it last sent and the cloud took (`_pushedLast`), AND the cloud is behind it only in the two list fields (below):
+        // nothing new here, the cloud went back. One cause is ordinary (a
         // stale device's push landed over ours once) and one is not: a build older than v1.296.1 keeps its own first copy
         // of `listItemAt` and `listOrderAt` for good (unknown top-level keys merge local-wins in `_progressExtras`) and puts
         // it back on every pull, while every current device puts the newer one back on its next pull: before this, two
         // builds on one account pushed at each other on every pull, for as long as the older one ran (the reader's
         // old_carry.mjs: 2 pushes a round, every round). So the FIRST heal goes at once (a fresh device still finds the
-        // cloud healed), and the next only after a doubling wait, 1 min, 2, 4 … at most a day (NG_HEAL_WAIT_MIN/_MAX); any
-        // push that carries something new resets it. The older build itself goes quiet once the cloud holds its copy (its
-        // merge then equals the cloud), so a pair of builds settles into a trickle: MEASURED (old_hours.mjs, a pull by each
-        // every 30 s, or every 5 min, of simulated time) 8 + 8 pushes in the first hour,
-        // then one pair at each doubling: 13 + 13 in 24 hours, against 120 + 120 every hour before. Meanwhile the cloud holds the older copy between heals, so a third device
-        // signing in sees the moves as copies and the old orders until the next heal or its own next real change; no
-        // technique is lost on any device (each holds its own fields, and the merge only adds). Per tab, in memory: a
-        // reload starts with an immediate heal.
-        // A HEAL needs BOTH (MOVE-R2 R1, ruled): nothing new since this tab's last push, AND the cloud behind it in nothing
-        // but the two list fields an older build pins (`_onlyListFieldsBehind`). The first half alone took a real change
-        // for a heal: an older build pushing over this tab twice in a row, each time from a read made just before this
-        // tab's write landed, erased a technique this tab had added, and its re-push then waited a minute as a "heal"
-        // (the reader's seed 12163). Anything else the cloud lacks (an item in a list, an answer, a setting) goes at once.
+        // cloud healed), and the next only after a doubling wait, 1 min, 2, 4 … at most an HOUR (NG_HEAL_WAIT_MIN/_MAX;
+        // MOVE-R2 R2: a day's cap left a fresh device wrong for up to a day after the older build was gone); any push that
+        // carries something new resets it. The older build goes quiet once the cloud holds its copy (its merge then
+        // equals the cloud). MEASURED, v1.294.0's source and this build on one account, a pull by each every 30 s or 5 min
+        // of simulated time (old_hours.mjs; the reader's hours.mjs): 8 + 8 pushes in the first hour, then about one an
+        // hour by each current device and two by the older build (31 + 31 in a day), against 120 + 120 every hour before.
+        // THE COST, stated plainly: while an older build is in use on the account, the cloud holds its copy most of the
+        // time (the newest move missing 98.8% of the day at 30 s pulls), so a device signing in meanwhile shows a move as a
+        // copy, and two current devices can disagree about a moved item, for up to an hour after the older build is gone
+        // (stopped at h6: the cloud healed in h7, stale 25% of the day). No technique is lost on any device: each holds its
+        // own fields, and the merge only adds. Per tab, in memory: a reload starts with an immediate heal, so a tab that
+        // reloads every 20 min pushes about 18 times an hour while an older build runs (the reader's measure).
+        // BOTH HALVES (MOVE-R2 R1, ruled): the first alone took a real change for a heal. An older build pushing over this
+        // tab twice in a row, each time from a read made just before this tab's write landed, erased a technique this tab
+        // had added, and its re-push then waited as a "heal" (the reader's seed 12163). So a heal also needs the cloud to
+        // be behind in nothing but `listItemAt` and `listOrderAt` (`_onlyListFieldsBehind`); anything else it lacks (an
+        // item in a list, an answer, a setting) goes at once.
         const last = this._pushedLast, heal = !!(last && last.userId === userId && last.key === key) && this._onlyListFieldsBehind(userId, key);
         if (heal) {
           const now = Date.now();
