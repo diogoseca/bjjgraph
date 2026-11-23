@@ -21139,3 +21139,19 @@ the look now also ends when the drawer is shut (`_shownRow` reads `deckShown` th
 drawer shut. Unit: ML18 red (the drawer not read). Journey: the desktop's Esc step now reads the name gone, and a still
 board (staged, its clock held) reads the look ended at once and the light out over 400 ms (there the shown place is where
 the board stands, which the board names by itself, so the look is read, not the name); JD1 red at both, a control first.
+
+**S2-R1 (23 Nov 2026; the reader of PR #449, MERGE AFTER 4 FIXES, and the orchestrator's rulings and blocker).**
+- **The hold only while the game is held (ruling 1):** a move played beside the open drawer ran the roll with the camera
+  held on the cloze. The journey reads the move coming onto the map (KH1) and none of the cloze's names (the reader's S8).
+- **The bare-map press lets the cloze's map go (ruling 2):** the close marks it free, unlit and unheld, the cloze still
+  open; the next Show takes the map back (KF1).
+- **A look begun on a phone keeps its place whatever the width (ruling 3):** turned to 844x390 it lost its light for
+  good, a regression of the drawer-shut rule (ML19, JR3).
+- **A resize frames the held place again (finding 6),** read a frame at a time: the view's height is the reader's band,
+  which settles a frame after the resize (KZ1).
+- **The frames (the blocker).** The 360 ms frames were the test harness: frames drawn back to back in one task let the
+  canvas pay a dozen frames' raster on one call (a CPU profile: 70% `fill`, 17% `stroke`, one orb's fill taking 250 to
+  300 ms one frame in 12). In real frames at 1440x900 the cloze's framing (6.65 times out) costs 20 ms of the main thread
+  a frame, p95 26.2, under 33: no cap. `tests/artifacts/_map_names_frametime.mjs --wide` measures the three ways; the
+  journey pins a frame at the cloze's framing to the board's own view plus 15 ms (35 against 57 ms there; KT1's 60 ms of
+  work read 94). At 390 every view of this box costs 17 to 49 ms (software raster at dpr 3), the roll's own included.
