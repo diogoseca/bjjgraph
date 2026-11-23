@@ -1099,19 +1099,27 @@ export class Journey {
     await expect(this.page.locator("[data-practice-page] .ng-corridor"), "the corridor is drawn in Master the game").toHaveCount(1, { timeout: 30_000 })
     // L1 (v1.290.0): the shelf sits folded under Master the game's "Belt lessons" row, the list's last; its row unfolds it,
     // pressed here by mouse the way a player does (a corridor door, `openCorridor`, opens it unfolded: nothing is pressed)
-    const folded = this.page.locator('[data-master-belts][aria-expanded="false"]')
-    if (await folded.count()) {
-      await folded.scrollIntoViewIfNeeded()
-      await this.clickByMouse('[data-master-belts][aria-expanded="false"]', "Belt lessons")
-      await expect(this.page.locator('[data-master-belts][aria-expanded="true"]')).toHaveCount(1)
-    }
-    const earlier = this.page.locator('[data-earlier-belts][aria-expanded="false"]')
-    if (opts.allBelts !== false && await earlier.count()) {
-      await earlier.scrollIntoViewIfNeeded()
-      await this.clickByMouse('[data-earlier-belts][aria-expanded="false"]', "Show earlier belts")
-      await expect(this.page.locator('[data-earlier-belts][aria-expanded="true"]')).toHaveCount(1)
-    }
+    // A ROW A REDRAW CAN REPLACE (LEAK1-R3): the press that opened Master the game draws its list, and the press's own
+    // deferred step (`_afterPress` → `_practiceAppend` → `renderSession`) draws it again 70 to 360 ms later, a new Belt lessons
+    // row in the old one's place. A count then an act on the same locator met the old row detached once in some 500 CI runs
+    // ("locator.scrollIntoViewIfNeeded: Element is not attached to the DOM"). Each step now looks the row up fresh and is
+    // taken again, whole, if a redraw replaced it under the act; the claim is kept: exactly one row expanded at the end.
+    await this.unfold('[data-master-belts]', "Belt lessons")
+    if (opts.allBelts !== false) await this.unfold('[data-earlier-belts]', "Show earlier belts")
     return this
+  }
+
+  /** a folded row (`[aria-expanded="false"]`) pressed open by mouse, if it is folded: looked up fresh, and pressed again, whole,
+   *  when a redraw replaced it under the act (LEAK1-R3); the claim kept: exactly one `sel` expanded at the end, or none there */
+  async unfold(sel: string, what: string) {
+    await expect(async () => {
+      const folded = this.page.locator(`${sel}[aria-expanded="false"]`)
+      if (await folded.count()) {
+        await folded.first().scrollIntoViewIfNeeded({ timeout: 2_000 })
+        await this.clickByMouse(`${sel}[aria-expanded="false"]`, what)
+        await expect(this.page.locator(`${sel}[aria-expanded="true"]`), `${what}: exactly one expanded`).toHaveCount(1, { timeout: 2_000 })
+      }
+    }, `${what}: unfolded, whatever redraws the list`).toPass({ timeout: 30_000 })
   }
 
   /** U104 (v1.252.0): at 1440x900 an opened question can end below the reader's scrollport, so its last answer needs a scroll
