@@ -472,20 +472,24 @@ test("junk records are dropped, never thrown on; no record means today's merge",
   assert.deepEqual(ngMergeLists(a, b, {}, {}), ngMergeLists(a, b));
 });
 
-// MOVE-R1, F5: a stamp of 2^53 or more can never be beaten (`t + 1 === t` there), so a damaged one would freeze its cell or
-// record for good, and through a list's `t` every later stamp of the device. Each reader takes a SAFE integer only.
-test("a stamp of 2^53 or more, or not an integer, is dropped by every reader (it could never be beaten)", () => {
-  const big = 2 ** 53;
-  for (const t of [big, big + 2, 1e308, 1.5, -1]) {
+// MOVE-R1 F5, MOVE-R2 R4: one stamp rule for a list's `t`, the cells and the records: a positive integer below 2^52. At
+// 2^53 or more `t + 1 === t`, so a damaged stamp could never be beaten; and since every later stamp of a device is the
+// newest list `t` + 1, a non-integer or a 2^53 - 1 list `t` would make every later cell a stamp the readers drop (the
+// reader's frac.mjs: the move holds here and silently does not sync).
+test("a stamp must be an integer below 2^52, for a list's t, a cell and a record alike", () => {
+  const top = 2 ** 52;
+  for (const t of [top, 2 ** 53 - 1, 2 ** 53, 1e308, 1.5, 1795500000000.5, -1, 0]) {
     assert.deepEqual(ngListMarksNormalize({ S: { X: [t, 1] } }), {}, "a cell stamped " + t);
     assert.deepEqual(ngListOrderNormalize({ S: [t, ["X"]] }), {}, "a record stamped " + t);
+    assert.equal(ngListsNormalize({ S: { name: "Monday", items: ["X"], t } }).S.t, 0, "a list's t of " + t + " reads as 0");
   }
-  assert.deepEqual(ngListMarksNormalize({ S: { X: [big - 1, 1] } }), { S: { X: [big - 1, 1] } }, "2^53 - 1 is still a stamp");
-  assert.deepEqual(ngListOrderNormalize({ S: [big - 1, ["X"]] }), { S: [big - 1, ["X"]] });
-  assert.equal(ngListsNormalize({ S: { name: "Monday", items: ["X"], t: big } }).S.t, 0, "a list's own t past 2^53 - 1 reads as 0");
-  assert.equal(ngListsNormalize({ S: { name: "Monday", items: ["X"], t: big - 1 } }).S.t, big - 1);
+  for (const t of [1, 1795400000000, top - 1]) {
+    assert.deepEqual(ngListMarksNormalize({ S: { X: [t, 1] } }), { S: { X: [t, 1] } }, t + " is a stamp");
+    assert.deepEqual(ngListOrderNormalize({ S: [t, ["X"]] }), { S: [t, ["X"]] });
+    assert.equal(ngListsNormalize({ S: { name: "Monday", items: ["X"], t } }).S.t, t);
+  }
   // and a later write beats what is left: a merge of a dropped damaged cell with a real one keeps the real one
-  assert.deepEqual(ngListMarksMerge({ S: { X: [big, 1] } }, { S: { X: [1795400000000, 0] } }), { S: { X: [1795400000000, 0] } });
+  assert.deepEqual(ngListMarksMerge({ S: { X: [2 ** 53, 1] } }, { S: { X: [1795400000000, 0] } }), { S: { X: [1795400000000, 0] } });
 });
 
 // MOVE-R1, F1: two of the reader's mutants left every unit green. Each case below is the same data in two key orders, and

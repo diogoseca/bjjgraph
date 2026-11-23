@@ -54,6 +54,10 @@ function nglClamp(s, max) {
 // Items are NODE IDS, never ordinals and never array indices — ordinals are a wire detail and
 // indices are unstable. `t` is the last-touched time; it settles name conflicts on merge.
 
+/** A stamp every reader accepts: a positive integer below 2^52 (MOVE-R2 R4). Lists, cells and records share one rule, so a
+ * stamp one of them writes is never dropped by another, and `+ 1` on the newest is always a new, larger integer. */
+export function ngListStampOk(t) { return Number.isSafeInteger(t) && t > 0 && t < 4503599627370496; }
+
 /** Sanitize an untrusted lists blob (localStorage is user-writable; cloud rows outlive
  *  schemas). Never throws; drops what it cannot understand. */
 export function ngListsNormalize(raw) {
@@ -76,9 +80,11 @@ export function ngListsNormalize(raw) {
     out[id] = {
       name: nglClamp(entry.name, NG_LIST_NAME_MAX) || "Class list",
       items: items,
-      // at most 2^53 - 1 (MOVE-R1, F5): `_listStamp` adds 1 to the newest `t`, and past that `n + 1 === n`, so one damaged
-      // stamp would freeze every later list, cell and record stamp of this device. No clock gets near it.
-      t: Number.isFinite(t) && t > 0 && t <= Number.MAX_SAFE_INTEGER ? t : 0,
+      // an integer below 2^52 (MOVE-R1 F5, MOVE-R2 R4): `_listStamp` adds 1 to the newest `t`, and every later list, cell
+      // and record stamp of this device is built on it. A non-integer would make them non-integers, and 2^53 - 1 would make
+      // them 2^53: the cell and record readers drop both, so every later move would hold here and silently not sync. Every
+      // build writes Date.now()-scale integers (about 2^40.7 today); nothing real is near it.
+      t: ngListStampOk(t) ? t : 0,
     };
   }
   return out;
@@ -169,9 +175,9 @@ export function ngListMarksNormalize(raw) {
       const c = row[nid];
       if (!nid || NGLM_UNSAFE.indexOf(nid) >= 0 || !Array.isArray(c) || c.length < 2) continue;
       const t = c[0], f = c[1];
-      // a SAFE integer only (MOVE-R1, F5): at 2^53 or more `t + 1 === t`, so no later write could ever beat a damaged
-      // stamp, and the cell would be frozen for good (the reader's freeze.mjs). Every stamp a build writes is an integer.
-      if (!Number.isSafeInteger(t) || t <= 0 || (f !== 0 && f !== 1)) continue;
+      // an integer below 2^52 only (MOVE-R1 F5, MOVE-R2 R4, `ngListStampOk`): at 2^53 or more `t + 1 === t`, so no later
+      // write could ever beat a damaged stamp and the cell would be frozen for good (the reader's freeze.mjs).
+      if (!ngListStampOk(t) || (f !== 0 && f !== 1)) continue;
       (out[lid] = out[lid] || {})[nid] = [t, f];
     }
   }
@@ -365,7 +371,7 @@ export function ngListOrderNormalize(raw) {
     const rec = raw[lid];
     if (!lid || NGLM_UNSAFE.indexOf(lid) >= 0 || !Array.isArray(rec) || rec.length < 2) continue;
     const t = rec[0];
-    if (!Number.isSafeInteger(t) || t <= 0 || !Array.isArray(rec[1])) continue;   // a safe integer only, as the cells (F5)
+    if (!ngListStampOk(t) || !Array.isArray(rec[1])) continue;   // an integer below 2^52, as the cells (F5, R4)
     const ids = [];
     for (const nid of rec[1]) {
       if (typeof nid !== "string" || !nid || ids.indexOf(nid) >= 0) continue;
