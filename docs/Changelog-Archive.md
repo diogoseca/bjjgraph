@@ -21156,7 +21156,7 @@ the board stands, which the board names by itself, so the look is read, not the 
   journey pins a frame at the cloze's framing to the board's own view plus 15 ms (35 against 57 ms there; KT1's 60 ms of
   work read 94). At 390 every view of this box costs 17 to 49 ms (software raster at dpr 3), the roll's own included.
 
-## v1.295.4 — Move an item to another list, and the order of a list, on every device (LISTS-R Slice 2; the owner, 19 Nov 2026)
+## v1.296.1 — Move an item to another list, and the order of a list, on every device (LISTS-R Slice 2; the owner, 19 Nov 2026)
 
 **Why.** The owner, 19 Nov: "how can i rename a list? or move items between lists like drag and drop?". Rename was Slice 1
 (v1.293.5, then the list's ⋮ in v1.295.1). This is the move, by the control a phone can use, and since the item menu

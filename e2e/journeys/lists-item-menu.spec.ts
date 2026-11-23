@@ -11,7 +11,7 @@ import { journey } from "../dsl";
  *   · Share shares the technique's own page: `location.origin + _nodeUrlPath(idx)`.
  *   · Remove from list gains the Undo row ([data-list-undo-remove]), which puts the item back at its place.
  *   · Move up / Move down reorder the list and write its ORDER RECORD (`listOrderAt`, ORDER-OK, landed with the move step),
- *     so the order syncs; a reorder does not bump the list's `t` (the panel's recency order). (Until v1.295.4 it reordered on
+ *     so the order syncs; a reorder does not bump the list's `t` (the panel's recency order). (Until v1.296.1 it reordered on
  *     this device only.)
  * Every press is a player's: the mouse at 1440 (`clickByMouse`), a touch tap at 390x631 at a measured centre, or keys.
  * Lists are SEEDED through the app's own model (setup only).
