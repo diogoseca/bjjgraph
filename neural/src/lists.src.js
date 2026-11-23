@@ -95,8 +95,10 @@ export function ngListsNormalize(raw) {
  *
  * `marks` (optional): the item cells of a MOVE (`listItemAt`, below). With them, an item that left
  * a list by a move stays out of it, however many devices still hold the old copy.
+ * `order` (optional): the ORDER records (`listOrderAt`, below), the merged ones. With them, a list's order is derived
+ * from its record, not from whichever copy the union started from.
  */
-export function ngMergeLists(local, cloud, marks) {
+export function ngMergeLists(local, cloud, marks, order) {
   const a = ngListsNormalize(local);
   const b = ngListsNormalize(cloud);
   const out = {};
@@ -117,7 +119,8 @@ export function ngMergeLists(local, cloud, marks) {
       t: Math.max(l.t, c.t),
     };
   }
-  return marks ? ngListsApplyMarks(out, marks) : out;
+  const moved = marks ? ngListsApplyMarks(out, marks) : out;
+  return order ? ngListsApplyOrder(moved, order) : moved;
 }
 
 // ─────────────────────────────────────────────────────────────── a MOVE between lists (LISTS-R, ruling 2)
@@ -315,4 +318,93 @@ export function ngShareOgDescription(names, total) {
   const joined = nglJoinWithin(list, head + " from this class: ", NGL_OG_DESC_MAX - tail.length - 2);
   const body = joined.used ? (joined.used < n ? joined.text + " …" : joined.text) : head + " from this class";
   return nglClamp(body + tail, NGL_OG_DESC_MAX);
+}
+
+
+// ─────────────────────────────────────────────────────────────── a list's ORDER (ORDER-OK, 23 Nov 2026)
+// Move up / Move down change a list's order. The union above keeps THIS copy's order and appends the other's extras, and
+// the no-echo key compares a list's items as a set, so before this an order never synced on purpose. A reorder records
+// the list's whole order in a new top-level key of the progress blob, `listOrderAt`:
+//   { "<listId>": [t, ["<nodeId>", …]] }
+// ONE REGISTER PER LIST: the later `t` wins; on an exact tie the record whose array is first in string order wins, so
+// every device keeps the same one. Written ONLY by a reorder. A list's shown order is DERIVED from its winning record
+// (`ngListsApplyOrder`): its items, the union's and the move cells' result, sorted by their place in the record; items the
+// record does not hold keep their relative order after it, so an add made after a reorder lands at the end, as adds do.
+// Nothing is ever dropped: the derivation only sorts. The `lists` order is then a cache every current build re-derives, so
+// an older build's stale order (it merges local first and keeps this key untouched through `_progressExtras`) is never
+// adopted. WHY THE ORDER ITSELF AND NOT A STAMP ALONE: with a stamp alone an older build pushes its old order under the
+// new stamp and a third device adopts it; with a stamp plus a fingerprint, two current devices each recompute a valid
+// claim under one stamp and push them back and forth (both worked through before this was written; the report's
+// "## Order, a hole in my own plan" and its correction). Trimmed to the NG_LIST_ORDER_CAP most recently reordered lists;
+// a trimmed list falls back to the union's order.
+export const NG_LIST_ORDER_CAP = 100;
+
+function ngloTrim(m) {
+  const ids = Object.keys(m);
+  if (ids.length <= NG_LIST_ORDER_CAP) return m;
+  ids.sort((a, b) => m[b][0] - m[a][0] || (a < b ? -1 : a > b ? 1 : 0));
+  const out = {};
+  for (const id of ids.slice(0, NG_LIST_ORDER_CAP)) out[id] = m[id];
+  return out;
+}
+
+/** Sanitize an untrusted `listOrderAt`. Never throws; a fresh copy. */
+export function ngListOrderNormalize(raw) {
+  const out = {};
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return out;
+  for (const lid of Object.keys(raw)) {
+    const rec = raw[lid];
+    if (!lid || NGLM_UNSAFE.indexOf(lid) >= 0 || !Array.isArray(rec) || rec.length < 2) continue;
+    const t = rec[0];
+    if (typeof t !== "number" || !Number.isFinite(t) || t <= 0 || !Array.isArray(rec[1])) continue;
+    const ids = [];
+    for (const nid of rec[1]) {
+      if (typeof nid !== "string" || !nid || ids.indexOf(nid) >= 0) continue;
+      ids.push(nid);
+      if (ids.length >= NG_LIST_ITEM_CAP) break;
+    }
+    if (ids.length) out[lid] = [t, ids];
+  }
+  return ngloTrim(out);
+}
+
+/** Two copies' records: per list the later stamp; an exact tie, the array first in string order. Commutative. */
+export function ngListOrderMerge(a, b) {
+  const A = ngListOrderNormalize(a), B = ngListOrderNormalize(b), out = {};
+  for (const M of [A, B]) for (const lid of Object.keys(M)) {
+    const r = M[lid], o = out[lid];
+    if (!o || r[0] > o[0] || (r[0] === o[0] && JSON.stringify(r[1]) < JSON.stringify(o[1]))) out[lid] = [r[0], r[1].slice()];
+  }
+  return ngloTrim(out);
+}
+
+/** A reorder's record: the list's whole order now (a copy). */
+export function ngListOrderSet(order, lid, t, ids) {
+  const out = ngListOrderNormalize(order);
+  if (!lid || NGLM_UNSAFE.indexOf(lid) >= 0 || !(t > 0) || !Array.isArray(ids)) return out;
+  const clean = ngListOrderNormalize({ x: [t, ids] }).x;
+  if (clean) out[lid] = clean;
+  return ngloTrim(out);
+}
+
+/** The newest stamp among the records (a new record must be later than every record held). */
+export function ngListOrderNewest(order) {
+  let hi = 0;
+  for (const lid of Object.keys(order || {})) { const r = order[lid]; if (Array.isArray(r) && r[0] > hi) hi = r[0]; }
+  return hi;
+}
+
+/** Lists in their derived order (a copy): each list's items sorted by their place in its record; the rest after, in order. */
+export function ngListsApplyOrder(lists, order) {
+  const O = ngListOrderNormalize(order), out = {};
+  for (const id of Object.keys(lists || {})) {
+    const l = lists[id], rec = O[id];
+    let items = l.items.slice();
+    if (rec) {
+      const pos = new Map(rec[1].map((nid, i) => [nid, i]));
+      items = items.map((nid, i) => [nid, pos.has(nid) ? pos.get(nid) : rec[1].length + i]).sort((x, y) => x[1] - y[1]).map((x) => x[0]);
+    }
+    out[id] = { name: l.name, items: items, t: l.t };
+  }
+  return out;
 }

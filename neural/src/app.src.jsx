@@ -4851,7 +4851,9 @@ class Component extends DCLogic {
       // A MOVE'S CELLS (LISTS-R, `listItemAt`; lists.src.js above `NG_LIST_MARK_CAP`): read, then applied to the lists
       // read with them, so an older client's re-union (X back in the source) is healed even on a plain load
       this.listItemAt = ngListMarksNormalize(p.listItemAt);
-      this.lists = ngListsApplyMarks(ngListsNormalize(p.lists), this.listItemAt);
+      // ...and a list's ORDER is derived from its record (ORDER-OK, `listOrderAt`; lists.src.js above NG_LIST_ORDER_CAP)
+      this.listOrderAt = ngListOrderNormalize(p.listOrderAt);
+      this.lists = ngListsApplyOrder(ngListsApplyMarks(ngListsNormalize(p.lists), this.listItemAt), this.listOrderAt);
       // the roll ledger (v1.137.0) and the visited-state set. `_exploredKeys` was in memory
       // only until now, which is why the "very weak" tier emptied on every reload.
       this.flow = this._trimFlow(Object.assign({}, p.flow || {}));
@@ -4899,6 +4901,7 @@ class Component extends DCLogic {
     // `listItemAt` (LISTS-R) the same way: written once it holds a cell, so an account that never moved an item saves
     // the blob it saved before (and the extras copy of an older shape never outlives the read above)
     if (ngListMarksCount(this.listItemAt)) out.listItemAt = this.listItemAt; else delete out.listItemAt;
+    if (Object.keys(this.listOrderAt || {}).length) out.listOrderAt = this.listOrderAt; else delete out.listOrderAt;
     // `openAt` and `recallCarry` (v1.270.0, U163 c) once set; an older client keeps both through `_progressExtras`
     if (this._openAt > 0) out.openAt = this._openAt;
     if (this._recallCarry) out.recallCarry = true;
@@ -8406,7 +8409,10 @@ class Component extends DCLogic {
         // pushed the union alone is healed here; one that pushed a stale copy of the cells loses only the cells this
         // copy does not hold, and this copy's push puts them back (the merge differs from the cloud).
         this.listItemAt = ngListMarksMerge(this.listItemAt || {}, cloud.listItemAt);
-        this.lists = ngMergeLists(this.lists || {}, cloud.lists || {}, this.listItemAt);
+        // ...and an ORDER stays an order (ORDER-OK): the two copies' records first (per list the later stamp), then every
+        // list's order derived from the winning record, so an older build's stale `lists` order is never adopted
+        this.listOrderAt = ngListOrderMerge(this.listOrderAt || {}, cloud.listOrderAt);
+        this.lists = ngMergeLists(this.lists || {}, cloud.lists || {}, this.listItemAt, this.listOrderAt);
         this._syncWhiteChallengeCompatibility(cloud.updatedAt || 0);
         const localAt = this._progressAt || 0;
         if (cloud.settings) {
@@ -10455,7 +10461,7 @@ class Component extends DCLogic {
   }
   /** A cell's stamp: a list stamp (`_listStamp`, above every list's `t`) that is also later than every cell held, so a
    *  move or an undo made after seeing another device's cells is later than each of them. */
-  _listMarkStamp() { return Math.max(this._listStamp(), ngListMarksNewest(this.listItemAt) + 1); }
+  _listMarkStamp() { return Math.max(this._listStamp(), ngListMarksNewest(this.listItemAt) + 1, ngListOrderNewest(this.listOrderAt) + 1); }
   /**
    * MOVE one item from one list to another (LISTS-R; the owner, 19 Nov: "or move items between lists"). ONE step, in this
    * order: refuse first (no such list, not in the source, the target full), ADD to the target, then TAKE OUT of the
@@ -11260,7 +11266,7 @@ class Component extends DCLogic {
     for (const id of this.listsArray()) {
       const l = m[id]; if (!l) continue;
       const on = l.items.indexOf(nodeId) >= 0;
-      if (moveFrom) { body.appendChild(this._moveRow(id, l, nodeId, moveFrom, on)); continue; }
+      if (moveFrom) { body.appendChild(this._pickMoveRow(id, l, nodeId, moveFrom, on)); continue; }
       const b = document.createElement("button");
       b.type = "button";
       b.setAttribute("role", "menuitemcheckbox");
@@ -11327,7 +11333,7 @@ class Component extends DCLogic {
   }
   /** A row of the picker in its MOVE mode. The list the item is in now is shown and cannot be chosen ("here"); a list
    *  that holds the item already is chosen all the same (the move then only takes it out of here); a full one cannot be. */
-  _moveRow(id, l, nodeId, moveFrom, on) {
+  _pickMoveRow(id, l, nodeId, moveFrom, on) {
     const here = id === moveFrom, full = !on && l.items.length >= NG_LIST_ITEM_CAP;
     const b = document.createElement("button");
     b.type = "button";
