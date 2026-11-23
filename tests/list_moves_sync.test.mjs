@@ -42,6 +42,13 @@
 //  21-23. THE READER'S THIRD READ (three mutants with no visible effect in 3,000 runs, pinned here): a cloud behind only in
 //      the ORDER record is a heal (R1m2); a fields-only heal resets the run (B2); and a real change resets it, so a real
 //      change erased twice right after the bound was hit is re-pushed at once both times (B4).
+//  24. "ADD TO…" (ADD1, v1.299.0; the orchestrator's ruling 4) writes what a plain add writes and nothing else: the stored record
+//      after it equals a twin's after the star's own add (`addToList`) to that list, the list it stays in is byte-identical
+//      (its items, its `t`, its cell, its order record), and every captured older validator takes the record;
+//  25. its Undo takes the item out of the list it was added to only: the target's `t` back, its "out" cell written (as a
+//      move's Undo writes), the list it stayed in untouched; a list the add made, still as made, goes; one changed since stays.
+// ADD1 MUTANTS (each red here after a clean control): A1 the source rewritten by "Add to…" (its `t` bumped); A2 the Undo
+// taking the item out of the source too. ("Already there" not off is the journey's: e2e/journeys/lists-add-to.spec.ts.)
 // NOT KILLED HERE, and why (MOVE-R1, the reader's mutants.py): M13, the source cell stamped one LATER than the target's,
 // survives every unit. It is equivalent in effect: both cells are still later than everything this device holds, so the
 // move stands either way. Nothing here covers it; nothing needs to.
@@ -577,3 +584,70 @@ test('23. a real change resets the run: after the bound was hit, a real change e
   assert.equal(await pushesAfter(1000), 1, 'erased twice: re-pushed at once again');
   assert.deepEqual(a.lists.U.items, ['Q', 'R'], 'nothing lost here');
 }));
+
+// ── ADD1: "Add to…" (v1.299.0) ──
+const ADD_IDS = ['Transitions/X', 'Transitions/Y', 'Transitions/Z'];
+const addGraph = inst => { inst.nodes = ADD_IDS.map(id => ({ id, t: id.slice(12), ty: 'transitions', rep: true })); inst._idIndex = new Map(ADD_IDS.map((id, i) => [id, i])); };
+const addState = inst => {
+  const [X, Y, Z] = ADD_IDS;
+  inst.lists = { S: L([X, Y], 100, 'Monday'), T: L([Z], 90, 'Guard') };
+  inst.listItemAt = { S: { [Y]: [96, 1] } };       // the list it stays in holds a cell and an order record, to be seen untouched
+  inst.listOrderAt = { S: [95, [X, Y]] };
+};
+const sourceOf = blob => JSON.stringify([blob.lists.S, (blob.listItemAt || {}).S || null, (blob.listOrderAt || {}).S || null]);
+async function withClock(run) { const real = Date.now; Date.now = () => 1_800_000_000_000; try { return await run(); } finally { Date.now = real; } }
+
+test('24. "Add to…" writes what a plain add to that list writes, nothing on the list it stays in, and older builds take it', () => withClock(() => fakeTimers(async ({ flush }) => {
+  const [X] = ADD_IDS;
+  const twin = async () => { const h = harness(); await h.boot(); const a = h.switchTo('A'); a.prep.local = 1; await a._pullAndMerge(); await flush(); addGraph(a); addState(a); a._flushSave(); await flush(); return { h, a }; };
+  const one = await twin(), two = await twin();
+  const before = sourceOf(stored(one.h.mem));
+  one.a._pickAdd = 'S';                                          // the picker open in its add mode from Monday (its input)
+  assert.equal(one.a.pickAddTo('T', X, false), true, '"Add to…" puts it in Guard (the press\'s own path)');
+  assert.equal(two.a.addToList(X, 'T').added, true, 'the twin: the star\'s own add to Guard');
+  one.a._flushSave(); two.a._flushSave(); await flush();
+  const got = stored(one.h.mem), plain = stored(two.h.mem);
+  assert.ok(got && plain && got.lists.T.items.includes(X), 'premise: both stored, and the item is in Guard');
+  assert.deepEqual(got, plain, 'the stored record equals the plain add\'s, field for field');
+  assert.equal(sourceOf(got), before, 'the list it stays in is byte-identical: items, t, cell, order record');
+  assert.deepEqual(got.lists.S.items, [X, Y_OF()], 'and it still holds the item');
+  assert.equal(((got.listItemAt || {}).T || {})[X], undefined, 'an ordinary item in Guard: no cell (an ordinary add writes none)');
+  const captured = JSON.parse(read('./artifacts/progress_validators.json')).clients;
+  assert.ok(Object.keys(captured).length >= 2, 'premise: the older clients were captured');
+  for (const [name, c] of Object.entries(captured)) {
+    const validate = new Function(c.validator + '\nreturn ngProgressValidateBlob;')();
+    assert.doesNotThrow(() => validate(JSON.parse(JSON.stringify(got))), name + ' takes the record after "Add to…"');
+  }
+})));
+const Y_OF = () => ADD_IDS[1];
+
+test('25. its Undo takes the item out of the list it was added to only; a list it made, still as made, goes', () => withClock(() => fakeTimers(async ({ flush }) => {
+  const [X, , Z] = ADD_IDS;
+  const h = harness(); await h.boot(); const a = h.switchTo('A'); a.prep.local = 1; await a._pullAndMerge(); await flush();
+  addGraph(a); addState(a); a._flushSave(); await flush();
+  const before = sourceOf(stored(h.mem));
+  a._pickAdd = 'S';
+  assert.equal(a.pickAddTo('T', X, false), true);
+  assert.equal(a._undoList && a._undoList.kind, 'add', 'premise: the Undo is offered');
+  assert.equal(a.undoAddListItem(), true, 'Undo');
+  a._flushSave(); await flush();
+  const got = stored(h.mem);
+  assert.deepEqual(got.lists.T.items, [Z], 'out of Guard');
+  assert.equal(got.lists.T.t, 90, "Guard's t back to before the add");
+  assert.deepEqual(got.listItemAt.T[X][1], 0, 'its "out" cell in Guard, so a device that pulled the add does not bring it back');
+  assert.equal(sourceOf(got), before, 'the list it stayed in is byte-identical to before the add');
+  // a list the add made: Undo takes the list away while it is as made
+  a._pickAdd = 'S';
+  const id = a.createListAddTo('Fresh', X);                      // the add mode's New list: made with the item in it
+  assert.ok(id && a.lists[id] && a.lists[id].items[0] === X, 'premise: the new list holds the item');
+  assert.equal(a.undoAddListItem(), true);
+  assert.equal(a.lists[id], undefined, 'the list it made, still as made, goes');
+  // …and one changed since it was made stays, without the item
+  a._pickAdd = 'S';
+  const id2 = a.createListAddTo('Fresh two', X);
+  assert.equal(a.addToList(Z, id2).added, true);
+  assert.equal(a._undoList.kind, 'add', 'premise: the add\'s Undo is still the offer (a plain add arms none)');
+  assert.equal(a.undoAddListItem(), true);
+  assert.deepEqual(a.lists[id2] && a.lists[id2].items, [Z], 'a list changed since it was made stays, the item out');
+  assert.equal(sourceOf(JSON.parse(JSON.stringify({ lists: a.lists, listItemAt: a.listItemAt, listOrderAt: a.listOrderAt }))), before, 'and the list it stayed in is still untouched');
+})));

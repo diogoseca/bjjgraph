@@ -10775,6 +10775,28 @@ class Component extends DCLogic {
     // real setTimeout, not the sim clock: this is UI patience, not game time
     this._undoT = setTimeout(() => { if (this._undoList === mine) { this._undoList = null; this._refreshListSurfaces(); } }, 90000);
   }
+  /** An add's Undo (ADD1; the orchestrator's ruling 3): the item out of the list it was added to, and only that one. A list
+   *  this add made goes, if it is still as made (this item alone, its first name); else the item leaves and the list's `t`
+   *  goes back to before the add, as a move's Undo does (MOVE-R1 F6). The target's "out" cell is written at a later stamp,
+   *  as a move's Undo writes its own: lists merge add-wins, so a device that already pulled the add would bring it back by a
+   *  plain removal. An existing field and its existing merge, nothing new (ruling 4). The list it stayed in is not touched. */
+  undoAddListItem() {
+    const u = this._undoList; if (!u || u.kind !== "add") return false;
+    this._undoList = null;
+    const m = this._listsMap(), l = m[u.list];
+    if (!l || l.items.indexOf(u.node) < 0) { this._refreshListSurfaces(); return false; }   // already out (a removal, a sync)
+    if (u.created && l.items.length === 1 && l.name === u.listName) delete m[u.list];
+    else {
+      l.items.splice(l.items.indexOf(u.node), 1);
+      if (u.toT != null) l.t = u.toT;
+      if (!l.items.length) delete m[u.list];
+      else this.listItemAt = ngListMarksSet(this.listItemAt, u.list, u.node, this._listMarkStamp(), 0);
+    }
+    this._saveProgress();
+    this.setEvent("Taken back", "out of “" + u.listName + "”", "good");
+    this._refreshListSurfaces();
+    return true;
+  }
   undoRemoveListItem() {
     const u = this._undoList; if (!u || u.kind !== "remove") return false;
     this._undoList = null;
@@ -11522,9 +11544,11 @@ class Component extends DCLogic {
   /**
    * AN ITEM'S OWN MENU (LISTS-MENU-2 part 2; the owner, 23 Nov: "tat x icon on the list items is very consufing too, make it a
    * 3 dots icon ads well which includes sharing, remove from list, move up, move down (the list order)"): Share · Move up ·
-   * Move down · Move to… · Remove from list, Remove last in the warning ink, Move up and Move down disabled at the list's
-   * ends. "Move to…" (LISTS-R Slice 2) opens the star's own picker in its move mode, anchored to this ⋮: the move step's
-   * control lives in this menu, not on the row (it was a ⇄ on the row until the item menu took the row's last place).
+   * Move down · Add to… · Move to… · Remove from list, Remove last in the warning ink, Move up and Move down disabled at the
+   * list's ends. "Move to…" (LISTS-R Slice 2) opens the star's own picker in its move mode, anchored to this ⋮: the move
+   * step's control lives in this menu, not on the row (it was a ⇄ on the row until the item menu took the row's last place).
+   * "Add to…" (ADD1, v1.299.0; the owner, 23 Nov: "i was hoping to see in the lists also Add to.. beside Move to...") opens
+   * the same picker in its ADD mode: the item stays here and is put in another list too (`pickAddTo`).
    */
   openItemMenu(nodeId, listId, anchor, byKey) {
     const l = this._listsMap()[listId]; if (!l) return null;
@@ -11534,7 +11558,7 @@ class Component extends DCLogic {
       // long list name in the kicker's capitals wrapped to two lines at 390 (the first screens)
       label: "Actions for " + this.listItemName(nodeId), kicker: "Technique", title: this.listItemName(nodeId), anchor, byKey,
       items: [["share", "Share"], ["up", "Move up", { disabled: at === 0 }], ["down", "Move down", { disabled: at === l.items.length - 1 }],
-        ["move", "Move to…"], ["remove", "Remove from list", { warn: true }]],
+        ["addto", "Add to…"], ["move", "Move to…"], ["remove", "Remove from list", { warn: true }]],
       choose: (k, key) => this._itemMenuChoose(nodeId, listId, k, key, anchor) });
   }
   _itemMenuChoose(nodeId, listId, k, byKey, anchor) {
@@ -11543,6 +11567,7 @@ class Component extends DCLogic {
     if (k === "share") { void this.shareListItem(nodeId, listId); return true; }
     if (k === "up" || k === "down") return this.moveListItemBy(listId, nodeId, k === "up" ? -1 : 1, byKey);
     if (k === "move") return !!this.openListPicker(nodeId, "move", anchor && anchor.isConnected ? anchor : null, { moveFrom: listId, byKey: byKey });
+    if (k === "addto") return !!this.openListPicker(nodeId, "addto", anchor && anchor.isConnected ? anchor : null, { addFrom: listId, byKey: byKey });
     if (k === "remove") {
       const ok = this.removeListItem(nodeId, listId, true);
       if (ok) this.track("neural_list_item_removed", { via: "menu" });
@@ -11652,7 +11677,7 @@ class Component extends DCLogic {
     try { this._pickEl.remove(); } catch (e) { /* non-fatal */ }
     this._pickEl = null;
     if (this._pickAway) { document.removeEventListener("pointerdown", this._pickAway, true); this._pickAway = null; }
-    const a = this._pickAnchor; this._pickAnchor = null; this._pickNode = null; this._pickMove = null; this._pickMenu = null;
+    const a = this._pickAnchor; this._pickAnchor = null; this._pickNode = null; this._pickMove = null; this._pickAdd = null; this._pickMenu = null;
     if (a) { try { a.setAttribute("aria-expanded", "false"); a.focus(); } catch (e) { /* non-fatal */ } }
     return true;
   }
@@ -11697,6 +11722,10 @@ class Component extends DCLogic {
     // mode (`_pickMove` = the list the item leaves), so a phone, where a drag fights the scroll and the drawer's swipe,
     // moves an item with the control it already knows. A move is one verb; copying stays with the star.
     const moveFrom = opts && opts.moveFrom && this._listsMap()[opts.moveFrom] ? opts.moveFrom : null;
+    // …AND ADDS IT TO ANOTHER (ADD1): from an item's "Add to…" it is the same menu in an ADD mode (`_pickAdd` = the list the
+    // item stays in): the item is put in the list chosen too, by the star's own add (`addToList`), and nothing is written
+    // on the list it stays in
+    const addFrom = !moveFrom && opts && opts.addFrom && this._listsMap()[opts.addFrom] ? opts.addFrom : null;
     this.closeAccountMenu();
     const root = this.__ngRoot || document.body;
     const el = document.createElement("div");
@@ -11706,12 +11735,13 @@ class Component extends DCLogic {
     el.setAttribute("role", "menu");
     el.setAttribute("aria-label", moveFrom ? "Move to list" : "Add to list");
     if (moveFrom) el.setAttribute("data-list-picker-move", moveFrom);
+    if (addFrom) el.setAttribute("data-list-picker-add", addFrom);
     // Z LADDER (helmet.html): 90-99 is the deliberate-temporary-screen band. The picker is a
     // screen the user asked for, so it must not be underdrawn by the landing card (5), the
     // option sheet; it sits with the account menu at 90, under the modal 95.
     el.style.cssText = "position:fixed;z-index:90;pointer-events:auto;display:flex;flex-direction:column;";
     root.appendChild(el);
-    this._pickEl = el; this._pickNode = nodeId; this._pickAnchor = anchor || null; this._pickMove = moveFrom;
+    this._pickEl = el; this._pickNode = nodeId; this._pickAnchor = anchor || null; this._pickMove = moveFrom; this._pickAdd = addFrom;
     // ZERO LISTS AND ONE LIST ARE NOT DEFAULTS — THEY ARE THE ABSENCE OF A CHOICE. With no list
     // the create row IS the picker (the name field opens prefilled "Class · <date>", offered and
     // never demanded); with one list, that list is the only row beside "New list". Neither files
@@ -11728,8 +11758,8 @@ class Component extends DCLogic {
     // THE MOVE MODE TAKES KEYS (LISTS-R Slice 2): it hangs off the item menu's "Move to…", whose own keys (↑ ↓ Home End,
     // Enter, Esc) a player has just used, and the picker sits at the end of the page, so Tab from the drawer never reached
     // it (the first journeys' finding). A key opens it on its first row that can be chosen; ↑ ↓ Home End move among those
-    // rows and "New list"; Esc and Tab close it, focus back on the anchor.
-    if (moveFrom) {
+    // rows and "New list"; Esc and Tab close it, focus back on the anchor. The add mode the same (ADD1).
+    if (moveFrom || addFrom) {
       const live = () => [...el.querySelectorAll("[data-list-pick], [data-list-pick-new]")].filter((r) => !r.disabled);
       el.addEventListener("keydown", (e) => {
         if (e.target && e.target.matches && e.target.matches("input")) return;   // the New list field keeps its own keys
@@ -11764,7 +11794,7 @@ class Component extends DCLogic {
     head.className = "ng-listpicker-head";
     // the technique being filed, named in FULL — the picker is where a mis-file is prevented,
     // so it cannot be vague about which of the 35 Kimuras is going where
-    const moveFrom = this._pickMove;
+    const moveFrom = this._pickMove, addFrom = this._pickAdd;
     head.innerHTML = '<b>' + (moveFrom ? "Move to list" : "Add to list") + '</b><small>' + this.escHTML(this.listItemName(nodeId)) + '</small>';
     el.appendChild(head);
     const body = document.createElement("div");
@@ -11775,6 +11805,7 @@ class Component extends DCLogic {
       const l = m[id]; if (!l) continue;
       const on = l.items.indexOf(nodeId) >= 0;
       if (moveFrom) { body.appendChild(this._pickMoveRow(id, l, nodeId, moveFrom, on)); continue; }
+      if (addFrom) { body.appendChild(this._pickAddRow(id, l, nodeId, addFrom, on)); continue; }
       const b = document.createElement("button");
       b.type = "button";
       b.setAttribute("role", "menuitemcheckbox");
@@ -11805,7 +11836,7 @@ class Component extends DCLogic {
       let done = false;
       const commit = () => {
         if (done) return; done = true;
-        if (moveFrom) this.createListMove(inp.value, nodeId); else this.createListWith(inp.value, nodeId);
+        if (moveFrom) this.createListMove(inp.value, nodeId); else if (addFrom) this.createListAddTo(inp.value, nodeId); else this.createListWith(inp.value, nodeId);
       };
       inp.addEventListener("keydown", (e) => {
         e.stopPropagation(); // the editor owns the keyboard: A/B/C, digits, and Esc
@@ -11858,6 +11889,66 @@ class Component extends DCLogic {
       '<span class="ng-listpicker-n">' + (note || l.items.length) + '</span>';
     if (!here && !full) b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.pickMove(id, nodeId, e.detail === 0); });
     return b;
+  }
+  /** A row of the picker in its ADD mode (ADD1; the orchestrator's ruling 2): the list the item is in now is shown and off
+   *  ("here"), a list that holds it already is shown and off ("already there": unlike a move, adding it there would do
+   *  nothing), and a full one is off; every other list takes it. */
+  _pickAddRow(id, l, nodeId, addFrom, on) {
+    const here = id === addFrom, already = !here && on, full = !on && l.items.length >= NG_LIST_ITEM_CAP, off = here || already || full;
+    const b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("role", "menuitem");
+    b.setAttribute("data-list-pick", id);
+    b.className = "ng-listpicker-row";
+    const note = here ? "here" : already ? "already there" : full ? "full" : "";
+    if (note) b.setAttribute("data-list-pick-note", note);
+    if (off) { b.disabled = true; b.setAttribute("aria-disabled", "true"); b.style.opacity = ".5"; b.style.cursor = "default"; }
+    b.setAttribute("aria-label", here ? l.name + ", where it is now" : already ? l.name + ", which has it already" : full ? l.name + ", full" : "Add to " + l.name);
+    b.innerHTML =
+      '<span class="ng-listpicker-box" aria-hidden="true">' + (here ? "•" : already ? "✓" : "") + '</span>' +
+      '<span class="ng-listpicker-name">' + this.escHTML(l.name) + '</span>' +
+      '<span class="ng-listpicker-n">' + (note || l.items.length) + '</span>';
+    if (!off) b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.pickAddTo(id, nodeId, e.detail === 0); });
+    return b;
+  }
+  /** An add's pick (ADD1): the item stays in the list it was opened from and is put in THAT one too; the menu gets out of
+   *  the way. The write is the star's own add on the target (`addToList`), nothing else, and nothing on the list it stays in
+   *  (ruling 4: tests/list_moves_sync.test.mjs, "Add to…"). */
+  pickAddTo(toId, nodeId, byKey) {
+    const from = this._pickAdd; if (!from) return false;
+    this.closeListPicker();
+    return this._afterAddTo(this._addTo(nodeId, toId, false), nodeId, toId, from, byKey);
+  }
+  /** The add mode's "New list": the list is made with the item in it, in one action; the list it stays in keeps it. */
+  createListAddTo(name, nodeId) {
+    const from = this._pickAdd; if (!from) return "";
+    this.closeListPicker();
+    const id = this.newList(String(name == null ? "" : name).replace(/\s+/g, " ").trim() || undefined);
+    this.track("neural_list_created", { surface: "add_to" });
+    const r = this._addTo(nodeId, id, true);
+    if (!r.added) { delete this._listsMap()[id]; this._saveProgress(); }   // never leave an empty list behind
+    this._afterAddTo(r, nodeId, id, from, true);
+    return r.added ? id : "";
+  }
+  /** the add itself, and its Undo armed (the one slot `_undoList`, kind "add"; `created`: this action made the list) */
+  _addTo(nodeId, toId, created) {
+    const to = this._listsMap()[toId], toT = to ? to.t : null, name = to ? to.name : "";
+    const r = this.addToList(nodeId, toId);
+    if (r.added) {
+      this._armItemUndo({ kind: "add", node: this.siteIdOf(nodeId), list: toId, listName: name, toT, created: !!created });
+      this.track("neural_list_item_added", { surface: "item_menu", count: r.count, via: created ? "add_to_new" : "add_to" });
+    }
+    return r;
+  }
+  _afterAddTo(r, nodeId, toId, from, byKey) {
+    const to = this._listsMap()[toId];
+    if (r.added) this.setEvent("Added to “" + (to ? to.name : "") + "”", this.listItemName(nodeId), "good");
+    else if (r.reason === "full") this.setEvent("List is full", "A share link holds " + NG_LIST_ITEM_CAP + " techniques", "bad");
+    // a key that added the item comes back to its ⋮ in the list it stays in (the anchor the render replaces)
+    if (r.added && byKey) this._listMoveFocus = { node: this.siteIdOf(nodeId), list: from };
+    this._refreshListSurfaces();
+    this._listMoveFocus = null;
+    return !!r.added;
   }
   /** A move's pick: the item leaves the list it was opened from and lands in THAT one; the menu gets out of the way. */
   pickMove(toId, nodeId, byKey) {
@@ -12491,25 +12582,27 @@ class Component extends DCLogic {
     txt.style.cssText = "flex:1;min-width:0;font-size:11.5px;color:#aeb9d4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
     // ONE SLOT, THREE KINDS: a list's delete, an item's removal (LISTS-MENU-2) and a move (LISTS-R). The newest wins, so the
     // row says which one it takes back.
-    const move = u.kind === "move", removed = u.kind === "remove";
+    const move = u.kind === "move", removed = u.kind === "remove", added = u.kind === "add";   // (and an add: ADD1)
     txt.textContent = move
       ? "Moved “" + this.listItemName(u.node) + "” to “" + u.toName + "”"
+      : added
+      ? "Added “" + this.listItemName(u.node) + "” to “" + u.listName + "”"
       : removed
       ? "Removed “" + this.listItemName(u.node) + "” from “" + u.listName + "”"
       : "Deleted “" + u.list.name + "” · " + u.list.items.length + " technique" + (u.list.items.length === 1 ? "" : "s");
     box.appendChild(txt);
     const undo = document.createElement("button");
     undo.type = "button";
-    undo.setAttribute(move ? "data-list-undo-move" : removed ? "data-list-undo-remove" : "data-list-undo", move || removed ? u.node : u.id);
+    undo.setAttribute(move ? "data-list-undo-move" : added ? "data-list-undo-add" : removed ? "data-list-undo-remove" : "data-list-undo", move || added || removed ? u.node : u.id);
     undo.textContent = "Undo";
     // a thumb's height on a phone, its 9px of the row's padding taken back so the row does not grow (`.ng-lists-new`'s trade)
     undo.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 10px;border-radius:7px;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.05);color:#dbe2f0;" + (this.isMobile() ? "min-height:44px;margin:-9px 0;" : "");
-    undo.addEventListener("click", () => { if (move) this.undoMoveListItem(); else if (removed) this.undoRemoveListItem(); else this.undoDeleteList(); });
+    undo.addEventListener("click", () => { if (move) this.undoMoveListItem(); else if (added) this.undoAddListItem(); else if (removed) this.undoRemoveListItem(); else this.undoDeleteList(); });
     box.appendChild(undo);
     return box;
   }
   undoDeleteList() {
-    const u = this._undoList; if (!u || u.kind === "move" || u.kind === "remove") return false;
+    const u = this._undoList; if (!u || u.kind === "move" || u.kind === "remove" || u.kind === "add") return false;
     this._undoList = null;
     // A MERGE MAY HAVE BROUGHT THE LIST BACK meanwhile (MOVE-R1, F4; dev's own loss, which a move could now reach too):
     // add-wins, so another device that still held it brought it back, perhaps with techniques added or MOVED into it.
