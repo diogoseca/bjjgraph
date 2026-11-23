@@ -21186,7 +21186,12 @@ definition won silently. Renamed `_pickMoveRow`.
 - F5: a stamp of 2^53 or more froze a cell or record: safe integers only, and a list's `t` capped.
 - F6: a move's Undo puts both lists' recency back.
 
-**Proofs.** `share_lists_store` 34, `list_moves_sync` 18 (a fake cloud holding lists, cells, orders and stamps). The
+**MOVE-R2 (verdict MERGE AFTER 1 FIX).** A heal also needs the cloud behind only in the two fields (a real change could
+wait a minute), bounded to two at-once re-pushes of an unchanged state (else 20 of 3,000 older-device runs looped); the cap
+is an hour (31 + 31 pushes a day); an insertion rewrites the record only if the shown order would differ; stamps are
+integers below 2^52.
+
+**Proofs.** `share_lists_store` 34, `list_moves_sync` 20 (a fake cloud holding lists, cells, orders and stamps). The
 reader's fuzzer as regression, 35,000 runs in 12 configs: current devices alone, no loss and no divergence beyond lists
 with no record (dev's); with an older device, no run that never settles (2,838 of 3,000 before). Mutants: the reader's 13,
 12 killed (M13 equivalent); this round's 12, all killed. Older builds run for real (v1.294.0, v1.293.3, v1.252.0).
