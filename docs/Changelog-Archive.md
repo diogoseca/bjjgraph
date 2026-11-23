@@ -21385,10 +21385,25 @@ cloze… lights nothing" is back to its own text and holds unchanged. W17 (the u
 and in S2's; W18 (an unmoved pointer still keeping the focus from lighting) is red in the keyboard test, which now leaves
 the pointer where the press put it; a control green. Deferred +217 B.
 
+**S4-R1 (23 Nov 2026; the reader of PR #456, MERGE AFTER 1 FIX, and the orchestrator's ruling).**
+- **The cloze's two page-wide listeners go with their app.** The tablet's tap (`_czTap`, capture pointerup on document, S4)
+  and the cloze text's fit (`_czFit`, resize on window: L2's, v1.292.0, found by the same survey) were added once an app
+  and never removed. The reader counted 0, 1, 2, 3 over rounds of a close, Back and a cloze again: every app a remount left
+  behind stayed alive with its graph and answered every tap. `componentWillUnmount` removes both. The journey counts them by
+  their code's own place through CDP (`[[FunctionLocation]]`; CDP gives a listener no handler object here): one of each
+  after a cloze opens, none of the old app's after two remounts (W20, W21). The survey: S1 to S4 add no other document or
+  window listener; the cloze's module-level pointerdown and pointermove are once a page and hold no app.
+- **A mouse move gives the hover back after a touch** (ruled, for a touch laptop: one touch silenced the hover until the
+  next mouse press). A pointermove of the mouse to a new point lifts it (W19; the reader's M15, once touched for good, red
+  at the same step).
+- **S4-R0's own case** is S2's test as it was ("lights nothing" with no pointer move) and the new "a place opened under the
+  pointer…" (W17 red in both).
+Deferred +35 B, eager +51 B.
+
 **Screens** 13 to 18 in the briefing's `img/maplight/`: 13 and 14 a bar under the pointer at 1440 (dev's bundle, this
 one), 15 and 16 a row after Show at 1440, 17 and 18 a tablet's tap at 820x1180.
 
 **Bytes** (the served app folders emptied first, on the tree with dev 6f507b78c in, against PAY-L5, dev v1.297.1's own
-level, the first commit after that merge): eager gzip 384,603 B, +324 on 384,279; first-hand core 404,082 B, +351 on
-403,731; deferred 560,344 B, +2,326 B on S3's 558,018 (560,127, then +217 in S4-R0), the ceiling moved to it in its own
-commits (39,656 B remain of the owner's 600,000).
+level, the first commit after that merge): eager gzip 384,654 B, +375 on 384,279; first-hand core 404,128 B, +397 on
+403,731; deferred 560,379 B, +2,361 B on S3's 558,018 (560,127, then +217 in S4-R0 and +35 in S4-R1), the ceiling moved to
+it in its own commits (39,621 B remain of the owner's 600,000).
