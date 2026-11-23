@@ -278,7 +278,9 @@ NEURAL_TARGET = {
     # v1.297.0 L2b S3 (a phone's look from the cloze: the Map press, the look, the pill, master-cloze.src.js; the pale marks, the
     # look's calm area and the glide's no-room floor, map-light.src.js): 557_990, +2_027 B on S2's 555_963 (dev v1.295.3 in);
     # S3-R1: 558_018, +28 B (reader.js records the size it laid out for, `nodeBandAt`).
-    "deferred_raw_bytes": 558_018,
+    # v1.298.0 L2b S4 (a row lights its way: ngClozeWay and the tablet's tap, master-cloze.src.js; the line, map-light.src.js):
+    # 560_127, +2_109 B on S3's 558_018 (dev 2a340a5ce).
+    "deferred_raw_bytes": 560_127,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
