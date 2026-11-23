@@ -22,6 +22,8 @@
 //  12. a PLAIN LOAD heals an older build's saved re-union (the cells are applied at load, before any pull);
 //  13. a star re-add after a move writes an "in" cell, so the item stays in that list through a reload and on another
 //      device (MOVE-R1 F1: both were reader's mutants that every unit let through).
+//  14. a delete's Undo UNIONS its snapshot into a list a merge brought back meanwhile (another device's adds and its move
+//      into the list stay; MOVE-R1 F4, a loss dev already had).
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -317,4 +319,24 @@ test('13. a star re-add after a move writes an "in" cell: the item stays through
   const other = blobOf({ S: L([Y], 101, 'Monday'), T: L([Z, X], 101, 'Guard') }, { S: { [X]: [a.listItemAt.S[X][0] - 1, 0] }, T: { [X]: [a.listItemAt.S[X][0] - 1, 1] } });
   const merged = a._mergeProgressBlobs(other, a._progressBlob());
   assert.deepEqual(itemsOf(merged.lists), { S: [X, Y].sort(), T: [X, Z].sort() }, 'on the other device, in both lists');
+}));
+
+test('14. a delete\'s Undo unions its snapshot into a list a merge brought back: the other device\'s adds and its move stay', () => fakeTimers(async ({ flush }) => {
+  const h = harness(); await h.boot(); const a = h.switchTo('A');
+  a.prep.local = 1; await a._pullAndMerge(); await flush();
+  a.lists = { S: L(['B', 'E'], 100, 'Monday'), T: L(['A'], 100, 'Guard') };
+  a._flushSave(); await flush();
+  a.deleteList('T');                                                          // the Undo row holds the snapshot: Guard = [A]
+  assert.equal(a.lists.T, undefined);
+  // the other device still held Guard: it added C and D to it, and MOVED B into it from Monday
+  h.facade.pullNeural = async id => ({ userId: id, blob: blobOf({ S: L(['E'], 300, 'Monday'), T: L(['A', 'C', 'D', 'B'], 300, 'Guard') }, { S: { B: [300, 0] }, T: { B: [300, 1] } }) });
+  // (no flush before the Undo: these fake timers would run its 90-second expiry at once)
+  assert.equal(await a._pullAndMerge(), true);
+  assert.deepEqual(itemsOf(a.lists), { S: ['E'], T: ['A', 'B', 'C', 'D'] }, 'premise: the merge brought Guard back, with more in it');
+  assert.equal(a.undoDeleteList(), true, 'premise: the Undo is still offered');
+  assert.deepEqual(itemsOf(a.lists), { S: ['E'], T: ['A', 'B', 'C', 'D'] }, 'the Undo keeps every technique the list came back with');
+  assert.deepEqual(a.lists.T.items.slice(0, 1), ['A'], "the snapshot's own items first");
+  await flush();
+  const pushed = h.pushes.at(-1).value;
+  assert.deepEqual(itemsOf(pushed.lists), { S: ['E'], T: ['A', 'B', 'C', 'D'] }, 'and the push carries them all');
 }));

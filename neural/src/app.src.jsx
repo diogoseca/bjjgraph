@@ -12316,12 +12316,18 @@ class Component extends DCLogic {
   undoDeleteList() {
     const u = this._undoList; if (!u || u.kind === "move" || u.kind === "remove") return false;
     this._undoList = null;
-    // in its record's order if it has one (another device may have reordered it meanwhile: that order is the newer
-    // knowledge, so the list takes it rather than overwriting it, `_keepListOrder`'s one exception)
-    this._listsMap()[u.id] = this.listOrderAt && this.listOrderAt[u.id] ? ngListsApplyOrder({ [u.id]: u.list }, this.listOrderAt)[u.id] : u.list;
+    // A MERGE MAY HAVE BROUGHT THE LIST BACK meanwhile (MOVE-R1, F4; dev's own loss, which a move could now reach too):
+    // add-wins, so another device that still held it brought it back, perhaps with techniques added or MOVED into it.
+    // The snapshot is UNIONED into that list, its own items first, never put in its place (putting it in place dropped
+    // those techniques here, and the next push dropped them everywhere: the reader's repro_undodelete.mjs).
+    const m = this._listsMap(), now = m[u.id];
+    m[u.id] = now ? ngMergeLists({ [u.id]: u.list }, { [u.id]: now })[u.id] : u.list;
+    // then the cells and the order records over the whole map, as a load does: a move another device made since stands,
+    // and the list takes its record's order (the newer knowledge: `_keepListOrder`'s one exception, it never writes here)
+    this.lists = ngListsApplyOrder(ngListsApplyMarks(m, this.listItemAt), this.listOrderAt);
     this._expandList(u.id); // it came back — show what came back with it
-    // restored EXACTLY, `t` included: an undo puts the list back where recency had it, it is not
-    // a fresh touch that should promote it to the top of the panel and the picker
+    // restored EXACTLY, `t` included (the later of the two when a merge brought it back): an undo puts the list back
+    // where recency had it, it is not a fresh touch that should promote it to the top of the panel and the picker
     this._saveProgress();
     this.setEvent("Restored", u.list.name, "good");
     this._refreshListSurfaces();
