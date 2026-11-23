@@ -21234,3 +21234,16 @@ roll's zoom; the glide now leaves the camera as it was where the calm area has u
 in the ordinary calm area) is not killed, said in the spec's header with what would. Ruling 5: the look's framing on a
 phone (5.08 times the roll's zoom) costs a frame 16.8 ms against the board's own 19.8 here, in real frames: no cap; the
 step holds it to the board's own plus 15 ms (M15). Deferred 557,990 B, +2,027 on S2's 555,963.
+
+**S3-R1 (23 Nov 2026; the reader of PR #453, MERGE AFTER 3 FIXES, and the orchestrator's ruling).**
+- **The pill gone after each way back** (the reader's P5 left it standing over the reopened drawer): M18.
+- **A wheel only moves the map** (the reader's P13 ended the look): M19.
+- **The landscape step's one red in 22 runs was the app.** The reader measures its band in an animation frame after a
+  resize, and `_viewRect` read it: on the frame between the turn and that layout the look framed against the portrait
+  band (186 px where the map is a 64 px strip), passed the 48 px floor and pulled back 10.97 times the roll's zoom, held
+  there by the floor after. The band now carries the size it was measured for; `_viewRect` reads a fresh one until the
+  reader's own is measured for this size. The step seeks that frame by holding the page's animation frames across the
+  turn: M17 red at 10.97 times (the reader's own figure), 5.08 with the fix; the landscape test 201 of 201 after.
+- **The clock's hold follows the look (ruling):** a cloze's look that ends by no lifter of its own (the session or its
+  place gone under the shut drawer) hands the clock back as its pill would, the drawer back with it (`_czLookSync`,
+  every tick; LK8). The latch's setters and lifters were surveyed whole: 11 lines.
