@@ -487,3 +487,25 @@ test("a stamp of 2^53 or more, or not an integer, is dropped by every reader (it
   // and a later write beats what is left: a merge of a dropped damaged cell with a real one keeps the real one
   assert.deepEqual(ngListMarksMerge({ S: { X: [big, 1] } }, { S: { X: [1795400000000, 0] } }), { S: { X: [1795400000000, 0] } });
 });
+
+// MOVE-R1, F1: two of the reader's mutants left every unit green. Each case below is the same data in two key orders, and
+// the result must not depend on the order (a device's copy and the cloud's hold their keys in different orders).
+test("the cell trim breaks a tie at its cutoff by list and item id, so a merge is the same in both orders (a move's two cells share one stamp)", () => {
+  const side = (lid, n) => { const m = { [lid]: {} }; for (let i = 0; i < n; i++) m[lid][lid.toLowerCase() + String(i).padStart(3, "0")] = [1000, 1]; return m; };
+  const a = side("A", 150), b = side("B", 150);                     // 300 cells, every stamp equal: the cutoff is a tie
+  const ab = ngListMarksMerge(a, b), ba = ngListMarksMerge(b, a);
+  assert.equal(ngListMarksCount(ab), NG_LIST_MARK_CAP);
+  assert.deepEqual(ab, ba, "the same 200 cells whichever copy comes first");
+  assert.equal(Object.keys(ab.A).length, 150, "list A sorts first: all of it, then B's first 50");
+  assert.deepEqual(Object.keys(ab.B).sort(), Array.from({ length: 50 }, (_, i) => "b" + String(i).padStart(3, "0")));
+});
+test("the no-loss guard walks the lists in id order: an item whose every place says 'out' ends in the same list whatever the key order", () => {
+  const lists = { S: { name: "S", items: ["X", "Y"], t: 1 }, T: { name: "T", items: ["X", "Z"], t: 1 } };
+  const st = { S: { X: [5, 0] }, T: { X: [5, 0] } }, ts = { T: { X: [5, 0] }, S: { X: [5, 0] } };   // one content, two orders
+  const one = ngListsApplyMarks(lists, st), two = ngListsApplyMarks(lists, ts);
+  assert.deepEqual(one, two, "one result for one set of cells");
+  assert.deepEqual(one.S.items, ["Y"], "S comes first by id, so X leaves S; it stays in T, its last place");
+  assert.deepEqual(one.T.items, ["X", "Z"]);
+  // and through the merge, in both orders
+  assert.deepEqual(ngMergeLists(lists, {}, ngListMarksMerge(st, {})), ngMergeLists(lists, {}, ngListMarksMerge({}, ts)));
+});

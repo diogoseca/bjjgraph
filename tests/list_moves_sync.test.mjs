@@ -19,6 +19,9 @@
 //  10. an account that never reorders writes no `listOrderAt`;
 //  11. THE GUEST JOIN, the third merge path (`ngProgressGuestMerge`; the guest part keeps both fields): a guest's move and
 //      reorder join the account at sign-in, and an account's move survives a guest copy that holds the old lists.
+//  12. a PLAIN LOAD heals an older build's saved re-union (the cells are applied at load, before any pull);
+//  13. a star re-add after a move writes an "in" cell, so the item stays in that list through a reload and on another
+//      device (MOVE-R1 F1: both were reader's mutants that every unit let through).
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -284,4 +287,34 @@ test('11. the guest join: a guest\'s move and order join the account; an account
   const kept = ngProgressGuestMerge(merge, blobOf(moved, cells, order), blobOf(old));
   assert.deepEqual(kept.lists.S.items, ['Y'], "the account's move stands");
   assert.deepEqual(kept.lists.T.items, ['X', 'Z']);
+}));
+
+test('12. a plain load heals an older build\'s saved re-union: the cells are applied before any pull', () => fakeTimers(async ({ flush }) => {
+  const mem = memory();
+  // what an older build saved: X moved S -> T here earlier (the cells), then its own union put X back in S
+  const blob = { v: 2, lists: { S: L(['X', 'Y'], 300, 'Monday'), T: L(['Z', 'X'], 300, 'Guard') }, listItemAt: { S: { X: [201, 0] }, T: { X: [201, 1] } }, updatedAt: 1 };
+  mem.rows.set('bjj-neural-owner:account:A:progress', JSON.stringify({ format: 'bjj-progress-owner-v1', owner: { kind: 'account', id: 'A' }, blob, savedAt: 1 }));
+  const h = harness(mem); await h.boot(); const a = h.switchTo('A');
+  assert.deepEqual(itemsOf(a.lists), { S: ['Y'], T: ['X', 'Z'] }, 'at load: X is in Guard only, before any pull');
+  await flush();
+}));
+
+test('13. a star re-add after a move writes an "in" cell: the item stays through a reload and on another device', () => fakeTimers(async ({ flush }) => {
+  const h = harness(); await h.boot(); const a = h.switchTo('A');
+  a.prep.local = 1; await a._pullAndMerge(); await flush();
+  const ids = ['Transitions/X', 'Transitions/Y', 'Transitions/Z'];
+  const graph = inst => { inst.nodes = ids.map(id => ({ id, t: id.slice(12), ty: 'transitions', rep: true })); inst._idIndex = new Map(ids.map((id, i) => [id, i])); };
+  graph(a);
+  const [X, Y, Z] = ids;
+  a.lists = { S: L([X, Y], 100, 'Monday'), T: L([Z], 90, 'Guard') };
+  assert.equal(a.moveListItem(X, 'S', 'T', 'menu').moved, true);              // X: out of Monday, into Guard
+  assert.equal(a.addToList(X, 'S').added, true);                               // then the star puts it back in Monday
+  assert.equal(a.listItemAt.S[X][1], 1, 'the re-add wrote "in", later than the move\'s "out"');
+  a._flushSave(); await flush();
+  const h2 = harness(h.mem); await h2.boot(); const r = h2.switchTo('A'); graph(r);
+  assert.deepEqual(itemsOf(r.lists), { S: [X, Y].sort(), T: [X, Z].sort() }, 'after a reload, in both lists');
+  // and on another device that still holds the move's cells only
+  const other = blobOf({ S: L([Y], 101, 'Monday'), T: L([Z, X], 101, 'Guard') }, { S: { [X]: [a.listItemAt.S[X][0] - 1, 0] }, T: { [X]: [a.listItemAt.S[X][0] - 1, 1] } });
+  const merged = a._mergeProgressBlobs(other, a._progressBlob());
+  assert.deepEqual(itemsOf(merged.lists), { S: [X, Y].sort(), T: [X, Z].sort() }, 'on the other device, in both lists');
 }));
