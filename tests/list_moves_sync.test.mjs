@@ -28,6 +28,9 @@
 //      after a reorder end with one order (MOVE-R1 F2: the record's, then what it does not name by id).
 //  16. a move's Undo puts both lists' recency back (MOVE-R1 F6): a source the move emptied comes back with its own `t`, and
 //      a source or a target it touched takes its `t` from before the move.
+//  17. A HEAL-ONLY PUSH BACKS OFF (MOVE-R1 F3): a cloud that keeps going back to a stale copy (what a build older than
+//      v1.296.1 does) gets the first heal at once, then one only after 1 min, 2 min …; a real change pushes at once and
+//      starts the waits over.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -383,4 +386,34 @@ test('16. a move\'s Undo puts both lists\' recency back: an emptied source, a to
   assert.equal(a.undoMoveListItem(), true);
   assert.deepEqual([a.lists.S.t, a.lists.T.t], [100, 90], 'both back where recency had them');
   assert.deepEqual(itemsOf(a.lists), { S: ['X', 'Y'], T: ['X', 'Z'] });
+}));
+
+test('17. a heal-only push backs off: once at once, then after 1 min, 2 min …; a real change pushes at once and resets', () => fakeTimers(async ({ flush }) => {
+  const realNow = Date.now; let now = 1795400000000; Date.now = () => now;
+  try {
+    const h = harness(); await h.boot(); const a = h.switchTo('A');
+    a.prep.local = 1; await a._pullAndMerge(); await flush();
+    a.lists = { S: L(['X', 'Y'], 100, 'Monday'), T: L(['Z'], 90, 'Guard') };
+    assert.equal(a.moveListItem('X', 'S', 'T', 'menu').moved, true); await flush();
+    // the cloud goes back, for good, to a copy without the move (an older build pushing its own copy on every pull)
+    const stale = blobOf({ S: L(['X', 'Y'], 100, 'Monday'), T: L(['Z'], 90, 'Guard') });
+    h.facade.pullNeural = async id => ({ userId: id, blob: JSON.parse(JSON.stringify(stale)) });
+    const pushesAfter = async (ms) => { now += ms; const n = h.pushes.length; assert.equal(await a._pullAndMerge(), true); await flush(); return h.pushes.length - n; };
+    // the first pull after a change also settles `belts` (`_afterPullLevel`): its push carries something new, as it should
+    await pushesAfter(1000);
+    assert.equal(await pushesAfter(1000), 1, 'the first heal goes at once');
+    assert.deepEqual(itemsOf(h.pushes.at(-1).value.lists), { S: ['Y'], T: ['X', 'Z'] }, 'and it carries the move');
+    assert.equal(await pushesAfter(1000), 0, 'the next, 1 s later, waits');
+    assert.equal(await pushesAfter(57000), 0, '…still inside the first minute');
+    assert.equal(await pushesAfter(2000), 1, 'after 1 min: one heal');
+    assert.equal(await pushesAfter(61000), 0, 'the wait is now 2 min');
+    assert.equal(await pushesAfter(60000), 1, 'after 2 min: one heal');
+    assert.equal(await pushesAfter(1000), 0);
+    // a real change on this device pushes at once, and the waits start over
+    a.lists.T.items.push('W'); a._saveProgress(); await flush();
+    assert.ok(h.pushes.at(-1).value.lists.T.items.includes('W'), 'a real change goes at once');
+    assert.equal(await pushesAfter(1000), 1, 'and the next heal is a first one again: at once');
+    assert.equal(await pushesAfter(1000), 0, 'then it waits again');
+    assert.deepEqual(itemsOf(a.lists), { S: ['Y'], T: ['W', 'X', 'Z'] }, 'nothing is lost on this device throughout');
+  } finally { Date.now = realNow; }
 }));
