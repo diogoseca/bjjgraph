@@ -21493,6 +21493,25 @@ The gate's G1 (a direct window add in the app) and G2 (a once-a-page line gone) 
   the lab's own test there ran the old engine.
 - **The full core suite then:** 2,046 tests, 2,032 passed, 5 skipped, and the same 9 reds of the stale built site.
 
+**LEAK1-R1 (23 Nov 2026; the reader of PR #457, MERGE AFTER 1 FIX, test only, and the orchestrator's ruling).**
+- **The reader's `downOn` clearing is pinned.**
+  - The journey never pressed, so `downOn` was null and its clearing in `destroy()` went unseen. The reader's L7 left
+    everything green, yet a real press keeps the first app and its reader alive until the next press anywhere.
+  - The journey now presses the first app's logo by the mouse and shuts the drawer with Esc, so the logo stays the page's
+    last pressed element.
+  - It counts the places on each app as it lands, with the deferred bundle brought in first by the app's own loader (its
+    two module listeners are once a page).
+  - L7 and the reader's L6 (the reduced-motion query's removal dropped) are red at "the first app is collected".
+- **The gate sees more, and says what it cannot.**
+  - It strips comments first, which removes a false red.
+  - It sees `window.visualViewport`, `document.body` / `documentElement` / `head`, any `on<event> =` on window or
+    document, and a stored media query's add. G4 to G7 are red.
+  - The reduced-motion query is listed as removed by name, with its removal line checked (L6 red there too).
+  - **UNGUARDED** by the scan, written in its header: an alias, and `EventTarget.prototype.addEventListener.call`. The
+    journey's heap step is the backstop.
+  - Widening found no real direct add.
+- **Missed by the first survey:** the reduced-motion query, which was already removed by name.
+
 **Bytes** (the served app folders emptied first, against PAY-L5, dev v1.297.1's own level): eager gzip 384,795 B, +516
 (+141 on v1.298.0); first-hand core 404,270 B, +539; deferred 560,576 B, +197 B on 560,379 (reader.js +219, gameplan.js
 -22), the ceiling moved in its own commit (39,424 B remain of the owner's 600,000).
