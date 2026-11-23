@@ -20891,6 +20891,68 @@ The owner, looking at the rows on production: "pressing the list name is the sam
 - **The first runs of 5 of these mutants proved nothing.** Port 8133 was held when they started, so no test ran; the
   runner now waits for the port and names the holder. They were run again and are counted only from that run.
 
+## v1.295.2 — An item's actions behind three dots: Share · Move up · Move down · Remove from list (LISTS-MENU-2 part 2; the owner, 23 Nov 2026)
+
+**Why.** The owner, 23 Nov, looking at a list's items on production: "tat x icon on the list items is very consufing too,
+make it a 3 dots icon ads well which includes sharing, remove from list, move up, move down (the list order)".
+
+**What changed** (`_listItemRow`, `openItemMenu`, `_itemMenuChoose`, `shareListItem`, `moveListItemBy`, `removeListItem`'s
+Undo; `_openAnchoredMenu` is now the one builder of both menus):
+- **Each item's × is a ⋮** (`[data-list-item-menu]`), 44 px on a phone, 24 px on a desktop. ▶ stays on the row; on a
+  phone it is a 44 px box with its 24 px chip drawn inside (`.ng-actchip.ng-thumb`, helmet.html).
+- **Its menu** (`[data-list-item-menu-open]`, the same builder as the list's, in the star picker's slot):
+  Share · Move up · Move down · Remove from list. Remove is last, in the warning ink; Move up and Move down are disabled
+  at the list's ends, shown, and skipped by the keys. The move step's "Move to…" takes its place before Remove when it
+  lands.
+- **Share** shares the technique's own page, `location.origin + _nodeUrlPath(idx)` (e.g. `/Transitions/<name>`; a
+  position's `/Top` page): the share sheet on a phone, else the clipboard and "Link copied", else a selectable box under
+  the item.
+- **Remove from list gains a way back.** It is two presses deep now, not a stray ×: the Undo row (one slot, its kind
+  "remove", 90 s) puts the item back at its place. Emptying the list keeps the delete's own Undo, which brings the
+  whole list back.
+- **Move up / Move down reorder the list ON THIS DEVICE ONLY.** The rule that syncs an order is ruled (ORDER-OK: a
+  per-list order stamp, top-level `listOrderAt`, the order following the later stamp) and lands WITH the move step's
+  `listItemAt`, under the same proofs. Until then nothing writes a stamp and the list's `t` is not bumped (`t` is the
+  panel's recency order; a Move up must not make the list jump under the finger). The account's other devices keep
+  their own order; the cloud holds whichever order is pushed with the next other change.
+- Telemetry, counts only: `neural_list_item_shared {}`, `neural_list_item_reordered {dir}`,
+  `neural_list_item_removed {via}`.
+
+**The journeys.** `e2e/journeys/lists-item-menu.spec.ts` (new):
+- 1440 by mouse: the × gone and ▶ kept; the menu's four items; Move up disabled first, Move down disabled last; a reorder
+  with no `t` and no stamp; Share's link is the technique's page; Remove, then Undo back at its place;
+- keys: a key opens it on Share; the arrows skip a disabled item; a reorder by key keeps focus on the item's ⋮;
+- 390x631 by touch: ▶ and ⋮ as 44 px targets, overlapping nothing, centres 44 px apart; the last item's menu whole on
+  the screen; every item by touch; Undo a thumb tall.
+
+`lists-disclosure.spec.ts` removes through the menu: "Remove from list, in the item's ⋮, takes that technique out of
+THAT list…".
+
+**Mutants** (each rebuilt for real and run against its journeys; a neutral control green, 3 of 3). All 11 red:
+- the item's ⋮ opening nothing;
+- Move up enabled at the top; Move down moving up;
+- a reorder bumping the list's `t`;
+- Remove without its Undo; the Undo putting the item back at the end;
+- Share sharing the list's link instead of the technique's page;
+- the item's ⋮ at 24 px on a phone; ▶ without its thumb box on a phone;
+- the keys landing on a disabled item;
+- a key-made reorder dropping the focus.
+None survived.
+
+**Bytes** (gzip -9, like the gate; dev v1.295.1's bundle and this one, both built here from source):
+- `neural.js` 238,848 → 239,954 B (+1,106) and `neural.css` 12,989 → 13,047 B (+58): **+1,164 B** eager.
+- The gate reads 379,517 B, +2,085 B over the PAY-L3 baseline of 377,432 B (dev v1.295.1's own share is +921).
+- No baseline moved.
+
+**One gate artifact touched, with its reason.** `validate:surfaces` stopped the first `ci:validate`: `shareListItem` looks
+up a node (`this._idIndex.get(`) without the ruleset mask. It is named in `tests/artifacts/ruleset_surfaces.json` beside its
+six sibling list entries, on that file's own rule: a player's list is their record, not material the app deals; the row
+stays in every ruleset and so does the page it shares. 26 of 26 after.
+
+**Runs, all local, under the lock:**
+- dev 705e9bde4 merged in, the lists area plus `seat-star`: **122 of 122**;
+- before the merge, with the list menu's journeys: 44 of 44.
+
 ## v1.295.3 — Settings, one page of groups with room to breathe (SET1; the owner, 23 Nov 2026)
 
 **The owner, 23 Nov 2026:** "in settings, why is article settings inside rolling? one can just have landed in an article and not

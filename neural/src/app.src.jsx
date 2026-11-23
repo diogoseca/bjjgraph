@@ -10550,6 +10550,26 @@ class Component extends DCLogic {
    * v1.99.4 per-item × puts that one click from a list you are reading). `t` is when the OFFER
    * was made — it expires (an undo row is a reaction, not a permanent record).
    */
+  /** An item's removal's Undo (LISTS-MENU-2 part 2): the one slot `_undoList`, kind "remove"; 90 s, the delete's patience. */
+  _armItemUndo(rec) {
+    this._undoList = Object.assign({ t: Date.now() }, rec);
+    if (this._undoT) clearTimeout(this._undoT);
+    const mine = this._undoList;
+    // real setTimeout, not the sim clock: this is UI patience, not game time
+    this._undoT = setTimeout(() => { if (this._undoList === mine) { this._undoList = null; this._refreshListSurfaces(); } }, 90000);
+  }
+  undoRemoveListItem() {
+    const u = this._undoList; if (!u || u.kind !== "remove") return false;
+    this._undoList = null;
+    const l = this._listsMap()[u.list];
+    if (!l || l.items.indexOf(u.node) >= 0 || l.items.length >= NG_LIST_ITEM_CAP) { this._refreshListSurfaces(); return false; }
+    l.items.splice(Math.min(u.at, l.items.length), 0, u.node); l.t = this._listStamp();
+    this._saveProgress();
+    this._expandList(u.list);
+    this.setEvent("Put back", this.listItemName(u.node), "good");
+    this._refreshListSurfaces();
+    return true;
+  }
   _armListUndo(id, snapshot) {
     this._undoList = { id: id, t: Date.now(), list: { name: snapshot.name, items: snapshot.items.slice(), t: snapshot.t } };
     if (this._undoT) clearTimeout(this._undoT);
@@ -10830,7 +10850,7 @@ class Component extends DCLogic {
    * instead of removing it from the one being read. An explicit × addressed to `listId` is the
    * only affordance that says what it does.
    */
-  removeListItem(nodeId, listId) {
+  removeListItem(nodeId, listId, withUndo) {
     nodeId = this.siteIdOf(nodeId);
     const m = this._listsMap();
     const id = listId; // always named by the caller — there is no active list to fall back on
@@ -10843,8 +10863,13 @@ class Component extends DCLogic {
     // removeFromList DELETES a list whose last item just left; snapshot first so that deletion
     // is takeable back through the same undo row the two-step delete uses
     const snapshot = l.items.length === 1 ? { name: l.name, items: l.items.slice(), t: l.t } : null;
+    const at = l.items.indexOf(nodeId);
     if (!this.removeFromList(nodeId, id)) return false;
     if (snapshot && !m[id]) this._armListUndo(id, snapshot);
+    // REMOVE FROM LIST, FROM AN ITEM'S MENU, GAINS A WAY BACK (LISTS-MENU-2 part 2): it is two presses deep now, not a stray
+    // ×, and the Undo row puts the item back at its place (the one slot `_undoList`, its kind "remove"; the newest offer
+    // wins). Emptying the list keeps the delete's own Undo above, which brings the whole list back.
+    else if (withUndo) this._armItemUndo({ kind: "remove", node: nodeId, list: id, at, listName: l.name });
     this.setEvent("Removed from " + where, name, "bad");
     // the lit graph follows the list it is lighting. noFrame: a removal must not fly the camera
     // — the user is reading a row, not asking to be taken somewhere. (removeFromList already
@@ -11185,34 +11210,50 @@ class Component extends DCLogic {
    */
   openListMenu(listId, anchor, byKey) {
     const l = this._listsMap()[listId]; if (!l) return null;
+    const el = this._openAnchoredMenu({ open: ["data-list-menu-open", listId], menuKey: listId, label: "Actions for “" + l.name + "”",
+      kicker: "List", title: l.name, anchor, byKey,
+      // Delete is last and in its own ink: set apart from Share link, the press a coach makes in front of the class
+      items: [["rename", "Rename"], ["duplicate", "Duplicate"], ["share", "Share link"], ["delete", "Delete", { warn: true }]],
+      choose: (k) => this._listMenuChoose(listId, k) });
+    this.track("neural_list_menu_opened", { lists: this.listsArray().length });
+    return el;
+  }
+  /**
+   * ONE BUILDER FOR THE ANCHORED MENUS (a list's ⋮ and an item's ⋮; LISTS-MENU-2): the picker's look (`.ng-listpicker`), its
+   * slot (`_pickEl`, `_pickAnchor`, `_pickAway`, closed by the one seam `closeListPicker`), its placement (`_placeListPicker`)
+   * and the keys: a key opens it on its first item; ↑ ↓ (wrapping) Home End move among the items that can be chosen;
+   * Enter chooses; Esc and Tab close it, focus back on the anchor. A disabled item (an item's Move up at the top) is shown
+   * and skipped. `menuKey` is what a second press of the same anchor compares (`_pickMenu`), to shut its own menu.
+   */
+  _openAnchoredMenu({ open, menuKey, label, kicker, title, items, anchor, byKey, choose }) {
     this.closeListPicker();
     this.closeAccountMenu();
     const root = this.__ngRoot || document.body;
     const el = document.createElement("div");
     el.className = "ng-listpicker";
-    el.setAttribute("data-list-menu-open", listId);
+    el.setAttribute(open[0], open[1]);
     el.setAttribute("role", "menu");
-    el.setAttribute("aria-label", "Actions for “" + l.name + "”");
+    el.setAttribute("aria-label", label);
     el.style.cssText = "position:fixed;z-index:90;pointer-events:auto;display:flex;flex-direction:column;";
-    el.innerHTML = '<div class="ng-listpicker-head" data-picker-head="1"><b>List</b><small>' + this.escHTML(l.name) + "</small></div>";
+    el.innerHTML = '<div class="ng-listpicker-head" data-picker-head="1"><b>' + this.escHTML(kicker) + "</b><small>" + this.escHTML(title) + "</small></div>";
     const body = document.createElement("div");
     body.className = "ng-listpicker-body";
-    const items = [["rename", "Rename"], ["duplicate", "Duplicate"], ["share", "Share link"], ["delete", "Delete"]];
-    for (const [k, label] of items) {
+    for (const [k, text, o] of items) {
       const b = document.createElement("button");
       b.type = "button";
       b.setAttribute("role", "menuitem");
       b.setAttribute("data-list-menu-item", k);
       b.className = "ng-listpicker-row";
       b.tabIndex = -1;
-      // Delete is last and in its own ink: set apart from Share link, the press a coach makes in front of the class
-      b.innerHTML = '<span class="ng-listpicker-name"' + (k === "delete" ? ' style="color:#ff9c92;"' : "") + ">" + label + "</span>";
-      b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this._listMenuChoose(listId, k); });
+      if (o && o.disabled) { b.disabled = true; b.setAttribute("aria-disabled", "true"); b.style.opacity = ".45"; b.style.cursor = "default"; }
+      b.innerHTML = '<span class="ng-listpicker-name"' + (o && o.warn ? ' style="color:#ff9c92;"' : "") + ">" + this.escHTML(text) + "</span>";
+      b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); if (!b.disabled) choose(k, e.detail === 0); });
       body.appendChild(b);
     }
     el.appendChild(body);
+    const live = () => [...body.querySelectorAll("[data-list-menu-item]")].filter((r) => !r.disabled);
     el.addEventListener("keydown", (e) => {
-      const rows = [...body.querySelectorAll("[data-list-menu-item]")], at = rows.indexOf(document.activeElement);
+      const rows = live(), at = rows.indexOf(document.activeElement);
       const go = (i) => { e.preventDefault(); const r = rows[(i + rows.length) % rows.length]; if (r) r.focus(); };
       if (e.key === "ArrowDown") go(at + 1);
       else if (e.key === "ArrowUp") go(at < 0 ? rows.length - 1 : at - 1);
@@ -11223,7 +11264,7 @@ class Component extends DCLogic {
       e.stopPropagation();   // the menu owns these keys: Esc must not also walk the pane's ladder
     });
     root.appendChild(el);
-    this._pickEl = el; this._pickNode = null; this._pickAnchor = anchor || null; this._pickMenu = listId;
+    this._pickEl = el; this._pickNode = null; this._pickAnchor = anchor || null; this._pickMenu = menuKey;
     if (anchor) anchor.setAttribute("aria-expanded", "true");
     this._placeListPicker(el, anchor);
     this._pickAway = (e) => {
@@ -11232,15 +11273,14 @@ class Component extends DCLogic {
     };
     document.addEventListener("pointerdown", this._pickAway, true);
     // the first item takes the keys at once when a KEY opened the menu (the APG menu button); a mouse or a tap leaves focus
-    // on ⋮, where the arrows still reach the menu's first item
-    if (byKey) { const first = body.querySelector("[data-list-menu-item]"); if (first) first.focus(); }
-    else if (anchor) anchor.addEventListener("keydown", this._pickMenuKeys = (e) => {
+    // on the anchor, where the arrows still reach the menu's first (or last) item
+    if (byKey) { const first = live()[0]; if (first) first.focus(); }
+    else if (anchor) anchor.addEventListener("keydown", (e) => {
       if (this._pickEl !== el || (e.key !== "ArrowDown" && e.key !== "ArrowUp")) return;
       e.preventDefault(); e.stopPropagation();
-      const rows = [...body.querySelectorAll("[data-list-menu-item]")];
+      const rows = live();
       const r = rows[e.key === "ArrowDown" ? 0 : rows.length - 1]; if (r) r.focus();
     });   // each opening's listener answers only while ITS menu is the open one (`this._pickEl !== el`)
-    this.track("neural_list_menu_opened", { lists: this.listsArray().length });
     return el;
   }
   /** One of the list menu's items, chosen: the menu gets out of the way first, then the action runs on THAT list. */
@@ -11260,6 +11300,87 @@ class Component extends DCLogic {
       return true;
     }
     return false;
+  }
+  /**
+   * AN ITEM'S OWN MENU (LISTS-MENU-2 part 2; the owner, 23 Nov: "tat x icon on the list items is very consufing too, make it a
+   * 3 dots icon ads well which includes sharing, remove from list, move up, move down (the list order)"): Share · Move up ·
+   * Move down · Remove from list, Remove last in the warning ink, Move up and Move down disabled at the list's ends. The
+   * move step's "Move to…" takes its place between Move down and Remove when that step lands.
+   */
+  openItemMenu(nodeId, listId, anchor, byKey) {
+    const l = this._listsMap()[listId]; if (!l) return null;
+    const at = l.items.indexOf(nodeId); if (at < 0) return null;
+    return this._openAnchoredMenu({ open: ["data-list-item-menu-open", nodeId], menuKey: "item|" + listId + "|" + nodeId,
+      // the kicker names the KIND, as the list's menu does ("List"): opened inside the list, the list is in view already, and a
+      // long list name in the kicker's capitals wrapped to two lines at 390 (the first screens)
+      label: "Actions for " + this.listItemName(nodeId), kicker: "Technique", title: this.listItemName(nodeId), anchor, byKey,
+      items: [["share", "Share"], ["up", "Move up", { disabled: at === 0 }], ["down", "Move down", { disabled: at === l.items.length - 1 }],
+        ["remove", "Remove from list", { warn: true }]],
+      choose: (k, key) => this._itemMenuChoose(nodeId, listId, k, key) });
+  }
+  _itemMenuChoose(nodeId, listId, k, byKey) {
+    this.closeListPicker();
+    const l = this._listsMap()[listId]; if (!l || l.items.indexOf(nodeId) < 0) return false;
+    if (k === "share") { void this.shareListItem(nodeId, listId); return true; }
+    if (k === "up" || k === "down") return this.moveListItemBy(listId, nodeId, k === "up" ? -1 : 1, byKey);
+    if (k === "remove") {
+      const ok = this.removeListItem(nodeId, listId, true);
+      if (ok) this.track("neural_list_item_removed", { via: "menu" });
+      return ok;
+    }
+    return false;
+  }
+  /**
+   * SHARE ONE TECHNIQUE: its own page, `origin + _nodeUrlPath(idx)` (e.g. https://bjjgraph.org/Transitions/Armbar-from-Mount;
+   * a position's is its /Top page, the page the list's item opens). The share sheet on a phone, else the clipboard and
+   * "Link copied", else a selectable box under the item (the list's Share link's own fallback order).
+   */
+  async shareListItem(nodeId, listId) {
+    const i = this._idIndex ? this._idIndex.get(this.siteIdOf(nodeId)) : null;
+    const path = i != null ? this._nodeUrlPath(i) : null;
+    if (!path) { this.setEvent("Nothing to share", "This technique is not in this version of the graph", "bad"); return ""; }
+    let origin = ""; try { origin = location.origin; } catch (e) { origin = ""; }
+    const url = origin + path, name = this.listItemName(nodeId);
+    this._lastItemShareUrl = url;
+    this.track("neural_list_item_shared", {});
+    try { if (navigator.share && this.isMobile()) { await navigator.share({ title: name, url: url }); return url; } } catch (e) { /* dismissed: the clipboard */ }
+    try {
+      await navigator.clipboard.writeText(url);
+      this.setEvent("Link copied", name, "good");
+    } catch (e) {
+      const row = (this.__ngRoot || document).querySelector('[data-list-items="' + listId + '"] [data-list-itemrow="' + nodeId + '"]');
+      if (row) {
+        let out = row.parentElement.querySelector('[data-list-item-url="' + nodeId + '"]');
+        if (!out) {
+          out = document.createElement("input"); out.readOnly = true; out.setAttribute("data-list-item-url", nodeId);
+          out.style.cssText = "width:100%;margin:2px 0 6px 10px;font-family:inherit;font-size:11px;color:#dbe2f0;background:rgba(255,255,255,.05);border:1px solid rgba(150,170,210,.22);border-radius:7px;padding:5px 7px;pointer-events:auto;";
+          row.after(out);
+        }
+        out.value = url; try { out.select(); } catch (e2) { /* non-fatal */ }
+      }
+    }
+    return url;
+  }
+  /**
+   * MOVE AN ITEM UP OR DOWN ITS LIST, ON THIS DEVICE ONLY (LISTS-MENU-2 part 2). The order is NOT synced yet, on purpose:
+   * the merge keeps each copy's own order (`ngMergeLists`, local first) and the no-echo key compares items as a set, so a
+   * reorder is not pushed by itself and the account's other devices keep their order. The rule that syncs it is RULED
+   * (ORDER-OK, 23 Nov: a per-list order stamp, top-level `listOrderAt`, the order following the later stamp) and lands
+   * WITH the move step's `listItemAt`, under the same proofs. Until then nothing here writes a stamp, and the list's `t`
+   * is NOT bumped either: `t` is the panel's recency order, and a Move up must not make the list jump under the finger.
+   */
+  moveListItemBy(listId, nodeId, delta, byKey) {
+    const l = this._listsMap()[listId]; if (!l) return false;
+    const at = l.items.indexOf(nodeId), to = at + delta;
+    if (at < 0 || to < 0 || to >= l.items.length) return false;
+    l.items.splice(at, 1); l.items.splice(to, 0, nodeId);
+    this._saveProgress();
+    this.track("neural_list_item_reordered", { dir: delta < 0 ? "up" : "down" });
+    // a KEY that moved the item follows it: focus on its ⋮ in its new place (the anchor was rebuilt by the render)
+    if (byKey) this._itemMenuFocus = { node: nodeId, list: listId };
+    this._refreshListSurfaces();
+    this._itemMenuFocus = null;
+    return true;
   }
   /**
    * DUPLICATE a list (LISTS-MENU): a new list with the same techniques in the same order, named "<name> copy" (the base cut
@@ -11530,7 +11651,10 @@ class Component extends DCLogic {
     // ladder as if this were a sibling row) put the glyph 60px from the pane edge and the ×
     // 12px inboard of the list's own ×. 10px is Explore's header→family step (12→22); 0 on
     // the right lines the × up under the list row's ×. Same 8px gap and hover wash as Explore.
-    item.style.cssText = "display:flex;align-items:center;gap:8px;min-width:0;padding:7px 0 7px 10px;border-radius:7px;";
+    // A PHONE'S ITEM ROW IS A THUMB'S (LISTS-MENU-2 part 2, ruling 5): ▶ and ⋮ are 44px boxes at an even 44px pitch, so the
+    // row gives its 7px of vertical padding to them (44px tall against 30). A desktop keeps 24px.
+    const thumb = this.isMobile();
+    item.style.cssText = "display:flex;align-items:center;gap:8px;min-width:0;padding:" + (thumb ? "0 0 0 10px" : "7px 0 7px 10px") + ";border-radius:7px;";
     item.addEventListener("mouseenter", () => item.style.background = "rgba(255,255,255,.045)");
     item.addEventListener("mouseleave", () => item.style.background = "transparent");
     // the category shape, same vocabulary as the canvas and as Explore's own rows
@@ -11555,21 +11679,33 @@ class Component extends DCLogic {
     }
     if (i != null) nameBtn.addEventListener("click", (e) => { e.stopPropagation(); this.openDossier(i, false, "list"); });
     item.appendChild(nameBtn);
-    if (n) item.appendChild(this._playButton(n));   // ▶ is the technique's, on every surface
-    const rm = document.createElement("button");
-    rm.type = "button";
-    rm.setAttribute("data-list-item-remove", nodeId);
-    rm.setAttribute("data-list-of", listId);
-    rm.textContent = "×";
-    rm.title = "Remove from this list";
-    rm.setAttribute("aria-label", "Remove " + (n ? n.t : nodeId) + " from this list");
-    // 22px, not 44 — a 44px control inside a 30px row IS the row's height, which is what made
-    // these read as cards among Explore's rows. The pane is a scroller, not a thumb band.
-    rm.style.cssText = "flex:none;width:24px;height:24px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:13px;line-height:1;border:0;border-radius:7px;background:transparent;color:#6b7691;display:inline-flex;align-items:center;justify-content:center;";
-    rm.addEventListener("mouseenter", () => { rm.style.background = "rgba(255,255,255,.08)"; rm.style.color = "#dbe2f0"; });
-    rm.addEventListener("mouseleave", () => { rm.style.background = "transparent"; rm.style.color = "#6b7691"; });
-    rm.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.removeListItem(nodeId, listId); });
-    item.appendChild(rm);
+    if (n) {
+      const play = this._playButton(n);   // ▶ is the technique's, on every surface
+      if (thumb) play.classList.add("ng-thumb");   // its 24px chip drawn inside a 44px box (`.ng-actchip.ng-thumb`)
+      item.appendChild(play);
+    }
+    // ⋮ IN PLACE OF THE × (LISTS-MENU-2 part 2; the owner: "tat x icon on the list items is very consufing too"): the item's
+    // own menu, Share · Move up · Move down · Remove from list (`openItemMenu`). A second press of it shuts the menu.
+    const dots = document.createElement("button");
+    dots.type = "button";
+    dots.setAttribute("data-list-item-menu", nodeId);
+    dots.setAttribute("data-list-of", listId);
+    dots.setAttribute("aria-haspopup", "menu");
+    dots.setAttribute("aria-expanded", "false");
+    dots.setAttribute("aria-label", "Actions for " + (n ? n.t : nodeId));
+    dots.title = "Share, move or remove";
+    dots.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="5" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="12" cy="19" r="2"></circle></svg>';
+    dots.style.cssText = "flex:none;width:" + (thumb ? 44 : 24) + "px;height:" + (thumb ? 44 : 24) + "px;" + (thumb ? (n ? "margin-left:-8px;" : "") + "margin-right:-10px;" : "") + "pointer-events:auto;cursor:pointer;font-family:inherit;padding:0;border:0;border-radius:" + (thumb ? 11 : 7) + "px;background:transparent;color:#6b7691;display:inline-flex;align-items:center;justify-content:center;line-height:1;";
+    if (!thumb) {
+      dots.addEventListener("mouseenter", () => { dots.style.background = "rgba(255,255,255,.08)"; dots.style.color = "#dbe2f0"; });
+      dots.addEventListener("mouseleave", () => { dots.style.background = "transparent"; dots.style.color = "#6b7691"; });
+    }
+    dots.addEventListener("click", (e) => {
+      e.stopPropagation(); e.preventDefault();
+      if (this._pickMenu === "item|" + listId + "|" + nodeId && this._pickEl) { this.closeListPicker(); return; }
+      this.openItemMenu(nodeId, listId, dots, e.detail === 0);
+    });
+    item.appendChild(dots);
     return item;
   }
 
@@ -11906,6 +12042,12 @@ class Component extends DCLogic {
       this._listOpenFocusPending = null;
       if (back) { try { back.focus(); } catch (e) { /* non-fatal */ } }
     }
+    // ...an item a KEY moved up or down keeps the keys: focus on its ⋮ in its new place (`moveListItemBy`)
+    if (this._itemMenuFocus) {
+      const f = this._itemMenuFocus;
+      const back = sec.querySelector('[data-list-item-menu="' + f.node + '"][data-list-of="' + f.list + '"]');
+      if (back) { try { back.focus({ preventScroll: true }); } catch (e) { /* non-fatal */ } }
+    }
     // ...and an editor a KEY closed hands focus to its row's ⋮, where Rename was chosen (see the editor's keydown)
     if (this._listEditReturn && !this._listEditId) {
       const back = sec.querySelector('[data-list-menu="' + this._listEditReturn + '"]');
@@ -11951,19 +12093,24 @@ class Component extends DCLogic {
     box.style.cssText = "display:flex;align-items:center;gap:8px;margin:0 6px 6px;padding:7px 9px;border-radius:9px;border:1px solid rgba(150,170,210,.2);background:rgba(255,255,255,.03);";
     const txt = document.createElement("span");
     txt.style.cssText = "flex:1;min-width:0;font-size:11.5px;color:#aeb9d4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
-    txt.textContent = "Deleted “" + u.list.name + "” · " + u.list.items.length + " technique" + (u.list.items.length === 1 ? "" : "s");
+    // ONE SLOT, TWO KINDS (LISTS-MENU-2): a list's delete and an item's removal. The newest wins, so the row says which.
+    const removed = u.kind === "remove";
+    txt.textContent = removed
+      ? "Removed “" + this.listItemName(u.node) + "” from “" + u.listName + "”"
+      : "Deleted “" + u.list.name + "” · " + u.list.items.length + " technique" + (u.list.items.length === 1 ? "" : "s");
     box.appendChild(txt);
     const undo = document.createElement("button");
     undo.type = "button";
-    undo.setAttribute("data-list-undo", u.id);
+    undo.setAttribute(removed ? "data-list-undo-remove" : "data-list-undo", removed ? u.node : u.id);
     undo.textContent = "Undo";
-    undo.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 10px;border-radius:7px;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.05);color:#dbe2f0;";
-    undo.addEventListener("click", () => this.undoDeleteList());
+    // a thumb's height on a phone, its 9px of the row's padding taken back so the row does not grow (`.ng-lists-new`'s trade)
+    undo.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 10px;border-radius:7px;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.05);color:#dbe2f0;" + (this.isMobile() ? "min-height:44px;margin:-9px 0;" : "");
+    undo.addEventListener("click", () => { if (removed) this.undoRemoveListItem(); else this.undoDeleteList(); });
     box.appendChild(undo);
     return box;
   }
   undoDeleteList() {
-    const u = this._undoList; if (!u) return false;
+    const u = this._undoList; if (!u || u.kind === "remove") return false;
     this._undoList = null;
     this._listsMap()[u.id] = u.list;
     this._expandList(u.id); // it came back — show what came back with it
