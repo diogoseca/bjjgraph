@@ -40,6 +40,8 @@ import { journey } from "../dsl"
  *       then keeps the place named, and lit, over the closed map)    → "on a phone, after a look…" at "the name goes with it"
  *       (the desktop's Esc step read it too until S2, where the drawer shut ends the look before any close)
  * S2 (the orchestrator's ruling on the reader's re-read of PR #447): on a computer the look also ends when the drawer is shut.
+ *   JR3 (S2-R1, ruling 3) the look's place read from the width, not from where it began → "on a phone a look keeps its place
+ *       when the phone is turned…" at "turned to landscape…"
  *   JD1 the drawer shut not read (`_shownRow` without `deckShown`)    → "on a desktop…Esc…" at "the drawer shut on a computer:
  *                                                                        the place is no longer named", and "…a still board…"
  *                                                                        at "ends the look at once"
@@ -543,6 +545,19 @@ test.describe("touch 390x631", () => {
     expect(await light(page), "and nothing is lit").toBeNull()
     await j.advance(3000)
     expect([await named(page), await light(page)], "nor does either come back inside the camera's 7 s").toEqual([false, null])
+  })
+
+  test("on a phone a look keeps its place when the phone is turned: lit and shown at 844x390, and again at 390x631", async ({ page }) => {
+    const j = await rolled(page, true)
+    await show(page, true)
+    await j.advance(1200)
+    expect([(await state(page)).look, (await light(page))?.k, await shownAt(page)], "premise: a look, lit, the place shown").toEqual([true, 1, true])
+    await page.setViewportSize({ width: 844, height: 390 })
+    await j.advance(600)
+    expect([(await state(page)).look, (await light(page))?.k, await shownAt(page)], "turned to landscape (no longer 'mobile' by width), the look keeps its place, lit (JR3)").toEqual([true, 1, true])
+    await page.setViewportSize({ width: 390, height: 631 })
+    await j.advance(600)
+    expect([(await state(page)).look, (await light(page))?.k, await shownAt(page)], "and turned back").toEqual([true, 1, true])
   })
 
   test("on a phone the light lasts as long as the look; the press that ends it puts the light out and leaves the name; the drawer opened over a look opens on Explore, which ends the look: no name, no light", async ({ page }) => {

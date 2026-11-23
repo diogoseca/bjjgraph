@@ -920,7 +920,7 @@ class Component extends DCLogic {
       if (held) { this._lookAutoPaused = true; this.fx("look_held", {}); }
     }
     this.locateNode(i); this.holdCamera();
-    this._shown = { i, t: this._camHoldTarget, rid };   // `rid`: the Last rolls row it was shown from (S1-R1, `_shownNode`)
+    this._shown = { i, t: this._camHoldTarget, rid, phone: this.isMobile() };   // `rid`: the Last rolls row it was shown from (S1-R1, `_shownNode`); `phone`: begun on a phone (S2-R1)
   }
   // THE PLACE "SHOW ON THE MAP" SHOWED, NAMED ON THE MAP the way a node under the pointer is (`draw()`'s hover label reads this
   // when nothing is under the pointer). No lifters of its own to forget (§6.5): it lasts exactly as long as what it rides,
@@ -943,7 +943,9 @@ class Component extends DCLogic {
     const s = this._shown;
     return s && (this._lookAutoPaused || (this.camHeld() && this._camHoldTarget === s.t)) && this._shownRow(s) ? this.nodes[s.i] || null : (this._shown = null);
   }
-  _shownRow(s) { return s.rid == null || ((this.deckShown || this.isMobile()) && this._viewMode === "history" && !this._paneStudyActive() && this._openRow === s.rid); }
+  // (A LOOK BEGUN ON A PHONE keeps its place whatever the width, S2-R1, ruling 3: turned to 844x390 a phone stopped counting
+  // as one, its look's drawer is shut, and the show was dropped for good; dev kept it lit at all three sizes)
+  _shownRow(s) { return s.rid == null || ((s.phone || this.deckShown) && this._viewMode === "history" && !this._paneStudyActive() && this._openRow === s.rid); }
   /**
    * THE LIGHT (L2b S1, v1.295.0): what "Show on the map" shows, lit. Until now the map NAMED the shown place and lit
    * nothing, so the name was tied to its orb by nothing at a glance (L3 ruling, v1.293.0: "names, does not yet LIGHT").
