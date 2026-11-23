@@ -184,7 +184,11 @@ function assertAt(g: Geo, id: string, where: string) {
   expect(g.tabs.find((t) => t.selected)?.id, `${where}: ${id} is lit`).toBe(id);
 }
 
-/** The panel and the chip row have stopped moving, and their scroll events have been delivered (a smooth glide). */
+/** THE CARD AT REST: its entrance has finished, and the panel and the chip row have stopped moving (a smooth glide), their
+ *  scroll events delivered. SET1-RED (PR #451's first CI run): this waited for the scroll alone, so on CI the frame was read
+ *  while the card's entrance (ngCardIn, 0.28 s, an 8 px slide) was still moving it: 30.68 px from the bottom at 800x900 and
+ *  [0, 1, 390, 632] at 390x631. Seeking that animation to 150 ms reproduces both to the hundredth (30.69, [0, 1, 390, 632]);
+ *  finished, the card rests at exactly 32 and [0, 0, 390, 631]. The tolerance is unchanged: the frame is read where it rests. */
 const settled = async (page: Page) => {
   await expect
     .poll(
@@ -195,12 +199,14 @@ const settled = async (page: Page) => {
               const card = (window as any).__neural.modalCardRef.current as HTMLElement;
               const list = card.querySelector('[role="tablist"]') as HTMLElement,
                 panel = card.querySelector('[role="tabpanel"]') as HTMLElement;
+              const moving = () => card.getAnimations().some((a) => a.playState !== "finished");
               const at = () => list.scrollLeft + "," + panel.scrollTop;
               const t0 = performance.now();
               let x = at(),
                 since = t0;
               const tick = () => {
                 const now = performance.now();
+                if (moving()) since = now;
                 if (at() !== x) {
                   x = at();
                   since = now;

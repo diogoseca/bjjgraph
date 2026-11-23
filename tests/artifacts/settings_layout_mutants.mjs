@@ -39,6 +39,11 @@ const MUTANTS = [
   ["redraw-jumps", "settings", "scrolling lights the group in view", "this._settingsRowX==null", "!0"],
   ["keys-no-down", "settings", "keyboard: the list keeps its keys", "ArrowDown:", "ArrowDownX:"],
   ["frame-leaks-to-dialogs", "neural", "another dialog opened after Settings", "removeAttribute(\"data-settings-card\")", "getAttribute(\"data-settings-card\")"],
+  // SET1-RED (PR #451's first CI run): CONTROLS THAT MUST STAY GREEN (the sixth field). The card's entrance slowed to 1.2 s: the frame
+  // step must still read the card where it RESTS. The step as first shipped read it mid-slide on CI (30.68 px from the bottom at 800,
+  // [0, 1, 390, 632] at 390) and goes red here; the step that waits for the card's animations holds.
+  ["slow-entrance-800", "settings", "at 800x900: the frame", ".ng-modal>[data-settings-card]{display:flex;", ".ng-modal>[data-settings-card]{animation-duration:1.2s!important;display:flex;", "green"],
+  ["slow-entrance-390", "settings", "at 390x631: the frame", ".ng-modal>[data-settings-card]{display:flex;", ".ng-modal>[data-settings-card]{animation-duration:1.2s!important;display:flex;", "green"],
 ];
 const only = (process.env.SET1_MUTANT_ONLY || "").split(",").filter(Boolean);
 const chosen = MUTANTS.filter((m) => !only.length || only.includes(m[0]));
@@ -60,7 +65,7 @@ const run = (title, tag) => {
 };
 const results = [];
 const baselines = new Map();
-for (const [name, file, title, from, to] of chosen) {
+for (const [name, file, title, from, to, expect = "red"] of chosen) {
   if (!baselines.has(title)) {
     restore();
     const b = run(title, "baseline-" + baselines.size);
@@ -76,10 +81,14 @@ for (const [name, file, title, from, to] of chosen) {
   const m = run(title, name);
   restore();
   const killed = m.failed > 0;
-  results.push({ name, file, title, killed, ...m });
-  console.log(`${killed ? "KILLED " : "SURVIVED"} ${name} (/${title}/: ${m.failed} red of ${m.ran})`);
+  // a control that must stay green counts as a pass when it held, and as a failure (`killed: false` is not enough) when it went red
+  const ok = expect === "green" ? !killed : killed;
+  results.push({ name, file, title, expect, killed, ok, ...m });
+  console.log(`${expect === "green" ? (ok ? "HELD   " : "BROKE  ") : (ok ? "KILLED " : "SURVIVED")} ${name} (/${title}/: ${m.failed} red of ${m.ran})`);
 }
 restore();
 writeFileSync(resolve(out, "results.json"), JSON.stringify({ baselines: Object.fromEntries(baselines), results }, null, 1));
-const survived = results.filter((r) => !r.killed).map((r) => r.name);
-console.log(`${results.length - survived.length} of ${results.length} killed` + (survived.length ? `; survived: ${survived.join(", ")}` : ""));
+const bad = results.filter((r) => !r.ok).map((r) => r.name);
+const kills = results.filter((r) => r.expect !== "green"), holds = results.filter((r) => r.expect === "green");
+console.log(`${kills.filter((r) => r.ok).length} of ${kills.length} killed; ${holds.filter((r) => r.ok).length} of ${holds.length} controls held` + (bad.length ? `; NOT as expected: ${bad.join(", ")}` : ""));
+if (bad.length) process.exitCode = 1;
