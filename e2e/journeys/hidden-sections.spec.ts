@@ -123,7 +123,8 @@ for (const vp of VIEWPORTS) test.describe(`${vp.width}`, () => {
       await press(page, j, `${msg} [data-hidesec-settings]`, vp.touch, `${p.name}'s Settings`)
       const aimed = page.locator("[data-settings-aimed]")
       await expect(aimed, `${p.name}: Settings opens at its switch`).toBeVisible({ timeout: 10000 })
-      const control = p.key === "videos" ? '[data-layer-toggle="film"]' : ["card", "hand"].includes(p.key) ? `[data-layer-toggle="${p.key}"]` : `[data-section-setting="${p.key}"]`
+      // SET1 (v1.295.2): the video's switch is the Video row under Articles, the one switch for the article's video and the film.
+      const control = ["card", "hand"].includes(p.key) ? `[data-layer-toggle="${p.key}"]` : `[data-section-setting="${p.key}"]`
       await expect(aimed.locator(control), `${p.name}: the aimed row is its own`).toHaveCount(1)
       await expect(page.locator(control), `${p.name}: focused`).toBeFocused()
       const inView = await page.evaluate(sel => { const r = document.querySelector(sel)!.getBoundingClientRect(); return r.top >= 0 && r.bottom <= innerHeight }, control)
@@ -266,21 +267,24 @@ test("several closed in a row: one message per part, in place, and none moves wh
 })
 })
 
-test("Videos during play now switches the video: it writes the Video section's own setting (1440, by mouse)", async ({ page }) => {
+// SET1 (v1.295.2, ruled SET1-GO 2): "Videos during play" (HIDESEC2 made it write the Video section's setting) and the Articles' Video
+// box were two switches for one setting; the Video row under Articles is now the one, and its second line says it is the film too.
+test("the Video row under Articles is the one switch for the film during a roll (1440, by mouse)", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = await boot(page)
   const film = () => page.evaluate(() => { const f = (window as any).__neural._landFilmEl; return !!f && !f.hidden && f.getClientRects().length > 0 })
   expect(await film(), "premise: the film shows").toBe(true)
-  await page.evaluate(() => (window as any).__neural.openSettings("rolling"))
-  // WAS: the row wrote landFilm, which nothing reads once the reader is up, so the film stayed (measured live, 2026-11-11).
-  await page.locator('[data-layer-toggle="film"]').scrollIntoViewIfNeeded()
-  await j.clickByMouse('[data-layer-toggle="film"]', "Videos during play")
+  await page.evaluate(() => (window as any).__neural.openSettings("reading"))
+  await expect(page.locator('[data-layer-toggle="film"]'), "no second switch for the film").toHaveCount(0)
+  const video = '[data-section-setting="videos"]'
+  await expect(page.locator(`[data-settings-group="reading"] label:has(${video})`), "Video says it is the film too").toContainText("also the film during a roll")
+  await page.locator(video).scrollIntoViewIfNeeded()
+  await j.clickByMouse(video, "Video")
   await expect.poll(film, { message: "the film goes" }).toBe(false)
   expect(await setting(page, "readerSection.videos"), "through the Video section's setting").toBe(false)
-  await expect(page.locator('[data-layer-toggle="film"]')).toHaveAttribute("aria-pressed", "false")
-  await expect(page.locator('[data-section-setting="videos"]'), "the Article sections' Video box agrees").not.toBeChecked()
-  await page.locator('[data-layer-toggle="film"]').scrollIntoViewIfNeeded()
-  await j.clickByMouse('[data-layer-toggle="film"]', "Videos during play, again")
+  await expect(page.locator(video)).not.toBeChecked()
+  await page.locator(video).scrollIntoViewIfNeeded()
+  await j.clickByMouse(video, "Video, again")
   await expect.poll(film, { message: "and comes back" }).toBe(true)
 })
 
@@ -366,9 +370,10 @@ test.describe("1440 review", () => {
     expect(await setting(page, "landHand"), "Moves is back").toBe(true)
   })
 
-  // D2: on a pinned landing (the article held past the 800ms hold), the film closed by its ✕, then "Videos during play" turned back on
-  // through the message's Settings: the film comes back (the switch settles the pin, as the section's own reopen does).
-  test("D2: Videos during play brings the film back on a pinned landing (1440, by mouse)", async ({ page }) => {
+  // D2: on a pinned landing (the article held past the 800ms hold), the film closed by its ✕, then the Video switch (SET1: under
+  // Articles; it was "Videos during play") turned back on through the message's Settings: the film comes back (the switch settles the
+  // pin, as the section's own reopen does).
+  test("D2: the Video switch brings the film back on a pinned landing (1440, by mouse)", async ({ page }) => {
     const j = journey(page)
     await j.boot("/", { beforeNavigate: async () => { await page.route("**/static/neural/content/*.json", r => r.continue()) }, payloads: { "/Positions/Mount": { afterMs: 1500 } } })
     await j.land("Mount Top")
@@ -379,11 +384,11 @@ test.describe("1440 review", () => {
     await j.clickByMouse("[data-film-close]", "the film's ✕")
     await j.readerLayoutSettled()
     await j.clickByMouse('[data-hidesec-notice="videos"] [data-hidesec-settings]', "the video message's Settings")
-    await expect(page.locator('[data-settings-aimed] [data-layer-toggle="film"]'), "Settings opens at Videos during play").toHaveCount(1, { timeout: 10000 })
+    await expect(page.locator('[data-settings-aimed] [data-section-setting="videos"]'), "Settings opens at the Video switch").toHaveCount(1, { timeout: 10000 })
     // The premise the claim needs, read just before the press: the pin still holds the film's place empty (it is what a turn back on
     // must settle). Measured: 1 run in 2 under the mutant runner a pass had released it first, so the claim went untested.
     expect(await page.evaluate(() => { const p = (window as any).__neural._readerPin; return !!p && !!p.hid && !p.graded }), "premise: the pinned landing holds the film's place empty").toBe(true)
-    await j.clickByMouse('[data-layer-toggle="film"]', "Videos during play")
+    await j.clickByMouse('[data-section-setting="videos"]', "Video")
     await page.keyboard.press("Escape")
     // Waits on the reader's own layout only: pumping the game clock here lets the landing's own events (a grade, an expiry) settle the
     // pin, and the claim was then a lottery ticket (the mutant survived 2 runs in 4 that way).

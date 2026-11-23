@@ -484,13 +484,22 @@ for (const width of [390, 1440]) test.describe(`catch drawer ${width}`, () => {
     await j.clickByMouse('[data-menu-settings]', 'Settings during the catch')
     await expect(page.locator('#ng-stab-rolling')).toBeVisible()
     const backdrop = { x: width - 4, y: 4 }
-    expect(await page.evaluate(p => document.elementFromPoint(p.x, p.y) === (window as any).__neural.modalRef.current, backdrop),
-      'premise: the native press reaches the modal backdrop').toBe(true)
-    if (width === 390) await page.touchscreen.tap(backdrop.x, backdrop.y)
-    else await page.mouse.click(backdrop.x, backdrop.y)
+    if (width === 390) {
+      // SET1 (v1.295.2, ruled SET1-GO 5): on a phone Settings is a full-screen sheet, so there is no backdrop to tap; its 44 px close
+      // is the way out, and it closes as the backdrop does, through `closeModal`, leaving the pause where it was.
+      expect(await page.evaluate(p => (window as any).__neural.modalCardRef.current.contains(document.elementFromPoint(p.x, p.y)), backdrop),
+        'premise: the sheet covers the corner a backdrop had').toBe(true)
+      const x = await j.boxOf('.ng-modal .x', "the sheet's close")
+      expect(Math.min(x.width, x.height), 'the close is a 44 px target').toBeGreaterThanOrEqual(44)
+      await page.touchscreen.tap(x.x + x.width / 2, x.y + x.height / 2)
+    } else {
+      expect(await page.evaluate(p => document.elementFromPoint(p.x, p.y) === (window as any).__neural.modalRef.current, backdrop),
+        'premise: the native press reaches the modal backdrop').toBe(true)
+      await page.mouse.click(backdrop.x, backdrop.y)
+    }
     await expect(page.locator('#ng-stab-rolling')).toBeHidden()
     expect(await page.evaluate(() => { const a = (window as any).__neural; return { drawer: a.deckShown, paused: a.paused, owned: a._paneAutoPaused, pressure: a._defensePressure } }),
-      'D1: the backdrop leaves the catch paused behind the open drawer').toEqual({ drawer: true, paused: true, owned: true, pressure: true })
+      'D1: the backdrop (the close, on a phone) leaves the catch paused behind the open drawer').toEqual({ drawer: true, paused: true, owned: true, pressure: true })
     await j.advance(1100)
     expect(await page.evaluate(() => (window as any).__neural.__catchTimerFired), 'D1: the backdrop cannot release the held roll timer').toBe(false)
     await j.clickByMouse('.ng-explorer-close', 'close the catch drawer')

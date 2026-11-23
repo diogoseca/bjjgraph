@@ -578,7 +578,7 @@ const mutants = [
   ['hidesec2-video-not-in-place', hidesec, 'every part closes.*1440', s => replace(s, 'if (key === "videos" && !this.ownsMedia()) return this.mediaHome;', '')],
   ['hidesec2-video-under-article', hidesec, 'every part closes.*1440', s => s, css => replace(css, '.ng-hidesec-notice{position:relative;z-index:1;', '.ng-hidesec-notice{')],
   ['hidesec2-undo-dead', hidesec, 'every part closes.*390', s => replace(s, 'button("Undo", () => this.undoNotice(key),', 'button("Undo", () => {},')],
-  ['hidesec2-settings-unaimed', hidesec, 'every part closes.*1440', s => replace(s, 'a._settingsAim = key; a.openSettings("rolling");', 'a.openSettings("rolling");')],
+  ['hidesec2-settings-unaimed', hidesec, 'every part closes.*1440', s => replace(s, 'a._settingsAim = key; a.openSettings(part ? "rolling" : "reading");', 'a.openSettings(part ? "rolling" : "reading");')],
   ['hidesec2-settings-aim-ignored', hidesec, 'every part closes.*390', s => s, null, t => replace(t, 'setAttribute("data-settings-aimed","")', 'removeAttribute("data-settings-aimed")')],
   ['hidesec2-no-hover-hold', hidesec, 'press rule.*1440', s => replace(s, 'if (e.pointerType === "mouse") this.holdNotice(n, "over", true);', 'if (false) this.holdNotice(n, "over", true);')],
   ['hidesec2-leaving-place-passes-presses', hidesec, 'press rule.*390', s => s, css => css + '\n.ng-hidesec-notice[data-phase=leaving]{pointer-events:none}\n'],
@@ -587,7 +587,8 @@ const mutants = [
   ['hidesec2-touch-focus-holds', hidesec, 'press rule.*390', s => replace(s, 'listen(box, "focusin", () => { if (byKey) this.holdNotice(n, "focus", true); });', 'listen(box, "focusin", () => this.holdNotice(n, "focus", true));')],
   ['hidesec2-places-close-apart', hidesec, 'several closed in a row', s => replace(s, '    const all = [...this.noticeMap.values()];\n    if (!all.length || all.some(n => n.box.dataset.phase !== "leaving" || !n.quiet || this.noticeHeld(n))) return;', '    const all = [...this.noticeMap.values()].filter(n => n.box.dataset.phase === "leaving" && n.quiet && !this.noticeHeld(n));\n    if (!all.length) return;')],
   ['hidesec2-one-message-only', hidesec, 'several closed in a row', s => replace(s, '    this.dropNotice(key);\n    if (!home || !title) return;', '    for (const k of [...this.noticeMap.keys()]) this.dropNotice(k);\n    if (!home || !title) return;')],
-  ['hidesec2-dead-switch', hidesec, 'Videos during play now switches', s => s, null, t => replace(t, 'this.set("readerSection.videos",!', 'this.set("landFilm",!')],
+  // SET1 (v1.295.2): the film's switch is the Video row under Articles (one switch for both); retargeted onto its write, name-free.
+  ['hidesec2-dead-switch', hidesec, 'the Video row under Articles is the one switch', s => s, null, t => replace(t, 'this.set("readerSection."+', 'this.set("landFilmX"+')],
   // CARDGAP1 (v1.256.3, run by hand there): the deleted film-first line back. Red at "one step under Moves" wherever the stage stacks.
   ['cardgap-film-first-line', 'card-close-gap.spec.ts', '390x844 by mouse', s => replace(s, '        const follows = homeMedia && !beside && showCard;\n', '        const follows = homeMedia && !beside && showCard;\n        if (homeMedia && !beside && !follows) { position(home, free.center - mediaWidth / 2, y, mediaWidth); y += mediaHeight + 12; }\n')],
   ['hidesec2-card-close-keeps-pin', 'card-close-gap.spec.ts', 'a pinned landing', s => replace(s, '    if (result && name === "card" && on === false) this._readerPin = null;\n', '')],
@@ -595,7 +596,7 @@ const mutants = [
   // #372's review: one control per fix (D1 to D6) and per branch it found uncovered (the key's Undo focus and focus hold, the raised
   // video message over the article).
   ['hidesec2-d1-stuck-leaving', hidesec, 'D1: a message that went quiet first', s => replace(s, '      (s?.control ? a._landFilmEl?.querySelector("[data-film-close]") : s?.toggle)?.focus({ preventScroll: true });\n    }\n    this.closeNotices();\n', '      (s?.control ? a._landFilmEl?.querySelector("[data-film-close]") : s?.toggle)?.focus({ preventScroll: true });\n    }\n')],
-  ['hidesec2-d2-video-pin', hidesec, 'D2: Videos during play brings the film back', s => s, null, t => replace(t, 'this._readerGraded(),this.set("readerSection.videos"', '0,this.set("readerSection.videos"')],
+  ['hidesec2-d2-video-pin', hidesec, 'D2: the Video switch brings the film back', s => s, null, t => replace(t, '&&this._readerGraded(),this.set("readerSection."+', '&&0,this.set("readerSection."+')],
   // BGCLOSE (v1.294.0) RETIRED hidesec2-d3-undo-restores-landing with its subject (D3: Moves' Undo brings back Moves only, not a card
   // the map tap took away): there is no such card and no restoreLanding for an Undo to call.
   ['hidesec2-d4-touch-not-passive', hidesec, "D4: the press window's touch listeners are passive", s => replace(s, '{ capture: true, passive: type.startsWith("touch") }', '{ capture: true, passive: false }')],
