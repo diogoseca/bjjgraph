@@ -414,6 +414,8 @@ const NG_MIX_SITES_BY_DEFAULT = true;
 // (CLAUDE.md §6.6). The order is load-bearing: Practice first is what the badge menu opens on, and Rolling
 // before General keeps "where the roll starts" above the gi/no-gi choice (start-from.spec.ts). A new group is
 // one row here and one branch in settings-ui.src.js; settings-tabs.spec.ts measures the list at every size.
+// THE HEAL-ONLY PUSH BACKS OFF (MOVE-R1, F3): the first wait and its ceiling. See `_pushCloud`.
+const NG_HEAL_WAIT_MIN = 60000, NG_HEAL_WAIT_MAX = 86400000;
 const NG_SETTINGS_TABS = [["flashcards", "Practice"], ["rolling", "Rolling"], ["reading", "Articles"], ["app", "General"], ["modifiers", "Your odds"], ["notifications", "Email"], ["shortcuts", "Keyboard"]];
 // IS THE TRAINING-DAY EMAIL LIVE? Not yet (v1.261.1). Owner, 12 Nov 2026, briefing answer U139 a:
 // "Hide it while the digest is off." The digest cannot send: the owner decided on 11 Nov 2026 that it
@@ -8607,6 +8609,28 @@ class Component extends DCLogic {
         // is remembered as nothing and, as before, forces a re-pull, which records what the cloud really holds.
         const snap = this._progressHost.cloudSnapshot(this), key = ngProgressCloudKey(snap), seen = this._cloudSeen;
         if (!this._pushesInFlight && seen && seen.userId === userId && seen.key === key) return;
+        // A HEAL-ONLY PUSH BACKS OFF (MOVE-R1, F3, ruled). A push is a HEAL when what this tab would send is exactly what
+        // it last sent and the cloud took (`_pushedLast`): nothing new here, the cloud went back. One cause is ordinary (a
+        // stale device's push landed over ours once) and one is not: a build older than v1.296.1 keeps its own first copy
+        // of `listItemAt` and `listOrderAt` for good (unknown top-level keys merge local-wins in `_progressExtras`) and puts
+        // it back on every pull, while every current device puts the newer one back on its next pull: before this, two
+        // builds on one account pushed at each other on every pull, for as long as the older one ran (the reader's
+        // old_carry.mjs: 2 pushes a round, every round). So the FIRST heal goes at once (a fresh device still finds the
+        // cloud healed), and the next only after a doubling wait, 1 min, 2, 4 … at most a day (NG_HEAL_WAIT_MIN/_MAX); any
+        // push that carries something new resets it. The older build itself goes quiet once the cloud holds its copy (its
+        // merge then equals the cloud), so a pair of builds settles into a trickle: MEASURED (old_hours.mjs, a pull by each
+        // every 30 s, or every 5 min, of simulated time) 8 + 8 pushes in the first hour,
+        // then one pair at each doubling: 13 + 13 in 24 hours, against 120 + 120 every hour before. Meanwhile the cloud holds the older copy between heals, so a third device
+        // signing in sees the moves as copies and the old orders until the next heal or its own next real change; no
+        // technique is lost on any device (each holds its own fields, and the merge only adds). Per tab, in memory: a
+        // reload starts with an immediate heal.
+        const last = this._pushedLast, heal = !!(last && last.userId === userId && last.key === key);
+        if (heal) {
+          const now = Date.now();
+          if (now < (this._healNext || 0)) return;
+          this._healWait = this._healWait ? Math.min(this._healWait * 2, NG_HEAL_WAIT_MAX) : NG_HEAL_WAIT_MIN;
+          this._healNext = now + this._healWait;
+        } else { this._healWait = 0; this._healNext = 0; }
         const seq = this._pushSeq = (this._pushSeq || 0) + 1, solo = !this._pushesInFlight;
         this._pushesInFlight = (this._pushesInFlight || 0) + 1; this._pushEvents = (this._pushEvents || 0) + 1;
         let ok;
@@ -8615,6 +8639,7 @@ class Component extends DCLogic {
         if (!ok && current()) {
           this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "push-failed";
         } else if (ok && current()) {
+          this._pushedLast = { userId, key };   // what the cloud took from this tab last: a later push of the same is a heal
           this._cloudSeen = solo && seq === this._pushSeq ? { userId, key } : null;
           // v1.280.2: what that copy holds is delivered: those answers leave the journal (`ngProgressReplay`). Only a push
           // that ran alone: two in flight can land in either order, and the rows are then proven at the next pull instead.
