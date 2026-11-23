@@ -502,8 +502,8 @@ const mutants = [
   // v1.253.0: an index row reopens its closed section (U11), checked by mouse.
   // v1.253.0: the line within half a pixel of the reader's top is the one held (the ✕'s 44px gone put a line at 73.86 against 74).
   ['anchor-line-strict-top', 'article-dashboard.spec.ts', '1152x900 opening Explore keeps the line at the reader.s top \\(30% down\\)', s => replace(s, 'return y >= top - 0.5 && y < was ?', 'return y >= top && y < was ?')],
-  // v1.253.0 (#354's review, finding 1): the rows of a card and film the background tap took away read closed.
-  ['land-away-row-open', 'index-reveal.spec.ts', 'after a background tap the Video', s => replace(s, 's.row?.setAttribute("data-collapsed", String(closed));', 's.row?.setAttribute("data-collapsed", String(!(s.part ? this.on(s.part) : sectionShown(this.app, s.type))));')],
+  // BGCLOSE (v1.294.0) RETIRED land-away-row-open with its subject (#354's review, finding 1: the rows of a card and film the
+  // background tap took away read closed): a press on the map closes the whole page now, and no part is "taken away".
   // v1.253.0 (#354's review, finding 3): the first open tile's ✕ takes the corner Answer for Points' hang reaches.
   ['tile-close-under-ask-hang', 'ask-line.spec.ts', 'first tile.s close keeps its presses', s => replace(s, 's.toggle.style.zIndex = meets(go, b) && !meets(shut, b) ? 6 : "";', 's.toggle.style.zIndex = "";')],
   // NOT KILLED (v1.253.0), recorded: no journey has a tile ✕ that both the hang and the card's own ✕ reach, so the guard has no live case.
@@ -515,10 +515,11 @@ const mutants = [
   ['prev-climbs-over-choices', 'deck-arrows-index.spec.ts', 'Previous stays on the face', s => replace(s, 'Math.max(22, Math.min(cardHeight - 22, middle))', 'Math.min(cardHeight - 22, middle)')],
   ['tease-drop-moves-closed', 'tease-width.spec.ts', 'Moves closed', s => replace(s, 'const drop = showCard && showHand && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;', 'const drop = showCard && this.teaseDrop?.[0] === card ? this.teaseDrop[1] : 0;')],
   // #354's review, round 7 (finding 1): a closed control only ever opens, and the parts' look is painted on every layout pass.
-  ['stale-label-turns-off', 'index-reveal.spec.ts', 'never turns the card layer off', s => replace(s, 'const back = a.restoreLanding?.();\n    if (!this.on(part)) a.setLayer(part, true, "reader");\n    else if (!back) { this.sync(); return; }', 'a.restoreLanding?.();\n    a.setLayer(part, !this.on(part), "reader");')],
-  ['parts-painted-at-sync-only', 'index-reveal.spec.ts', 'reads open again \\(1152', s => replace(s, 'for (const s of [...this.gameSections, this.sections.find(s => s.type === "videos")]) if (s) this.paintPart(s);', 'for (const s of this.gameSections) s.card.hidden = reference || this.on(s.part);')],
-  // Round 7's review (finding 3): a restore from the index row stops reading, so the question's clock runs.
-  ['row-restore-keeps-reading', 'index-reveal.spec.ts', 'clock runs', s => replace(s, '        this.interacting = false;\n        if (section.part && !this.on(section.part)) this.app.setLayer', '        if (section.part && !this.on(section.part)) this.app.setLayer')],
+  // BGCLOSE (v1.294.0): retargeted. `toggle` no longer asks restoreLanding (gone); the rule it pins is unchanged: it only ever opens.
+  ['stale-label-turns-off', 'index-reveal.spec.ts', 'never turns the card layer off', s => replace(s, 'if (!this.on(part)) a.setLayer(part, true, "reader");\n    else { this.sync(); return; }', 'a.setLayer(part, !this.on(part), "reader");')],
+  ['parts-painted-at-sync-only', 'index-reveal.spec.ts', 'reads open: no label, no row closed, the layer still on \\(1152', s => replace(s, 'for (const s of [...this.gameSections, this.sections.find(s => s.type === "videos")]) if (s) this.paintPart(s);', 'for (const s of this.gameSections) s.card.hidden = reference || this.on(s.part);')],
+  // BGCLOSE (v1.294.0) RETIRED row-restore-keeps-reading with its subject (round 7's review, finding 3: a restore from the index row
+  // stops reading): there is no row restore.
   ['index-reveal-lost', 'index-reveal.spec.ts', 'an article tile', s => replace(s, 'if (section.part) this.toggle(section.part); else this.toggleSection(section.type, true);', '')],
   ['video-title-plural', 'reading-contract.spec.ts', 'cannot repaint the opposite seat', s => replace(s, '["videos", "Video"], ["aka"', '["videos", "Videos"], ["aka"')],
   ['u110-cap-lost', 'stacked-width.spec.ts', 'stacked at 768px', s => replace(s, 'const cap = free.width < 1024 && 496;', 'const cap = 0;')],
@@ -560,6 +561,10 @@ const mutants = [
   // touch cannot land on the Questions label that took the card's place and reopen the card.
   // #331's review (R1), v1.254.1: Retry reopens the address as asked, its #section included.
   ['retry-drops-fragment', 'tab-title.spec.ts', 'keeps its #section on Retry', s => replace(s, 'this.open({ path: url.href, intent, push })', 'this.open({ path, intent, push })')],
+  // BGCLOSE (v1.294.0): this row's journey lost its premise. The label the ghost press landed on showed only for a card the map's
+  // tap had taken away and is never on screen now; legend-search keeps the claim's words ("does not reopen it") and can no longer
+  // fail for this mutant (run on v1.294.0's build, 19 Nov 2026: legend-search 2 of 2 green). The guard is still pinned: the same
+  // mutant is red in hidden-sections.spec.ts (1 of 15) at "the press brings the message back".
   ['ghost-press-reopens-card', 'legend-search.spec.ts', 'nowhere a node is revealed \\(768', s => replace(s, 'if (!event.detail || node.contains(downOn)) action(event);', 'action(event);')],
   // WINBAR1 (2026-11-11): the reader's measured answer "the bar falls under the grid" is what puts the bar away (claim 1 of winbar-fold).
   ['winbar-under-unpublished', 'winbar-fold.spec.ts', '574x760', s => replace(s, 'this.barUnder = !!bar && bar.left < lane.right && bar.right > lane.left;', 'this.barUnder = false;')],
@@ -591,7 +596,8 @@ const mutants = [
   // video message over the article).
   ['hidesec2-d1-stuck-leaving', hidesec, 'D1: a message that went quiet first', s => replace(s, '      (s?.control ? a._landFilmEl?.querySelector("[data-film-close]") : s?.toggle)?.focus({ preventScroll: true });\n    }\n    this.closeNotices();\n', '      (s?.control ? a._landFilmEl?.querySelector("[data-film-close]") : s?.toggle)?.focus({ preventScroll: true });\n    }\n')],
   ['hidesec2-d2-video-pin', hidesec, 'D2: Videos during play brings the film back', s => s, null, t => replace(t, 'this._readerGraded(),this.set("readerSection.videos"', '0,this.set("readerSection.videos"')],
-  ['hidesec2-d3-undo-restores-landing', hidesec, "D3: Moves' Undo", s => replace(s, 'a.setLayer(key, true, "undo"); this.interacting = false; this.sync(); this.layoutNow();', 'this.toggle(key); this.layoutNow();')],
+  // BGCLOSE (v1.294.0) RETIRED hidesec2-d3-undo-restores-landing with its subject (D3: Moves' Undo brings back Moves only, not a card
+  // the map tap took away): there is no such card and no restoreLanding for an Undo to call.
   ['hidesec2-d4-touch-not-passive', hidesec, "D4: the press window's touch listeners are passive", s => replace(s, '{ capture: true, passive: type.startsWith("touch") }', '{ capture: true, passive: false }')],
   ['hidesec2-d4-swallow-forever', hidesec, 'D4: a press swallowed in a closed place', s => replace(s, 'if (!this.swallowing || performance.now() - this.swallowing > 800) { this.swallowing = 0; return; }', 'if (!this.swallowing) return;')],
   ['hidesec2-d5-live-late', hidesec, "D5: the screen reader's live region", s => replace(replace(s, '    this.live = element("div", { role: "status", class: "ng-sr-only" });\n    app.wrapRef.current.append(this.live);', '    this.live = null;'), '    this.live.textContent = "";', '    if (!this.live) { this.live = element("div", { role: "status", class: "ng-sr-only" }); a.wrapRef.current.append(this.live); }\n    this.live.textContent = "";')],

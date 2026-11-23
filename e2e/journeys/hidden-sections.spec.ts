@@ -452,22 +452,11 @@ test.describe("1440 review", () => {
 
 test.describe("390 review", () => {
   test.use({ viewport: { width: 390, height: 844 }, hasTouch: true })
-  // D3: Moves' Undo turns on Moves only; a card a map tap took away for this landing stays away. Control: hidesec2-d3-undo-restores-landing.
-  test("D3: Moves' Undo brings back Moves only, not a card the map tap took away (390, by touch)", async ({ page }) => {
-    const j = await boot(page)
-    await press(page, j, "[data-hand-close]", true, "Moves' close")
-    await j.readerLayoutSettled()
-    const tap = await bareMap(page, { left: 0, top: 70, width: 390, height: 150 })
-    expect(tap, "premise: bare map above the stage").not.toBeNull()
-    await page.touchscreen.tap(...tap!)
-    await j.advance(50); await j.readerLayoutSettled()
-    expect(await page.evaluate(() => !!(window as any).__neural._landEl), "premise: the map tap took the card away").toBe(false)
-    await press(page, j, '[data-hidesec-notice="hand"] [data-hidesec-undo]', true, "Moves' Undo")
-    await j.readerLayoutSettled()
-    expect({ hand: await setting(page, "landHand"), card: await page.evaluate(() => !!(window as any).__neural._landEl) },
-      "Moves comes back; the card stays where the map tap sent it").toEqual({ hand: true, card: false })
-  })
-
+  // D3 RETIRED WITH ITS SUBJECT (BGCLOSE, v1.294.0): "Moves' Undo brings back Moves only, not a card the map tap took away". The map
+  // tap took the card away for this landing and left the rest, and Undo was not to restore that landing (control:
+  // hidesec2-d3-undo-restores-landing, an Undo that called `restoreLanding`). One press on the map closes the whole page now,
+  // Moves' message with it; there is no such card and no `restoreLanding` to call. That Undo turns on its own part only is
+  // "every part closes into its message in place…" above.
   // D4: a touch that starts in a just-closed place and becomes a drag has no click; the swallow it started must not outlive it.
   // Control: hidesec2-d4-swallow-forever.
   test("D4: a press swallowed in a closed place, which never clicks, leaves nothing armed (390, by touch)", async ({ page }) => {

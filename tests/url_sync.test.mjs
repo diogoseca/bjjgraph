@@ -170,14 +170,34 @@ test("VIDEO2: an unknown reader page waits for its head title; a late cache reco
   assert.equal(document.title, "Half Guard Top | BJJ Position Guide | BJJ Graph");
 });
 
+// BGCLOSE (v1.294.0): the root is a page the app knows the title of now (`NG_SITE_TITLE`: a press on the bare map closes a
+// page and writes the root's address with the site's own title). This test restored the root with the title the session
+// had OBSERVED there, and used a made-up one ("BJJ Graph — home") to show the observed title is what is written where the
+// app has none. At the root the app's own title wins now, as it always did on every page it knows (the last assertion
+// here): so the observed title is the site's, as a browser at the root observes it, and a stale one is corrected.
+// BGCLOSE-R1 (F1; the reader of PR #446): THE OBSERVED TITLE IS STILL THE ONLY ONE FOR A PAGE THE APP CANNOT NAME, and Practice's
+// way back uses it (`_exitStudyTo`: `_writeUrl(origin.path, {}, true, origin.title)`); without it that replace is refused (`if
+// (!title && state) return false`). This comment once sent the reader to "the VIDEO2 test above" for it; that test never passes an
+// observed title. The second case below is that guard: mutant U1 (`_writeUrl` without `|| priorTitle`) is red there.
 test("P1-E: Back can restore an already observed root URL and title through the shared writer", () => {
+  const SITE = "BJJ Graph - Free BJJ Study App and Technique Map";
   const b = browser("/?origin=practice"), a = app();
-  const origin = { path: location.href, title: "BJJ Graph — home" };
+  const origin = { path: location.href, title: SITE };
   a._pushUrl("/Positions/Mount/Top", {});
   assert.equal(a._writeUrl(origin.path, {}, true, origin.title), true);
   assert.equal(location.pathname, "/");
   assert.equal(location.search, "?origin=practice");
   assert.equal(document.title, origin.title);
+  a._pushUrl("/Positions/Mount/Top", {});
+  assert.equal(a._writeUrl(origin.path, {}, true, "a stale title"), true);
+  assert.equal(document.title, SITE, "the root keeps the site's own title, whatever was observed (BGCLOSE)");
+  // a page the app has no title for (a family page, not in the reader's cache): the observed title is what is written
+  a._pushUrl("/Positions/Mount/Top", {});
+  const family = { path: new URL("/Submissions/Americana?origin=practice", location.href).href, title: "Americana | BJJ Submission Family | BJJ Graph" };
+  assert.equal(a._pageTitle(family.path), null, "premise: the app has no title of its own for it");
+  assert.equal(a._writeUrl(family.path, {}, true, family.title), true, "the replace is made with the observed title");
+  assert.equal(location.pathname, "/Submissions/Americana");
+  assert.equal(document.title, family.title, "and the observed title is the one written");
   a._writeUrl("/Positions/Mount/Bottom", {}, true, origin.title);
   assert.equal(document.title, "Mount Bottom | BJJ Position Guide | BJJ Graph", "a known page keeps its canonical title");
 });
