@@ -471,3 +471,19 @@ test("junk records are dropped, never thrown on; no record means today's merge",
   const a = { S: L(["X", "Y"], 100) }, b = { S: L(["Y", "Q"], 120) };
   assert.deepEqual(ngMergeLists(a, b, {}, {}), ngMergeLists(a, b));
 });
+
+// MOVE-R1, F5: a stamp of 2^53 or more can never be beaten (`t + 1 === t` there), so a damaged one would freeze its cell or
+// record for good, and through a list's `t` every later stamp of the device. Each reader takes a SAFE integer only.
+test("a stamp of 2^53 or more, or not an integer, is dropped by every reader (it could never be beaten)", () => {
+  const big = 2 ** 53;
+  for (const t of [big, big + 2, 1e308, 1.5, -1]) {
+    assert.deepEqual(ngListMarksNormalize({ S: { X: [t, 1] } }), {}, "a cell stamped " + t);
+    assert.deepEqual(ngListOrderNormalize({ S: [t, ["X"]] }), {}, "a record stamped " + t);
+  }
+  assert.deepEqual(ngListMarksNormalize({ S: { X: [big - 1, 1] } }), { S: { X: [big - 1, 1] } }, "2^53 - 1 is still a stamp");
+  assert.deepEqual(ngListOrderNormalize({ S: [big - 1, ["X"]] }), { S: [big - 1, ["X"]] });
+  assert.equal(ngListsNormalize({ S: { name: "Monday", items: ["X"], t: big } }).S.t, 0, "a list's own t past 2^53 - 1 reads as 0");
+  assert.equal(ngListsNormalize({ S: { name: "Monday", items: ["X"], t: big - 1 } }).S.t, big - 1);
+  // and a later write beats what is left: a merge of a dropped damaged cell with a real one keeps the real one
+  assert.deepEqual(ngListMarksMerge({ S: { X: [big, 1] } }, { S: { X: [1795400000000, 0] } }), { S: { X: [1795400000000, 0] } });
+});

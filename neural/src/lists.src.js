@@ -76,7 +76,9 @@ export function ngListsNormalize(raw) {
     out[id] = {
       name: nglClamp(entry.name, NG_LIST_NAME_MAX) || "Class list",
       items: items,
-      t: Number.isFinite(t) && t > 0 ? t : 0,
+      // at most 2^53 - 1 (MOVE-R1, F5): `_listStamp` adds 1 to the newest `t`, and past that `n + 1 === n`, so one damaged
+      // stamp would freeze every later list, cell and record stamp of this device. No clock gets near it.
+      t: Number.isFinite(t) && t > 0 && t <= Number.MAX_SAFE_INTEGER ? t : 0,
     };
   }
   return out;
@@ -167,7 +169,9 @@ export function ngListMarksNormalize(raw) {
       const c = row[nid];
       if (!nid || NGLM_UNSAFE.indexOf(nid) >= 0 || !Array.isArray(c) || c.length < 2) continue;
       const t = c[0], f = c[1];
-      if (typeof t !== "number" || !Number.isFinite(t) || t <= 0 || (f !== 0 && f !== 1)) continue;
+      // a SAFE integer only (MOVE-R1, F5): at 2^53 or more `t + 1 === t`, so no later write could ever beat a damaged
+      // stamp, and the cell would be frozen for good (the reader's freeze.mjs). Every stamp a build writes is an integer.
+      if (!Number.isSafeInteger(t) || t <= 0 || (f !== 0 && f !== 1)) continue;
       (out[lid] = out[lid] || {})[nid] = [t, f];
     }
   }
@@ -356,7 +360,7 @@ export function ngListOrderNormalize(raw) {
     const rec = raw[lid];
     if (!lid || NGLM_UNSAFE.indexOf(lid) >= 0 || !Array.isArray(rec) || rec.length < 2) continue;
     const t = rec[0];
-    if (typeof t !== "number" || !Number.isFinite(t) || t <= 0 || !Array.isArray(rec[1])) continue;
+    if (!Number.isSafeInteger(t) || t <= 0 || !Array.isArray(rec[1])) continue;   // a safe integer only, as the cells (F5)
     const ids = [];
     for (const nid of rec[1]) {
       if (typeof nid !== "string" || !nid || ids.indexOf(nid) >= 0) continue;
