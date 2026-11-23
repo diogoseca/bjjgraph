@@ -17,6 +17,9 @@
 //   ML11 gameplan.js not in, and nothing said                          → "gameplan.js not in yet: nothing drawn, said once a show"
 //   ML12 three of a lit position's hand, not all of it                → "a lit position's moves are the hand it deals…"
 //   ML13 a light at its target steps down (the first cut's flicker)     → "a full light stays full, frame after frame"
+// S1-R1 (23 Nov 2026, the reader of PR #447 and the orchestrator's rulings 2 and 4):
+//   ML16 the look not tied to its row (`_shownRow` always yes)          → "the look ends with its row…"
+//   ML17 Last rolls not read (`_viewMode` dropped from `_shownRow`)      → "the look ends with its row…", at "Explore"
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { resolve, dirname } from "node:path";
@@ -99,6 +102,28 @@ test("never under a phone's open drawer (it is the screen there, and no name is 
   assert.equal(phone.frame(500), null, "a phone with its drawer open: nothing");
   const desk = lit({ W: 1440, drawer: true });
   assert.equal(desk.frame(500).k, 1, "a computer's drawer stands beside the map: lit");
+});
+
+test("the look ends with its row, or with Last rolls: the name goes, and the light fades out over 400 ms", () => {
+  const { a, frame } = lit();
+  a._viewMode = "history"; a._openRow = "c0"; a._shown.rid = "c0";
+  assert.equal(frame(400).k, 1, "premise: shown from an open row of Last rolls, lit");
+  a._openRow = null;   // the row pressed again: collapsed
+  assert.equal(a._shownNode(), null, "the row collapsed: the place is no longer shown (and so not named)");
+  const l = frame(100);
+  assert.ok(l && Math.abs(l.k - 0.75) < 0.02, "the game is still held: out over 400 ms (100 ms: 0.75, " + (l && l.k) + ")");
+  const b = lit();
+  b.a._viewMode = "history"; b.a._openRow = "c0"; b.a._shown.rid = "c0";
+  assert.equal(b.frame(400).k, 1, "premise: lit again");
+  b.a._viewMode = "explore";   // the drawer switched to Explore
+  assert.equal(b.a._shownNode(), null, "Last rolls left for Explore: no longer shown");
+  const c = lit();
+  c.a._viewMode = "history"; c.a._openRow = "c0"; c.a._shown.rid = "c0";
+  assert.equal(c.frame(400).k, 1, "premise: lit again");
+  c.a._session = { keys: [] };   // Practise here: Master the game takes the drawer
+  assert.equal(c.a._shownNode(), null, "a study surface over Last rolls: no longer shown");
+  const d = lit();
+  assert.equal(d.frame(400).k, 1, "a place shown with no row (a test's own call) is not tied to one");
 });
 
 test("it comes in over a quarter of a second on the frame clock", () => {

@@ -26,8 +26,10 @@ import { journey } from "../dsl"
  *   J4  no hole for the moves                                         → the same test, at "the moves it deals stand clear"
  *   J5  the light over a running game (`_lightOf` without `paused`)   → "…the drawer shut by Esc…" at "the game runs: the light
  *                                                                        is out", and the phone's at "…the light goes"
- *   J6  the light under a phone's open drawer                         → "on a phone…" at "the drawer opened over the look: no
- *                                                                        light under it"
+ *   J6  the light under a phone's open drawer                         → (19 Nov) "on a phone…" at "the drawer opened over the
+ *       look: no light under it". NOT A KILL HERE SINCE S1-R1: the drawer a player opens over a look opens on Explore, which
+ *       ends the look (ruling 2), so no frame has a place shown under a phone's open drawer; the guard stays (`_lightOf`),
+ *       and the unit ML7 holds it
  *   J7  the planner's bundle not in, and nothing said                 → "the planner's bundle not in yet…" at "said once"
  * WHERE IT MEETS v1.294.0 (BGCLOSE: one press on the bare map closes the page and the address goes to the root), on the merged
  * tree, 23 Nov 2026. Nothing of the light's own decides either; each is pinned here because the light rides both:
@@ -94,13 +96,13 @@ async function rolled(page: Page, touch: boolean, beforeNavigate?: (p: Page) => 
   return j
 }
 /** Last rolls open, Mount's row pressed, "Show on the map" pressed */
-async function show(page: Page, touch: boolean) {
+async function show(page: Page, touch: boolean, key = "Mount|Top") {
   await dismissReward(page, touch)
-  await press(page, ".ng-logo", "open the drawer", touch)
+  if (!(await page.evaluate(() => !!(window as W).__neural.deckShown))) await press(page, ".ng-logo", "open the drawer", touch)
   // (the drawer opens again on the view it was left on: Last rolls' rows are then already there)
-  if (!(await page.locator('[data-hist="Mount|Top"]').first().isVisible())) await press(page, '[data-view="history"]', "Last rolls", touch)
-  if (!(await page.locator('[data-hist="Mount|Top"] + .ng-hact [data-hist-show]').first().isVisible())) await press(page, '[data-hist="Mount|Top"]', "the row of Mount, top", touch)
-  await press(page, '[data-hist="Mount|Top"] + .ng-hact [data-hist-show]', "Show on the map", touch)
+  if (!(await page.locator(`[data-hist="${key}"]`).first().isVisible())) await press(page, '[data-view="history"]', "Last rolls", touch)
+  if (!(await page.locator(`[data-hist="${key}"] + .ng-hact [data-hist-show]`).first().isVisible())) await press(page, `[data-hist="${key}"]`, `the row of ${key}`, touch)
+  await press(page, `[data-hist="${key}"] + .ng-hact [data-hist-show]`, "Show on the map", touch)
 }
 const state = (page: Page) => page.evaluate(() => {
   const a = (window as W).__neural
@@ -194,6 +196,16 @@ const ink = (page: Page) => page.evaluate(() => {
   return { L: { k: L.k, place: L.place, holes: L.holes.length, moves: L.holes.filter((h: W) => !h.place).map((h: W) => h.i), marks: L.marks.length }, plain, holes, name, nameOut, hand: [...hand] }
 })
 
+/** each frame the light draws from now on: [paused, a film playing, its strength, a place still shown] (the light's own
+ *  draw, wrapped once a page: what each frame of the running app did, whatever pumps it) */
+const watch = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural; a.__lk = []
+  if (a.__lkw) return
+  a.__lkw = 1; const f = a._drawLight.bind(a)
+  a._drawLight = (ctx: W, F: W) => { f(ctx, F); a.__lk.push([a.paused ? 1 : 0, a._replay ? 1 : 0, a._lastLight ? +a._lastLight.k.toFixed(3) : 0, a._shown ? 1 : 0]) }
+})
+const watched = (page: Page) => page.evaluate(() => { const a = (window as W).__neural; a.advance(1000 / 60); return a.__lk as number[][] })
+
 for (const [label, vp] of [["mouse 1440x900 dpr 1", { viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1 }],
   ["mouse 1440x900 dpr 2", { viewport: { width: 1440, height: 900 }, deviceScaleFactor: 2 }],
   ["touch 390x631 dpr 2", { viewport: { width: 390, height: 631 }, deviceScaleFactor: 2, hasTouch: true, isMobile: true }]] as const) {
@@ -252,6 +264,32 @@ test.describe("mouse 1440x900", () => {
     expect(await light(page), "and nothing is lit").toBeNull()
   })
 
+  test("on a computer the look ends with its row, or with Last rolls: the name goes at once, and the light goes out over 400 ms with the game still held", async ({ page }) => {
+    const j = await rolled(page, false)
+    await show(page, false)
+    await j.advance(1200)
+    expect([(await light(page))?.k, await named(page)], "premise: lit and named").toEqual([1, true])
+    await watch(page)
+    await j.advance(17)   // a frame now, so the first frame after the press is the press's own
+    await press(page, '[data-hist="Mount|Top"]', "the row of Mount, pressed again: collapsed", false)
+    const f = await watched(page)
+    expect(await named(page), "the row collapsed: the place is no longer named").toBe(false)
+    const out = f.find((r) => r[3] === 0)
+    expect(out && out[0], "premise: the frame that let the place go, with the game still held").toBe(1)
+    expect(out![2] > 0 && out![2] < 1, `the light fades: neither full nor gone on the first frame after (${out![2]})`).toBe(true)
+    await j.advance(450)
+    expect(await light(page), "out after 400 ms").toBeNull()
+    // shown again, then the drawer switched to Explore
+    await show(page, false)
+    await j.advance(1200)
+    expect([(await light(page))?.k, await named(page)], "premise: lit and named again").toEqual([1, true])
+    await press(page, '[data-view="explore"]', "Explore", false)
+    await j.advance(17)
+    expect(await named(page), "Last rolls left for Explore: the place is no longer named").toBe(false)
+    await j.advance(450)
+    expect(await light(page), "and the light is out").toBeNull()
+  })
+
   test("under reduced motion the light is full on the first frame after the press", async ({ page }) => {
     await page.emulateMedia({ reducedMotion: "reduce" })
     const j = await rolled(page, false)
@@ -306,7 +344,7 @@ test.describe("touch 390x631", () => {
     expect([await named(page), await light(page)], "nor does either come back inside the camera's 7 s").toEqual([false, null])
   })
 
-  test("on a phone the light lasts as long as the look; the press that ends it puts the light out and leaves the name; the drawer opened over a look has no light under it", async ({ page }) => {
+  test("on a phone the light lasts as long as the look; the press that ends it puts the light out and leaves the name; the drawer opened over a look opens on Explore, which ends the look: no name, no light", async ({ page }) => {
     const j = await rolled(page, true)
     await show(page, true)
     expect(await state(page), "premise: a look: the drawer shut, the clock held").toMatchObject({ drawer: false, paused: true, look: true })
@@ -319,14 +357,16 @@ test.describe("touch 390x631", () => {
     await j.advance(450)
     expect(await light(page), "the roll runs: the light goes").toBeNull()
     expect(await named(page), "and the place stays named for the camera's hold (L3-R2)").toBe(true)
-    // a second look, and the drawer opened over it inside the camera's hold: the place is still shown, never lit under it
+    // a second look, and the drawer opened over it inside the camera's hold: it opens on its home view, Explore, and Last rolls
+    // left ends the look (S1-R1, ruling 2): the place is no longer shown, so nothing is lit under the drawer
     await show(page, true)
     await j.advance(1200)
     expect((await light(page))?.k, "premise: lit again").toBe(1)
     await press(page, ".ng-logo", "open the drawer over the look", true)
     await j.advance(450)
     expect(await state(page), "premise: the drawer is open").toMatchObject({ drawer: true })
-    expect(await page.evaluate(() => !!(window as W).__neural._shownNode()), "premise: the place is still shown (the camera's hold)").toBe(true)
-    expect(await light(page), "the drawer opened over the look: no light under it").toBeNull()
+    expect(await page.evaluate(() => (window as W).__neural._viewMode), "premise: it opens on its home view").toBe("explore")
+    expect([await page.evaluate(() => !!(window as W).__neural._shownNode()), await named(page)], "Last rolls is not the drawer's view: the look is over, the place neither shown nor named").toEqual([false, false])
+    expect(await light(page), "and nothing is lit under the drawer").toBeNull()
   })
 })
