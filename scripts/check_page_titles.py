@@ -41,6 +41,9 @@ for (const n of wire.nodes) {
 }
 for (const c of concepts) add(c.id, c.cat);
 for (const s of systems) add(s.id, 'System');
+// The site's root (BGCLOSE, v1.294.0): the app writes this title itself when a press on the bare map closes a page and
+// the address goes to "/". Its built page is index.html (`compare`).
+rows.push({path: '/', kind: 'site root', title: app._pageTitle('/')});
 if (app.nodes.length !== wire.nodes.length * 2) throw Error('Derived node coverage changed');
 console.log(JSON.stringify({wireNodes: wire.nodes.length, derivedNodes: app.nodes.length, rows}));
 """
@@ -85,7 +88,7 @@ def compare(tree, rows):
         raise ValueError('Title coverage is zero')
     failures = []
     for row in rows:
-        path = tree / (row['path'].lstrip('/') + '.html')
+        path = tree / ((row['path'].lstrip('/') or 'index') + '.html')
         if not path.is_file():
             failures.append(f"{row['path']}: built page missing")
             continue

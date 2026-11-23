@@ -35,7 +35,7 @@ import { journey } from "../dsl"
  *   M4  drop `_handShown()` from the digit gate             → "independent" (`1` opens a sheet)
  *   M5  drop `_layerDockEl` from attachInput's list          → "sticky" (clickByMouse on the dock)
  *   M6  drop `this._bandBot = null` in setLayer              → "geometry" (band cache kept)
- *   M7  `_tapBackground` calls setLayer instead of clearing  → "background ladder"
+ *   M7  `_tapBackground` calls setLayer instead of clearing  → "a press on the map is a gesture" (was "background ladder")
  *   M8  the skip reason is not "collapsed"                   → "sticky" (reason)
  *   M9  `_dockLandCard` ignores the datum when the hand hides → "geometry" (card stays at 236)
  *   M10 drop the 44px box on the phone glyphs                → "phone"
@@ -389,18 +389,23 @@ test("a saved \"off\" for the retired controls strands nobody: the article, the 
   expect({ article: seen.article, map: seen.map, winbar: seen.winbar }, "the article, the map and the win bar all show").toEqual({ article: true, map: true, winbar: true })
 })
 
-test("the background ladder stays per-landing: a tap closes THIS card, the next landing has one", async ({ page }) => {
+// BGCLOSE (v1.294.0): "the background ladder stays per-landing: a tap closes THIS card, the next landing has one". The ladder is
+// one press now and it closes the whole page, so the next landing is no longer a hop from the hand it left (there is no
+// hand): it is the place's own node, landed on again. The claim kept is the one this file is about: a press on the map is
+// a gesture, never a preference (M7: `_tapBackground` calls setLayer instead of clearing → red here).
+test("a press on the map is a gesture, not a preference: it closes this page, the layers stay on, and the next landing has its card", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural._tapBackground())
   await j.advance(300)
-  const s1 = await read(page)
-  expect(s1.card, "tap 1 closes the card").toBe(false)
-  expect(s1.keys.card, "…as a gesture, not a preference").toBe(true)
+  const s1 = await page.evaluate(() => { const a = (window as any).__neural; return { card: !!a._landEl, roam: !!a._roam, keys: { card: a.get("landCard", true), film: a.get(a.get("readerBook", true) ? "readerSection.videos" : "landFilm", true), hand: a.get("landHand", true) } } })
+  expect([s1.card, s1.roam], "the press closes the card with the page").toEqual([false, true])
+  expect(s1.keys, "…as a gesture, not a preference: every layer's key is still on").toEqual({ card: true, film: true, hand: true })
   // v1.253.0: the shelf it checked survives is retired (U114 a); the per-landing claim is the card's, below.
   await expect(page.locator("[data-layer-show]")).toHaveCount(0)
-  await hop(page, j)
+  await page.evaluate(() => { const a = (window as any).__neural; a.stageRollAt(a.currentPos) })
+  await j.advance(2000)
   const s2 = await read(page)
   expect(s2.card, "the next landing has its card").toBe(true)
 })
