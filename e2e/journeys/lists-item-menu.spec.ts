@@ -5,12 +5,14 @@ import { journey } from "../dsl";
  * AN ITEM'S OWN MENU (LISTS-MENU-2 part 2). The owner, 23 Nov 2026: "tat x icon on the list items is very consufing too,
  * make it a 3 dots icon ads well which includes sharing, remove from list, move up, move down (the list order)".
  *   · Each item's × is a ⋮ ([data-list-item-menu]), 44px on a phone; ▶ stays on the row (44px on a phone too, its chip
- *     drawn inside). Its menu ([data-list-item-menu-open]): Share · Move up · Move down · Remove from list, Remove last in
+ *     drawn inside). Its menu ([data-list-item-menu-open]): Share · Move up · Move down · Move to… · Remove from list
+ *     (Move to… since the move step, LISTS-R Slice 2: lists-move.spec.ts presses it), Remove last in
  *     the warning ink, Move up and Move down disabled at the list's ends (shown, and skipped by the keys).
  *   · Share shares the technique's own page: `location.origin + _nodeUrlPath(idx)`.
  *   · Remove from list gains the Undo row ([data-list-undo-remove]), which puts the item back at its place.
- *   · Move up / Move down reorder the list ON THIS DEVICE ONLY (ORDER-OK: the rule that syncs an order lands with the move
- *     step's field); a reorder writes no stamp and does not bump the list's `t` (the panel's recency order).
+ *   · Move up / Move down reorder the list and write its ORDER RECORD (`listOrderAt`, ORDER-OK, landed with the move step),
+ *     so the order syncs; a reorder does not bump the list's `t` (the panel's recency order). (Until v1.298.0 it reordered on
+ *     this device only.)
  * Every press is a player's: the mouse at 1440 (`clickByMouse`), a touch tap at 390x631 at a measured centre, or keys.
  * Lists are SEEDED through the app's own model (setup only).
  *
@@ -77,7 +79,7 @@ test("1440 by mouse: an item's ⋮ offers Share, Move up, Move down, Remove from
   await j.clickByMouse(dotsSel(a, S.id), "the first item's ⋮");
   const open = page.locator(`[data-list-item-menu-open="${a}"]`);
   await expect(open).toBeVisible();
-  expect(await open.locator("[data-list-menu-item]").allTextContents()).toEqual(["Share", "Move up", "Move down", "Remove from list"]);
+  expect(await open.locator("[data-list-menu-item]").allTextContents()).toEqual(["Share", "Move up", "Move down", "Move to…", "Remove from list"]);
   await expect(page.locator(itemSel(a, "up")), "the first item cannot move up").toBeDisabled();
   await expect(page.locator(itemSel(a, "down"))).toBeEnabled();
   // Move down: the order changes HERE, with no stamp and no new `t`
@@ -85,7 +87,9 @@ test("1440 by mouse: an item's ⋮ offers Share, Move up, Move down, Remove from
   let now = await list(page, S.id);
   expect(now.items, "it moved down one place").toEqual([b, a, c]);
   expect(now.t, "the list's recency is untouched (it does not jump in the panel)").toBe(S.t);
-  expect(await page.evaluate(() => "listOrderAt" in ((window as W).__neural._progressBlob() || {})), "no order stamp yet: this device only").toBe(false);
+  const rec = await page.evaluate((lid) => ((window as W).__neural._progressBlob().listOrderAt || {})[lid] || null, S.id);
+  expect(rec && rec[1], "the reorder is recorded, the list's whole order (it syncs)").toEqual([b, a, c]);
+  expect(rec && rec[0] > S.t, "…stamped later than the list's last touch").toBe(true);
   await expect(page.locator(`[data-list-items="${S.id}"] [data-list-item]`).nth(1)).toHaveAttribute("data-list-item", a);
   // the LAST item cannot move down; Move up works
   await j.clickByMouse(dotsSel(c, S.id), "the last item's ⋮");
@@ -176,7 +180,7 @@ test.describe("at 390x631 by touch", () => {
     await tapAt(page, dotsSel(d, S.id));
     const m = await boxOf(page, `[data-list-item-menu-open="${d}"]`);
     expect(m.x >= 0 && m.y >= 0 && m.x + m.width <= 390 && m.y + m.height <= 631, "the menu is whole on the screen: " + JSON.stringify(m)).toBe(true);
-    for (const k of ["share", "up", "down", "remove"]) expect((await boxOf(page, itemSel(d, k))).height, k + " is a thumb tall").toBeGreaterThanOrEqual(44);
+    for (const k of ["share", "up", "down", "move", "remove"]) expect((await boxOf(page, itemSel(d, k))).height, k + " is a thumb tall").toBeGreaterThanOrEqual(44);
     await tapAt(page, itemSel(d, "up"));
     expect((await list(page, S.id)).items).toEqual([a, b, d, c]);
     // Remove by touch, Undo by touch
