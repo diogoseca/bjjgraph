@@ -20644,3 +20644,311 @@ state it tried, at four sizes, on three page kinds), MERGE AFTER 7 fixes, all at
   (the queue and the close in one task, then 2.5 s).
 - Whether a close or a Back counts as a PostHog page view stays unproven: the library's default says no, an older line of
   this archive says otherwise (v1.104.5), and no test build carries a key.
+## v1.295.0 — The light: "Show on the map" lights the place it shows (L2b S1; the owner's U202 a, U173 d, U175; 19 Nov 2026)
+
+**What a player sees.** In Last rolls, "Show on the map" flew to the place and named it (v1.293.0); nothing tied the name
+to its orb at a glance (the L3 ruling: the map "names the shown place but does not yet LIGHT it"). Now, for as long as
+the place is named and the game is held, the map steps back under one dark layer and the place's two orbs and every
+move it deals stand clear of it. On a phone that is the whole look; on a computer the camera's 7 s hold. The press that
+ends a phone's look lets the roll run: the light goes, and the name stays for the camera's hold (L3-R2, untouched).
+
+**The owner's words and the rulings.** U202 a (17 Nov): "The list is where you answer; the map shows where." U173 d:
+"i liked the spotlight/dimming a little then restores after the necessary thing but not as much as B maybe at most 50%
+of that effect". U175: "the nodes connected to or outbound from this node should stand clear alongside the names, the
+goal dots, the pair, its line". Design round 6 settled the strength (one layer of rgb(7, 8, 16) at 40%, half of B) and
+his rule as drawn (`design/practice-r6/REPORT-7-his-rule.md`). The orchestrator ruled L2b Part A's point (c) on
+19 Nov "as you recommend, all five" (`reports/mapshows.md`): the place's pair in a soft hole with a faint halo; every
+move standing clear, a hole while drawn 2.5 px wide or more, a 4 px mark above the layer below that (gold only where
+the map's own outside line is gold and the card is not face down); in over 250 ms, out over 400 ms, on the clock that
+moved more, at once under reduced motion; never over a running game; derived each frame, nothing stored.
+
+**How.**
+- `neural/src/map-light.src.js` (new, deferred, in gameplan.js through `gameplan.src.js`'s exports): `NG_LIGHT`,
+  `ngLightPlan` (a hole or a mark, pure), `ngLightAlpha` (two fills that compose to the layer's 40%), `ngLightDraw`.
+- `app.src.jsx`: `_lightOf` (what is lit: the place `_shownNode` holds, only while `paused`, never under a phone's open
+  drawer), `_lightMoves` (the hand `_dealtOpts` deals there, per place, ruleset and graph), `_drawLight` (the fade, the
+  cold path, `_lastLight`), and ONE call in `draw()` after the pulse head and before the first name.
+- **The holes are cut by clips, one per hole per fill, intersected.** One even-odd path with every hole in it fills the
+  overlap of two holes again (inside three shapes is odd), and a place's moves overlap at every zoom the look uses. A
+  second canvas was measured on 16 Nov at +5 to +13 ms a frame: out.
+- **A fault found by a unit mutant passing for the wrong reason.** The first cut's fade stepped down whenever it did not
+  step up, so a full light lost a frame's worth (1 to 0.96 at 60 Hz) and won it back the next: a flicker. ML6 ("the light
+  over a running game") stayed green because the fault dropped the light anyway; the fade now holds at its target, and
+  "a full light stays full, frame after frame" pins it (ML13).
+- A film is not lit with no clause of the light's own: it takes the camera's lease (`_replayFrame`), which ends the
+  shown place. The pulsing session ring for a lit place (ruling (c), point 2) is not drawn in S1: Last rolls never shows
+  a place while a Master the game session's rings are up (the view change retires the session); it lands with S2, where
+  a cloze's place is both.
+
+**Tests.** `tests/map_light.test.mjs` (13; the rules, and the light's when and how on the app class with this payload).
+`e2e/journeys/map-light.spec.ts` (7; by the ink against a control frame drawn at the same instant with nothing shown:
+1440 at dpr 1 and 2 by mouse, 390x631 at dpr 2 by touch).
+
+**Mutants** (19 Nov, under the lock, each alone; the clean files green before and after; the served bundle byte-identical
+after each batch's clean rebuild):
+- Unit (`tests/map_light.test.mjs`), 07:02 to 07:03: a control (a pale mark one step bluer) green 13 of 13; ML1 a narrow move a
+  hole, ML2 the place a mark, ML3 a face-down move's mark gold, ML4 a hole without its 12 px floor, ML5 each fill at the
+  whole alpha, ML6 the light over a running game, ML7 under a phone's open drawer, ML8 the fade at once, ML9 the fade
+  kept under reduced motion, ML10 a light that never goes out, ML11 the cold path silent, ML12 three of the hand lit,
+  ML13 the first cut's fade at its target: all red at their named tests (ML6 only after the fade's fix, above).
+- Journey (`e2e/journeys/map-light.spec.ts`), 07:34 to 07:58: a control green 7 of 7; J1 the layer at 0.8 (red 3 of 3
+  at "the map steps back to 40%": a plain point read 31,43,64 against a control of 128,185,255); J2 no hole for the
+  place (3 of 3 at "the place's orbs are not dimmed", 73,92,132 against 116,149,208); J3 the layer after the names (3 of
+  3 at "the place's name is not dimmed"); J4 no hole for the moves (3 of 3); J5 the light over a running game (red on
+  the desktop's Esc step and the phone's look); J6 under a phone's open drawer; J7 the cold path silent ("said once").
+  J2 and J3 were first red at a premise and at 390 only: the place's orbs are now read where the frame draws them and
+  its name outside every hole, and both are red 3 of 3 at their own steps.
+- **Not a kill in the journey, said in its header:** the fade kept under reduced motion (a real press takes some tenths
+  of a second, which the fade may already have run through); its killer is the unit.
+
+**Runs (local, under the lock).** `map-light.spec.ts` 7 of 7; the six journey files that reach "Show on the map"
+(map-light, last-rolls-places, history-replay, pane-history, newcomer-story, keyboard) 93 of 93 on a clean build with
+the served app folders emptied first (07:48 to 07:52). The full suites are the PR's.
+
+**Frame time** (the committed script, `--ab light`: no light against the light at the seat with every dealt move lit;
+Standing Position, top, 36 dealt; paired frames, 1,200 pairs, the median of B − A; 4x CPU throttle): 390x631 (a phone's
+canvas at dpr 2) held +0.6 ms (p95 9.3), dragged +0.1 ms (p95 6.8), 27 holes lit, frames without the light 7.2 and 5.6
+ms. 1440x900 (dpr 1): held +0.7 ms (p95 15.3), dragged +0.4 ms (p95 10.0), 25 holes, frames without the light 7.3 and
+7.1 ms. The clips cost what the earlier measure of a hard layer with soft rings did (+0.4 to +0.6, 16 Nov): no figure here
+is a second canvas's.
+
+**Bytes** (this tree, the served app folders emptied first): eager gzip 377,381 B, +510 on dev's 376,871 (+3,908 of
+5,000 against the baseline 373,473); eager raw 1,467,920 B (+1,260); deferred 550,412 B (+1,763 on 548,649), the
+ceiling moved to it in its own commit (549,777 to 550,412; the owner's limit is 600,000 since U207 a). The first-hand
+core figure is the PR's (a seat's site copy is an older build's pages).
+
+**On the merged tree (23 Nov 2026, after v1.293.5 and v1.294.0 landed; dev 70c45db51).** The first commit after the merge
+is PAY-L3: both gzip baselines at dev v1.294.0's own level, read in dev's push-run e2e-full 44542416101 (eager 373,473 to
+377,432 B; first-hand core 392,987 to 396,890 B), the orchestrator's call under the owner's standing rule (Q7, D-327).
+Then S1 measured alone on top: eager gzip 377,925 B, +493; deferred 550,073 B, under its ceiling, which does not move.
+v1.294.0 (one press on the bare map closes the page, the address the root) meets the light in two places, and nothing of
+the light's own decides either; both are pinned in `map-light.spec.ts` because the light rides them:
+- the press that ends a phone's look is consumed (`attachInput`, `closing`), so it closes nothing: the page, its address
+  and its card stay; the light goes and the name stays for the camera's hold (L3-R2). J8 (the press not consumed) is red
+  at "the press that ends the look closes nothing";
+- the press after it, on the bare map, closes the page, and the close takes the camera for free roam (`_enterRoam`), so
+  `_shownNode` lets the place go: the name and the light go with the page and do not come back inside the 7 s; at 1440
+  the press after Esc does the same. J9 (the name kept by any camera hold, not its own) is red at "the name goes with it"
+  in both tests.
+A control first (8 of 8 green); the six files that reach "Show on the map" and v1.294.0's own spec, 123 of 123 green.
+
+**S1-R1 (23 Nov 2026; the reader of PR #447, MERGE AFTER 3 FIXES, and the orchestrator's rulings 2 and 4).**
+- **The light belongs to the look (ruling 2).** On a computer, collapsing the row or switching the drawer to Explore left
+  the place lit and named for the rest of the camera's 7 s. Now the row it was shown from rides the show, and the look
+  ends when that row is collapsed, when Last rolls is left, or when the hold ends; the name goes with it and the light
+  fades over 400 ms (`_shownRow`, read every frame). On a phone the drawer a player opens over a look opens on Explore,
+  which ends it, so J6's case (a light under a phone's open drawer) is no longer reachable; the unit ML7 holds it.
+- **Out at once when the game starts again (ruling 4).** A move played, ▶ on a row, a film and the countdown let go each
+  left the layer fading over the running roll for 17 to 23 frames; now the strength is 0 on the first running frame. The
+  fade is for the ways out that leave the game held. ML6 and J5 (`paused` dropped from `_lightOf`) now survive, covered
+  twice: the new line holds the same claim, and ML14 and JR4 are its killers.
+- **The fade in waits for the planner (finding 5):** with gameplan.js late, the strength is held at 0 (ML15).
+- **The journey reads every move the place deals (finding 3):** every dealt move on the visible map lit and nothing else,
+  the ruleset switched while lit, a second place after the first, the marks pulled back, the holes' soft edge (one fill:
+  0.23 of the way to rgb(7, 8, 16), not 0.4). The reader's R1, R2, R3, R5, R6 each red at its step after a control (14 of
+  14); R4 (the partner orb) is equivalent where measured, the pair inside one hole; it needs a frame closer than the
+  roll's zoom.
+- **The deferred ceiling (finding 1):** 550,412 was S1's measure before dev's merge took 339 B out of reader.js; now
+  550,073 B, measured again on the final tree.
+- Units 16 of 16 (ML14 to ML17 red, a control green); `map-light.spec.ts` 14 of 14, JR2a, JR2b and JR4 red; the seven
+  files that reach "Show on the map", 129 of 129. Eager gzip 377,995 B (+563 on PAY-L3's 377,432).
+
+
+## v1.295.1 — A list's actions behind three dots: Rename · Duplicate · Share link · Delete (LISTS-MENU; the owner, 23 Nov 2026)
+
+**Why.** The owner, 23 Nov, after trying v1.293.5's pencil on production: "the pencil edit isn't ideal, maybe a cogwheel
+or what do you suggest?, i may want to delete it and the pencil edit just gives me that option. what about 3 vertical
+dots? i think that's more like list options for this, which is like CRUD, so duplicate, share, rename, delete, anything
+else makes sense?". The orchestrator ruled on his words: one ⋮ control (not a cogwheel, which reads as settings); a press
+on the name lights the list (the open question U208, its option a).
+
+**What changed** (`renderLists`, `openListMenu`, `_listMenuChoose`, `duplicateList` in `neural/src/app.src.jsx`):
+- **One control on a list's row, ⋮** (`[data-list-menu]`), always visible, in Share's old ink; 44 px on a phone (its box
+  in the row's empty right padding, where the × sat), 24 px on a desktop. The pencil, the Share icon and the two-step ×
+  are gone from the row.
+- **Its menu** (`[data-list-menu-open]`): Rename · Duplicate · Share link · Delete, Delete last and in its own ink.
+  - It is the star's picker's kind of thing and lives in the picker's own slot (`_pickEl`, `_pickAnchor`, `_pickAway`).
+    So every place that closes an anchored chooser closes it too, by the one seam `closeListPicker`: Esc's ladder, a
+    press outside, the pane's visibility, a hand resolving, a resize across the phone's breakpoint, an unmount.
+  - Placed by the picker's rule (`_placeListPicker`: above if there is room, clamped whole to the screen, never over the
+    hand).
+  - Root plane, z 90, a sibling of the wrap, so `attachInput`'s capture never sees its presses; no early-return entry
+    (the mouse journeys press it).
+  - Keys: a key opens it on its first item; ↑ ↓ (wrapping), Home, End; Enter chooses; Esc and Tab close it with focus
+    back on ⋮; Esc does not also close the pane. A second press of ⋮ shuts it.
+- **Rename** opens the name editor (focused, name selected); Enter or Esc hands focus back to ⋮.
+- **Duplicate** makes "<name> copy" (the base cut so the whole fits 60 characters), the same techniques in the same order,
+  stamped now, opened in its name editor. It refuses nothing: no cap on the number of lists (ruled).
+- **Share link** is `shareList`, unchanged.
+- **Delete is one press**, then the 90-second Undo (ruling 1). The two-step "Delete?" guarded a 24 px × that sat 12 px
+  from Share; in a menu Delete is already the second deliberate press, set apart from Share link, and the Undo puts the
+  list back exactly.
+- **The name is text**: a press on it, or anywhere on the row but the count and ⋮, lights the list. The count opens the
+  techniques; on a phone it is a 44 px box (ruling 4).
+- Telemetry, counts only: `neural_list_renamed` `via: "menu"`; `neural_list_duplicated {items}`; `neural_list_deleted
+  {items, via}` (there was no delete event); `neural_list_menu_opened {lists}`.
+
+**Measured** (the orchestrator's probe on this build, a 2 px grid over a list row with `elementFromPoint`; "lights" is the share
+of the row where a press lights the list, the name included now; before = v1.294.0, the pencil's row):
+
+| | v1.293.3 | v1.294.0 (pencil) | this build (⋮) |
+|---|---|---|---|
+| 390x631, lights: long · short name | 62% · 68% | 41% · 41% | **73% · 72%** |
+| 1440, lights: long · short name | 62% · 70% | 61% · 65% | **90% · 90%** |
+| 390x631, the name's width: long · "Thursday open mat" | 168 · whole | 114 · cut | **180 · whole (126)** |
+| 390x631, the row's controls | share 24, × 24, count 32x24 | pencil, Share, × 44; count 32x24 | **⋮ 44, count 44x44** |
+
+The menu at 390x631 opens above its row and whole on the screen (x 110, 272 x 239), and for the LAST of nine lists at the
+drawer's foot too (its top at 183). At 1440 it sits beside the row (x 177, y 246). Mutant N8 (the menu placed under ⋮,
+unclamped) is red at the last row's journey.
+
+**The journeys.** `e2e/journeys/lists-menu.spec.ts` (new):
+- 1440 by mouse: the row's one control and each item doing its thing;
+- the name's press lights (no control answers a point outside its box; the name is not a control);
+- the menu's keys, and its closes;
+- Duplicate at the 60-character limit;
+- 390x631 by touch: the count and ⋮ as 44 px targets, every item by touch, and the menu whole on screen for a long
+  list's LAST row, both at the drawer's foot and in a scrolled drawer (ruling 5).
+
+Rewritten to reach the same things as a player does now:
+- `lists-rename.spec.ts`: Rename through ⋮; the pencil-era half moved to `lists-menu.spec.ts`;
+- `share-lists.spec.ts`: Share link through ⋮; "deleting a list is one press in its menu, and can be taken back", with
+  the ledger row `core-080` retitled with it. The removed assertion is "Delete sits ≥10 px clear of Share": neither is on
+  the row any more, and "Delete is the menu's last item" stands in its place;
+- `play-from-row.spec.ts`: the row carries ⋮ and no Share or ×.
+
+**Mutants** (each rebuilt for real with `npm run dev:neural:app` and run against its journeys; a neutral control first,
+a comment edit, stayed green, 5 of 5):
+
+| | what it breaks | red at |
+|---|---|---|
+| N1 | the name renames again | the name's press (1440, 390) |
+| N2 | Delete without its Undo | the 1440 items; share-lists' delete; the 390 items |
+| N3 | Duplicate loses an item | the 1440 items; the 60-character Duplicate; the 390 items |
+| N4 | Duplicate reorders | the same three |
+| N5 | a press outside does not close the menu | the menu's keys and closes |
+| N6 | the arrow keys dead | the menu's keys |
+| N7 | ⋮ at 24 px on a phone | the 390 targets |
+| N8 | the menu placed under ⋮, unclamped | the last row at the drawer's foot |
+| N9 | the count at 30 px on a phone | the 390 targets |
+| N10 | a second press of ⋮ does not shut it | the menu's keys and closes |
+| N11 | Esc also walks the pane's ladder (the pane closes) | the menu's keys |
+| N12 | Rename's Enter leaves focus nowhere | the 1440 items |
+
+All 12 red; none survived.
+
+**Bytes** (gzip -9, like the gate): the eager set 377,733 B, **+301 B** on dev's level 377,432 B (the orchestrator's figure
+for v1.294.0); `neural.js` 752,397 B raw, 238,228 B gzip; `neural.css` unchanged; deferred unchanged at 548,310 B. +4,260 B
+since the 373,473 B baseline, under the 5,000 cap; the map seat's PAY-L3 checkpoint lands before this.
+
+**Runs, all local, under the lock:**
+- the lists area plus `seat-star` (118 of 118) on the first build;
+- after the last change (the ⋮'s hover wash taken off a phone, where a tap left it tinted), `lists-menu`, `lists-rename`,
+  `share-lists` and `play-from-row`: 32 of 32.
+
+**Not covered:**
+- a row lights by mouse and touch, not by keyboard (as before: the row is not focusable, and the name never was a
+  way to light);
+- the row's own hover wash still stays after a tap on a phone (it predates this; only ⋮'s was taken off);
+- the menu stays where it opened if a late payload re-renders the list under it (the star's picker does the same).
+
+### v1.295.1, LISTS-MENU-2 part 1: the row opens and shuts; its chevron in Explore's column (23 Nov 2026)
+
+The owner, looking at the rows on production: "pressing the list name is the same as pressing the expand colpase icon
+(chervrons is it? yep it is) i also checked up this image and sometimes the chverons are on the lef tsometime right".
+
+- **A press on the name, or anywhere on the row's line but ⋮, opens or shuts the list**, as its chevron does. His rule
+  replaced the orchestrator's of the same day (the name lighting the list).
+- **The light is kept** (the orchestrator's ruling): an open list is lit on the map, and shutting it puts the light out.
+  With several lists open, **the last one opened is lit**: a press is a question about that list, and the map answers
+  the newest. Shutting a list that is not the lit one leaves the light. A list that opened itself (made, added to,
+  restored) is open and not lit: only a player's press lights (`_toggleListOpen`).
+- A press among an open list's items (between their controls) does not shut it: the row's line only.
+- **The chevron moved to the row's right edge**, the same glyph and ink as Explore's (`_caretHTML`), pointing right shut
+  and down open. Its glyph's right edge is the section heads' column, **25 px in from the panel's edge at 1440 and at
+  390**, measured; `lists-menu.spec.ts` pins the two equal. ⋮ is the control just left of it; on a phone both are 44 px
+  boxes, centres 44 px apart. The count is text beside the name.
+- **Measured** (the orchestrator's probe on this build; "opens" = the share of the row where a press opens or shuts the
+  list):
+  - 1440: 95% of the row, both names (⋮ the other 4%);
+  - 390x631: 86% and 87% (⋮ 13%);
+  - the long name 223 px at 1440 and 186 px at 390; "Thursday open mat" whole.
+- **The other chevrons in the panel, left as they are (reported, not changed):**
+  - the Explore head's glyph ends 23 px in, 2 px right of the section heads' column;
+  - Last rolls uses a text "›" (23 px), a different glyph that does not turn;
+  - Master the game has no chevron.
+  - All point right shut and down open; none sits on the left.
+- **Mutants**, each rebuilt for real, a control green; red:
+  - the name renaming again; the row's press lighting only (the first build);
+  - opening not lighting; shutting leaving the light on; the first list opened keeping the light;
+  - the chevron off the column; a press among the items shutting the list;
+  - the chevron, or ⋮, at 24 px on a phone.
+- **SURVIVED, recorded:** the editor's just-closed latch removed. In Chromium the editor's commit re-renders the row
+  between the press's down and up, so the click never reaches a row; the latch is a second guard this test cannot reach.
+  It is named in the spec's header.
+- **Bytes:** the eager set is 377,767 B, **+335 B** on dev's level of 377,432 B (the first build of this PR was +301).
+  `neural.css` and deferred are unchanged.
+- **The first runs of 5 of these mutants proved nothing.** Port 8133 was held when they started, so no test ran; the
+  runner now waits for the port and names the holder. They were run again and are counted only from that run.
+
+## v1.295.2 — An item's actions behind three dots: Share · Move up · Move down · Remove from list (LISTS-MENU-2 part 2; the owner, 23 Nov 2026)
+
+**Why.** The owner, 23 Nov, looking at a list's items on production: "tat x icon on the list items is very consufing too,
+make it a 3 dots icon ads well which includes sharing, remove from list, move up, move down (the list order)".
+
+**What changed** (`_listItemRow`, `openItemMenu`, `_itemMenuChoose`, `shareListItem`, `moveListItemBy`, `removeListItem`'s
+Undo; `_openAnchoredMenu` is now the one builder of both menus):
+- **Each item's × is a ⋮** (`[data-list-item-menu]`), 44 px on a phone, 24 px on a desktop. ▶ stays on the row; on a
+  phone it is a 44 px box with its 24 px chip drawn inside (`.ng-actchip.ng-thumb`, helmet.html).
+- **Its menu** (`[data-list-item-menu-open]`, the same builder as the list's, in the star picker's slot):
+  Share · Move up · Move down · Remove from list. Remove is last, in the warning ink; Move up and Move down are disabled
+  at the list's ends, shown, and skipped by the keys. The move step's "Move to…" takes its place before Remove when it
+  lands.
+- **Share** shares the technique's own page, `location.origin + _nodeUrlPath(idx)` (e.g. `/Transitions/<name>`; a
+  position's `/Top` page): the share sheet on a phone, else the clipboard and "Link copied", else a selectable box under
+  the item.
+- **Remove from list gains a way back.** It is two presses deep now, not a stray ×: the Undo row (one slot, its kind
+  "remove", 90 s) puts the item back at its place. Emptying the list keeps the delete's own Undo, which brings the
+  whole list back.
+- **Move up / Move down reorder the list ON THIS DEVICE ONLY.** The rule that syncs an order is ruled (ORDER-OK: a
+  per-list order stamp, top-level `listOrderAt`, the order following the later stamp) and lands WITH the move step's
+  `listItemAt`, under the same proofs. Until then nothing writes a stamp and the list's `t` is not bumped (`t` is the
+  panel's recency order; a Move up must not make the list jump under the finger). The account's other devices keep
+  their own order; the cloud holds whichever order is pushed with the next other change.
+- Telemetry, counts only: `neural_list_item_shared {}`, `neural_list_item_reordered {dir}`,
+  `neural_list_item_removed {via}`.
+
+**The journeys.** `e2e/journeys/lists-item-menu.spec.ts` (new):
+- 1440 by mouse: the × gone and ▶ kept; the menu's four items; Move up disabled first, Move down disabled last; a reorder
+  with no `t` and no stamp; Share's link is the technique's page; Remove, then Undo back at its place;
+- keys: a key opens it on Share; the arrows skip a disabled item; a reorder by key keeps focus on the item's ⋮;
+- 390x631 by touch: ▶ and ⋮ as 44 px targets, overlapping nothing, centres 44 px apart; the last item's menu whole on
+  the screen; every item by touch; Undo a thumb tall.
+
+`lists-disclosure.spec.ts` removes through the menu: "Remove from list, in the item's ⋮, takes that technique out of
+THAT list…".
+
+**Mutants** (each rebuilt for real and run against its journeys; a neutral control green, 3 of 3). All 11 red:
+- the item's ⋮ opening nothing;
+- Move up enabled at the top; Move down moving up;
+- a reorder bumping the list's `t`;
+- Remove without its Undo; the Undo putting the item back at the end;
+- Share sharing the list's link instead of the technique's page;
+- the item's ⋮ at 24 px on a phone; ▶ without its thumb box on a phone;
+- the keys landing on a disabled item;
+- a key-made reorder dropping the focus.
+None survived.
+
+**Bytes** (gzip -9, like the gate; dev v1.295.1's bundle and this one, both built here from source):
+- `neural.js` 238,848 → 239,954 B (+1,106) and `neural.css` 12,989 → 13,047 B (+58): **+1,164 B** eager.
+- The gate reads 379,517 B, +2,085 B over the PAY-L3 baseline of 377,432 B (dev v1.295.1's own share is +921).
+- No baseline moved.
+
+**One gate artifact touched, with its reason.** `validate:surfaces` stopped the first `ci:validate`: `shareListItem` looks
+up a node (`this._idIndex.get(`) without the ruleset mask. It is named in `tests/artifacts/ruleset_surfaces.json` beside its
+six sibling list entries, on that file's own rule: a player's list is their record, not material the app deals; the row
+stays in every ruleset and so does the page it shares. 26 of 26 after.
+
+**Runs, all local, under the lock:**
+- dev 705e9bde4 merged in, the lists area plus `seat-star`: **122 of 122**;
+- before the merge, with the list menu's journeys: 44 of 44.
