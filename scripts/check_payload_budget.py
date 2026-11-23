@@ -280,8 +280,8 @@ NEURAL_TARGET = {
     # S3-R1: 558_018, +28 B (reader.js records the size it laid out for, `nodeBandAt`).
     # v1.298.0 L2b S4 (a row lights its way: ngClozeWay and the tablet's tap, master-cloze.src.js; the line, map-light.src.js):
     # 560_127, +2_109 B on S3's 558_018 (dev 2a340a5ce); S4-R0: 560_344, +217 B (a place opened under the pointer waits for
-    # its first move, master-cloze.src.js).
-    "deferred_raw_bytes": 560_344,
+    # its first move, master-cloze.src.js); S4-R1: 560_379, +35 B (a mouse move gives the hover back after a touch).
+    "deferred_raw_bytes": 560_379,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
