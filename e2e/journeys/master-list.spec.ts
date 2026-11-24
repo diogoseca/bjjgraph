@@ -85,6 +85,10 @@ import { journey } from "../dsl"
  *         not as it was when the page opened" (and master-cloze.spec.ts's twin, and a unit in tests/belt_row.test.mjs)
  *   L2-12a (L2, item 12) ↑ ↓ walk what the session already holds (`sessionNav` without `_masterKeyRow`) → "↑ lands on a card
  *         that is still owed…" and "↓ lands on a card that is still owed…" at "↑ (↓) opens a card that is not yet answered"
+ * DRAW2 (v1.300.1; found in LEAK1-R3): the list is drawn ONCE per opening. The press drew it, and the press's own deferred
+ * step (`_afterPress` → `_practiceAppend` → `renderSession`) drew it all again 40 to 490 ms later, every row replaced:
+ *   DRAW2a the second draw put back (dev's `openPlanSession` and `_practiceAppend`)   → "Master the game's list is drawn once…"
+ *         (both: the planner in, and the planner still loading) at "one draw"
  * The list's own arithmetic (order, the other places, the lost count, the words) is tests/master_list.test.mjs (L1-1 to L1-11).
  * NOT COVERED here: no-gi (the unit reads the rows the app hands it, whatever the ruleset), and a guest signing in (the record
  * is `explored`'s, unchanged by L1).
@@ -117,7 +121,7 @@ async function press(page: Page, selector: string, what: string, touch: boolean,
 /** the seeded player, the drawer open on its list; Master the game not yet open */
 /** the seeded player, the drawer open on its list; Master the game not yet open. `blob` replaces the record (the reader's
  *  two-card day), `extra` adds raw `explored` entries (a damaged one), `settings` stores settings, `running` leaves the roll on */
-async function setup(page: Page, opts: { blob?: (fx: W) => W; extra?: unknown[]; settings?: Record<string, unknown>; running?: boolean; places?: string[]; moves?: boolean } = {}) {
+async function setup(page: Page, opts: { blob?: (fx: W) => W; extra?: unknown[]; settings?: Record<string, unknown>; running?: boolean; places?: string[]; moves?: boolean; payloads?: W } = {}) {
   const { orderFixture } = await import("../../tests/_practice_order_fixture.mjs")
   const fx = orderFixture(SERVED)
   const own = new Set([...fx.heavy, ...fx.light])
@@ -126,7 +130,7 @@ async function setup(page: Page, opts: { blob?: (fx: W) => W; extra?: unknown[];
   const j = journey(page, CLASSIC)
   const blob = opts.blob ? opts.blob(fx) : { ...fx.blob }
   const settings = opts.settings ? { settings: opts.settings, settingsAt: Object.fromEntries(Object.keys(opts.settings).map((k) => [k, 5])) } : {}
-  await j.boot("/", { initialState: { ...blob, ...settings, explored: opts.places || [...own, ...rest, GONE, ...(opts.extra || [])] } })
+  await j.boot("/", { initialState: { ...blob, ...settings, explored: opts.places || [...own, ...rest, GONE, ...(opts.extra || [])] }, ...(opts.payloads ? { payloads: opts.payloads } : {}) })
   await expect.poll(() => page.evaluate(() => {
     const a = (window as W).__neural
     return !!(a && a.nodes && a.nodes.length && a.flashcards && a.flashcards.decks && Object.keys(a.flashcards.decks).length && a.curriculum)
@@ -161,6 +165,22 @@ async function openMaster(page: Page, touch: boolean) {
   await expect(page.locator('[data-master-row][data-master-group="plan"]').first(), "the rows are painted").toBeVisible({ timeout: 30_000 })
 }
 
+/** DRAW2: from here on, every draw of Master the game's page is counted (`_renderPractice`), and the first draw's controls
+ *  (the button, the rows, Belt lessons) are marked as it ends, so a later look tells the same nodes from new ones */
+const watchDraws = (page: Page) => page.evaluate(() => {
+  const a = (window as W).__neural, w = ((window as W).__draws = { n: 0, marked: 0 }), f = a._renderPractice
+  a._renderPractice = function (...args: W[]) {
+    const r = f.apply(this, args)
+    if (++w.n === 1) for (const el of document.querySelectorAll("[data-master-start], [data-master-belts], [data-master-row]")) { (el as W).__first = true; w.marked++ }
+    return r
+  }
+})
+/** the draws so far, and the page's controls now: how many, and how many are the first draw's own nodes */
+const drawsNow = (page: Page) => page.evaluate(() => {
+  const w = (window as W).__draws, now = [...document.querySelectorAll("[data-master-start], [data-master-belts], [data-master-row]")]
+  return { draws: w.n, controls: now.length, first: now.filter((el) => (el as W).__first).length }
+})
+
 /** the plan's places, in its order, one each (the page folds a place's second visit into its first) */
 const planSeats = (page: Page) => page.evaluate(() => [...new Set((window as W).__neural._session.plan.visits.map((v: W) => v.seat || ""))] as string[])
 const openSeat = (page: Page) => page.evaluate(() => { const a = (window as W).__neural, s = a._session; return a._masterSeatOf(s, s.keys[s.idx]) })
@@ -192,6 +212,55 @@ async function clean(page: Page, after: string) {
 for (const touch of [true, false]) {
   test.describe(touch ? "390x631, touch" : "1440x900, mouse", () => {
     test.use(touch ? { viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true } : { viewport: { width: 1440, height: 900 } })
+
+    // DRAW2: the planner already in (as these journeys have it, `knowsPlanMoves`), the list is drawn once with the plan: its
+    // rows are there at the first draw, a row pressed 80 ms after the press opens that row, and 1 s on there was one draw,
+    // every control the first draw's own node
+    test(`Master the game's list is drawn once: the planner in, a row pressed 80 ms after the press opens that row (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      await setup(page)
+      expect(await page.evaluate(() => !!(window as W).__neural._gameplanRuntime), "premise: the planner is in").toBe(true)
+      await watchDraws(page)
+      await press(page, ".ng-logo", "open the drawer", touch, false)
+      await press(page, '[data-explore-stats] [data-b="due"]', "the Master the game row", touch)
+      const t0 = Date.now()
+      await page.waitForTimeout(80)
+      const row = await page.locator('[data-master-row][data-master-group="plan"]').nth(1).getAttribute("data-master-row")
+      expect(row, "premise: the plan's rows are drawn with the list").toBeTruthy()
+      await press(page, `[data-master-row="${row}"]`, "the plan's second place, 80 ms after the press", touch, false)
+      await expect(page.locator("[data-master-dock]"), "the row's press opens a card: the navigation shows").toBeVisible({ timeout: 10_000 })
+      expect(await openSeat(page), "the row pressed is the place opened").toBe(row)
+      await page.waitForTimeout(Math.max(0, 1000 - (Date.now() - t0)))
+      const d = await drawsNow(page)
+      expect(d.draws, "one draw from the press to 1 s after (DRAW2a)").toBe(1)
+      expect([d.first, d.controls], "every control on the page at 1 s is the first draw's own node").toEqual([d.controls, d.controls])
+    })
+
+    // DRAW2: the planner still loading when Master the game opens (held here, then let in): the list is drawn as it opens
+    // ("Loading your positions…", Belt lessons), and the plan fills it in place: Belt lessons pressed 80 ms after the press
+    // stays the same row and stays unfolded when the plan lands, and the plan's rows then open as pressed
+    test(`Master the game's list is drawn once: the planner still loading, Belt lessons pressed 80 ms after the press stays (${touch ? "touch" : "mouse"})`, async ({ page }) => {
+      const PLANNER = "app/gameplan.js"
+      const { j } = await setup(page, { moves: true, payloads: { [PLANNER]: { never: true } } })
+      expect(await page.evaluate(() => !!(window as W).__neural._gameplanRuntime), "premise: the planner is not in").toBe(false)
+      await watchDraws(page)
+      await press(page, ".ng-logo", "open the drawer", touch, false)
+      await press(page, '[data-explore-stats] [data-b="due"]', "the Master the game row", touch)
+      await page.waitForTimeout(80)
+      await press(page, "[data-master-belts]", "Belt lessons, 80 ms after the press", touch)
+      await expect(page.locator('[data-master-belts][aria-expanded="true"]'), "Belt lessons unfolds").toHaveCount(1)
+      j.releasePayload(PLANNER)
+      await expect.poll(() => page.evaluate(() => (window as W).__neural._session?.plan?.order || null), { timeout: 30_000, message: "the worth plan lands" }).toBe("worth")
+      await expect(page.locator('[data-master-row][data-master-group="plan"]').first(), "the plan's rows are painted").toBeVisible({ timeout: 30_000 })
+      await page.waitForTimeout(1000)
+      const d = await drawsNow(page)
+      expect(d.draws, "one draw from the press to 1 s after the plan landed (DRAW2a)").toBe(1)
+      expect(await page.evaluate(() => { const b = document.querySelector("[data-master-belts]") as W; return [!!(b && b.__first), b && b.getAttribute("aria-expanded")] }),
+        "Belt lessons is the row pressed, still unfolded").toEqual([true, "true"])
+      const row = await page.locator('[data-master-row][data-master-group="plan"]').first().getAttribute("data-master-row")
+      await press(page, `[data-master-row="${row}"]`, "the plan's first place", touch)
+      await expect(page.locator("[data-master-dock]"), "the row's press opens a card").toBeVisible({ timeout: 10_000 })
+      expect(await openSeat(page), "the row pressed is the place opened").toBe(row)
+    })
 
     test(`as it opens: one button, the plan's places in its order, a rule, the other places, no heading, no navigation (${touch ? "touch" : "mouse"})`, async ({ page }) => {
       const { rest } = await setup(page)
