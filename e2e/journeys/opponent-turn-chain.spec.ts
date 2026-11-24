@@ -63,12 +63,13 @@ const snap = (page: Page) => page.evaluate(() => {
   };
 });
 
-/** From the press to the moment he can act again, a sample every 100 ms of game time. */
-const playOut = async (page: Page, j: ReturnType<typeof journey>, max = 300) => {
+/** From the press to the moment he can act again, a sample every 100 ms of game time (`each` reads more of a frame, then). */
+const playOut = async (page: Page, j: ReturnType<typeof journey>, max = 300, each?: (s: W) => Promise<void>) => {
   const frames: W[] = [];
   for (let k = 0; k < max; k++) {
     await j.advance(100);
     const s = await snap(page);
+    if (each) await each(s);
     frames.push(s);
     if (k > 3 && ((s.hand > 0 && !s.pulse && !s.actor) || s.defend)) return frames;
   }
@@ -141,19 +142,25 @@ for (const [w, h, touch] of [[1440, 900, false], [1048, 773, false], [390, 631, 
     test(`S2 the path drawn with direction, the chain named at the names' own size, the light from the opponent's choice to the hand (${w})`, async ({ page }) => {
       const j = journey(page);
       await mountCase(page, j, 0.55, 0.2);
-      const frames = await playOut(page, j);
+      // the arrowhead's ink: sampled where the frame drew it, inside its triangle, in the opponent's colour, AT that frame
+      // of his travel (OPP1-R1: from his last leg the path fades and the camera goes back, so the canvas after the travel
+      // no longer holds it)
+      const frames = await playOut(page, j, 300, async (f) => {
+        if (!(f.pulse && f.actor === "Defending" && Math.abs(f.vw - f.tvw) < 1 && f.chain)) return;
+        f.ink = await page.evaluate((legs) => {
+          const a = (window as W).__neural, ctx = a.canvas.getContext("2d"), dpr = a.canvas.width / a.canvas.getBoundingClientRect().width;
+          return legs.map((L: W) => { const d = Math.hypot(L.x2 - L.x1, L.y2 - L.y1) || 1, ux = (L.x2 - L.x1) / d, uy = (L.y2 - L.y1) / d;
+            const x = L.x2 - ux * 4, y = L.y2 - uy * 4, p = ctx.getImageData(Math.round(x * dpr), Math.round(y * dpr), 1, 1).data; return [p[0], p[1], p[2]]; });
+        }, f.chain.legs.filter((L: W) => L.who === "opp"));
+      });
       const c = choiceAt(frames);
       expect(frames[c].text, "premise: the opponent goes for Trap and Roll").toContain("Trap and Roll");
       const mid = frames.filter((f, i) => i > c && f.pulse && f.actor === "Defending" && Math.abs(f.vw - f.tvw) < 1).slice(-1)[0];
       expect(mid, "premise: a settled frame of his travel").toBeTruthy();
       const opp = mid.chain.legs.filter((L: W) => L.who === "opp");
       expect(opp.length, "his two legs are drawn: to his move, and on to where it lands").toBe(2);
-      // the arrowhead's ink: sampled where the frame drew it, inside its triangle, in the opponent's colour
-      const ink = await page.evaluate((legs) => {
-        const a = (window as W).__neural, ctx = a.canvas.getContext("2d"), dpr = a.canvas.width / a.canvas.getBoundingClientRect().width;
-        return legs.map((L: W) => { const d = Math.hypot(L.x2 - L.x1, L.y2 - L.y1) || 1, ux = (L.x2 - L.x1) / d, uy = (L.y2 - L.y1) / d;
-          const x = L.x2 - ux * 4, y = L.y2 - uy * 4, p = ctx.getImageData(Math.round(x * dpr), Math.round(y * dpr), 1, 1).data; return [p[0], p[1], p[2]]; });
-      }, opp);
+      const ink = mid.ink as number[][];
+      expect(ink && ink.length, "premise: the arrowheads read at that frame").toBe(2);
       for (const [r, g, b] of ink) expect(r > 170 && r > b + 40 && g > 70, `an arrowhead at the destination, in the opponent's colour (${r},${g},${b})`).toBe(true);
       // named: the three places (where he stood, the opponent's move, where it lands), through the planner, never overlapping
       const P = frames[0].cur, [{ b: O }, { b: L }] = opp;
@@ -329,6 +336,10 @@ for (const [w, h] of [[390, 631], [360, 640], [1048, 773]] as const) {
       const j = journey(page);
       await j.boot("/");
       await j.land("Mount Top");
+      // a reward notice the landing raised is shut first, by its own close: the banner is measured against the page's
+      // standing controls (the top-left targets, the right edge's); the notice's own place at 390 is point 3's, reported
+      // (reports/mapshows.md, OPP1-R1)
+      for (let i = 0; i < 3 && await page.locator("[data-reward-close]").count(); i++) { await page.evaluate(() => (document.querySelector("[data-reward-close]") as HTMLElement).click()); await j.advance(600); }
       const bad = await page.evaluate(() => {
         const a = (window as W).__neural;
         const techs = [...new Set(a.nodes.filter((n: W) => n.ty === "transitions" || n.ty === "submissions").map((n: W) => n.t as string))].sort((p: string, q: string) => q.length - p.length || (p < q ? -1 : 1)).slice(0, 10);
@@ -348,9 +359,9 @@ for (const [w, h] of [[390, 631], [360, 640], [1048, 773]] as const) {
             if (hit || cut) out.push({ k, t, hit, cut });
           }
         });
-        return { n, techs: techs.length, out };
+        return { n, techs: techs.length, out, notice: !!document.querySelector(".ng-challenge-reward") };
       });
-      expect([bad.n, bad.techs], "premise: three sentence forms for each of the ten longest titles").toEqual([30, 10]);
+      expect([bad.n, bad.techs, bad.notice], "premise: three sentence forms for each of the ten longest titles, no notice up").toEqual([30, 10, false]);
       expect(bad.out, "no line of the banner meets a control, and nothing is cut (R1a)").toEqual([]);
     });
 

@@ -23391,8 +23391,11 @@ class Component extends DCLogic {
       // an exchange: the camera keeps up with the attempt (it used to ease at tau 0.28s)
       ctx.trackW = 9; ctx.dur = (S) => clamp(0.35 + 0.15 * S, 0.45, 0.9);
     } else if (this._chainBackTo && this.now < this._chainBackTo.until) {
-      // OPP1-R1: back from the chain's framing to the roll's zoom in NG_CHAIN.back, the exchange's quick pace
-      ctx.trackW = 9; ctx.dur = () => NG_CHAIN.back;
+      // OPP1-R1: back from the chain's framing to the roll's zoom in NG_CHAIN.back, the exchange's quick pace, EXACTLY: the
+      // zoom's own speed floor below (a flight never zooms faster than 3.2 log units per quarter turn) made it 1.57 s from
+      // the widest framing at 1048 and 1.08 s at 390 (measured), past the hand; the ruling: shorten the glide, never hold
+      // the hand
+      ctx.trackW = 9; ctx.dur = () => NG_CHAIN.back; ctx.exact = true;
     }
     // THE LIFT replaces the hard band clamp (v1.180.1 to v1.218.0). That clamp SET the focus into the
     // free band on the frame a row mounted, even with the node 5,000px off-screen: measured on
@@ -23532,7 +23535,7 @@ class Component extends DCLogic {
       // Preserve the path and easing, but give its log-zoom distance enough time:
       // sine easing peaks at pi/2; the arc's log-width slope is bounded by rho*S.
       const zoomTravel = kind === "pivot" ? Math.abs(Math.log(TV.w / base.w)) : NG_CAM_RHO * S;
-      const dur = Math.max(ctx.dur ? ctx.dur(S) : Math.max(0.6, Math.min(1.4, 0.5 + 0.25 * S)), Math.PI / 2 * zoomTravel / 3.2);
+      const dur = ctx.exact && ctx.dur ? ctx.dur(S) : Math.max(ctx.dur ? ctx.dur(S) : Math.max(0.6, Math.min(1.4, 0.5 + 0.25 * S)), Math.PI / 2 * zoomTravel / 3.2);
       m.flight = { a: { ...base }, t: 0, dur, v0: { ...m.v }, kind,
         goal: { x: TV.x, y: TV.y, l: Math.log(TV.w), vx: 0, vy: 0, vl: 0 } };
       this._camFlights = (this._camFlights || 0) + 1;
