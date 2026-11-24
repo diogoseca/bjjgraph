@@ -21923,6 +21923,35 @@ from its measurements, plus its one surviving mutant:
 - **Two notes, left as comments:** the drawer freezes the chain on purpose (the game is paused); a resize mid-turn is
   not framed again (several lines, not one).
 
+## v1.300.1 — Master the game's list is drawn once per opening (DRAW2; found in LEAK1-R3, 24 Nov 2026)
+
+**The fault.** The press that opens Master the game drew its list (`openPlanSession` → `renderSession` →
+`_renderPractice`). The press's own deferred step (`_afterPress` → `_practiceAppend` → `renderSession`) then drew the
+whole list again, every control replaced: the button, the positions' rows and Belt lessons. It came 40 to 50 ms after
+the press locally (measured on dev, at 1440 by mouse and 390 by touch, planner in or still loading), and 70 to 490 ms
+on CI. A press on a row in that window could meet a row about to be replaced; the DSL had learned to retry (`unfold`,
+LEAK1-R3, kept as it is).
+
+**The fix** (`app.src.jsx`):
+- **A planner already in** draws the plan with the list, once. `openPlanSession` takes the plan before the first draw
+  (`_practiceAppend` draws it, nothing touched yet: `started` is read at the open), and the deferred step does not take
+  the same plan again (`adopted`). If that plan draws nothing (a deck already revealed), the list is drawn as before.
+- **A planner still loading** draws the list as it opens ("Loading your positions…", Belt lessons). When the plan lands,
+  it fills that page in place (`_practiceRefill`): the controls stay the same nodes. What the plan decides is filled in:
+  the session's own cards (hidden under the list until the press), the queue, "Why these decks?", the button's words,
+  and the rows painted by place. The guard's re-take of a plan (`_practiceGuard`) goes through the same path.
+- **A card already open when the plan lands** is drawn again, as before (L2 keeps the open cloze). This happens only when
+  the player opened a card inside the planner's load.
+- Nothing stored changes, and neither does the plan or its order.
+
+**Tests.** `master-list.spec.ts`, two journeys at 1440 by mouse and 390 by touch:
+- **The planner in:** a row pressed 80 ms after the press opens that row. One draw in the first second, and every
+  control at 1 s is the first draw's own node.
+- **The planner held, then let in:** Belt lessons pressed 80 ms after the press stays the same row, still unfolded, when
+  the plan lands. One draw, and the plan's rows then open as pressed.
+- **Mutant DRAW2a** (dev's `openPlanSession` and `_practiceAppend` put back): 4 of 4 red at "one draw", against a green
+  control.
+
 ## v1.300.3 — The save lines: four quiet lines for a guest, each where he has just made something (SAVE1; the owner's U215 a, 24 Nov 2026)
 
 **What a player sees.** The owner asked on 23 Nov to "rethink feat-save-offer a lot better"; the orchestrator proposed four
