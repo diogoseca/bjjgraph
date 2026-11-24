@@ -8237,6 +8237,13 @@ class Component extends DCLogic {
       '<div data-session-done-title="1" style="font-size:15px;font-weight:700;color:#bff0d2;margin-bottom:6px;">' + (!valid ? 'Reviews still need attention' : 'Session complete') + '</div>' +
       '<div style="font-size:11.5px;color:#9ab3a4;line-height:1.5;margin-bottom:14px;">' +
       (!live ? 'The lesson goals in this session are complete.' : live.total ? 'You reviewed ' + live.completed + ' of ' + live.total + ' cards today.' : "You've met today's goal.") + '</div>';
+    // SAVE1: a Master the game session that held cards is a moment: what he just remembered is kept in this browser only,
+    // counted as the badge counts today (`practiceToday`)
+    const today = this.practiceToday().done;
+    if (valid && ses.practice && live && live.total > 0 && today > 0) {
+      const sl = this._saveLineFor("done", "Today's " + today + (today === 1 ? " answer is" : " answers are") + " kept in this browser only.", true);
+      if (sl) done.appendChild(sl);
+    }
     // 7-day progress sparkline — REAL history from the persisted daily counts
     const dk7 = []; for (let i = 6; i >= 0; i--) { const d = new Date(); d.setDate(d.getDate() - i); dk7.push(d); }
     const week = dk7.map((d) => (this._days || {})[this._dayKey(d)] || 0);
