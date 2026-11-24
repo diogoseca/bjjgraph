@@ -1068,9 +1068,24 @@ class Component extends DCLogic {
     this._lastLight = null;
     const R = this._gameplanRuntime;
     if (!R || typeof R.ngLightDraw !== "function") {
+      const ch = this._chain;   // the chain's light waits for the deferred bundle too, and says so once (§6.6)
+      if (ch && ch.opp != null && !ch.cold && this._chainK(true) > 0) { ch.cold = 1; this.fx("light_cold", { place: this.nodes[ch.legs[0].a]?.id || null, chain: true }); }
       this._lightK = 0;
       const s = this._shown;
       if (n && s && !s.cold) { s.cold = 1; this.fx("light_cold", { place: n.id }); }
+      return;
+    }
+    // THE ONE EXCEPTION TO "NEVER OVER A RUNNING GAME" (OPP1, v1.300.0; the orchestrator's ruling 4 on Part A). The opponent's
+    // turn is a running roll in which the player cannot act, and its chain is the one thing the map shows then: lit from the
+    // opponent's choice until he can act, out over NG_CHAIN.out as the hand comes in (`_chainK`), its place where he stood
+    // and its moves the chain's nodes. Scoped to that chain alone: every other light (a row's Show, the cloze, a look) is
+    // still never drawn over a running game, below, and none under a phone's open drawer. Pinned by
+    // opponent-turn-chain.spec.ts (lit from his choice, nothing 0.6 s after the hand, a row's Show still dark over a roll).
+    const ck = this._chainK(true), ch = this._chain;
+    if (ck > 0 && ch.legs.length && !(this.deckShown && this.isMobile())) {
+      this._lightK = 0;
+      this._lastLight = R.ngLightDraw(this, ctx, { ...F, k: ck, place: this.nodes[ch.legs[0].a], moves: this._chainIdxs(), paleDown: false, gold: null, way: null });
+      if (this._lastLight) this._lastLight.chain = true;
       return;
     }
     const was = this._lightK || 0, to = n ? 1 : 0, running = !this.paused || !!this._replay;
@@ -22262,6 +22277,44 @@ class Component extends DCLogic {
     if (this.showNextChallengeReward) queueMicrotask(() => this._challengeRewardActive || this.showNextChallengeReward());
   }
 
+  /** THE CHAIN'S PATH (OPP1, S2): each leg a line from orb rim to orb rim ending in an arrowhead at its destination; his
+   *  own failed leg dashed in his colour and dimmed, crossed at its middle; the opponent's solid in the opponent's colour.
+   *  A leg too short for its line still shows its arrowhead at the destination's rim (the orchestrator's guard for the
+   *  widest framing: "a leg under 24 px on screen still shows its arrowhead"). Published: `_lastChain`, what this frame drew
+   *  ({k, legs: [{a, b, who, x1, y1, x2, y2}]}), null when nothing. */
+  _drawChain(ctx, F) {
+    this._lastChain = null;
+    const ch = this._chain; if (!ch || !ch.legs.length) return;
+    const k = this._chainK(false);
+    if (k <= 0) { if (ch.out != null && !this._replay) this._chain = null; return; }
+    const { scale, nodeK, kLOD, LY, ox, oy, dpr } = F, drawn = [];
+    ctx.save(); ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.lineCap = "round";
+    for (const L of ch.legs) {
+      const a = this.nodes[L.a], b = this.nodes[L.b]; if (!a || !b) continue;
+      const ax = a.x * scale + ox, ay = LY(a) * scale + oy, bx = b.x * scale + ox, by = LY(b) * scale + oy;
+      const d = Math.hypot(bx - ax, by - ay); if (d < 1) continue;
+      const ux = (bx - ax) / d, uy = (by - ay) / d;
+      const rb = this._nodeHalfW(b, scale, nodeK, kLOD, true) + 3, ra = Math.min(this._nodeHalfW(a, scale, nodeK, kLOD, true) + 3, Math.max(0, d - rb));
+      const you = L.who === "you", col = you ? { r: 94, g: 149, b: 255 } : { r: 255, g: 140, b: 100 }, al = (you ? 0.55 : 0.95) * k;
+      const h = you ? 7 : 10, w = h * 0.55;
+      const ex = bx - ux * rb, ey = by - uy * rb, sx = ax + ux * ra, sy = ay + uy * ra;
+      ctx.strokeStyle = this.rgba(col, al); ctx.fillStyle = this.rgba(col, al);
+      if (Math.hypot(ex - sx, ey - sy) > h) {
+        ctx.lineWidth = you ? 1.6 : 2.4; ctx.setLineDash(you ? [5, 4] : []);
+        ctx.beginPath(); ctx.moveTo(sx, sy); ctx.lineTo(ex - ux * h * 0.6, ey - uy * h * 0.6); ctx.stroke(); ctx.setLineDash([]);
+      }
+      ctx.beginPath(); ctx.moveTo(ex, ey); ctx.lineTo(ex - ux * h - uy * w, ey - uy * h + ux * w); ctx.lineTo(ex - ux * h + uy * w, ey - uy * h - ux * w); ctx.closePath(); ctx.fill();
+      if (you && L.res) {
+        const mx = (sx + ex) / 2, my = (sy + ey) / 2, q = 3.5;
+        ctx.strokeStyle = this.rgba({ r: 255, g: 110, b: 110 }, 0.9 * k); ctx.lineWidth = 1.8;
+        ctx.beginPath(); ctx.moveTo(mx - q, my - q); ctx.lineTo(mx + q, my + q); ctx.moveTo(mx + q, my - q); ctx.lineTo(mx - q, my + q); ctx.stroke();
+      }
+      drawn.push({ a: L.a, b: L.b, who: L.who, x1: Math.round(sx), y1: Math.round(sy), x2: Math.round(ex), y2: Math.round(ey) });
+    }
+    ctx.restore();
+    this._lastChain = { k, legs: drawn };
+  }
+
   defendKeyFor(subNode) { return subNode.t + "|Defender"; } // full name, matches the emitted Defender deck key
   _catchProvenance() {
     return { journey: this._journeyId, from: this.currentPos, active: !!this._rollActed };
@@ -24657,6 +24710,7 @@ class Component extends DCLogic {
     // under every name, so a name is never dimmed. `ox`/`oy` are this frame's own offset (the shake included), so a hole
     // sits exactly on the orb as drawn.
     this._drawLight(ctx, { scale, nodeK, kLOD, LY, ox, oy, W, H, dpr, gold, face: hmFaceF });
+    this._drawChain(ctx, { scale, nodeK, kLOD, LY, ox, oy, dpr });   // OPP1: the opponent's turn, its path (over the light, under every name)
 
 
     // ── NOTHING IS WRITTEN INSIDE A NODE (v1.114.0) ──────────────────────────────────────────
@@ -25112,6 +25166,22 @@ class Component extends DCLogic {
       // place's own moves: one of Half Guard's read as one of Mount's). The pointer's label, a point and the roll's own
       // place are named as ever. An orb a point named just now is not named again here. Never a face-down move (`hmDown`).
       const czNamed = new Set(pointPlan ? pointPlan.keys() : []);
+      // THE OPPONENT'S CHAIN NAMED (OPP1, S2): its places and moves, his in his colour and the opponent's in the opponent's,
+      // through the one planner, at the names' own size, before the dealt moves and the lit trail (which never names one of
+      // them again). From his miss until the chain has faded.
+      const chn = this._chain, chK = chn ? this._chainK(false) : 0;
+      if (chK > 0) {
+        const who = new Map(), cc = [];
+        for (const L of chn.legs) { if (!who.has(L.a)) who.set(L.a, "you"); who.set(L.b, L.who); }
+        for (const [idx, w] of who) {
+          const n = this.nodes[idx]; if (!n || !rsOk[idx] || czNamed.has(idx) || idx === drawFocus || hovd(n)) continue;
+          if (!this.pulse && this.optionIdxs && this.optionIdxs.indexOf(idx) >= 0) continue;   // a dealt move is named below
+          const c = cand(n, (n.x - this.cam.cx) * scale + W / 2, (LY(n) - this.cam.cy) * scale + H / 2, { act: true, w });
+          if (on(c)) cc.push(c);
+        }
+        const chPlan = cc.length ? write("chain", cc, (c) => c.w === "opp" ? this.rgba({ r: 255, g: 175, b: 140 }, chK * A) : this.rgba({ r: 160, g: 192, b: 255 }, chK * A)) : null;
+        if (chPlan) for (const i of chPlan.keys()) czNamed.add(i);
+      }
       // THE LIT ROW'S NAMES FIRST (S4): its move, then the place it leads to where the visible map shows it, both acted on
       const way = czLit && this._czWay();
       if (way && !way.bar) {
@@ -25163,7 +25233,7 @@ class Component extends DCLogic {
         // the name's INK box, not a guessed pad
         this._lastOptBoxes = this._lastOptLabels.map((idx) => { const b = plan.get(idx); return { idx, l: b.l, r: b.r, t: b.t, b: b.b }; });
       }
-      if (trail.length && !czLit) write("lit", trail, litCol);
+      if (trail.length && !czLit) write("lit", chK > 0 ? trail.filter((c) => !czNamed.has(c.i)) : trail, litCol);
       this._lastNameBoxes = claims;
     }
     this._syncSeatStars(seatStars);
