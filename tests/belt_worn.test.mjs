@@ -435,7 +435,7 @@ test("U163 c: every section, lesson, checkpoint and capstone is open, whatever b
 // TIMED RECALL IN A ROLL WAS A SWITCH (U163 c, v1.270.0 to v1.282): no belt switched it on, the patch at black included.
 // SINCE v1.282.0 THE ANSWER MODE DECIDES (the app's `_answerMode` / `_cardAsksMc`, rulings R1/R2): Auto, the default for
 // nothing stored, asks multiple choice until a card reaches stage 2 and front and back from there, in Practice and in a
-// roll; Front Back cards ("classic") asks every card front and back; Multiple choice ("mc") none. The old switch
+// roll; Recall ("classic") asks every card front and back; Multiple choice ("mc") none. The old switch
 // `recallInPlay` is KEPT (stored, stamped, synced: a settings key can never be deleted, CLAUDE.md 6.6) and decides nothing.
 // Mutants: a roll reading `recallInPlay` again (the stored Off below goes front-and-back-less), Auto's line moved off 2, a
 // stored "mc" ignored, OPEN-M3 (the mint flips the switch on again): each turns a named assertion here red.
@@ -452,7 +452,7 @@ test("timed recall: the answer mode decides; the kept switch and a belt earned u
   w.set("mcMode", "mc");
   assert.deepEqual([asks(w, 0), asks(w, 2), asks(w, 4)], ["mc", "mc", "mc"], "a stored Multiple choice: always");
   w.set("mcMode", "classic");
-  assert.deepEqual([asks(w, 0), asks(w, 2)], ["fb", "fb"], "a stored Front Back cards: always");
+  assert.deepEqual([asks(w, 0), asks(w, 2)], ["fb", "fb"], "a stored Recall: always");
   // blue earned AFTER the rule began on this account: no carry, nothing written
   const b = boot({ blob: { openAt: 1000, belts: { won: {}, gf: 5, held: { id: "blue", t: 5000 } } } });
   assert.equal(carried(b), false, "OPEN-M2: a blue belt earned under the open rule carries nothing");

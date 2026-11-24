@@ -14844,7 +14844,8 @@ class Component extends DCLogic {
   // ── ANSWER MODE: ONE SWITCH, ONE MEANING, EVERYWHERE A CARD IS ASKED (v1.282.0, owner 15 Nov; rulings R1/R2, SET1-GO) ──
   // Owner: "by default we use the Auto, not Classic (which should be called Front Back cards, or the Multiple Choice).
   // after a player dominates MC for a card he is shown FC crds, and never again the multiple choice". `mcMode` keeps its
-  // three stored values, labelled in Settings as Auto ("auto"), Front Back cards ("classic") and Multiple choice ("mc").
+  // three stored values, labelled in Settings as Auto ("auto"), Multiple choice ("mc") and Recall ("classic"; it was "Front Back
+  // cards" until SETH3, v1.298.2, the owner: "what would the teacher call it instead of front/back?").
   // NOTHING STORED IS AUTO, BY THE READER'S DEFAULT, NEVER BY A WRITE: a player who pressed nothing has no `mcMode`, and
   // nothing here writes one (until v1.282.0 the default was "classic", so a stored "classic" is a press, `set` being the
   // only writer). One reader for every surface: Practice's cards and the full-pane study view (`mcActive`), the inline decks
@@ -18196,7 +18197,7 @@ class Component extends DCLogic {
     // THE IN-PLAY FORMAT is the answer mode's (v1.282.0, `_answerMode`, beside `mcActive`): Auto asks a stage-0/1 card as
     // multiple choice and a stage-2+ card as the reveal/self-grade block, which is what Recall mode On did here from
     // v1.105.1 to v1.282 (owner, then: "after the player gets the multiple choice right, the second time we show the
-    // card... Q and A, and we hide the answer"); Front Back cards asks every card front and back, Multiple choice none.
+    // card... Q and A, and we hide the answer"); Recall (stored "classic", "Front Back cards" until v1.298.2) asks every card front and back, Multiple choice none.
     // `recallInPlay` and the carried belt no longer decide it (R2: one switch, and the screen says which).
     const landRecall = !defense && !!card && !this._cardAsksMc(key, card);
     let warm = null, warmKind = null;

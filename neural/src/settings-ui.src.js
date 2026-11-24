@@ -111,6 +111,20 @@ const NG_SETTINGS_LINES = {
   app: "Acts everywhere: the map, a roll, Practice, Master the game and every article.",
   shortcuts: "Keys for a keyboard; nothing to set.",
 };
+// ANSWER MODE'S THREE CHOICES: [stored value, name, its one line] (SETH3, v1.298.2; the owner, 24 Nov: "instead of Auto, Front Back
+// cards, Multiple choice, say Multiple Choice cards / Front Back cards or instead multiple choice, or what would the teacher call it
+// instead of front/back?"). The teacher's word is RECALL (recall against recognition): "front/back" described the card, not what the
+// player does. Reordered Auto, Multiple choice, Recall; no "cards" suffix; Auto stays first and the default. The STORED VALUES,
+// the default and what each does are unchanged ("classic" was "Classic recall", then "Front Back cards"): labels and lines only.
+// Each line is the orchestrator's, plus the fact the old line carried: Multiple choice keeps D1 (a), THE OWNER'S ANSWER TO U194 (16
+// Nov, SET1-R3: it means it everywhere, so a card is never asked from memory and the goals that need one proven from memory, "Prove
+// a card from memory" and the four "Recall-prove …", wait; "the line says both, plainly"), pinned by answer-mode.spec.ts; Recall
+// keeps that checkpoints and the defence drill stay multiple choice (`_cardAsksMc`).
+const NG_ANSWER_MODES = [
+  ["auto", "Auto", "Multiple choice until you get a card right twice, then recall from then on."],
+  ["mc", "Multiple choice", "Pick the answer from three. Recognition: easier, good for a first pass. A card is never asked from memory, so the goals that need one proven from memory wait."],
+  ["classic", "Recall", "Answer from memory, then reveal and grade yourself. Harder, and what makes it stick. Checkpoints and the defence drill stay multiple choice."],
+];
 export async function ngInstallSettingsPresentation(target, dependencies) {
   if (dependencies.expectedBuild !== NG_SETTINGS_PRESENTATION_BUILD) throw new Error("Settings presentation version mismatch");
   // Share the reader's registry instead of bundling a second copy. Importing the
@@ -260,20 +274,13 @@ renderSettings() {
       g.appendChild(inp); sec.appendChild(g);
       // ANSWER MODE (v1.282.0, owner 15 Nov; rulings R2, SET1-GO): ONE SWITCH, ONE MEANING, everywhere a card is asked (the
       // app's `_answerMode`, beside `mcActive`). Auto first and the default for a player who pressed nothing: the reader's
-      // default, never a write (nothing here or in the app writes `mcMode` unless the player presses a choice). "Classic
-      // recall" is renamed "Front Back cards" (owner); the stored values do not change (auto / classic / mc). The words say
+      // default, never a write (nothing here or in the app writes `mcMode` unless the player presses a choice). The stored
+      // values never change (auto / mc / classic); the names and lines are NG_ANSWER_MODES' (SETH3, above). The words say
       // where it applies, in his order of things: no "HERE", no "study surface".
       {
         const mode = this.settingRow("Answer mode", "How a card asks you, in Practice and in a roll.",
-          [["Auto", "auto"], ["Front Back cards", "classic"], ["Multiple choice", "mc"]], "mcMode", this._answerMode(),
-          { auto: '<b style="color:#cbd4e6;">Auto</b> &mdash; multiple choice until you get a card right twice, then front and back from then on.',
-            classic: '<b style="color:#cbd4e6;">Front Back cards</b> &mdash; the question, then the answer; you say if you got it. Checkpoints and the defence drill stay multiple choice.',
-            // D1 (a), THE OWNER'S ANSWER TO U194 (16 Nov, SET1-R3): Multiple choice means it everywhere, Last rolls' and the
-            // Path's decks included. A right pick stops at stage 2, so a card is never asked from memory and the goals that
-            // need one proven from memory ("Prove a card from memory", the four "Recall-prove …") wait until the choice
-            // changes; the line says both, plainly. Pinned by answer-mode's "a stored Multiple choice asks multiple choice in
-            // Last rolls too".
-            mc: '<b style="color:#cbd4e6;">Multiple choice</b> &mdash; always three answers to pick from. A card is never asked from memory, so the goals that need one proven from memory wait until you change this.' });
+          NG_ANSWER_MODES.map(([v, name]) => [name, v]), "mcMode", this._answerMode(),
+          Object.fromEntries(NG_ANSWER_MODES.map(([v, name, line]) => [v, '<b style="color:#cbd4e6;">' + name + '</b> &mdash; ' + line[0].toLowerCase() + line.slice(1)])));
         mode.setAttribute("data-answer-mode", "1");
         sec.appendChild(mode);
       }
