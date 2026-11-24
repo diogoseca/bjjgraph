@@ -93,7 +93,7 @@ for (const [w, h, touch] of [
       let s = await state(page);
       expect([s.q, s.card, s.shows], "nothing stored: A question, the card on").toEqual([true, true, "question"]);
       expect("landQuestions" in s.stamps || "landCard" in s.stamps, "premise: neither key was ever written").toBe(false);
-      await expect(page.locator(`${SHOWS} [data-shows-pick]`), "three choices, in order").toHaveText(["A question", "The card only", "No card"]);
+      await expect(page.locator(`${SHOWS} [data-shows-pick] [data-choice-name]`), "three choices, in order").toHaveText(["A question", "The card only", "No card"]);
       await expect(page.locator(".ng-modal"), "the two old rows are gone").not.toContainText(/Questions while you roll|Question card/);
       // [choice, landQuestions after, card after], walked so that every choice is reached from both other states
       const WALK: [string, boolean, boolean][] = [
@@ -143,4 +143,140 @@ test("from No card, the card's own Undo on the board brings back the choice befo
   await openRolling(page, j);
   s = await state(page);
   expect([s.shows, s.q, s.card], "the choice before it: The card only, its question key still off").toEqual(["card", false, true]);
+});
+
+/* ── SETH4 (v1.298.2; the owner, 24 Nov, on Answer mode: "that option can be improved wrt ux i think"): CHOICE CARDS ──────────────
+ * Answer mode was three small buttons and a box explaining ONLY the chosen one, so learning what the others do meant choosing them.
+ * Now Answer mode and "During a roll, each place shows" are radio groups of full-width cards, stacked, each with its name and its one
+ * line always shown; the chosen card is aria-checked and the one tab stop.
+ * THE CLAIMS: 3. every card's line is visible inside its card without choosing it, every card is at least 44 px each way and as wide
+ * as its group, and the cards stack (at 1074, measured, three side by side would hold ~18 characters a line, under the 28 a row
+ * needs); 4. a press on each Answer mode card, by a real mouse at 1074 and a touch tap at 390, checks it alone and stores its value;
+ * 5. by keyboard: Tab enters the group on the chosen card, the arrows choose and wrap with focus on the new choice after the redraw,
+ * the focus ring shows, Tab leaves the group in one step and Shift+Tab comes back to the chosen card, and no key reaches the game.
+ * MUTANTS (settings_layout_mutants.mjs, `spec` field this file): the lines hidden, aria-checked never set, the arrows choosing
+ * nothing, focus not put back after the redraw. Old look: revert SETH4's commit, which takes these claims with it. */
+
+const GROUP = (id: string) => `[data-choices="${id}"]`;
+const MODES: [string, string][] = [
+  ["auto", "Auto"],
+  ["mc", "Multiple choice"],
+  ["classic", "Recall"],
+];
+
+/** Each card of a group, measured: its rect, whether its own line is shown inside it, aria and tab stop. */
+const cardsOf = (page: Page, id: string) =>
+  page.evaluate((sel) => {
+    const g = document.querySelector(sel) as HTMLElement;
+    const gr = g.getBoundingClientRect();
+    return {
+      role: g.getAttribute("role"),
+      w: gr.width,
+      cards: (Array.from(g.querySelectorAll('[role="radio"]')) as HTMLElement[]).map((c) => {
+        const r = c.getBoundingClientRect(),
+          line = document.getElementById(c.getAttribute("aria-describedby") || "")!;
+        const lr = line ? line.getBoundingClientRect() : null;
+        let alpha = 1;
+        for (let n: HTMLElement | null = line; n; n = n.parentElement) alpha *= Number(getComputedStyle(n).opacity);
+        return {
+          name: (c.querySelector("[data-choice-name]")?.textContent || "").trim(),
+          checked: c.getAttribute("aria-checked"),
+          tabindex: c.getAttribute("tabindex"),
+          t: r.top,
+          b: r.bottom,
+          w: r.width,
+          h: r.height,
+          line: line ? (line.textContent || "").trim() : "",
+          lineShown: !!lr && lr.width > 0 && lr.height > 0 && line.checkVisibility() && alpha > 0.99 && lr.left >= r.left && lr.right <= r.right + 0.5 && lr.top >= r.top && lr.bottom <= r.bottom + 0.5,
+        };
+      }),
+    };
+  }, GROUP(id));
+
+for (const [w, h, touch] of [
+  [1074, 796, false],
+  [390, 631, true],
+] as [number, number, boolean][])
+  test.describe(`cards ${w}x${h}`, () => {
+    test.use({ viewport: { width: w, height: h }, hasTouch: touch, isMobile: touch });
+
+    test(`at ${w}x${h}: choice cards: every line shown without choosing, stacked full-width targets, and each Answer mode card, by ${touch ? "a touch tap" : "a real mouse"}, stores its value`, async ({ page }) => {
+      const j = journey(page);
+      await j.boot("/");
+      await page.evaluate(() => (window as any).__neural.openSettings("flashcards"));
+      await j.settingsAtRest();
+      for (const id of ["mode", "shows"]) {
+        const g = await cardsOf(page, id);
+        expect(g.role, `${id}: a radio group`).toBe("radiogroup");
+        expect(g.cards.length, `${id}: three cards`).toBe(3);
+        expect(g.cards.filter((c) => c.checked === "true").length, `${id}: exactly one chosen`).toBe(1);
+        expect(g.cards.map((c) => c.tabindex), `${id}: the chosen card is the one tab stop`).toEqual(g.cards.map((c) => (c.checked === "true" ? "0" : "-1")));
+        for (const c of g.cards) {
+          expect(c.line.length, `${id} "${c.name}": a line of its own`).toBeGreaterThan(20);
+          expect(c.lineShown, `${id} "${c.name}" (${c.checked === "true" ? "chosen" : "not chosen"}): its line is shown inside its card`).toBe(true);
+          expect(Math.min(c.w, c.h), `${id} "${c.name}": the whole card is a 44 px target`).toBeGreaterThanOrEqual(44);
+          expect(Math.abs(c.w - g.w), `${id} "${c.name}": as wide as its group`).toBeLessThanOrEqual(1);
+        }
+        for (let i = 1; i < g.cards.length; i++) expect(g.cards[i].t, `${id}: card ${i} is under card ${i - 1} (stacked)`).toBeGreaterThanOrEqual(g.cards[i - 1].b);
+      }
+      expect((await cardsOf(page, "mode")).cards.map((c) => c.name), "Answer mode's three, in order").toEqual(MODES.map((m) => m[1]));
+      // a press on each, the chosen one last so every card is pressed from another
+      for (const [v, name] of [MODES[1], MODES[2], MODES[0]]) {
+        await press(page, j, `[data-mode-pick="${v}"]`, touch, name);
+        await expect.poll(() => page.evaluate(() => (window as any).__neural.settings.mcMode ?? null), { message: `${name}: stored` }).toBe(v);
+        const g = await cardsOf(page, "mode");
+        expect(g.cards.map((c) => c.checked === "true"), `${name}: checked alone`).toEqual(MODES.map((m) => m[0] === v));
+        if (!touch) expect(await page.evaluate(() => (document.activeElement as HTMLElement)?.getAttribute("data-mode-pick")), `${name}: the redraw kept focus on the chosen card`).toBe(v);
+      }
+    });
+  });
+
+test("choice cards by keyboard: Tab enters on the chosen card, the arrows choose and wrap, the ring shows, Tab leaves once, nothing reaches the game", async ({ page }) => {
+  const j = journey(page);
+  await j.boot("/");
+  await page.evaluate(() => {
+    (window as any).__leaked = [];
+    window.addEventListener("keydown", (e) => {
+      if (/^Arrow/.test(e.key)) (window as any).__leaked.push(e.key);
+    });
+  });
+  await page.evaluate(() => (window as any).__neural.openSettings("flashcards"));
+  await j.settingsAtRest();
+  const focus = () =>
+    page.evaluate(() => {
+      const a = document.activeElement as HTMLElement | null;
+      const c = getComputedStyle(a!);
+      return {
+        pick: a?.getAttribute("data-mode-pick") ?? null,
+        inGroup: !!a?.closest('[data-choices="mode"]'),
+        ring: c.outlineStyle !== "none" && parseFloat(c.outlineWidth) >= 2,
+        stored: (window as any).__neural.settings.mcMode ?? null,
+      };
+    });
+  // from the field just before the group (Daily goal), one Tab
+  await page.locator('[aria-label="Daily goal"]').focus();
+  await page.keyboard.press("Tab");
+  let f = await focus();
+  expect([f.pick, f.stored], "Tab enters on the chosen card (Auto, nothing stored yet), and choosing nothing writes nothing").toEqual(["auto", null]);
+  expect(f.ring, "its focus ring shows").toBe(true);
+  for (const [key, want] of [
+    ["ArrowDown", "mc"],
+    ["ArrowDown", "classic"],
+    ["ArrowDown", "auto"],
+    ["ArrowUp", "classic"],
+    ["ArrowRight", "auto"],
+    ["ArrowLeft", "classic"],
+  ] as [string, string][]) {
+    await page.keyboard.press(key);
+    await expect.poll(async () => (await focus()).stored, { message: `${key} chooses ${want}` }).toBe(want);
+    f = await focus();
+    expect([f.pick, f.ring], `${key}: focus is on the new choice after the redraw, ring shown`).toEqual([want, true]);
+  }
+  await page.keyboard.press("Tab");
+  f = await focus();
+  expect(f.inGroup, "Tab leaves the group in one step").toBe(false);
+  await page.keyboard.press("Shift+Tab");
+  f = await focus();
+  expect([f.pick, f.inGroup], "Shift+Tab comes back to the chosen card").toEqual(["classic", true]);
+  expect(await page.evaluate(() => (window as any).__leaked), "no arrow reached the game's key handler").toEqual([]);
 });

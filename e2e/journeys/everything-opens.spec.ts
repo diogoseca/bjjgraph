@@ -148,10 +148,10 @@ for (const touch of [false, true]) {
       await expect(page.locator("[data-answer-mode]"), "the Answer mode row").toHaveCount(1)
       await expect(page.locator("[data-recall-locked]")).toHaveCount(0)
       await expect(page.locator("[data-recall-mode]"), "no Recall Mode row since v1.282.0").toHaveCount(0)
-      await press(page, "[data-answer-mode] button:nth-of-type(2)", "Multiple choice", touch)
+      await press(page, '[data-mode-pick="mc"]', "Multiple choice", touch)
       expect(await page.evaluate(() => (window as W).__neural.settings.mcMode), "a white belt's press is stored").toBe("mc")
-      const shown = await page.locator("[data-answer-mode] button").nth(1).evaluate((b) => getComputedStyle(b).backgroundColor)
-      expect(shown, "Multiple choice shows chosen").toBe("rgba(74, 108, 255, 0.26)")
+      // SETH4 (v1.298.2): a radio group of choice cards; the chosen one is aria-checked
+      await expect(page.locator('[data-mode-pick="mc"]'), "Multiple choice shows chosen").toHaveAttribute("aria-checked", "true")
     })
   })
 }
@@ -168,7 +168,7 @@ test("a blue belt held before the open rule: the carry is kept as the account's 
   await page.evaluate(() => (window as W).__neural.openSettings("flashcards"))
   await expect(page.locator("[data-answer-mode]"), "Settings shows the answer mode").toHaveCount(1)
   await expect(page.locator("[data-recall-mode]"), "and no switch for the carry").toHaveCount(0)
-  expect(await page.locator("[data-answer-mode] button").first().evaluate((b) => getComputedStyle(b).backgroundColor), "Auto, like everyone who chose nothing").toBe("rgba(74, 108, 255, 0.26)")
+  await expect(page.locator('[data-mode-pick="auto"]'), "Auto, like everyone who chose nothing").toHaveAttribute("aria-checked", "true")
   await page.evaluate(() => (window as W).__neural._flushSave())
   await j.boot("/", { preserveStorage: true })
   await expect.poll(() => page.evaluate(() => { const a = (window as W).__neural; return !!(a.curriculum && a.belts && a.belts.gf) })).toBe(true)

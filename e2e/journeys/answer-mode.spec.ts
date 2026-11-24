@@ -39,7 +39,9 @@ import { journey } from "../dsl"
  */
 
 type W = any
-const ACTIVE = "rgba(74, 108, 255, 0.26)"   // `segBtn`'s chosen background (everything-opens.spec.ts reads the same)
+// SETH4 (v1.298.2): Answer mode is a radio group of choice cards; the chosen one is `aria-checked` (it was `segBtn`'s background,
+// rgba(74, 108, 255, 0.26)), and each card is pressed by its stored value, `[data-mode-pick=…]`.
+const CHECKED = (sel: string) => `${sel} [role="radio"]`
 
 async function press(page: Page, selector: string, what: string, touch: boolean) {
   // the drawer's list re-renders in place as payloads land (the first run met "Element is not attached" here): re-query
@@ -94,12 +96,12 @@ for (const touch of [false, true]) {
       await press(page, '[data-settings-tab="flashcards"]', "the Flashcards tab", touch)
       const row = page.locator("[data-answer-mode]")
       await expect(row, "the Answer mode row").toHaveCount(1)
-      await expect(row.locator("button"), "three choices: Auto first, then Multiple choice and Recall (SETH3; Classic, then Recall, renamed)").toHaveText(["Auto", "Multiple choice", "Recall"])
+      await expect(row.locator("[data-choice-name]"), "three choices: Auto first, then Multiple choice and Recall (SETH3; Classic, then Front Back cards, renamed)").toHaveText(["Auto", "Multiple choice", "Recall"])
       await expect(row, "the words say where it applies").toContainText("How a card asks you, in Practice and in a roll.")
       await expect(row).not.toContainText("HERE")
-      await expect(row, "Auto's line").toContainText("multiple choice until you get a card right twice, then recall from then on")
-      const bg = await row.locator("button").evaluateAll((bs) => bs.map((b) => getComputedStyle(b).backgroundColor))
-      expect(bg.map((c) => c === ACTIVE), "Auto is the chosen one").toEqual([true, false, false])
+      await expect(row, "Auto's line").toContainText(/multiple choice until you get a card right twice, then recall from then on/i)
+      const chosen = await page.locator(CHECKED("[data-answer-mode]")).evaluateAll((bs) => bs.map((b) => b.getAttribute("aria-checked") === "true"))
+      expect(chosen, "Auto is the chosen one").toEqual([true, false, false])
       await expect(page.locator("[data-recall-mode]"), "Recall mode (in play) left Settings").toHaveCount(0)
       await expect(page.locator(".ng-modal"), "and so did Show flashcards on pages").not.toContainText("Show flashcards on pages")
       await expect(page.locator(".ng-modal")).not.toContainText("Recall mode")
@@ -107,8 +109,8 @@ for (const touch of [false, true]) {
       await expect(page.locator(".ng-modal"), "the tab's first row is drawn").toContainText("Daily goal")
       await expect(page.locator(".ng-modal"), "Focus left Settings").not.toContainText(/Focus|Antifragile|Converge|Shore up weaknesses/)
       expect(await stored(page), "storage has no mcMode: Auto is the reader's default, never a write").toEqual({ memory: null, disk: null, saved: true })
-      await press(page, "[data-answer-mode] button:nth-of-type(3)", "Recall", touch)
-      await expect.poll(() => page.locator("[data-answer-mode] button").evaluateAll((bs) => bs.map((b) => getComputedStyle(b).backgroundColor === "rgba(74, 108, 255, 0.26)")),
+      await press(page, '[data-mode-pick="classic"]', "Recall", touch)
+      await expect.poll(() => page.locator(CHECKED("[data-answer-mode]")).evaluateAll((bs) => bs.map((b) => b.getAttribute("aria-checked") === "true")),
         { message: "Recall is chosen" }).toEqual([false, false, true])
       expect(await stored(page), "a press writes the choice").toEqual({ memory: "classic", disk: "classic", saved: true })
     })
@@ -479,8 +481,8 @@ for (const touch of [false, true]) {
       await press(page, ".ng-drawer-brand", "‹ Master the game", touch)
       await expect(page.locator(".ng-drawer-brand")).toHaveText("‹ Last rolls")
       await settings()
-      await shown("[data-answer-mode] button:nth-of-type(1)")
-      await press(page, "[data-answer-mode] button:nth-of-type(1)", "Auto", touch)
+      await shown('[data-mode-pick="auto"]')
+      await press(page, '[data-mode-pick="auto"]', "Auto", touch)
       expect(await page.evaluate(() => (window as W).__neural.get("mcMode")), "the choice is stored").toBe("auto")
       await press(page, ".ng-modal .x", "close Settings", touch)
       await j.knowsPlanMoves()   // Auto asks a place's moves before its cards (L2); this step is about the card

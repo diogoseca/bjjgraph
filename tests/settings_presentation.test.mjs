@@ -103,7 +103,7 @@ test("load failure has real Retry; explicit retry uses fresh attempt and real co
   assert.equal(goal.value, Number(source.match(/const NG_PRACTICE_GOAL = (\d+);/)[1])); assert.equal(goal.value, 20);
   goal.value="999"; goal.fire("change");
   assert.equal(app.get("dailyGoal",30),200); assert.equal(goal.value,200); assert.equal(calls.saved,1);
-  clickText(card,"Multiple choice"); assert.equal(app.get("mcMode"),"mc"); assert.equal(calls.saved,2);
+  card.querySelector('[data-mode-pick="mc"]').click(); assert.equal(app.get("mcMode"),"mc"); assert.equal(calls.saved,2);
   assert.equal(app.renderSettings(),true,"installed callbacks stay synchronous");
 });
 
@@ -312,17 +312,18 @@ test("the Flashcards tab: Daily goal, Answer mode (Auto chosen for nothing store
   assert.ok(text.includes("How a card asks you, in Practice and in a roll."), "the words say where it applies");
   assert.ok(!/HERE|study surface|Classic recall|Front Back/.test(text), "no old words, no old label");
   const row = card.querySelector("[data-answer-mode]"); assert.ok(row, "the row is marked");
-  assert.deepEqual(row.querySelectorAll("button").map((b) => b.textContent), ["Auto", "Multiple choice", "Recall"], "SETH3: renamed and reordered");
-  const chosen = row.querySelectorAll("button").map((b) => /rgba\(74,108,255,\.26\)/.test(b.style.cssText.replace(/\s/g, "")));
-  assert.deepEqual(chosen, [true, false, false], "Auto is chosen for a player who pressed nothing");
-  assert.ok(text.includes("multiple choice until you get a card right twice, then recall from then on"), "Auto's line");
+  const choices = row.querySelectorAll("[data-mode-pick]");
+  assert.deepEqual(choices.map((c) => c.querySelector("[data-choice-name]").textContent), ["Auto", "Multiple choice", "Recall"], "SETH3: renamed and reordered");
+  assert.deepEqual(choices.map((c) => c.getAttribute("data-mode-pick")), ["auto", "mc", "classic"], "the stored values never change");
+  assert.deepEqual(choices.map((c) => c.getAttribute("aria-checked")), ["true", "false", "false"], "Auto is chosen for a player who pressed nothing");
+  assert.ok(text.toLowerCase().includes("multiple choice until you get a card right twice, then recall from then on"), "Auto's line");
   assert.equal(card.querySelector("[data-recall-mode]"), null, "Recall mode (in play) is gone");
   assert.ok(!text.includes("Recall mode") && !text.includes("Show flashcards on pages"), "and both retired rows' words");
   assert.ok(!/Focus|Shore up weaknesses|Antifragile|Converge/.test(text), "Focus is gone, its words with it (U190 c)");
   assert.deepEqual(card.querySelectorAll("button").map((b) => b.textContent).filter((t) => /Antifragile|Converge/.test(t)), [], "and its buttons");
   assert.equal("mcMode" in app.settings, false, "rendering wrote nothing");
-  clickText(card, "Multiple choice"); assert.equal(app.get("mcMode"), "mc", "a press writes the choice");
-  clickText(card, "Recall"); assert.equal(app.get("mcMode"), "classic", "Recall is the stored classic (SETH3: the value never changes)");
+  card.querySelector('[data-mode-pick="mc"]').click(); assert.equal(app.get("mcMode"), "mc", "a press writes the choice");
+  card.querySelector('[data-mode-pick="classic"]').click(); assert.equal(app.get("mcMode"), "classic", "Recall is the stored classic (SETH3: the value never changes)");
 });
 
 // SET1 (v1.295.3; the owner, 23 Nov 2026: "why is article settings inside rolling? one can just have landed in an article and not be
@@ -382,7 +383,7 @@ test("SETH2 B: During a roll, each place shows: each choice sets exactly its two
   const shows = () => card.querySelector("[data-settings-shows]").getAttribute("data-settings-shows");
   const now = () => [app.get("landQuestions", true), app._layerOn("card"), shows()];
   const pickIt = (v) => card.querySelector('[data-shows-pick="' + v + '"]').click();
-  assert.deepEqual(card.querySelectorAll("[data-shows-pick]").map((b) => b.textContent), ["A question", "The card only", "No card"]);
+  assert.deepEqual(card.querySelectorAll("[data-shows-pick]").map((b) => b.querySelector("[data-choice-name]").textContent), ["A question", "The card only", "No card"]);
   assert.ok(!/Questions while you roll|Question card/.test(card.textContent), "the two old rows are gone");
   assert.deepEqual(now(), [true, true, "question"], "nothing stored reads as A question");
   pickIt("question"); assert.equal("landQuestions" in app.settings || "landCard" in app.settings, false, "a pick that changes nothing writes nothing");
@@ -399,4 +400,35 @@ test("SETH2 B: During a roll, each place shows: each choice sets exactly its two
   app.setLayer("card", true, "undo"); app.renderSettings(); assert.deepEqual(now(), [false, true, "card"], "and its Undo: the choice before it");
   assert.match(card.querySelector("[data-settings-shows]").textContent, /A submission that catches you still asks its defence drill/, "The card only says the drill still asks");
   pickIt("none"); assert.match(card.querySelector("[data-settings-shows]").textContent, /the film follows Video under Articles/, "No card says where the film is decided");
+});
+
+// SETH4 (v1.298.2; the owner, 24 Nov, on Answer mode: "that option can be improved wrt ux i think"): CHOICE CARDS, one pattern for
+// Answer mode and for "During a roll, each place shows". A radio group: each card a role=radio with aria-checked, the chosen one the
+// only tab stop, its name and its one line ALWAYS there (no box that explains only the chosen one), Auto tagged "Recommended", the
+// arrows move and choose (wrapping), and the redraw a choice makes puts focus back on the chosen card. Layout, hit-testing, the focus
+// ring and the presses by mouse, touch and keyboard: e2e/journeys/settings-choices.spec.ts.
+test("SETH4: Answer mode and each place shows are radio groups of cards, every line shown, the arrows choosing, focus kept", async () => {
+  const {app,card} = fixture();
+  await app.openSettings("flashcards");
+  const group = (id) => card.querySelectorAll("[data-choices]").find((g) => g.getAttribute("data-choices") === id);
+  for (const [id, n, lines] of [["mode", 3, ["then recall from then on", "Recognition: easier", "Harder, and what makes it stick"]], ["shows", 3, ["keys A–C", "No combos.", "the film follows Video under Articles"]]]) {
+    const g = group(id); assert.ok(g, id + ": drawn"); assert.equal(g.getAttribute("role"), "radiogroup"); assert.ok(g.getAttribute("aria-label"));
+    const cs = g.querySelectorAll('[role="radio"]'); assert.equal(cs.length, n, id + ": three radios");
+    assert.equal(cs.filter((c) => c.getAttribute("aria-checked") === "true").length, 1, id + ": exactly one chosen");
+    assert.deepEqual(cs.map((c) => c.getAttribute("tabindex")), cs.map((c) => (c.getAttribute("aria-checked") === "true" ? "0" : "-1")), id + ": the chosen card is the one tab stop");
+    lines.forEach((l, i) => assert.ok(cs[i].textContent.includes(l), id + ": card " + i + " carries its own line, chosen or not"));
+    assert.equal(card.querySelectorAll(".ng-set-cn").filter((b) => g.parentElement.contains(b)).length, 0, id + ": no box explaining only the chosen one");
+  }
+  const tags = card.querySelectorAll(".ng-set-tag");
+  assert.deepEqual(tags.map((t) => [t.textContent, t.parentElement.parentElement.getAttribute("data-mode-pick")]), [["Recommended", "auto"]], "one tag, on Auto");
+  // the arrows choose, wrapping, and focus follows the choice through the redraw
+  const keyOn = (id, k) => { const g = group(id); document.activeElement = g.querySelector('[aria-checked="true"]'); return g.fire("keydown", { key: k }); };
+  const ev = keyOn("mode", "ArrowDown"); assert.equal(ev.defaultPrevented, true); assert.equal(ev.stopped, true, "the key does not reach the game");
+  assert.equal(app.get("mcMode"), "mc", "ArrowDown chooses the next");
+  keyOn("mode", "ArrowDown"); assert.equal(app.get("mcMode"), "classic");
+  keyOn("mode", "ArrowDown"); assert.equal(app.get("mcMode"), "auto", "and wraps");
+  keyOn("mode", "ArrowUp"); assert.equal(app.get("mcMode"), "classic", "ArrowUp wraps back");
+  keyOn("shows", "ArrowRight"); assert.deepEqual([app.get("landQuestions", true), app._layerOn("card")], [false, true], "ArrowRight: The card only");
+  keyOn("shows", "ArrowLeft"); assert.deepEqual([app.get("landQuestions", true), app._layerOn("card")], [true, true], "ArrowLeft: A question");
+  assert.equal(keyOn("mode", "Tab").defaultPrevented, undefined, "Tab is left to the browser: it leaves the group in one step");
 });

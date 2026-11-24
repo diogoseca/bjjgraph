@@ -86,6 +86,18 @@ background:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wi
 .ng-set-arts input:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:2px}\
 .ng-set-keys>div{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0;border-top:1px solid rgba(150,170,210,.07);font-size:13.5px;color:#dbe2f0}\
 .ng-set-foot{flex:none;display:flex;justify-content:center;align-items:center;gap:16px;padding:0 24px;border-top:1px solid rgba(150,170,210,.1)}\
+.ng-set-choices{display:flex;flex-direction:column;gap:8px;margin-top:12px}\
+.ng-set-choice{display:grid;grid-template-columns:20px minmax(0,1fr);column-gap:12px;row-gap:4px;align-items:start;width:100%;box-sizing:border-box;min-height:44px;margin:0;padding:12px 16px 12px 12px;border:1px solid rgba(150,170,210,.14);border-radius:12px;background:rgba(255,255,255,.03);color:#eef1f6;font:inherit;text-align:left;cursor:pointer}\
+.ng-set-choice:hover{border-color:rgba(150,170,210,.3)}\
+.ng-set-choice[aria-checked=true]{background:rgba(74,108,255,.2);border-color:rgba(150,180,255,.45)}\
+.ng-set-choice:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:2px}\
+.ng-set-radio{grid-row:1/span 2;display:flex;align-items:center;justify-content:center;width:20px;height:20px;box-sizing:border-box;border-radius:50%;border:2px solid rgba(150,170,210,.5)}\
+.ng-set-choice[aria-checked=true] .ng-set-radio{border-color:#96b4ff}\
+.ng-set-choice[aria-checked=true] .ng-set-radio::after{content:'';width:8px;height:8px;border-radius:50%;background:#96b4ff}\
+.ng-set-cname{grid-column:2;display:flex;align-items:center;flex-wrap:wrap;gap:8px;min-height:20px;font-size:14px;font-weight:600;line-height:20px;color:#eef1f6}\
+.ng-set-cline{grid-column:2;font-size:13px;line-height:1.5;color:#93a0bd}\
+.ng-set-choice[aria-checked=true] .ng-set-cline{color:#b4c0da}\
+.ng-set-tag{padding:0 8px;border-radius:999px;background:rgba(74,108,255,.22);font-size:11px;font-weight:600;line-height:20px;letter-spacing:.02em;color:#c9d6ff}\
 .ng-set-mods>div:nth-of-type(2)>div:first-child{padding-top:0!important;padding-bottom:0!important}\
 .ng-set-mods>div:nth-of-type(2)>div:first-child>input,.ng-set-mods>div:nth-of-type(2)>div:last-child>button,.ng-set-mods>button{box-sizing:border-box;min-height:40px;min-width:40px}\
 @media (max-width:599px){\
@@ -154,6 +166,44 @@ export async function ngInstallSettingsPresentation(target, dependencies) {
     const b = el("button", "ng-set-tick ng-set-ctl", "<span>" + (on ? "✓" : "") + "</span>");
     b.type = "button"; b.setAttribute("aria-pressed", on ? "true" : "false"); if (attr) b.setAttribute(attr[0], attr[1]);
     b.addEventListener("click", onPress); return b;
+  };
+  // CHOICE CARDS (SETH4, v1.298.2; the owner, 24 Nov, on Answer mode: "that option can be improved wrt ux i think"). It was three small
+  // buttons and a box explaining ONLY the chosen one, so learning what the other two do meant choosing them, which changed the setting.
+  // Now each choice is its own full-width card, stacked: a radio mark, the name in an option title's look, and its one line ALWAYS
+  // shown under it; the chosen card has the selected tab's treatment (its fill and border), the others the plain row surface. A radio
+  // group (role radiogroup / radio, aria-checked): Tab enters on the chosen card and leaves the group in one step (roving tabindex),
+  // the arrows move AND choose (wrapping), Space or ⏎ chooses the focused card, and the whole card is the target (44 px or more).
+  // A choice redraws the card (`renderSettings`), and the redraw puts focus back on the chosen card (`_settingsRadio`, below, the
+  // tabs' refocus rule). STACKED AT EVERY WIDTH, measured: Settings is at most 760 px wide, so three cards side by side at 1074 and
+  // at 1440 would hold their line at ~18 characters a line, under the 28 a row needs. One pattern for Answer mode and for "During a
+  // roll, each place shows" (`id` names the group for the refocus; `attr` is each card's hook, `data-mode-pick` / `data-shows-pick`).
+  // ONE COMMIT (SETH4): the owner may pick the old look, and the revert of that commit is the whole way back.
+  const choiceCards = (id, label, choices, now, attr, onPick, tag) => {
+    const g = el("div", "ng-set-choices");
+    g.setAttribute("role", "radiogroup"); g.setAttribute("aria-label", label); g.setAttribute("data-choices", id);
+    const cards = choices.map(([v, name, line]) => {
+      const on = v === now, c = el("button", "ng-set-choice");
+      c.type = "button"; c.setAttribute("role", "radio"); c.setAttribute("aria-checked", on ? "true" : "false");
+      c.setAttribute("tabindex", on ? "0" : "-1"); c.setAttribute(attr, v);
+      const mark = el("span", "ng-set-radio"), nm = el("span", "ng-set-cname"), word = el("span"), ln = el("span", "ng-set-cline");
+      nm.id = "ng-choice-" + id + "-" + v; ln.id = nm.id + "-line"; mark.setAttribute("aria-hidden", "true");
+      word.textContent = name; word.setAttribute("data-choice-name", ""); nm.appendChild(word);
+      if (tag && tag[0] === v) nm.appendChild(el("span", "ng-set-tag")).textContent = tag[1];
+      ln.textContent = line;
+      c.setAttribute("aria-labelledby", nm.id); c.setAttribute("aria-describedby", ln.id);
+      c.append(mark, nm, ln);
+      c.addEventListener("click", () => { if (v !== now) onPick(v); });
+      g.appendChild(c); return c;
+    });
+    g.addEventListener("keydown", (e) => {
+      const step = { ArrowDown: 1, ArrowRight: 1, ArrowUp: -1, ArrowLeft: -1 }[e.key];
+      if (!step) return;
+      e.preventDefault(); e.stopPropagation();
+      const at = cards.indexOf(document.activeElement), n = cards.length;
+      const to = ((at < 0 ? choices.findIndex((c) => c[0] === now) : at) + step + n) % n;
+      if (choices[to][0] !== now) onPick(choices[to][0]); else cards[to].focus();
+    });
+    return g;
   };
   const methods = {
 _settingsTabRow(row, tab, refocus, tabs, panel) {
@@ -244,6 +294,9 @@ renderSettings() {
     // that just chose it) is destroyed under the user. Remember that, before the wipe blurs it,
     // and hand focus to the new active one below; otherwise the second arrow press lands on <body>.
     const ae = document.activeElement, refocus = !!(ae && card.contains(ae) && ae.getAttribute("role") === "tab");
+    // A CHOICE CARD THAT HAS FOCUS (SETH4) gets it back on the redraw: the chosen card of the same group (an arrow key's choice, or
+    // the card a click just chose), as the group list's tab does above.
+    const radio = ae && card.contains(ae) && ae.getAttribute("role") === "radio" && ae.closest("[data-choices]") ? ae.closest("[data-choices]").getAttribute("data-choices") : null;
     card.innerHTML = "";
     const head = el("div", "ng-set-head");
     head.innerHTML = '<div class="ng-set-top"><h2>Settings</h2><button type="button" class="x ng-set-x" aria-label="Close settings">&times;</button></div>';
@@ -285,9 +338,10 @@ renderSettings() {
       // values never change (auto / mc / classic); the names and lines are NG_ANSWER_MODES' (SETH3, above). The words say
       // where it applies, in his order of things: no "HERE", no "study surface".
       {
-        const mode = this.settingRow("Answer mode", "How a card asks you, in Practice and in a roll.",
-          NG_ANSWER_MODES.map(([v, name]) => [name, v]), "mcMode", this._answerMode(),
-          Object.fromEntries(NG_ANSWER_MODES.map(([v, name, line]) => [v, '<b style="color:#cbd4e6;">' + name + '</b> &mdash; ' + line[0].toLowerCase() + line.slice(1)])));
+        // SETH4: the three as choice cards, every line shown; Auto is tagged "Recommended" (the owner's default since v1.282.0).
+        const mode = words(el("div", "ng-set-row"), "Answer mode", "How a card asks you, in Practice and in a roll.");
+        mode.appendChild(choiceCards("mode", "Answer mode", NG_ANSWER_MODES, this.get("mcMode", this._answerMode()), "data-mode-pick",
+          (v) => { this.set("mcMode", v); this.renderSettings(); }, ["auto", "Recommended"]));
         mode.setAttribute("data-answer-mode", "1");
         sec.appendChild(mode);
       }
@@ -433,15 +487,7 @@ renderSettings() {
         };
         const shows = el("div", "ng-set-row"); shows.append(el("div", "ng-set-t", "During a roll, each place shows"));
         shows.setAttribute("data-settings-shows", now); shows.setAttribute("data-layer-row", "card");
-        const seg = el("div", "ng-set-seg");
-        for (const [v, name] of NG_ROLL_SHOWS) {
-          const b = this.segBtn(name, v === now, false, () => pick(v));
-          b.setAttribute("data-shows-pick", v); b.setAttribute("aria-pressed", v === now ? "true" : "false");
-          seg.appendChild(b);
-        }
-        shows.appendChild(seg);
-        const line = NG_ROLL_SHOWS.find((r) => r[0] === now);
-        shows.appendChild(el("div", "ng-set-cn", '<b style="color:#cbd4e6;">' + line[1] + '</b> &mdash; ' + line[2][0].toLowerCase() + line[2].slice(1)));
+        shows.appendChild(choiceCards("shows", "During a roll, each place shows", NG_ROLL_SHOWS, now, "data-shows-pick", pick));
         sec.appendChild(shows);
       }
       // decision time pace
@@ -569,6 +615,7 @@ renderSettings() {
     }
     }
     this._settingsTabRow(nav, tab, refocus, tabs, body);
+    if (radio) { const r = body.querySelector('[data-choices="' + radio + '"] [aria-checked="true"]'); if (r) r.focus({ preventScroll: true }); }
     // A new opening starts at its group (the first group is the top); a redraw keeps the panel where it was.
     if (fresh) { if (tab !== tabs[0][0]) this._settingsJump(tab, false); } else body.scrollTop = panelY;
     // HIDESEC2: a closed part's message (reader.src.js notice) opens Settings here, at that part's own switch: scrolled to the middle,

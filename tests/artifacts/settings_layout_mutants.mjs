@@ -48,6 +48,12 @@ const MUTANTS = [
   ["shows-question-asks-nothing", "settings", "at 1074x796: each place shows", '&&this.set("landQuestions",', '&&this.set("landQuestions",!', "red", CHOICES],
   ["shows-card-keeps-question", "settings", "at 1074x796: each place shows", '!=="none"&&this.get("landQuestions"', '==="question"&&this.get("landQuestions"', "red", CHOICES],
   ["shows-none-keeps-card", "settings", "at 1074x796: each place shows", '!=="none","settings")', '!=="nonX","settings")', "red", CHOICES],
+  // SETH4 (v1.298.2): the choice cards' claims, red in the same spec. Reverting SETH4's commit removes these with the cards.
+  ["cards-lines-hidden", "settings", "at 1074x796: choice cards", ".ng-set-cline{grid-column:2;", ".ng-set-cline{display:none;grid-column:2;", "red", CHOICES],
+  ["cards-lines-hidden-phone", "settings", "at 390x631: choice cards", ".ng-set-cline{grid-column:2;", ".ng-set-cline{display:none;grid-column:2;", "red", CHOICES],
+  ["cards-never-checked", "settings", "at 1074x796: choice cards", '("aria-checked",', '("aria-checked","false")||(', "red", CHOICES],
+  ["cards-arrows-choose-nothing", "settings", "choice cards by keyboard", "{ArrowDown:1,ArrowRight:1,", "{ArrowDownX:1,ArrowRightX:1,", "red", CHOICES],
+  ["cards-focus-lost-on-redraw", "settings", "choice cards by keyboard", "[aria-checked=\"true\"]');", "[aria-checkedX=\"true\"]');", "red", CHOICES],
   // SET1-RED (PR #451's first CI run): CONTROLS THAT MUST STAY GREEN (the sixth field). The card's entrance slowed to 1.2 s: the frame
   // step must still read the card where it RESTS. The step as first shipped read it mid-slide on CI (30.68 px from the bottom at 800,
   // [0, 1, 390, 632] at 390) and goes red here; the step that waits for the card's animations holds.
