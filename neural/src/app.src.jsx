@@ -411,12 +411,15 @@ const NG_MIX_SITES_BY_DEFAULT = true;
 // Practice (cards) · Rolling (the game) · Articles (what an article shows, read with or without a roll; they
 // were inside Rolling) · General (gi/no-gi and sound, which act everywhere) · Your odds · Email · Keyboard.
 // The five old ids are kept, with new labels, and `reading` and `app` are new; ids only, no settings key moves
-// (CLAUDE.md §6.6). The order is load-bearing: Practice first is what the badge menu opens on, and Rolling
-// before General keeps "where the roll starts" above the gi/no-gi choice (start-from.spec.ts). A new group is
-// one row here and one branch in settings-ui.src.js; settings-tabs.spec.ts measures the list at every size.
+// (CLAUDE.md §6.6). The order is load-bearing: the FIRST group is what a plain opening (the badge menu's Settings,
+// a link to a group this opening hides) lands on. GENERAL FIRST since SETH2 A (v1.298.2; the owner, 23 Nov 2026:
+// "move general section to the top"): it was Practice first, and "where the roll starts" above the gi/no-gi choice
+// (start-from.spec.ts, now "filed under Rolling, the choice under General"). The others keep their order. A plain
+// opening's `neural_settings_opened` therefore says `tab: "app"` from this version on (it said "flashcards").
+// A new group is one row here and one branch in settings-ui.src.js; settings-tabs.spec.ts measures the list at every size.
 // THE HEAL-ONLY PUSH BACKS OFF (MOVE-R1, F3): the first wait and its ceiling. See `_pushCloud`.
 const NG_HEAL_WAIT_MIN = 60000, NG_HEAL_WAIT_MAX = 3600000;   // 1 min, doubling to at most an hour (MOVE-R2 R2)
-const NG_SETTINGS_TABS = [["flashcards", "Practice"], ["rolling", "Rolling"], ["reading", "Articles"], ["app", "General"], ["modifiers", "Your odds"], ["notifications", "Email"], ["shortcuts", "Keyboard"]];
+const NG_SETTINGS_TABS = [["app", "General"], ["flashcards", "Practice"], ["rolling", "Rolling"], ["reading", "Articles"], ["modifiers", "Your odds"], ["notifications", "Email"], ["shortcuts", "Keyboard"]];
 // IS THE TRAINING-DAY EMAIL LIVE? Not yet (v1.261.1). Owner, 12 Nov 2026, briefing answer U139 a:
 // "Hide it while the digest is off." The digest cannot send: the owner decided on 11 Nov 2026 that it
 // stays off, and its two tables, `digest_sent` and `digest_suppress` (supabase/digest_v1.sql), do not
@@ -6249,7 +6252,7 @@ class Component extends DCLogic {
     // write of `_settingsTab` after this one is a press on a tab the row drew, so it never names a hidden tab.
     const notif = NG_DIGEST_LIVE || !!this.user && !!this.get("emailDigest", false);
     this._settingsTabs = notif ? NG_SETTINGS_TABS : NG_SETTINGS_TABS.filter((t) => t[0] !== "notifications");
-    this._settingsTab = tab && (notif || tab !== "notifications") ? tab : "flashcards"; this._settingsRowX = null;
+    this._settingsTab = tab && (notif || tab !== "notifications") ? tab : this._settingsTabs[0][0]; this._settingsRowX = null;
     this.track("neural_settings_opened", { tab: this._settingsTab }); this.openModal();
     this._settingsIntent = { owner: this._progressOwnerStamp, modal: this._modalGeneration,
       card: this.modalCardRef.current, focus: true };

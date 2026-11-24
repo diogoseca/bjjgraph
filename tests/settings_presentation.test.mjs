@@ -163,7 +163,7 @@ test("unchanged real controls retain settings keys, effects, direct tabs and key
   const slider=card.querySelectorAll("input").find(e=>e.type === "range"); slider.value="12"; slider.fire("input"); assert.equal(app.get("decisionSec"),12); assert.equal(card.querySelector(".paceVal").textContent,"12");
   const row=card.querySelector('[role="tablist"]'), event=row.fire("keydown",{key:"End"});
   assert.equal(event.stopped,true); assert.equal(event.defaultPrevented,true); assert.equal(app._settingsTab,"shortcuts"); assert.equal(document.activeElement.getAttribute("data-settings-tab"),"shortcuts");
-  const current=card.querySelector('[role="tablist"]'); current.fire("keydown",{key:"ArrowRight"}); assert.equal(app._settingsTab,"flashcards");
+  const current=card.querySelector('[role="tablist"]'); current.fire("keydown",{key:"ArrowRight"}); assert.equal(app._settingsTab,"app");
   // U139 a (v1.261.1): a signed-in player reaches the email switch only while it is stored on, so this
   // presses Off; pressing On is the flipped tests' claim below (the email live, v1.259.1's Settings).
   // SET1: every group is on the one page, so "Off" is pressed in the email's own row (the opponent's comes first).
@@ -208,8 +208,9 @@ const selectedTab = (card) => card.querySelector('[role="tab"][aria-selected="tr
 const panelOf = (card) => card.querySelector('[role="tabpanel"]').getAttribute("aria-labelledby");
 const key = (card, k) => card.querySelector('[role="tablist"]').fire("keydown", { key: k });
 // SET1 (v1.295.3): seven groups of one page, the five old ids kept and `reading` and `app` added (NG_SETTINGS_TABS).
-const FIVE = ["flashcards", "rolling", "reading", "app", "modifiers", "notifications", "shortcuts"];
-const FOUR = ["flashcards", "rolling", "reading", "app", "modifiers", "shortcuts"];
+// SETH2 A (v1.298.2, the owner): General (`app`) first; the others keep their order, and Settings opens on the first.
+const FIVE = ["app", "flashcards", "rolling", "reading", "modifiers", "notifications", "shortcuts"];
+const FOUR = ["app", "flashcards", "rolling", "reading", "modifiers", "shortcuts"];
 const digest = (card) => card.querySelector("[data-digest-setting]");
 // v1.259.1's own words, copied from that version's settings-ui.src.js, so "to the letter" has a fixed oracle.
 const V1259_ROW = "After a day you reviewed something: your techniques, your Game Knowledge, your streak — mailed to player@example.com.";
@@ -225,12 +226,12 @@ test("U139 a: signed in with the email off, Settings has no Notifications tab, a
   assert.equal(card.querySelector("[data-digest-setting]"), null);
   // a deep link (and any saved tab) naming the hidden tab opens the first one, with its own panel
   assert.equal(app.openSettings("notifications"), true);
-  assert.equal(app._settingsTab, "flashcards"); assert.equal(selectedTab(card), "flashcards"); assert.equal(panelOf(card), "ng-stab-flashcards");
+  assert.equal(app._settingsTab, "app"); assert.equal(selectedTab(card), "app"); assert.equal(panelOf(card), "ng-stab-app");
   assert.equal(card.querySelector("[data-digest-setting]"), null); assert.equal(card.querySelector("[data-notif-signedout]"), null);
   // the arrow keys walk the four drawn tabs and never land on the hidden one
   app.openSettings("modifiers"); key(card, "ArrowRight"); assert.equal(app._settingsTab, "shortcuts", "Modifiers → Shortcuts, skipping the hidden tab");
   key(card, "ArrowLeft"); assert.equal(app._settingsTab, "modifiers");
-  key(card, "End"); assert.equal(app._settingsTab, "shortcuts"); key(card, "ArrowRight"); assert.equal(app._settingsTab, "flashcards", "and wraps over four");
+  key(card, "End"); assert.equal(app._settingsTab, "shortcuts"); key(card, "ArrowRight"); assert.equal(app._settingsTab, "app", "and wraps over four");
   for (const t of FOUR) { app.openSettings(t); assert.equal(selectedTab(card), t); assert.equal(card.querySelector("[data-digest-setting]"), null, t); }
   // NOTHING STORED CHANGES: no key, no timestamp, no save, and the recorder still reads the stored setting
   assert.equal("emailDigest" in app.settings, false); assert.equal("emailDigest" in app._settingsAt, false); assert.equal(calls.saved, 0);
@@ -252,7 +253,7 @@ test("U139 a: an account with the email stored on keeps the tab and the row, is 
   // this opening keeps the row, so the press visibly took; the tab is gone from the next opening on
   assert.deepEqual(tabIds(card), FIVE); assert.ok(card.querySelector("[data-digest-setting]"), "the row stays until Settings closes");
   app.closeModal(); assert.equal(await app.openSettings("notifications"), true);
-  assert.deepEqual(tabIds(card), FOUR, "reopened: no Notifications tab"); assert.equal(selectedTab(card), "flashcards");
+  assert.deepEqual(tabIds(card), FOUR, "reopened: no Notifications tab"); assert.equal(selectedTab(card), "app");
   assert.equal(card.querySelector("[data-digest-setting]"), null);
 });
 
@@ -265,7 +266,7 @@ test("U139 a: a guest has no Notifications tab, whatever this device stored, and
     assert.equal(await app.openSettings(), true, String(stored));
     assert.deepEqual(tabIds(card), FOUR, "a guest sees four tabs, stored " + stored);
     assert.equal(app.openSettings("notifications"), true);
-    assert.equal(selectedTab(card), "flashcards", "the link opens the first tab, stored " + stored); assert.equal(panelOf(card), "ng-stab-flashcards");
+    assert.equal(selectedTab(card), "app", "the link opens the first tab, stored " + stored); assert.equal(panelOf(card), "ng-stab-app");
     assert.equal(card.querySelector("[data-notif-signedout]"), null, String(stored)); assert.equal(card.querySelector("[data-digest-setting]"), null, String(stored));
     app.openSettings("modifiers"); key(card, "ArrowRight"); assert.equal(app._settingsTab, "shortcuts", "the keys skip it, stored " + stored);
     assert.equal(app.settings.emailDigest, stored, "nothing stored changes"); assert.equal(calls.saved, 0);
@@ -348,7 +349,7 @@ test("SET1: one page of groups in their order, each old id lighting its own; art
   assert.equal(inGroup("[data-answer-mode]"), "flashcards"); assert.equal(inGroup("[data-settings-start]"), "rolling");
   assert.equal(inGroup('[data-layer-toggle="card"]'), "rolling"); assert.equal(inGroup('[data-layer-toggle="hand"]'), "rolling");
   assert.equal(card.querySelector('[data-layer-toggle="film"]'), null, "the film's own row is gone: Video is the one switch");
-  assert.deepEqual(card.querySelectorAll('[role="tab"]').map((t) => t.textContent), ["Practice", "Rolling", "Articles", "General", "Your odds", "Keyboard"]);
+  assert.deepEqual(card.querySelectorAll('[role="tab"]').map((t) => t.textContent), ["General", "Practice", "Rolling", "Articles", "Your odds", "Keyboard"]);
   const notes = card.querySelectorAll(".ng-set-note").map((n) => n.textContent);
   assert.deepEqual(notes, [NOTE, NOTE], "the owner's note, word for word: the head's copy and the phone's, which scrolls");
   assert.ok(!/⚠/.test(card.textContent), "no emoji");

@@ -214,7 +214,7 @@ renderSettings() {
     // The frame is the stylesheet's (`[data-settings-card]` above, over the inline width every dialog writes); `openModal`
     // takes the mark off for every other dialog, so none of them inherits it.
     card.setAttribute("data-settings-card", "");
-    const tab = this._settingsTab || "flashcards", tabs = this._settingsTabs;
+    const tabs = this._settingsTabs, tab = this._settingsTab || tabs[0][0];
     // EVERY CHANGE REDRAWS THE CARD, so the panel keeps its scroll through a redraw (a switch stays under the pointer) and only
     // a new opening goes to its group: `openSettings` clears `_settingsRowX`, and the list's first draw sets it again.
     const previous = card.querySelector('[role="tabpanel"]'), fresh = this._settingsRowX == null;
