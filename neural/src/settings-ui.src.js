@@ -34,8 +34,11 @@ export const NG_SETTINGS_PRESENTATION_BUILD = NG_SETTINGS_UI_BUILD;
 // option title at four sizes; a wheel to each heading in turn lights its group), with the mutant "heads-as-options".
 // The modifiers' own controls are drawn by `buildModifiers` (eager, app.src.jsx) with inline sizes under the target; the
 // rules at the foot that name `.ng-set-mods` lift its search box, its kind chips and "Add modifier" to the
-// target from here, so the eager bundle does not grow. A modifier's own row (its dot, − / +, delete) exists only after one is
-// added and is NOT lifted: modifiers are not saved (the orchestrator's finding, taken to the owner), and no player opens with one.
+// target from here, so the eager bundle does not grow. A MODIFIER'S OWN ROW (its dot, − / +, delete) is lifted too since
+// v1.301.0 (MODS1): the modifiers are saved, so a player opens Settings with rows in it. Each control keeps its drawn size and
+// gains a hit area of the target (40, 44 on a phone) from a centred `::before`; the bin stands 6 px (10 on a phone) further from
+// "+", because their centres were 35 px apart and two targets of 40 would have overlapped. Pinned by e2e/journeys/
+// mods-saved.spec.ts (every edge of each target answers to its own control, at 1440 by mouse and 390x631 by touch).
 const NG_SETTINGS_CSS = "\
 .ng-modal>[data-settings-card]{display:flex;flex-direction:column;width:min(760px,calc(100vw - 96px))!important;height:min(880px,calc(100vh - 96px));height:min(880px,calc(100dvh - 96px));\
 background:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .7 0 0 0 0 .75 0 0 0 0 .9 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E\"),radial-gradient(120% 60% at 0 0,rgba(74,108,255,.07),transparent 60%),linear-gradient(180deg,rgba(26,30,52,.99),rgba(18,21,38,.99))!important;color:#eef1f6}\
@@ -100,6 +103,9 @@ background:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wi
 .ng-set-tag{padding:0 8px;border-radius:999px;background:rgba(74,108,255,.22);font-size:11px;font-weight:600;line-height:20px;letter-spacing:.02em;color:#c9d6ff}\
 .ng-set-mods>div:nth-of-type(2)>div:first-child{padding-top:0!important;padding-bottom:0!important}\
 .ng-set-mods>div:nth-of-type(2)>div:first-child>input,.ng-set-mods>div:nth-of-type(2)>div:last-child>button,.ng-set-mods>button{box-sizing:border-box;min-height:40px;min-width:40px}\
+.ng-mod-row>button,.ng-mod-step{position:relative}\
+.ng-mod-row>button::before,.ng-mod-step::before{content:'';position:absolute;left:50%;top:50%;width:40px;height:40px;transform:translate(-50%,-50%)}\
+.ng-mod-del{margin-left:6px}\
 @media (max-width:599px){\
 .ng-modal>[data-settings-card]{width:100vw!important;height:100vh;height:100dvh;border:none!important;border-radius:0!important;box-shadow:none!important}\
 .ng-set-head{padding:16px 16px 8px;border-bottom:none}.ng-set-head .ng-set-note{display:none}#ng-stab-panel .ng-set-note{display:block}\
@@ -110,7 +116,8 @@ background:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wi
 .ng-set-row.side.stack{display:block}.ng-set-row.side.stack>.ng-set-seg{margin-top:12px;flex-wrap:wrap}\
 .ng-set-seg>button,.ng-set-num,.ng-set-range,.ng-set-arts label{min-height:44px}.ng-set-seg>button{min-width:44px}.ng-set-range{height:44px}.ng-set-tick{width:44px;height:44px;margin:-10px -10px 0 0}\
 .ng-set-arts{column-gap:16px}.ng-set-foot{padding:0 16px}\
-.ng-set-mods>div:nth-of-type(2)>div:first-child>input,.ng-set-mods>div:nth-of-type(2)>div:last-child>button,.ng-set-mods>button{min-height:44px;min-width:44px}}";
+.ng-set-mods>div:nth-of-type(2)>div:first-child>input,.ng-set-mods>div:nth-of-type(2)>div:last-child>button,.ng-set-mods>button{min-height:44px;min-width:44px}\
+.ng-mod-row>button::before,.ng-mod-step::before{width:44px;height:44px}.ng-mod-del{margin-left:10px}}";
 // THE OWNER'S NOTE, WORD FOR WORD (ruling SET1-GO 4: "his words are his"). It stays the first thing Settings says; it is a
 // quiet line with an amber rule, not a boxed warning with an emoji. On a phone it scrolls away with the settings (the
 // head's copy is hidden there and the panel's shown), so the sheet's own height goes to the settings.

@@ -116,7 +116,10 @@ test('same-account token identity preserves current roll and study object',async
 });
 test('full identity replacement resets attempts, modifiers and active sessions',async()=>{
   const h=harness();await h.boot();const a=h.switchTo('A');Object.assign(a,{_session:{live:true},_knowledgeAttempts:['old'],_knowledgeAttempt:8,_sharp:{old:1},userMods:{old:1},_beltTest:{active:true}});
-  const b=h.switchTo('B');for(const key of ['_session','_knowledgeAttempts','_knowledgeAttempt','_sharp','userMods','_beltTest'])assert.equal(b[key],undefined,key);
+  const b=h.switchTo('B');for(const key of ['_session','_knowledgeAttempts','_knowledgeAttempt','_sharp','_beltTest'])assert.equal(b[key],undefined,key);
+  // v1.301.0 (MODS1): the modifiers are settings, so a mounted account's list is a view of ITS OWN record, rebuilt at its load:
+  // B's is empty, never A's (was `undefined` while they lived in memory only). tests/mods_sync.test.mjs 15 with a saved one.
+  assert.deepEqual(b.userMods,[],'userMods: B reads only its own record (none)');
 });
 test('destroyed account cannot grade or persist into either account cache',async()=>{
   const h=harness();await h.boot();const a=h.switchTo('A');a.prep.a=4;h.switchTo('B');const before=JSON.stringify([...h.mem.rows]);

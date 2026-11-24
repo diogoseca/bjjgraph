@@ -5014,6 +5014,9 @@ class Component extends DCLogic {
       this.dayLog = Object.assign({}, p.dayLog || {});
       if (p.settings) this.settings = Object.assign({}, this.settings || {}, p.settings);
       this._settingsAt = Object.assign({}, p.settingsAt || {});
+      // "Your odds" ARE settings since v1.301.0 (MODS1; progress-owner.src.js above NG_MOD_PREFIX): the list is rebuilt from
+      // them here, so a load, a pull, another tab's save and a guest join all bring the modifiers they carry
+      this._modsFromSettings();
       // v1 -> v2 migration: recall history didn't exist — grandfather rec = prep so nobody's
       // mastery collapses on upgrade (Phase 2 gates NEW mastery on real recall grades).
       this.rec = Object.assign({}, p.v === 2 ? (p.rec || {}) : (p.prep || {}));
@@ -8202,7 +8205,47 @@ class Component extends DCLogic {
   ensureMods() {
     // no demo seeds — modifiers exist only when the user creates them (odds must not lie)
     if (this.userMods) return;
-    this.userMods = [];
+    this._modsFromSettings();
+  }
+  // THE MODIFIERS ARE SETTINGS (v1.301.0, MODS1: the owner's U212 a "Save them"; the shape, the merge, the bound and why
+  // settings are in progress-owner.src.js above NG_MOD_PREFIX). `userMods` is a VIEW of them, rebuilt after every load, pull,
+  // join (`_hydrateProgressBlob`) and press (`_writeMod`); every press writes its own technique's key and nothing else. A
+  // rail that assigns `userMods` directly (e2e/journeys/option-edge.spec.ts and its kin) is kept until the next load.
+  _modsFromSettings() {
+    const r = ngModsRead(this.settings);
+    this.userMods = r.mods; this._modsBad = r.bad;   // `bad`: damaged keys skipped by the read, counted, never thrown
+    return r;
+  }
+  _writeMod(name, row) {
+    if (!name || name.length > NG_MOD_NAME_MAX) return false;
+    const k = NG_MOD_PREFIX + name, at = (this._settingsAt = this._settingsAt || {});
+    (this.settings = this.settings || {})[k] = row;
+    at[k] = ngModStamp(at[k], Date.now());
+    this._saveProgress();
+    this._modsFromSettings();
+    this._knowledgeModifiersChanged();
+    return true;
+  }
+  // the row as stored when there is one (a later build's longer row keeps its tail), else as shown
+  _editMod(m, edit) {
+    const held = (this.settings || {})[NG_MOD_PREFIX + m.name];
+    const row = ngModLive(held) ? held.slice() : [m.pct, m.on ? 1 : 0, (m.cat || "T")[0], m.born || Date.now()];
+    edit(row);
+    return this._writeMod(m.name, row);
+  }
+  // "Add modifier": "added"; "kept" (the name already has a live modifier: it is turned on, its odds kept, never a second
+  // row); "full" (a NEW name past NG_MOD_CAP keys, removed ones counted); "invalid" (empty, or longer than the bound)
+  _addMod(name, cat) {
+    const nm = String(name == null ? "" : name).trim();
+    if (!nm || nm.length > NG_MOD_NAME_MAX) return "invalid";
+    const settings = this.settings || {}, k = NG_MOD_PREFIX + nm, held = settings[k];
+    if (ngModLive(held)) {
+      if (held[1] !== 1) { const row = held.slice(); row[1] = 1; this._writeMod(nm, row); }
+      return "kept";
+    }
+    if (!Object.prototype.hasOwnProperty.call(settings, k) && ngModsRead(settings).keys >= NG_MOD_CAP) return "full";
+    this._writeMod(nm, [50, 1, String(cat || "Transition")[0], Date.now()]);
+    return "added";
   }
   buildModifiers(host) {
     this.ensureMods();
@@ -8210,7 +8253,9 @@ class Component extends DCLogic {
     const head = document.createElement("div");
     head.style.cssText = "display:flex;align-items:center;justify-content:space-between;margin-bottom:13px;";
     const active = this.userMods.filter((m) => m.on).length;
-    head.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Your modifiers</div><div style="font-size:12px;color:#93a0bd;margin-top:3px;">Per-technique success rate that overrides the base win %</div></div><div style="font-size:12px;font-weight:600;color:#7ee0a8;white-space:nowrap;">' + active + ' active</div>';
+    // THE QUIET LINE (v1.301.0, MODS1 ruling 3 b, his words): where they are kept, in the grey of the line above it
+    const saved = this._progressOwner && this._progressOwner.kind === "account" ? "Saved with your progress, on every device you sign in on." : "Saved on this device. Sign in to have them on your other devices.";
+    head.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Your modifiers</div><div style="font-size:12px;color:#93a0bd;margin-top:3px;">Per-technique success rate that overrides the base win %</div><div data-mods-saved="1" style="font-size:12px;color:#93a0bd;margin-top:3px;">' + saved + '</div></div><div style="font-size:12px;font-weight:600;color:#7ee0a8;white-space:nowrap;">' + active + ' active</div>';
     host.appendChild(head);
 
     const catCol = { Submission: "#e8956b", Transition: "#9fb0d8", Position: "#7ee0a8" };
@@ -8255,15 +8300,17 @@ class Component extends DCLogic {
 
     const list = document.createElement("div");
     list.style.cssText = "display:flex;flex-direction:column;gap:8px;";
-    this.userMods.forEach((m, i) => {
+    this.userMods.forEach((m) => {
       if (!matches(m)) return;
       const r = document.createElement("div");
+      // `ng-mod-row` and its controls' classes: their touch targets (settings-ui.src.js, at the foot of NG_SETTINGS_CSS)
+      r.className = "ng-mod-row"; r.setAttribute("data-mod", m.name);
       r.style.cssText = "display:flex;align-items:center;gap:11px;padding:11px 12px;border-radius:11px;border:1px solid rgba(150,170,210,.14);background:" + (m.on ? "rgba(255,255,255,.035)" : "rgba(255,255,255,.012)") + ";opacity:" + (m.on ? "1" : ".55") + ";";
       // toggle dot
       const dot = document.createElement("button");
-      dot.title = m.on ? "Active" : "Paused";
+      dot.className = "ng-mod-dot"; dot.title = m.on ? "Active" : "Paused";
       dot.style.cssText = "flex:none;width:11px;height:11px;border-radius:50%;cursor:pointer;border:none;background:" + (m.on ? (catCol[m.cat] || "#7ee0a8") : "#48506a") + ";box-shadow:" + (m.on ? "0 0 8px " + (catCol[m.cat] || "#7ee0a8") : "none") + ";";
-      dot.addEventListener("click", () => { m.on = !m.on; this._knowledgeModifiersChanged(); this.buildModifiers(host); });
+      dot.addEventListener("click", () => { this._editMod(m, (row) => { row[1] = row[1] === 1 ? 0 : 1; }); this.buildModifiers(host); });
       // label
       const lab = document.createElement("div");
       lab.style.cssText = "flex:1;min-width:0;";
@@ -8271,16 +8318,16 @@ class Component extends DCLogic {
       // stepper
       const step = document.createElement("div");
       step.style.cssText = "display:flex;align-items:center;gap:3px;flex:none;";
-      const mkStep = (txt, d) => { const b = document.createElement("button"); b.textContent = txt; b.style.cssText = "width:22px;height:22px;cursor:pointer;border-radius:6px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);color:#c3cde0;font-size:14px;line-height:1;font-family:inherit;"; b.addEventListener("click", () => { m.pct = Math.max(0, Math.min(100, m.pct + d)); this._knowledgeModifiersChanged(); this.buildModifiers(host); }); return b; };
+      const mkStep = (txt, d) => { const b = document.createElement("button"); b.className = "ng-mod-step"; b.setAttribute("data-mod-step", String(d)); b.textContent = txt; b.style.cssText = "width:22px;height:22px;cursor:pointer;border-radius:6px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);color:#c3cde0;font-size:14px;line-height:1;font-family:inherit;"; b.addEventListener("click", () => { this._editMod(m, (row) => { row[0] = Math.max(0, Math.min(100, Math.round(row[0]) + d)); }); this.buildModifiers(host); }); return b; };
       const val = document.createElement("span"); val.textContent = m.pct + "%"; val.style.cssText = "width:42px;text-align:center;font-size:13px;font-weight:700;color:#7ee0a8;";
       step.appendChild(mkStep("\u2212", -1)); step.appendChild(val); step.appendChild(mkStep("+", 1));
       // delete
       const del = document.createElement("button");
       del.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M8 6V4h8v2m-9 0 1 14h8l1-14"></path></svg>';
-      del.title = "Remove"; del.style.cssText = "flex:none;width:26px;height:26px;cursor:pointer;border-radius:7px;border:none;background:transparent;color:#7e8aa3;display:flex;align-items:center;justify-content:center;";
+      del.className = "ng-mod-del"; del.title = "Remove"; del.style.cssText = "flex:none;width:26px;height:26px;cursor:pointer;border-radius:7px;border:none;background:transparent;color:#7e8aa3;display:flex;align-items:center;justify-content:center;";
       del.addEventListener("mouseenter", () => del.style.color = "#e8767a");
       del.addEventListener("mouseleave", () => del.style.color = "#7e8aa3");
-      del.addEventListener("click", () => { this.userMods.splice(i, 1); this._knowledgeModifiersChanged(); this.buildModifiers(host); });
+      del.addEventListener("click", () => { this._writeMod(m.name, 0); this.buildModifiers(host); });   // a stamped 0, never a delete (§6.6)
       r.appendChild(dot); r.appendChild(lab); r.appendChild(step); r.appendChild(del);
       list.appendChild(r);
     });
@@ -8294,27 +8341,31 @@ class Component extends DCLogic {
     }
 
     // create
-    if (this._addMod) {
+    if (this._addModOpen) {
       const form = document.createElement("div");
       form.style.cssText = "margin-top:10px;padding:12px;border:1px solid rgba(110,160,255,.3);border-radius:11px;background:rgba(74,108,255,.07);display:flex;flex-direction:column;gap:9px;";
       const inp = document.createElement("input");
-      inp.placeholder = "Technique name"; inp.style.cssText = "font-family:inherit;font-size:13px;color:#eef1f6;background:rgba(255,255,255,.05);border:1px solid rgba(150,170,210,.25);border-radius:8px;padding:9px 11px;outline:none;";
+      inp.setAttribute("data-mod-name", "1"); inp.placeholder = "Technique name"; inp.maxLength = NG_MOD_NAME_MAX; if (this._modFullName) inp.value = this._modFullName; inp.style.cssText = "font-family:inherit;font-size:13px;color:#eef1f6;background:rgba(255,255,255,.05);border:1px solid rgba(150,170,210,.25);border-radius:8px;padding:9px 11px;outline:none;";
       const cats = document.createElement("div"); cats.style.cssText = "display:flex;gap:6px;";
       let pickCat = "Submission";
       ["Submission", "Transition", "Position"].forEach((c) => { const b = this.segBtn(c, c === pickCat, false, () => { pickCat = c; [...cats.children].forEach((x, j) => { const on = ["Submission", "Transition", "Position"][j] === pickCat; x.style.background = on ? "rgba(74,108,255,.26)" : "rgba(255,255,255,.03)"; x.style.color = on ? "#eef1f6" : "#aeb6c8"; x.style.borderColor = on ? "rgba(150,180,255,.6)" : "rgba(150,170,210,.18)"; }); }); b.style.flex = "1"; b.style.fontSize = "11.5px"; b.style.padding = "7px 4px"; cats.appendChild(b); });
       const acts = document.createElement("div"); acts.style.cssText = "display:flex;gap:8px;";
-      const save = this.segBtn("Add modifier", true, false, () => { const nm = inp.value.trim(); if (nm) { this.userMods.push({ name: nm, cat: pickCat, pct: 50, on: true }); this._knowledgeModifiersChanged(); } this._addMod = false; this.buildModifiers(host); });
-      save.style.flex = "1";
-      const cancel = this.segBtn("Cancel", false, false, () => { this._addMod = false; this.buildModifiers(host); });
+      const save = this.segBtn("Add modifier", true, false, () => { const r = this._addMod(inp.value, pickCat); this._modFull = r === "full"; this._modFullName = this._modFull ? inp.value : ""; if (!this._modFull) this._addModOpen = false; this.buildModifiers(host); });
+      save.style.flex = "1"; save.setAttribute("data-mod-save", "1");
+      const cancel = this.segBtn("Cancel", false, false, () => { this._addModOpen = false; this._modFull = false; this._modFullName = ""; this.buildModifiers(host); });
       acts.appendChild(cancel); acts.appendChild(save);
-      form.appendChild(inp); form.appendChild(cats); form.appendChild(acts);
+      form.appendChild(inp);
+      // THE BOUND (MODS1 ruling 4): a NEW name past NG_MOD_CAP keys, removed ones counted, is refused with this line. It is
+      // for good on that account (a key is never deleted, so no slot ever frees), and the words say so (MODS1-R1 5)
+      if (this._modFull) { const full = document.createElement("div"); full.setAttribute("data-mod-full", "1"); full.style.cssText = "font-size:12px;color:#e8956b;line-height:1.4;"; full.textContent = "You have used all " + NG_MOD_CAP + " slots for odds, counting ones you removed. Edit an existing one, or add back one you removed."; form.appendChild(full); }
+      form.appendChild(cats); form.appendChild(acts);
       host.appendChild(form);
       setTimeout(() => { try { inp.focus(); } catch (e) {} }, 50);
     } else {
       const add = document.createElement("button");
-      add.innerHTML = '<span style="font-size:15px;">+</span> Add modifier';
+      add.setAttribute("data-mod-add", "1"); add.innerHTML = '<span style="font-size:15px;">+</span> Add modifier';
       add.style.cssText = "margin-top:11px;width:100%;cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:600;padding:10px;border-radius:10px;border:1px dashed rgba(150,170,210,.3);background:transparent;color:#aeb6c8;display:flex;align-items:center;justify-content:center;gap:6px;";
-      add.addEventListener("click", () => { this._addMod = true; this.buildModifiers(host); });
+      add.addEventListener("click", () => { this._addModOpen = true; this._modFull = false; this._modFullName = ""; this.buildModifiers(host); });
       host.appendChild(add);
     }
   }
@@ -8481,7 +8532,9 @@ class Component extends DCLogic {
     this._applyLayers(); this._refreshChallengeEvidence();
     this._saveProgress();   // persists; pushes once the pull has run (`_pushCloud` pulls first otherwise)
     this.updateAccountUI();
-    if (this._arrivalSay) return;
+    // only the guest's modifiers joined (v1.301.0, MODS1 ruling 2 a): they are simply there, in Your odds; the line speaks
+    // of practice, and none joined
+    if (this._arrivalSay || r.quiet) return;
     this._announceArrival("", "Your practice from before you signed in is saved", "muted", true);   // whole: a sentence
     if (this._decision) this._sayArrivalIfPending();   // already landed: say it now, not at the next landing
   }
@@ -8643,7 +8696,8 @@ class Component extends DCLogic {
           for (const sk in cloud.settings) {
             const ct = cAt[sk] != null ? cAt[sk] : cBlob;      // pre-per-key clouds fall back to the blob ts
             const lt = lAt[sk] != null ? lAt[sk] : localAt;
-            if (!(sk in merged) || ct > lt) { merged[sk] = cloud.settings[sk]; mAt[sk] = ct; }
+            // ...and an equal stamp on a modifier's key decided the same on every device (MODS1-R1; `ngModTieTakes`)
+            if (!(sk in merged) || ct > lt || (ct === lt && sk.startsWith(NG_MOD_PREFIX) && ngModTieTakes(merged[sk], cloud.settings[sk]))) { merged[sk] = cloud.settings[sk]; mAt[sk] = ct; }
           }
           this.settings = merged; this._settingsAt = mAt;
 
@@ -13954,10 +14008,14 @@ class Component extends DCLogic {
       else { t.style.removeProperty("opacity"); t.style.pointerEvents = t._ngRestPointerEvents || ""; t.style.removeProperty("visibility"); }
     }
   }
+  // EVERY SLICE OF `text` IS ESCAPED and the query only supplies an offset and a length (as `_hlRank` below). Its one caller
+  // is the modifiers' row, whose names are STORED since v1.301.0 (MODS1) and can join another account from a shared
+  // browser's guest copy: an unescaped name there would be markup run on every device of that account.
   hl(text, q) {
-    if (!q) return text;
-    const i = text.toLowerCase().indexOf(q); if (i < 0) return text;
-    return text.slice(0, i) + '<span style="background:rgba(120,160,255,.32);border-radius:3px;padding:0 1px;">' + text.slice(i, i + q.length) + '</span>' + text.slice(i + q.length);
+    const e = (v) => this.escHTML(v);
+    if (!q) return e(text);
+    const i = text.toLowerCase().indexOf(q); if (i < 0) return e(text);
+    return e(text.slice(0, i)) + '<span style="background:rgba(120,160,255,.32);border-radius:3px;padding:0 1px;">' + e(text.slice(i, i + q.length)) + '</span>' + e(text.slice(i + q.length));
   }
   /** The ranked search's highlight: the part of `text` the FOLDED query met, so "arm bar" marks "Armbar" and
    *  "control side" marks both words. Every slice of `text` is escaped and the query only supplies lengths and
