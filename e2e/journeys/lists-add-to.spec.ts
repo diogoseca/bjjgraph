@@ -24,6 +24,8 @@ import { journey } from "../dsl";
  *   D4 "Add to…" missing from the item's ⋮                        → both, at "the item's ⋮ in its ruled order"
  *   D5 (ADD1-R1, the lists reader's surviving mutant) the add mode without its keys → "by keyboard…" at "focus is in the add
  *      menu"
+ *   K1 (ADD1-R1) the kept line missing from the Undo row → "an add's Undo that would leave…" at "the row says it was kept"
+ *   K2 (ADD1-R1) the kept line held for the Undo's 90 s → the same test at "it goes after a few seconds"
  */
 
 type W = any;
@@ -252,5 +254,36 @@ test.describe("at 390x631 by touch", () => {
     await tapAt(page, undo);
     now = await lists(page);
     expect([now[T.id].items, now[S.id].items], "Undo by touch: out of the target only").toEqual([T.items, S.items]);
+  });
+
+  // ADD1-R1 (the lists reader's fault 1): an Undo that would leave the item in no list is not taken; the row says so in one
+  // line for a few seconds, whole at 390 for a list name at its longest. The other device's move, pulled, is stood in for by
+  // one call: `removeFromList` takes the item out of the list it was added FROM, which is what that pull leaves on this
+  // device (the two devices themselves are units 28 to 28c, tests/list_moves_sync.test.mjs); it arms no Undo of its own.
+  test("an add's Undo that would leave the item in no list is not taken: one line in the row's place, whole at 390, for a few seconds", async ({ page }) => {
+    const j = journey(page);
+    await j.boot("/");
+    await j.land("Mount Top");
+    const long = "Guard retention, passing, escapes and the back: a full class".slice(0, 60);
+    const [S, T] = await seed(page, [{ name: "Monday", n: 2 }, { name: long, n: 1 }]);
+    await tapAt(page, ".ng-logo");
+    await expect(page.locator(".ng-drill")).toBeVisible();
+    await settleSystems(page);
+    const x = S.items[0];
+    await tapAt(page, dotsSel(x, S.id));
+    await tapAt(page, menuItem(x, "addto"));
+    await tapAt(page, `[data-list-picker-add] [data-list-pick="${T.id}"]`);
+    expect(await page.evaluate(([x, s]) => (window as W).__neural.removeFromList(x, s), [x, S.id]), "premise: the item now stands in the target alone").toBe(true);
+    const undo = `[data-list-undo-add="${x}"]`;
+    await page.locator(undo).scrollIntoViewIfNeeded();
+    await tapAt(page, undo);
+    const kept = page.locator(`[data-list-undo-kept="${x}"]`);
+    await expect(kept, "the row says it was kept (K1)").toHaveText("Kept in “" + long + "”: it is in no other list now.");
+    expect((await lists(page))[T.id].items, "and it is still in the target").toEqual([T.items[0], x]);
+    await expect(page.locator(undo), "no Undo in its place").toHaveCount(0);
+    const fit = await kept.evaluate((e) => { const r = e.getBoundingClientRect(), row = (e.parentElement as HTMLElement).getBoundingClientRect(); return { clipped: e.scrollWidth > e.clientWidth + 1 || e.scrollHeight > e.clientHeight + 1, l: row.left, r: row.right }; });
+    expect(fit.clipped, "the line is whole, nothing cut").toBe(false);
+    expect(fit.l >= 0 && fit.r <= 390, "the row is on the screen").toBe(true);
+    await expect(kept, "it goes after a few seconds (K2)").toHaveCount(0, { timeout: 8000 });
   });
 });
