@@ -111,6 +111,8 @@ test("curriculum.json is hermetic: deterministic response, never off-box", async
 // left. Six boots, each a race (the reader: 1 of 6 red on dev, 2 of 6 on #460). Mutant B1 (no second read) → red at a boot.
 test("a boot onto an alias page that redirects itself lands where it redirects, every time", async ({ page }) => {
   const j = journey(page)
+  // the stub's own redirect is the page's navigation, and meant: declared, so the tripwire (`watchNavigations`) lets it be
+  j.allowNavigation(/\/Game-Over(\?|#|$)/, "Quartz's lowercase /game-over alias stub redirects itself by meta refresh")
   for (let i = 0; i < 6; i++) {
     await j.boot("/game-over")
     await expect.poll(() => page.evaluate(() => location.pathname), { message: "boot " + (i + 1) + " lands on /Game-Over" }).toBe("/Game-Over")
