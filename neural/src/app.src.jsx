@@ -22266,6 +22266,7 @@ class Component extends DCLogic {
   _chainFrame() {
     const c = this._chain; if (!c) return;
     if (c.opp == null) c.opp = this.now;
+    if (!this.canvas) return;   // no map drawn (a headless replay of the game: tests/mdp_corpus.test.mjs): nothing to frame
     const idxs = this._chainIdxs(); if (!idxs.length) return;
     const R = this._viewRect(), [l, t, r, b] = NG_CHAIN.calm;
     const box = { left: R.left + l, top: R.top + t, width: R.width - l - r, height: R.height - t - b };
