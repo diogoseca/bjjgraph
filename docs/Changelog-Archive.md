@@ -22211,3 +22211,41 @@ reads REMOVED. Mutant (the toast put back): the pane-law test is red.
 **Pinned by** `e2e/journeys/save-lines.spec.ts` (8 tests, 1440 by mouse and 390x631 by touch), with one mutant per line,
 each red on a named test against a green baseline: M1 belt (`_paintBeltRow` stops placing the line), M2 list (the line on
 an empty list), M3 done (the Done card stops asking), M4 badge (a ✕ hides for 1 day, not 7).
+
+## v1.301.4 — The content bot adds flashcards and never rewords one; no named coach as a style (CARD1-S1a, 24 Nov 2026)
+
+**Why.** A card's progress (its grade and its review schedule, for every player) is keyed by a hash of its exact question
+text (CARD1). So the weekly content bot's "Add/Improve flashcards" reset every card it reworded, for everyone, every
+Saturday. Until the card key ships (CARD1 slice 2, waiting for the owner), the bot only adds.
+
+**What changed** (scripts only; no content file, no regeneration):
+- **`scripts/regenerate_content_json.py`**, the flashcards sections of the position, transition, submission and principle
+  prompts:
+  - keep every existing flashcard's `question` exactly as written, character for character: never reword, shorten,
+    merge, split or delete one ("A changed question resets every player's progress on that card");
+  - an existing card's `answer` may be corrected;
+  - add new cards only up to the deck's range;
+  - each new question at a soft 70 characters where the meaning holds, never over the schema's 100.
+
+  The heading reads "Add flashcards", and the reason is a comment at the prompts. `check_prompt_templates()`: 6 templates,
+  0 errors.
+- **The owner's archetypes-only rule:**
+  - `scripts/rewrite_questions.py`'s style line named two real coaches; it now reads "a patient coach explaining to a
+    white belt";
+  - the content bot's EXPERT_GUIDELINES named three real coaches as "Perspectives"; they are now a systems coach, a
+    competition coach and an innovator;
+  - `scripts/draft_curriculum.py`'s rubric named one; it is now "a systems-minded curriculum designer".
+- **Kept on purpose, each with its reason in the guard:**
+  - `scripts/source_clips.py`, whose footage to search for;
+  - `scripts/calibrate_probabilities.py`, the calibration panel's personas: changing them changes future calibration
+    numbers, which is the owner's call;
+  - `scripts/solve_flow.py`, a review note's factual attribution.
+
+**The guard,** `tests/content_bot_prompts.test.mjs` (in the units, so it runs on every push):
+- every flashcards section keeps the rule and the target, and none tells the bot to improve or reword existing cards
+  (sections found counted, none found fails);
+- no file under `scripts/` names any removed coach. The names are held only as SHA-256 hashes, taken from the removed
+  lines' git blobs, and matched against every word pair. A hit names file:line, never the name; a kept file that no
+  longer names anyone fails.
+- **Mutants:** the old heading back → the first test red; the style line back, or the bot's three perspectives back → the
+  second.

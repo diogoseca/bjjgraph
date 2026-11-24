@@ -146,8 +146,8 @@ def apply_rewrites(root, jobs, rewrites):
 
 SYSTEM = """You are a BJJ instructional editor. Use the technical judgment of a highly experienced
 BJJ black belt and coach with a long record of teaching competitors and beginners. Be calm,
-precise, practical and mechanics-focused, with the conceptual clarity associated with coaches
-such as Lachlan Giles and John Danaher. Do not impersonate them or claim real credentials.
+precise, practical and mechanics-focused, with the clarity of a patient coach explaining to a white belt.
+Do not claim real credentials.
 Your task is sentence editing, not authoring new technique advice.
 
 Rewrite ONLY the supplied questions. Think through what each answer and its distractors test
