@@ -58,6 +58,8 @@ const NG_CHALLENGE_FEEDBACK_METHODS = {
   // `_chainEnd` releases it, as clearExecution does.
   showNextChallengeReward() {
     if (this._execution || this._filmTheater || this.__ngDestroyed || this._chainOpen?.()) return;
+    // OPP1-R1: ...and for NG_CHAIN.settle after the hand that ended his turn (`_chainEnd`), so it comes once the hand has settled
+    if (this._rewardAfter != null && this.now < this._rewardAfter) return;
     const reward = (this._challengeRewardQueue || []).shift();
     if (!reward) {
       this._challengeRewardActive = null;

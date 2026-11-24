@@ -120,7 +120,11 @@ const NG_LIGHT_IN_MS = 250, NG_LIGHT_OUT_MS = 400;
 //            NG_LIGHT.calm, the same numbers (the eager bundle cannot import the deferred one; tests/map_light.test.mjs pins
 //            them equal)
 //   dim      the article's opacity while it steps back (S4)
-const NG_CHAIN = { in: 0.25, out: 0.6, leg: 1.0, calm: [34, 38, 34, 37], dim: 0.22 };
+//   back     OPP1-R1 (the orchestrator's ruling): when the opponent's last leg ends the camera goes back to the roll's zoom at
+//            the place he is left in, at the exchange's quick pace, so it is there when the hand can be pressed (0.6 s later)
+//   settle   OPP1-R1 (the ruling): a reward notice held through his turn shows this long after the hand, or after his next
+//            exchange if he presses first
+const NG_CHAIN = { in: 0.25, out: 0.6, leg: 1.0, calm: [34, 38, 34, 37], dim: 0.22, back: 0.45, settle: 1.2 };
 const NG_MAP_MARKS = { gold: { r: 240, g: 192, b: 90 }, goldA: 0.95, borderA: 0.87, line: 1, borderK: 0.32, borderMin: 1.2, borderMax: 2.2, inFrom: 2.4, inFull: 3.2 };
 // The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
 // by `_dockLandFilm` (the end padding is 1 of the same unit). helmet.html `.ng-landfilm`.
@@ -675,7 +679,9 @@ class Component extends DCLogic {
   // still up with no roll coming; the same on v1.279.0 and v1.273.1 (an old fault, not #410's or #417's). So whatever clears
   // the timer ends the hold too: its LIFTERS are this line and the timer's own. Pinned by e2e/journeys/restart-notice.spec.ts.
   clearTimers() {
-    this._chainEnd();   // OPP1: every way elsewhere ends the opponent's chain (its lifters, `_chainOn`)
+    this._chainEnd(false);   // OPP1: every way elsewhere ends the opponent's chain (its lifters, `_chainOn`)
+    this._chainBackTo = null;
+    if (this._rewardAfter != null) { this._rewardAfter = null; if (this.showNextChallengeReward) queueMicrotask(() => this._challengeRewardActive || this.showNextChallengeReward()); }
     (this._timers || []).forEach((t) => { if (t.id) clearTimeout(t.id); }); this._timers = []; this._retireCamOpen(); this._camOpenManual = false;
     if (this.endZoom) { this.endZoom = false; this.hideCenter(); if (this.evRef.current) this.evRef.current.style.opacity = "0"; }
   }
@@ -1075,6 +1081,10 @@ class Component extends DCLogic {
       if (n && s && !s.cold) { s.cold = 1; this.fx("light_cold", { place: n.id }); }
       return;
     }
+    // THE DRAWER FREEZES IT, ON PURPOSE (the reader of PR #461's note): opening the drawer mid-turn pauses the game (pane law:
+    // open = the game stops), and the chain is the picture of that turn, so it stays as it was, its light, lease and
+    // step-back too, until the drawer shuts and the turn runs on to the hand. A cloze opened over a paused chain waits for
+    // the chain to end before its own light (the chain is drawn first here).
     // THE ONE EXCEPTION TO "NEVER OVER A RUNNING GAME" (OPP1, v1.300.0; the orchestrator's ruling 4 on Part A). The opponent's
     // turn is a running roll in which the player cannot act, and its chain is the one thing the map shows then: lit from the
     // opponent's choice until he can act, out over NG_CHAIN.out as the hand comes in (`_chainK`), its place where he stood
@@ -2842,7 +2852,7 @@ class Component extends DCLogic {
     // else — including the "Time's up" line, which reaches this function and clears the flag here.
     this._evCountdown = null;
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
-    if (k) { k.textContent = kicker; k.style.color = this.toneColor(tone); }
+    if (k) { k.textContent = kicker; k.style.color = this.toneColor(tone); if (k.style.paddingTop) k.style.paddingTop = ""; }
     if (t) {
       const sp = whole ? { main: text, from: "" } : this.splitName(text);
       t.innerHTML = sp.from
@@ -2853,7 +2863,7 @@ class Component extends DCLogic {
         ? sp.main + '<div style="opacity:.6;font-weight:500;font-size:.72em;letter-spacing:0;margin-top:3px;">' + sp.from + '</div>'
         : sp.main;
       if (t.style && t.style.paddingTop) t.style.paddingTop = "";   // a whole sentence's step (below) is that sentence's only
-      if (whole) this._evStepBelowControls(t);
+      if (whole) this._evStepBelowControls(t, k);
     }
     if (box) box.style.opacity = "1";
   }
@@ -2862,10 +2872,15 @@ class Component extends DCLogic {
   // "Search" targets (x 10-54 and 60-104, y 16-60), measured the same at 360 and 430. Docked off MEASURED rects, never a
   // constant (CLAUDE.md §6.1): the sentence steps down below the lowest control its lines meet (to y 64 there), and the
   // next sentence clears the step. Pinned by e2e/journeys/guest-join.spec.ts ("covers no control", 390 by touch).
-  _evStepBelowControls(t) {
+  // ...AND ITS KICKER (OPP1-R1, the reader of PR #461: the opponent's sentence keeps the line before it as the kicker, and at
+  // 390 that first line ran under the same two targets, 261 of 274 lines the sweeps said). The kicker's lines are measured
+  // with the sentence's, and the step is set on the FIRST line shown, so both clear the targets and the kicker stays above
+  // the sentence. Pinned by e2e/journeys/opponent-turn-chain.spec.ts ("no line of the banner on a control", the corpus's
+  // ten longest titles, at 390x631, 360x640 and 1048).
+  _evStepBelowControls(t, k) {
     try {
-      const range = document.createRange(); range.selectNodeContents(t);
-      const lines = [...range.getClientRects()].filter((r) => r.width > 0 && r.height > 0);
+      const lineRects = (el) => { if (!el || !(el.textContent || "").trim()) return []; const r = document.createRange(); r.selectNodeContents(el); return [...r.getClientRects()].filter((q) => q.width > 0 && q.height > 0); };
+      const kl = lineRects(k), lines = kl.concat(lineRects(t)), first = kl.length ? k : t;
       if (!lines.length) return;
       const top = Math.min(...lines.map((r) => r.top)), box = this.evRef.current;
       let low = -Infinity;
@@ -2876,7 +2891,7 @@ class Component extends DCLogic {
       }
       // PADDING, not margin: a margin collapses with the kicker's 7px margin-bottom, and the first build stepped the
       // sentence 8px for a 15px ask, leaving it 3px over the targets (measured at 360, 390 and 430)
-      if (low > top) t.style.paddingTop = Math.ceil(low - top + 4) + "px";
+      if (low > top) first.style.paddingTop = Math.ceil(low - top + 4) + "px";
     } catch (e) { /* no layout (unit harness): the sentence stays where it is */ }
   }
   // ---------- drill deck (flashcards) + dominance flash ----------
@@ -21690,6 +21705,7 @@ class Component extends DCLogic {
     this.clearExecution();
     this._execution = { idx: opt.idx, card, camera: true, result: false };
     if (this.holdChallengeReward) this.holdChallengeReward(); // D-326: no reward notice while the move executes
+    this._rewardAfter = null;   // OPP1-R1: his press comes before the settle: this exchange holds the notice now
     this._bandBot = null; // the selected card, not the retired landing, now bounds the flight
     if (card && this.optionsRef.current) {
       this.optionsRef.current.style.justifyContent = "flex-start";
@@ -22241,6 +22257,7 @@ class Component extends DCLogic {
     let c = this._chain;
     if (!c || c.out != null) {
       c = this._chain = { legs: [], t0: this.now, opp: null, out: null, lease: null };
+      this._chainBackTo = null;
       this._chainSaid = null;   // the sentence starts with this chain (S3)
       this._ensureGameplanRuntime();   // the light's draw is the deferred bundle's (`ngLightDraw`): asked for at the miss
       this._chainArticle(true);
@@ -22248,7 +22265,7 @@ class Component extends DCLogic {
     for (const L of legs) if (L.a !== L.b && L.a >= 0 && L.b >= 0 && this.nodes[L.a] && this.nodes[L.b]) c.legs.push(L);
     return c;
   }
-  _chainOpen() { const c = this._chain; return !!c && c.out == null; }
+  _chainOpen() { const c = this._chain; return !!c && !c.ended; }
   _chainIdxs() { const c = this._chain, s = new Set(); if (c) for (const L of c.legs) { s.add(L.a); s.add(L.b); } return [...s]; }
   /** The chain's strength, 0 to 1: in from `from` (the miss, or the opponent's choice) over NG_CHAIN.in, out from its end
    *  over NG_CHAIN.out; at once under reduced motion; nothing while a film plays. */
@@ -22263,6 +22280,9 @@ class Component extends DCLogic {
    *  close first, as the exchange's camera has it). Fitted in the calm area of the visible map, never closer than the
    *  roll's zoom, and held by a lease until he can act (`_chainEnd` gives it back). No room, no glide (a phone turned to
    *  landscape: map-light's rule). Under reduced motion the framing is set at once. */
+  // A RESIZE MID-TURN IS NOT FRAMED AGAIN (the reader of PR #461's note): from 1048 to 390 the chain is partly off the
+  // visible map for about 1 s, until the camera comes back at his last leg. Framing it again would take the cloze's band
+  // rule (`_czRect` in updateCamera), several lines, not one: left, as the orchestrator's note allows.
   _chainFrame() {
     const c = this._chain; if (!c) return;
     if (c.opp == null) c.opp = this.now;
@@ -22280,12 +22300,30 @@ class Component extends DCLogic {
   }
   /** He can act again (or the roll went elsewhere): the chain fades out, the camera is his again (its own lease only, never
    *  one another hand took since), the article comes back, and a reward notice held through his turn is shown. */
-  _chainEnd() {
-    const c = this._chain; if (!c || c.out != null) return;
-    c.out = this.now;
+  _chainEnd(settle = true) {
+    const c = this._chain; if (!c || c.ended) return;
+    c.ended = true;
+    if (c.out == null) c.out = this.now;
     if (c.lease != null && this._camHoldUntil === c.lease) this.releaseCamera();
     this._chainArticle?.(false);
-    if (this.showNextChallengeReward) queueMicrotask(() => this._challengeRewardActive || this.showNextChallengeReward());
+    // OPP1-R1 (the orchestrator's ruling 3): a reward notice held through his turn shows once the hand has SETTLED,
+    // NG_CHAIN.settle later, not at the same moment; if he presses first, his exchange holds it (startExecution, D-326)
+    // and it shows after that exchange. A way elsewhere (`clearTimers`, `settle` false) shows it at once, as before.
+    if (!settle) { this._rewardAfter = null; if (this.showNextChallengeReward) queueMicrotask(() => this._challengeRewardActive || this.showNextChallengeReward()); return; }
+    this._rewardAfter = this.now + NG_CHAIN.settle;
+    this.after(NG_CHAIN.settle, () => { this._rewardAfter = null; if (this.showNextChallengeReward && !this._challengeRewardActive) this.showNextChallengeReward(); });
+  }
+  /** OPP1-R1 (the orchestrator's ruling 2): THE OPPONENT'S LAST LEG HAS ENDED. The camera goes back to the roll's zoom at
+   *  the place he is left in, at NG_CHAIN.back's quick pace, so it is there when the hand's cards can be pressed (the hand
+   *  comes 0.6 s after his travel: `opponentDefend`), not 1.0 to 1.5 s after (the reader of PR #461: 24.4x the roll's zoom
+   *  at 1048, 9.0x at 390, when the hand was dealt). The chain's lease is given back here, and the path and the light
+   *  fade on the same clock; the article and the notice wait for the hand (`_chainEnd`). */
+  _chainBack(idx) {
+    const c = this._chain; if (!c || c.ended || c.out != null) return;
+    c.out = this.now;
+    if (c.lease != null && this._camHoldUntil === c.lease) this.releaseCamera();
+    c.lease = null;
+    this._chainBackTo = { idx, until: this.now + 1.5 };
   }
 
   /** THE CHAIN'S PATH (OPP1, S2): each leg a line from orb rim to orb rim ending in an arrowhead at its destination; his
@@ -22297,7 +22335,7 @@ class Component extends DCLogic {
     this._lastChain = null;
     const ch = this._chain; if (!ch || !ch.legs.length) return;
     const k = this._chainK(false);
-    if (k <= 0) { if (ch.out != null && !this._replay) this._chain = null; return; }
+    if (k <= 0) { if (ch.ended && !this._replay) this._chain = null; return; }
     const { scale, nodeK, kLOD, LY, ox, oy, dpr } = F, drawn = [];
     ctx.save(); ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.lineCap = "round";
     for (const L of ch.legs) {
@@ -22536,11 +22574,13 @@ class Component extends DCLogic {
       const arrival = this._catchProvenance();
       this.setEvent("Opponent goes for", this.choiceLabel(response), "bad");
       this._pendingIntent = { actor: "opp", idx, via: state.idx, kind: "escape" };
-      this._chainOn([{ a: state.idx, b: idx, who: "opp" }]); this._chainFrame();   // OPP1
+      this._chainOn([{ a: state.idx, b: idx, who: "opp" }]);   // OPP1
       if (this._chainSaid) this._chainLine(this._chainSaid, "Opponent goes for " + this.choiceLabel(response), "bad");
+      this._chainFrame();   // after the sentence: its height is the visible map's top (`_viewRect`)
       this.startTravel([state.idx, idx], () => {
         if (arrival.journey !== this._journeyId) return;
         this.playerRole = role; this.currentPos = idx; this.moveCount++; this._lastActor = "opp";
+        this._chainBack(idx);   // OPP1-R1: the camera starts back, the path fades
         this.after(0.5, () => this.enterLand(false, false, arrival));
       }, NG_CHAIN.leg);
       return;
@@ -22583,8 +22623,9 @@ class Component extends DCLogic {
       this.activeMove = { idx: def, verb: "Defending", col: { r: 255, g: 110, b: 110 } };
       this._prefetchDefendDeck(def);   // travel + 0.3s is the window; the drill must not wait on it
       const arrival = this._catchProvenance();
-      this._chainOn([{ a: this.currentPos, b: def, who: "opp" }]); this._chainFrame();   // OPP1
+      this._chainOn([{ a: this.currentPos, b: def, who: "opp" }]);   // OPP1
       if (this._chainSaid) this._chainLine(this._chainSaid, "Opponent goes for " + this.nodes[def].t, "bad");
+      this._chainFrame();   // after the sentence: its height is the visible map's top (`_viewRect`)
       // his leg capped (NG_CHAIN.leg): the window the prefetch above relies on is the travel's 0.38 + 0.6 s least + 0.3 s
       this.startTravel([this.currentPos, def], () => this.after(0.3, () => this.enterDefense(def, arrival)), NG_CHAIN.leg);
       return;
@@ -22626,8 +22667,9 @@ class Component extends DCLogic {
     // A MOVE OF HIS THAT FAILS AND STAYS COMES BACK to the orb the player stands on ([P, O, P], OPP1-S0; the ruling: "so the
     // path ends where the next hand starts"). It used to end on the move ([P, O]) or, through the wrong member, on his orb.
     const path = [this.currentPos, def, actualDest];
-    this._chainOn([{ a: path[0], b: def, who: "opp" }, { a: def, b: actualDest, who: "opp" }]); this._chainFrame();   // OPP1
+    this._chainOn([{ a: path[0], b: def, who: "opp" }, { a: def, b: actualDest, who: "opp" }]);   // OPP1
     if (this._chainSaid) this._chainLine(this._chainSaid, "Opponent goes for " + defNode.t, "bad");
+    this._chainFrame();   // after the sentence: its height is the visible map's top (`_viewRect`)
     const arrival = this._catchProvenance();
     this.startTravel(path, () => {
       if (arrival.journey !== this._journeyId) return;
@@ -22645,6 +22687,7 @@ class Component extends DCLogic {
         this._chainLine("Opponent goes for " + defNode.t, word + ": " + where, this.myVal(dn) - before >= 0 ? "good" : "bad");
         this._chainSaidAt = this.now;   // the sentence's last line: the landing keeps it (enterLand)
       }
+      this._chainBack(this.currentPos);   // OPP1-R1: the camera starts back, the path fades
       if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
       else this.after(0.6, () => this.enterLand(false, false, arrival));
     }, NG_CHAIN.leg);
@@ -23283,7 +23326,9 @@ class Component extends DCLogic {
         tgt = { cx: this.gcx + 9 * Math.sin(this.now * 0.07), cy: this.gcy + 7 * Math.cos(this.now * 0.06), vw: this.graphW * 1.02 * br };
       } else {
         // ONE framing function, so a click and the follow-cam cannot disagree (v1.103.2).
-        tgt = this.rollCamTarget(this.camFocus, !!this.pulse);
+        // OPP1-R1: after the opponent's last leg, the place he is left in, at rest (`_chainBack`)
+        const back = this._chainBackTo && this.now < this._chainBackTo.until && this.nodes[this._chainBackTo.idx] ? this._chainBackTo : null;
+        tgt = back ? this.rollCamTarget(this.pairMid(this.nodes[back.idx]), false, back.idx) : this.rollCamTarget(this.camFocus, !!this.pulse);
       }
     }
     // THE DIRECTED ARRIVAL moves the camera, the board and the heading, never the pick or enterLand
@@ -23321,7 +23366,7 @@ class Component extends DCLogic {
     // through its whole travel, even past the window (`calmHeld`, latched at the pick).
     if (this.introDone && this._execution && this._execution.camera === false && this._execution.calmHeld) tgt = null;
     if (tgt) Object.assign(this.camTarget, this._paneCameraTarget(tgt));
-    if (tgt && (execution || openFrame?.snap) && this._reducedMotion()) {
+    if (tgt && (execution || openFrame?.snap || (this._chainBackTo && this.now < this._chainBackTo.until)) && this._reducedMotion()) {
       Object.assign(this.cam, this.camTarget, { lvw: Math.log(this.camTarget.vw) });
       return;
     }
@@ -23345,6 +23390,9 @@ class Component extends DCLogic {
     } else if (execution) {
       // an exchange: the camera keeps up with the attempt (it used to ease at tau 0.28s)
       ctx.trackW = 9; ctx.dur = (S) => clamp(0.35 + 0.15 * S, 0.45, 0.9);
+    } else if (this._chainBackTo && this.now < this._chainBackTo.until) {
+      // OPP1-R1: back from the chain's framing to the roll's zoom in NG_CHAIN.back, the exchange's quick pace
+      ctx.trackW = 9; ctx.dur = () => NG_CHAIN.back;
     }
     // THE LIFT replaces the hard band clamp (v1.180.1 to v1.218.0). That clamp SET the focus into the
     // free band on the frame a row mounted, even with the node 5,000px off-screen: measured on
