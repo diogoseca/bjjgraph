@@ -8495,7 +8495,9 @@ class Component extends DCLogic {
     this._applyLayers(); this._refreshChallengeEvidence();
     this._saveProgress();   // persists; pushes once the pull has run (`_pushCloud` pulls first otherwise)
     this.updateAccountUI();
-    if (this._arrivalSay) return;
+    // only the guest's modifiers joined (v1.301.0, MODS1 ruling 2 a): they are simply there, in Your odds; the line speaks
+    // of practice, and none joined
+    if (this._arrivalSay || r.quiet) return;
     this._announceArrival("", "Your practice from before you signed in is saved", "muted", true);   // whole: a sentence
     if (this._decision) this._sayArrivalIfPending();   // already landed: say it now, not at the next landing
   }
