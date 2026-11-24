@@ -22241,6 +22241,7 @@ class Component extends DCLogic {
     let c = this._chain;
     if (!c || c.out != null) {
       c = this._chain = { legs: [], t0: this.now, opp: null, out: null, lease: null };
+      this._chainSaid = null;   // the sentence starts with this chain (S3)
       this._ensureGameplanRuntime();   // the light's draw is the deferred bundle's (`ngLightDraw`): asked for at the miss
       this._chainArticle(true);
     }
@@ -22332,12 +22333,17 @@ class Component extends DCLogic {
 
   /** THE ARTICLE STEPS BACK (OPP1, S4; the orchestrator's ruling 3, (a)): from his miss until he can act, the article under
    *  the map is still the page he pressed from, so it is dimmed (NG_CHAIN.dim), never swapped: an opponent's move's own page
-   *  is written for its canonical origin and would mislead, and a page that changes twice in a few seconds is noise. One
-   *  attribute on the reader's root (reading.css draws it); the reader keeps every input. */
+   *  is written for its canonical origin and would mislead, and a page that changes twice in a few seconds is noise. Set
+   *  inline on the reader's article, head and contents (no deferred CSS); the reader keeps every input. */
   _chainArticle(on) {
     const r = this._readerEl; if (!r) return;
-    if (on) { r.setAttribute("data-ng-step-back", ""); r.style.setProperty("--ng-step-back", String(NG_CHAIN.dim)); }
-    else r.removeAttribute("data-ng-step-back");
+    if (on) r.setAttribute("data-ng-step-back", ""); else r.removeAttribute("data-ng-step-back");
+    // inline, on the reader's own elements, which nothing else styles inline this way (so removing what this set restores
+    // them, CLAUDE.md 6.1's `style.x = ""` trap does not apply); 0.3 s, none under reduced motion
+    for (const el of r.querySelectorAll(".ng-reader-article, .ng-reader-head, .ng-reader-toc")) {
+      if (on) { el.style.transition = this._reducedMotion() ? "" : "opacity .3s ease"; el.style.opacity = String(NG_CHAIN.dim); }
+      else { el.style.removeProperty("opacity"); }
+    }
   }
 
   defendKeyFor(subNode) { return subNode.t + "|Defender"; } // full name, matches the emitted Defender deck key
@@ -22530,7 +22536,7 @@ class Component extends DCLogic {
       this.setEvent("Opponent goes for", this.choiceLabel(response), "bad");
       this._pendingIntent = { actor: "opp", idx, via: state.idx, kind: "escape" };
       this._chainOn([{ a: state.idx, b: idx, who: "opp" }]); this._chainFrame();   // OPP1
-      this._chainLine(this._chainSaid || "Your attempt failed", "Opponent goes for " + this.choiceLabel(response), "bad");
+      if (this._chainSaid) this._chainLine(this._chainSaid, "Opponent goes for " + this.choiceLabel(response), "bad");
       this.startTravel([state.idx, idx], () => {
         if (arrival.journey !== this._journeyId) return;
         this.playerRole = role; this.currentPos = idx; this.moveCount++; this._lastActor = "opp";
@@ -22577,7 +22583,7 @@ class Component extends DCLogic {
       this._prefetchDefendDeck(def);   // travel + 0.3s is the window; the drill must not wait on it
       const arrival = this._catchProvenance();
       this._chainOn([{ a: this.currentPos, b: def, who: "opp" }]); this._chainFrame();   // OPP1
-      this._chainLine(this._chainSaid || "Your attempt failed", "Opponent goes for " + this.nodes[def].t, "bad");
+      if (this._chainSaid) this._chainLine(this._chainSaid, "Opponent goes for " + this.nodes[def].t, "bad");
       // his leg capped (NG_CHAIN.leg): the window the prefetch above relies on is the travel's 0.38 + 0.6 s least + 0.3 s
       this.startTravel([this.currentPos, def], () => this.after(0.3, () => this.enterDefense(def, arrival)), NG_CHAIN.leg);
       return;
@@ -22620,7 +22626,7 @@ class Component extends DCLogic {
     // path ends where the next hand starts"). It used to end on the move ([P, O]) or, through the wrong member, on his orb.
     const path = [this.currentPos, def, actualDest];
     this._chainOn([{ a: path[0], b: def, who: "opp" }, { a: def, b: actualDest, who: "opp" }]); this._chainFrame();   // OPP1
-    this._chainLine(this._chainSaid || "Your attempt failed", "Opponent goes for " + defNode.t, "bad");
+    if (this._chainSaid) this._chainLine(this._chainSaid, "Opponent goes for " + defNode.t, "bad");
     const arrival = this._catchProvenance();
     this.startTravel(path, () => {
       if (arrival.journey !== this._journeyId) return;
