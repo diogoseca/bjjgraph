@@ -120,6 +120,13 @@ const NG_SETTINGS_LINES = {
 // Nov, SET1-R3: it means it everywhere, so a card is never asked from memory and the goals that need one proven from memory, "Prove
 // a card from memory" and the four "Recall-prove …", wait; "the line says both, plainly"), pinned by answer-mode.spec.ts; Recall
 // keeps that checkpoints and the defence drill stay multiple choice (`_cardAsksMc`).
+// WHAT EACH PLACE SHOWS DURING A ROLL: [choice, name, its one line] (SETH2 B, v1.298.2; the lines are the orchestrator's, ruled with the
+// survey's two findings: the defence drill in "The card only", the film's own switch in "No card").
+const NG_ROLL_SHOWS = [
+  ["question", "A question", "One multiple-choice question at each place (keys A–C). Right answers raise that exchange’s odds and refund clock, and rights in a row build a combo; a wrong or ignored one breaks it."],
+  ["card", "The card only", "The place’s card, with no question. No combos. A submission that catches you still asks its defence drill."],
+  ["none", "No card", "No card and no question; the film follows Video under Articles. The ✕ on the card does the same; this brings it back."],
+];
 const NG_ANSWER_MODES = [
   ["auto", "Auto", "Multiple choice until you get a card right twice, then recall from then on."],
   ["mc", "Multiple choice", "Pick the answer from three. Recognition: easier, good for a first pass. A card is never asked from memory, so the goals that need one proven from memory wait."],
@@ -403,10 +410,40 @@ renderSettings() {
       // number is pure Win chance and the hand sorts once by it, so the dial only reordered the ~5 s
       // before values arrived and nudged the opponent's tie-breaks. The stored `lossAversion` key is
       // never read again and never deleted (CLAUDE.md §6.6); the wire ships the default block only.
-      // landing questions — the in-roll quiz beat
-      const lq = words(el("div", "ng-set-row side"), "Questions while you roll", "Every state you land on asks one multiple-choice question (keys <b style=\"color:#c3cde0;\">A–C</b>). Right answers raise that exchange’s odds and refund clock; wrong ones cost odds for that exchange only. String rights together across states to build <b style=\"color:#c3cde0;\">combos</b> — momentum that heats your whole hand and makes counters fade. Wrong or ignored breaks it.");
-      lq.appendChild(tick(this.get("landQuestions", true), null, () => { this.set("landQuestions", !this.get("landQuestions", true)); this.renderSettings(); }));
-      sec.appendChild(lq);
+      // WHAT EACH PLACE SHOWS DURING A ROLL: ONE ROW OF THREE (SETH2 B, v1.298.2; the owner, 23 Nov: "isnt 'Questions while you roll …'
+      // a bit duplicate of 'Question card: Off = no card and no question. (Turning questions off above keeps the card.)'? or are they
+      // diff things?"). They were different things whose copy had to explain the difference, which was the fault: "Questions while
+      // you roll" (`landQuestions`) said whether a landing asks, and "Question card" (the `card` layer) whether the card is on screen
+      // at all, two ticks for three states that matter and a fourth equal to the third. NG_ROLL_SHOWS is the one row; it READS the
+      // two keys and WRITES them through the setters the two rows used (`set("landQuestions")`, `setLayer("card", …, "settings")`), so
+      // sync, the card's own ✕ and its Undo stay in step. No key is added or removed (CLAUDE.md §6.6). "No card" leaves `landQuestions`
+      // as it is, so the card coming back (Undo, the index row, this row) returns to the player's own choice; a pick that would not
+      // change `landQuestions` does not write it. The order of the writes matters: the question key first, then the layer, because
+      // turning the card on mid-landing builds it at once (`_applyLayers`) and reads the key then.
+      // THE STATES THE ORCHESTRATOR'S SURVEY FOUND (renderLandCard): a defence drill asks whatever `landQuestions` says (`wantQ =
+      // defense || …`), so "The card only" says so; with the card off the drill is skipped too (`panic_skipped`, "collapsed"). The film
+      // is its own layer (the Video row under Articles), docked with or without the card, so the third choice is "No card", not
+      // "Nothing", and its line says where the film is decided (the orchestrator's ruling: no third key written here).
+      {
+        const now = !this._layerOn("card") ? "none" : this.get("landQuestions", true) ? "question" : "card";
+        const pick = (v) => {
+          if (v !== "none" && this.get("landQuestions", true) !== (v === "question")) this.set("landQuestions", v === "question");
+          this.setLayer("card", v !== "none", "settings");
+          this.renderSettings();
+        };
+        const shows = el("div", "ng-set-row"); shows.append(el("div", "ng-set-t", "During a roll, each place shows"));
+        shows.setAttribute("data-settings-shows", now); shows.setAttribute("data-layer-row", "card");
+        const seg = el("div", "ng-set-seg");
+        for (const [v, name] of NG_ROLL_SHOWS) {
+          const b = this.segBtn(name, v === now, false, () => pick(v));
+          b.setAttribute("data-shows-pick", v); b.setAttribute("aria-pressed", v === now ? "true" : "false");
+          seg.appendChild(b);
+        }
+        shows.appendChild(seg);
+        const line = NG_ROLL_SHOWS.find((r) => r[0] === now);
+        shows.appendChild(el("div", "ng-set-cn", '<b style="color:#cbd4e6;">' + line[1] + '</b> &mdash; ' + line[2][0].toLowerCase() + line[2].slice(1)));
+        sec.appendChild(shows);
+      }
       // decision time pace
       const dt = el("div", "ng-set-row");
       const dsecBase = this.get("decisionSec", 9);
@@ -434,8 +471,8 @@ renderSettings() {
       // two rows switched one thing; the Video row under Articles is now the one switch, and says it is the film too.
       const lay = el("div", "ng-set-sub", '<div>On screen during a roll</div><p>Each part has its own ✕ on the board, and this is where a hidden part comes back. Your choice sticks across states and devices.</p>');
       sec.appendChild(lay);
+      // The card's own row left for "During a roll, each place shows" above (SETH2 B); the moves stay here alone.
       const LAYER_ROWS = [
-        ["card", "Question card", "Off = no card and no question. (Turning questions off above keeps the card.)"],
         ["hand", "Your moves", "The hand of moves, escapes included. Off = the roll waits until you show them."],
       ];
       for (const [name, title, sub] of LAYER_ROWS) {
@@ -538,7 +575,10 @@ renderSettings() {
     // focused and outlined. Read once, so the redraw a toggle makes does not jump back. The video's is the Video row under Articles
     // (SET1-GO 2); the moves' and the question card's are under Rolling.
     const aim = this._settingsAim; this._settingsAim = null;
-    const aimed = aim && (body.querySelector('[data-layer-toggle="' + aim + '"]') || body.querySelector('[data-section-setting="' + aim + '"]'));
+    // The card's switch is the chosen choice of "During a roll, each place shows" (SETH2 B): after its ✕ that is "No card", focused, so the
+    // player picks the way it comes back.
+    const aimed = aim && (body.querySelector('[data-layer-toggle="' + aim + '"]') || body.querySelector('[data-section-setting="' + aim + '"]')
+      || aim === "card" && body.querySelector('[data-settings-shows] [data-shows-pick="' + body.querySelector("[data-settings-shows]").getAttribute("data-settings-shows") + '"]'));
     if (aimed) requestAnimationFrame(() => {
       const row = aimed.closest("[data-layer-row],label");
       row.setAttribute("data-settings-aimed", "");

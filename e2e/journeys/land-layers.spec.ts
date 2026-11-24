@@ -16,7 +16,7 @@ import { journey } from "../dsl"
  * HAND is dealt and hidden — the roll waits — escapes included (v1.171.1, owner).
  *
  * Surfaces: [data-land-close] [data-film-close] [data-hand-close] [data-layer-dock]
- *           [data-layer-show=film|card|hand] [data-layer-toggle=…] · settings above
+ *           [data-layer-show=film|card|hand] [data-layer-toggle=hand] [data-shows-pick=…] · settings above
  * Seams:    setLayer · _layerOn · _handShown · _applyLayers · _syncHandLayer · _landDatum ·
  *           _renderLayerDock · renderLandCard's collapsed branch · _tapBackground (untouched)
  *
@@ -108,8 +108,10 @@ const restore = async (page: any, j: any, view: View, part: "card" | "hand") => 
   const message = `[data-hidesec-notice="${part}"] [data-hidesec-undo]`
   if (await page.locator(message).isVisible()) return j.clickByMouse(message, `the closed ${part === "card" ? "Questions" : "Moves"} message's Undo`)
   await page.evaluate(() => (window as any).__neural.openSettings("rolling"))
-  await page.locator(`[data-layer-toggle="${part}"]`).scrollIntoViewIfNeeded()
-  await j.clickByMouse(`[data-layer-toggle="${part}"]`, `its Settings switch`)
+  // SETH2 B (v1.298.2): the card's switch is "During a roll, each place shows"; A question brings it back (the question was never off)
+  const sw = part === "card" ? '[data-shows-pick="question"]' : `[data-layer-toggle="${part}"]`
+  await page.locator(sw).scrollIntoViewIfNeeded()
+  await j.clickByMouse(sw, `its Settings switch`)
   await page.keyboard.press("Escape")
 }
 const viewTitle = (_view: View) => " (reading view: the closed label)"
@@ -416,18 +418,19 @@ test("the settings rows mirror the keys, both ways", async ({ page }) => {
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.openSettings("rolling"))
   await j.advance(300)
-  const row = page.locator('[data-layer-toggle="card"]')
-  await expect(row).toHaveAttribute("aria-pressed", "true")
-  await row.click()
+  // SETH2 B (v1.298.2): the card's row is "During a roll, each place shows", which publishes the choice it shows
+  const row = page.locator("[data-settings-shows]")
+  await expect(row).toHaveAttribute("data-settings-shows", "question")
+  await page.locator('[data-shows-pick="none"]').click()
   await j.advance(300)
-  await expect(page.locator('[data-layer-toggle="card"]')).toHaveAttribute("aria-pressed", "false")
+  await expect(page.locator("[data-settings-shows]")).toHaveAttribute("data-settings-shows", "none")
   const s = await read(page)
   expect(s.keys.card).toBe(false)
   expect(s.card, "the live card went with it").toBe(false)
   expect(s.dock, "no dock glyph (U114 a)").toEqual([])
   await page.evaluate(() => (window as any).__neural.setLayer("card", true, "test"))
   await page.evaluate(() => (window as any).__neural.renderSettings())
-  await expect(page.locator('[data-layer-toggle="card"]'), "a change from the board shows in the row").toHaveAttribute("aria-pressed", "true")
+  await expect(page.locator("[data-settings-shows]"), "a change from the board shows in the row").toHaveAttribute("data-settings-shows", "question")
 })
 
 for (const view of VIEWS)

@@ -159,7 +159,7 @@ test("unchanged real controls retain settings keys, effects, direct tabs and key
   assert.ok(!card.querySelector("[data-settings-loss]") && !card.querySelector("[data-loss-pick]"), "retired row absent");
   app.set("lossAversion",4); assert.equal(app._evLamIdx(), 1, "EDGE reads the default block, never the stored key"); assert.ok(!calls.changed.includes("loss-aversion"));
   clickText(card,"No-gi"); assert.equal(app._giMode,"nogi"); assert.ok(calls.changed.includes("ruleset"));
-  card.querySelector('[data-layer-toggle="card"]').click(); assert.equal(app.get("landCard"),false); assert.equal(calls.layers,1);
+  card.querySelector('[data-shows-pick="none"]').click(); assert.equal(app.get("landCard"),false); assert.equal(calls.layers,1);
   const slider=card.querySelectorAll("input").find(e=>e.type === "range"); slider.value="12"; slider.fire("input"); assert.equal(app.get("decisionSec"),12); assert.equal(card.querySelector(".paceVal").textContent,"12");
   const row=card.querySelector('[role="tablist"]'), event=row.fire("keydown",{key:"End"});
   assert.equal(event.stopped,true); assert.equal(event.defaultPrevented,true); assert.equal(app._settingsTab,"shortcuts"); assert.equal(document.activeElement.getAttribute("data-settings-tab"),"shortcuts");
@@ -347,7 +347,8 @@ test("SET1: one page of groups in their order, each old id lighting its own; art
   assert.equal(group("rolling").querySelector("[data-section-setting]"), null, "and nothing of them under Rolling");
   assert.equal(inGroup("[data-settings-gi]"), "app", "gi / no-gi under General");
   assert.equal(inGroup("[data-answer-mode]"), "flashcards"); assert.equal(inGroup("[data-settings-start]"), "rolling");
-  assert.equal(inGroup('[data-layer-toggle="card"]'), "rolling"); assert.equal(inGroup('[data-layer-toggle="hand"]'), "rolling");
+  assert.equal(inGroup("[data-settings-shows]"), "rolling"); assert.equal(inGroup('[data-layer-toggle="hand"]'), "rolling");
+  assert.equal(card.querySelector('[data-layer-toggle="card"]'), null, "the card's tick left for the row of three (SETH2 B)");
   assert.equal(card.querySelector('[data-layer-toggle="film"]'), null, "the film's own row is gone: Video is the one switch");
   assert.deepEqual(card.querySelectorAll('[role="tab"]').map((t) => t.textContent), ["General", "Practice", "Rolling", "Articles", "Your odds", "Keyboard"]);
   const notes = card.querySelectorAll(".ng-set-note").map((n) => n.textContent);
@@ -368,4 +369,34 @@ test("SET1: the Video row is one switch for the article's video and the film dur
   await app.openSettings("reading"); box().checked = true; app._readerGraded = () => { calls.graded = 1; }; box().fire("change");
   assert.equal(app.get("readerSection.videos"), true); assert.equal(app.get("landFilm"), false, "with a reader, the film's key is left alone");
   assert.equal(calls.synced, 1); assert.equal(calls.graded, 1, "turning it on settles a pinned landing"); assert.equal(calls.layers, layers);
+});
+
+// SETH2 B (v1.298.2; the owner, 23 Nov: "isnt 'Questions while you roll …' a bit duplicate of 'Question card …'? or are they diff
+// things?"): ONE row of three over the two keys the two ticks wrote. A question = landQuestions on, the card on; The card only =
+// landQuestions off, the card on; No card = the card off, landQuestions LEFT AS IT IS. No key added or removed; a pick that leaves
+// landQuestions where it is does not write it; the row reads the keys, so a change made on the board (the card's ✕, its Undo) shows.
+// The presses by mouse and touch and the board's own ✕ and Undo: e2e/journeys/settings-choices.spec.ts.
+test("SETH2 B: During a roll, each place shows: each choice sets exactly its two values, No card keeps the question key, the row follows the board", async () => {
+  const {app,card} = fixture();
+  await app.openSettings("rolling");
+  const shows = () => card.querySelector("[data-settings-shows]").getAttribute("data-settings-shows");
+  const now = () => [app.get("landQuestions", true), app._layerOn("card"), shows()];
+  const pickIt = (v) => card.querySelector('[data-shows-pick="' + v + '"]').click();
+  assert.deepEqual(card.querySelectorAll("[data-shows-pick]").map((b) => b.textContent), ["A question", "The card only", "No card"]);
+  assert.ok(!/Questions while you roll|Question card/.test(card.textContent), "the two old rows are gone");
+  assert.deepEqual(now(), [true, true, "question"], "nothing stored reads as A question");
+  pickIt("question"); assert.equal("landQuestions" in app.settings || "landCard" in app.settings, false, "a pick that changes nothing writes nothing");
+  pickIt("card"); assert.deepEqual(now(), [false, true, "card"]);
+  pickIt("none"); assert.deepEqual(now(), [false, false, "none"], "No card leaves the question key off");
+  pickIt("question"); assert.deepEqual(now(), [true, true, "question"]);
+  pickIt("none"); assert.deepEqual(now(), [true, false, "none"], "No card leaves the question key on");
+  const at = app._settingsAt.landQuestions;
+  pickIt("question"); assert.deepEqual(now(), [true, true, "question"]); assert.equal(app._settingsAt.landQuestions, at, "the question key was not written again");
+  assert.match(card.querySelector("[data-settings-shows]").textContent, /one multiple-choice question at each place/i, "the chosen one's line");
+  // the board: The card only, then the card's own ✕ (No card), then its Undo: back to The card only
+  pickIt("card");
+  app.setLayer("card", false, "x"); app.renderSettings(); assert.deepEqual(now(), [false, false, "none"], "the row shows the board's ✕");
+  app.setLayer("card", true, "undo"); app.renderSettings(); assert.deepEqual(now(), [false, true, "card"], "and its Undo: the choice before it");
+  assert.match(card.querySelector("[data-settings-shows]").textContent, /A submission that catches you still asks its defence drill/, "The card only says the drill still asks");
+  pickIt("none"); assert.match(card.querySelector("[data-settings-shows]").textContent, /the film follows Video under Articles/, "No card says where the film is decided");
 });
