@@ -21976,6 +21976,16 @@ them is in the pool.
 - The chance moved into `_oppFinishChance(subs, trans)`: 0 with no finish, **1 with finishes only** (it was 0.9), and
   otherwise the dominance formula as it was.
 - `opp-finish` is still drawn, so the random stream keeps its shape.
+- **The Win % model plays the same rule** (`mdp-adapter.src.js`, the opponent's forced action): with finishes only, the
+  attack every time (`pf` 1, it was .9), and no positional row drawn from a finish there. The corpus replay that ties the
+  model to the game (`tests/mdp_corpus.test.mjs`, "live routing replay") caught the game changing alone ("unexpected RNG
+  opp-sub-pick"). Win % at the three seats now counts the opponent's turn as it is played.
+  - The adapter's exposure pin moved (`b9ebcf…` → `7fc826…`), with a changelog line in `mdp-exposure.src.js`. The change is
+    label-neutral, since opponent rows read no player knowledge.
+  - Measured: emitted before and after, every MDP shard part byte-identical (63 of 63); only provenance hashes and the
+    variants' `mechanicsHash` moved.
+  - Two tests held the old law and now hold the new one, nothing else in them changed: `mdp_adapter.test.mjs`'s
+    submissions-only law (was ".9 attack and .1 full-outcome fallback") and the corpus replay's copy.
 
 **Proof:**
 - **`tests/opp_finish_chance.test.mjs`** sweeps every seat in both rulesets with the app's own walk:
@@ -21985,6 +21995,7 @@ them is in the pool.
 - **`opponent-turn-chain.spec.ts`**, at Twister Control with the player bottom and `opp-finish` at 0.95: the defence
   drill starts, on one of that seat's finishes.
 - **Mutant O1a** (the chance back to 0.9 there): the journey red, and the unit red in both rulesets.
+- **Mutant O1m** (the model back to .9): `mdp_adapter.test.mjs` red, 2 of 11.
 - **Same seeds, the base's build against this one:** the reader of PR #461's seeded sweep (seeds 4471 and 9001,
   sixteen starts). It met none of the three seats. Everything matched:
 
