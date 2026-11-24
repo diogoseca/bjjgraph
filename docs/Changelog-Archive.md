@@ -21801,3 +21801,100 @@ name it.
 
 **Bytes** (the served app folders emptied first): eager gzip 385,546 B (+59 on dev 127e38938's 385,487; +1,267 on
 PAY-L5); first-hand core 404,998 B; deferred unchanged (564,386 B, its ceiling).
+
+## v1.300.0 — The opponent's turn, made readable (OPP1 S1 to S4; the owner's own play, 24 Nov 2026)
+
+**What a player sees.** The owner, on the preview: "maybe it would be if we, since the failed attempt keep the map zoomed
+out to keep the failed attempt node + every other node that follows the opponent's decision and chances taken until the
+current node so the path is visible on the graph". From his failed attempt until he can act again:
+- **one framing for the whole chain.** When the opponent's choice completes it, the camera glides once to hold every node:
+  where he stood, his move (and where its miss left him), the opponent's move, and where it lands (or the submission that
+  catches him). It is fitted in the calm area of the visible map, never closer than the roll's zoom, and held to the
+  hand. His own miss is seen up close first, as before.
+- **the path, with direction.** Each leg is a line with an arrowhead at its destination. His failed leg is dashed, dimmed
+  and crossed; the opponent's is solid in the opponent's colour. The chain is named, and the rest of the map steps back
+  under the light. All of it fades as the hand comes in.
+- **the banner as one sentence,** the line before kept above it: "Your Arm Drag to Back failed" → "Opponent goes for Body
+  Lock Pass" → "It fails: you stay in Butterfly Guard, bottom".
+- **the article steps back** (dimmed), never swapped for the opponent's move's page.
+- **the opponent's legs last at most 1.0 s each** (his Body Lock Pass at Butterfly Guard took 4.3 s and 4.0 s).
+- **a reward notice waits** through his turn and shows when the hand comes.
+
+**The rulings** (prompts/mapshows-oppturn-go.md):
+1. S0 alone first (v1.299.1, PR #460).
+2. The glide at the opponent's choice.
+3. The article stepped back, not swapped.
+4. The light's one exception, scoped to the chain.
+5. The opponent's legs capped at 1.0 s.
+6. The orchestrator's own three points: the reward notice held; the names and lines readable at the widest framing; at 390
+   the banner's two lines clear of the chain.
+
+**How** (`app.src.jsx`, NG_CHAIN):
+- **The chain:** `_chain`, from the miss (`enterFailCal`, `enterFail`) and completed at the opponent's choice
+  (`opponentDefend`, all three branches).
+- **The framing:** `_chainFrame`, using `_fitView` in the calm box plus a lease, glided to once.
+- **The path:** `_drawChain`, published as `_lastChain`.
+- **The names:** a "chain" pass of `_planNames`; the lit trail never names one of its nodes twice.
+- **The light:** `_drawLight`'s one exception, written at the rule's code site: lit from the opponent's choice, out over
+  0.6 s; every other light still never over a running game.
+- **The banner:** `_chainLine`, whole sentences from the outcome's own `result`. The landing keeps the last line shown
+  (`_chainSaidAt`). An opponent's turn with no miss before it keeps today's line.
+- **The article:** `_chainArticle`, set inline on the reader's article, head and contents (no deferred CSS).
+- **The opponent's pace:** `startTravel`'s cap, his legs only.
+- **The reward notice:** `showNextChallengeReward` reads `_chainOpen`.
+- **Lifters:** `_chainEnd` from the landing, the drill's start, the round's end and `clearTimers`. A film over the chain
+  frames it again when it stops.
+- **Fixed alongside:** the reader of #460's follow-ups. The v1.299.1 entry is corrected, three behaviours are pinned, and
+  the boot onto an alias page is fixed.
+
+**Measured** (seeded, real input, N = 70 at 1048 and 390; probes in design/opp-turn/tools):
+
+| | dev (OPP1 Part A) | v1.300.0 |
+|---|---|---|
+| a place of the chain off the visible map, once the framing settled | 97% / 93% of attempts at some frame (no framing to settle) | 0 of 777 / 0 of 940 settled frames |
+| the chain named | 39% / 41% of its nodes never named during the travel | the first name 0.1 s after the opponent's choice (median); never unnamed (0 of 70 / 0 of 70); named for 87% / 91% of his turn |
+| name overlaps; the smallest name | — | 0; 10 px, at the widest framing too (5,879 units at 1048, 2,353 at 390) |
+| landings on the opponent's orb | 39 of 39 / 41 of 41 | 0 of 45 / 0 of 46 |
+| travel per failed attempt | median 5.2 s, p90 9.3 | median 3.9 / 3.8 s, p90 7.0 / 6.7 |
+| from the press to the next moment he can act | median 8.2 / 8.3 s | median 7.1 / 7.0 s |
+
+- **The drill's window with his legs capped:** ten finishes at Closed Guard, each on a fresh page with the CPU throttled 4x;
+  every drill started on its own defend deck, 0.30 to 0.35 s after the travel. The shortest leg is pinned, its deck cold
+  by construction.
+- **Frame time** (`_map_names_frametime.mjs --ab chain`, paired frames, 4x throttle): held +0.3 ms and dragging +0.2 ms,
+  at 390x631 and at 1440x900.
+- **One cost:** the light's draw is the deferred `gameplan.js` (22,010 B gzip), fetched at the first miss for a player
+  who never opened the drawer. Until it is in, the chain draws its path and names without the light, and says so once
+  (`light_cold`).
+
+**Tests.** e2e/journeys/opponent-turn-chain.spec.ts (15), tests/map_light.test.mjs (+2), and opponent-landing-seat.spec.ts
+(+2, S0-F2). Each mutant is red after a green control:
+
+- **Controls:** CC0 15 of 15, SC0 6 of 6, UC0 green.
+- C1 (no framing) 10 red; C2 (no lease) 10; C3 (his legs uncapped) 1; C4 (the reward not held) 2; C5 (no arrowheads) 3;
+  C6 (no chain names) 3; C7 (the light's exception taken away) 3, and its unit; C8 (the rule gone for every light): the
+  unit "out at once when the game starts again"; C9 (the result word fixed) 1; C10 (the article not stepped back) 1;
+  C11 (the landing hides the last line) 3.
+- The reader's X2 1; S0a 5.
+- B1 (no second read on an alias boot) threw on 16 of 40 boots, against 0 of 40 with the fix; the journey boots twelve
+  times.
+
+**Runs and bytes:**
+
+- **The full core suite** at b782458a3: 2,081 tests, 2,063 passed, 5 skipped. 13 red:
+  - the stale nine (`legal-pages` 8, `bundle-version` 1);
+  - `announcer-coherence` 2: the opponent's turn driven with no miss before it was given an invented kicker; such a
+    chain now keeps today's line;
+  - `roll-execution` 2: it read "Failed" and "Countered", and now reads S3's "Your <move> failed / was countered".
+- **On the corrected head,** the announcer, chain, reading, article, map-light and opponent-turn specs: 390 passed. The
+  3 reds were the drill test's timing-dependent cold premise (now cold by construction) and `roll-execution` 2; after
+  those fixes the three files passed 92 of 92 (twice each).
+- **The 10 generated specs** on the opponent's turn: 10 of 10.
+- **The units:** 1,905 of 1,905, after the framing learned to stand down without a map drawn: `tests/mdp_corpus.test.mjs`
+  replays the game in Node and reached `_chainFrame`'s layout read (ci:validate's unit step, 'window is not defined').
+- **`npm run ci:validate`:** 26 of 26 at the head.
+- **Bytes** (the served app folders emptied first):
+  - eager gzip 387,616 B, +2,070 on PAY-L6 (385,546);
+  - first-hand core 407,134 B, +2,152 on 404,982;
+  - deferred unchanged, 564,386 B at its ceiling (S4's step back is set inline, not in `reading.css`).
+- The app rows were re-seeded in their own commit.
