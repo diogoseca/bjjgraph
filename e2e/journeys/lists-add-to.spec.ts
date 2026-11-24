@@ -22,6 +22,8 @@ import { journey } from "../dsl";
  *   D2 the source rewritten by the add (its `t` bumped)          → "1440 by mouse…" at "the list it stays in is untouched"
  *   D3 the Undo taking the item out of the source too            → "1440 by mouse…" at "Undo: out of Guard only"
  *   D4 "Add to…" missing from the item's ⋮                        → both, at "the item's ⋮ in its ruled order"
+ *   D5 (ADD1-R1, the lists reader's surviving mutant) the add mode without its keys → "by keyboard…" at "focus is in the add
+ *      menu"
  */
 
 type W = any;
@@ -168,6 +170,52 @@ test("New list: made with the item in it, the list it stays in keeping it; its U
   now = await lists(page);
   expect(now[born], "the new list held only this item, as made: it goes").toBeUndefined();
   expect(now[S.id].items, "the list it stayed in is as it was").toEqual(S.items);
+});
+
+const active = (page: Page, attr: string) => page.evaluate((a) => (document.activeElement as HTMLElement | null)?.getAttribute(a) ?? null, attr);
+/** ↓ until the focused element's `attr` is `want` (at most `n` presses); returns what holds focus then. */
+const downTo = async (page: Page, attr: string, want: string, n = 8) => {
+  for (let i = 0; i < n && (await active(page, attr)) !== want; i++) await page.keyboard.press("ArrowDown");
+  return active(page, attr);
+};
+
+// ADD1-R1 (the lists reader: the add mode's keys were unpinned; its mutant survived every journey): the twin of
+// lists-move.spec.ts's key journey, for "Add to…"
+test("by keyboard: Enter on ⋮, ↓ to Add to…, Enter; the add menu opens on a row that can be chosen, ↓ to the target, Enter; focus back on the item's ⋮ in its own list; Esc closes", async ({ page }) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  const [S, T, H] = await seed(page, [{ name: "Monday", n: 2 }, { name: "Guard", n: 1 }, { name: "Has it", n: 0 }]);
+  const x = S.items[0];
+  await page.evaluate(([x, h]) => (window as W).__neural.addToList(x, h), [x, H.id]);
+  await page.locator(".ng-logo").click();
+  await settleSystems(page);
+  await page.locator(dotsSel(x, S.id)).focus();
+  await page.keyboard.press("Enter");
+  await expect(page.locator(`[data-list-item-menu-open="${x}"]`)).toBeVisible();
+  expect(await downTo(page, "data-list-menu-item", "addto"), "Add to… is reached by ↓").toBe("addto");
+  await page.keyboard.press("Enter");
+  const menu = page.locator(`[data-list-picker-add="${S.id}"]`);
+  await expect(menu, "the add menu, by keys").toBeVisible();
+  expect(await menu.evaluate((m) => m.contains(document.activeElement)), "focus is in the add menu (D5)").toBe(true);
+  expect([S.id, H.id], "it opens on a row that can be chosen (not here, not already there)").not.toContain(await active(page, "data-list-pick"));
+  expect(await downTo(page, "data-list-pick", T.id), "the target by ↓").toBe(T.id);
+  await page.keyboard.press("Enter");
+  await expect(menu).toHaveCount(0);
+  const now = await lists(page);
+  expect([now[T.id].items, now[S.id].items], "in the target, and still in its own list").toEqual([[T.items[0], x], S.items]);
+  await expect.poll(() => page.evaluate(() => { const e = document.activeElement as HTMLElement | null; return e ? [e.getAttribute("data-list-item-menu"), e.getAttribute("data-list-of")] : null; }),
+    { message: "focus is back on the item's ⋮, in the list it stays in" }).toEqual([x, S.id]);
+
+  // Esc closes the add menu and gives the keys back to the ⋮ it hangs off; nothing added
+  await page.keyboard.press("Enter");
+  expect(await downTo(page, "data-list-menu-item", "addto")).toBe("addto");
+  await page.keyboard.press("Enter");
+  await expect(page.locator(`[data-list-picker-add="${S.id}"]`)).toBeVisible();
+  await page.keyboard.press("Escape");
+  await expect(page.locator("[data-list-picker-add]")).toHaveCount(0);
+  expect(await active(page, "data-list-item-menu"), "focus back on the ⋮").toBe(x);
+  expect((await lists(page))[T.id].items, "Esc added nothing").toEqual([T.items[0], x]);
 });
 
 test.describe("at 390x631 by touch", () => {
