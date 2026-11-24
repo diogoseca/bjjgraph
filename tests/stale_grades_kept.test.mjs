@@ -1,28 +1,35 @@
-// CARD1-S0 (v1.301.5; the orchestrator's ruling on CARD1): A GRADE IS NEVER DELETED, AND NOTHING A PLAYER SEES CHANGES.
+// CARD1-S0 (v1.301.5; the orchestrator's ruling on CARD1, and CARD1-S0-R1 on the sync reader's read of PR #468): A GRADE IS NEVER
+// DELETED, AND NOTHING A PLAYER SEES CHANGES.
 //
 // When a deck lands, `_pruneStaleGrades` used to delete the grade of every question the deck no longer holds (a reworded or
-// retired card). It now MARKS it gone (`stageGone`) and keeps it in `stage`, for CARD1's recovery (slice 3) and so no build
-// can lose a re-keyed grade to an older build's prune (slice 2). The readers that sum `stage` by its keys skip a marked row.
+// retired card). It now MARKS it gone and keeps it in `stage` (synced), for CARD1's recovery (slice 3) and so no build can
+// lose a re-keyed grade to an older build's prune (slice 2). The readers that sum `stage` by its keys skip a marked row.
+// THE MARKER IS THE BROWSER'S (R1): kept beside `<owner>:device` (host `goneRead`/`goneWrite`), never in the record, never
+// merged, pushed or joined. Each "device" below is a host with its own store, so a reboot reads its own marks back and
+// another device starts with none.
 //
 // THE DIFFERENTIAL: one player, and its PRUNED TWIN (the same record with those grades deleted: exactly what dev's prune
 // leaves). The same reader code reads both, so every number equal means the marker reads as the deletion did:
-//   · after the deck lands (its own cards read it), and after a REBOOT from the saved record with the deck NOT loaded and no
-//     live set (the case a count-side reading could not hold): deckMastery, the deck glyph, the challenge evidence
-//     (`recallCount`, `masteredDeckCount`), gameScore, the due count;
-//   · the stored record after the landing still holds the grades, with the marker; a player with no stale grade writes the
-//     same record as dev;
-//   · a sync round-trip in both orders, against a fake cloud with no marker, keeps the grades and the marker;
-//   · the guest's "did you practise?" key reads as the pruned twin's;
-//   · a marked question live again is unmarked and counts (the one place a mark differs from a deletion, in the player's
-//     favour); a malformed stored marker is dropped, never a reason to refuse the record.
-// MUTANTS (each red here): the prune deletes again; `deckMastery`'s unloaded branch does not skip a marked grade;
-// `recallCount` does not skip one; the pull merge drops the cloud's marker; the practice key keeps marked grades.
+//   · after the deck lands, and after a REBOOT on the same device with the deck NOT loaded and no live set: deckMastery,
+//     the deck glyph, `recallCount`, `masteredDeckCount`, gameScore, the due count;
+//   · the record after the landing holds the grades and NO marker; a player with no stale grade writes dev's record;
+//   · a sync in both orders: the marker never travels; a device that never loaded the deck reads, after the sync, exactly
+//     what it read before it (dev's numbers, never lower: the reader's 95 of 100); the one accepted difference (ruling 2)
+//     reads as the twin's settled number, and equal again after the next landing;
+//   · a record that already carries a synced `stageGone` (the preview's, from this PR's first builds) is ignored and kept;
+//   · the guest's practice key ignores it; a partial deck (the chunk-count guard) marks nothing; a second landing writes
+//     nothing; `__proto__` / `constructor` keys are refused; the rating's diagnostic `stageOnly` skips a marked grade;
+//   · a marked question live again is unmarked and counts (in the player's favour).
+// MUTANTS (each red here): the prune deletes again; `deckMastery` or `recallCount` does not skip a marked grade; the marker
+// written into the record again; the marker not read back on a reboot; the chunk-count guard removed; the unsafe-key
+// guard removed; `stageOnly` not skipping.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { ngProgressPracticeKey } from "../neural/src/progress-owner.src.js";
+import { ngProgressPracticeKey, ngProgressGoneParse } from "../neural/src/progress-owner.src.js";
+import { ngRatingShare } from "../neural/src/rating.src.js";
 import { ngKnowledgeQuestionHash } from "../neural/src/knowledge-profile.src.js";
 import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 import { ratingLiveFiles } from "./_rating_fixture.mjs";
@@ -46,8 +53,10 @@ const { Component } = new Function("DCLogic", "React", [
 const J = (f) => JSON.parse(readFileSync(resolve(DIR, f), "utf8"));
 const WIRE = J("graph-data.json"), CURRICULUM = J("curriculum.json"), MANIFEST = J("flashcards/_index.json");
 
-/** the app on the real wire (manifest, curriculum), loaded from `blob` by its own load; `live`: the rating's live set in hand */
-function boot(blob, { live = false } = {}) {
+/** a device: this browser's store for the marker, behind the host's two methods (counted, for "a second landing writes nothing") */
+const device = () => { const d = { marks: null, writes: 0 }; d.host = { goneRead: () => clone(d.marks || {}), goneWrite: (_i, m) => { d.writes++; d.marks = Object.keys(m).length ? clone(m) : null; return true; } }; return d; };
+/** the app on the real wire (manifest, curriculum), loaded from `blob` by its own load, on `dev`ice; `live`: the live set in hand */
+function boot(blob, { live = false, dev = device() } = {}) {
   const a = Object.create(Component.prototype);
   a.settings = {}; a.beats = []; a.track = () => {}; a.get = (_k, d) => d; a.set = () => {};
   a.ingest(clone(WIRE));
@@ -59,6 +68,7 @@ function boot(blob, { live = false } = {}) {
   a._saveProgress = () => {}; a._flushSave = () => {}; a.renderTutorial = () => {}; a.renderChallengeCue = null;
   a.setEvent = () => {}; a.setDeckOpen = () => {}; a._applyLayers = () => {}; a._gameValueChanged = () => {};
   a._rebuildRulesetMask = () => {}; a.weakSpots = () => null; a._progressCurrent = () => true;
+  a._progressHost = dev.host; a._progressOwner = { kind: "guest" }; a.__dev = dev;
   a._hydrateProgressBlob({ v: 2, belts: { won: {} }, ...clone(blob) });
   a._progressLoaded = true;
   return a;
@@ -91,56 +101,97 @@ test("CARD1-S0 premise: a weighed deck, three live grades, three stale", () => {
   assert.ok(stale.every((qh) => !CARDS[D].cards.some((c) => ngKnowledgeQuestionHash(c.q) === qh)), "the stale questions are not the deck's");
 });
 
-test("CARD1-S0: the deck lands: the stale grades are kept and marked, and every number reads as the pruned twin's", () => {
+test("CARD1-S0: the deck lands: the grades are kept, marked on the DEVICE, never in the record; every number as the twin's", () => {
   const a = boot(record()), t = boot(twinOf(record()));
   land(a, D); land(t, D);
   for (const qh of stale) assert.ok(qh in a.stage[D], "the stale grade is kept in stage");
-  assert.deepEqual(Object.keys(a.stageGone[D]).sort(), stale.slice().sort(), "and marked gone");
+  assert.deepEqual(Object.keys(a.__dev.marks[D]).sort(), stale.slice().sort(), "marked gone on this device");
   const saved = a._progressBlob();
   assert.deepEqual(Object.keys(saved.stage[D]).sort(), [...live, ...stale].sort(), "the stored record still holds them");
-  assert.deepEqual(saved.stageGone, { [D]: Object.fromEntries(stale.map((qh) => [qh, 1])) }, "with the marker");
+  assert.equal("stageGone" in saved, false, "and no marker: it is the device's");
   assert.deepEqual(seen(a), seen(t), "every number, as the pruned twin's");
 });
 
-test("CARD1-S0: after a REBOOT from the saved record, the deck not loaded and no live set, every number reads as the twin's", () => {
-  const a = boot(record()), t = boot(twinOf(record()));
+test("CARD1-S0: a REBOOT on the same device, the deck not loaded and no live set: every number as the twin's", () => {
+  const dev = device(), a = boot(record(), { dev }), t = boot(twinOf(record()));
   land(a, D); land(t, D);
-  const A = boot(a._progressBlob()), T = boot(t._progressBlob());
+  const A = boot(a._progressBlob(), { dev }), T = boot(t._progressBlob());
   assert.equal(A.flashcards.decks[D].cards, undefined, "premise: the deck is not loaded");
   assert.equal(A._ratingLiveNow(), undefined, "premise: no live set");
-  const sa = seen(A), st = seen(T);
-  assert.deepEqual(sa, st, "every number, as the pruned twin's (the stub branch skips a marked grade)");
+  const sa = seen(A);
+  assert.deepEqual(sa, seen(T), "every number, as the pruned twin's (the marker read back from the device)");
   assert.ok(sa.mastery > 0 && sa.recall >= 2, "premise: the live grades count");
 });
 
-test("CARD1-S0: a player with no stale grade writes the same record as dev, with no marker", () => {
+test("CARD1-S0: a player with no stale grade writes the same record as dev, and no marker", () => {
   const r = twinOf(record()), a = boot(r), t = boot(r);
   land(a, D);
-  const saved = a._progressBlob();
-  assert.equal("stageGone" in saved, false, "no marker");
-  assert.deepEqual(saved.stage, t._progressBlob().stage, "the same stage");
+  assert.equal(a.__dev.writes, 0, "no marker written");
+  assert.deepEqual(a._progressBlob().stage, t._progressBlob().stage, "the same stage");
 });
 
-test("CARD1-S0: a sync round-trip in both orders, against a cloud with no marker, keeps the grades and the marker", () => {
+test("CARD1-S0-R1: a sync in both orders: the marker never travels, and a device that never loaded the deck reads as before", () => {
   const a = boot(record()); land(a, D);
   const mine = a._progressBlob();
-  const cloud = { v: 2, belts: { won: {} }, ...record() };   // another device: the same grades, never loaded the deck
-  for (const [local, incoming] of [[mine, cloud], [cloud, mine]]) {
-    const merged = a._mergeProgressBlobs(clone(local), clone(incoming));
-    for (const qh of stale) assert.ok(qh in merged.stage[D], "the grade survives the merge");
-    assert.deepEqual(Object.keys((merged.stageGone || {})[D] || {}).sort(), stale.slice().sort(), "and so does the marker");
-    const B = boot(merged);
-    assert.deepEqual(seen(B), seen(boot(twinOf(record()))), "and the numbers read as the twin's after the round trip");
+  // B: another device, its own record (the same grades, never pruned: what dev's B holds too), never loaded the deck
+  const before = seen(boot(record()));
+  for (const [local, incoming] of [[record(), mine], [mine, record()]]) {
+    const merged = a._mergeProgressBlobs(clone({ v: 2, belts: { won: {} }, ...local }), clone({ v: 2, belts: { won: {} }, ...incoming }));
+    assert.equal("stageGone" in merged, false, "the merged record carries no marker");
+    for (const qh of stale) assert.ok(qh in merged.stage[D], "the grades survive the merge");
+    assert.deepEqual(seen(boot(merged)), before, "a device that never loaded the deck reads what it read before the sync: never lower");
   }
+  assert.deepEqual(Object.keys(a.__dev.marks[D]).sort(), stale.slice().sort(), "A's own marks stay on A");
 });
 
-test("CARD1-S0: the guest's practice key reads a marked grade as the deletion did", () => {
-  const a = boot(record()), t = boot(twinOf(record()));
+test("CARD1-S0-R1, ruling 2: a device that landed, pulling a copy that still holds the grades, reads the twin's settled number", () => {
+  const dev = device(), a = boot(record(), { dev }), t = boot(twinOf(record()));
   land(a, D); land(t, D);
-  assert.equal(ngProgressPracticeKey(a._progressBlob()), ngProgressPracticeKey(t._progressBlob()));
+  const merged = a._mergeProgressBlobs(a._progressBlob(), clone({ v: 2, belts: { won: {} }, ...record() }));
+  const A = boot(merged, { dev });
+  assert.deepEqual(seen(A), seen(boot(t._progressBlob())), "hidden here (dev would count them until its next landing)");
+  land(A, D);
+  assert.deepEqual(seen(A), seen(t), "and equal after the next landing");
 });
 
-test("CARD1-S0: a marked question live again is unmarked and counts; a malformed marker is dropped", () => {
+test("CARD1-S0-R1: a record that already carries a synced `stageGone` is ignored and kept; the practice key ignores it", () => {
+  const legacy = { ...record(), stageGone: { [D]: Object.fromEntries(stale.map((qh) => [qh, 1])) } };
+  const L = boot(legacy), P = boot(record());
+  assert.deepEqual(seen(L), seen(P), "ignored: it reads as the same record without it");
+  assert.deepEqual(L._progressBlob().stageGone, legacy.stageGone, "and kept as it was, not deleted by us");
+  assert.equal(L.__dev.writes, 0, "nothing written to the device");
+  assert.equal(ngProgressPracticeKey({ v: 2, ...legacy }), ngProgressPracticeKey({ v: 2, ...record() }), "the practice key ignores it");
+});
+
+test("CARD1-S0-R1: a partial deck (the chunk-count guard) marks nothing; a second landing writes nothing", () => {
+  const a = boot(record());
+  const d = a.flashcards.decks[D], part = CARDS[D].cards.slice(0, -1);
+  assert.ok(d.n > part.length, "premise: the chunk is short of the manifest's count");
+  d.cards = part; a._pruneStaleGrades(D, part);
+  assert.equal(a.__dev.writes, 0, "a truncated chunk marks nothing");
+  assert.equal(a.__dev.marks, null);
+  d.cards = undefined; land(a, D);
+  assert.equal(a.__dev.writes, 1, "the full chunk marks once");
+  land(a, D);
+  assert.equal(a.__dev.writes, 1, "the same deck again writes nothing");
+});
+
+test("CARD1-S0-R1: the marker's reader refuses `__proto__`, `constructor` and `prototype` at either level", () => {
+  const raw = '{"__proto__":{"deadbeef":1},"constructor":{"deadbeef":1},"' + D + '":{"__proto__":1,"prototype":1,"deadbeef":1,"zz":1,"1234abcd":0}}';
+  assert.deepEqual(ngProgressGoneParse(raw), { [D]: { deadbeef: 1 } });
+  assert.equal({}.deadbeef, undefined, "no prototype touched");
+  assert.deepEqual(ngProgressGoneParse("not json"), {});
+});
+
+test("CARD1-S0-R1: the rating's diagnostic `stageOnly` skips a marked grade", () => {
+  const a = boot({});
+  const U = a._ratingGame("gi"), stage = { [D]: { [stale[0]]: 3, [stale[1]]: 2, [live[0]]: 1 } };
+  const without = ngRatingShare(U, { srs: {}, stage }, day, null).counts.stageOnly;
+  const withGone = ngRatingShare(U, { srs: {}, stage, gone: { [D]: { [stale[0]]: 1, [stale[1]]: 1 } } }, day, null).counts.stageOnly;
+  assert.deepEqual([without, withGone], [3, 1]);
+});
+
+test("CARD1-S0: a marked question live again is unmarked and counts", () => {
   const a = boot(record()); land(a, D);
   const back = { q: "a question this deck no longer holds 0", a: "It is back." };
   assert.equal(ngKnowledgeQuestionHash(back.q), stale[0]);
@@ -149,6 +200,4 @@ test("CARD1-S0: a marked question live again is unmarked and counts; a malformed
   a._pruneStaleGrades(D, a.flashcards.decks[D].cards);
   assert.equal(!!(a.stageGone[D] && a.stageGone[D][stale[0]]), false, "unmarked");
   assert.equal(a.cardStage(D, back.q), 3, "its grade counts again");
-  const B = boot({ ...record(), stageGone: { [D]: "x", other: { zz: 1, [stale[1]]: 1 }, list: [1] } });
-  assert.deepEqual(B.stageGone, { other: { [stale[1]]: 1 } }, "only the well-formed entry is read");
 });

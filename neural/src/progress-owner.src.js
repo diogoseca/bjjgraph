@@ -495,15 +495,9 @@ export function ngProgressExploredKeys(list) {
 }
 export function ngProgressPracticeKey(blob) {
   const b = ngProgressGuestPart(blob);
-  // CARD1-S0 (v1.301.5): a grade marked gone (`stageGone`: its question left its deck, the app's `_pruneStaleGrades`) is not
-  // practice, as it was not when that grade was deleted; the marker itself is derived. So a copy reads as it did on a build
-  // that deleted it (an emptied deck's object kept, as the deletion kept it).
-  if (ngProgressObject(b.stageGone) && ngProgressObject(b.stage)) {
-    for (const dk of Object.keys(b.stageGone)) {
-      const m = b.stageGone[dk], st = b.stage[dk];
-      if (ngProgressObject(m) && ngProgressObject(st)) for (const qh of Object.keys(m)) delete st[qh];
-    }
-  }
+  // CARD1-S0-R1 (v1.301.5): the marker of grades gone is this browser's, never in a record (`goneRead` below). A record that
+  // already carries a synced `stageGone` (the preview's, written by this PR's first CI builds; none in production) is not
+  // practice: the key ignores it, and nothing deletes it (it rides `_progressExtras` like any field a build does not know).
   delete b.stageGone;
   // the modifiers (v1.301.0, MODS1) are odds a player SET, not practice: they join (`joinGuest` counts them apart, as
   // `ngProgressModsKey`), but alone they never say "Your practice from before you signed in is saved" (ruling 2 a)
@@ -688,12 +682,29 @@ function ngProgressOwnerId(owner) {
 }
 function ngProgressSameOwner(a, b) { return ngProgressOwnerId(a) === ngProgressOwnerId(b); }
 
+// THE GRADES MARKED GONE (CARD1-S0, v1.301.5), as this browser keeps them (host `goneRead`): {deck: {8-hex question hash: 1}},
+// read leniently from a stored string or an object. Anything else is dropped, never a reason to refuse: a non-object, a
+// key that is not a question hash, a 0, and `__proto__` / `constructor` / `prototype` at either level (the list cells'
+// guard, `NGLM_UNSAFE`: a parsed `{"__proto__": {...}}` must never reach a prototype).
+export function ngProgressGoneParse(v) {
+  const out = {}, unsafe = ["__proto__", "constructor", "prototype"];
+  if (typeof v === "string") { try { v = JSON.parse(v); } catch { return out; } }
+  if (!v || typeof v !== "object" || Array.isArray(v)) return out;
+  for (const dk of Object.keys(v)) {
+    if (!dk || unsafe.indexOf(dk) >= 0) continue;
+    const m = v[dk];
+    if (!m || typeof m !== "object" || Array.isArray(m)) continue;
+    for (const qh of Object.keys(m)) if (unsafe.indexOf(qh) < 0 && /^[0-9a-f]{8}$/.test(qh) && m[qh]) (out[dk] = out[dk] || {})[qh] = 1;
+  }
+  return out;
+}
 export function ngProgressLocalKey(owner, field = "progress") {
   // `guest` (v1.262.0): on an account, the hash of the guest copy it last took (or found nothing in) on this device
   // `device` (v1.262.11): this browser's code for the owner's roll-ledger partition (host `flowDevice`, below)
   // `pending` (v1.280.2): the owner's answers this browser has not yet seen delivered (`ngProgressReplay`, host `journal`)
   // `taken` (v1.280.2): on an account, the guest rows it took in at a join, by card (`ngProgressTakenParse`)
-  if (!["progress", "ladder", "firstroll", "coached", "guest", "device", "pending", "taken"].includes(field)) throw new TypeError("Unknown account-owned local field");
+  // `gone` (v1.301.5, CARD1-S0-R1): the grades this browser marked gone from their decks (`ngProgressGoneParse`, host `goneRead`)
+  if (!["progress", "ladder", "firstroll", "coached", "guest", "device", "pending", "taken", "gone"].includes(field)) throw new TypeError("Unknown account-owned local field");
   return NG_PROGRESS_OWNER_PREFIX + ngProgressOwnerId(owner) + ":" + field;
 }
 // A stored roll-ledger code: `b` + 16 hex as minted since v1.262.11, or any later short id (tolerant on purpose: a later
@@ -1100,6 +1111,27 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       // 8 partitions). Until it is stored, this instance keeps the code in memory.
       storeCode(inst, code);
       return code;
+    },
+    // ── CARD1-S0-R1 (v1.301.5; the sync reader of PR #468, F1): THE GRADES THIS BROWSER MARKED GONE ──
+    // `{deck: {question hash: 1}}`, the app's `_pruneStaleGrades`: the grade of a question the deck no longer holds, as THIS
+    // browser loaded the deck. KEPT HERE, beside `<owner>:device`, and never in the progress blob: never merged, never pushed,
+    // never joined at sign-in. A synced marker let a browser on older content (a tab open across a content deploy, or
+    // production against the preview on one account) hide a grade that is live on an up-to-date browser, at every pull; let
+    // a browser that never loaded the deck read LOWER than dev (the reader's 95 of 100 records); and production's build
+    // pinned its first copy and pushed it back. The grades themselves stay in `stage`, synced and merged by MAX, which is
+    // all CARD1's recovery needs. A marker this browser loses (site data cleared) costs a recount until the deck lands
+    // again, never a grade. Answers {} when it cannot say; a write that fails is not retried (the next landing writes it).
+    goneRead(inst) {
+      if (!host.current(inst)) return null;
+      try { return ngProgressGoneParse(storage.getItem(ngProgressLocalKey(inst._progressOwner, "gone"))); } catch { return {}; }
+    },
+    goneWrite(inst, marks) {
+      if (!host.current(inst)) return false;
+      const key = ngProgressLocalKey(inst._progressOwner, "gone");
+      try {
+        if (marks && Object.keys(marks).length) storage.setItem(key, JSON.stringify(marks)); else storage.removeItem(key);
+        return true;
+      } catch { return false; }
     },
     // ── v1.280.2 (NEXT2): the owner's undelivered answers (`ngProgressReplay`) ──
     // `rows`: [[field, bucket, item, ok, day, after], …] as the app's writers leave them. Appended in order, persisted at
