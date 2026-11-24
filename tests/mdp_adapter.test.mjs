@@ -98,14 +98,15 @@ test('defense uses its frozen fallback deck, escape does not immediately check c
   delete request.state.aiSkill;delete request.state.snapshot.aiSkill;assert.throws(()=>adapter.enumerate(snapshot,request),/sampled-opponent/);
 });
 
-test('opponent submissions-only law preserves distinct .9 attack and .1 full-outcome fallback',()=>{
+// O1 (v1.300.2; the owner's ruling U209 a, 24 Nov 2026: "Every time in those spots"). It was ".9 attack and .1 full-outcome
+// fallback" (the fallback's two rows here); the fallback is gone, its rows with it, and the attack is the whole turn.
+test('opponent submissions-only law: the attack every time, no positional fallback (O1)',()=>{
   const {adapter,request,snapshot}=setup({subsOnly:true,snapshot:{phase:'opponent',moveCount:7}});
   const branches=adapter.enumerate(snapshot,request).actions[0].branches;
   const attacks=branches.filter(b=>b.events.includes('opponent-submission'));
   const fallback=branches.filter(b=>b.events.includes('opponent-positional'));
-  assert.equal(attacks.reduce((sum,b)=>sum+p(b),0),.9);assert.ok(Math.abs(fallback.reduce((sum,b)=>sum+p(b),0)-.1)<1e-15);
+  assert.equal(attacks.reduce((sum,b)=>sum+p(b),0),1);assert.equal(fallback.length,0);assert.equal(branches.length,attacks.length);
   const caught=attacks[0].next;assert.equal(caught.nodeId,'sD');assert.equal(caught.moveCount,7);assert.equal(caught.arrivalAge,0);assert.equal(caught.qMod,-.04);assert.equal(caught.combo,3);
-  assert.equal(fallback.length,2); // terminal full-table draw lands back at current position
 });
 
 test('gi/nogi rates differ under the same legal mechanics; full expansion is bound to exact context',()=>{

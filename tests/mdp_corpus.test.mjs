@@ -212,11 +212,13 @@ test('live routing replay covers every legal entry, outcome row and defense dest
       }else{
         const other=a0.optionsFor(idx,role==='top'?'bottom':'top').filter(o=>o.node.ty!=='positions');
         const subs=other.filter(o=>o.node.ty==='submissions'),trans=other.filter(o=>o.node.ty!=='submissions');
-        const pf=subs.length?(trans.length?Math.max(.18,Math.min(.85,.34+a0.oppVal(node)*.55)):.9):0;
+        // O1 (v1.300.2, the owner's ruling U209 a): finishes only is a finish every time (1, it was .9), and no positional row
+        // is drawn from a finish there (the game's `_oppFinishChance`, the adapter's `pf`)
+        const pf=subs.length?(trans.length?Math.max(.18,Math.min(.85,.34+a0.oppVal(node)*.55)):1):0;
         subs.forEach((_,i)=>assert.deepEqual(replay({'opp-finish':pf/2,'opp-sub-pick':(i+.5)/subs.length}),['opp-finish','opp-sub-pick']));
         trans.sort((a,b)=>a0.oppVal(base.nodes[a0.resultPos(b.idx,idx)]||b.node)-a0.oppVal(base.nodes[a0.resultPos(a.idx,idx)]||a.node));
-        const fallback=(trans.length?trans:subs).slice(0,3);
-        if(!fallback.length)replay({});
+        const fallback=trans.slice(0,3);
+        if(!subs.length&&!trans.length)replay({});
         for(const [j,opt]of fallback.entries()){
           const rows=opt.node.cal?.outcomes||[],weights=rows.map(row=>Math.max(0,+row.probability||0)*(row.result==='counter'?1-a0.momentumSkew():1)),total=weights.reduce((x,y)=>x+y,0);
           let before=0;
