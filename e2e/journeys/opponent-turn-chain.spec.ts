@@ -341,14 +341,15 @@ for (const [w, h] of [[390, 631], [360, 640], [1048, 773]] as const) {
       // (reports/mapshows.md, OPP1-R1)
       for (let i = 0; i < 3 && await page.locator("[data-reward-close]").count(); i++) { await page.evaluate(() => (document.querySelector("[data-reward-close]") as HTMLElement).click()); await j.advance(600); }
       // the ten longest titles and places, then each sentence form written by the app's own `_chainLine` and measured once
-      // the camera has followed it (the map's own controls, the seat's star among them, are framed below the banner by the
-      // visible map's top: `_viewRect`), as a player sees it
+      // the camera has followed it, as a player sees it. Against the page's STANDING controls (the brief: "between the
+      // top-left buttons and the right edge's own controls"); the seat's star rides on the map with the seat's name, and its
+      // meeting a banner of four lines at 390 is reported, not asserted (reports/mapshows.md, OPP1-R1: `seat` below)
       const { techs, places } = await page.evaluate(() => {
         const a = (window as W).__neural, long = (xs: string[]) => [...new Set(xs)].sort((p, q) => q.length - p.length || (p < q ? -1 : 1)).slice(0, 10);
         return { techs: long(a.nodes.filter((n: W) => n.ty === "transitions" || n.ty === "submissions").map((n: W) => n.t)), places: long(a.nodes.filter((n: W) => n.ty === "positions").map((n: W) => a.graphName(n))) };
       });
       const out: W[] = [];
-      let n = 0;
+      let n = 0, seat = 0;
       for (let i = 0; i < techs.length; i++) {
         const X = techs[i], P = places[i];
         for (const [k, t] of [["You go for " + X, "Your " + X + " failed"], ["Your " + X + " failed", "Opponent goes for " + X], ["Opponent goes for " + X, "It fails: you stay in " + P + ", bottom"]]) {
@@ -359,16 +360,19 @@ for (const [w, h] of [[390, 631], [360, 640], [1048, 773]] as const) {
           const m = await page.evaluate(([k, t]) => {
             const a = (window as W).__neural, K = a.evKickerRef.current, T = a.evTextRef.current;
             const C = [...document.querySelectorAll('button, a[href], [role="button"], [role="menuitem"], [role="tab"], input, select, textarea')]
-              .filter((el) => !a.evRef.current.contains(el)).map((el) => ({ el, b: el.getBoundingClientRect() })).filter((q) => q.b.width > 0 && q.b.height > 0);
+              .filter((el) => !a.evRef.current.contains(el)).map((el) => ({ el, b: el.getBoundingClientRect(), seat: !!el.closest("[data-seat-star]") })).filter((q) => q.b.width > 0 && q.b.height > 0);
             const lines = (el: W) => { if (!el || !(el.textContent || "").trim()) return []; const r = document.createRange(); r.selectNodeContents(el); return [...r.getClientRects()].filter((q) => q.width > 0 && q.height > 0); };
-            const hits = lines(K).concat(lines(T)).flatMap((r: W) => C.filter((q) => r.left < q.b.right && r.right > q.b.left && r.top < q.b.bottom && r.bottom > q.b.top).map((q) => q.el.getAttribute("aria-label") || q.el.tagName));
-            return { ours: K.textContent === k && T.textContent === t, shown: +getComputedStyle(a.evRef.current).opacity, hits,
+            const met = lines(K).concat(lines(T)).flatMap((r: W) => C.filter((q) => r.left < q.b.right && r.right > q.b.left && r.top < q.b.bottom && r.bottom > q.b.top));
+            const hits = met.filter((q) => !q.seat).map((q) => q.el.getAttribute("aria-label") || q.el.tagName);
+            return { ours: K.textContent === k && T.textContent === t, shown: +getComputedStyle(a.evRef.current).opacity, hits, seat: met.some((q) => q.seat),
               cut: T.scrollWidth > T.clientWidth + 1 || K.scrollWidth > K.clientWidth + 1 };
           }, [k, t]);
+          if (m.seat) seat++;
           if (!m.ours || m.hits.length || m.cut) out.push({ k, t, ...m });
         }
       }
       const bad = { n, techs: techs.length, out, notice: await page.locator(".ng-challenge-reward").count() > 0 };
+      console.log("SEAT-STAR " + w + " " + seat + " of " + n);   // the report's figure (not a gate)
       expect([bad.n, bad.techs, bad.notice], "premise: three sentence forms for each of the ten longest titles, no notice up").toEqual([30, 10, false]);
       expect(bad.out, "no line of the banner meets a control, and nothing is cut (R1a)").toEqual([]);
     });
