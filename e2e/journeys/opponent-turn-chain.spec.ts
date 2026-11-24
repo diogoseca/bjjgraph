@@ -34,7 +34,9 @@ import { journey } from "../dsl";
  * OPP1-R1 (one mutant per new claim, Tier 2):
  *   R1a the kicker not stepped below the controls              → "no line of the banner on a control…" at 390 and 360
  *   R1b no camera return at his last leg                        → "the camera is within 5%…"
- *   R1c no settle for the reward notice                         → "…1.2 s after the hand" at "not at the hand"
+ *   R1c2 the notice shown at the hand, at once (the pre-R1 `_chainEnd`) → "…1.2 s after the hand" at "not at the hand".
+ *       NOT KILLED by R1c (showNextChallengeReward's settle guard removed): the settle's own timer still shows it at 1.2 s;
+ *       that guard keeps other callers (a notice queued inside the window) from showing it early, and is not pinned
  *   U6 (the reader's) the drill's start not ending the chain    → "the defence drill's start ends the chain"
  * NOT A MUTANT HERE: the drill's window with his leg capped is a premise-checked measure (cold page, CPU x4, the shortest
  * leg); a mutant that made the deck late would be a mutant of the prefetch, which this change does not touch.
