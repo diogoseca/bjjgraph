@@ -21533,3 +21533,99 @@ Element is not attached to the DOM" in `openCorridor`).**
 **Bytes** (the served app folders emptied first, against PAY-L5, dev v1.297.1's own level): eager gzip 384,795 B, +516
 (+141 on v1.298.0); first-hand core 404,270 B, +539; deferred 560,576 B, +197 B on 560,379 (reader.js +219, gameplan.js
 -22), the ceiling moved in its own commit (39,424 B remain of the owner's 600,000).
+
+## v1.298.2 — Settings: a group's heading reads as a label, General first, one row for what a place shows, Recall, and choice cards (SETH1–SETH4; the owner, 23–24 Nov 2026)
+
+Four asks of the owner's, one PR, each in its own commit (SETH4's alone, so his "old look" is one revert).
+
+**SETH1. The owner, 23 Nov:** "section headers in settings need to be better diferentiates, otherwise i think they're options,
+type is too similar". **Measured before** (dev's build): a group's heading was 17 px / 700 / rgb(238, 241, 246) over the first
+option's grey line; an option's title 14 px / 600 / rgb(238, 241, 246) over the same line. One face, one colour, one two-line
+shape, 3 px apart.
+- **Now:** a 12 px uppercase eyebrow (700, .08em) in #96b4ff, the hue of the selected tab's border (rgba(150,180,255,.45)) at full
+  strength: 8.0:1 on the card's top, 6.8:1 on its lightest point (the radial tint plus the grain). It stands on a full-width
+  hairline whose first 32 px is that blue; its grey line stays under it; the first control below drops its own top line.
+- **The rule over the bar:** both drawn on the real app at 390 and 1074 (injected into the built page, the scratch screens
+  `v1-*` and `v2-*`). A 16 px dash before the word read as a bullet at 390 and as a cousin of the grey uppercase "On screen
+  during a roll" sub-heading; the hairline marks a group's edge across the whole column, which is what a long page is scanned by.
+- **Space:** above a group, the last row's 16 plus the group's own 40 (56 px) against 16 on each side of the line between two
+  options; the space is the previous group's padding, so the groups still tile the panel and the scroll-spy's "group in view"
+  is unchanged. The first group has no extra gap.
+- **Not sticky, measured** (`sticky-probe.mjs` in the seat's scratch: Shift+Tab backwards through every control from the last):
+  a heading held at the panel's top covered the focused control on 11 of 59 steps at 390x631 and 16 of 59 at 1074x796;
+  Chromium holds it below the panel's padding (24 px, 16 on the phone), with controls passing visibly above it on 6 and 11
+  steps; and it needs an opaque surface over the card's gradient. The spy lit the right group for every group either way. The
+  group list already shows the group in view, so it stays out.
+- **Pinned** by settings-tabs.spec.ts: every heading against every option title at 1440, 1074, 800 and 390 (colour apart by
+  48 or more, and uppercase or 4 px of size), nothing in the panel wider than it, and a real wheel to each group's heading in
+  turn lights the group whose box holds the line a third down the panel (1074 and 390).
+
+**SETH2 A. The owner:** "move general section to the top". General, Practice, Rolling, Articles, Your odds, (Email), Keyboard.
+A plain opening lands on the FIRST group, read from the list (openSettings and renderSettings no longer name "flashcards");
+every named opening still opens its group (callers surveyed: the badge menu's plain opening; the reader's notice, "rolling" or
+"reading"). **Telemetry:** a plain opening's `neural_settings_opened` now carries `tab: "app"` (it carried "flashcards").
+start-from.spec.ts's "it sits above the Gi / No-gi choice" (DOM order since v1.165.0, when both were Rolling's rows) is his to
+reverse; it now says what stays true: the row is filed under Rolling, the choice under General.
+
+**SETH2 B. The owner:** "isnt 'Questions while you roll …' a bit duplicate of 'Question card: Off = no card and no question.
+(Turning questions off above keeps the card.)'? or are they diff things?". Different things (`landQuestions`: does a landing
+ask; the `card` layer: is the card on screen at all), two ticks for three states that matter and a fourth equal to the third.
+Now one row, "During a roll, each place shows": A question (landQuestions on, the card on) · The card only (landQuestions off,
+the card on) · No card (the card off, landQuestions left as it is, so the card's Undo returns to the player's own choice). No
+key added or removed; the row writes through the two setters the rows used, the question key first; a pick that leaves
+landQuestions where it is does not write it. **The survey, before building:** a defence drill asks whatever landQuestions says
+(`wantQ = defense || …`), so The card only says so; the film is its own layer (Articles > Video), docked with or without the
+card, so "Nothing" would have been false for the default player. The orchestrator ruled "No card" with the film's switch named
+in its line, and no third key.
+
+**SETH3. The owner, 24 Nov:** "instead of Auto, Front Back cards, Multiple choice, say Multiple Choice cards / Front Back cards or
+instead multiple choice, or what would the teacher call it instead of front/back?". The teacher's word is Recall (recall against
+recognition). Auto, Multiple choice, Recall; the stored values (auto / mc / classic), the default and what each does unchanged.
+His U194 answer stays the second sentence of Multiple choice, and "Checkpoints and the defence drill stay multiple choice."
+stays on Recall (the orchestrator's ruling, after the seat found both would have been dropped).
+
+**SETH4. The owner, 24 Nov, on Answer mode:** "that option can be improved wrt ux i think". Three small buttons and a box that
+explained only the chosen one: to learn what the others do you had to choose them. Now Answer mode and the SETH2 B row are
+radio groups of full-width cards, stacked, every line always shown, Auto tagged "Recommended"; the chosen card has the selected
+tab's fill and border; the chosen card is the one tab stop, the arrows choose and wrap, and the redraw a choice makes puts focus
+back on it (the tabs' refocus rule). **Stacked at every width, measured** (three across injected on the built page): each card
+would be 173 px wide at 1074 and at 1440 alike (Settings is at most 760 px), its line at 14–17 characters a line, under the 28 a
+row needs; stacked, 53–75. Contrast: a card's line 5.8:1 (4.8 at the lightest point), on the chosen card 7.1:1, the tag 8.1:1.
+
+**Proof.**
+- **Mutants**, each after a green baseline of its own test (tests/artifacts/settings_layout_mutants.mjs, which takes a spec per
+  mutant since this version):
+
+  | mutant | what it breaks | red at |
+  |---|---|---|
+  | heads-as-options (1074), heads-as-options-phone (390) | the heading back in the title's look | "the General heading and the Uniform title are 0 apart in colour" |
+  | heads-colour-only | the blue kept, the title's case and size back | "another case, or 4 px apart" |
+  | spy-dead-every-group | the spy blinded | "wheeled to flashcards: the group in view is lit" |
+  | shows-question-asks-nothing · shows-card-keeps-question · shows-none-keeps-card | each mapping of the row | "pressed question / card / none: the row shows it" |
+  | cards-lines-hidden (1074, 390) | the lines hidden | "Auto (chosen): its line is shown inside its card" |
+  | cards-never-checked | aria-checked never set | "exactly one chosen" |
+  | cards-arrows-choose-nothing | the arrows | "ArrowDown chooses mc" |
+  | cards-focus-lost-on-redraw | the refocus | "ArrowDown: focus is on the new choice after the redraw" |
+
+  12 of 12 killed. Units: the old group order turns 6 of the 15 Settings unit tests red; five source mutants of the row's
+  mapping each turn its unit test red.
+- **Local runs** (this worktree's build, under the build lock, the core config and the generated suite's): settings-tabs and
+  settings-choices; answer-mode, everything-opens, hidden-sections, notifications-tab, pane-chrome, land-layers, reading-mode,
+  account-menu, start-from (96 passed); mastery-gold, recall-badge, settings-lazy, defending-landing, weak-spots-acceptance,
+  no-identity-in-analytics, belt-row, alias-search, keyboard, card-section, landing-priority and settings-tabs again (112
+  passed); option-edge, article-order, white-challenges, article-dashboard, article-sections, hidden-moves, loss-aversion,
+  sidebar and pane-history (202 passed); and the eleven generated specs that seed `landQuestions` or carry the renamed prose,
+  under the generated suite's config (11 passed). `npm run ci:validate`: 26 of 26. One red met on the way: settings-tabs'
+  keyboard test opened "flashcards" assuming it was the first group; it opens plainly now, claims unchanged.
+- **Screens** (artifacts/briefing/img/settings/): `heads-before-*` / `heads-after-*` (390, 800, 1074, 1440 and mid-page at
+  1074), `q3-before-*`, `q3-question-*`, `q3-card-only-*`, `q3-no-card-*`, `mode-before-*`, `mode-auto-*`,
+  `mode-multiple-choice-*`, `mode-recall-*`, and the old look against the cards: `mode-old-*` / `mode-cards-*`, `q3-old-*` /
+  `q3-cards-*` (390 and 1074), each from the build of its own commit.
+- **Bytes** (check_payload_budget.py, the served app folders emptied first, dev ad96b01a7 plus this branch): eager gzip
+  384,799 B, +4 B on dev's own 384,795 (neural.js +12 B raw: the group list's order) and +520 on the PAY-L5 baseline 384,279;
+  deferred 564,386 B, +3,810 B, all settings-ui.js (25,034 -> 28,844: SETH4's cards and their helper, about 2,650 B, SETH1's
+  rule, the row of three, the kept caveats). The ceiling moved to it in its own commit on the orchestrator's approval (SETH-GO),
+  35,614 B under the owner's 600,000 (U207 a). The app rows were re-seeded in their own commit (settings-ui.js, neural.js; four
+  model files by the version they carry only).
+- **Order of work:** the branch was relabelled v1.299.1 for a while (PR #458 was to land first), then back to v1.298.2 when the
+  orchestrator sent this PR first; both times before any push, so no pushed commit was rewritten.
