@@ -68,7 +68,7 @@ const SOURCE = [
   rd("neural/src/challenge-ui.src.js"),
   strip(rd("neural/src/flow.src.js")),
 ].join("\n");
-const M = new Function("DCLogic", "React", SOURCE + "\nreturn { Component, ngProgressGuestMerge, ngProgressCreateHost, ngProgressOwner, ngProgressLocalKey, ngBeltRank, NG_PROGRESS_TRAIL_CHALLENGES, NG_WHITE_CHALLENGES };")(class DCLogic {}, { createRef: () => ({ current: null }) });
+const M = new Function("DCLogic", "React", SOURCE + "\nreturn { Component, ngProgressGuestMerge, ngProgressCreateHost, ngProgressOwner, ngProgressLocalKey, ngProgressCloudKey, ngBeltRank, NG_PROGRESS_TRAIL_CHALLENGES, NG_WHITE_CHALLENGES };")(class DCLogic {}, { createRef: () => ({ current: null }) });
 
 const DAY = 20402;
 globalThis.window = globalThis.window || {};
@@ -672,4 +672,99 @@ test("R3. the account's own pre-rule blue stays carried when a guest's earlier s
   const a = beltSync(h.get());
   assert.equal(a._openAt, 1000, "precondition: the guest's earlier stamp joined, earlier than the account's blue");
   assert.deepEqual(plays(a), { play: true, fact: true }, "OPEN-M18: the account's own carry was frozen before the join");
+});
+
+// ── THE GUEST'S MODIFIERS AT SIGN-IN (v1.301.0, MODS1; progress-owner.src.js, `ngProgressGuestMerge` rule 4) ───────────────
+// "Your odds" are settings since v1.301.0, one key per technique, and they are the one setting a guest copy brings: only into
+// a technique the account has no key for, live or removed (the account wins on a clash, ruled), and quietly when nothing else
+// joined (ruling 2 a: the line speaks of practice). Through the real sign-in path, with a cloud that holds the account.
+const modsOf = (blob) => Object.fromEntries(Object.entries((blob && blob.settings) || {}).filter(([k]) => k.startsWith("mod:")).sort());
+const pressMods = (g, rows) => { for (const [name, cat, d] of rows) { g._addMod(name, cat); if (d) g._editMod(g.userMods.find((m) => m.name === name), (row) => { row[0] += d; }); } g._flushSave(); };
+
+test("M1. a guest's modifiers join an account that has none, with the practice, its line said once; the guest copy stays byte for byte", async () => {
+  const h = harness(); await h.boot();
+  pressMods(h.get(), [["Armbar from Mount", "Submission", 12], ["Knee Slice Pass", "Transition", 0]]);
+  h.practise({ prep: { "Mount|Top": 2 } });
+  let raw = null; const join = h.host.joinGuest; h.host.joinGuest = (inst) => { raw = h.mem.rows.get(guestKey); return join(inst); };
+  const a = await h.signIn("A");
+  assert.deepEqual(a.userMods.map((m) => [m.name, m.pct, m.on]), [["Armbar from Mount", 62, true], ["Knee Slice Pass", 50, true]], "both joined");
+  assert.deepEqual(Object.keys(modsOf(accountBlob(h, A))), ["mod:Armbar from Mount", "mod:Knee Slice Pass"], "into the account's record");
+  assert.deepEqual(Object.keys(modsOf(h.host.cloudSnapshot(a))), ["mod:Armbar from Mount", "mod:Knee Slice Pass"], "and what its push sends carries them (`cloudSnapshot`, as test 11)");
+  assert.deepEqual(h.said, [LINE], "practice joined too, so the line is said, once");
+  assert.equal(h.mem.rows.get(guestKey), raw, "the guest copy is byte for byte what it was");
+  assert.deepEqual(h.signOut().userMods.map((m) => m.name), ["Armbar from Mount", "Knee Slice Pass"], "signing out plays the guest's own again");
+});
+
+test("M2. the account wins on a clash, live or removed, whatever the stamps; the guest's other modifiers join", async () => {
+  const h = harness(); await h.boot();
+  pressMods(h.get(), [["Armbar from Mount", "Submission", 30], ["Kimura", "Submission", 0], ["Omoplata", "Submission", 5]]);
+  const far = 9e12;   // the guest's stamps are far later than the account's: they still lose, the rule is the account's key
+  const g = h.get(); for (const k of Object.keys(g._settingsAt)) if (k.startsWith("mod:")) g._settingsAt[k] = far; g._flushSave();
+  h.cloud.set("A", { v: 2, prep: { "Side Control|Top": 1 }, updatedAt: 5,
+    settings: { "mod:Armbar from Mount": [40, 0, "S", 7], "mod:Kimura": 0 }, settingsAt: { "mod:Armbar from Mount": 8, "mod:Kimura": 9 } });
+  const a = await h.signIn("A");
+  assert.deepEqual(modsOf(accountBlob(h, A)), { "mod:Armbar from Mount": [40, 0, "S", 7], "mod:Kimura": 0, "mod:Omoplata": modsOf(h.host.store.read(GUEST).blob)["mod:Omoplata"] },
+    "the account's Armbar (live) and Kimura (removed) stay; only Omoplata joins");
+  assert.deepEqual(a.userMods.map((m) => [m.name, m.pct, m.on]), [["Armbar from Mount", 40, false], ["Omoplata", 55, true]]);
+  assert.deepEqual(h.said, [], "only modifiers joined: nothing is said");
+});
+
+test("M3. a guest who only set modifiers: they join and nothing is said, and the next sign-in finds the copy seen", async () => {
+  const h = harness(); await h.boot();
+  pressMods(h.get(), [["Triangle Choke", "Submission", -20]]);
+  const a = await h.signIn("A");
+  assert.deepEqual(a.userMods.map((m) => [m.name, m.pct]), [["Triangle Choke", 30]], "it joined");
+  assert.deepEqual(h.said, [], "ruling 2 a: no line, the modifiers are simply there");
+  assert.equal(h.host.joinGuest(a).status, "seen", "and is marked");
+  h.signOut(); await h.signIn("A");
+  assert.deepEqual(h.said, [], "a second sign-in says nothing either");
+});
+
+test("M4. a guest whose only modifier was removed joins nothing; a guest copy with settings and no modifier hashes as before v1.301.0", async () => {
+  const h = harness(); await h.boot();
+  const g = h.get(); pressMods(g, [["Kimura", "Submission", 0]]); g._writeMod("Kimura", 0); g._flushSave();
+  const a = await h.signIn("A");
+  assert.deepEqual(modsOf(accountBlob(h, A) || {}), {}, "a removal has nothing to take from an account");
+  assert.deepEqual(h.said, []);
+  assert.equal(h.host.joinGuest(a).status, "seen");
+  // the mark of a copy holding settings but no live modifier is the hash of the part as it was before v1.301.0
+  // (FNV-1a over the cloud key of the copy without settings, settingsAt, updatedAt and openAt): no "seen" mark moves
+  const h2 = harness(); await h2.boot();
+  const g2 = h2.get(); g2.set("dailyGoal", 35); h2.practise({ prep: { "Mount|Top": 1 } });
+  const copy = h2.host.store.read(GUEST).blob, old = clone(copy);
+  delete old.settings; delete old.settingsAt; delete old.updatedAt; delete old.openAt;
+  const fnv = (text) => { let x = 0x811c9dc5; for (let i = 0; i < text.length; i++) { x ^= text.charCodeAt(i); x = Math.imul(x, 0x01000193); } return (x >>> 0).toString(16).padStart(8, "0"); };
+  await h2.signIn("A");
+  assert.equal(h2.mem.rows.get(markOf(A)), fnv(M.ngProgressCloudKey(old)), "the guest copy's mark is the pre-v1.301.0 hash");
+});
+
+test("M5. a modifier set signed out after a join joins at the next sign-in; the account's own stays its own", async () => {
+  const h = harness(); await h.boot();
+  pressMods(h.get(), [["Kimura", "Submission", 0]]);
+  let a = await h.signIn("A");
+  a._editMod(a.userMods.find((m) => m.name === "Kimura"), (row) => { row[0] = 75; }); a._flushSave();   // the account changes it
+  const g = h.signOut();
+  pressMods(g, [["Darce Choke", "Submission", 3]]);
+  g._editMod(g.userMods.find((m) => m.name === "Kimura"), (row) => { row[0] = 10; }); g._flushSave();     // the guest changes its own
+  a = await h.signIn("A");
+  assert.deepEqual(a.userMods.map((m) => [m.name, m.pct]), [["Kimura", 75], ["Darce Choke", 53]], "the new one joins; the account's Kimura stays 75");
+  assert.deepEqual(h.said, [], "only modifiers: nothing said");
+});
+
+test("M6. the join is bounded too: the account's keys count first, the guest's join only while it holds fewer than 200 (MODS1-R1)", async () => {
+  // an account at 199 keys (some removed), a guest with three new ones: exactly one joins, the first in the list's order
+  const keys = (n) => { const settings = {}, settingsAt = {}; for (let i = 0; i < n; i++) { settings["mod:Acct " + i] = i % 3 ? [40, 1, "T", i + 1] : 0; settingsAt["mod:Acct " + i] = 10 + i; } return { settings, settingsAt }; };
+  for (const [n, joins] of [[199, ["mod:Guest a"]], [200, []]]) {
+    const h = harness(); await h.boot();
+    const g = h.get(); for (const name of ["Guest a", "Guest b", "Guest c"]) g._addMod(name, "Submission"); g._flushSave();
+    const before = JSON.stringify([h.host.store.read(GUEST).blob.settings, h.host.store.read(GUEST).blob.settingsAt]);
+    h.cloud.set("A", { v: 2, updatedAt: 5, ...keys(n) });
+    const a = await h.signIn("A");
+    const mine = Object.keys(modsOf(accountBlob(h, A)));
+    assert.equal(mine.length, Math.min(200, n + 3), n + ": the account holds " + mine.length + " keys");
+    assert.deepEqual(mine.filter((k) => k.startsWith("mod:Guest")), joins, n + ": the guest's that joined");
+    assert.equal(JSON.stringify([h.host.store.read(GUEST).blob.settings, h.host.store.read(GUEST).blob.settingsAt]), before, n + ": the guest copy keeps all three: the rest stay there");
+    assert.deepEqual(h.said, [], n + ": nothing said");
+    assert.equal(a.userMods.length, mine.filter((k) => modsOf(accountBlob(h, A))[k] !== 0).length, n + ": the list shows the live ones");
+  }
 });

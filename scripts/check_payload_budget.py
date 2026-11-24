@@ -286,7 +286,9 @@ NEURAL_TARGET = {
     # v1.298.2 SETH1-SETH4 (Settings: the group headings, one row for what a place shows, Recall, the choice cards; the owner, 23-24
     # Nov 2026): 564_386, +3_810 B, all settings-ui.js (25_034 -> 28_844: SETH4's cards and their radio-group helper, SETH1's
     # heading rule, the row of three and the kept caveats' lines; the orchestrator's SETH-GO, under the owner's 600_000, U207 a).
-    "deferred_raw_bytes": 564_386,
+    # v1.301.0 MODS1 slice 3 (a saved modifier's row gets touch targets of 40 px, 44 on a phone; the owner's U212 a): 564_712,
+    # +326 B, all settings-ui.js (28_859 -> 29_185, dev v1.300.1 merged; the orchestrator's go on this figure).
+    "deferred_raw_bytes": 564_712,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
