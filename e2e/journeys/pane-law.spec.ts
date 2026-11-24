@@ -12,7 +12,7 @@ import { journey, recordDiff } from "../dsl"
  * STOPS the game; closing it resumes the game ONLY if the pane is what stopped it.
  *
  * Rails: __neural.paused, .deckOpen, .deckShown, ._paneAutoPaused (one latch for the merged pane)
- * Beats: pane_paused, pane_resumed (save_hint retired with its toast, v1.301.1)
+ * Beats: pane_paused, pane_resumed (save_hint retired with its toast, v1.301.3)
  */
 
 const paused = (page: any) => page.evaluate(() => !!(window as any).__neural.paused)
@@ -111,7 +111,7 @@ test("a new roll never opens the pane", async ({ page }) => {
   ).toBe(false)
 })
 
-// THE SAVE TOAST IS RETIRED (v1.301.1, SAVE1-R0, the orchestrator's ruling): this test pinned that `maybeShowSaveHint`'s
+// THE SAVE TOAST IS RETIRED (v1.301.3, SAVE1-R0, the orchestrator's ruling): this test pinned that `maybeShowSaveHint`'s
 // toast ("Save your progress / Open the sidebar to keep it", fired after the second answered card) asked for the pane rather
 // than forcing it open. The claim moved to the save lines, which stand only in a drawer the player opened himself
 // (save-lines.spec.ts); what stays here is the law's half: answers at the old threshold open nothing, stop nothing, and

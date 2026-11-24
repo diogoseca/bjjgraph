@@ -363,7 +363,7 @@ test("keyboard: Tab reaches the badge, Enter opens its menu with focus inside it
   await expect(page.locator('.ng-legal[data-legal="terms"] [data-legal-short]')).not.toBeEmpty()
 })
 
-// The save toast's halves left with the toast (v1.301.1, SAVE1-R0): "a guest still gets the one save toast" and "no save
+// The save toast's halves left with the toast (v1.301.3, SAVE1-R0): "a guest still gets the one save toast" and "no save
 // toast for a signed-in player". The save lines that replace it are pinned by save-lines.spec.ts, the signed-in half included.
 test("a guest's badge offers to save; a signed-in player does not get it", async ({ page }) => {
   const j = journey(page)

@@ -4,7 +4,7 @@ import { resolve } from "node:path"
 import { journey } from "../dsl"
 import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } from "../fixtures/neural-auth-sdk"
 
-/** THE SAVE LINES (SAVE1, v1.301.1; the owner's U215 a, 24 Nov: "Go"). Four quiet lines, each at the moment a guest has just
+/** THE SAVE LINES (SAVE1, v1.301.3; the owner's U215 a, 24 Nov: "Go"). Four quiet lines, each at the moment a guest has just
  * made something he would lose, each naming it, never a modal: `_saveLineFor` and its header in app.src.jsx.
  *
  * What a player SEES and what a press does, on the served build, by mouse at 1440x900 and by touch at 390x631:
