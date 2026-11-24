@@ -21723,3 +21723,56 @@ is exactly what "Add to…" makes, and in the ordinary case that record has no c
 
 **Bytes** (the served app folders emptied first, against PAY-L5): eager gzip 385,372 B, +1,093 (+577 on v1.298.1);
 first-hand core 404,836 B; deferred unchanged (560,576 B, its ceiling).
+
+## v1.299.1 — The opponent's landing stands on the player's orb (OPP1-S0; the owner's own play, 24 Nov 2026)
+
+**What a player sees.** The owner, playing the preview: "seems to be going into butterfly guard or something now? why?".
+- **Before:** after every one of the opponent's moves, the landing stood on the OPPONENT's orb of the pair, because his
+  outcome is written from his side ("Butterfly Guard/Top") and `resolveOutcomeTo` returns that side's member.
+  - The pulse ran on to the other orb of the position it had just left: a failed pass read as "going into Butterfly
+    Guard", from Butterfly Guard.
+  - The address named the opponent's side (`/Positions/Mount/Bottom` with the player on top), and a reload of it seated
+    the player there.
+  - Measured on dev in OPP1 Part A: 39 of 39 landings at 1048, 41 of 41 at 390.
+- **Now:** the landing stands on the player's orb. A move of the opponent's that fails and stays comes back to it
+  ([P, O, P]), and the address names the player's side.
+- **Also fixed, found by the survey of `currentPos`'s readers:** Last rolls' per-row "Roll from here" on a Bottom row
+  seated the player bottom on the TOP orb (`nodeForKey` answers both sides with the top orb), and the address said Top.
+
+**How** (`app.src.jsx`):
+- `opponentDefend`'s positional branch mirrors the seat through `_seatMember` before the travel, as its escape branch
+  always did. It mirrors again on arrival for a move with no table.
+- `rollFromPosition` seats the orb of the side played for every caller (identity where the orb already plays it). A
+  chosen technique keeps its node.
+- No rng draw added, removed or moved.
+
+**The survey** (reports/mapshows.md, OPP1-S0). Wrong before, right now:
+- the address and the reload's seat;
+- the seat's ring, name and star on the map;
+- Last rolls' places, the in-document shelf, and the film;
+- the next attempt's pulse start.
+
+Right before and after, because they key on the player's role: the article, the question deck, the hand, Win chance,
+values, `explored`, the flow ledger, `prep`/`rec`/`stage`/`srs`.
+
+Nothing stored recorded the opponent's side, so nothing is rewritten. Browser history entries from before the fix still
+name it.
+
+**Tests:**
+- `e2e/journeys/opponent-landing-seat.spec.ts`, by real input with every draw that can end or redirect the exchange
+  rigged. Each case checks the landing on his orb, the pulse ending on it, the address and a reload:
+  - Mount top: Trap and Roll seats him bottom in Closed Guard;
+  - Mount top: Trap and Roll fails and stays;
+  - his own case (Arm Drag to Back from its page; Body Lock Pass fails at Butterfly Guard);
+  - Last rolls' ▶ on a Bottom row.
+- All four are red on dev's own app.
+- Mutants S0a (the mirror removed), S0b (the stay's path back to two nodes), S0c (the mirror on arrival only) and S0d (the
+  seam in `rollFromPosition` removed) are each red after a green control.
+
+**Runs (local, under the lock):**
+- The 14 core journeys and 10 generated specs that touch the opponent's turn: 135 and 10 passed.
+- The full core suite: 2,063 tests, 2,049 passed, 5 skipped. The 9 reds are this box's stale-site nine (`legal-pages` 8,
+  `bundle-version` 1).
+
+**Bytes** (the served app folders emptied first): eager gzip 385,546 B (+59 on dev 127e38938's 385,487; +1,267 on
+PAY-L5); first-hand core 404,998 B; deferred unchanged (564,386 B, its ceiling).
