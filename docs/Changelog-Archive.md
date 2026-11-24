@@ -22016,3 +22016,45 @@ them is in the pool.
   | landings | 177 of 177 |
   | the opponent's turns | 94 of 94 |
   | round ends | 23 of 23, same order |
+
+## v1.300.4 — "N due" counts only what can be asked (DUE1; the orchestrator's DUE1-GO, 24 Nov 2026)
+
+**The fault** (found by the questions study, measured in DUE1). A question a content pass reworded or retired keeps its
+schedule row for good, since nothing deletes one: `_pruneStaleGrades` heals a deck's grades when its chunk lands, but not
+its schedule, and the cloud merge keeps every row. So the row came due on its ladder, could never be asked, and
+`dueCount()` counted it for ever. It counted in:
+- "Everything owed, oldest first · N cards";
+- the drawer's dot;
+- `openDueSession`'s gate;
+- analytics `due_remaining`.
+
+Measured: of the 21,199 distinct questions a player could hold rows for before v1.182.2 (the decks emitted at
+`90ceb6207^`), 10,679 (50.4%) are in no deck on dev. A player who answered 300 cards then carried about 150 phantom due
+cards.
+
+**The fix** (count-side; nothing stored changes, no row is deleted). `duePool` skips a row the app KNOWS is retired
+(`_rowLive` false), read per question as the planner files one:
+- a deck the manifest no longer has: retired (the rating's `unknownDeck`);
+- a shared question: live while the manifest's index lists it. The planner asks it at its home deck even when the due row
+  sits in a deck the index no longer lists. The rating, reading per row, would book that row retired: the one place the
+  two readings differ.
+- any other question: its loaded deck's cards say it, or else its deck's live set (`_ratingLiveNow`, 16 bits).
+
+A row not known yet (no live set, deck not loaded) stays counted, as the rating counts it. The live set is read once the
+drawer has opened, and Master the game loads the decks it owes. So the dot and the owed door are true by their existing
+paints. A first build added a repaint at the live check's landing; its mutant survived, so it was taken out.
+
+**Tests:**
+- **`tests/due_count_live.test.mjs`:** one player state (six live owed cards, four retired, one row in a gone deck, a
+  shared question filed elsewhere, two not owed). `dueCount()` equals the planner's own owed cards (`ngPracticeItems`,
+  `ngMasterOwedIn`'s test) with the live set (7), on a fresh page (11) and with every deck loaded (7). Dev counted 12.
+- **`e2e/journeys/due-count-retired.spec.ts`:** every due row retired: once the drawer has read the deck the dot is out,
+  and "Everything owed" is not offered (1440 by mouse, 390 by touch). One live due card among them: "Everything owed,
+  oldest first · 1 card".
+- **Mutant D1** (`duePool` without the check): the unit red in all three states, the journey 3 of 3.
+- **One old assertion changed with its reason:** `tests/due_cover.test.mjs` (v1.172.0) expected a ghost deck's row
+  counted ("the wire, not the manifest, is its domain"). It now expects it not counted.
+
+**O1's follow-ups** (the map reader of PR #464), the first commits of this version:
+- the v1.300.2 entry names the 1-point Win % moves upstream of the three seats;
+- the Twister Control journey's finish draw is also rigged at 0.999; O1a is red at both.
