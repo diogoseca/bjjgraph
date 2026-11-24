@@ -31,6 +31,11 @@ import { journey } from "../dsl";
  *   C9 the sentence's result word fixed to "It lands"        → "S3 …" at "it fails: you stay"
  *   C10 the article not stepped back                         → "S4 …" at "the article steps back"
  *   C11 the landing hides the sentence's last line            → "S3 …" at "the last line stays, SHOWN"
+ * OPP1-R1 (one mutant per new claim, Tier 2):
+ *   R1a the kicker not stepped below the controls              → "no line of the banner on a control…" at 390 and 360
+ *   R1b no camera return at his last leg                        → "the camera is within 5%…"
+ *   R1c no settle for the reward notice                         → "…1.2 s after the hand" at "not at the hand"
+ *   U6 (the reader's) the drill's start not ending the chain    → "the defence drill's start ends the chain"
  * NOT A MUTANT HERE: the drill's window with his leg capped is a premise-checked measure (cold page, CPU x4, the shortest
  * leg); a mutant that made the deck late would be a mutant of the prefetch, which this change does not touch.
  */
@@ -117,7 +122,8 @@ for (const [w, h, touch] of [[1440, 900, false], [1048, 773, false], [390, 631, 
       const c = choiceAt(frames);
       expect(c, "premise: the opponent goes for a move").toBeGreaterThan(0);
       expect(frames[c].text, "premise: it is Body Lock Pass").toContain("Body Lock Pass");
-      const end = frames.findIndex((f, i) => i > c && !f.pulse && !f.actor);   // the landing: the camera is his again there
+      // his travel: from his choice to his last leg's end, where the camera starts back (OPP1-R1, `_chainBack`)
+      const end = frames.findIndex((f, i) => i > c && !f.pulse);
       const turn = frames.slice(c, end > 0 ? end : undefined);
       // ONE GLIDE: from the choice to the landing the camera's width only grows, then holds (never a framing per leg)
       for (let i = 1; i < turn.length; i++) expect(turn[i].vw, `one glide: the width never closes in again during his turn (frame ${i})`).toBeGreaterThanOrEqual(turn[i - 1].vw - 0.5);
@@ -175,7 +181,7 @@ for (const [w, h, touch] of [[1440, 900, false], [1048, 773, false], [390, 631, 
         ["Opponent goes for Trap and Roll from Mount", "It lands: you are in Closed Guard, bottom"],
       ]));
       const c = choiceAt(frames);
-      for (const f of frames.slice(c).filter((f) => f.chain && Math.abs(f.vw - f.tvw) < 1)) {
+      for (const f of frames.slice(c).filter((f) => f.pulse && f.chain && Math.abs(f.vw - f.tvw) < 1)) {
         expect(f.banner.clipped, "the banner's line is whole").toBe(false);
         for (const L of f.chain.legs) expect(Math.min(L.y1, L.y2), "the banner's lines clear the chain").toBeGreaterThan(f.banner.b);
       }
@@ -229,7 +235,8 @@ test("S1 the reward notice is held through the opponent's turn and shown when th
   }
   expect(raised, "premise: a notice was raised during his turn").toBe(true);
   expect(frames.filter((f) => f.actor === "Defending").every((f) => !f.reward), "no notice during his turn").toBe(true);
-  await expect(page.locator(".ng-challenge-reward"), "it shows when he can act").toBeVisible({ timeout: 3000 });
+  await j.advance(1400);   // OPP1-R1: once the hand has settled (NG_CHAIN.settle, the game's clock)
+  await expect(page.locator(".ng-challenge-reward"), "it shows once he can act and the hand has settled").toBeVisible({ timeout: 3000 });
 });
 
 test("S4 the article steps back from his miss until he can act, never swapped, and the address writes no entry", async ({ page }) => {
@@ -307,4 +314,113 @@ test("S1 at the opponent's shortest finish leg, on a cold page with the CPU thro
   expect((to as number) - (from as number), "premise: his leg is the shortest there is (0.6 s, after the 0.38 s the edge tenses)").toBeLessThanOrEqual(1.0);
   expect([out.panic, out.cards], "the drill starts on its own defend deck, with its cards").toEqual([out.dk, true]);
   expect(out.now - (to as number), "…0.3 s after his travel, never waiting on the deck").toBeLessThanOrEqual(0.4);
+});
+
+// ── OPP1-R1 (the reader of PR #461 and the orchestrator's rulings) ─────────────────────────────────────────────────────
+
+// 1. THE BANNER CLEARS THE CONTROLS. The opponent's sentence keeps the line before it as the kicker, and at 390 that first
+// line ran under the top-left targets (261 of 274 lines). Every sentence form, for the corpus's TEN LONGEST titles and its
+// ten longest places, written by the app's own `_chainLine`: no line of the banner (kicker or sentence, a Range's line
+// boxes) meets a control's box, and nothing is cut (the move's name whole). Mutant R1a (the kicker not stepped) → red at 390.
+for (const [w, h] of [[390, 631], [360, 640], [1048, 773]] as const) {
+  test.describe(`${w}x${h}`, () => {
+    test.use(w < 500 ? { viewport: { width: w, height: h }, hasTouch: true, isMobile: true } : { viewport: { width: w, height: h } });
+    test(`no line of the banner on a control, for the corpus's ten longest titles (${w})`, async ({ page }) => {
+      const j = journey(page);
+      await j.boot("/");
+      await j.land("Mount Top");
+      const bad = await page.evaluate(() => {
+        const a = (window as W).__neural;
+        const techs = [...new Set(a.nodes.filter((n: W) => n.ty === "transitions" || n.ty === "submissions").map((n: W) => n.t as string))].sort((p: string, q: string) => q.length - p.length || (p < q ? -1 : 1)).slice(0, 10);
+        const places = [...new Set(a.nodes.filter((n: W) => n.ty === "positions").map((n: W) => a.graphName(n) as string))].sort((p: string, q: string) => q.length - p.length || (p < q ? -1 : 1)).slice(0, 10);
+        const ctrls = () => [...document.querySelectorAll('button, a[href], [role="button"], [role="menuitem"], [role="tab"], input, select, textarea')]
+          .filter((el) => !a.evRef.current.contains(el)).map((el) => el.getBoundingClientRect()).filter((b) => b.width > 0 && b.height > 0);
+        const lines = (el: W) => { if (!el || !(el.textContent || "").trim()) return []; const r = document.createRange(); r.selectNodeContents(el); return [...r.getClientRects()].filter((q) => q.width > 0 && q.height > 0); };
+        const out: W[] = [];
+        let n = 0;
+        techs.forEach((X: string, i: number) => {
+          const P = places[i];
+          for (const [k, t] of [["You go for " + X, "Your " + X + " failed"], ["Your " + X + " failed", "Opponent goes for " + X], ["Opponent goes for " + X, "It fails: you stay in " + P + ", bottom"]]) {
+            a._chainLine(k, t, "bad"); n++;
+            const K = a.evKickerRef.current, T = a.evTextRef.current, C = ctrls();
+            const hit = lines(K).concat(lines(T)).some((r: W) => C.some((b) => r.left < b.right && r.right > b.left && r.top < b.bottom && r.bottom > b.top));
+            const cut = T.scrollWidth > T.clientWidth + 1 || K.scrollWidth > K.clientWidth + 1 || T.textContent !== t;
+            if (hit || cut) out.push({ k, t, hit, cut });
+          }
+        });
+        return { n, techs: techs.length, out };
+      });
+      expect([bad.n, bad.techs], "premise: three sentence forms for each of the ten longest titles").toEqual([30, 10]);
+      expect(bad.out, "no line of the banner meets a control, and nothing is cut (R1a)").toEqual([]);
+    });
+
+    // 2. THE CAMERA IS BACK BY THE TIME HE CAN ACT (the orchestrator's ruling): at the first frame a card of the hand can be
+    // pressed, the camera's width is within 5% of the roll's zoom there (read 3 s later, at rest). Mutant R1b (no return at
+    // his last leg) → red. At 360 too, since this describe holds it.
+    test(`the camera is within 5% of the roll's zoom when the hand can be pressed (${w})`, async ({ page }) => {
+      const j = journey(page);
+      await hisCase(page, j);
+      let at: W = null;
+      for (let k = 0; k < 300 && !at; k++) {
+        await j.advance(100);
+        const s = await page.evaluate(() => { const a = (window as W).__neural; const live = (a._optionCards || []).filter((c: W) => c.card && c.card.isConnected && c.card.offsetParent !== null && !c.opt.threat);
+          return { press: live.length > 0 && typeof a._optPick === "function" && !(a.pulse && !a.pulse.done) && !a.activeMove, vw: a.cam.vw }; });
+        if (k > 3 && s.press) at = s;
+      }
+      expect(at, "premise: the hand can be pressed").toBeTruthy();
+      await j.advance(3000);
+      const rest = await page.evaluate(() => (window as W).__neural.cam.vw);
+      expect(Math.abs(at.vw / rest - 1), `the camera's width when the hand can be pressed, ${Math.round(at.vw)} against the roll's ${Math.round(rest)} (R1b)`).toBeLessThanOrEqual(0.05);
+    });
+  });
+}
+
+// 3. THE REWARD NOTICE COMES AFTER THE HAND HAS SETTLED (the orchestrator's ruling): held through his turn, then 1.2 s after
+// the hand, not at the same moment; at 1048 it does not cover the seat's name. (At 390 its place is measured and reported,
+// not asserted: reports/mapshows.md, OPP1-R1.) Mutant R1c (no settle) → red at "not at the hand".
+test("the reward notice held through his turn shows 1.2 s after the hand, not with it, and not over the seat's name (1048)", async ({ page }) => {
+  await page.setViewportSize({ width: 1048, height: 773 });
+  const j = journey(page);
+  await hisCase(page, j);
+  let raised = false, handAt: number | null = null, shownAt: number | null = null;
+  for (let k = 0; k < 340 && shownAt == null; k++) {
+    await j.advance(100);
+    const s = await snap(page);
+    if (!raised && s.actor === "Defending") { raised = true; await page.evaluate(() => (window as W).__neural.queueChallengeReward("patch", "white-foundations")); }
+    if (handAt == null && raised && s.hand > 0 && !s.pulse && !s.actor) handAt = s.now;
+    if (s.reward) shownAt = s.now;
+  }
+  expect([raised, handAt != null], "premise: a notice raised during his turn, and the hand").toEqual([true, true]);
+  expect(shownAt, "the notice shows").not.toBeNull();
+  expect((shownAt as number) - (handAt as number), "not at the hand: once it has settled, 1.2 s later (R1c)").toBeGreaterThanOrEqual(1.1);
+  expect((shownAt as number) - (handAt as number), "…and no later than that").toBeLessThanOrEqual(1.5);
+  const cover = await page.evaluate(() => {
+    const a = (window as W).__neural, el = document.querySelector(".ng-challenge-reward") as HTMLElement, r = el.getBoundingClientRect(), cv = a.canvas.getBoundingClientRect();
+    const seat = (a._lastNameBoxes || []).filter((b: W) => b.i === a.focusIdx || b.i === (a.nodes[a.focusIdx] || {}).pi);
+    return { seat: seat.length, over: seat.some((b: W) => b.l + cv.left < r.right && b.r + cv.left > r.left && b.t + cv.top < r.bottom && b.b + cv.top > r.top) };
+  });
+  expect(cover.seat, "premise: the seat's name is written").toBeGreaterThan(0);
+  expect(cover.over, "the notice does not cover the seat's name").toBe(false);
+});
+
+// 4. THE DRILL'S START ENDS THE CHAIN (the reader's surviving mutant U6): at the opponent's finish the drill is a moment he
+// can act, so the article is back at full and no chain is drawn over the drill. Mutant U6 (`enterDefense`'s `_chainEnd`
+// removed) → red.
+test("the defence drill's start ends the chain: the article back, nothing of the chain drawn over the drill", async ({ page }) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Closed Guard Top");
+  const t = await page.evaluate(() => { const a = (window as W).__neural; for (const i of a.optionIdxs || []) if (a.nodes[i].ty === "transitions") return a.nodes[i].t as string; return null; });
+  await j.rig("resolve", [0.999]); await j.rig("outcome", [0.01]); await j.rig("opp-finish", [0.0, 0.0]); await j.rig("opp-sub-pick", [0.9]);
+  await j.pick(t as string);
+  let drill: W = null;
+  for (let k = 0; k < 300 && !drill; k++) {
+    await j.advance(100);
+    drill = await page.evaluate(() => { const a = (window as W).__neural; if (a._defendSub == null) return null;
+      return { ended: !!(a._chain && a._chain.ended), stepBack: !!a._readerEl && a._readerEl.hasAttribute("data-ng-step-back") }; });
+  }
+  expect(drill, "premise: the opponent's finish starts the drill").toBeTruthy();
+  expect(drill, "at the drill's start the chain has ended and the article is back (U6)").toEqual({ ended: true, stepBack: false });
+  await j.advance(800);
+  expect(await page.evaluate(() => { const a = (window as W).__neural; return [a._lastChain, !!(a._lastLight && a._lastLight.chain)]; }), "and nothing of the chain is drawn over the drill").toEqual([null, false]);
 });
