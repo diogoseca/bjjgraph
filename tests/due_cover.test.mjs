@@ -65,7 +65,10 @@ test("a deck the manifest lacks contributes neither a row nor a claim on coverag
   // GHOST is the most overdue and owes q2 too, but it is not a deck anyone can open: it must not
   // swallow q1 and leave A off the list.
   assert.deepEqual(a.bucketTechniques("due"), ["A"]);
-  assert.equal(a.dueCount(), 2, "dueCount stays the honest card figure — the wire, not the manifest, is its domain");
+  // DUE1 (the orchestrator's ruling, 24 Nov 2026): "N due" is what can be asked. It was 2 here, "the wire, not the manifest, is
+  // its domain" (v1.172.0); a row in a deck the manifest lacks can never be asked (this test's own words above), so q2 is
+  // not due any more. q1 stays: A is in the manifest and its card is not known to be gone (tests/due_count_live.test.mjs).
+  assert.equal(a.dueCount(), 1, "dueCount counts what can be asked: GHOST's q2 is not");
 });
 
 test("a card reviewed today has left the pool everywhere, so its copies stop producing rows", () => {
