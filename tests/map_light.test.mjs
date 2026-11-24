@@ -125,7 +125,7 @@ test("never over a running game: a shown place is lit only while the game is hel
 
 // OPP1 (v1.300.0; the orchestrator's ruling 4): THE ONE EXCEPTION, written at the rule's code site in `_drawLight`. Mutants:
 //   C7 the exception taken away (`_drawLight` without its chain block)   → this test, at "lit at full…"
-//   C8 the rule gone for every light (`running` never true)              → "never over a running game" above, and the last line here
+//   C8 the rule gone for every light (`running` never true)              → "out at once when the game starts again…" below
 test("the light's one exception (OPP1): the opponent's chain is lit over a running roll from his choice, out over 0.6 s; nothing else is", () => {
   const { a, frame, mount, drawn } = lit();
   a.paused = false; a._shown = null;

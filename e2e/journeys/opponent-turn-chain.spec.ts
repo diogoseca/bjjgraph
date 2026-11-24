@@ -27,7 +27,7 @@ import { journey } from "../dsl";
  *   C5 no arrowheads                                         → "S2 …" at "an arrowhead at the destination"
  *   C6 the "chain" name pass dropped                         → "S2 …" at "the chain's places are named"
  *   C7 the light's exception taken away                      → "S2 …" at "lit from the opponent's choice"
- *   C8 the light's exception widened to every light           → map-light.spec.ts (no light over a running roll)
+ *   C8 the rule gone for every light (`running` never true)   → tests/map_light.test.mjs, "out at once when the game starts again…"
  *   C9 the sentence's result word fixed to "It lands"        → "S3 …" at "it fails: you stay"
  *   C10 the article not stepped back                         → "S4 …" at "the article steps back"
  * NOT A MUTANT HERE: the drill's window with his leg capped is a premise-checked measure (cold page, CPU x4, the shortest
