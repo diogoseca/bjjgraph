@@ -22647,6 +22647,48 @@ class Component extends DCLogic {
     if (Array.isArray(s) && s.length >= 2) return s[this.valIdx(node) === 0 ? 1 : 0];
     return -(node.dom || 0);
   }
+  /** THE OPPONENT'S OPTIONS AT THE PLAYER'S SEAT: `opponentDefend`'s own walk, a method since O1 (v1.300.2) so a unit sweeps
+   *  every seat with it (tests/opp_finish_chance.test.mjs). `subs` the finishes, `trans` the positional counters, `ownAt` the
+   *  moves with their own table here. Moved as it was; nothing in it changed. */
+  _oppOptions() {
+    // gather the opponent's adjacent options, split into finishes vs positional counters
+    const subs = []; let trans = []; const seen = new Set();
+    const rsOk = this._rulesetMask();
+    // a move with its OWN table here (v1.214.0) is played and aimed by that table; every other move
+    // keeps exactly the node and the landing it always had
+    const ownAt = new Map();
+    for (const option of this.optionsFor(this.currentPos, this.playerRole === "top" ? "bottom" : "top")) {
+      const k = option.idx;
+      if (option.node && option.node.here != null) ownAt.set(k, option);
+      const n = this.nodes[k]; if (n.ty === "positions") continue; if (seen.has(n.t)) continue; seen.add(n.t);
+      // RULESET (v1.153.0): the opponent is bound by the same garment you are. Deliberately NOT a
+      // role filter — `adj` stays per-SITE and this walk stays role-blind on purpose (it asks
+      // about the EXCHANGE, not about your hand); availability is not a role question.
+      if (!rsOk[k]) continue;
+      // STRICT during a belt test: the opponent only goes for finishes in the belt's vocabulary
+      if (n.ty === "submissions") { if (this._beltPoolAllows(n)) subs.push(k); }
+      else trans.push(k);
+    }
+    if (this._beltTest) {
+      // SOFT for transitions: prefer pool moves, but never let the filter stall the roll
+      const pt = trans.filter((k) => this._beltPoolAllows(this.nodes[k]));
+      if (pt.length) trans = pt;
+    }
+    return { subs, trans, ownAt };
+  }
+  /** THE CHANCE THE OPPONENT GOES FOR A FINISH at the player's seat (`opponentDefend` draws `opp-finish` against it).
+   *  FINISHES ONLY: 1 (O1, v1.300.2; the owner's ruling U209 a, 24 Nov 2026: "Every time in those spots"). It was 0.9, and
+   *  the other 10% played a finish through the positional branch, whose drawn tap reads as a stay (S0-F4's O1, reproduced
+   *  at Twister Control by real input). The seats, from the data: Twister Control with the player bottom (gi and no-gi) and
+   *  Backside 50-50 with the player bottom (no-gi); a belt test adds none. Every other seat is as it was, byte for byte.
+   *  Pinned by tests/opp_finish_chance.test.mjs (the sweep) and opponent-turn-chain.spec.ts (Twister Control, the drill). */
+  _oppFinishChance(subs, trans) {
+    if (!subs.length) return 0;
+    if (!trans.length) return 1;
+    // the more dominant the opponent is here, the more likely they go for the finish
+    const oppAdv = this.oppVal(this.nodes[this.currentPos]); // + = opponent is winning
+    return Math.max(0.18, Math.min(0.85, 0.34 + oppAdv * 0.55));
+  }
   opponentDefend(catchArrival = null) {
     if (catchArrival && catchArrival.journey !== this._journeyId) return;
     this.clearExecution();
@@ -22675,34 +22717,9 @@ class Component extends DCLogic {
       }, NG_CHAIN.leg);
       return;
     }
-    // gather the opponent's adjacent options, split into finishes vs positional counters
-    const subs = []; let trans = []; const seen = new Set();
-    const rsOk = this._rulesetMask();
-    // a move with its OWN table here (v1.214.0) is played and aimed by that table; every other move
-    // keeps exactly the node and the landing it always had
-    const ownAt = new Map();
-    for (const option of this.optionsFor(this.currentPos, this.playerRole === "top" ? "bottom" : "top")) {
-      const k = option.idx;
-      if (option.node && option.node.here != null) ownAt.set(k, option);
-      const n = this.nodes[k]; if (n.ty === "positions") continue; if (seen.has(n.t)) continue; seen.add(n.t);
-      // RULESET (v1.153.0): the opponent is bound by the same garment you are. Deliberately NOT a
-      // role filter — `adj` stays per-SITE and this walk stays role-blind on purpose (it asks
-      // about the EXCHANGE, not about your hand); availability is not a role question.
-      if (!rsOk[k]) continue;
-      // STRICT during a belt test: the opponent only goes for finishes in the belt's vocabulary
-      if (n.ty === "submissions") { if (this._beltPoolAllows(n)) subs.push(k); }
-      else trans.push(k);
-    }
-    if (this._beltTest) {
-      // SOFT for transitions: prefer pool moves, but never let the filter stall the roll
-      const pt = trans.filter((k) => this._beltPoolAllows(this.nodes[k]));
-      if (pt.length) trans = pt;
-    }
+    const { subs, trans, ownAt } = this._oppOptions();
     if (!subs.length && !trans.length) { this.endRound("reset"); return; }
-    // the more dominant the opponent is here, the more likely they go for the finish
-    const oppAdv = this.oppVal(this.nodes[this.currentPos]); // + = opponent is winning
-    let pFinish = subs.length ? Math.max(0.18, Math.min(0.85, 0.34 + oppAdv * 0.55)) : 0;
-    if (!trans.length && subs.length) pFinish = 0.9;
+    const pFinish = this._oppFinishChance(subs, trans);
     if (subs.length && this.rng("opp-finish") < pFinish) {
       const def = subs[(this.rng("opp-sub-pick") * subs.length) | 0];
       this.fx("opponent_attack", { technique: this.nodes[def].t, idx: def }); // belt-pool journeys assert on this
