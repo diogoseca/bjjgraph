@@ -105,3 +105,14 @@ test("curriculum.json is hermetic: deterministic response, never off-box", async
   expect(status).not.toBe(-1) // aborted/off-box would reject
   expect([200, 404]).toContain(status) // emitted file when present, clean 404 until Phase 1
 })
+
+// THE BOOT ONTO AN ALIAS PAGE (the reader of PR #460, its O2): Quartz's lowercase `/game-over` is a stub whose meta refresh
+// navigates on to `/Game-Over` right after the first commit, and the boot's first read could land in the document being
+// left. Six boots, each a race (the reader: 1 of 6 red on dev, 2 of 6 on #460). Mutant B1 (no second read) → red at a boot.
+test("a boot onto an alias page that redirects itself lands where it redirects, every time", async ({ page }) => {
+  const j = journey(page)
+  for (let i = 0; i < 6; i++) {
+    await j.boot("/game-over")
+    await expect.poll(() => page.evaluate(() => location.pathname), { message: "boot " + (i + 1) + " lands on /Game-Over" }).toBe("/Game-Over")
+  }
+})
