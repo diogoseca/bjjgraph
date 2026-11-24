@@ -17,8 +17,8 @@ if (!out) throw Error("SET1_MUTANT_OUT (a scratch directory) is required");
 mkdirSync(out, { recursive: true });
 const app = resolve(root, "source/public/static/neural/app");
 const files = { settings: resolve(app, "settings-ui.js"), neural: resolve(app, "neural.js") };
-const SPEC = "journeys/settings-tabs\\.spec";
-// [name, file, test title (a regex), from, to]
+const SPEC = "journeys/settings-tabs\\.spec", CHOICES = "journeys/settings-choices\\.spec";
+// [name, file, test title (a regex), from, to, expect = "red", spec = SPEC]: the seventh field (v1.298.2) names another spec file
 const MUTANTS = [
   ["frame-440", "settings", "at 1440x900: the frame", "min(760px,calc(100vw - 96px))", "min(440px,calc(100vw - 96px))"],
   ["frame-440-his-window", "settings", "at 1074x796: the frame", "min(760px,calc(100vw - 96px))", "min(440px,calc(100vw - 96px))"],
@@ -44,6 +44,10 @@ const MUTANTS = [
   ["heads-as-options", "settings", "at 1074x796: the frame", ".ng-set-grp>h3{position:relative;margin:0;padding-bottom:8px;font-size:12px;line-height:16px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#96b4ff;", ".ng-set-grp>h3{position:relative;margin:0;padding-bottom:8px;font-size:14px;line-height:16px;font-weight:600;color:#eef1f6;"],
   ["heads-as-options-phone", "settings", "at 390x631: the frame", ".ng-set-grp>h3{position:relative;margin:0;padding-bottom:8px;font-size:12px;line-height:16px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#96b4ff;", ".ng-set-grp>h3{position:relative;margin:0;padding-bottom:8px;font-size:14px;line-height:16px;font-weight:600;color:#eef1f6;"],
   ["spy-dead-every-group", "settings", "at 1074x796: a real wheel to each group", "\"[data-settings-group]\"", "\"[data-settings-groupX]\""],
+  // SETH2 B (v1.298.2): one mutant per mapping of "During a roll, each place shows", red in e2e/journeys/settings-choices.spec.ts.
+  ["shows-question-asks-nothing", "settings", "at 1074x796: each place shows", '&&this.set("landQuestions",', '&&this.set("landQuestions",!', "red", CHOICES],
+  ["shows-card-keeps-question", "settings", "at 1074x796: each place shows", '!=="none"&&this.get("landQuestions"', '==="question"&&this.get("landQuestions"', "red", CHOICES],
+  ["shows-none-keeps-card", "settings", "at 1074x796: each place shows", '!=="none","settings")', '!=="nonX","settings")', "red", CHOICES],
   // SET1-RED (PR #451's first CI run): CONTROLS THAT MUST STAY GREEN (the sixth field). The card's entrance slowed to 1.2 s: the frame
   // step must still read the card where it RESTS. The step as first shipped read it mid-slide on CI (30.68 px from the bottom at 800,
   // [0, 1, 390, 632] at 390) and goes red here; the step that waits for the card's animations holds.
@@ -57,10 +61,10 @@ const originals = Object.fromEntries(Object.entries(files).map(([k, p]) => [k, r
 const restore = () => { for (const [k, p] of Object.entries(files)) writeFileSync(p, originals[k]); };
 process.on("exit", restore);
 // One test, by title, on the served tree as it stands. Returns the counts Playwright's JSON reporter gives; zero ran is an error.
-const run = (title, tag) => {
+const run = (title, tag, spec = SPEC) => {
   const json = resolve(out, tag + ".json");
   rmSync(json, { force: true });
-  const r = spawnSync("npx", ["playwright", "test", "-c", "e2e/playwright.config.ts", SPEC, "-g", title, "--reporter=json", "--retries=0", "--workers=1", "--output", resolve(out, "pw-" + tag)],
+  const r = spawnSync("npx", ["playwright", "test", "-c", "e2e/playwright.config.ts", spec, "-g", title, "--reporter=json", "--retries=0", "--workers=1", "--output", resolve(out, "pw-" + tag)],
     { cwd: root, env: { ...process.env, PLAYWRIGHT_JSON_OUTPUT_NAME: json }, encoding: "utf8", timeout: 600000 });
   let stats;
   try { stats = JSON.parse(readFileSync(json, "utf8")).stats; } catch { throw Error(`${tag}: no JSON report (exit ${r.status}): ${(r.stderr || "").slice(-400)}`); }
@@ -70,20 +74,21 @@ const run = (title, tag) => {
 };
 const results = [];
 const baselines = new Map();
-for (const [name, file, title, from, to, expect = "red"] of chosen) {
-  if (!baselines.has(title)) {
+for (const [name, file, title, from, to, expect = "red", spec = SPEC] of chosen) {
+  const key = spec + " " + title;
+  if (!baselines.has(key)) {
     restore();
-    const b = run(title, "baseline-" + baselines.size);
+    const b = run(title, "baseline-" + baselines.size, spec);
     if (b.failed) throw Error(`baseline red for /${title}/: ${JSON.stringify(b)}; no mutant of it is reportable`);
-    baselines.set(title, b);
-    console.log(`baseline /${title}/: ${b.passed} passed`);
+    baselines.set(key, b);
+    console.log(`baseline ${spec} /${title}/: ${b.passed} passed`);
   }
   const text = originals[file].toString("utf8");
   const n = text.split(from).length - 1;
   if (n !== 1) throw Error(`${name}: target found ${n} times in ${file} (need exactly 1): ${from}`);
   restore();
   writeFileSync(files[file], text.replace(from, to));
-  const m = run(title, name);
+  const m = run(title, name, spec);
   restore();
   const killed = m.failed > 0;
   // a control that must stay green counts as a pass when it held, and as a failure (`killed: false` is not enough) when it went red
