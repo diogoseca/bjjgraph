@@ -21533,3 +21533,76 @@ Element is not attached to the DOM" in `openCorridor`).**
 **Bytes** (the served app folders emptied first, against PAY-L5, dev v1.297.1's own level): eager gzip 384,795 B, +516
 (+141 on v1.298.0); first-hand core 404,270 B, +539; deferred 560,576 B, +197 B on 560,379 (reader.js +219, gameplan.js
 -22), the ceiling moved in its own commit (39,424 B remain of the owner's 600,000).
+
+## v1.299.0 — "Add to…" beside "Move to…" in a list item's menu (ADD1; the owner, 23 Nov 2026)
+
+**What a player sees.** The owner: "i was hoping to see in the lists also Add to.. beside Move to... option makesesense?"
+- **The item's ⋮:** Share · Move up · Move down · **Add to…** · Move to… · Remove from list. "Add to…" sits directly above
+  "Move to…".
+- **"Add to…"** opens the star's own menu in an add mode, headed "Add to list". The list the item is in now is shown and
+  off ("here"). A list that already holds the item is shown and off ("already there"). A full list is off. "New list"
+  makes a list with the item in it.
+- **The item stays where it was** and is in the list chosen too.
+- **Its Undo** is the row a move uses: "Added “<item>” to “<list>” · Undo". It takes the item out of that list only.
+- **Unchanged:** "Move to…", and the desktop drag, which stays a move.
+
+**The rulings** (the orchestrator's, prompts/mapshows-addto.md):
+1. The menu's order.
+2. The picker: "here", "already there" and a full list are off; "+ New list" keeps the source.
+3. The Undo row, taking the item out of the target only (and a list this action made, if still as made).
+4. Storage and sync: nothing new. It is the existing add on the target, and no write on the source.
+5. The drag stays a move.
+6. 44 px targets, and the menu whole at 390x631.
+
+**How** (`app.src.jsx`).
+- `openItemMenu` gains `addto`. `openListPicker` has an add mode beside the move mode (`_pickAdd`; the same keys), with
+  rows from `_pickAddRow`.
+- `pickAddTo` and `createListAddTo` call the star's own `addToList(nodeId, toId)` and nothing else.
+- The Undo is a fourth kind, "add", in the one slot `_undoList`. The row's text, its press and the delete's guard are each
+  widened, so an add's Undo can never fall through to the list's delete.
+- `undoAddListItem` takes the item out of the target, puts the target's `t` back, and writes the target's "out" cell at a
+  later stamp, as a move's Undo writes. Lists merge add-wins, so a plain removal would come back from a device that
+  already pulled the add. It is an existing field and existing merge code, the design the survey proposed.
+- A list the add made, still as made, goes.
+
+**One correction to the brief, from the source:** an ordinary add writes no `listItemAt` cell. It writes one only where
+that list holds a cell for that item already (a re-add after a move). So "the same record a star into that list makes"
+is exactly what "Add to…" makes, and in the ordinary case that record has no cell.
+
+**Tests.**
+- **Units** (`tests/list_moves_sync.test.mjs`, 24 and 25, the file's own harness: the real app class, the progress host,
+  memory storage, the clock held):
+  - the stored record after "Add to…" equals a twin's after a plain add, field for field;
+  - the list it stays in is byte-identical (items, `t`, cell, order record);
+  - every captured older validator takes the record;
+  - the Undo touches the target only, puts its `t` back and writes its "out" cell;
+  - a list the add made goes, and one changed since stays.
+  - **two devices** (the orchestrator's cases, since the Undo writes a cell): device B pulled the add before A's Undo,
+    and when they meet, both ways, the item is out of the target on both and they agree (26). The same holds when B also
+    added another technique to that list in between: its addition stays on both (27).
+  - A1 (the source's `t` bumped), A2 (the Undo taking the item out of every list) and U1 (the Undo a plain removal, no
+    "out" cell: red at 25, 26 and 27) are red after a control.
+- **Journey** (`e2e/journeys/lists-add-to.spec.ts`, by mouse at 1440 and touch at 390x631):
+  - the ⋮'s order;
+  - "here", "already there" and full all off;
+  - the add, and the source read back untouched;
+  - the Undo row, and the Undo;
+  - New list and its Undo;
+  - a reload keeps the add;
+  - at 390, the item menu one row longer and the add menu whole on the screen, every row 44 px.
+  - D1 ("already there" not off), D2 (the source rewritten), D3 (the Undo out of the source too) and D4 ("Add to…"
+    missing) are each red at its named step after a green control.
+- `lists-item-menu.spec.ts` reads the ⋮ in its ruled order now.
+- **Screens** 18 to 20 (390 and 1440) in the briefing's `img/lists/`: the ⋮, the add menu, the Undo row. They start at
+  18, because 16 and 17 were the lists seat's.
+
+**Runs (local, under the lock).**
+- The 14 files that read the item menu or the picker: 128 of 129. The one red was `lists-item-menu.spec.ts`'s old
+  order, which now reads the ruled order, 3 of 3.
+- **The full core suite:** 2,049 tests, 2,035 passed and 5 skipped.
+- Nine were red, the same nine of this box's stale built site at premises that read static files (`legal-pages` 8: the
+  privacy page built before its 12 Nov content change; `bundle-version` 1: the stamp only a full build writes). They are
+  red the same way on dev's own sources in that site (v1.298.1's control).
+
+**Bytes** (the served app folders emptied first, against PAY-L5): eager gzip 385,372 B, +1,093 (+577 on v1.298.1);
+first-hand core 404,836 B; deferred unchanged (560,576 B, its ceiling).
