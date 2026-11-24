@@ -18,7 +18,7 @@ const NG_OUTCOME_BUBBLE = false;
 // v1.255.2: a sign-in this browser started (see _signinCompleted), and how long it may take to complete: 30 minutes for a log-in or
 // Google's round trip, 24 hours for a sign-up's email confirmation. One localStorage key per browser, never per account: no owner.
 const NG_SIGNIN_INTENT_KEY = "bjj-neural-signin-intent", NG_SIGNIN_INTENT_MS = 30 * 60 * 1000, NG_SIGNIN_CREATE_MS = 24 * 60 * 60 * 1000;
-// SAVE1 (v1.300.3): the save lines' own mark, one browser key and never an account's (see `_saveLineFor`); the four lines;
+// SAVE1 (v1.301.1): the save lines' own mark, one browser key and never an account's (see `_saveLineFor`); the four lines;
 // a ✕ hides its line for this many days
 const NG_SAVE_LINES_KEY = "bjj_save_lines", NG_SAVE_LINE_KINDS = ["belt", "list", "done", "badge"], NG_SAVE_LINE_WEEK = 7;
 // THE SIGNED-IN NAME, ITS INITIAL AND THE ADDRESS NEVER REACH ANALYTICS (v1.261.2). The app never calls identify(), but it PRINTS the
@@ -4307,7 +4307,7 @@ class Component extends DCLogic {
     // THE BLACK-BELT CROSSING — the worn belt since v1.211.0; see _noteBlackBelt.
     this._noteBlackBelt();
   }
-  // ── THE SAVE LINES (SAVE1, v1.300.3; the owner's U215 a, 24 Nov: "Go") ──────────────────────────────────────────────
+  // ── THE SAVE LINES (SAVE1, v1.301.1; the owner's U215 a, 24 Nov: "Go") ──────────────────────────────────────────────
   // FOUR QUIET LINES, each at the moment a guest has just made something he would lose, each naming it: never a modal, never
   // in the way of play. One line, one Save (the sign-in there is, `openAuth("create")`) and a ✕. Where each stands:
   //   belt   under the belt row, on his first day, once its number shows (`_placeBeltLine`)
