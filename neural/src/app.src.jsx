@@ -20186,6 +20186,13 @@ class Component extends DCLogic {
     // An explicit roleOverride still wins (the comment above); member role beats title-derivation.
     // Inert on the production layout: no default graph-data node carries `role`.
     if (!roleOverride && (this.nodes[posIdx].role === "top" || this.nodes[posIdx].role === "bottom")) this.playerRole = this.nodes[posIdx].role;
+    // THE SEAT IS THE ORB OF THE SIDE PLAYED (OPP1-S0, v1.299.1; found by its survey of `currentPos`'s readers). A caller
+    // that passes a side may pass either orb of the pair: Last rolls' per-row "Roll from here" finds its place by
+    // `nodeForKey(row.key)`, which answers "<place>|Top" AND "<place>|Bottom" with the TOP orb, so a Bottom row seated the
+    // player bottom on the top orb, and the address named Top (measured: Mount|Bottom and Closed Guard|Bottom both). One
+    // seam for every caller (`_seatMember`, identity when the orb already plays the side): a chosen technique keeps its
+    // node, only its seat moves.
+    { const seat = this._seatMember(posIdx, this.playerRole); if (seat !== posIdx) { if (nodeIdx === posIdx) nodeIdx = seat; posIdx = seat; } }
     // ── LANDING ON THE TECHNIQUE (v1.132.0) ── owner: "if I click Kimura, then the landing
     // should land on Kimura, not Knee on Belly or whatever." The SEAT stays the origin position
     // (the engine's states are positions — v1.126.0 measured what staging ON a technique node
@@ -22426,8 +22433,19 @@ class Component extends DCLogic {
     if (draw) { const rr = this.resolveOutcomeTo(draw.to); opponentDestinationRole = rr.role; intendDest = rr.terminal ? this.currentPos : (rr.idx >= 0 ? rr.idx : this.resultPos(def, this.currentPos)); }
     else { intendDest = this.resultPos(def, this.currentPos); }
     if (intendDest < 0) intendDest = this.currentPos;
-    const actualDest = intendDest; // the weighted draw already models "doesn't always land clean" — no extra random slip
-    this._pendingIntent = { actor: "opp", idx: intendDest, via: def };  // `via`: the edge, for the film (see enterAttempt)
+    // THE LANDING STANDS ON THE PLAYER'S ORB OF THE PAIR (OPP1-S0, v1.299.1; the owner's own play, 24 Nov: "seems to be
+    // going into butterfly guard or something now? why?"). The opponent's outcome is written from HIS side ("Butterfly
+    // Guard/Top"), and `resolveOutcomeTo` returns that side's member, so until this the landing stood on the OPPONENT's
+    // orb: the pulse ran on to the other orb of the very position it left (a failed pass read as "going into Butterfly
+    // Guard", from Butterfly Guard), the address named his side (`/Positions/Mount/Bottom` with the player on top), and a
+    // reload seated the player there. Measured on dev, 39 of 39 landings after an opponent's move at 1048 and 41 of 41 at
+    // 390 (reports/mapshows.md, OPP1 Part A). The seat is mirrored here as the escape branch above mirrors it, through the
+    // one seam (`_seatMember`); the draw is untouched (no rng draw added, removed or moved). A move with no table
+    // (`resultPos`) gets its role after the travel (`applyRoleByAction`), so the arrival mirrors again below.
+    const caughtAt = this.submissionNode(this.nodes[intendDest]);
+    const landRole = caughtAt ? (caughtAt.fromRole === "top" ? "bottom" : "top") : opponentDestinationRole ? (opponentDestinationRole === "top" ? "bottom" : "top") : null;
+    const actualDest = landRole ? this._seatMember(intendDest, landRole) : intendDest; // the weighted draw already models "doesn't always land clean" — no extra random slip
+    this._pendingIntent = { actor: "opp", idx: actualDest, via: def };  // `via`: the edge, for the film (see enterAttempt)
     // `performerRole(...) === "top"` used to pick between "Opponent counters" and "Opponent
     // defends" here — a TOP/BOTTOM test standing in for an OFFENCE/DEFENCE one, the same defect
     // class as roleIdx-vs-valIdx (v1.103.0). In BJJ the dominance axis is not top/bottom, so a
@@ -22435,7 +22453,9 @@ class Component extends DCLogic {
     // Naming the actor needs no such guess.
     this.setEvent("Opponent goes for", defNode.t, "bad");
     this.activeMove = { idx: def, verb: "Defending", col: { r: 255, g: 140, b: 100 } };
-    const path = actualDest !== this.currentPos ? [this.currentPos, def, actualDest] : [this.currentPos, def];
+    // A MOVE OF HIS THAT FAILS AND STAYS COMES BACK to the orb the player stands on ([P, O, P], OPP1-S0; the ruling: "so the
+    // path ends where the next hand starts"). It used to end on the move ([P, O]) or, through the wrong member, on his orb.
+    const path = [this.currentPos, def, actualDest];
     const arrival = this._catchProvenance();
     this.startTravel(path, () => {
       if (arrival.journey !== this._journeyId) return;
@@ -22446,7 +22466,7 @@ class Component extends DCLogic {
       else if (opponentDestinationRole) this.playerRole = opponentDestinationRole === "top" ? "bottom" : "top";
       else this.applyRoleByAction(defNode.t, defNode.ty, false);
       this.flashFx(this.myVal(this.nodes[nd]) - before);
-      this.currentPos = nd; this.moveCount++; this.bumpBounce(); this._lastActor = "opp";
+      this.currentPos = this._seatMember(nd, this.playerRole); this.moveCount++; this.bumpBounce(); this._lastActor = "opp";
       if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
       else this.after(0.6, () => this.enterLand(false, false, arrival));
     });
