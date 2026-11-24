@@ -495,6 +495,10 @@ export function ngProgressExploredKeys(list) {
 }
 export function ngProgressPracticeKey(blob) {
   const b = ngProgressGuestPart(blob);
+  // CARD1-S0-R1 (v1.301.5): the marker of grades gone is this browser's, never in a record (`goneRead` below). A record that
+  // already carries a synced `stageGone` (the preview's, written by this PR's first CI builds; none in production) is not
+  // practice: the key ignores it, and nothing deletes it (it rides `_progressExtras` like any field a build does not know).
+  delete b.stageGone;
   // the modifiers (v1.301.0, MODS1) are odds a player SET, not practice: they join (`joinGuest` counts them apart, as
   // `ngProgressModsKey`), but alone they never say "Your practice from before you signed in is saved" (ruling 2 a)
   delete b.settings; delete b.settingsAt;
@@ -678,12 +682,30 @@ function ngProgressOwnerId(owner) {
 }
 function ngProgressSameOwner(a, b) { return ngProgressOwnerId(a) === ngProgressOwnerId(b); }
 
+// THE GRADES MARKED GONE (CARD1-S0, v1.301.5), as this browser keeps them (host `goneRead`): {deck: {8-hex question hash: 1}},
+// read leniently from a stored string or an object. Anything else is dropped, never a reason to refuse: a non-object, a
+// key that is not a question hash, a 0, and `__proto__` / `constructor` / `prototype` at either level (the list cells'
+// guard, `NGLM_UNSAFE`: a parsed `{"__proto__": {...}}` must never reach a prototype). Built on `Object.create(null)` at both
+// levels (CARD1-S0-R2, the reader's R4): a key like `toString` must find nothing inherited to write into.
+export function ngProgressGoneParse(v) {
+  const out = Object.create(null), unsafe = ["__proto__", "constructor", "prototype"];
+  if (typeof v === "string") { try { v = JSON.parse(v); } catch { return out; } }
+  if (!v || typeof v !== "object" || Array.isArray(v)) return out;
+  for (const dk of Object.keys(v)) {
+    if (!dk || unsafe.indexOf(dk) >= 0) continue;
+    const m = v[dk];
+    if (!m || typeof m !== "object" || Array.isArray(m)) continue;
+    for (const qh of Object.keys(m)) if (unsafe.indexOf(qh) < 0 && /^[0-9a-f]{8}$/.test(qh) && m[qh]) (out[dk] = out[dk] || Object.create(null))[qh] = 1;
+  }
+  return out;
+}
 export function ngProgressLocalKey(owner, field = "progress") {
   // `guest` (v1.262.0): on an account, the hash of the guest copy it last took (or found nothing in) on this device
   // `device` (v1.262.11): this browser's code for the owner's roll-ledger partition (host `flowDevice`, below)
   // `pending` (v1.280.2): the owner's answers this browser has not yet seen delivered (`ngProgressReplay`, host `journal`)
   // `taken` (v1.280.2): on an account, the guest rows it took in at a join, by card (`ngProgressTakenParse`)
-  if (!["progress", "ladder", "firstroll", "coached", "guest", "device", "pending", "taken"].includes(field)) throw new TypeError("Unknown account-owned local field");
+  // `gone` (v1.301.5, CARD1-S0-R1): the grades this browser marked gone from their decks (`ngProgressGoneParse`, host `goneRead`)
+  if (!["progress", "ladder", "firstroll", "coached", "guest", "device", "pending", "taken", "gone"].includes(field)) throw new TypeError("Unknown account-owned local field");
   return NG_PROGRESS_OWNER_PREFIX + ngProgressOwnerId(owner) + ":" + field;
 }
 // A stored roll-ledger code: `b` + 16 hex as minted since v1.262.11, or any later short id (tolerant on purpose: a later
@@ -1090,6 +1112,33 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       // 8 partitions). Until it is stored, this instance keeps the code in memory.
       storeCode(inst, code);
       return code;
+    },
+    // ── CARD1-S0-R1 (v1.301.5; the sync reader of PR #468, F1): THE GRADES THIS BROWSER MARKED GONE ──
+    // `{deck: {question hash: 1}}`, the app's `_pruneStaleGrades`: the grade of a question the deck no longer holds, as THIS
+    // browser loaded the deck. KEPT HERE, beside `<owner>:device`, and never in the progress blob: never merged, never pushed,
+    // never joined at sign-in. A synced marker let a browser on older content (a tab open across a content deploy, or
+    // production against the preview on one account) hide a grade that is live on an up-to-date browser, at every pull; let
+    // a browser that never loaded the deck read LOWER than dev (the reader's 95 of 100 records); and production's build
+    // pinned its first copy and pushed it back. The grades themselves stay in `stage`, synced and merged by MAX, which is
+    // all CARD1's recovery needs. A marker this browser loses (site data cleared) costs a recount until the deck lands
+    // again, never a grade. Answers {} when it cannot say; a write that fails is not retried (the next landing writes it).
+    goneRead(inst) {
+      if (!host.current(inst)) return null;
+      try { return ngProgressGoneParse(storage.getItem(ngProgressLocalKey(inst._progressOwner, "gone"))); } catch { return {}; }
+    },
+    // ONE DECK AT A TIME (CARD1-S0-R2, the reader's R3): `deck`'s marks are written over the map the store holds NOW, so two
+    // tabs of one browser never drop each other's decks (a tab's older copy of the whole map used to win). Answers the map
+    // as stored, so the tab sees the other tabs' decks too; false when the store cannot be read or written (nothing thrown).
+    goneWrite(inst, marks, deck) {
+      if (!host.current(inst) || typeof deck !== "string") return false;
+      const key = ngProgressLocalKey(inst._progressOwner, "gone");
+      try {
+        const stored = ngProgressGoneParse(storage.getItem(key)), m = marks && marks[deck];
+        if (m && Object.keys(m).length) { stored[deck] = Object.create(null); for (const qh of Object.keys(m)) stored[deck][qh] = 1; }
+        else delete stored[deck];
+        if (Object.keys(stored).length) storage.setItem(key, JSON.stringify(stored)); else storage.removeItem(key);
+        return stored;
+      } catch { return false; }
     },
     // ── v1.280.2 (NEXT2): the owner's undelivered answers (`ngProgressReplay`) ──
     // `rows`: [[field, bucket, item, ok, day, after], …] as the app's writers leave them. Appended in order, persisted at

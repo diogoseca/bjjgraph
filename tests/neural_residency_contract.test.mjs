@@ -347,7 +347,11 @@ test("grades for cards the deck no longer has cannot inflate a stub, and are hea
   // count for nothing in the resident branch either — and the two branches agree from then on.
   globalThis.fetch = async () => ({ ok: true, json: async () => ({ "D|Top": { cat: "Position", cards: cards } }) });
   await stub.hydrateDeck("D|Top");
-  assert.deepEqual(Object.keys(stub.stage["D|Top"]), [stub.qhash("q1")], "stale grades pruned");
+  // CARD1-S0 (v1.301.5, the orchestrator's ruling): this read "stale grades pruned" (deleted). A grade is never deleted now:
+  // the landing MARKS the stale ones gone (`stageGone`) and keeps them for CARD1's recovery; every reader that sums `stage`
+  // skips a marked grade, so the two branches agree exactly as they did (the line below; tests/stale_grades_kept.test.mjs)
+  assert.equal(Object.keys(stub.stage["D|Top"]).length, 3, "stale grades kept");
+  assert.deepEqual(Object.keys(stub.stageGone["D|Top"]).sort(), [stub.qhash("retired-a"), stub.qhash("retired-b")].sort(), "and marked gone");
   assert.equal(stub.deckMastery("D|Top"), hyd.deckMastery("D|Top"), "one definition of mastery");
 });
 

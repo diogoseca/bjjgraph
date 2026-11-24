@@ -22249,3 +22249,113 @@ Saturday. Until the card key ships (CARD1 slice 2, waiting for the owner), the b
   longer names anyone fails.
 - **Mutants:** the old heading back → the first test red; the style line back, or the bot's three perspectives back → the
   second.
+
+## v1.301.5 — A grade is never deleted, and the content bot puts back any question it changed (CARD1-S0; 24 Nov 2026)
+
+**Why** (CARD1). A card's progress is keyed by a hash of its exact question text. When a deck landed,
+`_pruneStaleGrades` deleted the grade of every question the deck no longer held, so a reworded card's grade was gone for
+good. CARD1's recovery (slice 3) needs those grades. And once a card keeps its key through a rewording (slice 2), an
+older build's prune must not be able to delete it.
+
+**The design: a marker, not count-side** (the orchestrator's option 2 of the CARD1-S0 note). The first ruling was to skip
+rows "the loaded deck or the live set says are gone". It could not meet its own test (nothing a player sees changes):
+- after a reboot, grades dev had deleted would count again until the live set landed;
+- in decks dev had never loaded, skipping by the live set would LOWER a player's mastery, gold, score and belt, against the
+  owner's "scoring changes only add".
+
+So:
+- When a deck lands, its stale grades are MARKED gone (`stageGone`, {deck: {question hash: 1}}) and kept in `stage`.
+- The readers that sum `stage` by its keys skip a marked grade, as if it were deleted (`_gradeGone`): `deckMastery`'s
+  unloaded branch (feeding the score, the belt and the map's gold), the deck glyph `seenGlyph`, and the challenge
+  evidence's `recallCount`. Readers by a live card's own key never meet one.
+- **The marker is the browser's own** (CARD1-S0-R1, below): kept beside `<owner>:device` (`ngProgressLocalKey(owner,
+  "gone")`, host `goneRead`/`goneWrite`, read leniently by `ngProgressGoneParse`, which refuses `__proto__`,
+  `constructor` and `prototype`). It is never in the record, never merged, pushed or joined.
+- A marked question live again (a rewording reverted) is unmarked and counts: the one place it differs from a deletion,
+  in the player's favour.
+
+**What it costs.** A kept grade is ~13 bytes in `stage`, synced; it was already stored before the prune would have shrunk
+the record. Its mark, ~13 more plus a deck key per marked deck, stays in that browser's own storage and is never synced. A
+player with 300 cards answered before v1.182.2 keeps ~150 stale grades: ~2 KB in the record and ~3 KB of marks. The most
+extreme record (every card answered before v1.182.2: 10,964 deck rows in up to 2,896 decks) keeps ~140 KB of grades in the
+record and ~250 KB of marks per browser. Nothing prunes either. The record has no size cap (the cloud keeps it as JSON),
+and the browser's ~5 MB per site is far above.
+
+**Proof:**
+- **`tests/stale_grades_kept.test.mjs`** (7). One player and its PRUNED TWIN (the same record with the grades deleted:
+  what dev leaves), read by the same code. Every number is equal after the landing and after a reboot with the deck not
+  loaded and no live set: mastery, the glyph, `recallCount`, `masteredDeckCount`, gameScore, the due count. Also:
+  - the stored record holds the grades and the marker;
+  - a player with no stale grade writes dev's record;
+  - a sync round-trip in both orders, against a fake cloud with no marker, keeps both;
+  - the practice key matches the twin's;
+  - unmarking works, and a malformed marker is dropped.
+
+  Five mutants red: the prune deleting again; `deckMastery` or `recallCount` not skipping; the pull dropping the cloud's
+  marker; the practice key keeping marked grades.
+- **On dev's build against this one, in a browser:** a player with three stale grades and one without; seeded, the deck
+  landed, rebooted from storage, then Master the game. Every number (mastery, glyph, recall, mastered decks, score, belt,
+  due, the map's gold) and Master the game's rows are identical on both builds. The only difference is the stored record
+  after the landing and after the reboot: dev 3 grades, this build 6 with 3 marked.
+
+**CARD1-S0-R1** (the sync reader of PR #468: MERGE AFTER 1 fix). As first built, the marker was SYNCED (union-merged).
+Each browser marks against the deck as IT loaded it, so:
+- a browser on older content (a tab open across a content deploy, or production against the preview on one account) hid a
+  grade live on an up-to-date browser at every pull;
+- a browser that never loaded a deck took the marks and read LOWER than dev: the score in 95 of 100 records;
+- production's build pinned its first copy of the key and pushed it back.
+
+The marker now stays on the device. A record that already carries a synced `stageGone` (the preview's, from this PR's
+first builds; none in production) is ignored, and kept as it is through `_progressExtras`: never deleted by us.
+
+The orchestrator's ruling 2, written where the marker is read (`_gradeGone`): after a pull, a browser that already landed
+a deck keeps hidden a grade another copy brings back. Dev counted it until its next landing (its own climb); this build
+shows dev's settled number, and the two are equal after the next landing. Also from the read:
+- the rating's diagnostic `stageOnly` skips a marked grade;
+- the chunk-count guard is pinned (a partial deck marks nothing).
+
+**R1's proof:**
+- **The reader's `hide.mjs`** ends with A's numbers equal to dev's (mastery 0.571, "4 of 7 met", recall 4), with C not
+  marked on A.
+- **The reader's differential**, run by the seat with a marker store per device (100 records, five batches of 20), on dev
+  against this build: identical after boot, the landing, a second landing, a reboot with and without the live set, a pull
+  and then a landing, and on a device that never loaded the decks after a sync. The marker is in no pushed record (0 of
+  100), so production's build is never sent it. The pull state differs as ruled (dev's climb, 232 deck readings), and the
+  practice key's value differs where stale grades are kept.
+
+  The practice key feeds one decision: at sign-in, "your practice from before you signed in is saved". That differs from
+  dev only for a guest whose only additions are grades on questions gone from decks it loaded. Those grades now join, so
+  the line is true.
+- **`tests/stale_grades_kept.test.mjs`** is rebuilt on per-device stores (11 tests). Eight mutants red: the prune
+  deleting; `deckMastery` or `recallCount` not skipping; the marker written into the record; the marker not read back on a
+  reboot; the chunk-count guard removed; the unsafe-key guard removed; `stageOnly` not skipping.
+
+**CARD1-S0-R2** (the reader's re-read: its three faults closed; MERGE AFTER 1 fix, a test):
+- **The real host's marker store is now pinned.** `tests/stale_grades_host.test.mjs` drives the real class through
+  `ngProgressCreateHost` on a memory storage:
+  - land, then reboot: the marker is read back;
+  - guest → account A → sign out → account B → guest: each owner keeps its own marker;
+  - a storage that throws for the key: nothing throws, and no live grade is hidden;
+  - two tabs, in both orders.
+
+  The reader's three mutants of `goneRead`/`goneWrite` (one key for every owner, never read back, never written) passed
+  every unit before; each is red here.
+- **Two small changes, ruled yes:**
+  - `goneWrite` writes only the deck that landed, over the map the store holds now, so two tabs never drop each other's
+    decks (a mark or an unmark);
+  - `ngProgressGoneParse` builds on `Object.create(null)` at both levels.
+- **Known, and left:** an older build deletes a stale grade at each landing and pushes, and this build's MAX merge keeps
+  the cloud's row and pushes it back. Pushes, never data. It touches only an account signed in on both production and the
+  preview, and ends when production runs this build. Written at the merge line.
+
+**And the content bot's stronger guard** (the orchestrator's ruling, its own commit). `restore_questions`, beside
+`restore_mc` and `restore_clips`, runs after the model answers and before the MC re-merge. It puts back every EXISTING
+flashcard question verbatim, per array:
+- matched first by the same text, then by the same answer (a reword: the question back), then by the same position
+  (reworded with its answer: both back);
+- a deleted card comes back whole;
+- existing cards keep their original order, and new cards follow.
+
+It is a pure function, unit-tested on a recorded content file (`tests/question_restore.py`, 12 cases, run by
+`tests/question_restore.test.mjs`). Mutants: step 2, step 4 and the order each red; step 2 had survived until "a reword
+that also moved" was added. The bot is not run.

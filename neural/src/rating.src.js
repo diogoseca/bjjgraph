@@ -495,7 +495,8 @@ export function ngRatingShare(universe, record, day, live) {
   for (const dk of Object.keys(stage)) {
     const rows = stage[dk];
     if (!rows || typeof rows !== "object") continue;
-    for (const qh of Object.keys(rows)) if (!byQ.has(qh) && ngRatingNum(rows[qh]) && rows[qh] > 0) counts.stageOnly++;
+    // CARD1-S0-R1: a grade the browser marked gone (`rec.gone`, the app's `stageGone`) is not counted, as when it was deleted
+    for (const qh of Object.keys(rows)) if (!byQ.has(qh) && ngRatingNum(rows[qh]) && rows[qh] > 0 && !(rec.gone && rec.gone[dk] && rec.gone[dk][qh])) counts.stageOnly++;
   }
   // ONE RULE (LIVE2 F3): a stored row counts where the app's own scheduler would find it. A row is LIVE when its deck holds
   // its question now — for a shared question, when its deck is one the index lists (only then would a grade there have
