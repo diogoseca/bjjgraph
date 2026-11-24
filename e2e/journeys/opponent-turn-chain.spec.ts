@@ -269,12 +269,17 @@ test("S1 under reduced motion the framing is set at once", async ({ page }) => {
 
 // THE DRILL'S WINDOW WITH HIS LEG CAPPED (the orchestrator's point 5: `_prefetchDefendDeck`'s "travel + 0.3 s is the
 // window; the drill must not wait on it" must still hold). His finish at its SHORTEST leg (Loop Choke from Closed Guard: the
-// 0.6 s least, plus the 0.38 s the edge tenses), on a FRESH page whose defend deck has not been asked for (the premise is
-// read at his choice), with the CPU throttled 4x from the press on: the drill starts on its own defend deck, with cards,
-// 0.3 s after the travel. The other nine finishes at Closed Guard, measured the same way, are in reports/mapshows.md.
+// 0.6 s least, plus the 0.38 s the edge tenses), with the CPU throttled 4x from the press on, and its defend deck COLD by
+// construction: its chunk (`qhash(key)`, read from the app on a first boot, never recomputed here) is held from the boot on
+// and lands only at his choice, as if first asked for then (a first run relied on timing for "cold", and the landing's own
+// values can warm that deck first). The drill starts on its own defend deck, with cards, 0.3 s after the travel. The other
+// nine finishes at Closed Guard, measured on fresh pages, are in reports/mapshows.md.
 test("S1 at the opponent's shortest finish leg, on a cold page with the CPU throttled 4x, the drill starts on its own defend deck", async ({ page }) => {
   const j = journey(page);
+  const DK = "Loop Choke from Closed Guard|Defender";
   await j.boot("/");
+  const chunk = "flashcards/" + (await page.evaluate((k) => (window as W).__neural.qhash(k), DK)) + ".json";
+  await j.boot("/", { payloads: { [chunk]: { never: true } } });
   await j.land("Closed Guard Top");
   const t = await page.evaluate(() => { const a = (window as W).__neural; for (const i of a.optionIdxs || []) if (a.nodes[i].ty === "transitions") return a.nodes[i].t as string; return null; });
   expect(t, "premise: the hand deals a transition").toBeTruthy();
@@ -290,12 +295,14 @@ test("S1 at the opponent's shortest finish leg, on a cold page with the CPU thro
     if (s.p && s.actor === "Defending" && from == null) {
       from = s.now;
       cold = await page.evaluate((i) => { const a = (window as W).__neural; return !a._deckHasCards(a.defendKeyFor(a.nodes[i])); }, s.p[s.p.length - 1]);
+      j.releasePayload(chunk);   // the deck's chunk lands now, at his choice
     }
     if (from != null && to == null && !s.p) to = s.now;
     if (s.d != null) out = await page.evaluate((d) => { const a = (window as W).__neural, n = a.nodes[d], dk = a.defendKeyFor(n); return { sub: n.t, dk, panic: a._panicKey, cards: a._deckHasCards(dk), now: a.now }; }, s.d);
   }
   await cdp.send("Emulation.setCPUThrottlingRate", { rate: 1 });
   expect(out && out.sub, "premise: he goes for Loop Choke from Closed Guard").toBe("Loop Choke from Closed Guard");
+  expect(out.dk, "premise: the deck held is this finish's defend deck").toBe(DK);
   expect(cold, "premise: its defend deck was not in when he chose it (a cold page)").toBe(true);
   expect((to as number) - (from as number), "premise: his leg is the shortest there is (0.6 s, after the 0.38 s the edge tenses)").toBeLessThanOrEqual(1.0);
   expect([out.panic, out.cards], "the drill starts on its own defend deck, with its cards").toEqual([out.dk, true]);
