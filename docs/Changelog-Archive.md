@@ -21980,6 +21980,15 @@ them is in the pool.
   attack every time (`pf` 1, it was .9), and no positional row drawn from a finish there. The corpus replay that ties the
   model to the game (`tests/mdp_corpus.test.mjs`, "live routing replay") caught the game changing alone ("unexpected RNG
   opp-sub-pick"). Win % at the three seats now counts the opponent's turn as it is played.
+  - **And upstream of them, by one point** (the map reader of PR #464, v1.300.4's follow-up). A card whose move leads
+    into one of the seats is valued with the opponent's turn there, so it moves too, by one point. The bars at the seats
+    move by one point:
+
+    | ruleset | where the player stands | the card | the card's Win % | the bar at the seat |
+    |---|---|---|---|---|
+    | gi | Cross-Body-Ride bottom | the opponent's Twister Entry | 65 → 64 | 64 → 63 |
+    | no-gi | Inside Ashi bottom | Backside 50-50 Entry from Ashi | 65 → 64 | 64 → 63 |
+    | no-gi | Honey Hole bottom | Grip Break | 57 → 56 | 63 → 62 |
   - The adapter's exposure pin moved (`b9ebcf…` → `7fc826…`), with a changelog line in `mdp-exposure.src.js`. The change is
     label-neutral, since opponent rows read no player knowledge.
   - Measured: emitted before and after, every MDP shard part byte-identical (63 of 63); only provenance hashes and the
