@@ -21898,3 +21898,27 @@ current node so the path is visible on the graph". From his failed attempt until
   - first-hand core 407,134 B, +2,152 on 404,982;
   - deferred unchanged, 564,386 B at its ceiling (S4's step back is set inline, not in `reading.css`).
 - The app rows were re-seeded in their own commit.
+
+**OPP1-R1 (the reader of PR #461 and the orchestrator's rulings; Tier 2).** The reader confirmed the game unchanged
+exactly (1,444 of 1,444 draws; the sentence matched the drawn outcome 61 of 61) and asked for one fix. Three rulings came
+from its measurements, plus its one surviving mutant:
+- **The banner clears the top-left buttons.** The opponent's sentence keeps the line before it as the kicker, and at 390
+  the kicker's first line ran under the sidebar and search targets (261 of 274 lines in the reader's sweep, none at 1048).
+  `_evStepBelowControls` now measures the kicker's lines with the sentence's and steps the first line shown. The sentence
+  is also written before the chain is framed, so the visible map is measured with the banner's real height. Pinned for
+  the corpus's ten longest titles and places, three sentence forms each, at 390x631, 360x640 and 1048, nothing cut.
+- **The camera is back when he can act.** It was 24.4x the roll's zoom at 1048 (9.0x at 390) when the hand was dealt,
+  and back within 5% only 1.5 s (1.0 s) later. At the opponent's last leg (`_chainBack`) the chain's lease is given
+  back, and the camera goes to the roll's zoom at the place he is left in, in NG_CHAIN.back (0.45 s, the exchange's
+  quick pace). The path and the light fade on the same clock; the article and the reward notice wait for the hand
+  (`_chainEnd`). The camera's own zoom-speed floor (a flight's zoom peaks at 3.2 log units a second) would have made
+  that return 1.57 s at 1048 and 1.08 s at 390, past the hand, so this one flight takes its time exactly (`ctx.exact`):
+  its zoom peaks 3.5x the floor's rate at 1048 and 2.4x at 390. The hand is not held.
+- **The reward notice comes after the hand has settled:** 1.2 s after it (NG_CHAIN.settle), or after his next exchange
+  if he presses first (D-326's hold). At 1048 it does not cover the seat's name. At 390 its place (12-378 x 82-184)
+  covers the middle of the visible map, the seat's name and the banner's kept last line; per the ruling that was
+  reported with a screen and the notice was not moved.
+- **U6:** the defence drill's start ends the chain (the article back at full, nothing of the chain drawn over the
+  drill), pinned.
+- **Two notes, left as comments:** the drawer freezes the chain on purpose (the game is paused); a resize mid-turn is
+  not framed again (several lines, not one).
