@@ -19,7 +19,16 @@
 //  13. damaged keys never stop a load: skipped or clamped, and counted;
 //  14. two tabs of one browser: each takes the other's press at its next save (the host's cross-tab merge);
 //  15. another account on the same browser holds none of them, and the first account keeps its own;
-//  16. a browser whose storage is full: the save fails as any save does, and the modifier still applies in this tab.
+//  16. a browser whose storage is full: the save fails as any save does, and the modifier still applies in this tab;
+// and the sync reader's read (MODS1-R1, reports/review-mods.md):
+//  17. TWO TABS, A→B→A (F1): the other tab's writes take a modifier removed → pressed → removed, its two pushes land out of
+//      order, this tab pulls the stale one and saves: the removal stands in both tabs, in storage and in the cloud
+//      (the cross-tab store used to keep this tab's stale `settings` under the newer `settingsAt`);
+//  18. the same sequence with an ORDINARY setting (`dailyGoal`): one value in both tabs (dev kept 35 in one and 25 in the
+//      other, for good);
+//  19. AN EQUAL STAMP (F2): one device an hour ahead presses, two on-time devices pull it and press four minutes apart, so
+//      both stamp `held + 1`: they end on one value, in either meeting order;
+//  20. a tie between a removal and a live value ends removed on both, in either meeting order.
 // What an OLDER build does with these keys is proved on that build's own source: tests/artifacts/_old_settings_carry.mjs
 // (not collected: it reads git's own copy of each release, which a shallow CI checkout lacks).
 import { test } from 'node:test';
@@ -67,7 +76,7 @@ async function run(fn) {
   const drain = async () => { for (let i = 0; i < 8 && q.size; i++) { const jobs = [...q.values()]; q.clear(); for (const f of jobs) await f(); } };
   const flush = async () => { for (let i = 0; i < 6; i++) { await new Promise(r => setImmediate(r)); await drain(); } };
   const tick = (ms = 1000) => { clock += ms; };
-  try { await fn({ flush, tick, now: () => clock }); } finally { globalThis.setTimeout = oldSet; globalThis.clearTimeout = oldClear; Date.now = oldNow; }
+  try { await fn({ flush, tick, now: () => clock, at: (t) => { clock = t; } }); } finally { globalThis.setTimeout = oldSet; globalThis.clearTimeout = oldClear; Date.now = oldNow; }
 }
 const ACCOUNT = 'A';
 async function signedIn(cloud, flush, mem) {
@@ -253,6 +262,9 @@ test('12. the bound: at NG_MOD_CAP keys, removed ones counted, a new name is ref
   step(a, 'Move 1', 9);
   assert.equal(a._addMod('Move 1', 'Transition'), 'kept', 'a live name is kept');
   assert.equal(a.userMods.find(m => m.name === 'Move 1').pct, 59, 'with its odds');
+  pause(a, 'Move 1'); assert.equal(a.userMods.find(m => m.name === 'Move 1').on, false, 'premise: paused');
+  assert.equal(a._addMod('Move 1', 'Transition'), 'kept', 'Add on a paused name keeps it (the reader\'s N4)');
+  assert.deepEqual([a.userMods.find(m => m.name === 'Move 1').on, a.userMods.find(m => m.name === 'Move 1').pct], [true, 59], 'and turns it on, its odds kept');
   assert.equal(a._addMod('   ', 'Transition'), 'invalid'); assert.equal(a._addMod('x'.repeat(81), 'Transition'), 'invalid');
   assert.equal(a._addMod('x'.repeat(80), 'Transition'), 'full', 'eighty characters is a name (the bound refuses it here)');
 }));
@@ -313,3 +325,77 @@ test('16. storage full: the save fails as any save does, and the modifier still 
   assert.equal(a._progressStorageError, null, 'the next save, with room, goes through');
   assert.deepEqual(stored(mem).settings['mod:Kimura'].slice(0, 2), [51, 1]);
 }));
+
+// ── MODS1-R1: the sync reader's two fixes ──────────────────────────────────────────────────────────────────────────────────
+// TWO TABS OF ONE BROWSER on one account: one storage, one cloud. `aba` takes a key through the reader's sequence
+// (tabs301.mjs): both tabs hold `first`; T1 writes `second`; T2, unseen, writes `third` and then `second` again, and its two
+// pushes land OUT OF ORDER (the `third` one last); T1 pulls that cloud and saves (the cross-tab merge), then both tabs pull.
+async function aba(flush, tick, write, read) {
+  const cloud = new Map(), mem = memory();
+  const T1 = await signedIn(cloud, flush, mem);
+  tick(); write(T1.get(), 'first'); await flush();
+  const T2 = await signedIn(cloud, flush, mem);
+  assert.equal(read(T2.get()), read(T1.get()), 'premise: both tabs hold the first value');
+  tick(); write(T1.get(), 'second'); await flush();
+  tick(); write(T2.get(), 'third'); await flush();
+  const late = clone(cloud.get(ACCOUNT));                              // T2's push of `third`, still in flight
+  tick(); write(T2.get(), 'second'); await flush();
+  cloud.set(ACCOUNT, late);                                            // ...lands after its push of `second`
+  tick(); await sync(T1, flush);
+  // what T1 holds right after that save, before any further pull: for a modifier the tie rule (20) would also heal a stale
+  // value left under the removal's stamp at the NEXT pull, so this is the read that pins the cross-tab fix itself
+  const atSave = read(T1.get()), storedAtSave = JSON.stringify(stored(mem).settings);
+  for (let r = 0; r < 3; r++) { tick(30000); await sync(T1, flush); await sync(T2, flush); }
+  return { T1, T2, cloud, mem, atSave, storedAtSave };
+}
+test('17. two tabs, A→B→A: a removal stands in both tabs, in storage and in the cloud (the sync reader\'s F1)', () => run(async ({ flush, tick }) => {
+  const K = 'Rear Naked Choke';
+  const write = (app, which) => which === 'first' ? app._addMod(K, 'Submission') : which === 'second' ? remove(app, K) : step(app, K, 1);
+  const read = (app) => JSON.stringify(app.settings['mod:' + K]);
+  const { T1, T2, cloud, mem, atSave } = await aba(flush, tick, write, read);
+  assert.equal(atSave, '0', 'T1 holds the removal from the save itself (the old store kept 51% under the removal\'s stamp)');
+  assert.deepEqual(shown(T1.get()), [], 'T1 shows it removed (it showed 51% for good)');
+  assert.deepEqual(shown(T2.get()), []);
+  assert.equal(stored(mem).settings['mod:' + K], 0, 'storage holds the removal');
+  assert.equal(cloudMods(cloud)['mod:' + K], 0, 'and so does the cloud');
+  assert.equal(T1.get()._settingsAt['mod:' + K], T2.get()._settingsAt['mod:' + K], 'under one stamp');
+}));
+test('18. two tabs, A→B→A, an ORDINARY setting: one value in both tabs (dev kept 35 in one and 25 in the other)', () => run(async ({ flush, tick }) => {
+  const val = { first: 25, second: 30, third: 35 };
+  const write = (app, which) => app.set('dailyGoal', val[which]);
+  const read = (app) => app.get('dailyGoal');
+  const { T1, T2, cloud, mem, atSave } = await aba(flush, tick, write, read);
+  assert.equal(atSave, 30, 'T1 holds the latest value from the save itself');
+  assert.equal(read(T1.get()), 30, 'T1 holds the latest value');
+  assert.equal(read(T2.get()), 30);
+  assert.equal(stored(mem).settings.dailyGoal, 30); assert.equal(cloud.get(ACCOUNT).settings.dailyGoal, 30);
+}));
+// THE TIE: device C runs an hour ahead and presses; A and B, on time, pull it, then each press four minutes apart. Each
+// stamps one past the stamp it holds: the same stamp. `first` says which of A and B meets the other's value first.
+async function tie(flush, tick, now, at, pressA, pressB, first) {
+  const cloud = new Map(), A = await signedIn(cloud, flush), B = await signedIn(cloud, flush), C = await signedIn(cloud, flush);
+  const t0 = now();
+  at(t0 + 3600000); C.get()._addMod('Armbar from Mount', 'Transition'); await flush();
+  at(t0 + 1000); await sync(A, flush); await sync(B, flush);
+  pressA(A.get()); await flush();
+  at(t0 + 1000 + 240000); pressB(B.get()); await flush();
+  assert.equal(A.get()._settingsAt['mod:Armbar from Mount'], B.get()._settingsAt['mod:Armbar from Mount'], 'premise: one stamp on both');
+  const [x, y] = first === 'A' ? [A, B] : [B, A];
+  for (let r = 0; r < 4; r++) { tick(30000); await sync(x, flush); await sync(y, flush); await sync(C, flush); }
+  return { A, B, C, cloud };
+}
+for (const first of ['A', 'B']) {
+  test('19. an equal stamp: two on-time devices behind a clock an hour ahead end on one value (' + first + ' meets first)', () => run(async ({ flush, tick, now, at }) => {
+    const { A, B, C, cloud } = await tie(flush, tick, now, at, (a) => step(a, 'Armbar from Mount', 15), (b) => step(b, 'Armbar from Mount', 5), first);
+    const want = JSON.stringify([55, 1, 'T', cloudMods(cloud)['mod:Armbar from Mount'][3]]);   // [55…] < [65…] as JSON
+    for (const [n, d] of [['A', A], ['B', B], ['C', C]]) assert.equal(JSON.stringify(d.get().settings['mod:Armbar from Mount']), want, n + ' holds the tie\'s one winner');
+    assert.equal(JSON.stringify(cloudMods(cloud)['mod:Armbar from Mount']), want, 'and so does the cloud');
+    await quiet([A, B, C], flush);
+  }));
+  test('20. a tie between a removal and a live value ends removed on both (' + first + ' meets first)', () => run(async ({ flush, tick, now, at }) => {
+    const { A, B, C, cloud } = await tie(flush, tick, now, at, (a) => step(a, 'Armbar from Mount', 15), (b) => remove(b, 'Armbar from Mount'), first);
+    for (const [n, d] of [['A', A], ['B', B], ['C', C]]) assert.deepEqual(shown(d.get()), [], n + ': removed');
+    assert.equal(cloudMods(cloud)['mod:Armbar from Mount'], 0);
+    await quiet([A, B, C], flush);
+  }));
+}

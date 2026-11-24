@@ -750,3 +750,21 @@ test("M5. a modifier set signed out after a join joins at the next sign-in; the 
   assert.deepEqual(a.userMods.map((m) => [m.name, m.pct]), [["Kimura", 75], ["Darce Choke", 53]], "the new one joins; the account's Kimura stays 75");
   assert.deepEqual(h.said, [], "only modifiers: nothing said");
 });
+
+test("M6. the join is bounded too: the account's keys count first, the guest's join only while it holds fewer than 200 (MODS1-R1)", async () => {
+  // an account at 199 keys (some removed), a guest with three new ones: exactly one joins, the first in the list's order
+  const keys = (n) => { const settings = {}, settingsAt = {}; for (let i = 0; i < n; i++) { settings["mod:Acct " + i] = i % 3 ? [40, 1, "T", i + 1] : 0; settingsAt["mod:Acct " + i] = 10 + i; } return { settings, settingsAt }; };
+  for (const [n, joins] of [[199, ["mod:Guest a"]], [200, []]]) {
+    const h = harness(); await h.boot();
+    const g = h.get(); for (const name of ["Guest a", "Guest b", "Guest c"]) g._addMod(name, "Submission"); g._flushSave();
+    const before = JSON.stringify([h.host.store.read(GUEST).blob.settings, h.host.store.read(GUEST).blob.settingsAt]);
+    h.cloud.set("A", { v: 2, updatedAt: 5, ...keys(n) });
+    const a = await h.signIn("A");
+    const mine = Object.keys(modsOf(accountBlob(h, A)));
+    assert.equal(mine.length, Math.min(200, n + 3), n + ": the account holds " + mine.length + " keys");
+    assert.deepEqual(mine.filter((k) => k.startsWith("mod:Guest")), joins, n + ": the guest's that joined");
+    assert.equal(JSON.stringify([h.host.store.read(GUEST).blob.settings, h.host.store.read(GUEST).blob.settingsAt]), before, n + ": the guest copy keeps all three: the rest stay there");
+    assert.deepEqual(h.said, [], n + ": nothing said");
+    assert.equal(a.userMods.length, mine.filter((k) => modsOf(accountBlob(h, A))[k] !== 0).length, n + ": the list shows the live ones");
+  }
+});

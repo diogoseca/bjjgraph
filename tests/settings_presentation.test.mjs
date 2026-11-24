@@ -487,7 +487,7 @@ test("the modifiers' panel: a stored name is text, never markup; at the bound a 
   const press = (text) => { const b = panel.querySelectorAll("button").find((x) => x.textContent.trim() === text); assert.ok(b, text); b.click(); };
   press("+ Add modifier"); panel.querySelectorAll("input").find((x) => x.placeholder === "Technique name").value = "Move 999"; press("Add modifier");
   assert.equal("mod:Move 999" in app.settings, false, "a new name past the bound writes nothing");
-  assert.equal(panel.querySelector("[data-mod-full]").textContent, "You can keep odds for up to 200 techniques, counting ones you removed.");
+  assert.equal(panel.querySelector("[data-mod-full]").textContent, "You have used all 200 slots for odds, counting ones you removed. Edit an existing one, or add back one you removed.", "the bound, said as it is (MODS1-R1 5)");
   assert.equal(panel.querySelectorAll("input").find((x) => x.placeholder === "Technique name").value, "Move 999", "the typed name stays in the field");
   panel.querySelectorAll("input").find((x) => x.placeholder === "Technique name").value = "Move 1"; press("Add modifier");
   assert.deepEqual(app.settings["mod:Move 1"].slice(0, 2), [50, 1], "a removed name comes back at the bound");

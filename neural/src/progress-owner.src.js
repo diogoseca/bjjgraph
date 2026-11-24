@@ -350,7 +350,7 @@ export function ngProgressJournalAfter(journal, replay, drop) {
 //      room or while the account already holds it; at the cap it is not joined (its rolls stay in the guest copy).
 //   4. the guest's modifiers, "Your odds" (v1.301.0, MODS1), are the one setting that moves, and only into a technique the
 //      account has no key for, live or removed: the account wins on a clash (`ngProgressGuestMerge`; the part keeps the
-//      guest's live keys, `ngProgressGuestPart`). They are not practice: a copy holding only modifiers joins them and says
+//      guest's live keys, `ngProgressGuestPart`); and only while the account holds fewer than NG_MOD_CAP keys (MODS1-R1). They are not practice: a copy holding only modifiers joins them and says
 //      nothing (`joinGuest`'s `quiet`, ruling 2 a). tests/guest_join_safety.test.mjs M1 to M5.
 // Every other field of that merge already only adds (prep/rec/stage/days MAX, belts.held MAX and won union,
 // badges/coins/explored/tut union, challenges MAX progress, lists add-wins). Units, `belts.won` records, `dayLog.w` and
@@ -376,7 +376,8 @@ export function ngProgressJournalAfter(journal, replay, drop) {
 // A KEY IS NEVER DELETED (CLAUDE.md §6.6: the settings merge has no tombstone, so a deleted key comes back from the next pull;
 // the 0 IS the tombstone). tests/mods_sync.test.mjs; tests/artifacts/_old_settings_carry.mjs runs the older builds' classes.
 // THE BOUND: a name of at most NG_MOD_NAME_MAX characters, and at most NG_MOD_CAP keys, live and removed together. A NEW name
-// past it is refused at Add; a removed name comes back under its own key, so it always can. Two devices adding at once can
+// past it is refused at Add, for good on that account (no slot ever frees: a key is never deleted), and the line says so;
+// a removed name comes back under its own key, so it always can. Two devices adding at once can
 // merge past the cap, and nothing is trimmed then (a trim is a delete). THE READ NEVER THROWS: a value that is not a live row
 // reads as removed, a name that breaks the bound is skipped; both are counted (`bad`), so a damaged key never stops a load.
 // The order is `born`, then the name (a strict total order, its last key content: every device shows one order, and a press
@@ -401,6 +402,16 @@ export function ngModsRead(settings) {
   }
   mods.sort((a, b) => a.born - b.born || (a.name < b.name ? -1 : a.name > b.name ? 1 : 0));
   return { mods, keys, bad };
+}
+// AN EQUAL STAMP ON A `mod:` KEY (v1.301.0, MODS1-R1, the sync reader's F2): REACHABLE. A press stamps one past the newest
+// stamp its device holds (`ngModStamp`), so two devices whose clocks are behind that stamp both write `held + 1` (the reader:
+// one device an hour ahead presses, two on-time devices pull it and press four minutes apart, and end at 65% and 55% for
+// good). The settings merge keeps the local value on a tie, so they never agreed. For these keys only, a tie is decided the
+// same way on every device: a removal (0) wins, and between two live values the smaller JSON string. Every other setting
+// keeps today's rule. Does the cloud's value take the local one's place on that tie?
+export function ngModTieTakes(local, cloud) {
+  const rank = (v) => (v === 0 ? "0" : "1" + JSON.stringify(v));
+  return rank(cloud) < rank(local);
 }
 // a press's stamp: later than any this device holds for that key, one from a clock that runs ahead included (else the press
 // would lose to it at the next merge, as a list move once did: tests/list_moves_sync.test.mjs 18); a damaged stamp (not a
@@ -639,9 +650,16 @@ export function ngProgressGuestMerge(merge, live, guestBlob, flowCap = NG_FLOW_C
   // 4. the guest's modifiers join only where the ACCOUNT has no key for that technique, live or removed (v1.301.0, MODS1,
   // the orchestrator's lean, ruled): the account wins on a clash, whatever the stamps. The account's keys are the cloud's
   // too, because the join runs only after a successful pull; the merge then takes each remaining key as the account lacks it
+  // ...and only while the account is under NG_MOD_CAP keys, removed ones counted (MODS1-R1, the sync reader: an account at
+  // 200 went to 201 at a join). The account's own keys count first; the guest's join in the list's own order (`born`, then
+  // the name) until the account holds 200; the rest stay on the guest copy, untouched.
   if (ngProgressObject(part.settings)) {
     const held = live && ngProgressObject(live.settings) ? live.settings : {};
     for (const k of Object.keys(part.settings)) if (Object.prototype.hasOwnProperty.call(held, k)) { delete part.settings[k]; delete part.settingsAt[k]; }
+    let room = NG_MOD_CAP - Object.keys(held).filter((k) => k.startsWith(NG_MOD_PREFIX)).length;
+    const joins = new Set();
+    for (const m of ngModsRead(part.settings).mods) if (room > 0) { room--; joins.add(NG_MOD_PREFIX + m.name); }
+    for (const k of Object.keys(part.settings)) if (!joins.has(k)) { delete part.settings[k]; delete part.settingsAt[k]; }
     if (!Object.keys(part.settings).length) { delete part.settings; delete part.settingsAt; }
   }
   const combined = merge(live, part);
@@ -880,7 +898,21 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       // A change in unrelated evidence is not a concurrent edit of this field.
       // Preserve ordinary local deletes/resets when that field on disk still equals
       // our observed base. Concurrent edits of the SAME field retain existing merge policy.
+      // NOT `settings` AND `settingsAt` (v1.301.0, MODS1-R1, the sync reader's F1). Taken one field at a time they came apart:
+      // when the other tab's writes took a value A→B→A, the stored `settings` equalled this tab's base again while
+      // `settingsAt` did not, so this tab's stale value was kept under the newer stamp, and a tie keeps the local copy: the
+      // two tabs never agreed (dev's `dailyGoal` stuck at 35 in one tab and 25 in the other; a removed modifier came back).
+      // They need nothing from this loop: each key carries its own stamp, which the merge above already decides by, and no
+      // settings key is ever deleted (CLAUDE.md §6.6), so there is no local removal to preserve.
+      // Every other field still needs it: its merge can only ADD, so a removal made here would come back from the other
+      // tab's copy. prep, rec, stage, days, rollDays: per-key MAX (a stale grade's prune, `_pruneStaleGrades`); srs, moves:
+      // per-row recency (a pruned row); units, tut, challenges, badges, coins, belts: union or MAX; lists: add-wins (a
+      // deleted list or a removed item); listItemAt, listOrderAt: the cells and records (their trims at the caps); flow:
+      // per-partition MAX (its window and cap trims); dayLog: per-day union (its 30-day trim); explored: a union. openAt
+      // (MIN) and recallCarry (OR) have no removal, and keeping them whole here is harmless.
+      // tests/mods_sync.test.mjs 17 and 18 (a modifier, then an ordinary setting, through the A→B→A sequence).
       for (const key of new Set([...Object.keys(base), ...Object.keys(live)])) {
+        if (key === "settings" || key === "settingsAt") continue;
         if (JSON.stringify(saved.blob[key]) === JSON.stringify(base[key])
           && JSON.stringify(live[key]) !== JSON.stringify(base[key])) {
           if (Object.prototype.hasOwnProperty.call(live, key)) combined[key] = ngProgressClone(live[key]);

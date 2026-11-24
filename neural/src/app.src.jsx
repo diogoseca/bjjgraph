@@ -8355,8 +8355,9 @@ class Component extends DCLogic {
       const cancel = this.segBtn("Cancel", false, false, () => { this._addModOpen = false; this._modFull = false; this._modFullName = ""; this.buildModifiers(host); });
       acts.appendChild(cancel); acts.appendChild(save);
       form.appendChild(inp);
-      // THE BOUND (MODS1 ruling 4): a NEW name past NG_MOD_CAP keys, removed ones counted, is refused with this line
-      if (this._modFull) { const full = document.createElement("div"); full.setAttribute("data-mod-full", "1"); full.style.cssText = "font-size:12px;color:#e8956b;line-height:1.4;"; full.textContent = "You can keep odds for up to " + NG_MOD_CAP + " techniques, counting ones you removed."; form.appendChild(full); }
+      // THE BOUND (MODS1 ruling 4): a NEW name past NG_MOD_CAP keys, removed ones counted, is refused with this line. It is
+      // for good on that account (a key is never deleted, so no slot ever frees), and the words say so (MODS1-R1 5)
+      if (this._modFull) { const full = document.createElement("div"); full.setAttribute("data-mod-full", "1"); full.style.cssText = "font-size:12px;color:#e8956b;line-height:1.4;"; full.textContent = "You have used all " + NG_MOD_CAP + " slots for odds, counting ones you removed. Edit an existing one, or add back one you removed."; form.appendChild(full); }
       form.appendChild(cats); form.appendChild(acts);
       host.appendChild(form);
       setTimeout(() => { try { inp.focus(); } catch (e) {} }, 50);
@@ -8695,7 +8696,8 @@ class Component extends DCLogic {
           for (const sk in cloud.settings) {
             const ct = cAt[sk] != null ? cAt[sk] : cBlob;      // pre-per-key clouds fall back to the blob ts
             const lt = lAt[sk] != null ? lAt[sk] : localAt;
-            if (!(sk in merged) || ct > lt) { merged[sk] = cloud.settings[sk]; mAt[sk] = ct; }
+            // ...and an equal stamp on a modifier's key decided the same on every device (MODS1-R1; `ngModTieTakes`)
+            if (!(sk in merged) || ct > lt || (ct === lt && sk.startsWith(NG_MOD_PREFIX) && ngModTieTakes(merged[sk], cloud.settings[sk]))) { merged[sk] = cloud.settings[sk]; mAt[sk] = ct; }
           }
           this.settings = merged; this._settingsAt = mAt;
 
