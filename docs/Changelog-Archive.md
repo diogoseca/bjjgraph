@@ -21604,5 +21604,24 @@ is exactly what "Add to…" makes, and in the ordinary case that record has no c
   privacy page built before its 12 Nov content change; `bundle-version` 1: the stamp only a full build writes). They are
   red the same way on dev's own sources in that site (v1.298.1's control).
 
+**ADD1-R1 (24 Nov 2026; the lists reader of PR #458, MERGE AFTER 2 FIXES, both in the Undo, and one unpinned path).**
+- **Never the last list.** If another device moved the same item from the source into the same target, a pull can leave
+  it standing only in the target, and the Undo then took it out of every list: a real loss, 9 of 12,000 fuzzed runs. Now
+  the Undo does nothing in that case and the row says, for 5 s: "Kept in “<list>”: it is in no other list now." Unit 28
+  pins it in both meeting orders, with a fresh device finding the item. 28b: when the item was moved into a third list,
+  the Undo is taken.
+- **The out cell in every branch.** The new-list branch and the emptied branch deleted the list without the cell, so a
+  device that had pulled the add brought both back (add-wins). The cell is now written first, before any delete. The
+  target then follows `removeFromList`'s emptied-list rule (deleted at once, its light off), with no case of its own for a
+  list the add made (the orchestrator's ruling). Unit 29, both orders: a plain new list is gone on both; one renamed on the
+  other device, holding only the item, is gone on both; one the other device added a technique to keeps that one only.
+- **The add mode's keys** are pinned by the twin of the move's key journey.
+- **A cost noted at the Undo, not new:** another device's later add to the target, made without pulling first, is undone
+  on both, as a move's Undo does on dev today.
+- **Mutants**, each red after a green control: R1 (the guard removed) at 28, R2 (no cell when emptied) at 29, D5 (no keys)
+  at "focus is in the add menu"; D1 to D4 again at their steps.
+
+**Bytes after ADD1-R1:** eager gzip 385,483 B (+1,204 on PAY-L5); first-hand core 404,940 B; deferred unchanged.
+
 **Bytes** (the served app folders emptied first, against PAY-L5): eager gzip 385,372 B, +1,093 (+577 on v1.298.1);
 first-hand core 404,836 B; deferred unchanged (560,576 B, its ceiling).
