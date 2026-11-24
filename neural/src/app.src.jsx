@@ -12713,10 +12713,6 @@ class Component extends DCLogic {
       chev.style.cssText = "flex:none;display:inline-flex;align-items:center;justify-content:flex-end;pointer-events:auto;cursor:pointer;font-family:inherit;border:0;background:transparent;color:#5d6883;border-radius:7px;" + (thumb ? "width:44px;height:44px;padding:0 12px 0 0;margin-right:-22px;" : "width:24px;height:24px;padding:0;margin-right:-10px;");
       chev.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this._toggleListOpen(id); });
       row.appendChild(chev);
-      // SAVE1: the guest's first list says, on its own row, where it is kept (a moment: it takes the one slot), once it holds
-      // a technique: an EMPTY list is not kept anywhere (`ngListsNormalize` drops it at the next load), so saying it is kept
-      // here would be untrue until then
-      if (id === this._saveListId && l.items.length) { const sl = this._saveLineFor("list", "Kept in this browser only.", true); if (sl) row.appendChild(sl); }
       // ── the disclosure body: the techniques themselves ──
       // A CHILD of the row (which is flex-wrap), not a sibling, so the list reads as one card
       // and Drill / Share / × keep their own line above it. No overflow of its own: the pane
@@ -12760,6 +12756,11 @@ class Component extends DCLogic {
       });
       row.addEventListener("drop", (e) => this._listDrop(e, id));
       body.appendChild(row);
+      // SAVE1: the guest's first list says, under its own row, where it is kept (a moment: it takes the one slot), once it
+      // holds a technique: an EMPTY list is kept nowhere (`ngListsNormalize` drops it at the next load), so saying it is kept
+      // here would be untrue until then. A SIBLING of the row, never inside it: the row is one line, and every point of it
+      // that is not a control opens or shuts the list (lists-menu.spec.ts pins both), which a line inside it broke.
+      if (id === this._saveListId && l.items.length) { const sl = this._saveLineFor("list", "Kept in this browser only.", true); if (sl) body.appendChild(sl); }
     }
     list.appendChild(sec);
     // give the disclosure toggle its focus back after the re-render it caused (keyboard only —

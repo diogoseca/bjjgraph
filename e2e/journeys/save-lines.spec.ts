@@ -86,7 +86,9 @@ async function closeDrawer(page: Page, touch: boolean) {
 /** a line's two controls are 44 px targets: the control itself answers 21 px from its centre, each way */
 async function reach(page: Page, sel: string) {
   return page.evaluate((s) => {
-    const el = document.querySelector(s) as HTMLElement, r = el.getBoundingClientRect(), cx = r.left + r.width / 2, cy = r.top + r.height / 2
+    const el = document.querySelector(s) as HTMLElement
+    el.scrollIntoView({ block: "center" })   // on a 631 px phone the line can sit under the fold: measured where he scrolls to it
+    const r = el.getBoundingClientRect(), cx = r.left + r.width / 2, cy = r.top + r.height / 2
     const is = (x: number, y: number) => { const t = document.elementFromPoint(x, y); return !!t && (t === el || el.contains(t)) }
     return [is(cx, cy - 21), is(cx, cy + 21), is(cx - 21, cy), is(cx + 21, cy)]
   }, sel)
@@ -164,7 +166,7 @@ for (const v of VIEWS) test(`list (${v.name}): his first list says where it is k
     const a = (window as W).__neural, id = a.listsArray()[0], n = a.nodes.find((x: W) => /^Transitions\//.test(x.id)) || a.nodes[40]
     a.addToList(n.id, id); a._expandList(id); a._refreshListSurfaces()
   })
-  await expect(page.locator('[data-list-row] [data-save-line="list"]')).toBeVisible()
+  await expect(page.locator(`[data-list-row] + [data-save-line="list"]`), "under the first list's own row").toBeVisible()
   expect(await lines(page), "one line at a time: the list's took the belt's place").toEqual([{ kind: "list", text: "Kept in this browser only.", shown: true }])
   for (const c of ['[data-save-line="list"] [data-save-line-save]', '[data-save-line="list"] [data-save-line-x]']) expect(await reach(page, c), c + ": a 44 px target").toEqual([true, true, true, true])
   // a second list is not his first: no line of its own
