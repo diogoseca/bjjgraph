@@ -745,11 +745,12 @@ EXAMPLES:
 ✗ WRONG: {"name": "Positions/Ashi Garami/Honey Hole", "content_type": "Position"}
 """
 
+# ARCHETYPES, NEVER NAMED PEOPLE (CARD1-S1a; the owner's rule): the three perspectives were three real coaches until v1.301.4.
 EXPERT_GUIDELINES = """
 EXPERT GUIDELINES:
-1. John Danaher Perspective: Emphasize systematic technical precision, biomechanical analysis, and theoretical frameworks
-2. Gordon Ryan Perspective: Focus on high-percentage techniques, competition-proven methods, and winning strategies
-3. Eddie Bravo Perspective: Include innovative variations, 10th Planet methodology, and creative applications
+1. Systems-coach perspective: Emphasize systematic technical precision, biomechanical analysis, and theoretical frameworks
+2. Competition-coach perspective: Focus on high-percentage techniques, competition-proven methods, and winning strategies
+3. Innovator perspective: Include innovative variations, alternative no-gi systems, and creative applications
 
 CRITICAL DESCRIPTION RULES:
 - Write descriptions in your own expert voice
@@ -781,6 +782,12 @@ REQUIREMENTS:
 # DOMAIN-SPECIFIC PROMPTS
 # =============================================================================
 
+# FLASHCARDS ARE ADDED, NEVER REWORDED (CARD1-S1a, v1.301.4; the orchestrator's ruling on CARD1). A card's progress (its
+# grade and its review schedule, for every player) is keyed by a hash of its exact question text, so a reworded question
+# resets that card for everyone, and the old row is left behind for good (DUE1, CARD1: the v1.182.2 rewrite orphaned
+# 10,679 questions). Until the card key ships (CARD1 slice 2: a card keeps its key through a rewording), every flashcards
+# section below tells the bot to KEEP each existing question character for character and only ADD, with new questions at
+# a soft 70 characters (the schema's hard 100 stays). Pinned by tests/content_bot_prompts.test.mjs.
 # EVERY *_PROMPT below is a str.format TEMPLATE: `{name}` is a substitution and a
 # literal brace must be DOUBLED. A single `{` in prose does not fail at import — it
 # fails inside build_prompt, on every file of that category, with the unhelpful
@@ -818,7 +825,10 @@ POSITION_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor
 - `attempt_probability` is `{{"gi": N, "nogi": N}}`. A null cell means this move DOES NOT EXIST in that ruleset, which is NOT the same as 0 (exists, ~never attempted): keep every null exactly where it is, never fill one in, and never null one that carries a number.
 - Do NOT invent transitions that lack a content file; only adjust probabilities across the existing set.
 
-### 3. Add/Improve flashcards (8-12 Q&A pairs)
+### 3. Add flashcards (8-12 Q&A pairs in all)
+- KEEP every existing flashcard's `question` EXACTLY as it is written, character for character: never reword, shorten, merge, split or delete an existing question. A changed question resets every player's progress on that card. You may correct an existing card's `answer`.
+- ADD new flashcards only to bring the deck to 8-12 in all.
+- Each NEW question: one clear question, 70 characters or fewer where the meaning holds, never over the schema's 100.
 **Focus: RETENTION (maintaining this stable position)**
 
 **Mix of question types (50/50):**
@@ -924,7 +934,10 @@ Transitions model THREE types of technique attempts. Classify this transition co
 - `outcomes[].to` MUST reference existing Position names (from the valid references list) or "game-over"
 - Only Type A transitions may have "game-over" in outcomes
 
-### 3. Add/Improve flashcards (8-12 Q&A pairs)
+### 3. Add flashcards (8-12 Q&A pairs in all)
+- KEEP every existing flashcard's `question` EXACTLY as it is written, character for character: never reword, shorten, merge, split or delete an existing question. A changed question resets every player's progress on that card. You may correct an existing card's `answer`.
+- ADD new flashcards only to bring the deck to 8-12 in all.
+- Each NEW question: one clear question, 70 characters or fewer where the meaning holds, never over the schema's 100.
 **Focus: EXECUTION (performing the motion)**
 
 **Mix of question types (50/50):**
@@ -1003,7 +1016,10 @@ Submissions MUST have:
 
 Probabilities MUST sum to 100%.
 
-### 3. Add/Improve flashcards (8-12 Q&A pairs)
+### 3. Add flashcards (8-12 Q&A pairs in all)
+- KEEP every existing flashcard's `question` EXACTLY as it is written, character for character: never reword, shorten, merge, split or delete an existing question. A changed question resets every player's progress on that card. You may correct an existing card's `answer`.
+- ADD new flashcards only to bring the deck to 8-12 in all.
+- Each NEW question: one clear question, 70 characters or fewer where the meaning holds, never over the schema's 100.
 **Focus: FINISHING (mechanics that cause the tap)**
 
 **Mix of question types (50/50):**
@@ -1103,6 +1119,8 @@ PRINCIPLES_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instruct
 
 ### 5. Author flashcards (6-12 Q&A pairs — REQUIRED for the training deck)
 - Add a `flashcards` array of 6-12 {{question, answer}} pairs covering recognition, application, key mechanics, and common errors of this principle.
+- KEEP every existing flashcard's `question` EXACTLY as it is written, character for character: never reword, shorten, merge, split or delete an existing question. A changed question resets every player's progress on that card. You may correct an existing card's `answer`.
+- ADD new flashcards only to bring the deck to 6-12 in all. Each NEW question: one clear question, 70 characters or fewer where the meaning holds, never over the schema's 100.
 - Each `answer` must be 50+ characters and self-contained; each `question` ends with "?".
 
 ## Valid References by Category (ONLY use names from these lists):
