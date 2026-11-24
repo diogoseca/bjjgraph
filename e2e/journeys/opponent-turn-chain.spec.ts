@@ -30,6 +30,7 @@ import { journey } from "../dsl";
  *   C8 the rule gone for every light (`running` never true)   → tests/map_light.test.mjs, "out at once when the game starts again…"
  *   C9 the sentence's result word fixed to "It lands"        → "S3 …" at "it fails: you stay"
  *   C10 the article not stepped back                         → "S4 …" at "the article steps back"
+ *   C11 the landing hides the sentence's last line            → "S3 …" at "the last line stays, SHOWN"
  * NOT A MUTANT HERE: the drill's window with his leg capped is a premise-checked measure (cold page, CPU x4, the shortest
  * leg); a mutant that made the deck late would be a mutant of the prefetch, which this change does not touch.
  */
@@ -49,6 +50,7 @@ const snap = (page: Page) => page.evaluate(() => {
     chain: a._lastChain ? { k: a._lastChain.k, legs: a._lastChain.legs } : null,
     light: a._lastLight ? { chain: !!a._lastLight.chain, place: a._lastLight.place ? a._lastLight.place.idx ?? a._lastLight.place : null } : null,
     names: (a._lastNameBoxes || []).filter((b: W) => b.w === "chain").map((b: W) => ({ i: b.i, l: b.l, r: b.r, t: b.t, b: b.b })),
+    bannerShown: a.evRef.current ? +getComputedStyle(a.evRef.current).opacity : null,
     banner: ev ? { b: ev.bottom - cv.top, clipped: !!a.evTextRef.current && a.evTextRef.current.scrollWidth > a.evTextRef.current.clientWidth + 1 } : null,
     stepBack: !!a._readerEl && a._readerEl.hasAttribute("data-ng-step-back"),
     articleOpacity: (() => { const e = document.querySelector(".ng-reader-article") as HTMLElement | null; return e ? +getComputedStyle(e).opacity : null; })(),
@@ -178,7 +180,9 @@ for (const [w, h, touch] of [[1440, 900, false], [1048, 773, false], [390, 631, 
         for (const L of f.chain.legs) expect(Math.min(L.y1, L.y2), "the banner's lines clear the chain").toBeGreaterThan(f.banner.b);
       }
       await j.advance(2000);
-      expect((await snap(page)).text, "the last line stays while he looks").toBe("It lands: you are in Closed Guard, bottom");
+      await page.waitForTimeout(400);   // the announcer's own opacity transition runs on the page's clock
+      const kept = await snap(page);
+      expect([kept.text, kept.bannerShown], "the last line stays, SHOWN, while he looks (C11)").toEqual(["It lands: you are in Closed Guard, bottom", 1]);
     });
   });
 }

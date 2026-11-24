@@ -21115,8 +21115,14 @@ class Component extends DCLogic {
     // owner's "grow 50-100% more" would be visible for one frame and then undone.
     this.flare(this._stagedTech ? this._stagedTech.idx : this.currentPos, this.ARRIVE_BLOOM);
     if (!first) {
-      // HUD + marker communicate the landing; clear any stale action toast (no duplicate position text)
-      if (this.evRef.current) this.evRef.current.style.opacity = "0";
+      // HUD + marker communicate the landing; clear any stale action toast (no duplicate position text). EXCEPT THE
+      // OPPONENT'S SENTENCE'S LAST LINE (OPP1, S3; the orchestrator's point 6: "the banner's last line stays until his next
+      // press"): "It fails: you stay in Butterfly Guard, bottom" was written just before this landing (`_chainLine`, on his
+      // arrival) and stays until the player's own next line replaces it; hidden here, it would only ever have shown for
+      // the 0.6 s before the hand.
+      const kept = this._chainSaidAt != null && this.now - this._chainSaidAt <= 1;
+      this._chainSaidAt = null;
+      if (this.evRef.current && !kept) this.evRef.current.style.opacity = "0";
     }
     this.setStatus(pos);
     const hkey = this.deckKeyFor(pos).key;
@@ -22630,6 +22636,7 @@ class Component extends DCLogic {
         const word = draw ? ({ success: "It lands", failure: "It fails", counter: "It is countered" }[draw.result] || "It lands") : "It lands";
         const dn = this.nodes[this.currentPos], where = caught ? "you are caught in " + caught.t : (this.currentPos === path[0] ? "you stay in " : "you are in ") + this.graphName(dn) + ", " + this.playerRole;
         this._chainLine("Opponent goes for " + defNode.t, word + ": " + where, this.myVal(dn) - before >= 0 ? "good" : "bad");
+        this._chainSaidAt = this.now;   // the sentence's last line: the landing keeps it (enterLand)
       }
       if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
       else this.after(0.6, () => this.enterLand(false, false, arrival));
