@@ -14900,14 +14900,40 @@ class Component extends DCLogic {
   /** Cards past due and NOT yet reviewed today — `last < today` is what lets a failed card leave
    *  the pool until tomorrow. Returns [{key, qh}]; `dueCount()` dedupes by qhash (one FACT due
    *  once, however many decks carry it). */
+  // A ROW KNOWN RETIRED IS NOT DUE (DUE1, v1.301.2; the orchestrator's DUE1-GO). A question a content pass reworded or retired
+  // keeps its schedule row for good (nothing deletes one: `_pruneStaleGrades` heals the grades only, and the cloud merge keeps
+  // every row), so it came due on its ladder, could never be asked, and was counted for ever: measured, 10,679 of the 21,199
+  // questions a player could hold rows for before v1.182.2 are in no deck on dev (reports/mapshows.md, DUE1). A row is skipped
+  // only when the app KNOWS its question is gone (`_rowLive` false); a row not known yet stays counted, as the rating counts it.
+  // Nothing stored changes. Pinned by tests/due_count_live.test.mjs (equal to what the planner can ask) and
+  // e2e/journeys/due-count-retired.spec.ts (the drawer's dot and "Everything owed").
   duePool() {
     const today = this._epochDay();
     const out = [];
     for (const dk in this.srs || {}) {
       const m = this.srs[dk];
-      for (const qh in m) { const e = m[qh]; if (e && e[0] <= today && e[2] < today) out.push({ key: dk, qh: qh }); }
+      for (const qh in m) { const e = m[qh]; if (e && e[0] <= today && e[2] < today && this._rowLive(dk, qh) !== false) out.push({ key: dk, qh: qh }); }
     }
     return out;
+  }
+  /** CAN A DUE ROW'S QUESTION STILL BE ASKED? true, false (retired), or null (not known yet), read per QUESTION as the planner
+   *  files one (`ngPracticeItems`: a question asked at its home deck with the latest of its rows, wherever they sit), with
+   *  the rating's own three-way test for each deck (`ngRatingShare`'s `isLive`, the queue's `liveIn`, PR #405). A shared
+   *  question is live while the manifest's index lists it: the planner asks it at its home deck even when the due row sits
+   *  in a deck the index no longer lists (the rating, reading per row, would book that row retired; DUE1-BUILD says so). Any
+   *  other question: a deck the manifest no longer has, false (the rating's `unknownDeck`); a loaded deck's own cards say it
+   *  outright; an unloaded deck's live set does (`_ratingLiveNow`, 16 bits). Before the manifest is in, nothing is known. */
+  _rowLive(dk, qh) {
+    const decks = this.flashcards && this.flashcards.decks;
+    if (!decks) return null;
+    const S = this._sharedQ && this._sharedQ.get(qh);
+    if (S) return S.some((k) => !!decks[k]);
+    const d = decks[dk];
+    if (!d) return false;
+    const cards = this._cardsOf(d);
+    if (cards) return cards.some((c) => c.q && this.qhash(c.q) === qh);
+    const L = this._ratingLiveNow(), set = L && L.status === "ok" && L.decks instanceof Map ? L.decks.get(dk) : null;
+    return set ? set.has(ngRatingQ16(qh)) : null;
   }
   dueCount() { const seen = new Set(); for (const e of this.duePool()) seen.add(e.qh); return seen.size; }
   /**
