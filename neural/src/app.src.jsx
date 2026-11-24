@@ -8221,7 +8221,9 @@ class Component extends DCLogic {
     const head = document.createElement("div");
     head.style.cssText = "display:flex;align-items:center;justify-content:space-between;margin-bottom:13px;";
     const active = this.userMods.filter((m) => m.on).length;
-    head.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Your modifiers</div><div style="font-size:12px;color:#93a0bd;margin-top:3px;">Per-technique success rate that overrides the base win %</div></div><div style="font-size:12px;font-weight:600;color:#7ee0a8;white-space:nowrap;">' + active + ' active</div>';
+    // THE QUIET LINE (v1.301.0, MODS1 ruling 3 b, his words): where they are kept, in the grey of the line above it
+    const saved = this._progressOwner && this._progressOwner.kind === "account" ? "Saved with your progress, on every device you sign in on." : "Saved on this device. Sign in to have them on your other devices.";
+    head.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Your modifiers</div><div style="font-size:12px;color:#93a0bd;margin-top:3px;">Per-technique success rate that overrides the base win %</div><div data-mods-saved="1" style="font-size:12px;color:#93a0bd;margin-top:3px;">' + saved + '</div></div><div style="font-size:12px;font-weight:600;color:#7ee0a8;white-space:nowrap;">' + active + ' active</div>';
     host.appendChild(head);
 
     const catCol = { Submission: "#e8956b", Transition: "#9fb0d8", Position: "#7ee0a8" };
@@ -8269,10 +8271,12 @@ class Component extends DCLogic {
     this.userMods.forEach((m) => {
       if (!matches(m)) return;
       const r = document.createElement("div");
+      // `ng-mod-row` and its controls' classes: their touch targets (settings-ui.src.js, at the foot of NG_SETTINGS_CSS)
+      r.className = "ng-mod-row"; r.setAttribute("data-mod", m.name);
       r.style.cssText = "display:flex;align-items:center;gap:11px;padding:11px 12px;border-radius:11px;border:1px solid rgba(150,170,210,.14);background:" + (m.on ? "rgba(255,255,255,.035)" : "rgba(255,255,255,.012)") + ";opacity:" + (m.on ? "1" : ".55") + ";";
       // toggle dot
       const dot = document.createElement("button");
-      dot.title = m.on ? "Active" : "Paused";
+      dot.className = "ng-mod-dot"; dot.title = m.on ? "Active" : "Paused";
       dot.style.cssText = "flex:none;width:11px;height:11px;border-radius:50%;cursor:pointer;border:none;background:" + (m.on ? (catCol[m.cat] || "#7ee0a8") : "#48506a") + ";box-shadow:" + (m.on ? "0 0 8px " + (catCol[m.cat] || "#7ee0a8") : "none") + ";";
       dot.addEventListener("click", () => { this._editMod(m, (row) => { row[1] = row[1] === 1 ? 0 : 1; }); this.buildModifiers(host); });
       // label
@@ -8282,13 +8286,13 @@ class Component extends DCLogic {
       // stepper
       const step = document.createElement("div");
       step.style.cssText = "display:flex;align-items:center;gap:3px;flex:none;";
-      const mkStep = (txt, d) => { const b = document.createElement("button"); b.textContent = txt; b.style.cssText = "width:22px;height:22px;cursor:pointer;border-radius:6px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);color:#c3cde0;font-size:14px;line-height:1;font-family:inherit;"; b.addEventListener("click", () => { this._editMod(m, (row) => { row[0] = Math.max(0, Math.min(100, Math.round(row[0]) + d)); }); this.buildModifiers(host); }); return b; };
+      const mkStep = (txt, d) => { const b = document.createElement("button"); b.className = "ng-mod-step"; b.setAttribute("data-mod-step", String(d)); b.textContent = txt; b.style.cssText = "width:22px;height:22px;cursor:pointer;border-radius:6px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);color:#c3cde0;font-size:14px;line-height:1;font-family:inherit;"; b.addEventListener("click", () => { this._editMod(m, (row) => { row[0] = Math.max(0, Math.min(100, Math.round(row[0]) + d)); }); this.buildModifiers(host); }); return b; };
       const val = document.createElement("span"); val.textContent = m.pct + "%"; val.style.cssText = "width:42px;text-align:center;font-size:13px;font-weight:700;color:#7ee0a8;";
       step.appendChild(mkStep("\u2212", -1)); step.appendChild(val); step.appendChild(mkStep("+", 1));
       // delete
       const del = document.createElement("button");
       del.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M8 6V4h8v2m-9 0 1 14h8l1-14"></path></svg>';
-      del.title = "Remove"; del.style.cssText = "flex:none;width:26px;height:26px;cursor:pointer;border-radius:7px;border:none;background:transparent;color:#7e8aa3;display:flex;align-items:center;justify-content:center;";
+      del.className = "ng-mod-del"; del.title = "Remove"; del.style.cssText = "flex:none;width:26px;height:26px;cursor:pointer;border-radius:7px;border:none;background:transparent;color:#7e8aa3;display:flex;align-items:center;justify-content:center;";
       del.addEventListener("mouseenter", () => del.style.color = "#e8767a");
       del.addEventListener("mouseleave", () => del.style.color = "#7e8aa3");
       del.addEventListener("click", () => { this._writeMod(m.name, 0); this.buildModifiers(host); });   // a stamped 0, never a delete (§6.6)
@@ -8309,13 +8313,13 @@ class Component extends DCLogic {
       const form = document.createElement("div");
       form.style.cssText = "margin-top:10px;padding:12px;border:1px solid rgba(110,160,255,.3);border-radius:11px;background:rgba(74,108,255,.07);display:flex;flex-direction:column;gap:9px;";
       const inp = document.createElement("input");
-      inp.placeholder = "Technique name"; inp.maxLength = NG_MOD_NAME_MAX; if (this._modFullName) inp.value = this._modFullName; inp.style.cssText = "font-family:inherit;font-size:13px;color:#eef1f6;background:rgba(255,255,255,.05);border:1px solid rgba(150,170,210,.25);border-radius:8px;padding:9px 11px;outline:none;";
+      inp.setAttribute("data-mod-name", "1"); inp.placeholder = "Technique name"; inp.maxLength = NG_MOD_NAME_MAX; if (this._modFullName) inp.value = this._modFullName; inp.style.cssText = "font-family:inherit;font-size:13px;color:#eef1f6;background:rgba(255,255,255,.05);border:1px solid rgba(150,170,210,.25);border-radius:8px;padding:9px 11px;outline:none;";
       const cats = document.createElement("div"); cats.style.cssText = "display:flex;gap:6px;";
       let pickCat = "Submission";
       ["Submission", "Transition", "Position"].forEach((c) => { const b = this.segBtn(c, c === pickCat, false, () => { pickCat = c; [...cats.children].forEach((x, j) => { const on = ["Submission", "Transition", "Position"][j] === pickCat; x.style.background = on ? "rgba(74,108,255,.26)" : "rgba(255,255,255,.03)"; x.style.color = on ? "#eef1f6" : "#aeb6c8"; x.style.borderColor = on ? "rgba(150,180,255,.6)" : "rgba(150,170,210,.18)"; }); }); b.style.flex = "1"; b.style.fontSize = "11.5px"; b.style.padding = "7px 4px"; cats.appendChild(b); });
       const acts = document.createElement("div"); acts.style.cssText = "display:flex;gap:8px;";
       const save = this.segBtn("Add modifier", true, false, () => { const r = this._addMod(inp.value, pickCat); this._modFull = r === "full"; this._modFullName = this._modFull ? inp.value : ""; if (!this._modFull) this._addModOpen = false; this.buildModifiers(host); });
-      save.style.flex = "1";
+      save.style.flex = "1"; save.setAttribute("data-mod-save", "1");
       const cancel = this.segBtn("Cancel", false, false, () => { this._addModOpen = false; this._modFull = false; this._modFullName = ""; this.buildModifiers(host); });
       acts.appendChild(cancel); acts.appendChild(save);
       form.appendChild(inp);
@@ -8326,7 +8330,7 @@ class Component extends DCLogic {
       setTimeout(() => { try { inp.focus(); } catch (e) {} }, 50);
     } else {
       const add = document.createElement("button");
-      add.innerHTML = '<span style="font-size:15px;">+</span> Add modifier';
+      add.setAttribute("data-mod-add", "1"); add.innerHTML = '<span style="font-size:15px;">+</span> Add modifier';
       add.style.cssText = "margin-top:11px;width:100%;cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:600;padding:10px;border-radius:10px;border:1px dashed rgba(150,170,210,.3);background:transparent;color:#aeb6c8;display:flex;align-items:center;justify-content:center;gap:6px;";
       add.addEventListener("click", () => { this._addModOpen = true; this._modFull = false; this._modFullName = ""; this.buildModifiers(host); });
       host.appendChild(add);

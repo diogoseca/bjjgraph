@@ -493,3 +493,16 @@ test("the modifiers' panel: a stored name is text, never markup; at the bound a 
   assert.deepEqual(app.settings["mod:Move 1"].slice(0, 2), [50, 1], "a removed name comes back at the bound");
   assert.equal(panel.querySelector("[data-mod-full]"), null, "and the line goes");
 });
+
+test("the modifiers' quiet line says where they are kept: on this device for a guest, on every device for an account", async () => {
+  const { app, card } = fixture();
+  assert.equal(await app.openSettings("modifiers"), true);
+  const line = () => card.querySelector(".ng-set-mods").querySelector("[data-mods-saved]").textContent;
+  assert.equal(line(), "Saved on this device. Sign in to have them on your other devices.", "a guest's words (ruling 3 b)");
+  app._progressOwner = { kind: "account", id: "A" }; app.buildModifiers(card.querySelector(".ng-set-mods"));
+  assert.equal(line(), "Saved with your progress, on every device you sign in on.", "an account's words");
+  // the line is the head's third line: the head stays the panel's first block, so the structural lifts still find the tools
+  const host = card.querySelector(".ng-set-mods");
+  assert.ok(host.children[0].contains(host.querySelector("[data-mods-saved]")), "inside the head");
+  assert.ok(host.children[1].querySelector("input"), "the search box is still the second block");
+});

@@ -31,8 +31,8 @@ import { journey } from "../dsl";
  * Every opening seats an account with the training-day email stored on, so the longest list (seven groups) is the one measured;
  * which groups each player sees is notifications-tab.spec.ts's claim.
  *
- * NOT covered: a modifier's own row (its dot, − / +, delete): it exists only after one is added in this visit, and is not lifted
- * to the target (modifiers are not saved; the orchestrator's finding). The search's clear button exists only while typing. That the
+ * NOT covered here: a modifier's own row (its dot, − / +, delete): it exists only once one is added, and since v1.301.0 (MODS1,
+ * the modifiers saved) its targets are e2e/journeys/mods-saved.spec.ts's claim. The search's clear button exists only while typing. That the
  * grain and the fade look right (a pixel check of a mask is theatre here). Real touch-drag scrolling (Playwright has no touch-move,
  * so the phone scrolls with a wheel, which is also real input). Back closing only the phone sheet: NOT in this PR (SET1-PUSH 1,
  * noted for a follow-up). The sheet closes by its close button and Esc; Back steps the page history, as it did before SET1.
