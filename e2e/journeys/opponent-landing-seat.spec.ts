@@ -24,6 +24,9 @@ import { journey } from "../dsl";
  *   S0c the mirror kept on arrival only (the path still runs to his orb)   → "the pulse ends on the orb he lands on"
  *   S0d the seam in `rollFromPosition` removed (the sibling, at the foot)  → "Last rolls' ▶ on a Bottom row…" at "seated on its
  *       bottom orb"
+ *   X2 (the reader's; S0-F2) `_pendingIntent.idx` back to the unmirrored member → "after an opponent's move his Last rolls
+ *       row…" at "no 'aimed for'"
+ *   S0a also → that test at "the hand…is a fresh roll's hand", and "his miss that stays…" at "costs no move"
  */
 
 type W = any;
@@ -158,4 +161,55 @@ test("Last rolls' ▶ on a Bottom row seats the roll on that place's bottom orb,
   for (let i = 0; i < 30 && !(s.hand > 0 && !s.pulse && s.t.startsWith("Butterfly Guard")); i++) { await j.advance(500); s = await at(page); }
   expect([s.t.replace(/\s+Top$/, ""), s.member, s.role], "the roll is seated on its bottom orb, playing bottom (S0d)").toEqual(["Butterfly Guard", "bottom", "bottom"]);
   expect(s.url, "the address names the side played").toBe("/Positions/Butterfly-Guard/Bottom");
+});
+
+// S0-F2 (the reader of PR #460, its section 7: three behaviours of the fix no test pinned; its mutant X2 survived 40 of 40).
+// Mutants: X2 (`_pendingIntent.idx` back to the unmirrored member) → the first test, at "no 'aimed for'"; S0a (the mirror
+// removed) → the first at "the hand is a fresh roll's hand" and the second at "costs no move".
+test("after an opponent's move his Last rolls row says nothing he 'aimed for', and the hand is a fresh roll's hand at that seat, titles and destinations", async ({ page }) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  await rigAll(j, 0.55, 0.0, 0.2);
+  await j.pick("Gift Wrap");
+  const { land } = await opponentTurn(page, j);
+  expect([land.t.replace(/\s+Top$/, ""), land.member, land.role], "premise: his Trap and Roll seats the player bottom in Closed Guard").toEqual(["Closed Guard", "bottom", "bottom"]);
+  const row = await page.evaluate(() => { const a = (window as W).__neural, h = a.rollLog[a.rollLog.length - 1]; return { key: h.key, actor: h.actor, intend: h.intend }; });
+  expect(row, "his row: the opponent's, landed where he aimed, so no 'aimed for' (X2)").toEqual({ key: "Closed Guard|Bottom", actor: "opp", intend: null });
+  const hand = () => page.evaluate(() => { const a = (window as W).__neural;
+    return (a._optionCards || []).filter((c: W) => !c.opt.threat).map((c: W) => a.nodes[c.opt.idx].t + " → " + (c.opt.res >= 0 ? a.nodes[c.opt.res].id : "-")).sort(); });
+  const after = await hand();
+  expect(after.length, "premise: a hand is dealt").toBeGreaterThan(3);
+  await j.clickByMouse(".ng-logo", "open the drawer");
+  await j.clickByMouse('[data-view="history"]', "Last rolls");
+  await expect(page.locator('[data-hist="Closed Guard|Bottom"]').first(), "his row in Last rolls").toBeVisible();
+  expect(await page.locator('[data-hist="Closed Guard|Bottom"]').first().textContent(), "…without an 'aimed for' line").not.toMatch(/aimed for/);
+  await page.keyboard.press("Escape");
+  // a fresh roll at the same seat (the app's own "roll from here", bottom)
+  await page.evaluate(() => { const a = (window as W).__neural; a.rollFromPosition(a.nodeForKey("Closed Guard|Bottom"), false, "bottom"); });
+  for (let i = 0; i < 30; i++) { await j.advance(500); if (await page.evaluate(() => { const a = (window as W).__neural; return (a.optionIdxs || []).length > 0 && !a.pulse && a.playerRole === "bottom"; })) break; }
+  expect(await hand(), "the hand after his move is a fresh roll's hand at that seat: titles and destinations (S0a)").toEqual(after);
+});
+
+test("his miss that stays, after the opponent's move that stays, costs no move and travels nowhere", async ({ page }) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  await rigAll(j, 0.55, 0.0, 0.6);
+  await j.pick("Gift Wrap");
+  const first = await opponentTurn(page, j);
+  expect([first.land.member, first.land.role], "premise: the opponent's Trap and Roll fails and stays: Mount, top").toEqual(["top", "top"]);
+  const m1 = await page.evaluate(() => (window as W).__neural.moveCount);
+  await rigAll(j, 0.55, 0.0, 0.6);
+  await j.pick("Gift Wrap");
+  const paths: number[][] = [];
+  let atChoice: number | null = null;
+  for (let k = 0; k < 200 && atChoice == null; k++) {
+    await j.advance(100);
+    const s = await page.evaluate(() => { const a = (window as W).__neural; return { p: a.pulse && !a.pulse.done ? a.pulse.path.slice() : null, actor: a.activeMove ? a.activeMove.verb : null, moves: a.moveCount }; });
+    if (s.p && (!paths.length || paths[paths.length - 1].join() !== s.p.join())) paths.push(s.p);
+    if (s.actor === "Defending") atChoice = s.moves;
+  }
+  expect(atChoice, "when the opponent chooses again, his stay has cost no move (S0a)").toBe(m1);
+  expect(paths.filter((p) => p.length === 2 && p[0] !== p[1] && p[1] === first.land.cur), "and no travel back to his own orb").toEqual([]);
 });
