@@ -52,6 +52,14 @@
 //      on both and they agree (a plain removal would come back from B: lists merge add-wins);
 //  27. …and B edited that list in between (another technique added to it): the item stays out on both, B's addition stays
 //      on both, and they agree.
+//  28. NEVER THE LAST LIST (ADD1-R1, the lists reader's fault 1, a loss in 9 of 12,000 fuzzed runs): B, unseen, MOVED the same
+//      item from the source into the same target; A pulls it (the item now stands only in the target) and presses Undo: the
+//      Undo does nothing and says so ("kept"), the item stays in the target on both devices, both meeting orders, and a
+//      fresh device finds it; where B moved it into a THIRD list instead, the Undo is taken (it stands there);
+//  29. THE OUT CELL IN EVERY BRANCH (ADD1-R1, fault 2; the orchestrator's ruling: the target then follows the emptied-list
+//      rule, `removeFromList`'s, with no case of its own for a list the add made): a list made by "Add to…", pulled by B,
+//      then undone by A, is gone on both, both orders; one B renamed meanwhile (holding only the item) goes the same way;
+//      one B added another technique to keeps that one only, on both.
 // ADD1 MUTANTS (each red here after a clean control): A1 the source rewritten by "Add to…" (its `t` bumped); A2 the Undo
 // taking the item out of the source too. ("Already there" not off is the journey's: e2e/journeys/lists-add-to.spec.ts.)
 // NOT KILLED HERE, and why (MOVE-R1, the reader's mutants.py): M13, the source cell stamped one LATER than the target's,
@@ -700,3 +708,70 @@ test('27. …and when that device edited the list in between, its edit stays and
   assert.deepEqual([itemsOf(A.d.lists).T, itemsOf(B.d.lists).T], [[Y, Z].sort(), [Y, Z].sort()], "the item out of Guard on both, B's Y in it on both");
   assert.deepEqual(itemsOf(A.d.lists), itemsOf(B.d.lists), 'the two devices agree');
 })));
+
+/** they meet: `first` pulls the other's record, then the other pulls the first's, twice over (both settle) */
+async function meetBoth(A, B, first, flush) {
+  const [p, q] = first === 'A' ? [A, B] : [B, A];
+  for (let r = 0; r < 2; r++) { serve(p.h, blobNow(q.d)); await p.d._pullAndMerge(); await flush(); serve(q.h, blobNow(p.d)); await q.d._pullAndMerge(); await flush(); }
+}
+const where = (d, x) => Object.keys(d.lists).filter((k) => d.lists[k].items.includes(x)).sort();
+
+for (const first of ['A', 'B']) {
+  test(`28. an add's Undo never takes the item out of its last list (another device moved it into the target; ${first} pulls first)`, () => withClock(() => fakeTimers(async ({ flush }) => {
+    const [X, , Z] = ADD_IDS;
+    const [A, B] = await addDevices(flush);
+    A.d._pickAdd = 'S';
+    assert.equal(A.d.pickAddTo('T', X, false), true, 'A: Add to… Guard (not yet pushed)');
+    // (no flush until A's Undo, as in 26: the fake timers would run its offer out)
+    assert.ok(B.d.moveListItem(X, 'S', 'T', 'menu').moved, 'B, unseen: X moved from Monday into Guard');
+    serve(A.h, blobNow(B.d)); assert.equal(await A.d._pullAndMerge(), true);
+    assert.deepEqual(where(A.d, X), ['T'], 'premise: on A, X now stands in Guard only');
+    assert.equal(A.d.undoAddListItem(), false, 'A: Undo does nothing');
+    assert.equal(A.d._undoList && A.d._undoList.kind, 'kept', 'and the row says it was kept');
+    assert.deepEqual(where(A.d, X), ['T'], 'X still in Guard on A');
+    await flush();
+    await meetBoth(A, B, first, flush);
+    assert.deepEqual([where(A.d, X), where(B.d, X)], [['T'], ['T']], 'X in Guard on both, after they meet');
+    const fresh = harness(); await fresh.boot(); const f = fresh.switchTo('A'); serve(fresh, blobNow(A.d)); await f._pullAndMerge(); await flush();
+    assert.deepEqual(where(f, X), ['T'], 'a fresh device finds it in Guard');
+    assert.ok(A.d.lists.T.items.includes(Z), 'and Guard keeps what it held');
+  })));
+}
+test('28b. …and where the other device moved it into a THIRD list, the Undo is taken (it stands there)', () => withClock(() => fakeTimers(async ({ flush }) => {
+  const [X] = ADD_IDS;
+  const [A, B] = await addDevices(flush);
+  A.d._pickAdd = 'S';
+  assert.equal(A.d.pickAddTo('T', X, false), true);
+  B.d.lists.U = L([ADD_IDS[1]], 80, 'Open mat');
+  assert.ok(B.d.moveListItem(X, 'S', 'U', 'menu').moved, 'B: X moved from Monday into Open mat');
+  serve(A.h, blobNow(B.d)); await A.d._pullAndMerge();
+  assert.equal(A.d.undoAddListItem(), true, 'A: Undo is taken');
+  assert.deepEqual(where(A.d, X), ['U'], 'X out of Guard, in Open mat');
+})));
+
+for (const first of ['A', 'B']) {
+  test(`29. "Add to…"'s new list, undone after B pulled it, follows the emptied-list rule on both (${first} pulls first)`, () => withClock(() => fakeTimers(async ({ flush }) => {
+    const [X, Y, Z] = ADD_IDS;
+    const run = async (between) => {
+      const [A, B] = await addDevices(flush);
+      A.d._pickAdd = 'S';
+      const id = A.d.createListAddTo('Fresh', X);
+      assert.ok(id && A.d.lists[id], 'premise: A made the list with X in it');
+      serve(B.h, blobNow(A.d)); assert.equal(await B.d._pullAndMerge(), true);
+      assert.ok(B.d.lists[id] && B.d.lists[id].items.includes(X), 'premise: B pulled the new list');
+      between(B.d, id);
+      assert.equal(A.d.undoAddListItem(), true, 'A: Undo');
+      await flush();
+      await meetBoth(A, B, first, flush);
+      return { a: A.d.lists[id] ? A.d.lists[id].items.slice().sort() : null, b: B.d.lists[id] ? B.d.lists[id].items.slice().sort() : null, ax: where(A.d, X), bx: where(B.d, X) };
+    };
+    let r = await run(() => {});
+    assert.deepEqual([r.a, r.b], [null, null], 'a plain new list: gone on both');
+    assert.deepEqual([r.ax, r.bx], [['S'], ['S']], 'X still in Monday on both');
+    r = await run((b, id) => assert.equal(b.renameList(id, 'Renamed on B'), true));
+    assert.deepEqual([r.a, r.b], [null, null], 'one B renamed, holding only X: gone on both too (the emptied-list rule)');
+    r = await run((b, id) => assert.equal(b.addToList(Z, id).added, true));
+    assert.deepEqual([r.a, r.b], [[Z], [Z]], 'one B added Z to: Z only, on both');
+    assert.deepEqual([r.ax, r.bx], [['S'], ['S']], 'X out of it on both, still in Monday');
+  })));
+}

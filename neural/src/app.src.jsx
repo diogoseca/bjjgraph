@@ -10775,27 +10775,42 @@ class Component extends DCLogic {
     // real setTimeout, not the sim clock: this is UI patience, not game time
     this._undoT = setTimeout(() => { if (this._undoList === mine) { this._undoList = null; this._refreshListSurfaces(); } }, 90000);
   }
-  /** An add's Undo (ADD1; the orchestrator's ruling 3): the item out of the list it was added to, and only that one. A list
-   *  this add made goes, if it is still as made (this item alone, its first name); else the item leaves and the list's `t`
-   *  goes back to before the add, as a move's Undo does (MOVE-R1 F6). The target's "out" cell is written at a later stamp,
-   *  as a move's Undo writes its own: lists merge add-wins, so a device that already pulled the add would bring it back by a
-   *  plain removal. An existing field and its existing merge, nothing new (ruling 4). The list it stayed in is not touched. */
+  /** An add's Undo (ADD1; the orchestrator's rulings 3, and ADD1-R1's): the item out of the list it was added to, and only
+   *  that one, the list's `t` back to before the add (as a move's Undo, MOVE-R1 F6); then the list is treated as "Remove from
+   *  list" treats one whose last item just left (`removeFromList`: an emptied list is deleted at once, its light off), with no
+   *  case of its own for a list the add made. The menu's Remove also offers the delete's Undo; an Undo offers no Undo of itself.
+   *  THE TARGET'S "OUT" CELL IS WRITTEN FIRST, AT A LATER STAMP, IN EVERY BRANCH, BEFORE ANY DELETE (ADD1-R1, the reader's fault
+   *  2): lists merge add-wins, so without it a device that already pulled the add brings the item, and an emptied list, back.
+   *  NEVER THE LAST LIST (ADD1-R1, the reader's fault 1, a real loss in 9 of 12,000 fuzzed runs): if another device MOVED the
+   *  item into this same list meanwhile, it may stand nowhere else now; the Undo then does nothing and says so ("kept").
+   *  A COST TO STATE, NOT NEW (the reader's): if another device, not having pulled, adds the item to this list a minute after
+   *  this Undo, the cell is later than that add's (an ordinary add writes no cell), so that add is undone on both devices; a
+   *  move's Undo does the same on dev today (the reader's r458c.mjs). An existing field and its merge, nothing new (ruling 4). */
   undoAddListItem() {
     const u = this._undoList; if (!u || u.kind !== "add") return false;
     this._undoList = null;
     const m = this._listsMap(), l = m[u.list];
     if (!l || l.items.indexOf(u.node) < 0) { this._refreshListSurfaces(); return false; }   // already out (a removal, a sync)
-    if (u.created && l.items.length === 1 && l.name === u.listName) delete m[u.list];
-    else {
-      l.items.splice(l.items.indexOf(u.node), 1);
-      if (u.toT != null) l.t = u.toT;
-      if (!l.items.length) delete m[u.list];
-      else this.listItemAt = ngListMarksSet(this.listItemAt, u.list, u.node, this._listMarkStamp(), 0);
+    if (!Object.keys(m).some((k) => k !== u.list && m[k] && m[k].items.indexOf(u.node) >= 0)) {
+      this._armKept({ node: u.node, listName: u.listName });   // in no other list now: kept where it is, said so
+      this._refreshListSurfaces();
+      return false;
     }
+    this.listItemAt = ngListMarksSet(this.listItemAt, u.list, u.node, this._listMarkStamp(), 0);
+    l.items.splice(l.items.indexOf(u.node), 1);
+    if (u.toT != null) l.t = u.toT;
+    if (!l.items.length) { delete m[u.list]; if (this._listFocusId === u.list) this.clearFocus(); }   // `removeFromList`'s rule
     this._saveProgress();
     this.setEvent("Taken back", "out of “" + u.listName + "”", "good");
     this._refreshListSurfaces();
     return true;
+  }
+  /** The Undo row's honest line when an add's Undo cannot be taken (ADD1-R1): the slot holds it a few seconds, no button. */
+  _armKept(rec) {
+    this._undoList = Object.assign({ kind: "kept", t: Date.now() }, rec);
+    if (this._undoT) clearTimeout(this._undoT);
+    const mine = this._undoList;
+    this._undoT = setTimeout(() => { if (this._undoList === mine) { this._undoList = null; this._refreshListSurfaces(); } }, 5000);
   }
   undoRemoveListItem() {
     const u = this._undoList; if (!u || u.kind !== "remove") return false;
@@ -11935,7 +11950,7 @@ class Component extends DCLogic {
     const to = this._listsMap()[toId], toT = to ? to.t : null, name = to ? to.name : "";
     const r = this.addToList(nodeId, toId);
     if (r.added) {
-      this._armItemUndo({ kind: "add", node: this.siteIdOf(nodeId), list: toId, listName: name, toT, created: !!created });
+      this._armItemUndo({ kind: "add", node: this.siteIdOf(nodeId), list: toId, listName: name, toT });
       this.track("neural_list_item_added", { surface: "item_menu", count: r.count, via: created ? "add_to_new" : "add_to" });
     }
     return r;
@@ -12583,6 +12598,13 @@ class Component extends DCLogic {
     // ONE SLOT, THREE KINDS: a list's delete, an item's removal (LISTS-MENU-2) and a move (LISTS-R). The newest wins, so the
     // row says which one it takes back.
     const move = u.kind === "move", removed = u.kind === "remove", added = u.kind === "add";   // (and an add: ADD1)
+    if (u.kind === "kept") {   // an add's Undo that could not be taken (ADD1-R1): the line alone, for a few seconds
+      txt.setAttribute("data-list-undo-kept", u.node);
+      txt.textContent = "Kept in “" + u.listName + "”: it is in no other list now.";
+      txt.style.whiteSpace = "normal";
+      box.appendChild(txt);
+      return box;
+    }
     txt.textContent = move
       ? "Moved “" + this.listItemName(u.node) + "” to “" + u.toName + "”"
       : added
@@ -12602,7 +12624,7 @@ class Component extends DCLogic {
     return box;
   }
   undoDeleteList() {
-    const u = this._undoList; if (!u || u.kind === "move" || u.kind === "remove" || u.kind === "add") return false;
+    const u = this._undoList; if (!u || u.kind === "move" || u.kind === "remove" || u.kind === "add" || u.kind === "kept") return false;
     this._undoList = null;
     // A MERGE MAY HAVE BROUGHT THE LIST BACK meanwhile (MOVE-R1, F4; dev's own loss, which a move could now reach too):
     // add-wins, so another device that still held it brought it back, perhaps with techniques added or MOVED into it.
