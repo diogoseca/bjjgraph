@@ -417,7 +417,18 @@ export class Journey {
     } catch {
       await this.page.goto(path, { waitUntil: "commit" }); // one retry: teardown races are transient
     }
-    const seedError = await this.page.evaluate(() => window.__ngSeedError || null);
+    // AN ALIAS PAGE REDIRECTS ITSELF (the reader of PR #460, its O2): Quartz's lowercase `/game-over` is a stub whose
+    // <meta http-equiv=refresh> navigates on to `/Game-Over` right after commit, so this first read could land in the
+    // document being left ("Execution context was destroyed": 1 of 6 boots on dev, 2 of 6 on #460). Read it again in the
+    // document the redirect lands on (pinned by rails-infra.spec.ts, "boot onto an alias page…").
+    let seedError: unknown = null;
+    for (let attempt = 0; ; attempt++) {
+      try { seedError = await this.page.evaluate(() => window.__ngSeedError || null); break; }
+      catch (e) {
+        if (attempt >= 4 || !/Execution context was destroyed|navigation/i.test(String(e))) throw e;
+        await this.page.waitForLoadState("domcontentloaded").catch(() => {});
+      }
+    }
     expect(seedError, "ngseed fixture must contain valid JSON; seed raw owned corruption explicitly").toBeNull();
     if (opts.unready) {
       // the app instance and its constructor-time rails exist; the graph does not. Nothing below

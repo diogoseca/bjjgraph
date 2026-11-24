@@ -105,3 +105,17 @@ test("curriculum.json is hermetic: deterministic response, never off-box", async
   expect(status).not.toBe(-1) // aborted/off-box would reject
   expect([200, 404]).toContain(status) // emitted file when present, clean 404 until Phase 1
 })
+
+// THE BOOT ONTO AN ALIAS PAGE (the reader of PR #460, its O2): Quartz's lowercase `/game-over` is a stub whose meta refresh
+// navigates on to `/Game-Over` right after the first commit, and the boot's first read could land in the document being
+// left. Twelve boots, each a race: measured over 40 boots with mutant B1 (no second read), 16 threw "Execution context was
+// destroyed" (0 of 40 with the second read), so 12 boots miss it about 0.2% of the time (6 boots missed it once in my runs).
+test("a boot onto an alias page that redirects itself lands where it redirects, every time", async ({ page }) => {
+  const j = journey(page)
+  // the stub's own redirect is the page's navigation, and meant: declared, so the tripwire (`watchNavigations`) lets it be
+  j.allowNavigation(/\/Game-Over(\?|#|$)/, "Quartz's lowercase /game-over alias stub redirects itself by meta refresh")
+  for (let i = 0; i < 12; i++) {
+    await j.boot("/game-over")
+    await expect.poll(() => page.evaluate(() => location.pathname), { message: "boot " + (i + 1) + " lands on /Game-Over" }).toBe("/Game-Over")
+  }
+})

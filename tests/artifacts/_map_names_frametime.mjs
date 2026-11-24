@@ -35,6 +35,11 @@
  *               place `_lightOf` names is where the roll stands, at full strength, so every move it deals is lit: Standing
  *               Position, top, deals the most). The light's own cost alone: the place is not flown to, nothing is named for it
  *   node tests/artifacts/_map_names_frametime.mjs --ab light --vps 390x631,1440x900 [--method paired] [--base URL] [--rate 4]
+ *   --ab chain  v1.300.0 (OPP1, the opponent's turn): no chain (A: `_chain` null) against a chain at the seat at full strength
+ *               (B: his failed leg to the first dealt move, and the opponent's leg to the second and on to where it lands:
+ *               the path, its names in their own pass and the light with the chain as its moves, `_drawChain`, `draw()`'s
+ *               "chain" pass, `_drawLight`'s exception). The chain's own cost, the camera not flown to it
+ *   node tests/artifacts/_map_names_frametime.mjs --ab chain --vps 390x631,1440x900 [--method paired] [--base URL] [--rate 4]
  *   --wide  v1.296.0 (L2b S2-R1): WHAT A WIDE VIEW COSTS A FRAME, measured three ways, at the roll's zoom and pulled back 3.4,
  *               6.65 (a cloze's framing at Mount, bottom) and 13.65 times, the camera held at Mount, bottom:
  *                 loop   frames drawn back to back in one task, as the test harness pumps them (`advance`): the canvas
@@ -54,7 +59,7 @@ const args = process.argv.slice(2), opt = (k, d) => { const i = args.indexOf("--
 const BASE = opt("base", "http://localhost:8196"), APP = opt("app", null), RATE = +opt("rate", 4)
 const AB = opt("ab", null), METHOD = opt("method", "paired"), WIDE = args.includes("--wide")
 const VPS = opt("vps", "390x844,1440x900").split(",").map((v) => { const [w, h] = v.split("x").map(Number); return { w, h } })
-if (AB && !["hides", "marks", "seatstar", "light"].includes(AB)) throw Error("--ab hides|marks|seatstar|light")
+if (AB && !["hides", "marks", "seatstar", "light", "chain"].includes(AB)) throw Error("--ab hides|marks|seatstar|light|chain")
 if (!["paired", "blocks"].includes(METHOD)) throw Error("--method paired|blocks")
 const APP_FILES = APP ? new Set(fs.readdirSync(APP)) : null
 /** In the page: --wide (see the header). The camera is put back and the clock let go at the end. */
@@ -98,14 +103,23 @@ function abFrames({ ab, method }) {
     if (ab === "hides") { if (b) a._hides = () => true; else delete a._hides; return }
     if (ab === "seatstar") { if (b) delete a._syncSeatStars; else a._syncSeatStars = () => Object.getPrototypeOf(a)._syncSeatStars.call(a, []); return }
     if (ab === "light") { a._lightOf = b ? () => a.nodes[a.currentPos] : () => null; a._lightK = b ? 1 : 0; return }
+    if (ab === "chain") { a._chain = b ? chainB : null; return }
     a._movesGold = b ? () => new Map(dealt.map((i) => [i, 1])) : () => new Map()
     a._movesLearned = b ? () => new Set(dealt) : () => new Set()
     a._answered = b ? (n) => marked.has(n.idx) : () => false
   }
   const fresh = () => { if (ab === "hides") a._hidC = null }
+  // B's chain: his miss to the first dealt move, the opponent's to the second and on to where it lands; begun long ago, so at
+  // full strength on every timed frame (`_chainK` reads the frame clock, which `frame` moves)
+  const cards = (a._optionCards || []).map((c) => c.opt).filter((o) => o && a.nodes[o.idx] && a.nodes[o.idx].ty === "transitions")
+  const chainB = ab !== "chain" ? null : (() => {
+    const P = a.currentPos, [m, o] = cards, L = o && o.res >= 0 ? o.res : P
+    if (!m || !o) throw Error("--ab chain: the seat deals fewer than two transitions")
+    return { legs: [{ a: P, b: m.idx, who: "you", res: "failure" }, { a: P, b: o.idx, who: "opp" }, { a: o.idx, b: L, who: "opp" }], t0: a.now - 100, opp: a.now - 100, out: null, lease: null }
+  })()
   const frame = (kind, k, dir) => { if (kind === "drag") a.cam.cx += 3 / scale() * dir; a.now += 1 / 60; const t = performance.now(); a.draw(); return performance.now() - t }
   const res = { ab, method, dealt: dealt.length }
-  if (ab === "light" && !a._gameplanRuntime) throw Error("--ab light: the planner's bundle is not in (the light is drawn by gameplan.js)")
+  if ((ab === "light" || ab === "chain") && !a._gameplanRuntime) throw Error("--ab " + ab + ": the planner's bundle is not in (the light is drawn by gameplan.js)")
   try {
     for (const kind of ["held", "drag"]) {
       Object.assign(a.cam, c0, { lvw: Math.log(c0.vw) }); fresh()
@@ -147,6 +161,7 @@ function abFrames({ ab, method }) {
     }
   } finally {
     if (ab === "light") { mode(true); frame("held", 0, 0); res.lit = a._lastLight ? { holes: a._lastLight.holes.length, marks: a._lastLight.marks.length } : null; mode(false) }
+    if (ab === "chain") { mode(true); frame("held", 0, 0); res.chainB = { legs: a._lastChain ? a._lastChain.legs.length : 0, names: (a._lastNameBoxes || []).filter((x) => x.w === "chain").length, lit: !!(a._lastLight && a._lastLight.chain) }; mode(false) }
     for (const k of ["_hides", "_movesGold", "_movesLearned", "_answered", "_syncSeatStars", "_lightOf"]) if (Object.prototype.hasOwnProperty.call(a, k)) delete a[k]
     if (ab === "seatstar") a.setDeckOpen(false)
     Object.assign(a.cam, c0, { lvw: Math.log(c0.vw) }); a.draw()
@@ -179,7 +194,7 @@ for (const vp of VPS) {
   await page.evaluate(() => { document.querySelectorAll("[data-reward]").forEach((e) => e.remove()); window.__neural._handTouched = true; window.__neural.advance(200) })
   const cdp = await ctx.newCDPSession(page)
   await cdp.send("Emulation.setCPUThrottlingRate", { rate: RATE })
-  if (AB === "light") await page.evaluate(() => window.__neural._ensureGameplanRuntime())
+  if (AB === "light" || AB === "chain") await page.evaluate(() => window.__neural._ensureGameplanRuntime())
   const r = WIDE ? await page.evaluate(wideFrames) : AB ? await page.evaluate(abFrames, { ab: AB, method: METHOD }) : await page.evaluate(() => {
     const a = window.__neural, c0 = { cx: a.cam.cx, cy: a.cam.cy, vw: a.cam.vw }, N = 240
     const stat = (xs) => { const s = [...xs].sort((p, q) => p - q); return { median: +s[s.length >> 1].toFixed(3), p95: +s[Math.floor(s.length * 0.95)].toFixed(3) } }

@@ -176,7 +176,9 @@ for (const [outcome, result] of [[0, "failed"], [.999, "countered"]] as const) {
     await expect(page.locator("[data-executing-tech]")).toHaveAttribute("data-execution-status", result)
     await expect(page.locator("[data-executing-tech] .ngchoice-title")).toHaveText(title!)
     await expect(page.locator("[data-executing-tech] [data-cat]")).toHaveText(result === "failed" ? "Failed" : "Countered")
-    await expect(page.locator(".ng-evtoast")).toContainText(result === "failed" ? "Failed" : "Countered")
+    // OPP1-S3 (v1.300.0): the banner says the miss as a sentence, "Your <move> failed" or "Your <move> was countered: you go
+    // to <place>" (it read "Failed · <move> stuffed" before); the claim is the same, the actual outcome, said
+    await expect(page.locator(".ng-evtoast")).toContainText("Your " + opt.name + (result === "failed" ? " failed" : " was countered"))
     await j.nextHand()
     await expect(page.locator("[data-executing-tech]")).toHaveCount(0)
   })

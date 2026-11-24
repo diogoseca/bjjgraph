@@ -21734,7 +21734,8 @@ first-hand core 404,836 B; deferred unchanged (560,576 B, its ceiling).
   - The address named the opponent's side (`/Positions/Mount/Bottom` with the player on top), and a reload of it seated
     the player there.
   - Measured on dev in OPP1 Part A: 39 of 39 landings at 1048, 41 of 41 at 390.
-- **Now:** the landing stands on the player's orb. A move of the opponent's that fails and stays comes back to it
+- **Now:** the landing stands on the player's orb (and so his next miss that stays costs no travel move, and the hand
+  leads where it should: see "Corrected" below). A move of the opponent's that fails and stays comes back to it
   ([P, O, P]), and the address names the player's side.
 - **Also fixed, found by the survey of `currentPos`'s readers:** Last rolls' per-row "Roll from here" on a Bottom row
   seated the player bottom on the TOP orb (`nodeForKey` answers both sides with the top orb), and the address said Top.
@@ -21752,8 +21753,32 @@ first-hand core 404,836 B; deferred unchanged (560,576 B, its ceiling).
 - Last rolls' places, the in-document shelf, and the film;
 - the next attempt's pulse start.
 
-Right before and after, because they key on the player's role: the article, the question deck, the hand, Win chance,
-values, `explored`, the flow ledger, `prep`/`rec`/`stage`/`srs`.
+Right before and after, because they key on the player's role: the article, the question deck, the hand's titles,
+values and colours (`myVal`), `explored`, the flow ledger, `prep`/`rec`/`stage`/`srs`.
+
+**Corrected (v1.300.0, after the reader of PR #460; the sentence above first said "the hand, Win chance, values" were
+right before and after).** Same seeds, dev against the fix, 839 of 839 rng draws identical. Three things DID change after
+an opponent's move, each dev's own fault showing:
+- **The move budget.** On dev, his miss that "stays" after an opponent's move travelled to his own orb and cost a move.
+  More moves were used in 10 of 26 rolls, never fewer; a round and a capstone's "N moves left" now last their full budget.
+- **The hand's destinations.** From the opponent's orb, 385 of 1,350 cards (128 of 242 seats) carried another
+  destination (`resultPos` takes the first adjacent position that is not the orb it stands on: from the opponent's, his
+  own orb). A fresh roll at that seat matches the fix in 31 of 31 cards, dev in 12 of 31.
+- **Win %.** On 15 of 31 cards after an opponent's move it differs by 1 to 2 points: the worker valued the opponent's orb,
+  a state the player was not in (S0-F3, read-only, the reader's W8 at Closed Guard bottom, values settled):
+
+  | the same seat, reached as | orb | moves used / 11 | bar | against the fix |
+  |---|---|---|---|---|
+  | dev before the fix, after the opponent's move | his | 1 | 83% | 15 of 31 cards differ, by 1 to 2 points |
+  | the fix, after the same move | the player's | 1 | 83% | — |
+  | a fresh roll there, same skill and budget | the player's | 0 | 84% | 31 of 31 differ, by its one move more left |
+  | that fresh roll given the same moves used | the player's | 1 | 83% | **31 of 31 equal** |
+
+  So the fix values the state the player is really in, and the fresh roll differs only by its budget (Win % is this
+  roll's chance within its own budget, by design). Accepted by the orchestrator; nothing about how a number is computed
+  changed.
+
+Pinned since by `opponent-landing-seat.spec.ts`: the hand equals a fresh roll's, and the stay costs no move.
 
 Nothing stored recorded the opponent's side, so nothing is rewritten. Browser history entries from before the fix still
 name it.
@@ -21776,3 +21801,124 @@ name it.
 
 **Bytes** (the served app folders emptied first): eager gzip 385,546 B (+59 on dev 127e38938's 385,487; +1,267 on
 PAY-L5); first-hand core 404,998 B; deferred unchanged (564,386 B, its ceiling).
+
+## v1.300.0 — The opponent's turn, made readable (OPP1 S1 to S4; the owner's own play, 24 Nov 2026)
+
+**What a player sees.** The owner, on the preview: "maybe it would be if we, since the failed attempt keep the map zoomed
+out to keep the failed attempt node + every other node that follows the opponent's decision and chances taken until the
+current node so the path is visible on the graph". From his failed attempt until he can act again:
+- **one framing for the whole chain.** When the opponent's choice completes it, the camera glides once to hold every node:
+  where he stood, his move (and where its miss left him), the opponent's move, and where it lands (or the submission that
+  catches him). It is fitted in the calm area of the visible map, never closer than the roll's zoom, and held to the
+  hand. His own miss is seen up close first, as before.
+- **the path, with direction.** Each leg is a line with an arrowhead at its destination. His failed leg is dashed, dimmed
+  and crossed; the opponent's is solid in the opponent's colour. The chain is named, and the rest of the map steps back
+  under the light. All of it fades as the hand comes in.
+- **the banner as one sentence,** the line before kept above it: "Your Arm Drag to Back failed" → "Opponent goes for Body
+  Lock Pass" → "It fails: you stay in Butterfly Guard, bottom".
+- **the article steps back** (dimmed), never swapped for the opponent's move's page.
+- **the opponent's legs last at most 1.0 s each** (his Body Lock Pass at Butterfly Guard took 4.3 s and 4.0 s).
+- **a reward notice waits** through his turn and shows when the hand comes.
+
+**The rulings** (prompts/mapshows-oppturn-go.md):
+1. S0 alone first (v1.299.1, PR #460).
+2. The glide at the opponent's choice.
+3. The article stepped back, not swapped.
+4. The light's one exception, scoped to the chain.
+5. The opponent's legs capped at 1.0 s.
+6. The orchestrator's own three points: the reward notice held; the names and lines readable at the widest framing; at 390
+   the banner's two lines clear of the chain.
+
+**How** (`app.src.jsx`, NG_CHAIN):
+- **The chain:** `_chain`, from the miss (`enterFailCal`, `enterFail`) and completed at the opponent's choice
+  (`opponentDefend`, all three branches).
+- **The framing:** `_chainFrame`, using `_fitView` in the calm box plus a lease, glided to once.
+- **The path:** `_drawChain`, published as `_lastChain`.
+- **The names:** a "chain" pass of `_planNames`; the lit trail never names one of its nodes twice.
+- **The light:** `_drawLight`'s one exception, written at the rule's code site: lit from the opponent's choice, out over
+  0.6 s; every other light still never over a running game.
+- **The banner:** `_chainLine`, whole sentences from the outcome's own `result`. The landing keeps the last line shown
+  (`_chainSaidAt`). An opponent's turn with no miss before it keeps today's line.
+- **The article:** `_chainArticle`, set inline on the reader's article, head and contents (no deferred CSS).
+- **The opponent's pace:** `startTravel`'s cap, his legs only.
+- **The reward notice:** `showNextChallengeReward` reads `_chainOpen`.
+- **Lifters:** `_chainEnd` from the landing, the drill's start, the round's end and `clearTimers`. A film over the chain
+  frames it again when it stops.
+- **Fixed alongside:** the reader of #460's follow-ups. The v1.299.1 entry is corrected, three behaviours are pinned, and
+  the boot onto an alias page is fixed.
+
+**Measured** (seeded, real input, N = 70 at 1048 and 390; probes in design/opp-turn/tools):
+
+| | dev (OPP1 Part A) | v1.300.0 |
+|---|---|---|
+| a place of the chain off the visible map, once the framing settled | 97% / 93% of attempts at some frame (no framing to settle) | 0 of 777 / 0 of 940 settled frames |
+| the chain named | 39% / 41% of its nodes never named during the travel | the first name 0.1 s after the opponent's choice (median); never unnamed (0 of 70 / 0 of 70); named for 87% / 91% of his turn |
+| name overlaps; the smallest name | — | 0; 10 px, at the widest framing too (5,879 units at 1048, 2,353 at 390) |
+| landings on the opponent's orb | 39 of 39 / 41 of 41 | 0 of 45 / 0 of 46 |
+| travel per failed attempt | median 5.2 s, p90 9.3 | median 3.9 / 3.8 s, p90 7.0 / 6.7 |
+| from the press to the next moment he can act | median 8.2 / 8.3 s | median 7.1 / 7.0 s |
+
+- **The drill's window with his legs capped:** ten finishes at Closed Guard, each on a fresh page with the CPU throttled 4x;
+  every drill started on its own defend deck, 0.30 to 0.35 s after the travel. The shortest leg is pinned, its deck cold
+  by construction.
+- **Frame time** (`_map_names_frametime.mjs --ab chain`, paired frames, 4x throttle): held +0.3 ms and dragging +0.2 ms,
+  at 390x631 and at 1440x900.
+- **One cost:** the light's draw is the deferred `gameplan.js` (22,010 B gzip), fetched at the first miss for a player
+  who never opened the drawer. Until it is in, the chain draws its path and names without the light, and says so once
+  (`light_cold`).
+
+**Tests.** e2e/journeys/opponent-turn-chain.spec.ts (15), tests/map_light.test.mjs (+2), and opponent-landing-seat.spec.ts
+(+2, S0-F2). Each mutant is red after a green control:
+
+- **Controls:** CC0 15 of 15, SC0 6 of 6, UC0 green.
+- C1 (no framing) 10 red; C2 (no lease) 10; C3 (his legs uncapped) 1; C4 (the reward not held) 2; C5 (no arrowheads) 3;
+  C6 (no chain names) 3; C7 (the light's exception taken away) 3, and its unit; C8 (the rule gone for every light): the
+  unit "out at once when the game starts again"; C9 (the result word fixed) 1; C10 (the article not stepped back) 1;
+  C11 (the landing hides the last line) 3.
+- The reader's X2 1; S0a 5.
+- B1 (no second read on an alias boot) threw on 16 of 40 boots, against 0 of 40 with the fix; the journey boots twelve
+  times.
+
+**Runs and bytes:**
+
+- **The full core suite** at b782458a3: 2,081 tests, 2,063 passed, 5 skipped. 13 red:
+  - the stale nine (`legal-pages` 8, `bundle-version` 1);
+  - `announcer-coherence` 2: the opponent's turn driven with no miss before it was given an invented kicker; such a
+    chain now keeps today's line;
+  - `roll-execution` 2: it read "Failed" and "Countered", and now reads S3's "Your <move> failed / was countered".
+- **On the corrected head,** the announcer, chain, reading, article, map-light and opponent-turn specs: 390 passed. The
+  3 reds were the drill test's timing-dependent cold premise (now cold by construction) and `roll-execution` 2; after
+  those fixes the three files passed 92 of 92 (twice each).
+- **The 10 generated specs** on the opponent's turn: 10 of 10.
+- **The units:** 1,905 of 1,905, after the framing learned to stand down without a map drawn: `tests/mdp_corpus.test.mjs`
+  replays the game in Node and reached `_chainFrame`'s layout read (ci:validate's unit step, 'window is not defined').
+- **`npm run ci:validate`:** 26 of 26 at the head.
+- **Bytes** (the served app folders emptied first):
+  - eager gzip 387,616 B, +2,070 on PAY-L6 (385,546);
+  - first-hand core 407,134 B, +2,152 on 404,982;
+  - deferred unchanged, 564,386 B at its ceiling (S4's step back is set inline, not in `reading.css`).
+- The app rows were re-seeded in their own commit.
+
+**OPP1-R1 (the reader of PR #461 and the orchestrator's rulings; Tier 2).** The reader confirmed the game unchanged
+exactly (1,444 of 1,444 draws; the sentence matched the drawn outcome 61 of 61) and asked for one fix. Three rulings came
+from its measurements, plus its one surviving mutant:
+- **The banner clears the top-left buttons.** The opponent's sentence keeps the line before it as the kicker, and at 390
+  the kicker's first line ran under the sidebar and search targets (261 of 274 lines in the reader's sweep, none at 1048).
+  `_evStepBelowControls` now measures the kicker's lines with the sentence's and steps the first line shown. The sentence
+  is also written before the chain is framed, so the visible map is measured with the banner's real height. Pinned for
+  the corpus's ten longest titles and places, three sentence forms each, at 390x631, 360x640 and 1048, nothing cut.
+- **The camera is back when he can act.** It was 24.4x the roll's zoom at 1048 (9.0x at 390) when the hand was dealt,
+  and back within 5% only 1.5 s (1.0 s) later. At the opponent's last leg (`_chainBack`) the chain's lease is given
+  back, and the camera goes to the roll's zoom at the place he is left in, in NG_CHAIN.back (0.45 s, the exchange's
+  quick pace). The path and the light fade on the same clock; the article and the reward notice wait for the hand
+  (`_chainEnd`). The camera's own zoom-speed floor (a flight's zoom peaks at 3.2 log units a second) would have made
+  that return 1.57 s at 1048 and 1.08 s at 390, past the hand, so this one flight takes its time exactly (`ctx.exact`):
+  its zoom peaks 3.5x the floor's rate at 1048 and 2.4x at 390. The hand is not held.
+- **The reward notice comes after the hand has settled:** 1.2 s after it (NG_CHAIN.settle), or after his next exchange
+  if he presses first (D-326's hold). At 1048 it does not cover the seat's name. At 390 its place (12-378 x 82-184)
+  covers the middle of the visible map, the seat's name and the banner's kept last line; per the ruling that was
+  reported with a screen and the notice was not moved.
+- **U6:** the defence drill's start ends the chain (the article back at full, nothing of the chain drawn over the
+  drill), pinned.
+- **Two notes, left as comments:** the drawer freezes the chain on purpose (the game is paused); a resize mid-turn is
+  not framed again (several lines, not one).
