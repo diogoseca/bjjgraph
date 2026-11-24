@@ -48,7 +48,10 @@ function fromParsed(n) { const e = new Element(n.tagName || "#text"); if (n.node
 const document = { activeElement: null, createElement: tag => new Element(tag), createTextNode: text => Object.assign(new Element("#text"), { _text: text }), removeEventListener(){} };
 const window = { removeEventListener(){} };
 globalThis.document = document; globalThis.window = window;
-const makeComponent = (text) => new Function("DCLogic","React","NG_SETTINGS_UI_BUILD", text + "\nreturn Component;")(class {}, {createRef:()=>({current:null})}, build);
+// progress-owner.src.js rides along (v1.301.0, MODS1): the modifiers' panel reads and writes its rows through the shared
+// helpers there (`ngModsRead`, NG_MOD_PREFIX), as the bundle concatenates it above the class
+const ownerSource = readFileSync(new URL("../neural/src/progress-owner.src.js", import.meta.url), "utf8").replace(/^export (function|const|let|var|class) /gm, "$1 ");
+const makeComponent = (text) => new Function("DCLogic","React","NG_SETTINGS_UI_BUILD", ownerSource + "\n" + text + "\nreturn Component;")(class {}, {createRef:()=>({current:null})}, build);
 const Component = makeComponent(source);
 // THE SAME APP WITH THE TRAINING-DAY EMAIL LIVE (NG_DIGEST_LIVE flipped, its only edit). The swap must
 // match exactly once, or the "flipped" tests would be testing the shipped constant and pass by absence.
@@ -431,4 +434,62 @@ test("SETH4: Answer mode and each place shows are radio groups of cards, every l
   keyOn("shows", "ArrowRight"); assert.deepEqual([app.get("landQuestions", true), app._layerOn("card")], [false, true], "ArrowRight: The card only");
   keyOn("shows", "ArrowLeft"); assert.deepEqual([app.get("landQuestions", true), app._layerOn("card")], [true, true], "ArrowLeft: A question");
   assert.equal(keyOn("mode", "Tab").defaultPrevented, undefined, "Tab is left to the browser: it leaves the group in one step");
+});
+
+// ── THE MODIFIERS' PANEL, PRESSED (v1.301.0, MODS1): every press writes its own technique's settings key, stamped, and saves;
+// a removal is a stamped 0, never a delete (CLAUDE.md §6.6); a stored name is TEXT, never markup (`hl` escapes every slice).
+// tests/mods_sync.test.mjs proves what those keys do across devices; this file proves the panel writes them.
+test("the modifiers' panel: Add, + and −, the dot and the bin each write their technique's own settings key and save", async () => {
+  const { app, card, calls } = fixture();
+  assert.equal(await app.openSettings("modifiers"), true);
+  const panel = () => card.querySelector(".ng-set-mods");
+  const press = (text) => { const b = panel().querySelectorAll("button").find((x) => x.textContent.trim() === text); assert.ok(b, "a button " + text); b.click(); };
+  press("+ Add modifier");
+  const inp = panel().querySelector("input[placeholder]") || panel().querySelectorAll("input").find((x) => x.placeholder === "Technique name");
+  inp.value = "  Armbar from Mount  "; press("Add modifier");
+  const k = "mod:Armbar from Mount", row = () => app.settings[k];
+  assert.deepEqual(row().slice(0, 3), [50, 1, "S"], "added at 50%, on, a Submission (the form's first kind), the name trimmed");
+  assert.ok(Number.isSafeInteger(row()[3]) && row()[3] > 0, "born is stamped");
+  const at0 = app._settingsAt[k]; assert.ok(at0 > 0, "and the key is stamped"); assert.equal(calls.saved, 1, "and saved");
+  assert.deepEqual(app.userMods.map((m) => [m.name, m.pct, m.on]), [["Armbar from Mount", 50, true]], "the list is the stored key");
+  press("+"); press("+"); assert.equal(row()[0], 52); press("\u2212"); assert.equal(row()[0], 51);
+  assert.ok(app._settingsAt[k] > at0, "each press stamps the key later than the last");
+  panel().querySelectorAll("button").find((b) => b.title === "Active").click(); assert.equal(row()[1], 0, "the dot pauses it");
+  assert.equal(app.userMods[0].on, false); assert.equal(row()[3], app.userMods[0].born, "and born is kept");
+  panel().querySelectorAll("button").find((b) => b.title === "Paused").click(); assert.equal(row()[1], 1);
+  panel().querySelectorAll("button").find((b) => b.title === "Remove").click();
+  assert.equal(row(), 0, "the bin writes a stamped 0"); assert.ok(k in app.settings, "the key is never deleted");
+  assert.deepEqual(app.userMods, [], "and the row is gone"); assert.match(panel().textContent, /No modifiers yet/);
+  assert.equal(calls.saved, 7, "one save per press: Add, +, +, −, the dot twice, the bin");
+  // Add again: the removed name comes back under its own key, at 50% (a new born)
+  press("+ Add modifier"); panel().querySelectorAll("input").find((x) => x.placeholder === "Technique name").value = "Armbar from Mount"; press("Add modifier");
+  assert.deepEqual(row().slice(0, 2), [50, 1]);
+  // and a second Add of a live name keeps its odds: one row, never a second
+  press("+"); press("+ Add modifier"); panel().querySelectorAll("input").find((x) => x.placeholder === "Technique name").value = "Armbar from Mount"; press("Add modifier");
+  assert.equal(row()[0], 51); assert.equal(app.userMods.length, 1);
+});
+
+test("the modifiers' panel: a stored name is text, never markup; at the bound a new name is refused with its line", async () => {
+  const { app, card } = fixture();
+  const evil = '<img src=x onerror="globalThis.__pwned=1">Kimura';
+  app.settings = { ["mod:" + evil]: [40, 1, "T", 5] }; app._settingsAt = { ["mod:" + evil]: 9 };
+  assert.equal(await app.openSettings("modifiers"), true);
+  const panel = card.querySelector(".ng-set-mods");
+  assert.equal(panel.querySelector("img"), null, "no element is made from the name");
+  assert.ok(panel.textContent.includes(evil), "the name is shown as typed");
+  app._modQuery = "kim"; app.buildModifiers(panel);
+  assert.equal(panel.querySelector("img"), null, "nor with the search's highlight"); assert.ok(panel.textContent.includes(evil));
+  // the bound: NG_MOD_CAP keys, removed ones counted
+  const cap = Number(ownerSource.match(/const NG_MOD_CAP = (\d+);/)[1]); assert.equal(cap, 200);
+  app._modQuery = ""; app.settings = {}; app._settingsAt = {};
+  for (let i = 0; i < cap; i++) app.settings["mod:Move " + i] = i % 2 ? 0 : [50, 1, "T", i + 1];
+  app._modsFromSettings(); app.buildModifiers(panel);
+  const press = (text) => { const b = panel.querySelectorAll("button").find((x) => x.textContent.trim() === text); assert.ok(b, text); b.click(); };
+  press("+ Add modifier"); panel.querySelectorAll("input").find((x) => x.placeholder === "Technique name").value = "Move 999"; press("Add modifier");
+  assert.equal("mod:Move 999" in app.settings, false, "a new name past the bound writes nothing");
+  assert.equal(panel.querySelector("[data-mod-full]").textContent, "You can keep odds for up to 200 techniques, counting ones you removed.");
+  assert.equal(panel.querySelectorAll("input").find((x) => x.placeholder === "Technique name").value, "Move 999", "the typed name stays in the field");
+  panel.querySelectorAll("input").find((x) => x.placeholder === "Technique name").value = "Move 1"; press("Add modifier");
+  assert.deepEqual(app.settings["mod:Move 1"].slice(0, 2), [50, 1], "a removed name comes back at the bound");
+  assert.equal(panel.querySelector("[data-mod-full]"), null, "and the line goes");
 });

@@ -357,6 +357,54 @@ export function ngProgressJournalAfter(journal, replay, drop) {
 // longer turns the account's mature card into one day, and a guest's miss still brings it back. The rating reads the
 // schedule's interval since v1.279.0, so a shortened row cost a player rating. tests/guest_join_safety.test.mjs,
 // tests/answers_before_sync.test.mjs.
+// ═══ THE PLAYER'S MODIFIERS, "Your odds" (v1.301.0, MODS1: the owner's U212 a "Save them"; the orchestrator's MODS1-GO) ═══
+// A modifier replaces one move's chance (`ngKnowledgeOverride`, matched by the move's exact title). Until v1.301.0 the list
+// lived in memory only and was gone after a reload. It is stored as SETTINGS, one key per technique, each stamped in
+// `settingsAt` at the press:
+//   settings["mod:" + name] = [pct, on, cat, born]   live: pct 0..100, on 1|0, cat "S"|"T"|"P", born = when first added (ms)
+//   settings["mod:" + name] = 0                       removed
+// WHY SETTINGS AND NOT A NEW TOP-LEVEL KEY (MODS1 Part A, proved on production's own source, v1.298.0 and v1.294.0): the
+// settings merge is per key, the later stamp winning (`_mergeProgressFields`), in every build since before v1.252.0, so "the
+// later press on a technique wins, per technique" needs no new merge, and a removal is a later press of its own key (the
+// stamped 0), which no device still holding the old value can bring back. An older build keeps the keys through its load and
+// save and TAKES a newer one at a pull. Given a top-level key instead it keeps its own first copy for good (`_progressExtras`
+// merges local-wins) and pushes it back on every pull: the loop PR #452 had to back off from (`_onlyListFieldsBehind`).
+// A KEY IS NEVER DELETED (CLAUDE.md §6.6: the settings merge has no tombstone, so a deleted key comes back from the next pull;
+// the 0 IS the tombstone). tests/mods_sync.test.mjs; tests/artifacts/_old_settings_carry.mjs runs the older builds' classes.
+// THE BOUND: a name of at most NG_MOD_NAME_MAX characters, and at most NG_MOD_CAP keys, live and removed together. A NEW name
+// past it is refused at Add; a removed name comes back under its own key, so it always can. Two devices adding at once can
+// merge past the cap, and nothing is trimmed then (a trim is a delete). THE READ NEVER THROWS: a value that is not a live row
+// reads as removed, a name that breaks the bound is skipped; both are counted (`bad`), so a damaged key never stops a load.
+// The order is `born`, then the name (a strict total order, its last key content: every device shows one order, and a press
+// on − or + never moves a row, because it keeps `born`).
+export const NG_MOD_PREFIX = "mod:";
+export const NG_MOD_CAP = 200;
+export const NG_MOD_NAME_MAX = 80;
+const NG_MOD_CATS = Object.freeze({ S: "Submission", T: "Transition", P: "Position" });
+export function ngModLive(v) { return Array.isArray(v) && typeof v[0] === "number" && Number.isFinite(v[0]); }
+export function ngModsRead(settings) {
+  const mods = [];
+  let keys = 0, bad = 0;
+  if (!ngProgressObject(settings)) return { mods, keys, bad };
+  for (const k of Object.keys(settings)) {
+    if (!k.startsWith(NG_MOD_PREFIX)) continue;
+    keys++;
+    const name = k.slice(NG_MOD_PREFIX.length), v = settings[k];
+    if (!name || name.length > NG_MOD_NAME_MAX) { bad++; continue; }
+    if (!ngModLive(v)) { if (v !== 0) bad++; continue; }
+    mods.push({ name, cat: NG_MOD_CATS[v[2]] || "Transition", pct: Math.max(0, Math.min(100, Math.round(v[0]))), on: v[1] === 1,
+      born: Number.isSafeInteger(v[3]) && v[3] > 0 ? v[3] : 0 });
+  }
+  mods.sort((a, b) => a.born - b.born || (a.name < b.name ? -1 : a.name > b.name ? 1 : 0));
+  return { mods, keys, bad };
+}
+// a press's stamp: later than any this device holds for that key, one from a clock that runs ahead included (else the press
+// would lose to it at the next merge, as a list move once did: tests/list_moves_sync.test.mjs 18); a damaged stamp (not a
+// positive safe integer below 2^52, PR #452's F5) is not built on
+export function ngModStamp(held, now) {
+  const ok = Number.isSafeInteger(held) && held > 0 && held < 2 ** 52;
+  return Math.max(Math.floor(now), ok ? held + 1 : 0);
+}
 // THE OPEN RULE'S TWO VALUES (v1.270.0, U163 c; the app's `_syncBelt`, `_recallCarryLive`; read by nothing since v1.282.0). `openAt`, when the open rule
 // first ran for an owner, is left out of the guest PART, so it is neither in the copy's hash nor in the practice key (a
 // bare landing writes one: tests/guest_join_safety.test.mjs 20). It joins the MERGE all the same (`ngProgressGuestMerge`
