@@ -1681,6 +1681,100 @@ def restore_attempt_probabilities(original: dict, fixed: dict) -> int:
     return restored
 
 
+def _flashcard_arrays(o, path=()):
+    """Every flashcards array in a record, by its path: (path, list) for each key starting with "flashcards" whose value is
+    a list, at any depth (the root, a role, a tier)."""
+    out = []
+    if isinstance(o, dict):
+        for k, v in o.items():
+            if k.startswith("flashcards") and isinstance(v, list):
+                out.append((path + (k,), v))
+            else:
+                out.extend(_flashcard_arrays(v, path + (k,)))
+    elif isinstance(o, list):
+        for i, v in enumerate(o):
+            out.extend(_flashcard_arrays(v, path + (i,)))
+    return out
+
+
+def _at(o, path):
+    for k in path:
+        if isinstance(o, dict) and k in o:
+            o = o[k]
+        elif isinstance(o, list) and isinstance(k, int) and 0 <= k < len(o):
+            o = o[k]
+        else:
+            return None
+    return o
+
+
+def restore_questions(original: dict, fixed: dict) -> int:
+    """Curation-safety (CARD1, v1.301.5; the orchestrator's ruling): an EXISTING flashcard's question is never changed by the
+    bot. A card's progress, for every player, is keyed by a hash of its exact question text, so a reworded question resets
+    that card for everyone (until the card key ships, CARD1 slice 2). The prompt says so; this is what holds when the model
+    does not listen. Pure: it edits `fixed` in place and returns how many existing questions it put back.
+
+    Each flashcards array is paired with the ORIGINAL's array at the same path (a question shared by two arrays is restored
+    in each on its own). In that array, an original card is matched to the model's, in this order:
+      1. the same question text: kept as the model left it (its answer may have been corrected, which is allowed);
+      2. the same answer, a different question: the model reworded it: the original question is put back, and counted;
+      3. the same position (index), neither text kept: reworded with its answer: the original question AND answer are put
+         back (so the card still answers its question), and counted;
+      4. no card left to match: the model deleted it: the original card is put back whole, and counted.
+    Existing cards keep their ORIGINAL order (a deck's positions stay stable); the model's NEW cards (matched to no original)
+    follow, in the model's order. A whole array the model dropped comes back whole. Items that are not cards pass through."""
+    if not isinstance(original, dict) or not isinstance(fixed, dict):
+        return 0
+    restored = 0
+    for path, orig in _flashcard_arrays(original):
+        ocards = [c for c in orig if isinstance(c, dict) and isinstance(c.get("question"), str)]
+        if not ocards:
+            continue
+        parent = _at(fixed, path[:-1])
+        if not isinstance(parent, (dict, list)):
+            continue
+        got = _at(fixed, path)
+        if not isinstance(got, list):
+            if isinstance(parent, dict):
+                parent[path[-1]] = copy.deepcopy(orig)
+                restored += len(ocards)
+            continue
+        cards = [c for c in got if isinstance(c, dict) and isinstance(c.get("question"), str)]
+        others = [c for c in got if not (isinstance(c, dict) and isinstance(c.get("question"), str))]
+        used = [False] * len(cards)
+        match = [None] * len(ocards)
+        for i, oc in enumerate(ocards):                     # 1. the same question
+            for j, c in enumerate(cards):
+                if not used[j] and c["question"] == oc["question"]:
+                    match[i] = j; used[j] = True; break
+        for i, oc in enumerate(ocards):                     # 2. the same answer: reworded
+            if match[i] is not None or not oc.get("answer"):
+                continue
+            for j, c in enumerate(cards):
+                if not used[j] and c.get("answer") == oc["answer"]:
+                    c["question"] = oc["question"]; match[i] = j; used[j] = True; restored += 1; break
+        for i, oc in enumerate(ocards):                     # 3. the same position: reworded with its answer
+            if match[i] is not None:
+                continue
+            j = orig.index(oc) if oc in orig else i
+            j = next((k for k, c in enumerate(cards) if c is got[j]), None) if j < len(got) else None
+            if j is not None and not used[j]:
+                cards[j]["question"] = oc["question"]
+                if "answer" in oc:
+                    cards[j]["answer"] = oc["answer"]
+                match[i] = j; used[j] = True; restored += 1
+        out = []
+        for i, oc in enumerate(ocards):                     # 4. deleted: put back whole
+            if match[i] is None:
+                out.append(copy.deepcopy(oc)); restored += 1
+            else:
+                out.append(cards[match[i]])
+        out.extend(c for j, c in enumerate(cards) if not used[j])
+        out.extend(others)
+        got[:] = out
+    return restored
+
+
 def restore_mc(original: dict, fixed: dict) -> int:
     """Curation-safety: one-line `answer_line` + graded `distractors` are curated MC data
     excluded from the AI response contract. Re-merge the ORIGINAL by flashcard question text
@@ -2021,6 +2115,10 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
         # AI response contract (all categories). Restore root + role-nested arrays verbatim.
         if isinstance(original_data, dict):
             n_clips = restore_clips(original_data, fixed_content)
+            # CARD1: an existing question back verbatim BEFORE the MC re-merge, which finds a card's MC by its question text
+            n_q = restore_questions(original_data, fixed_content)
+            if n_q:
+                tprint(f"{tag}Restored {n_q} existing flashcard question(s) the model changed")
             restore_mc(original_data, fixed_content)  # curated one-line MC re-merge
             if n_clips:
                 tprint(f"{tag}Restored {n_clips} curated clips array(s)")
