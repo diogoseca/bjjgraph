@@ -21734,7 +21734,8 @@ first-hand core 404,836 B; deferred unchanged (560,576 B, its ceiling).
   - The address named the opponent's side (`/Positions/Mount/Bottom` with the player on top), and a reload of it seated
     the player there.
   - Measured on dev in OPP1 Part A: 39 of 39 landings at 1048, 41 of 41 at 390.
-- **Now:** the landing stands on the player's orb. A move of the opponent's that fails and stays comes back to it
+- **Now:** the landing stands on the player's orb (and so his next miss that stays costs no travel move, and the hand
+  leads where it should: see "Corrected" below). A move of the opponent's that fails and stays comes back to it
   ([P, O, P]), and the address names the player's side.
 - **Also fixed, found by the survey of `currentPos`'s readers:** Last rolls' per-row "Roll from here" on a Bottom row
   seated the player bottom on the TOP orb (`nodeForKey` answers both sides with the top orb), and the address said Top.
@@ -21752,8 +21753,32 @@ first-hand core 404,836 B; deferred unchanged (560,576 B, its ceiling).
 - Last rolls' places, the in-document shelf, and the film;
 - the next attempt's pulse start.
 
-Right before and after, because they key on the player's role: the article, the question deck, the hand, Win chance,
-values, `explored`, the flow ledger, `prep`/`rec`/`stage`/`srs`.
+Right before and after, because they key on the player's role: the article, the question deck, the hand's titles,
+values and colours (`myVal`), `explored`, the flow ledger, `prep`/`rec`/`stage`/`srs`.
+
+**Corrected (v1.300.0, after the reader of PR #460; the sentence above first said "the hand, Win chance, values" were
+right before and after).** Same seeds, dev against the fix, 839 of 839 rng draws identical. Three things DID change after
+an opponent's move, each dev's own fault showing:
+- **The move budget.** On dev, his miss that "stays" after an opponent's move travelled to his own orb and cost a move.
+  More moves were used in 10 of 26 rolls, never fewer; a round and a capstone's "N moves left" now last their full budget.
+- **The hand's destinations.** From the opponent's orb, 385 of 1,350 cards (128 of 242 seats) carried another
+  destination (`resultPos` takes the first adjacent position that is not the orb it stands on: from the opponent's, his
+  own orb). A fresh roll at that seat matches the fix in 31 of 31 cards, dev in 12 of 31.
+- **Win %.** On 15 of 31 cards after an opponent's move it differs by 1 to 2 points: the worker valued the opponent's orb,
+  a state the player was not in (S0-F3, read-only, the reader's W8 at Closed Guard bottom, values settled):
+
+  | the same seat, reached as | orb | moves used / 11 | bar | against the fix |
+  |---|---|---|---|---|
+  | dev before the fix, after the opponent's move | his | 1 | 83% | 15 of 31 cards differ, by 1 to 2 points |
+  | the fix, after the same move | the player's | 1 | 83% | — |
+  | a fresh roll there, same skill and budget | the player's | 0 | 84% | 31 of 31 differ, by its one move more left |
+  | that fresh roll given the same moves used | the player's | 1 | 83% | **31 of 31 equal** |
+
+  So the fix values the state the player is really in, and the fresh roll differs only by its budget (Win % is this
+  roll's chance within its own budget, by design). Accepted by the orchestrator; nothing about how a number is computed
+  changed.
+
+Pinned since by `opponent-landing-seat.spec.ts`: the hand equals a fresh roll's, and the stay costs no move.
 
 Nothing stored recorded the opponent's side, so nothing is rewritten. Browser history entries from before the fix still
 name it.
