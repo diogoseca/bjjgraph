@@ -132,7 +132,7 @@ shortcuts; exposed landing controls still accept pointers. Grading releases the 
 focused mini-row first.
 
 **Answer mode, one switch for every card** (v1.282.0): Auto (nothing stored, never written), Multiple choice
-(`mc`), Recall (`classic`; "Front Back cards" until v1.298.2, SETH3); `_cardAsksMc` decides everywhere but checkpoints and the defence drill.
+(`mc`), Recall (`classic`); `_cardAsksMc` decides everywhere but checkpoints and the defence drill.
 Auto: multiple choice until the question reaches stage 2 in any deck, then front and back for good (the grade's floor). `recallInPlay`, `recallCarry`, `quizOnPages`, `focus`: kept, read by nothing. `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
 
 **Technique navigation** keeps the chosen node's camera (`camFocus`), URL (`_syncUrl`),
