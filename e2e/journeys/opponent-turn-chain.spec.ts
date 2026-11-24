@@ -340,27 +340,35 @@ for (const [w, h] of [[390, 631], [360, 640], [1048, 773]] as const) {
       // standing controls (the top-left targets, the right edge's); the notice's own place at 390 is point 3's, reported
       // (reports/mapshows.md, OPP1-R1)
       for (let i = 0; i < 3 && await page.locator("[data-reward-close]").count(); i++) { await page.evaluate(() => (document.querySelector("[data-reward-close]") as HTMLElement).click()); await j.advance(600); }
-      const bad = await page.evaluate(() => {
-        const a = (window as W).__neural;
-        const techs = [...new Set(a.nodes.filter((n: W) => n.ty === "transitions" || n.ty === "submissions").map((n: W) => n.t as string))].sort((p: string, q: string) => q.length - p.length || (p < q ? -1 : 1)).slice(0, 10);
-        const places = [...new Set(a.nodes.filter((n: W) => n.ty === "positions").map((n: W) => a.graphName(n) as string))].sort((p: string, q: string) => q.length - p.length || (p < q ? -1 : 1)).slice(0, 10);
-        const ctrls = () => [...document.querySelectorAll('button, a[href], [role="button"], [role="menuitem"], [role="tab"], input, select, textarea')]
-          .filter((el) => !a.evRef.current.contains(el)).map((el) => el.getBoundingClientRect()).filter((b) => b.width > 0 && b.height > 0);
-        const lines = (el: W) => { if (!el || !(el.textContent || "").trim()) return []; const r = document.createRange(); r.selectNodeContents(el); return [...r.getClientRects()].filter((q) => q.width > 0 && q.height > 0); };
-        const out: W[] = [];
-        let n = 0;
-        techs.forEach((X: string, i: number) => {
-          const P = places[i];
-          for (const [k, t] of [["You go for " + X, "Your " + X + " failed"], ["Your " + X + " failed", "Opponent goes for " + X], ["Opponent goes for " + X, "It fails: you stay in " + P + ", bottom"]]) {
-            a._chainLine(k, t, "bad"); n++;
-            const K = a.evKickerRef.current, T = a.evTextRef.current, C = ctrls();
-            const hit = lines(K).concat(lines(T)).some((r: W) => C.some((b) => r.left < b.right && r.right > b.left && r.top < b.bottom && r.bottom > b.top));
-            const cut = T.scrollWidth > T.clientWidth + 1 || K.scrollWidth > K.clientWidth + 1 || T.textContent !== t;
-            if (hit || cut) out.push({ k, t, hit, cut });
-          }
-        });
-        return { n, techs: techs.length, out, notice: !!document.querySelector(".ng-challenge-reward") };
+      // the ten longest titles and places, then each sentence form written by the app's own `_chainLine` and measured once
+      // the camera has followed it (the map's own controls, the seat's star among them, are framed below the banner by the
+      // visible map's top: `_viewRect`), as a player sees it
+      const { techs, places } = await page.evaluate(() => {
+        const a = (window as W).__neural, long = (xs: string[]) => [...new Set(xs)].sort((p, q) => q.length - p.length || (p < q ? -1 : 1)).slice(0, 10);
+        return { techs: long(a.nodes.filter((n: W) => n.ty === "transitions" || n.ty === "submissions").map((n: W) => n.t)), places: long(a.nodes.filter((n: W) => n.ty === "positions").map((n: W) => a.graphName(n))) };
       });
+      const out: W[] = [];
+      let n = 0;
+      for (let i = 0; i < techs.length; i++) {
+        const X = techs[i], P = places[i];
+        for (const [k, t] of [["You go for " + X, "Your " + X + " failed"], ["Your " + X + " failed", "Opponent goes for " + X], ["Opponent goes for " + X, "It fails: you stay in " + P + ", bottom"]]) {
+          await page.evaluate(([k, t]) => (window as W).__neural._chainLine(k, t, "bad"), [k, t]);
+          if (!n) await page.waitForTimeout(500);   // the banner's first fade in runs on the page's clock
+          await j.advance(1500);
+          n++;
+          const m = await page.evaluate(([k, t]) => {
+            const a = (window as W).__neural, K = a.evKickerRef.current, T = a.evTextRef.current;
+            const C = [...document.querySelectorAll('button, a[href], [role="button"], [role="menuitem"], [role="tab"], input, select, textarea')]
+              .filter((el) => !a.evRef.current.contains(el)).map((el) => ({ el, b: el.getBoundingClientRect() })).filter((q) => q.b.width > 0 && q.b.height > 0);
+            const lines = (el: W) => { if (!el || !(el.textContent || "").trim()) return []; const r = document.createRange(); r.selectNodeContents(el); return [...r.getClientRects()].filter((q) => q.width > 0 && q.height > 0); };
+            const hits = lines(K).concat(lines(T)).flatMap((r: W) => C.filter((q) => r.left < q.b.right && r.right > q.b.left && r.top < q.b.bottom && r.bottom > q.b.top).map((q) => q.el.getAttribute("aria-label") || q.el.tagName));
+            return { ours: K.textContent === k && T.textContent === t, shown: +getComputedStyle(a.evRef.current).opacity, hits,
+              cut: T.scrollWidth > T.clientWidth + 1 || K.scrollWidth > K.clientWidth + 1 };
+          }, [k, t]);
+          if (!m.ours || m.hits.length || m.cut) out.push({ k, t, ...m });
+        }
+      }
+      const bad = { n, techs: techs.length, out, notice: await page.locator(".ng-challenge-reward").count() > 0 };
       expect([bad.n, bad.techs, bad.notice], "premise: three sentence forms for each of the ten longest titles, no notice up").toEqual([30, 10, false]);
       expect(bad.out, "no line of the banner meets a control, and nothing is cut (R1a)").toEqual([]);
     });
