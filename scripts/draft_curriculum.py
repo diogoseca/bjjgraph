@@ -43,7 +43,7 @@ BELTS = [
     ("black", "Black Belt", "#20242f"),
 ]
 
-RUBRIC = """You are an expert panel (John Danaher's systematic curriculum design, a veteran
+RUBRIC = """You are an expert panel (a systems-minded curriculum designer, a veteran
 IBJJF competition coach, and a beginner-focused academy head instructor) drafting ONE belt of
 a BJJ learning path for an interactive graph app. The path is a CURATED ROUTE over an existing
 technique graph — not a partition. Rules:
