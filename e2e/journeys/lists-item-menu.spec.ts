@@ -5,8 +5,9 @@ import { journey } from "../dsl";
  * AN ITEM'S OWN MENU (LISTS-MENU-2 part 2). The owner, 23 Nov 2026: "tat x icon on the list items is very consufing too,
  * make it a 3 dots icon ads well which includes sharing, remove from list, move up, move down (the list order)".
  *   · Each item's × is a ⋮ ([data-list-item-menu]), 44px on a phone; ▶ stays on the row (44px on a phone too, its chip
- *     drawn inside). Its menu ([data-list-item-menu-open]): Share · Move up · Move down · Move to… · Remove from list
- *     (Move to… since the move step, LISTS-R Slice 2: lists-move.spec.ts presses it), Remove last in
+ *     drawn inside). Its menu ([data-list-item-menu-open]): Share · Move up · Move down · Add to… · Move to… · Remove from list
+ *     (Move to… since the move step, LISTS-R Slice 2: lists-move.spec.ts presses it; Add to… since ADD1, v1.299.0:
+ *     lists-add-to.spec.ts presses it), Remove last in
  *     the warning ink, Move up and Move down disabled at the list's ends (shown, and skipped by the keys).
  *   · Share shares the technique's own page: `location.origin + _nodeUrlPath(idx)`.
  *   · Remove from list gains the Undo row ([data-list-undo-remove]), which puts the item back at its place.
@@ -60,7 +61,7 @@ const overlap = (a: Box, b: Box) =>
 const dotsSel = (node: string, lid: string) => `[data-list-item-menu="${node}"][data-list-of="${lid}"]`;
 const itemSel = (node: string, k: string) => `[data-list-item-menu-open="${node}"] [data-list-menu-item="${k}"]`;
 
-test("1440 by mouse: an item's ⋮ offers Share, Move up, Move down, Move to…, Remove from list; each does its thing (Move to…: lists-move.spec.ts)", async ({ page, context }) => {
+test("1440 by mouse: an item's ⋮ offers Share, Move up, Move down, Add to…, Move to…, Remove from list; each does its thing (Add to…: lists-add-to.spec.ts; Move to…: lists-move.spec.ts)", async ({ page, context }) => {
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
   const j = journey(page);
   await j.boot("/");
@@ -79,7 +80,7 @@ test("1440 by mouse: an item's ⋮ offers Share, Move up, Move down, Move to…,
   await j.clickByMouse(dotsSel(a, S.id), "the first item's ⋮");
   const open = page.locator(`[data-list-item-menu-open="${a}"]`);
   await expect(open).toBeVisible();
-  expect(await open.locator("[data-list-menu-item]").allTextContents()).toEqual(["Share", "Move up", "Move down", "Move to…", "Remove from list"]);
+  expect(await open.locator("[data-list-menu-item]").allTextContents()).toEqual(["Share", "Move up", "Move down", "Add to…", "Move to…", "Remove from list"]);
   await expect(page.locator(itemSel(a, "up")), "the first item cannot move up").toBeDisabled();
   await expect(page.locator(itemSel(a, "down"))).toBeEnabled();
   // Move down: the order changes HERE, with no stamp and no new `t`
@@ -180,7 +181,7 @@ test.describe("at 390x631 by touch", () => {
     await tapAt(page, dotsSel(d, S.id));
     const m = await boxOf(page, `[data-list-item-menu-open="${d}"]`);
     expect(m.x >= 0 && m.y >= 0 && m.x + m.width <= 390 && m.y + m.height <= 631, "the menu is whole on the screen: " + JSON.stringify(m)).toBe(true);
-    for (const k of ["share", "up", "down", "move", "remove"]) expect((await boxOf(page, itemSel(d, k))).height, k + " is a thumb tall").toBeGreaterThanOrEqual(44);
+    for (const k of ["share", "up", "down", "addto", "move", "remove"]) expect((await boxOf(page, itemSel(d, k))).height, k + " is a thumb tall").toBeGreaterThanOrEqual(44);
     await tapAt(page, itemSel(d, "up"));
     expect((await list(page, S.id)).items).toEqual([a, b, d, c]);
     // Remove by touch, Undo by touch
