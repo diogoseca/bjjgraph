@@ -354,10 +354,12 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
       if (!subs.length && !trans.length) {
         branches.push(endpoint(ratOf(1), null, ['terminal'], classify(s, 'reset', 'no-action-reset', request))); return out;
       }
-      const pf = ratOf(subs.length ? trans.length ? Math.max(.18, Math.min(.85, .34 + value(n, s.role, true) * .55)) : .9 : 0);
+      // O1 (v1.300.2; the owner's ruling U209 a): with finishes only, a finish every time (1, it was .9), as the game's
+      // `_oppFinishChance` (app.src.jsx); so no positional row is drawn from a finish there (it was the other 10%)
+      const pf = ratOf(subs.length ? trans.length ? Math.max(.18, Math.min(.85, .34 + value(n, s.role, true) * .55)) : 1 : 0);
       for (const a of subs) branches.push(endpoint(ngMdpDiv(pf, ratOf(subs.length)), defend(s, node(a.techniqueId)), ['opponent-submission', 'enter-defense']));
       trans.sort((a,b) => value(node(b.destinationId || b.techniqueId), s.role, true) - value(node(a.destinationId || a.techniqueId), s.role, true));
-      const fallback = (trans.length ? trans : subs).slice(0, 3);
+      const fallback = trans.slice(0, 3);
       for (const a of fallback) branches.push(...opponentPositionalRows(s, a, ngMdpDiv(ngMdpSub(ratOf(1), pf), ratOf(fallback.length)), request));
       return out;
     }
