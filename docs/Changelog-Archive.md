@@ -21922,3 +21922,43 @@ from its measurements, plus its one surviving mutant:
   drill), pinned.
 - **Two notes, left as comments:** the drawer freezes the chain on purpose (the game is paused); a resize mid-turn is
   not framed again (several lines, not one).
+
+## v1.300.3 — The save lines: four quiet lines for a guest, each where he has just made something (SAVE1; the owner's U215 a, 24 Nov 2026)
+
+**What a player sees.** The owner asked on 23 Nov to "rethink feat-save-offer a lot better"; the orchestrator proposed four
+quiet lines, each at the moment a guest has just made something he would lose, each naming that thing, never a modal and
+never in the way of play, and the owner said "Go" (U215 a, 24 Nov). In the drawer, for a guest only:
+- **his belt:** the first day his number shows, under the belt row: "Your belt lives in this browser only." [Save] [✕]
+- **his first list:** once it holds a technique, on its own row: "Kept in this browser only." [Save] [✕]
+- **a session done:** in Master the game's Done card: "Today's 20 answers are kept in this browser only." [Save] [✕]
+- **a later day:** over the badge: "In this browser only: 86 cards, 2 lists and your blue belt." [✕], and its Save is the
+  badge's own Save beside it (that pill now reaches 44 px tall, by an `::after`, with no visible change).
+Save opens the sign-in there already is (`openAuth("create")`). One line on screen at a time; each at most once a local
+day; a ✕ hides that one for a week; never for an account (or one played offline), and gone for good once anyone has
+signed in on the browser.
+
+**What was rejected before, and not rebuilt.** The G6 build (`feat/save-offer`, never merged) put four variants of one
+offer at the finish moment, behind a URL switch, with an open state that held the next roll. None of it is reused: no
+variant switch, no modal, no pause, nothing at the finish.
+
+**Decisions taken here, each said in the PR.**
+- **"this browser", not "this device".** The draft said "on this device only"; the progress is in this browser's storage,
+  so another browser on the same phone has none of it. The words say what is true.
+- **An empty first list gets no line.** `ngListsNormalize` drops a list with no items at the next load ("an empty list is not
+  a list"), so it is kept nowhere; the line comes when his first technique goes in.
+- **On a later day the badge's line says it, not the belt's.** Both are met on opening the drawer; the badge's names the
+  belt too, so a day carries one of the two. The belt's is therefore his first day's line, which is what "the first time
+  his number appears" asked.
+- **A moment takes the slot; a line come upon does not.** A list made or a session done replaces a belt or badge line on
+  screen (that one is spent for the day); a belt or badge line never replaces another.
+- **The mark** (`bjj_save_lines`, approved by the orchestrator before building): a plain browser key, never in the blob,
+  never a setting, never synced. `{in, belt, list, done, badge}`, each line two local epoch days [shown, hidden], under
+  100 B. A ✕ and a sign-in write it at once; a showing is written when it ends (the drawer closes, the page hides, the app
+  goes), so an open drawer writes nothing, which is what `belt-row.spec.ts` and `master-cloze.spec.ts` compare storage
+  across. Unreadable storage shows no line.
+- **The old toast stays.** `maybeShowSaveHint`'s one "Save your progress / Open the sidebar to keep it" in the announcer
+  (after two cards or twenty bounces) is untouched; whether it should go now is a question in the report.
+
+**Pinned by** `e2e/journeys/save-lines.spec.ts` (8 tests, 1440 by mouse and 390x631 by touch), with one mutant per line,
+each red on a named test against a green baseline: M1 belt (`_paintBeltRow` stops placing the line), M2 list (the line on
+an empty list), M3 done (the Done card stops asking), M4 badge (a ✕ hides for 1 day, not 7).

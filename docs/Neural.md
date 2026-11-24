@@ -829,6 +829,15 @@ guest copy's practice to the account** once, saying so (`joinGuest`): it only ad
 copy stays. **Local-only**: a device whose SDK cannot load, or cannot check its session, plays the
 account's local copy under a banner, never syncs, and on re-verify merges before a push.
 
+**The save lines (v1.300.3, SAVE1).** A guest meets four quiet lines in the drawer, each at the moment he has just made
+something he would lose, each a line, a Save (the existing sign-in) and a ✕: under the belt row the first day his number
+shows ("Your belt lives in this browser only."); on his first list's row once it holds a technique ("Kept in this browser
+only."); in a Master the game session's Done card ("Today's N answers are kept in this browser only."); and over the badge
+on a later day, naming what is kept ("In this browser only: N cards, N lists and your blue belt."; its Save is the badge's).
+One on screen at a time; each at most once a day; a ✕ hides that one for a week; never for an account, and gone for good
+once anyone signed in on the browser. The only mark is the browser key `bjj_save_lines` (never in the blob, never synced).
+The rules and the slot's lifters are at `_saveLineFor` in `neural/src/app.src.jsx`.
+
 **Game Knowledge is the one skill score:** `score = Σ (weight_i × mastery_i)`, weights summing to 1.
 `weight_i` is how often a roll actually passes through technique *i* — the stationary distribution
 of the graph as a Markov chain, computed at build time into `curriculum.weights`. `mastery_i` is
