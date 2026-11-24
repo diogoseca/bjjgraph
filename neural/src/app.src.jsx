@@ -22170,6 +22170,7 @@ class Component extends DCLogic {
     this.fx("impact_fail", { technique: act.t });
     this.executionEvent("Failed", act.t + " stuffed", "bad", "failed");
     this._chainOn([{ a: this.currentPos, b: opt.idx, who: "you", res: "failure" }]);   // OPP1: the chain begins at the miss
+    this._chainLine("You go for " + act.t, "Your " + act.t + " failed", "bad");
     this.after(1.25 / this.cfg().signalSpeed, () => this.opponentDefend());
   }
 
@@ -22206,6 +22207,7 @@ class Component extends DCLogic {
     this.executionEvent(counter ? "Countered" : "Failed", act.t + (counter ? " reversed" : " stuffed"), "bad", counter ? "countered" : "failed");
     // OPP1: the chain begins at the miss: where he stood, his move, and where the miss leaves him if it moves him
     this._chainOn([{ a: this.currentPos, b: opt.idx, who: "you", res: out.result }].concat(dest !== this.currentPos ? [{ a: opt.idx, b: dest, who: "you", res: out.result }] : []));
+    this._chainLine("You go for " + act.t, "Your " + act.t + (counter ? " was countered" : " failed") + (dest !== this.currentPos && this.nodes[dest] ? ": you go to " + this.graphName(this.nodes[dest]) : ""), "bad");
     if (dest === this.currentPos) { this.after(1.25 / this.cfg().signalSpeed, () => this.opponentDefend()); return; }
     this.startTravel([opt.idx, dest], () => {
       if (arrival.journey !== this._journeyId) return;
@@ -22314,6 +22316,12 @@ class Component extends DCLogic {
     ctx.restore();
     this._lastChain = { k, legs: drawn };
   }
+
+  /** THE BANNER AS ONE SENTENCE (OPP1, S3): each line the chain says, in order, with the line before it kept above it (the
+   *  kicker): "You go for X" → "Your X failed" → "Opponent goes for Y" → "It lands: you are in Z, bottom". Whole sentences
+   *  (`setEvent`'s `whole`: a name's "from" is part of it here). The last line stays until his next press, as every line
+   *  does. Words from the corpus: the outcome's own `result`, `graphName`, the side. */
+  _chainLine(prev, line, tone) { this.setEvent(prev, line, tone, this._execution || null, true); this._chainSaid = line; }
 
   defendKeyFor(subNode) { return subNode.t + "|Defender"; } // full name, matches the emitted Defender deck key
   _catchProvenance() {
@@ -22505,6 +22513,7 @@ class Component extends DCLogic {
       this.setEvent("Opponent goes for", this.choiceLabel(response), "bad");
       this._pendingIntent = { actor: "opp", idx, via: state.idx, kind: "escape" };
       this._chainOn([{ a: state.idx, b: idx, who: "opp" }]); this._chainFrame();   // OPP1
+      this._chainLine(this._chainSaid || "Your attempt failed", "Opponent goes for " + this.choiceLabel(response), "bad");
       this.startTravel([state.idx, idx], () => {
         if (arrival.journey !== this._journeyId) return;
         this.playerRole = role; this.currentPos = idx; this.moveCount++; this._lastActor = "opp";
@@ -22551,6 +22560,7 @@ class Component extends DCLogic {
       this._prefetchDefendDeck(def);   // travel + 0.3s is the window; the drill must not wait on it
       const arrival = this._catchProvenance();
       this._chainOn([{ a: this.currentPos, b: def, who: "opp" }]); this._chainFrame();   // OPP1
+      this._chainLine(this._chainSaid || "Your attempt failed", "Opponent goes for " + this.nodes[def].t, "bad");
       // his leg capped (NG_CHAIN.leg): the window the prefetch above relies on is the travel's 0.38 + 0.6 s least + 0.3 s
       this.startTravel([this.currentPos, def], () => this.after(0.3, () => this.enterDefense(def, arrival)), NG_CHAIN.leg);
       return;
@@ -22593,6 +22603,7 @@ class Component extends DCLogic {
     // path ends where the next hand starts"). It used to end on the move ([P, O]) or, through the wrong member, on his orb.
     const path = [this.currentPos, def, actualDest];
     this._chainOn([{ a: path[0], b: def, who: "opp" }, { a: def, b: actualDest, who: "opp" }]); this._chainFrame();   // OPP1
+    this._chainLine(this._chainSaid || "Your attempt failed", "Opponent goes for " + defNode.t, "bad");
     const arrival = this._catchProvenance();
     this.startTravel(path, () => {
       if (arrival.journey !== this._journeyId) return;
@@ -22604,6 +22615,11 @@ class Component extends DCLogic {
       else this.applyRoleByAction(defNode.t, defNode.ty, false);
       this.flashFx(this.myVal(this.nodes[nd]) - before);
       this.currentPos = this._seatMember(nd, this.playerRole); this.moveCount++; this.bumpBounce(); this._lastActor = "opp";
+      {   // OPP1, S3: the sentence's last line, from the draw's own result and the place he is left in
+        const word = draw ? ({ success: "It lands", failure: "It fails", counter: "It is countered" }[draw.result] || "It lands") : "It lands";
+        const dn = this.nodes[this.currentPos], where = caught ? "you are caught in " + caught.t : (this.currentPos === path[0] ? "you stay in " : "you are in ") + this.graphName(dn) + ", " + this.playerRole;
+        this._chainLine("Opponent goes for " + defNode.t, word + ": " + where, this.myVal(dn) - before >= 0 ? "good" : "bad");
+      }
       if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
       else this.after(0.6, () => this.enterLand(false, false, arrival));
     }, NG_CHAIN.leg);
