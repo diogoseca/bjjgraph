@@ -7034,14 +7034,25 @@ class Component extends DCLogic {
         origin: { view: this._viewMode, scroll: list?.scrollTop || 0, node: this.focusIdx, path: location.href, title: document.title, focus: document.activeElement } };
       this._stopSystemPreview(); this._stopConceptFilm();
       this.closeModal();
-      this.renderSession();
+      // ITS LIST IS DRAWN ONCE (DRAW2, v1.300.1; found in LEAK1-R3). The press drew the list here, and the press's own deferred
+      // step (`adopt` below, through `_afterPress`) drew it all again 40 to 490 ms later (`renderSession`, every row and the
+      // Belt lessons row replaced): a press on a row in that window met a row about to be replaced (the DSL learned to retry,
+      // `unfold`). Now a planner already in draws the plan WITH the list, once (`_practiceAppend` draws it: nothing is
+      // touched yet, `started` read now); a planner still loading draws the list as it opens ("Loading your positions…"),
+      // and the plan then fills it in place (`_practiceRefill`). Pinned by e2e/journeys/master-list.spec.ts ("drawn once").
+      s.started = this.practiceToday().done;
+      if (this._gameplanRuntime) this._practiceAppend(s, this.planSummary());
+      if (!s.rows?.isConnected) this.renderSession();   // no planner yet, or a plan that drew nothing (a deck already revealed)
+      s.adopted = !!this._gameplanRuntime;
       this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
       this.track("neural_practice_opened", { surface: surface || "practice" });   // "corridor" from `openCorridor` (PATH-R1)
     }
     const session = s;
     const adopt = () => {
       if (this._session !== session || !this._sessionInline() || this.__ngDestroyed) return;
-      if (this._gameplanRuntime) this._practiceAppend(session, this.planSummary());
+      // adopted as it opened (above): the same plan again would change nothing a player sees
+      if (this._gameplanRuntime && !session.adopted) this._practiceAppend(session, this.planSummary());
+      session.adopted = false;   // a later door (`openPlanSession` on this session) takes the plan again, as before
       this.hydrateDecks(session.keys);
     };
     if (this._gameplanRuntime) this._afterPress(adopt);
@@ -7129,7 +7140,8 @@ class Component extends DCLogic {
       // ... and a plan taken again under an untouched player keeps the row open too (`_practiceGuard`'s `keepOpen`, R409-R1)
       s.idx = first && (s.moved || s.keepOpen) && s.keys.includes(first) ? s.keys.indexOf(first) : 0;
       s.required = s.keys.length;
-      this.renderSession();
+      // DRAW2: on the list as it opened (nothing open), in place: its drawn rows are kept; a card open is drawn again (L2)
+      if (s.list && s.rows?.isConnected) this._practiceRefill(s); else this.renderSession();
     } else {
       for (const k of order) if (keys.has(k) && !s.keys.includes(k)) s.keys.push(k);
       s.required = s.keys.length;
@@ -7506,6 +7518,26 @@ class Component extends DCLogic {
     this._paintGameplanProgress(s);
   }
 
+  // A PLAN LANDING ON THE LIST AS IT OPENED (DRAW2, v1.300.1): the page stays (the belt, the button, the positions' rows,
+  // Belt lessons and its shelf: the same elements, so a press on one is never lost); what the plan decides is filled in:
+  // the session's own cards (hidden under the list until the press), the queue, "Why these decks?", the button's words and
+  // the rows (`_masterPaint`, keyed by place). What `renderSession` resets for the cards is reset here too.
+  _practiceRefill(s) {
+    this.deck = null; this.drillEntries = null; this._studyOpen = null; this._inSession = false;
+    this._miniReg = {}; this._sessionPaint = {}; this._openMini = null; this._openRow = null; this._focusRow = null;
+    this._sessionOpeners = []; s.visitShown = null;
+    s.rows.replaceChildren(); s.queue.replaceChildren();
+    s.explanation.replaceChildren(this._gameplanIntro(s));
+    this._gameplanProgress(s);
+    this._practiceRows(s);
+    if (!s.keys.length) {
+      const empty = document.createElement("p"); empty.setAttribute("data-session-empty", "1");
+      empty.textContent = s.plan ? "Nothing to practise here right now." : this._gameplanLoadState === "failed" ? "Open study plan to retry." : "Loading cards…";
+      s.rows.appendChild(empty);
+    }
+    this._masterMode(s);
+    this._paintGameplanProgress(s);
+  }
   _practiceRows(s) {
     if (!s.rows?.isConnected) return;
     for (let i = this._sessionOpeners.length; i < s.keys.length; i++) {
