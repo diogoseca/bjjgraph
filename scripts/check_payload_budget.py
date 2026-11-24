@@ -283,7 +283,10 @@ NEURAL_TARGET = {
     # its first move, master-cloze.src.js); S4-R1: 560_379, +35 B (a mouse move gives the hover back after a touch).
     # v1.298.1 LEAK1 (every page-wide listener of an app or a reader goes with it): 560_576, +197 B (reader.js +219: its own
     # AbortController, `on` and the cleared `downOn`; gameplan.js -22: the cloze's two adds through `_on`).
-    "deferred_raw_bytes": 560_576,
+    # v1.298.2 SETH1-SETH4 (Settings: the group headings, one row for what a place shows, Recall, the choice cards; the owner, 23-24
+    # Nov 2026): 564_386, +3_810 B, all settings-ui.js (25_034 -> 28_844: SETH4's cards and their radio-group helper, SETH1's
+    # heading rule, the row of three and the kept caveats' lines; the orchestrator's SETH-GO, under the owner's 600_000, U207 a).
+    "deferred_raw_bytes": 564_386,
 }
 
 # Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
