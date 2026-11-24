@@ -49,6 +49,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { readFileSync } from "node:fs";
 import { NG_LIGHT, ngLightPlan, ngLightAlpha, ngLightFrame } from "../neural/src/map-light.src.js";
 import { ratingApp } from "./_rating_fixture.mjs";
 
@@ -120,6 +121,34 @@ test("never over a running game: a shown place is lit only while the game is hel
   a.paused = false;
   frame(500);
   assert.equal(a._lastLight, null, "the game runs: nothing is lit");
+});
+
+// OPP1 (v1.300.0; the orchestrator's ruling 4): THE ONE EXCEPTION, written at the rule's code site in `_drawLight`. Mutants:
+//   C7 the exception taken away (`_drawLight` without its chain block)   → this test, at "lit at full…"
+//   C8 the rule gone for every light (`running` never true)              → "never over a running game" above, and the last line here
+test("the light's one exception (OPP1): the opponent's chain is lit over a running roll from his choice, out over 0.6 s; nothing else is", () => {
+  const { a, frame, mount, drawn } = lit();
+  a.paused = false; a._shown = null;
+  const X = a.nodes.find((n) => n.ty === "transitions").idx;
+  a._chain = { legs: [{ a: mount.idx, b: X, who: "opp" }], t0: a.now, opp: null, out: null, lease: null };
+  assert.equal(frame(100), null, "from his miss until the opponent's choice: no light (the ruling: lit from his choice)");
+  a._chain.opp = a.now;
+  const l = frame(300);
+  assert.ok(l && l.chain === true && l.k === 1 && l.place === mount.idx, "lit at full a quarter second after his choice, at where the player stood, over a running roll");
+  assert.deepEqual(drawn[drawn.length - 1].moves.slice().sort(), [mount.idx, X].sort(), "its moves are the chain's nodes");
+  a._chain.out = a.now;
+  const half = frame(300);
+  assert.ok(half && Math.abs(half.k - 0.5) < 0.02, "out over 0.6 s as the hand comes in (0.3 s: half, " + (half && half.k) + ")");
+  assert.equal(frame(400), null, "and gone");
+  a._chain = null; a._shown = { i: mount.idx, t: null };
+  assert.equal(frame(400), null, "the exception is the chain's alone: a shown place over a running roll is still never lit");
+});
+
+test("the chain's framing keeps the light's calm insets (NG_CHAIN.calm in app.src.jsx is NG_LIGHT.calm)", () => {
+  const src = readFileSync(resolve(dirname(fileURLToPath(import.meta.url)), "../neural/src/app.src.jsx"), "utf8");
+  const m = /const NG_CHAIN = \{[^}]*calm: \[([^\]]+)\]/.exec(src);
+  assert.ok(m, "NG_CHAIN.calm is found");
+  assert.deepEqual(m[1].split(",").map(Number), NG_LIGHT.calm);
 });
 
 test("never under a phone's open drawer (it is the screen there, and no name is written under it either)", () => {
