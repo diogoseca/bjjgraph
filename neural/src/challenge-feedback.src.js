@@ -53,8 +53,11 @@ const NG_CHALLENGE_FEEDBACK_METHODS = {
   // The theater yields the same way (REV332 S1). Its dialog is in the top layer, so a notice shown
   // under it runs out its 4.8 seconds unseen and never comes back. _openFilmTheater holds, and
   // collapseClip releases, exactly as startExecution and clearExecution do.
+  // OPP1 (v1.300.0; the orchestrator's point 6): the opponent's turn holds it too, from his miss until he can act
+  // (`_chainOpen`): it used to appear in the calm area the chain is framed in, as `opponentDefend` cleared the exchange.
+  // `_chainEnd` releases it, as clearExecution does.
   showNextChallengeReward() {
-    if (this._execution || this._filmTheater || this.__ngDestroyed) return;
+    if (this._execution || this._filmTheater || this.__ngDestroyed || this._chainOpen?.()) return;
     const reward = (this._challengeRewardQueue || []).shift();
     if (!reward) {
       this._challengeRewardActive = null;
