@@ -4302,27 +4302,10 @@ class Component extends DCLogic {
     }
   }
 
-  // ---------- progress / save hint ----------
-  bumpBounce() {
-    this.totalBounces = (this.totalBounces || 0) + 1;
-    if (this.totalBounces >= 20) this.maybeShowSaveHint("bounces");
-  }
+  // ---------- progress ----------
   noteCardAnswered() {
-    this.cardsAnswered = (this.cardsAnswered || 0) + 1;
-    if (this.cardsAnswered >= 2) this.maybeShowSaveHint("cards");
     // THE BLACK-BELT CROSSING — the worn belt since v1.211.0; see _noteBlackBelt.
     this._noteBlackBelt();
-  }
-  // PANE LAW: never force the pane open. One quiet toast; the save CTA still renders
-  // inside the pane whenever the user opens it by hand (_menuNudge). The pill this used
-  // to shake is deleted (v1.99.0).
-  maybeShowSaveHint(reason) {
-    // A SIGNED-IN PLAYER'S PROGRESS IS ALREADY SAVED (v1.242.0, the U49 inventory found this toast
-    // had no sign-in check), and an account played unverified offline is not a guest either.
-    if (this.saveDismissed || this.saveShown || this.user || this._progressLocalOnly) return;
-    this.saveShown = true;
-    this.fx("save_hint", { reason: reason });
-    this.setEvent("Save your progress", "Open the sidebar to keep it", "muted");
   }
   // ── THE SAVE LINES (SAVE1, v1.300.3; the owner's U215 a, 24 Nov: "Go") ──────────────────────────────────────────────
   // FOUR QUIET LINES, each at the moment a guest has just made something he would lose, each naming it: never a modal, never
@@ -4335,6 +4318,10 @@ class Component extends DCLogic {
   // THE RULES: a guest only, while the drawer shows (an account, or one played offline, never sees one); gone for good once
   // anyone has signed in on this browser; each at most once a local day; its ✕ hides that one for a week; ONE ON SCREEN AT A
   // TIME. On a later day the belt's is the badge's to say, so a day carries one of the two, never both.
+  // THEY REPLACED THE TOAST (SAVE1-R0, the orchestrator's ruling, 24 Nov): `maybeShowSaveHint` put "Save your progress / Open
+  // the sidebar to keep it" in the announcer once a page, after a guest's second answered card or twentieth move (the
+  // `save_hint` beat, `bumpBounce`'s only purpose), and it is deleted: the lines say the same where it is true, its second
+  // line no longer was (the sidebar keeps nothing), and five nudges were one too many.
   // THE ONE SLOT (`_saveLine`, §6.5) AND ITS LIFTERS, the complete set: the drawer closing (`applyDeckVisibility`), a ✕, a
   // Save (the badge's included), a sign-in (`updateAccountUI`), and a later MOMENT (a list made, a session done) taking it
   // from a line that was only come upon (belt, badge). A line come upon never takes it from another on screen.
@@ -22399,7 +22386,7 @@ class Component extends DCLogic {
       const before = this.myVal(this.nodes[this.currentPos]);
       this.applyRoleByAction(act.t, act.ty, true);
       this.flashFx(this.myVal(this.nodes[dest]) - before);
-      this.currentPos = dest; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
+      this.currentPos = dest; this.moveCount++; this._lastActor = "you";
       if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
       else this.after(0.5, () => this.enterLand(false));
     });
@@ -22430,7 +22417,7 @@ class Component extends DCLogic {
       else if (this.nodes[dest].ty === "submissions") this.playerRole = this.submissionNode(this.nodes[dest]).fromRole;
       else this.applyRoleByAction(act.t, act.ty, true);
       this.flashFx(this.myVal(this.nodes[dest]) - before);
-      this.currentPos = dest; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
+      this.currentPos = dest; this.moveCount++; this._lastActor = "you";
       if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
       else this.after(0.5, () => this.enterLand(false));
     });
@@ -22455,7 +22442,7 @@ class Component extends DCLogic {
       if (r.role) this.playerRole = r.role;
       else if (this.nodes[dest].ty === "submissions") { const sub = this.submissionNode(this.nodes[dest]); this.playerRole = sub.fromRole === "top" ? "bottom" : "top"; }
       this.flashFx(this.myVal(this.nodes[dest]) - before);
-      this.currentPos = dest; this.moveCount++; this.bumpBounce(); this._lastActor = "opp";
+      this.currentPos = dest; this.moveCount++; this._lastActor = "opp";
       this.after(0.5, () => this.opponentDefend(arrival));
     });
   }
@@ -22730,7 +22717,7 @@ class Component extends DCLogic {
           const before = this.myVal(this.nodes[this.currentPos]);
           this.playerRole = opt.destinationRole; // authored destination is already defender-relative
           this.flashFx(this.myVal(this.nodes[opt.res]) - before);
-          this.currentPos = landed; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
+          this.currentPos = landed; this.moveCount++; this._lastActor = "you";
           this.killVignette(!stillCaught);
           if (!stillCaught) this.fx("relief", {});
           // the escape's EDGE is the submission you got out of (see enterAttempt's `via` note).
@@ -22898,7 +22885,7 @@ class Component extends DCLogic {
       else if (opponentDestinationRole) this.playerRole = opponentDestinationRole === "top" ? "bottom" : "top";
       else this.applyRoleByAction(defNode.t, defNode.ty, false);
       this.flashFx(this.myVal(this.nodes[nd]) - before);
-      this.currentPos = this._seatMember(nd, this.playerRole); this.moveCount++; this.bumpBounce(); this._lastActor = "opp";
+      this.currentPos = this._seatMember(nd, this.playerRole); this.moveCount++; this._lastActor = "opp";
       {   // OPP1, S3: the sentence's last line, from the draw's own result and the place he is left in
         const word = draw ? ({ success: "It lands", failure: "It fails", counter: "It is countered" }[draw.result] || "It lands") : "It lands";
         const dn = this.nodes[this.currentPos], where = caught ? "you are caught in " + caught.t : (this.currentPos === path[0] ? "you stay in " : "you are in ") + this.graphName(dn) + ", " + this.playerRole;

@@ -44,7 +44,7 @@ const Component = new Function("DCLogic", "React", knowledgeSource + "\n" + read
 const wire = JSON.parse(read("source/quartz/static/neural/graph-data.json"));
 globalThis.fetch = async (url) => ({ ok: true, json: async () => JSON.parse(read("source/quartz/static/neural/" + String(url).replace("/seat-test/", ""))) });
 
-const SIDE_EFFECTS = ["fx", "setEvent", "flashFx", "bumpBounce", "flare", "clearTimers", "clearLandCard", "_declineLandQ",
+const SIDE_EFFECTS = ["fx", "setEvent", "flashFx", "flare", "clearTimers", "clearLandCard", "_declineLandQ",
   "renderLandCard", "buildDrillPanel", "renderChoiceGroups", "_syncHandLayer", "_highlightStagedCard", "setBeacon",
   "renderTutorial", "_sayArrivalIfPending", "startLandRipple", "hydrateDecks", "hideCenter", "showCenter", "releaseCamera",
   "_prefetchLandDeck", "_prefetchDefendDeck", "frameNodes", "killVignette", "setStatus", "_endArrival", "stopReplay",
