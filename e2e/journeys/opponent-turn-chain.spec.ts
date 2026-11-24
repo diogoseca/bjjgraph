@@ -457,7 +457,7 @@ test("the defence drill's start ends the chain: the article back, nothing of the
 // bottom the opponent's options are finishes only (tests/opp_finish_chance.test.mjs lists every such seat). Its finish draw
 // rigged to 0.95, over dev's 0.9: dev played that finish through the positional branch, where a drawn tap reads as a stay
 // and no drill starts (reproduced by real input, S0-F4). Now the drill starts, on one of that seat's four finishes.
-// "Every time" is pinned at the top of the draw too (the map reader of PR #464, v1.300.4): 0.999, as well as dev's own band.
+// "Every time" is pinned at the top of the draw too (the map reader of PR #464, v1.301.2): 0.999, as well as dev's own band.
 for (const finishDraw of [0.95, 0.999]) test(`at Twister Control bottom the opponent goes for a finish every time: with its draw at ${finishDraw} the defence drill starts`, async ({ page }) => {
   const j = journey(page);
   await j.boot("/Positions/Twister-Control/Bottom");

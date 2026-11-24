@@ -21980,7 +21980,7 @@ them is in the pool.
   attack every time (`pf` 1, it was .9), and no positional row drawn from a finish there. The corpus replay that ties the
   model to the game (`tests/mdp_corpus.test.mjs`, "live routing replay") caught the game changing alone ("unexpected RNG
   opp-sub-pick"). Win % at the three seats now counts the opponent's turn as it is played.
-  - **And upstream of them, by one point** (the map reader of PR #464, v1.300.4's follow-up). A card whose move leads
+  - **And upstream of them, by one point** (the map reader of PR #464, v1.301.2's follow-up). A card whose move leads
     into one of the seats is valued with the opponent's turn there, so it moves too, by one point. The bars at the seats
     move by one point:
 
@@ -22017,7 +22017,106 @@ them is in the pool.
   | the opponent's turns | 94 of 94 |
   | round ends | 23 of 23, same order |
 
-## v1.300.4 — "N due" counts only what can be asked (DUE1; the orchestrator's DUE1-GO, 24 Nov 2026)
+## v1.301.0 — "Your odds" are saved: the player's modifiers kept with their progress and synced (MODS1; the owner's U212 a, 24 Nov 2026)
+
+**What a player sees.** The owner was told "The per-technique overrides under 'Your odds' are never saved: they vanish on
+reload" and answered "Save them". Now:
+- a modifier made in Settings > Your odds (its odds, its pause) is still there after a reload, and on the player's other
+  devices once each has synced;
+- a guest's are kept on that browser, and join the account when the guest signs in;
+- one quiet line under the panel's heading says where they are kept: for an account "Saved with your progress, on every
+  device you sign in on."; for a guest "Saved on this device. Sign in to have them on your other devices." (ruling 3 b);
+- a row's dot, − / + and bin are real touch targets now (40 px, 44 on a phone); they draw as before, and the bin stands a
+  few pixels further from "+";
+- Add does what it did, except that a name already in the list keeps its odds and is turned on (no second row), and past
+  200 techniques, removed ones counted, it says "You have used all 200 slots for odds, counting ones you removed. Edit an
+  existing one, or add back one you removed." (ruling 4; the words MODS1-R1's: no slot ever frees on that account).
+
+**The rulings** (the orchestrator's MODS1-GO, on Part A, `reports/mods.md`):
+1. Where they live: settings keys, `mod:<name>`, one per technique.
+2. A guest who only set modifiers: they join at sign-in and nothing is said (the line speaks of practice).
+3. The quiet line's two wordings, above.
+4. The bound: 200 techniques, removed ones counted. What Add accepts does not change in this PR (a follow-up: accept only
+   a real move's name, which would also bound the keys by the corpus and end silent typos).
+
+**How.**
+- **The shape** (`progress-owner.src.js` above `NG_MOD_PREFIX`): `settings["mod:" + name] = [pct, on, cat, born]`, or `0`
+  once removed, each stamped in `settingsAt` at the press. The settings merge is per key, the later stamp winning, in every
+  build since before v1.252.0, so "the later press on a technique wins, per technique" needed no new merge. A removal is a
+  later press of its own key, so a device still holding the old value cannot bring it back; a key is never deleted (the
+  `0` is the tombstone, CLAUDE.md §6.6).
+- **Why not a new top-level key** (Part A, proved on production's own source): an older build keeps its own first copy of
+  any top-level key it does not know (`_progressExtras`, local-wins) and pushes it back on every pull, the loop PR #452
+  had to back off from. `tests/artifacts/_old_settings_carry.mjs` builds five releases' own app classes from git (v1.252.0,
+  v1.280.4, v1.293.3, v1.294.0, production v1.298.0): each keeps the keys through its load and save, takes a newer
+  removal and a newer modifier at a pull, keeps its own newer edit, merges idempotently and writes no such key itself.
+  Control 1, a local-wins settings merge, fails 2 of 6; control 2, the same keys as a top-level field, is pinned by
+  production.
+- **The app** (`app.src.jsx`): `userMods` is a view of those keys, rebuilt after every load, pull, cross-tab merge and join
+  (`_hydrateProgressBlob` → `_modsFromSettings`) and after every press (`_writeMod`, `_editMod`, `_addMod`). A press stamps
+  past any stamp this device holds for that key (`ngModStamp`), so another device's clock running ahead never beats a
+  later press here. The read never throws: damaged keys are skipped or clamped, and counted (`_modsBad`).
+- **The guest join** (rule 4 of the join): the guest part keeps the guest's live `mod:` keys (a copy with none keeps no
+  settings, so every guest copy saved before hashes as it did); the merge drops every key the account already holds, live
+  or removed (the account wins on a clash, whatever the stamps), and joins the guest's only while the account holds fewer
+  than 200 keys (MODS1-R1; the rest stay on the guest copy); the practice key leaves them out, and `joinGuest` returns
+  `quiet` when only modifiers joined.
+- **One fix found on the way**: `hl()` put the name into `innerHTML` unescaped. Harmless while names lived in one tab;
+  stored and synced, and able to join another account from a shared browser's guest copy, it would have been markup run on
+  every device of that account. Every slice is escaped now.
+- **The touch targets** (`settings-ui.src.js`, the foot of `NG_SETTINGS_CSS`): a centred `::before` of the target on each of
+  the row's four controls; the bin's centre was 35 px from "+", so it stands 6 px (10 on a phone) further off.
+
+**The sync reader's read (MODS1-R1, `reports/review-mods.md`): merge after two fixes, both made.**
+- **F1, two tabs.** The cross-tab store (`mergeExternal`) kept a field of this tab's whole when that field on disk still
+  equalled this tab's base, one top-level field at a time, so `settings` and `settingsAt` came apart: when the other tab's
+  writes took a value A→B→A, this tab's stale value stayed under the newer stamp, and a tie keeps the local copy. A removed
+  modifier came back in one tab for good; dev does the same to an ordinary setting (`dailyGoal` 35 in one tab and 25 in the
+  other, at one stamp). The loop now skips both: each key carries its own stamp, and no settings key is ever deleted.
+- **F2, ties.** A press stamps one past the stamp its device holds, so two devices behind a clock that ran ahead stamp the
+  same, and each kept its own value (65% and 55%). On an equal stamp a `mod:` key is now decided the same on every device
+  (`ngModTieTakes`): a removal wins, then the smaller JSON string. Every other setting keeps today's rule. Part A called
+  this case unreachable by hand; with one clock off, it is reachable.
+- Also: "Add" on a paused name turning it on is pinned (the reader's surviving mutant N4); the join is bounded; the
+  bound's words say it is for good.
+
+**What is accepted, stated in the code.** A device that already pulled pushes its whole record on its next save, as for
+every field, so for a moment the cloud can hold a stale device's old value over a removal; the device holding the later
+stamp heals it at its next pull (`tests/mods_sync.test.mjs` 5). A clock that runs ahead wins until real time catches up, as
+for every setting. An older build holding one side of a tie keeps its own copy, and pushes it only after a pull that
+differs: the heal trickle of PR #452. A modifier made on an
+older build is not saved there (as before); an older build shows no modifiers and plays the move's own odds.
+
+**Bytes** (measured by `scripts/check_payload_budget.py` on this tree, dev v1.300.1 merged, the served app folder emptied
+first): `neural.js` 787,979 -> 791,864 B raw (+3,885: the read, the writers, the bound, the guest join's rule, the tie
+rule, the escape, the line); `neural.eager_gzip_bytes` 389,438 B, +3,892 B over its baseline 385,546 B (v1.299.1), under
+the 5,000 B cap per change and the 400,000 B action level (dev's own v1.300.0 and v1.300.1 growth is inside that figure);
+`settings-ui.js` 28,859 -> 29,185 B (+326: the row's touch targets), which takes the deferred raw total to 564,712 B,
+326 B over its ceiling of 564,386 B: the ceiling moves by exactly that, on the orchestrator's ruling (the owner's limit
+is 600,000 B, U207 a).
+
+**Tests.**
+- `tests/mods_sync.test.mjs` (16, new; the real class, host and merge; devices sharing a cloud that holds data; a clock the
+  test moves): two devices, two techniques and one; a removal against a later edit, both orders; a stale device; a pause
+  against a later step (the row is per technique, not per field); a reload; a press before the first pull; a clock an hour
+  ahead; no `mod:` key for an account without modifiers; every captured older validator; the bound (and N4); damaged keys;
+  two tabs; two accounts on one browser; a full storage; and R1's: the two tabs' A→B→A for a modifier and for `dailyGoal`
+  (17, 18), the reader's tie and a removal-against-live tie, each in both meeting orders (19, 20).
+- `tests/guest_join_safety.test.mjs` M1 to M6 (the real sign-in path; M6 the join at the bound, at 199 and 200).
+- `tests/settings_presentation.test.mjs` (3 new: the panel pressed, the stored name as text and the bound's line, the two
+  wordings; the harness now prepends `progress-owner.src.js`, as the bundle does).
+- `tests/progress_owner.integration.test.mjs`: one assertion changed, not loosened: "`userMods` is undefined on the new
+  account" became "its list is exactly []".
+- `e2e/journeys/mods-saved.spec.ts` (new): at 1440 by mouse and 390x631 by touch, every press is stored and a real reload
+  brings back the row, its odds, its pause and the roll's chance; a removal stays removed; each control's target answers
+  to it at every edge and its drawn size equals a control frame's.
+- **Mutants**, each alone with a clean control before and after: slice 1, 9 of 9 killed; slice 2, 8 of 8 killed; slice 3,
+  the bin's spacing taken out, killed at both sizes ("+"'s right edge answers to the bin); R1, each fix taken back alone,
+  6 of 6 red (F1 at the save in 17 and 18: for a modifier the tie rule alone would heal it at the next pull, so the read at
+  the save is the one that pins F1; F2 taken back or its order flipped; N4; the join unbounded; removed keys uncounted at
+  the join).
+
+## v1.301.2 — "N due" counts only what can be asked (DUE1; the orchestrator's DUE1-GO, 24 Nov 2026)
 
 **The fault** (found by the questions study, measured in DUE1). A question a content pass reworded or retired keeps its
 schedule row for good, since nothing deletes one: `_pruneStaleGrades` heals a deck's grades when its chunk lands, but not

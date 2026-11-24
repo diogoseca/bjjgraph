@@ -1,4 +1,4 @@
-// DUE1 (v1.300.4; the orchestrator's DUE1-GO): "N due" is what the planner can actually ask. A question a content pass
+// DUE1 (v1.301.2; the orchestrator's DUE1-GO): "N due" is what the planner can actually ask. A question a content pass
 // reworded or retired keeps its schedule row for good, and `dueCount()` counted it for ever (10,679 of the 21,199 questions a
 // player could hold rows for before v1.182.2 are in no deck on dev: reports/mapshows.md, DUE1). Now `duePool` skips a row the
 // app KNOWS is retired (`_rowLive` false: the rating's own three-way reading), and a row not known yet stays counted.

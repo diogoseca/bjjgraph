@@ -1,7 +1,7 @@
 import { expect, test, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
-/** DUE1 (v1.300.4; the orchestrator's DUE1-GO): A CARD NO DECK HOLDS ANY MORE IS NOT DUE. A question a content pass reworded or
+/** DUE1 (v1.301.2; the orchestrator's DUE1-GO): A CARD NO DECK HOLDS ANY MORE IS NOT DUE. A question a content pass reworded or
  * retired keeps its schedule row for good, and "N due" counted it for ever: half of every card answered before v1.182.2 is
  * in no deck now (reports/mapshows.md, DUE1). `duePool` now skips a row the app KNOWS is retired (`_rowLive` false); a row not
  * known yet stays counted. A deck's live cards are known once the drawer has opened (the rating's live check, `ratingCheck`)
