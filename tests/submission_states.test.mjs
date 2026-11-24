@@ -102,7 +102,7 @@ test('triangle offers its finish, three joint locks, and a concretely named back
 
 async function executionApp() {
   const a=await boot();
-  for(const k of ['_declineLandQ','clearLandCard','fx','setEvent','frameNodes','buildDrillPanel','showVignette','renderLandCard','clearTimers','clearOptions','killVignette','flashFx','bumpBounce','_syncHandLayer','after','_prefetchLandDeck','setPaused','releaseCamera','_flushLandSkipDebt','_disarmLandClock']) a[k]=()=>{};
+  for(const k of ['_declineLandQ','clearLandCard','fx','setEvent','frameNodes','buildDrillPanel','showVignette','renderLandCard','clearTimers','clearOptions','killVignette','flashFx','_syncHandLayer','after','_prefetchLandDeck','setPaused','releaseCamera','_flushLandSkipDebt','_disarmLandClock']) a[k]=()=>{};
   a._deckHasCards=()=>true; a.renderChoiceGroups=()=>{};
   a.optionsRef={current:{innerHTML:'',style:{}}};
   a.startTravel=(_p,done)=>done(); a.rng=()=>0; a.aiSkill=0; a._momentum=0;

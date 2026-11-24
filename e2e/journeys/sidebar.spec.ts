@@ -363,7 +363,9 @@ test("keyboard: Tab reaches the badge, Enter opens its menu with focus inside it
   await expect(page.locator('.ng-legal[data-legal="terms"] [data-legal-short]')).not.toBeEmpty()
 })
 
-test("a guest's badge offers to save; a signed-in player gets neither it nor the save toast", async ({ page }) => {
+// The save toast's halves left with the toast (v1.301.3, SAVE1-R0): "a guest still gets the one save toast" and "no save
+// toast for a signed-in player". The save lines that replace it are pinned by save-lines.spec.ts, the signed-in half included.
+test("a guest's badge offers to save; a signed-in player does not get it", async ({ page }) => {
   const j = journey(page)
   await j.boot("/", { beforeNavigate: beforeNeuralAuthNavigate })
   await waitNeuralAuthOwner(page, null)
@@ -372,18 +374,10 @@ test("a guest's badge offers to save; a signed-in player gets neither it nor the
   await j.clickByMouse("[data-badge-save]", "the guest's Save")
   await expect(page.locator("body")).toContainText("Create your account")
   await page.evaluate(() => (window as W).__neural.closeModal())
-  const guestToast = await page.evaluate(() => { const a = (window as W).__neural; a.saveShown = false; a.maybeShowSaveHint("cards"); return !!a.saveShown })
-  expect(guestToast, "a guest still gets the one save toast").toBe(true)
 
   await signInNeuralAuthSDK(page, "sidebar-user", { email: "player@example.com", name: "Player" })
   await expect(page.locator(".ngAcctChip")).toContainText("Player")
   await expect(page.locator("[data-badge-save]"), "no save offer once signed in").toBeHidden()
-  const toast = await page.evaluate(() => {
-    const a = (window as W).__neural; a.saveShown = false; a.setEvent("", "", "muted"); a.maybeShowSaveHint("cards")
-    return { shown: !!a.saveShown, text: a.evTextRef.current.textContent }
-  })
-  expect(toast.shown, "no save toast for a signed-in player").toBe(false)
-  expect(toast.text).not.toContain("Save your progress")
   await j.openAccountMenu("the signed-in badge")
   await expect(page.locator(".ng-account-menu [data-menu-account]")).toHaveCount(0)
   await expect(page.locator(".ng-account-menu [data-menu-settings]")).toHaveText("Settings")

@@ -12,7 +12,7 @@ import { journey, recordDiff } from "../dsl"
  * STOPS the game; closing it resumes the game ONLY if the pane is what stopped it.
  *
  * Rails: __neural.paused, .deckOpen, .deckShown, ._paneAutoPaused (one latch for the merged pane)
- * Beats: pane_paused, pane_resumed, save_hint
+ * Beats: pane_paused, pane_resumed (save_hint retired with its toast, v1.301.3)
  */
 
 const paused = (page: any) => page.evaluate(() => !!(window as any).__neural.paused)
@@ -111,20 +111,28 @@ test("a new roll never opens the pane", async ({ page }) => {
   ).toBe(false)
 })
 
-test("the save nudge asks for the pane instead of forcing it open", async ({ page }) => {
+// THE SAVE TOAST IS RETIRED (v1.301.3, SAVE1-R0, the orchestrator's ruling): this test pinned that `maybeShowSaveHint`'s
+// toast ("Save your progress / Open the sidebar to keep it", fired after the second answered card) asked for the pane rather
+// than forcing it open. The claim moved to the save lines, which stand only in a drawer the player opened himself
+// (save-lines.spec.ts); what stays here is the law's half: answers at the old threshold open nothing, stop nothing, and
+// nothing outside the drawer asks him to save.
+test("answering cards never opens the pane, and nothing outside it asks to save", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
 
-  // two graded answers is the nudge threshold (noteCardAnswered is the UI grading choke)
+  // two graded answers was the retired toast's threshold (noteCardAnswered is the UI grading choke)
   await page.evaluate(() => {
     const a = (window as any).__neural
     a.noteCardAnswered()
     a.noteCardAnswered()
   })
+  await j.advance(500)
 
-  await j.expectBeat("save_hint")
-  expect(await shown(page), "the nudge did not force the pane open").toBe(false)
+  expect((await j.beats()).map((b) => b.beat), "no save nudge beat").not.toContain("save_hint")
+  expect(await page.evaluate(() => (window as any).__neural.evTextRef.current.textContent || ""), "the announcer asks nothing").not.toContain("Save your progress")
+  expect(await page.locator("[data-save-line]").count(), "and no save line stands anywhere with the pane shut").toBe(0)
+  expect(await shown(page), "answers did not open the pane").toBe(false)
   expect(await paused(page), "and did not stop the game").toBe(false)
 })
 

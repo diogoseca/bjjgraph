@@ -18,6 +18,9 @@ const NG_OUTCOME_BUBBLE = false;
 // v1.255.2: a sign-in this browser started (see _signinCompleted), and how long it may take to complete: 30 minutes for a log-in or
 // Google's round trip, 24 hours for a sign-up's email confirmation. One localStorage key per browser, never per account: no owner.
 const NG_SIGNIN_INTENT_KEY = "bjj-neural-signin-intent", NG_SIGNIN_INTENT_MS = 30 * 60 * 1000, NG_SIGNIN_CREATE_MS = 24 * 60 * 60 * 1000;
+// SAVE1 (v1.301.3): the save lines' own mark, one browser key and never an account's (see `_saveLineFor`); the four lines;
+// a ✕ hides its line for this many days
+const NG_SAVE_LINES_KEY = "bjj_save_lines", NG_SAVE_LINE_KINDS = ["belt", "list", "done", "badge"], NG_SAVE_LINE_WEEK = 7;
 // THE SIGNED-IN NAME, ITS INITIAL AND THE ADDRESS NEVER REACH ANALYTICS (v1.261.2). The app never calls identify(), but it PRINTS the
 // identity, and PostHog's autocapture and session replay read what is printed. posthog-js 1.447.12, as the site loads it: a click's
 // target and every ancestor to <body> go into `$elements_chain` with ALL their attributes (`attr__title`, `attr__aria-label`, data-*)
@@ -573,7 +576,7 @@ class Component extends DCLogic {
       optionsRef: this.optionsRef, fxRef: this.fxRef,
       drillRef: this.drillRef, drillHeadRef: this.drillHeadRef, drillListRef: this.drillListRef, drillFootRef: this.drillFootRef, drillCountRef: this.drillCountRef,
       shareCueRef: this.shareCueRef,
-      closeDeck: () => this.setDeckOpen(false), drawerHome: () => this.drawerHome(), openSignup: () => this.openAuth("create"),
+      closeDeck: () => this.setDeckOpen(false), drawerHome: () => this.drawerHome(), openSignup: () => this._saveLineSave(),
       legendMarkRef: this.legendMarkRef,
       accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, acctCtaRef: this.acctCtaRef, toggleAccountMenu: () => this.toggleAccountMenu(),
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
@@ -639,6 +642,7 @@ class Component extends DCLogic {
     // _flushSave also clears _saveT, killing that late writer. Guarded so a (hypothetical)
     // pre-ingest unmount can never overwrite real storage with empty state.
     try { if (this._progressLoaded) this._flushSave(); } catch (e) {}
+    this._saveMarksFlush();   // SAVE1: a line shown in this instance keeps its day
     try { this.closeListPicker(); this._syncSeatStars([]); } catch (e) {}
     try { this.closeAccountMenu(); } catch (e) {} // drops the capture-phase outside-tap listener
     try { this.clearClipLoops(); } catch (e) {}
@@ -4123,6 +4127,10 @@ class Component extends DCLogic {
     this.updateUiShift(0);
     this.forceUpdate();
     this._paneTransition = false;
+    // SAVE1: a save line lives while the drawer shows. Closing drops it (one of the slot's lifters) and writes the day it
+    // was shown; opening asks for the one a guest is owed on screen now, the badge's or the belt's (`_saveLinesOnOpen`)
+    if (open && !wasShown) this._saveLinesOnOpen();
+    else if (!open && wasShown) { this._saveLineDrop(); this._saveMarksFlush(); }
   }
   // ── merged-pane layout ── two body modes share the one pane:
   //  · tabs mode — knowledge header + Explore|Challenges|History nav + the active tab's body
@@ -4294,27 +4302,173 @@ class Component extends DCLogic {
     }
   }
 
-  // ---------- progress / save hint ----------
-  bumpBounce() {
-    this.totalBounces = (this.totalBounces || 0) + 1;
-    if (this.totalBounces >= 20) this.maybeShowSaveHint("bounces");
-  }
+  // ---------- progress ----------
   noteCardAnswered() {
-    this.cardsAnswered = (this.cardsAnswered || 0) + 1;
-    if (this.cardsAnswered >= 2) this.maybeShowSaveHint("cards");
     // THE BLACK-BELT CROSSING — the worn belt since v1.211.0; see _noteBlackBelt.
     this._noteBlackBelt();
   }
-  // PANE LAW: never force the pane open. One quiet toast; the save CTA still renders
-  // inside the pane whenever the user opens it by hand (_menuNudge). The pill this used
-  // to shake is deleted (v1.99.0).
-  maybeShowSaveHint(reason) {
-    // A SIGNED-IN PLAYER'S PROGRESS IS ALREADY SAVED (v1.242.0, the U49 inventory found this toast
-    // had no sign-in check), and an account played unverified offline is not a guest either.
-    if (this.saveDismissed || this.saveShown || this.user || this._progressLocalOnly) return;
-    this.saveShown = true;
-    this.fx("save_hint", { reason: reason });
-    this.setEvent("Save your progress", "Open the sidebar to keep it", "muted");
+  // ── THE SAVE LINES (SAVE1, v1.301.3; the owner's U215 a, 24 Nov: "Go") ──────────────────────────────────────────────
+  // FOUR QUIET LINES, each at the moment a guest has just made something he would lose, each naming it: never a modal, never
+  // in the way of play. One line, one Save (the sign-in there is, `openAuth("create")`) and a ✕. Where each stands:
+  //   belt   under the belt row, on his first day, once its number shows (`_placeBeltLine`)
+  //   list   on the row of the first list he makes (`newList` marks it, the Your lists rows draw it)
+  //   done   in a Master the game session's Done card (`_sessionDoneCard`)
+  //   badge  over the account badge on a later day: what is kept here, cards, lists, the belt (`_saveLinesOnOpen`). Its Save
+  //          is the badge's own Save beside it (`[data-badge-save]`, `_saveLineSave`), so it carries none of its own.
+  // THE RULES: a guest only, while the drawer shows (an account, or one played offline, never sees one); gone for good once
+  // anyone has signed in on this browser; each at most once a local day; its ✕ hides that one for a week; ONE ON SCREEN AT A
+  // TIME. On a later day the belt's is the badge's to say, so a day carries one of the two, never both.
+  // THEY REPLACED THE TOAST (SAVE1-R0, the orchestrator's ruling, 24 Nov): `maybeShowSaveHint` put "Save your progress / Open
+  // the sidebar to keep it" in the announcer once a page, after a guest's second answered card or twentieth move (the
+  // `save_hint` beat, `bumpBounce`'s only purpose), and it is deleted: the lines say the same where it is true, its second
+  // line no longer was (the sidebar keeps nothing), and five nudges were one too many.
+  // THE ONE SLOT (`_saveLine`, §6.5) AND ITS LIFTERS, the complete set: the drawer closing (`applyDeckVisibility`), a ✕, a
+  // Save (the badge's included), a sign-in (`updateAccountUI`), and a later MOMENT (a list made, a session done) taking it
+  // from a line that was only come upon (belt, badge). A line come upon never takes it from another on screen.
+  // THE MARK (approved by the orchestrator, 24 Nov): NG_SAVE_LINES_KEY, a plain browser key beside `bjj_view_mode` and
+  // `bjj_gi_mode`. Never in the progress blob, never a setting, never synced, never read for an account. Its whole shape:
+  // `{in: 1 once a sign-in happened here, <kind>: [day shown, day hidden]}` in local epoch days (0 = never), four fixed
+  // kinds, under 100 B. A ✕ and a sign-in write it at once; a SHOWING is written when it ends (the drawer closes, the page
+  // hides, the app goes), so a drawer that is only read writes nothing while it is open (belt-row.spec.ts and
+  // master-cloze.spec.ts compare storage key by key across exactly that). Storage that cannot be read shows nothing: a
+  // "once a day" that cannot be kept is not promised.
+  _saveLineOk() { return !this.user && !this._progressLocalOnly && !!this._progressLoaded && !!this.deckShown && !this.__ngDestroyed; }
+  /** the mark as stored, `{}` when absent or damaged, null when storage cannot be read */
+  _saveMarksRead() {
+    let raw = null;
+    try { raw = localStorage.getItem(NG_SAVE_LINES_KEY); } catch (e) { return null; }
+    try { const m = JSON.parse(raw || "{}"); if (m && typeof m === "object" && !Array.isArray(m)) return m; } catch (e) { /* damaged: begun again */ }
+    return {};
+  }
+  _saveMarks() { if (this._saveMk === undefined) this._saveMk = this._saveMarksRead(); return this._saveMk; }
+  _saveMarkOf(m, kind) { const a = Array.isArray(m && m[kind]) ? m[kind] : [], d = (v) => (Number.isInteger(v) && v > 0 ? v : 0); return [d(a[0]), d(a[1])]; }
+  /** write the mark, kept with what another tab stored since: the later day wins in each place, and `in` is never lost */
+  _saveMarksFlush() {
+    const m = this._saveMk; if (!m || !this._saveMkDirty) return;
+    this._saveMkDirty = false;
+    const on = this._saveMarksRead() || {}, out = {};
+    if (m.in || on.in) out.in = 1;
+    for (const k of NG_SAVE_LINE_KINDS) {
+      const a = this._saveMarkOf(m, k), b = this._saveMarkOf(on, k), v = [Math.max(a[0], b[0]), Math.max(a[1], b[1])];
+      if (v[0] || v[1]) out[k] = v;
+    }
+    try { localStorage.setItem(NG_SAVE_LINES_KEY, JSON.stringify(out)); } catch (e) { /* best-effort: a day's line may come back once */ }
+  }
+  /** is `kind` still owed today: not shown today, not hidden this week, nobody signed in here */
+  _saveLineFree(kind) {
+    const m = this._saveMarks(); if (!m || m.in) return false;
+    const day = this._epochDay(), [shown, hid] = this._saveMarkOf(m, kind);
+    return shown !== day && !(hid && day - hid < NG_SAVE_LINE_WEEK);
+  }
+  /**
+   * TAKE THE SLOT for `kind` and return its line (the same element while it holds), or null. `moment`: a list made or a
+   * session done, which may take the slot from a line that was only come upon. Taking it marks the day (written when the
+   * showing ends) and counts the showing once.
+   */
+  _saveLineFor(kind, text, moment) {
+    if (!this._saveLineOk()) return null;
+    const cur = this._saveLine;
+    if (cur && cur.kind === kind) { const t = cur.el.querySelector(".ng-saveln-t"); if (t && t.textContent !== text) t.textContent = text; return cur.el; }
+    if (cur && !moment && cur.el.isConnected && cur.el.getClientRects().length) return null;
+    if (!this._saveLineFree(kind)) return null;
+    this._saveLineDrop();
+    const m = this._saveMarks();
+    m[kind] = [this._epochDay(), this._saveMarkOf(m, kind)[1]]; this._saveMkDirty = true;
+    const el = this._saveLineBuild(kind, text);
+    this._saveLine = { kind: kind, el: el };
+    this.track("neural_save_line_shown", { line: kind });
+    return el;
+  }
+  _saveLineDrop() {
+    const cur = this._saveLine; this._saveLine = null;
+    if (!cur) return;
+    if (cur.kind === "list") this._saveListId = null;   // the list's moment is spent with its line
+    cur.el.remove();
+  }
+  _saveLineBuild(kind, text) {
+    const el = document.createElement("div");
+    el.className = "ng-saveln"; el.setAttribute("data-save-line", kind); el.setAttribute("role", "note");
+    const t = document.createElement("span"); t.className = "ng-saveln-t"; t.textContent = text;
+    el.appendChild(t);
+    const btn = (attr, label, html, fn) => {
+      const b = document.createElement("button");
+      b.type = "button"; b.setAttribute(attr, "1"); b.setAttribute("aria-label", label); b.innerHTML = html;
+      b.style.pointerEvents = "auto";   // inherited: re-enabled inline like every pane control
+      b.addEventListener("click", (e) => { e.stopPropagation(); fn(); });
+      el.appendChild(b);
+      return b;
+    };
+    if (kind !== "badge") btn("data-save-line-save", "Save your progress: create an account", "<span>Save</span>", () => this._saveLineSave());
+    btn("data-save-line-x", "Not now", '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>', () => this._saveLineHide(kind)).title = "Not now (hidden for a week)";
+    return el;
+  }
+  /** a line's Save, and the badge's own: the sign-in there is, and the line it answered goes */
+  _saveLineSave() {
+    const cur = this._saveLine;
+    if (cur) { this.track("neural_save_line_saved", { line: cur.kind }); this._saveLineDrop(); }
+    this._saveMarksFlush();
+    this.openAuth("create");
+  }
+  /** a ✕: this line, not again for a week (written at once) */
+  _saveLineHide(kind) {
+    const m = this._saveMarks();
+    if (m) { m[kind] = [this._saveMarkOf(m, kind)[0], this._epochDay()]; this._saveMkDirty = true; this._saveMarksFlush(); }
+    this.track("neural_save_line_hidden", { line: kind });
+    if (this._saveLine && this._saveLine.kind === kind) this._saveLineDrop();
+  }
+  /** a sign-in on this browser: the lines are gone for good (written at once) */
+  _saveLinesGone() {
+    this._saveLineDrop();
+    const m = this._saveMarks();
+    if (m && !m.in) { m.in = 1; this._saveMkDirty = true; this._saveMarksFlush(); }
+  }
+  /**
+   * WHAT A GUEST KEEPS HERE: the cards (and moves) he has answered, his lists, the belt he wears, and whether any of it is
+   * from an EARLIER day (a card or move last answered before today, a day of answers or rolls before today, a list made
+   * before today), which is what makes this a second day.
+   */
+  _saveHeld() {
+    const today = this._epochDay(), todayKey = this._dayKey(), midnight = new Date().setHours(0, 0, 0, 0), qs = new Set();
+    let moves = 0, later = false;
+    for (const cards of Object.values(this.srs || {})) for (const [q, c] of Object.entries(cards || {})) {
+      if (Array.isArray(c) && Number.isInteger(c[2])) { qs.add(q); if (c[2] < today) later = true; }
+    }
+    for (const seat of Object.values(this.moves || {})) for (const r of Object.values(seat || {})) {
+      if (Array.isArray(r) && Number.isInteger(r[2])) { moves++; if (r[2] < today) later = true; }
+    }
+    for (const days of [this._days, this._rollDays]) for (const k of Object.keys(days || {})) if (k < todayKey && days[k] > 0) later = true;
+    const ids = this.listsArray(), lists = this._listsMap();
+    if (ids.some((id) => (lists[id].t || 0) < midnight)) later = true;
+    const cards = qs.size + moves;
+    return { cards: cards, lists: ids.length, belt: this.beltWorn(), later: later && cards + ids.length > 0 };
+  }
+  /** THE DRAWER OPENS: on a later day the badge says what is kept here; on his first day the belt row's number does */
+  _saveLinesOnOpen() {
+    if (!this._saveLineOk()) return;
+    const held = this._saveHeld();
+    if (held.later) this._placeBadgeLine(held); else this._placeBeltLine();
+  }
+  _placeBadgeLine(held) {
+    const wrap = this.accountRef.current, chip = this.acctChipRef.current;
+    if (!wrap || !chip || !wrap.getClientRects().length || !this._saveLineFree("badge")) return;
+    const n = (k, one, many) => k.toLocaleString("en") + " " + (k === 1 ? one : many), parts = [];
+    if (held.cards) parts.push(n(held.cards, "card", "cards"));
+    if (held.lists) parts.push(n(held.lists, "list", "lists"));
+    if (held.belt.level > 0) parts.push("your " + held.belt.id + " belt");
+    if (!parts.length) return;
+    const said = parts.length > 1 ? parts.slice(0, -1).join(", ") + " and " + parts[parts.length - 1] : parts[0];
+    const el = this._saveLineFor("badge", "In this browser only: " + said + ".", false);
+    if (el && el.nextElementSibling !== chip) wrap.insertBefore(el, chip);
+  }
+  /** the line under the belt row on screen, once its number shows, on his first day (a later day is the badge's) */
+  _placeBeltLine() {
+    if (!this._beltNumShown || !this._saveLineOk()) return;
+    // the stored mark and the day first: a line spent today reads no layout at all (this runs at every repaint of the row)
+    if (!(this._saveLine && this._saveLine.kind === "belt") && (!this._saveLineFree("belt") || this._saveHeld().later)) return;
+    const row = [...(this.drillRef?.current?.querySelectorAll("[data-belt-row]") || [])].find((r) => r.getClientRects().length);
+    if (!row) return;
+    const el = this._saveLineFor("belt", "Your belt lives in this browser only.", false);
+    if (el && el.previousElementSibling !== row) row.after(el);
   }
   // (v1.94.0) the chip's old toggleMenu — open the pane / close the pane — is gone: the chip
   // opens the ACCOUNT MENU now (toggleAccountMenu), and the pane opener is the top-left logo.
@@ -5301,7 +5455,7 @@ class Component extends DCLogic {
     // NOT a constant: true only because arming happens before app_ready is recorded. Move this call
     // back down to the end of boot() and it flips to false, which is what the structural test pins.
     if (this._cs) this._cs.armedBefore = this._cs.at.app_ready == null;
-    const flush = () => { try { if (this._progressLoaded) this._flushSave(); } catch (e) { /* durability is best-effort */ } };
+    const flush = () => { try { if (this._progressLoaded) this._flushSave(); } catch (e) { /* durability is best-effort */ } this._saveMarksFlush(); };
     this._onPageHide = () => { flush(); this._stopSystemPreview(); this._csAbandon("pagehide"); };
     this._onVisHide = () => {
       // (L2-R1: an Undo offered when the tab is hidden is withdrawn BEFORE the flush that pushes: `_undoEnd`)
@@ -8118,6 +8272,13 @@ class Component extends DCLogic {
       '<div data-session-done-title="1" style="font-size:15px;font-weight:700;color:#bff0d2;margin-bottom:6px;">' + (!valid ? 'Reviews still need attention' : 'Session complete') + '</div>' +
       '<div style="font-size:11.5px;color:#9ab3a4;line-height:1.5;margin-bottom:14px;">' +
       (!live ? 'The lesson goals in this session are complete.' : live.total ? 'You reviewed ' + live.completed + ' of ' + live.total + ' cards today.' : "You've met today's goal.") + '</div>';
+    // SAVE1: a Master the game session that held cards is a moment: what he just remembered is kept in this browser only,
+    // counted as the badge counts today (`practiceToday`)
+    const today = this.practiceToday().done;
+    if (valid && ses.practice && live && live.total > 0 && today > 0) {
+      const sl = this._saveLineFor("done", "Today's " + today + (today === 1 ? " answer is" : " answers are") + " kept in this browser only.", true);
+      if (sl) done.appendChild(sl);
+    }
     // 7-day progress sparkline — REAL history from the persisted daily counts
     const dk7 = []; for (let i = 6; i >= 0; i--) { const d = new Date(); d.setDate(d.getDate() - i); dk7.push(d); }
     const week = dk7.map((d) => (this._days || {})[this._dayKey(d)] || 0);
@@ -8879,6 +9040,7 @@ class Component extends DCLogic {
     // THE GUEST'S SAVE OFFER (round 4's calmer one, after G7 e): the pill coded since v1.99 and never
     // placed (the U49 inventory found it) sits in the guest's badge, beside today's numbers.
     if (cta) cta.style.display = this.user || offline ? "none" : "";
+    if (this.user) this._saveLinesGone();   // SAVE1: signed in here, the save lines are gone for good
     this._paintBadge();
     if (this._acctMenuOpen) this.renderAccountMenu(); // …and the menu's auth rows, if it's up
   }
@@ -9511,6 +9673,10 @@ class Component extends DCLogic {
       // written only when it changed (SIDE-R2 M10, as the row's tail): a rewrite under a pointer swallows a press
       if (el._ngHtml !== html) { el._ngHtml = html; el.innerHTML = html; }
     }
+    // SAVE1: the first time his number shows, the row on screen carries the save line under it (a sibling, so the row's
+    // own markup and its rewrite rule are untouched)
+    this._beltNumShown = v.number != null;
+    this._placeBeltLine();
   }
   /** The row's markup for an `ngRatingRow` result: the belt, its stripes, the next slot, the number, the line(s). */
   _beltRowHTML(v) {
@@ -10716,7 +10882,9 @@ class Component extends DCLogic {
     // spent on bookkeeping), and a same-millisecond collision across two devices is merged
     // harmlessly by the add-wins rule anyway.
     const id = "l" + Date.now().toString(36) + (this._listSeq = (this._listSeq || 0) + 1).toString(36);
-    this._listsMap()[id] = { name: name || ngListDefaultName(new Date()), items: [], t: this._listStamp() };
+    // SAVE1: a guest's FIRST list is a moment its row says it is kept in this browser only (drawn by the Your lists rows)
+    if (!this.user && !Object.keys(this._listsMap()).length) this._saveListId = id;
+    this._listsMap()[id] ={ name: name || ngListDefaultName(new Date()), items: [], t: this._listStamp() };
     this._saveProgress();
     this._expandList(id); // a list you just made is a list you are about to fill — show its inside
     return id;
@@ -12662,6 +12830,11 @@ class Component extends DCLogic {
       });
       row.addEventListener("drop", (e) => this._listDrop(e, id));
       body.appendChild(row);
+      // SAVE1: the guest's first list says, under its own row, where it is kept (a moment: it takes the one slot), once it
+      // holds a technique: an EMPTY list is kept nowhere (`ngListsNormalize` drops it at the next load), so saying it is kept
+      // here would be untrue until then. A SIBLING of the row, never inside it: the row is one line, and every point of it
+      // that is not a control opens or shuts the list (lists-menu.spec.ts pins both), which a line inside it broke.
+      if (id === this._saveListId && l.items.length) { const sl = this._saveLineFor("list", "Kept in this browser only.", true); if (sl) body.appendChild(sl); }
     }
     list.appendChild(sec);
     // give the disclosure toggle its focus back after the re-render it caused (keyboard only —
@@ -22297,7 +22470,7 @@ class Component extends DCLogic {
       const before = this.myVal(this.nodes[this.currentPos]);
       this.applyRoleByAction(act.t, act.ty, true);
       this.flashFx(this.myVal(this.nodes[dest]) - before);
-      this.currentPos = dest; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
+      this.currentPos = dest; this.moveCount++; this._lastActor = "you";
       if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
       else this.after(0.5, () => this.enterLand(false));
     });
@@ -22328,7 +22501,7 @@ class Component extends DCLogic {
       else if (this.nodes[dest].ty === "submissions") this.playerRole = this.submissionNode(this.nodes[dest]).fromRole;
       else this.applyRoleByAction(act.t, act.ty, true);
       this.flashFx(this.myVal(this.nodes[dest]) - before);
-      this.currentPos = dest; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
+      this.currentPos = dest; this.moveCount++; this._lastActor = "you";
       if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
       else this.after(0.5, () => this.enterLand(false));
     });
@@ -22353,7 +22526,7 @@ class Component extends DCLogic {
       if (r.role) this.playerRole = r.role;
       else if (this.nodes[dest].ty === "submissions") { const sub = this.submissionNode(this.nodes[dest]); this.playerRole = sub.fromRole === "top" ? "bottom" : "top"; }
       this.flashFx(this.myVal(this.nodes[dest]) - before);
-      this.currentPos = dest; this.moveCount++; this.bumpBounce(); this._lastActor = "opp";
+      this.currentPos = dest; this.moveCount++; this._lastActor = "opp";
       this.after(0.5, () => this.opponentDefend(arrival));
     });
   }
@@ -22628,7 +22801,7 @@ class Component extends DCLogic {
           const before = this.myVal(this.nodes[this.currentPos]);
           this.playerRole = opt.destinationRole; // authored destination is already defender-relative
           this.flashFx(this.myVal(this.nodes[opt.res]) - before);
-          this.currentPos = landed; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
+          this.currentPos = landed; this.moveCount++; this._lastActor = "you";
           this.killVignette(!stillCaught);
           if (!stillCaught) this.fx("relief", {});
           // the escape's EDGE is the submission you got out of (see enterAttempt's `via` note).
@@ -22813,7 +22986,7 @@ class Component extends DCLogic {
       else if (opponentDestinationRole) this.playerRole = opponentDestinationRole === "top" ? "bottom" : "top";
       else this.applyRoleByAction(defNode.t, defNode.ty, false);
       this.flashFx(this.myVal(this.nodes[nd]) - before);
-      this.currentPos = this._seatMember(nd, this.playerRole); this.moveCount++; this.bumpBounce(); this._lastActor = "opp";
+      this.currentPos = this._seatMember(nd, this.playerRole); this.moveCount++; this._lastActor = "opp";
       {   // OPP1, S3: the sentence's last line, from the draw's own result and the place he is left in
         const word = draw ? ({ success: "It lands", failure: "It fails", counter: "It is countered" }[draw.result] || "It lands") : "It lands";
         const dn = this.nodes[this.currentPos], where = caught ? "you are caught in " + caught.t : (this.currentPos === path[0] ? "you stay in " : "you are in ") + this.graphName(dn) + ", " + this.playerRole;

@@ -171,7 +171,7 @@ test('actual source replay agrees with calibrated success/miss routing and the b
   const ns=graph.nodes.map((n,idx)=>({...n,idx,pi:graph.nodes.findIndex(x=>x.id===n.pairId)}));
   function appFor(){
     const a=Object.create(Component.prototype);Object.assign(a,{nodes:ns,currentPos:0,playerRole:'top',moveCount:8,maxMoves:9,_combo:3,_qMod:-.04,aiSkill:.07,_posKey:'Position|Top',_sharp:{'Position|Top':.1},prep:{'Position|Top':2},beats:[],settings:{}});
-    for(const name of ['fx','setEvent','flashFx','bumpBounce','flare','clearTimers','clearOptions','_flushSave','ladderMove','track','applyDeckVisibility','showCenter'])a[name]=()=>{};
+    for(const name of ['fx','setEvent','flashFx','flare','clearTimers','clearOptions','_flushSave','ladderMove','track','applyDeckVisibility','showCenter'])a[name]=()=>{};
     a.startTravel=(_path,done)=>done();a.after=(_delay,done)=>done();a.canonicalState=i=>i;a.get=(_key,fallback)=>fallback;a.cfg=()=>({signalSpeed:1});
     a.resolveOutcomeTo=to=>{const r=graph.destinations[to];return {idx:r.nodeId?ns.findIndex(n=>n.id===r.nodeId):-1,role:r.role,terminal:r.terminal};};
     a.opponentDefend=()=>{a.phase='opponent';};a.enterLand=()=>{a.phase='arrival';};a.endRound=kind=>{a.outcome=kind;};return a;

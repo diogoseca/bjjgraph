@@ -2856,7 +2856,8 @@ export const useCases = [
       // THE SAVE HINT, AS IT ACTUALLY IS TODAY (restored 2026-08-17 after the coordinator's
       // correction). What v1.68 pane law retired was the pane-OPENING nudge — the roll loop
       // must never touch the pane — and the edge tab it used to shake died with the pill in
-      // v1.99.0. The notification itself is live: maybeShowSaveHint() still fires save_hint and
+      // v1.99.0. [RETIRED v1.301.3, SAVE1-R0: the toast and its save_hint beat are deleted; four save lines in the drawer
+      // replace it. This mock frame is kept as the catalog keeps retired rows.] It said: maybeShowSaveHint() still fires save_hint and
       // one MUTED toast after two cards are answered, and a reel that omits a live
       // notification under-reports the product. So it belongs here, and only here: the
       // pane-law frames stay free of it, because the deliberate save surface is the pane's own
