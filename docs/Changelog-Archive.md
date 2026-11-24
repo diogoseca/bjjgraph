@@ -22268,17 +22268,18 @@ So:
 - The readers that sum `stage` by its keys skip a marked grade, as if it were deleted (`_gradeGone`): `deckMastery`'s
   unloaded branch (feeding the score, the belt and the map's gold), the deck glyph `seenGlyph`, and the challenge
   evidence's `recallCount`. Readers by a live card's own key never meet one.
-- The marker is union-merged on the pull and at the guest join (`_mergeProgressFields`) and read leniently
-  (`ngStageGoneRead`: a malformed entry is dropped, never a reason to refuse the record). It is derived and never practice
-  (`ngProgressPracticeKey` drops marked grades and the marker). An older build keeps it whole through `_progressExtras`.
+- **The marker is the browser's own** (CARD1-S0-R1, below): kept beside `<owner>:device` (`ngProgressLocalKey(owner,
+  "gone")`, host `goneRead`/`goneWrite`, read leniently by `ngProgressGoneParse`, which refuses `__proto__`,
+  `constructor` and `prototype`). It is never in the record, never merged, pushed or joined.
 - A marked question live again (a rewording reverted) is unmarked and counts: the one place it differs from a deletion,
   in the player's favour.
 
-**What it costs.** A kept grade is ~13 bytes in `stage` (it was already stored before the prune would have shrunk the
-record), and its mark ~13 more, plus a deck key per marked deck. A player with 300 cards answered before v1.182.2 keeps
-~150 stale grades: ~5 KB. The most extreme record (every card answered before v1.182.2: 10,964 deck rows in up to 2,896
-decks) adds ~250 KB of markers. Nothing prunes them, and the record has no size cap (the cloud keeps it as JSON; the
-browser's ~5 MB per site is the practical ceiling, far above).
+**What it costs.** A kept grade is ~13 bytes in `stage`, synced; it was already stored before the prune would have shrunk
+the record. Its mark, ~13 more plus a deck key per marked deck, stays in that browser's own storage and is never synced. A
+player with 300 cards answered before v1.182.2 keeps ~150 stale grades: ~2 KB in the record and ~3 KB of marks. The most
+extreme record (every card answered before v1.182.2: 10,964 deck rows in up to 2,896 decks) keeps ~140 KB of grades in the
+record and ~250 KB of marks per browser. Nothing prunes either. The record has no size cap (the cloud keeps it as JSON),
+and the browser's ~5 MB per site is far above.
 
 **Proof:**
 - **`tests/stale_grades_kept.test.mjs`** (7). One player and its PRUNED TWIN (the same record with the grades deleted:
@@ -22296,6 +22297,38 @@ browser's ~5 MB per site is the practical ceiling, far above).
   landed, rebooted from storage, then Master the game. Every number (mastery, glyph, recall, mastered decks, score, belt,
   due, the map's gold) and Master the game's rows are identical on both builds. The only difference is the stored record
   after the landing and after the reboot: dev 3 grades, this build 6 with 3 marked.
+
+**CARD1-S0-R1** (the sync reader of PR #468: MERGE AFTER 1 fix). As first built, the marker was SYNCED (union-merged).
+Each browser marks against the deck as IT loaded it, so:
+- a browser on older content (a tab open across a content deploy, or production against the preview on one account) hid a
+  grade live on an up-to-date browser at every pull;
+- a browser that never loaded a deck took the marks and read LOWER than dev: the score in 95 of 100 records;
+- production's build pinned its first copy of the key and pushed it back.
+
+The marker now stays on the device. A record that already carries a synced `stageGone` (the preview's, from this PR's
+first builds; none in production) is ignored, and kept as it is through `_progressExtras`: never deleted by us.
+
+The orchestrator's ruling 2, written where the marker is read (`_gradeGone`): after a pull, a browser that already landed
+a deck keeps hidden a grade another copy brings back. Dev counted it until its next landing (its own climb); this build
+shows dev's settled number, and the two are equal after the next landing. Also from the read:
+- the rating's diagnostic `stageOnly` skips a marked grade;
+- the chunk-count guard is pinned (a partial deck marks nothing).
+
+**R1's proof:**
+- **The reader's `hide.mjs`** ends with A's numbers equal to dev's (mastery 0.571, "4 of 7 met", recall 4), with C not
+  marked on A.
+- **The reader's differential**, run by the seat with a marker store per device (100 records, five batches of 20), on dev
+  against this build: identical after boot, the landing, a second landing, a reboot with and without the live set, a pull
+  and then a landing, and on a device that never loaded the decks after a sync. The marker is in no pushed record (0 of
+  100), so production's build is never sent it. The pull state differs as ruled (dev's climb, 232 deck readings), and the
+  practice key's value differs where stale grades are kept.
+
+  The practice key feeds one decision: at sign-in, "your practice from before you signed in is saved". That differs from
+  dev only for a guest whose only additions are grades on questions gone from decks it loaded. Those grades now join, so
+  the line is true.
+- **`tests/stale_grades_kept.test.mjs`** is rebuilt on per-device stores (11 tests). Eight mutants red: the prune
+  deleting; `deckMastery` or `recallCount` not skipping; the marker written into the record; the marker not read back on a
+  reboot; the chunk-count guard removed; the unsafe-key guard removed; `stageOnly` not skipping.
 
 **And the content bot's stronger guard** (the orchestrator's ruling, its own commit). `restore_questions`, beside
 `restore_mc` and `restore_clips`, runs after the model answers and before the MC re-merge. It puts back every EXISTING
