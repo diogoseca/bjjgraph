@@ -4476,9 +4476,10 @@ class Component extends DCLogic {
   /** the line under the belt row on screen, once its number shows, on his first day (a later day is the badge's) */
   _placeBeltLine() {
     if (!this._beltNumShown || !this._saveLineOk()) return;
+    // the stored mark and the day first: a line spent today reads no layout at all (this runs at every repaint of the row)
+    if (!(this._saveLine && this._saveLine.kind === "belt") && (!this._saveLineFree("belt") || this._saveHeld().later)) return;
     const row = [...(this.drillRef?.current?.querySelectorAll("[data-belt-row]") || [])].find((r) => r.getClientRects().length);
     if (!row) return;
-    if (!(this._saveLine && this._saveLine.kind === "belt") && (!this._saveLineFree("belt") || this._saveHeld().later)) return;
     const el = this._saveLineFor("belt", "Your belt lives in this browser only.", false);
     if (el && el.previousElementSibling !== row) row.after(el);
   }
