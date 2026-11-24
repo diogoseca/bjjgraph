@@ -576,7 +576,7 @@ class Component extends DCLogic {
       optionsRef: this.optionsRef, fxRef: this.fxRef,
       drillRef: this.drillRef, drillHeadRef: this.drillHeadRef, drillListRef: this.drillListRef, drillFootRef: this.drillFootRef, drillCountRef: this.drillCountRef,
       shareCueRef: this.shareCueRef,
-      closeDeck: () => this.setDeckOpen(false), drawerHome: () => this.drawerHome(), openSignup: () => this.openAuth("create"),
+      closeDeck: () => this.setDeckOpen(false), drawerHome: () => this.drawerHome(), openSignup: () => this._saveLineSave(),
       legendMarkRef: this.legendMarkRef,
       accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, acctCtaRef: this.acctCtaRef, toggleAccountMenu: () => this.toggleAccountMenu(),
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
@@ -4459,7 +4459,19 @@ class Component extends DCLogic {
   _saveLinesOnOpen() {
     if (!this._saveLineOk()) return;
     const held = this._saveHeld();
-    if (!held.later) this._placeBeltLine();
+    if (held.later) this._placeBadgeLine(held); else this._placeBeltLine();
+  }
+  _placeBadgeLine(held) {
+    const wrap = this.accountRef.current, chip = this.acctChipRef.current;
+    if (!wrap || !chip || !wrap.getClientRects().length || !this._saveLineFree("badge")) return;
+    const n = (k, one, many) => k.toLocaleString("en") + " " + (k === 1 ? one : many), parts = [];
+    if (held.cards) parts.push(n(held.cards, "card", "cards"));
+    if (held.lists) parts.push(n(held.lists, "list", "lists"));
+    if (held.belt.level > 0) parts.push("your " + held.belt.id + " belt");
+    if (!parts.length) return;
+    const said = parts.length > 1 ? parts.slice(0, -1).join(", ") + " and " + parts[parts.length - 1] : parts[0];
+    const el = this._saveLineFor("badge", "In this browser only: " + said + ".", false);
+    if (el && el.nextElementSibling !== chip) wrap.insertBefore(el, chip);
   }
   /** the line under the belt row on screen, once its number shows, on his first day (a later day is the badge's) */
   _placeBeltLine() {
