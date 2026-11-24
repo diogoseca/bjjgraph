@@ -4395,6 +4395,7 @@ class Component extends DCLogic {
   _saveLineDrop() {
     const cur = this._saveLine; this._saveLine = null;
     if (!cur) return;
+    if (cur.kind === "list") this._saveListId = null;   // the list's moment is spent with its line
     cur.el.remove();
   }
   _saveLineBuild(kind, text) {
@@ -10788,6 +10789,8 @@ class Component extends DCLogic {
     // spent on bookkeeping), and a same-millisecond collision across two devices is merged
     // harmlessly by the add-wins rule anyway.
     const id = "l" + Date.now().toString(36) + (this._listSeq = (this._listSeq || 0) + 1).toString(36);
+    // SAVE1: a guest's FIRST list is a moment its row says it is kept in this browser only (drawn by the Your lists rows)
+    if (!this.user && !Object.keys(this._listsMap()).length) this._saveListId = id;
     this._listsMap()[id] ={ name: name || ngListDefaultName(new Date()), items: [], t: this._listStamp() };
     this._saveProgress();
     this._expandList(id); // a list you just made is a list you are about to fill — show its inside
@@ -12691,6 +12694,10 @@ class Component extends DCLogic {
       chev.style.cssText = "flex:none;display:inline-flex;align-items:center;justify-content:flex-end;pointer-events:auto;cursor:pointer;font-family:inherit;border:0;background:transparent;color:#5d6883;border-radius:7px;" + (thumb ? "width:44px;height:44px;padding:0 12px 0 0;margin-right:-22px;" : "width:24px;height:24px;padding:0;margin-right:-10px;");
       chev.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this._toggleListOpen(id); });
       row.appendChild(chev);
+      // SAVE1: the guest's first list says, on its own row, where it is kept (a moment: it takes the one slot), once it holds
+      // a technique: an EMPTY list is not kept anywhere (`ngListsNormalize` drops it at the next load), so saying it is kept
+      // here would be untrue until then
+      if (id === this._saveListId && l.items.length) { const sl = this._saveLineFor("list", "Kept in this browser only.", true); if (sl) row.appendChild(sl); }
       // ── the disclosure body: the techniques themselves ──
       // A CHILD of the row (which is flex-wrap), not a sibling, so the list reads as one card
       // and Drill / Share / × keep their own line above it. No overflow of its own: the pane
