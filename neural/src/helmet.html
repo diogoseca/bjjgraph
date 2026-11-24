@@ -110,6 +110,16 @@
   /* the guest's calmer save offer (round 4, after G7 e): quiet outline, not a shouting gradient */
   .ngSignupCta{flex:none;min-height:34px;padding:0 14px;cursor:pointer;font:700 12px/1 "Plus Jakarta Sans",sans-serif;color:#dce4ff;background:rgba(110,140,255,.12);border:1px solid rgba(140,165,255,.36);border-radius:999px;}
   .ngSignupCta:hover{background:rgba(110,140,255,.22);}
+  /* SAVE1 (v1.300.3): THE SAVE LINES (`_saveLineFor`). One quiet line, a faint weave for texture, its Save and its ✕ each a
+     44 px target. The badge's line (no Save of its own) wraps the badge onto a second row above the name. */
+  .ng-saveln{display:flex;align-items:center;gap:0;min-height:44px;padding:0 0 0 12px;box-sizing:border-box;border-radius:11px;border:1px solid rgba(140,165,255,.17);background:repeating-linear-gradient(135deg,rgba(160,180,255,.05) 0 1px,transparent 1px 6px),linear-gradient(180deg,rgba(64,82,160,.16),rgba(40,52,110,.12));font:500 12px/1.4 "Plus Jakarta Sans",sans-serif;color:#b6bfd8;text-align:left;}
+  .ng-saveln-t{flex:1;min-width:0;padding:7px 4px 7px 0;text-wrap:pretty;}
+  .ng-saveln button{flex:none;min-width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;padding:0;border:0;background:transparent;cursor:pointer;font-family:inherit;color:inherit;}
+  .ng-saveln [data-save-line-save]>span{display:inline-flex;align-items:center;height:28px;padding:0 13px;border-radius:999px;font-size:12px;font-weight:700;color:#dce4ff;background:rgba(110,140,255,.14);border:1px solid rgba(140,165,255,.38);}
+  .ng-saveln [data-save-line-x]{color:#7e8aa3;}
+  @media (hover:hover){.ng-saveln [data-save-line-save]:hover>span{background:rgba(110,140,255,.26);}.ng-saveln [data-save-line-x]:hover{color:#dbe2f0;}}
+  .ng-saveln button:focus-visible{outline:2px solid #9ab0e0;outline-offset:-5px;border-radius:12px;}
+  [data-save-line="belt"]{margin:0 12px 10px 41px;}
   /* the badge's menu, portaled to the root above the badge; the small line carries the secondary links */
   .ng-account-menu{position:absolute;right:0;bottom:calc(100% + 10px);width:236px;flex-direction:column;background:linear-gradient(180deg,rgba(26,30,52,.99),rgba(18,21,38,.99));border:1px solid rgba(130,150,190,.22);border-radius:14px;box-shadow:0 14px 44px rgba(0,0,0,.55);padding:5px;animation:ngCardIn .18s ease both;}
   /* LEGAL3 (v1.264.0): the legal boxes (openLegal). Head, text, footer: the text scrolls between them, so "Extended version" and the
