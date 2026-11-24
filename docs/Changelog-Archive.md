@@ -22211,3 +22211,62 @@ reads REMOVED. Mutant (the toast put back): the pane-law test is red.
 **Pinned by** `e2e/journeys/save-lines.spec.ts` (8 tests, 1440 by mouse and 390x631 by touch), with one mutant per line,
 each red on a named test against a green baseline: M1 belt (`_paintBeltRow` stops placing the line), M2 list (the line on
 an empty list), M3 done (the Done card stops asking), M4 badge (a ✕ hides for 1 day, not 7).
+
+## v1.301.5 — A grade is never deleted, and the content bot puts back any question it changed (CARD1-S0; 24 Nov 2026)
+
+**Why** (CARD1). A card's progress is keyed by a hash of its exact question text. When a deck landed,
+`_pruneStaleGrades` deleted the grade of every question the deck no longer held, so a reworded card's grade was gone for
+good. CARD1's recovery (slice 3) needs those grades. And once a card keeps its key through a rewording (slice 2), an
+older build's prune must not be able to delete it.
+
+**The design: a marker, not count-side** (the orchestrator's option 2 of the CARD1-S0 note). The first ruling was to skip
+rows "the loaded deck or the live set says are gone". It could not meet its own test (nothing a player sees changes):
+- after a reboot, grades dev had deleted would count again until the live set landed;
+- in decks dev had never loaded, skipping by the live set would LOWER a player's mastery, gold, score and belt, against the
+  owner's "scoring changes only add".
+
+So:
+- When a deck lands, its stale grades are MARKED gone (`stageGone`, {deck: {question hash: 1}}) and kept in `stage`.
+- The readers that sum `stage` by its keys skip a marked grade, as if it were deleted (`_gradeGone`): `deckMastery`'s
+  unloaded branch (feeding the score, the belt and the map's gold), the deck glyph `seenGlyph`, and the challenge
+  evidence's `recallCount`. Readers by a live card's own key never meet one.
+- The marker is union-merged on the pull and at the guest join (`_mergeProgressFields`) and read leniently
+  (`ngStageGoneRead`: a malformed entry is dropped, never a reason to refuse the record). It is derived and never practice
+  (`ngProgressPracticeKey` drops marked grades and the marker). An older build keeps it whole through `_progressExtras`.
+- A marked question live again (a rewording reverted) is unmarked and counts: the one place it differs from a deletion,
+  in the player's favour.
+
+**What it costs.** A kept grade is ~13 bytes in `stage` (it was already stored before the prune would have shrunk the
+record), and its mark ~13 more, plus a deck key per marked deck. A player with 300 cards answered before v1.182.2 keeps
+~150 stale grades: ~5 KB. The most extreme record (every card answered before v1.182.2: 10,964 deck rows in up to 2,896
+decks) adds ~250 KB of markers. Nothing prunes them, and the record has no size cap (the cloud keeps it as JSON; the
+browser's ~5 MB per site is the practical ceiling, far above).
+
+**Proof:**
+- **`tests/stale_grades_kept.test.mjs`** (7). One player and its PRUNED TWIN (the same record with the grades deleted:
+  what dev leaves), read by the same code. Every number is equal after the landing and after a reboot with the deck not
+  loaded and no live set: mastery, the glyph, `recallCount`, `masteredDeckCount`, gameScore, the due count. Also:
+  - the stored record holds the grades and the marker;
+  - a player with no stale grade writes dev's record;
+  - a sync round-trip in both orders, against a fake cloud with no marker, keeps both;
+  - the practice key matches the twin's;
+  - unmarking works, and a malformed marker is dropped.
+
+  Five mutants red: the prune deleting again; `deckMastery` or `recallCount` not skipping; the pull dropping the cloud's
+  marker; the practice key keeping marked grades.
+- **On dev's build against this one, in a browser:** a player with three stale grades and one without; seeded, the deck
+  landed, rebooted from storage, then Master the game. Every number (mastery, glyph, recall, mastered decks, score, belt,
+  due, the map's gold) and Master the game's rows are identical on both builds. The only difference is the stored record
+  after the landing and after the reboot: dev 3 grades, this build 6 with 3 marked.
+
+**And the content bot's stronger guard** (the orchestrator's ruling, its own commit). `restore_questions`, beside
+`restore_mc` and `restore_clips`, runs after the model answers and before the MC re-merge. It puts back every EXISTING
+flashcard question verbatim, per array:
+- matched first by the same text, then by the same answer (a reword: the question back), then by the same position
+  (reworded with its answer: both back);
+- a deleted card comes back whole;
+- existing cards keep their original order, and new cards follow.
+
+It is a pure function, unit-tested on a recorded content file (`tests/question_restore.py`, 12 cases, run by
+`tests/question_restore.test.mjs`). Mutants: step 2, step 4 and the order each red; step 2 had survived until "a reword
+that also moved" was added. The bot is not run.
