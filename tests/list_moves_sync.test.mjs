@@ -47,6 +47,11 @@
 //      (its items, its `t`, its cell, its order record), and every captured older validator takes the record;
 //  25. its Undo takes the item out of the list it was added to only: the target's `t` back, its "out" cell written (as a
 //      move's Undo writes), the list it stayed in untouched; a list the add made, still as made, goes; one changed since stays.
+//  26. THE UNDO AFTER ANOTHER DEVICE PULLED THE ADD (the orchestrator, on the survey: the Undo writes a cell, so the sync
+//      reader reads it): device B pulled the add before A's Undo; when they meet, both ways, the item is out of the target
+//      on both and they agree (a plain removal would come back from B: lists merge add-wins);
+//  27. …and B edited that list in between (another technique added to it): the item stays out on both, B's addition stays
+//      on both, and they agree.
 // ADD1 MUTANTS (each red here after a clean control): A1 the source rewritten by "Add to…" (its `t` bumped); A2 the Undo
 // taking the item out of the source too. ("Already there" not off is the journey's: e2e/journeys/lists-add-to.spec.ts.)
 // NOT KILLED HERE, and why (MOVE-R1, the reader's mutants.py): M13, the source cell stamped one LATER than the target's,
@@ -650,4 +655,48 @@ test('25. its Undo takes the item out of the list it was added to only; a list i
   assert.equal(a.undoAddListItem(), true);
   assert.deepEqual(a.lists[id2] && a.lists[id2].items, [Z], 'a list changed since it was made stays, the item out');
   assert.equal(sourceOf(JSON.parse(JSON.stringify({ lists: a.lists, listItemAt: a.listItemAt, listOrderAt: a.listOrderAt }))), before, 'and the list it stayed in is still untouched');
+})));
+
+/** Two devices of one account (A, B), each its own harness and memory; `serve(h, blob)` is the cloud as that device pulls it. */
+async function addDevices(flush) {
+  const dev = async () => { const h = harness(); await h.boot(); const d = h.switchTo('A'); d.prep.local = 1; await d._pullAndMerge(); await flush(); addGraph(d); addState(d); d._flushSave(); await flush(); return { h, d }; };
+  return [await dev(), await dev()];
+}
+const serve = (h, blob) => { h.facade.pullNeural = async id => ({ userId: id, blob: reordered(JSON.parse(JSON.stringify(blob))) }); };
+const blobNow = d => JSON.parse(JSON.stringify(d._progressBlob()));
+
+test('26. an add\'s Undo stays an Undo on a device that pulled the add first: the item out of the target on both, both ways', () => withClock(() => fakeTimers(async ({ flush }) => {
+  const [X, Y, Z] = ADD_IDS;
+  const [A, B] = await addDevices(flush);
+  A.d._pickAdd = 'S';
+  assert.equal(A.d.pickAddTo('T', X, false), true, 'A: Add to… Guard');
+  // (no flush until A's Undo: the fake timers would run its 90-second offer out at once; B pulls within it, as in life)
+  serve(B.h, blobNow(A.d)); assert.equal(await B.d._pullAndMerge(), true);
+  assert.deepEqual(B.d.lists.T.items.slice().sort(), [X, Z].sort(), 'premise: B pulled the add (X in Guard on B)');
+  const bBefore = blobNow(B.d);                                   // B's record, still holding the add
+  assert.equal(A.d.undoAddListItem(), true, 'A: Undo');
+  const aAfter = blobNow(A.d);
+  // they meet: B takes A's Undo, and A takes B's record that still holds the add
+  serve(B.h, aAfter); await B.d._pullAndMerge(); await flush();
+  serve(A.h, bBefore); await A.d._pullAndMerge(); await flush();
+  assert.deepEqual([A.d.lists.T.items, B.d.lists.T.items], [[Z], [Z]], 'the item is out of Guard on both');
+  assert.deepEqual([itemsOf(A.d.lists).S, itemsOf(B.d.lists).S], [[X, Y], [X, Y]], 'and still in Monday on both');
+  assert.deepEqual(itemsOf(A.d.lists), itemsOf(B.d.lists), 'the two devices agree');
+  assert.equal(B.d.listItemAt.T[X][1], 0, "the Undo's out cell reached B");
+})));
+
+test('27. …and when that device edited the list in between, its edit stays and the item stays out, on both', () => withClock(() => fakeTimers(async ({ flush }) => {
+  const [X, Y, Z] = ADD_IDS;
+  const [A, B] = await addDevices(flush);
+  A.d._pickAdd = 'S';
+  assert.equal(A.d.pickAddTo('T', X, false), true, 'A: Add to… Guard');
+  serve(B.h, blobNow(A.d)); assert.equal(await B.d._pullAndMerge(), true);   // (no flush until A's Undo, as in 26)
+  assert.equal(B.d.addToList(Y, 'T').added, true, 'B, in between: Y added to Guard');
+  const bEdited = blobNow(B.d);
+  assert.equal(A.d.undoAddListItem(), true, 'A: Undo');
+  const aAfter = blobNow(A.d);
+  serve(A.h, bEdited); await A.d._pullAndMerge(); await flush();
+  serve(B.h, aAfter); await B.d._pullAndMerge(); await flush();
+  assert.deepEqual([itemsOf(A.d.lists).T, itemsOf(B.d.lists).T], [[Y, Z].sort(), [Y, Z].sort()], "the item out of Guard on both, B's Y in it on both");
+  assert.deepEqual(itemsOf(A.d.lists), itemsOf(B.d.lists), 'the two devices agree');
 })));
