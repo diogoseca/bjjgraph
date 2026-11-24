@@ -24,6 +24,10 @@
    area too. The page declares no viewport-fit=cover, so the term is 0 today and the browser keeps the viewport off the indicator;
    it is here so the last line and control stay reachable the day the page goes edge to edge. */
 .ng-reader-article { position:relative;pointer-events:auto;color:#d6def0;font:16px/1.65 "Plus Jakarta Sans",sans-serif;padding-bottom:calc(30px + env(safe-area-inset-bottom, 0px)); }
+/* OPP1, S4: the opponent's turn steps the article back (`_chainArticle`); its opacity comes from the app (NG_CHAIN.dim) */
+.ng-reader-article,.ng-reader-head,.ng-reader-toc { transition:opacity .3s ease; }
+.ng-reader[data-ng-step-back] .ng-reader-article,.ng-reader[data-ng-step-back] .ng-reader-head,.ng-reader[data-ng-step-back] .ng-reader-toc { opacity:var(--ng-step-back,.22); }
+@media(prefers-reduced-motion:reduce) { .ng-reader-article,.ng-reader-head,.ng-reader-toc { transition:none; } }
 .ng-reader-head { box-sizing:border-box;position:relative;pointer-events:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;margin:0 0 6px;z-index:7;background:#1b2034;border:1px solid #414c68;border-radius:10px;padding:4px 8px; }
 .ng-reader>.ng-reader-head { position:absolute; }
 .ng-reader-head[data-bare] { margin:0;padding:0;border:0;background:none; }

@@ -22236,6 +22236,7 @@ class Component extends DCLogic {
     if (!c || c.out != null) {
       c = this._chain = { legs: [], t0: this.now, opp: null, out: null, lease: null };
       this._ensureGameplanRuntime();   // the light's draw is the deferred bundle's (`ngLightDraw`): asked for at the miss
+      this._chainArticle(true);
     }
     for (const L of legs) if (L.a !== L.b && L.a >= 0 && L.b >= 0 && this.nodes[L.a] && this.nodes[L.b]) c.legs.push(L);
     return c;
@@ -22322,6 +22323,16 @@ class Component extends DCLogic {
    *  (`setEvent`'s `whole`: a name's "from" is part of it here). The last line stays until his next press, as every line
    *  does. Words from the corpus: the outcome's own `result`, `graphName`, the side. */
   _chainLine(prev, line, tone) { this.setEvent(prev, line, tone, this._execution || null, true); this._chainSaid = line; }
+
+  /** THE ARTICLE STEPS BACK (OPP1, S4; the orchestrator's ruling 3, (a)): from his miss until he can act, the article under
+   *  the map is still the page he pressed from, so it is dimmed (NG_CHAIN.dim), never swapped: an opponent's move's own page
+   *  is written for its canonical origin and would mislead, and a page that changes twice in a few seconds is noise. One
+   *  attribute on the reader's root (reading.css draws it); the reader keeps every input. */
+  _chainArticle(on) {
+    const r = this._readerEl; if (!r) return;
+    if (on) { r.setAttribute("data-ng-step-back", ""); r.style.setProperty("--ng-step-back", String(NG_CHAIN.dim)); }
+    else r.removeAttribute("data-ng-step-back");
+  }
 
   defendKeyFor(subNode) { return subNode.t + "|Defender"; } // full name, matches the emitted Defender deck key
   _catchProvenance() {
