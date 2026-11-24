@@ -55,7 +55,9 @@
 //  28. NEVER THE LAST LIST (ADD1-R1, the lists reader's fault 1, a loss in 9 of 12,000 fuzzed runs): B, unseen, MOVED the same
 //      item from the source into the same target; A pulls it (the item now stands only in the target) and presses Undo: the
 //      Undo does nothing and says so ("kept"), the item stays in the target on both devices, both meeting orders, and a
-//      fresh device finds it; where B moved it into a THIRD list instead, the Undo is taken (it stands there);
+//      fresh device finds it; where B moved it into a THIRD list instead, the Undo is taken (it stands there); and where A
+//      undoes WITHOUT having pulled B's move (B's move before or after A's add, both meeting orders), the Undo is taken
+//      (A sees the item in the source) and the merge's no-loss guard (`ngListsApplyMarks`) keeps it in the target on both;
 //  29. THE OUT CELL IN EVERY BRANCH (ADD1-R1, fault 2; the orchestrator's ruling: the target then follows the emptied-list
 //      rule, `removeFromList`'s, with no case of its own for a list the add made): a list made by "Add to…", pulled by B,
 //      then undone by A, is gone on both, both orders; one B renamed meanwhile (holding only the item) goes the same way;
@@ -748,6 +750,21 @@ test('28b. …and where the other device moved it into a THIRD list, the Undo is
   assert.equal(A.d.undoAddListItem(), true, 'A: Undo is taken');
   assert.deepEqual(where(A.d, X), ['U'], 'X out of Guard, in Open mat');
 })));
+
+for (const first of ['A', 'B']) for (const bFirst of [false, true]) {
+  test(`28c. …A undoes without having pulled B's move (B's move ${bFirst ? 'before' : 'after'} A's add; ${first} pulls first): X stays in Guard on both`, () => withClock(() => fakeTimers(async ({ flush }) => {
+    const [X] = ADD_IDS;
+    const [A, B] = await addDevices(flush);
+    if (bFirst) assert.ok(B.d.moveListItem(X, 'S', 'T', 'menu').moved, 'B, unseen: X moved from Monday into Guard');
+    A.d._pickAdd = 'S';
+    assert.equal(A.d.pickAddTo('T', X, false), true, 'A: Add to… Guard');
+    if (!bFirst) assert.ok(B.d.moveListItem(X, 'S', 'T', 'menu').moved, 'B, unseen: X moved from Monday into Guard');
+    assert.equal(A.d.undoAddListItem(), true, 'A, not having pulled, still sees X in Monday: the Undo is taken');
+    await flush();
+    await meetBoth(A, B, first, flush);
+    assert.deepEqual([where(A.d, X), where(B.d, X)], [['T'], ['T']], 'X in Guard on both, never in no list');
+  })));
+}
 
 for (const first of ['A', 'B']) {
   test(`29. "Add to…"'s new list, undone after B pulled it, follows the emptied-list rule on both (${first} pulls first)`, () => withClock(() => fakeTimers(async ({ flush }) => {
