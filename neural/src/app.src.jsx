@@ -23392,7 +23392,7 @@ class Component extends DCLogic {
       ctx.trackW = 9; ctx.dur = (S) => clamp(0.35 + 0.15 * S, 0.45, 0.9);
     } else if (this._chainBackTo && this.now < this._chainBackTo.until) {
       // OPP1-R1: back from the chain's framing to the roll's zoom in NG_CHAIN.back, the exchange's quick pace, EXACTLY: the
-      // zoom's own speed floor below (a flight never zooms faster than 3.2 log units per quarter turn) made it 1.57 s from
+      // zoom's own speed floor below (a flight's zoom never peaks above 3.2 log units a second) made it 1.57 s from
       // the widest framing at 1048 and 1.08 s at 390 (measured), past the hand; the ruling: shorten the glide, never hold
       // the hand
       ctx.trackW = 9; ctx.dur = () => NG_CHAIN.back; ctx.exact = true;
