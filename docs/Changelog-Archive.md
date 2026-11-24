@@ -21609,7 +21609,9 @@ is exactly what "Add to…" makes, and in the ordinary case that record has no c
   it standing only in the target, and the Undo then took it out of every list: a real loss, 9 of 12,000 fuzzed runs. Now
   the Undo does nothing in that case and the row says, for 5 s: "Kept in “<list>”: it is in no other list now." Unit 28
   pins it in both meeting orders, with a fresh device finding the item. 28b: when the item was moved into a third list,
-  the Undo is taken.
+  the Undo is taken. 28c, the reader's class: undone WITHOUT having pulled the other device's move, the Undo is taken and
+  the merge's no-loss guard (`ngListsApplyMarks`) keeps the item in the target on both (G1, the guard removed, red there).
+  A touch journey at 390 shows the line whole for a 60-character name, with no Undo button, gone in seconds (K1, K2).
 - **The out cell in every branch.** The new-list branch and the emptied branch deleted the list without the cell, so a
   device that had pulled the add brought both back (add-wins). The cell is now written first, before any delete. The
   target then follows `removeFromList`'s emptied-list rule (deleted at once, its light off), with no case of its own for a
