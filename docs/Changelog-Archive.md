@@ -21951,3 +21951,48 @@ LEAK1-R3, kept as it is).
   the plan lands. One draw, and the plan's rows then open as pressed.
 - **Mutant DRAW2a** (dev's `openPlanSession` and `_practiceAppend` put back): 4 of 4 red at "one draw", against a green
   control.
+
+## v1.300.2 — Where the opponent has finishes only, a finish every time (O1; the owner's ruling, 24 Nov 2026)
+
+**The owner's ruling** (U209 a, 24 Nov 2026): "Every time in those spots." Where the opponent's options at the player's
+seat are finishes only, the opponent now goes for a finish 100% of the time, not 90%.
+
+**Why it mattered.** The other 10% played a finish through the positional branch. That branch draws the move's outcome
+and reads a drawn tap as a stay, so the player stayed put and no defence drill started (S0-F4's O1, reproduced by real
+input at Twister Control).
+
+**The seats, from the data** (every seat swept, both sides):
+
+| ruleset | seats swept | finishes only |
+|---|---|---|
+| gi | 242 | Twister Control, the player bottom |
+| no-gi | 218 | Twister Control, the player bottom; Backside 50-50, the player bottom |
+
+A belt test adds no seat: it filters finishes to the belt's pool, and it keeps every positional counter when none of
+them is in the pool.
+
+**How** (`app.src.jsx`):
+- `opponentDefend`'s walk over the opponent's options moved, unchanged, into `_oppOptions()`.
+- The chance moved into `_oppFinishChance(subs, trans)`: 0 with no finish, **1 with finishes only** (it was 0.9), and
+  otherwise the dominance formula as it was.
+- `opp-finish` is still drawn, so the random stream keeps its shape.
+
+**Proof:**
+- **`tests/opp_finish_chance.test.mjs`** sweeps every seat in both rulesets with the app's own walk:
+  - the finishes-only seats are exactly the three listed;
+  - there the chance is 1 (dev's 0.9);
+  - everywhere else it is dev's, byte for byte (`Object.is`).
+- **`opponent-turn-chain.spec.ts`**, at Twister Control with the player bottom and `opp-finish` at 0.95: the defence
+  drill starts, on one of that seat's finishes.
+- **Mutant O1a** (the chance back to 0.9 there): the journey red, and the unit red in both rulesets.
+- **Same seeds, the base's build against this one:** the reader of PR #461's seeded sweep (seeds 4471 and 9001,
+  sixteen starts). It met none of the three seats. Everything matched:
+
+  | compared | identical |
+  |---|---|
+  | exchanges | 185 of 185 |
+  | rng draws, tags and values in order | 1,444 of 1,444 |
+  | outcome draws | 183 of 183 |
+  | landings | 177 of 177 |
+  | the opponent's turns | 94 of 94 |
+  | round ends | 23 of 23, same order |
