@@ -494,6 +494,18 @@ const NG_DOC_LABELS = {
   },
 };
 
+// CARD1-S0 (v1.301.5): the stored marker of grades gone from their decks, read leniently: {deck: {8-hex question hash: 1}};
+// anything else in it is dropped (a malformed entry never refuses the record). `_pruneStaleGrades` writes it.
+function ngStageGoneRead(v) {
+  const out = {};
+  if (!v || typeof v !== "object" || Array.isArray(v)) return out;
+  for (const dk of Object.keys(v)) {
+    const m = v[dk];
+    if (!m || typeof m !== "object" || Array.isArray(m)) continue;
+    for (const qh of Object.keys(m)) if (/^[0-9a-f]{8}$/.test(qh) && m[qh]) (out[dk] = out[dk] || {})[qh] = 1;
+  }
+  return out;
+}
 class Component extends DCLogic {
   canvasRef = React.createRef();
   wrapRef = React.createRef();
@@ -4672,15 +4684,34 @@ class Component extends DCLogic {
    * Guarded on the chunk agreeing with the manifest (`cards.length === n`): a truncated or
    * mid-deploy chunk must never be the thing that deletes a user's proof.
    */
+  //
+  // A GRADE IS NEVER DELETED (CARD1-S0, v1.301.5; the orchestrator's ruling on CARD1). This deleted the grade of a question the
+  // deck no longer holds; now it MARKS it gone (`stageGone`, {deck: {question hash: 1}}) and keeps it in `stage`, so a later
+  // slice can give it back to the reworded card (CARD1 slice 3), and no build that keeps the card's key (slice 2) can lose a
+  // grade to an older build's prune. What a player sees is dev's exactly: every reader that sums `stage` by its keys skips a
+  // marked row (`_gradeGone`: `deckMastery`'s unloaded branch, the deck glyph, the challenge evidence's `recallCount`), as
+  // if it had been deleted; readers by a live card's own key never meet one. A marked question live again (a rewording
+  // reverted) is unmarked, and its grade counts again: the one place this differs from a deletion, and only in the
+  // player's favour. The marker is union-merged (the pull and the guest join, `_mergeProgressFields`), is derived and never
+  // practice (`ngProgressPracticeKey`), and an older build keeps it whole through `_progressExtras`: a marker lost there
+  // costs a recount until the deck loads again, never a grade. Pinned by tests/stale_grades_kept.test.mjs.
   _pruneStaleGrades(key, cards) {
     const d = ((this.flashcards && this.flashcards.decks) || {})[key];
     const s = this.stage && this.stage[key];
     if (!s || !d || !cards || cards.length !== (d.n || cards.length)) return;
     const live = new Set(cards.map((c) => this.qhash(c.q)));
-    let dropped = 0;
-    for (const qh in s) if (!live.has(qh)) { delete s[qh]; dropped++; }
-    if (dropped) { this._bumpStageVer(); this._saveProgress(); }
+    const gone = (this.stageGone = this.stageGone || {});
+    let moved = 0;
+    for (const qh in s) {
+      const marked = !!(gone[key] && gone[key][qh]);
+      if (!live.has(qh) && !marked) { (gone[key] = gone[key] || {})[qh] = 1; moved++; }
+      else if (live.has(qh) && marked) { delete gone[key][qh]; if (!Object.keys(gone[key]).length) delete gone[key]; moved++; }
+    }
+    if (moved) { this._bumpStageVer(); this._saveProgress(); }
   }
+  /** CARD1-S0: is this stored grade one its deck no longer holds (marked when the deck last landed)? Readers that sum `stage`
+   *  by its keys skip it, as if it had been deleted. */
+  _gradeGone(key, qh) { const g = this.stageGone; return !!(g && g[key] && g[key][qh]); }
   /** A deck the MC pooler wanted but did not have resident. */
   _mcCold(key) {
     if (this._mcNeed) {
@@ -5180,6 +5211,9 @@ class Component extends DCLogic {
       // the moves you recalled from each state (v1.255.0, `_gradeMove`); absent on older blobs
       this.moves = Object.assign({}, p.moves || {});
       this.stage = Object.assign({}, p.stage || {});
+      // CARD1-S0: the grades marked gone (`_pruneStaleGrades`), {deck: {question hash: 1}}; read leniently (a malformed entry is
+      // dropped, never a reason to refuse the record); absent on older blobs
+      this.stageGone = ngStageGoneRead(p.stageGone);
       this.units = Object.assign({}, p.units || {});
       this.belts = Object.assign({ won: {} }, p.belts || {});
       this.belts.won = Object.assign({}, (p.belts || {}).won || {});
@@ -5242,6 +5276,7 @@ class Component extends DCLogic {
     // `moves` (v1.255.0) is written only once it holds a cell (review R4): an account that never graded a move
     // saves exactly the blob v1.254.0 saves, and an open older tab is never handed a `moves` copy to push back.
     if (Object.values(this.moves || {}).some(row => row && Object.keys(row).length)) out.moves = this.moves; else delete out.moves;
+    if (Object.keys(this.stageGone || {}).length) out.stageGone = this.stageGone; else delete out.stageGone;   // CARD1-S0
     // `listItemAt` (LISTS-R) the same way: written once it holds a cell, so an account that never moved an item saves
     // the blob it saved before (and the extras copy of an older shape never outlives the read above)
     if (ngListMarksCount(this.listItemAt)) out.listItemAt = this.listItemAt; else delete out.listItemAt;
@@ -8725,6 +8760,9 @@ class Component extends DCLogic {
         const cRec = cloud.v === 2 ? (cloud.rec || {}) : (cloud.prep || {}); // v1 cloud grandfathers
         for (const k in cRec) rec[k] = Math.max(rec[k] || 0, cRec[k] || 0);
         for (const dk in (cloud.stage || {})) { const s = (stage[dk] = stage[dk] || {}); const cs = cloud.stage[dk] || {}; for (const qh in cs) s[qh] = Math.max(s[qh] || 0, cs[qh] || 0); }
+        // CARD1-S0: the grades marked gone, a union (a mark is never taken back by a merge; a deck's landing unmarks a question
+        // live again)
+        { const g = (this.stageGone = this.stageGone || {}), cg = ngStageGoneRead(cloud.stageGone); for (const dk in cg) { const m = (g[dk] = g[dk] || {}); for (const qh in cg[dk]) m[qh] = 1; } }
         // FLOW LEDGER — a G-COUNTER, and the ONLY field here that is not a plain per-key MAX.
         // Counters are what MAX cannot carry: two devices at 30 rolls each are 60, and MAX
         // reads 30. Partitioned by device, each partition IS monotone, so per-device per-key
@@ -9880,7 +9918,7 @@ class Component extends DCLogic {
     const s = this.stage && this.stage[key];
     if (!s) return 0;
     const graded = [];
-    for (const qh in s) graded.push(Math.min(3, s[qh]) / 3);
+    for (const qh in s) if (!this._gradeGone(key, qh)) graded.push(Math.min(3, s[qh]) / 3);   // CARD1-S0: a marked grade, as if deleted
     // ONE definition of mastery, resident or not. `this.stage[key]` can hold grades for
     // questions the deck no longer has (a content pass rewords a card and its hash changes) —
     // the resident branch iterates real cards and cannot see them, so neither may this one.
@@ -17836,7 +17874,7 @@ class Component extends DCLogic {
       for (const c of cards) { const s = this.cardStage(key, c.q); if (s >= 3) proven++; if (s >= 1) met++; }
     } else {
       const st = (this.stage && this.stage[key]) || {};
-      for (const qh in st) { if (st[qh] >= 3) proven++; if (st[qh] >= 1) met++; }
+      for (const qh in st) { if (this._gradeGone(key, qh)) continue; if (st[qh] >= 3) proven++; if (st[qh] >= 1) met++; }   // CARD1-S0
       proven = Math.min(proven, total); met = Math.min(met, total);
     }
     if (proven >= total) return ["●", "#7ee0a8", "recall-proven"];
@@ -20235,6 +20273,7 @@ class Component extends DCLogic {
     for (const deckKey in (this.stage || {})) {
       const deck = this.stage[deckKey] || {};
       for (const questionHash in deck) {
+        if (this._gradeGone(deckKey, questionHash)) continue;   // CARD1-S0: a marked grade, as if deleted
         if ((deck[questionHash] || 0) >= 3) recallCount += 1;
       }
     }

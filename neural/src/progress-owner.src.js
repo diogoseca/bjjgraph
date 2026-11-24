@@ -495,6 +495,16 @@ export function ngProgressExploredKeys(list) {
 }
 export function ngProgressPracticeKey(blob) {
   const b = ngProgressGuestPart(blob);
+  // CARD1-S0 (v1.301.5): a grade marked gone (`stageGone`: its question left its deck, the app's `_pruneStaleGrades`) is not
+  // practice, as it was not when that grade was deleted; the marker itself is derived. So a copy reads as it did on a build
+  // that deleted it (an emptied deck's object kept, as the deletion kept it).
+  if (ngProgressObject(b.stageGone) && ngProgressObject(b.stage)) {
+    for (const dk of Object.keys(b.stageGone)) {
+      const m = b.stageGone[dk], st = b.stage[dk];
+      if (ngProgressObject(m) && ngProgressObject(st)) for (const qh of Object.keys(m)) delete st[qh];
+    }
+  }
+  delete b.stageGone;
   // the modifiers (v1.301.0, MODS1) are odds a player SET, not practice: they join (`joinGuest` counts them apart, as
   // `ngProgressModsKey`), but alone they never say "Your practice from before you signed in is saved" (ruling 2 a)
   delete b.settings; delete b.settingsAt;
