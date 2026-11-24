@@ -43,6 +43,8 @@ const MUTANTS = [
   // of the frame test goes red at his window and on the phone. And the spy blinded: the every-group wheel walk goes red.
   ["heads-as-options", "settings", "at 1074x796: the frame", ".ng-set-grp>h3{position:relative;margin:0;padding-bottom:8px;font-size:12px;line-height:16px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#96b4ff;", ".ng-set-grp>h3{position:relative;margin:0;padding-bottom:8px;font-size:14px;line-height:16px;font-weight:600;color:#eef1f6;"],
   ["heads-as-options-phone", "settings", "at 390x631: the frame", ".ng-set-grp>h3{position:relative;margin:0;padding-bottom:8px;font-size:12px;line-height:16px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#96b4ff;", ".ng-set-grp>h3{position:relative;margin:0;padding-bottom:8px;font-size:14px;line-height:16px;font-weight:600;color:#eef1f6;"],
+  // and the claim's other half: the blue kept, the case and the size back to the title's (14 px, no uppercase)
+  ["heads-colour-only", "settings", "at 1074x796: the frame", "font-size:12px;line-height:16px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#96b4ff;", "font-size:14px;line-height:16px;font-weight:700;letter-spacing:.08em;color:#96b4ff;"],
   ["spy-dead-every-group", "settings", "at 1074x796: a real wheel to each group", "\"[data-settings-group]\"", "\"[data-settings-groupX]\""],
   // SETH2 B (v1.298.2): one mutant per mapping of "During a roll, each place shows", red in e2e/journeys/settings-choices.spec.ts.
   ["shows-question-asks-nothing", "settings", "at 1074x796: each place shows", '&&this.set("landQuestions",', '&&this.set("landQuestions",!', "red", CHOICES],
