@@ -484,7 +484,8 @@ test("keyboard: the list keeps its keys — arrows, Home and End move and wrap, 
       if (/^(Arrow|Home|End)/.test(e.key)) (window as any).__leaked.push(e.key);
     });
   });
-  await openSettings(page, "flashcards");
+  // a plain opening, on the first group (General since SETH2 A, v1.298.2; it opened "flashcards", the first group until then)
+  await openSettings(page);
   const ids = (await geo(page)).tabs.map((t) => t.id);
   const focused = () =>
     page.evaluate(() => {
@@ -493,7 +494,7 @@ test("keyboard: the list keeps its keys — arrows, Home and End move and wrap, 
     });
   const state = async () => ({ tab: await page.evaluate(() => (window as any).__neural._settingsTab), focus: await focused() });
 
-  expect(await focused(), "opening Settings puts focus on the lit group, so the keys work at once").toBe("flashcards");
+  expect(await focused(), "opening Settings puts focus on the lit group, so the keys work at once").toBe(ids[0]);
   await page.keyboard.press("ArrowRight");
   expect(await state()).toEqual({ tab: ids[1], focus: ids[1] });
   await page.keyboard.press("ArrowDown");
