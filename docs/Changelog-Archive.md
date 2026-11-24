@@ -22330,6 +22330,24 @@ shows dev's settled number, and the two are equal after the next landing. Also f
   deleting; `deckMastery` or `recallCount` not skipping; the marker written into the record; the marker not read back on a
   reboot; the chunk-count guard removed; the unsafe-key guard removed; `stageOnly` not skipping.
 
+**CARD1-S0-R2** (the reader's re-read: its three faults closed; MERGE AFTER 1 fix, a test):
+- **The real host's marker store is now pinned.** `tests/stale_grades_host.test.mjs` drives the real class through
+  `ngProgressCreateHost` on a memory storage:
+  - land, then reboot: the marker is read back;
+  - guest → account A → sign out → account B → guest: each owner keeps its own marker;
+  - a storage that throws for the key: nothing throws, and no live grade is hidden;
+  - two tabs, in both orders.
+
+  The reader's three mutants of `goneRead`/`goneWrite` (one key for every owner, never read back, never written) passed
+  every unit before; each is red here.
+- **Two small changes, ruled yes:**
+  - `goneWrite` writes only the deck that landed, over the map the store holds now, so two tabs never drop each other's
+    decks (a mark or an unmark);
+  - `ngProgressGoneParse` builds on `Object.create(null)` at both levels.
+- **Known, and left:** an older build deletes a stale grade at each landing and pushes, and this build's MAX merge keeps
+  the cloud's row and pushes it back. Pushes, never data. It touches only an account signed in on both production and the
+  preview, and ends when production runs this build. Written at the merge line.
+
 **And the content bot's stronger guard** (the orchestrator's ruling, its own commit). `restore_questions`, beside
 `restore_mc` and `restore_clips`, runs after the model answers and before the MC re-merge. It puts back every EXISTING
 flashcard question verbatim, per array:

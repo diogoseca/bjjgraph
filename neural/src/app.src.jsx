@@ -4696,7 +4696,7 @@ class Component extends DCLogic {
       if (!live.has(qh) && !marked) { (gone[key] = gone[key] || {})[qh] = 1; moved++; }
       else if (live.has(qh) && marked) { delete gone[key][qh]; if (!Object.keys(gone[key]).length) delete gone[key]; moved++; }
     }
-    if (moved) { this._bumpStageVer(); this._goneSave(); }   // the record is unchanged: only this browser's marker is written
+    if (moved) { this._bumpStageVer(); this._goneSave(key); }   // the record is unchanged: only this browser's marker, this deck
   }
   /** CARD1-S0: is this stored grade one its deck no longer holds, as THIS browser last loaded the deck? Readers that sum
    *  `stage` by its keys skip it, as if it had been deleted.
@@ -4708,7 +4708,8 @@ class Component extends DCLogic {
   // the marker as this browser keeps it (host `goneRead`/`goneWrite`, progress-owner.src.js); with no host (a unit's app, a
   // merge's staging instance) it lives in memory only
   _goneLoad() { const h = this._progressHost; return h && h.goneRead ? (h.goneRead(this) || {}) : (this.stageGone || {}); }
-  _goneSave() { const h = this._progressHost; if (h && h.goneWrite) h.goneWrite(this, this.stageGone || {}); }
+  // one deck at a time, over what the store holds now (R2: two tabs never drop each other's decks); the store's map comes back
+  _goneSave(deck) { const h = this._progressHost; const r = h && h.goneWrite ? h.goneWrite(this, this.stageGone || {}, deck) : null; if (r && typeof r === "object") this.stageGone = r; }
   /** A deck the MC pooler wanted but did not have resident. */
   _mcCold(key) {
     if (this._mcNeed) {
@@ -8756,6 +8757,9 @@ class Component extends DCLogic {
         const rec = this.rec || {}, stage = this.stage || {};
         const cRec = cloud.v === 2 ? (cloud.rec || {}) : (cloud.prep || {}); // v1 cloud grandfathers
         for (const k in cRec) rec[k] = Math.max(rec[k] || 0, cRec[k] || 0);
+        // KNOWN, AND LEFT (CARD1-S0-R2, the reader's R2): an older build deletes a stale grade at each landing and pushes; this
+        // MAX keeps the cloud's row and pushes it back. Pushes, never data; only an account signed in on both a build that
+        // deletes and one that keeps (production and the preview), and it ends when production runs this build.
         for (const dk in (cloud.stage || {})) { const s = (stage[dk] = stage[dk] || {}); const cs = cloud.stage[dk] || {}; for (const qh in cs) s[qh] = Math.max(s[qh] || 0, cs[qh] || 0); }
         // FLOW LEDGER — a G-COUNTER, and the ONLY field here that is not a plain per-key MAX.
         // Counters are what MAX cannot carry: two devices at 30 rolls each are 60, and MAX

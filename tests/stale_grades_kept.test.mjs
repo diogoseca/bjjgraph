@@ -178,9 +178,16 @@ test("CARD1-S0-R1: a partial deck (the chunk-count guard) marks nothing; a secon
 
 test("CARD1-S0-R1: the marker's reader refuses `__proto__`, `constructor` and `prototype` at either level", () => {
   const raw = '{"__proto__":{"deadbeef":1},"constructor":{"deadbeef":1},"' + D + '":{"__proto__":1,"prototype":1,"deadbeef":1,"zz":1,"1234abcd":0}}';
-  assert.deepEqual(ngProgressGoneParse(raw), { [D]: { deadbeef: 1 } });
+  const r = ngProgressGoneParse(raw);
+  assert.deepEqual(clone(r), { [D]: { deadbeef: 1 } });
   assert.equal({}.deadbeef, undefined, "no prototype touched");
-  assert.deepEqual(ngProgressGoneParse("not json"), {});
+  assert.deepEqual(clone(ngProgressGoneParse("not json")), {});
+  // R2 (the reader's R4): built on Object.create(null) at both levels, so an inherited name finds nothing to write into
+  assert.deepEqual([Object.getPrototypeOf(r), Object.getPrototypeOf(r[D])], [null, null]);
+  const inh = ngProgressGoneParse('{"toString":{"deadbeef":1},"hasOwnProperty":{"deadbeef":1}}');
+  assert.equal(Object.prototype.toString.deadbeef, undefined, "toString's function untouched");
+  assert.equal(Object.prototype.hasOwnProperty.deadbeef, undefined, "hasOwnProperty's function untouched");
+  assert.deepEqual(clone(inh), { toString: { deadbeef: 1 }, hasOwnProperty: { deadbeef: 1 } }, "read as plain names, own entries");
 });
 
 test("CARD1-S0-R1: the rating's diagnostic `stageOnly` skips a marked grade", () => {

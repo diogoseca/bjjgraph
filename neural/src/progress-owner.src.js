@@ -685,16 +685,17 @@ function ngProgressSameOwner(a, b) { return ngProgressOwnerId(a) === ngProgressO
 // THE GRADES MARKED GONE (CARD1-S0, v1.301.5), as this browser keeps them (host `goneRead`): {deck: {8-hex question hash: 1}},
 // read leniently from a stored string or an object. Anything else is dropped, never a reason to refuse: a non-object, a
 // key that is not a question hash, a 0, and `__proto__` / `constructor` / `prototype` at either level (the list cells'
-// guard, `NGLM_UNSAFE`: a parsed `{"__proto__": {...}}` must never reach a prototype).
+// guard, `NGLM_UNSAFE`: a parsed `{"__proto__": {...}}` must never reach a prototype). Built on `Object.create(null)` at both
+// levels (CARD1-S0-R2, the reader's R4): a key like `toString` must find nothing inherited to write into.
 export function ngProgressGoneParse(v) {
-  const out = {}, unsafe = ["__proto__", "constructor", "prototype"];
+  const out = Object.create(null), unsafe = ["__proto__", "constructor", "prototype"];
   if (typeof v === "string") { try { v = JSON.parse(v); } catch { return out; } }
   if (!v || typeof v !== "object" || Array.isArray(v)) return out;
   for (const dk of Object.keys(v)) {
     if (!dk || unsafe.indexOf(dk) >= 0) continue;
     const m = v[dk];
     if (!m || typeof m !== "object" || Array.isArray(m)) continue;
-    for (const qh of Object.keys(m)) if (unsafe.indexOf(qh) < 0 && /^[0-9a-f]{8}$/.test(qh) && m[qh]) (out[dk] = out[dk] || {})[qh] = 1;
+    for (const qh of Object.keys(m)) if (unsafe.indexOf(qh) < 0 && /^[0-9a-f]{8}$/.test(qh) && m[qh]) (out[dk] = out[dk] || Object.create(null))[qh] = 1;
   }
   return out;
 }
@@ -1125,12 +1126,18 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       if (!host.current(inst)) return null;
       try { return ngProgressGoneParse(storage.getItem(ngProgressLocalKey(inst._progressOwner, "gone"))); } catch { return {}; }
     },
-    goneWrite(inst, marks) {
-      if (!host.current(inst)) return false;
+    // ONE DECK AT A TIME (CARD1-S0-R2, the reader's R3): `deck`'s marks are written over the map the store holds NOW, so two
+    // tabs of one browser never drop each other's decks (a tab's older copy of the whole map used to win). Answers the map
+    // as stored, so the tab sees the other tabs' decks too; false when the store cannot be read or written (nothing thrown).
+    goneWrite(inst, marks, deck) {
+      if (!host.current(inst) || typeof deck !== "string") return false;
       const key = ngProgressLocalKey(inst._progressOwner, "gone");
       try {
-        if (marks && Object.keys(marks).length) storage.setItem(key, JSON.stringify(marks)); else storage.removeItem(key);
-        return true;
+        const stored = ngProgressGoneParse(storage.getItem(key)), m = marks && marks[deck];
+        if (m && Object.keys(m).length) { stored[deck] = Object.create(null); for (const qh of Object.keys(m)) stored[deck][qh] = 1; }
+        else delete stored[deck];
+        if (Object.keys(stored).length) storage.setItem(key, JSON.stringify(stored)); else storage.removeItem(key);
+        return stored;
       } catch { return false; }
     },
     // ── v1.280.2 (NEXT2): the owner's undelivered answers (`ngProgressReplay`) ──
