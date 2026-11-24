@@ -39,6 +39,11 @@ const MUTANTS = [
   ["redraw-jumps", "settings", "scrolling lights the group in view", "this._settingsRowX==null", "!0"],
   ["keys-no-down", "settings", "keyboard: the list keeps its keys", "ArrowDown:", "ArrowDownX:"],
   ["frame-leaks-to-dialogs", "neural", "another dialog opened after Settings", "removeAttribute(\"data-settings-card\")", "getAttribute(\"data-settings-card\")"],
+  // SETH1 (v1.298.2): the group's heading put back in the option title's look (14 px / 600 / #eef1f6, no case change): the heading step
+  // of the frame test goes red at his window and on the phone. And the spy blinded: the every-group wheel walk goes red.
+  ["heads-as-options", "settings", "at 1074x796: the frame", ".ng-set-grp>h3{position:relative;margin:0;padding-bottom:8px;font-size:12px;line-height:16px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#96b4ff;", ".ng-set-grp>h3{position:relative;margin:0;padding-bottom:8px;font-size:14px;line-height:16px;font-weight:600;color:#eef1f6;"],
+  ["heads-as-options-phone", "settings", "at 390x631: the frame", ".ng-set-grp>h3{position:relative;margin:0;padding-bottom:8px;font-size:12px;line-height:16px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#96b4ff;", ".ng-set-grp>h3{position:relative;margin:0;padding-bottom:8px;font-size:14px;line-height:16px;font-weight:600;color:#eef1f6;"],
+  ["spy-dead-every-group", "settings", "at 1074x796: a real wheel to each group", "\"[data-settings-group]\"", "\"[data-settings-groupX]\""],
   // SET1-RED (PR #451's first CI run): CONTROLS THAT MUST STAY GREEN (the sixth field). The card's entrance slowed to 1.2 s: the frame
   // step must still read the card where it RESTS. The step as first shipped read it mid-slide on CI (30.68 px from the bottom at 800,
   // [0, 1, 390, 632] at 390) and goes red here; the step that waits for the card's animations holds.

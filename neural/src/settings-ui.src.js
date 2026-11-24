@@ -16,6 +16,22 @@ export const NG_SETTINGS_PRESENTATION_BUILD = NG_SETTINGS_UI_BUILD;
 // column whose prose is held to 60ch: at most 76 characters a line, pinned by settings-tabs.spec.ts), 48 px from the browser's edges at 900 px
 // and up, 32 px below that, and a full-screen sheet under 600 px. The look stays the app's: dark, a faint grain over the
 // card's own gradient, no emoji. Settings keys: none added, renamed or deleted (CLAUDE.md §6.6).
+// A GROUP'S HEADING IS A LABEL, NOT ANOTHER OPTION (SETH1, v1.298.2; the owner, 23 Nov 2026: "section headers in settings need to be
+// better diferentiates, otherwise i think they're options, type is too similar"). It was 17 px / 700 / #eef1f6 over the first option's
+// grey line; an option's title is 14 px / 600 / #eef1f6 over the same line: one face, one colour, one shape, 3 px apart. Now it is
+// a small-caps eyebrow (12 px / 700, uppercase, .08em) in the selected tab's own blue, #96b4ff (the hue of its border, rgba(150,180,
+// 255,.45), at full strength: 8.0:1 on the card's top, 6.8:1 on its lightest point, the radial tint plus the grain), standing on a
+// full-width hairline whose first 32 px is that blue. The rule chosen over a short bar before the word (the screens, 390 and 1074): a
+// 16 px dash read as a bullet at 390 and as a cousin of the grey "On screen during a roll" sub-heading, while the hairline marks the
+// edge of a group across the whole column of a long page. Its line stays under it, grey; the first control below drops its own top
+// line (two rules in a row read as noise). The space above a group (the last row's 16 plus the group's own 40) is more than between
+// two options (16 each side of a line), and it is the PREVIOUS group's padding, so the groups still tile the panel with no gap and
+// the spy's "group in view" is unchanged; the first group has no extra gap. Option titles are untouched.
+// NOT STICKY, measured: a heading held at the panel's top (position:sticky) covered the keyboard-focused control on 11 of 59 focus
+// steps backwards through the page at 390x631 and 16 of 59 at 1074x796, Chromium holds it below the panel's padding with controls
+// passing visibly above it, and it needs an opaque surface over the card's gradient. The group list already lights the group in
+// view (a rail on a wide screen, the chips on a phone), so it stays out. Pinned by settings-tabs.spec.ts (the heading against every
+// option title at four sizes; a wheel to each heading in turn lights its group), with the mutant "heads-as-options".
 // The modifiers' own controls are drawn by `buildModifiers` (eager, app.src.jsx) with inline sizes under the target; the
 // rules at the foot that name `.ng-set-mods` lift its search box, its kind chips and "Add modifier" to the
 // target from here, so the eager bundle does not grow. A modifier's own row (its dot, − / +, delete) exists only after one is
@@ -38,8 +54,11 @@ background:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wi
 .ng-set-nav .ng-stab[aria-selected=true]{background:rgba(74,108,255,.2);box-shadow:inset 0 0 0 1px rgba(150,180,255,.45)}\
 #ng-stab-panel{position:relative;flex:1;min-width:0;overflow-y:auto;overscroll-behavior:contain;padding:24px 24px 0}\
 .ng-set-grp{padding-bottom:40px}\
-.ng-set-grp>h3{margin:0;font-size:17px;font-weight:700;letter-spacing:-.005em;color:#eef1f6}\
+.ng-set-grp>h3{position:relative;margin:0;padding-bottom:8px;font-size:12px;line-height:16px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#96b4ff;border-bottom:1px solid rgba(150,170,210,.16)}\
+.ng-set-grp>h3::after{content:'';position:absolute;left:0;bottom:-1px;width:32px;height:2px;border-radius:1px;background:#96b4ff}\
 .ng-set-grp>p,.ng-set-sub>p{margin:4px 0 12px;font-size:13px;line-height:1.5;color:#8b97b0;max-width:60ch}\
+.ng-set-grp>h3+p{margin-top:8px}\
+.ng-set-grp>h3+:not(p),.ng-set-grp>h3+:not(p)>:first-child,.ng-set-grp>h3+p+*,.ng-set-grp>h3+p+*>:first-child{border-top:0}\
 .ng-set-sub{padding-top:16px;border-top:1px solid rgba(150,170,210,.09)}\
 .ng-set-sub>div{font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#7f8aa6}\
 .ng-set-row{position:relative;padding:16px 0;border-top:1px solid rgba(150,170,210,.09)}\

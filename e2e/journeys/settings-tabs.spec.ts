@@ -23,7 +23,10 @@ import { journey } from "../dsl";
  *  6. a press on a group, by a real mouse and by a touch tap, brings that group's heading to the panel's top and lights it;
  *     scrolling lights the group in view; an old id still opens on its own group; a redraw keeps the panel where it was;
  *  7. the keys: arrows, Home and End walk and wrap the groups, nothing leaks to the game, Esc closes; and a resize re-derives
- *     the list (a rail at 1440, a row of chips at 390, a rail again).
+ *     the list (a rail at 1440, a row of chips at 390, a rail again);
+ *  8. (SETH1, v1.298.2) a group's heading is a label, not another option: another colour AND another case or size than every
+ *     option title, at all four sizes; nothing in the panel runs past its width; and a real wheel to each group's heading in turn
+ *     lights the group in view, at 1074x796 and 390x631. SETH2 A (the owner) puts General first, and a plain opening lands on it.
  *
  * Every opening seats an account with the training-day email stored on, so the longest list (seven groups) is the one measured;
  * which groups each player sees is notifications-tab.spec.ts's claim.
@@ -62,11 +65,17 @@ type Geo = {
   list: Box & { scrollW: number; clientW: number; scrollH: number; clientH: number; overflowX: string; fade: string; mask: string };
   panel: Box & { scrollTop: number; scrollH: number; clientH: number; label: string };
   tabs: { id: string; label: string; selected: boolean; tabindex: string; btn: Box }[];
-  groups: { id: string; top: number }[];
+  groups: { id: string; top: number; b: number }[];
   controls: { what: string; w: number; h: number }[];
   helps: { text: string; cpl: number }[];
   notes: { inHead: boolean; shown: boolean; text: string }[];
+  heads: { id: string; text: string; look: Look; b: number }[];
+  titles: Look[];
+  panelScrollW: number;
+  panelClientW: number;
 };
+/** A text's computed look: what the eye reads first (colour, case, size, weight). */
+type Look = { color: string; transform: string; size: number; weight: number; text: string };
 
 const geo = (page: Page): Promise<Geo> =>
   page.evaluate(() => {
@@ -87,6 +96,10 @@ const geo = (page: Page): Promise<Geo> =>
       return r.width > 0 && r.height > 0 && getComputedStyle(e).visibility !== "hidden";
     };
     const pr = box(panel);
+    const look = (e: Element) => {
+      const c = getComputedStyle(e);
+      return { color: c.color, transform: c.textTransform, size: parseFloat(c.fontSize), weight: Number(c.fontWeight), text: (e.textContent || "").trim().slice(0, 24) };
+    };
     const controls = (Array.from(card.querySelectorAll('button, input, select, textarea, label, [role="tab"]')) as HTMLElement[])
       .filter(shown)
       // a box inside a label is pressed through its label: the LABEL is the target, and it is measured
@@ -127,6 +140,7 @@ const geo = (page: Page): Promise<Geo> =>
       groups: (Array.from(panel.querySelectorAll("[data-settings-group]")) as HTMLElement[]).map((g) => ({
         id: g.getAttribute("data-settings-group") || "",
         top: g.getBoundingClientRect().top - pr.t,
+        b: g.getBoundingClientRect().bottom - pr.t,
       })),
       controls,
       helps,
@@ -135,6 +149,16 @@ const geo = (page: Page): Promise<Geo> =>
         shown: shown(n),
         text: n.textContent || "",
       })),
+      // SETH1: every group's heading and every option title, as the browser computed them (never the stylesheet's text)
+      heads: (Array.from(panel.querySelectorAll("[data-settings-group] > h3")) as HTMLElement[]).map((h) => ({
+        id: h.parentElement!.getAttribute("data-settings-group") || "",
+        text: (h.textContent || "").trim(),
+        look: look(h),
+        b: h.getBoundingClientRect().bottom - pr.t,
+      })),
+      titles: (Array.from(panel.querySelectorAll(".ng-set-t")) as HTMLElement[]).filter(shown).map(look),
+      panelScrollW: panel.scrollWidth,
+      panelClientW: panel.clientWidth,
     };
   });
 
@@ -182,6 +206,33 @@ function assertAt(g: Geo, id: string, where: string) {
   expect(grp.top >= -EPS && (grp.top <= 24 || bottom), `${where}: the ${id} heading is at the panel's top (it is ${grp.top.toFixed(1)} px down, scrollTop ${g.panel.scrollTop})`).toBe(true);
   expect(grp.top, `${where}: and inside the panel's window`).toBeLessThan(g.panel.clientH);
   expect(g.tabs.find((t) => t.selected)?.id, `${where}: ${id} is lit`).toBe(id);
+}
+
+/** A GROUP'S HEADING IS A LABEL, NOT ANOTHER OPTION (SETH1, v1.298.2; the owner, 23 Nov 2026: "section headers in settings need to
+ *  be better diferentiates, otherwise i think they're options, type is too similar"). Measured before, on dev's build: a heading
+ *  17 px / 700 / rgb(238, 241, 246) and an option title 14 px / 600 / rgb(238, 241, 246): one colour, one case, 3 px apart. THE CLAIM,
+ *  for every heading against every option title on the page: the computed colours are at least HEAD_COLOUR_GAP apart (RGB distance),
+ *  AND the heading is in another case (uppercase, the title not) or at least HEAD_SIZE_GAP px from the title's size. The mutant
+ *  "heads-as-options" (tests/artifacts/settings_layout_mutants.mjs) puts the option title's look back on the heading. */
+const HEAD_COLOUR_GAP = 48; // dev's pair measures 0
+const HEAD_SIZE_GAP = 4; // px; dev's pair was 3 apart and read as one kind of text
+const rgbOf = (c: string) => (c.match(/[\d.]+/g) || []).slice(0, 3).map(Number);
+const colourGap = (a: string, b: string) => {
+  const x = rgbOf(a),
+    y = rgbOf(b);
+  return Math.hypot(x[0] - y[0], x[1] - y[1], x[2] - y[2]);
+};
+function assertHeads(g: Geo, where: string) {
+  expect(g.heads.map((x) => x.id), `${where}: one heading per group, in the list's order`).toEqual(g.tabs.map((t) => t.id));
+  expect(g.titles.length, `${where}: option titles measured (a step that finds none passes everything)`).toBeGreaterThan(10);
+  for (const h of g.heads)
+    for (const t of g.titles) {
+      const gap = colourGap(h.look.color, t.color);
+      expect(gap, `${where}: the "${h.text}" heading (${h.look.color}) and the "${t.text}" title (${t.color}) are ${gap.toFixed(0)} apart in colour`).toBeGreaterThanOrEqual(HEAD_COLOUR_GAP);
+      const cased = h.look.transform === "uppercase" && t.transform !== "uppercase",
+        sized = Math.abs(h.look.size - t.size) >= HEAD_SIZE_GAP;
+      expect(cased || sized, `${where}: the "${h.text}" heading (${h.look.transform}, ${h.look.size} px) and the "${t.text}" title (${t.transform}, ${t.size} px): another case, or ${HEAD_SIZE_GAP} px apart`).toBe(true);
+    }
 }
 
 /** THE CARD AT REST: its entrance has finished, and the panel and the chip row have stopped moving (a smooth glide), their
@@ -267,6 +318,9 @@ for (const [w, h, touch] of SIZES) {
       expect(shown[0].text, `${where}: word for word`).toBe(NOTE);
       expect(shown[0].inHead, `${where}: in the head on a wide screen, in the panel on a phone`).toBe(!touch);
       expect(await page.evaluate(() => /⚠/.test((window as any).__neural.modalCardRef.current.textContent)), `${where}: no emoji`).toBe(false);
+      // 6. a group's heading is a label, not another option (SETH1), and nothing in the panel runs past its width (the sheet still fits)
+      assertHeads(g, where);
+      expect(g.panelScrollW, `${where}: nothing in the panel runs past its width`).toBeLessThanOrEqual(g.panelClientW);
     });
 
     test(`at ${w}x${h}: a press on each group, by ${touch ? "a touch tap" : "a real mouse"}, brings it to the top and lights it`, async ({ page }) => {
@@ -358,6 +412,52 @@ test("scrolling lights the group in view; an old id opens on its own group; a re
   expect(after.top, "the redraw kept the panel's scroll").toBe(before.top);
   expect(Math.abs(after.y - before.y), "and the switch under the pointer").toBeLessThanOrEqual(1);
 });
+
+// THE SPY LIGHTS THE GROUP IN VIEW FOR EVERY GROUP (SETH1): the headings' new spacing is the previous group's own padding, so the
+// groups still tile the panel with no gap between them. For each group in turn a real wheel brings its heading to the panel's top;
+// the lit group is then the one whose box holds the line a third of the way down the panel (the spy's own definition of "in view"),
+// or the last at the very bottom; and every group taller than that third is lit by its own heading's arrival. Read from the rects
+// and the published aria-selected, never from the spy's offsetTop arithmetic. Opened plain, so it starts on the first group.
+for (const [w, h, touch] of [
+  [1074, 796, false],
+  [390, 631, true],
+] as [number, number, boolean][])
+  test.describe(`the spy at ${w}x${h}`, () => {
+    test.use({ viewport: { width: w, height: h }, hasTouch: touch });
+    test(`at ${w}x${h}: a real wheel to each group's heading in turn lights the group in view`, async ({ page }) => {
+      const j = journey(page);
+      await j.boot("/");
+      await openSettings(page);
+      await settled(page);
+      let g = await geo(page);
+      const ids = g.tabs.map((t) => t.id);
+      expect(g.tabs.find((t) => t.selected)?.id, "a plain opening lights the first group").toBe(ids[0]);
+      let tall = 0,
+        own = 0;
+      for (const id of ids) {
+        await page.mouse.move((g.panel.l + g.panel.r) / 2, (g.panel.t + g.panel.b) / 2);
+        await page.mouse.wheel(0, g.groups.find((x) => x.id === id)!.top - 8);
+        await settled(page);
+        g = await geo(page);
+        const lit = g.tabs.find((t) => t.selected)!.id,
+          third = g.panel.clientH / 3;
+        if (g.panel.scrollTop >= g.panel.scrollH - g.panel.clientH - 1) {
+          expect(lit, `wheeled to ${id}: at the very bottom, the last group is lit`).toBe(ids[ids.length - 1]);
+          continue;
+        }
+        const holder = g.groups.find((x) => x.top <= third + EPS && x.b > third - EPS);
+        expect(holder, `wheeled to ${id}: some group holds the line ${third.toFixed(0)} px down (the groups tile the panel)`).toBeTruthy();
+        expect(lit, `wheeled to ${id}: the group in view is lit`).toBe(holder!.id);
+        const mine = g.groups.find((x) => x.id === id)!;
+        if (Math.abs(mine.top - 8) <= 2 && mine.b - mine.top > third) {
+          tall++;
+          if (lit === id) own++;
+        }
+      }
+      expect(tall, "non-trivial: groups taller than a third of the panel, each wheeled to its heading").toBeGreaterThanOrEqual(3);
+      expect(own, "each of them lit by its own heading's arrival").toBe(tall);
+    });
+  });
 
 test("a resize with Settings open re-derives the list: a rail at 1440, chips with an honest fade at 390, a rail again", async ({ page }) => {
   const j = journey(page);
