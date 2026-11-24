@@ -39,7 +39,7 @@ import { journey } from "../dsl";
  *       that guard keeps other callers (a notice queued inside the window) from showing it early, and is not pinned
  *   U6 (the reader's) the drill's start not ending the chain    → "the defence drill's start ends the chain"
  * O1 (v1.300.2, the owner's ruling U209 a: where the opponent has finishes only, a finish every time):
- *   O1a `_oppFinishChance` back to 0.9 there                    → "at Twister Control bottom the opponent goes for a finish…"
+ *   O1a `_oppFinishChance` back to 0.9 there                    → "at Twister Control bottom the opponent goes for a finish…" (0.95 and 0.999)
  *       (and tests/opp_finish_chance.test.mjs, both rulesets)
  * NOT A MUTANT HERE: the drill's window with his leg capped is a premise-checked measure (cold page, CPU x4, the shortest
  * leg); a mutant that made the deck late would be a mutant of the prefetch, which this change does not touch.
@@ -457,7 +457,8 @@ test("the defence drill's start ends the chain: the article back, nothing of the
 // bottom the opponent's options are finishes only (tests/opp_finish_chance.test.mjs lists every such seat). Its finish draw
 // rigged to 0.95, over dev's 0.9: dev played that finish through the positional branch, where a drawn tap reads as a stay
 // and no drill starts (reproduced by real input, S0-F4). Now the drill starts, on one of that seat's four finishes.
-test("at Twister Control bottom the opponent goes for a finish every time: with its draw at 0.95 the defence drill starts", async ({ page }) => {
+// "Every time" is pinned at the top of the draw too (the map reader of PR #464, v1.300.4): 0.999, as well as dev's own band.
+for (const finishDraw of [0.95, 0.999]) test(`at Twister Control bottom the opponent goes for a finish every time: with its draw at ${finishDraw} the defence drill starts`, async ({ page }) => {
   const j = journey(page);
   await j.boot("/Positions/Twister-Control/Bottom");
   for (let i = 0; i < 20; i++) {
@@ -471,7 +472,7 @@ test("at Twister Control bottom the opponent goes for a finish every time: with 
   // (that the opponent has finishes only here is the unit's: tests/opp_finish_chance.test.mjs lists every such seat)
   expect([seat.id, seat.role], "premise: the player bottom at Twister Control").toEqual(["Positions/Twister-Control/Bottom", "bottom"]);
   expect(seat.hand.length, "premise: a hand to play").toBeGreaterThan(0);
-  await j.rig("resolve", [0.999]); await j.rig("outcome", [0.01, 0.01]); await j.rig("opp-finish", [0.95]); await j.rig("opp-pick", [0.0]); await j.rig("opp-sub-pick", [0.0]);
+  await j.rig("resolve", [0.999]); await j.rig("outcome", [0.01, 0.01]); await j.rig("opp-finish", [finishDraw]); await j.rig("opp-pick", [0.0]); await j.rig("opp-sub-pick", [0.0]);
   await j.pick(seat.hand[0]);
   let end: W = null;
   for (let k = 0; k < 300 && !end; k++) {
