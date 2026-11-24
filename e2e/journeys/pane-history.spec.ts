@@ -2,7 +2,7 @@ import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 // v1.282.0 (rulings R2, SET1-GO): written when nothing stored meant Classic recall in the sidebar; since then nothing
 // stored is Auto (a new card asks multiple choice), so every journey here states the mode it was written under,
-// Front Back cards, through the DSL (`journey(page, CLASSIC)`), and keeps every assertion.
+// Recall, through the DSL (`journey(page, CLASSIC)`), and keeps every assertion.
 const CLASSIC = { answerMode: "classic" } as const
 
 /**
@@ -16,7 +16,7 @@ const CLASSIC = { answerMode: "classic" } as const
  * (pane-law.spec.ts covers that):
  *
  *   - one row per state the roll has visited, in order, tagged with who moved you there
- *   - a row holds no card; "Practise here" opens its place in Master the game, and under Front Back cards the card there
+ *   - a row holds no card; "Practise here" opens its place in Master the game, and under Recall the card there
  *     reads question → Reveal → answer (never options)
  *   - revealing is SEEN, not credit — the honest economy holds there too
  *   - the history survives the round boundary, because the pane no longer clears itself
@@ -26,7 +26,7 @@ const CLASSIC = { answerMode: "classic" } as const
  *
  * FOUR TESTS HERE WERE RE-POINTED IN v1.293.0, none removed, each run against its mutant on dev's build before and on this
  * build after (docs/Changelog-Archive.md, v1.293.0, has the table):
- *   "a history row under Front Back cards…"   under Front Back cards the card asks multiple choice anyway (`_cardAsksMc`)  → "and no options anywhere in the pane" (on dev's build the same mutant was red only at the Reveal press timing out: the step read `[data-mc-opt]`, and the inline deck's options were `[data-inline-mc-opt]`)
+ *   "a history row under Recall…"   under Recall the card asks multiple choice anyway (`_cardAsksMc`)  → "and no options anywhere in the pane" (on dev's build the same mutant was red only at the Reveal press timing out: the step read `[data-mc-opt]`, and the inline deck's options were `[data-inline-mc-opt]`)
  *   "revealing … is SEEN, not credit"         a reveal credits the card (`doReveal`)                           → "reading an answer earns no mastery"
  *   "the history survives the round ending"   the round's end shuts the drawer (`endRound`)                    → "and its two actions are still there" (before: "and still readable")
  *   "free roam files the roll it ends…"       a filed roll does not repaint Last rolls (`_closeRoll`)          → "and filed it under Previous rolls"
@@ -94,11 +94,11 @@ test("the pane lists every state the roll has visited, in order", async ({ page 
 
 // v1.282.0: written when a history row was always front and back. Since then every inline deck asks the answer mode
 // (rulings R2; Auto asks a new card as multiple choice: answer-mode.spec.ts "Last rolls"), so this journey states the mode
-// it was written under, Front Back cards, and keeps every assertion.
+// it was written under, Recall, and keeps every assertion.
 // v1.293.0 (L3): the row holds no card; the same reading, question → Reveal → answer, is made where "Practise here" opens
 // the place, in Master the game. Every assertion is kept, on that card; the options' own handle there is
 // `data-practice-mc-opt`, asserted beside the study view's `data-mc-opt` the journey always read.
-test("a history row under Front Back cards reads question → reveal → answer, never multiple choice", async ({ page }) => {
+test("a history row under Recall reads question → reveal → answer, never multiple choice", async ({ page }) => {
   const j = journey(page, CLASSIC)
   await j.boot("/")
   await j.answerMode("classic")

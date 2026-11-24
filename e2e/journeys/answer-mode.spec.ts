@@ -15,7 +15,7 @@ import { journey } from "../dsl"
  *   3. From Last rolls, "Practise here" opens the place in Master the game, where the card asks the answer mode (Auto: a
  *      new card as multiple choice), and an answer there is a grade. (Until v1.293.0, L3, the row held its own inline deck,
  *      which asked the mode on a surface of its own, "inline"; a row is a place now and holds no card.)
- *   4. A stored Front Back cards asks a new card front and back in Practice and in a roll; a stored Multiple choice keeps a
+ *   4. A stored Recall asks a new card front and back in Practice and in a roll; a stored Multiple choice keeps a
  *      card right twice multiple choice in Practice and in a roll; and the old Recall mode switch, stored Off, decides nothing.
  *   5. (the reader of #423) "Never again" is per question: a question right twice in one deck asks front and back from every
  *      deck that shares it (D2); in the full-pane study view Space and ⏎ never reveal or grade a multiple-choice card (D4);
@@ -31,7 +31,7 @@ import { journey } from "../dsl"
  * app.src.jsx and one in knowledge-profile.src.js: every killer below stayed green. Killed here: default back to
  * "classic" (1, 2); a write of `mcMode` at boot (1, at "storage has no mcMode"); no floor in the grade (2); the landing
  * reads `recallInPlay` again (4, "the old switch"); a stored "mc" ignored in a roll (4); Last rolls' decks ignoring the
- * mode (3); `mcActive` ignoring a stored "classic" (4, "Practice: a stored Front Back cards…"); Auto's line moved from 2
+ * mode (3); `mcActive` ignoring a stored "classic" (4, "Practice: a stored Recall…"); Auto's line moved from 2
  * to 3 (2, 4); the Focus row put back (1, at "Focus left Settings"). NOT run against this file: the floor at 1, the floor from stage 1, and no floor in `_bumpStage`; those
  * are killed by tests/knowledge_profile.test.mjs's floor table. A boot write is killed HERE only: the units never run the
  * constructor (belt_worn and settings_presentation stayed green under it).
@@ -39,7 +39,9 @@ import { journey } from "../dsl"
  */
 
 type W = any
-const ACTIVE = "rgba(74, 108, 255, 0.26)"   // `segBtn`'s chosen background (everything-opens.spec.ts reads the same)
+// SETH4 (v1.298.2): Answer mode is a radio group of choice cards; the chosen one is `aria-checked` (it was `segBtn`'s background,
+// rgba(74, 108, 255, 0.26)), and each card is pressed by its stored value, `[data-mode-pick=…]`.
+const CHECKED = (sel: string) => `${sel} [role="radio"]`
 
 async function press(page: Page, selector: string, what: string, touch: boolean) {
   // the drawer's list re-renders in place as payloads land (the first run met "Element is not attached" here): re-query
@@ -94,12 +96,12 @@ for (const touch of [false, true]) {
       await press(page, '[data-settings-tab="flashcards"]', "the Flashcards tab", touch)
       const row = page.locator("[data-answer-mode]")
       await expect(row, "the Answer mode row").toHaveCount(1)
-      await expect(row.locator("button"), "three choices, Auto first, Classic renamed").toHaveText(["Auto", "Front Back cards", "Multiple choice"])
+      await expect(row.locator("[data-choice-name]"), "three choices: Auto first, then Multiple choice and Recall (SETH3; Classic, then Front Back cards, renamed)").toHaveText(["Auto", "Multiple choice", "Recall"])
       await expect(row, "the words say where it applies").toContainText("How a card asks you, in Practice and in a roll.")
       await expect(row).not.toContainText("HERE")
-      await expect(row, "Auto's line").toContainText("multiple choice until you get a card right twice, then front and back from then on")
-      const bg = await row.locator("button").evaluateAll((bs) => bs.map((b) => getComputedStyle(b).backgroundColor))
-      expect(bg.map((c) => c === ACTIVE), "Auto is the chosen one").toEqual([true, false, false])
+      await expect(row, "Auto's line").toContainText(/multiple choice until you get a card right twice, then recall from then on/i)
+      const chosen = await page.locator(CHECKED("[data-answer-mode]")).evaluateAll((bs) => bs.map((b) => b.getAttribute("aria-checked") === "true"))
+      expect(chosen, "Auto is the chosen one").toEqual([true, false, false])
       await expect(page.locator("[data-recall-mode]"), "Recall mode (in play) left Settings").toHaveCount(0)
       await expect(page.locator(".ng-modal"), "and so did Show flashcards on pages").not.toContainText("Show flashcards on pages")
       await expect(page.locator(".ng-modal")).not.toContainText("Recall mode")
@@ -107,9 +109,9 @@ for (const touch of [false, true]) {
       await expect(page.locator(".ng-modal"), "the tab's first row is drawn").toContainText("Daily goal")
       await expect(page.locator(".ng-modal"), "Focus left Settings").not.toContainText(/Focus|Antifragile|Converge|Shore up weaknesses/)
       expect(await stored(page), "storage has no mcMode: Auto is the reader's default, never a write").toEqual({ memory: null, disk: null, saved: true })
-      await press(page, "[data-answer-mode] button:nth-of-type(2)", "Front Back cards", touch)
-      await expect.poll(() => page.locator("[data-answer-mode] button").evaluateAll((bs) => bs.map((b) => getComputedStyle(b).backgroundColor === "rgba(74, 108, 255, 0.26)")),
-        { message: "Front Back cards is chosen" }).toEqual([false, true, false])
+      await press(page, '[data-mode-pick="classic"]', "Recall", touch)
+      await expect.poll(() => page.locator(CHECKED("[data-answer-mode]")).evaluateAll((bs) => bs.map((b) => b.getAttribute("aria-checked") === "true")),
+        { message: "Recall is chosen" }).toEqual([false, false, true])
       expect(await stored(page), "a press writes the choice").toEqual({ memory: "classic", disk: "classic", saved: true })
     })
 
@@ -179,7 +181,7 @@ for (const touch of [false, true]) {
 
 // L1-R0 (v1.290.0): the open card's buttons (Reveal, Review again, Got it, ‹ ›) are moved into the drawer's foot, one bar
 // for the open ask (`_masterDock`): pressed there, `[data-master-bar]`, the same buttons with the same handlers
-test("Practice: a stored Front Back cards asks a new card front and back; a stored Multiple choice asks a card right twice as multiple choice", async ({ page }) => {
+test("Practice: a stored Recall asks a new card front and back; a stored Multiple choice asks a card right twice as multiple choice", async ({ page }) => {
   const j = journey(page)
   await j.boot("/", { initialState: { v: 2, settings: { mcMode: "classic" }, settingsAt: { mcMode: 5 } } })
   await j.clickByMouse(".ng-logo", "open the drawer")
@@ -188,21 +190,21 @@ test("Practice: a stored Front Back cards asks a new card front and back; a stor
   await j.startMaster()   // L1 (v1.290.0): Master the game opens as a list with one button; its press opens the day's first card, as the row did by itself before
   const open = '[data-session-row][aria-expanded="true"] + div'
   await expect(page.locator(open + " [data-mini-q]"), "the first card is up").toHaveCount(1, { timeout: 20_000 })
-  await expect(page.locator("[data-master-bar] [data-mini-reveal]"), "Front Back cards: a new card asks front and back").toHaveText(/Reveal/)
+  await expect(page.locator("[data-master-bar] [data-mini-reveal]"), "Recall: a new card asks front and back").toHaveText(/Reveal/)
   await expect(page.locator(open + " [data-practice-mc-opt]")).toHaveCount(0)
   const { key, q } = await practiceCard(page)
   await page.evaluate(([k, qq]) => { const a = (window as W).__neural; a.set("mcMode", "mc"); a._bumpStage(k, qq, 2, 2); a.renderSession() }, [key, q])
   await expect(page.locator(open + " [data-practice-mc-opt]"), "Multiple choice: a card right twice still asks multiple choice").toHaveCount(3, { timeout: 20_000 })
 })
 
-test("a roll: a stored Front Back cards asks even a new card front and back; a stored Multiple choice keeps a card right twice as multiple choice; the old switch decides nothing", async ({ page }) => {
+test("a roll: a stored Recall asks even a new card front and back; a stored Multiple choice keeps a card right twice as multiple choice; the old switch decides nothing", async ({ page }) => {
   const j = journey(page)
-  // Front Back cards, pressed before this version (a stored "classic"): a roll's first question, a new card
+  // Recall, pressed before this version (a stored "classic"): a roll's first question, a new card
   await j.boot("/", { initialState: { v: 2, settings: { mcMode: "classic" }, settingsAt: { mcMode: 5 } } })
   await j.land("Mount Top")
   await j.openQuestion()
   const fb = await page.evaluate(() => ({ mc: document.querySelectorAll("[data-land-mc-opt]").length, recall: !!document.querySelector("[data-land-recall]") }))
-  expect(fb, "Front Back cards: a new card in a roll asks front and back").toEqual({ mc: 0, recall: true })
+  expect(fb, "Recall: a new card in a roll asks front and back").toEqual({ mc: 0, recall: true })
   // the same landing re-asked on a card right twice (the due seam pinned to it, as landcard-modes.spec.ts 5c does)
   const reask = () => page.evaluate(() => {
     const a = (window as W).__neural
@@ -414,7 +416,9 @@ for (const touch of [false, true]) {
 // mutant is the same exception, on the surface the card now has: a stored `mc` asks a card right twice front and back
 // (`_cardAsksMc`) → red at "multiple choice from Last rolls under a stored Multiple choice", on dev's build before
 // (against the test as it was) and on this build after.
-const MC_LINE = "always three answers to pick from. A card is never asked from memory, so the goals that need one proven from memory wait until you change this."
+// SETH3 (v1.298.2): the line is "Pick the answer from three. Recognition: easier, good for a first pass." and then his U194 caveat, the
+// same two facts (never asked from memory; the from-memory goals wait), which this step keeps asserting word for word.
+const MC_LINE = "A card is never asked from memory, so the goals that need one proven from memory wait."
 for (const touch of [false, true]) {
   test.describe(touch ? "touch 390x631, a stored Multiple choice" : "mouse 1440x900, a stored Multiple choice", () => {
     test.use(touch ? { hasTouch: true, isMobile: true, viewport: { width: 390, height: 631 } } : { viewport: { width: 1440, height: 900 } })
@@ -477,8 +481,8 @@ for (const touch of [false, true]) {
       await press(page, ".ng-drawer-brand", "‹ Master the game", touch)
       await expect(page.locator(".ng-drawer-brand")).toHaveText("‹ Last rolls")
       await settings()
-      await shown("[data-answer-mode] button:nth-of-type(1)")
-      await press(page, "[data-answer-mode] button:nth-of-type(1)", "Auto", touch)
+      await shown('[data-mode-pick="auto"]')
+      await press(page, '[data-mode-pick="auto"]', "Auto", touch)
       expect(await page.evaluate(() => (window as W).__neural.get("mcMode")), "the choice is stored").toBe("auto")
       await press(page, ".ng-modal .x", "close Settings", touch)
       await j.knowsPlanMoves()   // Auto asks a place's moves before its cards (L2); this step is about the card

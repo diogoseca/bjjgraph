@@ -56,8 +56,12 @@ const openRolling = async (page: any) => {
       note: (document.querySelector("[data-start-note]") as HTMLElement | null)?.textContent || "",
       noteFor: document.querySelector("[data-start-note]")?.getAttribute("data-start-note") || null,
       soon: (document.querySelector("[data-start-soon]") as HTMLElement | null)?.textContent || "",
-      // DOM order: the row is about the roll itself, so it sits above the uniform choice
-      beforeGi: !!(row && gi && row.compareDocumentPosition(gi) & Node.DOCUMENT_POSITION_FOLLOWING),
+      // WHERE IT IS FILED: the row is about the roll itself, so it is in Rolling, and the uniform choice in General. It was "it sits
+      // above the uniform choice" (DOM order, from v1.165.0, when both were rows of the Rolling tab); SET1 filed the uniform under
+      // General, and SETH2 A (v1.298.2, the owner: "move general section to the top") puts General first, so the order claim is
+      // his to reverse and the filing is what stays true.
+      inRolling: !!(row && row.closest('[data-settings-group="rolling"]')),
+      giInGeneral: !!(gi && gi.closest('[data-settings-group="app"]')),
     };
   });
 };
@@ -125,7 +129,7 @@ test("the row ships in Settings → Rolling: Standing · Anywhere · My weak spo
 
   const s = await openRolling(page);
   expect(s.present, "the row rendered").toBe(true);
-  expect(s.beforeGi, "it sits above the Gi / No-gi choice").toBe(true);
+  expect([s.inRolling, s.giInGeneral], "it is filed under Rolling, the Gi / No-gi choice under General").toEqual([true, true]);
 
   expect(s.picks.map((p: any) => p.v)).toEqual(["standing", "random", "weak"]);
   expect(s.picks.map((p: any) => p.label)).toEqual(["Standing", "Anywhere", "My weak spots"]);

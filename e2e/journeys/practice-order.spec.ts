@@ -5,7 +5,7 @@ import { journey } from "../dsl"
 // since then nothing stored is Auto (a new card asks multiple choice). A test whose claim is about what a player with nothing
 // stored meets runs on the DEFAULT (`boot(…, DEFAULT)`): "the planner's first position comes first … nothing is stored" and
 // the guard's two ("the guard holds when the live set lands after the tap"), where the card on screen, its three answers
-// included, must not change. The others keep Front Back cards (`CLASSIC`, through the DSL), the mode they were written under:
+// included, must not change. The others keep Recall (`CLASSIC`, through the DSL), the mode they were written under:
 // their claims are the order, the goal and the end card, and they answer by Reveal and Got it, a mechanism, not the claim.
 const CLASSIC = { answerMode: "classic" } as const
 const DEFAULT = {} as const
@@ -485,7 +485,7 @@ for (const touch of [true, false]) {
       const foldTop = () => page.evaluate(() => Math.round(document.querySelector("[data-practice-details]")!.getBoundingClientRect().top))
       if (!touched) await press(page, "[data-practice-details] > summary", "Practice details & session queue", touch)
       const reading = await read(), readingAt = await foldTop(), readingCard = reading.card
-      // the touch: an answer picked (on a multiple-choice card a pick is the touch; Reveal was, under Front Back cards)
+      // the touch: an answer picked (on a multiple-choice card a pick is the touch; Reveal was, under Recall)
       if (touched) await press(page, open + ' [data-practice-mc-opt="0"]', "answer A", touch)
       expect(held().every((e) => e.releasedAtMs == null), "still held at the tap and after it").toBe(true)
       j.releasePayload(LIVE)

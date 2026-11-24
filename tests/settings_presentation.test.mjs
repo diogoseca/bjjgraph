@@ -103,7 +103,7 @@ test("load failure has real Retry; explicit retry uses fresh attempt and real co
   assert.equal(goal.value, Number(source.match(/const NG_PRACTICE_GOAL = (\d+);/)[1])); assert.equal(goal.value, 20);
   goal.value="999"; goal.fire("change");
   assert.equal(app.get("dailyGoal",30),200); assert.equal(goal.value,200); assert.equal(calls.saved,1);
-  clickText(card,"Multiple choice"); assert.equal(app.get("mcMode"),"mc"); assert.equal(calls.saved,2);
+  card.querySelector('[data-mode-pick="mc"]').click(); assert.equal(app.get("mcMode"),"mc"); assert.equal(calls.saved,2);
   assert.equal(app.renderSettings(),true,"installed callbacks stay synchronous");
 });
 
@@ -159,11 +159,11 @@ test("unchanged real controls retain settings keys, effects, direct tabs and key
   assert.ok(!card.querySelector("[data-settings-loss]") && !card.querySelector("[data-loss-pick]"), "retired row absent");
   app.set("lossAversion",4); assert.equal(app._evLamIdx(), 1, "EDGE reads the default block, never the stored key"); assert.ok(!calls.changed.includes("loss-aversion"));
   clickText(card,"No-gi"); assert.equal(app._giMode,"nogi"); assert.ok(calls.changed.includes("ruleset"));
-  card.querySelector('[data-layer-toggle="card"]').click(); assert.equal(app.get("landCard"),false); assert.equal(calls.layers,1);
+  card.querySelector('[data-shows-pick="none"]').click(); assert.equal(app.get("landCard"),false); assert.equal(calls.layers,1);
   const slider=card.querySelectorAll("input").find(e=>e.type === "range"); slider.value="12"; slider.fire("input"); assert.equal(app.get("decisionSec"),12); assert.equal(card.querySelector(".paceVal").textContent,"12");
   const row=card.querySelector('[role="tablist"]'), event=row.fire("keydown",{key:"End"});
   assert.equal(event.stopped,true); assert.equal(event.defaultPrevented,true); assert.equal(app._settingsTab,"shortcuts"); assert.equal(document.activeElement.getAttribute("data-settings-tab"),"shortcuts");
-  const current=card.querySelector('[role="tablist"]'); current.fire("keydown",{key:"ArrowRight"}); assert.equal(app._settingsTab,"flashcards");
+  const current=card.querySelector('[role="tablist"]'); current.fire("keydown",{key:"ArrowRight"}); assert.equal(app._settingsTab,"app");
   // U139 a (v1.261.1): a signed-in player reaches the email switch only while it is stored on, so this
   // presses Off; pressing On is the flipped tests' claim below (the email live, v1.259.1's Settings).
   // SET1: every group is on the one page, so "Off" is pressed in the email's own row (the opponent's comes first).
@@ -208,8 +208,9 @@ const selectedTab = (card) => card.querySelector('[role="tab"][aria-selected="tr
 const panelOf = (card) => card.querySelector('[role="tabpanel"]').getAttribute("aria-labelledby");
 const key = (card, k) => card.querySelector('[role="tablist"]').fire("keydown", { key: k });
 // SET1 (v1.295.3): seven groups of one page, the five old ids kept and `reading` and `app` added (NG_SETTINGS_TABS).
-const FIVE = ["flashcards", "rolling", "reading", "app", "modifiers", "notifications", "shortcuts"];
-const FOUR = ["flashcards", "rolling", "reading", "app", "modifiers", "shortcuts"];
+// SETH2 A (v1.298.2, the owner): General (`app`) first; the others keep their order, and Settings opens on the first.
+const FIVE = ["app", "flashcards", "rolling", "reading", "modifiers", "notifications", "shortcuts"];
+const FOUR = ["app", "flashcards", "rolling", "reading", "modifiers", "shortcuts"];
 const digest = (card) => card.querySelector("[data-digest-setting]");
 // v1.259.1's own words, copied from that version's settings-ui.src.js, so "to the letter" has a fixed oracle.
 const V1259_ROW = "After a day you reviewed something: your techniques, your Game Knowledge, your streak — mailed to player@example.com.";
@@ -225,12 +226,12 @@ test("U139 a: signed in with the email off, Settings has no Notifications tab, a
   assert.equal(card.querySelector("[data-digest-setting]"), null);
   // a deep link (and any saved tab) naming the hidden tab opens the first one, with its own panel
   assert.equal(app.openSettings("notifications"), true);
-  assert.equal(app._settingsTab, "flashcards"); assert.equal(selectedTab(card), "flashcards"); assert.equal(panelOf(card), "ng-stab-flashcards");
+  assert.equal(app._settingsTab, "app"); assert.equal(selectedTab(card), "app"); assert.equal(panelOf(card), "ng-stab-app");
   assert.equal(card.querySelector("[data-digest-setting]"), null); assert.equal(card.querySelector("[data-notif-signedout]"), null);
   // the arrow keys walk the four drawn tabs and never land on the hidden one
   app.openSettings("modifiers"); key(card, "ArrowRight"); assert.equal(app._settingsTab, "shortcuts", "Modifiers → Shortcuts, skipping the hidden tab");
   key(card, "ArrowLeft"); assert.equal(app._settingsTab, "modifiers");
-  key(card, "End"); assert.equal(app._settingsTab, "shortcuts"); key(card, "ArrowRight"); assert.equal(app._settingsTab, "flashcards", "and wraps over four");
+  key(card, "End"); assert.equal(app._settingsTab, "shortcuts"); key(card, "ArrowRight"); assert.equal(app._settingsTab, "app", "and wraps over four");
   for (const t of FOUR) { app.openSettings(t); assert.equal(selectedTab(card), t); assert.equal(card.querySelector("[data-digest-setting]"), null, t); }
   // NOTHING STORED CHANGES: no key, no timestamp, no save, and the recorder still reads the stored setting
   assert.equal("emailDigest" in app.settings, false); assert.equal("emailDigest" in app._settingsAt, false); assert.equal(calls.saved, 0);
@@ -252,7 +253,7 @@ test("U139 a: an account with the email stored on keeps the tab and the row, is 
   // this opening keeps the row, so the press visibly took; the tab is gone from the next opening on
   assert.deepEqual(tabIds(card), FIVE); assert.ok(card.querySelector("[data-digest-setting]"), "the row stays until Settings closes");
   app.closeModal(); assert.equal(await app.openSettings("notifications"), true);
-  assert.deepEqual(tabIds(card), FOUR, "reopened: no Notifications tab"); assert.equal(selectedTab(card), "flashcards");
+  assert.deepEqual(tabIds(card), FOUR, "reopened: no Notifications tab"); assert.equal(selectedTab(card), "app");
   assert.equal(card.querySelector("[data-digest-setting]"), null);
 });
 
@@ -265,7 +266,7 @@ test("U139 a: a guest has no Notifications tab, whatever this device stored, and
     assert.equal(await app.openSettings(), true, String(stored));
     assert.deepEqual(tabIds(card), FOUR, "a guest sees four tabs, stored " + stored);
     assert.equal(app.openSettings("notifications"), true);
-    assert.equal(selectedTab(card), "flashcards", "the link opens the first tab, stored " + stored); assert.equal(panelOf(card), "ng-stab-flashcards");
+    assert.equal(selectedTab(card), "app", "the link opens the first tab, stored " + stored); assert.equal(panelOf(card), "ng-stab-app");
     assert.equal(card.querySelector("[data-notif-signedout]"), null, String(stored)); assert.equal(card.querySelector("[data-digest-setting]"), null, String(stored));
     app.openSettings("modifiers"); key(card, "ArrowRight"); assert.equal(app._settingsTab, "shortcuts", "the keys skip it, stored " + stored);
     assert.equal(app.settings.emailDigest, stored, "nothing stored changes"); assert.equal(calls.saved, 0);
@@ -296,7 +297,7 @@ test("flipped: with NG_DIGEST_LIVE true, Settings are v1.259.1's to the letter",
 });
 
 // v1.282.0 (owner 15 Nov; rulings R2, SET1-GO; U190 c, 16 Nov): THE FLASHCARDS TAB, REFORMED. Daily goal, then Answer mode;
-// Answer mode reads Auto / Front Back cards / Multiple choice with its words saying where it applies, and Auto is what a
+// Answer mode reads Auto / Multiple choice / Recall (SETH3, v1.298.2) with its words saying where it applies, and Auto is what a
 // player who pressed nothing sees, without anything being written; "Recall mode (in play)" and "Show flashcards on pages"
 // are gone, and so is Focus (the owner, U190 c: "Take the row off the screen"; `focus` was read by nothing). A press writes
 // the choice. Mutants: the default back to Classic recall (Auto not chosen), a row still drawn, a write at render (mcMode present),
@@ -309,19 +310,20 @@ test("the Flashcards tab: Daily goal, Answer mode (Auto chosen for nothing store
   const at = (s) => { const i = text.indexOf(s); assert.ok(i >= 0, "drawn: " + s); return i; };
   assert.ok(at("Daily goal") < at("Answer mode"), "in that order");
   assert.ok(text.includes("How a card asks you, in Practice and in a roll."), "the words say where it applies");
-  assert.ok(!/HERE|study surface|Classic recall/.test(text), "no old words, no old label");
+  assert.ok(!/HERE|study surface|Classic recall|Front Back/.test(text), "no old words, no old label");
   const row = card.querySelector("[data-answer-mode]"); assert.ok(row, "the row is marked");
-  assert.deepEqual(row.querySelectorAll("button").map((b) => b.textContent), ["Auto", "Front Back cards", "Multiple choice"]);
-  const chosen = row.querySelectorAll("button").map((b) => /rgba\(74,108,255,\.26\)/.test(b.style.cssText.replace(/\s/g, "")));
-  assert.deepEqual(chosen, [true, false, false], "Auto is chosen for a player who pressed nothing");
-  assert.ok(text.includes("multiple choice until you get a card right twice, then front and back from then on"), "Auto's line");
+  const choices = row.querySelectorAll("[data-mode-pick]");
+  assert.deepEqual(choices.map((c) => c.querySelector("[data-choice-name]").textContent), ["Auto", "Multiple choice", "Recall"], "SETH3: renamed and reordered");
+  assert.deepEqual(choices.map((c) => c.getAttribute("data-mode-pick")), ["auto", "mc", "classic"], "the stored values never change");
+  assert.deepEqual(choices.map((c) => c.getAttribute("aria-checked")), ["true", "false", "false"], "Auto is chosen for a player who pressed nothing");
+  assert.ok(text.toLowerCase().includes("multiple choice until you get a card right twice, then recall from then on"), "Auto's line");
   assert.equal(card.querySelector("[data-recall-mode]"), null, "Recall mode (in play) is gone");
   assert.ok(!text.includes("Recall mode") && !text.includes("Show flashcards on pages"), "and both retired rows' words");
   assert.ok(!/Focus|Shore up weaknesses|Antifragile|Converge/.test(text), "Focus is gone, its words with it (U190 c)");
   assert.deepEqual(card.querySelectorAll("button").map((b) => b.textContent).filter((t) => /Antifragile|Converge/.test(t)), [], "and its buttons");
   assert.equal("mcMode" in app.settings, false, "rendering wrote nothing");
-  clickText(card, "Multiple choice"); assert.equal(app.get("mcMode"), "mc", "a press writes the choice");
-  clickText(card, "Front Back cards"); assert.equal(app.get("mcMode"), "classic", "Front Back cards is the stored classic");
+  card.querySelector('[data-mode-pick="mc"]').click(); assert.equal(app.get("mcMode"), "mc", "a press writes the choice");
+  card.querySelector('[data-mode-pick="classic"]').click(); assert.equal(app.get("mcMode"), "classic", "Recall is the stored classic (SETH3: the value never changes)");
 });
 
 // SET1 (v1.295.3; the owner, 23 Nov 2026: "why is article settings inside rolling? one can just have landed in an article and not be
@@ -346,9 +348,10 @@ test("SET1: one page of groups in their order, each old id lighting its own; art
   assert.equal(group("rolling").querySelector("[data-section-setting]"), null, "and nothing of them under Rolling");
   assert.equal(inGroup("[data-settings-gi]"), "app", "gi / no-gi under General");
   assert.equal(inGroup("[data-answer-mode]"), "flashcards"); assert.equal(inGroup("[data-settings-start]"), "rolling");
-  assert.equal(inGroup('[data-layer-toggle="card"]'), "rolling"); assert.equal(inGroup('[data-layer-toggle="hand"]'), "rolling");
+  assert.equal(inGroup("[data-settings-shows]"), "rolling"); assert.equal(inGroup('[data-layer-toggle="hand"]'), "rolling");
+  assert.equal(card.querySelector('[data-layer-toggle="card"]'), null, "the card's tick left for the row of three (SETH2 B)");
   assert.equal(card.querySelector('[data-layer-toggle="film"]'), null, "the film's own row is gone: Video is the one switch");
-  assert.deepEqual(card.querySelectorAll('[role="tab"]').map((t) => t.textContent), ["Practice", "Rolling", "Articles", "General", "Your odds", "Keyboard"]);
+  assert.deepEqual(card.querySelectorAll('[role="tab"]').map((t) => t.textContent), ["General", "Practice", "Rolling", "Articles", "Your odds", "Keyboard"]);
   const notes = card.querySelectorAll(".ng-set-note").map((n) => n.textContent);
   assert.deepEqual(notes, [NOTE, NOTE], "the owner's note, word for word: the head's copy and the phone's, which scrolls");
   assert.ok(!/⚠/.test(card.textContent), "no emoji");
@@ -367,4 +370,65 @@ test("SET1: the Video row is one switch for the article's video and the film dur
   await app.openSettings("reading"); box().checked = true; app._readerGraded = () => { calls.graded = 1; }; box().fire("change");
   assert.equal(app.get("readerSection.videos"), true); assert.equal(app.get("landFilm"), false, "with a reader, the film's key is left alone");
   assert.equal(calls.synced, 1); assert.equal(calls.graded, 1, "turning it on settles a pinned landing"); assert.equal(calls.layers, layers);
+});
+
+// SETH2 B (v1.298.2; the owner, 23 Nov: "isnt 'Questions while you roll …' a bit duplicate of 'Question card …'? or are they diff
+// things?"): ONE row of three over the two keys the two ticks wrote. A question = landQuestions on, the card on; The card only =
+// landQuestions off, the card on; No card = the card off, landQuestions LEFT AS IT IS. No key added or removed; a pick that leaves
+// landQuestions where it is does not write it; the row reads the keys, so a change made on the board (the card's ✕, its Undo) shows.
+// The presses by mouse and touch and the board's own ✕ and Undo: e2e/journeys/settings-choices.spec.ts.
+test("SETH2 B: During a roll, each place shows: each choice sets exactly its two values, No card keeps the question key, the row follows the board", async () => {
+  const {app,card} = fixture();
+  await app.openSettings("rolling");
+  const shows = () => card.querySelector("[data-settings-shows]").getAttribute("data-settings-shows");
+  const now = () => [app.get("landQuestions", true), app._layerOn("card"), shows()];
+  const pickIt = (v) => card.querySelector('[data-shows-pick="' + v + '"]').click();
+  assert.deepEqual(card.querySelectorAll("[data-shows-pick]").map((b) => b.querySelector("[data-choice-name]").textContent), ["A question", "The card only", "No card"]);
+  assert.ok(!/Questions while you roll|Question card/.test(card.textContent), "the two old rows are gone");
+  assert.deepEqual(now(), [true, true, "question"], "nothing stored reads as A question");
+  pickIt("question"); assert.equal("landQuestions" in app.settings || "landCard" in app.settings, false, "a pick that changes nothing writes nothing");
+  pickIt("card"); assert.deepEqual(now(), [false, true, "card"]);
+  pickIt("none"); assert.deepEqual(now(), [false, false, "none"], "No card leaves the question key off");
+  pickIt("question"); assert.deepEqual(now(), [true, true, "question"]);
+  pickIt("none"); assert.deepEqual(now(), [true, false, "none"], "No card leaves the question key on");
+  const at = app._settingsAt.landQuestions;
+  pickIt("question"); assert.deepEqual(now(), [true, true, "question"]); assert.equal(app._settingsAt.landQuestions, at, "the question key was not written again");
+  assert.match(card.querySelector("[data-settings-shows]").textContent, /one multiple-choice question at each place/i, "the chosen one's line");
+  // the board: The card only, then the card's own ✕ (No card), then its Undo: back to The card only
+  pickIt("card");
+  app.setLayer("card", false, "x"); app.renderSettings(); assert.deepEqual(now(), [false, false, "none"], "the row shows the board's ✕");
+  app.setLayer("card", true, "undo"); app.renderSettings(); assert.deepEqual(now(), [false, true, "card"], "and its Undo: the choice before it");
+  assert.match(card.querySelector("[data-settings-shows]").textContent, /A submission that catches you still asks its defence drill/, "The card only says the drill still asks");
+  pickIt("none"); assert.match(card.querySelector("[data-settings-shows]").textContent, /the film follows Video under Articles/, "No card says where the film is decided");
+});
+
+// SETH4 (v1.298.2; the owner, 24 Nov, on Answer mode: "that option can be improved wrt ux i think"): CHOICE CARDS, one pattern for
+// Answer mode and for "During a roll, each place shows". A radio group: each card a role=radio with aria-checked, the chosen one the
+// only tab stop, its name and its one line ALWAYS there (no box that explains only the chosen one), Auto tagged "Recommended", the
+// arrows move and choose (wrapping), and the redraw a choice makes puts focus back on the chosen card. Layout, hit-testing, the focus
+// ring and the presses by mouse, touch and keyboard: e2e/journeys/settings-choices.spec.ts.
+test("SETH4: Answer mode and each place shows are radio groups of cards, every line shown, the arrows choosing, focus kept", async () => {
+  const {app,card} = fixture();
+  await app.openSettings("flashcards");
+  const group = (id) => card.querySelectorAll("[data-choices]").find((g) => g.getAttribute("data-choices") === id);
+  for (const [id, n, lines] of [["mode", 3, ["then recall from then on", "Recognition: easier", "Harder, and what makes it stick"]], ["shows", 3, ["keys A–C", "No combos.", "the film follows Video under Articles"]]]) {
+    const g = group(id); assert.ok(g, id + ": drawn"); assert.equal(g.getAttribute("role"), "radiogroup"); assert.ok(g.getAttribute("aria-label"));
+    const cs = g.querySelectorAll('[role="radio"]'); assert.equal(cs.length, n, id + ": three radios");
+    assert.equal(cs.filter((c) => c.getAttribute("aria-checked") === "true").length, 1, id + ": exactly one chosen");
+    assert.deepEqual(cs.map((c) => c.getAttribute("tabindex")), cs.map((c) => (c.getAttribute("aria-checked") === "true" ? "0" : "-1")), id + ": the chosen card is the one tab stop");
+    lines.forEach((l, i) => assert.ok(cs[i].textContent.includes(l), id + ": card " + i + " carries its own line, chosen or not"));
+    assert.equal(card.querySelectorAll(".ng-set-cn").filter((b) => g.parentElement.contains(b)).length, 0, id + ": no box explaining only the chosen one");
+  }
+  const tags = card.querySelectorAll(".ng-set-tag");
+  assert.deepEqual(tags.map((t) => [t.textContent, t.parentElement.parentElement.getAttribute("data-mode-pick")]), [["Recommended", "auto"]], "one tag, on Auto");
+  // the arrows choose, wrapping, and focus follows the choice through the redraw
+  const keyOn = (id, k) => { const g = group(id); document.activeElement = g.querySelector('[aria-checked="true"]'); return g.fire("keydown", { key: k }); };
+  const ev = keyOn("mode", "ArrowDown"); assert.equal(ev.defaultPrevented, true); assert.equal(ev.stopped, true, "the key does not reach the game");
+  assert.equal(app.get("mcMode"), "mc", "ArrowDown chooses the next");
+  keyOn("mode", "ArrowDown"); assert.equal(app.get("mcMode"), "classic");
+  keyOn("mode", "ArrowDown"); assert.equal(app.get("mcMode"), "auto", "and wraps");
+  keyOn("mode", "ArrowUp"); assert.equal(app.get("mcMode"), "classic", "ArrowUp wraps back");
+  keyOn("shows", "ArrowRight"); assert.deepEqual([app.get("landQuestions", true), app._layerOn("card")], [false, true], "ArrowRight: The card only");
+  keyOn("shows", "ArrowLeft"); assert.deepEqual([app.get("landQuestions", true), app._layerOn("card")], [true, true], "ArrowLeft: A question");
+  assert.equal(keyOn("mode", "Tab").defaultPrevented, undefined, "Tab is left to the browser: it leaves the group in one step");
 });

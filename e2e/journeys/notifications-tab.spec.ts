@@ -50,8 +50,8 @@ const SETTINGS_TABS = '[role="tablist"][data-settings-tabs] [role="tab"]';
 const ROW = "[data-digest-setting]";
 const OFF = "[data-digest-setting] button:nth-of-type(2)";
 const ON = "[data-digest-setting] button:nth-of-type(1)";
-// SET1 (v1.295.3): Settings is one page of groups (Practice, Rolling, Articles, General, Your odds, Email, Keyboard); the ids are
-// the tabs' were, so "notifications" is the Email group and "modifiers" Your odds. At 390 the list is a row of chips wider than
+// SET1 (v1.295.3): Settings is one page of groups (since SETH2 A, v1.298.2, General first: General, Practice, Rolling, Articles,
+// Your odds, Email, Keyboard); the ids are the tabs' were, so "notifications" is the Email group and "modifiers" Your odds. At 390 the list is a row of chips wider than
 // the phone, so a chip off the row is brought in by a real horizontal wheel over the row before it is tapped.
 async function bringChip(page: Page, id: string) {
   const at = () =>
@@ -155,11 +155,11 @@ test("U139 a: signed in with the email off, Settings has no Notifications tab an
   expect(await stored(page), "a fresh account has never stored the switch").toEqual({ value: undefined, at: undefined });
   await openSettingsFromMenu(page, j);
 
-  expect(await tabIds(page), "six groups: Email is not drawn").toEqual(["flashcards", "rolling", "reading", "app", "modifiers", "shortcuts"]);
+  expect(await tabIds(page), "six groups: Email is not drawn").toEqual(["app", "flashcards", "rolling", "reading", "modifiers", "shortcuts"]);
   await expect(page.locator("#ng-stab-notifications")).toHaveCount(0);
   await expect(page.locator(ROW)).toHaveCount(0);
   // every drawn group, pressed by mouse: none of them carries the switch
-  for (const t of ["rolling", "reading", "app", "modifiers", "shortcuts", "flashcards"]) {
+  for (const t of ["flashcards", "rolling", "reading", "modifiers", "shortcuts", "app"]) {
     await j.clickByMouse(`#ng-stab-${t}`, t);
     expect(await selected(page)).toBe(t);
     await expect(page.locator(ROW), t).toHaveCount(0);
@@ -169,14 +169,14 @@ test("U139 a: signed in with the email off, Settings has no Notifications tab an
   await page.keyboard.press("ArrowRight");
   expect(await selected(page), "ArrowRight from Modifiers skips the hidden tab").toBe("shortcuts");
   await page.keyboard.press("ArrowRight");
-  expect(await selected(page), "and wraps over six").toBe("flashcards");
+  expect(await selected(page), "and wraps over six").toBe("app");
   await closeSettings(page);
 
   // a link to the hidden tab opens the first tab, with its own panel
   await page.evaluate(() => (window as any).__neural.openSettings("notifications"));
   await expect(page.locator('[role="tablist"][data-settings-tabs]')).toBeVisible();
-  expect(await selected(page)).toBe("flashcards");
-  await expect(page.locator('[role="tabpanel"]')).toHaveAttribute("aria-labelledby", "ng-stab-flashcards");
+  expect(await selected(page)).toBe("app");
+  await expect(page.locator('[role="tabpanel"]')).toHaveAttribute("aria-labelledby", "ng-stab-app");
   await expect(page.locator(ROW)).toHaveCount(0);
   await expect(page.locator("[data-notif-signedout]")).toHaveCount(0);
   await closeSettings(page);
@@ -193,7 +193,7 @@ test("U139 a: an account with the email stored on keeps the tab and row to turn 
   const before = await stored(page);
   await openSettingsFromMenu(page, j);
 
-  expect(await tabIds(page), "seven groups while it is stored on").toEqual(["flashcards", "rolling", "reading", "app", "modifiers", "notifications", "shortcuts"]);
+  expect(await tabIds(page), "seven groups while it is stored on").toEqual(["app", "flashcards", "rolling", "reading", "modifiers", "notifications", "shortcuts"]);
   // one page (SET1): the row is drawn, in the Email group and nowhere else
   await expect(page.locator(`[data-settings-group="notifications"] ${ROW}`), "the switch is in the Email group").toHaveCount(1);
   await expect(page.locator(ROW)).toHaveCount(1);
@@ -213,7 +213,7 @@ test("U139 a: an account with the email stored on keeps the tab and row to turn 
   await closeSettings(page);
 
   await openSettingsFromMenu(page, j);
-  expect(await tabIds(page), "reopened: the tab is gone").toEqual(["flashcards", "rolling", "reading", "app", "modifiers", "shortcuts"]);
+  expect(await tabIds(page), "reopened: the tab is gone").toEqual(["app", "flashcards", "rolling", "reading", "modifiers", "shortcuts"]);
   await expect(page.locator(ROW)).toHaveCount(0);
 });
 
@@ -223,7 +223,7 @@ test.describe("at 390, by touch", () => {
   test("U139 a: a phone with the email stored on taps Notifications and Off; the next opening has no tab", async ({ page }) => {
     const j = await bootSignedIn(page, "digest-on-phone", true);
     await openSettingsFromMenu(page, j);
-    expect(await tabIds(page)).toEqual(["flashcards", "rolling", "reading", "app", "modifiers", "notifications", "shortcuts"]);
+    expect(await tabIds(page)).toEqual(["app", "flashcards", "rolling", "reading", "modifiers", "notifications", "shortcuts"]);
     await bringChip(page, "notifications");
     await tap(page, "#ng-stab-notifications", "the Email chip", '[role="tablist"][data-settings-tabs]');
     await expect.poll(() => selected(page)).toBe("notifications");
@@ -236,13 +236,13 @@ test.describe("at 390, by touch", () => {
     await expect(page.locator(ROW)).toBeVisible();
     await closeSettings(page);
     await openSettingsFromMenu(page, j);
-    expect(await tabIds(page), "reopened on the phone: no tab").toEqual(["flashcards", "rolling", "reading", "app", "modifiers", "shortcuts"]);
+    expect(await tabIds(page), "reopened on the phone: no tab").toEqual(["app", "flashcards", "rolling", "reading", "modifiers", "shortcuts"]);
   });
 
   test("U139 a: a phone signed in with the email off sees six groups and no switch", async ({ page }) => {
     const j = await bootSignedIn(page, "digest-off-phone");
     await openSettingsFromMenu(page, j);
-    expect(await tabIds(page)).toEqual(["flashcards", "rolling", "reading", "app", "modifiers", "shortcuts"]);
+    expect(await tabIds(page)).toEqual(["app", "flashcards", "rolling", "reading", "modifiers", "shortcuts"]);
     await bringChip(page, "modifiers");
     await tap(page, "#ng-stab-modifiers", "the Your odds chip", '[role="tablist"][data-settings-tabs]');
     await expect.poll(() => selected(page)).toBe("modifiers");
@@ -255,7 +255,7 @@ test("U139 a: a guest has no Notifications tab, and a link to it opens the first
   await j.boot("/");
   await j.land("Mount Top");
   await openSettingsFromMenu(page, j, "the guest badge");
-  expect(await tabIds(page), "a guest sees six groups while the email is not live").toEqual(["flashcards", "rolling", "reading", "app", "modifiers", "shortcuts"]);
+  expect(await tabIds(page), "a guest sees six groups while the email is not live").toEqual(["app", "flashcards", "rolling", "reading", "modifiers", "shortcuts"]);
   await expect(page.locator("#ng-stab-notifications")).toHaveCount(0);
   // the arrow keys walk the six drawn groups
   await j.clickByMouse("#ng-stab-modifiers", "Modifiers");
@@ -265,8 +265,8 @@ test("U139 a: a guest has no Notifications tab, and a link to it opens the first
   // a link to the hidden tab opens the first tab, and no line sends the guest to sign in for a switch
   await page.evaluate(() => (window as any).__neural.openSettings("notifications"));
   await expect(page.locator('[role="tablist"][data-settings-tabs]')).toBeVisible();
-  expect(await selected(page), "the link opens the first tab").toBe("flashcards");
-  await expect(page.locator('[role="tabpanel"]')).toHaveAttribute("aria-labelledby", "ng-stab-flashcards");
+  expect(await selected(page), "the link opens the first tab").toBe("app");
+  await expect(page.locator('[role="tabpanel"]')).toHaveAttribute("aria-labelledby", "ng-stab-app");
   await expect(page.locator("[data-notif-signedout]")).toHaveCount(0);
   await expect(page.locator(ROW)).toHaveCount(0);
 });
@@ -277,7 +277,7 @@ test("U139 a: a guest whose device stored the switch on gets no tab either", asy
   await j.land("Mount Top");
   expect((await stored(page)).value, "this device stored it on").toBe(true);
   await openSettingsFromMenu(page, j, "the guest badge");
-  expect(await tabIds(page), "still six groups: only an account sees the switch").toEqual(["flashcards", "rolling", "reading", "app", "modifiers", "shortcuts"]);
+  expect(await tabIds(page), "still six groups: only an account sees the switch").toEqual(["app", "flashcards", "rolling", "reading", "modifiers", "shortcuts"]);
   expect((await stored(page)).value, "and nothing stored changes").toBe(true);
 });
 
@@ -298,7 +298,7 @@ test("flipped: with NG_DIGEST_LIVE true, a signed-in player's Settings are v1.25
   });
   expect(swaps, "the bundle was served once, with the constant flipped exactly once").toEqual([1]);
   await openSettingsFromMenu(page, j);
-  expect(await tabIds(page), "seven groups, setting off").toEqual(["flashcards", "rolling", "reading", "app", "modifiers", "notifications", "shortcuts"]);
+  expect(await tabIds(page), "seven groups, setting off").toEqual(["app", "flashcards", "rolling", "reading", "modifiers", "notifications", "shortcuts"]);
   await j.clickByMouse("#ng-stab-notifications", "Notifications");
   await j.settingsAtRest();
   await expect(page.locator(ROW)).toBeVisible();

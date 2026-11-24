@@ -124,12 +124,15 @@ for (const vp of VIEWPORTS) test.describe(`${vp.width}`, () => {
       const aimed = page.locator("[data-settings-aimed]")
       await expect(aimed, `${p.name}: Settings opens at its switch`).toBeVisible({ timeout: 10000 })
       // SET1 (v1.295.3): the video's switch is the Video row under Articles, the one switch for the article's video and the film.
-      const control = ["card", "hand"].includes(p.key) ? `[data-layer-toggle="${p.key}"]` : `[data-section-setting="${p.key}"]`
+      // SETH2 B (v1.298.2): the card's switch is a choice of "During a roll, each place shows": Settings opens on the choice it
+      // shows after the ✕ (No card), focused, and the way back is A question (this journey never turned the question off).
+      const control = p.key === "card" ? '[data-shows-pick="none"]' : p.key === "hand" ? `[data-layer-toggle="${p.key}"]` : `[data-section-setting="${p.key}"]`
+      const back = p.key === "card" ? '[data-shows-pick="question"]' : control
       await expect(aimed.locator(control), `${p.name}: the aimed row is its own`).toHaveCount(1)
       await expect(page.locator(control), `${p.name}: focused`).toBeFocused()
       const inView = await page.evaluate(sel => { const r = document.querySelector(sel)!.getBoundingClientRect(); return r.top >= 0 && r.bottom <= innerHeight }, control)
       expect(inView, `${p.name}: in view`).toBe(true)
-      await press(page, j, control, vp.touch, `${p.name}'s switch`)
+      await press(page, j, back, vp.touch, `${p.name}'s switch`)
       await expect.poll(() => setting(page, p.on), { message: `${p.name}: the switch brings it back` }).toBe(true)
       await expect(page.locator(msg), `${p.name}: and its message goes`).toHaveCount(0)
       await page.keyboard.press("Escape")

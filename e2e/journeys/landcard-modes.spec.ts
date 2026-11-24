@@ -511,7 +511,7 @@ test("the owner's Americana page asks MULTIPLE CHOICE — recognition first, alw
 // Recall mode's switch alone (U163 c). Since v1.282.0 (rulings R2, SET1-GO) the ANSWER MODE decides, one switch for every
 // card: Auto, the default for nothing stored, asks a card right twice (stage 2) front and back in a roll, which is what
 // Recall mode On did here; a belt still decides nothing; Multiple choice keeps it multiple choice. The stored-value cases
-// (Front Back cards on a new card, the old switch stored Off) are answer-mode.spec.ts's.
+// (Recall on a new card, the old switch stored Off) are answer-mode.spec.ts's.
 test("a card right twice asks front and back in a roll under Auto; a belt decides nothing; Multiple choice keeps it multiple choice", async ({
   page,
 }) => {

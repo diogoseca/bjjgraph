@@ -16,6 +16,22 @@ export const NG_SETTINGS_PRESENTATION_BUILD = NG_SETTINGS_UI_BUILD;
 // column whose prose is held to 60ch: at most 76 characters a line, pinned by settings-tabs.spec.ts), 48 px from the browser's edges at 900 px
 // and up, 32 px below that, and a full-screen sheet under 600 px. The look stays the app's: dark, a faint grain over the
 // card's own gradient, no emoji. Settings keys: none added, renamed or deleted (CLAUDE.md §6.6).
+// A GROUP'S HEADING IS A LABEL, NOT ANOTHER OPTION (SETH1, v1.298.2; the owner, 23 Nov 2026: "section headers in settings need to be
+// better diferentiates, otherwise i think they're options, type is too similar"). It was 17 px / 700 / #eef1f6 over the first option's
+// grey line; an option's title is 14 px / 600 / #eef1f6 over the same line: one face, one colour, one shape, 3 px apart. Now it is
+// a small-caps eyebrow (12 px / 700, uppercase, .08em) in the selected tab's own blue, #96b4ff (the hue of its border, rgba(150,180,
+// 255,.45), at full strength: 8.0:1 on the card's top, 6.8:1 on its lightest point, the radial tint plus the grain), standing on a
+// full-width hairline whose first 32 px is that blue. The rule chosen over a short bar before the word (the screens, 390 and 1074): a
+// 16 px dash read as a bullet at 390 and as a cousin of the grey "On screen during a roll" sub-heading, while the hairline marks the
+// edge of a group across the whole column of a long page. Its line stays under it, grey; the first control below drops its own top
+// line (two rules in a row read as noise). The space above a group (the last row's 16 plus the group's own 40) is more than between
+// two options (16 each side of a line), and it is the PREVIOUS group's padding, so the groups still tile the panel with no gap and
+// the spy's "group in view" is unchanged; the first group has no extra gap. Option titles are untouched.
+// NOT STICKY, measured: a heading held at the panel's top (position:sticky) covered the keyboard-focused control on 11 of 59 focus
+// steps backwards through the page at 390x631 and 16 of 59 at 1074x796, Chromium holds it below the panel's padding with controls
+// passing visibly above it, and it needs an opaque surface over the card's gradient. The group list already lights the group in
+// view (a rail on a wide screen, the chips on a phone), so it stays out. Pinned by settings-tabs.spec.ts (the heading against every
+// option title at four sizes; a wheel to each heading in turn lights its group), with the mutant "heads-as-options".
 // The modifiers' own controls are drawn by `buildModifiers` (eager, app.src.jsx) with inline sizes under the target; the
 // rules at the foot that name `.ng-set-mods` lift its search box, its kind chips and "Add modifier" to the
 // target from here, so the eager bundle does not grow. A modifier's own row (its dot, − / +, delete) exists only after one is
@@ -38,8 +54,11 @@ background:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wi
 .ng-set-nav .ng-stab[aria-selected=true]{background:rgba(74,108,255,.2);box-shadow:inset 0 0 0 1px rgba(150,180,255,.45)}\
 #ng-stab-panel{position:relative;flex:1;min-width:0;overflow-y:auto;overscroll-behavior:contain;padding:24px 24px 0}\
 .ng-set-grp{padding-bottom:40px}\
-.ng-set-grp>h3{margin:0;font-size:17px;font-weight:700;letter-spacing:-.005em;color:#eef1f6}\
+.ng-set-grp>h3{position:relative;margin:0;padding-bottom:8px;font-size:12px;line-height:16px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#96b4ff;border-bottom:1px solid rgba(150,170,210,.16)}\
+.ng-set-grp>h3::after{content:'';position:absolute;left:0;bottom:-1px;width:32px;height:2px;border-radius:1px;background:#96b4ff}\
 .ng-set-grp>p,.ng-set-sub>p{margin:4px 0 12px;font-size:13px;line-height:1.5;color:#8b97b0;max-width:60ch}\
+.ng-set-grp>h3+p{margin-top:8px}\
+.ng-set-grp>h3+:not(p),.ng-set-grp>h3+:not(p)>:first-child,.ng-set-grp>h3+p+*,.ng-set-grp>h3+p+*>:first-child{border-top:0}\
 .ng-set-sub{padding-top:16px;border-top:1px solid rgba(150,170,210,.09)}\
 .ng-set-sub>div{font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#7f8aa6}\
 .ng-set-row{position:relative;padding:16px 0;border-top:1px solid rgba(150,170,210,.09)}\
@@ -67,6 +86,18 @@ background:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' wi
 .ng-set-arts input:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:2px}\
 .ng-set-keys>div{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0;border-top:1px solid rgba(150,170,210,.07);font-size:13.5px;color:#dbe2f0}\
 .ng-set-foot{flex:none;display:flex;justify-content:center;align-items:center;gap:16px;padding:0 24px;border-top:1px solid rgba(150,170,210,.1)}\
+.ng-set-choices{display:flex;flex-direction:column;gap:8px;margin-top:12px}\
+.ng-set-choice{display:grid;grid-template-columns:20px minmax(0,1fr);column-gap:12px;row-gap:4px;align-items:start;width:100%;box-sizing:border-box;min-height:44px;margin:0;padding:12px 16px 12px 12px;border:1px solid rgba(150,170,210,.14);border-radius:12px;background:rgba(255,255,255,.03);color:#eef1f6;font:inherit;text-align:left;cursor:pointer}\
+.ng-set-choice:hover{border-color:rgba(150,170,210,.3)}\
+.ng-set-choice[aria-checked=true]{background:rgba(74,108,255,.2);border-color:rgba(150,180,255,.45)}\
+.ng-set-choice:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:2px}\
+.ng-set-radio{grid-row:1/span 2;display:flex;align-items:center;justify-content:center;width:20px;height:20px;box-sizing:border-box;border-radius:50%;border:2px solid rgba(150,170,210,.5)}\
+.ng-set-choice[aria-checked=true] .ng-set-radio{border-color:#96b4ff}\
+.ng-set-choice[aria-checked=true] .ng-set-radio::after{content:'';width:8px;height:8px;border-radius:50%;background:#96b4ff}\
+.ng-set-cname{grid-column:2;display:flex;align-items:center;flex-wrap:wrap;gap:8px;min-height:20px;font-size:14px;font-weight:600;line-height:20px;color:#eef1f6}\
+.ng-set-cline{grid-column:2;font-size:13px;line-height:1.5;color:#93a0bd}\
+.ng-set-choice[aria-checked=true] .ng-set-cline{color:#b4c0da}\
+.ng-set-tag{padding:0 8px;border-radius:999px;background:rgba(74,108,255,.22);font-size:11px;font-weight:600;line-height:20px;letter-spacing:.02em;color:#c9d6ff}\
 .ng-set-mods>div:nth-of-type(2)>div:first-child{padding-top:0!important;padding-bottom:0!important}\
 .ng-set-mods>div:nth-of-type(2)>div:first-child>input,.ng-set-mods>div:nth-of-type(2)>div:last-child>button,.ng-set-mods>button{box-sizing:border-box;min-height:40px;min-width:40px}\
 @media (max-width:599px){\
@@ -92,6 +123,27 @@ const NG_SETTINGS_LINES = {
   app: "Acts everywhere: the map, a roll, Practice, Master the game and every article.",
   shortcuts: "Keys for a keyboard; nothing to set.",
 };
+// ANSWER MODE'S THREE CHOICES: [stored value, name, its one line] (SETH3, v1.298.2; the owner, 24 Nov: "instead of Auto, Front Back
+// cards, Multiple choice, say Multiple Choice cards / Front Back cards or instead multiple choice, or what would the teacher call it
+// instead of front/back?"). The teacher's word is RECALL (recall against recognition): "front/back" described the card, not what the
+// player does. Reordered Auto, Multiple choice, Recall; no "cards" suffix; Auto stays first and the default. The STORED VALUES,
+// the default and what each does are unchanged ("classic" was "Classic recall", then "Front Back cards"): labels and lines only.
+// Each line is the orchestrator's, plus the fact the old line carried: Multiple choice keeps D1 (a), THE OWNER'S ANSWER TO U194 (16
+// Nov, SET1-R3: it means it everywhere, so a card is never asked from memory and the goals that need one proven from memory, "Prove
+// a card from memory" and the four "Recall-prove …", wait; "the line says both, plainly"), pinned by answer-mode.spec.ts; Recall
+// keeps that checkpoints and the defence drill stay multiple choice (`_cardAsksMc`).
+// WHAT EACH PLACE SHOWS DURING A ROLL: [choice, name, its one line] (SETH2 B, v1.298.2; the lines are the orchestrator's, ruled with the
+// survey's two findings: the defence drill in "The card only", the film's own switch in "No card").
+const NG_ROLL_SHOWS = [
+  ["question", "A question", "One multiple-choice question at each place (keys A–C). Right answers raise that exchange’s odds and refund clock, and rights in a row build a combo; a wrong or ignored one breaks it."],
+  ["card", "The card only", "The place’s card, with no question. No combos. A submission that catches you still asks its defence drill."],
+  ["none", "No card", "No card and no question; the film follows Video under Articles. The ✕ on the card does the same; this brings it back."],
+];
+const NG_ANSWER_MODES = [
+  ["auto", "Auto", "Multiple choice until you get a card right twice, then recall from then on."],
+  ["mc", "Multiple choice", "Pick the answer from three. Recognition: easier, good for a first pass. A card is never asked from memory, so the goals that need one proven from memory wait."],
+  ["classic", "Recall", "Answer from memory, then reveal and grade yourself. Harder, and what makes it stick. Checkpoints and the defence drill stay multiple choice."],
+];
 export async function ngInstallSettingsPresentation(target, dependencies) {
   if (dependencies.expectedBuild !== NG_SETTINGS_PRESENTATION_BUILD) throw new Error("Settings presentation version mismatch");
   // Share the reader's registry instead of bundling a second copy. Importing the
@@ -114,6 +166,44 @@ export async function ngInstallSettingsPresentation(target, dependencies) {
     const b = el("button", "ng-set-tick ng-set-ctl", "<span>" + (on ? "✓" : "") + "</span>");
     b.type = "button"; b.setAttribute("aria-pressed", on ? "true" : "false"); if (attr) b.setAttribute(attr[0], attr[1]);
     b.addEventListener("click", onPress); return b;
+  };
+  // CHOICE CARDS (SETH4, v1.298.2; the owner, 24 Nov, on Answer mode: "that option can be improved wrt ux i think"). It was three small
+  // buttons and a box explaining ONLY the chosen one, so learning what the other two do meant choosing them, which changed the setting.
+  // Now each choice is its own full-width card, stacked: a radio mark, the name in an option title's look, and its one line ALWAYS
+  // shown under it; the chosen card has the selected tab's treatment (its fill and border), the others the plain row surface. A radio
+  // group (role radiogroup / radio, aria-checked): Tab enters on the chosen card and leaves the group in one step (roving tabindex),
+  // the arrows move AND choose (wrapping), Space or ⏎ chooses the focused card, and the whole card is the target (44 px or more).
+  // A choice redraws the card (`renderSettings`), and the redraw puts focus back on the chosen card (`_settingsRadio`, below, the
+  // tabs' refocus rule). STACKED AT EVERY WIDTH, measured: Settings is at most 760 px wide, so three cards side by side at 1074 and
+  // at 1440 would hold their line at ~18 characters a line, under the 28 a row needs. One pattern for Answer mode and for "During a
+  // roll, each place shows" (`id` names the group for the refocus; `attr` is each card's hook, `data-mode-pick` / `data-shows-pick`).
+  // ONE COMMIT (SETH4): the owner may pick the old look, and the revert of that commit is the whole way back.
+  const choiceCards = (id, label, choices, now, attr, onPick, tag) => {
+    const g = el("div", "ng-set-choices");
+    g.setAttribute("role", "radiogroup"); g.setAttribute("aria-label", label); g.setAttribute("data-choices", id);
+    const cards = choices.map(([v, name, line]) => {
+      const on = v === now, c = el("button", "ng-set-choice");
+      c.type = "button"; c.setAttribute("role", "radio"); c.setAttribute("aria-checked", on ? "true" : "false");
+      c.setAttribute("tabindex", on ? "0" : "-1"); c.setAttribute(attr, v);
+      const mark = el("span", "ng-set-radio"), nm = el("span", "ng-set-cname"), word = el("span"), ln = el("span", "ng-set-cline");
+      nm.id = "ng-choice-" + id + "-" + v; ln.id = nm.id + "-line"; mark.setAttribute("aria-hidden", "true");
+      word.textContent = name; word.setAttribute("data-choice-name", ""); nm.appendChild(word);
+      if (tag && tag[0] === v) nm.appendChild(el("span", "ng-set-tag")).textContent = tag[1];
+      ln.textContent = line;
+      c.setAttribute("aria-labelledby", nm.id); c.setAttribute("aria-describedby", ln.id);
+      c.append(mark, nm, ln);
+      c.addEventListener("click", () => { if (v !== now) onPick(v); });
+      g.appendChild(c); return c;
+    });
+    g.addEventListener("keydown", (e) => {
+      const step = { ArrowDown: 1, ArrowRight: 1, ArrowUp: -1, ArrowLeft: -1 }[e.key];
+      if (!step) return;
+      e.preventDefault(); e.stopPropagation();
+      const at = cards.indexOf(document.activeElement), n = cards.length;
+      const to = ((at < 0 ? choices.findIndex((c) => c[0] === now) : at) + step + n) % n;
+      if (choices[to][0] !== now) onPick(choices[to][0]); else cards[to].focus();
+    });
+    return g;
   };
   const methods = {
 _settingsTabRow(row, tab, refocus, tabs, panel) {
@@ -195,7 +285,7 @@ renderSettings() {
     // The frame is the stylesheet's (`[data-settings-card]` above, over the inline width every dialog writes); `openModal`
     // takes the mark off for every other dialog, so none of them inherits it.
     card.setAttribute("data-settings-card", "");
-    const tab = this._settingsTab || "flashcards", tabs = this._settingsTabs;
+    const tabs = this._settingsTabs, tab = this._settingsTab || tabs[0][0];
     // EVERY CHANGE REDRAWS THE CARD, so the panel keeps its scroll through a redraw (a switch stays under the pointer) and only
     // a new opening goes to its group: `openSettings` clears `_settingsRowX`, and the list's first draw sets it again.
     const previous = card.querySelector('[role="tabpanel"]'), fresh = this._settingsRowX == null;
@@ -204,6 +294,9 @@ renderSettings() {
     // that just chose it) is destroyed under the user. Remember that, before the wipe blurs it,
     // and hand focus to the new active one below; otherwise the second arrow press lands on <body>.
     const ae = document.activeElement, refocus = !!(ae && card.contains(ae) && ae.getAttribute("role") === "tab");
+    // A CHOICE CARD THAT HAS FOCUS (SETH4) gets it back on the redraw: the chosen card of the same group (an arrow key's choice, or
+    // the card a click just chose), as the group list's tab does above.
+    const radio = ae && card.contains(ae) && ae.getAttribute("role") === "radio" && ae.closest("[data-choices]") ? ae.closest("[data-choices]").getAttribute("data-choices") : null;
     card.innerHTML = "";
     const head = el("div", "ng-set-head");
     head.innerHTML = '<div class="ng-set-top"><h2>Settings</h2><button type="button" class="x ng-set-x" aria-label="Close settings">&times;</button></div>';
@@ -241,20 +334,14 @@ renderSettings() {
       g.appendChild(inp); sec.appendChild(g);
       // ANSWER MODE (v1.282.0, owner 15 Nov; rulings R2, SET1-GO): ONE SWITCH, ONE MEANING, everywhere a card is asked (the
       // app's `_answerMode`, beside `mcActive`). Auto first and the default for a player who pressed nothing: the reader's
-      // default, never a write (nothing here or in the app writes `mcMode` unless the player presses a choice). "Classic
-      // recall" is renamed "Front Back cards" (owner); the stored values do not change (auto / classic / mc). The words say
+      // default, never a write (nothing here or in the app writes `mcMode` unless the player presses a choice). The stored
+      // values never change (auto / mc / classic); the names and lines are NG_ANSWER_MODES' (SETH3, above). The words say
       // where it applies, in his order of things: no "HERE", no "study surface".
       {
-        const mode = this.settingRow("Answer mode", "How a card asks you, in Practice and in a roll.",
-          [["Auto", "auto"], ["Front Back cards", "classic"], ["Multiple choice", "mc"]], "mcMode", this._answerMode(),
-          { auto: '<b style="color:#cbd4e6;">Auto</b> &mdash; multiple choice until you get a card right twice, then front and back from then on.',
-            classic: '<b style="color:#cbd4e6;">Front Back cards</b> &mdash; the question, then the answer; you say if you got it. Checkpoints and the defence drill stay multiple choice.',
-            // D1 (a), THE OWNER'S ANSWER TO U194 (16 Nov, SET1-R3): Multiple choice means it everywhere, Last rolls' and the
-            // Path's decks included. A right pick stops at stage 2, so a card is never asked from memory and the goals that
-            // need one proven from memory ("Prove a card from memory", the four "Recall-prove …") wait until the choice
-            // changes; the line says both, plainly. Pinned by answer-mode's "a stored Multiple choice asks multiple choice in
-            // Last rolls too".
-            mc: '<b style="color:#cbd4e6;">Multiple choice</b> &mdash; always three answers to pick from. A card is never asked from memory, so the goals that need one proven from memory wait until you change this.' });
+        // SETH4: the three as choice cards, every line shown; Auto is tagged "Recommended" (the owner's default since v1.282.0).
+        const mode = words(el("div", "ng-set-row"), "Answer mode", "How a card asks you, in Practice and in a roll.");
+        mode.appendChild(choiceCards("mode", "Answer mode", NG_ANSWER_MODES, this.get("mcMode", this._answerMode()), "data-mode-pick",
+          (v) => { this.set("mcMode", v); this.renderSettings(); }, ["auto", "Recommended"]));
         mode.setAttribute("data-answer-mode", "1");
         sec.appendChild(mode);
       }
@@ -377,10 +464,32 @@ renderSettings() {
       // number is pure Win chance and the hand sorts once by it, so the dial only reordered the ~5 s
       // before values arrived and nudged the opponent's tie-breaks. The stored `lossAversion` key is
       // never read again and never deleted (CLAUDE.md §6.6); the wire ships the default block only.
-      // landing questions — the in-roll quiz beat
-      const lq = words(el("div", "ng-set-row side"), "Questions while you roll", "Every state you land on asks one multiple-choice question (keys <b style=\"color:#c3cde0;\">A–C</b>). Right answers raise that exchange’s odds and refund clock; wrong ones cost odds for that exchange only. String rights together across states to build <b style=\"color:#c3cde0;\">combos</b> — momentum that heats your whole hand and makes counters fade. Wrong or ignored breaks it.");
-      lq.appendChild(tick(this.get("landQuestions", true), null, () => { this.set("landQuestions", !this.get("landQuestions", true)); this.renderSettings(); }));
-      sec.appendChild(lq);
+      // WHAT EACH PLACE SHOWS DURING A ROLL: ONE ROW OF THREE (SETH2 B, v1.298.2; the owner, 23 Nov: "isnt 'Questions while you roll …'
+      // a bit duplicate of 'Question card: Off = no card and no question. (Turning questions off above keeps the card.)'? or are they
+      // diff things?"). They were different things whose copy had to explain the difference, which was the fault: "Questions while
+      // you roll" (`landQuestions`) said whether a landing asks, and "Question card" (the `card` layer) whether the card is on screen
+      // at all, two ticks for three states that matter and a fourth equal to the third. NG_ROLL_SHOWS is the one row; it READS the
+      // two keys and WRITES them through the setters the two rows used (`set("landQuestions")`, `setLayer("card", …, "settings")`), so
+      // sync, the card's own ✕ and its Undo stay in step. No key is added or removed (CLAUDE.md §6.6). "No card" leaves `landQuestions`
+      // as it is, so the card coming back (Undo, the index row, this row) returns to the player's own choice; a pick that would not
+      // change `landQuestions` does not write it. The order of the writes matters: the question key first, then the layer, because
+      // turning the card on mid-landing builds it at once (`_applyLayers`) and reads the key then.
+      // THE STATES THE ORCHESTRATOR'S SURVEY FOUND (renderLandCard): a defence drill asks whatever `landQuestions` says (`wantQ =
+      // defense || …`), so "The card only" says so; with the card off the drill is skipped too (`panic_skipped`, "collapsed"). The film
+      // is its own layer (the Video row under Articles), docked with or without the card, so the third choice is "No card", not
+      // "Nothing", and its line says where the film is decided (the orchestrator's ruling: no third key written here).
+      {
+        const now = !this._layerOn("card") ? "none" : this.get("landQuestions", true) ? "question" : "card";
+        const pick = (v) => {
+          if (v !== "none" && this.get("landQuestions", true) !== (v === "question")) this.set("landQuestions", v === "question");
+          this.setLayer("card", v !== "none", "settings");
+          this.renderSettings();
+        };
+        const shows = el("div", "ng-set-row"); shows.append(el("div", "ng-set-t", "During a roll, each place shows"));
+        shows.setAttribute("data-settings-shows", now); shows.setAttribute("data-layer-row", "card");
+        shows.appendChild(choiceCards("shows", "During a roll, each place shows", NG_ROLL_SHOWS, now, "data-shows-pick", pick));
+        sec.appendChild(shows);
+      }
       // decision time pace
       const dt = el("div", "ng-set-row");
       const dsecBase = this.get("decisionSec", 9);
@@ -408,8 +517,8 @@ renderSettings() {
       // two rows switched one thing; the Video row under Articles is now the one switch, and says it is the film too.
       const lay = el("div", "ng-set-sub", '<div>On screen during a roll</div><p>Each part has its own ✕ on the board, and this is where a hidden part comes back. Your choice sticks across states and devices.</p>');
       sec.appendChild(lay);
+      // The card's own row left for "During a roll, each place shows" above (SETH2 B); the moves stay here alone.
       const LAYER_ROWS = [
-        ["card", "Question card", "Off = no card and no question. (Turning questions off above keeps the card.)"],
         ["hand", "Your moves", "The hand of moves, escapes included. Off = the roll waits until you show them."],
       ];
       for (const [name, title, sub] of LAYER_ROWS) {
@@ -506,13 +615,17 @@ renderSettings() {
     }
     }
     this._settingsTabRow(nav, tab, refocus, tabs, body);
+    if (radio) { const r = body.querySelector('[data-choices="' + radio + '"] [aria-checked="true"]'); if (r) r.focus({ preventScroll: true }); }
     // A new opening starts at its group (the first group is the top); a redraw keeps the panel where it was.
     if (fresh) { if (tab !== tabs[0][0]) this._settingsJump(tab, false); } else body.scrollTop = panelY;
     // HIDESEC2: a closed part's message (reader.src.js notice) opens Settings here, at that part's own switch: scrolled to the middle,
     // focused and outlined. Read once, so the redraw a toggle makes does not jump back. The video's is the Video row under Articles
     // (SET1-GO 2); the moves' and the question card's are under Rolling.
     const aim = this._settingsAim; this._settingsAim = null;
-    const aimed = aim && (body.querySelector('[data-layer-toggle="' + aim + '"]') || body.querySelector('[data-section-setting="' + aim + '"]'));
+    // The card's switch is the chosen choice of "During a roll, each place shows" (SETH2 B): after its ✕ that is "No card", focused, so the
+    // player picks the way it comes back.
+    const aimed = aim && (body.querySelector('[data-layer-toggle="' + aim + '"]') || body.querySelector('[data-section-setting="' + aim + '"]')
+      || aim === "card" && body.querySelector('[data-settings-shows] [data-shows-pick="' + body.querySelector("[data-settings-shows]").getAttribute("data-settings-shows") + '"]'));
     if (aimed) requestAnimationFrame(() => {
       const row = aimed.closest("[data-layer-row],label");
       row.setAttribute("data-settings-aimed", "");
