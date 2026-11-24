@@ -38,6 +38,9 @@ import { journey } from "../dsl";
  *       NOT KILLED by R1c (showNextChallengeReward's settle guard removed): the settle's own timer still shows it at 1.2 s;
  *       that guard keeps other callers (a notice queued inside the window) from showing it early, and is not pinned
  *   U6 (the reader's) the drill's start not ending the chain    → "the defence drill's start ends the chain"
+ * O1 (v1.300.2, the owner's ruling U209 a: where the opponent has finishes only, a finish every time):
+ *   O1a `_oppFinishChance` back to 0.9 there                    → "at Twister Control bottom the opponent goes for a finish…"
+ *       (and tests/opp_finish_chance.test.mjs, both rulesets)
  * NOT A MUTANT HERE: the drill's window with his leg capped is a premise-checked measure (cold page, CPU x4, the shortest
  * leg); a mutant that made the deck late would be a mutant of the prefetch, which this change does not touch.
  */
@@ -448,4 +451,38 @@ test("the defence drill's start ends the chain: the article back, nothing of the
   expect(drill, "at the drill's start the chain has ended and the article is back (U6)").toEqual({ ended: true, stepBack: false });
   await j.advance(800);
   expect(await page.evaluate(() => { const a = (window as W).__neural; return [a._lastChain, !!(a._lastLight && a._lastLight.chain)]; }), "and nothing of the chain is drawn over the drill").toEqual([null, false]);
+});
+
+// O1 (v1.300.2; the owner's ruling U209 a, 24 Nov 2026: "Every time in those spots"). At Twister Control with the player
+// bottom the opponent's options are finishes only (tests/opp_finish_chance.test.mjs lists every such seat). Its finish draw
+// rigged to 0.95, over dev's 0.9: dev played that finish through the positional branch, where a drawn tap reads as a stay
+// and no drill starts (reproduced by real input, S0-F4). Now the drill starts, on one of that seat's four finishes.
+test("at Twister Control bottom the opponent goes for a finish every time: with its draw at 0.95 the defence drill starts", async ({ page }) => {
+  const j = journey(page);
+  await j.boot("/Positions/Twister-Control/Bottom");
+  for (let i = 0; i < 20; i++) {
+    await j.advance(1000);
+    if (await page.evaluate(() => { const a = (window as W).__neural; return (a.optionIdxs || []).length > 0 && a._arriveGlideUntil == null && !a.pulse; })) break;
+  }
+  await j.engage();
+  const seat = await page.evaluate(() => { const a = (window as W).__neural, n = a.nodes[a.currentPos];
+    return { id: n.id, role: a.playerRole,
+      hand: (a._optionCards || []).filter((c: W) => c.card && c.card.isConnected && c.card.offsetParent !== null && !(c.opt && c.opt.threat)).map((c: W) => a.nodes[c.opt.idx].t) }; });
+  // (that the opponent has finishes only here is the unit's: tests/opp_finish_chance.test.mjs lists every such seat)
+  expect([seat.id, seat.role], "premise: the player bottom at Twister Control").toEqual(["Positions/Twister-Control/Bottom", "bottom"]);
+  expect(seat.hand.length, "premise: a hand to play").toBeGreaterThan(0);
+  await j.rig("resolve", [0.999]); await j.rig("outcome", [0.01, 0.01]); await j.rig("opp-finish", [0.95]); await j.rig("opp-pick", [0.0]); await j.rig("opp-sub-pick", [0.0]);
+  await j.pick(seat.hand[0]);
+  let end: W = null;
+  for (let k = 0; k < 300 && !end; k++) {
+    await j.advance(100);
+    end = await page.evaluate(() => { const a = (window as W).__neural;
+      const live = (a._optionCards || []).filter((c: W) => c.card && c.card.isConnected && c.card.offsetParent !== null).length;
+      if (a._defendSub != null) { const m = a.nodes[a._defendSub] || {}; return { drill: true, sub: m.t || null, ty: m.ty || null }; }
+      if (live > 0 && !(a.pulse && !a.pulse.done) && !a.activeMove && a.moveCount > 0) return { drill: false, at: a.nodes[a.currentPos].id };
+      return null; });
+  }
+  expect(end, "premise: the opponent's turn ended").toBeTruthy();
+  expect(end.drill, "the defence drill starts: the opponent went for a finish (O1a)").toBe(true);
+  expect([end.ty, /from Twister Control$/.test(end.sub || "")], "on one of the seat's own finishes").toEqual(["submissions", true]);
 });
