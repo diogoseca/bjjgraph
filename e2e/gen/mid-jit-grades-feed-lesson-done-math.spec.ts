@@ -5,7 +5,7 @@ import { journey } from "../dsl"
 import { curriculumMid, CURRICULUM } from "./personas"
 // v1.282.0 (rulings R2, SET1-GO): written when nothing stored meant Classic recall in the sidebar; since then nothing
 // stored is Auto (a new card asks multiple choice), so every journey here states the mode it was written under,
-// Front Back cards, through the DSL (`journey(page, CLASSIC)`), and keeps every assertion.
+// Recall, through the DSL (`journey(page, CLASSIC)`), and keeps every assertion.
 const CLASSIC = { answerMode: "classic" } as const
 
 /** Sidebar study and Challenges share the same prep ledger. Three real recall grades

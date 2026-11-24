@@ -150,7 +150,7 @@ test("rows open the real surfaces", async ({ page }) => {
   await via("[data-menu-create]", "Create account"); await expect(page.locator("body")).toContainText("Create your account"); await close()
   await via("[data-menu-login]", "Log in"); await expect(page.locator("body")).toContainText("Welcome back"); await close()
   await via("[data-menu-settings]", "Settings")
-  expect(await page.evaluate(() => (window as any).__neural._settingsTab), "plain Settings opens its first tab").toBe("flashcards"); await close()
+  expect(await page.evaluate(() => (window as any).__neural._settingsTab), "plain Settings opens its first group, General (SETH2 A)").toBe("app"); await close()
   await via("[data-menu-feedback]", "Feedback"); await expect(page.locator("[data-feedback-title]")).toHaveText("Feedback"); await close()
   // LEGAL3 (v1.264.0): these showed the typed boxes' "Terms of Use" / "Privacy Policy"; the box now shows its page's own short version
   await via("[data-menu-terms]", "Terms"); await expect(page.locator('.ng-legal[data-legal="terms"] [data-legal-short]')).not.toBeEmpty(); await close()

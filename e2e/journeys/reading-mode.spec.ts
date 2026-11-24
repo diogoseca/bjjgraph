@@ -142,7 +142,7 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, deals: 0 })
     // The index link (WAS also the label; NOW, without the index, its Settings switch) is a real control: the keyboard reopens it too.
     if (indexed) await page.locator(`${row.card} a`).focus()
-    else { await page.evaluate(() => (window as any).__neural.openSettings("rolling")); await page.locator('[data-layer-toggle="card"]').focus() }
+    else { await page.evaluate(() => (window as any).__neural.openSettings("rolling")); await page.locator('[data-shows-pick="question"]').focus() } // SETH2 B: the card's way back
     await page.keyboard.press("Enter")
     if (!indexed) await page.keyboard.press("Escape")
     if (indexed) await expect(page.locator(row.card)).toHaveAttribute("data-collapsed", "false")

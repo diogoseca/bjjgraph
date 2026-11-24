@@ -131,8 +131,8 @@ the screen or is inert behind the pane or video viewer (`_recallLive`). An open 
 shortcuts; exposed landing controls still accept pointers. Grading releases the key. Space goes to a study surface and a
 focused mini-row first.
 
-**Answer mode, one switch for every card** (v1.282.0): Auto (nothing stored, never written), Front Back cards
-(`classic`), Multiple choice (`mc`); `_cardAsksMc` decides everywhere but checkpoints and the defence drill.
+**Answer mode, one switch for every card** (v1.282.0): Auto (nothing stored, never written), Multiple choice
+(`mc`), Recall (`classic`); `_cardAsksMc` decides everywhere but checkpoints and the defence drill.
 Auto: multiple choice until the question reaches stage 2 in any deck, then front and back for good (the grade's floor). `recallInPlay`, `recallCarry`, `quizOnPages`, `focus`: kept, read by nothing. `renderChallengeCue` only removes a stale cue card. **Win chance explains itself** in the score tooltip (§4).
 
 **Technique navigation** keeps the chosen node's camera (`camFocus`), URL (`_syncUrl`),
