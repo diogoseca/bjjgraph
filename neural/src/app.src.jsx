@@ -20186,6 +20186,13 @@ class Component extends DCLogic {
     // An explicit roleOverride still wins (the comment above); member role beats title-derivation.
     // Inert on the production layout: no default graph-data node carries `role`.
     if (!roleOverride && (this.nodes[posIdx].role === "top" || this.nodes[posIdx].role === "bottom")) this.playerRole = this.nodes[posIdx].role;
+    // THE SEAT IS THE ORB OF THE SIDE PLAYED (OPP1-S0, v1.299.1; found by its survey of `currentPos`'s readers). A caller
+    // that passes a side may pass either orb of the pair: Last rolls' per-row "Roll from here" finds its place by
+    // `nodeForKey(row.key)`, which answers "<place>|Top" AND "<place>|Bottom" with the TOP orb, so a Bottom row seated the
+    // player bottom on the top orb, and the address named Top (measured: Mount|Bottom and Closed Guard|Bottom both). One
+    // seam for every caller (`_seatMember`, identity when the orb already plays the side): a chosen technique keeps its
+    // node, only its seat moves.
+    { const seat = this._seatMember(posIdx, this.playerRole); if (seat !== posIdx) { if (nodeIdx === posIdx) nodeIdx = seat; posIdx = seat; } }
     // ── LANDING ON THE TECHNIQUE (v1.132.0) ── owner: "if I click Kimura, then the landing
     // should land on Kimura, not Knee on Belly or whatever." The SEAT stays the origin position
     // (the engine's states are positions — v1.126.0 measured what staging ON a technique node
