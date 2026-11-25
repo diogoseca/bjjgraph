@@ -21,11 +21,17 @@
 //  12. ALL AT ONCE (the owner's U222 a): a carried row is owed by its own schedule, read by every owed reader from the stored
 //      schedule itself (no pacing anywhere).
 //  13. The build half (tests/card_carry_build.py).
-//  14. A PULL THAT GROWS THE SEPTEMBER ROWS of a copy that held some (an older build's device synced late) carries them too;
-//      a pull that brings nothing new starts nothing.
+//  14. A PULL THAT GROWS THE SEPTEMBER ROWS (an older build's device synced late) carries them too; a pull that brings nothing
+//      new starts nothing.
+//  15, 16. THE SYNC READER'S TRACES (PR #471, seeds 26 and 75; CARD1-S3-R1 F1): decided by content per owner on this browser,
+//      a device whose attempt failed after the marker came in, and rows an older build pushed after the carry, are carried.
+//  17. THE DUE BADGE BEFORE THE LIVE SET (F3): each carried row counted once, at once.
+//  F2, in 7: tries are per owner, server answers only, cleared by a success; ten offline openings then one online carries.
 // MUTANTS (each red here): the merge's direction swapped (old as the local row) -> 3, 4; the marker never written (`_cardCarry`
 // left false) -> 4, 8; the pull-before-write test removed from `_carryNeed` -> 6; a split carried (the generator's split rule
-// dropped) -> 13 ("split"); the tries bound removed -> 7; the late-rows rule removed from `_pullAndMerge` -> 14.
+// dropped) -> 13 ("split"); the tries bound removed -> 7; the pull's growth rule removed from `_pullAndMerge` -> 16; the pending flag never set -> 15, 16;
+// a network failure counted as a try -> 7; the old keys not marked gone, or `_rowLive` not reading the marks -> 12, 17;
+// the marks written all at once -> 17; the count not followed down -> 18.
 import { test, afterEach } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync, existsSync } from "node:fs";
@@ -33,7 +39,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
 import { ngKnowledgeQuestionHash as H, ngKnowledgeMergeRow } from "../neural/src/knowledge-profile.src.js";
-import { ngCarryDecks, ngCarryFiles, ngCarryRead, ngCarryApply, ngCarryDone, NG_CARRY_BEFORE, NG_CARRY_TRIES, NG_CARRY_TRIES_KEY,
+import { ngCarryDecks, ngCarryFiles, ngCarryRead, ngCarryApply, ngCarryDone, ngCarryCount, ngCarryStateRead, NG_CARRY_BEFORE, NG_CARRY_TRIES,
   ngProgressPracticeKey, ngProgressGuestMerge } from "../neural/src/progress-owner.src.js";
 import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 import { ratingLiveFiles } from "./_rating_fixture.mjs";
@@ -61,21 +67,31 @@ const TODAY = 20782, SEPT = 20700;   // 25 Nov 2026, and an answer of 3 Sept 202
 globalThis.window = globalThis.window || {};
 globalThis.window.__NG_EPOCH_DAY__ = TODAY;
 
-// the browser this test runs in: its storage (the try count) and its network (the carry files, counted)
-const store = new Map(), fetched = [];
-let serve = (i) => (existsSync(FILE(i)) ? readFileSync(FILE(i), "utf8") : null);
-globalThis.localStorage = { getItem: (k) => (store.has(k) ? store.get(k) : null), setItem: (k, v) => { store.set(k, String(v)); }, removeItem: (k) => store.delete(k) };
+// THE BROWSER this test runs in (one per test unless a test makes more): its local store (the carry's state, per owner, and the
+// gone marks, per owner) and its network: the carry files, each served as written, as a server's 404 (`null`) or not at all
+// (`OFFLINE`: the fetch rejects), counted
+const OFFLINE = Symbol("offline");
+const newBrowser = () => ({ store: new Map(), marks: new Map() });
+let browser = newBrowser(), fetched = [];
+const real = (i) => (existsSync(FILE(i)) ? readFileSync(FILE(i), "utf8") : null);
+let serve = real;
+globalThis.localStorage = { getItem: () => null, setItem: () => {}, removeItem: () => {} };   // the app keeps nothing of the carry here
 globalThis.fetch = async (url) => {
   fetched.push(url);
   const m = /^carry\/(\d+)\.json\?carry=([0-9a-f]{8})$/.exec(url);
   const body = m ? serve(Number(m[1])) : null;
+  if (body === OFFLINE) throw new TypeError("Failed to fetch");
   return body == null ? { ok: false, json: async () => null } : { ok: true, json: async () => JSON.parse(body) };
 };
-afterEach(() => { store.clear(); fetched.length = 0; serve = (i) => (existsSync(FILE(i)) ? readFileSync(FILE(i), "utf8") : null); globalThis.window.__NG_EPOCH_DAY__ = TODAY; });
+afterEach(() => { browser = newBrowser(); fetched = []; serve = real; globalThis.window.__NG_EPOCH_DAY__ = TODAY; });
+const ownerId = (o) => o.kind + ":" + (o.id || "");
+const stateOf = (o, b = browser) => ngCarryStateRead(b.store.get("carry " + ownerId(o)) || null);
 
-/** the app on the real wire, its progress owner bound to `owner` holding `blob`, loaded by its own `_loadProgress` */
-function boot(blob, { owner = { kind: "guest" }, load = true } = {}) {
-  const a = Object.create(Component.prototype), marks = {}, saved = [];
+/** the app on the real wire, its progress owner bound to `owner` holding `blob`, loaded by its own `_loadProgress`, on `on` */
+function boot(blob, { owner = { kind: "guest" }, load = true, on = browser } = {}) {
+  const a = Object.create(Component.prototype), saved = [], id = ownerId(owner);
+  if (!on.marks.has(id)) on.marks.set(id, {});
+  const marks = on.marks.get(id);
   a.settings = {}; a.beats = []; a.track = () => {}; a.get = (_k, d) => d; a.set = () => {}; a.fx = () => {};
   a.ingest(clone(WIRE)); a._giMode = "gi"; a.curriculum = clone(CURRICULUM); a._ingestDeckManifest(clone(MANIFEST));
   Object.assign(a, { _settingsAt: {}, tracked: [], viewToggleRef: { current: null }, explorerListRef: { current: null } });
@@ -84,6 +100,7 @@ function boot(blob, { owner = { kind: "guest" }, load = true } = {}) {
   a._rebuildRulesetMask = () => {}; a.weakSpots = () => null; a._progressCurrent = () => true; a._knowledgeEffect = () => {};
   const persisted = [];
   a._progressHost = { goneRead: () => clone(marks), goneWrite: (_i, m, deck) => { if (m[deck]) marks[deck] = clone(m[deck]); else delete marks[deck]; return clone(marks); },
+    carryRead: () => on.store.get("carry " + id) || null, carryWrite: (_i, st) => { on.store.set("carry " + id, clone(st)); return true; },
     persist: (_i, b) => { persisted.push(clone(b)); return { status: "saved" }; } };
   a.__persisted = persisted;
   a._progressOwner = owner; a._progressOwnerStamp = { owner, epoch: 1 };
@@ -92,11 +109,25 @@ function boot(blob, { owner = { kind: "guest" }, load = true } = {}) {
   if (load) a._loadProgress(); else { a._hydrateProgressBlob(a._progressBootBlob); delete a._progressBootBlob; a._progressLoaded = true; }
   return a;
 }
+/** a signed-in owner's pull from a fake cloud holding `cloud` (the app's own `_pullAndMerge`), then its carry if one started */
+async function pull(a, cloud, user = "u1") {
+  const A = { neuralSyncVersion: 2, pullNeural: async (id) => ({ userId: id, blob: { v: 2, belts: { won: {} }, ...clone(cloud) } }) };
+  Object.assign(a, { _auth: () => A, _authUserId: user, _authEpoch: 0, _afterPullLevel: () => {}, _joinGuestPractice: () => {}, _refreshChallengeEvidence: () => {} });
+  a._carryP = undefined;
+  assert.equal(await a._pullAndMerge(), true, "the pull itself");
+  return a._carryP ? a._carryP : null;
+}
+const latest = (a) => clone(a.__saved.at(-1) || a._progressBlob());
+let SHARED_Q = null;
+const probeShared = () => SHARED_Q || (SHARED_Q = boot({}, { load: false })._sharedQ || new Map());
 
 // a deck the carry covers, with three pairs whose targets are cards of that deck on the wire
 const pairsOf = (deck) => { const s = SOURCE.decks[deck] || ""; const out = []; for (let i = 0; i < s.length; i += 16) out.push([s.slice(i, i + 8), s.slice(i + 8, i + 16)]); return out; };
 const DECK = Object.keys(SOURCE.decks).sort().find((d) => CARDS[d] && pairsOf(d).length >= 3 && pairsOf(d).every(([, n]) => CARDS[d].cards.some((c) => H(c.q) === n)));
 const P = pairsOf(DECK);
+// a pair of ANOTHER deck, for a row only one device ever held (the reader's traces)
+const XD = Object.keys(SOURCE.decks).sort().find((d) => d !== DECK && CARDS[d] && pairsOf(d).some(([, n]) => CARDS[d].cards.some((c) => H(c.q) === n)));
+const [XO, XN] = pairsOf(XD).find(([, n]) => CARDS[XD].cards.some((c) => H(c.q) === n));
 /** a player who answered three of that deck's cards on 3 Sept, before the rewrite: rows under the OLD keys */
 const september = () => ({
   stage: { [DECK]: { [P[0][0]]: 2, [P[1][0]]: 1, [P[2][0]]: 3 } },
@@ -104,7 +135,7 @@ const september = () => ({
 });
 const readings = (a) => {
   const glyph = JSON.stringify(a.seenGlyph(DECK));
-  return { mastery: a.deckMastery(DECK), glyph, recall: a.recallCount ? a.recallCount() : 0, score: a.gameScore(), due: a.dueCount(),
+  return { mastery: a.deckMastery(DECK), glyph, recall: a.recallCount ? a.recallCount() : 0, score: a.gameScore().score, due: a.dueCount(),
     stage: P.map(([, n]) => a.cardStage(DECK, CARDS[DECK].cards.find((c) => H(c.q) === n))) };   // by the card, as every reader asks
 };
 
@@ -173,32 +204,36 @@ test("4. a guest carries its own copy on load: every reading rises or stays, and
   assert.equal(fetched.length, 1, "one file: the one this deck falls in");
   const after = readings(a);
   assert.deepEqual(after.stage, [2, 1, 3], "the grades, under today's keys");
-  for (const k of ["mastery", "recall", "score", "due"]) assert.ok(after[k] >= before[k], `${k}: ${before[k]} -> ${after[k]}`);
-  assert.ok(after.mastery > before.mastery && after.due > before.due, "the deck's mastery and the due count rise");
+  // rises or stays (the same sum taken over other keys may differ in its last bit: 1e-9); before the deck lands dev already
+  // counts the old rows as "not known yet", so the carry's own rise shows once it lands and the old rows are pruned from view
+  for (const k of ["mastery", "recall", "score", "due"]) assert.ok(after[k] >= before[k] - 1e-9, `${k}: ${before[k]} -> ${after[k]}`);
+  const landed = (x) => { const d = x.flashcards.decks[DECK]; d.cards = clone(CARDS[DECK].cards); x._pruneStaleGrades(DECK, d.cards); return x.deckMastery(DECK); };
+  assert.ok(landed(a) > landed(plain), "the deck landed: the carried grades count, the old ones are gone on both");
   const blob = a.__saved.at(-1);
   assert.equal(blob.cardCarry, 1, "the record is marked done");
   for (const [o, n] of P) { assert.ok(blob.srs[DECK][o] && blob.srs[DECK][n], "old row kept, new row written"); }
-  assert.equal(store.get(NG_CARRY_TRIES_KEY), "1");
+  assert.deepEqual(stateOf({ kind: "guest" }), { n: ngCarryCount(blob), pending: false, tries: 0 }, "this browser's state: met, at the record's count");
 });
 
 test("5. an untouched guest: nothing fetched, nothing written, no try counted", () => {
   const a = boot({});
   assert.equal(a._carryP, undefined);
-  assert.deepEqual([fetched.length, a.__saved.length, store.has(NG_CARRY_TRIES_KEY)], [0, 0, false]);
+  assert.deepEqual([fetched.length, a.__saved.length, browser.store.size], [0, 0, 0], "nothing fetched, saved or kept");
   const recent = boot({ srs: { [DECK]: { [P[0][1]]: [20790, 3, 20760] } }, stage: { [DECK]: { [P[0][1]]: 1 } } });
   assert.equal(recent._carryP, undefined, "a record begun after the rewrite never fetches");
   assert.equal(ngProgressPracticeKey({ v: 2 }), ngProgressPracticeKey({ v: 2, cardCarry: 1 }), "the marker is not practice");
 });
 
-test("5b. a record from before the rewrite with no reworded card: one fetch, nothing carried, the marker kept on this browser, no push", async () => {
+test("5b. a record from before the rewrite with no reworded card: one fetch, nothing carried, nothing written, never again", async () => {
   const card = CARDS[DECK].cards.find((c) => !P.some(([, n]) => H(c.q) === n));
-  const a = boot({ stage: { [DECK]: { [H(card.q)]: 2 } }, srs: { [DECK]: { [H(card.q)]: [SEPT + 3, 3, SEPT] } } });
+  const rec = { stage: { [DECK]: { [H(card.q)]: 2 } }, srs: { [DECK]: { [H(card.q)]: [SEPT + 3, 3, SEPT] } } };
+  const a = boot(rec);
   const r = await a._carryP;
   assert.deepEqual([r.status, r.rows], ["applied", 0]);
-  assert.equal(a.__saved.length, 0, "no save, so no push");
-  assert.equal(a.__persisted.at(-1).cardCarry, 1, "the marker, on this browser");
-  fetched.length = 0;
-  assert.equal(boot(a.__persisted.at(-1))._carryP, undefined, "and never again");
+  assert.deepEqual([a.__saved.length, a.__persisted.length], [0, 0], "no save and no push");
+  assert.deepEqual(stateOf({ kind: "guest" }), { n: 1, pending: false, tries: 0 });
+  fetched = [];
+  assert.equal(boot(rec)._carryP, undefined, "and never again on this browser");
   assert.equal(fetched.length, 0);
 });
 
@@ -214,45 +249,66 @@ test("6. pull before write: a signed-in owner carries only on a copy a successfu
   assert.equal(a.__saved.at(-1).cardCarry, 1);
 });
 
-test("7. a failure leaves the record exactly as it was; the next boot tries again; ten a browser", async () => {
-  serve = () => null;
+test("7. a failure leaves the record exactly as it was and keeps the need; ten server answers per owner; offline is no try (F2)", async () => {
+  const G = { kind: "guest" };
+  serve = () => null;   // the server answers 404
   const a = boot(september());
   const bare = () => { const b = a._progressBlob(); delete b.updatedAt; return JSON.stringify(b); };   // the save's clock aside
   const was = bare();
   assert.equal((await a._carryP).status, "bad-file");
   assert.equal(bare(), was, "nothing applied");
   assert.equal(a.__saved.length, 0, "nothing written");
+  assert.deepEqual(stateOf(G), { n: 0, pending: true, tries: 1 }, "a server's answer is a try, and the need is kept");
   assert.equal(a._carryMaybe("curriculum"), null, "one attempt a boot");
-  serve = (i) => JSON.stringify({ ...JSON.parse(readFileSync(FILE(i), "utf8")), id: "00000000" });   // another build's file
+  serve = (i) => JSON.stringify({ ...JSON.parse(real(i)), id: "00000000" });   // another build's file: a try too
   assert.equal((await boot(september())._carryP).status, "bad-file");
-  assert.equal(store.get(NG_CARRY_TRIES_KEY), "2");
-  store.set(NG_CARRY_TRIES_KEY, String(NG_CARRY_TRIES));
-  serve = (i) => readFileSync(FILE(i), "utf8");
-  fetched.length = 0;
-  assert.equal(boot(september())._carryP, undefined, "ten tries on this browser: never again");
-  assert.equal(fetched.length, 0);
+  assert.equal(stateOf(G).tries, 2);
+  serve = real;
+  assert.equal((await boot(september())._carryP).status, "applied", "the server then serves the files");
+  assert.deepEqual([stateOf(G).tries, stateOf(G).pending], [0, false], "a success clears the tries and the need");
+  // TEN OFFLINE OPENINGS, then one online: the carry lands (the reader's F2, r471t.mjs 3)
+  browser = newBrowser(); serve = () => OFFLINE;
+  for (let k = 0; k < 10; k++) assert.equal((await boot(september())._carryP).status, "offline");
+  assert.deepEqual(stateOf(G), { n: 0, pending: true, tries: 0 }, "a network failure is never a try");
+  const nav = Object.getOwnPropertyDescriptor(globalThis, "navigator");
+  Object.defineProperty(globalThis, "navigator", { value: { onLine: false }, configurable: true });
+  try {
+    fetched = [];
+    assert.equal(boot(september())._carryP, undefined, "offline: nothing is even asked for");
+    assert.equal(fetched.length, 0);
+  } finally { if (nav) Object.defineProperty(globalThis, "navigator", nav); else delete globalThis.navigator; }
+  serve = real;
+  const on = boot(september());
+  assert.equal((await on._carryP).status, "applied", "the first online opening carries");
+  assert.deepEqual(stateOf(G), { n: ngCarryCount(latest(on)), pending: false, tries: 0 }, "a success clears the tries");
+  // TEN SERVER ANSWERS bind THAT owner only: an account signing in on this browser still carries
+  browser = newBrowser(); serve = () => null;
+  for (let k = 0; k < NG_CARRY_TRIES; k++) await boot(september())._carryP;
+  assert.equal(stateOf(G).tries, NG_CARRY_TRIES);
+  fetched = [];
+  assert.equal(boot(september())._carryP, undefined, "the guest's ten are spent: never again for the guest here");
+  serve = real;
+  const acct = boot(september(), { owner: { kind: "account", id: "u1" } });
+  assert.equal((await pull(acct, september())).status, "applied", "the account's own tries are its own");
 });
 
-test("8. done is done; a browser whose own copy was unmarked and held old rows runs once more and changes nothing", async () => {
+test("8. a successful carry is not repeated; a browser runs again only on MORE September rows, and that run changes nothing carried", async () => {
   const a = boot(september());
   await a._carryP;
-  const carried = a.__saved.at(-1);
-  fetched.length = 0;
-  const b = boot(carried);
-  assert.equal(b._carryP, undefined, "a copy marked done never fetches");
-  // a browser that never synced since September: its own copy unmarked, with old rows; the merged copy is marked
-  const c = boot(september());
-  c._carryP && (await c._carryP);
-  const d = boot({ ...september() }, { owner: { kind: "account", id: "u1" } });
-  d._mergeProgressFields(clone(carried));
-  d._hydrateProgressBlob(d._progressBlob());
-  d._carryLocal = { done: false, may: true };
-  d._authUserId = "u1"; d._pulled = true; d._pulledUserId = "u1";
+  const carried = latest(a);
+  fetched = [];
+  assert.equal(boot(carried)._carryP, undefined, "the same browser, the same rows: nothing fetched");
+  assert.equal(fetched.length, 0);
+  // a SECOND browser of the account, its own copy the carried record: it has no state, so it fetches once, and changes nothing
+  const other = newBrowser();
+  const d = boot(carried, { owner: { kind: "account", id: "u1" }, on: other });
   const was = JSON.stringify({ srs: d.srs, stage: d.stage });
-  const r = await d._carryMaybe("pull");
-  assert.equal(r.status, "applied");
-  assert.equal(r.rows, 0, "nothing the first run carried moves again");
+  const r = await pull(d, carried);
+  assert.deepEqual([r.status, r.rows], ["applied", 0], "one fetch, nothing moves");
   assert.equal(JSON.stringify({ srs: d.srs, stage: d.stage }), was, "byte for byte");
+  fetched = [];
+  assert.equal(await pull(boot(carried, { owner: { kind: "account", id: "u1" }, on: other }), carried), null, "and then never again there");
+  assert.equal(fetched.length, 0);
 });
 
 test("9. a target card reworded later WITH its id reads the carried grade", async () => {
@@ -268,11 +324,11 @@ test("9. a target card reworded later WITH its id reads the carried grade", asyn
 test("10. this browser's gone mark on a carried grade is lifted", async () => {
   const a = boot(september(), { load: false });
   a.stageGone = { [DECK]: { [P[0][1]]: 1 } };
-  a._carryLocal = { done: false, may: true };
   const r = await a._carryMaybe("curriculum");
   assert.equal(r.status, "applied");
   assert.equal(a._gradeGone(DECK, P[0][1]), false);
-  assert.equal(a.__marks[DECK], undefined, "the browser's store, too");
+  assert.equal(a.__marks[DECK][P[0][1]], undefined, "the browser's store, too");
+  for (const [o] of P) assert.equal(a._gradeGone(DECK, o), true, "and the old key it came from is marked gone (F3)");
 });
 
 test("11. the marker: written as 1, merged as an OR, kept out of the guest part", () => {
@@ -287,7 +343,7 @@ test("11. the marker: written as 1, merged as an OR, kept out of the guest part"
   assert.equal("cardCarry" in joined, false, "a guest's marker never joins the account");
 });
 
-test("12. all at once (U222 a): every carried row already due is owed the day it lands, from the stored schedule", async () => {
+test("12. all at once (U222 a), counted once (F3): every carried row already due is owed the day it lands, from the stored schedule", async () => {
   const src = rd("neural/src/app.src.jsx");
   const owed = [...src.matchAll(/ngGameplan(?:Debt|Bind|Progress)\(([^;]*)/g)].map((m) => m[1]);
   assert.ok(owed.length >= 7, `premise: the planner's owed readers found (${owed.length})`);
@@ -296,16 +352,12 @@ test("12. all at once (U222 a): every carried row already due is owed the day it
   const plain = boot(september(), { load: false });
   const a = boot(september());
   await a._carryP;
-  const dueNow = P.filter(([, n]) => a.srs[DECK][n][0] <= TODAY).length;
-  assert.equal(dueNow, 3, "premise: all three carried rows are past their September due days");
-  assert.equal(a.dueCount() - plain.dueCount(), dueNow, "the due count rises by every carried row due, at once");
   const pool = (x) => x.duePool().filter((e) => e.key === DECK).map((e) => e.qh).sort();
-  // before the live set lands an old row is "not known yet" and stays counted, as on dev (DUE1: `_rowLive` null); once the
-  // drawer's check has landed it is known retired, and the pool holds the carried rows alone
-  assert.deepEqual(pool(a), [...P.map(([o]) => o), ...P.map(([, n]) => n)].sort(), "not known yet: the old rows, and the carried ones");
+  assert.deepEqual(pool(a), P.map(([, n]) => n).sort(), "no live set yet: the carried rows, each once (the old keys are marked gone here)");
+  assert.deepEqual(pool(plain), P.map(([o]) => o).sort(), "the record not carried, as dev reads it: its old rows, not known yet");
   a._ratingLiveFrom(ratingLiveFiles(DIR)); plain._ratingLiveFrom(ratingLiveFiles(DIR));
-  assert.deepEqual(pool(a), P.map(([, n]) => n).sort(), "the live set in: the carried rows alone");
-  assert.deepEqual(pool(plain), [], "and on the record not carried, nothing of these cards is owed");
+  assert.deepEqual(pool(a), P.map(([, n]) => n).sort(), "the live set in: the same");
+  assert.deepEqual(pool(plain), [], "and the record not carried owes none of these cards");
 });
 
 test("14. a pull that brings in MORE September rows (another device's, synced late) carries them too", async () => {
@@ -337,6 +389,85 @@ test("14. a pull that brings in MORE September rows (another device's, synced la
   assert.equal(await b._pullAndMerge(), true);
   assert.equal(b._carryP, undefined);
   assert.equal(fetched.length, 0);
+});
+
+test("15. the reader's trace, seed 26: a device whose own attempt failed after the marker came in still carries, at a later boot", async () => {
+  // D1 carried its rows and pushed; D0 holds September rows the cloud never had; D0's pull brings the marker in, its own attempt
+  // fails at the server, and it saves. Before R1, D0 read "done" from then on and its rows were never carried.
+  const D0 = newBrowser(), D1 = newBrowser(), me = { kind: "account", id: "u1" };
+  const d1 = boot(september(), { owner: me, on: D1 });
+  assert.equal((await pull(d1, september())).status, "applied");
+  const cloud = latest(d1);
+  const own = { stage: { [DECK]: { [P[0][0]]: 2 }, [XD]: { [XO]: 4 } }, srs: { [DECK]: { [P[0][0]]: [SEPT + 3, 3, SEPT] }, [XD]: { [XO]: [SEPT + 2, 1, SEPT + 1] } } };   // XD's row: D1 never had it
+  serve = () => null;
+  const d0 = boot(own, { owner: me, on: D0 });
+  assert.equal((await pull(d0, cloud)).status, "bad-file", "its own attempt fails");
+  const saved = d0._progressBlob();
+  assert.equal(saved.cardCarry, 1, "the marker came in with the pull");
+  serve = real;
+  const again = boot(saved, { owner: me, on: D0 });
+  assert.equal((await pull(again, cloud)).status, "applied", "the next boot carries: the need was kept");
+  assert.deepEqual(again.srs[XD][XN], [SEPT + 2, 1, SEPT + 1], "D0's own row, under today's key");
+  assert.equal(again.stage[XD][XN], 4);
+  assert.equal(stateOf(me, D0).pending, false);
+});
+
+test("16. the reader's trace, seed 75: rows an older build pushed after the carry are carried by the next boot, and by that device once upgraded", async () => {
+  // D0 carried; D1, an older build, pushed its own September rows afterwards (and keeps the marker it pulled). D0's pull that
+  // brought them came in a boot that had already tried. Before R1, nobody ever carried them.
+  const D0 = newBrowser(), me = { kind: "account", id: "u1" };
+  const d0 = boot(september(), { owner: me, on: D0 });
+  assert.equal((await pull(d0, september())).status, "applied");
+  const late = latest(d0);
+  late.stage[XD] = { ...(late.stage[XD] || {}), [XO]: 4 }; late.srs[XD] = { ...(late.srs[XD] || {}), [XO]: [SEPT + 2, 1, SEPT + 1] };   // D1's row, pushed now
+  const tried = boot(latest(d0), { owner: me, on: D0 });
+  tried._carryTried = true;                                                         // this boot already spent its attempt
+  assert.equal(await pull(tried, late), null, "no second attempt this boot");
+  assert.equal(stateOf(me, D0).pending, true, "but the pull that grew the count kept the need");
+  const next = boot(tried._progressBlob(), { owner: me, on: D0 });
+  assert.equal((await pull(next, late)).status, "applied", "the next boot carries the late rows");
+  // and D1 itself, once upgraded, starts with no state on its browser: it carries its own rows, whatever the marker says
+  const D1 = newBrowser(), d1 = boot(late, { owner: me, on: D1 });
+  assert.equal((await pull(d1, late)).status, "applied");
+  assert.equal(d1.stage[XD][XN], 4, "D1's own row, carried by D1");
+  assert.equal(next.stage[XD][XN], 4, "and by D0's next boot");
+});
+
+test("17. the due badge before the live set (F3): 298 for 298, never the carried rows twice", async () => {
+  // a September player: 150 reworded cards (their old rows carried) and 148 untouched ones, each due, none shared
+  const sh = probeShared(), seen = new Set(), olds = [], rows = { stage: {}, srs: {} };
+  for (const d of Object.keys(SOURCE.decks).sort()) {
+    if (!CARDS[d] || olds.length >= 150) continue;
+    for (const [o, n] of pairsOf(d)) if (olds.length < 150 && !sh.has(o) && !sh.has(n) && !seen.has(o) && !seen.has(n) && CARDS[d].cards.some((c) => H(c.q) === n)) { olds.push([d, o, n]); seen.add(o); seen.add(n); }
+  }
+  const keep = [];
+  for (const d of Object.keys(CARDS).sort()) for (const c of CARDS[d].cards) { const q = H(c.q); if (keep.length < 148 && !sh.has(q) && !seen.has(q)) { keep.push([d, q]); seen.add(q); } }
+  assert.deepEqual([olds.length, keep.length], [150, 148], "premise: the fixture");
+  for (const [d, q] of [...olds.map(([d, o]) => [d, o]), ...keep]) { (rows.stage[d] = rows.stage[d] || {})[q] = 2; (rows.srs[d] = rows.srs[d] || {})[q] = [SEPT + 3, 3, SEPT]; }
+  const a = boot(rows);
+  await a._carryP;
+  assert.equal(a.dueCount(), 298, "no live set: 298 (the double count read 448)");
+  a._ratingLiveFrom(ratingLiveFiles(DIR));
+  assert.equal(a.dueCount(), 298, "the live set in: the same 298");
+});
+
+test("18. the count follows answered September rows down, so a row another tab brings in afterwards is still carried", async () => {
+  const a = boot(september());
+  await a._carryP;
+  const G = { kind: "guest" }, n0 = stateOf(G).n;
+  // two September rows answered since (their `last` is today now): the next decision brings n down to the record's count
+  const answered = latest(a);
+  for (const [, nu] of P.slice(0, 2)) answered.srs[DECK][nu] = [TODAY + 3, 3, TODAY];
+  for (const [o] of P.slice(0, 2)) answered.srs[DECK][o] = [TODAY + 3, 3, TODAY];
+  const b = boot(answered);
+  assert.equal(b._carryP, undefined, "nothing to carry");
+  assert.ok(stateOf(G).n < n0, `n follows the record down (${n0} -> ${stateOf(G).n})`);
+  // another tab's save then brings in one September row this browser never carried: more than n, so it is carried
+  const more = latest(b);
+  more.stage[XD] = { [XO]: 3 }; more.srs[XD] = { [XO]: [SEPT + 7, 7, SEPT] };
+  const c = boot(more);
+  assert.equal((await c._carryP).status, "applied");
+  assert.equal(c.stage[XD][XN], 3);
 });
 
 test("13. the build half: the generator and the emitter (tests/card_carry_build.py)", () => {
