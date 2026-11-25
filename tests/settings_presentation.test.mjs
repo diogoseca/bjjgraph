@@ -423,7 +423,9 @@ test("SETH4: Answer mode and each place shows are radio groups of cards, every l
     assert.equal(card.querySelectorAll(".ng-set-cn").filter((b) => g.parentElement.contains(b)).length, 0, id + ": no box explaining only the chosen one");
   }
   const tags = card.querySelectorAll(".ng-set-tag");
-  assert.deepEqual(tags.map((t) => [t.textContent, t.parentElement.parentElement.getAttribute("data-mode-pick")]), [["Recommended", "auto"]], "one tag, on Auto");
+  // OFF1 (v1.302.0): the Opponent row's choice cards tag Normal too, so Settings holds exactly two tags, each on its row's default
+  const tagged = (t) => { const c = t.parentElement.parentElement; return c.getAttribute("data-mode-pick") || c.getAttribute("data-opponent-pick"); };
+  assert.deepEqual(tags.map((t) => [t.textContent, tagged(t)]), [["Recommended", "auto"], ["Recommended", "normal"]], "two tags: on Auto, and on the opponent's Normal");
   // the arrows choose, wrapping, and focus follows the choice through the redraw
   const keyOn = (id, k) => { const g = group(id); document.activeElement = g.querySelector('[aria-checked="true"]'); return g.fire("keydown", { key: k }); };
   const ev = keyOn("mode", "ArrowDown"); assert.equal(ev.defaultPrevented, true); assert.equal(ev.stopped, true, "the key does not reach the game");
