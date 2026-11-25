@@ -293,6 +293,15 @@ def _qa_full(qa: dict) -> dict:
         c['answer_line'] = qa['answer_line']
     if qa.get('distractors'):
         c['distractors'] = qa['distractors']
+    return _qa_id(c, qa)
+
+
+def _qa_id(c: dict, qa: dict) -> dict:
+    """A card's authored `id` rides to graph.json, only when the content carries one (CARD1-S2, v1.303.0): the card
+    key the neural emitter keys the card by (scripts/regenerate_neural_data.py `_card_key`). No content file carries
+    one yet, so graph.json is unchanged."""
+    if qa.get('id'):
+        c['id'] = qa['id']
     return c
 
 
@@ -339,7 +348,7 @@ def _submission_qa(qa: dict, deck_key: str) -> dict:
     if deck_key in REVIEWED_SUBMISSION_MC_DECKS:
         card = _qa_full(qa)
     else:
-        card = {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
+        card = _qa_id({'question': qa.get('question', ''), 'answer': qa.get('answer', '')}, qa)
     card['safetyCritical'] = qa.get('safety_critical', False)
     return card
 

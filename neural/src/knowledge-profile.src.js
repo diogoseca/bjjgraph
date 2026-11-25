@@ -292,6 +292,14 @@ export function ngKnowledgeQuestionHash(q) {
   for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; }
   return ("0000000" + h.toString(16)).slice(-8);
 }
+// A CARD'S KEY (CARD1-S2, v1.303.0): its stable key `k` when the wire carries one (a card whose question was reworded keeps
+// the key of the text it replaced; the emitter writes `k` only when it differs from the text's hash), else the FNV-1a of
+// its question. The app's `cardKey` and the emitter's `_card_key` are the same rule. With no `k` on any card (no content
+// file carries an `id` yet), every key is the text's hash, as before. The MDP reads no card: this moves no game value.
+export function ngKnowledgeCardKey(card) {
+  if (card && typeof card === "object") return typeof card.k === "string" && /^[0-9a-f]{8}$/.test(card.k) ? card.k : ngKnowledgeQuestionHash(card.q);
+  return ngKnowledgeQuestionHash(card);
+}
 function ngKnowledgePut(map, key, value) {
   Object.defineProperty(map, key, { value, enumerable: true, writable: true, configurable: true });
   return value;
@@ -309,8 +317,9 @@ export function ngKnowledgeBuildEvidence(input = {}) {
     sharp: input.sharp || {}, days: input.days || {},
     creditedQuestions: input.creditedQuestions || [], attempts: input.attempts || {} }));
 }
-export function ngKnowledgeSharedDecks(manifest, question, key) {
-  const m = manifest || {}, qh = ngKnowledgeQuestionHash(question);
+// `card` is the card (keyed by `ngKnowledgeCardKey`), or (an older caller) its question's text
+export function ngKnowledgeSharedDecks(manifest, card, key) {
+  const m = manifest || {}, qh = ngKnowledgeCardKey(card);
   if (m.shared != null) {
     const list = m.shared instanceof Map ? m.shared.get(qh) : ngKnowledgeRead(m.shared, qh, null);
     return list && list.length > 1 && list.includes(key) ? [...new Set(list)] : [];
@@ -319,7 +328,7 @@ export function ngKnowledgeSharedDecks(manifest, question, key) {
   const list = [];
   for (const [dk, d] of Object.entries(m.decks || {})) {
     const cards = Array.isArray(d) ? d : d && d.cards;
-    if (cards && cards.some((c) => c.q === question)) list.push(dk);
+    if (cards && cards.some((c) => c && c.q && ngKnowledgeCardKey(c) === qh)) list.push(dk);
   }
   return list.length > 1 ? list : [];
 }
@@ -524,8 +533,8 @@ export function ngKnowledgeApplyGrade(evidence, event, manifest, day) {
   if (ngKnowledgeOwn(e.attempts, event.attemptId)) return { status: "duplicate", evidence: e, changedDecks: [], effects: {} };
   // Reveal is not a grade and does not consume a later real grading attempt.
   if (event.mode === "reveal") return { status: "revealed", evidence: e, changedDecks: [], effects: {} };
-  const next = ngKnowledgeClone(e), key = event.key, q = event.card.q, qh = ngKnowledgeQuestionHash(q);
-  const shared = ngKnowledgeSharedDecks(manifest, q, key);
+  const next = ngKnowledgeClone(e), key = event.key, qh = ngKnowledgeCardKey(event.card);   // CARD1-S2: the card's key
+  const shared = ngKnowledgeSharedDecks(manifest, event.card, key);
   const decks = [...new Set([key, ...shared])];
   const ok = !!event.correct && event.mode !== "expiry";
   const cur = ngKnowledgeRead(ngKnowledgeRead(next.stage, key, {}), qh);
@@ -547,13 +556,14 @@ export function ngKnowledgeApplyGrade(evidence, event, manifest, day) {
     ngKnowledgePut(schedules, qh, ngKnowledgeScheduleRow(prior, ok, day));
   }
   const proven = ok && event.mode === "recall" && cur < 3 && stage >= 3;
-  const firstCredit = ok && !next.creditedQuestions.includes(q);
+  // the session latch is per CARD, by its key (CARD1-S2; the app's `cardDone` is the same set): never stored
+  const firstCredit = ok && !next.creditedQuestions.includes(qh);
   if (ok) {
     ngKnowledgePut(next.prep, key, ngKnowledgeRead(next.prep, key) + 1);
     ngKnowledgePut(next.sharp, key, 0.10);
     if (proven) ngKnowledgePut(next.rec, key, ngKnowledgeRead(next.rec, key) + 1);
     if (firstCredit) {
-      next.creditedQuestions.push(q);
+      next.creditedQuestions.push(qh);
       const dayKey = event.dayKey || String(day);
       ngKnowledgePut(next.days, dayKey, ngKnowledgeRead(next.days, dayKey) + 1);
       for (const dk of shared) {

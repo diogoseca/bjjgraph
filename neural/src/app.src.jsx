@@ -3867,12 +3867,12 @@ class Component extends DCLogic {
     const q = card && card.q; if (!q) return;
     this.bumpSharp(key);
     this.cardDone = this.cardDone || new Set();
-    const first = !this.cardDone.has(q);
+    const ck = this.cardKey(card), first = !this.cardDone.has(ck);   // CARD1-S2: by the card's key
     if (first) {
-      this.cardDone.add(q);
+      this.cardDone.add(ck);
       const dk = this._dayKey(); this._days = this._days || {};
       this._days[dk] = (this._days[dk] || 0) + 1; this.cardsToday = this._days[dk];
-      const shared = this._sharedDecksFor(q, key);
+      const shared = this._sharedDecksFor(card, key);
       const decks = (this.flashcards && this.flashcards.decks) || {};
       this.prep = this.prep || {};
       if (shared) for (const k of shared) {
@@ -3896,22 +3896,24 @@ class Component extends DCLogic {
    * Fallback (a monolith boot, or a manifest older than the index): scan the resident decks, as
    * before. It is residency-dependent by nature, hence lazy + invalidated on every hydration.
    */
-  _sharedDecksFor(q, key) {
+  // CARD1-S2: by the card's key (`cardKey`; `c` a card, or its question's text), as the manifest's index is keyed
+  _sharedDecksFor(c, key) {
+    const ck = this.cardKey(c);
     if (this._sharedQ) {
-      const list = this._sharedQ.get(this.qhash(q));
+      const list = this._sharedQ.get(ck);
       return list && list.length > 1 && list.indexOf(key) >= 0 ? list : null;
     }
     if (!this._qkDecks) {
       this._qkDecks = new Map();
       const decks = (this.flashcards && this.flashcards.decks) || {};
       for (const k of Object.keys(decks)) {
-        for (const c of this._cardsOf(decks[k]) || []) {
-          const arr = this._qkDecks.get(c.q);
-          if (arr) arr.push(k); else this._qkDecks.set(c.q, [k]);
+        for (const card of this._cardsOf(decks[k]) || []) {
+          const h = this.cardKey(card), arr = this._qkDecks.get(h);
+          if (arr) arr.push(k); else this._qkDecks.set(h, [k]);
         }
       }
     }
-    const list = this._qkDecks.get(q);
+    const list = this._qkDecks.get(ck);
     return list && list.length > 1 ? list : null;
   }
   setDrillHeader(title, sub, countText, role, roleColor) {
@@ -4688,7 +4690,7 @@ class Component extends DCLogic {
     const d = ((this.flashcards && this.flashcards.decks) || {})[key];
     const s = this.stage && this.stage[key];
     if (!s || !d || !cards || cards.length !== (d.n || cards.length)) return;
-    const live = new Set(cards.map((c) => this.qhash(c.q)));
+    const live = new Set(cards.map((c) => this.cardKey(c)));   // CARD1-S2: by the card's key
     const gone = (this.stageGone = this.stageGone || {});
     let moved = 0;
     for (const qh in s) {
@@ -4742,7 +4744,7 @@ class Component extends DCLogic {
    * cold deck (see _mcCold), so the global tier's walk over the whole manifest cannot turn one
    * question into dozens of chunk fetches.
    */
-  _mcWarmKey(key, card) { return key + "|" + this.qhash(card && card.q); }
+  _mcWarmKey(key, card) { return key + "|" + this.cardKey(card); }
   /** Is this card's distractor pool already resident? (Always true on a monolith/test boot.) */
   mcPoolWarm(key, card) {
     if (!this.flashcards || !this.flashcards.manifest) return true;
@@ -5958,11 +5960,11 @@ class Component extends DCLogic {
     const ansSet = this._answered[key] || (this._answered[key] = new Set());
     // Stable question/day identity survives subset reordering and expires at midnight.
     // Persisted SRS also prevents duplicate grades after a reload or shared-deck review.
-    const identity = (card) => card && card.q ? JSON.stringify([this._epochDay(), this.qhash(card.q)]) : null;
+    const identity = (card) => card && card.q ? JSON.stringify([this._epochDay(), this.cardKey(card)]) : null;
     const graded = (card) => {
       const day = this._epochDay();
       if (this._miniGradeDay !== day) { this._miniGradeDay = day; this._miniGraded = new Set(); }
-      const qh = card && card.q && this.qhash(card.q), row = qh && this.srs && this.srs[key] && this.srs[key][qh];
+      const qh = card && card.q && this.cardKey(card), row = qh && this.srs && this.srs[key] && this.srs[key][qh];
       return !qh || this._miniGraded.has(identity(card)) || !!(row && row[2] === day);
     };
     this.prep = this.prep || {};
@@ -6772,7 +6774,7 @@ class Component extends DCLogic {
     return Object.fromEntries(Object.entries(src).map(([key, d]) => {
       const cards = this._cardsOf(d), i = this.nodeForKey(key);
       return [key, { count: this._deckCardCount(d), exact: !!cards,
-        questions: cards ? cards.filter((c) => c.q).map((c) => this.qhash(c.q)) : [...new Set([...(shared.get(key) || []), ...Object.keys((this.srs || {})[key] || {})])],
+        questions: cards ? cards.filter((c) => c.q).map((c) => this.cardKey(c)) : [...new Set([...(shared.get(key) || []), ...Object.keys((this.srs || {})[key] || {})])],
         allowed: i < 0 || this.rsAllowsIdx(i), headroom: Math.max(0, 0.15 - (flash ? this._flashMastery(key) : this.mastery(key))),
         // Practice's own call marks a deck the moves fill (no comparison can rank it) whose flashcards are still new
         ...(flash && this.mastery(key) >= 0.15 && this._flashMastery(key) < 0.15 ? { oddsFull: true } : {}) }];
@@ -7020,7 +7022,7 @@ class Component extends DCLogic {
     // stored filter, a due-only session silently became a whole-deck session the moment its
     // payload landed, which is the NORMAL case since openSession hydrates on the way in.
     // An empty due subset stays empty; completion must never reopen unrelated cards.
-    if (c && filter === "due") c = c.filter((x) => this._cardDue(key, x.q));
+    if (c && filter === "due") c = c.filter((x) => this._cardDue(key, x));
     return { info: { fam: fam, role: role, cat: cat, key: key, filter: filter || null }, cards: c ? c.slice() : null };
   }
   /** THE FRAMING OF A SET OF NODES, in the visible graph rect (`_viewRect`, v1.219.0). Shared by
@@ -7389,7 +7391,7 @@ class Component extends DCLogic {
       if (next.order !== "worth") { send("fallback", s.plan); return; }
       const k = s.keys[s.idx], deck = this.flashcards && this.flashcards.decks && this.flashcards.decks[k], d = this._deckState && this._deckState[k];
       const rowIn = (plan) => plan.due.concat(plan.fresh).find((r) => r.key === k);
-      const cardsIn = (row) => (row ? (this._cardsOf(deck) || []).filter((c) => row.questions.includes(this.qhash(c.q))) : []);
+      const cardsIn = (row) => (row ? (this._cardsOf(deck) || []).filter((c) => row.questions.includes(this.cardKey(c))) : []);
       const open = cardsIn(rowIn(s.plan))[d ? d.idx : 0], row = rowIn(next), at = open ? cardsIn(row).indexOf(open) : 0;
       if (!row || at < 0) { send("reading", s.plan); return; }
       if (open) (this._deckState = this._deckState || {})[k] = { ...d, idx: at, revealed: false };
@@ -7885,8 +7887,8 @@ class Component extends DCLogic {
     const cards = this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[k]);
     if (!cards) return false;
     const row = (s.plan ? s.plan.due.concat(s.plan.fresh) : s.review ? s.review.rows : []).find((r) => r.key === k);
-    const only = row ? cards.filter((c) => row.questions.includes(this.qhash(c.q))) : cards, day = this._epochDay(), rows = (this.srs && this.srs[k]) || {};
-    const done = (c) => { const r = c && rows[this.qhash(c.q)]; return !!(r && r[2] === day); };
+    const only = row ? cards.filter((c) => row.questions.includes(this.cardKey(c))) : cards, day = this._epochDay(), rows = (this.srs && this.srs[k]) || {};
+    const done = (c) => { const r = c && rows[this.cardKey(c)]; return !!(r && r[2] === day); };
     const st = this._deckState && this._deckState[k], at = only.findIndex((c) => !done(c));
     // (the remembered index as the card reads it: past the end is its first card, below zero its last, `_miniDeck`)
     const now = !st ? 0 : st.idx >= only.length ? 0 : st.idx < 0 ? Math.max(0, only.length - 1) : st.idx;
@@ -8137,7 +8139,7 @@ class Component extends DCLogic {
       // contract) while a "learn next" row shows the whole deck — and the plan queue holds both,
       // so a single session-level `filter` would narrow the wrong half.
       const planned = (s.plan ? s.plan.due.concat(s.plan.fresh) : s.review ? s.review.rows : []).find((r) => r.key === key);
-      const only = planned ? (this._cardsOf(deck) || []).filter((c) => planned.questions.includes(this.qhash(c.q))) : null;
+      const only = planned ? (this._cardsOf(deck) || []).filter((c) => planned.questions.includes(this.cardKey(c))) : null;
       const explanation = document.createElement("div");
       if (planned) {
         const why = document.createElement("p"); why.setAttribute("data-gameplan-reason", key);
@@ -9895,7 +9897,7 @@ class Component extends DCLogic {
     const cards = this._cardsOf(d);
     if (cards && cards.length) {
       let s = 0;
-      for (const c of cards) s += Math.min(3, this.cardStage(key, c.q)) / 3;
+      for (const c of cards) s += Math.min(3, this.cardStage(key, c)) / 3;
       return s / cards.length;
     }
     // UNHYDRATED, but not unknown. Every grade the user has ever made is persisted per
@@ -15047,7 +15049,7 @@ class Component extends DCLogic {
     const card = this.deck[this.deckIdx], key = this._deckInfo && this._deckInfo.key;
     if (key && card && this.flashcards && this.mcActive(key, card)) {
       if (!this.mcPoolWarm(key, card)) return;
-      if (this._mc && this._mc.surface === "deck" && this._mc.key === key && this._mc.qhash === this.qhash(card.q)) return;
+      if (this._mc && this._mc.surface === "deck" && this._mc.key === key && this._mc.qhash === this.cardKey(card)) return;
     }
     this.revealed = true; this.renderDrill();
   }
@@ -15058,7 +15060,15 @@ class Component extends DCLogic {
     for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; }
     return ("0000000" + h.toString(16)).slice(-8);
   }
-  cardStage(key, q) { const s = this.stage && this.stage[key]; return (s && s[this.qhash(q)]) || 0; }
+  /** A CARD'S KEY (CARD1-S2, v1.303.0; the owner's U220 a, "a short unique hash key"): the one identity a card's progress is
+   *  filed under (`stage`, `srs`, the undelivered-answer journal, the manifest's shared index, the live files). Its stable
+   *  key `k` when the wire carries one: a card whose question was reworded keeps the key of the text it replaced (the
+   *  content's `id`, written by whatever rewords it; the emitter writes `k` only when it differs from the text's hash). Else
+   *  the FNV-1a of its question, which is every card's key until a content file carries an `id`. `c` is a card, or (an old
+   *  caller, a rail) its question's text. The same rule is the knowledge law's `ngKnowledgeCardKey` and the emitter's
+   *  `_card_key`. Pinned by tests/card_key.test.mjs. */
+  cardKey(c) { return c && typeof c === "object" ? (typeof c.k === "string" && /^[0-9a-f]{8}$/.test(c.k) ? c.k : this.qhash(c.q)) : this.qhash(c); }
+  cardStage(key, c) { const s = this.stage && this.stage[key]; return (s && s[this.cardKey(c)]) || 0; }   // `c`: a card (or its text)
   /** LOCAL calendar day as an integer. Local, not UTC, because `_dayKey()` (the "N today"
    *  counter) is local — two cells on one band must roll over at the same midnight. Overridable
    *  for tests via `window.__NG_EPOCH_DAY__`; most specs simply seed past-due blobs instead. */
@@ -15080,7 +15090,7 @@ class Component extends DCLogic {
    * the harness's drill rail writes prep directly and must keep an empty srs.
    */
   _schedule(key, q, ok) {
-    const today = this._epochDay(), qh = this.qhash(q), written = [];
+    const today = this._epochDay(), qh = this.cardKey(q), written = [];   // CARD1-S2: `q` is the card (or its text)
     const write = (dk) => {
       const m = (this.srs[dk] = this.srs[dk] || {});
       m[qh] = ngKnowledgeScheduleRow(m[qh], ok, today);
@@ -15140,7 +15150,7 @@ class Component extends DCLogic {
     const d = decks[dk];
     if (!d) return false;
     const cards = this._cardsOf(d);
-    if (cards) return cards.some((c) => c.q && this.qhash(c.q) === qh);
+    if (cards) return cards.some((c) => c.q && this.cardKey(c) === qh);
     const L = this._ratingLiveNow(), set = L && L.status === "ok" && L.decks instanceof Map ? L.decks.get(dk) : null;
     return set ? set.has(ngRatingQ16(qh)) : null;
   }
@@ -15161,12 +15171,12 @@ class Component extends DCLogic {
   /** is THIS card due (and unreviewed today)? */
   _cardDue(key, q) {
     const m = this.srs && this.srs[key]; if (!m) return false;
-    const e = m[this.qhash(q)]; if (!e) return false;
+    const e = m[this.cardKey(q)]; if (!e) return false;
     const today = this._epochDay();
     return e[0] <= today && e[2] < today;
   }
   _bumpStage(key, q, d, cap) {
-    const qh = this.qhash(q);
+    const qh = this.cardKey(q);
     const s = (this.stage[key] = this.stage[key] || {});
     // THE CAP IS A CEILING ON GROWTH, NEVER A DEMOTION (v1.105.0). The absolute clamp meant a
     // correct MC answer (cap 2) on a recall-proven card wrote min(2, 3+1) = 2 — the belt DROPPED
@@ -15340,7 +15350,7 @@ class Component extends DCLogic {
   // account's `recallCarry` fact are kept, stored, synced and merged exactly as before, and decide nothing: Auto's rule IS
   // what Recall mode On did in a roll, and the screen must say what plays (R2: no hidden switch deciding rolls).
   _answerMode() { const v = this.get("mcMode", null); return v === "classic" || v === "mc" ? v : "auto"; }
-  _cardAsksMc(key, card) { const m = this._answerMode(); return m === "mc" || (m === "auto" && this._cardStageShared(key, card.q) < 2); }
+  _cardAsksMc(key, card) { const m = this._answerMode(); return m === "mc" || (m === "auto" && this._cardStageShared(key, card) < 2); }
   // "NEVER AGAIN" IS PER QUESTION, NOT PER DECK (D2, the reader of #423; v1.282.0). The grade writes a card's stage to the
   // deck it was asked from (`ngKnowledgeBucket`), its schedule to every deck sharing the question; so a shared question right
   // twice in one deck read stage 0 from its other decks and asked multiple choice again there (397 questions in 919 deck
@@ -15383,13 +15393,13 @@ class Component extends DCLogic {
     // answered (`knowledgeAttempt`) or another card is dealt there; `spent` cannot end it, since every repaint of `_miniDeck`
     // spends the block it replaces, the same card's included. A kept deal draws nothing from the rng.
     // (the one inline surface is a session's, "practice"; Last rolls' own, "inline", left with its decks in v1.293.0)
-    const pinId = surface === "practice" ? surface + "|" + key + "|" + this.qhash(card.q) : null;
+    const pinId = surface === "practice" ? surface + "|" + key + "|" + this.cardKey(card) : null;
     const pin = this._mcPin;
     const mc = pinId && pin && pin.id === pinId && !pin.truth.knowledgeAttempt ? pin.mc
       : this.mcDistractors(card, key, this.MC_DISTRACTORS, surface && surface !== "deck" ? surface : null);
     // a surface that cannot build options must not disarm another surface's live block
     if (!mc) { if (!this._mc || this._mc.surface === (surface || "deck")) this._mc = null; return null; }
-    const qh = this.qhash(card.q);
+    const qh = this.cardKey(card);
     const truth = { key: key, qhash: qh, correct: mc.correctIdx, tiers: mc.options.map((o) => o.tier), n: mc.options.length, surface: surface || "deck" };
     if (pinId) this._mcPin = { id: pinId, mc: mc, truth: truth };
     // Exposed landing controls may page while the pane studies another card. Their own
@@ -15509,7 +15519,7 @@ class Component extends DCLogic {
   presentCard(qh) {
     const deck = this.deck; if (!deck) return false;
     for (let i = 0; i < deck.length; i++) {
-      if (this.qhash(deck[i].q) === qh) { this.deckIdx = i; this.revealed = false; this.renderDrill(); return true; }
+      if (this.cardKey(deck[i]) === qh) { this.deckIdx = i; this.revealed = false; this.renderDrill(); return true; }
     }
     return false;
   }
@@ -15579,7 +15589,7 @@ class Component extends DCLogic {
     const got = btn("Got it", p + "-got", true);
     row.appendChild(reveal); row.appendChild(hide); row.appendChild(again); row.appendChild(got);
     let graded = false;
-    const truth = { key: key, qhash: this.qhash(card.q), surface: surface || "deck", revealed: false, wrap: wrap };
+    const truth = { key: key, qhash: this.cardKey(card), surface: surface || "deck", revealed: false, wrap: wrap };
     wrap.__ngRecall = truth; // mounted truth survives paging/backfills without taking another surface's keys
     const paint = () => {
       ans.style.display = truth.revealed ? "block" : "none";
@@ -17264,7 +17274,7 @@ class Component extends DCLogic {
     const key = this.deckKeyFor(opt.node).key;
     if (!(this.deckMastery(key) >= 1)) return false;
     const day = this._epochDay(), rows = (this.srs && this.srs[key]) || {}, d = this.flashcards && this.flashcards.decks && this.flashcards.decks[key];
-    const cards = d && this._cardsOf(d), live = cards && cards.length ? new Set(cards.map((c) => this.qhash(c.q))) : null;
+    const cards = d && this._cardsOf(d), live = cards && cards.length ? new Set(cards.map((c) => this.cardKey(c))) : null;
     for (const qh in rows) { const e = rows[qh]; if (e && e[0] <= day && e[2] < day && (!live || live.has(qh))) return false; }
     return true;
   }
@@ -17520,7 +17530,10 @@ class Component extends DCLogic {
   //           ordinal (node_ordinals.json), never an index or a name; a threat is the OPPONENT's
   //           move from here, so it files under the opponent's role — the same fact.
   //   move  = the technique's site ordinal; an escape is "e" + qhash(label), because two escapes
-  //           of one submission can share a destination and differ only by name.
+  //           of one submission can share a destination and differ only by name. THE SAME CLASS AS A
+  //           CARD'S KEY (CARD1-S2, `cardKey`), LEFT FOR ITS OWN SLICE: the label is clipped from the
+  //           authored `defensive_options[].action` (scripts/submission_choices.py `short_response`), so
+  //           an edit to that prose, or to the clip, re-keys the row; its content home has no id yet.
   // A SEPARATE FIELD, NEVER `stage` OR `srs`: deckMastery's unhydrated branch sums every graded
   // hash in stage[deck] over the manifest's count (a synthetic hash inflates mastery), and
   // practiceToday / duePool count every srs cell while the planner binds rows to manifest cards
@@ -17830,8 +17843,8 @@ class Component extends DCLogic {
     if (!cards || !cards.length) return null;
     // DUE FIRST (v1.105.0, owner: "when you're in a particular state, it should prioritize due
     // cards before new cards"). A due card is asked at ANY stage — maintenance before learning.
-    for (const c of cards) if (this._cardDue(key, c.q)) return c;
-    for (const c of cards) if (this.cardStage(key, c.q) < 2) return c;
+    for (const c of cards) if (this._cardDue(key, c)) return c;
+    for (const c of cards) if (this.cardStage(key, c) < 2) return c;
     return null;
   }
   /**
@@ -17869,7 +17882,7 @@ class Component extends DCLogic {
     if (!total) return ["○", "#7e8aa3", "no cards authored yet"];
     let proven = 0, met = 0;
     if (cards && cards.length) {
-      for (const c of cards) { const s = this.cardStage(key, c.q); if (s >= 3) proven++; if (s >= 1) met++; }
+      for (const c of cards) { const s = this.cardStage(key, c); if (s >= 3) proven++; if (s >= 1) met++; }
     } else {
       const st = (this.stage && this.stage[key]) || {};
       for (const qh in st) { if (this._gradeGone(key, qh)) continue; if (st[qh] >= 3) proven++; if (st[qh] >= 1) met++; }   // CARD1-S0
@@ -18137,7 +18150,7 @@ class Component extends DCLogic {
     // RNG stream or knowledge ledger. "panic" remains its grading/telemetry ID.
     const defense = mode === "defense", surface = defense ? "panic" : "land";
     const landRecall = !defense && !this._cardAsksMc(key, card);   // the answer mode (`_answerMode`); defence stays MC
-    const qh = this.qhash(card.q);
+    const qh = this.cardKey(card);
     const rec = { key: key, card: card, mode: mode || "land", answered: false };
     const qw = document.createElement("div");
     qw.setAttribute("data-land-q", "1");
@@ -18536,7 +18549,7 @@ class Component extends DCLogic {
     const next = Math.max(0, Math.min(cards.length - 1, this._landPage + dir));
     if (next === this._landPage) return false;
     const card = cards[next];
-    const qh = this.qhash(card.q);
+    const qh = this.cardKey(card);
     const from = this._landPage;
     const seq = (this._landPageSeq = (this._landPageSeq || 0) + 1);
     // Pause immediately, including while a cold distractor pool loads. A newly mounted,
@@ -21770,7 +21783,7 @@ class Component extends DCLogic {
       const pf = this._panicFc;
       if (this._landQ) { this._landQ.answered = true; this._landQ.revealed = true; }
       if (this._recall?.surface === "panic") { this._recall.spent = true; this._recall = null; }
-      if (pf && pf.fc) this._schedule(pf.pk, pf.fc.q, false); // revealed unanswered = a failed review
+      if (pf && pf.fc) this._schedule(pf.pk, pf.fc, false); // revealed unanswered = a failed review
       this.fx("land_q_expired", { surface: "panic", deckKey: (pf && pf.pk) || null });
       const broke = this._breakCombo("slow");
       this._dockLandCard(card);
@@ -21802,7 +21815,7 @@ class Component extends DCLogic {
         const rv = qw.querySelector("[data-land-reveal]"); if (rv) rv.style.display = "none";
       }
     }
-    if (q.key && q.card) this._schedule(q.key, q.card.q, false); // revealed unanswered = a failed review
+    if (q.key && q.card) this._schedule(q.key, q.card, false); // revealed unanswered = a failed review
     // A TIMEOUT IS THE WRONG STEP OF THE CARD IT RAN OUT ON (v1.221.0), never more: the first card
     // resolved in a landing costs −4 and breaks momentum exactly as a wrong answer does; a later
     // card, paged to, costs its smaller step and leaves momentum alone — as a wrong answer there does.

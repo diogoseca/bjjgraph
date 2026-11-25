@@ -1262,8 +1262,22 @@ def _hard_clip(a: str):
     return (cut + "…") if cut else None
 
 
+CARD_ID = re.compile(r"^[0-9a-f]{8}$")
+
+
+def _card_key(card: dict) -> str:
+    """A WIRE CARD'S KEY (CARD1-S2, v1.303.0; the owner's U220 a): its `k` when it carries one, else fnv1a32 of its
+    question. Every place the wire files a card (the manifest's `shared` index, the live files) keys it by this, the
+    app keys its progress by the same rule (`cardKey` in neural/src/app.src.jsx, `ngKnowledgeCardKey` in
+    knowledge-profile.src.js), and a stale grade is told from a live one by it. With no `id` in content/, every key is
+    the text's hash and the wire is byte-identical to v1.301.5's."""
+    from _neural_content import fnv1a32
+    return card.get("k") or fnv1a32(card["q"])
+
+
 def _qa_cards(fc: list) -> list:
-    """Neural card: {q, a, d?, mc?}. `a` = the DISPLAY answer (authored one-line `answer_line`
+    """Neural card: {q, k?, a, d?, mc?}. `k` = the card's stable key, written only when its authored `id` differs from
+    fnv1a32 of its question (CARD1-S2: a reworded card keeps the key of the text it replaced; `_card_key`). `a` = the DISPLAY answer (authored one-line `answer_line`
     when present, else the clipped first sentence, else a word-boundary hard clip — NEVER the
     full paragraph, see _hard_clip). `d` = the full explanation, emitted only when it differs
     from `a` (the post-reveal "more" tooltip). `mc` = {p,t} authored one-line distractor tiers
@@ -1275,7 +1289,15 @@ def _qa_cards(fc: list) -> list:
         if not (q and full):
             continue
         line = c.get("answer_line") or _mc_clip(full) or _hard_clip(full) or full
-        card = {"q": q, "a": line}
+        card = {"q": q}
+        cid = c.get("id")
+        if cid is not None:
+            if not (isinstance(cid, str) and CARD_ID.match(cid)):
+                raise SystemExit(f"[neural] card REFUSING TO EMIT: id {cid!r} is not 8 lowercase hex digits (question {q[:60]!r})")
+            from _neural_content import fnv1a32
+            if cid != fnv1a32(q):
+                card["k"] = cid
+        card["a"] = line
         if full != line:
             card["d"] = full
         d = c.get("distractors") or {}
@@ -1616,6 +1638,7 @@ def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int,
     # questions carried by 2+ decks are listed, addressed by fnv1a32(question) -> deck INDEXES
     # into the ordered `decks` map below (451 of 21,334 questions — ~10.6KB raw / 4.3KB gzip,
     # which is what makes it affordable on the eager path).
+    _card_key_census(decks)
     shared = _shared_index(decks)
 
     # The app boots from this file alone and fetches a deck's chunk on demand: a chunk is
@@ -1680,19 +1703,59 @@ LIVE_CHUNK_LIMIT = 40_000
 LIVE_MAX_FILES = 8
 
 
+def _card_key_census(decks: dict) -> dict:
+    """THE WIRE DECKS' KEYS, checked before anything is written (CARD1-S2, v1.303.0). In ONE deck, a key held by two
+    different questions merges their progress (`stage` and `srs` are per deck, per key), so a key so held by a card that
+    carries `k` (a duplicate id, or an id equal to another live card's text hash, perhaps across the blended tiers) is
+    REFUSED. scripts/check_card_keys.py refuses the same per authored array, in ci-validate; this sees the blend. Two
+    different questions with one text hash and no `k` predate ids: counted and printed, never refused here."""
+    from _neural_content import fnv1a32
+    cards = keyed = 0
+    refused, hashed = [], []
+    for name in sorted(decks):
+        by_key: dict[str, set] = {}
+        for c in decks[name]["cards"]:
+            cards += 1
+            keyed += 1 if "k" in c else 0
+            by_key.setdefault(_card_key(c), set()).add(c["q"])
+        for h, texts in by_key.items():
+            if len(texts) > 1:
+                (refused if any(fnv1a32(t) != h for t in texts) else hashed).append((name, h, sorted(texts)))
+    if not cards:
+        raise SystemExit("[neural] card keys REFUSING TO EMIT: no card in any deck (a check that saw nothing)")
+    print(f"  card keys: {cards:,} cards in {len(decks):,} decks, {keyed:,} keyed by an id; "
+          f"{len(hashed)} key(s) two questions share by their hash alone (before ids, never refused)")
+    if refused:
+        raise SystemExit(f"[neural] card keys REFUSING TO EMIT: {len(refused)} key(s) held by two different questions in one "
+                         f"deck, which would merge their progress (e.g. {refused[:2]}); give one card an id of its own")
+    return {"cards": cards, "keyed": keyed, "hashed": len(hashed)}
+
+
 def _shared_index(decks: dict) -> dict:
-    """The manifest's `shared`: fnv1a32(question) -> the sorted deck INDEXES (name order) of every question that fills two or
-    more deck slots. A question repeated inside one deck fills two slots of ONE deck, so its entry names that one deck."""
+    """The manifest's `shared`: a CARD KEY (`_card_key`; with no ids, fnv1a32(question)) -> the sorted deck INDEXES (name
+    order) of every card that fills two or more deck slots. A question repeated inside one deck fills two slots of ONE
+    deck, so its entry names that one deck."""
     from _neural_content import fnv1a32
     order = {k: i for i, k in enumerate(sorted(decks))}
-    q_decks: dict[str, list[int]] = {}
+    # BY THE CARD'S KEY (CARD1-S2, v1.303.0): a card reworded in one deck keeps its key, so it keeps its place in its group.
+    # Slots are gathered per key, then per text. A key one of whose texts is not its own hash is ONE card under two
+    # wordings (a `k`), so all its slots count together. A key whose every text hashes to it is today's case, kept to the
+    # letter: each text's own slots, a text carried twice or more (so two different texts with one hash join one entry
+    # only as they always did). With no `id` in content/, no key is of the first kind and the index is byte-identical.
+    slots: dict[str, dict[str, list[int]]] = {}
     for key in sorted(decks):
         for card in decks[key]["cards"]:
-            q_decks.setdefault(card["q"], []).append(order[key])
+            slots.setdefault(_card_key(card), {}).setdefault(card["q"], []).append(order[key])
     shared: dict[str, list[int]] = {}
-    for q, idxs in q_decks.items():
-        if len(idxs) > 1:
-            shared.setdefault(fnv1a32(q), []).extend(idxs)
+    for h, by_text in slots.items():
+        if any(fnv1a32(q) != h for q in by_text):
+            idxs = [i for v in by_text.values() for i in v]
+            if len(idxs) > 1:
+                shared[h] = idxs
+        else:
+            for v in by_text.values():
+                if len(v) > 1:
+                    shared.setdefault(h, []).extend(v)
     return {h: sorted(set(v)) for h, v in shared.items()}
 
 
@@ -1709,7 +1772,7 @@ def _live_question_bodies(decks: dict, shared_hashes: set) -> dict:
     rev = fnv1a32("\n".join(f"{k}\t{len(decks[k]['cards'])}" for k in keys))
     per_deck = []
     for k in keys:
-        vals = [int(fnv1a32(c["q"]), 16) & 0xFFFF for c in decks[k]["cards"] if fnv1a32(c["q"]) not in shared_hashes]
+        vals = [int(_card_key(c), 16) & 0xFFFF for c in decks[k]["cards"] if _card_key(c) not in shared_hashes]   # CARD1-S2
         if len(vals) > 255:
             raise SystemExit(f"[neural] live questions REFUSING TO EMIT: deck {k!r} has {len(vals)} unshared cards, over the one-byte count")
         per_deck.append(vals)
