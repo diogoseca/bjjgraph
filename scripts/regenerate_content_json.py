@@ -1726,11 +1726,33 @@ def _at(o, path):
     return o
 
 
-def restore_questions(original: dict, fixed: dict) -> int:
+# CARD1-S2 (v1.303.0): may the bot's rewording of an existing question stand, keyed by the card's id? NO until the
+# orchestrator says so, with the prompt's "add, never reword" in the same change (tests/content_bot_prompts.test.mjs).
+BOT_KEEPS_REWORDS = False
+
+
+def _carry_id(card: dict, oc: dict | None, key: str | None = None) -> None:
+    """A card's `id` is never the model's to write (CARD1-S2): an existing card keeps its original's id (put back if the
+    model dropped or changed it; removed if the original had none), a NEW card carries none (its key is its question's
+    hash), and a reworded card that is kept writes `key`, the key of the text it replaced."""
+    if key is not None:
+        card["id"] = key
+    elif oc is not None and "id" in oc:
+        card["id"] = oc["id"]
+    else:
+        card.pop("id", None)
+
+
+def restore_questions(original: dict, fixed: dict, keep_rewords: bool | None = None) -> int:
     """Curation-safety (CARD1, v1.301.5; the orchestrator's ruling): an EXISTING flashcard's question is never changed by the
-    bot. A card's progress, for every player, is keyed by a hash of its exact question text, so a reworded question resets
-    that card for everyone (until the card key ships, CARD1 slice 2). The prompt says so; this is what holds when the model
-    does not listen. Pure: it edits `fixed` in place and returns how many existing questions it put back.
+    bot. A card's progress, for every player, is keyed by its KEY (its `id`, else a hash of its question: scripts/
+    _card_key.py), so a question reworded without its id resets that card for everyone. The prompt says so; this is what
+    holds when the model does not listen. Pure: it edits `fixed` in place and returns how many existing questions it put
+    back (or, kept, how many it gave their id).
+    IDS (CARD1-S2, v1.303.0): every existing card leaves with its original's `id` (or none), and a new card with none
+    (`_carry_id`). With `keep_rewords` (default `BOT_KEEPS_REWORDS`, off), a card reworded with its answer kept (step 2)
+    keeps the model's question and writes `id: <the key of the text it replaced>`, so its players keep its progress; the
+    weaker pairings (3, 4) are restored either way.
 
     Each flashcards array is paired with the ORIGINAL's array at the same path (a question shared by two arrays is restored
     in each on its own). In that array, an original card is matched to the model's, in this order:
@@ -1743,6 +1765,8 @@ def restore_questions(original: dict, fixed: dict) -> int:
     follow, in the model's order. A whole array the model dropped comes back whole. Items that are not cards pass through."""
     if not isinstance(original, dict) or not isinstance(fixed, dict):
         return 0
+    from _card_key import card_key
+    keep = BOT_KEEPS_REWORDS if keep_rewords is None else keep_rewords
     restored = 0
     for path, orig in _flashcard_arrays(original):
         ocards = [c for c in orig if isinstance(c, dict) and isinstance(c.get("question"), str)]
@@ -1764,13 +1788,17 @@ def restore_questions(original: dict, fixed: dict) -> int:
         for i, oc in enumerate(ocards):                     # 1. the same question
             for j, c in enumerate(cards):
                 if not used[j] and c["question"] == oc["question"]:
-                    match[i] = j; used[j] = True; break
+                    _carry_id(c, oc); match[i] = j; used[j] = True; break
         for i, oc in enumerate(ocards):                     # 2. the same answer: reworded
             if match[i] is not None or not oc.get("answer"):
                 continue
             for j, c in enumerate(cards):
                 if not used[j] and c.get("answer") == oc["answer"]:
-                    c["question"] = oc["question"]; match[i] = j; used[j] = True; restored += 1; break
+                    if keep:
+                        _carry_id(c, oc, card_key(oc))      # the reword stands, under the card's key
+                    else:
+                        c["question"] = oc["question"]; _carry_id(c, oc)
+                    match[i] = j; used[j] = True; restored += 1; break
         for i, oc in enumerate(ocards):                     # 3. the same position: reworded with its answer
             if match[i] is not None:
                 continue
@@ -1780,6 +1808,7 @@ def restore_questions(original: dict, fixed: dict) -> int:
                 cards[j]["question"] = oc["question"]
                 if "answer" in oc:
                     cards[j]["answer"] = oc["answer"]
+                _carry_id(cards[j], oc)
                 match[i] = j; used[j] = True; restored += 1
         out = []
         for i, oc in enumerate(ocards):                     # 4. deleted: put back whole
@@ -1787,7 +1816,9 @@ def restore_questions(original: dict, fixed: dict) -> int:
                 out.append(copy.deepcopy(oc)); restored += 1
             else:
                 out.append(cards[match[i]])
-        out.extend(c for j, c in enumerate(cards) if not used[j])
+        for j, c in enumerate(cards):                       # the model's NEW cards: no id of the model's making
+            if not used[j]:
+                _carry_id(c, None); out.append(c)
         out.extend(others)
         got[:] = out
     return restored

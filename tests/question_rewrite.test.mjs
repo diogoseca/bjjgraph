@@ -58,8 +58,11 @@ with tempfile.TemporaryDirectory() as tmp:
     before = {p: json.loads(p.read_text()) for p in root.rglob('*.json')}
     apply_rewrites(root, jobs, valid)
     from rewrite_questions import at
+    from _neural_content import fnv1a32
+    # CARD1-S2: a reworded card keeps its key: it carries the hash of the question it replaced as its id
     for j in jobs:
-        at(before[root / j['file']], j['path'])['question'] = valid[j['id']]
+        c = at(before[root / j['file']], j['path'])
+        c['id'] = fnv1a32(j['question']); c['question'] = valid[j['id']]
     for p, expected in before.items(): assert json.loads(p.read_text()) == expected
     assert not scan(root, limit)[2]
     try: apply_rewrites(root, jobs, valid)
@@ -75,6 +78,15 @@ with tempfile.TemporaryDirectory() as tmp:
     except ValueError: pass
     else: raise AssertionError('Duplicate question accepted')
     assert file.read_text() == snapshot
+    # a card that already carries an id keeps it (its key never changes after its first rewording)
+    file.unlink()
+    kept = root / 'content/Positions/Kept.json'
+    kept.write_text(json.dumps({'flashcards': [dict(card, id='deadbeef')]}))
+    kept_jobs = scan(root, limit)[2]
+    assert len(kept_jobs) == 1, kept_jobs
+    apply_rewrites(root, kept_jobs, {kept_jobs[0]['id']: 'Where is the elbow kept?'})
+    got = json.loads(kept.read_text())['flashcards'][0]
+    assert (got['id'], got['question']) == ('deadbeef', 'Where is the elbow kept?'), got
 # Check the actual inference request schema without making a network call. Every supplied
 # question, including ordinary words containing r/n, must pass its output contract.
 from unittest.mock import patch

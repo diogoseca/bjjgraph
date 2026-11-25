@@ -181,6 +181,11 @@
           "answer"
         ],
         "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}$",
+            "description": "The card's key (CARD1-S2): 8 lowercase hex digits. Leave it out on a card whose question was never reworded: its key is the hash of its question. Whatever rewords a question writes here, once, the hash of the text it replaces (scripts/check_card_keys.py fails a reworded question without it), so every player keeps the card's grade and schedule; it never changes after."
+          },
           "question": {
             "type": "string",
             "pattern": ".*\\?$",
@@ -236,6 +241,11 @@
           "answer"
         ],
         "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}$",
+            "description": "The card's key (CARD1-S2): 8 lowercase hex digits. Leave it out on a card whose question was never reworded: its key is the hash of its question. Whatever rewords a question writes here, once, the hash of the text it replaces (scripts/check_card_keys.py fails a reworded question without it), so every player keeps the card's grade and schedule; it never changes after."
+          },
           "question": {
             "type": "string",
             "pattern": ".*\\?$",
@@ -1469,6 +1479,11 @@
           "answer"
         ],
         "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}$",
+            "description": "The card's key (CARD1-S2): 8 lowercase hex digits. Leave it out on a card whose question was never reworded: its key is the hash of its question. Whatever rewords a question writes here, once, the hash of the text it replaces (scripts/check_card_keys.py fails a reworded question without it), so every player keeps the card's grade and schedule; it never changes after."
+          },
           "question": {
             "type": "string",
             "pattern": ".*\\?$",

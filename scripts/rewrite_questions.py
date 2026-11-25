@@ -10,7 +10,9 @@ come back from the model and cannot be overwritten by it.
   python3 scripts/rewrite_questions.py --apply --workers 3 --batch-size 60
 
 Local provenance and token usage: logs/question_sweep/ (ignored by git).
-Changing question text changes the app's question-hash identity, as any authored edit does.
+A REWORDED CARD KEEPS ITS KEY (CARD1-S2, v1.303.0): a card with no `id` gets `id: <the hash of the question it replaces>`
+before its question changes, and a card with one keeps it, so every player keeps the card's grade and schedule
+(scripts/_card_key.py; scripts/check_card_keys.py fails a reworded question without it).
 """
 from __future__ import annotations
 
@@ -27,6 +29,7 @@ import sys
 import time
 
 from _atomic_io import atomic_write_json
+from _card_key import card_key
 from _model import model as configured_model
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -138,6 +141,11 @@ def apply_rewrites(root, jobs, rewrites):
             siblings = at(data, job["path"][:-1])
             if isinstance(siblings, list) and any(other is not card and other.get("question") == q for other in siblings if isinstance(other, dict)):
                 raise ValueError(f"Rewrite duplicates another question: {name}: {q}")
+            key = card_key(card)                      # CARD1-S2: the key of the text being replaced, kept
+            if isinstance(siblings, list) and any(other is not card and isinstance(other, dict) and isinstance(other.get("question"), str)
+                                                  and card_key(other) == key and other["question"] != q for other in siblings):
+                raise ValueError(f"Rewrite splits one card in two (another card in its deck holds its key {key}): {name}: {q}")
+            card["id"] = key
             card["question"] = q
         pending.append((file, data))
     for file, data in pending:

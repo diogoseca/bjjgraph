@@ -206,6 +206,12 @@ jobs:
       - name: Schema validation (hard gate)
         run: python3 scripts/validate_json.py --all
 
+      # CARD1-S2 (v1.303.0): no content edit may take a flashcard's progress away from its players. A card keeps its key
+      # by its `id` when its question is reworded; this fails an edit that drops one, every card compared against HEAD^1
+      # (the base branch's tip on a PR, the previous commit on a push), and fails on zero compared.
+      - name: Card keys (a reworded question keeps its id, hard gate)
+        run: python3 scripts/check_card_keys.py --baseline-ref HEAD^1
+
       # THE CATEGORY INDEX PAGES MATCH THEIR GENERATOR (v1.215.7). content/<Category>.md is rendered
       # from every leaf JSON in its category, but regeneration is keyed on the EDITED file, so a leaf
       # edit leaves its index page stale — and a stale page looks exactly like a fresh one

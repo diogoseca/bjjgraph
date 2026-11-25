@@ -8,6 +8,11 @@ answer built from it. Run by tests/question_restore.test.mjs (in the units).
 MUTANTS, each run alone against a clean 12 of 12: step 2 (the same answer) removed → 1 red ("…also moved…"; until that
 case was added the position step hid it, a survivor); step 4 (a deleted card put back) removed → 1 red; the original
 order not kept → 5 red.
+IDS (CARD1-S2, v1.303.0; the last six cases): a card's `id` is its key (scripts/_card_key.py), never the model's to write:
+an existing card leaves with its original's id (put back if dropped or changed, removed if invented), a new card with none;
+`keep_rewords` (off in the bot, `BOT_KEEPS_REWORDS`) keeps a reword found by its answer and writes the old text's key.
+Mutants: `_carry_id` not called at step 1 → "dropped"/"changed"/"invented" red; the new cards' ids kept → "a new card";
+the kept reword not given its key → "keep_rewords".
 """
 import copy
 import json
@@ -17,7 +22,8 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from regenerate_content_json import restore_questions  # noqa: E402
+from regenerate_content_json import BOT_KEEPS_REWORDS, restore_questions  # noqa: E402
+from _neural_content import fnv1a32  # noqa: E402
 
 RECORD = ROOT / "content" / "Transitions" / "100% Sweep.json"
 
@@ -119,6 +125,56 @@ class RestoreQuestions(unittest.TestCase):
         self.assertEqual(restore_questions(self.orig, self.fixed), 1)
         restore_mc(self.orig, self.fixed)
         self.assertEqual(self.fixed["attacker"]["flashcards"][1], self.orig["attacker"]["flashcards"][1])
+
+    # ── IDS (CARD1-S2) ──
+    def with_id(self):
+        """the record as it stands once a card was reworded with its key: attacker card 1 carries an id"""
+        o = self.orig["attacker"]["flashcards"][1]
+        o["id"] = fnv1a32(o["question"]); o["question"] = "Reworded once, keeping its key?"
+        self.fixed = copy.deepcopy(self.orig)
+        return o
+
+    def test_an_id_the_model_dropped_comes_back(self):
+        o = self.with_id()
+        del self.fixed["attacker"]["flashcards"][1]["id"]
+        self.assertEqual(restore_questions(self.orig, self.fixed), 0)
+        self.assertEqual(self.fixed["attacker"]["flashcards"][1]["id"], o["id"])
+
+    def test_an_id_the_model_changed_is_put_back(self):
+        o = self.with_id()
+        self.fixed["attacker"]["flashcards"][1]["id"] = "0badc0de"
+        restore_questions(self.orig, self.fixed)
+        self.assertEqual(self.fixed["attacker"]["flashcards"][1]["id"], o["id"])
+
+    def test_an_id_the_model_invented_on_an_existing_card_is_removed(self):
+        self.fixed["attacker"]["flashcards"][2]["id"] = "0badc0de"
+        restore_questions(self.orig, self.fixed)
+        self.assertEqual(self.fixed, self.orig)
+
+    def test_a_new_card_carries_no_id(self):
+        new = {"question": "What does a new card ask?", "answer": "It asks something no card asks.", "id": "0badc0de"}
+        self.fixed["attacker"]["flashcards"].append(new)
+        restore_questions(self.orig, self.fixed)
+        self.assertNotIn("id", self.fixed["attacker"]["flashcards"][-1])
+
+    def test_a_restored_reword_keeps_the_cards_id(self):
+        o = self.with_id()
+        c = self.fixed["attacker"]["flashcards"][1]
+        c["question"] = "Reworded again by the model?"; del c["id"]
+        self.assertEqual(restore_questions(self.orig, self.fixed), 1)
+        self.assertEqual(self.fixed["attacker"]["flashcards"][1], o)
+
+    def test_keep_rewords_keeps_the_models_question_under_the_old_key(self):
+        self.assertIs(BOT_KEEPS_REWORDS, False, "the bot restores every reword until the orchestrator says otherwise")
+        old = self.orig["attacker"]["flashcards"][2]["question"]
+        c = self.fixed["attacker"]["flashcards"][2]
+        c["question"] = "Shorter, kept: what does it ask?"
+        p = self.fixed["attacker"]["flashcards"][3]
+        p["question"] = "A new way to ask?"; p["answer"] = "A new answer, at length, for the new way."
+        self.assertEqual(restore_questions(self.orig, self.fixed, keep_rewords=True), 2)
+        got = self.fixed["attacker"]["flashcards"]
+        self.assertEqual((got[2]["question"], got[2]["id"]), ("Shorter, kept: what does it ask?", fnv1a32(old)))
+        self.assertEqual(got[3], self.orig["attacker"]["flashcards"][3], "a reword found only by its place is restored either way")
 
 
 if __name__ == "__main__":
