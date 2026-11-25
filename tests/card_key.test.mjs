@@ -16,7 +16,13 @@
 // MUTANTS (each red here): `cardKey` ignoring `k` → 1, 2; the law's `ngKnowledgeCardKey` ignoring `k` → 1, 2 (the grade
 // files under the new text); `_sharedDecksFor` by the text again → 2; the prune's live set by the text again → 2; the
 // law's shared lookup by the text again → 2 (the other deck's schedule does not move).
-import { test } from "node:test";
+// CARD1-S2-R1 (the PR #469 read, F3: four sites its mutants got past): `_rowLive` by the text → 2b (a card of one deck
+// leaves the due pool; a shared card is read from the manifest's index, so 2 cannot see it); the planner's `questions` by
+// the text (`_gameplanDecks`) → 2, 2b; `noteCardDone`'s latch by the text → 2 (a second day count and shared prep).
+// NOT PINNED, ON PURPOSE: `_mcWarmKey` by the text. Its writer and its reader are that one function, the warm cache is per
+// tab and never stored, and within one deck a text and a key name the same card (the emitter refuses two texts under one
+// key in a deck): no reading can tell the two apart.
+import { test, afterEach } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
@@ -43,6 +49,7 @@ const J = (f) => JSON.parse(readFileSync(resolve(DIR, f), "utf8"));
 globalThis.window = globalThis.window || {};
 const DAY0 = 20402, LATER = DAY0 + 5;   // graded on one day, reworded and answered on a later one (a same-day answer earns no step)
 globalThis.window.__NG_EPOCH_DAY__ = DAY0;
+afterEach(() => { globalThis.window.__NG_EPOCH_DAY__ = DAY0; });   // a test that fails midway leaves no later day behind
 const WIRE = J("graph-data.json"), CURRICULUM = J("curriculum.json"), MANIFEST = J("flashcards/_index.json");
 const H = ngKnowledgeQuestionHash;
 
@@ -82,6 +89,9 @@ const reworded = (withKey) => {
   for (const k of S.decks) w[k].cards = w[k].cards.map((x) => (x.q === S.c.q ? { ...x, q: NEW, ...(withKey ? { k: H(S.c.q) } : {}) } : x));
   return w;
 };
+/** what the card is OWED (the due pool and its count, `_rowLive`, and the planner's questions for its deck) */
+const owed = (a, deck, h) => ({ live: a._rowLive(deck, h), pooled: a.duePool().some((e) => e.key === deck && e.qh === h), dueN: a.dueCount(),
+  planned: a._gameplanDecks()[deck].questions.includes(h) });
 
 test("one rule in three places: the app's cardKey, the law's ngKnowledgeCardKey and the emitter's _card_key agree", () => {
   const real = Object.keys(CARDS).sort().slice(0, 60).flatMap((k) => CARDS[k].cards.slice(0, 4));
@@ -114,8 +124,10 @@ test("proof 2: a shared card reworded WITH its key keeps its grade, schedule, an
   const o = boot(saved);
   for (const k of decks) land(o, k, CARDS);
   const before = { stage: o.cardStage(A, c), shared: o._cardStageShared(B, c), srsA: o.srs[A][h], srsB: o.srs[B][h],
-    due: o._cardDue(A, c), mc: o._cardAsksMc(A, c), mastery: o.deckMastery(A), glyph: JSON.stringify(o.seenGlyph(A)), group: o._sharedDecksFor(c, A) };
+    due: o._cardDue(A, c), mc: o._cardAsksMc(A, c), mastery: o.deckMastery(A), glyph: JSON.stringify(o.seenGlyph(A)), group: o._sharedDecksFor(c, A),
+    ...owed(o, A, h) };
   assert.ok(before.stage >= 1 && before.srsA && before.srsB, "premise: graded, and scheduled in both decks");
+  assert.ok(before.pooled && before.planned, "premise: due today, and a question the planner asks in its deck");
 
   // the reworded wire, the card carrying the key of the text it replaced
   const W = reworded(true), c2 = W[A].cards.find((x) => x.q === NEW);
@@ -123,8 +135,10 @@ test("proof 2: a shared card reworded WITH its key keeps its grade, schedule, an
   for (const k of decks) land(b, k, W);
   assert.equal(b._gradeGone(A, h), false, "the prune marks nothing: the card is live under its key");
   assert.deepEqual({ stage: b.cardStage(A, c2), shared: b._cardStageShared(B, W[B].cards.find((x) => x.q === NEW)), srsA: b.srs[A][h], srsB: b.srs[B][h],
-    due: b._cardDue(A, c2), mc: b._cardAsksMc(A, c2), mastery: b.deckMastery(A), glyph: JSON.stringify(b.seenGlyph(A)), group: b._sharedDecksFor(c2, A) },
+    due: b._cardDue(A, c2), mc: b._cardAsksMc(A, c2), mastery: b.deckMastery(A), glyph: JSON.stringify(b.seenGlyph(A)), group: b._sharedDecksFor(c2, A),
+    ...owed(b, A, h) },
     before, "every reading of the card, after its rewording");
+  assert.equal(b._gameplanDecks()[A].questions.includes(H(NEW)), false, "the planner asks it under its key, never the new text's hash");
   // its next grade files under its key in every deck sharing it, and nothing under the new text's hash
   const rowsBefore = decks.map((k) => JSON.stringify(b.srs[k][h]));
   assert.equal(b._gradeKnowledge(A, clone(c2), true, "recall", null, "new-0", "deck").status, "applied");
@@ -134,6 +148,10 @@ test("proof 2: a shared card reworded WITH its key keeps its grade, schedule, an
     assert.equal(H(NEW) in (b.srs[k] || {}) || H(NEW) in (b.stage[k] || {}), false, `${k}: nothing under the new text's hash`);
   });
   assert.ok(b.cardStage(A, c2) >= before.stage, "its grade grows from where it was");
+  // the legacy credit (a rail's `noteCardDone`) after that grade: the law credited the KEY, so the card is not counted again
+  const dk = b._dayKey(), day = (b._days || {})[dk] || 0, prepB = (b.prep || {})[B] || 0;
+  b.noteCardDone(clone(c2), A);
+  assert.deepEqual([(b._days || {})[dk] || 0, (b.prep || {})[B] || 0], [day, prepB], "credited once, by its key: no second day count, no second shared prep");
   assert.ok(b.__journal.length >= decks.length && b.__journal.every((row) => row[2] === h), "the journal's rows carry the key");
 
   // THE CONTROL: the same rewording with no key resets the card (what every rewording did before v1.303.0)
@@ -146,6 +164,33 @@ test("proof 2: a shared card reworded WITH its key keeps its grade, schedule, an
   assert.equal(x._gradeGone(A, h), true, "control: its old grade is marked gone");
   assert.ok(x.deckMastery(A) < before.mastery, "control: the deck's mastery drops");
   globalThis.window.__NG_EPOCH_DAY__ = DAY0;
+});
+
+test("proof 2b, a card no other deck shares: reworded WITH its key it stays live, due, and in the planner's questions; without, it leaves all three", () => {
+  // `_rowLive` answers a shared question from the manifest's index; only a card of ONE deck is read from the deck's own cards
+  let R = null;
+  for (const A of Object.keys(CARDS).sort()) {
+    R = (CARDS[A].cards || []).find((c) => !(probe._sharedQ && probe._sharedQ.get(H(c.q))) && CARDS[A].cards.filter((x) => x.q === c.q).length === 1);
+    if (R) { R = { A, c: R }; break; }
+  }
+  assert.ok(R, "premise: a card no other deck shares, on the wire");
+  const { A, c } = R, h = H(c.q), TEXT = "Reworded, a card of one deck: " + c.q.slice(0, 30) + "?";
+  const a = boot({});
+  land(a, A, CARDS);
+  for (let i = 0; i < 2; i++) assert.equal(a._gradeKnowledge(A, clone(c), true, "recall", null, "one-" + i, "deck").status, "applied");
+  const saved = a._progressBlob();
+  globalThis.window.__NG_EPOCH_DAY__ = LATER;
+  try {
+    const at = (wire) => { const x = boot(saved); land(x, A, wire); return x; };
+    const wire = (withKey) => { const w = clone(CARDS); w[A].cards = w[A].cards.map((x) => (x.q === c.q ? { ...x, q: TEXT, ...(withKey ? { k: h } : {}) } : x)); return w; };
+    const before = owed(at(CARDS), A, h);
+    assert.deepEqual([before.live, before.pooled, before.planned], [true, true, true], "premise: live, due today, and planned");
+    assert.ok(before.dueN >= 1, "premise: counted due");
+    const b = at(wire(true));
+    assert.deepEqual(owed(b, A, h), before, "reworded with its key: live, in the due pool and its count, and in the planner's questions");
+    assert.equal(b._gameplanDecks()[A].questions.includes(H(TEXT)), false, "never under the new text's hash");
+    assert.deepEqual(owed(at(wire(false)), A, h), { live: false, pooled: false, dueN: before.dueN - 1, planned: false }, "control: without its key, it leaves all three");
+  } finally { globalThis.window.__NG_EPOCH_DAY__ = DAY0; }
 });
 
 test("the emitter keys a wire card by its card key (tests/card_key_emitter.py)", () => {
