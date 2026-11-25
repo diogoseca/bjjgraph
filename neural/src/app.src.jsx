@@ -34,6 +34,15 @@ const NG_SAVE_LINES_KEY = "bjj_save_lines", NG_SAVE_LINE_KINDS = ["belt", "list"
 // the name lands on the control and is still counted, without the name. Settings' address line takes its span from `_addressMarkup`.
 // Pinned by e2e/journeys/no-identity-in-analytics.spec.ts, whose mirror of autocapture is transcribed from that version.
 const NG_NO_CAPTURE = "ph-no-capture";
+// THE BEATS A STUDY DOES NOT COUNT (OFF1, v1.302.0; U218 b, point 4: "no challenge or coin progress from roll beats"). A study
+// (the opponent's Off) earns nothing a roll earns, so these never reach the challenge engine while one runs (`fx`): every beat
+// a challenge, a patch or a coin reads that comes from PLAYING an exchange or ending a roll, as the definitions stand (the
+// commit, the needle, a landing, a defence, an escape and its drill, a combo, the roll's end). Everything else still counts
+// in a study, as it does anywhere: a hand read, a question shown or answered, a refund, a video, the flashcards, a roam, a
+// lesson, a recall. A beat added to a challenge later that comes from play belongs here; `tests/study_uncounted.test.mjs`
+// fails on a challenge event in neither list.
+const NG_STUDY_UNCOUNTED = new Set(["commit", "sweep_land", "impact_success", "impact_fail", "defend_start", "escape",
+  "escape_odds_pumped", "combo", "roll_end", "finish"]);
 // EVERY CARD ANSWERED IN ONE LANDING MOVES THIS EXCHANGE AGAIN, BY A SMALLER STEP (v1.221.0, owner
 // 2026-10-05: "answering more flashcards should increase/decrease choices proba further, it's not a 1
 // slot thing, but many"). Row k-1 is the k-th card RESOLVED in one landing (answered, or run out of
@@ -728,8 +737,9 @@ class Component extends DCLogic {
     if (this.sound) this.sound.beat(beat, props || {});
     if (this._cs) this._csBeat(beat, props || {}); // cold-start funnel rides the SAME beat stream
     if (this.beats.length > 4000) this.beats.splice(0, 1000);
-    // Challenges are completed by doing. The guard matters because acknowledgements emit beats.
-    if (!this._inChallenges) {
+    // Challenges are completed by doing. The guard matters because acknowledgements emit beats. A study's roll beats are
+    // not doing it (NG_STUDY_UNCOUNTED); the beat itself is still logged and sounded above.
+    if (!this._inChallenges && !(this._studyRoll && NG_STUDY_UNCOUNTED.has(beat))) {
       this._inChallenges = true;
       try {
         this.noteChallenges(beat, props || {});
@@ -6233,7 +6243,7 @@ class Component extends DCLogic {
   renderRollHistory(list) {
     const label = (txt) => { const d = document.createElement("div"); d.style.cssText = "font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#6b7691;font-weight:700;padding:12px 8px 4px;margin:0 -8px;white-space:nowrap;"; d.textContent = txt; return d; };
     const box = document.createElement("div");
-    const cur = this.rollLog || [];
+    const cur = this._studyRoll ? [] : this.rollLog || [];   // OFF1: a study is not listed, even while it runs
     const past = this._pastRolls || [];
     if (past.length) {
       box.appendChild(label("Previous rolls"));
@@ -9481,7 +9491,7 @@ class Component extends DCLogic {
   }
   /** LAST ROLLS on the home list: this roll and the three before it, each opening the full view. */
   _renderRollsHome(list) {
-    const cur = this.rollLog || [], past = this._pastRolls || [], n = past.length + (cur.length ? 1 : 0);
+    const cur = this._studyRoll ? [] : this.rollLog || [], past = this._pastRolls || [], n = past.length + (cur.length ? 1 : 0);   // OFF1
     const head = document.createElement("button"); head.type = "button"; head.className = "ng-dr-label";
     head.setAttribute("data-view", "history");
     head.innerHTML = 'Last rolls<span class="ng-dr-tail">' + n + (n === 1 ? " roll" : " rolls") + ' \u203a</span>';
@@ -16042,8 +16052,8 @@ class Component extends DCLogic {
     if (leg) leg.toggleAttribute("data-away", !alone);
     if (bar) {
       const toc = this._readerTocEl?.isConnected && this._readerTocEl.getBoundingClientRect(), b = bar.getBoundingClientRect();
-      bar.toggleAttribute("data-away", !!toc && toc.height > 0 && b.left < toc.right && b.right > toc.left && b.top < toc.bottom + 12
-        || !alone && !!this._reader?.barUnder);
+      bar.toggleAttribute("data-away", !!this._studyRoll || !!toc && toc.height > 0 && b.left < toc.right && b.right > toc.left && b.top < toc.bottom + 12
+        || !alone && !!this._reader?.barUnder);   // OFF1: a study has no Win %, so the bar is away for the whole study
     }
     // fade the key out only while option cards actually overlap it; fade back in otherwise
     if (leg && op) {
@@ -16059,7 +16069,8 @@ class Component extends DCLogic {
     // ── THE HAND'S ✕ (v1.171.0) ── shown only when there is a hand to put away: dealt, its layer
     // on, not the escape tray, and not under the pane, the option sheet or a reading surface.
     if (op) {
-      const show = !!(op.children.length && this._handShown() && !this.deckShown && !this._traySup);
+      // (OFF1: a study's finished roll holds New roll there, which is no hand to put away)
+      const show = !!(op.children.length && this._handShown() && !this.deckShown && !this._traySup && !op.querySelector("[data-study-new-roll]"));
       let x = this._handCloseEl;
       if (show && !x) x = this._buildHandClose();
       if (x) {
@@ -16640,6 +16651,17 @@ class Component extends DCLogic {
   }
   choiceValueView(opt) {
     const runtime = this.choiceValueRuntime(), record = this.choiceValueRecord(opt);
+    // OFF1: a study's card is its move's own odds and nothing else (no "Preparing…", no "unavailable": nothing is missing).
+    // An ENTRY's "Works" is the finish's chance once you are in, which on Normal only the solve gives (so "Works —" before it);
+    // a study asks no solve, and its finish is the submission's own move, so the card prints that move's own chance: the
+    // number its Finish card shows once you are in.
+    if (this._studyRoll) {
+      const entry = record.kind === "entry", sub = entry ? this.submissionNode(opt.node) || opt.node : null;
+      const f = this.choiceImmediateFallback(entry ? "finish" : record.kind, entry ? this.moveChance(sub) : record.immediateExecutionChance);
+      if (entry) Object.assign(f, { immediateLabel: "Works", immediateKind: "entry", immediateText: "Works " + f.immediate,
+        immediateLine: "Works " + f.immediate + ": the finish's chance once you are in." });
+      return { label: "Win chance", value: "—", status: "study", state: "No opponent", detail: "", recommended: false, ...f };
+    }
     // waiting for the reader's first layout (`_readerAwaited`) is preparing too, never "unavailable" (re-review m-c)
     const preparing = ["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._readerAwaited();
     if (runtime && !preparing) return runtime.ngChoiceValueView(record, this._choiceValues && this._choiceValues.snapshot());
@@ -16682,6 +16704,9 @@ class Component extends DCLogic {
       const dealt = this._choiceDealt, at = c => (dealt && dealt.has(c.opt) ? dealt.get(c.opt) : Infinity);
       const cards = (this._optionCards || []).filter(c => !c.opt.threat).sort((x, y) => at(x) - at(y));
       if (!cards.length) return;
+      // OFF1: A STUDY HAS NO WIN %, so it asks for no solve (and loads no value module for it): Win % is the chance of beating
+      // an opponent, and there is none. The cards' own move % still follows a grade, painted from `choiceValueView`'s study view.
+      if (this._studyRoll) { this.paintChoiceValues(); return; }
       this._ensureGameValues();
       const runtime = this.choiceValueRuntime();
       if (!runtime) { this.paintChoiceValues(); return; }
@@ -16748,7 +16773,7 @@ class Component extends DCLogic {
       }
       if (label) label.textContent = view.immediateLabel === "Finish" ? "Submit" : view.immediateLabel;
       const execute = oc.card.querySelector("[data-choice-execute]");
-      if (execute) oc.card.querySelectorAll("[data-choice-execute]").forEach(button => { button._ngFull = this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + "."; this._cardAria(oc.card); });
+      if (execute) oc.card.querySelectorAll("[data-choice-execute]").forEach(button => { button._ngFull = this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + (this._studyRoll ? "" : "Win chance " + view.value + ", " + view.state + ". ") + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + "."; this._cardAria(oc.card); });
       const best = oc.card.querySelector("[data-choice-recommended]");
       if (best) best.textContent = view.recommended ? (view.recommendationLabel || "Recommended") : "";
     }
@@ -16823,6 +16848,7 @@ class Component extends DCLogic {
   _paintValueSlot(title, snapshot, updating) {
     const status = title.querySelector("[data-choice-value-status]"), press = title.querySelector("[data-choice-value-press]");
     if (!status || !press) return;
+    if (this._studyRoll) { status.textContent = ""; press.innerHTML = ""; press.style.display = "none"; press.removeAttribute("data-act"); return; }   // OFF1: no Win %
     const said = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading" || this._readerAwaited()) ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "" : "Win chance unavailable";
     const retryable = !/^live-graph-/.test(this._gameValueReason || "") && !["scheduled", "loading", "preparing"].includes(this._gameValueState) && (this._gameValueRetryable || (this._gameValueRuntime && ["unavailable", "error"].includes(snapshot?.status)));
     const ids = (this._optionCards || []).filter(c => !c.opt.threat).map(c => (this._choiceValueBindings || []).find(b => b.opt === c.opt)?.actionId);
@@ -17076,7 +17102,7 @@ class Component extends DCLogic {
   choiceStatsHTML(view) {
     const stat = (label, text, attr, stale) => '<span class="ng-choice-stat"><span><span' + (label === 'Win' ? '' : ' data-immediate-label') + '>' + this.choiceEscape(label) + '</span> %</span><strong ' + attr + (stale ? ' data-choice-stale' : '') + ' aria-label="' + this.choiceEscape(label + ' ' + text + (stale ? ', updating' : '')) + '">' + this.choiceEscape(this.choiceNumber(text)) + '</strong></span>';
     return stat(view.immediateLabel === "Finish" ? "Submit" : view.immediateLabel, view.immediate, 'class="ngodds"', view.immediateStale)
-      + stat("Win", view.value, 'data-choice-win', view.stale);
+      + (this._studyRoll ? "" : stat("Win", view.value, 'data-choice-win', view.stale));   // OFF1: a study's card shows its move % alone
   }
   _choiceMediaTarget(opt) {
     // Escape fronts belong to the submission and the exact card label, including
@@ -19568,7 +19594,7 @@ class Component extends DCLogic {
     film.innerHTML = (referencePath ? "" : '<header class="ng-current-title">' + this.choiceShape(shown) + '<span>' + this.choiceEscape(shown ? this.graphName(shown) : "Current move") + '</span></header>')
       // U109 b (owner, 2026-11-09): the full-size card, and "ask the user to add it if he wants, like using the same feedback form".
       + (this.filmStudyHTML(filmClips, true) || '<div class="ng-choice-media ng-film-none" data-choice-media><b>No video of this move yet</b><span>We only show a video that teaches exactly this move. Know one?</span><button data-film-suggest>Suggest a video</button></div>')
-      + (seat ? '<footer><span>' + this.choiceEscape(seat[0].toUpperCase() + seat.slice(1)) + '</span><span class="ng-current-stat"><span>Win %</span><strong data-current-film-win>—</strong></span></footer>' : "");
+      + (seat ? '<footer><span>' + this.choiceEscape(seat[0].toUpperCase() + seat.slice(1)) + '</span>' + (this._studyRoll ? "" : '<span class="ng-current-stat"><span>Win %</span><strong data-current-film-win>—</strong></span>') + '</footer>' : "");   // OFF1: no Win % in a study
     film.toggleAttribute("data-single-video", filmClips.length === 1);
     film.querySelector("[data-film-suggest]")?.addEventListener("click", (e) => { e.stopPropagation(); this.openFeedback(shown, film._ngMediaRole); });
     // ARROWS (v1.217.0, owner 2026-10-02): the deck's chevrons, one at each end of the row, shown only
@@ -20542,7 +20568,21 @@ class Component extends DCLogic {
     this._lastActor = null; this._currentDeckKey = null;
     if (!(pageArrival && this._sessionShown())) { this._sessionNodes = null; this._session = null; this._inSession = false; }   // REFSEARCH-2
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
-    this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14;
+    // THE OPPONENT'S "OFF" IS A STUDY, NOT A WEAKER OPPONENT (OFF1, v1.302.0; the owner's U218 b, 25 Nov 2026: "Two choices:
+    // Normal · Off (new)"). Until this, "off" only zeroed the opponent's sampled skill: moves still missed (the opponent's position
+    // still counted, the 95% cap held) and the opponent's turn ran after every miss. `_studyRoll` is latched here and in `startRoll`, beside the
+    // skill it replaces, for the whole roll (a change in Settings starts with the next roll, as the skill always did). A BELT
+    // TEST NEVER STUDIES: `startBeltTest` sets `_beltTest` before it calls here, so a capstone plays the opponent at a sampled
+    // skill whatever the setting (this also closes the skill-0 capstone "off" used to give). The tutorial has no roll of its
+    // own (its overlay went in v1.133.0): it is the White challenges, whose roll steps simply wait for a Normal roll.
+    // NORMAL IS UNTOUCHED, DRAW FOR DRAW: `ai-skill` is drawn exactly where it was (an Off roll skips it, as "off" always did).
+    // What the latch changes, each at its own site: no dice and no miss (`tensionSweep` -> `_studyLand`), so no opponent's
+    // turn (reached only from a miss); an escape lands (`enterDefense`); no move budget; a finish ends it quietly
+    // (`_studyFinish`); no threats and no Win % (the two deal sites, `refreshChoiceValues`, the win bar, the film's row); no
+    // roll beat reaches challenges or coins (`fx`, NG_STUDY_UNCOUNTED); nothing in Last rolls (`_closeRoll`,
+    // `renderRollHistory`, `_renderRollsHome`). The cards the player answers count as they always did. Settings: "Opponent".
+    this._studyRoll = !this._beltTest && this.get("difficulty", "normal") === "off";
+    this.aiSkill = this._studyRoll ? 0 : 0.06 + this.rng("ai-skill") * 0.14;
     // ROLE: an explicit request wins. Deriving from the title is a CONSTANT for positions — the
     // visual layer titles all 136 of them "… Top" — which is exactly why playFrom had to set the
     // role itself, and why merging the two paths needs this parameter rather than a heuristic.
@@ -21204,7 +21244,8 @@ class Component extends DCLogic {
   _closeRoll() {
     const log = this.rollLog || [];
     const acted = log.length > 1 || !!this._rollActed || !!this._lastOutcome;
-    if (log.length && this._played && acted) {
+    // OFF1: a study is not a roll, so it is never filed under Previous rolls nor counted in today's rolls (U218 b, point 4)
+    if (log.length && this._played && acted && !this._studyRoll) {
       this._pastRolls = this._pastRolls || [];
       this._pastRolls.unshift({ log: log.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
       if (this._pastRolls.length > 40) this._pastRolls.pop();
@@ -21214,7 +21255,7 @@ class Component extends DCLogic {
       rd[dk] = (rd[dk] || 0) + 1; this._saveFlowSoon();
       this.fx("roll_archived", { states: log.length, outcome: this._lastOutcome || "reset", shelf: this._pastRolls.length });
     } else if (log.length) {
-      this.fx("roll_discarded", { states: log.length, played: !!this._played, acted: acted });
+      this.fx("roll_discarded", { states: log.length, played: !!this._played, acted: acted, ...(this._studyRoll ? { study: true } : {}) });
     }
     this.rollLog = []; this._rollActed = false;
     this._lastOutcome = null; this._lastFinish = null;
@@ -21258,7 +21299,8 @@ class Component extends DCLogic {
     if (!(keepShownSession && this._sessionShown())) { this._sessionNodes = null; this._session = null; this._inSession = false; }   // EARLY1
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
     this.playerRole = this.rng("role") < 0.5 ? "top" : "bottom"; // you start either side
-    this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14; // opponent resistance, gated by difficulty
+    this._studyRoll = this.get("difficulty", "normal") === "off";   // OFF1: a study (see rollFromPosition); `_beltTest` was cleared above
+    this.aiSkill = this._studyRoll ? 0 : 0.06 + this.rng("ai-skill") * 0.14; // opponent resistance; a study has none
     // random starting position — ONE ENTRY PER SITE, NEVER PER MEMBER (v1.125.0). The
     // first-impression draw (v1.82.3) is a measured distribution over 136 positions: gamma 1.5
     // against `curriculum.weights` puts ~2/3 of first impressions on the six hubs a beginner can
@@ -21580,7 +21622,7 @@ class Component extends DCLogic {
     const el = this.optionsRef.current; if (el) el.innerHTML = "";
     let picked = false;
     const pick = (opt) => { if (picked || opt.threat) return; picked = true; const card = this.executionCard(opt); this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.setPaused(false); this.enterAttempt(opt, card); };
-    this.renderChoiceGroups(el, opts, this.opponentThreats(this.currentPos), pick, this._decisionDsec, false);
+    this.renderChoiceGroups(el, opts, this._studyRoll ? [] : this.opponentThreats(this.currentPos), pick, this._decisionDsec, false);   // OFF1: a study has no threats
     if (el) el.style.pointerEvents = "auto";
     this._syncHandLayer();               // the hand LAYER (v1.171.0): dealt either way, shown by preference
     this._optPick = pick; this._optList = opts;
@@ -22124,7 +22166,7 @@ class Component extends DCLogic {
     // hidden moves: was this move played face down, and had the player looked at it first
     // (`shown`, v1.266.0: the mode was on and this move was dealt face up because it is known and not due; with
     // `flashcards` (v1.268.0) because its flashcards are all learned and none is due)
-    this.track("neural_move_picked", { technique: act.t, node_type: act.ty, ...(this._hideMoves() ? { hidden: true, peeked: !!(this._hmPeeks && this._hmPeeks.has(opt)), via: this._hideVia || "saved", ...((st) => st === "known" ? { shown: true } : st === "learned" ? { shown: true, flashcards: true } : {})(this._moveState(opt)) } : {}) });
+    this.track("neural_move_picked", { technique: act.t, node_type: act.ty, ...(this._studyRoll ? { study: true } : {}), ...(this._hideMoves() ? { hidden: true, peeked: !!(this._hmPeeks && this._hmPeeks.has(opt)), via: this._hideVia || "saved", ...((st) => st === "known" ? { shown: true } : st === "learned" ? { shown: true, flashcards: true } : {})(this._moveState(opt)) } : {}) });
     // `via` IS THE EDGE, AND A REPLAY CANNOT BE RECONSTRUCTED WITHOUT IT (v1.106.5). The roll log
     // records the STATES you passed through; a film of the roll has to show HOW — which technique
     // node the exchange travelled over. That fact exists only here, at the moment of the commit,
@@ -22441,6 +22483,7 @@ class Component extends DCLogic {
   // moveChance → detonation (in band) or 90ms hit-stop + recoil (out). The resolve draw
   // happens at sweep start, so the needle's landing IS the verdict — no second dice roll. ──
   tensionSweep(opt) {
+    if (this._studyRoll) { this._studyLand(opt); return; }   // OFF1: a study rolls no dice (no needle, no `resolve` draw)
     const act = this._actOf(opt);
     const chance = this.moveChance(act);
     const odds = this._execution?.card?.querySelector(".ngodds");
@@ -22457,6 +22500,49 @@ class Component extends DCLogic {
       else { this.fx("hit_stop", { technique: act.t }); this._hitStop = this.now; this._shake = { idx: opt.idx, t0: this.now }; }
       this.resolve(opt, success);
     });
+  }
+  // ── A STUDY'S MOVE LANDS (OFF1, v1.302.0, U218 b) ── the move the player picked lands at ITS success destination: the first success
+  // row that is not a finish, the row `_tableLanding` reads (the place the card names), else its first success row (a
+  // submission's finish, `game-over`). No draw at all, so the destination never depends on the stream: 155 of 1,440 wire tables
+  // carry two or three success rows (e.g. Leg Drag Pass: Side Control 45, Back Control 6), and a study shows the move's own
+  // landing, not a lottery between them. NOT `resolve`: that draws `outcome` and writes the weak-spots ledger (`_noteFlow`),
+  // and a certain landing is no evidence of a move's odds, so a study writes none. The arrival is `enterSuccessCal`'s own
+  // (the role, the travel, the landing), whose budget check and finish both ask the latch.
+  _studyLand(opt) {
+    const act = this._actOf(opt);
+    this.fx("study_land", { technique: act.t });
+    this.flare(opt.idx);
+    const rows = ((act.cal && act.cal.outcomes) || []).filter((o) => o.result === "success");
+    const out = rows.find((o) => o.to !== "game-over") || rows[0] || null;
+    return out ? this.enterSuccessCal(opt, out) : this.enterSuccess(opt);
+  }
+  // ── A STUDY ENDS QUIETLY ON A FINISH (OFF1; U218 b, point 2: "lands, shows its page and cards, and ends the roll quietly:
+  // 'You finish with X'. Not a win"). None of `endRound`: no verdict, no ladder, no victory cascade or slow motion, no
+  // `roll_end`, no countdown and no automatic restart, and the board does not step aside (`_endBoard`), because the point of
+  // the moment is the submission's own page and card, which stay: the commit had put the card away (`clearOptions`), so it
+  // is dealt again here, exactly as a landing on the submission deals it. The hand's place holds one press, New roll
+  // (`resetRoll`: the study is then closed, filed nowhere, `_closeRoll`). The roll is over: `_lastOutcome` "study".
+  _studyFinish(name, idx) {
+    this._chainEnd();
+    this.clearTimers(); this.clearOptions();
+    this._lastFinish = { name: name || null, idx: idx != null && this.nodes[idx] ? idx : null };
+    this._lastOutcome = "study";
+    this.fx("study_finish", { technique: name || null, moves: this.moveCount || 0 });
+    this.track("neural_study_finished", { moves: this.moveCount || 0 });
+    this.activeMove = null; this.pulse = null;
+    if (this._lastFinish.idx != null) {
+      this.focusIdx = idx; this.camFocus = this.pairMid(this.nodes[idx]);
+      this._syncUrl(idx, true);
+      this.flare(idx, this.ARRIVE_BLOOM);
+      this.renderLandCard(this.nodes[idx], "land", null);
+    }
+    this.setEvent("You finish with", name || "", "info");
+    const el = this.optionsRef.current;
+    if (el) {
+      el.innerHTML = '<button type="button" data-study-new-roll style="flex:none;min-height:44px;padding:0 22px;border-radius:12px;border:1px solid rgba(126,160,255,.45);background:rgba(28,36,58,.92);color:#dbe4f7;font:600 14px/1 inherit;cursor:pointer;">New roll</button>';
+      el.style.pointerEvents = "auto";
+      el.querySelector("[data-study-new-roll]").addEventListener("click", () => this.resetRoll());
+    }
   }
   // THE MISS DISTRIBUTION THE CARD PRICES IS THE ONE THE ROLL ROLLS (v1.121.0).
   //
@@ -22499,6 +22585,7 @@ class Component extends DCLogic {
     const dest = opt.res >= 0 ? opt.res : this.currentPos;
     if (act.ty === "submissions") {
       this.flare(opt.idx);
+      if (this._studyRoll) { this._studyFinish(act.t, opt.idx); return; }   // OFF1: a study's finish is quiet
       this.endRound("win", act.t, opt.idx);   // the finishing node, for the film (see endRound)
       return;
     }
@@ -22508,7 +22595,7 @@ class Component extends DCLogic {
       this.applyRoleByAction(act.t, act.ty, true);
       this.flashFx(this.myVal(this.nodes[dest]) - before);
       this.currentPos = dest; this.moveCount++; this._lastActor = "you";
-      if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
+      if (!this._studyRoll && this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));   // OFF1: a study has no budget
       else this.after(0.5, () => this.enterLand(false));
     });
   }
@@ -22529,7 +22616,7 @@ class Component extends DCLogic {
     const r = this.resolveOutcomeTo(out.to);
     // a finish is the roll's LAST node — the one arrival that never produces a landing, so it
     // takes the arrival bloom here or nowhere (v1.114.0).
-    if (r.terminal) { this.flare(opt.idx, this.ARRIVE_BLOOM); this.endRound("win", act.t, opt.idx); return; }
+    if (r.terminal) { this.flare(opt.idx, this.ARRIVE_BLOOM); if (this._studyRoll) this._studyFinish(act.t, opt.idx); else this.endRound("win", act.t, opt.idx); return; }
     const dest = r.idx >= 0 ? this.canonicalState(r.idx, r.role || this.playerRole) : (opt.res >= 0 ? opt.res : this.currentPos);
     this.executionEvent("Transition lands", act.t, "good", "landed");
     this.startTravel([opt.idx, dest], () => {
@@ -22539,7 +22626,7 @@ class Component extends DCLogic {
       else this.applyRoleByAction(act.t, act.ty, true);
       this.flashFx(this.myVal(this.nodes[dest]) - before);
       this.currentPos = dest; this.moveCount++; this._lastActor = "you";
-      if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
+      if (!this._studyRoll && this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));   // OFF1: a study has no budget
       else this.after(0.5, () => this.enterLand(false));
     });
   }
@@ -22831,7 +22918,7 @@ class Component extends DCLogic {
       this.startTravel([subIdx, opt.res], () => {
         this._defendSub = null; this._panicKey = null; this._defensePressure = false;
         this._reader?.layout(); // U16 b (owner, 2026-10-24): the phone catch band reverts with the result transition
-        if (this.rng("escape") < chance) {
+        if (this._studyRoll || this.rng("escape") < chance) {   // OFF1: a study's escape lands, with no draw and no tap-out
           const landed = this.canonicalState(opt.res, opt.destinationRole);
           const stillCaught = !!this.submissionNode(this.nodes[landed]);
           this.fx(stillCaught ? "defense_survived" : "escape", { via: this.choiceLabel(opt) });
@@ -22855,7 +22942,7 @@ class Component extends DCLogic {
         } else { finish(); }
       });
     };
-    this.renderChoiceGroups(el, escapes, this.opponentThreats(this.currentPos), pick, dsec, true);
+    this.renderChoiceGroups(el, escapes, this._studyRoll ? [] : this.opponentThreats(this.currentPos), pick, dsec, true);   // OFF1
     if (el) el.style.pointerEvents = "auto";
     this._syncHandLayer();               // the escapes obey the hand layer too (v1.171.1, owner)
     // A calm article arrival centres its current pair (D-318). A late defender
