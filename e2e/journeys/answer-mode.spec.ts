@@ -211,7 +211,8 @@ test("a roll: a stored Recall asks even a new card front and back; a stored Mult
     const q = a._landQ
     a._bumpStage(q.key, q.card.q, 2, 2)
     const proven = q.card.q
-    a._cardDue = (_k: string, qq: string) => qq === proven
+    // the app hands `_cardDue` the card since v1.303.0 (CARD1-S2, `cardKey`): a text from an older caller still reads
+    a._cardDue = (_k: string, qq: any) => (qq && typeof qq === "object" ? qq.q : qq) === proven
     a._landQ = null
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })
