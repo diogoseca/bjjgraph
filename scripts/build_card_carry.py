@@ -26,8 +26,9 @@ THE PAIRING, deck by deck (every key is the app's card key: `k` when the wire ca
                   card (reworded again since): (d, A → its key C);
     else it is left out (not recovered), and counted;
   · LEFT OUT and counted, never guessed:
-      a split     A maps to more than one target (a shared question reworded differently per deck, or a question repeated
-                  in its deck): no single heir;
+      a split     A maps to more than one target IN ONE DECK (a question repeated in its deck and reworded two ways):
+                  no single heir there. A shared question reworded differently per deck has ONE heir per deck, and each deck's
+                  row goes to its own (CARD1-S3-R1, the reader's F4: a schedule is written per deck, a stage per deck asked);
       a collision the target was itself an OLD question of deck d (another card's text then): that card's rows are its own;
       deck gone   deck d is not on today's wire;
       other       an old question in no deck today that the rewrite did not touch (orphaned by later changes).
@@ -108,20 +109,24 @@ def build(old: dict, rw: dict, now: dict) -> dict:
                 counts["collision"] += 1
                 continue
             cand.append((d, a, t, how))
-    # a split: one old key with more than one heir, anywhere (a shared question reworded differently per deck, or one
-    # repeated in its deck): none of its entries is carried
-    heirs: dict[str, set[str]] = {}
+    # a split: one old key with more than one heir IN ONE DECK (a question repeated in its deck, reworded two ways): none of
+    # its entries in that deck is carried. Across decks each deck's heir is its own (CARD1-S3-R1, F4)
+    heirs: dict[tuple[str, str], set[str]] = {}
     for d, a, t, _ in cand:
-        heirs.setdefault(a, set()).add(t)
-    split = {a for a, ts in heirs.items() if len(ts) > 1}
+        heirs.setdefault((d, a), set()).add(t)
+    split = {k for k, ts in heirs.items() if len(ts) > 1}
     decks: dict[str, dict[str, str]] = {}
     for d, a, t, how in cand:
-        if a in split:
+        if (d, a) in split:
             counts["split"] += 1
             continue
+        if a in decks.get(d, {}):
+            continue                                       # the same text repeated in its deck, reworded the same way: once
         decks.setdefault(d, {})[a] = t
         counts[how] += 1
-    counts["split_questions"] = len(split)
+    counts["split_questions"] = len({a for _, a in split})
+    counts["cross_deck_heirs"] = len({a for a in {a for _, a, _, _ in cand} if len({t for d, b, t, _ in cand if b == a}) > 1}
+                                    - {a for _, a in split})
     # the old questions no deck holds today that the rewrite did not touch (counted, not carried)
     live_now = set().union(*now_keys.values()) if now_keys else set()
     reworded_old = {fnv1a32(oc["q"]) for d in old if d in rw and len(rw[d]) == len(old[d])

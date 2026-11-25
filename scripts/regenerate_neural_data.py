@@ -1760,15 +1760,16 @@ def write_card_carry(decks: dict, out_dir: Path, source: Path = CARRY_SOURCE) ->
         if out:
             kept[deck] = "".join(out)
     n_kept = sum(len(v) // 16 for v in kept.values())
-    # A SPLIT (one old key, two heirs) has no single heir: scripts/build_card_carry.py leaves every one out, so one here is
-    # a source not made by it, refused (never a guess at which heir a player's row belongs to)
-    heirs: dict[str, set[str]] = {}
-    for v in kept.values():
-        for i in range(0, len(v), 16):
-            heirs.setdefault(v[i:i + 8], set()).add(v[i + 8:i + 16])
-    split = sorted(o for o, t in heirs.items() if len(t) > 1)
+    # A SPLIT (one old key, two heirs IN ONE DECK) has no single heir there: scripts/build_card_carry.py leaves every one out,
+    # so one here is a source not made by it, refused (never a guess at which heir a player's row belongs to). Across decks
+    # each deck's heir is its own (CARD1-S3-R1, F4)
+    split = []
+    for deck, v in kept.items():
+        olds = [v[i:i + 8] for i in range(0, len(v), 16)]
+        if len(olds) != len(set(olds)):
+            split.append(deck)
     if split:
-        raise SystemExit(f"[neural] card carry: {len(split)} old key(s) with more than one heir (e.g. {split[0]}): refusing")
+        raise SystemExit(f"[neural] card carry: {len(split)} deck(s) carry one old key to two heirs (e.g. {split[0]}): refusing")
     print(f"  card carry: {n_kept:,} of {seen:,} pairs kept in {len(kept):,} decks (dropped: {drop['deck_gone']:,} deck gone, "
           f"{drop['target_not_live']:,} target not live, {drop['old_live']:,} old key live again, {drop['malformed']:,} malformed)")
     if not n_kept or n_kept < CARRY_KEEP_FLOOR * seen:

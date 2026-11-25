@@ -473,5 +473,5 @@ test("18. the count follows answered September rows down, so a row another tab b
 test("13. the build half: the generator and the emitter (tests/card_carry_build.py)", () => {
   const r = spawnSync("python3", ["-B", "tests/card_carry_build.py"], { cwd: ROOT, encoding: "utf8" });
   assert.equal(r.status, 0, r.stdout + r.stderr);
-  assert.match(r.stderr, /Ran 11 tests/, "premise: all eleven cases ran");
+  assert.match(r.stderr, /Ran 12 tests/, "premise: all twelve cases ran");
 });

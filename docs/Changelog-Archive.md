@@ -22568,20 +22568,21 @@ CARD1-S2 made the key stable from now on; this gives back, once, what that rewri
 - per deck, card i of the old emit pairs with card i of the rewrite (all 2,896 decks pair); a changed text gives old key A
   -> the rewrite's key B. A is carried only if deck d today no longer holds A, and either holds B (direct) or, with as
   many cards as at the rewrite, holds another card in that place (second hop: its key C). Every key is the card key.
-- corpus counts: 9,451 (deck, old -> new) pairs over 9,272 old questions in 2,577 decks: 9,100 direct, 351 by a second
-  hop. LEFT OUT and counted: 102 pairs of 48 split questions (one old key, two heirs: no single heir), 293 in decks gone,
-  66 not recovered, 0 collisions (an heir that was another card's old text). 1,002 old questions were orphaned by other
-  changes and are not this carry's. Part A counted 9,325 questions globally; by deck it is 9,272, because a target must
-  be live in the SAME deck.
+- corpus counts: 9,553 (deck, old -> new) pairs over 9,320 old questions in 2,585 decks: 9,197 direct, 356 by a second
+  hop. LEFT OUT and counted: 293 in decks gone, 66 not recovered, 0 collisions (an heir that was another card's old text),
+  0 splits (one old key with two heirs IN ONE DECK). 1,002 old questions were orphaned by other changes and are not this
+  carry's. The 48 shared questions reworded differently per deck have one heir in each deck, and each deck's row goes to
+  its own (R1, the reader's F4; the first build left all 102 of their pairs out as "splits"). Part A counted 9,325
+  questions globally; by deck it is 9,320, because a target must be live in the SAME deck.
 - deterministic: two runs on the same emits write the same bytes (`--check` re-derives the committed file).
 
 **The wire** (`write_card_carry`, scripts/regenerate_neural_data.py):
 - every pair is checked against the decks the run emits, by the card key: a deck gone, a target not live, an old key live
   again, a malformed pair are dropped and counted, printed every run; under half kept, none kept, a split in the source,
-  or two carried decks under one chunk-name hash are REFUSED. So a target card reworded later WITH its id keeps its pair.
+  or two carried decks under one chunk-name hash are REFUSED (a split: one old key with two heirs in one deck). So a target card reworded later WITH its id keeps its pair.
 - data chunks in their own directory, `static/neural/carry/<i>.json` (never `flashcards/`, whose 33 readers skip only
-  `live-*` and `_*`), each under 36,000 B; a deck in file int(fnv1a32(deck key), 16) % n. Today: 6 files, 28,601 to
-  32,693 B, 187,540 B raw, 106,654 B gzip, all 9,451 pairs kept.
+  `live-*` and `_*`), each under 36,000 B; a deck in file int(fnv1a32(deck key), 16) % n. Today: 6 files, 28,935 to
+  32,965 B, 189,284 B raw, 107,663 B gzip, all 9,553 pairs kept.
 - its descriptor {id, n} rides `curriculum.json` (`cardCarry`), never the pinned `_index.json` (LIVE3). The payload gate
   counts `carry/` as an on-demand chunk directory; payload-first-hand bans it from the boot path.
 
@@ -22592,10 +22593,8 @@ CARD1-S2 made the key stable from now on; this gives back, once, what that rewri
 - a guest at its load; a signed-in owner only after a successful pull for that user (pull before write); a local-only bind
   waits for its pull. One attempt a boot, ten a browser (counted in localStorage, never in the record). Any failure
   applies nothing.
-- once: never on a copy marked done, except a browser whose OWN copy was unmarked and held September rows, or a pull that
-  GREW a copy's September rows (an older build's device that synced late, a guest joined). Such a run is a no-op on rows
-  already carried. Left, and said at the code: a fresh browser that pulls such late rows does not carry them; the next
-  browser of the account that held rows does.
+- decided by content, per owner on this browser (R1, below): when a need is pending, or the record holds more September
+  rows than at this browser's last successful step. A run over rows already carried is a no-op.
 
 **The step** (`ngCarryApply`, progress-owner.src.js), exactly as briefed: `srs[d][new] = ngKnowledgeMergeRow(srs[d][new],
 srs[d][old], today)`, `stage[d][new] = max(stage[d][new], stage[d][old])`, nothing deleted (the old rows stay, hidden as
@@ -22606,7 +22605,8 @@ carry that moved nothing keeps the marker on this browser only (no save, so no p
 `_progressExtras` LOCAL-WINS and pushes its own copy back at every pull (PR #452's loop; MODS1 Part A). So a marker two
 devices could write differently (a day, a list, the carry's id) could ping-pong between an older and a newer device for
 good. One value cannot differ. Merged as an OR; dropped from the guest part (the account carries its own rows; a guest's
-carried rows join as grades) and so not practice. A later carry, if ever, takes its own key.
+carried rows join as grades) and so not practice. A later carry, if ever, takes its own key. Since R1 it decides nothing:
+an older build's device keeps it whether or not THIS browser carried.
 
 **All at once (the owner's U222 a, 25 Nov 2026; asked as (a) all at once or (b) the carried rows paced at 5 a day).** A
 carried row is owed by its own schedule from the moment it lands, like any row: a returning player's due count rises by every
@@ -22664,4 +22664,30 @@ guest-join: 799 of 799 on the final build (batch A, 360, also on the build befor
 
 **The build census** (`validate:build-shape`, PR only): the 6 carry files move `static_files` and the JSON class counts;
 they are re-seeded by a guarded capture, never by hand. The app rows are re-seeded (`validate:build-shape:app`).
+
+**R1, after the sync reader's read of PR #471** (the step sound over 1,200 fuzz seeds: no row lost, no stage down,
+idempotent, no #452 loop; MERGE AFTER 2 fixes):
+- **(F1) Decided by content, per owner on this browser, never by the synced marker.** The reader's traces (seeds 26 and
+  75)
+  showed a device that can miss its own September rows for good: the marker arrives in a pull, its own attempt failed or
+  was spent that boot, and from the next boot it read "done". Now each browser keeps, per owner and never in the record,
+  `{n, pending, tries}` (`<owner>:carry`): it carries when a need is pending, or when the record holds more September rows
+  than at its last successful step. A pull that grows the count makes the need pending at once, answered rows bring `n`
+  down, and a fresh browser fetches once. Tests 15 and 16 replay the two traces; 18 the count followed down.
+- **(F2) The bound:** ten answers from the SERVER that were not a carry, per owner, cleared by a success. A network
+  failure,
+  or a browser offline, is no try. Ten offline openings then one online carries, and a guest's spent tries do not bind an
+  account (test 7).
+- **(F3) The due badge counted each carried row twice until the live set landed** (the reader: 492 for a true 298). Each
+  carried old key is now marked gone on this browser, and `_rowLive` reads a gone-marked row as not live: 298 for 298 on a
+  fixture where the double count read 448 (test 17). The marks are written one deck at a time, because `_goneSave` hands
+  back the store's map (a first build marked one deck of many).
+- **(F4) The 48 shared questions reworded per deck are carried**, each deck's row to its own heir; only a split inside
+  one
+  deck would stay out (there is none).
+- **The stage MAX at a second run ships as designed** (the orchestrator's ruling, on the reader's measure: the one-liner
+  withholds the September grade on the most active players' cards, 270 pairs against 7).
+- Mutants, each red: the pending flag never set, the pull's growth rule removed, a network failure counted, the tries per
+  browser, a success not clearing them, the old keys not marked, `_rowLive` not reading the marks, the count not followed
+  down, the synced marker deciding again, the split rule global again, the emitter's per-deck refusal removed.
 

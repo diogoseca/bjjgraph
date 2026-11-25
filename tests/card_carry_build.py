@@ -1,13 +1,15 @@
 """CARD1-S3 (v1.304.0): THE ONE-TIME CARRY's build half. Run by tests/card_carry.test.mjs (in the units).
 
   1. scripts/build_card_carry.py on three fixture emits (old, the rewrite, now): a card reworded in place carries its old key
-     to the card's key today, directly or by a second hop; a split (one old key, two heirs), a collision (the heir was another
-     card's old text), a deck gone and a card not recovered are LEFT OUT and counted; a target later reworded WITH its id
-     (the wire's `k`) is still found; two runs write the same bytes.
+     to the card's key today, directly or by a second hop; a shared question reworded per deck carries to each deck's own heir
+     (CARD1-S3-R1, F4); a split inside one deck (two heirs there), a collision (the heir was another card's old text), a deck
+     gone and a card not recovered are LEFT OUT and counted; a target later reworded WITH its id (the wire's `k`) is still
+     found; two runs write the same bytes.
   2. scripts/regenerate_neural_data.py `write_card_carry` on fixture decks: every pair checked against the decks emitted (a
      deck gone, a target not live, an old key live again, a malformed pair: dropped and counted); fewer than half kept is
      refused, none kept is refused; a target reworded later with its id keeps its pair; every file within its budget, each
-     deck in file int(hash, 16) % n; the id deterministic; a split in the source refused; curriculum.json carries {"id", "n"}.
+     deck in file int(hash, 16) % n; the id deterministic; a split inside one deck refused, a heir per deck kept;
+     curriculum.json carries {"id", "n"}.
   3. The committed neural/card-carry.json is well formed (decks sorted, 16 hex a pair, its counts its own).
 MUTANTS, each red here: the split rule dropped (`split` never filled) -> "split"; the collision check dropped -> "collision";
 the emitter's target check dropped -> "target not live"; the keep floor removed -> "refused"; the emitter's split refusal
@@ -37,12 +39,12 @@ def emit(tmp: Path, name: str, decks: dict) -> Path:
 
 
 OLD = {"A|Top": ["a1?", "a2?", "a3?"], "B|Top": ["S?"], "C|Top": ["S?"], "D|Top": ["d1?"],
-       "E|Top": ["x?", "y?"], "F|Top": ["p?"], "G|Top": ["g1?"]}
+       "E|Top": ["x?", "y?"], "F|Top": ["p?"], "G|Top": ["g1?"], "W|Top": ["r?", "r?"]}
 RW = {"A|Top": ["a1 new?", "a2?", "a3 new?"], "B|Top": ["S one?"], "C|Top": ["S two?"], "D|Top": ["d1 new?"],
-      "E|Top": ["y?", "z?"], "F|Top": ["p new?"], "G|Top": ["g1 new?"]}
+      "E|Top": ["y?", "z?"], "F|Top": ["p new?"], "G|Top": ["g1 new?"], "W|Top": ["r one?", "r two?"]}
 NOW = {"A|Top": ["a1 new?", "a2?", "a3 again?"], "B|Top": ["S one?"], "C|Top": ["S two?"],
        "E|Top": ["y?", "z?"], "F|Top": ["r?", "s?"],
-       "G|Top": [{"q": "g1 reworded later, with its id?", "k": H("g1 new?"), "a": "x"}]}
+       "G|Top": [{"q": "g1 reworded later, with its id?", "k": H("g1 new?"), "a": "x"}], "W|Top": ["r one?", "r two?"]}
 
 
 class BuildCarry(unittest.TestCase):
@@ -59,8 +61,13 @@ class BuildCarry(unittest.TestCase):
         self.assertEqual(self.pairs("A|Top"), sorted([(H("a1?"), H("a1 new?")), (H("a3?"), H("a3 again?"))]))
         self.assertEqual((self.r["counts"]["direct"] >= 1, self.r["counts"]["second_hop"]), (True, 1))
 
-    def test_a_split_is_left_out_and_counted(self):
-        self.assertNotIn("B|Top", self.r["decks"]); self.assertNotIn("C|Top", self.r["decks"])
+    def test_a_shared_question_reworded_per_deck_has_one_heir_in_each(self):
+        # CARD1-S3-R1 (F4): a schedule is written per deck and a stage per deck asked, so each deck's row goes to its own heir
+        self.assertEqual(self.pairs("B|Top"), [(H("S?"), H("S one?"))]); self.assertEqual(self.pairs("C|Top"), [(H("S?"), H("S two?"))])
+        self.assertEqual(self.r["counts"]["cross_deck_heirs"], 1)
+
+    def test_a_split_inside_one_deck_is_left_out_and_counted(self):
+        self.assertNotIn("W|Top", self.r["decks"], "a question repeated in its deck, reworded two ways: no single heir")
         self.assertEqual((self.r["counts"]["split"], self.r["counts"]["split_questions"]), (2, 1))
 
     def test_a_collision_is_left_out(self):
@@ -125,10 +132,13 @@ class EmitCarry(unittest.TestCase):
         with self.assertRaises(SystemExit):
             N.write_card_carry(wire({}), Path(tempfile.mkdtemp()), Path(tempfile.mkdtemp()) / "missing.json")
 
-    def test_a_split_in_the_source_is_refused(self):
-        src = self.source({"A|Top": H("s?") + H("one?"), "B|Top": H("s?") + H("two?")})
+    def test_a_split_in_the_source_is_refused_a_heir_per_deck_is_not(self):
+        across = self.source({"A|Top": H("s?") + H("one?"), "B|Top": H("s?") + H("two?")})
+        r = N.write_card_carry(wire({"A|Top": ["one?"], "B|Top": ["two?"]}), Path(tempfile.mkdtemp()), across)
+        self.assertEqual(r["n"] >= 2, True, "one heir in each deck: kept")
+        inside = self.source({"A|Top": H("s?") + H("one?") + H("s?") + H("two?")})
         with self.assertRaises(SystemExit):
-            N.write_card_carry(wire({"A|Top": ["one?"], "B|Top": ["two?"]}), Path(tempfile.mkdtemp()), src)
+            N.write_card_carry(wire({"A|Top": ["one?", "two?"]}), Path(tempfile.mkdtemp()), inside)
 
     def test_files_stay_in_budget(self):
         cards = [f"q{i}?" for i in range(400)]
@@ -160,7 +170,7 @@ class CommittedSource(unittest.TestCase):
             self.assertEqual(olds, sorted(olds), d)
             n += len(olds)
         self.assertEqual(n, src["counts"]["pairs"])
-        self.assertGreater(n, 9000, "premise: the v1.182.2 carry (9,451 pairs at 3947d4418)")
+        self.assertGreater(n, 9000, "premise: the v1.182.2 carry (9,553 pairs at 3947d4418)")
         self.assertEqual(set(src["commits"]), {"old", "rw", "now"})
 
 
