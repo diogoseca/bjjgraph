@@ -11,7 +11,8 @@
 // MUTANTS (the reader's three of the real host, and the two-tab rule; each run alone, 4 of 4 clean before and after; the
 // stub-based tests/stale_grades_kept.test.mjs stays green under every one of them, which is why this file exists):
 //   V2 `goneRead`/`goneWrite` on one key for every owner → 2;  V3 `goneRead` answers {} always → 1, 2, 4;
-//   V4 `goneWrite` stores nothing → 1, 2, 4;  R3 the tab's whole map written again → 4.
+//   V4 `goneWrite` stores nothing → 1, 2, 4;  R3 the tab's whole map written again → 4;
+//   (CARD1-S2, the reader's last survivor) `_goneSave` stops adopting the map `goneWrite` hands back → 4, at "the adoption".
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -130,21 +131,23 @@ test("R2 · 3: a storage that throws for the marker's key: nothing throws, and n
 
 test("R2 · 4: two tabs: a tab writes only the deck it landed, so neither order drops the other tab's deck", async () => {
   const cloud = new Map(), mem = memory();
-  const D = "D|Top", E = "E|Top";
-  // one record, saved by a first tab: live and stale grades in two decks
+  const D = "D|Top", E = "E|Top", F = "F|Top";
+  // one record, saved by a first tab: live and stale grades in three decks
   const t0 = browser(cloud, mem); const a = await t0.boot();
-  grade(a, D, { [Q(a, "d1")]: 3, [Q(a, "goneD")]: 3 }); grade(a, E, { [Q(a, "e1")]: 3, [Q(a, "goneE")]: 3 });
+  grade(a, D, { [Q(a, "d1")]: 3, [Q(a, "goneD")]: 3 }); grade(a, E, { [Q(a, "e1")]: 3, [Q(a, "goneE")]: 3 }); grade(a, F, { [Q(a, "f1")]: 3, [Q(a, "goneF")]: 3 });
   // a mark kept: T1 and T2 both open, T1 lands D, then T2 (its map read before T1's write) lands E
   const t1 = browser(cloud, mem), t2 = browser(cloud, mem);
   const a1 = await t1.boot(), a2 = await t2.boot();
   land(a1, D, ["d1", "d2"]);
   land(a2, E, ["e1", "e2"]);
+  assert.equal(a2._gradeGone(D, Q(a2, "goneD")), true, "T2 adopts the map its write hands back: T1's mark on D is T2's now (the adoption)");
   let r = await reload(cloud, mem);
   assert.deepEqual([r._gradeGone(D, Q(r, "goneD")), r._gradeGone(E, Q(r, "goneE"))], [true, true], "both tabs' decks are marked (the whole-map write kept E only)");
-  // an unmark kept: T2 holds D marked; T1 lands D with goneD's question back (unmarks); then T2 lands E again
+  // an unmark kept: T2 holds D marked; T1 lands D with goneD's question back (unmarks); then T2 writes (it lands F)
   land(a1, D, ["d1", "goneD"]);
-  land(a2, E, ["e1", "e2", "e3"]);
+  land(a2, F, ["f1", "f2"]);
+  assert.equal(a2._gradeGone(D, Q(a2, "goneD")), false, "and T1's unmark too, at T2's next write: T2 counts goneD's grade again (the adoption)");
   r = await reload(cloud, mem);
   assert.equal(r._gradeGone(D, Q(r, "goneD")), false, "the unmark stays (T2's older copy of D is not written back)");
-  assert.equal(r._gradeGone(E, Q(r, "goneE")), true, "and E's mark stays");
+  assert.deepEqual([r._gradeGone(E, Q(r, "goneE")), r._gradeGone(F, Q(r, "goneF"))], [true, true], "and E's and F's marks stay");
 });
