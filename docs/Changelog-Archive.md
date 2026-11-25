@@ -22381,8 +22381,13 @@ carries one, else the question's hash.
   take the card, or still a text (the rails and the journeys pass one), which reads as its hash. The resident-deck
   fallback of `_sharedDecksFor` and the session latch `cardDone` go by the key too. `cardDone` is never stored.
 - **The knowledge law** (`ngKnowledgeCardKey`): the grade (`ngKnowledgeApplyGrade`) and the shared lookup
-  (`ngKnowledgeSharedDecks`, and its legacy scan) key by the card, and `creditedQuestions` holds keys. The law's bytes
-  move, so the MDP law pin moves with them. The MDP reads no card, so no game value moves.
+  (`ngKnowledgeSharedDecks`, and its legacy scan) key by the card, and `creditedQuestions` holds keys.
+  - **The law's pin moves:** the exposure law's `expected.knowledge` (`mdp-exposure.src.js`, with its history line) and
+    its unit's fixture, 19460d… → 9d15d6…. It is label-neutral: the grade is the app's alone, and none of the eight
+    knowledge laws the worker binds changed.
+  - **Measured:** the MDP regenerated before and after, and every shard part is byte-identical. Only provenance hashes
+    (the emitter, gameplay, knowledge-law, model and source hashes) and the two variants' `mechanicsHash` moved. The MDP
+    reads no card.
 - **Unchanged, by design:** the UI's own lookups inside one loaded deck (`c.q === card.q`), which never cross a rewording.
 
 **The tools** (CARD1 slice 1's tools half):
@@ -22443,6 +22448,9 @@ the older one reset the card, and its grades under the new text's hash count for
 - `question_rewrite.test.mjs`: the ids written and kept.
 - `stale_grades_host.test.mjs` test 4: a tab adopts the map `goneWrite` hands back, the reader's last survivor from
   PR #468.
+- Two journeys' due seams (`answer-mode`, `landcard-modes`) stubbed `_cardDue` by comparing its second argument to the
+  question's text. The app now hands it the card, so the stub matched nothing and the landing asked another, new card
+  (both red on this build's first run). The stubs read the card's question now; no assertion changed.
 
 **Mutants, each red there:**
 - `cardKey` ignoring `k`;

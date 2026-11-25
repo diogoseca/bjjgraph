@@ -211,7 +211,7 @@ function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity
   //     shared lookup (`ngKnowledgeSharedDecks`), and the session's credited set holds keys. Label-neutral: the grade is the
   //     app's alone, none of the eight knowledge laws the worker binds (game-bundles.mjs `knowledgeNames`) nor the adapter's
   //     override changed, and the MDP reads no card. Measured: regenerated before and after, every MDP shard part
-  //     byte-identical; only provenance hashes moved (docs/Changelog-Archive.md, v1.303.0).
+  //     byte-identical; only provenance hashes and the variants' mechanicsHash moved (docs/Changelog-Archive.md, v1.303.0).
   // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
   // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
   const expected={adapter:'7fc8263e15a907b08fd0c70342fb50d943ea3f8add29e48f7053c9b200c33b04',knowledge:'9d15d6da94e1fec4b95e5b235416fe561fbfdd585c8ba3f542069bbd460b5518',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
