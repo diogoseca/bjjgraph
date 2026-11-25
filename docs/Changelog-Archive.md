@@ -22466,3 +22466,12 @@ the older one reset the card, and its grades under the new text's hash count for
 - three of `restore_questions`' id carries;
 - the rewrite's id;
 - the tab's adoption.
+
+**R1, after the sync reader's read of PR #469:**
+- **`restore_questions`** now strips every id the original does not carry, in ANY flashcards array: a new one, an empty
+  one, or a nested one. Before, it walked only the original's non-empty arrays. The schema text the bot is shown leaves
+  `id` out (`_CARD_ID_SHOWN`).
+- **`card_key.test.mjs`** now pins `_rowLive` (test 2b, a card of one deck), the planner's `questions` and
+  `noteCardDone`'s latch, each by the key. `_mcWarmKey` stays unpinned, with the reason in the test's header.
+- **What must hold before the first id** is written in `scripts/check_card_keys.py`'s docstring, under BEFORE THE FIRST
+  ID: the gate's id rule, where it runs, the emitter's text dedupe, `was:`, and the deploy rule.

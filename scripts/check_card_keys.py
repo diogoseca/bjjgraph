@@ -25,6 +25,35 @@ previous commit; scripts/ci-local.sh replays it against the merge-base with orig
 
 Mutants (tests/card_keys_gate.test.mjs runs this file on fixture trees; each red there): the id check dropped from
 `array_faults`; step 1 (the same answer) dropped from `pair_changes`; the zero-compared floor removed.
+
+BEFORE THE FIRST ID (CARD1 slice 4, the first content `id`; none of this is built yet: the PR #469 read measured each case,
+its report's F2, F4, F5 and F6). Content carries no id today, so these gaps cost no player anything yet.
+  · THE ID RULE IS MISSING. A card's id must be its own key at the base, or a key no other card in the corpus holds. Today
+    this gate PASSES:
+      - a reworded card with a WRONG id (any 8 hex): the old card counts as deleted, the new one as added, and its players'
+        progress is orphaned;
+      - an id equal to ANOTHER file's card text hash: `array_faults` and the emitter's `_card_key_census` see one array or
+        deck only, so the shared index joins that unrelated card's group. A shared question reworded in one deck, its old
+        text still in another, looks the same from one file and is right; only the base tells them apart;
+      - a card reworded, its answer edited and moved, in one commit (no pairing step finds it).
+    It FALSE-FAILS one honest edit: replacing the last card in place (deleted, and a new one added at its index) reads as
+    a rewording. The way out is in its message: an id of its own.
+  · WHERE IT RUNS. The base `HEAD^1` sees only the LAST commit of a multi-commit push to dev, and the bots' PRs run no
+    ci-validate at all: they open with the workflow token, which starts no workflow. Before the first id, run this gate
+    where the bots' PRs are checked, against the merge-base. (The bot cannot write an id today:
+    `restore_questions` strips every id the original does not carry, in any array, and the schema it is shown leaves
+    `id` out.)
+  · THE EMITTER DEDUPES BY TEXT, THEN REFUSES BY KEY. `_blend_deck` and `dedupe_flashcards` (and the hub curation) dedupe
+    a deck's cards by their question text; `_card_key_census` then refuses two texts under one key in one deck. So a
+    question held by two tiers of one wire deck, with only one copy reworded, stops the emit, loudly. There are 0 such
+    texts on the wire today (all 93 sit on hub nodes, which the wire does not carry). Before the first id: dedupe by
+    `_card_key`, or have the rewrite reword every copy of a text.
+  · `was:` IS NOT BUILT. A card merged from two cannot inherit the second one's progress, so no edit may merge two cards
+    until that field exists. A split works today: one card keeps the id and the other takes an id of its own.
+  · THE DEPLOY RULE. No id ships until production has run a build at or after v1.301.5 through at least one deploy. A
+    v1.298.0 tab left open across the deploy that carries the first id loads the new deck lazily and DELETES the key's
+    grade; on a device only that tab uses, the grade is gone for good. So: promote a build at or after v1.301.5, then
+    ship ids no earlier than the promotion after it.
 """
 from __future__ import annotations
 
