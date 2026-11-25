@@ -22359,3 +22359,80 @@ flashcard question verbatim, per array:
 It is a pure function, unit-tested on a recorded content file (`tests/question_restore.py`, 12 cases, run by
 `tests/question_restore.test.mjs`). Mutants: step 2, step 4 and the order each red; step 2 had survived until "a reword
 that also moved" was added. The bot is not run.
+## v1.302.0 — The opponent's "Off" is a no-opponent study (OFF1; the owner's U218 b, 25 Nov 2026)
+
+**Why.** The owner's answer to U218: "b, Two choices: Normal · Off (new)". Until this, "Off" only set the opponent's
+sampled skill (`aiSkill`) to 0: the opponent's position still counted against a move, the 95% cap held, so moves still
+missed, and after every miss the opponent's turn ran exactly as on Normal (OFF1 Part A, reports/mapshows.md). It was a
+weaker opponent, not no opponent; and a belt test started under it ran at skill 0.
+
+**What a study is** (the design of OFF1 Part A's section 2, approved as written). One latch, `_studyRoll`, set beside
+`aiSkill` at both roll starts (`rollFromPosition`, `startRoll`) and kept for the whole roll:
+- every move the player picks lands at its own success destination (`_studyLand`: the first success row that is not a
+  finish, the row `_tableLanding` names, else its finish), with no draw at all: no needle, no `resolve`, no `outcome`.
+  155 of the wire's tables carry two or three success rows, and a study plays the move's own one, not a lottery;
+- so there is never a miss, and the opponent's turn, which only a miss reaches, never comes; an escape picked in a
+  defender seat staged from the map lands too (no `escape` draw, no tap-out); the danger animation needs the opponent's catch, so
+  never shows;
+- no move budget; a finish ends the roll quietly (`_studyFinish`): no verdict, ladder, cascade, slow motion, `roll_end`,
+  countdown or automatic restart, and the board does not step aside. The submission's page and card stay (the card is
+  dealt again: the commit had put it away), the banner says "You finish with X", and the hand's place holds New roll;
+- no threats row and no Win %: not on the cards (an entry's "Works" prints its finish's own chance, which on Normal only
+  the solve gives), not in the value line, not on the win bar, not on the film's row; the Win % solve is never asked for;
+- it earns nothing a roll earns: the roll beats never reach challenges or coins (`NG_STUDY_UNCOUNTED`, filtered in `fx`;
+  the beat is still logged and sounded), it is never filed in Last rolls or counted in today's rolls (not even as "This
+  roll" while it runs), and it writes nothing to the weak-spots ledger (`_noteFlow`: a certain landing is no evidence of
+  a move's odds). The cards the player answers count exactly as before;
+- a belt test never studies: `startBeltTest` sets `_beltTest` before it seats the roll, and the latch reads it.
+
+**Part A's finding.** There is no tutorial roll to exempt: the tutorial overlay went in v1.133.0, and "the tutorial" is
+the White challenges, which tick from ordinary roll beats. By point 4 their roll steps tick on Normal rolls only; the rest
+(read your hand, answer, video, flashcards, roam, lesson) tick in a study as anywhere.
+
+**Settings.** The Opponent row is two choice cards (SETH4's pattern), Normal (Recommended) and Off, each one line. The
+stored value keeps its name (`difficulty` "off" / "normal"): no new key, no migration. A player who had "off" plays the
+new Off from their next roll. The three lines were cut to fit the deferred set's ceiling (settings-ui.js +6 B on dev's
+29,170; the set 564,703 of 564,712); no ceiling moved.
+
+**Normal is the game it was, draw for draw.** A seeded roll (Math.random replaced by a seeded generator before any page
+script; only the DSL's own `land()` rigs) recorded every draw (tag and value), every hand in tray order with each card's
+move % and Win %, the win bar and the beats, picking the first card at each decision, from Closed Guard and from Mount
+(18 decisions each; 158 and 151 draws; 17 hands with a Win % each). Dev's bundle twice: byte-identical (the recording is
+deterministic). This build: byte-identical to dev's.
+
+**Proof.** `e2e/journeys/opponent-off.spec.ts` (11 tests, mouse at 1440x900 and 1074x796, touch at 390x631 with the fold
+claims: a card's move % and New roll wholly on screen and owning their centres) and `tests/study_uncounted.test.mjs` (the
+challenge catalogue classified; the `fx` filter; every table's landing over the whole wire, gi and no-gi, with an rng that
+throws). Every miss in the journey is rigged (`resolve` 0.999), and a Normal control shows the rig misses. Mutants, each
+alone, red at the named test: the study branch in `tensionSweep` removed ("every move lands"); rollFromPosition's latch
+false ("a roll staged from the map", at its no-opponent assertion); the belt-test exemption removed ("a belt test"); and
+the unit's three ("commit" counted, the filter inverted, the last success row).
+
+**Bytes.** neural.js +2,580 B raw, +775 B gzip on dev's; the eager gzip figure is +3,260 B over the accepted baseline
+(v1.301.0) with dev's own share, under the 5,000 delta cap.
+
+**Not done, on purpose.** No "Study" line in Last rolls (the brief's default; not worth it yet). The hand layer put away
+hides New roll with the hand, as it hides the hand; the layer dock brings both back.
+
+**OFF1-R1** (the independent reader of #470: no fault in Normal or in any way into a roll; three small faults a player can
+meet, fixed here, the rest left for the next PR's first commits):
+- the badge's "Today: … rolls" counted a running study (`_paintBadge` read `rollLog` alone; the two Last rolls readers had
+  the latch, the badge did not: one question answered in three places, §6.5);
+- New roll sat in the tray, so putting the hand layer away took it too, the only way on (`_syncHandLayer` keeps the tray
+  shown while it holds New roll);
+- its style wrote `font:600 14px/1 inherit`, which drops the whole shorthand (`inherit` is not allowed inside it), so it
+  wore the browser's button type.
+Pinned in `opponent-off.spec.ts`; the pre-fix app is red at the badge and at the type (the hand-layer assertion follows the
+type and was not reached by that control). Two comments corrected: the value module may still load through its other
+callers (no solve is asked), and an entry's "Works" is priced from where the player stands (24 of 260 no-gi entries differ
+from the Submit % once in, the reader's measure). Left, listed in reports/oppoff.md: the defender seat's escape, the
+ledger, the win bar's Normal control and the drawer's roll count are not pinned; the game-plan panel still models an
+opponent in a study; a capstone left through free roam still holds `_beltTest` (older, Normal too).
+
+**OFF1-R2** (the orchestrator's press on b527e314d: a new guest at 390x631, Off picked in Settings, a reload, a tap on Kimura
+from Mount; a `challenge_completed` and a `tut_step` followed the first move). Reproduced exactly as a journey, it is
+"Read your hand" (`white.coach1`, step `coach1`), completed by `options_dealt`, the hand dealt after the move: a study step,
+counted in a study by design. `commit` fired and "Execute a move" stayed undone. A new guest meets it on the first move
+because a page arrival's own hand emits no `options_dealt` (the reader's arrival holds it). Pinned by name in
+`opponent-off.spec.ts` ("a new guest's first study move…", a guest with nothing stored, the real press and a reload); with
+"commit" counted in a study it is red.

@@ -146,6 +146,10 @@ const NG_ROLL_SHOWS = [
   ["card", "The card only", "The place’s card, with no question. No combos. A submission that catches you still asks its defence drill."],
   ["none", "No card", "No card and no question; the film follows Video under Articles. The ✕ on the card does the same; this brings it back."],
 ];
+const NG_OPPONENT_MODES = [
+  ["normal", "Normal", "A move lands by its odds; when it misses, it’s the opponent’s turn."],
+  ["off", "Off", "No opponent: every move you pick lands. No Win %, nothing won or lost, nothing a roll earns; your answers still count."],
+];
 const NG_ANSWER_MODES = [
   ["auto", "Auto", "Multiple choice until you get a card right twice, then recall from then on."],
   ["mc", "Multiple choice", "Pick the answer from three. Recognition: easier, good for a first pass. A card is never asked from memory, so the goals that need one proven from memory wait."],
@@ -407,15 +411,20 @@ renderSettings() {
         sec.appendChild(note);
       }
     } else if (id === "rolling") {
-      // THE OPPONENT (SET1-GO 3: the row was "Rolling simulation"; its Off makes the opponent never resist, which is the
-      // orchestrator's to take to the owner, so the row's two lines are merged and its words are otherwise kept).
-      const r = words(el("div", "ng-set-row side"), "Opponent", "When you pick a move, a dice-roll plays out against an AI opponent — success depends on the move’s win % (boosted by your mastery). Harder opponents arrive with the ladder — Normal is the calibrated one.");
-      r.setAttribute("data-settings-opponent", "");
-      const seg = el("div", "ng-set-seg ng-set-ctl");
-      const diff = this.get("difficulty", "normal");
-      seg.appendChild(this.segBtn("Off", diff === "off", false, () => { this.set("difficulty", "off"); this.renderSettings(); }));
-      seg.appendChild(this.segBtn("Normal", diff === "normal", false, () => { this.set("difficulty", "normal"); this.renderSettings(); }));
-      r.appendChild(seg); sec.appendChild(r);
+      // THE OPPONENT (OFF1, v1.302.0; the owner's U218 b, 25 Nov 2026: "Two choices: Normal · Off (new)"). Two choice cards
+      // (SETH4's pattern), Normal first and tagged Recommended, each with one honest line. "Off" is the no-opponent study the app
+      // plays (`_studyRoll`, app.src.jsx); it used to be a weaker opponent (skill 0, misses and the opponent's turns kept). THE STORED
+      // VALUE KEEPS ITS NAME: `difficulty` "off" / "normal", no new key and no migration (a settings key is never deleted or
+      // renamed, CLAUDE.md §6.6), so a player who chose Off before plays the new Off from their next roll. Any other stored value
+      // plays Normal, as the app has always read it, and shows Normal here.
+      {
+        const diff = this.get("difficulty", "normal") === "off" ? "off" : "normal";
+        const r = words(el("div", "ng-set-row"), "Opponent", "Who answers your moves. A belt test always plays the opponent; a change starts with your next roll.");
+        r.setAttribute("data-settings-opponent", diff);
+        r.appendChild(choiceCards("opponent", "Opponent", NG_OPPONENT_MODES, diff, "data-opponent-pick",
+          (v) => { this.set("difficulty", v); this.renderSettings(); }, ["normal", "Recommended"]));
+        sec.appendChild(r);
+      }
       // ── WHERE THE ROLL STARTS (v1.166.0) ── three pills from NG_START_FROM, all LIVE. The
       // note box describes the ACTIVE choice, the way the loss-aversion row does; under "My weak
       // spots" it also names the live spot — the crack and where the roll opens — read from the
