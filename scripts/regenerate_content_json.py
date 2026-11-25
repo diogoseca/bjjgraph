@@ -437,8 +437,15 @@ def needs_enrichment(data: dict, category: str) -> bool:
 # TEMPLATE LOADING
 # =============================================================================
 
+# CARD1-S2-R1 (v1.303.0): a flashcard's `id` (its card key, scripts/_card_key.py) is never the model's to write, so the
+# schema text the model is SHOWN leaves it out (the schema the output is VALIDATED against keeps it: get_template_path).
+# `restore_questions` strips any id the model writes anyway; this only stops inviting one. tests/question_restore.py
+# counts every property removed, template by template, against the ids the template declares.
+_CARD_ID_SHOWN = re.compile(r'\n[ \t]*"id": \{\s*"type": "string",\s*"pattern": "\^\[0-9a-f\]\{8\}\$",\s*"description": "[^"]*"\s*\},')
+
+
 def get_template_content(category: str, template_type: str = None) -> str:
-    """Load the appropriate template file content."""
+    """Load the appropriate template file content, as the model is shown it (no card `id`: `_CARD_ID_SHOWN`)."""
     template_map = {
         "Positions": {
             "SINGLE": "templates/Positions/TEMPLATE-SINGLE.json",
@@ -470,7 +477,7 @@ def get_template_content(category: str, template_type: str = None) -> str:
 
     try:
         with open(template_path, 'r') as f:
-            return f.read()
+            return _CARD_ID_SHOWN.sub("", f.read())
     except:
         return "Template not available"
 
@@ -1762,12 +1769,19 @@ def restore_questions(original: dict, fixed: dict, keep_rewords: bool | None = N
          back (so the card still answers its question), and counted;
       4. no card left to match: the model deleted it: the original card is put back whole, and counted.
     Existing cards keep their ORIGINAL order (a deck's positions stay stable); the model's NEW cards (matched to no original)
-    follow, in the model's order. A whole array the model dropped comes back whole. Items that are not cards pass through."""
-    if not isinstance(original, dict) or not isinstance(fixed, dict):
+    follow, in the model's order. A whole array the model dropped comes back whole. Items that are not cards pass through.
+    LAST, every card the original does not account for, in EVERY flashcards array of `fixed` (one the original lacks, one
+    it held empty, at any depth), leaves with no id: the walk above sees only the original's non-empty arrays, so an id
+    the model wrote in a new or empty array used to survive it, and the bot's PRs run no ci-validate (the PR #469 read,
+    F1). An invented id is never removable after it ships, and two decks given the same one would share progress."""
+    if not isinstance(fixed, dict):
         return 0
+    if not isinstance(original, dict):
+        original = {}
     from _card_key import card_key
     keep = BOT_KEEPS_REWORDS if keep_rewords is None else keep_rewords
     restored = 0
+    carried = set()                                         # id() of every card that leaves as an original's
     for path, orig in _flashcard_arrays(original):
         ocards = [c for c in orig if isinstance(c, dict) and isinstance(c.get("question"), str)]
         if not ocards:
@@ -1779,6 +1793,7 @@ def restore_questions(original: dict, fixed: dict, keep_rewords: bool | None = N
         if not isinstance(got, list):
             if isinstance(parent, dict):
                 parent[path[-1]] = copy.deepcopy(orig)
+                carried.update(id(c) for c in parent[path[-1]])
                 restored += len(ocards)
             continue
         cards = [c for c in got if isinstance(c, dict) and isinstance(c.get("question"), str)]
@@ -1816,11 +1831,16 @@ def restore_questions(original: dict, fixed: dict, keep_rewords: bool | None = N
                 out.append(copy.deepcopy(oc)); restored += 1
             else:
                 out.append(cards[match[i]])
+            carried.add(id(out[-1]))
         for j, c in enumerate(cards):                       # the model's NEW cards: no id of the model's making
             if not used[j]:
                 _carry_id(c, None); out.append(c)
         out.extend(others)
         got[:] = out
+    for _path, arr in _flashcard_arrays(fixed):             # every card no original accounts for: no id, in ANY array
+        for c in arr:
+            if isinstance(c, dict) and isinstance(c.get("question"), str) and id(c) not in carried:
+                _carry_id(c, None)
     return restored
 
 

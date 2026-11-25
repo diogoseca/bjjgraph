@@ -13,6 +13,9 @@ an existing card leaves with its original's id (put back if dropped or changed, 
 `keep_rewords` (off in the bot, `BOT_KEEPS_REWORDS`) keeps a reword found by its answer and writes the old text's key.
 Mutants: `_carry_id` not called at step 1 → "dropped"/"changed"/"invented" red; the new cards' ids kept → "a new card";
 the kept reword not given its key → "keep_rewords".
+CARD1-S2-R1 (the next five): an id in a NEW, an EMPTY or a NESTED array is removed too; an original's id survives that
+last strip; the schema the model is shown declares no card id. Mutants: the last strip removed → "new array", "empty
+array", "nested" red; a card put back whole left out of `carried` → "survives"; `_CARD_ID_SHOWN` not applied → "shown".
 """
 import copy
 import json
@@ -175,6 +178,63 @@ class RestoreQuestions(unittest.TestCase):
         got = self.fixed["attacker"]["flashcards"]
         self.assertEqual((got[2]["question"], got[2]["id"]), ("Shorter, kept: what does it ask?", fnv1a32(old)))
         self.assertEqual(got[3], self.orig["attacker"]["flashcards"][3], "a reword found only by its place is restored either way")
+
+    # CARD1-S2-R1 (the PR #469 read, F1): the walk pairs only the ORIGINAL's non-empty arrays, so an id the model wrote in an
+    # array the original lacks, or held empty, survived it; the bot's PRs run no ci-validate, and the gate passes such a
+    # card as "a new card with an id of its own". Every card no original accounts for leaves with no id, in any array.
+    NEW_ID = {"question": "What does a new card in a new place ask?", "answer": "Something no card asks yet.", "id": "feedface"}
+
+    def test_an_id_in_a_new_array_is_removed(self):
+        self.fixed["attacker"]["flashcards_position"] = [dict(self.NEW_ID)]        # a role-level array the original lacks
+        self.fixed["flashcards"] = [dict(self.NEW_ID, id="cafebabe")]              # and one at the root
+        restore_questions(self.orig, self.fixed)
+        self.assertNotIn("id", self.fixed["attacker"]["flashcards_position"][0])
+        self.assertNotIn("id", self.fixed["flashcards"][0])
+        self.assertEqual(self.fixed["attacker"]["flashcards"], self.orig["attacker"]["flashcards"], "the existing deck untouched")
+
+    def test_an_id_in_an_empty_array_is_removed(self):
+        self.orig["defender"]["flashcards"] = []
+        self.fixed = copy.deepcopy(self.orig)
+        self.fixed["defender"]["flashcards"].append(dict(self.NEW_ID))
+        restore_questions(self.orig, self.fixed)
+        self.assertEqual(self.fixed["defender"]["flashcards"], [{k: v for k, v in self.NEW_ID.items() if k != "id"}])
+
+    def test_an_id_in_a_nested_new_array_is_removed(self):
+        self.fixed["attacker"]["tiers"] = [{"name": "Advanced", "flashcards": [dict(self.NEW_ID)]}]
+        restore_questions(self.orig, self.fixed)
+        self.assertNotIn("id", self.fixed["attacker"]["tiers"][0]["flashcards"][0])
+
+    def test_an_originals_id_survives_the_last_strip_put_back_whole(self):
+        o = self.with_id()
+        del self.fixed["attacker"]["flashcards"][1]                              # a card deleted: put back whole (step 4)
+        restore_questions(self.orig, self.fixed)
+        self.assertEqual(self.fixed["attacker"]["flashcards"][1], o)
+        self.fixed = copy.deepcopy(self.orig)
+        del self.fixed["attacker"]["flashcards"]                                 # the whole array dropped: put back whole
+        restore_questions(self.orig, self.fixed)
+        self.assertEqual(self.fixed["attacker"]["flashcards"][1], o)
+
+    def test_the_schema_the_model_is_shown_has_no_card_id(self):
+        import os
+        import re
+        import regenerate_content_json as R
+        here = os.getcwd()
+        os.chdir(ROOT)                                                           # the loader reads templates/ relative
+        try:
+            removed = 0
+            for cat, t in (("Positions", "SINGLE"), ("Positions", "DUAL"), ("Positions", "FAMILY"), ("Transitions", "SINGLE"),
+                           ("Transitions", "DUAL"), ("Submissions", "SINGLE"), ("Submissions", "DUAL"),
+                           ("Submissions", "FAMILY"), ("Principles", None), ("Systems", None), ("Learning", None)):
+                raw = R.get_template_path(cat, t).read_text()
+                shown = R.get_template_content(cat, t)
+                json.loads(shown)                                                # still a schema
+                declared = raw.count('"pattern": "^[0-9a-f]{8}$"')
+                self.assertNotIn("^[0-9a-f]{8}$", shown, f"{cat}/{t}: the card id is still shown")
+                self.assertEqual(shown.count('"id"'), raw.count('"id"') - declared, f"{cat}/{t}: only the card id goes")
+                removed += declared
+            self.assertEqual(removed, 13, "every card-id property the nine schemas declare was found and hidden")
+        finally:
+            os.chdir(here)
 
 
 if __name__ == "__main__":
