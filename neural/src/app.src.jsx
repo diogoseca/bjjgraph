@@ -9521,7 +9521,7 @@ class Component extends DCLogic {
   _paintBadge() {
     const chip = this.acctChipRef?.current; if (!chip) return;
     const t = this.practiceToday();
-    const rolls = ((this._rollDays || {})[this._dayKey()] || 0) + ((this.rollLog || []).length ? 1 : 0);
+    const rolls = ((this._rollDays || {})[this._dayKey()] || 0) + (!this._studyRoll && (this.rollLog || []).length ? 1 : 0);   // OFF1-R1: a study is no roll
     const line = chip.querySelector("[data-badge-today]");
     if (line) line.textContent = "Today: " + t.done + " of " + t.goal + " cards \u00b7 " + rolls + (rolls === 1 ? " roll" : " rolls");
     const dot = this.wrapRef?.current?.querySelector("[data-drawer-dot]");
@@ -16653,8 +16653,9 @@ class Component extends DCLogic {
     const runtime = this.choiceValueRuntime(), record = this.choiceValueRecord(opt);
     // OFF1: a study's card is its move's own odds and nothing else (no "Preparing…", no "unavailable": nothing is missing).
     // An ENTRY's "Works" is the finish's chance once you are in, which on Normal only the solve gives (so "Works —" before it);
-    // a study asks no solve, and its finish is the submission's own move, so the card prints that move's own chance: the
-    // number its Finish card shows once you are in.
+    // a study asks no solve, so the card prints the submission's own chance as priced from where you stand. Once you are in,
+    // the submission's own position and deck can move its Finish card a few points (the reader of #470 measured 24 of 260
+    // no-gi entries with no prep differing, e.g. Triangle Choke from De La Riva 44 here, 52 once in).
     if (this._studyRoll) {
       const entry = record.kind === "entry", sub = entry ? this.submissionNode(opt.node) || opt.node : null;
       const f = this.choiceImmediateFallback(entry ? "finish" : record.kind, entry ? this.moveChance(sub) : record.immediateExecutionChance);
@@ -16704,8 +16705,9 @@ class Component extends DCLogic {
       const dealt = this._choiceDealt, at = c => (dealt && dealt.has(c.opt) ? dealt.get(c.opt) : Infinity);
       const cards = (this._optionCards || []).filter(c => !c.opt.threat).sort((x, y) => at(x) - at(y));
       if (!cards.length) return;
-      // OFF1: A STUDY HAS NO WIN %, so it asks for no solve (and loads no value module for it): Win % is the chance of beating
-      // an opponent, and there is none. The cards' own move % still follows a grade, painted from `choiceValueView`'s study view.
+      // OFF1: A STUDY HAS NO WIN %, so it asks for no solve: Win % is the chance of beating an opponent, and there is none.
+      // (The value module may still load through its other callers, the reader's first layout and the board's opening; it
+      // computes nothing for a study, because this is the one requester.) The cards' own move % still follows a grade, painted from `choiceValueView`'s study view.
       if (this._studyRoll) { this.paintChoiceValues(); return; }
       this._ensureGameValues();
       const runtime = this.choiceValueRuntime();
@@ -19439,7 +19441,8 @@ class Component extends DCLogic {
    *  removes it from hit-testing (§6.1: `opacity:0` is not hidden). `_suppressTray` owns
    *  opacity on the same element for the reading surfaces; the two never meet. */
   _syncHandLayer() {
-    const on = this._handShown();
+    // OFF1-R1 (the reader of #470): a finished study's New roll is the only way on that the tray holds, so it is never put away
+    const on = this._handShown() || !!this.optionsRef.current?.querySelector("[data-study-new-roll]");
     for (const ref of [this.optionsRef]) {
       const el = ref && ref.current; if (!el) continue;
       if (on) el.style.removeProperty("visibility");
@@ -22539,9 +22542,10 @@ class Component extends DCLogic {
     this.setEvent("You finish with", name || "", "info");
     const el = this.optionsRef.current;
     if (el) {
-      el.innerHTML = '<button type="button" data-study-new-roll style="flex:none;min-height:44px;padding:0 22px;border-radius:12px;border:1px solid rgba(126,160,255,.45);background:rgba(28,36,58,.92);color:#dbe4f7;font:600 14px/1 inherit;cursor:pointer;">New roll</button>';
+      el.innerHTML = '<button type="button" data-study-new-roll style="flex:none;min-height:44px;padding:0 22px;border-radius:12px;border:1px solid rgba(126,160,255,.45);background:rgba(28,36,58,.92);color:#dbe4f7;font-weight:600;font-size:14px;line-height:1;font-family:inherit;cursor:pointer;">New roll</button>';
       el.style.pointerEvents = "auto";
       el.querySelector("[data-study-new-roll]").addEventListener("click", () => this.resetRoll());
+      this._syncHandLayer();   // shown even with the hand put away (OFF1-R1)
     }
   }
   // THE MISS DISTRIBUTION THE CARD PRICES IS THE ONE THE ROLL ROLLS (v1.121.0).

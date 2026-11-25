@@ -134,6 +134,9 @@ for (const [w, h, touch] of [[1440, 900, false], [390, 631, true]] as [number, n
           win1: !!c["white.win1"]?.done, read: !!c["white.coach1"]?.done };
       });
       expect(counted, "Last rolls holds nothing; no roll challenge ticked; reading the hand did").toEqual({ past: 0, empty: true, commit: false, win1: false, read: true });
+      // OFF1-R1: and the badge's "Today: … rolls" does not count the study running now
+      const badge = await W(page)(() => { const a = (window as any).__neural; a._paintBadge(); return document.querySelector("[data-badge-today]")?.textContent || null; });
+      expect(badge, "the badge counts no study").toMatch(/· 0 rolls$/);
     });
 
     test(`at ${w}x${h}: Off: a finish lands, its card stays, and the roll ends quietly with New roll`, async ({ page }) => {
@@ -161,6 +164,14 @@ for (const [w, h, touch] of [[1440, 900, false], [390, 631, true]] as [number, n
       await expect(nr, "one New roll press").toHaveCount(1);
       await expect(nr).toBeVisible();
       expect(await page.evaluate(() => { const x = (window as any).__neural._handCloseEl; return !x || getComputedStyle(x).visibility === "hidden"; }), "no hand ✕ beside it: there is no hand to put away").toBe(true);
+      // OFF1-R1: it wears the app's own type (an invalid `font` shorthand fell back to the button default), and putting the
+      // hand away never takes it: it is the only way on
+      expect(await page.evaluate(() => { const b = document.querySelector("[data-study-new-roll]")!; return [getComputedStyle(b).fontFamily === getComputedStyle(b.parentElement!).fontFamily, getComputedStyle(b).fontWeight]; }), "New roll's type").toEqual([true, "600"]);
+      await W(page)(() => (window as any).__neural.setLayer("hand", false, "settings"));
+      await j.advance(200);
+      await expect(nr, "with the hand put away, New roll stays").toBeVisible();
+      await W(page)(() => (window as any).__neural.setLayer("hand", true, "settings"));
+      await j.advance(200);
       // FOLD: New roll is wholly on screen and owns its centre, at 390x631 by touch (press() measures both)
       const r = (await nr.boundingBox())!;
       expect(r.y >= 0 && r.y + r.height <= h && r.x >= 0 && r.x + r.width <= w, `New roll is wholly on screen at ${w}x${h}`).toBe(true);

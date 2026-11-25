@@ -22413,3 +22413,18 @@ the unit's three ("commit" counted, the filter inverted, the last success row).
 
 **Not done, on purpose.** No "Study" line in Last rolls (the brief's default; not worth it yet). The hand layer put away
 hides New roll with the hand, as it hides the hand; the layer dock brings both back.
+
+**OFF1-R1** (the independent reader of #470: no fault in Normal or in any way into a roll; three small faults a player can
+meet, fixed here, the rest left for the next PR's first commits):
+- the badge's "Today: … rolls" counted a running study (`_paintBadge` read `rollLog` alone; the two Last rolls readers had
+  the latch, the badge did not: one question answered in three places, §6.5);
+- New roll sat in the tray, so putting the hand layer away took it too, the only way on (`_syncHandLayer` keeps the tray
+  shown while it holds New roll);
+- its style wrote `font:600 14px/1 inherit`, which drops the whole shorthand (`inherit` is not allowed inside it), so it
+  wore the browser's button type.
+Pinned in `opponent-off.spec.ts`; the pre-fix app is red at the badge and at the type (the hand-layer assertion follows the
+type and was not reached by that control). Two comments corrected: the value module may still load through its other
+callers (no solve is asked), and an entry's "Works" is priced from where the player stands (24 of 260 no-gi entries differ
+from the Submit % once in, the reader's measure). Left, listed in reports/oppoff.md: the defender seat's escape, the
+ledger, the win bar's Normal control and the drawer's roll count are not pinned; the game-plan panel still models an
+opponent in a study; a capstone left through free roam still holds `_beltTest` (older, Normal too).
