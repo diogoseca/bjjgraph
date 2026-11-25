@@ -5257,8 +5257,10 @@ class Component extends DCLogic {
     for (const [dk, q] of r.carried) if (gone[dk] && gone[dk][q]) { delete gone[dk][q]; if (!Object.keys(gone[dk]).length) delete gone[dk]; decks.add(dk); }
     for (const dk of decks) this._goneSave(dk);
     this._cardCarry = true;
-    if (r.rows || decks.size) this._publishKnowledge("card-carry");
-    this._saveProgress();
+    if (r.rows || decks.size) { this._publishKnowledge("card-carry"); this._saveProgress(); }
+    // nothing carried (a record from before the rewrite with no reworded card): the marker is kept on THIS browser only, so it
+    // never fetches again, and reaches the cloud with the next save; a carry that moved nothing pushes nothing
+    else if (this._progressCurrent() && this._progressHost && this._progressHost.persist) this._progressHost.persist(this, this._progressBlob());
     return { status: "applied", why, rows: r.rows, carried: r.carried.length };
   }
   _hydrateProgressBlob(p) {

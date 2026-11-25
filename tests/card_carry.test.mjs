@@ -10,7 +10,8 @@
 //      input untouched, and a second run changes nothing, byte for byte.
 //   4. A GUEST carries its own copy on load; every reading rises or stays (mastery, the glyph, recall, score, due, stage);
 //      the record saved holds the marker and the old rows.
-//   5. AN UNTOUCHED GUEST: nothing fetched, nothing written, no try counted.
+//   5. AN UNTOUCHED GUEST: nothing fetched, nothing written, no try counted. 5b. A record from before the rewrite with no
+//      reworded card: one fetch, nothing carried, the marker kept on this browser only (no save, so no push), never again.
 //   6. PULL BEFORE WRITE: a signed-in owner carries only on a copy a successful pull for that user merged.
 //   7. A FAILURE (a file missing, the wrong file) leaves the record exactly as it was; the next boot tries again; ten a browser.
 //   8. DONE IS DONE; a browser whose OWN copy was unmarked and held old rows runs once more and changes nothing.
@@ -79,7 +80,10 @@ function boot(blob, { owner = { kind: "guest" }, load = true } = {}) {
   a._saveProgress = () => { saved.push(clone(a._progressBlob())); }; a._flushSave = () => {}; a.renderTutorial = () => {}; a.renderChallengeCue = null;
   a.setEvent = () => {}; a.setDeckOpen = () => {}; a._applyLayers = () => {}; a._gameValueChanged = () => {};
   a._rebuildRulesetMask = () => {}; a.weakSpots = () => null; a._progressCurrent = () => true; a._knowledgeEffect = () => {};
-  a._progressHost = { goneRead: () => clone(marks), goneWrite: (_i, m, deck) => { if (m[deck]) marks[deck] = clone(m[deck]); else delete marks[deck]; return clone(marks); } };
+  const persisted = [];
+  a._progressHost = { goneRead: () => clone(marks), goneWrite: (_i, m, deck) => { if (m[deck]) marks[deck] = clone(m[deck]); else delete marks[deck]; return clone(marks); },
+    persist: (_i, b) => { persisted.push(clone(b)); return { status: "saved" }; } };
+  a.__persisted = persisted;
   a._progressOwner = owner; a._progressOwnerStamp = { owner, epoch: 1 };
   a._progressBootBlob = { v: 2, belts: { won: {} }, ...clone(blob) };
   a.__saved = saved; a.__marks = marks;
@@ -182,6 +186,18 @@ test("5. an untouched guest: nothing fetched, nothing written, no try counted", 
   const recent = boot({ srs: { [DECK]: { [P[0][1]]: [20790, 3, 20760] } }, stage: { [DECK]: { [P[0][1]]: 1 } } });
   assert.equal(recent._carryP, undefined, "a record begun after the rewrite never fetches");
   assert.equal(ngProgressPracticeKey({ v: 2 }), ngProgressPracticeKey({ v: 2, cardCarry: 1 }), "the marker is not practice");
+});
+
+test("5b. a record from before the rewrite with no reworded card: one fetch, nothing carried, the marker kept on this browser, no push", async () => {
+  const card = CARDS[DECK].cards.find((c) => !P.some(([, n]) => H(c.q) === n));
+  const a = boot({ stage: { [DECK]: { [H(card.q)]: 2 } }, srs: { [DECK]: { [H(card.q)]: [SEPT + 3, 3, SEPT] } } });
+  const r = await a._carryP;
+  assert.deepEqual([r.status, r.rows], ["applied", 0]);
+  assert.equal(a.__saved.length, 0, "no save, so no push");
+  assert.equal(a.__persisted.at(-1).cardCarry, 1, "the marker, on this browser");
+  fetched.length = 0;
+  assert.equal(boot(a.__persisted.at(-1))._carryP, undefined, "and never again");
+  assert.equal(fetched.length, 0);
 });
 
 test("6. pull before write: a signed-in owner carries only on a copy a successful pull merged", async () => {
