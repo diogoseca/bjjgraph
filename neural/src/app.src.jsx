@@ -1765,7 +1765,7 @@ class Component extends DCLogic {
     // every visitor a zero belt for as long as it took to arrive.
     fetch("curriculum.json")
       .then((cr) => (cr.ok ? cr.json() : null))
-      .then((c) => { if (this._progressCurrent() && c && c.belts && c.belts.length) { this.curriculum = c; this._onCurriculum(); } })
+      .then((c) => { if (this._progressCurrent() && c && c.belts && c.belts.length) { this.curriculum = c; this._onCurriculum(); this._carryMaybe("curriculum"); } })
       .catch(() => { /* optional payload */ });
     // Systems (the authored course library) are DEFERRED: nothing on the roll path reads them —
     // only the Explore tab and the system buckets do — so 324KB has no business being on the
@@ -5190,9 +5190,73 @@ class Component extends DCLogic {
   _progressLocalKey(field) { return ngProgressLocalKey(this._progressOwner, field); }
   _loadProgress() {
     if (!this._progressHost || !this._progressOwnerStamp) throw new Error("Progress owner is not installed");
+    // CARD1-S3: what THIS browser's own copy held before any pull, for the carry (`_carryNeed`)
+    const own = this._progressBootBlob;
+    this._carryLocal = { done: !!own && ngCarryDone(own.cardCarry), may: !!own && ngCarryDecks(own).size > 0 };
     this._hydrateProgressBlob(this._progressBootBlob);
     delete this._progressBootBlob;
     this._progressLoaded = true;
+    this._carryMaybe("load");
+  }
+  // ═══ THE ONE-TIME CARRY (CARD1-S3, v1.304.0): the grades and schedules v1.182.2's rewrite left under old keys, given back to
+  // the card's key today, once, additively (the rule, the dates test, the bound and the frozen marker: progress-owner.src.js
+  // above NG_CARRY_BEFORE). When:
+  //   · AFTER THE PULL, BEFORE ANY WRITE OF ITS OWN. A signed-in owner carries only on a copy merged with the cloud by a
+  //     successful pull for that user (`_pulled`), so it never writes a copy the cloud has not been merged into; a guest
+  //     carries its own copy as it loads; a local-only bind waits for its pull. Called at the load, when curriculum.json
+  //     (the carry's id and file count, `cardCarry`) lands, and after every successful pull; a call that cannot run yet
+  //     does nothing.
+  //   · ONCE: never on a copy marked done (`cardCarry: 1`), except when THIS browser's own copy was not marked and held rows
+  //     the rewrite may have orphaned (`_carryLocal`): a browser that never synced since September may hold rows the device
+  //     that carried never saw. Its run changes nothing the first run carried (a second run is a no-op, byte for byte).
+  //   · ONE ATTEMPT A BOOT, NG_CARRY_TRIES A BROWSER (`_carryTried`, NG_CARRY_TRIES_KEY). Any failure (a file missing, not the
+  //     one asked for, malformed, the owner gone meanwhile) applies nothing.
+  // What a player sees: the numbers rise at once (grades, mastery, the belt, the map's gold, the due count, Master the game),
+  // through the same publish a pull makes, with no message (the orchestrator's ruling). tests/card_carry.test.mjs.
+  _carryNeed() {
+    if (this._carryTried || this._carryBusy || !this._progressLoaded || !this._progressCurrent() || this._progressLocalOnly) return false;
+    const c = this.curriculum && this.curriculum.cardCarry;
+    if (!c || typeof c.id !== "string" || !Number.isInteger(c.n)) return false;
+    const o = this._progressOwner;
+    if (o && o.kind === "account" && !(this._pulled && this._pulledUserId && this._pulledUserId === this._authUserId)) return false;
+    if (this._cardCarry) { const L = this._carryLocal; if (!L || L.done || !L.may) return false; }
+    return ngCarryDecks({ srs: this.srs, stage: this.stage }).size > 0;
+  }
+  _carryMaybe(why) {
+    if (!this._carryNeed()) return null;
+    let tries = 0;
+    try { tries = Number(localStorage.getItem(NG_CARRY_TRIES_KEY)) || 0; } catch (e) { return null; }   // no storage: no carry
+    if (tries >= NG_CARRY_TRIES) return null;
+    try { localStorage.setItem(NG_CARRY_TRIES_KEY, String(tries + 1)); } catch (e) { return null; }
+    this._carryTried = true; this._carryBusy = true;
+    const c = this.curriculum.cardCarry, stamp = this._progressOwnerStamp, hash = (t) => this.qhash(t);
+    const files = ngCarryFiles(ngCarryDecks({ srs: this.srs, stage: this.stage }), c.n, hash);
+    const get = (i) => fetch(this._dataBase() + "carry/" + i + ".json?carry=" + encodeURIComponent(c.id))
+      .then((r) => (r.ok ? r.json() : null)).catch(() => null);
+    const p = Promise.all(files.map(get)).then((bodies) => {
+      if (!this._progressCurrent() || this._progressOwnerStamp !== stamp) return { status: "owner-changed" };
+      const pairs = new Map();
+      for (let k = 0; k < files.length; k++) {
+        const m = ngCarryRead(bodies[k], { id: c.id, n: c.n, i: files[k] });
+        if (!m) return { status: "bad-file", file: files[k] };
+        for (const [h, v] of m) pairs.set(h, v);
+      }
+      return this._carryApply(pairs, why);
+    }).catch(() => ({ status: "failed" })).finally(() => { this._carryBusy = false; });
+    this._carryP = p;
+    return p;
+  }
+  _carryApply(pairs, why) {
+    const r = ngCarryApply({ stage: this.stage, srs: this.srs }, pairs, (t) => this.qhash(t), this._epochDay(), ngKnowledgeMergeRow);
+    if (r.rows) { this.stage = r.stage; this.srs = r.srs; }
+    // this browser's gone marks on a grade the carry just made live (the marker is this browser's: `_pruneStaleGrades`)
+    const gone = this.stageGone || {}, decks = new Set();
+    for (const [dk, q] of r.carried) if (gone[dk] && gone[dk][q]) { delete gone[dk][q]; if (!Object.keys(gone[dk]).length) delete gone[dk]; decks.add(dk); }
+    for (const dk of decks) this._goneSave(dk);
+    this._cardCarry = true;
+    if (r.rows || decks.size) this._publishKnowledge("card-carry");
+    this._saveProgress();
+    return { status: "applied", why, rows: r.rows, carried: r.carried.length };
   }
   _hydrateProgressBlob(p) {
     if (p !== null) ngProgressValidateBlob(p);
@@ -5225,6 +5289,8 @@ class Component extends DCLogic {
       // synced `stageGone` a record already carries is ignored and kept as it is, through `_progressExtras`); a merge's own
       // staging instance has no host and reads none
       this.stageGone = this._goneLoad();
+      // CARD1-S3: the carry's done marker (`cardCarry: 1`, frozen: progress-owner.src.js above NG_CARRY_BEFORE)
+      this._cardCarry = ngCarryDone(p.cardCarry);
       this.units = Object.assign({}, p.units || {});
       this.belts = Object.assign({ won: {} }, p.belts || {});
       this.belts.won = Object.assign({}, (p.belts || {}).won || {});
@@ -5294,6 +5360,7 @@ class Component extends DCLogic {
     // `openAt` and `recallCarry` (v1.270.0, U163 c) once set; an older client keeps both through `_progressExtras`
     if (this._openAt > 0) out.openAt = this._openAt;
     if (this._recallCarry) out.recallCarry = true;
+    if (this._cardCarry) out.cardCarry = NG_CARRY_DONE;   // CARD1-S3: the carry's done marker, never removed
     return out;
   }
   _saveProgress() {
@@ -6624,7 +6691,7 @@ class Component extends DCLogic {
     if (bucket === "weak") { const w = this.weakSpots(); return (w.keys || []).slice(); }
     if (bucket === "suggested" || bucket === "new") return this.newTechniques();
     if (bucket === "reviewing") return keys.filter((k) => prep[k] > 0 && prep[k] < 3);
-    if (bucket === "due") return ngGameplanDebt({ srs: this.srs, day: this._epochDay(), decks: this._gameplanDecks() }).rows.map((r) => r.key);
+    if (bucket === "due") return ngGameplanDebt({ srs: this._srsOwed(), day: this._epochDay(), decks: this._gameplanDecks() }).rows.map((r) => r.key);
     return keys;
   }
   // One host seam for the pure planner. Shared manifest hashes keep workload
@@ -6809,7 +6876,7 @@ class Component extends DCLogic {
     const stamp = this._gameplanStamp(), game = this._ratingGame(this._giMode === "nogi" ? "nogi" : "gi");
     const plan = this._gameplanRuntime.ngGameplanBuild({ day: this._epochDay(), ruleset: this._giMode || "gi",
       revision: this._knowledgeRevision || this._stageVer || 0, stamp,
-      target: this.practiceGoal(), decks: this._gameplanDecks(true), srs: this.srs,
+      target: this.practiceGoal(), decks: this._gameplanDecks(true), srs: this._srsOwed(),
       provider: this._gameplanProvider, fallback: this._gameplanWeakFallback(),
       // the rating's live set, only when it is already in hand (never fetched for this): a question its deck no longer has
       // is dropped and counted, and only a card known to be answerable takes one of the guard's places (ANKI1-R1, finding 2)
@@ -7221,7 +7288,7 @@ class Component extends DCLogic {
     // replaces its answer DOM or its grade identity. A new explicit visit starts afresh.
     let s = this._session;
     if (!s?.practice) {
-      const review = { ...ngGameplanDebt({ srs: this.srs, day: this._epochDay(), decks: this._gameplanDecks() }), day: this._epochDay() };
+      const review = { ...ngGameplanDebt({ srs: this._srsOwed(), day: this._epochDay(), decks: this._gameplanDecks() }), day: this._epochDay() };
       const keys = review.rows.map(r => r.key);
       if (!keys.length) {
         // a STARTING POINT, not a gate (U163 c kept it): with nothing owed and the planner not here yet, the first open
@@ -7355,7 +7422,7 @@ class Component extends DCLogic {
     if (!old || old.order !== "worth") this._practiceGuard(s);
     this.hydrateDecks(s.keys).then(() => {
       if (this._session !== s || !this._sessionInline()) return;
-      s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks(), this.srs);
+      s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks(), this._srsOwed());
       this._paintGameplanProgress(s);
     });
   }
@@ -7420,7 +7487,7 @@ class Component extends DCLogic {
   // on as long as the player does: no plan lands on it (`_practiceAppend`), and its count stays inside the fold.
   _openOwedPractice() {
     const prev = this._session, day = this._epochDay();
-    const review = { ...ngGameplanDebt({ srs: this.srs, day, decks: this._gameplanDecks() }), day };
+    const review = { ...ngGameplanDebt({ srs: this._srsOwed(), day, decks: this._gameplanDecks() }), day };
     this._session = { practice: true, owed: true, keys: review.rows.map((r) => r.key), review, idx: 0, anchor: "due", bucket: "plan", origin: prev && prev.origin };
     this.renderSession();
     this.hydrateDecks(this._session.keys);
@@ -7464,7 +7531,7 @@ class Component extends DCLogic {
     if (s.review) {
       // The eager path owns only the frozen review obligation. Learning selection
       // and unbound new-card progress stay exclusively in the deferred planner.
-      const snapshot = s.review, day = this._epochDay(), debt = ngGameplanDebt({ srs: this.srs, day, decks });
+      const snapshot = s.review, day = this._epochDay(), debt = ngGameplanDebt({ srs: this._srsOwed(), day, decks });
       const reviewed = new Set(ngGameplanReviewed(this.srs, snapshot.day)), owed = new Set(debt.questions);
       const resolved = (q) => reviewed.has(q) && !owed.has(q);
       const rows = snapshot.rows.map((r) => {
@@ -7476,8 +7543,8 @@ class Component extends DCLogic {
         complete: day === snapshot.day && !debt.count && completed === snapshot.count,
         newDebt: debt.questions.filter((q) => !snapshot.questions.includes(q)), blocked: debt.blocked });
     }
-    s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, decks, this.srs);
-    return (s.live = this._gameplanRuntime.ngGameplanProgress(s.plan, { srs: this.srs, day: this._epochDay(), decks }));
+    s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, decks, this._srsOwed());
+    return (s.live = this._gameplanRuntime.ngGameplanProgress(s.plan, { srs: this._srsOwed(), day: this._epochDay(), decks }));
   }
   _sessionRowDone(s, key) {
     if (s.plan || s.review) {
@@ -8759,6 +8826,7 @@ class Component extends DCLogic {
   }
   _mergeProgressFields(cloud) {
     this._progressExtras = Object.assign({}, cloud, this._progressExtras || {});
+    this._cardCarry = !!this._cardCarry || ngCarryDone(cloud && cloud.cardCarry);   // CARD1-S3: done on either copy is done
         const prep = this.prep || {}, days = this._days || {};
         for (const k in (cloud.prep || {})) prep[k] = Math.max(prep[k] || 0, cloud.prep[k] || 0);
         for (const d in (cloud.days || {})) days[d] = Math.max(days[d] || 0, cloud.days[d] || 0);
@@ -8961,6 +9029,7 @@ class Component extends DCLogic {
       // pushes nothing of the guest's; the next successful pull joins. Below: the push carries the joined practice.
       this._joinGuestPractice();
       this._saveProgress();         // persist verified merge; then push only if the merge differs from what the cloud gave
+      this._carryMaybe("pull");     // CARD1-S3: after the pull, never before it
       return true;
     } catch (e) {
       if (current()) { this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "pull-failed"; }
@@ -15137,14 +15206,23 @@ class Component extends DCLogic {
   // Nothing stored changes. Pinned by tests/due_count_live.test.mjs (equal to what the planner can ask) and
   // e2e/journeys/due-count-retired.spec.ts (the drawer's dot and "Everything owed").
   duePool() {
-    const today = this._epochDay();
+    const today = this._epochDay(), S = this._srsOwed();
     const out = [];
-    for (const dk in this.srs || {}) {
-      const m = this.srs[dk];
+    for (const dk in S || {}) {
+      const m = S[dk];
       for (const qh in m) { const e = m[qh]; if (e && e[0] <= today && e[2] < today && this._rowLive(dk, qh) !== false) out.push({ key: dk, qh: qh }); }
     }
     return out;
   }
+  // THE PACING SEAM (CARD1-S3, v1.304.0): every reader of what is OWED (this pool and so the due count, the planner's debt,
+  // its plan, its bind and progress, Master the game's owed cards in master-list.src.js) takes the schedule through here,
+  // and the rating, the record and every "answered" reading take `this.srs` itself. It is the ONE place that would ask
+  // "is this carried row owed yet": the owner's U222 decides (a) all at once, which is this (the schedule as stored, the
+  // carried rows owed by their own due days), or (b) the carried rows paced, which would hand back a copy in which a carried
+  // row not yet released reads due on its release day. Never a copy WITHOUT the row: the planner reads a question with no
+  // row as a new card. (b)'s data would be a stamped settings key, never the frozen marker (progress-owner.src.js above
+  // NG_CARRY_BEFORE). Pinned by tests/card_carry.test.mjs (every owed reader goes through it).
+  _srsOwed() { return this.srs; }
   /** CAN A DUE ROW'S QUESTION STILL BE ASKED? true, false (retired), or null (not known yet), read per QUESTION as the planner
    *  files one (`ngPracticeItems`: a question asked at its home deck with the latest of its rows, wherever they sit), with
    *  the rating's own three-way test for each deck (`ngRatingShare`'s `isLive`, the queue's `liveIn`, PR #405). A shared
