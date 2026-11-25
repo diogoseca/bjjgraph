@@ -206,9 +206,15 @@ function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity
   //     no-gi; tests/opp_finish_chance.test.mjs). Label-neutral: opponent rows read no player knowledge, so no study read is
   //     added, removed or moved. Measured: regenerated before and after, every MDP shard part byte-identical; only provenance
   //     hashes and the variants' mechanicsHash moved (docs/Changelog-Archive.md, v1.300.2).
+  //   - CARD1-S2 (v1.303.0; the owner's U220 a, 25 Nov 2026), the KNOWLEDGE pin (from 19460d…): a card is filed under its
+  //     KEY (`ngKnowledgeCardKey`: its wire `k`, else its question's hash) in the grade (`ngKnowledgeApplyGrade`) and the
+  //     shared lookup (`ngKnowledgeSharedDecks`), and the session's credited set holds keys. Label-neutral: the grade is the
+  //     app's alone, none of the eight knowledge laws the worker binds (game-bundles.mjs `knowledgeNames`) nor the adapter's
+  //     override changed, and the MDP reads no card. Measured: regenerated before and after, every MDP shard part
+  //     byte-identical; only provenance hashes and the variants' mechanicsHash moved (docs/Changelog-Archive.md, v1.303.0).
   // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
   // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
-  const expected={adapter:'7fc8263e15a907b08fd0c70342fb50d943ea3f8add29e48f7053c9b200c33b04',knowledge:'19460dc51c7c4a57885457bbf3ddc7e07f96d143af95acaa79e652df6d13b955',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
+  const expected={adapter:'7fc8263e15a907b08fd0c70342fb50d943ea3f8add29e48f7053c9b200c33b04',knowledge:'9d15d6da94e1fec4b95e5b235416fe561fbfdd585c8ba3f542069bbd460b5518',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
   if(Object.entries(expected).some(([key,hash])=>lawHashes?.[key]!==hash))ngMdpExposureFail('unsupported-exposure-label-law');
   if(metadata?.coverage?.status!=='COMPLETE'||metadata.ruleset!==request.ruleset||profile?.status!=='ready'||profile.fingerprint!==request.profileHash||typeof knowledge.ngKnowledgeOverride!=='function')ngMdpExposureFail('incomplete-exposure-adapter-context');
   const contractHash=M.ngMdpContractHash(request),metadataHash=M.ngMdpDigest(metadata);

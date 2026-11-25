@@ -11,5 +11,5 @@ test("the content bot puts back every existing flashcard question the model chan
     encoding: "utf8",
   });
   assert.equal(result.status, 0, result.stdout + result.stderr);
-  assert.match(result.stderr, /Ran 12 tests/, "premise: all twelve cases ran");
+  assert.match(result.stderr, /Ran 23 tests/, "premise: all twenty-three cases ran (twelve, CARD1-S2's six on ids, and R1's five)");
 });

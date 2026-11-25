@@ -532,7 +532,8 @@ test("a card right twice asks front and back in a roll under Auto; a belt decide
     a._bumpStage(q.key, q.card.q, 2, 2)
     // questionFor re-asks a proven card only when DUE — pin the due seam to this card
     const provenQ = q.card.q
-    a._cardDue = (k: string, qq: string) => qq === provenQ
+    // the app hands `_cardDue` the card since v1.303.0 (CARD1-S2, `cardKey`): a text from an older caller still reads
+    a._cardDue = (k: string, qq: any) => (qq && typeof qq === "object" ? qq.q : qq) === provenQ
     a._landQ = null
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })

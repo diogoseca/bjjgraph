@@ -8,6 +8,14 @@ answer built from it. Run by tests/question_restore.test.mjs (in the units).
 MUTANTS, each run alone against a clean 12 of 12: step 2 (the same answer) removed → 1 red ("…also moved…"; until that
 case was added the position step hid it, a survivor); step 4 (a deleted card put back) removed → 1 red; the original
 order not kept → 5 red.
+IDS (CARD1-S2, v1.303.0; the last six cases): a card's `id` is its key (scripts/_card_key.py), never the model's to write:
+an existing card leaves with its original's id (put back if dropped or changed, removed if invented), a new card with none;
+`keep_rewords` (off in the bot, `BOT_KEEPS_REWORDS`) keeps a reword found by its answer and writes the old text's key.
+Mutants: `_carry_id` not called at step 1 → "dropped"/"changed"/"invented" red; the new cards' ids kept → "a new card";
+the kept reword not given its key → "keep_rewords".
+CARD1-S2-R1 (the next five): an id in a NEW, an EMPTY or a NESTED array is removed too; an original's id survives that
+last strip; the schema the model is shown declares no card id. Mutants: the last strip removed → "new array", "empty
+array", "nested" red; a card put back whole left out of `carried` → "survives"; `_CARD_ID_SHOWN` not applied → "shown".
 """
 import copy
 import json
@@ -17,7 +25,8 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from regenerate_content_json import restore_questions  # noqa: E402
+from regenerate_content_json import BOT_KEEPS_REWORDS, restore_questions  # noqa: E402
+from _neural_content import fnv1a32  # noqa: E402
 
 RECORD = ROOT / "content" / "Transitions" / "100% Sweep.json"
 
@@ -119,6 +128,113 @@ class RestoreQuestions(unittest.TestCase):
         self.assertEqual(restore_questions(self.orig, self.fixed), 1)
         restore_mc(self.orig, self.fixed)
         self.assertEqual(self.fixed["attacker"]["flashcards"][1], self.orig["attacker"]["flashcards"][1])
+
+    # ── IDS (CARD1-S2) ──
+    def with_id(self):
+        """the record as it stands once a card was reworded with its key: attacker card 1 carries an id"""
+        o = self.orig["attacker"]["flashcards"][1]
+        o["id"] = fnv1a32(o["question"]); o["question"] = "Reworded once, keeping its key?"
+        self.fixed = copy.deepcopy(self.orig)
+        return o
+
+    def test_an_id_the_model_dropped_comes_back(self):
+        o = self.with_id()
+        del self.fixed["attacker"]["flashcards"][1]["id"]
+        self.assertEqual(restore_questions(self.orig, self.fixed), 0)
+        self.assertEqual(self.fixed["attacker"]["flashcards"][1]["id"], o["id"])
+
+    def test_an_id_the_model_changed_is_put_back(self):
+        o = self.with_id()
+        self.fixed["attacker"]["flashcards"][1]["id"] = "0badc0de"
+        restore_questions(self.orig, self.fixed)
+        self.assertEqual(self.fixed["attacker"]["flashcards"][1]["id"], o["id"])
+
+    def test_an_id_the_model_invented_on_an_existing_card_is_removed(self):
+        self.fixed["attacker"]["flashcards"][2]["id"] = "0badc0de"
+        restore_questions(self.orig, self.fixed)
+        self.assertEqual(self.fixed, self.orig)
+
+    def test_a_new_card_carries_no_id(self):
+        new = {"question": "What does a new card ask?", "answer": "It asks something no card asks.", "id": "0badc0de"}
+        self.fixed["attacker"]["flashcards"].append(new)
+        restore_questions(self.orig, self.fixed)
+        self.assertNotIn("id", self.fixed["attacker"]["flashcards"][-1])
+
+    def test_a_restored_reword_keeps_the_cards_id(self):
+        o = self.with_id()
+        c = self.fixed["attacker"]["flashcards"][1]
+        c["question"] = "Reworded again by the model?"; del c["id"]
+        self.assertEqual(restore_questions(self.orig, self.fixed), 1)
+        self.assertEqual(self.fixed["attacker"]["flashcards"][1], o)
+
+    def test_keep_rewords_keeps_the_models_question_under_the_old_key(self):
+        self.assertIs(BOT_KEEPS_REWORDS, False, "the bot restores every reword until the orchestrator says otherwise")
+        old = self.orig["attacker"]["flashcards"][2]["question"]
+        c = self.fixed["attacker"]["flashcards"][2]
+        c["question"] = "Shorter, kept: what does it ask?"
+        p = self.fixed["attacker"]["flashcards"][3]
+        p["question"] = "A new way to ask?"; p["answer"] = "A new answer, at length, for the new way."
+        self.assertEqual(restore_questions(self.orig, self.fixed, keep_rewords=True), 2)
+        got = self.fixed["attacker"]["flashcards"]
+        self.assertEqual((got[2]["question"], got[2]["id"]), ("Shorter, kept: what does it ask?", fnv1a32(old)))
+        self.assertEqual(got[3], self.orig["attacker"]["flashcards"][3], "a reword found only by its place is restored either way")
+
+    # CARD1-S2-R1 (the PR #469 read, F1): the walk pairs only the ORIGINAL's non-empty arrays, so an id the model wrote in an
+    # array the original lacks, or held empty, survived it; the bot's PRs run no ci-validate, and the gate passes such a
+    # card as "a new card with an id of its own". Every card no original accounts for leaves with no id, in any array.
+    NEW_ID = {"question": "What does a new card in a new place ask?", "answer": "Something no card asks yet.", "id": "feedface"}
+
+    def test_an_id_in_a_new_array_is_removed(self):
+        self.fixed["attacker"]["flashcards_position"] = [dict(self.NEW_ID)]        # a role-level array the original lacks
+        self.fixed["flashcards"] = [dict(self.NEW_ID, id="cafebabe")]              # and one at the root
+        restore_questions(self.orig, self.fixed)
+        self.assertNotIn("id", self.fixed["attacker"]["flashcards_position"][0])
+        self.assertNotIn("id", self.fixed["flashcards"][0])
+        self.assertEqual(self.fixed["attacker"]["flashcards"], self.orig["attacker"]["flashcards"], "the existing deck untouched")
+
+    def test_an_id_in_an_empty_array_is_removed(self):
+        self.orig["defender"]["flashcards"] = []
+        self.fixed = copy.deepcopy(self.orig)
+        self.fixed["defender"]["flashcards"].append(dict(self.NEW_ID))
+        restore_questions(self.orig, self.fixed)
+        self.assertEqual(self.fixed["defender"]["flashcards"], [{k: v for k, v in self.NEW_ID.items() if k != "id"}])
+
+    def test_an_id_in_a_nested_new_array_is_removed(self):
+        self.fixed["attacker"]["tiers"] = [{"name": "Advanced", "flashcards": [dict(self.NEW_ID)]}]
+        restore_questions(self.orig, self.fixed)
+        self.assertNotIn("id", self.fixed["attacker"]["tiers"][0]["flashcards"][0])
+
+    def test_an_originals_id_survives_the_last_strip_put_back_whole(self):
+        o = self.with_id()
+        del self.fixed["attacker"]["flashcards"][1]                              # a card deleted: put back whole (step 4)
+        restore_questions(self.orig, self.fixed)
+        self.assertEqual(self.fixed["attacker"]["flashcards"][1], o)
+        self.fixed = copy.deepcopy(self.orig)
+        del self.fixed["attacker"]["flashcards"]                                 # the whole array dropped: put back whole
+        restore_questions(self.orig, self.fixed)
+        self.assertEqual(self.fixed["attacker"]["flashcards"][1], o)
+
+    def test_the_schema_the_model_is_shown_has_no_card_id(self):
+        import os
+        import re
+        import regenerate_content_json as R
+        here = os.getcwd()
+        os.chdir(ROOT)                                                           # the loader reads templates/ relative
+        try:
+            removed = 0
+            for cat, t in (("Positions", "SINGLE"), ("Positions", "DUAL"), ("Positions", "FAMILY"), ("Transitions", "SINGLE"),
+                           ("Transitions", "DUAL"), ("Submissions", "SINGLE"), ("Submissions", "DUAL"),
+                           ("Submissions", "FAMILY"), ("Principles", None), ("Systems", None), ("Learning", None)):
+                raw = R.get_template_path(cat, t).read_text()
+                shown = R.get_template_content(cat, t)
+                json.loads(shown)                                                # still a schema
+                declared = raw.count('"pattern": "^[0-9a-f]{8}$"')
+                self.assertNotIn("^[0-9a-f]{8}$", shown, f"{cat}/{t}: the card id is still shown")
+                self.assertEqual(shown.count('"id"'), raw.count('"id"') - declared, f"{cat}/{t}: only the card id goes")
+                removed += declared
+            self.assertEqual(removed, 13, "every card-id property the nine schemas declare was found and hidden")
+        finally:
+            os.chdir(here)
 
 
 if __name__ == "__main__":

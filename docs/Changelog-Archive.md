@@ -22436,3 +22436,120 @@ counted in a study by design. `commit` fired and "Execute a move" stayed undone.
 because a page arrival's own hand emits no `options_dealt` (the reader's arrival holds it). Pinned by name in
 `opponent-off.spec.ts` ("a new guest's first study move…", a guest with nothing stored, the real press and a reload); with
 "commit" counted in a study it is red.
+
+## v1.303.0 — A card keeps its key (CARD1-S2; the owner's U220 a, "a short unique hash key", 25 Nov 2026)
+
+**Why** (CARD1, Part A′). A card's progress (`stage`, `srs`, the undelivered-answer journal, its place in the manifest's
+shared index, the live files) was filed under the FNV-1a of its exact question, so any rewording reset the card for every
+player (the v1.182.2 sweep orphaned 10,679 questions, DUE1). It is now filed under the card's KEY: `k` when the wire
+carries one, else the question's hash.
+
+**The key:**
+- **Content:** a flashcard MAY carry `id` (8 lowercase hex). Every flashcard schema in `templates/` accepts it. It is
+  written once, by whatever rewords the question, as the key of the text it replaces, and never changes after.
+- **graph.json:** carries it (`regenerate_graph.py` `_qa_id`).
+- **The neural emitter:** writes it to the wire as `k`, ONLY when it differs from the question's hash (`_qa_cards`). It
+  files every card by `_card_key` in the shared index and the live files.
+  - In the shared index, a key whose texts all hash to it keeps the old rule to the letter, so the index is byte-identical
+    with no ids. A key under two wordings counts all its slots together.
+  - It refuses a wire deck in which one key is held by two different questions and one of them carries `k`
+    (`_card_key_census`, printed every run).
+- **The app** keys a card by `cardKey(c)` = `c.k` (8 hex) or `qhash(c.q)`, at the 23 sites that keyed a card by its text.
+  The text-taking helpers (`cardStage`, `_cardDue`, `_schedule`, `_bumpStage`, `_sharedDecksFor`, `_cardStageShared`)
+  take the card, or still a text (the rails and the journeys pass one), which reads as its hash. The resident-deck
+  fallback of `_sharedDecksFor` and the session latch `cardDone` go by the key too. `cardDone` is never stored.
+- **The knowledge law** (`ngKnowledgeCardKey`): the grade (`ngKnowledgeApplyGrade`) and the shared lookup
+  (`ngKnowledgeSharedDecks`, and its legacy scan) key by the card, and `creditedQuestions` holds keys.
+  - **The law's pin moves:** the exposure law's `expected.knowledge` (`mdp-exposure.src.js`, with its history line) and
+    its unit's fixture, 19460d… → 9d15d6…. It is label-neutral: the grade is the app's alone, and none of the eight
+    knowledge laws the worker binds changed.
+  - **Measured:** the MDP regenerated before and after, and every shard part is byte-identical. Only provenance hashes
+    (the emitter, gameplay, knowledge-law, model and source hashes) and the two variants' `mechanicsHash` moved. The MDP
+    reads no card.
+- **Unchanged, by design:** the UI's own lookups inside one loaded deck (`c.q === card.q`), which never cross a rewording.
+
+**The tools** (CARD1 slice 1's tools half):
+- **The gate, `scripts/check_card_keys.py`,** runs in ci-validate with `--baseline-ref HEAD^1`.
+  - It checks every flashcards array as it stands: a malformed id fails, and so does one key held by two different
+    questions.
+  - It pairs every card at the base with the working tree's (`_card_key.pair_changes`): by its key; or else the same
+    question (an id dropped or changed); or the same answer, or the same place (a question reworded without its id).
+    Each such fault fails, naming the id to write.
+  - A card deleted or added passes, counted. A new card with an id of its own declares itself another card.
+  - It prints a positive count, and fails on no content, on an unknown base, and on zero cards compared. A file the
+    base's tree does not list is never counted as compared (`git diff` shows no untracked file: found by its own unit).
+- **`rewrite_questions.py`** writes `id` = the replaced text's hash before a question changes, and keeps an existing id.
+  It refuses a rewording that would split one key between two questions.
+- **The bot's `restore_questions`:**
+  - every existing card leaves with its original's id;
+  - an id the model invented is removed, from an existing card or a new one;
+  - a reword found by its answer is put back, as before. With `keep_rewords`, it would instead stand under the old key.
+    The bot's `BOT_KEEPS_REWORDS = False`, and the prompt stays "add, never reword" until the orchestrator says otherwise.
+
+**No content file carries an id in this release.** Proof 1:
+- Dev's emitter (0a4a55e70) and this one, on the same inputs, wrote the same 4,976 files byte for byte: every deck chunk,
+  the manifest's shared index, the two live files, graph-data, curriculum and the rest. graph.json is identical but for
+  its timestamp.
+- 100 seeded records ran through dev's code and this one, with no difference in any number a player sees, any saved
+  byte (but the save's clock) or any journal row. The records had 954 grades (100 on shared cards), unanswered reveals,
+  landings, two reboots, a pull each way and the practice key. The sweep was checked against a broken `cardKey`: it
+  finds the break in 3 records.
+
+**Proof 2** (`tests/card_key.test.mjs`, on the real wire): a shared card is graded on its old text, then reworded with
+its key in both decks holding it, and read five days later.
+- On this build it keeps its grade, its schedule and due state, its answer mode and its shared group, and the deck's
+  mastery holds.
+- The prune marks nothing. Its next grade moves its schedule in both decks, under the key, and nothing is filed under
+  the new text's hash.
+- The control, the same rewording with no key, resets all of it.
+
+**What the older builds do with that record and that wire** (measured on each one's own code): **production (v1.298.0)**
+deletes the card's grade when the deck lands. **Dev (v1.301.5)** keeps it, marked gone on that device. On both:
+- the card reads as new and is asked as multiple choice;
+- the deck's mastery falls from 0.067 to 0;
+- the next grade files under the new text's hash, in that deck only;
+- the old schedule stays in the record, unread.
+
+So no content id may ship until production runs this build (slice 4's precondition): a player on both builds would see
+the older one reset the card, and its grades under the new text's hash count for nothing here.
+
+**The escape key** (`"e" + qhash(label)` in `moves`) is the same class, left for its own slice:
+- its label is clipped from the authored `defensive_options[].action` (`submission_choices.py` `short_response`), so an
+  edit to that prose, or to the clip, re-keys its row;
+- its content home has no id;
+- it is another stored field, with other readers.
+
+**Tests (all in the units):**
+- `card_key.test.mjs`: one rule in three places, proof 2, and the emitter half `card_key_emitter.py`.
+- `card_keys_gate.test.mjs`: the gate on fixture git repositories.
+- `question_restore.py`: six cases on ids.
+- `question_rewrite.test.mjs`: the ids written and kept.
+- `stale_grades_host.test.mjs` test 4: a tab adopts the map `goneWrite` hands back, the reader's last survivor from
+  PR #468.
+- Two journeys' due seams (`answer-mode`, `landcard-modes`) stubbed `_cardDue` by comparing its second argument to the
+  question's text. The app now hands it the card, so the stub matched nothing and the landing asked another, new card
+  (both red on this build's first run). The stubs read the card's question now; no assertion changed.
+
+**Mutants, each red there:**
+- `cardKey` ignoring `k`;
+- the law's `ngKnowledgeCardKey` ignoring `k`;
+- `_sharedDecksFor` by the text;
+- the prune by the text;
+- the law's shared lookup by the text;
+- `k` on every id;
+- the shared index by the text;
+- the live files by the text;
+- the census's refusal removed;
+- the gate's id check, its same-answer step and its zero floor;
+- three of `restore_questions`' id carries;
+- the rewrite's id;
+- the tab's adoption.
+
+**R1, after the sync reader's read of PR #469:**
+- **`restore_questions`** now strips every id the original does not carry, in ANY flashcards array: a new one, an empty
+  one, or a nested one. Before, it walked only the original's non-empty arrays. The schema text the bot is shown leaves
+  `id` out (`_CARD_ID_SHOWN`).
+- **`card_key.test.mjs`** now pins `_rowLive` (test 2b, a card of one deck), the planner's `questions` and
+  `noteCardDone`'s latch, each by the key. `_mcWarmKey` stays unpinned, with the reason in the test's header.
+- **What must hold before the first id** is written in `scripts/check_card_keys.py`'s docstring, under BEFORE THE FIRST
+  ID: the gate's id rule, where it runs, the emitter's text dedupe, `was:`, and the deploy rule.
