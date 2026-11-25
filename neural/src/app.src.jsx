@@ -5208,7 +5208,10 @@ class Component extends DCLogic {
   //     does nothing.
   //   · ONCE: never on a copy marked done (`cardCarry: 1`), except when THIS browser's own copy was not marked and held rows
   //     the rewrite may have orphaned (`_carryLocal`): a browser that never synced since September may hold rows the device
-  //     that carried never saw. Its run changes nothing the first run carried (a second run is a no-op, byte for byte).
+  //     that carried never saw; or when a pull GREW the September rows of a copy that held some (`ngCarryCount`): an older
+  //     build's device, or a guest joined, brought rows in after the carry ran elsewhere. Such a run changes nothing the first
+  //     run carried (a second run is a no-op, byte for byte). LEFT, and said: a FRESH browser (no rows of its own) that pulls
+  //     such late rows does not carry them; the next browser of the account that held rows and pulls them does.
   //   · ONE ATTEMPT A BOOT, NG_CARRY_TRIES A BROWSER (`_carryTried`, NG_CARRY_TRIES_KEY). Any failure (a file missing, not the
   //     one asked for, malformed, the owner gone meanwhile) applies nothing.
   // What a player sees: the numbers rise at once (grades, mastery, the belt, the map's gold, the due count, Master the game),
@@ -9005,6 +9008,7 @@ class Component extends DCLogic {
       if (!empty && (!cloud || typeof cloud !== "object" || Array.isArray(cloud) || ![1, 2].includes(cloud.v))) throw new Error("Unsupported cloud progress");
       // v1.255.2: what the cloud holds now, for _pushCloud's "nothing changed" test. An empty account holds nothing to match.
       const seen = empty ? null : { userId, key: ngProgressCloudKey(cloud) };
+      const carryHeld = ngCarryCount({ srs: this.srs, stage: this.stage });   // CARD1-S3: September rows this copy held before the pull
       if (!empty) {
         // v1.280.2: the cards this copy answered and has not yet delivered are rebuilt on the cloud's rows, never merged
         // (a first right answer given before this pull no longer turns a mature card into one day): `ngProgressReplay`
@@ -9029,7 +9033,11 @@ class Component extends DCLogic {
       // pushes nothing of the guest's; the next successful pull joins. Below: the push carries the joined practice.
       this._joinGuestPractice();
       this._saveProgress();         // persist verified merge; then push only if the merge differs from what the cloud gave
-      this._carryMaybe("pull");     // CARD1-S3: after the pull, never before it
+      // CARD1-S3: after the pull, never before it. A copy that held September rows of its own and now holds MORE (another
+      // device's, never synced until after the carry ran elsewhere, or a guest's joined) carries again: the run is a no-op on
+      // every row already carried, and the new ones come back too
+      if (carryHeld > 0 && ngCarryCount({ srs: this.srs, stage: this.stage }) > carryHeld) this._carryLocal = { done: false, may: true };
+      this._carryMaybe("pull");
       return true;
     } catch (e) {
       if (current()) { this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "pull-failed"; }

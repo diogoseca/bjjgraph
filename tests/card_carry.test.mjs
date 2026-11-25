@@ -19,9 +19,11 @@
 //  11. THE MARKER: written as 1, merged as an OR, kept out of the guest part and the practice key.
 //  12. THE PACING SEAM: every reader of what is owed takes the schedule through `_srsOwed`, and the rating does not.
 //  13. The build half (tests/card_carry_build.py).
+//  14. A PULL THAT GROWS THE SEPTEMBER ROWS of a copy that held some (an older build's device synced late) carries them too;
+//      a pull that brings nothing new starts nothing.
 // MUTANTS (each red here): the merge's direction swapped (old as the local row) -> 3, 4; the marker never written (`_cardCarry`
 // left false) -> 4, 8; the pull-before-write test removed from `_carryNeed` -> 6; a split carried (the generator's split rule
-// dropped) -> 13 ("split"); the tries bound removed -> 7.
+// dropped) -> 13 ("split"); the tries bound removed -> 7; the late-rows rule removed from `_pullAndMerge` -> 14.
 import { test, afterEach } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync, existsSync } from "node:fs";
@@ -282,6 +284,37 @@ test("12. the pacing seam: every reader of what is owed takes the schedule throu
   assert.ok(n >= 1, "premise: a carried row due");
   a._srsOwed = () => ({ ...a.srs, [DECK]: { ...a.srs[DECK], [P[0][1]]: [TODAY + 5, 3, SEPT] } });
   assert.equal(a.dueCount(), n - 1, "duePool reads the seam");
+});
+
+test("14. a pull that brings in MORE September rows (another device's, synced late) carries them too", async () => {
+  // this browser carried its own rows (pair 0) and is marked done; the cloud now also holds pair 1's old row, pushed by a
+  // device that kept it to itself since September
+  const mine = { stage: { [DECK]: { [P[0][0]]: 2 } }, srs: { [DECK]: { [P[0][0]]: [SEPT + 3, 3, SEPT] } } };
+  const a0 = boot(mine);
+  await a0._carryP;
+  const local = a0.__saved.at(-1);
+  assert.equal(local.cardCarry, 1);
+  const cloud = clone(local);
+  cloud.srs[DECK][P[1][0]] = [SEPT + 1, 1, SEPT]; cloud.stage[DECK][P[1][0]] = 1;
+  const a = boot(local, { owner: { kind: "account", id: "u1" } });
+  const A = { neuralSyncVersion: 2, pullNeural: async (id) => ({ userId: id, blob: clone(cloud) }) };
+  Object.assign(a, { _auth: () => A, _authUserId: "u1", _authEpoch: 0, _afterPullLevel: () => {}, _joinGuestPractice: () => {}, _refreshChallengeEvidence: () => {} });
+  fetched.length = 0;
+  assert.equal(await a._pullAndMerge(), true);
+  assert.ok(a._carryP, "the pull started a second carry");
+  const r = await a._carryP;
+  assert.equal(r.status, "applied");
+  assert.deepEqual(a.srs[DECK][P[1][1]], [SEPT + 1, 1, SEPT], "the late row, under today's key");
+  assert.equal(a.stage[DECK][P[0][1]], 2, "the first carry's grade unchanged");
+  // a pull that brings nothing new starts nothing
+  const b = boot(a.__saved.at(-1), { owner: { kind: "account", id: "u1" } });
+  const B = { neuralSyncVersion: 2, pullNeural: async (id) => ({ userId: id, blob: clone(a.__saved.at(-1)) }) };
+  Object.assign(b, { _auth: () => B, _authUserId: "u1", _authEpoch: 0,
+    _afterPullLevel: () => {}, _joinGuestPractice: () => {}, _refreshChallengeEvidence: () => {} });
+  fetched.length = 0;
+  assert.equal(await b._pullAndMerge(), true);
+  assert.equal(b._carryP, undefined);
+  assert.equal(fetched.length, 0);
 });
 
 test("13. the build half: the generator and the emitter (tests/card_carry_build.py)", () => {

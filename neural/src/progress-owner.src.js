@@ -560,6 +560,20 @@ export function ngCarryDecks(blob, before = NG_CARRY_BEFORE) {
   }
   return out;
 }
+// how many rows of a record may hold a key the rewrite orphaned (the same test, counted): a pull that makes this GROW brought
+// in rows another copy kept to itself since September (an older build's device that synced late): carried then, too (the
+// app's `_pullAndMerge`)
+export function ngCarryCount(blob, before = NG_CARRY_BEFORE) {
+  if (!ngProgressObject(blob)) return 0;
+  const srs = ngProgressObject(blob.srs) ? blob.srs : {}, stage = ngProgressObject(blob.stage) ? blob.stage : {};
+  let n = 0;
+  for (const dk of Object.keys(srs)) { const m = srs[dk]; if (ngProgressObject(m)) for (const q of Object.keys(m)) { const r = m[q]; if (Array.isArray(r) && typeof r[2] === "number" && r[2] < before) n++; } }
+  for (const dk of Object.keys(stage)) {
+    const s = stage[dk], m = ngProgressObject(srs[dk]) ? srs[dk] : {};
+    if (ngProgressObject(s)) for (const q of Object.keys(s)) if (s[q] > 0 && !Object.prototype.hasOwnProperty.call(m, q)) n++;
+  }
+  return n;
+}
 // the carry files those decks fall in: a deck is in file int(fnv1a32(deck key), 16) % n (`hash` is the app's qhash)
 export function ngCarryFiles(decks, n, hash) {
   if (!Number.isInteger(n) || n < 1 || n > NG_CARRY_MAX_FILES) return [];
