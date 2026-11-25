@@ -6696,7 +6696,7 @@ class Component extends DCLogic {
     if (bucket === "weak") { const w = this.weakSpots(); return (w.keys || []).slice(); }
     if (bucket === "suggested" || bucket === "new") return this.newTechniques();
     if (bucket === "reviewing") return keys.filter((k) => prep[k] > 0 && prep[k] < 3);
-    if (bucket === "due") return ngGameplanDebt({ srs: this._srsOwed(), day: this._epochDay(), decks: this._gameplanDecks() }).rows.map((r) => r.key);
+    if (bucket === "due") return ngGameplanDebt({ srs: this.srs, day: this._epochDay(), decks: this._gameplanDecks() }).rows.map((r) => r.key);
     return keys;
   }
   // One host seam for the pure planner. Shared manifest hashes keep workload
@@ -6881,7 +6881,7 @@ class Component extends DCLogic {
     const stamp = this._gameplanStamp(), game = this._ratingGame(this._giMode === "nogi" ? "nogi" : "gi");
     const plan = this._gameplanRuntime.ngGameplanBuild({ day: this._epochDay(), ruleset: this._giMode || "gi",
       revision: this._knowledgeRevision || this._stageVer || 0, stamp,
-      target: this.practiceGoal(), decks: this._gameplanDecks(true), srs: this._srsOwed(),
+      target: this.practiceGoal(), decks: this._gameplanDecks(true), srs: this.srs,
       provider: this._gameplanProvider, fallback: this._gameplanWeakFallback(),
       // the rating's live set, only when it is already in hand (never fetched for this): a question its deck no longer has
       // is dropped and counted, and only a card known to be answerable takes one of the guard's places (ANKI1-R1, finding 2)
@@ -7293,7 +7293,7 @@ class Component extends DCLogic {
     // replaces its answer DOM or its grade identity. A new explicit visit starts afresh.
     let s = this._session;
     if (!s?.practice) {
-      const review = { ...ngGameplanDebt({ srs: this._srsOwed(), day: this._epochDay(), decks: this._gameplanDecks() }), day: this._epochDay() };
+      const review = { ...ngGameplanDebt({ srs: this.srs, day: this._epochDay(), decks: this._gameplanDecks() }), day: this._epochDay() };
       const keys = review.rows.map(r => r.key);
       if (!keys.length) {
         // a STARTING POINT, not a gate (U163 c kept it): with nothing owed and the planner not here yet, the first open
@@ -7427,7 +7427,7 @@ class Component extends DCLogic {
     if (!old || old.order !== "worth") this._practiceGuard(s);
     this.hydrateDecks(s.keys).then(() => {
       if (this._session !== s || !this._sessionInline()) return;
-      s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks(), this._srsOwed());
+      s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks(), this.srs);
       this._paintGameplanProgress(s);
     });
   }
@@ -7492,7 +7492,7 @@ class Component extends DCLogic {
   // on as long as the player does: no plan lands on it (`_practiceAppend`), and its count stays inside the fold.
   _openOwedPractice() {
     const prev = this._session, day = this._epochDay();
-    const review = { ...ngGameplanDebt({ srs: this._srsOwed(), day, decks: this._gameplanDecks() }), day };
+    const review = { ...ngGameplanDebt({ srs: this.srs, day, decks: this._gameplanDecks() }), day };
     this._session = { practice: true, owed: true, keys: review.rows.map((r) => r.key), review, idx: 0, anchor: "due", bucket: "plan", origin: prev && prev.origin };
     this.renderSession();
     this.hydrateDecks(this._session.keys);
@@ -7536,7 +7536,7 @@ class Component extends DCLogic {
     if (s.review) {
       // The eager path owns only the frozen review obligation. Learning selection
       // and unbound new-card progress stay exclusively in the deferred planner.
-      const snapshot = s.review, day = this._epochDay(), debt = ngGameplanDebt({ srs: this._srsOwed(), day, decks });
+      const snapshot = s.review, day = this._epochDay(), debt = ngGameplanDebt({ srs: this.srs, day, decks });
       const reviewed = new Set(ngGameplanReviewed(this.srs, snapshot.day)), owed = new Set(debt.questions);
       const resolved = (q) => reviewed.has(q) && !owed.has(q);
       const rows = snapshot.rows.map((r) => {
@@ -7548,8 +7548,8 @@ class Component extends DCLogic {
         complete: day === snapshot.day && !debt.count && completed === snapshot.count,
         newDebt: debt.questions.filter((q) => !snapshot.questions.includes(q)), blocked: debt.blocked });
     }
-    s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, decks, this._srsOwed());
-    return (s.live = this._gameplanRuntime.ngGameplanProgress(s.plan, { srs: this._srsOwed(), day: this._epochDay(), decks }));
+    s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, decks, this.srs);
+    return (s.live = this._gameplanRuntime.ngGameplanProgress(s.plan, { srs: this.srs, day: this._epochDay(), decks }));
   }
   _sessionRowDone(s, key) {
     if (s.plan || s.review) {
@@ -15216,23 +15216,14 @@ class Component extends DCLogic {
   // Nothing stored changes. Pinned by tests/due_count_live.test.mjs (equal to what the planner can ask) and
   // e2e/journeys/due-count-retired.spec.ts (the drawer's dot and "Everything owed").
   duePool() {
-    const today = this._epochDay(), S = this._srsOwed();
+    const today = this._epochDay();
     const out = [];
-    for (const dk in S || {}) {
-      const m = S[dk];
+    for (const dk in this.srs || {}) {
+      const m = this.srs[dk];
       for (const qh in m) { const e = m[qh]; if (e && e[0] <= today && e[2] < today && this._rowLive(dk, qh) !== false) out.push({ key: dk, qh: qh }); }
     }
     return out;
   }
-  // THE PACING SEAM (CARD1-S3, v1.304.0): every reader of what is OWED (this pool and so the due count, the planner's debt,
-  // its plan, its bind and progress, Master the game's owed cards in master-list.src.js) takes the schedule through here,
-  // and the rating, the record and every "answered" reading take `this.srs` itself. It is the ONE place that would ask
-  // "is this carried row owed yet": the owner's U222 decides (a) all at once, which is this (the schedule as stored, the
-  // carried rows owed by their own due days), or (b) the carried rows paced, which would hand back a copy in which a carried
-  // row not yet released reads due on its release day. Never a copy WITHOUT the row: the planner reads a question with no
-  // row as a new card. (b)'s data would be a stamped settings key, never the frozen marker (progress-owner.src.js above
-  // NG_CARRY_BEFORE). Pinned by tests/card_carry.test.mjs (every owed reader goes through it).
-  _srsOwed() { return this.srs; }
   /** CAN A DUE ROW'S QUESTION STILL BE ASKED? true, false (retired), or null (not known yet), read per QUESTION as the planner
    *  files one (`ngPracticeItems`: a question asked at its home deck with the latest of its rows, wherever they sit), with
    *  the rating's own three-way test for each deck (`ngRatingShare`'s `isLive`, the queue's `liveIn`, PR #405). A shared

@@ -534,10 +534,10 @@ export function ngProgressPracticeKey(blob) {
 //     loop PR #452 backed off from; MODS1 Part A, above at NG_MOD_PREFIX), so a marker two devices could write differently
 //     (a day, a list, the carry's id) could ping-pong between an older device and a newer one for good. One value can
 //     never differ. A later carry, if ever, takes a key of its own. Merged as an OR; dropped from the guest part (above).
-//   · THE PACING SEAM (U222, the owner's: (a) all at once, or (b) the carried rows paced): the app asks "is this row owed
-//     yet" in ONE place (`_srsOwed`, app.src.jsx). Under (a) every carried row is owed by its own schedule. (b) would keep
-//     ITS data in a stamped settings key (per-key LWW in every build since before v1.252.0, so a race between two devices
-//     converges everywhere, older builds included), never in this marker. tests/card_carry.test.mjs.
+//   · ALL AT ONCE (the owner's U222 a, 25 Nov 2026): a carried row is owed by its own schedule from the moment it lands, like
+//     any row, so a returning player's due count rises by every carried row already due (most of them: the old ladder's
+//     steps up to 60 days have all elapsed since September). Nothing paces them, and the marker holds nothing for it.
+//     tests/card_carry.test.mjs.
 export const NG_CARRY_BEFORE = 20741;          // epoch day of 2026-10-15
 export const NG_CARRY_TRIES = 10;
 export const NG_CARRY_TRIES_KEY = "bjj-neural-carry-tries";

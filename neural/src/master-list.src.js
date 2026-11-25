@@ -169,7 +169,7 @@ function ngMasterOwedIn(app, s, game, map) {
   // L2: with the moves, as the plan is handed them (`_asksMoves`: never on "Multiple choice"). `s.owedMoves`: place → its
   // owed moves, heaviest first (the builder's own order), which a place outside today's plan asks as its cloze
   const moves = app._asksMoves() ? { moves: app.moves || {}, moveSeats: (app._practiceSeatsAt && app._practiceSeatsAt.mseats) || {} } : {};
-  const built = game && game.status === "ok" ? ngPracticeItems({ day, srs: app._srsOwed ? app._srsOwed() : app.srs, stage: app.stage,   /* CARD1-S3: the pacing seam (app.src.jsx `_srsOwed`) */ decks: app._gameplanDecks(true), game, seats: map, live: app._ratingLiveNow(), ...moves }) : null;
+  const built = game && game.status === "ok" ? ngPracticeItems({ day, srs: app.srs, stage: app.stage, decks: app._gameplanDecks(true), game, seats: map, live: app._ratingLiveNow(), ...moves }) : null;
   s.owedMoves = new Map();
   if (!built || built.status !== "ok") return (s.owedAt = null);
   const at = new Map();

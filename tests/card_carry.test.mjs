@@ -18,7 +18,8 @@
 //   9. A target card reworded later WITH its id (the wire's `k`, its key) reads the carried grade.
 //  10. This browser's gone mark on a carried grade is lifted.
 //  11. THE MARKER: written as 1, merged as an OR, kept out of the guest part and the practice key.
-//  12. THE PACING SEAM: every reader of what is owed takes the schedule through `_srsOwed`, and the rating does not.
+//  12. ALL AT ONCE (the owner's U222 a): a carried row is owed by its own schedule, read by every owed reader from the stored
+//      schedule itself (no pacing anywhere).
 //  13. The build half (tests/card_carry_build.py).
 //  14. A PULL THAT GROWS THE SEPTEMBER ROWS of a copy that held some (an older build's device synced late) carries them too;
 //      a pull that brings nothing new starts nothing.
@@ -35,6 +36,7 @@ import { ngKnowledgeQuestionHash as H, ngKnowledgeMergeRow } from "../neural/src
 import { ngCarryDecks, ngCarryFiles, ngCarryRead, ngCarryApply, ngCarryDone, NG_CARRY_BEFORE, NG_CARRY_TRIES, NG_CARRY_TRIES_KEY,
   ngProgressPracticeKey, ngProgressGuestMerge } from "../neural/src/progress-owner.src.js";
 import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
+import { ratingLiveFiles } from "./_rating_fixture.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const DIR = resolve(ROOT, "source/quartz/static/neural");
@@ -285,21 +287,25 @@ test("11. the marker: written as 1, merged as an OR, kept out of the guest part"
   assert.equal("cardCarry" in joined, false, "a guest's marker never joins the account");
 });
 
-test("12. the pacing seam: every reader of what is owed takes the schedule through _srsOwed, the rating does not", () => {
+test("12. all at once (U222 a): every carried row already due is owed the day it lands, from the stored schedule", async () => {
   const src = rd("neural/src/app.src.jsx");
   const owed = [...src.matchAll(/ngGameplan(?:Debt|Bind|Progress)\(([^;]*)/g)].map((m) => m[1]);
   assert.ok(owed.length >= 7, `premise: the planner's owed readers found (${owed.length})`);
-  for (const call of owed) { assert.match(call, /this\._srsOwed\(\)/, call.slice(0, 120)); assert.doesNotMatch(call, /this\.srs\b/, call.slice(0, 120)); }
-  assert.match(src, /decks: this\._gameplanDecks\(true\), srs: this\._srsOwed\(\),/, "the plan's own build");
-  assert.match(rd("neural/src/master-list.src.js"), /ngPracticeItems\(\{ day, srs: app\._srsOwed \? app\._srsOwed\(\) : app\.srs,/, "Master the game's owed cards");
-  assert.match(src, /ngRatingShare\(game, \{ srs: this\.srs,/, "the rating reads the schedule as stored");
-  // and the due pool reads through it: a view in which the row is not due empties the count
-  const a = boot(september(), { load: false });
-  a.srs = clone(a.srs); a.srs[DECK][P[0][1]] = [SEPT + 3, 3, SEPT];
-  const n = a.dueCount();
-  assert.ok(n >= 1, "premise: a carried row due");
-  a._srsOwed = () => ({ ...a.srs, [DECK]: { ...a.srs[DECK], [P[0][1]]: [TODAY + 5, 3, SEPT] } });
-  assert.equal(a.dueCount(), n - 1, "duePool reads the seam");
+  for (const call of owed) assert.match(call, /this\.srs\b/, "every owed reader takes the schedule as stored: " + call.slice(0, 100));
+  assert.doesNotMatch(src, /_srsOwed|carried row not yet released/, "nothing paces a carried row");
+  const plain = boot(september(), { load: false });
+  const a = boot(september());
+  await a._carryP;
+  const dueNow = P.filter(([, n]) => a.srs[DECK][n][0] <= TODAY).length;
+  assert.equal(dueNow, 3, "premise: all three carried rows are past their September due days");
+  assert.equal(a.dueCount() - plain.dueCount(), dueNow, "the due count rises by every carried row due, at once");
+  const pool = (x) => x.duePool().filter((e) => e.key === DECK).map((e) => e.qh).sort();
+  // before the live set lands an old row is "not known yet" and stays counted, as on dev (DUE1: `_rowLive` null); once the
+  // drawer's check has landed it is known retired, and the pool holds the carried rows alone
+  assert.deepEqual(pool(a), [...P.map(([o]) => o), ...P.map(([, n]) => n)].sort(), "not known yet: the old rows, and the carried ones");
+  a._ratingLiveFrom(ratingLiveFiles(DIR)); plain._ratingLiveFrom(ratingLiveFiles(DIR));
+  assert.deepEqual(pool(a), P.map(([, n]) => n).sort(), "the live set in: the carried rows alone");
+  assert.deepEqual(pool(plain), [], "and on the record not carried, nothing of these cards is owed");
 });
 
 test("14. a pull that brings in MORE September rows (another device's, synced late) carries them too", async () => {
