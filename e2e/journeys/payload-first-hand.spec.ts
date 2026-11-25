@@ -103,6 +103,7 @@ const BANNED_ON_BOOT = [
   /\/reader\.js(\?|$)/,
   /\/reference\.css(\?|$)/,
   /\/static\/neural\/mdp\//,
+  /\/static\/neural\/carry\//,   // CARD1-S3: the one-time carry, fetched only by a record from before the rewrite
   /\/game-values\.js(\?|$)/,
   /\/game-model\.worker\.js(\?|$)/,
   /\/game-worker-core-[0-9a-f]{64}\.js(\?|$)/,

@@ -131,7 +131,10 @@ GATE = "scripts/check_payload_budget.py"  # how this gate names itself in the po
 # The Neural app's data root, and the subdirectories inside it that hold ON-DEMAND chunks
 # (fetched per deck / per node, never at boot). Everything else under NEURAL_DIR is eager.
 NEURAL_DIR = "static/neural"
-CHUNK_DIRS = ("flashcards", "content", "submission-details", "mdp")
+# `carry` (CARD1-S3, v1.304.0): the one-time carry's files (scripts/regenerate_neural_data.py `write_card_carry`), fetched
+# only by a record that may hold a key v1.182.2's rewrite orphaned, once, never at boot by a fresh visitor
+# (e2e/journeys/payload-first-hand.spec.ts bans it from the boot path by name).
+CHUNK_DIRS = ("flashcards", "content", "submission-details", "mdp", "carry")
 
 # Top-level payloads the app deliberately does NOT fetch at boot. Kept as an explicit, tiny list
 # because the alternative — silently scoring them as eager — makes this gate measure something
