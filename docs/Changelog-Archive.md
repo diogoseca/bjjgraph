@@ -22428,3 +22428,11 @@ callers (no solve is asked), and an entry's "Works" is priced from where the pla
 from the Submit % once in, the reader's measure). Left, listed in reports/oppoff.md: the defender seat's escape, the
 ledger, the win bar's Normal control and the drawer's roll count are not pinned; the game-plan panel still models an
 opponent in a study; a capstone left through free roam still holds `_beltTest` (older, Normal too).
+
+**OFF1-R2** (the orchestrator's press on b527e314d: a new guest at 390x631, Off picked in Settings, a reload, a tap on Kimura
+from Mount; a `challenge_completed` and a `tut_step` followed the first move). Reproduced exactly as a journey, it is
+"Read your hand" (`white.coach1`, step `coach1`), completed by `options_dealt`, the hand dealt after the move: a study step,
+counted in a study by design. `commit` fired and "Execute a move" stayed undone. A new guest meets it on the first move
+because a page arrival's own hand emits no `options_dealt` (the reader's arrival holds it). Pinned by name in
+`opponent-off.spec.ts` ("a new guest's first study move…", a guest with nothing stored, the real press and a reload); with
+"commit" counted in a study it is red.

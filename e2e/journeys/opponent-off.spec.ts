@@ -20,7 +20,8 @@ import { journey } from "../dsl";
  * Presses are a real mouse (`clickByMouse`) at 1440x900 and a touch tap at a measured, owned point at 390x631.
  * NOT covered here: the harness serves `{}` for dossiers, so no film strip (the film's Win % row is the app's own branch, read
  * in the report's pictures on a real server); what Normal does draw for draw is the seeded proof in reports/oppoff.md.
- * MUTANTS (OFF1, each alone on a clean tree, against a green control): `tensionSweep`'s study branch removed (a move rolls
+ * MUTANTS (OFF1, each alone on a clean tree, against a green control): "commit" dropped from NG_STUDY_UNCOUNTED (a study's
+ * move completes "Execute a move") -> "a new guest's first study move" red (OFF1-R2); `tensionSweep`'s study branch removed (a move rolls
  * dice in Off) -> "every move lands" red; rollFromPosition's latch set to false (a staged roll plays the opponent) -> "a roll
  * staged from the map" red; the belt-test exemption removed from that latch (a capstone at skill 0) -> "a belt test" red.
  */
@@ -259,3 +260,51 @@ for (const [w, h, touch] of [[1074, 796, false], [390, 631, true]] as [number, n
       }
     });
   });
+
+// OFF1-R2 (the orchestrator's press on b527e314d, 390x631, touch: a NEW guest, Off picked in Settings, a reload, a tap on Kimura
+// from Mount; after the tap: engaged, land_q_ignored, commit, land, options_dealt, challenge_completed, tut_step, ...). The
+// journeys above start from a seeded state; this one is a guest with nothing stored, through the real press and a reload.
+test.describe("new guest 390x631", () => {
+  test.use({ viewport: { width: 390, height: 631 }, hasTouch: true, isMobile: true });
+  test("a new guest's first study move completes no roll step: what it completes is a study step, named", async ({ page }) => {
+    const j = journey(page);
+    await j.boot("/Positions/Mount/Top", { keepTutorial: true });
+    await page.evaluate(() => (window as any).__neural.openSettings("rolling"));
+    await j.settingsAtRest();
+    const sel = '[data-opponent-pick="off"]';
+    for (let i = 0; i < 30; i++) {
+      await j.scrollSettled(sel);
+      const r = await page.locator(sel).boundingBox(), p = (await page.locator('[role="tabpanel"]').boundingBox())!;
+      if (r && r.y >= p.y && r.y + r.height <= p.y + p.height) break;
+      await page.mouse.move(p.x + p.width / 2, p.y + p.height / 2);
+      await page.mouse.wheel(0, r && r.y < p.y ? -160 : 160);
+    }
+    await press(page, j, sel, true, "Opponent: Off");
+    await expect.poll(() => W(page)(() => (window as any).__neural.get("difficulty", "normal"))).toBe("off");
+    await j.boot("/Positions/Mount/Top", { preserveStorage: true, keepTutorial: true });   // the reload
+    for (let i = 0; i < 40; i++) {
+      if (await W(page)(() => { const a = (window as any).__neural; return !!(a._optList || []).find((o: any) => o.node.t === "Kimura from Mount") && !a._execution; })) break;
+      await j.advance(500);
+    }
+    const n = await beatCount(page);
+    const before = await W(page)(() => { const a = (window as any).__neural; return { study: a._studyRoll, done: Object.keys(a.challenges || {}).filter((k) => a.challenges[k].done).sort() }; });
+    await press(page, j, '[data-tech="Kimura from Mount"] .ng-choice-title-button', true, "Kimura from Mount");
+    await j.advanceUntil("options_dealt", 16000);
+    await j.advance(1500);
+    const after = await page.evaluate((k) => { const a = (window as any).__neural; return { beats: (a.beats || []).slice(k).map((b: any) => ({ beat: b.beat, id: b.id })), done: Object.keys(a.challenges || {}).filter((x) => a.challenges[x].done).sort() }; }, n);
+    expect(before.study, "the reloaded roll (a page arrival) is a study").toBe(true);
+    // The tap played a move (its `commit` beat fired), and the one challenge it completed is a STUDY step: "Read your hand"
+    // (white.coach1, tutorial step coach1), from `options_dealt`, the hand dealt after the move. A page arrival's own hand
+    // emits no `options_dealt` (the reader's arrival holds it), which is why a new guest meets this step on the first move.
+    const beats = after.beats.map((b: any) => b.beat);
+    expect(beats, "the tap played a move").toContain("commit");
+    const completed = after.beats.filter((b: any) => b.beat === "challenge_completed").map((b: any) => b.id);
+    expect(completed, "the one challenge the first move completed").toEqual(["white.coach1"]);
+    const at = beats.indexOf("challenge_completed");
+    expect(beats.slice(0, at).filter((b: string) => b !== "tut_step").pop(), "and the beat that completed it").toBe("options_dealt");
+    expect(after.beats.filter((b: any) => b.beat === "tut_step").map((b: any) => b.id), "the tutorial step it ticked").toEqual(["coach1"]);
+    // no roll step, before the tap or after it
+    for (const id of ["white.commit", "white.sweep", "white.win1", "white.defend", "white.escape", "white.roll"])
+      expect(after.done, `${id} (a roll step) is not done in a study`).not.toContain(id);
+  });
+});
