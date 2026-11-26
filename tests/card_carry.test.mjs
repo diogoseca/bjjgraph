@@ -26,12 +26,16 @@
 //  15, 16. THE SYNC READER'S TRACES (PR #471, seeds 26 and 75; CARD1-S3-R1 F1): decided by content per owner on this browser,
 //      a device whose attempt failed after the marker came in, and rows an older build pushed after the carry, are carried.
 //  17. THE DUE BADGE BEFORE THE LIVE SET (F3): each carried row counted once, at once.
-//  F2, in 7: tries are per owner, server answers only, cleared by a success; ten offline openings then one online carries.
+//  F2, in 7: tries are per owner, server answers only, cleared by a success; ten offline openings then one online carries;
+//      and the same on the REAL owner host (`ngProgressCreateHost`, `hostBrowser`), which keys the carry's state itself: a
+//      guest at ten spent tries, then an account signing in on the SAME storage fetches and carries (the reader's re-read).
 // MUTANTS (each red here): the merge's direction swapped (old as the local row) -> 3, 4; the marker never written (`_cardCarry`
 // left false) -> 4, 8; the pull-before-write test removed from `_carryNeed` -> 6; a split carried (the generator's split rule
 // dropped) -> 13 ("split"); the tries bound removed -> 7; the pull's growth rule removed from `_pullAndMerge` -> 16; the pending flag never set -> 15, 16;
 // a network failure counted as a try -> 7; the old keys not marked gone, or `_rowLive` not reading the marks -> 12, 17;
-// the marks written all at once -> 17; the count not followed down -> 18.
+// the marks written all at once -> 17; the count not followed down -> 18; the carry state kept per browser, not per owner
+// (the real host's `carryRead`/`carryWrite` on the guest's key for every owner, or on one fixed key) -> 7, at "the account
+// fetches the carry files" (both survived this file before: its `boot` keys the state in the test, never in the host).
 import { test, afterEach } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync, existsSync } from "node:fs";
@@ -49,10 +53,10 @@ const DIR = resolve(ROOT, "source/quartz/static/neural");
 const rd = (p) => readFileSync(resolve(ROOT, p), "utf8");
 const clone = (x) => JSON.parse(JSON.stringify(x));
 const strip = (t) => t.replace(/^export (function|const|let|var|class) /gm, "$1 ");
-const { Component } = new Function("DCLogic", "React", [
+const { Component, ngProgressCreateHost, ngProgressOwner, ngProgressLocalKey } = new Function("DCLogic", "React", [
   knowledgeSource, strip(rd("neural/src/progress-owner.src.js")), strip(rd("neural/src/lists-codec.src.js")), strip(rd("neural/src/lists.src.js")),
   rd("neural/src/challenge-definitions.src.js"), rd("neural/src/challenge-engine.src.js"), rd("neural/src/app.src.jsx"), rd("neural/src/challenge-ui.src.js"),
-].join("\n") + "\nreturn { Component };")(class DCLogic {}, { createRef: () => ({ current: null }) });
+].join("\n") + "\nreturn { Component, ngProgressCreateHost, ngProgressOwner, ngProgressLocalKey };")(class DCLogic {}, { createRef: () => ({ current: null }) });
 const J = (f) => JSON.parse(readFileSync(resolve(DIR, f), "utf8"));
 const WIRE = J("graph-data.json"), CURRICULUM = J("curriculum.json"), MANIFEST = J("flashcards/_index.json");
 const CARDS = (() => {
@@ -86,18 +90,14 @@ globalThis.fetch = async (url) => {
 afterEach(() => { browser = newBrowser(); fetched = []; serve = real; globalThis.window.__NG_EPOCH_DAY__ = TODAY; });
 const ownerId = (o) => o.kind + ":" + (o.id || "");
 const stateOf = (o, b = browser) => ngCarryStateRead(b.store.get("carry " + ownerId(o)) || null);
+const memory = () => { const rows = new Map(); return { rows, getItem: (k) => rows.get(k) ?? null, setItem: (k, v) => { rows.set(k, String(v)); }, removeItem: (k) => { rows.delete(k); } }; };
 
 /** the app on the real wire, its progress owner bound to `owner` holding `blob`, loaded by its own `_loadProgress`, on `on` */
 function boot(blob, { owner = { kind: "guest" }, load = true, on = browser } = {}) {
-  const a = Object.create(Component.prototype), saved = [], id = ownerId(owner);
+  const a = shell(), saved = [], id = ownerId(owner);
   if (!on.marks.has(id)) on.marks.set(id, {});
   const marks = on.marks.get(id);
-  a.settings = {}; a.beats = []; a.track = () => {}; a.get = (_k, d) => d; a.set = () => {}; a.fx = () => {};
-  a.ingest(clone(WIRE)); a._giMode = "gi"; a.curriculum = clone(CURRICULUM); a._ingestDeckManifest(clone(MANIFEST));
-  Object.assign(a, { _settingsAt: {}, tracked: [], viewToggleRef: { current: null }, explorerListRef: { current: null } });
-  a._saveProgress = () => { saved.push(clone(a._progressBlob())); }; a._flushSave = () => {}; a.renderTutorial = () => {}; a.renderChallengeCue = null;
-  a.setEvent = () => {}; a.setDeckOpen = () => {}; a._applyLayers = () => {}; a._gameValueChanged = () => {};
-  a._rebuildRulesetMask = () => {}; a.weakSpots = () => null; a._progressCurrent = () => true; a._knowledgeEffect = () => {};
+  a._saveProgress = () => { saved.push(clone(a._progressBlob())); };
   const persisted = [];
   a._progressHost = { goneRead: () => clone(marks), goneWrite: (_i, m, deck) => { if (m[deck]) marks[deck] = clone(m[deck]); else delete marks[deck]; return clone(marks); },
     carryRead: () => on.store.get("carry " + id) || null, carryWrite: (_i, st) => { on.store.set("carry " + id, clone(st)); return true; },
@@ -108,6 +108,31 @@ function boot(blob, { owner = { kind: "guest" }, load = true, on = browser } = {
   a.__saved = saved; a.__marks = marks;
   if (load) a._loadProgress(); else { a._hydrateProgressBlob(a._progressBootBlob); delete a._progressBootBlob; a._progressLoaded = true; }
   return a;
+}
+/** the app's class on the real wire, its progress unbound: what `boot` and the real host's mount both start from */
+function shell() {
+  const a = Object.create(Component.prototype);
+  a.settings = {}; a.beats = []; a.track = () => {}; a.get = (_k, d) => d; a.set = () => {}; a.fx = () => {};
+  a.ingest(clone(WIRE)); a._giMode = "gi"; a.curriculum = clone(CURRICULUM); a._ingestDeckManifest(clone(MANIFEST));
+  Object.assign(a, { _settingsAt: {}, tracked: [], viewToggleRef: { current: null }, explorerListRef: { current: null } });
+  a._flushSave = () => {}; a.renderTutorial = () => {}; a.renderChallengeCue = null;
+  a.setEvent = () => {}; a.setDeckOpen = () => {}; a._applyLayers = () => {}; a._gameValueChanged = () => {};
+  a._rebuildRulesetMask = () => {}; a.weakSpots = () => null; a._progressCurrent = () => true; a._knowledgeEffect = () => {};
+  return a;
+}
+/** THE REAL OWNER HOST over one browser's storage `mem` (a reload is a new host over the same `mem`): it keys the carry's state
+ *  itself (`carryRead`/`carryWrite`, `<owner>:carry`), where `boot` keys it in the test. The record each owner holds on this
+ *  browser at boot is `held[owner kind]`; the instance it mounts is `shell`'s, loaded by its own `_loadProgress`, saving nothing */
+function hostBrowser(mem, held) {
+  let current = null;
+  const host = ngProgressCreateHost({ storage: mem, resolveUser: async () => null, hold: () => {}, mount(b) {
+    const a = shell(); current = a;
+    a._saveProgress = () => {}; a.updateAccountUI = () => {}; a._announceArrival = () => {}; a._publishKnowledge = () => {}; a._pushCloud = () => {};
+    a.destroy = () => { if (a.__ngDestroyed) return; a.__ngDestroyed = true; a._authDisposed = true; a._invalidateCloudSync(); };
+    host.bind(a, { ...b, blob: b.blob || { v: 2, belts: { won: {} }, ...clone(held[b.owner.kind] || {}) } });
+    a._loadProgress();
+  } });
+  return { get: () => current, boot: async () => { await host.bootstrap(); return current; } };
 }
 /** a signed-in owner's pull from a fake cloud holding `cloud` (the app's own `_pullAndMerge`), then its carry if one started */
 async function pull(a, cloud, user = "u1") {
@@ -290,6 +315,31 @@ test("7. a failure leaves the record exactly as it was and keeps the need; ten s
   serve = real;
   const acct = boot(september(), { owner: { kind: "account", id: "u1" } });
   assert.equal((await pull(acct, september())).status, "applied", "the account's own tries are its own");
+  // THE SAME ON THE REAL OWNER HOST (the sync reader's re-read: the carry state kept per browser, not per owner, survived the
+  // part above, whose host is the test's): a guest at ten spent tries on this storage, then an account signing in on the SAME
+  // storage fetches and carries, and each owner's state stays its own
+  const mem = memory(), GUEST = ngProgressOwner(), U1 = ngProgressOwner("u1");
+  const held = (o) => ngCarryStateRead(JSON.parse(mem.getItem(ngProgressLocalKey(o, "carry")) || "null"));
+  serve = () => null;
+  for (let k = 0; k < NG_CARRY_TRIES; k++) {
+    const g = await hostBrowser(mem, { guest: september() }).boot();   // a reload: a new host over the same storage
+    assert.equal(g._progressOwner.kind, "guest");
+    assert.equal((await g._carryP).status, "bad-file");
+  }
+  const hb = hostBrowser(mem, { guest: september() });
+  const g = await hb.boot();
+  fetched = [];
+  assert.equal(g._carryP, undefined, "the guest's ten are spent: nothing is asked for");
+  serve = real;
+  g._applyUser({ id: "u1" });                                         // signing in: the host mounts the account's instance
+  const u = hb.get();
+  assert.ok(u !== g && u._progressOwner.kind === "account" && u._progressOwner.id === "u1", "premise: the account is mounted on this storage");
+  const r = await pull(u, september());
+  assert.ok(r && fetched.length > 0, "the account fetches the carry files");
+  assert.equal(r.status, "applied", "and carries");
+  // and where the host keeps each: the account's under the account, the guest's ten still under the guest
+  assert.deepEqual(held(U1), { n: ngCarryCount(u._progressBlob()), pending: false, tries: 0 }, "its own state, under the account");
+  assert.deepEqual(held(GUEST), { n: 0, pending: true, tries: NG_CARRY_TRIES }, "the guest's ten stay the guest's");
 });
 
 test("8. a successful carry is not repeated; a browser runs again only on MORE September rows, and that run changes nothing carried", async () => {
