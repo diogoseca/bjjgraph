@@ -22626,7 +22626,8 @@ Three arms: A dev, B this build, C dev on the record with the carry pre-applied.
   and what follows from them (mastery, stage, due, the answer mode, the glyph, score, recall, rating, mastered decks, the
   journal rows, the record);
 - at the step no reading is lower in B than in A, but one mastery read 0.5666666666666665 against 0.5666666666666667: the
-  same sum in another order, 2e-16.
+  same sum in another order, 2e-16. (Measured before R1's F3, which lowers two kinds of reading to the deck's own true
+  value; the claim since is NO READING BELOW THE DECK'S OWN TRUE READING: R2, below.)
 - THE ONE KIND (13 of 50 records, 26 stage readings, all at the guest join): the account's own carry runs over the joined
   copy (the guest's marker does not join), and `stage = max(stage[new], stage[old])` raises a carried card the player
   MISSED after the carry back to its September stage, because the old row stays. Its schedule keeps the later row, so the
@@ -22690,4 +22691,22 @@ idempotent, no #452 loop; MERGE AFTER 2 fixes):
 - Mutants, each red: the pending flag never set, the pull's growth rule removed, a network failure counted, the tries per
   browser, a success not clearing them, the old keys not marked, `_rowLive` not reading the marks, the count not followed
   down, the synced marker deciding again, the split rule global again, the emitter's per-deck refusal removed.
+
+**R2, after the sync reader's re-read at beb63d38f** (every fix holds over 1,200 seeds), tests and words only:
+- **The survivor: "the carry state kept per browser, not per owner"** (the real host's `carryRead`/`carryWrite` keyed per
+  browser) survived every unit, because `card_carry.test.mjs`'s `boot` keys the state in the test and never runs the host's
+  own key. Test 7 now ends on the REAL owner host
+  (`ngProgressCreateHost`, the test's `hostBrowser`, one memory storage, a reload a new host over it): a guest spends ten
+  server answers and an eleventh opening asks for nothing, then an account signing in on the SAME storage fetches and carries,
+  and each owner's state stays under its own key. Both forms of the mutant (the guest's key for every owner; one fixed key)
+  are red at test 7 alone, at "the account fetches the carry files"; 19 of 19 clean before and after.
+- **The claim, restated (the orchestrator's ruling): NO READING BELOW THE DECK'S OWN TRUE READING, not "no reading
+  lower".** The badge fix (F3) lowers some readings at the step: deck mastery on a deck not opened since #468, and the due
+  count before the live set, wherever dev itself counts a carried row twice. Each lowered reading equals the deck's own true
+  value once opened, and dev makes the same drop at that deck's next landing. Restated in `app.src.jsx` (above `_carryState`)
+  and in test 4, which now also asserts it: the deck's mastery after the carry, before it lands, is not below what it reads
+  once opened. The differential's "no reading is lower in B than in A" (above) predates F3.
+- **Its optional (the prune also marking schedule-only keys) goes to a follow-up**, not this PR.
+- `app.src.jsx`'s comment moves the four MDP-bound bundles' hash (the manifest's `gameplayHash` digests its raw bytes), so the
+  app rows are re-seeded in their own commit; no content path moves, and the capture's content proof stands.
 

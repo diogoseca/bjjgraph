@@ -8,7 +8,8 @@
 //   2. A FILE IS READ ONLY IF IT IS THE ONE ASKED FOR; the real files read back every pair the committed source keeps.
 //   3. THE STEP: the later answer wins (a player who answered the new text keeps it), stage MAX, the old rows untouched, the
 //      input untouched, and a second run changes nothing, byte for byte.
-//   4. A GUEST carries its own copy on load; every reading rises or stays (mastery, the glyph, recall, score, due, stage);
+//   4. A GUEST carries its own copy on load; NO READING BELOW THE DECK'S OWN TRUE READING (the orchestrator's ruling, R2:
+//      not "no reading lower"), and on this record every reading rises or stays (mastery, the glyph, recall, score, due, stage);
 //      the record saved holds the marker and the old rows.
 //   5. AN UNTOUCHED GUEST: nothing fetched, nothing written, no try counted. 5b. A record from before the rewrite with no
 //      reworded card: one fetch, nothing carried, the marker kept on this browser only (no save, so no push), never again.
@@ -218,7 +219,7 @@ test("3. the step: the later answer wins, stage MAX, the old rows untouched, and
   assert.deepEqual(ngCarryApply(late, pairs, H, TODAY, ngKnowledgeMergeRow).srs[DECK][P[0][1]], ngKnowledgeMergeRow([20750, 1, 20749], [20790, 30, 20760], TODAY));
 });
 
-test("4. a guest carries its own copy on load: every reading rises or stays, and the record keeps the old rows", async () => {
+test("4. a guest carries its own copy on load: no reading below the deck's own true reading, and the record keeps the old rows", async () => {
   assert.ok(DECK, "premise: a deck the carry covers, its targets on the wire");
   const plain = boot(september(), { load: false });
   const before = readings(plain);
@@ -229,11 +230,16 @@ test("4. a guest carries its own copy on load: every reading rises or stays, and
   assert.equal(fetched.length, 1, "one file: the one this deck falls in");
   const after = readings(a);
   assert.deepEqual(after.stage, [2, 1, 3], "the grades, under today's keys");
-  // rises or stays (the same sum taken over other keys may differ in its last bit: 1e-9); before the deck lands dev already
-  // counts the old rows as "not known yet", so the carry's own rise shows once it lands and the old rows are pruned from view
+  // THE CLAIM IS "NO READING BELOW THE DECK'S OWN TRUE READING" (R2, ruled), not "no reading lower": where dev itself counts a
+  // carried row twice (a deck not opened since #468, the due count before the live set), the badge fix (F3) lowers that reading
+  // at the step to the deck's own true value once opened, the same drop dev makes at that deck's next landing. On THIS record
+  // every reading rises or stays (the same sum taken over other keys may differ in its last bit: 1e-9); before the deck lands
+  // dev already counts the old rows as "not known yet", so the carry's own rise shows once it lands and the old rows are pruned
   for (const k of ["mastery", "recall", "score", "due"]) assert.ok(after[k] >= before[k] - 1e-9, `${k}: ${before[k]} -> ${after[k]}`);
   const landed = (x) => { const d = x.flashcards.decks[DECK]; d.cards = clone(CARDS[DECK].cards); x._pruneStaleGrades(DECK, d.cards); return x.deckMastery(DECK); };
-  assert.ok(landed(a) > landed(plain), "the deck landed: the carried grades count, the old ones are gone on both");
+  const trueA = landed(a), trueP = landed(plain);
+  assert.ok(after.mastery >= trueA - 1e-9, `no reading below the deck's own true reading: ${after.mastery} before it lands, ${trueA} once opened`);
+  assert.ok(trueA > trueP, "the deck landed: the carried grades count, the old ones are gone on both");
   const blob = a.__saved.at(-1);
   assert.equal(blob.cardCarry, 1, "the record is marked done");
   for (const [o, n] of P) { assert.ok(blob.srs[DECK][o] && blob.srs[DECK][n], "old row kept, new row written"); }

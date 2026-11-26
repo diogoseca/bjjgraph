@@ -5213,8 +5213,11 @@ class Component extends DCLogic {
   //   · THE DUE COUNT IS RIGHT AT ONCE (F3): each carried OLD key is marked gone on this browser (the deck holds it no more:
   //     the emitter checked), and `_rowLive` reads a gone-marked row as not live, so it is never counted beside its carried
   //     row while the live set is not in.
-  // What a player sees: the numbers rise at once (grades, mastery, the belt, the map's gold, the due count, Master the game),
-  // through the same publish a pull makes, with no message (the orchestrator's ruling). tests/card_carry.test.mjs.
+  // What a player sees: the carried numbers at once (grades, mastery, the belt, the map's gold, the due count, Master the game),
+  // through the same publish a pull makes, with no message (the orchestrator's ruling). NO READING BELOW THE DECK'S OWN TRUE
+  // READING, not "no reading lower" (R2, ruled): where dev counts a carried row twice (a deck not opened since #468, the due
+  // count before the live set), F3 lowers that reading at the step to the deck's own true value once opened, the drop dev
+  // makes itself at that deck's next landing. tests/card_carry.test.mjs (4, 17).
   _carryState() { const h = this._progressHost, s = h && h.carryRead ? h.carryRead(this) : null; return ngCarryStateRead(s || this._carryMem); }
   _carrySetState(next) { const s = ngCarryStateRead(next), h = this._progressHost; this._carryMem = s; if (h && h.carryWrite) h.carryWrite(this, s); return s; }
   _carryDecide() {
