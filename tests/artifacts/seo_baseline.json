@@ -1625,8 +1625,8 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "3d123a6200a49ba0f4a19a0c5ee09b8dc63dc29c",
-   "capture_id": "4ae952a894e6471fa7c4c9349caacd04",
+   "capture_git_head": "beb63d38fee2a5a3ceb204efca292bd569310cfd",
+   "capture_id": "cd435700c773464cabf1c784e1d8adda",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6331,
@@ -1656,12 +1656,12 @@
     }
    },
    "output_identity": {
-    "files": 15830,
-    "sha256": "150ba7ad3b00a918f58c0da47833809dac8b9acfcc376198088ffcce74617f25"
+    "files": 15836,
+    "sha256": "f7047cdd34958ec82618e9febad494e7dd039e5a22e55133ae43256b8d02f18a"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/prose/capture/cappr1-3d123a620/pr-prose-3d123a620"
+    "/home/user/tmp-pw/mapshows/capture-s3/capture/caps3-beb63d38f/pr-card-carry-beb63d38f"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"

@@ -1765,7 +1765,7 @@ class Component extends DCLogic {
     // every visitor a zero belt for as long as it took to arrive.
     fetch("curriculum.json")
       .then((cr) => (cr.ok ? cr.json() : null))
-      .then((c) => { if (this._progressCurrent() && c && c.belts && c.belts.length) { this.curriculum = c; this._onCurriculum(); } })
+      .then((c) => { if (this._progressCurrent() && c && c.belts && c.belts.length) { this.curriculum = c; this._onCurriculum(); this._carryMaybe("curriculum"); } })
       .catch(() => { /* optional payload */ });
     // Systems (the authored course library) are DEFERRED: nothing on the roll path reads them —
     // only the Explore tab and the system buckets do — so 324KB has no business being on the
@@ -5193,6 +5193,89 @@ class Component extends DCLogic {
     this._hydrateProgressBlob(this._progressBootBlob);
     delete this._progressBootBlob;
     this._progressLoaded = true;
+    this._carryMaybe("load");
+  }
+  // ═══ THE ONE-TIME CARRY (CARD1-S3, v1.304.0): the grades and schedules v1.182.2's rewrite left under old keys, given back to
+  // the card's key today, additively (the rule, the dates test, the bound and the frozen marker: progress-owner.src.js above
+  // NG_CARRY_BEFORE). When:
+  //   · AFTER THE PULL, BEFORE ANY WRITE OF ITS OWN. A signed-in owner carries only on a copy merged with the cloud by a
+  //     successful pull for that user (`_pulled`), so it never writes a copy the cloud has not been merged into; a guest
+  //     carries its own copy as it loads; a local-only bind waits for its pull. Called at the load, when curriculum.json
+  //     (the carry's id and file count, `cardCarry`) lands, and after every successful pull; a call that cannot run yet
+  //     does nothing.
+  //   · DECIDED BY CONTENT, PER OWNER ON THIS BROWSER (CARD1-S3-R1, F1: `_carryDecide`, the state `{n, pending, tries}`): when a
+  //     need is pending, or the record holds more September rows (`ngCarryCount`) than at this browser's last successful
+  //     step. A pull that grows the count makes the need pending at once. The synced marker decides nothing: an older build's
+  //     device keeps it whether or not this browser carried. A run over rows already carried changes nothing, byte for byte.
+  //   · ONE ATTEMPT A BOOT, NG_CARRY_TRIES SERVER ANSWERS PER OWNER (F2), cleared by a success; nothing is fetched while the
+  //     browser is offline, and a network failure is not a try. Any failure (a file missing, not the one asked for,
+  //     malformed, the owner gone meanwhile) applies nothing and keeps the need.
+  //   · THE DUE COUNT IS RIGHT AT ONCE (F3): each carried OLD key is marked gone on this browser (the deck holds it no more:
+  //     the emitter checked), and `_rowLive` reads a gone-marked row as not live, so it is never counted beside its carried
+  //     row while the live set is not in.
+  // What a player sees: the carried numbers at once (grades, mastery, the belt, the map's gold, the due count, Master the game),
+  // through the same publish a pull makes, with no message (the orchestrator's ruling). NO READING BELOW THE DECK'S OWN TRUE
+  // READING, not "no reading lower" (R2, ruled): where dev counts a carried row twice (a deck not opened since #468, the due
+  // count before the live set), F3 lowers that reading at the step to the deck's own true value once opened, the drop dev
+  // makes itself at that deck's next landing. tests/card_carry.test.mjs (4, 17).
+  _carryState() { const h = this._progressHost, s = h && h.carryRead ? h.carryRead(this) : null; return ngCarryStateRead(s || this._carryMem); }
+  _carrySetState(next) { const s = ngCarryStateRead(next), h = this._progressHost; this._carryMem = s; if (h && h.carryWrite) h.carryWrite(this, s); return s; }
+  _carryDecide() {
+    if (this._carryTried || this._carryBusy || !this._progressLoaded || !this._progressCurrent() || this._progressLocalOnly) return false;
+    const c = this.curriculum && this.curriculum.cardCarry;
+    if (!c || typeof c.id !== "string" || !Number.isInteger(c.n)) return false;
+    const o = this._progressOwner;
+    if (o && o.kind === "account" && !(this._pulled && this._pulledUserId && this._pulledUserId === this._authUserId)) return false;
+    const L = this._carryState(), cur = ngCarryCount({ srs: this.srs, stage: this.stage });
+    if (L.tries >= NG_CARRY_TRIES) return false;
+    if (L.pending || cur > L.n) return true;
+    if (cur < L.n) this._carrySetState({ ...L, n: cur });   // September rows answered since: follow them down
+    return false;
+  }
+  _carryMaybe(why) {
+    if (!this._carryDecide()) return null;
+    if (typeof navigator !== "undefined" && navigator.onLine === false) { this._carrySetState({ ...this._carryState(), pending: true }); return null; }
+    this._carrySetState({ ...this._carryState(), pending: true });   // a need, kept until a step succeeds
+    this._carryTried = true; this._carryBusy = true;
+    const c = this.curriculum.cardCarry, stamp = this._progressOwnerStamp, hash = (t) => this.qhash(t);
+    const files = ngCarryFiles(ngCarryDecks({ srs: this.srs, stage: this.stage }), c.n, hash);
+    // a server's answer (the file, or a status) against a network failure (the fetch rejected), which is never a try
+    const get = (i) => fetch(this._dataBase() + "carry/" + i + ".json?carry=" + encodeURIComponent(c.id))
+      .then((r) => (r.ok ? r.json().then((body) => ({ body }), () => ({ body: null })) : { body: null })).catch(() => ({ offline: true }));
+    const p = Promise.all(files.map(get)).then((got) => {
+      if (!this._progressCurrent() || this._progressOwnerStamp !== stamp) return { status: "owner-changed" };
+      if (got.some((g) => g.offline)) return { status: "offline" };
+      const pairs = new Map();
+      for (let k = 0; k < files.length; k++) {
+        const m = ngCarryRead(got[k].body, { id: c.id, n: c.n, i: files[k] });
+        if (!m) { const L = this._carryState(); this._carrySetState({ ...L, tries: L.tries + 1 }); return { status: "bad-file", file: files[k] }; }
+        for (const [h, v] of m) pairs.set(h, v);
+      }
+      return this._carryApply(pairs, why);
+    }).catch(() => ({ status: "failed" })).finally(() => { this._carryBusy = false; });
+    this._carryP = p;
+    return p;
+  }
+  _carryApply(pairs, why) {
+    const r = ngCarryApply({ stage: this.stage, srs: this.srs }, pairs, (t) => this.qhash(t), this._epochDay(), ngKnowledgeMergeRow);
+    if (r.rows) { this.stage = r.stage; this.srs = r.srs; }
+    // this browser's gone marks: lifted on a grade the carry just made live, set on the old key it came from (F3). ONE DECK AT A
+    // TIME: `_goneSave` writes one deck and hands back the store's whole map, so each deck is marked on the map it handed back
+    const byDeck = new Map(), decks = new Set();
+    for (const [dk, nu, , old] of r.carried) { if (!byDeck.has(dk)) byDeck.set(dk, []); byDeck.get(dk).push([nu, old]); }
+    for (const [dk, list] of byDeck) {
+      const gone = (this.stageGone = this.stageGone || {}), m = Object.assign({}, gone[dk] || {});
+      let moved = false;
+      for (const [nu, old] of list) { if (m[nu]) { delete m[nu]; moved = true; } if (!m[old]) { m[old] = 1; moved = true; } }
+      if (!moved) continue;
+      if (Object.keys(m).length) gone[dk] = m; else delete gone[dk];
+      decks.add(dk); this._goneSave(dk);
+    }
+    this._cardCarry = true;
+    this._carrySetState({ n: ngCarryCount({ srs: this.srs, stage: this.stage }), pending: false, tries: 0 });
+    if (r.rows || decks.size) this._publishKnowledge("card-carry");
+    if (r.rows) this._saveProgress();   // a carry that moved nothing writes nothing, so it pushes nothing
+    return { status: "applied", why, rows: r.rows, carried: r.carried.length };
   }
   _hydrateProgressBlob(p) {
     if (p !== null) ngProgressValidateBlob(p);
@@ -5225,6 +5308,8 @@ class Component extends DCLogic {
       // synced `stageGone` a record already carries is ignored and kept as it is, through `_progressExtras`); a merge's own
       // staging instance has no host and reads none
       this.stageGone = this._goneLoad();
+      // CARD1-S3: the carry's done marker (`cardCarry: 1`, frozen: progress-owner.src.js above NG_CARRY_BEFORE)
+      this._cardCarry = ngCarryDone(p.cardCarry);
       this.units = Object.assign({}, p.units || {});
       this.belts = Object.assign({ won: {} }, p.belts || {});
       this.belts.won = Object.assign({}, (p.belts || {}).won || {});
@@ -5294,6 +5379,7 @@ class Component extends DCLogic {
     // `openAt` and `recallCarry` (v1.270.0, U163 c) once set; an older client keeps both through `_progressExtras`
     if (this._openAt > 0) out.openAt = this._openAt;
     if (this._recallCarry) out.recallCarry = true;
+    if (this._cardCarry) out.cardCarry = NG_CARRY_DONE;   // CARD1-S3: the carry's done marker, never removed
     return out;
   }
   _saveProgress() {
@@ -8759,6 +8845,7 @@ class Component extends DCLogic {
   }
   _mergeProgressFields(cloud) {
     this._progressExtras = Object.assign({}, cloud, this._progressExtras || {});
+    this._cardCarry = !!this._cardCarry || ngCarryDone(cloud && cloud.cardCarry);   // CARD1-S3: done on either copy is done
         const prep = this.prep || {}, days = this._days || {};
         for (const k in (cloud.prep || {})) prep[k] = Math.max(prep[k] || 0, cloud.prep[k] || 0);
         for (const d in (cloud.days || {})) days[d] = Math.max(days[d] || 0, cloud.days[d] || 0);
@@ -8937,6 +9024,7 @@ class Component extends DCLogic {
       if (!empty && (!cloud || typeof cloud !== "object" || Array.isArray(cloud) || ![1, 2].includes(cloud.v))) throw new Error("Unsupported cloud progress");
       // v1.255.2: what the cloud holds now, for _pushCloud's "nothing changed" test. An empty account holds nothing to match.
       const seen = empty ? null : { userId, key: ngProgressCloudKey(cloud) };
+      const carryHeld = ngCarryCount({ srs: this.srs, stage: this.stage });   // CARD1-S3: September rows this copy held before the pull
       if (!empty) {
         // v1.280.2: the cards this copy answered and has not yet delivered are rebuilt on the cloud's rows, never merged
         // (a first right answer given before this pull no longer turns a mature card into one day): `ngProgressReplay`
@@ -8961,6 +9049,10 @@ class Component extends DCLogic {
       // pushes nothing of the guest's; the next successful pull joins. Below: the push carries the joined practice.
       this._joinGuestPractice();
       this._saveProgress();         // persist verified merge; then push only if the merge differs from what the cloud gave
+      // CARD1-S3: after the pull, never before it. A pull that brought in September rows this copy did not hold (another
+      // device's, a guest's joined) makes the carry pending at once, so answers given before the next decision cannot hide it
+      if (ngCarryCount({ srs: this.srs, stage: this.stage }) > carryHeld) this._carrySetState({ ...this._carryState(), pending: true });
+      this._carryMaybe("pull");
       return true;
     } catch (e) {
       if (current()) { this._pulled = false; this._pulledUserId = null; this._cloudSyncError = "pull-failed"; }
@@ -15153,6 +15245,7 @@ class Component extends DCLogic {
    *  other question: a deck the manifest no longer has, false (the rating's `unknownDeck`); a loaded deck's own cards say it
    *  outright; an unloaded deck's live set does (`_ratingLiveNow`, 16 bits). Before the manifest is in, nothing is known. */
   _rowLive(dk, qh) {
+    if (this._gradeGone(dk, qh)) return false;   // CARD1-S3-R1 (F3): this browser knows the deck holds it no more
     const decks = this.flashcards && this.flashcards.decks;
     if (!decks) return null;
     const S = this._sharedQ && this._sharedQ.get(qh);

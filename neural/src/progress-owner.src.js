@@ -439,6 +439,10 @@ function ngProgressGuestPart(blob) {
   const settings = ngProgressObject(out.settings) ? out.settings : {}, at = ngProgressObject(out.settingsAt) ? out.settingsAt : {};
   const mods = Object.keys(settings).filter((k) => k.startsWith(NG_MOD_PREFIX) && ngModLive(settings[k]));
   delete out.settings; delete out.settingsAt; delete out.updatedAt; delete out.openAt;
+  // THE CARRY'S DONE MARKER (CARD1-S3, `cardCarry`, below at NG_CARRY_BEFORE) is the copy's own, never the account's: a
+  // guest's carried rows join as grades, and the account carries its own rows (joined, its marker would tell a fresh browser
+  // that the account's older rows were carried when no device of the account ever did). So it is not practice either.
+  delete out.cardCarry;
   if (mods.length) {
     out.settings = {}; out.settingsAt = {};
     for (const k of mods) { out.settings[k] = settings[k]; if (typeof at[k] === "number" && Number.isFinite(at[k]) && at[k] >= 0) out.settingsAt[k] = at[k]; }
@@ -506,6 +510,135 @@ export function ngProgressPracticeKey(blob) {
   if (ngProgressObject(b.belts)) { delete b.belts.gf; delete b.belts.lvl; }
   if (ngProgressObject(b.challenges)) for (const id of NG_PROGRESS_TRAIL_CHALLENGES) delete b.challenges[id];
   return ngProgressCloudKey(b);
+}
+// ═══ THE ONE-TIME CARRY (CARD1-S3, v1.304.0; the owner's U220 a, the orchestrator's CARD1-S3-GO) ══════════════════════
+// v1.182.2 (90ceb6207) rewrote about half the corpus's questions; it reached the dev preview on 10 Sept 2026 and production
+// on 15 Sept (v1.182.13, main 7494c317c). A card's progress was keyed by its question's hash, so a player's grade (`stage`)
+// and schedule (`srs`) on a reworded card stayed under the OLD key, which no deck holds since (DUE1). The carry gives them
+// back ONCE, additively, to the card's key today: per (deck, old key -> new key) pair of the build's carry chunks (scripts/
+// regenerate_neural_data.py `write_card_carry`, from the committed neural/card-carry.json),
+//     srs[deck][new]   = ngKnowledgeMergeRow(srs[deck][new], srs[deck][old], today)   the later answer wins, as at a pull
+//     stage[deck][new] = max(stage[deck][new], stage[deck][old])
+// and NOTHING is deleted: the old rows stay (hidden as today: no deck holds their key). A player who already answered the new
+// text keeps the later row. A second run changes nothing, byte for byte. The app drives it (`_carryMaybe`, app.src.jsx):
+//   · WHO FETCHES (the orchestrator's ruling 1 on CARD1-S3 Part A): only a record that may hold an old key, known from its
+//     own dates (`ngCarryDecks`): a schedule row last answered before NG_CARRY_BEFORE (15 Oct 2026: production's release
+//     plus a month for stale tabs and cached chunks), or a grade with no schedule row (a record from before v1.105.0
+//     wrote none). It is a SUPERSET of the records that hold one: no fetch to decide, no live set, no eager byte. A record
+//     begun after the rewrite never fetches; one from before it with nothing reworded fetches once, carries nothing, and is
+//     marked done. Only the files its candidate decks fall in are asked for (`ngCarryFiles`).
+//   · WHEN, DECIDED BY CONTENT ON THIS BROWSER (CARD1-S3-R1, the sync reader of PR #471, F1): per owner, this browser keeps
+//     `{n, pending, tries}` (`<owner>:carry`, host `carryRead`/`carryWrite`, never in the record): `n` the record's
+//     `ngCarryCount` at this browser's last SUCCESSFUL step, `pending` a need it has not met yet. It carries when `pending`, or
+//     when the record now holds MORE September rows than `n` (they came in since: a pull, another tab, a guest joined); a pull
+//     that grows the count sets `pending` at once (so answers given in the same session cannot cancel it out); a record holding
+//     FEWER (rows answered since) brings `n` down to it. A need is kept until a step succeeds, across failures and reboots. A
+//     browser with no state starts at n = 0, so every browser of an account from before the rewrite fetches ONCE (at most the
+//     files its decks fall in): the synced marker is never what decides, because an older build's device keeps it whether or
+//     not THIS browser carried (the reader's traces, seeds 26 and 75: tests/card_carry.test.mjs 15 and 16).
+//   · THE BOUND (F2): NG_CARRY_TRIES answers FROM THE SERVER that were not a carry (a 404, a file not the one asked for, a
+//     malformed one), per owner, cleared by a success; one attempt a boot. A network failure (the fetch rejected, or the
+//     browser offline) is not a try. A fetch, a file or a storage that fails leaves the record exactly as it was.
+//   · THE DONE MARKER, `cardCarry: 1`, a top-level field. IT IS A CONSTANT, ON PURPOSE, AND FROZEN: an older build keeps a
+//     top-level field it does not know through `_progressExtras` LOCAL-WINS and pushes its own copy back at every pull (the
+//     loop PR #452 backed off from; MODS1 Part A, above at NG_MOD_PREFIX), so a marker two devices could write differently
+//     (a day, a list, the carry's id) could ping-pong between an older device and a newer one for good. One value can
+//     never differ. A later carry, if ever, takes a key of its own. Merged as an OR; dropped from the guest part (above).
+//   · ALL AT ONCE (the owner's U222 a, 25 Nov 2026): a carried row is owed by its own schedule from the moment it lands, like
+//     any row, so a returning player's due count rises by every carried row already due (most of them: the old ladder's
+//     steps up to 60 days have all elapsed since September). Nothing paces them, and the marker holds nothing for it.
+//     tests/card_carry.test.mjs.
+export const NG_CARRY_BEFORE = 20741;          // epoch day of 2026-10-15
+export const NG_CARRY_TRIES = 10;
+export const NG_CARRY_MAX_FILES = 64;          // what the emitter can write (write_card_carry); a claim of more is refused
+export const NG_CARRY_DONE = 1;
+// the decks of a record that may hold a key the rewrite orphaned (a Set; empty: nothing to fetch)
+export function ngCarryDecks(blob, before = NG_CARRY_BEFORE) {
+  const out = new Set();
+  if (!ngProgressObject(blob)) return out;
+  const srs = ngProgressObject(blob.srs) ? blob.srs : {}, stage = ngProgressObject(blob.stage) ? blob.stage : {};
+  for (const dk of Object.keys(srs)) {
+    const m = srs[dk];
+    if (!ngProgressObject(m)) continue;
+    for (const q of Object.keys(m)) { const r = m[q]; if (Array.isArray(r) && typeof r[2] === "number" && r[2] < before) { out.add(dk); break; } }
+  }
+  for (const dk of Object.keys(stage)) {
+    const s = stage[dk], m = ngProgressObject(srs[dk]) ? srs[dk] : {};
+    if (!ngProgressObject(s)) continue;
+    for (const q of Object.keys(s)) if (s[q] > 0 && !Object.prototype.hasOwnProperty.call(m, q)) { out.add(dk); break; }
+  }
+  return out;
+}
+// how many rows of a record may hold a key the rewrite orphaned (the same test, counted): a pull that makes this GROW brought
+// in rows another copy kept to itself since September (an older build's device that synced late): carried then, too (the
+// app's `_pullAndMerge`)
+export function ngCarryCount(blob, before = NG_CARRY_BEFORE) {
+  if (!ngProgressObject(blob)) return 0;
+  const srs = ngProgressObject(blob.srs) ? blob.srs : {}, stage = ngProgressObject(blob.stage) ? blob.stage : {};
+  let n = 0;
+  for (const dk of Object.keys(srs)) { const m = srs[dk]; if (ngProgressObject(m)) for (const q of Object.keys(m)) { const r = m[q]; if (Array.isArray(r) && typeof r[2] === "number" && r[2] < before) n++; } }
+  for (const dk of Object.keys(stage)) {
+    const s = stage[dk], m = ngProgressObject(srs[dk]) ? srs[dk] : {};
+    if (ngProgressObject(s)) for (const q of Object.keys(s)) if (s[q] > 0 && !Object.prototype.hasOwnProperty.call(m, q)) n++;
+  }
+  return n;
+}
+// the carry files those decks fall in: a deck is in file int(fnv1a32(deck key), 16) % n (`hash` is the app's qhash)
+export function ngCarryFiles(decks, n, hash) {
+  if (!Number.isInteger(n) || n < 1 || n > NG_CARRY_MAX_FILES) return [];
+  const out = new Set();
+  for (const dk of decks) out.add(parseInt(hash(dk), 16) % n);
+  return [...out].sort((a, b) => a - b);
+}
+// one carry file, read only if it is the one asked for (its own id, n and i), every deck in its own file, every pair 16 hex:
+// Map(deck hash -> [[old, new], …]), or null (the whole attempt then fails and nothing is applied)
+export function ngCarryRead(body, want) {
+  if (!ngProgressObject(body) || !want || body.v !== 1 || body.id !== want.id || body.n !== want.n || body.i !== want.i || !ngProgressObject(body.d)) return null;
+  const out = new Map();
+  for (const h of Object.keys(body.d)) {
+    const s = body.d[h];
+    if (!/^[0-9a-f]{8}$/.test(h) || parseInt(h, 16) % want.n !== want.i) return null;
+    if (typeof s !== "string" || !s.length || s.length % 16 || !/^[0-9a-f]+$/.test(s)) return null;
+    const pairs = [];
+    for (let i = 0; i < s.length; i += 16) pairs.push([s.slice(i, i + 8), s.slice(i + 8, i + 16)]);
+    out.set(h, pairs);
+  }
+  return out;
+}
+// THE STEP, pure: {stage, srs} in, {stage, srs, carried, rows} out (new objects for every deck it touched, the input
+// untouched). `carried`: every [deck, new key, moved, old key] whose old key held a row; `rows`: the targets that changed. `mergeRow`
+// is the knowledge law's ngKnowledgeMergeRow(local, cloud, today), the pull's own row merge.
+export function ngCarryApply(rec, pairs, hash, today, mergeRow) {
+  const srs = Object.assign({}, (rec && rec.srs) || {}), stage = Object.assign({}, (rec && rec.stage) || {});
+  const carried = [];
+  let rows = 0;
+  for (const dk of [...new Set([...Object.keys(srs), ...Object.keys(stage)])].sort()) {
+    const P = pairs.get(hash(dk));
+    if (!P) continue;
+    for (const [old, nu] of P) {
+      if (old === nu) continue;
+      const so = ngProgressObject(srs[dk]) ? srs[dk][old] : undefined, st = ngProgressObject(stage[dk]) ? stage[dk][old] : undefined;
+      const hasRow = Array.isArray(so), hasStage = typeof st === "number" && st > 0;
+      if (!hasRow && !hasStage) continue;
+      let moved = false;
+      if (hasRow) {
+        const cur = Array.isArray(srs[dk][nu]) ? srs[dk][nu] : null, m = mergeRow(cur, so, today);
+        if (!cur || JSON.stringify(cur) !== JSON.stringify(m)) { srs[dk] = Object.assign({}, srs[dk], { [nu]: m }); moved = true; }
+      }
+      if (hasStage && !((ngProgressObject(stage[dk]) ? stage[dk][nu] || 0 : 0) >= st)) {
+        stage[dk] = Object.assign({}, stage[dk], { [nu]: st }); moved = true;
+      }
+      carried.push([dk, nu, moved, old]);
+      if (moved) rows++;
+    }
+  }
+  return { srs, stage, carried, rows };
+}
+export function ngCarryDone(v) { return v === NG_CARRY_DONE; }
+// this browser's carry state for an owner, read leniently: {n: September rows at the last successful step, pending, tries}
+export function ngCarryStateRead(v) {
+  const o = ngProgressObject(v) ? v : {}, int = (x) => (Number.isSafeInteger(x) && x >= 0 ? x : 0);
+  return { n: int(o.n), pending: o.pending === true, tries: Math.min(int(o.tries), NG_CARRY_TRIES) };
 }
 // what a copy holds of the modifiers, for "did the join add any?": every `mod:` key, its value and its stamp
 export function ngProgressModsKey(blob) {
@@ -705,7 +838,8 @@ export function ngProgressLocalKey(owner, field = "progress") {
   // `pending` (v1.280.2): the owner's answers this browser has not yet seen delivered (`ngProgressReplay`, host `journal`)
   // `taken` (v1.280.2): on an account, the guest rows it took in at a join, by card (`ngProgressTakenParse`)
   // `gone` (v1.301.5, CARD1-S0-R1): the grades this browser marked gone from their decks (`ngProgressGoneParse`, host `goneRead`)
-  if (!["progress", "ladder", "firstroll", "coached", "guest", "device", "pending", "taken", "gone"].includes(field)) throw new TypeError("Unknown account-owned local field");
+  // `carry` (v1.304.0, CARD1-S3-R1): this browser's carry state for the owner (`ngCarryStateRead`, host `carryRead`)
+  if (!["progress", "ladder", "firstroll", "coached", "guest", "device", "pending", "taken", "gone", "carry"].includes(field)) throw new TypeError("Unknown account-owned local field");
   return NG_PROGRESS_OWNER_PREFIX + ngProgressOwnerId(owner) + ":" + field;
 }
 // A stored roll-ledger code: `b` + 16 hex as minted since v1.262.11, or any later short id (tolerant on purpose: a later
@@ -1139,6 +1273,16 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
         if (Object.keys(stored).length) storage.setItem(key, JSON.stringify(stored)); else storage.removeItem(key);
         return stored;
       } catch { return false; }
+    },
+    // CARD1-S3-R1: the carry's state for this owner ON THIS BROWSER (`ngCarryStateRead`), never in the record; answers null when
+    // it cannot say (the app then decides on its in-memory copy); a write that fails is not retried (the next decision writes it)
+    carryRead(inst) {
+      if (!host.current(inst)) return null;
+      try { return ngCarryStateRead(JSON.parse(storage.getItem(ngProgressLocalKey(inst._progressOwner, "carry")) || "null")); } catch { return null; }
+    },
+    carryWrite(inst, state) {
+      if (!host.current(inst)) return false;
+      try { storage.setItem(ngProgressLocalKey(inst._progressOwner, "carry"), JSON.stringify(ngCarryStateRead(state))); return true; } catch { return false; }
     },
     // ── v1.280.2 (NEXT2): the owner's undelivered answers (`ngProgressReplay`) ──
     // `rows`: [[field, bucket, item, ok, day, after], …] as the app's writers leave them. Appended in order, persisted at

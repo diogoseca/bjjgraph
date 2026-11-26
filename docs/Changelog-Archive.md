@@ -22553,3 +22553,160 @@ the older one reset the card, and its grades under the new text's hash count for
   `noteCardDone`'s latch, each by the key. `_mcWarmKey` stays unpinned, with the reason in the test's header.
 - **What must hold before the first id** is written in `scripts/check_card_keys.py`'s docstring, under BEFORE THE FIRST
   ID: the gate's id rule, where it runs, the emitter's text dedupe, `was:`, and the deploy rule.
+
+## v1.304.0 — The one-time carry: the rows v1.182.2 orphaned come back (CARD1-S3; the owner's U220 a, the orchestrator's CARD1-S3-GO, 25 Nov 2026)
+
+**Why** (CARD1, slice 3). v1.182.2 (90ceb6207, "Enforce concise authored flashcard questions") rewrote about half the
+corpus's questions. It reached the dev preview on 10 Sept 2026 and production on 15 Sept (v1.182.13, main 7494c317c); an
+earlier note here said 21 September, which was loose. A card's progress was keyed by its question's hash, so every grade
+(`stage`) and schedule (`srs`) a player had on a reworded card stayed under the OLD key, which no deck holds since (DUE1).
+CARD1-S2 made the key stable from now on; this gives back, once, what that rewrite took.
+
+**The source** (`scripts/build_card_carry.py` -> `neural/card-carry.json`, committed, never hand-edited):
+- three emits, each made by its own commit's emitter in a scratch worktree: 90ceb6207^ (98340ba10, v1.182.1), the
+  rewrite (90ceb6207) and today (3947d4418, v1.303.0; content unchanged since 510d3b25a);
+- per deck, card i of the old emit pairs with card i of the rewrite (all 2,896 decks pair); a changed text gives old key A
+  -> the rewrite's key B. A is carried only if deck d today no longer holds A, and either holds B (direct) or, with as
+  many cards as at the rewrite, holds another card in that place (second hop: its key C). Every key is the card key.
+- corpus counts: 9,553 (deck, old -> new) pairs over 9,320 old questions in 2,585 decks: 9,197 direct, 356 by a second
+  hop. LEFT OUT and counted: 293 in decks gone, 66 not recovered, 0 collisions (an heir that was another card's old text),
+  0 splits (one old key with two heirs IN ONE DECK). 1,002 old questions were orphaned by other changes and are not this
+  carry's. The 48 shared questions reworded differently per deck have one heir in each deck, and each deck's row goes to
+  its own (R1, the reader's F4; the first build left all 102 of their pairs out as "splits"). Part A counted 9,325
+  questions globally; by deck it is 9,320, because a target must be live in the SAME deck.
+- deterministic: two runs on the same emits write the same bytes (`--check` re-derives the committed file).
+
+**The wire** (`write_card_carry`, scripts/regenerate_neural_data.py):
+- every pair is checked against the decks the run emits, by the card key: a deck gone, a target not live, an old key live
+  again, a malformed pair are dropped and counted, printed every run; under half kept, none kept, a split in the source,
+  or two carried decks under one chunk-name hash are REFUSED (a split: one old key with two heirs in one deck). So a target card reworded later WITH its id keeps its pair.
+- data chunks in their own directory, `static/neural/carry/<i>.json` (never `flashcards/`, whose 33 readers skip only
+  `live-*` and `_*`), each under 36,000 B; a deck in file int(fnv1a32(deck key), 16) % n. Today: 6 files, 28,935 to
+  32,965 B, 189,284 B raw, 107,663 B gzip, all 9,553 pairs kept.
+- its descriptor {id, n} rides `curriculum.json` (`cardCarry`), never the pinned `_index.json` (LIVE3). The payload gate
+  counts `carry/` as an on-demand chunk directory; payload-first-hand bans it from the boot path.
+
+**Who fetches, and when** (the orchestrator's ruling 1 on Part A):
+- a record with a schedule row answered before 15 Oct 2026 (production's release plus a month for stale tabs and cached
+  chunks), or a grade with no schedule row (records before v1.105.0 wrote none): a superset of the records that hold an old
+  key, with no fetch to decide, no live set, no eager byte. Only the files its candidate decks fall in are asked for.
+- a guest at its load; a signed-in owner only after a successful pull for that user (pull before write); a local-only bind
+  waits for its pull. One attempt a boot, ten a browser (counted in localStorage, never in the record). Any failure
+  applies nothing.
+- decided by content, per owner on this browser (R1, below): when a need is pending, or the record holds more September
+  rows than at this browser's last successful step. A run over rows already carried is a no-op.
+
+**The step** (`ngCarryApply`, progress-owner.src.js), exactly as briefed: `srs[d][new] = ngKnowledgeMergeRow(srs[d][new],
+srs[d][old], today)`, `stage[d][new] = max(stage[d][new], stage[d][old])`, nothing deleted (the old rows stay, hidden as
+today). A player who answered the new text later keeps that row. This browser's gone mark on a carried grade is lifted. A
+carry that moved nothing keeps the marker on this browser only (no save, so no push).
+
+**The done marker: `cardCarry: 1`, a constant, frozen.** An older build keeps a top-level field it does not know through
+`_progressExtras` LOCAL-WINS and pushes its own copy back at every pull (PR #452's loop; MODS1 Part A). So a marker two
+devices could write differently (a day, a list, the carry's id) could ping-pong between an older and a newer device for
+good. One value cannot differ. Merged as an OR; dropped from the guest part (the account carries its own rows; a guest's
+carried rows join as grades) and so not practice. A later carry, if ever, takes its own key. Since R1 it decides nothing:
+an older build's device keeps it whether or not THIS browser carried.
+
+**All at once (the owner's U222 a, 25 Nov 2026; asked as (a) all at once or (b) the carried rows paced at 5 a day).** A
+carried row is owed by its own schedule from the moment it lands, like any row: a returning player's due count rises by every
+carried row already due, which is most of them (the old ladder's steps up to 60 days have all elapsed since September), and
+Practice asks them due first, as it asks the September rows the rewrite did not touch. Nothing paces them; the seam built
+while U222 was open went with the answer, so every owed reader reads the stored schedule exactly as on dev, and the marker
+holds nothing for pacing. Until the live set lands (the drawer's check) an old row is "not known yet" and stays counted beside
+the carried one, as dev counts it today (DUE1); once it lands the pool holds the carried rows alone.
+
+**The differential** (dev 3947d4418 against this build, the same wire, kept outside the repo as the reader's is): 100
+seeded records, 50 with September rows under real old keys and 50 without, 966 grades, 505 rows carried. Each record: the
+load, its decks landed, 14 acts (mc, recall, expiry, right and wrong, a legacy credit, a reveal left unanswered), two
+reboots, a pull, the pull then a landing, the practice key, another device's pull, a second tab merged back, a guest join.
+Three arms: A dev, B this build, C dev on the record with the carry pre-applied.
+- without September rows: B == A on every reading, 0 fetches, 0 markers;
+- with them: B == C on every reading but one kind, named below; all 50 marked; the B-vs-A differences are the carried rows
+  and what follows from them (mastery, stage, due, the answer mode, the glyph, score, recall, rating, mastered decks, the
+  journal rows, the record);
+- at the step no reading is lower in B than in A, but one mastery read 0.5666666666666665 against 0.5666666666666667: the
+  same sum in another order, 2e-16. (Measured before R1's F3, which lowers two kinds of reading to the deck's own true
+  value; the claim since is NO READING BELOW THE DECK'S OWN TRUE READING: R2, below.)
+- THE ONE KIND (13 of 50 records, 26 stage readings, all at the guest join): the account's own carry runs over the joined
+  copy (the guest's marker does not join), and `stage = max(stage[new], stage[old])` raises a carried card the player
+  MISSED after the carry back to its September stage, because the old row stays. Its schedule keeps the later row, so the
+  card is still due when the miss set it. It is what the app's stage MAX does at any pull from a copy holding a higher
+  stage. Left as briefed, for the orchestrator's ruling (one line: carry stage only where the target has no schedule row
+  answered after the source's).
+
+**Older builds** (tests/artifacts/_old_carry_marker.mjs, each release's real class from git): production v1.298.0, dev
+v1.301.5 and v1.303.0 each write the marker and every row back on load and save; take the cloud's marker into a copy
+without it and keep their own against a cloud without; merge idempotently; never write the marker. An older device that
+has not carried and this build's device that has, pulling in turn from one cloud, push once and then never (1, 0, 0, 0,
+0, 0), the cloud ending with the marker and every row of both: 21 of 21. Its control, this build writing a marker that
+differs at every save, keeps pushing (1, 1, 2, 2, 2, 2).
+
+**Tests:** tests/card_carry.test.mjs (15: the dates test, the files, the step, a guest's load, an untouched guest, a
+record with nothing reworded, pull before write, failures and the bound, done is done, a target reworded later with its
+id, the gone mark, the marker, all at once, late rows) and tests/card_carry_build.py (11: the generator on fixture emits, the
+emitter's checks and files, the committed source). Mutants, each red: the merge's direction, the marker never written,
+pull before write removed, the left-out splits carried, the tries bound removed, the late-rows rule removed, the
+emitter's split refusal removed, the emitter's target check and keep floor removed, the generator's collision check removed.
+
+**Payload** (check_payload_budget.py on the final build, the served app folders moved aside first; payload-first-hand):
+- the carry ships no eager byte and no deferred one: its 6 files are on-demand chunks (largest 32,693 B of the 40,000 B
+  ceiling), fetched only by a record the dates test names;
+- eager gzip 394,390 B: +1,523 B on dev's 392,867, all of it the carry's code (neural.js +4,521 B raw); deferred 564,703 B,
+  dev's own, under its 564,712 B ceiling; the first-hand core 413,933 B. No ceiling and no baseline moved.
+- Against the policy's v1.301.0 baselines the two delta-capped figures now read +4,894 of 5,000 (eager) and +4,948 of 6,000
+  (the core): the next app change meets the caps, so a checkpoint at dev's level is due (the orchestrator's call).
+- A first build with the U222 seam still in measured 564,727 B deferred (+15 B, the seam's call in master-list.src.js); it
+  went with the seam.
+
+**Journeys** (the touched ones, by the build lock, never the full suite): the 56 that seed a record's grades or schedule
+and assert on pushes, requests or the stored record, the fake-cloud ones, payload-first-hand, due-count-retired and
+guest-join: 799 of 799 on the final build (batch A, 360, also on the build before the seam went).
+
+**The build census** (`validate:build-shape`, PR only): the 6 carry files move `static_files` and the JSON class counts;
+they are re-seeded by a guarded capture, never by hand. The app rows are re-seeded (`validate:build-shape:app`).
+
+**R1, after the sync reader's read of PR #471** (the step sound over 1,200 fuzz seeds: no row lost, no stage down,
+idempotent, no #452 loop; MERGE AFTER 2 fixes):
+- **(F1) Decided by content, per owner on this browser, never by the synced marker.** The reader's traces (seeds 26 and
+  75)
+  showed a device that can miss its own September rows for good: the marker arrives in a pull, its own attempt failed or
+  was spent that boot, and from the next boot it read "done". Now each browser keeps, per owner and never in the record,
+  `{n, pending, tries}` (`<owner>:carry`): it carries when a need is pending, or when the record holds more September rows
+  than at its last successful step. A pull that grows the count makes the need pending at once, answered rows bring `n`
+  down, and a fresh browser fetches once. Tests 15 and 16 replay the two traces; 18 the count followed down.
+- **(F2) The bound:** ten answers from the SERVER that were not a carry, per owner, cleared by a success. A network
+  failure,
+  or a browser offline, is no try. Ten offline openings then one online carries, and a guest's spent tries do not bind an
+  account (test 7).
+- **(F3) The due badge counted each carried row twice until the live set landed** (the reader: 492 for a true 298). Each
+  carried old key is now marked gone on this browser, and `_rowLive` reads a gone-marked row as not live: 298 for 298 on a
+  fixture where the double count read 448 (test 17). The marks are written one deck at a time, because `_goneSave` hands
+  back the store's map (a first build marked one deck of many).
+- **(F4) The 48 shared questions reworded per deck are carried**, each deck's row to its own heir; only a split inside
+  one
+  deck would stay out (there is none).
+- **The stage MAX at a second run ships as designed** (the orchestrator's ruling, on the reader's measure: the one-liner
+  withholds the September grade on the most active players' cards, 270 pairs against 7).
+- Mutants, each red: the pending flag never set, the pull's growth rule removed, a network failure counted, the tries per
+  browser, a success not clearing them, the old keys not marked, `_rowLive` not reading the marks, the count not followed
+  down, the synced marker deciding again, the split rule global again, the emitter's per-deck refusal removed.
+
+**R2, after the sync reader's re-read at beb63d38f** (every fix holds over 1,200 seeds), tests and words only:
+- **The survivor: "the carry state kept per browser, not per owner"** (the real host's `carryRead`/`carryWrite` keyed per
+  browser) survived every unit, because `card_carry.test.mjs`'s `boot` keys the state in the test and never runs the host's
+  own key. Test 7 now ends on the REAL owner host
+  (`ngProgressCreateHost`, the test's `hostBrowser`, one memory storage, a reload a new host over it): a guest spends ten
+  server answers and an eleventh opening asks for nothing, then an account signing in on the SAME storage fetches and carries,
+  and each owner's state stays under its own key. Both forms of the mutant (the guest's key for every owner; one fixed key)
+  are red at test 7 alone, at "the account fetches the carry files"; 19 of 19 clean before and after.
+- **The claim, restated (the orchestrator's ruling): NO READING BELOW THE DECK'S OWN TRUE READING, not "no reading
+  lower".** The badge fix (F3) lowers some readings at the step: deck mastery on a deck not opened since #468, and the due
+  count before the live set, wherever dev itself counts a carried row twice. Each lowered reading equals the deck's own true
+  value once opened, and dev makes the same drop at that deck's next landing. Restated in `app.src.jsx` (above `_carryState`)
+  and in test 4, which now also asserts it: the deck's mastery after the carry, before it lands, is not below what it reads
+  once opened. The differential's "no reading is lower in B than in A" (above) predates F3.
+- **Its optional (the prune also marking schedule-only keys) goes to a follow-up**, not this PR.
+- `app.src.jsx`'s comment moves the four MDP-bound bundles' hash (the manifest's `gameplayHash` digests its raw bytes), so the
+  app rows are re-seeded in their own commit; no content path moves, and the capture's content proof stands.
+
