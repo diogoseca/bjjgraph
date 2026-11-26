@@ -22812,4 +22812,6 @@ true recall comes back to today's level (1,445.6 against 1,443.9) while 554 fewe
 **Payload** (check_payload_budget.py, both builds from clean folders, the same tree with dev's four files and with these):
 eager raw 1,527,230 → 1,528,316 B (+1,086, all neural.js); eager gzip 394,723 → 395,125 B (+402; 4,875 B of room under the
 400,000 B action line). Deferred raw 564,703 → 564,792 B (+89, all gameplan.js, which bundles the rating's corrected reading),
-80 B over its ceiling of 564,712 B, which left 9 B of room.
+80 B over its ceiling of 564,712 B, which left 9 B of room: moved to exactly its measured use, 564,792 B, in its own commit at
+the orchestrator's go (LATEGO2, under the owner's standing rule U207 a: 600,000 B, 35,208 B remain). The app rows re-seeded
+in their own commit (validate:build-shape:app); `npm run ci:validate` 27 of 27.
