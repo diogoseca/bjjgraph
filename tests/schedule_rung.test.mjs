@@ -4,8 +4,9 @@
 // THE RULE, in one sentence a player could read: a card climbs its step at a steady pace: each day you waited before
 // answering right earns the same share of the step, whenever you answer. It is the owner's formula (U188) with the ratio of
 // the STEP THE CARD IS IN at every answer: a card between rungs r < x < next stands on r's line, (x − r) × r ÷ (next − r)
-// days into r's step, and climbs it at (next − r) ÷ r days a day, rung after rung. On time or late it takes exactly one step
-// from the interval it reads. As a level: a real number climbing 1 ÷ (its rung's interval) a day, at most one level per answer.
+// days into r's step, and climbs it at (next − r) ÷ r days a day, rung after rung. On time or late it takes one step from the
+// interval it reads, or twice the days since its last answer when that is longer (LATE1, below). As a level: a real number
+// climbing 1 ÷ (its rung's interval) a day, at most one level per EARLY answer.
 // v1.281.0 drew one straight line from the card's own interval (A + w × (step(A) − A) ÷ A), which differs only where it stored
 // an anchor off the rungs.
 //
@@ -17,23 +18,41 @@
 // due is the rule's in exact arithmetic (pinned below in fractions). The 1e-6 tolerance of `ngKnowledgeDueDay` reads float
 // dust under or over a whole day right.
 //
+// THE LATE ANSWER (v1.305.0, LATE1, the owner, 25 and 26 Nov 2026): a right answer on or after the due earns the larger of one
+// step and twice the days since the last answer, no cap. The early formula is untouched (byte for byte the one-step client's,
+// pinned in tests/schedule_late.test.mjs), but the claims here compare HISTORIES, and a history's on-time and late answers now
+// double their waits. So each search counts its comparisons on two sides with the captured one-step client
+// (tests/_onestep_client.mjs, `doubled`): where the doubled wait decided no answer of either history, the two histories are
+// the one-step client's row for row and its claim is asserted exactly as it was (0 sooner, 0 behind, 0 ahead in exact days);
+// where it decided one, the numbers are measured and pinned. THE ONE PROPERTY IT TAKES: the doubled wait counts from the LAST
+// answer, so an extra early answer restarts it, and a card answered early once more can come due SOONER after a later late
+// answer than the card without it (in the extra-answer search, 228,947 of 801,955 such comparisons; the early answer itself
+// still never makes a card due sooner, and never costs a step).
+//
 // THE CLAIMS PINNED HERE, each over the reader's own searches replayed (its seeds, starts and loops, written fresh here):
-//   · an early right answer never leaves a card due sooner than without it (LIN1-R3's N1 is gone: 0 of 1,113,790, 0 of
-//     509,533), and from rows v1.281.0 wrote, off the rungs, one early answer then the next on any day is never behind;
+//   · an early right answer never leaves a card due sooner than without it on the histories the doubled wait never decided
+//     (LIN1-R3's N1 is gone: 0 of 329,039 and 0 of 79,694; until v1.304.0 0 of 1,113,790 and 0 of 509,533, every history),
+//     and from rows v1.281.0 wrote, off the rungs, one early answer then the next on any day is never behind there (0 of
+//     4,090); where it decided an answer, as measured above;
 //   · ahead of answering on time ONLY BY WHOLE DAYS, never in exact days: the on-time path answers on whole due days and
-//     restarts there (LIN1-R2's D1: (a) at most 3 days in the reader's early-only search, 839 of 566,832 prefixes; (b) 0 of
-//     40,536). Not a general bound: it adds up by about a day per on-time answer as a card ages (the reader of PR #426's
-//     5-day case, two years in, pinned beside it);
-//   · every due the writer sets is the rule's in exact fractions;
-//   · a day later never earns less, and no cliff, on rows of every client;
+//     restarts there (LIN1-R2's D1: (a) at most 3 days in the reader's early-only search against the one-step on-time path, 839
+//     of 566,832 prefixes, and 1 day against the shipped one, 603; (b) 0 of 40,536 where the doubled wait decides neither side,
+//     67 ahead by 5 at most where it does). Not a general bound: it adds up by about a day per on-time answer as a card ages
+//     (the reader of PR #426's 5-day case, two years in, pinned beside it);
+//   · every due the writer sets is the rule's in exact fractions, the late rule included (10,210 answers decided by it);
+//   · a day later never earns less, on rows of every client; no cliff before the due: a day before it earns half the due
+//     day's one step, and half the due day's credit wherever the doubled wait does not decide the due day (where it does, an
+//     upward jump at the due: 51 of 465);
 //   · the rows v1.281.0 wrote are never made due sooner, through mixed-writer histories and the merges;
 //   · every row the writer emits passes the blob validator, this client's and the older clients' (v1.280.4, production
 //     v1.252.0, captured in tests/artifacts/progress_validators.json): a pair day below 0 is never stored (LIN2-R1); such a row
-//     stores its exact interval dated on its own day, so every claim above holds on it too, from epoch day 0 (LIN2-R2).
+//     stores its exact interval dated on its own day, so every claim above holds on it too, from epoch day 0 (LIN2-R2), and a
+//     daily run there ends where one on-time answer of the one-step client does (the shipped one is later from 31 to 89 days).
 // His formula on every rung, never sooner and the rest stay in tests/schedule_linear.test.mjs and tests/schedule_ladder.test.mjs.
 //
 // THE v1.281.0 CLIENT is captured from git (never re-typed) in tests/artifacts/schedule_lin1_client.json
-// (tests/artifacts/_capture_lin1_schedule.mjs).
+// (tests/artifacts/_capture_lin1_schedule.mjs), the one-step client (v1.304.0) in tests/artifacts/schedule_onestep_client.json
+// (tests/artifacts/_capture_onestep_schedule.mjs).
 //
 // MUTANTS (v1.281.3), each applied alone to a copy of the tree and run against the ten schedule unit files (this one,
 // schedule_linear, schedule_ladder, knowledge_profile, moves_record, moves_account_safety, answers_before_sync,
@@ -70,6 +89,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import * as K from "../neural/src/knowledge-profile.src.js";
 import { ngProgressMergeMoves, ngProgressValidateBlob, ngProgressCreateStore, ngProgressOwner } from "../neural/src/progress-owner.src.js";
+import { onestep, doubled } from "./_onestep_client.mjs";
 
 const W = K.ngKnowledgeScheduleRow, L = K.NG_KNOWLEDGE_LADDER, cell = K.ngKnowledgeCell;
 const json = (p) => JSON.parse(readFileSync(new URL(p, import.meta.url), "utf8"));
@@ -80,9 +100,14 @@ const prev = new Function(PREV.knowledge.ladder + "\n" + PREV.knowledge.schedule
 const oldWrite = new Function(OLD.knowledge.intervals + "\n" + OLD.knowledge.scheduleRow + "\nreturn ngKnowledgeScheduleRow;")();
 const VALIDATORS = json("./artifacts/progress_validators.json").clients;
 const validators = { now: ngProgressValidateBlob, ...Object.fromEntries(Object.entries(VALIDATORS).map(([k, v]) => [k, new Function(v.validator + "\nreturn ngProgressValidateBlob;")()])) };
-const rows = (row, days) => days.map((d) => (row = W(row, true, d)));
+const rows = (row, days, write = W) => days.map((d) => (row = write(row, true, d)));
 const exactDue = (r) => r[2] + K.ngKnowledgeInterval(r);
 const lcg = (s) => () => (s = (s * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff;
+// a history of right answers with, at each answer, whether the doubled wait (LATE1) decided it or any answer before it: a
+// history it never decided is, row for row, the one-step client's (tests/_onestep_client.mjs)
+// (an answer before its row's due takes the early branch, which is the one-step client's byte for byte — pinned in
+// tests/schedule_late.test.mjs — so only an answer on or after the due is asked)
+const track = (start, days) => { const out = []; let r = start, dbl = false; for (const d of days) { if (!dbl && d >= r[0] && doubled(r, d)) dbl = true; r = W(r, true, d); out.push({ r, dbl }); } return out; };
 
 test("the rung pair: a card between rungs stands on the line of the rung below it, at the interval it reads", () => {
   const D = 20400;   // a real epoch day (16 Nov 2025): every pinned row is one a device could hold
@@ -94,7 +119,10 @@ test("the rung pair: a card between rungs stands on the line of the rung below i
   // a 75-day card (between 60 and 90): 30 days into the 60-day step, which climbs half a day a day, then the 90 rung a day a day
   assert.deepEqual(W([D + 75, 60, D], true, D + 28), [D + 28 + 89, 60, D + 28, 60, D - 30], "day 28: 89 days (v1.281.0's line from 75 gave 98)");
   assert.deepEqual(W([D + 75, 60, D], true, D + 74), [D + 74 + 134, 120, D + 74, 90, D + 30], "a day before its due: 134 days");
-  assert.deepEqual(W([D + 75, 60, D], true, D + 75), [D + 75 + 135, 120, D + 75], "on its due: exactly one step, 135 days, anchored at its day");
+  // on its due (LATE1, v1.305.0): twice the 75 days waited, 150, beats one step (135, what it earned until v1.304.0), anchored at
+  // its day; a day before it, the early line's 134 is untouched
+  assert.deepEqual(W([D + 75, 60, D], true, D + 75), [D + 75 + 150, 120, D + 75], "on its due: the doubled wait, 150 days (one step gave 135), anchored at its day");
+  assert.deepEqual(onestep.write([D + 75, 60, D], true, D + 75), [D + 75 + 135, 120, D + 75], "the one-step client: exactly one step, 135 days");
   // the two lines agree at the due: one step from 75 is 135 either way
   assert.equal(lin1.write([D + 75, 60, D], true, D + 75)[0], D + 75 + 135);
   // THE ONE-STEP CAP binds only at and past the top (11,968,512 days, where a step is the top): (1) an early answer that walks
@@ -109,7 +137,7 @@ test("the rung pair: a card between rungs stands on the line of the rung below i
   assert.deepEqual([W(past, true, D), W(past, true, D - 30)], [past, past], "past the top, no day waited: kept as it was");
 });
 
-test("an early right answer never leaves a card due sooner than without it: the reader's searches replayed, 0 of 1,113,790 and 0 of 509,533", () => {
+test("an early right answer never leaves a card due sooner than without it on every history the doubled wait never decided: the reader's searches replayed (LATE1)", () => {
   // (1) the reader's long extra-answer search: base histories of right answers, each with ONE more right answer added in a
   // gap, early when given, compared after every later answer of the base
   const T = 10000, starts = [];
@@ -118,18 +146,26 @@ test("an early right answer never leaves a card due sooner than without it: the 
   starts.push({ kind: "head", row: W([T + 120, 120, T], true, T + 120) });
   for (let i = 2; i < 11; i++) starts.push({ kind: "mid", row: W([T + L[i], cell(L[i]), T], true, T + Math.floor(L[i] * 0.4)) });
   const rnd = lcg(77);
-  let inserted = 0, compared = 0, sooner = 0;
+  // each comparison is counted on its side: UNTOUCHED when the doubled wait decided no answer of either history up to it (then
+  // both are the one-step client's histories, row for row, and its claim holds exactly), DECIDED otherwise
+  let inserted = 0, compared = 0, sooner = 0, decided = 0, soonerDecided = 0, worst = null;
   const search = (st, ds) => {
-    const base = rows(st.row, ds), from = [st.row[2], ...ds];
+    const base = track(st.row, ds), from = [st.row[2], ...ds];
     for (let g = 0; g < ds.length; g++) {
-      const lo = from[g], hi = ds[g], prior = g ? base[g - 1] : st.row, span = hi - lo - 1;
+      const lo = from[g], hi = ds[g], prior = g ? base[g - 1].r : st.row, span = hi - lo - 1;
       if (span < 1) continue;
       for (let t = 0, n = Math.min(span, 12); t < n; t++) {
         const e = lo + 1 + Math.floor(((t + rnd()) / n) * span);
         if (!(e > lo && e < hi && e < prior[0])) continue;   // early: before the due of the row it answers
         inserted++;
-        const ext = rows(st.row, [...ds.slice(0, g), e, ...ds.slice(g)]);
-        for (let k = g; k < ds.length; k++) { compared++; if (ext[k + 1][0] < base[k][0]) sooner++; }
+        const days = [...ds.slice(0, g), e, ...ds.slice(g)], ext = track(st.row, days);
+        for (let k = g; k < ds.length; k++) {
+          compared++;
+          const by = base[k].r[0] - ext[k + 1].r[0];
+          if (!ext[k + 1].dbl && !base[k].dbl) { if (by > 0) sooner++; continue; }
+          decided++;
+          if (by > 0) { soonerDecided++; if (!worst || by > worst.by) worst = { by, start: st.row, days: days.slice(0, k + 2), base: base[k].r, ext: ext[k + 1].r }; }
+        }
       }
     }
   };
@@ -154,42 +190,66 @@ test("an early right answer never leaves a card due sooner than without it: the 
       search(st, d);
     }
   }
-  assert.deepEqual([inserted, compared, sooner], [427680, 1113790, 0], "the reader's search replayed: never sooner");
+  // the one-step client's claim, on every history the doubled wait never decided (until v1.304.0: 427,680 inserted, 1,113,790
+  // compared, 0 sooner; the histories differ now because their late answers earn more)
+  assert.deepEqual([inserted, compared - decided, sooner], [434218, 329039, 0], "the reader's search replayed, the histories the doubled wait never decided: never sooner");
+  // THE DOUBLED WAIT COUNTS FROM THE LAST ANSWER (LATE1, the owner's rule: "elapsed time in days is doubled"), so an extra early
+  // answer restarts the wait a later late answer doubles: on the histories it decided, the card with the extra answer is due
+  // sooner in 228,947 of 801,955 comparisons. Never by the step: on those histories alone it is never sooner (above). The
+  // worst is the search's latest history: a 2,922-day card answered 1.5 to 2 times its interval late five times over; the
+  // extra answer leaves it due 74,553 days (204 years) before the card without it, at an interval of 408,482 days
+  assert.deepEqual([decided, soonerDecided], [801955, 228947], "the histories the doubled wait decided: sooner, as measured");
+  assert.deepEqual(worst, { by: 74553, start: [12922, 120, 10000], days: [14213, 26723, 57863, 141207, 185727, 382448], base: [864930, 120, 382448], ext: [790377, 120, 382448, 374016, 348535] });
   // (2) the reader's exhaustive two-answer search: two base answers b1 < b2, one extra early answer before b1 or
   // between them, over a grid of days from rung starts and dev rows
-  let n2 = 0, bad2 = 0;
+  let n2 = 0, bad2 = 0, dec2 = 0, bad2Decided = 0, worst2 = null;
   for (const s of [...L.slice(0, 10).map((x) => [x, cell(x), 0]), ...[5, 20, 42, 75, 100, 120, 241, 500, 2000].map((x) => [x, cell(x), 0])]) {
     const I = s[0], st = Math.max(1, Math.floor(I / 15));
     for (let b1 = 1; b1 <= 2 * I; b1 += st) {
       const r1 = W(s, true, b1);
       for (let b2 = b1 + 1; b2 <= b1 + 2 * (r1[0] - r1[2]); b2 += Math.max(1, Math.floor((r1[0] - r1[2]) / 15))) {
-        const without = W(r1, true, b2)[0];
+        const wo = track(s, [b1, b2])[1], without = wo.r[0];
         for (let e = 1; e < b2; e += st) {
           if (e === b1) continue;
           const prior = e < b1 ? s : r1; if (e >= prior[0]) continue;
           n2++;
-          if (rows(s, e < b1 ? [e, b1, b2] : [b1, e, b2]).at(-1)[0] < without) bad2++;
+          const days = e < b1 ? [e, b1, b2] : [b1, e, b2], w = track(s, days)[2], by = without - w.r[0];
+          if (!wo.dbl && !w.dbl) { if (by > 0) bad2++; continue; }
+          dec2++;
+          if (by > 0) { bad2Decided++; if (!worst2 || by > worst2.by) worst2 = { by, start: s, days, without: wo.r, with: w.r }; }
         }
       }
     }
   }
-  assert.deepEqual([n2, bad2], [509533, 0], "the reader's two-answer search replayed: never sooner");
+  // (until v1.304.0: 509,533 tried, 0 sooner)
+  assert.deepEqual([n2, n2 - dec2, bad2], [606486, 79694, 0], "the reader's two-answer search replayed, the histories the doubled wait never decided: never sooner");
+  // and where it decided an answer: sooner in 336,998 of 526,792, at worst a 2,000-day card answered 3,991 then 7,981 days in
+  // (late both times) and once more on day 19,952: with an extra early answer on day 3,991 + 3,990 it is due 7,979 days sooner
+  assert.deepEqual([dec2, bad2Decided], [526792, 336998], "the histories the doubled wait decided: sooner, as measured");
+  assert.deepEqual(worst2, { by: 7979, start: [2000, 120, 0], days: [3991, 7981, 19952], without: [51874, 120, 19952], with: [43895, 120, 19952, 23376, 19385] });
   // the case v1.281.0 lost (LIN1-R3): a 30-day card answered on days 12, 56 and 86, and the same with one more on day 19. Under
-  // v1.281.0: 181 and 174. Now the card with the extra answer is never behind
+  // v1.281.0: 181 and 174; under the one-step client (v1.281.3 to v1.304.0) 173 and 174, the card with the extra answer never
+  // behind
   const D = 20400, on = (xs) => xs.map((x) => D + x);
   const without = rows([D + 30, 30, D], on([12, 56, 86])), withE = rows([D + 30, 30, D], on([12, 19, 56, 86]));
   assert.equal(lin1.write(lin1.write(lin1.write([D + 30, 30, D], true, D + 12), true, D + 56), true, D + 86)[0], D + 181, "v1.281.0: 181, and 174 with day 19");
-  // day 56 is late (one step from 42 to 72, at its own day), day 86 early: 72 stands on the 60-day rung's line, 24 days in
-  assert.deepEqual(without, [[D + 54, 30, D + 12, 30, D], [D + 128, 60, D + 56], [D + 173, 60, D + 86, 60, D + 32]]);
-  // with day 19, day 56 is early and walks the card's first line (60 days from day 30)
+  assert.deepEqual(rows([D + 30, 30, D], on([12, 56, 86]), onestep.write), [[D + 54, 30, D + 12, 30, D], [D + 128, 60, D + 56], [D + 173, 60, D + 86, 60, D + 32]], "the one-step client: day 56 one step from 42 to 72");
+  // LATE1: day 56 is late, 44 days after the answer on day 12: twice that, 88 days, beats one step (72), at its own day; day 86
+  // early: 88 stands on the 60-day rung's line, 56 days in, and climbs to 116
+  assert.deepEqual(without, [[D + 54, 30, D + 12, 30, D], [D + 144, 60, D + 56], [D + 202, 60, D + 86, 90, D + 60]]);
+  // with day 19, day 56 is early and walks the card's first line (60 days from day 30), untouched by the doubled wait: the
+  // extra answer restarted the wait day 56 would have doubled, so this card is due 28 days sooner than the one without it
   assert.deepEqual(withE, [[D + 54, 30, D + 12, 30, D], [D + 68, 30, D + 19, 30, D], [D + 129, 60, D + 56, 60, D + 30], [D + 174, 60, D + 86, 60, D + 30]]);
-  // and v1.281.0's worst (a 75-day row, 39 days sooner with one more answer on +21)
+  // and v1.281.0's worst (a 75-day row, 39 days sooner with one more answer on +21): the one-step client 13936 without it and
+  // 14005 with it; LATE1, both 14397 (its late answers double the waits, and the extra answer's restart is lost in them)
   const far = [15, 106, 173, 516, 1049, 2113].map((d) => T + d), start = [T + 75, 60, T];
-  assert.deepEqual(rows(start, far).at(-1), [13936, 120, 12113, 1822.1916666666668, 12113], "without it: due 13936 (v1.281.0: 14046)");
-  assert.deepEqual(rows(start, [far[0], T + 21, ...far.slice(1)]).at(-1), [14005, 120, 12113, 1891.1833333333334, 12113], "with it: 14005, later (v1.281.0: 14007, 39 days sooner)");
+  assert.deepEqual(rows(start, far, onestep.write).at(-1), [13936, 120, 12113, 1822.1916666666668, 12113], "the one-step client without it: due 13936 (v1.281.0: 14046)");
+  assert.deepEqual(rows(start, [far[0], T + 21, ...far.slice(1)], onestep.write).at(-1), [14005, 120, 12113, 1891.1833333333334, 12113], "with it: 14005, later (v1.281.0: 14007, 39 days sooner)");
+  assert.deepEqual(rows(start, far).at(-1), [14397, 120, 12113, 1461, 11290], "LATE1, without it: due 14397");
+  assert.deepEqual(rows(start, [far[0], T + 21, ...far.slice(1)]).at(-1), [14397, 120, 12113, 1461, 11290], "LATE1, with it: the same");
 });
 
-test("from rows v1.281.0 wrote (anchors off the rungs): one early answer, then the next on its old due, its own new due or any later day, is never behind", () => {
+test("from rows v1.281.0 wrote (anchors off the rungs): one early answer, then the next on its old due, its own new due or any later day, is never behind unless the doubled wait decided the next (LATE1)", () => {
   // rows v1.281.0's own writer leaves after mixed histories (early, on time, late), carrying pairs off the rungs
   const rnd = lcg(5), from = [];
   for (const I of [3, 7, 14, 20, 30, 42, 60, 75, 90, 120, 180, 241, 365]) for (let q = 0; q < 40; q++) {
@@ -198,7 +258,7 @@ test("from rows v1.281.0 wrote (anchors off the rungs): one early answer, then t
     if (r.length >= 5 && r[4] < r[2] && !L.includes(r[3])) from.push(r);
   }
   assert.ok(from.length > 150, `${from.length} rows off the rungs`);
-  let pairs = 0, behind = 0;
+  let pairs = 0, behind = 0, decided = 0, behindDecided = 0, worst = null;
   for (const r of from) {
     const I = r[0] - r[2];
     for (let e = r[2] + 1; e < r[0]; e += Math.max(1, Math.floor(I / 12))) {
@@ -206,25 +266,40 @@ test("from rows v1.281.0 wrote (anchors off the rungs): one early answer, then t
       for (const d of new Set([r[0], r1[0], r[0] + 1, e + 1, Math.floor((e + r1[0]) / 2), r1[0] + Math.floor(I / 2)])) {
         if (d <= e) continue;
         pairs++;
-        if (W(r1, true, d)[0] < W(r, true, d)[0]) behind++;
+        const by = W(r, true, d)[0] - W(r1, true, d)[0];
+        // the early answer on e is never decided by the doubled wait; the next one, on d, may be on either history
+        if (!doubled(r, d) && !doubled(r1, d)) { if (by > 0) behind++; continue; }
+        decided++;
+        if (by > 0) { behindDecided++; if (!worst || by > worst.by) worst = { by, row: r, e, d }; }
       }
     }
   }
-  assert.ok(pairs > 5000, `${pairs} pairs`);
-  assert.equal(behind, 0, "one early answer then the next on any day: never behind");
-  console.log(`v1.281.0 rows off the rungs: ${from.length}; one early answer then the next: ${pairs} pairs, ${behind} behind`);
+  assert.ok(pairs > 5000 && pairs - decided > 3000, `${pairs} pairs, ${pairs - decided} the doubled wait never decided`);
+  assert.equal(behind, 0, "one early answer then the next on any day, the doubled wait deciding neither: never behind");
+  // LATE1: where it decided the next answer, the early answer restarted the wait it doubles (it counts from the last answer), so
+  // the card answered early can come due sooner. At worst a v1.281.0 row of 3,964 days answered early 3 days before its due,
+  // then 7,925 days later: twice 7,925 days against twice 11,886, 7,922 days sooner
+  assert.deepEqual([pairs, decided, behindDecided], [13015, 8925, 7208], "as measured: the doubled wait decided 8,925 of 13,015 pairs, 7,208 behind");
+  assert.deepEqual(worst, { by: 7922, row: [17768, 120, 13804, 2349.6082, 12190], e: 17765, d: 25690 });
+  console.log(`v1.281.0 rows off the rungs: ${from.length}; one early answer then the next: ${pairs} pairs, ${behind} behind; the doubled wait decided ${decided}, ${behindDecided} behind, worst ${JSON.stringify(worst)}`);
 });
 
-test("ahead of answering on time only by whole days, never in exact days: at most 3 in the reader's early-only search (839 of 566,832), 0 of 40,536 in its targeted one, 5 by two years", () => {
-  const onTimePath = (row, n, exact) => { const p = []; let r = row; for (let k = 0; k < n; k++) { const d = exact ? exactDue(r) : r[0]; r = W(r, true, d); p.push({ day: d, row: r }); } return p; };
+test("ahead of answering on time only by whole days, never in exact days: at most 3 in the reader's early-only search (839 of 566,832), 0 of 40,536 in its targeted one, 5 by two years (LATE1: against both on-time paths)", () => {
+  // the on-time path, answered by `write` (the shipped writer, or the one-step client's: LATE1), `dbl` once the doubled wait
+  // decided one of its answers
+  const onTimePath = (row, n, exact, write = W) => { const p = []; let r = row, dbl = false; for (let k = 0; k < n; k++) { const d = exact ? exactDue(r) : r[0]; if (!dbl && write === W && doubled(r, d)) dbl = true; r = write(r, true, d); p.push({ day: d, row: r, dbl }); } return p; };
   // (a) the reader's early-only search: runs of answers each before the row's due, against the on-time path from the
   // run's start answered on its whole due days, and against the same path answered at its EXACT dues
   const rnd = lcg(21), starts = [];
   for (let i = 0; i < 13; i++) starts.push([10000 + L[i], cell(L[i]), 10000]);
   for (const iv of [2, 5, 10, 20, 42, 45, 59, 75, 89, 100, 120, 150, 241, 300, 500, 1000, 2000]) starts.push([10000 + iv, cell(iv), 10000]);
-  let prefixes = 0, ahead = 0, days = 0, aheadExact = 0, worst = null;
+  // (the runs are early only, so the doubled wait decides none of their answers: they are the one-step client's runs, row for
+  // row. Compared with the ONE-STEP on-time path they are exactly the comparisons of v1.281.3 to v1.304.0, and every claim
+  // below holds as it did. LATE1 moves the other side: the shipped on-time path, whose answers on a card between 30 and 90 days
+  // double the wait, so it runs ahead of the one-step path, and the early runs are ahead of it less often, never in exact days)
+  let prefixes = 0, ahead = 0, days = 0, aheadExact = 0, worst = null, aheadNow = 0, daysNow = 0, aheadExactNow = 0, decidedNow = 0, worstNow = null;
   for (const st of starts) {
-    const P = onTimePath(st, 40, false), X = onTimePath(st, 40, true);
+    const P = onTimePath(st, 40, false, onestep.write), X = onTimePath(st, 40, true, onestep.write), PN = onTimePath(st, 40, false), XN = onTimePath(st, 40, true);
     for (let q = 0; q < 3000; q++) {
       let r = st; const ds = [];
       for (let i = 0, n = 2 + Math.floor(rnd() * 10); i < n; i++) {
@@ -235,12 +310,23 @@ test("ahead of answering on time only by whole days, never in exact days: at mos
         if (k >= 0 && r[0] > P[k].row[0]) { ahead++; if (r[0] - P[k].row[0] > days) { days = r[0] - P[k].row[0]; worst = { st, ds: ds.slice(), r, next: P[k] }; } }
         const j = X.findIndex((p) => p.day >= d);
         if (j >= 0 && exactDue(r) > exactDue(X[j].row) + 1e-6) aheadExact++;
+        const kn = PN.findIndex((p) => p.day >= d);
+        if (kn >= 0) {
+          if (PN[kn].dbl) decidedNow++;
+          if (r[0] > PN[kn].row[0]) { aheadNow++; if (r[0] - PN[kn].row[0] > daysNow) { daysNow = r[0] - PN[kn].row[0]; worstNow = { st, ds: ds.slice(), r, next: { day: PN[kn].day, row: PN[kn].row } }; } }
+        }
+        const jn = XN.findIndex((p) => p.day >= d);
+        if (jn >= 0 && exactDue(r) > exactDue(XN[jn].row) + 1e-6) aheadExactNow++;
       }
     }
   }
   assert.equal(prefixes, 566832, "the reader's search, replayed");
-  assert.ok(ahead <= 839 && days <= 3, `${ahead} prefixes ahead in whole days, by at most ${days}`);
-  assert.equal(aheadExact, 0, "never ahead of the on-time path answered at its exact due");
+  assert.ok(ahead <= 839 && days <= 3, `${ahead} prefixes ahead of the one-step on-time path in whole days, by at most ${days}`);
+  assert.equal(aheadExact, 0, "never ahead of the one-step on-time path answered at its exact due");
+  // against the shipped on-time path (285,156 of the prefixes meet it where the doubled wait has decided one of its answers):
+  // 603 ahead, by 1 day at most, never in exact days. The worst: a 1-day card answered early on +1, +3, +8 and +18
+  assert.deepEqual([aheadNow, daysNow, aheadExactNow, decidedNow], [603, 1, 0, 285156], "against the shipped on-time path");
+  assert.deepEqual(worstNow, { st: [10002, 1, 10000], ds: [10001, 10003, 10008, 10018], r: [10041, 14, 10018, 14, 10010.5], next: { day: 10018, row: [10040, 14, 10018] } });
   // the worst: a 20-day row answered early eight times ends 3 days after the on-time path's next answer, on the same 365 rung's
   // line: the on-time path answers on whole due days, a fraction of a day after its exact due each time, and restarts there
   assert.deepEqual(worst.r, [11013, 120, 10508, 365, 10368.75]);
@@ -250,31 +336,54 @@ test("ahead of answering on time only by whole days, never in exact days: at mos
   let w0 = [10020, 14, 10000];
   for (const x of [9, 32, 38, 81, 92, 134]) w0 = W(w0, true, 10000 + x);
   assert.deepEqual(w0, [10260, 120, 10134, 90, 10098.75]);
-  assert.equal(onTimePath([10020, 14, 10000], 40, false).find((p) => p.day >= 10134).row[0], 10258);
+  assert.equal(onTimePath([10020, 14, 10000], 40, false, onestep.write).find((p) => p.day >= 10134).row[0], 10258);
+  assert.equal(onTimePath([10020, 14, 10000], 40, false).find((p) => p.day >= 10134).row[0], 10314, "the shipped on-time path, its waits doubled: 10314");
   // (b) the reader's targeted search: early, on its due (+0, 1, 2 or 5), then early near the next due
-  let tried = 0, aheadB = 0;
+  // (its runs answer once on or after a due, so the doubled wait can decide that answer, and the on-time path's: each run is
+  // counted on its side as in the extra-answer search)
+  let tried = 0, aheadB = 0, decidedB = 0, aheadBDecided = 0, worstB = null;
   for (let i = 0; i < 13; i++) {
     const A = L[i], t = 100000, start = [t + A, cell(A), t], P = onTimePath(start, 12, false);
     for (let f = 1; f < A; f += Math.max(1, Math.floor(A / 60))) for (const lateBy of [0, 1, 2, 5]) for (const g of [0.1, 0.3, 0.5, 0.7, 0.9, 0.97]) for (const tail of [1, 2, 3]) {
       let r = W(start, true, t + f); const ds = [t + f];
-      const d2 = r[0] + lateBy; r = W(r, true, d2); ds.push(d2);
+      const d2 = r[0] + lateBy, dblRun = doubled(r, d2); r = W(r, true, d2); ds.push(d2);
       for (let k = 1; k <= tail; k++) { const iv = r[0] - r[2], d = r[2] + Math.max(1, Math.floor((iv * g * k) / tail)); if (d >= r[0]) break; r = W(r, true, d); ds.push(d); }
       tried++;
       const k = P.findIndex((p) => p.day >= ds[ds.length - 1]);
-      if (k >= 0 && r[0] > P[k].row[0]) aheadB++;
+      if (k < 0) continue;
+      const by = r[0] - P[k].row[0];
+      if (!dblRun && !P[k].dbl) { if (by > 0) aheadB++; continue; }
+      decidedB++;
+      if (by > 0) { aheadBDecided++; if (!worstB || by > worstB.by) worstB = { by, start, ds: ds.slice(), r, next: { day: P[k].day, row: P[k].row } }; }
     }
   }
-  assert.deepEqual([tried, aheadB], [40536, 0], "early, on time, then early: never ahead");
+  assert.deepEqual([tried, aheadB], [40536, 0], "early, on time, then early, the doubled wait deciding neither side: never ahead");
+  // LATE1: where it decided an answer (31,827 runs), 67 runs end ahead of the on-time path in whole days, by 5 at most. The
+  // worst: a 30-day card answered early on day 17, then on its due 52 days later (twice 52, 104 days, beats one step), then
+  // early twice: due 5 days after the on-time path's answer of the same day. The doubled wait counts from the last answer,
+  // and the run's last answer before its due came later than the on-time path's
+  assert.deepEqual([decidedB, aheadBDecided], [31827, 67], "the runs the doubled wait decided: ahead, as measured");
+  assert.deepEqual(worstB, { by: 5, start: [100030, 30, 100000], ds: [100017, 100069, 100072, 100079, 100090], r: [100215, 120, 100090, 90, 100055], next: { day: 100090, row: [100210, 120, 100090] } });
   // v1.281.0's worst (b) sequence: a 30-day card answered on days 13, 56 (its due), 66 and 90 came due on 190 against the
-  // on-time path's 180 and stayed about a tenth ahead for good. On the rung's line it comes due on 180, and stays level
+  // on-time path's 180 and stayed about a tenth ahead for good. On the rung's line (the one-step client) it comes due on 180,
+  // and stays level
   const D = 20400;
-  let rb = [D + 30, 30, D];
-  const bRows = [13, 56, 66, 90].map((x) => (rb = W(rb, true, D + x)));
-  assert.deepEqual(bRows, [[D + 56, 30, D + 13, 30, D], [D + 129, 60, D + 56], [D + 144, 60, D + 66, 60, D + 30], [D + 180, 60, D + 90]]);
-  let ot = W(W([D + 30, 30, D], true, D + 30), true, D + 90);
-  const lead = [[rb[0] - D, ot[0] - D]];
-  for (let k = 0; k < 4; k++) { rb = W(rb, true, rb[0]); ot = W(ot, true, ot[0]); lead.push([rb[0] - D, ot[0] - D]); }
-  assert.deepEqual(lead, [[180, 180], [360, 360], [725, 725], [1455, 1455], [2916, 2916]], "no lead, for good");
+  const leadOf = (write) => {
+    let rb = [D + 30, 30, D];
+    const bRows = [13, 56, 66, 90].map((x) => (rb = write(rb, true, D + x)));
+    let ot = write(write([D + 30, 30, D], true, D + 30), true, D + 90);
+    const lead = [[rb[0] - D, ot[0] - D]];
+    for (let k = 0; k < 4; k++) { rb = write(rb, true, rb[0]); ot = write(ot, true, ot[0]); lead.push([rb[0] - D, ot[0] - D]); }
+    return { bRows, lead };
+  };
+  const one = leadOf(onestep.write), now = leadOf(W);
+  assert.deepEqual(one.bRows, [[D + 56, 30, D + 13, 30, D], [D + 129, 60, D + 56], [D + 144, 60, D + 66, 60, D + 30], [D + 180, 60, D + 90]]);
+  assert.deepEqual(one.lead, [[180, 180], [360, 360], [725, 725], [1455, 1455], [2916, 2916]], "the one-step client: no lead, for good");
+  // LATE1: the run's day 56 is its due, 43 days after day 13 (twice that, 86 days, beats one step, 73); the on-time path's day
+  // 90 comes 60 days after its day 30 (120 days, against one step's 90). From there the run with early answers is BEHIND the
+  // on-time path (by 4, 12, 28, 60 and 124 days), never ahead
+  assert.deepEqual(now.bRows, [[D + 56, 30, D + 13, 30, D], [D + 142, 60, D + 56], [D + 158, 60, D + 66, 90, D + 64], [D + 206, 60, D + 90, 90, D + 64]]);
+  assert.deepEqual(now.lead, [[206, 210], [440, 452], [911, 939], [1853, 1913], [3738, 3862]], "LATE1: never ahead");
   // NOT A GENERAL 3-DAY BOUND (the reader of PR #426, finding 2): the whole-day lead adds up, about a day per on-time answer
   // compared, as a card ages (its generator: up to 3 in a card's first 2 years, 5 by five years, 6 by ten, 12 near the top).
   // Its case: a 14-day card answered one day in, answered early on each of the on-time path's own answer days and on its own
@@ -284,17 +393,25 @@ test("ahead of answering on time only by whole days, never in exact days: at mos
   let r5 = c5;
   for (const x of [20416, 20417, 20449, 20450, 20512, 20513, 20610, 20804, 21196]) r5 = W(r5, true, x);
   assert.deepEqual(r5, [21984, 120, 21196, 730, 21139]);
-  const P5 = onTimePath(c5, 8, false), X5 = onTimePath(c5, 8, true);
-  assert.deepEqual(P5.map((p) => p.day), [20417, 20450, 20513, 20610, 20804, 21196, 21979, 23545], "the on-time path answers on 21196 too");
+  // (the run is early only: the one-step client's run; the case is against the ONE-STEP on-time path, as it was found)
+  const P5 = onTimePath(c5, 8, false, onestep.write), X5 = onTimePath(c5, 8, true, onestep.write);
+  assert.deepEqual(P5.map((p) => p.day), [20417, 20450, 20513, 20610, 20804, 21196, 21979, 23545], "the one-step on-time path answers on 21196 too");
   assert.equal(P5.find((p) => p.day >= 21196).row[0], 21979, "and is due 5 days before the early run");
   assert.ok(exactDue(r5) <= exactDue(X5.find((p) => p.day >= 21196).row) + 1e-6, "never ahead in exact days");
+  // LATE1: the shipped on-time path doubles its wait on day 20450 (33 days after day 20417: 66 days, against one step's 62.14) and after,
+  // and its next answer at or after 21196 is on 21451, due 22523: the early run is 539 days behind it, not ahead
+  const P5n = onTimePath(c5, 8, false);
+  assert.deepEqual(P5n.map((p) => p.day), [20417, 20450, 20516, 20648, 20915, 21451, 22523, 24668], "the shipped on-time path");
+  assert.deepEqual(P5n.find((p) => p.day >= 21196).row, [22523, 120, 21451]);
   console.log(`ahead of on time: (a) ${ahead} of ${prefixes} by at most ${days} whole days, ${aheadExact} in exact days; (b) ${aheadB} of ${tried}`);
 });
 
 // THE RULE IN EXACT FRACTIONS, written apart from the writer (no code shared): a card holds a level k + f (k a rung's index,
 // 0 ≤ f < 1, a fraction of BigInts), its interval L[k] + f × (L[k+1] − L[k]). A right answer before the due climbs the level at
-// 1 ÷ L[k] a day, rung after rung, never more than one level; on or after the due, one level; a miss, level 0 and 1 day. The
-// due is the first whole day at or after the exact one, never sooner than the row's.
+// 1 ÷ L[k] a day, rung after rung, never more than one level; on or after the due, one level, or (LATE1, v1.305.0) the level
+// of twice the days since the last answer when that is longer; a miss, level 0 and 1 day. The due is the first whole day at or
+// after the exact one, never sooner than the row's. The levels end at the ladder's top, so the model holds only intervals
+// below it: a doubled wait past the top (32,800 years: no cap of ours) is pinned in tests/schedule_late.test.mjs.
 const gcd = (a, b) => { a = a < 0n ? -a : a; while (b) [a, b] = [b, a % b]; return a; };
 const Q = (n, d = 1n) => { const g = gcd(n, d) || 1n; return d < 0n ? { n: -n / g, d: -d / g } : { n: n / g, d: d / g }; };
 const add = (a, b) => Q(a.n * b.d + b.n * a.d, a.d * b.d), sub = (a, b) => Q(a.n * b.d - b.n * a.d, a.d * b.d), mul = (a, b) => Q(a.n * b.n, a.d * b.d);
@@ -306,7 +423,11 @@ function answerQ(s, ok, day) {
   const d = BigInt(Math.max(day, Number(s.last)));
   if (!ok) return { k: 0, f: Q(0n), last: d, due: d + 1n };
   let k = s.k, f = s.f;
-  if (d >= s.due) { if (k < TOP) k++; }
+  if (d >= s.due) {
+    if (k < TOP) k++;
+    const w = 2n * (d - s.last);   // LATE1: the doubled wait, when it beats one level
+    if (lt(ivlQ(k, f), Q(w))) ({ k, f } = levelOfQ(Number(w)));
+  }
   else {
     let rem = Q(d - s.last);
     while (rem.n > 0n && k < TOP) { const dist = mul(sub(Q(1n), f), LB[k]); if (lt(rem, dist)) { f = add(f, div(rem, LB[k])); rem = Q(0n); } else { rem = sub(rem, dist); k++; f = Q(0n); } }
@@ -319,21 +440,35 @@ function answerQ(s, ok, day) {
 
 test("every due the writer sets is the rule's in exact fractions (so the 1e-6 tolerance only ever reads float dust)", () => {
   const rnd = lcg(13);
-  let answers = 0, differ = 0, dust = 0, ex = null;
+  let answers = 0, differ = 0, dust = 0, ex = null, beyond = 0, doubledAnswers = 0;
   for (const x of [1, 2, 3, 5, 7, 10, 14, 20, 30, 42, 45, 59, 60, 75, 89, 90, 100, 120, 150, 180, 241, 300, 365, 500, 730, 1000, 1461, 2000, 2922]) for (let q = 0; q < 250; q++) {
     let r = [10000 + x, cell(x), 10000], s = { ...levelOfQ(x), last: 10000n, due: BigInt(10000 + x) };
     for (let i = 0, n = 1 + Math.floor(rnd() * 9); i < n; i++) {
       const u = rnd(), miss = rnd() < 0.04, same = rnd() < 0.05;
       const d = same ? r[2] : r[2] + Math.max(1, Math.floor((r[0] - r[2]) * (0.05 + u * 1.45)));
-      r = W(r, !miss, d); s = answerQ(s, !miss, d); answers++;
+      if (!miss && doubled(r, d)) doubledAnswers++;
+      r = W(r, !miss, d); s = answerQ(s, !miss, d);
+      if (K.ngKnowledgeInterval(r) >= L[TOP]) { beyond++; break; }   // past the model's top: the history ends here
+      answers++;
       if (BigInt(r[0]) !== s.due) { differ++; if (!ex) ex = { r, due: s.due.toString() }; }
       const e = exactDue(r); if (Math.abs(e - Math.round(e)) < 1e-6 && !Number.isInteger(e)) dust++;
     }
   }
-  assert.ok(answers > 30000, `${answers} answers`);
+  assert.ok(answers > 30000 && doubledAnswers > 5000, `${answers} answers, ${doubledAnswers} of them decided by the doubled wait`);
+  assert.equal(beyond, 0, "no history reached the ladder's top (the model's end)");
   assert.equal(differ, 0, `dues off the exact rule's: ${JSON.stringify(ex)}`);
-  // float dust exists (a whole day computed a hair over or under) and is read as the whole day it is
-  assert.ok(dust > 0, `${dust} dues computed within 1e-6 of a whole day, every one the exact rule's`);
+  // float dust exists (a whole day computed a hair over or under) and is read as the whole day it is. Until v1.304.0 this search
+  // met 12 such dues, all on late answers between rungs (one step stored as [step, day]); LATE1 doubles most of those waits
+  // into whole days, and the search meets none (measured: 0). The dust is still written: an early answer on a row the one-step
+  // client wrote stores the same row in both clients, a hair under its whole due day (three of those 12, the rows as found)
+  assert.equal(dust, 0, "LATE1: the search's doubled waits are whole days");
+  for (const [prior, d, row, due] of [[[10208, 60, 10123, 85.0000000000026, 10123], 10158, [10273, 60, 10158, 90, 10132.999999999995], 10273],
+    [[10249, 60, 10158, 90.99999999999636, 10158], 10230, [10393, 120, 10230, 90, 10157.000000000004], 10393],
+    [[10652, 120, 10346, 180, 10224.000000000002], 10515, [10991, 120, 10515, 365, 10404.000000000002], 10991]]) {
+    const n = W(prior, true, d), e = exactDue(n);
+    assert.deepEqual([n, onestep.write(prior, true, d)], [row, row], `${prior} on ${d}: the same row in both clients`);
+    assert.ok(Math.abs(e - due) < 1e-6 && !Number.isInteger(e) && n[0] === due, `${n}: exact due ${e}, read as day ${due}`);
+  }
   console.log(`exact fractions: ${answers} answers, ${differ} dues differ, ${dust} computed within 1e-6 of a whole day`);
 });
 
@@ -344,7 +479,7 @@ test("a day later never earns less, and no cliff, on rows of every client", () =
     let r = [10000 + I, cell(I), 10000];
     for (let k = 0, n = 1 + Math.floor(rnd() * 4); k < n; k++) { r = write(r, rnd() > 0.05, r[2] + Math.max(1, Math.floor((r[0] - r[2]) * (0.05 + rnd() * 1.4)))); pop.push(r); }
   }
-  let checked = 0, cliffs = 0, states = 0;
+  let checked = 0, cliffs = 0, states = 0, jumps = 0, decidedStates = 0, cliffsOneStep = 0;
   for (const r of pop) {
     let prevDue = -Infinity, prevIvl = -Infinity;
     for (let d = r[2]; d <= r[0] + 30; d++) {
@@ -353,17 +488,25 @@ test("a day later never earns less, and no cliff, on rows of every client", () =
       assert.ok(iv >= prevIvl - 1e-9, `${r}: answered on ${d} earns ${iv}, a day earlier ${prevIvl}`);
       prevDue = n[0]; prevIvl = iv; checked++;
     }
-    // no cliff: a day before the due earns at least half of what the due day earns
+    // no cliff: a day before the due earns at least half of what the due day earns. LATE1: where the doubled wait decides the
+    // due day's answer (a card between 30 and 90 days, or one whose last answer came before its own due), the due day can
+    // earn more than twice the day before: an UPWARD jump at the due, never a fall after it (the loop above). Against the
+    // due day's ONE STEP (the one-step client's credit) the day before still earns half, on every state
     const I = K.ngKnowledgeInterval(r);
     if (r[0] - 1 > r[2]) {
       states++;
       const before = K.ngKnowledgeInterval(W(r, true, r[0] - 1)) - I, on = K.ngKnowledgeInterval(W(r, true, r[0])) - I;
-      if (before < on / 2) cliffs++;
+      if (before < onestep.interval(onestep.write(r, true, r[0])) / 2 - I / 2) cliffsOneStep++;
+      if (!doubled(r, r[0])) { if (before < on / 2) cliffs++; continue; }
+      decidedStates++;
+      if (before < on / 2) jumps++;
     }
   }
-  assert.ok(checked > 50000 && states > 1000, `${checked} answers, ${states} states`);
-  assert.equal(cliffs, 0, "a day before the due earns under half the due day's credit");
-  console.log(`a day later: ${checked} answers on ${pop.length} rows of four clients; no cliff in ${states} states`);
+  assert.ok(checked > 50000 && states - decidedStates > 1000, `${checked} answers, ${states} states, ${states - decidedStates} the doubled wait does not decide on the due day`);
+  assert.equal(cliffs, 0, "a day before the due earns under half the due day's credit (the doubled wait not deciding the due day)");
+  assert.equal(cliffsOneStep, 0, "a day before the due earns under half the due day's one step");
+  assert.deepEqual([states, decidedStates, jumps], [1577, 465, 51], "the due days the doubled wait decides (465 of 1,577), 51 of them an upward jump");
+  console.log(`a day later: ${checked} answers on ${pop.length} rows of four clients; no cliff in ${states} states (${decidedStates} due days decided by the doubled wait, ${jumps} of them an upward jump)`);
 });
 
 test("the rows v1.281.0 wrote are never made due sooner: answered by v1.281.3 on every day, and through mixed-writer histories and the merges", () => {
@@ -462,8 +605,9 @@ test("every row the writer emits passes the blob validator: this client's, v1.28
 test("the rows whose rung pair would be dated before 1970 store their exact interval at their own day, and keep every claim (LIN2-R2)", () => {
   // the cards it touches: on a rung above the epoch day, at small days (a wrong clock, a pull's clamp). Counted where it shows,
   // a pair off the rungs dated on the answer's own day (whole intervals store no pair, and read as exactly); every interval read
-  // is the exact one, and never sooner, a day later never earns less, one more early answer never costs
-  let answers = 0, extra = 0, touched = 0;
+  // is the exact one, and never sooner, a day later never earns less, one more early answer never costs where the doubled wait
+  // decides neither last answer (LATE1: where it does, the early answer restarted the wait it doubles; counted)
+  let answers = 0, extra = 0, touched = 0, extraDecided = 0, behindDecided = 0;
   for (const T of [0, 3, 40, 400]) for (const I of [20, 75, 200, 1000, 2000, 5844, 20000, 1e5]) {
     const s = [T + I, cell(I), T];
     for (const first of [T + 1, T + Math.floor(I / 3), T + I - 1]) {
@@ -479,26 +623,37 @@ test("the rows whose rung pair would be dated before 1970 store their exact inte
         prevDue = n[0]; prevIvl = iv; answers++;
         // one more early answer on the way, then this one: never behind
         const e = r[2] + Math.max(1, Math.floor((d - r[2]) / 2));
-        if (e < d && e < r[0]) { assert.ok(W(W(r, true, e), true, d)[0] >= n[0], `${r}: one more early answer on ${e} costs by ${d}`); extra++; }
+        if (e < d && e < r[0]) {
+          const r1 = W(r, true, e);
+          if (doubled(r, d) || doubled(r1, d)) { extraDecided++; if (W(r1, true, d)[0] < n[0]) behindDecided++; continue; }
+          assert.ok(W(r1, true, d)[0] >= n[0], `${r}: one more early answer on ${e} costs by ${d}`); extra++;
+        }
       }
     }
   }
   assert.ok(touched >= 15 && answers > 5000 && extra > 4000, `${touched} rows touched, ${answers} answers, ${extra} with one more`);
+  assert.deepEqual([extraDecided, behindDecided], [1072, 1024], "LATE1: the doubled wait decided 1,072, and the early answer left 1,024 of those behind");
   console.log(`rows dated on their own day: ${touched} touched, ${answers} answers read exactly, never sooner and never less a day later, ${extra} with one more early answer never behind`);
 });
 
-test("answered every day from epoch day 0 (a clock in 1970): every run ends where one on-time answer does (LIN2-R2)", () => {
+test("answered every day from epoch day 0 (a clock in 1970): every run ends where one on-time answer of the one-step client does, and where the shipped one does outside 30 to 90 days (LIN2-R2, LATE1)", () => {
   // the reader of PR #426's re-read: with LIN2-R1's fallback (the pair dropped, a day longer at most per answer) 953 of 2,921
   // daily runs from day 0 ended on another due day, a 731-day card 364 days late. Dated on its own day, the exact interval
-  // goes on exactly: the same due day, cell and last day, and interval to 1e-9, for every interval from 1 to 2,921 days
-  let off = 0;
+  // goes on exactly: the same due day, cell and last day, and interval to 1e-9, for every interval from 1 to 2,921 days, as one
+  // on-time answer of the one-step client (v1.281.3 to v1.304.0). A daily run's last answer comes a day after the one before
+  // it, so the doubled wait (LATE1) never decides it; the shipped on-time answer, after the whole interval, is decided by it
+  // exactly where one step is under double, a card strictly between 30 and 90 days (59 of them), and is later there
+  let off = 0, offNow = [];
+  const same = (a, b) => a[0] === b[0] && a[1] === b[1] && a[2] === b[2] && Math.abs(K.ngKnowledgeInterval(a) - K.ngKnowledgeInterval(b)) <= 1e-9;
   for (let I = 1; I <= 2921; I++) {
     let row = [I, cell(I), 0];
-    const onTime = W(row, true, I);
+    const onTime = onestep.write(row, true, I), onTimeNow = W(row, true, I);
     for (let d = 1; d <= I; d++) row = W(row, true, d);
-    if (row[0] !== onTime[0] || row[1] !== onTime[1] || row[2] !== onTime[2] || Math.abs(K.ngKnowledgeInterval(row) - K.ngKnowledgeInterval(onTime)) > 1e-9) off++;
+    if (!same(row, onTime)) off++;
+    if (!same(row, onTimeNow)) { offNow.push(I); assert.ok(onTimeNow[0] > row[0], `${I}: the shipped on-time answer is later than the daily run`); }
   }
-  assert.equal(off, 0, "daily runs from epoch day 0 that do not end where one on-time answer does");
+  assert.equal(off, 0, "daily runs from epoch day 0 that do not end where one on-time answer of the one-step client does");
+  assert.deepEqual(offNow, Array.from({ length: 59 }, (_, i) => 31 + i), "the shipped on-time answer differs (later) exactly from 31 to 89 days");
 });
 
 test("the reader's wrong clock: pull, clamp, answer, validate, save (LIN2-R1)", () => {

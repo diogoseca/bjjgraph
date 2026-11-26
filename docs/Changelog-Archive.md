@@ -22710,3 +22710,59 @@ idempotent, no #452 loop; MERGE AFTER 2 fixes):
 - `app.src.jsx`'s comment moves the four MDP-bound bundles' hash (the manifest's `gameplayHash` digests its raw bytes), so the
   app rows are re-seeded in their own commit; no content path moves, and the capture's content proof stands.
 
+
+## v1.305.0 — A late right answer earns twice the days since its last answer (LATE1; the owner's rule, 25 Nov 2026, ruled U223 b, 26 Nov 2026)
+
+**The rule, his words (25 Nov):** "when answering late, [the] elapsed time in days is doubled, that is the time in days for
+the next repetition space"; "i agree with the edges. also remember the rule where if it's answered earlier, there's already
+a formula for that right which discounts it". On the measured card (U223, 26 Nov): "b, Your rule, no cap". So a right answer
+on or after the due day earns max(one step from the interval it reads, 2 × the days since the last answer); early answers and
+wrong answers exactly as before; no ceiling of ours. The study it was ruled on is LATE1, Part A (a seat's read-only
+simulation, kept outside the repo): it saves 1 to 3% of reviews and costs about a point of recall at each review on the cards
+answered late; a returning player who clears the pile ends knowing more (+9 to +13), a player whose roll answers keep the pile
+full ends knowing less (−14 to −18 from month 9).
+
+**The code.** One small named function, `ngKnowledgeLate(step, elapsed)` (neural/src/knowledge-profile.src.js), called by the
+writer's late branch (`ngKnowledgeNext`). It is the only place the shape lives: the owner is reconsidering the top end (should
+the wait saturate?), and a later shape is a swap of its body. The row keeps its shape; the cell stays one of the seven old
+rungs, so every older build reads the row and climbs from it.
+
+**What a player sees.** A card answered late comes back later than before: a 30-day card answered 10 days late, in 80 days
+(one step gave 60); a 3-day card answered 75 days after its last answer, in 150 (one step gave 7); two years late, four years
+and more. On its due day a card takes one step, except where a step is under double (31 to 89 days): the 60-day card goes to
+120, past the 90 rung (ruled). A day later never earns less.
+
+**What it changes that was a pinned claim.** 23 unit tests in 6 files assumed "at most one step" (the study counted the same
+23). Each is restated in its file. The single values became the rule's values, with the one-step value kept beside them. The
+path searches of schedule_rung and schedule_linear are split by a differential against the captured one-step client
+(tests/artifacts/schedule_onestep_client.json, v1.304.0's writer cut from git; tests/_onestep_client.mjs). On the histories
+the doubled wait never decided, every old claim holds exactly. On the ones it decided, the measured counts are pinned. And 4
+study-engine tests were red only for the knowledge law's sha pin, which is re-pinned: label-neutral, every MDP shard part
+byte-identical with dev's file and with this one.
+
+**Two findings, both properties of the rule itself, not of the code:**
+- THE DOUBLED WAIT COUNTS FROM THE LAST ANSWER, so an early answer restarts it: an extra early answer can leave a card due
+  sooner, after a later late answer, than without it. In the reader's long extra-answer search (whose answers sit up to
+  decades apart), 228,947 of 1,130,994 comparisons came out sooner, the worst by 74,553 days; on time, on the 60-day rung, by
+  up to 30 days (an early answer, then the due day: the card is still early there and takes the 90 rung, where without the
+  early answer it would have taken 120). It never makes the card due sooner at the answer itself (the never-sooner guard),
+  and the next answer never earns less than one step from where the early answer left it.
+- TWO DEVICES OFFLINE: a device that answers without having seen the other's answers doubles the whole wait since the last
+  answer IT knows, and when its push lands first the merge's heal keeps that longer interval: the card ends ahead of the
+  in-time-order copy, never behind (8 days where in order 7; a 60-day card, 300 where in order 210.83). The journal replay
+  gets it right whenever the other device's answer reached the cloud first (tests/answers_before_sync.test.mjs, "a late
+  answer's doubled wait meets an older client's row…").
+
+**Mutants of the rule (commit 1), each applied alone to knowledge-profile.src.js and run against the six schedule unit files
+(schedule_late, schedule_ladder, schedule_linear, schedule_rung, knowledge_profile, answers_before_sync); each turned the named
+test red (with others):**
+
+| mutant | red, named | reds in all |
+|---|---|---|
+| T1 the max dropped (2 × the days only) | "on its due day: one step, except where a step is under double…" | 23 |
+| T2 the factor 2 → 1 | "the 60-day card answered on its due day goes to 120…" | 22 |
+| T3 `>=` → `>` at the due | "the 60-day card answered on its due day goes to 120…" | 17 |
+| T4 a cap sneaked in (the 2,922-day rung) | "very late: twice the days since the last answer, however many (no cap of ours)" | 10 |
+| T5a the early formula touched (its credit × 1.01) | "an early right answer: byte for byte the one-step client's…" | 28 |
+| T5b the early formula touched (the walk's `>=` → `>`) | "an early right answer: byte for byte the one-step client's…" | 10 |
+| J17 (NEXT2-R2's, in progress-owner) the replay's row always taken | "two offline devices, only right answers…" (its new case, rung 180) | 1 |
