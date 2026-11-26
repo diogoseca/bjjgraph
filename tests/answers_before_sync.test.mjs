@@ -436,7 +436,7 @@ test("a late answer's doubled wait meets an older client's row: the later answer
   // this device, offline, answers it on day D + 60: on its own copy, twice the 90 days since the last answer it knows
   await withDay(D + 60, async () => { C.pullFails = true; C.mode = "fail"; answer(X, Q1, true); await flush(); await settle(); });
   assert.deepEqual(C.blob.srs.d[H1], older, "premise: offline, its push never landed");
-  assert.deepEqual(X.srs.d[H1], [D + 240, 120, D + 60], "on this copy alone: 180 days");
+  assert.deepEqual(X.srs.d[H1], [D + 240, 120, D + 60, 0, 0, 90, 180], "on this copy alone: 180 days (its late mark: the one-step 90)");
   // it comes online the same day: its answer is replayed on the cloud's newer row, in time order: 20 days after the other
   // device's answer and before that row's due, so EARLY there (20 days up the 90-day rung's line: 110), never the 180 its
   // stale copy gave (the doubled wait counts from the last answer, and the replay knows it)
@@ -454,10 +454,12 @@ test("a late answer's doubled wait meets an older client's row: the later answer
   // the same day: the one-step client's own late answer (one step, 90 days) against this build's doubled one (120 days):
   // its merge keeps the longer interval (the heal), both orders, and so does this build's
   const mine = write(MATURE, true, D + 30), theirs = onestep.write(MATURE, true, D + 30);
-  assert.deepEqual([mine, theirs], [[D + 150, 120, D + 30], [D + 120, 60, D + 30]], "premise: 120 days and 90 days");
-  for (const merge of [onestep.merge, ngKnowledgeMergeRow]) {
-    assert.deepEqual(merge(theirs.slice(), mine.slice(), D + 30), mine, "the older copy pulls the doubled row: kept");
-    assert.deepEqual(merge(mine.slice(), theirs.slice(), D + 30), mine, "the doubled copy pulls the older row: kept");
+  assert.deepEqual([mine, theirs], [[D + 150, 120, D + 30, 0, 0, 90, 120], [D + 120, 60, D + 30]], "premise: 120 days (marked: one step was 90) and 90 days");
+  // (v1.305.0's late mark rides through this build's merge; the one-step client's keeps the schedule and drops the cells after
+  // the pair, so there the row reads uncorrected: knowledge-profile.src.js, `ngKnowledgeMark`, NOT COVERED)
+  for (const [merge, want] of [[onestep.merge, mine.slice(0, 3)], [ngKnowledgeMergeRow, mine]]) {
+    assert.deepEqual(merge(theirs.slice(), mine.slice(), D + 30), want, "the older copy pulls the doubled row: kept");
+    assert.deepEqual(merge(mine.slice(), theirs.slice(), D + 30), want, "the doubled copy pulls the older row: kept");
   }
 }));
 

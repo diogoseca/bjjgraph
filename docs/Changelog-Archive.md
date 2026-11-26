@@ -22766,3 +22766,50 @@ test red (with others):**
 | T5a the early formula touched (its credit × 1.01) | "an early right answer: byte for byte the one-step client's…" | 28 |
 | T5b the early formula touched (the walk's `>=` → `>`) | "an early right answer: byte for byte the one-step client's…" | 10 |
 | J17 (NEXT2-R2's, in progress-owner) the replay's row always taken | "two offline devices, only right answers…" (its new case, rung 180) | 1 |
+
+**The rating's correction (commit 2, the late mark).** Under the rule the rating (and Practice's worth, which reads the same
+function) read a stretched interval as better recall. The row alone cannot say a row was stretched: a 30-day card on its due
+and a 3-day card answered 30 days after its last answer both store `[last + 60, 60, last]`, and every interval value can be
+held by a row written before this build. So a stretched row stores two more numbers after the pair's slot, `[R, I]`. R is the
+interval the one-step schedule would hold after the same answers (the one-step writer run on the row, or on the row its mark
+stands for, so a chain of answers keeps it). I is the row's own exact interval, which is the mark's check. The rating reads R;
+the schedule never reads the mark. An older build's next answer leaves a stale mark that fails its check; a clamped pull fails
+it too. This build's pull merge carries the mark, its heal keeps the longer of the two one-step readings, and a full tie keeps
+the longer reading before the text decides, so a second pull still writes nothing. NOT COVERED: an older build's pull drops a
+cloud row's cells after the pair, so that row reads uncorrected from then on (higher, never lower, never a schedule's day).
+
+Proved: every row the four captured older writers produce, and the rating journey's stored record, reads bit for bit as
+v1.304.0's rating reads it (no rating moves at the update). On one device every card reads as the one-step client reads its
+own row for the same answers: 64,000 of 64,000 readings equal, over 800 histories, srs and moves.
+
+**The rating before and after, the study's four players** (the study's own memory model; the rating as the app reads full
+rows, `ngRatingRecall`; "today" = v1.304.0's one-step schedule):
+
+| player | true recall, today → the rule | rating, today | rating, the rule uncorrected | rating, the rule corrected |
+|---|---|---|---|---|
+| returning, 240 owed, day 180 | 1,433.0 → 1,443.7 | 1,158.1 | 1,174.1 | 1,165.0 |
+| returning, 434 owed, day 180 | 1,466.4 → 1,479.8 | 1,204.1 | 1,223.7 | 1,211.1 |
+| steady, skips 1 day in 5, day 365 | 1,449.5 → 1,458.6 | 1,179.9 | 1,194.7 | 1,187.6 |
+| steady with rolls (qsim policy A, 5 seeds), day 730 | 1,443.9 → 1,417.0 (corrected: 1,445.6) | 1,390.1 | 1,428.0 | 1,384.1 |
+
+(The first three players' rating counts an unseen card as 0 over a 4,000-card world, so it sits far below the truth, which
+counts an unseen card's prior chance; read the columns side by side.) Uncorrected, the rating rose more than true recall: in
+the fourth player by 37.9 points while true recall fell by 26.9. Corrected, it rises less than true recall, or falls a little
+with it. In the fourth player, Practice's order (which reads the same recall) also stops favouring the stretched cards, and
+true recall comes back to today's level (1,445.6 against 1,443.9) while 554 fewer cards are owed at day 730.
+
+**Mutants of the mark (commit 2), each applied alone and run against the schedule, rating, moves and practice unit files:**
+
+| mutant | red, named | reds in all |
+|---|---|---|
+| K1 the rating ignores the mark | "a stretched row reads at the one-step interval…" | 4 |
+| K2 the shadow ignores the prior's mark (no chain) | "on one device, every card reads as the one-step client reads its own row…" | 7 |
+| K3 the mark's check dropped | "the mark checks itself…" | 2 |
+| K4 the pull merge drops the cloud's mark | "the pull merge carries the mark, and the heal writes its own…" | 5 |
+| K5 the heal writes no mark | "the pull merge carries the mark, and the heal writes its own…" | 2 |
+| K6 a full tie without the reading | schedule_linear, "the srs merge…" (a second pull writes nothing) | 1 |
+
+**Payload** (check_payload_budget.py, both builds from clean folders, the same tree with dev's four files and with these):
+eager raw 1,527,230 → 1,528,316 B (+1,086, all neural.js); eager gzip 394,723 → 395,125 B (+402; 4,875 B of room under the
+400,000 B action line). Deferred raw 564,703 → 564,792 B (+89, all gameplan.js, which bundles the rating's corrected reading),
+80 B over its ceiling of 564,712 B, which left 9 B of room.

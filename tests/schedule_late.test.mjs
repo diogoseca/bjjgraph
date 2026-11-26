@@ -14,8 +14,10 @@
 //
 // THE CLAIMS: on its due day, one step, except where a step is under double (30 < interval < 90; the 60-day card goes to
 // 120, ruled); a day later never earns less, on every rung, between rungs and on the moves rows; very late, twice the days
-// since the last answer however many (no cap); early and wrong as before, byte for byte; every older build reads a row this
-// rule writes and climbs from it, and every captured validator takes it.
+// since the last answer however many (no cap); early and wrong as before, byte for byte (the schedule on every row; the whole
+// row on every row without v1.305.0's late mark, which a stretched row carries after the pair's slot for the rating:
+// tests/schedule_late_mark.test.mjs); every older build reads a row this rule writes and climbs from it, and every captured
+// validator takes it.
 // The sync of such a row (a fake cloud that holds rows, an older client's merge): tests/answers_before_sync.test.mjs, "a late
 // answer's doubled wait meets an older client's row…".
 //
@@ -33,7 +35,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import * as K from "../neural/src/knowledge-profile.src.js";
 import { ngProgressValidateBlob } from "../neural/src/progress-owner.src.js";
-import { onestep } from "./_onestep_client.mjs";
+import { onestep, schedulePart } from "./_onestep_client.mjs";
 
 const W = K.ngKnowledgeScheduleRow, L = K.NG_KNOWLEDGE_LADDER, cell = K.ngKnowledgeCell, iv = K.ngKnowledgeInterval;
 const json = (p) => JSON.parse(readFileSync(new URL(p, import.meta.url), "utf8"));
@@ -79,9 +81,11 @@ test("on its due day: one step, except where a step is under double (30 < interv
 });
 
 test("the 60-day card answered on its due day goes to 120 (skipping 90), and a day later to 122", () => {
-  assert.deepEqual(W([D + 60, 60, D], true, D + 60), [D + 180, 120, D + 60], "on its due: 120 days");
+  // (a row the doubled wait stretched carries its late mark after the pair's slot, v1.305.0: [0, 0, the one-step interval,
+  // its own]; tests/schedule_late_mark.test.mjs)
+  assert.deepEqual(W([D + 60, 60, D], true, D + 60), [D + 180, 120, D + 60, 0, 0, 90, 120], "on its due: 120 days");
   assert.deepEqual(onestep.write([D + 60, 60, D], true, D + 60), [D + 150, 60, D + 60], "the one-step client: 90");
-  assert.deepEqual(W([D + 60, 60, D], true, D + 61), [D + 61 + 122, 120, D + 61], "a day late: twice 61");
+  assert.deepEqual(W([D + 60, 60, D], true, D + 61), [D + 61 + 122, 120, D + 61, 0, 0, 90, 122], "a day late: twice 61");
   // and the study's rung table (LATE1, Part A): on the due, a day late, the interval late (twice the interval since)
   const table = [[1, 3, 4, 4], [3, 7, 8, 12], [7, 14, 16, 28], [14, 30, 30, 56], [30, 60, 62, 120], [60, 120, 122, 240], [90, 180, 182, 360],
     [180, 365, 365, 720], [365, 730, 732, 1460]];
@@ -94,7 +98,7 @@ test("the 60-day card answered on its due day goes to 120 (skipping 90), and a d
 
 test("very late: twice the days since the last answer, however many (no cap of ours)", () => {
   // two years late on a 3-day card: twice the 733 days since its last answer, four years and more
-  assert.deepEqual(W([D + 3, 3, D], true, D + 733), [D + 733 + 1466, 120, D + 733]);
+  assert.deepEqual(W([D + 3, 3, D], true, D + 733), [D + 733 + 1466, 120, D + 733, 0, 0, 7, 1466]);
   assert.ok(1466 > 4 * 365);
   // a 2,922-day card two years late: 7,304 days (one step gave 5,844); the 75-day carried card answered 75 days after: 150
   assert.equal(iv(W(onRung(2922), true, D + 2922 + 730)), 7304);
@@ -108,27 +112,37 @@ test("very late: twice the days since the last answer, however many (no cap of o
   assert.equal(K.ngKnowledgeLate(14, 400), 800);
   assert.equal(K.ngKnowledgeLate(90, 30), 90);
   // the moves rows read the same rule (`at` 4): the answer at [3] kept
-  assert.deepEqual(W([D + 7, 7, D, 1], true, D + 400, 4), [D + 1200, 120, D + 400, 1]);
+  assert.deepEqual(W([D + 7, 7, D, 1], true, D + 400, 4), [D + 1200, 120, D + 400, 1, 0, 0, 14, 800]);
 });
 
+// (v1.305.0's late mark, the rows the doubled wait stretched: the one-step client copies a prior's cells after the pair forward
+// and writes no mark of its own, so on a marked row the two rows differ after the pair's slot and only there; the schedule,
+// the head and the pair, is compared on every row, and the whole row on every row without a mark)
 test("an early right answer: byte for byte the one-step client's, on every row shape, srs and moves", () => {
-  let n = 0;
+  let n = 0, whole = 0;
   for (const row of shapes()) {
-    const last = row[2], due = row[0];
+    const last = row[2], due = row[0], marked = K.ngKnowledgeMark(row) !== null;
     for (let d = last - 3; d < due; d += Math.max(1, Math.floor((due - last) / 40))) {
-      assert.deepEqual(W(row, true, d), onestep.write(row, true, d), `${row} on day ${d}`);
-      assert.deepEqual(W(moves(row), true, d, 4), onestep.write(moves(row), true, d, 4), `moves ${row} on day ${d}`);
+      const a = W(row, true, d), b = onestep.write(row, true, d), am = W(moves(row), true, d, 4), bm = onestep.write(moves(row), true, d, 4);
+      assert.deepEqual(schedulePart(a), schedulePart(b), `${row} on day ${d}`);
+      assert.deepEqual(schedulePart(am, 4), schedulePart(bm, 4), `moves ${row} on day ${d}`);
+      if (!marked) { assert.deepEqual(a, b, `${row} on day ${d}, whole`); assert.deepEqual(am, bm, `moves ${row} on day ${d}, whole`); whole += 2; }
       n += 2;
     }
   }
-  assert.ok(n > 3000, `${n} early answers compared`);
+  assert.ok(n > 3000 && whole > 2000, `${n} early answers compared, ${whole} whole`);
 });
 
 test("a wrong answer: byte for byte the one-step client's, early, on the due day and late", () => {
   let n = 0;
+  // (a miss writes no late mark: on a marked row the one-step client copies the old mark forward, where its check then fails)
   for (const row of shapes()) for (const d of [row[2] - 2, row[2], row[2] + 1, row[0] - 1, row[0], row[0] + 1, row[0] + 400]) {
-    assert.deepEqual(W(row, false, d), onestep.write(row, false, d), `${row} missed on day ${d}`);
-    assert.deepEqual(W(moves(row), false, d, 4), onestep.write(moves(row), false, d, 4), `moves ${row} missed on day ${d}`);
+    const marked = K.ngKnowledgeMark(row) !== null, a = W(row, false, d), am = W(moves(row), false, d, 4);
+    const b = onestep.write(row, false, d), bm = onestep.write(moves(row), false, d, 4);
+    assert.deepEqual(marked ? a : schedulePart(a), marked ? b.slice(0, 3) : schedulePart(b), `${row} missed on day ${d}`);
+    assert.deepEqual(marked ? am : schedulePart(am, 4), marked ? bm.slice(0, 4) : schedulePart(bm, 4), `moves ${row} missed on day ${d}`);
+    if (!marked) { assert.deepEqual(a, b); assert.deepEqual(am, bm); }
+    if (marked) assert.equal(K.ngKnowledgeMark(b), null, `${row}: the old mark the one-step client copied fails its check`);
     n += 2;
   }
   // a first answer, right or wrong, as before
@@ -163,7 +177,7 @@ test("an older build reads a row this rule wrote and climbs from it; every captu
   let n = 0;
   for (const row of written) {
     const I = iv(row);
-    assert.equal(row.length === 3 || row.length === 5, true, `${row}: the row keeps its shape`);
+    assert.equal(row.length === 3 || row.length === 5 || row.length === 7, true, `${row}: the row keeps its shape (+ the pair, + the late mark)`);
     assert.ok([1, 3, 7, 14, 30, 60, 120].includes(row[1]), `${row}: its cell is a rung every client finds`);
     for (const [name, write] of [["v1.304.0", onestep.write], ["v1.281.0", lin1], ["v1.280.2", prev]]) {
       for (const d of [row[0], row[0] + 10]) {

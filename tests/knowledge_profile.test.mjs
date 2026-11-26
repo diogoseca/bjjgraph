@@ -253,7 +253,10 @@ test("SRS differential closes over the captured original ladder; changed-constan
     for (const interval of [null, 1, 3, 7, 14, 30, 60, 120, 2]) for (const correct of [true, false]) {
       const row = interval == null ? undefined : [90 + interval, interval, 90], day = row ? row[0] : 100;
       const was = orig(row, correct, day), now = schedule(row, correct, day);
-      if (!correct || interval == null || interval <= 30 && interval !== 2 || interval === 60) assert.deepEqual(now, was, `captured SRS ladder: ${row} ${correct}`);
+      // (the 60-day card's row carries v1.305.0's late mark after the pair's slot, [0, 0, the one-step 90, its own 120]: the
+      // original reads the three cells)
+      if (interval === 60 && correct) { assert.deepEqual(now, was.concat(0, 0, 90, 120), `captured SRS ladder: ${row} ${correct}`); }
+      else if (!correct || interval == null || interval <= 30 && interval !== 2) assert.deepEqual(now, was, `captured SRS ladder: ${row} ${correct}`);
       else assert.deepEqual(now, { 120: [day + 242, 120, day, 180 + 185 / 3, day], 2: [day + 5, 3, day] }[interval], `the owner's ladder: ${row}`);
       // the original reads every cell the new writer stores: its right answer climbs from there, never to 1 day
       assert.ok(orig(now, true, day + 1)[1] > 1, `the original on ${now}`);
@@ -348,7 +351,8 @@ test("panic plain recall deliberately qualifies proof/SRS; direct callbacks reta
     assert.deepEqual(b.srs, { [key]: { [qh]: [90, 7, 83] }, [shared]: { [qh]: [70, 3, 67] } });
     // both rows answered late on day 100 (v1.305.0, LATE1): twice the days since each one's last answer, 2 × 17 = 34 and
     // 2 × 33 = 66 (one step gave [114, 14, 100] and [107, 7, 100])
-    assert.deepEqual(a.srs, { [key]: { [qh]: [134, 30, 100] }, [shared]: { [qh]: [166, 60, 100] } });
+    // (each with its late mark, v1.305.0: the one-step 14 and 7)
+    assert.deepEqual(a.srs, { [key]: { [qh]: [134, 30, 100, 0, 0, 14, 34] }, [shared]: { [qh]: [166, 60, 100, 0, 0, 7, 66] } });
     assert.equal(b.answers, 0); assert.equal(a.answers, 1);
     assert.deepEqual(a.persisted, evidenceOf(a), "save contains all shared changes");
     assert.equal(a._qMod, -.08); assert.equal(a._combo, 4); assert.equal(b._qMod, -.08); assert.equal(b._combo, 4);
@@ -365,7 +369,7 @@ test("panic plain recall deliberately qualifies proof/SRS; direct callbacks reta
     // the repeat is the same day: under the owner's ladder (v1.279.0) a right answer 0 days after the last earns nothing, so
     // both rows stand (until v1.279.0 every right answer climbed a rung: [130, 30, 100] and [114, 14, 100]); since v1.305.0
     // (LATE1) the rows standing are the doubled waits written above (one step left [114, 14, 100] and [107, 7, 100])
-    assert.deepEqual(a.srs[key][qh], [134, 30, 100]); assert.deepEqual(a.srs[shared][qh], [166, 60, 100]);
+    assert.deepEqual(a.srs[key][qh], [134, 30, 100, 0, 0, 14, 34]); assert.deepEqual(a.srs[shared][qh], [166, 60, 100, 0, 0, 7, 66]);
     assert.equal(a._qMod, -.08); assert.equal(a._combo, 4); assert.equal(a.answers, 2);
     assert.equal(Object.keys(a._knowledgeAttempts).length, 2);
     await Promise.resolve(); checked++;
@@ -595,7 +599,7 @@ test("MC growth-only cap, traps, reveal, SRS debt, shared manifest independence,
   const r = K.ngKnowledgeApplyGrade(initial, ev, manifest, 100);
   assert.equal(r.evidence.stage.a[h], 3); assert.equal(r.evidence.rec.a, undefined);
   // answered on day 100, 99 days after its last (v1.305.0, LATE1): twice that, 198 days (one step from 14 gave [130, 30, 100])
-  assert.deepEqual(r.evidence.srs.a[h], [298, 120, 100]);
+  assert.deepEqual(r.evidence.srs.a[h], [298, 120, 100, 0, 0, 30, 198]);   // its late mark: the one-step 30 (v1.305.0)
   assert.equal(initial.srs.a[h][0], 2, "due debt is not rewritten by snapshot construction");
   assert.equal(K.ngKnowledgeApplyGrade(r.evidence, ev, manifest, 100).status, "duplicate");
   const hydrated = { ...manifest, decks: { a: { cards: [q, q, q, q] }, b: { cards: [q, q, q, q] } } };

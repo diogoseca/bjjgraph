@@ -338,7 +338,9 @@ export function ngKnowledgeSharedDecks(manifest, card, key) {
 // while the row's exact interval is not its own whole one: either a RUNG PAIR, the rung A the card's line starts from and t0
 // the day the card stood on it (an early answer stores this), or a step anchored at its own day, [the exact interval, last]
 // (an on-time or late answer between rungs stores this, as v1.281.0 did). A row written by any older client has no pair and
-// reads as anchored at its own last, so nothing stored is rewritten. NOTHING IS ROUNDED (v1.281.3): the numbers stored are the
+// reads as anchored at its own last, so nothing stored is rewritten. A row the late answer's doubled wait stretched carries,
+// after the pair's slot ([0, 0] there when it has no pair), THE LATE MARK [R, I] for the rating (v1.305.0, `ngKnowledgeMark`
+// below); the schedule never reads it. NOTHING IS ROUNDED (v1.281.3): the numbers stored are the
 // numbers computed, a JSON number reads back as itself, and every due is the rule's in exact arithmetic (pinned in fractions).
 //   · THE RULE, as a player could read it: A CARD CLIMBS ITS STEP AT A STEADY PACE: EACH DAY YOU WAITED BEFORE ANSWERING RIGHT
 //     EARNS THE SAME SHARE OF THE STEP, WHENEVER YOU ANSWER. The owner's formula (15 Nov 2026: next = (interval − days left) ×
@@ -481,13 +483,58 @@ function ngKnowledgeNext(prior, last, at) {
   const s = last === prior[2] ? ngKnowledgeAnchor(prior, at) : ngKnowledgeRungState(prior, at);
   return ngKnowledgeEarly(s.A, s.t0, s.ivl, last);
 }
-// a row as stored: [due, cell, last] (+ a move's answer), then the pair or, when cells a later build added follow, [0, 0]
-function ngKnowledgeRowOut(due, ivl, last, pair, ok, prior, at) {
+// THE LATE MARK (v1.305.0, LATE1, the rating's correction). The doubled wait (`ngKnowledgeLate`) stretches a card's interval
+// without its memory being any stronger, and the rating (`ngRatingRecall`, rating.src.js) and Practice's worth read a longer
+// interval as better recall (the study, LATE1 Part A: 16 to 31 points high while true recall fell). The row alone cannot say
+// it: a 30-day card answered on its due and a 3-day card answered 30 days after its last answer both store [last + 60, 60,
+// last], and every interval a stretched row can hold is held by some row written before this build, so any reading from the
+// row alone either lowers a row that exists today or corrects nothing. So a row the doubled wait stretched carries two more
+// numbers after the pair's slot ([0, 0] there when it has no pair): [R, I], R the interval THE ONE-STEP SCHEDULE (v1.281.3
+// to v1.304.0) would hold after the same answers, I the row's own exact interval when it was written. The rating reads R
+// (never more than the schedule's own); the schedule never reads the mark.
+//   · WRITTEN only when R < I, on a right answer (a miss and a first answer write none): R is the one-step writer run on the
+//     card's own row, or on the row its mark stands for (`ngKnowledgeShadow`), so a chain of answers keeps the one-step
+//     reading (a stretched card answered early stays marked, its R the early line from R), and the mark goes when the two
+//     agree again. Rows not stretched are byte for byte as before; every row written before this build has none, so every
+//     rating reads as it did at the update.
+//   · IT CHECKS ITSELF (`ngKnowledgeMark`): read only when R ≥ 1, R < I and I is the row's exact interval as read now. An
+//     older build that answers the card keeps the two cells where they are (its writer copies the cells after the pair) but
+//     writes a new interval, so the stale mark fails its check and the row reads as it does there; a pull's clamped `last`
+//     fails it the same way; the merge's heal writes its own (`ngKnowledgeMergeRow`).
+//   · NOT COVERED: an older build's pull drops a cloud row's cells after the pair (v1.281.0 to v1.304.0 keep the pair only),
+//     so a marked row that an older device pulls and pushes back reads uncorrected from then on, as it would without this
+//     mark (higher, never lower, and never a schedule's day). Cells a later build adds ride after the mark.
+export function ngKnowledgeMark(row, at = 3) {
+  const R = row[at + 2], I = row[at + 3];
+  return Number.isFinite(R) && R >= 1 && Number.isFinite(I) && R < I && ngKnowledgeInterval(row, at) === I ? R : null;
+}
+// the interval the one-step schedule would hold after a right answer on `last` (never before the row's last), on the prior
+// row or, when it carries a mark that checks itself, on the row the mark stands for (its interval R anchored at the prior's
+// last, the pair only when R is not whole, read back as the writer reads any such row): one step on or after that row's due,
+// the same early lines before it (`ngKnowledgeNext`, whose early branch is shared), and never sooner than that row's due
+function ngKnowledgeShadow(prior, last, at) {
+  const R = ngKnowledgeMark(prior, at);
+  let p = prior;
+  if (R !== null) {
+    p = [ngKnowledgeDueDay(prior[2] + R), ngKnowledgeCell(R), prior[2]];
+    if (at > 3) p.push(prior[3]);
+    if (!Number.isInteger(R)) p.push(R, prior[2]);
+  }
+  if (last >= p[0]) return ngKnowledgeStep(ngKnowledgeAnchor(p, at).ivl);
+  const s = ngKnowledgeNext(p, last, at).ivl;
+  return ngKnowledgeDueDay(last + s) < p[0] ? p[0] - last : s;
+}
+// a row as stored: [due, cell, last] (+ a move's answer), then the pair, then the late mark (`R` the one-step interval, kept
+// only when it is shorter than the row's own); [0, 0] in a slot left empty when cells follow it, and cells a later build
+// added ride after the mark
+function ngKnowledgeRowOut(due, ivl, last, pair, ok, prior, at, R = null) {
   const row = [due, ngKnowledgeCell(ivl), last];
   if (at > 3) row.push(ok ? 1 : 0);
-  const rest = Array.isArray(prior) && prior.length > at + 2 ? prior.slice(at + 2) : [];
-  if (pair) row.push(pair[0], pair[1]); else if (rest.length) row.push(0, 0);
-  return rest.length ? row.concat(rest) : row;
+  const rest = Array.isArray(prior) && prior.length > at + 4 ? prior.slice(at + 4) : [];
+  const I = R === null ? null : ngKnowledgeInterval(pair ? row.concat(pair) : row, at);
+  const mark = I !== null && R < I ? [R, I] : rest.length ? [0, 0] : [];
+  if (pair) row.push(pair[0], pair[1]); else if (mark.length) row.push(0, 0);
+  return row.concat(mark, rest);
 }
 // THE WRITER: one answer on `prior`; `at` 3 for an srs row, 4 for a moves row (which then carries `ok` at [3])
 export function ngKnowledgeScheduleRow(prior, ok, day, at = 3) {
@@ -495,8 +542,8 @@ export function ngKnowledgeScheduleRow(prior, ok, day, at = 3) {
   const last = Math.max(day, prior[2]);   // never backward (a clock set back): see the header
   if (!ok) return ngKnowledgeRowOut(last + 1, NG_KNOWLEDGE_INTERVALS[0], last, null, ok, prior, at);
   const { A, t0, ivl } = ngKnowledgeNext(prior, last, at);
-  const due = ngKnowledgeDueDay(last + ivl);
-  if (due < prior[0]) return ngKnowledgeRowOut(prior[0], prior[0] - last, last, null, ok, prior, at);   // never sooner
+  const due = ngKnowledgeDueDay(last + ivl), R = ngKnowledgeShadow(prior, last, at);   // R: the late mark's (v1.305.0)
+  if (due < prior[0]) return ngKnowledgeRowOut(prior[0], prior[0] - last, last, null, ok, prior, at, R);   // never sooner
   // A PAIR DAY BELOW 0 IS NEVER STORED (v1.281.3, LIN2-R1 and R2, the reader of PR #426): every client's blob validator takes
   // only numbers at or above 0, so a rung pair dated before epoch day 0 (a card whose rung outlasts the days since 1970: a
   // clock before about 1975 after a pull's clamp, or a damaged row) would make the whole blob invalid. Such a row stores its
@@ -507,7 +554,7 @@ export function ngKnowledgeScheduleRow(prior, ok, day, at = 3) {
   // touches only a card on a rung r above d whose interval is above r + d × (next − r) ÷ r: from 60 + d ÷ 2 on the 60-day
   // rung; at d = 20,400, where every rung above d doubles, above 43,776 days (about 120 years)
   const pair = t0 < 0 ? (Number.isInteger(ivl) ? null : [ivl, last]) : t0 === last && Number.isInteger(A) ? null : [A, t0];
-  return ngKnowledgeRowOut(due, ivl, last, pair, ok, prior, at);
+  return ngKnowledgeRowOut(due, ivl, last, pair, ok, prior, at, R);
 }
 // THE PULL'S MERGE OF ONE srs ROW (v1.105.0 in `_mergeProgressFields`; here since v1.279.0 so it is pinned as a unit).
 // Per card the LATER review wins (the freshest grade knows the memory best); ties are the common case (`last` is a day),
@@ -520,26 +567,37 @@ export function ngKnowledgeScheduleRow(prior, ok, day, at = 3) {
 // the beaten cell, winner's last], with a pair only when that interval is not whole. The cloud row's pair rides with it (read only if it checks itself). The
 // incoming `last` is clamped to today so a fast clock cannot win forever (its pair then fails its check); `local` may be
 // undefined (a card only the cloud holds). Returns the row to keep; inputs untouched.
+// THE LATE MARK (v1.305.0) rides with the cloud row's pair (read only if it checks itself; a clamped `last` fails it), and the
+// heal writes its own: the kept card reads at the longer of the two rows' one-step readings (each row's mark, else its own
+// interval), marked only while that is shorter than the interval the heal keeps; and a tie on the whole schedule keeps the
+// row with the longer reading before the text decides, so the heal's row is what a second pull keeps (it writes nothing).
+// Rows without a mark read their own interval, equal on such a tie: every row written before this build ties as before.
 export function ngKnowledgeMergeRow(local, cloud, today) {
   const cc = [cloud[0] | 0, cloud[1] | 0, Math.min(today, cloud[2] | 0)];
-  if (Number.isFinite(cloud[3]) && Number.isFinite(cloud[4])) cc.push(cloud[3], cloud[4]);
+  if (Number.isFinite(cloud[3]) && Number.isFinite(cloud[4])) {
+    cc.push(cloud[3], cloud[4]);
+    if (Number.isFinite(cloud[5]) && Number.isFinite(cloud[6])) cc.push(cloud[5], cloud[6]);   // the late mark (v1.305.0)
+  }
   if (!local) return cc;
-  const m = local, ed = (r) => r[2] + ngKnowledgeInterval(r);
+  const m = local, ed = (r) => r[2] + ngKnowledgeInterval(r), rd = (r) => { const k = ngKnowledgeMark(r); return k === null ? ngKnowledgeInterval(r) : k; };
   let w;
   if (cc[2] !== m[2]) w = cc[2] > m[2] ? cc : m;
   else if (cc[1] !== m[1]) w = cc[1] < m[1] ? cc : m;
   else if (ed(cc) !== ed(m)) w = ed(cc) < ed(m) ? cc : m;
   else if (cc[0] !== m[0]) w = cc[0] < m[0] ? cc : m;
+  else if (rd(cc) !== rd(m)) w = rd(cc) > rd(m) ? cc : m;   // the longer one-step reading, as the heal keeps (v1.305.0)
   else w = JSON.stringify(cc.slice(3)) <= JSON.stringify(m.slice(3)) ? cc : m;
   const o = w === cc ? m : cc;
   const tw = ngKnowledgeInterval(w), to = ngKnowledgeInterval(o);
   if (tw > 1 && to > tw) {
+    const mw = ngKnowledgeMark(w), mo = ngKnowledgeMark(o), R = Math.max(mw === null ? tw : mw, mo === null ? to : mo);
     if (o[2] === w[2]) w = o.slice(0, 3).concat(ngKnowledgeAnchor(o).pair ? o.slice(3, 5) : []);
     else {
       const A = to;   // the beaten interval as read, not rounded (v1.281.3)
       w = [ngKnowledgeDueDay(w[2] + A), o[1], w[2]];
       if (!Number.isInteger(A)) w.push(A, w[2]);
     }
+    if (R < to) { if (w.length === 3) w.push(0, 0); w.push(R, ngKnowledgeInterval(w)); }   // the heal's late mark
   }
   return w;
 }

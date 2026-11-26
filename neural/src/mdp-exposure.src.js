@@ -218,9 +218,13 @@ function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity
   //     none of the eight knowledge laws the worker binds (game-bundles.mjs `knowledgeNames`) nor the adapter's override
   //     changed, and the MDP reads no schedule. Measured: regenerated with dev's file and with this one, every MDP shard part
   //     byte-identical; only provenance hashes and the variants' mechanicsHash moved (docs/Changelog-Archive.md, v1.305.0).
+  //     The KNOWLEDGE pin again (from 7d755c…), the late mark (LATE1, the rating's correction: `ngKnowledgeMark`,
+  //     `ngKnowledgeShadow`, the writer's row and the pull merge carry two more numbers on a row the doubled wait stretched).
+  //     Label-neutral for the same reason: the schedule writer and the merge are the app's alone, and the MDP reads no
+  //     schedule. Measured: regenerated after it, every MDP shard part byte-identical to dev's.
   // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
   // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
-  const expected={adapter:'7fc8263e15a907b08fd0c70342fb50d943ea3f8add29e48f7053c9b200c33b04',knowledge:'7d755cdf8bca6e889f247d88c2897622e1c81708d8d37183646477a1a57d725a',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
+  const expected={adapter:'7fc8263e15a907b08fd0c70342fb50d943ea3f8add29e48f7053c9b200c33b04',knowledge:'3081f0afedd31e048e479624469473e90de6cf841c217613d27ca78245a7fc69',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
   if(Object.entries(expected).some(([key,hash])=>lawHashes?.[key]!==hash))ngMdpExposureFail('unsupported-exposure-label-law');
   if(metadata?.coverage?.status!=='COMPLETE'||metadata.ruleset!==request.ruleset||profile?.status!=='ready'||profile.fingerprint!==request.profileHash||typeof knowledge.ngKnowledgeOverride!=='function')ngMdpExposureFail('incomplete-exposure-adapter-context');
   const contractHash=M.ngMdpContractHash(request),metadataHash=M.ngMdpDigest(metadata);

@@ -119,9 +119,10 @@ test("a late right answer earns one rung, no bonus", () => {
   // a 30-day card answered right on day 60 (30 days late): twice the 60 days since its last answer, 120 (one step gave 60)
   assert.equal(K.ngKnowledgeNextInterval([30, 30, 0], 60), 120);
   assert.equal(onestep.next([30, 30, 0], 60), 60, "the one-step client: one rung");
-  assert.deepEqual(K.ngKnowledgeScheduleRow([30, 30, 0], true, 60), [180, 120, 60]);
+  // (its late mark after the pair's slot, v1.305.0: [0, 0, the one-step 60, its own 120])
+  assert.deepEqual(K.ngKnowledgeScheduleRow([30, 30, 0], true, 60), [180, 120, 60, 0, 0, 60, 120]);
   // a year late on a 7-day card: 800 days, twice the 400 since its last answer (one step gave 14)
-  assert.deepEqual(K.ngKnowledgeScheduleRow([7, 7, 0], true, 400), [1200, 120, 400]);
+  assert.deepEqual(K.ngKnowledgeScheduleRow([7, 7, 0], true, 400), [1200, 120, 400, 0, 0, 14, 800]);
   assert.deepEqual(onestep.write([7, 7, 0], true, 400), [414, 14, 400], "the one-step client: still one rung");
   // and on its due day, one step: the step is the floor, never less
   assert.deepEqual(K.ngKnowledgeScheduleRow([30, 30, 0], true, 30), [90, 60, 30]);
@@ -419,21 +420,32 @@ test("the rating reads a row's true interval: at the update nothing reads lower,
 test("the rating reads a card at 0.9 on its due day, at 90, 365 and 2,922 days", () => {
   // a card answered right on every due day, from its first answer: on each due day it reads 0.9, whatever its cell.
   // v1.305.0 (LATE1): that chain now goes 60 → 120 → 241.67 … (the doubled wait on the 60-day card's due day) and no longer
-  // passes 90, 365 or 2,922 days, so those three rows are written by the writer from the rows that reach them on time: a 30-day
-  // card answered 15 days late (twice 45: 90), and the 180 and 1,461-day cards on their due days
+  // passes 90, 365 or 2,922 days, so those rows are written from the rows that reach them on time: the 180 and 1,461-day
+  // cards on their due days, and the 90-day row the one-step client writes on the 60-day card's due day (every player's
+  // rows from before v1.305.0 are such rows). A row the doubled wait stretched is read at its late mark, the one-step
+  // interval (`ngRatingReadInterval`): it reads 0.9 at the end of THAT interval, never at the longer one it is due at
+  // (a 30-day card answered 15 days late is due in 90 days and reads 0.9 at 60, as one step would say)
   let row = K.ngKnowledgeScheduleRow(null, true, 0);
   const onDue = new Map();
   for (let i = 0; i < 12; i++) { row = K.ngKnowledgeScheduleRow(row, true, row[0]); onDue.set(row[0] - row[2], [row, R.ngRatingRecall(row, true, row[0])]); }
-  for (const [r0, day] of [[[20430, 30, 20400], 20445], [[20580, 120, 20400], 20580], [[21861, 120, 20400], 21861]]) {
-    const r = K.ngKnowledgeScheduleRow(r0, true, day);
+  for (const r of [K.ngKnowledgeScheduleRow([20580, 120, 20400], true, 20580), K.ngKnowledgeScheduleRow([21861, 120, 20400], true, 21861), onestep.write([20460, 60, 20400], true, 20460)]) {
     onDue.set(r[0] - r[2], [r, R.ngRatingRecall(r, true, r[0])]);
   }
-  for (const [I, [r]] of onDue) { const k = R.ngRatingRecall(r, true, r[2] + K.ngKnowledgeInterval(r)); assert.ok(Math.abs(k - 0.9) < 1e-12, `the chain, ${I} days (${r}), at its exact due: ${k}`); }
+  let marked = 0;
+  for (const [I, [r]] of onDue) {
+    const read = R.ngRatingReadInterval(r, 3), k = R.ngRatingRecall(r, true, r[2] + read);
+    assert.ok(Math.abs(k - 0.9) < 1e-12, `the chain, ${I} days (${r}), at the end of the interval it is read at (${read}): ${k}`);
+    if (read < K.ngKnowledgeInterval(r)) { marked++; assert.ok(R.ngRatingRecall(r, true, r[0]) < 0.9, `${r}: on its later due day it reads below 0.9`); }
+  }
+  assert.ok(marked >= 1, `${marked} rows of the chain read at their late mark`);
   for (const I of [90, 365, 2922]) {
     const [r, k] = onDue.get(I);
     assert.ok(Math.abs(k - 0.9) < 1e-12, `${I} days (${r}, cell ${r[1]}): ${k}`);
     assert.ok(r[1] < I, `${I} days: its cell (${r[1]}) is shorter than its schedule, so a cell read would say less`);
   }
+  const stretched = K.ngKnowledgeScheduleRow([20430, 30, 20400], true, 20445);
+  assert.deepEqual(stretched, [20535, 60, 20445, 0, 0, 60, 90], "a 30-day card 15 days late: due in 90 days, its late mark 60");
+  assert.ok(Math.abs(R.ngRatingRecall(stretched, true, 20445 + 60) - 0.9) < 1e-12, "and it reads 0.9 at 60 days");
 });
 
 test("the Practice order's worth moves with the rating's read", () => {

@@ -28,6 +28,12 @@
 //     and 0.08 at 2,922. Every row written before v1.279.0 has due − last = its cell, so at the update nothing moves;
 //     a row whose `last` the pull clamped reads its longer interval, higher, never lower),
 //     so a card is read at 0.9 on its due day and keeps falling while it is overdue. Never below 0, never above 1.
+//   · A ROW THE LATE ANSWER STRETCHED is read at the interval the one-step schedule would hold (v1.305.0, LATE1: its late
+//     mark, `ngRatingReadInterval`; why and how it is written: knowledge-profile.src.js, `ngKnowledgeMark`). The doubled
+//     wait lengthens a card's interval without its memory being stronger, so read from `due − last` a card answered late read
+//     as better recall than one step would say (the study, LATE1 Part A: 16 to 31 points high as true recall fell). A row
+//     without the mark, which is every row written before v1.305.0, reads exactly as it did; the mark only ever shortens
+//     the interval read, never below what the one-step schedule would hold, so it never reads better than one step would.
 //   · an interval of 1 is AMBIGUOUS in storage (a first right answer, or a miss that reset the ladder). A question
 //     with any stage, or a move whose last answer was a Yes, is read as right at 0.9 (NG_RATING_UNSURE); with no
 //     stage (or a No) it is a miss.
@@ -253,12 +259,13 @@ export function ngRatingRow(worn, reading) {
  *   right whether the last answer stands as right (see the header for the interval-1 reading)
  *   day   today's epoch day
  *   at    where the row keeps the schedule's pair: 3 on a card row, 4 on a moves row (v1.281.0)
- * null for a malformed row (the caller counts it). The interval read is the EXACT one (`ngRatingSchedInterval`).
+ * null for a malformed row (the caller counts it). The interval read is the EXACT one (`ngRatingSchedInterval`), or a
+ * stretched row's late mark (`ngRatingReadInterval`, v1.305.0).
  */
 export function ngRatingRecall(row, right, day, at = 3) {
   if (!Array.isArray(row) || row.length < 3 || !ngRatingNum(row[1]) || !ngRatingNum(row[2]) || row[1] <= 0 || !ngRatingNum(day)) return null;
   if (!right) return 0;
-  const ivl = ngRatingSchedInterval(row, at), since = Math.max(0, day - row[2]);
+  const ivl = ngRatingReadInterval(row, at), since = Math.max(0, day - row[2]);   // the late mark's when it checks (v1.305.0)
   return Math.pow(NG_RATING_FADE, since / ivl) * (ivl > 1 ? 1 : NG_RATING_UNSURE);
 }
 
@@ -287,6 +294,13 @@ function ngRatingSchedStep(ivl) {
     if (x < L[i + 1]) return i + 1 >= n ? L[n] : x === L[i] ? L[i + 1] : L[i + 1] + ((x - L[i]) * (L[i + 2] - L[i + 1])) / (L[i + 1] - L[i]);
   }
   return L[n];
+}
+// THE INTERVAL THE RATING READS (v1.305.0, LATE1): a stretched row's late mark [R, I] after the pair's slot, a copy of
+// knowledge-profile's `ngKnowledgeMark` (read only when R ≥ 1, R < I and I is the row's exact interval), else the row's exact
+// interval. tests/schedule_late_mark.test.mjs pins it equal to the original over every row shape the writer makes.
+export function ngRatingReadInterval(row, at) {
+  const ivl = ngRatingSchedInterval(row, at), R = row[at + 2], I = row[at + 3];
+  return ngRatingNum(R) && R >= 1 && ngRatingNum(I) && R < I && ivl === I ? R : ivl;
 }
 export function ngRatingSchedInterval(row, at) {
   const last = row[2], A = row[at], t0 = row[at + 1];

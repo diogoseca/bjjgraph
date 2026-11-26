@@ -87,7 +87,7 @@ import { readFileSync } from "node:fs";
 import * as K from "../neural/src/knowledge-profile.src.js";
 import { ngProgressMergeMoves, ngProgressSchedInterval } from "../neural/src/progress-owner.src.js";
 import * as R from "../neural/src/rating.src.js";
-import { onestep, doubledPath } from "./_onestep_client.mjs";
+import { onestep, doubledPath, schedulePart } from "./_onestep_client.mjs";
 
 const W = K.ngKnowledgeScheduleRow, L = K.NG_KNOWLEDGE_LADDER, TOP = L[L.length - 1];
 const OLD = JSON.parse(readFileSync(new URL("./artifacts/schedule_old_client.json", import.meta.url), "utf8"));
@@ -148,8 +148,9 @@ test("the days past a step count at the next step's ratio; an EARLY answer never
   assert.deepEqual(W(early, true, 87), [176, 60, 87, 60, 30], "a day before its due: 88.5 days");
   // ON ITS DUE AND LATE (v1.305.0, LATE1): twice the days since the last answer (day 29) where that beats one step from 59
   // (89 days): the one-step client wrote [177, 60, 88] and [209, 60, 120]
-  assert.deepEqual(W(early, true, 88), [206, 60, 88], "on its due: twice the 59 days since day 29, 118 (one step gave 89)");
-  assert.deepEqual(W(early, true, 120), [302, 120, 120], "late: twice the 91 days since day 29, 182 (one step gave 89)");
+  // (each carries its late mark after the pair's slot: [0, 0, the one-step interval, its own], tests/schedule_late_mark.test.mjs)
+  assert.deepEqual(W(early, true, 88), [206, 60, 88, 0, 0, 89, 118], "on its due: twice the 59 days since day 29, 118 (one step gave 89)");
+  assert.deepEqual(W(early, true, 120), [302, 120, 120, 0, 0, 89, 182], "late: twice the 91 days since day 29, 182 (one step gave 89)");
   assert.deepEqual([onestep.write(early, true, 88), onestep.write(early, true, 120)], [[177, 60, 88], [209, 60, 120]], "the one-step client, as captured");
   // NO CLIFF: from every between-steps row, an answer the day before the due earns at least half of what the due day earns
   // (the first draft, which dropped the days past the step, gave 1 day against 30 above: under half in 72% of such states).
@@ -222,7 +223,8 @@ test("nothing is rounded (v1.281.3): an on-time answer lands exactly on its step
     if (K.ngKnowledgeDueDay(d + want) < r[0]) continue;   // the never-sooner guard's own rows
     assert.equal(onestep.interval(onestep.write(r, true, d)), step, `${r} on ${d}: the one-step client's step`);
     assert.equal(K.ngKnowledgeInterval(n), want, `${r} on ${d}: ${n}`);
-    assert.equal(n.length === 5 ? n[4] : d, d, `${r} on ${d}: anchored at its own day`);
+    const sp = schedulePart(n);   // the pair, never v1.305.0's late mark after its slot
+    assert.equal(sp.length === 5 ? sp[4] : d, d, `${r} on ${d}: anchored at its own day`);
     if (want > step) decided++;
     onTime++;
   }
@@ -239,13 +241,14 @@ test("nothing is rounded (v1.281.3): an on-time answer lands exactly on its step
   assert.ok(movesOnTime > 300, `${movesOnTime} on-time and late answers, moves layout`);
   // EARLY: the pair a right answer stores before the due is a rung pair (its A on the ladder), unless no day was waited (the
   // row kept as it was), in both layouts
-  for (const r of POP) if (r.length >= 5 && r[4] !== r[2]) assert.ok(L.includes(r[3]), `${r}: an early answer's pair stands on a rung`);
-  for (const r of POP_MOVES) if (r.length >= 6 && r[5] !== r[2]) assert.ok(L.includes(r[4]), `${r}: an early answer's pair stands on a rung (moves)`);
+  // (the pair as stored, never the [0, 0] that fills an empty slot before a late mark: `schedulePart`)
+  for (const r of POP.map((x) => schedulePart(x))) if (r.length >= 5 && r[4] !== r[2]) assert.ok(L.includes(r[3]), `${r}: an early answer's pair stands on a rung`);
+  for (const r of POP_MOVES.map((x) => schedulePart(x, 4))) if (r.length >= 6 && r[5] !== r[2]) assert.ok(L.includes(r[4]), `${r}: an early answer's pair stands on a rung (moves)`);
   // a second right answer the same day rewrites nothing, whatever pair the row holds (v1.281.0's off-rung pairs included)
   for (const r of POP) if (r[0] > r[2]) assert.deepEqual(W(r, true, r[2]), r, `${r} answered again on its own last day`);
   assert.deepEqual(W([D + 181, 60, D + 86, 72, D + 56], true, D + 86), [D + 181, 60, D + 86, 72, D + 56], "a v1.281.0 pair off the rungs (72 days from its day 56), kept");
   // a row the writer makes never carries a pair that says nothing (anchored at its last on a whole interval)
-  for (const r of POP) if (r.length >= 5) assert.ok(r[4] !== r[2] || !Number.isInteger(r[3]), `${r}: a redundant pair`);
+  for (const r of POP.map((x) => schedulePart(x))) if (r.length >= 5) assert.ok(r[4] !== r[2] || !Number.isInteger(r[3]), `${r}: a redundant pair`);
 });
 
 test("the pair checks itself: a stale, damaged or clamped pair is read as the row's own", () => {
@@ -392,7 +395,7 @@ test("one early answer, then the next on its old due or its own new due, never c
   assert.deepEqual(und, UNDECIDED, "the comparisons the doubled wait never decided: the one-step claim, exactly");
   assert.deepEqual(dec, DECIDED, "the comparisons it decided");
   // the 30 days, said in rows: the 60-day card answered only on day 60 (twice 60: 120 days) against answered on day 1, then 60
-  assert.deepEqual(W([60, 60, 0], true, 60), [180, 120, 60]);
+  assert.deepEqual(W([60, 60, 0], true, 60), [180, 120, 60, 0, 0, 90, 120], "120 days, its late mark the one-step 90");
   assert.deepEqual(W(W([60, 60, 0], true, 1), true, 60), [150, 60, 60], "early on day 60: onto the 90-day rung, 90 days");
   assert.deepEqual(onestep.write([60, 60, 0], true, 60), [150, 60, 60], "the one-step client: 90 days, the same row as the early answer's");
   // the reader's case against the level rule: a 30-day card answered on day 15 and on day 30 gets 60 days, as answering only
