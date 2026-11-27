@@ -5590,7 +5590,15 @@ class Component extends DCLogic {
     this._onPageHide = () => { flush(); this._stopSystemPreview(); this._csAbandon("pagehide"); };
     this._onVisHide = () => {
       // (L2-R1: an Undo offered when the tab is hidden is withdrawn BEFORE the flush that pushes: `_undoEnd`)
-      if (document.visibilityState === "hidden") { this._undoRelease(); flush(); this._stopSystemPreview(); this._csAbandon("hidden"); }
+      // A TAB SWITCH NEVER STOPS, RESTARTS OR REWINDS A VIDEO (VIDTAB1, the owner on 27 Nov: "the youtube video stops when
+      // i go to another tab"). Only the player's own pause, closing it, or leaving the page (`pagehide`, back, the pane
+      // closing) ends one. WAS, v1.190.0 to v1.304.0: `hidden` called `_stopSystemPreview()` here, which DESTROYED a System's
+      // course intro, and the return below mounted a new one from the start, muted; a player who turned the sound on and
+      // went to another tab to keep listening lost the video and their place. The theater's clips never stopped here.
+      // What the BROWSER does to a hidden tab is its own (measured, docs/Changelog-Archive.md VIDTAB1): Chrome pauses a
+      // MUTED video while its tab is hidden and resumes it where it was on return, and plays one with sound throughout.
+      // Pinned by systems-surface.spec.ts ("survives a tab switch").
+      if (document.visibilityState === "hidden") { this._undoRelease(); flush(); this._csAbandon("hidden"); }
       else {
         // A TAB LEFT OPEN OVERNIGHT (v1.266.0): a known move dealt face up yesterday may be due today, and its answer
         // must not sit face up when the player comes back. Nothing else may re-read the day before the next deal, so
@@ -5598,7 +5606,10 @@ class Component extends DCLogic {
         // against a day it has already read, and before the hand's first value request it has read none (a quick
         // return measured exactly that: the card stayed up, known-moves-shown.spec.ts, touch).
         this._paintHand();   // its seal too (v1.272.0): a move that came due loses its seal as it turns down
-        if (this._systemId && this.deckShown) this._renderPaneBody();
+        // A System's intro first opened while the tab was hidden waited for it (`_renderSystemMedia`): the return mounts
+        // it. A live one is left alone (VIDTAB1): this re-render was added with the hidden stop (v1.190.0) to remount, and
+        // round a live player it kept the iframe but rebuilt the prose, closing an open Sources fold on every return.
+        if (this._systemId && this.deckShown && !this._systemMedia) this._renderPaneBody();
       }
     };
     this._on(window, "pagehide", this._onPageHide);
@@ -13453,13 +13464,16 @@ class Component extends DCLogic {
     this._systemPlayer = null;
   }
   _renderSystemMedia(list, s, preview, product) {
-    if (!product || document.hidden) { this._stopSystemPreview(); return; }
+    if (!product) { this._stopSystemPreview(); return; }
     const url = this._systemURL(preview?.embed_url)?.href || null;
     const image = this._systemURL(product.image)?.href || "";
     if (!url && !image) { this._stopSystemPreview(); return; }
     const current = this._systemMedia;
+    // The live player survives every re-render, one in a hidden tab included (VIDTAB1: a body landing during a tab switch).
     if (current && current.key === s.id && current.url === url && current.image === image && current.el.parentNode === list) return;
     this._stopSystemPreview();
+    // Only a NEW intro waits for a hidden tab; the return (`_onVisHide`) mounts it. WAS, to v1.304.0: a hidden tab stopped a live one here too.
+    if (document.hidden) return;
     const el = document.createElement("section"); el.className = "ng-system-media";
     el.setAttribute("data-system-media", "1");
     el.setAttribute("aria-label", url ? (preview.title || "Official course intro") : (product.name || "Course") + " cover");
@@ -13480,7 +13494,12 @@ class Component extends DCLogic {
       // Media is only read by Systems. Keep its provider adapter off the roll's
       // boot payload; the cover is already visible while this local module loads.
       import("/static/system-preview.js").then(({ ngMountSystemPreview }) => {
-        if (this._systemMedia !== media || !el.isConnected || document.hidden) return;
+        // Mounted even if the tab hid while this module loaded: the player opened it (VIDTAB1). The `|| document.hidden`
+        // this carried to v1.304.0 would now leave the cover for good, since the return re-renders only round no media.
+        // For the same rule system-preview.src.js's YouTube `onReady` plays even in a hidden tab (it held a hidden one to
+        // v1.304.0); a muted video there is the browser's to hold, as Bunny's own autoplay always was. No comment ships
+        // in that file: it is copied to the site as it is, so its bytes are not stripped like this bundle's.
+        if (this._systemMedia !== media || !el.isConnected) return;
         media.handle = ngMountSystemPreview(target, preview, {
           onReady: () => { fallback.hidden = true; },
           onError: () => { target.hidden = true; fallback.hidden = false; if (this._systemMedia === media) this._systemPlayer = null; },

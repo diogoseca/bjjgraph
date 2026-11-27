@@ -27,7 +27,7 @@ if (!window[controllerKey]) {
     for (const section of sections) {
       if (!watched.has(section)) { watched.add(section); visibility.observe(section) }
     }
-    const section = !document.hidden && sections.find(el => el.getClientRects().length)
+    const section = sections.find(el => el.getClientRects().length)
     const preview = section && { provider: section.dataset.provider, embed_url: section.dataset.embedUrl, title: section.dataset.previewTitle }
     const url = preview && ngSystemPreviewURL(preview)
     const target = section && section.querySelector('[data-preview-player]')
@@ -46,6 +46,7 @@ if (!window[controllerKey]) {
       return
     }
     stop()
+    if (document.hidden) return
     const state = { key, url, target, fallback, ready: false, failed: false }
     const handle = ngMountSystemPreview(target, preview, {
       onReady() { state.ready = true; if (state.fallback) state.fallback.hidden = true },
@@ -72,7 +73,8 @@ if (!window[controllerKey]) {
   document.addEventListener('nav', init)
   window.addEventListener('pagehide', pause)
   window.addEventListener('pageshow', init)
-  document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); else init() })
+  // A tab switch never stops a video (VIDTAB1): only a new one waits for the tab.
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) init() })
   window.addEventListener('popstate', () => {
     if (currentPath !== location.pathname) pause()
   })

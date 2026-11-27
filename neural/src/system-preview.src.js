@@ -117,7 +117,7 @@ export function ngMountSystemPreview(target, preview, { onReady = () => {}, onEr
         onReady(event) {
           if (destroyed) return;
           event.target.mute();
-          if (!document.hidden) event.target.playVideo();
+          event.target.playVideo();
           ready();
         },
         onError: fail,
