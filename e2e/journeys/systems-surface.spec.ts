@@ -510,7 +510,9 @@ test("a provider error restores the exact course cover and keeps the course link
   expect(await page.evaluate(() => (window as any).__systemYTEvents)).toEqual(["mute", "play", "destroy"]);
 });
 
-for (const exit of ["back", "pane-close", "hidden", "pagehide"] as const) {
+// The three exits of a course intro: the player's own back, the pane closing, and leaving the page. A tab switch is
+// NOT one (VIDTAB1, below): it was the fourth exit here from v1.190.0 to v1.304.0.
+for (const exit of ["back", "pane-close", "pagehide"] as const) {
   test(`System preview is destroyed on ${exit}`, async ({ page }) => {
     const dossier = body(); dossier.guide.preview = preview();
     const j = await bootFixtures(page, journey(page), catalog(), dossier);
@@ -521,19 +523,74 @@ for (const exit of ["back", "pane-close", "hidden", "pagehide"] as const) {
     const original = (await player.elementHandle())!;
     if (exit === "back") await j.clickByMouse("[data-system-back]");
     else if (exit === "pane-close") await page.keyboard.press("Escape");
-    else if (exit === "pagehide") await page.evaluate(() => window.dispatchEvent(new PageTransitionEvent("pagehide")));
-    else await page.evaluate(() => {
-      // Model browser tab hiding explicitly; headless focus does not consistently change visibility.
-      Object.defineProperty(document, "visibilityState", { configurable: true, get: () => "hidden" });
-      Object.defineProperty(document, "hidden", { configurable: true, get: () => true });
-      document.dispatchEvent(new Event("visibilitychange"));
-    });
+    else await page.evaluate(() => window.dispatchEvent(new PageTransitionEvent("pagehide")));
     await expect(player).toHaveCount(0);
     expect(await original.evaluate(el => el.isConnected)).toBe(false);
     expect(await page.evaluate(() => ({ player: (window as any).__neural._systemPlayer, media: (window as any).__neural._systemMedia }))).toEqual({ player: null, media: null });
     expect(activity.requests).toBe(1);
   });
 }
+
+// A TAB SWITCH NEVER STOPS, RESTARTS OR REWINDS A COURSE INTRO (VIDTAB1, the owner on 27 Nov: "the youtube video stops
+// when i go to another tab"). Only the player's own pause, closing it, or leaving the page does (the three exits above).
+// Until v1.304.1 `_onVisHide` destroyed the player on `hidden` and the return mounted a new one from the start, muted.
+// The page is hidden BY HAND here: the harness cannot hide it for real, because Playwright's focus emulation keeps every
+// page it drives reading "visible", headless or headed (measured, VIDTAB1). The real two-tab run, in Chrome with the real
+// provider, is in docs/Changelog-Archive.md (VIDTAB1). What the BROWSER does to a hidden tab's media is not the app's and
+// is not asserted: the provider here is synthetic (Chrome 145 pauses a muted video while its tab is hidden, plays one
+// with sound, and resumes the muted one where it was on return).
+// Mutants, each red here against a green baseline (VIDTAB1): `_onVisHide` calling `_stopSystemPreview()` on hidden again
+// (red at the count right after hiding); `_renderSystemMedia` stopping a live player while `document.hidden` (red at the
+// re-render during the switch). NOT MUTATED, so not claimed as gated: the open Sources fold (the return re-rendering round
+// a live player) and the waiting test's return mount. The static guide's half is tests/system_guide_media.test.mjs.
+const setTabHidden = (page: Page, hidden: boolean) => page.evaluate(h => {
+  if (h) {
+    Object.defineProperty(document, "visibilityState", { configurable: true, get: () => "hidden" });
+    Object.defineProperty(document, "hidden", { configurable: true, get: () => true });
+  } else { delete (document as any).visibilityState; delete (document as any).hidden; }
+  document.dispatchEvent(new Event("visibilitychange"));
+  return document.visibilityState;
+}, hidden);
+test("System preview survives a tab switch: the same player, still there, never mounted again", async ({ page }) => {
+  const dossier = body(); dossier.guide.preview = preview();
+  await bootFixtures(page, journey(page), catalog(), dossier);
+  const activity = await stubPreviews(page);
+  await openFirst(page);
+  const player = page.locator("[data-system-player]");
+  await expect(player).toHaveCount(1); await expect.poll(() => activity.requests).toBe(1);
+  const original = (await player.elementHandle())!;
+  const same = () => original.evaluate(el => el.isConnected && el === document.querySelector("[data-system-player]") && el === (window as any).__neural._systemPlayer);
+  expect(await setTabHidden(page, true)).toBe("hidden");
+  await expect(player).toHaveCount(1);
+  expect(await same()).toBe(true);
+  // A body landing while the tab is away re-renders the pane (hydration): still the same player.
+  await page.evaluate(() => (window as any).__neural.renderExplorer());
+  await expect(page.locator("[data-system-coverage]")).toBeVisible();
+  expect(await same()).toBe(true);
+  // Coming back leaves the pane as it is: a fold the player opened stays open (nothing rebuilt round the player).
+  const sources = page.locator("[data-system-sources] details");
+  await sources.evaluate(d => { (d as HTMLDetailsElement).open = true; });
+  expect(await setTabHidden(page, false)).toBe("visible");
+  await expect(player).toHaveCount(1);
+  expect(await same()).toBe(true);
+  expect(await sources.evaluate(d => (d as HTMLDetailsElement).open)).toBe(true);
+  expect(activity.requests).toBe(1);
+});
+// A preview first opened while the tab is already hidden waits for it: nothing is requested until the tab is back.
+test("a System preview opened in a hidden tab mounts when the tab comes back", async ({ page }) => {
+  const dossier = body(); dossier.guide.preview = preview();
+  await bootFixtures(page, journey(page), catalog(), dossier);
+  const activity = await stubPreviews(page);
+  await openExplore(page);
+  expect(await setTabHidden(page, true)).toBe("hidden");
+  await page.locator('[data-system-row="Systems/Fixture-Octopus"]').click(); await openStudy(page);
+  await expect(page.locator("[data-system-coverage]")).toBeVisible();
+  await expect(page.locator("[data-system-player]")).toHaveCount(0);
+  expect(activity.requests).toBe(0);
+  expect(await setTabHidden(page, false)).toBe("visible");
+  await expect(page.locator("[data-system-player]")).toHaveCount(1);
+  await expect.poll(() => activity.requests).toBe(1);
+});
 
 test("late Concepts hydration preserves the same System preview until navigation", async ({ page }) => {
   const dossier = body();

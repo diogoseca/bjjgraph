@@ -22710,3 +22710,75 @@ idempotent, no #452 loop; MERGE AFTER 2 fixes):
 - `app.src.jsx`'s comment moves the four MDP-bound bundles' hash (the manifest's `gameplayHash` digests its raw bytes), so the
   app rows are re-seeded in their own commit; no content path moves, and the capture's content proof stands.
 
+
+## v1.304.1 — A tab switch never stops, restarts or rewinds a video (VIDTAB1, 27 Nov 2026)
+
+**Why.** The owner, 27 Nov: "omg i just noticed the youtube video stops when i go to another tab , why, how, pls fix it".
+The rule (the orchestrator's, from his words): a tab switch never stops, restarts or rewinds a video; only the player's
+own pause, closing it, or leaving the page does.
+
+**What stopped, measured in a real browser with two tabs.** Playwright cannot hide a page: it turns on DevTools focus
+emulation for every page it drives, and that keeps a background tab reading `visible` (measured: Playwright's Chromium,
+Chrome and Firefox, headless and headed on a private Xvfb display, by `newPage` + `bringToFront`, `window.open` and a
+minimised window, all read `visible`). So the repro drives Chrome over raw CDP: tab A on the app, then
+`Target.createTarget` opens a second tab in the foreground. Tab A's own `visibilitychange` listener recorded `hidden`,
+and `visible` again after `Target.activateTarget`. Each video was started by a real press (`Input.dispatchMouseEvent`,
+or `dispatchTouchEvent` at 390x844 with touch emulation), the real providers played (Bunny for the course intro, the
+only provider of all 67 authored intros; YouTube for a technique clip), and the video's own `currentTime` / `paused`
+were read inside the provider's cross-origin frame (an auto-attached OOPIF session). Google Chrome 145.0.7632.75,
+headed on Xvfb; 6-8 s on the other tab.
+
+| what, on dev 0e3fcf1ad | while on the other tab | back on the app tab |
+|---|---|---|
+| course intro (a System's drawer), 1440 and 390 | the player is GONE at once (`_onVisHide` -> `_stopSystemPreview()`) | a NEW player, from 0:00, muted (`_renderPaneBody()` remounted it) |
+| technique clip in the theater, with sound, 1440 and 390 | same player, kept playing (its clock moved 7.4 s from the last read before the switch to 6.6 s into it) | same player, still playing |
+| technique clip, MUTED (by the player API) | same player, PAUSED by the browser | same player, resumed where it paused |
+
+The clip was never the app's: nothing in the app pauses it on a hidden page. The muted pause is CHROME's own, proven on a
+plain `<video>` with no provider code (a VP8+Opus webm recorded in the page, one copy muted, one with sound, the same
+tab switch): Chrome 145 and Chromium 149 both paused the muted copy at once and resumed it on return, and played the one
+with sound throughout. No code here works round it. Phone browsers were NOT measured (no phone on this box); a phone's
+own rule for a video in a background tab is likewise the browser's.
+
+**The fix** (`neural/src/app.src.jsx`, `neural/src/system-preview.src.js`, `scripts/system_guide_media.js`):
+- `_onVisHide` no longer calls `_stopSystemPreview()` on `hidden`. Kept: the Undo release, the flush, `_csAbandon`, and
+  on return the hand repaint. The return re-renders the System pane only when it holds NO media
+  (`!this._systemMedia`): that re-render came with the hidden stop in v1.190.0 to remount it, and round a live player it
+  kept the iframe (`keepSystem`) but rebuilt the prose, closing an open Sources fold on every return.
+- `_renderSystemMedia` keeps a live player through any re-render, a hidden tab's included; only a NEW intro waits for
+  a hidden tab (mounted by the return). Its import callback mounts even if the tab hid while the module loaded (with
+  the return now re-rendering only round no media, its `|| document.hidden` would have left the cover for good).
+- `ngMountSystemPreview`'s YouTube `onReady` plays even in a hidden tab (it held one to v1.304.0; Bunny's URL autoplay
+  never did): a muted video there is the browser's to hold. Dormant today, no authored intro is YouTube.
+- The static guide page (`scripts/system_guide_media.js`, shown when the app does not load) had the same exit:
+  `visibilitychange` paused (destroyed) the player and the return mounted a new one. Now only a new player waits for a
+  hidden tab, and the return mounts one that waited. Beyond the brief's two surfaces: same rule, same v1.190.0 origin.
+
+**After the fix, the same two-tab run** (course intro; clip unchanged):
+
+| course intro | while on the other tab (8.6 s) | back on the app tab |
+|---|---|---|
+| muted, as it starts, 1440 / 390 | same player; Chrome paused it at 2.29 / 2.77 | same player, resumed: 5.34 / 5.88 at +3 s |
+| sound on, 1440 / 390 | same player, playing: +8.78 / +9.13 s | same player, still playing: 15.41 / 16.10 |
+
+**Gates.** `e2e/journeys/systems-surface.spec.ts`: the `hidden` exit leaves the destroy loop (back, pane-close and
+pagehide stay); "survives a tab switch" asserts the same iframe element, still present, still `_systemPlayer`, through
+the hide, a re-render while hidden, and the return, with one provider request in all and an open Sources fold still open;
+"opened in a hidden tab mounts when the tab comes back" keeps the waiting case. The page is hidden by hand there
+(defineProperty + a dispatched `visibilitychange`), the harness being unable to hide it. `tests/system_guide_media.test.mjs`:
+the backgrounding half is flipped (same frame through hide, a resize while hidden, and the return; `pagehide` still ends
+it) and the waiting case added (`tabHidden`). Mutants, each red against a green baseline, originals restored and green after:
+
+| mutant | red at |
+|---|---|
+| `_onVisHide` calls `_stopSystemPreview()` on hidden again | systems-surface "survives a tab switch", the count right after hiding |
+| `_renderSystemMedia` stops a live player while `document.hidden` | the same test, the re-render while hidden |
+| the static guide pauses on hidden again (`if (document.hidden) pause(); else init()`) | system_guide_media "...a tab switch keeps it" |
+
+Not mutated, so not claimed as gated: the open-fold assertion, the waiting cases' return mount, and the YouTube
+`onReady` playing in a hidden tab.
+
+**Bytes.** `app/neural.js` 807,309 -> 807,288 raw, 254,685 -> 254,692 gzip -9 (+7, compression noise on a shorter file).
+`system-preview.js` is copied to the site as it is, so its comment-free change is -22 raw. The four MDP-bound bundles
+(`game-model.worker.js`, `game-study.js`, `game-study.worker.js`, `game-values.js`) move by -3..+3 gzip bytes because the
+manifest's `gameplayHash` digests `app.src.jsx`, so the app rows are re-seeded (`validate:build-shape:app`).
