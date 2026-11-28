@@ -222,9 +222,14 @@ function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity
   //     `ngKnowledgeShadow`, the writer's row and the pull merge carry two more numbers on a row the doubled wait stretched).
   //     Label-neutral for the same reason: the schedule writer and the merge are the app's alone, and the MDP reads no
   //     schedule. Measured: regenerated after it, every MDP shard part byte-identical to dev's.
+  //     The KNOWLEDGE pin again (from 3081f0…), LATE2 (the late rule's final form, the owner's U226 a, 28 Nov 2026): on or
+  //     after the due max(step, t × min(step ÷ I, C(t) ÷ t)), and the ladder's rungs past 2,922 days made by the fitted curve
+  //     (`NG_KNOWLEDGE_LADDER`, `NG_KNOWLEDGE_TOP_FROM`, `NG_KNOWLEDGE_TOP_POWER`). Label-neutral for the same reason: the
+  //     schedule writer, its ladder and the merge are the app's alone, and the MDP reads no schedule. Measured: regenerated
+  //     after it, every MDP shard part byte-identical to LATE1's (docs/Changelog-Archive.md, v1.305.0, LATE2).
   // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
   // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
-  const expected={adapter:'7fc8263e15a907b08fd0c70342fb50d943ea3f8add29e48f7053c9b200c33b04',knowledge:'3081f0afedd31e048e479624469473e90de6cf841c217613d27ca78245a7fc69',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
+  const expected={adapter:'7fc8263e15a907b08fd0c70342fb50d943ea3f8add29e48f7053c9b200c33b04',knowledge:'5e11af9dba0a54b753f6d77fc8e0236be059c6bb27daaed34eaeefd5e7498b07',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
   if(Object.entries(expected).some(([key,hash])=>lawHashes?.[key]!==hash))ngMdpExposureFail('unsupported-exposure-label-law');
   if(metadata?.coverage?.status!=='COMPLETE'||metadata.ruleset!==request.ruleset||profile?.status!=='ready'||profile.fingerprint!==request.profileHash||typeof knowledge.ngKnowledgeOverride!=='function')ngMdpExposureFail('incomplete-exposure-adapter-context');
   const contractHash=M.ngMdpContractHash(request),metadataHash=M.ngMdpDigest(metadata);
