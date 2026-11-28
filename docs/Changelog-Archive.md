@@ -22957,3 +22957,8 @@ fuzz with four rounds: 0 of 72,000 unsettled (previous head 6). F3, F4: as built
 **Payload.** Deferred 564,994 → 565,009 B (+15, gameplan.js: the rating's day check); the ceiling moved to it in its own commit
 (the orchestrator's GO in advance, U207 a: 34,991 of 600,000 remain). Eager raw +8, gzip 395,212 unchanged (4,788 under the
 action line). MDP re-pinned, its 62 parts identical; the app rows re-seeded last.
+
+### v1.305.0, LATEFIX2 (the reader's re-check): R2 fixed, the srs pull keeps a later build's cells after the mark (pr-pr ties
+36 of 112 unsettled → 0); R3, the pull of damaged mark cells now tested (mutant D6 red). NOT COVERED, R1: two devices still on
+v1.304.x can push one card at each other on every pull; nobody sees it, it costs writes (re_srs_pingpong.mjs). R4, R5: noted.
+Payload: deferred 565,009 unchanged; eager gzip +52 to 395,264 (4,736 under the action line); MDP re-pinned, parts identical.
