@@ -1,6 +1,10 @@
 {
   "name": "Leg Hook",
   "slug": "leg-hook",
+  "bot_metadata": {
+    "last_improved": "2026-08-08",
+    "optimization_pass": "ai_seo_v1"
+  },
   "description": "Master Leg Hook position in BJJ. Transitional half guard control using leg entanglement for sweeps, guard recovery, and leg attacks. Complete guide covering both bottom and top perspectives.",
   "variant_uniqueness": "Dynamic leg control for mobile transitions",
   "summary": "Leg Hook is a dynamic half guard control where one player entangles an opponent's leg with an active hook, creating a transitional decision point for sweeps, guard recovery, and leg attacks from bottom or pass completion from top.",
