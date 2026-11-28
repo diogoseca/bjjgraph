@@ -22939,3 +22939,21 @@ rating's ladder copy): the ceiling moved to exactly 564,994 in its own commit at
 a: 600,000, 35,006 remain). Follow-up, not done: the two worker bundles carry the schedule writer they never call; splitting it
 out would save several KB but moves the MDP's pinned law file. MDP re-pinned (5e11af…), all 62 shard parts byte-identical to
 LATE1's; the app rows re-seeded in their own commit. `docs/Neural.md`'s sentence trimmed to its ceiling, not the ceiling moved.
+
+### v1.305.0, LATEFIX1 — the late mark tied to its answer; a moves tie settled as older builds settle it (the reader of PR #472, F1, F2)
+
+**F1.** v1.281.0 to v1.304.x keep the cells after the pair (writer on every answer, moves merge, journal replay); their
+answers can bring a card back to exactly the mark's I (a miss, then on-time answers), and the stale [R, I] checked again: a
+rung low for good (60 where the one-step schedule reads 90). The mark is now [R, I, L], read only when L is the row's last; an
+older build's answer always moves last, except a same-day one, which keeps the row or sends it to 1 day. Storage only adds;
+every captured validator takes the rows. Test: an older chain through v1.304.0's writer, moves merge (now captured) and
+replay; mutant L1 red. Mixed fuzz: 0 readings below one step (was 1). The LATE1 and LATE2 finding 3 holds for the srs pull only.
+
+**F2.** One schedule, two marks that both check: the longer reading here, the tail's text on older builds, so the cloud flipped.
+Moves now tie by the text, and a same-day heal keeps the beaten row; srs keeps the reading tie (older srs pulls hold the
+unmarked row; the text tie left 2,118 of 6,000 mixed syncs unsettled). The reader's flip script is the test; L2, L3 red. Sync
+fuzz with four rounds: 0 of 72,000 unsettled (previous head 6). F3, F4: as built.
+
+**Payload.** Deferred 564,994 → 565,009 B (+15, gameplan.js: the rating's day check); the ceiling moved to it in its own commit
+(the orchestrator's GO in advance, U207 a: 34,991 of 600,000 remain). Eager raw +8, gzip 395,212 unchanged (4,788 under the
+action line). MDP re-pinned, its 62 parts identical; the app rows re-seeded last.
