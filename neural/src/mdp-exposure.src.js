@@ -231,9 +231,12 @@ function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity
   //     [R, I, L], in the writer, its reader and the srs merge. Label-neutral for the same reason: the mark is the rating's,
   //     the schedule never reads it, and the MDP reads no schedule. Measured: regenerated after it, every MDP shard part
   //     byte-identical to LATE2's.
+  //     The KNOWLEDGE pin again (from 8248a0…), LATEFIX2 (the reader's R2): the srs pull keeps a later build's cells after the
+  //     mark, and its heal the winner's. Label-neutral: the pull merge is the app's alone. Measured: every MDP shard part
+  //     byte-identical to LATE2's.
   // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
   // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
-  const expected={adapter:'7fc8263e15a907b08fd0c70342fb50d943ea3f8add29e48f7053c9b200c33b04',knowledge:'8248a05b7e9647b645cc5ee329cac688094fe5aecdb5d9606ccb58c1a577b21c',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
+  const expected={adapter:'7fc8263e15a907b08fd0c70342fb50d943ea3f8add29e48f7053c9b200c33b04',knowledge:'0378563b35acf47bcac665e5d4aa380cd79d920bcd5804d3909e27b66a1b5071',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
   if(Object.entries(expected).some(([key,hash])=>lawHashes?.[key]!==hash))ngMdpExposureFail('unsupported-exposure-label-law');
   if(metadata?.coverage?.status!=='COMPLETE'||metadata.ruleset!==request.ruleset||profile?.status!=='ready'||profile.fingerprint!==request.profileHash||typeof knowledge.ngKnowledgeOverride!=='function')ngMdpExposureFail('incomplete-exposure-adapter-context');
   const contractHash=M.ngMdpContractHash(request),metadataHash=M.ngMdpDigest(metadata);
