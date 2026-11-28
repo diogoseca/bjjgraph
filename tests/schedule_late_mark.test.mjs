@@ -53,7 +53,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import * as K from "../neural/src/knowledge-profile.src.js";
 import * as R from "../neural/src/rating.src.js";
-import { ngProgressMark, ngProgressMergeMoves, ngProgressReplay } from "../neural/src/progress-owner.src.js";
+import { ngProgressMark, ngProgressMergeMoves, ngProgressReplay, ngProgressValidateBlob } from "../neural/src/progress-owner.src.js";
 import { onestep, onestepRecall, onestepNow, onestepNowRecall, onestepMergeMoves, schedulePart } from "./_onestep_client.mjs";
 import { ratingFixture } from "./_rating_fixture.mjs";
 
@@ -333,6 +333,35 @@ test("the pull merge carries the mark, and the heal writes its own; the three co
   // where the winner's own reading is the longer, it is the mark's; where it reaches the heal's interval, no mark
   assert.deepEqual(K.ngKnowledgeMergeRow([D + 105, 30, D + 75], r, D + 90), [D + 225, 120, D + 75, 0, 0, 30, 150, D + 75]);
   assert.deepEqual(K.ngKnowledgeMergeRow([D + 105, 30, D + 75], r.slice(0, 3), D + 90), [D + 225, 120, D + 75]);
+  // LATEFIX2 (the reader's R2): the cells a later build adds after the mark ride through this build's srs pull, as through
+  // its writer and its moves merge: a card only the cloud holds, the cloud's later answer, a full tie (both devices on this
+  // build settle at once), and the heal (the winner's cells kept, as the moves heal keeps them)
+  const tailed = r.concat(42, 5);
+  assert.deepEqual(K.ngKnowledgeMergeRow(undefined, tailed, D + 90), tailed, "pulled alone: the tail rides");
+  assert.deepEqual(K.ngKnowledgeMergeRow([D + 10, 3, D + 3], tailed, D + 90), tailed, "the cloud's later answer: the tail rides");
+  assert.deepEqual(W(tailed, true, D + 100).slice(8), [42, 5], "premise: this build's writer keeps it too");
+  for (const [x, y] of [[tailed, r], [r, tailed]]) {
+    let cloud = y.slice(), a = x.slice(), b = y.slice();
+    const first = K.ngKnowledgeMergeRow(a, cloud, D + 90);
+    for (let i = 0; i < 3; i++) {
+      a = K.ngKnowledgeMergeRow(a, cloud, D + 90); cloud = a.slice();
+      b = K.ngKnowledgeMergeRow(b, cloud, D + 90); cloud = b.slice();
+      assert.deepEqual([a, b, cloud], [first, first, first], `two devices on this build settle at once (round ${i})`);
+    }
+  }
+  const tailedFresh = [D + 78, 3, D + 75, 0, 0, 0, 0, 0, 42];
+  assert.deepEqual(K.ngKnowledgeMergeRow(tailedFresh, r, D + 90), [D + 225, 120, D + 75, 0, 0, 7, 150, D + 75, 42], "the heal: the winner's tail after the mark");
+  assert.deepEqual(K.ngKnowledgeMergeRow(tailedFresh, r.slice(0, 3), D + 90), [D + 225, 120, D + 75, 0, 0, 0, 0, 0, 42], "the heal with no mark: the slots filled, the tail after them");
+  // (the reader's R3) a cloud row whose mark cells are not all numbers pulls to its schedule, never an undefined cell: the
+  // two-cell form of LATE1, never shipped; a null where JSON had a number; a damaged mark with a tail after it
+  for (const bad of [[D + 225, 120, D + 75, 0, 0, 7, 150], [D + 225, 120, D + 75, 0, 0, 7, 150, null], [D + 225, 120, D + 75, 0, 0, 7, null, D + 75, 42],
+    [D + 225, 120, D + 75, 0, 0, 7, 150, D + 75, 42, null]]) {
+    const pulled = K.ngKnowledgeMergeRow(undefined, bad, D + 90);
+    const want = bad[7] === null || bad[6] === null || bad.length < 8 ? [D + 225, 120, D + 75, 0, 0] : [D + 225, 120, D + 75, 0, 0, 7, 150, D + 75];
+    assert.deepEqual(pulled, want, `${JSON.stringify(bad)}`);
+    assert.ok(pulled.every((x) => Number.isFinite(x)), `${JSON.stringify(pulled)}: numbers only`);
+    assert.doesNotThrow(() => ngProgressValidateBlob({ v: 2, srs: { d: { q: pulled } } }), `${JSON.stringify(pulled)}: the blob validates`);
+  }
   // the moves merge the same way
   const mv = W([D + 3, 3, D, 1], true, D + 75, 4), mfresh = [D + 78, 3, D + 75, 1];
   const mm = ngProgressMergeMoves({ s: { m: mfresh } }, { s: { m: mv } }, D + 90).s.m;

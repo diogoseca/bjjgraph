@@ -608,7 +608,8 @@ export function ngKnowledgeScheduleRow(prior, ok, day, at = 3) {
 // the beaten cell, winner's last], with a pair only when that interval is not whole. The cloud row's pair rides with it (read only if it checks itself). The
 // incoming `last` is clamped to today so a fast clock cannot win forever (its pair then fails its check); `local` may be
 // undefined (a card only the cloud holds). Returns the row to keep; inputs untouched.
-// THE LATE MARK (v1.305.0) rides with the cloud row's pair (read only if it checks itself; a clamped `last` fails it), and the
+// THE LATE MARK (v1.305.0) rides with the cloud row's pair (read only if it checks itself; a clamped `last` fails it), and so do
+// the cells a later build adds after it (LATEFIX2: kept whole, as the moves merge keeps them, and the winner's through the heal), and the
 // heal writes its own: the kept card reads at the longer of the two rows' one-step readings (each row's mark, else its own
 // interval), marked only while that is shorter than the interval the heal keeps; and a tie on the whole schedule keeps the
 // row with the longer reading before the text decides, so the heal's row is what a second pull keeps (it writes nothing).
@@ -617,7 +618,14 @@ export function ngKnowledgeMergeRow(local, cloud, today) {
   const cc = [cloud[0] | 0, cloud[1] | 0, Math.min(today, cloud[2] | 0)];
   if (Number.isFinite(cloud[3]) && Number.isFinite(cloud[4])) {
     cc.push(cloud[3], cloud[4]);
-    if ([5, 6, 7].every((i) => Number.isFinite(cloud[i]))) cc.push(cloud[5], cloud[6], cloud[7]);   // the late mark (v1.305.0)
+    if ([5, 6, 7].every((i) => Number.isFinite(cloud[i]))) {
+      cc.push(cloud[5], cloud[6], cloud[7]);   // the late mark (v1.305.0)
+      // the cells a later build adds after the mark ride, as the moves merge keeps them (LATEFIX2, the reader's R2: dropped
+      // here while this build's writer keeps them, two devices on this build would rewrite the cloud at each other); all
+      // or none, numbers at or above 0 as the blob validator takes them
+      const tail = cloud.slice(8);
+      if (tail.every((x) => typeof x === "number" && Number.isFinite(x) && x >= 0)) cc.push(...tail);
+    }
   }
   if (!local) return cc;
   const m = local, ed = (r) => r[2] + ngKnowledgeInterval(r), rd = (r) => { const k = ngKnowledgeMark(r); return k === null ? ngKnowledgeInterval(r) : k; };
@@ -629,12 +637,21 @@ export function ngKnowledgeMergeRow(local, cloud, today) {
   // the longer one-step reading, as the heal keeps (v1.305.0). It is also what lets an srs row settle beside an older build:
   // v1.281.0 to v1.304.x pull srs rows without the cells after the pair, so they hold the unmarked row, and the unmarked one
   // always reads longer (LATEFIX1, the reader's F2, measured: the text tie here left 2,118 of 6,000 mixed syncs unsettled).
-  // The moves merge, whose older copies keep the cells, settles by their own rule instead (`ngProgressMergeMoves`)
+  // The moves merge, whose older copies keep the cells, settles by their own rule instead (`ngProgressMergeMoves`).
+  // NOT COVERED (LATEFIX2, the reader's R1; the loop runs between older builds, so no line here can end it): an account with
+  // TWO devices still on v1.281.0 to v1.304.x can push the cloud's copy of a card back and forth on every pull. Those builds
+  // drop the cells after the pair from a pulled row but keep them in their own row (their answer, replayed onto a row this
+  // build marked, carries them), so one older device's copy keeps the stale cells and the other's does not, and each pull
+  // finds the cloud different and pushes. The schedule is the same everywhere and the stale cells never count as a mark, so a
+  // player sees nothing; the cost is writes. It ends when either older device updates, or when the device without the cells
+  // (or this build) next answers the card. Repro: the reader's re_srs_pingpong.mjs (10 pushes in 5 rounds) and
+  // re_srs_pingpong_end.mjs; measured with re_sync3.mjs (this build beside two v1.304.x devices: 954 of 8,000 runs never settle)
   else if (rd(cc) !== rd(m)) w = rd(cc) > rd(m) ? cc : m;
   else w = JSON.stringify(cc.slice(3)) <= JSON.stringify(m.slice(3)) ? cc : m;
   const o = w === cc ? m : cc;
   const tw = ngKnowledgeInterval(w), to = ngKnowledgeInterval(o);
   if (tw > 1 && to > tw) {
+    const rest = w.length > 8 ? w.slice(8) : [];   // the winner's cells after its mark ride, as the moves heal's (LATEFIX2)
     const mw = ngKnowledgeMark(w), mo = ngKnowledgeMark(o), R = Math.max(mw === null ? tw : mw, mo === null ? to : mo);
     if (o[2] === w[2]) w = o.slice(0, 3).concat(ngKnowledgeAnchor(o).pair ? o.slice(3, 5) : []);
     else {
@@ -642,7 +659,9 @@ export function ngKnowledgeMergeRow(local, cloud, today) {
       w = [ngKnowledgeDueDay(w[2] + A), o[1], w[2]];
       if (!Number.isInteger(A)) w.push(A, w[2]);
     }
-    if (R < to) { if (w.length === 3) w.push(0, 0); w.push(R, ngKnowledgeInterval(w), w[2]); }   // the heal's late mark
+    const mark = R < to ? [R, ngKnowledgeInterval(w), w[2]] : rest.length ? [0, 0, 0] : [];   // the heal's late mark
+    if (mark.length && w.length === 3) w.push(0, 0);
+    w = w.concat(mark, rest);
   }
   return w;
 }
