@@ -22782,3 +22782,183 @@ Not mutated, so not claimed as gated: the open-fold assertion, the waiting cases
 `system-preview.js` is copied to the site as it is, so its comment-free change is -22 raw. The four MDP-bound bundles
 (`game-model.worker.js`, `game-study.js`, `game-study.worker.js`, `game-values.js`) move by -3..+3 gzip bytes because the
 manifest's `gameplayHash` digests `app.src.jsx`, so the app rows are re-seeded (`validate:build-shape:app`).
+
+## v1.305.0 — A late right answer earns twice the days since its last answer (LATE1; the owner's rule, 25 Nov 2026, ruled U223 b, 26 Nov 2026)
+
+**The rule, his words (25 Nov):** "when answering late, [the] elapsed time in days is doubled, that is the time in days for
+the next repetition space"; "i agree with the edges. also remember the rule where if it's answered earlier, there's already
+a formula for that right which discounts it". On the measured card (U223, 26 Nov): "b, Your rule, no cap". So a right answer
+on or after the due day earns max(one step from the interval it reads, 2 × the days since the last answer); early answers and
+wrong answers exactly as before; no ceiling of ours. The study it was ruled on is LATE1, Part A (a seat's read-only
+simulation, kept outside the repo): it saves 1 to 3% of reviews and costs about a point of recall at each review on the cards
+answered late; a returning player who clears the pile ends knowing more (+9 to +13), a player whose roll answers keep the pile
+full ends knowing less (−14 to −18 from month 9).
+
+**The code.** One small named function, `ngKnowledgeLate(step, elapsed)` (neural/src/knowledge-profile.src.js), called by the
+writer's late branch (`ngKnowledgeNext`). It is the only place the shape lives: the owner is reconsidering the top end (should
+the wait saturate?), and a later shape is a swap of its body. The row keeps its shape; the cell stays one of the seven old
+rungs, so every older build reads the row and climbs from it.
+
+**What a player sees.** A card answered late comes back later than before: a 30-day card answered 10 days late, in 80 days
+(one step gave 60); a 3-day card answered 75 days after its last answer, in 150 (one step gave 7); two years late, four years
+and more. On its due day a card takes one step, except where a step is under double (31 to 89 days): the 60-day card goes to
+120, past the 90 rung (ruled). A day later never earns less.
+
+**What it changes that was a pinned claim.** 23 unit tests in 6 files assumed "at most one step" (the study counted the same
+23). Each is restated in its file. The single values became the rule's values, with the one-step value kept beside them. The
+path searches of schedule_rung and schedule_linear are split by a differential against the captured one-step client
+(tests/artifacts/schedule_onestep_client.json, v1.304.0's writer cut from git; tests/_onestep_client.mjs). On the histories
+the doubled wait never decided, every old claim holds exactly. On the ones it decided, the measured counts are pinned. And 4
+study-engine tests were red only for the knowledge law's sha pin, which is re-pinned: label-neutral, every MDP shard part
+byte-identical with dev's file and with this one.
+
+**Two findings, both properties of the rule itself, not of the code:**
+- THE DOUBLED WAIT COUNTS FROM THE LAST ANSWER, so an early answer restarts it: an extra early answer can leave a card due
+  sooner, after a later late answer, than without it. In the reader's long extra-answer search (whose answers sit up to
+  decades apart), 228,947 of 1,130,994 comparisons came out sooner, the worst by 74,553 days; on time, on the 60-day rung, by
+  up to 30 days (an early answer, then the due day: the card is still early there and takes the 90 rung, where without the
+  early answer it would have taken 120). It never makes the card due sooner at the answer itself (the never-sooner guard),
+  and the next answer never earns less than one step from where the early answer left it.
+- TWO DEVICES OFFLINE: a device that answers without having seen the other's answers doubles the whole wait since the last
+  answer IT knows, and when its push lands first the merge's heal keeps that longer interval: the card ends ahead of the
+  in-time-order copy, never behind (8 days where in order 7; a 60-day card, 300 where in order 210.83). The journal replay
+  gets it right whenever the other device's answer reached the cloud first (tests/answers_before_sync.test.mjs, "a late
+  answer's doubled wait meets an older client's row…").
+
+**Mutants of the rule (commit 1), each applied alone to knowledge-profile.src.js and run against the six schedule unit files
+(schedule_late, schedule_ladder, schedule_linear, schedule_rung, knowledge_profile, answers_before_sync); each turned the named
+test red (with others):**
+
+| mutant | red, named | reds in all |
+|---|---|---|
+| T1 the max dropped (2 × the days only) | "on its due day: one step, except where a step is under double…" | 23 |
+| T2 the factor 2 → 1 | "the 60-day card answered on its due day goes to 120…" | 22 |
+| T3 `>=` → `>` at the due | "the 60-day card answered on its due day goes to 120…" | 17 |
+| T4 a cap sneaked in (the 2,922-day rung) | "very late: twice the days since the last answer, however many (no cap of ours)" | 10 |
+| T5a the early formula touched (its credit × 1.01) | "an early right answer: byte for byte the one-step client's…" | 28 |
+| T5b the early formula touched (the walk's `>=` → `>`) | "an early right answer: byte for byte the one-step client's…" | 10 |
+| J17 (NEXT2-R2's, in progress-owner) the replay's row always taken | "two offline devices, only right answers…" (its new case, rung 180) | 1 |
+
+**The rating's correction (commit 2, the late mark).** Under the rule the rating (and Practice's worth, which reads the same
+function) read a stretched interval as better recall. The row alone cannot say a row was stretched: a 30-day card on its due
+and a 3-day card answered 30 days after its last answer both store `[last + 60, 60, last]`, and every interval value can be
+held by a row written before this build. So a stretched row stores two more numbers after the pair's slot, `[R, I]`. R is the
+interval the one-step schedule would hold after the same answers (the one-step writer run on the row, or on the row its mark
+stands for, so a chain of answers keeps it). I is the row's own exact interval, which is the mark's check. The rating reads R;
+the schedule never reads the mark. An older build's next answer leaves a stale mark that fails its check; a clamped pull fails
+it too. This build's pull merge carries the mark, its heal keeps the longer of the two one-step readings, and a full tie keeps
+the longer reading before the text decides, so a second pull still writes nothing. NOT COVERED: an older build's pull drops a
+cloud row's cells after the pair, so that row reads uncorrected from then on (higher, never lower, never a schedule's day).
+
+Proved: every row the four captured older writers produce, and the rating journey's stored record, reads bit for bit as
+v1.304.0's rating reads it (no rating moves at the update). On one device every card reads as the one-step client reads its
+own row for the same answers: 64,000 of 64,000 readings equal, over 800 histories, srs and moves.
+
+**The rating before and after, the study's four players** (the study's own memory model; the rating as the app reads full
+rows, `ngRatingRecall`; "today" = v1.304.0's one-step schedule):
+
+| player | true recall, today → the rule | rating, today | rating, the rule uncorrected | rating, the rule corrected |
+|---|---|---|---|---|
+| returning, 240 owed, day 180 | 1,433.0 → 1,443.7 | 1,158.1 | 1,174.1 | 1,165.0 |
+| returning, 434 owed, day 180 | 1,466.4 → 1,479.8 | 1,204.1 | 1,223.7 | 1,211.1 |
+| steady, skips 1 day in 5, day 365 | 1,449.5 → 1,458.6 | 1,179.9 | 1,194.7 | 1,187.6 |
+| steady with rolls (qsim policy A, 5 seeds), day 730 | 1,443.9 → 1,417.0 (corrected: 1,445.6) | 1,390.1 | 1,428.0 | 1,384.1 |
+
+(The first three players' rating counts an unseen card as 0 over a 4,000-card world, so it sits far below the truth, which
+counts an unseen card's prior chance; read the columns side by side.) Uncorrected, the rating rose more than true recall: in
+the fourth player by 37.9 points while true recall fell by 26.9. Corrected, it rises less than true recall, or falls a little
+with it. In the fourth player, Practice's order (which reads the same recall) also stops favouring the stretched cards, and
+true recall comes back to today's level (1,445.6 against 1,443.9) while 554 fewer cards are owed at day 730.
+
+**Mutants of the mark (commit 2), each applied alone and run against the schedule, rating, moves and practice unit files:**
+
+| mutant | red, named | reds in all |
+|---|---|---|
+| K1 the rating ignores the mark | "a stretched row reads at the one-step interval…" | 4 |
+| K2 the shadow ignores the prior's mark (no chain) | "on one device, every card reads as the one-step client reads its own row…" | 7 |
+| K3 the mark's check dropped | "the mark checks itself…" | 2 |
+| K4 the pull merge drops the cloud's mark | "the pull merge carries the mark, and the heal writes its own…" | 5 |
+| K5 the heal writes no mark | "the pull merge carries the mark, and the heal writes its own…" | 2 |
+| K6 a full tie without the reading | schedule_linear, "the srs merge…" (a second pull writes nothing) | 1 |
+
+**Payload** (check_payload_budget.py, both builds from clean folders, the same tree with dev's four files and with these):
+eager raw 1,527,230 → 1,528,316 B (+1,086, all neural.js); eager gzip 394,723 → 395,125 B (+402; 4,875 B of room under the
+400,000 B action line). Deferred raw 564,703 → 564,792 B (+89, all gameplan.js, which bundles the rating's corrected reading),
+80 B over its ceiling of 564,712 B, which left 9 B of room: moved to exactly its measured use, 564,792 B, in its own commit at
+the orchestrator's go (LATEGO2, under the owner's standing rule U207 a: 600,000 B, 35,208 B remain). The app rows re-seeded
+in their own commit (validate:build-shape:app); `npm run ci:validate` 27 of 27.
+
+### v1.305.0, LATE2 — the late rule's final form and the ladder's top (the owner, 28 Nov 2026, card U226 a: "The fitted curve: power 1/6")
+
+**The rule.** One function for the whole schedule (`ngKnowledgeLate`): on or after the due, max(step(I), t × min(step(I) ÷ I,
+C(t) ÷ t)), C(x) = x × (1 + (1461 ÷ x)^(1/6)), C(t) ÷ t = 2 up to 4 years. On the due day exactly one step (60 → 90; LATE1's
+first form gave 120 and every on-time step after it a third above his rungs); after it twice the wait where his step at least
+doubles, the step's own multiple where it does not (1.5 × on the 60-day rung), past 4 years the ladder's own step for the days
+waited. The rungs past 2,922 are C(the one before), rounded: 5,525, 9,951, 17,179, 28,571 … (on time 4 → 8 → 15.1 → 27.2 → 47
+years), in all three copies; 1,461 and 1/6 are named constants with their reasons. Built as min(t × s ÷ I, t × M): the study's
+t × min(…) lands 1e-12 of a day above one step on 23,070 of 700,000 whole-day due-day answers past 4 years. Largest gap to the
+exact curve from 4 to 60 years: 0.4036% (2,030 days, 15.9 under). Exact C(x) was not built: Math.pow in every answer past 4
+years is not bound to agree across engines, for at most 0.4%. The brief's day figures 10,472 and 19,917 were the study's
+5,844-day card (on its due, twice late), pinned as such; the chain is 9,951, 17,179.
+
+**Findings.** (1) An early answer restarts the wait the late rule pays: never on a due day now (the rung table's "one early
+answer, then the next, never costs the card" holds on the shipped writer, every rung); after a later late answer a 30-day card
+answered on days 12, 56, 86 is due on 177, with one more on day 19 on 174 (LATE1: 28 days); search: 234,909 of 799,356 decided
+comparisons sooner. (2) Two offline devices: 8 where in order 7; 225 where in order 180 (LATE1 300, 211). (3) An older build's
+pull drops the late mark (unchanged, NOT COVERED). (4) THE PART DAY: a card whose exact due falls inside a day, answered on that
+whole due day, is late by the part day and paid at the step's rate (60.5 → 92.26, one step 91.5); answered on every due day from
+such a start, about 5% above the one-step path (63.8, 101.7, 204.1 for 62.1, 96.4, 193.2); kept as approved (t ≥ I in whole
+days). (5) A check that never ran: "the copies' ladders are the module's" read rows whose pair can never check (4,286 rows, all
+read 1), so a copy left doubling passed; rewritten to a checking pair on every stretch. An older build's row past 4 years reads
+on the curve's line, under a day either way; none exists before 2030. Every row below 4 years, the four captured writers' and
+the rating journey's record, reads bit for bit as v1.304.0's rating: no rating falls at the update.
+
+**Tests.** The one-step baseline is the captured v1.304.0 code on his ladder (`onestepNow`, one substitution checked once;
+`late`, `latePath`). Restated, none removed, in schedule_late (rewritten: due day, continuous form, the top, very late, the
+study's four conditions, the gap, early), schedule_late_mark (3), schedule_linear (5), schedule_ladder (4), schedule_rung (11),
+knowledge_profile, answers_before_sync (the fake-cloud sync: 135 alone, 110 replayed in order), moves_account_safety. The
+journey: a 60-day card 100 days on, by mouse and touch tap, stores [day + 150, 120, day, 0, 0, 90, 150].
+
+| mutant (each alone, green control) | red | named |
+|---|---|---|
+| M1 `min(t × s ÷ I, …)` dropped | 20 | "on its due day: exactly one step…"; srs-late in the bundle (200) |
+| M2 power → 1/2 · M3 power → 0 · M4 start → 2,922 · M10 the writer's ladder doubling | 18 · 19 · 19 · 19 | "the top: past 4 years…" |
+| M5 `>=` → `>` at the due · M6 the max dropped | 11 · 25 | "on its due day…" (M5 by the part day) |
+| M7a early credit × 1.01 · M7b the walk's `>=` | 30 · 11 | "an early right answer: byte for byte…" |
+| M8 rating's copy doubling · M9 progress-owner's | 4 · 2 | schedule_linear "the three readers…" |
+| K1–K6 (the mark, re-run) | 4, 7, 2, 5, 2, 1 | as in LATE1's table |
+
+**The study's four players** (true recall today → LATE2; rating today / uncorrected / corrected): returning 240 owed 1,433.0 →
+1,442.6, 1,158.1 / 1,172.7 / 1,164.7; returning 434 owed 1,466.4 → 1,476.2, 1,204.1 / 1,219.1 / 1,208.9; steady skipping 1 day in
+5 1,449.5 → 1,455.4, 1,179.9 / 1,190.1 / 1,185.5; steady with rolls 1,443.9 → 1,420.2 (corrected 1,440.3), 1,390.1 / 1,432.4 /
+1,380.6, 517 fewer owed.
+
+**Payload** (both trees from emptied folders): eager raw +203 (neural.js), gzip 395,134 → 395,212 (4,788 under the action line).
+Deferred 564,792 → 564,994 (+202: the worker core +79 and game-study.js +79, which bundle the writer whole; gameplan.js +44, the
+rating's ladder copy): the ceiling moved to exactly 564,994 in its own commit at the orchestrator's GO (LATEGO3, the owner's U207
+a: 600,000, 35,006 remain). Follow-up, not done: the two worker bundles carry the schedule writer they never call; splitting it
+out would save several KB but moves the MDP's pinned law file. MDP re-pinned (5e11af…), all 62 shard parts byte-identical to
+LATE1's; the app rows re-seeded in their own commit. `docs/Neural.md`'s sentence trimmed to its ceiling, not the ceiling moved.
+
+### v1.305.0, LATEFIX1 — the late mark tied to its answer; a moves tie settled as older builds settle it (the reader of PR #472, F1, F2)
+
+**F1.** v1.281.0 to v1.304.x keep the cells after the pair (writer on every answer, moves merge, journal replay); their
+answers can bring a card back to exactly the mark's I (a miss, then on-time answers), and the stale [R, I] checked again: a
+rung low for good (60 where the one-step schedule reads 90). The mark is now [R, I, L], read only when L is the row's last; an
+older build's answer always moves last, except a same-day one, which keeps the row or sends it to 1 day. Storage only adds;
+every captured validator takes the rows. Test: an older chain through v1.304.0's writer, moves merge (now captured) and
+replay; mutant L1 red. Mixed fuzz: 0 readings below one step (was 1). The LATE1 and LATE2 finding 3 holds for the srs pull only.
+
+**F2.** One schedule, two marks that both check: the longer reading here, the tail's text on older builds, so the cloud flipped.
+Moves now tie by the text, and a same-day heal keeps the beaten row; srs keeps the reading tie (older srs pulls hold the
+unmarked row; the text tie left 2,118 of 6,000 mixed syncs unsettled). The reader's flip script is the test; L2, L3 red. Sync
+fuzz with four rounds: 0 of 72,000 unsettled (previous head 6). F3, F4: as built.
+
+**Payload.** Deferred 564,994 → 565,009 B (+15, gameplan.js: the rating's day check); the ceiling moved to it in its own commit
+(the orchestrator's GO in advance, U207 a: 34,991 of 600,000 remain). Eager raw +8, gzip 395,212 unchanged (4,788 under the
+action line). MDP re-pinned, its 62 parts identical; the app rows re-seeded last.
+
+### v1.305.0, LATEFIX2 (the reader's re-check): R2 fixed, the srs pull keeps a later build's cells after the mark (pr-pr ties
+36 of 112 unsettled → 0); R3, the pull of damaged mark cells now tested (mutant D6 red). NOT COVERED, R1: two devices still on
+v1.304.x can push one card at each other on every pull; nobody sees it, it costs writes (re_srs_pingpong.mjs). R4, R5: noted.
+Payload: deferred 565,009 unchanged; eager gzip +52 to 395,264 (4,736 under the action line); MDP re-pinned, parts identical.

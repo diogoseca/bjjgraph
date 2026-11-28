@@ -2,8 +2,14 @@
 // `ngKnowledgeInterval`, `ngKnowledgeCell`), the app's srs pull merge that calls it (`_mergeProgressFields`) and the moves merge
 // (`ngProgressMergeMoves`, neural/src/progress-owner.src.js).
 //
-// The owner's ladder: 1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922 days, then doubling. A miss: back to 1 day. A late
-// right answer: one rung, NO bonus (measured, ANKI1). An early right answer: since v1.281.0 (LIN1) the owner's own formula,
+// The owner's ladder: 1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922 days, then (since v1.305.0, LATE2, U226 a) the
+// fitted curve, each rung C(the one before), C(x) = x × (1 + (4 years ÷ x)^(1/6)): 5,525, 9,951, 17,179 … (it doubled from
+// v1.279.0 to v1.304.0). A miss: back to 1 day. A late right answer: since v1.305.0 (LATE1 and LATE2, the owner's rule, U223 b
+// and U226 a) max(one step, t × min(step ÷ I, C(t) ÷ t)), t the days since its last answer: on its due day exactly one step,
+// after it twice the wait wherever his step at least doubles and the step's own multiple where it does not, past 4 years the
+// curve's (one rung and no bonus from v1.279.0 to v1.304.0, measured then by ANKI1; the rule's own cases, the study's four
+// conditions and its mutants: tests/schedule_late.test.mjs). A card answered on every due day climbs his rungs, 60 → 90 (LATE1's
+// first form sent it 60 → 120, past the 90 rung). An early right answer: since v1.281.0 (LIN1) the owner's own formula,
 // LINEAR credit in the days waited since the card's last full step, carried exactly in the row's pair [A, t0] while the card
 // sits between steps (its own cases, the copies of its reader and its mutants: tests/schedule_linear.test.mjs); v1.279.0's
 // proportional log-scale credit is gone, and with it the 60-to-89-day band that held its interval under daily answers. No
@@ -21,6 +27,8 @@
 // docs/Changelog-Archive.md, v1.279.0); each turned the NAMED test red:
 //   L1  an early right answer earns a full rung (today's rule)              → "his example: day 31.7, day 87.6 and day 90"
 //   L2  a late right answer earns more than a rung (the credit uncapped)    → "a late right answer earns one rung, no bonus"
+//       (v1.305.0: L2 IS the owner's rule now; that test pins the rule's numbers instead, and the rule's own mutants are in
+//       tests/schedule_late.test.mjs)
 //   L3  the ladder capped at 120 days (today's seven rungs)                 → "the 120-day card's next step is 241 days on time"
 //   L4  the cell written unfloored (the true interval)                      → "the cell is always a rung of the seven" and
 //                                                                              "an older client never sends a new row to 1 day"
@@ -55,6 +63,7 @@ import * as R from "../neural/src/rating.src.js";
 import { ngPracticeItems, ngPracticeVisits } from "../neural/src/practice-queue.src.js";
 import { ngGameplanDebt } from "../neural/src/gameplan-debt.src.js";
 import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
+import { onestep } from "./_onestep_client.mjs";
 
 const OLD = JSON.parse(readFileSync(new URL("./artifacts/schedule_old_client.json", import.meta.url), "utf8"));
 // dev's own writer, closing over dev's own ladder
@@ -108,19 +117,39 @@ test("his example: 59 days answered 1 day early, 31 days answered 29 days early,
 });
 
 test("a late right answer earns one rung, no bonus", () => {
-  // a 30-day card answered right on day 60 (30 days late) gets 60 days from day 60, as an on-time answer would
-  assert.equal(K.ngKnowledgeNextInterval([30, 30, 0], 60), 60);
-  assert.deepEqual(K.ngKnowledgeScheduleRow([30, 30, 0], true, 60), [120, 60, 60]);
-  // a year late on a 7-day card: still one rung, 14 days
-  assert.deepEqual(K.ngKnowledgeScheduleRow([7, 7, 0], true, 400), [414, 14, 400]);
+  // v1.305.0 (LATE1, LATE2): the title is v1.279.0's claim, kept so the mutant table above still names it; the claim is now the
+  // owner's late rule (twice the days since the last answer here, on rungs whose step doubles; the one-step client's numbers
+  // beside it)
+  // a 30-day card answered right on day 60 (30 days late): twice the 60 days since its last answer, 120 (one step gave 60)
+  assert.equal(K.ngKnowledgeNextInterval([30, 30, 0], 60), 120);
+  assert.equal(onestep.next([30, 30, 0], 60), 60, "the one-step client: one rung");
+  // (its late mark after the pair's slot, v1.305.0: [0, 0, the one-step 60, its own 120])
+  assert.deepEqual(K.ngKnowledgeScheduleRow([30, 30, 0], true, 60), [180, 120, 60, 0, 0, 60, 120, 60]);
+  // a year late on a 7-day card: 800 days, twice the 400 since its last answer (one step gave 14)
+  assert.deepEqual(K.ngKnowledgeScheduleRow([7, 7, 0], true, 400), [1200, 120, 400, 0, 0, 14, 800, 400]);
+  assert.deepEqual(onestep.write([7, 7, 0], true, 400), [414, 14, 400], "the one-step client: still one rung");
+  // and on its due day, one step: the step is the floor, never less
+  assert.deepEqual(K.ngKnowledgeScheduleRow([30, 30, 0], true, 30), [90, 60, 30]);
+  assert.deepEqual(K.ngKnowledgeScheduleRow([7, 7, 0], true, 7), [21, 14, 7]);
 });
 
 test("the ladder: his rungs, a miss back to 1 day, and the 120-day card's next step is 241.67 days on time", () => {
-  assert.deepEqual(K.NG_KNOWLEDGE_LADDER.slice(0, 14), [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922, 5844, 11688]);
-  // on time, rung after rung, from a first right answer
+  // his rungs to 2,922 days, then the fitted curve's (LATE2, U226 a; v1.279.0 to v1.304.0 doubled: 5,844, 11,688)
+  assert.deepEqual(K.NG_KNOWLEDGE_LADDER.slice(0, 14), [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922, 5525, 9951]);
+  // on time, from a first right answer, every answer on its due day: rung after rung, as the one-step client climbed them to 8
+  // years, then the curve's (LATE2: on its due day the late rule is exactly one step; LATE1's first form sent the 60-day card
+  // to 120 there and every on-time step after it ran a third above his rungs: 242, 487, 974, 1,949, 3,898, 7,796)
   let row = K.ngKnowledgeScheduleRow(null, true, 0), steps = [row[0] - row[2]];
   for (let i = 0; i < 12; i++) { row = K.ngKnowledgeScheduleRow(row, true, row[0]); steps.push(row[0] - row[2]); }
-  assert.deepEqual(steps, [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922, 5844]);
+  assert.deepEqual(steps, [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922, 5525]);
+  { let o = onestep.write(null, true, 0); const one = [o[0] - o[2]];
+    for (let i = 0; i < 12; i++) { o = onestep.write(o, true, o[0]); one.push(o[0] - o[2]); }
+    assert.deepEqual(one, [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922, 5844], "the one-step client: rung after rung"); }
+  // and the rungs themselves are his: a card ON each rung, answered on its due day, takes the next rung, the 60-day card too
+  // (90; LATE1's first form: 120)
+  { const D = 20400;
+    assert.deepEqual(K.NG_KNOWLEDGE_LADDER.slice(0, 12).map((r) => K.ngKnowledgeInterval(K.ngKnowledgeScheduleRow([D + r, K.ngKnowledgeCell(r), D], true, D + r))),
+      [3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922, 5525]); }
   // a miss, early or late, at any rung: 1 day
   for (const r of [[3, 3, 0], [120, 120, 0], [361, 120, 120]]) for (const d of [r[2], r[0], r[0] + 50]) assert.deepEqual(K.ngKnowledgeScheduleRow(r, false, d), [d + 1, 1, d]);
   // a card at today's top rung (120 days, a third of the way from 90 to 180 on his ladder): one step on is a third of the way
@@ -205,15 +234,21 @@ test("answered every day: exactly one on-time answer, in every band, and no band
   // stores its step anchored at its own day
   // (from a real epoch day, D = 20,400: a card's rung pair is dated up to its rung's interval before its last answer, and from
   // day 0 a card of 42 days or more would have been written without it, LIN2-R1)
-  let off = 0;
+  // v1.305.0 (LATE2): the one on-time answer earns the late rule's number, which on the due day is exactly one step, so the
+  // claim holds again on every interval (LATE1's first form paid the on-time answer twice the interval where that beat one
+  // step, 31 to 89 days, and the daily run ended behind it there, never ahead; that branch below is kept and finds nothing)
+  const off = [];
   const D = 20400;
   for (let I = 1; I <= 2922; I++) {
     let row = [D + I, K.ngKnowledgeCell(I), D];
     const onTime = K.ngKnowledgeScheduleRow(row, true, D + I);
     for (let d = 1; d <= I; d++) row = K.ngKnowledgeScheduleRow(row, true, D + d);
-    if (row[0] !== onTime[0] || row[1] !== onTime[1] || row[2] !== onTime[2] || Math.abs(K.ngKnowledgeInterval(row) - K.ngKnowledgeInterval(onTime)) > 1e-9) off++;
+    if (row[0] !== onTime[0] || row[1] !== onTime[1] || row[2] !== onTime[2] || Math.abs(K.ngKnowledgeInterval(row) - K.ngKnowledgeInterval(onTime)) > 1e-9) {
+      off.push(I);
+      assert.ok(row[0] < onTime[0], `${I} days: the daily run (${row}) ends behind the one on-time answer (${onTime}), never ahead`);
+    }
   }
-  assert.equal(off, 0, "daily runs that do not end where one on-time answer does");
+  assert.deepEqual(off, [], "every daily run ends where one on-time answer does (LATE1's first form: 31 to 89 days did not)");
   // THE BAND v1.279.0 left standing: a 60-day card answered every day now moves half a day a day (90/60: the step adds 30
   // days over 60), never sooner, and takes the step to 90 on day 60
   let r = [60, 60, 0];
@@ -385,15 +420,28 @@ test("the rating reads a row's true interval: at the update nothing reads lower,
 });
 
 test("the rating reads a card at 0.9 on its due day, at 90, 365 and 2,922 days", () => {
-  // a card answered right on every due day, from its first answer: on each due day it reads 0.9, whatever its cell
+  // a card answered right on every due day, from its first answer: on each due day it reads 0.9, whatever its cell.
+  // v1.305.0 (LATE2): the on-time chain climbs his rungs again (on its due day the late rule is exactly one step), so it
+  // passes 90, 365 and 2,922 days and no row of it is stretched: none carries a late mark (LATE1's first form sent it 60 → 120
+  // → 241.67 …, and this test then read those rows from elsewhere). A row the late rule stretched is read at its late mark,
+  // the one-step interval (`ngRatingReadInterval`): it reads 0.9 at the end of THAT interval, never at the longer one it is
+  // due at (a 30-day card answered 15 days late is due in 90 days and reads 0.9 at 60, as one step would say)
   let row = K.ngKnowledgeScheduleRow(null, true, 0);
   const onDue = new Map();
   for (let i = 0; i < 12; i++) { row = K.ngKnowledgeScheduleRow(row, true, row[0]); onDue.set(row[0] - row[2], [row, R.ngRatingRecall(row, true, row[0])]); }
+  for (const [I, [r, k]] of onDue) {
+    assert.ok(Math.abs(k - 0.9) < 1e-12, `the chain, ${I} days (${r}): ${k}`);
+    assert.equal(K.ngKnowledgeMark(r), null, `the chain, ${I} days (${r}): not stretched`);
+  }
   for (const I of [90, 365, 2922]) {
     const [r, k] = onDue.get(I);
     assert.ok(Math.abs(k - 0.9) < 1e-12, `${I} days (${r}, cell ${r[1]}): ${k}`);
     assert.ok(r[1] < I, `${I} days: its cell (${r[1]}) is shorter than its schedule, so a cell read would say less`);
   }
+  const stretched = K.ngKnowledgeScheduleRow([20430, 30, 20400], true, 20445);
+  assert.deepEqual(stretched, [20535, 60, 20445, 0, 0, 60, 90, 20445], "a 30-day card 15 days late: due in 90 days, its late mark 60");
+  assert.ok(Math.abs(R.ngRatingRecall(stretched, true, 20445 + 60) - 0.9) < 1e-12, "and it reads 0.9 at 60 days");
+  assert.ok(R.ngRatingRecall(stretched, true, 20535) < 0.9, "on its later due day it reads below 0.9");
 });
 
 test("the Practice order's worth moves with the rating's read", () => {

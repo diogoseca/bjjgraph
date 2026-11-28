@@ -9,7 +9,8 @@ import { journey } from "../dsl";
  * The design under test:
  *   · srs = {deckKey: {qhash: [due, ivl, last]}} in the v2 blob, epoch DAYS (LOCAL)
  *   · one writer `_schedule` fed by BOTH grade chokes (`ngKnowledgeScheduleRow`); success climbs the owner's ladder
- *     (v1.279.0: 1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922 days, then doubling; an early answer earns the share
+ *     (v1.279.0: 1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922 days, then the fitted curve since v1.305.0, LATE2: 5,525,
+ *     9,951 …, where it doubled until then; an early answer earns the share
  *     of a rung that passed; the stored cell is the largest of [1,3,7,14,30,60,120] at or below due − last), any failure
  *     resets to 1. The on-time rows this file seeds climb the same first rungs either way (3 → 7 below)
  *   · duePool = due <= today && last < today  — a failed card leaves the pool until tomorrow,

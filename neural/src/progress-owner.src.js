@@ -102,8 +102,10 @@ export function ngProgressValidateBlob(value) {
 // THE SCHEDULE'S EXACT INTERVAL (v1.281.0, LIN1), a copy of knowledge-profile's `ngKnowledgeInterval` (that file's bytes
 // are pinned by the study engine's law hashes, and a group file cannot import): the ladder, one step on along the straight
 // line between rungs, and the pair at `at` read only when it reproduces the row's due day. tests/schedule_linear.test.mjs
-// pins it equal to the original over every row shape the writer makes.
-const NG_PROGRESS_SCHED_LADDER = (() => { const L = [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922]; while (L.length < 24) L.push(L[L.length - 1] * 2); return L; })();
+// pins it equal to the original over every row shape the writer makes. THE LADDER since v1.305.0 (LATE2, U226 a): his rungs
+// to 2,922 days, then each rung C(the one before), C(x) = x × (1 + (1461 ÷ x)^(1/6)), rounded (knowledge-profile's
+// NG_KNOWLEDGE_TOP_FROM and NG_KNOWLEDGE_TOP_POWER, his numbers, where their reasons are)
+const NG_PROGRESS_SCHED_LADDER = (() => { const L = [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922]; while (L.length < 24) { const x = L[L.length - 1]; L.push(Math.round(x * (1 + Math.pow(1461 / x, 1 / 6)))); } return L; })();
 function ngProgressSchedStep(ivl) {
   const L = NG_PROGRESS_SCHED_LADDER, n = L.length - 1, x = Math.max(L[0], ivl);
   for (let i = 0; i < n; i++) {
@@ -119,6 +121,13 @@ function ngProgressSchedPair(row, at = 4) {
     if (Math.ceil(last + ivl - 1e-6) === row[0]) return ivl;
   }
   return null;
+}
+// THE LATE MARK (v1.305.0, LATE1), a copy of knowledge-profile's `ngKnowledgeMark` (this group file cannot import it; tests/
+// schedule_late_mark.test.mjs pins the two equal): a stretched row's [R, I, L] after the pair's slot, R its one-step interval,
+// read only when R ≥ 1, R < I, I is the row's exact interval and L (its answer's day, LATEFIX1) the row's last; else null
+export function ngProgressMark(row, at = 4) {
+  const R = row[at + 2], I = row[at + 3];
+  return Number.isFinite(R) && R >= 1 && Number.isFinite(I) && R < I && row[2] === row[at + 4] && ngProgressSchedInterval(row, at) === I ? R : null;
 }
 export function ngProgressSchedInterval(row, at) {
   const p = ngProgressSchedPair(row, at);
@@ -142,7 +151,7 @@ export function ngProgressMergeMoves(local, cloud, today) {
   const tail = r => JSON.stringify(r.slice(4)), ed = r => r[2] + ngProgressSchedInterval(r, 4);
   const first = (a, b) => a[2] !== b[2] ? (a[2] > b[2] ? a : b) : a[1] !== b[1] ? (a[1] < b[1] ? a : b)
     : a[3] !== b[3] ? (a[3] < b[3] ? a : b) : ed(a) !== ed(b) ? (ed(a) < ed(b) ? a : b)
-    : a[0] !== b[0] ? (a[0] < b[0] ? a : b) : tail(a) <= tail(b) ? a : b;
+    : a[0] !== b[0] ? (a[0] < b[0] ? a : b) : tail(a) <= tail(b) ? a : b;   // a full tie: the tail's text, late mark and all, as every build (LATEFIX1 F2)
   const out = {};
   for (const side of [local, cloud]) for (const s in side || {}) {
     const l = (out[s] = out[s] || {});
@@ -156,13 +165,19 @@ export function ngProgressMergeMoves(local, cloud, today) {
       // tests/schedule_linear.test.mjs pins the two equal), the beaten row's own cell kept: a beaten row of the winner's own
       // day as it is, its pair with it (a second pull then writes nothing); one from an earlier day as a fresh anchor at the
       // winner's last, a pair only when that interval is not whole; the winner's answer and its cells after the pair ride
+      // the late mark (v1.305.0): marked only while its reading is shorter than the interval kept (below); the winner's cells
+      // after its mark ride
       const tw = ngProgressSchedInterval(w, 4), to = ngProgressSchedInterval(o, 4);
       if (tw > 1 && to > tw) {
-        const rest = w.length > 6 ? w.slice(6) : [], none = rest.length ? [0, 0] : [];
-        if (o[2] === w[2]) w = o.slice(0, 3).concat(w[3], ngProgressSchedPair(o) ? o.slice(4, 6) : none, rest);
+        // a beaten row of the winner's own day is kept as it is, read as it reads (its own mark, or none: LATEFIX1, the reader's
+        // F2; with the text tie above, the winner's longer reading here could hand the row back on the next pull); a fresh
+        // anchor at the winner's later day reads at the longer of the two rows' one-step readings, as `ngKnowledgeMergeRow`
+        const mw = ngProgressMark(w), mo = ngProgressMark(o), own = mo === null ? to : mo, R = o[2] === w[2] ? own : Math.max(mw === null ? tw : mw, own);
+        const rest = w.length > 9 ? w.slice(9) : [], mark = R < to ? [R, to, w[2]] : rest.length ? [0, 0, 0] : [], none = mark.length ? [0, 0] : [];
+        if (o[2] === w[2]) w = o.slice(0, 3).concat(w[3], ngProgressSchedPair(o) ? o.slice(4, 6) : none, mark, rest);
         else {
           const A = to;   // the beaten interval as read, not rounded (v1.281.3, as `ngKnowledgeMergeRow`)
-          w = [Math.ceil(w[2] + A - 1e-6), o[1], w[2], w[3]].concat(Number.isInteger(A) ? none : [A, w[2]], rest);
+          w = [Math.ceil(w[2] + A - 1e-6), o[1], w[2], w[3]].concat(Number.isInteger(A) ? none : [A, w[2]], mark, rest);
         }
       }
       l[mv] = w;
