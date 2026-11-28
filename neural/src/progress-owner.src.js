@@ -102,8 +102,10 @@ export function ngProgressValidateBlob(value) {
 // THE SCHEDULE'S EXACT INTERVAL (v1.281.0, LIN1), a copy of knowledge-profile's `ngKnowledgeInterval` (that file's bytes
 // are pinned by the study engine's law hashes, and a group file cannot import): the ladder, one step on along the straight
 // line between rungs, and the pair at `at` read only when it reproduces the row's due day. tests/schedule_linear.test.mjs
-// pins it equal to the original over every row shape the writer makes.
-const NG_PROGRESS_SCHED_LADDER = (() => { const L = [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922]; while (L.length < 24) L.push(L[L.length - 1] * 2); return L; })();
+// pins it equal to the original over every row shape the writer makes. THE LADDER since v1.305.0 (LATE2, U226 a): his rungs
+// to 2,922 days, then each rung C(the one before), C(x) = x × (1 + (1461 ÷ x)^(1/6)), rounded (knowledge-profile's
+// NG_KNOWLEDGE_TOP_FROM and NG_KNOWLEDGE_TOP_POWER, his numbers, where their reasons are)
+const NG_PROGRESS_SCHED_LADDER = (() => { const L = [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922]; while (L.length < 24) { const x = L[L.length - 1]; L.push(Math.round(x * (1 + Math.pow(1461 / x, 1 / 6)))); } return L; })();
 function ngProgressSchedStep(ivl) {
   const L = NG_PROGRESS_SCHED_LADDER, n = L.length - 1, x = Math.max(L[0], ivl);
   for (let i = 0; i < n; i++) {

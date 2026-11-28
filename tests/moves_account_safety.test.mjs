@@ -197,8 +197,9 @@ test("old blob, new app: a pre-v1.255.0 account loads with every number unchange
 
 // v1.281.0 (LIN1): [4] and [5] of a moves row are the schedule's pair, so "a later build's" cells start at [6], after it ([0, 0]
 // when the row has no pair); the claim is unchanged: they ride along through a grade. v1.305.0 (LATE1): [6] and [7] are the
-// late mark (the one-step interval of a row the doubled wait stretched; [0, 0] when none and cells follow), so a later build's
-// cells start at [8]. This answer is a day late, 4 days after the last: twice that, 8 days, beats one step (7), so the row
+// late mark (the one-step interval of a row the late rule stretched; [0, 0] when none and cells follow), so a later build's
+// cells start at [8]. This answer is a day late, 4 days after the last: twice that, 8 days, beats one step (7; LATE2 the same,
+// the 3-day rung's step being more than double), so the row
 // carries its mark [7, 8] and the tail after it
 test("R4 / R5: a graded account saves `moves`; a grade keeps a later build's tail on the row", () => {
   const a = boot({ v: 2, moves: { "76/top": { "307": [DAY - 1, 3, DAY - 4, 1, 0, 0, 0, 0, 5, 9] } } });

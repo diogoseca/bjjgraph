@@ -80,6 +80,18 @@
 // days left) is not the rule (it pays the days late once; the rule pays twice the whole wait) and its named tests were
 // restated, not re-run against it; this PR's own mutants of the late rule are in tests/schedule_late.test.mjs's header.
 //
+// LATE2 (v1.305.0, the owner, 28 Nov 2026, card U226 a, "The fitted curve: power 1/6"): the late rule's final form, max(step,
+// t × min(step ÷ I, C(t) ÷ t)), exactly one step on the due day, and the ladder past 2,922 days made by the fitted curve.
+// The one-step baseline is now `onestepNow` (the captured one-step code on his ladder) and the split `latePath`
+// (tests/_onestep_client.mjs). Restated, none removed: "the days past a step count…" (its on-due row back to one step, 89,
+// its late row 137.27; the late half asserted against his formula as approved, to float dust), "nothing is rounded…" (its
+// on-time loops read `ngKnowledgeLate`), "one early answer, then the next…" (the claim holds again on the shipped writer, on
+// every rung: LATE1's 30 days on the 60-day rung are gone; the one-step table pinned on v1.304.0 and on his ladder, where
+// the 8-year card is due 8,447 days on), "an older client's moves writer…" (before the due never beyond one on-time answer;
+// on it the part day the late rule pays, a day at most), and "the three readers…" (the far boundary row moved below the
+// top, and THE LADDER PIN REWRITTEN: its loop read rows whose pair could never check itself, so it compared nothing; it
+// now reads a checking pair on every stretch, and kills a copy left doubling, mutants M8 and M9 of the late rule's header).
+//
 // Run: node --test tests/schedule_linear.test.mjs
 import { test } from "node:test";
 import assert from "node:assert/strict";
@@ -87,7 +99,7 @@ import { readFileSync } from "node:fs";
 import * as K from "../neural/src/knowledge-profile.src.js";
 import { ngProgressMergeMoves, ngProgressSchedInterval } from "../neural/src/progress-owner.src.js";
 import * as R from "../neural/src/rating.src.js";
-import { onestep, doubledPath, schedulePart } from "./_onestep_client.mjs";
+import { onestep, onestepNow, latePath, schedulePart } from "./_onestep_client.mjs";
 
 const W = K.ngKnowledgeScheduleRow, L = K.NG_KNOWLEDGE_LADDER, TOP = L[L.length - 1];
 const OLD = JSON.parse(readFileSync(new URL("./artifacts/schedule_old_client.json", import.meta.url), "utf8"));
@@ -141,27 +153,28 @@ test("his formula on a card at a full step: 59, 31 and 60, each day waited addin
   }
 });
 
-test("the days past a step count at the next step's ratio; an EARLY answer never takes more than one step, a late one takes the larger of one step and twice the days since its last answer (LATE1)", () => {
+test("the days past a step count at the next step's ratio; an EARLY answer never takes more than one step, a late one takes his late rule's interval (LATE1, LATE2)", () => {
   const early = W([30, 30, 0], true, 29);
   assert.deepEqual(early, [88, 30, 29, 30, 0], "early on day 29: 59 days, between steps");
   assert.deepEqual(W(early, true, 50), [120, 60, 50, 60, 30], "on day 50: 20 days into the next step, at its ratio: 70");
   assert.deepEqual(W(early, true, 87), [176, 60, 87, 60, 30], "a day before its due: 88.5 days");
-  // ON ITS DUE AND LATE (v1.305.0, LATE1): twice the days since the last answer (day 29) where that beats one step from 59
-  // (89 days): the one-step client wrote [177, 60, 88] and [209, 60, 120]
-  // (each carries its late mark after the pair's slot: [0, 0, the one-step interval, its own], tests/schedule_late_mark.test.mjs)
-  assert.deepEqual(W(early, true, 88), [206, 60, 88, 0, 0, 89, 118], "on its due: twice the 59 days since day 29, 118 (one step gave 89)");
-  assert.deepEqual(W(early, true, 120), [302, 120, 120, 0, 0, 89, 182], "late: twice the 91 days since day 29, 182 (one step gave 89)");
+  // ON ITS DUE AND LATE (v1.305.0, LATE2, U226 a): on its due exactly one step from 59 (89 days), as the one-step client
+  // wrote (LATE1's first form wrote twice the 59 days, 118, here); 32 days late the step's own multiple of the 91 days since
+  // day 29, 91 × 89 ÷ 59 = 137.27 (one step gave 89; twice the wait would be 182), carrying its late mark after the pair
+  // ([the one-step interval, its own], tests/schedule_late_mark.test.mjs)
+  assert.deepEqual(W(early, true, 88), [177, 60, 88], "on its due: one step from 59, 89 days");
+  assert.deepEqual(W(early, true, 120), [258, 120, 120, (91 * 89) / 59, 120, 89, (91 * 89) / 59], "late: 89 ÷ 59 × the 91 days since day 29");
   assert.deepEqual([onestep.write(early, true, 88), onestep.write(early, true, 120)], [[177, 60, 88], [209, 60, 120]], "the one-step client, as captured");
   // NO CLIFF: from every between-steps row, an answer the day before the due earns at least half of what the due day earns
   // (the first draft, which dropped the days past the step, gave 1 day against 30 above: under half in 72% of such states).
   // The gap between the two is one day of the path's rate where it stands, never a step. Measured against the ONE STEP the
-  // due day earns (the one-step client's row): the doubled wait (LATE1) pays the due day more on top, never the day before,
+  // due day earns (the one-step schedule's row on his ladder): the late rule (LATE1, LATE2) pays a due day more on top, never the day before,
   // and a day later never earning less is tests/schedule_late.test.mjs's sweep
   let checked = 0, worst = 1;
   for (const row of POP) {
     const due = row[0], I = K.ngKnowledgeInterval(row);
     if (row.length < 5 || due - 1 <= row[2]) continue;
-    const before = K.ngKnowledgeInterval(W(row, true, due - 1)) - I, on = onestep.interval(onestep.write(row, true, due)) - I;
+    const before = K.ngKnowledgeInterval(W(row, true, due - 1)) - I, on = onestepNow.interval(onestepNow.write(row, true, due)) - I;
     assert.ok(before >= on / 2, `${row}: a day before its due earns ${before}, one step on it ${on}`);
     assert.ok(K.ngKnowledgeInterval(W(row, true, due)) - I >= on, `${row}: the due day earns at least its one step`);
     worst = Math.min(worst, before / on);
@@ -169,7 +182,9 @@ test("the days past a step count at the next step's ratio; an EARLY answer never
   }
   assert.ok(checked > 300 && worst < 1, `${checked} between-steps rows, worst share ${worst}`);
   // EARLY (before the row's due): never more than one step from where the previous answer left the card, on any day.
-  // ON OR AFTER THE DUE: exactly the larger of the one step the one-step client takes and twice the days since the last answer
+  // ON OR AFTER THE DUE: his late rule as he approved it (U226 a), max(step, t × min(step ÷ I, C(t) ÷ t)), C(t) ÷ t = 2 up to
+  // 4 years and past them the ladder's own step for the days waited ÷ t, with the step the one-step schedule's on his ladder;
+  // equal to the writer's number to float dust (the writer computes t × min(a, b) as min(t × a, t × b))
   let earlyN = 0, lateN = 0, decided = 0;
   for (const row of POP) for (const d of [row[2], row[2] + 1, row[0] - 1, row[0], row[0] + 400]) {
     if (d < row[2]) continue;
@@ -178,14 +193,15 @@ test("the days past a step count at the next step's ratio; an EARLY answer never
       assert.ok(K.ngKnowledgeInterval(n) <= K.ngKnowledgeStep(K.ngKnowledgeInterval(row)) + 1e-4, `${row} on ${d}: ${n}`);
       earlyN++;
     } else {
-      const one = onestep.interval(onestep.write(row, true, d));
-      assert.ok(one <= K.ngKnowledgeStep(K.ngKnowledgeInterval(row)) + 1e-4, `${row} on ${d}: the one-step client's one step`);
-      assert.equal(K.ngKnowledgeInterval(n), Math.max(one, 2 * (d - row[2])), `${row} on ${d}: ${n}`);
-      if (2 * (d - row[2]) > one) decided++;
+      const one = onestepNow.interval(onestepNow.write(row, true, d)), I = K.ngKnowledgeInterval(row), t = d - row[2];
+      assert.ok(one <= K.ngKnowledgeStep(I) + 1e-4, `${row} on ${d}: the one-step schedule's one step`);
+      const his = Math.max(one, t * Math.min(one / I, t <= 1461 ? 2 : K.ngKnowledgeStep(t) / t));
+      assert.ok(Math.abs(K.ngKnowledgeInterval(n) - his) <= 1e-12 * his, `${row} on ${d}: ${n}, his rule ${his}`);
+      if (K.ngKnowledgeInterval(n) > one) decided++;
       lateN++;
     }
   }
-  assert.ok(earlyN > 1000 && lateN > 500 && decided > 0 && decided < lateN, `${earlyN} early, ${lateN} on or after the due, ${decided} decided by the doubled wait`);
+  assert.ok(earlyN > 1000 && lateN > 500 && decided > 0 && decided < lateN, `${earlyN} early, ${lateN} on or after the due, ${decided} decided by the late rule`);
 });
 
 test("a run of early answers inside one step earns exactly what one answer at its end earns", () => {
@@ -215,25 +231,26 @@ test("nothing is rounded (v1.281.3): an on-time answer lands exactly on its step
     assert.ok(Math.abs(K.ngKnowledgeInterval(row) - (14 + (d * 16) / 14)) < 1e-9, `day ${d}`);
   }
   // ON TIME OR LATE: exactly one step from the interval read (the number computed, not rounded), anchored at the answer's day;
-  // since v1.305.0 (LATE1) the larger of that step and twice the days since the last answer (a whole number of days), so
-  // exact either way. `step` is the one-step client's (its row, as captured), and still the module's own step function's
+  // since v1.305.0 (LATE1, LATE2) the late rule's number (`ngKnowledgeLate`: one step on the due day, more after it), stored
+  // as computed either way. `step` is the one-step schedule's on his ladder (its row, as captured), and still the module's own
+  // step function's
   let onTime = 0, decided = 0;
   for (const r of POP) for (const d of [r[0], r[0] + 9]) {
-    const n = W(r, true, d), step = K.ngKnowledgeStep(K.ngKnowledgeInterval(r)), want = Math.max(step, 2 * (d - r[2]));
+    const I = K.ngKnowledgeInterval(r), n = W(r, true, d), step = K.ngKnowledgeStep(I), want = K.ngKnowledgeLate(I, d - r[2]);
     if (K.ngKnowledgeDueDay(d + want) < r[0]) continue;   // the never-sooner guard's own rows
-    assert.equal(onestep.interval(onestep.write(r, true, d)), step, `${r} on ${d}: the one-step client's step`);
+    assert.equal(onestepNow.interval(onestepNow.write(r, true, d)), step, `${r} on ${d}: the one-step schedule's step`);
     assert.equal(K.ngKnowledgeInterval(n), want, `${r} on ${d}: ${n}`);
     const sp = schedulePart(n);   // the pair, never v1.305.0's late mark after its slot
     assert.equal(sp.length === 5 ? sp[4] : d, d, `${r} on ${d}: anchored at its own day`);
     if (want > step) decided++;
     onTime++;
   }
-  assert.ok(onTime > 1000 && decided > 0, `${onTime} on-time and late answers, ${decided} decided by the doubled wait`);
+  assert.ok(onTime > 1000 && decided > 0, `${onTime} on-time and late answers, ${decided} decided by the late rule`);
   assert.deepEqual(W([D + 120, 120, D], true, D + 120), [D + 362, 120, D + 120, 180 + 185 / 3, D + 120], "one step from 120 days: 241.666…, not rounded");
   // the same in the moves layout (the pair at [4]): every row of POP_MOVES answered on its due and past it
   let movesOnTime = 0;
   for (const r of POP_MOVES) for (const d of [r[0], r[0] + 9]) {
-    const n = W(r, true, d, 4), want = Math.max(K.ngKnowledgeStep(K.ngKnowledgeInterval(r, 4)), 2 * (d - r[2]));
+    const n = W(r, true, d, 4), want = K.ngKnowledgeLate(K.ngKnowledgeInterval(r, 4), d - r[2]);
     if (K.ngKnowledgeDueDay(d + want) < r[0]) continue;
     assert.equal(K.ngKnowledgeInterval(n, 4), want, `${r} on ${d} (moves): ${n}`);
     movesOnTime++;
@@ -277,12 +294,13 @@ test("the pair checks itself: a stale, damaged or clamped pair is read as the ro
 // THE SELF-CHECK'S BOUNDARY ROWS (LIN1-R2, the reader's D3: its mutants H2, H3, H4 and H6 survived the pin without them)
 //   · an exact due within 1e-6 above a whole day: that day (H2, a copy without the 1e-6 tolerance, reads the row's own 30)
 //   · last − t0 = A exactly: not this step, the row's own 120 (H3, `<` as `<=`, reads the line's 60)
-//   · a pair past the ladder's 20th rung (800,000.5 days, 7 in: 800,007.5): the module's ladder (H4, a copy's ladder cut at 20
-//     rungs, reads the row's own 800,008)
+//   · a pair past the ladder's 20th rung (300,000.5 days, 7 in: 300,003.38 on his ladder since LATE2, whose rungs past 4 years
+//     are the curve's; until then 800,000.5, 7 in: 800,007.5, on the doubling ladder): the module's ladder (H4, a copy's ladder
+//     cut at 20 rungs, reads the row's own whole-day interval)
 //   · t0 after last, whose line still reproduces the due: the row's own 9 (H6, `t0 <= last` dropped, reads 8.2857); the row a
 //     fast clock's moves row becomes when the merge clamps its last is the named test below
 //   · a pair on its own last (30 days) and one 29 days into its step (the line: 59): the plain cases beside them
-const FAR = 800000.5, FARL = 5000, FAR_IVL = K.ngKnowledgeLinear(FAR, 7);
+const FAR = 300000.5, FARL = 5000, FAR_IVL = K.ngKnowledgeLinear(FAR, 7);
 const BOUNDARY = [[1030, 30, 1000, 30.0000005, 1000], [1060, 120, 1000, 30, 970], [K.ngKnowledgeDueDay(FARL + FAR_IVL), 120, FARL, FAR, FARL - 7],
   [1009, 7, 1000, 14, 1005], [1030, 30, 1000, 30, 1000], [1059, 30, 1000, 30, 971]];
 
@@ -306,9 +324,25 @@ test("the three readers of the exact interval agree on every row the writers mak
     n++;
   }
   // each boundary row is read as its rule says, so the pin cannot pass on three copies that agree on a wrong reading
-  assert.deepEqual(BOUNDARY.map((r) => K.ngKnowledgeInterval(r)), [30.0000005, 120, 800007.5, 9, 30, 59]);
-  // the copies' ladders are the module's
-  for (let x = 1; x <= 30000; x += 7) assert.equal(R.ngRatingSchedInterval([0, 1, 0, x, -1], 3) === K.ngKnowledgeInterval([0, 1, 0, x, -1]), true);
+  // (the far row: 7 days into the step from 300,000.5, whose next is the line from rung 21 (338,273) toward rung 22 (474,783))
+  const farStep = 338273 + ((FAR - 236844) * (474783 - 338273)) / (338273 - 236844);
+  assert.deepEqual(BOUNDARY.map((r) => K.ngKnowledgeInterval(r)), [30.0000005, 120, FAR + (7 * (farStep - FAR)) / FAR, 9, 30, 59]);
+  // THE COPIES' LADDERS ARE THE MODULE'S (LATE2: rewritten, the loop before it compared nothing): a row whose pair checks itself
+  // on the module's ladder, one and half a step's days into every stretch to the top and past it, read by all three. Until
+  // LATE2 this loop read [0, 1, 0, x, −1], whose pair can never reproduce a due day of 0, so all three read the row's own 1
+  // on every x and a copy left doubling passed it (mutants M8 and M9 found it)
+  let pairs = 0;
+  for (let i = 0; i < L.length; i++) for (const x of [L[i], L[i] + 0.5, (L[i] + (L[i + 1] ?? 2 * L[i])) / 2]) for (const w of [1, Math.floor(x / 2)]) {
+    const last = 1000 + w, ivl = K.ngKnowledgeLinear(x, w), row = [K.ngKnowledgeDueDay(last + ivl), K.ngKnowledgeCell(ivl), last, x, last - w];
+    if (w >= x) continue;
+    assert.equal(K.ngKnowledgeInterval(row), ivl, `${row}: its pair checks itself`);
+    assert.equal(R.ngRatingSchedInterval(row, 3), ivl, `${row}: rating's copy`);
+    assert.equal(ngProgressSchedInterval(row, 3), ivl, `${row}: progress-owner's copy`);
+    assert.equal(R.ngRatingSchedInterval(moves(row), 4), ivl, `${row}: rating's copy, moves layout`);
+    assert.equal(ngProgressSchedInterval(moves(row), 4), ivl, `${row}: progress-owner's copy, moves layout`);
+    pairs++;
+  }
+  assert.ok(pairs > 130, `${pairs} pairs over the whole ladder`);
   assert.ok(n > 2000, `${n} rows`);
   // the rating reads the exact interval: a card 59 days into its interval reads 59, not the 59 whole days' 59 + its rounding
   const r = [88, 30, 29, 30, 0];
@@ -342,7 +376,7 @@ test("a fast clock's moves row: the merge clamps its last below its pair's day, 
 // holds any more: their successors, "ahead of answering on time by at most 3 whole days, never in exact days" and "an early
 // right answer never leaves a card due sooner than without it", are tests/schedule_rung.test.mjs, replayed over the same
 // searches. Removed here on purpose, not lost.
-test("one early answer, then the next on its old due or its own new due, never costs the card anything wherever the doubled wait decides nothing; where it does, 30 days on the 60-day rung (LIN1-R2, scoped at LIN1-R3; LATE1)", () => {
+test("one early answer, then the next on its old due or its own new due, never costs the card anything, on the one-step schedule and on the shipped writer alike (LIN1-R2, scoped at LIN1-R3; LATE2)", () => {
   // the property the owner is asked to prefer (U192), and only this much of it holds (LIN1-R3: over longer runs an extra
   // early answer can cost days, the next test). For every rung, a card answered once early on every day of its step, then
   // (i) again on the day its first due fell (the day a player who never answered early answers it) or (ii) on its own new due,
@@ -365,39 +399,42 @@ test("one early answer, then the next on its old due or its own new due, never c
     return got;
   };
   assert.deepEqual(table(onestep.write), TABLE, "the one-step client");
-  // SINCE v1.305.0 (LATE1) the comparisons split by whether the doubled wait decided an answer of either history (the card's
-  // only answer on its due, or the early one's next). ON THE COMPARISONS IT NEVER DECIDED the histories are the one-step
-  // client's row for row, and the claim holds exactly: (i) never sooner (least 0 wherever a comparison is left), (ii) never
-  // sooner. [rung, that card's due, (i) compared, least (i) − it, (ii) compared, least (ii) − it] (null: none left)
-  const UNDECIDED = [[3, 10, 2, 0, 0, null], [7, 21, 6, 0, 6, 5], [14, 44, 13, 0, 7, 6], [30, 90, 29, 0, 0, null], [60, 180, 0, null, 0, null],
+  // ON HIS LADDER (LATE2) the same, the 8-year card due 2,922 + 5,525 days on (it was 2,922 + 5,844)
+  const NOW = TABLE.map((r) => (r[0] === 2922 ? [2922, 8447, 0, 4] : r));
+  assert.deepEqual(table(onestepNow.write), NOW, "the one-step schedule on his ladder");
+  // AND ON THE SHIPPED WRITER, the late rule deciding some of these answers: the claim holds on every rung, (i) never sooner and
+  // (ii) never sooner, the 60-day rung's (ii) a day better. LATE1's first form cost (i) 30 days on the 60-day rung (twice the 60
+  // days paid the card answered only on its due 120, while the card answered early once took 90): gone, both now take 90
+  assert.deepEqual(table(W), NOW.map((r) => (r[0] === 60 ? [60, 150, 0, 5] : r)), "the shipped writer");
+  // the comparisons split by whether the late rule decided an answer of either history (`latePath`: the card's only answer on
+  // its due, or the early one's next). ON THE COMPARISONS IT NEVER DECIDED the histories are the one-step schedule's on his
+  // ladder row for row. [rung, that card's due, (i) compared, least (i) − it, (ii) compared, least (ii) − it] (null: none left)
+  const UNDECIDED = [[3, 10, 2, 0, 0, null], [7, 21, 6, 0, 6, 5], [14, 44, 13, 0, 7, 6], [30, 90, 29, 0, 29, 3], [60, 150, 59, 0, 29, 6],
     [90, 270, 89, 0, 89, 5], [180, 545, 179, 0, 144, 6], [365, 1095, 364, 0, 364, 5], [730, 2191, 729, 0, 0, null],
-    [1461, 4383, 1460, 0, 1460, 4], [2922, 8766, 2921, 0, 2921, 4]];
-  // ON THE ONES IT DECIDED: [rung, (i) compared, least (i), (ii) compared, least (ii)]. (ii) never costs anything here either.
-  // (i) costs on ONE rung, 60 days, by 30 days on every early day: the doubled wait pays the card answered only on its due 120
-  // days (twice the 60 since its last answer, where one step is 90: ruled), while the card answered early once is still EARLY
-  // on that day (its own due moved on): it walks onto the 90-day rung and takes 90 days, the one-step client's own answer on
-  // that day. The doubled wait counts from the LAST answer, and an early answer is a last answer
-  const DECIDED = [[3, 0, null, 2, 6], [7, 0, null, 0, null], [14, 0, null, 6, 36], [30, 0, null, 29, 4], [60, 59, -30, 59, 4],
-    [90, 0, null, 0, null], [180, 0, null, 35, 590], [365, 0, null, 0, null], [730, 0, null, 729, 6], [1461, 0, null, 0, null], [2922, 0, null, 0, null]];
+    [1461, 4383, 1460, 0, 1460, 4], [2922, 8447, 2921, 0, 0, null]];
+  // ON THE ONES IT DECIDED (only ever (ii), the early answer's next on its own new due, a day or more after its exact due):
+  // [rung, (i) compared, least (i), (ii) compared, least (ii)]; never sooner either
+  const DECIDED = [[3, 0, null, 2, 6], [7, 0, null, 0, null], [14, 0, null, 6, 36], [30, 0, null, 0, null], [60, 0, null, 30, 5],
+    [90, 0, null, 0, null], [180, 0, null, 35, 590], [365, 0, null, 0, null], [730, 0, null, 729, 6], [1461, 0, null, 0, null], [2922, 0, null, 2921, 4]];
   const und = [], dec = [];
   for (let i = 1; i < 12; i++) {
-    const A = L[i], s0 = [A, K.ngKnowledgeCell(A), 0], only = W(s0, true, A), onlyD = doubledPath(s0, [A]);
+    const A = L[i], s0 = [A, K.ngKnowledgeCell(A), 0], only = W(s0, true, A), onlyD = latePath(s0, [A]);
     const u = [0, Infinity, 0, Infinity], d = [0, Infinity, 0, Infinity];
     for (let w = 1; w < A; w++) {
       const early = W(s0, true, w);
       const v1 = W(early, true, A)[0] - only[0], v2 = W(early, true, early[0])[0] - only[0];
-      const c1 = onlyD || doubledPath(s0, [w, A]) ? d : u, c2 = onlyD || doubledPath(s0, [w, early[0]]) ? d : u;
+      const c1 = onlyD || latePath(s0, [w, A]) ? d : u, c2 = onlyD || latePath(s0, [w, early[0]]) ? d : u;
       c1[0]++; c1[1] = Math.min(c1[1], v1); c2[2]++; c2[3] = Math.min(c2[3], v2);
     }
     const fin = (x) => (x === Infinity ? null : x);
     und.push([A, only[0], u[0], fin(u[1]), u[2], fin(u[3])]); dec.push([A, d[0], fin(d[1]), d[2], fin(d[3])]);
   }
-  assert.deepEqual(und, UNDECIDED, "the comparisons the doubled wait never decided: the one-step claim, exactly");
+  assert.deepEqual(und, UNDECIDED, "the comparisons the late rule never decided: the one-step claim, exactly");
   assert.deepEqual(dec, DECIDED, "the comparisons it decided");
-  // the 30 days, said in rows: the 60-day card answered only on day 60 (twice 60: 120 days) against answered on day 1, then 60
-  assert.deepEqual(W([60, 60, 0], true, 60), [180, 120, 60, 0, 0, 90, 120], "120 days, its late mark the one-step 90");
+  // the 60-day card, said in rows: answered only on day 60, and answered on day 1, then 60: the same row, 90 days
+  assert.deepEqual(W([60, 60, 0], true, 60), [150, 60, 60], "90 days, no late mark (LATE1's first form: 120)");
   assert.deepEqual(W(W([60, 60, 0], true, 1), true, 60), [150, 60, 60], "early on day 60: onto the 90-day rung, 90 days");
-  assert.deepEqual(onestep.write([60, 60, 0], true, 60), [150, 60, 60], "the one-step client: 90 days, the same row as the early answer's");
+  assert.deepEqual(onestep.write([60, 60, 0], true, 60), [150, 60, 60], "the one-step client: 90 days, the same row");
   // the reader's case against the level rule: a 30-day card answered on day 15 and on day 30 gets 60 days, as answering only
   // on day 30 does (the level rule gave 55)
   assert.deepEqual(W(W([30, 30, 0], true, 15), true, 30), [90, 60, 30]);
@@ -498,8 +535,12 @@ test("an older client: its merges keep the due day of a row with a pair, and its
 // rides behind its own new due. Where it still passes its check (0.01% to 0.21% of such answers in the reader's runs), the next
 // due is never sooner than the row and never beyond one on-time answer; against the same row read as its own it moves the due
 // SOONER, against the player, by up to 13 days, and later by up to 10 (the reader's figures; this file's own population below)
-test("an older client's moves writer leaves a pair behind its own new due: never sooner than the row, never beyond one on-time answer, up to 13 days against the player", () => {
-  let older = 0, passed = 0, answers = 0, against = 0, favour = 0, mostAgainst = 0, mostFavour = 0;
+test("an older client's moves writer leaves a pair behind its own new due: never sooner than the row, never beyond one on-time answer before its due (on it, the part day the late rule pays), up to 13 days against the player", () => {
+  // SINCE LATE2 (the late rule's continuous form): a stale pair that still checks reads the row's exact interval (40.25 days,
+  // say, where the row alone reads 41), so on the due day the answer is late by the part day and the late rule pays it at the
+  // step's own rate (41 × 70.25 ÷ 40.25 = 71.56 days against the row's own 71): beyond one on-time answer by under a day there,
+  // measured below. Before the due, never beyond, as before
+  let older = 0, passed = 0, answers = 0, against = 0, favour = 0, mostAgainst = 0, mostFavour = 0, onDue = 0, beyondOnDue = 0, mostBeyond = 0;
   for (const [name, c] of Object.entries(clients)) for (const r of POP_MOVES.filter((m) => m.length >= 6)) {
     for (const d of [r[2], r[2] + 1, r[0] - 1, r[0], r[0] + 20]) for (const ok of [true, false]) {
       if (d < r[2]) continue;
@@ -511,7 +552,8 @@ test("an older client's moves writer leaves a pair behind its own new due: never
       for (let t = o[2]; t <= o[0] + 30; t++) {
         const n = W(o, true, t, 4)[0], asOwn = W(stripped, true, t, 4)[0];
         assert.ok(n >= o[0], `${name}: ${o} answered on ${t}: ${n} is sooner`);
-        if (t <= o[0]) assert.ok(n <= onTime, `${name}: ${o} answered on ${t}: ${n} beyond one on-time answer, ${onTime}`);
+        if (t < o[0]) assert.ok(n <= onTime, `${name}: ${o} answered on ${t}: ${n} beyond one on-time answer, ${onTime}`);
+        if (t === o[0]) { onDue++; if (n > onTime) { beyondOnDue++; mostBeyond = Math.max(mostBeyond, n - onTime); } }
         if (n < asOwn) { against++; mostAgainst = Math.max(mostAgainst, asOwn - n); } else if (n > asOwn) { favour++; mostFavour = Math.max(mostFavour, n - asOwn); }
         answers++;
       }
@@ -519,7 +561,11 @@ test("an older client's moves writer leaves a pair behind its own new due: never
   }
   assert.ok(older > 5000 && passed > 0 && answers > 1000, `${older} older answers, ${passed} stale pairs still checking, ${answers} next answers`);
   assert.ok(mostAgainst <= 13 && mostFavour <= 10, `against the player by up to ${mostAgainst} days, in its favour by up to ${mostFavour}`);
-  console.log(`older moves answers ${older}, stale pairs that still check ${passed}, next answers on them ${answers}: none sooner than the row, none beyond one on-time answer; against the row read as its own, sooner (against the player) in ${against} by up to ${mostAgainst} days, later in ${favour} by up to ${mostFavour}`);
+  // on the due day: beyond one on-time answer by one whole day at most (the part day, rounded up to the due), as measured
+  assert.ok(onDue > 100 && mostBeyond <= 1, `${onDue} answers on the due day, ${beyondOnDue} a day beyond (at most ${mostBeyond})`);
+  assert.deepEqual(K.ngKnowledgeScheduleRow([1070, 30, 1029, 1, 30, 1018.75], true, 1070, 4).slice(0, 4), [1142, 60, 1070, 1], "the reader's row: 71.56 days");
+  assert.equal(K.ngKnowledgeScheduleRow([1070, 30, 1029, 1], true, 1070, 4)[0], 1141, "the row alone: 71");
+  console.log(`older moves answers ${older}, stale pairs that still check ${passed}, next answers on them ${answers}: none sooner than the row, none beyond one on-time answer before the due (on it ${beyondOnDue} of ${onDue} a day beyond, the part day); against the row read as its own, sooner (against the player) in ${against} by up to ${mostAgainst} days, later in ${favour} by up to ${mostFavour}`);
 });
 
 test("the replay and the base row carry the pair: an entry replayed between steps is delivered on its exact row", async () => {

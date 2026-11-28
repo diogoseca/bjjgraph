@@ -9,11 +9,25 @@ export const NG_KNOWLEDGE_STUDY_POLICY = "no-additional-study-events";
 export const NG_KNOWLEDGE_INTERVALS = Object.freeze([1, 3, 7, 14, 30, 60, 120]);
 // THE LADDER (v1.279.0, the owner, 13 Nov 2026: "1 day, then … 3 days … 1 week, then … 2 weeks, 1 month, 2 months,
 // 3 months, 6 months, 1 year, then every 2^n years thereon"; ruled SRS-GO): 1, 3, 7, 14, 30, 60, 90, 180, 365, 730,
-// 1461, 2922 days, then doubling. A card may sit BETWEEN two rungs (the research's frame, reports kept outside the repo):
-// its place is read from its true interval on a log scale, so halfway from 30 to 60 days is 42.4, not 45.
+// 1461, 2922 days, then (v1.305.0, LATE2) THE FITTED CURVE: each rung past 2,922 is C(the one before), rounded to a whole
+// day, C(x) = x × (1 + (4 years ÷ x)^(1/6)): 5,525, 9,951, 17,179, 28,571 … (15.1, 27.2, 47, 78 years), 24 rungs as before.
+// A card may sit BETWEEN two rungs (the research's frame, reports kept outside the repo): its place is read from its true
+// interval on a log scale, so halfway from 30 to 60 days is 42.4, not 45. Between two rungs the step runs in a straight
+// line (`ngKnowledgeStep`), so past 4 years it sits within 1.8% under the exact curve (tests/schedule_late.test.mjs).
+// THE TOP (v1.305.0, LATE2; the owner, 28 Nov 2026, card U226 a: "The fitted curve: power 1/6"; the study it was ruled on,
+// SAT1, is kept outside the repo): past 4 years a right answer's multiple falls from 2 as (4 years ÷ x)^(1/6), for the
+// ladder's own rungs and for a late answer alike (`ngKnowledgeLate`), so the wait grows for ever, a little slower than
+// doubling: on time 4 years → 8 → 15.1 → 27.2 → 47 years. Both numbers are HIS, and the reasons are at each:
+// the start, 4 years (1,461 days): his last named doubling step is kept, 4 years → 8 (C(1461) = 2 × 1461 = 2,922)
+export const NG_KNOWLEDGE_TOP_FROM = 1461;
+// the power, 1/6: FSRS-6's fitted rate of fall (its gain after a right answer falls as S^(−w9), w9 = 0.1666 in its fitted defaults)
+export const NG_KNOWLEDGE_TOP_POWER = 1 / 6;
+// THE CURVE, C(x) = x × (1 + (4 years ÷ x)^(1/6)): read only to make the rungs, each rounded to a whole day, so the
+// ECMAScript engine's own Math.pow (not bound to be the same in every browser) never reaches a stored number
+export function ngKnowledgeCurve(x) { return x * (1 + Math.pow(NG_KNOWLEDGE_TOP_FROM / x, NG_KNOWLEDGE_TOP_POWER)); }
 export const NG_KNOWLEDGE_LADDER = Object.freeze((() => {
   const L = [1, 3, 7, 14, 30, 60, 90, 180, 365, 730, 1461, 2922];
-  while (L.length < 24) L.push(L[L.length - 1] * 2);
+  while (L.length < 24) L.push(Math.round(ngKnowledgeCurve(L[L.length - 1])));
   return L;
 })());
 
@@ -338,7 +352,7 @@ export function ngKnowledgeSharedDecks(manifest, card, key) {
 // while the row's exact interval is not its own whole one: either a RUNG PAIR, the rung A the card's line starts from and t0
 // the day the card stood on it (an early answer stores this), or a step anchored at its own day, [the exact interval, last]
 // (an on-time or late answer between rungs stores this, as v1.281.0 did). A row written by any older client has no pair and
-// reads as anchored at its own last, so nothing stored is rewritten. A row the late answer's doubled wait stretched carries,
+// reads as anchored at its own last, so nothing stored is rewritten. A row the late rule stretched past one step carries,
 // after the pair's slot ([0, 0] there when it has no pair), THE LATE MARK [R, I] for the rating (v1.305.0, `ngKnowledgeMark`
 // below); the schedule never reads it. NOTHING IS ROUNDED (v1.281.3): the numbers stored are the
 // numbers computed, a JSON number reads back as itself, and every due is the rule's in exact arithmetic (pinned in fractions).
@@ -347,7 +361,7 @@ export function ngKnowledgeSharedDecks(manifest, card, key) {
 //     ratio + days left, ratio = next step ÷ this step) with the ratio of THE STEP THE CARD IS IN, at every answer: a card
 //     between rungs r < x < next stands on r's line, (x − r) × r ÷ (next − r) days into r's step (`ngKnowledgeOnRung`), and its
 //     interval w days into a rung's step is r + w × (next − r) ÷ r (`ngKnowledgeLinear` on a rung). As a level: a real number
-//     climbing 1 ÷ (its rung's interval) a day, at most one level per EARLY answer (a late one: below, LATE1). His numbers, pinned in
+//     climbing 1 ÷ (its rung's interval) a day, at most one level per EARLY answer (a late one: below, LATE1, LATE2). His numbers, pinned in
 //     tests/schedule_ladder.test.mjs: a 30-day card answered 1 day before its due comes due 59 days on, 29 days before it 31,
 //     on time 60; and his own check (U193): day 15 gives 45, then day 30 (a 45-day gap, 30 days left) gives 60.
 //   · v1.281.0 drew ONE straight line from a card's own interval, A + w × (step(A) − A) ÷ A; the two differ only where it stored
@@ -363,21 +377,27 @@ export function ngKnowledgeSharedDecks(manifest, card, key) {
 //     answered on day 28: 89 days, where v1.281.0's line gave 98; a 42-day card on day 18: 60, against 55); at the due the
 //     two agree (one step).
 //   · THE STEP IS TAKEN WHEN THE DAYS REACH IT, and an EARLY answer takes AT MOST ONE STEP from where the previous answer left
-//     it (until v1.305.0 every answer did; a late one now earns the doubled wait, below). Early, the card walks rung after rung (each rung crossed moves the pair on: A ← the next rung, t0 ← t0 + A) and takes
+//     it (until v1.305.0 every answer did; a late one now earns more, below). Early, the card walks rung after rung (each rung crossed moves the pair on: A ← the next rung, t0 ← t0 + A) and takes
 //     the line there; on those lines the line is one step up exactly at the exact due, so below the top an early answer never
-//     reaches the cap (`ngKnowledgeEarly`'s cap binds only at and past the top, where a step is the top). AN ANSWER ON OR AFTER THE DUE takes the larger of one step from
-//     the interval it reads and TWICE THE DAYS SINCE ITS LAST ANSWER (`ngKnowledgeLate`, v1.305.0, LATE1: the owner's rule, 25
-//     Nov 2026, ruled U223 b with no cap of ours). One step is the floor (day 29 → 59 days; on that due, 89; a day before it,
-//     88.5); on its due day the doubled wait is twice the interval, so it decides only where a step is under double (30 <
-//     interval < 90: the 60-day card goes to 120, past the 90 rung, ruled), and every later day earns more (a 30-day card 10
-//     days late: 80, where one step gave 60). Until v1.305.0 LATE EARNED ONE STEP AND NO MORE: the formula's negative "days
-//     left" would pay a late bonus (10 days late: 70), measured out at v1.279.0 (ANKI1: with a backlog the bonus cost 7 to 15
-//     points of true recall); the owner's rule was measured again before it was ruled (LATE1, Part A: it saves 1 to 3% of
-//     reviews and costs about a point of recall at each review on the cards answered late). THE DOUBLED WAIT COUNTS FROM THE
-//     LAST ANSWER, so an early answer restarts it: an extra early answer can leave a card due sooner, after a later late
-//     answer, than without it (never below one step from where it left the card; pinned in tests/schedule_rung.test.mjs and
-//     tests/schedule_linear.test.mjs). Dropping the days past the step (LIN1's first draft) made an answer a day before the
-//     due earn almost nothing on a card between steps; NO CLIFF since: a day later never earns less, the due day included.
+//     reaches the cap (`ngKnowledgeEarly`'s cap binds only at and past the top, where a step is the top). AN ANSWER ON OR AFTER
+//     THE DUE takes HIS LATE RULE's interval (`ngKnowledgeLate`, v1.305.0: LATE1, the owner's rule, 25 Nov 2026, ruled U223 b;
+//     its final form LATE2, 28 Nov 2026, U226 a): max(one step, t × min(step ÷ I, C(t) ÷ t)), t the days since the last answer,
+//     I the interval it reads, C(t) ÷ t = 2 up to 4 years and the fitted curve's past them. One step is the floor (day 29 → 59
+//     days; on that due, 89; a day before it, 88.5); ON ITS DUE DAY IT IS EXACTLY ONE STEP, so an on-time card lands on his
+//     named rungs (60 → 90; LATE1's first form, max(step, 2t), sent it to 120 and every on-time step after that a third above
+//     his rungs), and every later day earns more: twice the wait wherever his step at least doubles (a 30-day card 10 days
+//     late: 80, where one step gave 60), the step's own multiple of it where it does not (the 60-day card a day late: 1.5 × 61,
+//     91.5), past 4 years the ladder's own step for the days waited. A card between whole days, answered on its whole due day,
+//     is late by the part of a day its exact due falls before it, and is paid that part day at the step's own rate (60.5 days
+//     → 92.26 on its due day, where one step is 91.5). Until v1.305.0 LATE EARNED ONE STEP AND NO MORE: the formula's negative
+//     "days left" would pay a late bonus (10 days late: 70), measured out at v1.279.0 (ANKI1: with a backlog the bonus cost 7
+//     to 15 points of true recall); the owner's rule was measured again before it was ruled (LATE1, Part A: it saves 1 to 3% of
+//     reviews and costs about a point of recall at each review on the cards answered late; SAT1 for the top). THE LATE RULE
+//     COUNTS THE WAIT FROM THE LAST ANSWER, so an early answer restarts it: an extra early answer can leave a card due sooner,
+//     after a later late answer, than without it (never below one step from where it left the card, and never on a due day,
+//     where the rule is one step; pinned in tests/schedule_rung.test.mjs and tests/schedule_linear.test.mjs). Dropping the
+//     days past the step (LIN1's first draft) made an answer a day before the due earn almost nothing on a card between
+//     steps; NO CLIFF since: a day later never earns less, the due day included, and no jump at the due.
 //   · AN EARLY ANSWER WITH NO DAY WAITED (on the row's own last day, or a clock set back) leaves the level where it is and keeps
 //     the pair exactly as stored, so a second answer the same day rewrites nothing.
 //   · BETWEEN TWO RUNGS the interval sits on the straight line between them (`ngKnowledgeStep`: one step from 120 days, a third
@@ -446,7 +466,7 @@ function ngKnowledgeOnRung(ivl, day) {
 // in (each rung crossed moves the pair on: t0 + A, the next rung), then take that rung's line, never more than one step
 // from `ivl` (the cap: below the top an early answer never reaches it; it binds when the walk lands on the top rung, and on
 // a row past the top, whose step is the top: pinned in tests/schedule_rung.test.mjs). EARLY ONLY: a late answer earns the
-// doubled wait (`ngKnowledgeLate`), which no cap of ours bounds
+// late rule's interval (`ngKnowledgeLate`), which no cap of ours bounds
 function ngKnowledgeEarly(A, t0, ivl, last) {
   const top = NG_KNOWLEDGE_LADDER[NG_KNOWLEDGE_LADDER.length - 1];
   while (last - t0 >= A && A < top) { t0 += A; A = ngKnowledgeStep(A); }
@@ -462,24 +482,34 @@ function ngKnowledgeRungState(prior, at) {
 }
 // the exact interval a row holds, `due − last` before any rounding (the rating and the Practice order read it too)
 export function ngKnowledgeInterval(row, at = 3) { return ngKnowledgeAnchor(row, at).ivl; }
-// THE LATE ANSWER (v1.305.0, LATE1, the owner, 25 Nov 2026: "when answering late, [the] elapsed time in days is doubled,
-// that is the time in days for the next repetition space"; 26 Nov, U223 b: "Your rule, no cap"): a right answer ON OR AFTER
-// the due day earns the larger of one step from the interval it reads and twice the days since the last answer. The ONLY
-// place the shape lives (LATEHOLD: the owner may yet make it saturate; swap this body, nothing else). No ceiling of ours:
-// the ladder's own top is the step's. On the due day the doubled wait is twice the interval, so it beats the step only where
-// the step is under double (30 < interval < 90: a 60-day card goes to 120, skipping 90; ruled); a day later never earns
-// less, because both terms only grow with the days.
-export function ngKnowledgeLate(step, elapsed) { return Math.max(step, 2 * elapsed); }
+// THE LATE ANSWER (v1.305.0; LATE1, the owner, 25 Nov 2026: "when answering late, [the] elapsed time in days is doubled, that
+// is the time in days for the next repetition space"; 26 Nov, U223 b: "Your rule, no cap"; ITS FINAL FORM, LATE2, 28 Nov 2026,
+// card U226 a: "The fitted curve: power 1/6"): a right answer ON OR AFTER the due day, `elapsed` days after the last answer,
+// on a card at interval `ivl`, earns
+//     max(step(I), t × min(step(I) ÷ I, C(t) ÷ t)),   C(t) ÷ t = 2 up to 4 years, the ladder's own step(t) ÷ t past them
+// (the curve's rungs, NG_KNOWLEDGE_LADDER, run in straight lines between them, within 0.41% under the exact curve). So: on the
+// due day exactly ONE STEP, his named rung (the 60-day card goes to 90; LATE1's first form, max(step, 2t), sent it to 120); after
+// it twice the wait wherever his step at least doubles, the step's own multiple of it where it does not (1.5 × on the 60-day
+// rung), and past 4 years the ladder's own step for the days waited (a 4-year or a 1-year card answered 8 years on: 5,525
+// days). A day later never earns less (each term only grows with the days); no jump at the due (it meets the early line);
+// late never earns less than on time. No ceiling of ours: the ladder's own top (655,856 days) is the step's. The ONLY place
+// the shape lives (LATEHOLD); swap this body, nothing else. WRITTEN AS min(t × step ÷ I, t × the multiple), the same
+// function as t × min(…) to float dust, so that on the due day (t = I) it is EXACTLY one step: the study's form lands 10^-12
+// of a day above it on 23,070 of 700,000 whole-day intervals past 4 years (tests/schedule_late.test.mjs pins both).
+export function ngKnowledgeLate(ivl, elapsed) {
+  const s = ngKnowledgeStep(ivl);
+  return Math.max(s, Math.min((elapsed * s) / ivl, elapsed <= NG_KNOWLEDGE_TOP_FROM ? 2 * elapsed : ngKnowledgeStep(elapsed)));
+}
 // the new exact interval (in days, counted from the answer's day) a RIGHT answer on `day` earns on `prior`
 export function ngKnowledgeNextInterval(prior, day, at = 3) { return ngKnowledgeNext(prior, Math.max(day, prior[2]), at).ivl; }
 // A RIGHT ANSWER on `last` (never before the row's last): the new state {A, t0, ivl}. Nothing is rounded (v1.281.3): what is
 // computed here is what the stored pair reproduces, a JSON number reading back as itself. ON TIME OR LATE the card takes
-// the larger of one step from the interval it reads and twice the days since its last answer (`ngKnowledgeLate`, v1.305.0),
-// anchored at its own day as v1.281.0 stored it; EARLY it climbs its rung's line
+// his late rule's interval from the interval it reads and the days since its last answer (`ngKnowledgeLate`, v1.305.0: on
+// the due day one step, after it more), anchored at its own day as v1.281.0 stored it; EARLY it climbs its rung's line
 // and the rung pair is stored. An early answer with no day waited (on the row's own last day, or a clock set back) leaves the
 // level where it is and keeps the pair exactly as stored, so a second answer the same day rewrites nothing
 function ngKnowledgeNext(prior, last, at) {
-  if (last >= prior[0]) { const A = ngKnowledgeLate(ngKnowledgeStep(ngKnowledgeAnchor(prior, at).ivl), last - prior[2]); return { A, t0: last, ivl: A }; }
+  if (last >= prior[0]) { const A = ngKnowledgeLate(ngKnowledgeAnchor(prior, at).ivl, last - prior[2]); return { A, t0: last, ivl: A }; }
   const s = last === prior[2] ? ngKnowledgeAnchor(prior, at) : ngKnowledgeRungState(prior, at);
   return ngKnowledgeEarly(s.A, s.t0, s.ivl, last);
 }
@@ -552,7 +582,8 @@ export function ngKnowledgeScheduleRow(prior, ok, day, at = 3) {
   // line from there, so nothing is lost or gained over any run of answers (LIN2-R1 dropped the pair, a day longer at most per
   // answer, and that added up: a 731-day card answered daily from epoch day 0 came due 364 days late). At epoch day d it
   // touches only a card on a rung r above d whose interval is above r + d × (next − r) ÷ r: from 60 + d ÷ 2 on the 60-day
-  // rung; at d = 20,400, where every rung above d doubles, above 43,776 days (about 120 years)
+  // rung; at d = 20,400 (on his ladder since LATE2, whose first rung above d is the curve's 28,571, next 45,978), above
+  // 40,999.8 days (about 112 years; on the doubling ladder until then, 43,776)
   const pair = t0 < 0 ? (Number.isInteger(ivl) ? null : [ivl, last]) : t0 === last && Number.isInteger(A) ? null : [A, t0];
   return ngKnowledgeRowOut(due, ivl, last, pair, ok, prior, at, R);
 }

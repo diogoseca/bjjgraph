@@ -49,7 +49,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { ngProgressOwner, ngProgressLocalKey, ngProgressCreateHost, ngProgressJournalParse, NG_PROGRESS_JOURNAL_CAP } from "../neural/src/progress-owner.src.js";
-import { ngKnowledgeScheduleRow, ngKnowledgeQuestionHash, ngKnowledgeMergeRow } from "../neural/src/knowledge-profile.src.js";
+import { ngKnowledgeScheduleRow, ngKnowledgeQuestionHash, ngKnowledgeMergeRow, ngKnowledgeInterval } from "../neural/src/knowledge-profile.src.js";
 import { onestep } from "./_onestep_client.mjs";
 
 const read = (rel) => readFileSync(new URL(rel, import.meta.url), "utf8");
@@ -421,11 +421,12 @@ test("nothing is written on a passive boot, and an older client receives ordinar
   assert.deepEqual(dev.srs.d[H1], pushed.srs.d[H1].slice(0, 3));
 })));
 
-// v1.305.0 (LATE1): a late right answer earns max(one step, twice the days since the last answer). Its row is an ordinary
+// v1.305.0 (LATE1, LATE2): a late right answer earns his late rule's interval, max(one step, t × min(step ÷ I, C(t) ÷ t)),
+// more than one step after the due (here, on the 60-day rung, 1.5 × the days since the last answer). Its row is an ordinary
 // row (three cells, the pair while not whole), so every merge reads it; what must hold is that the LATER answer is never
 // lost, whichever build meets it, through this build's own pull against a fake cloud that holds rows, and through the
 // one-step client's merge (v1.281.3 to v1.304.0, captured: tests/artifacts/schedule_onestep_client.json) and v1.278.2's
-test("a late answer's doubled wait meets an older client's row: the later answer is kept, by this build's pull and by the older clients' merges (LATE1)", () => fakeTimers(async ({ flush }) => {
+test("a late answer meets an older client's row: the later answer is kept, by this build's pull and by the older clients' merges (LATE1, LATE2)", () => fakeTimers(async ({ flush }) => {
   const mem = memory(), C = cloud(blob({ srs: { d: { [H1]: MATURE } }, stage: { d: { [H1]: 3 } } }));
   let X;
   await withDay(D, async () => { X = (await account(mem, C, flush)).a; });   // synced: it holds the 60-day row
@@ -433,13 +434,14 @@ test("a late answer's doubled wait meets an older client's row: the later answer
   const older = onestep.write(MATURE, true, D + 40);
   assert.deepEqual(older, [D + 130, 60, D + 40], "premise: the one-step client's late answer");
   C.blob.srs.d[H1] = older;
-  // this device, offline, answers it on day D + 60: on its own copy, twice the 90 days since the last answer it knows
+  // this device, offline, answers it on day D + 60: on its own copy, 1.5 × the 90 days since the last answer it knows (the
+  // 60-day rung's step is 1.5 ×; LATE1's first form: twice, 180)
   await withDay(D + 60, async () => { C.pullFails = true; C.mode = "fail"; answer(X, Q1, true); await flush(); await settle(); });
   assert.deepEqual(C.blob.srs.d[H1], older, "premise: offline, its push never landed");
-  assert.deepEqual(X.srs.d[H1], [D + 240, 120, D + 60, 0, 0, 90, 180], "on this copy alone: 180 days (its late mark: the one-step 90)");
+  assert.deepEqual(X.srs.d[H1], [D + 195, 120, D + 60, 0, 0, 90, 135], "on this copy alone: 135 days (its late mark: the one-step 90)");
   // it comes online the same day: its answer is replayed on the cloud's newer row, in time order: 20 days after the other
-  // device's answer and before that row's due, so EARLY there (20 days up the 90-day rung's line: 110), never the 180 its
-  // stale copy gave (the doubled wait counts from the last answer, and the replay knows it)
+  // device's answer and before that row's due, so EARLY there (20 days up the 90-day rung's line: 110), never the 135 its
+  // stale copy gave (the late rule counts the wait from the last answer, and the replay knows it)
   await withDay(D + 60, async () => { C.pullFails = false; C.mode = "ok"; assert.equal(await pull(X, flush), true); });
   const want = write(older, true, D + 60);
   assert.deepEqual(want, [D + 170, 60, D + 60, 90, D + 40], "in time order: early on the newer row, 110 days");
@@ -451,15 +453,17 @@ test("a late answer's doubled wait meets an older client's row: the later answer
     devSrsMerge.call(dev, { srs: copy(C.blob.srs) });
     assert.deepEqual(dev.srs.d[H1], want.slice(0, 3), `v1.278.2's merge, its row ${local}`);
   }
-  // the same day: the one-step client's own late answer (one step, 90 days) against this build's doubled one (120 days):
-  // its merge keeps the longer interval (the heal), both orders, and so does this build's
-  const mine = write(MATURE, true, D + 30), theirs = onestep.write(MATURE, true, D + 30);
-  assert.deepEqual([mine, theirs], [[D + 150, 120, D + 30, 0, 0, 90, 120], [D + 120, 60, D + 30]], "premise: 120 days (marked: one step was 90) and 90 days");
+  // the same day, 10 days late: the one-step client's own late answer (one step, 90 days) against this build's (1.5 × the 70
+  // days since the last answer, 105 days): its merge keeps the longer interval (the heal), both orders, and so does this
+  // build's (LATE1's first form answered on the due day here, 120 against 90; on the due day both are now one step, 90)
+  const mine = write(MATURE, true, D + 40), theirs = onestep.write(MATURE, true, D + 40);
+  assert.deepEqual([mine, theirs], [[D + 145, 60, D + 40, 0, 0, 90, 105], [D + 130, 60, D + 40]], "premise: 105 days (marked: one step was 90) and 90 days");
+  assert.deepEqual(write(MATURE, true, D + 30), onestep.write(MATURE, true, D + 30), "on its due day: the same row, one step");
   // (v1.305.0's late mark rides through this build's merge; the one-step client's keeps the schedule and drops the cells after
   // the pair, so there the row reads uncorrected: knowledge-profile.src.js, `ngKnowledgeMark`, NOT COVERED)
   for (const [merge, want] of [[onestep.merge, mine.slice(0, 3)], [ngKnowledgeMergeRow, mine]]) {
-    assert.deepEqual(merge(theirs.slice(), mine.slice(), D + 30), want, "the older copy pulls the doubled row: kept");
-    assert.deepEqual(merge(mine.slice(), theirs.slice(), D + 30), want, "the doubled copy pulls the older row: kept");
+    assert.deepEqual(merge(theirs.slice(), mine.slice(), D + 40), want, "the older copy pulls the longer row: kept");
+    assert.deepEqual(merge(mine.slice(), theirs.slice(), D + 40), want, "the longer copy pulls the older row: kept");
   }
 }));
 
@@ -558,13 +562,14 @@ test("the journal is bounded: an answer never rewrites more than about 20 KB", (
 
 // ── NEXT2-R2: the second look at PR #418 (its findings D1 and D3, as cases) ────────────────────────────────────────────
 
-// v1.305.0 (LATE1): a late right answer earns the larger of one step and twice the days since the last answer THE COPY KNOWS.
-// X, offline, never saw Y's answers, so its answer doubles the whole wait since c0's last answer, and in "short" and "long"
-// that beats Y's two answers in time order: the merge keeps the longer interval (its heal), so the card ends AHEAD of the
-// in-order copy (short: 8 days where in order 7; long: 300 where in order 210.83), never behind. That over-credit is the
-// rule meeting a copy that had not synced (NOT COVERED here: nothing on X can know Y's answers). "rung 180" is the case where
-// Y's two answers still earn more than X's one (the step from 181.03 is 367.03, X's doubled wait 366): there the card keeps
-// what Y's answers earned only through D1's rule, so J17 stays red here
+// v1.305.0 (LATE1, LATE2): a late right answer earns his late rule's interval for the days since the last answer THE COPY
+// KNOWS. X, offline, never saw Y's answers, so its answer is paid for the whole wait since c0's last answer, and in "short"
+// and "long" that beats Y's two answers in time order: the merge keeps the longer interval (its heal), so the card ends AHEAD
+// of the in-order copy (short: 8 days where in order 7, twice X's 4 days; long: 225 where in order 180, 1.5 × X's 150 days
+// on the 60-day rung; LATE1's first form: 300 where in order 210.83), never behind. That over-credit is the rule meeting a
+// copy that had not synced (NOT COVERED here: nothing on X can know Y's answers). "rung 180" is the case where Y's two answers
+// still earn more than X's one (the step from 181.03 is 367.03, X's late answer 366): there the card keeps what Y's answers
+// earned only through D1's rule, so J17 stays red here
 test("two offline devices, only right answers, the other device syncs first: no step is lost (D1, short and long)", () => fakeTimers(async ({ flush }) => {
   for (const [name, c0, yDays, xDay] of [["short", [D + 1, 1, D], [D + 1, D + 4], D + 4], ["long", [D, 60, D - 60], [D, D + 90], D + 90],
     ["rung 180", [D + 180, 120, D], [D + 1, D + 183], D + 183]]) {
@@ -578,11 +583,12 @@ test("two offline devices, only right answers, the other device syncs first: no 
     const ideal = write(write(write(c0, true, yDays[0]), true, yDays[1]), true, xDay), stale = write(c0, true, xDay);
     C.pullFails = false; C.mode = "ok";
     await withDay(xDay, async () => { for (const dev of [X, Y, X, Y]) await pull(dev, flush); });
-    // the later due of the two: the in-order copy's, or X's doubled wait when it is longer (short, long)
+    // the later due of the two: the in-order copy's, or X's late answer when it is longer (short, long)
     const kept = stale[0] > ideal[0] ? stale : ideal;
     assert.deepEqual(kept === stale ? "stale" : "ideal", { short: "stale", long: "stale", "rung 180": "ideal" }[name], `${name}: premise`);
     assert.ok(C.blob.srs.d[H1][0] >= ideal[0], `${name}: no step is lost: due ${C.blob.srs.d[H1][0]}, in order ${ideal[0]}`);
-    assert.deepEqual(C.blob.srs.d[H1], kept, `${name}: the card keeps the step Y's right answers earned, or X's longer doubled wait`);
+    assert.deepEqual(C.blob.srs.d[H1], kept, `${name}: the card keeps the step Y's right answers earned, or X's longer late answer`);
+    if (name === "long") assert.deepEqual([ngKnowledgeInterval(kept), ngKnowledgeInterval(ideal)], [225, 180], "long: 225 days where in order 180");
     assert.deepEqual([X.srs.d[H1], Y.srs.d[H1]], [kept, kept], `${name}: both devices hold it`);
   }
 }));
