@@ -513,15 +513,18 @@ function ngKnowledgeNext(prior, last, at) {
   const s = last === prior[2] ? ngKnowledgeAnchor(prior, at) : ngKnowledgeRungState(prior, at);
   return ngKnowledgeEarly(s.A, s.t0, s.ivl, last);
 }
-// THE LATE MARK (v1.305.0, LATE1, the rating's correction). The doubled wait (`ngKnowledgeLate`) stretches a card's interval
+// THE LATE MARK (v1.305.0, LATE1, the rating's correction). The late rule (`ngKnowledgeLate`) stretches a card's interval
 // without its memory being any stronger, and the rating (`ngRatingRecall`, rating.src.js) and Practice's worth read a longer
 // interval as better recall (the study, LATE1 Part A: 16 to 31 points high while true recall fell). The row alone cannot say
 // it: a 30-day card answered on its due and a 3-day card answered 30 days after its last answer both store [last + 60, 60,
 // last], and every interval a stretched row can hold is held by some row written before this build, so any reading from the
-// row alone either lowers a row that exists today or corrects nothing. So a row the doubled wait stretched carries two more
+// row alone either lowers a row that exists today or corrects nothing. So a row the late rule stretched carries two more
 // numbers after the pair's slot ([0, 0] there when it has no pair): [R, I], R the interval THE ONE-STEP SCHEDULE (v1.281.3
-// to v1.304.0) would hold after the same answers, I the row's own exact interval when it was written. The rating reads R
-// (never more than the schedule's own); the schedule never reads the mark.
+// to v1.304.0's writer, on today's ladder: its rungs past 4 years the curve's since LATE2) would hold after the same answers,
+// I the row's own exact interval when it was written. The rating reads R (never more than the schedule's own); the schedule
+// never reads the mark. SINCE LATE2 (the late rule's final form) an answer on a card's due day stretches nothing (the rule is
+// one step there), so a mark starts only on an answer after the due day, or on the due day of a card between whole days (its
+// part day); a marked card keeps it while the two readings differ (below).
 //   · WRITTEN only when R < I, on a right answer (a miss and a first answer write none): R is the one-step writer run on the
 //     card's own row, or on the row its mark stands for (`ngKnowledgeShadow`), so a chain of answers keeps the one-step
 //     reading (a stretched card answered early stays marked, its R the early line from R), and the mark goes when the two

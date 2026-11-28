@@ -29,8 +29,8 @@
 //     a row whose `last` the pull clamped reads its longer interval, higher, never lower),
 //     so a card is read at 0.9 on its due day and keeps falling while it is overdue. Never below 0, never above 1.
 //   · A ROW THE LATE ANSWER STRETCHED is read at the interval the one-step schedule would hold (v1.305.0, LATE1: its late
-//     mark, `ngRatingReadInterval`; why and how it is written: knowledge-profile.src.js, `ngKnowledgeMark`). The doubled
-//     wait lengthens a card's interval without its memory being stronger, so read from `due − last` a card answered late read
+//     mark, `ngRatingReadInterval`; why and how it is written: knowledge-profile.src.js, `ngKnowledgeMark`). The late rule
+//     (LATE1, its final form LATE2) lengthens a card's interval without its memory being stronger, so read from `due − last` a card answered late read
 //     as better recall than one step would say (the study, LATE1 Part A: 16 to 31 points high as true recall fell). A row
 //     without the mark, which is every row written before v1.305.0, reads exactly as it did; the mark only ever shortens
 //     the interval read, never below what the one-step schedule would hold, so it never reads better than one step would.
