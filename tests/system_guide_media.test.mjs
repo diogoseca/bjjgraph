@@ -6,7 +6,7 @@ import vm from 'node:vm'
 const adapter = readFileSync(new URL('../neural/src/system-preview.src.js', import.meta.url), 'utf8').replace(/^export /gm, '')
 const source = readFileSync(new URL('../scripts/system_guide_media.js', import.meta.url), 'utf8').replace(/^import .*\n/, '')
 const bunny = 'https://iframe.mediadelivery.net/embed/596460/70f6a194-5a06-4114-b450-292e1373dff8?autoplay=false&muted=false&preload=false'
-function harness({ url = bunny, provider = 'bunny', visible = true, autoReady = true, youtubeReady = true, bunnySDK = true, youtubeSDK = true } = {}) {
+function harness({ url = bunny, provider = 'bunny', visible = true, autoReady = true, youtubeReady = true, bunnySDK = true, youtubeSDK = true, tabHidden = false } = {}) {
   const created = [], scripts = [], docEvents = {}, windowEvents = {}, observers = [], timers = new Map(), calls = [], bunnyCalls = []
   let timerId = 0, ytEvents, bunnyEvents = {}
   const sections = [0, 1].map(() => {
@@ -20,7 +20,7 @@ function harness({ url = bunny, provider = 'bunny', visible = true, autoReady = 
     }
   })
   const document = {
-    hidden: false, querySelectorAll: () => sections,
+    hidden: tabHidden, querySelectorAll: () => sections,
     getElementById: id => scripts.find(script => script.id === id && !script.removed),
     head: { appendChild: script => { scripts.push(script); script.mounted = true } },
     addEventListener: (name, fn) => { docEvents[name] = fn },
@@ -86,7 +86,7 @@ test('static intro mounts once with muted autoplay even without origin verificat
   assert.equal(h.sections[0].fallback.hidden, false)
 })
 
-test('changed System, browser navigation, and backgrounding remove old playback', async () => {
+test('changed System, browser navigation and leaving the page remove old playback; a tab switch keeps it', async () => {
   const h = harness(), first = h.created[0]
   await h.settle()
   h.sections[0].dataset.systemKey = 'another'; h.docEvents.nav()
@@ -95,13 +95,32 @@ test('changed System, browser navigation, and backgrounding remove old playback'
   assert.equal(h.created.length, 2)
   h.location.pathname = '/Systems/Another'; h.windowEvents.popstate()
   assert.equal(h.created[1].mounted, false)
-  h.docEvents.nav(); h.document.hidden = true; h.docEvents.visibilitychange()
-  assert.equal(h.created.at(-1).mounted, false)
+  h.docEvents.nav()
+  await h.settle()
+  // A TAB SWITCH NEVER STOPS, RESTARTS OR REWINDS A VIDEO (VIDTAB1). To v1.304.0 `hidden` paused (destroyed) the player
+  // and the return mounted a new one from the start. The same frame now plays through it, a layout change while away included.
+  const live = h.created.at(-1), made = h.created.length
+  assert.equal(live.mounted, true)
+  h.document.hidden = true; h.docEvents.visibilitychange()
+  h.observers[0].resize()
+  assert.equal(live.mounted, true)
   h.document.hidden = false; h.docEvents.visibilitychange()
   await h.settle()
-  assert.equal(h.created.at(-1).mounted, true)
+  assert.equal(live.mounted, true)
+  assert.equal(h.created.length, made)
   h.windowEvents.pagehide()
-  assert.equal(h.created.at(-1).mounted, false)
+  assert.equal(live.mounted, false)
+})
+
+test('a preview first shown in a hidden tab waits, and mounts when the tab comes back', async () => {
+  const h = harness({ tabHidden: true })
+  await h.settle()
+  assert.equal(h.created.length, 0)
+  assert.equal(h.sections[0].fallback.hidden, false)
+  h.document.hidden = false; h.docEvents.visibilitychange()
+  await h.settle()
+  assert.equal(h.created.length, 1)
+  assert.equal(h.created[0].mounted, true)
 })
 
 test('hidden, malformed and foreign players retain their cover without making a frame', async () => {
