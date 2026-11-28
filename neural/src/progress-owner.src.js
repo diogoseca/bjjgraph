@@ -149,10 +149,9 @@ export function ngProgressMergeMoves(local, cloud, today) {
   const valid = r => Array.isArray(r) && r.length >= 4 && r.slice(0, 4).every(x => typeof x === "number" && Number.isFinite(x));
   const norm = r => [r[0] | 0, r[1] | 0, Math.min(today, r[2] | 0), r[3] ? 1 : 0].concat(r.slice(4));
   const tail = r => JSON.stringify(r.slice(4)), ed = r => r[2] + ngProgressSchedInterval(r, 4);
-  const rd = r => { const k = ngProgressMark(r); return k === null ? ngProgressSchedInterval(r, 4) : k; };   // v1.305.0, as the srs merge
   const first = (a, b) => a[2] !== b[2] ? (a[2] > b[2] ? a : b) : a[1] !== b[1] ? (a[1] < b[1] ? a : b)
     : a[3] !== b[3] ? (a[3] < b[3] ? a : b) : ed(a) !== ed(b) ? (ed(a) < ed(b) ? a : b)
-    : a[0] !== b[0] ? (a[0] < b[0] ? a : b) : rd(a) !== rd(b) ? (rd(a) > rd(b) ? a : b) : tail(a) <= tail(b) ? a : b;
+    : a[0] !== b[0] ? (a[0] < b[0] ? a : b) : tail(a) <= tail(b) ? a : b;   // a full tie: the tail's text, late mark and all, as every build (LATEFIX1 F2)
   const out = {};
   for (const side of [local, cloud]) for (const s in side || {}) {
     const l = (out[s] = out[s] || {});
@@ -166,11 +165,14 @@ export function ngProgressMergeMoves(local, cloud, today) {
       // tests/schedule_linear.test.mjs pins the two equal), the beaten row's own cell kept: a beaten row of the winner's own
       // day as it is, its pair with it (a second pull then writes nothing); one from an earlier day as a fresh anchor at the
       // winner's last, a pair only when that interval is not whole; the winner's answer and its cells after the pair ride
-      // the late mark (v1.305.0, as `ngKnowledgeMergeRow`): the kept card reads at the longer of the two rows' one-step
-      // readings, marked only while that is shorter than the interval kept; the winner's cells after its mark ride
+      // the late mark (v1.305.0): marked only while its reading is shorter than the interval kept (below); the winner's cells
+      // after its mark ride
       const tw = ngProgressSchedInterval(w, 4), to = ngProgressSchedInterval(o, 4);
       if (tw > 1 && to > tw) {
-        const mw = ngProgressMark(w), mo = ngProgressMark(o), R = Math.max(mw === null ? tw : mw, mo === null ? to : mo);
+        // a beaten row of the winner's own day is kept as it is, read as it reads (its own mark, or none: LATEFIX1, the reader's
+        // F2; with the text tie above, the winner's longer reading here could hand the row back on the next pull); a fresh
+        // anchor at the winner's later day reads at the longer of the two rows' one-step readings, as `ngKnowledgeMergeRow`
+        const mw = ngProgressMark(w), mo = ngProgressMark(o), own = mo === null ? to : mo, R = o[2] === w[2] ? own : Math.max(mw === null ? tw : mw, own);
         const rest = w.length > 9 ? w.slice(9) : [], mark = R < to ? [R, to, w[2]] : rest.length ? [0, 0, 0] : [], none = mark.length ? [0, 0] : [];
         if (o[2] === w[2]) w = o.slice(0, 3).concat(w[3], ngProgressSchedPair(o) ? o.slice(4, 6) : none, mark, rest);
         else {

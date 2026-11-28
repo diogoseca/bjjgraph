@@ -28,7 +28,9 @@
 //   · the mark checks itself: an older build's later answer (it copies the cells forward), a clamped pull, a damaged mark;
 //   · an older build's CHAIN of answers never makes a stale mark count again (LATEFIX1, the reader's F1): a miss, then a climb
 //     back to exactly the mark's interval, through v1.304.0's writer, its moves merge (captured) and its journal replay;
-//   · it rides through this build's pull merge, and the heal writes its own; the three copies agree on every row shape.
+//   · it rides through this build's pull merge, and the heal writes its own; the three copies agree on every row shape;
+//   · a full tie on a moves row (one schedule, two marks that both check) settles the same on this build and an older one, so
+//     the cloud never flips between them (LATEFIX1, the reader's F2; its flip script, rounds and rows, is the test).
 //
 // MUTANTS (v1.305.0), each applied alone and run against this file and the schedule unit files; each turned the NAMED test red
 // (the run is in docs/Changelog-Archive.md, v1.305.0):
@@ -40,6 +42,8 @@
 //   K6  a full tie without the reading (the text decides)                        → tests/schedule_linear.test.mjs, "the srs merge…"
 //   L1  the mark's day check dropped (LATEFIX1; all three copies)                 → "an older build's chain of answers never makes…"
 //       and "the mark checks itself…"
+//   L2  the moves merge's reading tie back (LATE1's)                             → "a full tie on a moves row settles the same…"
+//   L3  the moves same-day heal reads the longer of the two readings again       → "a full tie on a moves row settles the same…"
 //
 // Run: node --test tests/schedule_late_mark.test.mjs
 import { test } from "node:test";
@@ -264,6 +268,53 @@ test("an older build's chain of answers never makes a stale mark count again: a 
   const sameMiss = onestep.write(sa, false, D0);
   assert.deepEqual([sameMiss.slice(0, 3), K.ngKnowledgeMark(sameMiss)], [[D0 + 1, 1, D0], null]);
   assert.equal(K.ngKnowledgeMark(climb(sameMiss, 3, onestep.write)), null);
+});
+
+// LATEFIX1 (the reader of PR #472, F2): one schedule, two marks that both check (two devices whose histories differ, answered
+// late on the same day to the same interval). LATE1's moves merge let the longer one-step reading decide such a tie, and every
+// build from v1.281.0 to v1.304.x lets the tail's text decide it (their moves merge keeps the cells after the pair), so a
+// device on this build and one on an older build kept different rows and the cloud flipped on every push between them. The
+// moves merge now settles a full tie by the same text, and its same-day heal keeps the beaten row as it is (read as it reads),
+// so a second pull writes nothing. (The srs merge keeps LATE1's reading tie: older builds pull srs rows without the cells, so
+// they hold the unmarked row, which always reads longer: the reading tie is what settles beside them.)
+test("a full tie on a moves row settles the same on this build and an older one: the cloud never flips (LATEFIX1)", () => {
+  const t = 20141, rounds = (a, b, mergeA, mergeB) => {
+    let cloud = b.slice(), x = a.slice(), y = b.slice();
+    const out = [];
+    for (let i = 0; i < 3; i++) {
+      x = mergeA({ s: { m: x } }, { s: { m: cloud } }, t).s.m; cloud = x.slice(); const c1 = cloud.slice();
+      y = mergeB({ s: { m: y } }, { s: { m: cloud } }, t).s.m; cloud = y.slice();
+      out.push([c1, cloud.slice()]);
+    }
+    return out;
+  };
+  // (1) the reader's script, verbatim rows (LATE1's two-cell marks: since LATEFIX1 neither is read)
+  const ra = [t, 30, 20105, 1, 0, 0, 7, 36], rb = [t, 30, 20105, 1, 0, 0, 3, 36];
+  assert.deepEqual([ngProgressMark(ra), ngProgressMark(rb)], [null, null]);
+  for (const [afterThis, afterOld] of rounds(ra, rb, ngProgressMergeMoves, onestepMergeMoves)) assert.deepEqual([afterThis, afterOld], [rb, rb], "the reader's rows: settled");
+  // (2) the same with three-cell marks that both check
+  const a = [t, 30, 20105, 1, 0, 0, 7, 36, 20105], b = [t, 30, 20105, 1, 0, 0, 3, 36, 20105];
+  assert.deepEqual([ngProgressMark(a), ngProgressMark(b)], [7, 3], "premise: both marks check");
+  const older = onestepMergeMoves({ s: { m: a.slice() } }, { s: { m: b.slice() } }, t).s.m;
+  assert.deepEqual(older, b, "premise: v1.304.0 keeps the smaller tail text");
+  for (const [x, y] of [[a, b], [b, a]]) {
+    assert.deepEqual(ngProgressMergeMoves({ s: { m: x.slice() } }, { s: { m: y.slice() } }, t).s.m, older, `this build keeps the same row (${x[6]} local)`);
+    for (const [afterThis, afterOld] of rounds(x, y, ngProgressMergeMoves, onestepMergeMoves)) assert.deepEqual([afterThis, afterOld], [b, b], "every round: one row, both builds");
+  }
+  // (3) the same-day heal keeps the beaten row as it is: a fresh 30-day answer on the stretched row's own day beats it (smaller
+  // cell) and heals to its 150 days, read at that row's own 7 (LATE1 wrote the winner's longer 30, which the tail's text could
+  // then hand back to the beaten row on the next pull); a second pull, on either build, writes nothing
+  const mv = W([D + 3, 3, D, 1], true, D + 75, 4), w30 = [D + 105, 30, D + 75, 1];
+  const healed = ngProgressMergeMoves({ s: { m: w30 } }, { s: { m: mv } }, D + 90).s.m;
+  assert.deepEqual(healed, [D + 225, 120, D + 75, 1, 0, 0, 7, 150, D + 75]);
+  assert.deepEqual(ngProgressMergeMoves({ s: { m: mv } }, { s: { m: w30 } }, D + 90).s.m, healed);
+  for (const z of [mv, healed]) {
+    assert.deepEqual(ngProgressMergeMoves({ s: { m: healed } }, { s: { m: z } }, D + 90).s.m, healed, "absorbed");
+    assert.deepEqual(ngProgressMergeMoves({ s: { m: z } }, { s: { m: healed } }, D + 90).s.m, healed, "absorbed, the other order");
+  }
+  // a fresh anchor at the winner's later day still reads at the longer of the two one-step readings (as the srs heal)
+  assert.deepEqual(ngProgressMergeMoves({ s: { m: [D + 106, 30, D + 76, 1] } }, { s: { m: mv } }, D + 90).s.m, [D + 226, 120, D + 76, 1, 0, 0, 30, 150, D + 76]);
+  assert.deepEqual(K.ngKnowledgeMergeRow([D + 106, 30, D + 76], W([D + 3, 3, D], true, D + 75), D + 90), [D + 226, 120, D + 76, 0, 0, 30, 150, D + 76]);
 });
 
 test("the pull merge carries the mark, and the heal writes its own; the three copies agree on every row shape", () => {

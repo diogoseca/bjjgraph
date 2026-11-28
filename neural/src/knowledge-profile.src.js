@@ -626,7 +626,11 @@ export function ngKnowledgeMergeRow(local, cloud, today) {
   else if (cc[1] !== m[1]) w = cc[1] < m[1] ? cc : m;
   else if (ed(cc) !== ed(m)) w = ed(cc) < ed(m) ? cc : m;
   else if (cc[0] !== m[0]) w = cc[0] < m[0] ? cc : m;
-  else if (rd(cc) !== rd(m)) w = rd(cc) > rd(m) ? cc : m;   // the longer one-step reading, as the heal keeps (v1.305.0)
+  // the longer one-step reading, as the heal keeps (v1.305.0). It is also what lets an srs row settle beside an older build:
+  // v1.281.0 to v1.304.x pull srs rows without the cells after the pair, so they hold the unmarked row, and the unmarked one
+  // always reads longer (LATEFIX1, the reader's F2, measured: the text tie here left 2,118 of 6,000 mixed syncs unsettled).
+  // The moves merge, whose older copies keep the cells, settles by their own rule instead (`ngProgressMergeMoves`)
+  else if (rd(cc) !== rd(m)) w = rd(cc) > rd(m) ? cc : m;
   else w = JSON.stringify(cc.slice(3)) <= JSON.stringify(m.slice(3)) ? cc : m;
   const o = w === cc ? m : cc;
   const tw = ngKnowledgeInterval(w), to = ngKnowledgeInterval(o);
