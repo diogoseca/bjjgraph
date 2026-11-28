@@ -227,9 +227,13 @@ function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity
   //     (`NG_KNOWLEDGE_LADDER`, `NG_KNOWLEDGE_TOP_FROM`, `NG_KNOWLEDGE_TOP_POWER`). Label-neutral for the same reason: the
   //     schedule writer, its ladder and the merge are the app's alone, and the MDP reads no schedule. Measured: regenerated
   //     after it, every MDP shard part byte-identical to LATE1's (docs/Changelog-Archive.md, v1.305.0, LATE2).
+  //     The KNOWLEDGE pin again (from 5e11af…), LATEFIX1 (the reader of PR #472, F1): the late mark carries its answer's day,
+  //     [R, I, L], in the writer, its reader and the srs merge. Label-neutral for the same reason: the mark is the rating's,
+  //     the schedule never reads it, and the MDP reads no schedule. Measured: regenerated after it, every MDP shard part
+  //     byte-identical to LATE2's.
   // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
   // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
-  const expected={adapter:'7fc8263e15a907b08fd0c70342fb50d943ea3f8add29e48f7053c9b200c33b04',knowledge:'5e11af9dba0a54b753f6d77fc8e0236be059c6bb27daaed34eaeefd5e7498b07',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
+  const expected={adapter:'7fc8263e15a907b08fd0c70342fb50d943ea3f8add29e48f7053c9b200c33b04',knowledge:'8248a05b7e9647b645cc5ee329cac688094fe5aecdb5d9606ccb58c1a577b21c',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
   if(Object.entries(expected).some(([key,hash])=>lawHashes?.[key]!==hash))ngMdpExposureFail('unsupported-exposure-label-law');
   if(metadata?.coverage?.status!=='COMPLETE'||metadata.ruleset!==request.ruleset||profile?.status!=='ready'||profile.fingerprint!==request.profileHash||typeof knowledge.ngKnowledgeOverride!=='function')ngMdpExposureFail('incomplete-exposure-adapter-context');
   const contractHash=M.ngMdpContractHash(request),metadataHash=M.ngMdpDigest(metadata);
