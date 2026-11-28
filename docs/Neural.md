@@ -845,9 +845,7 @@ Positions share one third of score mass, like attacking and defending technique 
 
 **Nothing about the score decays.** `deckMastery` moves only on answers — the score cannot drop
 because time passed (a failed card can lower it; it can never lower a belt, below). Retention-vs-pressure is the schedule's (`ngKnowledgeScheduleRow`: his ladder, 1 day to 8 years,
-then the fitted curve, each rung x × (1 + (4 years ÷ x)^(1/6)) after the one before, 15.1, 27.2, 47 years (U226 a); a right
-answer on or after the due earns one step on the due day and more after it, `ngKnowledgeLate`: twice the wait wherever his
-step doubles, the step's own multiple where it does not, the curve's past 4 years; a miss 1 day): *what you are shown*, never what a deck is *worth*. A card
+then a fitted curve; a late right answer earns more than a step, a miss 1 day): *what you are shown*, never what a deck is *worth*. A card
 climbs its step at a steady pace: each day you waited before answering right earns the same share of the step, whenever
 you answer (his formula, at the ratio of the step the card is in). So an early right answer never leaves a card due sooner
 than without it. A card can end ahead of answering on time only by whole days, never in exact days: at most 3 in the
