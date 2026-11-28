@@ -198,16 +198,16 @@ test("old blob, new app: a pre-v1.255.0 account loads with every number unchange
 // v1.281.0 (LIN1): [4] and [5] of a moves row are the schedule's pair, so "a later build's" cells start at [6], after it ([0, 0]
 // when the row has no pair); the claim is unchanged: they ride along through a grade. v1.305.0 (LATE1): [6] and [7] are the
 // late mark (the one-step interval of a row the late rule stretched; [0, 0] when none and cells follow), so a later build's
-// cells start at [8]. This answer is a day late, 4 days after the last: twice that, 8 days, beats one step (7; LATE2 the same,
-// the 3-day rung's step being more than double), so the row
-// carries its mark [7, 8] and the tail after it
+// cells start at [8]; since LATEFIX1 the mark is three cells, [R, I, the answer's day] ([0, 0, 0] when none), so they start at
+// [9]. This answer is a day late, 4 days after the last: twice that, 8 days, beats one step (7; LATE2 the same, the 3-day
+// rung's step being more than double), so the row carries its mark [7, 8, DAY] and the tail after it
 test("R4 / R5: a graded account saves `moves`; a grade keeps a later build's tail on the row", () => {
-  const a = boot({ v: 2, moves: { "76/top": { "307": [DAY - 1, 3, DAY - 4, 1, 0, 0, 0, 0, 5, 9] } } });
+  const a = boot({ v: 2, moves: { "76/top": { "307": [DAY - 1, 3, DAY - 4, 1, 0, 0, 0, 0, 0, 5, 9] } } });
   a.nodes = [{ id: "Positions/Mount", t: "Mount", ty: "positions" }, { id: "Submissions/Kimura/from-Mount", t: "Kimura from Mount", ty: "submissions" }];
   a._ordById = new Map([["Positions/Mount", 76], ["Submissions/Kimura/from-Mount", 307]]);
   a.siteIdOf = (id) => id; a._hmAt = 0; a.currentPos = 0; a.playerRole = "top";
   a._gradeMove({ idx: 1, node: a.nodes[1] }, true, CARD());
-  assert.deepEqual(a.moves["76/top"]["307"], [DAY + 8, 7, DAY, 1, 0, 0, 7, 8, 5, 9], "the schedule moved on, its late mark after the pair's slot, and the tail rode along");
+  assert.deepEqual(a.moves["76/top"]["307"], [DAY + 8, 7, DAY, 1, 0, 0, 7, 8, DAY, 5, 9], "the schedule moved on, its late mark after the pair's slot, and the tail rode along");
   assert.deepEqual(a._progressBlob().moves, a.moves, "a held cell is saved");
   const empty = boot({ v: 2, moves: { "76/top": {} } })._progressBlob();
   assert.ok(!("moves" in empty), "a `moves` with no cell (an earlier v1.255.0 build's {}) is not written back");

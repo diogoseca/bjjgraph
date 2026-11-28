@@ -249,7 +249,7 @@ test("an early right answer never leaves a card due sooner than without it on ev
   // multiple of the 44 days, 75.43, beats one step, at its own day; day 86 early: 75.43 stands on the 60-day rung's line and
   // climbs to 90.86 (LATE1's first form: twice the 44 days, 88, then 116)
   // (each stretched row carries its late mark, v1.305.0: the one-step client's interval for the same answers, 72 then 87)
-  assert.deepEqual(without, [[D + 54, 30, D + 12, 30, D], [D + 132, 60, D + 56, (44 * 72) / 42, D + 56, 72, (44 * 72) / 42], [D + 177, 60, D + 86, 90, 20485.14285714286, 87, 90.8571428571413]]);
+  assert.deepEqual(without, [[D + 54, 30, D + 12, 30, D], [D + 132, 60, D + 56, (44 * 72) / 42, D + 56, 72, (44 * 72) / 42, D + 56], [D + 177, 60, D + 86, 90, 20485.14285714286, 87, 90.8571428571413, D + 86]]);
   assert.deepEqual(without.slice(1).map((r) => K.ngKnowledgeMark(r)), rows([D + 30, 30, D], on([12, 56, 86]), onestep.write).slice(1).map((r) => onestep.interval(r)), "the marks are the one-step client's intervals, row for row");
   // with day 19, day 56 is early and walks the card's first line (60 days from day 30), untouched by the late rule: the extra
   // answer restarted the wait day 56 would have been paid for, so this card is due 3 days sooner than the one without it
@@ -263,8 +263,8 @@ test("an early right answer never leaves a card due sooner than without it on ev
   assert.deepEqual(rows(start, [far[0], T + 21, ...far.slice(1)], onestep.write).at(-1), [14005, 120, 12113, 1891.1833333333334, 12113], "with it: 14005, later (v1.281.0: 14007, 39 days sooner)");
   // (their late marks, v1.305.0: the one-step client's intervals above, 1822.19 and 1891.18, so the rating reads each card as
   // the one-step client would)
-  assert.deepEqual(rows(start, far).at(-1), [14397, 120, 12113, 1461, 11290, 1822.1916666666668, 2284], "the shipped writer, without it: due 14397");
-  assert.deepEqual(rows(start, [far[0], T + 21, ...far.slice(1)]).at(-1), [14397, 120, 12113, 1461, 11290, 1891.1833333333334, 2284], "with it: the same due");
+  assert.deepEqual(rows(start, far).at(-1), [14397, 120, 12113, 1461, 11290, 1822.1916666666668, 2284, 12113], "the shipped writer, without it: due 14397");
+  assert.deepEqual(rows(start, [far[0], T + 21, ...far.slice(1)]).at(-1), [14397, 120, 12113, 1461, 11290, 1891.1833333333334, 2284, 12113], "with it: the same due");
 });
 
 test("from rows v1.281.0 wrote (anchors off the rungs): one early answer, then the next on its old due, its own new due or any later day, is never behind unless the late rule decided the next (LATE1, LATE2)", () => {
@@ -427,7 +427,7 @@ test("ahead of answering on time only by whole days, never in exact days: at mos
   // due 22523, 539 days)
   const P5n = onTimePath(c5, 8, false);
   assert.deepEqual(P5n.map((p) => p.day), [20417, 20450, 20514, 20616, 20821, 21234, 22060, 23713], "the shipped on-time path");
-  assert.deepEqual(P5n.find((p) => p.day >= 21196).row, [22060, 120, 21234, 0, 0, 782.2142857142857, 826], "(its late mark: the one-step 782.21)");
+  assert.deepEqual(P5n.find((p) => p.day >= 21196).row, [22060, 120, 21234, 0, 0, 782.2142857142857, 826, 21234], "(its late mark: the one-step 782.21)");
   console.log(`ahead of on time: (a) ${ahead} of ${prefixes} by at most ${days} whole days, ${aheadExact} in exact days; (b) ${aheadB} of ${tried}`);
 });
 

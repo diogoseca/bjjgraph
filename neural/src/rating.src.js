@@ -298,12 +298,13 @@ function ngRatingSchedStep(ivl) {
   }
   return L[n];
 }
-// THE INTERVAL THE RATING READS (v1.305.0, LATE1): a stretched row's late mark [R, I] after the pair's slot, a copy of
-// knowledge-profile's `ngKnowledgeMark` (read only when R ≥ 1, R < I and I is the row's exact interval), else the row's exact
-// interval. tests/schedule_late_mark.test.mjs pins it equal to the original over every row shape the writer makes.
+// THE INTERVAL THE RATING READS (v1.305.0, LATE1): a stretched row's late mark [R, I, L] after the pair's slot, a copy of
+// knowledge-profile's `ngKnowledgeMark` (read only when R ≥ 1, R < I, I is the row's exact interval and L, its answer's day,
+// the row's last: LATEFIX1, so a mark an older build carried through its own answers never counts again), else the row's
+// exact interval. tests/schedule_late_mark.test.mjs pins it equal to the original over every row shape the writer makes.
 export function ngRatingReadInterval(row, at) {
   const ivl = ngRatingSchedInterval(row, at), R = row[at + 2], I = row[at + 3];
-  return ngRatingNum(R) && R >= 1 && ngRatingNum(I) && R < I && ivl === I ? R : ivl;
+  return ngRatingNum(R) && R >= 1 && ngRatingNum(I) && R < I && row[2] === row[at + 4] && ivl === I ? R : ivl;
 }
 export function ngRatingSchedInterval(row, at) {
   const last = row[2], A = row[at], t0 = row[at + 1];

@@ -12,8 +12,9 @@ import { journey } from "../dsl";
  *
  * The card: a 60-day card last answered 100 days ago (due 40 days ago), on the rung whose step is under double (60 → 90,
  * × 1.5). One step gives 90 days (v1.304.0); the rule gives 1.5 × the 100 days, 150 (LATE1's first form, twice the wait, gave
- * 200), and the row carries its late mark for the rating, [0, 0, 90, 150] after the three cells (the one-step interval the
- * rating reads, and the row's own as its check; tests/schedule_late_mark.test.mjs). The saved blob holds the same row.
+ * 200), and the row carries its late mark for the rating, [0, 0, 90, 150, day] after the three cells (the one-step interval
+ * the rating reads, the row's own and the answer's day as its checks; tests/schedule_late_mark.test.mjs). The saved blob holds
+ * the same row.
  * (LATE1's card, a 30-day card 75 days on, gives 150 under both forms, so it could not tell them apart.)
  * What the harness does not serve here: dossiers (the DSL's empty stub); nothing below reads one.
  * The rule's numbers, its edges and its mutants are pinned in the units (tests/schedule_late.test.mjs); this journey is the
@@ -72,7 +73,7 @@ test("a card answered late in Practice comes back after his late rule's interval
     return { row: a.srs[p.key][p.qh], saved: a._progressBlob().srs[p.key][p.qh] };
   }, plant);
   // 1.5 × the 100 days since its last answer (the 60-day rung's step is × 1.5): 150 days (one step gave 90; twice the wait
-  // would be 200), its late mark the one-step 90
-  expect(r.row, "the stored row: due in 150 days, cell 120, answered today, its late mark").toEqual([plant.day + 150, 120, plant.day, 0, 0, 90, 150]);
+  // would be 200), its late mark the one-step 90, of today's answer
+  expect(r.row, "the stored row: due in 150 days, cell 120, answered today, its late mark").toEqual([plant.day + 150, 120, plant.day, 0, 0, 90, 150, plant.day]);
   expect(r.saved, "and the saved blob holds it").toEqual(r.row);
 });

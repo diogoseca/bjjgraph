@@ -6,8 +6,9 @@
 // WHY: the late rule stretches a card's interval without its memory being stronger, and the rating read a longer
 // `due − last` as better recall (LATE1 Part A: 16 to 31 points high while true recall fell). The row alone cannot say a row was
 // stretched (a 30-day card on its due and a 3-day card answered 30 days after its last answer both store [last + 60, 60,
-// last]), so a stretched row stores [R, I] after the pair's slot: R the interval the one-step schedule would hold after the
-// same answers, I the row's own exact interval (the mark's check). The rating reads R; the schedule never reads the mark.
+// last]), so a stretched row stores [R, I, L] after the pair's slot: R the interval the one-step schedule would hold after the
+// same answers, I the row's own exact interval and L the day of its answer (the mark's checks; L since LATEFIX1, the reader's
+// F1). The rating reads R; the schedule never reads the mark.
 //
 // LATE2 (v1.305.0, the late rule's final form, U226 a; the ladder past 4 years the fitted curve's): the mark is unchanged in
 // code. Its one-step schedule is the captured one-step code ON HIS LADDER (`onestepNow`, tests/_onestep_client.mjs), which is
@@ -25,6 +26,8 @@
 //     reads its own row for the same answers, never above (measured: equal in every one of 64,000 readings over 800
 //     histories, srs and moves, early, on time, late and very late, with misses), and never above v1.304.0's;
 //   · the mark checks itself: an older build's later answer (it copies the cells forward), a clamped pull, a damaged mark;
+//   · an older build's CHAIN of answers never makes a stale mark count again (LATEFIX1, the reader's F1): a miss, then a climb
+//     back to exactly the mark's interval, through v1.304.0's writer, its moves merge (captured) and its journal replay;
 //   · it rides through this build's pull merge, and the heal writes its own; the three copies agree on every row shape.
 //
 // MUTANTS (v1.305.0), each applied alone and run against this file and the schedule unit files; each turned the NAMED test red
@@ -35,6 +38,8 @@
 //   K4  the pull merge drops the cloud's mark                                    → "the pull merge carries the mark…"
 //   K5  the heal writes no mark                                                  → "the pull merge carries the mark…"
 //   K6  a full tie without the reading (the text decides)                        → tests/schedule_linear.test.mjs, "the srs merge…"
+//   L1  the mark's day check dropped (LATEFIX1; all three copies)                 → "an older build's chain of answers never makes…"
+//       and "the mark checks itself…"
 //
 // Run: node --test tests/schedule_late_mark.test.mjs
 import { test } from "node:test";
@@ -44,8 +49,8 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import * as K from "../neural/src/knowledge-profile.src.js";
 import * as R from "../neural/src/rating.src.js";
-import { ngProgressMark, ngProgressMergeMoves } from "../neural/src/progress-owner.src.js";
-import { onestep, onestepRecall, onestepNow, onestepNowRecall, schedulePart } from "./_onestep_client.mjs";
+import { ngProgressMark, ngProgressMergeMoves, ngProgressReplay } from "../neural/src/progress-owner.src.js";
+import { onestep, onestepRecall, onestepNow, onestepNowRecall, onestepMergeMoves, schedulePart } from "./_onestep_client.mjs";
 import { ratingFixture } from "./_rating_fixture.mjs";
 
 const W = K.ngKnowledgeScheduleRow, L = K.NG_KNOWLEDGE_LADDER, cell = K.ngKnowledgeCell;
@@ -111,18 +116,18 @@ test("every row written before this build reads exactly as v1.304.0's rating rea
 
 test("a stretched row reads at the one-step interval: the 3-day card 75 days on reads 0.9 a week later, the 60-day card at 90 days", () => {
   const r = W([D + 3, 3, D], true, D + 75);
-  assert.deepEqual(r, [D + 75 + 150, 120, D + 75, 0, 0, 7, 150], "due in 150 days, its late mark 7 (one step from 3)");
+  assert.deepEqual(r, [D + 75 + 150, 120, D + 75, 0, 0, 7, 150, D + 75], "due in 150 days, its late mark 7 (one step from 3), of the answer on day D + 75");
   assert.ok(Math.abs(R.ngRatingRecall(r, true, D + 82) - 0.9) < 1e-12, "read at 7 days: 0.9 a week on");
   assert.ok(R.ngRatingRecall(r.slice(0, 3), true, D + 82) > 0.99, "read at 150 (the row without its mark): 0.995");
   assert.equal(R.ngRatingRecall(r, true, D + 82), onestepRecall(onestep.write([D + 3, 3, D], true, D + 75), true, D + 82), "as the one-step client reads its own row");
   // the 60-day card a day late (LATE2: 1.5 × the 61 days, 91.5; on its due day it takes one step, 90, and is not stretched)
   const s = W([D + 60, 60, D], true, D + 61);
-  assert.deepEqual(s, [D + 61 + 92, 60, D + 61, 91.5, D + 61, 90, 91.5]);
+  assert.deepEqual(s, [D + 61 + 92, 60, D + 61, 91.5, D + 61, 90, 91.5, D + 61]);
   assert.ok(Math.abs(R.ngRatingRecall(s, true, D + 151) - 0.9) < 1e-12, "the 60-day card a day late: due in 91.5, read at 90");
   assert.ok(Math.abs(R.ngRatingRecall([D + 61 + 92, 60, D + 61, 91.5, D + 61], true, D + 151) - Math.pow(0.9, 90 / 91.5)) < 1e-12, "without its mark: at 91.5");
   // the moves layout reads the same, the answer at [3]
   const m = W([D + 3, 3, D, 1], true, D + 75, 4);
-  assert.deepEqual(m, [D + 225, 120, D + 75, 1, 0, 0, 7, 150]);
+  assert.deepEqual(m, [D + 225, 120, D + 75, 1, 0, 0, 7, 150, D + 75]);
   assert.ok(Math.abs(R.ngRatingRecall(m, true, D + 82, 4) - 0.9) < 1e-12);
   // a row the late rule did not stretch carries nothing: on its due day on every rung (the 60-day one too, since LATE2), and
   // every early answer
@@ -163,13 +168,13 @@ test("on one device, every card reads as the one-step schedule on his ladder rea
 });
 
 test("the mark checks itself: an older build's later answer, a clamped pull, a damaged mark", () => {
-  const r = W([D + 3, 3, D], true, D + 75);   // [D + 225, 120, D + 75, 0, 0, 7, 150]
+  const r = W([D + 3, 3, D], true, D + 75);   // [D + 225, 120, D + 75, 0, 0, 7, 150, D + 75]
   assert.equal(K.ngKnowledgeMark(r), 7);
   // the one-step client (and every v1.281.x build) answers it later: it copies the cells after the pair forward under its own
-  // new interval, so the mark fails its check and the row reads as that build wrote it
+  // new answer, so the mark fails its check (its day is not the row's last) and the row reads as that build wrote it
   for (const d of [D + 100, D + 225, D + 300]) {
     const o = onestep.write(r, true, d);
-    assert.deepEqual(o.slice(5), [7, 150], `premise: the one-step client copied the cells on day ${d}`);
+    assert.deepEqual(o.slice(5), [7, 150, D + 75], `premise: the one-step client copied the cells on day ${d}`);
     assert.equal(K.ngKnowledgeMark(o), null, `day ${d}: stale`);
     assert.equal(R.ngRatingReadInterval(o, 3), K.ngKnowledgeInterval(o), `day ${d}: read as its own interval`);
     assert.equal(R.ngRatingRecall(o, true, d + 9), onestepRecall(o, true, d + 9), `day ${d}: as v1.304.0 reads it`);
@@ -180,15 +185,85 @@ test("the mark checks itself: an older build's later answer, a clamped pull, a d
   assert.equal(K.ngKnowledgeMark(onestep.write(r, false, D + 80)), null);
   // a pull clamps a fast clock's `last`: the interval read grows, the mark fails, the row reads its longer interval
   const clamped = K.ngKnowledgeMergeRow(undefined, r, D + 70);
-  assert.deepEqual(clamped, [D + 225, 120, D + 70, 0, 0, 7, 150]);
+  assert.deepEqual(clamped, [D + 225, 120, D + 70, 0, 0, 7, 150, D + 75]);
   assert.equal(K.ngKnowledgeMark(clamped), null);
-  // damaged: R not below I, R below 1, I not the row's interval, not numbers; and the [0, 0] that fills an empty slot
-  for (const tail of [[150, 150], [151, 150], [0.5, 150], [7, 149], [7, 151], [NaN, 150], [7, Infinity], [0, 0]]) {
+  // damaged: R not below I, R below 1, I not the row's interval, not numbers; the day not the row's last (LATEFIX1), or
+  // missing (LATE1's two-cell form, never shipped); and the [0, 0, 0] that fills an empty slot. Each tail differs from the
+  // valid one in ONE cell, so each case is decided by its own condition (the valid one first, as the control)
+  const L = D + 75, valid = r.slice(0, 5).concat([7, 150, L]);
+  assert.equal(K.ngKnowledgeMark(valid), 7);
+  assert.equal(R.ngRatingReadInterval(valid, 3), 7);
+  assert.equal(ngProgressMark(moves(valid)), 7);
+  for (const tail of [[150, 150, L], [151, 150, L], [0.5, 150, L], [7, 149, L], [7, 151, L], [NaN, 150, L], [7, Infinity, L],
+    [7, 150, L - 1], [7, 150, L + 1], [7, 150, NaN], [7, 150], [0, 0, 0]]) {
     const x = r.slice(0, 5).concat(tail);
     assert.equal(K.ngKnowledgeMark(x), null, `${tail}`);
     assert.equal(R.ngRatingReadInterval(x, 3), 150, `${tail}: read at its own interval`);
     assert.equal(ngProgressMark(moves(x)), null, `${tail} (moves)`);
   }
+});
+
+// LATEFIX1 (the reader of PR #472, F1): every build from v1.281.0 to v1.304.x keeps the cells after the pair (its writer copies
+// them on every answer, its moves merge keeps a cloud row's tail, its journal replay rebuilds on the cloud's row with the tail),
+// and its answers can bring a card back to EXACTLY the interval a stale mark names: a miss, then on-time answers. Until the mark
+// carried its answer's day, the stale mark then checked again and this build read the card a rung low for good (60 where the
+// one-step schedule and v1.304.1 read 90; its next answers 90, 180, 365 for 180, 365, 730). The day closes it: an older build's
+// answer always moves the row's last, except an answer on the same day, which either leaves the row as it was (an early right
+// answer with no day waited: the mark still describes it) or sends it to 1 day (a miss: no mark checks at 1 day)
+test("an older build's chain of answers never makes a stale mark count again: a miss, then a climb back to the same interval, through its writer, its moves merge and its journal replay (LATEFIX1)", () => {
+  const D0 = 21000;
+  const climb = (row, at, write) => {   // a miss on the due day, then six right answers each on its due day
+    let r = write(row, false, row[0], at);
+    for (let i = 0; i < 6; i++) r = write(r, true, r[0], at);
+    return r;
+  };
+  // the one-step schedule over the same answers, for the reading every build should agree on
+  const oneStep = (prior, at, firstDay) => { let x = onestepNow.write(prior, true, firstDay, at); x = onestepNow.write(x, false, x[0], at); for (let i = 0; i < 6; i++) x = onestepNow.write(x, true, x[0], at); return x; };
+  // (1) A MOVES ROW, the reader's case: this build answers a 30-day move 45 days after its last answer (twice 45: 90, marked 60)
+  const prior = [D0 - 15, 30, D0 - 45, 1], a = W(prior, true, D0, 4);
+  assert.deepEqual(a, [D0 + 90, 60, D0, 1, 0, 0, 60, 90, D0], "premise: stretched and marked on its answer's day");
+  // v1.304.0's moves merge (captured) pulls it and keeps it whole; that build misses it and climbs back to 90 days
+  const pulled = onestepMergeMoves({ s: { m: prior.slice() } }, { s: { m: a.slice() } }, D0).s.m;
+  assert.deepEqual(pulled, a, "premise: the older merge keeps the cells");
+  const b = climb(pulled, 4, onestep.write);
+  assert.deepEqual(b.slice(5), [0, 60, 90, D0], "premise: the older writer copied the stale mark forward");
+  assert.equal(onestep.interval(b, 4), 90, "premise: back at exactly the mark's interval");
+  // this build pulls it back: the stale mark does not count, and the card reads as v1.304.0 and the one-step schedule read it
+  const c = ngProgressMergeMoves({ s: { m: a.slice() } }, { s: { m: b.slice() } }, b[2]).s.m, ref = oneStep(prior, 4, D0);
+  assert.equal(ngProgressMark(c), null, "the stale mark (progress-owner's copy)");
+  assert.equal(K.ngKnowledgeMark(c, 4), null, "the stale mark (the law)");
+  assert.deepEqual([R.ngRatingReadInterval(c, 4), onestepNow.interval(ref, 4)], [90, 90], "read at 90, the one-step schedule's (it read 60)");
+  assert.equal(R.ngRatingRecall(c, true, c[2] + 30, 4), onestepRecall(c, true, c[2] + 30, 4), "recall as v1.304.0 reads it");
+  // and this build's next answers on time read as the one-step schedule does, not a rung behind
+  let e = c, f = ref;
+  for (const want of [180, 365, 730]) {
+    const d = e[0]; e = W(e, true, d, 4); f = onestepNow.write(f, true, d, 4);
+    assert.deepEqual([R.ngRatingReadInterval(e, 4), onestepNow.interval(f, 4)], [want, want], `on time: ${want}`);
+  }
+  // (2) AN SRS ROW, through the older writer (an older tab on the same browser answers the row this build stored)
+  const sp = [D0 - 15, 30, D0 - 45], sa = W(sp, true, D0), sb = climb(sa, 3, onestep.write);
+  assert.deepEqual([sb.slice(3), onestep.interval(sb)], [[0, 0, 60, 90, D0], 90], "premise: the stale mark carried, at 90 again");
+  assert.equal(K.ngKnowledgeMark(sb), null);
+  assert.deepEqual([R.ngRatingReadInterval(sb, 3), onestepNow.interval(oneStep(sp, 3, D0))], [90, 90]);
+  // (3) THE OLDER JOURNAL REPLAY: its replay (byte for byte this build's `ngProgressReplay`) with its own writer rebuilds a
+  // miss onto the cloud's marked row, cells kept; that build then climbs back to 90
+  const cloud = { v: 2, srs: { d: { q: sa.slice() } } }, miss = [1, 0, "d", "q", 0, sa[0], [sa[0] + 1, 1, sa[0]]];
+  const rep = ngProgressReplay({ v: 2, srs: { d: { q: miss[6] } } }, cloud, [miss], onestep.write, sa[0]);
+  const replayed = rep.blob.srs.d.q;
+  assert.deepEqual(replayed, [sa[0] + 1, 1, sa[0], 0, 0, 60, 90, D0], "premise: the replayed miss carries the cells");
+  let rr = replayed;
+  for (let i = 0; i < 6; i++) rr = onestep.write(rr, true, rr[0]);
+  assert.deepEqual([onestep.interval(rr), rr.slice(5)], [90, [60, 90, D0]], "premise: back at 90 with the stale mark");
+  assert.equal(K.ngKnowledgeMark(rr), null);
+  assert.equal(R.ngRatingReadInterval(rr, 3), 90);
+  // (4) THE SAME DAY: an older build's answer on the mark's own day either keeps the row (early, no day waited: the mark still
+  // describes it, and still counts) or misses it (1 day: no mark checks there, then or after any climb)
+  const same = onestep.write(sa, true, D0);
+  assert.deepEqual(same, sa, "premise: kept as it was");
+  assert.equal(K.ngKnowledgeMark(same), 60);
+  const sameMiss = onestep.write(sa, false, D0);
+  assert.deepEqual([sameMiss.slice(0, 3), K.ngKnowledgeMark(sameMiss)], [[D0 + 1, 1, D0], null]);
+  assert.equal(K.ngKnowledgeMark(climb(sameMiss, 3, onestep.write)), null);
 });
 
 test("the pull merge carries the mark, and the heal writes its own; the three copies agree on every row shape", () => {
@@ -200,17 +275,17 @@ test("the pull merge carries the mark, and the heal writes its own; the three co
   // the heal: a fresh 3-day answer on the same day beats the stretched row (smaller cell) and heals to its 150 days; it reads
   // at the longer of the two one-step readings (7 and 3): 7
   const fresh = [D + 78, 3, D + 75];
-  assert.deepEqual(K.ngKnowledgeMergeRow(fresh, r, D + 90), [D + 225, 120, D + 75, 0, 0, 7, 150]);
-  assert.deepEqual(K.ngKnowledgeMergeRow(r, fresh, D + 90), [D + 225, 120, D + 75, 0, 0, 7, 150]);
+  assert.deepEqual(K.ngKnowledgeMergeRow(fresh, r, D + 90), [D + 225, 120, D + 75, 0, 0, 7, 150, D + 75]);
+  assert.deepEqual(K.ngKnowledgeMergeRow(r, fresh, D + 90), [D + 225, 120, D + 75, 0, 0, 7, 150, D + 75]);
   // from an earlier day: a fresh anchor at the winner's last, its own mark for it
-  assert.deepEqual(K.ngKnowledgeMergeRow([D + 79, 3, D + 76], r, D + 90), [D + 226, 120, D + 76, 0, 0, 7, 150]);
+  assert.deepEqual(K.ngKnowledgeMergeRow([D + 79, 3, D + 76], r, D + 90), [D + 226, 120, D + 76, 0, 0, 7, 150, D + 76]);
   // where the winner's own reading is the longer, it is the mark's; where it reaches the heal's interval, no mark
-  assert.deepEqual(K.ngKnowledgeMergeRow([D + 105, 30, D + 75], r, D + 90), [D + 225, 120, D + 75, 0, 0, 30, 150]);
+  assert.deepEqual(K.ngKnowledgeMergeRow([D + 105, 30, D + 75], r, D + 90), [D + 225, 120, D + 75, 0, 0, 30, 150, D + 75]);
   assert.deepEqual(K.ngKnowledgeMergeRow([D + 105, 30, D + 75], r.slice(0, 3), D + 90), [D + 225, 120, D + 75]);
   // the moves merge the same way
   const mv = W([D + 3, 3, D, 1], true, D + 75, 4), mfresh = [D + 78, 3, D + 75, 1];
   const mm = ngProgressMergeMoves({ s: { m: mfresh } }, { s: { m: mv } }, D + 90).s.m;
-  assert.deepEqual(mm, [D + 225, 120, D + 75, 1, 0, 0, 7, 150]);
+  assert.deepEqual(mm, [D + 225, 120, D + 75, 1, 0, 0, 7, 150, D + 75]);
   assert.deepEqual(ngProgressMergeMoves({ s: { m: mv } }, { s: { m: mfresh } }, D + 90).s.m, mm);
   // the copies: the rating's and the moves merge's readers equal the law's on every row the writer makes, marked or not
   const rnd = lcg(3);

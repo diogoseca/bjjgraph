@@ -163,7 +163,7 @@ test("the days past a step count at the next step's ratio; an EARLY answer never
   // day 29, 91 × 89 ÷ 59 = 137.27 (one step gave 89; twice the wait would be 182), carrying its late mark after the pair
   // ([the one-step interval, its own], tests/schedule_late_mark.test.mjs)
   assert.deepEqual(W(early, true, 88), [177, 60, 88], "on its due: one step from 59, 89 days");
-  assert.deepEqual(W(early, true, 120), [258, 120, 120, (91 * 89) / 59, 120, 89, (91 * 89) / 59], "late: 89 ÷ 59 × the 91 days since day 29");
+  assert.deepEqual(W(early, true, 120), [258, 120, 120, (91 * 89) / 59, 120, 89, (91 * 89) / 59, 120], "late: 89 ÷ 59 × the 91 days since day 29");
   assert.deepEqual([onestep.write(early, true, 88), onestep.write(early, true, 120)], [[177, 60, 88], [209, 60, 120]], "the one-step client, as captured");
   // NO CLIFF: from every between-steps row, an answer the day before the due earns at least half of what the due day earns
   // (the first draft, which dropped the days past the step, gave 1 day against 30 above: under half in 72% of such states).

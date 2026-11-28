@@ -23,6 +23,8 @@ export const onestep = new Function(ONESTEP.knowledge.ladder + "\n" + ONESTEP.kn
   "\nreturn { write: ngKnowledgeScheduleRow, merge: ngKnowledgeMergeRow, interval: ngKnowledgeInterval, next: ngKnowledgeNextInterval };")();
 export const onestepRecall = new Function([ONESTEP.rating.base, ONESTEP.rating.num, ONESTEP.rating.interval, ONESTEP.rating.recall].join("\n") +
   "\nreturn ngRatingRecall;")();
+// v1.304.0's moves merge (LATEFIX1), as captured: it keeps a cloud row's cells after the pair, the late mark among them
+export const onestepMergeMoves = new Function(ONESTEP.owner.mergeMoves + "\nreturn ngProgressMergeMoves;")();
 // the one substitution: the captured ladder's tail ("then doubling") replaced by the module's rungs, in the writer and in the
 // rating's copy alike; each anchor must occur exactly once in the captured text, or the helper refuses to load
 const once = (text, anchor, by) => { if (text.split(anchor).length !== 2) throw new Error("onestepNow: anchor not found once: " + anchor); return text.replace(anchor, by); };

@@ -123,11 +123,11 @@ function ngProgressSchedPair(row, at = 4) {
   return null;
 }
 // THE LATE MARK (v1.305.0, LATE1), a copy of knowledge-profile's `ngKnowledgeMark` (this group file cannot import it; tests/
-// schedule_late_mark.test.mjs pins the two equal): a stretched row's [R, I] after the pair's slot, R its one-step interval,
-// read only when R ≥ 1, R < I and I is the row's exact interval; else null
+// schedule_late_mark.test.mjs pins the two equal): a stretched row's [R, I, L] after the pair's slot, R its one-step interval,
+// read only when R ≥ 1, R < I, I is the row's exact interval and L (its answer's day, LATEFIX1) the row's last; else null
 export function ngProgressMark(row, at = 4) {
   const R = row[at + 2], I = row[at + 3];
-  return Number.isFinite(R) && R >= 1 && Number.isFinite(I) && R < I && ngProgressSchedInterval(row, at) === I ? R : null;
+  return Number.isFinite(R) && R >= 1 && Number.isFinite(I) && R < I && row[2] === row[at + 4] && ngProgressSchedInterval(row, at) === I ? R : null;
 }
 export function ngProgressSchedInterval(row, at) {
   const p = ngProgressSchedPair(row, at);
@@ -171,7 +171,7 @@ export function ngProgressMergeMoves(local, cloud, today) {
       const tw = ngProgressSchedInterval(w, 4), to = ngProgressSchedInterval(o, 4);
       if (tw > 1 && to > tw) {
         const mw = ngProgressMark(w), mo = ngProgressMark(o), R = Math.max(mw === null ? tw : mw, mo === null ? to : mo);
-        const rest = w.length > 8 ? w.slice(8) : [], mark = R < to ? [R, to] : rest.length ? [0, 0] : [], none = mark.length ? [0, 0] : [];
+        const rest = w.length > 9 ? w.slice(9) : [], mark = R < to ? [R, to, w[2]] : rest.length ? [0, 0, 0] : [], none = mark.length ? [0, 0] : [];
         if (o[2] === w[2]) w = o.slice(0, 3).concat(w[3], ngProgressSchedPair(o) ? o.slice(4, 6) : none, mark, rest);
         else {
           const A = to;   // the beaten interval as read, not rounded (v1.281.3, as `ngKnowledgeMergeRow`)

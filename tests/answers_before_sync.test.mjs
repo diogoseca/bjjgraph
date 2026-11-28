@@ -438,7 +438,7 @@ test("a late answer meets an older client's row: the later answer is kept, by th
   // 60-day rung's step is 1.5 ×; LATE1's first form: twice, 180)
   await withDay(D + 60, async () => { C.pullFails = true; C.mode = "fail"; answer(X, Q1, true); await flush(); await settle(); });
   assert.deepEqual(C.blob.srs.d[H1], older, "premise: offline, its push never landed");
-  assert.deepEqual(X.srs.d[H1], [D + 195, 120, D + 60, 0, 0, 90, 135], "on this copy alone: 135 days (its late mark: the one-step 90)");
+  assert.deepEqual(X.srs.d[H1], [D + 195, 120, D + 60, 0, 0, 90, 135, D + 60], "on this copy alone: 135 days (its late mark: the one-step 90)");
   // it comes online the same day: its answer is replayed on the cloud's newer row, in time order: 20 days after the other
   // device's answer and before that row's due, so EARLY there (20 days up the 90-day rung's line: 110), never the 135 its
   // stale copy gave (the late rule counts the wait from the last answer, and the replay knows it)
@@ -457,7 +457,7 @@ test("a late answer meets an older client's row: the later answer is kept, by th
   // days since the last answer, 105 days): its merge keeps the longer interval (the heal), both orders, and so does this
   // build's (LATE1's first form answered on the due day here, 120 against 90; on the due day both are now one step, 90)
   const mine = write(MATURE, true, D + 40), theirs = onestep.write(MATURE, true, D + 40);
-  assert.deepEqual([mine, theirs], [[D + 145, 60, D + 40, 0, 0, 90, 105], [D + 130, 60, D + 40]], "premise: 105 days (marked: one step was 90) and 90 days");
+  assert.deepEqual([mine, theirs], [[D + 145, 60, D + 40, 0, 0, 90, 105, D + 40], [D + 130, 60, D + 40]], "premise: 105 days (marked: one step was 90) and 90 days");
   assert.deepEqual(write(MATURE, true, D + 30), onestep.write(MATURE, true, D + 30), "on its due day: the same row, one step");
   // (v1.305.0's late mark rides through this build's merge; the one-step client's keeps the schedule and drops the cells after
   // the pair, so there the row reads uncorrected: knowledge-profile.src.js, `ngKnowledgeMark`, NOT COVERED)

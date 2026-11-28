@@ -107,14 +107,15 @@ test("on its due day: exactly one step, every whole interval to the ladder's top
   assert.deepEqual(half, [D + 62, 60, D + 1, 60, D], "60.5 days, due on day 62");
   const due = W(half, true, half[0]);
   assert.equal(iv(due), (61 * 91.5) / 60.5);
-  assert.deepEqual(due, [D + 62 + 93, 60, D + 62, (61 * 91.5) / 60.5, D + 62, 91.5, (61 * 91.5) / 60.5], "its late mark: the one-step 91.5");
+  assert.deepEqual(due, [D + 62 + 93, 60, D + 62, (61 * 91.5) / 60.5, D + 62, 91.5, (61 * 91.5) / 60.5, D + 62], "its late mark: the one-step 91.5, on its answer's day");
 });
 
 test("the continuous form: twice the wait wherever his step at least doubles, the step's own multiple where it does not (60 → 90 on its due, 91.5 a day late)", () => {
-  // (a row the late rule stretched carries its late mark after the pair's slot: [0, 0, the one-step interval, its own];
+  // (a row the late rule stretched carries its late mark after the pair's slot: [0, 0, the one-step interval, its own, the
+  // answer's day] (LATEFIX1: the day binds the mark to the answer it belongs to);
   // tests/schedule_late_mark.test.mjs)
-  assert.deepEqual(W([D + 60, 60, D], true, D + 61), [D + 61 + 92, 60, D + 61, 91.5, D + 61, 90, 91.5], "a day late: 1.5 × 61");
-  assert.deepEqual(W([D + 60, 60, D], true, D + 120), [D + 120 + 180, 120, D + 120, 0, 0, 90, 180], "the interval late: 1.5 × 120");
+  assert.deepEqual(W([D + 60, 60, D], true, D + 61), [D + 61 + 92, 60, D + 61, 91.5, D + 61, 90, 91.5, D + 61], "a day late: 1.5 × 61");
+  assert.deepEqual(W([D + 60, 60, D], true, D + 120), [D + 120 + 180, 120, D + 120, 0, 0, 90, 180, D + 120], "the interval late: 1.5 × 120");
   assert.deepEqual(onestep.write([D + 60, 60, D], true, D + 61), [D + 61 + 90, 60, D + 61], "the one-step client: 90");
   // the rung table (LATE1's study, Part A): on the due, a day late, the interval late (twice the interval since); only the
   // 60-day rung moves from LATE1's first form ([60, 120, 122, 240] there)
@@ -168,7 +169,7 @@ test("the top: past 4 years the rungs are the fitted curve's, and a late answer 
 
 test("very late: the ladder's own step for the days waited, however many (its top the only bound, no cap of ours)", () => {
   // two years late on a 3-day card: twice the 733 days since its last answer, four years and more
-  assert.deepEqual(W([D + 3, 3, D], true, D + 733), [D + 733 + 1466, 120, D + 733, 0, 0, 7, 1466]);
+  assert.deepEqual(W([D + 3, 3, D], true, D + 733), [D + 733 + 1466, 120, D + 733, 0, 0, 7, 1466, D + 733]);
   // a 2,922-day card two years late: the curve's line at 3,652 days, 6,766.25 (one step gave 5,525; LATE1's first form 7,304)
   assert.equal(iv(W(onRung(2922), true, D + 2922 + 730)), 5525 + (730 * (9951 - 5525)) / (5525 - 2922));
   assert.equal(iv(W([D + 3, 3, D], true, D + 75)), 150, "the 75-day carried card answered 75 days after: 150");
@@ -181,7 +182,7 @@ test("very late: the ladder's own step for the days waited, however many (its to
   assert.equal(K.ngKnowledgeLate(14, 400), 800);
   assert.equal(K.ngKnowledgeLate(90, 30), 180, "(a wait shorter than the interval is the writer's early line, never this function's: here one step)");
   // the moves rows read the same rule (`at` 4): the answer at [3] kept
-  assert.deepEqual(W([D + 7, 7, D, 1], true, D + 400, 4), [D + 1200, 120, D + 400, 1, 0, 0, 14, 800]);
+  assert.deepEqual(W([D + 7, 7, D, 1], true, D + 400, 4), [D + 1200, 120, D + 400, 1, 0, 0, 14, 800, D + 400]);
 });
 
 test("the study's four conditions on the writer: late never below on time, never falling as the wait grows, no jump at the due, his named rungs on time", () => {
@@ -305,7 +306,7 @@ test("an older build reads a row this rule wrote and climbs from it; every captu
   let n = 0;
   for (const row of written) {
     const I = iv(row);
-    assert.equal(row.length === 3 || row.length === 5 || row.length === 7, true, `${row}: the row keeps its shape (+ the pair, + the late mark)`);
+    assert.equal(row.length === 3 || row.length === 5 || row.length === 8, true, `${row}: the row keeps its shape (+ the pair, + the late mark, three cells since LATEFIX1)`);
     assert.ok([1, 3, 7, 14, 30, 60, 120].includes(row[1]), `${row}: its cell is a rung every client finds`);
     for (const [name, write] of [["v1.304.0", onestep.write], ["v1.281.0", lin1], ["v1.280.2", prev]]) {
       for (const d of [row[0], row[0] + 10]) {
