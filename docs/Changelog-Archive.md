@@ -22887,3 +22887,55 @@ eager raw 1,527,230 → 1,528,316 B (+1,086, all neural.js); eager gzip 394,723 
 80 B over its ceiling of 564,712 B, which left 9 B of room: moved to exactly its measured use, 564,792 B, in its own commit at
 the orchestrator's go (LATEGO2, under the owner's standing rule U207 a: 600,000 B, 35,208 B remain). The app rows re-seeded
 in their own commit (validate:build-shape:app); `npm run ci:validate` 27 of 27.
+
+### v1.305.0, LATE2 — the late rule's final form and the ladder's top (the owner, 28 Nov 2026, card U226 a: "The fitted curve: power 1/6")
+
+**The rule.** One function for the whole schedule (`ngKnowledgeLate`): on or after the due, max(step(I), t × min(step(I) ÷ I,
+C(t) ÷ t)), C(x) = x × (1 + (1461 ÷ x)^(1/6)), C(t) ÷ t = 2 up to 4 years. On the due day exactly one step (60 → 90; LATE1's
+first form gave 120 and every on-time step after it a third above his rungs); after it twice the wait where his step at least
+doubles, the step's own multiple where it does not (1.5 × on the 60-day rung), past 4 years the ladder's own step for the days
+waited. The rungs past 2,922 are C(the one before), rounded: 5,525, 9,951, 17,179, 28,571 … (on time 4 → 8 → 15.1 → 27.2 → 47
+years), in all three copies; 1,461 and 1/6 are named constants with their reasons. Built as min(t × s ÷ I, t × M): the study's
+t × min(…) lands 1e-12 of a day above one step on 23,070 of 700,000 whole-day due-day answers past 4 years. Largest gap to the
+exact curve from 4 to 60 years: 0.4036% (2,030 days, 15.9 under). Exact C(x) was not built: Math.pow in every answer past 4
+years is not bound to agree across engines, for at most 0.4%. The brief's day figures 10,472 and 19,917 were the study's
+5,844-day card (on its due, twice late), pinned as such; the chain is 9,951, 17,179.
+
+**Findings.** (1) An early answer restarts the wait the late rule pays: never on a due day now (the rung table's "one early
+answer, then the next, never costs the card" holds on the shipped writer, every rung); after a later late answer a 30-day card
+answered on days 12, 56, 86 is due on 177, with one more on day 19 on 174 (LATE1: 28 days); search: 234,909 of 799,356 decided
+comparisons sooner. (2) Two offline devices: 8 where in order 7; 225 where in order 180 (LATE1 300, 211). (3) An older build's
+pull drops the late mark (unchanged, NOT COVERED). (4) THE PART DAY: a card whose exact due falls inside a day, answered on that
+whole due day, is late by the part day and paid at the step's rate (60.5 → 92.26, one step 91.5); answered on every due day from
+such a start, about 5% above the one-step path (63.8, 101.7, 204.1 for 62.1, 96.4, 193.2); kept as approved (t ≥ I in whole
+days). (5) A check that never ran: "the copies' ladders are the module's" read rows whose pair can never check (4,286 rows, all
+read 1), so a copy left doubling passed; rewritten to a checking pair on every stretch. An older build's row past 4 years reads
+on the curve's line, under a day either way; none exists before 2030. Every row below 4 years, the four captured writers' and
+the rating journey's record, reads bit for bit as v1.304.0's rating: no rating falls at the update.
+
+**Tests.** The one-step baseline is the captured v1.304.0 code on his ladder (`onestepNow`, one substitution checked once;
+`late`, `latePath`). Restated, none removed, in schedule_late (rewritten: due day, continuous form, the top, very late, the
+study's four conditions, the gap, early), schedule_late_mark (3), schedule_linear (5), schedule_ladder (4), schedule_rung (11),
+knowledge_profile, answers_before_sync (the fake-cloud sync: 135 alone, 110 replayed in order), moves_account_safety. The
+journey: a 60-day card 100 days on, by mouse and touch tap, stores [day + 150, 120, day, 0, 0, 90, 150].
+
+| mutant (each alone, green control) | red | named |
+|---|---|---|
+| M1 `min(t × s ÷ I, …)` dropped | 20 | "on its due day: exactly one step…"; srs-late in the bundle (200) |
+| M2 power → 1/2 · M3 power → 0 · M4 start → 2,922 · M10 the writer's ladder doubling | 18 · 19 · 19 · 19 | "the top: past 4 years…" |
+| M5 `>=` → `>` at the due · M6 the max dropped | 11 · 25 | "on its due day…" (M5 by the part day) |
+| M7a early credit × 1.01 · M7b the walk's `>=` | 30 · 11 | "an early right answer: byte for byte…" |
+| M8 rating's copy doubling · M9 progress-owner's | 4 · 2 | schedule_linear "the three readers…" |
+| K1–K6 (the mark, re-run) | 4, 7, 2, 5, 2, 1 | as in LATE1's table |
+
+**The study's four players** (true recall today → LATE2; rating today / uncorrected / corrected): returning 240 owed 1,433.0 →
+1,442.6, 1,158.1 / 1,172.7 / 1,164.7; returning 434 owed 1,466.4 → 1,476.2, 1,204.1 / 1,219.1 / 1,208.9; steady skipping 1 day in
+5 1,449.5 → 1,455.4, 1,179.9 / 1,190.1 / 1,185.5; steady with rolls 1,443.9 → 1,420.2 (corrected 1,440.3), 1,390.1 / 1,432.4 /
+1,380.6, 517 fewer owed.
+
+**Payload** (both trees from emptied folders): eager raw +203 (neural.js), gzip 395,134 → 395,212 (4,788 under the action line).
+Deferred 564,792 → 564,994 (+202: the worker core +79 and game-study.js +79, which bundle the writer whole; gameplan.js +44, the
+rating's ladder copy): the ceiling moved to exactly 564,994 in its own commit at the orchestrator's GO (LATEGO3, the owner's U207
+a: 600,000, 35,006 remain). Follow-up, not done: the two worker bundles carry the schedule writer they never call; splitting it
+out would save several KB but moves the MDP's pinned law file. MDP re-pinned (5e11af…), all 62 shard parts byte-identical to
+LATE1's; the app rows re-seeded in their own commit. `docs/Neural.md`'s sentence trimmed to its ceiling, not the ceiling moved.
